@@ -4119,3 +4119,65 @@ structures. The next \(e=2\) problem is to classify or geometrically exclude
 other basepoint-free P-044 zeros. See
 \`notes/2026-10-05-p044-survivor-cubic.md\` and
 \`computations/verify_p044_survivor_cubic.py\`.
+
+
+## P-046. Primitive septuple forced in the (4,7), e=2 branch
+
+**P-046.** Let (Y=V(F_4,G_7)) be a characteristic-zero complete
+intersection supported on (C_0), and suppose its quasiprimitive
+Bănică--Forster branch has (e=2). Then (Y) has multiplicity seven and is
+globally primitive of type
+[
+L=O_{mathbf P^1}(-5).
+]
+Equivalently, for the Bănică--Forster pieces (E_i=L^i(D_i)),
+[
+D_2=D_3=D_4=D_5=D_6=0.
+]
+Moreover
+[
+M=ker(N_C^*	woheadrightarrow L)=O_{mathbf P^1}(-9)
+]
+and the primitive conormal sequence is
+[
+0	o L^7	o O_C(-4)oplus O_C(-7)	o M	o0.
+]
+Thus the first-normal kernel is naturally
+[
+Ksimeq L^7=O_{mathbf P^1}(-35).
+]
+
+**Status: PROVED / INDEPENDENTLY AUDITED.** The clean proof is the
+Bănică--Forster filtration plus Euler characteristic. A ((4,7)) complete
+intersection has (chi(O_Y)=-98), while for (e=2),
+[
+chi(O_Y)=sum_{i=0}^6chi(L^i(D_i))
+=-98+sum_{i=2}^6deg D_i.
+]
+Effectivity forces every defect divisor to vanish, which in the quasiprimitive
+BF setting is exactly global primitivity. The identification (Ksimeq L^7)
+comes from the primitive conormal sequence, not merely equality of degrees.
+
+Before first-normal surjectivity is established, the unconditional formula
+(deg K=e-4b-9) is false: if (A) is the common-zero/cokernel divisor of the
+first-normal pair, the correct formula is
+[
+deg K=e-4b-9+deg A.
+]
+For P-046, primitivity gives (A=0).
+
+Consequently every genuine ((4,7),e=2) carrier determines a basepoint-free
+P-044 zero, and its quartic generator contains the associated canonical
+primitive triple (C_3). Thus the immediate (e=2) frontier is to intersect
+the P-044 obstruction locus with the quartic-containment condition
+[
+H^0(I_{C_3}(4))
+e0,
+]
+rather than first classifying the unrestricted P-044 zero locus or computing
+higher primitive obstructions. See
+`notes/2026-10-05-e2-primitive-septuple.md`.
+
+The separately audited cubic-through-(C_2) rank-drop calculation is preserved
+in that note, but no implication from a genuine carrier to cubic rank drop is
+known; that implication remains **OPEN**.
