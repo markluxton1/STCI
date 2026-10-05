@@ -4082,3 +4082,42 @@ surviving family and resulting falsification of the universal cubic exclusion
 are independently reconstructed and verified. This does **not** prove existence of an (e=2) quartic carrier or
 an STCI pair. All statements here carry the characteristic-zero caveat. See
 `notes/2026-10-05-e2-full-obstruction.md`.
+
+
+## P-045. Explicit P-044 survivor has no quartic carrier
+
+**P-045.** In characteristic zero, for the independently verified P-044
+survivor family
+[
+A=z^2-	frac12z+x,qquad B=1-2z+x^{-1}z^2,qquad x
+e0,	frac14,
+]
+the canonical primitive triple (C_3(x)) lies on the irreducible cubic
+[
+H_x=D+4x^2B+4x^4A+
+(-4x^3x_0+8x^3x_1-2xx_2+4xx_3)q.
+]
+Moreover
+[
+H^0(I_{C_3(x)}(4))=H_xH^0(O_{mathbf P^3}(1)),
+qquad h^0(I_{C_3(x)}(4))=4.
+]
+Consequently this explicit survivor family cannot be induced by the quartic
+member of a ((4,7)) STCI presentation of (C_0).
+
+**Status: PROVED / INDEPENDENTLY AUDITED.**  Exact moving-coordinate
+substitution verifies (H_x|_{C_3}=0) modulo (epsilon^3).  Irreducibility
+is fiberwise: (C_0) is nonplanar and has unique containing quadric (q), but
+(q
+mid H_x).  The primitive filtration gives
+(deg C_3=12, p_a(C_3)=13); a proper ((3,4)) complete intersection has
+degree 12 and genus 19, and Hilbert-polynomial additivity rules out such an
+intersection containing (C_3).  Hence every containing quartic is
+(H_xell), whose plane factor necessarily creates extra set-theoretic
+intersection with any septic mate.
+
+This does **not** classify the full P-044 zero locus or eliminate all (e=2)
+structures.  The next (e=2) problem is to classify or geometrically exclude
+other basepoint-free P-044 zeros.  See
+`notes/2026-10-05-p044-survivor-cubic.md` and
+`computations/verify_p044_survivor_cubic.py`.
