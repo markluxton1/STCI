@@ -113,6 +113,13 @@ _,pivot_rows=M1.subs(pt0).T.rref()
 P=M1.extract(list(pivot_rows),list(pivot_cols))
 assert sp.factor(P.det()) == d**7*(b+2)*Delta/sp.Integer(128)
 
+# On the recommended dx=1 test bed this chart is especially clean.  Since
+# Delta=(b*x-a)^2/x there, basepoint-free implies x*(b*x-a) != 0, so the
+# chart covers the entire basepoint-free slice away from the single divisor
+# b=-2.
+P_dx1=sp.factor(P.det().subs(d,1/x))
+assert P_dx1 == (b*x-a)**2*(b+2)/(sp.Integer(128)*x**8)
+
 # P-045: first-order rank drops to 11, so its C2 quartic kernel has dimension
 # seven.  The second-order obstruction has rank three on that kernel, leaving
 # exactly four quartics.
@@ -144,5 +151,6 @@ for ell in X:
 print("PASS: dim I_C(4)=18 from direct monomial substitution")
 print("PASS: generic ranks M1=12, reduced R=6, full=18 at four exact points")
 print("PASS: rank-12 chart determinant = d^7*(b+2)*Delta/128")
+print("PASS: on dx=1 it is (b*x-a)^2*(b+2)/(128*x^8)")
 print("PASS: P-045 has ranks M1=11, reduced second-order=3, full=14")
 print("PASS: H_x*x_i vanish symbolically on P-045 canonical C3")
