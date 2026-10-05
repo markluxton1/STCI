@@ -4051,3 +4051,34 @@ The status vocabulary is:
 - **CONJECTURAL**: supported conjecture with stated evidence.
 - **SPECULATIVE**: potentially useful but weakly supported idea.
 - **ARCHIVE CLAIM**: inherited lead that has not yet survived current verification.
+
+## 2026-10-05 continuation: e=2 quartic-carrier obstruction
+
+**P-044.** In characteristic zero, the ambient stabilizer of
+(C_0=[s^4:s^3t:st^3:t^4]) is
+(mathbf G_mtimesmathbf Z/2). On the open locus (A_2B_0
+e0), projective
+scaling plus this genuine torus gives the generic (e=2) cross-section
+[
+A=x+az+z^2,qquad B=1+bz+dz^2.
+]
+The full cubic primitive-quadruple obstruction on this cross-section has exact
+coordinates (Omega_i=G_i/(32Delta)), with the five (G_i) independently
+regenerated and persisted in
+`computations/e2_full4_obstruction_2026-10-05.txt). The entire (b=0)
+three-parameter family is excluded by the exact ideal membership
+(Delta_0in(G_1,ldots,G_5)). However, the proposed universal implication
+(Omega=0RightarrowDelta=0) is **FALSE**: the family
+[
+A=z^2-	frac12z+x,qquad B=1-2z+x^{-1}z^2
+]
+has (G_1=cdots=G_5=0) and
+(Delta=(4x-1)^2/(4x)), hence is basepoint-free for
+(x
+e0,	frac14) and extends to a primitive quadruple.
+
+**Status:** ambient stabilizer and (b=0) exclusion PROVED; full obstruction
+formulas independently audited exact computation; universal cubic exclusion
+FALSIFIED. This does **not** prove existence of an (e=2) quartic carrier or
+an STCI pair. All statements here carry the characteristic-zero caveat. See
+`notes/2026-10-05-e2-full-obstruction.md`.
