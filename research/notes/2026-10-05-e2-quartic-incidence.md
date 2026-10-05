@@ -79,3 +79,41 @@ Durable verifier: research/computations/verify_e2_quartic_incidence.py.
 - Elimination of the full e=2 branch: **OPEN**.
 
 No theorem-level claim is promoted here.
+
+
+## 7. Sharpening on the dx=1 test bed
+
+**EXACT COMPUTATION.** Restricting the same rank-12 pivot minor to (d=x^{-1})
+gives
+[
+det P=rac{(bx-a)^2(b+2)}{128x^8}.
+]
+On this slice
+[
+Delta=rac{(bx-a)^2}{x}.
+]
+Therefore, on the basepoint-free locus, (x
+e0) and (bx-a
+e0), and this
+single six-dimensional kernel chart covers every point with (b
+e-2).
+
+Consequently the combined P-044/quartic-incidence problem on (dx=1) has a
+particularly clean stratification:
+
+1. (b
+e-2): use the single rank-12 chart and its reduced (6)-column
+   second-order obstruction;
+2. (b=-2): analyze the lower-rank/boundary behavior separately.  The known
+   P-045 family lies on this divisor.
+
+This does **not** prove that every point of (b=-2) has first-order rank 11,
+nor that P-045 exhausts the P-044 locus there.  Those statements remain
+**OPEN** until separately computed.
+
+A direct attempt to symbolically factor a full (6	imes6) reduced minor was
+stopped because expression growth became severe even after the (dx=1)
+restriction.  No determinant or factorization from that interrupted
+calculation is being reported.  The next implementation should use
+fraction-free polynomial linear algebra or modular evaluation/reconstruction,
+rather than expanding rational SymPy determinants.
