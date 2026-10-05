@@ -113,8 +113,8 @@ extensions.
 ## Late continuation: full e=2 quartic-carrier obstruction
 
 A later 2026-10-05 branch completed the ambient-stabilizer calculation and
-independently regenerated the generic four-parameter (e=2) cubic extension
-obstruction. In characteristic zero,
+computed the generic four-parameter (e=2) cubic extension obstruction exactly,
+with strong cross-checks. In characteristic zero,
 [
 operatorname{Stab}_{PGL_4}(C_0)congmathbf G_mtimesmathbf Z/2,
 ]
@@ -144,6 +144,10 @@ e0,	frac14,
 has all five obstruction coordinates zero and therefore extends to a primitive
 quadruple. This is not a quartic carrier or an STCI construction; it proves
 only that the first nontrivial (e=2) extension obstruction is insufficient.
+A subsequent independent audit reconstructed this surviving family's cubic
+obstruction directly from the pre-P-044 moving-coordinate formal-neighborhood
+calculation, obtaining \(\Omega=(0,0,0,0,0)\), and independently verified the
+resultant \((4x-1)^2/(4x)\).
 
 See [the full e=2 note](notes/2026-10-05-e2-full-obstruction.md) and the
 [exact formula audit](computations/e2_full4_obstruction_2026-10-05.txt).

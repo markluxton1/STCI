@@ -4063,8 +4063,7 @@ scaling plus this genuine torus gives the generic (e=2) cross-section
 A=x+az+z^2,qquad B=1+bz+dz^2.
 ]
 The full cubic primitive-quadruple obstruction on this cross-section has exact
-coordinates (Omega_i=G_i/(32Delta)), with the five (G_i) independently
-regenerated and persisted in
+coordinates (Omega_i=G_i/(32Delta)), with the five (G_i) obtained by exact computation with strong cross-checks and persisted in
 `computations/e2_full4_obstruction_2026-10-05.txt). The entire (b=0)
 three-parameter family is excluded by the exact ideal membership
 (Delta_0in(G_1,ldots,G_5)). However, the proposed universal implication
@@ -4078,7 +4077,8 @@ has (G_1=cdots=G_5=0) and
 e0,	frac14) and extends to a primitive quadruple.
 
 **Status:** ambient stabilizer and (b=0) exclusion PROVED; full obstruction
-formulas independently audited exact computation; universal cubic exclusion
-FALSIFIED. This does **not** prove existence of an (e=2) quartic carrier or
+formulas are an exact computational result with strong cross-checks; the explicit
+surviving family and resulting falsification of the universal cubic exclusion
+are independently reconstructed and verified. This does **not** prove existence of an (e=2) quartic carrier or
 an STCI pair. All statements here carry the characteristic-zero caveat. See
 `notes/2026-10-05-e2-full-obstruction.md`.

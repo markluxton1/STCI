@@ -2,7 +2,7 @@
 
 Date: 2026-10-05
 
-Status: **characteristic-zero continuation**. The ambient-stabilizer statement and the three-parameter exclusion are PROVED; the full four-parameter obstruction formulas are an independently regenerated exact computation with exact specialization checks. The proposed universal cubic exclusion is **FALSE**. Nothing here constructs a quartic carrier or an STCI presentation.
+Status: **characteristic-zero continuation**. The ambient-stabilizer statement and the three-parameter exclusion are PROVED; the full four-parameter obstruction formulas are an exact computational result with strong cross-checks, including exact specialization checks. The explicit surviving family and the resulting falsification of the universal cubic exclusion are independently reconstructed and verified. Nothing here constructs a quartic carrier or an STCI presentation.
 
 Throughout,
 [
@@ -87,7 +87,7 @@ G_1=cdots=G_5=0LongrightarrowDelta_0=0.
 ]
 Hence no basepoint-free member of this entire three-parameter family extends from the relevant primitive triple to a primitive quadruple. This strictly strengthens the earlier (x=b=0) result.
 
-## 5. Full four-parameter cubic obstruction — exact computation, independently regenerated
+## 5. Full four-parameter cubic obstruction — exact computation with strong cross-checks
 
 For
 [

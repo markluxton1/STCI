@@ -508,7 +508,7 @@ frontier. In characteristic zero the ambient stabilizer is
 [
 A=x+az+z^2,qquad B=1+bz+dz^2.
 ]
-The full cubic obstruction was independently regenerated. The (b=0)
+The full cubic obstruction was computed exactly with strong cross-checks. The (b=0)
 three-parameter family is excluded exactly, but the proposed universal
 statement
 [
@@ -524,7 +524,11 @@ operatorname{Res}(A,B)=rac{(4x-1)^2}{4x},
 ]
 so (x
 e0,	frac14) gives a basepoint-free primitive triple extending to a
-primitive quadruple.
+primitive quadruple. A subsequent independent audit reconstructed this
+surviving family's cubic obstruction directly from the pre-P-044 moving-coordinate
+formal-neighborhood calculation and obtained \(\Omega=(0,0,0,0,0)\); it also
+independently verified the displayed resultant. Thus this surviving family and
+the falsification are independently verified.
 
 Do not confuse this (O(-5)), (e=2) statement with the proved (O(-7))
 primitive-triple exclusion in P-010. No quartic carrier or STCI pair has been

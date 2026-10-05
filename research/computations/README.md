@@ -142,8 +142,8 @@ continued existence of that temporary environment.
 
 ## Full four-parameter e=2 obstruction data (2026-10-05)
 
-- `e2_full4_obstruction_2026-10-05.txt` is the durable exact audit dump for
-  the independently regenerated four-parameter (e=2) cubic obstruction.
+- `e2_full4_obstruction_2026-10-05.txt` is the durable exact computation dump for
+  the four-parameter (e=2) cubic obstruction, with strong cross-checks.
   It records the resultant (Delta), all five exact obstruction numerators
   (G_1,ldots,G_5), the raw mismatch denominator
   (32z^{25}Delta^3), exact divisibility of the five raw numerators by
