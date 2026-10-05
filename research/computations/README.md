@@ -139,3 +139,16 @@ Macaulay2 companions passed with `/opt/homebrew/bin/M2 --script`. Both the syste
 workspace Python failed before running any assertion because SymPy was not
 installed. The proofs recorded in `../RESEARCH_RECORD.md` do not rely on the
 continued existence of that temporary environment.
+
+## Full four-parameter e=2 obstruction data (2026-10-05)
+
+- `e2_full4_obstruction_2026-10-05.txt` is the durable exact audit dump for
+  the independently regenerated four-parameter (e=2) cubic obstruction.
+  It records the resultant (Delta), all five exact obstruction numerators
+  (G_1,ldots,G_5), the raw mismatch denominator
+  (32z^{25}Delta^3), exact divisibility of the five raw numerators by
+  (Delta^2), and the exact (b=0) specialization check against the
+  independently audited three-parameter calculation. It is formula data, not
+  by itself a proof that the parameter cross-section exhausts the geometric
+  problem; that symmetry argument and the scope warnings are in
+  `../notes/2026-10-05-e2-full-obstruction.md`.
