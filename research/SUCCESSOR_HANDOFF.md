@@ -502,43 +502,45 @@ must remain read-only; the primary alone reconciles the durable ledgers.
 
 ## 0a. Late 2026-10-05 e=2 correction
 
-The full (e=2) quartic-carrier obstruction branch materially changes the
+The full \(e=2\) quartic-carrier obstruction branch materially changes the
 frontier. In characteristic zero the ambient stabilizer is
-(mathbf G_mtimesmathbf Z/2), and a genuine generic cross-section is
-[
-A=x+az+z^2,qquad B=1+bz+dz^2.
-]
-The full cubic obstruction was computed exactly with strong cross-checks. The (b=0)
-three-parameter family is excluded exactly, but the proposed universal
+\(\mathbf G_m\times\mathbf Z/2\), and a genuine generic cross-section is
+\[
+A=x+az+z^2,\qquad B=1+bz+dz^2.
+\]
+The full cubic obstruction was computed exactly with strong cross-checks. The
+\(b=0\) three-parameter family is excluded exactly, but the proposed universal
 statement
-[
-Omega=0Rightarrowoperatorname{Res}(A,B)=0
-]
+\[
+\Omega=0\Rightarrow\operatorname{Res}(A,B)=0
+\]
 is **FALSE**. For
-[
-A=z^2-	frac12z+x,qquad B=1-2z+x^{-1}z^2
-]
+\[
+A=z^2-\tfrac12z+x,\qquad B=1-2z+x^{-1}z^2
+\]
 all five obstruction coordinates vanish, while
-[
-operatorname{Res}(A,B)=rac{(4x-1)^2}{4x},
-]
-so (x
-e0,	frac14) gives a basepoint-free primitive triple extending to a
+\[
+\operatorname{Res}(A,B)=\frac{(4x-1)^2}{4x},
+\]
+so \(x\ne0,\tfrac14\) gives a basepoint-free primitive triple extending to a
 primitive quadruple. A subsequent independent audit reconstructed this
 surviving family's cubic obstruction directly from the pre-P-044 moving-coordinate
 formal-neighborhood calculation and obtained \(\Omega=(0,0,0,0,0)\); it also
 independently verified the displayed resultant. Thus this surviving family and
 the falsification are independently verified.
 
-Do not confuse this (O(-5)), (e=2) statement with the proved (O(-7))
+Do not confuse this \(O(-5)\), \(e=2\) statement with the proved \(O(-7)\)
 primitive-triple exclusion in P-010. No quartic carrier or STCI pair has been
-constructed. Before pursuing higher (e=2) jets, determine the infinitesimal
-order a genuine quartic carrier actually forces. Also keep (e=0), (e=1),
+constructed. P-046 now determines what an actual \((4,7),e=2\) carrier would
+force: it is a globally primitive septuple. The next step is therefore to
+impose quartic containment of the canonical \(C_3\) on the P-044 locus, not to
+compute higher primitive jets indiscriminately. Also keep \(e=0\), \(e=1\),
 equivariance, and the uniform local-cohomology route open.
 
 See
-[the dated e=2 note](notes/2026-10-05-e2-full-obstruction.md) and
-[the exact formulas](computations/e2_full4_obstruction_2026-10-05.txt).
+[the dated e=2 note](notes/2026-10-05-e2-full-obstruction.md),
+[the exact formulas](computations/e2_full4_obstruction_2026-10-05.txt), and
+[the primitive-septuple note](notes/2026-10-05-e2-primitive-septuple.md).
 
 
 ## 0b. Late 2026-10-05 P-045 correction
