@@ -740,3 +740,17 @@ plus the primary process, eight total, while monitoring aggregate memory.
 The 64-process configuration is known unsafe and caused a crash. Each lane
 must own a distinct representation and return proof-grade certificates rather
 than cosmetic variants.
+
+## Post-cutoff continuation pointer (2026-10-05)
+
+This report's synthesis has a 2026-09-30 cutoff and is retained as a historical
+closeout. A later characteristic-zero (e=2) quartic-carrier branch is
+recorded in `RESEARCH_UPDATE_2026-10-05.md` and
+`notes/2026-10-05-e2-full-obstruction.md`. It proves the ambient stabilizer
+(mathbf G_mtimesmathbf Z/2), excludes the full (b=0) three-parameter
+primitive-quadruple family, and independently regenerates the generic
+four-parameter cubic obstruction. Importantly, the proposed universal
+implication (Omega=0RightarrowDelta=0) is **FALSE**: an explicit
+basepoint-free one-parameter family extends to a primitive quadruple. This is
+not a quartic-carrier or STCI construction; it only shows that this first
+nontrivial extension obstruction is insufficient.
