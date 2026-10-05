@@ -1,0 +1,274 @@
+# Primitive-septuple theorem for the (4,7), e=2 branch
+
+Date: 2026-10-05
+
+## Status
+
+**PROVED / INDEPENDENTLY AUDITED (characteristic zero).**
+
+This note records the structural consequence of an actual complete-intersection
+carrier. It is independent of the classification of the P-044 obstruction
+zero locus.
+
+Let
+[
+C=C_0=[s^4:s^3t:st^3:t^4]subset mathbf P^3
+]
+and suppose
+[
+Y=V(F_4,G_7),qquad Y_{mathrm{red}}=C,
+]
+is a characteristic-zero complete intersection whose quasiprimitive
+Bănică--Forster branch has (e=2).
+
+## Theorem
+
+Then (Y) is a globally primitive multiplicity-seven structure of type
+[
+L=O_{mathbf P^1}(-5).
+]
+If the Bănică--Forster graded pieces are
+[
+E_i=L^i(D_i),qquad i=0,ldots,6,
+]
+then
+[
+D_2=D_3=D_4=D_5=D_6=0.
+]
+
+Moreover, writing
+[
+M=ker(N_C^*	woheadrightarrow L),
+]
+one has
+[
+M=O_{mathbf P^1}(-9)
+]
+and the primitive complete-intersection conormal sequence is
+[
+0longrightarrow L^7
+longrightarrow O_C(-4)oplus O_C(-7)
+longrightarrow Mlongrightarrow0.
+]
+Thus its kernel is naturally
+[
+Ksimeq L^7=O_{mathbf P^1}(-35).
+]
+
+Consequently every genuine ((4,7),e=2) carrier determines a basepoint-free
+P-044 zero, and its quartic generator contains the corresponding canonical
+primitive triple (C_3).
+
+## Proof
+
+For a smooth rational quartic in characteristic zero,
+[
+N_C^*simeq O_{mathbf P^1}(-7)^2.
+]
+The (e=2) quotient is therefore
+[
+N_C^*	woheadrightarrow L,qquad L=O_{mathbf P^1}(e-7)=O(-5).
+]
+
+The complete intersection has degree (4cdot7=28). Since (deg C=4),
+its generic multiplicity along (C) is seven. Its arithmetic genus is
+[
+p_a(Y)=1+rac{4cdot7(4+7-4)}2=99,
+]
+hence
+[
+chi(O_Y)=-98.
+]
+
+For a quasiprimitive multiplicity-seven curve, the Bănică--Forster
+Cohen--Macaulay filtration has line-bundle quotients
+[
+E_i=L^i(D_i),
+]
+where (D_1=0) and the defect divisors (D_i) are effective. Additivity in
+the filtration gives
+[
+chi(O_Y)=sum_{i=0}^6chi(E_i).
+]
+Since (Csimeqmathbf P^1) and (L=O(-5)),
+[
+chi(E_i)=1-5i+deg D_i.
+]
+Therefore
+[
+-98
+=7-5(1+cdots+6)+sum_{i=2}^6deg D_i
+=-98+sum_{i=2}^6deg D_i.
+]
+Thus
+[
+sum_{i=2}^6deg D_i=0.
+]
+Effectivity forces
+[
+D_2=cdots=D_6=0.
+]
+In the Bănică--Forster quasiprimitive filtration these defects measure exactly
+the isolated failure of primitivity, so their vanishing makes (Y) globally
+primitive.
+
+The determinant of
+[
+0	o M	o O(-7)^2	o O(-5)	o0
+]
+gives
+[
+M=O(-9).
+]
+For a primitive multiplicity-seven extension, the standard primitive conormal
+sequence (Bănică--Forster, Proposition 2.3 in the convention audited for this
+project) gives
+[
+0	o L^7	o 
+u_Y|_C	o N_C^*	o L	o0.
+]
+Because (Y=(F_4,G_7)),
+[
+
+u_Y|_C=O_C(-4)oplus O_C(-7)
+       =O_{mathbf P^1}(-16)oplus O_{mathbf P^1}(-28).
+]
+Its image in (N_C^*) is (M), yielding
+[
+0	o L^7	o O_C(-4)oplus O_C(-7)	o M	o0.
+]
+Hence
+[
+Ksimeq L^7=O(-35).
+]
+
+Finally a primitive septuple has canonical primitive truncations
+[
+C=C_1subset C_2subset C_3subset C_4subsetcdotssubset C_7=Y
+]
+associated with the same quotient (N_C^*	woheadrightarrow L). Therefore its
+canonical triple extends to a primitive quadruple, so its quotient parameters
+are a basepoint-free P-044 zero. The actual quartic (F_4) contains (Y), and
+therefore contains (C_3).
+
+## First-normal kernel warning
+
+Before global primitivity or first-normal surjectivity is known, one must not
+use
+[
+deg K=e-4b-9
+]
+unconditionally. If the first-normal pair has common-zero/cokernel divisor
+(A), the image is (M(-A)), and determinant bookkeeping gives
+[
+oxed{deg K=e-4b-9+deg A.}
+]
+Only after (A=0) is established does the simpler formula apply. For the
+present primitive ((4,7),e=2) structure it gives (deg K=-35).
+
+In particular, do not argue that a named septic lies in (I_C^2), or that one
+named first-normal section is individually nowhere zero. Locally one may have
+[
+F=x,qquad G=ax+y^7.
+]
+The pair generates the complementary conormal line.
+
+## Separate audited calculation: cubics through the double
+
+This calculation is useful for stratification but is **not** a consequence of
+the primitive-septuple theorem.
+
+On (x_0=1), with moving coordinates
+[
+x_1=z,qquad x_2=z^3+v,qquad
+x_3=z^4+u+rac32zv,
+]
+the first jets are
+[
+[q]=u+rac12zv,qquad [A_3]=v,
+]
+[
+[B_3]=-z^2u+rac12z^3v,qquad [D_3]=-2z^5u.
+]
+For a double defined by
+[
+u=A(z)epsilon,qquad v=B(z)epsilon
+]
+and a cubic
+[
+H=ell q+alpha A_3+eta B_3+gamma D_3,
+]
+the condition that (H) contain the double is
+[
+A(z)(ell-eta z^2-2gamma z^5)
++B(z)left(rac12zell+alpha+rac12eta z^3ight)=0.
+]
+
+For
+[
+A=z^2+az+x,qquad B=1+bz+dz^2,
+qquad
+ell=lambda_0+lambda_1z+lambda_2z^3+lambda_3z^4,
+]
+this is the rank-drop condition for
+[
+M_2=
+egin{pmatrix}
+x&0&0&0&1&0&0\
+a+rac12&x&0&0&b&0&0\
+1+rac b2&a+rac12&0&0&d&-x&0\
+rac d2&1+rac b2&x&0&0&rac12-a&0\
+0&rac d2&a+rac12&x&0&rac b2-1&0\
+0&0&1+rac b2&a+rac12&0&rac d2&-2x\
+0&0&rac d2&1+rac b2&0&0&-2a\
+0&0&0&rac d2&0&0&-2
+end{pmatrix},
+]
+with columns
+[
+(lambda_0,lambda_1,lambda_2,lambda_3,alpha,eta,gamma).
+]
+Thus
+[
+H^0(I_{C_2}(3))
+e0iff operatorname{rank}M_2<7.
+]
+For the explicit P-044 survivor
+[
+a=-rac12,qquad b=-2,qquad d=x^{-1},
+]
+the kernel is generated by
+[
+(-4x^3,8x^3,-2x,4x,4x^4,4x^2,1),
+]
+recovering the P-045 cubic.
+
+**OPEN:** there is no theorem that a genuine ((4,7),e=2) carrier must satisfy
+this cubic rank drop. Do not impose it as a carrier equation without a separate
+proof.
+
+## Consequence for the frontier
+
+Every genuine ((4,7),e=2) carrier must satisfy both
+
+[
+	ext{P-044}=0
+]
+and
+[
+H^0(I_{C_3}(4))
+e0.
+]
+
+These conditions are necessary, not sufficient: quartic containment of
+(C_3) does not by itself prove compatibility through (C_4,ldots,C_7).
+
+The immediate (e=2) task is therefore to derive the general algebraic
+incidence condition
+[
+H^0(I_{C_3(A,B)}(4))
+e0
+]
+in the moving (e=2) coordinates and intersect it with the basepoint-free
+P-044 obstruction locus before attempting unrestricted P-044 saturation or
+higher primitive obstructions.
