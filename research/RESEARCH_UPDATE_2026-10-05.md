@@ -109,3 +109,45 @@ of the research record.
 The notes deliberately retain the distinction between proved statements,
 independent audits, exact computational evidence, and unresolved conjectural
 extensions.
+
+## Late continuation: full e=2 quartic-carrier obstruction
+
+A later 2026-10-05 branch completed the ambient-stabilizer calculation and
+independently regenerated the generic four-parameter (e=2) cubic extension
+obstruction. In characteristic zero,
+[
+operatorname{Stab}_{PGL_4}(C_0)congmathbf G_mtimesmathbf Z/2,
+]
+so on (A_2B_0
+e0) the genuine generic symmetry cross-section is
+[
+A=x+az+z^2,qquad B=1+bz+dz^2.
+]
+The full exact obstruction has
+[
+Omega_i=G_i/(32Delta),qquad
+Delta=1-ab+a^2d-2dx+b^2x-abdx+d^2x^2.
+]
+The three-parameter (b=0) family is completely excluded by the exact
+membership (Delta_0in(G_1,ldots,G_5)).
+
+Crucially, the hoped-for universal implication
+[
+Omega=0LongrightarrowDelta=0
+]
+is **FALSE**. The basepoint-free family
+[
+A=z^2-	frac12z+x,qquad B=1-2z+x^{-1}z^2,
+qquad x
+e0,	frac14,
+]
+has all five obstruction coordinates zero and therefore extends to a primitive
+quadruple. This is not a quartic carrier or an STCI construction; it proves
+only that the first nontrivial (e=2) extension obstruction is insufficient.
+
+See [the full e=2 note](notes/2026-10-05-e2-full-obstruction.md) and the
+[exact formula audit](computations/e2_full4_obstruction_2026-10-05.txt).
+The immediate (e=2) question is now the infinitesimal order actually forced
+by a genuine quartic carrier and whether this explicit surviving quadruple
+extends through that order. The (e=0), (e=1), equivariance, and uniform
+local-cohomology routes remain live alternatives.
