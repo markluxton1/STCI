@@ -155,3 +155,34 @@ The immediate (e=2) question is now the infinitesimal order actually forced
 by a genuine quartic carrier and whether this explicit surviving quadruple
 extends through that order. The (e=0), (e=1), equivariance, and uniform
 local-cohomology routes remain live alternatives.
+
+
+## Late continuation: P-044 survivor cubic theorem
+
+The explicit basepoint-free P-044 survivor is now excluded as a quartic
+carrier, without computing higher primitive extensions.  For
+[
+A=z^2-	frac12z+x,qquad B=1-2z+x^{-1}z^2,qquad x
+e0,	frac14,
+]
+the canonical primitive triple lies on the irreducible cubic
+[
+H_x=D+4x^2B+4x^4A+
+(-4x^3x_0+8x^3x_1-2xx_2+4xx_3)q.
+]
+The primitive filtration gives degree (12) and genus (13).  Comparing with
+a proper ((3,4)) complete intersection (degree (12), genus (19)) proves
+[
+H^0(I_{C_3(x)}(4))=H_xH^0(O(1)),
+]
+so every containing quartic is reducible as (H_xell).  The plane factor
+forces extra set-theoretic intersection with any septic, excluding this entire
+explicit survivor family from a ((4,7)) STCI presentation.
+
+**Status: PROVED / INDEPENDENTLY AUDITED.**  This does not classify all P-044
+zeros and does not eliminate the full (e=2) branch.  The immediate frontier
+is now classification or geometric exclusion of the remaining basepoint-free
+P-044 zero locus, rather than extending this explicit family farther up the
+primitive tower.  See
+[the proof](notes/2026-10-05-p044-survivor-cubic.md) and
+`computations/verify_p044_survivor_cubic.py`.
