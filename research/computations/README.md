@@ -1,8 +1,9 @@
 # Exact computation checks
 
-The fourteen scripts in this directory, together with the preserved mixed-degree
-script under `../scratch/degree6`, use exact symbolic arithmetic in SymPy;
-they do not use floating point calculations.
+The original verification scripts in this directory, together with the dated
+2026-10-05 companions and the preserved mixed-degree script under
+`../scratch/degree6`, use exact symbolic arithmetic in SymPy or Macaulay2;
+the Python checks do not use floating point calculations.
 
 - `verify_c0.py` checks the parametrization ideal, the characteristic 2 and 3
   radical pairs, the uniform positive-characteristic family in characteristics
@@ -63,6 +64,29 @@ they do not use floating point calculations.
   \(d=1,[2,2]\) two-ramified-root first-normal survivor, including both factor
   evaluations and all eleven sextic normal-image equations.  It does not
   construct an ambient integral sextic or a mate.
+- `verify_general_conductor_power.py` checks the exact normalization,
+  conductor, pinch, and ordinary-power identities used in the literature
+  refresh. It is an algebraic example, not an STCI theorem.
+- `verify_localcoh_finite_principal_parts.m2` computes the first five
+  principal-part dimensions for the quartic and checks the stage-4 injection
+  and socle-multiplier statement in Macaulay2.
+- `verify_localcoh_quartic_ratio_t_slice.py` checks the all-stage coefficient
+  functionals excluding the ratio-t and ratio-t^3 slices, including their
+  boundary specializations.
+- `verify_mixed46_regular.py` checks the exact regular degree-(4,6) local
+  equations used to exclude the pure constant directions.
+- `verify_quadric_powers.m2` checks symbolic-power equals ordinary-power
+  formulas for the monomial and nonmonomial integral divisors used as a
+  special-case laboratory.
+- `verify_residual_cycle.py` checks 81 exact residual-cycle lattice instances
+  and the A <= D_{m-1} bound used in the mixed-(4,6) analysis.
+- `verify_split22_boundary_lift.py` checks the fixed split-[2,2] ambient
+  lift, node/A1 collisions, and the Mumford branch-intersection counts.
+- `verify_typea45.py` independently reconstructs the type-A (4,5) parameter
+  charts and terminal obstruction.
+- `verify_typeb45_dense.py` independently rederives the dense type-B
+  elimination boundaries and terminal obstruction.
+
 - `../scratch/degree6/verify_mixed45_reduction.py` checks the quartic and
   quintic first-normal maps for the \((4,5)\) problem, the two allowed gcd
   strata, and, after assuming the regular-ratio missing-section normalization,
@@ -70,6 +94,11 @@ they do not use floating point calculations.
   prove that the ratio is regular or cover the newly separated pole strata.
   Its SHA-256 at handoff is
   `862ec150664459fc94187164bcaa1d25e87c5f815e589fff1608a28efc6a89d5`.
+
+The dated exploratory sources under `../scratch` are retained separately:
+`explore_mixed46_e0.py`, `mixed46/local_lattice.py`, and
+`primitive47/obstruction.py` support the corresponding notes but are not
+standalone theorem certificates.
 
 Run them with a Python environment containing SymPy:
 
@@ -89,10 +118,24 @@ python3 research/computations/verify_localcoh_degree4_counterexample.py
 python3 research/computations/verify_localcoh_degree4_allstage_certificate.py
 python3 research/computations/verify_split22_boundary_survivor.py
 python3 research/scratch/degree6/verify_mixed45_reduction.py
+
+# Dated 2026-10-05 companions
+python3 research/computations/verify_general_conductor_power.py
+python3 research/computations/verify_localcoh_quartic_ratio_t_slice.py
+python3 research/computations/verify_mixed46_regular.py
+python3 research/computations/verify_residual_cycle.py
+python3 research/computations/verify_split22_boundary_lift.py
+python3 research/computations/verify_typea45.py
+python3 research/computations/verify_typeb45_dense.py
+# The two .m2 files use Macaulay2 rather than Python.
+/opt/homebrew/bin/M2 --script research/computations/verify_localcoh_finite_principal_parts.m2
+/opt/homebrew/bin/M2 --script research/computations/verify_quadric_powers.m2
 ```
 
-On 2026-09-30 all 15 script executions passed sequentially under the temporary environment
-`/private/tmp/stci-cas-venv/bin/python`.  Both the system Python and the bundled
+On 2026-09-30 all 15 original script executions passed sequentially under the temporary environment
+`/private/tmp/stci-cas-venv/bin/python`. On 2026-10-05 the original suite and
+the dated Python companions passed with `PYTHONDONTWRITEBYTECODE=1`; the dated
+Macaulay2 companions passed with `/opt/homebrew/bin/M2 --script`. Both the system Python and the bundled
 workspace Python failed before running any assertion because SymPy was not
-installed.  The proofs recorded in `../RESEARCH_RECORD.md` do not rely on the
+installed. The proofs recorded in `../RESEARCH_RECORD.md` do not rely on the
 continued existence of that temporary environment.
