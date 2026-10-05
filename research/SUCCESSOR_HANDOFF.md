@@ -499,3 +499,39 @@ Recommended batches, in order:
 Every lane must return an exact statement, hypotheses, proof or certificate,
 counterexample search, failure boundary, and reproducibility notes. Workers
 must remain read-only; the primary alone reconciles the durable ledgers.
+
+## 0a. Late 2026-10-05 e=2 correction
+
+The full (e=2) quartic-carrier obstruction branch materially changes the
+frontier. In characteristic zero the ambient stabilizer is
+(mathbf G_mtimesmathbf Z/2), and a genuine generic cross-section is
+[
+A=x+az+z^2,qquad B=1+bz+dz^2.
+]
+The full cubic obstruction was independently regenerated. The (b=0)
+three-parameter family is excluded exactly, but the proposed universal
+statement
+[
+Omega=0Rightarrowoperatorname{Res}(A,B)=0
+]
+is **FALSE**. For
+[
+A=z^2-	frac12z+x,qquad B=1-2z+x^{-1}z^2
+]
+all five obstruction coordinates vanish, while
+[
+operatorname{Res}(A,B)=rac{(4x-1)^2}{4x},
+]
+so (x
+e0,	frac14) gives a basepoint-free primitive triple extending to a
+primitive quadruple.
+
+Do not confuse this (O(-5)), (e=2) statement with the proved (O(-7))
+primitive-triple exclusion in P-010. No quartic carrier or STCI pair has been
+constructed. Before pursuing higher (e=2) jets, determine the infinitesimal
+order a genuine quartic carrier actually forces. Also keep (e=0), (e=1),
+equivariance, and the uniform local-cohomology route open.
+
+See
+[the dated e=2 note](notes/2026-10-05-e2-full-obstruction.md) and
+[the exact formulas](computations/e2_full4_obstruction_2026-10-05.txt).
