@@ -543,25 +543,24 @@ See
 
 ## 0b. Late 2026-10-05 P-045 correction
 
-P-045 closes the explicit P-044 survivor as a quartic-carrier candidate.  For
-[
-A=z^2-	frac12z+x,qquad B=1-2z+x^{-1}z^2,qquad x
-e0,	frac14,
-]
-the canonical primitive triple (C_3(x)) lies on an irreducible cubic (H_x),
+P-045 closes the explicit P-044 survivor as a quartic-carrier candidate. For
+\[
+A=z^2-\tfrac12z+x,\qquad B=1-2z+x^{-1}z^2,\qquad x\ne0,\tfrac14,
+\]
+the canonical primitive triple \(C_3(x)\) lies on an irreducible cubic \(H_x\),
 and
-[
+\[
 H^0(I_{C_3(x)}(4))=H_xH^0(O(1)).
-]
-Thus every quartic containing the triple is (H_xell), and the plane factor
-prevents any septic mate from cutting out only the nonplanar (C_0).
-Therefore the known P-044 survivor does not produce a ((4,7)) STCI pair.
+\]
+Thus every quartic containing the triple is \(H_x\ell\), and the plane factor
+prevents any septic mate from cutting out only the nonplanar \(C_0\).
+Therefore the known P-044 survivor does not produce a \((4,7)\) STCI pair.
 
-Do **not** infer that the whole (e=2) branch is excluded: the full
-basepoint-free P-044 zero locus is not classified.  The next (e=2) task is
-to classify or geometrically exclude other P-044 zeros.  There is no need to
+Do **not** infer that the whole \(e=2\) branch is excluded: the full
+basepoint-free P-044 zero locus is not classified. The next \(e=2\) task is
+to classify or geometrically exclude other P-044 zeros. There is no need to
 push this explicit family farther up the primitive tower for the quartic
 carrier question.
 
-See `notes/2026-10-05-p044-survivor-cubic.md` and
-`computations/verify_p044_survivor_cubic.py`.
+See \`notes/2026-10-05-p044-survivor-cubic.md\` and
+\`computations/verify_p044_survivor_cubic.py\`.
