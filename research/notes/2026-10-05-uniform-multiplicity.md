@@ -135,3 +135,22 @@ This nonzero vector excludes primitive quadruples, and hence primitive
 seventuples, **for that particular quotient direction**. Several additional
 sample pairs also give nonzero vectors. The calculation has not yet
 classified all coprime quadratic pairs and is not a no-`(4,7)` theorem.
+
+## Supersession note: later 2026-10-05 full e=2 calculation
+
+The forward-looking sentence above suggesting that a universal primitive-
+quadruple obstruction of type (O(-5)) might close the (e=2) branches is
+now **superseded**. The generic four-parameter obstruction was subsequently
+regenerated and the universal implication
+[
+Omega=0Longrightarrowoperatorname{Res}(A,B)=0
+]
+was **FALSIFIED** by the explicit basepoint-free family
+[
+A=z^2-	frac12z+x,qquad B=1-2z+x^{-1}z^2,
+qquad x
+e0,	frac14.
+]
+The exploratory sample computations in this note remain historically valid
+for the quotient directions they actually test. See
+`2026-10-05-e2-full-obstruction.md` for the corrected current frontier.
