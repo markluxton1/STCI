@@ -557,10 +557,22 @@ prevents any septic mate from cutting out only the nonplanar \(C_0\).
 Therefore the known P-044 survivor does not produce a \((4,7)\) STCI pair.
 
 Do **not** infer that the whole \(e=2\) branch is excluded: the full
-basepoint-free P-044 zero locus is not classified. The next \(e=2\) task is
-to classify or geometrically exclude other P-044 zeros. There is no need to
-push this explicit family farther up the primitive tower for the quartic
-carrier question.
+basepoint-free P-044 zero locus is not classified. P-046 now gives a stronger
+structural restriction on genuine carriers: every characteristic-zero
+\((4,7),e=2\) complete intersection supported on \(C_0\) is a globally
+primitive septuple of type \(L=O(-5)\). Hence every genuine carrier gives a
+basepoint-free P-044 zero **and** its actual quartic generator contains the
+associated canonical primitive triple \(C_3\).
 
-See \`notes/2026-10-05-p044-survivor-cubic.md\` and
+Accordingly the next \(e=2\) task is not unrestricted classification of the
+P-044 zero locus and not higher primitive obstruction. First derive the general
+quartic-containment incidence condition
+\[
+H^0(I_{C_3(A,B)}(4))\ne0
+\]
+in the moving \(e=2\) coordinates and intersect it with P-044. Only survivors
+of that intersection merit higher-order analysis.
+
+See \`notes/2026-10-05-p044-survivor-cubic.md\`,
+\`notes/2026-10-05-e2-primitive-septuple.md\`, and
 \`computations/verify_p044_survivor_cubic.py\`.
