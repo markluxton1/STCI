@@ -156,15 +156,15 @@ continued existence of that temporary environment.
 
 ### P-044 survivor cubic certificate (2026-10-05)
 
-- `verify_p044_survivor_cubic.py` is a compact independent certificate for
-  P-045.  It checks the displayed Bezout identity, reconstructs the canonical
+- \`verify_p044_survivor_cubic.py\` is a compact independent certificate for
+  P-045. It checks the displayed Bezout identity, reconstructs the canonical
   moving-coordinate primitive triple for the explicit P-044 survivor, verifies
-  exactly that (H_x) vanishes modulo (epsilon^3), and checks that the
-  seven displayed cubic coefficients reconstruct (H_x).  It deliberately
+  exactly that \(H_x\) vanishes modulo \(\epsilon^3\), and checks that the
+  seven displayed cubic coefficients reconstruct \(H_x\). It deliberately
   does not recompute or classify the full P-044 obstruction zero locus.
 
 Run with:
 
-```sh
+\`\`\`sh
 python3 research/computations/verify_p044_survivor_cubic.py
-```
+\`\`\`
