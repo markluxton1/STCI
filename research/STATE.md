@@ -95,4 +95,4 @@ The quartic jet analysis identifies the divisor measuring comparison of the prim
 
 ## Provenance
 
-The detailed audited snapshot from the 2026-10-06 consolidation remains in \`AUDITED_STATE_2026-10-06.md\` until the archive migration is complete. Detailed proofs and exact computations remain in the dated notes and \`computations/\`; future cleanup will organize those by topic without discarding provenance.
+The dated audited snapshot from the 2026-10-06 consolidation is preserved at [archive/reports/AUDITED_STATE_2026-10-06.md](archive/reports/AUDITED_STATE_2026-10-06.md). Detailed proofs and exact computations remain in the dated notes and `computations/`; the durable current authority is this file together with `FRONTIER.md` for active priorities.
