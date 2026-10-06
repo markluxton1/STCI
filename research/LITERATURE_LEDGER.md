@@ -528,3 +528,15 @@ curves. No later source was found that:
 
 Therefore the smooth complex problem, and already the explicit smooth rational
 quartic \(C_0\), remain open on the literature checked through 2026-09-30.
+
+## Multiple structures and dependent jet conditions: background versus STCI synthesis
+
+The geometric language used by the current jet-condition program has substantial classical background. Ferrand's doubling construction encodes doubles through quotients of the conormal bundle; Bănică--Forster develop the filtrations and multiplicative line-bundle structure of primitive and quasiprimitive multiple structures; subsequent work, including Drézet's theory of primitive multiple curves and their extensions, continues this framework. Separately, the interpolation literature studies when fat-point and jet conditions fail to impose independent conditions on linear systems.
+
+These sources are background for the **form** of the STCI analysis; they do not by themselves establish the project-specific mechanism currently recorded for the rational quartic. In particular, the chain
+\[
+R\longrightarrow H^0(I_R(1,3))\longrightarrow H^0(O_{2R}(6))
+\]
+and the associated ruling-fiber degeneration are retained as an STCI-specific geometric synthesis in this repository. The present literature check did not locate this exact mechanism as a published theorem. This is not a novelty claim: absence from the checked literature is weaker than proof of originality.
+
+Accordingly, future work should describe the general philosophy of dependent infinitesimal/jet conditions as standard background and reserve any novelty language for precisely stated STCI-specific lemmas after a dedicated literature check.
