@@ -183,7 +183,7 @@ The authoritative current status is `../AUDITED_STATE_2026-10-06.md`. The consol
 - `verify_localcoh_direction_image.py`, `verify_localcoh_pure_direction_audit.py`, `verify_localcoh_constant_direction_apolar.py`, and `verify_localcoh_generic_length_model.py` — retained local-cohomology direction/subfamily checks.
 - `localcoh-incidence-2026-10-06.py` with its JSON certificate and `localcoh-incidence-parity-dual-2026-10-06.py` with its JSON certificate — exact tensor/dual incidence data.
 - `verify_split4_nonramified.py`, `verify_split22_chart_audit.py`, and `verify_split22_finite_reduction.py` — split-carrier reductions; these do not assert a global exclusion.
-- `verify_dx1_a_half_boundary.py` and `verify_dx1_p044_residual.py` — dx=1 boundary/residual calculations. The residual saturation problem remains OPEN; these scripts do not certify emptiness of the residual locus.
+- `verify_dx1_a_half_boundary.py` and `verify_dx1_p044_residual.py` — dx=1 boundary/residual calculations. The formerly open residual saturation gap is closed by `session_dx1_saturation_2026_10_06.m2` and its recorded output, with the compact colon certificate and `verify_session_dx1_independent_2026_10_06.py` providing companion checks. Together these certify that the basepoint-free residual P-044 locus on the dx=1 slice is empty outside P-045; this is a slice classification, not a global P-044 theorem.
 
 Do **not** use `localcoh-symbol-paritycheck.m2` or `localcoh-symbol-seedcheck.m2` as theorem certificates; their quartic-basis construction was faulty and they are intentionally absent from the consolidation diff.
 
