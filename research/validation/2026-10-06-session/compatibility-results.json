@@ -1,0 +1,20 @@
+[
+  {
+    "source": "research/computations/verify_dx1_a_half_boundary.py",
+    "source_sha256": "871f5f68e0a179a77e0626e904e2841e786ffa189bd093017cf5233ffa122d87",
+    "compatibility_copy": "research/validation/2026-10-06-session/compat_verify_dx1_a_half_boundary_QQ.py",
+    "compatibility_sha256": "86bf48acea619914c93a064ef32a5433205a2dc745294fb58f3ff356222c2673",
+    "change": {
+      "old": "G=sp.groebner(res,b,x,order=\"lex\")",
+      "new": "G=sp.groebner(res,b,x,order=\"lex\",domain=sp.QQ)"
+    },
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/validation/2026-10-06-session/compat_verify_dx1_a_half_boundary_QQ.py"
+    ],
+    "exit_code": 1,
+    "status": "FAILED",
+    "elapsed_seconds": 0.445,
+    "log": "research/validation/2026-10-06-session/compat_verify_dx1_a_half_boundary_QQ.log"
+  }
+]

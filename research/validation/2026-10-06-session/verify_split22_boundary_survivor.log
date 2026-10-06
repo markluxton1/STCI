@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_split22_boundary_survivor.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: content-free d=1,[2,2] first-normal boundary survivor is exact
+
+Runner status: PASS

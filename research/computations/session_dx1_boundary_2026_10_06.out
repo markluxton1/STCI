@@ -1,0 +1,6 @@
+full BPF saturation: matrix {{b^2*x-8*a^2+2*a*b+4*b*x-4*a+b+4*x, 8*a*b*x-12*a^2+4*a*b+16*a*x+4*b*x-4*a+2*b+8*x+1, b^3+6*b^2+12*b+8, 2*a*b^2+8*a*b+b^2+8*a+4*b+4, 4*a^2*b+8*a^2+4*a*b+8*a+b+2, 8*a^3+12*a^2+6*a+1}}
+radical expected: true
+a-half boundary: matrix {{b^2+4*b+4}}
+a-half boundary radical: true
+b-minus2 boundary: matrix {{4*a^2+4*a+1}}
+b-minus2 boundary radical: true

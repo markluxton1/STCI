@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_split22_boundary_lift.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: the unique fixed-boundary lifts are F_lambda=F_0+lambda*q^3
+PASS: all branch collisions are smooth or ordinary A1
+PASS: Gamma_low.Gamma_high is 9 or 7, never the required 17/5
+
+Runner status: PASS

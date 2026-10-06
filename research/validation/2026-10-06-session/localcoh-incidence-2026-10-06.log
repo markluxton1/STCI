@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/localcoh-incidence-2026-10-06.py
+
+PASS: this primitive direction admits exactly the h=constant top line.
+PASS: every lift of this normalized top symbol is seed+c*kernel.
+PASS: n(c)^T A(seed+c*kernel)=0 identically as a degree-two polynomial.
+PASS: n(c)^T u=1 and n(c)^T v=8/11; neither target can be produced.
+PASS: exact sparse tensor has standard target columns e72,e73.
+Scope: fixed normalized top direction (1+t²,-2t), all quartics, all c.

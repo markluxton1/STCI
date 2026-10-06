@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_p044_survivor_cubic.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: Bezout identity
+PASS: H_x vanishes on canonical C3 modulo epsilon^3
+PASS: coefficient vector reconstructs H_x
+
+Runner status: PASS

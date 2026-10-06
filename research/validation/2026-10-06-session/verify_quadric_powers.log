@@ -1,0 +1,20 @@
+Command: /opt/homebrew/bin/M2 --script research/computations/verify_quadric_powers.m2
+CWD: /Users/markluxton/Projects/STCI
+
+(C0 type (1,3), 1, saturated; Hilbert formula and Betti totals exact)
+(C0 type (1,3), 2, saturated; Hilbert formula and Betti totals exact)
+(C0 type (1,3), 3, saturated; Hilbert formula and Betti totals exact)
+(C0 type (1,3), 4, saturated; Hilbert formula and Betti totals exact)
+(C0 type (1,3), 5, saturated; Hilbert formula and Betti totals exact)
+(C0 type (1,3), 6, saturated; Hilbert formula and Betti totals exact)
+(monomial quintic type (1,4), 1, saturated; Hilbert formula and Betti totals exact)
+(monomial quintic type (1,4), 2, saturated; Hilbert formula and Betti totals exact)
+(monomial quintic type (1,4), 3, saturated; Hilbert formula and Betti totals exact)
+(monomial quintic type (1,4), 4, saturated; Hilbert formula and Betti totals exact)
+(nonmonomial divisor type (2,4), 1, saturated; Hilbert formula and Betti totals exact)
+(nonmonomial divisor type (2,4), 2, saturated; Hilbert formula and Betti totals exact)
+(nonmonomial divisor type (2,4), 3, saturated; Hilbert formula and Betti totals exact)
+(nonmonomial divisor type (2,4), 4, saturated; Hilbert formula and Betti totals exact)
+ALL QUADRIC-POWER CONSISTENCY CHECKS PASSED
+
+Runner status: PASS

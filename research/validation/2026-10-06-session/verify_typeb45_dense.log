@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_typeb45_dense.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: dense type-B chart, all elimination boundaries, epimorphism and terminal obstruction independently rederived
+
+Runner status: PASS

@@ -1,0 +1,12 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_primitive_quadruple_universal.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated
+
+resultant: a0**2*b2**2 - a0*a1*b1*b2 - 2*a0*a2*b0*b2 + a0*a2*b1**2 + a1**2*b0*b2 - a1*a2*b0*b1 + a2**2*b0**2
+coordinate terms and denominator powers: [(100, 1), (101, 1), (97, 1), (101, 1), (100, 1)]
+quartic jets rows: 7 10 entry max terms: 7
+ALL-DIRECTION PRIMITIVE-FOURTH ZERO LOCUS VERIFIED
+ideal (2a1 + b0, 2a2 + b1)
+UNIVERSAL QUARTIC CONTACT KERNEL VERIFIED: CUBIC TIMES LINEARS
+PRIMITIVE-FOURTH CLASSIFICATION AND ALL-CHART QUARTIC CARRIER THEOREM VERIFIED
+
+Runner status: PASS

@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_primitive_triple_parity.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated
+
+general matrices: 10 10 x9
+ENTIRE PRIMITIVE-TRIPLE PARITY SLICE VERIFIED: b=-2,-6,6 ONLY
+b=-2: cubic times linear carriers; b=+-6: fourth classes have no degree-two annihilator
+
+Runner status: PASS

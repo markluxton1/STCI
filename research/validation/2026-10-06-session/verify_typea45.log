@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_typea45.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: all type-A quotient strata, unique quadruple route, and terminal obstruction reconstructed
+H^1(O(-9)) coordinates: (-5/64, -5/96, 5/48, -5/24, 5/12, -5/6, 5/3, 10)
+The vector is 8/3 times the vector previously recorded in P-025.
+
+Runner status: PASS

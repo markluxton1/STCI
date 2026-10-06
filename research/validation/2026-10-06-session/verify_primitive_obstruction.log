@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_primitive_obstruction.py
+CWD: /Users/markluxton/Projects/STCI
+
+PRIMITIVE-TRIPLE QUADRATIC JET VERIFIED
+
+Runner status: PASS

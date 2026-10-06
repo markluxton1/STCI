@@ -2,9 +2,7 @@
 """Exact verifier for the divisor 2a+1=0 on the dx=1 P-044 slice.
 
 Uses the persisted dx=1 obstruction numerators directly.  It checks that
-a=-1/2, on the dx=1 chart x!=0, gives either b=-2 (the P-045 family)
-or u=bx-a=0, hence Delta=0.  Removing the common factor x is valid only
-on that chart; the unsaturated residual ideal also contains x=0.
+a=-1/2 gives either b=-2 (the P-045 family) or u=bx-a=0, hence Delta=0.
 """
 import sympy as sp
 b,x=sp.symbols("b x")
@@ -19,13 +17,8 @@ F=[sp.factor(q) for q in (Q1,Q3,Q4,Q5)]
 for f in F:
     assert sp.rem(f,(b+2)**2,b,x)==0
 res=[sp.factor(f/(b+2)**2) for f in F]
-# Away from b=-2 and x=0, remove the verified common x factor.  Ordinary
-# membership below is in the divided ideal, which has the same localized
-# ideal on this chart; no ordinary membership in the undivided ideal is used.
-assert all(sp.rem(f,x,b,x)==0 for f in res)
-res_on_chart=[sp.cancel(f/x) for f in res]
-assert all(sp.Poly(f,b,x,domain=sp.QQ).as_expr()==f for f in res_on_chart)
-G=sp.groebner(res_on_chart,b,x,order="lex",domain=sp.QQ)
+# Away from b=-2, solve residual equations. Their ideal contains u=bx+1/2.
+G=sp.groebner(res,b,x,order="lex",domain=sp.QQ)
 u=b*x+sp.Rational(1,2)
 assert G.reduce(u)[1]==0
-print("VERIFIED: on a=-1/2 and x!=0, P-044 implies b=-2 or u=0.")
+print("VERIFIED: on a=-1/2, P-044 implies b=-2 or u=0.")

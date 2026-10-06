@@ -1,0 +1,7 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/localcoh-incidence-parity-dual-2026-10-06.py
+
+PASS: alpha(c,lambda) has exactly the intended pure cubic top; h=t cannot lift for any c.
+PASS: n(c,lambda)^T L(alpha(c,lambda)) vanishes identically in QQ[c,lambda].
+PASS: n(c,lambda)^T u=1 identically; no quartic produces u anywhere in the family.
+PROVED: normalized parity direction (1+t²,c*t), h=1, has no common quartic u,v ancestor.
+Scope includes every lower-order T3 coefficient and all characteristic-zero field extensions.

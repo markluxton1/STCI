@@ -1,0 +1,11 @@
+{
+  "M2": "/opt/homebrew/bin/M2",
+  "M2_version": "1.26.06",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "git_branch": "research/ultra-resume-2026-10-06",
+  "git_head": "4103561f3e271e03d8069e7f09def3889b4eb4da",
+  "git_status_at_start": "?? research/computations/session_dx1_saturation_2026_10_06.m2\n?? research/scratch/mf6_type4_incidence.json\n?? research/validation/\n",
+  "python": "/private/tmp/stci-cas-venv/bin/python",
+  "python_version": "3.14.8",
+  "sympy_version": "1.14.0"
+}

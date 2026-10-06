@@ -1,0 +1,28 @@
+[
+  {
+    "source": "research/computations/localcoh-incidence-2026-10-06.py",
+    "source_sha256": "cfb6232a84004446c9019f045fe9b115cbd43e4b7626b27f9f30ad0a5a509530",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/localcoh-incidence-2026-10-06.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 0.209,
+    "log": "research/validation/2026-10-06-session/localcoh-incidence-2026-10-06.log"
+  },
+  {
+    "source": "research/computations/localcoh-incidence-parity-dual-2026-10-06.py",
+    "source_sha256": "9dc2cd12063b4271c3ea225d6340b1a972366d1503cbe8979abacb1704310681",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/localcoh-incidence-parity-dual-2026-10-06.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 0.108,
+    "log": "research/validation/2026-10-06-session/localcoh-incidence-parity-dual-2026-10-06.log"
+  }
+]

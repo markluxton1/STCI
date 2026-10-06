@@ -1,0 +1,3 @@
+x-removed basis=GroebnerBasis([b - 8*x - 4, x**2 + x/2 + 1/16], b, x, domain='QQ', order='lex')
+u remainder=0
+u^2 remainder=0

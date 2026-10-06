@@ -1,0 +1,9 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_localcoh_generic_length_model.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: generic cyclic algebra has length four and Hilbert function (1,1,1,1)
+PASS: xi alpha=e and eta^3 alpha=c e, with length-three multiplier ideal
+PASS: top coefficient may vanish while the generated socle stays nonzero
+PASS: special fiber has socle dimension two; relative Gorenstein inference is false
+
+Runner status: PASS

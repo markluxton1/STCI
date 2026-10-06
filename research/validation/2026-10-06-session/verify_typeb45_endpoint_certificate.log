@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_typeb45_endpoint_certificate.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: dense and boundary type-B endpoint certificates hold exactly
+
+Runner status: PASS

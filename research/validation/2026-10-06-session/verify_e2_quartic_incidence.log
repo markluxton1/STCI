@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_e2_quartic_incidence.py
+Supplementary retained exact cross-check; not part of README promoted list.
+
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/computations/verify_e2_quartic_incidence.py", line 82, in <module>
+    assert all(sp.denom(q)==1 for q in J2)
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

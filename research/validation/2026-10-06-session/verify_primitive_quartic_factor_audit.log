@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_primitive_quartic_factor_audit.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated
+
+INDEPENDENT QUADRATIC COCYCLE AND UNIVERSAL QUARTIC FACTOR AUDIT PASSED
+
+Runner status: PASS

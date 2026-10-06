@@ -1,0 +1,9 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_localcoh_quartic_ratio_t_slice.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: entire ratio-t quartic slice has dimension 14
+PASS: unique representation F=xH+zD, G=yH+wD, H,D in I_3
+PASS: both determinant identities and P-039 specialization
+PASS: transposed ruling slice ratio-t^3 also has dimension 14
+
+Runner status: PASS

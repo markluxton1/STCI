@@ -1,0 +1,26 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/scratch/degree6/verify_mixed45_reduction.py
+CWD: /Users/markluxton/Projects/STCI
+
+DIMENSIONS AND NORMAL IMAGES
+  dim I_C(3), I_C(4), I_C(5) = 7 18 35
+  rank W4, rank W5 = 17 28
+  kernel of the quintic first-normal map = q*I_C(3), dimension 7
+  W4 equations: U_1=2V_2, U_4=2V_5, U_7=2V_8
+
+EXACT REDUCED-JET CERTIFICATES
+  parent family x1*A + lambda*q^2:
+    ranks = (7, 8)
+    certificate rows = [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (3, 0), (3, 3)]
+    augmented 8x8 determinant = 2*LAM**3
+  type-A example:
+    ranks = (7, 8)
+    certificate rows = [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (3, 3)]
+    augmented 8x8 determinant = -72
+  type-B example:
+    ranks = (7, 8)
+    certificate rows = [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7)]
+    augmented 8x8 determinant = -48
+
+ALL ASSERTIONS PASSED
+
+Runner status: PASS

@@ -1,0 +1,107 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_normal_quartic_simple_elliptic.py
+CWD: /Users/markluxton/Projects/STCI
+
+{
+  "status": "PASS",
+  "local_forms": [
+    {
+      "pair": "E6_2",
+      "weights": [
+        1,
+        1,
+        1
+      ],
+      "first_normal_order": 2,
+      "chart_derivatives": [
+        "1",
+        "0"
+      ],
+      "elliptic_degree": "3"
+    },
+    {
+      "pair": "E7_2",
+      "weights": [
+        1,
+        1,
+        2
+      ],
+      "first_normal_order": 2,
+      "chart_derivatives": [
+        "1",
+        "1"
+      ],
+      "elliptic_degree": "2"
+    },
+    {
+      "pair": "E7_3",
+      "weights": [
+        1,
+        1,
+        2
+      ],
+      "first_normal_order": 3,
+      "chart_derivatives": [
+        "1",
+        "0"
+      ],
+      "elliptic_degree": "2"
+    },
+    {
+      "pair": "E8_3",
+      "weights": [
+        1,
+        2,
+        3
+      ],
+      "first_normal_order": 3,
+      "chart_derivatives": [
+        "delta",
+        "1"
+      ],
+      "elliptic_degree": "1"
+    },
+    {
+      "pair": "E8_4",
+      "weights": [
+        1,
+        2,
+        3
+      ],
+      "first_normal_order": 4,
+      "chart_derivatives": [
+        "alpha",
+        "0"
+      ],
+      "elliptic_degree": "1"
+    }
+  ],
+  "bounded_ADE_rows_checked": 53,
+  "strict_gaps": [
+    {
+      "elliptic_degree": 1,
+      "ADE_rank_upper": 9,
+      "ADE_order_upper": 6,
+      "required": "4",
+      "upper": "18/5",
+      "positive_gap": "2/5"
+    },
+    {
+      "elliptic_degree": 2,
+      "ADE_rank_upper": 10,
+      "ADE_order_upper": 7,
+      "required": "9/2",
+      "upper": "70/17",
+      "positive_gap": "13/34"
+    },
+    {
+      "elliptic_degree": 3,
+      "ADE_rank_upper": 11,
+      "ADE_order_upper": 7,
+      "required": "14/3",
+      "upper": "77/18",
+      "positive_gap": "7/18"
+    }
+  ]
+}
+
+Runner status: PASS

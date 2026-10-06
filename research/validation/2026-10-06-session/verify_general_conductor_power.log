@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_general_conductor_power.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: scroll identities; twisted-cubic basis determinant 2;
+      full inverse-image ideal = (h) intersect (u,r+1);
+      nonconstant residue ratio; independent (2,3) STCI certificate.
+
+Runner status: PASS

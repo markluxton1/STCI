@@ -1,0 +1,28 @@
+[
+  {
+    "source": "research/computations/verify_e2_quartic_incidence.py",
+    "source_sha256": "66a725a4fa44038f183319a2c77e3fa64ca42dccf9d9a4d06e5b1f4d1a17dad3",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/verify_e2_quartic_incidence.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI",
+    "status": "FAILED",
+    "exit_code": 1,
+    "elapsed_seconds": 8.61,
+    "log": "research/validation/2026-10-06-session/verify_e2_quartic_incidence.log"
+  },
+  {
+    "source": "research/computations/verify_localcoh_direction_contact_survivor.py",
+    "source_sha256": "3be076da35aad6dd664f0f8508352b2794f1e89c1fe50f4e81d21062cad8c6d5",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/verify_localcoh_direction_contact_survivor.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 1.002,
+    "log": "research/validation/2026-10-06-session/verify_localcoh_direction_contact_survivor.log"
+  }
+]

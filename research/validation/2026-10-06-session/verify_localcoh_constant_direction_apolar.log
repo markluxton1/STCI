@@ -1,0 +1,9 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_localcoh_constant_direction_apolar.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: mixed constant directions require common scalar divisor degree at least three
+PASS: degree-three divisor is exactly s*t*(t+2*theta*s), up to scale
+PASS: axis directions require degree-two pole divisors t^2 or s^2
+PASS: explicit mixed-contact pair's degree-four divisor kills h_(1/2)
+
+Runner status: PASS
