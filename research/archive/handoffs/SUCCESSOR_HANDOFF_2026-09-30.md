@@ -1,4 +1,6 @@
-> **2026-10-06 CONSOLIDATION NOTICE:** The authoritative current status is [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where older frontier language below conflicts with that audited state, the audited state controls. Historical material below is retained for provenance.\n\n# STCI Successor-Session Handoff
+> **ARCHIVED HANDOFF:** This is historical continuation material. For current mathematical status see [../../STATE.md](../../STATE.md), and for active priorities see [../../FRONTIER.md](../../FRONTIER.md). The dated audit is preserved at [../reports/AUDITED_STATE_2026-10-06.md](../reports/AUDITED_STATE_2026-10-06.md). Where older frontier language conflicts with the canonical files, the canonical files control.
+
+# STCI Successor-Session Handoff
 
 Prepared: 2026-09-30
 
