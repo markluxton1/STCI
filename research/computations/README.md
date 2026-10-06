@@ -168,3 +168,23 @@ Run with:
 \`\`\`sh
 python3 research/computations/verify_p044_survivor_cubic.py
 \`\`\`
+
+
+## 2026-10-06 audited consolidation certificates
+
+The authoritative current status is `../AUDITED_STATE_2026-10-06.md`. The consolidation branch intentionally omits exploratory scratch and known-faulty historical certificates. The following promoted checks accompany the audited results:
+
+- `verify_primitive_quadruple_universal.py` — universal fourth-obstruction zero-locus certificates for the primitive e=2 analysis.
+- `verify_primitive_quartic_factor_audit.py` — independent reconstruction of the quartic symbol/contact calculation and factorization theorem.
+- `verify_primitive_triple_parity.py` — exact parity-family triple/fourth-layer checks; scoped only to that family.
+- `verify_normal_quartic_simple_elliptic.py` — numerical verification for the simple-elliptic normal-quartic exclusion.
+- `verify_normal_rational_carrier_compression.py` — determinant/denominator bounds for the remaining rational-resolution normal quartics.
+- `verify_mf6_defect12.py` and `verify_mf6_type3.py` — audited multiplicity-six defect and type-3 calculations.
+- `verify_localcoh_direction_image.py`, `verify_localcoh_pure_direction_audit.py`, `verify_localcoh_constant_direction_apolar.py`, and `verify_localcoh_generic_length_model.py` — retained local-cohomology direction/subfamily checks.
+- `localcoh-incidence-2026-10-06.py` with its JSON certificate and `localcoh-incidence-parity-dual-2026-10-06.py` with its JSON certificate — exact tensor/dual incidence data.
+- `verify_split4_nonramified.py`, `verify_split22_chart_audit.py`, and `verify_split22_finite_reduction.py` — split-carrier reductions; these do not assert a global exclusion.
+- `verify_dx1_a_half_boundary.py` and `verify_dx1_p044_residual.py` — dx=1 boundary/residual calculations. The residual saturation problem remains OPEN; these scripts do not certify emptiness of the residual locus.
+
+Do **not** use `localcoh-symbol-paritycheck.m2` or `localcoh-symbol-seedcheck.m2` as theorem certificates; their quartic-basis construction was faulty and they are intentionally absent from the consolidation diff.
+
+The older scratch references below are historical instructions from earlier research phases. They are not part of the 2026-10-06 promoted certificate set.
