@@ -16,6 +16,8 @@ The repository does **not** currently prove that this curve is or is not a set-t
 
 - [Canonical research state](research/STATE.md) — what is currently proved, exactly reduced, conditional, superseded, or open.
 - [Current frontier](research/FRONTIER.md) — the active open problems and recommended research directions.
+- [Open-problem topics](research/open/README.md) — durable topic pages for active work.
+- [Certificate map](research/certificates/README.md) — exact computations indexed by mathematical scope.
 - [Literature ledger](research/LITERATURE_LEDGER.md) — checked external results and source scope.
 - [2026-10-06 audited snapshot](research/AUDITED_STATE_2026-10-06.md) — dated provenance for the consolidation from which the durable state was initialized.
 
