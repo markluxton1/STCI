@@ -259,3 +259,118 @@ A secondary target is the coordinate-free rank-three factorization of the e=2 ma
 No new random-specialization computation is promoted here. New statements are deductions from exact sequences, line-bundle degrees, separation properties of \(O_Q(1,3)\), and already-audited universal e=2 certificates. Existing theorem-level computational inputs remain the universal primitive-quadruple verifier, the independent quartic-factor audit, the dx=1 saturation certificate, and the exact local-cohomology incidence certificates cited by the audited state.
 
 No statement here upgrades an OPEN local-cohomology, MF6, e=0, or e=1 locus to an exclusion.
+
+
+## H. Literature audit and novelty boundary
+
+Literature search performed 2026-10-06 before continuing the e=1 calculation.
+
+### H.1 Bănică--Forster: extension theory is established machinery
+
+C. Bănică and O. Forster, *Multiplicity Structures on Space Curves*, Contemp. Math. 58 (1986), 47--64, is the primary antecedent for the embedded primitive/quasiprimitive filtration used here.
+
+Their Proposition 2.4 states, in the present notation, that extending a primitive multiplicity-k structure \(Z'\) of type \(L\) to multiplicity \(k+1\) is equivalent to choosing a retraction of
+\[
+0\to L^k\to \nu_{Z'}|_C\to M\to0,
+\qquad
+M=\ker(\nu_C\twoheadrightarrow L).
+\]
+Their Corollary 2.5 identifies the splitting obstruction/torsor groups as
+\[
+H^1(\det(\nu_C)^*\otimes L^{k+1}),\qquad
+H^0(\det(\nu_C)^*\otimes L^{k+1}).
+\]
+For the rational quartic, \(\det\nu_C=O(-14)\), so for double-to-triple extension (\(k=2\)) this is exactly
+\[
+H^1(O(14)\otimes O(3e-21))=H^1(O(3e-7)).
+\]
+
+**LITERATURE-ESTABLISHED, NOT NEW.** The obstruction groups of dimensions \(6,3,0\) for e=0,1,2 are a direct specialization of Bănică--Forster. Likewise their Section 3 already gives the CM filtration, quasiprimitive line bundles \(L_j=L^j(D_j)\), superadditivity \(D_i+D_j\le D_{i+j}\), and the interpretation of later quasiprimitive extensions as meromorphic retractions. These should be cited as the conceptual source of the BF language used throughout STCI.
+
+Source: C. Bănică--O. Forster, *Multiplicity Structures on Space Curves*, Contemp. Math. 58 (1986), 47--64; electronic copy on O. Forster's LMU page.
+
+### H.2 Drézet: modern intrinsic parametrization
+
+Jean-Marc Drézet, *Paramétrisation des courbes multiples primitives*, Adv. Geom. 7 (2007), 559--612, develops primitive curves of arbitrary multiplicity by gluing \(U_i\times\operatorname{Spec}\mathbf C[t]/(t^n)\) and nonabelian \(H^1\). His later survey and papers develop extension, deformation, and moduli theory further.
+
+**LITERATURE-ESTABLISHED, NOT NEW.** Treating primitive multiple curves intrinsically via their canonical filtration and associated line bundle, rather than by ambient coordinates, is standard. Any eventual general theorem should be phrased compatibly with this literature rather than advertised as a new theory of primitive multiple curves.
+
+Relevant sources:
+- J.-M. Drézet, *Paramétrisation des courbes multiples primitives*, Adv. Geom. 7 (2007), 559--612, arXiv:math/0605726.
+- J.-M. Drézet, *Primitive multiple schemes*, Eur. J. Math. 7 (2021), 985--1045, arXiv:2004.04921.
+- J.-M. Drézet, *Primitive multiple curves: classification, deformations and moduli spaces of sheaves* (survey, 2013).
+
+### H.3 Rational-quartic STCI literature
+
+The rational quartic is a classical unresolved characteristic-zero STCI problem. Relevant antecedents found in the search include:
+
+- P. C. Craighero--R. Gattazzo (1986): the monomial rational quartic is not the set-theoretic intersection of two quartic surfaces.
+- P. C. Craighero--R. Gattazzo (1989): no smooth rational quartic is an STCI on a cubic surface.
+- D. B. Jaffe, *Applications of iterated curve blow-up to set theoretic complete intersections in P3*, J. reine angew. Math. 464 (1995), 1--46: finite numerical lists of possible degree pairs under the stated hypotheses; for \((d,g)=(4,0)\) the list includes \((4,7)\).
+- Ph. Ellia, *Primitive set-theoretic complete intersections* (arXiv:1409.3801): numerical restrictions for primitive STCI structures. Corollary 16 leaves ten rational-quartic numerical cases, including \((a,b,l)=(4,7,5)\), and explicitly describes its improvement over Jaffe as numerical rather than a full rational-quartic exclusion.
+
+**LITERATURE CHECKED / NO PRIOR IDENTIFICATION FOUND.** In the sources located in this search, no formulation was found of the STCI quartic-carrier problem as the pair
+\[
+K_R=H^0(I_{R/Q}(1,3)),\qquad
+\bar\rho_2:K_R\to H^0(O_{2R}(2e+2)),
+\]
+nor a derivation of the e=2 cubic-times-linear factorization from a determinantal rank collapse on the fourth-extension locus. Absence from this search is not a proof of novelty; a stronger novelty claim requires a targeted bibliography/citation-chain search.
+
+### H.4 Ropes/ribbons literature
+
+The ribbon/rope literature (Bayer--Eisenbud for ribbons; later Gallego--González--Purnaprajna and Drézet for ropes/primitive multiple curves and deformations) confirms that embedded multiple structures, conormal bundles, and deformation maps are mature subjects.
+
+**NOVELTY BOUNDARY.** The potentially project-specific contribution is therefore not:
+1. the canonical filtration;
+2. conormal quotient \(L\);
+3. extension obstruction groups;
+4. defect divisors for quasiprimitive structures; or
+5. determinantal loci in the abstract.
+
+The candidate new ingredient is their **specific coupling for the rational quartic carrier problem**:
+\[
+\text{BF extension data}
+\longrightarrow R\subset C\subset Q
+\longrightarrow K_R
+\longrightarrow \text{finite jet evaluation on }2R
+\longrightarrow \text{ambient factorization}.
+\]
+The universal e=2 computation supplies a nontrivial instance where extension compatibility forces a special incidence locus for \(R\), and that incidence is followed by an additional rank-three collapse of the ambient quartic jet map.
+
+### H.5 Revised status of the framework
+
+**PROVED + LITERATURE-ALIGNED.** The two-layer organization
+\[
+\text{existence/splitting of the multiple structure}
+\quad+\quad
+\text{rank of ambient containment maps}
+\]
+is the correct framework, but the first layer is Bănică--Forster/Drézet theory.
+
+**PROJECT-SPECIFIC PROVED RESULT.** For the rational quartic and quartic carriers, the quadric comparison converts the ambient first-symbol problem into evaluation of \(O_Q(1,3)\) on \(R\), and the next primitive containment condition into a finite map on \(2R\). The e=2 fourth-extension locus forces \(R\) to be a ruling divisor and has exact ambient rank three.
+
+**OPEN NOVELTY QUESTION.** Determine whether this \(R/2R\) ambient-carrier reduction, or an equivalent construction, already occurs in the older literature on contact of surfaces along curves (notably Gallarati), infinitesimal neighborhoods, or Rees/principal-parts methods. Search should continue before publication-level novelty claims.
+
+## I. Revised next attack after literature audit
+
+The highest-value mathematical calculation remains e=1, but it should now be posed explicitly as a **Bănică--Forster splitting problem plus ambient carrier map**, not as invention of a new obstruction theory.
+
+Let \(L=O(-6)\), \(M=O(-8)\). Starting from the Ferrand double \(C_2\), compute the BF extension
+\[
+0\to L^2=O(-12)\to \nu_{C_2}|_C\to M=O(-8)\to0.
+\]
+Its class lies in
+\[
+\operatorname{Ext}^1(M,L^2)=H^1(O(-4)).
+\]
+The next exact target is:
+
+1. express this extension class intrinsically in terms of the quotient \(N_C^*\twoheadrightarrow O(-6)\) and comparison divisor \(R\in|O_C(2)|\);
+2. determine its reduced splitting locus in the resultant-open quotient parameter space;
+3. only on that locus, form the ambient map
+   \[
+   \bar\rho_2:H^0(I_{R/Q}(1,3))\to H^0(O_{2R}(4));
+   \]
+4. determine whether its rank-drop locus has a geometric incidence description.
+
+This cleanly separates standard extension theory from the genuinely unresolved ambient-STCI geometry.
