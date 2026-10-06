@@ -1,6 +1,6 @@
-# Canonical audited state — 2026-10-06
+# Audited state snapshot — 2026-10-06
 
-This file is the authoritative mathematical status for continuation after the 2026-10-06 branch audit and consolidation. Where an older handoff, research-record entry, scratch calculation, or frontier recommendation conflicts with this file, this file controls. Historical notes remain useful for provenance.
+> **ARCHIVED SNAPSHOT:** This file records the audited mathematical status at the 2026-10-06 consolidation. The durable current authority is [../../STATE.md](../../STATE.md), with active priorities in [../../FRONTIER.md](../../FRONTIER.md). This snapshot is retained for provenance.
 
 ## Epistemic standard
 
