@@ -93,7 +93,7 @@ Certificates: `computations/session_dx1_saturation_2026_10_06.m2`, its recorded 
 The repository does **not** prove that the smooth rational quartic is not STCI.
 
 The firm decomposition is:
-1. **order-one branch:** uniformly bounded first-direction/early-defect geometry, with the quartic e=2 branch excluded and substantial e=0/e=1/normal/local-cohomology reductions;
+1. **order-one branch:** uniformly bounded first-direction/early-defect geometry, with the quartic e=2 branches for mate degrees 7 and 8 excluded and substantial e=0/e=1/normal/local-cohomology reductions;
 2. **entirely-thick branch:** separate and still open; first-symbol/tangent-form data alone are insufficient.
 
 No new research direction is prescribed by this consolidation. The purpose of this file is to give a stable, audited base for future work.
