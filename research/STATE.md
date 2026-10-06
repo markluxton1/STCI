@@ -22,11 +22,15 @@ C_0=[s^4:s^3t:st^3:t^4]\subset \mathbf P^3.
 
 ## Order-one structure — PROVED
 
+Topic synthesis: [results/order_one.md](results/order_one.md)
+
 For a quartic carrier whose generic normal order is one, the BF structure is quasiprimitive. Writing the first quotient as \(L=O_{\mathbf P^1}(e-7)\), one has \(0\le e\le2\), with the audited early-defect bounds recorded in \`notes/2026-10-06-uniform-order-one-frontier.md\`.
 
 For arbitrary carrier degrees \(a,b\ge4\), if at least one equation has generic normal order one, then \(0\le e\le6\), with the corresponding uniform defect bounds and \(16/a\le7-e\). These statements do not cover pairs for which both equations have generic normal order at least two.
 
 ## Primitive e=2 quartic results — PROVED in mate degrees 7 and 8
+
+Topic synthesis: [results/quartic_e2.md](results/quartic_e2.md)
 
 For \(C_0\), the universal primitive-fourth obstruction and independent quartic-contact audit classify the reduced basepoint-free fourth-obstruction zero locus used in the argument. On that locus the canonical primitive triple lies on a distinguished cubic \(T\) and
 \[
@@ -53,6 +57,8 @@ For saturated quasiprimitive rank-six finite-flat lci/Gorenstein thickenings, th
 
 ## Normal quartic carriers — LARGE CLASSES EXCLUDED / FINITE REMAINDER OPEN
 
+Topic synthesis: [results/normal_carriers.md](results/normal_carriers.md)
+
 Excluded are normal quartics with only rational singularities, the positive-genus ruled irrational cases, the case in which \(C\) avoids the nonrational exceptional anticanonical locus, and the simple-elliptic case.
 
 The remaining rational-resolution Ishii–Nakayama B1/B2/B3/D cases have reducible, singular, or nonreduced exceptional anticanonical divisor. Denominator compression bounds the mate degree but does not exclude these cases.
@@ -63,11 +69,15 @@ The split-[4] and split-[2,2] analyses eliminate several strata but not the enti
 
 ## Normalization and conductor — PROVED UNDER STATED HYPOTHESES
 
+Topic synthesis: [results/normalization_conductor.md](results/normalization_conductor.md)
+
 For an integral carrier \(X\) with normalization \(\nu:S\to X\), an STCI mate forces the reduced full inverse image of \(C\) to support an effective Cartier divisor. An isolated point in that full inverse image therefore excludes every mate on the fixed carrier.
 
 When all nonnormality is supported on \(C\), the audited conductor argument reduces existence of a mate on the fixed carrier to existence of the required effective Cartier divisor with the appropriate hyperplane linear equivalence; no separate asymptotic conductor obstruction remains after taking a power.
 
 ## Entirely-thick branch — NECESSARY NUMERICAL RESTRICTIONS / OPEN
+
+Topic synthesis: [results/entirely_thick.md](results/entirely_thick.md)
 
 If the two equations have exact generic normal orders \(p,q\ge2\) and degrees \(a,b\), the blowup intersection calculation gives
 \[
@@ -78,6 +88,8 @@ together with \(a\ge3p\), \(b\ge3q\).
 Thus the simultaneous normalized boundary \((a/p,b/q)=(3,3)\) is impossible. On the \((3,4)\) boundary the exceptional intersection is forced into a repeated-root configuration. These are necessary restrictions, not an exclusion of the entirely-thick branch. First tangent forms alone do not determine the needed transverse intersection length.
 
 ## Structural jet geometry — PROVED LEMMAS / OPEN PROGRAM
+
+Topic synthesis: [results/jet_geometry.md](results/jet_geometry.md)
 
 The quartic jet analysis identifies the divisor measuring comparison of the primitive and quadric conormal directions, describes the first-order source as sections through that divisor, and localizes the next target on its double. This motivates a condition-budget/discrepancy program for detecting geometric dependencies among successive infinitesimal containment conditions. It is a research framework, not yet a general theorem.
 
