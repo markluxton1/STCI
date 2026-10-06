@@ -2,6 +2,14 @@
 
 Prepared: 2026-09-30
 
+**Live continuation entry point (resumed 2026-10-06):**
+[`SUSTAINED_RESEARCH_2026-10-05.md`](SUSTAINED_RESEARCH_2026-10-05.md).
+It supersedes the historical frontier counts below where later audited
+results are explicitly listed. The research was interrupted by the account
+usage limit on 2026-10-05 and resumed at the user's request on 2026-10-06.
+Incomplete agent claims and exploratory outputs are retained with their
+status; they are not promoted solely because a computation terminated.
+
 This file is the entry point for a fresh research session. It is intentionally
 more concise than `RESEARCH_RECORD.md`. Every claim below should be read with
 the exact hypotheses and proof in that record; source scopes are in
@@ -190,7 +198,10 @@ sextic.
 
 - Current open status and the historical formulation.
 - The uniform three-equation upper bound.
-- STCI results for ACM curves and the affine lci theorem.
+- The securely checked ACM monomial positive class and the affine lci
+  theorem. The broad arbitrary-ACM assertion is stated in a modern survey,
+  but the original proof scope remains qualified; see the resumed
+  foundational audit.
 - Classical rational-quartic exclusions for cubic and quartic carriers.
 - The characteristic-zero normal bundle theorem.
 - The Bănică--Forster/Boratyński/Manolache multiple-structure framework.

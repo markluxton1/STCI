@@ -94,18 +94,23 @@ arXiv:2106.09796, §4.1.1.
 
 ### Arithmetically Cohen--Macaulay curves
 
-Robbiano--Valla and Stückrad--Vogel prove that arithmetically Cohen--Macaulay
-curves in \(\mathbf P^3\) are set-theoretic complete intersections.
+A modern survey (D'Cruz, Theorem 2.7) states that arithmetically
+Cohen--Macaulay curves in \(\mathbf P^3\) are set-theoretic complete
+intersections and attributes this to Robbiano--Valla and Stückrad--Vogel.
+The broad original-proof scope is not yet verified in this repository.
 
 - Lorenzo Robbiano and Giuseppe Valla, “Some curves in \(\mathbf P^3\) are
   set-theoretic complete intersections,” LNM 997 (1983), 391--399:
   <https://doi.org/10.1007/BFb0061654>
-- Scope qualification: the modern explicit theorem statement and source chain
-  were checked; the full original proofs were not independently rederived in
-  this run.
+- Scope qualification, strengthened by the 2026-10-05/06 audit: the inspected
+  Robbiano--Valla 1983 article fixes a monomial curve before its ACM
+  proposition. That proof supports the ACM monomial class. The LNM chapter
+  and the other original cited proof were not recovered in full. The modern
+  broad statement is evidence of its assertion, not an independently
+  reconstructed proof for arbitrary ACM curves. See
+  `notes/2026-10-05-foundational-frontier-audit.md`.
 - Relevance: smooth rational quartics are not linearly normal and hence not
-  ACM, so this broad positive theorem stops exactly before the smallest open
-  smooth case.
+  ACM, so even the modern broad assertion would not settle this test case.
 
 ## Affine lci theorems and the projective gap
 

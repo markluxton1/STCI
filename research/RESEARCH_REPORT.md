@@ -2,6 +2,12 @@
 
 Cutoff: 2026-09-30
 
+**Continuation:** the current audited frontier and active research are in
+[`SUSTAINED_RESEARCH_2026-10-05.md`](SUSTAINED_RESEARCH_2026-10-05.md),
+resumed on 2026-10-06 after the account usage limit. This report preserves
+the earlier synthesis; its numerical frontier counts are historical where
+the live continuation records sharper results.
+
 The durable proofs and exact hypotheses are in `RESEARCH_RECORD.md`; checked
 sources are in `LITERATURE_LEDGER.md`. This report is the mathematical
 synthesis at closeout, not a substitute for those two ledgers.
@@ -684,7 +690,7 @@ the record have separate geometric reductions or are explicitly labeled open.
 ### KNOWN
 
 - current open status through the dated literature search;
-- the classical affine lci, ACM, rational-quartic degree exclusions, normal-
+- the classical affine lci, ACM monomial, rational-quartic degree exclusions, normal-
   bundle, multiple-structure, Jaffe, and almost-Cartier theorems cited in the
   literature ledger.
 

@@ -1,0 +1,156 @@
+[
+  {
+    "file": "research/computations/verify_all_quartic_primitive_obstruction.py",
+    "exit_code": 0,
+    "seconds": 1.471,
+    "stdout": "ALL-RATIONAL-QUARTIC PRIMITIVE OBSTRUCTION VERIFIED\nG1 = (A*lam + B)*(5*A**2*lam**3 - 3*A**2*lam**2 + 6*A*B*lam**2 - 2*A*B*lam + 3*B**2*lam - B**2)\nG2 = lam*(A*lam + B)*(3*A**2*lam**3 - A**2*lam**2 + 4*A*B*lam**2 + 3*B**2*lam - B**2)\nG3 = lam**2*(3*A**3*lam**3 - A**3*lam**2 + 3*A**2*B*lam**3 + 3*A**2*B*lam**2 + 5*A*B**2*lam**2 + A*B**2*lam + 3*B**3*lam - B**3)\nG4 = lam**3*(3*A**3*lam**2 - A**3*lam + 5*A**2*B*lam**2 + A**2*B*lam + 3*A*B**2*lam**2 + 3*A*B**2*lam + 3*B**3*lam - B**3)\nG5 = lam**4*(A + B)*(3*A**2*lam - A**2 + 4*A*B*lam + 3*B**2*lam - B**2)\nG6 = lam**4*(A + B)*(3*A**2*lam - A**2 + 6*A*B*lam - 2*A*B + 5*B**2*lam - 3*B**2)\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_c0.py",
+    "exit_code": 0,
+    "seconds": 0.467,
+    "stdout": "1. ELIMINATION IDEAL\n  parametrization kernel verified over QQ and GF(2), GF(3), GF(5)\n2. SPECIAL PAIRS\n  characteristic 2: radical power certificates {'A': 4, 'B': 2, 'Q': 4, 'C': 4}\n  characteristic 3: radical power certificates {'A': 1, 'B': 3, 'Q': 3, 'C': 3}\n3. UNIFORM FROBENIUS FAMILY\n  characteristic 2: e=6, degree=8, terms=4\n  characteristic 3: e=3, degree=4, terms=2\n  characteristic 5: e=15, degree=20, terms=4\n  characteristic 7: e=21, degree=28, terms=4\n4. WRONG-CHARACTERISTIC SANITY CHECKS\n  special equations fail outside their intended characteristics\nALL ASSERTIONS PASSED\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_chow_form.py",
+    "exit_code": 0,
+    "seconds": 0.232,
+    "stdout": "PASS: the 10-term Pluecker quartic equals the exact line resultant\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_chow_pencil_45.py",
+    "exit_code": 0,
+    "seconds": 0.537,
+    "stdout": "PASS: restricted Chow-pencil (4,5) exclusion certificates hold exactly\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_degree6.py",
+    "exit_code": 0,
+    "seconds": 3.056,
+    "stdout": "1. SYMBOLIC SQUARE AND DEGREE-SIX SPACE\n  QQ: I^2:x_i^infinity=I^2 on all four charts\n  GF(2): I^2:x_i^infinity=I^2 on all four charts\n  GF(3): I^2:x_i^infinity=I^2 on all four charts\n  GF(5): I^2:x_i^infinity=I^2 on all four charts\n  dim H^0(I_C(4)) = 18\n  dim q*H^0(I_C(4)) = 18\n  dim H^0(I_C^(2)(6)) = 23\n  quotient basis: A^2, A*B, B^2, B*D, D^2\n  dim H^0(I_C(6)) = 84-25 = 59\n  relation modulo q*I_C(4): A*D = B^2\n  exact relation: A*D-B^2 = -x1*x2*q^2\n  H^0(I_C^(3)(6)) is one-dimensional, spanned by q^3\n\n2. RESTRICTION TO THE QUADRIC\n  A|Q=a0^2*h, B|Q=a0*a1*h, D|Q=a1^2*h\n  Therefore every non-q class restricts as h^2*R(a0,a1),\n  where R is an arbitrary binary quartic (dimension 5).\n\n3. AN IRREDUCIBLE SEXTIC WITH REDUCED SINGULAR LOCUS C0\n  F*=A^2+B^2+D^2+q^2*(x0^2+x1^2+x2^2+x3^2) is irreducible over QQ\n  radical Jacobian certificate: {'q': 6, 'A': 4, 'B': 4, 'D': 4}\n  Hence sqrt(Jac(F*))=I_C0: its reduced singular locus is exactly C0.\n\n4. FIRST QUADRATIC NORMAL FORM AND DISCRIMINANT\n  discriminant = -4*(u**2 - u + 1)*(u**2 + u + 1)*(u**16 + 2*u**10 + 2*u**6 + 1)\n  It is a nonzero degree-20 section, so the generic transverse type is nodal\n  and it degenerates in a divisor of total degree 20 on C0.\n\n5. RESULTANT TEST FOR PAIRS OF THICK SEXTICS\n  an explicit pair has nonzero normal resultant of degree 40\n  resultant = u**4*(4*u**36 + 8*u**30 - 4*u**28 - 16*u**26 + 24*u**24 + 4*u**22 + 45*u**20 + 62*u**18 + 61*u**16 + 82*u**14 + 62*u**12 + 38*u**10 + 35*u**8 + 16*u**6 + 6*u**4 + 4*u**2 + 1)\n  Therefore the resultant-identically-zero condition is a proper closed\n  condition on pairs; a generic pair cannot have radical C0.\n\nALL ASSERTIONS PASSED\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_general_conductor_power.py",
+    "exit_code": 0,
+    "seconds": 0.218,
+    "stdout": "PASS: scroll identities; twisted-cubic basis determinant 2;\n      full inverse-image ideal = (h) intersect (u,r+1);\n      nonconstant residue ratio; independent (2,3) STCI certificate.\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_localcoh_degree4_allstage_certificate.py",
+    "exit_code": 0,
+    "seconds": 0.366,
+    "stdout": "PASS: P-043 all-stage coefficient certificate checked for N=2,...,8\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_localcoh_degree4_counterexample.py",
+    "exit_code": 0,
+    "seconds": 0.202,
+    "stdout": "PASS: the coprime nonconstant-ratio degree-four family is exact\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_localcoh_quartic_ratio_t_slice.py",
+    "exit_code": 0,
+    "seconds": 0.354,
+    "stdout": "PASS: entire ratio-t quartic slice has dimension 14\nPASS: unique representation F=xH+zD, G=yH+wD, H,D in I_3\nPASS: both determinant identities and P-039 specialization\nPASS: transposed ruling slice ratio-t^3 also has dimension 14\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_mixed46_regular.py",
+    "exit_code": 0,
+    "seconds": 0.511,
+    "stdout": "Pure normal quartic basis, followed by h(z),R(z) where F|V=0=R U^2+...:\n-(x0*x3 - x1*x2)**2 ; h= 0 ; R= -1\nx0*(x0**2*x2 - x1**3) ; h= 1 ; R= 0\nx1*(x0**2*x2 - x1**3) ; h= z ; R= 0\nx2*(x0**2*x2 - x1**3) ; h= z**3 ; R= 0\nx3*(x0**2*x2 - x1**3) ; h= z**4 ; R= 0\nx0*x1*x3**2 + x0*x2**3 - 2*x1**2*x2*x3 ; h= z**6 ; R= z\n2*x0*x2**2*x3 - x1**2*x3**2 - x1*x2**3 ; h= z**7 ; R= -z**2\n2*x0*x3**3 - 3*x1*x2*x3**2 + x2**4 ; h= z**9 ; R= 3*z**4\nPASS: pure e=0 (4,6) exclusion identities and cubic-contact rigidity\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_normal_bundle.py",
+    "exit_code": 0,
+    "seconds": 0.218,
+    "stdout": "1. CONORMAL TRANSITION MATRIX\n  transition, determinant, and extension cocycle verified\n2. INDEPENDENT JACOBIAN-SYZYGY CERTIFICATE\n  determinant=2^15; full rank in characteristics 0, 3, and 5\n3. CHARACTERISTIC-3 PRIMITIVE TRIPLE\n  local ideals (a,b^3) and (beta,alpha^3); arithmetic genus 19\nALL ASSERTIONS PASSED\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_positive_quartic_descent.py",
+    "exit_code": 0,
+    "seconds": 1.027,
+    "stdout": "PASS: standard-cusp descent support in characteristic 2\nPASS: standard-cusp descent support in characteristic 5\nPASS: standard-cusp descent support in characteristic 7\nPASS: characteristic-3 cusp-ring identities\nPASS: all positive-quartic descent assertions\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_primitive_obstruction.py",
+    "exit_code": 0,
+    "seconds": 0.55,
+    "stdout": "PRIMITIVE-TRIPLE QUADRATIC JET VERIFIED\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_residual_cycle.py",
+    "exit_code": 0,
+    "seconds": 0.202,
+    "stdout": "PASS: 81 exact residual-cycle lattice determinants; A<=Dtop\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_split22_boundary_lift.py",
+    "exit_code": 0,
+    "seconds": 0.328,
+    "stdout": "PASS: the unique fixed-boundary lifts are F_lambda=F_0+lambda*q^3\nPASS: all branch collisions are smooth or ordinary A1\nPASS: Gamma_low.Gamma_high is 9 or 7, never the required 17/5\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_split22_boundary_survivor.py",
+    "exit_code": 0,
+    "seconds": 0.194,
+    "stdout": "PASS: content-free d=1,[2,2] first-normal boundary survivor is exact\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_typea45.py",
+    "exit_code": 0,
+    "seconds": 3.31,
+    "stdout": "PASS: all type-A quotient strata, unique quadruple route, and terminal obstruction reconstructed\nH^1(O(-9)) coordinates: (-5/64, -5/96, 5/48, -5/24, 5/12, -5/6, 5/3, 10)\nThe vector is 8/3 times the vector previously recorded in P-025.\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_typeb45_boundary.py",
+    "exit_code": 0,
+    "seconds": 1.652,
+    "stdout": "PASS: the b0=0 type-B boundary obstruction is reproduced exactly\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_typeb45_corner.py",
+    "exit_code": 0,
+    "seconds": 0.681,
+    "stdout": "PASS: all three type-B corner points fail the triple flatness test\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_typeb45_dense.py",
+    "exit_code": 0,
+    "seconds": 2.95,
+    "stdout": "PASS: dense type-B chart, all elimination boundaries, epimorphism and terminal obstruction independently rederived\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_typeb45_endpoint_certificate.py",
+    "exit_code": 0,
+    "seconds": 0.225,
+    "stdout": "PASS: dense and boundary type-B endpoint certificates hold exactly\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/scratch/degree6/verify_mixed45_reduction.py",
+    "exit_code": 0,
+    "seconds": 2.242,
+    "stdout": "DIMENSIONS AND NORMAL IMAGES\n  dim I_C(3), I_C(4), I_C(5) = 7 18 35\n  rank W4, rank W5 = 17 28\n  kernel of the quintic first-normal map = q*I_C(3), dimension 7\n  W4 equations: U_1=2V_2, U_4=2V_5, U_7=2V_8\n\nEXACT REDUCED-JET CERTIFICATES\n  parent family x1*A + lambda*q^2:\n    ranks = (7, 8)\n    certificate rows = [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (3, 0), (3, 3)]\n    augmented 8x8 determinant = 2*LAM**3\n  type-A example:\n    ranks = (7, 8)\n    certificate rows = [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (3, 3)]\n    augmented 8x8 determinant = -72\n  type-B example:\n    ranks = (7, 8)\n    certificate rows = [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7)]\n    augmented 8x8 determinant = -48\n\nALL ASSERTIONS PASSED\n",
+    "stderr": ""
+  }
+]

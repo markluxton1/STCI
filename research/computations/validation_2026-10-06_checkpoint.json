@@ -1,0 +1,58 @@
+[
+  {
+    "file": "research/computations/verify_fixed_quartic_mate_degrees.py",
+    "exit_code": 0,
+    "seconds": 0.088,
+    "stdout": "p=2: exact finite descent controls agree; minimum=4; mate monomial exponents=(3, 0, 1)\np=3: exact finite descent controls agree; minimum=3; mate monomial exponents=(2, 1, 0)\np=5: exact finite descent controls agree; minimum=25; mate monomial exponents=(18, 3, 4)\np=7: exact finite descent controls agree; minimum=7; mate monomial exponents=(5, 1, 1)\np=11: exact finite descent controls agree; minimum=11; mate monomial exponents=(8, 1, 2)\np=13: exact finite descent controls agree; minimum=13; mate monomial exponents=(9, 3, 1)\np=17: exact finite descent controls agree; minimum=17; mate monomial exponents=(12, 3, 2)\np=19: exact finite descent controls agree; minimum=19; mate monomial exponents=(14, 1, 4)\np=23: exact finite descent controls agree; minimum=23; mate monomial exponents=(17, 1, 5)\np=29: exact finite descent controls agree; minimum=29; mate monomial exponents=(21, 3, 5)\np=31: exact finite descent controls agree; minimum=31; mate monomial exponents=(23, 1, 7)\np=37: exact finite descent controls agree; minimum=37; mate monomial exponents=(27, 3, 7)\np=41: exact finite descent controls agree; minimum=41; mate monomial exponents=(30, 3, 8)\np=43: exact finite descent controls agree; minimum=43; mate monomial exponents=(32, 1, 10)\nPASS: characteristic-zero control and all displayed minimum mates\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_localcoh_direction_image.py",
+    "exit_code": 0,
+    "seconds": 0.722,
+    "stdout": "PASS: dim I4=18; balanced symbol image rank17; kernel kq\u00b2\nPASS: image equations P1=2Q2, P4=2Q5, P7=2Q8\nPASS: universal exact quartic lift F=qH(P-P_J)+J+cq\u00b2\nPASS: e0 intersection dimension7 for every direction\nPASS: e1 dimension9 at r~(2s,t), dimension6 elsewhere\nPASS: e2 dimension6 at a0=2b1,a1=2b2, dimension5 elsewhere\nPASS: excluded e2 rank0 directions have a common linear factor\nPASS: all primitive e2 rank2 scalar kernels are h2=h5=0\nPASS: exact homogeneous resultant on exceptional e2 directions\nPASS: exceptional e1 quartic preimage is exactly q*S2\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_localcoh_generic_length_model.py",
+    "exit_code": 0,
+    "seconds": 0.327,
+    "stdout": "PASS: generic cyclic algebra has length four and Hilbert function (1,1,1,1)\nPASS: xi alpha=e and eta^3 alpha=c e, with length-three multiplier ideal\nPASS: top coefficient may vanish while the generated socle stays nonzero\nPASS: special fiber has socle dimension two; relative Gorenstein inference is false\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_localcoh_pure_direction_audit.py",
+    "exit_code": 0,
+    "seconds": 1.478,
+    "stdout": "PASS: full pure-V space and exact transverse expansion\nPASS: exhaustive c9,c7,c6,kappa pivot contact identities\nPASS: R=0 forms lie in A*S1; zero-symbol boundary included\nPASS: generic quadratic quotient coefficient is delta/hF\nPASS: reversal exchanges pure constant directions and target classes\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_localcoh_direction_contact_survivor.py",
+    "exit_code": 0,
+    "seconds": 0.697,
+    "stdout": "F= -4*w**3*x - 2*w**3*y + 3*w**2*x*y + 6*w**2*x*z + 9*w**2*y*z + 4*w*x**3 - 6*w*x**2*y - 3*w*x**2*z - 6*w*x*y**2 + 6*w*x*z**2 - 3*w*y**3 - 6*w*y**2*z - 6*w*y*z**2 + 2*w*z**3 + 2*x**3*z - 9*x**2*y*z - 2*x*y**3 + 6*x*y**2*z + 6*x*y*z**2 + 3*x*z**3 + 5*y**4 + 6*y**3*z - 6*y*z**3 - 5*z**4\nG= -6*w**3*x - 3*w**3*y + 13*w**2*x**2 + 11*w**2*x*y + 8*w**2*x*z + 13*w**2*y*z + 2*w*x**3 - 4*w*x**2*y + 5*w*x**2*z - 4*w*x*y**2 - 12*w*x*y*z + 8*w*x*z**2 - 9*w*y**3 - 8*w*y**2*z - 8*w*y*z**2 + 3*w*z**3 + x**3*z - 5*x**2*y*z - x*y**3 + 4*x*y**2*z + 4*x*y*z**2 - 3*x*z**3 + 3*y**4 + 4*y**3*z - y**2*z**2 - 8*y*z**3 - 7*z**4\nhF= -(t - 1)*(t**2 + t + 1)*(2*t**2 - t + 2)*(t**4 - t**3 - 3*t**2 - t + 1)/9 hG= -(t**4 - t**3 - 3*t**2 - t + 1)*(3*t**5 - t**4 + 4*t**3 + t - 1)/9\nbF= (t - 1)*(t**2 - 2*t - 1)*(t**2 + t + 1)*(2*t**2 - t + 2)/3 bG= (t**2 - 2*t - 1)*(3*t**5 - t**4 + 4*t**3 + t - 1)/3\nPASS: coprime ambient pair with exact second transverse contact\ngeneric inverse coefficient solution = (c0, (-10*c2*t**8 + 14*c2*t**7 + 14*c2*t**6 + 14*c2*t**5 + 8*c2*t**4 + 14*c2*t**3 + 14*c2*t**2 + 14*c2*t - 10*c2 + 15*c5*t**6 - 36*c5*t**5 + 15*c5*t**4 - 36*c5*t**3 + 9*c5*t**2 - 24*c5*t - 15*c5 + 18*t**11 - 83*t**10 + 70*t**9 + 85*t**8 - 54*t**7 + 47*t**6 - 47*t**5 - 138*t**4 - 127*t**3 - 2*t**2 + 50*t + 19)/((t**4 - t**3 - 3*t**2 - t + 1)*(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5)), c2, 4*(5*c5*t**4 - 2*c5*t**3 + 6*c5*t**2 - 2*c5*t + 5*c5 + 6*t**9 - 15*t**8 - 3*t**7 + 6*t**6 + 15*t**4 + 18*t**3 + 15*t**2 - 3*t - 3)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5), -(10*c5*t**4 - 4*c5*t**3 + 12*c5*t**2 - 4*c5*t + 10*c5 + 6*t**9 - 15*t**8 - 3*t**7 + 6*t**6 + 15*t**4 + 18*t**3 + 15*t**2 - 3*t - 3)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5), c5, 8*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5), -4*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5), 2*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5), -(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5))\nhighest coefficients= [8*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5), -4*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5), 2*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5), -(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1)/(5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5)]\nhighest numerator= 8*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1) denominator= 5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5\nhighest numerator= -4*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1) denominator= 5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5\nhighest numerator= 2*(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1) denominator= 5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5\nhighest numerator= -(t + 1)*(t**4 - t**3 - 3*t**2 - t + 1)*(2*t**6 - 3*t**5 + 2*t**4 - 3*t**3 - 2*t + 1) denominator= 5*t**4 - 2*t**3 + 6*t**2 - 2*t + 5\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_mf6_defect12.py",
+    "exit_code": 0,
+    "seconds": 1.155,
+    "stdout": "PASS: degree-one first defect impossible on all quotient charts\nPASS: degree-two first defect forces one of two pure endpoint triples\nPASS: every compatible quartic equals D times an ambient linear form\nRESULT: every hypothetical characteristic-zero (4,b) pair on C0 with e=0 has deg D2>=3\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_mf6_type3.py",
+    "exit_code": 0,
+    "seconds": 1.495,
+    "stdout": "PASS: degree-one first defect impossible on all quotient charts\nPASS: degree-two first defect forces one of two pure endpoint triples\nPASS: every compatible quartic equals D times an ambient linear form\nRESULT: every hypothetical characteristic-zero (4,b) pair on C0 with e=0 has deg D2>=3\nPASS: complete degree-three triple-compatible quartic space is a pencil\nPASS: beta!=0 forces deg D3>=9, or >=8 for alpha=-4 beta\nPASS: beta=0 has D3=2D2 and quartic divisor H=3D2\nRESULT: e=0 numerical type (d2,d3)=(3,6) necessarily has regular first-normal ratio\n",
+    "stderr": ""
+  },
+  {
+    "file": "research/computations/verify_split4_nonramified.py",
+    "exit_code": 1,
+    "seconds": 0.448,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/Users/markluxton/Projects/STCI/research/computations/verify_split4_nonramified.py\", line 210, in <module>\n    main()\n    ~~~~^^\n  File \"/Users/markluxton/Projects/STCI/research/computations/verify_split4_nonramified.py\", line 141, in main\n    assert sp.resultant(p, r, z) == (P-2)**2/2\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  }
+]

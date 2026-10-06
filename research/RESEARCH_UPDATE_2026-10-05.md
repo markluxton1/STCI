@@ -1,5 +1,10 @@
 # Continuation batch: 2026-10-05
 
+The subsequent sustained goal-directed work, including the recovery from
+the usage-limit interruption and the 2026-10-06 continuation, is indexed in
+[`SUSTAINED_RESEARCH_2026-10-05.md`](SUSTAINED_RESEARCH_2026-10-05.md).
+Use that file for the newest audited frontier and corrected evidence scopes.
+
 This file indexes the dated continuation work recorded after the 2026-09-30
 handoff. It is a research record, not a resolution of the projective STCI
 problem. Every result below is stated with its scope; computational checks are
