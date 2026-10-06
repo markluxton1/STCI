@@ -12,26 +12,26 @@ This file is the authoritative mathematical status for continuation after the 20
 ## A. Uniform order-one structure — PROVED
 
 For a quartic carrier in a characteristic-zero STCI presentation supported on a smooth rational quartic, the generic normal order is one and the BF structure is quasiprimitive. Writing the first quotient as
-[
+\[
 L=O_{P^1}(e-7),
-]
+\]
 effectivity and Gorenstein BF duality force
-[
+\[
 0\le e\le2.
-]
+\]
 Uniform early-defect bounds are:
 - e=0: 1 <= deg D2 <= 5 and deg D3 <= 8;
 - e=1: 0 <= deg D2 <= 3 and deg D3 <= 5;
 - e=2: 0 <= deg D2 <= 1 and deg D3 <= 2.
 
 For arbitrary carrier degrees a,b >= 4 with at least one equation of generic normal order one:
-[
+\[
 0\le e\le6,
-]
+\]
 with uniform bounds on D2,D3 as recorded in `notes/2026-10-06-uniform-order-one-frontier.md`. The order-one carrier also satisfies
-[
+\[
 16/a\le7-e.
-]
+\]
 These results do not cover the entirely-thick branch where both equations have generic normal order at least two.
 
 ## B. Primitive e=2 quartic branch — PROVED under stated hypotheses
@@ -40,9 +40,9 @@ For the fixed monomial rational quartic C0, the universal fourth-obstruction cal
 1. the reduced basepoint-free fourth-obstruction zero locus is exactly the stated linear locus in the quadratic quotient parameters;
 2. on that locus the canonical primitive triple has a distinguished cubic T;
 3.
-[
+\[
 H^0(I_{C_3}(4))=T\,H^0(O_{P^3}(1)).
-]
+\]
 
 Consequently the e=2 branches of (4,7) and (4,8) are excluded: any defining quartic factors as T times a linear form, and the plane factor forces extra set-theoretic intersection with any mate.
 
@@ -69,9 +69,9 @@ The numerical normal-sheaf inequality used here is proved under generic regulari
 ## E. Multiplicity-six / MF6 structure
 
 For a saturated quasiprimitive rank-six finite-flat lci/Gorenstein thickening:
-[
-D_i+D_{5-i}=D_5,qquad D_4=D_5=D_2+D_3,qquad 0\le D_2\le D_3,
-]
+\[
+D_i+D_{5-i}=D_5,\qquad D_4=D_5=D_2+D_3,qquad 0\le D_2\le D_3,
+\]
 and the first-normal pole divisor satisfies the audited intrinsic identity recorded in `notes/2026-10-05-mf6-pairing-audit.md`.
 
 For e=0, deg D2 >= 3. The (d2,d3)=(3,6) nonregular branch is excluded; any survivor there has regular first-normal ratio. The (4,5) defect type remains OPEN on an exceptional incidence locus.
