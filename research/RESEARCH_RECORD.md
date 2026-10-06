@@ -1,4 +1,6 @@
-> **CANONICAL-STATE NOTICE:** Current mathematical status is maintained in [STATE.md](STATE.md), with active priorities in [FRONTIER.md](FRONTIER.md). This chronological research record is retained for detailed proof history and provenance. Where older status or frontier language below conflicts with those canonical files, the canonical files control.\n\n# STCI Research Record
+> **CANONICAL-STATE NOTICE:** Current mathematical status is maintained in [STATE.md](STATE.md), with active priorities in [FRONTIER.md](FRONTIER.md). This chronological research record is retained for detailed proof history and provenance. Where older status or frontier language below conflicts with those canonical files, the canonical files control.
+
+# STCI Research Record
 
 Started: 2026-09-30
 
