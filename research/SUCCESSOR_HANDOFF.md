@@ -1,4 +1,4 @@
-# STCI Successor-Session Handoff
+> **2026-10-06 CONSOLIDATION NOTICE:** The authoritative current status is [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where older frontier language below conflicts with that audited state, the audited state controls. Historical material below is retained for provenance.\n\n# STCI Successor-Session Handoff
 
 Prepared: 2026-09-30
 

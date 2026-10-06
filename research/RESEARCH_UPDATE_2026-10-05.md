@@ -1,4 +1,4 @@
-# Continuation batch: 2026-10-05
+> **2026-10-06 CONSOLIDATION NOTICE:** This is a dated historical synthesis. For the authoritative current mathematical status, see [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where frontier language below conflicts with that file, the audited state controls.\n\n# Continuation batch: 2026-10-05
 
 This file indexes the dated continuation work recorded after the 2026-09-30
 handoff. It is a research record, not a resolution of the projective STCI

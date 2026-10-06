@@ -1,4 +1,4 @@
-# Research Report: Set-Theoretic Complete Intersections of Space Curves
+> **2026-10-06 CONSOLIDATION NOTICE:** This is a dated historical synthesis. For the authoritative current mathematical status, see [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where frontier language below conflicts with that file, the audited state controls.\n\n# Research Report: Set-Theoretic Complete Intersections of Space Curves
 
 Cutoff: 2026-09-30
 
