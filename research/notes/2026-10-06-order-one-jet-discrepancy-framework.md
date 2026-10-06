@@ -374,3 +374,152 @@ The next exact target is:
 4. determine whether its rank-drop locus has a geometric incidence description.
 
 This cleanly separates standard extension theory from the genuinely unresolved ambient-STCI geometry.
+
+
+## J. Exact e=1 primitive-triple obstruction
+
+This section carries out the first revised target from Section I for the fixed quartic
+\[
+C_0=[s^4:s^3t:st^3:t^4].
+\]
+
+### J.1 Setup
+
+For \(e=1\),
+\[
+L=O(-6),\qquad M=O(-8),
+\]
+and every Ferrand double is specified in the fixed split conormal frame by
+\[
+A=a_0+a_1z,\qquad B=b_0+b_1z,
+\]
+with projective basepoint-free condition
+\[
+\Delta=a_0b_1-a_1b_0\ne0.
+\]
+
+By Bănică--Forster Proposition 2.4, extension to a primitive triple is equivalent to splitting
+\[
+0\to L^2=O(-12)\to \nu_{C_2}|_C\to M=O(-8)\to0.
+\]
+The extension class lies in
+\[
+\operatorname{Ext}^1(M,L^2)=H^1(O(-4)).
+\]
+
+**LITERATURE STATUS.** The splitting criterion and obstruction group are standard Bănică--Forster theory. The explicit specialization below to the fixed embedded rational quartic and its quotient pencil was not found in the targeted literature search; it should presently be treated as a project calculation, not a publication-level novelty claim.
+
+### J.2 Moving-coordinate cocycle
+
+Use the same exact embedded chart transition as in the audited e=2 computation, but now reverse the binary *linear* forms by
+\[
+A^\vee(w)=wA(1/w),\qquad B^\vee(w)=wB(1/w).
+\]
+For \(m=Bu-Av\), which has line type \(M=O(-8)\), the quadratic coefficient of the opposite-chart equation gives the Cech cocycle
+\[
+h_2=-\frac{2A+zB}{8z^5}
+\left(12A^2+3z^2B^2+4z^2(A'B-AB')\right).
+\]
+The same formal expression appeared in the e=2 calculation; the different line type changes which Laurent coefficients survive in cohomology.
+
+For \(H^1(O(-4))\), the basis classes are \(z^{-1},z^{-2},z^{-3}\). Up to a common nonzero scalar, the three obstruction coordinates are
+\[
+\boxed{
+\begin{aligned}
+c_1={}&-b_1(2a_0b_1+12a_1^2+16a_1b_0+9b_0^2),\\
+c_2={}&-(2a_1+b_0)(8a_0b_1+12a_1^2+4a_1b_0+3b_0^2),\\
+c_3={}&-2a_0(2a_0b_1+36a_1^2+16a_1b_0+3b_0^2).
+\end{aligned}}
+\]
+
+**PROVED COMPUTATIONALLY/FORMALLY.** These are the exact Cech coordinates obtained from the moving-coordinate transition; no sampling is used.
+
+### J.3 Exact zero locus on the resultant-open quotient space
+
+Localize at \(\Delta\) by adjoining \(t\Delta-1\). An exact Groebner calculation gives, among the localized consequences,
+\[
+a_0(2a_1+b_0)=b_1(2a_1+b_0)=0,
+\]
+\[
+a_0(a_0b_1+2b_0^2)=b_1(a_0b_1+2b_0^2)=0,
+\]
+and
+\[
+a_0(3b_0^2t+2)=b_1(3b_0^2t+2)=0.
+\]
+
+Hence the resultant-open zero locus has the following exhaustive set-theoretic decomposition.
+
+#### Main component
+
+If \((a_0,b_1)\ne(0,0)\), then
+\[
+\boxed{b_0=-2a_1,\qquad a_0b_1=-8a_1^2.}
+\]
+Here
+\[
+\Delta=-6a_1^2\ne0,
+\]
+so \(a_1,a_0,b_1\) are all nonzero. Projectively this is a one-dimensional rational locus.
+
+The quadric-comparison section is
+\[
+r=A+\frac z2B
+=a_0+\frac{b_1}{2}z^2
+=a_0-\frac{4a_1^2}{a_0}z^2.
+\]
+Thus its degree-two divisor \(R\) is a symmetric pair in the chosen affine coordinate. Whether this admits a coordinate-free incidence interpretation is OPEN.
+
+#### Boundary directions
+
+If \(a_0=b_1=0\), put \(r_0=b_0/a_1\). Basepoint-freeness says \(r_0\ne0\), and the remaining obstruction is
+\[
+(r_0+2)(3r_0^2+4r_0+12)=0.
+\]
+Thus there are three additional projective quotient directions over an algebraically closed characteristic-zero field:
+\[
+\boxed{r_0=-2,\quad 3r_0^2+4r_0+12=0.}
+\]
+
+At \(r_0=-2\), the comparison section \(A+\frac z2B\) vanishes identically. This is a genuinely exceptional configuration: the primitive conormal kernel \(M=O(-8)\) coincides with the quadric conormal subline \(O(-8)\subset N_C^*\). The divisor \(R\) formalism must therefore be treated separately there; one must not write a length-two \(R=Z(r)\).
+
+At the two quadratic-root directions, the comparison section is a nonzero scalar multiple of \(z\) as an \(O(2)\)-section, so its homogeneous zero divisor consists of the two coordinate boundary points \(0,\infty\).
+
+**PROVED.** The above main component plus three boundary points is the complete reduced/set-theoretic primitive-triple locus on \(\Delta\ne0\), subject to the exact transition conventions already audited for the fixed curve.
+
+Reproduction:
+\[
+\texttt{python research/computations/verify\_e1\_triple\_obstruction.py}.
+\]
+
+### J.4 Consequence for the jet-budget program
+
+The e=1 extension-existence condition is therefore neither vacuous nor a generic three-independent-equation cut. It has a positive-dimensional exceptional component. This reinforces the revised framework:
+
+\[
+\text{BF splitting degeneracy}
+\quad\text{first, then}\quad
+\text{ambient quartic jet rank}.
+\]
+
+On the main component, \(R\) has length two and
+\[
+K_R=H^0(I_{R/Q}(1,3))
+\]
+has dimension six. The next concrete problem is to compute
+\[
+\bar\rho_2:K_R\to H^0(O_{2R}(4))
+\]
+along the one-dimensional main component and the two nonzero-comparison boundary directions. The \(r\equiv0\) boundary direction requires a separate formulation because the \(R/2R\) reduction degenerates.
+
+### J.5 Literature check specific to this calculation
+
+A targeted search was made for explicit primitive-triple formulas for embedded rational quartics, Ferrand doubles extended to triples, and formulas for the Bănică--Forster splitting class. The sources located continue to use BF/Ferrand as the general mechanism; no explicit formula matching the three \(c_i\) above was found.
+
+Ellia's primitive-STCI work uses numerical consequences of primitive multiple structures rather than this quotient-pencil splitting locus. Modern papers using quasi-primitive extensions likewise cite BF as the construction machinery. Therefore the safe current classification is:
+
+- **standard:** Ferrand double construction, BF splitting criterion, obstruction group \(H^1(O(-4))\);
+- **project-specific exact calculation:** the three displayed \(c_i\) and their resultant-open zero-locus decomposition;
+- **unknown novelty:** whether an equivalent classification occurs in older specialized literature not indexed by the searches used here.
+
+Before any external write-up, search citation chains around Bănică--Forster, Ferrand, and older work on multiple/contact structures rather than claiming the explicit locus is new.
