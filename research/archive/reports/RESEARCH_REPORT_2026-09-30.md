@@ -1,4 +1,6 @@
-> **2026-10-06 CONSOLIDATION NOTICE:** This is a dated historical synthesis. For the authoritative current mathematical status, see [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where frontier language below conflicts with that file, the audited state controls.\n\n# Research Report: Set-Theoretic Complete Intersections of Space Curves
+> **ARCHIVED REPORT:** This is a dated historical synthesis. For current mathematical status see [../../STATE.md](../../STATE.md), and for active priorities see [../../FRONTIER.md](../../FRONTIER.md). The [2026-10-06 audited snapshot](AUDITED_STATE_2026-10-06.md) is retained here for provenance. Where historical frontier language conflicts with the current canonical files, the canonical files control.
+
+# Research Report: Set-Theoretic Complete Intersections of Space Curves
 
 Cutoff: 2026-09-30
 
