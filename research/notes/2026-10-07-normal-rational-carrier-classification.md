@@ -742,3 +742,62 @@ A correct exhaustive certificate need only generate separation states carrying:
 4. the marked tangent direction followed by c.
 
 At each terminal state one checks (D18)--(D20) and computes the exact rational value (A^{-1})_{jj}. This is a finite state space and avoids enumerating arbitrary negative-definite trees.
+
+
+## P. Intrinsic reduction of the remaining general-point certificate
+
+The blowup recursion can be compressed further using the anticanonical equations themselves.
+
+Let F=E_j be the component met by c. Since a_j=1,
+
+    1 = a_j = sum_i (A^{-1})_{ji} b_i,
+
+where b=Aa and b_i=-E.E_i>=0. The inverse of the connected negative intersection M-matrix is entrywise nonnegative. Therefore, if b_j>=1,
+
+    delta_p=(A^{-1})_{jj} <= 1.
+
+Such a component cannot survive (D11). Hence every survivor must satisfy
+
+    b_j=-E.F=0.
+
+Adjunction then identifies F as a rational (-2)-curve.
+
+### P.1 Weighted-adjacency dichotomy
+
+Because F has coefficient one and F^2=-2,
+
+    0=E.F=-2 + sum_{D adjacent F} a_D (F.D).
+
+Thus the weighted adjacency sum is exactly two. There are only two local boundary patterns:
+
+(A) F meets one coefficient-two component transversely once; or
+
+(B) F meets two coefficient-one components transversely once each,
+
+with the equivalent possibility of total intersection multiplicity two with one coefficient-one component.
+
+This is intrinsic and replaces the arbitrary star enumeration in N.
+
+### P.2 Pattern B
+
+For the minimal three-vertex block with coefficient vector (1,1,1), F central, E^2=-3 and Aa>=0 force the neighboring negative self-intersections to be (2,3) up to order. Exact inversion gives
+
+    delta_p=6/7.
+
+Further anticanonical attachments must preserve Aa>=0 and total energy a^T A a=3; they cannot be inserted freely. A complete proof that they do not raise delta_p above the threshold should follow by pruning coefficient-one leaves using the same adjunction equations. This is now a much smaller lattice lemma.
+
+### P.3 Pattern A
+
+The minimal two-vertex block with coefficient vector (1,2) cannot satisfy E^2=-3 and Aa>=0 for any integral neighbor self-intersection. Hence pattern A necessarily contains additional anticanonical structure.
+
+Geometrically the coefficient-two neighbor can only be produced by a blowup at anticanonical multiplicity three. Since c.E=1, the marked direction cannot terminate there. To reach F it must subsequently pass through a multiplicity-two center, which creates the coefficient-one (-2)-curve F. Thus any pattern-A survivor contains a forced two-stage proximity motif:
+
+    multiplicity 3 center -> coefficient 2 component
+    followed along c by
+    multiplicity 2 center -> coefficient 1 (-2) component F.
+
+The remaining certificate has therefore collapsed to two tiny tasks:
+1. prove the pruning lemma for pattern B;
+2. enumerate the degree-three multiplicity-three centers compatible with the forced pattern-A motif.
+
+No enumeration of all twelve-step proximity matrices is required.
