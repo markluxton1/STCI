@@ -297,3 +297,49 @@ mate degree b>0.
 
 Therefore the MF6 e=1 type \((d_2,d_3)=(0,4)\) is indeed excluded, and the
 remaining e=1 MF6 types are \((1,3)\) and \((2,2)\).
+
+
+## Degree-one defect: exact annihilator incidence and nonuniform carrier samples
+
+Write the primitive BF class as
+\[
+\xi=c_1z^{-1}+c_2z^{-2}+c_3z^{-3}\in H^1(O(-4)).
+\]
+For \(\delta=d_0+d_1z\), its image in \(H^1(O(-3))\) vanishes exactly when
+\[
+c_1d_0+c_2d_1=0,\qquad c_2d_0+c_3d_1=0.
+\]
+Therefore, away from the primitive locus \(\xi=0\), a degree-one defect
+section exists iff
+\[
+\boxed{c_1c_3-c_2^2=0},
+\]
+and then its projective class is unique. Thus the d2=1 triple locus is a
+determinantal hypersurface in quotient space carrying a canonically
+determined defect point.
+
+Exact sample computations show that this incidence does not have uniform
+quartic geometry.
+
+1. \(A=-8-3z,\ B=2-3z\). Here
+   \([c_1:c_2:c_3]=[1:4:16]\), \(\delta\sim z-4\).
+   The quartic-through-triple space has dimension one. Its restriction to
+   Q contains the ruling \(Z=W=0\), which has intersection multiplicity
+   three with C; the repaired Cartier-divisor lemma excludes this sample.
+
+2. \(A=-8-2z,\ B=-4-4z\). Here
+   \([c_1:c_2:c_3]=[1:2:4]\), \(\delta\sim z-2\).
+   The second-contact rank is three, so four quartics survive, and they share
+   a common cubic factor. This sample is excluded by the fixed-surface
+   factorization mechanism.
+
+3. \(A=-8-z,\ B=-2-4z\). Again
+   \([c_1:c_2:c_3]=[1:2:4]\), \(\delta\sim z-2\), but the contact rank is six
+   and only one quartic survives. Its residual intersection with Q has no
+   linear ruling factor over Q. Hence the defect divisor (or even the BF
+   obstruction ratio) does not determine the quartic carrier geometry.
+
+**Conclusion.** A uniform theorem of the form "d2=1 forces a ruling" is
+false. The surviving MF6 type (d2,d3)=(1,3) must retain the full normal
+quotient together with the later D3 condition. The exact annihilator
+certificate is research/computations/verify_e1_d2_defect.py.
