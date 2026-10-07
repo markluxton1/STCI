@@ -247,10 +247,104 @@ or, for m_j=c.E_j and A=(-E_i.E_j),
 
     m^T A^(-1)m=5.
 
-Moreover m is supported on a coefficient-one component of E with weighted sum one. This sharply reduces the remaining Type D lattice problem: one needs only the diagonal inverse entries (A^(-1))_{jj}=5 for coefficient-one components that can be met by c, together with the denominator of the corresponding column A^(-1)e_j.
+Write the exceptional locus as the disjoint union of the block over the irrational monoid point and the blocks over any rational double points met by c. The equality c.E=1 constrains only the irrational block. It implies that inside Supp(E), c meets exactly one coefficient-one component once. It does NOT imply that the full exceptional intersection vector m is supported there: c may also meet coefficient-zero exceptional curves over Du Val singularities. Accordingly the total correction 5 splits as
 
-This is the next exact target. A denominator below six would contradict the existing denominator-compression theorem plus the established lower mate-degree exclusions.
+    delta_p + delta_ADE = 5,
+
+where delta_p is the correction at the monoid point. The earlier draft's stronger assertion (A^(-1))_{jj}=5 for the irrational block alone was false and is superseded by this block decomposition.
 
 ### Scope
 
 The calculation uses only the Type D separation construction, degree of the projected curve, H.c=4, K_M=-E, and adjunction. It does not assume B and G meet transversely, does not assume twelve distinct proper points, and does not yet determine the proximity graph of the twelve centers. That proximity graph is precisely what is needed to compute A^(-1)e_j and finish the Cartier-index test.
+
+
+## I. Type D: literature compression and first-normal split
+
+### I.1 External classification of quartic monoids
+
+Johansen--Løberg--Piene, *Monoid hypersurfaces*, classify the complex tangent cubic of a quartic monoid into nine types: nodal cubic, cuspidal cubic, conic plus chord, conic plus tangent line, three general lines, three concurrent lines, double line plus line, triple line, and smooth cubic. Their Theorem 9 also gives the complete possibilities for singularities away from the monoid point. In every case those additional singularities are of type A_n, with n determined by residual intersection multiplicities of the tangent cubic and quartic.
+
+Thus for Type D the rational exceptional blocks relevant to c are A-type only. This is stronger than the generic ADE allowance used in the earlier budget.
+
+### I.2 Local expansion at the endpoint of C0
+
+Take p=[1:0:0:0] and q=t/s. Near p,
+
+    C0(q)=[1:q:q^3:q^4].
+
+Put plane coordinates [x:y:z]=[X1:X2:X3]. Projection from p is
+
+    [x:y:z]=[1:q^2:q^3]
+
+after dividing by q. Let
+
+    g(q)=Phi_3(1,q^2,q^3),
+    b(q)=Phi_4(1,q^2,q^3).
+
+The monoid containment equation X0 Phi_3=Phi_4 becomes
+
+    g(q)=q b(q).                                    (D4)
+
+Since g has no q^1 term, (D4) forces b(0)=0. Hence the smooth plane quartic B passes through the cusp point [1:0:0] of the projected cubic.
+
+Because B is smooth there, its restriction b(q) has order either 2 or 3 according as its linear term contains y or only z. Consequently g(q) has order respectively 3 or at least 4.
+
+In affine coordinates (u,v,w)=(X1/X0,X2/X0,X3/X0)=(q,q^3,q^4), the carrier equation is
+
+    f(u,v,w)=Phi_3(u,v,w)-Phi_4(u,v,w).
+
+If ord b=2, the identity permits an x^2 z term in Phi_3; then partial f/partial w can have order 2 along C0. If ord b>=3, all first partials have order at least 3 along C0. Therefore:
+
+> **PROVED (endpoint first-normal split).** The Type D monoid point consumes first-normal order at least 2. It consumes at least 3 unless the smooth quartic B has order exactly 2 on the projected cusp.
+
+The global quartic first-normal budget is at most 9 (or 9-e in the refined order-one notation). Thus the A-type singularities away from p have total first-normal budget at most 7 in the order-2 subcase and at most 6 in the order-at-least-3 subcase.
+
+### I.3 Correction at the irrational block
+
+Let A_p be the negative intersection matrix of the exceptional block over p and write E=sum a_i E_i there. Since c.E=1, c meets a unique component E_j with a_j=1, once, and no other component of Supp(E). Thus
+
+    delta_p=(A_p^(-1))_{jj}.
+
+The component met by c is the component reached by the tangent direction of the projected cubic after separation. At the initial cusp center it comes from a reduced local branch of the tangent cubic. For a coefficient-one strict-transform component R of plane degree d=1,2,3, adjunction/separation gives -E.R=K_M.R>=1. Since
+
+    A_p a = (-E.E_i)_i >=0
+
+and its j-th entry is at least one, positivity of A_p^(-1) gives
+
+    A_p^(-1)e_j <= a
+
+componentwise. In particular
+
+    delta_p <= a_j=1.
+
+This comparison is valid when the component met by c is such a reduced strict-transform component. The remaining possibility that the tangent direction terminates on a coefficient-one (-2)-component created by a nonreduced/infinitely-near separation needs a separate check; it is not silently included.
+
+### I.4 Harmonic consequence
+
+Let N be the total A-root rank away from p and P their total first-normal order. Since rho(M)=13 and the irrational block has positive rank,
+
+    N<=11.
+
+The existing harmonic estimate gives
+
+    delta_A <= N P/(N+P).
+
+In the order-at-least-3 subcase, P<=6, hence
+
+    delta_A <= 66/17 < 4.
+
+If delta_p<=1 as in I.3, the mate relation requires
+
+    delta_A=5-delta_p >=4,
+
+a contradiction, with exact gap at least 2/17.
+
+Therefore:
+
+> **CONDITIONAL EXCLUSION.** Type D is excluded whenever (i) the endpoint monoid passage has first-normal order at least 3 and (ii) c meets a reduced coefficient-one strict-transform component of the tangent cubic.
+
+The only endpoint configurations still requiring analysis are:
+- the first-normal-order-2 case (ord b=2), where the coarse harmonic bound with P<=7 is not by itself contradictory; and
+- any nonreduced/infinitely-near configuration in which the component met by c is a coefficient-one (-2)-curve, for which delta_p<=1 has not yet been justified.
+
+This is now a small local problem. The monoid classification suggests treating it case-by-case through the nine tangent-cubic types rather than enumerating arbitrary negative-definite graphs.
