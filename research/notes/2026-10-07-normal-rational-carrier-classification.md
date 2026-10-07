@@ -379,3 +379,81 @@ The projected cusp is tangent to G. After the blowup, its strict transform still
 > **PROVED (endpoint order-two exclusion).** No Type D STCI candidate with the irrational point at the endpoint [1:0:0:0] can lie in the first-normal-order-two branch.
 
 Every endpoint survivor must therefore have first-normal order at least three and, by (D6), local irrational correction at least two. The remaining finite question is whether the cusp-following separation for one of the nine tangent-cubic types can land c on a coefficient-one exceptional component with inverse-matrix diagonal at least two. If such a component exists, its inverse column also gives the exact Cartier denominator for the compression test.
+
+
+## K. Type D endpoint exclusion completed
+
+This section finishes the Type D analysis when the irrational triple point is the endpoint p=[1:0:0:0] of C0.
+
+### K.1 Exact local shape in the remaining branch
+
+In the order-at-least-three branch of I.2, B is smooth at the projected cusp a and its restriction to R has order exactly three. Indeed the y-linear coefficient must vanish, while the z-linear coefficient is nonzero by smoothness. Thus
+
+    ord_R(B)=3,
+    ord_R(G)=4
+
+by the containment identity g=q b.
+
+In local cusp coordinates (y,z)=(q^2,q^3), order four for a cubic G means that its first nonzero term is a nonzero multiple of y^2. Hence G has multiplicity exactly two at a and has double tangent y=0. In particular the multiplicity-three tangent-cubic configurations (triple line, or the intersection point of a double line with another component) cannot occur at a.
+
+The possible local forms are therefore:
+1. an irreducible cuspidal branch;
+2. two reduced tangent branches (the conic-plus-tangent-line type);
+3. a smooth point of a double line.
+
+### K.2 The separation over a
+
+Ishii--Nakayama separation uses
+
+    B_{j+1}=rho^* B_j - Gamma,
+    G_{j+1}=rho^* G_j - Gamma,
+
+not merely the strict transform of G. Consequently B_j.G_j drops by exactly one at each blowup. Since B is transverse to the double tangent direction of G, I_a(B,G)=2. Exactly two separation blowups occur over a.
+
+After the first blowup,
+
+    G_1 = G_strict + F_1
+
+in the reduced multiplicity-two cases. B_1 meets F_1 at the B tangent direction, while the strict transform of the projected cusp meets F_1 at the distinct G tangent direction. The second blowup is therefore at B_1 cap F_1 and misses c. After it, the component met by c is the coefficient-one curve F with
+
+    F^2=-2.
+
+Thus the exceptional (-2)-curve found in the previous section is real, but its correction can be computed explicitly from the adjacent strict transform(s) of G.
+
+### K.3 Local correction in the three cases
+
+**Irreducible cusp.** The strict transform Q of the cubic loses 2^2 at a and one square for each of the remaining ten units of B.G, hence
+
+    Q^2 = 9-4-10 = -5.
+
+Moreover Q.F=2. The relevant block is
+
+    A = [[5,-2],[-2,2]],
+
+so
+
+    delta_p = (A^{-1})_{FF}=5/6.
+
+**Two reduced tangent branches.** The branches are a line and a conic. After complete separation from B their strict transforms have squares -3 and -4. The (-2)-curve F meets each once. Ignoring any additional negative attachments gives the largest possible diagonal Green value at F; the basic star already gives
+
+    delta_p <= 1/(2-1/3-1/4)=12/17 < 1.
+
+Equivalently, direct inversion of the three-vertex block gives the same value. Further negative-definite attachments arising away from a do not raise this value once the full anticanonical block relations are retained; this monotonicity should be independently checked before promoting this subcase beyond the present branch note.
+
+**Double line.** At a smooth point of the doubled line, F meets the line once. The line strict transform has square at most -3. The two-vertex comparison gives
+
+    delta_p <= ([[3,-1],[-1,2]]^{-1})_{FF}=3/5.
+
+The other line does not pass through a (otherwise mult_a G=3); including its attachment to the doubled line does not approach the required value two.
+
+Thus in every admissible local multiplicity-two form,
+
+    delta_p < 1
+
+subject only to the stated monotonicity check in the two-reduced-branch global attachment case.
+
+But J.1 gives the necessary inequality delta_p>=2. Therefore:
+
+> **CONDITIONAL-ON-ONE-MATRIX-CHECK.** Type D is excluded for the endpoint p=[1:0:0:0] of C0. The irreducible-cusp and double-line local forms are directly excluded. The conic-plus-tangent-line form is excluded provided the stated inverse-matrix monotonicity under the remaining anticanonical attachments is verified.
+
+The next task should be the small exact matrix/proximity verification for that reduced two-branch case. After that, the endpoint Type D exclusion can be promoted to PROVED. The subsequent issue is whether the argument is invariant enough to treat an arbitrary point p in C0 or whether distinct projection singularity types must be analyzed.
