@@ -343,3 +343,76 @@ quartic geometry.
 false. The surviving MF6 type (d2,d3)=(1,3) must retain the full normal
 quotient together with the later D3 condition. The exact annihilator
 certificate is research/computations/verify_e1_d2_defect.py.
+
+
+## MF6 D3 test for the previously troublesome d2=1 unique-quartic sample
+
+Take
+\[
+A=-8-z,\qquad B=-2-4z.
+\]
+Its primitive BF class has ratio \([c_1:c_2:c_3]=[1:2:4]\), so the unique
+degree-one annihilator is
+\[
+\delta=z-2.
+\]
+Multiplication of the exact BF cocycle gives
+\[
+\delta h_2
+=24z^2-24+192z^{-3}-3072z^{-5}.
+\]
+Thus the finite-chart quadratic correction is
+\[
+\gamma=24(z^2-1).
+\]
+
+Reconstructing the full \(I_C(4)\), imposing the first normal symbol, and
+then the quasiprimitive triple relation gives a seven-dimensional
+quartic-through-double source and a rank-six triple-contact matrix. Hence
+there is a unique compatible quartic up to scalar.
+
+Use local coordinates \(\ell,m\) with
+\[
+u=A\ell,\qquad v=B\ell-m/A,
+\]
+so \(m=Bu-Av\) and the linear coefficient of the quartic is \(h\,m\).
+Solving the unique quartic formally as
+\[
+m=f_2\ell^2+f_3\ell^3+\cdots
+\]
+gives
+\[
+f_2=-24\,\frac{(z-1)(z+1)}{z-2}
+=-\frac{\gamma}{\delta},
+\]
+which independently checks the sign and normalization of the triple
+relation, and
+\[
+\boxed{
+f_3=
+-16\,\frac{(z+1)(18z^4-26z^3-71z^2+107z+8)}
+{(z-2)^3(z+2)(z+8)}.
+}
+\]
+
+The numerator is nonzero at \(z=2,-2,-8\), and \(f_3\to-288\) at infinity.
+The exact third-piece lattice lemma therefore gives
+\[
+\operatorname{ord}_{2}D_3
+=\max(1,-1-(-3))=2,
+\]
+while the simple poles at \(-2\) and \(-8\), where \(D_2\) has no support,
+each contribute one. There is no infinity contribution. Consequently
+\[
+\boxed{\deg D_3=4}.
+\]
+
+**PROVED (exact symbolic calculation).** This unique-quartic d2=1 triple
+does not extend to the MF6 numerical type \((d_2,d_3)=(1,3)\). The later
+canonical defect kills a carrier that survives all triple-stage quartic
+tests.
+
+The next target is to make this calculation universal on the rank-six
+contact stratum: derive the denominator/resultant of \(f_3\) modulo
+\(c_1c_3-c_2^2=0\), and isolate the cancellation locus on which
+\(\deg D_3\le3\).
