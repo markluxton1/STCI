@@ -523,3 +523,164 @@ Ellia's primitive-STCI work uses numerical consequences of primitive multiple st
 - **unknown novelty:** whether an equivalent classification occurs in older specialized literature not indexed by the searches used here.
 
 Before any external write-up, search citation chains around Bănică--Forster, Ferrand, and older work on multiple/contact structures rather than claiming the explicit locus is new.
+
+
+## K. Exact e=1 quartic contact on the primitive-triple locus
+
+The e=1 BF splitting locus from Section J can now be tested against the ambient quartic carrier map.
+
+### K.1 Full quartic-through-double source
+
+The ambient quartic ideal of \(C_0\) has dimension 18. For a quotient
+\[
+A=a_0+a_1z,\qquad B=b_0+b_1z,
+\]
+impose that the first normal symbol be \(h(B,-A)\), with \(h\in H^0(O(8))\). Exact linear algebra in the 35 quartic monomials gives, away from the exceptional comparison-zero direction below,
+\[
+h^0(I_{C_2}(4))=7.
+\]
+This agrees with the intrinsic decomposition
+\[
+6=\dim K_R,\qquad 7=6+\dim\langle Q^2\rangle.
+\]
+
+For a lift \(F\) with symbol \(h(B,-A)\), its restriction to the canonical primitive triple is the quadratic Taylor coefficient
+\[
+[F(A\epsilon,B\epsilon)]_{\epsilon^2}-h\gamma,
+\]
+where \(\gamma\) is the nonnegative-chart correction obtained from the BF quadratic cocycle.
+
+### K.2 Main one-dimensional triple component: no jet-rank defect
+
+Parameterize the main component projectively by
+\[
+a_0=1,\qquad a_1=t,\qquad b_0=-2t,\qquad b_1=-8t^2.
+\]
+The resultant is
+\[
+\Delta=-6t^2,
+\]
+so every admissible point has \(t\ne0\).
+
+The full second-order contact matrix has rank exactly five for every \(t\ne0\). A single covering \(5\times5\) minor is
+\[
+\boxed{-589824\,t^{16}},
+\]
+so there is no specialization gap on the component.
+
+Therefore
+\[
+\boxed{h^0(I_{C_3}(4))=2}
+\]
+at every point of the main e=1 primitive-triple family.
+
+Equivalently, after quotienting the universal \(Q^2\) source direction against \(r^2\), the finite map
+\[
+\bar\rho_2:K_R\to H^0(O_{2R}(4))
+\]
+has maximal rank four. Thus
+\[
+\boxed{\delta_2^Q=0}
+\]
+uniformly on the main component.
+
+**PROVED.** The e=2 carrier mechanism does not recur here: BF splitting imposes a special one-dimensional family of quotients, but it does not force a second ambient jet-rank defect.
+
+### K.3 Two nonzero-comparison isolated directions
+
+At the two isolated directions
+\[
+a_0=b_1=0,\qquad
+3(b_0/a_1)^2+4(b_0/a_1)+12=0,
+\]
+the quartic-through-double source has dimension seven and the full contact map again has rank five. Hence
+\[
+\boxed{h^0(I_{C_3}(4))=2}
+\]
+there as well.
+
+So every e=1 primitive triple with nonzero quadric-comparison section has exactly the expected two-dimensional quartic carrier space.
+
+### K.4 The comparison-zero point is qualitatively different
+
+At the remaining isolated direction, scale to
+\[
+A=z,\qquad B=-2.
+\]
+Then
+\[
+A+\frac z2B=0.
+\]
+Hence the primitive conormal kernel \(M=O(-8)\) is exactly the quadric conormal subline
+\[
+O_C(-8)\subset N_C^*.
+\]
+
+The first-symbol source jumps:
+\[
+\boxed{h^0(I_{C_2}(4))=10}.
+\]
+The BF quadratic cocycle vanishes identically, so the canonical triple has no quadratic gluing correction in the fixed charts. Moreover the quadric equation has chart expression
+\[
+Q=u+\frac z2v,
+\]
+and under the triple parameterization
+\[
+u=z\epsilon,\qquad v=-2\epsilon
+\]
+it vanishes identically.
+
+Therefore the canonical primitive triple is contained in the smooth quadric:
+\[
+\boxed{C_3\subset Q}.
+\]
+
+Consequently
+\[
+Q\cdot H^0(O_{\mathbf P^3}(2))
+\subseteq H^0(I_{C_3}(4)).
+\]
+Both sides have dimension ten, so
+\[
+\boxed{
+H^0(I_{C_3}(4))
+=
+Q\cdot H^0(O_{\mathbf P^3}(2)).
+}
+\]
+
+**PROVED.** This exceptional e=1 triple has maximal carrier freedom only because the entire triple lies on the quadric; every quartic carrier factors by \(Q\).
+
+For an STCI presentation with a quartic equation, this is immediately dangerous in exactly the same elementary projective sense as the e=2 cubic-times-linear factorization: a defining quartic \(QH_2\) carries the entire surface component \(Q=0\), and intersection with any positive-degree mate contains a curve on \(Q\), not merely the nonplanar quartic support. Thus this direction cannot supply a genuine quartic equation in an STCI pair supported exactly on \(C_0\).
+
+### K.5 Structural conclusion for e=1
+
+The primitive e=1 locus exhibits two distinct mechanisms:
+
+1. **nonzero comparison section:** BF splitting is exceptional, but ambient quartic contact is maximal rank and leaves exactly a two-dimensional quartic kernel;
+2. **zero comparison section:** the primitive structure aligns with the quadric itself, the source jumps to dimension ten, and every quartic factors through \(Q\).
+
+This strengthens the negative conclusion from the jet-budget framework. Rank defect is not the general source of carrier survival. For e=1, the generic primitive-triple survivor locus has **zero** ambient discrepancy:
+\[
+\delta_2^Q=0.
+\]
+The remaining two quartics must therefore be understood geometrically rather than eliminated by dimension count.
+
+Reproduction:
+\[
+\texttt{python research/computations/verify\_e1\_quartic\_contact.py}.
+\]
+
+## L. Next e=1 target
+
+The highest-value next question is now:
+
+> On the nonzero-comparison e=1 primitive-triple locus, what are the two quartics in \(H^0(I_{C_3}(4))\), and what is their common residual geometry?
+
+Possible outcomes are sharply distinguishable:
+
+- the two-dimensional pencil has a fixed factor or fixed residual curve, giving an immediate carrier obstruction;
+- the pencil has no fixed factor but a forced base locus beyond \(C\), which may still obstruct STCI;
+- the pencil is geometrically genuine, in which case one must pass to the fourth/quasiprimitive layer and BF defect data.
+
+Before interpreting any observed fixed locus as new, compare it with classical surface-contact/residual-intersection literature and with the older rational-quartic STCI papers.
