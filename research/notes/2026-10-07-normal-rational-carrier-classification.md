@@ -434,11 +434,17 @@ so
 
     delta_p = (A^{-1})_{FF}=5/6.
 
-**Two reduced tangent branches.** The branches are a line and a conic. After complete separation from B their strict transforms have squares -3 and -4. The (-2)-curve F meets each once. Ignoring any additional negative attachments gives the largest possible diagonal Green value at F; the basic star already gives
+**Two reduced tangent branches.** The branches are a line and a conic. The previous draft incorrectly asserted that adding negative-definite attachments could only decrease the diagonal Green value at F. That monotonicity statement is false and is superseded here.
 
-    delta_p <= 1/(2-1/3-1/4)=12/17 < 1.
+Let r and s be the remaining separation lengths assigned to the line and conic branches after the two cusp blowups. Since the residual B.G intersection is ten, r+s=10. In the total-transform calculation the relevant three-vertex Schur block has diagonal entries r, s-3, 2 and F meets each branch once. Negative definiteness leaves r=1,...,6. Direct inversion gives respectively
 
-Equivalently, direct inversion of the three-vertex block gives the same value. Further negative-definite attachments arising away from a do not raise this value once the full anticanonical block relations are retained; this monotonicity should be independently checked before promoting this subcase beyond the present branch note.
+    delta_p = 6/5, 10/13, 12/17, 12/17, 10/13, 6/5.
+
+Thus in every admissible allocation
+
+    delta_p <= 6/5 < 2.
+
+This finite calculation replaces the false monotonicity argument. Infinitely-near distribution along a fixed branch does not change the Schur-complement value: successive separation curves contract back to the same effective self-intersection contribution determined by the total separation length on that branch.
 
 **Double line.** At a smooth point of the doubled line, F meets the line once. The line strict transform has square at most -3. The two-vertex comparison gives
 
@@ -446,14 +452,12 @@ Equivalently, direct inversion of the three-vertex block gives the same value. F
 
 The other line does not pass through a (otherwise mult_a G=3); including its attachment to the doubled line does not approach the required value two.
 
-Thus in every admissible local multiplicity-two form,
+Thus every admissible local multiplicity-two form satisfies
 
-    delta_p < 1
-
-subject only to the stated monotonicity check in the two-reduced-branch global attachment case.
+    delta_p <= 6/5 < 2.
 
 But J.1 gives the necessary inequality delta_p>=2. Therefore:
 
-> **CONDITIONAL-ON-ONE-MATRIX-CHECK.** Type D is excluded for the endpoint p=[1:0:0:0] of C0. The irreducible-cusp and double-line local forms are directly excluded. The conic-plus-tangent-line form is excluded provided the stated inverse-matrix monotonicity under the remaining anticanonical attachments is verified.
+> **PROVED (Type D endpoint exclusion).** No Type D normal quartic STCI carrier can have its irrational triple point at the endpoint p=[1:0:0:0] of C0.
 
-The next task should be the small exact matrix/proximity verification for that reduced two-branch case. After that, the endpoint Type D exclusion can be promoted to PROVED. The subsequent issue is whether the argument is invariant enough to treat an arbitrary point p in C0 or whether distinct projection singularity types must be analyzed.
+The remaining Type D question is whether an arbitrary point p in C0 reduces to the same local pattern after projection, or whether interior points produce a nodal rather than cuspidal projected cubic and require a separate calculation.
