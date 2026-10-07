@@ -35,3 +35,11 @@ for q,expected,delta in samples:
     assert H.subs(sub)*dd==sp.zeros(2,1)
 
 print("e=1 d2=1 determinantal annihilator certified")
+
+# Exact pullback factorization on quotient space.
+Delta=a0*b1-a1*b0
+Q=sp.factor(sp.cancel(detH/(-3*Delta**2)))
+assert sp.expand(detH+3*Delta**2*Q)==0
+print("detH factorization = -3*Delta^2*Q")
+print("Q =",Q)
+print("Q factorization =",sp.factor(Q))
