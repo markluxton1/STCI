@@ -115,3 +115,101 @@ surface factor; instead it has a forced pair of ruling lines in its base locus.
 The two isolated nonzero-comparison boundary directions remain to be checked
 separately. The comparison-zero boundary direction was previously identified
 as the quadric-contained case and should also be re-certified on this clean branch.
+
+
+## Isolated e=1 boundary directions
+
+### Nonzero-comparison conjugate pair
+
+Set
+\[
+A=z,\qquad B=r,\qquad 3r^2+4r+12=0.
+\]
+The calculation was carried out over the exact quadratic field
+\[
+K=\mathbf Q[r]/(3r^2+4r+12),
+\]
+so both conjugate directions are handled simultaneously without numerical
+specialization or radicals.
+
+The reconstructed quartic-through-double source has dimension seven, the
+second-contact map has rank five, and hence
+\[
+h^0(I_{C_3}(4))=2.
+\]
+The two ambient quartics have gcd one in \(K[x,y,Z,W]\): there is no fixed
+surface factor.
+
+Restricting the two quartics to the unique quadric \(Q=xW-yZ\), and using
+\(W=yZ\) on \(x=1\), their common factor is
+\[
+(-Z+y^3)\,y\,Z.
+\]
+The factor \((-Z+y^3)\) is \(C\). The remaining factors close to the two
+coordinate ruling lines
+\[
+L_y:\ y=W=0,\qquad
+L_Z:\ Z=W=0.
+\]
+Direct substitution verifies that both quartics vanish identically on both
+lines. Therefore
+\[
+L_y\cup L_Z\subset \operatorname{Bs}|I_{C_3}(4)|.
+\]
+
+**PROVED (exact quadratic-field calculation).** Both isolated
+nonzero-comparison e=1 primitive-triple directions are excluded as quartic
+STCI carriers: any positive-degree mate meets either fixed projective line
+(or contains it), creating support outside \(C\).
+
+### Comparison-zero point
+
+At the remaining boundary direction
+\[
+A=z,\qquad B=-2,
+\]
+the comparison section \(A+zB/2\) vanishes identically. The quadric has chart
+equation
+\[
+Q=u+\frac z2v.
+\]
+Under the primitive direction
+\[
+u=z\epsilon,\qquad v=-2\epsilon,
+\]
+this vanishes identically. The BF quadratic cocycle also vanishes, so the
+canonical primitive triple lies on \(Q\):
+\[
+C_3\subset Q.
+\]
+The quartic source has dimension ten, while
+\[
+Q\cdot H^0(O_{\mathbf P^3}(2))
+\]
+also has dimension ten and is contained in \(H^0(I_{C_3}(4))\). Hence
+\[
+\boxed{H^0(I_{C_3}(4))=Q\cdot H^0(O_{\mathbf P^3}(2)).}
+\]
+
+**PROVED / RECERTIFIED.** This direction is excluded because every quartic
+carrier has the fixed quadric factor.
+
+## e=1 primitive conclusion
+
+Combining the main component and all three isolated directions:
+
+\[
+\boxed{\text{Every basepoint-free e=1 primitive triple is incompatible
+with an STCI presentation having a quartic carrier.}}
+\]
+
+The mechanisms are:
+- main one-dimensional component: no fixed surface, but two parameter-dependent
+  fixed ruling lines;
+- two conjugate isolated points: no fixed surface, but the two coordinate
+  ruling lines;
+- comparison-zero isolated point: fixed quadric factor.
+
+This closes the **primitive e=1 triple lane**. It does not by itself exclude
+quasiprimitive e=1 structures with positive BF defect divisor \(D_2\); those
+modify the second graded piece and must be treated separately.
