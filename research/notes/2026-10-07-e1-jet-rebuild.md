@@ -446,3 +446,45 @@ for the universal f3/D3 calculation.
 
 Certified by research/computations/verify_e1_d2_defect.py at commit
 7aa20c5d473a36714d812dd847c467c0c40e2785.
+
+
+## Marked finite-defect elimination
+
+On the chart a1 != 0 normalize a1=1, write r=b0, and write the unique
+finite degree-one defect as delta=z-lambda. Then the rank-one Hankel
+condition is equivalent off the primitive locus to
+
+    c2=lambda*c1,   c3=lambda^2*c1.
+
+Eliminating a0 from these two equations gives exactly
+
+    12*b1*(r+2)*P(r,b1,lambda),
+
+where
+
+    P =
+      9*r^5 - 21*r^4*b1*lambda + 90*r^4
+      + 26*r^3*b1^2*lambda^2 - 220*r^3*b1*lambda + 392*r^3
+      - 11*r^2*b1^3*lambda^3 + 172*r^2*b1^2*lambda^2
+      - 752*r^2*b1*lambda + 912*r^2
+      - 20*r*b1^3*lambda^3 + 248*r*b1^2*lambda^2
+      - 976*r*b1*lambda + 1360*r
+      - 12*b1^3*lambda^3 + 144*b1^2*lambda^2
+      - 624*b1*lambda + 1056.
+
+The factors b1=0 and r=-2 are special chart/primitive factors. The three
+exact d2=1 samples used in this note all satisfy P=0 after normalization,
+including both the rank-six unique-quartic samples and the rank-three
+common-cubic sample. Hence contact-rank drop is not a separate component:
+it is a proper sublocus inside the same generic marked incidence P=0.
+
+This gives the working stratification
+
+    P=0 contains {contact-rank drop} union {D3 pole-cancellation locus}.
+
+The MF6 type (d2,d3)=(1,3) must lie on the D3 pole-cancellation locus
+(or its intersection with contact-rank drop) if the generic saturated
+D3 degree is four, as indicated by the exact unique-quartic sample.
+
+The elimination is certified by research/computations/verify_e1_d2_defect.py
+at commit 93c0ca4519f0976bc9cbdba74fd75e5b5de2f719.
