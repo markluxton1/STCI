@@ -1,4 +1,6 @@
-> **2026-10-06 CONSOLIDATION NOTICE:** The authoritative current status is [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where older frontier language below conflicts with that audited state, the audited state controls. Historical material below is retained for provenance.\n\n# STCI Successor-Session Handoff
+> **ARCHIVED HANDOFF:** This is historical continuation material. For current mathematical status see [../../STATE.md](../../STATE.md), and for active priorities see [../../FRONTIER.md](../../FRONTIER.md). The dated audit is preserved at [../reports/AUDITED_STATE_2026-10-06.md](../reports/AUDITED_STATE_2026-10-06.md). Where older frontier language conflicts with the canonical files, the canonical files control.
+
+# STCI Successor-Session Handoff
 
 Prepared: 2026-09-30
 
@@ -10,7 +12,7 @@ the exact hypotheses and proof in that record; source scopes are in
 ## 0. Continuation batch (2026-10-05)
 
 The dated continuation work is indexed in
-[`RESEARCH_UPDATE_2026-10-05.md`](RESEARCH_UPDATE_2026-10-05.md). It records
+[`RESEARCH_UPDATE_2026-10-05.md`](../reports/RESEARCH_UPDATE_2026-10-05.md). It records
 new finite local-cohomology reductions, independently audited regular
 degree-(4,6) and type-(4,5) exclusions, mixed-pole calculations, the fixed
 split-sextic boundary, and the exact companion scripts. The general STCI
@@ -538,9 +540,9 @@ compute higher primitive jets indiscriminately. Also keep \(e=0\), \(e=1\),
 equivariance, and the uniform local-cohomology route open.
 
 See
-[the dated e=2 note](notes/2026-10-05-e2-full-obstruction.md),
-[the exact formulas](computations/e2_full4_obstruction_2026-10-05.txt), and
-[the primitive-septuple note](notes/2026-10-05-e2-primitive-septuple.md).
+[the dated e=2 note](../../notes/2026-10-05-e2-full-obstruction.md),
+[the exact formulas](../../computations/e2_full4_obstruction_2026-10-05.txt), and
+[the primitive-septuple note](../../notes/2026-10-05-e2-primitive-septuple.md).
 
 
 ## 0b. Late 2026-10-05 P-045 correction
