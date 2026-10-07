@@ -250,3 +250,50 @@ By Serre duality this is an apolarity problem for the binary quadratic dual
 to the primitive BF obstruction. This is the recommended next exact
 classification: solve the annihilator incidence \((A,B,\delta)\) first,
 then impose ambient quartic containment on those low-dimensional strata.
+
+
+## Repair of the fixed-ruling STCI implication
+
+The earlier naive inference "a positive-degree mate meets a fixed line, hence
+creates support outside C" is false: a finite zero divisor on the line could
+be supported on its intersection with C.
+
+The correct argument uses the quartic surface. Let F be a quartic whose first
+normal direction along C is basepoint-free. Then F is smooth along C. If
+\[
+V(F,G_b)_{\mathrm{red}}=C,
+\]
+then on the smooth surface F the restriction of G_b is locally a Cartier
+divisor supported on C. Its generic multiplicity is b, because the generic
+transverse complete intersection has length b. Since C is irreducible, this
+coefficient is constant:
+\[
+\operatorname{div}_F(G_b)=bC
+\]
+in a neighborhood of C.
+
+Consequently, if a curve L is contained in F and meets C properly on F, then
+unless G_b contains L,
+\[
+\deg(G_b|_L)\ge b(L\cdot_F C).
+\]
+For a line L, the left side is b. Hence any fixed line with
+\(L\cdot_F C>1\) must also lie in G_b, producing an extra common curve.
+
+This repairs the primitive e=1 exclusions:
+- on the main component, the fixed ruling
+  \(L_2:8t^3Z-x=8t^3W-y=0\) has intersection divisor with C cut by
+  \(8t^3z^3-1\), hence degree 3;
+- at the conjugate isolated points, the fixed line
+  \(L_Z:Z=W=0\) meets C with multiplicity 3 at z=0.
+
+Thus in every nonzero-comparison primitive case the quartic contains a fixed
+line of intersection number three with C, forcing every mate G_b to contain
+that line. The comparison-zero case remains excluded by its fixed quadric.
+
+**PROVED, repaired.** Every basepoint-free e=1 primitive triple is
+incompatible with an STCI presentation having a quartic carrier, for every
+mate degree b>0.
+
+Therefore the MF6 e=1 type \((d_2,d_3)=(0,4)\) is indeed excluded, and the
+remaining e=1 MF6 types are \((1,3)\) and \((2,2)\).
