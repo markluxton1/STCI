@@ -848,3 +848,55 @@ Separate the irrational block into:
 The marked vertex F lies in T in the only unresolved cases. The desired bound delta_p<2+mu/4 can therefore be proved by eliminating T via continued fractions/Schur complements and checking the finite list of possible cubic boundary types. This is smaller and safer than enumerating arbitrary proximity matrices.
 
 The next calculation should compute the effective conductance from F through T to each original G component for the local multiplicity-three configurations and the 2-to-1 coefficient transition. No canonical-state promotion should occur before that boundary calculation is complete.
+
+
+## Q. Exact elimination of blowup-created (-2)-chains
+
+The conditional Type D audit can be compressed further by eliminating every zero-charge rational (-2)-chain exactly.
+
+Let F be the coefficient-one (-2)-component met by c. Suppose a chain of r blowup-created (-2)-curves lies between F and a boundary component D. The A_r Cartan block has inverse
+
+    (A_r^{-1})_{ij}=min(i,j)(r+1-max(i,j))/(r+1).
+
+Schur elimination therefore subtracts
+
+    r/(r+1)
+
+from each endpoint diagonal and replaces the path by an effective off-diagonal
+
+    -1/(r+1).                                      (D21)
+
+This corrects another unsafe monotonicity heuristic: a longer (-2)-tail can lower the effective diagonal at F and hence increase its Green value. Extra separation blowups cannot simply be discarded.
+
+### Q.1 Anticanonical coefficients restrict the chain lengths
+
+On a zero-charge (-2)-chain, Aa=b with b_i=0 gives
+
+    2a_i=a_{i-1}+a_{i+1}.                          (D22)
+
+Thus the positive integral anticanonical coefficients are affine along the chain.
+
+Starting at a_F=1 and ending at a boundary coefficient m, a chain with r internal vertices has
+
+    a_k=1+k(m-1)/(r+1).
+
+Consequently integrality gives:
+
+- m=1: arbitrary r is arithmetically possible, with every internal coefficient equal to 1;
+- m=2: no nonempty zero-charge (-2)-chain is possible;
+- m=3: the only nonempty possibility has r=1 and coefficient sequence 1--2--3.
+
+So a coefficient-two original/boundary component must be directly adjacent to F. A coefficient-three boundary can be separated from F by at most one zero-charge (-2)-vertex. The only potentially long tails are constant coefficient-one chains.
+
+### Q.2 Remaining obstruction is coefficient-one tails
+
+This isolates the genuine unresolved case. A long coefficient-one (-2)-chain can connect F to a coefficient-one boundary component without violating (D22). Its Schur contribution approaches one as its length grows, so an abstract lattice argument alone does not yet give delta_p<2.
+
+The plane-cubic geometry must now be used precisely once: determine whether such a constant coefficient-one chain can occur along the marked tangent direction in the Ishii--Nakayama B/G separation process, and if so bound its length/contact by I_r(R,G)=h+1 and the local separation multiplicity mu.
+
+Thus the certificate no longer needs arbitrary proximity trees. It needs only:
+1. direct coefficient-2 attachments;
+2. the unique 1--2--3 short chain;
+3. constant coefficient-one (-2)-chains, whose lengths are controlled by the local plane-curve contact data.
+
+This is the smallest audited formulation reached so far.
