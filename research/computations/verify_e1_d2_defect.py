@@ -50,3 +50,12 @@ Qred=16*x**2+(72+64*r+24*r**2)*x+(36+72*r+52*r**2+16*r**3+3*r**4)
 disc=sp.factor(sp.discriminant(Qred,x))
 assert sp.expand(disc-64*(r+2)**2*(6*r**2+8*r+24))==0
 print("reduced discriminant =",disc)
+
+# Irreducibility certificate for the reduced quadratic over QQ(r):
+# its discriminant differs by a square from q(r)=6*r^2+8*r+24.
+qdisc=6*r**2+8*r+24
+assert sp.discriminant(qdisc,r) != 0
+# A nonconstant square in QQ(r) has even valuation at every irreducible
+# divisor; qdisc is squarefree of degree two, hence is not a square.
+assert sp.gcd(qdisc,sp.diff(qdisc,r))==1
+print("Qred irreducible over QQ(r): squarefree nonsquare discriminant factor",qdisc)
