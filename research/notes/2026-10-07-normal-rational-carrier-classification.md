@@ -348,3 +348,34 @@ The only endpoint configurations still requiring analysis are:
 - any nonreduced/infinitely-near configuration in which the component met by c is a coefficient-one (-2)-curve, for which delta_p<=1 has not yet been justified.
 
 This is now a small local problem. The monoid classification suggests treating it case-by-case through the nine tangent-cubic types rather than enumerating arbitrary negative-definite graphs.
+
+
+## J. Type D: sharp Bezout correction bound
+
+For a normalized quartic monoid, every isolated singularity away from the monoid point is A-type. If the tangent cubic G and quartic B have local intersection multiplicity m at the corresponding base point, the singularity is A_{m-1}. Hence for the off-vertex singularities met by c,
+
+    sum (n_i+1) <= B.G = 12.
+
+For Jaffe's A_n^k pair,
+
+    delta(n,k)=k(n+1-k)/(n+1) <= (n+1)/4.
+
+Therefore
+
+    delta_off <= 3.                                (D5)
+
+Since the total correction is 5,
+
+    delta_p = 5-delta_off >= 2.                    (D6)
+
+Thus every Type D STCI survivor must have correction at least two at the irrational monoid point.
+
+### Endpoint order-two passage
+
+In the endpoint notation, the first-normal-order-two case has ord b=2 and ord g=3 on the projected cusp (y,z)=(q^2,q^3). Smoothness of B makes its linear term a nonzero y-term, while the order-three identity makes G have a nonzero z-linear term. Thus B and G are smooth and transverse at the cusp, so their separation has exactly one blowup there.
+
+The projected cusp is tangent to G. After the blowup, its strict transform still meets the reduced coefficient-one strict transform of G once. Hence the anticanonical comparison of I.3 applies and gives delta_p<=1, contradicting (D6).
+
+> **PROVED (endpoint order-two exclusion).** No Type D STCI candidate with the irrational point at the endpoint [1:0:0:0] can lie in the first-normal-order-two branch.
+
+Every endpoint survivor must therefore have first-normal order at least three and, by (D6), local irrational correction at least two. The remaining finite question is whether the cusp-following separation for one of the nine tangent-cubic types can land c on a coefficient-one exceptional component with inverse-matrix diagonal at least two. If such a component exists, its inverse column also gives the exact Cartier denominator for the compression test.
