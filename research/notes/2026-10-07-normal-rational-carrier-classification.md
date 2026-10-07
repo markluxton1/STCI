@@ -608,3 +608,76 @@ A general-point Type D survivor must therefore make the anticanonical separation
 The marked curve R itself is smooth at r. Equation I_r(R,G)=h+1 and the cubic degree constrain the sum of contacts of these branches with R. Together with (D12), this leaves a finite list of contact partitions.
 
 The next computation should enumerate those partitions, build the corresponding star/chain negative matrices, and compare each exact diagonal Green value with 2+mu/4. This is substantially smaller than the nine global tangent-cubic types because only the local branch multiplicities at r matter.
+
+
+## N. General-point branching bound
+
+This section closes the local branching alternatives left in M.2, subject to the matrix interpretation stated there.
+
+Because R is not a component of G, I_r(R,G) is finite. If mult_r(G)=3, then a plane cubic has no terms of degree below three at r; its local equation is its cubic tangent cone. Restriction to the smooth branch R=(y=0) therefore has order exactly three unless y divides G, which would make R a component. Hence
+
+    h+1=3, so h=2.                                 (D14)
+
+Thus multiplicity-three local forms do not generate arbitrarily long contact sequences.
+
+### N.1 Reduced branching
+
+Suppose the coefficient-one (-2)-curve F met by c is adjacent to k reduced branches of G. A reduced cubic branch, after the full B/G separation, contributes an effective negative diagonal at least 3 at the attachment. The Green value at F is therefore bounded by the corresponding star Schur complement.
+
+For two branches,
+
+    delta_p <= 1/(2-1/3-1/3)=3/4.
+
+For three branches,
+
+    delta_p <= 1/(2-1/3-1/3-1/3)=1.
+
+The endpoint finite calculation shows how further separation along a branch is absorbed into its effective diagonal; with fixed cubic self-intersection and the B.G budget it does not make a reduced branch contribution exceed the extremal 1/3 used above.
+
+Hence every reduced branching configuration has
+
+    delta_p<=1.                                    (D15)
+
+### N.2 Nonreduced adjacency
+
+If F is adjacent to a doubled component, the corresponding intersection entry can have magnitude two. The worst negative-definite two-vertex block is
+
+    A=[[3,-2],[-2,2]],
+
+whose inverse has
+
+    (A^{-1})_{FF}=3/2.
+
+Larger branch diagonal only decreases this value. Thus
+
+    delta_p<=3/2                                   (D16)
+
+for doubled adjacency before any further constraints are imposed.
+
+A triple adjacency would require an off-diagonal magnitude three. With F^2=-2 and a cubic-component diagonal in the available range, the corresponding principal minor fails negative definiteness; it cannot occur as such an exceptional block. Multiplicity-three cubic configurations are in any case constrained by (D14).
+
+### N.3 Consequence
+
+Combining the unbranched reduced estimate (D13), reduced branching (D15), and nonreduced estimate (D16), every general-point local configuration satisfies
+
+    delta_p<=3/2.
+
+But the global B/G Bezout tradeoff requires
+
+    delta_p>=2+mu/4>2.
+
+Therefore:
+
+> **PROVED, subject to independent audit of the branch-effective-diagonal lemma.** No Type D normal quartic STCI carrier can have its irrational point at an interior point p=C0(a), a!=0,infinity.
+
+Together with the endpoint exclusion, this would remove Type D completely for C0. Before promoting this to the canonical STATE, the branch-effective-diagonal assertion used in N.1 should be checked directly from the Ishii--Nakayama proximity basis (or by a small exhaustive proximity-matrix certificate). That check is preferable to relying on electrical-network intuition.
+
+### N.4 Next audit target
+
+Build an exact certificate enumerating the admissible separation/proximity matrices for a degree-three G with total B.G=12, marking the component reached by c, and verify:
+1. negative definiteness;
+2. E=-K coefficient vector;
+3. the relevant diagonal of A^{-1};
+4. the maximum is at most 3/2 in the general-point cases and at most 6/5 in the endpoint cases.
+
+A successful certificate would promote the Type D exclusion from branch-level geometric proof to independently checked PROVED status.
