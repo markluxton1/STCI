@@ -213,3 +213,46 @@ The mechanisms are:
 This closes the **primitive e=1 triple lane**. It does not by itself exclude
 quasiprimitive e=1 structures with positive BF defect divisor \(D_2\); those
 modify the second graded piece and must be treated separately.
+
+
+## Consequence for multiplicity-six quasiprimitive e=1
+
+The audited MF6 classification on current main leaves e=1 numerical defect
+types
+\[
+(d_2,d_3)=(0,4),(1,3),(2,2).
+\]
+
+The newly closed primitive-triple carrier calculation immediately excludes
+the entire \((0,4)\) type: when \(d_2=0\), the triple is primitive. Every
+quartic containing a later sextuple also contains its primitive triple, and
+every such triple has already been shown to force either fixed ruling lines
+or a fixed quadric factor. Later defects cannot remove a base curve already
+contained in every quartic at the triple stage.
+
+Therefore the e=1 MF6 frontier reduces to
+\[
+\boxed{(d_2,d_3)=(1,3)\text{ or }(2,2).}
+\]
+
+For these two types the second graded piece is
+\[
+E_2=L^2(D_2)=O(-12+d_2),
+\]
+so they are genuinely quasiprimitive already at the triple stage and are not
+covered by the primitive classification.
+
+The BF obstruction class before adding \(D_2\) lies in \(H^1(O(-4))\).
+A defect section \(\delta\in H^0(O(d_2))\) must annihilate it under
+multiplication
+\[
+H^1(O(-4))\xrightarrow{\cdot\delta}H^1(O(-4+d_2)).
+\]
+Thus:
+- \(d_2=1\): two obstruction coordinates remain (\(H^1(O(-3))\));
+- \(d_2=2\): one obstruction coordinate remains (\(H^1(O(-2))\)).
+
+By Serre duality this is an apolarity problem for the binary quadratic dual
+to the primitive BF obstruction. This is the recommended next exact
+classification: solve the annihilator incidence \((A,B,\delta)\) first,
+then impose ambient quartic containment on those low-dimensional strata.
