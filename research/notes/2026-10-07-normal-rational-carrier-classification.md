@@ -461,3 +461,92 @@ But J.1 gives the necessary inequality delta_p>=2. Therefore:
 > **PROVED (Type D endpoint exclusion).** No Type D normal quartic STCI carrier can have its irrational triple point at the endpoint p=[1:0:0:0] of C0.
 
 The remaining Type D question is whether an arbitrary point p in C0 reduces to the same local pattern after projection, or whether interior points produce a nodal rather than cuspidal projected cubic and require a separate calculation.
+
+
+## L. Type D at a general point of C0: nodal projection and contact tradeoff
+
+Let p=C0(a) with a nonzero finite parameter, so
+
+    C0(u)=[1:u:u^3:u^4].
+
+Projection from p can be represented by the three linear forms
+
+    X1-a X0,  X2-a^3 X0,  X3-a^4 X0.
+
+After cancelling u-a, the projected cubic R has parametrization
+
+    [1 : u^2+a u+a^2 : (u+a)(u^2+a^2)].
+
+The two distinct parameters
+
+    u=a omega,  u=a omega^2,   omega^3=1, omega!=1,
+
+have the same image. Thus for a!=0,infinity the projected cubic is nodal. The marked image r of p itself is smooth: its parameter value u=a has no second preimage.
+
+### L.1 Local monoid identity at the marked smooth point
+
+Put q=u-a. In projection coordinates the normalization near r is
+
+    [1 : 3a^2+3a q+q^2 : 4a^3+6a^2 q+4a q^2+q^3].
+
+The coordinate along the line through p has a simple pole in q. Hence the Type D equation again restricts to
+
+    g(q)=q b(q),                                   (D7)
+
+where b=B|_R and g=G|_R.
+
+Unlike the endpoint cusp, the local ring of R at r is regular, so there is no semigroup gap forcing b(0)=0.
+
+If b(0)!=0, then g has a simple zero. Thus G is smooth and transverse to R at r, while B misses r. No B/G separation blowup occurs over r. The strict transform c meets a reduced coefficient-one component of the anticanonical divisor directly, so the anticanonical comparison gives
+
+    delta_p<=1.
+
+This contradicts the universal Type D necessity delta_p>=2 from (D6). Therefore every general-point survivor must satisfy
+
+    b(0)=0.
+
+### L.2 Local normal form and contact accounting
+
+Because R is smooth at r, choose local coordinates with R=(y=0), x=q. Since B is smooth, after a local coordinate normalization write
+
+    B = y + beta(x),
+
+where h=ord_x beta>=1 is the contact order I_r(B,R).
+
+Equation (D7) says G(x,0)=x beta(x). Therefore locally
+
+    G = x B + y A
+
+for some local function A (after absorbing units/signs). In particular
+
+    I_r(R,G)=h+1.                                  (D8)
+
+Since deg R=deg G=3,
+
+    R.G=9,
+
+so
+
+    1<=h<=8.                                       (D9)
+
+This is the correct finite parameter for the general-point Type D problem.
+
+There is also a compensation with the off-vertex correction. Let mu=I_r(B,G), i.e. the number of Ishii--Nakayama separation steps over r. Then only 12-mu units of the global B.G=12 intersection remain available away from r. The monoid A-type estimate sharpens from (D5) to
+
+    delta_off <= (12-mu)/4.                        (D10)
+
+Hence the mate relation forces
+
+    delta_p >= 5-(12-mu)/4 = 2+mu/4.              (D11)
+
+So increasing the local B/G contact makes the required irrational correction grow linearly. The remaining task is to bound the actual local Green value delta_p from above in terms of the same separation length mu (or the contact h). If one proves
+
+    delta_p < 2+mu/4
+
+for every 1<=h<=8 and every cubic local form compatible with G=xB+yA, Type D is excluded for every point of C0.
+
+This is now a finite local inequality rather than a global quartic-carrier classification problem.
+
+### L.3 Audit note
+
+Earlier conversational exploration incorrectly suggested that (D7) forces B through r in the nodal case. It does not; that conclusion used the cusp semigroup at the endpoint. The present note records the corrected distinction explicitly.
