@@ -550,3 +550,61 @@ This is now a finite local inequality rather than a global quartic-carrier class
 ### L.3 Audit note
 
 Earlier conversational exploration incorrectly suggested that (D7) forces B through r in the nodal case. It does not; that conclusion used the cusp semigroup at the endpoint. The present note records the corrected distinction explicitly.
+
+
+## M. General-point Type D: local separation algebra
+
+Continue with the local normal form
+
+    R=(y=0),
+    B=y+beta(x),    ord beta=h>=1,
+    G=xB+yA.
+
+Restricting G to B gives
+
+    G|_B = -beta(x) A(x,-beta(x)).
+
+Hence, provided B is not a component of G,
+
+    mu=I_r(B,G)=h+alpha,                            (D12)
+
+where
+
+    alpha=ord_x A(x,-beta(x))>=0.
+
+This identifies the separation length directly from the two local contacts.
+
+### M.1 Reduced one-branch case
+
+Suppose the component of G followed by c is reduced and locally irreducible at r, and the B/G separation over r does not branch. Successive separation blowups then give a linear chain attached to the strict transform Q of that component. After contracting the portions of the chain not met by c, the negative intersection matrix is represented by the continued fraction with initial diagonal at least 3 and mu successive 2's.
+
+The largest possible Green value occurs for initial diagonal 3. Direct inversion gives
+
+    delta_p <= (2 mu+1)/(2 mu+3) < 1.              (D13)
+
+For mu=1,...,8 the values are
+
+    3/5, 5/7, 7/9, 9/11, 11/13, 13/15, 15/17, 17/19.
+
+But the global Bezout tradeoff (D11) requires
+
+    delta_p >= 2+mu/4 >2.
+
+Therefore:
+
+> **PROVED (general-point, unbranched reduced local form).** No Type D STCI candidate can have the marked smooth point r lying on a locally irreducible reduced branch of G whose B/G separation tree over r is linear.
+
+This includes the generic smooth-G situation and any reduced singular branch once its resolution/separation path followed by c is unbranched.
+
+### M.2 Remaining local configurations
+
+A general-point Type D survivor must therefore make the anticanonical separation tree branch at r. For a plane cubic this means that, locally at r, G is one of:
+
+- two reduced branches (node or two components);
+- three reduced branches;
+- a double component plus another branch;
+- a triple component.
+
+The marked curve R itself is smooth at r. Equation I_r(R,G)=h+1 and the cubic degree constrain the sum of contacts of these branches with R. Together with (D12), this leaves a finite list of contact partitions.
+
+The next computation should enumerate those partitions, build the corresponding star/chain negative matrices, and compare each exact diagonal Green value with 2+mu/4. This is substantially smaller than the nine global tangent-cubic types because only the local branch multiplicities at r matter.
