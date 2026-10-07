@@ -194,26 +194,20 @@ also has dimension ten and is contained in \(H^0(I_{C_3}(4))\). Hence
 **PROVED / RECERTIFIED.** This direction is excluded because every quartic
 carrier has the fixed quadric factor.
 
-## e=1 primitive conclusion
+## e=1 primitive conclusion — corrected status
 
-Combining the main component and all three isolated directions:
+The carrier geometry is completely classified at the triple stage:
+- main one-dimensional component: a two-dimensional quartic pencil with two
+  parameter-dependent fixed ruling lines and no fixed surface factor;
+- two conjugate isolated points: a two-dimensional quartic pencil with two
+  coordinate ruling lines and no fixed surface factor;
+- comparison-zero isolated point: every quartic has the fixed quadric factor.
 
-\[
-\boxed{\text{Every basepoint-free e=1 primitive triple is incompatible
-with an STCI presentation having a quartic carrier.}}
-\]
-
-The mechanisms are:
-- main one-dimensional component: no fixed surface, but two parameter-dependent
-  fixed ruling lines;
-- two conjugate isolated points: no fixed surface, but the two coordinate
-  ruling lines;
-- comparison-zero isolated point: fixed quadric factor.
-
-This closes the **primitive e=1 triple lane**. It does not by itself exclude
-quasiprimitive e=1 structures with positive BF defect divisor \(D_2\); those
-modify the second graded piece and must be treated separately.
-
+Only the comparison-zero point is excluded immediately by the fixed-surface
+argument. The fixed-line cases remain **OPEN as STCI exclusions**. To close
+them one must analyze the mate divisor on the forced ruling lines (including
+the intersection divisor with C), or produce a stronger residual curve/surface
+obstruction.
 
 ## Consequence for multiplicity-six quasiprimitive e=1
 
