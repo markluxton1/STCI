@@ -900,3 +900,48 @@ Thus the certificate no longer needs arbitrary proximity trees. It needs only:
 3. constant coefficient-one (-2)-chains, whose lengths are controlled by the local plane-curve contact data.
 
 This is the smallest audited formulation reached so far.
+
+
+## Q. Two-arm coefficient-one tails: exact comparison
+
+The remaining dangerous lattice motif is a coefficient-one (-2)-curve F met by c with two coefficient-one zero-charge arms. Pure lattice theory alone does not bound its Green value below 2: two sufficiently long arms can make (A^{-1})_{FF}>2. Thus the B/G separation budget is essential.
+
+Collapse an arm of r coefficient-one (-2)-curves terminating at a boundary with effective diagonal d>=3. In the extremal case d=3 its Schur load at F is
+
+    lambda_r=(2r+1)/(2r+3).
+
+Hence for two arms of lengths r,s the worst Green value is
+
+    delta_F
+      =1/(2-lambda_r-lambda_s)
+      =((2r+3)(2s+3))/(4(r+s+3)).                 (D21)
+
+Put t=r+s. By AM-GM,
+
+    (2r+3)(2s+3) <= (r+s+3)^2=(t+3)^2,
+
+so
+
+    delta_F <= (t+3)/4.                            (D22)
+
+Each zero-charge arm vertex arises from a B/G separation blowup, so the local separation length satisfies
+
+    mu >= r+s=t.                                   (D23)
+
+The global Bezout tradeoff requires
+
+    delta_p >= 2+mu/4 >= (t+8)/4.                  (D24)
+
+Comparing (D22) and (D24) leaves a uniform gap 5/4. Therefore no two-arm coefficient-one tail can survive, provided the terminal effective boundary on each arm has diagonal at least 3.
+
+This is stronger than a finite mu<=12 check: it holds for arbitrary arm lengths.
+
+### Q.1 Exact remaining audit point
+
+The only unproved input in this reduction is the terminal-response assertion
+
+    d_eff >= 3.                                    (D25)
+
+It must be verified for the finite list of original degree-three G boundary germs allowed by the Ishii--Nakayama Type D separation process. It should not be assumed from rational-component adjunction, because an original cubic component can be singular or nonreduced.
+
+Thus the general-point Type D exclusion is now conditional on one finite boundary calculation: prove (D25) for each original cubic boundary type reached by a coefficient-one arm. Once (D25) is established, (D21)--(D24) eliminate the last 1+1 motif, while the direct coefficient-two motifs are handled separately by the coefficient recursion.
