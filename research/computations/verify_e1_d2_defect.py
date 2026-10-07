@@ -59,3 +59,13 @@ assert sp.discriminant(qdisc,r) != 0
 # divisor; qdisc is squarefree of degree two, hence is not a square.
 assert sp.gcd(qdisc,sp.diff(qdisc,r))==1
 print("Qred irreducible over QQ(r): squarefree nonsquare discriminant factor",qdisc)
+
+# Marked finite-defect incidence: delta=z-lam, normalize a1=1.
+lam=sp.symbols("lam")
+mc1=sp.expand(c1.subs(a1,1))
+mc2=sp.expand(c2.subs(a1,1))
+mc3=sp.expand(c3.subs(a1,1))
+E1=sp.expand(mc2-lam*mc1)
+E2=sp.expand(mc3-lam**2*mc1)
+R_a0=sp.factor(sp.resultant(E1,E2,a0))
+print("marked resultant eliminating a0 =",R_a0)
