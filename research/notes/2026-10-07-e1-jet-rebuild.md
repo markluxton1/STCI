@@ -416,3 +416,33 @@ The next target is to make this calculation universal on the rank-six
 contact stratum: derive the denominator/resultant of \(f_3\) modulo
 \(c_1c_3-c_2^2=0\), and isolate the cancellation locus on which
 \(\deg D_3\le3\).
+
+
+## Global equation of the d2=1 quotient locus
+
+The pullback of the degree-one annihilator determinant to quotient coordinates factors exactly as
+
+    c1*c3-c2^2 = -3*Delta^2*Q,
+
+where Delta=a0*b1-a1*b0 and
+
+    Q = 16*a0^2*b1^2 + 72*a0*a1^2*b1 + 64*a0*a1*b0*b1
+        + 24*a0*b0^2*b1 + 36*a1^4 + 72*a1^3*b0
+        + 52*a1^2*b0^2 + 16*a1*b0^3 + 3*b0^4.
+
+SymPy leaves Q irreducible over QQ. Hence on the basepoint-free open set
+Delta != 0, the complete d2=1 annihilator locus is the single quartic
+surface Q=0; Delta^2 is entirely the forbidden basepoint boundary.
+
+On the chart a1 != 0, put r=b0/a1 and x=a0*b1/a1^2. Then
+
+    Q/a1^4 =
+      16*x^2 + (72+64*r+24*r^2)*x
+      + 36+72*r+52*r^2+16*r^3+3*r^4.
+
+Thus modulo the residual scaling data, the quartic surface is a quadratic
+double cover over the r-line. This is the preferred coordinate reduction
+for the universal f3/D3 calculation.
+
+Certified by research/computations/verify_e1_d2_defect.py at commit
+7aa20c5d473a36714d812dd847c467c0c40e2785.
