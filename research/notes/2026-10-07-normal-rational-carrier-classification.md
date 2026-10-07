@@ -801,3 +801,50 @@ The remaining certificate has therefore collapsed to two tiny tasks:
 2. enumerate the degree-three multiplicity-three centers compatible with the forced pattern-A motif.
 
 No enumeration of all twelve-step proximity matrices is required.
+
+
+## P. Potential-theoretic reduction and an adjunction caveat
+
+Let F=E_j be the coefficient-one component met by c and put
+
+    b=Aa=(-E.E_i)_i.
+
+Since a=A^{-1}b and a_j=1,
+
+    1 = sum_i (A^{-1})_{ji} b_i.                  (D21)
+
+If b_j>=1, positivity of A^{-1} immediately gives
+
+    delta_p=(A^{-1})_{jj}<=1.
+
+Hence every possible survivor has b_j=0. For a blowup-created smooth rational component F, adjunction then gives F^2=-2. The anticanonical equation E.F=0 and a_F=1 forces the weighted neighboring coefficient sum to equal two. Thus only the local motifs
+
+    1+1   or   2
+
+can occur at F.
+
+If z=A^{-1}e_j, then on any chain of blowup-created coefficient-one (-2)-curves with b=0,
+
+    2 z_i = z_{i-1}+z_{i+1}.
+
+Thus z is affine along such zero-charge chains. Equation (D21) says that the boundary values are normalized by the total anticanonical charge:
+
+    sum_i z_i b_i=1.
+
+This is the correct discrete-potential formulation of the remaining Type D problem.
+
+### P.1 Important adjunction caveat
+
+One must not replace b_i by (-E_i^2-2) on every vertex of the irrational block. The strict transforms of components of the plane cubic G can themselves be singular (for example nodal or cuspidal), and G can be nonreduced. The smooth-rational adjunction formula applies without qualification only to the exceptional curves created by blowups (and to strict-transform components separately known to be smooth rational).
+
+A brute-force search that imposes b_i=d_i-2 on the entire block therefore searches the wrong class and can even return an empty state space. Such a failed search is not evidence for exclusion.
+
+### P.2 Correct proof architecture
+
+Separate the irrational block into:
+1. the blowup-created rational tree T, on which the zero-charge (-2) potential recurrence is exact; and
+2. the strict transforms of the original components of G, treated as boundary vertices with coefficients and intersection data inherited from the plane cubic.
+
+The marked vertex F lies in T in the only unresolved cases. The desired bound delta_p<2+mu/4 can therefore be proved by eliminating T via continued fractions/Schur complements and checking the finite list of possible cubic boundary types. This is smaller and safer than enumerating arbitrary proximity matrices.
+
+The next calculation should compute the effective conductance from F through T to each original G component for the local multiplicity-three configurations and the 2-to-1 coefficient transition. No canonical-state promotion should occur before that boundary calculation is complete.
