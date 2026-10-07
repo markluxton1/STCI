@@ -43,3 +43,10 @@ assert sp.expand(detH+3*Delta**2*Q)==0
 print("detH factorization = -3*Delta^2*Q")
 print("Q =",Q)
 print("Q factorization =",sp.factor(Q))
+
+# Discriminant of the reduced quadratic cover.
+r,x=sp.symbols("r x")
+Qred=16*x**2+(72+64*r+24*r**2)*x+(36+72*r+52*r**2+16*r**3+3*r**4)
+disc=sp.factor(sp.discriminant(Qred,x))
+assert sp.expand(disc-64*(r+2)**2*(6*r**2+8*r+24))==0
+print("reduced discriminant =",disc)
