@@ -41,3 +41,77 @@ The script contains exact symbolic assertions for the previously obtained dimens
 - no new gcd or residual-base-locus conclusion is promoted yet.
 
 After runtime verification, compute/saturate the ideal ((F_0,F_1)) against (I_C), preferably in Macaulay2, and record the residual scheme uniformly over the parameter (t). Only then interpret the geometry and literature-check linkage/contact antecedents.
+
+
+## Runtime verification and main-component carrier exclusion
+
+Independent execution of \`verify_e1_jet_rebuild.py\` reproduced:
+\[
+h^0(I_C(4))=18,\qquad h^0(I_{C_2}(4))=7,
+\]
+the second-contact rank
+\[
+\operatorname{rank}=5,
+\]
+and therefore
+\[
+h^0(I_{C_3}(4))=2.
+\]
+The two extracted ambient quartics \(F_0,F_1\) satisfy
+\[
+\gcd(F_0,F_1)=1\quad\text{over }\mathbf Q(t),
+\]
+so the pencil has no fixed surface factor.
+
+A further exact calculation restricts the two quartics to the unique quadric
+\[
+Q=xW-yZ.
+\]
+On the affine chart \(x=1\), where \(Q\) gives \(W=yZ\), one obtains (up to nonzero scalars)
+\[
+F_0|_Q=
+Z(-Z+y^3)(8t^3Z-1)(2ty+1),
+\]
+\[
+F_1|_Q=
+(-Z+y^3)(8t^3Z-1)(64t^6Z^2+1)(2ty+1).
+\]
+Hence
+\[
+\gcd(F_0|_Q,F_1|_Q)
+\sim
+(-Z+y^3)(8t^3Z-1)(2ty+1).
+\]
+The first factor is the quartic \(C\). The other two factors close to ruling lines
+\[
+L_1(t):\quad 2ty+x=0,\qquad 2tW+Z=0,
+\]
+\[
+L_2(t):\quad 8t^3Z-x=0,\qquad 8t^3W-y=0.
+\]
+Direct symbolic substitution of the two line parametrizations into both generic
+quartics gives zero identically. Thus
+\[
+\boxed{L_1(t)\cup L_2(t)\subset V(F)\quad
+\text{for every }F\in H^0(I_{C_3}(4)).}
+\]
+
+Since \(t\ne0\), neither line is \(C\). Any positive-degree projective hypersurface
+\(G\) meets each line (or contains it). Therefore
+\[
+V(F,G)
+\]
+has support outside \(C\) for every quartic carrier \(F\) through this primitive
+triple.
+
+**PROVED (exact symbolic certificate + direct substitution).**
+The entire one-dimensional nonzero-comparison main component of the e=1
+primitive-triple locus cannot occur in an STCI presentation having a quartic
+carrier.
+
+This mechanism differs from e=2: the ambient quartic pencil has no common
+surface factor; instead it has a forced pair of ruling lines in its base locus.
+
+The two isolated nonzero-comparison boundary directions remain to be checked
+separately. The comparison-zero boundary direction was previously identified
+as the quadric-contained case and should also be re-certified on this clean branch.
