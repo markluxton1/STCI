@@ -1,0 +1,179 @@
+{
+  "created_utc": "2026-10-09T17:00:35.580914+00:00",
+  "scope": "Only explicitly named completed weighted, four-A1 and D5 execution manifests; no discovery scan. The standalone initial A1 countercheck and other discovery executions remain unindexed.",
+  "preserved_prior_index": "research/validation/2026-10-08-continuation-index/index-seal-2026-10-09-91-sources-103-executions.json",
+  "preserved_prior_index_sha256": "f928677fcd1c73d20728c03b5a92b2d0b372b7088dcdbd619e2347f477fd0c8d",
+  "metadata_sha256": {
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/audit-manifest.json": "61f5da992f99b20cba922daa0930cacda89e8fdec0c1d24607c55d08a62c82b8",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated-replay-manifest.json": "4fba715ec4cb041c0c8ba9bd6c19427b2f09174733a451f81d7f7e71c0295911",
+    "research/validation/2026-10-09-four-A1-root-replay/result.json": "78343566f66e2c10d7c116dc236b36e5384acfd0f0c8b082675ddcf3b88953a8",
+    "research/validation/2026-10-09-D5-root-audit/replay-manifest.json": "48cf74696d7d72cd60181ac8da8fbe6b6d046cc854cccafb25f3ad0ba9cf57e3",
+    "research/validation/2026-10-09-D5-root-audit/audit-manifest.json": "099ea1eb87597bc1f4cb01505de76d11dfe5cd614dec3e4dc0a6e4071aad3d27",
+    "research/validation/2026-10-09-four-A1-family-audit/audit-manifest.json": "eb5627c5cab79345834d0203e5a13e14d3d9eca6c5cc530edb9b6951994c1521"
+  },
+  "bound_input_sha256": {
+    "research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py": "a513320aeeed37260151d209cd2d232ac321edb892d647b22395a06cb45a1ac8",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py": "a513320aeeed37260151d209cd2d232ac321edb892d647b22395a06cb45a1ac8",
+    "research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py": "78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a93e17370",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py": "78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a93e17370",
+    "research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.json": "0da6eff927a635a81179ce631468e9d4f3fc89a1c78af1c7a6a8cd6cc81fe85d",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.json": "0da6eff927a635a81179ce631468e9d4f3fc89a1c78af1c7a6a8cd6cc81fe85d",
+    "research/scratch/mf6-principal-weighted-kernel-2026-10-08.json": "4889f20b60fa094cde47992342701ebdf29a98413fc216b20f971550331cd9db",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/mf6-principal-weighted-kernel-2026-10-08.json": "4889f20b60fa094cde47992342701ebdf29a98413fc216b20f971550331cd9db",
+    "research/scratch/session-mf6-e1-principal-contact-2026-10-08.json": "bc32db62b6d87e15300168a47f50d6bf3cd952d0d19b60ad52fc5ae8cdfa9818",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/session-mf6-e1-principal-contact-2026-10-08.json": "bc32db62b6d87e15300168a47f50d6bf3cd952d0d19b60ad52fc5ae8cdfa9818",
+    "research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json": "a044fbbe3fa4903268a38a07792b3e023170b943ceb28f63e4d464b9e871732f",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json": "a044fbbe3fa4903268a38a07792b3e023170b943ceb28f63e4d464b9e871732f",
+    "research/notes/2026-10-09-session-mf6-weighted-candidate-algebra-independent-audit.md": "e1e0d7e05d0c825c141d68fc6ad4ec2ec0220c2948a492d5dd895c15efcaab9d",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/notes/2026-10-09-session-mf6-weighted-candidate-algebra-independent-audit.md": "e1e0d7e05d0c825c141d68fc6ad4ec2ec0220c2948a492d5dd895c15efcaab9d",
+    "research/notes/2026-10-09-session-mf6-principal-weighted-candidate.md": "706c76d421a897cbd8d1ac77a2b901f3ddf5c9d9a1ff7f99ebdb4a0fe8499103",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/notes/2026-10-09-session-mf6-principal-weighted-candidate.md": "706c76d421a897cbd8d1ac77a2b901f3ddf5c9d9a1ff7f99ebdb4a0fe8499103",
+    "research/notes/2026-10-09-session-mf6-weighted-candidate-geometric-audit.md": "32fa1fd3eb478d07440c6d596934c540ff4f26c8a65a7f7dd994a9697bb3febd",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/notes/2026-10-09-session-mf6-weighted-candidate-geometric-audit.md": "32fa1fd3eb478d07440c6d596934c540ff4f26c8a65a7f7dd994a9697bb3febd",
+    "research/notes/2026-10-08-session-principal-e1-d1-independent-completeness-audit.md": "c95b61b294fb0cce0b48b03623377c1d358aeaf07d49d201df68175735988e73",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/notes/2026-10-08-session-principal-e1-d1-independent-completeness-audit.md": "c95b61b294fb0cce0b48b03623377c1d358aeaf07d49d201df68175735988e73",
+    "research/computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py": "7097d53e51925392ca9306ec422270346e6e1982b2e89defe900b0d1e9556f21",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/accepted-antecedent-irreducibility-source.py": "7097d53e51925392ca9306ec422270346e6e1982b2e89defe900b0d1e9556f21",
+    "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+    "research/validation/2026-10-09-four-A1-family-audit/countercheck.py": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck.py": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+    "research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md": "bf5cff57eec3506dd91158734db773b05f605c8a452c7cb470c8cf5c1b2a7996",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md": "bf5cff57eec3506dd91158734db773b05f605c8a452c7cb470c8cf5c1b2a7996",
+    "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+    "research/validation/2026-10-09-D5-root-audit/isolated/computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+    "research/validation/2026-10-09-D5-root-audit/countercheck.py": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933",
+    "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck.py": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933",
+    "research/validation/2026-10-09-D5-root-audit/isolated/research/scratch/session-delpezzo-D5-torsion-filter-2026-10-09.json": "f983c6858810254b329d0cccd2194e69fdd37a708712a5130eeb0a7f08ee24fd",
+    "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck-result.json": "6e2da18aecdcef9dc4a23f94ba5baad6f7e7e3c73e7288c4cc9b8b5143ab51da",
+    "research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md": "b4f4e4bb5a44c01022ce0e7d342bb1ce74127d0d3575aa227b3a18050e5d5919",
+    "research/notes/2026-10-09-session-delpezzo-D5-root-independent-audit.md": "9e9717a77f497c5cdcc09aa5d4b6247a222911118e7d93ce05a02192c83c1223",
+    "research/notes/2026-10-09-session-genus-one-delpezzo-reduction.md": "233224fbb29a60081b77a3478a84f0967b073e26b7dc689eb32c64e04165dce1",
+    "research/notes/2026-10-09-session-rational-genus-one-ADE-independent-audit.md": "b9b39f2c6d29ec2c54b7343eb248f6ad0aeffc64a1a69b661ac912a8bdf684a5",
+    "research/notes/2026-10-09-session-nonrational-quartic-normalizations.md": "2669bcbbeb9449347e2944f5266c10d6e36cd4ab7a2ed96af15783849ddb0404",
+    "research/notes/2026-10-09-session-nonrational-normalization-independent-audit.md": "e2e24ac3524ef473f86d71d8465ed18987abc83ac6c20ac2630f85196a3908bb",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md": "b4f4e4bb5a44c01022ce0e7d342bb1ce74127d0d3575aa227b3a18050e5d5919",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-delpezzo-D5-root-independent-audit.md": "9e9717a77f497c5cdcc09aa5d4b6247a222911118e7d93ce05a02192c83c1223",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-genus-one-delpezzo-reduction.md": "233224fbb29a60081b77a3478a84f0967b073e26b7dc689eb32c64e04165dce1",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-rational-genus-one-ADE-independent-audit.md": "b9b39f2c6d29ec2c54b7343eb248f6ad0aeffc64a1a69b661ac912a8bdf684a5",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-nonrational-quartic-normalizations.md": "2669bcbbeb9449347e2944f5266c10d6e36cd4ab7a2ed96af15783849ddb0404",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-nonrational-normalization-independent-audit.md": "e2e24ac3524ef473f86d71d8465ed18987abc83ac6c20ac2630f85196a3908bb",
+    "research/notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md": "94eab6e5a64f2f5670f5c22ead81971218df54798911b27275bcdc4857437efa",
+    "research/validation/2026-10-09-four-A1-family-audit/countercheck-result.json": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+    "research/validation/2026-10-09-four-A1-family-audit/countercheck.log": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+    "research/validation/2026-10-09-four-A1-family-audit/independent-isolated-replay.log": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck-result.json": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated-replay-manifest.json": "4fba715ec4cb041c0c8ba9bd6c19427b2f09174733a451f81d7f7e71c0295911",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated-replay.py": "237e41f883b1b7bce5e3b56f5754690328d97716676310308b22877ac115f642",
+    "research/validation/2026-10-09-four-A1-family-audit/owner-isolated-replay.log": "7cdc312c598256fab1330df90bf1ac1ba223e4d3b845cff93df2bf001e807ff6",
+    "research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0"
+  },
+  "executions": [
+    {
+      "source": "research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "source_sha256": "a513320aeeed37260151d209cd2d232ac321edb892d647b22395a06cb45a1ac8",
+      "snapshot_source": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 7.909,
+      "log": "research/validation/2026-10-09-mf6-weighted-candidate-audit/independent-countercheck.log",
+      "log_sha256": "061217ff3b5ecc72aeec7bd5aa0791a3b7299ac43a8865f35f2f1529b1743ce2",
+      "evidence": "Bounded independent coefficient/matrix/sample audit, not full contact syzygy suite or candidate-zero classification",
+      "equivalent_command_from_repository_root": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py"
+      ],
+      "cwd_recorded_in_original_manifest": false
+    },
+    {
+      "source": "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "source_sha256": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+      "snapshot_source": "research/validation/2026-10-09-four-A1-family-audit/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5801666670013219,
+      "log": "research/validation/2026-10-09-four-A1-family-audit/owner-isolated-replay.log",
+      "log_sha256": "7cdc312c598256fab1330df90bf1ac1ba223e4d3b845cff93df2bf001e807ff6",
+      "evidence": "Fresh independent-audit snapshot execution: owner"
+    },
+    {
+      "source": "research/validation/2026-10-09-four-A1-family-audit/countercheck.py",
+      "source_sha256": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+      "snapshot_source": "research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6508258751127869,
+      "log": "research/validation/2026-10-09-four-A1-family-audit/independent-isolated-replay.log",
+      "log_sha256": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+      "evidence": "Fresh independent-audit snapshot execution: independent"
+    },
+    {
+      "source": "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "source_sha256": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+      "snapshot_source": "research/validation/2026-10-09-four-A1-root-replay/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-root-replay/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.603,
+      "log": "research/validation/2026-10-09-four-A1-root-replay/replay.log",
+      "log_sha256": "30a8bcdd42e87007f771100aab93c3f5f28b20ed633ff3015995cef5518f3ddf",
+      "output_sha256": {
+        "research/validation/2026-10-09-four-A1-root-replay/isolated/research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0"
+      }
+    },
+    {
+      "source": "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "source_sha256": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 3.059,
+      "log": "research/validation/2026-10-09-D5-root-audit/verify_delpezzo_D5_torsion_filter_2026_10_09.log",
+      "log_sha256": "b13bd9eb5b84aef3d6b98a389927efaa2ca94ce0865620799ac2f01c4813e51a",
+      "isolated": true,
+      "evidence": "Frozen D5 owner replay or independent signed-partition root countercheck; written proof separately audited by root"
+    },
+    {
+      "source": "research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "source_sha256": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/validation/2026-10-09-D5-root-audit/countercheck.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.091,
+      "log": "research/validation/2026-10-09-D5-root-audit/countercheck.log",
+      "log_sha256": "2bc1a6b8f5c909b2a1bbefff2024a5ccec120a72b6bbdb4b7474c5aeecc6ed1e",
+      "isolated": true,
+      "evidence": "Frozen D5 owner replay or independent signed-partition root countercheck; written proof separately audited by root"
+    }
+  ]
+}

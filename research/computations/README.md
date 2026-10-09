@@ -116,6 +116,33 @@ identity check is not a replacement for the linked geometric proof.
   independently audited differential lemma and full divisor/fibre
   arguments. It retains nongorenstein actual conductors and makes no
   classification claim for other normalization types.
+- `verify_session_mf6_principal_weighted_candidate_2026_10_09.py`
+  checks all eighteen actual ambient forms, weighted polynomial syzygies,
+  the actual first-normal octic and fixed degree-210 determinant matrix.
+  `audit_session_mf6_weighted_candidate_2026_10_09.py` independently
+  reconstructs coefficients, matrix, sample determinant 22 modulo 101,
+  and simple/multiple infinity controls. The separate geometry and
+  Bezout proof give at most 630 necessary principal mate parameters,
+  not their exact list or an exclusion at every zero.
+- The root-level `../../computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py`
+  checks universal four-parameter normalization and full-fiber identities.
+  Its separate countercheck and frozen audit are in
+  `../validation/2026-10-09-four-A1-family-audit/`. The all-degree
+  geometric exclusion applies to the displayed open family and does
+  not exhaust all four-A1 projections.
+- The root-level `../../computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py`
+  enumerates all 428 embedded reflection-closed root subsystems and
+  checks their integer saturation with HNF. The independent signed
+  set-partition countercheck in `../validation/2026-10-09-D5-root-audit/`
+  uses no reflection search or HNF. The missing-root proof leaves
+  only 4A1 or A3+2A1 and even mate degree. Its weak-del-Pezzo/ADE
+  geometric hypotheses follow from separately audited genus-one
+  divisor arguments; the lattice checker alone does not prove them.
+
+The genus-zero cone, nonrational ruled-surface and genus-one adjoint
+proofs are structural divisor arguments, recorded in the
+[October 9 acceptance](../notes/2026-10-09-session-results-acceptance.md).
+They do not acquire their validity from these finite source counts.
 
 The [validation record](../notes/2026-10-06-session-validation.md)
 preserves source hashes, isolated generated outputs, meaningful repairs
@@ -125,8 +152,8 @@ The [October 7 continuation replay](../validation/2026-10-07-continuation/result
 adds isolated checks of newly completed sources while preserving the
 earlier baseline and its failed diagnostic records.
 The [October 8 reconciled index](../validation/2026-10-08-continuation-index/index.json)
-binds 91 distinct top-level sources to latest PASS evidence and counts
-103 explicitly indexed executions. Nested/imported checks are not counted
+binds 97 distinct top-level sources to latest PASS evidence and counts
+110 explicitly indexed executions. Nested/imported checks are not counted
 as extra sources. It records the two central continuation failures and
 repairs and the unavailable bytes of one superseded Veronese source
 revision; the current strengthened revision has a separate passing
@@ -315,7 +342,10 @@ python3 research/computations/verify_p044_survivor_cubic.py
 
 ## 2026-10-06 audited consolidation certificates
 
-The authoritative current status is `../AUDITED_STATE_2026-10-06.md`. The consolidation branch intentionally omits exploratory scratch and known-faulty historical certificates. The following promoted checks accompany the audited results:
+This is the historical October 6 consolidation status; current results
+are routed by `../AUDITED_STATE_2026-10-07.md`. The consolidation branch
+intentionally omitted exploratory scratch and known-faulty historical
+certificates. The following promoted checks accompanied its audited results:
 
 - `verify_primitive_quadruple_universal.py` — universal fourth-obstruction zero-locus certificates for the primitive e=2 analysis.
 - `verify_primitive_quartic_factor_audit.py` — independent reconstruction of the quartic symbol/contact calculation and factorization theorem.

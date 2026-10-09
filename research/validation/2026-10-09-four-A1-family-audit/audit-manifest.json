@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "verdict": "PROVED: all mate degrees excluded on the displayed uniform parameter open",
+  "scope": "Fixed C0, characteristic zero, alpha*beta*gamma*delta*(alpha*delta-beta*gamma) nonzero; explicit family only",
+  "does_not_exhaust_all_four_A1_projections": true,
+  "singular_normalization_other_strata": "OPEN",
+  "unrestricted_STCI_problem": "OPEN",
+  "independent_written_audit": "research/notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md",
+  "isolated_executions": [
+    {
+      "label": "owner",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5801666670013219
+    },
+    {
+      "label": "independent",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6508258751127869
+    }
+  ],
+  "files_sha256": {
+    "research/notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md": "94eab6e5a64f2f5670f5c22ead81971218df54798911b27275bcdc4857437efa",
+    "research/validation/2026-10-09-four-A1-family-audit/countercheck-result.json": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+    "research/validation/2026-10-09-four-A1-family-audit/countercheck.log": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+    "research/validation/2026-10-09-four-A1-family-audit/countercheck.py": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+    "research/validation/2026-10-09-four-A1-family-audit/independent-isolated-replay.log": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md": "bf5cff57eec3506dd91158734db773b05f605c8a452c7cb470c8cf5c1b2a7996",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck-result.json": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck.py": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated-replay-manifest.json": "4fba715ec4cb041c0c8ba9bd6c19427b2f09174733a451f81d7f7e71c0295911",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated-replay.py": "237e41f883b1b7bce5e3b56f5754690328d97716676310308b22877ac115f642",
+    "research/validation/2026-10-09-four-A1-family-audit/owner-isolated-replay.log": "7cdc312c598256fab1330df90bf1ac1ba223e4d3b845cff93df2bf001e807ff6",
+    "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+    "research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0",
+    "research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md": "bf5cff57eec3506dd91158734db773b05f605c8a452c7cb470c8cf5c1b2a7996"
+  },
+  "audit_note_local_link_count": 6,
+  "original_sources_or_canonical_documents_edited": false,
+  "child_agents_used_for_this_bounded_audit": false,
+  "no_live_audit_process": true
+}

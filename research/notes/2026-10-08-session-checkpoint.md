@@ -1,5 +1,15 @@
 # Continuation checkpoint after the October 8 batch, reconciled October 9
 
+The [October 9 acceptance](2026-10-09-session-results-acceptance.md)
+supersedes the older open smooth-normalization language below. Every
+genus-zero and every smooth-normalization quartic carrier is now
+excluded; every nonnormal quartic containing C0 has rational
+normalization. Genus one reduces to 4A1 or A3+2A1 and even mate
+degrees; other projections of those types and rational genus two remain
+open. The principal necessary mate-candidate locus has bound 630.
+The complete current execution index has 97 sources and 110 indexed
+executions; the 91/103 decomposition below describes this earlier batch.
+
 Date: 2026-10-08. The universal STCI problem and the unrestricted
 characteristic-zero C0 problem remain **OPEN**. Read the reconciled
 [audited state](../AUDITED_STATE_2026-10-07.md) first. This checkpoint
@@ -179,8 +189,9 @@ record was supplied for that agent run. Do not infer a live process from
 its source or restart an overlapping calculation without checking handles.
 
 The [reconciled validation index](../validation/2026-10-08-continuation-index/index.json)
-contains 91 distinct top-level sources, all with a latest PASS record,
-and 103 explicitly indexed executions. Of these, the continuation adds
+at this earlier checkpoint contained 91 distinct top-level sources,
+all with a latest PASS record, and 103 explicitly indexed executions.
+Of these, the continuation added
 28 distinct sources in 30 central records, a separate strengthened
 Veronese revision, the independent first-family countercheck, four
 independent principal executions, and three additional family2 sources

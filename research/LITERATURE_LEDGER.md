@@ -536,3 +536,35 @@ curves. No later source was found that:
 
 Therefore the smooth complex problem, and already the explicit smooth rational
 quartic \(C_0\), remain open on the literature checked through 2026-09-30.
+
+## Standard structural inputs checked on 2026-10-09
+
+These checks support the new proofs in the
+[October 9 acceptance](notes/2026-10-09-session-results-acceptance.md).
+They are checks of stated hypotheses and classical inputs, not an
+assessment of novelty or a new exhaustive search for an unrestricted
+STCI resolution.
+
+- Eisenbud--Green--Hulek--Popescu, *Small schemes and varieties of
+  minimal degree*, [author-hosted source](https://www.math.stonybrook.edu/~sorin/eprints/2-regular.pdf),
+  Theorem 0.1: the minimal-degree classification supplies the scroll,
+  Veronese and cone possibilities after the new proof establishes
+  h0(H)=6 and degree four in P5.
+- Miles Reid, *The Du Val singularities*, [author-hosted source](https://mreid.warwick.ac.uk/surf/more/DuVal.pdf),
+  Theorem 2.1(2): a crepant surface resolution characterizes Du Val
+  singularities. The new adjoint argument proves crepancy and
+  Cartierness of K_S before this input is used.
+- Igor Dolgachev, *Classical Algebraic Geometry*,
+  [author-hosted source](https://sites.lsa.umich.edu/idolga/wp-content/uploads/sites/1334/2024/08/CAG.21.pdf),
+  section 8.1.3 after Definition 8.1.18: the weak del Pezzo blowup
+  model gives the degree-four Picard marking by five possibly
+  infinitely near points. Proposition 8.2.7 and section 8.2.3 give
+  its forty roots and D5 orthogonal lattice. The new saturation and
+  missing-root classification is proved directly, rather than
+  inferred from a singularity table.
+- The characteristic-zero nef-big Kawamata--Viehweg vanishing input
+  was checked in [Hacon's author lecture notes](https://www.math.utah.edu/~hacon/Kyoto2016talks.pdf)
+  and its use in [Horing's primary article](https://math.univ-cotedazur.fr/~hoering/articles/a12-sect-genus.pdf),
+  Proposition 2.6. The direct surface arguments retain the field,
+  smooth-resolution and Cartier hypotheses and do not import a
+  complex-only conclusion without justification.

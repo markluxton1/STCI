@@ -1,0 +1,82 @@
+{
+  "status": "PASS exact conormal, complete ribbon-net, and derivative-map identities",
+  "source_sha256": "5fb36f28426616a3649dbd7d16b293edc7ac761171bb9af193af86ea32fbb0eb",
+  "quadrics": {
+    "q01": "Y0*Y2 - Y1**2",
+    "q02": "Y0*Y3 - Y1*Y2",
+    "q03": "Y0*Y4 - Y1*Y3",
+    "q12": "Y1*Y3 - Y2**2",
+    "q13": "Y1*Y4 - Y2*Y3",
+    "q23": "Y2*Y4 - Y3**2"
+  },
+  "normal_frame": "Y0=1,Y1=t,Y2=t\u00b2+U,Y3=t\u00b3+2tU+V,Y4=t\u2074+3t\u00b2U+2tV+W",
+  "opposite_conormal_transition": "(U_infinity,V_infinity,W_infinity)=t^(\u22126)(W,V,U) modulo square ideal",
+  "firstnormal_matrix": [
+    [
+      "1",
+      "t",
+      "t**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "t",
+      "t",
+      "t**2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "t",
+      "t**2"
+    ]
+  ],
+  "symmetric_matrix": [
+    [
+      "c0",
+      "c1",
+      "c2"
+    ],
+    [
+      "c1",
+      "c2 + c3",
+      "c4"
+    ],
+    [
+      "c2",
+      "c4",
+      "c5"
+    ]
+  ],
+  "ribbon_net": "M_Q eta=0; eta\u2208P\u00b2; intrinsic Veronese conic eta1\u00b2=eta0 eta2 excluded",
+  "net_eta_1_u_v_forms": [
+    "Y0*Y2*u**2 - Y0*Y3*u - Y1**2*u**2 + Y1*Y2*u + Y1*Y3 - Y2**2",
+    "2*Y0*Y2*u*v - Y0*Y3*v - Y0*Y4*u - 2*Y1**2*u*v + Y1*Y2*v + 2*Y1*Y3*u + Y1*Y4 - Y2**2*u - Y2*Y3",
+    "Y0*Y2*v**2 - Y0*Y4*v - Y1**2*v**2 + 2*Y1*Y3*v - Y2**2*v + Y2*Y4 - Y3**2"
+  ],
+  "derivative_eta_1_u_v_affine": [
+    "(-t + u)*(2*t + u)",
+    "(t + 2*u)*(-t**2 + v)",
+    "(-t**2 + v)**2"
+  ],
+  "center_functional_eta_1_u_v": [
+    "-1",
+    "-u",
+    "-v"
+  ],
+  "derivative_map_classification": {
+    "double_conic": "eta1=0 or eta0=eta2=0, with intrinsic conic excluded",
+    "birational_cubic_with_one_simple_basepoint": "eta1\u00b2=4eta0 eta2 and eta1!=0",
+    "birational_quartic": "all other admissible eta",
+    "chart_coverage": "eta0!=0 uses eta=(1,u,v); reversal handles eta2!=0; eta=(0,1,0) separately checked"
+  },
+  "deck_difference": "-9*u*(t**2 + 4*t*u + v)*(t**2*u + t*v + u*v)/((t**2 - v)**2*(4*u**2 - v)**2)",
+  "scope": "Identities support complete geometric ribbon classification in companion proof note. No all-mate exclusion or classification of admissible projection pencils is inferred from the derivative-map identities.",
+  "elapsed_seconds": 0.392
+}

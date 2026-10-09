@@ -118,6 +118,14 @@ contact map is reduced on a declared open to a six-by-seven matrix and
 seven maximal cofactors. The contact rank theorem and exceptional
 frames are now exhausted for ancestors. The unique-carrier family has
 only finitely many nonnormal parameters; their exact list remains open.
+The new fixed binary-gradient determinant of weighted degree 210
+gives a necessary mate-candidate locus of at most 630 distinct principal
+weighted parameter points on the declared contact open. Its complete
+coefficient reconstruction, infinity and zero-generator controls,
+modular nonvanishing and Bezout proof have separate algebra and
+geometry audits. The candidate list is uncomputed and is not asserted
+to equal the nonnormal locus. See the
+[October 9 acceptance](notes/2026-10-09-session-results-acceptance.md).
 The treated complement carriers are excluded in every mate degree. See the
 [October 8 checkpoint](notes/2026-10-08-session-checkpoint.md).
 
@@ -446,9 +454,58 @@ no reduced-conductor theorem is transferred to this scheme. See the
 and [independent audit](notes/2026-10-08-session-mf6-rhalf-scroll-independent-audit.md).
 The remaining principal nonnormal carriers form a finite proper closed
 subset of the integral direction curve; its exact list is open.
-Singular normalizations, other smooth polarized normalization classes
-and other carrier degrees remain separate open lanes. The scroll
-theorem does not classify every nonnormal quartic normalization.
+The scroll theorem alone does not classify every nonnormal quartic
+normalization. The following additional structural reductions now
+go beyond that hypothesis.
+
+**PROVED complete genus-zero and smooth-normalization exclusion:**
+the normalization of sectional genus zero is exhaustively F0, F2,
+the Veronese surface or the rational-normal-quartic cone. The new
+cone class-group/fiber/differential proof closes the last case.
+Every integral quartic with smooth normalization is consequently
+excluded for fixed C0 in every mate degree. Generic regularity along
+C0 is automatic for integral quartics, by the plane quartic genus
+bound. See the [proof](notes/2026-10-09-session-normalization-sectional-genus-zero.md)
+and [independent audit](notes/2026-10-09-session-normalization-genus-zero-independent-audit.md).
+
+**PROVED stronger rationality theorem, without a mate:** every
+integral nonnormal quartic containing C0 has rational normalization.
+On a hypothetical nonrational ruled resolution, the nef multiplicities
+at all point blowups satisfy 0<=m_i<=a and
+4=(2g-2)a^2+(6-2pi)a+sum m_i(a-m_i), forcing a<=2. The strict
+rational quartic lift would be a fiber component of degree four,
+which is impossible. See the [proof](notes/2026-10-09-session-nonrational-quartic-normalizations.md)
+and [independent audit](notes/2026-10-09-session-nonrational-normalization-independent-audit.md).
+
+**PROVED genus-one hypothesis reduction and necessary torsion filter:**
+every remaining sectional-genus-one normalization is a Gorenstein
+degree-four del Pezzo with ADE singularities. The minimal resolution
+satisfies L=-K_M. A mate gives a root Z=L-c# in sat(R) minus R
+inside D5; the entire root-system argument leaves exactly 4A1 or
+A3+2A1, with the complete exceptional corrections stated in the
+[October 9 acceptance](notes/2026-10-09-session-results-acceptance.md).
+Every such mate degree is even. The [canonical-divisor proof](notes/2026-10-09-session-genus-one-delpezzo-reduction.md)
+has a [separate ADE audit](notes/2026-10-09-session-rational-genus-one-ADE-independent-audit.md);
+the [D5 proof](notes/2026-10-09-session-delpezzo-D5-torsion-filter.md)
+has a [root independent reconstruction](notes/2026-10-09-session-delpezzo-D5-root-independent-audit.md)
+and different exact enumerations of all 428 embedded root subsystems.
+The intended further worker audit stopped at the weekly quota and is
+not counted as completed.
+
+**PROVED displayed four-A1 family exclusion:** the entire parameter
+open alpha beta gamma delta (alpha delta-beta gamma)!=0 in the
+[explicit family](notes/2026-10-09-session-singular-delpezzo-four-A1-family.md)
+is excluded in every mate degree. At every zero of its nonzero L_C,
+two distinct normalization points lie over C0 and one is outside its
+unique curve lift. Repeated roots are covered by the
+[independent full-fiber audit](notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md).
+This does not exhaust all four-A1 projections.
+
+**OPEN remaining quartic geometry:** rational singular normalization
+with pi=1 in the two types above, or pi=2. Its smooth lifted curve
+must meet Sing(S) in a non-Cartier torsion class. Other four-A1
+projections, A3+2A1, and genus-two conductors are not excluded.
+Higher carrier degrees and entirely thick presentations remain open.
 
 ## G. Literature corrections and global continuation
 
@@ -469,7 +526,7 @@ successful certificate runs do not settle the universal question.
 The [October 8 checkpoint](notes/2026-10-08-session-checkpoint.md) records
 accepted additions, interrupted structural work and process limitations.
 The [reconciled validation index](validation/2026-10-08-continuation-index/index.json)
-has 91 distinct top-level sources with latest PASS records and 103
+has 97 distinct top-level sources with latest PASS records and 110
 explicitly indexed executions. Its scope is
 execution/provenance integrity, not proof of unrecorded hypotheses. It
 preserves failed runs and explicitly records the lost source bytes of a

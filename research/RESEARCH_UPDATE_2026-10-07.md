@@ -16,6 +16,11 @@ resume reconciliation, research record, handoff and source files. The
 continued checkout is on `research/ultra-resume-2026-10-06`; the retained
 interruption snapshot is `3ffda7548a863387429adab61eefe02575e86297`.
 Working changes and newly created notes are the current evidence.
+Live inspection subsequently found HEAD
+`e7c9c9594795271ff2c1b0a9026955523975e7d7`, with title
+`2026-10-09 morning limit reached`; root did not perform that Git mutation.
+The earlier interruption commit is historical, and the current checkout
+and completed dated records control continuation.
 
 Three corrections change how the older frontier must be read:
 
@@ -255,9 +260,9 @@ assumed at a nongorenstein vertex. See the
 [exact Artin audit](notes/2026-10-08-session-scroll-artin-independent-audit.md),
 [full independent audit](notes/2026-10-08-session-scroll-nongorenstein-independent-audit.md)
 and [root reconciliation](notes/2026-10-08-session-late-results-acceptance.md).
-Other smooth polarization classes, singular normalizations and higher
-carrier degrees remain open; the theorem is not a classification of
-every nonnormal quartic normalization.
+That theorem is scoped to its normalization class. The October 9
+structural arguments below now close every smooth normalization and
+give stronger reductions of the singular-normalization lane.
 
 Both algebraic e=1,d2=4 ancestor directions now have complete quartic
 fibers of dimension at most one, uniformly over all homogeneous defect
@@ -269,19 +274,78 @@ quartic rank theorem and omitted charts are now closed for ancestors.
 Every complement carrier is also excluded in all mate degrees. The
 principal carrier problem reduces to a finite proper closed nonnormal
 subset of that integral curve; its exact enumeration remains open.
+The new polynomial syzygies of degrees 9,9,10 and the actual binary
+normal octic are verified. A fixed degree-210 gradient determinant
+gives a necessary locus with at most 630 distinct principal weighted
+mate parameters on the declared contact open. The determinant's zero
+list is uncomputed and it is not asserted to equal the nonnormal locus.
+The [owner proof](notes/2026-10-09-session-mf6-principal-weighted-candidate.md)
+has separate [geometry](notes/2026-10-09-session-mf6-weighted-candidate-geometric-audit.md)
+and [algebra/Bezout](notes/2026-10-09-session-mf6-weighted-candidate-algebra-independent-audit.md)
+audits. Fixed padding retains multiple roots at infinity; zero chosen
+generator fibers are retained rather than removed by division.
 
 The [October 8 checkpoint](notes/2026-10-08-session-checkpoint.md)
 preserves these proofs, historical interruptions and exact next
 boundaries. The [late acceptance record](notes/2026-10-08-session-late-results-acceptance.md)
 gives the completed proofs and current scope. The
 [reconciled validation index](validation/2026-10-08-continuation-index/index.json)
-counts 91 distinct top-level sources with latest PASS records and 103
+counts 97 distinct top-level sources with latest PASS records and 110
 explicitly indexed executions. It retains both continuation failures
 and their repairs, and openly records one superseded source-byte loss
 caused by the now-fixed repeated-copy behavior of the snapshot driver.
 The [full proof](notes/2026-10-07-session-veronese-pencil-classification.md)
 and [independent audit](notes/2026-10-08-session-veronese-allmate-independent-audit.md)
 retain every fiber, global-unit and characteristic hypothesis.
+
+## October 9 structural reductions of every quartic normalization
+
+The [new root acceptance](notes/2026-10-09-session-results-acceptance.md)
+collects the proofs, independent audits and exact evidence for these
+stronger results:
+
+- Every integral quartic containing C0 is regular at its generic point.
+  A general plane section otherwise has four distinct singular points,
+  contrary to the arithmetic genus of an integral plane quartic.
+- Every normalization of sectional genus zero is one of F0, F2,
+  the Veronese surface or the rational-normal-quartic cone. The new
+  cone fiber/differential proof closes the fourth case. Every integral
+  quartic with smooth normalization is therefore excluded in every
+  mate degree for C0; no other smooth-polarization lane remains under
+  a mate. See the [classification and cone proof](notes/2026-10-09-session-normalization-sectional-genus-zero.md).
+- Every nonnormal integral quartic containing C0 has rational
+  normalization, without assuming a mate. Nef blowup multiplicities
+  on a nonrational ruled model force fiber degree at most two, while
+  the lifted rational quartic would be a fiber component of degree
+  four. Infinitely near centers and actual reducible fiber cycles are
+  retained in the [proof](notes/2026-10-09-session-nonrational-quartic-normalizations.md)
+  and [independent audit](notes/2026-10-09-session-nonrational-normalization-independent-audit.md).
+- Every sectional-genus-one normalization is a Gorenstein del Pezzo
+  surface of degree four with ADE singularities. On its minimal
+  resolution, the unique effective adjoint is exceptional and must
+  vanish by minimality and negative definiteness, giving L=-K_M.
+  The [root proof](notes/2026-10-09-session-genus-one-delpezzo-reduction.md)
+  and [independent audit](notes/2026-10-09-session-rational-genus-one-ADE-independent-audit.md)
+  establish this hypothesis before the lattice argument is imported.
+- A hypothetical mate in genus one then requires exactly 4A1 or
+  A3+2A1, and an even mate degree. The missing-root argument in D5
+  has a [self-contained proof](notes/2026-10-09-session-delpezzo-D5-torsion-filter.md)
+  and [root independent reconstruction](notes/2026-10-09-session-delpezzo-D5-root-independent-audit.md).
+  Two different enumerations check all 428 embedded root subsystems.
+  The additional intended worker audit was interrupted at the weekly
+  quota before its final record and is not counted as completed.
+- A [uniform four-A1 family](notes/2026-10-09-session-singular-delpezzo-four-A1-family.md)
+  on alpha beta gamma delta (alpha delta-beta gamma)!=0 is excluded
+  in every mate degree, including repeated roots of L_C. Its actual
+  normalization has an extra point over C0 outside the unique lifted
+  curve, so full inverse support fails. The [separate audit](notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md)
+  checks its entire construction. Other four-A1 projections remain.
+
+The surviving integral-quartic geometry is a rational singular
+normalization of genus one in those two types, or genus two, with a
+non-Cartier smooth lifted curve meeting its singular locus. Higher
+carrier degrees and entirely thick presentations remain separate
+open branches. The unrestricted C0 and universal questions are open.
 
 ## Literature and next actions
 
@@ -296,16 +360,20 @@ survey assertion remains unverified from its original source chain.
 The most valuable remaining directions are structural:
 
 1. Determine the finite remaining principal e=1,d2=1 carrier locus,
-   using the saved weighted polynomial kernel and actual higher jets.
+   using the verified weighted polynomial kernel, its explicit necessary
+   630-point determinant locus, and actual higher jets or conductor data.
    The ancestor problem at d2=1 is closed; the unique-carrier mate
    problem remains. Continue the d2=2 incidence and e=0 (3,6) residual.
    The [intrinsic defective-triple reduction](notes/2026-10-07-session-mf6-e1-defective-structural.md)
    identifies the correct cubic-class twist, a five-by-three quadratic
    annihilator for (1,3), five vanishing coefficients for (2,2), the
    preceding sextic direction locus and six exact endpoint triples.
-2. The normal, (P2,O(2)) and smooth rational quartic-scroll carrier
-   classes are excluded. Investigate the other smooth polarization
-   classes and singular normalizations with full inverse-image support.
+2. The normal, every smooth-normalization and every genus-zero quartic
+   carrier class is excluded. Nonrational normalization cannot contain
+   C0. Investigate the remaining rational singular normalizations:
+   genus one with exactly 4A1 or A3+2A1 and even mate degree, or
+   genus two. Reconstruct other four-A1 projections and A3+2A1
+   conductor descent while retaining full inverse-image support.
    Preserve the semi-log-canonical restriction in modern classification
    summaries; do not import the scroll ACM conductor classification
    as a classification of all quartic surfaces.

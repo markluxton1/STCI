@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/computations/verify_session_genus_one_entire_conductor_2026_10_09.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-genus-one-conductor/root-replay/isolated",
+  "exit_code": 0,
+  "observed_subprocess_seconds": 0.40995833300985396,
+  "files": {
+    "research/validation/2026-10-09-genus-one-conductor/root-replay/isolated/research/computations/verify_session_genus_one_entire_conductor_2026_10_09.py": "19e0c6bcb1db999dc95c8a640463ecd722ced43b0694037fe20835bb112ebd2f",
+    "research/validation/2026-10-09-genus-one-conductor/root-replay/isolated/research/notes/2026-10-09-session-genus-one-entire-conductor.md": "74d3d5d30d14aaa66d580bd425cb6bbddefb896fb029420340ba79c4196428bb",
+    "research/validation/2026-10-09-genus-one-conductor/root-replay/stdout.log": "ed70865619430bba35240a5d1caefae5db2146452a90110745bb26e58e4d42d1",
+    "research/validation/2026-10-09-genus-one-conductor/root-replay/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/validation/2026-10-09-genus-one-conductor/root-replay/isolated/research/scratch/session-genus-one-entire-conductor-2026-10-09.json": "700e0ac83877a4b9aa20f7de6505485fc5bdb6191bc108d78427ef5dbd1c4f52"
+  }
+}

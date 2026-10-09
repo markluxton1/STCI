@@ -1,5 +1,12 @@
 # Root reconciliation of the late October 8 results
 
+This is the completed October 8 batch record. The
+[October 9 acceptance](2026-10-09-session-results-acceptance.md)
+supersedes its remaining smooth-normalization language and gives
+the rationality, genus-one del Pezzo/D5 reductions and 630-point
+necessary principal mate bound. The historical 91/103 execution
+count below is preserved; the current index has 97/110.
+
 Date: 2026-10-08, America/New_York. Fixed C0 in characteristic zero.
 The universal STCI question and unrestricted C0 question remain OPEN.
 This note promotes completed proofs with their exact scopes; it does
@@ -135,7 +142,7 @@ that the owner's observation failed. No root process is claimed live
 from a source file or an intended command.
 
 The [reconciled index](../validation/2026-10-08-continuation-index/index.json)
-currently includes 91 distinct latest-PASS top-level sources and 103
+at this earlier checkpoint included 91 distinct latest-PASS top-level sources and 103
 explicitly indexed executions, including the four actual independent
 principal executions. The baseline was retained. Earlier failed checks
 and the superseded Veronese source-byte retention limitation remain

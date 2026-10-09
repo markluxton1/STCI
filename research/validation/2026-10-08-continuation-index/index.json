@@ -1,22 +1,24 @@
 {
-  "created_utc": "2026-10-09T11:25:38.971709+00:00",
+  "created_utc": "2026-10-09T17:57:52.312360+00:00",
   "status": "PASS: latest source revisions, execution logs and declared current snapshot hashes agree; one superseded historical source-byte loss is explicitly retained as a limitation",
   "scope": "Record integrity and explicit latest execution status only; not independent proof of the mathematical conclusions",
   "counts": {
     "retained_baseline_distinct_sources": 55,
     "retained_baseline_indexed_executions": 61,
-    "continuation_distinct_sources": 28,
-    "continuation_execution_records": 30,
+    "continuation_distinct_sources": 29,
+    "continuation_execution_records": 31,
     "continuation_historical_failed_records": 2,
     "separate_strengthened_veronese_revision_execution": 1,
     "separate_first_endpoint_countercheck_sources_and_executions": 1,
     "separate_principal_independent_sources_and_executions": 4,
     "separate_family2_independent_sources": 3,
     "separate_family2_explicit_executions": 6,
-    "combined_distinct_top_level_sources": 91,
-    "combined_latest_pass": 91,
-    "combined_explicitly_indexed_executions": 103,
-    "continuation_distinct_source_revisions": 30
+    "explicit_extension_additional_distinct_sources": 5,
+    "explicit_extension_execution_records": 6,
+    "combined_distinct_top_level_sources": 97,
+    "combined_latest_pass": 97,
+    "combined_explicitly_indexed_executions": 110,
+    "continuation_distinct_source_revisions": 31
   },
   "historical_failures": [
     {
@@ -172,6 +174,114 @@
       "log": "research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.log"
     }
   ],
+  "explicit_extension_execution_history": [
+    {
+      "source": "research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "source_sha256": "a513320aeeed37260151d209cd2d232ac321edb892d647b22395a06cb45a1ac8",
+      "snapshot_source": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 7.909,
+      "log": "research/validation/2026-10-09-mf6-weighted-candidate-audit/independent-countercheck.log",
+      "log_sha256": "061217ff3b5ecc72aeec7bd5aa0791a3b7299ac43a8865f35f2f1529b1743ce2",
+      "evidence": "Bounded independent coefficient/matrix/sample audit, not full contact syzygy suite or candidate-zero classification",
+      "equivalent_command_from_repository_root": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py"
+      ],
+      "cwd_recorded_in_original_manifest": false
+    },
+    {
+      "source": "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "source_sha256": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+      "snapshot_source": "research/validation/2026-10-09-four-A1-family-audit/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5801666670013219,
+      "log": "research/validation/2026-10-09-four-A1-family-audit/owner-isolated-replay.log",
+      "log_sha256": "7cdc312c598256fab1330df90bf1ac1ba223e4d3b845cff93df2bf001e807ff6",
+      "evidence": "Fresh independent-audit snapshot execution: owner"
+    },
+    {
+      "source": "research/validation/2026-10-09-four-A1-family-audit/countercheck.py",
+      "source_sha256": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+      "snapshot_source": "research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6508258751127869,
+      "log": "research/validation/2026-10-09-four-A1-family-audit/independent-isolated-replay.log",
+      "log_sha256": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+      "evidence": "Fresh independent-audit snapshot execution: independent"
+    },
+    {
+      "source": "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "source_sha256": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+      "snapshot_source": "research/validation/2026-10-09-four-A1-root-replay/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-root-replay/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.603,
+      "log": "research/validation/2026-10-09-four-A1-root-replay/replay.log",
+      "log_sha256": "30a8bcdd42e87007f771100aab93c3f5f28b20ed633ff3015995cef5518f3ddf",
+      "output_sha256": {
+        "research/validation/2026-10-09-four-A1-root-replay/isolated/research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0"
+      }
+    },
+    {
+      "source": "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "source_sha256": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 3.059,
+      "log": "research/validation/2026-10-09-D5-root-audit/verify_delpezzo_D5_torsion_filter_2026_10_09.log",
+      "log_sha256": "b13bd9eb5b84aef3d6b98a389927efaa2ca94ce0865620799ac2f01c4813e51a",
+      "isolated": true,
+      "evidence": "Frozen D5 owner replay or independent signed-partition root countercheck; written proof separately audited by root"
+    },
+    {
+      "source": "research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "source_sha256": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/validation/2026-10-09-D5-root-audit/countercheck.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.091,
+      "log": "research/validation/2026-10-09-D5-root-audit/countercheck.log",
+      "log_sha256": "2bc1a6b8f5c909b2a1bbefff2024a5ccec120a72b6bbdb4b7474c5aeecc6ed1e",
+      "isolated": true,
+      "evidence": "Frozen D5 owner replay or independent signed-partition root countercheck; written proof separately audited by root"
+    }
+  ],
+  "preserved_prior_index": "research/validation/2026-10-08-continuation-index/index-seal-2026-10-09-91-sources-103-executions.json",
   "historical_revision_limits": [
     {
       "source": "research/computations/verify_session_veronese_pencils.py",
@@ -183,16 +293,17 @@
   ],
   "metadata_sha256": {
     "research/validation/2026-10-06-session/validation-index.json": "3e866598668e9c7d75a103baf87cc9395a9ac8114388c3c890ed3fb326b8c909",
-    "research/validation/2026-10-07-continuation/results.json": "2052e7d446f358c2ca040763d7585702cfdb16ca449454090debe5452d2f0312",
+    "research/validation/2026-10-07-continuation/results.json": "8e775bfff8a74c2b41fcc8dddf8345e2a5868c12e66f2ee5fa392be0332696a9",
     "research/validation/2026-10-07-continuation/veronese-strengthening-result-2026-10-08.json": "b0ca6d797fcc2388ae49c547bdfca3fe344ba0c6bde76b72df2245f0c5d8fda1",
     "research/validation/2026-10-07-continuation/conormal-completed-input-closure-2026-10-08.json": "8a8356c8189a087dc04aea751c32ef4a348235fd3608e56319181994f214e1cf",
     "research/validation/2026-10-07-continuation/elliptic-source-repair-2026-10-08.json": "586288eea13f334993292a565190b554c8531404bc00af6d06c3c2971521290c",
     "research/validation/2026-10-07-continuation/input-manifest.json": "f72d71c07c9c0994445e8ed3682157616948f7219b0e9f15cf4845609581736b",
-    "research/validation/2026-10-07-continuation/snapshot-final-hashes.json": "e54c4d33e7528120abdd1965254de464902a000f2cfc42a441df46a8078056ea",
+    "research/validation/2026-10-07-continuation/snapshot-final-hashes.json": "55f076afba97d5b7d635bb139c2f7ab69f2c0d66d766cab3e0d035d137bb526c",
     "research/validation/2026-10-08-first-endpoint-audit/audit-manifest.json": "b4f6061857de5063a1359b725aa0285435036e0807036c30cceee14530a848b5",
     "research/validation/2026-10-08-principal-e1-d1-audit/audit-manifest.json": "1fb914f890b9c63d4cfe22b6d50cec8634748d9a0d67ee44e009dfb5663f7901",
     "research/validation/2026-10-08-family2-quadratic-audit/audit-manifest.json": "206b6e8265f1d478a66cf6ce13fdfec0feed590f7ba76f0f69deb5a245999b8b",
     "research/validation/2026-10-07-continuation/addition-manifest-1.json": "6ac2cab4196eada070df0f0e1d61c4527096a259ec53ddb39fc33b5d5766bc6a",
+    "research/validation/2026-10-07-continuation/addition-manifest-10.json": "7813cfaf6c687cb0e7a850ed7861b1f930e1abba1eecdc2fb723c8747bd1638d",
     "research/validation/2026-10-07-continuation/addition-manifest-2.json": "482a123dcb7cd06dcfb8e7c30824a431528b23407f756a9761c021a9885b4563",
     "research/validation/2026-10-07-continuation/addition-manifest-3.json": "97963b806fe63493e1a08394e2facab77bfe76c0963e561595906f4fd841d8bd",
     "research/validation/2026-10-07-continuation/addition-manifest-4.json": "2cd3eff8fea5d5ef241eaa50e60c93350879354d5884120dcf58754d6819e47f",
@@ -200,7 +311,15 @@
     "research/validation/2026-10-07-continuation/addition-manifest-6.json": "1fd4c249a79c530f0a48a02f6608193899ccedc85fee8252fff581816f2c25a1",
     "research/validation/2026-10-07-continuation/addition-manifest-7.json": "8c8affee94d92f05734e49e55083e453bccd64ca9022aa6bae93003b645c6ea7",
     "research/validation/2026-10-07-continuation/addition-manifest-8.json": "7ec231af579d21e71b18cc28f9cc0e5ec1079fc10848f675a2431a3665ac6e18",
-    "research/validation/2026-10-07-continuation/addition-manifest-9.json": "36216f7e1087154e78f8acd3fadaccb042768f8c1c8fa6060f33edb89106be09"
+    "research/validation/2026-10-07-continuation/addition-manifest-9.json": "36216f7e1087154e78f8acd3fadaccb042768f8c1c8fa6060f33edb89106be09",
+    "research/validation/2026-10-07-continuation/weighted-candidate-input-closure-2026-10-09.json": "aafac0afe667ebf7f9c4c1f9d3c41732c54e133a224773289410d75d8387c0d1",
+    "research/validation/2026-10-08-continuation-index/explicit-extra-replays.json": "df9c1f2db8963d14708cc2ce52c002ec528e96789ac2960fe738ae7bb0fc0eed",
+    "research/validation/2026-10-09-mf6-weighted-candidate-audit/audit-manifest.json": "61f5da992f99b20cba922daa0930cacda89e8fdec0c1d24607c55d08a62c82b8",
+    "research/validation/2026-10-09-four-A1-family-audit/isolated-replay-manifest.json": "4fba715ec4cb041c0c8ba9bd6c19427b2f09174733a451f81d7f7e71c0295911",
+    "research/validation/2026-10-09-four-A1-root-replay/result.json": "78343566f66e2c10d7c116dc236b36e5384acfd0f0c8b082675ddcf3b88953a8",
+    "research/validation/2026-10-09-D5-root-audit/replay-manifest.json": "48cf74696d7d72cd60181ac8da8fbe6b6d046cc854cccafb25f3ad0ba9cf57e3",
+    "research/validation/2026-10-09-D5-root-audit/audit-manifest.json": "099ea1eb87597bc1f4cb01505de76d11dfe5cd614dec3e4dc0a6e4071aad3d27",
+    "research/validation/2026-10-09-four-A1-family-audit/audit-manifest.json": "eb5627c5cab79345834d0203e5a13e14d3d9eca6c5cc530edb9b6951994c1521"
   },
   "execution_integrity_checks": [
     {
@@ -502,6 +621,16 @@
       "exact_historical_snapshot_retained": true,
       "log": "research/validation/2026-10-07-continuation/verify_session_scroll_nongorenstein_cubic_2026_10_08.log",
       "log_sha256": "46c65af3f15f0a9351aa2b973e22347d62b144afd54e4fdceede820661f2e3c7"
+    },
+    {
+      "source": "research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py",
+      "status": "PASS",
+      "snapshot_source": "research/validation/2026-10-07-continuation/isolated/research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py",
+      "recorded_source_sha256": "78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a93e17370",
+      "observed_snapshot_source_sha256": "78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a93e17370",
+      "exact_historical_snapshot_retained": true,
+      "log": "research/validation/2026-10-07-continuation/verify_session_mf6_principal_weighted_candidate_2026_10_09.log",
+      "log_sha256": "26bf6c73322d74a58e8ffcd46dbcac71530e1555f29618fdeb201d911782108d"
     },
     {
       "source": "research/computations/verify_session_veronese_pencils.py",
@@ -1410,6 +1539,22 @@
       "evidence": "continuation isolated replay; latest source revision"
     },
     {
+      "source": "research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py",
+      "source_sha256": "78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a93e17370",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 25.463,
+      "log": "research/validation/2026-10-07-continuation/verify_session_mf6_principal_weighted_candidate_2026_10_09.log",
+      "log_sha256": "26bf6c73322d74a58e8ffcd46dbcac71530e1555f29618fdeb201d911782108d",
+      "evidence": "continuation isolated replay; latest source revision"
+    },
+    {
       "source": "research/validation/2026-10-08-first-endpoint-audit/countercheck.py",
       "source_sha256": "4fb9d7cf4b0a119bc8bfd0b1d5bb3a4bece08948bb9d44f505d3091ce2e74df0",
       "status": "PASS",
@@ -1487,9 +1632,98 @@
       "evidence": "independent family2 quadratic audit; exact fields and literal actual tensor",
       "log": "research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.log",
       "log_sha256": "31188e3f9f4940157ed8286c3c3a9ef5a0cc94fa8a95ca299ab6183ee17c4700"
+    },
+    {
+      "source": "research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "source_sha256": "a513320aeeed37260151d209cd2d232ac321edb892d647b22395a06cb45a1ac8",
+      "snapshot_source": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 7.909,
+      "log": "research/validation/2026-10-09-mf6-weighted-candidate-audit/independent-countercheck.log",
+      "log_sha256": "061217ff3b5ecc72aeec7bd5aa0791a3b7299ac43a8865f35f2f1529b1743ce2",
+      "evidence": "Bounded independent coefficient/matrix/sample audit, not full contact syzygy suite or candidate-zero classification",
+      "equivalent_command_from_repository_root": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py"
+      ],
+      "cwd_recorded_in_original_manifest": false
+    },
+    {
+      "source": "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "source_sha256": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+      "snapshot_source": "research/validation/2026-10-09-four-A1-root-replay/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-root-replay/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.603,
+      "log": "research/validation/2026-10-09-four-A1-root-replay/replay.log",
+      "log_sha256": "30a8bcdd42e87007f771100aab93c3f5f28b20ed633ff3015995cef5518f3ddf",
+      "output_sha256": {
+        "research/validation/2026-10-09-four-A1-root-replay/isolated/research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0"
+      },
+      "evidence": "explicit extra fresh execution"
+    },
+    {
+      "source": "research/validation/2026-10-09-four-A1-family-audit/countercheck.py",
+      "source_sha256": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+      "snapshot_source": "research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated/research/validation/2026-10-09-four-A1-family-audit/countercheck.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-family-audit/isolated",
+      "isolated": true,
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6508258751127869,
+      "log": "research/validation/2026-10-09-four-A1-family-audit/independent-isolated-replay.log",
+      "log_sha256": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+      "evidence": "Fresh independent-audit snapshot execution: independent"
+    },
+    {
+      "source": "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "source_sha256": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 3.059,
+      "log": "research/validation/2026-10-09-D5-root-audit/verify_delpezzo_D5_torsion_filter_2026_10_09.log",
+      "log_sha256": "b13bd9eb5b84aef3d6b98a389927efaa2ca94ce0865620799ac2f01c4813e51a",
+      "isolated": true,
+      "evidence": "Frozen D5 owner replay or independent signed-partition root countercheck; written proof separately audited by root"
+    },
+    {
+      "source": "research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "source_sha256": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/validation/2026-10-09-D5-root-audit/countercheck.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.091,
+      "log": "research/validation/2026-10-09-D5-root-audit/countercheck.log",
+      "log_sha256": "2bc1a6b8f5c909b2a1bbefff2024a5ccec120a72b6bbdb4b7474c5aeecc6ed1e",
+      "isolated": true,
+      "evidence": "Frozen D5 owner replay or independent signed-partition root countercheck; written proof separately audited by root"
     }
   ],
-  "snapshot_final_manifest_verified_files": 242,
+  "snapshot_final_manifest_verified_files": 247,
   "limits": [
     "Baseline historical logs without recorded hashes are sealed as observed now, not retroactively claimed to have original log hashes.",
     "Independent e1,d2=4 source-byte replay is retained as supplementary evidence and not inflated into another distinct source.",

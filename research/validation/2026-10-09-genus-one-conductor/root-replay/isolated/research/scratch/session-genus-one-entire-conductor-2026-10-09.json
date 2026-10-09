@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "field": "Q with independent symbolic parameters",
+  "checks": {
+    "actual_RNC_quadric_0": true,
+    "actual_RNC_quadric_1": true,
+    "actual_RNC_quadric_2": true,
+    "actual_RNC_quadric_3": true,
+    "actual_RNC_quadric_4": true,
+    "actual_RNC_quadric_5": true,
+    "normalized_first_quadric": true,
+    "normalized_second_quadric": true,
+    "elimination_identity": true,
+    "conductor_Lz": true,
+    "conductor_Rz": true,
+    "trace_involution": true,
+    "curve_R_restriction": true,
+    "curve_R1_restriction": true,
+    "middle_coefficient_L": true,
+    "middle_coefficient_other_root": true,
+    "Hilbert_series_exact_module": true
+  },
+  "check_count": 17,
+  "scope": "entire conductor algebra and fixed-C0 identities; no global STCI conclusion"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-09T18:23:13.649396+00:00",
+  "duration_seconds": 0.40701458300463855,
+  "exit_code": 0,
+  "source_original": "/Users/markluxton/Projects/STCI/research/computations/verify_session_genus_one_entire_conductor_2026_10_09.py",
+  "source_snapshot": "/Users/markluxton/Projects/STCI/validation/2026-10-09-genus-one-conductor-algebra-independent/verify_session_genus_one_entire_conductor_2026_10_09.py",
+  "source_sha256": "19e0c6bcb1db999dc95c8a640463ecd722ced43b0694037fe20835bb112ebd2f",
+  "original_source_sha256_after": "19e0c6bcb1db999dc95c8a640463ecd722ced43b0694037fe20835bb112ebd2f",
+  "snapshot_unchanged": true,
+  "output": "/Users/markluxton/Projects/STCI/validation/2026-10-09-genus-one-conductor-algebra-independent/research/scratch/session-genus-one-entire-conductor-2026-10-09.json",
+  "output_sha256": "700e0ac83877a4b9aa20f7de6505485fc5bdb6191bc108d78427ef5dbd1c4f52",
+  "stdout_sha256": "ed70865619430bba35240a5d1caefae5db2146452a90110745bb26e58e4d42d1",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "/Users/markluxton/Projects/STCI/validation/2026-10-09-genus-one-conductor-algebra-independent/verify_session_genus_one_entire_conductor_2026_10_09.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/validation/2026-10-09-genus-one-conductor-algebra-independent",
+  "report": {
+    "status": "PASS",
+    "field": "Q with independent symbolic parameters",
+    "checks": {
+      "actual_RNC_quadric_0": true,
+      "actual_RNC_quadric_1": true,
+      "actual_RNC_quadric_2": true,
+      "actual_RNC_quadric_3": true,
+      "actual_RNC_quadric_4": true,
+      "actual_RNC_quadric_5": true,
+      "normalized_first_quadric": true,
+      "normalized_second_quadric": true,
+      "elimination_identity": true,
+      "conductor_Lz": true,
+      "conductor_Rz": true,
+      "trace_involution": true,
+      "curve_R_restriction": true,
+      "curve_R1_restriction": true,
+      "middle_coefficient_L": true,
+      "middle_coefficient_other_root": true,
+      "Hilbert_series_exact_module": true
+    },
+    "check_count": 17,
+    "scope": "entire conductor algebra and fixed-C0 identities; no global STCI conclusion"
+  },
+  "scope": "independent bounded replay of algebraic identities; not application coverage"
+}

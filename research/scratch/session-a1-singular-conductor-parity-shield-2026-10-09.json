@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "local/affine A1 singular-conductor parity shield; not a projective C0 mate",
+  "normalization_equation": "l*x + x**2 - z**2",
+  "affine_carrier_equation": "l**2*w - l**2*z**2 + w**2",
+  "birational_inverse": "x=w/l",
+  "actual_conductor_downstairs": [
+    "l",
+    "w"
+  ],
+  "actual_conductor_upstairs": "l",
+  "upstairs_conductor": "x^2-z^2=0",
+  "trace_involution": "x -> -x, z -> z",
+  "half_curve_section": "Q=x, div(Q)=2c",
+  "anti_invariant_branch_orders": [
+    1,
+    1
+  ],
+  "descended_square": "G=z^2-w, pullback G=x^2, div(pullback G)=4c"
+}

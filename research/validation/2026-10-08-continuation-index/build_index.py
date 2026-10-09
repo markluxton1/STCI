@@ -26,6 +26,8 @@ strength=read(CONT/'veronese-strengthening-result-2026-10-08.json')
 endpoint=read(END/'audit-manifest.json')
 principal=read(PRINCIPAL/'audit-manifest.json')
 family2=read(FAMILY2/'audit-manifest.json')
+extension_path=HERE/'explicit-extra-replays.json'
+extension=read(extension_path) if extension_path.exists() else None
 latest={row['source']:row for row in rows}
 latest[strength['source']]=strength
 assert len(latest)==len({row['source'] for row in rows})
@@ -145,6 +147,27 @@ closure=read(CONT/'conormal-completed-input-closure-2026-10-08.json')
 note='research/notes/2026-10-07-session-localcoh-conormal-splitting.md'
 assert sha(CONT/'isolated'/note)==closure[note]
 
+# Extra completed records are named explicitly by a reviewed registry.
+# Multiple executions of one source are retained without multiplying the
+# distinct-source count. Pending files and discovered scripts are excluded.
+extension_rows=[]
+extension_new_sources=set()
+if extension is not None:
+    assert sha(ROOT/extension['preserved_prior_index'])==extension['preserved_prior_index_sha256']
+    for name,expected in extension['metadata_sha256'].items():
+        assert sha(ROOT/name)==expected,name
+    for name,expected in extension['bound_input_sha256'].items():
+        assert sha(ROOT/name)==expected,name
+    prior_sources=set(all_latest)
+    for row in extension['executions']:
+        assert row['status']=='PASS' and row['exit_code']==0,row['source']
+        assert sha(ROOT/row['source'])==row['source_sha256'],row['source']
+        assert sha(ROOT/row['snapshot_source'])==row['source_sha256'],row['snapshot_source']
+        assert sha(ROOT/row['log'])==row['log_sha256'],row['log']
+        extension_rows.append(row)
+        all_latest[row['source']]={**row,'evidence':row.get('evidence','explicit extra fresh execution')}
+    extension_new_sources={row['source'] for row in extension_rows}-prior_sources
+
 metadata=[BASE/'validation-index.json',CONT/'results.json',
           CONT/'veronese-strengthening-result-2026-10-08.json',
           CONT/'conormal-completed-input-closure-2026-10-08.json',
@@ -152,6 +175,14 @@ metadata=[BASE/'validation-index.json',CONT/'results.json',
           CONT/'input-manifest.json',CONT/'snapshot-final-hashes.json',END/'audit-manifest.json',
           PRINCIPAL/'audit-manifest.json',FAMILY2/'audit-manifest.json']
 metadata+=sorted(CONT.glob('addition-manifest-*.json'))
+if (CONT/'weighted-candidate-input-closure-2026-10-09.json').exists():
+    weighted_closure=read(CONT/'weighted-candidate-input-closure-2026-10-09.json')
+    for name,expected in weighted_closure.items():
+        assert sha(CONT/'isolated'/name)==expected,name
+    metadata.append(CONT/'weighted-candidate-input-closure-2026-10-09.json')
+if extension is not None:
+    metadata.append(extension_path)
+    metadata.extend(ROOT/name for name in extension['metadata_sha256'])
 report={
     'created_utc':datetime.now(timezone.utc).isoformat(),
     'status':'PASS: latest source revisions, execution logs and declared current snapshot hashes agree; one superseded historical source-byte loss is explicitly retained as a limitation',
@@ -167,13 +198,17 @@ report={
         'separate_principal_independent_sources_and_executions':len(principal_runs),
         'separate_family2_independent_sources':len(family2_runs),
         'separate_family2_explicit_executions':len(family2_history)+2,
+        'explicit_extension_additional_distinct_sources':len(extension_new_sources),
+        'explicit_extension_execution_records':len(extension_rows),
         'combined_distinct_top_level_sources':len(all_latest),
         'combined_latest_pass':len(all_latest),
-        'combined_explicitly_indexed_executions':baseline['complete_top_level_verifier_exporter_executions']+len(rows)+2+len(principal_runs)+len(family2_history)+2,
+        'combined_explicitly_indexed_executions':baseline['complete_top_level_verifier_exporter_executions']+len(rows)+2+len(principal_runs)+len(family2_history)+2+len(extension_rows),
         'continuation_distinct_source_revisions':len({(row['source'],row['source_sha256']) for row in rows+[strength]}),
     },
     'historical_failures':[row for row in rows if row['status']=='FAILED'],
     'family2_tensor_execution_history':family2_history,
+    'explicit_extension_execution_history':extension_rows,
+    'preserved_prior_index':extension['preserved_prior_index'] if extension is not None else None,
     'historical_revision_limits':historical_revision_limits,
     'metadata_sha256':{str(p.relative_to(ROOT)):sha(p) for p in metadata},
     'execution_integrity_checks':checks,

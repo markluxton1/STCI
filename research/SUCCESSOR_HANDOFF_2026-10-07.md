@@ -8,8 +8,10 @@ problem remain unresolved.
 
 ## Live checkpoint
 
-The current branch is `research/ultra-resume-2026-10-06`. The retained
-October 6 interruption commit is `3ffda7548a863387429adab61eefe02575e86297`.
+The current branch is `research/ultra-resume-2026-10-06`. Live inspection
+found HEAD `e7c9c9594795271ff2c1b0a9026955523975e7d7`, title
+`2026-10-09 morning limit reached`. The retained October 6 interruption
+commit `3ffda7548a863387429adab61eefe02575e86297` is historical.
 Inspect `git status` and current sources before trusting any older hash.
 No changes were reset or wholesale research branches merged in this
 continuation. The current notes and exact outputs are continuation data.
@@ -45,6 +47,15 @@ exact Artin and differential arguments exhaust the nongorenstein cubic
 schemes as well. See the
 [late root acceptance](notes/2026-10-08-session-late-results-acceptance.md)
 and [full independent scroll audit](notes/2026-10-08-session-scroll-nongorenstein-independent-audit.md).
+The [October 9 acceptance](notes/2026-10-09-session-results-acceptance.md)
+now closes every sectional-genus-zero and every smooth-normalization
+quartic carrier in all mate degrees. Every nonnormal quartic containing
+C0 has rational normalization, without assuming a mate. Genus one is
+a degree-four ADE del Pezzo model; the necessary D5 torsion filter
+leaves only 4A1 and A3+2A1 and even mate degrees. A uniform four-A1
+family is excluded by extra normalization points, but other projections
+of that type and A3+2A1 remain open. Genus-two rational normalizations
+also remain open.
 
 The normal theorem does not imply that arbitrary quartic carriers are
 excluded. The historical broad e=2 theorem does not imply that larger
@@ -65,8 +76,13 @@ does not imply an embedded global STCI pair.
    `YE^2=XE^3+96XE-448`; the unique-carrier family has a finite proper
    closed nonnormal subset. Determine that exact finite carrier locus,
    keeping ancestor rank conditions distinct from all-mate exclusions.
-   The new weighted polynomial kernel has saved degree9,9,10 generator
-   leads; verify its current source/output status before using it.
+   The weighted polynomial generators of degrees 9,9,10 and actual
+   first-normal octic are verified. A fixed degree-210 binary-gradient
+   determinant gives at most 630 distinct principal necessary mate
+   parameters on the declared contact open. The exact zero list and
+   the carriers at those zeros remain open. It is not the exact
+   nonnormal locus. Use the [proof and audits](notes/2026-10-09-session-mf6-principal-weighted-candidate.md)
+   and keep zero-generator and infinity multiple-root fibers.
    All complement carriers, including p=8,r=1/2, are excluded in every
    mate degree. The generic principal carrier problem remains open.
 2. Continue the local-cohomology endpoint families using the saved
@@ -103,11 +119,18 @@ does not imply an embedded global STCI pair.
    [classification and exact Artin proof](notes/2026-10-08-session-scroll-nongorenstein-cubic-classification.md),
    [independent Artin audit](notes/2026-10-08-session-scroll-artin-independent-audit.md)
    and [differential lemma](notes/2026-10-08-session-normalization-differential-independent-audit.md).
-   Focus on other smooth polarized normalizations and singular
-   normalizations. A smooth lift passing through a singular normalization
-   point is not excluded by adjunction for a lift avoiding singularities.
-   Do not treat the ACM cubic classification as a classification of all
-   nonnormal quartic surfaces.
+   Every smooth normalization and the entire genus-zero lane are now
+   excluded, and nonrational normalizations cannot contain C0 at all.
+   Focus on rational singular normalizations: genus one has only the
+   complete types 4A1 and A3+2A1 after the del Pezzo/D5 proofs; genus
+   two remains open. Reconstruct all four-A1 projections and the
+   A3+2A1 conductor before claiming those types exhausted. The displayed
+   four-A1 family fixes two singular passages at C0 endpoints and is
+   not the whole type. A smooth lift at a singular normalization point
+   may be non-Cartier even though b c is Cartier; the local
+   countershield is an actual degree-two projective curve, not a
+   C0 counterexample. Do not transfer the ACM cubic classification
+   beyond its proved smooth-scroll hypotheses.
 4. The uniform e=2 b=9,10,11 defect profiles require an actual quartic
    contact incidence and a degree-one obstruction annihilator. The
    six Hankel minors and degree-sixteen determinant are saved in
@@ -137,14 +160,17 @@ proof or full parameter exhaustion.
 
 Use the newer [validation index](validation/2026-10-08-continuation-index/index.json)
 and [October 8 checkpoint](notes/2026-10-08-session-checkpoint.md) for the
-complete continuation counts (91 latest-PASS sources and 103 indexed
+complete continuation counts (97 latest-PASS sources and 110 indexed
 executions), retained failures, interrupted-agent state,
 and the explicit superseded Veronese-source retention limitation. All
 agents have stopped at usage limits and subsequently resumed after
 verified resets. At 2026-10-09 11:25:38 UTC the next reset had passed;
 live usage allowed ordinary work and the finite-carrier and singular
-normalization agents resumed. Assignments without completed evidence
-are not results. Root did not mark the global goal complete.
+normalization agents resumed. They later stopped at the weekly usage
+limit, reporting October 14 at 8:24 AM local. Root preserved their
+completed records and separately finished the D5 proof reconstruction
+and record seal; no reset credit was used. Assignments without completed
+evidence are not results. Root did not mark the global goal complete.
 
 If a tool or agent stops, inspect its current process/session handle
 and final artifact status. An .m2 input file or an intended run is not

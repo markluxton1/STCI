@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "rnc_quadratic_ideal_rank": 6,
+  "uniform_middle_coefficients": {
+    "Lc": 0,
+    "Dc": 2
+  },
+  "normal_gradient_rows_verified": true,
+  "completed_square_verified": true,
+  "isolated_rank_one_local_countershield_verified": true,
+  "A3_two_A1_family_coefficient_determinant": "delta**2*gamma**2*(alpha*delta - beta*gamma)**3",
+  "A3_two_A1_normalized_conductor_discriminant": -1728,
+  "source_sha256": "75279f8ef870b1561cb3da0cbeb4b70e693655e1226bc45c46f0aab7ee8aa4f0",
+  "scope": "Displayed identities and family; no full projection exhaustion or global STCI claim."
+}
