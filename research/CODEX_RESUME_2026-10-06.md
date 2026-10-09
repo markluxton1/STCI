@@ -1,3 +1,5 @@
+> Historical resume handoff. Continue from [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md); the dx=1 gap below is now closed and the e=2 and normal-carrier scopes have been updated.
+
 # Codex resume handoff — 2026-10-06
 
 This branch resumes the interrupted `ultra_mode` research workspace on top of the independently audited main branch.

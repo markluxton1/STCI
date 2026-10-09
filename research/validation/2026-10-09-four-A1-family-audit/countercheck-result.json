@@ -1,0 +1,33 @@
+{
+  "status": "PASS universal polynomial identities; geometric proof in independent audit note",
+  "scope": "Characteristic zero, alpha*beta*gamma*delta*(alpha*delta-beta*gamma) nonzero",
+  "coordinate_change_determinant": "alpha*beta*delta*gamma*(alpha*delta - beta*gamma)**3",
+  "projection_center_Q1": "-(alpha*delta-beta*gamma)^2",
+  "cancelled_quadric_coefficient": "(-alpha*beta*delta*gamma + (alpha*delta + beta*gamma)**2)/(alpha*delta - beta*gamma)**2",
+  "L": "Y0*alpha**2*gamma**2 - Y1*alpha*gamma*(alpha*delta + beta*gamma) - Y3*beta*delta*(alpha*delta + beta*gamma) + Y4*beta**2*delta**2",
+  "R": "Y0*Y3*alpha*gamma*(alpha*delta + beta*gamma) + Y0*Y4*alpha*beta*delta*gamma - Y1**2*alpha**2*gamma**2 - Y1*Y3*alpha*beta*delta*gamma + Y1*Y4*beta*delta*(alpha*delta + beta*gamma) - Y3**2*beta**2*delta**2",
+  "image_quartic_nonzero_coefficient_x0_squared_x3_squared": "alpha**2*beta**2*delta**2*gamma**2",
+  "uniform_resultant_equals_Delta_to_four_times_F": true,
+  "curve_is_linear_transform_of_standard_RNC": true,
+  "curve_lies_on_both_quadrics": true,
+  "projected_curve_is_fixed_C0": true,
+  "standard_surface_singular_locus_exactly_four_axes": true,
+  "all_four_singularities_have_A1_local_models": true,
+  "curve_passes_all_four_singularities": true,
+  "quotient_cover_quadric_section_pulls_back_to_odd_square": true,
+  "quadric_section_vanishes_on_actual_RNC": true,
+  "odd_curve_branch_equation_verified": true,
+  "L_curve_endpoint_coefficients": [
+    "alpha**2*gamma**2",
+    "beta**2*delta**2"
+  ],
+  "R_curve_equals_minus_U_squared_V_squared_L_curve": true,
+  "negative_lift_satisfies_Q1": true,
+  "negative_lift_Q2_equals_minus_twice_U_squared_V_squared_L_curve": true,
+  "negative_lift_violates_RNC_quadric_by": "-2*U^6*V^2",
+  "no_assumption_m_nonzero": true,
+  "no_assumption_cancelled_quadric_coefficient_nonzero": true,
+  "uniform_parameter_identities_without_samples": true,
+  "does_not_claim_all_singular_normalizations_or_all_four_A1_embeddings": true,
+  "source_sha256": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c"
+}

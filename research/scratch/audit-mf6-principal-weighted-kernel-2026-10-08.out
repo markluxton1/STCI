@@ -1,0 +1,4 @@
+PASS exact homogeneous generator 0 degree 9
+PASS exact homogeneous generator 1 degree 9
+PASS exact homogeneous generator 2 degree 10
+SAVED exact polynomial projective carrier syzygies; choose nonzero column or retain base fibers

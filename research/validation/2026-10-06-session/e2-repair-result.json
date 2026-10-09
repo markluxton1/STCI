@@ -1,0 +1,14 @@
+{
+  "source": "research/computations/verify_e2_quartic_incidence.py",
+  "source_sha256_before": "66a725a4fa44038f183319a2c77e3fa64ca42dccf9d9a4d06e5b1f4d1a17dad3",
+  "source_sha256_after": "cb210f61e9a154c8a9d1c1a388e75e1a02a3c89b13bfd8157c1bce942c6e8559",
+  "change": "Check exact polynomiality over QQ rather than literal denom1; same J2 entries and mathematical scope.",
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/computations/verify_e2_quartic_incidence.py"
+  ],
+  "exit_code": 0,
+  "status": "PASS",
+  "elapsed_seconds": 13.941,
+  "log": "research/validation/2026-10-06-session/verify_e2_quartic_incidence_repaired.log"
+}

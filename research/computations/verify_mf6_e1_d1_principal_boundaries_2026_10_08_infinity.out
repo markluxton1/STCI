@@ -1,0 +1,2 @@
+b0zero_cubic_orbit rank 34 dimension 1 delta z*(-8*CRootOf(t**3 - 4*t**2 + 3*t - 9, 0)**2 - 24*CRootOf(t**3 - 4*t**2 + 3*t - 9, 0)) + 24 + 32*CRootOf(t**3 - 4*t**2 + 3*t - 9, 0)
+PASS complete quartic spaces in requested exceptional chart scope

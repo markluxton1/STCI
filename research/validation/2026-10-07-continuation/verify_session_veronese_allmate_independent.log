@@ -1,0 +1,7 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_veronese_allmate_independent.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: Jordan2 full exceptional fiber, sole allowed singleton and
+transverse differential; Jordan3 endpoint differentials, actual
+first-jet involution fixing the image ring, and arbitrary-even-degree
+coefficient contradiction. Global hypotheses remain in the audit note.

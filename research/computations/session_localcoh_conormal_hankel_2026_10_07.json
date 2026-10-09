@@ -1,0 +1,431 @@
+{
+  "scope": "Necessary intrinsic conormal splitting for a common quartic ancestor on characteristic-zero C0",
+  "splitting": "V(4)=O(2)+O(2e+2), e=0,1,2",
+  "status": "EXACT STRUCTURAL REDUCTION; actual ambient extension classes not evaluated",
+  "rows": [
+    {
+      "e": 1,
+      "d2": 1,
+      "d3": 4,
+      "extension_line_degree": -8,
+      "extension_dimension": 7,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2",
+          "c3",
+          "c4"
+        ],
+        [
+          "c2",
+          "c3",
+          "c4",
+          "c5"
+        ],
+        [
+          "c3",
+          "c4",
+          "c5",
+          "c6"
+        ],
+        [
+          "c4",
+          "c5",
+          "c6",
+          "c7"
+        ]
+      ],
+      "required_rank": 3,
+      "determinant_equation": "c1*c3*c5*c7 - c1*c3*c6**2 - c1*c4**2*c7 + 2*c1*c4*c5*c6 - c1*c5**3 - c2**2*c5*c7 + c2**2*c6**2 + 2*c2*c3*c4*c7 - 2*c2*c3*c5*c6 - 2*c2*c4**2*c6 + 2*c2*c4*c5**2 - c3**3*c7 + 2*c3**2*c4*c6 + c3**2*c5**2 - 3*c3*c4**2*c5 + c4**4",
+      "rank_open_condition": "some minor of size 3 is nonzero",
+      "required_split": "V(4)=O(2)+O(4)"
+    },
+    {
+      "e": 1,
+      "d2": 2,
+      "d3": 4,
+      "extension_line_degree": -6,
+      "extension_dimension": 5,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        [
+          "c2",
+          "c3",
+          "c4"
+        ],
+        [
+          "c3",
+          "c4",
+          "c5"
+        ]
+      ],
+      "required_rank": 2,
+      "determinant_equation": "c1*c3*c5 - c1*c4**2 - c2**2*c5 + 2*c2*c3*c4 - c3**3",
+      "rank_open_condition": "some minor of size 2 is nonzero",
+      "required_split": "V(4)=O(2)+O(4)"
+    },
+    {
+      "e": 1,
+      "d2": 3,
+      "d3": 4,
+      "extension_line_degree": -4,
+      "extension_dimension": 3,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2"
+        ],
+        [
+          "c2",
+          "c3"
+        ]
+      ],
+      "required_rank": 1,
+      "determinant_equation": "c1*c3 - c2**2",
+      "rank_open_condition": "some minor of size 1 is nonzero",
+      "required_split": "V(4)=O(2)+O(4)"
+    },
+    {
+      "e": 1,
+      "d2": 4,
+      "d3": 4,
+      "extension_line_degree": -2,
+      "extension_dimension": 1,
+      "connecting_matrix": [
+        [
+          "c1"
+        ]
+      ],
+      "required_rank": 0,
+      "determinant_equation": "c1",
+      "rank_open_condition": "all entries zero",
+      "required_split": "V(4)=O(2)+O(4)"
+    },
+    {
+      "e": 2,
+      "d2": 0,
+      "d3": 1,
+      "extension_line_degree": -6,
+      "extension_dimension": 5,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2"
+        ],
+        [
+          "c2",
+          "c3"
+        ],
+        [
+          "c3",
+          "c4"
+        ],
+        [
+          "c4",
+          "c5"
+        ]
+      ],
+      "required_rank": 1,
+      "required_split": "V(4)=O(2)+O(6)"
+    },
+    {
+      "e": 2,
+      "d2": 1,
+      "d3": 1,
+      "extension_line_degree": -4,
+      "extension_dimension": 3,
+      "connecting_matrix": [
+        [
+          "c1"
+        ],
+        [
+          "c2"
+        ],
+        [
+          "c3"
+        ]
+      ],
+      "required_rank": 0,
+      "required_split": "V(4)=O(2)+O(6)"
+    },
+    {
+      "e": 0,
+      "d2": 0,
+      "d3": 7,
+      "extension_line_degree": -14,
+      "extension_dimension": 13,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2",
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7"
+        ],
+        [
+          "c2",
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8"
+        ],
+        [
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8",
+          "c9"
+        ],
+        [
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8",
+          "c9",
+          "c10"
+        ],
+        [
+          "c5",
+          "c6",
+          "c7",
+          "c8",
+          "c9",
+          "c10",
+          "c11"
+        ],
+        [
+          "c6",
+          "c7",
+          "c8",
+          "c9",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        [
+          "c7",
+          "c8",
+          "c9",
+          "c10",
+          "c11",
+          "c12",
+          "c13"
+        ]
+      ],
+      "required_rank": 7,
+      "required_split": "V(4)=O(2)^2"
+    },
+    {
+      "e": 0,
+      "d2": 1,
+      "d3": 7,
+      "extension_line_degree": -12,
+      "extension_dimension": 11,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2",
+          "c3",
+          "c4",
+          "c5",
+          "c6"
+        ],
+        [
+          "c2",
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7"
+        ],
+        [
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8"
+        ],
+        [
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8",
+          "c9"
+        ],
+        [
+          "c5",
+          "c6",
+          "c7",
+          "c8",
+          "c9",
+          "c10"
+        ],
+        [
+          "c6",
+          "c7",
+          "c8",
+          "c9",
+          "c10",
+          "c11"
+        ]
+      ],
+      "required_rank": 6,
+      "required_split": "V(4)=O(2)^2"
+    },
+    {
+      "e": 0,
+      "d2": 2,
+      "d3": 7,
+      "extension_line_degree": -10,
+      "extension_dimension": 9,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2",
+          "c3",
+          "c4",
+          "c5"
+        ],
+        [
+          "c2",
+          "c3",
+          "c4",
+          "c5",
+          "c6"
+        ],
+        [
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7"
+        ],
+        [
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8"
+        ],
+        [
+          "c5",
+          "c6",
+          "c7",
+          "c8",
+          "c9"
+        ]
+      ],
+      "required_rank": 5,
+      "required_split": "V(4)=O(2)^2"
+    },
+    {
+      "e": 0,
+      "d2": 3,
+      "d3": 7,
+      "extension_line_degree": -8,
+      "extension_dimension": 7,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2",
+          "c3",
+          "c4"
+        ],
+        [
+          "c2",
+          "c3",
+          "c4",
+          "c5"
+        ],
+        [
+          "c3",
+          "c4",
+          "c5",
+          "c6"
+        ],
+        [
+          "c4",
+          "c5",
+          "c6",
+          "c7"
+        ]
+      ],
+      "required_rank": 4,
+      "required_split": "V(4)=O(2)^2"
+    },
+    {
+      "e": 0,
+      "d2": 4,
+      "d3": 7,
+      "extension_line_degree": -6,
+      "extension_dimension": 5,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        [
+          "c2",
+          "c3",
+          "c4"
+        ],
+        [
+          "c3",
+          "c4",
+          "c5"
+        ]
+      ],
+      "required_rank": 3,
+      "required_split": "V(4)=O(2)^2"
+    },
+    {
+      "e": 0,
+      "d2": 5,
+      "d3": 7,
+      "extension_line_degree": -4,
+      "extension_dimension": 3,
+      "connecting_matrix": [
+        [
+          "c1",
+          "c2"
+        ],
+        [
+          "c2",
+          "c3"
+        ]
+      ],
+      "required_rank": 2,
+      "required_split": "V(4)=O(2)^2"
+    },
+    {
+      "e": 0,
+      "d2": 6,
+      "d3": 7,
+      "extension_line_degree": -2,
+      "extension_dimension": 1,
+      "connecting_matrix": [
+        [
+          "c1"
+        ]
+      ],
+      "required_rank": 1,
+      "required_split": "V(4)=O(2)^2"
+    }
+  ],
+  "e0_d2_7": "extension group zero; intrinsic sequence is already split O(2)^2",
+  "retained_boundary": "e=1,d2=d3=4 requires zero extension, not excluded"
+}

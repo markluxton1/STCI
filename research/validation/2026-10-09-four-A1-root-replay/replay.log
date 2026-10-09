@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-root-replay/isolated
+
+PASS: uniform four-A1 family coordinates, quartic elimination, and full-fiber identities
+source sha256: 0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4
+report: /Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-root-replay/isolated/research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json

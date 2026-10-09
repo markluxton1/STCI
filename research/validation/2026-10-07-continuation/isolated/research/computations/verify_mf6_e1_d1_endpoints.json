@@ -1,0 +1,34 @@
+{
+  "status": "PASS complete six endpoint spaces and all-mate obstruction",
+  "scope": "Fixed C0, char0, e1,d2=1 with a0=0 or b1=0 only; principal direction sextic remains open",
+  "fibers": [
+    {
+      "side": "finite",
+      "half_rank": 31,
+      "half_cubic": "2*x0*x3**2 - 2*x1*x2*x3 + x1*x3**2 - x2**3",
+      "algebraic_rank": 34,
+      "algebraic_unique_quartic": "x0*x3**3 + x1*x2*x3**2*(r - 7/6) + x2**4*(1/6 - r) - x3*(r + 1/3)*(-x1*x3**2 + x2**3)"
+    },
+    {
+      "side": "infinity",
+      "half_rank": 31,
+      "half_cubic": "x0**2*x2 - x0**2*x3 + x0*x1*x2 - x1**3",
+      "algebraic_rank": 34,
+      "algebraic_unique_quartic": "x0**3*x3 - x0**2*x1*x2*(r + 3/2) - x0*(x0**2*x2 - x1**3) + x1**4*(r + 1/2)"
+    }
+  ],
+  "left_h": "z**8*(2*r + 2/3)",
+  "left_T": "8*r*z**4/9 + z**10*(5/16 - 3*r/4) + z**9*(37/16 - 3*r/2) + z**8*(23*r/8 + 235/48) + z**7*(11*r/2 + 59/24) + z**6*(-3*r/4 - 5/8) + z**5*(7/12 - 5*r/6)",
+  "right_h": "w**8",
+  "right_T": "w**10*(72*r + 24) + w**9*(72*r - 66) + w**8*(-126*r - 65) + w**7*(5 - 44*r) + w**6*(-5*r - 3/2) + w**5*(-29*r/9 - 7/6) + w**4*(-16*r/27 - 4/9)",
+  "localized_map": {
+    "X0": "u**3*(-u + v*(kappa + u + 1))/(kappa + u)",
+    "X1": "u**2*(-u + v*(kappa + u + 1))/(kappa + u)",
+    "X2": "v",
+    "X3": "1"
+  },
+  "cofactor": "kappa*u*v + kappa*v**2 - u**2 + u*v*(u + v)",
+  "unit_ratio_condition": "n+k=0, then (-kappa)^n=1 impossible norm1/3",
+  "source_sha256": "0ef2c76b094cd8cb80dca4baad6d0f694fe6a9617cccfd074ea01e4d52f93f31",
+  "sympy": "1.14.0"
+}

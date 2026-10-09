@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated-elliptic-repair
+
+PASS: principal sextic direction curve is birational to YE^2=XE^3+96XE-448.
+PASS: discriminant=-143327232, j=2048/3; geometric genus is one.
+OPEN: full contact rank-drop locus, exceptional frames, and STCI/ancestor conclusions.

@@ -1,5 +1,148 @@
 # Exact computation checks
 
+## Accepted sources through October 9 and their scope
+
+The [current audited state](../AUDITED_STATE_2026-10-07.md) and
+[integrated update](../RESEARCH_UPDATE_2026-10-07.md) control the
+mathematical frontier. Run only changed or relevant sources; a successful
+identity check is not a replacement for the linked geometric proof.
+
+- `verify_mf6_infinity_universal.py` reconstructs the full e=0 type
+  (d2,d3)=(4,5) incidence, moving cubic transition, annihilator minors
+  with direct membership witnesses, and exceptional quartic fiber.
+- `audit_mf6_e1_primitive_2026_10_07.py` independently reconstructs every
+  primitive e=1 direction and complete quartic fiber in 35 ambient
+  monomial columns, including both infinity boundaries and the
+  remaining-carrier normalization identities. Its companion proof
+  excludes e=1,D2=0 quartic STCI pairs in every mate degree.
+- `verify_session_nonnormal_mf6_fiber_obstruction.py` independently checks
+  the four surviving carriers' finite normalization, full C0 inverse
+  support, duplicate-fiber gluing ratio and quadratic-field norm.
+  Arbitrary powers are excluded by the written norm argument, not by
+  checking finitely many powers.
+- `verify_session_normal_carrier_progress.py` and
+  `verify_session_normal_independent_audit.py` independently reconstruct
+  the reduced-cycle/ADE numerical exclusions. The nonreduced sources
+  `verify_session_normal_nonreduced_trees.py` and
+  `verify_session_nonreduced_independent_audit.py` exhaust the necessary
+  tree matrices by different representations. Their final Type-D
+  geometric input is proved from the published hyperplane section basis.
+- `audit_dx1_saturation_2026_10_07.py` reconstructs the original five
+  obstruction coordinates, verifies the localized ideal witnesses and
+  checks the universal coordinate bridge. Three-coordinate subsystem
+  resultants do not supply this saturation.
+- `session-localcoh-corners.py` verifies all polynomial-dual identities
+  for three complete corner lift lines. `session-localcoh-origin-generic-dual.py`
+  checks the stored rational-family dual after denominators are cleared.
+  Both default identity checks use only Python's standard library.
+  The generic dual retains its finite exceptional parameter locus.
+- `audit_session_localcoh_endpoint_2026_10_07.py` reconstructs the
+  complete four-family endpoint classification and first generic dual.
+  `verify_session_localcoh_q2_dual_2026_10_07.py` and
+  `verify_session_localcoh_q1_dual_2026_10_07.py` check the complete
+  quadratic and first quartic exceptional fibers for every lower lift.
+  These two coefficient verifiers use only the standard library.
+  The Q3 and Q13 field-dual sources complete every exceptional root of
+  this first rational family. Its independent rational-source and
+  denominator-partition countercheck is preserved in
+  `../validation/2026-10-08-first-endpoint-audit/countercheck.py`.
+  The separate `verify_session_localcoh_family2_generic_2026_10_08.py`
+  checks the second family's complete generic dual, retaining 26 points
+  in its original factors of degrees 2,2,3,4,15. The new standard-library
+  `verify_session_localcoh_family2_quadratics_2026_10_08.py` excludes both
+  quadratic factors at all four geometric roots and every lower lift,
+  rederiving the exact seeds and directions. A separate field
+  countercheck and literal full actual tensor reconstruction are in
+  `../validation/2026-10-08-family2-quadratic-audit/`. The remaining
+  22 points have degrees 3,4,15 and retain each full lower lift line.
+- `verify_session_localcoh_e1_simultaneous_2026_10_07.py` and
+  `audit_session_socle_bridge_frames_2026_10_07.py` check the corrected
+  two-target e=1,D2=0 ancestor obstruction and actual frame identities.
+  The retracted single-target argument is not a dependency.
+- `verify_mf6_e1_defective_structural.py` checks the intrinsic ideal
+  module, cubic-class twists and bounded necessary matrices for the
+  surviving positive-second-defect MF6 types. It is a reduction, not
+  a complete exclusion of those types.
+- `verify_session_nonnormal_structural.py` checks the genus arithmetic,
+  Roman no-conic control and degenerate-pinch countermodel behind the
+  explicitly conditional nonnormal carrier lemmas.
+- `verify_session_uniform_bf_profiles.py` checks the exact necessary
+  e=2 b=9,10,11 profiles. It does not certify their ambient existence
+  or nonexistence.
+- `verify_mf6_e1_d1_endpoints.py` checks the complete quartic spaces and
+  localized birational maps of all six positive-defect endpoint orbits.
+  The global mate argument retains the localized units and does not
+  assume these open maps are finite normalizations.
+- `verify_session_localcoh_conormal_splitting_2026_10_08.py` checks the
+  necessary generator-bundle split and exact Hankel ranks. Its proof-note
+  provenance input is required; the missing-input failure is retained.
+- `verify_session_localcoh_e1_d4_algebraic_2026_10_08.py` reconstructs
+  all 35 monomials and the complete seven-dimensional double-quartic
+  space in both quadratic-field directions. Four covering minors and
+  a distinct-diagonal last case prove every defect-four quartic fiber
+  has dimension at most one, retaining all defect sections.
+- `verify_session_veronese_pencils.py`,
+  `verify_session_veronese_allmate_independent.py` and
+  `verify_session_veronese_singular_pencil.py` check the exhaustive
+  symmetric-pencil classification, full fibers and Jordan conductor jet
+  for the all-degree `(P2,O(2))` carrier theorem. Its structural proof
+  does not follow from a finite sample of powers.
+- `verify_session_scroll_conductor_compression.py` checks trace algebras,
+  branch contact, symbolic nilpotent powers, the unique C0 quadric and
+  the entire quartic equation space singular along a smooth twisted
+  cubic. `audit_scroll_twisted_cubic_equation_space_2026_10_08.py`
+  independently rebuilds the literal rank-29 minor by differentiation
+  and Fraction elimination. The all-degree exclusion additionally uses
+  the supplied smooth-normalization and whole-conductor proof.
+- `verify_session_mf6_principal_elliptic_2026_10_08.py` checks exact
+  birational identities compressing the saved principal defect-one
+  direction curve to `YE^2=XE^3+96XE-448`. The full ancestor contact
+  theorem is now supplied by
+  `verify_session_mf6_principal_rank_open_2026_10_08.py`, the all-35-column
+  `verify_mf6_e1_d1_principal_boundaries_2026_10_08.py`, and the literal
+  two-chart residue companion. The independent completeness audit is in
+  `../validation/2026-10-08-principal-e1-d1-audit/`. These close all
+  e=1,d2=1 common quartic ancestors, including the node's dimension-four
+  fixed-cubic space. They do not alone exclude the unique carriers'
+  higher-degree mates; that carrier locus is separately finite.
+- `verify_session_mf6_rhalf_scroll_2026_10_08.py` binds the actual
+  exceptional p=8,r=1/2 quartic to its finite F0 normalization, complete
+  normalization ring and entire nonreduced conductor ideal. Its all-mate
+  argument is in the separate structural proof.
+- `verify_session_scroll_nongorenstein_cubic_2026_10_08.py` checks the
+  literal Hilbert--Burch ideals, generic Artin rings, exact nil-image
+  constraints and realizable cusp projection. The complete smooth
+  rational quartic-scroll all-mate theorem additionally uses the
+  independently audited differential lemma and full divisor/fibre
+  arguments. It retains nongorenstein actual conductors and makes no
+  classification claim for other normalization types.
+
+The [validation record](../notes/2026-10-06-session-validation.md)
+preserves source hashes, isolated generated outputs, meaningful repairs
+and failed diagnostics. Additional accepted sources from this continuation
+have separate dated logs; counts are not inflated by imported modules.
+The [October 7 continuation replay](../validation/2026-10-07-continuation/results.json)
+adds isolated checks of newly completed sources while preserving the
+earlier baseline and its failed diagnostic records.
+The [October 8 reconciled index](../validation/2026-10-08-continuation-index/index.json)
+binds 91 distinct top-level sources to latest PASS evidence and counts
+103 explicitly indexed executions. Nested/imported checks are not counted
+as extra sources. It records the two central continuation failures and
+repairs and the unavailable bytes of one superseded Veronese source
+revision; the current strengthened revision has a separate passing
+snapshot. See the [checkpoint](../notes/2026-10-08-session-checkpoint.md)
+for the limits of those records and unfinished computations.
+
+Current runtime paths, when available:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python research/computations/audit_mf6_e1_primitive_2026_10_07.py
+python3 research/computations/session-localcoh-origin-generic-dual.py
+/opt/homebrew/bin/M2 --script research/computations/session_dx1_compact_certificate_2026_10_06.m2
+```
+
+## Earlier retained sources
+
 The original verification scripts in this directory, together with the dated
 2026-10-05 companions and the preserved mixed-degree script under
 `../scratch/degree6`, use exact symbolic arithmetic in SymPy or Macaulay2;

@@ -1,0 +1,7 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/session-localcoh-corners.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: corner18 pure-top lift and all 18 polynomial-dual identities; n^T u=1.
+PASS: corner2 pure-top lift and all 18 polynomial-dual identities; n^T u=1.
+PASS: corner10 pure-top lift and all 18 polynomial-dual identities; n^T u=1.
+PROVED: all three normalized primitive corner directions exclude u for every lower coefficient.

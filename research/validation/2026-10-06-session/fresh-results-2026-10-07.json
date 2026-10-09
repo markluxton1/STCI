@@ -1,0 +1,56 @@
+[
+  {
+    "source": "research/computations/session_dx1_compact_certificate_2026_10_06.m2",
+    "source_sha256": "48cbbb07aca4ccec6eb4a99aec34535acb68d9d1e42e7455e6ed1756b632ee83",
+    "command": [
+      "/opt/homebrew/bin/M2",
+      "--script",
+      "research/computations/session_dx1_compact_certificate_2026_10_06.m2"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 0.729,
+    "log": "research/validation/2026-10-06-session/session_dx1_compact_certificate_2026_10_06_2026_10_07.log"
+  },
+  {
+    "source": "research/computations/verify_session_dx1_independent_2026_10_06.py",
+    "source_sha256": "35070c9f3c4223e3c888e4d84caf4bb40cf751d9e69a07bf1cea99d6700f5781",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/verify_session_dx1_independent_2026_10_06.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 2.387,
+    "log": "research/validation/2026-10-06-session/verify_session_dx1_independent_2026_10_06_2026_10_07.log"
+  },
+  {
+    "source": "research/computations/session_dx1_boundary_2026_10_06.m2",
+    "source_sha256": "33e2c31473f995490a711c4a299c667349da66d81f245d940c6bf6c0b8fef2a5",
+    "command": [
+      "/opt/homebrew/bin/M2",
+      "--script",
+      "research/computations/session_dx1_boundary_2026_10_06.m2"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 0.983,
+    "log": "research/validation/2026-10-06-session/session_dx1_boundary_2026_10_06_2026_10_07.log"
+  },
+  {
+    "source": "research/computations/verify_mf6_infinity_universal.py",
+    "source_sha256": "3037a2203977e7812ce5d7769667f8a1ab010ba57786ff971e28598f00835bfe",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/verify_mf6_infinity_universal.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 6.319,
+    "log": "research/validation/2026-10-06-session/verify_mf6_infinity_universal_2026_10_07.log"
+  }
+]

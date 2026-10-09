@@ -1,5 +1,9 @@
 # Canonical audited state — 2026-10-06
 
+> Historical base, superseded by [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md).
+> In particular the larger e=2 scope, MF6 (0,4,5) type, normal reduced
+> anticanonical locus and dx=1 saturation status have been updated.
+
 This file is the authoritative mathematical status for continuation after the 2026-10-06 branch audit and consolidation. Where an older handoff, research-record entry, scratch calculation, or frontier recommendation conflicts with this file, this file controls. Historical notes remain useful for provenance.
 
 ## Epistemic standard

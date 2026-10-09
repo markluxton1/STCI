@@ -1,0 +1,603 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_normal_carrier_progress.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-additional-2026-10-07
+
+{
+  "status": "PASS",
+  "scope": "conditional numerical reduction for normal quartic C0 carriers",
+  "passage_bounds": [
+    {
+      "d": 1,
+      "Cauchy_allowed_t": [
+        1,
+        2
+      ],
+      "integral_equality_excluded_t": [
+        2
+      ],
+      "remaining_t": [
+        1
+      ]
+    },
+    {
+      "d": 2,
+      "Cauchy_allowed_t": [
+        1,
+        2
+      ],
+      "integral_equality_excluded_t": [],
+      "remaining_t": [
+        1,
+        2
+      ]
+    },
+    {
+      "d": 3,
+      "Cauchy_allowed_t": [
+        1,
+        2,
+        3
+      ],
+      "integral_equality_excluded_t": [
+        3
+      ],
+      "remaining_t": [
+        1,
+        2
+      ]
+    }
+  ],
+  "irreducible_anticanonical_gaps": [
+    {
+      "d": 1,
+      "ADE_rank_upper": 9,
+      "ADE_order_upper": 7,
+      "required_correction": "4",
+      "harmonic_upper": "63/16",
+      "positive_gap": "1/16"
+    },
+    {
+      "d": 2,
+      "ADE_rank_upper": 10,
+      "ADE_order_upper": 7,
+      "required_correction": "9/2",
+      "harmonic_upper": "70/17",
+      "positive_gap": "13/34"
+    },
+    {
+      "d": 3,
+      "ADE_rank_upper": 11,
+      "ADE_order_upper": 7,
+      "required_correction": "14/3",
+      "harmonic_upper": "77/18",
+      "positive_gap": "7/18"
+    }
+  ],
+  "ADE_rows_checked_from_full_root_matrices": 54,
+  "ADE_data": [
+    {
+      "pair": "A1^1",
+      "rank": 1,
+      "first_normal_order": 1,
+      "correction": "1/2",
+      "index": 2
+    },
+    {
+      "pair": "A2^1",
+      "rank": 2,
+      "first_normal_order": 1,
+      "correction": "2/3",
+      "index": 3
+    },
+    {
+      "pair": "A3^1",
+      "rank": 3,
+      "first_normal_order": 1,
+      "correction": "3/4",
+      "index": 4
+    },
+    {
+      "pair": "A3^2",
+      "rank": 3,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "A4^1",
+      "rank": 4,
+      "first_normal_order": 1,
+      "correction": "4/5",
+      "index": 5
+    },
+    {
+      "pair": "A4^2",
+      "rank": 4,
+      "first_normal_order": 2,
+      "correction": "6/5",
+      "index": 5
+    },
+    {
+      "pair": "D4^1",
+      "rank": 4,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "D4^n",
+      "rank": 4,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "A5^1",
+      "rank": 5,
+      "first_normal_order": 1,
+      "correction": "5/6",
+      "index": 6
+    },
+    {
+      "pair": "A5^2",
+      "rank": 5,
+      "first_normal_order": 2,
+      "correction": "4/3",
+      "index": 3
+    },
+    {
+      "pair": "A5^3",
+      "rank": 5,
+      "first_normal_order": 3,
+      "correction": "3/2",
+      "index": 2
+    },
+    {
+      "pair": "D5^1",
+      "rank": 5,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "D5^n",
+      "rank": 5,
+      "first_normal_order": 2,
+      "correction": "5/4",
+      "index": 4
+    },
+    {
+      "pair": "A6^1",
+      "rank": 6,
+      "first_normal_order": 1,
+      "correction": "6/7",
+      "index": 7
+    },
+    {
+      "pair": "A6^2",
+      "rank": 6,
+      "first_normal_order": 2,
+      "correction": "10/7",
+      "index": 7
+    },
+    {
+      "pair": "A6^3",
+      "rank": 6,
+      "first_normal_order": 3,
+      "correction": "12/7",
+      "index": 7
+    },
+    {
+      "pair": "D6^1",
+      "rank": 6,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "D6^n",
+      "rank": 6,
+      "first_normal_order": 3,
+      "correction": "3/2",
+      "index": 2
+    },
+    {
+      "pair": "A7^1",
+      "rank": 7,
+      "first_normal_order": 1,
+      "correction": "7/8",
+      "index": 8
+    },
+    {
+      "pair": "A7^2",
+      "rank": 7,
+      "first_normal_order": 2,
+      "correction": "3/2",
+      "index": 4
+    },
+    {
+      "pair": "A7^3",
+      "rank": 7,
+      "first_normal_order": 3,
+      "correction": "15/8",
+      "index": 8
+    },
+    {
+      "pair": "A7^4",
+      "rank": 7,
+      "first_normal_order": 4,
+      "correction": "2",
+      "index": 2
+    },
+    {
+      "pair": "D7^1",
+      "rank": 7,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "D7^n",
+      "rank": 7,
+      "first_normal_order": 3,
+      "correction": "7/4",
+      "index": 4
+    },
+    {
+      "pair": "A8^1",
+      "rank": 8,
+      "first_normal_order": 1,
+      "correction": "8/9",
+      "index": 9
+    },
+    {
+      "pair": "A8^2",
+      "rank": 8,
+      "first_normal_order": 2,
+      "correction": "14/9",
+      "index": 9
+    },
+    {
+      "pair": "A8^3",
+      "rank": 8,
+      "first_normal_order": 3,
+      "correction": "2",
+      "index": 3
+    },
+    {
+      "pair": "A8^4",
+      "rank": 8,
+      "first_normal_order": 4,
+      "correction": "20/9",
+      "index": 9
+    },
+    {
+      "pair": "D8^1",
+      "rank": 8,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "D8^n",
+      "rank": 8,
+      "first_normal_order": 4,
+      "correction": "2",
+      "index": 2
+    },
+    {
+      "pair": "A9^1",
+      "rank": 9,
+      "first_normal_order": 1,
+      "correction": "9/10",
+      "index": 10
+    },
+    {
+      "pair": "A9^2",
+      "rank": 9,
+      "first_normal_order": 2,
+      "correction": "8/5",
+      "index": 5
+    },
+    {
+      "pair": "A9^3",
+      "rank": 9,
+      "first_normal_order": 3,
+      "correction": "21/10",
+      "index": 10
+    },
+    {
+      "pair": "A9^4",
+      "rank": 9,
+      "first_normal_order": 4,
+      "correction": "12/5",
+      "index": 5
+    },
+    {
+      "pair": "A9^5",
+      "rank": 9,
+      "first_normal_order": 5,
+      "correction": "5/2",
+      "index": 2
+    },
+    {
+      "pair": "D9^1",
+      "rank": 9,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "D9^n",
+      "rank": 9,
+      "first_normal_order": 4,
+      "correction": "9/4",
+      "index": 4
+    },
+    {
+      "pair": "A10^1",
+      "rank": 10,
+      "first_normal_order": 1,
+      "correction": "10/11",
+      "index": 11
+    },
+    {
+      "pair": "A10^2",
+      "rank": 10,
+      "first_normal_order": 2,
+      "correction": "18/11",
+      "index": 11
+    },
+    {
+      "pair": "A10^3",
+      "rank": 10,
+      "first_normal_order": 3,
+      "correction": "24/11",
+      "index": 11
+    },
+    {
+      "pair": "A10^4",
+      "rank": 10,
+      "first_normal_order": 4,
+      "correction": "28/11",
+      "index": 11
+    },
+    {
+      "pair": "A10^5",
+      "rank": 10,
+      "first_normal_order": 5,
+      "correction": "30/11",
+      "index": 11
+    },
+    {
+      "pair": "D10^1",
+      "rank": 10,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "D10^n",
+      "rank": 10,
+      "first_normal_order": 5,
+      "correction": "5/2",
+      "index": 2
+    },
+    {
+      "pair": "A11^1",
+      "rank": 11,
+      "first_normal_order": 1,
+      "correction": "11/12",
+      "index": 12
+    },
+    {
+      "pair": "A11^2",
+      "rank": 11,
+      "first_normal_order": 2,
+      "correction": "5/3",
+      "index": 6
+    },
+    {
+      "pair": "A11^3",
+      "rank": 11,
+      "first_normal_order": 3,
+      "correction": "9/4",
+      "index": 4
+    },
+    {
+      "pair": "A11^4",
+      "rank": 11,
+      "first_normal_order": 4,
+      "correction": "8/3",
+      "index": 3
+    },
+    {
+      "pair": "A11^5",
+      "rank": 11,
+      "first_normal_order": 5,
+      "correction": "35/12",
+      "index": 12
+    },
+    {
+      "pair": "A11^6",
+      "rank": 11,
+      "first_normal_order": 6,
+      "correction": "3",
+      "index": 2
+    },
+    {
+      "pair": "D11^1",
+      "rank": 11,
+      "first_normal_order": 2,
+      "correction": "1",
+      "index": 2
+    },
+    {
+      "pair": "D11^n",
+      "rank": 11,
+      "first_normal_order": 5,
+      "correction": "11/4",
+      "index": 4
+    },
+    {
+      "pair": "E6",
+      "rank": 6,
+      "first_normal_order": 2,
+      "correction": "4/3",
+      "index": 3
+    },
+    {
+      "pair": "E7",
+      "rank": 7,
+      "first_normal_order": 3,
+      "correction": "3/2",
+      "index": 2
+    }
+  ],
+  "ADE_knapsack_states": 567,
+  "dihedral_cycle_matrices_checked": 149,
+  "distinct_cycle_correction_index_data": 915,
+  "exact_correction_matches": [
+    {
+      "d": 1,
+      "cycle_rank": 2,
+      "cycle_diagonal": [
+        2,
+        3
+      ],
+      "selected_vertex_zero_based": 0,
+      "nonrational_correction": "3/2",
+      "nonrational_index": 2,
+      "ADE_rank": 7,
+      "ADE_order": 7,
+      "ADE_correction": "7/2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1"
+      ],
+      "compressed_mate_degree": 2
+    },
+    {
+      "d": 1,
+      "cycle_rank": 2,
+      "cycle_diagonal": [
+        2,
+        3
+      ],
+      "selected_vertex_zero_based": 0,
+      "nonrational_correction": "3/2",
+      "nonrational_index": 2,
+      "ADE_rank": 8,
+      "ADE_order": 7,
+      "ADE_correction": "7/2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A3^2"
+      ],
+      "compressed_mate_degree": 2
+    },
+    {
+      "d": 1,
+      "cycle_rank": 4,
+      "cycle_diagonal": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "selected_vertex_zero_based": 1,
+      "nonrational_correction": "2",
+      "nonrational_index": 2,
+      "ADE_rank": 6,
+      "ADE_order": 6,
+      "ADE_correction": "3",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1"
+      ],
+      "compressed_mate_degree": 2
+    },
+    {
+      "d": 2,
+      "cycle_rank": 4,
+      "cycle_diagonal": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "selected_vertex_zero_based": 1,
+      "nonrational_correction": "3/2",
+      "nonrational_index": 2,
+      "ADE_rank": 7,
+      "ADE_order": 7,
+      "ADE_correction": "7/2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1"
+      ],
+      "compressed_mate_degree": 2
+    },
+    {
+      "d": 3,
+      "cycle_rank": 4,
+      "cycle_diagonal": [
+        2,
+        2,
+        2,
+        5
+      ],
+      "selected_vertex_zero_based": 1,
+      "nonrational_correction": "4/3",
+      "nonrational_index": 6,
+      "ADE_rank": 8,
+      "ADE_order": 7,
+      "ADE_correction": "11/3",
+      "ADE_index": 6,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A2^1"
+      ],
+      "compressed_mate_degree": 6
+    }
+  ],
+  "quadric_compression_exclusions": 4,
+  "last_cycle_correction_column": [
+    "5/6",
+    "4/3",
+    "5/6",
+    "1/3"
+  ],
+  "last_cycle_denominator": 6,
+  "last_candidate_ADE_defect": "10/3",
+  "last_candidate_global_available_defect": "3",
+  "last_candidate_positive_defect_gap": "1/3",
+  "reduced_anticanonical_numerical_survivors_after_all_tests": 0,
+  "remaining_geometric_lane": "reducible nonreduced anticanonical divisor"
+}

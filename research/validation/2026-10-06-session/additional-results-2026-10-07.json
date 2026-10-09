@@ -1,0 +1,60 @@
+[
+  {
+    "source": "research/computations/verify_session_normal_carrier_progress.py",
+    "source_sha256": "57c73e7fc597d892dde3628dc0a7c0da2e6e61514af7890118e057f29b5cef13",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/verify_session_normal_carrier_progress.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-additional-2026-10-07",
+    "isolated": true,
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 2.589,
+    "log": "research/validation/2026-10-06-session/verify_session_normal_carrier_progress_validation_2026_10_07.log",
+    "output_sha256": "4d63d9ff0624784eecec9108efd00f15034df61038da9b566d27a54dd59f91ce",
+    "prior_output_sha256": "4d63d9ff0624784eecec9108efd00f15034df61038da9b566d27a54dd59f91ce",
+    "output_equal_prior": true
+  },
+  {
+    "source": "research/computations/audit_dx1_saturation_2026_10_07.py",
+    "source_sha256": "6c2fcf9747814a6dff5f06af9043c2dc2d6fa2123a39fda23715c2f09393fc63",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/audit_dx1_saturation_2026_10_07.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-additional-2026-10-07",
+    "isolated": true,
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 5.437,
+    "log": "research/validation/2026-10-06-session/audit_dx1_saturation_2026_10_07_validation_2026_10_07.log",
+    "generated_hashes": {
+      "research/computations/verify_dx1_saturation_2026_10_07.m2": "d8ec74599532f8e95be39ec44b99ae6356d85b2555b45f15c9c280ba63af33c5",
+      "research/computations/dx1_saturation_audit_2026_10_07.json": "e342886dacda897d44f04646158e33661c7294b772ce0f1a6d336091c60165d0",
+      "research/computations/verify_dx1_saturation_2026_10_07.out": "b8c18ade6fe52857b96272a3c5aaa123ebfabd0cd0106440d388a484958d6d30"
+    },
+    "generated_equal_prior": {
+      "research/computations/verify_dx1_saturation_2026_10_07.m2": true,
+      "research/computations/dx1_saturation_audit_2026_10_07.json": true,
+      "research/computations/verify_dx1_saturation_2026_10_07.out": true
+    }
+  },
+  {
+    "source": "research/computations/verify_session_normal_independent_audit.py",
+    "source_sha256": "4e8c04f9117ba5b4fa2bd8aeffc2169c80cf862d22cb8877050e63fdb34599eb",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/verify_session_normal_independent_audit.py"
+    ],
+    "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-additional-2026-10-07",
+    "isolated": true,
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 7.609,
+    "log": "research/validation/2026-10-06-session/verify_session_normal_independent_audit_validation_2026_10_07.log",
+    "output_sha256": "c5bc1431187180d973a6e22176849e55e2ee685a38d160e32e34a076e88d2831",
+    "prior_output_sha256": "c5bc1431187180d973a6e22176849e55e2ee685a38d160e32e34a076e88d2831",
+    "output_equal_prior": true
+  }
+]

@@ -1,0 +1,12 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_mf6_e1_primitive_type04.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: degree-one first defect impossible on all quotient charts
+PASS: degree-two first defect forces one of two pure endpoint triples
+PASS: every compatible quartic equals D times an ambient linear form
+RESULT: every hypothetical characteristic-zero (4,b) pair on C0 with e=0 has deg D2>=3
+PASS: universal e=1 quadratic cocycle and saturated primitive-direction constraints
+PASS: generic direction orbit has complete quartic pencil; every member has deg D3>=6
+PASS: r=-1/2 orbit has only unique-quadric multiples
+PASS: conjugate quadratic-root orbits have complete quartic pencils; deg D3>=5
+RESULT: MF6 e=1 type (d2,d3)=(0,4) is excluded on fixed C0

@@ -1,0 +1,14 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_localcoh_conormal_splitting_2026_10_08.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated/research/computations/verify_session_localcoh_conormal_splitting_2026_10_08.py", line 134, in <module>
+    'proof_sha256': hashlib.sha256(NOTE.read_bytes()).hexdigest(),
+                                   ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.8/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 777, in read_bytes
+    with self.open(mode='rb', buffering=0) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.8/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated/research/notes/2026-10-07-session-localcoh-conormal-splitting.md'

@@ -1,0 +1,12 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_normal_independent_audit.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-additional-2026-10-07
+
+ADE states 1033
+d 1 cumulative survivors 3
+d 2 cumulative survivors 4
+d 3 cumulative survivors 5
+{'d': 1, 'k': 2, 'weights_from_selected': (2, 3), 'q_irr': '3/2', 'cycle_index': 2, 'ADE': ('A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1'), 'degree': 2}
+{'d': 1, 'k': 2, 'weights_from_selected': (2, 3), 'q_irr': '3/2', 'cycle_index': 2, 'ADE': ('A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1', 'A3^2'), 'degree': 2}
+{'d': 1, 'k': 4, 'weights_from_selected': (2, 2, 3, 2), 'q_irr': '2', 'cycle_index': 2, 'ADE': ('A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1'), 'degree': 2}
+{'d': 2, 'k': 4, 'weights_from_selected': (2, 2, 4, 2), 'q_irr': '3/2', 'cycle_index': 2, 'ADE': ('A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1'), 'degree': 2}
+{'d': 3, 'k': 4, 'weights_from_selected': (2, 2, 5, 2), 'q_irr': '4/3', 'cycle_index': 6, 'ADE': ('A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1', 'A1^1', 'A2^1'), 'degree': 6}

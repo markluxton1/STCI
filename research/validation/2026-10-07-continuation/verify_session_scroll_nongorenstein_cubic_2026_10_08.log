@@ -1,0 +1,10 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_scroll_nongorenstein_cubic_2026_10_08.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+{
+  "status": "PASS",
+  "output": "/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated/research/scratch/session-scroll-nongorenstein-cubic-checks-2026-10-08.json",
+  "source_sha256": "a290cf18cef0a5ae53b7a2d1e69d4c0f2aa76039ca7b945f8370b1e019147b9d",
+  "curvilinear_integer_cases": 3,
+  "fat_integer_cases": 5
+}

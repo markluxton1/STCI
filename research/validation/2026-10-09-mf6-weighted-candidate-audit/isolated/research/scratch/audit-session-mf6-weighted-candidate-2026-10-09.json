@@ -1,0 +1,42 @@
+{
+  "status": "PASS bounded independent actual-octic, matrix, weights, modular and infinity audit",
+  "source_sha256": "a513320aeeed37260151d209cd2d232ac321edb892d647b22395a06cb45a1ac8",
+  "owner_source_sha256": "78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a93e17370",
+  "input_sha256": {
+    "derive-mf6-principal-weighted-kernel-2026-10-08.json": "0da6eff927a635a81179ce631468e9d4f3fc89a1c78af1c7a6a8cd6cc81fe85d",
+    "mf6-principal-weighted-kernel-2026-10-08.json": "4889f20b60fa094cde47992342701ebdf29a98413fc216b20f971550331cd9db",
+    "session-mf6-e1-principal-contact-2026-10-08.json": "bc32db62b6d87e15300168a47f50d6bf3cd952d0d19b60ad52fc5ae8cdfa9818"
+  },
+  "owner_result_sha256": "a044fbbe3fa4903268a38a07792b3e023170b943ceb28f63e4d464b9e871732f",
+  "checks": {
+    "actual_firstnormal_from_18_forms": true,
+    "direction_syzygy": true,
+    "balanced_frame_clear_denominator_identities": true,
+    "full_saved_h_vector_agrees": true,
+    "actual14x14_matrix_agrees": true,
+    "weight210_every_entry": true,
+    "all_coefficient_denominators_powers2": true,
+    "H_primitive_integer": true,
+    "mod101_point_on_H_and_in_open": true,
+    "open_product_mod101": 16,
+    "sample_h_coefficients_mod101": [
+      26,
+      6,
+      34,
+      38,
+      38,
+      31,
+      17,
+      81,
+      16
+    ],
+    "sample_fixed_determinant_mod101": 22,
+    "sample_octic_squarefree": true,
+    "simple_infinity_root_padding_nonzero": true,
+    "multiple_infinity_root_padding_zero": true,
+    "zero_generator_octic_retained": true
+  },
+  "proof_scope": "Exact first generator coefficient and binary-gradient certificate. Accepted irreducibility of H and geometric necessity are inherited audited antecedents; Bezout proof is in companion independent note.",
+  "not_repeated": "Full three-generator 23-row syzygy replay is separately run centrally. No factorization, finite zero-list, or all-mate exclusion is claimed.",
+  "elapsed_seconds": 7.542
+}

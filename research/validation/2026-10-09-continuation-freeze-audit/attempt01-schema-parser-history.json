@@ -1,0 +1,11 @@
+{
+  "status": "FAILED PREPARATORY AUDIT PARSER",
+  "tool_exit_code": 1,
+  "tool_chunk_id": "d390df",
+  "mathematical_verifiers_executed": false,
+  "reason": "Auditor schema/parser treated an explanatory reason, four logical certificate labels, and mathematical [L_i:K](a-k) notation as file paths. These are audit-code errors, not repository integrity failures.",
+  "artifacts_sha256": {
+    "attempt01-schema-parser-check.py": "1de2fe085c4dfef8bb55670d1d22d25409e2382a7a0e6c447a6c8cdfaf1ac7bf",
+    "attempt01-schema-parser-result.json": "b0fb1238896c2383de91b9835c53d5bdc5ad47942963b332b5b8962d41e73afb"
+  }
+}

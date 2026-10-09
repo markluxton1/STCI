@@ -1,0 +1,20 @@
+{
+  "status": "PASS: exact frame, target, determinant and rank checks",
+  "scope": "Fixed C0, characteristic zero, common quartic ancestor, e=1,D2=0",
+  "antecedents": "Accepted finite-flat inverse-system/socle theorem; complete primitive e=1 quartic fibres; P-037",
+  "target_symbols": [
+    "1",
+    "z**2"
+  ],
+  "line_bundles": {
+    "L": -6,
+    "E3": -14,
+    "Hom(L**3,E3)": 4
+  },
+  "principal_determinant": "(2*z - 1)**3*(2*z + 1)*(4*z**2 + 2*z + 1)/256",
+  "principal_constraint_rank": 8,
+  "principal_solution_target_rank": 1,
+  "algebraic_constraint_rank": 9,
+  "source_sha256": "551785a15c6fc9f65179ee6318a725a1d7bf42ad526ac6682fbe35794342dbe5",
+  "sympy": "1.14.0"
+}

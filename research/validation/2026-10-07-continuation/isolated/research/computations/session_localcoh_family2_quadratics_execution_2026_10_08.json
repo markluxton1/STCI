@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-08",
+  "claims": {
+    "qplus": "k\u00b2+1, both roots, every lambda, excluded",
+    "qminus": "k\u00b2\u22122k\u22121, both roots, every lambda, excluded"
+  },
+  "remaining_family2_primitive_generic_dual_exception_points": 22,
+  "remaining_factor_degrees": [
+    3,
+    4,
+    15
+  ],
+  "input_output_sha256": {
+    "verify_session_localcoh_family2_quadratics_2026_10_08.py": "a1168854beed0d56838851710444a5d2d35ef835333f9ab179d2163f23739ea3",
+    "session_localcoh_family2_quadratics_audit_2026_10_08.out": "69a490fc61abf1fe30a932b6e84f5707470db7e47806aef71921fb4f10dd1aed",
+    "localcoh-incidence-tensor.txt": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+    "localcoh-incidence-bases.txt": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+    "localcoh-symbol-top.json": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+    "session-localcoh-origin-family-2-seed.json": "126109892afd816b48df9cce415dbf09817352d11727e1a1ccc5a6c5362f1194",
+    "session-localcoh-origin-family-2-exception-qplus.m2": "c001d193fa395b68f156c13e03ae294f0f300a54bbff890e089d866d4fe4d440",
+    "session-localcoh-origin-family-2-exception-qplus-dual.txt": "2c29abaf66b4cd4f99f52499d5bccfacd0db4b741cfde9f4b3f1661705230833",
+    "session-localcoh-origin-family-2-exception-qplus-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "session_localcoh_family2_qplus_audit_2026_10_08.json": "93ae6da8ccacf636c51df307eb7e515382641a8638d59c1e92b5a4c2d56f3750",
+    "session-localcoh-origin-family-2-exception-qminus.m2": "d5a203778b9ead0b058a5212af02ca25c56d941953d31baf9cc9c75e9436ab1a",
+    "session-localcoh-origin-family-2-exception-qminus-dual.txt": "5c3a0196cf4864bb3f21832a07356c72a70734918141e49762405ac988a5b792",
+    "session-localcoh-origin-family-2-exception-qminus-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "session_localcoh_family2_qminus_audit_2026_10_08.json": "f347f89304f77449a58bd919d478af779fc876b27b02e2c1bb305eb7259e8873"
+  },
+  "note_sha256": "440bebcf5376b8a036801abcd9bc6561c69af50f28f732b9f5185253a34eb1da",
+  "processes": {
+    "qplus": {
+      "session_id": 60266,
+      "terminal_status": "completed",
+      "exit_code": 0,
+      "observation": "Agent-local write_stdin returned terminal exit0. Parent-local Unknownprocessid did not establish process state."
+    },
+    "qminus": {
+      "terminal_status": "completed directly",
+      "exit_code": 0
+    },
+    "coefficient_regeneration_qplus": {
+      "exit_code": 0
+    },
+    "coefficient_regeneration_qminus": {
+      "exit_code": 0
+    },
+    "fresh_combined_default_verification": {
+      "exit_code": 0
+    }
+  },
+  "qplus_stdout": [
+    "actual matrix ready at qplus",
+    "full polynomial left kernel computed",
+    "full target evaluation ideal saved",
+    "complete polynomial dual saved"
+  ],
+  "qminus_stdout": [
+    "actual matrix ready at qminus",
+    "full polynomial left kernel computed",
+    "full target evaluation ideal saved",
+    "complete polynomial dual saved"
+  ],
+  "no_live_process_from_these_branches": true
+}

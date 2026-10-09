@@ -1,0 +1,26 @@
+{
+  "scope": "h=t,p0=0,r0=1 primitive e=2 directions",
+  "normalization": "a2 nonzero normalized to1 by torus; a2=0 reverse parity",
+  "families": [
+    {
+      "label": "boundary-rational",
+      "p": "t*(k + t)",
+      "r": "-(64*k**5*t**2 - 32*k**4*t**2 - 32*k**4*t + 32*k**3*t**2 - 32*k**3*t - 16*k**2*t**2 - 8*k**2*t - 4*k**2 + 20*k*t**2 - 4*k - 10*t**2 - 1)/(2*k + 1)**2",
+      "resultant": "-(2*k - 1)*(32*k**6 + 32*k**4 + 24*k**3 + 26*k**2 + 6*k + 1)/(2*k + 1)**2"
+    },
+    {
+      "label": "boundary-exceptional",
+      "p": "t*(2*t - 1)/2",
+      "r": "t**2*z + 2*t + 1",
+      "resultant": "(z + 8)/4"
+    },
+    {
+      "label": "reverse-parity",
+      "p": "a1*t",
+      "r": "1+t**2",
+      "open_condition": "a1 != 0",
+      "status": "EXCLUDED by existing parity dual after actual ambient involution"
+    }
+  ],
+  "status": "EXACT CLASSIFICATION; first two multiplier incidence families OPEN"
+}

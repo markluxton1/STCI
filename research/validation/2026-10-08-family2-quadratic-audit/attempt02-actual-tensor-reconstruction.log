@@ -1,0 +1,11 @@
+PASS: reconstructed 30 degree-13 ancestor numerators; Ext-stage map is injective.
+PASS: every ancestor satisfies I^4*h subset (q^4,b^4), using all I^4 generators.
+PASS: all 18 actual quartic forms are independent and span the restriction kernel (35-17=18).
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/methods.m2:291:28:(1):[7]: error: assertion failed
+research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2:61:6:(3):[6]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:80:23:(0):[6]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:131:28:(1):[5]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:127:13:(1):[3]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:138:29:(1):[2]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:547:66:(0):[1]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:635:41:(2): --back trace--

@@ -1,4 +1,9 @@
-> **2026-10-06 CONSOLIDATION NOTICE:** The authoritative current status is [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where older frontier language below conflicts with that audited state, the audited state controls. Historical material below is retained for provenance.\n\n# STCI Successor-Session Handoff
+> **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
+
+Use [SUCCESSOR_HANDOFF_2026-10-07.md](SUCCESSOR_HANDOFF_2026-10-07.md)
+for the current continuation instructions and open proof obligations.
+
+# STCI Successor-Session Handoff
 
 Prepared: 2026-09-30
 

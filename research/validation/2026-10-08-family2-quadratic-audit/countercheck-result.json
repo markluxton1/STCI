@@ -1,0 +1,59 @@
+{
+  "scope": "Characteristic zero; second rational h=t endpoint family; two quadratic factors only",
+  "status": "PASS independent countercheck; 4 geometric roots excluded for every lambda",
+  "actual_quartic_dimension": 18,
+  "actual_top_map_rebuilt": true,
+  "top_rank": 29,
+  "remaining_exception_degrees": [
+    3,
+    4,
+    15
+  ],
+  "remaining_geometric_points": 22,
+  "remaining_full_lambda_fibres": "OPEN",
+  "fields": {
+    "qplus": {
+      "polynomial": "k**2 + 1",
+      "discriminant": -4,
+      "both_geometric_roots_covered": true,
+      "all_lambda_covered": true,
+      "dual_nonzero_entries": 27,
+      "dual_lambda_degree": 2,
+      "target_value": "1",
+      "all18_columns_all_polynomial_coefficients_zero": true,
+      "all30_seed_and_slope_coefficients_match": true,
+      "all32_top_coefficients_match": true,
+      "homogeneous_resultant_nonzero": true,
+      "resultant_at_field_root": "-8*I"
+    },
+    "qminus": {
+      "polynomial": "k**2 - 2*k - 1",
+      "discriminant": 8,
+      "both_geometric_roots_covered": true,
+      "all_lambda_covered": true,
+      "dual_nonzero_entries": 27,
+      "dual_lambda_degree": 2,
+      "target_value": "1",
+      "all18_columns_all_polynomial_coefficients_zero": true,
+      "all30_seed_and_slope_coefficients_match": true,
+      "all32_top_coefficients_match": true,
+      "homogeneous_resultant_nonzero": true,
+      "resultant_at_field_root": "-96 + 68*sqrt(2)"
+    }
+  },
+  "input_sha256": {
+    "research/computations/localcoh-incidence-bases.txt": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+    "research/computations/localcoh-symbol-top.json": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+    "research/computations/session-localcoh-origin-family-2-seed.json": "126109892afd816b48df9cce415dbf09817352d11727e1a1ccc5a6c5362f1194",
+    "research/computations/localcoh-incidence-tensor.txt": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+    "research/computations/session_localcoh_family2_qplus_audit_2026_10_08.json": "93ae6da8ccacf636c51df307eb7e515382641a8638d59c1e92b5a4c2d56f3750",
+    "research/computations/session-localcoh-origin-family-2-exception-qplus.m2": "c001d193fa395b68f156c13e03ae294f0f300a54bbff890e089d866d4fe4d440",
+    "research/computations/session-localcoh-origin-family-2-exception-qplus-dual.txt": "2c29abaf66b4cd4f99f52499d5bccfacd0db4b741cfde9f4b3f1661705230833",
+    "research/computations/session-localcoh-origin-family-2-exception-qplus-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session_localcoh_family2_qminus_audit_2026_10_08.json": "f347f89304f77449a58bd919d478af779fc876b27b02e2c1bb305eb7259e8873",
+    "research/computations/session-localcoh-origin-family-2-exception-qminus.m2": "d5a203778b9ead0b058a5212af02ca25c56d941953d31baf9cc9c75e9436ab1a",
+    "research/computations/session-localcoh-origin-family-2-exception-qminus-dual.txt": "5c3a0196cf4864bb3f21832a07356c72a70734918141e49762405ac988a5b792",
+    "research/computations/session-localcoh-origin-family-2-exception-qminus-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc"
+  },
+  "countercheck_source_sha256": "88e8aa6072fd93074453a2fe6fbef710bc3b6a2273151f12d00320233c095334"
+}

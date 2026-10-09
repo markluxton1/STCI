@@ -1,0 +1,18 @@
+{
+  "source": "research/computations/verify_e2_quartic_incidence.py",
+  "source_sha256": "66a725a4fa44038f183319a2c77e3fa64ca42dccf9d9a4d06e5b1f4d1a17dad3",
+  "compatibility_copy": "research/validation/2026-10-06-session/compat_verify_e2_quartic_incidence_constant_denominators.py",
+  "compatibility_sha256": "1cb7c0d15ee04addfcbf21c4da886e27b0e39c5a1d23f6171abe0f6c18e5ea17",
+  "change": {
+    "old": "assert all(sp.denom(q)==1 for q in J2)",
+    "new": "assert all(not sp.denom(q).free_symbols for q in J2)"
+  },
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/validation/2026-10-06-session/compat_verify_e2_quartic_incidence_constant_denominators.py"
+  ],
+  "exit_code": 0,
+  "status": "PASS",
+  "elapsed_seconds": 14.011,
+  "log": "research/validation/2026-10-06-session/compat_verify_e2_quartic_incidence_constant_denominators.log"
+}

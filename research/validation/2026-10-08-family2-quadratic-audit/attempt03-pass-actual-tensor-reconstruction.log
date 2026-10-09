@@ -1,0 +1,7 @@
+PASS: reconstructed 30 degree-13 ancestor numerators; Ext-stage map is injective.
+PASS: every ancestor satisfies I^4*h subset (q^4,b^4), using all I^4 generators.
+PASS: all 18 actual quartic forms are independent and span the restriction kernel (35-17=18).
+PASS: literal equality of all 30 ancestor and all 18 quartic displayed basis columns.
+PASS: literal 74x542 compressed-row equality and full coefficient/stored rowspace rank 74.
+PASS: image dimension 74 equals the complete degree-minus-three Ext-stage-three piece.
+PASS: ACTUAL_TENSOR_RECONSTRUCTION_COMPLETE; 30 ancestors, 18 quartics, 540 product columns, two targets.

@@ -1,0 +1,24 @@
+/private/tmp/stci-cas-venv/lib/python3.14/site-packages/sympy/polys/polytools.py:6282: SymPyDeprecationWarning: 
+
+Ordered comparisons with modular integers are deprecated.
+
+            Use e.g. int(a) < int(b) instead of a < b.
+
+See https://docs.sympy.org/latest/explanation/active-deprecations.html#modularinteger-compare
+for details.
+
+This has been deprecated since SymPy version 1.13. It
+will be removed in a future version of SymPy.
+
+  return sorted(factors, key=key)
+sample 13 0 12 hfactor (5, [(z - 6, 1), (z - 5, 1), (z + 1, 2), (z + 3, 2), (z - 4, 2)])
+{'ell': 13, 'r': 0, 'p': 12, 'z': 4, 'h': 0, 'h1': 0, 'h2': 5, 'Q': 0, 'E': 0, 'R': 0, 'K': 10, 'delta': 10}
+{'ell': 13, 'r': 0, 'p': 12, 'z': 10, 'h': 0, 'h1': 0, 'h2': 8, 'Q': 0, 'E': 0, 'R': 0, 'K': 4, 'delta': 0}
+{'ell': 13, 'r': 0, 'p': 12, 'z': 12, 'h': 0, 'h1': 0, 'h2': 3, 'Q': 0, 'E': 0, 'R': 2, 'K': 0, 'delta': 1}
+sample 23 0 5 hfactor (-9, [(z + 11, 1), (z + 2, 2), (z - 7, 2), (z + 1, 3)])
+{'ell': 23, 'r': 0, 'p': 5, 'z': 7, 'h': 0, 'h1': 0, 'h2': 9, 'Q': 0, 'E': 0, 'R': 20, 'K': 0, 'delta': 22}
+{'ell': 23, 'r': 0, 'p': 5, 'z': 21, 'h': 0, 'h1': 0, 'h2': 5, 'Q': 0, 'E': 0, 'R': 5, 'K': 0, 'delta': 3}
+{'ell': 23, 'r': 0, 'p': 5, 'z': 22, 'h': 0, 'h1': 0, 'h2': 0, 'Q': 0, 'E': 0, 'R': 21, 'K': 4, 'delta': 0}
+sample 101 2 4 hfactor (12, [(z + 14, 1), (z + 47, 1), (z + 49, 1), (z + 50, 1), (z - 41, 1), (z**3 + 6*z**2 - 49*z + 35, 1)])
+sample 101 4 6 hfactor (38, [(z + 1, 1), (z + 11, 1), (z + 13, 1), (z + 37, 1), (z - 42, 1), (z - 30, 1), (z**2 + 30*z + 25, 1)])
+sample 103 2 30 hfactor (-39, [(z - 51, 1), (z - 44, 1), (z**2 + 18*z + 39, 1), (z**4 + 7*z**3 - 43*z**2 - 33*z - 39, 1)])

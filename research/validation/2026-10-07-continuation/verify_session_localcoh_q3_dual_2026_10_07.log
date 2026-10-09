@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_localcoh_q3_dual_2026_10_07.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: Q3 irreducibility modulo 17, actual pure-top affine lift, and primitive homogeneous direction.
+PASS: all 18 polynomial dual identities over QQ[k]/Q3[lambda] and n^T u=1.
+PROVED: the Q3 exceptional locus is excluded at all four geometric roots, for every lambda.

@@ -1,0 +1,9 @@
+Command: /private/tmp/stci-cas-venv/bin/python /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated-veronese-strengthened/research/computations/verify_session_veronese_pencils.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated-veronese-strengthened/research/computations
+
+PASS: tensor/dual-quadric convention, all three canonical pencil forms,
+quartic/quadric equations, finite-projection basepoint controls in note,
+birational inverse identities, nonnodal transverse tangent cones, and
+generic conductor branch-separation exponents two and three;
+Roman no-conic matrix, Jordan singleton-fiber/transversality controls,
+and the exact first-jet involution excluding all Jordan-three conic powers.

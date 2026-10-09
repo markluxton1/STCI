@@ -1,0 +1,28 @@
+{
+  "source": "research/computations/verify_session_normal_nonreduced_trees.py",
+  "source_sha256": "fca8eb7c177d88d00adcf5c60f664f8bbf9926abaf586762f22bfedf4199a2a7",
+  "dependency_hashes": {
+    "research/computations/verify_session_normal_carrier_progress.py": "57c73e7fc597d892dde3628dc0a7c0da2e6e61514af7890118e057f29b5cef13"
+  },
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/computations/verify_session_normal_nonreduced_trees.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-additional-2026-10-07",
+  "isolated": true,
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 22.899,
+  "log": "research/validation/2026-10-06-session/verify_session_normal_nonreduced_trees_validation_2026_10_07.log",
+  "output_sha256": "52c5633b19828017636f1a88e74d8989129edb9d4a6abbfefb850ce893402c36",
+  "summary": {
+    "status": "PASS",
+    "diagonal_modifications_tested": 381802,
+    "admissible_positive_integral_canonical_cycles": 195,
+    "all_exact_correction_matches": 236,
+    "post_compression_candidate_count": 12,
+    "survivors_after_Type_D_passage": 0
+  },
+  "prior_output_sha256": "52c5633b19828017636f1a88e74d8989129edb9d4a6abbfefb850ce893402c36",
+  "output_equal_prior": true
+}

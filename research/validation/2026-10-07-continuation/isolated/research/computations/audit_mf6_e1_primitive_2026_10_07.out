@@ -1,0 +1,5 @@
+PASS: independent complete 35-column ambient matrices for all four direction orbits
+PASS: generic-orbit polar bound >=6; algebraic mixed members polar bound >=8
+PASS: both moving infinity boundary members, including exact multiplicities
+PASS: surviving pure members finite normalization, full support and branch-value identities
+RESULT: together with audited BF bound d3<=5, all e=1,D2=0 quartic carriers are excluded

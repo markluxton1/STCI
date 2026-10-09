@@ -1,0 +1,22 @@
+common denominator 1024*(2*r - 1)*(2*r + 3)**3*(44*r**2 + 20*r + 3)**3*(3280896*r**12 + 15187968*r**11 + 31623168*r**10 + 35475456*r**9 + 24250112*r**8 + 12883968*r**7 + 7622400*r**6 + 3996160*r**5 + 1031664*r**4 + 146112*r**3 + 29192*r**2 + 2064*r + 153)
+coefficient gcd 8
+h degree 8 sizes [529, 1634, 1719, 1839, 1907, 2063, 2129, 2248, 2343]
+E coefficient gcd 1 sizes [2233, 2398, 2502, 2661, 2790, 2886, 3015, 3152, 3245, 1, 1]
+E gcd z**3 + 1 Edegree 8
+/private/tmp/stci-cas-venv/lib/python3.14/site-packages/sympy/polys/polytools.py:6282: SymPyDeprecationWarning: 
+
+Ordered comparisons with modular integers are deprecated.
+
+            Use e.g. int(a) < int(b) instead of a < b.
+
+See https://docs.sympy.org/latest/explanation/active-deprecations.html#modularinteger-compare
+for details.
+
+This has been deprecated since SymPy version 1.13. It
+will be removed in a future version of SymPy.
+
+  return sorted(factors, key=key)
+sample 13 0 12 degree 8 gcddegree 3 factor (5, [(z - 6, 1), (z - 5, 1), (z + 1, 2), (z + 3, 2), (z - 4, 2)])
+E gcd z**3 - 4*z**2 + 4*z + 9 Edegree 8
+sample 23 0 5 degree 8 gcddegree 4 factor (-9, [(z + 11, 1), (z + 2, 2), (z - 7, 2), (z + 1, 3)])
+DONE

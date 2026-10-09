@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-08",
+  "status": "PROVED HERE with independent structural audit accepted; exact identity checks PASS",
+  "scope": {
+    "field": "algebraically closed, characteristic zero",
+    "carrier": "integral quartic X in P3 with finite normalization P2 and hyperplane pullback O_P2(2)",
+    "curve": "smooth integral rational degree-four curve C on X",
+    "conclusion": "no homogeneous mate G of any positive degree with X intersect V(G) supported exactly on C",
+    "semi_log_canonical_assumption": false,
+    "global_STCI_problem_resolved": false
+  },
+  "classification_proof": "Exhaustive regular-pencil self-adjoint Jordan argument and identically-singular primitive adjugate argument; identities do not replace exhaustiveness proof.",
+  "arbitrary_degree_proof": "Roman six-point no-conic obstruction; Jordan2 sole permitted transverse point on z=0; Jordan3 first conductor jet involution excludes every positive conic power in characteristic zero.",
+  "checks": [
+    {
+      "source": "research/computations/verify_session_veronese_pencils.py",
+      "exit_code_observed": 0,
+      "runtime": "/private/tmp/stci-cas-venv/bin/python",
+      "imports": "standard library and SymPy; no shared repository mathematics helper or JSON certificate imported"
+    },
+    {
+      "source": "research/computations/verify_session_veronese_singular_pencil.py",
+      "exit_code_observed": 0,
+      "runtime": "/private/tmp/stci-cas-venv/bin/python",
+      "imports": "standard library and SymPy; no shared repository mathematics helper or JSON certificate imported"
+    },
+    {
+      "source": "research/computations/verify_session_veronese_allmate_independent.py",
+      "exit_code_observed": 0,
+      "runtime": "/private/tmp/stci-cas-venv/bin/python",
+      "imports": "standard library and SymPy; no shared repository mathematics helper or JSON certificate imported"
+    }
+  ],
+  "source_sha256": {
+    "research/notes/2026-10-07-session-veronese-pencil-classification.md": "0547b5543b832596d6663cd5a2efe362019407a88646c12bda226a0b6c79bdfe",
+    "research/notes/2026-10-07-session-veronese-singular-pencil.md": "13000117565317f8e14672914b72437674c0f8e66c6909ae9926a29bd09d4da7",
+    "research/notes/2026-10-08-session-veronese-allmate-independent-audit.md": "2f8f4defc67a72f68b1b0a6ede3704402b5a7fe2e19bf1c4faa6fa3a9ca72e61",
+    "research/computations/verify_session_veronese_pencils.py": "6d51948637d33e20f46a8c9331ffb4f45e9e76a3a754028502468bc6f44afde6",
+    "research/computations/verify_session_veronese_singular_pencil.py": "4e3c5f478664690a8058a38d794d3bb11ac8c82bc6739c9cb64b2fef0fff3678",
+    "research/computations/verify_session_veronese_allmate_independent.py": "6bb6827c0061776773341ef42e590389d61901c1eb21a894c01ca658e9a9e46e"
+  },
+  "repair_record": {
+    "source": "research/computations/verify_session_veronese_pencils.py",
+    "first_run_exit": 1,
+    "issue": "SymPy structural equality rejected two algebraically identical factorizations of the Jordan2 fiber identity.",
+    "repair": "Assert that the expanded difference is zero. No mathematical assertion or proof scope was weakened.",
+    "subsequent_run_exit": 0
+  },
+  "continuation_boundary": "Other nonnormal normalization types, singular normalizations, positive characteristic and unrestricted C0 and universal STCI questions remain outside this theorem.",
+  "primary_sources_consulted": [
+    {
+      "url": "https://www.math.kyoto-u.ac.jp/~fujino/fund-slc5.pdf",
+      "use": "necessary normal-crossing codimension-one condition for the subsidiary slc classification"
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0FKW",
+      "use": "finite morphism Hom description used for the optional full conductor divisor check"
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0A7M",
+      "use": "Lemma47.16.1 normalized finite-map duality used for the optional full conductor divisor check"
+    }
+  ],
+  "independent_audits": [
+    {
+      "agent": "/root/nonnormal_structural",
+      "status": "accepted complete all-degree theorem, including non-slc Jordan projections",
+      "durable_note": "research/notes/2026-10-08-session-veronese-allmate-independent-audit.md",
+      "independent_verifier": "research/computations/verify_session_veronese_allmate_independent.py"
+    },
+    {
+      "agent": "/root/veronese_pencil_classification/singular_pencil",
+      "status": "formal acceptance after independent classification, conductor, full-support, singleton-fiber and first-jet audit",
+      "durable_singular_pencil_proof": "research/notes/2026-10-07-session-veronese-singular-pencil.md",
+      "restriction": "characteristic zero and P2,O(2) normalization scope only"
+    }
+  ]
+}

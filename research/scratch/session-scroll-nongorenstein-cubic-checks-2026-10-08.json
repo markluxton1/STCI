@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "scope": "supporting exact algebra; geometric proof separately audited",
+  "source_sha256": "a290cf18cef0a5ae53b7a2d1e69d4c0f2aa76039ca7b945f8370b1e019147b9d",
+  "checks": {
+    "double_line_plus_line": {
+      "minors": [
+        "y**2",
+        "x*y",
+        "x*z"
+      ],
+      "hilbert_function_0_to_9": [
+        1,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19,
+        22,
+        25,
+        28
+      ],
+      "entry_span_dimension": 3
+    },
+    "curvilinear_triple_line": {
+      "minors": [
+        "x**2",
+        "x*y",
+        "-x*z + y**2"
+      ],
+      "hilbert_function_0_to_9": [
+        1,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19,
+        22,
+        25,
+        28
+      ],
+      "entry_span_dimension": 3
+    },
+    "fat_triple_line": {
+      "minors": [
+        "x**2",
+        "x*y",
+        "y**2"
+      ],
+      "hilbert_function_0_to_9": [
+        1,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19,
+        22,
+        25,
+        28
+      ],
+      "entry_span_dimension": 2
+    },
+    "fat_canonical_nil_image_rank": 1,
+    "exact_integer_factor_constraints": {
+      "curvilinear_cases": 3,
+      "fat_cases": 5,
+      "all_curvi_multiplicities_divisible_by_three": true,
+      "all_fat_multiplicities_even": true
+    },
+    "explicit_projection": {
+      "quartic_substitution_zero": true,
+      "jacobian_rank_on_fiber": 1,
+      "linear_power_obstruction_coefficient": "(-P*r - P*rho*s + Q*r*rho + beta*r**2)/r**2",
+      "linear_system_forces_ambient_hyperplane": true
+    }
+  }
+}

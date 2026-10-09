@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "counts": {
+    "baseline_unique_source_paths": 55,
+    "baseline_explicit_execution_records": 61,
+    "central_unique_source_paths": 28,
+    "central_explicit_execution_records": 30,
+    "central_plus_strengthening_distinct_source_revisions": 30,
+    "strengthened_veronese_additional_execution_records": 1,
+    "first_endpoint_independent_source_paths_and_executions": 1,
+    "principal_independent_source_paths_and_executions": 4,
+    "family2_independent_unique_source_paths": 3,
+    "family2_explicit_execution_records": 6,
+    "combined_unique_source_paths": 91,
+    "combined_explicit_execution_records": 103
+  },
+  "check_count": 1645,
+  "checked_local_links": 212,
+  "issues": []
+}

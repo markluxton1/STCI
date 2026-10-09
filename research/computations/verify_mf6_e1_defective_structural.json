@@ -1,0 +1,40 @@
+{
+  "status": "PASS necessary structural identities; both defective MF6 types remain open",
+  "second_cocycle_coefficients": [
+    "-b1*(2*a0*b1 + 12*a1**2 + 16*a1*b0 + 9*b0**2)/8",
+    "-(2*a1 + b0)*(8*a0*b1 + 12*a1**2 + 4*a1*b0 + 3*b0**2)/8",
+    "-a0*(2*a0*b1 + 36*a1**2 + 16*a1*b0 + 3*b0**2)/4"
+  ],
+  "d2_one_sextic_numerator": "-576*a1**6 - 960*a1**5*b0 - 880*a1**4*b0**2 - 544*a1**3*b0**3 - 220*a1**2*b0**4 - 60*a1*b0**5 - 9*b0**6 + 8*p**3 - p**2*(64*a1**2 + 128*a1*b0 + 16*b0**2) + p*(96*a1**4 + 512*a1**3*b0 + 592*a1**2*b0**2 + 128*a1*b0**3 + 6*b0**4)",
+  "compact_invariant": "p=a0*b1; retain both a0=0 and b1=0 boundaries separately",
+  "boundary_direction_equation": "(2*r + 1)*(12*r**2 + 4*r + 3)",
+  "boundary_left_coefficients": [
+    "-(12*r**2 + 16*r + 9)/8",
+    "-(2*r + 1)*(12*r**2 + 4*r + 3)/8",
+    "0"
+  ],
+  "boundary_right_coefficients": [
+    "0",
+    "-(2*r + 1)*(12*r**2 + 4*r + 3)/8",
+    "-(36*r**2 + 16*r + 3)/4"
+  ],
+  "cubic_target_twists": {
+    "(1, 3)": {
+      "class_twist": -8,
+      "annihilator_degree": 2,
+      "target_twist": -6
+    },
+    "(2, 2)": {
+      "class_twist": -6,
+      "annihilator_degree": 0,
+      "target_twist": -6
+    }
+  },
+  "type_13_hankel_shape": [
+    5,
+    3
+  ],
+  "type_22_condition": "all five Laurent coefficients of H1(O(-6)) vanish",
+  "source_sha256": "fc6e12ede7b6a8b9c41a8237245f143f327324f552b20e29cb84cf5afead1710",
+  "sympy": "1.14.0"
+}

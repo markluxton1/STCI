@@ -1,0 +1,46 @@
+{
+  "variables": [
+    "alpha",
+    "beta"
+  ],
+  "minors": [
+    "-2*alpha**4 + 24*alpha**3*beta - 56*alpha**3 - 104*alpha**2*beta**2 + 528*alpha**2*beta - 384*alpha**2 + 192*alpha*beta**3 - 1856*alpha*beta**2 + 2304*alpha*beta - 128*beta**4 + 2304*beta**3 - 5184*beta**2",
+    "4*alpha**4 - 48*alpha**3*beta + 40*alpha**3 + 208*alpha**2*beta**2 - 640*alpha**2*beta - 384*alpha**2 - 384*alpha*beta**3 + 2752*alpha*beta**2 + 1152*alpha*beta + 256*beta**4 - 3456*beta**3",
+    "-8*alpha**4 + 96*alpha**3*beta + 16*alpha**3 - 384*alpha**2*beta**2 + 384*alpha**2*beta + 2304*alpha**2 + 768*alpha*beta**3 - 768*alpha*beta**2 - 10368*alpha*beta - 768*beta**4 + 20736*beta**2",
+    "-80*alpha**3 + 640*alpha**2*beta - 1536*alpha**2 - 1280*alpha*beta**2 + 10368*alpha*beta - 20736*beta**2",
+    "-96*alpha**3 + 64*alpha**2*beta**2 + 1920*alpha**2*beta + 768*alpha**2 - 512*alpha*beta**3 - 9728*alpha*beta**2 - 4608*alpha*beta + 1024*beta**4 + 13824*beta**3",
+    "512*alpha**3 - 128*alpha**2*beta**2 - 6400*alpha**2*beta - 8448*alpha**2 + 1024*alpha*beta**3 + 25600*alpha*beta**2 + 46080*alpha*beta - 2048*beta**4 - 36864*beta**3 - 82944*beta**2"
+  ],
+  "targets": [
+    "alpha**2",
+    "alpha*beta",
+    "beta**2"
+  ],
+  "witnesses": [
+    [
+      "-29*alpha/93312 - 11*beta/46656 - 233/19440",
+      "-29*alpha/186624 - 11*beta/93312 - 107/9720",
+      "-115/31104",
+      "283*alpha/1866240 + 119/51840",
+      "-5*alpha/93312 + 11*beta/373248 - 107/38880",
+      "-5*alpha/186624 + 11*beta/746496 - 233/311040"
+    ],
+    [
+      "37*alpha/559872 - 235*beta/279936 - 19/2880",
+      "37*alpha/1119744 - 235*beta/559872 - 1001/311040",
+      "-115/124416",
+      "379*alpha/3732480 - 95*beta/373248 + 119/207360",
+      "13*alpha/746496 - 101*beta/1119744 - 79/138240",
+      "13*alpha/1492992 - 101*beta/2239488 + 47/1244160"
+    ],
+    [
+      "5*alpha/93312 - 203*beta/559872 - 511/233280",
+      "5*alpha/186624 - 203*beta/1119744 - 617/933120",
+      "-85/746496",
+      "433*alpha/11197440 - 95*beta/746496 + 41/1244160",
+      "133*alpha/8957952 - 13*beta/248832 - 91/1866240",
+      "133*alpha/17915904 - 13*beta/497664 + 329/3732480"
+    ]
+  ],
+  "coefficient_degree": 1
+}

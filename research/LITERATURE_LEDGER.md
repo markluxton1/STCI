@@ -1,6 +1,8 @@
 # STCI Literature Ledger
 
-Checked through: 2026-09-30
+Original ledger checked through: 2026-09-30. Refreshed source scopes:
+[2026-10-06 session literature audit](notes/2026-10-06-session-literature-refresh.md),
+continued and integrated 2026-10-07.
 
 This ledger records the scope actually used in the research report. A source is
 not listed as settling more than its hypotheses permit. “No later resolution
@@ -92,20 +94,26 @@ arXiv:2106.09796, §4.1.1.
   \(\mathbf P^3\) is arithmetic rank two versus three, not an unbounded equation
   count.
 
-### Arithmetically Cohen--Macaulay curves
+### Arithmetically Cohen--Macaulay curves: scope correction
 
-Robbiano--Valla and Stückrad--Vogel prove that arithmetically Cohen--Macaulay
-curves in \(\mathbf P^3\) are set-theoretic complete intersections.
+The checked original Robbiano--Valla theorem proves that **ACM monomial**
+curves in \(\mathbf P^3\) are set-theoretic complete intersections in
+every characteristic. The broader arbitrary-ACM assertion in a modern
+survey has not been reconstructed from its cited primary source chain.
+It must not be used here as a verified arbitrary-curve theorem.
 
 - Lorenzo Robbiano and Giuseppe Valla, “Some curves in \(\mathbf P^3\) are
   set-theoretic complete intersections,” LNM 997 (1983), 391--399:
   <https://doi.org/10.1007/BFb0061654>
-- Scope qualification: the modern explicit theorem statement and source chain
-  were checked; the full original proofs were not independently rederived in
-  this run.
-- Relevance: smooth rational quartics are not linearly normal and hence not
-  ACM, so this broad positive theorem stops exactly before the smallest open
-  smooth case.
+- The original publisher preview, printed pp.391--392, specifies monomial
+  curves and Corollary 2.3:
+  <https://page-one.springer.com/pdf/preview/10.1007/BFb0061654>.
+- A modern survey states the broader assertion; the cited Stückrad--Vogel
+  original text was unavailable in this audit. This is a source gap,
+  not a refutation of that broader assertion.
+- Smooth rational quartics are not linearly normal and hence are not ACM.
+  Neither the verified monomial theorem nor the broader secondary statement
+  supplies the unrestricted characteristic-zero quartic result.
 
 ## Affine lci theorems and the projective gap
 

@@ -1,0 +1,32 @@
+{
+  "input_sha256": {
+    "localcoh-symbol-top.json": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+    "session-localcoh-origin-parametrize.py": "61ce88f2d446adcfea77f0268ea5a360377b77714263b18df87cf8667497945b",
+    "session-localcoh-origin-boundary.py": "4a202815906e1edacd50649481653036177ec605d797800b6c709e7008940eb3",
+    "session-localcoh-origin-generic-dual.py": "8468e3a5942d3b6d1fa4b39dd34dd654533fd4c01941b9074d16846ace4f76cf",
+    "session-localcoh-origin-family-1-polynomial-dual.json": "2212853b74e9058566d2092d4b28f8a0cbc274fda5aa63bc7a368eb009ed4783",
+    "session_localcoh_q2_dual_audit_2026_10_07.json": "4bf801c033e5f2ee7021cf5ca4fbf246af136383bae55dcd40fc1fc924ae2410",
+    "session-localcoh-origin-family-1-seed.json": "e3662d68ec0023313549b99d2fe622d2e6c372568afd8cf6fa8f9f5e7eee193b",
+    "session-localcoh-origin-family-2-seed.json": "126109892afd816b48df9cce415dbf09817352d11727e1a1ccc5a6c5362f1194",
+    "session-localcoh-origin-family-3-seed.json": "b14eeef03c796b12e97b0293861f1d7ac95909709aae65827511083e148ce2fb",
+    "session-localcoh-origin-family-4-seed.json": "65f8123648a101ba9813bbb23ed7800357426451e83b69cb68b4f607b7417731"
+  },
+  "classification": "PASS: all primitive h=t endpoint directions, both p0*r0!=0 and p0=0 boundary",
+  "rational_inverse": "(16*a**2 + 32*c + 12)/(4*(2*a + 1)**2)",
+  "generic_certificate": "PASS: actual pure-top affine lift and all 18 polynomial tensor identities",
+  "q2_exception": "PROVED EXCLUDED: both roots, every lambda",
+  "remaining_first_family_polynomials": [
+    "3*k**4 - 9*k**3 - 19*k**2 - 43*k - 4",
+    "13*k**4 + 26*k**3 + 34*k**2 + 6*k - 7",
+    "729*k**13 + 1620*k**12 + 2889*k**11 - 11268*k**10 - 26574*k**9 - 39642*k**8 + 94014*k**7 + 272968*k**6 + 454897*k**5 + 62256*k**4 - 571463*k**3 - 1210068*k**2 - 966908*k - 379834"
+  ],
+  "remaining_first_family_geometric_points": 21,
+  "scope": "Characteristic zero; primitive e=2 with top-zero at the chosen endpoint",
+  "open": [
+    "21 first-family exceptional direction fibres",
+    "second rational family",
+    "p0=0 rational boundary family",
+    "p0=0 exceptional boundary family",
+    "top-zero at a nonendpoint point"
+  ]
+}

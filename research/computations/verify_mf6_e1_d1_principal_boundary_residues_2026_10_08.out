@@ -1,0 +1,4 @@
+rhalf_unique finite cubic excess 2 infinity 0 D3 lower bound 3
+Szero_unique finite cubic excess 1 infinity 3 D3 lower bound 5
+c1zero_infinity_defect finite cubic excess 3 infinity 1 D3 lower bound 5
+PASS actual infinity correction is minus c3 and is a unit at both infinity-defect roots

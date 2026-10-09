@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "elapsed_seconds": 0.0817883750423789,
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/validation/2026-10-08-family2-quadratic-audit/isolated/research/computations/verify_session_localcoh_family2_quadratics_2026_10_08.py"
+  ],
+  "input_sha256": {
+    "localcoh-incidence-bases.txt": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+    "localcoh-incidence-tensor.txt": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+    "localcoh-symbol-top.json": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+    "session-localcoh-origin-family-2-exception-qminus-dual.txt": "5c3a0196cf4864bb3f21832a07356c72a70734918141e49762405ac988a5b792",
+    "session-localcoh-origin-family-2-exception-qminus-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "session-localcoh-origin-family-2-exception-qminus.m2": "d5a203778b9ead0b058a5212af02ca25c56d941953d31baf9cc9c75e9436ab1a",
+    "session-localcoh-origin-family-2-exception-qplus-dual.txt": "2c29abaf66b4cd4f99f52499d5bccfacd0db4b741cfde9f4b3f1661705230833",
+    "session-localcoh-origin-family-2-exception-qplus-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "session-localcoh-origin-family-2-exception-qplus.m2": "c001d193fa395b68f156c13e03ae294f0f300a54bbff890e089d866d4fe4d440",
+    "session-localcoh-origin-family-2-seed.json": "126109892afd816b48df9cce415dbf09817352d11727e1a1ccc5a6c5362f1194",
+    "session_localcoh_family2_qminus_audit_2026_10_08.json": "f347f89304f77449a58bd919d478af779fc876b27b02e2c1bb305eb7259e8873",
+    "session_localcoh_family2_qplus_audit_2026_10_08.json": "93ae6da8ccacf636c51df307eb7e515382641a8638d59c1e92b5a4c2d56f3750",
+    "verify_session_localcoh_family2_quadratics_2026_10_08.py": "a1168854beed0d56838851710444a5d2d35ef835333f9ab179d2163f23739ea3"
+  },
+  "snapshot_inputs_unchanged": true,
+  "log_sha256": "69a490fc61abf1fe30a932b6e84f5707470db7e47806aef71921fb4f10dd1aed",
+  "driver_sha256": "5768c8fe42b2022a9c976e1826de48823dd0774bc71a077b62ab9671e73e93d3"
+}

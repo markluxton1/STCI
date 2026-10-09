@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-08",
+  "status": "PASS local exact boundary matrix, actual-chart residue and carrier geometry checks",
+  "scope": "Fixed C0,char0,principal e1,d2=1 complementary frames only",
+  "note": "research/notes/2026-10-08-session-mf6-principal-boundary-audit.md",
+  "sources": [
+    {
+      "source": "research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py",
+      "sha256": "9d485f208f61afc495e43bd62054651df37e65c297534ca9930033c44bfea53e",
+      "outputs": [
+        {
+          "path": "research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_rational.out",
+          "sha256": "32369656349916bfeed67438735a41ceda14552465bb557621c06db7e828a382",
+          "terminal_exit_code": 0,
+          "printed_PASS": true
+        },
+        {
+          "path": "research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_quadratic.out",
+          "sha256": "5c67961f4eb4fa5c4d8744fdfffb2ce297598337e6321f7248a7ea3edfcb9275",
+          "terminal_exit_code": 0,
+          "printed_PASS": true
+        },
+        {
+          "path": "research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_infinity.out",
+          "sha256": "c1f3c070204763b32f9181082b9cd7504019f3b904c7d97b0f71523b40447c44",
+          "terminal_exit_code": 0,
+          "printed_PASS": true
+        }
+      ]
+    },
+    {
+      "source": "research/computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.m2",
+      "sha256": "958f4998a164959982a1c103277ac4efec2b0aec9381c3749d504d0aee5196c2",
+      "outputs": [
+        {
+          "path": "research/computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.out",
+          "sha256": "f88b7f2f9bc4051f8eb8749378eff62e24751dfddedc664c79dcea77a67df89a",
+          "terminal_exit_code": 0,
+          "printed_PASS": true
+        }
+      ]
+    },
+    {
+      "source": "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py",
+      "sha256": "02fac92723ff5b5b29c6024e49d8706e4ffe7445431e55cd1761030adaa6dcdb",
+      "outputs": [
+        {
+          "path": "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.out",
+          "sha256": "ba616eeb794709ab977dd98e050bc5453f5960adfe586a099d860ac547353279",
+          "terminal_exit_code": 0,
+          "printed_PASS": true
+        }
+      ]
+    }
+  ],
+  "independent_audit": "Assigned to /root/verification; do not infer acceptance before its explicit report",
+  "open": "Exact finite nonnormal parameter list and general principal STCI mates; p8 conductor assigned separately"
+}

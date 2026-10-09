@@ -1,0 +1,27 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_nonreduced_independent_audit.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+independent free trees 2 1
+positive 9 valid 0 matches 0
+independent free trees 3 1
+positive 28 valid 0 matches 0
+independent free trees 4 2
+positive 96 valid 0 matches 0
+independent free trees 5 3
+positive 261 valid 6 matches 5
+independent free trees 6 6
+positive 698 valid 18 matches 5
+independent free trees 7 11
+positive 1719 valid 38 matches 7
+independent free trees 8 23
+positive 4102 valid 65 matches 12
+independent free trees 9 47
+positive 9069 valid 99 matches 12
+independent free trees 10 106
+positive 19803 valid 137 matches 12
+independent free trees 11 235
+positive 40594 valid 172 matches 12
+independent free trees 12 551
+positive 80845 valid 195 matches 12
+NONREDUCED INDEPENDENT AUDIT PASS: 381802 195 12
+ALL SURVIVORS d=3,t=2

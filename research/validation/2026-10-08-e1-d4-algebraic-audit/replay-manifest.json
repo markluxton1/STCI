@@ -1,0 +1,14 @@
+{
+  "original_source": "research/computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py",
+  "source_sha256": "ae88024f00b8216be727957930747001b44f457e532a0746e6a8e2a657850a02",
+  "command": "PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python research/validation/2026-10-08-e1-d4-algebraic-audit/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py",
+  "replay_mode": "Exact retained source bytes in isolated directory; self-contained source reads no generated proof input.",
+  "canonical_generated_json_before_sha256": "944b3d9186f440d38a1c8b00f6947f96bed8db185d941e1c79e1023dc3fc4356",
+  "exit_code": 0,
+  "generated_result_sha256": "944b3d9186f440d38a1c8b00f6947f96bed8db185d941e1c79e1023dc3fc4356",
+  "generated_result_matches_retained_canonical": true,
+  "output_log_sha256": "e9893bf369807493e3ac7aa758361ed7089ddce919001bd94545681301a45de6",
+  "independent_audit_note": "research/notes/2026-10-08-session-localcoh-e1-d4-independent-audit.md",
+  "independent_audit_note_sha256": "462254aa034768e9c1ec9a0b5ae981880308715289d69169ffaee9adb911de89",
+  "verdict": "ACCEPT at most one containing quartic for every genuine d2=4 triple in either algebraic direction; narrow characteristic-zero scope"
+}

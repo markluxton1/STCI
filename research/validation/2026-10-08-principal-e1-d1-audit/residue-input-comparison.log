@@ -1,0 +1,16 @@
+{
+  "status": "PASS exact literal-source binding and actual balanced first-normal transition",
+  "source_sha256": "edb4e23bcd12f6059751b20d2d9cbd25cd0c6c186773ec7c5266f742e5c2fac5",
+  "input_sha256": {
+    "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py": "02fac92723ff5b5b29c6024e49d8706e4ffe7445431e55cd1761030adaa6dcdb",
+    "research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_all.json": "1acb8024a6a5f422eb144216f7a5c92fbb73006adade0f35e1feeba57258123c"
+  },
+  "matched_complete35_fibres": [
+    "rhalf_unique",
+    "Szero_unique",
+    "c1zero_infinity_defect"
+  ],
+  "raw_opposite_normal_transition": "(Uraw,Vraw)=z^-7*(V/2,2U)",
+  "balanced_opposite_chart": "x3=1,x2=w,x1=w\u00b3+2Uop,x0=w4+Vop/2+3wUop",
+  "scope": "No carrier geometry or additional mate claim"
+}

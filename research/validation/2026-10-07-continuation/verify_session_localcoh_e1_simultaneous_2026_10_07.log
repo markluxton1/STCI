@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_localcoh_e1_simultaneous_2026_10_07.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: principal actual-pencil determinant and full target remainder matrix; allowed target pair has rank1.
+PASS: both algebraic roots, scalar units and exact polynomial-degree equations; allowed target pair is zero.
+Scope: corrected simultaneous-two-target bridge; global frame and accepted quartic-fibre inputs are explicit.

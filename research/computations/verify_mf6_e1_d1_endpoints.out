@@ -1,0 +1,5 @@
+PASS: six complete 35-column quartic fibers; two rational fixed-cubic fibers, four unique algebraic carriers
+PASS: both defective endpoint cubic excesses are exactly3, so MF6 type(1,3) is excluded there
+PASS: explicit localized-plane map, full inverse support and double-line branch ratio
+RESULT: all six e1,d2=1 endpoint orbits admit no mate supported solely on C0, for every mate degree
+OPEN: principal a0*b1!=0 direction sextic and e1,d2=2 defective incidence

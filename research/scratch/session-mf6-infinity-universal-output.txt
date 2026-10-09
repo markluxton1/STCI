@@ -1,0 +1,16 @@
+PASS: degree-one first defect impossible on all quotient charts
+PASS: degree-two first defect forces one of two pure endpoint triples
+PASS: every compatible quartic equals D times an ambient linear form
+RESULT: every hypothetical characteristic-zero (4,b) pair on C0 with e=0 has deg D2>=3
+PASS: complete degree-three triple-compatible quartic space is a pencil
+PASS: beta!=0 forces deg D3>=9, or >=8 for alpha=-4 beta
+PASS: beta=0 has D3=2D2 and quartic divisor H=3D2
+RESULT: e=0 numerical type (d2,d3)=(3,6) necessarily has regular first-normal ratio
+PASS: actual nonlinear chart transformation through cubic order
+PASS: universal w^9*T_inf=w^8*T(1/w)-S_inf*Jhat; Jhat(0)=1/2
+PASS: every nonzero incidence quartic has S != 0
+PASS: independent direct generic quartic chart expansion
+PASS: annihilation boundary minors have ideal ((A-12)^2,(A-12)(B-4),(B-4)^2)
+PASS: explicit linear-polynomial witnesses certify the minor ideal equality
+PASS: complete exceptional quartic fiber is cubic times all ambient linear forms
+RESULT: e=0 type (d2,d3)=(4,5) is excluded for a (4,6) presentation of C0

@@ -1,0 +1,15 @@
+{
+  "source_sha256": "3732eaea04da7cbf8578fff10ce784eaef1565f4cedab5b9203eae2486388a42",
+  "status": "PASS: exact equation identities; geometric integrality and genus-one normalization by the stated nonsquare argument",
+  "H": "8*p**3 - 64*p**2*r**2 - 128*p**2*r - 16*p**2 + 96*p*r**4 + 512*p*r**3 + 592*p*r**2 + 128*p*r + 6*p - 576*r**6 - 960*r**5 - 880*r**4 - 544*r**3 - 220*r**2 - 60*r - 9",
+  "shift": "x=r+1/2, W=(p+2-4x)/x^2",
+  "elliptic": "Y**2 - (2*W - 12)*(W**2 - 6*W + 36)",
+  "inverse": "x=(C+W*Y)/A; r=x-1/2; p=-2+4x+W*x^2",
+  "A": "-W**3 + 8*W**2 - 12*W + 72",
+  "C": "2*W**2 - 12*W + 72",
+  "weierstrass": "YE^2=XE^3+96*XE-448; XE=2(W-4),YE=2Y",
+  "weierstrass_discriminant": -143327232,
+  "j_invariant": "2048/3",
+  "rational_map_open": "x*W*A!=0; excluded transformation charts remain in the original H curve",
+  "retained": "No full quartic-rank-drop ideal exhaustion, exceptional chart closure, or mate exclusion is claimed."
+}

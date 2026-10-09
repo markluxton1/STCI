@@ -1,4 +1,9 @@
-> **2026-10-06 CONSOLIDATION NOTICE:** The authoritative current status is [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where older frontier language below conflicts with that audited state, the audited state controls. Historical material below is retained for provenance.\n\n# STCI Research Record
+> **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
+
+The [October 7 integrated update](RESEARCH_UPDATE_2026-10-07.md)
+indexes the accepted new theorems, independent audits and exact evidence.
+
+# STCI Research Record
 
 Started: 2026-09-30
 
@@ -2776,6 +2781,20 @@ only 15 of the 36 preliminary nonregular strata remain live.
 
 ### P-032: normalization and conductor criterion for singular support
 
+**2026-10-07 correction to the support notation:** the displayed union of
+curve components below is valid only if the **full** reduced inverse
+image of C has no isolated points. A mate forces this purity, since its
+nonzero section on the normal surface has an effective Cartier zero
+divisor with full inverse-image support. Isolated points exclude every
+mate on that fixed carrier. The equivalence must include the full
+support condition, not merely positivity on the listed curves. The
+[corrected support theorem and conductor-power criterion](notes/2026-10-06-session-conductor-support.md)
+give the proof and a concrete isolated-point example. Under normalization
+defect supported on C, a positive Cartier divisor with full support and
+the required hyperplane linear equivalence has a high canonical-section
+power that descends. Divisor existence and linear equivalence remain
+indispensable.
+
 Let \(C\subset\mathbf P^3_k\) be an integral curve of degree \(d\), let
 \(X=V(F)\) be an integral carrier of degree \(a\), and let
 \(\nu:S=X^\nu\to X\) be its finite normalization.  Put
@@ -4056,7 +4075,8 @@ The status vocabulary is:
 
 **P-044.** In characteristic zero, the ambient stabilizer of
 (C_0=[s^4:s^3t:st^3:t^4]) is
-(mathbf G_mtimesmathbf Z/2). On the open locus (A_2B_0
+(mathbf G_m
+timesmathbf Z/2). On the open locus (A_2B_0
 e0), projective
 scaling plus this genuine torus gives the generic (e=2) cross-section
 [

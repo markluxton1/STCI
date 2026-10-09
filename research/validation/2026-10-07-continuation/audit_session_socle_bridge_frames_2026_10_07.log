@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/audit_session_socle_bridge_frames_2026_10_07.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: exact frame, target, determinant and rank checks
+PASS: principal finite target evaluations contradict the basepoint-free pencil
+PASS: algebraic global degree bounds force both target images to be zero

@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_mf6_e1_defective_structural.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: local triple module syzygies and normalized cubic residue delta^2*f3
+PASS: exact d2=1 sextic and d2=2 linear quadratic-cocycle killing equations
+PASS: six boundary direction triples retained, with their proper endpoint defect
+PASS: type (1,3) quadratic 5x3 Hankel annihilator; type (2,2) five vanishing coefficients
+OPEN: neither universal cubic class nor complete ambient defective incidence is solved

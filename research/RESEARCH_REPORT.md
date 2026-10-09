@@ -1,4 +1,9 @@
-> **2026-10-06 CONSOLIDATION NOTICE:** This is a dated historical synthesis. For the authoritative current mathematical status, see [AUDITED_STATE_2026-10-06.md](AUDITED_STATE_2026-10-06.md). Where frontier language below conflicts with that file, the audited state controls.\n\n# Research Report: Set-Theoretic Complete Intersections of Space Curves
+> **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
+
+See [RESEARCH_UPDATE_2026-10-07.md](RESEARCH_UPDATE_2026-10-07.md)
+for the integrated current research results and validation boundaries.
+
+# Research Report: Set-Theoretic Complete Intersections of Space Curves
 
 Cutoff: 2026-09-30
 
@@ -747,7 +752,8 @@ This report's synthesis has a 2026-09-30 cutoff and is retained as a historical
 closeout. A later characteristic-zero (e=2) quartic-carrier branch is
 recorded in `RESEARCH_UPDATE_2026-10-05.md` and
 `notes/2026-10-05-e2-full-obstruction.md`. It proves the ambient stabilizer
-(mathbf G_mtimesmathbf Z/2), excludes the full (b=0) three-parameter
+(mathbf G_m
+timesmathbf Z/2), excludes the full (b=0) three-parameter
 primitive-quadruple family, and independently regenerates the generic
 four-parameter cubic obstruction. Importantly, the proposed universal
 implication (Omega=0RightarrowDelta=0) is **FALSE**: an explicit

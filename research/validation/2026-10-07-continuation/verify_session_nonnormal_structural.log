@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_nonnormal_structural.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: four source-table genera, Roman differential/Euler identities,
+six pinch points and full-rank no-conic evaluation, plus the exact
+degenerate-pinch model with smooth image and unbounded conductor contact.

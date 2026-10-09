@@ -1,0 +1,19 @@
+{
+  "research/computations/audit_session_mf6_rhalf_conductor_2026_10_08.json": "ad85d44c627a832b20a4458985e8575934f505b39d98773c55f6688f2b609d0e",
+  "research/computations/audit_session_mf6_rhalf_conductor_2026_10_08.py": "cb8c023f28eba2408b335d1f4be384c3569ab15b88616e4c900913acd206484c",
+  "research/computations/mf6_principal_boundaries_2026_10_08_provenance.json": "b781760fb0fea8bde5f5d7371d9edd89a604f77eca53544d6237fc81641ba438",
+  "research/computations/session-localcoh-origin-family-2-exception-qminus-dual.txt": "5c3a0196cf4864bb3f21832a07356c72a70734918141e49762405ac988a5b792",
+  "research/computations/session-localcoh-origin-family-2-exception-qminus-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+  "research/computations/session-localcoh-origin-family-2-exception-qminus.m2": "d5a203778b9ead0b058a5212af02ca25c56d941953d31baf9cc9c75e9436ab1a",
+  "research/computations/session_localcoh_family2_qminus_audit_2026_10_08.json": "f347f89304f77449a58bd919d478af779fc876b27b02e2c1bb305eb7259e8873",
+  "research/computations/session_localcoh_family2_qplus_audit_2026_10_08.json": "93ae6da8ccacf636c51df307eb7e515382641a8638d59c1e92b5a4c2d56f3750",
+  "research/computations/session_localcoh_family2_quadratics_audit_2026_10_08.out": "69a490fc61abf1fe30a932b6e84f5707470db7e47806aef71921fb4f10dd1aed",
+  "research/computations/session_localcoh_family2_quadratics_execution_2026_10_08.json": "a5ef12db733edc97fe7a94a7da26b5956a05f565e90cd9c0240ca431a71a56d4",
+  "research/computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.m2": "958f4998a164959982a1c103277ac4efec2b0aec9381c3749d504d0aee5196c2",
+  "research/computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.out": "f88b7f2f9bc4051f8eb8749378eff62e24751dfddedc664c79dcea77a67df89a",
+  "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.json": "82cb665363fae158410841ed030fe286b4ad9d568987ab2dcffea309780a6d8d",
+  "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.out": "ba616eeb794709ab977dd98e050bc5453f5960adfe586a099d860ac547353279",
+  "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py": "02fac92723ff5b5b29c6024e49d8706e4ffe7445431e55cd1761030adaa6dcdb",
+  "research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.json": "8c4ff1214e72389cc8960d1b50e421393c4db44c876f295463ba484c3736cd88",
+  "research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.py": "9d532c25c9f50f206e0d57c5ce7f35b9feb54707bf1b630fd622c0c473028aa2"
+}
