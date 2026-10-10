@@ -1,0 +1,43 @@
+-- Exact identities for the actual conductor-line positions on C0.
+-- Characteristic zero; no sampled parameters and no mate search.
+R=QQ[a,b,k,s,t,l,m];
+checks=0;
+proofCheck=(label,condition)->(
+    if not condition then error("FAIL: "|label);
+    checks=checks+1;
+);
+P={1,a,a^3,a^4};
+Q={1,b,b^3,b^4};
+V=apply(0..3,i->l*P#i+m*Q#i);
+proofCheck("complete finite-secant q identity",V#0*V#3-V#1*V#2==l*m*(a-b)^2*(a^2+a*b+b^2));
+dP={0,1,3*a^2,4*a^3};
+V=apply(0..3,i->l*P#i+m*dP#i);
+proofCheck("complete finite-tangent q identity",V#0*V#3-V#1*V#2==-3*a^2*m^2);
+Pinfinity={0,0,0,1};
+V=apply(0..3,i->l*P#i+m*Pinfinity#i);
+proofCheck("secant through infinity",V#0*V#3-V#1*V#2==l*m);
+XX={s^4,s^3*t,s*t^3,t^4};
+g=t^3-k*s^3;
+proofCheck("finite trisecant first generator",XX#2-k*XX#0==s*g);
+proofCheck("finite trisecant second generator",XX#3-k*XX#1==t*g);
+proofCheck("endpoint infinity first generator",XX#0==s*s^3);
+proofCheck("endpoint infinity second generator",XX#1==t*s^3);
+S2=a^2+a*b+b^2;
+S3=(a+b)*(a^2+b^2);
+f=(t-a*s)*(t-b*s);
+T0=XX#2-S2*XX#1+a*b*(a+b)*XX#0;
+T1=XX#3-S3*XX#1+a*b*S2*XX#0;
+u=s*(t+(a+b)*s);
+v=t^2+(a+b)*s*t+S2*s^2;
+proofCheck("finite secant homogeneous first residual",T0==f*u);
+proofCheck("finite secant homogeneous second residual",T1==f*v);
+proofCheck("finite residual infinity has no common zero",sub(v,{s=>0})==t^2);
+proofCheck("finite residual other root boundary",sub(v,{t=>-(a+b)*s})==S2*s^2);
+proofCheck("coincident tangent boundary",sub(S2,{b=>a})==3*a^2);
+f=s*(t-a*s);
+proofCheck("infinity secant first residual",XX#1-a*XX#0==f*s^2);
+proofCheck("infinity secant second residual",XX#2-a^3*XX#0==f*(t^2+a*s*t+a^2*s^2));
+proofCheck("infinity residual has no common zero",sub(t^2+a*s*t+a^2*s^2,{s=>0})==t^2);
+proofCheck("cube collision identity",a^3-b^3==(a-b)*S2);
+proofCheck("endpoint triple factor",sub(g,{k=>0})==t^3);
+print("PASS genus-two literal line-position identities: "|toString checks|" checks");

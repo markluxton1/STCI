@@ -1,0 +1,21 @@
+| vzw-uw2 z3-vw2 vz2-uzw |
+{3} | u v w 0 0 0 0 0 0 0 0 |
+{3} | 0 0 0 u v z w 0 0 0 0 |
+{3} | 0 0 0 0 0 0 0 u v z w |
+3
+image | vzw-uw2 z3-vw2 vz2-uzw |
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/methods.m2:158:23:(1):[10]: error: no method found for applying lift to:
+     argument 1 :  {3} | u v w 0 0 0 0 0 0 0 0 | (of class Matrix)
+                   {3} | 0 0 0 u v z w 0 0 0 0 |
+                   {3} | 0 0 0 0 0 0 0 u v z w |
+                    1
+     argument 2 :  R
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/methods.m2:154:98:(1):[9]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/option.m2:17:14:(1):[8]: --back trace--
+research/validation/2026-10-10-trisecant-ideal-independent-audit/diagnose-basis.m2:12:10:(3):[7]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:80:23:(0):[6]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:131:28:(1):[5]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:127:13:(1):[3]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:138:29:(1):[2]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:547:66:(0):[1]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:635:41:(2): --back trace--

@@ -1,7 +1,7 @@
-# Canonical audited state — 2026-10-07, reconciled through 2026-10-09
+# Canonical audited state — 2026-10-07, reconciled through 2026-10-10
 
 This is the continuation entry point for the research session begun on
-2026-10-06 and resumed on 2026-10-07 and 2026-10-08. It supersedes conflicting frontier
+2026-10-06 and resumed through 2026-10-10. It supersedes conflicting frontier
 language in the 2026-10-06 state and older handoffs. Detailed proofs,
 independent audits, exact certificates, failed checks and source scopes
 remain in the linked notes. No claim of novelty is made for a result
@@ -501,11 +501,44 @@ unique curve lift. Repeated roots are covered by the
 [independent full-fiber audit](notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md).
 This does not exhaust all four-A1 projections.
 
-**OPEN remaining quartic geometry:** rational singular normalization
-with pi=1 in the two types above, or pi=2. Its smooth lifted curve
-must meet Sing(S) in a non-Cartier torsion class. Other four-A1
-projections, A3+2A1, and genus-two conductors are not excluded.
-Higher carrier degrees and entirely thick presentations remain open.
+**PROVED complete genus-one exclusion:** every integral quartic carrier
+of fixed C0 with normalization sectional genus one is excluded in every
+characteristic-zero mate degree. The entire fixed-center ribbon net and
+conductor reduction, squarefree and `[2,1,1]` proofs, and all repeated
+partitions `[4]`, `[3,1]`, `[2,2]` have passed separate audits. This
+exhausts both complete ADE types above, including their arbitrary
+projections with the actual fixed C0 center, rather than only displayed
+families. The independent full-ideal certificates retain all hidden
+determinant branches. The last surviving pencil fails descent for every
+power by its nonconstant trace-square/norm ratio. See the
+[October 10 acceptance](notes/2026-10-10-session-results-acceptance.md),
+[interface audit](notes/2026-10-10-session-genus-one-interface-independent-audit.md),
+and [complete repeated-partition audit](notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
+The fixed-C0 projection restriction must not be transferred to arbitrary
+smooth rational quartics.
+
+**PROVED genus-two conductor and bounded section reduction:** every
+remaining normalization has rational singularities; its actual downstairs
+conductor is a reduced line, and its entire upstairs conductor is a finite
+flat double cover with algebra `O_P1 direct-sum O_P1(-2)`, including the
+nonreduced case. It need not be Cartier upstairs. The adjoint pencil
+`f=K_M+L` has square zero and conic degree two. Both mate strata
+`(lambda,q)=(0,4),(1,3)` survive. In the section stratum the cases with
+no degree-zero horizontal prime `B=e0-e_i-e_j` are now excluded; the
+`B`-present free-child/satellite configurations remain open. See the
+[entire-conductor audit](notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
+and [bounded no-B audit](notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md).
+
+**OPEN remaining quartic geometry:** only sectional genus two remains
+as an integral quartic-carrier normalization lane for fixed C0.
+The [ambient blowup theorem](notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md)
+is now accepted: its actual strict transform in `Bl_Gamma(P3)` is
+normal ADE with class `4H_B-2E_B`, canonical sheaf `O(-E_B)`, and
+crepant resolution M. The actual line-plane ratio is the adjoint pencil;
+`length(Gamma intersect C0)=4-f.c#` makes the surviving mate strata
+bisecants/tangents or trisecants, with all repeated contacts retained.
+Neither stratum is excluded by this structural theorem. Higher carrier
+degrees and entirely thick presentations remain open.
 
 ## G. Literature corrections and global continuation
 
@@ -532,3 +565,10 @@ execution/provenance integrity, not proof of unrecorded hypotheses. It
 preserves failed runs and explicitly records the lost source bytes of a
 superseded Veronese checker revision; the current stronger revision has
 a separate hash-matching snapshot and fresh PASS.
+
+These counts and the October 9 integrity seal are historical; the
+[two isolated October 10 root replays](validation/2026-10-10-genus-one-root-replay/execution-manifest.json)
+are additional executions of two independently authored M2 companions
+(42 identities and 29 conditions). The new interface audit corrects the
+older `[2,1,1]` checker's evidence attribution. The old temporary Python
+currently lacks SymPy; the new checks use verified Macaulay2 1.26.06.

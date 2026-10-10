@@ -1,0 +1,30 @@
+PASS: [3,1] full E2 determinant
+PASS: [3,1] nonzero rank-two minor at every determinant root
+PASS: [3,1] eta0=1 chart is exhaustive
+PASS: [3,1] ENTIRE universal net/support ideal equals survivor linear ideal
+PASS: [3,1] survivor has exactly one affine parameter
+PASS: [3,1] survivor direction is off intrinsic conic
+PASS: [2,2] full E2 determinant
+PASS: [2,2] nonzero rank-two minor at every determinant root
+PASS: [2,2] eta0=1 chart is exhaustive
+PASS: [2,2] ENTIRE universal net/support ideal equals survivor linear ideal
+PASS: [2,2] survivor has exactly one affine parameter
+PASS: [2,2] eta1=0 boundary retained and off intrinsic conic
+PASS: [3,1] endpoint-triple invisible E2 determinant
+PASS: [3,1] endpoint-triple nonzero minor
+PASS: [4] invisible E2 determinant
+PASS: [4] every pencil term contains the singular line
+PASS: [4] full E0 gradient vanishes on line
+PASS: [3,1] both quadrics contain actual singular line
+PASS: [3,1] full T gradient vanishes on line
+PASS: [2,2] actual monic projection equation
+PASS: [2,2] actual linear projection equation
+PASS: [2,2] actual Cartier-double quadric reduction
+PASS: [2,2] entire conductor conic smooth
+PASS: [2,2] exact trace/norm/discriminant identity
+PASS: [2,2] independent conic section x1=0
+PASS: [2,2] norm nonzero at both independent points
+PASS: [2,2] independent all-powers obstruction T2/N=22+72x2
+PASS: [2,2] independent section has two distinct roots
+PASS: [2,2] quadratic cover is separable at both independent points
+PASS: 29 independent exact conditions

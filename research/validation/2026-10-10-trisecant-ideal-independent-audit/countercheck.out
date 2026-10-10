@@ -1,0 +1,10 @@
+QQ[a] ideal equality: PASS
+| vzw-uw2 vz2-uzw auz2+z3-vw2 au2zw+uz2w-v2w2 au3w2-v3w2+u2zw2 |
+Original C0 kernel: PASS
+fiber a=0: ideal equality and quartic ranks 7+4=11 PASS
+fiber a=1: ideal equality and quartic ranks 7+4=11 PASS
+fiber a=-1: ideal equality and quartic ranks 7+4=11 PASS
+fiber a=2: ideal equality and quartic ranks 7+4=11 PASS
+fiber a=-2: ideal equality and quartic ranks 7+4=11 PASS
+fiber a=3/2: ideal equality and quartic ranks 7+4=11 PASS
+All checks passed.

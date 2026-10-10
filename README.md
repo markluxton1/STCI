@@ -8,7 +8,7 @@ The universal problem and the unrestricted characteristic-zero rational
 quartic test case remain unresolved in this repository.
 
 Start with the [current audited state](research/AUDITED_STATE_2026-10-07.md).
-The [research update through October 9](research/RESEARCH_UPDATE_2026-10-07.md)
+The [research update through October 10](research/RESEARCH_UPDATE_2026-10-07.md)
 and [dated continuation handoff](research/SUCCESSOR_HANDOFF_2026-10-07.md)
 index the all-degree normal-quartic and complete smooth-normalization
 exclusions, the rationality and genus-one del Pezzo reductions,
@@ -27,8 +27,16 @@ The [October 9 acceptance record](research/notes/2026-10-09-session-results-acce
 closes the remaining sectional-genus-zero cone and nonrational
 normalizations, excludes a uniform singular four-A1 family, and proves
 an explicit 630-point necessary bound for principal MF6 mate parameters.
-Other four-A1 projections, A3+2A1, rational genus-two normalizations,
-higher carrier degrees and entirely thick presentations remain open.
+The [October 10 acceptance](research/notes/2026-10-10-session-results-acceptance.md)
+now excludes the entire genus-one quartic-normalization lane for fixed C0
+in every characteristic-zero mate degree, using complete fixed-center
+ribbon and conductor proofs with separate interface/coverage audits.
+The only remaining integral quartic-carrier normalization lane is genus
+two. Its actual conductor is a reduced line with a finite flat upstairs
+double cover, and its actual ambient line-blowup strict transform is a
+normal ADE conic model. Both section and bisection mate strata remain open, with
+the no-degree-zero-horizontal section subcase excluded. Higher carrier
+degrees and entirely thick presentations remain open.
 The [research record](research/RESEARCH_RECORD.md),
 [literature ledger](research/LITERATURE_LEDGER.md), and
 [computation guide](research/computations/README.md) preserve proofs,

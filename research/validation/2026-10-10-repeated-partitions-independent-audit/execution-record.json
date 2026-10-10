@@ -1,0 +1,35 @@
+{
+  "record_type": "Observed independent exact audit execution, with failed attempts retained separately",
+  "date": "2026-10-10",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": "/opt/homebrew/bin/M2 --script research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2",
+  "exit_code": 0,
+  "tool_chunk": "d3531b",
+  "wall_time_seconds": 0.533071458,
+  "engine": "Macaulay2 1.26.06",
+  "status": "PASS",
+  "checked_conditions": 29,
+  "scope": "Complete [4], [3,1], [2,2] conditional on the stated ribbon-net and actual projection/conductor hypotheses. Upstream interface completeness and [2,1,1] are separate audits.",
+  "independent_certificates": [
+    "Full universal I31 equals its single survivor linear ideal, using an exhaustive eta0=1 chart",
+    "Full universal I22 equals its single survivor linear ideal, including eta1=0 boundary",
+    "Actual full singular lines for [4] and [3,1]",
+    "Different actual-conductor section x1=0, with 18t^2-1=0 and T^2/N=22+72t"
+  ],
+  "frozen_files": [
+    {"path": "research/notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md", "sha256": "a7ee3496fe5b3aaedae9b0a34abdfcbc63e6dfbda1d7993cc301d7cb23fc1cf1", "role": "Completed independent written audit"},
+    {"path": "research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2", "sha256": "410ec3e77e38f0596a50cbfe5b923862cb3bd09bf07e6616cd25a31148366807", "role": "Successful independently written mathematical source"},
+    {"path": "research/validation/2026-10-10-repeated-partitions-independent-audit/result.json", "sha256": "e1a6f6d34bdfa1eaf8429fbfc2ff959025c5af35199cf55cf661ed522ad6748c", "role": "Generated successful result"},
+    {"path": "research/validation/2026-10-10-repeated-partitions-independent-audit/successful-stdout.txt", "sha256": "4a19ee9648bab76b08e0073efc031027ab57fd16198c31f77190f66a237bae1b", "role": "Faithful transcript of the tool-returned successful stdout, saved after the run with apply_patch; not claimed as a file captured during execution"},
+    {"path": "research/notes/2026-10-09-session-ribbon-repeated-partitions-complete.md", "sha256": "c3ce7eae610cc3be56d2894289cd5b96151af899bde17f3b962aa4f71ee7768e", "role": "Audited owner proof"},
+    {"path": "research/computations/verify_session_ribbon_repeated_partitions_2026_10_09.py", "sha256": "25a0ffcc2d4d46f1fec158ed6bde86b1b939725fe9396a57446e1c6ff4d182d8", "role": "Audited owner checker, not re-executed in this audit"},
+    {"path": "research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.py", "sha256": "5b00be29163b33cd548f1f47ec5371af2db832e9b94f7888d57a336bf6a41f86", "role": "Import-failed proposed source; no mathematical checks ran"},
+    {"path": "research/validation/2026-10-10-repeated-partitions-independent-audit/parser-failed-countercheck.m2", "sha256": "52fd0781b21f9d21bdd5cab29f1d36f1a283ab8190a1aeb1a3a54cfaa3246c3a", "role": "Preserved source of the parser-precedence failure after 23 successful conditions"},
+    {"path": "research/validation/2026-10-10-repeated-partitions-independent-audit/namespace-failed-countercheck.m2", "sha256": "17ea0e05f4c7900b19086ec97585376f9d958186634cffaedab504f35b2bee22", "role": "Mechanically reconstructed source for the protected-name failure; provenance explained in failed-attempts.json"},
+    {"path": "research/validation/2026-10-10-repeated-partitions-independent-audit/failed-attempts.json", "sha256": "98c7dea247ca53dd960ded019a577256644ab6985ca26e25d074b8e176e47dc3", "role": "All mathematical execution attempts and read-only runtime observations; no dependency installation"}
+  ],
+  "old_seals_modified": [],
+  "canonical_edits": [],
+  "indexing_instruction": "One new successful M2 source/execution; keep the historical 97/110 seal frozen. Failed scaffolds and the import-failed Python source are not passing mathematical certificates.",
+  "limitations": "Does not prove upstream genus-one reductions, [2,1,1], higher carrier degrees, positive characteristic, or the universal STCI claim."
+}

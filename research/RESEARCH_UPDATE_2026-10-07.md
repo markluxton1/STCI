@@ -1,4 +1,4 @@
-# Sustained research update — 2026-10-06 through 2026-10-09
+# Sustained research update — 2026-10-06 through 2026-10-10
 
 This record integrates the interrupted session and its continuation.
 The authoritative short frontier is
@@ -9,6 +9,34 @@ characteristic, direction and defect hypotheses. Agreement of programs
 is evidence for their finite arithmetic scope; the geometric arguments
 are supplied separately.
 
+## October 10 accepted frontier
+
+The [new root acceptance](notes/2026-10-10-session-results-acceptance.md)
+supersedes older open genus-one language below. Every integral quartic
+containing fixed C0 whose normalization has sectional genus one is now
+excluded in every characteristic-zero mate degree. The entire ribbon-net
+and fixed projection/conductor chain, all five contact partitions, and
+all positive power exponents have separate complete audits. Two new
+independent M2 companions (42 and 29 exact controls) passed an
+[isolated root replay](validation/2026-10-10-genus-one-root-replay/execution-manifest.json).
+The fixed deleted-middle center is essential; this theorem is not
+automatically a theorem about every smooth rational quartic embedding.
+
+For genus two, the [actual conductor-line theorem](notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
+is accepted without a mate: rational singularities, entire reduced
+downstairs line, finite flat quadratic upstairs algebra
+`O direct-sum O(-2)`, including nonreduced covers. Both
+`(lambda,q)=(0,4),(1,3)` remain. The
+[bounded no-B section proof](notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md)
+excludes only the latter subcase where its degree-zero horizontal prime
+is absent. The [ambient line-blowup audit](notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md)
+is now accepted: the actual strict transform is normal ADE and crepant,
+and the actual conic pencil identifies both strata with length-two or
+length-three line intersections. Further residual-conductor and second
+pencil arguments remain separate proof obligations.
+The older 97/110 execution totals and October 9 seal remain frozen
+historical records, not totals of the new results.
+
 ## Reconstruction and corrections
 
 The live checkout was reconstructed from the October 6 audited state,
@@ -16,9 +44,11 @@ resume reconciliation, research record, handoff and source files. The
 continued checkout is on `research/ultra-resume-2026-10-06`; the retained
 interruption snapshot is `3ffda7548a863387429adab61eefe02575e86297`.
 Working changes and newly created notes are the current evidence.
-Live inspection subsequently found HEAD
-`e7c9c9594795271ff2c1b0a9026955523975e7d7`, with title
-`2026-10-09 morning limit reached`; root did not perform that Git mutation.
+Live inspection on October 10 found HEAD
+`406d63db72000a3951497a0ba2a8fbfbc13e8ead`, with title
+`2026-10-09 afternoon limit reached`; root did not perform that Git mutation.
+The previously observed morning HEAD `e7c9c9594795271ff2c1b0a9026955523975e7d7`
+is historical.
 The earlier interruption commit is historical, and the current checkout
 and completed dated records control continuation.
 
@@ -339,11 +369,13 @@ stronger results:
   in every mate degree, including repeated roots of L_C. Its actual
   normalization has an extra point over C0 outside the unique lifted
   curve, so full inverse support fails. The [separate audit](notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md)
-  checks its entire construction. Other four-A1 projections remain.
+  checks its entire construction. The later October 10 full ribbon-net
+  theorem now also excludes every other genus-one projection for fixed C0.
 
 The surviving integral-quartic geometry is a rational singular
-normalization of genus one in those two types, or genus two, with a
-non-Cartier smooth lifted curve meeting its singular locus. Higher
+normalization of genus two, with a non-Cartier smooth lifted curve
+meeting its singular locus. The October 10 theorem closes genus one.
+Higher
 carrier degrees and entirely thick presentations remain separate
 open branches. The unrestricted C0 and universal questions are open.
 
@@ -370,10 +402,10 @@ The most valuable remaining directions are structural:
    preceding sextic direction locus and six exact endpoint triples.
 2. The normal, every smooth-normalization and every genus-zero quartic
    carrier class is excluded. Nonrational normalization cannot contain
-   C0. Investigate the remaining rational singular normalizations:
-   genus one with exactly 4A1 or A3+2A1 and even mate degree, or
-   genus two. Reconstruct other four-A1 projections and A3+2A1
-   conductor descent while retaining full inverse-image support.
+   C0. Genus one is now excluded by the full fixed-center ribbon and
+   conductor chain. Investigate genus two using the actual conductor
+   line, normal ambient conic model and both section/bisection strata.
+   Retain full inverse-image support and singular/nonreduced covers.
    Preserve the semi-log-canonical restriction in modern classification
    summaries; do not import the scroll ACM conductor classification
    as a classification of all quartic surfaces.

@@ -3,6 +3,14 @@
 The [October 7 integrated update](RESEARCH_UPDATE_2026-10-07.md)
 indexes the accepted new theorems, independent audits and exact evidence.
 
+The [October 10 acceptance](notes/2026-10-10-session-results-acceptance.md)
+closes the entire genus-one quartic-carrier lane for fixed C0 in
+characteristic zero and accepts the genus-two actual conductor-line and
+bounded no-degree-zero-horizontal section reductions. Older conflicting
+open genus-one statements in this historical record are superseded.
+Genus two, higher carriers, entirely-thick presentations and the
+unrestricted problems remain open.
+
 # STCI Research Record
 
 Started: 2026-09-30

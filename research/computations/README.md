@@ -1,11 +1,27 @@
 # Exact computation checks
 
-## Accepted sources through October 9 and their scope
+## Accepted sources through October 10 and their scope
 
 The [current audited state](../AUDITED_STATE_2026-10-07.md) and
 [integrated update](../RESEARCH_UPDATE_2026-10-07.md) control the
 mathematical frontier. Run only changed or relevant sources; a successful
 identity check is not a replacement for the linked geometric proof.
+
+New October 10 controls are the independent
+[`[211]` M2 companion](verify_session_genus_one_211_interfaces_2026_10_10.m2)
+(42 exact identities) and
+[repeated-partition M2 companion](../validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2)
+(29 exact conditions, including complete ideal equality). Both passed
+an [isolated root replay](../validation/2026-10-10-genus-one-root-replay/execution-manifest.json)
+with actual source copies and subprocess streams. The
+[October 10 acceptance](../notes/2026-10-10-session-results-acceptance.md)
+binds those certificates to the separately audited geometric chain and
+full genus-one theorem. Copies and replays are not additional distinct
+mathematical verifiers. The older `[211]` note's attribution to its current
+Python companion was inaccurate; the new audit and certificate correct
+it explicitly. Historical failures remain recorded. Current temporary
+and bundled Python environments lack SymPy; use the verified M2 runtime
+for these new sources rather than claiming a current Python replay.
 
 - `verify_mf6_infinity_universal.py` reconstructs the full e=0 type
   (d2,d3)=(4,5) incidence, moving cubic transition, annihilator minors

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-10",
+  "author": "oct10_line_position_mate",
+  "status": "PASS",
+  "scope": "17 exact homogeneous identities and coordinate-boundary controls for literal line positions on C0; no mate search",
+  "source": "research/computations/verify_session_genus_two_line_positions_2026_10_10.m2",
+  "source_sha256": "731203f95f4bd7fdde1c8c4511f3db3946f8c9eb1839ef6457e69a7a66d43b17",
+  "command": "/opt/homebrew/bin/M2 --script research/computations/verify_session_genus_two_line_positions_2026_10_10.m2",
+  "runtime": "Macaulay2 1.26.06_1 (path identified in prior observed failure traceback)",
+  "execution": {
+    "tool_chunk_id": "7d156d",
+    "exit_code": 0,
+    "wall_time_seconds": 0.521006917,
+    "stdout": "PASS genus-two literal line-position identities: 17 checks\n"
+  },
+  "development_failures": [
+    {
+      "tool_chunk_id": "500341",
+      "exit_code": 1,
+      "wall_time_seconds": 0.506524167,
+      "error": "assignment to protected global variable check",
+      "repair": "renamed the local verifier function to proofCheck"
+    },
+    {
+      "tool_chunk_id": "b34905",
+      "exit_code": 1,
+      "wall_time_seconds": 0.50435125,
+      "error": "single-argument function applied to a four-entry coordinate list was parsed as four arguments",
+      "repair": "used the actual quadratic expression directly in each identity"
+    }
+  ],
+  "provenance_boundary": "This is an observed root-tool execution record. It is not an isolated replay and does not claim that superseded development source bytes were preserved. The exact final source is bound by SHA-256."
+}

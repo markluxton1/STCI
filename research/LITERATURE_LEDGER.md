@@ -44,7 +44,16 @@ the companion local-cohomology notes.
 - Together with the 2024 book and the dated searches recorded here, this is
   the most recent explicit checked source for the current open status.  It is
   still a literature-search conclusion, not proof of absence of an unindexed
-  result.
+result.
+
+The [October 10 repository acceptance](notes/2026-10-10-session-results-acceptance.md)
+records a new complete genus-one quartic-carrier proof for fixed C0 and
+genus-two conductor reductions. These are repository proof/audit labels,
+not literature novelty claims or an unrestricted resolution. The new
+interface audit checks Dolgachev's anticanonical results for singular
+degree-four del Pezzo surfaces; the conductor audit records primary
+finite/proper duality inputs. No new global-resolution literature search
+is represented by this record-routing update.
 
 ### Hartshorne--Polini, 2019
 

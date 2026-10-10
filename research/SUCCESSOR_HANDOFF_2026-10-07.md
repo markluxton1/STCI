@@ -1,4 +1,4 @@
-# Continuation handoff — 2026-10-07, reconciled through 2026-10-09
+# Continuation handoff — 2026-10-07, reconciled through 2026-10-10
 
 Read [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md) first, then
 [RESEARCH_UPDATE_2026-10-07.md](RESEARCH_UPDATE_2026-10-07.md), the relevant
@@ -9,8 +9,10 @@ problem remain unresolved.
 ## Live checkpoint
 
 The current branch is `research/ultra-resume-2026-10-06`. Live inspection
-found HEAD `e7c9c9594795271ff2c1b0a9026955523975e7d7`, title
-`2026-10-09 morning limit reached`. The retained October 6 interruption
+found HEAD `406d63db72000a3951497a0ba2a8fbfbc13e8ead`, title
+`2026-10-09 afternoon limit reached`. The previously observed morning
+HEAD `e7c9c9594795271ff2c1b0a9026955523975e7d7` is historical.
+The retained October 6 interruption
 commit `3ffda7548a863387429adab61eefe02575e86297` is historical.
 Inspect `git status` and current sources before trusting any older hash.
 No changes were reset or wholesale research branches merged in this
@@ -53,9 +55,18 @@ quartic carrier in all mate degrees. Every nonnormal quartic containing
 C0 has rational normalization, without assuming a mate. Genus one is
 a degree-four ADE del Pezzo model; the necessary D5 torsion filter
 leaves only 4A1 and A3+2A1 and even mate degrees. A uniform four-A1
-family is excluded by extra normalization points, but other projections
-of that type and A3+2A1 remain open. Genus-two rational normalizations
-also remain open.
+family is excluded by extra normalization points. The
+[October 10 acceptance](notes/2026-10-10-session-results-acceptance.md)
+now closes the entire genus-one lane, including every projection of
+both types compatible with fixed C0, in every mate degree. The complete
+ribbon-net, conductor and five-partition proofs have separate interface
+and coverage audits, with two new independent M2 companions and root
+isolated replays. Genus two is the only surviving integral-quartic lane.
+Its actual conductor is a reduced line and its actual ambient strict
+transform is normal ADE/crepant with the conic ruling. Both
+`(lambda,q)=(0,4),(1,3)` remain open; the section case without a
+degree-zero horizontal `B=e0-e_i-e_j` is excluded. No all-degree theorem
+forcing a quartic carrier has been established.
 
 The normal theorem does not imply that arbitrary quartic carriers are
 excluded. The historical broad e=2 theorem does not imply that larger
@@ -121,12 +132,16 @@ does not imply an embedded global STCI pair.
    and [differential lemma](notes/2026-10-08-session-normalization-differential-independent-audit.md).
    Every smooth normalization and the entire genus-zero lane are now
    excluded, and nonrational normalizations cannot contain C0 at all.
-   Focus on rational singular normalizations: genus one has only the
-   complete types 4A1 and A3+2A1 after the del Pezzo/D5 proofs; genus
-   two remains open. Reconstruct all four-A1 projections and the
-   A3+2A1 conductor before claiming those types exhausted. The displayed
-   four-A1 family fixes two singular passages at C0 endpoints and is
-   not the whole type. A smooth lift at a singular normalization point
+   Genus one is now completely excluded for fixed C0 by the
+   [interface audit](notes/2026-10-10-session-genus-one-interface-independent-audit.md)
+   and [remaining-partition audit](notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
+   Focus on genus two: actual conductor line, normal ambient conic
+   model, and both surviving mate strata. The no-B section case is
+   closed; B-present free/satellite patterns and the bisection remain
+   open. The accepted ambient lift turns these into actual trisecant
+   or bisecant/tangent line cases, retaining endpoint triple contacts.
+   Residual-conductor and second-pencil reductions are new ongoing work,
+   not yet global exclusions. A smooth lift at a singular normalization point
    may be non-Cartier even though b c is Cartier; the local
    countershield is an actual degree-two projective curve, not a
    C0 counterexample. Do not transfer the ACM cubic classification
@@ -143,10 +158,11 @@ does not imply an embedded global STCI pair.
 
 ## Reproduction and evidence
 
-Use `PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python`
-for SymPy and `/opt/homebrew/bin/M2 --script` for Macaulay2 while those
-paths exist. The temporary Python environment is not guaranteed to
-survive a future machine session; inspect the environment record.
+The old `PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python`
+SymPy command is historical: current checks found no SymPy in that
+runtime or the desktop-bundled Python. New independent sources use
+`/opt/homebrew/bin/M2 --script`, verified as Macaulay2 1.26.06. Reinspect
+the runtime before a future replay; no package was installed here.
 The corner and generic sparse polynomial-dual verifiers use Python's
 standard library for checking their stored identities.
 
@@ -160,8 +176,8 @@ proof or full parameter exhaustion.
 
 Use the newer [validation index](validation/2026-10-08-continuation-index/index.json)
 and [October 8 checkpoint](notes/2026-10-08-session-checkpoint.md) for the
-complete continuation counts (97 latest-PASS sources and 110 indexed
-executions), retained failures, interrupted-agent state,
+historical frozen continuation counts (97 latest-PASS sources and 110
+indexed executions), retained failures, interrupted-agent state,
 and the explicit superseded Veronese-source retention limitation. All
 agents have stopped at usage limits and subsequently resumed after
 verified resets. At 2026-10-09 11:25:38 UTC the next reset had passed;
@@ -170,7 +186,11 @@ normalization agents resumed. They later stopped at the weekly usage
 limit, reporting October 14 at 8:24 AM local. Root preserved their
 completed records and separately finished the D5 proof reconstruction
 and record seal; no reset credit was used. Assignments without completed
-evidence are not results. Root did not mark the global goal complete.
+evidence are not results. Those quota observations are historical;
+live October 10 agents have delivered new completed audits and remain
+active on the open conic-model cases. Root did not mark the global goal
+complete. New source paths and replays are recorded separately; do not
+inflate the historical index or count copied sources as new verifiers.
 
 If a tool or agent stops, inspect its current process/session handle
 and final artifact status. An .m2 input file or an intended run is not
