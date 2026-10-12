@@ -1,0 +1,5 @@
+PASS 1: V first-symbol numerator is the displayed cubic
+PASS 2: twice U first-symbol numerator is the displayed cubic
+PASS 3: target-infinity homogeneous common-root condition
+PASS 4: both cubics cannot vanish identically at nonzero separation
+PASS 5: explicit coprime homogeneous-cubic example (no admissibility claim for this point)

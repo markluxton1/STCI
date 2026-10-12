@@ -1,5 +1,14 @@
 > **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
 
+The [October 12 quintic continuation acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+closes the entire intrinsic endpoint projection family in the genus-one
+quintic A4 lane, in every characteristic-zero mate degree. The separately
+classified nonendpoint center retains a modulus and remains open.
+The all-quartic theorem, minimum defining degrees at least five, higher
+open scope and exact distinction between proofs, necessary numerical
+profiles and record checks are unchanged. The direct nonendpoint
+filtration/line-jet progress awaits its separate proof audit.
+
 The [October 7 integrated update](RESEARCH_UPDATE_2026-10-07.md)
 indexes the accepted new theorems, independent audits and exact evidence.
 

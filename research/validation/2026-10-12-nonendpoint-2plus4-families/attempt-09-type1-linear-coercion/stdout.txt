@@ -1,0 +1,5 @@
+TYPE 1 linear stratum actual contact second coefficient
+   1600000                800000
+- ---------familyRoot + ---------
+  129140163             129140163
+PASS: eight conditions; full actual contact order exactly two on entire linear stratum

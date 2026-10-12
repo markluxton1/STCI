@@ -1,0 +1,1902 @@
+{
+  "scope": "Read-only provenance and byte inventory; zero mathematical executions or theorem audits performed by this script.",
+  "observed_utc": "2026-10-12T14:12:04.750964+00:00",
+  "captured_execution_count": 28,
+  "captured_languages": {
+    "M2": 26,
+    "Python": 2
+  },
+  "captured_classifications": {
+    "completed_exit_zero": 15,
+    "setup_or_export_failure": 8,
+    "actual_assertion_failure": 5
+  },
+  "logical_source_paths": [
+    "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+    "research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+    "research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+    "research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",
+    "research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2",
+    "research/computations/verify_session_three_common_roots_residual_quartic_2026_10_11.m2",
+    "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2",
+    "research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",
+    "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py",
+    "research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py"
+  ],
+  "logical_source_path_count": 10,
+  "unique_captured_snapshot_hashes": 28,
+  "duplicate_record_views": [
+    {
+      "aggregate": "research/validation/2026-10-11-endpoint-a-nonzero-support/execution-record.json",
+      "kind": "attempts_duplicate_per_attempt_records",
+      "rows": 8
+    },
+    {
+      "aggregate": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+      "kind": "captured_executions_duplicate_per_attempt_records",
+      "rows": 5
+    }
+  ],
+  "separately_named_local_excess_direct_tool_observations": [
+    "313a51 failure",
+    "f124b6 failure",
+    "7bdfad first pass before coefficient export",
+    "e7a1c6 export failure after 14 checks",
+    "4b51fe final-source pass"
+  ],
+  "direct_tool_observation_caveat": "Five earlier direct tool events are distinct from the four byte-bound replay rows. Full original raw streams are not locally bound; they must remain separately labeled observations.",
+  "newly_observed_stream_bindings_not_in_preexisting_records": [
+    "research/validation/2026-10-11-three-common-roots-quartic-support/stdout.txt",
+    "research/validation/2026-10-11-three-common-roots-quartic-support/stderr.txt"
+  ],
+  "issues": [],
+  "attempts": [
+    {
+      "history": "2026-10-11-endpoint-a-nonzero-support",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/execution-record.json",
+      "source_family": "research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-11T22:50:15.908290+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2"
+      ],
+      "scope_recorded": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 840,
+          "sha256_observed": "7e86471e66e52a64f51e947ce1cf457acada5b04e9177bf9df97d7121777cc47",
+          "sha256_preexisting_record": "7e86471e66e52a64f51e947ce1cf457acada5b04e9177bf9df97d7121777cc47",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 1930,
+          "sha256_observed": "fd739dbb0195e33d724a39fb1cc2523318335e983832c0651b0b443a569af95f",
+          "sha256_preexisting_record": "fd739dbb0195e33d724a39fb1cc2523318335e983832c0651b0b443a569af95f",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-a-nonzero-support",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/execution-record.json",
+      "source_family": "research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-11T22:51:10.129698+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2"
+      ],
+      "scope_recorded": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 916,
+          "sha256_observed": "c247be155cc77d9da858d41cbc06c40fef2b03afd59b6724fac018d5d909e8e1",
+          "sha256_preexisting_record": "c247be155cc77d9da858d41cbc06c40fef2b03afd59b6724fac018d5d909e8e1",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 2698,
+          "sha256_observed": "34704d089c061f073d2de88248c0d26934ac37964788c2dc9743437b74f10016",
+          "sha256_preexisting_record": "34704d089c061f073d2de88248c0d26934ac37964788c2dc9743437b74f10016",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-a-nonzero-support",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/execution-record.json",
+      "source_family": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "return_code": 1,
+      "classification": "setup_or_export_failure",
+      "started_utc": "2026-10-11T22:51:55.513537+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2"
+      ],
+      "scope_recorded": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 1437,
+          "sha256_observed": "203e57f8fc00dfbaefd1e1260004f22eb9cd4f9197cbf206209aaec722333133",
+          "sha256_preexisting_record": "203e57f8fc00dfbaefd1e1260004f22eb9cd4f9197cbf206209aaec722333133",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 301,
+          "sha256_observed": "59f882c5f3873f5cfb4bce1edac286e4a4a469dc612a195b404127a3acd6a872",
+          "sha256_preexisting_record": "59f882c5f3873f5cfb4bce1edac286e4a4a469dc612a195b404127a3acd6a872",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 1188,
+          "sha256_observed": "e2a3ea2eb7aed6f31e614ff1c4609f3dbf64239ec58098f433fbd75d7004c2b5",
+          "sha256_preexisting_record": "e2a3ea2eb7aed6f31e614ff1c4609f3dbf64239ec58098f433fbd75d7004c2b5",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-a-nonzero-support",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/execution-record.json",
+      "source_family": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-11T22:52:26.516559+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2"
+      ],
+      "scope_recorded": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 1479,
+          "sha256_observed": "b2e56f29a5357ab7b02fb8f581fc93daf901166e609cea4bc36c5c9b82335b64",
+          "sha256_preexisting_record": "b2e56f29a5357ab7b02fb8f581fc93daf901166e609cea4bc36c5c9b82335b64",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 1159,
+          "sha256_observed": "1376917aeb06412389cf03ba5c629435b72ee719a7d9a8b776409376b96207c4",
+          "sha256_preexisting_record": "1376917aeb06412389cf03ba5c629435b72ee719a7d9a8b776409376b96207c4",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-a-nonzero-support",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/execution-record.json",
+      "source_family": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-11T22:52:33.783742+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2"
+      ],
+      "scope_recorded": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 1726,
+          "sha256_observed": "ee5f7bb27146d46de930a7bb358e0d929aee2c989b7c76f688e43e8d9becd684",
+          "sha256_preexisting_record": "ee5f7bb27146d46de930a7bb358e0d929aee2c989b7c76f688e43e8d9becd684",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 1186,
+          "sha256_observed": "2117f157260e3667f9daaf4bc7139cd2f8d2a6824a22ffb3abbb1d3fd346261a",
+          "sha256_preexisting_record": "2117f157260e3667f9daaf4bc7139cd2f8d2a6824a22ffb3abbb1d3fd346261a",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-a-nonzero-support",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/execution-record.json",
+      "source_family": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-12T00:03:21.629580+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2"
+      ],
+      "scope_recorded": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 2370,
+          "sha256_observed": "d5de7f27eb0eaa8b89a1a82026b622aa73d4549a284773825a6f664c4d3ea1d1",
+          "sha256_preexisting_record": "d5de7f27eb0eaa8b89a1a82026b622aa73d4549a284773825a6f664c4d3ea1d1",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 1458,
+          "sha256_observed": "0960d1238967ecf4e8eec8f5fc86a7e81b3843e796c5b80b15da527804140932",
+          "sha256_preexisting_record": "0960d1238967ecf4e8eec8f5fc86a7e81b3843e796c5b80b15da527804140932",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-a-nonzero-support",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/execution-record.json",
+      "source_family": "research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "return_code": 1,
+      "classification": "setup_or_export_failure",
+      "started_utc": "2026-10-12T00:05:38.475946+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2"
+      ],
+      "scope_recorded": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 4239,
+          "sha256_observed": "2f43249938aea27e76d64690b15262e248454015f8b8cd34c181e839c45bdabc",
+          "sha256_preexisting_record": "2f43249938aea27e76d64690b15262e248454015f8b8cd34c181e839c45bdabc",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 502,
+          "sha256_observed": "c8c7992d052aecc2ac5d6c6742866bc27e6386db410d2de425e3b56276dffac0",
+          "sha256_preexisting_record": "c8c7992d052aecc2ac5d6c6742866bc27e6386db410d2de425e3b56276dffac0",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 995,
+          "sha256_observed": "2291c68e35adcd6cfbfed943b053ae2325d59df5455de446f0aff1191b3320f9",
+          "sha256_preexisting_record": "2291c68e35adcd6cfbfed943b053ae2325d59df5455de446f0aff1191b3320f9",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-a-nonzero-support",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/execution-record.json",
+      "source_family": "research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-12T00:05:46.317936+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2"
+      ],
+      "scope_recorded": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 4307,
+          "sha256_observed": "501e3425f2b1b781cc36173d6318993a5bd3ce2cb56126be8e45a4144f73bd7a",
+          "sha256_preexisting_record": "501e3425f2b1b781cc36173d6318993a5bd3ce2cb56126be8e45a4144f73bd7a",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 671,
+          "sha256_observed": "3ee82373b63f0bf092afaafa54b1939c939fd481ef98fd91513c47ebb304197f",
+          "sha256_preexisting_record": "3ee82373b63f0bf092afaafa54b1939c939fd481ef98fd91513c47ebb304197f",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-support-global-audit",
+      "record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/execution-record.json",
+      "source_family": "research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",
+      "return_code": 1,
+      "classification": "setup_or_export_failure",
+      "started_utc": "2026-10-12T00:06:28.047493+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/verify_geometry.m2"
+      ],
+      "scope_recorded": "Independent endpoint a-nonzero global geometry polynomial identities; no count of parameter-space cases",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/verify_geometry.m2",
+          "exists": true,
+          "bytes_observed": 2786,
+          "sha256_observed": "4e97dd02bdede71ea6bea9021f697ae3e1d51a373282a115d4245a879783143d",
+          "sha256_preexisting_record": "4e97dd02bdede71ea6bea9021f697ae3e1d51a373282a115d4245a879783143d",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 777,
+          "sha256_observed": "84391ccfa39b12075ea625fabae309be2719c9acdb7dcd51bc47abe6f6983a9d",
+          "sha256_preexisting_record": "84391ccfa39b12075ea625fabae309be2719c9acdb7dcd51bc47abe6f6983a9d",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-support-global-audit",
+      "record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/execution-record.json",
+      "source_family": "research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",
+      "return_code": 1,
+      "classification": "actual_assertion_failure",
+      "started_utc": "2026-10-12T00:06:39.120443+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/verify_geometry.m2"
+      ],
+      "scope_recorded": "Independent endpoint a-nonzero global geometry polynomial identities; no count of parameter-space cases",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/verify_geometry.m2",
+          "exists": true,
+          "bytes_observed": 2806,
+          "sha256_observed": "01fb5ecbe79a6f6e2cad8260dfd1e8e30f8a6c46f6d70c3364883905d29713c6",
+          "sha256_preexisting_record": "01fb5ecbe79a6f6e2cad8260dfd1e8e30f8a6c46f6d70c3364883905d29713c6",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 57,
+          "sha256_observed": "a6a1c1470792b86418532675fba7d562dff89a77b72f8d7ae3799a3ddf2b2a2d",
+          "sha256_preexisting_record": "a6a1c1470792b86418532675fba7d562dff89a77b72f8d7ae3799a3ddf2b2a2d",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 689,
+          "sha256_observed": "15914275bc1a90d134cd348fc03cc9483bdc9a6e148bcedea2aa27a2c02fed27",
+          "sha256_preexisting_record": "15914275bc1a90d134cd348fc03cc9483bdc9a6e148bcedea2aa27a2c02fed27",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-support-global-audit",
+      "record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/execution-record.json",
+      "source_family": "research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",
+      "return_code": 1,
+      "classification": "setup_or_export_failure",
+      "started_utc": "2026-10-12T00:06:52.776434+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/verify_geometry.m2"
+      ],
+      "scope_recorded": "Independent endpoint a-nonzero global geometry polynomial identities; no count of parameter-space cases",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/verify_geometry.m2",
+          "exists": true,
+          "bytes_observed": 2808,
+          "sha256_observed": "85e13e69196b89c7974b6160f735082bd4e71f72f4dc9363509a5a14305cd528",
+          "sha256_preexisting_record": "85e13e69196b89c7974b6160f735082bd4e71f72f4dc9363509a5a14305cd528",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 231,
+          "sha256_observed": "cf91fae7d90ebe8985fda2fef2b7d433f616c01abc587dfc3fb453839f9ec72a",
+          "sha256_preexisting_record": "cf91fae7d90ebe8985fda2fef2b7d433f616c01abc587dfc3fb453839f9ec72a",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 1146,
+          "sha256_observed": "655fed5c9556815a6c445de2faeccbe78fdc08eb3297f631fb0f79f102719cf5",
+          "sha256_preexisting_record": "655fed5c9556815a6c445de2faeccbe78fdc08eb3297f631fb0f79f102719cf5",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-support-global-audit",
+      "record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/execution-record.json",
+      "source_family": "research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",
+      "return_code": 1,
+      "classification": "setup_or_export_failure",
+      "started_utc": "2026-10-12T00:07:24.573446+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/verify_geometry.m2"
+      ],
+      "scope_recorded": "Independent endpoint a-nonzero global geometry polynomial identities; no count of parameter-space cases",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/verify_geometry.m2",
+          "exists": true,
+          "bytes_observed": 2679,
+          "sha256_observed": "df2d3cd30e848070c115f46cc6b7a1c1e96080e1122430f7d94d6a7314a6875f",
+          "sha256_preexisting_record": "df2d3cd30e848070c115f46cc6b7a1c1e96080e1122430f7d94d6a7314a6875f",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 231,
+          "sha256_observed": "cf91fae7d90ebe8985fda2fef2b7d433f616c01abc587dfc3fb453839f9ec72a",
+          "sha256_preexisting_record": "cf91fae7d90ebe8985fda2fef2b7d433f616c01abc587dfc3fb453839f9ec72a",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 1003,
+          "sha256_observed": "795f6134e26dbfff5c0d7aa973cc1c3676b75e4a21caef6db6ba65b1ab4155ff",
+          "sha256_preexisting_record": "795f6134e26dbfff5c0d7aa973cc1c3676b75e4a21caef6db6ba65b1ab4155ff",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-support-global-audit",
+      "record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/execution-record.json",
+      "source_family": "research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-12T00:07:49.690971+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/verify_geometry.m2"
+      ],
+      "scope_recorded": "Independent endpoint a-nonzero global geometry polynomial identities; no count of parameter-space cases",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/verify_geometry.m2",
+          "exists": true,
+          "bytes_observed": 2562,
+          "sha256_observed": "5e786b80c301f98a0aa34a360190d4596fbe52d9ae8e9e0df0e9050e1adc4de2",
+          "sha256_preexisting_record": "5e786b80c301f98a0aa34a360190d4596fbe52d9ae8e9e0df0e9050e1adc4de2",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 567,
+          "sha256_observed": "985aed34b1672adc1c2d4dfa55c33ef111733db5862bff6054d4afb46670a835",
+          "sha256_preexisting_record": "985aed34b1672adc1c2d4dfa55c33ef111733db5862bff6054d4afb46670a835",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-support-global-audit",
+      "record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/execution-record.json",
+      "source_family": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-12T00:06:56.540748+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/two-root-contact-target.m2"
+      ],
+      "scope_recorded": "Independent univariate target-septic two-root contact identities; no global geometric exhaustion asserted by execution.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/two-root-contact-target.m2",
+          "exists": true,
+          "bytes_observed": 4142,
+          "sha256_observed": "59cb75c28be616594c59934acfd7e1751313b344602ef21d9d963ad7ab039d03",
+          "sha256_preexisting_record": "59cb75c28be616594c59934acfd7e1751313b344602ef21d9d963ad7ab039d03",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 1138,
+          "sha256_observed": "c7eb5984c1e026eb99d4850e72e7cd596f6b7b21e40dfbc4d581fae747dbd031",
+          "sha256_preexisting_record": "c7eb5984c1e026eb99d4850e72e7cd596f6b7b21e40dfbc4d581fae747dbd031",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-support-global-audit",
+      "record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/execution-record.json",
+      "source_family": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2",
+      "return_code": 1,
+      "classification": "actual_assertion_failure",
+      "started_utc": "2026-10-12T00:07:43.407967+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/two-root-contact-target.m2"
+      ],
+      "scope_recorded": "Independent univariate target-septic two-root contact identities; no global geometric exhaustion asserted by execution.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/two-root-contact-target.m2",
+          "exists": true,
+          "bytes_observed": 4516,
+          "sha256_observed": "31d4ec4490193f7e022886a90ad4dc4300b738de5b34a16ad2da39795a2eeb93",
+          "sha256_preexisting_record": "31d4ec4490193f7e022886a90ad4dc4300b738de5b34a16ad2da39795a2eeb93",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 947,
+          "sha256_observed": "a742477f267d19dc3948b90da5227e645590ba7a5ec381abde04aa4a5dc11861",
+          "sha256_preexisting_record": "a742477f267d19dc3948b90da5227e645590ba7a5ec381abde04aa4a5dc11861",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-support-global-audit",
+      "record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/execution-record.json",
+      "source_family": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-12T00:07:53.990549+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/two-root-contact-target.m2"
+      ],
+      "scope_recorded": "Independent univariate target-septic two-root contact identities; no global geometric exhaustion asserted by execution.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/two-root-contact-target.m2",
+          "exists": true,
+          "bytes_observed": 4524,
+          "sha256_observed": "c08e6512379953227600fb176164148d52acd3ce3fe7e9ec00a51b5526d5c5db",
+          "sha256_preexisting_record": "c08e6512379953227600fb176164148d52acd3ce3fe7e9ec00a51b5526d5c5db",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/stdout.txt",
+          "exists": true,
+          "bytes_observed": 1587,
+          "sha256_observed": "bba06d89fa85f36110d03e718f2b9a2cc5d802c97bee1b435afc9bd6ab0faa3c",
+          "sha256_preexisting_record": "bba06d89fa85f36110d03e718f2b9a2cc5d802c97bee1b435afc9bd6ab0faa3c",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-three-common-roots",
+      "record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.json",
+      "source_family": "research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",
+      "return_code": 1,
+      "classification": "setup_or_export_failure",
+      "started_utc": "2026-10-11T22:52:26.061953+00:00",
+      "command_recorded": null,
+      "scope_recorded": "Exact univariate U-divides-V support algebra, not an STCI theorem.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.m2",
+          "exists": true,
+          "bytes_observed": 1095,
+          "sha256_observed": "2c961c37d0e7ecd97995bb630106066df9e0c813c9b55f0447cce6a07c7716be",
+          "sha256_preexisting_record": "2c961c37d0e7ecd97995bb630106066df9e0c813c9b55f0447cce6a07c7716be",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.stdout.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.stderr.txt",
+          "exists": true,
+          "bytes_observed": 1200,
+          "sha256_observed": "011cc5a9a1063f272ca6e78c3dee70bf595f5880f34d69c12c289dc277d1833f",
+          "sha256_preexisting_record": "011cc5a9a1063f272ca6e78c3dee70bf595f5880f34d69c12c289dc277d1833f",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-three-common-roots",
+      "record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.json",
+      "source_family": "research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",
+      "return_code": 1,
+      "classification": "setup_or_export_failure",
+      "started_utc": "2026-10-11T22:52:32.006324+00:00",
+      "command_recorded": null,
+      "scope_recorded": "Exact univariate U-divides-V support algebra, not an STCI theorem.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.m2",
+          "exists": true,
+          "bytes_observed": 1083,
+          "sha256_observed": "107165ae187dabce5d49fda0dd1baa12e2ddb34c25b44676561952cc40e7953a",
+          "sha256_preexisting_record": "107165ae187dabce5d49fda0dd1baa12e2ddb34c25b44676561952cc40e7953a",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.stdout.txt",
+          "exists": true,
+          "bytes_observed": 413,
+          "sha256_observed": "4608d3065299c1a14482be5bf73f50ec1d8c393217f20aae48eefaa25e0ce931",
+          "sha256_preexisting_record": "4608d3065299c1a14482be5bf73f50ec1d8c393217f20aae48eefaa25e0ce931",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.stderr.txt",
+          "exists": true,
+          "bytes_observed": 1318,
+          "sha256_observed": "2a7b31965accd8c2c8f637c1d129b098d6fa6a54a7a655e458ef0c3cc804af7a",
+          "sha256_preexisting_record": "2a7b31965accd8c2c8f637c1d129b098d6fa6a54a7a655e458ef0c3cc804af7a",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-three-common-roots",
+      "record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.json",
+      "source_family": "research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",
+      "return_code": 1,
+      "classification": "actual_assertion_failure",
+      "started_utc": "2026-10-11T22:53:37.314715+00:00",
+      "command_recorded": null,
+      "scope_recorded": "Exact univariate U-divides-V support algebra, not an STCI theorem.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.m2",
+          "exists": true,
+          "bytes_observed": 2490,
+          "sha256_observed": "89994788e4439f8c43ec6b941239996f0c9909b9cf34cce146b38e462860a128",
+          "sha256_preexisting_record": "89994788e4439f8c43ec6b941239996f0c9909b9cf34cce146b38e462860a128",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.stdout.txt",
+          "exists": true,
+          "bytes_observed": 549,
+          "sha256_observed": "0d9b837701719bd36eee2844e16b75669053c1ce7520c7787c3a68d80dee437c",
+          "sha256_preexisting_record": "0d9b837701719bd36eee2844e16b75669053c1ce7520c7787c3a68d80dee437c",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.stderr.txt",
+          "exists": true,
+          "bytes_observed": 943,
+          "sha256_observed": "d38481c491e58ad2ef4dd19279bea95f7a7c429f7be9d086ef1827ec1d7dadff",
+          "sha256_preexisting_record": "d38481c491e58ad2ef4dd19279bea95f7a7c429f7be9d086ef1827ec1d7dadff",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-three-common-roots",
+      "record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.json",
+      "source_family": "research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-11T22:53:47.715925+00:00",
+      "command_recorded": null,
+      "scope_recorded": "Exact univariate U-divides-V support algebra, not an STCI theorem.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.m2",
+          "exists": true,
+          "bytes_observed": 2576,
+          "sha256_observed": "95efc068cedb2f129ca2eacca87e68520d54fe2a5475863d7d217c073238bbac",
+          "sha256_preexisting_record": "95efc068cedb2f129ca2eacca87e68520d54fe2a5475863d7d217c073238bbac",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.stdout.txt",
+          "exists": true,
+          "bytes_observed": 808,
+          "sha256_observed": "4676a1c9a1de699ea3a425e1fd07156049048a136cd8f9dd29772ca19a6280c0",
+          "sha256_preexisting_record": "4676a1c9a1de699ea3a425e1fd07156049048a136cd8f9dd29772ca19a6280c0",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.stderr.txt",
+          "exists": true,
+          "bytes_observed": 154,
+          "sha256_observed": "7a321741e22d3572cecf41268f218138ffe1e028ddec8c27ee37f362c8c9b883",
+          "sha256_preexisting_record": "7a321741e22d3572cecf41268f218138ffe1e028ddec8c27ee37f362c8c9b883",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-endpoint-three-common-roots",
+      "record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.json",
+      "source_family": "research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-12T00:03:31.177564+00:00",
+      "command_recorded": null,
+      "scope_recorded": "Exact univariate U-divides-V support algebra, not an STCI theorem.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.m2",
+          "exists": true,
+          "bytes_observed": 2764,
+          "sha256_observed": "31597e4c2057fabb87f9aaf76fdd562f1d5753cf75141dc0f85dfc3041eb97a1",
+          "sha256_preexisting_record": "31597e4c2057fabb87f9aaf76fdd562f1d5753cf75141dc0f85dfc3041eb97a1",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.stdout.txt",
+          "exists": true,
+          "bytes_observed": 817,
+          "sha256_observed": "a601585f52bd92f5397bd151850c67fc36a6b0b12be4615b36fde4221da3bc32",
+          "sha256_preexisting_record": "a601585f52bd92f5397bd151850c67fc36a6b0b12be4615b36fde4221da3bc32",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-three-common-roots-quartic-support",
+      "record": "research/validation/2026-10-11-three-common-roots-quartic-support/execution-record.json",
+      "source_family": "research/computations/verify_session_three_common_roots_residual_quartic_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-11T22:53:16.928368+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-three-common-roots-quartic-support/verify_session_three_common_roots_residual_quartic_2026_10_11.m2"
+      ],
+      "scope_recorded": "One-parameter univariate residual-quartic root-support exclusion, characteristic zero; no geometric conclusion",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-three-common-roots-quartic-support/verify_session_three_common_roots_residual_quartic_2026_10_11.m2",
+          "exists": true,
+          "bytes_observed": 1889,
+          "sha256_observed": "e0762fcc2c959cbf32b87de10ced160b7913b0da5d0de6875917a9a97632727b",
+          "sha256_preexisting_record": "e0762fcc2c959cbf32b87de10ced160b7913b0da5d0de6875917a9a97632727b",
+          "preexisting_binding_record": "research/validation/2026-10-11-three-common-roots-quartic-support/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-three-common-roots-quartic-support/stdout.txt",
+          "exists": true,
+          "bytes_observed": 679,
+          "sha256_observed": "28ceafd1b4e89b0f0f96cbe387918716654453f5429f009d60597df85b9c5f06",
+          "sha256_preexisting_record": null,
+          "preexisting_binding_record": null,
+          "binding_status": "UNBOUND_IN_ATTEMPT_RECORD"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-three-common-roots-quartic-support/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": null,
+          "preexisting_binding_record": null,
+          "binding_status": "UNBOUND_IN_ATTEMPT_RECORD"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-quintic-endpoint-a-nonzero-local-excess",
+      "record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+      "source_family": "research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2",
+      "return_code": 1,
+      "classification": "actual_assertion_failure",
+      "started_utc": "2026-10-12T00:07:09.125423+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.m2"
+      ],
+      "scope_recorded": "Fourteen exact M2 identities and two rational Bezout checks; no universal geometric assertion is inferred from execution alone.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.m2",
+          "exists": true,
+          "bytes_observed": 3780,
+          "sha256_observed": "1c90f543c86e5d2e9c0d560d11a690b7aaba450035415953be626bcc46b6b8af",
+          "sha256_preexisting_record": "1c90f543c86e5d2e9c0d560d11a690b7aaba450035415953be626bcc46b6b8af",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.stdout.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.stderr.txt",
+          "exists": true,
+          "bytes_observed": 936,
+          "sha256_observed": "51ee9b9efc1a0b3de4bc40ddcc5717cd14ae638f4fd502e55bfa94e0c17ad9e0",
+          "sha256_preexisting_record": "51ee9b9efc1a0b3de4bc40ddcc5717cd14ae638f4fd502e55bfa94e0c17ad9e0",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-quintic-endpoint-a-nonzero-local-excess",
+      "record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+      "source_family": "research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2",
+      "return_code": 1,
+      "classification": "actual_assertion_failure",
+      "started_utc": "2026-10-12T00:07:09.763945+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.m2"
+      ],
+      "scope_recorded": "Fourteen exact M2 identities and two rational Bezout checks; no universal geometric assertion is inferred from execution alone.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.m2",
+          "exists": true,
+          "bytes_observed": 3850,
+          "sha256_observed": "d5592d7896b89094a616149586c5f14bb490732659c9eb8126d62073f6045995",
+          "sha256_preexisting_record": "d5592d7896b89094a616149586c5f14bb490732659c9eb8126d62073f6045995",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.stdout.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.stderr.txt",
+          "exists": true,
+          "bytes_observed": 934,
+          "sha256_observed": "3b2d0fe2c43428755a5dd4191723abfe5bb341033dfeb316fa583eefe950b5e4",
+          "sha256_preexisting_record": "3b2d0fe2c43428755a5dd4191723abfe5bb341033dfeb316fa583eefe950b5e4",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-quintic-endpoint-a-nonzero-local-excess",
+      "record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+      "source_family": "research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2",
+      "return_code": 1,
+      "classification": "setup_or_export_failure",
+      "started_utc": "2026-10-12T00:07:10.412403+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.m2"
+      ],
+      "scope_recorded": "Fourteen exact M2 identities and two rational Bezout checks; no universal geometric assertion is inferred from execution alone.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.m2",
+          "exists": true,
+          "bytes_observed": 4227,
+          "sha256_observed": "c8a82031c4adcbfe4c53572725ad06cbe7c16276ae6e3a98f0187dc86890cce5",
+          "sha256_preexisting_record": "c8a82031c4adcbfe4c53572725ad06cbe7c16276ae6e3a98f0187dc86890cce5",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.stdout.txt",
+          "exists": true,
+          "bytes_observed": 397,
+          "sha256_observed": "f554eb5adb417ab985641d3d8c6b45c2a759c57d35ae8f96868d3c44e212903d",
+          "sha256_preexisting_record": "f554eb5adb417ab985641d3d8c6b45c2a759c57d35ae8f96868d3c44e212903d",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.stderr.txt",
+          "exists": true,
+          "bytes_observed": 1048,
+          "sha256_observed": "f170958e53f4bd09d7da64b5999bbd77b71101e02a68fdcd7f39ca852e55e865",
+          "sha256_preexisting_record": "f170958e53f4bd09d7da64b5999bbd77b71101e02a68fdcd7f39ca852e55e865",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-quintic-endpoint-a-nonzero-local-excess",
+      "record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+      "source_family": "research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-12T00:07:11.441631+00:00",
+      "command_recorded": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.m2"
+      ],
+      "scope_recorded": "Fourteen exact M2 identities and two rational Bezout checks; no universal geometric assertion is inferred from execution alone.",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.m2",
+          "exists": true,
+          "bytes_observed": 4321,
+          "sha256_observed": "84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd",
+          "sha256_preexisting_record": "84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.stdout.txt",
+          "exists": true,
+          "bytes_observed": 1378,
+          "sha256_observed": "a7733829859bd591faf372154f098c1190f181fb3463698fc513d272f0762b83",
+          "sha256_preexisting_record": "a7733829859bd591faf372154f098c1190f181fb3463698fc513d272f0762b83",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-quintic-endpoint-factor-audit",
+      "record": "research/validation/2026-10-11-quintic-endpoint-factor-audit/execution-record.json",
+      "source_family": "research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-11T22:42:54.573071+00:00",
+      "command_recorded": [
+        "/opt/homebrew/opt/python@3.15/bin/python3.15",
+        "-B",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py"
+      ],
+      "scope_recorded": "Polynomial identities only; no full parameter exhaustion or contact-length theorem",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py",
+          "exists": true,
+          "bytes_observed": 2977,
+          "sha256_observed": "871099f080b3a69c58f15e6a6bd6a9475fd5cdfbba03008482ff7f23070de8ec",
+          "sha256_preexisting_record": "871099f080b3a69c58f15e6a6bd6a9475fd5cdfbba03008482ff7f23070de8ec",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-factor-audit/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-factor-audit/stdout.txt",
+          "exists": true,
+          "bytes_observed": 403,
+          "sha256_observed": "560aacb6374bb57de53ceba1f47aa57b9619bb931f4dcebb5294f5284d914bfb",
+          "sha256_preexisting_record": "560aacb6374bb57de53ceba1f47aa57b9619bb931f4dcebb5294f5284d914bfb",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-factor-audit/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-factor-audit/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-factor-audit/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    },
+    {
+      "history": "2026-10-11-quintic-endpoint-ell-first-jet-audit",
+      "record": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/execution-record.json",
+      "source_family": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py",
+      "return_code": 0,
+      "classification": "completed_exit_zero",
+      "started_utc": "2026-10-12T00:05:17.492304+00:00",
+      "command_recorded": [
+        "/opt/homebrew/opt/python@3.15/bin/python3.15",
+        "-B",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py"
+      ],
+      "scope_recorded": "Fourth-blowup identities and first jets; all-power consequence is proved separately",
+      "bindings": {
+        "source_snapshot": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py",
+          "exists": true,
+          "bytes_observed": 3885,
+          "sha256_observed": "cac0df14cdeebf27f804628b8840b4a04f87d659c5f3302318f2e309d228a194",
+          "sha256_preexisting_record": "cac0df14cdeebf27f804628b8840b4a04f87d659c5f3302318f2e309d228a194",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stdout": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/stdout.txt",
+          "exists": true,
+          "bytes_observed": 636,
+          "sha256_observed": "395ce13887612a701f37e42ecf29bf8580ee1cca5ee9c422c7c1442b53295085",
+          "sha256_preexisting_record": "395ce13887612a701f37e42ecf29bf8580ee1cca5ee9c422c7c1442b53295085",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/execution-record.json",
+          "binding_status": "MATCH"
+        },
+        "stderr": {
+          "path": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/stderr.txt",
+          "exists": true,
+          "bytes_observed": 0,
+          "sha256_observed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256_preexisting_record": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "preexisting_binding_record": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/execution-record.json",
+          "binding_status": "MATCH"
+        }
+      }
+    }
+  ],
+  "observed_files": [
+    {
+      "path": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "bytes": 2370,
+      "sha256": "d5de7f27eb0eaa8b89a1a82026b622aa73d4549a284773825a6f664c4d3ea1d1"
+    },
+    {
+      "path": "research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "bytes": 916,
+      "sha256": "c247be155cc77d9da858d41cbc06c40fef2b03afd59b6724fac018d5d909e8e1"
+    },
+    {
+      "path": "research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "bytes": 4307,
+      "sha256": "501e3425f2b1b781cc36173d6318993a5bd3ce2cb56126be8e45a4144f73bd7a"
+    },
+    {
+      "path": "research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",
+      "bytes": 2764,
+      "sha256": "31597e4c2057fabb87f9aaf76fdd562f1d5753cf75141dc0f85dfc3041eb97a1"
+    },
+    {
+      "path": "research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2",
+      "bytes": 4321,
+      "sha256": "84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd"
+    },
+    {
+      "path": "research/computations/verify_session_three_common_roots_residual_quartic_2026_10_11.m2",
+      "bytes": 1889,
+      "sha256": "e0762fcc2c959cbf32b87de10ced160b7913b0da5d0de6875917a9a97632727b"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/execution-record.json",
+      "bytes": 1163,
+      "sha256": "39b88904d5175b0fc8b07c7afc1b450f619c55e6a5a13f7542d31d50912a0447"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "bytes": 840,
+      "sha256": "7e86471e66e52a64f51e947ce1cf457acada5b04e9177bf9df97d7121777cc47"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/stdout.txt",
+      "bytes": 1930,
+      "sha256": "fd739dbb0195e33d724a39fb1cc2523318335e983832c0651b0b443a569af95f"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/execution-record.json",
+      "bytes": 1163,
+      "sha256": "8523e05f678e604b55e028e37620d9bffa88f64fc212a0dedfa44b32fcfbb6be"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "bytes": 916,
+      "sha256": "c247be155cc77d9da858d41cbc06c40fef2b03afd59b6724fac018d5d909e8e1"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/stdout.txt",
+      "bytes": 2698,
+      "sha256": "34704d089c061f073d2de88248c0d26934ac37964788c2dc9743437b74f10016"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/execution-record.json",
+      "bytes": 1178,
+      "sha256": "9c12eaf6c9245070744467be8b0976930fe6f885628ea7e0cea36ab9ae1168a7"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "bytes": 1437,
+      "sha256": "203e57f8fc00dfbaefd1e1260004f22eb9cd4f9197cbf206209aaec722333133"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/stderr.txt",
+      "bytes": 1188,
+      "sha256": "e2a3ea2eb7aed6f31e614ff1c4609f3dbf64239ec58098f433fbd75d7004c2b5"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/stdout.txt",
+      "bytes": 301,
+      "sha256": "59f882c5f3873f5cfb4bce1edac286e4a4a469dc612a195b404127a3acd6a872"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/execution-record.json",
+      "bytes": 1177,
+      "sha256": "1b728b34c60f68c86164bb5193d9c0bcc92f3567579881e37769541afa145cf4"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "bytes": 1479,
+      "sha256": "b2e56f29a5357ab7b02fb8f581fc93daf901166e609cea4bc36c5c9b82335b64"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/stdout.txt",
+      "bytes": 1159,
+      "sha256": "1376917aeb06412389cf03ba5c629435b72ee719a7d9a8b776409376b96207c4"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/execution-record.json",
+      "bytes": 1178,
+      "sha256": "5d31b27a7c22f2e6ed5b2bb467fa3bf689f5ebb5b298e903d0b798bc8a3b1ce7"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "bytes": 1726,
+      "sha256": "ee5f7bb27146d46de930a7bb358e0d929aee2c989b7c76f688e43e8d9becd684"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/stdout.txt",
+      "bytes": 1186,
+      "sha256": "2117f157260e3667f9daaf4bc7139cd2f8d2a6824a22ffb3abbb1d3fd346261a"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/execution-record.json",
+      "bytes": 1178,
+      "sha256": "2437d4921f1d0beb37c5f223ec8e4a5fe125a5497b4ac5801a13bba933aff53f"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "bytes": 2370,
+      "sha256": "d5de7f27eb0eaa8b89a1a82026b622aa73d4549a284773825a6f664c4d3ea1d1"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/stdout.txt",
+      "bytes": 1458,
+      "sha256": "0960d1238967ecf4e8eec8f5fc86a7e81b3843e796c5b80b15da527804140932"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/execution-record.json",
+      "bytes": 1172,
+      "sha256": "96c1655ba2344d00951dd85d8de5b3b3ceaff4a611f738f177a51fba33827c2e"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/stderr.txt",
+      "bytes": 995,
+      "sha256": "2291c68e35adcd6cfbfed943b053ae2325d59df5455de446f0aff1191b3320f9"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/stdout.txt",
+      "bytes": 502,
+      "sha256": "c8c7992d052aecc2ac5d6c6742866bc27e6386db410d2de425e3b56276dffac0"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "bytes": 4239,
+      "sha256": "2f43249938aea27e76d64690b15262e248454015f8b8cd34c181e839c45bdabc"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/execution-record.json",
+      "bytes": 1172,
+      "sha256": "f76f64b97fb101be1e625f57f46be5289a8016eeaf9b067f73c9d8d30d7d31ec"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/stdout.txt",
+      "bytes": 671,
+      "sha256": "3ee82373b63f0bf092afaafa54b1939c939fd481ef98fd91513c47ebb304197f"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "bytes": 4307,
+      "sha256": "501e3425f2b1b781cc36173d6318993a5bd3ce2cb56126be8e45a4144f73bd7a"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/execution-record.json",
+      "bytes": 11703,
+      "sha256": "360a49df8e929cd620ff43362b204cff3d4841d44b00330394fb9cb75016eab4"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/run_exploration.py",
+      "bytes": 1877,
+      "sha256": "f6f73ef9e5cd085b599f28c122fc0927435d83ecd1f22bf7b516766ddb02d695"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/run_multiplicity.py",
+      "bytes": 1882,
+      "sha256": "9a104fc1c70069e085873f9f1910f76d88a4c416f442c507aec8fac17d7af125"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-a-nonzero-support/run_target_jets.py",
+      "bytes": 1880,
+      "sha256": "7a3c508fd8cc113502e11192c9036f292aeeaf587f695b36cc0006825a55f360"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/execution-record.json",
+      "bytes": 1070,
+      "sha256": "a0c485f54b6c0c5af9030d6cba15fb8153e2dda64d1492e4af672ac2885e7595"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/stderr.txt",
+      "bytes": 777,
+      "sha256": "84391ccfa39b12075ea625fabae309be2719c9acdb7dcd51bc47abe6f6983a9d"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000628047493Z/verify_geometry.m2",
+      "bytes": 2786,
+      "sha256": "4e97dd02bdede71ea6bea9021f697ae3e1d51a373282a115d4245a879783143d"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/execution-record.json",
+      "bytes": 1070,
+      "sha256": "aca0b1a8029feb26d6f2deee684d3d8100356143ab51db5d9ae3499527147538"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/stderr.txt",
+      "bytes": 689,
+      "sha256": "15914275bc1a90d134cd348fc03cc9483bdc9a6e148bcedea2aa27a2c02fed27"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/stdout.txt",
+      "bytes": 57,
+      "sha256": "a6a1c1470792b86418532675fba7d562dff89a77b72f8d7ae3799a3ddf2b2a2d"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000639120443Z/verify_geometry.m2",
+      "bytes": 2806,
+      "sha256": "01fb5ecbe79a6f6e2cad8260dfd1e8e30f8a6c46f6d70c3364883905d29713c6"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/execution-record.json",
+      "bytes": 1070,
+      "sha256": "37d85ff2a78cb9f710be14aaf07ffda7e6bb581f103e4004f8d1a19bf73c0fee"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/stderr.txt",
+      "bytes": 1146,
+      "sha256": "655fed5c9556815a6c445de2faeccbe78fdc08eb3297f631fb0f79f102719cf5"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/stdout.txt",
+      "bytes": 231,
+      "sha256": "cf91fae7d90ebe8985fda2fef2b7d433f616c01abc587dfc3fb453839f9ec72a"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000652776434Z/verify_geometry.m2",
+      "bytes": 2808,
+      "sha256": "85e13e69196b89c7974b6160f735082bd4e71f72f4dc9363509a5a14305cd528"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/execution-record.json",
+      "bytes": 1070,
+      "sha256": "9f276e275805f3548e3dd88ab38aab91eaba9c735c9208422fcd36a95ca119f8"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/stderr.txt",
+      "bytes": 1003,
+      "sha256": "795f6134e26dbfff5c0d7aa973cc1c3676b75e4a21caef6db6ba65b1ab4155ff"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/stdout.txt",
+      "bytes": 231,
+      "sha256": "cf91fae7d90ebe8985fda2fef2b7d433f616c01abc587dfc3fb453839f9ec72a"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000724573446Z/verify_geometry.m2",
+      "bytes": 2679,
+      "sha256": "df2d3cd30e848070c115f46cc6b7a1c1e96080e1122430f7d94d6a7314a6875f"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/execution-record.json",
+      "bytes": 1070,
+      "sha256": "baee502a91ac145cc93668bb6aa23439dad3aa69df7eaa99a348d4537506a3e1"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/stdout.txt",
+      "bytes": 567,
+      "sha256": "985aed34b1672adc1c2d4dfa55c33ef111733db5862bff6054d4afb46670a835"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/verify_geometry.m2",
+      "bytes": 2562,
+      "sha256": "5e786b80c301f98a0aa34a360190d4596fbe52d9ae8e9e0df0e9050e1adc4de2"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/run_two_root_contact.py",
+      "bytes": 1746,
+      "sha256": "1902782338118f4d37c073718c09295b15af2f945ea891243a6988b1af5077df"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/execution-record.json",
+      "bytes": 1067,
+      "sha256": "ce2daf596be36780f367ed2392f96fcba1a7e6ce7e999c30adc093d57d483153"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/stdout.txt",
+      "bytes": 1138,
+      "sha256": "c7eb5984c1e026eb99d4850e72e7cd596f6b7b21e40dfbc4d581fae747dbd031"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000656540748Z/two-root-contact-target.m2",
+      "bytes": 4142,
+      "sha256": "59cb75c28be616594c59934acfd7e1751313b344602ef21d9d963ad7ab039d03"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/execution-record.json",
+      "bytes": 1067,
+      "sha256": "fed2cd24959739d4c1ed3584188b40cbf9a0ebba61c2777f7ff1eb05c71af2b1"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/stderr.txt",
+      "bytes": 947,
+      "sha256": "a742477f267d19dc3948b90da5227e645590ba7a5ec381abde04aa4a5dc11861"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000743407967Z/two-root-contact-target.m2",
+      "bytes": 4516,
+      "sha256": "31d4ec4490193f7e022886a90ad4dc4300b738de5b34a16ad2da39795a2eeb93"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/execution-record.json",
+      "bytes": 1067,
+      "sha256": "7dd2d1da77ec40b48c64cc67ff26130a5978aff295da09963906f9c085e13736"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/stdout.txt",
+      "bytes": 1587,
+      "sha256": "bba06d89fa85f36110d03e718f2b9a2cc5d802c97bee1b435afc9bd6ab0faa3c"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/two-root-contact-target.m2",
+      "bytes": 4524,
+      "sha256": "c08e6512379953227600fb176164148d52acd3ce3fe7e9ec00a51b5526d5c5db"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2",
+      "bytes": 4524,
+      "sha256": "c08e6512379953227600fb176164148d52acd3ce3fe7e9ec00a51b5526d5c5db"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",
+      "bytes": 2562,
+      "sha256": "5e786b80c301f98a0aa34a360190d4596fbe52d9ae8e9e0df0e9050e1adc4de2"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.json",
+      "bytes": 447,
+      "sha256": "c20de773d9e4580e25397c351905d0c7be412ca612e53f6cda9cc342c74450ef"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.m2",
+      "bytes": 1095,
+      "sha256": "2c961c37d0e7ecd97995bb630106066df9e0c813c9b55f0447cce6a07c7716be"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.stderr.txt",
+      "bytes": 1200,
+      "sha256": "011cc5a9a1063f272ca6e78c3dee70bf595f5880f34d69c12c289dc277d1833f"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.json",
+      "bytes": 447,
+      "sha256": "c8e4cac31049bc84541e3c90638da094215d0c6e5a4f5ed5f3315da6b1550bd4"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.m2",
+      "bytes": 1083,
+      "sha256": "107165ae187dabce5d49fda0dd1baa12e2ddb34c25b44676561952cc40e7953a"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.stderr.txt",
+      "bytes": 1318,
+      "sha256": "2a7b31965accd8c2c8f637c1d129b098d6fa6a54a7a655e458ef0c3cc804af7a"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-02.stdout.txt",
+      "bytes": 413,
+      "sha256": "4608d3065299c1a14482be5bf73f50ec1d8c393217f20aae48eefaa25e0ce931"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.json",
+      "bytes": 447,
+      "sha256": "8a4b8b2199ed8f94cf8bfc1b4aac81be497b2c39af396f1d726ab1b6eaffce45"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.m2",
+      "bytes": 2490,
+      "sha256": "89994788e4439f8c43ec6b941239996f0c9909b9cf34cce146b38e462860a128"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.stderr.txt",
+      "bytes": 943,
+      "sha256": "d38481c491e58ad2ef4dd19279bea95f7a7c429f7be9d086ef1827ec1d7dadff"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-03.stdout.txt",
+      "bytes": 549,
+      "sha256": "0d9b837701719bd36eee2844e16b75669053c1ce7520c7787c3a68d80dee437c"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.json",
+      "bytes": 447,
+      "sha256": "027fb9c45c28842260b07a0914210c4f759094bdf4e67bc3d98476cd065d1d4c"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.m2",
+      "bytes": 2576,
+      "sha256": "95efc068cedb2f129ca2eacca87e68520d54fe2a5475863d7d217c073238bbac"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.stderr.txt",
+      "bytes": 154,
+      "sha256": "7a321741e22d3572cecf41268f218138ffe1e028ddec8c27ee37f362c8c9b883"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-04.stdout.txt",
+      "bytes": 808,
+      "sha256": "4676a1c9a1de699ea3a425e1fd07156049048a136cd8f9dd29772ca19a6280c0"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.json",
+      "bytes": 447,
+      "sha256": "b1441dedaf9fb3ea2f84fc671fb319a8a4758844c21d1b964a9a126924d681e6"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.m2",
+      "bytes": 2764,
+      "sha256": "31597e4c2057fabb87f9aaf76fdd562f1d5753cf75141dc0f85dfc3041eb97a1"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-05.stdout.txt",
+      "bytes": 817,
+      "sha256": "a601585f52bd92f5397bd151850c67fc36a6b0b12be4615b36fde4221da3bc32"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/execution-record.json",
+      "bytes": 6709,
+      "sha256": "2f8a1fe769f927129035167e17e0d9cec8a3f0d21b3793561145758e4ec47e1c"
+    },
+    {
+      "path": "research/validation/2026-10-11-endpoint-three-common-roots/run_execution.py",
+      "bytes": 1225,
+      "sha256": "7a68c17059a2a6c34eb6077c2e3d29f50789eba28528598d925785a37ca0a59a"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/bezout-certificates.json",
+      "bytes": 9175,
+      "sha256": "dd75ea8af38a6e38a68c3f3d88cef392ed475ea1d0666144a7b9e6a35f81e337"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json",
+      "bytes": 5138,
+      "sha256": "762f45cee2835509c74a387c61ac80a9fbe0c9c343451de65ad997b408e3147c"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.m2",
+      "bytes": 4321,
+      "sha256": "84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.stdout.txt",
+      "bytes": 1378,
+      "sha256": "a7733829859bd591faf372154f098c1190f181fb3463698fc513d272f0762b83"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.m2",
+      "bytes": 3780,
+      "sha256": "1c90f543c86e5d2e9c0d560d11a690b7aaba450035415953be626bcc46b6b8af"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.stderr.txt",
+      "bytes": 936,
+      "sha256": "51ee9b9efc1a0b3de4bc40ddcc5717cd14ae638f4fd502e55bfa94e0c17ad9e0"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failure-observation.json",
+      "bytes": 740,
+      "sha256": "32263c19e1bb6b75258b11f684db71ec376dbece53e7146e2f321cee335190d6"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/run_record.py",
+      "bytes": 4714,
+      "sha256": "762f54fb9702b7eec3fdaee26fdc0d7b7a89f6ccc7a2e863e84098bbcf84e39d"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.m2",
+      "bytes": 3850,
+      "sha256": "d5592d7896b89094a616149586c5f14bb490732659c9eb8126d62073f6045995"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.stderr.txt",
+      "bytes": 934,
+      "sha256": "3b2d0fe2c43428755a5dd4191723abfe5bb341033dfeb316fa583eefe950b5e4"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failure-observation.json",
+      "bytes": 313,
+      "sha256": "bf9df4e51cf7e2da8b2df25fe14430c5e67719b5dda3c1fc01f0f6acf781b276"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.m2",
+      "bytes": 4227,
+      "sha256": "c8a82031c4adcbfe4c53572725ad06cbe7c16276ae6e3a98f0187dc86890cce5"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.stderr.txt",
+      "bytes": 1048,
+      "sha256": "f170958e53f4bd09d7da64b5999bbd77b71101e02a68fdcd7f39ca852e55e865"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.stdout.txt",
+      "bytes": 397,
+      "sha256": "f554eb5adb417ab985641d3d8c6b45c2a759c57d35ae8f96868d3c44e212903d"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failure-observation.json",
+      "bytes": 180,
+      "sha256": "6b97155f443d9246970239676fb2bad5336386b27fb43516c2d1978b16939ba6"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/execution-record.json",
+      "bytes": 1027,
+      "sha256": "35d9ac9b8d9b9257a55e7e8b54331aaaa02a625c191a65f7c62c9f856610dc6d"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/run_once.py",
+      "bytes": 1356,
+      "sha256": "4700a7c475a093fc173910abd65385cf25269331d03683b79023b7e9350c8291"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/stdout.txt",
+      "bytes": 636,
+      "sha256": "395ce13887612a701f37e42ecf29bf8580ee1cca5ee9c422c7c1442b53295085"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py",
+      "bytes": 3885,
+      "sha256": "cac0df14cdeebf27f804628b8840b4a04f87d659c5f3302318f2e309d228a194"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-factor-audit/execution-record.json",
+      "bytes": 1006,
+      "sha256": "9b8e4a106ec22d9dc1ebd3c0fff941cfaa5147a932de53a91fa6ec009b492104"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-factor-audit/run_once.py",
+      "bytes": 1432,
+      "sha256": "6c75d7916319d4208a2eb05fc4abb74cc3169f6126622995b94fa5f50db0fdd1"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-factor-audit/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-factor-audit/stdout.txt",
+      "bytes": 403,
+      "sha256": "560aacb6374bb57de53ceba1f47aa57b9619bb931f4dcebb5294f5284d914bfb"
+    },
+    {
+      "path": "research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py",
+      "bytes": 2977,
+      "sha256": "871099f080b3a69c58f15e6a6bd6a9475fd5cdfbba03008482ff7f23070de8ec"
+    },
+    {
+      "path": "research/validation/2026-10-11-three-common-roots-quartic-support/execution-record.json",
+      "bytes": 1019,
+      "sha256": "99ab45762c3696fac635a05dd8c4a22d23f6deb6039a3d80b3ecabed161399f6"
+    },
+    {
+      "path": "research/validation/2026-10-11-three-common-roots-quartic-support/run_once.py",
+      "bytes": 1872,
+      "sha256": "2a2c25f817272a801a63c856c5867da39fe6c988a1f806f2d4da5a364b96d046"
+    },
+    {
+      "path": "research/validation/2026-10-11-three-common-roots-quartic-support/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-11-three-common-roots-quartic-support/stdout.txt",
+      "bytes": 679,
+      "sha256": "28ceafd1b4e89b0f0f96cbe387918716654453f5429f009d60597df85b9c5f06"
+    },
+    {
+      "path": "research/validation/2026-10-11-three-common-roots-quartic-support/verify_session_three_common_roots_residual_quartic_2026_10_11.m2",
+      "bytes": 1889,
+      "sha256": "e0762fcc2c959cbf32b87de10ced160b7913b0da5d0de6875917a9a97632727b"
+    }
+  ],
+  "forthcoming_power_jet_record": "Not included. At inventory time no separate a=b=0 power-jet execution folder was present. The existing power-jet audit note cites the 12-check ell-first-jet record and says no additional mathematical execution was needed."
+}

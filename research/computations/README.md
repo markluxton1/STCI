@@ -1,5 +1,30 @@
 # Exact computation checks
 
+## Post-seal quintic continuation through October 12
+
+The [quintic continuation acceptance](../notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+closes the entire endpoint A4 projection lane in all mate degrees using
+written proofs with independent audits. Exact endpoint target jets (16),
+independent global identities (16), independent target contacts (14),
+two residual-quartic certificates (8 and 9), and the a=b=0 line-first-jet
+check (12) retain their own source/stream histories. Overlapping identities,
+copies, diagnostics and replays are not additional theorems or cases.
+The prepared record coverage review discloses original metadata-only
+rows, reconstructed exact-model sources and the unreplayed diagnostic;
+its scoped counts are not an all-repository total.
+
+The [new nonendpoint direct proof](../notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
+has seven supporting identities after two root repairs. Attempt 03's
+residual-expression assertion genuinely failed after a multiline parse
+omission; attempt 04 passed that repair then hit protected hh; attempt 05
+passes all seven. The snapshots and raw streams remain separate.
+Independent mathematical audit of this new nonendpoint note is still
+outstanding. The generic nonendpoint family is not excluded.
+The [quintic continuation record scope](../validation/2026-10-11-quintic-continuation-seal/README.md)
+preserves both independent inventories, the interrupted checker and all
+new root repair snapshots. Its record-only PASS is not a mathematical
+verifier run or a proof-audit replacement.
+
 ## Accepted sources through October 10 and their scope
 
 The [current audited state](../AUDITED_STATE_2026-10-07.md) and

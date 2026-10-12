@@ -1,4 +1,4 @@
-# Sustained research update — 2026-10-06 through 2026-10-11
+# Sustained research update — 2026-10-06 through 2026-10-12
 
 This record integrates the interrupted session and its continuation.
 The authoritative short frontier is
@@ -8,6 +8,23 @@ question for C0 remain unresolved. Results below retain their carrier,
 characteristic, direction and defect hypotheses. Agreement of programs
 is evidence for their finite arithmetic scope; the geometric arguments
 are supplied separately.
+
+## October 12 post-seal quintic frontier
+
+The [new root acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+excludes every admissible endpoint projection in the genus-one quintic
+A4 normalization lane, with arbitrary mate degree. Complete a!=0 support
+and higher-jet proofs, a=0,b!=0 polynomial-support proof, and a=b=0
+all-power differential proof have independent written audits. Intrinsic
+pair classification is exhaustive, but nonendpoint centers have a
+separation modulus beyond four lifts; that family remains open. Full
+conductor membership and purity give an exact descent criterion, not an
+exhaustion of its parameters. The new nonendpoint degree-six residual
+filtration and ramified-line subfamily obstruction have a direct proof
+and repaired supporting execution; their independent mathematical audit
+is outstanding. Explicit usage-limit failures stopped the workers after
+these saved outputs. Root completed the acceptance and current routing;
+no interrupted draft or old integrity seal is represented as a new PASS.
 
 ## October 10 accepted frontier
 

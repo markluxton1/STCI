@@ -1,7 +1,7 @@
-# Canonical audited state — 2026-10-07, reconciled through 2026-10-11
+# Canonical audited state — 2026-10-07, reconciled through 2026-10-12
 
 This is the continuation entry point for the research session begun on
-2026-10-06 and resumed through 2026-10-11. It supersedes conflicting frontier
+2026-10-06 and resumed through 2026-10-12. It supersedes conflicting frontier
 language in the 2026-10-06 state and older handoffs. Detailed proofs,
 independent audits, exact certificates, failed checks and source scopes
 remain in the linked notes. No claim of novelty is made for a result
@@ -29,9 +29,25 @@ The [root-reviewed quintic follow-on](notes/2026-10-11-session-all-quartic-resul
 excludes sectional genus zero and proves rationality through genus
 three. Its genus-one mate lane requires a degree-five del Pezzo
 normalization with a single A4 point and a unique line tangent to the
-lifted rational normal quartic. Actual projection and full conductor
-power descent remain open. The separate (5,8) filtration has 308
+lifted rational normal quartic. The
+[post-seal acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+now closes the entire intrinsic endpoint projection family, including
+all four lift parameters and every positive mate exponent. The a!=0
+support proof retains all projective exceptional fibers and uses actual
+third/fourth jets; the a=0 boundary has separate complete support and
+all-power differential proofs. The nonendpoint center has an additional
+separation modulus, so this is not a full genus-one quintic exclusion.
+Actual nonendpoint projection and full conductor power descent remain
+open. The separate (5,8) filtration has 308
 necessary numerical profiles, not a degree-pair exclusion.
+
+The [nonendpoint pole-filtration/line-jet progress](notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
+gives a direct structural proof and a specified ramified-line subfamily
+obstruction with seven supporting identities. Its separate mathematical
+audit is outstanding; it is not labeled independently audited here.
+All older endpoint-open labels in the initial quintic notes are superseded
+only within the new acceptance's exact scope. Normal quintics, the other
+nonnormal genera, higher carriers and unrestricted STCI remain open.
 
 ## Evidence labels and inherited base
 

@@ -1,0 +1,5 @@
+(numerator, (delta)^2*(p^2-6*p+6)*(delta^5*p^5-9*delta^5*p^4+6*delta^3*Bc*p^5-9*delta^2*Bc^2*p^5+30*delta^5*p^3-48*delta^3*Bc*p^4+72*delta^2*Bc^2*p^4+9*delta*Bc^2*p^5-18*Bc^3*p^5+9*delta^6*p-45*delta^5*p^2-18*delta^4*Bc*p^2+144*delta^3*Bc*p^3-216*delta^2*Bc^2*p^3-63*delta*Bc^2*p^4+126*Bc^3*p^4-18*delta^6+27*delta^5*p+90*delta^4*Bc*p-198*delta^3*Bc*p^2+270*delta^2*Bc^2*p^2+171*delta*Bc^2*p^3-342*Bc^3*p^3-108*delta^4*Bc+108*delta^3*Bc*p-54*delta^2*Bc^2*p-216*delta*Bc^2*p^2+432*Bc^3*p^2-108*delta^2*Bc^2+108*delta*Bc^2*p-216*Bc^3*p)*(-1))
+(denominator, (p)^2*(p-2)^3*(delta^2*p-3*delta^2+3*Bc*p-6*Bc)^2*(27))
+(VB at zero, (delta)^2*(delta^4+6*delta^2*Bc+6*Bc^2)*(-18)/(1))
+(VB at two, (delta)^5*(2)/(1))
+(VB at three, (delta^6-3*delta^2*Bc^2+9*delta*Bc^2-18*Bc^3)*(9)/(1))

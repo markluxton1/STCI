@@ -16,11 +16,11 @@ print("RESIDUAL " | toString residual);
 -- Let A=aa+parD-bb-gg, B=aa*parD-bb*gg.
 coefV = aa+parD-bb-gg;
 coefT = aa*parD-bb*gg;
-expected = coefV*v0-3*sepD^2*rr^3
+expected = (coefV*v0-3*sepD^2*rr^3
  + ((4*aa-3*bb-gg)*sepD-3*sepD^3-coefV)*rr*tt
  + (coefT+(6*aa-3*bb)*sepD^2+3*sepD^3)*rr^2
  + (coefT+sepD^4)*tt
- + ((-4*aa+bb)*sepD^3-sepD^4)*rr+aa*sepD^4;
+ + ((-4*aa+bb)*sepD^3-sepD^4)*rr+aa*sepD^4);
 assert(residual == expected);
 print "PASS 2: seven dimensional pole filtered expression";
 -- The unique weight-six rr^3 coefficient is -3sepD^2, nonzero.
@@ -31,16 +31,16 @@ z2 = xx^2*(1+xx*uu)^2;
 z3 = xx*(1+xx*uu);
 z4 = xx^3*(1+xx*uu)^2;
 z5 = xx^5*(1+xx*uu)^3;
-hh = z2+z3;
+nonendpointSection = z2+z3;
 u0 = z5;
 u1 = z4;
 u2 = z3;
 u3 = -z1;
 u4 = z0-z1;
-F0 = u4+aa*hh;
-F1 = u4-sepD*u3+bb*hh;
-F2 = u4-3*sepD*u3+3*sepD^2*u2-sepD^3*u1+gg*hh;
-F3 = u4-4*sepD*u3+6*sepD^2*u2-4*sepD^3*u1+sepD^4*u0+parD*hh;
+F0 = u4+aa*nonendpointSection;
+F1 = u4-sepD*u3+bb*nonendpointSection;
+F2 = u4-3*sepD*u3+3*sepD^2*u2-sepD^3*u1+gg*nonendpointSection;
+F3 = u4-4*sepD*u3+6*sepD^2*u2-4*sepD^3*u1+sepD^4*u0+parD*nonendpointSection;
 atEll = f -> substitute(f,{xx=>0});
 jetEll = f -> atEll(diff(xx,f));
 assert(atEll(F0*F3-F1*F2) == -3*sepD^2);

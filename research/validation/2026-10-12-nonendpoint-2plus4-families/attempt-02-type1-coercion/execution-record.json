@@ -1,0 +1,20 @@
+{
+  "status": "FAIL",
+  "exit_code": 1,
+  "start_utc": "2026-10-12T15:02:08.403932+00:00",
+  "end_utc": "2026-10-12T15:02:09.032811+00:00",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-2plus4-families/attempt-02-type1-coercion/source.m2"
+  ],
+  "source_path": "research/computations/probe_session_nonendpoint_2plus4_families_2026_10_12.m2",
+  "source_snapshot": "source.m2",
+  "source_sha256": "74a102d3a4d41f33135f0d885adf3836120824d077d5b15f0b3a4b449def5371",
+  "stdout_path": "stdout.txt",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_path": "stderr.txt",
+  "stderr_sha256": "0499c0608332edff09b7195e44ae390cd5202bcf85350e1f9b467a63b8efd27a",
+  "scope": "Type1 one-parameter family probe; two factor identities, exploratory gcd/factor output, no global exclusion"
+}

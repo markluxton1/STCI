@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-12T15:01:27.384817+00:00",
+  "elapsed_seconds": 0.6334682910237461,
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-target-fiber-independent-audit/verify_proof_gaps.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-target-fiber-independent-audit",
+  "returncode": 0,
+  "source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-target-fiber-independent-audit/verify_proof_gaps.m2",
+  "source_sha256": "3cac9be6e6bfe7fdd3502f5e66e70f5c34fb024c5ed67e5f9922a8ac50e8ddfc",
+  "stdout": "stdout.txt",
+  "stdout_sha256": "93af31f70bd96cc171e8acfd9653eedc87138fb5565f5ea49ef931ed635244d5",
+  "stderr": "stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "intended_exact_checks": 11,
+  "scope": "Leading coefficients, boundary value, root-count remainder and specialization checks omitted from owner identity assertions; no full-family exclusion"
+}

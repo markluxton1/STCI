@@ -8,7 +8,7 @@ The universal problem and the unrestricted characteristic-zero rational
 quartic test case remain unresolved in this repository.
 
 Start with the [current audited state](research/AUDITED_STATE_2026-10-07.md).
-The [research update through October 11](research/RESEARCH_UPDATE_2026-10-07.md)
+The [research update through October 12](research/RESEARCH_UPDATE_2026-10-07.md)
 and [dated continuation handoff](research/SUCCESSOR_HANDOFF_2026-10-07.md)
 index the all-degree normal-quartic and complete smooth-normalization
 exclusions, the rationality and genus-one del Pezzo reductions,
@@ -45,6 +45,14 @@ with a mate of any positive degree**. Together with the checked cubic
 and quadric exclusions, any STCI presentation of C0 must have both
 degrees at least five. Higher carrier degrees and entirely thick
 presentations remain open; no theorem forces a quartic carrier.
+The [post-seal quintic acceptance](research/notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+now excludes the entire endpoint projection family of the sectional-genus-one
+quintic A4 normalization in every mate degree. The intrinsic pair is
+exhaustively classified, but nonendpoint projections retain an additional
+separation modulus and remain open. A new bounded nonendpoint pole-filtration
+and ramified-line obstruction has supporting identities; its separate proof
+audit is still outstanding. Other quintic normalizations and higher carriers
+are not excluded. The newest saved working-tree results are not committed.
 The [research record](research/RESEARCH_RECORD.md),
 [literature ledger](research/LITERATURE_LEDGER.md), and
 [computation guide](research/computations/README.md) preserve proofs,

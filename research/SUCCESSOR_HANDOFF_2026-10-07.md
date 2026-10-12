@@ -1,4 +1,4 @@
-# Continuation handoff — 2026-10-07, reconciled through 2026-10-11
+# Continuation handoff — 2026-10-07, reconciled through 2026-10-12
 
 Read [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md) first, then
 [RESEARCH_UPDATE_2026-10-07.md](RESEARCH_UPDATE_2026-10-07.md), the relevant
@@ -6,11 +6,31 @@ proof note and its independent audit. Older handoffs are historical.
 The universal STCI problem and unrestricted characteristic-zero C0
 problem remain unresolved.
 
+Read the [post-seal quintic acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+for the latest mathematical frontier. The entire endpoint projection
+family in the genus-one quintic A4 lane is excluded in every mate degree.
+Its proposed labels in older notes are historical; the new acceptance
+binds the completed independent audits. The nonendpoint separation
+modulus is essential. The direct
+[nonendpoint filtration/line-jet note](notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
+needs a separate mathematical proof audit before promotion to the
+independently audited frontier. Workers stopped with explicit usage-limit
+errors; inspect authoritative agent status before resuming any unfinished
+task. Do not restart the closed endpoint parameter search.
+
+The [new quintic record directory](validation/2026-10-11-quintic-continuation-seal/README.md)
+retains the interrupted draft, independent coverage review and the separate
+root-completed scoped checker. Its final result and manifest, if present,
+identify the observed record status. The old October 11 seal remains a
+historical snapshot and must not be overwritten.
+
 ## Live checkpoint
 
-The current branch is `research/ultra-resume-2026-10-06`. Live inspection
-found HEAD `2ba77d1a1177db9390693066c6b185040766c089`, title
-`2026-10-10 afternoon limit reached`. The previous afternoon HEAD
+The current branch is `research/ultra-resume-2026-10-06`. October 12 inspection
+found HEAD `0adab2bd188351a77d961d7f2251c21545aaebcc`, title
+`2026-10-11 limit reached`. Root did not create that observed commit.
+The preceding HEAD `2ba77d1a1177db9390693066c6b185040766c089`, title
+`2026-10-10 afternoon limit reached`, is now historical. The previous afternoon HEAD
 `406d63db72000a3951497a0ba2a8fbfbc13e8ead` and previously observed morning
 HEAD `e7c9c9594795271ff2c1b0a9026955523975e7d7` are historical.
 The retained October 6 interruption
@@ -103,9 +123,15 @@ Their parameter loci and earlier proof records remain useful evidence.
    excludes sectional genus zero, proves rationality through genus
    three, and forces the genus-one mate lane onto a degree-five
    del Pezzo normalization with a single A4 point. Its unique line is
-   tangent to the lifted rational normal quartic. The unresolved task
-   is actual projection and arbitrary-power descent through the entire
-   degree-five, genus-two conductor. Genus two through five and normal
+   tangent to the lifted rational normal quartic. The entire endpoint
+   projection is now excluded. Continue with the nonendpoint
+   five-parameter family (nonzero separation modulus plus four lifts),
+   actual full inverse support and entire conductor-algebra power descent.
+   The new pole filtration gives a residual Weil divisor of degree six
+   and necessary prime-degree partitions; do not transfer the endpoint
+   hK factorization into this lane. First audit the saved nonendpoint
+   direct proof, including its entire-line rank-one stratum.
+   Genus two through five and normal
    quintics remain outside this exclusion. The separate multiplicity-ten
    filtration gives 308 necessary numerical degree profiles for (5,8),
    not a classification or degree-pair exclusion.

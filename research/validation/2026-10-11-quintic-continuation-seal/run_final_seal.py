@@ -15,7 +15,7 @@ outputs = ["result.json", "execution-manifest.json", "stdout.txt", "stderr.txt"]
 if any((HERE / name).exists() for name in outputs):
     raise SystemExit("Refusing to overwrite final seal or captured execution files.")
 sha = lambda path: hashlib.sha256(Path(path).read_bytes()).hexdigest()
-checker = HERE / "check_record.py"
+checker = HERE / "check_quintic_record.py"
 checker_before = sha(checker)
 command = [sys.executable, str(checker), "--seal-once", "--acceptance", acceptance]
 started = datetime.now(timezone.utc).isoformat()

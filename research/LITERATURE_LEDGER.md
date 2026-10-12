@@ -1,5 +1,13 @@
 # STCI Literature Ledger
 
+The [post-seal quintic acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+records a new independently audited endpoint quintic-projection exclusion
+in every mate degree. It is an internal proved result under its exact
+normalization and center scope, not a cited universal STCI theorem or a
+certified novelty claim. The nonendpoint modulus and other quintic
+normalizations remain open. No new external literature refresh is claimed
+by the October 12 acceptance or by its evidence seal.
+
 Original ledger checked through: 2026-09-30. Refreshed source scopes:
 [2026-10-06 session literature audit](notes/2026-10-06-session-literature-refresh.md),
 continued and integrated 2026-10-07.

@@ -1,0 +1,238 @@
+{
+  "status": "PASS",
+  "mathematical_audit_status": "pending independent audit",
+  "scope": "Complete G=J=0 nonendpoint projection subfamily exclusion over algebraically closed characteristic-zero fields, conditional on the written full-support and center-avoidance geometry. Does not exclude the entire nonendpoint family or solve STCI.",
+  "current_source": "research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2",
+  "current_source_sha256": "44d3b193783dc76562febe23af452a5b863b65b5f992dc6b1f83fad4a0c8fc33",
+  "accepted_mathematical_checker_sources": 1,
+  "accepted_structural_checks": 10,
+  "accepted_polynomial_bezout_certificates": 21,
+  "certificate_file": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/twenty-one-polynomial-bezout-certificates.txt",
+  "certificate_file_sha256": "46e1c3daa4c1b927a91bb65c747775de243533d4c6dc98b9562324fbb99aa304",
+  "failed_source_versions_retained": 7,
+  "successful_exploratory_sources": 3,
+  "recorded_M2_executions": 11,
+  "executions": [
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-exploratory-source.m2",
+      "source_sha256": "d2edb5ea6c159698c9d1dfd41973ead3b7c7a68d25c19d267d027a87f9611037",
+      "original_source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-exploratory-source.m2",
+      "scope": "Exploratory normalization coefficient export failed before resetting polynomial-ring variables.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-exploratory-source.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:05.440042+00:00",
+      "elapsed_seconds": 0.6516472499351948,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-exploratory-source.stdout.txt",
+      "stdout_sha256": "df99b30af009e5fc5ef6f069ab20095d7624e24ec47da7ba3ffcb5962d19d87f",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-exploratory-source.stderr.txt",
+      "stderr_sha256": "8ffdddefd40915d96dc02ed1af1def8bea0b5579ca680b37dd1d9715b92de1fa"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-profile-source.m2",
+      "source_sha256": "ef62a1274296bfa2ed7f72e7e0f0bf01700e1e578e1292ffada817c39bc629ab",
+      "original_source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-profile-source.m2",
+      "scope": "Exploratory profile loop used protected/reserved profile syntax.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-profile-source.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:06.092079+00:00",
+      "elapsed_seconds": 0.6311085419729352,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-profile-source.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-profile-source.stderr.txt",
+      "stderr_sha256": "4983635e436d2547a41434f061a37856d110b5a8d8cf3cc6ea45ef11861aeb0a"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-list-source.m2",
+      "source_sha256": "9e725a73a22d66d01fda858b4ab3878a9e71bb3e1a115b3de83d00c0d22069a3",
+      "original_source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-list-source.m2",
+      "scope": "Exploratory certificate generator concatenated a Sequence and List.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-list-source.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:06.723409+00:00",
+      "elapsed_seconds": 0.6315312080550939,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-list-source.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-list-source.stderr.txt",
+      "stderr_sha256": "b0daf3c19ac4bd653bce5c8f63a28b550650f75cee51fa4f48d4417d4745924d"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-lift-source.m2",
+      "source_sha256": "038561e488aee54d7d2a4e0379efe90b7ac5b447d3ed637d246115ab8a485a75",
+      "original_source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-lift-source.m2",
+      "scope": "Exploratory certificate generator used unsupported lift(Matrix,Matrix).",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-lift-source.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:07.355191+00:00",
+      "elapsed_seconds": 0.6316972919739783,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-lift-source.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-certificate-lift-source.stderr.txt",
+      "stderr_sha256": "97cae61a2838b603f41d557d0567d469cf20be1bea96bc1d8a702ff2fbc96eb0"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-coefficient-source.m2",
+      "source_sha256": "34857e916e11df704b30920908b639a20219b01d65a2297d4a07b7bf794265bd",
+      "original_source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-coefficient-source.m2",
+      "scope": "Checker draft attempted coefficient extraction in a fraction field.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-coefficient-source.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:07.987113+00:00",
+      "elapsed_seconds": 0.6312615000642836,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-coefficient-source.stdout.txt",
+      "stdout_sha256": "7b9516722ced88e24b7c6ad0d5e195915529e4c8e8f5c13d182da0d23800e568",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-coefficient-source.stderr.txt",
+      "stderr_sha256": "39f5061eabfa680b6d18a6acc9968c23ef74458133449625efb1ff1e0c36e3b2"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-multivariable-coefficient-source.m2",
+      "source_sha256": "2921875c8d9f05c4983794daa3dc3e4a481acade4e7a30b14dc6ad5c9d06e3bf",
+      "original_source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-multivariable-coefficient-source.m2",
+      "scope": "Checker draft extracted a multivariate monomial coefficient instead of a univariate coefficient over its parameter ring.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-multivariable-coefficient-source.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:08.618585+00:00",
+      "elapsed_seconds": 0.6352739578578621,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-multivariable-coefficient-source.stdout.txt",
+      "stdout_sha256": "7b9516722ced88e24b7c6ad0d5e195915529e4c8e8f5c13d182da0d23800e568",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-multivariable-coefficient-source.stderr.txt",
+      "stderr_sha256": "937bdd14e8ea29f802e023116491e4dc71fad7de6eba2351a309a1166b54c4cf"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-reserved-dd-source.m2",
+      "source_sha256": "4363506ce1f07341b464a164c416cfac97be6f3feefe95cbb660b641326b93dd",
+      "original_source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-reserved-dd-source.m2",
+      "scope": "Checker draft used the protected M2 variable dd for the modulus.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-reserved-dd-source.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:09.254081+00:00",
+      "elapsed_seconds": 0.6388571658171713,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-reserved-dd-source.stdout.txt",
+      "stdout_sha256": "69fffe3431c759a9964bdbc6bf32634f45d7c56fc9d37af549093f751433e8fd",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-reserved-dd-source.stderr.txt",
+      "stderr_sha256": "fde47e8fb84c12488e9ac5a7bae1ea6e80a701bda1ee153bfc347bdafbe6b29c"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-normalized-quintic.m2",
+      "source_sha256": "225f96fdcf6798a6d84c1d753f8f6a78f8697171ce2032a4e391d7968d71c8f3",
+      "original_source": "/private/tmp/stci_nonendpoint_GJ0_normalized.m2",
+      "scope": "Exploratory exact normalization factorization.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-normalized-quintic.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:09.893541+00:00",
+      "elapsed_seconds": 0.6414515001233667,
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-normalized-quintic.stdout.txt",
+      "stdout_sha256": "b7e5e0b531596ea0aa2ac0b535975081c048406eff097d3eb583c3c3240941ca",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-normalized-quintic.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-saturated-21-profiles.m2",
+      "source_sha256": "08441a8226444cf7a237a303a7bed57b4f263ae88f1fb1d2447b1c549de110ac",
+      "original_source": "/private/tmp/stci_nonendpoint_GJ0_21profiles.m2",
+      "scope": "Exploratory 21-profile saturation; superseded by unsaturated polynomial Bezout certificates.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-saturated-21-profiles.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:10.535619+00:00",
+      "elapsed_seconds": 0.7824642080813646,
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-saturated-21-profiles.stdout.txt",
+      "stdout_sha256": "8cc7fda788e155111356922cd9fb96bc19e45d41fd3d76810e981e03518a6ff2",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-saturated-21-profiles.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-inverse-variable-certificates.m2",
+      "source_sha256": "7ea2394964f5d9dc6dd8eb06a7e79b3bca325efcb3d1f8baf51ed6f59f94250a",
+      "original_source": "/private/tmp/stci_nonendpoint_GJ0_certificate_probe.m2",
+      "scope": "Exploratory inverse-variable polynomial certificates; every inverse-variable coefficient is zero.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-inverse-variable-certificates.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:11.318321+00:00",
+      "elapsed_seconds": 0.8106436668895185,
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-inverse-variable-certificates.stdout.txt",
+      "stdout_sha256": "553534c456ceb2c1ad13307f4121c93ea5f3e1fffb75830d4a242ae0c0f57ad3",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/scratch-inverse-variable-certificates.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/final-source.m2",
+      "source_sha256": "44d3b193783dc76562febe23af452a5b863b65b5f992dc6b1f83fad4a0c8fc33",
+      "original_source": "/Users/markluxton/Projects/STCI/research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2",
+      "scope": "Accepted exact checker: ten structural checks and twenty-one unsaturated polynomial Bezout certificate identities.",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/final-source.m2"
+      ],
+      "started_utc": "2026-10-12T15:07:12.129250+00:00",
+      "elapsed_seconds": 0.7634701249189675,
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/final-source.stdout.txt",
+      "stdout_sha256": "9dca08da01582e905381781831fae167ad10e2f6330bfc971776606d05d05968",
+      "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/final-source.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "runner_sha256": "eb5df657f984e23de58d29e6d48c3189b14db1a26d93429a6765ab6006b88279",
+  "direct_tool_observations": [
+    "2946ef saturated 21-profile exploratory pass",
+    "a20e58 certificate Sequence/List API failure",
+    "c47877 unsupported lift(Matrix,Matrix) failure",
+    "a988f4 inverse-variable certificates multiply to 1",
+    "20a81a printed certificate vectors; inverse coefficient always zero",
+    "3b317a draft fraction-field coefficient failure",
+    "612099 draft multivariate coefficient assertion failure",
+    "a9173d protected dd variable failure after seven structural groups",
+    "a28019 final ten structural plus twenty-one polynomial certificate pass"
+  ]
+}

@@ -1,0 +1,9 @@
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/enginering.m2:414:105:(1):[9]: error: assignment to protected variable 'dd'
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/enginering.m2:414:55:(1):[8]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/polyrings.m2:138:46:(1):[6]: --back trace--
+research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/failed-checker-reserved-dd-source.m2:35:5:(3):[5]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:80:23:(0):[5]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:126:61:(1):[4]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:138:29:(1):[2]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:547:66:(0):[1]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:635:41:(2): --back trace--
