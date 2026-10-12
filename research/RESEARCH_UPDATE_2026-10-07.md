@@ -1,4 +1,4 @@
-# Sustained research update — 2026-10-06 through 2026-10-10
+# Sustained research update — 2026-10-06 through 2026-10-11
 
 This record integrates the interrupted session and its continuation.
 The authoritative short frontier is
@@ -25,15 +25,28 @@ automatically a theorem about every smooth rational quartic embedding.
 For genus two, the [actual conductor-line theorem](notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
 is accepted without a mate: rational singularities, entire reduced
 downstairs line, finite flat quadratic upstairs algebra
-`O direct-sum O(-2)`, including nonreduced covers. Both
-`(lambda,q)=(0,4),(1,3)` remain. The
+`O direct-sum O(-2)`, including nonreduced covers. The initial numerical
+reduction retains `(lambda,q)=(0,4),(1,3)`. The
 [bounded no-B section proof](notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md)
 excludes only the latter subcase where its degree-zero horizontal prime
 is absent. The [ambient line-blowup audit](notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md)
 is now accepted: the actual strict transform is normal ADE and crepant,
 and the actual conic pencil identifies both strata with length-two or
-length-three line intersections. Further residual-conductor and second
-pencil arguments remain separate proof obligations.
+length-three line intersections. The
+[resumed acceptance](notes/2026-10-10-session-continuation-results-acceptance.md)
+now excludes the whole bisection lane: the second pencil forces an
+actual Cartier double with nilideal `O(-8)`, and the ambient global
+conormal map from `O(-7)^2` cannot exist. It also excludes every
+nonendpoint trisecant section case through complete `(2,2)` divisor
+coverage and an all-length A-chain inequality. The
+[October 11 acceptance](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+closes the entire endpoint triple-contact section case through the exact
+full quartic family, local branch positions and crepant normal-derivative
+contribution. This assembles the exclusion of every integral quartic
+carrier of fixed C0 in characteristic zero with a mate of any degree.
+All actual quartic mate lanes below are thereby closed; common-ancestor
+incidence is not automatically a two-form STCI condition. Both degrees
+in any hypothetical presentation are at least five.
 The older 97/110 execution totals and October 9 seal remain frozen
 historical records, not totals of the new results.
 
@@ -45,8 +58,10 @@ continued checkout is on `research/ultra-resume-2026-10-06`; the retained
 interruption snapshot is `3ffda7548a863387429adab61eefe02575e86297`.
 Working changes and newly created notes are the current evidence.
 Live inspection on October 10 found HEAD
-`406d63db72000a3951497a0ba2a8fbfbc13e8ead`, with title
-`2026-10-09 afternoon limit reached`; root did not perform that Git mutation.
+`2ba77d1a1177db9390693066c6b185040766c089`, with title
+`2026-10-10 afternoon limit reached`; root did not perform that Git mutation.
+The previous afternoon HEAD `406d63db72000a3951497a0ba2a8fbfbc13e8ead`
+is historical.
 The previously observed morning HEAD `e7c9c9594795271ff2c1b0a9026955523975e7d7`
 is historical.
 The earlier interruption commit is historical, and the current checkout
@@ -372,11 +387,9 @@ stronger results:
   checks its entire construction. The later October 10 full ribbon-net
   theorem now also excludes every other genus-one projection for fixed C0.
 
-The surviving integral-quartic geometry is a rational singular
-normalization of genus two, with a non-Cartier smooth lifted curve
-meeting its singular locus. The October 10 theorem closes genus one.
-Higher
-carrier degrees and entirely thick presentations remain separate
+The October 10 genus-one theorem and the October 11 complete genus-two
+assembly now close all integral-quartic geometry for a mate on fixed C0.
+Higher carrier degrees and entirely thick presentations remain separate
 open branches. The unrestricted C0 and universal questions are open.
 
 ## Literature and next actions
@@ -391,30 +404,42 @@ survey assertion remains unverified from its original source chain.
 
 The most valuable remaining directions are structural:
 
-1. Determine the finite remaining principal e=1,d2=1 carrier locus,
-   using the verified weighted polynomial kernel, its explicit necessary
-   630-point determinant locus, and actual higher jets or conductor data.
-   The ancestor problem at d2=1 is closed; the unique-carrier mate
-   problem remains. Continue the d2=2 incidence and e=0 (3,6) residual.
-   The [intrinsic defective-triple reduction](notes/2026-10-07-session-mf6-e1-defective-structural.md)
-   identifies the correct cubic-class twist, a five-by-three quadratic
-   annihilator for (1,3), five vanishing coefficients for (2,2), the
-   preceding sextic direction locus and six exact endpoint triples.
-2. The normal, every smooth-normalization and every genus-zero quartic
-   carrier class is excluded. Nonrational normalization cannot contain
-   C0. Genus one is now excluded by the full fixed-center ribbon and
-   conductor chain. Investigate genus two using the actual conductor
-   line, normal ambient conic model and both section/bisection strata.
-   Retain full inverse-image support and singular/nonreduced covers.
-   Preserve the semi-log-canonical restriction in modern classification
-   summaries; do not import the scroll ACM conductor classification
-   as a classification of all quartic surfaces.
-3. Exhaust the four endpoint local-cohomology direction families
-   using exact module duals plus their full exceptional loci, then
-   address top zeros outside the endpoints.
-4. Retain the early-defect e=2 fourth obstruction, the entirely-thick
-   high-ratio region, higher-degree order-one carriers and the
-   ramified split-sextic boundary as genuine open work.
+1. Pursue carriers of minimum degree at least five. All actual quartic
+   mate branches, including the principal necessary 630-point locus,
+   MF6 and larger early-defect pairs, are closed by the October 11
+   all-quartic theorem. A quintic carrier requires mate degree 4k with
+   k>=2. The [audited quintic frontier](notes/2026-10-11-session-quintic-structural-frontier.md)
+   excludes sectional genus zero and proves rationality through genus
+   three. Its genus-one mate lane forces a degree-five del Pezzo
+   normalization with a single A4 point, a unique tangent line to the
+   lifted rational normal quartic, and an actual section with divisor
+   5c in degree four upstairs. Determine whether any power descends
+   through the entire degree-five, genus-two conductor of an actual
+   projection to P3. The normalization section is not an ambient
+   quartic. Other quintic genera and all higher carrier degrees remain
+   open; no finite upper mate-degree bound has been proved.
+2. Continue the distinct common-quartic-ancestor local-cohomology
+   incidence. Its 22 retained second-family points include their entire
+   lower lift lines. The remaining boundary families, nonendpoint top
+   zeros and positive-D2 ancestor strata retain their stated scopes.
+   The no-quartic-mate theorem does not imply simultaneous-annihilation
+   incidence is empty. Use actual forms, the complete dual tensor and
+   target rank jumps, with all exceptional loci retained.
+3. Pursue entirely thick higher-degree presentations and the totally
+   ramified split-sextic boundary with higher jets, valuations or an
+   equivalent filtered structure. The actual split carrier has degree
+   six; its necessary mate scale 8k is outside the quartic theorem.
+4. Prepare the complete quartic argument for external mathematical
+   scrutiny and a deeper novelty assessment. Keep the noncircular
+   dependency chain, exact field hypotheses, singular normalization
+   and full conductor schemes. The checked literature does not
+   establish novelty or an unrestricted resolution.
+
+The separate [multiplicity-ten filtration audit](notes/2026-10-11-session-multiplicity-ten-filtration-audit.md)
+reduces a hypothetical (5,8) pair to three possible line degrees and
+308 necessary numerical profiles. These are not classified multiple
+structures or a degree-pair exclusion; actual divisors, embedded
+extension data and higher normal jets remain necessary.
 
 The [dated handoff](SUCCESSOR_HANDOFF_2026-10-07.md) specifies how to
 resume these lanes without repeating completed validation or reviving

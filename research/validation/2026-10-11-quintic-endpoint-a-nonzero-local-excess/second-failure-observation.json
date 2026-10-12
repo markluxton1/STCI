@@ -1,0 +1,6 @@
+{
+  "tool_chunk_id": "f124b6",
+  "exit_code": 1,
+  "failure": "global division still failed after fraction-field change; diagnosed next",
+  "final_diagnosis": "Unparenthesized multiline M2 assignments omitted subsequent-line terms; the tentative quotient diagnosis was superseded by inspecting parsed K and E."
+}

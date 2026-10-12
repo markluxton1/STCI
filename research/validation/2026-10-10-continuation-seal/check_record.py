@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Independent October 10 record check; never executes a math verifier.
 
-Run --preliminary while root is reconciling canonical routing. Run --seal-once
-after root declares those edits ready. The final mode refuses to overwrite its
+Run --preliminary while root is reconciling canonical routing. Run --preflight
+to exercise final routing gates without freezing, then --seal-once after root
+declares those edits ready. The final mode refuses to overwrite its
 own result. This is a provenance and routing check, not proof of mathematics.
 """
 from argparse import ArgumentParser
@@ -22,6 +23,20 @@ REPLAY = ROOT / "research/validation/2026-10-10-genus-one-root-replay"
 INTERFACES = ROOT / "research/validation/2026-10-10-genus-one-interfaces"
 REPEATED = ROOT / "research/validation/2026-10-10-repeated-partitions-independent-audit"
 LINE_POSITIONS = ROOT / "research/validation/2026-10-10-genus-two-line-positions"
+NORMAL_BUNDLE = ROOT / "research/validation/2026-10-10-quartic-normal-bundle-independent-audit"
+NORMAL_REPLAY = ROOT / "research/validation/2026-10-10-normal-bundle-root-replay"
+HISTORICAL_TRUST_ANCHORS = {
+    "research/validation/2026-10-09-late-continuation-seal/result.json":
+        "5644fd5832f641a14d203c9692c05a9864fb11cf15aa9306aeea68e9aee6381a",
+    "research/validation/2026-10-09-late-continuation-seal/check_record.py":
+        "881db0a3cbeb087d18cbd01bf40eb450a0cea44ce1807350c11886a454d60058",
+    "research/validation/2026-10-09-late-continuation-seal/execution-manifest.json":
+        "51551d668fc870f8f0bfab18ad3c42f8e95401228f443c4aaa811b1e6ab5a75a",
+    "research/validation/2026-10-08-continuation-index/index.json":
+        "daeff78d9a57ddb968e0ff910838e41624c03150e490459a0ae876fa71ca23e8",
+    "research/notes/2026-10-10-session-results-acceptance.md":
+        "497d8500831833674ebaf5fdd3d6686ffacfd7f7d47021087ddfe276999c4696",
+}
 CANONICAL = [
     "README.md", "research/AUDITED_STATE_2026-10-07.md",
     "research/RESEARCH_UPDATE_2026-10-07.md", "research/SUCCESSOR_HANDOFF_2026-10-07.md",
@@ -70,15 +85,19 @@ STATUS_TRACKED = [
     "research/notes/2026-10-10-session-genus-two-nonendpoint-trisecant-conic-obstruction.md",
     "research/notes/2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md",
     "research/notes/2026-10-10-session-genus-two-bisection-second-pencil-independent-audit.md",
+    "research/notes/2026-10-10-session-genus-two-bisection-quadratic-descent.md",
 ]
 
 parser = ArgumentParser()
 mode = parser.add_mutually_exclusive_group(required=True)
 mode.add_argument("--preliminary", action="store_true")
+mode.add_argument("--preflight", action="store_true")
 mode.add_argument("--seal-once", action="store_true")
 parser.add_argument("--acceptance", default="research/notes/2026-10-10-session-results-acceptance.md")
 args = parser.parse_args()
-target = HERE / ("result.json" if args.seal_once else "preliminary-result.json")
+final_routing = args.seal_once or args.preflight
+target = HERE / ("result.json" if args.seal_once else
+                 "preflight-result.json" if args.preflight else "preliminary-result.json")
 if args.seal_once and target.exists():
     raise SystemExit("Refusing to overwrite frozen result.json; use a distinct later seal directory.")
 
@@ -96,7 +115,11 @@ def bind(path):
     path = Path(path)
     check(path.is_file(), "file exists", relative(path))
     if path.is_file():
-        bound[relative(path)] = sha(path)
+        key, digest = relative(path), sha(path)
+        if key in bound:
+            check(bound[key] == digest, "bound file has not changed since first observation", key)
+        else:
+            bound[key] = digest
     return path
 
 def read(path):
@@ -110,15 +133,46 @@ def matches(path, expected, label):
               {"path": relative(path), "expected": expected, "observed": observed})
 
 started = datetime.now(timezone.utc).isoformat()
+head_before_process = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT,
+                                     capture_output=True, text=True)
+head_before = head_before_process.stdout.strip()
+check(head_before_process.returncode == 0, "initial read-only live HEAD observation")
 bind(Path(__file__))
 bind(HERE / "README.md")
 bind(HERE / "scope-review-before-reconciliation.md")
+bind(HERE / "resume-scope-observation-2026-10-10.md")
+bind(HERE / "checker-coverage-review.md")
+draft_link_failure = read(HERE / "draft-link-failure-observation/observation.json")
+matches(HERE / "draft-link-failure-observation/check_record.py",
+        draft_link_failure["checker_source_sha256"], "temporary draft-link failure exact checker copy")
+matches(HERE / "draft-link-failure-observation/preliminary-result.json",
+        draft_link_failure["result_sha256"], "temporary draft-link failure result retained")
+check(draft_link_failure["observed_exit_code"] == 1
+      and draft_link_failure["mathematical_verifiers_rerun"] is False
+      and "not a mathematical assertion failure" in draft_link_failure["classification"],
+      "temporary incomplete-draft routing failure not misclassified as mathematical failure")
+runtime_record = read(HERE / "resume-runtime-observation.json")
+matches(HERE / "capture_runtime.py", runtime_record["capture_source_sha256"],
+        "resume read-only runtime capture source bytes")
+check(runtime_record["mathematical_execution_count"] == 0,
+      "runtime probes add no mathematical execution")
+check(len(runtime_record["observations"]) == 3
+      and all(r["exit_code"] == 0 for r in runtime_record["observations"]),
+      "three read-only runtime probes completed")
+python_runtime = json.loads(runtime_record["observations"][2]["stdout"])
+check(python_runtime["sympy_available"] is False,
+      "resume historical CAS path has no SymPy in observed runtime")
+check(runtime_record["observations"][1]["stdout"].strip() == "1.26.06",
+      "resume Macaulay2 version observed without mathematical execution")
+new_note_paths = [relative(p) for p in sorted((ROOT / "research/notes").glob("2026-10-10*.md"))]
 freeze_paths = list(CANONICAL)
 if (ROOT / args.acceptance).exists():
     freeze_paths.append(args.acceptance)
 canonical_before = {p: sha(bind(ROOT / p)) for p in freeze_paths}
 
 # The older index and seal are historical artifacts, not today's live proof list.
+for p, digest in HISTORICAL_TRUST_ANCHORS.items():
+    matches(ROOT / p, digest, "independently observed frozen historical trust anchor")
 index = read(INDEX)
 old = read(HIST / "result.json")
 old_manifest = read(HIST / "execution-manifest.json")
@@ -156,6 +210,16 @@ for p, digest in old["bound_files_sha256"].items():
     else:
         bind(candidate)
 check(not missing_since_old_seal, "historically bound files still exist", missing_since_old_seal)
+d5_live = bind(ROOT / "research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md")
+d5_snapshot = bind(ROOT / "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md")
+matches(d5_live, "9364c23bb3feb71c01be32ec7c0d583525660107be9bf36c97c998860a7757ef",
+        "D5 current acceptance/routing-only revision matches independently observed bytes")
+def d5_mathematical_sections(path):
+    text = path.read_text()
+    return text[text.index("## 1."):text.index("## 6.")]
+check(d5_mathematical_sections(d5_live) == d5_mathematical_sections(d5_snapshot),
+      "D5 mathematical proof sections 1 through 5 remain byte-identical to frozen snapshot")
+warnings.append("The D5 source's status header and sections 6--7 acceptance/model-coverage routing changed after the historical seal; its mathematical sections 1--5 remain byte-identical. This is a precisely bounded exception, not permission for arbitrary proof edits.")
 
 # New independent M2 companions. Failed attempts are evidence, not passes.
 interface_record = read(INTERFACES / "execution-record.json")
@@ -253,6 +317,21 @@ counts = {
     "root_replay_additional_successful_executions": sum(r["exit_code"] == 0 for r in manifest["executions"]),
     "oct10_independent_conditions": {"interfaces_211": 42, "repeated_partitions": 29},
 }
+historical_source_sum = sum(index["counts"][k] for k in (
+    "retained_baseline_distinct_sources", "continuation_distinct_sources",
+    "separate_first_endpoint_countercheck_sources_and_executions",
+    "separate_principal_independent_sources_and_executions",
+    "separate_family2_independent_sources", "explicit_extension_additional_distinct_sources"))
+historical_execution_sum = sum(index["counts"][k] for k in (
+    "retained_baseline_indexed_executions", "continuation_execution_records",
+    "separate_strengthened_veronese_revision_execution",
+    "separate_first_endpoint_countercheck_sources_and_executions",
+    "separate_principal_independent_sources_and_executions",
+    "separate_family2_explicit_executions", "explicit_extension_execution_records"))
+check(historical_source_sum == 97 and historical_execution_sum == 110,
+      "historical component counts derive exactly 97 distinct sources and 110 indexed executions",
+      {"source_components_sum": historical_source_sum,
+       "execution_components_sum": historical_execution_sum})
 
 # This is a separate structural identity source, not another genus-one verifier
 # or a mate exclusion. Its record expressly lacks superseded failed bytes.
@@ -276,6 +355,56 @@ counts["separate_line_position_failed_development_executions"] = 2
 counts["separate_line_position_exact_identities"] = 17
 warnings.append("Line-position identities have an observed nonisolated passing record; two development failures survive in the record, but their superseded source bytes were not preserved. This source alone asserts no mate exclusion.")
 
+# Fresh independent Jacobian certificate, separately replayed by root. Its
+# copied source adds an execution, not a mathematical source or a new theorem.
+normal_record = read(NORMAL_BUNDLE / "execution-record.json")
+normal_manifest = read(NORMAL_REPLAY / "execution-manifest.json")
+normal_failure = read(NORMAL_BUNDLE / "namespace-failed-record.json")
+matches(ROOT / normal_record["source"], normal_record["source_sha256"],
+        "independent normal-bundle passing source bytes")
+matches(ROOT / normal_manifest["snapshot"], normal_manifest["snapshot_sha256"],
+        "normal-bundle root replay exact snapshot bytes")
+check(normal_record["source"] == normal_manifest["source"]
+      and normal_record["source_sha256"] == normal_manifest["source_sha256"]
+      == normal_manifest["snapshot_sha256"],
+      "normal-bundle root and agent use one exact source revision")
+check(normal_record["exit_code"] == normal_manifest["exit_code"] == 0
+      and normal_manifest["status"] == "PASS"
+      and normal_record["expected_check_count"] == normal_manifest["expected_exact_checks"] == 8,
+      "normal-bundle two passing execution records declare eight checks")
+check(normal_manifest["command"] == ["/opt/homebrew/bin/M2", "--script",
+                                    str(ROOT / normal_manifest["snapshot"])],
+      "normal-bundle root command uses declared exact snapshot")
+check(normal_manifest["cwd"] == str(NORMAL_REPLAY / "snapshot"),
+      "normal-bundle root replay uses isolated cwd")
+bind(NORMAL_REPLAY / "run_replay.py")
+for stream_name in ("stdout", "stderr"):
+    stream = NORMAL_REPLAY / f"{stream_name}.txt"
+    matches(stream, normal_manifest[f"{stream_name}_sha256"],
+            f"normal-bundle root raw {stream_name} bytes")
+    agent_stream = bind(NORMAL_BUNDLE / normal_record[stream_name])
+    check(stream.read_bytes() == agent_stream.read_bytes(),
+          f"normal-bundle root raw {stream_name} equals independently captured agent stream")
+check(normal_record["success_marker"].encode() in (NORMAL_REPLAY / "stdout.txt").read_bytes(),
+      "normal-bundle raw replay stream contains eight-check terminal PASS")
+matches(NORMAL_BUNDLE / normal_failure["source"], normal_failure["sha256"],
+        "normal-bundle namespace-failed source bytes retained")
+bind(NORMAL_BUNDLE / "namespace-failed-tool-output.txt")
+check(normal_failure["exit_code"] == 1
+      and "before any assertion" in normal_failure["classification"]
+      and "separate stdout and stderr were not captured" in normal_failure["stream_fidelity"],
+      "normal-bundle scaffold failure and combined-stream limitation retained")
+check(normal_record["source"] not in old_sources | source_paths | {line_record["source"]},
+      "normal-bundle certificate source distinct from previously scoped sources")
+counts.update({
+    "separate_normal_bundle_successful_source_paths": 1,
+    "separate_normal_bundle_successful_m2_executions_including_root_replay": 2,
+    "separate_normal_bundle_failed_namespace_executions": 1,
+    "separate_normal_bundle_exact_identities_and_rank_checks": 8,
+    "normal_bundle_root_replay_additional_distinct_sources": 0,
+})
+warnings.append("Normal-bundle identities and rank checks are separately scoped. The root replay adds one execution of the same source, not a new verifier. A retained namespace failure has combined tool output rather than separately captured streams. The geometric ribbon application requires its separate written proof.")
+
 blowup_audit = bind(ROOT / "research/notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md")
 blowup_digests = re.findall(r"`([0-9a-f]{64})`", blowup_audit.read_text())
 check(len(blowup_digests) >= 2, "normal-T audit has exact owner and conductor input digests")
@@ -284,20 +413,29 @@ if len(blowup_digests) >= 2:
             blowup_digests[0], "normal-T owner proof matches independently audited bytes")
     matches(ROOT / "research/notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md",
             blowup_digests[1], "normal-T conductor input matches independently audited bytes")
+no_b_audit = bind(ROOT / "research/notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md")
+no_b_input_digest = "f6701f0cee494573469d15e6bc18d76b787e8963701a4795c4ba2905f00f2522"
+check(no_b_input_digest in no_b_audit.read_text(),
+      "no-zero-horizontal audit retains its explicit owner input digest")
+matches(ROOT / "research/notes/2026-10-10-session-genus-two-lambda1-horizontal-line-budget.md",
+        no_b_input_digest, "no-zero-horizontal owner source matches independently audited bytes")
 
 # File routes and local links. This audits target existence, not external sources
 # and not whether a referenced theorem has correct hypotheses.
 acceptance = ROOT / args.acceptance
-all_routing = list(CANONICAL) + PROOF_ROUTING + STATUS_TRACKED
+all_routing = (list(CANONICAL) + PROOF_ROUTING + STATUS_TRACKED + new_note_paths
+               + [relative(HERE / "README.md"),
+                  relative(HERE / "resume-scope-observation-2026-10-10.md")])
 if acceptance.exists():
     all_routing.append(args.acceptance)
-elif args.seal_once:
+elif final_routing:
     check(False, "final October10 acceptance exists", args.acceptance)
 else:
     warnings.append("Root acceptance/routing is still pending; this preliminary result cannot be used as a final seal.")
 
 checked_links = 0
 broken_links = []
+local_link_edges = {}
 for p in dict.fromkeys(all_routing):
     path = bind(ROOT / p)
     if not path.is_file():
@@ -310,18 +448,32 @@ for p in dict.fromkeys(all_routing):
             continue
         decoded = unquote(parsed.path)
         candidate = Path(decoded) if decoded.startswith("/") else path.parent / decoded
+        local_link_edges.setdefault(p, []).append(str(candidate.resolve()))
         checked_links += 1
         if not candidate.exists():
             detail = {"file": p, "target": target_url, "line": text[:match.start()].count("\n") + 1}
             broken_links.append(detail)
         check(candidate.exists(), "local Markdown link target exists",
               {"file": p, "target": target_url})
+        if candidate.is_file() and candidate.resolve().is_relative_to(ROOT):
+            bind(candidate.resolve())
 
-if args.seal_once and acceptance.exists():
+if final_routing and acceptance.exists():
     for p in CANONICAL:
-        check(Path(args.acceptance).name in (ROOT / p).read_text(),
-              "canonical file routes to October10 acceptance", p)
+        check(str(acceptance.resolve()) in local_link_edges.get(p, []),
+              "canonical file has a Markdown link to exact October10 acceptance", p)
     atext = acceptance.read_text()
+    acceptance_reachable = set()
+    frontier = [str(acceptance.resolve())]
+    resolved_routing = {str((ROOT / p).resolve()): p for p in dict.fromkeys(all_routing)}
+    while frontier:
+        current = frontier.pop()
+        if current in acceptance_reachable:
+            continue
+        acceptance_reachable.add(current)
+        routed_path = resolved_routing.get(current)
+        if routed_path:
+            frontier.extend(local_link_edges.get(routed_path, []))
     for required in (
         "2026-10-10-session-genus-one-interface-independent-audit.md",
         "2026-10-10-session-ribbon-repeated-partitions-independent-audit.md",
@@ -329,31 +481,47 @@ if args.seal_once and acceptance.exists():
         "2026-10-10-session-genus-two-marking-and-section-pause-audit.md",
         "2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md",
     ):
-        check(required in atext, "acceptance routes to critical independent audit", required)
+        check(str((ROOT / "research/notes" / required).resolve()) in acceptance_reachable,
+              "acceptance links directly or through retained proof routing to critical independent audit",
+              required)
     state = (ROOT / "research/AUDITED_STATE_2026-10-07.md").read_text()
     check("unresolved" in state and "characteristic-zero" in state,
           "canonical state retains unrestricted open status")
 
 status_headers = {}
-for p in STATUS_TRACKED:
+for p in sorted(set(STATUS_TRACKED + new_note_paths)):
     if (ROOT / p).exists():
         status_headers[p] = "\n".join((ROOT / p).read_text().splitlines()[:12])
 
 head_process = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True)
 head = head_process.stdout.strip()
 check(head_process.returncode == 0, "read-only live HEAD observation")
+check(head == head_before, "live HEAD unchanged during record check",
+      {"before": head_before, "after": head})
+if final_routing and acceptance.exists():
+    check(head in acceptance.read_text(), "acceptance includes currently observed HEAD", head)
+    check(head in (ROOT / "research/SUCCESSOR_HANDOFF_2026-10-07.md").read_text(),
+          "successor handoff includes currently observed HEAD", head)
 diff = subprocess.run(["git", "diff", "--check"], cwd=ROOT, capture_output=True, text=True)
 check(diff.returncode == 0, "git diff --check", diff.stdout + diff.stderr)
 canonical_after = {p: sha(ROOT / p) for p in freeze_paths}
 check(canonical_after == canonical_before, "canonical files unchanged during this record check")
+new_note_paths_after = [relative(p) for p in sorted((ROOT / "research/notes").glob("2026-10-10*.md"))]
+check(new_note_paths_after == new_note_paths,
+      "October10 note inventory unchanged during record check")
+for p, digest in tuple(bound.items()):
+    candidate = ROOT / p
+    check(candidate.is_file() and sha(candidate) == digest,
+          "every bound file retains its first-observed bytes through check end", p)
 
 result = {
     "status": "PASS" if not issues else "FAIL",
-    "mode": "FINAL_SEAL" if args.seal_once else "PRELIMINARY",
+    "mode": "FINAL_SEAL" if args.seal_once else "PREFLIGHT" if args.preflight else "PRELIMINARY",
     "started_utc": started, "completed_utc": datetime.now(timezone.utc).isoformat(),
     "scope": "Record provenance, explicitly scoped execution accounting, local target routing and canonical freeze observation only",
     "does_not_certify": "Mathematical proofs, novelty, genus-two mate exclusion, higher carrier degrees, positive characteristic or universal STCI resolution",
     "mathematical_verifiers_rerun": False, "head_observed": head,
+    "head_before_observed": head_before,
     "checker_sha256": sha(Path(__file__)), "counts": counts,
     "check_count": len(checks), "checked_local_links": checked_links,
     "bound_files_sha256": bound, "canonical_before_sha256": canonical_before,
@@ -361,17 +529,24 @@ result = {
     "historically_bound_files_changed_since_oct9_seal": changed_since_old_seal,
     "historically_bound_files_missing_since_oct9_seal": missing_since_old_seal,
     "broken_local_links": broken_links, "issues": issues, "warnings": warnings,
+    "scoped_local_link_edges": local_link_edges,
     "separately_scoped_new_note_headers": status_headers,
+    "october10_note_inventory": new_note_paths,
+    "read_only_resume_runtime_observation": relative(HERE / "resume-runtime-observation.json"),
     "checks": checks,
     "limits": [
         "The historical 97/110 index and 2006/313 seal remain frozen. New records do not retroactively enlarge their scope.",
-        "October10 counts cover only the two independent M2 mathematical source histories and root replays. Runtime import/version probes and earlier post-seal owner computations are not counted.",
+        "The genus-one execution fields cover only the two independent M2 source histories and their root replays. Line-position and normal-bundle sources have separate fields. No complete all-repository October10 aggregate is asserted; runtime probes and other owner computations are outside these explicitly scoped fields.",
         "Copied sources do not create new verifiers. Replaying 42 and 29 conditions is two more executions, not another 71 independent conditions.",
         "Historical source-byte and log limitations in the older index remain unchanged.",
         "A local link target existing does not verify the mathematical proposition or the external primary source it cites.",
+        "The bounded Markdown scan supports ordinary inline destinations. It does not parse reference-style definitions, balanced destination parentheses or escaped delimiters; none were observed in the delegated coverage review.",
+        "Note status headers are preserved as observations, including historical pending labels; only root's explicit acceptance promotes a mathematical scope.",
+        "Every bound file is rehashed at completion. This detects observed mutation during the run, but does not assert that files cannot change after the seal.",
     ],
 }
-target.write_text(json.dumps(result, indent=2) + "\n")
+with target.open("x" if args.seal_once else "w") as stream:
+    stream.write(json.dumps(result, indent=2) + "\n")
 print(f"{result['status']}: {result['mode']}; {len(checks)} record checks, {checked_links} scoped local links; no mathematical verifier rerun")
 if issues:
     print(json.dumps(issues, indent=2))

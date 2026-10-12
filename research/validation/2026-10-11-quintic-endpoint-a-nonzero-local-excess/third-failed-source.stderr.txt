@@ -1,0 +1,9 @@
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/enginering.m2:514:31:(1):[9]: error: expected polynomial ring
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/monoids.m2:165:39:(1):[8]: --back trace--
+research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.m2:94:88:(3):[7]: --back trace--
+research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.m2:94:30:(3):[6]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:80:23:(0):[5]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:126:61:(1):[4]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:138:29:(1):[2]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:547:66:(0):[1]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:635:41:(2): --back trace--

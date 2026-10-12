@@ -1,4 +1,4 @@
-# Continuation handoff — 2026-10-07, reconciled through 2026-10-10
+# Continuation handoff — 2026-10-07, reconciled through 2026-10-11
 
 Read [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md) first, then
 [RESEARCH_UPDATE_2026-10-07.md](RESEARCH_UPDATE_2026-10-07.md), the relevant
@@ -9,9 +9,10 @@ problem remain unresolved.
 ## Live checkpoint
 
 The current branch is `research/ultra-resume-2026-10-06`. Live inspection
-found HEAD `406d63db72000a3951497a0ba2a8fbfbc13e8ead`, title
-`2026-10-09 afternoon limit reached`. The previously observed morning
-HEAD `e7c9c9594795271ff2c1b0a9026955523975e7d7` is historical.
+found HEAD `2ba77d1a1177db9390693066c6b185040766c089`, title
+`2026-10-10 afternoon limit reached`. The previous afternoon HEAD
+`406d63db72000a3951497a0ba2a8fbfbc13e8ead` and previously observed morning
+HEAD `e7c9c9594795271ff2c1b0a9026955523975e7d7` are historical.
 The retained October 6 interruption
 commit `3ffda7548a863387429adab61eefe02575e86297` is historical.
 Inspect `git status` and current sources before trusting any older hash.
@@ -61,100 +62,80 @@ now closes the entire genus-one lane, including every projection of
 both types compatible with fixed C0, in every mate degree. The complete
 ribbon-net, conductor and five-partition proofs have separate interface
 and coverage audits, with two new independent M2 companions and root
-isolated replays. Genus two is the only surviving integral-quartic lane.
+isolated replays. At that October 10 checkpoint genus two was the only
+surviving integral-quartic lane; the October 11 assembly below closes it.
 Its actual conductor is a reduced line and its actual ambient strict
-transform is normal ADE/crepant with the conic ruling. Both
-`(lambda,q)=(0,4),(1,3)` remain open; the section case without a
-degree-zero horizontal `B=e0-e_i-e_j` is excluded. No all-degree theorem
-forcing a quartic carrier has been established.
+transform is normal ADE/crepant with the conic ruling. The
+[resumed root acceptance](notes/2026-10-10-session-continuation-results-acceptance.md)
+excludes the entire `(lambda,q)=(0,4)` bisection lane by a globally
+forced Cartier ribbon with nilideal `O(-8)` incompatible with the
+balanced conormal bundle `O(-7)^2`. It also excludes every nonendpoint
+trisecant section case, including all reducible/nonreduced conductor
+divisors and arbitrary A-chain lengths. The
+[October 11 all-quartic acceptance](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+also closes the full endpoint triple-contact section case and assembles
+the exclusion of every integral quartic carrier with arbitrary mate
+degree. The factor reduction and checked cubic/quadric exclusions make
+both degrees of any hypothetical presentation at least five.
+No all-degree theorem forcing a quartic carrier has been established.
 
-The normal theorem does not imply that arbitrary quartic carriers are
-excluded. The historical broad e=2 theorem does not imply that larger
-early-defect quartic pairs are excluded. A local CM or CI control model
-does not imply an embedded global STCI pair.
+The normal theorem and historical e=2 theorem alone did not imply the
+complete quartic exclusion. The October 11 assembly supplies that
+stronger result. A local CM or CI control model still does not imply an
+embedded global STCI pair.
 
 ## Priorities and open proof obligations
 
-1. The primitive e=1 audit is accepted. The complete quartic pencils
-   and finite/infinity pole computations reduce every mate degree to
-   four pure pencil members; the affine normalization gluing obstruction
-   excludes them. Extend the method to positive D2 directions,
-   particularly MF6 types (1,3),(2,2), while retaining their extra
-   defect-killing sections. Do not reuse the primitive triple frame
-   without reconstructing these sections.
-   The principal d2=1 ancestor contact theorem and all exceptional
-   frames are already closed. Its direction curve has elliptic equation
-   `YE^2=XE^3+96XE-448`; the unique-carrier family has a finite proper
-   closed nonnormal subset. Determine that exact finite carrier locus,
-   keeping ancestor rank conditions distinct from all-mate exclusions.
-   The weighted polynomial generators of degrees 9,9,10 and actual
-   first-normal octic are verified. A fixed degree-210 binary-gradient
-   determinant gives at most 630 distinct principal necessary mate
-   parameters on the declared contact open. The exact zero list and
-   the carriers at those zeros remain open. It is not the exact
-   nonnormal locus. Use the [proof and audits](notes/2026-10-09-session-mf6-principal-weighted-candidate.md)
-   and keep zero-generator and infinity multiple-root fibers.
-   All complement carriers, including p=8,r=1/2, are excluded in every
-   mate degree. The generic principal carrier problem remains open.
-2. Continue the local-cohomology endpoint families using the saved
-   polynomial duals, rational seeds and .m2 sources. A dual over Q(k)
-   does not exclude its denominator roots. The first-family exception
-   factors Q2,Q1,Q3,Q13 are now all excluded for
-   every lower lift, with an independent completeness and rational-source
-   audit. The second family's two quadratic factors are now excluded
-   at all four geometric roots and for every lower lift. It retains 22
-   primitive geometric parameter points in the degree3,4,15 factors,
-   each with its entire lower lift line. The two
-   boundary families and non-endpoint top zeros remain open. The accepted
-   simultaneous-target e=1 proof must retain the nonzero target terms;
-   its retracted single-multiplier predecessor is not a valid premise.
-   Both algebraic e=1,d2=4 directions are excluded for all defect
-   sections. The principal obstruction-zero direction's extension
-   derivation is only an exploratory source, with no completed output
-   or independently identified cocycle yet. Do not use it as a theorem.
-3. For nonnormal quartic carriers, exploit full inverse-image purity
-   and fiber gluing. If the smooth curve lift avoids singularities of
-   the normalization, adjunction gives a useful sectional-genus test.
-   Verify the precise normalization hypotheses; do not transfer a
-   semi-log-canonical classification to every degeneration. The
-   [conditional nonnormal reductions](notes/2026-10-07-session-nonnormal-structural-progress.md)
-   exclude the stated ordinary scroll and Veronese subclasses.
-   Degenerate-pinching countermodels prevent an unrestricted
-   ramification-support or ordinary-pinch-count argument.
-   The stronger [all-Veronese proof](notes/2026-10-07-session-veronese-pencil-classification.md)
-   closes `(P2,O(2))` without slc, using actual first conductor jets.
-   The [smooth twisted-cubic applicability theorem](notes/2026-10-08-session-scroll-conductor-applicability.md)
-   is now part of the complete smooth rational quartic-scroll exclusion.
-   Reduced and nonreduced actual conductors, including nongorenstein
-   schemes, are all covered by the
-   [classification and exact Artin proof](notes/2026-10-08-session-scroll-nongorenstein-cubic-classification.md),
-   [independent Artin audit](notes/2026-10-08-session-scroll-artin-independent-audit.md)
-   and [differential lemma](notes/2026-10-08-session-normalization-differential-independent-audit.md).
-   Every smooth normalization and the entire genus-zero lane are now
-   excluded, and nonrational normalizations cannot contain C0 at all.
-   Genus one is now completely excluded for fixed C0 by the
-   [interface audit](notes/2026-10-10-session-genus-one-interface-independent-audit.md)
-   and [remaining-partition audit](notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
-   Focus on genus two: actual conductor line, normal ambient conic
-   model, and both surviving mate strata. The no-B section case is
-   closed; B-present free/satellite patterns and the bisection remain
-   open. The accepted ambient lift turns these into actual trisecant
-   or bisecant/tangent line cases, retaining endpoint triple contacts.
-   Residual-conductor and second-pencil reductions are new ongoing work,
-   not yet global exclusions. A smooth lift at a singular normalization point
-   may be non-Cartier even though b c is Cartier; the local
-   countershield is an actual degree-two projective curve, not a
-   C0 counterexample. Do not transfer the ACM cubic classification
-   beyond its proved smooth-scroll hypotheses.
-4. The uniform e=2 b=9,10,11 defect profiles require an actual quartic
-   contact incidence and a degree-one obstruction annihilator. The
-   six Hankel minors and degree-sixteen determinant are saved in
-   `scratch/session_uniform_e2_hankel.json`; no universal rank-one
-   saturation was completed.
-5. The entirely-thick branch, higher minimum carrier degrees and
-   split-sextic totally ramified boundary remain open. Use higher
-   jets, filtered structures or valuations. First tangent forms do
-   not bound later horizontal multiplicities.
+The [October 11 assembly](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+closes every actual quartic mate lane. Do not restart the principal
+at-most-630-point mate search, the early-defect (4,b) mate cases, MF6,
+or the genus-two endpoint classification as unresolved STCI cases.
+Their parameter loci and earlier proof records remain useful evidence.
+
+1. Pursue minimum carrier degree at least five. A quintic carrier
+   requires mate degree divisible by four, beginning with degree eight;
+   there is no general upper bound. Use the unique quadric and actual
+   normalization/conductor structure before large elimination. Quartic
+   rationality, conductor-line, ADE or torsion conclusions are not
+   automatic for degree five. A normalization section of degree four
+   is not an ambient quartic until full conductor descent is proved.
+   The [audited quintic structural frontier](notes/2026-10-11-session-quintic-structural-frontier.md)
+   excludes sectional genus zero, proves rationality through genus
+   three, and forces the genus-one mate lane onto a degree-five
+   del Pezzo normalization with a single A4 point. Its unique line is
+   tangent to the lifted rational normal quartic. The unresolved task
+   is actual projection and arbitrary-power descent through the entire
+   degree-five, genus-two conductor. Genus two through five and normal
+   quintics remain outside this exclusion. The separate multiplicity-ten
+   filtration gives 308 necessary numerical degree profiles for (5,8),
+   not a classification or degree-pair exclusion.
+2. Continue the distinct common-ancestor local-cohomology incidence.
+   The second endpoint family retains 22 geometric points in factors
+   of degrees 3,4,15, each with its entire lower lift line. The two
+   boundary families, nonendpoint top zeros and remaining positive-D2
+   ancestor directions retain their recorded scopes. A multiplier or
+   simultaneous-annihilation identity alone is not STCI radical
+   equality. Use actual quartic forms, not generator-coordinate rows,
+   and retain target rank jumps and every denominator/infinity stratum.
+3. Pursue entirely thick higher-degree presentations and the totally
+   ramified split-sextic boundary. The latter actual carrier has degree
+   six and its necessary mate scale is 8k, so the no-quartic theorem
+   does not exclude it. Use higher jets, filtered structures or
+   valuations; tangent forms do not bound later horizontal multiplicity.
+4. Prepare the accepted all-quartic argument for external mathematical
+   scrutiny and deeper novelty assessment. The existing primary-source
+   search found no checked all-(4,b) theorem, but does not certify
+   novelty. Preserve the actual carrier classification, noncircular
+   P-040 dependency, field descent, full conductor schemes, local branch
+   positions and all source/failure evidence in any manuscript.
+
+The [independent assembly audit](notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md)
+and [degree-factor/scope audit](notes/2026-10-11-session-degree-factor-and-mf6-scope-audit.md)
+state exactly which historical quartic tasks are now closed as mate
+lanes and which incidence questions remain. A smooth normalization lift
+can be non-Cartier even when a multiple is Cartier. The global ribbon
+lemma forbids an actual genus-two Cartier 2c~2H on fixed C0; it does
+not automatically forbid every higher Cartier index.
 
 ## Reproduction and evidence
 
@@ -187,10 +168,13 @@ limit, reporting October 14 at 8:24 AM local. Root preserved their
 completed records and separately finished the D5 proof reconstruction
 and record seal; no reset credit was used. Assignments without completed
 evidence are not results. Those quota observations are historical;
-live October 10 agents have delivered new completed audits and remain
-active on the open conic-model cases. Root did not mark the global goal
-complete. New source paths and replays are recorded separately; do not
-inflate the historical index or count copied sources as new verifiers.
+the October 10--11 continuation has now completed the quartic conic-model
+audits and assembled the all-quartic theorem. The saved October 11
+quintic notes record the next unresolved frontier. Root did not mark
+the global goal complete. New source paths and replays are recorded
+separately; do not inflate the historical index or count copied sources
+as new verifiers. Agent activity and quota observations are historical
+snapshots, not evidence of a currently running mathematical computation.
 
 If a tool or agent stops, inspect its current process/session handle
 and final artifact status. An .m2 input file or an intended run is not

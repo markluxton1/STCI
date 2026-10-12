@@ -55,6 +55,20 @@ degree-four del Pezzo surfaces; the conductor audit records primary
 finite/proper duality inputs. No new global-resolution literature search
 is represented by this record-routing update.
 
+The [resumed October 10 acceptance](notes/2026-10-10-session-continuation-results-acceptance.md)
+adds a complete genus-two bisection exclusion through a global CM ribbon
+and balanced conormal obstruction, and a complete nonendpoint trisecant
+section exclusion. These remain repository proof labels with fixed-C0
+and characteristic-zero scope. The inherited normal-bundle splitting
+is not represented as a new theorem. The
+[primary-literature refresh](notes/2026-10-10-session-primary-literature-frontier-refresh.md)
+records exact source scopes and a bounded novelty assessment. The
+[October 11 acceptance](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+assembles the full arbitrary-mate quartic theorem while preserving the
+unrestricted higher-degree problem. None of the checked primary sources
+gives this full theorem; that dated finding is not certification of
+novelty or a universal resolution.
+
 ### Hartshorne--Polini, 2019
 
 Robin Hartshorne and Claudia Polini, “Quasi-cyclic modules and coregular

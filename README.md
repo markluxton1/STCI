@@ -8,7 +8,7 @@ The universal problem and the unrestricted characteristic-zero rational
 quartic test case remain unresolved in this repository.
 
 Start with the [current audited state](research/AUDITED_STATE_2026-10-07.md).
-The [research update through October 10](research/RESEARCH_UPDATE_2026-10-07.md)
+The [research update through October 11](research/RESEARCH_UPDATE_2026-10-07.md)
 and [dated continuation handoff](research/SUCCESSOR_HANDOFF_2026-10-07.md)
 index the all-degree normal-quartic and complete smooth-normalization
 exclusions, the rationality and genus-one del Pezzo reductions,
@@ -31,12 +31,20 @@ The [October 10 acceptance](research/notes/2026-10-10-session-results-acceptance
 now excludes the entire genus-one quartic-normalization lane for fixed C0
 in every characteristic-zero mate degree, using complete fixed-center
 ribbon and conductor proofs with separate interface/coverage audits.
-The only remaining integral quartic-carrier normalization lane is genus
-two. Its actual conductor is a reduced line with a finite flat upstairs
-double cover, and its actual ambient line-blowup strict transform is a
-normal ADE conic model. Both section and bisection mate strata remain open, with
-the no-degree-zero-horizontal section subcase excluded. Higher carrier
-degrees and entirely thick presentations remain open.
+The genus-two actual conductor is a reduced line with a finite flat
+upstairs double cover, and its actual ambient line-blowup strict transform
+is a normal ADE conic model. The
+[resumed October 10 acceptance](research/notes/2026-10-10-session-continuation-results-acceptance.md)
+now excludes the entire bisection stratum by an actual global ribbon
+obstruction, and every nonendpoint trisecant section case by complete
+conductor and exceptional-chain arguments. The
+[October 11 all-quartic acceptance](research/notes/2026-10-11-session-all-quartic-results-acceptance.md)
+now closes the full endpoint case and assembles the exclusion of
+**every integral quartic carrier of fixed C0 in characteristic zero,
+with a mate of any positive degree**. Together with the checked cubic
+and quadric exclusions, any STCI presentation of C0 must have both
+degrees at least five. Higher carrier degrees and entirely thick
+presentations remain open; no theorem forces a quartic carrier.
 The [research record](research/RESEARCH_RECORD.md),
 [literature ledger](research/LITERATURE_LEDGER.md), and
 [computation guide](research/computations/README.md) preserve proofs,

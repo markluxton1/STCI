@@ -1,0 +1,16 @@
+{
+  "observed_command": [
+    "python3",
+    "research/validation/2026-10-11-continuation-seal/check_record.py",
+    "--preliminary"
+  ],
+  "observed_exit_code": 1,
+  "tool_chunk_id": "3c9214",
+  "wall_time_seconds": 0.57507025,
+  "copied_sha256": {
+    "check_record.py": "e5bc75820a8121c8dd455086b4b5045c46de6d796e3d0eda85178d5cd19fe779",
+    "preliminary-result.json": "a9f8797d19aabaf4856f16e5aad028b311ae21415c73fa806f8a191e1190d7c4"
+  },
+  "classification": "One arriving-draft link target absent, plus four mathematical/code notation false positives in extended transitive regex scan; no mathematical verifier executed",
+  "mathematical_verifiers_rerun": false
+}

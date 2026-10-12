@@ -1,7 +1,7 @@
-# Canonical audited state — 2026-10-07, reconciled through 2026-10-10
+# Canonical audited state — 2026-10-07, reconciled through 2026-10-11
 
 This is the continuation entry point for the research session begun on
-2026-10-06 and resumed through 2026-10-10. It supersedes conflicting frontier
+2026-10-06 and resumed through 2026-10-11. It supersedes conflicting frontier
 language in the 2026-10-06 state and older handoffs. Detailed proofs,
 independent audits, exact certificates, failed checks and source scopes
 remain in the linked notes. No claim of novelty is made for a result
@@ -12,6 +12,26 @@ this repository. The unrestricted characteristic-zero problem for
 C0=[s^4:s^3t:st^3:t^4] is also unresolved.** The literature refresh found
 no accepted unrestricted resolution; this is a dated search conclusion,
 not a proof of absence of unindexed work.
+
+**LATEST PROVED FRONTIER:** the
+[October 11 acceptance](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+excludes every integral quartic carrier of fixed C0 in characteristic
+zero, with arbitrary positive mate degree. Both defining degrees of
+any hypothetical STCI presentation must be at least five. All earlier
+OPEN labels below for actual quartic mate lanes, including MF6, larger
+early-defect `(4,b)` and the principal necessary mate locus, are
+superseded by this complete theorem. Common quartic local-cohomology
+ancestor incidence is a different condition and remains open in its
+stated residual strata. Higher carriers and entirely thick
+presentations remain outside the quartic theorem.
+
+The [root-reviewed quintic follow-on](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+excludes sectional genus zero and proves rationality through genus
+three. Its genus-one mate lane requires a degree-five del Pezzo
+normalization with a single A4 point and a unique line tangent to the
+lifted rational normal quartic. Actual projection and full conductor
+power descent remain open. The separate (5,8) filtration has 308
+necessary numerical profiles, not a degree-pair exclusion.
 
 ## Evidence labels and inherited base
 
@@ -522,23 +542,61 @@ remaining normalization has rational singularities; its actual downstairs
 conductor is a reduced line, and its entire upstairs conductor is a finite
 flat double cover with algebra `O_P1 direct-sum O_P1(-2)`, including the
 nonreduced case. It need not be Cartier upstairs. The adjoint pencil
-`f=K_M+L` has square zero and conic degree two. Both mate strata
-`(lambda,q)=(0,4),(1,3)` survive. In the section stratum the cases with
-no degree-zero horizontal prime `B=e0-e_i-e_j` are now excluded; the
-`B`-present free-child/satellite configurations remain open. See the
+`f=K_M+L` has square zero and conic degree two. The original mate
+reduction retains `(lambda,q)=(0,4),(1,3)` before the new exclusions
+below. In the section stratum the cases with no degree-zero horizontal
+prime `B=e0-e_i-e_j` are excluded. See the
 [entire-conductor audit](notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
 and [bounded no-B audit](notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md).
 
-**OPEN remaining quartic geometry:** only sectional genus two remains
-as an integral quartic-carrier normalization lane for fixed C0.
+**PROVED complete genus-two bisection exclusion:** the second connected
+rational pencil supplies the actual Cartier equivalence `2c_S~2H`.
+Its entire CM double curve is a ribbon with nilideal `O_P1(-8)`, by
+`chi(O_S(mH))=2m^2+m+1`. Normalization induces a global nonzero conormal
+map from `N_C0/P3^*=O_P1(-7)^2` into this nilideal, which is impossible.
+This excludes every mate degree, ordinary bisecants and tangent contacts.
+The [full independent audit](notes/2026-10-10-session-genus-two-bisection-full-independent-audit.md)
+and [new Jacobian audit](notes/2026-10-10-session-quartic-normal-bundle-independent-audit.md)
+verify the geometric argument and the inherited normal-bundle splitting
+separately. No Gorenstein assumption on S is needed for the Euler/ribbon
+contradiction. The former split-conductor root-of-unity possibilities
+are superseded as open mate cases.
+
+**PROVED complete nonendpoint trisecant exclusion:** every section case
+with three distinct conductor contacts is excluded in all mate degrees.
+The [independent coverage audit](notes/2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md)
+exhausts every reducible/nonreduced `(2,2)` conductor divisor, including
+a zero coefficient on B with another horizontal contraction. An integral
+residual has two transverse crossings with B, and the
+[relative branch audit](notes/2026-10-10-session-relative-morse-conductor-branches-independent-audit.md)
+forces endpoint A-chains. The exact all-length correction coefficient
+is strictly less than the required one.
+
+**PROVED full endpoint trisecant exclusion:** the
+[entire eleven-dimensional carrier proof](notes/2026-10-10-session-genus-two-endpoint-full-quartic-reduction.md)
+and [binding independent audit](notes/2026-10-10-session-genus-two-endpoint-full-independent-audit.md)
+exhaust every endpoint case, including doubled horizontal and vertical
+conductor components, a special B with coefficient zero, the second
+horizontal at infinity, internal A-chain attachments and actual D4.
+For the double-horizontal boundary, the crepant residue computes
+`2 v^t Q^(-1) v=ord(h_B)` at every away-contact root, allowing arbitrary
+ADE types. The global degree-three normal coefficient and exact contact
+factorization make the entire contribution at most `5/2`, below the
+required three. Reversal covers the second endpoint. The full genus-two
+section lane, and consequently every integral quartic carrier, are now
+excluded in every mate degree.
 The [ambient blowup theorem](notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md)
 is now accepted: its actual strict transform in `Bl_Gamma(P3)` is
 normal ADE with class `4H_B-2E_B`, canonical sheaf `O(-E_B)`, and
 crepant resolution M. The actual line-plane ratio is the adjoint pencil;
 `length(Gamma intersect C0)=4-f.c#` makes the surviving mate strata
 bisecants/tangents or trisecants, with all repeated contacts retained.
-Neither stratum is excluded by this structural theorem. Higher carrier
-degrees and entirely thick presentations remain open.
+The complete assembly and exact scope are accepted in the
+[October 11 root record](notes/2026-10-11-session-all-quartic-results-acceptance.md),
+extending the preserved
+[resumed October 10 record](notes/2026-10-10-session-continuation-results-acceptance.md).
+Higher carrier degrees and entirely thick presentations remain open;
+there is no theorem forcing a quartic carrier in an arbitrary presentation.
 
 ## G. Literature corrections and global continuation
 

@@ -1,0 +1,9 @@
+{
+  "source": "namespace-failed-source.m2",
+  "sha256": "d6c91e660dbb93f64429082fd5945bd973357b6780166110a89b4d8f281dcaf3",
+  "exit_code": 1,
+  "tool_chunk": "9741e9",
+  "wall_time_seconds": 0.592135916,
+  "stream_fidelity": "combined tool output retained; separate stdout and stderr were not captured by the initial direct exec command",
+  "classification": "M2 protected namespace scaffold failure, before any assertion"
+}

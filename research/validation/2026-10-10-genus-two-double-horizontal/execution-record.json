@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-11T01:22:14.556977+00:00",
+  "elapsed_seconds": 0.6553481249138713,
+  "source_path": "research/computations/verify_session_genus_two_double_horizontal_2026_10_10.m2",
+  "source_sha256": "a6f67f5d11e1d964cabc2ef2dc0d6e10b32931b143d81b2b05ccebc3dc14f887",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-genus-two-double-horizontal/source.m2"
+  ],
+  "working_directory": "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-genus-two-double-horizontal",
+  "exit_code": 0,
+  "assertion_count": 14,
+  "scope": "Exact polynomial factorization, normality cut, and inverse A3/A5/A7 matrices; geometric resolution and residue arguments are proved in the independent note."
+}

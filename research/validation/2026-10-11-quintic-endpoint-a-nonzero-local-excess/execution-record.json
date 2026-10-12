@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "scope": "Fourteen exact M2 identities and two rational Bezout checks; no universal geometric assertion is inferred from execution alone.",
+  "current_source": "research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2",
+  "current_source_sha256": "84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd",
+  "mathematical_M2_checks": 14,
+  "independent_Bezout_identity_checks": 2,
+  "M2_checker_sources": 1,
+  "source_versions_recorded": 4,
+  "recorded_M2_executions": 4,
+  "failed_versions_retained": 3,
+  "executions": [
+    {
+      "source": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.m2",
+      "source_sha256": "1c90f543c86e5d2e9c0d560d11a690b7aaba450035415953be626bcc46b6b8af",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.m2"
+      ],
+      "started_utc": "2026-10-12T00:07:09.125423+00:00",
+      "elapsed_seconds": 0.6376826658379287,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/initial-failed-source.stderr.txt",
+      "stderr_sha256": "51ee9b9efc1a0b3de4bc40ddcc5717cd14ae638f4fd502e55bfa94e0c17ad9e0"
+    },
+    {
+      "source": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.m2",
+      "source_sha256": "d5592d7896b89094a616149586c5f14bb490732659c9eb8126d62073f6045995",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.m2"
+      ],
+      "started_utc": "2026-10-12T00:07:09.763945+00:00",
+      "elapsed_seconds": 0.647729666903615,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/second-failed-source.stderr.txt",
+      "stderr_sha256": "3b2d0fe2c43428755a5dd4191723abfe5bb341033dfeb316fa583eefe950b5e4"
+    },
+    {
+      "source": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.m2",
+      "source_sha256": "c8a82031c4adcbfe4c53572725ad06cbe7c16276ae6e3a98f0187dc86890cce5",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.m2"
+      ],
+      "started_utc": "2026-10-12T00:07:10.412403+00:00",
+      "elapsed_seconds": 1.0282465831842273,
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.stdout.txt",
+      "stdout_sha256": "f554eb5adb417ab985641d3d8c6b45c2a759c57d35ae8f96868d3c44e212903d",
+      "stderr": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/third-failed-source.stderr.txt",
+      "stderr_sha256": "f170958e53f4bd09d7da64b5999bbd77b71101e02a68fdcd7f39ca852e55e865"
+    },
+    {
+      "source": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.m2",
+      "source_sha256": "84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.m2"
+      ],
+      "started_utc": "2026-10-12T00:07:11.441631+00:00",
+      "elapsed_seconds": 1.029549959115684,
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.stdout.txt",
+      "stdout_sha256": "a7733829859bd591faf372154f098c1190f181fb3463698fc513d272f0762b83",
+      "stderr": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/final-source.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "bezout_certificate": "research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/bezout-certificates.json",
+  "bezout_certificate_sha256": "dd75ea8af38a6e38a68c3f3d88cef392ed475ea1d0666144a7b9e6a35f81e337",
+  "runner_sha256": "762f54fb9702b7eec3fdaee26fdc0d7b7a89f6ccc7a2e863e84098bbcf84e39d",
+  "direct_tool_observations": [
+    "313a51 failure",
+    "f124b6 failure",
+    "7bdfad first pass before coefficient export",
+    "e7a1c6 export failure after 14 checks",
+    "4b51fe final-source pass"
+  ]
+}

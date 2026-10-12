@@ -1,0 +1,9 @@
+PASS: both displayed cubic columns are derivative syzygies
+PASS: derivative matrix has rank two everywhere on P1
+PASS: cubic syzygy columns are independent everywhere on P1
+PASS: complete wedge-minor ideal is the explicitly predicted ideal
+PASS: all quadratic derivative syzygies vanish
+PASS: quadratic syzygy coefficient determinant has absolute value 2^15
+PASS: explicit conormal presentation has generic rank two
+PASS: derivative presentation has generic rank two
+ALL 8 EXACT CHECKS PASSED

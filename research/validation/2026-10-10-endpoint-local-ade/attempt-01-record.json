@@ -1,0 +1,14 @@
+{
+  "status": "FAILED",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/computations/verify_session_endpoint_local_ade_2026_10_10.m2"
+  ],
+  "exit_code": 1,
+  "tool_chunk_id": "b5e331",
+  "wall_time_seconds": 0.589807375,
+  "source_sha256": "55e00c7e08800c6de15416e9d96a7a9bb883b4bded7ca7ad2e7d79e610721249",
+  "observed_error": "assignment to protected global variable 'check', originally defined at Core/testing.m2:96:0",
+  "output_kind": "tool output retained in conversation; not reconstructed raw stdout/stderr"
+}

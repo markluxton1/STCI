@@ -1,0 +1,47 @@
+{
+  "observed_utc": "2026-10-11T01:13:13.857171+00:00",
+  "scope": "Read-only HEAD, version and module-discovery probes; no mathematical verifier",
+  "capture_source_sha256": "eca8c0c189fc13578f8081e4d73c475f7c9d9b7a13ef1d94e40e74f050dc24a0",
+  "mathematical_execution_count": 0,
+  "observations": [
+    {
+      "command": [
+        "git",
+        "log",
+        "-1",
+        "--format=%H%n%s"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI",
+      "started_utc": "2026-10-11T01:13:13.541719+00:00",
+      "elapsed_seconds": 0.017048749839887023,
+      "exit_code": 0,
+      "stdout": "2ba77d1a1177db9390693066c6b185040766c089\n2026-10-10 afternoon limit reached\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--version"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI",
+      "started_utc": "2026-10-11T01:13:13.558960+00:00",
+      "elapsed_seconds": 0.12331041600555182,
+      "exit_code": 0,
+      "stdout": "1.26.06\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "-c",
+        "import importlib.util, json, os, sys; print(json.dumps({'executable': sys.executable, 'resolved_executable': os.path.realpath(sys.executable), 'version': sys.version, 'sympy_available': importlib.util.find_spec('sympy') is not None}))"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI",
+      "started_utc": "2026-10-11T01:13:13.682348+00:00",
+      "elapsed_seconds": 0.174771083984524,
+      "exit_code": 0,
+      "stdout": "{\"executable\": \"/opt/homebrew/opt/python@3.14/bin/python3.14\", \"resolved_executable\": \"/opt/homebrew/Cellar/python@3.14/3.14.8_2/Frameworks/Python.framework/Versions/3.14/bin/python3.14\", \"version\": \"3.14.8 (main, Sep 30 2026, 17:55:09) [Clang 21.0.0 (clang-2100.3.34.2)]\", \"sympy_available\": false}\n",
+      "stderr": ""
+    }
+  ]
+}

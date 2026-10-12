@@ -1,0 +1,17 @@
+PASS actual lifted curve lies on full equation
+PASS exact binary quadratic over the b line
+PASS formal discriminant is a unit for v nonzero
+PASS formal quadratic factorization after clearing denominators
+PASS exact linear-term coefficients in the factor coordinates
+PASS ell_X numerator vanishes at b zero
+PASS ell_X numerator divisible by b squared
+PASS ell_X exact b-order two and leading coefficient u over v
+PASS ell_Y numerator divisible by b squared
+PASS exact D4 first blowup equation
+PASS only zero and one singularities in finite central chart
+PASS lifted actual curve persists in D4 blowup chart
+PASS endpoint A_n Schur complement for every n and j
+PASS actual internal A_n coefficient for every n
+PASS distinct outer D4 inverse Cartan entries
+PASS D4 conductor correction coefficient one quarter
+PASS endpoint-local-ADE exact identities: 16

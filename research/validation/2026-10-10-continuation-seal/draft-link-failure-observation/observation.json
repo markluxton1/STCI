@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-10-11T01:18:51.827312+00:00",
+  "command": [
+    "python3",
+    "research/validation/2026-10-10-continuation-seal/check_record.py",
+    "--preliminary"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "tool_chunk": "1352c8",
+  "observed_exit_code": 1,
+  "classification": "missing target referenced by a newly arriving draft audit; not a mathematical assertion failure",
+  "checker_source_sha256": "6ba8fedb7d9c364749967b989a5a05f2012aea1400df29dd211849974241056e",
+  "result_sha256": "1f98cd059c9e21ee423f775c38eb48739a3d39a22c15cef652029d6c66c9d7c5",
+  "source_snapshot_fidelity": "post-run exact source copy matched to the checker SHA recorded in that execution result",
+  "stream_fidelity": "tool-returned combined text was observed; independent stdout/stderr capture was not performed",
+  "check_count": 3976,
+  "checked_local_links": 331,
+  "issues": [
+    {
+      "check": "local Markdown link target exists",
+      "passed": false,
+      "detail": {
+        "file": "research/notes/2026-10-10-session-endpoint-local-ade-correction-audit.md",
+        "target": "../computations/verify_session_endpoint_local_ade_2026_10_10.m2"
+      }
+    }
+  ],
+  "mathematical_verifiers_rerun": false
+}

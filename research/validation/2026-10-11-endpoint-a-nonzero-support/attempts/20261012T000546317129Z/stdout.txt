@@ -1,0 +1,17 @@
+PASS degree-seven leading coefficient
+PASS degrees above seven vanish
+PASS cleared X0-zero P boundary
+PASS cleared X0-zero R boundary
+PASS A-zero septic boundary
+PASS exact first jet at a common root
+PASS exceptional h-zero constant and linear jets
+PASS exceptional h-zero exact order two
+PASS ramification parameter kills first jet
+PASS second jet is linear in a
+PASS second-jet coefficient and excluded factors
+PASS unique order-three a value
+PASS exact solved third jet
+PASS exact solved fourth jet
+PASS no simultaneous third and fourth zeros on allowed parameters
+PASS order-four contact has no second common root
+PASS endpoint a-nonzero target jets: 16 exact checks

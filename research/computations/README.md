@@ -23,6 +23,31 @@ it explicitly. Historical failures remain recorded. Current temporary
 and bundled Python environments lack SymPy; use the verified M2 runtime
 for these new sources rather than claiming a current Python replay.
 
+The resumed
+[root acceptance](../notes/2026-10-10-session-continuation-results-acceptance.md)
+adds the complete genus-two bisection and nonendpoint trisecant proofs.
+The new [normal-bundle M2 source](verify_session_quartic_normal_bundle_2026_10_10.m2)
+checks eight exact conditions and reinforces inherited P-009. Its
+[isolated root replay](../validation/2026-10-10-normal-bundle-root-replay/execution-manifest.json)
+passed; its copied source is not a new verifier. The nonendpoint
+[all-length chain certificate](../validation/2026-10-10-genus-two-nonendpoint-trisecant-continuation-audit/execution-record.json)
+has twelve symbolic identities. The geometric proofs, including the
+global CM ribbon and the actual conductor branch attachment, are
+supplied by their independent written audits. These histories are
+separate from the frozen 97-source/110-execution index.
+
+The [October 11 assembly](../notes/2026-10-11-session-all-quartic-results-acceptance.md)
+accepts the complete endpoint and all-quartic theorem. Its
+[local endpoint M2 companion](verify_session_endpoint_local_ade_2026_10_10.m2)
+has sixteen exact identities, with a passing
+[isolated root replay](../validation/2026-10-10-endpoint-root-replay/execution-manifest.json).
+The [double-horizontal companion](verify_session_genus_two_double_horizontal_2026_10_10.m2)
+has fourteen conditions with its own preserved execution history.
+Neither script replaces the global coverage, actual branch positions or
+arbitrary-ADE crepant-residue argument. The new theorem supersedes open
+quartic mate lanes; it does not solve the distinct common-ancestor
+incidences merely because their generators have degree four.
+
 - `verify_mf6_infinity_universal.py` reconstructs the full e=0 type
   (d2,d3)=(4,5) incidence, moving cubic transition, annihilator minors
   with direct membership witnesses, and exceptional quartic fiber.

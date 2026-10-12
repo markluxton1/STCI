@@ -1,0 +1,15 @@
+{
+  "scope": "Fresh independently observed hashes of completed prior seal and frozen all-quartic acceptance, before extension; does not rerun mathematics",
+  "anchors": {
+    "research/validation/2026-10-11-continuation-seal/result.json": "89da399255019f5ab2412e2d7944b4d9d6505ca99e3c572d2b4f0ea27a6fcef4",
+    "research/validation/2026-10-11-continuation-seal/execution-manifest.json": "8d754071914dec4e8f7fd6a5535d221a3e05a3c93cf4006a6d6d0e169bcbcb59",
+    "research/validation/2026-10-11-continuation-seal/check_record.py": "d61c147b694bcbfe52f1ed955a0607d0844619c1a2a76b543144f88813480d2a",
+    "research/validation/2026-10-11-continuation-seal/run_final_seal.py": "310b36771066fe1509695313600deda2eb44cf7f39fb4813021f80c05b8ac017",
+    "research/validation/2026-10-11-continuation-seal/stdout.txt": "127048f1025d23f1ebc7338b47629bfe15dedd028b24aee7d72d63328979563a",
+    "research/validation/2026-10-11-continuation-seal/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/notes/2026-10-11-session-all-quartic-results-acceptance.md": "670d8d8a7aec2e2552bc358b9bae93f307ee4756da9da90e77f98daa8d3d9d2f"
+  },
+  "prior_check_count": 5747,
+  "prior_local_links": 773,
+  "prior_bound_files": 921
+}

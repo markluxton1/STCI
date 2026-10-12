@@ -1,0 +1,291 @@
+{
+  "status": "PASS: exact model audit; every retained failure reproduced",
+  "scope": "literal six-cubic dP5 A4 model; not all quintic carriers or projection parameters",
+  "created_utc": "2026-10-11T15:03:41.687799+00:00",
+  "runtime": "1.26.06",
+  "primary_source": "research/computations/verify_session_quintic_a4_exact_ideal_2026_10_11.m2",
+  "primary_source_sha256": "3a48626539da961ca68edd3d3b13a33d39cb154020e52a19c292d06e9ce77ca9",
+  "snapshot": "research/validation/2026-10-11-quintic-a4-exact-ideal/snapshot/verify_session_quintic_a4_exact_ideal_2026_10_11.m2",
+  "snapshot_sha256": "3a48626539da961ca68edd3d3b13a33d39cb154020e52a19c292d06e9ce77ca9",
+  "runner": "research/validation/2026-10-11-quintic-a4-exact-ideal/run_exact_audit.py",
+  "runner_sha256": "ad15363ae53c4290b4c0036e7c8a3972296b50bc0530d52f892b3c8871be54f4",
+  "mathematical_conditions": 72,
+  "distinct_final_mathematical_verifier_paths": 1,
+  "original_tool_executions": [
+    {
+      "tool_chunk_id": "5b5743",
+      "exit_code": 1,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/01-resolution-api-failure.m2",
+      "source_sha256": "f767a07adb289292ebfd12587d6c7b49a6cc423592719cbbfa3544012d20061e",
+      "purpose": "exploratory resolution API failure",
+      "wall_time_seconds": 0.571490458,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "de025f",
+      "exit_code": 0,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/08-exploratory-before-curve-pass.m2",
+      "source_sha256": "0a54cb80643e75d37aa6f38eabf16db52dc6e3590faf20db01e3ac4c0ded7d72",
+      "purpose": "kernel, degree, singular saturation probe",
+      "wall_time_seconds": 0.612083167,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "mechanically reconstructed from retained complete exploratory script by deleting later additions"
+    },
+    {
+      "tool_chunk_id": "a001ef",
+      "exit_code": 0,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/09-exploratory-before-base-pass.m2",
+      "source_sha256": "8dd7285c05efcf62baa2e211e22443975fcbb27b845b8738c12854fca569e4d5",
+      "purpose": "adds quartic/line intersection probe",
+      "wall_time_seconds": 0.623185792,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "mechanically reconstructed from retained complete exploratory script by deleting later additions"
+    },
+    {
+      "tool_chunk_id": "19c633",
+      "exit_code": 0,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/10-exploratory-complete-pass.m2",
+      "source_sha256": "b999d25b2e647662005c66779cc668facf596ad83e545a3a144479c0623e09db",
+      "purpose": "adds projective base cluster probe",
+      "wall_time_seconds": 0.640785792,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "a4b241",
+      "exit_code": 1,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/02-protected-resolution-failure.m2",
+      "source_sha256": "9e24ee9c66daf3a1d956931adf4d362ff670c1d62836e1662b9bfa279e065a27",
+      "purpose": "protected resolution variable",
+      "wall_time_seconds": 0.523201,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "e0926b",
+      "exit_code": 1,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/03-precedence-failure.m2",
+      "source_sha256": "16cec9e6cced0a34c991e5f57c886c8e423072162894dd08cbfee06c2636623f",
+      "purpose": "wrong complex term accessor",
+      "wall_time_seconds": 0.5154705,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "0485d0",
+      "exit_code": 1,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/04-complex-index-failure.m2",
+      "source_sha256": "c48d833f65a0af1d4a87e0a4dacc62c00708e07d3f4cc28f486c6f2c38936d20",
+      "purpose": "same complex accessor after parentheses repair",
+      "wall_time_seconds": 0.518808417,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "0477bf",
+      "exit_code": 1,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/11-complex-index-diagnostic-failure.m2",
+      "source_sha256": "de93a3ee41d0d1d62a67566ced4925a036aa4a1dc658e2ba7a98db8d47d4716f",
+      "purpose": "diagnostic confirms Complex uses underscore term access",
+      "wall_time_seconds": 0.517777792,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "470227",
+      "exit_code": 0,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/06-before-explicit-section-pass.m2",
+      "source_sha256": "9e28971ab5fa7473125aa6e8d505ad66d2a56f06de04444267e4226decc934fe",
+      "purpose": "64-condition verifier before adding Q",
+      "wall_time_seconds": 0.6309055,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "30e76a",
+      "exit_code": 1,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/05-section-lift-api-failure.m2",
+      "source_sha256": "fb0b44aacb2b9af89339bff2c99721944abce45881454e34bd014ca0312a90a9",
+      "purpose": "matrix lift API mismatch",
+      "wall_time_seconds": 0.713606583,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "addeb0",
+      "exit_code": 0,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/12-explicit-section-probe-pass.m2",
+      "source_sha256": "cca76886d512f7c9e3b27c917360bbe54b1a9a2b7ba2913e34999bbae6afa674",
+      "purpose": "exact polynomial quotient and radical support",
+      "wall_time_seconds": 0.635732125,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "ed7359",
+      "exit_code": 1,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/07-section-multiline-failure.m2",
+      "source_sha256": "523360f98643adf21d45e0a5169fbc42502068d55c88a54e83e6847256127fcf",
+      "purpose": "unparenthesized multiline section assignment",
+      "wall_time_seconds": 0.644927334,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    },
+    {
+      "tool_chunk_id": "c7b8fd",
+      "exit_code": 0,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/snapshot/verify_session_quintic_a4_exact_ideal_2026_10_11.m2",
+      "source_sha256": "3a48626539da961ca68edd3d3b13a33d39cb154020e52a19c292d06e9ce77ca9",
+      "purpose": "final 72-condition verifier console execution",
+      "wall_time_seconds": 0.766909541,
+      "evidence_kind": "observed exec_command result; not captured subprocess output",
+      "source_reconstruction": "retained exact source or frozen exact final snapshot"
+    }
+  ],
+  "captured_executions": [
+    {
+      "name": "failure-replay-01",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/01-resolution-api-failure.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal",
+      "started_utc": "2026-10-11T15:03:36.799606+00:00",
+      "wall_time_seconds": 0.6452512920368463,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/01-resolution-api-failure.m2",
+      "source_sha256": "f767a07adb289292ebfd12587d6c7b49a6cc423592719cbbfa3544012d20061e",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-01.stdout.log",
+      "stdout_sha256": "8bd8663a70f641e9960329e508b5f26d9237293bcf9faa437cdac23f9df58765",
+      "stderr": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-01.stderr.log",
+      "stderr_sha256": "ebf3652e260d947a0119c2496466e042b20da0580fb8750d1b72fa3a591380d0",
+      "purpose": "capture retained failure"
+    },
+    {
+      "name": "failure-replay-02",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/02-protected-resolution-failure.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal",
+      "started_utc": "2026-10-11T15:03:37.445742+00:00",
+      "wall_time_seconds": 0.6404627081938088,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/02-protected-resolution-failure.m2",
+      "source_sha256": "9e24ee9c66daf3a1d956931adf4d362ff670c1d62836e1662b9bfa279e065a27",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-02.stdout.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-02.stderr.log",
+      "stderr_sha256": "e79b117af0355173849ab0b5e1100526c209b63bbbb669a5928f5205e5b387e4",
+      "purpose": "capture retained failure"
+    },
+    {
+      "name": "failure-replay-03",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/03-precedence-failure.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal",
+      "started_utc": "2026-10-11T15:03:38.087554+00:00",
+      "wall_time_seconds": 0.6509107910096645,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/03-precedence-failure.m2",
+      "source_sha256": "16cec9e6cced0a34c991e5f57c886c8e423072162894dd08cbfee06c2636623f",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-03.stdout.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-03.stderr.log",
+      "stderr_sha256": "8f5f7f6a17f473648d1604ef48a5d43770859ec73e2ee72ebd9183a7783b6a19",
+      "purpose": "capture retained failure"
+    },
+    {
+      "name": "failure-replay-04",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/04-complex-index-failure.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal",
+      "started_utc": "2026-10-11T15:03:38.739317+00:00",
+      "wall_time_seconds": 0.650040291948244,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/04-complex-index-failure.m2",
+      "source_sha256": "c48d833f65a0af1d4a87e0a4dacc62c00708e07d3f4cc28f486c6f2c38936d20",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-04.stdout.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-04.stderr.log",
+      "stderr_sha256": "144cfb1a761473b1b4794da094ff4dc03af600c4411a26e955abebc4248d90a9",
+      "purpose": "capture retained failure"
+    },
+    {
+      "name": "failure-replay-05",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/05-section-lift-api-failure.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal",
+      "started_utc": "2026-10-11T15:03:39.390136+00:00",
+      "wall_time_seconds": 0.6636114588472992,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/05-section-lift-api-failure.m2",
+      "source_sha256": "fb0b44aacb2b9af89339bff2c99721944abce45881454e34bd014ca0312a90a9",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-05.stdout.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-05.stderr.log",
+      "stderr_sha256": "b885f3808ecc65b2328940cf1ac060db1dbe5035c8cd0ddbaef142ceeba8959a",
+      "purpose": "capture retained failure"
+    },
+    {
+      "name": "failure-replay-07",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/07-section-multiline-failure.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal",
+      "started_utc": "2026-10-11T15:03:40.054555+00:00",
+      "wall_time_seconds": 0.7664563751313835,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/07-section-multiline-failure.m2",
+      "source_sha256": "523360f98643adf21d45e0a5169fbc42502068d55c88a54e83e6847256127fcf",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-07.stdout.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-07.stderr.log",
+      "stderr_sha256": "5dbb737e83be8db96a43ca20f7355659f584d989ec18ba021a2d4fe02dd6f90a",
+      "purpose": "capture retained failure"
+    },
+    {
+      "name": "final-captured",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal/snapshot/verify_session_quintic_a4_exact_ideal_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-exact-ideal",
+      "started_utc": "2026-10-11T15:03:40.821837+00:00",
+      "wall_time_seconds": 0.8650752911344171,
+      "source": "research/validation/2026-10-11-quintic-a4-exact-ideal/snapshot/verify_session_quintic_a4_exact_ideal_2026_10_11.m2",
+      "source_sha256": "3a48626539da961ca68edd3d3b13a33d39cb154020e52a19c292d06e9ce77ca9",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "research/validation/2026-10-11-quintic-a4-exact-ideal/final-captured.stdout.log",
+      "stdout_sha256": "3f64468842927472bb3ce4cf725db3ffb978dc052c953ff02e6277dea6a81ebb",
+      "stderr": "research/validation/2026-10-11-quintic-a4-exact-ideal/final-captured.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "capture final mathematical verifier"
+    }
+  ],
+  "explicit_M2_script_executions_in_this_record": 20,
+  "passing_M2_script_executions_in_this_record": 7,
+  "counting_note": "Version snapshots, probes, failed scaffolds, and replays are disclosed; no copied source is counted as an additional final mathematical verifier. The independent 20-condition local-chart child has its own record and is not included here."
+}

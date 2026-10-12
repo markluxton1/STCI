@@ -8,8 +8,17 @@ closes the entire genus-one quartic-carrier lane for fixed C0 in
 characteristic zero and accepts the genus-two actual conductor-line and
 bounded no-degree-zero-horizontal section reductions. Older conflicting
 open genus-one statements in this historical record are superseded.
-Genus two, higher carriers, entirely-thick presentations and the
-unrestricted problems remain open.
+The [resumed October 10 acceptance](notes/2026-10-10-session-continuation-results-acceptance.md)
+now excludes the whole genus-two bisection lane by a global Cartier-ribbon
+obstruction and every nonendpoint trisecant section case by full
+conductor coverage. The
+[October 11 all-quartic acceptance](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+closes the full endpoint triple-contact case and excludes every integral
+quartic carrier of fixed C0 in characteristic zero with arbitrary mate
+degree. Earlier unresolved quartic-mate claims in this historical record
+are superseded. The common-ancestor incidence problems remain distinct.
+Higher carriers, entirely-thick presentations and the unrestricted
+problems remain open.
 
 # STCI Research Record
 
