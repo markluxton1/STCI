@@ -1,0 +1,18 @@
+{
+  "scope": "Seven exact identities for independently reconstructed finite and infinite common-quadratic systems; geometric admissibility and conductor support are not claimed.",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-13-nonendpoint-h2-cover-audit/attempt-01/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "started_utc": "2026-10-13T14:33:12.121150+00:00",
+  "elapsed_seconds": 0.6351640841457993,
+  "source": "research/computations/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2",
+  "snapshot": "research/validation/2026-10-13-nonendpoint-h2-cover-audit/attempt-01/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2",
+  "source_sha256": "ba934d2930334a2ca87a6c693c1bdc05685f6d320e2730a48805cd902e7908ae",
+  "exit_code": 1,
+  "exact_checks": 6,
+  "stdout": "stdout.txt",
+  "stderr": "stderr.txt"
+}

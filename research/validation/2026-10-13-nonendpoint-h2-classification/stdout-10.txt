@@ -1,0 +1,18 @@
+PASS 1: literal normalized P, with every delta factor retained
+PASS 2: literal normalized J, with every delta factor retained
+PASS 3: four complete affine coefficient constraints
+PASS 4: zero-cubic boundary signs, not part of exact h2
+PASS 5: exact finite-H coefficient matrix
+PASS 6: determinant separates repeated H and exceptional conic
+PASS 7: recovering actual a,b,g,d loses no coefficient constraint
+PASS 8: repeated-H rank is three away from roots zero and one
+PASS 9: repeated-H compatibility and exceptional-conic intersection
+PASS 10: bad double-root charts have the stated incompatible row relations
+PASS 11: the complete exceptional conic has no consistent factor pair
+PASS 12: infinity-plus-finite matrix determinant
+PASS 13: Cramer numerators retain the two exceptional infinity roots
+PASS 14: exact particular solution in every infinity chart
+PASS 15: exceptional infinity charts have a one-dimensional solution fiber
+PASS 16: a double root at infinity is impossible for nonzero delta
+PASS 17: both literal quadratic restrictions vanish at the claimed finite root
+PASS ALL: 17 exact structural identities; conductor-support incidence remains necessary only

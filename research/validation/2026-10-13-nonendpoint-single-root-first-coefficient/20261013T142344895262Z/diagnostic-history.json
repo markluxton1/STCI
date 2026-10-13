@@ -1,0 +1,7 @@
+{
+  "source": "multiline-diagnostic-source.m2",
+  "sha256": "479d935f9020606c5d8ce41472da219ad10d031079ea6989c9830ff26877f194",
+  "observed_status": "FAIL at first assertion",
+  "original_raw_output_saved": false,
+  "scope": "Printed difference after incomplete multiline assignment; not a successful certificate."
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "Exact h3 proportionality identities and a bounded two-parameter actual conductor probe; no global support or admissibility inference.",
+  "latest_attempt": "attempt-06",
+  "latest_record": "attempt-06/execution-record.json",
+  "exit_code": 1,
+  "source_sha256": "cdb80cb22689df517e287c3613579397722850c257f8f72aecb77d6dad952143",
+  "exact_checks": null
+}

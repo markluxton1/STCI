@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    {
+      "path": "research/notes/2026-10-13-session-nonendpoint-single-root-taylor-incidence.md",
+      "sha256": "b215631a105af554c665cf1074f8657c9b6942747af5d2a474d992c496d46fd3"
+    },
+    {
+      "path": "research/computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2",
+      "sha256": "b5bd8a304dbc5acc6767e364088e25deac1af89d78766f38263c6bb8441dfbc1"
+    },
+    {
+      "path": "research/computations/verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2",
+      "sha256": "7ee03582fa3836ae08ed3020e4b21f31b77e641c4e210a0307353853d34f01fb"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt",
+      "sha256": "d5701314fdf45a60b66d4763159ac383a7fed5eb51d9821115455ab968e0ea84"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-conductor-quadric-module-independent-audit.md",
+      "sha256": "7ef3b293c16bd8e62e909fd0422a0a6a15ab52887893c364d75ad119950ac9fc"
+    }
+  ]
+}

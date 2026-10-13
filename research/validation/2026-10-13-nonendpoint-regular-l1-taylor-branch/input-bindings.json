@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    {
+      "path": "research/notes/2026-10-13-session-nonendpoint-regular-l1-double-root.md",
+      "sha256": "01e8314753a1e3e058427d0d474a307c150153170862c74021193d2ca4151a03"
+    },
+    {
+      "path": "research/computations/verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2",
+      "sha256": "b223eb5e4e063bbbe3273ac4b82a2e98317412b5c92149fa692218180e217074"
+    },
+    {
+      "path": "research/notes/2026-10-13-session-nonendpoint-single-root-taylor-incidence.md",
+      "sha256": "b215631a105af554c665cf1074f8657c9b6942747af5d2a474d992c496d46fd3"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u0.txt",
+      "sha256": "cd779b0b3dab27eb88a77741d4e8c055710e91d7a2528b3540887bb11caf16b1"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u1.txt",
+      "sha256": "83d0670800ab3a2b4edeea34a34e694059e4c2ca249cfc97db66a9f3eaf4ae76"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-conductor-quadric-module-independent-audit.md",
+      "sha256": "7ef3b293c16bd8e62e909fd0422a0a6a15ab52887893c364d75ad119950ac9fc"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+PASS literal cubic residual and cubic coefficient
+PASS diagonal conormal matrix
+PASS diagonal conormal determinant
+PASS exceptional conormal determinant remains on Z boundary
+PASS compact linear subresultant
+PASS fixed degree Sylvester factor
+PASS cubic degree drop coefficient
+PASS leading drop normalized resultant
+PASS primitive norm exact factor
+PASS primitive degree eight and A4 value
+PASS endpoint infinity leading coefficient
+PASS diagonal quadratic evaluation
+PASS diagonal cubic evaluation
+PASS normalized actual conormal cubic pair

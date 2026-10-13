@@ -1,4 +1,4 @@
-# Canonical audited state — 2026-10-07, reconciled through 2026-10-12
+# Canonical audited state — 2026-10-07, reconciled through 2026-10-13
 
 This is the continuation entry point for the research session begun on
 2026-10-06 and resumed through 2026-10-12. It supersedes conflicting frontier
@@ -12,6 +12,23 @@ this repository. The unrestricted characteristic-zero problem for
 C0=[s^4:s^3t:st^3:t^4] is also unresolved.** The literature refresh found
 no accepted unrestricted resolution; this is a dated search conclusion,
 not a proof of absence of unindexed work.
+
+**LATEST EVENING FRONTIER:** the
+[October 12 acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+excludes every admissible nonendpoint projection with coprime corrected
+homogeneous conormal cubics, in every mate degree. A hypothetical mate
+requires `Res_h(Ph,Jh)=0`. Both the Jbar-nonzero local-isomorphism argument
+and the Jbar-zero actual fiber/prime/phase reduction have completed
+independent audits. Pole/line, residual-factor/genus and target-fiber
+audits are accepted. The common-root incidence remains open, retaining
+all infinity roots, repetitions, higher contact and full conductor
+membership. The entire G=Jbar=0 subfamily and the entire residual partition
+2+4 are now excluded in every mate degree. The actual conductor quadric
+and its complete nonzero binary octic are independently audited, yielding
+the necessary incidence `Fdet | (H P^epsilon)^8` with all multiplicities.
+The frozen 3+3 all-mate proof is under independent review; its stronger
+SUP wording is qualified to Jbar!=0. The integral residual remains open.
+These statements supersede the corresponding pending labels below.
 
 **LATEST PROVED FRONTIER:** the
 [October 11 acceptance](notes/2026-10-11-session-all-quartic-results-acceptance.md)

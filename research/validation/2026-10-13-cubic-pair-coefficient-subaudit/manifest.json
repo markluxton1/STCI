@@ -1,0 +1,96 @@
+{
+  "created_utc": "2026-10-13T14:27:33.663316+00:00",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "research/notes/2026-10-13-session-nonendpoint-cubic-pair-coefficient-independent-subaudit.md",
+      "sha256": "8dc9ca3c3623a42023ed8acee208dc1b8272b3942e91c68d4b43d6994d72c316",
+      "bytes": 10196
+    },
+    {
+      "path": "research/computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2",
+      "sha256": "a067b9847fc4150a302aa229e6a626ecf78480a66cebfd776da525e347477e7a",
+      "bytes": 6660
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-01/execution-record.json",
+      "sha256": "81b7d620409befd08b67c42b626c35e49feb43aae2e8a1695ab22db54d73d980",
+      "bytes": 834
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-01/source.m2",
+      "sha256": "211f3bbf0797ed0a45a4bb1130f93b4fcf949b25ff9866ffbdc60cd924a2806c",
+      "bytes": 4507
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-01/stderr.txt",
+      "sha256": "e09e5d489322ca294ca9c141ec5935a040d0e6c3881310845c4ec2175cad82b1",
+      "bytes": 829
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-01/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-02/execution-record.json",
+      "sha256": "055a6d8bd7ff0beabe8e26775b75fd76479bbed3416b10f08b23a3bb2e356996",
+      "bytes": 846
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-02/source.m2",
+      "sha256": "f64a637ce450c881032bec9aa27e5df6f73f051df6c324c8adef8c441d0f6570",
+      "bytes": 5222
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-02/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-02/stdout.txt",
+      "sha256": "ae88d58e20fa9ecfcd61ce2d3d2421bc0648f6831e8971a4c42e553897fcf555",
+      "bytes": 1325
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-03/execution-record.json",
+      "sha256": "e02475a90ecbf240d07f58ff7e4c19cf54d5a8b21b8a569a70e87c68e21b5ae2",
+      "bytes": 846
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-03/source.m2",
+      "sha256": "a067b9847fc4150a302aa229e6a626ecf78480a66cebfd776da525e347477e7a",
+      "bytes": 6660
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-03/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-03/stdout.txt",
+      "sha256": "b7ffd2871d4f666ae094d73579c5c29a4660938f6b6e8114a616e96e8e0832fb",
+      "bytes": 1719
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/input-bindings.json",
+      "sha256": "3cf65680acae7bf9dc3565e1a28bbfa64e7d0cbde2dbeac617a6013fd5d2eedd",
+      "bytes": 1602
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/inputs/2026-10-12-session-nonendpoint-cubic-contact-symbolics.md",
+      "sha256": "0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c",
+      "bytes": 9140
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/inputs/2026-10-12-session-nonendpoint-cubic-pair-contact-reduction.md",
+      "sha256": "7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a",
+      "bytes": 16736
+    },
+    {
+      "path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/inputs/2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md",
+      "sha256": "d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44",
+      "bytes": 17583
+    }
+  ]
+}

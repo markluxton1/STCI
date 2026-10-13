@@ -1,0 +1,18 @@
+{
+  "scope": "Twelve exact identities supporting the homogeneous rank proof; no numerical matrix sampling is a proof of gcd classification.",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-13-nonendpoint-homogeneous-gcd-rank/attempt-02/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "started_utc": "2026-10-13T14:29:04.307893+00:00",
+  "elapsed_seconds": 0.6353957080282271,
+  "source": "research/computations/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2",
+  "snapshot": "research/validation/2026-10-13-nonendpoint-homogeneous-gcd-rank/attempt-02/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2",
+  "source_sha256": "79ada049572cb84a3c04001a7781816c885ce3ac59a21de250e15c03bf0d0386",
+  "exit_code": 1,
+  "exact_checks": 11,
+  "stdout": "stdout.txt",
+  "stderr": "stderr.txt"
+}

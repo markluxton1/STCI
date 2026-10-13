@@ -1,10 +1,26 @@
-# Continuation handoff — 2026-10-07, reconciled through 2026-10-12
+# Continuation handoff — 2026-10-07, reconciled through 2026-10-13
 
 Read [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md) first, then
 [RESEARCH_UPDATE_2026-10-07.md](RESEARCH_UPDATE_2026-10-07.md), the relevant
 proof note and its independent audit. Older handoffs are historical.
 The universal STCI problem and unrestricted characteristic-zero C0
 problem remain unresolved.
+
+Read the [October 12 evening acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+for the latest frontier, then its independent Jbar-zero phase audit and
+the earlier conormal/conductor audit. Every admissible coprime homogeneous
+conormal pair is excluded in every mate degree. Continue on the complete
+common-root incidence `Res_h(Ph,Jh)=0`; do not restart endpoint or coprime
+searches. The pole/line, residual/genus and target-fiber audits are complete.
+The entire G=Jbar=0 subfamily and the entire residual partition 2+4 are
+now excluded in every mate degree, with independent audits. The actual
+conductor quadric and nonzero binary octic are accepted. Continue with
+the homogeneous gcd and octic incidence, all exceptional fiber charts
+and full conductor power membership. Finish the frozen 3+3 audit; the
+SUP conclusion is qualified to Jbar!=0, while its proposed no-mate
+conclusion covers every Jbar. The integral residual remains open.
+Do not restart completed pole/line, endpoint or conic-plus-quartic audits.
+This supersedes the corresponding pending work lists below.
 
 Read the [post-seal quintic acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
 for the latest mathematical frontier. The entire endpoint projection
@@ -26,9 +42,11 @@ historical snapshot and must not be overwritten.
 
 ## Live checkpoint
 
-The current branch is `research/ultra-resume-2026-10-06`. October 12 inspection
-found HEAD `0adab2bd188351a77d961d7f2251c21545aaebcc`, title
-`2026-10-11 limit reached`. Root did not create that observed commit.
+The current branch is `research/ultra-resume-2026-10-06`. October 12 evening
+inspection found clean HEAD `59a7bf73bdd196fa6b03ce9e265c5a1a9edbae58`, title
+`2026-10-12 morning limit reached`. Root did not create that observed commit.
+The preceding morning HEAD `0adab2bd188351a77d961d7f2251c21545aaebcc`, title
+`2026-10-11 limit reached`, is historical.
 The preceding HEAD `2ba77d1a1177db9390693066c6b185040766c089`, title
 `2026-10-10 afternoon limit reached`, is now historical. The previous afternoon HEAD
 `406d63db72000a3951497a0ba2a8fbfbc13e8ead` and previously observed morning

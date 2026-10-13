@@ -1,0 +1,15 @@
+PASS 1: conic factor coefficient
+PASS 2: residual factor reconstruction
+PASS 3: graph coefficient is nonzero on delta-open
+PASS 4: nonidentically zero graph T
+PASS 5: A4 tangent determinant factor
+PASS 6: P has conic root
+PASS 7: J has conic root
+PASS 8: P quotient reconstruction
+PASS 9: J quotient reconstruction
+PASS 10: sum of quadratic quotients
+PASS 11: linear contact T
+PASS 12: complete saturated incidence equality
+PASS 13: linear/cubic strata disjoint
+PASS 14: sigma denominator cannot vanish on cubic stratum
+PASS 15: sigma differs from rho on delta-open

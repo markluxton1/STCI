@@ -1,5 +1,22 @@
 # STCI Literature Ledger
 
+The [October 12 evening acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+adds an internal independently audited all-mate exclusion of every
+admissible coprime conormal pair in the fixed-C0 genus-one quintic lane.
+This is a scoped proved result, not a published universal theorem or a
+certified novelty claim. Its actual finite-local, full-conductor and purity
+arguments are written in the linked audits. No new external literature
+survey is claimed by this evening integration.
+
+The October 13 reconciliation additionally accepts the complete internal
+G=Jbar=0 subfamily and conic-plus-quartic 2+4 exclusions in every mate
+degree, and the actual conductor quadric/octic theorem, after independent
+proof audits. The frozen 3+3 proof is under separate review with a scope
+qualification to its SUP wording. These remain statements for fixed C0
+and the specified quintic normalization family. The remaining incidence,
+other carriers and universal problem are open. No novelty assessment or
+fresh unrestricted literature survey is certified by these integrations.
+
 The [post-seal quintic acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
 records a new independently audited endpoint quintic-projection exclusion
 in every mate degree. It is an internal proved result under its exact

@@ -1,5 +1,31 @@
 # Exact computation checks
 
+## October 12 evening nonendpoint acceptance
+
+The [new acceptance](../notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+closes the coprime homogeneous conormal locus in all mate degrees using
+two written geometric proofs. The conormal algebra has a seven-condition
+root checker and a twelve-check independent implementation; the original
+wrong J coefficient and actual assertion failures remain saved.
+The Jbar-zero bridge has an eight-group
+[root checker](verify_session_jbar_zero_conductor_local_2026_10_12.m2) and a
+twelve-identity [independent source](verify_session_jbar_zero_phase_audit_2026_10_12.m2).
+The latter retains a failed list-substitution attempt and repaired PASS:
+two executions of one checker lineage. Target fibers have seventeen owner
+identities and eleven independent gap checks. The G=J=0 source has ten
+structural groups and twenty-one polynomial unit certificates; its
+geometric audit and direct Fraction products now pass eighty assertions.
+Both conic-plus-quartic checker audits are complete (thirty and fifty-eight
+conditions), closing the entire 2+4 partition by actual target jets and
+the intersection budget. The conductor quadric proof is independently
+audited; its literal norm comparison uses the disclosed fifteen-identity
+source without an additional replay. The frozen 3+3 assembly has two
+supporting lineages and twelve captured attempts, with a fresh full proof
+audit in progress and its SUP scope qualification retained. Copies,
+failed attempts and replays do not enlarge the implementation count or
+prove exhaustion of the remaining common-root locus. Corresponding
+morning pending labels below are superseded by the completed audits.
+
 ## Post-seal quintic continuation through October 12
 
 The [quintic continuation acceptance](../notes/2026-10-11-session-quintic-continuation-results-acceptance.md)

@@ -7,6 +7,23 @@ intersection of two homogeneous surfaces.
 The universal problem and the unrestricted characteristic-zero rational
 quartic test case remain unresolved in this repository.
 
+The [October 12–13 acceptance](research/notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+is the newest mathematical frontier. Every admissible nonendpoint
+genus-one quintic projection with coprime corrected homogeneous conormal
+cubics is excluded in every mate degree. The remaining necessary locus
+is `Res_h(Ph,Jh)=0`, with all common-root, higher-contact and full-conductor
+strata retained. Pole/line, residual/genus and target-fiber audits are
+complete. The entire `G=Jbar=0` subfamily and the entire conic-plus-quartic
+residual partition `2+4` are now excluded in every mate degree, with
+independent audits. The actual conductor quadric, including all upstairs
+multiplicities, and its nonzero binary octic are independently verified.
+The entire `3+3` all-mate proof is frozen and undergoing fresh audit;
+its stronger support wording needs the recorded Jbar-nonzero qualification.
+The integral residual remains open. This supersedes the precise pending labels
+below; other quintic normalizations and higher carriers remain open.
+The evening continuation began from externally observed clean HEAD `59a7bf7`;
+new evening results are retained in the working tree.
+
 Start with the [current audited state](research/AUDITED_STATE_2026-10-07.md).
 The [research update through October 12](research/RESEARCH_UPDATE_2026-10-07.md)
 and [dated continuation handoff](research/SUCCESSOR_HANDOFF_2026-10-07.md)

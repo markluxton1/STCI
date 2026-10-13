@@ -1,0 +1,231 @@
+{
+  "schema": "stci-file-binding-manifest-v1",
+  "scope": "new owner cubic-pair exclusion and its two supporting checker lineages",
+  "mathematical_acceptance": "independent geometric audit outstanding",
+  "bound_files": [
+    {
+      "path": "research/computations/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "sha256": "c26395b318525b6b531ebc96f91bc9866fbbb186ae9982f79443c2fb7508bd58"
+    },
+    {
+      "path": "research/computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2",
+      "sha256": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb"
+    },
+    {
+      "path": "research/notes/2026-10-11-session-dp5-a4-explicit-model-independent-audit.md",
+      "sha256": "f19ae25848ba77a5c59f3a9ce53819b24258c03b5d90f234b31ec7581306f8bd"
+    },
+    {
+      "path": "research/notes/2026-10-11-session-dp5-a4-intrinsic-pair-classification.md",
+      "sha256": "537e341fb79632997648209efb7728c64229d7bd648cc2721285e8ab04cf0e0f"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-cubic-contact-symbolics.md",
+      "sha256": "0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-cubic-pair-contact-reduction.md",
+      "sha256": "7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet-independent-audit.md",
+      "sha256": "11ec0a8db1225c6697371c1ecf1943e9dd333a9ec06f6df06d37e64d1fe6e846"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md",
+      "sha256": "ad4459de5a95b12e26a162419082d7b32745323a6781716efdf6cca72767c2a2"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md",
+      "sha256": "db72f936486253cf91e82645de9c3b6b23562dac9da49eee6ee31f0cb94b5322"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md",
+      "sha256": "d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-sparse-heptic-cubic-pair-classification.md",
+      "sha256": "58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213217027300Z/execution-record.json",
+      "sha256": "7ff82671ec6cf545b8eb569b96df26fc785eb1c0d08a3d6418013fa3efb8054a"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213217027300Z/stderr.txt",
+      "sha256": "3e1874dc251841e36736c1e3846c326bc6f1d4fcd97c45ef9806ef7e8fadaefb"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213217027300Z/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213217027300Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "sha256": "d80404d73f1b7e1b3c9613ba64dff0724be261ce6261596cb8e53e04545c48c3"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213255094212Z/execution-record.json",
+      "sha256": "c5bc3944e97f319e885a25b35483bdae0990672c0368c3fc7ac41d8ff667ec3d"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213255094212Z/stderr.txt",
+      "sha256": "db4e7c3802514252aba852e1aa37a4326ce853554f0323adb8a94248e8d08104"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213255094212Z/stdout.txt",
+      "sha256": "cd4d70d026bd23b80f287c7dbd072de272b1c515891ada3227f30cfee495767d"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213255094212Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "sha256": "ebbabb2ee315feabdc80de921b3c48aa3abf934c758e08c8adfa1ec9f74548c9"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213311715636Z/execution-record.json",
+      "sha256": "860bc4a66f85db4047060f33609f56f7fdaf2aed11ebfe33bf14ad10a1b97d93"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213311715636Z/stderr.txt",
+      "sha256": "01ab3340dcbf965276e32b4055fa9fa1bc33c885745fcfb25851beddd853bda7"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213311715636Z/stdout.txt",
+      "sha256": "2f59e128f42431fd12575adbde024e0620ce8458c22133137e37b1c10085dbd9"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213311715636Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "sha256": "d5a65b9051d1ba2ebb39e1329cfa0e3050ba96f213042288a8fcc860a8cad891"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213321280566Z/execution-record.json",
+      "sha256": "f94d1c2e7edf2955736fafab3bd7f81c1e94d9cec7ecc1e594a65ab40fb46651"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213321280566Z/stderr.txt",
+      "sha256": "588ca8cafc04cbbef6a1485eed15df766f470c5715f58830138f1b3bb769f19f"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213321280566Z/stdout.txt",
+      "sha256": "bcadfd71e61f8b26833ecc98bbd8ce00aaee3f2f3ef40e056f3bd3fc5f5ba719"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213321280566Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "sha256": "47bec87387a3f55e15a24c5d4fc65f7506c2b67953878d1d56126b8cbe46623d"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213343388888Z/execution-record.json",
+      "sha256": "278bed883b148653b86a34adf1d5ab1f7d814914c3776322c7e8a186ca99eabe"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213343388888Z/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213343388888Z/stdout.txt",
+      "sha256": "8b51e048a03a937068ead016b3bd3d572a4d5b00c0953d8a954bfa2ded938d55"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213343388888Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "sha256": "c26395b318525b6b531ebc96f91bc9866fbbb186ae9982f79443c2fb7508bd58"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/capture_run.py",
+      "sha256": "b84546c4c5c1bfba97b8857320a261437f349d688387db7befc7a5cfbc67df8e"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/execution-record.json",
+      "sha256": "30ce05de9892a50aa56331f35d9717c411de01b4f346c785c7c0e6c201a0958d"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.m2",
+      "sha256": "816474164f38f88c0d3ec71b6599dcbc9867927fee99aba1e9ff89968da2867c"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.stderr.txt",
+      "sha256": "6edb94efa95cd2d276884012649c1849644e5cc3f3c8776e648a9048ca42b84c"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.stdout.txt",
+      "sha256": "6b617403565197474252646560b5cabab997e926bfa23ea98c9c308d3de539ff"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.m2",
+      "sha256": "a8b0b88a4e02e5ac075ebbe7f4eaf84a4de69b5172001a721229d1ee4e98fcc5"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.stderr.txt",
+      "sha256": "38ab78d38940480be09914216ea6d7e273d1af77687486b167d48bca70f4b5fa"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.m2",
+      "sha256": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.stdout.txt",
+      "sha256": "bb0e703c7e6457f365ee091358cab6db2b47b7a44ffb76269d03fafd31f20396"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/manifest.json",
+      "sha256": "f31b48dc7dcc8e36307e9fd5c3407675d80bb5ddc375c362987940c7c5b3c2fa"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.m2",
+      "sha256": "7dae2eb310f509d444a5a4b3437ddc7184dd0d898730969d5c2389c1d7c3e06c"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.stdout.txt",
+      "sha256": "86786bf71a1eb5d6ffd5513dd2cdcfc7657e7f18e1872373df4ccec7728d9c48"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.m2",
+      "sha256": "8e2a88b9a89d09a679df68b7f3a6269b0649da2b39e2d03fe76e695bbce9a1fd"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.stdout.txt",
+      "sha256": "4953bf89a512b45bc962b8c5717ba37fec7294da4b85ecba1cfabf1d5834197b"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.m2",
+      "sha256": "75c1b238f819703d5d6b34d42d50e92665eee1854c630c630d68e832c09a5fbc"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.stdout.txt",
+      "sha256": "cd62a6baefbafe7409247fe86e163a5a1d12a4da02e15ef5dc1b20f7117e11ef"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.m2",
+      "sha256": "093b9bc5a85428a27d6e28b45965fb65ae83dd9451dbdc9542149439696923ff"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.stdout.txt",
+      "sha256": "e892e528bb25f56c482008c9c45807387affd378083aff18b6ea0a1ced37f6e9"
+    },
+    {
+      "path": "research/validation/2026-10-13-nonendpoint-cubic-pair-assembly/verify_bindings.py",
+      "sha256": "9a6b1efa816f7315a6ed1bf863d42cf4a8d42af0001a8546b6c235b4058ca44e"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "status": "PASS_RECORD_BINDING",
+  "started_utc": "2026-10-13T14:23:20.308819+00:00",
+  "finished_utc": "2026-10-13T14:23:20.327396+00:00",
+  "scope": "file integrity and captured execution history; no mathematical verifier rerun",
+  "owner_sha256": "7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a",
+  "manifest_sha256": "fce76c840e5f1e1b9475139bdb4ef8fa99d6b39266c7f86a151941ea6fa5f6cd",
+  "bound_file_count": 56,
+  "digest_comparison_count": 66,
+  "checker_lineages": 2,
+  "captured_contact_attempts": 5,
+  "captured_sparse_attempts": 7,
+  "failed_captured_attempts": 6,
+  "successful_captured_attempts": 6,
+  "mathematical_verifier_reruns": 0,
+  "issues": [],
+  "inspections": [
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-cubic-contact-symbolics.md",
+      "expected": "0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c",
+      "actual": "0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c",
+      "reason": "frozen companion binding"
+    },
+    {
+      "path": "research/computations/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "expected": "c26395b318525b6b531ebc96f91bc9866fbbb186ae9982f79443c2fb7508bd58",
+      "actual": "c26395b318525b6b531ebc96f91bc9866fbbb186ae9982f79443c2fb7508bd58",
+      "reason": "frozen companion binding"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-sparse-heptic-cubic-pair-classification.md",
+      "expected": "58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8",
+      "actual": "58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8",
+      "reason": "frozen companion binding"
+    },
+    {
+      "path": "research/computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2",
+      "expected": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb",
+      "actual": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb",
+      "reason": "frozen companion binding"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/manifest.json",
+      "expected": "f31b48dc7dcc8e36307e9fd5c3407675d80bb5ddc375c362987940c7c5b3c2fa",
+      "actual": "f31b48dc7dcc8e36307e9fd5c3407675d80bb5ddc375c362987940c7c5b3c2fa",
+      "reason": "frozen companion binding"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/execution-record.json",
+      "expected": "30ce05de9892a50aa56331f35d9717c411de01b4f346c785c7c0e6c201a0958d",
+      "actual": "30ce05de9892a50aa56331f35d9717c411de01b4f346c785c7c0e6c201a0958d",
+      "reason": "frozen companion binding"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-sparse-heptic-cubic-pair-classification.md",
+      "expected": "58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8",
+      "actual": "58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2",
+      "expected": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb",
+      "actual": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/execution-record.json",
+      "expected": "30ce05de9892a50aa56331f35d9717c411de01b4f346c785c7c0e6c201a0958d",
+      "actual": "30ce05de9892a50aa56331f35d9717c411de01b4f346c785c7c0e6c201a0958d",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.m2",
+      "expected": "816474164f38f88c0d3ec71b6599dcbc9867927fee99aba1e9ff89968da2867c",
+      "actual": "816474164f38f88c0d3ec71b6599dcbc9867927fee99aba1e9ff89968da2867c",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.stderr.txt",
+      "expected": "6edb94efa95cd2d276884012649c1849644e5cc3f3c8776e648a9048ca42b84c",
+      "actual": "6edb94efa95cd2d276884012649c1849644e5cc3f3c8776e648a9048ca42b84c",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.stdout.txt",
+      "expected": "6b617403565197474252646560b5cabab997e926bfa23ea98c9c308d3de539ff",
+      "actual": "6b617403565197474252646560b5cabab997e926bfa23ea98c9c308d3de539ff",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.m2",
+      "expected": "a8b0b88a4e02e5ac075ebbe7f4eaf84a4de69b5172001a721229d1ee4e98fcc5",
+      "actual": "a8b0b88a4e02e5ac075ebbe7f4eaf84a4de69b5172001a721229d1ee4e98fcc5",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.stderr.txt",
+      "expected": "38ab78d38940480be09914216ea6d7e273d1af77687486b167d48bca70f4b5fa",
+      "actual": "38ab78d38940480be09914216ea6d7e273d1af77687486b167d48bca70f4b5fa",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.stdout.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.m2",
+      "expected": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb",
+      "actual": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.stdout.txt",
+      "expected": "bb0e703c7e6457f365ee091358cab6db2b47b7a44ffb76269d03fafd31f20396",
+      "actual": "bb0e703c7e6457f365ee091358cab6db2b47b7a44ffb76269d03fafd31f20396",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.m2",
+      "expected": "7dae2eb310f509d444a5a4b3437ddc7184dd0d898730969d5c2389c1d7c3e06c",
+      "actual": "7dae2eb310f509d444a5a4b3437ddc7184dd0d898730969d5c2389c1d7c3e06c",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.stdout.txt",
+      "expected": "86786bf71a1eb5d6ffd5513dd2cdcfc7657e7f18e1872373df4ccec7728d9c48",
+      "actual": "86786bf71a1eb5d6ffd5513dd2cdcfc7657e7f18e1872373df4ccec7728d9c48",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.m2",
+      "expected": "8e2a88b9a89d09a679df68b7f3a6269b0649da2b39e2d03fe76e695bbce9a1fd",
+      "actual": "8e2a88b9a89d09a679df68b7f3a6269b0649da2b39e2d03fe76e695bbce9a1fd",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.stdout.txt",
+      "expected": "4953bf89a512b45bc962b8c5717ba37fec7294da4b85ecba1cfabf1d5834197b",
+      "actual": "4953bf89a512b45bc962b8c5717ba37fec7294da4b85ecba1cfabf1d5834197b",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.m2",
+      "expected": "75c1b238f819703d5d6b34d42d50e92665eee1854c630c630d68e832c09a5fbc",
+      "actual": "75c1b238f819703d5d6b34d42d50e92665eee1854c630c630d68e832c09a5fbc",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.stdout.txt",
+      "expected": "cd62a6baefbafe7409247fe86e163a5a1d12a4da02e15ef5dc1b20f7117e11ef",
+      "actual": "cd62a6baefbafe7409247fe86e163a5a1d12a4da02e15ef5dc1b20f7117e11ef",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.m2",
+      "expected": "093b9bc5a85428a27d6e28b45965fb65ae83dd9451dbdc9542149439696923ff",
+      "actual": "093b9bc5a85428a27d6e28b45965fb65ae83dd9451dbdc9542149439696923ff",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.stdout.txt",
+      "expected": "e892e528bb25f56c482008c9c45807387affd378083aff18b6ea0a1ced37f6e9",
+      "actual": "e892e528bb25f56c482008c9c45807387affd378083aff18b6ea0a1ced37f6e9",
+      "reason": "companion manifest"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.m2",
+      "expected": "a8b0b88a4e02e5ac075ebbe7f4eaf84a4de69b5172001a721229d1ee4e98fcc5",
+      "actual": "a8b0b88a4e02e5ac075ebbe7f4eaf84a4de69b5172001a721229d1ee4e98fcc5",
+      "reason": "sparse execution failed-protected-variable source"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.stdout.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "sparse execution failed-protected-variable stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.stderr.txt",
+      "expected": "38ab78d38940480be09914216ea6d7e273d1af77687486b167d48bca70f4b5fa",
+      "actual": "38ab78d38940480be09914216ea6d7e273d1af77687486b167d48bca70f4b5fa",
+      "reason": "sparse execution failed-protected-variable stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.m2",
+      "expected": "816474164f38f88c0d3ec71b6599dcbc9867927fee99aba1e9ff89968da2867c",
+      "actual": "816474164f38f88c0d3ec71b6599dcbc9867927fee99aba1e9ff89968da2867c",
+      "reason": "sparse execution failed-coefficient-ring source"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.stdout.txt",
+      "expected": "6b617403565197474252646560b5cabab997e926bfa23ea98c9c308d3de539ff",
+      "actual": "6b617403565197474252646560b5cabab997e926bfa23ea98c9c308d3de539ff",
+      "reason": "sparse execution failed-coefficient-ring stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.stderr.txt",
+      "expected": "6edb94efa95cd2d276884012649c1849644e5cc3f3c8776e648a9048ca42b84c",
+      "actual": "6edb94efa95cd2d276884012649c1849644e5cc3f3c8776e648a9048ca42b84c",
+      "reason": "sparse execution failed-coefficient-ring stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.m2",
+      "expected": "7dae2eb310f509d444a5a4b3437ddc7184dd0d898730969d5c2389c1d7c3e06c",
+      "actual": "7dae2eb310f509d444a5a4b3437ddc7184dd0d898730969d5c2389c1d7c3e06c",
+      "reason": "sparse execution scratch-finite-root-profiles source"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.stdout.txt",
+      "expected": "86786bf71a1eb5d6ffd5513dd2cdcfc7657e7f18e1872373df4ccec7728d9c48",
+      "actual": "86786bf71a1eb5d6ffd5513dd2cdcfc7657e7f18e1872373df4ccec7728d9c48",
+      "reason": "sparse execution scratch-finite-root-profiles stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "sparse execution scratch-finite-root-profiles stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.m2",
+      "expected": "8e2a88b9a89d09a679df68b7f3a6269b0649da2b39e2d03fe76e695bbce9a1fd",
+      "actual": "8e2a88b9a89d09a679df68b7f3a6269b0649da2b39e2d03fe76e695bbce9a1fd",
+      "reason": "sparse execution scratch-homogeneous-endpoint-profiles source"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.stdout.txt",
+      "expected": "4953bf89a512b45bc962b8c5717ba37fec7294da4b85ecba1cfabf1d5834197b",
+      "actual": "4953bf89a512b45bc962b8c5717ba37fec7294da4b85ecba1cfabf1d5834197b",
+      "reason": "sparse execution scratch-homogeneous-endpoint-profiles stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "sparse execution scratch-homogeneous-endpoint-profiles stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.m2",
+      "expected": "093b9bc5a85428a27d6e28b45965fb65ae83dd9451dbdc9542149439696923ff",
+      "actual": "093b9bc5a85428a27d6e28b45965fb65ae83dd9451dbdc9542149439696923ff",
+      "reason": "sparse execution scratch-irreducibility-filter source"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.stdout.txt",
+      "expected": "e892e528bb25f56c482008c9c45807387affd378083aff18b6ea0a1ced37f6e9",
+      "actual": "e892e528bb25f56c482008c9c45807387affd378083aff18b6ea0a1ced37f6e9",
+      "reason": "sparse execution scratch-irreducibility-filter stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "sparse execution scratch-irreducibility-filter stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.m2",
+      "expected": "75c1b238f819703d5d6b34d42d50e92665eee1854c630c630d68e832c09a5fbc",
+      "actual": "75c1b238f819703d5d6b34d42d50e92665eee1854c630c630d68e832c09a5fbc",
+      "reason": "sparse execution scratch-invariant-pair-ideals source"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.stdout.txt",
+      "expected": "cd62a6baefbafe7409247fe86e163a5a1d12a4da02e15ef5dc1b20f7117e11ef",
+      "actual": "cd62a6baefbafe7409247fe86e163a5a1d12a4da02e15ef5dc1b20f7117e11ef",
+      "reason": "sparse execution scratch-invariant-pair-ideals stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "sparse execution scratch-invariant-pair-ideals stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.m2",
+      "expected": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb",
+      "actual": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb",
+      "reason": "sparse execution final-source source"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.stdout.txt",
+      "expected": "bb0e703c7e6457f365ee091358cab6db2b47b7a44ffb76269d03fafd31f20396",
+      "actual": "bb0e703c7e6457f365ee091358cab6db2b47b7a44ffb76269d03fafd31f20396",
+      "reason": "sparse execution final-source stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "sparse execution final-source stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213217027300Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "expected": "d80404d73f1b7e1b3c9613ba64dff0724be261ce6261596cb8e53e04545c48c3",
+      "actual": "d80404d73f1b7e1b3c9613ba64dff0724be261ce6261596cb8e53e04545c48c3",
+      "reason": "contact execution source"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213217027300Z/stdout.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "contact execution stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213217027300Z/stderr.txt",
+      "expected": "3e1874dc251841e36736c1e3846c326bc6f1d4fcd97c45ef9806ef7e8fadaefb",
+      "actual": "3e1874dc251841e36736c1e3846c326bc6f1d4fcd97c45ef9806ef7e8fadaefb",
+      "reason": "contact execution stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213255094212Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "expected": "ebbabb2ee315feabdc80de921b3c48aa3abf934c758e08c8adfa1ec9f74548c9",
+      "actual": "ebbabb2ee315feabdc80de921b3c48aa3abf934c758e08c8adfa1ec9f74548c9",
+      "reason": "contact execution source"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213255094212Z/stdout.txt",
+      "expected": "cd4d70d026bd23b80f287c7dbd072de272b1c515891ada3227f30cfee495767d",
+      "actual": "cd4d70d026bd23b80f287c7dbd072de272b1c515891ada3227f30cfee495767d",
+      "reason": "contact execution stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213255094212Z/stderr.txt",
+      "expected": "db4e7c3802514252aba852e1aa37a4326ce853554f0323adb8a94248e8d08104",
+      "actual": "db4e7c3802514252aba852e1aa37a4326ce853554f0323adb8a94248e8d08104",
+      "reason": "contact execution stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213311715636Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "expected": "d5a65b9051d1ba2ebb39e1329cfa0e3050ba96f213042288a8fcc860a8cad891",
+      "actual": "d5a65b9051d1ba2ebb39e1329cfa0e3050ba96f213042288a8fcc860a8cad891",
+      "reason": "contact execution source"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213311715636Z/stdout.txt",
+      "expected": "2f59e128f42431fd12575adbde024e0620ce8458c22133137e37b1c10085dbd9",
+      "actual": "2f59e128f42431fd12575adbde024e0620ce8458c22133137e37b1c10085dbd9",
+      "reason": "contact execution stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213311715636Z/stderr.txt",
+      "expected": "01ab3340dcbf965276e32b4055fa9fa1bc33c885745fcfb25851beddd853bda7",
+      "actual": "01ab3340dcbf965276e32b4055fa9fa1bc33c885745fcfb25851beddd853bda7",
+      "reason": "contact execution stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213321280566Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "expected": "47bec87387a3f55e15a24c5d4fc65f7506c2b67953878d1d56126b8cbe46623d",
+      "actual": "47bec87387a3f55e15a24c5d4fc65f7506c2b67953878d1d56126b8cbe46623d",
+      "reason": "contact execution source"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213321280566Z/stdout.txt",
+      "expected": "bcadfd71e61f8b26833ecc98bbd8ce00aaee3f2f3ef40e056f3bd3fc5f5ba719",
+      "actual": "bcadfd71e61f8b26833ecc98bbd8ce00aaee3f2f3ef40e056f3bd3fc5f5ba719",
+      "reason": "contact execution stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213321280566Z/stderr.txt",
+      "expected": "588ca8cafc04cbbef6a1485eed15df766f470c5715f58830138f1b3bb769f19f",
+      "actual": "588ca8cafc04cbbef6a1485eed15df766f470c5715f58830138f1b3bb769f19f",
+      "reason": "contact execution stderr"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213343388888Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+      "expected": "c26395b318525b6b531ebc96f91bc9866fbbb186ae9982f79443c2fb7508bd58",
+      "actual": "c26395b318525b6b531ebc96f91bc9866fbbb186ae9982f79443c2fb7508bd58",
+      "reason": "contact execution source"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213343388888Z/stdout.txt",
+      "expected": "8b51e048a03a937068ead016b3bd3d572a4d5b00c0953d8a954bfa2ded938d55",
+      "actual": "8b51e048a03a937068ead016b3bd3d572a4d5b00c0953d8a954bfa2ded938d55",
+      "reason": "contact execution stdout"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213343388888Z/stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "contact execution stderr"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Sustained research update — 2026-10-06 through 2026-10-12
+# Sustained research update — 2026-10-06 through 2026-10-13
 
 This record integrates the interrupted session and its continuation.
 The authoritative short frontier is
@@ -9,7 +9,27 @@ characteristic, direction and defect hypotheses. Agreement of programs
 is evidence for their finite arithmetic scope; the geometric arguments
 are supplied separately.
 
-## October 12 post-seal quintic frontier
+## October 12 evening nonendpoint frontier
+
+The [new acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+excludes all admissible nonendpoint projections with coprime homogeneous
+conormal cubics in every mate degree. The surviving necessary locus is
+`Res_h(Ph,Jh)=0`, including finite/infinity and repeated common roots.
+The independent Jbar-zero proof uses actual fiber length two, complete
+prime classification, geometric exclusion of split phases, full unit-jet
+membership and purity; total degrees do not supply its rank bound.
+Pole/line, residual/genus and target-fiber audits are complete and accepted.
+The whole G=Jbar=0 subfamily and the whole conic-plus-quartic partition
+2+4 are now excluded in every mate degree after independent review.
+The actual conductor quadric, all upstairs multiplicities and binary
+octic are verified, including every admissible center-rank alternative.
+The frozen 3+3 all-mate proof has a fresh audit in progress, with its
+support-failure claim qualified to Jbar!=0. The integral residual remains
+open. Other quintic genera, higher carriers and unrestricted STCI
+remain open. The evening began from externally observed clean HEAD
+`59a7bf73bdd196fa6b03ce9e265c5a1a9edbae58`; root did not create it.
+
+## October 12 morning post-seal quintic frontier (historical)
 
 The [new root acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
 excludes every admissible endpoint projection in the genus-one quintic

@@ -1,5 +1,18 @@
 > **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
 
+The [October 12 evening acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+now excludes every coprime homogeneous conormal pair in the admissible
+nonendpoint genus-one quintic lane in every characteristic-zero mate degree.
+The remaining necessary locus is `Res_h(Ph,Jh)=0`; all higher contact and
+full conductor obligations there remain open. Pole/line, residual/genus
+and target-fiber audits are complete. The whole G=Jbar=0 subfamily and
+the whole residual partition 2+4 are now excluded in every mate degree,
+with independent proofs. The actual conductor quadric and binary octic
+are independently verified. The frozen 3+3 proof awaits fresh audit,
+with its SUP claim restricted to Jbar!=0; the integral residual remains
+open. This supersedes the corresponding
+morning pending labels below. Higher carriers and unrestricted STCI remain open.
+
 The [October 12 quintic continuation acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
 closes the entire intrinsic endpoint projection family in the genus-one
 quintic A4 lane, in every characteristic-zero mate degree. The separately

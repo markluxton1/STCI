@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "start_utc": "2026-10-13T14:24:00.751178+00:00",
+  "end_utc": "2026-10-13T14:24:01.424801+00:00",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-13-cubic-pair-full-independent-audit/attempt-01/source.m2"
+  ],
+  "source_path": "research/validation/2026-10-13-cubic-pair-full-independent-audit/verify_binary_contact.m2",
+  "source_sha256": "11fa7ca6e9c22936226d82da22daf70ea55da7f381e7f4ea12a9a1e41360adbf",
+  "source_snapshot": "source.m2",
+  "stdout_path": "stdout.txt",
+  "stdout_sha256": "0f03e86091a50cbcd6e1fd260b65590a7f4f94c326b9a46834e1506c6d7828ca",
+  "stderr_path": "stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Fresh combinatorial homogeneous binary heptic classification, all endpoints and repeated-root support retained, abstract exact ambient factor removal, actual source-cubic infinity contact"
+}

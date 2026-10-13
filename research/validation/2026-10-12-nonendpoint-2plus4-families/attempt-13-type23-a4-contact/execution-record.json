@@ -1,0 +1,15 @@
+{
+  "start_utc": "2026-10-12T21:23:31.419822+00:00",
+  "end_utc": "2026-10-12T21:23:32.152326+00:00",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-2plus4-families/attempt-13-type23-a4-contact/source.m2"
+  ],
+  "exit_code": 0,
+  "source_sha256": "366c242c57f43cd94792c81fd0ad13c00b8b2d7f17e3635ea775c8fd3196d092",
+  "stdout_sha256": "24055859821a2711237e303849b70f3eb9e08fb96f6e4d4d0b00dbf1eceacf8f",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Full A4 target cubic jets for Type2 and Type3, retaining leading-degree drop and potential middle coefficient degeneration"
+}

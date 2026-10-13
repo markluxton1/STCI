@@ -1,0 +1,30 @@
+PROFILE 1,5
+        4     5          3      4
+- 5aa*bb  - bb  - 10aa*bb  - 5bb
+             2
+5aa*bb + 10bb  + aa + 5bb
+    4     2
+(aa) (25aa  - 71aa + 25)(-81)
+GroebnerBasis[status: done; S-pairs encountered up to degree 7]
+PROFILE 2,4
+     2  3         4      2  2         3     4
+- 4aa bb  - 2aa*bb  - 6aa bb  - 8aa*bb  - bb
+  2               2
+aa  + 8aa*bb + 6bb  + 2aa + 4bb
+    4        2    4       3       2
+(aa) (aa + 2) (4aa  - 28aa  - 15aa  - 28aa + 4)(9)
+GroebnerBasis[status: done; S-pairs encountered up to degree 6]
+PROFILE 3,3
+     3  2      2  3      3        2  2         3
+- 3aa bb  - 3aa bb  - 3aa bb - 9aa bb  - 3aa*bb
+   2               2
+3aa  + 9aa*bb + 3bb  + 3aa + 3bb
+    5           4     3      2
+(aa) (aa + 1)(aa  + aa  + 3aa  + aa + 1)(-243)
+GroebnerBasis[status: done; S-pairs encountered up to degree 6]
+DOUBLE SIX
+     5       4
+- 6aa  - 15aa
+    2
+15aa  + 6aa
+GroebnerBasis[status: done; S-pairs encountered up to degree 5]

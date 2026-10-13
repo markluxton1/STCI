@@ -1,0 +1,39 @@
+{
+  "status": "FAIL",
+  "started_utc": "2026-10-12T21:31:52.010950+00:00",
+  "finished_utc": "2026-10-12T21:31:52.131062+00:00",
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/attempts/20261012T213152010950Z/verify_fraction_certificates.py",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/attempts/20261012T213152010950Z/owner-certificate-input.txt"
+  ],
+  "exit_code": 1,
+  "source": "research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/attempts/20261012T213152010950Z/verify_fraction_certificates.py",
+  "source_sha256": "59949edd807a267abb25b00b12845579255c8a0a496fba44aa9f16002cbadb03",
+  "certificate_input": "research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/attempts/20261012T213152010950Z/owner-certificate-input.txt",
+  "certificate_input_sha256": "46e1c3daa4c1b927a91bb65c747775de243533d4c6dc98b9562324fbb99aa304",
+  "stdout": "research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/attempts/20261012T213152010950Z/stdout.txt",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr": "research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/attempts/20261012T213152010950Z/stderr.txt",
+  "stderr_sha256": "74d33f85dc637ff070a10ff093d68ab3e6de173757a7c2409702434fbae03a73",
+  "owner_bindings": [
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-GJ-zero-full-support-exclusion.md",
+      "sha256": "9a3532827eaf3c45efcbf9759681d7070045923465710b19d06efc4799a06d33"
+    },
+    {
+      "path": "research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2",
+      "sha256": "44d3b193783dc76562febe23af452a5b863b65b5f992dc6b1f83fad4a0c8fc33"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/execution-record.json",
+      "sha256": "8e317259cf5e7fa71f16cfcd71f5e630354b4c52471c1329698bfb62582d1bb2"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/twenty-one-polynomial-bezout-certificates.txt",
+      "sha256": "46e1c3daa4c1b927a91bb65c747775de243533d4c6dc98b9562324fbb99aa304"
+    }
+  ],
+  "result_summary": {},
+  "scope": "Independent direct Fraction verification of exported polynomial certificate products and actual fiber identities, with no Groebner or saturation computation."
+}

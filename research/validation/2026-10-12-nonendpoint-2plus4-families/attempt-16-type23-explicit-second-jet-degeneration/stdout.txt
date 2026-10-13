@@ -1,0 +1,11 @@
+TYPE2 complete-incidence jet2 is unit
+false
+TYPE2 complete-incidence joint jet2/jet3 ideal
+| 1 |
+TYPE2 exact second-jet degeneration: delta+3eta=0; intrinsic first jet is a unit there
+PASS: Type2 actual target contact is between two and three on complete incidence
+TYPE3 complete-incidence jet2 is unit
+true
+TYPE3 complete-incidence joint jet2/jet3 ideal
+| 1 |
+PASS: Type3 actual target contact is between two and three on complete incidence

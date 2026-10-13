@@ -1,0 +1,15 @@
+{
+  "source_sha256": "52a9c7d479505b7d92e5aeb52e939cf2d6c88049b138eee96ec1651159bd1133",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_nonendpoint_single_root_quotient_2026_10_13.m2"
+  ],
+  "started_utc": "2026-10-13T14:28:05.544285+00:00",
+  "finished_utc": "2026-10-13T14:28:06.655417+00:00",
+  "exit_code": 0,
+  "stdout_sha256": "3b1174f808e02d235b6a14b7e0b2f82e9a4f6b1f257e33adab97d8177c485a68",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "observed_supporting_pass_count": 11,
+  "scope": "Small diagonal quotient/resultant identities; no parameter exhaustion"
+}

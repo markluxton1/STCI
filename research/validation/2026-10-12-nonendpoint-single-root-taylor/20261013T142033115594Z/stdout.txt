@@ -1,0 +1,10 @@
+PASS complete finite common-root substitution
+PASS automatic common-root factor
+PASS all Taylor coefficients reconstruct polynomial
+PASS fiber denominator on common-root incidence
+PASS retained rank-one coefficients
+PASS compact first Taylor factor
+PASS first factor exceptional target one
+PASS first factor retains collision targets
+L2 in a,kappa=aq+B: monomials=24 a-degree=0
+PASS all eight single-root coefficient checks

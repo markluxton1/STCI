@@ -1,0 +1,12 @@
+PASS first derivative exact factor
+PASS diagonal exact quotient pair
+PASS quotient leading coefficients
+PASS quotient fixed degree resultant factor
+PASS normalized offdiagonal quotient norm
+PASS fiber denominator and quadratic leading coefficient
+PASS both diagonal quotient values
+PASS second Taylor factor is actual diagonal wedge
+PASS diagonal-exception substitution and retained denominators
+PASS first factor on diagonal exception
+PASS second quotient value retains primitive-root degree drop
+PASS all eleven exact small quotient identities

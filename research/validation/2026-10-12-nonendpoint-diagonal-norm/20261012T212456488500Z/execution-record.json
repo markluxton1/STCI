@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-12T21:24:56.489356+00:00",
+  "completed_utc": "2026-10-12T21:25:08.790030+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_nonendpoint_diagonal_norm_2026_10_12.m2"
+  ],
+  "exit_code": 1,
+  "status": "FAIL",
+  "source_sha256": "85c3a9f161d99cca06d867b922ffaed4ed1bc01b7def5c02f103608c52679bff",
+  "stdout_sha256": "9c18f828f7d701d76f3a6cdbda2628c0c73cdba3149db9caf338fb43f663a9f8",
+  "stderr_sha256": "6a431ed88a06ef33cdcf5f297cdaba161e1a3b25992b6c89d7d916203ac854e2",
+  "observed_pass_marker_count": 14,
+  "notes": "Literal identities only; determinant conductor status requires a separate geometric proof."
+}

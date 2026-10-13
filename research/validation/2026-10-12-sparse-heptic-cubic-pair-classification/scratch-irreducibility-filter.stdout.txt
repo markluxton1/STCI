@@ -1,0 +1,23 @@
+PROFILE 1,5
+RES (spV)^7*(spV-1)^7*(4644*spU^4*spV^6-13932*spU^4*spV^5+16992*spU^4*spV^4-10764*spU^4*spV^3+3735*spU^4*spV^2-675*spU^4*spV+50*spU^4-9288*spU^3*spV^6+24804*spU^3*spV^5-26334*spU^3*spV^4+14058*spU^3*spV^3-3915*spU^3*spV^2+525*spU^3*spV-25*spU^3+6480*spU^2*spV^6-14850*spU^2*spV^5+13035*spU^2*spV^4-5415*spU^2*spV^3+1050*spU^2*spV^2-75*spU^2*spV-1836*spU*spV^6+3408*spU*spV^5-2268*spU*spV^4+631*spU*spV^3-60*spU*spV^2+171*spV^6-228*spV^5+93*spV^4-11*spV^3)*(-9)
+GOOD matrix {{21*spV^2-21*spV+5, spU-11*spV+5}}
+GOOD DIM 0 DEG 2
+BAD matrix {{1}}
+GOOD RAD matrix {{21*spV^2-21*spV+5, spU-11*spV+5}}
+PROFILE 2,4
+RES (spV)^4*(spV-1)^4*(spU)*(spU-1)*(13932*spU^6*spV^8-55728*spU^6*spV^7+94608*spU^6*spV^6-88776*spU^6*spV^5+50112*spU^6*spV^4-17280*spU^6*spV^3+3504*spU^6*spV^2-372*spU^6*spV+15*spU^6-41796*spU^5*spV^8+152496*spU^5*spV^7-232416*spU^5*spV^6+191880*spU^5*spV^5-92736*spU^5*spV^4+26304*spU^5*spV^3-4104*spU^5*spV^2+292*spU^5*spV-5*spU^5+50976*spU^4*spV^8-167184*spU^4*spV^7+224244*spU^4*spV^6-158508*spU^4*spV^5+63108*spU^4*spV^4-13884*spU^4*spV^3+1504*spU^4*spV^2-56*spU^4*spV-32292*spU^3*spV^8+93312*spU^3*spV^7-106992*spU^3*spV^6+62028*spU^3*spV^5-19026*spU^3*spV^4+2884*spU^3*spV^3-164*spU^3*spV^2+11205*spU^2*spV^8-27756*spU^2*spV^7+26040*spU^2*spV^6-11520*spU^2*spV^5+2390*spU^2*spV^4-184*spU^2*spV^3-2025*spU*spV^8+4140*spU*spV^7-2964*spU*spV^6+872*spU*spV^5-88*spU*spV^4+150*spV^8-240*spV^7+116*spV^6-16*spV^5)*(-3)
+GOOD matrix {{63*spV^4-126*spV^3+111*spV^2-48*spV+8, spU-42*spV^3+63*spV^2-42*spV+10}}
+GOOD DIM 0 DEG 4
+BAD matrix {{spV^4-2*spV^3+spV^2, 3*spU+2*spV^3-3*spV^2+2*spV-2}}
+GOOD RAD matrix {{63*spV^4-126*spV^3+111*spV^2-48*spV+8, spU-42*spV^3+63*spV^2-42*spV+10}}
+PROFILE 3,3
+RES (spV)^2*(spV-1)^2*(spU)^2*(spU-1)^2*(4644*spU^8*spV^8-18576*spU^8*spV^7+31536*spU^8*spV^6-29592*spU^8*spV^5+16704*spU^8*spV^4-5760*spU^8*spV^3+1168*spU^8*spV^2-124*spU^8*spV+5*spU^8-18576*spU^7*spV^8+68796*spU^7*spV^7-106866*spU^7*spV^6+90450*spU^7*spV^5-45216*spU^7*spV^4+13464*spU^7*spV^3-2269*spU^7*spV^2+187*spU^7*spV-5*spU^7+31536*spU^6*spV^8-106866*spU^6*spV^7+149499*spU^6*spV^6-111699*spU^6*spV^5+47988*spU^6*spV^4-11808*spU^6*spV^3+1541*spU^6*spV^2-86*spU^6*spV+spU^6-29592*spU^5*spV^8+90450*spU^5*spV^7-111699*spU^5*spV^6+71617*spU^5*spV^5-25363*spU^5*spV^4+4826*spU^5*spV^3-432*spU^5*spV^2+12*spU^5*spV+16704*spU^4*spV^8-45216*spU^4*spV^7+47988*spU^4*spV^6-25363*spU^4*spV^5+6943*spU^4*spV^4-908*spU^4*spV^3+42*spU^4*spV^2-5760*spU^3*spV^8+13464*spU^3*spV^7-11808*spU^3*spV^6+4826*spU^3*spV^5-908*spU^3*spV^4+61*spU^3*spV^3+1168*spU^2*spV^8-2269*spU^2*spV^7+1541*spU^2*spV^6-432*spU^2*spV^5+42*spU^2*spV^4-124*spU*spV^8+187*spU*spV^7-86*spU*spV^6+12*spU*spV^5+5*spV^8-5*spV^7+spV^6)*(-9)
+GOOD matrix {{7*spV^4-14*spV^3+12*spV^2-5*spV+1, spU+spV-1}}
+GOOD DIM 0 DEG 4
+BAD matrix {{2*spV^3-3*spV^2+spV, 2*spU^2+2*spU*spV-3*spU+2*spV^2-3*spV+1}}
+GOOD RAD matrix {{7*spV^4-14*spV^3+12*spV^2-5*spV+1, spU+spV-1}}
+PROFILE 6,0
+RES (spU)^10*(spU-1)^10*(516*spU^4-1032*spU^3+720*spU^2-204*spU+19)*(-81)
+GOOD matrix {{1}}
+GOOD DIM -1 DEG 0
+BAD matrix {{spU^2-spU}}
