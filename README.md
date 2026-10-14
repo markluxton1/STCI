@@ -7,8 +7,18 @@ intersection of two homogeneous surfaces.
 The universal problem and the unrestricted characteristic-zero rational
 quartic test case remain unresolved in this repository.
 
+Start with the [October 14 accepted frontier](research/AUDITED_STATE_2026-10-14.md)
+and [continuation handoff](research/SUCCESSOR_HANDOFF_2026-10-14.md).
+The new structural results replace separate mate-degree searches with an
+exact normalization/conductor descent lattice, classify the entire smooth
+rational singleton-normalization lane across carrier degrees, and exclude
+the zero-defect C0 conormal boundary uniformly. Each theorem retains its
+precise hypotheses and independent review. Positive defects, singular or
+multiple lifts, actual projection/conductor problems and the universal
+question remain open.
+
 The [October 12–13 acceptance](research/notes/2026-10-12-session-nonendpoint-results-acceptance.md)
-is the newest mathematical frontier. Every admissible nonendpoint
+preserves the inherited quintic frontier. Every admissible nonendpoint
 genus-one quintic projection with coprime corrected homogeneous conormal
 cubics is excluded in every mate degree. The remaining necessary locus
 is `Res_h(Ph,Jh)=0`, with all common-root, higher-contact and full-conductor
@@ -17,14 +27,15 @@ complete. The entire `G=Jbar=0` subfamily and the entire conic-plus-quartic
 residual partition `2+4` are now excluded in every mate degree, with
 independent audits. The actual conductor quadric, including all upstairs
 multiplicities, and its nonzero binary octic are independently verified.
-The entire `3+3` all-mate proof is frozen and undergoing fresh audit;
-its stronger support wording needs the recorded Jbar-nonzero qualification.
+The entire `3+3` all-mate proof now has a completed independent audit;
+its stronger support wording retains the Jbar-nonzero qualification.
 The integral residual remains open. This supersedes the precise pending labels
 below; other quintic normalizations and higher carriers remain open.
 The evening continuation began from externally observed clean HEAD `59a7bf7`;
 new evening results are retained in the working tree.
 
-Start with the [current audited state](research/AUDITED_STATE_2026-10-07.md).
+The [previous audited state](research/AUDITED_STATE_2026-10-07.md) retains
+the detailed inherited proof history.
 The [research update through October 12](research/RESEARCH_UPDATE_2026-10-07.md)
 and [dated continuation handoff](research/SUCCESSOR_HANDOFF_2026-10-07.md)
 index the all-degree normal-quartic and complete smooth-normalization

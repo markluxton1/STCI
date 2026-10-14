@@ -1,0 +1,166 @@
+{
+  "created_utc": "2026-10-14T11:16:43.079724+00:00",
+  "scope": "Archival bindings only; no accepted mathematical check replayed. Exit codes unavailable for old unsupervised raw captures are not invented.",
+  "lineages": [
+    {
+      "stem": "open-attempt-02",
+      "source": "research/computations/generalization_quintic_h3_support_open.m2",
+      "snapshot": "research/validation/2026-10-13-generalization-quintic-h3/open-attempt-02-source.m2",
+      "source_sha256": "fc3cb8891e66a2835e6cc791dc9d887d2f3bf2a255ca1ad00f44d90621a7f8ee",
+      "status": "interrupted during coefficient ideal processing",
+      "files": [
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/open-attempt-02.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/open-attempt-02.stderr.txt",
+          "sha256": "5c64e2bc3cce64f3d6aabcf20288350b05c6f3c0b57986ae5e82c592b438cff7",
+          "bytes": 22
+        }
+      ]
+    },
+    {
+      "stem": "root-cover-attempt-02",
+      "source": "research/computations/generalization_quintic_h3_root_support_cover.m2",
+      "snapshot": "research/validation/2026-10-13-generalization-quintic-h3/root-cover-attempt-02-source.m2",
+      "source_sha256": "e5c74e600b0fd4b1c5c15506cbda26398cd0817093a89512bab6d2db3bb5dc8f",
+      "status": "H divisibility completed; full Hermite approach interrupted",
+      "files": [
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/root-cover-attempt-02.stdout.txt",
+          "sha256": "dcab12ab927465a7b49f1697b31a421fc42c66b5a464f7bf58050b4d491b3be9",
+          "bytes": 4096
+        },
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/root-cover-attempt-02.stderr.txt",
+          "sha256": "5c64e2bc3cce64f3d6aabcf20288350b05c6f3c0b57986ae5e82c592b438cff7",
+          "bytes": 22
+        }
+      ]
+    },
+    {
+      "stem": "divisibility-cert-attempt-02",
+      "source": "research/computations/generalization_quintic_h3_divisibility_certificate.m2",
+      "snapshot": "research/validation/2026-10-13-generalization-quintic-h3/divisibility-cert-attempt-02-source.m2",
+      "source_sha256": "63d5e93f63d588aedf20c001f1528f03525d3416dc974eadb9e62d48f0044ded",
+      "status": "literal U squared witness completed",
+      "files": [
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/divisibility-cert-attempt-02.stdout.txt",
+          "sha256": "857fc1efe988c9717c9524962b87f7af944e2bf2ac925691c1bf95d5012a3d05",
+          "bytes": 80
+        },
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/divisibility-cert-attempt-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "stem": "infinity-attempt-02",
+      "source": "research/computations/generalization_quintic_h3_infinity_support.m2",
+      "snapshot": "research/validation/2026-10-13-generalization-quintic-h3/infinity-attempt-02-source.m2",
+      "source_sha256": "5a2c0642c567888cd04006037746edc987486b590d5dbeda36ab60d469e6059f",
+      "status": "complete passing infinity control",
+      "files": [
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/infinity-attempt-02.stdout.txt",
+          "sha256": "9c8cc6fb608504a352e49b76c6c5bc6fdd9b770c0006b816fc54377563b6ba15",
+          "bytes": 328
+        },
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/infinity-attempt-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "stem": "multiplicity-attempt-01",
+      "source": "research/computations/generalization_quintic_h3_high_multiplicity.m2",
+      "snapshot": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity-attempt-01-source.m2",
+      "source_sha256": "bc838f00349af2d121511f35c60565e39e237fb5626b1c8e88e232803e0141f6",
+      "status": "multiplicity4 unit ideal completed; multiplicity32 continuation not used",
+      "files": [
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity-attempt-01.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity-attempt-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "stem": "multiplicity4-cert-attempt-01",
+      "source": "research/computations/generalization_quintic_h3_multiplicity_witness.m2",
+      "snapshot": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-cert-attempt-01-source.m2",
+      "source_sha256": "afc93e3860d6a115fe24cfc1b5112ff46f4fe83c79348c550469717abc49768a",
+      "status": "literal multiplicity4 Vc5 squared witness completed",
+      "files": [
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-cert-attempt-01.stdout.txt",
+          "sha256": "356dc11909fe34e2699b43b3ec011b0576e80b66b368bafcb5becdf11f08ccc8",
+          "bytes": 87
+        },
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-cert-attempt-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "stem": "support32-attempt-01",
+      "source": "research/computations/generalization_quintic_h3_support_32.m2",
+      "snapshot": "research/validation/2026-10-13-generalization-quintic-h3/support32-attempt-01-source.m2",
+      "source_sha256": "7f7d57f28f9fca7fc058348da96fa7494915c2bb1e7ad340baa235caf721798f",
+      "status": "six-generator saturated support ideal unit; witness pending",
+      "files": [
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/support32-attempt-01.stdout.txt",
+          "sha256": "82222e3832932a30fb3b732668c2587166e8535f0933d7d97b86eb7d17d89054",
+          "bytes": 155
+        },
+        {
+          "path": "research/validation/2026-10-13-generalization-quintic-h3/support32-attempt-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "research/validation/2026-10-13-evening-h3-proportional/main-H-coefficients.txt",
+      "sha256": "06e194f7ebb6cb94a661ba5959b93547707131346a4439d50a7d9ebf15b6afc0",
+      "bytes": 204
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-h3-proportional/main-S-coefficients.txt",
+      "sha256": "c49acae3ad08e1036a19f74709c60a48c43dee75858efb9f340004aebde73e08",
+      "bytes": 3263
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-remainder.txt",
+      "sha256": "93b64f08ad8f01dc286e6f34eafdf10bdadfea3289e137d974a6d9d4ed35ee2a",
+      "bytes": 2661
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-input.txt",
+      "sha256": "e07cd7c3ed770cd95d4e40d990de6709c52f206652d726d59519055c7f371ba2",
+      "bytes": 8052
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-h3/support32-input.txt",
+      "sha256": "b3b590e50d561b8a4112cb6175eccec34b95961449f54d73cc906fea60c28682",
+      "bytes": 30323
+    }
+  ]
+}

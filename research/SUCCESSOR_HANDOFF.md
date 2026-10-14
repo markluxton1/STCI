@@ -1,6 +1,6 @@
-> **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
+> **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-14.md](AUDITED_STATE_2026-10-14.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
 
-Use [SUCCESSOR_HANDOFF_2026-10-07.md](SUCCESSOR_HANDOFF_2026-10-07.md)
+Use [SUCCESSOR_HANDOFF_2026-10-14.md](SUCCESSOR_HANDOFF_2026-10-14.md)
 for the current continuation instructions and open proof obligations.
 
 # STCI Successor-Session Handoff

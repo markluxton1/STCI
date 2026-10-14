@@ -1,3 +1,6 @@
+> **CURRENT HANDOFF:** [SUCCESSOR_HANDOFF_2026-10-14.md](SUCCESSOR_HANDOFF_2026-10-14.md).
+> Older pending and worker-stop labels in this record are historical.
+
 # Continuation handoff — 2026-10-07, reconciled through 2026-10-13
 
 Read [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md) first, then

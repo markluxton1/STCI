@@ -1,4 +1,15 @@
-> **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
+> **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-14.md](AUDITED_STATE_2026-10-14.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
+
+The October 13–14 generalization batch is indexed in that state and the
+[dated handoff](SUCCESSOR_HANDOFF_2026-10-14.md). Accepted new results include
+the exact all-branch fixed-carrier conductor/descent criterion, the
+all-degree smooth rational singleton-normalization classification, the
+full conormal/socle budget, its strict C0 equality obstruction and pole
+budget, the symbolic-ribbon/valuation criterion, and the complete degree-two
+dual theorem for observable corank-one pencils. New scoped quintic and
+exceptional-field work retains its separate evidence and review status.
+The completed 3+3 all-mate audit supersedes the pending label immediately
+below; its stronger SUP conclusion is still restricted to Jbar nonzero.
 
 The [October 12 evening acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
 now excludes every coprime homogeneous conormal pair in the admissible

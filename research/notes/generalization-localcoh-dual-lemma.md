@@ -173,6 +173,85 @@ domain. The sharper degree-two theorem is stated over a field;
 specialization of degree-two coefficient systems across a parameter ring
 must not be assumed to be exact without a lifting or module certificate.
 
+### Arbitrary corank and observation depth
+
+The structural reduction extends beyond corank one. Suppose
+`corank B=c` and `rank[B;BA]=q`. Then `N=ker B` and `A N` are disjoint:
+if `Ah in N` for `h in N`, then `BAh=0`, contradicting injectivity of
+`BA` on `N`. This also proves `A` is injective on `N`, so
+`dim(N+A N)=2c` and `2c<=q`. In a state basis sending a basis of
+`N` to the first `c` coordinate vectors and their `A`-images to the next
+`c`, a bottom-compatible target reduces to
+
+```text
+q-2c linear residuals,
+c quadratic residuals p_i-lambda*p_(c+i)+lambda^2*b_(c+i).
+```
+
+The associated linear duals have degree at most one, and the quadratic
+duals have degree at most two, by the same construction as in section 1.
+Full geometric exclusion is equivalent to the residuals having gcd one;
+it yields a normalized dual of degree at most **three**. Indeed arbitrary
+polynomials of degree at most two with gcd one admit a Bezout identity
+whose coefficients have degree at most one. To see this over any field,
+reduce the coefficient identity modulo one residual of maximal degree;
+all coefficients can be reduced to degree below that maximal degree,
+and the remaining quotient coefficient has the same bound.
+
+This degree-three bound is sharp for `c=2`, including in positive
+characteristic. Take `q=4`, `A=[0,0;I_2,0]` in two-by-two block notation,
+`B=[0,I_2]`, and `u=(0,1,0,-1,1,1)^T`. The two kernel generators are
+
+```text
+n1=(1,0,-lambda,0,lambda^2,0),
+n2=(0,1,0,-lambda,0,lambda^2),
+```
+
+evaluating to `g1=lambda^2` and `g2=lambda^2+lambda+1`. The identity
+`lambda*g1+(1-lambda)*g2=1` gives a degree-three dual. A dual of degree
+at most two would have constant multipliers of `n1,n2`, because their
+last coordinates are `lambda^2` times the respective multipliers. No
+constant combination of `g1,g2` is one.
+
+More generally, if the truncated observation matrix
+`O_ell=[B;BA;...;BA^(ell-1)]` has full column rank, the construction above
+uses `Q` of degree at most `ell-1` and `P` of degree at most `ell`.
+If full geometric exclusion holds, the coordinates of `P u` have gcd
+one and admit Bezout coefficients of degree at most `ell-1`. Hence a
+normalized dual of degree at most `2ell-1` exists. This bounds search
+degree by **observation depth**, rather than by a growing ambient
+ancestor degree. Corank one at observation depth two has the sharper,
+optimal bound two proved in section 1.
+
+The general bound `2ell-1` is sharp for every `ell>=1`. Take two
+independent nilpotent state chains of length `ell`, let `A` shift each
+chain forward, and let `B` read their two terminal coordinates. The
+observation depth is `ell`, and the two polynomial left-kernel
+generators have chain coordinates
+`(1,-lambda,...,(-lambda)^(ell-1))` and separate bottom coordinates
+`(-lambda)^ell`. A constant target can give their evaluations
+`f1=lambda^ell` and `f2=1+lambda`. Every normalization
+`a*f1+b*f2=1` forces
+
+```text
+b = 1-lambda+...+(-lambda)^(ell-1) modulo lambda^ell.
+```
+
+Thus `degree b>=ell-1`; its separate bottom coordinate forces normalized
+dual degree at least `2ell-1`. The displayed truncated geometric series
+achieves the bound. This sharpness argument works over every field.
+
+### Affine lift scope and projective infinity
+
+All the field theorems above concern every **affine** `lambda`. For a
+homogenized pencil `t L0+s L1` and a fixed target `u`, the projective
+point `t=0` must also be tested. With the full-slope normalization its
+column span is `[I_q;0]`, so infinity is excluded exactly when the
+transformed bottom target `w` is nonzero. This is a separate condition;
+affine exclusion alone does not imply it. When the repository affine
+lift was normalized by a nonzero pure-top coefficient, the associated
+top-zero ancestor stratum also retains its original geometric scope.
+
 ## 3. Corank-one rank-drop boundary
 
 The observable hypothesis has a precise failure mode. If `rank B=q-1`

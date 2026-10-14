@@ -1,0 +1,97 @@
+{
+  "scope": "Artifact binding only; no mathematical verification rerun",
+  "accepted_verifiers_rerun": false,
+  "pending_main_h3": "support32 literal original-generator witness",
+  "artifacts": [
+    {
+      "path": "research/notes/2026-10-13-generalization-quintic-continuation.md",
+      "exists": true,
+      "sha256": "145288cf4e575eceed05c1ccd653d69771f4ce2c14f5ef7ed245b1d76bc2726b",
+      "bytes": 11671
+    },
+    {
+      "path": "research/notes/2026-10-13-generalization-quintic-l2.md",
+      "exists": true,
+      "sha256": "a58640b0b02334b0bdbdfaea14a7a5f1a02cb712c6bcefbdad2dc8b4ed55c1fc",
+      "bytes": 11380
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-h3-proportional/main-H-coefficients.txt",
+      "exists": true,
+      "sha256": "06e194f7ebb6cb94a661ba5959b93547707131346a4439d50a7d9ebf15b6afc0",
+      "bytes": 204
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-h3-proportional/main-S-coefficients.txt",
+      "exists": true,
+      "sha256": "c49acae3ad08e1036a19f74709c60a48c43dee75858efb9f340004aebde73e08",
+      "bytes": 3263
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-remainder.txt",
+      "exists": true,
+      "sha256": "93b64f08ad8f01dc286e6f34eafdf10bdadfea3289e137d974a6d9d4ed35ee2a",
+      "bytes": 2661
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt",
+      "exists": true,
+      "sha256": "4cef1e084b43041b950a5b021e59323c7f0524708e60e6a2d66fe24818fb5eca",
+      "bytes": 591996
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-input.txt",
+      "exists": true,
+      "sha256": "e07cd7c3ed770cd95d4e40d990de6709c52f206652d726d59519055c7f371ba2",
+      "bytes": 8052
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt",
+      "exists": true,
+      "sha256": "6cf77107cc2c0d8a934bc867417d8efefafe8fcbe5040ccaac481277d4315bd6",
+      "bytes": 22448188
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-h3/support32-input.txt",
+      "exists": true,
+      "sha256": "b3b590e50d561b8a4112cb6175eccec34b95961449f54d73cc906fea60c28682",
+      "bytes": 30323
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-l2/generic-resultant-bezout.txt",
+      "exists": true,
+      "sha256": "b92fab02698351aea9e72bd8f82420f3d587f0e408f93e9521921de6195514db",
+      "bytes": 1035109
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-l2/generic-resultant-pair.txt",
+      "exists": true,
+      "sha256": "29371febd0e6ee4d77a4aaa3ae75aa068f552cd06c4534f31dc7124177393064",
+      "bytes": 129275
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-l2/generic-resultant-target.txt",
+      "exists": true,
+      "sha256": "fe533a5b1ff07ae2d8bd8589ac9792e404d691f5df12d980778341e9d2408404",
+      "bytes": 15019
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-l2/D0-bezout.txt",
+      "exists": true,
+      "sha256": "f3f2f371931388d6c33471e4042d0f5107633fc5b4f6beaab56f878824198a83",
+      "bytes": 1950
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-l2/D0-bezout-pair.txt",
+      "exists": true,
+      "sha256": "22232381312d882de2147f1b4fdfb99abdd01d8b26b19a0f78cb218cba6dadaa",
+      "bytes": 537
+    },
+    {
+      "path": "research/validation/2026-10-13-generalization-quintic-l2/q2-bezout-certificate.txt",
+      "exists": true,
+      "sha256": "2504a06788f978a21174ca4cd075f874ad78fd1fcada8597c2b4728d7ca86a21",
+      "bytes": 3749088
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "New independent small L2 rational-cover algebra only; inherited octic identities not replayed",
+  "exit_code": 0,
+  "exact_identity_count": 9,
+  "artifacts": {
+    "l2-cover-algebra.m2": "e2d412f7347460cdb1cfbbdd76b3b001a2226ea75cca77fa3e4c353c26fcb1b6",
+    "l2-cover-algebra.stdout.txt": "65c8de2674e8abb0d9b6290d16229ada035bb3af517416db43cc597fc1856759",
+    "l2-cover-algebra.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "failed_attempt": "l2-cover-algebra-attempt-01.m2",
+  "python_alternative": "not executed; remembered runtime absent and system Python has no SymPy"
+}

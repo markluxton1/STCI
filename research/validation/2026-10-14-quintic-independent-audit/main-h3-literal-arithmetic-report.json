@@ -1,0 +1,70 @@
+{
+  "audit_kind": "Supporting independent literal arithmetic identity audit",
+  "accepted_scripts_rerun": false,
+  "arithmetic": "Python standard library fractions, strict expanded-monomial text parser, denominator-cleared integer convolution",
+  "input_sha256": {
+    "original_remainder": "93b64f08ad8f01dc286e6f34eafdf10bdadfea3289e137d974a6d9d4ed35ee2a",
+    "original_witness": "4cef1e084b43041b950a5b021e59323c7f0524708e60e6a2d66fe24818fb5eca",
+    "captured_exponent": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "main_S_coefficients": "c49acae3ad08e1036a19f74709c60a48c43dee75858efb9f340004aebde73e08",
+    "witness_schema_source": "63d5e93f63d588aedf20c001f1528f03525d3416dc974eadb9e62d48f0044ded"
+  },
+  "input_paths": {
+    "original_remainder": "research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-remainder.txt",
+    "original_witness": "research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt",
+    "captured_exponent": "research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness-exponent.txt",
+    "main_S_coefficients": "research/validation/2026-10-13-evening-h3-proportional/main-S-coefficients.txt",
+    "witness_schema_source": "research/computations/generalization_quintic_h3_divisibility_certificate.m2"
+  },
+  "original_coefficient_division": "each captured h-divides-s-remainder entry is exactly divisible by ll^2",
+  "original_generator_term_counts": [
+    69,
+    62,
+    58
+  ],
+  "captured_witness_term_counts": [
+    436,
+    465,
+    485
+  ],
+  "original_generator_bidegrees": [
+    [
+      6,
+      10
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      9
+    ]
+  ],
+  "captured_witness_bidegrees": [
+    [
+      23,
+      27
+    ],
+    [
+      23,
+      28
+    ],
+    [
+      23,
+      28
+    ]
+  ],
+  "witness_matrix_shape": [
+    3,
+    1
+  ],
+  "captured_exponent": 2,
+  "target": "(S_coeff5*dl*ll*(ll-1)*(ll^2-4*ll+1)*((ll+1)*dl+ll-1)*(dl+2*ll-1))^2",
+  "target_term_count": 229,
+  "literal_original_generator_product_equals_target": true,
+  "exact_residual_term_count": 0,
+  "global_witness_denominator_decimal_digits": 239,
+  "elapsed_seconds": 0.11077508300013506,
+  "scope": "The saved original three generators divided by ll^2 times the saved 3 by 1 witness equal the stated U^2 in QQ[dl,ll]. No newly generated ideal/Groebner witness, no exponent minimality assertion, and no conductor geometry or stratum-coverage acceptance is claimed."
+}

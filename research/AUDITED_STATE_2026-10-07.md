@@ -1,3 +1,8 @@
+> **CONTINUATION UPDATE:** Use [AUDITED_STATE_2026-10-14.md](AUDITED_STATE_2026-10-14.md).
+> This prior state remains the inherited evidence record. The 3+3 audit is
+> complete and the pole/line audit is accepted; older pending labels below
+> are superseded within their precise scope.
+
 # Canonical audited state — 2026-10-07, reconciled through 2026-10-13
 
 This is the continuation entry point for the research session begun on

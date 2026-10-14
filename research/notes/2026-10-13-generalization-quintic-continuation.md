@@ -1,8 +1,10 @@
 # Nonendpoint quintics: conductor root support instead of mate-degree searches
 
 Date: 2026-10-13 continuation, written after midnight on October 14. Owner:
-`quintic_continuation`. Status: **NEW EXACT FAMILY EXCLUSIONS AND A COMPLETE
-STRUCTURAL SUPPORT COVER; independent audit in progress.** Accepted older
+`quintic_continuation`. Status: **ZERO-CUBIC AND LAMBDA-ONE FAMILY EXCLUSIONS, THE MAIN
+THREE-ROOT/FOURFOLD ALTERNATIVES, AND REGULAR SOLE-ROOT L1/L2 HAVE
+PASSED INDEPENDENT AUDIT. THE FINAL MAIN 3+2 ORIGINAL-GENERATOR
+WITNESS IS IN PROGRESS.** Accepted older
 proofs are premises and were not replayed. The universal problem, higher
 carriers, other quintic normalization genera and the full nonendpoint
 common-root incidence remain unresolved.
@@ -47,7 +49,7 @@ zero-cubic charts and the proportional main chart. On the main chart write
 
 The accepted/new evening conductor coefficient artifacts give
 
-    F = (delta^4/(1296lambda^6)) H3 S5,
+    F = -delta^4 H3 S5/(1296lambda^6),
 
 where H3,S5 are fixed-degree binary forms with affine coefficient lists in
 `evening-h3-proportional/main-H-coefficients.txt` and
@@ -60,9 +62,8 @@ where H3,S5 are fixed-degree binary forms with affine coefficient lists in
           +5lambda^2-delta-5lambda+1.
 
 Their original scaling is H3=-3lambda^2 H/delta and
-S5=432lambda^4(F/H)/delta^3. The displayed scalar therefore has a minus
-sign: **F=-delta^4 H3 S5/(1296lambda^6)**. This explicit correction is part
-of the written record; only its being a nonzero scalar enters support.
+S5=432lambda^4(F/H)/delta^3. Only the scalar being nonzero enters
+the support argument.
 
 The exact main Jbar and G factors are
 
@@ -104,7 +105,7 @@ both exact homogeneous transform identities. Thus the zero-J chart also
 fails SUP in its entirety. No center minor is inverted.
 
 This is a direct all-parameter consequence of the saved exact identities,
-with separate independent geometric audit requested.
+and it has passed the separate October 14 independent geometric audit.
 
 ## 4. The entire lambda=1 main boundary also fails SUP
 
@@ -185,6 +186,7 @@ is made about that omitted leading condition.
 
 ## 6. The high-multiplicity support incidence and current work
 
+Write V for the product of the five nonconstant unit factors in (A).
 For a finite root x of S5, put c_i=coefficient_(p^i) S5. A root of
 multiplicity at least4 satisfies
 
@@ -193,8 +195,12 @@ multiplicity at least4 satisfies
 The new exact QQ ideal, saturated only by the units in (A) and c5,
 returns the unit ideal. Its source, literal four input polynomials and
 captured intermediate ideal are preserved in the new validation package.
-A separate original-generator witness is being extracted; this algebra
-is not yet promoted to an independently audited theorem.
+The original-generator witness is now complete: for the literal four
+generators M4 and the stated unit V*c5, the saved 22 MB vector W4
+satisfies `M4 W4=(V*c5)^2`. The source asserts that exact product before
+saving it; its completion marker and empty stderr are preserved. The
+October 14 independent auditor accepts this arithmetic lineage without
+re-expanding the same large product.
 
 For the exact3+2 case choose x to be the triple root. Dividing by
 `(p-x)^3` leaves
@@ -209,11 +215,12 @@ Thus all3+2 cases, including coalescence into a fifth root, lie in the
 exact finite polynomial system S5(x)=S5'(x)=S5''(x)=0,(C)=0.
 For SUP additionally H3(x)=H3(y)=0, where
 `y=-(c4+3x c5)/(2c5)`. The second relation is imposed after multiplying
-by `(2c5)^3`, so no undefined root or scalar is introduced. Both the
-unrestricted multiplicity32 incidence and this stronger full support
-incidence are active new exact computations. Until their executions and
-witnesses finish, the3+2 case is retained as open. No empty-fiber claim is
-inferred from generic parameters or a CAS process merely running.
+by `(2c5)^3`, so no undefined root or scalar is introduced. The stronger six-generator full-support incidence has completed with
+saturated ideal1. The original six-generator witness is being extracted
+in `support32-witness-attempt-01`; complete main-family closure is
+withheld until its literal product and captured execution are available.
+The earlier unrestricted multiplicity32 computation supplies no claim
+and is not needed for this support cover.
 
 The first direct H3^5 modulo S5 source produced exact large coefficients
 but was interrupted during ideal processing. A later full Hermite-rank
@@ -223,16 +230,16 @@ remain recorded. Neither unfinished computation supplies a theorem.
 
 ## 7. Remaining nonendpoint lanes and next action
 
-The companion new note `2026-10-13-generalization-quintic-l2.md` develops
+The companion new note `2026-10-13-generalization-quintic-l2.md` proves
 an all-parameter exclusion of the regular sole homogeneous-root lane,
 including L2, its discriminant-zero and coefficient-drop boundaries. Its
-independent review is separate. The quotient/conductor proof and all new
+October 14 independent audit has accepted this explicitly scoped theorem. The quotient/conductor proof and all new
 higher Taylor conditions are retained there; no accepted old check is
 replayed.
 
 Even if the complete h3 support cover closes, the following remain outside
-it: homogeneous gcd degrees1 and2 with more than one support point;
-the singular target-fiber charts pZ=0 with their denominator-free original
+it: homogeneous gcd degree2 with its full two-root or repeated-root support;
+the gcd-degree-one singular target-fiber charts pZ=0 with their denominator-free original
 fiber system; other Jbar=0 nonproportional families; actual conductor power
 descent on surviving full-support parameters; all other quintic genera;
 normal quintics, higher carriers and entirely thick presentations.
