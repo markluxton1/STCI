@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-14-quintic-independent-audit/lambda-binding-audit.py", line 181, in <module>
+    ratio = s1_div_q[first_monomial] / compact_q4[first_monomial]
+            ~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: (0, 0, 1)

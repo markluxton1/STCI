@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-10-13T18:35:35.233025+00:00",
+  "finished_at": "2026-10-13T18:35:35.335920+00:00",
+  "command": [
+    "/opt/homebrew/opt/python@3.15/bin/python3.15",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_nonendpoint_h3_zero_chart_support_2026_10_13.py"
+  ],
+  "exit_code": 0,
+  "new_mathematical_conditions": 5,
+  "bindings": {
+    "research/computations/verify_session_nonendpoint_h3_zero_chart_support_2026_10_13.py": "8432845437b4f9b2e412cae06f550ce979fb5a342ef44929a0c9798ac4685b12",
+    "research/validation/2026-10-13-h3-zero-chart-conductor-new/attempt-01-final/source.py": "8432845437b4f9b2e412cae06f550ce979fb5a342ef44929a0c9798ac4685b12",
+    "research/validation/2026-10-13-h3-zero-chart-conductor-new/attempt-01-final/stdout.txt": "1a97cfce6bad47d52091b6f7070ddc5cb27909cf4e0402af92439772d248503a",
+    "research/validation/2026-10-13-h3-zero-chart-conductor-new/attempt-01-final/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/validation/2026-10-13-h3-zero-chart-conductor-new/new-exact-support-incidence.json": "d524c8efc2294ffdfc0f6331aedcbe5b1f8a4f90dd2ade2ce33be2a3beb9443e"
+  }
+}

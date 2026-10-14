@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-13-evening-u-zero-subaudit/probe.py", line 2, in <module>
+    import sympy as s
+ModuleNotFoundError: No module named 'sympy'

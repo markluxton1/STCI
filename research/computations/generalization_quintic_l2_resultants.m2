@@ -1,0 +1,22 @@
+-- Exact generic-cover necessary resultant conditions, no sampling.
+outdir="research/validation/2026-10-13-generalization-quintic-l2";
+save=(label,f)->((outdir|"/"|label|".txt") << toString f << close);
+params=QQ[qpar,mpar];
+Pc=qpar^2-6*qpar+6;
+H=qpar^4*mpar^2+3*qpar^4*mpar-3*qpar^3*mpar^2-3*qpar^4-15*qpar^3*mpar+3*qpar^2*mpar^2+36*qpar^3+27*qpar^2*mpar-144*qpar^2-18*qpar*mpar+216*qpar-108;
+g3=(value get(outdir|"/cover-f3-numerator.txt"))//((qpar-2)^5*Pc^7*H);
+g4=(value get(outdir|"/cover-f4-numerator.txt"))//((qpar-2)^5*Pc^7);
+g5=(value get(outdir|"/cover-f5-numerator.txt"))//((qpar-2)^5*Pc^7);
+save("generic-g3",g3);save("generic-g4",g4);save("generic-g5",g5);
+print("normalized degrees="|toString apply({g3,g4,g5},f->degree f));
+print "START R34";
+R34=resultant(g3,g4,mpar);
+save("R34",R34);
+print("R34 factor="|toString factor R34);
+print "START R35";
+R35=resultant(g3,g5,mpar);
+save("R35",R35);
+print("R35 factor="|toString factor R35);
+rg=gcd(R34,R35);save("resultant-gcd",rg);
+print("resultant gcd="|toString factor rg);
+print "COMPLETE generic L2 resultant calculation";

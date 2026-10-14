@@ -1,0 +1,180 @@
+{
+  "checked_at_utc": "2026-10-13T18:32:14.229736+00:00",
+  "records": [
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/main/research/STATE.md",
+      "git_blob_sha1": "bbaa904e19f74345a6ec5febd70b0e273d153963",
+      "sha256": "5188dcf44608baba9ac53f995369f3a7b9b460835fa0e87d3a1aa2340d55c242",
+      "exact_git_blob_match": true,
+      "bytes": 6935
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/main/research/FRONTIER.md",
+      "git_blob_sha1": "2210e52d0f9fdec2415c17cf29414cd082c5eb19",
+      "sha256": "9fa3af1310b83ae3fafc52f0970be3b9de55a1aef52a41aeb69440811ba4bde3",
+      "exact_git_blob_match": true,
+      "bytes": 3600
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/main/research/results/jet_geometry.md",
+      "git_blob_sha1": "0590071b25bf2811be7ade83ad8c3224ea8695c9",
+      "sha256": "818497bb8d3d598a3135f216a43e225056de47c6ee5dd33a02c9c287eeaa1905",
+      "exact_git_blob_match": true,
+      "bytes": 1439
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-entirely-thick-rees-valuation-framework.md",
+      "git_blob_sha1": "11fa27ae8b5846989cb6c6349c0580c591de58c0",
+      "sha256": "5916d4e29ff08ccf0f896e6f0899185fd0fd31d1b9a6444b2ab8f2c4b8feb969",
+      "exact_git_blob_match": true,
+      "bytes": 6978
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-entirely-thick-relative-blowup-budget.md",
+      "git_blob_sha1": "f097cc35cf6060a85f786f1fbcb929a58a880b48",
+      "sha256": "4a1d31d8029f306b2e42cdaadd802df95f8aadfdce4f193eac814be524cc4ea0",
+      "exact_git_blob_match": true,
+      "bytes": 6600
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_normal-rational-carrier-classification/research/notes/2026-10-07-normal-rational-carrier-classification.md",
+      "git_blob_sha1": "955b7d606738a9f47a696a05d2f821d145c9bd4e",
+      "sha256": "9e03ba34ae231936fc3a2082b5d9159a055580123d3934a63e7e9d07d1c47928",
+      "exact_git_blob_match": true,
+      "bytes": 45964
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_e1-jet-rebuild-2026-10-07/research/notes/2026-10-07-e1-jet-rebuild.md",
+      "git_blob_sha1": "8e433959b64ed002451e64fb18994644982a44fb",
+      "sha256": "c85ca55f5d5a307ce84190edd38847dc9f6032e0cc1e85844bfbe60544d1e9c8",
+      "exact_git_blob_match": true,
+      "bytes": 16255
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_jet-discrepancy-order-one-2026-10-06/research/notes/2026-10-06-order-one-jet-discrepancy-framework.md",
+      "git_blob_sha1": "d042619f07c05f52e1160c4f709c7ede526dfe94",
+      "sha256": "2bc76926194c3ae15160b41359b23fd642e9f74e0b197587e63749d428d6c4a7",
+      "exact_git_blob_match": true,
+      "bytes": 31793
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-rational-quartic-power-saturation.md",
+      "git_blob_sha1": "f9bf66e67e05164906f7481c57c733d45fd57e6d",
+      "sha256": "9ba9c54104da4fe726929e371a09e9e1339779a3d607428d78b6c9bf3b59d093",
+      "exact_git_blob_match": true,
+      "bytes": 3851
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-apic-conductor-bridge.md",
+      "git_blob_sha1": "b759cf50d08ed67d2ff4dffd0c69a2fc03619c6c",
+      "sha256": "55f494edefbc0ec17966580ebb1f67ac011e5322ba692a9b3d3586614ca3be87",
+      "exact_git_blob_match": true,
+      "bytes": 5397
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-boundary-carrier-rigidity.md",
+      "git_blob_sha1": "34d4e030fc6c42c2e691d4fce1d8bdf243d39879",
+      "sha256": "1f9bbb6c486d2b4a20e727b3f67f2a675bbf01a01b7910d7be067754b5c3f724",
+      "exact_git_blob_match": true,
+      "bytes": 4037
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-degree-3p-quotient.md",
+      "git_blob_sha1": "a2fd7fe1be76c00ae5c8eea89309285d43e794f2",
+      "sha256": "0d9d319cfda1da32e692059c2fe61f94d9c9f5bdc9d66b6eeaf76e46c3786309",
+      "exact_git_blob_match": true,
+      "bytes": 2860
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-first-blowup-marked-coupling.md",
+      "git_blob_sha1": "7d3e500adc47677ae13ed9176eda927500cde6c1",
+      "sha256": "7d6bd3441f83852e09637b45f55472283515aa9d03f0fdb96bde29ab8e3b0b4d",
+      "exact_git_blob_match": true,
+      "bytes": 4490
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-generic-normalization-filter.md",
+      "git_blob_sha1": "1063bdf8eaf71489471b9279c35061ceb2d3ee32",
+      "sha256": "2e688888fb115ea3933b9f5dd6270e147e8f1910c7339fc29daf9eb1e993c1eb",
+      "exact_git_blob_match": true,
+      "bytes": 5127
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-local-pair-marked-trisecant.md",
+      "git_blob_sha1": "3846d8d43c57062e8456bba28df62b5d820b0c49",
+      "sha256": "b3f94b0422891b15136c3f73eccd82ef34e889bc96535bf0ec414c52fbefd4b0",
+      "exact_git_blob_match": true,
+      "bytes": 4314
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-marked-point-jets.md",
+      "git_blob_sha1": "30443ccefcddfe4224f3901bcefbe51047dede86",
+      "sha256": "fb3142c748b7e9e61a8a265bb5998a7916698154e0c5de2a7b6d87e247678117",
+      "exact_git_blob_match": true,
+      "bytes": 3997
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-quadric-section-divisor.md",
+      "git_blob_sha1": "27218b460e0710c216e1a5b1618a9fc61010f035",
+      "sha256": "741e914153a6daf98a67234e91bc881150518db39d4c3b56f915b22ed19f0e22",
+      "exact_git_blob_match": true,
+      "bytes": 3200
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-repeated-fiber-smoothability.md",
+      "git_blob_sha1": "f824d4c791581dc2473ceb7f08da590935940ffd",
+      "sha256": "b5fd3a34a0a2f1eeb00db716daa10d12c2bcccc6db5a571c1f8586f31241f839",
+      "exact_git_blob_match": true,
+      "bytes": 3026
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-root-budget-separation.md",
+      "git_blob_sha1": "3f4b711d9be56a4818d7744c28bf03351b4056b2",
+      "sha256": "0e72d5a1923dcccfad4486d2837e2af0e83c266286497b66b7255e24240f05d8",
+      "exact_git_blob_match": true,
+      "bytes": 1987
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-ruling-interpolation-audit.md",
+      "git_blob_sha1": "a5170ff651ac12cb18c44e5715b5e42715ee170f",
+      "sha256": "823ae9d1996f2d2b4b00ac0f531bd205876b6dfb5de00a8d627c75a6006506a6",
+      "exact_git_blob_match": true,
+      "bytes": 4860
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-segre-root-audit.md",
+      "git_blob_sha1": "958c9821f5cf374940ad53bc65cd573157b0bbb7",
+      "sha256": "f8038323b3e199127dda92e7cbdbce9410a06bd16018752cab60ee28fbc5b5c9",
+      "exact_git_blob_match": true,
+      "bytes": 2106
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-sheaf-colon-recursion.md",
+      "git_blob_sha1": "7d048ae8cb50c77aa8423446f013461f0d6d34a4",
+      "sha256": "e7a8f36494ad68ea19fc3e2f9ed2a4b4d3c1a1b66c078ae2ffc9808bebd6acbb",
+      "exact_git_blob_match": true,
+      "bytes": 3343
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thickened-fiber-jets.md",
+      "git_blob_sha1": "1dc4858f16007d6d92a4efbb8955e12cbfd1f07f",
+      "sha256": "83c3a280a7fb9d630b721435b2646da1b70e35c180566ebdf8a0fc218e4c2d11",
+      "exact_git_blob_match": true,
+      "bytes": 3689
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thickened-fiber-local-countermodel.md",
+      "git_blob_sha1": "8a3d1e73286e1051f63b27ff91aa5e6293fcf9a8",
+      "sha256": "7e1513002588ff2dfb675f18a3644bb1413571a4361fc9a9d770c52eff11a5fe",
+      "exact_git_blob_match": true,
+      "bytes": 3935
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/main/research/notes/2026-10-06-quartic-jet-geometry-structural-supplement.md",
+      "git_blob_sha1": "879704e98c0cc4925974105960c2ef8980907fb3",
+      "sha256": "ed7582f3c994840e5f06b16a9da6d25c85ddbc02949fdaacab9f8adee638321c",
+      "exact_git_blob_match": true,
+      "bytes": 13648
+    }
+  ]
+}

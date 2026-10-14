@@ -1,0 +1,12 @@
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/methods.m2:170:23:(1):[9]: error: no method found for applying numerator to:
+     argument   :         2                            2   . (of class outRing)
+                   - 2dPar  - 2dPar + twoD   3   12dPar  + .
+                   -----------------------*pp  + ----------.
+                              2                            .
+research/validation/2026-10-13-evening-u-zero-subaudit/q-two-probe.m2:8:38:(3):[8]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:80:23:(0):[6]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:131:28:(1):[5]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:127:13:(1):[3]: --back trace--
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:138:29:(1):[2]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:547:66:(0):[1]: --back trace--
+/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:635:41:(2): --back trace--

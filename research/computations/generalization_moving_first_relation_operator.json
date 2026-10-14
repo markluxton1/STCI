@@ -1,0 +1,78 @@
+{
+  "status": "new exact quadratic moving-relation calculation",
+  "base_displacement_epsilon": [
+    {
+      "u": 0,
+      "v": 1,
+      "z": -4,
+      "coefficient": "-1/2"
+    },
+    {
+      "u": 1,
+      "v": 0,
+      "z": -5,
+      "coefficient": "-1"
+    }
+  ],
+  "Du": [
+    {
+      "u": 0,
+      "v": 2,
+      "z": -2,
+      "coefficient": "-3/8"
+    },
+    {
+      "u": 1,
+      "v": 1,
+      "z": -3,
+      "coefficient": "-3"
+    },
+    {
+      "u": 2,
+      "v": 0,
+      "z": -4,
+      "coefficient": "-5/2"
+    }
+  ],
+  "Dv": [
+    {
+      "u": 0,
+      "v": 2,
+      "z": -3,
+      "coefficient": "-9/4"
+    },
+    {
+      "u": 1,
+      "v": 1,
+      "z": -4,
+      "coefficient": "-1"
+    },
+    {
+      "u": 2,
+      "v": 0,
+      "z": -5,
+      "coefficient": "3"
+    }
+  ],
+  "base_derivative_coefficient_mod_fV": [
+    {
+      "u": 0,
+      "v": 1,
+      "z": -2,
+      "coefficient": "1/2"
+    },
+    {
+      "u": 1,
+      "v": 0,
+      "z": -3,
+      "coefficient": "1"
+    }
+  ],
+  "degree_one_relation": "f(z;u,v)=A(u,v)+z B(u,v)",
+  "operator": "Du*d_u(f)+Dv*d_v(f)+(-z^2*epsilon)*B, modulo f*V",
+  "limitations": [
+    "The quotient f*V moves with z; it is not a constant vector-space quotient.",
+    "Vanishing of this one-step obstruction is necessary, not sufficient.",
+    "No degree-one moving-relation exclusion is claimed."
+  ]
+}
