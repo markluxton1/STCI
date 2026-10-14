@@ -171,7 +171,9 @@ For C0 the following complete all-degree consequences are accepted:
   are `(a,R,t,b_min)=(6,12,4,8)` and `(8,12,6,6)`. These give the single
   unordered defining degree pair `(6,8)`, with generic length12. This
   includes D/E rational double points and A1,A2,A3 mixtures along C0.
-  At least one carrier has the normal/index hypotheses; the other
+  Those actual-index-at-most-four mixtures are now excluded by the
+  stronger local socle theorem below. Actual index-six/twelve strata
+  still survive this arithmetic reduction. The other defining
   carrier's normality and global primitivity are not inferred.
 
 Finite local indices alone do not prove the primitive class is torsion.
@@ -289,8 +291,13 @@ determinantal fallbacks retain every exceptional stratum.
 Proof: [polynomial-dual theorem](notes/generalization-localcoh-dual-lemma.md).
 Review: [pencil review](notes/2026-10-14-generalization-localcoh-pencil-independent-review.md).
 This does not certify the exact rank locus of every ancestor family.
-The remaining degree-fifteen exceptional-field application is under
-active new computation; no old tensor verifier was repeated.
+The seven roots of the family-two cubic/quartic factors have already
+verified full-fiber exclusion certificates and are removed. The remaining
+fifteen roots are under active new computation; no accepted original-tensor
+verifier was repeated. The retired attempt-three/four records preserve their logs and failure
+lineage. The current attempt-five executes its frozen validation source
+using one exact specialized block inverse; no exclusion is accepted until
+its original-tensor dual is independently checked.
 
 ## 7. Continuing quintic and ancestor research
 
@@ -304,12 +311,15 @@ boundaries have literal original-generator witnesses. All projection
 center and complete homogeneous-root hypotheses survive these statements.
 
 The general support lemma replaces a large power-divisibility condition
-by root-count and finite multiplicity-partition incidences. In the main
-h3 chart, homogeneous infinity, at-least-three-root support and
-multiplicity-at-least-four alternatives are accepted. The remaining
-3+2 multiplicity pattern has a computed saturated unit ideal but its
-literal original six-generator witness is still pending. The whole
-h3 claim therefore remains open at that exact certificate boundary.
+by root-count and finite multiplicity-partition incidences. The final
+main h3 3+2 pattern now has a completed literal original-six-generator
+identity `M6 W=(V c5)^2`, with captured exit zero and empty stderr.
+Together with the previously reviewed infinity and other support
+patterns, **the entire homogeneous gcd-three lane is excluded in all
+mate degrees**, including zero-cubic and proportional families.
+The large witness is preserved as an archive with an exact integrity
+binding; its verified product was not replayed.
+Acceptance: [complete h3 record](notes/2026-10-14-generalization-quintic-h3-results-acceptance.md).
 
 Proofs: [quintic continuation](notes/2026-10-13-generalization-quintic-continuation.md)
 and [regular L2](notes/2026-10-13-generalization-quintic-l2.md).
@@ -324,14 +334,151 @@ degree-fifteen field, boundary three/four, nonendpoint top zeros and
 positive-D2 directions retain their precise recorded scope. A failed
 large module run is not a negative certificate.
 
-## 8. Global unresolved obligations
+## 8. Local power-socle compatibility and new all-degree normal exclusion
+
+**PROVED, independently reconstructed:** for a normal carrier with a
+smooth curve C, suppose a mate cuts nC. At an on-curve point with actual
+local Cartier index r dividing n, put k=n/r. If A_F,P is the carrier's
+first-normal-symbol vanishing order and D_r,P is the actual top-power/
+socle defect of its local Cartier multiple rC, then
+
+```
+D_n,P=(k-1)A_F,P+kD_r,P.
+```
+
+This retains the full embedded algebra and higher jets. The proof uses
+normality for a colon identity and the regularity of z^r/h; a relative
+Jacobian generates the actual socle over k[[t]], by the Artinian CI
+Jacobian theorem and finite Gorenstein base change. The ordinary free
+normal layers are powers of the first quotient, and the exact pointwise
+Frobenius-lattice identity is
+`2 sum_i length(T_i)_P=nD_n,P`. This is distinct from a saturated BF
+filtration; none of its defects are silently set to zero.
+
+For C0, a pointwise upper bound s on actual local curve indices gives
+
+```
+s >= (4a-7)/(7-16/a),
+4a^2-(7s+7)a+16s <= 0.
+```
+
+Thus normal carrier degree is bounded linearly within every such index
+class, independent of the number or higher complexity of singular points.
+No universal curve-index bound is proved. A balanced smooth rational
+curve of degree e has the analogous bound
+` s >= (ea-(2e-1))/((2e-1)-e^2/a)` with its stated edge conditions.
+
+**Every normal C0 carrier whose actual on-curve local indices are at
+most four is now excluded in every carrier and mate degree.** This
+includes arbitrary D/E and A1,A2,A3 mixtures. The accepted arithmetic
+reduction gives (6,8), n=12. The local formula excludes a normal octic
+and forces a normal sextic to have first slope ell=7 and total slack
+one. It eliminates index-two points and forces zero primitive local
+socle defect at every index-three/four point. The whole symbolic triple
+is consequently primitive with constant first direction, contradicting
+the accepted nonzero P-010 obstruction. The other carrier need not be
+normal, and no primitive initial presentation is assumed.
+
+Actual index-six and index-twelve points in the broader common-exponent-
+twelve class remain open, including index-twelve first-symbol poles.
+Proof and scope: [local index-socle theorem](notes/2026-10-14-generalization-normal-index-socle-theorem.md).
+Full independent proof: [filtered compatibility audit](notes/2026-10-14-generalization-index12-filtered-compatibility.md).
+The [ordinary-curvilinear precursor](notes/2026-10-14-generalization-curvilinear-torsion-and-index12.md)
+retains the earlier route; its pending labels are superseded by these
+accepted records.
+
+### Intrinsic comparison and a theorem for all balanced rational degrees
+
+**PROVED with a separate new-proof audit:** for a smooth Q-Cartier curve
+C on a normal Cartier surface in any smooth projective threefold, the
+surviving conormal line B admits an intrinsic map
+`B^R -> O_S(-RC)|C`. Its zero divisor is R times the effective rational
+divisor
+
+```
+E_ray=sum_P (A_F,P+D_r,P)/r_P [P],
+deg E_ray=ell-C^2.
+```
+
+This exists before any mate does. For a degree-e curve in P3 admitting
+a mate on degree-a S, every mate power is governed by the single exact
+budget `ell-e^2/a=sum_P(A_F,P+D_r,P)/r_P`. Full line-bundle identities
+are retained, including in positive genus. If `nu=4e+2g-2` and eta bounds
+normal line-subbundle degrees, a pointwise index bound s forces
+
+```
+e a^2-[nu+(s-1)eta]a+s e^2<=0.
+```
+
+For every balanced smooth rational degree-e curve, e>=3, this forces
+an actual on-curve index at least e-1, independently of both defining
+degrees. At the threshold all singular indices are exactly e-1, all
+primitive local defects vanish, and the first direction is constant.
+In characteristic zero the minimal unordered degree pair is (e-1,e),
+and its actual complete intersection is a primitive (e-1)-fold curve.
+For e>=4 a proved obstruction to every constant-direction primitive
+triple strengthens the threshold to at least e. That obstruction is
+curve-specific; it is accepted for C0 and is not assumed for every
+balanced rational curve.
+
+The intrinsic comparison and scalar/local threshold results also hold
+in characteristic p when every actual local index is prime to p; the
+mate length itself need not be prime to p. The global minimal-pair
+statement remains characteristic zero. Wild indices and nonsmooth
+support remain outside this new local theorem.
+Proof: [general normal-index scope](notes/2026-10-14-generalization-normal-index-general-scope.md).
+Review: [independent general-scope audit](notes/2026-10-14-generalization-normal-index-general-scope-independent-audit.md).
+
+### An unrestricted normal C0 defect certificate
+
+**PROVED, with a separate comparison audit:** primitive local Cartier
+multiples of actual lengths two or three are automatically primitive,
+so D_2=D_3=0. In the ell=7 constant-direction branch, let T be the
+first-layer torsion divisor of the global symbolic triple. The accepted
+pole obstruction forces `deg T>=2`. At index two one has exactly
+`T_P=A_F,P`; at index three T_P=0; at indices at least four the exact
+relation-module comparison gives `T_P<=r_P D_r,P/2`. Hence
+
+```
+2<=deg T<=sum_(r=2) A_F,P + (1/2)sum_(r>=4) r_P D_r,P.
+```
+
+Every constant-direction candidate must pay through index-two contact
+or a positive full primitive local defect of index at least four.
+The actual divisor must also satisfy the accepted apolar support
+condition, not merely this degree bound. Odd-index positive defects
+are even. Combining the certificate with the intrinsic reciprocal
+budget improves the C0 scalar bound to
+
+```
+4a^2-(7s+6)a+16s<=0,   a>=5, s>=3,
+```
+
+for every first slope; the ell<=6 branch already has a stronger bound.
+This is new progress on unrestricted normal carriers, not an exclusion
+of unbounded indices or of sufficiently large defect contributions.
+Proof: [symbolic-triple certificate](notes/2026-10-14-generalization-normal-carrier-symbolic-triple-certificate.md).
+Review: [torsion comparison audit](notes/2026-10-14-generalization-symbolic-triple-torsion-comparison-audit.md).
+
+The independently reviewed
+[transverse-differential socle theorem](notes/2026-10-14-generalization-transverse-socle-independent-audit.md)
+is accepted. It identifies the actual first layer on a generically
+regular singleton Cartier lift and proves
+`(n-1)deg A>=deg(C)(a-4)+deg(C)^2/a-(2g(C)-2)`.
+For C0, degree8 projections require
+`1<=deg A<=5`, `(2b-1)deg A>=20`; degree16 projections require
+`1<=deg A<=6`, `(4b-1)deg A>=51`. Thus all transverse-coprime
+projections in this lane are excluded across all mate degrees.
+The proof does not cover rank-two first layers or non-Cartier lifts.
+
+## 9. Global unresolved obligations
 
 The structural results now organize the work by normalization branches,
 Cartier relations, conductor torsion and complete filtered normal
 algebras. They do not provide:
 
-1. a minimum-carrier degree bound or a theorem forcing smooth singleton
-   normalization;
+1. an unconditional minimum-carrier degree bound or a theorem forcing
+   smooth singleton normalization;
 2. a full singular-normalization or multibranch class-group/descent
    classification;
 3. control of moving first binary relations, adjacent new relations,

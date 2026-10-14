@@ -1,0 +1,115 @@
+{
+  "created_utc": "2026-10-14T17:20:50.121789+00:00",
+  "goal_status": "active; universal problem unresolved",
+  "observed_head": "624ed55a2407b19dc5535f9cb3cc2fdc294dc605",
+  "authority": "research/AUDITED_STATE_2026-10-14.md",
+  "scope": "new proof-record bindings and local link integrity only; accepted mathematical checks not replayed",
+  "records": [
+    {
+      "key": "conductor-lattice",
+      "status": "accepted",
+      "path": "research/notes/2026-10-13-generalization-conductor-theorem.md",
+      "sha256": "dc4ebb970839ae03b730f0dc824d9a7fe97275f28976565501cb4a02bcd2c314",
+      "bytes": 23430
+    },
+    {
+      "key": "Cartier-lift-classification",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md",
+      "sha256": "8ec323dad47b9286d4b031a9283d24b5b917c488fc2561e9004b99f9d47b5cfb",
+      "bytes": 10594
+    },
+    {
+      "key": "normal-carrier-indices",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-normal-carrier-torsion.md",
+      "sha256": "447a1a9ecc62ec060659980ea460fe4a045f3de3be0e03b1fe2f5cbda362e2db",
+      "bytes": 20205
+    },
+    {
+      "key": "full-socle-budget",
+      "status": "accepted",
+      "path": "research/notes/2026-10-13-generalization-socle-independent-audit.md",
+      "sha256": "737eb8efb68fa0cb6a3860e75f3237ab9b156397953a4ba1960c1762f9741100",
+      "bytes": 11433
+    },
+    {
+      "key": "strict-C0-relation-obstruction",
+      "status": "accepted",
+      "path": "research/notes/2026-10-13-generalization-thick-relation-obstruction-independent-audit.md",
+      "sha256": "f3c33067d06f0fae9d77c7557e73b965ff0ca9a31f3b9af216f8c18d00f39720",
+      "bytes": 10637
+    },
+    {
+      "key": "moving-relation-gap-cost",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-moving-relation-gap-cost-independent-audit.md",
+      "sha256": "4a66cdd77ee9fa9248b90d389c0955dedcc7ee5badad356de6b2f8f695817803",
+      "bytes": 2708
+    },
+    {
+      "key": "transverse-differential-socle",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-transverse-socle-independent-audit.md",
+      "sha256": "14a18d2c4b53687622957d71c1d4869ce7f02d35af5ce85c9364ec4835d90632",
+      "bytes": 2742
+    },
+    {
+      "key": "symbolic-ribbon",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-ribbon-independent-review.md",
+      "sha256": "91d890cc34a4c894178fd364cf1a60f64c906c8f631ed18047c1788b02a76254",
+      "bytes": 5361
+    },
+    {
+      "key": "observable-corank-one-pencil",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-localcoh-pencil-independent-review.md",
+      "sha256": "67027245fa7758deb0a2cbd0f2fff2cbb4c1e424673baf899931dfd64f361247",
+      "bytes": 2690
+    },
+    {
+      "key": "quintic-complete-h3",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-quintic-h3-results-acceptance.md",
+      "sha256": "441c15dda34d7d120d21ce28ce1c9c053ff1f9e12e9612e0b200609802c8e3d1",
+      "bytes": 5523
+    },
+    {
+      "key": "quintic-regular-sole-root",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-quintic-new-independent-audit.md",
+      "sha256": "bf1954efc92221eb7813c9068b5f405af64f4ffafb6362c1e6ecf4ed3533507c",
+      "bytes": 21279
+    },
+    {
+      "key": "ordinary-curvilinear-index12",
+      "status": "accepted; precursor superseded by full independent proof",
+      "path": "research/notes/2026-10-14-generalization-curvilinear-torsion-and-index12.md",
+      "sha256": "c4d9cd42d0c0528f8e129f920bd2a989ff47fa5c4efd97a7b85dea6f032b4f63",
+      "bytes": 8215
+    },
+    {
+      "key": "normal-local-power-socle-and-index4",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-normal-index-socle-theorem.md",
+      "sha256": "224bc8c2bb94b4a32ed50c335cf75bbf016ee4346d4123f488c884a8f4a80aeb",
+      "bytes": 8122
+    },
+    {
+      "key": "normal-index-socle-independent-proof",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-index12-filtered-compatibility.md",
+      "sha256": "08b827b6de245595b3ea09eefd3371d73cdf97eecb76388a927cd464b1bc643c",
+      "bytes": 15913
+    }
+  ],
+  "broken_local_links": [],
+  "new_degree15_attempt": {
+    "execution_record": "research/validation/2026-10-14-localcoh-degree15-attempt03/execution-record.json",
+    "session_id": 39282,
+    "last_authoritative_observation": "live on write_stdin at 2026-10-14 17:39 UTC; rational-pencil rank elimination, no mathematical completion claimed"
+  },
+  "link_check_scope": "Markdown links outside fenced, indented and inline code",
+  "updated_utc": "2026-10-14T17:46:40.733493+00:00"
+}

@@ -11,9 +11,10 @@ new parameter strata.
 
 The research branch is `research/ultra-resume-2026-10-06`. The latest
 externally observed HEAD is
-`f3d112499ce9295ca8ae34c9baef11c3c7859141`, title
+`624ed55a2407b19dc5535f9cb3cc2fdc294dc605`, title
 `2026-10-14 morning limit reached`; root did not create that commit.
-It follows the inherited `b16e432...` October 13 checkpoint. The
+It follows the prior external `f3d1124...` and inherited `b16e432...`
+checkpoints. The
 current continuation has additional file changes after this snapshot.
 Inspect current status rather than assuming a clean tree.
 
@@ -60,10 +61,11 @@ to use, with their recorded review status.
   2+4 and 3+3 lanes are closed in every mate degree. The 3+3 SUP wording
   is restricted to Jbar nonzero. Continue only the surviving homogeneous
   gcd/contact and actual conductor incidences.
-- New h3 zero-conormal and lambda=1 support bridges have new exact
-  division/Bezout evidence and dedicated review. The regular main h3
-  chart is reduced by actual residual-quintic root support; complete
-  multiplicity/leading-drop certificates are being finalized.
+- The whole h3 zero-conormal/proportional lane is now excluded by the
+  complete support cover and final original-six-generator witness.
+  Its root acceptance binds the completed execution and compressed
+  107MB literal. Do not restart its earlier unfinished saturation or
+  Hermite approaches.
 - The regular sole-root L2 chart has new higher-Taylor resultant and
   Bezout certificates. Review must retain the extra H factor in the
   rational cover: its being a unit follows from the explicit L1
@@ -75,6 +77,15 @@ to use, with their recorded review status.
   polynomials and one quadratic, with a complete normalized dual of
   lift degree at most two. Apply exact rank and unit checks on the
   remaining degree-fifteen field and every exceptional stratum.
+  The cubic/quartic factors' seven roots already have independently
+  verified original-tensor certificates; assume those correct. The
+  degree-fifteen attempt-five executes the frozen source snapshot in
+  `validation/2026-10-14-localcoh-degree15-attempt05/`, unified session
+  10554. Last observed live at the single exact block inverse. Retired
+  attempts three/four retain logs and the known M2 constructor/map-degree
+  equality issues. Inspect the exact handle before any restart. After
+  success run the new verifier with `--stem` ending in `attempt05`, which
+  checks the new dual against all eighteen original tensor columns.
 - Totally ramified split-sextic `[2,2]`: retain actual degree six,
   mate scale 8k and full conductor/higher-jet obligations. The quartic
   theorem does not close this lane.
@@ -85,10 +96,30 @@ to use, with their recorded review status.
    four-coordinate projection algebra and compute its Cartier-ray
    section's conductor-unit class. Full inverse support alone does not
    bound split phases; the new local countermodel records that failure.
-2. On non-Cartier singleton lifts, use the Cartier-index divisibility
-   `a | t deg(C)^2`, symbolic-ribbon periodicity and exceptional-lattice
-   corrections. Seek a uniform obstruction to their combined descent,
-   rather than treating normal-carrier degree as a new isolated case.
+2. On normal carriers, use the accepted exact torsion/local-index
+   formula and `a | deg(C)^2 R`, not a generic Picard assumption.
+   All normal C0 carriers with actual on-curve local indices at most
+   four are now excluded in every degree, including mixed D/E and
+   A1,A2,A3 configurations. Use the accepted local power-socle formula
+   and pointwise torsion identity from the
+   [filtered compatibility proof](notes/2026-10-14-generalization-index12-filtered-compatibility.md).
+   The newer symbolic-triple certificate strengthens the linear degree
+   bound to `4a^2-(7s+6)a+16s<=0` for a>=5,s>=3. Local Cartier multiples
+   of lengths two/three are primitive; a constant first direction needs
+   actual index-two contact or positive full defects at higher indices
+   to clear its symbolic-triple obstruction. Retain its actual apolar
+   pole divisor. The
+   [intrinsic normal comparison](notes/2026-10-14-generalization-normal-index-general-scope.md)
+   exists before a mate and removes every mate power from the reciprocal
+   index budget. Balanced rational degree-e support forces an actual
+   index at least e-1; at equality the characteristic-zero minimum CI
+   is a primitive (e-1)-fold curve with degrees (e-1,e).
+   Common exponent12 still leaves actual index-six and index-
+   twelve points in the `(6,8)` pair; preserve their higher local
+   socle defects and genuine index-twelve first-symbol poles.
+   Larger actual indices remain global tasks.
+   Symbolic-ribbon periodicity and exceptional-lattice corrections
+   supplement that local index data.
 3. On moving first relations, use the full relation-direction map and
    its derivative term. Charge movement and saturation defects to the
    exact conormal budget. Do not apply the fixed-direction cubic

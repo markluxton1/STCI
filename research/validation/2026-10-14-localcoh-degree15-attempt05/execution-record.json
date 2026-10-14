@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-14T17:54:58.638052+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-14-localcoh-degree15-attempt05/source.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "source_sha256": "245ebc76ca8a0f6ca5a39df946189890ab5eb5458c065e0d6e6537f9d88537c4",
+  "status": "running; no completion claimed",
+  "pid": 11670
+}

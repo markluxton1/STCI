@@ -8,6 +8,23 @@ full conormal/socle budget, its strict C0 equality obstruction and pole
 budget, the symbolic-ribbon/valuation criterion, and the complete degree-two
 dual theorem for observable corank-one pencils. New scoped quintic and
 exceptional-field work retains its separate evidence and review status.
+The October 14 local power-socle theorem and its
+[full independent proof](notes/2026-10-14-generalization-index12-filtered-compatibility.md)
+now give a linear normal-carrier degree bound from the largest actual
+local curve index, and exclude every normal C0 carrier whose on-curve
+indices are at most four in all carrier and mate degrees. Actual index-
+six/twelve strata remain open. The complete homogeneous gcd-three
+quintic lane also has a final accepted literal witness; its compressed
+archive and execution binding are indexed in the current state. These
+are new structural/scoped results, not a resolution of unrestricted C0
+or of the universal question. The new intrinsic normal-divisor comparison
+now applies before a mate in any smooth projective threefold. Its audited
+reciprocal-index budget forces maximum actual index at least e-1 for every
+balanced smooth rational degree-e curve, with a rigid primitive minimum
+CI at equality. The symbolic-triple certificate strengthens the C0
+normal degree bound to `4a^2-(7s+6)a+16s<=0` and retains actual index-two
+contact and higher full local defects. See the current state for proofs
+and independent reviews.
 The completed 3+3 all-mate audit supersedes the pending label immediately
 below; its stronger SUP conclusion is still restricted to Jbar nonzero.
 

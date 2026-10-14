@@ -1,0 +1,3 @@
+attempt04: degree15 field constructed; specializing seeds before elimination
+attempt04: canonical field pencil constructed; 25 seed denominators checked nonzero
+attempt04: inverting selected17x17 block once

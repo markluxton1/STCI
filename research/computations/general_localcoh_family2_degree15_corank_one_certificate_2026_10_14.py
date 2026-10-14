@@ -22,9 +22,12 @@ spec.loader.exec_module(arithmetic)
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--verify',action='store_true')
+    parser.add_argument('--stem',default=STEM,help='Exact new computation source/output stem; default preserves attempt02 lineage.')
     args=parser.parse_args()
+    stem=args.stem
+    assert re.fullmatch(r'general-localcoh-family2-degree15-corank-one-2026-10-14(?:-attempt\d+)?',stem),'unexpected source/output stem'
     audit=arithmetic.Audit('degree15')
-    certificate=HERE/(STEM+'-certificate.json')
+    certificate=HERE/(stem+'-certificate.json')
     if args.verify:
         record=json.loads(certificate.read_text())
         for name,digest in record['sha256'].items():
@@ -33,12 +36,12 @@ def main():
         dual=list(map(audit.decode,record['dual']))
     else:
         dual=[]
-        for row,line in enumerate((HERE/(STEM+'-dual.txt')).read_text().splitlines()):
+        for row,line in enumerate((HERE/(stem+'-dual.txt')).read_text().splitlines()):
             index,expression=line.split(maxsplit=1)
             assert int(index)==row
             expression=re.sub(r'\bz\b','k',expression)
             dual.append(audit.expr(expression))
-        names=arithmetic.INPUTS+[STEM+'.m2',STEM+'-dual.txt',Path(__file__).name]
+        names=arithmetic.INPUTS+[stem+'.m2',stem+'-dual.txt',Path(__file__).name]
         record={
             'case':'degree15',
             'modulus_coefficients':list(map(str,audit.mod)),
