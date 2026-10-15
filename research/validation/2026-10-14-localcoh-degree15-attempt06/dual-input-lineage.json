@@ -1,0 +1,28 @@
+{
+  "scope": "Accepted rational pencil and row transform serialized exactly; no inherited verifier rerun.",
+  "matrices": {
+    "A": [
+      18,
+      18
+    ],
+    "B": [
+      56,
+      18
+    ],
+    "v": [
+      18,
+      1
+    ],
+    "w": [
+      56,
+      1
+    ],
+    "T": [
+      74,
+      74
+    ]
+  },
+  "source_sha256": "245ebc76ca8a0f6ca5a39df946189890ab5eb5458c065e0d6e6537f9d88537c4",
+  "preparer_sha256": "e1e4083135bf0a733281f71e066fcabb037862db86f97b5bd86c58569f42b077",
+  "dual_input_sha256": "d84a663850dd768eb1728ea380fc9c447981c2363883209c8f311255127d6197"
+}

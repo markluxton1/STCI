@@ -1,0 +1,2 @@
+PASS jzero A4 value, literal first coefficient, and literal second coefficient on its only surviving first-drop locus
+COMPLETE new intrinsic A4 contact identities; no accepted verifier replay

@@ -46,6 +46,13 @@ This continuation did not repeat that search. Neither restricted monomial
 or cuspidal results nor invalid affine claims resolve the universal
 projective question.
 
+Research strategy after the user's October 14 steering: parallel workers
+should pursue different mathematical approaches and shared structural
+mechanisms, not distribute a growing list of narrow degree, root or
+multiplicity cases. The existing quintic lane remains a dedicated
+completion target. Its remaining charts should be organized by their
+common conductor geometry; accepted closed charts are premises.
+
 ## 2. Exact fixed-carrier criterion, all branches and all characteristics
 
 **PROVED with independent new-proof audits:** let an integral
@@ -126,6 +133,36 @@ Proof: [carrier framework](notes/2026-10-13-generalization-global-carrier-framew
 Independent audit: [smooth-normalization audit](notes/2026-10-13-generalization-smooth-normalization-independent-audit.md).
 Extension: [Cartier-lift theorem](notes/2026-10-14-generalization-cartier-lift-minimal-degree.md)
 and [independent audit](notes/2026-10-14-generalization-cartier-lift-independent-audit.md).
+
+**PROVED with independent review:** residual conductor torsion on all
+three normalized models is detected by equality of entire contact
+divisors on proper normalized off-diagonal pair curves, followed by
+root-of-unity tests of their constant phases. In a single residual field,
+contact equality already forces the constants to be roots of unity.
+Every contact occurs at a transverse differential zero; leading terms
+there give the phase. Full nilpotent conductor defects remain separate.
+The entire degree-eight smooth-quadric projection family has sixteen
+parameters: its first normal jet is an arbitrary pair of quintics with
+an explicit linear inverse, and four independent parameters affect only
+higher jets. This preserves a universal family rather than separate
+first-jet cases.
+Proof and review: [contact and phase criterion](notes/2026-10-14-generalization-projection-contact-phase-criterion.md),
+[independent review](notes/2026-10-14-generalization-projection-contact-phase-independent-review.md).
+
+The actual canonical conductor and normalization differential satisfy
+the pointwise identity `Z(F_1)=B|c+A`, with
+`B~(a-4)H-K_S`, under the reviewed Gorenstein-normalization and smooth
+Cartier-lift hypotheses. Hence total weighted conductor contact is
+20 in both quadric models and 51 in the plane model. Total ordered pair
+contact is at most 140 or 765 respectively. This bounds integer contact
+graphs uniformly in every mate degree; split phase orders remain
+unbounded. For the sublane with only single-field residual algebras, an
+existing mate has minimum degree dividing 840 or 720720 respectively,
+with full logarithmic defects retained. Broader non-Gorenstein claims
+remain proposals unless their extension receives a written audit.
+Proofs: [conductor--Jacobian bridge](notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md),
+[contact budget](notes/2026-10-14-generalization-projection-conductor-contact-budget.md).
+Review: [canonical budget audit](notes/2026-10-14-generalization-projection-conductor-budget-independent-review.md).
 
 **PROVED in every characteristic:** if a smooth degree-d genus-g curve
 is Cartier on an integral hypersurface carrier admitting a mate, that
@@ -258,6 +295,43 @@ with explicit local CI families achieving them. Consequently local
 numerical restrictions alone do not rule out arbitrarily high contact.
 See [higher moments](notes/2026-10-13-generalization-higher-moment-and-loewy-bounds.md).
 
+**PROVED, independently audited:** for a moving pure-power first relation
+`m^r`, the complete sole-relation obstruction bundle at correction order
+r+k is `H^-k M^-(r+k+1) tensor Sym^(r-1)V`. On a balanced rational curve
+with H=O(lambda), M=O(-e), all corrections before a gap g have vanishing
+obstruction groups when `(r+g)e>=lambda(g-1)-1` for e<lambda. This
+constructs actual finite Cohen--Macaulay thickenings of the form
+`(P,I_C^(r+g))`, not STCI pairs. Thus finite first-relation tests cannot
+uniformly exclude moving relations. At the first coprime next relation
+of degree s, however, its evaluation divisor pays at least `(r-1)e`.
+Writing g=s-r, the full defect satisfies
+`Delta>=r e g(g+1)/2+delta_0+e(r-1)(g+1)`, with the actual first-relation
+divisor retained. A moving pure power r>=2 cannot have an initial binary
+CI with the same two generator degrees in every fiber and zero
+degeneration. Neither statement excludes special-point defects or a
+noncoprime next relation.
+Proofs: [obstruction tower](notes/2026-10-14-generalization-moving-power-obstruction-tower.md),
+[second-relation payment](notes/2026-10-14-generalization-moving-power-second-relation.md).
+Reviews: [tower audit](notes/2026-10-14-generalization-moving-purepower-tower-independent-audit.md),
+[second-relation audit](notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md).
+
+**PROVED with an independent new-proof audit:** an arbitrary saturated
+binary first relation determines a finite flat root divisor Z over C.
+A fiberwise coprime quotient second generator of degree s exists
+exactly when `O_Z(s)` descends from C. This is torsion in
+`Pic(Z)/pi^*Pic(C)`, including the nonreduced root scheme. Moving roots
+force a nonsplit second-generator extension; assuming a global second
+polynomial line would discard valid graded families. Smooth elliptic
+(2,2) root curves supply arbitrarily large second degrees and can meet
+the full numerical socle constraints. They are abstract graded
+families, not ambient constructions. The actual ambient obstruction
+is the exceptional-neighborhood extension class contracted with df;
+for the whole (2,2) family it lies in one four-dimensional quotient
+`H1(O(-5,3))/f H1(O(-7,1))`. This turns the next problem into one
+geometric lifting incidence rather than a list of projective degrees.
+Proof and audit: [root-curve criterion](notes/2026-10-14-generalization-spectral-root-curve-relations.md),
+[spectral audit](notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md).
+
 ## 5. Symbolic ribbons beyond an actual Cartier double
 
 **PROVED, independently reviewed:** on a normal surface with a smooth
@@ -291,13 +365,17 @@ determinantal fallbacks retain every exceptional stratum.
 Proof: [polynomial-dual theorem](notes/generalization-localcoh-dual-lemma.md).
 Review: [pencil review](notes/2026-10-14-generalization-localcoh-pencil-independent-review.md).
 This does not certify the exact rank locus of every ancestor family.
-The seven roots of the family-two cubic/quartic factors have already
-verified full-fiber exclusion certificates and are removed. The remaining
-fifteen roots are under active new computation; no accepted original-tensor
-verifier was repeated. The retired attempt-three/four records preserve their logs and failure
-lineage. The current attempt-five executes its frozen validation source
-using one exact specialized block inverse; no exclusion is accepted until
-its original-tensor dual is independently checked.
+The entire family-two finite exceptional set is now closed: the seven
+accepted cubic/quartic roots plus all fifteen roots of f15. A new
+fraction-free integer-polynomial inverse, followed by one scalar inverse
+modulo f15, produced a normalized polynomial dual of actual lambda degree
+one. An independent standard-library verifier checked all eighteen
+original-tensor columns modulo the entire degree-fifteen polynomial.
+All three new execution stages exited zero with empty stderr. No accepted
+tensor interpretation, rank/top check or seven-root verifier was rerun.
+Retired attempts three/four/five retain their exact interruption/failure
+lineage and are not certificates. Proof, reusable method and source
+bindings: [fraction-free certificate](notes/2026-10-14-localcoh-degree15-fractionfree-certificate.md).
 
 ## 7. Continuing quintic and ancestor research
 
@@ -329,10 +407,42 @@ sole-root lane, Jbar=0 and other common-root incidences remain outside
 that regular-chart closure. Other quintic normalizations remain open.
 
 The common-quartic-ancestor problem is distinct from an actual quartic
-mate. Family-two cubic/quartic field dual outputs, the remaining
-degree-fifteen field, boundary three/four, nonendpoint top zeros and
-positive-D2 directions retain their precise recorded scope. A failed
-large module run is not a negative certificate.
+mate. All twenty-two finite family-two exception roots are now excluded
+with original-tensor duals. Boundary three/four, nonendpoint top zeros,
+the other family and positive-D2 directions retain their precise
+recorded scope. A failed large module run is not a negative certificate.
+
+The dedicated quintic continuation now uses one shared Hamiltonian
+support condition. Its [independent proof review](notes/2026-10-14-generalization-quintic-logarithmic-support-independent-audit.md)
+accepts `support(F) subset support(H) iff F divides D_H F` over
+characteristic-zero fields, retaining infinity, multiplicities and the
+Jbar=0 intrinsic A4 allowance. It is not an assertion about arbitrary
+nonreduced parameter bases.
+
+**PROVED with an independent new-proof audit:** the whole homogeneous
+h2 conormal gcd divides the actual conductor octic. The conductor
+annihilates the relative differential module, giving all finite root
+multiplicities; the accepted A4 value completes the possible simple
+infinity factor. Thus the actual support condition reduces to one
+homogeneous sextic Q=F/H and the simultaneous system
+
+```
+D_(H*s) Q=L_1 Q,     j D_H Q=mu Q,
+```
+
+with the intrinsic A4 point s=0 retained. This is a single shared
+incidence, not separate multiplicity partitions. The corrected exact
+source-coordinate capture and the reduced sextic capture both exited
+zero with empty stderr. The earlier attempt04 used p=1-z instead of
+p=1/z and remains a rejected geometric binding; its algebraic output
+is preserved as a failed bridge, not a certificate.
+Proof and review: [conductor quotient](notes/2026-10-14-generalization-quintic-h2-conductor-quotient.md),
+[h2 factor audit](notes/2026-10-14-generalization-quintic-h2-conductor-factor-independent-audit.md).
+Coordinate and coefficient bindings: [corrected sextic incidence](notes/2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence.md).
+The sextic incidence is not yet proved empty. Its small norm factors
+are necessary strata, not forbidden projection factors. The new
+intrinsic-A4 contact bound is being independently finalized; it is not
+yet used here to claim h2 closure.
 
 ## 8. Local power-socle compatibility and new all-degree normal exclusion
 
@@ -470,6 +580,53 @@ For C0, degree8 projections require
 `1<=deg A<=6`, `(4b-1)deg A>=51`. Thus all transverse-coprime
 projections in this lane are excluded across all mate degrees.
 The proof does not cover rank-two first layers or non-Cartier lifts.
+
+**PROVED with independent new coefficient and geometric reviews:** an
+everywhere primitive C0 multiple of length N>=4 with conormal O(-6)
+is contained in the actual quadric. The new cubic calculation leaves
+only the quadric's degree-one moving relation, and vanishing H0 of the
+later correction bundles makes its finite principal ideal unique at
+every length. Hence a normal degree-a carrier with such an entire
+symbolic multiple must satisfy N<a/2; equality would construct a
+forbidden actual quadric mate. In particular the whole symbolic
+quadruple on a normal octic cannot be primitive with that conormal.
+This is stronger than a generic first-symbol assertion and does not
+discard special-point torsion.
+Proofs and reviews: [cubic classification](notes/2026-10-14-moving-linear-cubic-compatibility.md),
+[independent cubic expansion](notes/2026-10-14-moving-linear-cubic-independent-audit.md),
+[ideal rigidity and carrier consequence](notes/2026-10-14-moving-linear-ideal-rigidity-independent-audit.md).
+
+**PROVED with independent geometric review:** the
+[strict-transform bridge](notes/2026-10-14-generalization-blowup-root-curve-primitive-bridge.md)
+connects actual supported CIs to the spectral ambient obstruction.
+With the literal saturated first-relation, joint leading basepoint-free,
+smooth root divisor and generic initial CI(r,s) hypotheses, the strict
+intersection is an actual primitive (s-r)-fold root curve for s-r>=2.
+Locally one strict surface is smooth; inside it the other cuts the
+power of the smooth root curve. This splits the conormal sequence and
+forces the actual `kappa(df)=0`. Joint leading base points cannot be
+saturated away: the audit preserves an explicit family producing an
+entire vertical exceptional fiber there.
+Review: [blowup bridge audit](notes/2026-10-14-generalization-blowup-root-curve-bridge-independent-audit.md).
+The bridge supplies necessity, not an unproved value/nonvanishing of
+that obstruction.
+
+**PROVED, independently audited:** on a generically regular carrier with
+full singleton smooth Cartier lift c, the actual conductor/socle comparison
+is pointwise:
+
+```
+D_n=(n-1)A-B|c.
+```
+
+Here B is the actual conductor near c and A the full transverse zero
+divisor. This refines the accepted total-degree bound to every point,
+including its full embedded top-power defect. The proof retains the
+finite cokernel of the pulled-back normalized thickening and proves
+that the relative Jacobian is an actual socle generator.
+Review and full proof: [pointwise conductor--socle comparison](notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md).
+Residual phases, logarithmic defects and arbitrary non-Cartier or
+multibranch lifts remain separate conditions.
 
 ## 9. Global unresolved obligations
 

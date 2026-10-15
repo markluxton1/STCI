@@ -1,6 +1,7 @@
 # A uniform obstruction tower for moving power relations
 
-Date: 2026-10-14. Status: **NEW STRUCTURAL THEOREM; independent audit requested**.
+Date: 2026-10-14. Status: **PROVED NEW STRUCTURAL THEOREM, independently reviewed in
+[the tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).**
 The accepted balanced conormal bundle and embedded transition of `C0` are
 premises. The statement concerns the compatibility of a single first normal
 relation, and proves a boundary of that method rather than an STCI exclusion.
@@ -200,8 +201,8 @@ Inputs used as accepted premises:
 New independent review:
 
 - [Moving linear quadratic obstruction and pure-power quadratic splitting](2026-10-14-moving-linear-quadratic-obstruction-independent-audit.md).
-- A separate higher-tower audit has been requested and must be linked here
-  before the finite-order lifting theorem is promoted to canonical status.
+- [Completed independent higher-tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
+  Its finite-order scope is now accepted; it supplies no global STCI pair.
 
 The useful next targets are the cubic obstruction on the degree-one linear
 zero locus; compatibility of a second independent relation with a moving

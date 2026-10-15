@@ -1,0 +1,5 @@
+FLINT fraction-free input read; starting polynomial inverse
+Polynomial inverse returned; denominator degree 280; CPU 3.160 seconds
+PASS both exact Z[k] adjugate identities
+PASS degree15 unit checks and both specialized inverse identities
+PASS exact inverse saved; total CPU 5.201 seconds

@@ -1,7 +1,7 @@
 # Degree-one moving linear relations: the cubic obstruction
 
-Date: 2026-10-14. Status: new exact cubic calculation, awaiting independent
-sign/frame audit. The accepted embedded chart and the independently established
+Date: 2026-10-14. Status: new exact cubic calculation, independently accepted in the
+[sign/frame audit](2026-10-14-moving-linear-cubic-independent-audit.md). The accepted embedded chart and the independently established
 quadratic obstruction locus are premises; neither is re-audited here.
 
 The calculation below eliminates the nonquadric members of the quadratic

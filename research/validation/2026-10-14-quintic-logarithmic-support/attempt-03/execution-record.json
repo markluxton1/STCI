@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-15T02:32:27.539619+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-14-quintic-logarithmic-support/attempt-03/source.m2"
+  ],
+  "source_sha256": "cbad84900f9c77cbf1685c454f8af8076276cd9aa1579d144295f21c6b58a267",
+  "scope": "new exact 9x2 homogeneous eigenvector incidence; no no-mate conclusion",
+  "inputs": {
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-2.txt": "cfc19dfb4e3228641bebb3e802f6c79e4b9ebcb24dee38637b51c96f82d73adc",
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-3.txt": "b0b71e9a28b6d808665b15986a03cf1639e25905e3a94278c05f0b7abb493b46",
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-1.txt": "ee30fc5f59a2026dd42bc0fa71166227a8f8145dd73991bde7c17fa000c9c62a",
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-0.txt": "8b5f9d885823daafb548f2538577c12504b81013799df18312f18accdd5138fb",
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-4.txt": "306abbfedf1f66d762b093269791b7b15ce91665ab15719b0dc03c8ce69ca430",
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-5.txt": "6811a4cf38b23e61de0f828f41b061f080072a71f1b0c1fed6f3d7d8ad8926c7",
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-7.txt": "e22dafb0d8683cfda65e337f6ccc472e23961151ef9ae887840019b97ef14f01",
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-6.txt": "fb263bb7beb3bfdc914d5e5469ac726b6e8fb4d4ffc60f28f6d2bafcbd2f4998",
+    "research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-8.txt": "f6cea0e9d49eae64a6b632bbb7d78e17f1637a4e8403c73b053a6ece65daade5"
+  },
+  "exit_code": 1,
+  "finished_utc": "2026-10-15T02:32:28.473607+00:00"
+}

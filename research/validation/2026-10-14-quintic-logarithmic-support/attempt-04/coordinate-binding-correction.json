@@ -1,0 +1,10 @@
+{
+  "status": "incorrect-coordinate-binding-preserved",
+  "computational_execution_status": "exit-zero-coefficient-capture",
+  "mathematical_scope_correction": "The saved octic coefficients describe Fdet(1-x,1), while the quadratic h2 cover describes x=r/delta. The actual octic variable is p=delta/r=1/x. Thus the attempt04 Hamiltonian matrix does not define the intended actual h2 conductor-support incidence.",
+  "original_outputs_modified": false,
+  "corrected_capture": "../attempt-05-correct-coordinate/execution-record.json",
+  "reduced_sextic_capture": "../attempt-06-sextic-quotient/execution-record.json",
+  "proof_and_scope": "../../../notes/2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence.md",
+  "claims_withdrawn": "No emptiness or closure claim was made from attempt04. Its label as actual common-coordinate h2 support incidence is withdrawn."
+}

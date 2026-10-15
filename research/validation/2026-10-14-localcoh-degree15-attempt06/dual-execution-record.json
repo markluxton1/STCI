@@ -1,0 +1,23 @@
+{
+  "method": "FLINT exact quotient-field corank-one dual from explicit inverse",
+  "started_utc": "2026-10-15T02:16:09.554582+00:00",
+  "command": [
+    "/private/tmp/stci-f15-fractionfree-dual",
+    "research/validation/2026-10-14-localcoh-degree15-attempt06/dual-input.txt",
+    "research/validation/2026-10-14-localcoh-degree15-attempt06/field-inverse.txt",
+    "research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-dual.txt",
+    "research/validation/2026-10-14-localcoh-degree15-attempt06/obstructions.txt"
+  ],
+  "source_sha256": "02fb2ec88243a3d524fd923b6c39eb55addd703bbd1af6a2f2e74b4ff209cc94",
+  "input_sha256": "d84a663850dd768eb1728ea380fc9c447981c2363883209c8f311255127d6197",
+  "inverse_sha256": "e45a4844e319b28a519eb4b10c332017606fd3719844175c17f36d9161331f37",
+  "binary_sha256": "09cddc22092e72491b738e52746587ee525cea7b1caac0ae1a5424cd55b3d0b5",
+  "scope": "New canonical dual; originaltensor verification still required.",
+  "pid": 16972,
+  "exit_code": 0,
+  "finished_utc": "2026-10-15T02:16:10.824696+00:00",
+  "research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-dual.txt_sha256": "35f9ffbd8b50949da772cdd196b5c3b2f525ff591bf85b070ed810991408b0c6",
+  "research/validation/2026-10-14-localcoh-degree15-attempt06/obstructions.txt_sha256": "7d910bfba4b94337ac99451642261c77a23f600cf4d6eb8748a07537a6e5cd7a",
+  "research/validation/2026-10-14-localcoh-degree15-attempt06/dual-stdout.txt_sha256": "9de7639af60b92de748744cf8881b93140d7c9b0cd3f8065e7f9373e956ae982",
+  "research/validation/2026-10-14-localcoh-degree15-attempt06/dual-stderr.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,6 +1,7 @@
 # A moving power forces degeneration of the next coprime relation
 
-Date: 2026-10-14. Status: **NEW PROOF; independent audit requested**.
+Date: 2026-10-14. Status: **PROVED, independently reviewed in
+[the second-relation audit](2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md).**
 This is a global relation-bundle obstruction, uniform in the two
 hypersurface degrees. Accepted normal-layer defect identities and the
 accepted movement-gap cost are premises. No previously verified
@@ -210,10 +211,10 @@ New structural input:
 - [Moving-power quotient and obstruction tower](2026-10-14-generalization-moving-power-obstruction-tower.md).
 - [Independent tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
 
-An independent review of this note's second-relation evaluation and
-exact torsion-inclusive defect formulas has been requested. This note
-must not be promoted beyond its written audit status until that review
-is complete.
+The [completed independent review](2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md)
+accepts the second-relation evaluation, exact torsion-inclusive degree
+identity and the combined defect bound under their stated hypotheses.
+The full written proofs, rather than agreement alone, establish these claims.
 
 The first-relation tower and the new payment address different stages:
 movement can eliminate first-relation cohomology obstructions, while

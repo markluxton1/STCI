@@ -23,6 +23,7 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--verify',action='store_true')
     parser.add_argument('--stem',default=STEM,help='Exact new computation source/output stem; default preserves attempt02 lineage.')
+    parser.add_argument('--generator-file',action='append',default=[],help='Actual generator source or evidence path relative to computations; repeatable. Without this option the historical stem.m2 source is bound.')
     args=parser.parse_args()
     stem=args.stem
     assert re.fullmatch(r'general-localcoh-family2-degree15-corank-one-2026-10-14(?:-attempt\d+)?',stem),'unexpected source/output stem'
@@ -41,7 +42,8 @@ def main():
             assert int(index)==row
             expression=re.sub(r'\bz\b','k',expression)
             dual.append(audit.expr(expression))
-        names=arithmetic.INPUTS+[stem+'.m2',stem+'-dual.txt',Path(__file__).name]
+        generator_files=args.generator_file or [stem+'.m2']
+        names=arithmetic.INPUTS+generator_files+[stem+'-dual.txt',Path(__file__).name]
         record={
             'case':'degree15',
             'modulus_coefficients':list(map(str,audit.mod)),
@@ -50,6 +52,7 @@ def main():
             'scope':'Accepted actual quartic-ancestor tensor; second rational endpoint family; every root of degree15 factor; every affine lower lift lambda.',
             'inherited_scope':'Accepted actual tensor and coordinate/top-map interpretations are used without re-verification.',
             'new_checks':'Polynomial normalized dual degree at most2; all18 tensor-column identities modulo entire degree15 polynomial; target coordinate72 equals1.',
+            'generator_files':generator_files,
         }
     assert len(dual)==74
     assert dual[72]=={0:audit.one}

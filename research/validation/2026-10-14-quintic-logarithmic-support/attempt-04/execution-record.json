@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-10-15T02:33:01.255669+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-14-quintic-logarithmic-support/attempt-04/source.m2"
+  ],
+  "source_sha256": "e6410c83bab535fc4bae59cd57e679e410bf8e07a6a899aaf38d436499210a2b",
+  "scope": "NEW exact homogeneous9x2 supportincidence; same savedcoefficients, no oldverifierreplay",
+  "prior_failure": "M2 applyrangeSequence rowconstruction; converttoexplicitList",
+  "exit_code": 0,
+  "finished_utc": "2026-10-15T02:33:02.571728+00:00"
+}

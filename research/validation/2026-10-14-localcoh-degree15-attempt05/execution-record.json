@@ -7,6 +7,9 @@
   ],
   "cwd": "/Users/markluxton/Projects/STCI",
   "source_sha256": "245ebc76ca8a0f6ca5a39df946189890ab5eb5458c065e0d6e6537f9d88537c4",
-  "status": "running; no completion claimed",
-  "pid": 11670
+  "status": "not running at authoritative inspection; no terminal exit code captured",
+  "pid": 11670,
+  "last_observed_utc": "2026-10-15T02:09:34Z",
+  "process_observation": "write_stdin session10554 unknown; /bin/ps -p11670 returned no process; log ends during selected field-block inverse",
+  "replacement": "attempt06 fraction-free polynomial inverse, new dual and independent original-tensor verification all completed exit0"
 }

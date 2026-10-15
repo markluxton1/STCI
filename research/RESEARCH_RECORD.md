@@ -28,6 +28,18 @@ and independent reviews.
 The completed 3+3 all-mate audit supersedes the pending label immediately
 below; its stronger SUP conclusion is still restricted to Jbar nonzero.
 
+The subsequent October 14 continuation completes all twenty-two finite
+family-two exceptional roots with normalized original-tensor duals.
+The successful new degree-fifteen proof uses a reusable fraction-free
+polynomial inverse and one scalar quotient-field inverse; its original-
+tensor verification exited zero. Broader advances are the root-curve
+Picard descent criterion, the actual canonical conductor contact budget,
+and a uniform next-relation degeneration cost. These are independently
+reviewed; ambient lifting of arbitrary root curves and the remaining
+quintic conductor incidence are still open. Parallel work is organized
+by distinct mathematical mechanisms, following the user's direction,
+with one dedicated quintic completion lane and no case-fanout program.
+
 The [October 12 evening acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
 now excludes every coprime homogeneous conormal pair in the admissible
 nonendpoint genus-one quintic lane in every characteristic-zero mate degree.
