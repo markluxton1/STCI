@@ -1,0 +1,38 @@
+{
+  "scope": "Exact format-only export of the 12 existing normalized-generator files.",
+  "source_sha256": "eceb4ce244115bf6893737cb26cc93f281fe8b5780b84c096221fcb4142e38d1",
+  "runner_sha256": "82094e2a957afd37c9efbeba7c9894f182076eb70ac83a2196867d11914685bb",
+  "inputs": {
+    "normalized-generator-0.txt": "eb2cc33ac38e699581a129c8be7c387ab04356d83abffa206ad3d37ae4b48db3",
+    "normalized-generator-1.txt": "4c76dafd8e77090af56540004dd7e047a2b4e087fc5eba21745c1b91c096aa0c",
+    "normalized-generator-2.txt": "7da607ddcea9b66b591a0d537a705d5106c5ac80196aada8db48616db53c801a",
+    "normalized-generator-3.txt": "2751d9312271844d959065c2806b666d5fed720c2b7b2aaa2feeede770ac8e2b",
+    "normalized-generator-4.txt": "66be7415ae1734f2ca96a0175f06b134387a404cde4c3ed5a3771dbb61e12f93",
+    "normalized-generator-5.txt": "58b2685d6f04b1ee23e3039dc6e2113fe2b771f18322ebd22bd5fc0d701981ed",
+    "normalized-generator-6.txt": "306af86252b50ba7e4bee18eee4253ccbaa6709cef98160f1b88376a3e4df6ff",
+    "normalized-generator-7.txt": "9aeed75301557c42431631fed1336352c962b842b48af6cd670879561f69d7f8",
+    "normalized-generator-8.txt": "1e99e512d63b6cf25c14e1294039f1fbc39ead1bcc54ae19bd2c6370d1dd2432",
+    "normalized-generator-9.txt": "05ce202ba561e74266c5ccd90702bd0558efc8cca63609040d88e09772704dd4",
+    "normalized-generator-10.txt": "0982968ff8d1cd4f8f5028b214ad176c2a5467f0f8bbfd335bbd68d26b80aff2",
+    "normalized-generator-11.txt": "79347be5d1d8b30ef336e565f60e921df9bbb446f0ef8455b1241201ffce50fb"
+  },
+  "outputs": {
+    "horner-generator-0.txt": "0d941ff50837d75b083bff8d834e160d19d0327c0ce8d36052fd57f33e6ef256",
+    "horner-generator-1.txt": "fb810e023961328a6c2787a660d3f85fdf60d2b863dacdf729732f7cd7e97ef9",
+    "horner-generator-2.txt": "b98826d6ee1a416308913be9efb92678786ebe3d9e1f07907588e612cd89af36",
+    "horner-generator-3.txt": "95546726954bbae50e8885162d0ebe6cdf94fbfb8dfc0511c9e4fbdd20c39a4c",
+    "horner-generator-4.txt": "bc9987b925219e65948339b85519972cd063047d98f645ff722dac4b3afce7d5",
+    "horner-generator-5.txt": "1f0d596a73180bda06ef591d3ee33382d2717a17de3567c6fe7437f87d4dc5f6",
+    "horner-generator-6.txt": "132b3630a7dcd847619f61a556f28e87af647147cbf23667761890722331f0aa",
+    "horner-generator-7.txt": "5173d9b47acdb59a2c1a346b79b55f1ab759023c27c8cc80bef53cf973cc5c98",
+    "horner-generator-8.txt": "20c8586fc789306745bdb287b64a4022fbf8a560e490deea73dc16ab4cdb52c7",
+    "horner-generator-9.txt": "bf1606fc6e525f7620c8103354823c7683bf76eeaf3d14409ec635e2e0214e02",
+    "horner-generator-10.txt": "4105af8538608ae3174e25a292bed25813e6c93f2dcbb0d48d7a066623e4e1d1",
+    "horner-generator-11.txt": "ed181b3d82f06699cbeb134861fb1cdc2d34c1f317e56fd0dc0d5143d2c5022e"
+  },
+  "runner_snapshot_sha256": "82094e2a957afd37c9efbeba7c9894f182076eb70ac83a2196867d11914685bb",
+  "totals": {
+    "flat_bytes": 3566339,
+    "horner_bytes": 2253870
+  }
+}

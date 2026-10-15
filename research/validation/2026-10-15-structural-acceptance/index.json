@@ -1,0 +1,426 @@
+{
+  "created_utc": "2026-10-15T19:11:08.614536+00:00",
+  "goal_status": "active; universal problem and unrestricted C0 unresolved",
+  "observed_head": "2e9ea8100d39a181fe7010160366b940be531b8d",
+  "authority": "research/AUDITED_STATE_2026-10-14.md",
+  "scope": "Proof-record hashes and local link integrity only; not mathematical verification; accepted proofs/verifiers not replayed",
+  "predecessor_index": "research/validation/2026-10-14-generalization-acceptance/index.json",
+  "predecessor_sha256": "8d9568940156aba616ff62fcf10aa42cb22e136c30bda07e888ef1f0670226b1",
+  "records": [
+    {
+      "key": "conductor-lattice",
+      "status": "accepted",
+      "path": "research/notes/2026-10-13-generalization-conductor-theorem.md",
+      "sha256": "dc4ebb970839ae03b730f0dc824d9a7fe97275f28976565501cb4a02bcd2c314",
+      "bytes": 23430
+    },
+    {
+      "key": "Cartier-lift-classification",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md",
+      "sha256": "8ec323dad47b9286d4b031a9283d24b5b917c488fc2561e9004b99f9d47b5cfb",
+      "bytes": 10594
+    },
+    {
+      "key": "normal-carrier-indices",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-normal-carrier-torsion.md",
+      "sha256": "447a1a9ecc62ec060659980ea460fe4a045f3de3be0e03b1fe2f5cbda362e2db",
+      "bytes": 20205
+    },
+    {
+      "key": "full-socle-budget",
+      "status": "accepted",
+      "path": "research/notes/2026-10-13-generalization-socle-independent-audit.md",
+      "sha256": "737eb8efb68fa0cb6a3860e75f3237ab9b156397953a4ba1960c1762f9741100",
+      "bytes": 11433
+    },
+    {
+      "key": "strict-C0-relation-obstruction",
+      "status": "accepted",
+      "path": "research/notes/2026-10-13-generalization-thick-relation-obstruction-independent-audit.md",
+      "sha256": "f3c33067d06f0fae9d77c7557e73b965ff0ca9a31f3b9af216f8c18d00f39720",
+      "bytes": 10637
+    },
+    {
+      "key": "moving-relation-gap-cost",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-moving-relation-gap-cost-independent-audit.md",
+      "sha256": "4a66cdd77ee9fa9248b90d389c0955dedcc7ee5badad356de6b2f8f695817803",
+      "bytes": 2708
+    },
+    {
+      "key": "transverse-differential-socle",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-transverse-socle-independent-audit.md",
+      "sha256": "14a18d2c4b53687622957d71c1d4869ce7f02d35af5ce85c9364ec4835d90632",
+      "bytes": 2742
+    },
+    {
+      "key": "symbolic-ribbon",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-ribbon-independent-review.md",
+      "sha256": "91d890cc34a4c894178fd364cf1a60f64c906c8f631ed18047c1788b02a76254",
+      "bytes": 5361
+    },
+    {
+      "key": "observable-corank-one-pencil",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-localcoh-pencil-independent-review.md",
+      "sha256": "67027245fa7758deb0a2cbd0f2fff2cbb4c1e424673baf899931dfd64f361247",
+      "bytes": 2690
+    },
+    {
+      "key": "quintic-complete-h3",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-quintic-h3-results-acceptance.md",
+      "sha256": "441c15dda34d7d120d21ce28ce1c9c053ff1f9e12e9612e0b200609802c8e3d1",
+      "bytes": 5523
+    },
+    {
+      "key": "quintic-regular-sole-root",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-quintic-new-independent-audit.md",
+      "sha256": "bf1954efc92221eb7813c9068b5f405af64f4ffafb6362c1e6ecf4ed3533507c",
+      "bytes": 21279
+    },
+    {
+      "key": "ordinary-curvilinear-index12",
+      "status": "accepted; precursor superseded by full independent proof",
+      "path": "research/notes/2026-10-14-generalization-curvilinear-torsion-and-index12.md",
+      "sha256": "c4d9cd42d0c0528f8e129f920bd2a989ff47fa5c4efd97a7b85dea6f032b4f63",
+      "bytes": 8215
+    },
+    {
+      "key": "normal-local-power-socle-and-index4",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-normal-index-socle-theorem.md",
+      "sha256": "224bc8c2bb94b4a32ed50c335cf75bbf016ee4346d4123f488c884a8f4a80aeb",
+      "bytes": 8122
+    },
+    {
+      "key": "normal-index-socle-independent-proof",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-index12-filtered-compatibility.md",
+      "sha256": "08b827b6de245595b3ea09eefd3371d73cdf97eecb76388a927cd464b1bc643c",
+      "bytes": 15913
+    },
+    {
+      "key": "intrinsic-normal-index",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-normal-index-general-scope.md",
+      "sha256": "b577031540506a8bb85d218246370b9cf1df82ed0648f84fecf2ef2a4d0677c8",
+      "bytes": 14720
+    },
+    {
+      "key": "intrinsic-normal-index-review",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-normal-index-general-scope-independent-audit.md",
+      "sha256": "2d8d24c8109f570acbf2cab57b7a3014eb5e42d1fd8572891f4439237140e3a1",
+      "bytes": 14714
+    },
+    {
+      "key": "normal-symbolic-triple-certificate",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-normal-carrier-symbolic-triple-certificate.md",
+      "sha256": "a160bd4b6b3ba547f232052468680d8eea67f6bd97f0b5f163ea72c9e5766e13",
+      "bytes": 11629
+    },
+    {
+      "key": "normal-symbolic-triple-review",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-symbolic-triple-torsion-comparison-audit.md",
+      "sha256": "2431a45440f5cc0da7f5813b395b14343f80db01cb7c90ca1f425c111a66c1ab",
+      "bytes": 6139
+    },
+    {
+      "key": "projection-contact-phase",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-projection-contact-phase-criterion.md",
+      "sha256": "73c5040d46947111932577d2c0da3ef333894f9cae5507cdf68fd0ed09476e25",
+      "bytes": 19730
+    },
+    {
+      "key": "projection-contact-phase-review",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-projection-contact-phase-independent-review.md",
+      "sha256": "d02e0681e9db3e8fe8b4f967be3650c516095a59065042023279a076f5840f03",
+      "bytes": 10838
+    },
+    {
+      "key": "projection-conductor-budget",
+      "status": "accepted under reviewed Gorenstein scope",
+      "path": "research/notes/2026-10-14-generalization-projection-conductor-contact-budget.md",
+      "sha256": "e5ace1d5105360687725e38f2e1461ce28522a82c9b5218439667f1ef3d2e4c1",
+      "bytes": 8304
+    },
+    {
+      "key": "projection-conductor-budget-review",
+      "status": "accepted under reviewed Gorenstein scope",
+      "path": "research/notes/2026-10-14-generalization-projection-conductor-budget-independent-review.md",
+      "sha256": "22cda5e5e37ebda0ffead7038e1d80c3e9a4008e2ad662f5e40644f6cb040686",
+      "bytes": 5582
+    },
+    {
+      "key": "moving-power-tower",
+      "status": "accepted finite-order scope only",
+      "path": "research/notes/2026-10-14-generalization-moving-power-obstruction-tower.md",
+      "sha256": "98d9b8d5005555d92531371a19bc617e6a57e952efee4c392ad2f6653044e40c",
+      "bytes": 9900
+    },
+    {
+      "key": "moving-power-tower-review",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-moving-purepower-tower-independent-audit.md",
+      "sha256": "51b27ac5a1b21ebf3a20d27368c0342557b70254162a8f74ffe19804ec353617",
+      "bytes": 9996
+    },
+    {
+      "key": "moving-second-payment",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-moving-power-second-relation.md",
+      "sha256": "2d21d6b491ccd80163fcb7fe5b2aca1854872b70f1d27934eeef6eaa11be2081",
+      "bytes": 9237
+    },
+    {
+      "key": "moving-second-payment-review",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md",
+      "sha256": "3614c2140a800f7c95c4749d51369a094259be3249c1d04d51e8c9fd798bc12c",
+      "bytes": 7333
+    },
+    {
+      "key": "spectral-root-criterion",
+      "status": "accepted abstract graded and obstruction-bundle scope",
+      "path": "research/notes/2026-10-14-generalization-spectral-root-curve-relations.md",
+      "sha256": "2f8ceb0fb8743f988e22dd8e0dd6869ee5478651478fa02b0392ff3b207e3c92",
+      "bytes": 11924
+    },
+    {
+      "key": "spectral-root-review",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md",
+      "sha256": "59d602837d866d96c35cc9266700240d30bfe4319e274e7a0a842c1773ff7fee",
+      "bytes": 17862
+    },
+    {
+      "key": "moving-linear-cubic",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-moving-linear-cubic-compatibility.md",
+      "sha256": "7cc8ba5944553792625903b53f74977c8f6cbfe6d05f8e7739c583c0e1668d40",
+      "bytes": 7661
+    },
+    {
+      "key": "moving-linear-cubic-review",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-moving-linear-cubic-independent-audit.md",
+      "sha256": "c1f9ccfbdca28d1974ac25ea7f8cbf352fda356c934c8af9e23be8d0657c2454",
+      "bytes": 5888
+    },
+    {
+      "key": "moving-linear-ideal-rigidity",
+      "status": "accepted",
+      "path": "research/notes/2026-10-14-moving-linear-ideal-rigidity-independent-audit.md",
+      "sha256": "43c4e9503f8b37685c7474b85063215bb84046bbbe8c28bcc4153c5baccd0815",
+      "bytes": 4860
+    },
+    {
+      "key": "family2-degree15-certificate",
+      "status": "accepted new original-tensor certificate",
+      "path": "research/notes/2026-10-14-localcoh-degree15-fractionfree-certificate.md",
+      "sha256": "94647c449a9c073defcc87afc98a9ac1ff8924cc14901d230f2019bd942c85f2",
+      "bytes": 7974
+    },
+    {
+      "key": "quintic-logarithmic-support",
+      "status": "accepted field-valued theorem; rejected old coordinate binding remains separate",
+      "path": "research/notes/2026-10-14-generalization-quintic-logarithmic-conductor-support.md",
+      "sha256": "74fbb036b88588f53555b6703d88ffc021266fed714d3bafacf3384c234438db",
+      "bytes": 10210
+    },
+    {
+      "key": "blowup-root-primitive-bridge",
+      "status": "accepted with independent review",
+      "path": "research/notes/2026-10-14-generalization-blowup-root-curve-primitive-bridge.md",
+      "sha256": "538b4d73e2ffd09e43d08fb5888dfe32cbe84536411e02cd2af098a9632bdc26",
+      "bytes": 10264
+    },
+    {
+      "key": "2026-10-14-generalization-pointwise-conductor-socle-independent-audit",
+      "path": "research/notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "56ecb811eece88f407794c6921be059025f692bad764cea305743d7b68a18d08",
+      "bytes": 12785
+    },
+    {
+      "key": "2026-10-14-generalization-quintic-logarithmic-support-independent-audit",
+      "path": "research/notes/2026-10-14-generalization-quintic-logarithmic-support-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "2d5a50c86ebd8d61a4394b8bc841604d95cc155a66dddcccb2097df0048f9778",
+      "bytes": 13956
+    },
+    {
+      "key": "2026-10-14-generalization-blowup-root-curve-bridge-independent-audit",
+      "path": "research/notes/2026-10-14-generalization-blowup-root-curve-bridge-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "5a8bd46314b86ea2cbcb918cb4b69842001c365f01e8935c5fcd13747e3527c1",
+      "bytes": 12457
+    },
+    {
+      "key": "2026-10-14-generalization-quintic-h2-conductor-quotient",
+      "path": "research/notes/2026-10-14-generalization-quintic-h2-conductor-quotient.md",
+      "status": "accepted with stated scope",
+      "sha256": "ad0875f0d099b913479a0bbfb6be65105a1d03d63776f337e16447b530f672f5",
+      "bytes": 13291
+    },
+    {
+      "key": "2026-10-14-generalization-quintic-h2-conductor-factor-independent-audit",
+      "path": "research/notes/2026-10-14-generalization-quintic-h2-conductor-factor-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "f63e5a9b56542ffe96be846ce1a595d0d59dd8cbffcefec1b938d9ae64551798",
+      "bytes": 12301
+    },
+    {
+      "key": "2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence",
+      "path": "research/notes/2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence.md",
+      "status": "accepted with stated scope",
+      "sha256": "ed4a7fd005b4e00bbe216b7a98fc39ca8cd0690c2e0fec7b7399abcfc971bdfd",
+      "bytes": 10458
+    },
+    {
+      "key": "2026-10-14-generalization-quintic-intrinsic-a4-contact-bound",
+      "path": "research/notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md",
+      "status": "accepted with stated scope",
+      "sha256": "15561cdcdd1c94fda2e3660ef1ac42c6cdc2afa8ebce894f71b43e3ed41bf571",
+      "bytes": 4706
+    },
+    {
+      "key": "2026-10-14-generalization-quintic-intrinsic-a4-contact-independent-audit",
+      "path": "research/notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "5e254dd535b0663baec837a2b53005745cbaab8d2169eeedbd6402159c743f78",
+      "bytes": 4937
+    },
+    {
+      "key": "2026-10-14-generalization-quadratic-root-universal-incidence",
+      "path": "research/notes/2026-10-14-generalization-quadratic-root-universal-incidence.md",
+      "status": "accepted with stated scope",
+      "sha256": "ef9b442cc935a6d29718982037d97b1445eccca13b9c568bb108165a63b51ac7",
+      "bytes": 7986
+    },
+    {
+      "key": "2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit",
+      "path": "research/notes/2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "eac6e7a9690e2397f05399972e8e737f3418df41b6b702a09df631710f6428a1",
+      "bytes": 9444
+    },
+    {
+      "key": "2026-10-14-generalization-quadratic-root-second-obstruction",
+      "path": "research/notes/2026-10-14-generalization-quadratic-root-second-obstruction.md",
+      "status": "accepted with stated scope",
+      "sha256": "95b7d13b6dd563671278a89be37d6de0c3bb288621368ad08533a6fe78ac51c9",
+      "bytes": 8146
+    },
+    {
+      "key": "2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit",
+      "path": "research/notes/2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "0718e2c2ccd1c718e5fc3e9fb2000330a774cd8897060a7bfe0c3014281bb776",
+      "bytes": 7787
+    },
+    {
+      "key": "2026-10-15-generalization-uniform-root-tower-finite-determinacy",
+      "path": "research/notes/2026-10-15-generalization-uniform-root-tower-finite-determinacy.md",
+      "status": "accepted with stated scope",
+      "sha256": "6bdf155f72c2308b603f132e39eca909cfcc65f3276a63534b2adc6ff2d7f623",
+      "bytes": 12929
+    },
+    {
+      "key": "2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit",
+      "path": "research/notes/2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "db78fc20e43f2ca3251683d90491ea28c5467352e5545306da444a6932c4d245",
+      "bytes": 9202
+    },
+    {
+      "key": "2026-10-15-generalization-uniform-root-tower-functor-independent-audit",
+      "path": "research/notes/2026-10-15-generalization-uniform-root-tower-functor-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "31c645bfc0464a2a2a88bb262e64034a80a85499d37ae63ab8a2aeb0657df5d5",
+      "bytes": 11125
+    },
+    {
+      "key": "2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry",
+      "path": "research/notes/2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry.md",
+      "status": "accepted with stated scope",
+      "sha256": "49e9068ef2e045f8da01f7c7f8769a20569aef26ac942efd6317426585ac6dbf",
+      "bytes": 9727
+    },
+    {
+      "key": "2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit",
+      "path": "research/notes/2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "85461e8c2bafb8ef10587c4b64c6b98fa947ea2e113841b7c2cce00ac7ca7848",
+      "bytes": 5218
+    },
+    {
+      "key": "2026-10-15-generalization-projection-torsion-coset-reduction",
+      "path": "research/notes/2026-10-15-generalization-projection-torsion-coset-reduction.md",
+      "status": "accepted with stated scope",
+      "sha256": "5b51d05c4ca4c793392336ab0e437c682414f7dfc6c7de33a2e30c56f60f40e1",
+      "bytes": 20502
+    },
+    {
+      "key": "2026-10-15-generalization-projection-torsion-coset-independent-review",
+      "path": "research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md",
+      "status": "accepted with stated scope",
+      "sha256": "9fe9e81120f0b4df4df3905f95a0c24994d99b4bb89ba0e64b245081c8e635ca",
+      "bytes": 7129
+    },
+    {
+      "key": "2026-10-15-generalization-quintic-h2-twelve-generator-support-system",
+      "path": "research/notes/2026-10-15-generalization-quintic-h2-twelve-generator-support-system.md",
+      "status": "accepted with stated scope",
+      "sha256": "f8c5c134a80e0425888308976aac8b13ea4fa0426f50317d2430962774447689",
+      "bytes": 8006
+    },
+    {
+      "key": "2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit",
+      "path": "research/notes/2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit.md",
+      "status": "accepted with stated scope",
+      "sha256": "a684b77d1b9ab3252bc9ae1d7039ec6c858c59cefc8477e13499d923231e7ec3",
+      "bytes": 9749
+    },
+    {
+      "key": "2026-10-15-generalization-smooth-root-formal-nonexistence",
+      "path": "research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md",
+      "status": "provisional; full independent audit pending",
+      "sha256": "441b44d4b25412fc1ec0bc0276afed32b5a9ea3a618ca94f5b9affa5f43de944",
+      "bytes": 12670
+    },
+    {
+      "key": "2026-10-15-formal-branch-ruled-model-degree-bound-review",
+      "path": "research/notes/2026-10-15-formal-branch-ruled-model-degree-bound-review.md",
+      "status": "accepted focused conditional review; branch algebraization input assumed",
+      "sha256": "5270802b2bb94b140c511130d936bab345127813c53e4e57769cacc5f85a1128",
+      "bytes": 7453
+    }
+  ],
+  "broken_local_links": [],
+  "local_links_checked": 249,
+  "link_check_scope": "Markdown links outside fenced, indented and inline code",
+  "accepted_verifiers_replayed": false,
+  "research_strategy": "Distinct approaches, one dedicated shared quintic lane; no case fan-out",
+  "computations": {
+    "quintic_attempt04_FLINT": "terminal exit0, exact12generator preparation and unit divisions; no elimination",
+    "quintic_attempt05_modular": "45-second timeout before stage marker; closed handle81785 as reported by owner; exit code not retained; no result",
+    "degree15_attempt06": "accepted three-stage exit0 original-tensor certificate; not replayed"
+  },
+  "pending": [
+    "Full audit of smooth movement-two formal nonexistence",
+    "Delta1-unit and q6/j scope bridge",
+    "Actual phase images and torsion cosets",
+    "Remaining quintic incidence and global STCI obligations"
+  ]
+}

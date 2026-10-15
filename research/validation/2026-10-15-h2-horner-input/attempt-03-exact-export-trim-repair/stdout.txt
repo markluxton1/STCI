@@ -1,0 +1,13 @@
+PASS exact format-only Horner equality generator 0 degree 37 terms 2984 bytes 123010 -> 75056
+PASS exact format-only Horner equality generator 1 degree 52 terms 6629 bytes 304794 -> 190946
+PASS exact format-only Horner equality generator 2 degree 52 terms 6845 bytes 317898 -> 200365
+PASS exact format-only Horner equality generator 3 degree 52 terms 7016 bytes 328212 -> 207720
+PASS exact format-only Horner equality generator 4 degree 52 terms 7191 bytes 336086 -> 212590
+PASS exact format-only Horner equality generator 5 degree 52 terms 7303 bytes 343081 -> 217711
+PASS exact format-only Horner equality generator 6 degree 50 terms 6082 bytes 280680 -> 176537
+PASS exact format-only Horner equality generator 7 degree 50 terms 6278 bytes 292084 -> 184620
+PASS exact format-only Horner equality generator 8 degree 50 terms 6459 bytes 302415 -> 191829
+PASS exact format-only Horner equality generator 9 degree 50 terms 6622 bytes 310982 -> 197561
+PASS exact format-only Horner equality generator 10 degree 50 terms 6736 bytes 316733 -> 201450
+PASS exact format-only Horner equality generator 11 degree 49 terms 6580 bytes 310364 -> 197485
+COMPLETE exact format-only nested Horner export, no generator reconstruction or elimination

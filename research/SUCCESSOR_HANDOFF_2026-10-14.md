@@ -11,10 +11,11 @@ new parameter strata.
 
 The research branch is `research/ultra-resume-2026-10-06`. The latest
 externally observed HEAD is
-`a55767a185aa5e4fb26e2f186126548e5d0b936b`, title
-`2026-10-14 evening limit reached`; root did not create that commit.
-It follows external `e02bff89994ded042e9d71093a4c32c08d8c50b0`,
-`f3d1124...` and inherited `b16e432...` checkpoints. The October 15
+`2e9ea8100d39a181fe7010160366b940be531b8d`, title
+`2026-10-15 morning limit reached`; root did not create that commit.
+It follows external `a55767a185aa5e4fb26e2f186126548e5d0b936b`,
+`e02bff89994ded042e9d71093a4c32c08d8c50b0`, `f3d1124...` and
+inherited `b16e432...` checkpoints. The October 15 afternoon
 continuation has additional file changes after this snapshot.
 Inspect current status rather than assuming a clean tree.
 
@@ -115,12 +116,22 @@ has conductor contact at most two at A4. Since surviving h2 has H(A4)
 nonzero, this rules out the pure-A4 sextic and proves `Res(H,Q6)=0`
 for BOTH values of j in one homogeneous argument. Its small norm
 factors do not match the forbidden center/cofactor factors. The sextic
-rank incidence is not yet proved empty. A shared twelve-generator
-reduction on the monic finite-H chart is being finalized; do not
-turn these reductions into a whole-quintic closure claim. Attempt01's
+rank incidence is not yet proved empty. The shared twelve-generator
+reduction on the monic finite-H chart now passes an independent
+ideal-sheaf audit, including nonreduced bases on `D(q5) union D(q6)`.
+Do not turn this reduction into a whole-quintic closure claim. Attempt01's
 size probe ended with exit -15 at its time limit and has no live M2
 handle. Attempt02's actual-map preparation also stopped before a
 saved elimination. Check newer execution records before continuing.
+Attempt03's flat-lex preparation also timed out. Attempt04's FLINT
+preparation completed with exit zero, empty stderr and all twelve
+known-unit divisions verified; its first cubic agreed across engines.
+Attempt05's modular prospect ended at its 45-second timeout before
+its ideal marker. Its handle 81785 is closed; no live PID was retained
+and no modular result or characteristic-zero certificate was obtained.
+Do not restart that source: its input was slow and a later variable
+name would shadow a built-in. The next shared step is the new Delta1
+unit/q6-to-j comparison, with a separate scope audit before use.
 
 The [blowup primitive bridge](notes/2026-10-14-generalization-blowup-root-curve-primitive-bridge.md)
 now has a completed independent audit. Smooth root curve and joint
@@ -139,9 +150,31 @@ seed. Its canonical second obstruction has a nonzero dual pairing
 at the second lifting step. This does not settle the second zero
 locus, other components or later relation degree four. New work is
 on the whole closed obstruction tower and on formal algebraization,
-not additional seed tests. The proposed finite-order stabilization
-theorem is under independent review; do not treat its formal-lift
-stratum as algebraic or empty without another proof.
+not additional seed tests. The finite-order stabilization theorem now
+passes separate cohomological and functorial reviews. Under
+`lambda>3epsilon`, every Cartier-ideal correction is unique; all stages
+are closed schemes on one fixed noetherian coefficient open and
+stabilize at an existential N. In the actual-CI bridge, only stages
+`m<s-r` are supplied; hence `s>r+N` forces the stable formal locus.
+This does not itself algebraize the ideal. The torsion-two divisor
+is the cubic coefficient determinant; its component D through the
+seed is three-dimensional, and the second zero locus inside D has
+support dimension at most two.
+
+A new [formal algebraization theorem](notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md)
+and its [full independent audit](notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
+now prove that every smooth movement-two root of every first order
+`r>=2` has no infinite Cartier lift for any balanced rational degree-e
+curve with `e>=4` in characteristic zero. Other algebraic branches are
+retained; no formal Picard algebraization is assumed. The proof bounds
+the algebraized surface degree by `d<=r+2`, contradicting its plane-section
+genus requirement `(d-1)(d-2)>=e r(r-1)` for all r at once. Thus for each
+fixed r the tower has an existential finite empty stage N on the entire
+smooth movement-two locus. An actual CI satisfying the accepted bridge
+must have `s-r<=N`. Finite-gap pairs, singular/nonreduced roots and an
+explicit N remain unresolved. A separate arbitrary-characteristic
+extension is being reviewed, with no positive-characteristic CI bridge
+inferred automatically.
 
 The [pointwise conductor--socle theorem](notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md)
 is also accepted: `D_n=(n-1)A-B|c` on a generically regular singleton
@@ -162,6 +195,14 @@ two/three force `B|c=(n-1)A`.
    first normal jet on the smooth quadric is an arbitrary quintic pair
    with four independent higher-jet parameters. Contact graph bounds
    are structural data, not an invitation to enumerate graph cases.
+   The new [finite phase-space theorem](notes/2026-10-15-generalization-projection-torsion-coset-reduction.md)
+   and its independent review now retain full nilpotent defects on
+   finitely many matrix strata, and reduce all mate powers to torsion
+   in one constructible torus image. Laurent gives a finite torsion-coset
+   envelope with the deleted boundaries retained. Determine actual
+   character relations/image equations, rather than enumerate contact
+   graphs. On-C thresholds are explicitly 5,5,13; actual phase images
+   and their surviving torsion cosets remain uncomputed.
 2. On normal carriers, use the accepted exact torsion/local-index
    formula and `a | deg(C)^2 R`, not a generic Picard assumption.
    All normal C0 carriers with actual on-curve local indices at most

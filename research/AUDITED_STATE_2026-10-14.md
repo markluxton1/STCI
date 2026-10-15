@@ -1,7 +1,8 @@
 # Accepted research frontier — 2026-10-14
 
 This is the continuation entry point after the October 13–14 structural
-generalization batch, updated during the October 15 continuation. The universal integral-projective-curve STCI question
+generalization batch, updated during the October 15 continuation. The
+universal integral-projective-curve STCI question
 and the unrestricted characteristic-zero problem for
 `C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. No new novelty or priority claim is
 made. The results below are written mathematical theorems under their
@@ -163,6 +164,38 @@ remain proposals unless their extension receives a written audit.
 Proofs: [conductor--Jacobian bridge](notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md),
 [contact budget](notes/2026-10-14-generalization-projection-conductor-contact-budget.md).
 Review: [canonical budget audit](notes/2026-10-14-generalization-projection-conductor-budget-independent-review.md).
+
+**PROVED with an independent family-specialization review:** each fixed
+admissible projection family of these three models has a finite-type
+phase map to one fixed torus after a finite parameter stratification
+and finite surjective root-ordering cover. Actual normalization,
+basepoint freeness, birationality, full inverse support and every
+logarithmic nilpotent conductor equation are retained. A carrier has
+a mate exactly when its phase tuple is torsion. Spreading monic
+Noether-normalization equations before rational localization prevents
+specialized conductor curves from being lost. The additive-defect locus
+is closed on each rational-matrix stratum, hence constructible overall;
+no globally closed nilpotent locus is asserted.
+
+Laurent's theorem then makes the torsion points in the actual
+constructible phase image a finite union of torsion points in nonempty
+open pieces of torsion cosets. Deleted admissibility boundaries remain
+deleted. If only zero-dimensional cosets survive, least mate degrees
+are uniformly bounded in the family. A surviving positive-dimensional
+coset gives actual carriers with unbounded least mate degrees. If no
+coset survives, the entire family is excluded. The torsion and mate
+loci themselves need not be constructible, and the actual phase images
+and cosets of the C0 families have not been computed.
+
+The accepted canonical conductor gives concrete on-C thresholds
+`M=5,5,13` for the smooth quadric, quadric cone and plane models,
+including carriers generically singular along C. If the finite phase
+order is E, all multiples of E at least M are mate degrees; any
+additional mate degrees lie among its finitely many multiples below M.
+In particular `E>=M` gives minimum mate degree exactly E. This treats
+all powers at once while retaining their finite low-degree exceptions.
+Proof and review: [full phase/torsion-coset reduction](notes/2026-10-15-generalization-projection-torsion-coset-reduction.md),
+[independent family review](notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md).
 
 **PROVED in every characteristic:** if a smooth degree-d genus-g curve
 is Cartier on an integral hypersurface carrier admitting a mate, that
@@ -373,13 +406,51 @@ adjacent equality does not certify that N has been reached.
 Within the accepted actual-CI bridge, stages are necessary only for
 `m<s-r`. Hence `s>r+N` forces the root into this single stable formal
 stratum; outside it the gap is bounded by N. This is a structural
-alternative across all second-relation degrees, with no computed N,
-algebraization or stable-locus emptiness yet asserted. For a balanced
+alternative across all second-relation degrees. The tower theorem alone
+computes no N and supplies neither algebraization nor emptiness. For a balanced
 rational degree-e curve the sufficient criterion is `3epsilon<2e-1`,
 independent of r; the coefficient family and N still depend on r.
 Proof: [uniform finite obstruction frontier](notes/2026-10-15-generalization-uniform-root-tower-finite-determinacy.md).
 Reviews: [cohomology](notes/2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit.md),
 [embedded-ideal functor and stabilization](notes/2026-10-15-generalization-uniform-root-tower-functor-independent-audit.md).
+
+**PROVED with a full independent primary-source and geometric audit:**
+for every balanced smooth rational curve of degree e>=4 in P3 over an
+algebraically closed characteristic-zero field, and every r>=2, a smooth
+root divisor of class `(2,r)` has no all-orders embedded Cartier lift.
+This excludes an entire movement degree simultaneously across all first
+normal orders; it does not enumerate hypersurface degrees.
+
+An infinite lift would be a smooth formal surface along the root Z,
+whose genus and normal degree are `r-1` and `(2e-1)r-2`. Ample-normal
+algebraicity produces an algebraic surface branch. Normalization preserves
+the whole smooth root; other branches and exceptional components remain
+allowed. Hartshorne's high-self-intersection theorem gives a ruled model
+isomorphic near Z. Its hyperplane intersections force the image surface
+degree `d<=r+2`, while a general plane section forces
+`(d-1)(d-2)>=e r(r-1)`. These inequalities contradict each other for all
+e>=4,r>=2. No formal Picard algebraization is assumed.
+
+Combining this theorem with the accepted tower gives, for each fixed r
+and actual embedding, a uniform finite empty stage `K_N` on the entire
+smooth movement-two open. In the actual-CI bridge the precise consequence
+is `s-r<=N`, since a gap g supplies only stage g-1. This is an existential
+bound, not a computed cutoff or an exclusion of every finite-gap CI.
+Singular/nonreduced roots and failures of the bridge remain outside it.
+
+More generally, for a smooth connected finite root of class `(epsilon,r)`,
+put `g=(epsilon-1)(r-1)`, `nu=(2e-1)r-epsilon`, `h=e r`. If
+`nu>4g+5`, any infinite lift requires an integer d satisfying
+`d<=max_(a>=1 integer)(2ah-nu a^2)` and the same plane-genus lower bound.
+When also nu>=h, this implies
+`(e-1)r^2-(e+2epsilon-3)r-(epsilon-1)(epsilon-2)<=0`.
+Thus, for fixed epsilon with `2e-1>4(epsilon-1)`, only finitely many
+first orders can admit a smooth infinite formal root. These are formal
+root bounds, not unrestricted first-order bounds for actual CIs.
+Proof and full review: [smooth-root formal nonexistence](notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md),
+[independent global audit](notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md).
+The proof also preserves the failed finite-Hilbert-count shortcut:
+containing a long primitive jet need not produce a smooth algebraic branch.
 
 The independently reviewed torsion geometry also gives a concrete cubic
 equation for exact order two on the smooth `(2,2)` root open: the
@@ -734,8 +805,8 @@ algebras. They do not provide:
    smooth singleton normalization;
 2. a full singular-normalization or multibranch class-group/descent
    classification;
-3. control of moving first binary relations, adjacent new relations,
-   positive global defects or arbitrary higher contact;
+3. unrestricted control of moving first binary relations, adjacent new
+   relations, positive global defects or arbitrary higher contact;
 4. complete quintic, split-sextic or common-ancestor exclusions;
 5. an affirmative universal construction or a characteristic-zero
    counterexample.
