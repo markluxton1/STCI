@@ -1,5 +1,18 @@
 > **CURRENT STATUS:** The authoritative frontier is [AUDITED_STATE_2026-10-14.md](AUDITED_STATE_2026-10-14.md). This historical record is retained for proof provenance; conflicting frontier statements are superseded.
 
+The October 15 continuation retains the universal question and unrestricted
+C0 as open. The accepted new intrinsic A4 contact bound now forces the
+same `Res(H,Q6)=0` incidence for every surviving h2 quintic candidate,
+including Jbar zero. The accepted universal quadratic-root calculation
+exhibits a smooth four-dimensional first-compatible component containing
+an exact-torsion-two root, then proves its canonical second obstruction
+nonzero on a nonempty open part. The pointwise conductor--socle proof
+also gives `2 delta_n=n B|c` for the actual normalized-pullback colength.
+All these scopes and independent reviews are indexed in the current state.
+Ongoing generalization work addresses the full obstruction tower,
+formal algebraization and finite-type conductor torsion geometry,
+alongside one shared quintic incidence rather than narrow case fan-out.
+
 The October 13–14 generalization batch is indexed in that state and the
 [dated handoff](SUCCESSOR_HANDOFF_2026-10-14.md). Accepted new results include
 the exact all-branch fixed-carrier conductor/descent criterion, the

@@ -11,11 +11,11 @@ new parameter strata.
 
 The research branch is `research/ultra-resume-2026-10-06`. The latest
 externally observed HEAD is
-`e02bff89994ded042e9d71093a4c32c08d8c50b0`, title
-`2026-10-14 afternoon limit reached`; root did not create that commit.
-It follows the prior external `f3d1124...` and inherited `b16e432...`
-checkpoints. The
-current continuation has additional file changes after this snapshot.
+`a55767a185aa5e4fb26e2f186126548e5d0b936b`, title
+`2026-10-14 evening limit reached`; root did not create that commit.
+It follows external `e02bff89994ded042e9d71093a4c32c08d8c50b0`,
+`f3d1124...` and inherited `b16e432...` checkpoints. The October 15
+continuation has additional file changes after this snapshot.
 Inspect current status rather than assuming a clean tree.
 
 The [all-branch inventory](notes/2026-10-13-evening-branch-frontier-audit.md)
@@ -109,11 +109,18 @@ Use the [corrected coordinate and sextic incidence](notes/2026-10-14-generalizat
 Corrected attempts05/06 exited zero. Attempt04's p->1-z binding is
 rejected; it must remain a preserved failure, not be reused. The
 correct relation is p=1/z, with intrinsic A4 at z=infinity.
-The sextic rank incidence is not yet proved empty. Its small norm
-factors do not match the forbidden center/cofactor factors. A global
-intrinsic A4 contact bound is being finalized and may strengthen
-that shared necessary condition. Do not turn these reductions into
-a whole-quintic closure claim.
+The [global intrinsic A4 contact bound](notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md)
+and its independent review are accepted. Every surviving j=0 candidate
+has conductor contact at most two at A4. Since surviving h2 has H(A4)
+nonzero, this rules out the pure-A4 sextic and proves `Res(H,Q6)=0`
+for BOTH values of j in one homogeneous argument. Its small norm
+factors do not match the forbidden center/cofactor factors. The sextic
+rank incidence is not yet proved empty. A shared twelve-generator
+reduction on the monic finite-H chart is being finalized; do not
+turn these reductions into a whole-quintic closure claim. Attempt01's
+size probe ended with exit -15 at its time limit and has no live M2
+handle. Attempt02's actual-map preparation also stopped before a
+saved elimination. Check newer execution records before continuing.
 
 The [blowup primitive bridge](notes/2026-10-14-generalization-blowup-root-curve-primitive-bridge.md)
 now has a completed independent audit. Smooth root curve and joint
@@ -124,11 +131,27 @@ Actual first-relation defects can produce vertical fibers and remain
 outside the theorem. The universal root-curve obstruction worker is
 studying this actual class as one incidence, not numerical cases.
 
+The universal first `(2,2)` obstruction and its actual second class
+now have completed independent reviews. The first compatibility scheme
+is smooth of dimension four at a smooth elliptic, exact-torsion-two
+seed. Its canonical second obstruction has a nonzero dual pairing
+`1/8` there, so a nonempty open part of that component is excluded
+at the second lifting step. This does not settle the second zero
+locus, other components or later relation degree four. New work is
+on the whole closed obstruction tower and on formal algebraization,
+not additional seed tests. The proposed finite-order stabilization
+theorem is under independent review; do not treat its formal-lift
+stratum as algebraic or empty without another proof.
+
 The [pointwise conductor--socle theorem](notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md)
 is also accepted: `D_n=(n-1)A-B|c` on a generically regular singleton
 smooth Cartier lift. It supplies every-point multiplicity requirements
 in addition to the global contact budget. Phases and nilpotent
 conductor descent remain mandatory.
+Its reviewed colength corollary is `2 delta_n=n B|c`, retaining the
+finite cokernel in the pullback thickening on the carrier normalization.
+Odd n forces coefficientwise even conductor contact; actual lengths
+two/three force `B|c=(n-1)A`.
 
 ## 5. Concrete global next steps
 

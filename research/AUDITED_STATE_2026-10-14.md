@@ -1,7 +1,7 @@
 # Accepted research frontier — 2026-10-14
 
 This is the continuation entry point after the October 13–14 structural
-generalization batch. The universal integral-projective-curve STCI question
+generalization batch, updated during the October 15 continuation. The universal integral-projective-curve STCI question
 and the unrestricted characteristic-zero problem for
 `C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. No new novelty or priority claim is
 made. The results below are written mathematical theorems under their
@@ -332,6 +332,66 @@ geometric lifting incidence rather than a list of projective degrees.
 Proof and audit: [root-curve criterion](notes/2026-10-14-generalization-spectral-root-curve-relations.md),
 [spectral audit](notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md).
 
+**PROVED with independent reviews of the new first and second classes:**
+the entire basepoint-free `(2,2)` root family has a single first
+compatibility scheme in P8, given by a `16 by 13` rank incidence. Its
+`16 by 12` multiplication submatrix is injective throughout this open,
+including singular and nonreduced root divisors. The smooth seed
+`(z^2+4)u^2+(z^2-8)v^2` lies on a smooth four-dimensional component of
+this compatibility scheme and has ruling difference of exact order two.
+Thus the first ambient class and the spectral torsion condition can
+both vanish; neither test alone exhausts the moving-relation problem.
+
+The first compatible principal ideal is unique. Its actual second
+obstruction is therefore a canonical section of a rank-sixteen bundle
+over that first compatibility scheme. At the same smooth seed, a
+sparse Serre-dual functional evaluates to exactly `1/8`, proving this
+second class nonzero. Consequently the generic point of the
+four-dimensional component through that seed fails the second lifting
+step. This is a family-level exclusion, not a list of failed examples.
+The second zero locus, other components and their torsion intersections
+remain unresolved. For actual CIs this necessity requires the accepted
+blowup bridge hypotheses and next-relation degree `s>4`; `s=4` has a
+different target and is not excluded by this calculation.
+Proofs: [universal incidence](notes/2026-10-14-generalization-quadratic-root-universal-incidence.md),
+[second ambient obstruction](notes/2026-10-14-generalization-quadratic-root-second-obstruction.md).
+Reviews: [first-class audit](notes/2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit.md),
+[second-class audit](notes/2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit.md).
+
+**PROVED with separate cohomological and functorial reviews:** for a
+fixed balanced rational formal neighborhood with conormal
+`O(-lambda)^2`, first normal order r and movement epsilon, the sufficient
+condition `lambda>3 epsilon` makes every Cartier-root correction space
+vanish in degree zero. The obstruction ranks are
+`m(r lambda-epsilon)-(r epsilon+r+epsilon)`. Thus the entire tower is a
+descending chain of closed schemes on one fixed finite-type coefficient
+open, including singular/nonreduced roots and nonreduced parameter
+bases. It eventually stabilizes as schemes at a finite existential N;
+the stable locus represents compatible formal Cartier ideals. One
+adjacent equality does not certify that N has been reached.
+
+Within the accepted actual-CI bridge, stages are necessary only for
+`m<s-r`. Hence `s>r+N` forces the root into this single stable formal
+stratum; outside it the gap is bounded by N. This is a structural
+alternative across all second-relation degrees, with no computed N,
+algebraization or stable-locus emptiness yet asserted. For a balanced
+rational degree-e curve the sufficient criterion is `3epsilon<2e-1`,
+independent of r; the coefficient family and N still depend on r.
+Proof: [uniform finite obstruction frontier](notes/2026-10-15-generalization-uniform-root-tower-finite-determinacy.md).
+Reviews: [cohomology](notes/2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit.md),
+[embedded-ideal functor and stabilization](notes/2026-10-15-generalization-uniform-root-tower-functor-independent-audit.md).
+
+The independently reviewed torsion geometry also gives a concrete cubic
+equation for exact order two on the smooth `(2,2)` root open: the
+determinant of the three-by-three coefficient matrix is zero. It meets
+the four-dimensional compatibility component transversely at the accepted
+seed, giving a specified three-dimensional component D. The second
+obstruction is nonzero there, so its zero scheme, and the stable formal
+locus, have support of dimension at most two inside D. Other torsion
+components/orders are not covered by this dimension bound.
+Proof and review: [torsion/second-zero geometry](notes/2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry.md),
+[independent torsion audit](notes/2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit.md).
+
 ## 5. Symbolic ribbons beyond an actual Cartier double
 
 **PROVED, independently reviewed:** on a normal surface with a smooth
@@ -439,10 +499,39 @@ is preserved as a failed bridge, not a certificate.
 Proof and review: [conductor quotient](notes/2026-10-14-generalization-quintic-h2-conductor-quotient.md),
 [h2 factor audit](notes/2026-10-14-generalization-quintic-h2-conductor-factor-independent-audit.md).
 Coordinate and coefficient bindings: [corrected sextic incidence](notes/2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence.md).
-The sextic incidence is not yet proved empty. Its small norm factors
-are necessary strata, not forbidden projection factors. The new
-intrinsic-A4 contact bound is being independently finalized; it is not
-yet used here to claim h2 closure.
+**PROVED with an independent new coefficient and geometric review:**
+every surviving `j=0` mate candidate has intrinsic A4 conductor contact
+at most two. The exact first coefficient is
+`-2 G (delta^2+2B+G)(3delta^2+G)^2`; SUP makes the middle factor a unit
+after the accepted `G=j=0` exclusion. On the remaining possible
+first-coefficient zero locus the second coefficient is nonzero.
+This is one all-parameter contact argument, independent of gcd degree.
+
+On h2 the allowed A4 point is outside H for every surviving candidate.
+If `Res(H,Q6)` were nonzero, the `j=0` support condition would force
+`Q6` to be the sixth power of the A4 linear form, contradicting that
+contact bound. The `j!=0` condition already forces a shared root.
+Hence **every remaining h2 candidate satisfies the single condition
+`Res(H,Q6)=0`**, for both values of j and without dividing by a
+discriminant. The two small norm factors on the declared inverse-map
+chart are genuine necessary incidences, not forbidden projection
+factors. The homogeneous sextic incidence is not yet proved empty;
+repeated roots and projective boundaries remain in its shared system.
+Proof and review: [intrinsic A4 contact bound](notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md),
+[independent A4 contact audit](notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-independent-audit.md).
+
+**PROVED with independent determinantal review:** on the monic finite-H
+chart and the accepted necessary candidate open `D(q5) union D(q6)`,
+the seventy-seven sextic rank minors define exactly the same ideal
+sheaf as twelve fixed generators. The identity
+`D_(sH)Q=(3/2)s D_HQ-3H_tQ` removes the expanded cubic action column;
+eleven selected cubic minors and one retained-j minor suffice. The
+equality includes nonreduced coefficient bases and does not divide by j.
+Neither the global unsaturated ideal equality nor emptiness follows.
+The shared norm product can be appended with its declared inverse-map
+unit conditions; its factors remain together in this program.
+Proof and review: [twelve-generator system](notes/2026-10-15-generalization-quintic-h2-twelve-generator-support-system.md),
+[independent ideal-sheaf audit](notes/2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit.md).
 
 ## 8. Local power-socle compatibility and new all-degree normal exclusion
 
@@ -625,6 +714,13 @@ including its full embedded top-power defect. The proof retains the
 finite cokernel of the pulled-back normalized thickening and proves
 that the relative Jacobian is an actual socle generator.
 Review and full proof: [pointwise conductor--socle comparison](notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md).
+The same reviewed lattice comparison gives the exact pointwise
+colength `2 delta_n=n B|c` of the actual CI inside its pullback
+thickening on the carrier normalization. Thus odd n requires every
+coefficient of `B|c` to be even, and actual lengths two or three force
+`B|c=(n-1)A`. This pullback thickening is not called a normalization
+of the nonreduced CI. These statements retain the characteristic-zero
+and smooth singleton Cartier-lift hypotheses of the proof.
 Residual phases, logarithmic defects and arbitrary non-Cartier or
 multibranch lifts remain separate conditions.
 
