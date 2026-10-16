@@ -20,6 +20,7 @@ def main():
     parser.add_argument("output",type=Path)
     parser.add_argument("--seconds",type=int,default=45)
     parser.add_argument("--inputs-from",type=Path,required=True)
+    parser.add_argument("--scope",default="NEW one bounded global shared ODE prospect; finite field only, not a QQ emptiness certificate")
     args=parser.parse_args()
     root=Path.cwd(); source=args.source.resolve(); out=args.output.resolve()
     out.mkdir(parents=True,exist_ok=True)
@@ -31,7 +32,7 @@ def main():
     captured=out/"source.m2"; captured.write_bytes(source.read_bytes())
     record={"started_utc":now(),"command":["/opt/homebrew/bin/M2","--script",str(captured)],
             "timeout_seconds":args.seconds,"source_sha256":digest(source),
-            "input_sha256":inputs,"scope":"NEW one bounded global shared ODE prospect; finite field only, not a QQ emptiness certificate",
+            "input_sha256":inputs,"scope":args.scope,
             "prior_record":str(args.inputs_from)}
     process=subprocess.Popen(record["command"],cwd=root,stdout=subprocess.PIPE,
                              stderr=subprocess.PIPE,start_new_session=True)

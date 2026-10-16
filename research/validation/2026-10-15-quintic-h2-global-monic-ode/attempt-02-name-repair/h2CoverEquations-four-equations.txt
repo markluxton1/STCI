@@ -1,0 +1,1 @@
+matrix {{-delta^2*wH2+G*vH2*wH2+3*delta*wH2-6*B*wH2-2*a, -delta^2*vH2+G*vH2^2+3*delta*vH2-6*B*vH2-G*wH2+2*delta+3*a-3*B, -5*delta^2*wH2+G*vH2*wH2+2*J*vH2*wH2+3*delta*wH2-6*B*wH2-3*G*wH2-a-B, -5*delta^2*vH2+G*vH2^2+2*J*vH2^2-delta^2+3*delta*vH2-6*B*vH2-3*G*vH2-G*wH2-2*J*wH2+delta+3*a+3*B}}

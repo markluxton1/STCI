@@ -11,11 +11,12 @@ new parameter strata.
 
 The research branch is `research/ultra-resume-2026-10-06`. The latest
 externally observed HEAD is
-`2e9ea8100d39a181fe7010160366b940be531b8d`, title
-`2026-10-15 morning limit reached`; root did not create that commit.
-It follows external `a55767a185aa5e4fb26e2f186126548e5d0b936b`,
+`bf124f8ab962ef0ed4085397034c50ee8d0d7162`, title
+`2026-10-15 afternoon limit reached`; root did not create that commit.
+It follows external `2e9ea8100d39a181fe7010160366b940be531b8d`,
+`a55767a185aa5e4fb26e2f186126548e5d0b936b`,
 `e02bff89994ded042e9d71093a4c32c08d8c50b0`, `f3d1124...` and
-inherited `b16e432...` checkpoints. The October 15 afternoon
+inherited `b16e432...` checkpoints. The October 16 morning
 continuation has additional file changes after this snapshot.
 Inspect current status rather than assuming a clean tree.
 
@@ -130,8 +131,38 @@ Attempt05's modular prospect ended at its 45-second timeout before
 its ideal marker. Its handle 81785 is closed; no live PID was retained
 and no modular result or characteristic-zero certificate was obtained.
 Do not restart that source: its input was slow and a later variable
-name would shadow a built-in. The next shared step is the new Delta1
-unit/q6-to-j comparison, with a separate scope audit before use.
+name would shadow a built-in. The Delta1 unit/q6-to-j comparison now
+passes a separate scope audit. It removes the twelfth generator, and a
+further reviewed polynomial membership proves `(q5,q6)` already the
+unit ideal. On the same declared inverse-map domain the eight coefficient
+equations of `(z^2+vz+w)q'=(d z+u)q` give an equivalent scheme with unique
+witnesses. Derived `(d-5)(d-6)` and `j(d-6)` equations keep both alternatives
+in one computation. Attempt06 failed immediately on a protected variable
+name; repaired attempt07 reached actual domain-saturation/GB, then its
+45-second limit ended with exit -15, PID28375 reaped and its handle
+closed. It supplies no ideal result. The new eta spectral accelerator
+is a separate reviewed structural step; inspect its latest attempt
+record before any run. The inverse-map determinant is not a globally
+necessary mate unit: repeated-root/cover boundaries remain.
+
+The subsequent [global monic h2 incidence](notes/2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md)
+and [full October 16 audit](notes/2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md)
+now give one whole-remaining-h2 necessary model: seventeen equations in
+nine variables, with unit `delta*E*Delta1` only. It retains both the H
+discriminant-zero and old K-zero boundaries and source zero. Its exact
+[M2 library input](computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
+exposes `h2GlobalIdeal` and `h2GlobalDomainUnit`; the next target is their
+single domain saturation. The global factor relation is imposed by two
+actual-conductor remainder equations. The input passed a load-only
+check, which supplies no saturation or mate result. The subsequent
+[global QQ attempt06](validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/execution-record.json)
+reached saturation, then hit its polled 1536-MiB RSS threshold at
+58.564 seconds. Actual exit -15, PID39519 reaped, private group absent;
+no ideal or unit result. This was a bounded memory interruption, not a
+120-second timeout, and it is not live. Do not restart it merely by
+raising limits; seek a further shared algebraic reduction or a justified
+different elimination method. A whole-h2 certificate would still
+leave the retained h1 exceptions and other quintic normalizations.
 
 The [blowup primitive bridge](notes/2026-10-14-generalization-blowup-root-curve-primitive-bridge.md)
 now has a completed independent audit. Smooth root curve and joint
@@ -172,9 +203,50 @@ genus requirement `(d-1)(d-2)>=e r(r-1)` for all r at once. Thus for each
 fixed r the tower has an existential finite empty stage N on the entire
 smooth movement-two locus. An actual CI satisfying the accepted bridge
 must have `s-r<=N`. Finite-gap pairs, singular/nonreduced roots and an
-explicit N remain unresolved. A separate arbitrary-characteristic
-extension is being reviewed, with no positive-characteristic CI bridge
-inferred automatically.
+explicit N remain unresolved. The separate
+[characteristic addendum](notes/2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+now passes the formal geometry and empty finite-tower statement in every
+characteristic under explicit balance and a smooth full root. No normal
+splitting of literal C0 is asserted in bad characteristics. The actual-CI
+gap conclusion now also extends to every characteristic under the
+literal bridge hypotheses, by the reviewed
+[inseparable-root proof](notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md)
+and [full new-scope audit](notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md).
+The proof uses the actual reduced root prime over k(C), uncompleted
+standard bases and the local regular surface; it does not assume a
+compatible coefficient field or discard a vertical component.
+
+The new [intrinsic nef/arbitrary-base criterion](notes/2026-10-15-generalization-nef-formal-branch-arbitrary-base.md)
+also passes its targeted independent audit. For degree e, genus gamma,
+and the actual bundle `N_C=L direct_sum L`, a smooth connected finite
+root of movement epsilon and degree r has
+`g_Z=r gamma+(epsilon-1)(r-1)` and
+`nu=(2e+gamma-1)r-epsilon`. Under the high-self-intersection threshold
+and nu>=e r, the image surface degree is at most
+`(1-gamma)r+epsilon`, opposed by the same plane-genus lower bound.
+Numerical balance is insufficient for this extension. Its written scope
+is characteristic zero, and no higher-genus family/tower theorem is
+silently imported.
+
+The targeted movement-one corollary is also accepted: for balanced
+rational curves, e>=3,r>=2 admit no smooth all-orders movement-one root;
+for r=1,e>=4 the lifts are exactly germs of containing quadrics smooth
+along the curve. This is formal classification, not the stronger finite-
+jet C0 rigidity proof, which remains an accepted premise.
+
+The subsequent [intrinsic finite-family theorem](notes/2026-10-15-generalization-intrinsic-finite-root-family.md)
+and its [independent new-scope audit](notes/2026-10-15-generalization-intrinsic-finite-root-family-independent-audit.md)
+now remove the split-normal and rational-base assumptions from a bounded
+smooth-root family. The sufficient relative-uniqueness condition is
+`nu>max(Z^2_E,0)`; the correction bundle has degree `Z^2_E-m nu` and
+obstruction rank `g_Z-1-Z^2_E+m nu`. In the blowup of any fixed smooth
+space curve, `Z^2_E=(4e+2gamma-2)r^2-2r nu=2g_Z-2+4er-2nu`.
+Fixed `(r,nu)` fixes numerical class and Hilbert polynomial, so one
+finite-type family contains all its smooth connected roots. The high-
+self-intersection/plane-genus contradiction then gives a uniform finite
+empty stage whenever its numerical hypotheses hold. Its current written
+scope is characteristic zero; singular/nonreduced roots and varying
+numerical classes do not share that bound automatically.
 
 The [pointwise conductor--socle theorem](notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md)
 is also accepted: `D_n=(n-1)A-B|c` on a generically regular singleton
@@ -203,6 +275,19 @@ two/three force `B|c=(n-1)A`.
    character relations/image equations, rather than enumerate contact
    graphs. On-C thresholds are explicitly 5,5,13; actual phase images
    and their surviving torsion cosets remain uncomputed.
+   The [effective rational phase theorem](notes/2026-10-15-generalization-effective-rational-phase-bound.md)
+   now replaces Laurent's existence-only step by a finite Mann/SNF
+   certificate once the actual rational constructible image is given.
+   It decides torsion existence and bounds phase orders by P(S)d^D when
+   only isolated cosets survive, retaining all deleted boundaries.
+   The stronger start-from-raw-projection-input corollary now passes its
+   [separate October 16 scope audit](notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md).
+   Given finite rational section/module input on one fixed model, with
+   prescribed C0 restrictions and finite constructible conditions, its
+   terminating algorithm constructs admissibility and the actual phase
+   image, decides whether any carrier has any mate, and distinguishes
+   unbounded least degrees from a computably bounded family. No actual
+   phase image, whole-family outcome or numerical C0 bound was computed.
 2. On normal carriers, use the accepted exact torsion/local-index
    formula and `a | deg(C)^2 R`, not a generic Picard assumption.
    All normal C0 carriers with actual on-curve local indices at most

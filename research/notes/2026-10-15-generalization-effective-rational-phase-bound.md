@@ -1,13 +1,15 @@
 # Effective rational phase images: Mann partitions and finite mate bounds
 
 Date: 2026-10-15. Owner: `conductor_torsion_geometry`.
-Status: **NEW EFFECTIVE STRUCTURAL THEOREM; independent review requested.**
+Status: **NEW EFFECTIVE STRUCTURAL THEOREM; independent review PASS.**
+See the [independent review](2026-10-15-generalization-effective-rational-phase-bound-independent-review.md).
 The [full conductor phase-space theorem](2026-10-15-generalization-projection-torsion-coset-reduction.md)
 and its [independent review](2026-10-15-generalization-projection-torsion-coset-independent-review.md)
 are premises. No accepted proof or computation has been rerun. This note
 makes the torsion-coset step effective for an explicitly presented
 constructible phase image over `Q`. It does not compute the actual phase
-images of the three fixed-C0 projection families.
+images of the three fixed-C0 projection families. The finite Mann and
+boundary enumerations described below have not been executed for them.
 
 ## 1. The rationality needed by the actual families
 
@@ -29,12 +31,22 @@ The phase-space construction can also be performed over `Q`. Universal
 images, quotient inclusions, common ideals, rank strata, full inverse
 incidence, and the derivative equations for constant rational functions
 are defined by rational algebraic operations. Generic Noether
-normalization and primitive-element choices can be made in rational
-function fields of rational parameter strata; they do not require
-individual geometric branch labels or coefficients from `Qbar`.
-Nonzero-minor conditions, all root-ordering variables, and the finite
-phase cover are then defined over `Q`. Chevalley image formation gives
-a constructible phase image `W` over `Q`.
+normalization, primitive-element, and matrix choices can be made over
+`K(x)`, where `K=Frac(A)` is the function field of a `Q`-defined integral
+parameter stratum with rationally presented coordinate ring `A`.
+Such strata need not be rational varieties: no identification
+`K=Q(T)` is assumed. Primitive elements are used for finite separable
+reduced residual algebras; the nonreduced conductor quotient remains
+encoded by its bases and multiplication matrices. The finitely many
+matrix coefficients spread to rational-function presentations over
+localizations of `A`. Denominators in `x` and their zero loci retain
+the treatment supplied by the accepted full-conductor construction;
+coefficient specialization and rank exceptions remain in its finite
+stratification. All root-ordering and splitting choices are recorded by algebraic variables
+and equations over these rings, rather than by individually chosen
+geometric branch labels. Consequently the full phase cover and its map
+are defined over `Q`. Chevalley image formation gives a constructible
+phase image `W` over `Q`.
 
 There is no need to decompose `W` into geometrically irreducible pieces.
 An explicit rational constructible presentation has the form
@@ -46,11 +58,16 @@ B_i closed in Y_i,
 ```
 
 with all displayed defining equations rational. Such a presentation can
-be obtained by elimination from an explicit phase-space model. Its
-torsion points, interpreted over `Qbar`, are the same torsion tuples
-after embedding into any algebraically closed characteristic-zero
-base field. A realized phase over that field is still subject to all
-nilpotent and admissibility equations already incorporated into `W`.
+be obtained by elimination from an explicit phase-space model. Here
+`W` is the geometric image, not the image of `Q`-rational parameter
+points. Every torsion tuple is defined over `Qbar`. Its finite-type
+fibre is nonempty over `Qbar` if and only if it is nonempty after an
+algebraically closed characteristic-zero field extension; this follows
+from faithful flatness and the Nullstellensatz. Thus the realized
+torsion tuples are unchanged after such an extension, with every
+nilpotent and admissibility equation retained. This does not assert
+that every original carrier with transcendental coefficients descends
+to `Qbar`.
 
 This descent statement gives no numerical values for the sizes or
 degrees of the uncomputed phase-image equations. It identifies the
@@ -77,7 +94,9 @@ The original bibliographic source is H. B. Mann,
 The precise statement was verified in the primary research paper
 J.-H. Evertse,
 [*The number of solutions of linear equations in roots of unity*,
-Section 2, p. 3](https://pub.math.leidenuniv.nl/~evertsejh/98-roots.pdf),
+Acta Arithmetica 89(1) (1999), 45--51,
+author's version, Section 2, p. 3](https://pub.math.leidenuniv.nl/~evertsejh/98-roots.pdf)
+([published DOI](https://doi.org/10.4064/aa-89-1-45-51)),
 which explicitly states Mann's Theorem 1 and supplies the relevant
 self-contained cyclotomic argument. No effective toric Manin--Mumford
 theorem or height estimate is otherwise imported below.
@@ -93,7 +112,9 @@ f_j=sum_(a in A_j) c_(j,a) X^a,       c_(j,a) in Q^*.
 
 Combine equal monomials and discard zero coefficients. A nonzero
 monomial equation makes `Y` empty. A zero polynomial imposes no
-condition. Apart from these trivial cases, put
+condition. If no equation remains, take `S=0`, `q=P(0)=1` (the empty
+prime product), and enumerate the single empty binomial system; its
+solution set is the whole torus. In the nonempty-equation case put
 
 ```
 S=max_j #A_j,             q=P(S).
@@ -172,9 +193,10 @@ rational setting.
 ## 5. A degree bound independent of coefficient heights
 
 For each Laurent polynomial, multiply by a monomial so its support
-has coordinatewise minimum zero, and let `d>=1` be the largest
-resulting ordinary total degree. This changes no torus zero locus or
-row difference. Every character row of a system lies in
+has coordinatewise minimum zero, and set `d` equal to the maximum of
+one and all resulting ordinary total degrees. If no equation remains,
+take `d=1`. This changes no torus zero locus or row difference. Every
+character row of a system lies in
 
 ```
 d(Delta_D-Delta_D),       Delta_D=conv(0,e_1,...,e_D).
@@ -226,6 +248,12 @@ support bound `S<=binomial(D+d,D)` gives the computable alternative
 B_phase <= P(binomial(D+d,D)) d^D.                    (9)
 ```
 
+For `D=0`, the torus is its single point, of order one. All defining
+polynomials are constants, so the preceding preprocessing decides
+whether `Y` is empty or this point. The conventions `q=d=1` in the
+latter case give `B_phase=1`, and the boundary test below decides
+whether that point is retained.
+
 ## 6. The constructible boundary remains part of the certificate
 
 Apply Sections 3--5 separately to each `Y_i` in (1). For each listed
@@ -267,9 +295,10 @@ by the two-term-ratio equations in the three-term relation.
 
 ## 7. The explicit mate-degree consequence
 
-Let `B` be the maximum computed phase-order bound (8) after all
-positive-dimensional cosets have been certified deleted. The accepted
-full-conductor theorem gives, on every mate-admitting carrier,
+Assume at least one piece survives and all positive-dimensional
+cosets have been certified deleted. Let `B` be the maximum computed
+phase-order bound (8) for the surviving zero-dimensional pieces.
+The accepted full-conductor theorem gives, on every mate-admitting carrier,
 
 ```
 b_min <= e ceil(M/e),       e<=B.
@@ -302,7 +331,7 @@ For the actual three fixed-C0 families, rationality removes an
 arithmetic height obstruction: once a rational constructible image
 presentation (1) is available, every step above terminates through
 finite exact algebraic operations and has an explicit order bound.
-The currently unavailable input is the presentation itself, including
+The presentation not yet available in this research record includes
 the full nilpotent equations, its elimination degrees and supports,
 and the boundary equations. The earlier finite-type existence theorem
 does not supply numerical values of `D,d,S` merely from the contact
@@ -321,4 +350,169 @@ individually chosen geometric components, can be kept over `Q`.
 The theorem treats all torsion orders at once, but does not compute a
 surviving phase or exclude the actual families. The unrestricted
 fixed-C0 and universal integral-curve STCI questions remain open.
+No Mann partition enumeration or boundary-containment enumeration has
+been executed in this note; the finite procedure is proved here.
+
+## 9. Meta-effectivity from explicit projection-family input
+
+Status: **PASS for the precise explicit rational fixed-model input below**
+in the separate [2026-10-16 raw-input scope audit](2026-10-16-generalization-raw-projection-decision-independent-audit.md).
+This adds an algorithm-existence corollary to the accepted explicit-phase-image
+decision theorem; no actual phase image has been computed.
+
+For the three fixed normalized models, the need to supply a phase-image
+presentation in Sections 3--8 can be removed at the level of
+in-principle computability. The following corollary algorithmizes the
+accepted phase construction; it is not inferred merely from the
+existence of some finite-type phase space.
+
+**Corollary.** Give one of the three fixed `Q`-models, its prescribed
+curve and polarization, and an explicit finite algebraic presentation
+of a projection family: finitely many rational polynomial section
+coefficients in finitely many parameters, with any additional
+`Q`-constructible parameter restrictions. The fixed section rings are
+available through the usual Veronese/Segre/quadric presentations.
+The four sections have the prescribed fixed restrictions to `c`, or
+the finite coefficient equations imposing those restrictions are
+included as an initial parameter condition.
+Within the admissibility and fixed-normalization scope of the accepted
+phase theorem, there is a terminating exact algorithm which constructs
+a rational phase-space/image presentation and returns one of the
+three alternatives in Section 6. Thus it decides whether any actual
+carrier in this input family admits a mate. If such carriers exist,
+it decides whether their least mate degrees are unbounded; in the
+bounded case it computes a valid uniform bound as in Section 7.
+
+Here input means finite polynomial and module data over `Q`, not an
+arbitrary variety or carrier supplied without a computable field
+presentation. The corollary does not require an oracle for arbitrary
+divisor class groups or for functions on unspecified varieties.
+
+**Proof of meta-effectivity.** Begin with effective decomposition of
+the parameter presentation into `Q`-defined integral locally closed
+pieces. A piece has a computably presented domain `R` and function
+field `K=Frac(R)`; equality and arithmetic in `K` and `K(x)` are
+decidable by polynomial ideal membership. Their possible algebraic
+constant fields cause no need to identify `K` with a purely
+transcendental field.
+
+The admissible parameter locus is also computed, rather than supplied
+by an oracle. Basepoint incidence and the full inverse-support
+condition are polynomial incidence formulas; effective quantifier
+elimination computes their constructible parameter loci. On the
+basepoint-free locus, ampleness gives the accepted finiteness of the
+source map. Compute its generic image ideal by elimination and its
+Hilbert polynomial from a homogeneous Groebner basis. Retain the
+leading monomials by the same monic-basis localization used below.
+The exactness and generic freeness localization described below
+preserves the fibre image and
+Hilbert polynomial on a computed open. The image degree then gives
+the generic map degree `H^2/deg(X_t)`; keep degree-one opens and
+recurse on their closed complements, as below. This computes the
+finite-birational locus. Integral fibre images are hypersurfaces
+because they are surfaces in `P3`. The additional input parameter
+restrictions are retained in these constructible operations.
+
+The generic image rings have finite presentations obtained by
+elimination from the specified section maps. The source section ring
+is an explicit finitely presented normal graded algebra for these fixed models.
+On the admissible finite normalization charts, its finite module
+structure over the image ring can be constructed by exact algebra,
+or by searching for and checking the monic integrality identities and
+finite generators whose existence is part of the accepted setting.
+Kernels, quotient inclusions, intersections, and common conductor
+ideals are computable by syzygies and annihilators; for a finite
+inclusion `A subset B`, the conductor is obtained from
+`Ann_A(B/A)`. These are operations on finitely presented modules, not
+unbounded searches through possible mate powers.
+
+The further generic choices have finite verifiable certificates.
+Relative Noether coordinates are certified by the monic finiteness
+identities for the full conductor quotient. Bases and their
+multiplication tables are certified by module identities and nonzero
+minors. Primitive elements of finite separable reduced residual
+algebras are certified by their powers forming a basis, together with
+the relevant separability/rank tests. They are not used to replace
+the nonreduced conductor quotient. One can use standard exact
+algorithms or dovetail the enumeration of candidate choices and finite
+certificates. The generic existence assertions in the accepted
+construction ensure that a certificate is eventually found. All
+candidate data lie in the computable fields `K` or `K(x)`.
+
+Spreading these certificates requires more than clearing the
+denominators of displayed identities. Fibre kernels, inclusions and
+the common ideal must retain their specified exactness. The needed
+generic freeness is itself effective. To see the module version
+directly, present a relevant finite module as
+
+```
+M=R[u_1,...,u_n]^a/N.
+```
+
+Compute a module Groebner basis of `N` over `K[u_1,...,u_n]` and make
+it monic. Record the finite expressions generating that basis from
+the original relation generators, the reverse generation identities,
+and its Buchberger reductions. Invert the product `h` of all nonzero
+coefficient denominators appearing in these data. Then the same
+monic basis generates `N_h` and has the same reduction identities
+over `R_h[u_1,...,u_n]`. The standard module monomials give an
+`R_h`-basis of `M_h`, possibly infinite. In particular `M_h` is flat
+over `R_h`.
+
+Apply this to the finite collection of relevant modules and
+cokernels, and multiply their localization elements. Flatness of the
+appropriate cokernels preserves the kernel and inclusion sequences
+after every residue-field specialization. This supplies the
+base-change control required by the accepted construction's common
+ideal and matrix presentations. Nonzero-minor and coefficient-rank
+conditions are treated at the same time. Polynomials in `x` do not
+thereby become invertible at all source points: their zero loci
+retain the accepted full-conductor treatment, with the monic
+finiteness certificate for the entire quotient kept before
+rational-function localization.
+
+For a primary-source example of the underlying constructive generic
+freeness method, see H. Derksen and G. Kemper,
+[*Computing invariants of algebraic groups in arbitrary characteristic*,
+Advances in Mathematics 217 (2008), 2089--2129, Theorem 2.13 and
+Algorithm 2.14, pp. 2114--2115](https://sites.lsa.umich.edu/hderksen/wp-content/uploads/sites/614/2018/05/A.I.a.28.pdf)
+([DOI](https://doi.org/10.1016/j.aim.2007.08.016)). Their displayed
+algorithm treats a ring inclusion of domains; the monic module-basis
+argument above supplies the finitely presented module version needed
+here.
+
+At each integral parameter piece the finite certificates hold on a
+computed nonempty open `D(h)`. Decompose its closed complement
+`V(h)` into its finitely many `Q`-prime components and repeat the
+generic construction there. Each has strictly smaller dimension
+than the current integral piece. This gives a finite recursion tree:
+the depth is bounded by the initial parameter dimension, and each
+vertex has finitely many children computed by primary decomposition.
+All exceptional strata are retained; none is discarded because a
+denominator or rank changes there.
+
+The remaining derivative, constant-ratio, nilpotent, root-ordering,
+and full inverse-incidence equations of the accepted construction
+are finite algebraic operations on these presentations. They give
+an explicit finite-type map over `Q`. Effective elimination with
+quantifier elimination over algebraically closed fields produces its
+actual constructible image, including the nonvanishing conditions
+and deleted boundaries. Taking only the elimination closure would
+not suffice.
+
+Finally run the finite Mann partitions, cyclotomic equalities, Smith
+normal forms, and boundary tests proved in Sections 3--6. Those
+steps terminate and give exactly the three alternatives. The accepted
+phase-order/mate theorem and Section 7 identify their mate-degree
+consequences. This proves the corollary without revisiting the
+geometric correctness of the accepted construction.
+
+This is an algorithm-existence and termination result. No step of
+this composite construction or of the Mann/boundary enumeration has
+been executed for the actual three families in this note. No
+practical complexity or numerical mate bound follows before the
+required calculations are carried out. In particular this corollary
+does not identify which alternative holds for any of the three
+whole families, and does not settle the unrestricted fixed-C0 or
+universal questions.
 

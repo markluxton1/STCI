@@ -1,0 +1,21 @@
+{
+  "input_sha256": {
+    "research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-04-completion/global-seventeen-equations.txt": "c29dff74c9b120df41b7c59852d81d88d9d7004fa6e8586cda961eafd82e5008",
+    "research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-04-completion/global-domain-unit.txt": "4bd9af1e22bcf421017a2b0213cdc74e5dfbd9451860c1c644c24104977e778b"
+  },
+  "variable_order": [
+    "delta",
+    "a",
+    "B",
+    "G",
+    "J",
+    "vH2",
+    "wH2",
+    "h2DGlobal",
+    "h2EtaGlobal"
+  ],
+  "equation_count": 17,
+  "domain": "delta*E*Delta1",
+  "cover_discriminant_inverted": false,
+  "saturation_or_GB_requested": false
+}

@@ -13,6 +13,28 @@ Ongoing generalization work addresses the full obstruction tower,
 formal algebraization and finite-type conductor torsion geometry,
 alongside one shared quintic incidence rather than narrow case fan-out.
 
+The subsequent October 15 geometric theorem and full audit now exclude
+every all-orders smooth movement-two root lift for balanced rational
+degree-e space curves with e>=4, simultaneously for all first orders
+r>=2. The finite tower therefore has an existential uniform empty stage
+for each fixed r on that smooth open; within the proved actual-CI bridge,
+the next-relation gap is bounded by that stage. A characteristic addendum
+extends the formal statement under explicit hypotheses, and an intrinsic
+nef-polarization criterion extends the degree comparison to curves of
+any genus with actual normal bundle L direct_sum L. The quintic h2 lane
+now has a reviewed common Delta1 unit open and eight equivalent
+logarithmic ODE equations on its declared finite inverse-map chart.
+The [October 15 acceptance record](notes/2026-10-15-session-structural-results-acceptance.md)
+keeps the new proofs, scope boundaries and terminal attempts separate.
+The [October 16 continuation](notes/2026-10-16-session-structural-continuation.md)
+now adds an independently reviewed finite-family theorem for arbitrary
+actual normal bundles, the all-characteristic inseparable-root CI
+bridge at its literal scope, an algorithm-existence theorem starting
+from finite rational fixed-model projection data, and the whole-h2
+global seventeen-equation incidence retaining repeated-root and
+rational-cover boundaries. The family algorithm has not been executed,
+and the global incidence is not proved empty.
+
 The October 13–14 generalization batch is indexed in that state and the
 [dated handoff](SUCCESSOR_HANDOFF_2026-10-14.md). Accepted new results include
 the exact all-branch fixed-carrier conductor/descent criterion, the

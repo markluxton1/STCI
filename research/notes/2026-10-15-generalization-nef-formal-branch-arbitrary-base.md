@@ -1,7 +1,12 @@
 # Nef polarizations bound formal surface branches over arbitrary smooth curves
 
 Date: 2026-10-15. Author: `formal_algebraization_route`.
-Status: **NEW SCOPE GENERALIZATION; targeted independent review requested**.
+Status: **SCOPE GENERALIZATION; targeted independent audit passes**.
+The [independent scope audit](2026-10-15-generalization-nef-formal-branch-arbitrary-base-independent-audit.md)
+passes the intrinsic nef formulation, exact normal-bundle hypothesis,
+new genus/degree expressions, and resulting numerical criterion.
+The separate [movement-one audit](2026-10-15-generalization-movement-one-formal-roots-independent-audit.md)
+also passes the new corollary in Section 5.
 The independently audited branch-algebraization/ruled-surface argument in
 [smooth-root formal nonexistence](2026-10-15-generalization-smooth-root-formal-nonexistence.md)
 is a premise. This note isolates its intrinsic form and computes the new
@@ -41,8 +46,9 @@ class to that model has numerical class `a Z0+b f`, with `a>=1`,
 in (2). This repackaging requires neither a rational base curve nor a
 blowup presentation. The condition `d>0` is automatic for ample `A`.
 
-If `A` is merely nef and its algebraic surface closure is contracted,
-`d` may vanish; no positive-degree contradiction may then be inferred.
+For a merely nef `A`, its square on the algebraic surface closure may
+vanish; no positive-degree contradiction may then be inferred. A general
+nef line bundle need not define a contraction or a morphism.
 The blowup application below proves positivity separately.
 
 The imported primary inputs are [Bost, Theorem 3.5 and Corollary 3.8](https://www.numdam.org/article/PMIHES_2001__93__161_0.pdf)
@@ -176,3 +182,47 @@ The arbitrary-characteristic extension is left to the separately
 reviewed scope statement for the underlying geometric argument. The
 present note fixes characteristic zero. No accepted theorem or
 computation was replayed, and no canonical record or commit was changed.
+
+## 5. Independently audited movement-one corollary
+
+For a balanced smooth rational space curve of degree `e>=3`, there is
+no all-orders smooth root of class `(1,r)` with `r>=2`. Indeed its genus
+is zero, `nu=(2e-1)r-1>5`, and `nu>=h=er`. The audited criterion gives
+`d<=r+1`, whereas plane adjunction requires
+
+    (d-1)(d-2)>=e*r*(r-1).
+
+The upper bound makes the left side at most `r(r-1)`, contradicting
+`e>=3` and `r>=2`. This excludes every first normal order in that family
+simultaneously.
+
+For first normal order `r=1` and degree `e>=4`, every all-orders smooth
+root of class `(1,1)` is the actual strict-transform germ of a quadric
+containing `C` and smooth along `C`. Here `nu=2e-2>5`, so the criterion
+gives an integral surface closure of degree at most two. A plane cannot
+contain this smooth rational curve: a smooth rational plane curve has
+degree at most two. Hence its closure is a quadric `Q`.
+
+The generic order `m` of `Q` along `C` is one. One way to see this
+without a classification of quadrics is plane adjunction: `m>=2` would
+force `0=(2-1)(2-2)>=e*m*(m-1)>0`. Its strict transform `W` therefore
+restricts to an effective divisor on `E=P1 x P1` of class
+
+    (2e-(2e-1),1)=(1,1).
+
+It contains the given integral `Z` in that same class, so `W|E=Z`
+scheme-theoretically. Smoothness of this full divisor makes `W` smooth
+and transverse to `E` all along `Z`. Thus its formal completion along
+`Z` is already the selected formal branch; away from `Z` on `E`, both
+divisor ideals are units. Consequently the whole formal divisor on
+`Bhat_E` is the strict-transform germ of `Q`, not merely an unspecified
+branch of a larger-degree surface. The finite exceptional intersection
+also says the ordinary first normal symbol of `Q` is nowhere zero on
+`C`, equivalently `Q` is smooth along `C`.
+
+Conversely, a quadric containing `C` and smooth along `C` has normal
+order one, and its strict transform has this smooth finite `(1,1)`
+root and provides all exceptional lifts. The corollary classifies the
+all-orders movement-one roots in this scope; it gives no new explicit
+finite cutoff and does not replay the stronger accepted finite-jet
+quadric rigidity for `C0`.

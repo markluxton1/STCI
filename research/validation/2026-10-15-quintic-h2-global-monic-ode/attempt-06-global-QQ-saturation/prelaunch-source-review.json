@@ -1,0 +1,17 @@
+{
+  "status": "PASS-source-review-before-one-launch",
+  "reviewer": "new_h2_factor_audit",
+  "runner_sha256": "e47317ab64eeb5968aba839880955a54ba55396ae7358dcb0b5f8718a2f6be04",
+  "driver_sha256": "c6d6fceaeb16182a226373dfc19efe3d8816d0cc4797e7186f26bd038051735b",
+  "prior_generic_runner_checkpoint": "bf124f8ab962ef0ed4085397034c50ee8d0d7162",
+  "prior_generic_runner_sha256": "55d370623116a153645974d755e3e0805a3eb054f087734d5206ddb7128b7018",
+  "prior_generic_runner_snapshot": "generic-runner-at-checkpoint.py",
+  "domain": "delta*E*Delta1 only",
+  "wall_seconds": 120,
+  "cpu_seconds_soft_hard": [
+    120,
+    120
+  ],
+  "rss_stop_bytes": 1610612736,
+  "actual_monitor_preflight_required_again": true
+}

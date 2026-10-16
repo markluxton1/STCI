@@ -1,0 +1,2 @@
+MODEL_READY: 16 first equations, 25 complete second dual equations, one smooth inverse
+NO_ELIMINATION_RUN_BY_INPUT_FILE

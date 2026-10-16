@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "own_process_sample": {
+    "resident_bytes": 20889600,
+    "footprint_bytes": 16335160,
+    "user_time_raw": 1483364,
+    "system_time_raw": 408216
+  },
+  "probe_child": {
+    "pid": 39518,
+    "pgid": 39518,
+    "cpu_limit": [
+      120,
+      120
+    ]
+  },
+  "probe_sample": {
+    "resident_bytes": 43679744,
+    "footprint_bytes": 39797048,
+    "user_time_raw": 253870,
+    "system_time_raw": 132910
+  },
+  "simulated_stop_bytes": 1048576,
+  "probe_actual_exit_code": -15,
+  "cleanup": [
+    "SIGTERM-private-group",
+    "private-group-absent"
+  ]
+}

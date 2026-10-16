@@ -1,6 +1,9 @@
 # October 15 structural research acceptance and continuation record
 
 Date: 2026-10-15. Integrator: primary agent.
+Subsequent accepted scope extensions, the whole-h2 global model and current
+process state are recorded in the
+[October 16 continuation](2026-10-16-session-structural-continuation.md).
 The universal integral-curve STCI question and unrestricted characteristic-zero
 `C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. This record accepts new written
 arguments only at their stated scope. Previously accepted proofs and
@@ -100,8 +103,9 @@ corollary. The image surface would have degree `d<=r+2` but also
 For each fixed r, the accepted tower consequently has a uniform finite
 empty stage on the smooth movement-two open. Under the accepted actual-CI
 bridge this gives `s-r<=N`, not exclusion of every finite-gap pair.
-The current accepted proof is characteristic zero. A separately recorded
-characteristic extension is under review and is not imported here.
+The original main proof is characteristic zero. The separately reviewed
+formal characteristic extension and subsequent inseparable actual-CI
+bridge are accepted in the October 16 continuation at their literal scope.
 
 The owner preserves a failure shield for an attempted effective cutoff:
 a long finite primitive jet can lie in `g^alpha+u^k` without an actual

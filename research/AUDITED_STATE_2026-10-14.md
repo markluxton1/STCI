@@ -1,7 +1,7 @@
 # Accepted research frontier — 2026-10-14
 
 This is the continuation entry point after the October 13–14 structural
-generalization batch, updated during the October 15 continuation. The
+generalization batch, updated during the October 16 continuation. The
 universal integral-projective-curve STCI question
 and the unrestricted characteristic-zero problem for
 `C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. No new novelty or priority claim is
@@ -13,6 +13,9 @@ Accordingly accepted proofs and certificates were used as premises; new
 review was confined to new arguments, pending claims and scope bridges.
 The [previous state](AUDITED_STATE_2026-10-07.md) preserves the inherited
 proof history. This file supersedes its conflicting continuation labels.
+The [October 16 continuation record](notes/2026-10-16-session-structural-continuation.md)
+collects the latest structural scope extensions, the global quintic target
+and honest terminal-process evidence in one successor entry.
 
 ## 1. Complete branch reconstruction and inherited closed lanes
 
@@ -196,6 +199,45 @@ In particular `E>=M` gives minimum mate degree exactly E. This treats
 all powers at once while retaining their finite low-degree exceptions.
 Proof and review: [full phase/torsion-coset reduction](notes/2026-10-15-generalization-projection-torsion-coset-reduction.md),
 [independent family review](notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md).
+
+**PROVED with an independent arithmetic and scope review:** for an
+explicit rational constructible phase image `W=union(Y_i minus B_i)` in
+a D-dimensional torus, Mann's theorem and Smith normal form give a
+finite effective torsion-coset cover and exact boundary tests. No height
+estimate or test of separate mate degrees is needed. If no positive-
+dimensional coset survives, every phase order is at most
+`max_i P(S_i) d_i^D`, where P(S) is the product of primes at most S,
+S_i is the largest monomial-support size, and d_i>=1 is the largest
+ordinary total degree after monomial shifts. This is an upper bound,
+not a divisibility assertion. Least mate degrees are then at most this
+bound plus 4 in the quadric models or plus 12 in the plane model.
+The same finite calculation decides torsion existence from the explicit
+image and detects unbounded least degrees through a surviving positive-
+dimensional coset. Deleted boundaries, empty pieces and the zero-
+dimensional torus convention are included.
+
+The whole fixed projection families can be kept over Q, with all
+geometric branch choices retained as variables. This does not assume
+their integral parameter strata are rational. Actual phase-image
+equations have not been computed, so no numerical bound or decision
+for the C0 families follows from this theorem alone.
+Proof and review: [effective rational phase bound](notes/2026-10-15-generalization-effective-rational-phase-bound.md),
+[independent arithmetic review](notes/2026-10-15-generalization-effective-rational-phase-bound-independent-review.md).
+
+The stronger raw-input corollary also passes a separate
+[October 16 scope audit](notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md).
+For explicit finite rational section/module data on any of the three
+fixed models, with the prescribed C0 restrictions and finite constructible
+parameter conditions, there is an in-principle terminating exact algorithm
+which computes the admissible phase image and decides whether any carrier
+in that family has any mate in any degree. It also distinguishes unbounded
+least mate degrees from the bounded case and computes a uniform bound
+in the latter. Finiteness of the section-ring module is established
+before the birational filter, and effective homogeneous generic freeness
+preserves every exceptional stratum and actual fiber image.
+This is a fixed-three-model algorithm-existence theorem, not a practical
+complexity bound or an algorithm run. No actual family outcome or
+numerical C0 bound has been obtained.
 
 **PROVED in every characteristic:** if a smooth degree-d genus-g curve
 is Cartier on an integral hypersurface carrier admitting a mate, that
@@ -391,6 +433,18 @@ Proofs: [universal incidence](notes/2026-10-14-generalization-quadratic-root-uni
 Reviews: [first-class audit](notes/2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit.md),
 [second-class audit](notes/2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit.md).
 
+The reviewed [global second-dual compression](notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md)
+and [full model audit](notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md)
+now give twenty-five exact scalar pairings equivalent to the entire
+rank-sixteen second obstruction over the whole basepoint-free family,
+without coefficient charts or thirty-nine quartic unit variables.
+The exported global model has sixteen first equations, twenty-five
+second equations and one inverse for the homogeneous branch discriminant.
+That discriminant covers the entire smooth family, including infinity,
+and implies basepoint freeness. The one M2 launch yielded no elimination
+result because its RSS supervisor failed; its PID was later confirmed
+absent. This supplies neither an empty stage nor an explicit N.
+
 **PROVED with separate cohomological and functorial reviews:** for a
 fixed balanced rational formal neighborhood with conormal
 `O(-lambda)^2`, first normal order r and movement epsilon, the sufficient
@@ -451,6 +505,94 @@ Proof and full review: [smooth-root formal nonexistence](notes/2026-10-15-genera
 [independent global audit](notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md).
 The proof also preserves the failed finite-Hilbert-count shortcut:
 containing a long primitive jet need not produce a smooth algebraic branch.
+
+The [characteristic-scope addendum](notes/2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+independently extends this formal theorem and its finite empty tower to
+every algebraically closed characteristic, retaining the explicit
+balanced normal bundle and full smooth root. Total degree, including
+inseparable degree, enters the intersection formulas. This does not
+assume the literal C0 has the same normal splitting in every characteristic.
+The separate [inseparable-root bridge](notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md)
+now passes both a [local-algebra review](notes/2026-10-15-generalization-inseparable-root-blowup-local-algebra-review.md)
+and a [full new-scope audit](notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md).
+It extends the actual-CI bridge to every characteristic under its literal
+saturated first-line, jointly generating leading sections, full generic
+initial regular sequence `(f_r,g_s)`, gap at least two, and smooth full
+root hypotheses. At the actual root prime, reducedness means exponent
+one even for an inseparable residue field. The uncompleted standard-basis
+argument gives the ideal `(h,u^(s-r))`; the local smooth surface and UFD
+argument globalize it without saturating away vertical components.
+Thus `s-r<=N` now holds in this same literal lane in every characteristic.
+The proof explicitly rejects a compatible residue-field splitting in
+the wild example; no inseparable coefficient-field assumption is hidden.
+
+**PROVED with a targeted new-scope audit:** the same geometric argument
+has an intrinsic form on any smooth projective threefold. For a smooth
+formal surface along a smooth curve Z of genus g, normal degree
+nu>4g+5, and nef ambient class A with positive surface square d, it
+requires `d<=max_(a>=1 integer)(2a(A.Z)-nu a^2)`. Positivity of d is
+essential for a merely nef class.
+
+For a smooth space curve of degree e and genus gamma with the actual
+bundle isomorphism `N_C=L direct_sum L`, put epsilon=deg M for a smooth
+connected finite root in `|M boxtimes O(r)|`. Then
+`g_Z=r gamma+(epsilon-1)(r-1)`,
+`nu=(2e+gamma-1)r-epsilon`, and `h=e r`.
+Under nu>4g_Z+5 and nu>=h, any infinite lift requires an integer
+`1<=d<=(1-gamma)r+epsilon` and
+`(d-1)(d-2)>=e r(r-1)`. Thus positive genus strengthens the same
+opposing degree bounds. Numerical balance alone does not imply the
+bundle hypothesis. No higher-genus finite-tower theorem or arbitrary
+actual-CI exclusion is asserted by this extension, whose stated scope
+is characteristic zero.
+Proof and targeted review: [nef formal branches over arbitrary bases](notes/2026-10-15-generalization-nef-formal-branch-arbitrary-base.md),
+[new-scope audit](notes/2026-10-15-generalization-nef-formal-branch-arbitrary-base-independent-audit.md).
+
+The same numerical criterion also classifies smooth movement-one formal
+roots for balanced rational curves. For e>=3,r>=2, none has an all-orders
+lift. For r=1,e>=4, all-orders lifts are exactly the strict-transform
+germs of quadrics containing C and smooth along it. The degree estimate
+is now d<=r+1; at r=1, equality of the entire exceptional intersection
+removes the extra-branch ambiguity. This is an all-orders classification,
+not a replacement for the stronger accepted finite-jet C0 result.
+Targeted review: [movement-one formal-root audit](notes/2026-10-15-generalization-movement-one-formal-roots-independent-audit.md).
+
+**PROVED with an independent new-scope audit, without a split normal
+bundle:** let a fixed finite-type parameter scheme carry a proper smooth
+family of geometrically connected Cartier roots in an actual divisor E.
+Write `g=genus Z`, `A=Z^2_E`, and `nu=deg O_E(E)|Z`, fixed on this family.
+If `nu>max(A,0)`, every correction line has degree `A-m nu<0`.
+Relative perfect cohomology gives obstruction bundles of rank
+`g-1-A+m nu`, with zero degree-zero pushforward after every base change,
+including nilpotent parameters. The accepted embedded-ideal argument
+therefore gives a canonical closed eventually stable formal-lift locus
+on this same finite-type parameter space. The parameter space need not
+be proper; its universal curve is proper over it.
+
+For ANY fixed smooth space curve of degree e and genus gamma with its
+actual normal bundle, the exceptional ruled surface satisfies
+
+```
+A=(4e+2gamma-2)r^2-2r nu,
+A=2g_Z-2+4er-2nu,
+```
+
+where r is the full degree of a smooth connected root over C. Fixed
+`(r,nu)` fixes its numerical divisor class and Hilbert polynomial. A
+single finite-type smooth Cartier Hilbert open thus covers every such
+root of that fixed class, with the numerical strata retained. No
+semistability, projective triviality or rational-base hypothesis enters.
+
+If also `nu>4g_Z+5` and there is no positive integer d obeying both
+`d<=max_(a>=1 integer)(2aer-nu a^2)` and
+`(d-1)(d-2)>=e r(r-1)`, the stable locus is empty. One finite empty stage
+N is then uniform over the entire fixed family. Under a valid actual-CI
+bridge, `s-r<=N`. This gives one intersection-theoretic mechanism across
+arbitrary actual normal bundles; it does not bound all numerical classes,
+supply an explicit N, or cover singular/nonreduced roots. The new
+intrinsic proof and its targeted audit state characteristic-zero scope.
+Proof and review: [intrinsic finite root families](notes/2026-10-15-generalization-intrinsic-finite-root-family.md),
+[splitting-free family audit](notes/2026-10-15-generalization-intrinsic-finite-root-family-independent-audit.md).
 
 The independently reviewed torsion geometry also gives a concrete cubic
 equation for exact order two on the smooth `(2,2)` root open: the
@@ -603,6 +745,59 @@ The shared norm product can be appended with its declared inverse-map
 unit conditions; its factors remain together in this program.
 Proof and review: [twelve-generator system](notes/2026-10-15-generalization-quintic-h2-twelve-generator-support-system.md),
 [independent ideal-sheaf audit](notes/2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit.md).
+
+The next reviewed common-open argument proves Delta1 nonzero on every
+remaining mate candidate, using the accepted A4 fiber and closed-lane
+premises for both values of j. The actual capture has the exact binding
+`delta^4 q6=-3 Jnum Delta1num`. On the declared finite inverse-map chart,
+this makes q6 a unit times j without cancelling j; the twelfth generator
+is redundant. Moreover `(q5,q6)` is already the unit ideal on this
+localized ring, so its separate saturation is unnecessary.
+
+On the same declared chart, the entire shared support incidence is
+equivalently the eight coefficient equations of
+`(z^2+vz+w)q'(z)=(d z+u)q(z)` with unique witness scalars d,u.
+The derived equations `(d-5)(d-6)=0` and `j(d-6)=0` retain both A4
+alternatives in one ideal. The equivalent ODE presentation has much
+lower degree than the expanded cubic minors. It is not an emptiness
+certificate. The inverse-map determinant and its repeated-root/cover
+boundary are still outside that rational chart; the Delta1 necessity
+is global, whereas those original inverse-map units are not.
+Proofs and reviews: [A4 unit and eleven generators](notes/2026-10-15-generalization-quintic-h2-a4-unit-and-eleven-generators.md),
+[unit audit](notes/2026-10-15-generalization-quintic-h2-eleven-generator-unit-independent-audit.md),
+[automatic open and ODE](notes/2026-10-15-generalization-quintic-h2-automatic-open-and-ODE.md),
+[ODE audit](notes/2026-10-15-generalization-quintic-h2-automatic-open-ODE-independent-audit.md).
+
+**PROVED with an independent global-cover and artifact audit:** the
+[global monic ODE model](notes/2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md)
+and [October 16 review](notes/2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md)
+replace that rational chart by one necessary incidence for EVERY remaining
+h2 mate candidate in this fixed genus-one A4 family. Its seventeen
+equations in nine original/cofactor/action variables consist of four
+conormal remainders, two correctly reversed actual-conductor remainders,
+eight ODE coefficients and three derived accelerators. Only
+`delta*E*Delta1` is inverted, where E is the exact-h2 cofactor resultant.
+Neither the H discriminant nor the old cover factor K is inverted;
+repeated roots and the rational inverse-map boundary remain present.
+Source zero is also retained. The actual conductor factor is imposed by
+its two remainder equations, without promoting a field-valued geometric
+factor theorem to a family scheme identity.
+
+The [runnable global input](computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
+passed a load-only check. The single next mathematical target is
+`h2GlobalIdeal : h2GlobalDomainUnit^infinity`. A unit-ideal certificate
+would close all remaining h2 mate candidates in this family; a proper
+ideal would still require actual projection admissibility, full fibers
+and conductor descent. This does not close the retained h1 exceptions,
+other quintic normalizations or the whole quintic problem.
+
+One new whole-h2 global QQ saturation prospect was run under a validated
+CPU/wall/memory guard. It reached the saturation stage, then crossed its
+polled 1536-MiB RSS threshold after 58.564 seconds. The actual exit was
+-15; PID39519 was reaped and its private group was absent. It produced
+no completed ideal or unit certificate. This is a memory interruption,
+not a mathematical exclusion or an observation timeout. Record:
+[global QQ attempt06](validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/execution-record.json).
 
 ## 8. Local power-socle compatibility and new all-degree normal exclusion
 

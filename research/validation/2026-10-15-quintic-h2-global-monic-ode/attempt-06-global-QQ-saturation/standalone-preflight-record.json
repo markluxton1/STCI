@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "own_process_sample": {
+    "resident_bytes": 20529152,
+    "footprint_bytes": 16007480,
+    "user_time_raw": 1785892,
+    "system_time_raw": 536116
+  },
+  "probe_child": {
+    "pid": 39405,
+    "pgid": 39405,
+    "cpu_limit": [
+      120,
+      120
+    ]
+  },
+  "probe_sample": {
+    "resident_bytes": 43696128,
+    "footprint_bytes": 39813432,
+    "user_time_raw": 252720,
+    "system_time_raw": 137135
+  },
+  "simulated_stop_bytes": 1048576,
+  "probe_actual_exit_code": -15,
+  "cleanup": [
+    "SIGTERM-private-group",
+    "private-group-absent"
+  ],
+  "runner_sha256": "d3baf8e03051ba96d9b20c0be4d668084cc09a2dca513c9b42e534cbf0954138",
+  "completed_utc": "2026-10-16T11:32:40.213273+00:00",
+  "actual_M2_started": false
+}
