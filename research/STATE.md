@@ -34,6 +34,10 @@ The older partial quartic-mate analyses below remain valid **as historical inter
 
 [STCI-R-0003](results/fixed_carrier_conductor_criterion.md) gives an exact criterion on an integral Cohen–Macaulay projective carrier with finite normalization, in **any characteristic**: the full inverse support must have no isolated points, and the Cartier-relation lattice must contain a vector positive on all inverse branches whose off-curve full-conductor unit classes are torsion. For hypersurface carriers this is equivalent to an ambient mate on that **fixed** carrier. The finite lattice reduction is abstract; it does not compute class groups or conductor descent for all carriers.
 
+## Projection-family torsion-coset reduction — PROVED UNDER STATED HYPOTHESES
+
+[STCI-R-0004](results/projection_phase_reduction.md) reduces the all-mate-degree problem in fixed Cartier singleton projection families to full-conductor phase tuples and torsion in a finite-dimensional torus. It preserves nilpotent defects and admissibility boundaries. The phase images and torsion cosets of the three fixed-C0 models **have not been computed**, so the existence question remains open.
+
 ## Order-one structure — PROVED
 
 Topic synthesis: [results/order_one.md](results/order_one.md)
