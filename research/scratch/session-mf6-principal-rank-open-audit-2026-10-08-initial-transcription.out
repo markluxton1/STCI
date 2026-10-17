@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py", line 74, in <module>
+    assert s.factor(free.det())== -p**8*(2*r-1)**6*T**11/2**53
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

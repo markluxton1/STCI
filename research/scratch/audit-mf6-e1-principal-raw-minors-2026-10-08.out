@@ -1,0 +1,8 @@
+cofactor 6 seconds 5.977474167011678 factors [(1, 3), (1, 4), (1, 5), (1, 3), (2, 7), (20, 1)]
+cofactor 5 seconds 6.122655417071655 factors [(1, 3), (1, 4), (1, 5), (1, 3), (2, 7), (21, 1)]
+cofactor 4 seconds 6.389858374954201 factors [(1, 4), (1, 6), (2, 7), (30, 1)]
+cofactor 3 seconds 9.217796916957013 factors [(1, 5), (1, 5), (2, 9), (32, 1)]
+cofactor 2 seconds 7.348218167084269 factors [(1, 4), (1, 4), (2, 7), (33, 1)]
+cofactor 1 seconds 11.413366666994989 factors [(1, 4), (1, 3), (2, 8), (34, 1)]
+cofactor 0 seconds 8.99787349998951 factors [(1, 2), (1, 4), (1, 1), (2, 7), (33, 1)]
+DONE

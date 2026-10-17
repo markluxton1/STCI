@@ -1,0 +1,5 @@
+PASS exact weighted polynomial contact syzygy 0 degree 9
+PASS exact weighted polynomial contact syzygy 1 degree 9
+PASS exact weighted polynomial contact syzygy 2 degree 10
+PASS fixed14x14 Sylvester determinant is nonzero on H mod101: 22
+PASS saved exact determinant candidate, degree210, atmost630 principal points

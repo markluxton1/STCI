@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "four-A1 dP4 projection containing fixed C0; no projected mate is asserted",
+  "coordinate_change_determinant": 2,
+  "carrier_factored_expression": "D^2-p*q*L^2",
+  "L": "-3*p - 6*q + r + 4*t",
+  "D": "-p**2 - 2*p*q + 6*p*t - 4*q**2 + 3*q*r + 2*r*t",
+  "carrier_degree": 4,
+  "birational_inverse": "z=-D/L",
+  "conductor_ideal": [
+    "L",
+    "D"
+  ],
+  "conductor_conic": "-p**2 + 7*p*q + 12*p*t + 14*q**2 - 8*t**2",
+  "conductor_conic_matrix_determinant": -294,
+  "conductor_on_C0": "(u**2 - 4*u*v + 2*v**2)*(u**2 + u*v + 2*v**2)",
+  "conductor_crossings_distinct": 4,
+  "L_at_A1_vertices": [
+    "-14",
+    "-1",
+    "-2",
+    "-28"
+  ],
+  "quadric_divisor_twice_lifted_curve": "-6*p*q - 2*p*t + p*z - q*r + 2*q*z + 6*z**2",
+  "quadric_on_other_lift": "-2*u**3*v**3*(u**2 + 2*v**2)",
+  "interpretation": "The proof shows a finite birational singular normalization and rules out every mate for this specific projected carrier by its nonsingleton fibers over C0."
+}

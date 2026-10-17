@@ -1,0 +1,5 @@
+PASS reconstructed all quartics, first-normal rank11, complete seven-frame and contact map
+PASS all seven actual raw cofactor factorizations and saved remainder identities
+PASS two resultants leave only P=0 quadratic fibers outside r=+/-1/2
+PASS retained S=0 fiber has a nonzero actual cofactor4
+PASS complete declared open has contact rank6, ambient quartic kernel dimension1
