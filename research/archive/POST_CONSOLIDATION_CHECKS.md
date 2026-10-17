@@ -17,3 +17,21 @@ The `Markdown navigation links` GitHub Actions workflow now runs the **12-docume
 ## Full historical scan in CI
 
 The `historical-links` workflow job runs the all-tracked-Markdown link checker on each relevant PR and main push, publishes its output as a 30-day artifact, and deliberately does **not** fail the workflow for missing historical destinations. This is an observational audit; its success status alone does not mean that all historical links resolve. Inspect the artifact and classify exceptions before rewriting dated notes or changing relative paths. The `core-links` job remains blocking.
+
+## First full-repository CI result (2026-10-17)
+
+[Main-branch workflow run 39067864521](https://github.com/markluxton1/STCI/actions/runs/39067864521) completed successfully. Its historical job scanned **589 tracked Markdown files** and tested **2,200 local destination candidates**, reporting **361 unresolved**. The job is intentionally informational: green CI does **not** mean zero historical exceptions.
+
+Breakdown by *source file location*, based on the job log:
+
+| Source location | Unresolved candidates |
+| --- | ---: |
+| `research/archive/branch-reconciliation/` | 224 |
+| Other `research/archive/` | 65 |
+| `research/validation/` | 63 |
+| `research/notes/` | 9 |
+| **Total** | **361** |
+
+The nine active-path note candidates are `a-k`, `nine`, `X1-X0`, `X2-X0`, four instances of `lambda-nu`, and `a-e`. These look like mathematical notation parsed as links; inspect source context before classifying them as false positives. Archived paths can be broken **relative to their archival location** while the corresponding original source path exists elsewhere. The report therefore does not support changing 361 links blindly or deleting archived duplicates.
+
+**Recommended follow-up:** improve parser precision with regression tests for mathematical bracket/parenthesis expressions; classify archived paths as relocated, intentionally snapshot-local, or genuinely absent; add non-destructive navigation from archive directories to the original source tree. Do not rewrite the content of proof snapshots or infer mathematical validity from a successful link check.
