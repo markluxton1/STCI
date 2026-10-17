@@ -47,6 +47,10 @@ The accepted [STCI-R-0003](results/fixed_carrier_conductor_criterion.md) reduces
 
 [STCI-R-0004](results/projection_phase_reduction.md) gives a reviewed finite-type torsion-coset reduction. The next substantive step is to **compute the actual admissible phase images and surviving torsion cosets** for the three models in [STCI-Q-0001](questions/cartier_projection_models.md), retaining nilpotent conductor equations. Do not mistake the existence of a finite reduction for the completion of these computations.
 
+## Smooth-root bridge boundary — OPEN BEYOND RESTRICTIVE HYPOTHESES
+
+[STCI-R-0005](results/smooth_root_formal_obstruction.md) excludes infinite formal lifts of smooth movement-two roots. [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) supplies a conditional actual-CI bridge, requiring a saturated first relation, everywhere joint generation, full coprime initial ideal, gap at least two, and a smooth full root. The finite-gap conclusion does **not** cover singular or nonreduced roots, defective first relations, or arbitrary actual STCI presentations. An explicit finite obstruction stage remains uncomputed.
+
 ## Other active lanes
 
 - **Order-one e=0/e=1:** retain the jet/ancestor structural questions, but not as possible quartic STCI-mate cases after STCI-R-0001.
