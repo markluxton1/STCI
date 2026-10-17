@@ -6,7 +6,7 @@
 - [Result record schema](RESULT_SCHEMA.md)
 - [Legacy state summary — unreconciled](STATE.md)
 - [Legacy frontier summary — unreconciled](FRONTIER.md)
-- [Result topic index](results/INDEX.md)
+- [Result topic index](results/INDEX.md) — includes [STCI-R-0001: complete quartic-carrier exclusion](results/quartic_carrier_exclusion.md)
 - [Open-question topic index](open/README.md)
 - [Computation certificates](certificates/README.md)
 - [Literature ledger](LITERATURE_LEDGER.md)
