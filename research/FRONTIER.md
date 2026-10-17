@@ -39,6 +39,10 @@ The former Priority 3 normal-quartic mate question is **closed** by [STCI-R-0001
 
 [STCI-R-0002](results/cartier_singleton_lift.md) leaves three higher-degree normalization models for fixed C0 under its **Cartier singleton degree-one inverse-lift** hypotheses. [STCI-Q-0001](questions/cartier_projection_models.md) asks which, if any, admit actual projections with full inverse support and conductor descent. Do not infer that these are the only possible higher-degree carriers; non-Cartier and multiple inverse lifts lie outside the theorem.
 
+## Full-conductor lattice computations — OPEN INSTANCES
+
+The accepted [STCI-R-0003](results/fixed_carrier_conductor_criterion.md) reduces mate existence on a **specified integral carrier** to its normalization class-group relation lattice and full conductor-unit descent. The theorem is proved; computing these objects for the surviving higher-degree carrier families remains open. Residual torsion without characteristic-zero nilpotent-defect control is insufficient, and a fixed-carrier reduction does not bound all carriers.
+
 ## Other active lanes
 
 - **Order-one e=0/e=1:** retain the jet/ancestor structural questions, but not as possible quartic STCI-mate cases after STCI-R-0001.
