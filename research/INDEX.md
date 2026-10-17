@@ -6,7 +6,7 @@
 - [Result record schema](RESULT_SCHEMA.md)
 - [Legacy state summary — unreconciled](STATE.md)
 - [Legacy frontier summary — unreconciled](FRONTIER.md)
-- [Result topic index](results/INDEX.md) — includes [STCI-R-0007: quadratic-root obstruction model](results/quadratic_root_obstruction_model.md) — includes [STCI-R-0005 formal-root obstruction](results/smooth_root_formal_obstruction.md) and [STCI-R-0006 actual-CI bridge](results/actual_ci_smooth_root_bridge.md) — includes [STCI-R-0004: projection-family phase reduction](results/projection_phase_reduction.md) — includes [STCI-R-0003: fixed-carrier conductor criterion](results/fixed_carrier_conductor_criterion.md) — includes [STCI-R-0001: complete quartic-carrier exclusion](results/quartic_carrier_exclusion.md)
+- [Result topic index](results/INDEX.md) — includes [STCI-R-0008: spectral root Picard criterion](results/spectral_root_picard_criterion.md) — includes [STCI-R-0007: quadratic-root obstruction model](results/quadratic_root_obstruction_model.md) — includes [STCI-R-0005 formal-root obstruction](results/smooth_root_formal_obstruction.md) and [STCI-R-0006 actual-CI bridge](results/actual_ci_smooth_root_bridge.md) — includes [STCI-R-0004: projection-family phase reduction](results/projection_phase_reduction.md) — includes [STCI-R-0003: fixed-carrier conductor criterion](results/fixed_carrier_conductor_criterion.md) — includes [STCI-R-0001: complete quartic-carrier exclusion](results/quartic_carrier_exclusion.md)
 - [STCI-Q-0001: projection and conductor descent for Cartier singleton models](questions/cartier_projection_models.md)
 - [Open-question topic index](open/README.md)
 - [Computation certificates](certificates/README.md)
