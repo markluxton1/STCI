@@ -13,7 +13,7 @@ This is the durable entry point for claims currently regarded as established in 
 
 ## Global status
 
-The repository does **not** prove that the characteristic-zero smooth rational quartic is not a set-theoretic complete intersection. The present frontier splits into an order-one branch and a separate entirely-thick branch.
+The repository does **not** prove that the characteristic-zero smooth rational quartic is not a set-theoretic complete intersection. The remaining work includes order-one and entirely-thick structural questions and higher-degree carrier families. Quartic STCI-mate cases are closed as recorded below.
 
 The principal characteristic-zero test curve is
 \[
