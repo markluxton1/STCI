@@ -42,6 +42,10 @@ The older partial quartic-mate analyses below remain valid **as historical inter
 
 [STCI-R-0005](results/smooth_root_formal_obstruction.md) excludes all-orders embedded Cartier lifts of smooth movement-two roots of class (2,r), r>=2, for smooth rational curves of degree e>=4 with the explicit balanced normal bundle O(2e-1)^2. The characteristic-free scope requires that bundle assumption. [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) connects **actual** complete intersections to finite Cartier lifting only when the first relation is saturated, the chosen leading symbols generate it everywhere, the full generic initial ideal is the prescribed coprime pair with gap at least two, and the full root is smooth. Together they give a conditional finite-gap bound, **not** an exclusion of arbitrary STCI equations or an explicit bound.
 
+## Universal quadratic-root obstruction model — PROVED, COMPUTATIONAL LOCUS OPEN
+
+[STCI-R-0007](results/quadratic_root_obstruction_model.md) gives the universal first rank-incidence and complete twenty-five-pairing second-obstruction test for the basepoint-free movement-two quadratic-root family of fixed C0. A smooth first-compatible spectral torsion-two seed has a nonzero second obstruction; its four-dimensional first-compatible component is generically obstructed at second order. The **full second zero locus and its torsion intersections are unresolved**. Application to actual complete intersections requires the full [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) hypotheses and next relation degree s>4.
+
 ## Order-one structure — PROVED
 
 Topic synthesis: [results/order_one.md](results/order_one.md)

@@ -51,6 +51,10 @@ The accepted [STCI-R-0003](results/fixed_carrier_conductor_criterion.md) reduces
 
 [STCI-R-0005](results/smooth_root_formal_obstruction.md) excludes infinite formal lifts of smooth movement-two roots. [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) supplies a conditional actual-CI bridge, requiring a saturated first relation, everywhere joint generation, full coprime initial ideal, gap at least two, and a smooth full root. The finite-gap conclusion does **not** cover singular or nonreduced roots, defective first relations, or arbitrary actual STCI presentations. An explicit finite obstruction stage remains uncomputed.
 
+## Quadratic-root second zero locus — OPEN COMPUTATION
+
+The accepted [STCI-R-0007](results/quadratic_root_obstruction_model.md) provides a global sixteen-first-equation and twenty-five-second-pairing model, with the homogeneous smoothness discriminant. Compute the **actual second zero scheme and its intersection with the spectral torsion condition**; no completed elimination or global emptiness proof exists. The seed and its four-dimensional component are generically second-order obstructed, but other components may survive. Actual-CI implications remain subject to [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) and s>4.
+
 ## Other active lanes
 
 - **Order-one e=0/e=1:** retain the jet/ancestor structural questions, but not as possible quartic STCI-mate cases after STCI-R-0001.
