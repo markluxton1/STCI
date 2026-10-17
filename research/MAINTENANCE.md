@@ -15,13 +15,13 @@ This is a **repository-organization checklist**, not a mathematical research age
 
 ## Practical cleanup queue
 
-- [ ] Inventory top-level and research directories, including the Ultra branch; identify duplicate entry points, stale handoffs, and orphaned files **without deleting evidence**.
-- [ ] Check links from README, research indexes, result/question records, and certificate maps. Record broken links before moving any files.
+- [x] Record a **partial, evidence-preserving inventory** of main and Ultra layouts in [REPOSITORY_INVENTORY.md](REPOSITORY_INVENTORY.md); complete Ultra recursive inventory remains open.
+- [x] Spot-check seven high-traffic navigation files against the main Git tree; no missing local targets found. See [inventory](REPOSITORY_INVENTORY.md). Full check remains open.
 - [ ] Audit overlapping summaries and mark superseded navigation. Keep source proofs and audit notes intact.
 - [x] Add a reproducible **read-only** local Markdown link checker: `python3 scripts/check_markdown_links.py` from the repository root (Python 3.9+). It checks paths in tracked Markdown files, reports missing local targets, and exits nonzero on issues. It deliberately does not validate remote URLs, fragment anchors, or dynamically generated pages. **The checker has been added but a full repository run has not yet been verified.**
 - [ ] Run the checker on `main` and Ultra, triage false positives, and repair confirmed broken links in a separate reviewed PR.
-- [ ] Check computation directories for large generated outputs and establish a Git/LFS/ignore policy that preserves reproducibility without blocking pushes.
-- [ ] Decide how reviewed Ultra material enters main in **coherent organizational batches**, not one theorem per PR.
+- [x] Document [artifact and large-file policy](ARTIFACT_POLICY.md); inspect local rejected-push history and decide retention for the 102.67 MB witness before retrying.
+- [x] Document a staged, non-destructive [Ultra intake plan](REPOSITORY_INVENTORY.md). Actual batch imports remain pending.
 - [ ] Only after structure stabilizes: reconcile all claims, notation, and final exposition.
 
 ## Change discipline
