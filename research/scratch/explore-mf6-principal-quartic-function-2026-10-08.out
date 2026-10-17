@@ -1,0 +1,41 @@
+cofactors stripped only shared units
+row 0 degree 43
+row 1 degree 42
+row 2 degree 44
+row 3 degree 45
+row 4 degree 46
+row 5 degree 47
+row 6 degree 48
+row 7 degree 43
+row 8 degree 45
+row 9 degree 46
+row 10 degree 47
+row 11 degree 48
+row 12 degree 49
+row 13 degree 49
+row 14 degree 50
+row 15 degree 51
+row 16 degree 51
+row 17 degree 52
+polynomial common factor (2*r - 1)*(2*r + 1)**6/128
+primitive source rows degrees [(2, 36), (2, 35), (2, 37), (2, 38), (2, 39), (2, 40), (2, 41), (2, 36), (2, 38), (2, 39), (2, 40), (2, 41), (2, 42), (2, 42), (2, 43), (2, 44), (2, 44), (2, 45)]
+normalizing coefficient 1
+normalized 0 length 1036
+normalized 1 length 2
+normalized 2 length 1078
+normalized 3 length 1222
+normalized 4 length 2363
+normalized 5 length 2425
+normalized 6 length 2568
+normalized 7 length 1034
+normalized 8 length 2240
+normalized 9 length 2394
+normalized 10 length 2527
+normalized 11 length 2621
+normalized 12 length 2819
+normalized 13 length 2832
+normalized 14 length 2877
+normalized 15 length 3095
+normalized 16 length 2974
+normalized 17 length 3209
+DONE

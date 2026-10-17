@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "literal polynomial certificates for a local singular-normalization countershield",
+  "affine_hypersurface_degree": 4,
+  "projective_hypersurface_degree": 4,
+  "discriminant_in_w": "64*g*x*(g + x)**2",
+  "gradient_on_C": [
+    "0",
+    "-16*x**3",
+    "0"
+  ],
+  "projective_plane_restriction": "(-t*w + x**2)**2",
+  "normalization_equation": "-4*g*x + v**2",
+  "fraction_recovery": "y=(w+(x-g)^2)/(2(x+g)); v=y-x-g",
+  "excluded_claims": [
+    "fixed degree-four C0 mate",
+    "universal STCI resolution",
+    "smoothness of all normalizations"
+  ]
+}

@@ -1,0 +1,6 @@
+PASS reconstructed all quartics, first-normal rank11, complete seven-frame and contact map
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py", line 94, in <module>
+    assert s.rem(determinant,H,p)==s.expand(s.sympify(k['seven_cofactor_remainders'][omitted]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

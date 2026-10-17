@@ -1,0 +1,7 @@
+PASS reconstructed all quartics, first-normal rank11, complete seven-frame and contact map
+PASS all seven actual raw cofactor factorizations and saved remainder identities
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py", line 101, in <module>
+    assert s.factor(P.subs(r,-s.Rational(1,2)))==2*(p+2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

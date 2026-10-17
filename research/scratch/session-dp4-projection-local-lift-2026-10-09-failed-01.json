@@ -1,0 +1,9 @@
+{
+  "status": "FAILED",
+  "source_sha256": "a0101c34a7cbefd8fb12a4a6cf676134ff284094b981620dd4461202d3605e7a",
+  "failure_line": 76,
+  "assertion": "sp.factor(sp.discriminant(f,h0)) == h1**2*(s0**4+4*s1**4)",
+  "reason": "SymPy structural equality compared an additionally factored expression with an unfactored expression. Independent expansion of their difference is exactly zero. Repair changes comparison to expanded difference equals zero.",
+  "mathematical_identity_changed": false,
+  "source_snapshot": "research/scratch/session-dp4-projection-local-lift-2026-10-09-failed-01-source.py"
+}

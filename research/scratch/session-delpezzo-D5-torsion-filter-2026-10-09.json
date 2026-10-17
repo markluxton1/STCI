@@ -1,0 +1,245 @@
+{
+  "A3_plus_two_A1_chamber": {
+    "correction_coefficients": [
+      "1",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "missing_root_count": 24,
+    "saturation_index": 2,
+    "simple_roots": [
+      [
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "strict_transform_intersections": [
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "unique_dominant_missing_root": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "STCI_resolution_claim": false,
+  "classifies_all_sectional_genus_one_normalizations": false,
+  "embedded_reflection_closed_subsystems": 428,
+  "four_A1_chamber": {
+    "correction_coefficients": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "missing_root_count": 16,
+    "saturation_index": 2,
+    "simple_roots": [
+      [
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    ],
+    "strict_transform_intersections": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "unique_dominant_missing_root": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "necessary_mate_degree": "even",
+  "only_nonprimitive_types": {
+    "2A1+A3": 10,
+    "4A1": 15
+  },
+  "root_count": 40,
+  "scope": "Necessary lattice obstruction on a weak degree-four del Pezzo resolution with L=-K and ADE exceptional locus.",
+  "source_sha256": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+  "status": "PASS",
+  "type_counts": {
+    "2A1": 70,
+    "2A1+A2": 40,
+    "2A1+A3": 10,
+    "3A1": 60,
+    "4A1": 15,
+    "A1": 20,
+    "A1+A2": 80,
+    "A1+A3": 20,
+    "A2": 40,
+    "A3": 50,
+    "A4": 16,
+    "D4": 5,
+    "D5": 1,
+    "empty": 1
+  },
+  "type_profiles_root_count_missing_roots_index": {
+    "2A1": [
+      [
+        4,
+        0,
+        1
+      ]
+    ],
+    "2A1+A2": [
+      [
+        10,
+        0,
+        1
+      ]
+    ],
+    "2A1+A3": [
+      [
+        16,
+        24,
+        2
+      ]
+    ],
+    "3A1": [
+      [
+        6,
+        0,
+        1
+      ]
+    ],
+    "4A1": [
+      [
+        8,
+        16,
+        2
+      ]
+    ],
+    "A1": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "A1+A2": [
+      [
+        8,
+        0,
+        1
+      ]
+    ],
+    "A1+A3": [
+      [
+        14,
+        0,
+        1
+      ]
+    ],
+    "A2": [
+      [
+        6,
+        0,
+        1
+      ]
+    ],
+    "A3": [
+      [
+        12,
+        0,
+        1
+      ]
+    ],
+    "A4": [
+      [
+        20,
+        0,
+        1
+      ]
+    ],
+    "D4": [
+      [
+        24,
+        0,
+        1
+      ]
+    ],
+    "D5": [
+      [
+        40,
+        0,
+        1
+      ]
+    ],
+    "empty": [
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  }
+}
