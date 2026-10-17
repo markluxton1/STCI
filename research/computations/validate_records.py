@@ -63,7 +63,7 @@ def main():
         for field in ("evidence", "independent_audits"):
             value = data.get(field, [])
             if isinstance(value, str):
-                value = [value]
+                value = [] if value == "[]" else [value]
             for target in value:
                 if target.startswith("http"):
                     continue  # Remote branch evidence is not validated here.
