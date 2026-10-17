@@ -22,6 +22,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Certificate map](certificates/README.md) — scope-indexed exact certificates
 - [Computation scripts](computations/README.md) — scripts and their verification boundaries
 - [Chronological research record](RESEARCH_RECORD.md) — dated activity and provenance
+- [Ultra source-note inventory](archive/ULTRA_SOURCE_NOTES_INDEX.md) — 356 source notes, original branch links
 - [Ultra historical intake](archive/ULTRA_INTAKE.md) — copied dated handoffs and updates, not current authority
 - [Archived reports](archive/reports/AUDITED_STATE_2026-10-06.md) — preserved snapshots
 
