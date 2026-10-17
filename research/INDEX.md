@@ -13,9 +13,13 @@ This page is a **directory**, not an independent source of mathematical claims.
 ## Research records
 
 - [Canonical results index](results/INDEX.md) — result IDs, scopes, and links to source evidence
-- [Canonical questions](questions/cartier_projection_models.md) — tracked questions with precise missing implications
+- [Canonical question STCI-Q-0001](questions/cartier_projection_models.md) — currently the sole promoted question record; other open topics remain in `FRONTIER.md` and `open/`
 - [Open-problem topics](open/README.md) — longer-lived topic navigation
 - [Literature ledger](LITERATURE_LEDGER.md) — external source checks
+
+- [Mathematical synthesis](synthesis/README.md) — explanatory chapters, not independent theorem authority
+- [Authority reconciliation](AUTHORITY_RECONCILIATION_2026-10-17.md) — checked interfaces and outstanding metadata limitations
+- [Provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md) — current tree inventory and evidence-retention decisions
 
 ## Verification and history
 

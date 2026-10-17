@@ -1,6 +1,6 @@
-# Result topics — migration index
+# Canonical results and legacy topic navigation
 
-This index links existing topic syntheses on `main`. Their statements have **not** yet been reconciled with the later Ultra acceptance records; do not interpret an older `OPEN` label as the current frontier.
+**Current authority:** the nine ID-bearing STCI-R-0001 through STCI-R-0009 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
 
 - **[STCI-R-0009 — Moving pure-power tower and second-relation degeneration (proved)](moving_purepower_boundary.md)**
 - **[STCI-R-0008 — Spectral root-curve Picard criterion for graded second relations (proved)](spectral_root_picard_criterion.md)**
@@ -18,4 +18,4 @@ This index links existing topic syntheses on `main`. Their statements have **not
 - [Entirely-thick presentations](entirely_thick.md)
 - [Jet geometry](jet_geometry.md)
 
-For status conflicts consult [authority rules](../AUTHORITY.md). No individual theorem has been promoted to the new schema in this PR.
+For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the nine ID-bearing records above.
