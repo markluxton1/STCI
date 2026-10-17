@@ -10,7 +10,7 @@ C=C_1\subset C_2\subset\cdots\subset C_m,
 \]
 when do the successive ambient containment conditions on \(H^0(I_{C_j}(a))\) fail to be independent, and can those dependencies be characterized geometrically?
 
-The first laboratory is the surviving quartic order-one \(e=0,1\) frontier.
+The earlier quartic order-one \(e=0,1\) calculations remain a laboratory for jet dependencies, **not** surviving quartic STCI-mate cases.
 
 **Leverage.** Uniform order-one bounds, the e=2 primitive-fourth classification, quartic factorization, the ruling/comparison divisor, exact first-symbol ranks, finite local-cohomology reduction, and MF6 constraints.
 
