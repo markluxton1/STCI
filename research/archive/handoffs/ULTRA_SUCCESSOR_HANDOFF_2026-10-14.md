@@ -1,6 +1,8 @@
+> **Historical Ultra snapshot.** Copied without mathematical editing from [original source](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/SUCCESSOR_HANDOFF_2026-10-14.md). Relative links were converted to original-branch URLs so they do not falsely point into the archive. This document is provenance, not current research authority.
+
 # Continuation handoff — 2026-10-14
 
-Read [AUDITED_STATE_2026-10-14.md](AUDITED_STATE_2026-10-14.md) first.
+Read [AUDITED_STATE_2026-10-14.md](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/AUDITED_STATE_2026-10-14.md) first.
 The universal problem and unrestricted characteristic-zero C0 remain
 open. Continue the full goal; do not redefine it as a finite-degree
 problem. Previously accepted statements are premises at the user's
@@ -20,8 +22,8 @@ inherited `b16e432...` checkpoints. The October 16 morning
 continuation has additional file changes after this snapshot.
 Inspect current status rather than assuming a clean tree.
 
-The [all-branch inventory](notes/2026-10-13-evening-branch-frontier-audit.md)
-and [frontier map](notes/2026-10-13-generalization-frontier-map.md) already
+The [all-branch inventory](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-evening-branch-frontier-audit.md)
+and [frontier map](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-frontier-map.md) already
 cover all observed branches and 25 remote source snapshots. Do not
 repeat the inventory unless external state actually changes. Remote
 main's old MF6/normal-quartic open labels do not supersede later accepted
@@ -31,14 +33,14 @@ theorems in this research line. No wholesale branch merge is required.
 
 Organize research by normalization branch classes, positive Cartier
 relations, full conductor torsion and actual filtered normal algebras.
-The [exact carrier criterion](notes/2026-10-13-generalization-conductor-theorem.md)
+The [exact carrier criterion](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-conductor-theorem.md)
 works with all inverse branches, including thick carriers, and gives
 one descent lattice rather than one calculation per mate degree.
 For singleton degree-one lifts with torsion-free class group, normalized
 base degrees for C0 are only 1,2,4. The actual conductor phase and
 nilpotent defect still need computation.
 
-The [smooth-normalization classification](notes/2026-10-13-generalization-global-carrier-framework.md)
+The [smooth-normalization classification](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-global-carrier-framework.md)
 is accepted with its independent audit: the entire C0 smooth singleton
 lane reduces to degree-eight `(P1 x P1,H=(2,2),c=(1,1))` and
 degree-sixteen `(P2,H=O(4),c=line)` projections. The now independently
@@ -47,8 +49,8 @@ quadric-cone model. Every other singleton degree-one model requires
 a non-Cartier point on its lift. These are actual projection/conductor tasks;
 the necessary normalization list does not supply mates.
 
-The [full conormal budget](notes/2026-10-13-generalization-socle-independent-audit.md)
-and [strict relation obstruction](notes/2026-10-13-generalization-thick-relation-obstruction-independent-audit.md)
+The [full conormal budget](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-socle-independent-audit.md)
+and [strict relation obstruction](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-thick-relation-obstruction-independent-audit.md)
 are accepted. All C0 zero-budget models are excluded simultaneously:
 `7d+14-4(a+b)>0`. Preserve Loewy index d as a quantity of the entire
 algebra; do not identify initial-generator degrees with the orders
@@ -84,7 +86,7 @@ to use, with their recorded review status.
   The fraction-free polynomial inverse and one quotient-field scalar
   inverse completed, and the independent verifier checked every original
   tensor column with exit zero. See
-  [the successful method and certificate](notes/2026-10-14-localcoh-degree15-fractionfree-certificate.md).
+  [the successful method and certificate](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-localcoh-degree15-fractionfree-certificate.md).
   Do not rerun its accepted verification. All three attempt06 processes
   are terminal exit zero. Retired attempt05's handle and PID were absent
   after interruption, with no final exit code; no success is inferred.
@@ -103,15 +105,15 @@ and root-curve approaches. Do not reopen accepted results.
 
 The quintic continuation now has a shared Hamiltonian support condition
 that retains Jbar=0 and its extra A4 point in one homogeneous system.
-The [logarithmic support proof](notes/2026-10-14-generalization-quintic-logarithmic-conductor-support.md)
+The [logarithmic support proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quintic-logarithmic-conductor-support.md)
 has a completed independent audit. The new conductor-annihilates-
 differentials argument proves H divides the actual octic throughout
 h2, reducing the whole support problem to the sextic Q=F/H.
-Use the [corrected coordinate and sextic incidence](notes/2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence.md).
+Use the [corrected coordinate and sextic incidence](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence.md).
 Corrected attempts05/06 exited zero. Attempt04's p->1-z binding is
 rejected; it must remain a preserved failure, not be reused. The
 correct relation is p=1/z, with intrinsic A4 at z=infinity.
-The [global intrinsic A4 contact bound](notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md)
+The [global intrinsic A4 contact bound](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md)
 and its independent review are accepted. Every surviving j=0 candidate
 has conductor contact at most two at A4. Since surviving h2 has H(A4)
 nonzero, this rules out the pure-A4 sextic and proves `Res(H,Q6)=0`
@@ -145,17 +147,17 @@ is a separate reviewed structural step; inspect its latest attempt
 record before any run. The inverse-map determinant is not a globally
 necessary mate unit: repeated-root/cover boundaries remain.
 
-The subsequent [global monic h2 incidence](notes/2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md)
-and [full October 16 audit](notes/2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md)
+The subsequent [global monic h2 incidence](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md)
+and [full October 16 audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md)
 now give one whole-remaining-h2 necessary model: seventeen equations in
 nine variables, with unit `delta*E*Delta1` only. It retains both the H
 discriminant-zero and old K-zero boundaries and source zero. Its exact
-[M2 library input](computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
+[M2 library input](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
 exposes `h2GlobalIdeal` and `h2GlobalDomainUnit`; the next target is their
 single domain saturation. The global factor relation is imposed by two
 actual-conductor remainder equations. The input passed a load-only
 check, which supplies no saturation or mate result. The subsequent
-[global QQ attempt06](validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/execution-record.json)
+[global QQ attempt06](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/execution-record.json)
 reached saturation, then hit its polled 1536-MiB RSS threshold at
 58.564 seconds. Actual exit -15, PID39519 reaped, private group absent;
 no ideal or unit result. This was a bounded memory interruption, not a
@@ -164,7 +166,7 @@ raising limits; seek a further shared algebraic reduction or a justified
 different elimination method. A whole-h2 certificate would still
 leave the retained h1 exceptions and other quintic normalizations.
 
-The [blowup primitive bridge](notes/2026-10-14-generalization-blowup-root-curve-primitive-bridge.md)
+The [blowup primitive bridge](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-blowup-root-curve-primitive-bridge.md)
 now has a completed independent audit. Smooth root curve and joint
 leading basepoint freeness make one strict surface smooth locally;
 inside it the other cuts a power of the root curve. This makes the
@@ -192,8 +194,8 @@ is the cubic coefficient determinant; its component D through the
 seed is three-dimensional, and the second zero locus inside D has
 support dimension at most two.
 
-A new [formal algebraization theorem](notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md)
-and its [full independent audit](notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
+A new [formal algebraization theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md)
+and its [full independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
 now prove that every smooth movement-two root of every first order
 `r>=2` has no infinite Cartier lift for any balanced rational degree-e
 curve with `e>=4` in characteristic zero. Other algebraic branches are
@@ -204,19 +206,19 @@ fixed r the tower has an existential finite empty stage N on the entire
 smooth movement-two locus. An actual CI satisfying the accepted bridge
 must have `s-r<=N`. Finite-gap pairs, singular/nonreduced roots and an
 explicit N remain unresolved. The separate
-[characteristic addendum](notes/2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+[characteristic addendum](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
 now passes the formal geometry and empty finite-tower statement in every
 characteristic under explicit balance and a smooth full root. No normal
 splitting of literal C0 is asserted in bad characteristics. The actual-CI
 gap conclusion now also extends to every characteristic under the
 literal bridge hypotheses, by the reviewed
-[inseparable-root proof](notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md)
-and [full new-scope audit](notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md).
+[inseparable-root proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md)
+and [full new-scope audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md).
 The proof uses the actual reduced root prime over k(C), uncompleted
 standard bases and the local regular surface; it does not assume a
 compatible coefficient field or discard a vertical component.
 
-The new [intrinsic nef/arbitrary-base criterion](notes/2026-10-15-generalization-nef-formal-branch-arbitrary-base.md)
+The new [intrinsic nef/arbitrary-base criterion](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-nef-formal-branch-arbitrary-base.md)
 also passes its targeted independent audit. For degree e, genus gamma,
 and the actual bundle `N_C=L direct_sum L`, a smooth connected finite
 root of movement epsilon and degree r has
@@ -234,8 +236,8 @@ for r=1,e>=4 the lifts are exactly germs of containing quadrics smooth
 along the curve. This is formal classification, not the stronger finite-
 jet C0 rigidity proof, which remains an accepted premise.
 
-The subsequent [intrinsic finite-family theorem](notes/2026-10-15-generalization-intrinsic-finite-root-family.md)
-and its [independent new-scope audit](notes/2026-10-15-generalization-intrinsic-finite-root-family-independent-audit.md)
+The subsequent [intrinsic finite-family theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-intrinsic-finite-root-family.md)
+and its [independent new-scope audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-intrinsic-finite-root-family-independent-audit.md)
 now remove the split-normal and rational-base assumptions from a bounded
 smooth-root family. The sufficient relative-uniqueness condition is
 `nu>max(Z^2_E,0)`; the correction bundle has degree `Z^2_E-m nu` and
@@ -248,7 +250,7 @@ empty stage whenever its numerical hypotheses hold. Its current written
 scope is characteristic zero; singular/nonreduced roots and varying
 numerical classes do not share that bound automatically.
 
-The [pointwise conductor--socle theorem](notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md)
+The [pointwise conductor--socle theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md)
 is also accepted: `D_n=(n-1)A-B|c` on a generically regular singleton
 smooth Cartier lift. It supplies every-point multiplicity requirements
 in addition to the global contact budget. Phases and nilpotent
@@ -267,7 +269,7 @@ two/three force `B|c=(n-1)A`.
    first normal jet on the smooth quadric is an arbitrary quintic pair
    with four independent higher-jet parameters. Contact graph bounds
    are structural data, not an invitation to enumerate graph cases.
-   The new [finite phase-space theorem](notes/2026-10-15-generalization-projection-torsion-coset-reduction.md)
+   The new [finite phase-space theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-projection-torsion-coset-reduction.md)
    and its independent review now retain full nilpotent defects on
    finitely many matrix strata, and reduce all mate powers to torsion
    in one constructible torus image. Laurent gives a finite torsion-coset
@@ -275,13 +277,13 @@ two/three force `B|c=(n-1)A`.
    character relations/image equations, rather than enumerate contact
    graphs. On-C thresholds are explicitly 5,5,13; actual phase images
    and their surviving torsion cosets remain uncomputed.
-   The [effective rational phase theorem](notes/2026-10-15-generalization-effective-rational-phase-bound.md)
+   The [effective rational phase theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-effective-rational-phase-bound.md)
    now replaces Laurent's existence-only step by a finite Mann/SNF
    certificate once the actual rational constructible image is given.
    It decides torsion existence and bounds phase orders by P(S)d^D when
    only isolated cosets survive, retaining all deleted boundaries.
    The stronger start-from-raw-projection-input corollary now passes its
-   [separate October 16 scope audit](notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md).
+   [separate October 16 scope audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md).
    Given finite rational section/module input on one fixed model, with
    prescribed C0 restrictions and finite constructible conditions, its
    terminating algorithm constructs admissibility and the actual phase
@@ -294,14 +296,14 @@ two/three force `B|c=(n-1)A`.
    four are now excluded in every degree, including mixed D/E and
    A1,A2,A3 configurations. Use the accepted local power-socle formula
    and pointwise torsion identity from the
-   [filtered compatibility proof](notes/2026-10-14-generalization-index12-filtered-compatibility.md).
+   [filtered compatibility proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-index12-filtered-compatibility.md).
    The newer symbolic-triple certificate strengthens the linear degree
    bound to `4a^2-(7s+6)a+16s<=0` for a>=5,s>=3. Local Cartier multiples
    of lengths two/three are primitive; a constant first direction needs
    actual index-two contact or positive full defects at higher indices
    to clear its symbolic-triple obstruction. Retain its actual apolar
    pole divisor. The
-   [intrinsic normal comparison](notes/2026-10-14-generalization-normal-index-general-scope.md)
+   [intrinsic normal comparison](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-normal-index-general-scope.md)
    exists before a mate and removes every mate power from the reciprocal
    index budget. Balanced rational degree-e support forces an actual
    index at least e-1; at equality the characteristic-zero minimum CI
