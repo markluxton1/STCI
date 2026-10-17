@@ -59,6 +59,10 @@ The accepted [STCI-R-0007](results/quadratic_root_obstruction_model.md) provides
 
 The [spectral Picard criterion STCI-R-0008](results/spectral_root_picard_criterion.md) covers abstract graded second relations on full root schemes, including singular and nonreduced roots. The [smooth-root formal obstruction STCI-R-0005](results/smooth_root_formal_obstruction.md) addresses smooth roots and infinite Cartier lifting; [STCI-R-0007](results/quadratic_root_obstruction_model.md) gives actual ambient finite-stage equations in the quadratic movement-two family; [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) transfers them to actual CIs only under restrictive hypotheses. The genuinely unclosed cases include singular/nonreduced full roots, defective or nonsaturated first relation sheaves, missing joint generation, and other initial-ideal patterns. These are **distinct geometric gaps**, not alternate descriptions of one numerical constraint.
 
+## Moving pure powers with special-point degeneration — OPEN
+
+[STCI-R-0009](results/moving_purepower_boundary.md) rules out uniform fiberwise coprimality for moving pure-power first relations of order at least two, but forces an **actual degeneration divisor**, not an unrestricted STCI contradiction. Study its geometry and its compatibility with the full actual initial ideal, including noncoprime next relations and saturation defects. Finite-order principal-relation lifts exist in some ranges and are not STCI constructions.
+
 ## Other active lanes
 
 - **Order-one e=0/e=1:** retain the jet/ancestor structural questions, but not as possible quartic STCI-mate cases after STCI-R-0001.
