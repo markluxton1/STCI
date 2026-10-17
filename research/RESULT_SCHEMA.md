@@ -31,7 +31,7 @@ limitations:
 ---
 ```
 
-The body should contain **Statement**, **Hypotheses and quantifiers**, **Proof outline**, **Dependencies**, **Evidence and verification**, **Consequences**, and **Limitations**. Paths in metadata are repository-root-relative. Stable IDs must be unique; filenames may change while IDs persist. A `needs_audit` or `disputed` record must never be indexed as an accepted theorem.
+The body should contain **Statement**, **Hypotheses and quantifiers**, **Proof outline**, **Dependencies**, **Evidence and verification**, **Consequences**, and **Limitations**. Paths in metadata are repository-root-relative when the evidence exists on the canonical branch. Evidence preserved only on another branch may instead use a full GitHub source URL, ideally a commit-pinned permalink; the record must disclose that location and any remaining source-migration work. Stable IDs must be unique; filenames may change while IDs persist. A `needs_audit` or `disputed` record must never be indexed as an accepted theorem.
 
 ## Question format
 
