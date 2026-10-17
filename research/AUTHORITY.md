@@ -10,7 +10,7 @@ This policy defines the intended **post-migration** authority model. It does not
 4. **Evidence:** immutable or historically preserved proof notes, independent audits, computations, literature records, and acceptance records establish provenance and support review. An accepted note is not automatically a promoted canonical result.
 5. **Provisional work:** active branches, scratch notes, and ChatGPT submissions are not canonical by default.
 
-**Transition:** Current `STATE.md` and `FRONTIER.md` still contain unreconciled claims. This PR does not rewrite them or resolve conflicts with later Ultra acceptance records. Until reconciliation, state uncertainty and cite both sources.
+**Transition:** `STATE.md` and `FRONTIER.md` are navigation summaries, not independent theorem authority. Some legacy passages remain unreconciled with promoted records. Use the canonical record and its evidence for exact claims; when a genuine conflict remains, state the uncertainty and cite both sources.
 
 ## Promotion and supersession
 
