@@ -6,7 +6,7 @@
 - [Result record schema](RESULT_SCHEMA.md)
 - [Legacy state summary — unreconciled](STATE.md)
 - [Legacy frontier summary — unreconciled](FRONTIER.md)
-- [Result topic index](results/INDEX.md) — includes [STCI-R-0003: fixed-carrier conductor criterion](results/fixed_carrier_conductor_criterion.md) — includes [STCI-R-0001: complete quartic-carrier exclusion](results/quartic_carrier_exclusion.md)
+- [Result topic index](results/INDEX.md) — includes [STCI-R-0004: projection-family phase reduction](results/projection_phase_reduction.md) — includes [STCI-R-0003: fixed-carrier conductor criterion](results/fixed_carrier_conductor_criterion.md) — includes [STCI-R-0001: complete quartic-carrier exclusion](results/quartic_carrier_exclusion.md)
 - [STCI-Q-0001: projection and conductor descent for Cartier singleton models](questions/cartier_projection_models.md)
 - [Open-question topic index](open/README.md)
 - [Computation certificates](certificates/README.md)

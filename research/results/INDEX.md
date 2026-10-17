@@ -2,6 +2,7 @@
 
 This index links existing topic syntheses on `main`. Their statements have **not** yet been reconciled with the later Ultra acceptance records; do not interpret an older `OPEN` label as the current frontier.
 
+- **[STCI-R-0004 — Full-conductor projection-family phase reduction (proved under fixed-family hypotheses)](projection_phase_reduction.md)**
 - **[STCI-R-0003 — Fixed-carrier full-conductor criterion (proved, arbitrary characteristic)](fixed_carrier_conductor_criterion.md)**
 - **[STCI-R-0002 — Cartier singleton-lift minimal-degree classification (proved, conditional hypotheses)](cartier_singleton_lift.md)**
 - **[STCI-R-0001 — Complete integral quartic-carrier exclusion (proved, fixed C0, characteristic zero)](quartic_carrier_exclusion.md)**
