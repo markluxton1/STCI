@@ -30,6 +30,10 @@ The older partial quartic-mate analyses below remain valid **as historical inter
 
 [STCI-R-0002](results/cartier_singleton_lift.md) classifies the normalization of a mate-admitting integral carrier when the full reduced inverse image of a smooth rational curve is **one Cartier curve mapping isomorphically to it**. For fixed C0, the remaining necessary models in this restricted class have degree 8 (smooth quadric or quadric cone normalization) or 16 (plane normalization). Their actual projections and conductor descent are **open**; see [STCI-Q-0001](questions/cartier_projection_models.md). This is not an all-carrier classification.
 
+## Full-conductor fixed-carrier criterion — PROVED UNDER STATED HYPOTHESES
+
+[STCI-R-0003](results/fixed_carrier_conductor_criterion.md) gives an exact criterion on an integral Cohen–Macaulay projective carrier with finite normalization, in **any characteristic**: the full inverse support must have no isolated points, and the Cartier-relation lattice must contain a vector positive on all inverse branches whose off-curve full-conductor unit classes are torsion. For hypersurface carriers this is equivalent to an ambient mate on that **fixed** carrier. The finite lattice reduction is abstract; it does not compute class groups or conductor descent for all carriers.
+
 ## Order-one structure — PROVED
 
 Topic synthesis: [results/order_one.md](results/order_one.md)
