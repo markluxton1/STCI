@@ -27,3 +27,27 @@ jobs:
           python-version: "3.12"
       - name: Validate canonical navigation links
         run: python3 research/computations/check_markdown_links.py --core
+
+  historical-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit all tracked Markdown (informational)
+        shell: bash
+        run: |
+          set +e
+          python3 research/computations/check_markdown_links.py > historical-links.log 2>&1
+          status=$?
+          cat historical-links.log
+          echo "Historical Markdown link checker exit status: $status" >> "$GITHUB_STEP_SUMMARY"
+          echo "See historical-links.log artifact for all reported paths." >> "$GITHUB_STEP_SUMMARY"
+          exit 0
+      - name: Upload historical link audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-markdown-link-audit
+          path: historical-links.log
+          retention-days: 30

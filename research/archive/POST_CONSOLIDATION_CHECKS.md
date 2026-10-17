@@ -13,3 +13,7 @@ The current canonical reading path remains [STATE](../STATE.md), [FRONTIER](../F
 A second API-based destination check covered the 26 Markdown files in `research/results/`, `research/open/`, `research/questions/`, and `research/certificates/`: 39 additional relative links resolved to repository paths. Combined with the first 12-document check, 147 relative links across 38 documents had no missing path destinations. These checks did not validate fragment anchors or external URLs.
 
 The `Markdown navigation links` GitHub Actions workflow now runs the **12-document core checker** on relevant PRs and pushes to main. This scoped check is intentionally blocking; the full archive checker remains available as an explicit manual command pending review of historical exceptions. The CI workflow is not evidence that the full archive has been checked.
+
+## Full historical scan in CI
+
+The `historical-links` workflow job runs the all-tracked-Markdown link checker on each relevant PR and main push, publishes its output as a 30-day artifact, and deliberately does **not** fail the workflow for missing historical destinations. This is an observational audit; its success status alone does not mean that all historical links resolve. Inspect the artifact and classify exceptions before rewriting dated notes or changing relative paths. The `core-links` job remains blocking.
