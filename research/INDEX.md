@@ -7,6 +7,7 @@
 - [Legacy state summary — unreconciled](STATE.md)
 - [Legacy frontier summary — unreconciled](FRONTIER.md)
 - [Result topic index](results/INDEX.md) — includes [STCI-R-0001: complete quartic-carrier exclusion](results/quartic_carrier_exclusion.md)
+- [STCI-Q-0001: projection and conductor descent for Cartier singleton models](questions/cartier_projection_models.md)
 - [Open-question topic index](open/README.md)
 - [Computation certificates](certificates/README.md)
 - [Literature ledger](LITERATURE_LEDGER.md)
