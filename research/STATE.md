@@ -38,6 +38,10 @@ The older partial quartic-mate analyses below remain valid **as historical inter
 
 [STCI-R-0004](results/projection_phase_reduction.md) reduces the all-mate-degree problem in fixed Cartier singleton projection families to full-conductor phase tuples and torsion in a finite-dimensional torus. It preserves nilpotent defects and admissibility boundaries. The phase images and torsion cosets of the three fixed-C0 models **have not been computed**, so the existence question remains open.
 
+## Smooth-root formal obstruction and actual-CI bridge — PROVED WITH RESTRICTIVE SCOPE
+
+[STCI-R-0005](results/smooth_root_formal_obstruction.md) excludes all-orders embedded Cartier lifts of smooth movement-two roots of class (2,r), r>=2, for smooth rational curves of degree e>=4 with the explicit balanced normal bundle O(2e-1)^2. The characteristic-free scope requires that bundle assumption. [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) connects **actual** complete intersections to finite Cartier lifting only when the first relation is saturated, the chosen leading symbols generate it everywhere, the full generic initial ideal is the prescribed coprime pair with gap at least two, and the full root is smooth. Together they give a conditional finite-gap bound, **not** an exclusion of arbitrary STCI equations or an explicit bound.
+
 ## Order-one structure — PROVED
 
 Topic synthesis: [results/order_one.md](results/order_one.md)
