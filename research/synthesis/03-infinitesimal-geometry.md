@@ -1,17 +1,88 @@
-# 3. Jets, roots, and multiple structures
+# 3. From common normal factors to actual equations
 
-The local ideal of a thickening supported on \(C_0\) can be examined through its conormal filtration and successive graded relations. The first relation may define a divisor or finite root scheme on the exceptional ruled surface; a second relation must be considered **modulo** the first, not necessarily as a globally chosen polynomial.
+This chapter explains **four different levels of structure**: generic normal forms, global graded relations, embedded infinitesimal lifts, and actual complete intersections. Moving from one level to the next requires additional hypotheses. See [Chapter 2](02-two-surfaces.md) for the symmetric geometry of the original equations.
 
-Three results address different levels:
+## 3.1 Generic normal forms are the starting point
 
-- [STCI-R-0008](../results/spectral_root_picard_criterion.md): exact Picard descent criterion for a fiberwise coprime **graded** second relation on the full finite-flat root scheme, including nonreduced fibers.
-- [STCI-R-0005](../results/smooth_root_formal_obstruction.md): nonexistence of all-orders embedded Cartier lifts for certain **smooth** movement-two roots under the balanced-normal-bundle assumption.
-- [STCI-R-0007](../results/quadratic_root_obstruction_model.md): explicit first and second **ambient finite-stage** obstruction tests for the quadratic-root family of the fixed curve.
+At the generic point \(\eta\) of \(C=C_0\), work in the two-dimensional regular local ring with parameters \(u,v\) and residue field \(K=k(C)\). For equations of orders \(r,s\), write \(f_r,g_s\in K[u,v]\) for their first nonzero homogeneous terms.
 
-The bridge from actual defining equations to the formal-root setting is **conditional**: [STCI-R-0006](../results/actual_ci_smooth_root_bridge.md) requires saturation, joint generation, prescribed coprime initial ideal, a gap condition, and smoothness. These hypotheses cannot be omitted.
+A common factor of \(f_r,g_s\) means that the corresponding exceptional divisors have a common direction over \(\eta\). It does **not** mean the original equations share a global factor. Moreover, the two first symbols may fail to generate the **full initial ideal** of \((F,G)\): cancellation of leading terms can produce new generators in higher degrees. The familiar elementary example is \((u^2, u^2+v^3)=(u^2,v^3)\), whose full initial ideal is generated in degrees 2 and 3 even though both displayed equations have order 2.
 
-[STCI-R-0009](../results/moving_purepower_boundary.md) shows moving pure-power first relations force a second-relation degeneration divisor; it does not exclude all special-point degenerations or all STCI presentations.
+This distinction is fundamental when comparing the first common factor with the root-scheme results below.
 
-The older order-one, primitive-thickening, jet, and local-cohomology calculations remain useful structural inputs: [order one](../results/order_one.md), [jet geometry](../results/jet_geometry.md), and [entirely thick](../results/entirely_thick.md). Some were developed for quartic carriers now excluded; their general geometric mechanisms may still be useful without reopening those mate cases.
+## 3.2 Saturating the first relation
 
-Next: [carrier geometry](04-carriers.md).
+The conormal bundle \(N_C^*\) records the transverse linear directions. The associated graded algebra of the ideal of \(C\) has pieces \(\operatorname{Sym}^j N_C^*\). A first global relation may determine a line subsheaf in one symmetric power, but it need not be **saturated** or fiberwise generated. At exceptional points, a generic relation may acquire base points, lose rank, or have extra torsion in its quotient.
+
+When the first degree-\(r\) relation is a saturated line subbundle, its binary form defines a relative degree-\(r\) divisor
+\[
+\pi:\mathcal R\longrightarrow C
+\]
+on the exceptional ruled surface. This is the **full root scheme**: repeated roots and nilpotent structure are retained. It should not be replaced silently by its reduced support. In the balanced split setting \(N_C^*=H^{-1}\otimes V\), the exceptional surface is \(C\times\mathbf P(V^*)\) and the root direction bundle is \(\mathcal O_{\mathcal R}(1)\).
+
+The root scheme here is the divisor of a **single saturated first relation**, not automatically the whole common-direction scheme of two arbitrary equations.
+
+## 3.3 The second relation lives in a quotient
+
+A second independent graded relation is naturally defined **modulo multiples of the first**. It may fail to lift to a global polynomial line, even when it exists perfectly well as a line in the quotient. This is not merely a technicality: requiring such a global lift would exclude legitimate abstract graded configurations.
+
+The established [spectral Picard criterion, STCI-R-0008](../results/spectral_root_picard_criterion.md) applies when the conormal is balanced split, the first relation is saturated, and the second relation is required to be coprime to it in **every** fiber. For degree \(s>r\), it asserts that a second quotient relation exists exactly when
+\[
+\mathcal O_{\mathcal R}(s)\cong\pi^*M
+\]
+for some line bundle \(M\) on \(C\). Equivalently, the class of \(\mathcal O_{\mathcal R}(1)\) in \(\operatorname{Pic}(\mathcal R)/\pi^*\operatorname{Pic}(C)\) is killed by \(s\).
+
+The criterion uses the Picard group of the **full** finite flat scheme, including nonreduced fibers. It constructs an abstract graded regular-sequence family, **not** a lift to the embedded formal neighborhood of \(C\), and not a pair of projective defining equations.
+
+## 3.4 Why the Picard criterion is not enough
+
+The conormal graded algebra is only the first approximation to the actual infinitesimal neighborhoods. Lifting a root relation requires correcting its equation successively so that it remains compatible with the nonlinear transition functions of the ambient blowup.
+
+[STCI-R-0005](../results/smooth_root_formal_obstruction.md) proves that, under its balanced-normal-bundle assumptions, a **smooth movement-two root** of class \((2,r)\), \(r\ge2\), has no compatible embedded Cartier lift through *all* exceptional neighborhoods. This does not rule out finite lifts, singular roots, nonreduced roots, or other root classes.
+
+[STCI-R-0007](../results/quadratic_root_obstruction_model.md) makes the first two ambient stages explicit in a quadratic movement-two family for the fixed quartic: a first rank-incidence test and a second test expressed by 25 scalar pairings. An explicit smooth spectral-torsion seed passes first compatibility but fails the second ambient test. Thus **spectral torsion does not imply embedded liftability**. The full second zero locus remains uncomputed.
+
+The distinction is:
+\[
+\text{graded second relation}\quad\not\Rightarrow\quad
+\text{embedded formal lift}\quad\not\Rightarrow\quad
+\text{global STCI pair}.
+\]
+These arrows express missing implications, not new nonexistence theorems.
+
+## 3.5 The actual complete-intersection bridge
+
+[STCI-R-0006](../results/actual_ci_smooth_root_bridge.md) provides a precise, restrictive passage **from an actual complete intersection back to a controlled root thickening**. Its hypotheses include:
+
+1. An actual complete intersection with reduced support \(C\).
+2. A saturated degree-\(r\) first relation, generated **everywhere** by the degree-\(r\) symbols of the two actual equations; both have generic order \(r\).
+3. Full generic initial ideal \((f_r,g_s)\), with coprime generators and \(s>r\), gap \(\ell=s-r\ge2\).
+4. A **smooth full Cartier root**, not merely a smooth reduction.
+
+Then the intersection of the strict transforms is locally a primitive \(\ell\)-fold structure \((h,u^\ell)\) on the full root and yields compatible finite embedded Cartier lifts through orders below \(\ell\). Combining this bridge with STCI-R-0005 gives a **conditional finite-gap obstruction**, not an explicit universal degree bound.
+
+Notice the indexing subtlety: the two original equations in the bridge have order \(r\), while the independent second generator of the **full initial ideal** has degree \(s\). One must not confuse this \(s\) with the original order of the second equation in Chapter 2.
+
+## 3.6 Moving pure powers and degeneration
+
+[STCI-R-0009](../results/moving_purepower_boundary.md) treats a saturated first relation that is the \(r\)-th power of a moving normal direction, \(r\ge2\), in characteristic zero. Finite first-relation lifting can persist, but an everywhere-coprime next graded relation cannot: its evaluation divisor has degree at least \((r-1)\varepsilon\), where \(\varepsilon>0\) is the direction-map degree.
+
+This produces a **necessary degeneration divisor**, not a contradiction to every actual complete intersection. A genuine STCI presentation could lie outside the theorem through special-point degeneration, noncoprime relations, nonsaturation, or a different full initial ideal.
+
+## 3.7 The other multiple-structure calculations
+
+The older [order-one](../results/order_one.md), [jet geometry](../results/jet_geometry.md), and [entirely-thick](../results/entirely_thick.md) analyses ask how ambient sections lift through successive thickenings and how the relevant restriction maps fail to have expected rank. These provide complementary tools for studying the same local-to-global problem. Their historical quartic-carrier cases are not reopened after [STCI-R-0001](../results/quartic_carrier_exclusion.md).
+
+## 3.8 The unresolved interface
+
+The most useful next theorem would not simply add another numerical inequality. It would identify **checkable geometric hypotheses on an actual pair** under which its common-direction scheme determines a saturated global root relation and a controlled second quotient relation, while recording the possible defects at special points.
+
+This is a research target, not an established implication. The next audit should distinguish:
+
+- Generic common factors versus saturated global first relations.
+- The first two displayed symbols versus the **full** generic initial ideal.
+- Fiberwise coprimality versus special-point degeneration.
+- Graded Picard descent versus actual ambient lifting.
+- A finite embedded thickening versus a global pair of hypersurfaces.
+
+Next: [carrier normalization and conductor](04-carriers.md), which imposes a different global descent condition.
