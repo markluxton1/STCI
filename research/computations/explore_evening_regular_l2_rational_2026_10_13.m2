@@ -1,0 +1,27 @@
+-- Rational structural cover of regular L2 incidence, away from q=2.
+old=QQ[delta,a,B,G,J,p,q,kappa,tt];
+F=value get "research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt";
+Gs=-(6*B+delta^2-3*delta)*q-(3*a-3*B+2*delta)*q^2+2*a*q^3;
+Js=(-Gs*(1+3*q)-(6*B+5*delta^2-3*delta)*q-(3*a+3*B+delta-delta^2)*q^2+(a+B)*q^3)/2;
+Fs=sub(sub(F,{G=>Gs,J=>Js,p=>q+tt}),{B=>kappa-a*q});
+cc=apply(0..8,n->(sum select(terms Fs,mm->((exponents mm)#0)#8==n))//tt^n);
+small=QQ[qp,mp]; sf=frac small; K=sf[ap];
+v=sub(qp,sf); m=sub(mp,sf);
+Pc=v^2-6*v+6;
+d=3*(v-2)*Pc/(v*(v-1)*(3-m^2));
+D=2*d*(v-1)+v*(v-2);
+E=d^2+d*(3*v-4)+v*(v-2);
+k=d*(E+m*d^2/3)/D;
+print("delta="|toString factor d); print("kappa="|toString factor k);
+print("D="|toString factor D);
+lo=3*k*(v-1)^2*Pc+d*v*(3-2*v)*Pc-3*d^2*(v-1)^2*(v-3);
+print("L1 on rational cover="|toString factor lo);
+ff=map(K,old,{d,ap,0_K,0_K,0_K,0_K,v,k,0_K});
+ff2=ff cc#2; ff3=ff cc#3; ff4=ff cc#4;
+print("f2 a coefficient="|toString factor diff(ap,ff2));
+print("f2 constant="|toString factor sub(ff2,{ap=>0}));
+linearA=diff(ap,ff2); constantC=sub(ff2,{ap=>0});
+aval=-lift(constantC,sf)/lift(linearA,sf); print("a solved="|toString factor aval);
+print("f3 after solve="|toString factor sub(ff3,{ap=>aval}));
+print("f4 after solve="|toString factor sub(ff4,{ap=>aval}));
+print "COMPLETE rational L2 exploration";

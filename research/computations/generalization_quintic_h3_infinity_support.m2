@@ -1,0 +1,20 @@
+-- NEW complete infinity-leading-drop locus from the actual fixed-degree forms.
+h3infR=QQ[ll];h3infRing=h3infR[pp];delta=1-2*ll;lambda=ll;
+h3infHC=value get "research/validation/2026-10-13-evening-h3-proportional/main-H-coefficients.txt";
+h3infSC=value get "research/validation/2026-10-13-evening-h3-proportional/main-S-coefficients.txt";
+h3infH=sum apply(toList(0..3),i->h3infHC#i*pp^i);
+h3infS=sum apply(toList(0..5),i->h3infSC#i*pp^i);
+print("infinity S leading factor="|toString factor h3infSC#5);
+print("infinity H degree2 leading="|toString factor h3infHC#2);
+print("infinity S degree4 leading="|toString factor h3infSC#4);
+"research/validation/2026-10-13-generalization-quintic-h3/infinity-H.txt" << toString h3infH << close;
+"research/validation/2026-10-13-generalization-quintic-h3/infinity-S.txt" << toString h3infS << close;
+h3infConstraint=ideal h3infSC#5;
+h3infUnits=(1-2*ll)*ll*(ll-1)*(ll^2-4*ll+1)*((ll+1)*(1-2*ll)+ll-1);
+h3infIdeal=saturate(h3infConstraint,ideal h3infUnits);
+print("infinity finite candidate ideal="|toString gens gb h3infIdeal);
+"research/validation/2026-10-13-generalization-quintic-h3/infinity-candidates.txt" << toString gens gb h3infIdeal << close;
+assert(h3infSC#5==-216*ll^4*(2*ll-1)^3);
+assert(h3infIdeal==ideal(1_h3infR));
+print "PASS the simultaneous H/S leading-drop incidence is empty for delta*lambda!=0";
+print "DONE complete infinity support chart";

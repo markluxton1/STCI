@@ -1,0 +1,32 @@
+-- New regular L2 incidence exploration from frozen actual conductor polynomial.
+R=QQ[delta,a,B,G,J,p,q,kappa,tt];
+F0=value get "research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt";
+Gs=-(6*B+delta^2-3*delta)*q-(3*a-3*B+2*delta)*q^2+2*a*q^3;
+Js=(-Gs*(1+3*q)-(6*B+5*delta^2-3*delta)*q-(3*a+3*B+delta-delta^2)*q^2+(a+B)*q^3)/2;
+Fs=sub(sub(F0,{G=>Gs,J=>Js,p=>q+tt}),{B=>kappa-a*q});
+cc=apply(0..8,n->(sum select(terms Fs,mm->((exponents mm)#0)#8==n))//tt^n);
+L2=(3*q*(q-1)*(2*delta*(q-1)+q*(q-2))*kappa^2-6*delta*q*(q-1)*(delta^2+delta*(3*q-4)+q*(q-2))*kappa+delta^5*q+3*delta^4*(q-1)*(3*q-2)+6*delta^3*q*(q-1)*(2*q-3)+3*delta^2*q^2*(q-1)*(q-2));
+scan(2..4,n->print("u"|toString(n-1)|" a-degree="|toString(max apply(exponents cc#n,ee->ee#1))|" terms="|toString(#terms cc#n)));
+print("coefficient a in u1="|toString factor(diff(a,cc#2)));
+scan(2..4,n->(("/private/tmp/common_root_regular_f"|toString n|".txt") << toString cc#n << close));
+"/private/tmp/common_root_regular_L2.txt" << toString L2 << close;
+print "COMPLETE exploration";
+small=QQ[dp,qp]; smallField=frac small;
+K=smallField[kp,ap];
+fm=map(K,R,{sub(dp,K),ap,0_K,0_K,0_K,0_K,sub(qp,K),kp,0_K});
+ell=fm L2; ff2=fm cc#2; ff3=fm cc#3; ff4=fm cc#4;
+aa=diff(ap,ff2); ac=sub(ff2,{ap=>0});
+print("A mod L2="|toString factor(aa % ell));
+print("resultant A,L2="|toString factor resultant(aa,ell,kp));
+-- Substitute ap=-ac/aa without inverting aa.
+e3=ac^2*(diff(ap,diff(ap,ff3))/2)-aa*ac*sub(diff(ap,ff3),{ap=>0})+aa^2*sub(ff3,{ap=>0});
+e3r=e3 % ell;
+print("L2 discriminant="|toString factor ((diff(kp,ell))^2-4*(diff(kp,diff(kp,ell))/2)*ell));
+print("S resultant L2="|toString factor resultant(3*(kp-sub(dp,K))*(sub(qp,K)-1)*(sub(qp,K)-2)+sub(dp^2,K)*(3-2*sub(qp,K)),ell,kp));
+print("V branch L2="|toString factor sub(ell,{dp=>(qp^3-8*qp^2+18*qp-12)/(qp^2-qp)}));
+ellOne=fm (3*kappa*(q-1)^2*(q^2-6*q+6)+delta*q*(3-2*q)*(q^2-6*q+6)-3*delta^2*(q-1)^2*(q-3));
+testProduct=(ellOne*diff(kp,ell))%ell;
+rat=lift(diff(kp,aa %ell),smallField)/lift(diff(kp,testProduct),smallField);
+print("A / L1 L2_k ratio="|toString factor rat);
+print("A equals ratio product="|toString(aa %ell == rat*testProduct));
+print "COMPLETE regular L2 elimination exploration";
