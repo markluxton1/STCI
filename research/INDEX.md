@@ -7,6 +7,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Repository overview](../README.md)
 - [Current research state](STATE.md)
 - [Current research frontier](FRONTIER.md)
+- [Research decision guide](RESEARCH_DECISION_GUIDE.md) — what matters, next actions, and evidence-reading routes
 - [Authority and conflict resolution](AUTHORITY.md)
 - [Result record schema](RESULT_SCHEMA.md)
 
