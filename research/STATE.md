@@ -20,6 +20,12 @@ The principal characteristic-zero test curve is
 C_0=[s^4:s^3t:st^3:t^4]\subset \mathbf P^3.
 \]
 
+## Integral quartic carriers of the fixed C0 — PROVED EXCLUDED
+
+Canonical theorem: [STCI-R-0001](results/quartic_carrier_exclusion.md). Over an algebraically closed field of characteristic zero, **no integral quartic surface containing this fixed C0 has a mate of any positive degree**. The accepted October 11 assembly and independent audit cover normal and nonnormal carriers and arbitrary mate degree. Together with the plane, quadric, cubic exclusions and the audited factor reduction, **both defining degrees of a hypothetical STCI presentation are at least five**. The unrestricted characteristic-zero STCI question remains open.
+
+The older partial quartic-mate analyses below remain valid **as historical intermediate results**, but any description of a quartic-mate case as still open is superseded by STCI-R-0001. Common-quartic local-cohomology ancestor incidence is a different problem and remains open.
+
 ## Order-one structure — PROVED
 
 Topic synthesis: [results/order_one.md](results/order_one.md)
@@ -39,7 +45,7 @@ H^0(I_{C_3}(4))=T H^0(O_{\mathbf P^3}(1)).
 
 Therefore the \(e=2\) branches of \((4,7)\) and \((4,8)\) are excluded: every containing quartic factors through \(T\), and the plane factor forces extra set-theoretic intersection with the mate.
 
-This is **not** an exclusion of arbitrary \((4,b)\), \(e=2\) for all larger \(b\).
+**Historical scope note:** this partial argument alone did not exclude larger mate degrees; the later complete theorem [STCI-R-0001](results/quartic_carrier_exclusion.md) does.
 
 ## dx=1 / P-044 slice — EXACTLY CLOSED
 
@@ -53,15 +59,15 @@ The quartic common-ancestor problem has a finite principal-part reduction to ord
 
 ## Multiplicity six / MF6 — PARTIAL STRUCTURAL THEOREMS / OPEN
 
-For saturated quasiprimitive rank-six finite-flat lci/Gorenstein thickenings, the audited Gorenstein pairing and defect identities hold. For \(e=0\), \(\deg D_2\ge3\); the \((d_2,d_3)=(3,6)\) nonregular branch is excluded. The regular remainder and the exceptional \((4,5)\) defect incidence remain open.
+For saturated quasiprimitive rank-six finite-flat lci/Gorenstein thickenings, the audited Gorenstein pairing and defect identities hold. For \(e=0\), \(\deg D_2\ge3\); the \((d_2,d_3)=(3,6)\) nonregular branch is excluded. The regular remainder and exceptional \((4,5)\) defect incidence remain as structural or ancestor investigations; **they are not open quartic STCI-mate cases** after [STCI-R-0001](results/quartic_carrier_exclusion.md).
 
-## Normal quartic carriers — LARGE CLASSES EXCLUDED / FINITE REMAINDER OPEN
+## Normal quartic carriers — HISTORICAL PARTIAL CLASSIFICATION; MATE CASES CLOSED
 
 Topic synthesis: [results/normal_carriers.md](results/normal_carriers.md)
 
 Excluded are normal quartics with only rational singularities, the positive-genus ruled irrational cases, the case in which \(C\) avoids the nonrational exceptional anticanonical locus, and the simple-elliptic case.
 
-The remaining rational-resolution Ishii–Nakayama B1/B2/B3/D cases have reducible, singular, or nonreduced exceptional anticanonical divisor. Denominator compression bounds the mate degree but does not exclude these cases.
+The remaining rational-resolution Ishii–Nakayama B1/B2/B3/D cases have reducible, singular, or nonreduced exceptional anticanonical divisor. This historical partial argument did not exclude those cases. The subsequent all-integral-quartic theorem [STCI-R-0001](results/quartic_carrier_exclusion.md) excludes every normal quartic **as an STCI carrier with a mate**; the earlier classification and bounds remain evidence.
 
 ## Split carriers — EXACT REDUCTIONS / OPEN
 
