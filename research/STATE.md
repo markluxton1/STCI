@@ -50,6 +50,10 @@ The older partial quartic-mate analyses below remain valid **as historical inter
 
 [STCI-R-0008](results/spectral_root_picard_criterion.md) gives an exact Picard descent criterion for a second fiberwise coprime graded relation on the **full** finite-flat root scheme, including singular and nonreduced cases. It is distinct from the ambient first/second obstruction [STCI-R-0007](results/quadratic_root_obstruction_model.md): graded torsion does not imply a formal lift or actual STCI. Moving roots can force a nonsplit second-generator extension, so requiring a global second polynomial line is invalid.
 
+## Moving pure-power root boundary — PROVED, SPECIAL DEGENERATION OPEN
+
+[STCI-R-0009](results/moving_purepower_boundary.md) identifies the uniform finite-order first-relation obstruction bundle and proves that a moving pure-power first relation of order r>=2 cannot have an everywhere-coprime second graded generator of fixed degree. The second evaluation divisor must have degree at least (r-1) times the direction-map degree. This does not rule out special-point degeneration, noncoprime second relations, or actual STCI presentations.
+
 ## Order-one structure — PROVED
 
 Topic synthesis: [results/order_one.md](results/order_one.md)

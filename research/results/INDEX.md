@@ -2,6 +2,7 @@
 
 This index links existing topic syntheses on `main`. Their statements have **not** yet been reconciled with the later Ultra acceptance records; do not interpret an older `OPEN` label as the current frontier.
 
+- **[STCI-R-0009 — Moving pure-power tower and second-relation degeneration (proved)](moving_purepower_boundary.md)**
 - **[STCI-R-0008 — Spectral root-curve Picard criterion for graded second relations (proved)](spectral_root_picard_criterion.md)**
 - **[STCI-R-0007 — Universal quadratic-root first and second obstruction model (proved, conditional CI interface)](quadratic_root_obstruction_model.md)**
 - **[STCI-R-0005 — Smooth movement-two formal-root nonexistence (proved, balanced normal bundle)](smooth_root_formal_obstruction.md)**
