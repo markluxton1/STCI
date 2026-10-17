@@ -1,4 +1,6 @@
-> Historical resume handoff. Continue from [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md); the dx=1 gap below is now closed and the e=2 and normal-carrier scopes have been updated.
+> **Historical Ultra snapshot.** Copied without mathematical editing from [original source](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/CODEX_RESUME_2026-10-06.md). Relative links were converted to original-branch URLs so they do not falsely point into the archive. This document is provenance, not current research authority.
+
+> Historical resume handoff. Continue from [AUDITED_STATE_2026-10-07.md](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/AUDITED_STATE_2026-10-07.md); the dx=1 gap below is now closed and the e=2 and normal-carrier scopes have been updated.
 
 # Codex resume handoff — 2026-10-06
 
