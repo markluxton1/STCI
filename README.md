@@ -27,4 +27,4 @@ The repository does **not** currently prove that this curve is or is not a set-t
 
 The durable reading path is `STATE.md` followed by `FRONTIER.md`. Dated notes, handoffs, reports, computation outputs, and scratch work are supporting evidence or provenance and may contain frontier language that has since been superseded. A statement should not be treated as current merely because it appears in a historical note.
 
-The repository is being reorganized so that mathematical results, active open problems, reproducible certificates, and historical material are visibly separated without discarding provenance.
+The bulk branch consolidation is complete. Original research files and conflicting historical versions have been preserved; see the [archive guide](research/archive/README.md) for provenance and reading rules. Cleanup of validation snapshots is deliberately conservative to protect reproducibility.
