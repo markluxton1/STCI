@@ -1,0 +1,1 @@
+delta^5*q+39*delta^4*q-30*delta^3*q*kappa-48*delta^4+198*delta^3*q+36*delta^3*kappa-312*delta^2*q*kappa+114*delta*q*kappa^2-252*delta^3+198*delta^2*q+396*delta^2*kappa-396*delta*q*kappa-144*delta*kappa^2+198*q*kappa^2-252*delta^2+504*delta*kappa-252*kappa^2

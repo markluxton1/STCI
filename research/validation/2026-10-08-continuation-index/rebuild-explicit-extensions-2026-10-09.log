@@ -1,0 +1,22 @@
+{
+  "status": "PASS: latest source revisions, execution logs and declared current snapshot hashes agree; one superseded historical source-byte loss is explicitly retained as a limitation",
+  "counts": {
+    "retained_baseline_distinct_sources": 55,
+    "retained_baseline_indexed_executions": 61,
+    "continuation_distinct_sources": 29,
+    "continuation_execution_records": 31,
+    "continuation_historical_failed_records": 2,
+    "separate_strengthened_veronese_revision_execution": 1,
+    "separate_first_endpoint_countercheck_sources_and_executions": 1,
+    "separate_principal_independent_sources_and_executions": 4,
+    "separate_family2_independent_sources": 3,
+    "separate_family2_explicit_executions": 6,
+    "explicit_extension_additional_distinct_sources": 3,
+    "explicit_extension_execution_records": 4,
+    "combined_distinct_top_level_sources": 95,
+    "combined_latest_pass": 95,
+    "combined_explicitly_indexed_executions": 108,
+    "continuation_distinct_source_revisions": 31
+  },
+  "verified_snapshot_files": 247
+}

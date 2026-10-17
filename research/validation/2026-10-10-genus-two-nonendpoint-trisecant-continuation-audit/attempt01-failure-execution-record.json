@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "timestamp_utc": "2026-10-11T01:13:11.580547+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/private/tmp/stci-nonendpoint-cartan-p42nfl0_/cartan-countercheck.m2"
+  ],
+  "cwd": "/private/tmp/stci-nonendpoint-cartan-p42nfl0_",
+  "exit_code": 1,
+  "elapsed_seconds": 1.526108792,
+  "source_original": "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-genus-two-nonendpoint-trisecant-independent-audit/cartan-countercheck.m2",
+  "source_sha256": "51d19f313af8381ac1526eb2c67df5c75f142835d13b4595ce35f1adf9bb66e4",
+  "source_snapshot": "cartan-countercheck.snapshot.m2",
+  "isolated_replay": true,
+  "scope": "Twelve symbolic all-length A-chain rational identities, geometric attachment and positivity proved separately",
+  "new_distinct_mathematical_source": false
+}

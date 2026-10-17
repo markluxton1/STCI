@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_chow_pencil_45.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: restricted Chow-pencil (4,5) exclusion certificates hold exactly
+
+Runner status: PASS

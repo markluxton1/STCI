@@ -1,0 +1,17 @@
+{
+  "scope": "Independent endpoint a-nonzero global geometry polynomial identities; no count of parameter-space cases",
+  "started_utc": "2026-10-12T00:07:49.690971+00:00",
+  "elapsed_seconds": 0.6624274998903275,
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/verify_geometry.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z",
+  "returncode": 0,
+  "source": "research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",
+  "snapshot": "research/validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/verify_geometry.m2",
+  "source_sha256": "5e786b80c301f98a0aa34a360190d4596fbe52d9ae8e9e0df0e9050e1adc4de2",
+  "stdout_sha256": "985aed34b1672adc1c2d4dfa55c33ef111733db5862bff6054d4afb46670a835",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,1 @@
+2*deltaPar^2*vPar^3+12*deltaPar^2*vPar^2*wPar+12*deltaPar^2*vPar*wPar^2+2*deltaPar^2*vPar^2+16*deltaPar^2*vPar*wPar+12*deltaPar^2*wPar^2-4*deltaPar*vPar^2+4*deltaPar^2*wPar-24*deltaPar*vPar*wPar-24*deltaPar*wPar^2-3*deltaPar*vPar-14*deltaPar*wPar

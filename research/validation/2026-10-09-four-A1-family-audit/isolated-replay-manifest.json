@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Uniform four-A1 family polynomial controls; geometry separately audited",
+  "snapshot_input_sha256": {
+    "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+    "research/validation/2026-10-09-four-A1-family-audit/countercheck.py": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+    "research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md": "bf5cff57eec3506dd91158734db773b05f605c8a452c7cb470c8cf5c1b2a7996"
+  },
+  "snapshot_inputs_unchanged": true,
+  "executions": [
+    {
+      "label": "owner",
+      "source": "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+      "source_sha256": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5801666670013219,
+      "log_sha256": "7cdc312c598256fab1330df90bf1ac1ba223e4d3b845cff93df2bf001e807ff6",
+      "report": "research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json",
+      "report_sha256": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0",
+      "report_identical_to_frozen_repo_result": true
+    },
+    {
+      "label": "independent",
+      "source": "research/validation/2026-10-09-four-A1-family-audit/countercheck.py",
+      "source_sha256": "9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6508258751127869,
+      "log_sha256": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+      "report": "research/validation/2026-10-09-four-A1-family-audit/countercheck-result.json",
+      "report_sha256": "c8c33082bfe1ec8dc578d0ddfe7920dcc84f3c771e1583ced5cff27487940b37",
+      "report_identical_to_frozen_repo_result": true
+    }
+  ],
+  "driver_sha256": "237e41f883b1b7bce5e3b56f5754690328d97716676310308b22877ac115f642"
+}

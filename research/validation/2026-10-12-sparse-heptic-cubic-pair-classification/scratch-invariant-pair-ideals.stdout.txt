@@ -1,0 +1,19 @@
+PAIR 1,1
+| 1 |
+PASS unit ideal
+PAIR 1,2
+| 1 |
+PASS unit ideal
+PAIR 1,3
+| 1 |
+PASS unit ideal
+PAIR 2,2
+| 1 |
+PASS unit ideal
+PAIR 2,3
+| 1 |
+PASS unit ideal
+PAIR 3,3
+| 1 |
+PASS unit ideal
+ALL PAIRS PASS

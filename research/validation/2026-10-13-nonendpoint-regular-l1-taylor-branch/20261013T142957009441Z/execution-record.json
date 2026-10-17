@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-10-13T14:29:57.010325+00:00",
+  "completed_utc": "2026-10-13T14:30:00.059731+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2"
+  ],
+  "exit_code": 0,
+  "status": "PASS",
+  "source_sha256": "b223eb5e4e063bbbe3273ac4b82a2e98317412b5c92149fa692218180e217074",
+  "stdout_sha256": "11cbf4652f9972caeacdf11ad2d509a273f96b1097373668883188b1dde0a8cc",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Literal three double-root identities on explicitly specified rational family; geometric necessity separately owned."
+}

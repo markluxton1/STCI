@@ -1,0 +1,55 @@
+-- NEW shared coefficient/minors size probe. No root/factor branching.
+outDir="research/validation/2026-10-14-quintic-h2-unified-incidence/attempt-01-size-probe";
+save=(label,f)->((outDir|"/"|label|".txt") << toString f << close);
+par=QQ[deltaPar,vPar,wPar];
+qDir="research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient";
+normDir="research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01";
+qf=apply(toList(0..6),i->value get(qDir|"/Q-coefficient-"|toString i|".txt"));
+qi=i->if i<0 or i>6 then 0_par else qf#i;
+jNumerator=value get(normDir|"/Jbar-numerator.txt");
+cofactorNumerator=value get(normDir|"/cofactor-determinant-numerator.txt");
+normProduct=value get(normDir|"/primitive-norm.txt");
+disc=vPar^2-4*wPar;
+coverK=vPar^2+6*vPar*wPar+6*wPar^2+2*wPar;
+unitProduct=deltaPar*disc*coverK*cofactorNumerator;
+dq=apply(toList(0..6),i->(6-2*i)*vPar*qi(i)+(14-2*i)*qi(i-1)-2*(i+1)*wPar*qi(i+1));
+eq=apply(toList(0..7),i->(6-3*i)*vPar*qi(i)+(15-3*i)*qi(i-1)-3*(i+1)*wPar*qi(i+1));
+quadraticMatrix=transpose matrix{qf,apply(dq,x->jNumerator*x)};
+cubicMatrix=transpose matrix{apply(toList(0..7),i->qi(i)),apply(toList(0..7),i->qi(i-1)),eq};
+save("quadratic-matrix",quadraticMatrix);
+save("cubic-matrix",cubicMatrix);
+save("domain-unit-product",unitProduct);
+save("nonzero-Q-ideal",matrix{{qi(4),qi(5),qi(6)}});
+print "BUILT shared 7x2 and 8x3 matrices; j factor retained";
+normalizeKnownUnits=f->(
+ nf:=f; mult:=1_par; exps:={0,0,0};
+ if nf!=0 then scan(toList(0..2),i->(
+   u:={deltaPar,disc,coverK}#i;
+   while nf%u==0 do (nf=nf//u; mult=mult*u; exps=apply(toList(0..2),j->exps#j+if i==j then 1 else 0));
+  ));
+ assert(f==mult*nf);
+ {nf,mult,exps}
+ );
+quadRows=apply(subsets(toList(0..6),2),ij->{ij,normalizeKnownUnits(det submatrix(quadraticMatrix,ij,{0,1}))});
+print "NORMALIZED 21 quadratic minors by delta/disc/K only";
+cubicRows=apply(subsets(toList(0..7),3),ijk->{ijk,normalizeKnownUnits(det submatrix(cubicMatrix,ijk,{0,1,2}))});
+print "NORMALIZED 56 cubic minors by delta/disc/K only";
+quadNorm=apply(quadRows,row->row#1#0);
+cubicNorm=apply(cubicRows,row->row#1#0);
+assert(all(quadNorm,f->f%jNumerator==0));
+save("quadratic-minor-row-indices",apply(quadRows,row->row#0));
+save("cubic-minor-row-indices",apply(cubicRows,row->row#0));
+save("quadratic-minor-unit-exponents",apply(quadRows,row->row#1#2));
+save("cubic-minor-unit-exponents",apply(cubicRows,row->row#1#2));
+save("normalized-quadratic-minors",matrix{quadNorm});
+save("normalized-cubic-minors",matrix{cubicNorm});
+save("norm-product",normProduct);
+save("normalized-quadratic-degrees",apply(quadNorm,f->if f==0 then -1 else first degree f));
+save("normalized-cubic-degrees",apply(cubicNorm,f->if f==0 then -1 else first degree f));
+save("quadratic-common-gcd",factor gcd quadNorm);
+save("cubic-common-gcd",factor gcd cubicNorm);
+print("quadratic normalized degrees "|toString apply(quadNorm,f->if f==0 then -1 else first degree f));
+print("cubic normalized degrees "|toString apply(cubicNorm,f->if f==0 then -1 else first degree f));
+print "PASS all removed contents are powers of declared units; j retained in every first minor";
+print "COMPLETE shared minors size probe; no elimination launched";
+exit 0;

@@ -1,0 +1,202 @@
+[
+  {
+    "branch": "main",
+    "path": "research/STATE.md",
+    "head": "7662a2ebb1dd561c1fb5e3c8958799b37d962c41",
+    "blob_sha": "bbaa904e19f74345a6ec5febd70b0e273d153963",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/main/research/STATE.md",
+    "url": "https://github.com/markluxton1/STCI/blob/main/research/STATE.md"
+  },
+  {
+    "branch": "main",
+    "path": "research/FRONTIER.md",
+    "head": "7662a2ebb1dd561c1fb5e3c8958799b37d962c41",
+    "blob_sha": "2210e52d0f9fdec2415c17cf29414cd082c5eb19",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/main/research/FRONTIER.md",
+    "url": "https://github.com/markluxton1/STCI/blob/main/research/FRONTIER.md"
+  },
+  {
+    "branch": "main",
+    "path": "research/results/jet_geometry.md",
+    "head": "7662a2ebb1dd561c1fb5e3c8958799b37d962c41",
+    "blob_sha": "0590071b25bf2811be7ade83ad8c3224ea8695c9",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/main/research/results/jet_geometry.md",
+    "url": "https://github.com/markluxton1/STCI/blob/main/research/results/jet_geometry.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-entirely-thick-rees-valuation-framework.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "11fa27ae8b5846989cb6c6349c0580c591de58c0",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-entirely-thick-rees-valuation-framework.md",
+    "url": "https://github.com/markluxton1/STCI/blob/research/entirely-thick-rees-valuation/research/notes/2026-10-07-entirely-thick-rees-valuation-framework.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-entirely-thick-relative-blowup-budget.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "f097cc35cf6060a85f786f1fbcb929a58a880b48",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-entirely-thick-relative-blowup-budget.md",
+    "url": "https://github.com/markluxton1/STCI/blob/research/entirely-thick-rees-valuation/research/notes/2026-10-07-entirely-thick-relative-blowup-budget.md"
+  },
+  {
+    "branch": "research/normal-rational-carrier-classification",
+    "path": "research/notes/2026-10-07-normal-rational-carrier-classification.md",
+    "head": "4b936074f68038cfaa7ec51f5a960f23289627cd",
+    "blob_sha": "955b7d606738a9f47a696a05d2f821d145c9bd4e",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_normal-rational-carrier-classification/research/notes/2026-10-07-normal-rational-carrier-classification.md",
+    "url": "https://github.com/markluxton1/STCI/blob/research/normal-rational-carrier-classification/research/notes/2026-10-07-normal-rational-carrier-classification.md"
+  },
+  {
+    "branch": "research/e1-jet-rebuild-2026-10-07",
+    "path": "research/notes/2026-10-07-e1-jet-rebuild.md",
+    "head": "d5bed93e8c1ea09c2e11f0e096085da641819080",
+    "blob_sha": "8e433959b64ed002451e64fb18994644982a44fb",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_e1-jet-rebuild-2026-10-07/research/notes/2026-10-07-e1-jet-rebuild.md",
+    "url": "https://github.com/markluxton1/STCI/blob/research/e1-jet-rebuild-2026-10-07/research/notes/2026-10-07-e1-jet-rebuild.md"
+  },
+  {
+    "branch": "research/jet-discrepancy-order-one-2026-10-06",
+    "path": "research/notes/2026-10-06-order-one-jet-discrepancy-framework.md",
+    "head": "f512d4d28da1fd6700aa4e6d2396229712d133d0",
+    "blob_sha": "d042619f07c05f52e1160c4f709c7ede526dfe94",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_jet-discrepancy-order-one-2026-10-06/research/notes/2026-10-06-order-one-jet-discrepancy-framework.md",
+    "url": "https://github.com/markluxton1/STCI/blob/research/jet-discrepancy-order-one-2026-10-06/research/notes/2026-10-06-order-one-jet-discrepancy-framework.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-rational-quartic-power-saturation.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "f9bf66e67e05164906f7481c57c733d45fd57e6d",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-rational-quartic-power-saturation.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-rational-quartic-power-saturation.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-apic-conductor-bridge.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "b759cf50d08ed67d2ff4dffd0c69a2fc03619c6c",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-apic-conductor-bridge.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-apic-conductor-bridge.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-boundary-carrier-rigidity.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "34d4e030fc6c42c2e691d4fce1d8bdf243d39879",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-boundary-carrier-rigidity.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-boundary-carrier-rigidity.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-degree-3p-quotient.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "a2fd7fe1be76c00ae5c8eea89309285d43e794f2",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-degree-3p-quotient.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-degree-3p-quotient.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-first-blowup-marked-coupling.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "7d3e500adc47677ae13ed9176eda927500cde6c1",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-first-blowup-marked-coupling.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-first-blowup-marked-coupling.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-generic-normalization-filter.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "1063bdf8eaf71489471b9279c35061ceb2d3ee32",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-generic-normalization-filter.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-generic-normalization-filter.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-local-pair-marked-trisecant.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "3846d8d43c57062e8456bba28df62b5d820b0c49",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-local-pair-marked-trisecant.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-local-pair-marked-trisecant.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-marked-point-jets.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "30443ccefcddfe4224f3901bcefbe51047dede86",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-marked-point-jets.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-marked-point-jets.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-quadric-section-divisor.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "27218b460e0710c216e1a5b1618a9fc61010f035",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-quadric-section-divisor.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-quadric-section-divisor.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-repeated-fiber-smoothability.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "f824d4c791581dc2473ceb7f08da590935940ffd",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-repeated-fiber-smoothability.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-repeated-fiber-smoothability.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-root-budget-separation.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "3f4b711d9be56a4818d7744c28bf03351b4056b2",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-root-budget-separation.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-root-budget-separation.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-ruling-interpolation-audit.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "a5170ff651ac12cb18c44e5715b5e42715ee170f",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-ruling-interpolation-audit.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-ruling-interpolation-audit.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-segre-root-audit.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "958c9821f5cf374940ad53bc65cd573157b0bbb7",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-segre-root-audit.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-segre-root-audit.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thick-sheaf-colon-recursion.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "7d048ae8cb50c77aa8423446f013461f0d6d34a4",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-sheaf-colon-recursion.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thick-sheaf-colon-recursion.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thickened-fiber-jets.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "1dc4858f16007d6d92a4efbb8955e12cbfd1f07f",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thickened-fiber-jets.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thickened-fiber-jets.md"
+  },
+  {
+    "branch": "research/entirely-thick-rees-valuation",
+    "path": "research/notes/2026-10-07-thickened-fiber-local-countermodel.md",
+    "head": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+    "blob_sha": "8a3d1e73286e1051f63b27ff91aa5e6293fcf9a8",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thickened-fiber-local-countermodel.md",
+    "url": "https://github.com/markluxton1/STCI/blob/a843888ce15b06247c576f8f717bec6b7ef5a352/research/notes/2026-10-07-thickened-fiber-local-countermodel.md"
+  },
+  {
+    "branch": "main",
+    "path": "research/notes/2026-10-06-quartic-jet-geometry-structural-supplement.md",
+    "head": "7662a2ebb1dd561c1fb5e3c8958799b37d962c41",
+    "blob_sha": "879704e98c0cc4925974105960c2ef8980907fb3",
+    "local_path": "research/validation/2026-10-13-evening-branch-inventory/remote-snapshots/main/research/notes/2026-10-06-quartic-jet-geometry-structural-supplement.md",
+    "url": "https://github.com/markluxton1/STCI/blob/7662a2ebb1dd561c1fb5e3c8958799b37d962c41/research/notes/2026-10-06-quartic-jet-geometry-structural-supplement.md"
+  }
+]

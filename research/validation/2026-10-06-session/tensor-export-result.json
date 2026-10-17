@@ -1,0 +1,12 @@
+{
+  "source": "research/computations/localcoh-incidence-tensor.m2",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/computations/localcoh-incidence-tensor.m2"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.211,
+  "status": "PASS",
+  "log": "research/validation/2026-10-06-session/localcoh-incidence-tensor.log"
+}

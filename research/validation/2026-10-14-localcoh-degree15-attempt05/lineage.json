@@ -1,0 +1,8 @@
+{
+  "prepared_from": "research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt04.m2",
+  "prepared_sha256": "867f0017977fea4485331ef124c3a78ac45cd34484871d47d3903e6f4c7475aa",
+  "prior_attempt04": "retired due newly observed matrix degree metadata equality failure risk, before inverse completed",
+  "only_source_changes": "attempt04 to attempt05 output/marker stems; full scalar normalization fix already tested by strategy worker",
+  "source_snapshot": "immutable execution target source.m2; root/worker source later edits cannot affect execution",
+  "modular_block": "diagnostic selection only; exact inverse and every dual identity checked by new computation"
+}

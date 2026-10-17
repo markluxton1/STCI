@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "scope": "sparse heptic contact classification and six invariant pair certificates; conditional geometric application",
+  "bound_files": [
+    {
+      "path": "research/notes/2026-10-12-session-sparse-heptic-cubic-pair-classification.md",
+      "sha256": "58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8"
+    },
+    {
+      "path": "research/computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2",
+      "sha256": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/execution-record.json",
+      "sha256": "30ce05de9892a50aa56331f35d9717c411de01b4f346c785c7c0e6c201a0958d"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.m2",
+      "sha256": "816474164f38f88c0d3ec71b6599dcbc9867927fee99aba1e9ff89968da2867c"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.stderr.txt",
+      "sha256": "6edb94efa95cd2d276884012649c1849644e5cc3f3c8776e648a9048ca42b84c"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-coefficient-ring.stdout.txt",
+      "sha256": "6b617403565197474252646560b5cabab997e926bfa23ea98c9c308d3de539ff"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.m2",
+      "sha256": "a8b0b88a4e02e5ac075ebbe7f4eaf84a4de69b5172001a721229d1ee4e98fcc5"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.stderr.txt",
+      "sha256": "38ab78d38940480be09914216ea6d7e273d1af77687486b167d48bca70f4b5fa"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/failed-protected-variable.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.m2",
+      "sha256": "1e18cdedcd5ed9a4181f6baf21ff5d959ed7e2a9dfcedaf522e546716809fdeb"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/final-source.stdout.txt",
+      "sha256": "bb0e703c7e6457f365ee091358cab6db2b47b7a44ffb76269d03fafd31f20396"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.m2",
+      "sha256": "7dae2eb310f509d444a5a4b3437ddc7184dd0d898730969d5c2389c1d7c3e06c"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-finite-root-profiles.stdout.txt",
+      "sha256": "86786bf71a1eb5d6ffd5513dd2cdcfc7657e7f18e1872373df4ccec7728d9c48"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.m2",
+      "sha256": "8e2a88b9a89d09a679df68b7f3a6269b0649da2b39e2d03fe76e695bbce9a1fd"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-homogeneous-endpoint-profiles.stdout.txt",
+      "sha256": "4953bf89a512b45bc962b8c5717ba37fec7294da4b85ecba1cfabf1d5834197b"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.m2",
+      "sha256": "75c1b238f819703d5d6b34d42d50e92665eee1854c630c630d68e832c09a5fbc"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-invariant-pair-ideals.stdout.txt",
+      "sha256": "cd62a6baefbafe7409247fe86e163a5a1d12a4da02e15ef5dc1b20f7117e11ef"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.m2",
+      "sha256": "093b9bc5a85428a27d6e28b45965fb65ae83dd9451dbdc9542149439696923ff"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/validation/2026-10-12-sparse-heptic-cubic-pair-classification/scratch-irreducibility-filter.stdout.txt",
+      "sha256": "e892e528bb25f56c482008c9c45807387affd378083aff18b6ea0a1ced37f6e9"
+    }
+  ]
+}

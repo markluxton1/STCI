@@ -1,0 +1,20 @@
+{
+  "status": "FAILED",
+  "scope": "Exact local-chart polynomial identities only; global kernel and all-singular-locus not tested",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_dp5_a4_local_chart_2026_10_11.m2"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 0.6325576251838356,
+  "timestamp_utc": "2026-10-11T14:57:43.966749+00:00",
+  "source_sha256": "d03ede97ce9155f89dfe39d1c2e778673cf81d199e3dadc9b3f0e147f0508c75",
+  "source_path": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-dp5-a4-local-chart/gens-list-failed-source.m2",
+  "stdout_path": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-dp5-a4-local-chart/gens-list-failure.stdout",
+  "stderr_path": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-dp5-a4-local-chart/gens-list-failure.stderr",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "6e7b9da5f087de5b85304ddd342d11e882f48697d89a877d91d01b5fc94a17dc",
+  "earlier_failed_attempts": "protected-dd-failure.json includes original console attempt and explicit failed replay",
+  "tool_chunk_id": "f79399"
+}

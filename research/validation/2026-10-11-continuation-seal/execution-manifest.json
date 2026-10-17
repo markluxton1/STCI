@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "One final record-integrity checker execution; no mathematical verifier executed",
+  "mathematical_verifiers_rerun": false,
+  "mathematical_execution_count": 0,
+  "command": [
+    "/opt/homebrew/opt/python@3.15/bin/python3.15",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-continuation-seal/check_record.py",
+    "--seal-once",
+    "--acceptance",
+    "research/notes/2026-10-11-session-all-quartic-results-acceptance.md"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "started_utc": "2026-10-11T14:52:13.943540+00:00",
+  "completed_utc": "2026-10-11T14:52:14.705915+00:00",
+  "elapsed_seconds": 0.7545079169794917,
+  "exit_code": 0,
+  "acceptance": "research/notes/2026-10-11-session-all-quartic-results-acceptance.md",
+  "runner_sha256": "310b36771066fe1509695313600deda2eb44cf7f39fb4813021f80c05b8ac017",
+  "checker_before_sha256": "d61c147b694bcbfe52f1ed955a0607d0844619c1a2a76b543144f88813480d2a",
+  "checker_after_sha256": "d61c147b694bcbfe52f1ed955a0607d0844619c1a2a76b543144f88813480d2a",
+  "result_sha256": "89da399255019f5ab2412e2d7944b4d9d6505ca99e3c572d2b4f0ea27a6fcef4",
+  "stdout_sha256": "127048f1025d23f1ebc7338b47629bfe15dedd028b24aee7d72d63328979563a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "check_count": 5747,
+  "checked_local_links": 773,
+  "head_observed": "2ba77d1a1177db9390693066c6b185040766c089",
+  "bound_file_count": 921,
+  "result_and_manifest_created_exclusively": true
+}

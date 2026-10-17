@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-10-12T14:18:14.769567+00:00",
+  "source": "Direct collaboration.list_agents observation in current root turn",
+  "terminal_usage_limit_errors": [
+    "/root/oct11_endpoint_a_nonzero_support",
+    "/root/oct11_endpoint_support_global_audit",
+    "/root/oct11_nonendpoint_quadric_structure",
+    "/root/oct11_quartic_assembly_audit",
+    "/root/oct11_record_seal",
+    "/root/oct11_record_seal/endpoint_record_coverage"
+  ],
+  "pending_init_not_classified_terminal": [
+    "/root/oct11_quintic_power_descent",
+    "/root/oct11_quintic_structural_frontier"
+  ],
+  "scope": "Observed worker statuses only. Saved proofs were inspected independently before root acceptance; an error message does not invalidate or complete a proof."
+}

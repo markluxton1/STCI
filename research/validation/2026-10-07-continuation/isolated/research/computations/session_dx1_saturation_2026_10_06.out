@@ -1,0 +1,7 @@
+three-equation residual unit: false
+three-equation residual dim: 0
+three-equation residual degree: 29
+full P044 residual unit: true
+full P044 residual basis: matrix {{1}}
+membership exponent: 2
+certificate verified: true

@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-quadratic-conductor-power-descent/isolated/research/computations/verify_session_quadratic_conductor_power_descent_2026_10_09.py"
+  ],
+  "working_directory": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-quadratic-conductor-power-descent/isolated",
+  "environment_override": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "exit_code": 0,
+  "wall_seconds": 0.6990629590582103,
+  "source": {
+    "path": "research/computations/verify_session_quadratic_conductor_power_descent_2026_10_09.py",
+    "sha256": "8000a66e04f5e0b3f4344479434ccf74e3f79c42ce3b037c11a8d3404bb4b818",
+    "frozen_path": "research/validation/2026-10-09-quadratic-conductor-power-descent/isolated/research/computations/verify_session_quadratic_conductor_power_descent_2026_10_09.py"
+  },
+  "note_at_replay": {
+    "path": "research/notes/2026-10-09-session-quadratic-conductor-power-descent.md",
+    "sha256": "90584d21d84cbe43e44d31bfb6a9e78c69a49c3d1aed337f52c8d11f7d019b28",
+    "frozen_path": "research/validation/2026-10-09-quadratic-conductor-power-descent/isolated/research/notes/2026-10-09-session-quadratic-conductor-power-descent.md"
+  },
+  "stdout": {
+    "path": "research/validation/2026-10-09-quadratic-conductor-power-descent/stdout.json",
+    "sha256": "09e1c524b777a25a295714c867a897c524152b9c0a72371dd346f2f78fa98541"
+  },
+  "stderr": {
+    "path": "research/validation/2026-10-09-quadratic-conductor-power-descent/stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scope": "Finite exact coefficient and cyclotomic identity checks plus nilpotent counterexamples; not an actual-surface parameter-space exhaustion."
+}

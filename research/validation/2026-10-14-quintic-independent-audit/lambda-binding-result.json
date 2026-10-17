@@ -1,0 +1,43 @@
+{
+  "audit_kind": "independent standard-library sparse-polynomial arithmetic",
+  "accepted_scripts_rerun": false,
+  "input_sha256": {
+    "main_H": "06e194f7ebb6cb94a661ba5959b93547707131346a4439d50a7d9ebf15b6afc0",
+    "main_S": "c49acae3ad08e1036a19f74709c60a48c43dee75858efb9f340004aebde73e08",
+    "main_source": "8811f43ef170d98f1ee72c784ada546fa511b06230cfed8f813492a278eafb84",
+    "lambda_source": "f010aed6bb20b65e27237722761b78069d0712813f22d8c72bd502e499a5d7b6",
+    "compact_source": "db07fb7b124e44e5fedd1206c4e370a4f74c4f9024097720e9bf71a09e81afee",
+    "compact_denominators": "57c6c5500ca65c34867487a7149710717ad8025333ed0ddad33989917c1add4b"
+  },
+  "main_H_coefficient_count": 4,
+  "main_S_coefficient_count": 6,
+  "H_at_lambda_1_equals_compact_H": true,
+  "H_at_lambda_1": "delta*q^3 - 6*delta*q + 4*delta + q^3 - 6*q^2 + 6*q",
+  "S_at_lambda_1_divisible_by_q": true,
+  "S_at_lambda_1_equals_scalar_times_q_times_Q4": true,
+  "scalar_in_QQ_delta": "2*delta",
+  "S_div_q_coefficients_by_ascending_q_power": [
+    "-800*delta^2",
+    "-900*delta^3 + 1600*delta^2 + 348*delta",
+    "1350*delta^3 - 1716*delta^2 - 522*delta",
+    "-810*delta^3 + 916*delta^2 + 406*delta",
+    "180*delta^3 - 152*delta^2 - 116*delta"
+  ],
+  "compact_Q4": "90*delta^2*q^4 - 405*delta^2*q^3 + 675*delta^2*q^2 - 450*delta^2*q - 76*delta*q^4 + 458*delta*q^3 - 858*delta*q^2 + 800*delta*q - 400*delta - 58*q^4 + 203*q^3 - 261*q^2 + 174*q",
+  "infinity_H": "delta + 1",
+  "infinity_Q4": "90*delta^2 - 76*delta - 58",
+  "infinity_disjointness_identity": "(45*delta^2-38*delta-29) - (45*delta-83)*(delta+1) = 54",
+  "T_at_delta_minus_1": "54",
+  "Q4_at_q_0": "-400*delta",
+  "captured_compact_denominators": [
+    "32*(45*delta^2-38*delta-29)^9",
+    "256*(45*delta^2-38*delta-29)^9",
+    "512*(45*delta^2-38*delta-29)^9",
+    "512*(45*delta^2-38*delta-29)^9"
+  ],
+  "coefficient_identity_scope": "Polynomial identities over QQ[delta,q], with no parameter denominator after lambda=1.",
+  "main_source_normalization_scope": "Original rational normalizations divide by delta and by delta^3; underlying proportional parameterization divides by lambda and lambda^2. The literal lambda=1 coefficient identities themselves extend polynomially to delta=0; intended original chart is delta nonzero.",
+  "compact_remainder_denominator_chart": "T=45*delta^2-38*delta-29 nonzero. The separate leading-drop arithmetic identity does not use those denominators.",
+  "characteristic_scope": "QQ/characteristic zero only. No claim for reduction in arbitrary positive characteristic.",
+  "geometry_claims": "None. This audit only binds captured coefficient lists to displayed polynomials, denominator factors, and the stated leading coefficient arithmetic."
+}

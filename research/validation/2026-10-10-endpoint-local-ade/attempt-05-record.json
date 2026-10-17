@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/computations/verify_session_endpoint_local_ade_2026_10_10.m2"
+  ],
+  "exit_code": 0,
+  "wall_time_seconds": 0.6527870001737028,
+  "source_sha256": "cbe568f673086ed5f4084aedba3e4075470938c5b0bef223de75f7d65c8337d4",
+  "source_snapshot": "attempt-05.m2",
+  "stdout": "attempt-05.stdout",
+  "stderr": "attempt-05.stderr",
+  "exact_identity_count": 16
+}

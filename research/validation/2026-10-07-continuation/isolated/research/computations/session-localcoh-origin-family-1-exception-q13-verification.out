@@ -1,0 +1,3 @@
+PASS: Q13 irreducibility modulo 53, actual pure-top affine lift, and primitive homogeneous direction.
+PASS: all 18 polynomial dual identities over QQ[k]/Q13[lambda] and n^T u=1.
+PROVED: the Q13 exceptional locus is excluded at all thirteen geometric roots, for every lambda.

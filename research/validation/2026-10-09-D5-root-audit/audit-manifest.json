@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "executions": [
+    {
+      "source": "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "source_sha256": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 3.059,
+      "log": "research/validation/2026-10-09-D5-root-audit/verify_delpezzo_D5_torsion_filter_2026_10_09.log",
+      "log_sha256": "b13bd9eb5b84aef3d6b98a389927efaa2ca94ce0865620799ac2f01c4813e51a",
+      "isolated": true
+    },
+    {
+      "source": "research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "source_sha256": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/validation/2026-10-09-D5-root-audit/countercheck.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.091,
+      "log": "research/validation/2026-10-09-D5-root-audit/countercheck.log",
+      "log_sha256": "2bc1a6b8f5c909b2a1bbefff2024a5ccec120a72b6bbdb4b7474c5aeecc6ed1e",
+      "isolated": true
+    }
+  ],
+  "snapshot_input_sha256": {
+    "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+    "research/validation/2026-10-09-D5-root-audit/countercheck.py": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933"
+  },
+  "output_sha256": {
+    "research/validation/2026-10-09-D5-root-audit/isolated/research/scratch/session-delpezzo-D5-torsion-filter-2026-10-09.json": "f983c6858810254b329d0cccd2194e69fdd37a708712a5130eeb0a7f08ee24fd",
+    "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck-result.json": "6e2da18aecdcef9dc4a23f94ba5baad6f7e7e3c73e7288c4cc9b8b5143ab51da"
+  },
+  "scope": "Independent signed-partition check plus frozen owner exact replay; geometry in separate written audit",
+  "proof_scope": "Root independently reconstructed signed-coordinate lattice proof; separately accepted pi1 coverage lemma. Additional worker audit interrupted by weekly quota and is not claimed completed.",
+  "proof_records_sha256": {
+    "research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md": "b4f4e4bb5a44c01022ce0e7d342bb1ce74127d0d3575aa227b3a18050e5d5919",
+    "research/notes/2026-10-09-session-delpezzo-D5-root-independent-audit.md": "9e9717a77f497c5cdcc09aa5d4b6247a222911118e7d93ce05a02192c83c1223",
+    "research/notes/2026-10-09-session-genus-one-delpezzo-reduction.md": "233224fbb29a60081b77a3478a84f0967b073e26b7dc689eb32c64e04165dce1",
+    "research/notes/2026-10-09-session-rational-genus-one-ADE-independent-audit.md": "b9b39f2c6d29ec2c54b7343eb248f6ad0aeffc64a1a69b661ac912a8bdf684a5",
+    "research/notes/2026-10-09-session-nonrational-quartic-normalizations.md": "2669bcbbeb9449347e2944f5266c10d6e36cd4ab7a2ed96af15783849ddb0404",
+    "research/notes/2026-10-09-session-nonrational-normalization-independent-audit.md": "e2e24ac3524ef473f86d71d8465ed18987abc83ac6c20ac2630f85196a3908bb"
+  },
+  "proof_snapshot_sha256": {
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md": "b4f4e4bb5a44c01022ce0e7d342bb1ce74127d0d3575aa227b3a18050e5d5919",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-delpezzo-D5-root-independent-audit.md": "9e9717a77f497c5cdcc09aa5d4b6247a222911118e7d93ce05a02192c83c1223",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-genus-one-delpezzo-reduction.md": "233224fbb29a60081b77a3478a84f0967b073e26b7dc689eb32c64e04165dce1",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-rational-genus-one-ADE-independent-audit.md": "b9b39f2c6d29ec2c54b7343eb248f6ad0aeffc64a1a69b661ac912a8bdf684a5",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-nonrational-quartic-normalizations.md": "2669bcbbeb9449347e2944f5266c10d6e36cd4ab7a2ed96af15783849ddb0404",
+    "research/validation/2026-10-09-D5-root-audit/proof-snapshots/research/notes/2026-10-09-session-nonrational-normalization-independent-audit.md": "e2e24ac3524ef473f86d71d8465ed18987abc83ac6c20ac2630f85196a3908bb"
+  }
+}

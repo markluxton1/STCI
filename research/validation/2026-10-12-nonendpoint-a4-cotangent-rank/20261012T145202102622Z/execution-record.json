@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-a4-cotangent-rank/20261012T145202102622Z/verify_session_nonendpoint_a4_cotangent_rank_2026_10_12.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "started_utc": "2026-10-12T14:52:02.103418+00:00",
+  "completed_utc": "2026-10-12T14:52:02.728711+00:00",
+  "elapsed_seconds": 0.6253016248811036,
+  "exit_code": 1,
+  "status": "FAIL",
+  "intended_supporting_condition_count": 3,
+  "observed_condition_markers": [],
+  "source_path": "research/computations/verify_session_nonendpoint_a4_cotangent_rank_2026_10_12.m2",
+  "snapshot_path": "research/validation/2026-10-12-nonendpoint-a4-cotangent-rank/20261012T145202102622Z/verify_session_nonendpoint_a4_cotangent_rank_2026_10_12.m2",
+  "source_sha256": "da78a00b71b690912d02074fc9af50ad8a3c31e8abde62a64a686694342b81d2",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "6492ff99ab7db2e933bfdd22ef248b8a0acaed32835e15c3a8bce1c0e326343f"
+}

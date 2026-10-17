@@ -1,0 +1,1 @@
+-9*delta^4*G*J-18*delta^2*B*G*J-12*delta^2*G^2*J+9*delta^2*B*J^2-3*delta^2*G*J^2-6*B*G^2*J-3*G^3*J+27*B^2*J^2+15*B*G*J^2+3*B*J^3

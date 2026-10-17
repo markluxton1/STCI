@@ -1,0 +1,1 @@
+PASS 1: V first-symbol numerator is the displayed cubic

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "source": "research/computations/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",
+  "source_sha256": "c26395b318525b6b531ebc96f91bc9866fbbb186ae9982f79443c2fb7508bd58",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-cubic-contact/20261012T213343388888Z/verify_session_nonendpoint_cubic_contact_2026_10_12.m2"
+  ],
+  "start_utc": "2026-10-12T21:33:43.389704+00:00",
+  "end_utc": "2026-10-12T21:33:44.128583+00:00",
+  "stdout_sha256": "8b51e048a03a937068ead016b3bd3d572a4d5b00c0953d8a954bfa2ded938d55",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "observed_pass_markers": 10,
+  "intended_supporting_condition_count": 10,
+  "scope": "Supporting cubic-restriction/contact identities only; no parameter-space exhaustion"
+}

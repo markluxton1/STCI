@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_typeb45_boundary.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: the b0=0 type-B boundary obstruction is reproduced exactly
+
+Runner status: PASS

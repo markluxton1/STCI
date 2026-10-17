@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-09",
+  "exit_code": 0,
+  "wall_seconds": 7.909,
+  "command": "PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+  "source_input_snapshots": [
+    {
+      "path": "research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "sha256": "a513320aeeed37260151d209cd2d232ac321edb892d647b22395a06cb45a1ac8",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py"
+    },
+    {
+      "path": "research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py",
+      "sha256": "78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a93e17370",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py"
+    },
+    {
+      "path": "research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.json",
+      "sha256": "0da6eff927a635a81179ce631468e9d4f3fc89a1c78af1c7a6a8cd6cc81fe85d",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.json"
+    },
+    {
+      "path": "research/scratch/mf6-principal-weighted-kernel-2026-10-08.json",
+      "sha256": "4889f20b60fa094cde47992342701ebdf29a98413fc216b20f971550331cd9db",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/mf6-principal-weighted-kernel-2026-10-08.json"
+    },
+    {
+      "path": "research/scratch/session-mf6-e1-principal-contact-2026-10-08.json",
+      "sha256": "bc32db62b6d87e15300168a47f50d6bf3cd952d0d19b60ad52fc5ae8cdfa9818",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/session-mf6-e1-principal-contact-2026-10-08.json"
+    },
+    {
+      "path": "research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json",
+      "sha256": "a044fbbe3fa4903268a38a07792b3e023170b943ceb28f63e4d464b9e871732f",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json"
+    }
+  ],
+  "log_sha256": "061217ff3b5ecc72aeec7bd5aa0791a3b7299ac43a8865f35f2f1529b1743ce2",
+  "log": "research/validation/2026-10-09-mf6-weighted-candidate-audit/independent-countercheck.log",
+  "originals_unchanged": true,
+  "scope": "Bounded independent coefficient/matrix/sample audit, not full contact syzygy suite or candidate-zero classification",
+  "result_sha256": "061217ff3b5ecc72aeec7bd5aa0791a3b7299ac43a8865f35f2f1529b1743ce2",
+  "result": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/audit-session-mf6-weighted-candidate-2026-10-09.json"
+}

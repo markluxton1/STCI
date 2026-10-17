@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_ramification_counterexample.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: actual differential Fitting ideal (w,z²), full inverse support,
+noncontainment of the smooth lift, exact conductor/Jacobian product,
+and T_(2,3,infinity) semi-log-canonical normal-form identification.

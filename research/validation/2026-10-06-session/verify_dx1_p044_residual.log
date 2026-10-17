@@ -1,0 +1,7 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_dx1_p044_residual.py
+CWD: /Users/markluxton/Projects/STCI
+
+VERIFIED: resultant identities and gcd(P24,P25)=1.
+CAUTION: this does not prove residual-open emptiness; saturation remains OPEN.
+
+Runner status: PASS

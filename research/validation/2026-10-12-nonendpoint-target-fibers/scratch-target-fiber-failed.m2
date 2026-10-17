@@ -1,0 +1,18 @@
+R=QQ[delta,a,Bc,Gc,Jc,p,r,T,lam];
+F1=delta*r^3-(delta*r+Bc)*T-p*lam;
+F2=3*delta^2*r^2-delta^3*r+Gc*T-p^2*(3-p)*lam;
+F3=delta^4-2*delta^3*r+Jc*T+p^3*(2-p)*lam;
+fiberMatrix=matrix{{-delta*r-Bc,-p,delta*r^3},{Gc,-p^2*(3-p),3*delta^2*r^2-delta^3*r},{Jc,p^3*(2-p),delta^4-2*delta^3*r}};
+fiberDet=det fiberMatrix;
+print toString factor fiberDet;
+print toString (fiberDet//(p*(p*r-delta)));
+Z=Gc*p*(2-p)+Jc*(3-p);
+N=delta^2*(p*r-delta)*(3*(2-p)*r-delta*(3-p));
+M=delta^2*(3*Jc*r^2+delta*(2*Gc-Jc)*r-delta^2*Gc);
+Psi=p^2*Z^2*r^4+p^2*Z*(2*r^2+r-a)*N+p^2*N^2-M*Z;
+Cubic=Psi//(p*r-delta);
+assert(Psi==Cubic*(p*r-delta));
+print ("Cubic",toString factor Cubic);
+AR=QQ[delta,a,Bc,Gc,Jc,p][rr];
+Ccopy=sub(Cubic,AR,{r=>rr});
+for j from 0 to 3 do print ("r coefficient",j,toString factor coefficient(rr^j,Ccopy));

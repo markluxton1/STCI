@@ -1,0 +1,41 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_degree6.py
+CWD: /Users/markluxton/Projects/STCI
+
+1. SYMBOLIC SQUARE AND DEGREE-SIX SPACE
+  QQ: I^2:x_i^infinity=I^2 on all four charts
+  GF(2): I^2:x_i^infinity=I^2 on all four charts
+  GF(3): I^2:x_i^infinity=I^2 on all four charts
+  GF(5): I^2:x_i^infinity=I^2 on all four charts
+  dim H^0(I_C(4)) = 18
+  dim q*H^0(I_C(4)) = 18
+  dim H^0(I_C^(2)(6)) = 23
+  quotient basis: A^2, A*B, B^2, B*D, D^2
+  dim H^0(I_C(6)) = 84-25 = 59
+  relation modulo q*I_C(4): A*D = B^2
+  exact relation: A*D-B^2 = -x1*x2*q^2
+  H^0(I_C^(3)(6)) is one-dimensional, spanned by q^3
+
+2. RESTRICTION TO THE QUADRIC
+  A|Q=a0^2*h, B|Q=a0*a1*h, D|Q=a1^2*h
+  Therefore every non-q class restricts as h^2*R(a0,a1),
+  where R is an arbitrary binary quartic (dimension 5).
+
+3. AN IRREDUCIBLE SEXTIC WITH REDUCED SINGULAR LOCUS C0
+  F*=A^2+B^2+D^2+q^2*(x0^2+x1^2+x2^2+x3^2) is irreducible over QQ
+  radical Jacobian certificate: {'q': 6, 'A': 4, 'B': 4, 'D': 4}
+  Hence sqrt(Jac(F*))=I_C0: its reduced singular locus is exactly C0.
+
+4. FIRST QUADRATIC NORMAL FORM AND DISCRIMINANT
+  discriminant = -4*(u**2 - u + 1)*(u**2 + u + 1)*(u**16 + 2*u**10 + 2*u**6 + 1)
+  It is a nonzero degree-20 section, so the generic transverse type is nodal
+  and it degenerates in a divisor of total degree 20 on C0.
+
+5. RESULTANT TEST FOR PAIRS OF THICK SEXTICS
+  an explicit pair has nonzero normal resultant of degree 40
+  resultant = u**4*(4*u**36 + 8*u**30 - 4*u**28 - 16*u**26 + 24*u**24 + 4*u**22 + 45*u**20 + 62*u**18 + 61*u**16 + 82*u**14 + 62*u**12 + 38*u**10 + 35*u**8 + 16*u**6 + 6*u**4 + 4*u**2 + 1)
+  Therefore the resultant-identically-zero condition is a proper closed
+  condition on pairs; a generic pair cannot have radical C0.
+
+ALL ASSERTIONS PASSED
+
+Runner status: PASS

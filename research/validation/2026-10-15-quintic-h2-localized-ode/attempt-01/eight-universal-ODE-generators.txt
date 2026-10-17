@@ -1,0 +1,1 @@
+matrix {{q1*w-q0*u, q1*v+2*q2*w-q0*d-q1*u, 2*q2*v+3*q3*w-q1*d-q2*u+q1, 3*q3*v+4*q4*w-q2*d-q3*u+2*q2, 4*q4*v+5*q5*w-q3*d-q4*u+3*q3, 5*q5*v+6*q6*w-q4*d-q5*u+4*q4, 6*q6*v-q5*d-q6*u+5*q5, -q6*d+6*q6}}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "start_utc": "2026-10-12T21:30:22.506777+00:00",
+  "end_utc": "2026-10-12T21:30:23.435272+00:00",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-type23-six-family-independent-audit/attempt-04/source.m2"
+  ],
+  "source_path": "research/validation/2026-10-12-type23-six-family-independent-audit/verify_type23.m2",
+  "source_sha256": "06bd1df18bd2cf075358911f16cb78f977559e4d1589736b950ac1a6583e7634",
+  "source_snapshot": "source.m2",
+  "stdout_path": "stdout.txt",
+  "stdout_sha256": "69794d8c011036dd3f297c2830bb7eb8d11cacac1de778c29c5440a06a96bf1e",
+  "stderr_path": "stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Independent Type2/3 reconstruction in epsilon^2=3 and theta^2=3,zeta^2=6; full incidence and parameter eliminated ideal; scheme lengths; direct finite jets with exact Type2 degeneration; full delta-open actual infinity contact with T degree drop retained; 54 conditions"
+}

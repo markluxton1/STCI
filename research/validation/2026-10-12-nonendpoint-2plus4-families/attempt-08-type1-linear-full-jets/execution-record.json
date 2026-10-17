@@ -1,0 +1,20 @@
+{
+  "status": "FAIL",
+  "exit_code": 1,
+  "start_utc": "2026-10-12T15:10:19.800115+00:00",
+  "end_utc": "2026-10-12T15:10:20.427699+00:00",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-2plus4-families/attempt-08-type1-linear-full-jets/source.m2"
+  ],
+  "source_path": "research/computations/probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2",
+  "source_snapshot": "source.m2",
+  "source_sha256": "a82611ae6786812fdee4b0218256b8a984d2dd0a05dc6ea8cd998d05032db989",
+  "stdout_path": "stdout.txt",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_path": "stderr.txt",
+  "stderr_sha256": "6a082c49d44347b2ca826dbb26e44e95dc36db7402539a3babc7c9b35eb1d73e",
+  "scope": "Type1 linear parameter stratum; full actual targetC contact jet at conicrho; retains both algebraic branches"
+}

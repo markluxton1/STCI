@@ -1,0 +1,14 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/scratch/session-mf6-special-fiber.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-fresh
+Isolated run retains generated JSON without changing prior repository output.
+
+PASS: degree-one first defect impossible on all quotient charts
+PASS: degree-two first defect forces one of two pure endpoint triples
+PASS: every compatible quartic equals D times an ambient linear form
+RESULT: every hypothetical characteristic-zero (4,b) pair on C0 with e=0 has deg D2>=3
+PASS: complete degree-three triple-compatible quartic space is a pencil
+PASS: beta!=0 forces deg D3>=9, or >=8 for alpha=-4 beta
+PASS: beta=0 has D3=2D2 and quartic divisor H=3D2
+RESULT: e=0 numerical type (d2,d3)=(3,6) necessarily has regular first-normal ratio
+CUBIC 64*x0**2*x2 + 64*x0**2*x3 - 64*x0*x1*x2 + 32*x0*x1*x3 - 16*x0*x2**2 - 8*x0*x2*x3 - 4*x0*x3**2 - 64*x1**3 - 32*x1**2*x2 + 16*x1**2*x3 + 8*x1*x2**2 + 4*x1*x2*x3 - x1*x3**2 + x2**3
+PASS complete special fiber is C*H0(O(1)); all quartics have plane factor

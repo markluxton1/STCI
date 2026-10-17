@@ -1,0 +1,4 @@
+PASS three literal normalizations
+PASS literal original-resultant Bezout identity
+PASS literal D0 numerator Bezout identity
+COMPLETE three normalization and two Bezout checks

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-11T14:41:36.750691+00:00",
+  "command": [
+    "/opt/homebrew/opt/python@3.15/bin/python3.15",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_multiplicity_ten_filtration_2026_10_11.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "exit_code": 0,
+  "source_path": "research/computations/verify_session_multiplicity_ten_filtration_2026_10_11.py",
+  "source_sha256": "8d635a000325f5872d1760a40d1effabe8f5db1ec37f2c12ce9061286b789c19",
+  "stdout_path": "research/validation/2026-10-11-multiplicity-ten-filtration/stdout.json",
+  "stdout_sha256": "bf251e59eef958c6ce836339eed06dd4209a3236612ce2e88aa2b57c8411b91e",
+  "stderr_path": "research/validation/2026-10-11-multiplicity-ten-filtration/stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bounded_triples_checked_for_equivalence": 23001,
+  "necessary_degree_counts_after_P010": [
+    198,
+    97,
+    13
+  ],
+  "scope": "necessary degree data only; not a global embedded-structure classification or STCI exclusion"
+}

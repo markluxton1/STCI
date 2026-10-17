@@ -1,0 +1,14 @@
+{
+  "status": "FAILED",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/computations/verify_session_endpoint_local_ade_2026_10_10.m2"
+  ],
+  "exit_code": 1,
+  "wall_time_seconds": 0.6486917498987168,
+  "source_sha256": "bee27c510d90601593831e6487083e805c889c76301da816719f2adc01e02fb7",
+  "source_snapshot": "attempt-02.m2",
+  "stdout": "attempt-02.stdout",
+  "stderr": "attempt-02.stderr"
+}

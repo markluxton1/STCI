@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source": "research/computations/verify_session_quartic_normal_bundle_2026_10_10.m2",
+  "source_sha256": "e939b142ee32a89c43e08131f8668a7c5c0e73eebdbcfa81c004de951ff5d62a",
+  "snapshot": "research/validation/2026-10-10-normal-bundle-root-replay/snapshot/verify_session_quartic_normal_bundle_2026_10_10.m2",
+  "snapshot_sha256": "e939b142ee32a89c43e08131f8668a7c5c0e73eebdbcfa81c004de951ff5d62a",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-normal-bundle-root-replay/snapshot/verify_session_quartic_normal_bundle_2026_10_10.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-normal-bundle-root-replay/snapshot",
+  "exit_code": 0,
+  "elapsed_seconds": 0.6787127919960767,
+  "expected_exact_checks": 8,
+  "stdout_sha256": "a9369f4ea3ab42377f052f34c9ad7e92b37fd4025b60c8421ba451ccfa858f7d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Jacobian identities and every-point bundle rank; geometric ribbon proof is separate",
+  "source_accounting": "one original source, one replay of it; snapshot is not a new verifier"
+}

@@ -1,0 +1,102 @@
+{
+  "scope": "Independent fresh actual polynomial reconstruction of 74x542 quartic local-cohomology tensor",
+  "status": "PASS",
+  "final_exit_code": 0,
+  "files": [
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2",
+      "sha256": "b2c4722f6d9b5d9ece43d5bfd38348527ceec7577832c37747263a8a9b85c187",
+      "bytes": 5208
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/run-actual-tensor-reconstruction.py",
+      "sha256": "62d80606befd5eb6d2a97e4f1a4212bc087ea30c41edda78043991d2068720e3",
+      "bytes": 1886
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.log",
+      "sha256": "31188e3f9f4940157ed8286c3c3a9ef5a0cc94fa8a95ca299ab6183ee17c4700",
+      "bytes": 636
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction-result.json",
+      "sha256": "c45a6d8e684c1284768049547efe070d56a9c078955d1756dcf0396293ab2358",
+      "bytes": 903
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-input-manifest.json",
+      "sha256": "696abf83cc3ee1691761a4d10228cf0518727c6d292a3677084099a524e4b41c",
+      "bytes": 608
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction-note.md",
+      "sha256": "020b083574f0ec45d6b2e547ee45aec0dd1c54324ffcf8a8d79909065aef7e28",
+      "bytes": 3500
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/localcoh-incidence-bases.txt",
+      "sha256": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+      "bytes": 4602
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/localcoh-incidence-tensor.txt",
+      "sha256": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+      "bytes": 24396
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt01-actual-tensor-reconstruction.m2",
+      "sha256": "368e2c14181f3cd12d692087278aa04d11b421d7ee6819df8d3fe0cb712dd725",
+      "bytes": 4488
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt01-actual-tensor-reconstruction.log",
+      "sha256": "67906ae7d67213881964db2c192df77df03c84a0ad65e49186ce785848bb9d2c",
+      "bytes": 1194
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt01-actual-tensor-reconstruction-result.json",
+      "sha256": "c1073a1181b3fcb5351476342d7a200695c9479347c2426956e01c0b18a1f78a",
+      "bytes": 905
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt02-actual-tensor-reconstruction.m2",
+      "sha256": "3225674a31d9951c8591517868b652140430cfea2a25a528f50878e5ac40de0f",
+      "bytes": 4528
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt02-actual-tensor-reconstruction.log",
+      "sha256": "bcd4a24f0fea9b6543c7de6f13e46e795ab5b6ed958f9865deefc27ccb744433",
+      "bytes": 1159
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt02-actual-tensor-reconstruction-result.json",
+      "sha256": "e163abba5d8bb5ab2e8a3d7e49e990666345ca993b37c6ab9e0c4a5341b1835b",
+      "bytes": 906
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt03-pass-actual-tensor-reconstruction.m2",
+      "sha256": "ab857ae01580dc7869909cff041166e4db3a8917d7b282a821edbb0b3664958f",
+      "bytes": 4666
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt03-pass-actual-tensor-reconstruction.log",
+      "sha256": "d6e903af468f9ddef77d607e9dcf2399c0da0c3273d6a4505be7e5718d7dc6ba",
+      "bytes": 627
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/attempt03-pass-actual-tensor-reconstruction-result.json",
+      "sha256": "2eb97f499d8cb8dd7da4e12ce17c9512ddd7c065e7324e4ea10af7a246a57f27",
+      "bytes": 903
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/m2-api-probe.m2",
+      "sha256": "dfc691e799ebff074fc4fdcd587b685aceedcd8c931ae26c70f860e3308f2340",
+      "bytes": 74
+    },
+    {
+      "path": "research/validation/2026-10-08-family2-quadratic-audit/m2-basis-comparison-probe.m2",
+      "sha256": "f39bcb014f418e0ff9d6b0f8285a859acf16b022a730cda095d40eae7452c12e",
+      "bytes": 2740
+    }
+  ]
+}

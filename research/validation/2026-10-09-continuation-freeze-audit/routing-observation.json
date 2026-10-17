@@ -1,0 +1,10 @@
+{
+  "observed_utc": "2026-10-09T12:17:36.158581+00:00",
+  "scope": "Supplementary routing observation; no mathematical or source/log drift assertion",
+  "historical_editorial_record": "research/validation/2026-10-08-continuation-index/editorial-integrity.json",
+  "historical_editorial_record_sha256": "26068a1f07808736063696cf70c5a043b0147a7d349403b25a1be794beed5355",
+  "its_bound_index_sha256": "9f300f38228c6d95a191ff4d6b72cdda976d8b8c8e696a6ad559ac7e1ba1f9a5",
+  "current_index": "research/validation/2026-10-08-continuation-index/index.json",
+  "current_index_sha256": "f928677fcd1c73d20728c03b5a92b2d0b372b7088dcdbd619e2347f477fd0c8d",
+  "interpretation": "The untimestamped older editorial record binds a former index. This independent dated frozen audit supersedes its current routing/count role. Neither original file was edited."
+}

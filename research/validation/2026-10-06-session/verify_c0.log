@@ -1,0 +1,18 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_c0.py
+CWD: /Users/markluxton/Projects/STCI
+
+1. ELIMINATION IDEAL
+  parametrization kernel verified over QQ and GF(2), GF(3), GF(5)
+2. SPECIAL PAIRS
+  characteristic 2: radical power certificates {'A': 4, 'B': 2, 'Q': 4, 'C': 4}
+  characteristic 3: radical power certificates {'A': 1, 'B': 3, 'Q': 3, 'C': 3}
+3. UNIFORM FROBENIUS FAMILY
+  characteristic 2: e=6, degree=8, terms=4
+  characteristic 3: e=3, degree=4, terms=2
+  characteristic 5: e=15, degree=20, terms=4
+  characteristic 7: e=21, degree=28, terms=4
+4. WRONG-CHARACTERISTIC SANITY CHECKS
+  special equations fail outside their intended characteristics
+ALL ASSERTIONS PASSED
+
+Runner status: PASS

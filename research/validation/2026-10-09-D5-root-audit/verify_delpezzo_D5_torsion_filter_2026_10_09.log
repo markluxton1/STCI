@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated
+
+PASS: all 428 embedded D5 root subsystems, integer saturation, and both effective chambers
+source sha256: fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e
+report: /Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated/research/scratch/session-delpezzo-D5-torsion-filter-2026-10-09.json

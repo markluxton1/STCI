@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-10-13T14:23:44.896172+00:00",
+  "completed_utc": "2026-10-13T14:23:45.579713+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2"
+  ],
+  "exit_code": 0,
+  "status": "PASS",
+  "source_sha256": "7ee03582fa3836ae08ed3020e4b21f31b77e641c4e210a0307353853d34f01fb",
+  "stdout_sha256": "936cd55b1ba4355af79e10ac26db23b4a66fe0c9f9a34953b06369d1add0b1bd",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Compact first Taylor coefficient and exceptional finite-target strata; no exhaustion."
+}

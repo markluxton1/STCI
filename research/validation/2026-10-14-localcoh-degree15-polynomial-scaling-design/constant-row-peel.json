@@ -1,0 +1,51 @@
+{
+  "peeled": [
+    [
+      16,
+      6,
+      "-1",
+      {
+        "0": "1"
+      }
+    ]
+  ],
+  "remaining_rows": [
+    0,
+    7,
+    8,
+    17,
+    12,
+    5,
+    18,
+    4,
+    19,
+    49,
+    13,
+    11,
+    14,
+    20,
+    54,
+    55
+  ],
+  "remaining_columns": [
+    17,
+    5,
+    16,
+    0,
+    7,
+    4,
+    1,
+    13,
+    8,
+    10,
+    2,
+    3,
+    9,
+    11,
+    12,
+    14
+  ],
+  "design_source": "research/computations/general_localcoh_degree15_polynomial_scaling_design_2026_10_14.py",
+  "design_source_sha256": "2fcb715447fc9977ecb93d5e28ac04c8850463a7997656a99dd6d573b76f995e",
+  "rational_source_sha256": "c35e2fdba88915fc7f51ce96c49712853ef417cd5597076aa3072e91ff113340"
+}

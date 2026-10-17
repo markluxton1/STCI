@@ -1,0 +1,22 @@
+{
+  "source": "research/scratch/session-mf6-special-fiber.py",
+  "source_sha256": "2a733480a8f69095aee7d918765510353b0f88c20278d815a4c107e16736b41a",
+  "input_hashes": {
+    "research/scratch/session-mf6-special-fiber.py": "2a733480a8f69095aee7d918765510353b0f88c20278d815a4c107e16736b41a",
+    "research/scratch/mf6_type4_incidence.json": "7ebf8615a23e2c1e0c098a7754626ab7a98c223bc983a090fcda9d853611681f",
+    "research/computations/verify_mf6_type3.py": "c8c78782afd49ce3f1e41d0b749cb845b1b3e2849aa9ed7288de09063e7bb873",
+    "research/computations/verify_mf6_defect12.py": "2bff20c95e330f7732cfa6cf3a99ec5145bce4657daf85859a3e2528c9a2b22b"
+  },
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/scratch/session-mf6-special-fiber.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-fresh",
+  "isolated": true,
+  "exit_code": 0,
+  "status": "PASS",
+  "elapsed_seconds": 1.815,
+  "log": "research/validation/2026-10-06-session/session-mf6-special-fiber_2026_10_07.log",
+  "output_sha256": "059a5188dd40a69ceb921c88fc2830d9a7ffc07eae6678adf6eec72df327fcf3",
+  "prior_output_sha256": "059a5188dd40a69ceb921c88fc2830d9a7ffc07eae6678adf6eec72df327fcf3"
+}

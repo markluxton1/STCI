@@ -1,0 +1,15 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_mixed46_regular.py
+CWD: /Users/markluxton/Projects/STCI
+
+Pure normal quartic basis, followed by h(z),R(z) where F|V=0=R U^2+...:
+-(x0*x3 - x1*x2)**2 ; h= 0 ; R= -1
+x0*(x0**2*x2 - x1**3) ; h= 1 ; R= 0
+x1*(x0**2*x2 - x1**3) ; h= z ; R= 0
+x2*(x0**2*x2 - x1**3) ; h= z**3 ; R= 0
+x3*(x0**2*x2 - x1**3) ; h= z**4 ; R= 0
+x0*x1*x3**2 + x0*x2**3 - 2*x1**2*x2*x3 ; h= z**6 ; R= z
+2*x0*x2**2*x3 - x1**2*x3**2 - x1*x2**3 ; h= z**7 ; R= -z**2
+2*x0*x3**3 - 3*x1*x2*x3**2 + x2**4 ; h= z**9 ; R= 3*z**4
+PASS: pure e=0 (4,6) exclusion identities and cubic-contact rigidity
+
+Runner status: PASS

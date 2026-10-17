@@ -1,0 +1,22 @@
+PASS linear remainder
+PASS off-curve x2 relation
+PASS off-curve x3 relation
+E=-a*b^3*z^7+a^3*c*z^7+b^4*z^6-a^3*d*z^6-a^2*b*z^7+a^2*b*z^6+2*a*b^2*z^6-b^3*c*z^4-2*a^2*c^2*z^4+3*a*b^2*d*z^4-b^3*z^5+a^2*c*z^5+a^2*z^6+a*b*c^2*z^3-2*b^3*d*z^3+a^2*c*d*z^3-b^3*z^4-2*a^2*c*z^4-a*b*c*z^4-a*b*z^5+b^2*c^2*z^2-2*a*b*c*d*z^2+a^2*d^2*z^2+a^2*d*z^3-a*b*d*z^3+2*a*b*z^4+a*c^3*z+b^2*c*d*z-2*a*b*d^2*z+2*b^2*c*z^2-a*c^2*z^2-2*a*b*d*z^2+b^2*d*z^2-a*b*z^3-2*b^2*z^3-b*c^3+b^2*d^2+2*a*c^2*z+b*c^2*z+b^2*d*z+a*c*d*z+b^2*z^2-a*c*z^2-a*d*z^2-a*z^3-2*b*c^2-b*c*d+a*c*z+b*c*z-a*d*z+b*d*z+2*b*z^2-b*c+b*d-c+z
+PASS degree seven leading coefficient
+PASS degree six coefficient
+PASS degree above seven vanishes
+EDEGREE=7
+COEFF0=-b*c^3+b^2*d^2-2*b*c^2-b*c*d-b*c+b*d-c
+COEFF1=a*c^3+b^2*c*d-2*a*b*d^2+2*a*c^2+b*c^2+b^2*d+a*c*d+a*c+b*c-a*d+b*d+1
+COEFF2=b^2*c^2-2*a*b*c*d+a^2*d^2+2*b^2*c-a*c^2-2*a*b*d+b^2*d+b^2-a*c-a*d+2*b
+COEFF3=a*b*c^2-2*b^3*d+a^2*c*d+a^2*d-a*b*d-a*b-2*b^2-a
+COEFF4=-b^3*c-2*a^2*c^2+3*a*b^2*d-b^3-2*a^2*c-a*b*c+2*a*b
+COEFF5=-b^3+a^2*c-a*b
+COEFF6=b^4-a^3*d+a^2*b+2*a*b^2+a^2
+COEFF7=-a*b^3+a^3*c-a^2*b
+ETO=-c+z
+PASS A0 resultant boundary
+BOUNDARYNUMERATOR=a*b*c*z-a^2*d*z-b^2*c+a*b*d+a*b*z+b^2*z-b^2-a*c+a*z
+E_AT_V0=-a*b^3*z^7+b^4*z^6+3*a*b^2*c*z^5-3*b^3*c*z^4-a^2*c^2*z^4+2*a*b^2*z^5+2*a*b*c^2*z^3-a^2*c*d*z^3-2*b^3*z^4-a^2*c*z^4-2*a*b*c*z^4+a^2*d*z^4+2*a*b*z^5-b^2*c^2*z^2-4*a*b*c*d*z^2+2*a^2*d^2*z^2+2*a*b*c*z^3+5*b^2*c*z^3-3*b^2*z^4+a*c^3*z+5*b^2*c*d*z-a*b*d^2*z-b^2*c*z^2-2*a*c^2*z^2-4*a*b*d*z^2-4*b^2*d*z^2+b^2*z^3+2*a*c*z^3-a*z^4-b*c^3-b^2*d^2+2*a*c^2*z-b*c^2*z+4*b^2*d*z+2*a*c*d*z-a*c*z^2+2*b*c*z^2-3*a*d*z^2+b*z^3-2*b*c^2+b*c*d+a*c*z-a*d*z+2*b*z^2-b*c+b*d-c*z+z^2-c+z
+E_AT_W0=-a*b^3*z^7+a^3*c*z^7+b^4*z^6-a^3*d*z^6-a^2*b*z^7+a^2*b*z^6+2*a*b^2*z^6-b^3*c*z^4-2*a^2*c^2*z^4+3*a*b^2*d*z^4-b^3*z^5+a^2*c*z^5+a^2*z^6-2*b^3*d*z^3+2*a^2*c*d*z^3-b^3*z^4-2*a^2*c*z^4-a^2*d*z^4-a*b*z^5+2*b^2*c^2*z^2-2*a^2*d^2*z^2-2*b^2*c*z^3+3*a*b*z^4+b^2*z^4+a*c^3*z-2*b^2*c*d*z+a*b*d^2*z+2*b^2*c*z^2+2*a*b*d*z^2+4*b^2*d*z^2-2*b^2*z^3-2*a*c*z^3+a*z^4-b*c^3+b^2*d^2+2*a*c^2*z+b*c^2*z-2*b^2*d*z-2*a*c*d*z-2*a*c*z^2+2*a*d*z^2-2*b*c^2-b*c*d+a*c*z+b*c*z-a*d*z+b*d*z+2*b*z^2-b*c+b*d-c+z
+CHECKS=7

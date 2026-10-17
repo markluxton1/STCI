@@ -1,0 +1,9 @@
+rhalf_unique
+PASS reduced singular support two lines; candidate plane and quadric factors absent
+Szero_unique
+PASS geometrically smooth nondegenerate twisted cubic contained in singular locus
+c1zero_infinity_defect
+PASS geometrically smooth nondegenerate twisted cubic contained in singular locus
+b0zero_cubic_orbit
+PASS finite projective singular locus, geometrically integral normal quartic
+PASS principal boundary carrier geometry certificates

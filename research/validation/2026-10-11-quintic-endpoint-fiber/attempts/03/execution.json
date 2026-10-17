@@ -1,0 +1,14 @@
+{
+  "scope": "endpoint A4 placement only; coefficient identities, no parameter exhaustion",
+  "source": "research/computations/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2",
+  "source_sha256": "2e4a338a9562b2df4ad74323ffc47af374289b7cf1107b6e33008c5fcc5af844",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-endpoint-fiber/attempts/03/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2"
+  ],
+  "started_utc": "2026-10-11T15:01:23.472090+00:00",
+  "exit_code": 0,
+  "stdout_sha256": "58e47199bf805a00fa0cb2ae8ada78a7b370201965398c7e132d4d067bea39df",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

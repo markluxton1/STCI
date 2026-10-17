@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "source_snapshot": "nonendpoint_diagonal_norm_initial_failure.m2",
+      "sha256": "3e94912204e21b4a5c869d08a63dd835408079c0aa7abf1731c09b3514136ba1",
+      "observed_original_status": "FAIL",
+      "original_raw_output_saved": false,
+      "reason": "Initial multivariate coefficient-ring extraction made the nominal remainder-degree assertion fail.",
+      "notes": "Original status was observed in tool output; these source snapshots are not rerun certificates."
+    },
+    {
+      "source_snapshot": "nonendpoint_diagonal_norm_coefficient_failure.m2",
+      "sha256": "00e0553de2b3fef675240136d32d1418ead2597f5f1056cebf25f6a81d602b29",
+      "observed_original_status": "FAIL",
+      "original_raw_output_saved": false,
+      "reason": "Coefficient of r^3 was extracted as an exact multivariate monomial rather than a coefficient polynomial.",
+      "notes": "Original status was observed in tool output; these source snapshots are not rerun certificates."
+    },
+    {
+      "source_snapshot": "nonendpoint_diagonal_norm_protected_symbol_failure.m2",
+      "sha256": "a886e3d2d992761cb2c9df1d5444a6966737b1193db3cf8528598047d4e9e79b",
+      "observed_original_status": "FAIL",
+      "original_raw_output_saved": false,
+      "reason": "M2 rejected the protected symbol Base during setup.",
+      "notes": "Original status was observed in tool output; these source snapshots are not rerun certificates."
+    },
+    {
+      "source_snapshot": "nonendpoint_diagonal_norm_first_pass.m2",
+      "sha256": "04d2de3b7f6c340f4f43e99042e800ff93fafa19085a561286f0cf33963741d6",
+      "observed_original_status": "PASS",
+      "original_raw_output_saved": false,
+      "reason": "Nested univariate coefficient ring repaired extraction; this exploratory output only factored the remainder coefficients.",
+      "notes": "Original status was observed in tool output; these source snapshots are not rerun certificates."
+    },
+    {
+      "source_snapshot": "nonendpoint_diagonal_norm_constant_interface_failure.m2",
+      "sha256": "74d465133ecc1af5481cf6be3d8eac5399b1914c66e8a3134f5c7b882cab2cf4",
+      "observed_original_status": "FAIL",
+      "original_raw_output_saved": false,
+      "reason": "M2 coefficient(1,polynomial) rejected the ZZ literal as a monomial argument.",
+      "notes": "Original status was observed in tool output; these source snapshots are not rerun certificates."
+    },
+    {
+      "source_snapshot": "nonendpoint_diagonal_norm_factor_print_failure.m2",
+      "sha256": "540041a3385a8e2ce471e841a9a3f1698064a621cffc99ac6db2e4e3a7d8b3dd",
+      "observed_original_status": "FAIL",
+      "original_raw_output_saved": false,
+      "reason": "Compact Sylvester identity passed; unsupported numTerms display helper then failed.",
+      "notes": "Original status was observed in tool output; these source snapshots are not rerun certificates."
+    },
+    {
+      "source_snapshot": "exploratory-final-source.m2",
+      "sha256": "68c3ac60f57b410e12ccaac4acd57c093ffdf901b610a92234459db57661d684",
+      "observed_original_status": "PASS",
+      "original_raw_output_saved": false,
+      "notes": "Exploratory final output found p^2 delta^6 Z^2 times a 344-term degree-eight polynomial, its p=0 value and endpoint leading coefficient; final captured verification supersedes it."
+    }
+  ],
+  "scope": "Exploratory source history; original raw outputs were not saved to disk. Fully captured final-checker attempts are separate."
+}

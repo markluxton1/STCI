@@ -1,0 +1,6 @@
+{
+  "source_sha256": "6f2a5e94e545fc18e849e81307445fcf0d1c6f2fc71c396e0b02c3bafdaff2e0",
+  "exit_code": 1,
+  "error": "AssertionError comparing gcd representatives up to rational unit. Normalize gcd monic in QQ(u)[t].",
+  "mathematics_changed": false
+}

@@ -1,0 +1,159 @@
+{
+  "scope": "Exact polynomial higher-jet and gcd certificates for the written endpoint a-nonzero support proof; these executions do not establish global quintic applicability.",
+  "final_source": "research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+  "final_source_sha256": "501e3425f2b1b781cc36173d6318993a5bd3ce2cb56126be8e45a4144f73bd7a",
+  "checks": 16,
+  "final_execution": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/execution-record.json",
+  "passed": true,
+  "attempts": [
+    {
+      "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "started_utc": "2026-10-11T22:50:15.908290+00:00",
+      "elapsed_seconds": 0.6620893329381943,
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z",
+      "returncode": 0,
+      "source": "research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "source_sha256": "7e86471e66e52a64f51e947ce1cf457acada5b04e9177bf9df97d7121777cc47",
+      "stdout_sha256": "fd739dbb0195e33d724a39fb1cc2523318335e983832c0651b0b443a569af95f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225015907348Z/execution-record.json"
+    },
+    {
+      "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "started_utc": "2026-10-11T22:51:10.129698+00:00",
+      "elapsed_seconds": 0.6458720839582384,
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z",
+      "returncode": 0,
+      "source": "research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",
+      "source_sha256": "c247be155cc77d9da858d41cbc06c40fef2b03afd59b6724fac018d5d909e8e1",
+      "stdout_sha256": "34704d089c061f073d2de88248c0d26934ac37964788c2dc9743437b74f10016",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225110128842Z/execution-record.json"
+    },
+    {
+      "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "started_utc": "2026-10-11T22:51:55.513537+00:00",
+      "elapsed_seconds": 0.7493859999813139,
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z",
+      "returncode": 1,
+      "source": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "source_sha256": "203e57f8fc00dfbaefd1e1260004f22eb9cd4f9197cbf206209aaec722333133",
+      "stdout_sha256": "59f882c5f3873f5cfb4bce1edac286e4a4a469dc612a195b404127a3acd6a872",
+      "stderr_sha256": "e2a3ea2eb7aed6f31e614ff1c4609f3dbf64239ec58098f433fbd75d7004c2b5",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225155512800Z/execution-record.json"
+    },
+    {
+      "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "started_utc": "2026-10-11T22:52:26.516559+00:00",
+      "elapsed_seconds": 0.769421209115535,
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z",
+      "returncode": 0,
+      "source": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "source_sha256": "b2e56f29a5357ab7b02fb8f581fc93daf901166e609cea4bc36c5c9b82335b64",
+      "stdout_sha256": "1376917aeb06412389cf03ba5c629435b72ee719a7d9a8b776409376b96207c4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225226515809Z/execution-record.json"
+    },
+    {
+      "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "started_utc": "2026-10-11T22:52:33.783742+00:00",
+      "elapsed_seconds": 0.7933594160713255,
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z",
+      "returncode": 0,
+      "source": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "source_sha256": "ee5f7bb27146d46de930a7bb358e0d929aee2c989b7c76f688e43e8d9becd684",
+      "stdout_sha256": "2117f157260e3667f9daaf4bc7139cd2f8d2a6824a22ffb3abbb1d3fd346261a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261011T225233782993Z/execution-record.json"
+    },
+    {
+      "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "started_utc": "2026-10-12T00:03:21.629580+00:00",
+      "elapsed_seconds": 0.9560672088991851,
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z",
+      "returncode": 0,
+      "source": "research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",
+      "source_sha256": "d5de7f27eb0eaa8b89a1a82026b622aa73d4549a284773825a6f664c4d3ea1d1",
+      "stdout_sha256": "0960d1238967ecf4e8eec8f5fc86a7e81b3843e796c5b80b15da527804140932",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000321628883Z/execution-record.json"
+    },
+    {
+      "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "started_utc": "2026-10-12T00:05:38.475946+00:00",
+      "elapsed_seconds": 0.7819450420793146,
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z",
+      "returncode": 1,
+      "source": "research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "source_sha256": "2f43249938aea27e76d64690b15262e248454015f8b8cd34c181e839c45bdabc",
+      "stdout_sha256": "c8c7992d052aecc2ac5d6c6742866bc27e6386db410d2de425e3b56276dffac0",
+      "stderr_sha256": "2291c68e35adcd6cfbfed943b053ae2325d59df5455de446f0aff1191b3320f9",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/execution-record.json"
+    },
+    {
+      "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+      "started_utc": "2026-10-12T00:05:46.317936+00:00",
+      "elapsed_seconds": 0.8567192498594522,
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z",
+      "returncode": 0,
+      "source": "research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+      "source_sha256": "501e3425f2b1b781cc36173d6318993a5bd3ce2cb56126be8e45a4144f73bd7a",
+      "stdout_sha256": "3ee82373b63f0bf092afaafa54b1939c939fd481ef98fd91513c47ebb304197f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000546317129Z/execution-record.json"
+    }
+  ],
+  "implementation_count": {
+    "dedicated_target_jet_checker": 1,
+    "exploratory_sources": 2,
+    "snapshots_are_additional_implementations": false
+  }
+}

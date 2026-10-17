@@ -1,0 +1,21 @@
+{
+  "scope": "Twelve exact supporting identities; geometric and global all-mate proof is the separate written audit.",
+  "source": "research/computations/verify_session_jbar_zero_phase_audit_2026_10_12.m2",
+  "source_sha256": "946d697ec8dd208e0a02e7b150f9aa2500780d3539ad2a5adde1d1062ebcf70f",
+  "snapshot": "verify_session_jbar_zero_phase_audit_2026_10_12.m2",
+  "snapshot_sha256": "946d697ec8dd208e0a02e7b150f9aa2500780d3539ad2a5adde1d1062ebcf70f",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-jbar-zero-phase-independent-audit/attempt-02/verify_session_jbar_zero_phase_audit_2026_10_12.m2"
+  ],
+  "started_utc": "2026-10-12T21:18:10.978028+00:00",
+  "elapsed_seconds": 0.6571987089700997,
+  "exit_code": 0,
+  "stdout": "stdout.txt",
+  "stdout_sha256": "e07581898a156955036c9faa7b3bb23a44e50281254a65529f7133caa35bef54",
+  "stderr": "stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "exact_checks": 12,
+  "copy_scope": "One source and one execution snapshot, not two independent implementations."
+}

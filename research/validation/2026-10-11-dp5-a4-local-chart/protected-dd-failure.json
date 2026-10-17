@@ -1,0 +1,17 @@
+{
+  "status": "FAILED namespace only",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-dp5-a4-local-chart/protected-dd-failed-source.m2"
+  ],
+  "exit_code": 1,
+  "source_sha256": "be780c29771c158723c48fccf5065a45560a7843b646d0674086a1c6dd4e6b4c",
+  "timestamp_utc": "2026-10-11T14:57:32.196732+00:00",
+  "initial_console_attempt": {
+    "tool_chunk_id": "8ff0c6",
+    "exit_code": 1,
+    "same_source": true,
+    "stored_logs_are_explicit_replay": true
+  }
+}

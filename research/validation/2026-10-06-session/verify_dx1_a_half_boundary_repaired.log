@@ -1,0 +1,4 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_dx1_a_half_boundary.py
+Explicit chart repair: x!=0, verified factor x removal, rational coefficient domain.
+
+VERIFIED: on a=-1/2 and x!=0, P-044 implies b=-2 or u=0.

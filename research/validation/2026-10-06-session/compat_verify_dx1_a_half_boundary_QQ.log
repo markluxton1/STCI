@@ -1,0 +1,8 @@
+One-line compatibility change only in copy: G=sp.groebner(res,b,x,order="lex") => G=sp.groebner(res,b,x,order="lex",domain=sp.QQ)
+Command: /private/tmp/stci-cas-venv/bin/python research/validation/2026-10-06-session/compat_verify_dx1_a_half_boundary_QQ.py
+
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/compat_verify_dx1_a_half_boundary_QQ.py", line 23, in <module>
+    assert G.reduce(u)[1]==0
+           ^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_veronese_singular_pencil.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: determinant, primitive linear kernel, adjugate, rank-two minors,
+      center annihilator, quadric image, and square completion identities.
+Scope: symbolic identities over ZZ; square completion requires char != 2.

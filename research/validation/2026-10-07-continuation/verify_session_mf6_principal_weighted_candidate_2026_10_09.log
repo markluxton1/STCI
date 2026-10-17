@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS exact weighted polynomial contact syzygy 0 degree 9
+PASS exact weighted polynomial contact syzygy 1 degree 9
+PASS exact weighted polynomial contact syzygy 2 degree 10
+PASS fixed14x14 Sylvester determinant is nonzero on H mod101: 22
+PASS saved exact determinant candidate, degree210, atmost630 principal points

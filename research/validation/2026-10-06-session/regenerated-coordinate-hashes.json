@@ -1,0 +1,46 @@
+{
+  "certificate_comparisons": {
+    "localcoh-incidence-2026-10-06-certificate.json": {
+      "research/computations/localcoh-incidence-bases.txt": {
+        "actual": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+        "expected": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+        "match": true
+      },
+      "research/computations/localcoh-incidence-tensor.txt": {
+        "actual": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+        "expected": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+        "match": true
+      },
+      "research/computations/localcoh-symbol-top.json": {
+        "actual": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+        "expected": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+        "match": true
+      }
+    },
+    "localcoh-incidence-parity-dual-2026-10-06.json": {
+      "research/computations/localcoh-incidence-bases.txt": {
+        "actual": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+        "expected": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+        "match": true
+      },
+      "research/computations/localcoh-incidence-tensor.txt": {
+        "actual": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+        "expected": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+        "match": true
+      },
+      "research/computations/localcoh-symbol-top.json": {
+        "actual": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+        "expected": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+        "match": true
+      }
+    }
+  },
+  "hashes": {
+    "research/computations/localcoh-incidence-bases.txt": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+    "research/computations/localcoh-incidence-tensor.m2": "c81ff40cd8a83cdbe527401b038d75a9748f2b2b10c09214fb0520e3ecb69377",
+    "research/computations/localcoh-incidence-tensor.txt": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+    "research/computations/localcoh-symbol-numerators.txt": "4989e3ed86a06221b828b1ede99085325fb9740ad02dd1c542e547c8f5809406",
+    "research/computations/localcoh-symbol-top.json": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4"
+  },
+  "symbol_numerators_derivation": "Exact lines 1:31 of exporter bases, joined by newline and trailing newline; no coordinate changes."
+}

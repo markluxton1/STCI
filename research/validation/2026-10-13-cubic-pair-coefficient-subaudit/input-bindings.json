@@ -1,0 +1,25 @@
+{
+  "status": "PASS_INPUT_BINDINGS",
+  "verified_utc": "2026-10-13T14:27:33.652589+00:00",
+  "inputs": [
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-cubic-pair-contact-reduction.md",
+      "sha256": "7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a",
+      "snapshot_path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/inputs/2026-10-12-session-nonendpoint-cubic-pair-contact-reduction.md",
+      "snapshot_sha256": "7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-cubic-contact-symbolics.md",
+      "sha256": "0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c",
+      "snapshot_path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/inputs/2026-10-12-session-nonendpoint-cubic-contact-symbolics.md",
+      "snapshot_sha256": "0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md",
+      "sha256": "d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44",
+      "snapshot_path": "research/validation/2026-10-13-cubic-pair-coefficient-subaudit/inputs/2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md",
+      "snapshot_sha256": "d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44"
+    }
+  ],
+  "scope": "Actual residual coefficient subaudit, owner sections 4-6 and companion section 4; geometric/support/exhaustion bridge delegated to parent audit."
+}

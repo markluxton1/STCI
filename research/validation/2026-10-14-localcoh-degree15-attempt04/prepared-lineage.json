@@ -1,0 +1,22 @@
+{
+  "status": "prepared_not_launched",
+  "source": "general-localcoh-family2-degree15-corank-one-2026-10-14-attempt04.m2",
+  "source_sha256": "867f0017977fea4485331ef124c3a78ac45cd34484871d47d3903e6f4c7475aa",
+  "parent_source": "general-localcoh-family2-degree15-corank-one-2026-10-14-attempt03.m2",
+  "parent_source_sha256": "c35e2fdba88915fc7f51ce96c49712853ef417cd5597076aa3072e91ff113340",
+  "block_diagnostic": "general-localcoh-degree15-sparse-block-2026-10-14-diagnostic.json",
+  "block_diagnostic_sha256": "f6f929801329c224d6072ca404e72be1f20bb9c5959720373a7ab9ae896a293e",
+  "diagnostic_scope": "Selects indices only; no finite-field rank conclusion accepted as proof.",
+  "exact_checks": [
+    "all seed denominators nonzero in full degree15 field",
+    "selected block left and right inverse",
+    "full B complement identity",
+    "B*h=0 and observability minor",
+    "actual bottom target compatibility",
+    "all seventeen polynomial obstruction annihilations",
+    "normalized dual target evaluation equals1",
+    "original tensor-coordinate72 equals1"
+  ],
+  "new_verifier_required": "Run general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py --stem general-localcoh-family2-degree15-corank-one-2026-10-14-attempt04 after exact source succeeds.",
+  "long_job_policy": "No process launched or stopped by this generator; attempt03 remains untouched."
+}

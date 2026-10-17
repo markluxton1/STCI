@@ -1,0 +1,14 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_split22_finite_reduction.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: exact Jacobian components and both forced A1 endpoint germs
+PASS: every squarefree G stratum has an interior A1 and is excluded
+PASS: no-node eliminant leaves a=-1 and three finite algebraic strata
+PASS: S1 triple collisions are A5 with excessive normal defect
+PASS: S2 double collisions are A3; S3 has forbidden endpoint content
+PASS: the exceptional a=-2/3 stratum has no node-free member
+PASS: the omitted G=0 stratum is excluded by A1/A2/A3 defects
+PASS: every surviving both-ramified carrier is on the h=-1/2 line
+BOUNDARY: extra conductor and higher jets on that line remain unresolved
+
+Runner status: PASS

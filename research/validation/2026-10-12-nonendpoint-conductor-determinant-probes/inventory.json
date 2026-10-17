@@ -1,0 +1,56 @@
+{
+  "records": [
+    {
+      "probe": 1,
+      "exit_code": 1,
+      "source_sha256": "91a044caa6fe669536e8ab93c448efe80cb080ebcf73ce0cae715911ce8b1ba8",
+      "directory": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-01-explicit-replay"
+    },
+    {
+      "probe": 2,
+      "exit_code": 1,
+      "source_sha256": "4499121337240fce74a276662cc4afb8822e222274a1f61bde273265a36d8495",
+      "directory": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-02-explicit-replay"
+    },
+    {
+      "probe": 3,
+      "exit_code": 1,
+      "source_sha256": "e794a195fd3658b3f038f0097e5984ef27b30a3cd4ce3259723944c0074b56ea",
+      "directory": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-03-explicit-replay"
+    },
+    {
+      "probe": 4,
+      "exit_code": 1,
+      "source_sha256": "09f307af2141530fdd800ab55d83c87ac95ce4a9a84fbc71cb44c989fcf4feff",
+      "directory": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-04-explicit-replay"
+    },
+    {
+      "probe": 5,
+      "exit_code": 1,
+      "source_sha256": "975276ae27a29ee99ed7b8a892fa3800b60dbb12686422a33a79fe8ab4a12303",
+      "directory": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-05-explicit-replay"
+    },
+    {
+      "probe": 6,
+      "exit_code": 0,
+      "source_sha256": "8d6caebb7334f94efd2a20fddb26c8dc3aafb0bfa5f143038115f3203e874850",
+      "directory": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-06-explicit-replay"
+    },
+    {
+      "probe": 7,
+      "exit_code": 1,
+      "source_sha256": "60a23e12a812433fa1b25604775cbed58f9f63f39b503bdf17366201f1943f43",
+      "directory": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-07-explicit-replay"
+    },
+    {
+      "probe": 8,
+      "exit_code": 0,
+      "source_sha256": "abf3c938461e862c5c29a14954fa6113b3353c28837d1eb5ef4f999fa848a558",
+      "directory": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-08-explicit-replay"
+    }
+  ],
+  "captured_replay_count": 8,
+  "failed_replays": 6,
+  "successful_exploratory_replays": 2,
+  "supporting_check_count": 0
+}

@@ -1,0 +1,23 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_dx1_a_half_boundary.py
+CWD: /Users/markluxton/Projects/STCI
+
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/computations/verify_dx1_a_half_boundary.py", line 23, in <module>
+    assert G.reduce(u)[1]==0
+           ~~~~~~~~^^^
+  File "/private/tmp/stci-cas-venv/lib/python3.14/site-packages/sympy/polys/polytools.py", line 7784, in reduce
+    poly = Poly._from_expr(expr, self._options)
+  File "/private/tmp/stci-cas-venv/lib/python3.14/site-packages/sympy/polys/polytools.py", line 320, in _from_expr
+    return cls._from_dict(rep, opt)
+           ~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/private/tmp/stci-cas-venv/lib/python3.14/site-packages/sympy/polys/polytools.py", line 267, in _from_dict
+    rep[monom] = domain.convert(coeff)
+                 ~~~~~~~~~~~~~~^^^^^^^
+  File "/private/tmp/stci-cas-venv/lib/python3.14/site-packages/sympy/polys/domains/domain.py", line 456, in convert
+    return self.from_sympy(element)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/private/tmp/stci-cas-venv/lib/python3.14/site-packages/sympy/polys/domains/integerring.py", line 76, in from_sympy
+    raise CoercionFailed("expected an integer, got %s" % a)
+sympy.polys.polyerrors.CoercionFailed: expected an integer, got 1/2
+
+Runner status: FAILED

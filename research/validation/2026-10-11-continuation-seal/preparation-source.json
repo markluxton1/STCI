@@ -1,0 +1,7 @@
+{
+  "original_prepared_checker": "research/validation/2026-10-10-continuation-seal/check_record.py",
+  "original_sha256": "c16ed742d729b7cfce159f9233832595aadb2c4113dd1367f18cb533ccd70da8",
+  "snapshot": "prepared-oct10-checker.py",
+  "original_final_result_exists": false,
+  "scope": "Exact snapshot of previously prepared but never finally sealed October10 checker; not a mathematical verifier execution"
+}

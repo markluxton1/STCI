@@ -1,0 +1,17 @@
+PASS h3-Q5-monic-degree-five :: Q5 is monic of degree 5 in p
+PASS h3-original-octic-factor-binding :: S*Q5 = (9/2)*captured zero_P_F
+PASS h3-original-support-division-product :: Q5*captured quotient + captured remainder = S^5
+PASS h3-remainder-degree :: captured remainder has p-degree below 5
+PASS h3-original-generator-list-binding :: five original coefficient lists equal the captured bivariate remainder
+PASS h3-bezout-list-length :: one captured witness per original generator
+PASS h3-original-generator-bezout-product :: sum of five captured coefficient/witness products is exactly 1
+PASS h3-captured-binary-octic-coordinate-swap :: FJ(p,j) = (p-1)^8*FP(p/(p-1),-j)
+PASS h3-conormal-coordinate-swap :: (-2/3)*(p-1)^3*S(p/(p-1),-j) equals displayed zero-J conormal
+PASS lambda1-original-generator-and-matrix-shape :: four numerators, four denominators, and a 4 by 1 captured witness matrix
+PASS lambda1-original-generator-bezout-product :: sum of four captured numerator/witness products is exactly 1
+PASS lambda1-captured-denominator-factors :: denominators are respectively 32,256,512,512 times (45*dl^2-38*dl-29)^9
+PASS lambda1-original-numerator-denominator-remainder-binding :: cleared H^4 minus captured remainder is divisible by Q4; 9 fraction-free division steps
+PASS lambda1-leading-coefficient-binding :: Q4 leading q coefficient equals 2*(45*dl^2-38*dl-29)
+PASS lambda1-leading-drop-infinity-separation :: T=(dl+1)*(45*dl-83)+54; H infinity coefficient is dl+1
+PASS lambda1-extra-A4-root-separation :: Q4(0)=-400*dl, hence no residual A4 root on dl nonzero
+ALL 16 LITERAL ARITHMETIC CHECKS PASSED

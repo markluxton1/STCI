@@ -1,0 +1,16 @@
+[
+  {
+    "source": "research/computations/verify_dx1_a_half_boundary.py",
+    "source_sha256_before": "871f5f68e0a179a77e0626e904e2841e786ffa189bd093017cf5233ffa122d87",
+    "source_sha256_after": "296eeefc0496b390d3b230d08fc8330ef3170ee4a5e1ad19a9a556715f10bf2e",
+    "change": "Explicit x!=0 chart; verify common x factor and divide residuals by x; use QQ domain. Corrects ordinary ideal membership scope; no claim at x=0.",
+    "command": [
+      "/private/tmp/stci-cas-venv/bin/python",
+      "research/computations/verify_dx1_a_half_boundary.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS",
+    "elapsed_seconds": 0.387,
+    "log": "research/validation/2026-10-06-session/verify_dx1_a_half_boundary_repaired.log"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "executions": [
+    {
+      "source": "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "source_sha256": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 3.059,
+      "log": "research/validation/2026-10-09-D5-root-audit/verify_delpezzo_D5_torsion_filter_2026_10_09.log",
+      "log_sha256": "b13bd9eb5b84aef3d6b98a389927efaa2ca94ce0865620799ac2f01c4813e51a",
+      "isolated": true
+    },
+    {
+      "source": "research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "source_sha256": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933",
+      "snapshot_source": "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck.py",
+      "command": [
+        "/private/tmp/stci-cas-venv/bin/python",
+        "research/validation/2026-10-09-D5-root-audit/countercheck.py"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.091,
+      "log": "research/validation/2026-10-09-D5-root-audit/countercheck.log",
+      "log_sha256": "2bc1a6b8f5c909b2a1bbefff2024a5ccec120a72b6bbdb4b7474c5aeecc6ed1e",
+      "isolated": true
+    }
+  ],
+  "snapshot_input_sha256": {
+    "computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py": "fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e",
+    "research/validation/2026-10-09-D5-root-audit/countercheck.py": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933"
+  },
+  "output_sha256": {
+    "research/validation/2026-10-09-D5-root-audit/isolated/research/scratch/session-delpezzo-D5-torsion-filter-2026-10-09.json": "f983c6858810254b329d0cccd2194e69fdd37a708712a5130eeb0a7f08ee24fd",
+    "research/validation/2026-10-09-D5-root-audit/isolated/research/validation/2026-10-09-D5-root-audit/countercheck-result.json": "6e2da18aecdcef9dc4a23f94ba5baad6f7e7e3c73e7288c4cc9b8b5143ab51da"
+  },
+  "scope": "Independent signed-partition check plus frozen owner exact replay; geometry in separate written audit"
+}

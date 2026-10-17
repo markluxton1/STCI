@@ -1,0 +1,10 @@
+PASS four literal main-family proportionality coefficients
+PASS main-family nonzero cubic constant-or-r coefficient
+PASS complete main-family Jbar factor
+MAIN a=(delta^2+2*delta*lambda-delta)/(6*lambda^2)
+MAIN b=(delta^2+2*delta*lambda-delta)/(3*lambda)
+MAIN G=(delta^2*lambda^3-3*delta^2*lambda^2+delta*lambda^3-3*delta^2*lambda-5*delta*lambda^2+delta^2+5*delta*lambda-delta)/(3*lambda^2)
+MAIN Jbar=(delta^2*lambda^4-4*delta^2*lambda^3+delta*lambda^4-6*delta*lambda^3+4*delta^2*lambda+10*delta*lambda^2-delta^2-6*delta*lambda+delta)/(6*lambda^2)
+PASS ratio-zero lane J identically zero
+PASS ratio-zero lane P nonzero at every x
+PASS ratio-infinite lane P identically zero

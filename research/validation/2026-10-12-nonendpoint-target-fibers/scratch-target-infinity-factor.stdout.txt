@@ -1,0 +1,1 @@
+(Bc)^2*(delta)^2*(delta^5*Bc-3*delta^4*a*Bc+3*delta^3*Bc^2-9*delta^2*a*Bc^2-3*delta^2*Bc^3-delta^3*a*Gc+3*delta^2*a^2*Gc-delta^2*a*Bc*Gc-delta^2*Bc*Gc+3*delta*a*Bc*Gc+2*delta*Bc^2*Gc-3*a*Bc^2*Gc-Bc^3*Gc+a^2*Gc^2)

@@ -1,0 +1,15 @@
+R=QQ[u,v,z,w];
+q=u*w-v*z;
+T=z^3-v*w^2;
+I=ideal(q,u^2*z-v^3,u*z^2-v^2*w,T);
+J=ideal(z,w);
+K=intersect(I,J^2);
+M=basis(4,K);
+print gens K;
+print M;
+print numRows M;
+print target M;
+print lift(M,R^1);
+print hilbertFunction(4,R/K);
+print (numColumns basis(4,R) - hilbertFunction(4,R/K));
+exit 0;

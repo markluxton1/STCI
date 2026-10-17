@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2"
+  ],
+  "started_utc": "2026-10-09T01:09:52.713826+00:00",
+  "elapsed_seconds": 0.8400267080869526,
+  "exit_code": 0,
+  "status": "PASS",
+  "source_sha256": "b2c4722f6d9b5d9ece43d5bfd38348527ceec7577832c37747263a8a9b85c187",
+  "log_sha256": "31188e3f9f4940157ed8286c3c3a9ef5a0cc94fa8a95ca299ab6183ee17c4700",
+  "input_manifest_sha256": "696abf83cc3ee1691761a4d10228cf0518727c6d292a3677084099a524e4b41c",
+  "macaulay2_version": "1.26.06",
+  "scope": {
+    "ancestor_columns": 30,
+    "actual_quartic_columns": 18,
+    "product_columns": 540,
+    "target_columns": 2,
+    "tensor_shape": [
+      74,
+      542
+    ],
+    "literal_displayed_basis_equality": true,
+    "literal_compressed_matrix_equality": true,
+    "full_rowspace_equality": true
+  }
+}

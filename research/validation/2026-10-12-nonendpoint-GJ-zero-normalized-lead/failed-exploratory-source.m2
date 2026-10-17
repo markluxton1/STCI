@@ -1,0 +1,18 @@
+KR=QQ[k,p];
+R=KR[delta];
+F=frac R;
+Bc=k*delta^2;
+rs=delta*(3-p)/(3*(2-p));
+ls=delta^4/(3*p^2*(2-p)^2);
+aForced=2*Bc^2/delta^2-Bc/delta;
+es=delta^2*(3-p)+3*Bc*(2-p);
+psix=p^2-3*p+3;
+pcoll=p^2-6*p+6;
+ts=-delta^4*psix*pcoll/(9*p*(2-p)^2*es);
+residual=rs^4-(2*rs^2+rs-aForced)*ts+ts^2-ls;
+Wnorm=residual*27*p^2*(2-p)^3*es^2/(delta^7*pcoll);
+WW=sub(numerator Wnorm,R)/sub(denominator Wnorm,R);
+print toString Wnorm;
+Wpoly=sub(Wnorm,R);
+print ("V0",toString factor sub(coefficient(1_R,Wpoly),KR));
+print ("V1",toString factor sub(coefficient(delta,Wpoly),KR));

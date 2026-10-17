@@ -1,0 +1,10 @@
+{
+  "elapsed_wall_seconds": 58.540879833,
+  "pid": 39519,
+  "peak_resident_bytes": 1611595776,
+  "peak_footprint_bytes": 1597376144,
+  "resident_bytes": 1611595776,
+  "footprint_bytes": 1597376144,
+  "user_time_raw": 2761127475,
+  "system_time_raw": 83084653
+}

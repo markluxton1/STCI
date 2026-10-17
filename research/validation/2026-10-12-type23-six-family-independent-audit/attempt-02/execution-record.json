@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "start_utc": "2026-10-12T21:28:47.383754+00:00",
+  "end_utc": "2026-10-12T21:28:48.279770+00:00",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-type23-six-family-independent-audit/attempt-02/source.m2"
+  ],
+  "source_path": "research/validation/2026-10-12-type23-six-family-independent-audit/verify_type23.m2",
+  "source_sha256": "4b2e0ab1cf71375f45658eef7d5be93c6743d1a80174c5edd3576342d5cdda7c",
+  "source_snapshot": "source.m2",
+  "stdout_path": "stdout.txt",
+  "stdout_sha256": "59731eca1196fea1bc33cdd539869edbf9670044803112b0a5dfb02691dc3b3c",
+  "stderr_path": "stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Independent Type2/3 reconstruction in epsilon^2=3 and theta^2=3,zeta^2=6; direct actual finite jets over full saturated incidence, and full delta-open actual infinity contact with T degree drop retained"
+}

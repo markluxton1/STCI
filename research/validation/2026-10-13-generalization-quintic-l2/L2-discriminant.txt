@@ -1,0 +1,1 @@
+12*delta^6*q^4-12*delta^5*q^5-24*delta^6*q^3+108*delta^5*q^4+12*delta^6*q^2-312*delta^5*q^3+360*delta^5*q^2-144*delta^5*q

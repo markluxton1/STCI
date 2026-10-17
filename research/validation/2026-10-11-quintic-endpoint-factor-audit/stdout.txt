@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "exact_checks": 7,
+  "coefficient_ring": "Z[r,T,a,b,g,d]",
+  "checks": {
+    "actual_quadric_factorization": true,
+    "cubic_first_normal_coefficient": true,
+    "quartic_first_normal_coefficient": true,
+    "quadric_factor_on_c": true,
+    "normal_residual_relation": true,
+    "full_cubic_residual_factorization": true,
+    "normalized_quadric_residual_numerator": true
+  }
+}

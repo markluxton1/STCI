@@ -1,0 +1,19 @@
+{
+  "status": "FAIL",
+  "timestamp_utc": "2026-10-11T01:13:33.061861+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/private/tmp/stci-nonendpoint-cartan-c7_zzn00/cartan-countercheck.m2"
+  ],
+  "cwd": "/private/tmp/stci-nonendpoint-cartan-c7_zzn00",
+  "exit_code": 1,
+  "elapsed_seconds": 0.830887041,
+  "source_path": "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-genus-two-nonendpoint-trisecant-continuation-audit/cartan-countercheck.repaired.m2",
+  "source_sha256": "c79b816a6b1e88fdd6baf2418a4550c0ea1d0e0e33e7b1a9c077af27aa569a0e",
+  "isolated_replay": true,
+  "source_derivation": "Original 51d19f313af8381ac1526eb2c67df5c75f142835d13b4595ce35f1adf9bb66e4 with protected identifier source renamed chainSource only",
+  "scope": "Twelve symbolic all-length A-chain identities; geometry and inequalities are separate written proofs",
+  "new_distinct_mathematical_source": false,
+  "preserved_failure": "attempt01-failure-execution-record.json"
+}

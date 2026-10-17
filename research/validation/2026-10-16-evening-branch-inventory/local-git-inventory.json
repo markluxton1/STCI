@@ -1,0 +1,80 @@
+{
+  "observed_at_utc": "2026-10-16T18:39:28.647288+00:00",
+  "scope": "Read-only metadata; no proof or computational certificate replay",
+  "results": [
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "exit_code": 0,
+      "stdout": "## research/ultra-resume-2026-10-06...origin/research/ultra-resume-2026-10-06\n M README.md\n M research/AUDITED_STATE_2026-10-14.md\n M research/RESEARCH_RECORD.md\n M research/SUCCESSOR_HANDOFF_2026-10-14.md\n M research/computations/generalization_quintic_h2_run_bounded_m2_2026_10_15.py\n M research/notes/2026-10-15-generalization-effective-rational-phase-bound.md\n M research/notes/2026-10-15-generalization-nef-formal-branch-arbitrary-base.md\n M research/notes/2026-10-15-session-structural-results-acceptance.md\n M research/validation/2026-10-15-structural-acceptance/index.json\n?? research/computations/generalization_quadratic_root_global_second_model.json\n?? research/computations/generalization_quadratic_root_global_second_model.m2\n?? research/computations/generalization_quadratic_root_global_second_model.py\n?? research/computations/generalization_quintic_h2_global_QQ_saturation_2026_10_16.m2\n?? research/computations/generalization_quintic_h2_global_monic_ode_completion_2026_10_15.py\n?? research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15.m2\n?? research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2\n?? research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt03.m2\n?? research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2\n?? research/computations/generalization_quintic_h2_spectral_ode_prospect_2026_10_15.m2\n?? research/computations/generalization_quintic_h2_unified_spectral_accelerator_2026_10_15.m2\n?? research/computations/run_quadratic_root_global_second_bounded.py\n?? research/computations/run_quintic_h2_global_QQ_saturation_guarded_2026_10_16.py\n?? research/notes/2026-10-15-generalization-effective-rational-phase-bound-independent-review.md\n?? research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md\n?? research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md\n?? research/notes/2026-10-15-generalization-inseparable-root-blowup-local-algebra-review.md\n?? research/notes/2026-10-15-generalization-intrinsic-finite-root-family-independent-audit.md\n?? research/notes/2026-10-15-generalization-intrinsic-finite-root-family.md\n?? research/notes/2026-10-15-generalization-movement-one-formal-roots-independent-audit.md\n?? research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md\n?? research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md\n?? research/notes/2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit.md\n?? research/notes/2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md\n?? research/notes/2026-10-15-generalization-quintic-h2-unified-spectral-accelerator.md\n?? research/notes/2026-10-16-generalization-quintic-h2-global-QQ-guard-independent-review.md\n?? research/notes/2026-10-16-generalization-quintic-h2-global-QQ-prospect-terminal-record.md\n?? research/notes/2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md\n?? research/notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md\n?? research/notes/2026-10-16-session-structural-continuation.md\n?? research/validation/2026-10-15-quadratic-root-global-second/\n?? research/validation/2026-10-15-quintic-h2-global-monic-ode/\n?? research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-08-spectral-ode-prospect/\n?? research/validation/2026-10-15-quintic-h2-unified-spectral-accelerator/\n?? research/validation/2026-10-15-structural-acceptance/refresh_index.py\n?? research/validation/2026-10-16-evening-branch-inventory/\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "for-each-ref",
+        "--format=%(refname) %(objectname)"
+      ],
+      "exit_code": 0,
+      "stdout": "refs/codex/turn-diffs/captures/1792175840046/78fc9ef1-1641-48c4-bed4-980e93848d05/base 95602df866386a71d13f27daec0fbe99e563a0b8\nrefs/codex/turn-diffs/checkpoints/bfc037a848c7c1da16fb7f3bdfcdaf9d/31779c3865bf566479d470df0fdc6220/1792151438162/c78fab35-c593-4704-9a23-07cd4d48b020 95602df866386a71d13f27daec0fbe99e563a0b8\nrefs/codex/turn-diffs/checkpoints/ded13bc2043e7333faa1ec7dd9d92f64/c55ee79f95a5e879b07ac31eb117bc84/1791902059341/39e09762-d030-4995-958a-d6e7b6083770 4190b258bac07e2d248a880a3102a457d59ff808\nrefs/heads/archive/codex-5hr-interrupted 2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647\nrefs/heads/main 98d71ddf8f8cceaad01bec43e94298699dcb5560\nrefs/heads/research/ultra-resume-2026-10-06 bf124f8ab962ef0ed4085397034c50ee8d0d7162\nrefs/heads/ultra_mode 2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647\nrefs/remotes/origin/HEAD 98d71ddf8f8cceaad01bec43e94298699dcb5560\nrefs/remotes/origin/main 98d71ddf8f8cceaad01bec43e94298699dcb5560\nrefs/remotes/origin/research/consolidate-2026-10-06 3f7b7fec652a0175ef7a7c5353f198f03649281a\nrefs/remotes/origin/research/local-audit-e2 a0a5a67e2d5b01c83832041b578efe9d478f5c8c\nrefs/remotes/origin/research/ultra-resume-2026-10-06 bf124f8ab962ef0ed4085397034c50ee8d0d7162\nrefs/remotes/origin/ultra_mode 2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "exit_code": 0,
+      "stdout": "worktree /Users/markluxton/Projects/STCI\nHEAD bf124f8ab962ef0ed4085397034c50ee8d0d7162\nbranch refs/heads/research/ultra-resume-2026-10-06\n\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "tag",
+        "--list"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "stash",
+        "list"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "log",
+        "--format=%H %s",
+        "b16e432..HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "bf124f8ab962ef0ed4085397034c50ee8d0d7162 2026-10-15 afternoon limit reached\n2e9ea8100d39a181fe7010160366b940be531b8d 2026-10-15 morning limit reached\na55767a185aa5e4fb26e2f186126548e5d0b936b 2026-10-14 evening limit reached\ne02bff89994ded042e9d71093a4c32c08d8c50b0 2026-10-14 afternoon limit reached\n624ed55a2407b19dc5535f9cb3cc2fdc294dc605 2026-10-14 morning limit reached\nf3d112499ce9295ca8ae34c9baef11c3c7859141 2026-10-14 morning limit reached\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--shortstat",
+        "b16e432..HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": " 757 files changed, 69148 insertions(+), 7 deletions(-)\n",
+      "stderr": ""
+    }
+  ]
+}

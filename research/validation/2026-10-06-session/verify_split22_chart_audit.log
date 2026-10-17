@@ -1,0 +1,20 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_split22_chart_audit.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: exact Jacobian components and both forced A1 endpoint germs
+PASS: every squarefree G stratum has an interior A1 and is excluded
+PASS: no-node eliminant leaves a=-1 and three finite algebraic strata
+PASS: S1 triple collisions are A5 with excessive normal defect
+PASS: S2 double collisions are A3; S3 has forbidden endpoint content
+PASS: the exceptional a=-2/3 stratum has no node-free member
+PASS: the omitted G=0 stratum is excluded by A1/A2/A3 defects
+PASS: every surviving both-ramified carrier is on the h=-1/2 line
+BOUNDARY: extra conductor and higher jets on that line remain unresolved
+AUDIT PASS: raw division uses only established units before the exceptional chart
+AUDIT PASS: normalization N=1 comes from the actual ambient torus action
+AUDIT PASS: intrinsic Hessian and residual coefficients match the A1/A3/A5 controls
+AUDIT PASS: all finite eliminant roots have the claimed unique parameter, with no missing chart
+AUDIT PASS: zero-G local clusters and normalizations exhaust every permitted root
+AUDIT PASS: retained a=-1 carrier equals the recorded one-parameter family
+
+Runner status: PASS

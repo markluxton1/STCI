@@ -1,0 +1,17 @@
+{
+  "source": "research/computations/verify_session_veronese_pencils.py",
+  "source_sha256": "6d51948637d33e20f46a8c9331ffb4f45e9e76a3a754028502468bc6f44afde6",
+  "snapshot_source": "research/validation/2026-10-07-continuation/isolated-veronese-strengthened/research/computations/verify_session_veronese_pencils.py",
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated-veronese-strengthened/research/computations/verify_session_veronese_pencils.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated-veronese-strengthened/research/computations",
+  "isolated": true,
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 0.571,
+  "log": "research/validation/2026-10-07-continuation/verify_session_veronese_pencils_strengthened_2026_10_08.log",
+  "log_sha256": "8c1819bd3c05a8839c1ef55c53f643f20645f3cc2c5fb4c70d6019b57ea43d8f",
+  "reason": "Substantive Oct8 extension from slc classification controls to all-mate Jordan fiber/jet proof; preceding source snapshot and log retained."
+}

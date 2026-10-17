@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "started_at": "2026-10-12T00:07:53.990549+00:00",
+  "finished_at": "2026-10-12T00:07:54.864390+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/two-root-contact-target.m2"
+  ],
+  "return_code": 0,
+  "source_path": "two-root-contact-attempts/20261012T000753990549Z/two-root-contact-target.m2",
+  "source_sha256": "c08e6512379953227600fb176164148d52acd3ce3fe7e9ec00a51b5526d5c5db",
+  "stdout_path": "two-root-contact-attempts/20261012T000753990549Z/stdout.txt",
+  "stdout_sha256": "bba06d89fa85f36110d03e718f2b9a2cc5d802c97bee1b435afc9bd6ab0faa3c",
+  "stderr_path": "two-root-contact-attempts/20261012T000753990549Z/stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "assertions_expected": 14,
+  "scope": "Independent univariate target-septic two-root contact identities; no global geometric exhaustion asserted by execution."
+}

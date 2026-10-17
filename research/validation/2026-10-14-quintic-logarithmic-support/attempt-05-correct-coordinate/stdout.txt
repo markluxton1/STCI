@@ -1,0 +1,2 @@
+PASS exact coordinate transform and inverse; quadratic and A4 cubic Hamiltonian identities
+COMPLETE corrected source-coordinate actual h2 incidence; no accepted verifier replay

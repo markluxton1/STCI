@@ -1,0 +1,19 @@
+{
+  "source": "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+  "source_sha256": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+  "snapshot_source": "research/validation/2026-10-09-four-A1-root-replay/isolated/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py",
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-09-four-A1-root-replay/isolated",
+  "isolated": true,
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 0.603,
+  "log": "research/validation/2026-10-09-four-A1-root-replay/replay.log",
+  "log_sha256": "30a8bcdd42e87007f771100aab93c3f5f28b20ed633ff3015995cef5518f3ddf",
+  "output_sha256": {
+    "research/validation/2026-10-09-four-A1-root-replay/isolated/research/scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json": "facfd0264b906f9fe3dfef9eb2255ee8188d53077b9567a71fc0a39feff89ae0"
+  }
+}

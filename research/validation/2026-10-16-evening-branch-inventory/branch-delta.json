@@ -1,0 +1,61 @@
+{
+  "new_branches": [],
+  "removed_branches": [],
+  "changed_heads": [
+    {
+      "name": "research/ultra-resume-2026-10-06",
+      "old": "b16e4322c7b955147ce2ed241a1a0316a8e1a67a",
+      "new": "bf124f8ab962ef0ed4085397034c50ee8d0d7162"
+    }
+  ],
+  "unchanged_heads": [
+    {
+      "name": "main",
+      "sha": "7662a2ebb1dd561c1fb5e3c8958799b37d962c41"
+    },
+    {
+      "name": "research/e1-jet-rebuild-2026-10-07",
+      "sha": "d5bed93e8c1ea09c2e11f0e096085da641819080"
+    },
+    {
+      "name": "research/entirely-thick-rees-valuation",
+      "sha": "a843888ce15b06247c576f8f717bec6b7ef5a352"
+    },
+    {
+      "name": "research/jet-discrepancy-order-one-2026-10-06",
+      "sha": "f512d4d28da1fd6700aa4e6d2396229712d133d0"
+    },
+    {
+      "name": "research/normal-rational-carrier-classification",
+      "sha": "4b936074f68038cfaa7ec51f5a960f23289627cd"
+    },
+    {
+      "name": "ultra_mode",
+      "sha": "2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647"
+    }
+  ],
+  "locally_available_current_branch_delta": [
+    {
+      "command": [
+        "git",
+        "log",
+        "--format=%H %s",
+        "b16e432..HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "bf124f8ab962ef0ed4085397034c50ee8d0d7162 2026-10-15 afternoon limit reached\n2e9ea8100d39a181fe7010160366b940be531b8d 2026-10-15 morning limit reached\na55767a185aa5e4fb26e2f186126548e5d0b936b 2026-10-14 evening limit reached\ne02bff89994ded042e9d71093a4c32c08d8c50b0 2026-10-14 afternoon limit reached\n624ed55a2407b19dc5535f9cb3cc2fdc294dc605 2026-10-14 morning limit reached\nf3d112499ce9295ca8ae34c9baef11c3c7859141 2026-10-14 morning limit reached\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--shortstat",
+        "b16e432..HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": " 757 files changed, 69148 insertions(+), 7 deletions(-)\n",
+      "stderr": ""
+    }
+  ]
+}

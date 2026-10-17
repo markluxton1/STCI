@@ -1,0 +1,8 @@
+Exact compatibility copy; rational polynomiality instead of literal denominator1.
+Command: /private/tmp/stci-cas-venv/bin/python research/validation/2026-10-06-session/compat_verify_e2_quartic_incidence_QQ.py
+
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/compat_verify_e2_quartic_incidence_QQ.py", line 82, in <module>
+    assert all(sp.Poly(q,x,a,b,d,z,domain=sp.QQ).as_expr()==q for q in J2)
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

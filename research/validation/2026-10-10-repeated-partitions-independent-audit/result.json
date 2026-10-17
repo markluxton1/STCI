@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "engine": "Macaulay2 1.26.06",
+  "checked_conditions": 29,
+  "independence": "Universal net/support ideal equality for [3,1] and [2,2]; exhaustive eta0 chart; different conductor section x1=0",
+  "conductor_section": "18t^2-1=0",
+  "trace_square_over_norm": "22+72t",
+  "scope": "Complete [4],[3,1],[2,2] conditional on the stated ribbon-net and actual projection/conductor inputs",
+  "does_not_claim": "Upstream interface completeness, [2,1,1], higher carrier degrees, or universal STCI resolution"
+}

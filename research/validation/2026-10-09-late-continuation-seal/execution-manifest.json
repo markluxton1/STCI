@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/validation/2026-10-09-late-continuation-seal/check_record.py"
+  ],
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "exit_code": 0,
+  "observed_tool_chunk": "d2e1c4",
+  "observed_tool_wall_seconds": 0.125034083,
+  "tool_output_scope": "Terminal exit0 was observed directly; result.json is the checker-produced record. No reconstructed stdout file is claimed as original bytes.",
+  "auditor_source_sha256": "881db0a3cbeb087d18cbd01bf40eb450a0cea44ce1807350c11886a454d60058",
+  "result_sha256": "5644fd5832f641a14d203c9692c05a9864fb11cf15aa9306aeea68e9aee6381a",
+  "counts": {
+    "baseline_unique_source_paths": 55,
+    "baseline_explicit_execution_records": 61,
+    "central_unique_source_paths": 29,
+    "central_explicit_execution_records": 31,
+    "central_plus_strengthening_distinct_source_revisions": 31,
+    "strengthened_veronese_additional_execution_records": 1,
+    "first_endpoint_independent_source_paths_and_executions": 1,
+    "principal_independent_source_paths_and_executions": 4,
+    "family2_independent_unique_source_paths": 3,
+    "family2_explicit_execution_records": 6,
+    "explicit_extension_unique_source_paths": 5,
+    "explicit_extension_execution_records": 6,
+    "combined_unique_source_paths": 97,
+    "combined_explicit_execution_records": 110
+  },
+  "check_count": 2006,
+  "checked_local_links": 313,
+  "checker_authorship": "Prepared independently by continuation_record_integrity; root extended explicit proof routing and executed after worker weekly quota.",
+  "mathematical_verifiers_rerun": false
+}

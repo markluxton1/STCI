@@ -1,0 +1,19 @@
+{
+  "status": "FAIL",
+  "started_utc": "2026-10-11T15:01:01.959321+00:00",
+  "exit_code": 1,
+  "elapsed_seconds": 0.635073625,
+  "source": "research/computations/verify_session_quintic_a4_pair_classification_2026_10_11.m2",
+  "source_sha256": "4d0a8c05dbaab0207b68fd4f986d0e14a04bbafcff07600ea7c7b47ac1a9d082",
+  "snapshot": "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-03/verify_session_quintic_a4_pair_classification_2026_10_11.m2",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-a4-pair-classification/attempt-03/verify_session_quintic_a4_pair_classification_2026_10_11.m2"
+  ],
+  "expected_exact_checks": 15,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e901255e6c1e7b7e32724cce39263362cdefd48be6910af3c048076141b5ada4",
+  "scope": "Exact lattice, conic, automorphism, and center formulas; geometric contraction exhaustion is a separate written proof",
+  "source_accounting": "one source; all snapshots and attempts retained"
+}

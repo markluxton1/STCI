@@ -1,0 +1,16 @@
+R=QQ[delta,Bc,p];
+F=frac R;
+rs=delta*(3-p)/(3*(2-p));
+ls=delta^4/(3*p^2*(2-p)^2);
+aForced=2*Bc^2/delta^2-Bc/delta;
+es=delta^2*(3-p)+3*Bc*(2-p);
+psix=p^2-3*p+3;
+pcoll=p^2-6*p+6;
+ts=-delta^4*psix*pcoll/(9*p*(2-p)^2*es);
+residual=rs^4-(2*rs^2+rs-aForced)*ts+ts^2-ls;
+print ("numerator",toString factor numerator residual);
+print ("denominator",toString factor denominator residual);
+VB=-(numerator residual)//(delta^2*pcoll);
+print ("VB at zero",toString factor sub(VB,{p=>0}));
+print ("VB at two",toString factor sub(VB,{p=>2}));
+print ("VB at three",toString factor sub(VB,{p=>3}));

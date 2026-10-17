@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "One final record-integrity checker execution; no mathematical verifier executed",
+  "mathematical_verifiers_rerun": false,
+  "mathematical_execution_count": 0,
+  "command": [
+    "/opt/homebrew/opt/python@3.15/bin/python3.15",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-quintic-continuation-seal/check_quintic_record.py",
+    "--seal-once",
+    "--acceptance",
+    "research/notes/2026-10-11-session-quintic-continuation-results-acceptance.md"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "started_utc": "2026-10-12T14:22:10.156991+00:00",
+  "completed_utc": "2026-10-12T14:22:11.130590+00:00",
+  "elapsed_seconds": 0.9715955827850848,
+  "exit_code": 0,
+  "acceptance": "research/notes/2026-10-11-session-quintic-continuation-results-acceptance.md",
+  "runner_sha256": "2f62e5086fc84d2f9f59a67433f8b61868f9f9cb0d1170d063f141e175b1d85a",
+  "checker_before_sha256": "647cb76238ed7933f526f596406d9294bae7ab99ec382edb37acf559a193a602",
+  "checker_after_sha256": "647cb76238ed7933f526f596406d9294bae7ab99ec382edb37acf559a193a602",
+  "result_sha256": "65c3bee22651aa5149fb30dfa7482190e66862e0801b6820b9b09cc07bb8ad5d",
+  "stdout_sha256": "37a9431732a35fe94cc39008282dd394df11e99250aa1834b4f777649c1ea17c",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "check_count": 8387,
+  "checked_local_links": 868,
+  "head_observed": "0adab2bd188351a77d961d7f2251c21545aaebcc",
+  "bound_file_count": 1203,
+  "result_and_manifest_created_exclusively": true
+}

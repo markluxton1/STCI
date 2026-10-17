@@ -1,0 +1,6 @@
+PASS actual first target generator
+PASS actual second target generator
+PASS actual third target generator
+PASS cleared linear elimination
+PASS cleared fiber quadratic coefficient
+PASS third generator has no linear term

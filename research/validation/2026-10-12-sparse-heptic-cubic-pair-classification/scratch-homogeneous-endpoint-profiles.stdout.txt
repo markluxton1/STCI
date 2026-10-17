@@ -1,0 +1,28 @@
+PROFILE 1,5
+           5            4             3            2                          5        4        3        2
+- 21spU*spV  + 75spU*spV  - 100spU*spV  + 60spU*spV  - 15spU*spV + spU + 15spV  - 50spV  + 60spV  - 30spV  + 5spV
+         5            4            3       5       4
+21spU*spV  - 30spU*spV  + 10spU*spV  - 6spV  + 5spV
+| 21spV^2-21spV+5 spU-11spV+5 |
+DIM 0 DEG 2
+PROFILE 2,4
+       2   4        2   3        2   2        2          2            4            3            2                           4        3        2
+- 21spU spV  + 60spU spV  - 60spU spV  + 24spU spV - 3spU  + 30spU*spV  - 80spU*spV  + 72spU*spV  - 24spU*spV + 2spU - 10spV  + 24spV  - 18spV  + 4spV
+     2   4        2   3       2   2            4           3      4
+21spU spV  - 24spU spV  + 6spU spV  - 12spU*spV  + 8spU*spV  + spV
+| 63spV^8-252spV^7+426spV^6-396spV^5+215spV^4-64spV^3+8spV^2 3spU-2016spV^7+7056spV^6-10104spV^5+7620spV^4-3070spV^3+513spV^2+2spV-2 |
+DIM 0 DEG 8
+PROFILE 3,3
+       3   3        3   2        3          3        2   3        2   2        2          2            3            2                          3       2
+- 21spU spV  + 45spU spV  - 30spU spV + 6spU  + 45spU spV  - 90spU spV  + 54spU spV - 9spU  - 30spU*spV  + 54spU*spV  - 27spU*spV + 3spU + 6spV  - 9spV  + 3spV
+     3   3        3   2       3           2   3       2   2           3
+21spU spV  - 18spU spV  + 3spU spV - 18spU spV  + 9spU spV  + 3spU*spV
+| 14spV^7-49spV^6+73spV^5-60spV^4+29spV^3-8spV^2+spV 2spUspV^3-3spUspV^2+spUspV+2spV^4-5spV^3+4spV^2-spV 6spU^2+6spUspV-9spU+224spV^6-672spV^5+832spV^4-544spV^3+192spV^2-35spV+3 |
+DIM 0 DEG 10
+PROFILE 6,0
+       6        5         4         3        2
+- 21spU  + 90spU  - 150spU  + 120spU  - 45spU  + 6spU
+     6        5        4
+21spU  - 36spU  + 15spU
+| spU^2-spU |
+DIM 1 DEG 2

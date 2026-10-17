@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/audit_mf6_e1_primitive_2026_10_07.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: independent complete 35-column ambient matrices for all four direction orbits
+PASS: generic-orbit polar bound >=6; algebraic mixed members polar bound >=8
+PASS: both moving infinity boundary members, including exact multiplicities
+PASS: surviving pure members finite normalization, full support and branch-value identities
+RESULT: together with audited BF bound d3<=5, all e=1,D2=0 quartic carriers are excluded

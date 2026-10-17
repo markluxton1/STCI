@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_nonnormal_mf6_fiber_obstruction.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: monic normalization equation, birational coordinate, kernel gcd,
+full inverse-image ideal identities, duplicate-fiber ratio, quadratic norm,
+and exact coordinate-reversal/conjugation identity.

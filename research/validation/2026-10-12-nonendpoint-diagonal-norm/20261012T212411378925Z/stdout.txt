@@ -1,0 +1,3 @@
+PASS literal cubic residual and cubic coefficient
+PASS diagonal quadratic evaluation
+PASS diagonal cubic evaluation

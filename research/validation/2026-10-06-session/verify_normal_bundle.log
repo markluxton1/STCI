@@ -1,0 +1,12 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_normal_bundle.py
+CWD: /Users/markluxton/Projects/STCI
+
+1. CONORMAL TRANSITION MATRIX
+  transition, determinant, and extension cocycle verified
+2. INDEPENDENT JACOBIAN-SYZYGY CERTIFICATE
+  determinant=2^15; full rank in characteristics 0, 3, and 5
+3. CHARACTERISTIC-3 PRIMITIVE TRIPLE
+  local ideals (a,b^3) and (beta,alpha^3); arithmetic genus 19
+ALL ASSERTIONS PASSED
+
+Runner status: PASS

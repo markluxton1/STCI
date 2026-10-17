@@ -1,0 +1,17 @@
+{
+  "scope": "Exploratory exact endpoint a-nonzero polynomial coefficient calculations; no parameter exhaustion or mathematical theorem asserted",
+  "started_utc": "2026-10-12T00:05:38.475946+00:00",
+  "elapsed_seconds": 0.7819450420793146,
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z",
+  "returncode": 1,
+  "source": "research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+  "snapshot": "research/validation/2026-10-11-endpoint-a-nonzero-support/attempts/20261012T000538475150Z/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",
+  "source_sha256": "2f43249938aea27e76d64690b15262e248454015f8b8cd34c181e839c45bdabc",
+  "stdout_sha256": "c8c7992d052aecc2ac5d6c6742866bc27e6386db410d2de425e3b56276dffac0",
+  "stderr_sha256": "2291c68e35adcd6cfbfed943b053ae2325d59df5455de446f0aff1191b3320f9"
+}

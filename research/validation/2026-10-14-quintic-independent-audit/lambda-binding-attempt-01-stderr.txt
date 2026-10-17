@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-14-quintic-independent-audit/lambda-binding-audit.py", line 175, in <module>
+    compact_q4 = parse_poly(assignment(source, "h3lcQ"))
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-14-quintic-independent-audit/lambda-binding-audit.py", line 63, in parse_poly
+    tree = ast.parse(text, mode="eval")
+  File "/opt/homebrew/Cellar/python@3.14/3.14.8_2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "<unknown>", line 1
+    (90*dl**2-76*dl-58)*q**4+(-405*dl**2+458*dl+203)*q**3+
+                                                          ^
+SyntaxError: invalid syntax

@@ -1,0 +1,8 @@
+{
+  "scope": "Seven exact identities for independently reconstructed finite and infinite common-quadratic systems; geometric admissibility and conductor support are not claimed.",
+  "latest_attempt": "attempt-02",
+  "latest_record": "attempt-02/execution-record.json",
+  "exit_code": 0,
+  "source_sha256": "440ef6585b0879d51eb0c9898e6052666d4866e2971476350959f31b3ed95f98",
+  "exact_checks": 7
+}

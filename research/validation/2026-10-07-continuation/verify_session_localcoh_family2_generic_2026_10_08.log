@@ -1,0 +1,10 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_localcoh_family2_generic_2026_10_08.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: all 18 cleared polynomial tensor identities over QQ[k,lambda].
+PASS: n^T u is exactly the displayed nonzero denominator polynomial.
+PROVED: origin family 2 excludes u away from that polynomial's roots, for every lambda.
+OPEN: primitive exceptional denominator roots and any uncertified origin families.
+PASS: complete affine fibre, rank29 actual top map and all 32 cleared pure-top identities.
+PASS: homogeneous quadratic resultant and displayed denominator factorization.
+OPEN: 26 primitive parameter points exceptional to this dual, with every lambda retained.

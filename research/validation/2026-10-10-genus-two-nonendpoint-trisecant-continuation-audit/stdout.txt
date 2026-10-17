@@ -1,0 +1,13 @@
+PASS: contact chain boundary at B
+PASS: contact chain opposite boundary
+PASS: two formulas agree at contact node
+PASS: left-side harmonic recurrence
+PASS: right-side harmonic recurrence
+PASS: unit source at arbitrary contact node
+PASS: endpoint coefficient with arbitrary contact node
+PASS: other chain has no source
+PASS: other endpoint coefficient, including m=0
+PASS: positive chainDenominator identity
+PASS: exact B intersection equation
+PASS: strict gap from coefficient one
+PASS: 12 all-length rational identities

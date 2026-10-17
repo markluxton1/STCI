@@ -1,0 +1,15 @@
+quadric
+q0 []
+q1_chart []
+L2eval [{"coefficient": "4", "t": 0, "u": 0, "v": 0, "z": -3}]
+obstruction []
+other_diagonal
+q0 []
+q1_chart []
+L2eval [{"coefficient": "-4", "t": 0, "u": 0, "v": 0, "z": -3}, {"coefficient": "2", "t": 1, "u": 0, "v": 0, "z": -3}]
+obstruction [{"coefficient": "64/9", "t": 0, "u": 0, "v": 0, "z": -5}, {"coefficient": "-64/27", "t": 1, "u": 0, "v": 0, "z": -5}]
+open_conic
+q0 [{"coefficient": "-192", "t": -3, "u": 0, "v": 0, "z": 1}, {"coefficient": "-96", "t": -2, "u": 0, "v": 0, "z": 0}]
+q1_chart [{"coefficient": "-6", "t": 2, "u": 0, "v": 0, "z": 0}, {"coefficient": "-3", "t": 3, "u": 0, "v": 0, "z": -1}]
+L2eval [{"coefficient": "64", "t": -3, "u": 0, "v": 0, "z": 0}, {"coefficient": "16", "t": -2, "u": 0, "v": 0, "z": -1}, {"coefficient": "20", "t": -1, "u": 0, "v": 0, "z": -2}, {"coefficient": "4", "t": 0, "u": 0, "v": 0, "z": -3}, {"coefficient": "-3", "t": 1, "u": 0, "v": 0, "z": -4}, {"coefficient": "1", "t": 2, "u": 0, "v": 0, "z": -5}, {"coefficient": "1", "t": 3, "u": 0, "v": 0, "z": -6}]
+obstruction [{"coefficient": "512", "t": -4, "u": 0, "v": 0, "z": -1}, {"coefficient": "-384", "t": -3, "u": 0, "v": 0, "z": -2}, {"coefficient": "64", "t": -2, "u": 0, "v": 0, "z": -3}, {"coefficient": "4", "t": 2, "u": 0, "v": 0, "z": -7}, {"coefficient": "-6", "t": 3, "u": 0, "v": 0, "z": -8}, {"coefficient": "2", "t": 4, "u": 0, "v": 0, "z": -9}]

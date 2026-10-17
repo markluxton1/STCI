@@ -1,0 +1,133 @@
+{
+  "scope": "Independent factor partition, Rabin finite reductions, exact seed/direction cross-artifact audit; not full tensor replay",
+  "generic_target_degree": 76,
+  "generic_target_independent_of_lambda": true,
+  "generic_cleared_ancestor_nonzero_on_chart": true,
+  "exceptional_factor_degrees": {
+    "q1": 4,
+    "q2": 2,
+    "q3": 4,
+    "q13": 13
+  },
+  "all_exceptional_factors_pairwise_coprime": true,
+  "all_exceptional_geometric_points": 23,
+  "all_distinct_denominator_factors_squarefree_and_pairwise_coprime": true,
+  "generic_factor_partition": {
+    "chart_k_minus_1": "k - 1",
+    "chart_k_plus_1": "k + 1",
+    "nonprimitive_qk": "k**2 + 2*k + 3",
+    "nonprimitive_quartic": "9*k**4 - 21*k**3 + 5*k**2 - 31*k + 134",
+    "q1": "3*k**4 - 9*k**3 - 19*k**2 - 43*k - 4",
+    "q2": "k**2 - 4*k + 5",
+    "q3": "13*k**4 + 26*k**3 + 34*k**2 + 6*k - 7",
+    "q13": "729*k**13 + 1620*k**12 + 2889*k**11 - 11268*k**10 - 26574*k**9 - 39642*k**8 + 94014*k**7 + 272968*k**6 + 454897*k**5 + 62256*k**4 - 571463*k**3 - 1210068*k**2 - 966908*k - 379834"
+  },
+  "generic_factor_multiplicities": {
+    "chart_k_minus_1": 14,
+    "chart_k_plus_1": 11,
+    "nonprimitive_qk": 8,
+    "nonprimitive_quartic": 1,
+    "q1": 1,
+    "q2": 5,
+    "q3": 1,
+    "q13": 1
+  },
+  "input_sha256": {
+    "research/computations/session-localcoh-origin-family-1-seed.json": "e3662d68ec0023313549b99d2fe622d2e6c372568afd8cf6fa8f9f5e7eee193b",
+    "research/computations/session_localcoh_q1_dual_audit_2026_10_07.json": "bc13ca0e3074ffbe69e8ff735cfaf19b3e752736e2b0e286b4e956786fdefac9",
+    "research/computations/localcoh-incidence-tensor.txt": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+    "research/computations/localcoh-incidence-bases.txt": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+    "research/computations/localcoh-symbol-top.json": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+    "research/computations/session-localcoh-origin-family-1-exception-q1-dual.txt": "7ed6be8ddf6340e62c2b2a5db6f422d7f3edb12d15ae860b2f4244bbf56d9257",
+    "research/computations/session-localcoh-origin-family-1-exception-q1-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session-localcoh-origin-family-1-exception-q1.m2": "c5306b86c7f3f0fc999fdca61f37e555b7b17c90595518760aad9e71997807cb",
+    "research/computations/generate_session_localcoh_q1_module_2026_10_07.py": "6777396f6507ed093c9a66963465ebbeca8dba8f80ac211c11cc289f7ea250fd",
+    "research/computations/session_localcoh_q2_dual_audit_2026_10_07.json": "4bf801c033e5f2ee7021cf5ca4fbf246af136383bae55dcd40fc1fc924ae2410",
+    "research/computations/session-localcoh-origin-family-1-exception-q2-dual.txt": "ad8fa11fe3ad5b5df8253391e84d88d071d816a2f1afd5acfb445b005315faf3",
+    "research/computations/session-localcoh-origin-family-1-exception-q2-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session-localcoh-origin-family-1-exception-q2.m2": "308aa1c1acfee983572f39f791bda6dfcfc231d3215b266a651f6b9027eb1b48",
+    "research/computations/session_localcoh_q3_dual_audit_2026_10_07.json": "45b18ed0215b56391984fa55c44b4193bed99afd6eac1dcc5383d0c71b702985",
+    "research/computations/session-localcoh-origin-family-1-exception-q3-dual.txt": "d80e62ec59f6ccf1af43fcea4a3d5f59cb8c894d52b9c1d9ab695876202315e4",
+    "research/computations/session-localcoh-origin-family-1-exception-q3-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session-localcoh-origin-family-1-exception-q3.m2": "b188e8801ca51727af5b40ee35a2bc08a246408de4581eaa91fdcf8bb8ab32d1",
+    "research/computations/generate_session_localcoh_q3_module_2026_10_07.py": "30be86cf27e22a9c1c08535f631c6590ac38e613f71d7d46f551f2de06204f81",
+    "research/computations/session_localcoh_q13_dual_audit_2026_10_07.json": "c484ca17078ecfd2e30eb8d3f76e57c313f25f3684c34db286deb047429db65c",
+    "research/computations/session-localcoh-origin-family-1-exception-q13-dual.txt": "af8f8730be8f13192064a851cea7bfc7fa7ca2e2a971afb14de17997cac4b8ce",
+    "research/computations/session-localcoh-origin-family-1-exception-q13-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session-localcoh-origin-family-1-exception-q13.m2": "150b50737119b82670e6c22c3f5d5f92f44921f568eeb95c5868540c57ecd397",
+    "research/computations/generate_session_localcoh_q13_module_2026_10_07.py": "f519250477936c2a5fd86add3ad28ab981af75a9c59e833468b5ef18b782745d",
+    "research/computations/session-localcoh-origin-family-1-polynomial-dual.json": "2212853b74e9058566d2092d4b28f8a0cbc274fda5aa63bc7a368eb009ed4783",
+    "research/computations/session-localcoh-origin-family-1-generic-dual.txt": "4672ca99bfc058393d0adca1fb28b485dcd467a55f43efe293b22ebcdc3e52c8"
+  },
+  "checker_source_sha256": "4fb9d7cf4b0a119bc8bfd0b1d5bb3a4bece08948bb9d44f505d3091ce2e74df0",
+  "fields": {
+    "q1": {
+      "degree": 4,
+      "seed_all30_coefficients_match_rational_source": true,
+      "direction_all6_coefficients_match_first_family": true,
+      "squarefree": true,
+      "coprime_to_chart_and_primitive_exclusions": true,
+      "certificate_sha256": "bc13ca0e3074ffbe69e8ff735cfaf19b3e752736e2b0e286b4e956786fdefac9",
+      "finite_prime": 23,
+      "monic_reduction_ascending": [
+        14,
+        1,
+        9,
+        20,
+        1
+      ],
+      "independent_Rabin_conditions_pass": true
+    },
+    "q2": {
+      "degree": 2,
+      "seed_all30_coefficients_match_rational_source": true,
+      "direction_all6_coefficients_match_first_family": true,
+      "squarefree": true,
+      "coprime_to_chart_and_primitive_exclusions": true,
+      "certificate_sha256": "4bf801c033e5f2ee7021cf5ca4fbf246af136383bae55dcd40fc1fc924ae2410"
+    },
+    "q3": {
+      "degree": 4,
+      "seed_all30_coefficients_match_rational_source": true,
+      "direction_all6_coefficients_match_first_family": true,
+      "squarefree": true,
+      "coprime_to_chart_and_primitive_exclusions": true,
+      "certificate_sha256": "45b18ed0215b56391984fa55c44b4193bed99afd6eac1dcc5383d0c71b702985",
+      "finite_prime": 17,
+      "monic_reduction_ascending": [
+        6,
+        7,
+        0,
+        2,
+        1
+      ],
+      "independent_Rabin_conditions_pass": true
+    },
+    "q13": {
+      "degree": 13,
+      "seed_all30_coefficients_match_rational_source": true,
+      "direction_all6_coefficients_match_first_family": true,
+      "squarefree": true,
+      "coprime_to_chart_and_primitive_exclusions": true,
+      "certificate_sha256": "c484ca17078ecfd2e30eb8d3f76e57c313f25f3684c34db286deb047429db65c",
+      "finite_prime": 53,
+      "monic_reduction_ascending": [
+        15,
+        43,
+        6,
+        38,
+        30,
+        45,
+        19,
+        21,
+        8,
+        22,
+        31,
+        2,
+        14,
+        1
+      ],
+      "independent_Rabin_conditions_pass": true
+    }
+  }
+}

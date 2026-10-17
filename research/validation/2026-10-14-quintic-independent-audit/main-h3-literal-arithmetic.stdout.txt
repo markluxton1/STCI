@@ -1,0 +1,9 @@
+PASS exact original coefficient division by ll^2
+PASS captured matrix parsed as three rational polynomials
+original generator term counts: [69, 62, 58]
+captured witness term counts: [436, 465, 485]
+multiplied original witness entry 1 of 3
+multiplied original witness entry 2 of 3
+multiplied original witness entry 3 of 3
+PASS exact captured original-generator witness product equals U^2
+ALL MAIN H3 LITERAL PRODUCT CHECKS PASSED; elapsed 0.111 seconds

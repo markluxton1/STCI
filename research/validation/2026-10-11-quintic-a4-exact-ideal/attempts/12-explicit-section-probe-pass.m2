@@ -1,0 +1,12 @@
+R = QQ[z0,z1,z2,z3,z4,z5];
+I = ideal(z4^2-z3*z5,z2*z4-z1*z5,z2*z3-z1*z4,z2^2-z3*z4-z0*z5,z1*z2-z3^2-z0*z4);
+Hc = z2+z3;
+sectionCoefficients = matrix{{Hc^5}} // (gens I | matrix{{z5}});
+Qsection = sectionCoefficients_(5,0);
+print("Q_RAW " | toString Qsection);
+print("Q_NORMAL " | toString (Qsection%I));
+print("IDENTITY " | toString ((z5*Qsection-Hc^5)%I));
+print("LINE SUPPORT " | toString gens radical saturate(I+ideal z5,ideal vars R));
+print("Q SUPPORT " | toString gens radical saturate(I+ideal Qsection,ideal vars R));
+print("HCF Q SUPPORT DEG " | toString degree(R/saturate(I+ideal Qsection,ideal vars R)));
+exit 0;

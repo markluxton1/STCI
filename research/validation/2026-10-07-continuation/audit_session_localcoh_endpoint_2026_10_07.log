@@ -1,0 +1,14 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/audit_session_localcoh_endpoint_2026_10_07.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: all 18 cleared polynomial tensor identities over QQ[k,lambda].
+PASS: n^T u is exactly the displayed nonzero denominator polynomial.
+PROVED: origin family 1 excludes u away from that polynomial's roots, for every lambda.
+OPEN: primitive exceptional denominator roots and any uncertified origin families.
+PASS: actual pure-top lift and all 18 dual identities over QQ[k]/(k^2-4k+5)[lambda].
+PASS: n^T u=1 identically and the homogeneous direction resultant is a field unit.
+PROVED: the q2 exceptional locus is excluded at both geometric roots, for every lambda.
+PASS: classification is surjective, including the omitted nonprimitive normalization point.
+PASS: fixed-degree homogeneous resultants include all infinity-root degenerations.
+PASS: rank29 top map gives the complete affine line of lifts for each direction.
+OPEN: 21 first-family exceptional geometric directions; three other families; nonendpoint top zero.

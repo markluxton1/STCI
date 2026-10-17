@@ -1,0 +1,209 @@
+{
+  "local_refs": {
+    "command": [
+      "git",
+      "for-each-ref",
+      "--format=%(refname)|%(objectname)|%(committerdate:iso8601)|%(subject)"
+    ],
+    "exit_code": 0,
+    "stdout": "refs/codex/turn-diffs/captures/1791916029506/60d3cb4a-e59a-45b9-8e87-743e53b6f5bf/base|4f4cd1a7ce8836cdb51871ac01d2914b2fe95a05||\nrefs/codex/turn-diffs/checkpoints/ded13bc2043e7333faa1ec7dd9d92f64/c55ee79f95a5e879b07ac31eb117bc84/1791902059341/39e09762-d030-4995-958a-d6e7b6083770|4190b258bac07e2d248a880a3102a457d59ff808||\nrefs/heads/archive/codex-5hr-interrupted|2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647|2026-10-06 09:20:12 -0400|2026-10-06 9:00AM 5hr limit reached\nrefs/heads/main|98d71ddf8f8cceaad01bec43e94298699dcb5560|2026-10-06 11:33:35 -0400|Consolidate audited STCI research state\nrefs/heads/research/ultra-resume-2026-10-06|b16e4322c7b955147ce2ed241a1a0316a8e1a67a|2026-10-13 10:42:08 -0400|2026-10-13 morning limit reached\nrefs/heads/ultra_mode|2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647|2026-10-06 09:20:12 -0400|2026-10-06 9:00AM 5hr limit reached\nrefs/remotes/origin/HEAD|98d71ddf8f8cceaad01bec43e94298699dcb5560|2026-10-06 11:33:35 -0400|Consolidate audited STCI research state\nrefs/remotes/origin/main|98d71ddf8f8cceaad01bec43e94298699dcb5560|2026-10-06 11:33:35 -0400|Consolidate audited STCI research state\nrefs/remotes/origin/research/consolidate-2026-10-06|3f7b7fec652a0175ef7a7c5353f198f03649281a|2026-10-06 11:19:18 -0400|Add required local-cohomology tensor generator\nrefs/remotes/origin/research/local-audit-e2|a0a5a67e2d5b01c83832041b578efe9d478f5c8c|2026-10-06 10:38:14 -0400|Fix residual verifier syntax\nrefs/remotes/origin/research/ultra-resume-2026-10-06|b16e4322c7b955147ce2ed241a1a0316a8e1a67a|2026-10-13 10:42:08 -0400|2026-10-13 morning limit reached\nrefs/remotes/origin/ultra_mode|2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647|2026-10-06 09:20:12 -0400|2026-10-06 9:00AM 5hr limit reached\n",
+    "stderr": ""
+  },
+  "worktrees": {
+    "command": [
+      "git",
+      "worktree",
+      "list",
+      "--porcelain"
+    ],
+    "exit_code": 0,
+    "stdout": "worktree /Users/markluxton/Projects/STCI\nHEAD b16e4322c7b955147ce2ed241a1a0316a8e1a67a\nbranch refs/heads/research/ultra-resume-2026-10-06\n\n",
+    "stderr": ""
+  },
+  "tags": {
+    "command": [
+      "git",
+      "tag",
+      "-n"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "stashes": {
+    "command": [
+      "git",
+      "stash",
+      "list"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "initial_head": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "b16e4322c7b955147ce2ed241a1a0316a8e1a67a\n",
+    "stderr": ""
+  },
+  "main": {
+    "counts": {
+      "command": [
+        "git",
+        "rev-list",
+        "--left-right",
+        "--count",
+        "HEAD...main"
+      ],
+      "exit_code": 0,
+      "stdout": "30\t0\n",
+      "stderr": ""
+    },
+    "missing_from_head": {
+      "command": [
+        "git",
+        "diff",
+        "--name-only",
+        "--diff-filter=A",
+        "HEAD",
+        "main"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "summary": {
+      "command": [
+        "git",
+        "diff",
+        "--shortstat",
+        "HEAD",
+        "main"
+      ],
+      "exit_code": 0,
+      "stdout": " 2120 files changed, 24 insertions(+), 581350 deletions(-)\n",
+      "stderr": ""
+    }
+  },
+  "archive/codex-5hr-interrupted": {
+    "counts": {
+      "command": [
+        "git",
+        "rev-list",
+        "--left-right",
+        "--count",
+        "HEAD...archive/codex-5hr-interrupted"
+      ],
+      "exit_code": 0,
+      "stdout": "62\t1\n",
+      "stderr": ""
+    },
+    "missing_from_head": {
+      "command": [
+        "git",
+        "diff",
+        "--name-only",
+        "--diff-filter=A",
+        "HEAD",
+        "archive/codex-5hr-interrupted"
+      ],
+      "exit_code": 0,
+      "stdout": "research/SUSTAINED_RESEARCH_2026-10-05.md\nresearch/computations/explore_localcoh_direction_contact_lambda0.m2\nresearch/computations/explore_localcoh_direction_contact_lambda1.m2\nresearch/computations/explore_localcoh_direction_contact_lambda2.m2\nresearch/computations/localcoh-e2-incidence-2026-10-06.py\nresearch/computations/localcoh-e2-p-constant-both-2026-10-06.m2\nresearch/computations/localcoh-e2-p-constant-u-2026-10-06.m2\nresearch/computations/localcoh-e2-p-t-both-2026-10-06.m2\nresearch/computations/localcoh-e2-p-t-u-2026-10-06.m2\nresearch/computations/localcoh-e2-r-constant-both-2026-10-06.m2\nresearch/computations/localcoh-e2-r-constant-u-2026-10-06.m2\nresearch/computations/localcoh-e2-r-t-both-2026-10-06.m2\nresearch/computations/localcoh-e2-r-t-u-2026-10-06.m2\nresearch/computations/localcoh-incidence-parity-dual-2026-10-06.m2\nresearch/computations/localcoh-incidence-parity-dual-2026-10-06.txt\nresearch/computations/localcoh-parity-incidence-2026-10-06.py\nresearch/computations/localcoh-parity-incidence-u-2026-10-06.m2\nresearch/computations/localcoh-parity-incidence-v-2026-10-06.m2\nresearch/computations/localcoh-symbol-directions.py\nresearch/computations/localcoh-symbol-export.m2\nresearch/computations/localcoh-symbol-parity-coordinates.m2\nresearch/computations/localcoh-symbol-parity.py\nresearch/computations/localcoh-symbol-paritycheck.m2\nresearch/computations/localcoh-symbol-seedcheck.m2\nresearch/computations/validation_2026-10-05_resumed.json\nresearch/computations/validation_2026-10-06_checkpoint.json\nresearch/computations/verify_fixed_quartic_mate_degrees.py\nresearch/notes/2026-10-05-foundational-frontier-audit.md\nresearch/notes/2026-10-05-positive-quartic-carrier-optimality.md\nresearch/notes/2026-10-05-residual-cycle-audit.md\nresearch/scratch/explore_split22_nonramified.py\nresearch/scratch/explore_split4_lift.py\nresearch/scratch/explore_split4_local.py\nresearch/scratch/explore_split4_nonramified.py\nresearch/scratch/mf6_type4_resultant.m2\nresearch/scratch/primitive47universal/triple_contact_p_chart.m2\nresearch/scratch/primitive47universal/triple_contact_p_factors.m2\n",
+      "stderr": ""
+    },
+    "summary": {
+      "command": [
+        "git",
+        "diff",
+        "--shortstat",
+        "HEAD",
+        "archive/codex-5hr-interrupted"
+      ],
+      "exit_code": 0,
+      "stdout": " 2144 files changed, 2464 insertions(+), 576862 deletions(-)\n",
+      "stderr": ""
+    }
+  },
+  "origin/research/consolidate-2026-10-06": {
+    "counts": {
+      "command": [
+        "git",
+        "rev-list",
+        "--left-right",
+        "--count",
+        "HEAD...origin/research/consolidate-2026-10-06"
+      ],
+      "exit_code": 0,
+      "stdout": "31\t55\n",
+      "stderr": ""
+    },
+    "missing_from_head": {
+      "command": [
+        "git",
+        "diff",
+        "--name-only",
+        "--diff-filter=A",
+        "HEAD",
+        "origin/research/consolidate-2026-10-06"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "summary": {
+      "command": [
+        "git",
+        "diff",
+        "--shortstat",
+        "HEAD",
+        "origin/research/consolidate-2026-10-06"
+      ],
+      "exit_code": 0,
+      "stdout": " 2120 files changed, 24 insertions(+), 581350 deletions(-)\n",
+      "stderr": ""
+    }
+  },
+  "origin/research/local-audit-e2": {
+    "counts": {
+      "command": [
+        "git",
+        "rev-list",
+        "--left-right",
+        "--count",
+        "HEAD...origin/research/local-audit-e2"
+      ],
+      "exit_code": 0,
+      "stdout": "31\t18\n",
+      "stderr": ""
+    },
+    "missing_from_head": {
+      "command": [
+        "git",
+        "diff",
+        "--name-only",
+        "--diff-filter=A",
+        "HEAD",
+        "origin/research/local-audit-e2"
+      ],
+      "exit_code": 0,
+      "stdout": "research/computations/branch_dx1_p044.out\n",
+      "stderr": ""
+    },
+    "summary": {
+      "command": [
+        "git",
+        "diff",
+        "--shortstat",
+        "HEAD",
+        "origin/research/local-audit-e2"
+      ],
+      "exit_code": 0,
+      "stdout": " 2165 files changed, 57 insertions(+), 589530 deletions(-)\n",
+      "stderr": ""
+    }
+  }
+}

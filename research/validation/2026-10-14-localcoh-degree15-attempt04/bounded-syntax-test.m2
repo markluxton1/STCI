@@ -1,0 +1,15 @@
+K=QQ; q=3;p=4;
+B=matrix{{1_K,2_K,3_K},{0_K,1_K,2_K},{1_K,3_K,5_K},{2_K,5_K,8_K}};
+pivotRows={0,1};pivotColumns={0,1};missingColumn=2;
+chosenBlock=matrix apply(pivotRows,ii->apply(pivotColumns,jj->B_(ii,jj)));
+chosenInverse=id_(K^2)//chosenBlock;
+assert(chosenBlock*chosenInverse==id_(K^2));
+D=matrix apply(toList(0..q-1),ii->apply(toList(0..p-1),jj->if member(ii,pivotColumns) and member(jj,pivotRows) then chosenInverse_(position(pivotColumns,kk->kk==ii),position(pivotRows,kk->kk==jj)) else 0_K));
+DB=D*B;
+h=matrix apply(toList(0..q-1),ii->{(if ii==missingColumn then 1_K else 0_K)-DB_(ii,missingColumn)});
+eMissing=matrix{apply(q,ii->if ii==missingColumn then 1_K else 0_K)};
+assert(DB==id_(K^q)-h*eMissing);
+assert(B*h==0);
+rr=matrix{{2_K,1_K,0_K}};
+linN1=(matrix apply(q,ii->{0_K}))||(-transpose(rr*D));
+print("PASS bounded attempt04 block-construction syntax only");exit 0;

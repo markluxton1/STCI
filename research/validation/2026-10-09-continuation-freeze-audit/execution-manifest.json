@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Independent continuation-record integrity only; no mathematical verifiers executed",
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/validation/2026-10-09-continuation-freeze-audit/check_record.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "started_utc": "2026-10-09T12:15:02.069264+00:00",
+  "completed_utc": "2026-10-09T12:15:02.198040+00:00",
+  "observed_exit_code": 0,
+  "tool_chunk_id": "41e902",
+  "tool_wall_time_seconds": 0.068475959,
+  "source_sha256": "18dea8184c4e97508fa6d87725eed46360b99b9401faacaaf03ab9675282bb48",
+  "log_sha256": "e0be2f1818d7d315e158fb5944610375e3c73818ab3d9121786d1ca8f5be72c1",
+  "result_sha256": "2cb1bdd813ef1f45a46363a5a4251ec153a2a2af40c773979d4cf3ab935219ef",
+  "note_sha256": "bc184d3ef0a654ac537c2cf051e4e2efbb58c4c49b1f17af9719a9675eaa7c9b",
+  "preparatory_auditor_failure_sha256": "527988bd9bb3d061b36aaef5257c64d42fcadfe08467deea22b7d5fbedda7e10",
+  "canonical_sha256": {
+    "README.md": "99a5dc69717968d692e2d88c2e254e24d7d6184c9f58af6957a80559c9201aa0",
+    "research/AUDITED_STATE_2026-10-07.md": "4db13caebf71767ad6db66896549c357dc8769623539b60edee87b13bbf4cd14",
+    "research/RESEARCH_UPDATE_2026-10-07.md": "ba6d7d4f6d88e9b1e1f1d984c2a6a1fb836aff587724f4d27e35d1d001720af6",
+    "research/SUCCESSOR_HANDOFF_2026-10-07.md": "8af98306deb9c215774f2c3f9d59b5be45b916d84e2329872551b1599729e8d8",
+    "research/computations/README.md": "3aedd3682a5a907dc1892097d366ace054101d009d9786ff10dc82b0b5f284b9",
+    "research/notes/2026-10-08-session-checkpoint.md": "a41616c1b66109fccf6fe2dce911d8a893d5f0167ef67bdddaee1778e59c955c",
+    "research/notes/2026-10-08-session-late-results-acceptance.md": "a66769a89d41752c7a289b29aca68c80e91d93b1af324b4842bc7493745dc8d0"
+  },
+  "supplementary_routing_observation_sha256": "1beb09fff51c3582b8ac7ba693a0686d5039db70f9ef488862468e328266040a"
+}

@@ -1,0 +1,16 @@
+First verifier run, 2026-10-10, M2 1.26.06.
+The universal ideal equality and original C0 kernel passed.
+The quartic extraction then failed before any degree-four rank assertion:
+
+QQ[a] ideal equality: PASS
+| vzw-uw2 vz2-uzw auz2+z3-vw2 au2zw+uz2w-v2w2 au3w2-v3w2+u2zw2 |
+Original C0 kernel: PASS
+/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/matrix.m2:196:20:(1):[8]: error: maps not composable
+countercheck.m2:42:19:(3):[7]: --back trace--
+
+Cause: basis(4,Ideal) returned a generator-coordinate matrix with an
+image-module target. Directly multiplying it by gens Ideal was not
+composable as a typed module map. These rows are not ambient forms.
+The final verifier instead builds the proposed eleven literal quartics
+directly and independently checks their coefficient rank and degree-four
+ideal dimension; no generator-coordinate rank is used.

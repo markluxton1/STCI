@@ -1,0 +1,3 @@
+PASS: t J subset L subset J; J:t=J; L:t=J; L:t^infinity=J.
+PASS: radical J=(2a+1,b+2), full residual open set empty.
+PASS: a=-1/2 and b=-2 boundary saturated ideals are the claimed squares.

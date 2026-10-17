@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-09",
+  "status": "PASS supporting exact checks and accepted independent geometric proof audit",
+  "runs": [
+    {
+      "source": "research/computations/audit_session_scroll_gorenstein_generic_2026_10_08.py",
+      "source_sha256": "885c334e5bd2a007b65dcc01e72f6d8289bc28e5bdfb31fbfc5134e9d47e0e6e",
+      "snapshot": "research/validation/2026-10-09-scroll-entire-audit/isolated/research/computations/audit_session_scroll_gorenstein_generic_2026_10_08.py",
+      "exit_code": 0,
+      "wall_seconds": 0.311,
+      "log": "research/validation/2026-10-09-scroll-entire-audit/audit_session_scroll_gorenstein_generic_2026_10_08.py.log",
+      "log_sha256": "628347e81eda832515944991753c81f0dda827d2f1f4a266744b288d53924352",
+      "original_source_unchanged": true
+    },
+    {
+      "source": "research/computations/verify_session_scroll_nongorenstein_cubic_2026_10_08.py",
+      "source_sha256": "a290cf18cef0a5ae53b7a2d1e69d4c0f2aa76039ca7b945f8370b1e019147b9d",
+      "snapshot": "research/validation/2026-10-09-scroll-entire-audit/isolated/research/computations/verify_session_scroll_nongorenstein_cubic_2026_10_08.py",
+      "exit_code": 0,
+      "wall_seconds": 0.363,
+      "log": "research/validation/2026-10-09-scroll-entire-audit/verify_session_scroll_nongorenstein_cubic_2026_10_08.py.log",
+      "log_sha256": "f54f104db71a54e830282a0051ac72b7668cd04950e5209964fa772f0d44618e",
+      "original_source_unchanged": true
+    }
+  ],
+  "note_snapshots": [
+    {
+      "path": "research/notes/2026-10-08-session-scroll-gorenstein-independent-audit.md",
+      "sha256": "57541f187f77047ee4b0626cb3e3ec4fe7f91db10e8a3a1ce36816ef20573bde",
+      "snapshot": "research/validation/2026-10-09-scroll-entire-audit/notes/2026-10-08-session-scroll-gorenstein-independent-audit.md"
+    },
+    {
+      "path": "research/notes/2026-10-08-session-nonimmersion-prime-independent-audit.md",
+      "sha256": "8f5bea6b0ecc317761d96c2c8ca293629a8046e044ca5105343003658df46d3d",
+      "snapshot": "research/validation/2026-10-09-scroll-entire-audit/notes/2026-10-08-session-nonimmersion-prime-independent-audit.md"
+    },
+    {
+      "path": "research/notes/2026-10-08-session-scroll-entire-conductor-verification-audit.md",
+      "sha256": "5906fa041a7d42ddcbb1e422aa1e6f96da07119795975ef340c765a30242f4ac",
+      "snapshot": "research/validation/2026-10-09-scroll-entire-audit/notes/2026-10-08-session-scroll-entire-conductor-verification-audit.md"
+    },
+    {
+      "path": "research/notes/2026-10-08-session-scroll-nongorenstein-cubic-classification.md",
+      "sha256": "b406452b3407616f8881330025e0a9376a860b913633e4b893a6e219a54bfb8f",
+      "snapshot": "research/validation/2026-10-09-scroll-entire-audit/notes/2026-10-08-session-scroll-nongorenstein-cubic-classification.md"
+    },
+    {
+      "path": "research/notes/2026-10-08-session-scroll-artin-independent-audit.md",
+      "sha256": "ed33d12e66cf163786b7164793884c19f0851eabfbb5223a8afe18fc5411a449",
+      "snapshot": "research/validation/2026-10-09-scroll-entire-audit/notes/2026-10-08-session-scroll-artin-independent-audit.md"
+    }
+  ],
+  "generated_outputs": [
+    {
+      "path": "research/validation/2026-10-09-scroll-entire-audit/isolated/research/computations/audit_session_scroll_gorenstein_generic_2026_10_08.json",
+      "sha256": "628347e81eda832515944991753c81f0dda827d2f1f4a266744b288d53924352"
+    },
+    {
+      "path": "research/validation/2026-10-09-scroll-entire-audit/isolated/research/scratch/session-scroll-nongorenstein-cubic-checks-2026-10-08.json",
+      "sha256": "c97bab15b1274c7f20fced7ee40493f8fc717ba09eae45e1cec2e9685c0152f8"
+    }
+  ],
+  "count_scope": "Two fresh source executions here: independent generic-support source replay plus owner nongorenstein source isolated replay. Neither repeats the old promoted suite.",
+  "mathematical_scope": "No mate of any positive degree for fixed C0 on an integral quartic with smooth rational quartic-scroll normalization over algebraically closed characteristic zero. Geometric proof is separately audited; exact scripts support normal forms and generic Artin constraints only.",
+  "canonical_files_edited_by_this_audit": false
+}

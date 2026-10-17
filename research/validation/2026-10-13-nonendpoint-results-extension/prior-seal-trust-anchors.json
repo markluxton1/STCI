@@ -1,0 +1,27 @@
+{
+  "scope": "All existing files in completed prior 1203-binding seal directory; preserve bytes, do not rerun prior or mathematical checkers.",
+  "prior_result": "research/validation/2026-10-11-quintic-continuation-seal/result.json",
+  "prior_bound_count": 1203,
+  "expected_changed_canonical_count": 7,
+  "expected_unchanged_noncanonical_count": 1196,
+  "sha256": {
+    "research/validation/2026-10-11-quintic-continuation-seal/README.md": "d75d9814882743bbfc3ffbe682bacf5fdfc1b251f427e576671da68a3275af78",
+    "research/validation/2026-10-11-quintic-continuation-seal/accepted-inputs.json": "55ae7cc76c2544569e444d33d2321ce30e3b4c79533085fc3fa3c7b8fd5729f4",
+    "research/validation/2026-10-11-quintic-continuation-seal/audit_endpoint_histories.py": "c26c4aeee131679008556fb37966897d48a7faaf34550cc25eb5432591298ea1",
+    "research/validation/2026-10-11-quintic-continuation-seal/check_quintic_record.py": "647cb76238ed7933f526f596406d9294bae7ab99ec382edb37acf559a193a602",
+    "research/validation/2026-10-11-quintic-continuation-seal/check_record.py": "75722438f7f974db0e68d177633c385d42bd77656ba9d6dbdf2f881e6c3ee165",
+    "research/validation/2026-10-11-quintic-continuation-seal/endpoint-execution-coverage.json": "d66c23341e0ebab5a0aa546ca9c71dcc62650dd1a85727f50b40e174e958b77d",
+    "research/validation/2026-10-11-quintic-continuation-seal/execution-manifest.json": "6a7d5603f6141b401881d120ebe041adabf7dad97829f9bd8e64cc56e811e919",
+    "research/validation/2026-10-11-quintic-continuation-seal/independent-coverage-review.md": "d22b35fb767e0eaddf16daf0bbc1250b6330d6d4514540c5298cef28d82c3781",
+    "research/validation/2026-10-11-quintic-continuation-seal/independent-hash-inventory.json": "ebf02ebce4c771870c084a71607c4e3d9bd5629283fc57d85eb5389aa1760157",
+    "research/validation/2026-10-11-quintic-continuation-seal/preflight-result.json": "ff08010805e555aa610327c09d247e4ad5c877c5b39c03b6c6dcbbbb0b5b1f64",
+    "research/validation/2026-10-11-quintic-continuation-seal/prepared-prior-checker.py": "d61c147b694bcbfe52f1ed955a0607d0844619c1a2a76b543144f88813480d2a",
+    "research/validation/2026-10-11-quintic-continuation-seal/prior-seal-trust-anchors.json": "8c257db90ef97323790ed083dcfebbc08ecb8c3a4e4208c3c593269aca5295d3",
+    "research/validation/2026-10-11-quintic-continuation-seal/result.json": "65c3bee22651aa5149fb30dfa7482190e66862e0801b6820b9b09cc07bb8ad5d",
+    "research/validation/2026-10-11-quintic-continuation-seal/root-readiness.json": "36e48bebfc5cd68a6c6296d1e4eb8d664a356dd64a9c777e6417fc70152efb65",
+    "research/validation/2026-10-11-quintic-continuation-seal/run_final_seal.py": "2f62e5086fc84d2f9f59a67433f8b61868f9f9cb0d1170d063f141e175b1d85a",
+    "research/validation/2026-10-11-quintic-continuation-seal/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/validation/2026-10-11-quintic-continuation-seal/stdout.txt": "37a9431732a35fe94cc39008282dd394df11e99250aa1834b4f777649c1ea17c",
+    "research/validation/2026-10-11-quintic-continuation-seal/worker-stop-observation.json": "fde3dffd3c27e06ec096886c4a84a317a4e382e9f0672406d4d7e77740f507fd"
+  }
+}

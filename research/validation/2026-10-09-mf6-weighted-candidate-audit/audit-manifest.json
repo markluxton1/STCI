@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "exit_code": 0,
+  "wall_seconds": 7.909,
+  "command": "PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+  "source_input_snapshots": [
+    {
+      "path": "research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",
+      "sha256": "a513320aeeed37260151d209cd2d232ac321edb892d647b22395a06cb45a1ac8",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py"
+    },
+    {
+      "path": "research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py",
+      "sha256": "78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a93e17370",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py"
+    },
+    {
+      "path": "research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.json",
+      "sha256": "0da6eff927a635a81179ce631468e9d4f3fc89a1c78af1c7a6a8cd6cc81fe85d",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.json"
+    },
+    {
+      "path": "research/scratch/mf6-principal-weighted-kernel-2026-10-08.json",
+      "sha256": "4889f20b60fa094cde47992342701ebdf29a98413fc216b20f971550331cd9db",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/mf6-principal-weighted-kernel-2026-10-08.json"
+    },
+    {
+      "path": "research/scratch/session-mf6-e1-principal-contact-2026-10-08.json",
+      "sha256": "bc32db62b6d87e15300168a47f50d6bf3cd952d0d19b60ad52fc5ae8cdfa9818",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/session-mf6-e1-principal-contact-2026-10-08.json"
+    },
+    {
+      "path": "research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json",
+      "sha256": "a044fbbe3fa4903268a38a07792b3e023170b943ceb28f63e4d464b9e871732f",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json"
+    }
+  ],
+  "log_sha256": "061217ff3b5ecc72aeec7bd5aa0791a3b7299ac43a8865f35f2f1529b1743ce2",
+  "log": "research/validation/2026-10-09-mf6-weighted-candidate-audit/independent-countercheck.log",
+  "originals_unchanged": true,
+  "scope": "Bounded independent coefficient/matrix/sample audit, not full contact syzygy suite or candidate-zero classification",
+  "result_sha256": "061217ff3b5ecc72aeec7bd5aa0791a3b7299ac43a8865f35f2f1529b1743ce2",
+  "result": "research/validation/2026-10-09-mf6-weighted-candidate-audit/isolated/research/scratch/audit-session-mf6-weighted-candidate-2026-10-09.json",
+  "note_snapshots": [
+    {
+      "path": "research/notes/2026-10-09-session-mf6-weighted-candidate-algebra-independent-audit.md",
+      "sha256": "e1e0d7e05d0c825c141d68fc6ad4ec2ec0220c2948a492d5dd895c15efcaab9d",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/notes/2026-10-09-session-mf6-weighted-candidate-algebra-independent-audit.md"
+    },
+    {
+      "path": "research/notes/2026-10-09-session-mf6-principal-weighted-candidate.md",
+      "sha256": "706c76d421a897cbd8d1ac77a2b901f3ddf5c9d9a1ff7f99ebdb4a0fe8499103",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/notes/2026-10-09-session-mf6-principal-weighted-candidate.md"
+    },
+    {
+      "path": "research/notes/2026-10-09-session-mf6-weighted-candidate-geometric-audit.md",
+      "sha256": "32fa1fd3eb478d07440c6d596934c540ff4f26c8a65a7f7dd994a9697bb3febd",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/notes/2026-10-09-session-mf6-weighted-candidate-geometric-audit.md"
+    },
+    {
+      "path": "research/notes/2026-10-08-session-principal-e1-d1-independent-completeness-audit.md",
+      "sha256": "c95b61b294fb0cce0b48b03623377c1d358aeaf07d49d201df68175735988e73",
+      "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/notes/2026-10-08-session-principal-e1-d1-independent-completeness-audit.md"
+    }
+  ],
+  "accepted_antecedent_source": {
+    "source": "research/computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py",
+    "sha256": "7097d53e51925392ca9306ec422270346e6e1982b2e89defe900b0d1e9556f21",
+    "snapshot": "research/validation/2026-10-09-mf6-weighted-candidate-audit/accepted-antecedent-irreducibility-source.py",
+    "scope": "Previously accepted absolute-irreducibility proof. Read/audited, not rerun here."
+  },
+  "accepted_scope": "Necessary finite Delta=0 locus with at most630 distinct principal weighted parameter points on H=0,U!=0 for a nonnormal mate carrier; no exact zero-list, nonnormal-locus equality, or candidate exclusion.",
+  "runs_count": 1,
+  "independent_note_sha256": "e1e0d7e05d0c825c141d68fc6ad4ec2ec0220c2948a492d5dd895c15efcaab9d"
+}

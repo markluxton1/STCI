@@ -1,0 +1,39 @@
+PASS 1 actual determinant beta
+PASS 2 actual rt coefficient on cubic hyperplane
+PASS 3 actual r squared coefficient on cubic hyperplane
+PASS 4 factor coefficient expansion including equal factors
+PASS 5 rt and constant coefficients vanish after necessary substitutions
+PASS 6 r squared coefficient is 3 delta cubed Q2
+PASS 7 t coefficient minus r squared coefficient is 3 delta cubed Q0
+PASS 8 r coefficient is delta fourth Q1
+PASS 9 PAIR equals modulus-free coefficient difference
+PASS 10 all residual coefficients reconstructed
+PASS 11 unused additional matching equation equals Eeq
+PASS 12 unused additional matching equation equals Peq
+PASS 13 two inverse separation expressions differ by PAIR
+PASS 14 type 15 invariant h equation
+PASS 15 type 15 invariant p expression
+PASS 16 type 24 invariant h equation
+PASS 17 type 24 invariant p expression
+PASS 18 type 33 invariant s equation
+PASS 19 type 33 invariant p equation
+PASS 20 15/15 exact expression
+PASS 21 15/24 exact expression
+PASS 22 15/33 exact expression
+PASS 23 24/24 exact expression
+PASS 24 24/33 exact expression
+PASS 25 33/33 exact expression
+PASS 26 15/15 unit ideal including equal factors
+PASS 27 15/24 unit ideal
+PASS 28 15/33 unit ideal
+PASS 29 24/24 unit ideal including equal factors
+PASS 30 24/33 unit ideal
+PASS 31 33/33 unit ideal including equal factors
+PASS 32 15 repeated cubic explicit diagonal
+PASS 33 24 repeated cubic explicit diagonal
+PASS 34 33 repeated cubic explicit diagonal
+PASS 35 15/24 forced e value is incompatible
+PASS 36 24/24 distinct e roots contradiction
+PASS 37 24/24 same sign e value incompatible
+PASS 38 24/24 opposite sign e value incompatible
+FINAL PASS 38 independent algebra identities and unit-ideal conditions

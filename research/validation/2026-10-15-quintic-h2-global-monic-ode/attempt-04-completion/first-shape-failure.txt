@@ -1,0 +1,1 @@
+Initial shape postprocessor found all17 entries but compared first-entry formatting spaces literally across joined matrix groups. Assertion failed before writing final artifacts. Repaired only by stripping boundary whitespace from each expanded polynomial entry. No polynomial construction or algebraic check changed.

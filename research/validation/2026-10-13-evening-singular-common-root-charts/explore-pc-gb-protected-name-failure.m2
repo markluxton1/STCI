@@ -1,0 +1,12 @@
+pcBase=QQ[q]; pcField=frac(pcBase/ideal(q^2-6*q+6));
+normalizedRing=pcField[ww,y,x,dd,MonomialOrder=>Eliminate 2]; qvalue=sub(pcField_0,normalizedRing);
+origRing=QQ[delta,a,B,q];
+uFiles=apply(0..7,i->value get ("research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u"|toString i|".txt"));
+mapper=map(normalizedRing,origRing,{normalizedRing_3,normalizedRing_3*normalizedRing_1,normalizedRing_3*normalizedRing_2-normalizedRing_3*normalizedRing_1*qvalue,qvalue});
+uPc=apply(uFiles,x->mapper(x));
+low=apply(uPc,x->x//normalizedRing_3^5);
+print("first quotient degrees="|toString apply(low,x->degree x));
+print("begin three Taylor equations delta saturated");
+II=ideal(take(low,3)) + ideal(normalizedRing_3*normalizedRing_0-1);
+print gens gb II;
+print "complete three Taylor equations";

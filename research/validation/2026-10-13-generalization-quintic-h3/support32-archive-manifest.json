@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-14T15:55:18.560562+00:00",
+  "scope": "archive integrity only; verified membership identities are not replayed",
+  "witnesses": [
+    {
+      "archive": "research/validation/2026-10-13-generalization-quintic-h3/support32-witness.txt.gz",
+      "archive_bytes": 50074835,
+      "archive_sha256": "e6fd63c0836303ae74923e10824c7c7d02717f5602e80b8a29bdadb39befce01",
+      "uncompressed_bytes": 107657203,
+      "uncompressed_sha256": "65feb2e88ea19fd28d67512628a28915d05d1c7a44bd657fe7e99ada2910905b"
+    },
+    {
+      "archive": "research/validation/2026-10-13-generalization-quintic-h3/support32-subset-witness.txt.gz",
+      "archive_bytes": 50074842,
+      "archive_sha256": "c8e09ac154efcf5617a8f06e93160d68f2b0b4f1e4cdaf9a0dc3624d40b1b5fc",
+      "uncompressed_bytes": 107657203,
+      "uncompressed_sha256": "65feb2e88ea19fd28d67512628a28915d05d1c7a44bd657fe7e99ada2910905b"
+    }
+  ],
+  "same_uncompressed_content": true
+}

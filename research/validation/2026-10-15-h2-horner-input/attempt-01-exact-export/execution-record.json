@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-15T19:12:09.179356+00:00",
+  "command": [
+    "/private/tmp/stci-h2-horner-input-2026-10-15",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-h2-horner-input/attempt-01-exact-export",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-0.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-1.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-2.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-3.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-4.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-5.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-6.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-7.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-8.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-9.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-10.txt",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-04-flint-preparation/normalized-generator-11.txt"
+  ],
+  "timeout_seconds": 30,
+  "scope": "Format-only conversion / load; no generator reconstruction, GB, saturation, or elimination.",
+  "exit_code": -6,
+  "status": "failed",
+  "elapsed_seconds": 0.3379040410000016,
+  "finished_utc": "2026-10-15T19:12:09.517466+00:00"
+}

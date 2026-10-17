@@ -1,0 +1,133 @@
+{
+  "scope": "Independent literal exact arithmetic identity audit; no accepted script reruns and no geometric acceptance claim",
+  "arithmetic": "Python standard library fractions.Fraction; restricted AST parsing; sparse polynomial convolution; fraction-free division",
+  "input_files": [
+    {
+      "path": "research/validation/2026-10-13-h3-zero-chart-conductor-new/new-exact-support-incidence.json",
+      "sha256": "d524c8efc2294ffdfc0f6331aedcbe5b1f8a4f90dd2ade2ce33be2a3beb9443e"
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-h3-proportional/lambda1-compact-numerators.txt",
+      "sha256": "cdfc5957feaf5513f856f85093a3b766e650e5141f1b754abc3796521128a4e1"
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-h3-proportional/lambda1-compact-denominators.txt",
+      "sha256": "57c6c5500ca65c34867487a7149710717ad8025333ed0ddad33989917c1add4b"
+    },
+    {
+      "path": "research/validation/2026-10-13-evening-h3-proportional/lambda1-bezout.txt",
+      "sha256": "08e1d5234d7be89d4ac11c9f22d71f5bd69c9d0e793dec1afec51881acf27a88"
+    }
+  ],
+  "checks": [
+    {
+      "name": "h3-Q5-monic-degree-five",
+      "passed": true,
+      "detail": "Q5 is monic of degree 5 in p"
+    },
+    {
+      "name": "h3-original-octic-factor-binding",
+      "passed": true,
+      "detail": "S*Q5 = (9/2)*captured zero_P_F"
+    },
+    {
+      "name": "h3-original-support-division-product",
+      "passed": true,
+      "detail": "Q5*captured quotient + captured remainder = S^5"
+    },
+    {
+      "name": "h3-remainder-degree",
+      "passed": true,
+      "detail": "captured remainder has p-degree below 5"
+    },
+    {
+      "name": "h3-original-generator-list-binding",
+      "passed": true,
+      "detail": "five original coefficient lists equal the captured bivariate remainder"
+    },
+    {
+      "name": "h3-bezout-list-length",
+      "passed": true,
+      "detail": "one captured witness per original generator"
+    },
+    {
+      "name": "h3-original-generator-bezout-product",
+      "passed": true,
+      "detail": "sum of five captured coefficient/witness products is exactly 1"
+    },
+    {
+      "name": "h3-captured-binary-octic-coordinate-swap",
+      "passed": true,
+      "detail": "FJ(p,j) = (p-1)^8*FP(p/(p-1),-j)"
+    },
+    {
+      "name": "h3-conormal-coordinate-swap",
+      "passed": true,
+      "detail": "(-2/3)*(p-1)^3*S(p/(p-1),-j) equals displayed zero-J conormal"
+    },
+    {
+      "name": "lambda1-original-generator-and-matrix-shape",
+      "passed": true,
+      "detail": "four numerators, four denominators, and a 4 by 1 captured witness matrix"
+    },
+    {
+      "name": "lambda1-original-generator-bezout-product",
+      "passed": true,
+      "detail": "sum of four captured numerator/witness products is exactly 1"
+    },
+    {
+      "name": "lambda1-captured-denominator-factors",
+      "passed": true,
+      "detail": "denominators are respectively 32,256,512,512 times (45*dl^2-38*dl-29)^9"
+    },
+    {
+      "name": "lambda1-original-numerator-denominator-remainder-binding",
+      "passed": true,
+      "detail": "cleared H^4 minus captured remainder is divisible by Q4; 9 fraction-free division steps"
+    },
+    {
+      "name": "lambda1-leading-coefficient-binding",
+      "passed": true,
+      "detail": "Q4 leading q coefficient equals 2*(45*dl^2-38*dl-29)"
+    },
+    {
+      "name": "lambda1-leading-drop-infinity-separation",
+      "passed": true,
+      "detail": "T=(dl+1)*(45*dl-83)+54; H infinity coefficient is dl+1"
+    },
+    {
+      "name": "lambda1-extra-A4-root-separation",
+      "passed": true,
+      "detail": "Q4(0)=-400*dl, hence no residual A4 root on dl nonzero"
+    }
+  ],
+  "check_count": 16,
+  "h3_original_remainder_generator_degrees": [
+    12,
+    12,
+    11,
+    10,
+    11
+  ],
+  "h3_captured_witness_degrees": [
+    11,
+    11,
+    -1,
+    -1,
+    -1
+  ],
+  "lambda1_original_numerator_degrees": [
+    22,
+    22,
+    22,
+    22
+  ],
+  "lambda1_captured_witness_degrees": [
+    7,
+    7,
+    7,
+    7
+  ],
+  "lambda1_denominator_open_chart": "45*dl^2-38*dl-29 != 0",
+  "remaining_scope": "The arithmetic verifies the captured original generator certificates and their remainder binding. Normalization/conductor geometry, admissibility, and the proportional-stratum coverage are outside this audit."
+}

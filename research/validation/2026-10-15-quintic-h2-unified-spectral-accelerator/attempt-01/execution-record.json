@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "started_at": "2026-10-16T01:12:36.974780+00:00",
+  "finished_at": "2026-10-16T01:12:37.380757+00:00",
+  "exit_code": 0,
+  "source_sha256": "5545bd92b2e72e73bcf38a6ff5e4fb2c19d7996e07ad6987906e945fe23fd5ca",
+  "scope": "NEW Sym5 characteristic/Cayley-Hamilton and universal projected ODE eigen-residual identities; accepted Sym6 characteristic not replayed; no actual map substitution"
+}

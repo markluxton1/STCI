@@ -1,0 +1,7 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_localcoh_conormal_splitting_2026_10_08.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: complete necessary degree data and every Laurent cup-product coefficient.
+PASS: all four e1 determinant expressions independently reconstructed; exact required ranks3,2,1,0.
+PASS: e2 ranks1,0 and e0 full-rank criteria, with their distinct twists.
+OPEN: actual ambient extension classes, unique-quotient quartic image and remaining positive-D2 strata.

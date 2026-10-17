@@ -1,0 +1,13 @@
+{
+  "source_sha256": "1c90f543c86e5d2e9c0d560d11a690b7aaba450035415953be626bcc46b6b8af",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2"
+  ],
+  "tool_chunk_id": "313a51",
+  "exit_code": 1,
+  "failure": "global-resultant-division assertion failed; coefficient-ring polynomial quotient requires fraction field or flat ring",
+  "stderr_start": "/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/methods.m2:291:28:(1):[8]: error: assertion failed",
+  "final_diagnosis": "Unparenthesized multiline M2 assignments omitted subsequent-line terms; the tentative quotient diagnosis was superseded by inspecting parsed K and E."
+}

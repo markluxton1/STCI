@@ -1,0 +1,58 @@
+[
+  {
+    "name": "main",
+    "commit": {
+      "sha": "7662a2ebb1dd561c1fb5e3c8958799b37d962c41",
+      "url": "https://api.github.com/repos/markluxton1/STCI/commits/7662a2ebb1dd561c1fb5e3c8958799b37d962c41"
+    },
+    "protected": false
+  },
+  {
+    "name": "research/e1-jet-rebuild-2026-10-07",
+    "commit": {
+      "sha": "d5bed93e8c1ea09c2e11f0e096085da641819080",
+      "url": "https://api.github.com/repos/markluxton1/STCI/commits/d5bed93e8c1ea09c2e11f0e096085da641819080"
+    },
+    "protected": false
+  },
+  {
+    "name": "research/entirely-thick-rees-valuation",
+    "commit": {
+      "sha": "a843888ce15b06247c576f8f717bec6b7ef5a352",
+      "url": "https://api.github.com/repos/markluxton1/STCI/commits/a843888ce15b06247c576f8f717bec6b7ef5a352"
+    },
+    "protected": false
+  },
+  {
+    "name": "research/jet-discrepancy-order-one-2026-10-06",
+    "commit": {
+      "sha": "f512d4d28da1fd6700aa4e6d2396229712d133d0",
+      "url": "https://api.github.com/repos/markluxton1/STCI/commits/f512d4d28da1fd6700aa4e6d2396229712d133d0"
+    },
+    "protected": false
+  },
+  {
+    "name": "research/normal-rational-carrier-classification",
+    "commit": {
+      "sha": "4b936074f68038cfaa7ec51f5a960f23289627cd",
+      "url": "https://api.github.com/repos/markluxton1/STCI/commits/4b936074f68038cfaa7ec51f5a960f23289627cd"
+    },
+    "protected": false
+  },
+  {
+    "name": "research/ultra-resume-2026-10-06",
+    "commit": {
+      "sha": "b16e4322c7b955147ce2ed241a1a0316a8e1a67a",
+      "url": "https://api.github.com/repos/markluxton1/STCI/commits/b16e4322c7b955147ce2ed241a1a0316a8e1a67a"
+    },
+    "protected": false
+  },
+  {
+    "name": "ultra_mode",
+    "commit": {
+      "sha": "2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647",
+      "url": "https://api.github.com/repos/markluxton1/STCI/commits/2e53a7b5e9d4c96b5741ee4a4746a4a9ff0ad647"
+    },
+    "protected": false
+  }
+]

@@ -1,0 +1,18 @@
+Base=QQ[delta,a,B,G,J,p];
+R=Base[r];
+Z=G*p*(2-p)+J*(3-p);
+Ac=(3*delta^2+G)*p*(2-p)+J*(3-p);
+Q2=Ac*r^2+delta*(delta^2*p*(p-3)+3*B*p*(2-p)+G*(2-p)-J)*r+delta^2*(B*p*(p-3)-G);
+N=delta^2*(p*r-delta)*(3*(2-p)*r-delta*(3-p));
+M=delta^2*(3*J*r^2+delta*(2*G-J)*r-delta^2*G);
+Psi=p^2*Z^2*r^4+p^2*Z*(2*r^2+r-a)*N+p^2*N^2-M*Z;
+C3=Psi//(p*r-delta);
+assert(Psi==(p*r-delta)*C3);
+assert(coefficient(r^3,C3)==p*Ac^2);
+lcLinear=coefficient(r^2,C3)-p*Ac*coefficient(r,Q2);
+LinRem=Ac*C3-(p*Ac^2*r+lcLinear)*Q2;
+assert(coefficient(r^3,LinRem)==0 and coefficient(r^2,LinRem)==0);
+print("quotient constant numerator factor: "|toString factor lcLinear);
+print("linear remainder coefficient factor: "|toString factor coefficient(r,LinRem));
+print("linear remainder constant factor: "|toString factor sub(LinRem,{r=>0}));
+quit;

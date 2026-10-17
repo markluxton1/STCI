@@ -1,0 +1,12950 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_normal_nonreduced_trees.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-06-session/isolated-additional-2026-10-07
+Stabilized source and dependency hashes confirmed before run.
+
+{
+  "status": "PASS",
+  "scope": "necessary finite nonreduced normal-quartic exceptional-tree data",
+  "unweighted_nonisomorphic_tree_counts_by_size": {
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 6,
+    "7": 11,
+    "8": 23,
+    "9": 47,
+    "10": 106,
+    "11": 235,
+    "12": 551
+  },
+  "diagonal_modifications_tested": 381802,
+  "admissible_positive_integral_canonical_cycles": 195,
+  "admissible_cycles_by_d": {
+    "1": 9,
+    "2": 59,
+    "3": 127
+  },
+  "all_exact_correction_matches": 236,
+  "mate_degree_at_most_five_compression_exclusions": 224,
+  "post_compression_candidate_count": 12,
+  "post_compression_candidates": [
+    {
+      "cycle_number": 5,
+      "d": 3,
+      "rankE": 5,
+      "selected_vertex_zero_based": 0,
+      "t": 2,
+      "nonrational_correction": "2",
+      "nonrational_index": 3,
+      "nonrational_full_column": [
+        "2",
+        "2/3",
+        "2/3",
+        "2/3",
+        "1"
+      ],
+      "ADE_rank": 4,
+      "ADE_order": 4,
+      "ADE_correction": "2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1"
+      ],
+      "compressed_mate_degree": 6
+    },
+    {
+      "cycle_number": 5,
+      "d": 3,
+      "rankE": 5,
+      "selected_vertex_zero_based": 0,
+      "t": 2,
+      "nonrational_correction": "2",
+      "nonrational_index": 3,
+      "nonrational_full_column": [
+        "2",
+        "2/3",
+        "2/3",
+        "2/3",
+        "1"
+      ],
+      "ADE_rank": 5,
+      "ADE_order": 4,
+      "ADE_correction": "2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A3^2"
+      ],
+      "compressed_mate_degree": 6
+    },
+    {
+      "cycle_number": 5,
+      "d": 3,
+      "rankE": 5,
+      "selected_vertex_zero_based": 0,
+      "t": 2,
+      "nonrational_correction": "2",
+      "nonrational_index": 3,
+      "nonrational_full_column": [
+        "2",
+        "2/3",
+        "2/3",
+        "2/3",
+        "1"
+      ],
+      "ADE_rank": 6,
+      "ADE_order": 4,
+      "ADE_correction": "2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A3^2",
+        "A3^2"
+      ],
+      "compressed_mate_degree": 6
+    },
+    {
+      "cycle_number": 5,
+      "d": 3,
+      "rankE": 5,
+      "selected_vertex_zero_based": 0,
+      "t": 2,
+      "nonrational_correction": "2",
+      "nonrational_index": 3,
+      "nonrational_full_column": [
+        "2",
+        "2/3",
+        "2/3",
+        "2/3",
+        "1"
+      ],
+      "ADE_rank": 7,
+      "ADE_order": 3,
+      "ADE_correction": "2",
+      "ADE_index": 4,
+      "ADE_configuration": [
+        "A1^1",
+        "A3^1",
+        "A3^1"
+      ],
+      "compressed_mate_degree": 12
+    },
+    {
+      "cycle_number": 5,
+      "d": 3,
+      "rankE": 5,
+      "selected_vertex_zero_based": 0,
+      "t": 2,
+      "nonrational_correction": "2",
+      "nonrational_index": 3,
+      "nonrational_full_column": [
+        "2",
+        "2/3",
+        "2/3",
+        "2/3",
+        "1"
+      ],
+      "ADE_rank": 7,
+      "ADE_order": 4,
+      "ADE_correction": "2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A3^2",
+        "D4^1"
+      ],
+      "compressed_mate_degree": 6
+    },
+    {
+      "cycle_number": 20,
+      "d": 3,
+      "rankE": 7,
+      "selected_vertex_zero_based": 1,
+      "t": 2,
+      "nonrational_correction": "2",
+      "nonrational_index": 3,
+      "nonrational_full_column": [
+        "4/3",
+        "2",
+        "2/3",
+        "2/3",
+        "2/3",
+        "2/3",
+        "1"
+      ],
+      "ADE_rank": 4,
+      "ADE_order": 4,
+      "ADE_correction": "2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1"
+      ],
+      "compressed_mate_degree": 6
+    },
+    {
+      "cycle_number": 20,
+      "d": 3,
+      "rankE": 7,
+      "selected_vertex_zero_based": 1,
+      "t": 2,
+      "nonrational_correction": "2",
+      "nonrational_index": 3,
+      "nonrational_full_column": [
+        "4/3",
+        "2",
+        "2/3",
+        "2/3",
+        "2/3",
+        "2/3",
+        "1"
+      ],
+      "ADE_rank": 5,
+      "ADE_order": 4,
+      "ADE_correction": "2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A3^2"
+      ],
+      "compressed_mate_degree": 6
+    },
+    {
+      "cycle_number": 43,
+      "d": 3,
+      "rankE": 8,
+      "selected_vertex_zero_based": 1,
+      "t": 2,
+      "nonrational_correction": "2",
+      "nonrational_index": 3,
+      "nonrational_full_column": [
+        "4/3",
+        "2",
+        "4/3",
+        "2/3",
+        "2/3",
+        "1",
+        "2/3",
+        "2/3"
+      ],
+      "ADE_rank": 4,
+      "ADE_order": 4,
+      "ADE_correction": "2",
+      "ADE_index": 2,
+      "ADE_configuration": [
+        "A1^1",
+        "A1^1",
+        "A1^1",
+        "A1^1"
+      ],
+      "compressed_mate_degree": 6
+    },
+    {
+      "cycle_number": 45,
+      "d": 3,
+      "rankE": 8,
+      "selected_vertex_zero_based": 2,
+      "t": 2,
+      "nonrational_correction": "17/6",
+      "nonrational_index": 12,
+      "nonrational_full_column": [
+        "13/4",
+        "3/2",
+        "17/6",
+        "13/6",
+        "1/2",
+        "3/4",
+        "17/12",
+        "13/12"
+      ],
+      "ADE_rank": 3,
+      "ADE_order": 2,
+      "ADE_correction": "7/6",
+      "ADE_index": 6,
+      "ADE_configuration": [
+        "A1^1",
+        "A2^1"
+      ],
+      "compressed_mate_degree": 12
+    },
+    {
+      "cycle_number": 45,
+      "d": 3,
+      "rankE": 8,
+      "selected_vertex_zero_based": 3,
+      "t": 2,
+      "nonrational_correction": "17/6",
+      "nonrational_index": 12,
+      "nonrational_full_column": [
+        "13/4",
+        "3/2",
+        "13/6",
+        "17/6",
+        "1/2",
+        "3/4",
+        "13/12",
+        "17/12"
+      ],
+      "ADE_rank": 3,
+      "ADE_order": 2,
+      "ADE_correction": "7/6",
+      "ADE_index": 6,
+      "ADE_configuration": [
+        "A1^1",
+        "A2^1"
+      ],
+      "compressed_mate_degree": 12
+    },
+    {
+      "cycle_number": 49,
+      "d": 3,
+      "rankE": 8,
+      "selected_vertex_zero_based": 5,
+      "t": 2,
+      "nonrational_correction": "17/6",
+      "nonrational_index": 6,
+      "nonrational_full_column": [
+        "13/2",
+        "4",
+        "14/3",
+        "13/3",
+        "3/2",
+        "17/6",
+        "13/6",
+        "1/2"
+      ],
+      "ADE_rank": 3,
+      "ADE_order": 2,
+      "ADE_correction": "7/6",
+      "ADE_index": 6,
+      "ADE_configuration": [
+        "A1^1",
+        "A2^1"
+      ],
+      "compressed_mate_degree": 6
+    },
+    {
+      "cycle_number": 49,
+      "d": 3,
+      "rankE": 8,
+      "selected_vertex_zero_based": 6,
+      "t": 2,
+      "nonrational_correction": "17/6",
+      "nonrational_index": 6,
+      "nonrational_full_column": [
+        "13/2",
+        "4",
+        "13/3",
+        "14/3",
+        "3/2",
+        "13/6",
+        "17/6",
+        "1/2"
+      ],
+      "ADE_rank": 3,
+      "ADE_order": 2,
+      "ADE_correction": "7/6",
+      "ADE_index": 6,
+      "ADE_configuration": [
+        "A1^1",
+        "A2^1"
+      ],
+      "compressed_mate_degree": 6
+    }
+  ],
+  "Type_D_geometric_passage_input": "t=1 on a smooth embedded curve",
+  "survivors_after_Type_D_passage": 0,
+  "all_admissible_cycles": [
+    {
+      "number": 0,
+      "d": 1,
+      "rank": 5,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 1,
+      "d": 2,
+      "rank": 5,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "diagonal": [
+        2,
+        4,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 2,
+      "d": 2,
+      "rank": 5,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 3,
+      "d": 3,
+      "rank": 5,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "diagonal": [
+        2,
+        5,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 4,
+      "d": 3,
+      "rank": 5,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "diagonal": [
+        2,
+        4,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 5,
+      "d": 3,
+      "rank": 5,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 6,
+      "d": 2,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 7,
+      "d": 3,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "diagonal": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 8,
+      "d": 2,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 9,
+      "d": 3,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "anticanonical_coefficients": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 10,
+      "d": 1,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 11,
+      "d": 2,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 12,
+      "d": 2,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 13,
+      "d": 2,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 14,
+      "d": 3,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        5,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 15,
+      "d": 3,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 16,
+      "d": 3,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 17,
+      "d": 3,
+      "rank": 6,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 18,
+      "d": 2,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 19,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 20,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 21,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 22,
+      "d": 2,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 23,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 24,
+      "d": 1,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 25,
+      "d": 2,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 26,
+      "d": 2,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 27,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 28,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 29,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 30,
+      "d": 1,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 31,
+      "d": 2,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 32,
+      "d": 2,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 33,
+      "d": 2,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 34,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 35,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 36,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 37,
+      "d": 3,
+      "rank": 7,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 38,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 39,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 40,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 41,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 42,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 43,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 44,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 45,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 46,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 47,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        6,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 48,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 49,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "anticanonical_coefficients": [
+        6,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 50,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 51,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 52,
+      "d": 1,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 53,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 54,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 55,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 56,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        3
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 57,
+      "d": 1,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 58,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 59,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 60,
+      "d": 2,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 61,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 62,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 63,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 64,
+      "d": 3,
+      "rank": 8,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 65,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 66,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 67,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 68,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 69,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 70,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 71,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 72,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 73,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 74,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 75,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 76,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 77,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 78,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 79,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        9,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 80,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        6,
+        3,
+        3,
+        6,
+        2,
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "number": 81,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 82,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 83,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 84,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        8,
+        6,
+        6,
+        4,
+        4,
+        4,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 85,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "anticanonical_coefficients": [
+        8,
+        6,
+        6,
+        4,
+        4,
+        4,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 86,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 87,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 88,
+      "d": 1,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 89,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 90,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 91,
+      "d": 1,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 92,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 93,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 94,
+      "d": 2,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 95,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 96,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 97,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 98,
+      "d": 3,
+      "rank": 9,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 99,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 100,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 101,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 102,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        4,
+        2,
+        2,
+        3,
+        2,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 103,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 104,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 105,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 106,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 107,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 108,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 109,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 110,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8,
+          9
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 111,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8,
+          9
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 112,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8,
+          9
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 113,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        6,
+        3,
+        3,
+        6,
+        2,
+        6,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "number": 114,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 115,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 116,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 117,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        5,
+        4,
+        4,
+        2,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 118,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        5,
+        4,
+        4,
+        2,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 119,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 120,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        12,
+        9,
+        9,
+        6,
+        6,
+        6,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 121,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 122,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 123,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 124,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 125,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 126,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 127,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        12,
+        10,
+        8,
+        6,
+        8,
+        4,
+        6,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 128,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "anticanonical_coefficients": [
+        12,
+        10,
+        8,
+        6,
+        8,
+        4,
+        6,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 129,
+      "d": 1,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 130,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 131,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 132,
+      "d": 2,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 133,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 134,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 135,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 136,
+      "d": 3,
+      "rank": 10,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 137,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 138,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 139,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 140,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 141,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 142,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 143,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 144,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        3,
+        4,
+        4,
+        2,
+        2,
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 145,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        4,
+        2,
+        2,
+        5,
+        1,
+        1,
+        6,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "number": 146,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 147,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 148,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 149,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        4,
+        2,
+        3,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 150,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 151,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 152,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 153,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 154,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        6,
+        3,
+        3,
+        6,
+        2,
+        6,
+        1,
+        6,
+        3,
+        3
+      ]
+    },
+    {
+      "number": 155,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 156,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 157,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 158,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        4,
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 159,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 160,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        4,
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 161,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 162,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        8,
+        7,
+        5,
+        4,
+        6,
+        2,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 163,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        18,
+        15,
+        12,
+        9,
+        12,
+        6,
+        9,
+        6,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 164,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "anticanonical_coefficients": [
+        8,
+        7,
+        5,
+        4,
+        6,
+        2,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 165,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 166,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 167,
+      "d": 2,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 168,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 169,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 170,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 171,
+      "d": 3,
+      "rank": 11,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 172,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 173,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 174,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 175,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 176,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 177,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 178,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 179,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 180,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 181,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 182,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          5,
+          10,
+          11
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 183,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          5,
+          10,
+          11
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "diagonal": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 184,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        4,
+        2,
+        5,
+        1,
+        6,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "number": 185,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        6,
+        3,
+        3,
+        6,
+        2,
+        6,
+        1,
+        6,
+        6,
+        3,
+        3
+      ]
+    },
+    {
+      "number": 186,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 187,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 188,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        8,
+        7,
+        6,
+        3,
+        6,
+        4,
+        5,
+        2,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "number": 189,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        4,
+        4,
+        2,
+        2,
+        4,
+        1,
+        4,
+        4,
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "number": 190,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 191,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 192,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 193,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 194,
+      "d": 3,
+      "rank": 12,
+      "adjacency": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "diagonal": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "anticanonical_coefficients": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    }
+  ]
+}

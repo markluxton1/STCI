@@ -1,0 +1,1 @@
+(Jc)^2*(delta)^6*(3*delta^4*Gc+6*delta^2*Bc*Gc+4*delta^2*Gc^2-3*delta^2*Bc*Jc+delta^2*Gc*Jc+2*Bc*Gc^2+Gc^3-9*Bc^2*Jc-5*Bc*Gc*Jc-Bc*Jc^2)*(-1)

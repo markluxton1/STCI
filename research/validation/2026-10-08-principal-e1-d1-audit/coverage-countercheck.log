@@ -1,0 +1,44 @@
+{
+  "scope": "Independent complete ambient first-frame and parameter-complement countercheck; full norm and boundary replays separate",
+  "source_sha256": "815cdddbb7fcda868ec13156c077840da21ed914228260a91af1b4b9e98773b3",
+  "input_sha256": {
+    "research/scratch/session-mf6-e1-principal-contact-2026-10-08.json": "bc32db62b6d87e15300168a47f50d6bf3cd952d0d19b60ad52fc5ae8cdfa9818"
+  },
+  "M1_pivot_columns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    11,
+    12,
+    14,
+    15
+  ],
+  "M1_pivot_determinant": "p**4*(p - r)*(2*r - 1)*(2*p - 4*r**2 - 4*r - 1)**2/256",
+  "raw_kernel_free_rows": [
+    7,
+    8,
+    9,
+    10,
+    13,
+    16,
+    17
+  ],
+  "raw_kernel_free_diagonal": "-p**4*(p - r)*(2*r - 1)*(2*p - 4*r**2 - 4*r - 1)**2/256",
+  "complement_P_zero": "r=-1/2 primitive point or Q roots with p=2r+1",
+  "complement_T_zero": "r=+/-1/2; retained genuine rhalf points p2,p8",
+  "c1zero_infinity_correction_norm": 24,
+  "b0zero_cubic_mod5_values": [
+    3,
+    3,
+    3,
+    4,
+    2
+  ],
+  "b0zero_cubic_irreducible": true,
+  "retained_S_zero_point_rank_in_I4": 17,
+  "not_claimed": "No all-mate STCI exclusion; actual boundary ranks supplied by separate complete35 sources"
+}
