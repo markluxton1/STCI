@@ -1,8 +1,10 @@
+> **Historical Ultra snapshot.** Copied without mathematical editing from [original source](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/RESEARCH_UPDATE_2026-10-07.md). Relative links were converted to original-branch URLs so they do not falsely point into the archive. This document is provenance, not current research authority.
+
 # Sustained research update — 2026-10-06 through 2026-10-13
 
 This record integrates the interrupted session and its continuation.
 The authoritative short frontier is
-[AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md). The universal
+[AUDITED_STATE_2026-10-07.md](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/AUDITED_STATE_2026-10-07.md). The universal
 integral projective-curve problem and the unrestricted characteristic-zero
 question for C0 remain unresolved. Results below retain their carrier,
 characteristic, direction and defect hypotheses. Agreement of programs
@@ -11,7 +13,7 @@ are supplied separately.
 
 ## October 12 evening nonendpoint frontier
 
-The [new acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+The [new acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-12-session-nonendpoint-results-acceptance.md)
 excludes all admissible nonendpoint projections with coprime homogeneous
 conormal cubics in every mate degree. The surviving necessary locus is
 `Res_h(Ph,Jh)=0`, including finite/infinity and repeated common roots.
@@ -31,7 +33,7 @@ remain open. The evening began from externally observed clean HEAD
 
 ## October 12 morning post-seal quintic frontier (historical)
 
-The [new root acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+The [new root acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
 excludes every admissible endpoint projection in the genus-one quintic
 A4 normalization lane, with arbitrary mate degree. Complete a!=0 support
 and higher-jet proofs, a=0,b!=0 polynomial-support proof, and a=b=0
@@ -48,35 +50,35 @@ no interrupted draft or old integrity seal is represented as a new PASS.
 
 ## October 10 accepted frontier
 
-The [new root acceptance](notes/2026-10-10-session-results-acceptance.md)
+The [new root acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-10-session-results-acceptance.md)
 supersedes older open genus-one language below. Every integral quartic
 containing fixed C0 whose normalization has sectional genus one is now
 excluded in every characteristic-zero mate degree. The entire ribbon-net
 and fixed projection/conductor chain, all five contact partitions, and
 all positive power exponents have separate complete audits. Two new
 independent M2 companions (42 and 29 exact controls) passed an
-[isolated root replay](validation/2026-10-10-genus-one-root-replay/execution-manifest.json).
+[isolated root replay](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/validation/2026-10-10-genus-one-root-replay/execution-manifest.json).
 The fixed deleted-middle center is essential; this theorem is not
 automatically a theorem about every smooth rational quartic embedding.
 
-For genus two, the [actual conductor-line theorem](notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
+For genus two, the [actual conductor-line theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
 is accepted without a mate: rational singularities, entire reduced
 downstairs line, finite flat quadratic upstairs algebra
 `O direct-sum O(-2)`, including nonreduced covers. The initial numerical
 reduction retains `(lambda,q)=(0,4),(1,3)`. The
-[bounded no-B section proof](notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md)
+[bounded no-B section proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md)
 excludes only the latter subcase where its degree-zero horizontal prime
-is absent. The [ambient line-blowup audit](notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md)
+is absent. The [ambient line-blowup audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md)
 is now accepted: the actual strict transform is normal ADE and crepant,
 and the actual conic pencil identifies both strata with length-two or
 length-three line intersections. The
-[resumed acceptance](notes/2026-10-10-session-continuation-results-acceptance.md)
+[resumed acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-10-session-continuation-results-acceptance.md)
 now excludes the whole bisection lane: the second pencil forces an
 actual Cartier double with nilideal `O(-8)`, and the ambient global
 conormal map from `O(-7)^2` cannot exist. It also excludes every
 nonendpoint trisecant section case through complete `(2,2)` divisor
 coverage and an all-length A-chain inequality. The
-[October 11 acceptance](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+[October 11 acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-results-acceptance.md)
 closes the entire endpoint triple-contact section case through the exact
 full quartic family, local branch positions and crepant normal-derivative
 contribution. This assembles the exclusion of every integral quartic
@@ -118,9 +120,9 @@ Three corrections change how the older frontier must be read:
    specified carrier. Listing only the curve components loses this
    obstruction.
 
-The [validation record](notes/2026-10-06-session-validation.md) retains
+The [validation record](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-validation.md) retains
 failed outputs, repaired claims, exact source hashes and generated data.
-The [support theorem](notes/2026-10-06-session-conductor-support.md)
+The [support theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-conductor-support.md)
 repairs the historical P-032 notation directly.
 
 ## Accepted carrier theorem: no normal quartic for C0
@@ -156,12 +158,12 @@ the numerically retained graphs is needed.
 
 Proof and independent evidence:
 
-- [Full normal-carrier proof](notes/2026-10-06-session-normal-carrier-progress.md),
+- [Full normal-carrier proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-normal-carrier-progress.md),
   including characteristic-zero coefficient descent.
-- [Independent reduced-cycle audit](notes/2026-10-07-session-normal-carrier-independent-audit.md).
-- [Independent nonreduced-tree and Type-D audit](notes/2026-10-07-session-normal-nonreduced-independent-audit.md).
-- [First exact tree verifier](computations/verify_session_normal_nonreduced_trees.py)
-  and [independent verifier](computations/verify_session_nonreduced_independent_audit.py).
+- [Independent reduced-cycle audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-normal-carrier-independent-audit.md).
+- [Independent nonreduced-tree and Type-D audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-normal-nonreduced-independent-audit.md).
+- [First exact tree verifier](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/computations/verify_session_normal_nonreduced_trees.py)
+  and [independent verifier](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/computations/verify_session_nonreduced_independent_audit.py).
 
 Nonnormal quartics and all higher minimum carrier degrees remain open.
 The old bounds 1536,4608,13824 were denominator reductions, not proofs
@@ -177,13 +179,13 @@ parameter (A,B)=(12,4), including every rank-drop and repeated-root
 case. The entire quartic fiber there is a fixed cubic times all linear
 forms, so every carrier has an incompatible plane factor.
 
-The [proof](notes/2026-10-06-session-mf6-progress.md) and
-[universal verifier](computations/verify_mf6_infinity_universal.py)
+The [proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-mf6-progress.md) and
+[universal verifier](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/computations/verify_mf6_infinity_universal.py)
 include direct polynomial minor-membership witnesses and the full
 exceptional fiber. The changed self-contained source passed a fresh
 rerun; old generic calculations alone were not used to establish this.
 
-The [primitive e=1 audit](notes/2026-10-07-session-mf6-e1-independent-audit.md)
+The [primitive e=1 audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-mf6-e1-independent-audit.md)
 now proves a stronger all-degree theorem: no quartic STCI carrier with
 L=O(-6) and D2=0 exists on C0. The four complete primitive direction
 orbits and their full quartic fibers either force a quadric factor or
@@ -192,8 +194,8 @@ four pure pencil carriers. Their finite birational affine normalizations
 are planes, with full C0 inverse image a diagonal. Equality of a mate
 pullback on two points of one normalization fiber forces
 (-kappa)^n=1, but kappa has quadratic-field norm 1/3. The
-[separate normalization audit](notes/2026-10-07-session-nonnormal-mf6-independent-audit.md)
-and [self-contained 35-column ambient verifier](computations/audit_mf6_e1_primitive_2026_10_07.py)
+[separate normalization audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-nonnormal-mf6-independent-audit.md)
+and [self-contained 35-column ambient verifier](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/computations/audit_mf6_e1_primitive_2026_10_07.py)
 check the scope independently. This excludes MF6 type (0,4), while
 types (1,3),(2,2) and the e=0 (3,6) regular-ratio residual remain open.
 
@@ -227,25 +229,25 @@ for every lower parameter, by independently checked polynomial duals.
 The remaining 22 points have factors of degrees 3,4,15 and retain their
 full affine lower lift fibres. The two boundary families
 and top zeros outside the endpoints remain open. The
-[independent endpoint audit](notes/2026-10-07-session-localcoh-independent-audit.md)
-and [Q1 closure](notes/2026-10-07-session-localcoh-q1-exception.md) give
+[independent endpoint audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-localcoh-independent-audit.md)
+and [Q1 closure](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-localcoh-q1-exception.md) give
 the exact fields, complete lift lines and all-column identities.
-The [October 8 completeness audit](notes/2026-10-08-session-first-endpoint-completeness-audit.md)
+The [October 8 completeness audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-first-endpoint-completeness-audit.md)
 checks every exceptional field against the original rational sources;
-the [second-family note](notes/2026-10-08-session-localcoh-family2-generic.md)
+the [second-family note](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-localcoh-family2-generic.md)
 records the original factor partition. The current
-[two-quadratic closure](notes/2026-10-08-session-localcoh-family2-quadratics.md)
-and [independent audit](notes/2026-10-08-session-localcoh-family2-quadratic-independent-audit.md)
+[two-quadratic closure](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-localcoh-family2-quadratics.md)
+and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-localcoh-family2-quadratic-independent-audit.md)
 include a separate exact-field implementation and fresh literal
 reconstruction of the complete actual multiplication tensor.
 
-A separate [simultaneous-target proof](notes/2026-10-07-session-localcoh-e1-simultaneous.md)
+A separate [simultaneous-target proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-localcoh-e1-simultaneous.md)
 excludes the primitive e=1,D2=0 common-quartic-ancestor lane. It retains
 the nonzero socle targets in the equations f_i=h_i*a-T_i*tau. The
 principal pencil contradicts the basepoint-free target values at two
 points; the algebraic pencils contradict the global degree-four bound
 on tau. The prior proposed single-multiplier pole argument is
-[retracted and preserved](notes/2026-10-07-session-localcoh-mf6-bridge.md),
+[retracted and preserved](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-localcoh-mf6-bridge.md),
 because it incorrectly replaced the target equation by annihilation.
 The corrected result passed a separate audit of the global normal and
 socle frames. The entire e=1,d2=1 ancestor lane is now also excluded:
@@ -254,20 +256,20 @@ complement join the six accepted endpoint exclusions. The node has
 dimension four with a common cubic and reduces to P-037; the other
 fibres have dimension one. The genuine infinity defect and all b0=0
 conjugates are retained. See the
-[independent completeness audit](notes/2026-10-08-session-principal-e1-d1-independent-completeness-audit.md).
+[independent completeness audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-principal-e1-d1-independent-completeness-audit.md).
 The surviving e=1 ancestor degrees are d2=2,3,4 with their separate
 direction exclusions. A unique quartic carrier may still require a
 different all-mate argument.
-The [intrinsic generator-bundle theorem](notes/2026-10-07-session-localcoh-conormal-splitting.md)
+The [intrinsic generator-bundle theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-localcoh-conormal-splitting.md)
 now imposes `V(4)=O(2)+O(2e+2)` on every quartic ancestor, with exact
 connecting-matrix ranks for the retained defect strata. The six degree-one
 endpoint triples and the quadric direction in every second defect are
 also separately excluded in the ancestor problem by their actual
 multiplier spaces. No STCI BF bound is imported to discard d2=4.
 
-See the [proof, complete endpoint formulas and exception factors](notes/2026-10-06-session-localcoh-progress.md),
-[corner verifier](computations/session-localcoh-corners.py), and
-[generic polynomial-dual verifier](computations/session-localcoh-origin-generic-dual.py).
+See the [proof, complete endpoint formulas and exception factors](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-localcoh-progress.md),
+[corner verifier](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/computations/session-localcoh-corners.py), and
+[generic polynomial-dual verifier](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/computations/session-localcoh-origin-generic-dual.py).
 The quartic incidence is not a non-quasi-cyclicity theorem, and there
 is no multiplier-degree upper bound for the unrestricted problem.
 
@@ -300,9 +302,9 @@ conductor and descends. This works in every characteristic; it removes
 only that asymptotic descent obligation, not divisor existence or its
 linear equivalence.
 
-Proofs: [uniform audit](notes/2026-10-06-session-uniform-audit.md),
-[thick blowup audit](notes/2026-10-06-session-thick-independent-audit.md),
-and [conductor criterion](notes/2026-10-06-session-conductor-support.md).
+Proofs: [uniform audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-uniform-audit.md),
+[thick blowup audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-thick-independent-audit.md),
+and [conductor criterion](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-conductor-support.md).
 
 ## October 8 nonnormal carrier theorems
 
@@ -325,8 +327,8 @@ duality, CM purity and polynomial 3m+1 identify the actual downstairs
 conductor with the reduced smooth cubic and make its upstairs cover
 finite flat of rank two. Integral, reducible and nonreduced upstairs
 conductors are all covered by the descent/contact argument. See the
-[applicability theorem](notes/2026-10-08-session-scroll-conductor-applicability.md)
-and [root acceptance](notes/2026-10-08-session-new-results-acceptance.md).
+[applicability theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-scroll-conductor-applicability.md)
+and [root acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-new-results-acceptance.md).
 The geometric exclusion now covers **every integral quartic with smooth
 rational quartic-scroll normalization**, in every mate degree for fixed
 C0 in characteristic zero. It retains both entire conductor schemes,
@@ -338,10 +340,10 @@ generic rank-one conductor primes meeting the smooth lift. Together
 with the F0/F2 anticanonical classes, singleton fibres and ramification,
 this exhausts all remaining conductor patterns. No global trace is
 assumed at a nongorenstein vertex. See the
-[classification](notes/2026-10-08-session-scroll-nongorenstein-cubic-classification.md),
-[exact Artin audit](notes/2026-10-08-session-scroll-artin-independent-audit.md),
-[full independent audit](notes/2026-10-08-session-scroll-nongorenstein-independent-audit.md)
-and [root reconciliation](notes/2026-10-08-session-late-results-acceptance.md).
+[classification](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-scroll-nongorenstein-cubic-classification.md),
+[exact Artin audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-scroll-artin-independent-audit.md),
+[full independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-scroll-nongorenstein-independent-audit.md)
+and [root reconciliation](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-late-results-acceptance.md).
 That theorem is scoped to its normalization class. The October 9
 structural arguments below now close every smooth normalization and
 give stronger reductions of the singular-normalization lane.
@@ -361,28 +363,28 @@ normal octic are verified. A fixed degree-210 gradient determinant
 gives a necessary locus with at most 630 distinct principal weighted
 mate parameters on the declared contact open. The determinant's zero
 list is uncomputed and it is not asserted to equal the nonnormal locus.
-The [owner proof](notes/2026-10-09-session-mf6-principal-weighted-candidate.md)
-has separate [geometry](notes/2026-10-09-session-mf6-weighted-candidate-geometric-audit.md)
-and [algebra/Bezout](notes/2026-10-09-session-mf6-weighted-candidate-algebra-independent-audit.md)
+The [owner proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-mf6-principal-weighted-candidate.md)
+has separate [geometry](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-mf6-weighted-candidate-geometric-audit.md)
+and [algebra/Bezout](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-mf6-weighted-candidate-algebra-independent-audit.md)
 audits. Fixed padding retains multiple roots at infinity; zero chosen
 generator fibers are retained rather than removed by division.
 
-The [October 8 checkpoint](notes/2026-10-08-session-checkpoint.md)
+The [October 8 checkpoint](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-checkpoint.md)
 preserves these proofs, historical interruptions and exact next
-boundaries. The [late acceptance record](notes/2026-10-08-session-late-results-acceptance.md)
+boundaries. The [late acceptance record](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-late-results-acceptance.md)
 gives the completed proofs and current scope. The
-[reconciled validation index](validation/2026-10-08-continuation-index/index.json)
+[reconciled validation index](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/validation/2026-10-08-continuation-index/index.json)
 counts 97 distinct top-level sources with latest PASS records and 110
 explicitly indexed executions. It retains both continuation failures
 and their repairs, and openly records one superseded source-byte loss
 caused by the now-fixed repeated-copy behavior of the snapshot driver.
-The [full proof](notes/2026-10-07-session-veronese-pencil-classification.md)
-and [independent audit](notes/2026-10-08-session-veronese-allmate-independent-audit.md)
+The [full proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-07-session-veronese-pencil-classification.md)
+and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-veronese-allmate-independent-audit.md)
 retain every fiber, global-unit and characteristic hypothesis.
 
 ## October 9 structural reductions of every quartic normalization
 
-The [new root acceptance](notes/2026-10-09-session-results-acceptance.md)
+The [new root acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-results-acceptance.md)
 collects the proofs, independent audits and exact evidence for these
 stronger results:
 
@@ -394,33 +396,33 @@ stronger results:
   cone fiber/differential proof closes the fourth case. Every integral
   quartic with smooth normalization is therefore excluded in every
   mate degree for C0; no other smooth-polarization lane remains under
-  a mate. See the [classification and cone proof](notes/2026-10-09-session-normalization-sectional-genus-zero.md).
+  a mate. See the [classification and cone proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-normalization-sectional-genus-zero.md).
 - Every nonnormal integral quartic containing C0 has rational
   normalization, without assuming a mate. Nef blowup multiplicities
   on a nonrational ruled model force fiber degree at most two, while
   the lifted rational quartic would be a fiber component of degree
   four. Infinitely near centers and actual reducible fiber cycles are
-  retained in the [proof](notes/2026-10-09-session-nonrational-quartic-normalizations.md)
-  and [independent audit](notes/2026-10-09-session-nonrational-normalization-independent-audit.md).
+  retained in the [proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-nonrational-quartic-normalizations.md)
+  and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-nonrational-normalization-independent-audit.md).
 - Every sectional-genus-one normalization is a Gorenstein del Pezzo
   surface of degree four with ADE singularities. On its minimal
   resolution, the unique effective adjoint is exceptional and must
   vanish by minimality and negative definiteness, giving L=-K_M.
-  The [root proof](notes/2026-10-09-session-genus-one-delpezzo-reduction.md)
-  and [independent audit](notes/2026-10-09-session-rational-genus-one-ADE-independent-audit.md)
+  The [root proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-genus-one-delpezzo-reduction.md)
+  and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-rational-genus-one-ADE-independent-audit.md)
   establish this hypothesis before the lattice argument is imported.
 - A hypothetical mate in genus one then requires exactly 4A1 or
   A3+2A1, and an even mate degree. The missing-root argument in D5
-  has a [self-contained proof](notes/2026-10-09-session-delpezzo-D5-torsion-filter.md)
-  and [root independent reconstruction](notes/2026-10-09-session-delpezzo-D5-root-independent-audit.md).
+  has a [self-contained proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md)
+  and [root independent reconstruction](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-delpezzo-D5-root-independent-audit.md).
   Two different enumerations check all 428 embedded root subsystems.
   The additional intended worker audit was interrupted at the weekly
   quota before its final record and is not counted as completed.
-- A [uniform four-A1 family](notes/2026-10-09-session-singular-delpezzo-four-A1-family.md)
+- A [uniform four-A1 family](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md)
   on alpha beta gamma delta (alpha delta-beta gamma)!=0 is excluded
   in every mate degree, including repeated roots of L_C. Its actual
   normalization has an extra point over C0 outside the unique lifted
-  curve, so full inverse support fails. The [separate audit](notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md)
+  curve, so full inverse support fails. The [separate audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md)
   checks its entire construction. The later October 10 full ribbon-net
   theorem now also excludes every other genus-one projection for fixed C0.
 
@@ -431,7 +433,7 @@ open branches. The unrestricted C0 and universal questions are open.
 
 ## Literature and next actions
 
-The [literature refresh](notes/2026-10-06-session-literature-refresh.md)
+The [literature refresh](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-literature-refresh.md)
 found no accepted unrestricted resolution. It records the exact false
 prime/maximal step in the preprint claiming a negative resolution and
 the failed quotient-module step in a broad affine preprint. These
@@ -445,7 +447,7 @@ The most valuable remaining directions are structural:
    mate branches, including the principal necessary 630-point locus,
    MF6 and larger early-defect pairs, are closed by the October 11
    all-quartic theorem. A quintic carrier requires mate degree 4k with
-   k>=2. The [audited quintic frontier](notes/2026-10-11-session-quintic-structural-frontier.md)
+   k>=2. The [audited quintic frontier](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-quintic-structural-frontier.md)
    excludes sectional genus zero and proves rationality through genus
    three. Its genus-one mate lane forces a degree-five del Pezzo
    normalization with a single A4 point, a unique tangent line to the
@@ -472,12 +474,12 @@ The most valuable remaining directions are structural:
    and full conductor schemes. The checked literature does not
    establish novelty or an unrestricted resolution.
 
-The separate [multiplicity-ten filtration audit](notes/2026-10-11-session-multiplicity-ten-filtration-audit.md)
+The separate [multiplicity-ten filtration audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-multiplicity-ten-filtration-audit.md)
 reduces a hypothetical (5,8) pair to three possible line degrees and
 308 necessary numerical profiles. These are not classified multiple
 structures or a degree-pair exclusion; actual divisors, embedded
 extension data and higher normal jets remain necessary.
 
-The [dated handoff](SUCCESSOR_HANDOFF_2026-10-07.md) specifies how to
+The [dated handoff](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/SUCCESSOR_HANDOFF_2026-10-07.md) specifies how to
 resume these lanes without repeating completed validation or reviving
 superseded claims.
