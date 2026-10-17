@@ -2,6 +2,7 @@
 
 This index links existing topic syntheses on `main`. Their statements have **not** yet been reconciled with the later Ultra acceptance records; do not interpret an older `OPEN` label as the current frontier.
 
+- **[STCI-R-0007 — Universal quadratic-root first and second obstruction model (proved, conditional CI interface)](quadratic_root_obstruction_model.md)**
 - **[STCI-R-0005 — Smooth movement-two formal-root nonexistence (proved, balanced normal bundle)](smooth_root_formal_obstruction.md)**
 - **[STCI-R-0006 — Actual-CI bridge for smooth full roots (proved, restrictive hypotheses)](actual_ci_smooth_root_bridge.md)**
 - **[STCI-R-0004 — Full-conductor projection-family phase reduction (proved under fixed-family hypotheses)](projection_phase_reduction.md)**
