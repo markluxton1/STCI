@@ -1,15 +1,17 @@
-> **CURRENT HANDOFF:** [SUCCESSOR_HANDOFF_2026-10-14.md](SUCCESSOR_HANDOFF_2026-10-14.md).
+> **Historical Ultra snapshot.** Copied without mathematical editing from [original source](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/SUCCESSOR_HANDOFF_2026-10-07.md). Relative links were converted to original-branch URLs so they do not falsely point into the archive. This document is provenance, not current research authority.
+
+> **CURRENT HANDOFF:** [SUCCESSOR_HANDOFF_2026-10-14.md](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/SUCCESSOR_HANDOFF_2026-10-14.md).
 > Older pending and worker-stop labels in this record are historical.
 
 # Continuation handoff — 2026-10-07, reconciled through 2026-10-13
 
-Read [AUDITED_STATE_2026-10-07.md](AUDITED_STATE_2026-10-07.md) first, then
-[RESEARCH_UPDATE_2026-10-07.md](RESEARCH_UPDATE_2026-10-07.md), the relevant
+Read [AUDITED_STATE_2026-10-07.md](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/AUDITED_STATE_2026-10-07.md) first, then
+[RESEARCH_UPDATE_2026-10-07.md](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/RESEARCH_UPDATE_2026-10-07.md), the relevant
 proof note and its independent audit. Older handoffs are historical.
 The universal STCI problem and unrestricted characteristic-zero C0
 problem remain unresolved.
 
-Read the [October 12 evening acceptance](notes/2026-10-12-session-nonendpoint-results-acceptance.md)
+Read the [October 12 evening acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-12-session-nonendpoint-results-acceptance.md)
 for the latest frontier, then its independent Jbar-zero phase audit and
 the earlier conormal/conductor audit. Every admissible coprime homogeneous
 conormal pair is excluded in every mate degree. Continue on the complete
@@ -25,19 +27,19 @@ conclusion covers every Jbar. The integral residual remains open.
 Do not restart completed pole/line, endpoint or conic-plus-quartic audits.
 This supersedes the corresponding pending work lists below.
 
-Read the [post-seal quintic acceptance](notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
+Read the [post-seal quintic acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-quintic-continuation-results-acceptance.md)
 for the latest mathematical frontier. The entire endpoint projection
 family in the genus-one quintic A4 lane is excluded in every mate degree.
 Its proposed labels in older notes are historical; the new acceptance
 binds the completed independent audits. The nonendpoint separation
 modulus is essential. The direct
-[nonendpoint filtration/line-jet note](notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
+[nonendpoint filtration/line-jet note](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
 needs a separate mathematical proof audit before promotion to the
 independently audited frontier. Workers stopped with explicit usage-limit
 errors; inspect authoritative agent status before resuming any unfinished
 task. Do not restart the closed endpoint parameter search.
 
-The [new quintic record directory](validation/2026-10-11-quintic-continuation-seal/README.md)
+The [new quintic record directory](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/validation/2026-10-11-quintic-continuation-seal/README.md)
 retains the interrupted draft, independent coverage review and the separate
 root-completed scoped checker. Its final result and manifest, if present,
 identify the observed record status. The old October 11 seal remains a
@@ -89,16 +91,16 @@ is now excluded for fixed C0 in every characteristic-zero mate degree,
 with no reducedness or Gorenstein assumption on either conductor. The
 exact Artin and differential arguments exhaust the nongorenstein cubic
 schemes as well. See the
-[late root acceptance](notes/2026-10-08-session-late-results-acceptance.md)
-and [full independent scroll audit](notes/2026-10-08-session-scroll-nongorenstein-independent-audit.md).
-The [October 9 acceptance](notes/2026-10-09-session-results-acceptance.md)
+[late root acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-late-results-acceptance.md)
+and [full independent scroll audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-scroll-nongorenstein-independent-audit.md).
+The [October 9 acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-09-session-results-acceptance.md)
 now closes every sectional-genus-zero and every smooth-normalization
 quartic carrier in all mate degrees. Every nonnormal quartic containing
 C0 has rational normalization, without assuming a mate. Genus one is
 a degree-four ADE del Pezzo model; the necessary D5 torsion filter
 leaves only 4A1 and A3+2A1 and even mate degrees. A uniform four-A1
 family is excluded by extra normalization points. The
-[October 10 acceptance](notes/2026-10-10-session-results-acceptance.md)
+[October 10 acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-10-session-results-acceptance.md)
 now closes the entire genus-one lane, including every projection of
 both types compatible with fixed C0, in every mate degree. The complete
 ribbon-net, conductor and five-partition proofs have separate interface
@@ -107,13 +109,13 @@ isolated replays. At that October 10 checkpoint genus two was the only
 surviving integral-quartic lane; the October 11 assembly below closes it.
 Its actual conductor is a reduced line and its actual ambient strict
 transform is normal ADE/crepant with the conic ruling. The
-[resumed root acceptance](notes/2026-10-10-session-continuation-results-acceptance.md)
+[resumed root acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-10-session-continuation-results-acceptance.md)
 excludes the entire `(lambda,q)=(0,4)` bisection lane by a globally
 forced Cartier ribbon with nilideal `O(-8)` incompatible with the
 balanced conormal bundle `O(-7)^2`. It also excludes every nonendpoint
 trisecant section case, including all reducible/nonreduced conductor
 divisors and arbitrary A-chain lengths. The
-[October 11 all-quartic acceptance](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+[October 11 all-quartic acceptance](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-results-acceptance.md)
 also closes the full endpoint triple-contact section case and assembles
 the exclusion of every integral quartic carrier with arbitrary mate
 degree. The factor reduction and checked cubic/quadric exclusions make
@@ -127,7 +129,7 @@ embedded global STCI pair.
 
 ## Priorities and open proof obligations
 
-The [October 11 assembly](notes/2026-10-11-session-all-quartic-results-acceptance.md)
+The [October 11 assembly](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-results-acceptance.md)
 closes every actual quartic mate lane. Do not restart the principal
 at-most-630-point mate search, the early-defect (4,b) mate cases, MF6,
 or the genus-two endpoint classification as unresolved STCI cases.
@@ -140,7 +142,7 @@ Their parameter loci and earlier proof records remain useful evidence.
    rationality, conductor-line, ADE or torsion conclusions are not
    automatic for degree five. A normalization section of degree four
    is not an ambient quartic until full conductor descent is proved.
-   The [audited quintic structural frontier](notes/2026-10-11-session-quintic-structural-frontier.md)
+   The [audited quintic structural frontier](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-quintic-structural-frontier.md)
    excludes sectional genus zero, proves rationality through genus
    three, and forces the genus-one mate lane onto a degree-five
    del Pezzo normalization with a single A4 point. Its unique line is
@@ -176,8 +178,8 @@ Their parameter loci and earlier proof records remain useful evidence.
    P-040 dependency, field descent, full conductor schemes, local branch
    positions and all source/failure evidence in any manuscript.
 
-The [independent assembly audit](notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md)
-and [degree-factor/scope audit](notes/2026-10-11-session-degree-factor-and-mf6-scope-audit.md)
+The [independent assembly audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md)
+and [degree-factor/scope audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-degree-factor-and-mf6-scope-audit.md)
 state exactly which historical quartic tasks are now closed as mate
 lanes and which incidence questions remain. A smooth normalization lift
 can be non-Cartier even when a multiple is Cartier. The global ribbon
@@ -194,16 +196,16 @@ the runtime before a future replay; no package was installed here.
 The corner and generic sparse polynomial-dual verifiers use Python's
 standard library for checking their stored identities.
 
-[Validation note](notes/2026-10-06-session-validation.md) and
-[validation index](validation/2026-10-06-session/validation-index.json)
+[Validation note](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-06-session-validation.md) and
+[validation index](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/validation/2026-10-06-session/validation-index.json)
 retain command, source hash, runtime, exit status and output evidence.
 The initial baseline and successful repairs should not be rerun just
 because the date changes. Run changed or newly completed sources;
 preserve failure logs and distinguish an identity check from a geometric
 proof or full parameter exhaustion.
 
-Use the newer [validation index](validation/2026-10-08-continuation-index/index.json)
-and [October 8 checkpoint](notes/2026-10-08-session-checkpoint.md) for the
+Use the newer [validation index](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/validation/2026-10-08-continuation-index/index.json)
+and [October 8 checkpoint](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-08-session-checkpoint.md) for the
 historical frozen continuation counts (97 latest-PASS sources and 110
 indexed executions), retained failures, interrupted-agent state,
 and the explicit superseded Veronese-source retention limitation. All
