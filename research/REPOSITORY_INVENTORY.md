@@ -37,3 +37,7 @@ Never merge the Ultra branch wholesale. Avoid replacing existing main files sole
 - Complete Ultra recursive tree inventory (including blob sizes), not just the 300-file comparison.
 - Resolve relative links after any actual imports.
 - Check large-file history and whether the previously rejected 102.67 MB witness is still present in **local** unpushed commits.
+
+## 2026-10-17 inventory continuation
+
+The Ultra source-note index covers 356 direct files. The [computation index](archive/ULTRA_COMPUTATIONS_INDEX.md) enumerates 427 direct files in Ultra `research/computations/` with byte sizes and extensions; the [validation index](archive/ULTRA_VALIDATION_INDEX.md) enumerates 106 immediate validation subdirectories, **not their recursive contents**. Five additional scripts exist at top-level Ultra `computations/`, and a separate top-level `validation/` tree exists. These are not yet in the detailed file index. No large remote Ultra computation file in the 427-file directory listing exceeds 1 MB; this says nothing about nested validation outputs or unpushed Git history.

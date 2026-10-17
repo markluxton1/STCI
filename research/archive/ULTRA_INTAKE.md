@@ -23,6 +23,11 @@ These dated snapshots contain accepted and provisional claims together. Their pr
 
 - [Ultra source-note inventory](ULTRA_SOURCE_NOTES_INDEX.md) — 356 original-branch notes indexed by filename keywords; **not** imported or promoted.
 
+## Computation and validation inventories
+
+- [Ultra computation files](ULTRA_COMPUTATIONS_INDEX.md) — 427 directly listed files with reported sizes; no execution.
+- [Ultra validation directories](ULTRA_VALIDATION_INDEX.md) — 106 immediate directories; contents not recursively enumerated.
+
 ## Boundaries
 
 These snapshots are not substitutes for `research/STATE.md`, `research/FRONTIER.md`, canonical result records, or source proofs. The original Ultra files and all notes, validation outputs, and scripts remain on Ultra. The snapshot copies have a provenance header and link-target rewriting; their mathematical body text was not reconciled.
