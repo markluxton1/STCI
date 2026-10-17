@@ -18,7 +18,8 @@ This is a **repository-organization checklist**, not a mathematical research age
 - [ ] Inventory top-level and research directories, including the Ultra branch; identify duplicate entry points, stale handoffs, and orphaned files **without deleting evidence**.
 - [ ] Check links from README, research indexes, result/question records, and certificate maps. Record broken links before moving any files.
 - [ ] Audit overlapping summaries and mark superseded navigation. Keep source proofs and audit notes intact.
-- [ ] Establish one reproducible index/link validation command and document how to run it.
+- [x] Add a reproducible **read-only** local Markdown link checker: `python3 scripts/check_markdown_links.py` from the repository root (Python 3.9+). It checks paths in tracked Markdown files, reports missing local targets, and exits nonzero on issues. It deliberately does not validate remote URLs, fragment anchors, or dynamically generated pages. **The checker has been added but a full repository run has not yet been verified.**
+- [ ] Run the checker on `main` and Ultra, triage false positives, and repair confirmed broken links in a separate reviewed PR.
 - [ ] Check computation directories for large generated outputs and establish a Git/LFS/ignore policy that preserves reproducibility without blocking pushes.
 - [ ] Decide how reviewed Ultra material enters main in **coherent organizational batches**, not one theorem per PR.
 - [ ] Only after structure stabilizes: reconcile all claims, notation, and final exposition.
