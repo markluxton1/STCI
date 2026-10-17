@@ -26,7 +26,8 @@ These dated snapshots contain accepted and provisional claims together. Their pr
 ## Computation and validation inventories
 
 - [Ultra computation files](ULTRA_COMPUTATIONS_INDEX.md) — 427 directly listed files with reported sizes; no execution.
-- [Ultra validation directories](ULTRA_VALIDATION_INDEX.md) — 106 immediate directories; contents not recursively enumerated.
+- [Ultra validation directories](ULTRA_VALIDATION_INDEX.md) — 106 immediate directories.
+- [Recursive validation inventory](ULTRA_VALIDATION_RECURSIVE_INVENTORY.md) — 2,168 tracked files and large-artifact sizes; no execution.
 
 ## Boundaries
 

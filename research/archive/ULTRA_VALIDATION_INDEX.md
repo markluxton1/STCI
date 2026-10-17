@@ -1,6 +1,6 @@
 # Ultra validation directory inventory
 
-Source: [Ultra `research/validation/`](https://github.com/markluxton1/STCI/tree/research/ultra-resume-2026-10-06/research/validation), enumerated 2026-10-17. **106 immediate subdirectories**. Their contents and sizes have **not** been recursively enumerated; this is not a complete artifact inventory. No validation was rerun.
+Source: [Ultra `research/validation/`](https://github.com/markluxton1/STCI/tree/research/ultra-resume-2026-10-06/research/validation), enumerated 2026-10-17. **106 immediate subdirectories**. Their contents and sizes **have now been recursively enumerated** in [the companion inventory](ULTRA_VALIDATION_RECURSIVE_INVENTORY.md) (2,168 tracked files; no execution). No validation was rerun.
 
 ## Validation directories
 
