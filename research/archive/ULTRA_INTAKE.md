@@ -19,6 +19,10 @@ Source branch: `research/ultra-resume-2026-10-06`. Five dated handoff/update fil
 
 These dated snapshots contain accepted and provisional claims together. Their preservation does not imply claim-by-claim promotion to main.
 
+## Source-note inventory
+
+- [Ultra source-note inventory](ULTRA_SOURCE_NOTES_INDEX.md) — 356 original-branch notes indexed by filename keywords; **not** imported or promoted.
+
 ## Boundaries
 
 These snapshots are not substitutes for `research/STATE.md`, `research/FRONTIER.md`, canonical result records, or source proofs. The original Ultra files and all notes, validation outputs, and scripts remain on Ultra. The snapshot copies have a provenance header and link-target rewriting; their mathematical body text was not reconciled.
