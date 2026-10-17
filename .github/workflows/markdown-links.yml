@@ -1,0 +1,29 @@
+name: Markdown navigation links
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "research/computations/check_markdown_links.py"
+      - ".github/workflows/markdown-links.yml"
+  push:
+    branches: [main]
+    paths:
+      - "**/*.md"
+      - "research/computations/check_markdown_links.py"
+      - ".github/workflows/markdown-links.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  core-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate canonical navigation links
+        run: python3 research/computations/check_markdown_links.py --core
