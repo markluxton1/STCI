@@ -35,6 +35,10 @@ The local examples show that first-symbol data alone can hide arbitrarily large 
 
 The former Priority 3 normal-quartic mate question is **closed** by [STCI-R-0001](results/quartic_carrier_exclusion.md), the accepted all-integral-quartic theorem for fixed C0 in characteristic zero. Do not reopen its B1/B2/B3/D cases as possible quartic STCI carriers. The old classification and proofs remain historically useful. This does **not** close separate quartic ancestor-incidence problems or higher-degree carriers.
 
+## Cartier singleton normalization models — OPEN PROJECTION/DESCENT QUESTION
+
+[STCI-R-0002](results/cartier_singleton_lift.md) leaves three higher-degree normalization models for fixed C0 under its **Cartier singleton degree-one inverse-lift** hypotheses. [STCI-Q-0001](questions/cartier_projection_models.md) asks which, if any, admit actual projections with full inverse support and conductor descent. Do not infer that these are the only possible higher-degree carriers; non-Cartier and multiple inverse lifts lie outside the theorem.
+
 ## Other active lanes
 
 - **Order-one e=0/e=1:** retain the jet/ancestor structural questions, but not as possible quartic STCI-mate cases after STCI-R-0001.
