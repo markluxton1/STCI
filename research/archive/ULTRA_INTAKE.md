@@ -29,6 +29,17 @@ These dated snapshots contain accepted and provisional claims together. Their pr
 - [Ultra validation directories](ULTRA_VALIDATION_INDEX.md) — 106 immediate directories.
 - [Recursive validation inventory](ULTRA_VALIDATION_RECURSIVE_INVENTORY.md) — 2,168 tracked files and large-artifact sizes; no execution.
 
+## Source and audit intake — first selected batch
+
+These are **historical source records**, not canonical theorem promotion. Evidence links remain anchored to Ultra:
+
+- [Exact validation and reproducibility record, October 6–7](notes/ULTRA_2026-10-06-session-validation.md)
+- [Independent local-cohomology audit, October 7](notes/ULTRA_2026-10-07-session-localcoh-independent-audit.md)
+- [Independent MF6 E1 audit, October 7](notes/ULTRA_2026-10-07-session-mf6-e1-independent-audit.md)
+- [Independent normal-carrier audit, October 7](notes/ULTRA_2026-10-07-session-normal-carrier-independent-audit.md)
+
+These four source notes were copied with a provenance header and original-branch evidence links. They were not rerun or independently verified during intake; linked scripts and validation logs remain on Ultra.
+
 ## Boundaries
 
 These snapshots are not substitutes for `research/STATE.md`, `research/FRONTIER.md`, canonical result records, or source proofs. The original Ultra files and all notes, validation outputs, and scripts remain on Ultra. The snapshot copies have a provenance header and link-target rewriting; their mathematical body text was not reconciled.
