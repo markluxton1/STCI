@@ -46,6 +46,10 @@ The older partial quartic-mate analyses below remain valid **as historical inter
 
 [STCI-R-0007](results/quadratic_root_obstruction_model.md) gives the universal first rank-incidence and complete twenty-five-pairing second-obstruction test for the basepoint-free movement-two quadratic-root family of fixed C0. A smooth first-compatible spectral torsion-two seed has a nonzero second obstruction; its four-dimensional first-compatible component is generically obstructed at second order. The **full second zero locus and its torsion intersections are unresolved**. Application to actual complete intersections requires the full [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) hypotheses and next relation degree s>4.
 
+## Spectral root-curve Picard criterion — PROVED FOR GRADED FAMILIES
+
+[STCI-R-0008](results/spectral_root_picard_criterion.md) gives an exact Picard descent criterion for a second fiberwise coprime graded relation on the **full** finite-flat root scheme, including singular and nonreduced cases. It is distinct from the ambient first/second obstruction [STCI-R-0007](results/quadratic_root_obstruction_model.md): graded torsion does not imply a formal lift or actual STCI. Moving roots can force a nonsplit second-generator extension, so requiring a global second polynomial line is invalid.
+
 ## Order-one structure — PROVED
 
 Topic synthesis: [results/order_one.md](results/order_one.md)
