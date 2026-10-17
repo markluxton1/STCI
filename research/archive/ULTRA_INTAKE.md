@@ -40,6 +40,10 @@ These are **historical source records**, not canonical theorem promotion. Eviden
 
 These four source notes were copied with a provenance header and original-branch evidence links. They were not rerun or independently verified during intake; linked scripts and validation logs remain on Ultra.
 
+## October 6–7 source-note consolidation
+
+Eleven additional historical source notes were imported under `research/archive/notes/ULTRA_...`: one conormal-splitting note, five local-cohomology notes, and five MF6/normal-carrier notes. These retain original-branch provenance and are **not** canonical promotions. They supplement the four earlier source/audit records. Links in the imported copies target original Ultra sources; no computational verification was rerun.
+
 ## Boundaries
 
 These snapshots are not substitutes for `research/STATE.md`, `research/FRONTIER.md`, canonical result records, or source proofs. The original Ultra files and all notes, validation outputs, and scripts remain on Ultra. The snapshot copies have a provenance header and link-target rewriting; their mathematical body text was not reconciled.
