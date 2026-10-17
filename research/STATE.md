@@ -26,6 +26,10 @@ Canonical theorem: [STCI-R-0001](results/quartic_carrier_exclusion.md). Over an 
 
 The older partial quartic-mate analyses below remain valid **as historical intermediate results**, but any description of a quartic-mate case as still open is superseded by STCI-R-0001. Common-quartic local-cohomology ancestor incidence is a different problem and remains open.
 
+## Cartier singleton lifts on normalizations — PROVED UNDER STATED HYPOTHESES
+
+[STCI-R-0002](results/cartier_singleton_lift.md) classifies the normalization of a mate-admitting integral carrier when the full reduced inverse image of a smooth rational curve is **one Cartier curve mapping isomorphically to it**. For fixed C0, the remaining necessary models in this restricted class have degree 8 (smooth quadric or quadric cone normalization) or 16 (plane normalization). Their actual projections and conductor descent are **open**; see [STCI-Q-0001](questions/cartier_projection_models.md). This is not an all-carrier classification.
+
 ## Order-one structure — PROVED
 
 Topic synthesis: [results/order_one.md](results/order_one.md)
