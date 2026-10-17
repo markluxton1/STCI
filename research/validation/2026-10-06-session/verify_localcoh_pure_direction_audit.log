@@ -1,0 +1,10 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_localcoh_pure_direction_audit.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: full pure-V space and exact transverse expansion
+PASS: exhaustive c9,c7,c6,kappa pivot contact identities
+PASS: R=0 forms lie in A*S1; zero-symbol boundary included
+PASS: generic quadratic quotient coefficient is delta/hF
+PASS: reversal exchanges pure constant directions and target classes
+
+Runner status: PASS

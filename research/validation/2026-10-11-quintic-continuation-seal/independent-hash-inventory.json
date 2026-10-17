@@ -1,0 +1,387 @@
+{
+  "observed_utc": "2026-10-12T00:09:40.961054+00:00",
+  "reviewer": "oct11_record_seal/seal_coverage_review",
+  "scope": "Read-only file-byte inventory for five named execution histories; no mathematics executed",
+  "declared_hash_bindings_independently_checked": 77,
+  "declared_hash_mismatches": 0,
+  "scoped_final_checker_paths": 5,
+  "scoped_observed_M2_script_executions": 35,
+  "scoped_exit_zero_M2_scripts": 12,
+  "scoped_nonzero_M2_scripts": 23,
+  "original_metadata_only_execution_rows": 14,
+  "captured_raw_stream_execution_rows": 21,
+  "limits": [
+    "The original A4 exact-model console histories have no captured original raw streams.",
+    "Exact-model source versions 08 and 09 are disclosed mechanical reconstructions.",
+    "Replay output belongs to additional observed executions, not originals.",
+    "Local-chart protected-dd initial console run and later replay are different executions.",
+    "No all-repository quintic aggregate is claimed.",
+    "This observation does not freeze files against later changes."
+  ],
+  "files": {
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/01-resolution-api-failure.m2": {
+      "bytes": 611,
+      "sha256": "f767a07adb289292ebfd12587d6c7b49a6cc423592719cbbfa3544012d20061e"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/02-protected-resolution-failure.m2": {
+      "bytes": 5228,
+      "sha256": "9e24ee9c66daf3a1d956931adf4d362ff670c1d62836e1662b9bfa279e065a27"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/03-precedence-failure.m2": {
+      "bytes": 5258,
+      "sha256": "16cec9e6cced0a34c991e5f57c886c8e423072162894dd08cbfee06c2636623f"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/04-complex-index-failure.m2": {
+      "bytes": 5261,
+      "sha256": "c48d833f65a0af1d4a87e0a4dacc62c00708e07d3f4cc28f486c6f2c38936d20"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/05-section-lift-api-failure.m2": {
+      "bytes": 624,
+      "sha256": "fb0b44aacb2b9af89339bff2c99721944abce45881454e34bd014ca0312a90a9"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/06-before-explicit-section-pass.m2": {
+      "bytes": 5261,
+      "sha256": "9e28971ab5fa7473125aa6e8d505ad66d2a56f06de04444267e4226decc934fe"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/07-section-multiline-failure.m2": {
+      "bytes": 6162,
+      "sha256": "523360f98643adf21d45e0a5169fbc42502068d55c88a54e83e6847256127fcf"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/08-exploratory-before-curve-pass.m2": {
+      "bytes": 619,
+      "sha256": "0a54cb80643e75d37aa6f38eabf16db52dc6e3590faf20db01e3ac4c0ded7d72"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/09-exploratory-before-base-pass.m2": {
+      "bytes": 1110,
+      "sha256": "8dd7285c05efcf62baa2e211e22443975fcbb27b845b8738c12854fca569e4d5"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/10-exploratory-complete-pass.m2": {
+      "bytes": 1475,
+      "sha256": "b999d25b2e647662005c66779cc668facf596ad83e545a3a144479c0623e09db"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/11-complex-index-diagnostic-failure.m2": {
+      "bytes": 1261,
+      "sha256": "de93a3ee41d0d1d62a67566ced4925a036aa4a1dc658e2ba7a98db8d47d4716f"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/attempts/12-explicit-section-probe-pass.m2": {
+      "bytes": 623,
+      "sha256": "cca76886d512f7c9e3b27c917360bbe54b1a9a2b7ba2913e34999bbae6afa674"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/execution-record.json": {
+      "bytes": 16681,
+      "sha256": "38e988ddbe412081cc436956b8a4e0f4107fe927ebd349e8c1dc1dcd7c8c0dd1"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-01.stderr.log": {
+      "bytes": 1137,
+      "sha256": "ebf3652e260d947a0119c2496466e042b20da0580fb8750d1b72fa3a591380d0"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-01.stdout.log": {
+      "bytes": 253,
+      "sha256": "8bd8663a70f641e9960329e508b5f26d9237293bcf9faa437cdac23f9df58765"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-02.stderr.log": {
+      "bytes": 812,
+      "sha256": "e79b117af0355173849ab0b5e1100526c209b63bbbb669a5928f5205e5b387e4"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-02.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-03.stderr.log": {
+      "bytes": 744,
+      "sha256": "8f5f7f6a17f473648d1604ef48a5d43770859ec73e2ee72ebd9183a7783b6a19"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-03.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-04.stderr.log": {
+      "bytes": 750,
+      "sha256": "144cfb1a761473b1b4794da094ff4dc03af600c4411a26e955abebc4248d90a9"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-04.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-05.stderr.log": {
+      "bytes": 1141,
+      "sha256": "b885f3808ecc65b2328940cf1ac060db1dbe5035c8cd0ddbaef142ceeba8959a"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-05.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-07.stderr.log": {
+      "bytes": 815,
+      "sha256": "5dbb737e83be8db96a43ca20f7355659f584d989ec18ba021a2d4fe02dd6f90a"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/failure-replay-07.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/final-captured.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/final-captured.stdout.log": {
+      "bytes": 624,
+      "sha256": "3f64468842927472bb3ce4cf725db3ffb978dc052c953ff02e6277dea6a81ebb"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/run_exact_audit.py": {
+      "bytes": 7158,
+      "sha256": "ad15363ae53c4290b4c0036e7c8a3972296b50bc0530d52f892b3c8871be54f4"
+    },
+    "research/validation/2026-10-11-quintic-a4-exact-ideal/snapshot/verify_session_quintic_a4_exact_ideal_2026_10_11.m2": {
+      "bytes": 6164,
+      "sha256": "3a48626539da961ca68edd3d3b13a33d39cb154020e52a19c292d06e9ce77ca9"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-01/execution-record.json": {
+      "bytes": 1108,
+      "sha256": "d2c65ebe09d495d4b12d0ff81ff3c344c867215bef814060c8ac381b5edde2a1"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-01/stderr.txt": {
+      "bytes": 1531,
+      "sha256": "afbff3e96af3335b4e1fe0b09ceba078012febcf53d51792118458fb323ab866"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-01/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-01/verify_session_quintic_a4_pair_classification_2026_10_11.m2": {
+      "bytes": 3517,
+      "sha256": "bbe7e187c525b0fa3bc797554448c86dacfbd1a2ca1207852abc3cb3f21cca81"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-02/execution-record.json": {
+      "bytes": 1108,
+      "sha256": "40cf58e6a84e6a63308ca248a80ab6af6701dc158fd79df982df454738b50d18"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-02/stderr.txt": {
+      "bytes": 1531,
+      "sha256": "afbff3e96af3335b4e1fe0b09ceba078012febcf53d51792118458fb323ab866"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-02/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-02/verify_session_quintic_a4_pair_classification_2026_10_11.m2": {
+      "bytes": 3527,
+      "sha256": "5e30b37ec2b805cb666e4a7b31767089e7e2fee00a90081b61cadd2ae74c4a1b"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-03/execution-record.json": {
+      "bytes": 1108,
+      "sha256": "55da6a28e8b55af88edb6b3e3f92400e19999c0669cdca6bf2de18d7d1a9bcb3"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-03/stderr.txt": {
+      "bytes": 802,
+      "sha256": "e901255e6c1e7b7e32724cce39263362cdefd48be6910af3c048076141b5ada4"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-03/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-03/verify_session_quintic_a4_pair_classification_2026_10_11.m2": {
+      "bytes": 3560,
+      "sha256": "4d0a8c05dbaab0207b68fd4f986d0e14a04bbafcff07600ea7c7b47ac1a9d082"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-04/execution-record.json": {
+      "bytes": 1108,
+      "sha256": "154e4d4845f8ad19ac09adb281b8106c256c031eb874af7ca5f9d108eb2a67f1"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-04/stderr.txt": {
+      "bytes": 808,
+      "sha256": "2fb4f79f47077fc1612748b6a49144976c93d962cad4e4665e017c827c5d4c2f"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-04/stdout.txt": {
+      "bytes": 563,
+      "sha256": "f0a7bcaf54b2b4a961feb63fd2c927dd81212b8da46f45a6d771d463eb946e24"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-04/verify_session_quintic_a4_pair_classification_2026_10_11.m2": {
+      "bytes": 3576,
+      "sha256": "822eb79b5f76833b9647ef010a3a7fd1ddb3db3a995fa02495be41d5e252d698"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-05/execution-record.json": {
+      "bytes": 1115,
+      "sha256": "1ae0902179ecb01d97ba0f0657472baca8f637a8b1e420a8244ba638bad1d762"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-05/stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-05/stdout.txt": {
+      "bytes": 1043,
+      "sha256": "9adbc7a4db19ffb97042680833b02432dc8ec8b5b0d384b00b83970f71a51265"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/attempt-05/verify_session_quintic_a4_pair_classification_2026_10_11.m2": {
+      "bytes": 3639,
+      "sha256": "e710635b396707a6414fb142472db1ead3b17cfd06c1cb1ee18c4f64318108f2"
+    },
+    "research/validation/2026-10-11-quintic-a4-pair-classification/run_verification.py": {
+      "bytes": 1861,
+      "sha256": "e58a69be6692b46ab245be7c733d674105090ae1a780a24892a3436d87381209"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/execution-record.json": {
+      "bytes": 1214,
+      "sha256": "626f6f2ece8e3f477c8c06256200c9333773592abef9309f97c30a4efcc83662"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/gens-list-failed-source.m2": {
+      "bytes": 1722,
+      "sha256": "d03ede97ce9155f89dfe39d1c2e778673cf81d199e3dadc9b3f0e147f0508c75"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/gens-list-failure.json": {
+      "bytes": 1211,
+      "sha256": "ec33650f86b0323738e307c71452a4074c8bb0c7338a58a43b38098c1ef0feb9"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/gens-list-failure.stderr": {
+      "bytes": 857,
+      "sha256": "6e7b9da5f087de5b85304ddd342d11e882f48697d89a877d91d01b5fc94a17dc"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/gens-list-failure.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/pass.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/pass.stdout": {
+      "bytes": 62,
+      "sha256": "b06fda975a39de2ddf01592407b5fc19f26ca63ee96e831262ea5e71858ac1d5"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/protected-dd-failed-source.m2": {
+      "bytes": 1634,
+      "sha256": "be780c29771c158723c48fccf5065a45560a7843b646d0674086a1c6dd4e6b4c"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/protected-dd-failure.json": {
+      "bytes": 538,
+      "sha256": "ca4e8c54324498ca6dca4464fe7b8c15399b1b959c8c599c9e5cfdb2f326e966"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/protected-dd-failure.stderr": {
+      "bytes": 1033,
+      "sha256": "0129535f960fee3a8d68a347b8de05e479aaef36966402235e3d04c151902efd"
+    },
+    "research/validation/2026-10-11-dp5-a4-local-chart/protected-dd-failure.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/01/execution.json": {
+      "bytes": 760,
+      "sha256": "bd9d0a956f400b5af7fbfb29b6d1b159f904b1d0751f58d41c4a16f225a194f5"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/01/stderr.txt": {
+      "bytes": 808,
+      "sha256": "ff9c787c1dbd34f2501ed78801e509864b03fecfd5548afdcc693e6fde111aaa"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/01/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/01/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2": {
+      "bytes": 1364,
+      "sha256": "0c7652244a063ce51eec2c8a3412223ce4b70d6c2881782a1f2b23b2e172bb6d"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/02/execution.json": {
+      "bytes": 760,
+      "sha256": "bd412177cd7c5b03eb804ffc2b61b911fe0d5e10a0073718e7e715cae5cd3669"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/02/stderr.txt": {
+      "bytes": 812,
+      "sha256": "2de6d24cae350c7d8319f579e29f3399139e34f3b1982d7466f4ed0319340ba5"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/02/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/02/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2": {
+      "bytes": 1562,
+      "sha256": "cd60a20e1430d860e1c5ecf181b0ef744e168152fffb54b6bdff935ae8f126ba"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/03/execution.json": {
+      "bytes": 760,
+      "sha256": "31bfba2b4822818133cda304c5ddbccd3ef0b84330fa0b1413f5383f1dd58f11"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/03/stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/03/stdout.txt": {
+      "bytes": 1764,
+      "sha256": "58e47199bf805a00fa0cb2ae8ada78a7b370201965398c7e132d4d067bea39df"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/03/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2": {
+      "bytes": 1607,
+      "sha256": "2e4a338a9562b2df4ad74323ffc47af374289b7cf1107b6e33008c5fcc5af844"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/04/execution.json": {
+      "bytes": 760,
+      "sha256": "124fce569754e4ef7b8b555820690476064e1fb2c59274e4b9b6173f67d6b59b"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/04/stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/04/stdout.txt": {
+      "bytes": 2157,
+      "sha256": "451e46a919df435f3a88455f5b12f25abb7ce06339acc47f975453559c91a1e1"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/attempts/04/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2": {
+      "bytes": 2161,
+      "sha256": "c88f6ba0741ba3190a2b806f2d152600e2acf7cc9e8314bfb26fa4d51c492768"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-fiber/run_coefficients.py": {
+      "bytes": 1899,
+      "sha256": "98419cab020310e640c002e16683a676c396e131bf195a3cce76de276a131844"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-subresultant/attempt01-protected-hh-execution-record.json": {
+      "bytes": 978,
+      "sha256": "dd97e5a6e71d14eab844c766c2624ce93c2da49b078f0f6af1493df67c6c341e"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-subresultant/attempt01-protected-hh-source.m2": {
+      "bytes": 2658,
+      "sha256": "d1dd0fc9a7eee61b6b9af8c4c06f3c7a8cb8387e34d0916b4ad9d022d166628a"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-subresultant/attempt01-protected-hh-stderr.txt": {
+      "bytes": 821,
+      "sha256": "2a4fb00e82782be2f23c14796b661b944058953655617c179c1236b6bc0e56f1"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-subresultant/attempt01-protected-hh-stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-subresultant/execution-record.json": {
+      "bytes": 977,
+      "sha256": "5d5eb405d1c872a77ca62b9d15ff8ba6191e63e85e850602c79402637d09fc07"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-subresultant/run_audit.py": {
+      "bytes": 1723,
+      "sha256": "c73248a627f96cc9439b00dc8f4fda39c43abce508173cb08574570bc70445f8"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-subresultant/stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "research/validation/2026-10-11-quintic-endpoint-subresultant/stdout.txt": {
+      "bytes": 190,
+      "sha256": "a755b138080c73cb897d891ae08f40a3b912a43e7a939701ad7a569e6bd8cc22"
+    },
+    "research/computations/verify_session_quintic_a4_exact_ideal_2026_10_11.m2": {
+      "bytes": 6164,
+      "sha256": "3a48626539da961ca68edd3d3b13a33d39cb154020e52a19c292d06e9ce77ca9"
+    },
+    "research/computations/verify_session_quintic_a4_pair_classification_2026_10_11.m2": {
+      "bytes": 3639,
+      "sha256": "e710635b396707a6414fb142472db1ead3b17cfd06c1cb1ee18c4f64318108f2"
+    },
+    "research/computations/verify_session_dp5_a4_local_chart_2026_10_11.m2": {
+      "bytes": 1690,
+      "sha256": "9a5672a81ce2cfd23fa0eddf2838a1b9224c9cd25a7a70535e2e5523c6ce222d"
+    },
+    "research/computations/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2": {
+      "bytes": 2161,
+      "sha256": "c88f6ba0741ba3190a2b806f2d152600e2acf7cc9e8314bfb26fa4d51c492768"
+    },
+    "research/computations/verify_session_quintic_endpoint_subresultant_2026_10_11.m2": {
+      "bytes": 2798,
+      "sha256": "7036733f30be72d91460a8101fff4f5f7c5ac6d5921b88077ce42c58a66f9d5e"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-10-11T01:22:12.209773+00:00",
+  "source": "research/computations/verify_session_endpoint_local_ade_2026_10_10.m2",
+  "source_sha256": "cbe568f673086ed5f4084aedba3e4075470938c5b0bef223de75f7d65c8337d4",
+  "snapshot": "research/validation/2026-10-10-endpoint-root-replay/snapshot/verify_session_endpoint_local_ade_2026_10_10.m2",
+  "snapshot_sha256": "cbe568f673086ed5f4084aedba3e4075470938c5b0bef223de75f7d65c8337d4",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-endpoint-root-replay/snapshot/verify_session_endpoint_local_ade_2026_10_10.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-endpoint-root-replay/snapshot",
+  "exit_code": 0,
+  "elapsed_seconds": 0.6427079578861594,
+  "expected_exact_identities": 16,
+  "stdout_sha256": "711c9dbf4bd5a146b701715f0ad40161735dbd5cc6034959ccd148b6d27528bb",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Exact full local equation, factorization and Cartan identities; geometric coverage is a separate proof",
+  "source_accounting": "one replay of the existing original source; copied bytes add no mathematical verifier"
+}

@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-conductor-infinity-coefficient.md",
+      "sha256": "faab1f7ab531e36e7e04bf93b511a9ef617fda74ea21227429fcfd2059c268dc"
+    },
+    {
+      "path": "research/computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py",
+      "sha256": "ca4b4630a46219fdbfd67024002b818116bd67ca60b257d17cd3119c675e51c2"
+    },
+    {
+      "path": "research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt",
+      "sha256": "d5701314fdf45a60b66d4763159ac383a7fed5eb51d9821115455ab968e0ea84"
+    },
+    {
+      "path": "research/notes/2026-10-12-session-nonendpoint-restricted-conductor-determinant.md",
+      "sha256": "fbd0cadc994d9aa40d2459f7853889ad958d82be4744fce8df3e868bb0faf0fb"
+    }
+  ]
+}

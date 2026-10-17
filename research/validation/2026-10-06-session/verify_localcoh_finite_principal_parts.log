@@ -1,0 +1,13 @@
+Command: /opt/homebrew/bin/M2 --script research/computations/verify_localcoh_finite_principal_parts.m2
+CWD: /Users/markluxton/Projects/STCI
+
+dim H^0(T_1(-7)) = 0
+dim H^0(T_2(-7)) = 0
+dim H^0(T_3(-7)) = 1
+dim H^0(T_4(-7)) = 30
+dim H^0(T_5(-7)) = 105
+PASS: unique order-three section has quartic socle multipliers k*q^2
+PASS: all 30 order-four sections inject into diagonal Cech stage N=4
+Their numerators have homogeneous degree 13 modulo (q^4,B^4).
+
+Runner status: PASS

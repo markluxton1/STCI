@@ -1,0 +1,17 @@
+{
+  "source": "research/computations/verify_session_quintic_nonendpoint_structure_2026_10_11.m2",
+  "source_sha256": "a4dc392b6dd61b94155e7bbe3bf856d7983abcdf3d24c8a6bf31be4f045b555f",
+  "executed_source": "research/validation/2026-10-11-quintic-nonendpoint-structure/attempt-03/verify_session_quintic_nonendpoint_structure_2026_10_11.m2",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/validation/2026-10-11-quintic-nonendpoint-structure/attempt-03/verify_session_quintic_nonendpoint_structure_2026_10_11.m2"
+  ],
+  "started_at": "2026-10-12T00:10:08.729236+00:00",
+  "finished_at": "2026-10-12T00:10:09.367277+00:00",
+  "elapsed_seconds": 0.6379152499139309,
+  "exit_code": 1,
+  "stdout_sha256": "f25e360198841dc7d53067b1eed43703144f602c7da2fb73d592de9498f5129f",
+  "stderr_sha256": "67c4832ab5038c4dc2c7f99c1eaa12a9745cf352a6f1a95a1198ba2e072b7857",
+  "pass_lines": 1
+}

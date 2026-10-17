@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated/research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py", line 29, in <module>
+    assert s.expand(H.subs(r,-s.Rational(1,2))-8*(p+2)**3) == 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

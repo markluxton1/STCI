@@ -1,0 +1,1 @@
+PASS exact group binding: 4 cover + 2 conductor remainders + 8 ODE + 3 accelerators = 17 equations; complete global input retained

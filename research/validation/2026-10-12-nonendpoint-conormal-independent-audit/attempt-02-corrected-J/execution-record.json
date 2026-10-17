@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-12T14:46:38.791952+00:00",
+  "elapsed_seconds": 0.10644574998877943,
+  "command": [
+    "/opt/homebrew/opt/python@3.15/bin/python3.15",
+    "-B",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-conormal-independent-audit/verify_conormal.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-conormal-independent-audit",
+  "returncode": 0,
+  "source": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-conormal-independent-audit/verify_conormal.py",
+  "source_sha256": "46b4f3fd53d94db67088416190248525e401b99dc29ee0ee4821f3a69a55a139",
+  "stdout": "stdout.txt",
+  "stdout_sha256": "5d0c2492cea826d3618cd40520ef2e82fc86b3bf878acbd345331f116d69cf7b",
+  "stderr": "stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "exact_checks": 12,
+  "scope": "First-normal identities, actual opposite frame, zero-pair witness, and socle arithmetic; no carrier/parameter exhaustion"
+}

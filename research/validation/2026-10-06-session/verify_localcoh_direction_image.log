@@ -1,0 +1,15 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_localcoh_direction_image.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: dim I4=18; balanced symbol image rank17; kernel kq²
+PASS: image equations P1=2Q2, P4=2Q5, P7=2Q8
+PASS: universal exact quartic lift F=qH(P-P_J)+J+cq²
+PASS: e0 intersection dimension7 for every direction
+PASS: e1 dimension9 at r~(2s,t), dimension6 elsewhere
+PASS: e2 dimension6 at a0=2b1,a1=2b2, dimension5 elsewhere
+PASS: excluded e2 rank0 directions have a common linear factor
+PASS: all primitive e2 rank2 scalar kernels are h2=h5=0
+PASS: exact homogeneous resultant on exceptional e2 directions
+PASS: exceptional e1 quartic preimage is exactly q*S2
+
+Runner status: PASS

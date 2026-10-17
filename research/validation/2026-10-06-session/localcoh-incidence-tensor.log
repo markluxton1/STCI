@@ -1,0 +1,4 @@
+Command: /opt/homebrew/bin/M2 --script research/computations/localcoh-incidence-tensor.m2
+
+PASS: 74 exact equations for each target; 30 ancestors and 18 quartics.
+PASS: tensor image equals the complete 74-dimensional E3_-3 piece.

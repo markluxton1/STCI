@@ -1,0 +1,55 @@
+| -GcJc/3delta^6                                            (2Gc+Jc)/3delta^3                                1/3                |
+| -BcJc/delta^5                                             (3delta^2+6Bc+Gc)/3delta^2                       -delta/3           |
+| (-3delta^2Gc-Gc^2)/9delta^4                               (3delta^2+9Bc+2Gc)/9delta                        -delta^2/9         |
+| (9delta^5+6delta^3Gc+deltaGc^2-9deltaaaJc-9BcJc)/9delta^5 (-6delta^3+18deltaaa-2deltaGc+18Bc+3Gc)/9delta^2 (delta^2-3delta)/9 |
+| (-9delta^3Bc-3deltaBcGc-Gc^2)/9delta^4                    (9deltaaa+3deltaBc+9Bc+2Gc)/9delta               -delta^2/9         |
+                   4           2              2  2         2             2              2     3      2                      2
+            (3delta Gc + 6delta Bc*Gc + 4delta Gc  - 3delta Bc*Jc + delta Gc*Jc + 2Bc*Gc  + Gc  - 9Bc Jc - 5Bc*Gc*Jc - Bc*Jc )
+({0, 1, 2}, ------------------------------------------------------------------------------------------------------------------)
+                                                                      6
+                                                               (delta) (27)
+                   6          4            4           4            2              2  2         2              2             2              2     3                                                               2        2
+            (9delta  + 18delta Bc + 15delta Gc + 3delta Jc + 12delta Bc*Gc + 7delta Gc  - 9delta aa*Jc - 6delta Bc*Jc + delta Gc*Jc + 2Bc*Gc  + Gc  - 9delta*Bc*Jc - 3delta*Gc*Jc - 3aa*Gc*Jc - 2Bc*Gc*Jc - 3aa*Jc  - Bc*Jc )(-1)
+({0, 1, 3}, ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------)
+                                                                                                                        6
+                                                                                                                 (delta) (27)
+                   7         5           5          5           3              3             3  2         3              2              2  2               2              2         2                                                                        2         2     3      2                      2
+            (3delta  + 9delta Bc + 4delta Gc + delta Jc + 6delta aa*Gc + 6delta Bc*Gc + delta Gc  - 3delta aa*Jc + 6delta Bc*Gc + 3delta Gc  + 2delta*aa*Gc  + delta*Bc*Gc  - 3delta Bc*Jc - 9delta*aa*Bc*Jc - 2delta*aa*Gc*Jc + delta*Bc*Gc*Jc - delta*aa*Jc  + 2Bc*Gc  + Gc  - 9Bc Jc - 5Bc*Gc*Jc - Bc*Jc )(-1)
+({0, 2, 3}, -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------)
+                                                                                                                                                                6
+                                                                                                                                                         (delta) (27)
+                   4           3           2              2             2                2         2        2                                 2
+            (3delta Bc - 3delta Gc + 6delta aa*Gc + 4delta Bc*Gc + delta Bc*Jc - delta*Gc  + 2aa*Gc  + Bc*Gc  + 3delta*Bc*Jc - 9aa*Bc*Jc - 3Bc Jc - aa*Gc*Jc)
+({1, 2, 3}, -------------------------------------------------------------------------------------------------------------------------------------------------)
+                                                                                      4
+                                                                               (delta) (27)
+                   5            3  2          3              3                 2          2  2               2                              2          2                                2     3      2                      2
+            (9delta Bc + 18delta Bc  + 12delta Bc*Gc + 3delta Bc*Jc + 6delta*Bc Gc + delta Gc  + 3delta*Bc*Gc  - 9delta*aa*Bc*Jc - 3delta*Bc Jc + delta Gc*Jc - 3delta*aa*Gc*Jc + 2Bc*Gc  + Gc  - 9Bc Jc - 5Bc*Gc*Jc - Bc*Jc )
+({0, 1, 4}, ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------)
+                                                                                                                      6
+                                                                                                               (delta) (27)
+                   4           2  2         2              2             2                          2             2        2        2
+            (3delta Bc + 9delta Bc  - 3delta aa*Gc + 4delta Bc*Gc + delta Bc*Jc - 3delta*Bc*Gc + 3Bc Gc - delta*Gc  - aa*Gc  + Bc*Gc  - aa*Gc*Jc)
+({0, 2, 4}, -------------------------------------------------------------------------------------------------------------------------------------)
+                                                                                4
+                                                                         (delta) (27)
+                   2  2        3           2                        2          2                               2
+            (3delta Bc  + delta Gc - 3delta aa*Gc - delta*Bc*Gc + Bc Gc - aa*Gc  - delta*Bc*Jc + 3aa*Bc*Jc + Bc Jc)(-1)
+({1, 2, 4}, -----------------------------------------------------------------------------------------------------------)
+                                                                   3
+                                                            (delta) (27)
+                   6           6           5            4              5           4              4             5          4               3  2          3              2                 3  2        2     2        2     2         2  2           3              2                2                    2                 2               2                               2                                                   2         2     3      2                      2
+            (9delta aa - 3delta Bc + 9delta Bc + 18delta aa*Bc + 4delta Gc + 6delta aa*Gc - 4delta Bc*Gc + delta Jc - delta Bc*Jc + 18delta Bc  + 15delta Bc*Gc + 6delta aa*Bc*Gc + 2delta Gc  + delta aa*Gc  - delta Bc*Gc  - 9delta aa Jc + 3delta Bc*Jc - 3delta aa*Bc*Jc + delta aa*Gc*Jc + 6delta*Bc Gc + 2delta*aa*Gc  + 4delta*Bc*Gc  - 18delta*aa*Bc*Jc - 3delta*Bc Jc - 5delta*aa*Gc*Jc + delta*Bc*Gc*Jc - delta*aa*Jc  + 2Bc*Gc  + Gc  - 9Bc Jc - 5Bc*Gc*Jc - Bc*Jc )
+({0, 3, 4}, -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------)
+                                                                                                                                                                                                                                               6
+                                                                                                                                                                                                                                        (delta) (27)
+                   6         5           4            3              3  2        4           3             2                                   2                2         2                 2           2                                  2             2         2        2                                 2
+            (3delta  - 9delta aa + 6delta Bc - 18delta aa*Bc - 6delta Bc  + delta Gc - 6delta aa*Gc + delta Bc*Gc - 6delta*aa*Bc*Gc - 2delta*Bc Gc - delta*aa*Gc  - 3delta aa*Jc + 9delta*aa Jc - 2delta Bc*Jc + 6delta*aa*Bc*Jc + delta*Bc Jc + delta*Gc  - 2aa*Gc  - Bc*Gc  - 3delta*Bc*Jc + 9aa*Bc*Jc + 3Bc Jc + aa*Gc*Jc)
+({1, 3, 4}, -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------)
+                                                                                                                                                                      4
+                                                                                                                                                               (delta) (27)
+                  6         5           4           3              3  2        3              2  2        2              2                                  2          2                 2                                      2          2                               2
+            (delta  - 3delta aa + 3delta Bc - 6delta aa*Bc - 3delta Bc  - delta aa*Gc + 3delta Bc  - delta aa*Gc + 2delta Bc*Gc - 2delta*aa*Bc*Gc - delta*Bc Gc - delta aa*Jc + 3delta*aa Jc + delta*aa*Bc*Jc - delta*Bc*Gc + Bc Gc - aa*Gc  - delta*Bc*Jc + 3aa*Bc*Jc + Bc Jc)
+({2, 3, 4}, -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------)
+                                                                                                                                               3
+                                                                                                                                        (delta) (27)

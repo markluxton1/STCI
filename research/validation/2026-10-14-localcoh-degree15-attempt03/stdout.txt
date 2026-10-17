@@ -1,0 +1,2 @@
+attempt03: loading rational source matrix
+attempt03: canonical rational pencil constructed

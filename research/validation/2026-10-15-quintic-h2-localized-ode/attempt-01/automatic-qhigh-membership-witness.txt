@@ -1,0 +1,1 @@
+gVal*sVal*lVal*psiVal+jVal*psiVal^2+(1/2)*gVal*lVal*tVal

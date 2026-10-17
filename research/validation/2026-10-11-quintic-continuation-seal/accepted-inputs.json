@@ -1,0 +1,96 @@
+{
+  "scope": "Exact root-reviewed input versions; a digest does not prove mathematical truth",
+  "reviewed_utc": "2026-10-12T14:18:14.769092+00:00",
+  "inputs": {
+    "research/notes/2026-10-11-session-dp5-a4-intrinsic-pair-classification.md": {
+      "sha256": "537e341fb79632997648209efb7728c64229d7bd648cc2721285e8ab04cf0e0f",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-dp5-a4-explicit-model-independent-audit.md": {
+      "sha256": "f19ae25848ba77a5c59f3a9ce53819b24258c03b5d90f234b31ec7581306f8bd",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-dp5-a4-local-chart-independent-audit.md": {
+      "sha256": "f720e1742ebffeb835a3cd955d081d28d633eeb4d31293a14a197ad31cfb7f13",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-quintic-structural-frontier.md": {
+      "sha256": "4e84d1183435f8509df48b6b1d02fb4f00f29736ec8670bb09b2577dc991595b",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-quintic-conormal-and-delpezzo-audit.md": {
+      "sha256": "9cf5438894e3fb07f2094b4bcc1280ec0ead01822155d3897aceb73ffc1011fb",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-power-descent-algebra-audit.md": {
+      "sha256": "44bd3ba2e95bf122b39e8e92c6a11fcb8e95037cd5feec18b7aeed0e30f7e51f",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-quintic-endpoint-a0-polynomial-support-independent-audit.md": {
+      "sha256": "e0586983289a8f802618bdd156552e7b750c0ec3fcbe95e84f743d8851572431",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-quintic-endpoint-a-b-zero-jet-obstruction.md": {
+      "sha256": "31fce973db8cfdbb223e421692739e35f1d1a8cfc69b6026ab186b0b0d761bd1",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-quintic-endpoint-a0-b0-power-jet-independent-audit.md": {
+      "sha256": "6b4dc6de246759667c54953aab0ead3cc295e5226a3b7c85dc39463ece5e10d9",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-quintic-endpoint-abzero-first-jet-independent-audit.md": {
+      "sha256": "635c7b30c4fae36ad10f7bb0804f5db84c5c242499b3b238b6b5c3408c60e99a",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-endpoint-a-nonzero-full-support-exclusion.md": {
+      "sha256": "26b204f51bf7648b1d5c260cf2dba4fe034e076a2bbcb8f01cc4fa6fac5e8881",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-endpoint-a-nonzero-global-independent-audit.md": {
+      "sha256": "a47e218d20cf7f835b7f9ce9ee470a85cc4fe146f81e1438bb15e1a5f126f824",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-endpoint-two-common-roots-target-contact-independent-audit.md": {
+      "sha256": "6bde0a9ebab00e0179f56e3780b3da283ece215db98bc897d05ae17f8f69b904",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-three-common-roots-residual-quartic-independent-audit.md": {
+      "sha256": "7d1a344849b214aca382c0ad05767d38397c8532576e26a6ef0a08b8d7babe83",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-endpoint-three-common-roots-shifted-replay.md": {
+      "sha256": "88a7d8aa9df55e00f2381fe572c7ba311ec5a81d66f29128c78dfee626592016",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-all-quartic-results-acceptance.md": {
+      "sha256": "670d8d8a7aec2e2552bc358b9bae93f307ee4756da9da90e77f98daa8d3d9d2f",
+      "scope": "Root-reviewed accepted antecedent, proof or independent audit; exact mathematical scope is in the linked acceptance"
+    },
+    "research/notes/2026-10-11-session-a4-low-pole-spaces.md": {
+      "sha256": "929f8165fd0f484175c819011cdf2eefaf6766e3c88735d556903241a2177f5a",
+      "scope": "Retained direct proof; separate proof audit of full nonendpoint note outstanding"
+    },
+    "research/notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md": {
+      "sha256": "ad4459de5a95b12e26a162419082d7b32745323a6781716efdf6cca72767c2a2",
+      "scope": "Retained direct proof; separate proof audit of full nonendpoint note outstanding"
+    }
+  },
+  "required_audited_routes": [
+    "research/notes/2026-10-11-session-dp5-a4-intrinsic-pair-classification.md",
+    "research/notes/2026-10-11-session-dp5-a4-explicit-model-independent-audit.md",
+    "research/notes/2026-10-11-session-dp5-a4-local-chart-independent-audit.md",
+    "research/notes/2026-10-11-session-quintic-structural-frontier.md",
+    "research/notes/2026-10-11-session-quintic-conormal-and-delpezzo-audit.md",
+    "research/notes/2026-10-11-session-power-descent-algebra-audit.md",
+    "research/notes/2026-10-11-session-quintic-endpoint-a0-polynomial-support-independent-audit.md",
+    "research/notes/2026-10-11-session-quintic-endpoint-a-b-zero-jet-obstruction.md",
+    "research/notes/2026-10-11-session-quintic-endpoint-a0-b0-power-jet-independent-audit.md",
+    "research/notes/2026-10-11-session-quintic-endpoint-abzero-first-jet-independent-audit.md",
+    "research/notes/2026-10-11-session-endpoint-a-nonzero-full-support-exclusion.md",
+    "research/notes/2026-10-11-session-endpoint-a-nonzero-global-independent-audit.md",
+    "research/notes/2026-10-11-session-endpoint-two-common-roots-target-contact-independent-audit.md",
+    "research/notes/2026-10-11-session-three-common-roots-residual-quartic-independent-audit.md",
+    "research/notes/2026-10-11-session-endpoint-three-common-roots-shifted-replay.md",
+    "research/notes/2026-10-11-session-all-quartic-results-acceptance.md"
+  ]
+}

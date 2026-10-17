@@ -1,0 +1,17 @@
+R = QQ[z0,z1,z2,z3,z4,z5];
+T = QQ[x,y,z];
+parametrization = {y*z^2-x^3,x*y*z,y^2*z,x^2*y,x*y^2,y^3};
+phi = map(T,R,parametrization);
+I = ker phi;
+print("IDEAL " | toString gens I);
+print("DIM " | toString dim(R/I));
+print("DEGREE " | toString degree(R/I));
+print("HS " | toString hilbertSeries(R/I));
+print("HP " | toString hilbertPolynomial(R/I));
+print("BETTI " | toString betti res(R/I));
+J = saturate(I+minors(3,jacobian I),ideal vars R);
+print("SING " | toString gens J);
+print("SINGDIM " | toString dim(R/J));
+print("SINGDEG " | toString degree(R/J));
+print("RADICAL " | toString gens radical J);
+exit 0;

@@ -1,0 +1,38 @@
+{
+  "status": "supervisor-failed-ps-permission-child-terminal",
+  "started_utc": "2026-10-16T01:17:00.043003+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-15-quadratic-root-global-second/attempt-01-QQ-full-smooth-family/source.m2"
+  ],
+  "source_sha256": "e6d943bed1e56d330703335a800c2149ecd1d79183d4e7a073fc928974f540eb",
+  "input_sha256": {
+    "research/computations/generalization_quadratic_root_global_second_model.m2": "897a252778d6462ffdb3c628abecd31c14171856a06ef5dc0b989baa9a25ced0",
+    "research/computations/generalization_quadratic_root_global_second_model.py": "e63f11092deb618f4b3138b86bc71c80100f4321cd14966f72b95b9a6e71748b"
+  },
+  "cpu_limit_seconds": 45,
+  "wall_limit_seconds": 60,
+  "rss_kib_stop_threshold": 1572864,
+  "rss_monitor_note": "Observed process RSS polled every 0.25 seconds; threshold triggers termination of this own process group, not a kernel hard memory cap.",
+  "scope": "ONE exact QQ global K1+K2 full smooth-family prospect; no coefficient chart; no emptiness inferred from timeout/failure.",
+  "pid": 32960,
+  "own_process_group": 32960,
+  "supervisor_error": "PermissionError running /bin/ps for RSS monitor under sandbox",
+  "finished_utc": "2026-10-16T01:17:44.698363+00:00",
+  "pid_absent_after_cleanup": true,
+  "reaped_by_original_supervisor": false,
+  "exit_code": null,
+  "exit_code_note": "Original supervisor failed before wait; child status not recoverable by replacement process.",
+  "stdout_sha256": "795e5dbb336964c896767829243078abc5dc1ebae8658d7da893f93eabee3527",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "supervisor_snapshot": "research/validation/2026-10-15-quadratic-root-global-second/attempt-01-QQ-full-smooth-family/supervisor-at-launch.py",
+  "supervisor_sha256": "6aefd1917a4ee3f563af787dadd0020c9c061bb041075321e009c54c0abc7c83",
+  "interpretation": "Terminal PID absence confirmed; no GB completion/unit marker. Monitor failure and unknown original exit status supply no mathematical conclusion. No second launch performed.",
+  "applied_limit_status": {
+    "cpu_limit_set_in_child_preexec": true,
+    "wall_supervisor_completed": false,
+    "rss_monitor_started_successfully": false,
+    "reason": "Supervisor failed on its first ps invocation; later authorized inspection confirmed original child PID absent."
+  }
+}

@@ -1,0 +1,4 @@
+CONSTRUCT finite h2 actual coefficient map
+CONDUCTOR constructed
+coefficient denominator degree {14}
+common coefficient coeffContent (deltaPar)^4

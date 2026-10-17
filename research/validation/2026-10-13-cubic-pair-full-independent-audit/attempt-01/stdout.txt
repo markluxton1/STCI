@@ -1,0 +1,37 @@
+PASS 1: profile 1 exact full saturated ideal
+PASS 2: profile 1 zero-dimensional count
+PASS 3: profile 1 saturated bad locus absent in candidates
+PASS 4: profile 1 endpoints retained then excluded by irreducibility
+PASS 5: profile 1 all branches reduced
+PASS 6: profile15 h invariant
+PASS 7: profile15 p invariant
+EXACT CLASSIFICATION (1,5)
+| cpaU-11cpaV+5 21cpaV^2-21cpaV+5 |
+PASS 8: profile 2 exact full saturated ideal
+PASS 9: profile 2 zero-dimensional count
+PASS 10: profile 2 saturated bad locus absent in candidates
+PASS 11: profile 2 endpoints retained then excluded by irreducibility
+PASS 12: profile 2 all branches reduced
+PASS 13: profile24 h invariant
+PASS 14: profile24 p invariant
+EXACT CLASSIFICATION (2,4)
+| 6cpaUcpaV+3cpaV^2-3cpaU-6cpaV+2 3cpaU^2-6cpaV^2-3cpaU+6cpaV-2 42cpaV^3-63cpaV^2-cpaU+42cpaV-10 |
+PASS 15: profile 3 exact full saturated ideal
+PASS 16: profile 3 zero-dimensional count
+PASS 17: profile 3 saturated bad locus absent in candidates
+PASS 18: profile 3 endpoints retained then excluded by irreducibility
+PASS 19: profile 3 all branches reduced
+PASS 20: profile33 s invariant
+PASS 21: profile33 p invariant
+EXACT CLASSIFICATION (3,3)
+| cpaU+cpaV-1 7cpaV^4-14cpaV^3+12cpaV^2-5cpaV+1 |
+PASS 22: single support full missing-coefficient ideal
+PASS 23: single support all candidates reducible
+PASS 24: abstract Segre rank one identity
+PASS 25: first ambient cubic removes exact L0 squared
+PASS 26: opposite ambient cubic removes exact L1 squared
+PASS 27: complete heptic affine top coefficient cancels
+PASS 28: complete heptic affine degree-six coefficient
+PASS 29: actual cubic shared infinity lies on C0
+PASS 30: actual cubic first full Cartier coefficient is J
+TOTAL INDEPENDENT CHECKS 30

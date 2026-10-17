@@ -1,0 +1,10 @@
+PASS complete compact L2 discriminant
+PASS rational-cover L2 equation
+PASS rational-cover inverse m
+PASS rational-cover D factor
+PASS rational-cover L1 and H identity
+PASS D-zero actual k solve
+PASS D-zero nonzero linear coefficient
+PASS D-zero L1 and V identity
+PASS q-two full discriminant
+DONE nine small rational-cover identities

@@ -1,0 +1,10 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_split4_nonramified.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: all nonramified [4] first-normal parameter charts are exact
+PASS: the two-distinct-preimage d=1,[4] chart has forced vertical content
+PASS: surviving d=0 and double-allocation d=1 selected germs are A3
+PASS: finite-root [2,2] chart, including one ramified ruling, is exact
+PASS: ambient normal map has rank22 and symbolic carrier lifts exist
+
+Runner status: PASS

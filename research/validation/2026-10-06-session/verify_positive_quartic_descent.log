@@ -1,0 +1,10 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_positive_quartic_descent.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: standard-cusp descent support in characteristic 2
+PASS: standard-cusp descent support in characteristic 5
+PASS: standard-cusp descent support in characteristic 7
+PASS: characteristic-3 cusp-ring identities
+PASS: all positive-quartic descent assertions
+
+Runner status: PASS

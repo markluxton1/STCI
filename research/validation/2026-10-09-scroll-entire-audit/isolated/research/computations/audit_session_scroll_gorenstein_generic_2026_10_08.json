@@ -1,0 +1,59 @@
+{
+  "source_sha256": "885c334e5bd2a007b65dcc01e72f6d8289bc28e5bdfb31fbfc5134e9d47e0e6e",
+  "status": "PASS complete generic Artin partitions and exact shortcut countermodels",
+  "scope": "Characteristic zero; conditional rank2 freeness over a doubled generic base. The global conductor theorem is proved separately in the mathematical audit.",
+  "generic_length4_rank2_partitions": [
+    [
+      {
+        "a": 2,
+        "residue_degree": 2,
+        "epsilon_order": 1
+      }
+    ],
+    [
+      {
+        "a": 4,
+        "residue_degree": 1,
+        "epsilon_order": 2
+      }
+    ],
+    [
+      {
+        "a": 2,
+        "residue_degree": 1,
+        "epsilon_order": 1
+      },
+      {
+        "a": 2,
+        "residue_degree": 1,
+        "epsilon_order": 1
+      }
+    ]
+  ],
+  "thick_base_discriminant_examples": [
+    "K[t]/t4, epsilon=t\u00b2, Delta=epsilon!=0",
+    "K(sqrt(d))[epsilon]/epsilon\u00b2, Delta=d a nonzero unit"
+  ],
+  "exchanged_prime_countermodel": "B=R\u00d7R, R=K[epsilon]/epsilon\u00b2; sigma exchanges factors; f=(1,zeta), zeta primitive cube root; f\u00b3 descends, f\u00b2 does not",
+  "F0_low_degree_prime_classes": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "F2_low_degree_prime_classes": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "not_claimed": "No automatic prime preservation; no Delta=0 assertion on nonreduced Gamma; no global realization of the countermodels; no nongorenstein extension"
+}

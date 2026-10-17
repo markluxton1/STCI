@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-08",
+  "scope": "Second rational e=2,h=t endpoint family; generic actual multiplier exclusion and26 retained primitive direction points",
+  "input_output_sha256": {
+    "session-localcoh-origin-family-2.m2": "a7e5874686e4094e86d02c5cc86852be95b5aff21c2c8314f76177da87800843",
+    "session-localcoh-origin-family-2-seed.json": "126109892afd816b48df9cce415dbf09817352d11727e1a1ccc5a6c5362f1194",
+    "session-localcoh-origin-family-2-generic-dual.txt": "a3938aefdb51f8ae48a508b3cf38f2837d55ba09dd5e963ff9a260c927799325",
+    "session-localcoh-origin-family-2-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "verify_session_localcoh_family2_generic_2026_10_08.py": "f32d2e6cac74b013cae6082a2c827485386d9808493d519c7ef6abb6b5913571",
+    "session_localcoh_family2_generic_dual_audit_2026_10_08.json": "cc9a5a587f0b2573e98e288b1f0549639e3d93aa02aacdab7d8707dfd1d5e42b",
+    "session_localcoh_family2_generic_dual_audit_2026_10_08.out": "78aba61dbf88ac7f3b52f28cd8cbbe9b4aa6b2db94194a17d40cacdfddd1ee6f"
+  },
+  "processes": {
+    "55063": {
+      "kind": "M2 polynomial dual computation",
+      "status": "completed",
+      "exit_code": 0
+    },
+    "18670": {
+      "kind": "coefficient regeneration and independent verification",
+      "status": "completed",
+      "exit_code": 0
+    },
+    "79082": {
+      "kind": "strengthened standard-library verification",
+      "status": "completed",
+      "exit_code": 0
+    },
+    "59951": {
+      "kind": "fresh verification output capture",
+      "status": "completed",
+      "exit_code": 0
+    },
+    "26885": {
+      "kind": "auxiliary rational point-rank probe",
+      "status": "deliberately interrupted after generic certificate completed",
+      "exit_code": 130,
+      "result": "No rank result; no inference promoted"
+    }
+  },
+  "m2_stdout": [
+    "matrix ready over QQ(k)[lambda]",
+    "generic dual module computed",
+    "generic evaluation ideal saved",
+    "generic exact dual saved; exceptional k remains"
+  ],
+  "no_live_process_from_this_branch": true
+}

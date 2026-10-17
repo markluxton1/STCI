@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_chow_form.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: the 10-term Pluecker quartic equals the exact line resultant
+
+Runner status: PASS

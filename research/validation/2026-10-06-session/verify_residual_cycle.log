@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_residual_cycle.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: 81 exact residual-cycle lattice determinants; A<=Dtop
+
+Runner status: PASS

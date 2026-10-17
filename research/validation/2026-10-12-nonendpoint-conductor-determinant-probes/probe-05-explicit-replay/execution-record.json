@@ -1,0 +1,16 @@
+{
+  "source": "research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-05-explicit-replay/source.m2",
+  "source_sha256": "975276ae27a29ee99ed7b8a892fa3800b60dbb12686422a33a79fe8ab4a12303",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-conductor-determinant-probes/probe-05-explicit-replay/source.m2"
+  ],
+  "started_at_utc": "2026-10-12T21:27:03.507975+00:00",
+  "finished_at_utc": "2026-10-12T21:27:04.148607+00:00",
+  "exit_code": 1,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "957acaa4827d53d19847f58d0186b97a8c821e855738baa056ca22765f3e9f15",
+  "capture_kind": "explicit replay of preserved exploratory source; initial tool outputs were not originally written to files",
+  "scope": "exploratory formula or interface probe; no mathematical assertion checks counted"
+}

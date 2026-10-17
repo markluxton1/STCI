@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-10",
+  "scope": "Independent exact representations for the written genus-one ribbon/[2,1,1] interface proof; no remaining-partition or universal STCI claim",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "passing_source": "research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2",
+  "passing_source_sha256": "156312ac71da07a5bf1b4124a590f4a82da17eed01e2d93235eca91af24624dd",
+  "runtime": "/opt/homebrew/bin/M2",
+  "runtime_version_observed": "1.26.06",
+  "attempts": [
+    {
+      "command": "/opt/homebrew/bin/M2 --script research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2",
+      "source_sha256": "a515598a11636a23cfba3f9af2b2e21b43fd43214f5711e40bf35873fad5903a",
+      "tool_chunk_id": "6105b0",
+      "exit_code": 1,
+      "wall_time_seconds": 0.57740675,
+      "terminal_error": "assignment to protected global variable 'net'",
+      "repair": "Rename the net coefficient list from net to netCoefficients and update its two references. No mathematical identity was changed."
+    },
+    {
+      "command": "/opt/homebrew/bin/M2 --script research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2",
+      "source_sha256": "156312ac71da07a5bf1b4124a590f4a82da17eed01e2d93235eca91af24624dd",
+      "tool_chunk_id": "6c03e1",
+      "exit_code": 0,
+      "wall_time_seconds": 0.521622041,
+      "stdout": "PASS: 42 exact [211] interface identities over QQ\n"
+    }
+  ],
+  "runtime_drift_observations": [
+    {
+      "command": "/private/tmp/stci-cas-venv/bin/python -c 'import sympy as S; ...'",
+      "tool_chunk_id": "15d479",
+      "exit_code": 1,
+      "error": "ModuleNotFoundError: No module named 'sympy'"
+    },
+    {
+      "tool_chunk_id": "a030dc",
+      "observed_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "observed_version": "3.14.8",
+      "observation": "The temporary python symlink no longer selects a populated virtual environment; sys.path contains global Python paths."
+    },
+    {
+      "command": "/Users/markluxton/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -c 'import sys, sympy; print(sys.executable); print(sympy.__version__)'",
+      "tool_chunk_id": "dc4a8c",
+      "exit_code": 1,
+      "error": "ModuleNotFoundError: No module named 'sympy'"
+    }
+  ],
+  "evidence_attribution_correction": {
+    "older_note": "research/notes/2026-10-09-session-ribbon-211-projection-independent-audit.md",
+    "section": 5,
+    "finding": "Its attributed verify_session_genus_one_projection_2026_10_09.py currently lacks the asserted [211] cubic and remainder checks. The new M2 companion supplies them; historical execution counts are not retroactively changed.",
+    "mathematical_proof_status": "Accepted under the stated ribbon and fixed-projection inputs"
+  },
+  "git_diff_check": {
+    "tool_chunk_id": "f0aa8a",
+    "exit_code": 0
+  },
+  "prior_seals": "Unchanged and not treated as covering this later execution"
+}

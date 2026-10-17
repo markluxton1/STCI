@@ -1,0 +1,17 @@
+{
+  "source": "research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py",
+  "source_sha256": "3732eaea04da7cbf8578fff10ce784eaef1565f4cedab5b9203eae2486388a42",
+  "command": [
+    "/private/tmp/stci-cas-venv/bin/python",
+    "research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated-elliptic-repair",
+  "snapshot_source": "research/validation/2026-10-07-continuation/isolated-elliptic-repair/research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py",
+  "isolated": true,
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 0.363,
+  "log": "research/validation/2026-10-07-continuation/verify_session_mf6_principal_elliptic_repaired_2026_10_08.log",
+  "log_sha256": "abb659878a81d4fccb4cf271d37926516692668cc98ae4ff5a8d53b4af1a7fa2",
+  "repair": "Initial boundary-factor expectation 8(p+2)^3 was false; actual literal H gives 8p(p+2)^2. Birational identities and absence of a vertical component are unchanged. Original source snapshot and failed log retained."
+}

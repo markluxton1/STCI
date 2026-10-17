@@ -1,0 +1,2 @@
+multiplicity4 witness exponent=2
+PASS literal multiplicity4 original-generator witness

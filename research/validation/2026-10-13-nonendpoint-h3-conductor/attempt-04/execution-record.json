@@ -1,0 +1,21 @@
+{
+  "scope": "Exact h3 proportionality identities and a bounded two-parameter actual conductor probe; no global support or admissibility inference.",
+  "source": "research/computations/verify_session_nonendpoint_h3_conductor_2026_10_13.m2",
+  "source_sha256": "0a5376bba9b5b967b0abab1bbc1155edebd05e6fcebe787b7b8115d0690d3d6d",
+  "snapshot": "verify_session_nonendpoint_h3_conductor_2026_10_13.m2",
+  "snapshot_sha256": "0a5376bba9b5b967b0abab1bbc1155edebd05e6fcebe787b7b8115d0690d3d6d",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-13-nonendpoint-h3-conductor/attempt-04/verify_session_nonendpoint_h3_conductor_2026_10_13.m2"
+  ],
+  "started_utc": "2026-10-13T14:30:52.587937+00:00",
+  "elapsed_seconds": 90.44916958315298,
+  "exit_code": 1,
+  "stdout": "stdout.txt",
+  "stdout_sha256": "2b7d826c5906f349a23d42c379beb9f673e8a5f3659276d8b2e6d869135faa4e",
+  "stderr": "stderr.txt",
+  "stderr_sha256": "60d297305803667b930664b2caf427388b2ee1c006905b852a5b346570282e03",
+  "exact_checks": null,
+  "copy_scope": "One source and one execution snapshot, not two independent implementations."
+}

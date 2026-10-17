@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-conormal-independent-audit/verify_conormal.py", line 174, in <module>
+    assert all(checks.values()), checks
+           ~~~^^^^^^^^^^^^^^^^^
+AssertionError: {'actual_curve_restriction': True, 'P_polynomial_identity': True, 'J_polynomial_identity': False, 'moving_V_first_normal': True, 'moving_U_first_normal': False, 'no_zero_pair_unit_witness': True, 'opposite_balanced_U_transition': True, 'opposite_balanced_V_transition': True, 'socle_defect_expansion': True, 'k2_defect_degrees': True, 'e3_unbounded_k_formula': True, 'algebraic_coprime_example': True}

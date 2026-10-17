@@ -1,0 +1,8 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_scroll_conductor_compression.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: trace algebra, square-discriminant eigenrelation, contact jets,
+      symbolic nilpotent powers, and the unique quadric through C0.
+PASS: quartic derivative restriction on the twisted cubic has rank 29;
+      its six-dimensional kernel is spanned by the six xi_i*xi_j.
+      Certified 29x29 minor determinant: 104509440

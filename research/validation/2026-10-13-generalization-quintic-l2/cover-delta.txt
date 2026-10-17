@@ -1,0 +1,1 @@
+(-3*qpar^3+24*qpar^2-54*qpar+36)/(qpar^2*mpar^2-qpar*mpar^2-3*qpar^2+3*qpar)

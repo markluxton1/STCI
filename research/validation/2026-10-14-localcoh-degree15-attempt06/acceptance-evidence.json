@@ -1,0 +1,11 @@
+{
+  "status": "PROVED for stated family: all15 f15 roots, every affine lambda; no universal STCI conclusion.",
+  "certificate": "research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-certificate.json",
+  "certificate_sha256": "fbd249b231403973c6d95e400d705f4e823f326aefeacfa9c2605a2397ca5483",
+  "actual_max_lambda_degree": 1,
+  "accepted_arithmetic_source": "research/computations/evening_localcoh_family2_exception_fields_2026_10_13.py",
+  "accepted_arithmetic_source_sha256": "dc3bcd132dd729ec17b213337cebf0425acfa24bbff493108cbbc9f7c9719b60",
+  "proof_note": "research/notes/2026-10-14-localcoh-degree15-fractionfree-certificate.md",
+  "proof_note_sha256": "94647c449a9c073defcc87afc98a9ac1ff8924cc14901d230f2019bd942c85f2",
+  "scope": "Uses accepted actual tensor/top/family interpretation without inherited verification replay. New standard-library verification checks all18 complete tensor polynomial identities and normalized target."
+}

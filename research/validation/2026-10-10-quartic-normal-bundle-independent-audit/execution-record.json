@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_quartic_normal_bundle_2026_10_10.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "utc": "2026-10-11T01:15:33.321957+00:00",
+  "source": "research/computations/verify_session_quartic_normal_bundle_2026_10_10.m2",
+  "source_sha256": "e939b142ee32a89c43e08131f8668a7c5c0e73eebdbcfa81c004de951ff5d62a",
+  "exit_code": 0,
+  "wall_time_seconds": 0.7254439999815077,
+  "expected_check_count": 8,
+  "success_marker": "ALL 8 EXACT CHECKS PASSED",
+  "stdout": "stdout.txt",
+  "stderr": "stderr.txt",
+  "prior_failed_attempt": "namespace-failed-record.json"
+}

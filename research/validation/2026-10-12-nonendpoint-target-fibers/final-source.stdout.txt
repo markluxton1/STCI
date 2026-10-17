@@ -1,0 +1,18 @@
+PASS actual-first-coordinate-combination
+PASS actual-second-coordinate-combination
+PASS actual-third-coordinate-combination
+PASS target-third-combination
+PASS all-p-nonzero-affine-elimination
+PASS determinant-quadratic-residual
+PASS Cramer-two-equations
+PASS Cramer-first-equation
+PASS normalization-cubic-residual
+PASS target-one-two-polynomials
+PASS target-one-resultant
+PASS target-infinity-normalization
+PASS target-infinity-linear
+PASS rank-one-extra-fiber
+PASS pure-subfamily-three-target-constraints
+PASS pure-subfamily-normalization
+PASS pure-subfamily-special-values
+PASS all seventeen nonendpoint target-fiber checks

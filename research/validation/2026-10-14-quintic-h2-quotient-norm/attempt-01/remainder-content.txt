@@ -1,0 +1,1 @@
+vPar^4+6*vPar^3*wPar+6*vPar^2*wPar^2-2*vPar^2*wPar-24*vPar*wPar^2-24*wPar^3-8*wPar^2

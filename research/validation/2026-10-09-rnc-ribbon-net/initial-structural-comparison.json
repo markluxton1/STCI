@@ -1,0 +1,6 @@
+{
+  "source_sha256": "9feb5538f89e6dbba668816b967aa43c63ccbafac4724fddd0ea1f9d327feefe",
+  "exit_code": 1,
+  "error": "AssertionError on structural Matrix expression equality first*coeff==M*v. Expressions algebraically agree; replacing by expanded coordinate differences.",
+  "mathematics_changed": false
+}

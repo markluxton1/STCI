@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py"
+  ],
+  "exit_code": 0,
+  "status": "PASS",
+  "source_sha256": "ca4b4630a46219fdbfd67024002b818116bd67ca60b257d17cd3119c675e51c2",
+  "stdout_sha256": "34ad50e8aa9090d80924bc07f69deb7ceccd6e8c5d40e698a2ee9a414e3b2137",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "completed_utc": "2026-10-12T21:31:37.758835+00:00",
+  "scope": "Exact coefficient extraction from bound primitive polynomial; no new conductor-geometry proof."
+}

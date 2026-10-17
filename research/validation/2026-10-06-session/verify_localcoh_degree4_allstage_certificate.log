@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_localcoh_degree4_allstage_certificate.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: P-043 all-stage coefficient certificate checked for N=2,...,8
+
+Runner status: PASS

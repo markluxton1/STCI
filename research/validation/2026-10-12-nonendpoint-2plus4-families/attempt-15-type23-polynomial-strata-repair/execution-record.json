@@ -1,0 +1,15 @@
+{
+  "start_utc": "2026-10-12T21:25:57.769401+00:00",
+  "end_utc": "2026-10-12T21:25:58.469541+00:00",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-2plus4-families/attempt-15-type23-polynomial-strata-repair/source.m2"
+  ],
+  "exit_code": 0,
+  "source_sha256": "3e38399e9e235fb0bf99d26ecf45c7c5496ac8a159cbc6de04223b58b5907616",
+  "stdout_sha256": "07ad5dafd1bf9225dbfac837ccb725b48e63efee7dff7e11b73b00350a4957cc",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Type2 exact nonreduced incidence equality and Type3 exact quadratic parameter exceptional ideal, elimination lifted to polynomial ring with algebraic relations"
+}

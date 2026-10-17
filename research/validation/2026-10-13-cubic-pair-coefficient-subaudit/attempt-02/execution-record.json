@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "started_utc": "2026-10-13T14:23:36.808860+00:00",
+  "completed_utc": "2026-10-13T14:23:37.442684+00:00",
+  "exit_code": 0,
+  "source": "research/computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2",
+  "source_sha256": "f64a637ce450c881032bec9aa27e5df6f73f051df6c324c8adef8c441d0f6570",
+  "snapshot_sha256": "f64a637ce450c881032bec9aa27e5df6f73f051df6c324c8adef8c441d0f6570",
+  "stdout_sha256": "ae88d58e20fa9ecfcd61ce2d3d2421bc0648f6831e8971a4c42e553897fcf555",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "observed_supporting_pass_count": 29
+}

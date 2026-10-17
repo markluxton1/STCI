@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-12T00:03:31.177564+00:00",
+  "source": "research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",
+  "source_sha256": "31597e4c2057fabb87f9aaf76fdd562f1d5753cf75141dc0f85dfc3041eb97a1",
+  "exit_code": 0,
+  "snapshot": "execution-05.m2",
+  "stdout": "execution-05.stdout.txt",
+  "stderr": "execution-05.stderr.txt",
+  "scope": "Exact univariate U-divides-V support algebra, not an STCI theorem."
+}

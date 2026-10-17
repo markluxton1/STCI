@@ -1,0 +1,33 @@
+-- New exact q=2 and D=0 elimination. Each inherited statement is a premise.
+outdir="research/validation/2026-10-13-generalization-quintic-l2";
+save=(label,f)->((outdir|"/"|label|".txt") << toString f << close);
+orig=QQ[delta,a,B,G,J,p,q,kappa,tt];
+F=value get "research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt";
+Gs=-(6*B+delta^2-3*delta)*q-(3*a-3*B+2*delta)*q^2+2*a*q^3;
+Js=(-Gs*(1+3*q)-(6*B+5*delta^2-3*delta)*q-(3*a+3*B+delta-delta^2)*q^2+(a+B)*q^3)/2;
+Fs=sub(sub(F,{G=>Gs,J=>Js,p=>q+tt}),{B=>kappa-a*q});
+fs=apply(2..5,n->(sum select(terms Fs,mon->((exponents mon)#0)#8==n))//tt^n);
+quadratic=QQ[mu]; NF=toField(quadratic/ideal(mu^2-3));
+par=NF[dpar]; PF=frac par; calc=PF[apar];
+dv=sub(dpar,PF); mv=sub(mu,PF); kv=dv+(3+mv)*dv^2/6;
+phi=map(calc,orig,{dv,apar,0_calc,0_calc,0_calc,0_calc,2_calc,kv,0_calc});
+ff=apply(fs,f->phi f);
+aa=lift(diff(apar,ff#0),PF); ac=lift(sub(ff#0,{apar=>0}),PF); aval=-ac/aa;
+print("q2 f2 coefficient="|toString factor aa);
+print("q2 a solve="|toString factor aval);
+qq=apply(1..3,ii->numerator lift(sub(ff#ii,{apar=>aval}),PF));
+scan(0..2,ii->print("q2 f"|toString(ii+3)|" numerator="|toString factor qq#ii));
+gg=gcd(gcd(qq#0,qq#1),qq#2);
+print("q2 gcd f3,f4,f5="|toString factor gg);save("q2-gcd",gg);
+I=saturate(ideal qq,ideal dpar);
+assert(I==ideal(1_par));
+print("PASS q2 f2 through f5 rule out all delta!=0");
+-- Stored exact D=0 substitutions, new QQ univariate elimination.
+params=QQ[dp,qp]; sf=frac params;
+v3=value get(outdir|"/D0-f3.txt");
+v4=value get(outdir|"/D0-f4.txt");
+ng=gcd(numerator v3,numerator v4);
+print("D0 gcd f3,f4="|toString factor ng);save("D0-gcd",ng);
+assert(saturate(ideal(numerator v3,numerator v4),ideal qp)==ideal(1_params));
+print "PASS D0 f2 through f4 rule out all q!=0";
+print "COMPLETE L2 boundaries";

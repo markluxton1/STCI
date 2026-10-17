@@ -1,0 +1,13 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+{
+  "status": "PASS",
+  "output": "/Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated/research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.json",
+  "checker_sha256": "9d532c25c9f50f206e0d57c5ce7f35b9feb54707bf1b630fd622c0c473028aa2",
+  "conductor_ideal": [
+    "x**2",
+    "x*y",
+    "x*(96*w + x - 8*y + 4*z) - 8*y*z"
+  ]
+}

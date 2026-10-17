@@ -1,0 +1,91 @@
+{
+  "validation": "All 16 source/stdout/stderr hashes match execution records",
+  "attempt_count": 16,
+  "exit_zero": 10,
+  "nonzero": 6,
+  "attempts": [
+    {
+      "attempt": "attempt-01-type1-probe",
+      "exit_code": 1,
+      "source_sha256": "3829b7d26dcc3eb3a21d35a645fbf736a66e8f8160738388a4118f72b90cd490"
+    },
+    {
+      "attempt": "attempt-02-type1-coercion",
+      "exit_code": 1,
+      "source_sha256": "74a102d3a4d41f33135f0d885adf3836120824d077d5b15f0b3a4b449def5371"
+    },
+    {
+      "attempt": "attempt-03-type1-flat-ring",
+      "exit_code": 0,
+      "source_sha256": "80dfa3c170b2f542ae092c64915eae74412ae1197e355f4f8e3d5f7703b77bb6"
+    },
+    {
+      "attempt": "attempt-04-type1-verified-coefficients",
+      "exit_code": 0,
+      "source_sha256": "6c5e85298c2cb5e53637eeac5c6f504622785cce3ef4ffd263e580d36af4e1b8"
+    },
+    {
+      "attempt": "attempt-05-type1-contact-incidence",
+      "exit_code": 1,
+      "source_sha256": "9b313a4f4c0d0bbb6bdb0c997ae0ae71f388ee1cc1431cd9a7ab874d5a54bc12"
+    },
+    {
+      "attempt": "attempt-06-type1-cubic-full-jets",
+      "exit_code": 1,
+      "source_sha256": "bd00f3fe733b24324f15a45f68d1e1f4671d4a16f2d5ec836248fb7ac59279e8"
+    },
+    {
+      "attempt": "attempt-07-type1-cubic-name-repair",
+      "exit_code": 0,
+      "source_sha256": "75d9a20c2e0db1b804c63b96deea170864b98adbcd2f054a06716dcd4db3bb6a"
+    },
+    {
+      "attempt": "attempt-08-type1-linear-full-jets",
+      "exit_code": 1,
+      "source_sha256": "a82611ae6786812fdee4b0218256b8a984d2dd0a05dc6ea8cd998d05032db989"
+    },
+    {
+      "attempt": "attempt-09-type1-linear-coercion",
+      "exit_code": 0,
+      "source_sha256": "35e65fbcddb6f8ca1ab546d15e031cfd761aa3cd56ae4d7d720374f9014da5a3"
+    },
+    {
+      "attempt": "attempt-10-type1-complete-incidence",
+      "exit_code": 0,
+      "source_sha256": "fc6054ec1b26978f90fcee9d4a74485bd607239dd7ac9e9e0ce0167ef3b250cd"
+    },
+    {
+      "attempt": "attempt-11-type23-incidence",
+      "exit_code": 0,
+      "source_sha256": "2915d3601b5e85710234374e741699f33764398d95914326c671f428baa78afe"
+    },
+    {
+      "attempt": "attempt-12-type23-full-contact-jets",
+      "exit_code": 0,
+      "source_sha256": "79ecd74c37498a1a3827082b43a2833c295b88e7699d957623e53e87b5dc6519"
+    },
+    {
+      "attempt": "attempt-13-type23-a4-contact",
+      "exit_code": 0,
+      "source_sha256": "366c242c57f43cd94792c81fd0ad13c00b8b2d7f17e3635ea775c8fd3196d092"
+    },
+    {
+      "attempt": "attempt-14-type23-explicit-parameter-strata",
+      "exit_code": 1,
+      "source_sha256": "391760500617ddcdd36be112c25d4c09d895afcffa08f8d068be0822fd7325d7"
+    },
+    {
+      "attempt": "attempt-15-type23-polynomial-strata-repair",
+      "exit_code": 0,
+      "source_sha256": "3e38399e9e235fb0bf99d26ecf45c7c5496ac8a159cbc6de04223b58b5907616"
+    },
+    {
+      "attempt": "attempt-16-type23-explicit-second-jet-degeneration",
+      "exit_code": 0,
+      "source_sha256": "9137a847ba2d6fa271047c0d103fe8cb62f8f451cf61f20cd367f3b4689502df"
+    }
+  ],
+  "owner_note": "research/notes/2026-10-12-session-nonendpoint-type23-six-family-exclusion.md",
+  "owner_sha256": "11c13ba7201b84e02cf1a2ab1d6b42d8cf5fbcbaf15b51e95d5c75c65f7de48d",
+  "mathematical_status": "Type1 independent audit reported PASS; Type2/3 independent audit outstanding; no global theorem claim"
+}

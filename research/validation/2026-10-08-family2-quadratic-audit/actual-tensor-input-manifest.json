@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "source": "research/computations/localcoh-incidence-bases.txt",
+      "snapshot": "research/validation/2026-10-08-family2-quadratic-audit/localcoh-incidence-bases.txt",
+      "sha256": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+      "bytes": 4602
+    },
+    {
+      "source": "research/computations/localcoh-incidence-tensor.txt",
+      "snapshot": "research/validation/2026-10-08-family2-quadratic-audit/localcoh-incidence-tensor.txt",
+      "sha256": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+      "bytes": 24396
+    }
+  ]
+}

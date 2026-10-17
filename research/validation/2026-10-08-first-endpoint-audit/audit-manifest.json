@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-08",
+  "scope": "Independent mathematical/source audit of first rational primitive e2,h=t endpoint family completeness; characteristic zero only",
+  "verdict": "ACCEPT all admitted first-family k and affine lambda; other endpoint families/nonendpoint incidence open",
+  "own_countercheck_exit_code": 0,
+  "own_countercheck_scope": "Independent factor partition, Rabin finite reductions, exact seed/direction cross-artifact audit; not full tensor replay",
+  "reviewed_source_sha256": {
+    "research/computations/verify_session_localcoh_q1_dual_2026_10_07.py": "ff99fd210c8805d0ae051147ede41cdff58b6f429be06c1226ce5d439f191f96",
+    "research/computations/verify_session_localcoh_q2_dual_2026_10_07.py": "908184816104e6ec8ac81fa1d71f84e418e375363c988d3084af8c8188589d0d",
+    "research/computations/verify_session_localcoh_q3_dual_2026_10_07.py": "ee2d98ce1037a310018f07ef18d9cc70adc007248e155cdf868fed290761580d",
+    "research/computations/verify_session_localcoh_q13_dual_2026_10_07.py": "d1f846e64684af8c80df64803c31821f76f30dcd9d380d30af1a8be7785e45ca",
+    "research/computations/session-localcoh-origin-generic-dual.py": "8468e3a5942d3b6d1fa4b39dd34dd654533fd4c01941b9074d16846ace4f76cf",
+    "research/computations/audit_session_localcoh_endpoint_2026_10_07.py": "ed8b8a03778fdcd7aa6d0c7ad8ab25067f370507ea8fb8075074a6a2b2e733d9"
+  },
+  "artifact_sha256": {
+    "research/validation/2026-10-08-first-endpoint-audit/countercheck.py": "4fb9d7cf4b0a119bc8bfd0b1d5bb3a4bece08948bb9d44f505d3091ce2e74df0",
+    "research/validation/2026-10-08-first-endpoint-audit/countercheck-result.json": "d5197c04be2c9fcb567c49b46fa8342345af4bc5dd7b0a3f965c07b61b57d34d",
+    "research/validation/2026-10-08-first-endpoint-audit/countercheck.log": "d5197c04be2c9fcb567c49b46fa8342345af4bc5dd7b0a3f965c07b61b57d34d",
+    "research/notes/2026-10-08-session-first-endpoint-completeness-audit.md": "3f7dc1a4b42988d2faee65cea09e006c393c36ccee9dc69f699dd700fc1329f5"
+  },
+  "certificate_sha256": {
+    "q1": "bc13ca0e3074ffbe69e8ff735cfaf19b3e752736e2b0e286b4e956786fdefac9",
+    "q2": "4bf801c033e5f2ee7021cf5ca4fbf246af136383bae55dcd40fc1fc924ae2410",
+    "q3": "45b18ed0215b56391984fa55c44b4193bed99afd6eac1dcc5383d0c71b702985",
+    "q13": "c484ca17078ecfd2e30eb8d3f76e57c313f25f3684c34db286deb047429db65c"
+  },
+  "bound_input_sha256": {
+    "research/computations/session-localcoh-origin-family-1-seed.json": "e3662d68ec0023313549b99d2fe622d2e6c372568afd8cf6fa8f9f5e7eee193b",
+    "research/computations/session_localcoh_q1_dual_audit_2026_10_07.json": "bc13ca0e3074ffbe69e8ff735cfaf19b3e752736e2b0e286b4e956786fdefac9",
+    "research/computations/localcoh-incidence-tensor.txt": "05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b",
+    "research/computations/localcoh-incidence-bases.txt": "ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc",
+    "research/computations/localcoh-symbol-top.json": "e577a5db88831806ed52b5804ae512e570636903c94a49a21f900195da6fe5f4",
+    "research/computations/session-localcoh-origin-family-1-exception-q1-dual.txt": "7ed6be8ddf6340e62c2b2a5db6f422d7f3edb12d15ae860b2f4244bbf56d9257",
+    "research/computations/session-localcoh-origin-family-1-exception-q1-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session-localcoh-origin-family-1-exception-q1.m2": "c5306b86c7f3f0fc999fdca61f37e555b7b17c90595518760aad9e71997807cb",
+    "research/computations/generate_session_localcoh_q1_module_2026_10_07.py": "6777396f6507ed093c9a66963465ebbeca8dba8f80ac211c11cc289f7ea250fd",
+    "research/computations/session_localcoh_q2_dual_audit_2026_10_07.json": "4bf801c033e5f2ee7021cf5ca4fbf246af136383bae55dcd40fc1fc924ae2410",
+    "research/computations/session-localcoh-origin-family-1-exception-q2-dual.txt": "ad8fa11fe3ad5b5df8253391e84d88d071d816a2f1afd5acfb445b005315faf3",
+    "research/computations/session-localcoh-origin-family-1-exception-q2-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session-localcoh-origin-family-1-exception-q2.m2": "308aa1c1acfee983572f39f791bda6dfcfc231d3215b266a651f6b9027eb1b48",
+    "research/computations/session_localcoh_q3_dual_audit_2026_10_07.json": "45b18ed0215b56391984fa55c44b4193bed99afd6eac1dcc5383d0c71b702985",
+    "research/computations/session-localcoh-origin-family-1-exception-q3-dual.txt": "d80e62ec59f6ccf1af43fcea4a3d5f59cb8c894d52b9c1d9ab695876202315e4",
+    "research/computations/session-localcoh-origin-family-1-exception-q3-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session-localcoh-origin-family-1-exception-q3.m2": "b188e8801ca51727af5b40ee35a2bc08a246408de4581eaa91fdcf8bb8ab32d1",
+    "research/computations/generate_session_localcoh_q3_module_2026_10_07.py": "30be86cf27e22a9c1c08535f631c6590ac38e613f71d7d46f551f2de06204f81",
+    "research/computations/session_localcoh_q13_dual_audit_2026_10_07.json": "c484ca17078ecfd2e30eb8d3f76e57c313f25f3684c34db286deb047429db65c",
+    "research/computations/session-localcoh-origin-family-1-exception-q13-dual.txt": "af8f8730be8f13192064a851cea7bfc7fa7ca2e2a971afb14de17997cac4b8ce",
+    "research/computations/session-localcoh-origin-family-1-exception-q13-evaluations.txt": "3c5c7b4b1fcd47206cbc619c23b59a27b97f730abca146d67157d2d9df8ca9dc",
+    "research/computations/session-localcoh-origin-family-1-exception-q13.m2": "150b50737119b82670e6c22c3f5d5f92f44921f568eeb95c5868540c57ecd397",
+    "research/computations/generate_session_localcoh_q13_module_2026_10_07.py": "f519250477936c2a5fd86add3ad28ab981af75a9c59e833468b5ef18b782745d",
+    "research/computations/session-localcoh-origin-family-1-polynomial-dual.json": "2212853b74e9058566d2092d4b28f8a0cbc274fda5aa63bc7a368eb009ed4783",
+    "research/computations/session-localcoh-origin-family-1-generic-dual.txt": "4672ca99bfc058393d0adca1fb28b485dcd467a55f43efe293b22ebcdc3e52c8"
+  },
+  "tensor_replay_scope": "Root central current checker replay; this additional run does not repeat the full eighteen-column tensor products."
+}

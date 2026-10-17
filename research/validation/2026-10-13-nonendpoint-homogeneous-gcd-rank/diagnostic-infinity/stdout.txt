@@ -1,0 +1,16 @@
+PASS literal P scaling
+PASS literal J scaling
+PASS correct zero-P stratum
+PASS other cubic nonzero on zero-P stratum
+PASS correct zero-J stratum
+PASS other cubic on zero-J stratum
+PASS complete proportional-family literal identity
+PASS universal homogeneous Bezout identity
+PASS Plucker identity for six-minor criterion
+PASS quadratic-gcd column recovery identity
+PASS linear syzygy cofactor identity
+| 0 0 0 |
+| 0 0 0 |
+| 0 0 1 |
+{0, 0, 0, 0, 0, 0, 0, 0, 1}
+{true, true, true, true, true, true, true, true, false}

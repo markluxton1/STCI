@@ -1,0 +1,10 @@
+{
+  "scope": "Archive binding only, not a substitute for inverse or tensor proof.",
+  "raw_path": "research/validation/2026-10-14-localcoh-degree15-attempt06/polynomial-inverse.txt",
+  "raw_bytes": 19189736,
+  "raw_sha256": "5c2d32f80f86b5c7cdaf5096fe1d25bd4045f4ede04bd531bb2e25c953d1a8a6",
+  "archive_path": "research/validation/2026-10-14-localcoh-degree15-attempt06/polynomial-inverse.txt.gz",
+  "archive_bytes": 8068969,
+  "archive_sha256": "b9226d571645ca29bf6a48a29debd8899a09b0f6f99b2da48070eafb44aa1cf2",
+  "exact_roundtrip_sha256": "5c2d32f80f86b5c7cdaf5096fe1d25bd4045f4ede04bd531bb2e25c953d1a8a6"
+}

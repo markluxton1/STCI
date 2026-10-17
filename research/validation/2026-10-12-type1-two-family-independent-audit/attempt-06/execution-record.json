@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "start_utc": "2026-10-12T21:25:05.450476+00:00",
+  "end_utc": "2026-10-12T21:25:06.156891+00:00",
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-type1-two-family-independent-audit/attempt-06/source.m2"
+  ],
+  "source_path": "research/validation/2026-10-12-type1-two-family-independent-audit/verify_type1.m2",
+  "source_sha256": "bbb0042130a391a18f1cfe2fed175c15cc70ffac62912a0604436035d835ffed",
+  "source_snapshot": "source.m2",
+  "stdout_path": "stdout.txt",
+  "stdout_sha256": "de8205519577a7dea2aa486b71e4e2d695ce02449a393aece49e17670475bcf7",
+  "stderr_path": "stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Independent Type1 reconstruction in eta^2=3, complete finite incidence and direct unscaled target jets on entire linear/cubic strata; 30 checks including both coefficient algebras nonzero"
+}

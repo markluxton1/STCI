@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Eight polynomial identity groups supporting the actual Jbar0 local conductor proof; no geometric or global exhaustion certificate",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-jbar-zero-conductor-root-check/20261012T211819898134Z/source.m2"
+  ],
+  "cwd": "/Users/markluxton/Projects/STCI",
+  "started_utc": "2026-10-12T21:18:19.899018+00:00",
+  "elapsed_seconds": 0.6633877079002559,
+  "exit_code": 0,
+  "source": "research/validation/2026-10-12-jbar-zero-conductor-root-check/20261012T211819898134Z/source.m2",
+  "source_sha256": "cecf2ee53a4970e23dd979c7cfc3173f5f2452812b94b62ce51c9f343ec2a8d4",
+  "stdout": "research/validation/2026-10-12-jbar-zero-conductor-root-check/20261012T211819898134Z/stdout.txt",
+  "stdout_sha256": "4c4e440220a7ec042f17480c3c3950c55b276f9d22697cb341f57c423337178d",
+  "stderr": "research/validation/2026-10-12-jbar-zero-conductor-root-check/20261012T211819898134Z/stderr.txt",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "observed_condition_count": 8
+}

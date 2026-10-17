@@ -1,0 +1,11 @@
+{
+  "scope": "Unrelated q=3 QQ toy; block, complement, observability, constant linear dual normalization syntax only.",
+  "source": "bounded-dual-syntax-test.m2",
+  "source_sha256": "0c98289f00daff84b20c823612673fa1cf1af1cd9496d18e850aac324359983a",
+  "compiler": "/opt/homebrew/bin/M2 --script",
+  "exit_code": 0,
+  "stdout": "attempt04: exact complement, observability and target compatibility checked without generic rerank\nattempt04: sixteen linear and one quadratic obstruction built\n| 1 |\nPASS bounded attempt04 full dual algorithm syntax only\n",
+  "stderr": "",
+  "elapsed_seconds": 0.5214,
+  "mathematical_status": "No degree15 claim; no inherited verifier replay."
+}

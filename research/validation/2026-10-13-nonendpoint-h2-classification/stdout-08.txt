@@ -1,0 +1,14 @@
+PASS 1: literal normalized P, with every delta factor retained
+PASS 2: literal normalized J, with every delta factor retained
+PASS 3: four complete affine coefficient constraints
+PASS 4: zero-cubic boundary signs, not part of exact h2
+PASS 5: exact finite-H coefficient matrix
+PASS 6: determinant separates repeated H and exceptional conic
+   1                                3               3     1       2 2          2          2       3         2      2 2          2          2       3         2        2        2       3                         2               2       3                         2
+(- -w*cb, -w*cd, w*cb - 3w*cd + ca, -w*cb - 4w*cd + -ca + -cc, del z  + 3w*cb*z  - 6w*cd*z  + ca*z  - 3del*z , 5del z  + 3w*cb*z  - 6w*cd*z  + cc*z  - 3del*z  + 3ca*z , v*ca*z  + ca*z  + w*ca*z + v*cb*z + cb*z  + w*cb, v*cc*z  + cc*z  + w*cc*z + v*cd*z + cd*z  + w*cd, | wca+vcb+3wcb-3wcd-2del            |)
+   2                                2               2     2                                                                                                                                                                                                                  | -del^2+vca-3wcb+6wcd+3del+cb      |
+                                                                                                                                                                                                                                                                             | del^2+wcc+vcd+3wcd-del            |
+                                                                                                                                                                                                                                                                             | -5del^2-3wcb+vcc+6wcd+3del-3ca+cd |
+3w*cb*z - 3w*cd*z - w*cb - 2del*z
+   2
+del z + 3w*cd*z - w*cd - del*z

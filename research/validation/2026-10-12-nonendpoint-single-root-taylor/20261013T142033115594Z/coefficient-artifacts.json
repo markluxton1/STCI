@@ -1,0 +1,49 @@
+{
+  "artifacts": [
+    {
+      "path": "nonendpoint_single_root_L1.txt",
+      "sha256": "fb937cfb88b2a876df1e4d0635285c2fde2fd78ee4c56bb1c7842126bfdc29a9"
+    },
+    {
+      "path": "nonendpoint_single_root_L2.txt",
+      "sha256": "1fe8b1ff03653e8f919ae29f93b14e1627c693fa8b7fc0c356bc338452a85a94"
+    },
+    {
+      "path": "nonendpoint_single_root_L2_kappa.txt",
+      "sha256": "d64b546a05186bf45c40be1f4f08b89fb62fa82f8e9ba81f1445541f9e0bcf74"
+    },
+    {
+      "path": "nonendpoint_single_root_u0.txt",
+      "sha256": "cd779b0b3dab27eb88a77741d4e8c055710e91d7a2528b3540887bb11caf16b1"
+    },
+    {
+      "path": "nonendpoint_single_root_u1.txt",
+      "sha256": "83d0670800ab3a2b4edeea34a34e694059e4c2ca249cfc97db66a9f3eaf4ae76"
+    },
+    {
+      "path": "nonendpoint_single_root_u2.txt",
+      "sha256": "19a7d9f624a1543d34834f1900b776018d1e7d308271d5b2fb0f6fc654cb0c09"
+    },
+    {
+      "path": "nonendpoint_single_root_u3.txt",
+      "sha256": "ea82638e1a1ae967ec1742156ccfdcf589992729bc0ba3c19b5736c6c74c51cd"
+    },
+    {
+      "path": "nonendpoint_single_root_u4.txt",
+      "sha256": "81e4d2387f7d116e64005d48575789482da7b0ead9dddf3ceef5ba7133e3dc12"
+    },
+    {
+      "path": "nonendpoint_single_root_u5.txt",
+      "sha256": "729cd787b91775c0210f68cab237b63c37df7d574bca42e2bc9a15b4b75cb964"
+    },
+    {
+      "path": "nonendpoint_single_root_u6.txt",
+      "sha256": "4bc6c5cde7c6f762614c93961424b4e975288b8f9cb3cec9d5b2e73fdfed03e8"
+    },
+    {
+      "path": "nonendpoint_single_root_u7.txt",
+      "sha256": "fc9f18d825bcd1bcc9750c0e022994423e734e62b8de2eb32df7322b885116ac"
+    }
+  ],
+  "scope": "Exact coefficient artifacts from the successful eight-check execution."
+}

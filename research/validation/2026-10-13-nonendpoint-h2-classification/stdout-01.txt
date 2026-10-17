@@ -1,0 +1,4 @@
+      4   2            2  2        2                      2
+(sepD) (vv  - 4ww)(sepD vv  + 2sepD ww + 6sepD*vv*ww + 6ww )
+      2     3  2        3           2                2              2         2
+(sepD) (sepD vv  + 8sepD ww + 21sepD vv*ww + 6sepD*vv ww + 24sepD*ww  + 9vv*ww )(-1)

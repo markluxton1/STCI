@@ -1,0 +1,12 @@
+U = (1/(9*bb))*xx^3-(2/(3*bb))*xx+(-6*bb-4)/(9*bb)
+V/U = (1/(2*bb))*xx+2/(3*bb)
+S = ((-2*bb-3)/(216*bb))*xx^4+((-14*bb-9)/(432*bb))*xx^3-(1/9)*xx^2+((24*bb^2-26*bb+15)/(432*bb))*xx+(-6*bb-85)/108
+scaled S = (-2*bb-3)*xx^4+((-14*bb-9)/2)*xx^3-24*bb*xx^2+((24*bb^2-26*bb+15)/2)*xx-12*bb^2-170*bb
+Cb = (-6*bb^4-9*bb^3)/4
+remainder S mod U = ((-2*bb-1)/(12*bb))*xx^2+((-18*bb-7)/(48*bb))*xx+(-6*bb^2-25*bb-2)/(24*bb)
+resultant shifted U,S = (12*bp^2+116*bp+3)*(72*bp^4+252*bp^3+1126*bp^2+513*bp+54)*(-1458)
+resultant shifted S,S' = (2*bp+3)*(2*bp^2+9*bp+15)^2*(9216*bp^6-208896*bp^5-2002096*bp^4-2800992*bp^3-117672*bp^2+72*bp+45)*(7776)
+quotient resultant / R = -1458
+quotient derivative resultant / D = 7776
+CHECKS=9
+PASS corrected U|V family: resultant parameter factors have gcd 1; no allowed full-support parameter.

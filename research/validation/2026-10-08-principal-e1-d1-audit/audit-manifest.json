@@ -1,0 +1,49 @@
+{
+  "scope": "Principal e1,d2=1 independent proof audit and own coverage/boundary replay",
+  "retained_files_sha256": {
+    "research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py": "2fbefebda6723b7d721f0034c0167a2c70a3b79eed01675b99baf453453a9ac8",
+    "research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py": "9d485f208f61afc495e43bd62054651df37e65c297534ca9930033c44bfea53e",
+    "research/scratch/session-mf6-e1-principal-contact-2026-10-08.json": "bc32db62b6d87e15300168a47f50d6bf3cd952d0d19b60ad52fc5ae8cdfa9818",
+    "research/scratch/session-mf6-e1-principal-minors-2026-10-08.json": "5972fee8c2554cc2fa4251f75290b4549e02baa8a94584a508a4244e9d29f867",
+    "research/scratch/audit-mf6-e1-principal-raw-minors-2026-10-08.json": "02e1bc3121d2b2c9b35234c111f485382eae95ed397b5af918cf03d57efbfca7",
+    "research/scratch/session-mf6-principal-rank-open-audit-2026-10-08.json": "550fad75a91ef2f9fe5b829367b886227b5406ad4aa8230d49273ddaed70c722",
+    "research/scratch/session-mf6-principal-rank-open-audit-2026-10-08.out": "69ffef80b87652f0ed6d54d65cf64c4fb8132accdaffac11ea4b0b9390b1d768",
+    "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py": "02fac92723ff5b5b29c6024e49d8706e4ffe7445431e55cd1761030adaa6dcdb"
+  },
+  "rank_open_run": "Source owner frozen source/complete replay exit0 in82.912s; exact source-byte snapshot and inputs retained; not rerun while central replay is planned",
+  "boundary_replay_command": "PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python research/validation/2026-10-08-principal-e1-d1-audit/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py --scope all",
+  "residue_replay_command": "PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python research/validation/2026-10-08-principal-e1-d1-audit/research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py",
+  "fresh_top_level_executions": [
+    {
+      "source": "coverage-countercheck.py",
+      "exit_code": 0
+    },
+    {
+      "source": "research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py --scope all",
+      "exit_code": 0
+    },
+    {
+      "source": "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py",
+      "exit_code": 0
+    },
+    {
+      "source": "residue-input-comparison.py",
+      "exit_code": 0
+    }
+  ],
+  "fresh_artifact_sha256": {
+    "coverage-countercheck.py": "815cdddbb7fcda868ec13156c077840da21ed914228260a91af1b4b9e98773b3",
+    "coverage-countercheck-result.json": "3f1192010b20d7d6a69ad9675170c06a81bc55607b96ecdc370e90a1b84b2d81",
+    "coverage-countercheck.log": "3f1192010b20d7d6a69ad9675170c06a81bc55607b96ecdc370e90a1b84b2d81",
+    "boundary-replay.log": "99a6a9c4acc0a4ea968f0129cef7e60ef66b358fb294877188d0599b1bbab9f2",
+    "research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_all.json": "1acb8024a6a5f422eb144216f7a5c92fbb73006adade0f35e1feeba57258123c",
+    "residue-replay.log": "ba616eeb794709ab977dd98e050bc5453f5960adfe586a099d860ac547353279",
+    "research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.json": "82cb665363fae158410841ed030fe286b4ad9d568987ab2dcffea309780a6d8d",
+    "residue-input-comparison.py": "edb4e23bcd12f6059751b20d2d9cbd25cd0c6c186773ec7c5266f742e5c2fac5",
+    "residue-input-comparison-result.json": "389ce2698c473ac949e45cda51d581a98ca148806f979655be38667384cb5581",
+    "residue-input-comparison.log": "389ce2698c473ac949e45cda51d581a98ca148806f979655be38667384cb5581"
+  },
+  "independent_audit_note": "research/notes/2026-10-08-session-principal-e1-d1-independent-completeness-audit.md",
+  "independent_audit_note_sha256": "c95b61b294fb0cce0b48b03623377c1d358aeaf07d49d201df68175735988e73",
+  "verdict": "ACCEPT full principal e1,d2=1 common-quartic-ancestor exclusion conditional on accepted canonical-triple reduction and all-stage P037; uniformdim1 false at node; no all-mate carrier inference"
+}

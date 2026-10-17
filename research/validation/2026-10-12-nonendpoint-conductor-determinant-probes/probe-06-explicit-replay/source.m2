@@ -1,0 +1,13 @@
+K0=QQ[delta,aa,Bc,Gc,Jc]; K=frac K0; invDel=1_K/delta;
+R=K[x0,x1,x2,x3,ctrY,ctrW];
+UU3=invDel*(x0-x1+Bc*ctrY);
+UU2=invDel^2/3*(x2-3*x1+2*x0-Gc*ctrY+delta^3*ctrW);
+UU0=invDel^4*(x3-2*x2+2*x1-x0-Jc*ctrY+2*delta^3*ctrW);
+ZZ0=x0-aa*ctrY-UU3;
+ZZ1=-UU3; ZZ2=ctrY-UU2;ZZ3=UU2;ZZ4=ctrW;ZZ5=UU0;
+qq={ZZ4^2-ZZ3*ZZ5,ZZ2*ZZ4-ZZ1*ZZ5,ZZ2*ZZ3-ZZ1*ZZ4,ZZ2^2-ZZ3*ZZ4-ZZ0*ZZ5,ZZ1*ZZ2-ZZ3^2-ZZ0*ZZ4};
+center=sub(matrix{qq},{x0=>0,x1=>0,x2=>0,x3=>0});
+qc=flatten entries center;
+ctrMatrix=matrix apply(qc,q->{sub(coefficient(ctrY^2,q),K),sub(coefficient(ctrY*ctrW,q),K),sub(coefficient(ctrW^2,q),K)});
+print ctrMatrix;
+scan(subsets(5,3),is->print (is, factor det submatrix(ctrMatrix,is,{0,1,2})));

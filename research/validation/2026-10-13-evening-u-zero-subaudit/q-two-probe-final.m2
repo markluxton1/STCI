@@ -1,0 +1,14 @@
+orig=QQ[delta,a,B,G,J,p,q];
+F=value get "research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt";
+param=QQ[dPar,twoD]; fld=param; outRing=fld[pp,tt];
+dv=sub(dPar,fld); Dv=sub(twoD,fld); av=dv/2+dv^2/2-Dv/4; bv=(Dv-dv^2)/2; gv=-Dv; jv=0_fld;
+pm=map(outRing,orig,{dv,av,bv,gv,jv,pp,2_fld}); Ftwo=pm F;
+Pt=G+(6*B+delta^2-3*delta)*p+(3*a-3*B+2*delta)*p^2-2*a*p^3;
+Jt=G+2*J+(6*B+3*G+5*delta^2-3*delta)*p+(3*a+3*B+delta-delta^2)*p^2-(a+B)*p^3;
+print("Pt2 "|toString factor (pm Pt));
+print("Jt2 "|toString factor (pm Jt));
+print("Ftwo "|toString factor Ftwo);
+Pquot=(pm Pt)//(pp-2); Jquot=(pm Jt)//(pp-2);
+print("quotient resultant "|toString factor resultant(Pquot,Jquot,pp));
+scan(0..4,n0->(cc=lift(coefficient(pp^n0,Ftwo),fld);print("F derivative at A4 n="|toString n0|" "|toString factor cc|" / "|"1")));
+print "PASS q2 probe completed";

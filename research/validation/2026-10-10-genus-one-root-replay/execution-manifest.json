@@ -1,0 +1,55 @@
+{
+  "started_utc": "2026-10-10T20:02:39.517115+00:00",
+  "completed_utc": "2026-10-10T20:02:40.211927+00:00",
+  "status": "PASS",
+  "scope": "Isolated exact replay of independent [211] identities and repeated-partition ideal/conductor certificates",
+  "does_not_certify": "Geometric interface hypotheses, novelty, genus-two exclusions, or unrestricted STCI",
+  "runner_sha256": "2329a4def0a005c95170207bed046b62c2e6b99629adb8ed4fd2e7021685892b",
+  "executions": [
+    {
+      "name": "interfaces-211",
+      "source_path": "research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2",
+      "source_sha256": "156312ac71da07a5bf1b4124a590f4a82da17eed01e2d93235eca91af24624dd",
+      "snapshot_source": "research/validation/2026-10-10-genus-one-root-replay/snapshot/research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2",
+      "snapshot_sha256": "156312ac71da07a5bf1b4124a590f4a82da17eed01e2d93235eca91af24624dd",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-genus-one-root-replay/snapshot/research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-genus-one-root-replay/snapshot",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6748400409705937,
+      "expected_terminal_text": "PASS: 42 exact [211] interface identities over QQ",
+      "status": "PASS",
+      "stdout_path": "research/validation/2026-10-10-genus-one-root-replay/interfaces-211.stdout.txt",
+      "stdout_sha256": "425ecd591192f4efc8fa3eefcc91a88fa96da6f089364ccc97a7a1c90481eb39",
+      "stderr_path": "research/validation/2026-10-10-genus-one-root-replay/interfaces-211.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "repeated-partitions",
+      "source_path": "research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2",
+      "source_sha256": "410ec3e77e38f0596a50cbfe5b923862cb3bd09bf07e6616cd25a31148366807",
+      "snapshot_source": "research/validation/2026-10-10-genus-one-root-replay/snapshot/research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2",
+      "snapshot_sha256": "410ec3e77e38f0596a50cbfe5b923862cb3bd09bf07e6616cd25a31148366807",
+      "command": [
+        "/opt/homebrew/bin/M2",
+        "--script",
+        "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-genus-one-root-replay/snapshot/research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2"
+      ],
+      "cwd": "/Users/markluxton/Projects/STCI/research/validation/2026-10-10-genus-one-root-replay/snapshot",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6926615000702441,
+      "expected_terminal_text": "PASS: 29 independent exact conditions",
+      "status": "PASS",
+      "stdout_path": "research/validation/2026-10-10-genus-one-root-replay/repeated-partitions.stdout.txt",
+      "stdout_sha256": "4a19ee9648bab76b08e0073efc031027ab57fd16198c31f77190f66a237bae1b",
+      "stderr_path": "research/validation/2026-10-10-genus-one-root-replay/repeated-partitions.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "new_distinct_sources": 2,
+  "new_explicit_executions": 2,
+  "historical_97_source_110_execution_index": "unchanged; these replays are additional records"
+}

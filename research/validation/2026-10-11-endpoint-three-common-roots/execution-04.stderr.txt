@@ -1,0 +1,1 @@
+research/validation/2026-10-11-endpoint-three-common-roots/execution-04.m2:37:8:(3):[5]: warning: local declaration of kk shields variable with same name

@@ -1,0 +1,20 @@
+S=QQ[s];
+K=toField(S/ideal(s^2-3));
+A=K[k,del,vInv];
+R=A[p];
+Elinear=(1+3*k)*p-3-6*k;
+W=(p*(p^2-3*p+3)*Elinear^2-9*del*(p-2)*(k*p^2-2*k*p-1)*(2*k^2*p^2-6*k^2*p+k*p^2+6*k^2-4*k*p+6*k+1));
+cc=apply(0..5,j->sub(coefficient(p^j,W),A));
+leadC=last cc;
+openProduct=k*del*leadC;
+for i from 0 to 5 do for j from 0 to 5-i do (
+    kk=5-i-j;
+    casePolynomial=p^i*(p-(3+s))^j*(p-(3-s))^kk;
+    hc=apply(0..4,t->sub(coefficient(p^t,casePolynomial),A));
+    gg=toList(apply(0..4,t->cc#t-leadC*hc#t))|{vInv*openProduct-1};
+    mg=matrix{gg};
+    unity=matrix{{1_A}};
+    cert=lift(unity,mg);
+    assert(mg*cert==unity);
+    print ((i,j,kk),"verified",#toString cert);
+);

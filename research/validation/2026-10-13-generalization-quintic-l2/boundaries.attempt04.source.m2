@@ -1,0 +1,36 @@
+-- New exact q=2 and D=0 elimination. Each inherited statement is a premise.
+outdir="research/validation/2026-10-13-generalization-quintic-l2";
+save=(label,f)->((outdir|"/"|label|".txt") << toString f << close);
+orig=QQ[delta,a,B,G,J,p,q,kappa,tt];
+F=value get "research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt";
+Gs=-(6*B+delta^2-3*delta)*q-(3*a-3*B+2*delta)*q^2+2*a*q^3;
+Js=(-Gs*(1+3*q)-(6*B+5*delta^2-3*delta)*q-(3*a+3*B+delta-delta^2)*q^2+(a+B)*q^3)/2;
+Fs=sub(sub(F,{G=>Gs,J=>Js,p=>q+tt}),{B=>kappa-a*q});
+fs=apply(2..5,n->(sum select(terms Fs,mon->((exponents mon)#0)#8==n))//tt^n);
+quadratic=QQ[mu]; NF=toField(quadratic/ideal(mu^2-3));
+calc=NF[dpar,apar,zinv];
+dv=dpar; mv=sub(mu,calc); kv=dv+(3+mv)*dv^2/6;
+phi=map(calc,orig,{dv,apar,0_calc,0_calc,0_calc,0_calc,2_calc,kv,0_calc});
+ff=apply(fs,f->phi f);
+aa=diff(apar,ff#0); ac=sub(ff#0,{apar=>0});
+print("q2 f2 coefficient="|toString factor aa);
+scan(0..3,ii->print("q2 f"|toString(ii+2)|"="|toString factor ff#ii));
+-- The inherited support theorem already removes L1=0. At q=2 its
+-- factor on this quadratic-field cover is dpar+(2/3)*mu.
+q2gens=matrix{{ff#0,ff#1,ff#2,ff#3,1-zinv*dpar*(dpar+(2/3)*mv)}};
+I=ideal q2gens;
+assert(I==ideal(1_calc));
+certificate=lift(matrix{{1_calc}},q2gens);
+assert(q2gens*certificate==matrix{{1_calc}});
+save("q2-bezout-certificate",certificate);
+print("PASS q2 f2 through f5 rule out delta L1!=0");
+-- Stored exact D=0 substitutions, new QQ univariate elimination.
+params=QQ[dp,qp]; sf=frac params;
+use sf;
+v3=value get(outdir|"/D0-f3.txt");
+v4=value get(outdir|"/D0-f4.txt");
+ng=gcd(numerator v3,numerator v4);
+print("D0 gcd f3,f4="|toString factor ng);save("D0-gcd",ng);
+assert(saturate(ideal(numerator v3,numerator v4),ideal qp)==ideal(1_params));
+print "PASS D0 f2 through f4 rule out all q!=0";
+print "COMPLETE L2 boundaries";

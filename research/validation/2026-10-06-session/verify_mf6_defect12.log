@@ -1,0 +1,9 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_mf6_defect12.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: degree-one first defect impossible on all quotient charts
+PASS: degree-two first defect forces one of two pure endpoint triples
+PASS: every compatible quartic equals D times an ambient linear form
+RESULT: every hypothetical characteristic-zero (4,b) pair on C0 with e=0 has deg D2>=3
+
+Runner status: PASS

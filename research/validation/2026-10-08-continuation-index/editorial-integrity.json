@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "relative file links in current canonical/update/handoff/README/root acceptance/checkpoint only",
+  "files": [
+    "README.md",
+    "research/AUDITED_STATE_2026-10-07.md",
+    "research/RESEARCH_UPDATE_2026-10-07.md",
+    "research/SUCCESSOR_HANDOFF_2026-10-07.md",
+    "research/computations/README.md",
+    "research/notes/2026-10-08-session-new-results-acceptance.md",
+    "research/notes/2026-10-08-session-checkpoint.md"
+  ],
+  "checked_links": 121,
+  "missing": [],
+  "git_diff_check": "PASS from separate command",
+  "index_sha256": "9f300f38228c6d95a191ff4d6b72cdda976d8b8c8e696a6ad559ac7e1ba1f9a5"
+}

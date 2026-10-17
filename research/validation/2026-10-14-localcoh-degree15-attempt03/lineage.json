@@ -1,0 +1,7 @@
+{
+  "previous_source": "research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt02.m2",
+  "previous_attempt_status": "terminal source-level error assigning protected M2 variable dd after generic rank checks",
+  "old_handle_check": "85060 returned Unknown process id",
+  "change": "rename dd and first; source and original new attempt retained",
+  "scope": "new degree15 exception application; no inherited mathematical verifier replayed"
+}

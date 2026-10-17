@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "observed_utc": "2026-10-12T15:10:49.215960+00:00",
+  "scope": "Checkpoint links, file digests and prior seal byte stability only; no mathematical rerun or new full seal",
+  "checkpoint": "research/notes/2026-10-12-session-research-status-checkpoint.md",
+  "checkpoint_sha256": "ed61f53acf5f388ed12d0395e5101eb5213f26a86faa86e27c6b5c22ec749ccd",
+  "checked_links": [
+    {
+      "target": "research/notes/2026-10-11-session-all-quartic-results-acceptance.md",
+      "exists": true
+    },
+    {
+      "target": "research/notes/2026-10-11-session-quintic-continuation-results-acceptance.md",
+      "exists": true
+    },
+    {
+      "target": "research/validation/2026-10-11-quintic-continuation-seal/result.json",
+      "exists": true
+    },
+    {
+      "target": "research/notes/2026-10-12-session-nonendpoint-conormal-cubic-reduction.md",
+      "exists": true
+    },
+    {
+      "target": "research/notes/2026-10-12-session-nonendpoint-all-mate-conormal-conductor-independent-audit.md",
+      "exists": true
+    },
+    {
+      "target": "research/notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet-independent-audit.md",
+      "exists": true
+    },
+    {
+      "target": "research/notes/2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md",
+      "exists": true
+    },
+    {
+      "target": "research/notes/2026-10-12-session-nonendpoint-target-fiber-independent-proof-audit.md",
+      "exists": true
+    },
+    {
+      "target": "research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2",
+      "exists": true
+    }
+  ],
+  "prior_bound_file_count": 1203,
+  "prior_changed_or_missing_bindings": [],
+  "bound_files_sha256": {
+    "research/notes/2026-10-12-session-research-status-checkpoint.md": "ed61f53acf5f388ed12d0395e5101eb5213f26a86faa86e27c6b5c22ec749ccd",
+    "research/validation/2026-10-11-quintic-continuation-seal/result.json": "65c3bee22651aa5149fb30dfa7482190e66862e0801b6820b9b09cc07bb8ad5d",
+    "research/notes/2026-10-11-session-all-quartic-results-acceptance.md": "670d8d8a7aec2e2552bc358b9bae93f307ee4756da9da90e77f98daa8d3d9d2f",
+    "research/notes/2026-10-11-session-quintic-continuation-results-acceptance.md": "f7b38b1e8612ca2662156406d9ebccdb6affba71ffcd70bc24768d10b4688d42",
+    "research/notes/2026-10-12-session-nonendpoint-conormal-cubic-reduction.md": "3576392d41d4f64db506291f7cd0609a6930a80296eeedd7c9ccdfa92352c3f5",
+    "research/notes/2026-10-12-session-nonendpoint-all-mate-conormal-conductor-independent-audit.md": "bddb6c89a77e14b25607c22a8e9aaab59d4159ac9a1718b8be651856387baf2a",
+    "research/notes/2026-10-12-session-nonendpoint-pole-filtration-and-line-jet-independent-audit.md": "11ec0a8db1225c6697371c1ecf1943e9dd333a9ec06f6df06d37e64d1fe6e846",
+    "research/notes/2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md": "db72f936486253cf91e82645de9c3b6b23562dac9da49eee6ee31f0cb94b5322",
+    "research/notes/2026-10-12-session-nonendpoint-target-fiber-independent-proof-audit.md": "eb7cef93946ab549e7f6e49a4e525413745faf0c2f70b3e72f996ae9ca9c8146",
+    "research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2": "44d3b193783dc76562febe23af452a5b863b65b5f992dc6b1f83fad4a0c8fc33"
+  }
+}

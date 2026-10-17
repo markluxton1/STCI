@@ -1,0 +1,3 @@
+PASS Delta1^2 belongs to ideal(j,Qactual5), with explicit universal identity
+PASS all eight ODE coefficients, top-degree identities, and both Hamiltonian action identities
+COMPLETE new universal localized ODE identities; no actual-coefficient elimination

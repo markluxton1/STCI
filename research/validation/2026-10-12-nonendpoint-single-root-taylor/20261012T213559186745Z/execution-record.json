@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-12T21:35:59.187686+00:00",
+  "completed_utc": "2026-10-12T21:36:00.241286+00:00",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2"
+  ],
+  "exit_code": 1,
+  "status": "FAIL",
+  "source_sha256": "d01d4bc375d9a5ae3f4b05075fc7141e924190f98014ac834fac2e9e181784d5",
+  "input_sha256": "d5701314fdf45a60b66d4763159ac383a7fed5eb51d9821115455ab968e0ea84",
+  "stdout_sha256": "607c6df08ca42fc12c5976c3eebb518dd6d206a1b36554ad59cd5a79c84ed845",
+  "stderr_sha256": "5e346d01946159922dcb116f4c82975ce3d888299aed8e441e0b00135c012b04",
+  "scope": "Exact finite common-root substitution and compact Taylor incidence; no exhaustion."
+}

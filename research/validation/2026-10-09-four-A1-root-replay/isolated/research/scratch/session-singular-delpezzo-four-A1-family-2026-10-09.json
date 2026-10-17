@@ -1,0 +1,19 @@
+{
+  "C0_conductor_pullback": "U**4*alpha**2*gamma**2 - U**3*V*alpha**2*delta*gamma - U**3*V*alpha*beta*gamma**2 - U*V**3*alpha*beta*delta**2 - U*V**3*beta**2*delta*gamma + V**4*beta**2*delta**2",
+  "double_curve_section_cover_identity": "q^*Q=odd^2",
+  "endpoint_values_nonzero_on_parameter_open": true,
+  "global_unrestricted_STCI_claim": false,
+  "other_point_Q2": "-2*U^2*V^2*Lc",
+  "parameter_open": "alpha*beta*gamma*delta*(alpha*delta-beta*gamma) != 0",
+  "projection_center_Q1": "-(alpha*delta - beta*gamma)**2",
+  "projection_constant_coefficient": "-alpha**2*gamma**2*x1**2 + alpha*beta*delta*gamma*x0*x3 - alpha*beta*delta*gamma*x1*x2 + alpha*gamma*x0*x2*(alpha*delta + beta*gamma) - beta**2*delta**2*x2**2 + beta*delta*x1*x3*(alpha*delta + beta*gamma)",
+  "projection_linear_coefficient": "alpha**2*gamma**2*x0 - alpha*gamma*x1*(alpha*delta + beta*gamma) + beta**2*delta**2*x3 - beta*delta*x2*(alpha*delta + beta*gamma)",
+  "quartic_equation": "R^2 - x1*x2*L^2",
+  "resultant_scalar": "(alpha*delta - beta*gamma)**4",
+  "sample_conductor_pullback_factorization": "(U**2 - 4*U*V + 2*V**2)*(U**2 + U*V + 2*V**2)",
+  "scope": "Uniform exact identities; geometry and full-fiber proof are in the companion note.",
+  "source_sha256": "0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4",
+  "status": "PASS",
+  "transform_determinant": "alpha*beta*delta*gamma*(alpha*delta - beta*gamma)**3",
+  "two_distinct_lifts_at_every_Lc_root": "z=+/-U^2*V^2, with U*V!=0"
+}

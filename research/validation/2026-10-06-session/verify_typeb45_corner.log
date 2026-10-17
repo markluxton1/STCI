@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_typeb45_corner.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: all three type-B corner points fail the triple flatness test
+
+Runner status: PASS

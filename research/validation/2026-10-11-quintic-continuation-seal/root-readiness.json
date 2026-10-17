@@ -1,0 +1,17 @@
+{
+  "ready": true,
+  "declared_utc": "2026-10-12T14:18:14.780028+00:00",
+  "head": "0adab2bd188351a77d961d7f2251c21545aaebcc",
+  "acceptance": "research/notes/2026-10-11-session-quintic-continuation-results-acceptance.md",
+  "acceptance_sha256": "f7b38b1e8612ca2662156406d9ebccdb6affba71ffcd70bc24768d10b4688d42",
+  "canonical_sha256": {
+    "README.md": "94cc20b094c4f833599c2b46783b993f4a420407b00aeb02ab499db208894d7c",
+    "research/AUDITED_STATE_2026-10-07.md": "e31433342258628c7aef0e633c912ceec20e455b7e82e1f9fed45f17aae7d6fd",
+    "research/RESEARCH_UPDATE_2026-10-07.md": "38908c169e6b92a8dc1430dceca65deba1d62168869e4bc470ac7c03465de11d",
+    "research/SUCCESSOR_HANDOFF_2026-10-07.md": "f0bb10ef67ae434d7668ac0a0d7ea7787ab20a7f28cb16bc9f20844a4aa44882",
+    "research/RESEARCH_RECORD.md": "5017d568346093f345fb80d2fa805078c979bc5eddb3d9404221e0d6da16a75a",
+    "research/LITERATURE_LEDGER.md": "6790b7c9c6dd67169f6bcf92f16b541992c7e715a70ef2283dabc0fc5c7f0667",
+    "research/computations/README.md": "ffa606a5c6c23b61d439b9f1cbf0b22b3b3cc5b6b2448788bea1bd71205cb7ee"
+  },
+  "scope": "Root declares accepted mathematical scope and canonical routing ready for a scoped record-only check. Global STCI objective remains active and unresolved."
+}

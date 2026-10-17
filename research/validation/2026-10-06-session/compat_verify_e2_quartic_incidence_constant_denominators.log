@@ -1,0 +1,9 @@
+Exact compatibility copy; constant rational denominators permitted; no parameter denominator.
+Command: /private/tmp/stci-cas-venv/bin/python research/validation/2026-10-06-session/compat_verify_e2_quartic_incidence_constant_denominators.py
+
+PASS: dim I_C(4)=18 from direct monomial substitution
+PASS: generic ranks M1=12, reduced R=6, full=18 at four exact points
+PASS: rank-12 chart determinant = d^7*(b+2)*Delta/128
+PASS: on dx=1 it is (b*x-a)^2*(b+2)/(128*x^8)
+PASS: P-045 has ranks M1=11, reduced second-order=3, full=14
+PASS: H_x*x_i vanish symbolically on P-045 canonical C3

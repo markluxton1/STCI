@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_localcoh_degree4_counterexample.py
+CWD: /Users/markluxton/Projects/STCI
+
+PASS: the coprime nonconstant-ratio degree-four family is exact
+
+Runner status: PASS

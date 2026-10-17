@@ -1,0 +1,6 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-07-continuation/isolated
+
+PASS: all35 ambient double conditions rank28; full normalized7-form basis verified at both roots.
+PASS: exact h/E weights, pairwise field-unit differences, all covering minors and final diagonal case.
+PROVED: every genuine d2=4 triple in either algebraic primitive direction has quartic fibre dimension<=1.

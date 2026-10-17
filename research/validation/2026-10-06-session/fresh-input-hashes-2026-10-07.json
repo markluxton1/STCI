@@ -1,0 +1,12 @@
+{
+  "research/computations/session_dx1_boundary_2026_10_06.m2": "33e2c31473f995490a711c4a299c667349da66d81f245d940c6bf6c0b8fef2a5",
+  "research/computations/session_dx1_compact_certificate_2026_10_06.m2": "48cbbb07aca4ccec6eb4a99aec34535acb68d9d1e42e7455e6ed1756b632ee83",
+  "research/computations/session_dx1_saturation_2026_10_06.m2": "b87a2308a71a93c70d31177ad1a8d3770309584babd9aa66d0f3fef5cd1fd354",
+  "research/computations/session_dx1_saturation_certificate_2026_10_06.txt": "0517ec0d5d8068b96faf35d7fa3692a5d33e5483bb1fac97e31ccf1e24cf20aa",
+  "research/computations/verify_mf6_defect12.py": "2bff20c95e330f7732cfa6cf3a99ec5145bce4657daf85859a3e2528c9a2b22b",
+  "research/computations/verify_mf6_infinity_universal.py": "75bd764fadce1dbd538ac9f23c2039164cbac4e49fd597de7bd46c8e03b42b9e",
+  "research/computations/verify_mf6_type3.py": "c8c78782afd49ce3f1e41d0b749cb845b1b3e2849aa9ed7288de09063e7bb873",
+  "research/computations/verify_session_dx1_independent_2026_10_06.py": "35070c9f3c4223e3c888e4d84caf4bb40cf751d9e69a07bf1cea99d6700f5781",
+  "research/computations/verify_typea45.py": "3a2efb7ea82e79d4a97bf620d6dfd26d46f5ab333edfcf0a8192831688a2376c",
+  "research/scratch/mf6_type4_incidence.json": "7ebf8615a23e2c1e0c098a7754626ab7a98c223bc983a090fcda9d853611681f"
+}

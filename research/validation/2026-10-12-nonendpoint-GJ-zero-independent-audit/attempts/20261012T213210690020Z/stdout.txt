@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "arithmetic": "sparse rational polynomial arithmetic with s^2=3",
+  "certificate_inputs": "/Users/markluxton/Projects/STCI/research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/attempts/20261012T213210690020Z/owner-certificate-input.txt",
+  "checks_passed": 80,
+  "structural_checks": 15,
+  "direct_exported_certificate_products": 21,
+  "all_profiles": [
+    [
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      3,
+      2
+    ],
+    [
+      0,
+      4,
+      1
+    ],
+    [
+      0,
+      5,
+      0
+    ],
+    [
+      1,
+      0,
+      4
+    ],
+    [
+      1,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      4,
+      0
+    ],
+    [
+      2,
+      0,
+      3
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      2,
+      3,
+      0
+    ],
+    [
+      3,
+      0,
+      2
+    ],
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      3,
+      2,
+      0
+    ],
+    [
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      1,
+      0
+    ],
+    [
+      5,
+      0,
+      0
+    ]
+  ],
+  "scope": "G=J=0 coefficient profiles and denominator-cleared actual fiber identities; geometric audit supplied separately.",
+  "check_labels": [
+    "forced a at p=-1/k (cleared by k)",
+    "E_s=-delta^2 E",
+    "branch collision polynomial",
+    "F1 branch equation with exact common denominator",
+    "F2 branch equation with exact common denominator",
+    "F3 branch equation with exact common denominator",
+    "actual denominator-cleared X0-lambda identity",
+    "degree-five leading coefficient",
+    "p=2 exclusion",
+    "E exceptional-root polynomial quotient",
+    "P6 residual source equality",
+    "Qinf factor including forbidden denominator root",
+    "forbidden denominator root is not Pinf root",
+    "infinity fiber forces L nonzero",
+    "k=-1/3 degree boundary",
+    "polynomial certificate has no p coefficient (0, 0, 5)",
+    "polynomial certificate has no p coefficient (0, 1, 4)",
+    "polynomial certificate has no p coefficient (0, 2, 3)",
+    "polynomial certificate has no p coefficient (0, 3, 2)",
+    "polynomial certificate has no p coefficient (0, 4, 1)",
+    "polynomial certificate has no p coefficient (0, 5, 0)",
+    "polynomial certificate has no p coefficient (1, 0, 4)",
+    "polynomial certificate has no p coefficient (1, 1, 3)",
+    "polynomial certificate has no p coefficient (1, 2, 2)",
+    "polynomial certificate has no p coefficient (1, 3, 1)",
+    "polynomial certificate has no p coefficient (1, 4, 0)",
+    "polynomial certificate has no p coefficient (2, 0, 3)",
+    "polynomial certificate has no p coefficient (2, 1, 2)",
+    "polynomial certificate has no p coefficient (2, 2, 1)",
+    "polynomial certificate has no p coefficient (2, 3, 0)",
+    "polynomial certificate has no p coefficient (3, 0, 2)",
+    "polynomial certificate has no p coefficient (3, 1, 1)",
+    "polynomial certificate has no p coefficient (3, 2, 0)",
+    "polynomial certificate has no p coefficient (4, 0, 1)",
+    "polynomial certificate has no p coefficient (4, 1, 0)",
+    "polynomial certificate has no p coefficient (5, 0, 0)",
+    "all 21 multiplicity profiles including every p=0 order",
+    "profile leading equation is automatic",
+    "monic degree-five profile (0, 0, 5)",
+    "direct exported Bezout product equals one (0, 0, 5)",
+    "monic degree-five profile (0, 1, 4)",
+    "direct exported Bezout product equals one (0, 1, 4)",
+    "monic degree-five profile (0, 2, 3)",
+    "direct exported Bezout product equals one (0, 2, 3)",
+    "monic degree-five profile (0, 3, 2)",
+    "direct exported Bezout product equals one (0, 3, 2)",
+    "monic degree-five profile (0, 4, 1)",
+    "direct exported Bezout product equals one (0, 4, 1)",
+    "monic degree-five profile (0, 5, 0)",
+    "direct exported Bezout product equals one (0, 5, 0)",
+    "monic degree-five profile (1, 0, 4)",
+    "direct exported Bezout product equals one (1, 0, 4)",
+    "monic degree-five profile (1, 1, 3)",
+    "direct exported Bezout product equals one (1, 1, 3)",
+    "monic degree-five profile (1, 2, 2)",
+    "direct exported Bezout product equals one (1, 2, 2)",
+    "monic degree-five profile (1, 3, 1)",
+    "direct exported Bezout product equals one (1, 3, 1)",
+    "monic degree-five profile (1, 4, 0)",
+    "direct exported Bezout product equals one (1, 4, 0)",
+    "monic degree-five profile (2, 0, 3)",
+    "direct exported Bezout product equals one (2, 0, 3)",
+    "monic degree-five profile (2, 1, 2)",
+    "direct exported Bezout product equals one (2, 1, 2)",
+    "monic degree-five profile (2, 2, 1)",
+    "direct exported Bezout product equals one (2, 2, 1)",
+    "monic degree-five profile (2, 3, 0)",
+    "direct exported Bezout product equals one (2, 3, 0)",
+    "monic degree-five profile (3, 0, 2)",
+    "direct exported Bezout product equals one (3, 0, 2)",
+    "monic degree-five profile (3, 1, 1)",
+    "direct exported Bezout product equals one (3, 1, 1)",
+    "monic degree-five profile (3, 2, 0)",
+    "direct exported Bezout product equals one (3, 2, 0)",
+    "monic degree-five profile (4, 0, 1)",
+    "direct exported Bezout product equals one (4, 0, 1)",
+    "monic degree-five profile (4, 1, 0)",
+    "direct exported Bezout product equals one (4, 1, 0)",
+    "monic degree-five profile (5, 0, 0)",
+    "direct exported Bezout product equals one (5, 0, 0)"
+  ]
+}

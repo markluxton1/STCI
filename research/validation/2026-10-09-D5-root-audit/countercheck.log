@@ -1,0 +1,30 @@
+Command: /private/tmp/stci-cas-venv/bin/python research/validation/2026-10-09-D5-root-audit/countercheck.py
+CWD: /Users/markluxton/Projects/STCI/research/validation/2026-10-09-D5-root-audit/isolated
+
+{
+  "status": "PASS",
+  "source_sha256": "c19292129089cc7e39626c6884ddb049d5fe6f907d856e7e24927ebee6c81933",
+  "method": "52 set partitions and all balanced sign choices or full D blocks; no reflection closure or HNF",
+  "embedded_root_subsystems": 428,
+  "type_counts": {
+    "2A1": 70,
+    "2A1+A2": 40,
+    "2A1+A3": 10,
+    "3A1": 60,
+    "4A1": 15,
+    "A1": 20,
+    "A1+A2": 80,
+    "A1+A3": 20,
+    "A2": 40,
+    "A3": 50,
+    "A4": 16,
+    "D4": 5,
+    "D5": 1,
+    "empty": 1
+  },
+  "nonprimitive_embeddings": {
+    "4A1": 15,
+    "2A1+A3": 10
+  },
+  "scope": "Finite D5 lattice check supporting the signed-component proof; not a surface classification or STCI theorem."
+}

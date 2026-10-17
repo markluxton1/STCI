@@ -1,0 +1,11 @@
+{
+  "scope": "Unrelated q=3 QQ toy; nonconstant linear/quadratic Bezout normalization branch syntax only.",
+  "source": "bounded-quadratic-syntax-test.m2",
+  "source_sha256": "e0bab72c15560b406cdda7a0515201c48c9c58128bf5aed8517c1df40c245411",
+  "compiler": "/opt/homebrew/bin/M2 --script",
+  "exit_code": 0,
+  "stdout": "attempt04: exact complement, observability and target compatibility checked without generic rerank\nattempt04: sixteen linear and one quadratic obstruction built\n| 1 |\nPASS bounded attempt04 quadratic Bezout normalization syntax only\n",
+  "stderr": "",
+  "elapsed_seconds": 0.4714,
+  "mathematical_status": "No degree15 claim; no inherited verifier replay."
+}
