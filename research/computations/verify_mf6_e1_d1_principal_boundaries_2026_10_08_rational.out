@@ -1,0 +1,4 @@
+node_cubic rank 31 dimension 4 delta 48 - 48*z
+rhalf_unique rank 34 dimension 1 delta 144 - 288*z
+Szero_unique rank 34 dimension 1 delta 16/3 - 16*z/3
+PASS complete quartic spaces in requested exceptional chart scope

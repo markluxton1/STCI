@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "scope": "MF6 e1,d2=1 principal fiber p8,r1/2, all exact algebra",
+  "coordinate_transform": {
+    "x0": "16*w + x - 4*y",
+    "x1": "-8*w + 3*y/2 - z/2",
+    "x2": "-2*w + y/8 - z/8",
+    "x3": "w"
+  },
+  "carrier": "-144*w**2*x**2 - 3*w*x**3 + 24*w*x**2*y - 12*w*x**2*z + 24*w*x*y*z + x**3*y/8 - x**3*z/8 - x**2*y**2 + 5*x**2*y*z/4 - x**2*z**2/4 - 2*x*y**2*z + x*y*z**2 - y**2*z**2",
+  "w_discriminant": "9*x**5*(x - 8*y)",
+  "factor_identity": "(xL-8yz)^2-x^3(x-8y)=-64F",
+  "normalization_parameterization": {
+    "x": "U*b**2",
+    "y": "U*(-a**2 + b**2)/8",
+    "z": "V*b**2",
+    "w": "U*(-a**2 + a*b)/96 - V*(a**2 + 3*b**2)/96"
+  },
+  "extra_linear_sections": {
+    "v": "U*a*b",
+    "u": "V*a*b"
+  },
+  "conductor_ideal": [
+    "x**2",
+    "x*y",
+    "x*(96*w + x - 8*y + 4*z) - 8*y*z"
+  ],
+  "hilbert_burch_matrix": [
+    [
+      "x",
+      "0"
+    ],
+    [
+      "-z",
+      "x"
+    ],
+    [
+      "96*w + x - 8*y + 4*z",
+      "-8*y"
+    ]
+  ],
+  "annihilator_certificates": [
+    {
+      "conductor_quadric": "x**2",
+      "extra": "v",
+      "ambient_cubic": "96*w*x**2 + x**3 - 8*x**2*y + 4*x**2*z - 8*x*y*z"
+    },
+    {
+      "conductor_quadric": "x**2",
+      "extra": "u",
+      "ambient_cubic": "96*w*x*z + x**2*z - 8*x*y*z + 4*x*z**2 - 8*y*z**2"
+    },
+    {
+      "conductor_quadric": "x*y",
+      "extra": "v",
+      "ambient_cubic": "96*w*x*y + x**2*y - 8*x*y**2 + 4*x*y*z - 8*y**2*z"
+    },
+    {
+      "conductor_quadric": "x*y",
+      "extra": "u",
+      "ambient_cubic": "1152*w**2*x + 24*w*x**2 - 192*w*x*y + 96*w*x*z - 96*w*y*z - x**2*y + x**2*z + 8*x*y**2 - 9*x*y*z + 2*x*z**2 + 8*y**2*z - 4*y*z**2"
+    },
+    {
+      "conductor_quadric": "x*(96*w + x - 8*y + 4*z) - 8*y*z",
+      "extra": "v",
+      "ambient_cubic": "x**3 - 8*x**2*y"
+    },
+    {
+      "conductor_quadric": "x*(96*w + x - 8*y + 4*z) - 8*y*z",
+      "extra": "u",
+      "ambient_cubic": "x**2*z - 8*x*y*z"
+    }
+  ],
+  "cubic_restriction_rank": 20,
+  "upstairs_conductor": "2{U=0}+2{b=0}",
+  "specific_C0_base_parameter": "(1 - 2*t)/(2*t + 1)",
+  "owner_json_sha256": "d57a26bcd5a5ad5817db35025e9e20ebd3566a9ee4f54191f64e7d8ef409de15",
+  "checker_sha256": "9d532c25c9f50f206e0d57c5ce7f35b9feb54707bf1b630fd622c0c473028aa2",
+  "sympy_version": "1.14.0"
+}

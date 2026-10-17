@@ -1,0 +1,8 @@
+PASS qplus: irreducible quadratic, all source direction/seed/slope coefficients rederived.
+PASS qplus: rank29 actual top, complete affine fibre, primitive homogeneous resultant.
+PASS qplus: all 18 polynomial tensor identities and n^T u=1.
+PROVED qplus: both geometric roots excluded, for every lambda.
+PASS qminus: irreducible quadratic, all source direction/seed/slope coefficients rederived.
+PASS qminus: rank29 actual top, complete affine fibre, primitive homogeneous resultant.
+PASS qminus: all 18 polynomial tensor identities and n^T u=1.
+PROVED qminus: both geometric roots excluded, for every lambda.

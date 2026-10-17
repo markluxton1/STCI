@@ -1,0 +1,86 @@
+{
+  "source_sha256": "ae88024f00b8216be727957930747001b44f457e532a0746e6a8e2a657850a02",
+  "scope": "C0 char0; both roots of12r^2+4r+3; e1,d2=4; genuine global correction theta nonzero normalized1; all homogeneous delta including repeated/infinity roots",
+  "status": "PASS: complete quartic fibre dimension at most1 for every delta; two independent target multipliers impossible",
+  "double_matrix_shape": [
+    31,
+    35
+  ],
+  "double_matrix_rank": 28,
+  "complete_double_basis": [
+    "x0**3*x3 - x0**2*x1*x2*(r + 3/2) + x1**4*(r + 1/2)",
+    "x0**2*x2**2 + x0*x1**2*x3*(3*r - 1/2) - x1**3*x2*(3*r + 1/2)",
+    "x0**2*x2*x3*(3*r + 5/2) - x0*x1*x2**2*(6*r + 2) + x1**3*x3*(3*r - 1/2)",
+    "(-6*r - 2)*(x0*x3 - x1*x2)**2",
+    "x0*x1*x3**2*(5*r + 1/6) + x0*x2**3*(r + 11/6) - x1**2*x2*x3*(6*r + 2)",
+    "x0*x2**2*x3*(r + 11/6) + x1**2*x3**2*(4*r/3 - 5/9) - x1*x2**3*(7*r/3 + 23/18)",
+    "-2*r*x0*x3**3 + x1*x2*x3**2*(3*r + 1/2) - x2**4*(r + 1/2)"
+  ],
+  "normalized_hE_coefficients": [
+    "3*r - 1/2",
+    "6*r + 2",
+    "0",
+    "4*r - 5/3",
+    "11*r/3 + 13/18"
+  ],
+  "operator": [
+    [
+      "d1",
+      "d0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "d2 - 3*r + 1/2",
+      "d1",
+      "d0",
+      "0",
+      "0"
+    ],
+    [
+      "d3",
+      "d2 - 6*r - 2",
+      "d1",
+      "d0",
+      "0"
+    ],
+    [
+      "d4",
+      "d3",
+      "d2",
+      "d1",
+      "d0"
+    ],
+    [
+      "0",
+      "d4",
+      "d3",
+      "d2 - 4*r + 5/3",
+      "d1"
+    ],
+    [
+      "0",
+      "0",
+      "d4",
+      "d3",
+      "d2 - 11*r/3 - 13/18"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "d4",
+      "d3"
+    ]
+  ],
+  "covering_minors": [
+    "d0^4",
+    "d4^4",
+    "d1^5 on d0=d4=0",
+    "d3^5 on d0=d4=0"
+  ],
+  "last_case": "delta=d2*z^2; pairwise distinct diagonal constants imply rank>=4",
+  "theta_zero": "nonprimitive flatness failure for genuine D2=4; not a discarded valid branch",
+  "retained": "principal obstruction-zero direction and obstruction-nonzero directions in positive-D2 ancestor strata"
+}

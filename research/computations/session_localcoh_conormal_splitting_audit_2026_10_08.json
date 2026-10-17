@@ -1,0 +1,127 @@
+{
+  "status": "PASS: necessary splitting degrees, all Laurent cup matrices and e1 symbolic determinants",
+  "scope": "No actual ambient extension class is evaluated; no positive-D2 stratum is excluded",
+  "record_sha256": "309bc4d75f41986d96bbd0fa26d324254029b8f0723f4e22a06b9d5e1e1a4b1a",
+  "source_sha256": "96168ad9aea575afafdd909075e601834dd3ca9dfd922adeba5af76fa827064d",
+  "proof_sha256": "c339113c008748a9d2c6aff784c8e207b2f7a69b51643276302691f9ddcbe8ca",
+  "rank_rows": [
+    {
+      "e": 1,
+      "d2": 1,
+      "matrix_shape": [
+        4,
+        4
+      ],
+      "required_rank": 3
+    },
+    {
+      "e": 1,
+      "d2": 2,
+      "matrix_shape": [
+        3,
+        3
+      ],
+      "required_rank": 2
+    },
+    {
+      "e": 1,
+      "d2": 3,
+      "matrix_shape": [
+        2,
+        2
+      ],
+      "required_rank": 1
+    },
+    {
+      "e": 1,
+      "d2": 4,
+      "matrix_shape": [
+        1,
+        1
+      ],
+      "required_rank": 0
+    },
+    {
+      "e": 2,
+      "d2": 0,
+      "matrix_shape": [
+        4,
+        2
+      ],
+      "required_rank": 1
+    },
+    {
+      "e": 2,
+      "d2": 1,
+      "matrix_shape": [
+        3,
+        1
+      ],
+      "required_rank": 0
+    },
+    {
+      "e": 0,
+      "d2": 0,
+      "matrix_shape": [
+        7,
+        7
+      ],
+      "required_rank": 7
+    },
+    {
+      "e": 0,
+      "d2": 1,
+      "matrix_shape": [
+        6,
+        6
+      ],
+      "required_rank": 6
+    },
+    {
+      "e": 0,
+      "d2": 2,
+      "matrix_shape": [
+        5,
+        5
+      ],
+      "required_rank": 5
+    },
+    {
+      "e": 0,
+      "d2": 3,
+      "matrix_shape": [
+        4,
+        4
+      ],
+      "required_rank": 4
+    },
+    {
+      "e": 0,
+      "d2": 4,
+      "matrix_shape": [
+        3,
+        3
+      ],
+      "required_rank": 3
+    },
+    {
+      "e": 0,
+      "d2": 5,
+      "matrix_shape": [
+        2,
+        2
+      ],
+      "required_rank": 2
+    },
+    {
+      "e": 0,
+      "d2": 6,
+      "matrix_shape": [
+        1,
+        1
+      ],
+      "required_rank": 1
+    }
+  ],
+  "retained": "e1,d2=4 zero-extension and Gorenstein boundary remains open"
+}
