@@ -1,6 +1,6 @@
 # Normal quartic carriers
 
-Canonical status: **major classes excluded; rational-resolution remainder open**
+**Current status:** Integral quartic STCI-mate cases for the fixed rational quartic C0 in characteristic zero are **closed** by [STCI-R-0001](quartic_carrier_exclusion.md). This page preserves an earlier partial normal-carrier classification; its remaining cases are historical classification gaps, not surviving quartic STCI-mate cases.
 
 Let \(S\) be a normal integral quartic carrier for a smooth rational quartic \(C\) in characteristic zero.
 
@@ -13,7 +13,7 @@ The established reductions are:
 5. The simple-elliptic case is excluded.
 6. For the remaining rational-resolution Ishii–Nakayama B1/B2/B3/D cases, denominator compression and determinant estimates give a finite mate-degree bound, but not an exclusion.
 
-The remaining normal frontier has reducible, singular, or nonreduced exceptional anticanonical divisor.
+In this historical partial analysis, the unclassified normal cases had reducible, singular, or nonreduced exceptional anticanonical divisor. The later all-integral-quartic theorem excludes them as STCI-mate carriers for fixed C0.
 
 ## Provenance
 
