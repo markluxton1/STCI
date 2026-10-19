@@ -8,7 +8,7 @@
 Fix the smooth rational quartic C in P^3 over an algebraically closed field of characteristic zero. Put K=k(C), and let J_eta be a finite-colength ideal of K[[X,Y]] specifying a candidate embedded generic thickening.
 
 Study the **simultaneous** existence and compatibility of:
-- a coherent ambient ideal J contained in I_C whose generic completion is J_eta;
+- a coherent ambient ideal sheaf J contained in I_C, defining a subscheme T of P^3 containing C, whose completed localization at the generic point eta_C of C equals J_eta. No condition sqrt(J)=I_C is imposed: T may have additional components;
 - two distinct integral surfaces X_F and X_G containing the same ambient thickening, with (F),(G) contained in J;
 - equality J=(F,G), when the candidate thickening is intended to be the complete intersection itself;
 - the further set-theoretic condition V(F,G)_red=C.
