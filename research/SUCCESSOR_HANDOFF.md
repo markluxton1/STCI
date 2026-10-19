@@ -4,7 +4,7 @@
 
 Prepared: 2026-09-30
 
-This file is the entry point for a fresh research session. It is intentionally
+At the time it was written, this file served as the entry point for a fresh research session. It is intentionally
 more concise than `RESEARCH_RECORD.md`. Every claim below should be read with
 the exact hypotheses and proof in that record; source scopes are in
 `LITERATURE_LEDGER.md`.
