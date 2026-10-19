@@ -2,6 +2,20 @@
 
 This file records the active mathematical frontier. Established claims belong in \`STATE.md\`; detailed historical handoffs and dated reports are provenance, not competing descriptions of current status.
 
+## General intersection viewpoint (research framing, not a theorem)
+
+For the fixed curve \(C_0\), it is often useful to begin with two surfaces having no common surface component and
+\[
+C_0\subset V(F,G)_{\mathrm{red}},
+\]
+without assuming equality. If \(m\) is the generic intersection multiplicity along \(C_0\), the effective fundamental cycle has the form
+\[
+[V(F,G)]=m[C_0]+R,\qquad de=4m+\deg R,
+\]
+where \(R\) has no component equal to \(C_0\). The STCI case is precisely \(R=0\). This cycle-level formulation does not identify special-fiber exceptional curves with residual components downstairs: vertical exceptional geometry may instead encode excess contact or degeneration along \(C_0\).
+
+Useful levels of analysis include the generic filtered transverse complete-intersection algebra, its global normal-jet realization, the full associated graded ideal and Rees/successive-blowup geometry, residual intersection cycles, and (when helpful) carrier normalization and conductor descent. These are complementary viewpoints, **not** a required sequence or a ranking of methods. Agents may choose or combine methods based on mathematical leverage, including approaches not listed here. Do not treat the volume of prior results in any lane as evidence that it is intrinsically preferred. In particular, no Hilbert-function strategy, normalization-first approach, or residual-degree bound is mandated.
+
 ## Priority 1 — jet-condition and discrepancy framework
 
 **Question.** For primitive or quasiprimitive thickenings
@@ -73,4 +87,4 @@ The [spectral Picard criterion STCI-R-0008](results/spectral_root_picard_criteri
 
 ## Current recommendation
 
-Work first on the **jet-condition/discrepancy framework**, not on another isolated obstruction polynomial. The goal is a geometric explanation of dependencies among infinitesimal containment conditions in surviving ancestor/jet and higher-degree lanes, **not** to reopen quartic STCI-mate cases.
+Evaluate the available approaches against the broader intersection problem, with attention to structural arguments that work across degrees and normal orders. The jet-condition, entirely-thick, root-scheme, residual-intersection, and carrier approaches remain available; these listed priorities are **options, not instructions to follow in order**. Select or combine approaches according to mathematical leverage and exact hypotheses. Do not reopen quartic STCI-mate cases closed by STCI-R-0001.
