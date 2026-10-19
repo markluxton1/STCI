@@ -88,3 +88,10 @@ The [spectral Picard criterion STCI-R-0008](results/spectral_root_picard_criteri
 ## Current recommendation
 
 Evaluate the available approaches against the broader intersection problem, with attention to structural arguments that work across degrees and normal orders. The jet-condition, entirely-thick, root-scheme, residual-intersection, and carrier approaches remain available; these listed priorities are **options, not instructions to follow in order**. Select or combine approaches according to mathematical leverage and exact hypotheses. Do not reopen quartic STCI-mate cases closed by STCI-R-0001.
+
+
+## Reviewed October 19 normal-cone results
+
+Promoted [STCI-R-0010](results/saturated_first_relation_normal_flatness.md) proves ordinary normal-flatness for actual lci thickenings with full generic coprime binary CI initial algebra (2 <= r < s) and saturated actual first relation. Promoted [STCI-R-0011](results/moving_nonreduced_spectral_root_obstruction.md) excludes moving nonreduced full spectral roots satisfying Picard descent on the rational base. Together they exclude such roots for actual C0 thickenings **only within** the STCI-R-0010 hypotheses.
+
+Open: nonsaturated first relations, generic initial ideals with additional generators, reduced singular moving roots and equal-slope component gluing, special-fiber defects, and ambient lifting. The unrestricted characteristic-zero STCI question remains open. The exceptional-cycle estimates and degree-eight carrier examples from the same research branch remain unpromoted proposals.

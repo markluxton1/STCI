@@ -1,7 +1,9 @@
 # Canonical results and legacy topic navigation
 
-**Current authority:** the nine ID-bearing STCI-R-0001 through STCI-R-0009 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
+**Current authority:** the eleven ID-bearing STCI-R-0001 through STCI-R-0011 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
 
+- **[STCI-R-0011 — Moving nonreduced spectral-root obstruction (proved, rational base)](moving_nonreduced_spectral_root_obstruction.md)**
+- **[STCI-R-0010 — Saturated first relation forces normal flatness (proved, conditional actual lci)](saturated_first_relation_normal_flatness.md)**
 - **[STCI-R-0009 — Moving pure-power tower and second-relation degeneration (proved)](moving_purepower_boundary.md)**
 - **[STCI-R-0008 — Spectral root-curve Picard criterion for graded second relations (proved)](spectral_root_picard_criterion.md)**
 - **[STCI-R-0007 — Universal quadratic-root first and second obstruction model (proved, conditional CI interface)](quadratic_root_obstruction_model.md)**
