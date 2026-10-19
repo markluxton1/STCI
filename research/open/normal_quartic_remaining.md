@@ -1,6 +1,6 @@
-# Remaining normal quartic carriers
+# Normal quartic carriers — historical partial frontier
 
-Status: **OPEN — priority 3**
+Status: **CLOSED for integral quartic STCI mates of fixed C0 in characteristic zero** by [STCI-R-0001](../results/quartic_carrier_exclusion.md). The material below describes a historically incomplete classification, not an active mate frontier.
 
 The surviving normal quartic frontier consists of rational-resolution Ishii–Nakayama B1/B2/B3/D cases with reducible, singular, or nonreduced exceptional anticanonical divisor.
 
