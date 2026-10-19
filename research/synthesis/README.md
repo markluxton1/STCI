@@ -17,4 +17,8 @@ Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and wh
 5. [Exclusion arguments](05-exclusions.md)
 6. [Surviving questions](06-frontier.md)
 
+## Provisional research interfaces
+
+- [Formal normal geometry and residual intersections](formal-normal-intersection.md) — exploratory synthesis of the broader intersection setting, normal filtrations, exceptional geometry, valuations, and tropical viewpoints; **not** a promoted result.
+
 **Evidence convention.** **Established** means supported by a promoted result or specifically identified audited source; **conditional** means its hypotheses must be checked before application; **provisional** means the discussion is an organizing interpretation or a research question. The synthesis does not promote new theorems.
