@@ -13,6 +13,29 @@ We use the established splitting \(N_{C/\mathbf P^3}\simeq\mathcal O_{\mathbf P^
 
 Let \(F,G\) define distinct integral surfaces containing \(C\), and set \(Z=V(F,G)\). **Do not assume** \(Z_{\mathrm{red}}=C\). The eventual STCI condition is a constraint to detect, not a standing hypothesis. In particular, a component of \(Z\) different from \(C\) may meet \(C\) at finitely many points, and the formal completion along \(C\) need not record its full global geometry.
 
+## Simultaneous realization and compatibility problems
+
+The organizing problem is **not** merely to classify ideals in a two-dimensional regular local ring and then seek equations. We must study several realization problems *simultaneously*, together with the maps that make them compatible.
+
+At the generic point of C, choose a finite-colength ideal \(J_\eta\subset K[[X,Y]]\), where \(K=k(C)\), representing a candidate generic thickening \(T_\eta=\operatorname{Spec}(K[[X,Y]]/J_\eta)\). For the actual intersection, \(J_\eta=(F,G)K[[X,Y]]\) when this quotient has finite length. More generally, ask whether a candidate \(J_\eta\) can arise from a coherent ideal sheaf \(\mathcal J\subset\mathcal O_{\mathbf P^3}\) with \(\mathcal J\subset I_C\), whose generic completion is \(J_\eta\). Such a global realization can have extra components or special-point structure; no purity or STCI hypothesis is implicit.
+
+There are **four interdependent tests**, not a sequential list of independent classifications:
+
+1. **Abstract/generic thickening:** what finite-length \(K[[X,Y]]\)-algebras (with specified embedding in the formal normal plane) can occur, and what intrinsic invariants and deformations do they possess?
+2. **Realization inside each carrier:** for integral surfaces \(X_F=V(F)\) and \(X_G=V(G)\) containing C, can the same thickening be embedded as a closed subscheme of each? In ideals, this requires \((F)\subset\mathcal J\) and \((G)\subset\mathcal J\) (and the corresponding containments after completion). Separate embeddings into unrelated abstract surfaces do not suffice.
+3. **Ambient realization:** does the candidate thickening and its chosen normal embedding extend to a coherent closed subscheme of \(\mathbf P^3\) with the prescribed restrictions along C? This imposes global section, gluing, degree and normal-bundle constraints not visible over K alone.
+4. **Joint compatibility and actual intersection:** can the *same ambient embedding* and the *same pair of global integral surface equations* realize all of the preceding data with \(\mathcal J=(F,G)\)? Merely having \((F,G)\subset\mathcal J\) shows the candidate thickening lies in the intersection; equality is stronger. To obtain an STCI, one must additionally prove \(V(F,G)_{\mathrm{red}}=C\), excluding extra components globally.
+
+Thus the question is not only whether \(T\) lies in \(X_F\), in \(X_G\), and in \(\mathbf P^3\) separately, but whether these are **the same closed immersion and compatible factorisations**
+\[
+T\hookrightarrow X_F\hookrightarrow\mathbf P^3,
+\qquad
+T\hookrightarrow X_G\hookrightarrow\mathbf P^3,
+\]
+with the additional equality \(I_T=(F,G)\) when T is meant to be the full intersection scheme.
+
+The filtration and successive exceptional schemes should help detect where compatibility fails: generic formal realizability need not globalize, a thickening supported by either carrier individually need not be cut out by their pair, and exceptional specialization may reveal defects or additional components. Seek structural obstruction and lifting criteria connecting these levels, rather than treating them as independent existence questions.
+
 ## Three distinct constructions
 
 Write \(J=I_C\subset\mathcal O_{\mathbf P^3}\) and \(I=(F,G)\subset J\). Distinguish:
