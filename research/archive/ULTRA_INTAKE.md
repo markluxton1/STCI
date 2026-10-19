@@ -2,7 +2,7 @@
 
 This is an **organizational archive**, not promotion of mathematical claims.
 
-Source branch: `research/ultra-resume-2026-10-06`. Five dated handoff/update files and two audited-state snapshots have been copied into `research/archive/`. Each archive copy links to its original Ultra path; embedded relative links were converted to explicit original-branch URLs, because most target evidence has **not** been imported to `main`.
+Source branch: `research/ultra-resume-2026-10-06`. Five dated handoff/update files and two audited-state snapshots have been copied into `research/archive/`. Each archive copy links to its original Ultra path; embedded relative links were converted to explicit original-branch URLs, at the time of the original intake. A full tree audit on 2026-10-19 subsequently verified that all 3,076 source-branch file blobs are preserved on `main`.
 
 ## Imported historical snapshots
 
@@ -21,7 +21,7 @@ These dated snapshots contain accepted and provisional claims together. Their pr
 
 ## Source-note inventory
 
-- [Ultra source-note inventory](ULTRA_SOURCE_NOTES_INDEX.md) — 356 original-branch notes indexed by filename keywords; **not** imported or promoted.
+- [Ultra source-note inventory](ULTRA_SOURCE_NOTES_INDEX.md) — 356 original-branch notes indexed by filename keywords; preserved on `main`, but **not** promoted as mathematical results.
 
 ## Computation and validation inventories
 
@@ -38,7 +38,7 @@ These are **historical source records**, not canonical theorem promotion. Eviden
 - [Independent MF6 E1 audit, October 7](notes/ULTRA_2026-10-07-session-mf6-e1-independent-audit.md)
 - [Independent normal-carrier audit, October 7](notes/ULTRA_2026-10-07-session-normal-carrier-independent-audit.md)
 
-These four source notes were copied with a provenance header and original-branch evidence links. They were not rerun or independently verified during intake; linked scripts and validation logs remain on Ultra.
+These four source notes were copied with a provenance header and original-branch evidence links. They were not rerun or independently verified during intake; linked scripts and validation logs are preserved on `main`.
 
 ## October 6–7 source-note consolidation
 
@@ -46,6 +46,6 @@ Eleven additional historical source notes were imported under `research/archive/
 
 ## Boundaries
 
-These snapshots are not substitutes for `research/STATE.md`, `research/FRONTIER.md`, canonical result records, or source proofs. The original Ultra files and all notes, validation outputs, and scripts remain on Ultra. The snapshot copies have a provenance header and link-target rewriting; their mathematical body text was not reconciled.
+These snapshots are not substitutes for `research/STATE.md`, `research/FRONTIER.md`, canonical result records, or source proofs. All original Ultra file blobs, including notes, validation outputs, and scripts, are preserved on `main`. The snapshot copies have a provenance header and link-target rewriting; their mathematical body text was not reconciled.
 
-**Next intake batches:** source proofs and independent audits with collision checks, then reproducible scripts/certificates subject to the artifact policy. No wholesale Ultra merge.
+**Preservation update (2026-10-19):** all 3,076 source-branch file blobs were verified on `main`: 3,068 at original paths and eight in the reconciliation archive. Preservation does not imply mathematical validation or promotion.
