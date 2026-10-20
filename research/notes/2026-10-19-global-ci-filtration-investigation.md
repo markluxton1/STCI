@@ -1,0 +1,426 @@
+# Homogeneous generator rigidity and small-movement arithmetic for C0
+
+Date: 2026-10-19.
+Status: **new theorem proposal with independent review PASS; not promoted**.
+This note does not edit or promote canonical result records.
+
+## 1. Exact scope and proposed conclusions
+
+Let the ground field be algebraically closed of characteristic zero, and let
+
+\[
+C=C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3.
+\]
+Suppose an actual homogeneous complete intersection
+
+\[
+Y=V(F_a,G_b),\qquad Y_{\rm red}=C,
+\]
+exists. The equations have no common surface component. Put
+\(I=I_C\), \(Q=I_Y\), and \(J=I\mathcal O_Y\). Assume the **full** generic
+ordinary initial ideal is a coprime binary complete intersection of degrees
+\(2\le r<s\), and the actual first degree-r relation kernel
+
+\[
+R=\ker(\operatorname{Sym}^r N_C^*\longrightarrow J^r/J^{r+1})
+\]
+is a line subbundle. These are exactly the substantive additional hypotheses
+of promoted STCI-R-0010. Write
+
+\[
+N_C^*=\mathcal O_{\mathbf P^1}(-7)^{\oplus2},\qquad
+R=\mathcal O_{\mathbf P^1}(-7r-\epsilon),\quad\epsilon\ge0.
+\]
+Thus the full first root has class \((\epsilon,r)\) in
+\(\mathbf P^1_{\rm base}\times\mathbf P^1_{\rm dir}\).
+
+The new proposed conclusions are:
+
+1. The original homogeneous equations necessarily **both** have exact
+   generic normal order r, and their first symbols jointly generate R at
+   every point. Their two coefficient sections have positive degrees and
+   no common zero. This requires the actual homogeneous two-generator
+   presentation, rather than merely an abstract graded CI family.
+2. Movement one, \(\epsilon=1\), is impossible, in every normal order and
+   every homogeneous degree pair under these hypotheses.
+3. For movement two, \(\epsilon=2\), the only possible unordered numerical
+   data are
+
+   | r | s | a | b | s-r |
+   |---:|---:|---:|---:|---:|
+   | 2 | 8 | 8 | 8 | 6 |
+   | 2 | 12 | 6 | 16 | 10 |
+   | 6 | 21 | 18 | 28 | 15 |
+   | 14 | 42 | 48 | 49 | 28 |
+   | 15 | 45 | 50 | 54 | 30 |
+   | 20 | 60 | 64 | 75 | 40 |
+
+   This is an exhaustive **necessary numerical list**, not an existence
+   result or a completed exclusion of the six cases.
+4. For each fixed integer \(1\le\epsilon\le8\), only finitely many
+   numerical quadruples \((r,s;a,b)\) can satisfy these hypotheses.
+   A finite divisor procedure is supplied below. No corresponding claim
+   is made here for \(\epsilon\ge9\).
+
+Neither nonsaturated first relations, non-CI full generic initial ideals,
+nor intersections with residual curve components are covered.
+
+## 2. Inputs, evidence paths, and authority boundary
+
+- [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md)
+  supplies normal flatness of the entire ordinary J-adic algebra under
+  the stated hypotheses. Its preserved proof computes the second minimal
+  quotient relation T and its degree in
+  [the saturated first-relation bridge](2026-10-19-saturated-first-relation-spectral-bridge.md),
+  sections 3--6. In the present splitting,
+
+  \[
+  \deg T=-7s+\frac{s\epsilon}{r}.
+  \tag{1}
+  \]
+
+  The second relation is a **quotient relation**. No global second
+  polynomial line is assumed.
+- The general generator-filtration lemma is proved independently in
+  [the generator-filtration audit](2026-10-13-generalization-thick-generator-filtration-audit.md),
+  sections 1--4. It is a reviewed supporting source, not a separate
+  promoted result record. Its general statement applies to a full
+  locally CI initial ideal; the application below is enabled by R0010.
+  The minimal argument needed here is recorded in section 3, so that
+  this additional interface can be independently assessed.
+- [STCI-R-0001](../results/quartic_carrier_exclusion.md), especially its
+  separately audited factor-reduction consequences, excludes a quadric
+  factor in either equation of an STCI presentation, even if that equation
+  is reducible or nonreduced. Together with C of type (1,3) on its smooth
+  unique quadric, this gives \(a,b\ge3r\) once conclusion 1 is known.
+  The historical necessary inequality and exact audit pointer are also
+  recorded in [the entirely-thick topic](../results/entirely_thick.md).
+  That legacy topic is navigation, not an independent promoted authority.
+- [STCI-R-0008](../results/spectral_root_picard_criterion.md) interprets
+  the second relation as full-root Picard descent; its integrality
+  condition \(r\mid\epsilon s\) also follows directly from (1).
+- [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md)
+  may subsequently restrict the movement-two roots to reduced ones;
+  its proof is not used in the arithmetic exclusion of movement one.
+
+The new claims in this note remain unpromoted proposals. Independent
+reconstruction passed in [the core audit](2026-10-19-numerical-first-root-independent-audit.md)
+and [the fixed-movement audit](2026-10-19-global-ci-filtration-independent-audit.md).
+
+## 3. The actual generator sequence and why it cannot split
+
+Since the full ordinary initial ideal K is locally generated by a
+regular sequence of degrees r,s, put
+
+\[
+M=Q/IQ,\qquad
+\mathcal F^jM=\operatorname{image}(Q\cap I^j\longrightarrow Q/IQ).
+\]
+The generator-filtration lemma gives
+
+\[
+\operatorname{gr}_{\mathcal F}M=K/(S_+K),
+\quad S=\operatorname{Sym}(N_C^*).
+\]
+Its two graded pieces are R in degree r and T in degree s. Consequently
+
+\[
+0\longrightarrow T\longrightarrow
+\mathcal O(-4a)\oplus\mathcal O(-4b)
+\longrightarrow R\longrightarrow0.
+\tag{2}
+\]
+
+Here \(M=\mathcal O_C(-a)\oplus\mathcal O_C(-b)\) comes from the
+**actual** homogeneous CI ideal. To recall why cancellation does not
+invalidate this identification, local lifts f,g of the regular initial
+sequence generate Q by finite initial-term elimination followed by Krull
+intersection. Any cancellation of leading terms is a Koszul syzygy of
+the two regular initial forms. Removing it gives
+
+\[
+Q\cap I^j=I^{\max(j-r,0)}f+I^{\max(j-s,0)}g,
+\qquad \operatorname{in}_I(IQ)=S_+K.
+\]
+This proves the stated filtered quotient without assuming a global
+change of homogeneous generators or a formal retraction.
+
+The generic length of Y along C is rs. Degree of the complete
+intersection gives
+
+\[
+ab=4rs.
+\tag{3}
+\]
+
+Set
+
+\[
+P=7r+\epsilon,\qquad Q_0=7s-\frac{s\epsilon}{r}.
+\]
+Equation (1) says \(R=\mathcal O(-P)\),
+\(T=\mathcal O(-Q_0)\), with both P and Q_0 integers. Taking
+determinants in (2) gives
+
+\[
+4(a+b)=7(r+s)-\frac{\epsilon(s-r)}r.
+\tag{4}
+\]
+
+If (2) split, uniqueness of the splitting type on \(\mathbf P^1\)
+would give \(\{4a,4b\}=\{P,Q_0\}\). Therefore
+
+\[
+16ab=P Q_0
+=rs\left(49-\frac{\epsilon^2}{r^2}\right)
+\le49rs,
+\]
+contradicting \(16ab=64rs\) from (3). Thus (2) never splits, including
+when \(\epsilon=0\).
+
+The quotient map in (2) is given by sections
+
+\[
+\alpha\in H^0\mathcal O(4a-P),\qquad
+\beta\in H^0\mathcal O(4b-P)
+\]
+with no common zero. If one were zero, the other would be nowhere zero
+and would split the sequence. If either had degree zero, its nonzero
+constant value would also split the sequence. Hence both sections are
+nonzero and have positive degrees. They are exactly the degree-r first
+symbols of the original F and G, expressed in the first relation line.
+Thus both original equations have exact generic order r and jointly
+generate R everywhere.
+
+The kernel is locally generated by \((-\beta,\alpha)\). Its two
+components are also nonzero positive-degree sections. We obtain the
+strict interval and movement bound
+
+\[
+7r+\epsilon<4a,4b<7s-\frac{s\epsilon}{r},
+\qquad 0\le\epsilon<7r.
+\tag{5}
+\]
+
+The last inequality follows since the right endpoint is positive.
+This rigidity is specific to genuine homogeneous C0 complete
+intersections; it is not a restriction on arbitrary abstract graded
+families admitted by R0008.
+
+## 4. The quadric bound and normalized arithmetic
+
+Neither F nor G has the unique quadric q as a factor, by the accepted
+factor reduction and quadric-carrier exclusion included in the
+consequences of R0001. Restrict F to the smooth quadric
+\(Q\simeq\mathbf P^1\times\mathbf P^1\), where C has class (1,3).
+Its exact ambient normal order r implies that the nonzero restriction
+vanishes along C to order at least r. Its remaining effective divisor
+has class \((a-r,a-3r)\), possibly after subtracting further copies of C.
+Therefore \(a\ge3r\); the same reasoning gives \(b\ge3r\).
+This argument needs no integrality of F or G.
+
+Put \(t=s/r>1\) and \(k=\epsilon/r\). From (3)--(4) and AM--GM,
+
+\[
+7(1+t)-k(t-1)=\frac{4(a+b)}r\ge16\sqrt t.
+\]
+Since \(k\ge0\), necessarily
+
+\[
+t\ge\rho:=\frac{79+16\sqrt{15}}{49}>\frac{23}{8}.
+\tag{6}
+\]
+The inequality \(\rho>23/8\) can be checked exactly by substituting
+\(23/8\) into \(49t^2-158t+49\), obtaining \(-15/64<0\).
+For \(\epsilon>0\), the first inequality in (6) is strict.
+
+If \(a\le b\), then \(3r\le a\le\sqrt{ab}\). The function
+\(x+ab/x\) decreases on that interval. Thus
+
+\[
+a+b\le3r+\frac{4s}{3}.
+\]
+Combining with (4) gives
+
+\[
+(5r-3\epsilon)t\le15r-3\epsilon.
+\tag{7}
+\]
+For \(r>3\epsilon/5\), this is the useful upper bound
+
+\[
+t\le\frac{15r-3\epsilon}{5r-3\epsilon}
+=3+\frac{6\epsilon}{5r-3\epsilon}.
+\tag{8}
+\]
+Finally, (1) gives
+
+\[
+r\mid\epsilon s,
+\quad\text{equivalently}\quad \epsilon t\in\mathbf Z.
+\tag{9}
+\]
+These inequalities retain all first-root components and impose no
+smoothness, irreducibility, or reducedness on the root.
+
+## 5. Uniform exclusion of movement one
+
+Let \(\epsilon=1\). Equation (9) makes t an integer. Equation (6)
+forces \(t\ge3\). For every \(r\ge2\), (8) gives
+
+\[
+t\le\frac{15r-3}{5r-3}<4.
+\]
+Thus t=3. But (4) now gives
+
+\[
+4(a+b)=28r-2,
+\]
+which is impossible for integers a,b. This excludes movement one in
+the full stated saturated-first-relation, full-generic-CI class, with
+no bound on the defining degrees or normal orders.
+
+## 6. Exhaustive movement-two list
+
+Let \(\epsilon=2\). Equation (9) makes t an integer if r is odd and
+a half-integer if r is even. Equations (6) and (8) force \(t\ge3\).
+For \(r\ge7\), the upper bound is less than 7/2, so t=3. For
+\(2\le r\le6\), the possibilities before the final integer-degree
+check are exactly
+
+| r | possible s |
+|---:|:---|
+| 2 | 8, 9, 10, 11, 12 |
+| 3 | 9, 12 |
+| 4 | 12, 14 |
+| 5 | 15 |
+| 6 | 18, 21 |
+
+For r=2 the lower bound t>=4 follows directly from
+\(8+6t\ge16\sqrt t\), rather than the weaker (6).
+For each pair, compute the integer
+
+\[
+A=\frac{7(r+s)-2(s-r)/r}{4}.
+\]
+It must be an integer, and \(A^2-16rs\) must be a nonnegative square
+with the correct parity. The roots of \(X^2-AX+4rs\) must be at least
+3r. The only survivors from this small table are
+\((r,s;a,b)=(2,8;8,8),(2,12;6,16),(6,21;18,28)\).
+
+On t=3, equation (4) gives \(a+b=7r-1\), and the discriminant is
+
+\[
+D=(7r-1)^2-48r^2=(r-7)^2-48.
+\]
+For r>=7 a nonnegative square D=d^2 is equivalent to
+
+\[
+(r-7-d)(r-7+d)=48.
+\]
+Both factors are positive integers of the same parity. Their ordered
+factor pairs are (2,24), (4,12), and (6,8), yielding respectively
+\(r=20,15,14\). Substitution yields the three remaining rows in the
+statement. This factorization proves exhaustion for arbitrarily large r;
+a bounded search is not the proof.
+
+## 7. Finiteness for each fixed movement at most eight
+
+Fix \(1\le\epsilon\le8\). Since \(\epsilon t\) is an integer and
+\(t>\rho>23/8\), we have \(t\ge3\): the largest possible grid point
+below 3 is \(3-1/\epsilon\le23/8\).
+
+If
+
+\[
+r>\frac{3\epsilon(2\epsilon+1)}5,
+\tag{10}
+\]
+then (8) gives \(t<3+1/\epsilon\), so t=3. In this range
+
+\[
+a+b=7r-\epsilon/2.
+\]
+Odd epsilon is impossible. For even epsilon=2h the discriminant is
+
+\[
+D=(r-7h)^2-48h^2.
+\]
+A nonnegative square D=d^2 gives
+
+\[
+(r-7h-d)(r-7h+d)=48h^2.
+\tag{11}
+\]
+There are finitely many signed integer factor pairs of the nonzero
+fixed integer on the right, hence finitely many r and a,b. More explicitly,
+the factors in (11) have the same parity and even product, so both are
+even. Writing them as 2u,2v gives uv=12h^2 and
+r=7h+u+v<=7h+12h^2+1. This bound also covers negative factor pairs.
+Together with the small-r cutoff, the following normal-order bounds hold:
+
+| epsilon | bound on r |
+|---:|---:|
+| 1 | no cases |
+| 2 | 20 |
+| 3 | 12 |
+| 4 | 63 |
+| 5 | 33 |
+| 6 | 130 |
+| 7 | 63 |
+| 8 | 221 |
+
+There remain finitely many r satisfying the reverse of (10), but (8)
+need not bound s when its denominator is nonpositive. The following
+exact factorization handles that stratum and prevents a hidden gap.
+For fixed r and epsilon set \(c=7r-\epsilon>0\), as proved in (5).
+Eliminate s from (3)--(4) to obtain
+
+\[
+\boxed{(ca-16r^2)(cb-16r^2)=4r^2(15r^2+\epsilon^2).}
+\tag{12}
+\]
+The right side is a fixed positive nonzero integer. Its finitely many
+signed divisor pairs determine a,b uniquely, after which
+\(s=ab/(4r)\) is determined. Keeping only positive integer a,b,s with
+all original conditions yields a finite exact enumeration. Thus (11)
+and (12) establish finiteness without dropping small-r strata.
+
+For epsilon>=9, the grid may contain t<3 but t>rho (for example
+26/9). The argument above no longer proves finiteness; no extension
+beyond the literal small-movement scope is asserted.
+
+## 8. Smooth-root consequence and remaining work
+
+Equation (6) with r>=2 forces s-r>=4, hence in particular the gap is
+at least two. Conclusion 1 supplies automatically the two-original-
+equation order and joint-generation hypotheses in
+[STCI-R-0006](../results/actual_ci_smooth_root_bridge.md). Thus for a
+**smooth full root**, R0010 plus an actual global homogeneous C0 CI
+satisfies the ancillary equation hypotheses of that bridge. The bridge
+then supplies its stated finite primitive thickness on the root.
+
+For epsilon=2, promoted R0011 restricts the total root to be reduced;
+its possibilities remain an integral (2,r) divisor or, for even r,
+two distinct (1,r/2) components. Smoothness is an additional restriction.
+The six numerical rows include possible singular and reducible roots
+and are not discarded by the present argument. Existing smooth-root
+formal nonexistence is an all-orders statement with a nonexplicit
+finite empty stage; the finite gaps in the table cannot be compared
+with that stage without additional work.
+
+The frontier advances here by excluding movement one under exact
+saturated/full-generic-CI hypotheses and reducing movement two to six
+numerical rows. It does not classify the remaining root divisors, prove
+that one of the six rows lifts, exclude every one of those rows, or
+settle unrestricted STCI for C0.
+
+## 9. Verification record
+
+A supplementary exact integer cross-check through r=2000 returned no
+movement-one rows and exactly the six movement-two rows above. It
+reproduces the arithmetic only. Exhaustion is established by the
+factorizations and inequalities in sections 5--7, not by this bounded
+check. Independent review must reconstruct the generator-filtration
+interface, nonsplitting argument, no-quadric-factor use for reducible
+and nonreduced equations, and all finite arithmetic strata.
