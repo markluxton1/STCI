@@ -3,7 +3,7 @@
   "date": "2026-10-19",
   "target_base_commit": "84dacd99c54915b1bbb224bb01565f01716445de",
   "status": "historical_evidence_and_proposals_not_canonical_promotion",
-  "verification_boundary": "Hashes establish faithful import, not mathematical validity. Source statuses are retained, not adopted.",
+  "verification_boundary": "Snapshot hashes establish internal consistency; source fidelity requires comparison with original donor bytes. Source statuses are retained, not adopted. Neither hashes nor executable examples establish mathematical validity or canonical promotion.",
   "sources": [
     {
       "id": "space-curves-i",
