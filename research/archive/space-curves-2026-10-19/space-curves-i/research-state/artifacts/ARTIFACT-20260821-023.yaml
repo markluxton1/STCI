@@ -1,0 +1,77 @@
+id: ARTIFACT-20260821-023
+type: computation
+title: "Corrected Vahlen base-line coordinates and two exact singular-member incidence strata"
+content: >-
+  A direct reconstruction from the anticanonical parametrization corrects the
+  displayed coordinate equations for the forced residual line G in
+  ARTIFACT-20260821-013.  In the U0,U1,U2,U3 coordinates used by the binary
+  quintic, the image of q=3yz-5xz-5xy+7x^2 is
+  G=V(3U2-5U0, 3U3-5U0-5U1), not the two linear forms printed in that artifact.
+  Exact substitution verifies that every cubic in I_C(3) vanishes on this
+  corrected G; hence the base-line conclusion itself survives, but its prior
+  coordinate display does not.
+
+  This correction yields two certified partial strata of the cubic-system
+  discriminant without attempting universal elimination.  Write a cubic member
+  F as l1 Q1+l2 Q2 for l1=3U2-5U0 and l2=3U3-5U0-5U1.  Its singular points on
+  G are precisely the common zeros of Q1|G and Q2|G.  Their binary-quadratic
+  resultant is a nonzero homogeneous quartic R_G(a0,a1,a2,a3), computed exactly
+  by the accompanying script.  Thus V(R_G) is exactly the locus of system
+  members singular somewhere on G (with possible multiplicities and overlaps
+  not yet stratified).
+
+  Independently, the normal-gradient matrix of the four cubics along the
+  parametrized quintic C has generic rank two: an explicit 2-by-2 minor is
+  nonzero.  Hence, at a general point of C, the projectivized space of cubic
+  members singular at that point is a P1.  This gives a two-dimensional
+  base-curve singularity incidence in the coefficient P3.  It explains why a
+  discriminant analysis must separate singularities on C and G from the
+  off-base A1 witnesses already excluded by ARTIFACT-20260821-020.
+
+  Neither result is a full factorization or stratification of the restricted
+  cubic discriminant.  In particular, it does not determine the image degree
+  or generic singularity type of the C-incidence surface, the factorization of
+  R_G, its overlap with the C-incidence, or the remaining off-base component.
+
+epistemic_status: independently_checked
+lifecycle_status: active
+significance: >-
+  Repairs a coordinate-level provenance defect while replacing a blocked global
+  elimination with two exact, reusable incidence descriptions of the residual
+  cubic frontier.
+assumptions:
+  - "The rational coordinate Vahlen model and its exact cubic basis are those of ARTIFACT-20260821-012 and ARTIFACT-20260821-013."
+  - "Calculations are over Q and retain their stated characteristic-zero scope after base change."
+support:
+  - "Exact reconstruction from four rational points on q and direct polynomial substitution."
+  - "Exact resultant and normal-gradient rank calculation in research-state/scripts/vahlen_base_locus_discriminant.py."
+source_material: [ARTIFACT-20260821-012, ARTIFACT-20260821-013, ARTIFACT-20260821-021, ARTIFACT-20260821-022]
+relations:
+  - type: corrects
+    target: ARTIFACT-20260821-013
+    explanation: "Corrects only its printed coordinate equations for G; independently re-verifies its all-cubics-contain-G conclusion."
+    confidence: high
+  - type: refines
+    target: ARTIFACT-20260821-021
+    explanation: "Splits the residual singular-cubic frontier into explicit on-C, on-G, and still-unclassified off-base loci."
+    confidence: high
+  - type: responds_to
+    target: ARTIFACT-20260821-022
+    explanation: "Obtains exact partial discriminant information without the unavailable universal elimination."
+    confidence: high
+conceptual_neighborhoods: [NEIGHBORHOOD-20260821-004, NEIGHBORHOOD-20260821-005]
+history_events: [EVENT-20260821-028]
+uncertainties:
+  - "The C-singularity incidence is not yet proven to be a discriminant component rather than to have lower-dimensional image."
+  - "No complement conclusion is drawn for members singular on C or G."
+  - "The corrected equations require any downstream coordinate calculation that used the older printed forms to be audited."
+provenance:
+  created_by: /root
+  created_at: "2026-08-21T20:10:00-04:00"
+  task_id: MOVE-20260821-016
+  input_artifacts: [ARTIFACT-20260821-012, ARTIFACT-20260821-013, ARTIFACT-20260821-021, ARTIFACT-20260821-022]
+  context_projection: "Low-degree coordinate Vahlen cubic system only; this is not the complete project state."
+  objective: "Audit the base-line coordinates and extract exact singularity incidences below the universal-elimination threshold."
+  method: "Exact rational conic-image reconstruction, polynomial substitution, binary resultant, and normal-gradient rank calculation."
+  reasoning_summary: "The direct parametrization fixes the coordinate mismatch.  Once G is correct, singularity on G is a binary resultant condition; independently, rank two normal gradients give a P1 of singular cubics through a general point of C."
+  computation_or_external_sources: [research-state/scripts/vahlen_base_locus_discriminant.py]

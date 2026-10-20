@@ -1,0 +1,822 @@
+[
+  {
+    "source_id": "space-curves-i",
+    "artifact_count": 19,
+    "artifacts": [
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-001.yaml",
+        "id": "ARTIFACT-20260821-001",
+        "title": "What the P3 question asserts, and the distinctions it does not permit one to collapse",
+        "source_status": "literature_supported",
+        "sha256": "f6ab05c6bf4605d21dbf4076f6db2266447cdbc345f3b7f10a292159d60c3281",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-002.yaml",
+        "id": "ARTIFACT-20260821-002",
+        "title": "Why codimension two and known obstructions have not yielded a projective counterexample",
+        "source_status": "literature_supported",
+        "sha256": "34b5dd822122f8ae11db08482b3cd07d10ec489d27a19e2ad2a35819b5687864",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-003.yaml",
+        "id": "ARTIFACT-20260821-003",
+        "title": "Strengthened but bounded 2026 status of the characteristic-zero projective space-curve question",
+        "source_status": "literature_supported",
+        "sha256": "5256ba82d1159559c790c837d768ba9d2834db4d5a01c349ad3995604a7ab76c",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-004.yaml",
+        "id": "ARTIFACT-20260821-004",
+        "title": "Candidate counterexamples, unresolved stress cases, and branch-only failures",
+        "source_status": "literature_supported",
+        "sha256": "447bbe64ac2404056c91cc356d2d5cb8fed49e288a73d039248da3374c33ca74",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-005.yaml",
+        "id": "ARTIFACT-20260821-005",
+        "title": "Method-by-example applicability and exact stopping points",
+        "source_status": "literature_supported",
+        "sha256": "3d4a6c8adc1f30ff44f44ecff5bfc15ad557000f43b75d09822c69affbb391ef",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-010.yaml",
+        "id": "ARTIFACT-20260821-010",
+        "title": "Four bottlenecks behind the P3 curve problem, and intermediate questions that genuinely discriminate",
+        "source_status": "conditionally_derived",
+        "sha256": "ad45857f20262f8c7a561166a2bcd70a1bae6ad050a5bbbfdb7964746a0e9372",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-011.yaml",
+        "id": "ARTIFACT-20260821-011",
+        "title": "Ranked research directions after stress-testing the P3 obstruction map",
+        "source_status": "conditionally_derived",
+        "sha256": "177dac0498834b2431f63a57c2c708edb4877e7e34b2df7418afff958d28f9b3",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-012.yaml",
+        "id": "ARTIFACT-20260821-012",
+        "title": "Vahlen quintic: exact cubic-surface input and the known-complement obstruction",
+        "source_status": "conditionally_derived",
+        "sha256": "3d7ed58c7bef56ff8f4c3d35e5e43e2867da228caf36267817cd2124ebf765f1",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-013.yaml",
+        "id": "ARTIFACT-20260821-013",
+        "title": "Exact low-degree ideal of the coordinate Vahlen quintic and its forced residual line",
+        "source_status": "independently_checked",
+        "sha256": "03a72f692d7fd2d29f4445afc9f5359070ebdc8721e8922670d9d52d859c42ab",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-014.yaml",
+        "id": "ARTIFACT-20260821-014",
+        "title": "Every smooth cubic containing Vahlen's rational quintic has non-affine complement",
+        "source_status": "independently_checked",
+        "sha256": "6fd8e5e61c8396da53deaf4bfcf999f48c3de5c7064fd9e441d881b8c5d9281d",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-015.yaml",
+        "id": "ARTIFACT-20260821-015",
+        "title": "Independent verification: smooth rational quintics on smooth cubic surfaces have five disjoint lines",
+        "source_status": "independently_checked",
+        "sha256": "adb80178d373fd120f409a25f269adfe8bf29621879a3121e6037762d843d59a",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-016.yaml",
+        "id": "ARTIFACT-20260821-016",
+        "title": "Singular irreducible cubic witnesses off the Vahlen-quintic base locus",
+        "source_status": "independently_checked",
+        "sha256": "1377ac021648f969978e255a4515899f05759028945093434948311b0b7d59b9",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-017.yaml",
+        "id": "ARTIFACT-20260821-017",
+        "title": "Retained Vahlen singular-cubic witnesses have explicit ordinary-double-point germs off C union G",
+        "source_status": "independently_checked",
+        "sha256": "149dd92dba53ce36d3e84b8b3ce68b5a5b9fce38520613b9270007e66ec15054",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-018.yaml",
+        "id": "ARTIFACT-20260821-018",
+        "title": "The three retained Vahlen cubic witnesses are globally normal one-nodal cubic surfaces",
+        "source_status": "independently_checked",
+        "sha256": "497423061bd2fa5376fe1cb6d81a702d26b3e05139eb54e9d26c0da5a03f7018",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-019.yaml",
+        "id": "ARTIFACT-20260821-019",
+        "title": "Nodal-cubic obstruction: a quintic avoiding an A1 node leaves a complete disjoint degree-one curve",
+        "source_status": "independently_checked",
+        "sha256": "a0a42305fcfdd6ad623685e701950e644c3c9724d04406fd46438b2803dbdf84",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-020.yaml",
+        "id": "ARTIFACT-20260821-020",
+        "title": "Independent verification: one-nodal cubic quintic boundaries have a complete degree-one obstruction",
+        "source_status": "independently_checked",
+        "sha256": "a5d510bffc331ff9bc37a183ddedd9bccf2cb99adafc7f0d76a18ee8a8dcbe57",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-021.yaml",
+        "id": "ARTIFACT-20260821-021",
+        "title": "Reduced affine-complement frontier for Vahlen's quintic after smooth and one-nodal cubic exclusions",
+        "source_status": "independently_checked",
+        "sha256": "88815dcec67009a787f5293aa5be2f0b18037d9fce2447ad488660a64d2db6b3",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-022.yaml",
+        "id": "ARTIFACT-20260821-022",
+        "title": "Exact universal-discriminant elimination for the Vahlen cubic P3 exceeds the available lightweight toolchain",
+        "source_status": "independently_checked",
+        "sha256": "312d358801a029c113532e21adb501dc24a51220dc733d5a7c536b84f4963c2f",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-023.yaml",
+        "id": "ARTIFACT-20260821-023",
+        "title": "Corrected Vahlen base-line coordinates and two exact singular-member incidence strata",
+        "source_status": "independently_checked",
+        "sha256": "e67ddc68d7d6d597696e8685ebededfc2ed65c7b8fb09ea0ab19753f4794be4f",
+        "imported": true
+      }
+    ]
+  },
+  {
+    "source_id": "space-curves-ii",
+    "artifact_count": 9,
+    "artifacts": [
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-001.yaml",
+        "id": "ARTIFACT-20260821-001",
+        "title": "Space curves should have arithmetical rank two",
+        "source_status": "conjectured",
+        "sha256": "930ca933bb22fc8612695c8be992193ef68c324963bbf3ed1b2f0e24d358b29a",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-002.yaml",
+        "id": "ARTIFACT-20260821-002",
+        "title": "Twisted cubic as a quadric-cubic set-theoretic intersection",
+        "source_status": "independently_checked",
+        "sha256": "1c9579fa9e6cd7fb6f852a5a517efa6f23cfc35b1c0fea77b6d28df53d971e50",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-003.yaml",
+        "id": "ARTIFACT-20260821-003",
+        "title": "Seek a complete-intersection multiple structure supported on C",
+        "source_status": "literature_supported",
+        "sha256": "ab46bb16d846391ddd0bb723e0100254c7b08bdf55e10c8444da979eb1050d9c",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-004.yaml",
+        "id": "ARTIFACT-20260821-004",
+        "title": "Every projective space curve is cut out set-theoretically by three surfaces",
+        "source_status": "literature_supported",
+        "sha256": "3874453b7968c4ac85355ba9846e20dd01d6ee314e0cf1eb7833ad46ce64f3ab",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-005.yaml",
+        "id": "ARTIFACT-20260821-005",
+        "title": "Local cohomology codepth and quasi-cyclicity frame",
+        "source_status": "literature_supported",
+        "sha256": "1f5d008db59fe393d80dbfb6ffa0159e0bfc58a7ff201db8e66a8984806b7783",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-006.yaml",
+        "id": "ARTIFACT-20260821-006",
+        "title": "Ordinary supporting surfaces force self-linkage and genus growth in characteristic zero",
+        "source_status": "literature_supported",
+        "sha256": "0277be8df06ddb309d2b8979dc8d4291da15ca0a241c89656d568975d8893b45",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-007.yaml",
+        "id": "ARTIFACT-20260821-007",
+        "title": "Rational quartic as the first unresolved characteristic-zero benchmark",
+        "source_status": "literature_supported",
+        "sha256": "3e49ed2ccf7f534d79cfdc00d2413064c1594ae90b39e1c5945df40c35f071d3",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-008.yaml",
+        "id": "ARTIFACT-20260821-008",
+        "title": "Common and nonordinary singularities are a discriminating frontier",
+        "source_status": "speculative",
+        "sha256": "eafcc1ee690d3507fd916477c60f2e710836327a0d085ad72e690c7cda4f565a",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-009.yaml",
+        "id": "ARTIFACT-20260821-009",
+        "title": "Exact graded pieces of the Macaulay rational quartic ideal",
+        "source_status": "computationally_supported",
+        "sha256": "92bc7eb1cdce68ace68af6750905e89d254765d92fe9b83682199049fbdea5d0",
+        "imported": false
+      }
+    ]
+  },
+  {
+    "source_id": "space-curves-iii",
+    "artifact_count": 14,
+    "artifacts": [
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-001.json",
+        "id": "ARTIFACT-20260821-001",
+        "title": "Problem normalization and scope boundaries",
+        "source_status": "independently_checked",
+        "sha256": "c42c7ddb66636962d8abfc3cb0dfb110c2ab931655b0fd0737f96000e3196251",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-002.json",
+        "id": "ARTIFACT-20260821-002",
+        "title": "Universal three-equation baseline",
+        "source_status": "literature_supported",
+        "sha256": "ea0f7c94829a3c38a4a517ce3ed5744b8f72aaa31fc8c29d73e30be67e6966e9",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-003.json",
+        "id": "ARTIFACT-20260821-003",
+        "title": "Characteristic-p evidence is a comparison laboratory, not a transfer theorem",
+        "source_status": "literature_supported",
+        "sha256": "fe73a65de9eca0b103b2ea17d00ea4c29553d078634ac569baf7b9d447920aff",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-004.json",
+        "id": "ARTIFACT-20260821-004",
+        "title": "Two equations are a complete-intersection multiple structure supported on C",
+        "source_status": "literature_supported",
+        "sha256": "4f7c603c1102e330925348a2fe38da10a93ea32e402c16b2e9bdbc9c0c1ac60b",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-005.json",
+        "id": "ARTIFACT-20260821-005",
+        "title": "Exact codepth criterion and quasi-cyclicity obstruction",
+        "source_status": "literature_supported",
+        "sha256": "49444b2c8007de56262243439df1feefb167bda38bb456510562a39e51ec7fac",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-006.json",
+        "id": "ARTIFACT-20260821-006",
+        "title": "Containing-surface criterion via APic and affine complements",
+        "source_status": "literature_supported",
+        "sha256": "aaa1cfc1622048e2661b88ac60f7fa09ec6bfd30cad138f19031e52f6b40c996",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-007.json",
+        "id": "ARTIFACT-20260821-007",
+        "title": "Twisted cubic: verified two-equation certificate",
+        "source_status": "independently_checked",
+        "sha256": "e4ac575148c81145396e8d6d783fec42882d43f072a016a2b2cfbd3e95550a45",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-008.json",
+        "id": "ARTIFACT-20260821-008",
+        "title": "Rational quartic as the first unresolved laboratory",
+        "source_status": "literature_supported",
+        "sha256": "b4f96c504b3466ccff4f692dae0b77c6b40f9561e0fe737da35f68e36c88bff6",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-009.json",
+        "id": "ARTIFACT-20260821-009",
+        "title": "Smooth-along-C containing surfaces obey a numerical identity",
+        "source_status": "independently_checked",
+        "sha256": "76cdf82fb52f0db7f336859b04f91144d48fcaf6ac2eed8b6c5f2c60ed30e2ad",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-010.json",
+        "id": "ARTIFACT-20260821-010",
+        "title": "Initial research portfolio and bottleneck",
+        "source_status": "speculative",
+        "sha256": "d0a294376a4a47305bec5a0966e59c12f3dd0a659f5d55b9b3017063457e65a3",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-011.json",
+        "id": "ARTIFACT-20260821-011",
+        "title": "Natural quadric-cubic pairs for the rational quartic leave residual rulings",
+        "source_status": "independently_checked",
+        "sha256": "a40cf99862c043b505a5706da217228970810b782d3889b7f684a72dca6a44bf",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-012.json",
+        "id": "ARTIFACT-20260821-012",
+        "title": "The cuspidal cubic cone has a non-torsion conductor defect",
+        "source_status": "independently_checked",
+        "sha256": "f80f68f2c99087933a81a525e20de42f34a55c3c86fe31dd37eac840b6d295bd",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-013.json",
+        "id": "ARTIFACT-20260821-013",
+        "title": "The ruled cubic passes local torsion but fails global normalization proportionality",
+        "source_status": "independently_checked",
+        "sha256": "5d67b9694580310d87d1d418244ec3c1d13dd135b29ff24bff519438b7252167",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-014.json",
+        "id": "ARTIFACT-20260821-014",
+        "title": "A three-stage APic sieve and its mismatch with quotient codepth",
+        "source_status": "conditionally_derived",
+        "sha256": "6e6c3fd1c5fc4662db839711e1eca83306d99dec19aac282f9d1d802692dda00",
+        "imported": false
+      }
+    ]
+  },
+  {
+    "source_id": "space-curves-iv",
+    "artifact_count": 32,
+    "artifacts": [
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-001.yaml",
+        "id": "ARTIFACT-20260821-001",
+        "title": "Universal two-surface question for irreducible curves in P3",
+        "source_status": "literature_supported",
+        "sha256": "9342da1f7aa055b9d186e1fb73548d9baf2e683c037a229d5c1ee8a575da743d",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-002.yaml",
+        "id": "ARTIFACT-20260821-002",
+        "title": "Twisted cubic: an explicit non-strict but set-theoretic complete intersection",
+        "source_status": "independently_checked",
+        "sha256": "925aec0b900f4fd6cc087fe8a921f09783a8607d964462577ba19fa1c94f85ff",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-003.yaml",
+        "id": "ARTIFACT-20260821-003",
+        "title": "Two surfaces correspond to a complete-intersection multiple structure on C",
+        "source_status": "literature_supported",
+        "sha256": "4c5921f84e67a2317d0172832a740b7e6ae63026808145c83ce5e4946451a9ac",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-004.yaml",
+        "id": "ARTIFACT-20260821-004",
+        "title": "Smooth rational quartic as the first characteristic-zero stress test",
+        "source_status": "literature_supported",
+        "sha256": "490bdff6b9a740e6aa2e46e8cfddb684373e6fb5619d7d5d0afa7f2b38203a84",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-005.yaml",
+        "id": "ARTIFACT-20260821-005",
+        "title": "Primitive numerical candidates for the rational quartic",
+        "source_status": "computationally_supported",
+        "sha256": "f7f84d1060da73f9dbc69fe29f77de9b0c6e44c711f17665a2a7268490f4b4fc",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-006.yaml",
+        "id": "ARTIFACT-20260821-006",
+        "title": "Pure primitive numerical conditions cannot furnish a universal counterexample",
+        "source_status": "literature_supported",
+        "sha256": "8a5dcf7c0f40239aeabdbe76d3818044c96e57e33d239fc6238f222a9abd8c3b",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-007.yaml",
+        "id": "ARTIFACT-20260821-007",
+        "title": "Initial four-branch research portfolio",
+        "source_status": "speculative",
+        "sha256": "521edbb4c53be82ad738e9e5b5577e8a64d9c58fd3659753ae8f109a81969d90",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-008.yaml",
+        "id": "ARTIFACT-20260821-008",
+        "title": "Local cohomology and codepth formulation",
+        "source_status": "literature_supported",
+        "sha256": "5a06afbdb4dc51e35dd6955b5619fc197a9592402488ab0d4cfac0e7bd3a20b9",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260821-009.yaml",
+        "id": "ARTIFACT-20260821-009",
+        "title": "Severe or shared surface singularities are the current geometric escape hatch",
+        "source_status": "literature_supported",
+        "sha256": "e7d0dbd7b52018b5123c1d7bcc910b0289fdb749aba568fafd8c62e9b7d1503e",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-010.yaml",
+        "id": "ARTIFACT-20260822-010",
+        "title": "Two natural containing surfaces cannot certify the rational quartic",
+        "source_status": "independently_checked",
+        "sha256": "55c188cf0d66eab832cb0ea413ddd02a6ab6721df28a979f69e23fe5427850ca",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-011.yaml",
+        "id": "ARTIFACT-20260822-011",
+        "title": "The rational quartic displays a concrete coregularity compatibility gap",
+        "source_status": "literature_supported",
+        "sha256": "573fcb7586e8fad30d8bf6e205dacc196739570ac258aaf1c967ac04948d93d6",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-012.yaml",
+        "id": "ARTIFACT-20260822-012",
+        "title": "Can quotient coregularity for the rational quartic be lifted or obstructed?",
+        "source_status": "speculative",
+        "sha256": "633eed513a0f541422bcd8aee06e667d0c883722763f65ca0781090ee616a7eb",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-013.yaml",
+        "id": "ARTIFACT-20260822-013",
+        "title": "Exact low-degree ideal data and a cubic smooth along the rational quartic",
+        "source_status": "independently_checked",
+        "sha256": "5ab8e9d6e65488ef0767a52fe1f4ea3e0c12eb6d4252a5027a0ba568f2fd98fb",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-014.yaml",
+        "id": "ARTIFACT-20260822-014",
+        "title": "A hypothetical cubic--quartic certificate would force both surfaces to be singular on C4",
+        "source_status": "independently_checked",
+        "sha256": "d628d641f6e0f831cfea4f30cda1b4cfff7636748ef044a5a4dc471c40c97fe7",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-015.yaml",
+        "id": "ARTIFACT-20260822-015",
+        "title": "In characteristic zero, no cubic surface can occur in a certificate for C4",
+        "source_status": "literature_supported",
+        "sha256": "3e17de38569f30d81344bd2073f5cb595bc4a576ea8bddbe0f6ff1e7dc08be64",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-016.yaml",
+        "id": "ARTIFACT-20260822-016",
+        "title": "A degree-(4,5) complete-intersection structure on C4 cannot be primitive",
+        "source_status": "independently_checked",
+        "sha256": "c5f9862708fb1b4ae5e4738fa5e83c58a9ca02b2c91f680d78ab9271785544f2",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-017.yaml",
+        "id": "ARTIFACT-20260822-017",
+        "title": "The next recorded low-degree frontier is a nonprimitive (4,5) shared-singularity problem",
+        "source_status": "conditionally_derived",
+        "sha256": "61af72755c76e89cd0ec3040a9e112936e56377f7eeb79cc77b3596a3c9ee74e",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-018.yaml",
+        "id": "ARTIFACT-20260822-018",
+        "title": "Common singularity for quartic--quintic pairs is a large first-order incidence condition",
+        "source_status": "independently_checked",
+        "sha256": "148a4a653b63ca8d5f6b18ed81eef2d01ac5c78280c586d41f9fc36f8254e632",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-019.yaml",
+        "id": "ARTIFACT-20260822-019",
+        "title": "Bare shared-singularity counting cannot exclude a quartic--quintic certificate",
+        "source_status": "independently_checked",
+        "sha256": "79b8a0a35f8c344e55edf6fc9f174b3bbb17dc437495a8258f2dc9f82a7143e9",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-020.yaml",
+        "id": "ARTIFACT-20260822-020",
+        "title": "The thick degree-(4,5) branch is impossible for C4",
+        "source_status": "independently_checked",
+        "sha256": "92aceb742ae1d9cff147c6b969448f5d13d00367cc459830f54f5bc3537699bd",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-021.yaml",
+        "id": "ARTIFACT-20260822-021",
+        "title": "A quasi-primitive degree-(4,5) structure has only two possible total defect degrees",
+        "source_status": "conditionally_derived",
+        "sha256": "b266eaa2284289bce6663d212a75f36ee5b51459934d438c622cde5053471487",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-022.yaml",
+        "id": "ARTIFACT-20260822-022",
+        "title": "A shared singularity has quadratic tangent-cone pencil u times <u,v>",
+        "source_status": "independently_checked",
+        "sha256": "185fa725c3c860afa30ee132c55a96af6cab139b750dad81b045b632c8e8c759",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-023.yaml",
+        "id": "ARTIFACT-20260822-023",
+        "title": "The quintic conormal map is surjective; the quartic conormal map has a three-dimensional cokernel",
+        "source_status": "independently_checked",
+        "sha256": "b6ee41a4f0a121b7a2e2a96b43e51e33d3455677d47e7995ba030414c4b748ee",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-024.yaml",
+        "id": "ARTIFACT-20260822-024",
+        "title": "Generic conormal proportionality is necessary, but multiplicity five is a fifth-order residual condition",
+        "source_status": "independently_checked",
+        "sha256": "b78152753cf9ec42cc0cddbfce36e9bc16d6f4cdffef157b75be86f6c5a8fe45",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-025.yaml",
+        "id": "ARTIFACT-20260822-025",
+        "title": "A degree-(4,5) certificate would force the quartic surface--curve type p1 into {8,9}",
+        "source_status": "conditionally_derived",
+        "sha256": "aadf543461ddbdaaf247b21bda6bffa51039d8cfed9db0c6db24d55bfc01b495",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-026.yaml",
+        "id": "ARTIFACT-20260822-026",
+        "title": "The quasi-primitive defect budgets predict extremal surface-type contributions",
+        "source_status": "conditionally_derived",
+        "sha256": "af1882f589b644905dc367590928b2e2486a48fb9e220bd38459b51086cdc18a",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-027.yaml",
+        "id": "ARTIFACT-20260822-027",
+        "title": "Generic extremal quartic singularity divisors force the excluded quadric factor",
+        "source_status": "computationally_supported",
+        "sha256": "b83f42a9bb7b95b1bf5817d66caef829fd21fea3a177a189037809ab814bbb5d",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-028.yaml",
+        "id": "ARTIFACT-20260822-028",
+        "title": "Determinantal affine chart for non-quadric extremal quartic conormal divisors",
+        "source_status": "independently_checked",
+        "sha256": "35b84b3fad8c1898d93416a84db2c182d42a064913d7fb8bc779dcef20f46318",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-029.yaml",
+        "id": "ARTIFACT-20260822-029",
+        "title": "The explicit ordinary-node exceptional quartics fail the second type budget",
+        "source_status": "independently_checked",
+        "sha256": "0f169905d0f7386e653123b8f7860c340356eba075858d5989963358352dbccc",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-030.yaml",
+        "id": "ARTIFACT-20260822-030",
+        "title": "A surviving degree-(4,5) quartic must lie beyond the ordinary-node exceptional locus",
+        "source_status": "conditionally_derived",
+        "sha256": "0471ab5fd63eaa3b20350f6fdc2a3ef5acc7eb17ccded240ad84e174efa56b41",
+        "imported": false
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-031.yaml",
+        "id": "ARTIFACT-20260822-031",
+        "title": "A fivefold first-conormal collision with local pair A_{9,5}",
+        "source_status": "independently_checked",
+        "sha256": "347ea376b0d8600414568afb5689a525b0c760cbff30d377dd7cacb37990628d",
+        "imported": true
+      },
+      {
+        "path": "research-state/artifacts/ARTIFACT-20260822-032.yaml",
+        "id": "ARTIFACT-20260822-032",
+        "title": "Coalescing first-conormal zeros does not by itself supply positive p2",
+        "source_status": "independently_checked",
+        "sha256": "4cc7dd4612e755e783ff4234bef756b5fb8da49bf29d7b58a02a450352d625d1",
+        "imported": true
+      }
+    ]
+  },
+  {
+    "source_id": "space-curves-v",
+    "artifact_count": 6,
+    "artifacts": [
+      {
+        "path": "research/artifacts/space-curve-stci/ARTIFACT-20260823-001-literature-baseline.md",
+        "id": "ARTIFACT-20260823-001",
+        "title": "Literature baseline and frontier selection",
+        "source_status": "active",
+        "sha256": "e9da6d9710d4341628f663ec13cc7280a0f8ecef8c663d99f24202196ec802b5",
+        "imported": false
+      },
+      {
+        "path": "research/artifacts/space-curve-stci/ARTIFACT-20260823-002-rational-quartic-normal-data.md",
+        "id": "ARTIFACT-20260823-002",
+        "title": "Exact graded and first-normal data for the monomial rational quartic",
+        "source_status": "active",
+        "sha256": "3b16347113979b47f2cbcdbe9316d7f0f0baa19d48187d4da8e6e50de73578f1",
+        "imported": false
+      },
+      {
+        "path": "research/artifacts/space-curve-stci/ARTIFACT-20260823-003-quartic-septic-contact.md",
+        "id": "ARTIFACT-20260823-003",
+        "title": "Closing an explicit quartic-septic contact construction",
+        "source_status": "active",
+        "sha256": "bdc04a9c070f255b7aa730446e45c1e6cf3a0614eadba5277627ea299a72e70c",
+        "imported": false
+      },
+      {
+        "path": "research/artifacts/space-curve-stci/ARTIFACT-20260823-004-isolated-quartic-singularities.md",
+        "id": "ARTIFACT-20260823-004",
+        "title": "Singularity classification of the isolated member `F1+F2`",
+        "source_status": "active",
+        "sha256": "692d776f91e03c29a219d11242e9ce7bf3be4cdf7a1db01f850f68ceb2cd6a71",
+        "imported": false
+      },
+      {
+        "path": "research/artifacts/space-curve-stci/ARTIFACT-20260823-005-exceptional-locus-resource-test.md",
+        "id": "ARTIFACT-20260823-005",
+        "title": "Brute-force exceptional-locus routes exceed the useful local cost",
+        "source_status": "active",
+        "sha256": "46336eef77a5b0ccefbdcf7b944763c10f96f863cf93c7cdbb8e5877224026e0",
+        "imported": false
+      },
+      {
+        "path": "research/artifacts/space-curve-stci/ARTIFACT-20260823-006-modular-contact-probe.md",
+        "id": "ARTIFACT-20260823-006",
+        "title": "Modular probes of selected contact minors",
+        "source_status": "active",
+        "sha256": "fbff33e5c93ddd28a4e18d482d3ca1d740eef76e38ed4b001803c5166cb45be7",
+        "imported": false
+      }
+    ]
+  },
+  {
+    "source_id": "space-curves-vi",
+    "artifact_count": 18,
+    "artifacts": [
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-001-defining-pair-regime-audit.md",
+        "id": "ARTIFACT-20260823-001-defining-pair-regime-audit",
+        "title": "First intervention: exhaustive defining-pair regime audit",
+        "source_status": null,
+        "sha256": "51d02c4d22c47753e7eca353e1bf5893e670e6910b7d059dc9106002c5338683",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-002-thick-pair-refinement.md",
+        "id": "ARTIFACT-20260823-002-thick-pair-refinement",
+        "title": "Second intervention: derived thick pairs, transverse resultants, and the global gap",
+        "source_status": null,
+        "sha256": "4436118513c3ae8fa05867897a77813b61ae077e85b91d687022b00bc3839666",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-003-surface-threshold-second-resultant.md",
+        "id": "ARTIFACT-20260823-003-surface-threshold-second-resultant",
+        "title": "Third intervention: surface-effective thresholds and the second normal resultant",
+        "source_status": null,
+        "sha256": "d7f3687fc7700fcfc8ac4f16c736870abac5cb1b1260ba7fb8b03f880a721943",
+        "imported": true
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-004-branched-multisection-resultant.md",
+        "id": "ARTIFACT-20260823-004-branched-multisection-resultant",
+        "title": "Fourth intervention: the branched multisection resultant",
+        "source_status": null,
+        "sha256": "a6eccb4a617c4a7d5f2fc96e05c3e46c1a408e0df24c16da1dd06dcc6050ed2a",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-005-contact-depth-and-quadric-families.md",
+        "id": "ARTIFACT-20260823-005-contact-depth-and-quadric-families",
+        "title": "Fifth intervention: contact depth and unbalanced quadric families",
+        "source_status": null,
+        "sha256": "a783430a78db70848c03a733b29cd74241fdb2dd56324982fc104bfd7b35c4db",
+        "imported": true
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-006-nonthick-normalization-jaffe-burden.md",
+        "id": "ARTIFACT-20260823-006-nonthick-normalization-jaffe-burden",
+        "title": "Sixth intervention: non-thick normalization and vertical singularity burden",
+        "source_status": null,
+        "sha256": "41d4588e7268857c6142510c1572a62c420a8686db5fa6f1500551f25e719652",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-007-extremal-binomial-apic-descent.md",
+        "id": "ARTIFACT-20260823-007-extremal-binomial-apic-descent",
+        "title": "Seventh intervention: conductor descent on the extremal binomial surface",
+        "source_status": null,
+        "sha256": "ec174e43cc254208c4d5c364ad8c31d9bb671c9b3b20c8fd4b4dfe9c559af12d",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-008-vertical-type-persistence.md",
+        "id": "ARTIFACT-20260823-008-vertical-type-persistence",
+        "title": "Eighth intervention: vertical type persistence beyond the first conormal divisor",
+        "source_status": null,
+        "sha256": "4e5c4e88923ea7ea6ccd504c48c8b9f9337c4cc861217b65605f368db314a896",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-009-recursive-vertical-bundle-budget.md",
+        "id": "ARTIFACT-20260823-009-recursive-vertical-bundle-budget",
+        "title": "Ninth intervention: recursive vertical normal-bundle budget",
+        "source_status": null,
+        "sha256": "ccc09989b92b14a79233b633df03874f25a9e32928efce350da8a6ba58a1f167",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260823-010-horizontal-recurrence-boundary.md",
+        "id": "ARTIFACT-20260823-010-horizontal-recurrence-boundary",
+        "title": "Tenth intervention: boundary of a horizontal thick recurrence",
+        "source_status": null,
+        "sha256": "8162be8b60b47c9098702ee9ab82eefed62ab4ade49ca07b33d044f972aabbb6",
+        "imported": true
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260906-011-finite-normal-jet-certificate.md",
+        "id": "ARTIFACT-20260906-011-finite-normal-jet-certificate",
+        "title": "A finite normal-jet certificate for a fixed pair of surface degrees",
+        "source_status": null,
+        "sha256": "579fd423406fa572c407511a728f60184065d3a550806300ec1248b3744074dd",
+        "imported": true
+      },
+      {
+        "path": "state/artifacts/integrated/ARTIFACT-20260906-012-global-coefficients-and-frobenius.md",
+        "id": "ARTIFACT-20260906-012-global-coefficients-and-frobenius",
+        "title": "Global coefficients and Frobenius: two exact tests of the jet formulation",
+        "source_status": null,
+        "sha256": "09ca760563ecafb1d7827365da7c6ee1c1433b31bfc7bbe23683bc21753c0e7f",
+        "imported": true
+      },
+      {
+        "path": "state/artifacts/integrated/WORKER-20260823-jaffe-contact-depth-audit.md",
+        "id": "WORKER-20260823-jaffe-contact-depth-audit",
+        "title": "Bounded primary-source audit: Jaffe type versus generic contact depth",
+        "source_status": null,
+        "sha256": "a22ba799f8a5b8d8f5030091d4c8480c7240e6c7c4c1b408ce96e64adf067a1d",
+        "imported": true
+      },
+      {
+        "path": "state/artifacts/integrated/WORKER-20260823-thick-complete-intersection-literature-audit.md",
+        "id": "WORKER-20260823-thick-complete-intersection-literature-audit",
+        "title": "Provisional worker audit: thick complete-intersection structures on a smooth space curve",
+        "source_status": null,
+        "sha256": "3c50599da6bf40a74791021d85dde7ae191e7a869f4603f7eb5c19a4eb13b046",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/provisional/WORKER-20260823-jaffe-contact-depth-audit.md",
+        "id": "WORKER-20260823-jaffe-contact-depth-audit",
+        "title": "Bounded primary-source audit: Jaffe type versus generic contact depth",
+        "source_status": null,
+        "sha256": "a22ba799f8a5b8d8f5030091d4c8480c7240e6c7c4c1b408ce96e64adf067a1d",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/provisional/WORKER-20260823-thick-complete-intersection-literature-audit.md",
+        "id": "WORKER-20260823-thick-complete-intersection-literature-audit",
+        "title": "Provisional worker audit: thick complete-intersection structures on a smooth space curve",
+        "source_status": null,
+        "sha256": "3c50599da6bf40a74791021d85dde7ae191e7a869f4603f7eb5c19a4eb13b046",
+        "imported": false
+      },
+      {
+        "path": "state/artifacts/provisional/WORKER-20260906-finite-jet-audit.md",
+        "id": "WORKER-20260906-finite-jet-audit",
+        "title": "Independent audit of a finite normal-jet STCI criterion",
+        "source_status": null,
+        "sha256": "5b0ddfd4fe227b8f4ce54b1c5477712e464d1e366d54071b8307e6c65e5808f4",
+        "imported": true
+      },
+      {
+        "path": "state/artifacts/provisional/WORKER-20260906-landscape-refresh.md",
+        "id": "WORKER-20260906-landscape-refresh",
+        "title": "Provisional landscape refresh: global STCI criteria and scope checks",
+        "source_status": null,
+        "sha256": "40db696e1f15a8a60df9566612229cd5e30139ef7430370e95542b9efbcf13ec",
+        "imported": false
+      }
+    ]
+  }
+]

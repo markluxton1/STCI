@@ -1,0 +1,48 @@
+event_id: EVENT-20260821-019
+timestamp: "2026-08-21T18:02:39-04:00"
+agent_id: /root/vahlen_smooth_cubic_verification
+role: skeptical-mathematical-critic
+event_type: verification
+
+related_move: MOVE-20260821-009
+related_task: /root/vahlen_smooth_cubic_verification
+related_artifacts: [ARTIFACT-20260821-012, ARTIFACT-20260821-014, ARTIFACT-20260821-015]
+related_literature_searches: [LITSEARCH-20260821-007]
+related_frames: [FRAME-20260821-002]
+related_reconstructions: []
+
+summary: "Independently verified the smooth-cubic Weyl-orbit theorem and its exact quantifier scope."
+rationale: >-
+  ARTIFACT-20260821-014 materially closes a whole low-degree branch and therefore
+  required a fresh derivation, finite re-enumeration, and aggressive audit of
+  hidden irreducibility and surface-smoothness assumptions before promotion.
+evidence:
+  - "Fresh adjunction and local-intersection argument, qualified to irreducible C distinct from every line."
+  - "Explicit quadratic change between actual six-line blow-down markings and decreasing-integer termination."
+  - "Analytic bound 2<=a<=5 and independent exhaustive enumeration of every integer solution."
+  - "Direct enumeration of the 27 line intersections as 0^5,1^6,2^10,3^5,4^1."
+  - "Primary-source check of the Vahlen class on one nonsingular cubic, making the fixed curve smooth by arithmetic genus zero."
+outcome: >-
+  The theorem is independently checked in algebraically closed characteristic
+  zero: every smooth cubic containing the fixed smooth Vahlen quintic has five
+  lines disjoint from the curve and hence non-affine complement. The only
+  correction is a scope warning, not a flaw in the candidate proof: arbitrary
+  reducible effective divisors need not meet every line nonnegatively, and
+  singular rational quintics or singular cubic surfaces are not covered.
+
+artifact_transition:
+  artifact_id: ARTIFACT-20260821-014
+  fields_changed: [epistemic_status, "scope interpretation"]
+  prior_epistemic_status: candidate_proof
+  new_epistemic_status: independently_checked
+  prior_lifecycle_status: active
+  new_lifecycle_status: active
+  prior_interpretation: "A uniform smooth-cubic theorem supported by one candidate derivation."
+  new_interpretation: >-
+    An independently verified theorem for smooth irreducible rational
+    degree-five curves on smooth cubic surfaces, applied separately to every
+    smooth cubic containing Vahlen's fixed smooth curve; no singular-cubic or
+    arbitrary-effective-divisor extension is implied.
+  change_reason: "Independent reconstruction and finite enumeration in ARTIFACT-20260821-015 found no logical gap and isolated the exact necessary qualifications."
+  supporting_artifacts: [ARTIFACT-20260821-015]
+  supporting_sources: [LIT-20260821-031]

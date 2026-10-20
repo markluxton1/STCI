@@ -1,0 +1,185 @@
+id: ARTIFACT-20260821-014
+type: theorem
+title: "Every smooth cubic containing Vahlen's rational quintic has non-affine complement"
+content: >-
+  Let k be algebraically closed and let C be a smooth rational quintic in P3.
+  If X is any smooth cubic surface containing C, then the divisor class of C on
+  X is Weyl-equivalent to (2;1,0,0,0,0,0). Consequently X contains exactly five
+  of its 27 lines disjoint from C, so X minus C is not affine. This is an
+  all-smooth-cubic statement: it does not depend on using the particular cubic
+  surface displayed by Hartshorne--Polini. Applied to Vahlen's quintic, it
+  closes the entire smooth-cubic branch of Question 7.5, while leaving singular
+  cubics and surfaces of degree at least four open.
+
+epistemic_status: independently_checked
+lifecycle_status: active
+significance: >-
+  Promotes the known-model obstruction in ARTIFACT-20260821-012 to a uniform
+  low-degree exclusion. The first potentially affine cubic complement for
+  Vahlen's quintic must be singular; repeating the calculation on another smooth
+  cubic cannot answer the open affine-complement question.
+assumptions:
+  - "The ground field is algebraically closed. Characteristic zero is sufficient, although the lattice proof itself uses no characteristic-zero theorem beyond the standard smooth-cubic description."
+  - "C is smooth, irreducible, rational, and has degree 5 in the anticanonical embedding of the smooth cubic X."
+  - "A smooth cubic surface is used with a marking X = Bl_{p1,...,p6}(P2), H=-K_X=(3;1^6); changing the marking acts through the usual E6 Weyl transformations."
+support:
+  - "Self-contained adjunction, Weyl-reduction, and finite arithmetic argument recorded below."
+  - "Hartshorne--Polini, Example 7.10(2)--(3), supplies the Vahlen curve, one smooth cubic model, its quadrisecant, and a second cubic member."
+  - "Nakai--Moishezon on a smooth projective surface and the standard fact that the complement of an effective ample divisor is affine."
+source_material: [ARTIFACT-20260821-012, LIT-20260821-031, LITSEARCH-20260821-007]
+
+theorem_statement:
+  hypotheses: >-
+    X is a smooth cubic surface over an algebraically closed field and C is a
+    smooth irreducible rational curve on X with H.C=5, where H=-K_X is the
+    hyperplane class.
+  conclusion: >-
+    There is a blow-down marking of X for which C=(2;1,0^5). In that marking the
+    five exceptional lines E2,...,E6 are disjoint from C. Hence C is not ample
+    and X minus C is not affine.
+  quantifier_scope: >-
+    The conclusion holds separately for every smooth cubic X containing C. It
+    asserts Weyl-orbit invariance of the Picard class, not equality of coordinate
+    classes under a fixed marking and not constancy of the five disjoint lines as
+    X varies.
+
+proof:
+  intrinsic_numerics: >-
+    Adjunction gives -2=2p_a(C)-2=C.(C+K_X)=C^2-H.C=C^2-5, hence C^2=3.
+    In any marking write C=aL-sum_i b_i E_i. Since C is distinct from every
+    line on X, it has nonnegative intersection with every line. In particular
+    b_i=C.E_i>=0 and a-b_i-b_j=C.(L-E_i-E_j)>=0. The degree and square equations
+    are sum_i b_i=3a-5 and sum_i b_i^2=a^2-3.
+  weyl_reduction: >-
+    Reorder so b1>=...>=b6>=0. If b1+b2+b3>a, change the blow-down marking by
+    the standard quadratic transformation based at p1,p2,p3. The new leading
+    coefficient is a'=2a-b1-b2-b3<a and the three new multiplicities are
+    a-b2-b3, a-b1-b3, a-b1-b2; they are nonnegative by the line-intersection
+    inequalities. This transformation preserves H.C and C^2 and permutes the
+    27 line classes. Reordering and iterating terminates, giving a marking with
+    a>=b1+b2+b3 and b1>=...>=b6>=0.
+  arithmetic_classification: >-
+    Put S=sum b_i. In the reduced marking, b4+b5+b6<=3b3<=b1+b2+b3<=a,
+    so S<=2a. Since S=3a-5, one has 2<=a<=5. The square equation leaves only
+    the following elementary cases. For a=2, S=1 and sum b_i^2=1, giving
+    (b_i)=(1,0^5). For a=3, sum b_i(b_i-1)=2, so the only partition is
+    (2,1,1,0^3), whose first three entries sum to 4>3. For a=4 that same
+    difference is 6, giving either (3,1,1,1,1,0) or (2,2,2,1,0,0), both
+    violating the reduced inequality. For a=5 the difference is 12, giving
+    either (3,3,1,1,1,1) or (3,2,2,2,1,0); the apparent b1=4 option cannot
+    reach total sum 10 in the remaining five 0-or-1 entries. Both actual
+    partitions again have first-three sum greater than 5. Thus the unique
+    reduced class is C=(2;1,0^5).
+  nonaffineness: >-
+    In the reduced marking C.E_i=0 for i=2,...,6. These five exceptional lines
+    are complete closed curves contained in X minus C. A positive-dimensional
+    proper scheme cannot be a closed subscheme of an affine finite-type scheme.
+    Therefore X minus C is not affine.
+
+affineness_criterion_audit:
+  exact_statement_used: >-
+    If D is an irreducible curve with D^2>0 on a smooth projective surface S,
+    then S minus D is affine if and only if D is ample, equivalently if and only
+    if no complete curve on S is disjoint from D.
+  justification: >-
+    If S minus D is affine, it contains no complete curve, so every irreducible
+    curve B distinct from D meets D and D.B>0. Together with D^2>0,
+    Nakai--Moishezon makes D ample. Conversely the complement of the support of
+    an effective ample divisor is affine. This positive-self-intersection
+    argument is sufficient here and avoids importing a stronger boundary
+    theorem with unnecessary hypotheses.
+
+line_incidence_consequence:
+  distribution: >-
+    In the reduced marking the intersections of C with the 27 lines have
+    multiplicities 0^5, 1^6, 2^10, 3^5, 4^1. The unique line meeting C four
+    times has class (2;0,1^5), so for Vahlen's curve it is the fixed unique
+    quadrisecant G. The five zero-intersection lines are E2,...,E6.
+  conceptual_relation: >-
+    The quadrisecant and the non-affineness obstruction are two faces of the same
+    Weyl orbit. The conspicuous line G is not itself the obstruction because
+    G minus C is not complete; the orbit simultaneously forces five other lines
+    that are disjoint from C and are the actual obstruction.
+
+cubic_member_audit:
+  irreducibility: >-
+    Vahlen's C lies on no plane and no quadric. For a plane this is immediate on
+    a smooth cubic model because H-C would have negative H-degree. If a quadric
+    contained C, its residual divisor on that model would have class 2H-C,
+    degree 1, and square -5; but every nonzero effective degree-one divisor on a
+    smooth cubic is a line and has square -1. Hence no such quadric exists. Since
+    C is integral, a reducible cubic polynomial vanishing on C would have a
+    linear or quadratic factor vanishing on C. Therefore every cubic surface
+    containing C is irreducible and reduced.
+  smooth_members: >-
+    Hartshorne--Polini supply at least one smooth cubic member, so smooth members
+    form a nonempty open subset of the projective cubic linear system. Every one
+    of them is covered by the theorem above.
+  singular_members: >-
+    Hartshorne--Polini also supply a distinct second cubic member. The pencil
+    they span meets the discriminant hypersurface of singular cubics over an
+    algebraically closed field, while it is not contained in that discriminant
+    because one member is smooth. Thus singular irreducible cubic members do
+    exist. Every cubic member contains the quadrisecant G, because its
+    restriction to G has degree 3 but vanishes on the length-four scheme C cap G.
+  exact_remaining_gap: >-
+    The proof does not extend to a singular cubic: C need not be Cartier there,
+    adjunction and the smooth E6 Picard lattice are unavailable in this form,
+    and the five disjoint lines may degenerate or disappear. The known
+    quadrisecant is not a complete curve in the complement. Therefore the
+    singular-cubic branch is a genuine nonempty structural remainder, not a
+    technical omission inside the smooth classification.
+
+hidden_assumption_audit:
+  - "No uniqueness of the containing smooth cubic is assumed; the Weyl reduction is repeated intrinsically on each smooth member."
+  - "The argument proves uniqueness only of the Weyl orbit of C, not projective equivalence of pairs (X,C)."
+  - "The five disjoint lines can vary with X; no simultaneous family of those lines is asserted."
+  - "The complement obstruction comes from complete disjoint lines, not from the quadrisecant G."
+  - "No conclusion is drawn for singular cubic surfaces, reducible ambient surfaces of higher degree, or surfaces of degree at least four."
+  - "The assertion that all cubic members are irreducible uses the fixed curve's absence from every plane or quadric, verified on one smooth cubic model."
+  - "The discriminant-pencil argument establishes existence of singular members but does not classify their singularities or determine their complements."
+
+research_implications:
+  - "Remove all smooth cubic surfaces from the Vahlen affine-complement search."
+  - "If cubic degree is retained, the next bounded problem is the normalization and boundary geometry of singular irreducible cubic members containing C union G."
+  - "Before a substantial singular-cubic classification, check literature on affine complements in normal and nonnormal cubic surfaces and on pencils through rational quintics."
+  - "A computationally useful target is the discriminant stratification of the explicit cubic linear system, but any output must keep normal, nonnormal, and singular-along-C cases separate."
+uncertainties:
+  - "The proof has been produced by the assigned skeptical critic but has not yet received a second independent reconstruction; candidate_proof is therefore retained."
+  - "The scheme structure and singularity types of the singular cubic members have not been computed."
+  - "No novelty claim is made for the Weyl-orbit lemma; the focused literature check was about hypotheses and did not exhaust classical cubic-surface literature."
+
+relations:
+  - type: generalizes
+    target: ARTIFACT-20260821-012
+    explanation: "Extends the one displayed smooth-cubic obstruction to every smooth cubic containing the curve."
+    confidence: high
+  - type: supports
+    target: ARTIFACT-20260821-005
+    explanation: "Closes one controlled all-surface subbranch while confirming that fixed-surface methods still leave singular and higher-degree surfaces."
+    confidence: high
+  - type: derived_from
+    target: LIT-20260821-031
+    explanation: "Uses the source's Vahlen data and complement question, but the uniform Weyl-orbit argument is derived here."
+    confidence: high
+conceptual_neighborhoods: [NEIGHBORHOOD-20260821-004, NEIGHBORHOOD-20260821-005]
+history_events: [EVENT-20260821-017, EVENT-20260821-019]
+
+provenance:
+  created_by: /root/vahlen_cubic_critic
+  created_at: "2026-08-21T00:00:00-04:00"
+  task_id: MOVE-20260821-008
+  input_artifacts: [ARTIFACT-20260821-005, ARTIFACT-20260821-012, FRAME-20260821-002, NEIGHBORHOOD-20260821-004, LIT-20260821-031]
+  context_projection: "Task-specific smooth-cubic projection; omitted state may contain other surface regimes."
+  objective: "Determine whether non-affineness is uniform over all smooth cubic surfaces containing Vahlen's quintic."
+  method: "Independent adjunction and E6/Weyl-lattice reduction, affineness-criterion audit, and reducibility/discriminant audit of the cubic linear system."
+  reasoning_summary: >-
+    Degree 5 and genus 0 force square 3. Nefness against the 27 lines permits a
+    decreasing Cremona reduction, and the reduced degree-square equations have
+    the unique solution (2;1,0^5). Five disjoint lines then force non-affineness
+    on every smooth member. The remaining cubic branch is both singular and
+    nonempty.
+  computation_or_external_sources:
+    - "https://arxiv.org/html/1907.05472"
+    - "https://annals.math.princeton.edu/1969/89-1/p09"
+    - "https://msp.org/pjm/1969/31-3/pjm-v31-n3-p06-p.pdf"

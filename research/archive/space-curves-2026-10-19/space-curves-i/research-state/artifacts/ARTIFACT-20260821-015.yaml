@@ -1,0 +1,167 @@
+id: ARTIFACT-20260821-015
+type: theorem
+title: "Independent verification: smooth rational quintics on smooth cubic surfaces have five disjoint lines"
+content: >-
+  Independently of ARTIFACT-20260821-014's derivation, let X be a smooth cubic
+  surface over an algebraically closed field of characteristic zero, let
+  H=-K_X be its hyperplane class, and let C be a smooth irreducible rational
+  curve with H.C=5. Then C^2=3 and, after changing a blow-down marking of X,
+  C has class (2;1,0,0,0,0,0). In that marking exactly the five mutually
+  disjoint exceptional lines E2,...,E6 are disjoint from C. They are complete
+  closed curves in X minus C, so X minus C is not affine. The proof verifies
+  the core theorem and the all-smooth-containing-cubics quantifier in
+  ARTIFACT-20260821-014. It does not cover singular rational quintics,
+  singular cubic surfaces, or arbitrary effective divisors having a line
+  component.
+
+epistemic_status: independently_checked
+lifecycle_status: active
+significance: >-
+  This closes the smooth-cubic branch of the affine-complement search for the
+  fixed Vahlen quintic without relying on one chosen cubic model. It also gives
+  a uniform statement for every smooth rational degree-five curve lying on a
+  smooth cubic. The singular-cubic and degree-at-least-four branches remain
+  untouched.
+assumptions:
+  - "The verified scope is an algebraically closed field of characteristic zero. The lattice calculation is characteristic-free once the standard six-line blow-down marking of a smooth cubic is available."
+  - "C is smooth, irreducible, rational, and H.C=5. Smoothness and irreducibility are essential to the line-intersection and adjunction steps as stated."
+  - "A marking writes Pic(X)=ZL plus direct sum_i ZE_i with H=3L-sum_i E_i and intersection form diag(1,-1^6)."
+support:
+  - "Independent adjunction, intersection-theoretic, Cremona-reduction, and finite integer classification given below."
+  - "A separate exhaustive integer enumeration over the analytically bounded range 2<=a<=5 reproduced exactly the listed partitions."
+  - "Hartshorne--Polini's primary text, already recorded as LIT-20260821-031, identifies Vahlen's integral rational quintic on one nonsingular cubic with class (2;1,0^5)."
+source_material: [ARTIFACT-20260821-012, ARTIFACT-20260821-013, ARTIFACT-20260821-014, LIT-20260821-031, LITSEARCH-20260821-007]
+
+independent_reconstruction:
+  adjunction_and_line_intersections: >-
+    Adjunction gives -2=C.(C+K_X)=C^2-H.C, hence C^2=3. Choose any
+    six-line blow-down marking X=Bl_{p1,...,p6}(P2), and write
+    C=aL-sum_i b_i E_i. The 27 lines have classes E_i,
+    L-E_i-E_j, and 2L-sum_{j different from i}E_j. The degree-five
+    hypothesis rules out C itself being a line. Since C is irreducible, it has
+    no common component with any line; its intersection with each line is
+    therefore a sum of nonnegative local intersection multiplicities. In
+    particular b_i>=0 and a-b_i-b_j>=0. This conclusion would be false for an
+    arbitrary reducible effective divisor containing a line, so the
+    irreducibility and degree qualifications cannot be dropped. The numerical
+    equations are sum_i b_i=3a-5 and sum_i b_i^2=a^2-3.
+
+  marking_change_and_termination: >-
+    Reorder the exceptional curves so b1>=...>=b6>=0. If
+    T=b1+b2+b3>a, use the standard quadratic change of marking with
+    L'=2L-E1-E2-E3, E1'=L-E2-E3, E2'=L-E1-E3,
+    E3'=L-E1-E2, and Ei'=Ei for i>=4. These are six mutually disjoint
+    lines and hence give another actual blow-down marking. In the new marking
+    the same curve has coefficients a'=2a-T,
+    b1'=a-b2-b3, b2'=a-b1-b3, b3'=a-b1-b2, and bi'=bi for i>=4.
+    Each new b_i is nonnegative because it is the intersection of C with a
+    new exceptional line (equivalently, by the displayed pair-line
+    inequalities). The transformation is the reflection in
+    L-E1-E2-E3, so it preserves H.C and C^2 and permutes the 27 line classes.
+    Moreover a'<a. In every marking 3a-sum b_i=5 with b_i>=0 forces a>=2;
+    thus the positive integer a decreases only finitely often. After
+    reordering at each step the process terminates with
+    a>=b1+b2+b3 and b1>=...>=b6>=0.
+
+  finite_classification: >-
+    In a reduced marking, b4+b5+b6<=3b3<=b1+b2+b3<=a, so
+    S=sum b_i<=2a. Since S=3a-5 and S>=0, one gets 2<=a<=5. Exhausting the
+    two equations for nonnegative ordered b_i gives: a=2:
+    (1,0,0,0,0,0), reduced; a=3: (2,1,1,0,0,0), not reduced; a=4:
+    (3,1,1,1,1,0) and (2,2,2,1,0,0), neither reduced; a=5:
+    (3,3,1,1,1,1) and (3,2,2,2,1,0), neither reduced. For example this list
+    follows by using sum_i b_i(b_i-1)=a^2-3-(3a-5), whose values are
+    0,2,6,12 for a=2,3,4,5, respectively. The apparent a=5 possibility with
+    one entry 4 has remaining sum 6 but only five remaining 0-or-1 entries,
+    so it cannot satisfy the equations. Hence (2;1,0^5) is the unique reduced
+    class.
+
+  line_enumeration_and_affineness: >-
+    For C=2L-E1, its intersections with the 27 lines have distribution
+    0^5, 1^6, 2^10, 3^5, 4^1. Explicitly the zero-intersection lines are
+    exactly E2,...,E6; they are mutually disjoint as well as disjoint from C.
+    If U=X minus C were affine, each E_i would be a closed affine subscheme of
+    U. But E_i is a positive-dimensional proper curve (indeed P1), whereas a
+    finite-type k-scheme that is both affine and proper is finite over k. Thus
+    even one such line contradicts affineness. No converse affine-boundary
+    theorem or Nakai--Moishezon argument is needed for this implication.
+
+quantifier_and_scope_audit:
+  vahlen_application: >-
+    The primary source calls Vahlen's curve a rational quintic and realizes the
+    fixed integral curve on one nonsingular cubic in class (2;1,0^5). That
+    class has arithmetic genus zero by adjunction. An integral curve of
+    arithmetic genus zero is nonsingular, so smoothness is intrinsic and the
+    theorem applies anew on every other smooth cubic surface containing the
+    same embedded curve.
+  exact_uniform_statement: >-
+    For every pair (X,C) with X a smooth cubic and C a smooth irreducible
+    rational curve of anticanonical degree five, the class of C lies in the
+    single Weyl orbit of (2;1,0^5). Thus the result is stronger than a statement
+    about Vahlen's named example. It does not assert that every smooth rational
+    quintic in P3 lies on a cubic, that the five lines are fixed as X varies,
+    or that singular cubic members have non-affine complement.
+  terminology_warning: >-
+    "Every smooth cubic containing Vahlen's rational quintic" is correct for
+    the fixed smooth embedded curve. "All smooth rational quintics" is correct
+    only in the conditional form "all such quintics lying on a smooth cubic."
+    The argument does not apply merely from geometric rationality when the
+    curve is singular, because then its arithmetic genus and self-intersection
+    need not be 0 and 3.
+
+verification_findings:
+  - item: "Nonnegative intersections with the 27 lines"
+    result: verified_with_qualification
+    detail: "Valid for the irreducible degree-five C because it is distinct from every line; false for an arbitrary effective divisor with a line component. ARTIFACT-20260821-014 includes the needed distinctness."
+  - item: "Cremona/Weyl reduction and termination"
+    result: verified
+    detail: "Each reflection is an actual change between six-line blow-down markings, preserves the intrinsic numerics, keeps multiplicities nonnegative, and strictly decreases an integer a bounded below by 2."
+  - item: "Reduced degree-five square-three classes"
+    result: verified
+    detail: "The analytic bound and an independent exhaustive enumeration both leave only (2;1,0^5)."
+  - item: "Five disjoint lines and non-affineness"
+    result: verified
+    detail: "Exactly five of the 27 lines have zero intersection, and their presence as complete closed curves directly prevents affineness."
+  - item: "All-smooth-cubics quantifier"
+    result: verified_with_scope
+    detail: "Valid separately on each smooth cubic containing the fixed smooth Vahlen curve; not a statement about singular cubics or simultaneous constancy of line choices."
+
+uncertainties:
+  - "No novelty claim is made for the Weyl-orbit classification; this verification is mathematical rather than a classical-literature priority search."
+  - "The extension to every algebraically closed characteristic was not separately source-audited, although the calculation itself uses only the standard smooth-cubic marking and intersection theory."
+  - "Nothing here determines whether any singular cubic containing Vahlen's curve has affine complement."
+
+relations:
+  - type: supports
+    target: ARTIFACT-20260821-014
+    explanation: "Independently reconstructs and verifies its core theorem, with the effective-divisor and quantifier qualifications made explicit."
+    confidence: high
+  - type: generalizes
+    target: ARTIFACT-20260821-012
+    explanation: "Promotes the five-line obstruction from one displayed smooth cubic to every smooth cubic containing the same smooth quintic, and indeed to every eligible pair (X,C)."
+    confidence: high
+  - type: supports
+    target: ARTIFACT-20260821-005
+    explanation: "Removes smooth cubics from the Vahlen affine-complement search while leaving the singular-surface uniformity bottleneck intact."
+    confidence: high
+conceptual_neighborhoods: [NEIGHBORHOOD-20260821-004, NEIGHBORHOOD-20260821-005]
+history_events: [EVENT-20260821-019]
+
+provenance:
+  created_by: /root/vahlen_smooth_cubic_verification
+  created_at: "2026-08-21T18:02:39-04:00"
+  task_id: MOVE-20260821-009
+  input_artifacts: [ARTIFACT-20260821-012, ARTIFACT-20260821-013, ARTIFACT-20260821-014, LIT-20260821-031, LITSEARCH-20260821-007]
+  context_projection: "Task-specific skeptical verification packet; this is not a reconstruction of the complete project."
+  objective: "Reconstruct or falsify the smooth-cubic candidate proof, including its Weyl reduction, finite classification, line obstruction, and quantifier scope."
+  method: "Fresh intersection-theoretic reconstruction; explicit change-of-marking calculation; analytic bounding plus separate exhaustive integer enumeration; direct closed-curve affineness contradiction; focused rereading of the primary Vahlen passage."
+  reasoning_summary: >-
+    Irreducibility makes C nonnegative on every line, permitting a genuinely
+    terminating sequence of quadratic changes of marking. The reduced
+    degree-square system has one solution, whose 27-line intersections contain
+    exactly five zeros. The proof is valid, with explicit warnings against
+    extending its first step to reducible effective divisors or its conclusion
+    to singular cubics.
+  computation_or_external_sources:
+    - "One-off exhaustive Python integer enumeration of ordered nonnegative 6-tuples for 2<=a<=5; the complete output is transcribed in finite_classification."
+    - "https://arxiv.org/html/1907.05472#S7"

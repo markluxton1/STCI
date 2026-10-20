@@ -1,0 +1,50 @@
+id: LIT-20260821-043
+type: literature_result
+title: "Nodal cubic resolution: rational-double-point cubics resolve to weak del Pezzo surfaces with E6 root data"
+bibliographic_identity:
+  authors: ["Mingmin Shen", "Charles Vial"]
+  title: "Twisted cubics on cubic fourfolds"
+  year: 2019
+  venue: "Documenta Mathematica"
+  doi_or_identifier: "arXiv:1609.09676"
+  url: "https://pure.mpg.de/rest/items/item_3118226_2/component/file_3118227/content"
+discovery:
+  mode: external_search
+  search_record_ids: [LITSEARCH-20260821-009]
+  search_terms: ["nodal cubic surface minimal resolution weak del Pezzo A1 anticanonical E6"]
+  conceptual_path: "Tests the standard resolution facts required to convert normal one-nodal witness geometry into a boundary-curve calculation."
+inspection:
+  level: section
+  portions_inspected: ["Section 2.1 on cubic surfaces with rational double points, as exposed in the accessible author PDF."]
+  access_notes: "Used for the stated standard geometry only; the paper's cubic-fourfold results are outside this project."
+content: >-
+  The inspected section states that for a cubic surface with rational double
+  points, the minimal resolution is crepant, is a weak del Pezzo surface, and
+  its anticanonical complete linear system gives the cubic-surface contraction.
+  It identifies the orthogonal complement of the canonical class with the E6
+  root lattice and describes the contracted (-2)-curves by effective roots.
+  These standard facts validate the resolution language used in the nodal
+  boundary calculation, but do not themselves analyze Vahlen's curve.
+relevant_results_or_ideas: ["A1 nodes correspond to a single contracted (-2)-curve on a weak degree-three del Pezzo resolution.", "The anticanonical morphism is crepant and contracts precisely the relevant root configuration.", "E6 lattice calculations can track lines that descend away from the node."]
+unresolved_questions: ["How the Vahlen quintic meets the simple-line configuration for each singularity type beyond A1."]
+superseded_by: []
+epistemic_status: literature_supported
+lifecycle_status: active
+significance: "Supplies a source-backed bridge from normal nodal cubic equations to the finite boundary-line calculation."
+relations:
+  - type: supports
+    target: ARTIFACT-20260821-019
+    explanation: "Provides the weak-del-Pezzo and E6 resolution facts used in the candidate nodal obstruction theorem."
+    confidence: high
+conceptual_neighborhoods: [NEIGHBORHOOD-20260821-004, NEIGHBORHOOD-20260821-005]
+history_events: [EVENT-20260821-024]
+provenance:
+  created_by: /root
+  created_at: "2026-08-21T19:04:00-04:00"
+  task_id: MOVE-20260821-013
+  input_artifacts: [ARTIFACT-20260821-018, LITSEARCH-20260821-008]
+  context_projection: "Normal A1 branch only."
+  objective: "Source-check the resolution geometry required for a nodal boundary obstruction."
+  method: "Targeted primary/author PDF search and section-level inspection."
+  reasoning_summary: "The source supports the standard resolution framework but not the project-specific finite enumeration."
+  computation_or_external_sources: ["https://pure.mpg.de/rest/items/item_3118226_2/component/file_3118227/content"]

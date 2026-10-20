@@ -1,0 +1,30 @@
+{
+  "id": "ARTIFACT-20260821-012",
+  "type": "obstruction",
+  "title": "The cuspidal cubic cone has a non-torsion conductor defect",
+  "content": "Let X_g be the cubic y^3-x^2z=0 containing the rational quartic C. On w=1 its coordinate ring is A=k[z,za^2,za^3], with normalization B=k[z,za,za^2,za^3]. Using z=V^3, tau=UV^2, y=U^2V, x=U^3, the lift of C is U=V^4. Hence F=(U-V^4)^3=x-3yz+3 tau z^2-z^4 cuts out 3 C-tilde on the normalization. Since H=3R and C-tilde=4R, this realizes 3 C-tilde=4H. The conductor preimage is the double line Gamma=(x,y,tau^2). Restricting F gives -z^4(1-3 tau/z^2). Modulo pullbacks from the reduced conductor line, this has additive polar part -3 z^{-2} in W=z^{-1}k[z^{-1}], which is nonzero and torsion-free in characteristic zero. Therefore no positive multiple of 3C-4H vanishes in APic(X_g), and C is not an STCI on this cone.",
+  "epistemic_status": "independently_checked",
+  "lifecycle_status": "active",
+  "significance": "Exhibits an explicit obstruction invisible on the normalization: the divisor classes are proportional there, but the required relation fails to descend across the nonreduced conductor.",
+  "assumptions": ["The base field is algebraically closed of characteristic zero", "Hartshorne-Polini's normalization-conductor exact sequence and identification of W apply"],
+  "support": ["LIT-20260821-010", "LIT-20260821-008", "experiments/2026-08-21-explicit-examples.md"],
+  "source_material": ["Hartshorne-Polini, Examples 5.6(e) and 6.9", "Direct cyclic-cover and conductor calculation", "Craighero-Gattazzo's theorem for all cubic surfaces"],
+  "relations": [
+    {"type": "specializes", "target": "ARTIFACT-20260821-006", "explanation": "Computes the APic proportionality obstruction on one explicit singular containing surface.", "confidence": "high"},
+    {"type": "explains", "target": "ARTIFACT-20260821-011", "explanation": "The residual doubled singular line is reflected by a nonzero additive conductor class.", "confidence": "medium"},
+    {"type": "supports", "target": "ARTIFACT-20260821-014", "explanation": "Separates normalization proportionality from conductor descent.", "confidence": "high"}
+  ],
+  "conceptual_neighborhoods": ["NEIGHBORHOOD-20260821-003", "NEIGHBORHOOD-20260821-004"],
+  "history_events": ["EVENT-20260821-010", "EVENT-20260821-011"],
+  "provenance": {
+    "created_by": "codex-root acting as general-researcher",
+    "created_at": "2026-08-21T22:19:15-04:00",
+    "task_id": "MOVE-20260821-004",
+    "input_artifacts": ["ARTIFACT-20260821-008", "ARTIFACT-20260821-011", "LIT-20260821-004", "LIT-20260821-010"],
+    "context_projection": "PROJ-20260821-001",
+    "objective": "Determine whether the rational quartic can become proportional to a hyperplane in APic of its cuspidal cubic cone.",
+    "method": "Normalize by adjoining the missing Veronese monomial, construct the Cartier function for 3 C-tilde on a cyclic cover, and restrict it to the double-line conductor.",
+    "reasoning_summary": "The class relation succeeds on the normalization, but its descent datum has nonzero polar part in a characteristic-zero additive group, so no multiple can kill it.",
+    "computation_or_external_sources": ["experiments/2026-08-21-explicit-examples.md", "https://arxiv.org/abs/1301.3222", "https://www.numdam.org/item/RSMUP_1989__81__171_0.pdf"]
+  }
+}

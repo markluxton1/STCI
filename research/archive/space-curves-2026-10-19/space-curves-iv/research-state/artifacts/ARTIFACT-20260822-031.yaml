@@ -1,0 +1,90 @@
+id: ARTIFACT-20260822-031
+type: example
+title: A fivefold first-conormal collision with local pair A_{9,5}
+content: |
+  In the M8(H) chart of ARTIFACT-20260822-028, choose B=t and
+    H=(t-1)^5(1+5t+5t^2+t^3).
+  The three M8 equations for B=t are h1=h4=h7=0, which H satisfies. A lift with
+  P=0 and Q=tH is the quartic
+    Fcoll = x^3w - 2x^2yz + 10x^2z^2 - 10xy^2w - 16xyz^2 + 16xz^3
+            - 10xz^2w + xw^3 + y^4 + 16y^3w - 16y^2zw + 10y^2w^2
+            - 2yzw^2 + z^4.
+  Its restricted gradient is
+    (t^4,-2t^3,2t,-1)H,
+  so it is in I(C4), has no q factor, and its singularity divisor along C4 is
+  the degree-eight divisor of H (with the endpoint check included in the exact
+  gradient calculation).
+
+  At the fivefold root t=1, put t=1+tau and use z=t^3+r,
+  w=t^4+tr+q. The normal quadratic term is
+    9r^2-18rq+11q^2,
+  of determinant 18, while the first nonzero normal-linear term is
+    12 tau^5(r-q).
+  Completing the normal square produces first pure term -4 tau^10. Thus, by
+  the characteristic-zero formal Morse lemma, the surface germ is A9. On the
+  first blowup chart q=r(t+v), the exceptional restriction is -H(t)v, so the
+  vertical contribution at t=1 has p1=5; the strict-transform r coefficient
+  at that point is 2, so it is smooth after this blowup. The local pair is
+  consequently A_{9,5}, of type (5).
+
+  The residual cubic 1+5t+5t^2+t^3 has three distinct roots. An exact coprimality
+  check against the simple-root tangent determinant D(t)=10-16t+16t^3-10t^4+2t^6
+  shows that these three remaining points are A_{1,1}. Hence the total type of
+  (Fcoll,C4) is (5)+3(1)=(8), with p2=0.
+
+  This surface is an explicit local and conormal example only. No claim is made
+  that Fcoll is globally irreducible, normal, paired with a quintic, or part of a
+  radical set-theoretic complete intersection.
+epistemic_status: independently_checked
+lifecycle_status: active
+significance: >
+  Gives a controlled non-node point inside the exceptional determinant locus and
+  separates a high first-type multiplicity from genuinely persistent iterated
+  singularity data.
+assumptions:
+  - Characteristic zero for the A9 formal normal-form inference and the Jaffe local-type interpretation.
+  - The chosen affine blowup chart is the one selected by the generic conormal line q/r=t.
+support:
+  - ARTIFACT-20260822-028.
+  - LIT-20260822-013.
+  - experiments/c4_root_collision.py.
+source_material:
+  - "experiments/c4_root_collision.py"
+  - "https://arxiv.org/html/alg-geom/9410008v1"
+relations:
+  - type: specializes
+    target: ARTIFACT-20260822-028
+    explanation: Chooses a particular multiplicity-five H in its degree-eight determinantal chart.
+    confidence: high
+  - type: supports
+    target: ARTIFACT-20260822-032
+    explanation: Supplies the exact collision whose type remains concentrated in p1.
+    confidence: high
+  - type: supports
+    target: ARTIFACT-20260822-030
+    explanation: Provides an explicit non-node surface that nevertheless cannot meet the positive p2 budget.
+    confidence: high
+conceptual_neighborhoods:
+  - NEIGHBORHOOD-20260822-009
+history_events:
+  - EVENT-20260822-040
+  - EVENT-20260822-041
+provenance:
+  created_by: /root
+  created_at: "2026-08-22T10:05:00-04:00"
+  task_id: MOVE-20260822-008
+  input_artifacts:
+    - ARTIFACT-20260822-025
+    - ARTIFACT-20260822-028
+    - ARTIFACT-20260822-029
+    - LIT-20260822-013
+  context_projection: PROJ-20260822-007
+  objective: Determine whether a repeated first-conormal zero can create the missing higher iterated type.
+  method: Exact determinant-chart construction, local-coordinate Taylor expansion, and direct first-blowup calculation.
+  reasoning_summary: >
+    The exceptional divisor records p1=5 at the collision. A nonzero normal
+    quadratic coefficient on the first strict transform proves that this mass
+    disappears after the first blowup rather than contributing to p2.
+  computation_or_external_sources:
+    - "python3 experiments/c4_root_collision.py"
+    - "https://arxiv.org/html/alg-geom/9410008v1"

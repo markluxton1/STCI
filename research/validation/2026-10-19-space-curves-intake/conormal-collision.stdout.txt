@@ -1,0 +1,8 @@
+collision_H=(t-1)^5*(1+5t+5t^2+t^3)
+collision_quartic: in_I=True q_factor_excluded_by_gradient=True conormal_pair=(0,tH)
+collision_t=1: normal_quadratic=9r^2-18rq+11q^2 determinant=18
+collision_t=1: leading_normal_linear=12*tau^5*(r-q) completed_square_tau10_coefficient=-4
+collision_first_blowup: exceptional_restriction=-H(t)*v, so p1_local_at_t=1=5
+collision_first_blowup_at_t=1: strict_transform_r_coefficient=2, so p2_local=0
+collision_simple_roots: gcd(residual,residual_prime)=1 gcd(residual,D)=1
+collision_local_types: A_9,5=(5); three A_1,1=(1); total_type=(8)

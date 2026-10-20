@@ -1,0 +1,30 @@
+{
+  "id": "ARTIFACT-20260821-013",
+  "type": "obstruction",
+  "title": "The ruled cubic passes local torsion but fails global normalization proportionality",
+  "content": "Let X_p be the ruled cubic p=xz^2-y^2w=0 containing the rational quartic C. Its singular locus is the line y=z=0, and C meets this line at its two endpoints, which are the pinch points. Thus the local APic groups along C are Z/2 and the local torsion condition is compatible with STCI. On the normalization S isomorphic to Bl_P(P^2), with class notation (a,b)=a l-b e, the hyperplane, conductor preimage, and lifted quartic have classes H=(2,1), Gamma=(1,0), and C-tilde=(2,0). The last class is the strict transform of a conic avoiding P. The equation r(2,0)=m(2,1) has no positive solution, so the necessary proportionality already fails in Pic(S), and hence C is not an STCI on X_p.",
+  "epistemic_status": "independently_checked",
+  "lifecycle_status": "active",
+  "significance": "Gives a failure mode complementary to the cuspidal cone: local singularity torsion is not sufficient when the global class on the normalization is wrong.",
+  "assumptions": ["The base field is algebraically closed of characteristic zero", "The ruled cubic normalization and class notation are as in Hartshorne-Polini"],
+  "support": ["LIT-20260821-001", "LIT-20260821-010", "LIT-20260821-008", "experiments/2026-08-21-explicit-examples.md"],
+  "source_material": ["Hartshorne-Polini, Example 5.7(b) of Quasi-cyclic modules and Examples 6.3 and 7.12 of Divisor class groups", "Direct Jacobian and parametrization checks", "Craighero-Gattazzo's cubic-surface theorem"],
+  "relations": [
+    {"type": "specializes", "target": "ARTIFACT-20260821-006", "explanation": "Computes the APic obstruction on a ruled cubic containing the quartic.", "confidence": "high"},
+    {"type": "resembles", "target": "ARTIFACT-20260821-012", "explanation": "Both eliminate explicit singular cubic surfaces, but at different stages of the normalization-conductor analysis.", "confidence": "high"},
+    {"type": "supports", "target": "ARTIFACT-20260821-014", "explanation": "Shows that local torsion and global normalization proportionality must be tested separately.", "confidence": "high"}
+  ],
+  "conceptual_neighborhoods": ["NEIGHBORHOOD-20260821-003", "NEIGHBORHOOD-20260821-004"],
+  "history_events": ["EVENT-20260821-010", "EVENT-20260821-011"],
+  "provenance": {
+    "created_by": "codex-root acting as general-researcher",
+    "created_at": "2026-08-21T22:19:15-04:00",
+    "task_id": "MOVE-20260821-004",
+    "input_artifacts": ["ARTIFACT-20260821-008", "LIT-20260821-001", "LIT-20260821-004", "LIT-20260821-010"],
+    "context_projection": "PROJ-20260821-001",
+    "objective": "Determine whether the rational quartic can become proportional to a hyperplane in APic of a second singular cubic surface.",
+    "method": "Compute the singular line, identify the normalization class of the lifted curve, and test proportionality to the hyperplane class.",
+    "reasoning_summary": "Pinch-point torsion removes the local obstruction, but the independent Picard coordinates on the cubic scroll make global proportionality impossible.",
+    "computation_or_external_sources": ["experiments/2026-08-21-explicit-examples.md", "https://arxiv.org/abs/1907.05472", "https://arxiv.org/abs/1301.3222", "https://www.numdam.org/item/RSMUP_1989__81__171_0.pdf"]
+  }
+}
