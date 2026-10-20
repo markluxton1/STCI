@@ -1,0 +1,31 @@
+event_id: EVENT-20260821-025
+timestamp: "2026-08-21T19:04:00-04:00"
+agent_id: /root
+role: skeptical-mathematical-critic
+event_type: verification
+related_move: MOVE-20260821-014
+related_task: /root
+related_artifacts: [ARTIFACT-20260821-019, ARTIFACT-20260821-020]
+related_literature_searches: [LITSEARCH-20260821-009]
+related_frames: [FRAME-20260821-003]
+related_reconstructions: []
+summary: "Independently verified the one-A1 cubic non-affineness theorem and its application to the three Vahlen witnesses."
+rationale: "The original candidate used standard simple-line language; verification had to establish effectiveness and descent directly."
+evidence: [ARTIFACT-20260821-020]
+outcome: >-
+  The candidate theorem is independently checked: every eligible normal one-node
+  cubic complement contains a complete degree-one curve disjoint from C. The
+  three explicit Vahlen witnesses are non-affine; worse singularity types and
+  higher degrees remain separate open branches.
+artifact_transition:
+  artifact_id: ARTIFACT-20260821-019
+  fields_changed: [epistemic_status, "effectiveness justification"]
+  prior_epistemic_status: candidate_proof
+  new_epistemic_status: independently_checked
+  prior_lifecycle_status: active
+  new_lifecycle_status: active
+  prior_interpretation: "Candidate nodal obstruction relying on standard simple-line correspondence."
+  new_interpretation: "Independently checked nodal obstruction with Riemann--Roch effectiveness and degree-one-image audit."
+  change_reason: "ARTIFACT-20260821-020 supplies an independent reconstruction."
+  supporting_artifacts: [ARTIFACT-20260821-020]
+  supporting_sources: [LIT-20260821-043]

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "experiments/c4_root_collision.py"
+  ],
+  "cwd_relative_to_repository": "research/archive/space-curves-2026-10-19/space-curves-iv",
+  "environment_override": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "exit_code": 0,
+  "elapsed_seconds": 0.269,
+  "scope": "Exact polynomial examples only; formal Morse and Jaffe-type interpretations are not mechanized."
+}

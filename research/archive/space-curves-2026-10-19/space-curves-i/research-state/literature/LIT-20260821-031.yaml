@@ -1,0 +1,78 @@
+id: LIT-20260821-031
+type: literature_result
+title: "Hartshorne--Polini: refined local-cohomology criteria expose a bridge and its operational circularity"
+
+bibliographic_identity:
+  authors: ["Robin Hartshorne", "Claudia Polini"]
+  title: "Quasi-cyclic modules and coregular sequences"
+  year: 2019
+  venue: "arXiv preprint, math.AC"
+  doi_or_identifier: "arXiv:1907.05472"
+  url: "https://arxiv.org/abs/1907.05472"
+
+discovery:
+  mode: external_search
+  search_record_ids: [LITSEARCH-20260821-005]
+  search_terms: ['"quasi-cyclic modules" "curves in projective three-space"']
+  conceptual_path: "Tests whether the local-cohomology blind spot admits a nontrivial refinement."
+
+inspection:
+  level: section
+  portions_inspected:
+    - "Abstract and introduction."
+    - "Theorem 3.1 as described in the introduction."
+    - "Questions 7.1--7.9 and Example 7.10 in the author manuscript."
+  access_notes: "Primary author manuscript on arXiv; full proofs were not independently audited."
+
+content: >-
+  Hartshorne and Polini formulate an exact criterion: for a codimension-r
+  projective variety, being a set-theoretic complete intersection is equivalent
+  to vanishing of H^i_I(A) above r together with codepth r of H^r_I(A). For a
+  curve in P3, quasi-cyclicity of H^2_I(A) is a necessary weaker condition.
+  They explicitly say the exact criterion is impractical because finding the
+  requisite coregular sequence is tantamount to finding the two equations.
+  Their Question 7.5 asks for a containing surface X with X minus C affine;
+  it is equivalent to codepth at least one. They record that the smooth rational
+  quartic is the smallest characteristic-zero example of unknown s.t.c.i.
+  status, while Questions 7.4 and 7.5 have affirmative answers for it; Vahlen's
+  quintic is another example where the affine-complement question remains open.
+relevant_results_or_ideas:
+  - "Refined local cohomology is not merely a one-way vanishing obstruction; it has exact and graded necessary formulations."
+  - "The exact module criterion shifts, but does not remove, the global equation-selection problem."
+  - "Surface-complement affineness is a geometric intermediate question tied to the first layer of coregularity."
+unresolved_questions:
+  - "Can a necessary condition such as quasi-cyclicity be falsified on a concrete characteristic-zero curve?"
+  - "Can the codepth/affine-complement ladder be evaluated on Vahlen's quintic or another structured candidate?"
+  - "Can this module framework be connected to the multiple-structure taxonomy without rephrasing the same existential choice?"
+superseded_by: []
+
+epistemic_status: literature_supported
+lifecycle_status: active
+significance: "Turns the cohomological blind spot into a structured hierarchy of intermediate tests, while warning against a circular exact reformulation."
+
+relations:
+  - type: refines
+    target: LIT-20260821-008
+    explanation: "Replaces the bare vanishing/silence dichotomy with exact and necessary module-theoretic conditions."
+    confidence: high
+  - type: explains
+    target: ARTIFACT-20260821-010
+    explanation: "Supports the information-loss/circularity bottleneck and its intermediate questions."
+    confidence: high
+  - type: supports
+    target: LIT-20260821-009
+    explanation: "Independently identifies the rational quartic as the smallest unresolved characteristic-zero example."
+    confidence: high
+conceptual_neighborhoods: [NEIGHBORHOOD-20260821-004]
+history_events: [EVENT-20260821-009]
+
+provenance:
+  created_by: /root/bottleneck_decomposition
+  created_at: "2026-08-21T00:00:00-04:00"
+  task_id: MOVE-20260821-004
+  input_artifacts: [ARTIFACT-20260821-002, LIT-20260821-008, LIT-20260821-009]
+  context_projection: "Targeted directional projection; not a new global status audit."
+  objective: "Determine whether refined cohomological directions are already present in the literature."
+  method: "Targeted search and inspection of an author-hosted arXiv manuscript."
+  reasoning_summary: "The framework supplies sharply discriminating weakened questions, but its exact criterion is explicitly operationally circular."
+  computation_or_external_sources: ["https://arxiv.org/html/1907.05472"]

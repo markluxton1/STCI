@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "scripts/finite_normal_jet_certificate.m2"
+  ],
+  "cwd_relative_to_repository": "research/archive/space-curves-2026-10-19/space-curves-vi",
+  "exit_code": 0,
+  "elapsed_seconds": 2.84,
+  "scope": "Portability and exact examples only; not an independent theorem audit."
+}

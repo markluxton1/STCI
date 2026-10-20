@@ -1,0 +1,60 @@
+id: ARTIFACT-20260821-019
+type: theorem
+title: "Nodal-cubic obstruction: a quintic avoiding an A1 node leaves a complete disjoint degree-one curve"
+content: >-
+  Let X be an integral cubic surface over an algebraically closed
+  characteristic-zero field with exactly one A1 singular point p. Let C be a
+  smooth irreducible rational curve of degree five on X avoiding p. Then X-C
+  contains a complete degree-one curve, and is therefore not affine. In
+  particular, all three explicit normal one-nodal Vahlen cubic witnesses in
+  ARTIFACT-20260821-018 have non-affine complement.
+
+  Proof route. On the crepant minimal resolution pi:S->X, put H=-K_S and let
+  E be the contracted (-2)-curve. Since C avoids p, its strict transform D is
+  disjoint from E; adjunction gives H.D=5 and D^2=3. The 15 simple (-1)-curves
+  are disjoint from E and descend to lines not through p. Since D is
+  irreducible and distinct from each such curve, its intersection with each is
+  nonnegative. In the E6 lattice, after a Weyl marking of E, exact enumeration
+  of every integral D satisfying these degree, square, orthogonality, and
+  nonnegativity conditions finds 120 numerical classes; every one is
+  disjoint from exactly three simple-line classes. At least one corresponding
+  degree-one image curve on X is complete and disjoint from C, precluding
+  affineness.
+
+  The finite enumeration and standard resolution facts are recorded below and
+  independently reconstructed in ARTIFACT-20260821-020. It applies only to
+  cubic surfaces with exactly one A1 singularity and to a curve avoiding that
+  node; it neither classifies all singular cubics in I_C(3) nor settles
+  Hartshorne--Polini Question 7.5.
+epistemic_status: independently_checked
+lifecycle_status: active
+significance: "Closes the affine-complement branch for every normal one-nodal cubic containing Vahlen's curve, including the three exact witnesses."
+assumptions: ["X is integral with exactly one A1 singularity.", "C is smooth, irreducible, rational, degree five, and avoids the singular point.", "Standard crepant weak-del-Pezzo resolution and simple-line correspondence for a nodal cubic."]
+support: ["ARTIFACT-20260821-018 establishes the hypotheses for the three explicit witnesses.", "LIT-20260821-043 supports the crepant weak-del-Pezzo/E6 framework.", "Exact standard-library enumeration in research-state/scripts/nodal_cubic_quintic_lattice.py."]
+source_material: [ARTIFACT-20260821-018, LIT-20260821-043, LITSEARCH-20260821-009]
+uncertainties: ["No extension to A2 or worse normal singularities, or to nonnormal members, is claimed."]
+relations:
+  - type: supports
+    target: ARTIFACT-20260821-011
+    explanation: "Would strengthen the first-attack Vahlen program by excluding a concrete normal singular cubic subbranch."
+    confidence: medium
+  - type: refines
+    target: ARTIFACT-20260821-018
+    explanation: "Uses its normal one-node witnesses to derive a candidate non-affineness conclusion."
+    confidence: high
+  - type: derived_from
+    target: LIT-20260821-043
+    explanation: "Uses only its standard resolution framework; the finite obstruction is derived in-project."
+    confidence: high
+conceptual_neighborhoods: [NEIGHBORHOOD-20260821-004, NEIGHBORHOOD-20260821-005]
+history_events: [EVENT-20260821-024, EVENT-20260821-025]
+provenance:
+  created_by: /root
+  created_at: "2026-08-21T19:04:00-04:00"
+  task_id: MOVE-20260821-013
+  input_artifacts: [ARTIFACT-20260821-018, LIT-20260821-043]
+  context_projection: "Normal one-nodal cubic branch only; no assertion about all singular members."
+  objective: "Test whether normal nodal cubic witnesses contain a complete curve disjoint from the Vahlen boundary."
+  method: "Crepant-resolution reduction to E6 lattice data plus exhaustive finite integer enumeration."
+  reasoning_summary: "The node root is orthogonal to D, and every admissible degree-five genus-zero class leaves three of the 15 simple lines at intersection zero."
+  computation_or_external_sources: [research-state/scripts/nodal_cubic_quintic_lattice.py]

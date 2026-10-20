@@ -1,0 +1,81 @@
+id: ARTIFACT-20260822-032
+type: failed_argument
+title: Coalescing first-conormal zeros does not by itself supply positive p2
+content: |
+  A plausible repair of the ordinary-node obstruction was to merge several simple
+  zeros of the first conormal divisor H into one multiple zero, hoping that the
+  resulting worse surface singularity would contribute to p2. The controlled
+  B=t collision in ARTIFACT-20260822-031 refutes that mechanism in its most
+  direct form: a fivefold zero creates p1=5, but the chosen first blowup is smooth
+  at the distinguished section, hence the local contribution is (5) and p2=0.
+
+  The underlying pattern is compatible with Jaffe's balanced A_{2m-1,m} pairs:
+  phi(2m-1,m)=(m). Thus a high ADE label or a high root multiplicity can still be
+  completely concentrated in p1. For the displayed quartic the three residual
+  simple roots add only A_{1,1} contributions, leaving total type (8), which
+  fails the required p2>=7 in the p1=8 branch.
+
+  This is not a proof that every repeated root in M8 or M9 has p2=0. It only
+  eliminates the simple "coalesce H and keep the same conormal direction"
+  mechanism. A future successful search must force the first strict transform to
+  remain singular along its section, for example through an unbalanced A_{n,k}
+  pair or a more general non-rational germ.
+epistemic_status: independently_checked
+lifecycle_status: active
+significance: >
+  Preserves a productive failure: it prevents the project from using first
+  conormal multiplicity as a proxy for iterative depth, while isolating a
+  concrete next condition on the strict transform.
+assumptions:
+  - The conclusion concerns the explicitly constructed B=t collision family, not the complete determinant loci.
+  - The type terminology is used in characteristic zero.
+support:
+  - ARTIFACT-20260822-025.
+  - ARTIFACT-20260822-031.
+  - LIT-20260822-013.
+relations:
+  - type: derived_from
+    target: ARTIFACT-20260822-031
+    explanation: Its failed mechanism is evaluated by the exact collision example and blowup calculation.
+    confidence: high
+  - type: supports
+    target: ARTIFACT-20260822-030
+    explanation: Refines the positive-p2 requirement by showing why a natural p1-collision construction does not meet it.
+    confidence: high
+  - type: motivates
+    target: ARTIFACT-20260822-022
+    explanation: Redirects local work to germs whose first strict transform remains singular and must still respect the transverse tangent pencil.
+    confidence: high
+conceptual_neighborhoods:
+  - NEIGHBORHOOD-20260822-009
+failure_details:
+  intended_strategy: Coalesce first-conormal zeros to create enough higher iterated type for the p1=8 or p1=9 branch.
+  progress: Constructed a non-q quartic with a fivefold conormal zero and calculated its full first blowup.
+  precise_obstruction: The strict transform has nonzero r derivative at the distinguished section, so the p1=5 contribution has p2=0.
+  obstruction_character: unclear
+  learned: A repeated zero can give a balanced A_{2m-1,m} pair with type concentrated entirely in p1.
+  suggested_next:
+    - Impose singularity of the first strict transform simultaneously with the M8 or M9 rank-drop equations.
+    - Search for unbalanced A_{n,k} local pairs whose phi(n,k) has positive p2.
+    - Compare such germs with the transverse length-five tangent-cone pencil.
+history_events:
+  - EVENT-20260822-040
+  - EVENT-20260822-042
+provenance:
+  created_by: /root
+  created_at: "2026-08-22T10:06:00-04:00"
+  task_id: MOVE-20260822-008
+  input_artifacts:
+    - ARTIFACT-20260822-025
+    - ARTIFACT-20260822-030
+    - ARTIFACT-20260822-031
+    - LIT-20260822-013
+  context_projection: PROJ-20260822-007
+  objective: Assess the root-collision strategy itself rather than merely classify its displayed surface.
+  method: Compare the exact first-blowup result with Jaffe's type recursion and the degree-(4,5) p2 budget.
+  reasoning_summary: >
+    The negative conclusion is deliberately mechanism-specific; it identifies a
+    local condition that any replacement construction must evade.
+  computation_or_external_sources:
+    - "python3 experiments/c4_root_collision.py"
+    - "https://arxiv.org/html/alg-geom/9410008v1"

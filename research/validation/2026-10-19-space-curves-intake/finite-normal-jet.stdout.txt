@@ -1,0 +1,21 @@
+twisted cubic: J subset I and I^2 subset J; degrees 6 and 3
+twisted cubic: finite normal-jet length 2, target 2, PASS
+binomial family: char=0, n=2, length=1, target=2, STCI=false
+binomial family: char=0, n=3, length=1, target=3, STCI=false
+binomial family: char=0, n=4, length=1, target=4, STCI=false
+binomial family: char=0, n=6, length=1, target=6, STCI=false
+binomial family: char=2, n=2, length=2, target=2, STCI=true
+binomial family: char=2, n=3, length=1, target=3, STCI=false
+binomial family: char=2, n=4, length=4, target=4, STCI=true
+binomial family: char=2, n=6, length=2, target=6, STCI=false
+binomial family: char=3, n=2, length=1, target=2, STCI=false
+binomial family: char=3, n=3, length=3, target=3, STCI=true
+binomial family: char=3, n=4, length=1, target=4, STCI=false
+binomial family: char=3, n=6, length=3, target=6, STCI=false
+binomial family: char=5, n=2, length=1, target=2, STCI=false
+binomial family: char=5, n=3, length=1, target=3, STCI=false
+binomial family: char=5, n=4, length=1, target=4, STCI=false
+binomial family: char=5, n=6, length=1, target=6, STCI=false
+common-surface control: cutoff M falsely accepts; M+1 rejects, M=1..6
+global coefficient trap: K(t) combination has length 2; tested constant combinations length 1
+All exact checks passed. General constant-coefficient exclusion is proved in Artifact 012.

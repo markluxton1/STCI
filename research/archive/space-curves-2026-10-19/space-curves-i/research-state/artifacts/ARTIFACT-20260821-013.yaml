@@ -1,0 +1,85 @@
+id: ARTIFACT-20260821-013
+type: computation
+title: "Exact low-degree ideal of the coordinate Vahlen quintic and its forced residual line"
+content: >-
+  For the binary-quintic parametrization in ARTIFACT-20260821-012 over Q, exact
+  substitution linear algebra gives dim I_C(1)=0, dim I_C(2)=0, dim I_C(3)=4,
+  and dim I_C(4)=14; the corresponding image ranks are 4, 10, 16, and 21.
+  Thus the parametrization has no linear or quadratic equations, and its first
+  homogeneous ideal equations occur in degree 3. The four coordinate polynomials
+  have gcd 1, and the exact identity
+  (5U3-3U1)t=(5U3+5U2-3U0)s supplies a rational inverse on a nonempty open set.
+  Together with the source divisor calculation H.C=5, this independently verifies
+  that the model is a basepoint-free, birational degree-five P1 curve.
+
+  The degree-three kernel is four-dimensional (an explicit Q-basis is emitted by
+  research-state/scripts/vahlen_quintic_exact.py). The cited cubic-surface equation
+  in ARTIFACT-20260821-012 belongs to this kernel. In degree 4, R_1 I_C(3) has rank
+  13, so I_C(4) has exactly one new minimal quartic class; this is a degree-by-degree
+  statement, not a claim that the displayed finite calculation generates the full
+  saturated ideal in every degree.
+
+  The residual conic through p2,...,p6 is q=7x^2-5xy-5xz+3yz. Its image is the
+  line G=V(3U2-5U0, 3U3-5U0-5U1); these coordinates were corrected by an
+  independent direct conic-image reconstruction in ARTIFACT-20260821-023.
+  Direct substitution of every basis member of I_C(3) on this corrected line is
+  zero. Therefore
+  every cubic through the computed quintic contains G scheme-theoretically as a
+  set (indeed its equation lies in I(G)); this independently confirms the common
+  quadrisecant configuration in this coordinate model. The conclusion uses the
+  source fact H.G=1 / the displayed blow-up interpretation to identify the conic's
+  image as a line; it does not assert any uniqueness of Vahlen's historical model.
+
+  Smoothness test: exact rational Gröbner-basis Jacobian checks on all four standard
+  P3 charts gave the unit ideal for (i) the displayed cubic X and (ii) X plus the
+  first exact cubic-kernel basis vector. Both sample cubic surfaces are smooth over
+  an algebraic closure of Q. Consequently the P3 of cubics containing C has a
+  nonempty Zariski-open smooth locus. This does not address affineness of X minus C,
+  the analogous complement for another member, Q7.5, or radical generation by two
+  forms.
+
+  Concise next test: classify the residual scheme in the intersection of two
+  independent members of I_C(3), separating the forced line G from the moving
+  residual curve, and test whether any resulting smooth cubic can avoid a complete
+  curve disjoint from C.
+
+epistemic_status: independently_checked
+lifecycle_status: active
+significance: >-
+  The low-degree surface landscape is finite and now independently reproducible.
+  It establishes a structural, rather than accidental, reason the cubic branch
+  cannot remove the quadrisecant: the entire cubic system has G in its base locus.
+assumptions:
+  - "Calculations are over Q, hence give characteristic-zero statements after base change."
+  - "The parametrization and blow-up interpretation are the coordinate model supplied in ARTIFACT-20260821-012."
+  - "The identification of the residual conic image as a line uses H.G=1 from the cited divisor data."
+support:
+  - "Exact rational row reduction and polynomial composition in research-state/scripts/vahlen_quintic_exact.py."
+  - "Independent exact Gröbner-basis chart checks of the two named cubic samples' Jacobian ideals over Q."
+  - "ARTIFACT-20260821-012 for the degree and divisor interpretation."
+source_material: [ARTIFACT-20260821-012]
+relations:
+  - type: derived_from
+    target: ARTIFACT-20260821-012
+    explanation: "Uses its displayed parametrization, anticanonical sections, and residual divisor class."
+    confidence: high
+  - type: supports
+    target: ARTIFACT-20260821-011
+    explanation: "Makes the rational-quartic/quintic presentation-atlas direction concrete: a whole low-degree surface system can carry a forced residual curve."
+    confidence: high
+  - type: explains
+    target: ARTIFACT-20260821-005
+    explanation: "Supplies an exact base-locus mechanism behind the failure of the naive cubic affine-complement route in this model."
+    confidence: high
+conceptual_neighborhoods: [NEIGHBORHOOD-20260821-004, NEIGHBORHOOD-20260821-005]
+history_events: [EVENT-20260821-016, EVENT-20260821-028]
+provenance:
+  created_by: /root/vahlen_computation
+  created_at: "2026-08-21T00:00:00-04:00"
+  task_id: MOVE-20260821-007
+  input_artifacts: [ARTIFACT-20260821-012, ARTIFACT-20260821-005, ARTIFACT-20260821-011]
+  context_projection: "This is a projection of the project state, not the complete project."
+  objective: "Independently compute low-degree ideal, cubic-surface, and residual-line data for the supplied coordinate Vahlen quintic."
+  method: "Exact Q-linear algebra under parametrization; exact conic reduction; rational inverse identity; independent Gröbner Jacobian chart computations for two samples."
+  reasoning_summary: "The calculation verifies a finite base-locus phenomenon but deliberately leaves global complement and arithmetical-rank questions open."
+  computation_or_external_sources: ["research-state/scripts/vahlen_quintic_exact.py"]

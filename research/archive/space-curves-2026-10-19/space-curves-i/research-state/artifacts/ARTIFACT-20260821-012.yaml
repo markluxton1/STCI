@@ -1,0 +1,120 @@
+id: ARTIFACT-20260821-012
+type: example_analysis
+title: "Vahlen quintic: exact cubic-surface input and the known-complement obstruction"
+content: >-
+  Hartshorne--Polini give a concrete smooth-cubic realization of Vahlen's rational
+  quintic and a set-theoretic three-surface presentation, but leave open whether
+  any containing surface has affine complement. On their displayed smooth cubic
+  surface, however, the question has a negative answer for an elementary geometric
+  reason: the quintic class is disjoint from five exceptional lines, which remain
+  complete curves in the complement. Thus the first investigation must not merely
+  recompute that known cubic; it must identify how a different containing surface
+  could avoid this obstruction.
+
+epistemic_status: conditionally_derived
+lifecycle_status: active
+significance: >-
+  Converts the selected direction from an underspecified module question into an
+  exact geometric branch problem, with a verified negative result on the source's
+  principal smooth-cubic model and reproducible input for further computation.
+assumptions:
+  - "The ground field is the characteristic-zero setting of the project and the smooth cubic is identified with Bl_{p1,...,p6}(P2)."
+  - "Divisor notation (a;b1,...,b6) means aL minus the sum of bi Ei, as in the usual smooth-cubic-surface notation used by Hartshorne--Polini."
+support:
+  - "Hartshorne--Polini, Proposition 5.2, Examples 5.7(c) and 7.10(2)--(3), author manuscript pp. 10--12 and 16--17."
+  - "Direct intersection calculation on the cited divisor classes."
+source_material: [LIT-20260821-031, LITSEARCH-20260821-006]
+
+source_exact_data:
+  ambient_surface: "X = Bl_{p1,...,p6}(P2), embedded by H=(3;1^6) as a nonsingular cubic surface."
+  quintic_class: "C=(2;1,0^5); H.C=5, C^2=3, and adjunction gives p_a(C)=0."
+  quadrisecant: "G=(2;0,1^5), a line; C.G=4."
+  residual_for_second_cubic: "T=(5;2^6), a smooth irreducible twisted cubic chosen so X intersect Y = C union G union T for a cubic Y."
+  residual_for_quartic: "D=(10;3,4^5), degree 7 and genus 3, with X intersect Z = C union D for a quartic Z."
+  three_surface_conclusion: "The source proves C = X intersect Y intersect Z set-theoretically; every cubic containing C also contains G, so Z cannot be taken cubic in that construction."
+  source_location: "Hartshorne--Polini arXiv:1907.05472v1, Example 7.10(2)--(3), pp. 16--17; published as Math. Z. 299 (2021), 123--138."
+
+derived_known_cubic_result:
+  claim: "For the displayed smooth cubic model X, X minus C is not affine."
+  status: conditionally_derived
+  proof: >-
+    For i=2,...,6, C.Ei=0 from C=(2;1,0^5). Each Ei is an exceptional
+    (-1)-line and is therefore a complete projective curve disjoint from C, hence
+    a closed positive-dimensional complete subscheme of X minus C. An affine
+    finite-type scheme cannot contain such a closed complete curve. Therefore
+    X minus C is non-affine. This is compatible with HP's positive answer to
+    Question 7.6 only: C^2=3>0 gives a modification of an affine by Example 5.7(c),
+    not affineness.
+  scope_warning: >-
+    This does not answer Question 7.5, which quantifies over all surfaces
+    containing C. It only disposes of the specific HP smooth-cubic realization.
+
+coordinate_model_for_bounded_computation:
+  status: computationally_supported
+  purpose: >-
+    A reproducible rational coordinate realization of the cited divisor data; it
+    is not a source-printed historical equation and is not used to assert any
+    unproved uniqueness statement about Vahlen's curve.
+  blowup_points: ["p1=(1:0:0)", "p2=(0:1:0)", "p3=(0:0:1)", "p4=(1:1:1)", "p5=(1:2:3)", "p6=(1:3:2)"]
+  anticanonical_map:
+    domain_coordinates: [x, y, z]
+    target_coordinates: [U0, U1, U2, U3]
+    cubic_sections:
+      U0: "17x^2y - 18x^2z - 7xy^2 + 8xyz"
+      U1: "40x^2y - 40x^2z - 8xy^2 + 8xz^2"
+      U2: "47x^2y - 30x^2z - 25xy^2 + 8y^2z"
+      U3: "95x^2y - 78x^2z - 25xy^2 + 8yz^2"
+    cubic_surface_equation: >-
+      -95U0^2U1 -48U0^2U2 +48U0^2U3 +30U0U1^2 +34U0U1U2
+      +8U0U2^2 -8U0U3^2 -18U1^2U2 -7U1U2^2 +8U1U2U3 = 0
+  chosen_conic_and_parametrization:
+    conic: "xz + y^2 + z^2 = 0; it passes through p1 and none of p2,...,p6."
+    p2_parametrization: "(x:y:z)=(-(s^2+t^2):st:t^2)"
+    induced_quintic: [
+      "U0=17s^5-11s^4t+26s^3t^2-29s^2t^3+9st^4-18t^5",
+      "U1=40s^5-32s^4t+80s^3t^2-80s^2t^3+40st^4-48t^5",
+      "U2=47s^5-5s^4t+94s^3t^2-27s^2t^3+47st^4-30t^5",
+      "U3=95s^5-53s^4t+190s^3t^2-131s^2t^3+103st^4-78t^5"
+    ]
+  verification: >-
+    Exact rational linear algebra verified that the six points have no collinear
+    triple and do not lie on a conic; the four displayed cubics span their
+    anticanonical system. Direct polynomial substitution verifies both the cubic
+    surface equation and the five-degree parametrization. A later computation
+    should independently verify the quadrisecant configuration before using this
+    chosen coordinate model for a claim specific to the historical curve.
+
+research_implications:
+  - "The first geometric subproblem is now: characterize containing surfaces not carrying a complete curve disjoint from C, starting with smooth surfaces of low degree."
+  - "The HP smooth cubic gives codepth-related modification-of-affine information but cannot supply the desired first coregular element."
+  - "The two-cubics-plus-quartic presentation is a control example for residual components and should not be conflated with radical generation by two forms."
+uncertainties:
+  - "The literature check is focused, not MathSciNet/zbMATH exhaustive through 2026."
+  - "The coordinate model realizes the cited divisor configuration, but its identification with a unique projective-equivalence class called Vahlen's quintic has not been independently classified."
+
+relations:
+  - type: refines
+    target: ARTIFACT-20260821-011
+    explanation: "Replaces the rank-one direction's generic first step with an exact known-model exclusion and a narrowed next branch."
+    confidence: high
+  - type: elaborates
+    target: ARTIFACT-20260821-005
+    explanation: "Makes the affine-complement method's one-surface limitation explicit on Vahlen's quintic."
+    confidence: high
+  - type: derived_from
+    target: LIT-20260821-031
+    explanation: "Uses the primary source's divisor classes and complement equivalence."
+    confidence: high
+conceptual_neighborhoods: [NEIGHBORHOOD-20260821-004, NEIGHBORHOOD-20260821-005]
+history_events: [EVENT-20260821-013]
+
+provenance:
+  created_by: /root/vahlen_literature_check
+  created_at: "2026-08-21T00:00:00-04:00"
+  task_id: MOVE-20260821-006
+  input_artifacts: [ARTIFACT-20260821-004, ARTIFACT-20260821-005, ARTIFACT-20260821-011, LIT-20260821-031]
+  context_projection: "This is a projection of the project state, not the complete project."
+  objective: "Provide verified exact input and a nonredundant bounded target for the Vahlen affine-complement investigation."
+  method: "Primary-source page inspection, intersection-theoretic reconstruction, and exact rational linear-algebra construction of one computational model."
+  reasoning_summary: "The cited cubic is useful precisely because it fails affineness visibly; the remaining open existential quantifier therefore moves to other containing surfaces."
+  computation_or_external_sources: ["https://arxiv.org/pdf/1907.05472"]

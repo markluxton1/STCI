@@ -1,0 +1,90 @@
+id: LIT-20260822-013
+type: literature_result
+title: Jaffe's local type of an ordinary node met by a smooth curve
+
+bibliographic_identity:
+  authors:
+    - David B. Jaffe
+  title: Applications of iterated curve blowup to set theoretic complete intersections in P3
+  year: 1994
+  venue: arXiv preprint
+  doi_or_identifier: "arXiv:alg-geom/9410008"
+  url: "https://arxiv.org/html/alg-geom/9410008v1"
+
+discovery:
+  mode: literature_recall
+  search_record_ids:
+    - LITSEARCH-20260822-005
+  search_terms:
+    - A_{1,1}
+    - local type ordinary node smooth curve
+    - Proposition 5.2
+  conceptual_path: >
+    Targeted rereading of the already-retrieved primary source after explicit
+    exceptional quartics were found with nondegenerate quadratic singularities
+    along C4.
+
+inspection:
+  level: theorem
+  portions_inspected:
+    - Theorem 4.1, classification of rational-double-point surface--curve pairs
+    - Section 5, definition of phi(n,k)
+    - Proposition 5.2, type(A_{n,k})=phi(n,k)
+    - the local normal form used in the proof of Proposition 5.2
+  access_notes: The open arXiv HTML primary source was re-inspected directly.
+
+content: |
+  In characteristic zero, Jaffe classifies a local-geometric pair consisting of
+  a rational double point surface and a smooth curve on it. For an A_n surface
+  singularity, the pair is A_{n,k}; its iterated blowup type is phi(n,k).
+  Since phi(1,1)=(1), an ordinary double point A_1 met by a smooth curve has
+  local type contribution (1), with all subsequent entries zero. The global type
+  is the sum of these local contributions.
+
+  This is a local statement. It does not assert that an arbitrary globally
+  defined surface with nodes is an s.t.c.i. member, nor does it control
+  non-rational or non-isolated surface singularities.
+relevant_results_or_ideas:
+  - An A_1 point on C contributes one unit to p1 and nothing to p2,p3,... .
+  - The type depends on the surface--curve pair, not merely the ADE label in general.
+  - Higher p_i can therefore distinguish an ordinary-node exceptional divisor from a viable certificate singularity configuration.
+unresolved_questions:
+  - Which non-A_1 local pairs can occur on the determinantal exceptional quartic locus?
+  - Can their summed type meet the degree-(4,5) inequalities while remaining compatible with the length-five transverse intersection?
+superseded_by: []
+
+epistemic_status: literature_supported
+lifecycle_status: active
+significance: >
+  Supplies the precise source-backed interpretation of the explicit local quadratic
+  calculations, rather than treating the number of nodes as a proxy for all
+  iterated type data.
+
+relations:
+  - type: supports
+    target: ARTIFACT-20260822-029
+    explanation: Converts the locally verified A1 germs into type contributions (1).
+    confidence: high
+  - type: specializes
+    target: LIT-20260822-012
+    explanation: Provides the local rational-double-point input needed to evaluate a special case of Jaffe's general p_i inequalities.
+    confidence: high
+conceptual_neighborhoods:
+  - NEIGHBORHOOD-20260822-008
+history_events:
+  - EVENT-20260822-032
+provenance:
+  created_by: /root
+  created_at: "2026-08-22T09:42:00-04:00"
+  task_id: MOVE-20260822-007
+  input_artifacts:
+    - ARTIFACT-20260822-025
+    - ARTIFACT-20260822-028
+  context_projection: PROJ-20260822-006
+  objective: Interpret the explicit exceptional quartic germs in the iterated-type language already active in the project.
+  method: Targeted primary-source rereading followed by direct substitution n=k=1 in the stated type recursion.
+  reasoning_summary: >
+    The source supplies the analytic classification and type formula; the project
+    separately verifies that the explicit germs have nondegenerate quadratic term.
+  computation_or_external_sources:
+    - "https://arxiv.org/html/alg-geom/9410008v1"

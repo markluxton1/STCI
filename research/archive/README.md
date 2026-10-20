@@ -6,6 +6,7 @@ For current claims read [the canonical state](../STATE.md), [current frontier](.
 
 ## Post-consolidation layout
 
+- [Space Curves I–VI intake](space-curves-2026-10-19/README.md): selective external-project evidence, provenance hashes, proposed uses and review boundaries; no canonical promotions.
 - [Ultra source notes index](ULTRA_SOURCE_NOTES_INDEX.md): historical index; the imported originals now also live at [research/notes](../notes/).
 - [Ultra computations index](ULTRA_COMPUTATIONS_INDEX.md): historical index; original scripts are available at [research/computations](../computations/).
 - [Ultra validation inventory](ULTRA_VALIDATION_RECURSIVE_INVENTORY.md): historical inventory; original evidence remains in [research/validation](../validation/).
