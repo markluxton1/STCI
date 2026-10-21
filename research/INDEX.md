@@ -37,6 +37,10 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Ultra historical intake](archive/ULTRA_INTAKE.md) — copied dated handoffs and updates, not current authority
 - [Archived reports](archive/reports/AUDITED_STATE_2026-10-06.md) — preserved snapshots
 
+
+- [October 21 unpromoted Z4 mechanism and independent audit](notes/2026-10-21-z4-general-mechanism-independent-audit.md) — precise boundaries of divided powers, quadratic gluing, and actual-CI defect-twisted vanishing
+- [October 21 conditional (2,12;6,16;2) independent review](notes/2026-10-21-conditional-2-12-conductor-and-chart-independent-review.md) — audited chart exclusions, remaining loci, and certificate boundaries
+
 ## Reading and maintenance rules
 
 Read the relevant result or question record **before** relying on an index summary. Confirm its hypotheses, status, evidence, and limitations. Some legacy state and frontier prose may still require reconciliation with later audited notes; use [authority rules](AUTHORITY.md) rather than treating a timestamp as decisive.
