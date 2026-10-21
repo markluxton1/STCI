@@ -1,7 +1,6 @@
 # Residual intersection cycles from the quasiprimitive lattice
 
-Date: 2026-10-05. Status: the (A\le D_{m-1}) bound is independently
-audited; the stronger pointwise cycle identity remains a proof candidate.
+Date: 2026-10-05. Status updated after independent audit: both the \(A\le D_{m-1}\) bound and the stronger pointwise cycle identity are proved under the stated saturated quasiprimitive filtration and proper residual-intersection hypotheses. See `2026-10-05-residual-cycle-audit.md` for the local determinant proof and precise limitations; the identity is one of length cycles, not of ideals or schemes.
 
 This note concerns a hypothetical complete-intersection multiple structure,
 not the existence of one. The calculation is local over the smooth reduced
