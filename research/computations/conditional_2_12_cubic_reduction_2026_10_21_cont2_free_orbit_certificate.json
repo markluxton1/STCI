@@ -1,0 +1,10 @@
+{
+  "status": "exact conditional free-orbit exclusion; independent review passed separately",
+  "returncode": 0,
+  "wall_seconds": 2.1039534580195323,
+  "source_sha256": "f9026ed3f87fd41581dcbd408d232c02d5957992eea28fb8c71f04b803d96137",
+  "output": "EIGHT_VARIABLE_FAMILY_EQUATIONS_READY\nEIGHT_VARIABLE_FAMILY_IDEAL_READY\nFREE_ORBIT_EXACT_IDEAL_EQUALITY_DIM0_DEG4_PASS\nCANDIDATE_FULL_C3_MODEL_READY\nFREE_ORBIT_FULL_GLOBAL_C3_RAW_UNIT_IDENTITY_PASS\n",
+  "scope": "d0*d4!=0 and no two D roots in one mu3 orbit; norm alpha from separately proposed actual Q-cycle theorem",
+  "unit_identity": "1=((162h^2-1)/4)*(648h^4+45h^2-4)+(81h^3+77h/8)*(E4-6E8)",
+  "boundary": "Endpoint zero and orbit collision roots retained separately"
+}

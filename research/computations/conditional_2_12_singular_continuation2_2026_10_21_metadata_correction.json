@@ -1,0 +1,23 @@
+{
+  "status": "metadata label correction; committed mathematical input unchanged",
+  "affected_metadata": "conditional_2_12_singular_continuation_2026_10_21.json",
+  "correct_equation_source": "conditional_2_12_singular_continuation_2026_10_21.m2",
+  "correct_equation_source_sha256": "5b955e2131deadbe3bd5b1f9ea2e118d99c51e800c506bc77f4cb315fdc3c13c",
+  "correct_original_names": [
+    "w",
+    "A1",
+    "D1",
+    "A2",
+    "D2",
+    "h4",
+    "h5",
+    "h6",
+    "h7",
+    "eta"
+  ],
+  "correct_norm_symbol_equations": [
+    "1/2*A1+D1+1/2*w*A2+w*D2+1/4*A1*A1*A1-1/2*A1*A1*D1-A1*D1*D1+2*D1*D1*D1+1/4*A2*A2*A2-1/2*A2*A2*D2-A2*D2*D2+2*D2*D2*D2",
+    "1/2*A1-2*D1-w*A2+w*D2-1/2*A1*A1*D1+2*A1*D1*D1-2*D1*D1*D1-1/4*A2*A2*A2+A2*A2*D2-A2*D2*D2"
+  ],
+  "defect": "The old exporter formatted JSON after mutating NAMES for line/w1 exports. Its .m2 equations and completed calculation inputs were formatted correctly before that mutation."
+}

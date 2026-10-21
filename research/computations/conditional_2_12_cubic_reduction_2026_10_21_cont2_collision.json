@@ -1,0 +1,27 @@
+{
+  "status": "new exact collision chart; no emptiness assertion",
+  "accepted_first_input_sha256": "39069e26fb5832ced9259a8007e65dff81c22ea178ee3cf3bdbdf0e8676d3dd0",
+  "D": "(z-1)(z-omega)(z^2+e*z+f)",
+  "normalization": "torus fixes one collision root to1; projective f scale makesDmonic",
+  "symbol_kernel": "(v0,v1,v2)=lambda*(-f,e,1)",
+  "deviation_coordinates": "v0=y0+d1/4,v1=y1-4t+d2/2,v2=y2+d3/4",
+  "rank_drop_boundary": "S=((omega+1)*e-f-omega)*(e^2-f)",
+  "boundary_meanings": [
+    "first factor: complete orbit {1,omega,omega^2}",
+    "second factor: residual quadratic itself is a mu3 pair"
+  ],
+  "qline_condition": "On f*S!=0, exact norm-alpha qline condition is rem_(z^2+e*z+f)(Dprime-12*z^2*G)=0, two equations",
+  "variables": [
+    "e",
+    "f",
+    "lambda",
+    "t",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "fInverse"
+  ],
+  "h_elimination": "Eight accepted first equations solve h0..3,h8..11 usinga2=1,c0=omega*f/4. f*fInverse=1 retains all endpoint-nonzero points.",
+  "limitations": "Endpointzero, completeorbit and two-pair boundary separately retained; no globalpair claim."
+}

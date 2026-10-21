@@ -1,0 +1,105 @@
+{
+  "status": "exact endpoint incidence presentations; no emptiness claimed",
+  "configuration": [
+    2,
+    12,
+    6,
+    16,
+    2
+  ],
+  "cases": [
+    {
+      "case": "m4",
+      "variables": [
+        "p",
+        "q",
+        "t",
+        "hh4",
+        "hh5",
+        "hh10",
+        "hh11",
+        "eta",
+        "iv",
+        "av"
+      ],
+      "root_open": [
+        "c2=t !=0",
+        "a0=2p-4t !=0"
+      ],
+      "D": "z^4",
+      "alpha": "z^8",
+      "first_equations": 9,
+      "cubic_equations": 33,
+      "file": "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_cont2_endpoint_m4_2026_10_21.m2"
+    },
+    {
+      "case": "m4_a0unit",
+      "variables": [
+        "q",
+        "t",
+        "hh4",
+        "hh5",
+        "hh10",
+        "hh11",
+        "eta",
+        "iv"
+      ],
+      "root_open": [
+        "c2=t !=0",
+        "a0=2p-4t !=0"
+      ],
+      "D": "z^4",
+      "alpha": "z^8",
+      "first_equations": 9,
+      "cubic_equations": 33,
+      "file": "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_cont2_endpoint_m4_a0unit_2026_10_21.m2"
+    },
+    {
+      "case": "m3_b0zero",
+      "variables": [
+        "p",
+        "t",
+        "hh4",
+        "hh5",
+        "hh10",
+        "hh11",
+        "eta",
+        "iv",
+        "av"
+      ],
+      "root_open": [
+        "c2=t !=0",
+        "a0=2p-4t !=0"
+      ],
+      "D": "z^3+z^4",
+      "alpha": "z^6-z^7+z^8",
+      "first_equations": 9,
+      "cubic_equations": 34,
+      "file": "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_cont2_endpoint_m3_b0zero_2026_10_21.m2"
+    },
+    {
+      "case": "m3_b0nonzero",
+      "variables": [
+        "p",
+        "q",
+        "t",
+        "hh4",
+        "hh5",
+        "hh6",
+        "hh11",
+        "eta",
+        "iv"
+      ],
+      "root_open": [
+        "b0 !=0"
+      ],
+      "D": "z^3+z^4",
+      "alpha": "z^6-z^7+z^8",
+      "first_equations": 12,
+      "cubic_equations": 42,
+      "file": "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_cont2_endpoint_m3_b0nonzero_2026_10_21.m2"
+    }
+  ],
+  "authority": "new proposal; endpoint reduction and norm multiplier necessity require separate audited arguments",
+  "preserves_singular_roots": true
+}

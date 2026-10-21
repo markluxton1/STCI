@@ -1,0 +1,13 @@
+{
+  "status": "PASS: exact rational residual-set comparison and explicit polynomial unit identity",
+  "coefficient_field": "QQ",
+  "residual_sets_equal_up_to_nonzero_rational_scalar": true,
+  "distinct_residuals": 8,
+  "tiny_identity": "1=((162h^2-1)/4)*(648h^4+45h^2-4)+(81h^3+77h/8)*(E4-6E8)",
+  "E4": "3eta/4+369h/16-891h^3/2",
+  "E8": "eta/8+27h/32-81h^3/4",
+  "source_specialization_sha256": "71b406ba070db70050d35318387aa1ceafe7a013544b3d7f127cb6d78dcf99f8",
+  "worker_candidates_sha256": "55c547bb93f03cd93e94df31ceac590f5aa2881cdff813efbd8cb4214864f5e4",
+  "uses_groebner_for_unit_check": false,
+  "scope": "degree-four first+quadric-cubic family on d0*d4*detJ!=0 only; endpoint and orbitcollision strata retained"
+}

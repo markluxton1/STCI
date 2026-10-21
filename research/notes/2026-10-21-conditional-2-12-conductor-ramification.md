@@ -292,6 +292,18 @@ nodal or two-node gluing conditions by normalization data.
 
 ## 7. Exact local escape at a root node
 
+**Correction flagged by independent reviewer `surface_bound` on 2026-10-21:**
+the displayed map below obtained by adjoining `y=w/(z-t^3)` is NOT finite
+at the origin: its fiber there contains the affine `y`-line. Consequently
+it is not the finite normalization, and the ensuing assertions about its
+conductor and normalization singularities must not be used. The equation
+`F=z*p+t^10` and the existence of its nonnormal curve remain correct local
+countermodels. The correction and a genuinely integral normalization
+candidate are recorded in
+[the continuation audit](2026-10-21-conditional-2-12-surface-audit-cont2.md).
+This defect is confined to the nodal example; sections 2--6 use the monic
+`x^2` normalization calculation and do not divide by a nonunit coefficient.
+
 The local calculations do not remove the second stratum in (14). For
 example
 

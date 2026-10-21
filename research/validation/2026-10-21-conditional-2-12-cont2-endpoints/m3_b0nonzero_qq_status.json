@@ -1,0 +1,13 @@
+{
+  "case": "m3_b0nonzero",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/validation/2026-10-21-conditional-2-12-cont2-endpoints/m3_b0nonzero_qq.m2"
+  ],
+  "elapsed_seconds": 0.8350486660201568,
+  "returncode": 0,
+  "stop_reason": "finished",
+  "cpu_limit_seconds": 30,
+  "coefficient_field": "QQ"
+}

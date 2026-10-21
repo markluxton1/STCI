@@ -1,0 +1,8 @@
+{
+  "status": "finite-field exploration only",
+  "returncode": -24,
+  "wall_seconds": 26.378140082990285,
+  "cpu_limit_seconds": 30,
+  "field": "GF1009,omega374",
+  "output": ""
+}
