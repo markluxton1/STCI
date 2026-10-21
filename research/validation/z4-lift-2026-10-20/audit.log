@@ -1,0 +1,7 @@
+PASS independent ZZ raw rational-chart cocycle with arbitrary r,s
+C1 = a*h^2+3*b^2*h-5*b*d*h+3*d^2*h
+C2 = 4*a*b*h-4*a*d*h+3*b^3-11*b^2*d+14*b*d^2-6*d^3
+C3 = a^2*h+9*a*b^2-23*a*b*d+15*a*d^2
+PASS independent quadratic nilpotent-coordinate gauge identity
+PASS independent universal middle coefficient = 2 modulo 4
+ALL INDEPENDENT Z4 OBSTRUCTION CHECKS PASS

@@ -1,0 +1,20 @@
+{
+  "classification": "finite-field diagnostic only; no characteristic-zero certificate",
+  "modulus": 32003,
+  "source": "research/computations/conditional_2_12_cubic_reduction_2026_10_21.m2",
+  "source_sha256": "aabe44d99ee150705a9fb9243831aebf5bfd2c1d96624fa040504d2945bcd121",
+  "input_sha256": "1d2785c8ef1a3435e866d38512858aa3c4e93affdd32ec47279760626accb663",
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "/Users/markluxton/Projects/STCI/research/validation/2026-10-21-conditional-2-12-elimination/qline_ff_probe.m2"
+  ],
+  "cpu_soft_seconds": 30,
+  "cpu_hard_seconds": 32,
+  "wall_limit_seconds": 45,
+  "wall_seconds": 21.36299266599235,
+  "wall_timeout": false,
+  "returncode": -24,
+  "gb_completed": false,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

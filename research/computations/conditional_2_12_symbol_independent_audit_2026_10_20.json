@@ -1,0 +1,18 @@
+{
+  "status": "independent exact audit PASS for the new symbol map",
+  "producer_not_imported": true,
+  "source_dimension_by_independent_derivatives": 23,
+  "source_basis_independent_ambient_rank": 23,
+  "source_basis_has_vanishing_zeroth_and_first_jets": true,
+  "second_symbol_by_independent_binomial_formula_matches": true,
+  "cubic_layer_by_independent_binomial_formula_matches": true,
+  "image_dimension": 22,
+  "annihilator_dimension": 11,
+  "all_eleven_annihilators_kill_full_symbol_matrix": true,
+  "new_seed_membership_rank": 8,
+  "new_membership_jacobian_rank_using_accepted_first_jacobian_input": 26,
+  "new_seed_cubic_system_rank": 39,
+  "new_seed_cubic_augmented_rank": 40,
+  "new_seed_cubic_witness_pairing": -384,
+  "scope": "The new rational linear map only; no ambient incidence emptiness or global realization is asserted."
+}

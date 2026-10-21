@@ -1,0 +1,39 @@
+{
+  "status": "factor-coordinate exact export and proper diagonal-slice computation input",
+  "full_two_node_parameters": [
+    "A1",
+    "B1",
+    "C1",
+    "D1",
+    "A2",
+    "B2",
+    "C2",
+    "D2",
+    "h0",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "h7",
+    "h8",
+    "h9",
+    "h10",
+    "h11"
+  ],
+  "full_two_node_open": "Delta1*Delta2*(tau^2-4delta) != 0",
+  "full_two_node_torsion": "tau*(tau^2-delta)*(tau^2-2delta)*(tau^2-3delta)*((tau^2-2delta)^2-3delta^2)=0",
+  "diagonal_slice": "f=(t1*u+z*v)*(t2*u+z*v), t1*t2*(t1-t2)!=0",
+  "diagonal_g0": {
+    "(1, 2, 0)": "-h4-h11*t1-h11*t2",
+    "(0, 3, 0)": "-h10",
+    "(3, 0, 0)": "0",
+    "(2, 1, 0)": "-h5*t1-h5*t2",
+    "(3, 0, 1)": "0",
+    "(2, 1, 1)": "0",
+    "(1, 2, 1)": "-h5",
+    "(0, 3, 1)": "-h11"
+  },
+  "full_coverage_claimed": false
+}
