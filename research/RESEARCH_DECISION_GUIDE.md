@@ -12,6 +12,12 @@ This is a **navigation and prioritization guide**, not a new theorem, proof audi
 | Restricted reduction | Projection phase/torsion-coset criterion | [STCI-R-0004](results/projection_phase_reduction.md) | Computation of actual phase images is still missing |
 | Conditional infinitesimal toolkit | Smooth-root formal obstruction, actual-CI bridge, quadratic obstruction, spectral Picard criterion, pure-power degeneration | [STCI-R-0005 through 0009](results/INDEX.md) | Powerful only with exact hypotheses; not an arbitrary-STCI exclusion |
 
+## New accepted but scope-limited constraints (October 21)
+
+The [reconciliation decision](RECONCILIATION_2026-10-21.md) accepts [STCI-R-0012–0019](results/INDEX.md). The arithmetic prescribed-Z4 nonlifting theorem (R0012) is not unrestricted characteristic-zero nonexistence. The actual-generator theorem R0013 rules out movement one *only* under saturated/full generic binary-CI hypotheses; R0014 gives six necessary movement-two numerical rows and R0015 proves finiteness at each movement through eight, not arbitrary classification. R0016 quantifies **nonsaturated** first-relation/resultant defects; R0019 gives a **saturated curvilinear finite-flat** pointwise residual-cycle determinant formula and first-normal bound. R0017 excludes a degree-sixteen plane-normalization *subfamily*; R0018 excludes all-orders roots only with a **regular lifted formal surface**.
+
+**Recommended interface:** attempt a rigorously specified map from the R0016 defect sheaves/resultant divisor to a R0019 residual length cycle for an actual homogeneous pair of degrees at least five, proving any finite-flat/curvilinear/properness assumptions and retaining special-point corrections. Do not equate local graded realizability, a vertical exceptional cycle, or arithmetic candidates with a global STCI realization. The general shared-singular-point claim is unproved.
+
 ## Research viewpoints and agent discretion (editorial guidance, not theorem)
 
 The broader question can start from \(C_0\subset V(F,G)_{\mathrm{red}}\) with no common surface component, without imposing STCI in advance. Write \([V(F,G)]=m[C_0]+R\) and \(de=4m+\deg R\). An STCI has \(R=0\); conversely, forcing \(R\ne0\) excludes an STCI presentation for the chosen pair. Exceptional vertical curves do not automatically imply residual components downstairs.

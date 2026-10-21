@@ -38,3 +38,12 @@ The split4 and split22 promoted verifiers support exact reductions and named str
 ## Excluded historical checks
 
 The historical localcoh symbol parity/seed Macaulay2 checks with the faulty quartic-basis construction are not theorem certificates and were not promoted.
+
+
+## October 20–21 Z4 arithmetic lift — STCI-R-0012
+
+[Canonical scope](../results/prescribed_z4_arithmetic_nonlifting.md), [source proof](../notes/2026-10-20-z4-characteristic-zero-lifting-report.md), [independent Macaulay2 audit](../notes/2026-10-20-z4-lift-independent-audit.md). Exact scripts: `verify_z4_local_structure_2026_10_20.m2`, `verify_z4_global_quartics_2026_10_20.m2`, `verify_z4_quartic_obstruction_2026_10_20.py`, `audit_z4_lift_2026_10_20.m2`. Check `validation/z4-lift-2026-10-20/` logs for prior recorded runs. These certify exact identities and the mod-four polynomial congruence, not the deformation reduction by themselves. No expensive computation was rerun during this promotion.
+
+## Actual-generator movement — STCI-R-0014 and R0015
+
+`global_ci_small_movement_divisor_audit.py` checks the **necessary arithmetic system**, including the six movement-two rows and counts for epsilon 1–8. The exhaustive mathematical proof is in [the generator investigation](../notes/2026-10-19-global-ci-filtration-investigation.md) and [fixed-movement audit](../notes/2026-10-19-global-ci-filtration-independent-audit.md). Neither a Picard-descent test nor a witness for an actual STCI is certified.

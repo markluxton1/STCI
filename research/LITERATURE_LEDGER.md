@@ -537,3 +537,8 @@ R\longrightarrow H^0(I_R(1,3))\longrightarrow H^0(O_{2R}(6))
 and the associated ruling-fiber degeneration are retained as an STCI-specific geometric synthesis in this repository. The present literature check did not locate this exact mechanism as a published theorem. This is not a novelty claim: absence from the checked literature is weaker than proof of originality.
 
 Accordingly, future work should describe the general philosophy of dependent infinitesimal/jet conditions as standard background and reserve any novelty language for precisely stated STCI-specific lemmas after a dedicated literature check.
+
+
+## October 21 accepted-interface references
+
+The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
