@@ -1,0 +1,42 @@
+PASS: all 35 quartic monomials; 17 independent support equations
+PASS: full quartic ideal has an integral 18-column difference basis
+PASS: first normal image rank 17; combined rank 34; kernel is q^2
+Exact support constraints: for each j, sum of listed coefficients = 0
+       4
+(0, {x0 })
+       3
+(1, {x0 x1})
+       2  2
+(2, {x0 x1 })
+       3         3
+(3, {x0 x2, x0*x1 })
+       3      2         4
+(4, {x0 x3, x0 x1*x2, x1 })
+       2            2
+(5, {x0 x1*x3, x0*x1 x2})
+       2  2       2      3
+(6, {x0 x2 , x0*x1 x3, x1 x2})
+       2               2    3
+(7, {x0 x2*x3, x0*x1*x2 , x1 x3})
+       2  2                 2  2
+(8, {x0 x3 , x0*x1*x2*x3, x1 x2 })
+             2       3    2
+(9, {x0*x1*x3 , x0*x2 , x1 x2*x3})
+           2      2  2       3
+(10, {x0*x2 x3, x1 x3 , x1*x2 })
+              2       2
+(11, {x0*x2*x3 , x1*x2 x3})
+           3          2    4
+(12, {x0*x3 , x1*x2*x3 , x2 })
+           3    3
+(13, {x1*x3 , x2 x3})
+        2  2
+(14, {x2 x3 })
+           3
+(15, {x2*x3 })
+        4
+(16, {x3 })
+PASS: integral normal expansions of original F and G
+ALL UNRESTRICTED GLOBAL QUARTIC CHECKS PASS
+PASS: exact integral ribbon gluing (X,Y^2) and (A-4cB/3,B^2)
+ALL RIBBON LIFT CHECKS PASS

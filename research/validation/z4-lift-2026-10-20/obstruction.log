@@ -1,0 +1,7 @@
+PASS: exact integral raw normal transition and all quotient parameters
+PASS: arbitrary local quadratic embedding corrections cancel
+PASS: complete cocycle and H^1(O(-4)) coordinates
+C1 = h*(a*h + 3*b**2 - 5*b*d + 3*d**2)
+C2 = (b - d)*(4*a*h + 3*b**2 - 8*b*d + 6*d**2)
+C3 = a*(a*h + 9*b**2 - 23*b*d + 15*d**2)
+PASS: prescribed reduction forces C2 = 2 (mod 4), for all corrections

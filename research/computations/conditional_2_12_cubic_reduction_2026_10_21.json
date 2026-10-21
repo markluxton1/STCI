@@ -1,0 +1,86 @@
+{
+  "status": "new exact q-line reduction; no emptiness assertion",
+  "input": "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_elimination_2026_10_20.py",
+  "input_sha256": "66d8c0d841cc12d664b5188f72c943d85411e3c0617aeb4d6f0cef96c9277713",
+  "chart": "d0=d4=1 finite projective/torus cover over nonzero endpoints",
+  "variables": [
+    "d1",
+    "d2",
+    "d3",
+    "y0",
+    "y1",
+    "y2",
+    "y3",
+    "h4",
+    "h5",
+    "h6",
+    "h7"
+  ],
+  "equations": {
+    "K1": 8,
+    "norm_symbol": 3,
+    "qline": 4
+  },
+  "simple_qline": "rem_D(Dprime-12*z^2*G)",
+  "all_strata_qline": "rem_D(alpha*(Dprime-12*z^2*G)); equivalent to rem_D(Nprime_T(z^3)-4*alpha*G) since 3*z^2 is a unit modulo D with D0=1",
+  "alpha_multiplication_matrix": [
+    [
+      "3-3*d2*d2+6*d2*d3*d3-3*d3*d3*d3*d3",
+      "-6*d3+3*d1*d3*d3+6*d2*d2*d3-9*d2*d3*d3*d3+3*d3*d3*d3*d3*d3",
+      "-3*d2+9*d3*d3+3*d1*d2*d3+3*d2*d2*d2-6*d1*d3*d3*d3-12*d2*d2*d3*d3+12*d2*d3*d3*d3*d3-3*d3*d3*d3*d3*d3*d3",
+      "12*d2*d3+3*d1*d2*d2-12*d3*d3*d3-12*d1*d2*d3*d3-9*d2*d2*d2*d3+9*d1*d3*d3*d3*d3+21*d2*d2*d3*d3*d3-15*d2*d3*d3*d3*d3*d3+3*d3*d3*d3*d3*d3*d3*d3"
+    ],
+    [
+      "-3*d2*d3-3*d1*d2*d2+3*d3*d3*d3+6*d1*d2*d3*d3-3*d1*d3*d3*d3*d3",
+      "3-6*d1*d3-3*d2*d2+6*d2*d3*d3+3*d1*d1*d3*d3+6*d1*d2*d2*d3-3*d3*d3*d3*d3-9*d1*d2*d3*d3*d3+3*d1*d3*d3*d3*d3*d3",
+      "-6*d3-3*d1*d2+12*d1*d3*d3+6*d2*d2*d3+3*d1*d1*d2*d3+3*d1*d2*d2*d2-9*d2*d3*d3*d3-6*d1*d1*d3*d3*d3-12*d1*d2*d2*d3*d3+3*d3*d3*d3*d3*d3+12*d1*d2*d3*d3*d3*d3-3*d1*d3*d3*d3*d3*d3*d3",
+      "-3*d2+9*d3*d3+15*d1*d2*d3+3*d2*d2*d2+3*d1*d1*d2*d2-18*d1*d3*d3*d3-12*d2*d2*d3*d3-12*d1*d1*d2*d3*d3-9*d1*d2*d2*d2*d3+12*d2*d3*d3*d3*d3+9*d1*d1*d3*d3*d3*d3+21*d1*d2*d2*d3*d3*d3-3*d3*d3*d3*d3*d3*d3-15*d1*d2*d3*d3*d3*d3*d3+3*d1*d3*d3*d3*d3*d3*d3*d3"
+    ],
+    [
+      "3*d2-3*d3*d3-3*d1*d2*d3-3*d2*d2*d2+3*d1*d3*d3*d3+6*d2*d2*d3*d3-3*d2*d3*d3*d3*d3",
+      "-9*d2*d3-3*d1*d2*d2+3*d3*d3*d3+9*d1*d2*d3*d3+6*d2*d2*d2*d3-3*d1*d3*d3*d3*d3-9*d2*d2*d3*d3*d3+3*d2*d3*d3*d3*d3*d3",
+      "3-6*d1*d3-6*d2*d2+15*d2*d3*d3+3*d1*d1*d3*d3+9*d1*d2*d2*d3+3*d2*d2*d2*d2-3*d3*d3*d3*d3-15*d1*d2*d3*d3*d3-12*d2*d2*d2*d3*d3+3*d1*d3*d3*d3*d3*d3+12*d2*d2*d3*d3*d3*d3-3*d2*d3*d3*d3*d3*d3*d3",
+      "-6*d3-3*d1*d2+12*d1*d3*d3+18*d2*d2*d3+3*d1*d1*d2*d3+6*d1*d2*d2*d2-21*d2*d3*d3*d3-6*d1*d1*d3*d3*d3-24*d1*d2*d2*d3*d3-9*d2*d2*d2*d2*d3+3*d3*d3*d3*d3*d3+21*d1*d2*d3*d3*d3*d3+21*d2*d2*d2*d3*d3*d3-3*d1*d3*d3*d3*d3*d3*d3-15*d2*d2*d3*d3*d3*d3*d3+3*d2*d3*d3*d3*d3*d3*d3*d3"
+    ],
+    [
+      "6*d3-3*d1*d3*d3-6*d2*d2*d3+9*d2*d3*d3*d3-3*d3*d3*d3*d3*d3",
+      "3*d2-9*d3*d3-3*d1*d2*d3-3*d2*d2*d2+6*d1*d3*d3*d3+12*d2*d2*d3*d3-12*d2*d3*d3*d3*d3+3*d3*d3*d3*d3*d3*d3",
+      "-12*d2*d3-3*d1*d2*d2+12*d3*d3*d3+12*d1*d2*d3*d3+9*d2*d2*d2*d3-9*d1*d3*d3*d3*d3-21*d2*d2*d3*d3*d3+15*d2*d3*d3*d3*d3*d3-3*d3*d3*d3*d3*d3*d3*d3",
+      "3-6*d1*d3-6*d2*d2+27*d2*d3*d3+3*d1*d1*d3*d3+12*d1*d2*d2*d3+3*d2*d2*d2*d2-15*d3*d3*d3*d3-27*d1*d2*d3*d3*d3-21*d2*d2*d2*d3*d3+12*d1*d3*d3*d3*d3*d3+33*d2*d2*d3*d3*d3*d3-18*d2*d3*d3*d3*d3*d3*d3+3*d3*d3*d3*d3*d3*d3*d3*d3"
+    ]
+  ],
+  "alpha_multiplication_determinant": "81*orbitDeterminant^2",
+  "orbit_determinant": "1-3*d1*d3-2*d2*d2+3*d1*d1*d3*d3+d1*d2*d2*d3+d2*d2*d2*d2-d1*d1*d2*d2*d2-d2*d2*d2*d3*d3-d1*d1*d1*d3*d3*d3+d1*d1*d2*d2*d3*d3",
+  "symbol_Schur_matrix": [
+    [
+      "d2-d1*d1",
+      "-d1",
+      "1"
+    ],
+    [
+      "-2*d1+d2*d3",
+      "-1-d1*d3+d2*d2",
+      "2*d3-d1*d2"
+    ],
+    [
+      "1",
+      "d3",
+      "d2-d3*d3"
+    ]
+  ],
+  "symbol_free_coordinates": "y0,T=y1-4*y3,y2; y3 remains free and adds4*y3*(u+z*v/2)^2",
+  "orbit_resultant_identity": "orbitDeterminant=Res_z(z^3-omega^2*d2*z+d1,-omega*d2*z^2+omega^2*d2*d3*z+1-d1*d3), omega^2+omega+1=0",
+  "simple_qline_remainders": [
+    "-1/2*d1+3/2*y0-3/2*d2*h5-3/2*d3*h4-3*y1*h5-3*y2*h4+6*y3*h5-24*d1*y3*h7-48*y0*y3*h7-48*y3*y3*h6+3*d1*d1*d1*h7+18*d1*d1*y0*h7+12*d1*d1*y3*h6+36*d1*y0*y0*h7+48*d1*y0*y3*h6+24*y0*y0*y0*h7+48*y0*y0*y3*h6",
+    "2*d2+9/2*y1-12*y3+3/2*h4+3*d1*y0-3*y0*y0-3/2*d1*d2*h5-3/2*d1*d3*h4-3*d1*y1*h5-3*d1*y2*h4+6*d1*y3*h5-48*y3*y3*h7+12*d1*d1*y3*h7+96*d1*y0*y3*h7+48*d1*y3*y3*h6+144*y0*y0*y3*h7+192*y0*y3*y3*h6-6*d1*d1*d1*y0*h7-36*d1*d1*y0*y0*h7-24*d1*d1*y0*y3*h6-72*d1*y0*y0*y0*h7-96*d1*y0*y0*y3*h6-48*y0*y0*y0*y0*h7-96*y0*y0*y0*y3*h6",
+    "3*d3+9/2*y2+3/2*h5-3/2*d1*d2+6*d1*y3+3/2*d1*h4+3/2*d2*y0-9*y0*y1+18*y0*y3-3*d1*d1*y0-3*d1*y0*y0-3/2*d2*d2*h5-3/2*d2*d3*h4-3*d2*y1*h5-3*d2*y2*h4+6*d2*y3*h5+6*y0*y0*y0-24*d1*d2*y3*h7+96*d1*y3*y3*h7-48*d2*y0*y3*h7-48*d2*y3*y3*h6+288*y0*y3*y3*h7+192*y3*y3*y3*h6+3*d1*d1*d1*d2*h7-12*d1*d1*d1*y3*h7+18*d1*d1*d2*y0*h7+12*d1*d1*d2*y3*h6-144*d1*d1*y0*y3*h7-48*d1*d1*y3*y3*h6+36*d1*d2*y0*y0*h7+48*d1*d2*y0*y3*h6-432*d1*y0*y0*y3*h7-384*d1*y0*y3*y3*h6+24*d2*y0*y0*y0*h7+48*d2*y0*y0*y3*h6-384*y0*y0*y0*y3*h7-576*y0*y0*y3*y3*h6+6*d1*d1*d1*d1*y0*h7+48*d1*d1*d1*y0*y0*h7+24*d1*d1*d1*y0*y3*h6+144*d1*d1*y0*y0*y0*h7+144*d1*d1*y0*y0*y3*h6+192*d1*y0*y0*y0*y0*h7+288*d1*y0*y0*y0*y3*h6+96*y0*y0*y0*y0*y0*h7+192*y0*y0*y0*y0*y3*h6",
+    "-1/2-3/2*d1*d3-3*d1*y2+9/2*d2*y1-12*d2*y3+3/2*d2*h4+3/2*d3*y0+3*y0*y2-3*y0*h5+9*y1*y1-42*y1*y3+48*y3*y3-6*y3*h4+3/2*d1*d1*d2+3*d1*d1*y1-6*d1*d1*y3+3/2*d1*d2*y0+3*d1*y0*y1-6*d1*y0*y3-3/2*d2*d3*h5-3*d2*y0*y0-3/2*d3*d3*h4-3*d3*y1*h5-3*d3*y2*h4+6*d3*y3*h5-6*y0*y0*y1+12*y0*y0*y3-24*d1*d3*y3*h7-48*d1*y2*y3*h7-48*d2*y3*y3*h7-48*d3*y0*y3*h7-48*d3*y3*y3*h6-96*y0*y2*y3*h7-96*y1*y3*y3*h7-96*y2*y3*y3*h6+192*y3*y3*y3*h7+3*d1*d1*d1*d3*h7+6*d1*d1*d1*y2*h7+36*d1*d1*d2*y3*h7+18*d1*d1*d3*y0*h7+12*d1*d1*d3*y3*h6+36*d1*d1*y0*y2*h7+72*d1*d1*y1*y3*h7+24*d1*d1*y2*y3*h6-144*d1*d1*y3*y3*h7+144*d1*d2*y0*y3*h7+96*d1*d2*y3*y3*h6+36*d1*d3*y0*y0*h7+48*d1*d3*y0*y3*h6+72*d1*y0*y0*y2*h7+288*d1*y0*y1*y3*h7+96*d1*y0*y2*y3*h6-576*d1*y0*y3*y3*h7+192*d1*y1*y3*y3*h6-384*d1*y3*y3*y3*h6+144*d2*y0*y0*y3*h7+192*d2*y0*y3*y3*h6+24*d3*y0*y0*y0*h7+48*d3*y0*y0*y3*h6+48*y0*y0*y0*y2*h7+288*y0*y0*y1*y3*h7+96*y0*y0*y2*y3*h6-576*y0*y0*y3*y3*h7+384*y0*y1*y3*y3*h6-768*y0*y3*y3*y3*h6-3*d1*d1*d1*d1*d2*h7-6*d1*d1*d1*d1*y1*h7+12*d1*d1*d1*d1*y3*h7-24*d1*d1*d1*d2*y0*h7-12*d1*d1*d1*d2*y3*h6-48*d1*d1*d1*y0*y1*h7+96*d1*d1*d1*y0*y3*h7-24*d1*d1*d1*y1*y3*h6+48*d1*d1*d1*y3*y3*h6-72*d1*d1*d2*y0*y0*h7-72*d1*d1*d2*y0*y3*h6-144*d1*d1*y0*y0*y1*h7+288*d1*d1*y0*y0*y3*h7-144*d1*d1*y0*y1*y3*h6+288*d1*d1*y0*y3*y3*h6-96*d1*d2*y0*y0*y0*h7-144*d1*d2*y0*y0*y3*h6-192*d1*y0*y0*y0*y1*h7+384*d1*y0*y0*y0*y3*h7-288*d1*y0*y0*y1*y3*h6+576*d1*y0*y0*y3*y3*h6-48*d2*y0*y0*y0*y0*h7-96*d2*y0*y0*y0*y3*h6-96*y0*y0*y0*y0*y1*h7+192*y0*y0*y0*y0*y3*h7-192*y0*y0*y0*y1*y3*h6+384*y0*y0*y0*y3*y3*h6"
+  ],
+  "all_strata_qline_term_counts": [
+    1012,
+    1415,
+    1573,
+    1382
+  ],
+  "limitations": "Endpoint-zero strata remain outside this finite normalization chart. Norm-alpha necessity is a separate proposed Q-cycle theorem; no global pair is constructed."
+}

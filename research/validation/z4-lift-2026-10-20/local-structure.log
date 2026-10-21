@@ -1,0 +1,22 @@
+C kernel and saturation PASS over QQ
+C generators: matrix {{-x1*x2+x0*x3, x1^3-x0^2*x2, -x0*x2^2+x1^2*x3, x2^3-x1*x3^2}}
+C Hilbert polynomial: new ProjectiveHilbertPolynomial from {0 => -3, 1 => 4}
+C kernel and saturation PASS over ZZ/2
+C generators: matrix {{x1*x2+x0*x3, x1^3+x0^2*x2, x0*x2^2+x1^2*x3, x2^3+x1*x3^2}}
+C Hilbert polynomial: new ProjectiveHilbertPolynomial from {0 => -3, 1 => 4}
+Z4 saturated, radical C, I_C^4 contained, I_C^3 not contained: PASS
+Z4 Hilbert polynomial: new ProjectiveHilbertPolynomial from {0 => -48, 1 => 16}
+Z1 saturated ideal: matrix {{x1*x2+x0*x3, x2^3+x1*x3^2, x0*x2^2+x1^2*x3, x1^3+x0^2*x2}}
+Z1 Hilbert polynomial: new ProjectiveHilbertPolynomial from {0 => -3, 1 => 4}
+Z2 saturated ideal: matrix {{x0*x2^2+x1^2*x3, x2^4+x0*x3^3, x1^2*x2^2+x0^2*x3^2, x1^4+x0^3*x3}}
+Z2 Hilbert polynomial: new ProjectiveHilbertPolynomial from {0 => -12, 1 => 8}
+Z3 saturated ideal: matrix {{x2^4+x0*x3^3, x1^4+x0^3*x3, x1^2*x2^3+x0*x1*x2^2*x3+x1^3*x3^2+x0^2*x2*x3^2, x0*x1*x2^3+x1^3*x2*x3+x0^2*x2^2*x3+x0*x1^2*x3^2, x1^3*x2^2+x0^2*x2^3+x0*x1^2*x2*x3+x0^2*x1*x3^2}}
+Z3 Hilbert polynomial: new ProjectiveHilbertPolynomial from {0 => -27, 1 => 12}
+Z4 saturated ideal: matrix {{x2^4+x0*x3^3, x1^4+x0^3*x3}}
+Z4 Hilbert polynomial: new ProjectiveHilbertPolynomial from {0 => -48, 1 => 16}
+U chart ideal (F,G)=(X,Y^4): PASS
+V chart ideal (F,G)=(A,B^4): PASS
+Complete transitions, inverse transitions, and multiplication: PASS
+Coefficient transition Hasse formula checked for c^m B^j, 0<=m<=12, 0<=j<=3: PASS
+Ambient normal-coordinate expansions over ZZ through cubic degree: PASS
+ALL LOCAL/GLOBAL STRUCTURE CHECKS PASS

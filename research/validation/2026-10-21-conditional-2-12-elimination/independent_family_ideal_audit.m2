@@ -1,0 +1,11 @@
+load "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_elimination_2026_10_21.m2";
+familyRing=QQ[d1,d2,d3,t,h4,h5,h6,h7,MonomialOrder=>GRevLex];
+familyAugmented=sub(augmented,familyRing);
+familyEquations=familyAugmented*transpose matrix{{h4,h5,h6,h7,1}};
+familyIdeal=ideal familyEquations;
+claimedIdeal=ideal(h6,h5,h4+2*h7,d3,d2-16*t+12*h7,d1,24*t*h7-1,256*t^2-72*h7^2-5,216*h7^3-32*t+15*h7);
+assert(familyIdeal==claimedIdeal);
+assert(dim familyIdeal==0);
+assert(degree familyIdeal==4);
+print "INDEPENDENT_FAMILY_IDEAL_EQUALITY_PASS_DIM0_DEGREE4";
+print gens gb familyIdeal;

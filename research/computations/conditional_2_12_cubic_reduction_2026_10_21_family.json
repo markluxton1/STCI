@@ -1,0 +1,44 @@
+{
+  "status": "new exact free-orbit reduction, not emptiness",
+  "input_sha256": "b37107d632f2e7e0e2edc1ce1d5a086022281cb3f46af24a7bf8b3470c17f7cf",
+  "symbol_solution": {
+    "y0": "-d1/4",
+    "y1": "4*y3-d2/2",
+    "y2": "-d3/4"
+  },
+  "f": "a=(4t,d3/2,1), b=(-d1/4,4t-d2/2,-d3/4), c=(1/4,d1/8,t)",
+  "symmetric_curve": "8*f(z,-w/2,1)=(8t+d3*z+2*z^2)*w^2+(d1+(2*d2-16t)*z+d3*z^2)*w+(2+d1*z+8t*z^2)",
+  "variables": [
+    "d1",
+    "d2",
+    "d3",
+    "y3",
+    "h4",
+    "h5",
+    "h6",
+    "h7"
+  ],
+  "equations": {
+    "K1": 8,
+    "qline": 4
+  },
+  "term_counts": {
+    "K1": [
+      20,
+      18,
+      18,
+      22,
+      22,
+      18,
+      18,
+      20
+    ],
+    "qline": [
+      7,
+      10,
+      18,
+      19
+    ]
+  },
+  "limitations": "Equivalent symbol family only on orbit determinant nonzero; qline simple equivalence has the same open. Boundary not discarded."
+}

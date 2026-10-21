@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/validation/2026-10-21-conditional-2-12-elimination/bounded_corrected_schur_discD_qq.m2"
+  ],
+  "elapsed_seconds": 2.0672282080049627,
+  "returncode": 0,
+  "stop_reason": "finished",
+  "cpu_limit_seconds": 30,
+  "coefficient_field": "QQ",
+  "certificate_obtained": false,
+  "draft_validity": "corrected J; Cramer cancellation independently asserted by exact sparse arithmetic",
+  "stratum": "DiscD=0, symbolDet*pivotDet!=0"
+}

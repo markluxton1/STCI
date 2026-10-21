@@ -1,0 +1,35 @@
+{
+  "status": "new compact original-coordinate generic two-node reduction; no elimination claimed",
+  "chart": "B1=B2=C1=1,C2=w,w^3=1; finite cover by factor scales and actual C0 torus",
+  "generic_open": "B1*B2*C1*C2*kappa1*kappa2*Delta1*Delta2*(tau^2-4delta)!=0 before normalization",
+  "remaining_boundary_strata": [
+    "kappa1=kappa2=0",
+    "B1*B2*C1*C2=0 with both kappa nonzero",
+    "integral nodal roots",
+    "smooth roots"
+  ],
+  "excluded_mixed_kappa": "exactly one kappa zero forces that factor to be the quadric direction",
+  "norm_symbol_equations": [
+    "1/2*a+x+1/2*w*h4+w*h5+1/4*a*a*a-1/2*a*a*x-a*x*x+2*x*x*x+1/4*h4*h4*h4-1/2*h4*h4*h5-h4*h5*h5+2*h5*h5*h5",
+    "1/2*a-2*x-w*h4+w*h5-1/2*a*a*x+2*a*x*x-2*x*x*x-1/4*h4*h4*h4+h4*h4*h5-h4*h5*h5"
+  ],
+  "first_count": 8,
+  "eliminated_first_rows": [
+    0,
+    1,
+    2,
+    3,
+    12,
+    13,
+    14,
+    15
+  ],
+  "first_free_h": [
+    "h4",
+    "h5",
+    "h6",
+    "h7"
+  ],
+  "spectral_torsion": "tau*(tau^2-delta)*(tau^2-2delta)*(tau^2-3delta)*((tau^2-2delta)^2-3delta^2)=0",
+  "global_cube_uses_actual_22_by_22_symbol_splitting": true
+}

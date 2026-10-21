@@ -1,0 +1,26 @@
+{
+  "status": "exact scoped mathematical certificate; independently audited",
+  "scope": "li=ti*u+z*v, t1*t2*(t1-t2)!=0; proper two-node slice",
+  "P": "(T-2)*(3*T^2-4*T+12)",
+  "exact_contraction": [
+    "P(t1)+P(t2)",
+    "(t1-t2)*P(t2)"
+  ],
+  "forced_h": {
+    "h9": "-7/2-3*(t1+t2)/8",
+    "h2": "(3*(t1+t2)^2-10*(t1+t2)-6*t1*t2)/8"
+  },
+  "other_h_may_be_zero": true,
+  "ordered_distinct_first_points": 6,
+  "normalized_torsion_nonvanishing": [
+    {
+      "trace_squared_over_determinant": "8/3",
+      "normalized_Q12_over_trace": "230/243"
+    },
+    {
+      "trace_squared_over_determinant": "4/9",
+      "normalized_Q12_over_trace": "75670/59049"
+    }
+  ],
+  "conclusion": "No spectral torsion point on this proper first-compatible diagonal slice"
+}

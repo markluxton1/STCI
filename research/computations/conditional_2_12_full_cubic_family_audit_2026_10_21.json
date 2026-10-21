@@ -1,0 +1,8 @@
+{
+  "status": "new independent full-cubic specialization; no result asserted until M2 run",
+  "original_full_cubic_equations": 48,
+  "nonzero_after_specialization": 24,
+  "distinct_up_to_scalar": 24,
+  "coefficient_field": "QQ",
+  "family": "d1=d3=0,d2=16t-12h,y0=y2=0,y1=6h-4t,y3=t,h4=-2h,h5=h6=0,h7=h,24th=1,648h^4+45h^2-4=0"
+}

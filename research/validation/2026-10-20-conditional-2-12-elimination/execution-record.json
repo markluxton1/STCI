@@ -1,0 +1,18 @@
+{
+  "status": "exact compact reduction and bounded process outcomes; no emptiness or nonemptiness certificate",
+  "inherited_outputs_modified": false,
+  "model_load": "passed; COMPACT_BASE_MODEL_READY and COMPACT_CUBIC_EQUATIONS=48",
+  "files": {
+    "research/computations/conditional_2_12_elimination_2026_10_20.py": "66d8c0d841cc12d664b5188f72c943d85411e3c0617aeb4d6f0cef96c9277713",
+    "research/computations/conditional_2_12_elimination_2026_10_20.m2": "58fd047d5540cd0915ca237ea461ab47ae51f856caa7bc8bf8ca619b62b2b78f",
+    "research/computations/conditional_2_12_elimination_2026_10_20.json": "d75e5fe43303090277d5aa95728ec9c1f62835a2155e3a0a8ed2c296f504b9ae",
+    "research/validation/2026-10-20-conditional-2-12-elimination/reduced_cubic_model_snapshot.m2": "58fd047d5540cd0915ca237ea461ab47ae51f856caa7bc8bf8ca619b62b2b78f"
+  },
+  "bounded_status_files": [
+    "research/validation/2026-10-20-conditional-2-12-elimination/bounded_base_qq_status.json",
+    "research/validation/2026-10-20-conditional-2-12-elimination/bounded_compact_base_qq_status.json",
+    "research/validation/2026-10-20-conditional-2-12-elimination/bounded_qq_status.json",
+    "research/validation/2026-10-20-conditional-2-12-elimination/bounded_reduced_base_qq_status.json",
+    "research/validation/2026-10-20-conditional-2-12-elimination/bounded_reduced_cubic_qq_status.json"
+  ]
+}

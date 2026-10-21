@@ -1,0 +1,8 @@
+{
+  "exit_code": -15,
+  "reason": "time_limit_60s",
+  "seconds": 60.02,
+  "maxrss_bytes": 1445625856,
+  "log": "research/computations/conditional_2_12_singular_continuation_2026_10_20_general_patch.log",
+  "scope": "A1=A2=1 factor patch only; direct first-only input"
+}

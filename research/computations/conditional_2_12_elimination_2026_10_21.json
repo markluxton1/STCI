@@ -1,0 +1,41 @@
+{
+  "status": "new exact necessary Schur chart; no computation completion claimed",
+  "coefficient_field": "QQ",
+  "root_parameters": [
+    "d1",
+    "d2",
+    "d3",
+    "t=c2"
+  ],
+  "endpoint_chart": "d0=d4=1",
+  "inverted_new_determinants": [
+    "symbolDet",
+    "pivotDet"
+  ],
+  "pivot_rows": [
+    0,
+    1,
+    4,
+    5
+  ],
+  "matrix_shape": [
+    12,
+    5
+  ],
+  "rows": "8 first-incidence equations,4 exact all-strata quadric-cubic remainder equations",
+  "quadric_condition": "rem_D(N_T_prime(z^3)-4alpha*G)=0, N(z^3)=Dalpha",
+  "denominators": "each entire row multiplied by a sufficient power of symbolDet before extracting matrix; exact on symbolDet !=0",
+  "unresolved_boundaries": [
+    "d0*d4=0",
+    "symbolDet=0",
+    "pivotDet=0"
+  ],
+  "no_K2_or_torsion_imposed": true,
+  "old_export_sha256": "66d8c0d841cc12d664b5188f72c943d85411e3c0617aeb4d6f0cef96c9277713",
+  "qline_term_counts": [
+    17,
+    24,
+    46,
+    92
+  ]
+}

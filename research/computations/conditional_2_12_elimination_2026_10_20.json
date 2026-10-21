@@ -1,0 +1,33 @@
+{
+  "status": "new compact chart, not an emptiness claim",
+  "chart": "d0=d4=1 finite cover of nonzero endpoints under projective scaling and C0 torus",
+  "f_coordinates": "a=(d2+2y1-4y3,d3+2y2,d4); b=(y0,y1,y2); c=(d0/4,d1/4+y0/2,y3)",
+  "alpha": "U^2+V^2+W^2-UV-UW-VW; U=d0+d3*z^3,V=d1*z+d4*z^4,W=d2*z^2",
+  "validity": "alpha_can imposed. The quadric-intersection norm argument is a separate proof obligation for its necessity on every actual pair; the elementary factorization proves necessity on four distinct free mu3-orbits.",
+  "symbol_nonzero_rows_zero_based": [
+    3,
+    6,
+    9
+  ],
+  "cubic_syzygy_equation_count": 48,
+  "ambient_variables_after_normalization_and_h_collapse": 13,
+  "base_equations": 12,
+  "retained_h_variables": [
+    "h4",
+    "h5",
+    "h6",
+    "h7"
+  ],
+  "eliminated_first_equations_verified_zero": [
+    0,
+    1,
+    2,
+    3,
+    12,
+    13,
+    14,
+    15
+  ],
+  "inherited_generator_sha256": "e63f11092deb618f4b3138b86bc71c80100f4321cd14966f72b95b9a6e71748b",
+  "no_groebner_in_exporter": true
+}

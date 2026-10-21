@@ -1,0 +1,52 @@
+{
+  "status": "exact reductions independently reviewed; no elimination or realization certificate",
+  "configuration": [
+    2,
+    12,
+    6,
+    16,
+    2
+  ],
+  "commands_completed": [
+    {
+      "command": "python3 research/computations/conditional_2_12_symbol_map_2026_10_20.py",
+      "result": "source23 target33 image22 annihilator11 kernel kq^3; seed cubic ranks39,40"
+    },
+    {
+      "command": "python3 research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py",
+      "result": "PASS independent first-jet, source, second-symbol and cubic reconstruction"
+    },
+    {
+      "command": "python3 research/computations/conditional_2_12_structured_incidence_2026_10_20.py",
+      "result": "173 core variables195 equations; optional73 next global lift equations; no elimination"
+    },
+    {
+      "command": "/opt/homebrew/bin/M2 --script research/computations/conditional_2_12_structured_incidence_2026_10_20.m2",
+      "result": "exit0 MODEL_READY; equations loaded only; no emptiness computation"
+    },
+    {
+      "command": "python3 research/computations/validate_records.py",
+      "result": "12 canonical records;0 errors; metadata integrity only"
+    }
+  ],
+  "new_files_local_links_checked": 37,
+  "new_files_whitespace_issues": [],
+  "files": {
+    "research/computations/conditional_2_12_structured_incidence_2026_10_20.json": "366e73901955fe548489d862f290bc431cc515aa8da864943e668b9c2b3f4cde",
+    "research/computations/conditional_2_12_structured_incidence_2026_10_20.m2": "32aab7b0d5fe06035c00bf64f5f55e70a1cda1c5b469decb1ddc02dd1bb7c1a3",
+    "research/computations/conditional_2_12_structured_incidence_2026_10_20.py": "6680e9d43bec249073599df6c1358bd1750b09f7462b4f0f97c3903c930069e5",
+    "research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.json": "5c19a3971f08b99e33f899ee7b99be67f19f59eea89264f457e56ce46010224e",
+    "research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py": "5b9dd71215c5dfacf15953809acf13aa2bd4746c686c202b89bcb20584231788",
+    "research/computations/conditional_2_12_symbol_map_2026_10_20.json": "06d352e09f6592315922b68e1b1469e4490d53d431a57b3ec605b171a7abd1d4",
+    "research/computations/conditional_2_12_symbol_map_2026_10_20.py": "d74755e25dba2b56419d85ded1f489c849898b39fdb16e3191da982ea8adf84a",
+    "research/notes/2026-10-20-conditional-2-12-global-realization-incidence.md": "d916513178953d621f93beb46375e0864f6868210fdf5faaa47752d78a09ad30",
+    "research/notes/2026-10-20-conditional-2-12-incidence-audit.md": "0cd77fa36ef31eca1e4826207a08c5b1b71d28255ca7c5dc66dc590506ee15de",
+    "research/notes/2026-10-20-conditional-2-12-singular-gluing.md": "d67520a4a79ff587e72e3a95f521099bc9b4f301538f49c7a7befd777db6803d",
+    "research/notes/2026-10-20-conditional-2-12-symbol-map.md": "e49fe5a829a0ef73932fad8fe09c34210efe95088e6fd294c35ead3ebdf3569b"
+  },
+  "accepted_proof_verifiers_replayed": false,
+  "global_elimination_performed": false,
+  "nonempty_combined_incidence_claimed": false,
+  "canonical_records_modified": false,
+  "final_independent_review": "PASS exact reductions, including main assembled note, rank22 minor48, new tangent rank26, seed cubic ranks39/40 with pairing-384; no emptiness/nonemptiness/realization asserted"
+}

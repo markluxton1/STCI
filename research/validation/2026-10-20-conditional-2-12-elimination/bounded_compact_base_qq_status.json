@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/opt/homebrew/bin/M2",
+    "--script",
+    "research/validation/2026-10-20-conditional-2-12-elimination/bounded_compact_base_qq.m2"
+  ],
+  "elapsed_seconds": 43.181215040996904,
+  "returncode": -24,
+  "stop_reason": "finished",
+  "cpu_limit_seconds": 60,
+  "certificate_obtained": false
+}
