@@ -11,7 +11,9 @@ scope:
     - "Full generic ordinary initial algebra a coprime binary CI of degrees 2<=r<s"
     - "First actual kernel K_r=R(-D), R its line-subbundle saturation, D effective; saturated filtration and generation lengths c_j as in source"
 statement: "The quotient-relation resultant defines an effective divisor Delta supported on first-relation saturation defects, with deg Delta=(r-1)c_(s-1)-r*c_s and 0<=deg Delta<=(r-1)*binom(s-r,2)*length(D). For gaps s-r<=2 normal flatness follows, without assuming the first kernel is saturated."
-dependencies: ["STCI-R-0010","STCI-R-0011"]
+dependencies:
+  - STCI-R-0010
+  - STCI-R-0011
 evidence:
   - "research/notes/2026-10-19-first-relation-defect-investigation.md"
   - "research/notes/2026-10-19-filtered-generic-ci-normal-flatness.md"

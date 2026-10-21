@@ -10,7 +10,8 @@ scope:
     - "Full reduced finite-flat effective Cartier root Z of class (2,r), r>=2"
     - "Compatible all-orders embedded Cartier lifts define a formal surface regular at every point of the full Z"
 statement: "No such all-orders formal Cartier lift exists. In particular, any surviving all-orders Cartier lift of a reduced singular movement-two root must have a singular formal surface at some point of that root."
-dependencies: ["STCI-R-0005"]
+dependencies:
+  - STCI-R-0005
 evidence:
   - "research/notes/2026-10-19-singular-root-investigation.md"
 independent_audits:

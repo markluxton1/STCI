@@ -10,7 +10,12 @@ scope:
     - "All hypotheses of STCI-R-0013"
     - "Movement epsilon=2"
 statement: "The unordered necessary numerical quadruples (r,s;a,b) are exactly (2,8;8,8), (2,12;6,16), (6,21;18,28), (14,42;48,49), (15,45;50,54), (20,60;64,75). These are necessary arithmetic candidates, not geometric STCI realizations."
-dependencies: ["STCI-R-0001","STCI-R-0008","STCI-R-0010","STCI-R-0011","STCI-R-0013"]
+dependencies:
+  - STCI-R-0001
+  - STCI-R-0008
+  - STCI-R-0010
+  - STCI-R-0011
+  - STCI-R-0013
 evidence:
   - "research/notes/2026-10-19-global-ci-filtration-investigation.md"
 independent_audits:

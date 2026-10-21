@@ -10,7 +10,8 @@ scope:
     - "All hypotheses of STCI-R-0013"
     - "Fixed integer movement 1<=epsilon<=8"
 statement: "For each fixed epsilon in 1,...,8 only finitely many numerical tuples (r,s;a,b) satisfy the necessary actual-generator identities and degree bounds; the exact unordered arithmetic counts are respectively 0,6,4,11,9,19,9,19."
-dependencies: ["STCI-R-0013"]
+dependencies:
+  - STCI-R-0013
 evidence:
   - "research/notes/2026-10-19-global-ci-filtration-investigation.md"
 independent_audits:

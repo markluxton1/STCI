@@ -10,7 +10,9 @@ scope:
     - "Basepoint-free plane map [s^4:s^3t:st^3+alpha*z^4:t^4+zP_3(s,t,z)], alpha nonzero"
     - "For normalization statement, A_3 or C_1 coefficient of P_3 is nonzero, ensuring birationality"
 statement: "The specified birational open family gives finite normalizations P2 -> integral degree-sixteen carrier surfaces with full reduced inverse support of C0 equal to z=0, but none admits an ambient homogeneous mate of positive degree. A broader two-fixed-coordinate full-singleton sublane has the same no-mate property."
-dependencies: ["STCI-R-0002","STCI-R-0003"]
+dependencies:
+  - STCI-R-0002
+  - STCI-R-0003
 evidence:
   - "research/notes/2026-10-19-singleton-projection-investigation.md"
 independent_audits:

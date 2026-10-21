@@ -11,7 +11,9 @@ scope:
     - "Full generic ordinary initial ideal a coprime binary complete intersection of degrees 2<=r<s"
     - "Actual first degree-r kernel R is a line subbundle (saturated); write R=O(-7r-epsilon), epsilon>=0"
 statement: "The actual-generator sequence 0 -> T -> O(-4a)⊕O(-4b) -> R -> 0, where deg T=-7s+s*epsilon/r, is nonsplit; both original equations have exact generic normal order r, and no such STCI has epsilon=1. Necessary identities: ab=4rs, 4(a+b)=7(r+s)-epsilon(s-r)/r, r divides epsilon*s."
-dependencies: ["STCI-R-0001","STCI-R-0010"]
+dependencies:
+  - STCI-R-0001
+  - STCI-R-0010
 evidence:
   - "research/notes/2026-10-19-global-ci-filtration-investigation.md"
 independent_audits:
