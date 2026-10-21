@@ -26,6 +26,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 - [Certificate map](certificates/README.md) — scope-indexed exact certificates
 - [Computation scripts](computations/README.md) — scripts and their verification boundaries
+- [Prescribed characteristic-two Z4 lifting investigation](notes/2026-10-20-z4-characteristic-zero-lifting-report.md) — independently audited obstruction for this embedded Z4; not a promoted result record
 - [October 20 normal-filtration research report](notes/2026-10-20-normal-filtration-research-report.md) — provisional actual-generator, defect, root, and carrier investigations; not canonical promotions
 - [Space Curves I–VI intake](archive/space-curves-2026-10-19/README.md) — evaluated historical imports, proposed additions, source audits and explicit review gaps
 - [Chronological research record](RESEARCH_RECORD.md) — dated activity and provenance
