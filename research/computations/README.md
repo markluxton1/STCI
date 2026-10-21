@@ -188,3 +188,14 @@ The authoritative current status is `../AUDITED_STATE_2026-10-06.md`. The consol
 Do **not** use `localcoh-symbol-paritycheck.m2` or `localcoh-symbol-seedcheck.m2` as theorem certificates; their quartic-basis construction was faulty and they are intentionally absent from the consolidation diff.
 
 The older scratch references below are historical instructions from earlier research phases. They are not part of the 2026-10-06 promoted certificate set.
+
+## Prescribed characteristic-two Z4 lifting checks (2026-10-20)
+
+The [focused report](../notes/2026-10-20-z4-characteristic-zero-lifting-report.md) records the reviewed scope and proofs separately from its exact computations.
+
+- `verify_z4_local_structure_2026_10_20.m2` checks the homogeneous ideals, saturation, full characteristic-two multiplication and cubic normal transitions.
+- `verify_z4_global_quartics_2026_10_20.m2` covers all 35 global quartic coefficients and the explicit ribbon control lift.
+- `verify_z4_quartic_obstruction_2026_10_20.py` derives the full integral cocycle.
+- `audit_z4_lift_2026_10_20.m2` independently reconstructs it over ZZ and checks the universal congruence over ZZ/4.
+
+These checks address the prescribed embedded Z4 and its integral lifting obstruction, not every characteristic-zero multiple structure or the unrestricted STCI question. See the report for commands and limitations.
