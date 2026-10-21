@@ -199,3 +199,10 @@ The [focused report](../notes/2026-10-20-z4-characteristic-zero-lifting-report.m
 - `audit_z4_lift_2026_10_20.m2` independently reconstructs it over ZZ and checks the universal congruence over ZZ/4.
 
 These checks address the prescribed embedded Z4 and its integral lifting obstruction, not every characteristic-zero multiple structure or the unrestricted STCI question. See the report for commands and limitations.
+
+
+## Canonical scope pointers (2026-10-21 reconciliation)
+
+- [STCI-R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) uses the four Z4 scripts listed above; preserved verification logs are in `../validation/z4-lift-2026-10-20/`. The proofs of flat-CI persistence and forced triple are mathematical, not CAS certifications.
+- [STCI-R-0014](../results/movement_two_six_rows.md) and [STCI-R-0015](../results/fixed_small_movement_finiteness.md) use `global_ci_small_movement_divisor_audit.py` for exact necessary arithmetic candidates; the exhaustive divisor argument is in the cited proof/audit notes.
+- [STCI-R-0016](../results/nonsaturated_first_relation_resultant.md) and [STCI-R-0019](../results/quasiprimitive_residual_cycles.md) are proof/audit-based results, not assertions of completed global elimination computations.

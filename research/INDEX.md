@@ -26,8 +26,9 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 - [Certificate map](certificates/README.md) — scope-indexed exact certificates
 - [Computation scripts](computations/README.md) — scripts and their verification boundaries
-- [Prescribed characteristic-two Z4 lifting investigation](notes/2026-10-20-z4-characteristic-zero-lifting-report.md) — independently audited obstruction for this embedded Z4; not a promoted result record
-- [October 20 normal-filtration research report](notes/2026-10-20-normal-filtration-research-report.md) — provisional actual-generator, defect, root, and carrier investigations; not canonical promotions
+- [October 21 canonical audit and promotion](RECONCILIATION_2026-10-21.md) — IDs R0012–R0019, exact scopes, and unresolved interfaces
+- [Prescribed characteristic-two Z4 lifting investigation](notes/2026-10-20-z4-characteristic-zero-lifting-report.md) — independently audited obstruction for this embedded Z4; now promoted only in the exact R0012 scope
+- [October 20 normal-filtration research report](notes/2026-10-20-normal-filtration-research-report.md) — source proofs for scope-limited promoted R0013–R0018 (historically provisional)
 - [Space Curves I–VI intake](archive/space-curves-2026-10-19/README.md) — evaluated historical imports, proposed additions, source audits and explicit review gaps
 - [Chronological research record](RESEARCH_RECORD.md) — dated activity and provenance
 - [Ultra computation inventory](archive/ULTRA_COMPUTATIONS_INDEX.md) and [validation directory inventory](archive/ULTRA_VALIDATION_INDEX.md)
