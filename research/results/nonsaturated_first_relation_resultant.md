@@ -30,6 +30,7 @@ limitations:
   - "The formula is conditional on full generic binary CI and actual lci with unique support; it is not a general STCI obstruction."
   - "Nonsaturated roots may pay an effective degeneration divisor, rather than being excluded."
   - "Local gap-three counterexamples do not establish global homogeneous examples."
+  - "R0010 is a comparison/special case, not an input establishing the nonsaturated resultant formula; R0011 is used only for the optional repeated-root strengthening."
 ---
 
 # Effective resultant budget for nonsaturated actual first relations
@@ -44,7 +45,7 @@ The quotient-relation resultant defines an effective divisor Delta supported on 
 
 ## Proof, verification, and acceptance
 
-Saturated Gorenstein duality computes the quotient relation line and the degree of its resultant section; the independent audit reconstructs the defect sheaves, signs, support and gap-two local classification. The source separately supplies the stronger pure-power defect payment with the denominator restriction s-r>=2. R0010 covers the zero-defect saturated special case; this record does not weaken its assumptions.
+The principal formula uses the separately proved saturated Gorenstein-duality and local exact-order normal-flatness lemmas listed as evidence, not R0010 applied to a nonsaturated first relation. R0010 is a comparison theorem for the zero-defect saturated case; R0011 enters only the additional repeated-root payment argument. Saturated Gorenstein duality computes the quotient relation line and the degree of its resultant section; the independent audit reconstructs the defect sheaves, signs, support and gap-two local classification. The source separately supplies the stronger pure-power defect payment with the denominator restriction s-r>=2. R0010 covers the zero-defect saturated special case; this record does not weaken its assumptions.
 
 Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above. Scope acceptance for this promotion is documented in [the reconciliation decision](../RECONCILIATION_2026-10-21.md); that decision does not replace the source proof.
 
