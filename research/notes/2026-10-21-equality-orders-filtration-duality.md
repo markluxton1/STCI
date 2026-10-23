@@ -24,6 +24,13 @@ Z is Gorenstein and ω_Z=O_Z(d+e-4). Generic local algebra A=O_{Z,η_C} is an Ar
 
 F=x1^4-x0³x3, G=x2^4-x0x3³. On x0=1, local coordinates t=x1,u=x2-t³,v=x3-t⁴ yield (v,(t³+u)^4-t¹²). In char 0 generic m=1, hence residual degree 12. In char 2 generic m=4, hence de=4m and reduced support exactly C. In char 2 first symbols of both equations are proportional (r=s=1 generically); this shows that r=s=1 does not imply m=1.
 
+## Canonical scope references
+
+- [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md) proves the characteristic-dependent conormal splitting used in the degree bound.
+- [STCI-R-0021](../results/quartic_mu4_degeneration.md) establishes the global characteristic benchmark for the specified quartic pair.
+- [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) and [STCI-R-0016](../results/nonsaturated_first_relation_resultant.md) concern restricted saturated/nonsaturated first-relation settings; the ordinary filtration and duality observations here do not assert their conclusions without those hypotheses.
+- The elementary Bézout residual-cycle identity is distinct from the conditional auxiliary-surface residual zero-cycle theorem [STCI-R-0019](../results/quasiprimitive_residual_cycles.md).
+
 ## Investigation priorities
 
 Understand constraints on possible generic Hilbert functions h_i given r,s and the local CI property; relate global degrees of Q_i, torsion, and χ to duality without assuming normal flatness; separate characteristic-sensitive normal bundle arguments. No search for counterexamples or numerical exclusion until these structures are clarified.
