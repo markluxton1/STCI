@@ -24,6 +24,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Verification and history
 
+- [October 23 (4,4) characteristic and conormal investigation](notes/2026-10-23-quartic-characteristic-conormal.md) — roots-of-unity degeneration, global quartic symbol maps, and an independently reviewed but unpromoted shorter filtered proof proposal
 - [Certificate map](certificates/README.md) — scope-indexed exact certificates
 - [Computation scripts](computations/README.md) — scripts and their verification boundaries
 - [October 21 canonical audit and promotion](RECONCILIATION_2026-10-21.md) — IDs R0012–R0019, exact scopes, and unresolved interfaces

@@ -1,0 +1,9 @@
+Integer normal expansion and exact elimination of X: PASS
+Characteristic two exact ideal (X,Y^4): PASS
+Generic initial ideals: char 0 (X,Y); char 2 (X,Y^4): PASS
+mu_4 equation P(u,u^3(z-1))=u^12(z^4-1): PASS
+Split factorization product_(zeta^4=1)(w-zeta)=w^4-1: PASS
+Global scheme decomposition into four distinct degree-four components over QQ(i): PASS
+Every pair has contact three at each endpoint: PASS
+Conormal extension cocycle -(2/3)*u^-1: PASS
+ALL NEW MU4 FAMILY CHECKS PASS
