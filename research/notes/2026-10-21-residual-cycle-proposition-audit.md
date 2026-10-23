@@ -4,6 +4,8 @@
 
 **Scope:** Arbitrary characteristic. Let \(C\subset\mathbf P^3\) be an integral curve of degree \(c\), and let \(F,G\) be homogeneous forms of degrees \(d,e\) with no common surface component, both vanishing on \(C\).
 
+The degree identity below is the elementary Bézout cycle identity for a proper complete intersection; it does **not** depend on [STCI-R-0019](../results/quasiprimitive_residual_cycles.md). R0019 is a separate, stronger *conditional* statement about residual zero-cycles on an auxiliary smooth surface, requiring finite-flat curvilinearity, a saturated invertible flag, and proper residual intersection.
+
 ## 1. Exact residual-cycle criterion
 
 Put \(Z=V_+(F,G)\). Since \((F,G)\) is a regular sequence, \(Z\) is a pure one-dimensional Cohen–Macaulay complete intersection. Write
