@@ -26,7 +26,7 @@ $$
 
 allowing \(\lambda_p=\infty\).
 
-**Important distinction:** \(m_C\) measures only the component \(C\) at its generic point. If \(A\) is finite over \(B\), the total generic-fiber dimension \(\dim_K(A\otimes_BK)\) can also include other components through \(p\), and need not equal \(m_C\).
+**Important distinction:** Define \(\rho_p=\dim_K(A\otimes_BK)\) when \(A\) is finite over \(B\). The number \(m_C\) measures only the component \(C\) at its generic point, whereas \(\rho_p\) measures the entire generic fiber and can include residual components through \(p\). The rings \(R[1/t]\) and \(K[[x,y]]\) are different: the latter is the completion of the former at its \((x,y)\)-adic maximal ideal. Thus \(m_C\) is the length of the completed local factor at \(C\), not automatically the total generic-fiber dimension.
 
 ## Criterion
 
@@ -42,7 +42,7 @@ More precisely, if \(\lambda_p<\infty\), then
 
 $$
 \boxed{
-\lambda_p=m_C+
+\lambda_p=\rho_p=m_C+
 \sum_{D\ne C}\operatorname{length}(\mathcal O_{V(J),\eta_D})\,
 \deg(D\longrightarrow\operatorname{Spec}B),
 }
@@ -57,10 +57,10 @@ Assume \(\lambda_p<\infty\). Since \(A/tA\) is Artinian, the formal finiteness/W
 $$
 \lambda_p=\dim_k(A/tA)
 =\operatorname{rank}_B(A)
-=\dim_K(A\otimes_BK).
+=\rho_p=\dim_K(A\otimes_BK).
 $$
 
-The finite generic fiber is Artinian and decomposes into local factors corresponding to the generic points of the curve components through \(p\). The factor at the generic point of \(C\) has length \(m_C\). All other factors have positive lengths, with field-extension degrees included in their \(K\)-dimensions. This gives the formula and shows that \(\lambda_p=m_C\) exactly when there is no other curve component.
+The finite generic fiber \(A\otimes_BK\) is Artinian. Its localization at the maximal ideal corresponding to \(C\), followed by completion, identifies with \(K[[x,y]]/(F,G)\); its \(K\)-dimension is \(m_C\). The other Artinian local factors correspond to residual components through \(p\) and have positive \(K\)-dimensions, incorporating residue-field degrees. This localization/completion step is essential: one must not identify \(R[1/t]\) with \(K[[x,y]]\). This gives the formula and shows that \(\lambda_p=m_C\) exactly when there is no other curve component.
 
 If \(\lambda_p=\infty\), then \(A/tA\) has positive dimension. Since \(A\) is one-dimensional Cohen–Macaulay and has no embedded associated primes, some one-dimensional component lies in \(t=0\). It cannot be \(C\), on which \(t\) is a parameter, so it is residual. Conversely, absence of residual components means \(\sqrt J=(x,y)\) locally; then \(A\) is finite over \(B\) and the preceding argument yields \(\lambda_p=m_C\).
 
