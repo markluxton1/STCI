@@ -29,6 +29,12 @@ The degree-d normal symbol of F of I-order r is a section of Sym^r(N_C^∨)⊗O_
 
 Related notes: [residual-cycle and wedge distinctions](2026-10-21-residual-cycle-proposition-audit.md); [special-fiber length and standard bases](2026-10-21-valuative-standard-basis-criterion.md); [orders, Hilbert filtration, and duality](2026-10-21-equality-orders-filtration-duality.md).
 
+## Canonical scope references
+
+- [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md): audited characteristic-dependent conormal splitting; the balanced formula above applies when the characteristic is not two.
+- [STCI-R-0021](../results/quartic_mu4_degeneration.md): audited global behavior of the prescribed quartic pair, including its four characteristic-zero components and characteristic-two support.
+- [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) and [STCI-R-0016](../results/nonsaturated_first_relation_resultant.md): conditional normal-flatness and first-relation-defect results; neither applies to arbitrary full initial ideals without its hypotheses.
+
 ## Priorities
 1. Compute a standard basis of the actual generic ideal for arbitrary candidate F,G and retain each cancellation certificate.
 2. Track denominators of certificates at closed points and formulate sheaf-valued graded relations with saturation.
