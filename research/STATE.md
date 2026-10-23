@@ -20,6 +20,10 @@ The principal characteristic-zero test curve is
 C_0=[s^4:s^3t:st^3:t^4]\subset \mathbf P^3.
 \]
 
+## October 23 characteristic comparison and shorter (4,4) proof — PROVED WITH FIXED SCOPE
+
+[STCI-R-0020](results/quartic_conormal_characteristic_jump.md) records the characteristic-dependent conormal splitting; [STCI-R-0021](results/quartic_mu4_degeneration.md) identifies the four characteristic-zero components of the prescribed quartic pair and their characteristic-two nonreduced coalescence. [STCI-R-0022](results/quartic_44_filtered_exclusion.md) gives a shorter characteristic-zero exclusion of the **degree pair (4,4)** using saturated Gorenstein filtration, complete primitive-triple orbit classification, and nonzero cubic-contact determinants. This does not replace the all-mate-degree theorem R0001, nor settle unrestricted STCI nonexistence. See [October 23 reconciliation](RECONCILIATION_2026-10-23-44.md).
+
 ## Integral quartic carriers of the fixed C0 — PROVED EXCLUDED
 
 Canonical theorem: [STCI-R-0001](results/quartic_carrier_exclusion.md). Over an algebraically closed field of characteristic zero, **no integral quartic surface containing this fixed C0 has a mate of any positive degree**. The accepted October 11 assembly and independent audit cover normal and nonnormal carriers and arbitrary mate degree. Together with the plane, quadric, cubic exclusions and the audited factor reduction, **both defining degrees of a hypothetical STCI presentation are at least five**. The unrestricted characteristic-zero STCI question remains open.

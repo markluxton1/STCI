@@ -1,7 +1,10 @@
 # Canonical results and legacy topic navigation
 
-**Current authority:** the nineteen ID-bearing STCI-R-0001 through STCI-R-0019 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
+**Current authority:** the twenty-two ID-bearing STCI-R-0001 through STCI-R-0022 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
 
+- **[STCI-R-0020 — Characteristic-dependent conormal splitting (proved)](quartic_conormal_characteristic_jump.md)**
+- **[STCI-R-0021 — Explicit mu4 degeneration (proved)](quartic_mu4_degeneration.md)**
+- **[STCI-R-0022 — Shorter filtered-contact (4,4) exclusion (proved, inherited inputs)](quartic_44_filtered_exclusion.md)**
 - **[STCI-R-0019 — Saturated quasiprimitive residual cycles and first-normal bound (proved, conditional)](quasiprimitive_residual_cycles.md)**
 - **[STCI-R-0018 — Reduced singular movement-two roots: regular-formal-surface obstruction (proved, conditional)](regular_singular_root_formal_obstruction.md)**
 - **[STCI-R-0017 — Degree-sixteen singleton plane subfamily: no mates (proved, fixed family)](singleton_plane_conductor_descent.md)**
@@ -28,4 +31,4 @@
 - [Entirely-thick presentations](entirely_thick.md)
 - [Jet geometry](jet_geometry.md)
 
-For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the nineteen ID-bearing records above.
+For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the twenty-two ID-bearing records above.

@@ -1,5 +1,26 @@
 # Exact computation checks
 
+## October 23 (4,4) characteristic comparison and filtered proof proposal
+
+The [research note](../notes/2026-10-23-quartic-characteristic-conormal.md)
+and [companion proof proposal](../notes/2026-10-23-quartic-44-filtered-proof-proposal.md)
+state the mathematical scope and inherited premises. These computations do
+not reprove the complete quartic-carrier theorem or promote a canonical result.
+
+- `verify_44_mu4_family_2026_10_23.m2` checks the integral normal expansion,
+  characteristic-two ideal, and characteristic-zero decomposition into four
+  quartics, including endpoint contact.
+- `verify_44_quartic_symbol_comparison_2026_10_23.py` uses only standard Python
+  to compare the complete degree-four first-symbol maps over the rationals
+  and characteristic two; their rank is seventeen and kernel is `k*q^2`.
+- `verify_44_filtered_contact_2026_10_23.py` uses SymPy to reconstruct the new
+  degree-three-defect contact spaces from all 35 quartic monomials and check
+  cubic-contact determinants. Primitive-direction completeness is an explicit
+  inherited accepted input, not a fresh classification certified by this script.
+
+Commands, PASS logs, and validation boundaries are in
+[`44-conormal-2026-10-23`](../validation/44-conormal-2026-10-23/README.md).
+
 The original verification scripts in this directory, together with the dated
 2026-10-05 companions and the preserved mixed-degree script under
 `../scratch/degree6`, use exact symbolic arithmetic in SymPy or Macaulay2;

@@ -1,0 +1,7 @@
+PASS: all degree-three e=0 defect annihilators on the three torus orbits
+PASS: complete open-orbit quartic contact space is <F0,F1>
+PASS: cubic contact determinant is 32*z*(z-2)*(z+2), not zero
+PASS: endpoint quartic contact spaces are D*S1 and A*S1
+RESULT: the (4,4), e=0 BF type cannot occur in characteristic zero
+PASS: inherited e=1 principal and algebraic quartic pencils have nonzero cubic contact determinants
+SCOPE: e=1 completeness and the quadric orbit remain inherited accepted inputs
