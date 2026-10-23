@@ -1,0 +1,40 @@
+name: Verify quartic (4,4) research
+on:
+  pull_request:
+    paths:
+      - 'research/computations/**'
+      - 'research/notes/2026-10-23-**'
+      - '.github/workflows/verify-quartic-44.yml'
+  workflow_dispatch:
+jobs:
+  exact-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'sympy==1.14.0'
+      - name: Verify quartic symbols
+        run: python research/computations/verify_44_quartic_symbol_comparison_2026_10_23.py
+      - name: Verify filtered contact
+        run: python research/computations/verify_44_filtered_contact_2026_10_23.py
+      - name: Independently audit contact
+        run: python research/computations/audit_44_filtered_contact_2026_10_23.py
+      - name: Verify inherited e1 classification
+        run: python research/computations/audit_mf6_e1_primitive_2026_10_07.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quartic-44-evidence
+          path: research/computations/audit_mf6_e1_primitive_2026_10_07.json
+  macaulay2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Macaulay2
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y macaulay2
+      - name: Verify mu4 degeneration
+        run: M2 --script research/computations/verify_44_mu4_family_2026_10_23.m2
