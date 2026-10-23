@@ -24,6 +24,14 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Verification and history
 
+- [October 23 higher-initial-ideals and valuations reconciliation](RECONCILIATION_2026-10-23-VALUATIONS.md) — four provisional notes, local criterion audit, and canonical-scope boundaries
+- [Equality, orders, filtration, and duality](notes/2026-10-21-equality-orders-filtration-duality.md) — provisional generic Hilbert-function framework
+- [Higher initial ideals and valuations](notes/2026-10-21-higher-initial-ideals-valuations.md) — cancellation examples and globalization limits
+- [Residual-cycle and wedge distinctions](notes/2026-10-21-residual-cycle-proposition-audit.md) — elementary cycle identity and tangent/singular cases
+- [Valuative standard-basis criterion](notes/2026-10-21-valuative-standard-basis-criterion.md) — local finite-free length comparison
+
+
+
 - [Certificate map](certificates/README.md) — scope-indexed exact certificates
 - [Computation scripts](computations/README.md) — scripts and their verification boundaries
 - [October 21 canonical audit and promotion](RECONCILIATION_2026-10-21.md) — IDs R0012–R0019, exact scopes, and unresolved interfaces
