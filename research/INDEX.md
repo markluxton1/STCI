@@ -24,6 +24,12 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Verification and history
 
+- [October 23 higher-initial-ideals and valuations reconciliation](RECONCILIATION_2026-10-23-VALUATIONS.md) — four provisional notes, local criterion audit, and canonical-scope boundaries
+- [Equality, orders, filtration, and duality](notes/2026-10-21-equality-orders-filtration-duality.md) — provisional generic Hilbert-function framework
+- [Higher initial ideals and valuations](notes/2026-10-21-higher-initial-ideals-valuations.md) — cancellation examples and globalization limits
+- [Residual-cycle and wedge distinctions](notes/2026-10-21-residual-cycle-proposition-audit.md) — elementary cycle identity and tangent/singular cases
+- [Valuative standard-basis criterion](notes/2026-10-21-valuative-standard-basis-criterion.md) — local finite-free length comparison
+
 - [October 23 (4,4) scoped promotion](RECONCILIATION_2026-10-23-44.md) — clean GitHub Actions evidence and separate records STCI-R-0020–0022
 
 - [October 23 (4,4) characteristic and conormal investigation](notes/2026-10-23-quartic-characteristic-conormal.md) — roots-of-unity degeneration, global quartic symbol maps, and an independently reviewed shorter filtered proof now scoped in STCI-R-0022
