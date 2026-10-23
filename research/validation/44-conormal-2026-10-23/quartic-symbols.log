@@ -1,0 +1,5 @@
+char0: rank17 in H0(O9)^2, defined by U1=2V2,U4=2V5,U7=2V8
+char2: rank17 in H0(O8) plus H0(O10), defined by B2=B5=B8=0
+both: dimension I_C(4)=18; kernel dimension=1, verified generator q^2
+Actual second-symbol degree4 image k*q^2; full target dimension9 in both characteristics
+ALL EXACT NEW SYMBOL COMPARISON CHECKS PASS
