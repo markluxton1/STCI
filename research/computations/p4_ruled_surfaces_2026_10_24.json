@@ -1,0 +1,240 @@
+{
+  "status": "PASS",
+  "scope": "new coordinate identities and finite ideal checks; provisional research evidence only",
+  "sympy_version": "1.14.0",
+  "check_count": 19,
+  "checks": [
+    {
+      "name": "S(1,2) parametrization satisfies its three minors",
+      "pass": true
+    },
+    {
+      "name": "the complete rational normal quartic lies on that same scroll",
+      "pass": true
+    },
+    {
+      "name": "dropping the middle quartic coordinate eliminates to R",
+      "pass": true,
+      "eliminated_generators": [
+        "x0*x3**2 - x1**2*x4"
+      ]
+    },
+    {
+      "name": "scheme inverse of C on normalization of R has endpoint defect",
+      "pass": true,
+      "source_ideal": [
+        "x2-x1^3",
+        "x3-x1^4"
+      ],
+      "substitution": {
+        "x1": "r",
+        "x2": "r*w",
+        "x3": "w^2"
+      },
+      "pullback": "(w-r^2)*(r,w)",
+      "divisorial_hull": "(w-r^2)",
+      "defect_length": 1
+    },
+    {
+      "name": "conductor of pinch-chart subring lies in its integral extension",
+      "pass": true,
+      "ring": "k[r,r*w,w^2] inside k[r,w]",
+      "conductor": "(r,r*w) downstairs; (r) upstairs",
+      "conductor_map": "k[w^2] -> k[w]"
+    },
+    {
+      "name": "missing middle cone generator multiplies into the image ring",
+      "pass": true,
+      "identities": [
+        "h*x0=x1^2",
+        "h*x1=x0*x2",
+        "h*x2=x1*x3",
+        "h*x3=x2^2"
+      ]
+    },
+    {
+      "name": "middle cone generator integral relation",
+      "pass": true,
+      "identity": "h^2=x0*x3"
+    },
+    {
+      "name": "projection-cone degree-two semigroup base case",
+      "pass": true,
+      "degree_one_missing": [
+        2
+      ],
+      "degree_two_exponents": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "induction": "If degree n contains [0,4n], multiplying by exponents 0 and4 covers [0,4n+4] for n>=1."
+    },
+    {
+      "name": "cuspidal plane quartic chart semigroup conductor base cases",
+      "pass": true,
+      "gaps": [
+        1,
+        2,
+        5
+      ],
+      "conductor": 6,
+      "induction": "6,7,8 are present; add3 to obtain every integer>=6.",
+      "local_ring": "k[v^3,v^4,q] inside k[v,q]"
+    },
+    {
+      "name": "quartic-cone further projection integral relation",
+      "pass": true,
+      "identity": "(st^3)^4=s^4*(t^4)^3"
+    },
+    {
+      "name": "C4 and its chosen zero graph intersect 2p0+2pinfty",
+      "pass": true,
+      "divisor": {
+        "p0": 2,
+        "pinfty": 2
+      }
+    },
+    {
+      "name": "distinct four-sheet graphs intersect 3p0+pinfty on F4",
+      "pass": true,
+      "divisor": {
+        "p0": 3,
+        "pinfty": 1
+      }
+    },
+    {
+      "name": "distinct component images intersect with length3 at p0",
+      "pass": true,
+      "coefficient_condition": "alpha-beta invertible; characteristic zero distinct fourth roots",
+      "groebner_basis": [
+        "y",
+        "z",
+        "u**3"
+      ],
+      "length": 3
+    },
+    {
+      "name": "distinct component images intersect with length3 at pinfty",
+      "pass": true,
+      "root_condition": "alpha^4=beta^4=1 and alpha!=beta",
+      "groebner_basis": [
+        "x0",
+        "x1",
+        "z**3"
+      ],
+      "length": 3
+    },
+    {
+      "name": "intersection table gives degree4 for all distinguished quartics",
+      "pass": true,
+      "table": [
+        {
+          "model": "Q",
+          "n": 0,
+          "H": [
+            1,
+            1
+          ],
+          "C": [
+            1,
+            3
+          ],
+          "H_square": 2,
+          "C_square": 6,
+          "degree_C": 4,
+          "ruling_degree_on_C": 1
+        },
+        {
+          "model": "projection cone smooth model",
+          "n": 4,
+          "H": [
+            1,
+            4
+          ],
+          "C": [
+            1,
+            4
+          ],
+          "H_square": 4,
+          "C_square": 4,
+          "degree_C": 4,
+          "ruling_degree_on_C": 1
+        },
+        {
+          "model": "R normalization",
+          "n": 1,
+          "H": [
+            1,
+            2
+          ],
+          "C": [
+            2,
+            2
+          ],
+          "H_square": 3,
+          "C_square": 4,
+          "degree_C": 4,
+          "ruling_degree_on_C": 2
+        },
+        {
+          "model": "F smooth model",
+          "n": 4,
+          "H": [
+            1,
+            4
+          ],
+          "C": [
+            1,
+            4
+          ],
+          "H_square": 4,
+          "C_square": 4,
+          "degree_C": 4,
+          "ruling_degree_on_C": 1
+        }
+      ]
+    },
+    {
+      "name": "cubic ruling degree-two base change splits into F2 sections",
+      "pass": true,
+      "model": "F2",
+      "sections": "E2+2f",
+      "self_intersection": 2,
+      "intersection_divisor": "p0+pinfty"
+    },
+    {
+      "name": "cube identifies the rank-two bitangent multiplier family near2",
+      "pass": true,
+      "identities": [
+        "lambda^3=15*lambda+4",
+        "(lambda^3)^2+52*lambda^3+1=0"
+      ],
+      "inverse": "lambda=(q-4)/15; 15 is invertible in Z_(2)",
+      "special_fiber": "(q-1)^2=0"
+    },
+    {
+      "name": "four-sheet special fiber is fourth-power graph on affine ruled chart",
+      "pass": true,
+      "total_equation": "q^4-u^12",
+      "special_equation": "(q-u^3)^4"
+    },
+    {
+      "name": "bitangent multiplier family specializes to mu2 inside mu4",
+      "pass": true,
+      "special_equation": "(lambda-1)^2",
+      "inclusion": "(lambda-1)^4 lies in ((lambda-1)^2)"
+    }
+  ],
+  "limitations": [
+    "The script is not a proof of normalization, finiteness, global smoothness, or novelty.",
+    "Endpoint multiplicities for distinct components assume the difference of roots is invertible; they do not assert mixed-characteristic transversality.",
+    "No inherited STCI proof is rerun and no STCI claim is made."
+  ]
+}
