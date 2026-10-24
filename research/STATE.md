@@ -20,6 +20,10 @@ The principal characteristic-zero test curve is
 C_0=[s^4:s^3t:st^3:t^4]\subset \mathbf P^3.
 \]
 
+## October 24 ideal-filtration investigation — REVIEWED PROPOSAL, NOT PROMOTED
+
+The [scoped reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) links independent-agent reviews and recorded exact validations for the comparison defect, the normal-Koszul spectral sequence, and the prescribed characteristic-two quartic example. These remain **provisional research evidence**, not numbered canonical results. The supported, generically defect-free punctual case remains open. Neither the unrestricted STCI status nor the quartic-carrier exclusion changes.
+
 ## October 23 characteristic comparison and shorter (4,4) proof — PROVED WITH FIXED SCOPE
 
 [STCI-R-0020](results/quartic_conormal_characteristic_jump.md) records the characteristic-dependent conormal splitting; [STCI-R-0021](results/quartic_mu4_degeneration.md) identifies the four characteristic-zero components of the prescribed quartic pair and their characteristic-two nonreduced coalescence. [STCI-R-0022](results/quartic_44_filtered_exclusion.md) gives a shorter characteristic-zero exclusion of the **degree pair (4,4)** using saturated Gorenstein filtration, complete primitive-triple orbit classification, and nonzero cubic-contact determinants. This does not replace the all-mate-degree theorem R0001, nor settle unrestricted STCI nonexistence. See [October 23 reconciliation](RECONCILIATION_2026-10-23-44.md).
