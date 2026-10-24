@@ -1,0 +1,56 @@
+name: Ideal-filtration exact verification
+
+on:
+  pull_request:
+    paths:
+      - 'research/computations/verify_ideal_filtration_*.py'
+      - 'research/computations/verify_delta_singular_*'
+      - 'research/computations/validate_records.py'
+      - 'research/validation/ideal-filtrations-2026-10-23/**'
+      - 'research/validation/delta-singular-locus-2026-10-24/**'
+      - '.github/workflows/ideal-filtration-validation.yml'
+  push:
+    branches:
+      - 'research/ideal-filtration-reconciliation-2026-10-24'
+    paths:
+      - '.github/workflows/ideal-filtration-validation.yml'
+      - 'research/computations/verify_ideal_filtration_*.py'
+      - 'research/computations/verify_delta_singular_*'
+  workflow_dispatch:
+
+jobs:
+  python-exact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check exact arithmetic scripts and canonical metadata
+        run: |
+          set -euo pipefail
+          python3 -B research/computations/verify_ideal_filtration_counterexamples_2026_10_23.py
+          python3 -B research/computations/verify_ideal_filtration_completeness_2026_10_23.py
+          python3 -B research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py
+          python3 -B research/computations/verify_delta_singular_identities_2026_10_24.py
+          python3 -B research/computations/validate_records.py
+
+  macaulay2-rees:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-name: stci-m2
+          create-args: >-
+            -c conda-forge
+            macaulay2
+          cache-environment: true
+      - name: Verify full Rees-saturated initial ideals
+        shell: micromamba-shell {0}
+        run: |
+          set -euo pipefail
+          M2 --version
+          M2 --script research/computations/verify_delta_singular_families_2026_10_24.m2
