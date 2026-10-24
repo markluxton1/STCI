@@ -24,6 +24,8 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Authority reconciliation](AUTHORITY_RECONCILIATION_2026-10-17.md) — checked interfaces and outstanding metadata limitations
 - [Provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md) — current tree inventory and evidence-retention decisions
 
+- [October 24 intrinsic quartic geometry: automorphisms and bitangents](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) — exploratory proofs, independent audits, and figures
+- [October 24 special lines and planes](notes/2026-10-24-special-lines-planes-research-note.md) — exploratory incidence and dual geometry, independently audited
 - [October 24 Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) — preserved provisional local algebra, independent audits, and reproducible checks; not an active STCI research lane
 - [October 24 ideal-filtration reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) — provisional exact-sequence and spectral-sequence framework, example checks, and promotion gates
 ## Verification and history

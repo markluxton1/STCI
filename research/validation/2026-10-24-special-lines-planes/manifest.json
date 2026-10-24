@@ -1,0 +1,17 @@
+{
+  "scope": "SHA-256 identity only; not mathematical verification",
+  "files": {
+    "research/computations/verify_special_lines_planes_2026_10_24.py": "91f7ee582a849241648f2b846606d73701a9fc8e8ee4fdea0727528c15deac3a",
+    "research/notes/2026-10-24-osculating-normal-count-review.md": "2cb2e82880945c23d58fc56a4111182eb757c80e84e01a8ad0d92befcab9f24f",
+    "research/notes/2026-10-24-special-dual-incidence-derivation.md": "1f58108924b06abf60a271776abeca721c279800beed0a9bd67f7e9ca74fef1d",
+    "research/notes/2026-10-24-special-lines-geometry-derivation.md": "8b87ff6aacfc7ef9b4b2649d9f4ab5b5df5edd3a3d6b5d52263b81f51cd0742e",
+    "research/notes/2026-10-24-special-lines-planes-geometry-audit.md": "f4224a2cb96ec2828a066131474035e9b047f455400792d8dddef237e2f762fe",
+    "research/notes/2026-10-24-special-lines-planes-research-note.md": "2e1e6dabbca32bf2aec1e5d95de20107fc17be0eb939c944e13419669d5bbb93",
+    "research/notes/2026-10-24-special-lines-planes-stci-audit.md": "4f6644be2720d9f34a19ea67dc7a5ca34b481066fe4824edeb9fb138fc6454a3",
+    "research/notes/2026-10-24-special-sections-stci-derivation.md": "e809ca2d49257b38fe4f2849f10429f354abafde92ee82b9bb5575933fd4a82f",
+    "research/validation/2026-10-24-special-lines-planes/README.md": "375bf1e3a87f6d6fd4833d628f88635cabd9644734d4d17b23881ff4703a08d6",
+    "research/validation/2026-10-24-special-lines-planes/checks.json": "51ad6aa590f84732e6fafffdc3cc2d9c82dc1035be54f6f68460d577c17f1474"
+  },
+  "local_markdown_links_checked": 29,
+  "link_errors": []
+}
