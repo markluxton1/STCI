@@ -1,0 +1,8 @@
+PASS: exact polynomial cancellation and localization identities
+PASS: associative quotient algebra with basis 1,x,y,y^2,y^3
+PASS: dimensions of I-adic powers = [5, 4, 2, 1, 0]
+PASS: associated-graded Hilbert function = [1, 2, 1, 1]
+PASS: H=(X^2,XY,Y^4), Q_4=Q, but gr_4(J/IJ)=0
+PASS: Y^4 lies in in_I(IJ) and not in S_+ in_I(J)
+Boundary: finite exact checks support the accompanying local proof;
+they do not certify a general theorem or a global STCI conclusion.

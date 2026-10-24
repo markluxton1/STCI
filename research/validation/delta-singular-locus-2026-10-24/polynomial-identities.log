@@ -1,0 +1,5 @@
+PASS: 24 punctual-family full expansions and lifted syzygies
+PASS: 35 recursive-family initials, Cassini identities, and syzygies
+PASS: exact cancellation gaps q-2 and staircase colengths
+Boundary: these are independent finite polynomial identities;
+the accompanying report proves the parameter-family and Tor statements.

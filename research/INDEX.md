@@ -22,6 +22,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Authority reconciliation](AUTHORITY_RECONCILIATION_2026-10-17.md) — checked interfaces and outstanding metadata limitations
 - [Provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md) — current tree inventory and evidence-retention decisions
 
+- [October 24 ideal-filtration reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) — provisional exact-sequence and spectral-sequence framework, example checks, and promotion gates
 ## Verification and history
 
 - [Intrinsic (4,4) K3 obstruction and handoff](notes/2026-10-23-intrinsic-44-research-report.md) — independently reviewed new proof, contact and valuation constructions; not canonically promoted

@@ -16,6 +16,10 @@ where \(R\) has no component equal to \(C_0\). The STCI case is precisely \(R=0\
 
 Useful levels of analysis include the generic filtered transverse complete-intersection algebra, its global normal-jet realization, the full associated graded ideal and Rees/successive-blowup geometry, residual intersection cycles, and (when helpful) carrier normalization and conductor descent. These are complementary viewpoints, **not** a required sequence or a ranking of methods. Agents may choose or combine methods based on mathematical leverage, including approaches not listed here. Do not treat the volume of prior results in any lane as evidence that it is intrinsically preferred. In particular, no Hilbert-function strategy, normalization-first approach, or residual-degree bound is mandated.
 
+## Ideal-filtration comparison defect — OPEN supported-local question
+
+[October 24 reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) records a provisional comparison-defect and filtered-Koszul framework. The evidence indicates that the defect vanishes wherever one carrier is smooth along C, but does **not** establish the existence of simultaneous singularities. Priority test: with radical(J)=I_C and generically zero defect, can a punctual defect occur? Separate residual-support examples from genuine supported intersections. Do not treat these provisional notes as a promoted obstruction or reopen the closed degree-(4,*) carrier cases.
+
 ## Priority 1 — jet-condition and discrepancy framework
 
 **Question.** For primitive or quasiprimitive thickenings

@@ -1,5 +1,9 @@
 # Exact computation checks
 
+## October 23–24 ideal-filtration and singular-locus checks
+
+The [scoped reconciliation](../RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) and its [October 23](../validation/ideal-filtrations-2026-10-23/README.md) and [October 24](../validation/delta-singular-locus-2026-10-24/README.md) validation records document the new checks. The scripts `verify_ideal_filtration_counterexamples_2026_10_23.py`, `verify_ideal_filtration_completeness_2026_10_23.py`, `verify_ideal_filtration_quartic_lifting_2026_10_23.py`, `verify_delta_singular_identities_2026_10_24.py`, and `verify_delta_singular_families_2026_10_24.m2` test local identities, quartic transitions, and sampled Rees initial ideals. Their source-branch runs are recorded, not freshly replayed by the reconciliation. General theorems and global STCI implications do not follow from the finite samples alone.
+
 ## October 23 (4,4) characteristic comparison and filtered proof proposal
 
 The [research note](../notes/2026-10-23-quartic-characteristic-conormal.md)
