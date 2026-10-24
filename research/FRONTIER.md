@@ -1,5 +1,10 @@
 # Current research frontier
 
+## Current focus — intrinsic geometry interlude (2026-10-24)
+
+**STCI-directed research is voluntarily paused.** The current objective is to explore the intrinsic projective geometry of the fixed rational quartic **for its own mathematical interest**, not to seek an STCI obstruction. Any eventual STCI insight is incidental, not a criterion for success. The unrestricted characteristic-zero STCI problem and all open frontier items below remain open; their former priority labels are historical STCI-work priorities, **not active assignments** during this interlude. See [the geometry agenda](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md). Preserve accepted result scopes and do not promote exploratory geometry without audit.
+
+
 This file records the active mathematical frontier. Established claims belong in \`STATE.md\`; detailed historical handoffs and dated reports are provenance, not competing descriptions of current status.
 
 ## General intersection viewpoint (research framing, not a theorem)
