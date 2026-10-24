@@ -1,0 +1,4 @@
+Checked 36 local links in 8 new notes/validation documents.
+Checked new report navigation in INDEX, STATE, FRONTIER and computations/README.
+Checked new document whitespace and git diff --check.
+PASS: zero integration errors.

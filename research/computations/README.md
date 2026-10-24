@@ -1,5 +1,9 @@
 # Exact computation checks
 
+## October 24 Delta marked-embedding checks
+
+The [report](../notes/2026-10-24-delta-embedding-geometry-report.md) and [validation record](../validation/delta-embedding-2026-10-24/README.md) preserve two Macaulay2 scripts: [conormal annihilator](verify_delta_conormal_annihilator_2026_10_24.m2) and [Rees equation module](verify_delta_rees_equation_module_2026_10_24.m2). Finite checks do not prove global realization or STCI consequences. This is archived provisional research, not an active assignment.
+
 ## October 23–24 ideal-filtration and singular-locus checks
 
 The [scoped reconciliation](../RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) and its [October 23](../validation/ideal-filtrations-2026-10-23/README.md) and [October 24](../validation/delta-singular-locus-2026-10-24/README.md) validation records document the new checks. The scripts `verify_ideal_filtration_counterexamples_2026_10_23.py`, `verify_ideal_filtration_completeness_2026_10_23.py`, `verify_ideal_filtration_quartic_lifting_2026_10_23.py`, `verify_delta_singular_identities_2026_10_24.py`, and `verify_delta_singular_families_2026_10_24.m2` test local identities, quartic transitions, and sampled Rees initial ideals. Their source-branch runs are recorded, not freshly replayed by the reconciliation. General theorems and global STCI implications do not follow from the finite samples alone.
