@@ -9,6 +9,8 @@ This file records the active mathematical frontier. Established claims belong in
 
 The [Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) is preserved as provisional evidence from the earlier STCI-directed phase. Its follow-up questions are **not active priorities** during the intrinsic-geometry interlude.
 
+The [special lines/planes](notes/2026-10-24-special-lines-planes-research-note.md) and [automorphisms/bitangents](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) explorations support the active intrinsic-geometry agenda. These are provisional geometric research records, not new STCI assignments or promoted theorem authority.
+
 ## General intersection viewpoint (research framing, not a theorem)
 
 For the fixed curve \(C_0\), it is often useful to begin with two surfaces having no common surface component and

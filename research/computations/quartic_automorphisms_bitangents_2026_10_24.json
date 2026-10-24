@@ -1,0 +1,263 @@
+{
+  "status": "PASS",
+  "date": "2026-10-24",
+  "scope": "Exact polynomial and linear-algebra checks for the fixed rational quartic in characteristic zero, with three explicitly labelled characteristic-two reductions.",
+  "limitations": [
+    "The notes supply the geometric classification and completeness proofs.",
+    "A passing identity verifier does not certify mathematical novelty, canonical promotion, or an STCI exclusion.",
+    "No inherited normal-bundle or carrier-exclusion computation is rerun.",
+    "The rank-three catalecticant tests the supplied center; the proof that every secant has rank at most two is in the note.",
+    "The stabilizer identities are checked; the full stabilizer identification requires the characteristic-zero argument in the note.",
+    "The composition elimination computes the actual affine scheme image; inversion covers the remaining projective endpoint."
+  ],
+  "python_version": "3.15.0",
+  "sympy_version": "1.14.0",
+  "check_count": 49,
+  "checks": [
+    {
+      "name": "center_catalecticant_rank_three",
+      "status": "PASS",
+      "evidence": {
+        "determinant": "-1",
+        "rank": 3
+      }
+    },
+    {
+      "name": "evaluation_catalecticant_rank_one",
+      "status": "PASS"
+    },
+    {
+      "name": "sum_of_two_evaluations_catalecticant_rank_at_most_two",
+      "status": "PASS"
+    },
+    {
+      "name": "apolar_center_double_double",
+      "status": "PASS",
+      "evidence": "6*s^2*t^2, using the determinant-twisted SL2 self-duality"
+    },
+    {
+      "name": "center_in_osculating_hyperplane_only_at_finite_zero",
+      "status": "PASS",
+      "evidence": "det[c,c',c'',c''',e2]=72*u^2; reverse chart gives infinity"
+    },
+    {
+      "name": "endpoint_osculating_planes_meet_at_center",
+      "status": "PASS",
+      "evidence": "two 3-dimensional vector spans in a 5-dimensional sum, each containing e2"
+    },
+    {
+      "name": "hyperplane_system_wronskian",
+      "status": "PASS",
+      "evidence": "72*u^2 on finite chart, order two at infinity in the reversed chart"
+    },
+    {
+      "name": "center_incident_degree_three_divisor_pencil",
+      "status": "PASS",
+      "evidence": "the two sections s*g,t*g vanish under the center iff g=a*s^3+d*t^3"
+    },
+    {
+      "name": "center_rank_three_ruling_decomposition",
+      "status": "PASS",
+      "evidence": "sum_{i=0}^2 u_i*c4(u_i)=3*kappa*e2, with u_i=r*zeta^i and kappa=r^3"
+    },
+    {
+      "name": "stabilizer_omitted_middle_coefficients",
+      "status": "PASS",
+      "evidence": [
+        "6*a**2*b**2",
+        "3*a*b*(a*d + b*c)",
+        "3*c*d*(a*d + b*c)",
+        "6*c**2*d**2"
+      ]
+    },
+    {
+      "name": "diagonal_and_antidiagonal_preserve_system",
+      "status": "PASS"
+    },
+    {
+      "name": "stabilizer_ideal_localization_identity",
+      "status": "PASS",
+      "evidence": "after inverting det and 6, omitted coefficients generate the ideal (ab,cd)"
+    },
+    {
+      "name": "ambient_torus_and_reversal_action",
+      "status": "PASS"
+    },
+    {
+      "name": "normalizer_relation",
+      "status": "PASS"
+    },
+    {
+      "name": "involution_is_central_projectively",
+      "status": "PASS"
+    },
+    {
+      "name": "quadric_relative_invariance",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_quadric_restriction_kernel",
+      "status": "PASS",
+      "evidence": {
+        "rank": 9,
+        "kernel_dimension": 1
+      }
+    },
+    {
+      "name": "osculating_section_factorization",
+      "status": "PASS"
+    },
+    {
+      "name": "dual_osculating_involution_action",
+      "status": "PASS"
+    },
+    {
+      "name": "dual_torus_osculating_equivariance",
+      "status": "PASS"
+    },
+    {
+      "name": "secant_plucker_divided_difference",
+      "status": "PASS",
+      "evidence": [
+        "gamma**3",
+        "gamma*(-alpha*gamma + beta**2)",
+        "-beta*(-2*alpha*gamma + beta**2)",
+        "-alpha*beta*gamma",
+        "alpha*(-alpha*gamma + beta**2)",
+        "alpha**3"
+      ]
+    },
+    {
+      "name": "secant_plucker_relation",
+      "status": "PASS"
+    },
+    {
+      "name": "secant_map_has_no_basepoints",
+      "status": "PASS",
+      "evidence": "alpha=gamma=0 forced by p23=p01=0; beta=1 chart has unit ideal"
+    },
+    {
+      "name": "diagonal_divisors_map_to_tangent_lines",
+      "status": "PASS"
+    },
+    {
+      "name": "endpoint_tangent_lines",
+      "status": "PASS"
+    },
+    {
+      "name": "trisecant_pair_conic_cubic_ruling_map",
+      "status": "PASS",
+      "evidence": "beta^2=alpha*gamma parametrized by [z^2:z:1] maps to ruling kappa=z^3"
+    },
+    {
+      "name": "secant_differential_rank_drop_scheme",
+      "status": "PASS",
+      "evidence": "gamma=1 chart: ideal (alpha,beta^2), supported at tangent trisecant 2p0"
+    },
+    {
+      "name": "secant_endpoint_fiber_length_three",
+      "status": "PASS",
+      "evidence": "gamma=1 fiber over T0 has ideal (alpha-beta^2,beta^3); length three"
+    },
+    {
+      "name": "bitangent_doubling_coefficient",
+      "status": "PASS"
+    },
+    {
+      "name": "diagonal_and_bitangent_conics_smooth",
+      "status": "PASS"
+    },
+    {
+      "name": "conic_intersection_length_two_each_endpoint",
+      "status": "PASS",
+      "evidence": "gamma=1 local ideal (alpha,beta^2); swapping alpha,gamma gives other length two"
+    },
+    {
+      "name": "conic_pair_generalized_eigenspectrum",
+      "status": "PASS",
+      "evidence": "generalized eigenvalues: simple 1, repeated -lambda/4"
+    },
+    {
+      "name": "multiplication_dual_conics_are_apolar_to_diagonal",
+      "status": "PASS",
+      "evidence": "trace(D^-1 Q_z)=0 for every quartic-coefficient functional z"
+    },
+    {
+      "name": "torus_invariant_apolar_conic_unique_in_pencil",
+      "status": "PASS",
+      "evidence": "trace=1-lambda/2, hence lambda=2"
+    },
+    {
+      "name": "affine_bitangent_relation_from_conic",
+      "status": "PASS"
+    },
+    {
+      "name": "rho_equation_and_reciprocal_sum",
+      "status": "PASS",
+      "evidence": {
+        "minimal_polynomial": "T^2+4*T+1",
+        "reciprocal_sum": "-4"
+      }
+    },
+    {
+      "name": "rho_square_reciprocal_sum",
+      "status": "PASS"
+    },
+    {
+      "name": "rho_real_embedding_excludes_root_of_unity",
+      "status": "PASS",
+      "evidence": "rho=-2+sqrt(3) is real and strictly between -1 and 0"
+    },
+    {
+      "name": "general_conic_contact_ratio",
+      "status": "PASS",
+      "evidence": "rho+rho^-1=-(2+lambda); lambda=2 gives -4"
+    },
+    {
+      "name": "ordered_bitangent_graphs",
+      "status": "PASS"
+    },
+    {
+      "name": "bitangent_graphs_meet_transversely_at_endpoint",
+      "status": "PASS",
+      "evidence": "distinct slopes rho,rho^-1 at zero; reverse chart likewise"
+    },
+    {
+      "name": "bitangent_diagonal_intersection_double_endpoints",
+      "status": "PASS",
+      "evidence": "finite chart ideal (v-u,u^2), and reverse chart gives infinity"
+    },
+    {
+      "name": "bitangent_osculating_graph_intersection_double_endpoints",
+      "status": "PASS"
+    },
+    {
+      "name": "scheme_composition_elimination_has_simple_diagonal",
+      "status": "PASS",
+      "evidence": "elimination ideal ((w-u)*(w^2-14*u*w+u^2)); reverse chart covers infinity"
+    },
+    {
+      "name": "composition_resultant_counts_diagonal_twice",
+      "status": "PASS",
+      "evidence": "resultant and correspondence cycle have diagonal multiplicity two; scheme image does not"
+    },
+    {
+      "name": "osculating_unordered_pairs_form_line",
+      "status": "PASS"
+    },
+    {
+      "name": "characteristic_two_bitangent_and_discriminant_reductions",
+      "status": "PASS",
+      "evidence": "both equations reduce to beta^2; their reduced support is a line"
+    },
+    {
+      "name": "characteristic_two_stabilizer_reduction",
+      "status": "PASS"
+    },
+    {
+      "name": "characteristic_two_osculating_section_fourth_power",
+      "status": "PASS",
+      "evidence": "H_u=[u^4:0:0:1], ordinary -1 involution becomes identity"
+    }
+  ]
+}

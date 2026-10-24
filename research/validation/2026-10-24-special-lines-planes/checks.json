@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "sympy_version": "1.14.0",
+  "scope": "displayed exact identities only; no STCI existence or exclusion",
+  "checks": [
+    {
+      "name": "unique smooth containing quadric (rank nine)",
+      "status": "PASS"
+    },
+    {
+      "name": "homogeneous osculating factorization and residual involution",
+      "status": "PASS"
+    },
+    {
+      "name": "bitangent square family and non-involution partner equation",
+      "status": "PASS"
+    },
+    {
+      "name": "dual sextic: four singular components; osculating-bitangent endpoint length three",
+      "status": "PASS"
+    },
+    {
+      "name": "secant, tangent, and bitangent tangent-line determinant identities",
+      "status": "PASS"
+    },
+    {
+      "name": "paired-secant cubic, osculating tangent planes, endpoint first symbols",
+      "status": "PASS"
+    },
+    {
+      "name": "cubic-quadric residual divisor C plus endpoint trisecants",
+      "status": "PASS"
+    },
+    {
+      "name": "quadric polarity and distinct polar quartic",
+      "status": "PASS"
+    },
+    {
+      "name": "smooth-along-C cubic with six simple osculating coincidences",
+      "status": "PASS"
+    },
+    {
+      "name": "proper common-normal pair (F,x0F+q^2) has explicit residual rulings",
+      "status": "PASS"
+    },
+    {
+      "name": "local smooth-surface models realize lengths rm for r=2,3,4",
+      "status": "PASS"
+    }
+  ],
+  "osculating_normal_test": {
+    "surface": "x0**2*x2 - x1**3 + x1*x3**2 - x2**3",
+    "coincidences": "s^6+t^6=0 (six simple points)",
+    "pair": "(F, x0*F+q^2)",
+    "residual": "two trisecant ruling lines a=b and a=-b on Q",
+    "sole_support": false
+  }
+}

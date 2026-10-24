@@ -1,5 +1,9 @@
 # Exact computation checks
 
+## October 24 intrinsic quartic geometry checks and figures
+
+The [special-lines validation](../validation/2026-10-24-special-lines-planes/README.md), [quartic geometry validation](../validation/quartic-geometry-2026-10-24/README.md), and [figure guide](../figures/quartic-geometry-2026-10-24/README.md) document exact checks, projection and symmetric-square figures, and reproducibility. See `verify_special_lines_planes_2026_10_24.py`, `verify_quartic_automorphisms_bitangents_2026_10_24.py`, and `draw_quartic_geometry_2026_10_24.py`. These supplement the provisional proofs, not canonical promotions.
+
 ## October 24 Delta marked-embedding checks
 
 The [report](../notes/2026-10-24-delta-embedding-geometry-report.md) and [validation record](../validation/delta-embedding-2026-10-24/README.md) preserve two Macaulay2 scripts: [conormal annihilator](verify_delta_conormal_annihilator_2026_10_24.m2) and [Rees equation module](verify_delta_rees_equation_module_2026_10_24.m2). Finite checks do not prove global realization or STCI consequences. This is archived provisional research, not an active assignment.
