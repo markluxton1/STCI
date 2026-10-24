@@ -1,6 +1,6 @@
 # An intrinsic K3 obstruction to a quartic–quartic thickening
 
-Date: 2026-10-23. **New proof proposal; independent review pending.**
+Date: 2026-10-23. **Independently audited proof proposal; not canonically promoted.**
 
 ## Claim and scope
 
@@ -12,6 +12,9 @@ C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3_k.
 
 There are no homogeneous quartics \(F,G\) with
 \(\sqrt{(F,G)}=I_C\). Reducible and nonreduced equations are included.
+
+Throughout this note, \(\mathcal O(n)\) and a twist \(M(n)\) mean degree
+n on \(\mathbf P^1\). In particular \(M(16)=M\otimes\mathcal O_C(4)\).
 
 The argument below uses the balanced conormal bundle, the elementary
 saturated Gorenstein pairing theorem, and the geometry of rational double
@@ -40,7 +43,9 @@ singularities.
    \(K[v]/(v^4)\) has invertible saturated layers and perfect multiplication
    \(E_1\otimes E_2\longrightarrow E_3\).
    This is a general local-algebra theorem, not the inherited primitive
-   classification. We use that accepted theorem without rerunning it.
+   classification. Its rank-four case also has the short direct
+   Frobenius-matrix derivation in section 2 below, reconstructed in the
+   independent audit; no earlier STCI proof is an input.
 3. Standard characteristic-zero surface facts: an \(A_j\) surface
    singularity has a chain of \(j\) independent exceptional \((-2)\)-curves;
    the minimal resolution of an integral quartic with only rational double
@@ -151,6 +156,18 @@ is finite over \(R\), and is free of rank four: finiteness follows from
 the Artin special fiber, while \(t\) is a nonzerodivisor because \(Z\) is
 Cohen–Macaulay with smooth reduced support. The quotient by its
 nilradical is \(R\).
+
+The required pairing in rank four can be seen directly. Before imposing
+perfection, take a saturated basis \(1,y,x,z\), with \(y\in N_1\),
+\(x\in N_2\), \(z\in N_3\), and write \(yx=c z\). All products of
+saturated weight at least four vanish. A relative Frobenius functional
+\(\lambda:B\to R\) exists because this finite-free algebra is
+Gorenstein. The determinant of its product-pairing matrix in this basis
+is \(c^2\lambda(z)^4\). It is a unit, hence c is a unit. This proves
+that \(E_1\otimes E_2\to E_3\) is perfect at the defect as well as
+generically, using only the rank-four multiplication. The saturated
+basis exists because its successive quotients are torsion-free rank-one
+modules over the DVR; no global retraction is used.
 
 Choose \(y\in N_1\) lifting a basis of \(E_1\), and \(x\in N_2\) lifting a
 basis of \(E_2\). Since \(E_1E_2\longrightarrow E_3\) is perfect, we may
@@ -387,7 +404,9 @@ this proof. The general saturated pairing input remains an explicit
 dependency; the conormal splitting remains the only special numerical
 input from the fixed embedding beyond the smooth-quadric facts.
 
-This proves only the stated quartic–quartic exclusion, subject to
-independent review of this new argument. It does not establish an
+The [independent proof audit](2026-10-23-intrinsic-44-k3-independent-audit.md)
+reconstructed and accepted the argument, including its defect points and
+arbitrary local coefficient functions. This proves only the stated
+quartic–quartic exclusion. It does not establish an
 all-degree quartic-carrier theorem or settle the unrestricted STCI
 question.

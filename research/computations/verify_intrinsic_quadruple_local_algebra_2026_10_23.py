@@ -134,7 +134,56 @@ def verify_moving_a3():
     return 3
 
 
+def verify_frobenius_determinant():
+    """Compute the generic rank-four Frobenius determinant over Z."""
+    from itertools import permutations
+
+    # Variable order: c, lambda(1), lambda(a), lambda(b), lambda(ab), A, B.
+    # The pre-normalized multiplication is a^2=A*b+B*ab, a*b=c*ab.
+    size = 7
+
+    def variable(index):
+        powers = [0] * size
+        powers[index] = 1
+        return {tuple(powers): 1}
+
+    def combine(*items):
+        result = {}
+        for item in items:
+            for monomial, coefficient in item.items():
+                result[monomial] = result.get(monomial, 0) + coefficient
+        return {m: c for m, c in result.items() if c}
+
+    def product(first, second):
+        result = {}
+        for left, c in first.items():
+            for right, d in second.items():
+                monomial = tuple(a + b for a, b in zip(left, right))
+                result[monomial] = result.get(monomial, 0) + c*d
+        return {m: c for m, c in result.items() if c}
+
+    c, l1, la, lb, lab, A, B = (variable(i) for i in range(size))
+    matrix = [
+        [l1, la, lb, lab],
+        [la, combine(product(A, lb), product(B, lab)), product(c, lab), {}],
+        [lb, product(c, lab), {}, {}],
+        [lab, {}, {}, {}],
+    ]
+    determinant = {}
+    for permutation in permutations(range(4)):
+        inversions = sum(permutation[i] > permutation[j]
+                         for i in range(4) for j in range(i+1, 4))
+        term = {(0,) * size: (-1) ** inversions}
+        for row, column in enumerate(permutation):
+            term = product(term, matrix[row][column])
+        determinant = combine(determinant, term)
+    expected = [0] * size
+    expected[0], expected[4] = 2, 4
+    assert determinant == {tuple(expected): 1}
+
+
 def main():
+    verify_frobenius_determinant()
     verify_lambda_removal()
     ranks = {d: verify_defect(d) for d in (1, 2, 3)}
     a3_rank = verify_moving_a3()
@@ -144,6 +193,7 @@ def main():
     total_ranks = [6 * a3_rank + sum(ranks[d] for d in part) for part in partitions]
     assert total_ranks == [21, 22, 23]
     assert min(total_ranks) > 20
+    print("PASS: generic Frobenius determinant c^2*lambda(z)^4")
     print("PASS: exact lambda removal, completed squares, and Jacobian ideals")
     print("PASS: defect ranks d=1,2,3 are 1,3,5; moving A3 rank is 3")
     print("PASS: e=1 exceptional rank 24; e=0 ranks 21,22,23")

@@ -1,6 +1,6 @@
 # Intrinsic (4,4) obstruction: research report and successor handoff
 
-Date: 2026-10-23. **New research evidence; no canonical theorem promotion.**
+Date: 2026-10-23. **Independently reviewed new research evidence; no canonical theorem promotion.**
 
 ## Outcome and exact scope
 
@@ -22,7 +22,9 @@ The proof retains the promoted balanced-conormal calculation
 [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md) and the
 general accepted source-level
 [saturated Gorenstein pairing theorem](2026-10-05-mf6-pairing-audit.md).
-The latter is not a separately promoted result ID. The unique smooth
+The latter is not a separately promoted result ID; the rank-four pairing
+needed here is also reconstructed directly by its Frobenius determinant
+in the new proof and audit. The unique smooth
 quadric and its divisor classes give an elementary preliminary order
 bound. The old exclusion [STCI-R-0001](../results/quartic_carrier_exclusion.md)
 and the classified filtered proof

@@ -1,7 +1,7 @@
 # Intrinsic quadruple algebras and the singularities of a general pencil member
 
-Date: 2026-10-23. Status: **new proof proposal and supporting local-algebra
-audit; not a promoted canonical result**. This note supplies the local step
+Date: 2026-10-23. Status: **independently reviewed supporting local-algebra
+proof; not a promoted canonical result**. This note supplies the local step
 for the proposed intrinsic K3 proof of the fixed characteristic-zero (4,4)
 exclusion. It uses no classification of normal directions, primitive triples,
 quartic carriers, or quartic contact pencils.
@@ -158,6 +158,9 @@ rank below three.
 
 ## 5. Application to the two numerical quadruple types
 
+In this section O(n) denotes degree n on P1, while M(4) denotes the
+ambient twist M tensor O_C(4)=M tensor O_P1(16).
+
 For the fixed C=[s^4:s^3t:st^3:t^4], use the accepted
 E=O(-7)^2 and the general saturated Gorenstein duality, together with
 omega_Z=O_Z(4) for a hypothetical (4,4) intersection. These give
@@ -191,11 +194,14 @@ note.
 
 ## Evidence, status, and reproducibility
 
-The new elementary identities and representative Jacobian algebras are
+The new elementary identities, generic Frobenius determinant, and
+representative Jacobian algebras are
 checked without external packages by
 
     python3 research/computations/verify_intrinsic_quadruple_local_algebra_2026_10_23.py
 
+The [independent K3 proof audit](2026-10-23-intrinsic-44-k3-independent-audit.md)
+reconstructs this local argument and its use in the principal proof.
 The calculation checks local formulas and the numerical rank budget; the
 proof above establishes the classification-free normal form and the
 variable-coefficient assertion. The script does not by itself prove the

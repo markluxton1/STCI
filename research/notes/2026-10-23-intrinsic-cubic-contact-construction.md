@@ -1,6 +1,6 @@
 # Intrinsic cubic contact of an embedded quasiprimitive triple
 
-Date: 2026-10-23. **Provisional new construction; independent audit pending.**
+Date: 2026-10-23. **Independently reviewed new construction; not canonically promoted.**
 This note supplies an intrinsic replacement for the *definition* and coordinate
 invariance of the cubic-contact determinant. It does not supply an intrinsic
 nonvanishing theorem for the quartic source, and therefore does not prove the
@@ -315,7 +315,7 @@ the need to prove this determinant nonvanishing at all. That argument is a
 separate proposal with its own audit and dependencies; no assertion in the
 present note uses it as a premise.
 
-## Verification record and next audit
+## Verification record and independent review
 
 The identities (6) and (7), the cubic-contact reduction, and the local
 Hilbert–Burch identities are checked by
@@ -328,7 +328,10 @@ using `/tmp/stci-z4-env/bin/python`; the tested residuals include
 with k=-h*f2. Both simplify to zero. This is a check of the displayed
 polynomial identities, not of the geometric global-source nonvanishing.
 
-Independent review should focus on the local normal form at D; the
-torsion-free quotient in Proposition 1; the canonical gluing of
-L⊗E2 into M_Y; and the distinction between changing the triple and
-changing its fourth-order lift. No canonical theorem status is changed.
+The [independent secondary audit](2026-10-23-intrinsic-contact-valuations-independent-audit.md)
+reconstructs the local normal form at D, the torsion-free quotient in
+Proposition 1, the canonical gluing of L⊗E2 into M_Y, and the distinction
+between changing the triple and changing its fourth-order lift. Its two
+precision corrections, the nonzero-first-symbol hypothesis and the
+weighted Taylor remainder, are incorporated above. No canonical theorem
+status is changed.

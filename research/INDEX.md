@@ -24,6 +24,8 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Verification and history
 
+- [Intrinsic (4,4) K3 obstruction and handoff](notes/2026-10-23-intrinsic-44-research-report.md) — independently reviewed new proof, contact and valuation constructions; not canonically promoted
+
 - [October 23 higher-initial-ideals and valuations reconciliation](RECONCILIATION_2026-10-23-VALUATIONS.md) — four provisional notes, local criterion audit, and canonical-scope boundaries
 - [Equality, orders, filtration, and duality](notes/2026-10-21-equality-orders-filtration-duality.md) — provisional generic Hilbert-function framework
 - [Higher initial ideals and valuations](notes/2026-10-21-higher-initial-ideals-valuations.md) — cancellation examples and globalization limits

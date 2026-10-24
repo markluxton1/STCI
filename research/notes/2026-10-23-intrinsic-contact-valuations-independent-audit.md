@@ -79,3 +79,20 @@ The two secondary constructions correctly isolate what their data retain. Scalar
 Neither construction forces the determinant of every actual ambient quartic source to be nonzero. The stated abstract vector-bundle examples and the local pair `(n,n+t^4)` correctly exhibit the gap in a degree-only or purely formal argument. The missing implication in that route is a global assertion about the image of actual ambient quartic sections. This is a precisely scoped limit of that route; it does not make a separate intrinsic proof provisional when that proof does not invoke global determinant nonvanishing.
 
 No claim has been promoted by this audit, no inherited proof was reopened, and no unrestricted STCI conclusion is asserted.
+
+## 6. Integration follow-up on the characteristic-two comparison
+
+The root integration review also checked the subsequently added section 6.1
+of the valuation note. Direct differentiation of H=F+lambda G in
+characteristic two gives H_x0=x3(x0^2+lambda x3^2) and
+H_x3=x0(x0^2+lambda x3^2), with both other derivatives zero. Their
+projective common zero set is the plane x0+sqrt(lambda)x3=0. Restriction
+of H to it is (x1+lambda^(1/4)x2)^4, so the reduced surface singular
+locus is the indicated line. The two endpoint symbol charts give the
+map [s:t] to [s^8:t^8], which is purely inseparable of degree eight.
+These direct calculations establish the stated failure of the separable
+moving-symbol and normal-general-member hypotheses for this prescribed
+positive-characteristic example. The extended valuation script was
+replayed successfully and includes the additional characteristic-two
+moving-symbol and singular-line PASS output. This follow-up does not
+change the general domain or colength limitations reviewed above.
