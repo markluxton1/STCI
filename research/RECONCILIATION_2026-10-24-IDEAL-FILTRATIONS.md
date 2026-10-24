@@ -46,3 +46,9 @@ Here the image of \(IJ\) in the graded construction must use the **full initial 
 - [October 24 review](notes/2026-10-24-delta-singular-locus-review.md) explicitly checks the normal Koszul complex (not the carrier Koszul complex), Tor identification, edge filtration, convergence qualifications, generic count, and DVR torsion formula.
 
 **Audit status of this integration:** documentary cross-check completed; fresh executable replay not performed here. The source branch's independent-agent reviews and logged PASS results must not be represented as a new independent verification. No result-ID promotion is authorized by this integration alone.
+
+## Automated replay (PR #67)
+
+The proposed [GitHub Actions workflow](../.github/workflows/ideal-filtration-validation.yml) has two jobs: Python exact arithmetic plus canonical metadata, and Macaulay2 full Rees-saturated initial-ideal samples. It triggers on relevant pull-request changes and branch pushes, and also supports manual dispatch. Macaulay2 is provisioned from conda-forge; runner package availability must be established by an actual successful run.
+
+**Important:** Adding the workflow is not proof that it ran. Check the Actions tab and the commit-associated jobs and logs; report each outcome separately. A passing workflow verifies only the scripted finite identities, not the general mathematical proofs.
