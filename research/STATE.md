@@ -1,5 +1,10 @@
 # Canonical research state
 
+## Research activity status — intrinsic geometry interlude (2026-10-24)
+
+Active STCI-obstruction research is **paused by choice**, not because the problem has been settled. The current focus is exploring the intrinsic geometry of the embedded rational quartic for its own sake; possible STCI consequences are welcome but not the objective. See [the exploration agenda](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md). All proved, conditional, provisional, and open mathematical statuses below are unchanged.
+
+
 This is the durable entry point for claims currently regarded as established in the STCI project. It replaces dated handoffs and reports as the place to determine current status. Git history and the archived dated state preserve provenance.
 
 ## Epistemic labels
