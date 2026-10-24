@@ -1,0 +1,29 @@
+PASS exact F0 expansion over Z
+PASS exact G0 expansion over Z
+PASS exact G_infinity expansion over Z
+PASS exact F_infinity expansion over Z
+PASS base-coordinate overlap after clearing denominators
+PASS A overlap after clearing denominators
+PASS B overlap after clearing denominators
+PASS first-normal overlap determinant
+PASS balanced characteristic-zero first frame
+PASS balanced characteristic-zero second frame
+PASS characteristic-two diagonal A transition
+PASS characteristic-two diagonal B transition
+PASS phi0 determinant
+PASS phi_infinity determinant
+PASS F conormal column agrees on overlap
+PASS G conormal column agrees on overlap
+PASS conormal determinant patching
+PASS zero-chart lift correction vanishes on C
+PASS infinity-chart lift correction vanishes on C
+PASS characteristic-two zero-chart corrected lift is exactly u^4
+PASS characteristic-two infinity-chart corrected lift is exactly B^4
+PASS zero-chart first-order relation lies in kernel mod two
+PASS infinity-chart first-order relation lies in kernel mod two
+PASS kernel transition F coefficient
+PASS kernel transition G coefficient
+PASS Q4 transition modulo lower generators
+PASS characteristic-two nonlinear B gluing
+ALL 27 QUARTIC CONORMAL/LIFTING IDENTITY CHECKS PASS
+Boundary: finite exact symbolic identities; global conclusions require the report's arguments.
