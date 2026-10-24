@@ -1,5 +1,7 @@
 # Research navigation
 
+- [Intrinsic geometry interlude (October 24)](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md) — current voluntary pause of STCI-directed work; geometry-first exploration agenda, not theorem authority
+
 This page is a **directory**, not an independent source of mathematical claims.
 
 ## Start here
