@@ -25,6 +25,8 @@ The principal characteristic-zero test curve is
 C_0=[s^4:s^3t:st^3:t^4]\subset \mathbf P^3.
 \]
 
+The [Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) preserves provisional, independently reviewed local results on a conormal annihilator, Rees deformation torsion, and specialization. This is archived mathematical evidence, not a current STCI assignment or canonical theorem promotion.
+
 ## October 24 ideal-filtration investigation — REVIEWED PROPOSAL, NOT PROMOTED
 
 The [scoped reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) links independent-agent reviews and recorded exact validations for the comparison defect, the normal-Koszul spectral sequence, and the prescribed characteristic-two quartic example. These remain **provisional research evidence**, not numbered canonical results. The supported, generically defect-free punctual case remains open. Neither the unrestricted STCI status nor the quartic-carrier exclusion changes.

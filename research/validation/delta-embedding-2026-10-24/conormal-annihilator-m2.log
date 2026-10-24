@@ -1,0 +1,5 @@
+PASS conormal annihilator: r=1, degree=3, Ann(Delta)=(t^r)
+PASS conormal annihilator: r=2, degree=3, Ann(Delta)=(t^r)
+PASS conormal annihilator: r=3, degree=3, Ann(Delta)=(t^r)
+ALL 3 EXACT ANNIHILATOR SAMPLES PASS
+Boundary: these finite samples do not replace the general proof or establish a global projective realization.

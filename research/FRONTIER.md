@@ -7,6 +7,8 @@
 
 This file records the active mathematical frontier. Established claims belong in \`STATE.md\`; detailed historical handoffs and dated reports are provenance, not competing descriptions of current status.
 
+The [Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) is preserved as provisional evidence from the earlier STCI-directed phase. Its follow-up questions are **not active priorities** during the intrinsic-geometry interlude.
+
 ## General intersection viewpoint (research framing, not a theorem)
 
 For the fixed curve \(C_0\), it is often useful to begin with two surfaces having no common surface component and
