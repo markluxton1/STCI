@@ -1,0 +1,5 @@
+PASS: cubic scroll projection elimination
+PASS: inverse curve ideal and endpoint embedded defect
+PASS: distinct component images have intersection length3
+PASS: characteristic-two fourth-power graph
+PASS: all new M2 ruled-surface checks
