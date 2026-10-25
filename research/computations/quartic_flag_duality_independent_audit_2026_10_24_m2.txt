@@ -1,0 +1,7 @@
+PASS: two discriminant identities and both full intersection ideals
+PASS: six associated primes, degree16, HP16n-43, endpoint correction HP2
+JacobianHP=new ProjectiveHilbertPolynomial from {0 => -43, 1 => 16}
+unmixedHP=new ProjectiveHilbertPolynomial from {0 => -45, 1 => 16}
+endpointCorrectionAnnihilator=ideal(C,B,A*D)
+PASS: Hilbert-Burch minors, syzygies, nonzero length-one endpoint class, weighted Euler
+ALL INDEPENDENT AUDIT CHECKS PASSED

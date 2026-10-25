@@ -1,0 +1,87 @@
+{
+  "scope": "fixed marked rational quartic, characteristic zero",
+  "status": "exact symbolic evidence for provisional research",
+  "sympy_version": "1.14.0",
+  "checks": [
+    {
+      "name": "binary_quartic_invariants",
+      "pass": true
+    },
+    {
+      "name": "cubic_dual_discriminant_identity",
+      "pass": true,
+      "identity": "Delta=-4(BC-4AD)^3-27(AC^2+B^2D)^2"
+    },
+    {
+      "name": "quadric_dual_discriminant_identity",
+      "pass": true,
+      "identity": "Delta=4(AD-BC)(8AD+BC)^2-27(AC^2-B^2D)^2"
+    },
+    {
+      "name": "full_cubic_intersection_ideal",
+      "pass": true
+    },
+    {
+      "name": "full_quadric_intersection_ideal",
+      "pass": true
+    },
+    {
+      "name": "segre_hyperplane_factorization",
+      "pass": true
+    },
+    {
+      "name": "segre_discriminant_factorization",
+      "pass": true,
+      "divisor": "2ell_0+2ell_infinity+2Gamma_Q"
+    },
+    {
+      "name": "segre_two_cubic_restrictions",
+      "pass": true
+    },
+    {
+      "name": "dual_normalization_equation",
+      "pass": true
+    },
+    {
+      "name": "residual_quadratic_factorization",
+      "pass": true
+    },
+    {
+      "name": "dual_normalization_discriminant",
+      "pass": true,
+      "divisor": "3O_tilde+3f_0+3f_infinity"
+    },
+    {
+      "name": "dual_normalization_cartier_divisor",
+      "pass": true
+    },
+    {
+      "name": "osculating_full_inverse_ideal_endpoint_correction",
+      "pass": true,
+      "ideal": "(z-a^2/4)(z,a)"
+    },
+    {
+      "name": "endpoint_reduced_divisor",
+      "pass": true
+    },
+    {
+      "name": "endpoint_branch_contact_length_three",
+      "pass": true,
+      "quotient_basis": [
+        "1",
+        "C",
+        "C^2"
+      ]
+    },
+    {
+      "name": "distinguished_curve_substitutions",
+      "pass": true
+    },
+    {
+      "name": "distinguished_traces_are_distinct",
+      "pass": true
+    }
+  ],
+  "count": 17,
+  "all_pass": true
+}

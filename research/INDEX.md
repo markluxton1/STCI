@@ -25,6 +25,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md) — current tree inventory and evidence-retention decisions
 
 - [October 24 intrinsic quartic geometry: automorphisms and bitangents](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) — exploratory proofs, independent audits, and figures
+- [October 24 quartic flag, conormal geometry, and three duals](notes/2026-10-24-quartic-flag-duality-synthesis.md) — global divisor flag, residual double cover, cubic Gauss resolution, intersection schemes, and independent audit; provisional geometry
 - [October 24 rational normal quartic and ruled surfaces](notes/2026-10-24-p4-ruled-surfaces-synthesis.md) — resolved projection in four-space, cone and cubic-scroll normalizations, arithmetic section configurations, and independent audits; provisional intrinsic geometry
 - [October 24 special lines and planes](notes/2026-10-24-special-lines-planes-research-note.md) — exploratory incidence and dual geometry, independently audited
 - [October 24 Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) — preserved provisional local algebra, independent audits, and reproducible checks; not an active STCI research lane

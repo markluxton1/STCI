@@ -1,0 +1,82 @@
+{
+  "scope": "New residual-pair flag identities for the fixed quartic; no canonical promotion",
+  "sympy": "1.14.0",
+  "checks": [
+    {
+      "name": "bilinear_product_coefficient",
+      "passed": true,
+      "evidence": "a*C+b*B+c*A"
+    },
+    {
+      "name": "pairing_nondegenerate_integrally",
+      "passed": true,
+      "evidence": "-1"
+    },
+    {
+      "name": "torus_similitude",
+      "passed": true,
+      "evidence": "T^t M T=lam^2 M"
+    },
+    {
+      "name": "reflection_similitude",
+      "passed": true,
+      "evidence": "J^t M J=aa^2 M; J^2=aa^2"
+    },
+    {
+      "name": "swap_fixed_quadratic",
+      "passed": true,
+      "evidence": "2*a*c + b**2"
+    },
+    {
+      "name": "combined_reflection_fixed_conic",
+      "passed": true,
+      "evidence": "a**2 + aa**2*c**2 + aa*b**2"
+    },
+    {
+      "name": "factorization_jacobian_equals_negative_resultant",
+      "passed": true,
+      "evidence": "-p**3*r - p**2*q + 2*p**2*r**2 + 4*p*q*r + 4*q**2 + q*r**2"
+    },
+    {
+      "name": "quadruple_root_fiber_groebner_basis",
+      "passed": true,
+      "evidence": "[p**3 - 2*p*q, p**2*q - q**2, p*q**2, q**3]"
+    },
+    {
+      "name": "quadruple_root_fiber_length_six",
+      "passed": true,
+      "evidence": "[1, p, p**2, q, p*q, q**2]"
+    },
+    {
+      "name": "quadruple_root_fiber_maximal_ideal_nilpotent",
+      "passed": true,
+      "evidence": "(p,q)^6=0"
+    },
+    {
+      "name": "even_factor_dual_cubic",
+      "passed": true,
+      "evidence": "A*v**4 - A*z**2 + B*v**3 - B*v*z"
+    },
+    {
+      "name": "characteristic_two_fixed_scheme_is_double_line",
+      "passed": true,
+      "evidence": "q mod 2=b^2"
+    },
+    {
+      "name": "characteristic_two_discriminant_square",
+      "passed": true,
+      "evidence": "Disc mod 2=(A C^2+D B^2)^2"
+    },
+    {
+      "name": "characteristic_two_tangent_substitution",
+      "passed": true,
+      "evidence": "A=D v^4, B=C v^2 => K=0"
+    },
+    {
+      "name": "characteristic_two_cubic_gauss_line",
+      "passed": true,
+      "evidence": "[X2**2, 0, 0, X1**2]"
+    }
+  ],
+  "passed": true
+}
