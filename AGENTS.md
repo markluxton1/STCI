@@ -12,4 +12,4 @@ Read [research/INDEX.md](research/INDEX.md) first. This file governs **how to re
 8. New results enter as proposals with evidence and independent review status; promote them only through a reviewed change to canonical result/question records.
 
 For substantial work, report: precise claim used, assumptions, supporting path(s), unresolved dependencies, and whether the claim is promoted or provisional. Do not equate a computational reduction with a completed computation.
-New research contributions should follow [the proposal and audit checklist](research/CONTRIBUTING_AGENT.md). Canonical metadata can be checked with `python3 research/computations/validate_records.py`.\n
+New research contributions should follow [the proposal and audit checklist](research/CONTRIBUTING_AGENT.md). Canonical metadata can be checked with `python3 research/computations/validate_records.py`.

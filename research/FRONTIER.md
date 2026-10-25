@@ -5,7 +5,7 @@
 **STCI-directed research is voluntarily paused.** The current objective is to explore the intrinsic projective geometry of the fixed rational quartic **for its own mathematical interest**, not to seek an STCI obstruction. Any eventual STCI insight is incidental, not a criterion for success. The unrestricted characteristic-zero STCI problem and all open frontier items below remain open; their former priority labels are historical STCI-work priorities, **not active assignments** during this interlude. See [the geometry agenda](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md). Preserve accepted result scopes and do not promote exploratory geometry without audit.
 
 
-This file records the active mathematical frontier. Established claims belong in \`STATE.md\`; detailed historical handoffs and dated reports are provenance, not competing descriptions of current status.
+This file records the mathematical frontier retained for future STCI work. The Priority 1/2 labels below are historical STCI priorities, not active assignments during the intrinsic-geometry interlude. Established claims belong in \`STATE.md\`; detailed historical handoffs and dated reports are provenance, not competing descriptions of current status.
 
 The [Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) is preserved as provisional evidence from the earlier STCI-directed phase. Its follow-up questions are **not active priorities** during the intrinsic-geometry interlude.
 

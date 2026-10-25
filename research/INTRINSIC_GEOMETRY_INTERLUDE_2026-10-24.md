@@ -8,7 +8,7 @@ C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3
 \]
 **because the geometry is interesting in its own right.** Potential STCI insights are welcome side effects, **not the aim, a requirement, or a measure of success**. Do not steer every calculation toward an obstruction, carrier classification, or degree bound. This is a change of focus, not a mathematical closure: all accepted STCI results retain their exact scope, and the unrestricted question remains open. Do not silently reopen excluded quartic carriers.
 
-The preceding special-lines/planes exploration is background, not canonical theorem authority. Read its research note and independent audits if available (branch `codex/special-lines-planes-2026-10-24`; the author reported that commit `51dc477` was local and not pushed). Distinguish the osculating involution from the distinct bitangent correspondence; independently check formulas before promoting claims.
+The preceding [special-lines/planes exploration](notes/2026-10-24-special-lines-planes-research-note.md) and [automorphism/bitangent synthesis](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) are preserved on `main` as provisional research evidence, not canonical theorem authority. The earlier statement that commit `51dc477` had not been pushed is historical and no longer a current retrieval instruction. Distinguish the osculating involution from the distinct bitangent correspondence; independently check formulas before promoting claims.
 
 ## Questions to preserve
 
@@ -22,7 +22,7 @@ Use \(\operatorname{Sym}^2\mathbf P^1\cong\mathbf P^2\) to study unordered pairs
 
 ### C. Four curves and characteristic degeneration
 
-For \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\), analyze the four characteristic-zero components, their classes and intersections on \(Q\), and automorphisms permuting them. Distinguish the stabilizer of one curve from the group preserving the four-component configuration. Study the \(\mu_4\) action as a group scheme over \(\mathbf Z_{(2)}\), orbit schemes, flatness, and the nonreduced characteristic-two fiber. Determine the role of the two common hyperosculating points without conflating set-theoretic and scheme-theoretic intersections.
+For \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\), analyze the four characteristic-zero components, their individual containing quadrics and intersections in projective space (they do **not** all lie on one common smooth \(Q\)), and automorphisms permuting them. Distinguish the stabilizer of one curve from the group preserving the four-component configuration. Study the \(\mu_4\) action as a group scheme over \(\mathbf Z_{(2)}\), orbit schemes, flatness, and the nonreduced characteristic-two fiber. Determine the role of the two common hyperosculating points without conflating set-theoretic and scheme-theoretic intersections.
 
 ### D. Dual varieties and lines
 
@@ -35,6 +35,8 @@ Investigate why \(Q\) repeatedly organizes the geometry. For the cubic \(R:x_0x_
 ### F. Exceptional divisor and iterated blowups
 
 For \(B=\operatorname{Bl}_C\mathbf P^3\), study \(E=\mathbf P(N_{C/\mathbf P^3})\cong\mathbf P^1\times\mathbf P^1\to C\). Distinguish abstract product structure from canonical trivialization. Blow up sections of different degrees, compute their normal bundles in the successive threefolds and the ruled exceptional surfaces, and track splitting types under sequences of section blowups of degrees \(d_1,d_2,\ldots\). Test whether an elementary-transformation description exists; do not presume every new exceptional surface remains a product.
+
+The [October 24 ruled-surface synthesis](https://github.com/markluxton1/STCI/blob/codex/quartic-p4-ruled-surfaces-2026-10-24/research/notes/2026-10-24-p4-ruled-surfaces-synthesis.md) and independent audits are **unmerged branch evidence**, not canonical results. They construct a same-center cubic-scroll lift, a common four-curve ruled model, and explicit elementary transformations; verify their exact hypotheses and status before relying on them. The [merged discussion-reconciliation note](notes/2026-10-24-discussion-reconciliation.md) separately preserves the flag-variety, dual-incidence, and higher-contact questions.
 
 ## Execution guidance
 
