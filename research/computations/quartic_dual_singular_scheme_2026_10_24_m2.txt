@@ -1,0 +1,7 @@
+PASS homogeneous Jacobian ideal is saturated
+PASS U=J+(h), J:h=(B,C,AD), and U is the endpoint saturation
+PASS three explicit endpoint-socle syzygies and h nonmembership
+PASS four unmixed components and exactly two embedded point primes
+PASS singular degree 16; Hilbert polynomials 16n-43, 16n-45, and correction 2
+PASS endpoint Hilbert-Burch minors, height two, and one-dimensional socle correction
+PASS all new singular-scheme checks completed over QQ
