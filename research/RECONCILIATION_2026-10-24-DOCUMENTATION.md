@@ -23,3 +23,7 @@
 This was a focused inspection of the canonical entry points and the new branch's synthesis/independent-comparison report, **not a full repository-wide link crawl or complete line-by-line proof review**. No claims are made about every historical archive file, every citation target, or the correctness of all computations. A subsequent integration pass should (a) run the canonical record validator, (b) check relative Markdown links across the merged tree, (c) execute the branch's exact Python and Macaulay2 checks in a suitable environment, (d) reconcile branch overlap with the now-merged PR #71, and (e) inspect the full conductor/arithmetic arguments before any promotion decision.
 
 No STCI theorem or frontier question was closed by this maintenance review.
+
+## Post-integration update (PR #73)
+
+The ruled-surface package was merged into `main` in PR #73 (merge commit `883420964df773f5667d528b302537459170b8d5`). The documentation references to its synthesis are now relative links, and the duplicate unmerged navigation entry was removed. This section supersedes the *pending branch* language in the dated review above, which is retained as historical audit provenance. The user reported PR #73 checks passed; this documentation update does not independently attest to their execution or independently rerun them. No canonical result promotion follows from the merge.
