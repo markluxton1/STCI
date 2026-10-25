@@ -19,7 +19,7 @@ The ruling base is the parameter line of the degree-one projection of C. On s≠
 \[
 Q=\mathbb F_0,\qquad C=E_0+3f,\qquad C^2=6.
 \]
-This negative-section notation starts with a chosen square-zero section; on F₀ there is no unique minimal section.
+Here E₀ is intrinsically the endpoint tangent trisecant L∞: its intersection with C is 3p∞. Thus the endpoint determines the square-zero section used in the construction, although F₀ as an abstract ruled surface has no unique minimal section.
 
 Put w=1/u near p∞=[0:1], and r=1/v near E₀. The curve is r=w³. Blow up (w,r)=(0,0) and contract the strict transform of the fiber w=0. This is the elementary transformation with center on E₀. Its new local fiber coordinate near the strict transform E₁ is
 \[
@@ -63,7 +63,7 @@ The comparison does not preserve the projective hyperplane linear systems. A gen
 
 ## 2. What makes the chain natural, and which choices remain
 
-The construction uses the explicit Segre factors, the ordered endpoint p∞, and the section E₀={a=0}. These are supplied by the fixed coordinate presentation together with a choice between the two endpoints. It is equivariant for the torus
+The construction uses the intrinsic degree-one ruling of (Q,C), a choice of endpoint p∞, and its tangent trisecant E₀=L∞={a=0}. After choosing the endpoint, this auxiliary section is intrinsically determined by (Q,C). The fixed coordinate presentation supplies the matching fiber coordinates for the displayed projective model. It is equivariant for the torus
 \[
 u\mapsto\alpha u,\qquad v\mapsto\alpha^3v,
 \]
@@ -73,7 +73,30 @@ Endpoint interchange exchanges F=x₁⁴−x₀³x₃ with the analogous surface
 
 To identify the image of C with the zero-graph section C in the projection-cone model rather than the section C₁ in the F model, compose the last map with the bundle translation q↦q−st³, interpreted as a global section of O(4). This is an automorphism of the ruled model. It does not identify all its chosen projective image maps or conductor structures.
 
-## 3. The cubic scroll has a different ruling on the marked curve
+## 3. A second product model: separating the four graph sections
+
+On the F₄ model for the four-sheet surface let h=st³∈H⁰(O(4)), and let q be the affine O(4) coordinate complementary to E. The four sections are q=ζh. The rational function
+\[
+\lambda=q/h
+\]
+defines a fiberwise projective change of coordinates, giving a rational map to P¹_{[s:t]}×P¹_λ. Its base scheme is supported on the zero section above div(h)=3p₀+p∞. This follows equally from the pencil in |E+4f| whose zero member is {q=0} and whose infinity member is
+\[
+E+3f_0+f_\infty.
+\]
+
+Near p₀ put u=t/s. The graphs are q=ζu³. The elementary transformation at (u,q)=(0,0) replaces the local affine coordinate by q₁=q/u; its center is off E. Repeating three times gives q₃=ζ, separating all four graph values over p₀. Near p∞ the original chart is q∞=ζw, so one corresponding step replaces q∞ by q∞/w and separates the graph values there as well. These four steps realize
+\[
+\mathbb F_4\dashrightarrow\mathbb F_3\dashrightarrow
+\mathbb F_2\dashrightarrow\mathbb F_1\dashrightarrow\mathbb F_0.
+\tag{3}
+\]
+At a center off the negative section, its strict transform meets the contracted fiber once, so its square increases by one. Each marked graph passes through every center, hence its square decreases by one at each step. The marked-curve squares are therefore 4,3,2,1,0; the negative-section squares are −4,−3,−2,−1,0. The resulting product has E={λ=∞} and the four disjoint constant sections λ=ζ. The torus action q↦ξq becomes λ↦ξλ, including its μ₄ subgroup.
+
+This procedure resolves all pairwise intersections simultaneously, and its centers are dictated by the common graph pencil rather than an arbitrary selection of points. On the intermediate blowup before the fiber contractions, the four strict transforms are also already disjoint. In characteristic zero the three successive points above p₀ account exactly for the order-three contact of the graphs, while the one point above p∞ accounts for their transverse intersection there.
+
+The final F₀ is a useful incidence product; it is not the embedded quadric Q with its original marked curve. The marked curves on this product have square zero, whereas C⊂Q has square six. Thus (1) and (3) are two different constructions with different marked data, despite both involving a product Hirzebruch surface. In characteristic two the flat μ₄ configuration on the product is λ⁴=1=(λ−1)⁴. It has one reduced section with scheme multiplicity four, rather than four distinct constant sections; the coordinate construction establishes precisely that statement.
+
+## 4. The cubic scroll has a different ruling on the marked curve
 
 For the cubic-scroll normalization use
 \[
@@ -94,7 +117,7 @@ There is instead a natural degree-two incidence base change:
 \downarrow &&\downarrow\\
 \mathbf P^1_u&\xrightarrow{u\mapsto u^2}&\mathbf P^1_y.
 \end{array}
-\tag{3}
+\tag{4}
 \]
 Indeed pulling back O(1)⊕O(2) gives O(2)⊕O(4), whose projective bundle after twisting is F₂. Its negative section has square −2. Pullback of the cubic-scroll hyperplane is
 \[
@@ -111,10 +134,18 @@ In characteristic two the same base-change equation is λ²−u²=(λ−u)². Th
 
 This F₂ and the F₂ in the elementary chain (1) are abstractly the same Hirzebruch type, but their marked curves have different classes and squares: E₂+2f₂ (square two) in the base-change construction, versus E₂+3f₂ (square four) in (1). Their equality as abstract surfaces supplies no identification of the marked configurations.
 
-## 4. Audit outcome and scope
+## 5. Audit outcome and scope
 
-The explicit four-step elementary chain is verified. It proves a relationship compatible with the marked curve and the degree-one ruling, with the ordered endpoint and explicit embedding data stated. Its divisor transform formula, intermediate classes, and final bundle transitions agree independently.
+Both explicit elementary-transform chains are verified. The graph-pencil chain separates the four marked sections onto a product with square-zero constant sections; this product is distinguished explicitly from Q. The Q-to-F₄ chain is also verified. It proves a relationship compatible with the marked curve and the degree-one ruling, with the ordered endpoint and explicit embedding data stated. Its divisor transform formula, intermediate classes, and final bundle transitions agree independently.
 
 The cubic-scroll model is linked naturally by a degree-two base change and splitting of the marked bisection, rather than by a birational identification of the specified rulings. Its hyperplane pullback and graph intersection divisor are verified. The characteristic-two assertion here is restricted to this exact base-change equation.
 
 The author notes retain the proofs and full normalization/conductor information for the [projection cone](2026-10-24-projection-cone-ruled-model.md), [cubic scroll](2026-10-24-cubic-scroll-normalization.md), and [four-sheet surface](2026-10-24-four-sheet-ruled-surface.md). Their independent central-model and arithmetic audits are separate from this comparison audit. These are new provisional research contributions, with no change to canonical results, no STCI implication, and no novelty claim.
+
+## 6. Final source comparison
+
+After the reconstruction, the reviewer compared Sections 4 and 6 of the four-sheet note and Section 7 of the cubic-scroll note with these calculations. Their graph-pencil blowups, marked Q-to-F₄ chain, and F₂ base change agree with the independent local coordinate constructions and intersection numbers above. No discrepancy was found in those final comparison claims. The separate projective hyperplane classes and the differing marked F₀ and F₂ models have been retained explicitly in this audit to prevent an abstract-surface identification from being mistaken for an identification of the geometric constructions.
+
+## 7. Synthesis review
+
+The reviewer also checked Sections 3–5 and 7 of the [synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md), including the table's marked bisection and hyperplane classes, both elementary-transform bridges, and the rank-two subbundle splittings. The displayed divisor, intersection, and bundle calculations agree with the independent reconstruction. The reviewer requested four presentation precisions: distinguish the contraction F₄→T from the subsequent finite projections; identify the auxiliary section of the quadric chain intrinsically as the chosen endpoint tangent trisecant; specify that the parameter normalizations in this package are P¹ when invoking bundle splitting; and refer to the pulled-back marked bisection rather than an unspecified full inverse-image quartic. These requests do not alter any calculated class or map. The completed synthesis was reread after all four precisions were incorporated. Its revised wording correctly distinguishes these objects and hypotheses. No remaining discrepancy is identified in the reviewed synthesis claims.

@@ -20,6 +20,12 @@
       ]
     },
     {
+      "name": "cubic restriction to Q factors as curve plus two ruling fibers",
+      "pass": true,
+      "identity": "R|Q=a*b*(b*c^3-a*d^3)",
+      "divisor": "C+L0+Linfty"
+    },
+    {
       "name": "scheme inverse of C on normalization of R has endpoint defect",
       "pass": true,
       "source_ideal": [
@@ -34,13 +40,6 @@
       "pullback": "(w-r^2)*(r,w)",
       "divisorial_hull": "(w-r^2)",
       "defect_length": 1
-    },
-    {
-      "name": "conductor of pinch-chart subring lies in its integral extension",
-      "pass": true,
-      "ring": "k[r,r*w,w^2] inside k[r,w]",
-      "conductor": "(r,r*w) downstairs; (r) upstairs",
-      "conductor_map": "k[w^2] -> k[w]"
     },
     {
       "name": "missing middle cone generator multiplies into the image ring",

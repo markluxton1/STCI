@@ -65,6 +65,14 @@ def main() -> None:
            equal_ideals(eliminated, [cubic], [x0, x1, x3, x4]),
            eliminated_generators=[str(p) for p in eliminated])
 
+    c, d = sp.symbols("c d")
+    segre_restriction = (x0*x3**2-x1**2*x4).subs(
+        {x0: a*c, x1: a*d, x3: b*c, x4: b*d})
+    record("cubic restriction to Q factors as curve plus two ruling fibers",
+           sp.expand(segre_restriction-a*b*(b*c**3-a*d**3)) == 0,
+           identity="R|Q=a*b*(b*c^3-a*d^3)",
+           divisor="C+L0+Linfty")
+
     r, w = sp.symbols("r w")
     delta = w-r**2
     pulled = [r*w-r**3, w**2-r**4]
@@ -75,13 +83,7 @@ def main() -> None:
            substitution={"x1": "r", "x2": "r*w", "x3": "w^2"},
            pullback="(w-r^2)*(r,w)",
            divisorial_hull="(w-r^2)", defect_length=1)
-    record("conductor of pinch-chart subring lies in its integral extension",
-           sp.expand((r*w)**2-r**2*w**2) == 0,
-           ring="k[r,r*w,w^2] inside k[r,w]",
-           conductor="(r,r*w) downstairs; (r) upstairs",
-           conductor_map="k[w^2] -> k[w]")
-
-    u, v = sp.symbols("u v")
+    u = sp.symbols("u")
     missing = s**2*t**2
     retained = [s**4, s**3*t, s*t**3, t**4]
     products = [retained[1]**2, retained[0]*retained[2],

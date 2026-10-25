@@ -1,11 +1,12 @@
 # The four-component quartic surface and its ruled model
 
 Date: 2026-10-24. Author: independent research agent `four_sheet`.
-Status: **provisional intrinsic geometry, with an independent audit recorded in
-[the arithmetic and normalization audit](2026-10-24-ruled-arithmetic-independent-audit.md);
+Status: **provisional intrinsic geometry; independently reconstructed and
+reviewed in the [arithmetic and normalization audit](2026-10-24-four-sheet-arithmetic-independent-audit.md)
+and the [comparison audit](2026-10-24-ruled-comparison-independent-audit.md);
 no canonical promotion**. Work over an algebraically closed field of
 characteristic zero unless a base is specified. The arithmetic companion
-[studies specialization separately](2026-10-24-ruled-mu4-arithmetic.md).
+[studies specialization separately](2026-10-24-ruled-surfaces-arithmetic.md).
 
 The fixed objects are
 \[
@@ -267,7 +268,7 @@ For $\xi\in\mu_4$ it permutes the four curves. It extends through the
 pencil resolution and acts on its base by $\lambda\mapsto\xi\lambda$.
 Over characteristic zero, this is the usual action of four geometric
 points. Over $\mathbf Z_{(2)}$ its group scheme meaning must be kept;
-the [arithmetic note](2026-10-24-ruled-mu4-arithmetic.md) treats it.
+the [arithmetic note](2026-10-24-ruled-surfaces-arithmetic.md) treats it.
 
 ```mermaid
 flowchart LR
@@ -293,7 +294,8 @@ Its center, the omitted $st^3$ coordinate point, lies outside $S$:
 the base curve $[s^4:s^3t:st^3:t^4]$ never equals that point.
 A positive-dimensional projection fiber would be a line through that
 center contained in $S$, which is impossible. Properness then makes
-the projection finite. Both surfaces have the same finite normalization
+the projection finite. On $x_0=1$, its omitted coordinate is recovered as
+$(t/s)^3=(x_1/x_0)^3$, so the projection is birational. Both surfaces have the same finite normalization
 $T$ and the same minimal smooth ruled model $Y$.
 
 On this common $Y$, the original rational normal quartic in the
@@ -369,11 +371,13 @@ normalization or minimal resolution of $X$.
 ## 7. Scope, evidence, and remaining questions
 
 All bundle, normalization, conductor, intersection, and blowup statements
-above are proved by the displayed constructions. The independent audit
-must compare the full inverse-image ideals as well as the reduced curve
-classes. No novelty is asserted: the normalization of cones and
+above are proved by the displayed constructions. The [independent comparison audit](2026-10-24-ruled-comparison-independent-audit.md)
+reconstructs the pencil resolution and the marked elementary transformations.
+The [central normalization audit](2026-10-24-four-sheet-arithmetic-independent-audit.md)
+also checks the full inverse-image ideals as well as the reduced curve classes;
+its final source comparison records no remaining discrepancy. No novelty is asserted: the normalization of cones and
 Hirzebruch-surface calculations are standard mechanisms, and the package's
-literature note records checked references.
+[literature note](2026-10-24-ruled-surfaces-literature.md) records checked references.
 
 Characteristic-two statements do not follow by replacing the four roots
 with one point. The full group scheme, orbit divisor, and the distinction
