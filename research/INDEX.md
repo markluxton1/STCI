@@ -28,6 +28,11 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [October 24 special lines and planes](notes/2026-10-24-special-lines-planes-research-note.md) — exploratory incidence and dual geometry, independently audited
 - [October 24 Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) — preserved provisional local algebra, independent audits, and reproducible checks; not an active STCI research lane
 - [October 24 ideal-filtration reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) — provisional exact-sequence and spectral-sequence framework, example checks, and promotion gates
+### Pending October 24 branch and discussion reconciliation
+
+- [Ruled-surface synthesis (unmerged Codex branch)](https://github.com/markluxton1/STCI/blob/codex/quartic-p4-ruled-surfaces-2026-10-24/research/notes/2026-10-24-p4-ruled-surfaces-synthesis.md) — provisional same-center \(\mathbf P^4\) projection, cubic-scroll normalization, common four-curve model, elementary transforms, arithmetic degeneration, independent audits and computation files. **Not on `main` and not promoted**; consult its branch-local links for evidence.
+- [Discussion reconciliation (PR #71)](https://github.com/markluxton1/STCI/pull/71) — proposed preservation of flag incidence, conormal/quadric distinctions, three-dual questions and corrections; **not yet merged**.
+
 ## Verification and history
 
 - [Intrinsic (4,4) K3 obstruction and handoff](notes/2026-10-23-intrinsic-44-research-report.md) — independently reviewed new proof, contact and valuation constructions; not canonically promoted
