@@ -1,6 +1,6 @@
 # Documentation and maintenance review — 2026-10-24
 
-**Status:** documentation maintenance, not a mathematical promotion or an independent proof audit. Review baseline: `main` at `46a0ff3`; relevant pending work: `codex/quartic-p4-ruled-surfaces-2026-10-24` (two commits ahead of that baseline) and discussion-reconciliation PR #71.
+**Status:** documentation maintenance, not a mathematical promotion or an independent proof audit. Review baseline: `main` at `46a0ff3`; relevant pending work: `codex/quartic-p4-ruled-surfaces-2026-10-24` (two commits ahead of that baseline) and merged discussion-reconciliation PR #71.
 
 ## Checked for content and authority
 
@@ -15,11 +15,11 @@
 
 1. The unmerged ruled-surface branch includes a same-center smooth cubic-scroll lift in `P^4`, normalization and conductor work, a common `F_4` model for the four characteristic-zero curves, explicit elementary transformations, and arithmetic group-scheme treatment. Its synthesis reports independent audits and scripts; **this maintenance PR does not independently rerun those scripts**.
 2. The original quadric `Q`, the common four-section ruled model, and the conormal normalization must not be conflated merely because some are abstractly products. The four curves have individual containing quadrics; the common carrier is not one smooth quadric.
-3. PR #71 preserves discussion-only incidence/duality questions and the failed polarity identification. Keep it separate from this navigation/maintenance PR; avoid duplicating its proposed note until it merges.
-4. The branch's `research/INDEX.md` adds its own synthesis link. After merging that branch, replace the external branch pointer in `research/INDEX.md` with a relative link, remove the 'unmerged' notices in `STATE.md` and the interlude, and reconcile overlapping navigation edits. Likewise update PR #71 links when it merges.
+3. Merged PR #71 preserves discussion-only incidence/duality questions and the failed polarity identification in `research/notes/2026-10-24-discussion-reconciliation.md`. Link to that note directly; it is provisional, not promoted.
+4. The branch's `research/INDEX.md` adds its own synthesis link. After merging that branch, replace the external branch pointer in `research/INDEX.md` with a relative link, remove the 'unmerged' notices in `STATE.md` and the interlude, and reconcile overlapping navigation edits. PR #71 is already merged; its discussion note should now be linked relatively.
 
 ## Validation boundaries and follow-up
 
-This was a focused inspection of the canonical entry points and the new branch's synthesis/independent-comparison report, **not a full repository-wide link crawl or complete line-by-line proof review**. No claims are made about every historical archive file, every citation target, or the correctness of all computations. A subsequent integration pass should (a) run the canonical record validator, (b) check relative Markdown links across the merged tree, (c) execute the branch's exact Python and Macaulay2 checks in a suitable environment, (d) resolve branch overlap with PR #71, and (e) inspect the full conductor/arithmetic arguments before any promotion decision.
+This was a focused inspection of the canonical entry points and the new branch's synthesis/independent-comparison report, **not a full repository-wide link crawl or complete line-by-line proof review**. No claims are made about every historical archive file, every citation target, or the correctness of all computations. A subsequent integration pass should (a) run the canonical record validator, (b) check relative Markdown links across the merged tree, (c) execute the branch's exact Python and Macaulay2 checks in a suitable environment, (d) reconcile branch overlap with the now-merged PR #71, and (e) inspect the full conductor/arithmetic arguments before any promotion decision.
 
 No STCI theorem or frontier question was closed by this maintenance review.
