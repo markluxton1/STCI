@@ -299,10 +299,11 @@ triple-intersection scheme if it is needed.
 Run
 
 ```sh
-/tmp/stci-z4-env/bin/python research/computations/verify_quartic_dual_intersections_2026_10_24.py
+python3 research/computations/verify_quartic_dual_intersections_2026_10_24.py
 ```
 
-The [verifier](../computations/verify_quartic_dual_intersections_2026_10_24.py)
+Use SymPy 1.14.0 in the selected Python environment. The
+[verifier](../computations/verify_quartic_dual_intersections_2026_10_24.py)
 and its [JSON evidence](../computations/quartic_dual_intersections_2026_10_24.json)
 check the discriminant, invariant identities, complete-intersection ideal
 equalities, residual factorizations, endpoint contact length, and

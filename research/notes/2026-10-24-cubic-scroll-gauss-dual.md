@@ -565,10 +565,11 @@ quartic substitutions, and their distinct contact-point example. Its
 records these exact identities. Run
 
 ```
-/tmp/stci-z4-env/bin/python research/computations/verify_cubic_scroll_gauss_dual_2026_10_24.py
+python3 research/computations/verify_cubic_scroll_gauss_dual_2026_10_24.py
 ```
 
-from the repository root. Computation verifies the displayed identities;
+from the repository root, using SymPy 1.14.0 in the selected Python
+environment. Computation verifies the displayed identities;
 the global resolution, completeness of the dual, normalization, and
 scheme-divisor conclusions use the proofs above.
 
@@ -590,8 +591,8 @@ exists there. In fact its characteristic-two gradient is
 [x_2^2:0:0:x_1^2],
 \]
 
-so its actual dual is the line \(V\(b,c\)\). This is not the cubic
-\(V\(ac^2+b^2d\)\) obtained by specializing the characteristic-zero dual
+so its actual dual is the line \(V(b,c)\). This is not the cubic
+\(V(ac^2+b^2d)\) obtained by specializing the characteristic-zero dual
 equation. Taking the reduced Gauss image closure does not commute with
 that specialization. No characteristic-two version of (6)–(10) is
 asserted.

@@ -371,3 +371,24 @@ of higher contact remain research questions. They are extensions of
 the proved fixed setup, not unproved dependencies of its propositions.
 No novelty claim, canonical theorem promotion, or STCI frontier closure
 is supported by this audit.
+
+## 8. Synthesis integration addendum, 2026-10-25
+
+Recorded by the integrating author, following the independent reviewer's
+final message. The reviewer read the main synthesis and found one actual
+diagram error: an arrow from the ruling parameter curve directly to its
+swept cubic surface claimed a morphism that the line family does not
+supply. The corrected diagram displays the universal point-on-ruling
+\(\mathbb F_1\), its projection to the ruling curve, its finite map to
+the primal cubic, and the two-blowup Gauss resolution. Each displayed
+arrow then has the stated morphism domain. This correction concerns the
+synthesis diagram; the supporting scroll proof already retained those
+domains.
+
+The reviewer also confirmed the scheme equality
+\(\tau(N_C)\cap\mathscr S=\tau(\sigma_O)\) for the second flag
+surface. Its further intersection with \(N_C\) must not be identified
+with \(T_4\) merely from equal endpoint lengths: their first-order
+directions differ. The synthesis uses only the separately proved
+equality \(T_4=N_C\cap\operatorname{Fix}(\tau)\). No new broader
+claim is introduced by this integration addendum.

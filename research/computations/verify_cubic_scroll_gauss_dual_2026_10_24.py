@@ -2,7 +2,8 @@
 """Exact identity checks for the fixed characteristic-zero cubic Gauss package.
 
 Run from the repository root:
-  /tmp/stci-z4-env/bin/python research/computations/verify_cubic_scroll_gauss_dual_2026_10_24.py
+  python3 research/computations/verify_cubic_scroll_gauss_dual_2026_10_24.py
+Requires SymPy 1.14.0 in the selected Python environment.
 An optional first argument selects a JSON destination. The global geometry is
 proved in the companion note; this verifier checks only its new identities.
 """

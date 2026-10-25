@@ -60,7 +60,7 @@ The supporting investigations are:
 | Note | Main contribution and evidence type |
 | --- | --- |
 | [Flag incidence](2026-10-24-quartic-flag-incidence.md) | Global construction, finite fibers, swap, contact structure, automorphisms; proofs and exact checks |
-| [Conormal and residual geometry](2026-10-24-quartic-conormal-residual-geometry.md) | Canonical product, distinguished sections, residual double cover and higher contact; proofs and exact checks |
+| [Conormal and residual geometry](2026-10-24-quartic-conormal-residual-geometry.md) | Canonical product, distinguished sections, residual double cover and higher contact; proofs and independent reconstruction |
 | [Cubic scroll and Gauss duality](2026-10-24-cubic-scroll-gauss-dual.md) | Dual equation, normalization, Gauss resolution and elementary transformations; proofs and exact checks |
 | [Dual intersections](2026-10-24-quartic-dual-intersections.md) | Global intersection ideals and endpoint inverse-ideal corrections; proofs and exact checks |
 | [Dual singular scheme](2026-10-24-quartic-dual-singular-scheme.md) | Full Jacobian scheme, generic transverse structures and embedded endpoint points; local algebra and exact certificates |
@@ -246,6 +246,11 @@ because \(\mathcal D\cap L_\iota\) consists of the endpoint double
 points. The osculating quartic is a common **image** of the two surfaces;
 its two flag markings differ away from the endpoints.
 
+More precisely, \(\tau(N_C)\cap\mathscr S\) is the swapped
+osculating section \((p+\iota(p),2p)\), scheme-theoretically. This is
+the common osculating image with its correct marking inside the second
+ruled surface; it is different from \(N_C\cap\mathscr S\).
+
 ```mermaid
 flowchart TB
   N["N_C = pr₁⁻¹(D), canonically C × C"] --> I["I = residual divisor flag"]
@@ -254,17 +259,25 @@ flowchart TB
   I -->|"finite flat degree 6: add divisors"| V["P(V): planes in P³"]
   N -->|"finite normalization"| CD["C dual: sextic discriminant"]
   S -->|"finite normalization"| RD["R dual: singular cubic"]
+  CD -->|"inclusion"| V
+  RD -->|"inclusion"| V
   P -->|"secant morphism; trisecant identifications"| G["Gr(2,V*)"]
-  L["L_iota in P"] -->|"ruling curve via secants"| G
-  L -->|"universal line incidence"| R["R, with primal normalization F₁"]
-  R -.->|"Gauss correspondence resolved by 2 blowups"| S
+  L["L_iota"] -->|"inclusion"| P
+  T["T: primal normalization F₁"] -->|"P¹ bundle of points on rulings"| L
+  T -->|"finite normalization"| R["R: primal singular cubic"]
+  B["Blowup of T at 2 conductor endpoints"] -->|"blowdown"| T
+  B -->|"contract strict endpoint fibers"| S
+  QS["quadric-tangent section"] -->|"inclusion"| N
+  QS -->|"tangent-plane map"| QD["Q dual"]
+  QD -->|"inclusion"| V
 ```
 
-The last arrow denotes the Gauss construction through the primal
-normalization and its resolution. It is not a morphism from the singular
-cubic everywhere. \(Q^\vee\) embeds in the same plane parameter space
-\(\mathbf P(V)\); its distinguished trace is the image of \(\sigma_Q\).
-There is no map from all of \(N_C\) to \(Q^\vee\) asserted here.
+Every arrow in this diagram is a morphism on its displayed domain.
+The two arrows from the blowup resolve the Gauss correspondence. The
+line-parameter curve itself does not map onto its swept cubic: its
+universal projective-line bundle does. The quadric-tangent section maps
+to \(Q^\vee\); there is no map from all of \(N_C\) to \(Q^\vee\)
+asserted here.
 
 ## 6. Three duals through two invariant identities
 
@@ -351,9 +364,12 @@ The resultant ramification of \(f\), restricted to \(N_C\), is
 \(2T_{\geq3}\): a doubled factor gives
 \(\operatorname{Res}(\ell_p^2,k)=k(p)^2\). This relates the
 factorization cover to osculation without identifying its ramification
-surface with \(N_C\). The fourth-contact jet incidence has length two
-at each hyperosculating point, although its support is two points. These
-schemes come from principal-parts evaluation; ordinary derivative ranks
+surface with \(N_C\). The fourth-contact jet incidence is exactly
+\(T_4=N_C\cap\operatorname{Fix}(\tau)\) as a scheme in the flag.
+It has length two at each hyperosculating point, although its support is
+two points. This nontransverse intersection of the conormal surface with
+the fixed bitangent conic recovers the doubled endpoint Wronskian divisor.
+These schemes come from principal-parts evaluation; ordinary derivative ranks
 alone would miss the boundary structure. A full theory of nested divisor
 flags is a next question, not an assertion of this package.
 
@@ -400,3 +416,41 @@ No conjecture is needed for the fixed characteristic-zero propositions
 above. Variation of the center, quotient geometry beyond the stated local
 model, and a systematic higher-contact theory remain research questions.
 Canonical STCI records and their scopes are unchanged.
+
+## 9. Reproduction and integration record
+
+The three new Python verifiers use SymPy 1.14.0. With a Python environment
+containing that version, run from the repository root:
+
+```sh
+python3 research/computations/verify_quartic_flag_incidence_2026_10_24.py
+python3 research/computations/verify_cubic_scroll_gauss_dual_2026_10_24.py
+python3 research/computations/verify_quartic_dual_intersections_2026_10_24.py
+M2 --script research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2
+M2 --script research/computations/audit_quartic_flag_duality_2026_10_24.m2
+python3 research/computations/validate_records.py
+python3 research/computations/check_markdown_links.py --core
+```
+
+The Python scripts save adjacent JSON reports; the two independent
+Macaulay2 suites have saved text outputs linked from their notes. The
+scoped checks concern new formulas and scheme calculations. Inherited
+normal-splitting and carrier-exclusion proofs are not rerun.
+
+Final synthesis integration continued on 2026-10-25. The independent
+reviewer identified one diagram error: a family of ruling lines had been
+drawn as a morphism from its base curve to the swept surface. The final
+diagram displays the universal point-on-ruling bundle and the Gauss
+resolution instead. The mathematical statements about the two scrolls
+already used those correct domains. The audit also warned that different
+length-four endpoint incidences must retain their tangent directions;
+only the specifically proved equality \(T_4=N_C\cap\operatorname{Fix}(\tau)\)
+is asserted here.
+
+Integration validation on 2026-10-25 passed all 65 exact Python checks
+(15 flag, 33 cubic Gauss/dual, 17 intersections), both Macaulay2 suites,
+23 canonical metadata records, core navigation links, and every local
+destination in the changed Markdown files. The new notes' math delimiters
+and `git diff --check` also passed. This confirms the specified symbolic
+and record checks; the global propositions rely on their written proofs
+and independent audits.

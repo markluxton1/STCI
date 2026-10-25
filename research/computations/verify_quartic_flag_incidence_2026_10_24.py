@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Exact checks for the NEW residual-pair flag formulas only.
 
-Run /tmp/stci-z4-env/bin/python research/computations/verify_quartic_flag_incidence_2026_10_24.py
+Run python3 research/computations/verify_quartic_flag_incidence_2026_10_24.py
+Requires SymPy 1.14.0 in the selected Python environment.
 An optional first argument chooses the JSON output path. No accepted proof,
 normal splitting, or inherited secant/group classification is rerun.
 """
