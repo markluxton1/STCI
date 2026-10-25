@@ -31,7 +31,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 ### Pending October 24 branch and discussion reconciliation
 
 - [Ruled-surface synthesis (unmerged Codex branch)](https://github.com/markluxton1/STCI/blob/codex/quartic-p4-ruled-surfaces-2026-10-24/research/notes/2026-10-24-p4-ruled-surfaces-synthesis.md) — provisional same-center \(\mathbf P^4\) projection, cubic-scroll normalization, common four-curve model, elementary transforms, arithmetic degeneration, independent audits and computation files. **Not on `main` and not promoted**; consult its branch-local links for evidence.
-- [Discussion reconciliation (PR #71)](https://github.com/markluxton1/STCI/pull/71) — proposed preservation of flag incidence, conormal/quadric distinctions, three-dual questions and corrections; **not yet merged**.
+- [October 24 discussion reconciliation](notes/2026-10-24-discussion-reconciliation.md) — merged provisional agenda for flag incidence, conormal/quadric distinctions, three-dual questions and corrections; not theorem authority.
 
 ## Verification and history
 
