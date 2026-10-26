@@ -165,6 +165,8 @@ Thus near \(Z\) the boundary is locally a freely moving degree-18 divisor, and t
 
 **What might fail.** The boundary does not specify the number, genera, multiplicities, or higher contact data of residual components. Surjectivity does not assert that every arbitrarily chosen global boundary has a prescribed smooth residual realization, and it gives no multiplicity-four model on \(C\). Understanding topology inside a boundary fiber is a separate experiment.
 
+**Completed continuation, October 26.** At the [line-plus-degree-eleven residual member](2026-10-25-ci-cycle-line-degeneration.md), the boundary map is again smooth of rank eighteen. The [fixed-boundary smoothing experiment](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md) shows that its fourteen-dimensional local fiber controls all five residual node-smoothing parameters independently, with nine further tangent parameters. The exact ranks and formal/étale interpretation have [independent review](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md). Thus even the exact divisor, rather than only its degree, can be fixed while genus moves from residual gluing into residual normalization. An explicit polynomial coefficient arc is not part of that calculation.
+
 ## 6. What exactly is compressed at the endpoints?
 
 The established local equation at either endpoint of \(Z\), in a smooth surface chart, is analytically equivalent to
@@ -371,6 +373,8 @@ These are proposed experiments, not computations claimed complete. The first fou
 - [Independent audit](2026-10-25-ci-cycle-exploration-audit.md).
 - [Adaptive valuative continuation](2026-10-25-ci-cycle-adaptive-valuative-notebook.md), incorporating the clarified broader goal and cycle-dependent measures.
 - [Explicit smooth residual benchmark](2026-10-25-ci-cycle-smooth-residual-example.md) and [independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md).
+- [Line degeneration](2026-10-25-ci-cycle-line-degeneration.md) and [independent audit](2026-10-25-ci-cycle-line-degeneration-audit.md).
+- [Independent node smoothing at fixed boundary](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md) and [October 26 audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md).
 
 Run the new selective experiments from the repository root:
 

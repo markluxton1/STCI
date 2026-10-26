@@ -2,6 +2,8 @@
 
 Date: 2026-10-25, America/New_York. This is a working handoff, not theorem authority.
 
+**October 26 instruction update:** the user reopened the usage window and asked to finish the investigations already underway, push the work, and stop. This supersedes the earlier instruction to keep selecting new items until the usage limit. The final current items are the line degeneration, fixed-boundary node smoothing, and endpoint-four actual sextic/fixed-carrier jet test.
+
 ## Authorized continuation
 
 The user asked to continue the exploration, then proceed through substantive STCI or other repository items until the five-hour usage limit stops the run. The user also authorized pushing commits at each checkpoint. Publication authorization applies to checkpoint commits; no merge or canonical promotion is inferred.
@@ -21,7 +23,7 @@ The [root-collision notebook](2026-10-25-ci-cycle-root-collision-valuations.md) 
 
 The earlier [valuative audit](2026-10-25-ci-cycle-valuative-audit.md) was preserved and its mathematical formatting cleaned. Accepted results and their proofs were not changed or rerun. No universal residual positivity has been proved.
 
-## Next item: an explicit global smooth residual benchmark
+## Publication record
 
 Checkpoint 1 was pushed as a4420cb5d01ca27f09f4e07c0ee8289b8cb14c48. The exact remote branch ref was verified and the checkout was clean immediately after the push.
 
@@ -34,3 +36,13 @@ The independent standard-library boundary calculation gives a squarefree polynom
 A preliminary coefficient choice forced the line \(L=V(x_0+x_1,x_2+x_3)\). Its residual has five singular points on that line. This is the next intrinsic geometry item: isolate the degree-eleven component, check its genus and smoothness, and understand the genus redistribution when the line is absorbed in a nearby smooth residual.
 
 The separate [frontier reconnaissance](2026-10-25-valuative-frontier-next-experiments.md) identifies two genuinely open STCI followups after that geometry checkpoint: the single-defect nonsaturated degree-\((6,12)\) slice, and an endpoint-four nodal chart of the conditional degree-\((6,16)\) lane. Their exact hypotheses and unresolved global-realization requirements remain explicit. Do not reopen accepted exclusions or treat these candidate experiments as existence/nonexistence results.
+
+Checkpoint 2 was pushed as d856d78078b75ec78d38c8782b9da3a6f9b1c9ab, with the exact remote ref verified.
+
+## Checkpoint 3: line absorption and independent smoothing at fixed boundary
+
+The [line degeneration](2026-10-25-ci-cycle-line-degeneration.md) and its [audit](2026-10-25-ci-cycle-line-degeneration-audit.md) certify a residual \(L\cup E\), where \(E\) is smooth geometrically integral of degree eleven and genus twelve. There are five simple \(L\)-\(E\) nodes, seventeen \(C\)-\(E\) attachments, and one \(C\)-\(L\) attachment, with no triple points. The moving ruling-line stratum is \(ab=1\) near the chosen parameter. Each node-smoothing parameter is a unit times \(ab-1\); the order-five assertion concerns their product, not every scheme structure called a discriminant.
+
+The [fixed-boundary calculation](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md), its [independent reconstruction](2026-10-25-ci-cycle-fixed-boundary-node-smoothing-audit.md), and the [October 26 final audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md) give affine ranks \(19,5,24\). On the pencil Grassmannian the exact-boundary fiber has dimension fourteen and maps smoothly to the five marked node parameters, with nine further formal coordinates. The formal/étale local existence statement is reviewed; an explicit polynomial coefficient arc is not claimed.
+
+These two geometric investigations are complete at their stated exploratory scope. Only the endpoint-four actual sextic and selected fixed-carrier jet test remain to finish before stopping.

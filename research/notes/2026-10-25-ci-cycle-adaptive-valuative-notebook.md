@@ -233,6 +233,8 @@ The [endpoint valuation notebook](2026-10-25-ci-cycle-endpoint-valuations.md) de
 
 The [root-collision continuation](2026-10-25-ci-cycle-root-collision-valuations.md) then follows the actual root pencil near its double-\(C\) member over a field above two. It finds two different thresholds: one for how fast a residual sheet approaches the marked sheet, and another for collision within the residual sheets. The first-normal determinant records their total marked separation but misses that second collision. A full tree with residue information resolves the ambiguity.
 
+The later [fixed-boundary node experiment](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md) supplies another concrete distinction: all five nodes inside a line-plus-degree-eleven residual curve can be smoothed independently in the formal fixed-boundary fiber, with an étale algebraic local realization. These nodes lie away from \(C\). Their smoothing changes residual normalization genus while the exact attachment divisor on \(C\) stays fixed. This is a verified local deformation picture, not a universal ordering or an explicit polynomial coefficient path.
+
 ## 9. How “closest” might guide adaptive certificates
 
 The reference configuration provides several thresholds at once:

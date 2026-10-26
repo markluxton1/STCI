@@ -1,0 +1,11 @@
+Residual D = L union E scheme-theoretically; degree(E)=11, p_a(E)=12: PASS
+E projectively smooth over QQ, H0(O_E)=QQ; hence geometrically integral: PASS
+L meets E in5 simple points, C meets E in17 simple points, C meets L in1 point; no triple: PASS
+Quintic intersection equation, geometric squarefreeness, no shared C point: PASS
+(First-normal matrix on L: , | r3+2r2s+3rs2+2s3 -r3-3r2s-2rs2     |)
+                             | 4r2s-2rs2+8s3    -4r3+2r2s-9rs2-s3 |
+                               5     4      3 2     2 3       4     5
+(Line determinant: , (r + s)(4r  - 2r s + 9r s  + 2r s  + 3r*s  + 2s )(-1))
+L occurs exactly at parameter(a,b)=(1,1); normal determinant=-(r+s)*quintic: PASS
+All five residual nodes have nonzero first smoothing class proportional to da+db: PASS
+EXACT QQ LINE DEGENERATION CHECKS PASSED
