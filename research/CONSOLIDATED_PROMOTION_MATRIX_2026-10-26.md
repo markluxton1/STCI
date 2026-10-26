@@ -42,3 +42,7 @@ The table above is the original pre-promotion adjudication. On the review branch
 ## Local filtration split (subsequent update)
 
 R-0030 now promotes the local comparison exact sequence, generic generator-excess formula, punctual torsion criterion and smooth-carrier support containment. This is narrower than CR-12–13 as originally registered. The global characteristic-two O(-24) identification, spectral-sequence certification and supported punctual-defect existence question remain unpromoted or open. The earlier blanket HOLD language is historical.
+
+## Example-specific CR-13 follow-up
+
+R-0031 promotes the characteristic-two prescribed-quartic identification ker(phi)=Q_4=O(-24) after inspection of the independently audited two-chart transition and corrected lifts. The residual CR-12–13 hold is restricted to the general normal-Koszul spectral-sequence packaging and the unresolved supported punctual-defect question; the local exact comparison is R-0030.
