@@ -174,3 +174,7 @@ The latest [conditional (2,12;6,16;2) continuation](notes/2026-10-21-conditional
 ## October 26 review-branch promotions
 
 Seven scoped results, R-0023 through R-0029, are indexed on the adjudication branch. They concern explicit quartic residuals and local smoothings, one fixed-sextic degree-sixteen obstruction, marked flag and dual schemes, and specified ruled projection and arithmetic models. The older October 24 descriptions of those topics as wholly provisional are historical and do not override the individual promoted records. The filtration claims CR-12 and CR-13 remain provisional. These branch-only promotions do not change the unrestricted characteristic-zero STCI status.
+
+## Filtered equation-module results on review branch
+
+R-0030 establishes the local comparison, generic generator-excess, punctual torsion formula and smooth-carrier support restriction. R-0031 establishes the special characteristic-two quartic identification ker(phi)=Q_4=O(-24), with chart compatibility and zero comparison defect. Earlier descriptions of these precise subclaims as wholly provisional are dated historical snapshots. The general spectral-sequence package and the supported punctual-defect question remain open or unpromoted; no new characteristic-zero STCI conclusion follows.
