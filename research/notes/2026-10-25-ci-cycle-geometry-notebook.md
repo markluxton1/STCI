@@ -375,6 +375,7 @@ These are proposed experiments, not computations claimed complete. The first fou
 - [Explicit smooth residual benchmark](2026-10-25-ci-cycle-smooth-residual-example.md) and [independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md).
 - [Line degeneration](2026-10-25-ci-cycle-line-degeneration.md) and [independent audit](2026-10-25-ci-cycle-line-degeneration-audit.md).
 - [Independent node smoothing at fixed boundary](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md) and [October 26 audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md).
+- [Completed endpoint-four sextic followup](2026-10-25-endpoint4-actual-sextics.md), including one explicit fixed-carrier residual bound, and [scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md).
 
 Run the new selective experiments from the repository root:
 

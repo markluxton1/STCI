@@ -45,4 +45,19 @@ The [line degeneration](2026-10-25-ci-cycle-line-degeneration.md) and its [audit
 
 The [fixed-boundary calculation](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md), its [independent reconstruction](2026-10-25-ci-cycle-fixed-boundary-node-smoothing-audit.md), and the [October 26 final audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md) give affine ranks \(19,5,24\). On the pencil Grassmannian the exact-boundary fiber has dimension fourteen and maps smoothly to the five marked node parameters, with nine further formal coordinates. The formal/étale local existence statement is reviewed; an explicit polynomial coefficient arc is not claimed.
 
-These two geometric investigations are complete at their stated exploratory scope. Only the endpoint-four actual sextic and selected fixed-carrier jet test remain to finish before stopping.
+These two geometric investigations are complete at their stated exploratory scope. Checkpoint 3 was pushed as 15b1806cc174737806fa4b9e2a57f70eab0de374, with the remote ref verified.
+
+## Final checkpoint: actual endpoint-four sextics and a fixed-carrier residual certificate
+
+The [actual-sextic note](2026-10-25-endpoint4-actual-sextics.md) completes the prescribed second-symbol lifting problem on the retained endpoint-four chart, preserving all actual global coefficient constraints and the one-dimensional kernel. It justifies the \(a_0=1\) gauge using the actual \(C\)-preserving torus and its recorded square-root cover. This family construction alone is not a mate-existence or chart-emptiness statement.
+
+For the selected carrier
+\[
+F_*=-q^2x_3^2-qDx_2+D^2/4+q^3,
+\quad q=x_0x_3-x_1x_2,\quad D=x_2^3-x_1x_3^2,
+\]
+the fixed-carrier M2 certificate and the independent normal-division implementation both pass: the \(690\times969\) matrix has rank \(683\), and all \(286\) actual global multiples \(F_*H_{10}\) are annihilated. The known-multiple guard caught an M2 multiline-assignment error during development; that error was corrected before the final certificates passed. The failure mechanism and final source/output hashes are retained.
+
+The [independent nonsplit-node audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md) supplies the bridge from that jet kernel to **every proper degree-sixteen mate** on the selected carrier. The two conjugate generic branches have equal vanishing orders \(n\); finite intersection length is \(m_C=2n\), and \(n\ge12\) would force a global multiple of \(F_*\). Thus \(m_C\le22\), and the residual cycle has degree at least eight. This requires no prescribed full initial ideal or saturation hypothesis. It remains a new unpromoted fixed-carrier result, not an exclusion of the entire endpoint-four chart or the unrestricted characteristic-zero problem.
+
+The exact scripts, data, output, geometric bridges, and limitations are saved. All investigations underway at the user's October 26 instruction have now reached their stated endpoints. No additional research item is being started; finish validation and push this final checkpoint, then stop.

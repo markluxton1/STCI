@@ -260,4 +260,23 @@ This suggests a family of local comparison problems rather than a universal scal
 4. Seek degree-dependent upper bounds for the complete-cluster multiplicity of actual homogeneous pairs. Keep all coefficient constraints over \(k\); generic formal ideals such as \(J_N\) are tests of a proposed argument, not global realizations.
 5. Try a covering by certificate types: independent first symbols; resolved common normal directions; point multiplicity jumps; higher residue splitting. For each type, state its exact hypotheses and the remaining class.
 
-The promoted premises remain the fixed-curve conormal result [R0020](../results/quartic_conormal_characteristic_jump.md) and prescribed degeneration [R0021](../results/quartic_mu4_degeneration.md). The older valuation and residual-cycle notes are used at their provisional/reconciled scope. The new material is an exploratory framework, with independently reviewed local deductions, and does not establish the universal residual claim.
+## 11. Completed fixed-carrier test, October 26
+
+The endpoint-four followup now gives one concrete instance of the adaptive certificate program. Put
+\[
+q=x_0x_3-x_1x_2,\qquad D=x_2^3-x_1x_3^2,\qquad
+F_*=-q^2x_3^2-qDx_2+D^2/4+q^3.
+\]
+For this displayed degree-six carrier and every homogeneous degree-sixteen \(G\) containing \(C\), provided the intersection is proper, the new [actual-sextic investigation](2026-10-25-endpoint4-actual-sextics.md) and [nonsplit-node scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md) give
+\[
+m_C(V(F_*,G))\le22,\qquad \deg R\ge8.
+\]
+This is an independently reviewed, unpromoted fixed-carrier certificate in characteristic zero; it is not the universal all-pairs conclusion.
+
+Its mechanism is explicitly valuative. The generic quadratic normal term has nonsquare discriminant class \(1+z^2\), so a quadratic function-field extension splits two conjugate transverse branches. A \(k(z)\)-defined mate has equal finite orders \(n\) on their DVRs, and \(m_C=2n\). Orders at least twelve force membership in \((F_*)+(u,v)^{12}\).
+
+Actual homogeneous coefficient constraints then supply the missing upper bound in this example. Two different finite implementations show that the degree-sixteen global jet kernel consists only of \(F_*H_{10}\), using a rank-\(683\) matrix on \(969\) constant coefficients and explicitly annihilating all \(286\) known multiples. A proper mate cannot be such a multiple, so \(n\le11\). The normal-division specialization and nonsplit-node arguments are recorded separately from the finite rank evidence.
+
+The carrier was obtained from the conditional movement-two chart, but this final bound needs no prescribed full initial ideal or saturation hypothesis. Other carriers, other parameters in that chart, and other mate degrees remain outside the completed calculation.
+
+The promoted premises remain the fixed-curve conormal result [R0020](../results/quartic_conormal_characteristic_jump.md) and prescribed degeneration [R0021](../results/quartic_mu4_degeneration.md). The older valuation and residual-cycle notes are used at their provisional/reconciled scope. The new material is an exploratory framework with reviewed local deductions and the stated fixed-carrier certificate; it does not establish the universal residual claim.
