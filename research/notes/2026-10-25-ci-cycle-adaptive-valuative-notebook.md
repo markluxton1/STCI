@@ -177,6 +177,21 @@ R\ne0\quad\Longleftrightarrow\quad \mathcal B_C(R)\ne0
 \]
 for these complete intersections. Computing \(R\) first would already solve the detection problem for a given pair. The research challenge is to estimate or recover enough of this contact data from equations, valuations, and global constraints before a full residual decomposition.
 
+The point witness and the contact divisor fit into an effective hierarchy. Put
+\[
+M_C(W)=\sum_{p\in C}(e_p(W)-m)[p].
+\]
+On a normalized residual branch with local coordinates \(C=(x,y)\), ordinary branch multiplicity is \(\min\{\operatorname{ord}(u),\operatorname{ord}(x),\operatorname{ord}(y)\}\), whereas its ideal contact is \(\min\{\operatorname{ord}(x),\operatorname{ord}(y)\}\). Thus
+\[
+M_C(W)\le\mathcal B_C(R).
+\]
+The fixed quartic's ideal is generated in degrees at most three. A general cubic through \(C\) avoiding the residual components therefore gives
+\[
+0\le\deg M_C(W)\le\deg\mathcal B_C(R)\le3\deg R
+=3(de-4m).
+\]
+For \(Z\), the first two divisors are \(3p+3q\) and \(9p+9q\). The difference records higher tangency beyond branch multiplicity. Both vanish on a cycle supported entirely on \(C\); the hierarchy supplies no universal positive lower bound by itself.
+
 ## 8. The endpoint valuation profile of \(Z\)
 
 Near \(p\), eliminate the smooth carrier equation \(F\) and work with
@@ -215,6 +230,8 @@ The normal-first flag becomes \((1,1)\), and the ordinary point multiplicity bec
 These surface calculations require the indicated smooth carrier chart. For the ambient ideal \((X,f)\), a scalar ideal value is \(\min\{v(X),v(f)\}\), which may conceal the interesting part. One should retain the quotient by the actual smooth carrier, the full transformed ideal, or sufficiently refined intersection data. A single minimum is not an intrinsic substitute for all of them.
 
 The [endpoint valuation notebook](2026-10-25-ci-cycle-endpoint-valuations.md) develops these pictures and their scope.
+
+The [root-collision continuation](2026-10-25-ci-cycle-root-collision-valuations.md) then follows the actual root pencil near its double-\(C\) member over a field above two. It finds two different thresholds: one for how fast a residual sheet approaches the marked sheet, and another for collision within the residual sheets. The first-normal determinant records their total marked separation but misses that second collision. A full tree with residue information resolves the ambiguity.
 
 ## 9. How “closest” might guide adaptive certificates
 
