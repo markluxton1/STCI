@@ -41,6 +41,15 @@ The fixed embedded C0 and characteristic zero are essential. A proper quartic in
 ## Proof outline
 A quartic vanishing to normal order at least two must be a scalar multiple of q², and cannot belong to a valid STCI pair. Thus both orders are one. The saturated Gorenstein filtration of the length-four complete intersection gives E3=O(-18), perfect graded pairings, and D2=D3. Effectivity leaves e=0 with degree-three defect, or e=1 with no defect. The complete quartic contact spaces in the three e=0 orbits and four e=1 primitive orbits are classified in the cited notes. Factored cases cannot yield a proper pair; each remaining two-dimensional pencil has nonzero cubic-contact determinant h0 tau1−h1 tau0, forcing generic length three, contradicting length four.
 
+## Alternative K3 proof
+
+An independently audited alternative proof of the same characteristic-zero (4,4) exclusion uses the saturated Gorenstein filtration and the exceptional lattice on a K3 resolution, rather than the primitive e=1 classification. For a hypothetical quartic pair supported only on C, the possible filtration types have (e, deg D) equal to (1,0) or (0,3). The actual first-symbol pencil has degree 6+2e after its fixed divisor is removed. A general quartic pencil member has moving A3 singularities and defect singularities of type A_(2d-1). Its K3 resolution would have exceptional rank 24-r, at least 21, contradicting the characteristic-zero Picard-rank bound of 20.
+
+This is an alternative proof, not a new theorem or an all-degree statement. See the proof and independent audit:
+- research/notes/2026-10-23-intrinsic-44-k3-proof-proposal.md
+- research/notes/2026-10-23-intrinsic-quadruple-local-algebra.md
+- research/notes/2026-10-23-intrinsic-44-k3-independent-audit.md
+
 ## Dependencies
 The conormal splitting is STCI-R-0020. The saturated pairing and e=1 classification are accepted **source-level prerequisites**, explicitly not separately promoted as ID-bearing theorems. Neither STCI-R-0001 nor its proof is an input.
 
