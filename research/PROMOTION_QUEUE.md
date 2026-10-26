@@ -18,3 +18,7 @@ A promotion requires exact claim, dependencies, audit links, reproducibility whe
 ## October 26 promotion reconciliation
 
 R-0023 through R-0029 are indexed on this review branch. The arithmetic and ruled geometry claims remain limited to the audited marked models. CR-12 and CR-13 remain on HOLD: the filtered comparison exact sequence is documented, but support, sheafification, global twisting and spectral-sequence indexing must be separately certified before an ID-bearing promotion. The open punctual-defect question under radical(J)=I is not resolved by examples with residual support. PQ-08 remains incomplete as a historical source manifest.
+
+## Local filtration promotion split (October 26)
+
+R-0030 promotes the local comparison exact sequence, generic generator-excess count, punctual torsion formula and smooth-carrier support containment after review. CR-12 is therefore partially promoted with a narrower local scope. CR-13 global characteristic-two chart twisting and kernel identification remains HOLD pending separate transition-map audit; the normal-Koszul spectral-sequence formulation remains provisional. The supported punctual-defect question under radical(J)=I and generic Delta=0 remains open. Do not mark the entire CR-12–13 package complete.
