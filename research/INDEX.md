@@ -75,3 +75,6 @@ For new work, preserve source notes and audits, keep navigation links short, and
 - [Promotion queue](PROMOTION_QUEUE.md) — scoped candidates and required audits, not canonical theorems
 
 - [Claim-level review, October 26](CLAIM_REVIEW_2026-10-26.md) — fourteen source-linked claims, dependencies and remaining promotion gates; no canonical promotion
+
+- [Geometry and K3 claim review](CLAIM_REVIEW_GEOMETRY_K3_2026-10-26.md) — CR-15 through CR-31
+- [Arithmetic and scheme claim review](CLAIM_REVIEW_ARITHMETIC_SCHEMES_2026-10-26.md) — CR-32 through CR-46
