@@ -63,3 +63,13 @@ The dated Ultra index locates `2026-10-14-generalization-ribbon-independent-revi
 `2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md` independently accepts, under smooth singleton Cartier normalization and characteristic-zero hypotheses, the pointwise divisor identity `D_n=(n-1)A-B|c` for the top-power defect, first-normal zero divisor and conductor intersection. **Additional distinct candidate; not valid without the stated normalization and generic regularity assumptions.**
 
 **Coverage now:** 15 distinct historical notes read in this audit (11 earlier plus four here). Source acceptance labels are not automatic canonical promotion. No unrestricted STCI conclusion.
+
+## Batch 3: canonical overlap and independent evidence
+
+R-0010 addresses normal flatness under a saturated first-relation line and full generic binary complete intersection. R-0013 concerns actual-generator rigidity and movement-one exclusion. The historical constant-initial-relation obstruction is a separate conditional lifting theorem; it does not exclude moving relations or positive-defect models.
+
+The historical normal-carrier index/socle theorem has a separate detailed independent reconstruction in `research/notes/2026-10-14-generalization-index12-filtered-compatibility.md`. Its bounded-index exclusion assumes actual local Cartier indices at most four; higher indices remain unresolved.
+
+The transverse-socle independent audit supports the stronger pointwise conductor/socle theorem under smooth singleton Cartier normalization assumptions.
+
+Seventeen distinct historical notes have been individually examined in this sweep. No new canonical promotion follows automatically.
