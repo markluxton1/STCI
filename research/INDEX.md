@@ -90,3 +90,5 @@ The canonical [results index](results/INDEX.md) now links R-0023 through R-0029,
 ## Filtration result split
 
 The canonical results index includes R-0030 (local comparison and punctual torsion) and R-0031 (the prescribed characteristic-two fourth equation). Their limited scopes do not settle the supported punctual-defect problem or the general STCI question.
+
+- [October 26 structural theorem promotions](STRUCTURAL_PROMOTION_NAV_2026-10-26.md) — scoped R-0032 through R-0036 and remaining interfaces.
