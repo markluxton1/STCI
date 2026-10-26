@@ -9,7 +9,8 @@ scope:
   hypotheses:
     - "The explicit quartic pairs in the cited audits"
 statement: "The (2,3) pair has a smooth degree-12 genus-16 residual; the (1,1) pair has a line and smooth degree-11 genus-12 residual."
-dependencies: ["STCI-R-0021"]
+dependencies:
+  - STCI-R-0021
 evidence:
   - "research/notes/2026-10-25-ci-cycle-smooth-residual-audit.md"
   - "research/notes/2026-10-25-ci-cycle-line-degeneration-audit.md"
