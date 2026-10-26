@@ -22,3 +22,7 @@ R-0023 through R-0029 are indexed on this review branch. The arithmetic and rule
 ## Local filtration promotion split (October 26)
 
 R-0030 promotes the local comparison exact sequence, generic generator-excess count, punctual torsion formula and smooth-carrier support containment after review. CR-12 is therefore partially promoted with a narrower local scope. CR-13 global characteristic-two chart twisting and kernel identification remains HOLD pending separate transition-map audit; the normal-Koszul spectral-sequence formulation remains provisional. The supported punctual-defect question under radical(J)=I and generic Delta=0 remains open. Do not mark the entire CR-12–13 package complete.
+
+## Filtration status after R-0031
+
+The characteristic-two prescribed-pair fourth normal equation and kernel identification is now R-0031. The general local comparison is R-0030. The supported punctual-defect question and broader normal-Koszul spectral-sequence packaging remain open or provisional.
