@@ -67,3 +67,9 @@ This page is a **directory**, not an independent source of mathematical claims.
 Read the relevant result or question record **before** relying on an index summary. Confirm its hypotheses, status, evidence, and limitations. Some legacy state and frontier prose may still require reconciliation with later audited notes; use [authority rules](AUTHORITY.md) rather than treating a timestamp as decisive.
 
 For new work, preserve source notes and audits, keep navigation links short, and avoid appending theorem-by-theorem prose to this directory. Update a result or question record and its topic index only when the claim has been reviewed.
+
+## Consolidation and promotion review (October 26)
+
+- [Consolidation audit](CONSOLIDATION_AUDIT_2026-10-26.md) — branch ancestry, evidence preservation, review criteria; no promotions
+- [Provisional inventory](PROVISIONAL_INVENTORY.md) — initial topic-level intake; claim-level sweep outstanding
+- [Promotion queue](PROMOTION_QUEUE.md) — scoped candidates and required audits, not canonical theorems
