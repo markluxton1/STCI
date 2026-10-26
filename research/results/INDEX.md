@@ -1,7 +1,8 @@
 # Canonical results and legacy topic navigation
 
-**Current authority:** the twenty-five ID-bearing STCI-R-0001 through STCI-R-0025 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
+**Current authority:** the twenty-six ID-bearing STCI-R-0001 through STCI-R-0026 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
 
+- **[STCI-R-0026 — Flag incidence and conormal geometry (proved, marked setup)](quartic_flag_conormal_geometry.md)**
 - **[STCI-R-0025 — Fixed sextic jet rigidity (proved, saved-certificate qualified)](ci_fixed_sextic_jet_rigidity.md)**
 - **[STCI-R-0024 — Independent residual-node smoothing at fixed boundary (proved, explicit pencil)](ci_quartic_fixed_boundary_smoothing.md)**
 - **[STCI-R-0023 — Explicit quartic residual geometry (proved, fixed examples)](ci_quartic_explicit_residual_geometry.md)**
@@ -34,4 +35,4 @@
 - [Entirely-thick presentations](entirely_thick.md)
 - [Jet geometry](jet_geometry.md)
 
-For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the twenty-five ID-bearing records above.
+For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the twenty-six ID-bearing records above.
