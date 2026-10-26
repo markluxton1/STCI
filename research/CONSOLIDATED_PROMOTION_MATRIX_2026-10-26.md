@@ -38,3 +38,7 @@ PROMOTION_ADJUDICATION_CR44-46_2026-10-26.md
 ## Later promotion status
 
 The table above is the original pre-promotion adjudication. On the review branch R-0023 through R-0029 have since been created and indexed. The R-0022 K3 alternative proof was attached without a new ID. CR-12 and CR-13 remain on hold. The rank distinction in CR-08 is affine boundary rank 19 versus projective boundary rank 18. No merge to main has been performed.
+
+## Local filtration split (subsequent update)
+
+R-0030 now promotes the local comparison exact sequence, generic generator-excess formula, punctual torsion criterion and smooth-carrier support containment. This is narrower than CR-12–13 as originally registered. The global characteristic-two O(-24) identification, spectral-sequence certification and supported punctual-defect existence question remain unpromoted or open. The earlier blanket HOLD language is historical.
