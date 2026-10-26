@@ -178,3 +178,7 @@ Seven scoped results, R-0023 through R-0029, are indexed on the adjudication bra
 ## Filtered equation-module results on review branch
 
 R-0030 establishes the local comparison, generic generator-excess, punctual torsion formula and smooth-carrier support restriction. R-0031 establishes the special characteristic-two quartic identification ker(phi)=Q_4=O(-24), with chart compatibility and zero comparison defect. Earlier descriptions of these precise subclaims as wholly provisional are dated historical snapshots. The general spectral-sequence package and the supported punctual-defect question remain open or unpromoted; no new characteristic-zero STCI conclusion follows.
+
+## October 26 structural promotion status
+
+[Five audited structural results R-0032 through R-0036](STRUCTURAL_PROMOTION_NAV_2026-10-26.md) are indexed on this review branch. The unrestricted characteristic-zero STCI question remains open.
