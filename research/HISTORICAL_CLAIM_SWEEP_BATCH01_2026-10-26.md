@@ -40,3 +40,14 @@ Read 6–8 of the source audit/verification notes linked above, prioritizing (i)
 - `2026-10-11-session-quintic-endpoint-factor-contact-independent-audit.md`: confirms exact endpoint quadric factor, projective coordinate normalization and seven-unit **length** excess; specifically warns that seven is not a number of distinct points and does not give a contradiction. Strengthens evidence for the quintic endpoint reduction, but remains scoped to a!=0 endpoint projections.
 
 **Revised coverage:** 11 distinct historical source notes examined in this sweep. Three additional notes provide evidence for two earlier candidate families and identify the separate socle-budget candidate. The degree15 certificate was reread to verify its stated independent-verifier and terminal-exit provenance, but its computation was not rerun.
+
+## Canonical overlap adjudication
+
+- The general conductor theorem is already represented by R-0003, which cites its historical proof. Do not assign a duplicate ID.
+- The smooth-normalization classification and its independent audit are already cited by R-0002. Do not assign a duplicate ID.
+- The full conormal-filtration socle budget is distinct from the legacy first-blowup inequalities and from R-0019's quasiprimitive residual-cycle statement. Its independent audit accepts the stated necessary conditions, but not the separately pending second-neighborhood equality obstruction.
+- The symbolic-ribbon numerical criterion remains provisional pending a located independent audit.
+- The A4 quintic endpoint factor/contact reduction is distinct from R-0002 and R-0004. Its seven units are intersection length, not seven distinct points and not a contradiction.
+- The degree-15 local-cohomology certificate may be supporting evidence for R-0001; check its original-tensor verifier before any promotion.
+
+No new canonical promotions or universal STCI conclusions follow from this reconciliation.
