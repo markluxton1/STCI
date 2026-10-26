@@ -1,7 +1,12 @@
 # Canonical results and legacy topic navigation
 
-**Current authority:** the thirty-one ID-bearing STCI-R-0001 through STCI-R-0031 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
+**Current authority:** the thirty-six ID-bearing STCI-R-0001 through STCI-R-0036 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
 
+- **[STCI-R-0036 — Pointwise conductor and top-socle defect (proved, conditional)](pointwise_conductor_socle_defect.md)**
+- **[STCI-R-0035 — Bounded-index normal-carrier exclusion for C0 (proved, conditional)](normal_carrier_bounded_index_exclusion.md)**
+- **[STCI-R-0034 — Local Cartier-index and socle compatibility (proved, conditional)](normal_carrier_index_socle.md)**
+- **[STCI-R-0033 — Constant first-relation lifting obstruction (proved, conditional)](constant_first_relation_lifting.md)**
+- **[STCI-R-0032 — Full conormal filtration and socle budget (proved, conditional)](full_conormal_socle_budget.md)**
 - **[STCI-R-0031 — Characteristic-two fourth equation and kernel (proved, prescribed pair)](quartic_char2_fourth_equation_kernel.md)**
 - **[STCI-R-0030 — Local filtered-equation comparison and punctual defect criterion (proved, scoped)](local_filtration_comparison_defect.md)**
 - **[STCI-R-0029 — Arithmetic ruled four-section family (proved, prescribed model)](quartic_arithmetic_ruled_models.md)**
@@ -40,4 +45,4 @@
 - [Entirely-thick presentations](entirely_thick.md)
 - [Jet geometry](jet_geometry.md)
 
-For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the thirty-one ID-bearing records above.
+For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the thirty-six ID-bearing records above.
