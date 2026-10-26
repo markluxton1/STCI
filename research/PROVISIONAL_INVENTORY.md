@@ -20,7 +20,7 @@ Promoted records remain authoritative only within their stated scopes. Unrestric
 
 ## Authority reconciliation and disposition register
 
-The [canonical results index](results/INDEX.md) on this review branch enumerates **29 promoted result IDs (R-0001 through R-0029) on the adjudication branch** and six legacy topic syntheses. These are **not** unpromoted simply because earlier notes describe them as provisional. The sole indexed canonical question is [STCI-Q-0001](questions/cartier_projection_models.md). Promotion review must compare against these records before proposing any new IDs.
+The [canonical results index](results/INDEX.md) on this review branch enumerates **30 promoted result IDs (R-0001 through R-0030) on the adjudication branch** and six legacy topic syntheses. These are **not** unpromoted simply because earlier notes describe them as provisional. The sole indexed canonical question is [STCI-Q-0001](questions/cartier_projection_models.md). Promotion review must compare against these records before proposing any new IDs.
 
 | Existing scope | Authority or evidence | Disposition |
 |---|---|---|
@@ -54,4 +54,8 @@ This register covers the canonical result families, named reconciliation packets
 
 ## October 26 review-branch disposition
 
-The seven newly indexed records R-0023–R-0029 cover CR-06–11, CR-15–26, CR-32–43 and CR-44–46, with overlap and refinements as specified in the adjudication files. CR-27–30 is attached as an alternative proof to R-0022; CR-31 is already covered by R-0001/R-0022. CR-12–13 remain HOLD, CR-14 is a correction, and CR-01–05 require no additional ID. This does not establish exhaustive historical source coverage.
+The seven newly indexed records R-0023–R-0029 cover CR-06–11, CR-15–26, CR-32–43 and CR-44–46, with overlap and refinements as specified in the adjudication files. CR-27–30 is attached as an alternative proof to R-0022; CR-31 is already covered by R-0001/R-0022. CR-12 has a promoted local subset R-0030; CR-13 and the remaining spectral/global checks remain HOLD, CR-14 is a correction, and CR-01–05 require no additional ID. This does not establish exhaustive historical source coverage.
+
+## Local filtration split
+
+R-0030 records the local comparison and support/torsion criterion only. It does not settle the global characteristic-two kernel twist, the normal-Koszul spectral-sequence promotion, or punctual defect for supported complete intersections.
