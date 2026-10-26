@@ -5,12 +5,12 @@
 | Topic | Evidence location | Current status | Next adjudication |
 |---|---|---|---|
 | CI-cycle valuations, local clusters and cancellations | October 25–26 notes on `codex/ci-cycle-valuations-2026-10-25` | Provisional, scoped local claims | PQ-04 |
-| Fixed-sextic jet kernel and residual bound | October 26 continuation/checkpoint notes on valuation branch | Computationally supported, fixed-carrier only | PQ-01 |
-| Fixed-boundary deformations and node smoothing | October 25 fixed-boundary notes | Audited calculations; globalization scope to separate | PQ-02 |
-| Smooth residual quartic CI example | October 25 smooth-residual audit | Explicit computational example, not general theorem | PQ-03 |
-| Quartic flag, cubic Gauss and duality schemes | [flag synthesis](notes/2026-10-24-quartic-flag-duality-synthesis.md) | Provisional intrinsic geometry | PQ-05 |
-| P4 quartic and ruled surfaces | [ruled synthesis](notes/2026-10-24-p4-ruled-surfaces-synthesis.md) | Provisional geometry | PQ-06 |
-| Intrinsic (4,4) K3 proof | [research report](notes/2026-10-23-intrinsic-44-research-report.md) | Independently reviewed note, authority gap | PQ-07 |
+| Fixed-sextic jet kernel and residual bound | October 26 continuation/checkpoint notes on valuation branch | Promoted as R-0025, fixed carrier and degree-16 mates only | Certificate replay still desirable |
+| Fixed-boundary deformations and node smoothing | October 25 fixed-boundary notes | Promoted as R-0024, formal/étale-local only | No explicit global arc |
+| Smooth residual quartic CI example | October 25 smooth-residual audit | Promoted as R-0023, fixed example only | No generalization |
+| Quartic flag, cubic Gauss and duality schemes | [flag synthesis](notes/2026-10-24-quartic-flag-duality-synthesis.md) | Audited portions promoted as R-0026 and R-0027 | Other exploratory material remains provisional |
+| P4 quartic and ruled surfaces | [ruled synthesis](notes/2026-10-24-p4-ruled-surfaces-synthesis.md) | Audited marked models promoted as R-0028 and R-0029 | Other exploratory material remains provisional |
+| Intrinsic (4,4) K3 proof | [research report](notes/2026-10-23-intrinsic-44-research-report.md) | Attached to existing R-0022 | No duplicate result ID |
 | Ideal filtrations and spectral sequences | [reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) | Provisional | PQ-08 |
 | Higher initial ideals and valuations | [reconciliation](RECONCILIATION_2026-10-23-VALUATIONS.md) | Provisional, mixed scopes | PQ-08 |
 | Delta marked-embedding geometry | [report](notes/2026-10-24-delta-embedding-geometry-report.md) | Provisional, inactive lane | PQ-08 |
@@ -20,7 +20,7 @@ Promoted records remain authoritative only within their stated scopes. Unrestric
 
 ## Authority reconciliation and disposition register
 
-The [canonical results index](results/INDEX.md) currently enumerates **22 promoted result IDs (R-0001 through R-0022)** and six legacy topic syntheses. These are **not** unpromoted simply because earlier notes describe them as provisional. The sole indexed canonical question is [STCI-Q-0001](questions/cartier_projection_models.md). Promotion review must compare against these records before proposing any new IDs.
+The [canonical results index](results/INDEX.md) on this review branch enumerates **29 promoted result IDs (R-0001 through R-0029) on the adjudication branch** and six legacy topic syntheses. These are **not** unpromoted simply because earlier notes describe them as provisional. The sole indexed canonical question is [STCI-Q-0001](questions/cartier_projection_models.md). Promotion review must compare against these records before proposing any new IDs.
 
 | Existing scope | Authority or evidence | Disposition |
 |---|---|---|
@@ -51,3 +51,7 @@ The [canonical results index](results/INDEX.md) currently enumerates **22 promot
 ### Remaining coverage gaps
 
 This register covers the canonical result families, named reconciliation packets, active branch research, and indexed frontier lanes. It does **not** certify that every assertion in the hundreds of archived notes, scratch files, scripts and validation logs has been individually examined. Those require a path-level claim extraction pass with exact source lines, dependencies and a disposition. Preserve these sources until that pass is complete.
+
+## October 26 review-branch disposition
+
+The seven newly indexed records R-0023–R-0029 cover CR-06–11, CR-15–26, CR-32–43 and CR-44–46, with overlap and refinements as specified in the adjudication files. CR-27–30 is attached as an alternative proof to R-0022; CR-31 is already covered by R-0001/R-0022. CR-12–13 remain HOLD, CR-14 is a correction, and CR-01–05 require no additional ID. This does not establish exhaustive historical source coverage.
