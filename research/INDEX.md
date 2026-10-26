@@ -86,3 +86,7 @@ For new work, preserve source notes and audits, keep navigation links short, and
 ## October 26 promotion status on adjudication branch
 
 The canonical [results index](results/INDEX.md) now links R-0023 through R-0029, covering scoped explicit residual, fixed-sextic, flag, dual-scheme and ruled-model results. The [consolidated promotion matrix](CONSOLIDATED_PROMOTION_MATRIX_2026-10-26.md), [provisional inventory](PROVISIONAL_INVENTORY.md), and [historical source manifest](HISTORICAL_SOURCE_MANIFEST_2026-10-26.md) distinguish these promotions from the still-open filtration claims CR-12–13 and the incomplete current-head path inventory. These are review-branch changes, not a merge into main.
+
+## Filtration result split
+
+The canonical results index includes R-0030 (local comparison and punctual torsion) and R-0031 (the prescribed characteristic-two fourth equation). Their limited scopes do not settle the supported punctual-defect problem or the general STCI question.
