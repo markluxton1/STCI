@@ -78,3 +78,5 @@ For new work, preserve source notes and audits, keep navigation links short, and
 
 - [Geometry and K3 claim review](CLAIM_REVIEW_GEOMETRY_K3_2026-10-26.md) — CR-15 through CR-31
 - [Arithmetic and scheme claim review](CLAIM_REVIEW_ARITHMETIC_SCHEMES_2026-10-26.md) — CR-32 through CR-46
+
+- [Historical source manifest](HISTORICAL_SOURCE_MANIFEST_2026-10-26.md) — reconciles Ultra and Space Curves path inventories, preservation decisions and outstanding current-tree gaps
