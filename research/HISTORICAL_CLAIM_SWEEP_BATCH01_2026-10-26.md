@@ -51,3 +51,15 @@ Read 6–8 of the source audit/verification notes linked above, prioritizing (i)
 - The degree-15 local-cohomology certificate may be supporting evidence for R-0001; check its original-tensor verifier before any promotion.
 
 No new canonical promotions or universal STCI conclusions follow from this reconciliation.
+
+## Further historical verification (October 14 audits)
+
+The dated Ultra index locates `2026-10-14-generalization-ribbon-independent-review.md`. This reviewer independently accepts the conditional symbolic-ribbon construction and numerical inequalities, and records a correction to an overbroad monotonicity sentence. **Update prior disposition:** reviewed conditional theorem, not review-pending; root acceptance remains a separate authority step. The conormal inequality requires a generically nonzero first-layer map; the valuation version uses the first surviving layer.
+
+`2026-10-13-generalization-thick-relation-obstruction-independent-audit.md` independently accepts a constant-initial-relation lifting obstruction and strict positive socle defect for the characteristic-zero C0 under the stated accepted quadratic-direction inputs. Its proof requires the actual constant quotient map and no new independent relation in the next normal order. It does not rule out moving first relations or positive-defect models. **Additional distinct candidate; check against R-0010 and R-0013 before promotion.**
+
+`2026-10-14-generalization-normal-index-socle-theorem.md` states a local power-socle compatibility theorem for normal carriers and a bounded-actual-Cartier-index exclusion for C0 (indices at most four), citing a separate independent proof. **Additional distinct candidate; verify dependencies and exact scope.**
+
+`2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md` independently accepts, under smooth singleton Cartier normalization and characteristic-zero hypotheses, the pointwise divisor identity `D_n=(n-1)A-B|c` for the top-power defect, first-normal zero divisor and conductor intersection. **Additional distinct candidate; not valid without the stated normalization and generic regularity assumptions.**
+
+**Coverage now:** 15 distinct historical notes read in this audit (11 earlier plus four here). Source acceptance labels are not automatic canonical promotion. No unrestricted STCI conclusion.
