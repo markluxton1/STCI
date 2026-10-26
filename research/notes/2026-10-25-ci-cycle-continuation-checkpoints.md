@@ -23,6 +23,14 @@ The earlier [valuative audit](2026-10-25-ci-cycle-valuative-audit.md) was preser
 
 ## Next item: an explicit global smooth residual benchmark
 
-The generic existence argument in the [deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md) is independently reviewed. The remaining experiment is an exact homogeneous pair, with residual degree twelve and genus sixteen, smooth irreducible residual, and eighteen simple transverse attachments to \(C\). Construct it from the actual degree-four source, check the colon/residual scheme, certify smoothness and connectedness, and retain a reusable point-valuation benchmark. Finite-field evidence must be given a valid characteristic-zero bridge if used.
+Checkpoint 1 was pushed as a4420cb5d01ca27f09f4e07c0ee8289b8cb14c48. The exact remote branch ref was verified and the checkout was clean immediately after the push.
 
-After that checkpoint, choose another genuinely open item from the index and its smallest relevant records. Do not reopen accepted exclusions or present finite calculations as a universal theorem.
+## Checkpoint 2: exact global smooth residual benchmark
+
+The generic existence argument in the [deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md) is now accompanied by a [fully explicit rational pair](2026-10-25-ci-cycle-smooth-residual-example.md) and [independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md). The actual saturated colon ideal has degree twelve and arithmetic genus sixteen. Exact rational Jacobian calculations show it is smooth; its space of global functions is \(\mathbf Q\), so base change gives geometric connectedness and hence geometric integrality. Its attachment scheme has eighteen geometric reduced points and avoids both distinguished endpoints.
+
+The independent standard-library boundary calculation gives a squarefree polynomial of degree eighteen with constant coefficient four and leading coefficient three. The Macaulay2 and Python scripts, JSON, and captured rational output are retained. No finite-field lifting argument is needed.
+
+A preliminary coefficient choice forced the line \(L=V(x_0+x_1,x_2+x_3)\). Its residual has five singular points on that line. This is the next intrinsic geometry item: isolate the degree-eleven component, check its genus and smoothness, and understand the genus redistribution when the line is absorbed in a nearby smooth residual.
+
+The separate [frontier reconnaissance](2026-10-25-valuative-frontier-next-experiments.md) identifies two genuinely open STCI followups after that geometry checkpoint: the single-defect nonsaturated degree-\((6,12)\) slice, and an endpoint-four nodal chart of the conditional degree-\((6,16)\) lane. Their exact hypotheses and unresolved global-realization requirements remain explicit. Do not reopen accepted exclusions or treat these candidate experiments as existence/nonexistence results.

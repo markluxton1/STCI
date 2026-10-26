@@ -192,6 +192,8 @@ A useful next computation would choose a local 14-parameter slice to this fiber 
 
 ## Reproducible evidence and review scope
 
+**Continuation checkpoint.** The pending explicit-example experiment has now been completed in the [smooth residual benchmark](2026-10-25-ci-cycle-smooth-residual-example.md), with a [separate independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md). The actual rational pair has a smooth geometrically integral degree-12 genus-16 residual and eighteen simple attachments, none at the distinguished endpoints. The original scripts below retain their narrower scopes; the new benchmark has its own certificates.
+
 Run from the repository root:
 
 ```sh
