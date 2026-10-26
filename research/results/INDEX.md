@@ -2,6 +2,9 @@
 
 **Current authority:** the twenty-nine ID-bearing STCI-R-0001 through STCI-R-0029 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
 
+- **[STCI-R-0029 — Arithmetic ruled four-section family (proved, prescribed model)](quartic_arithmetic_ruled_models.md)**
+- **[STCI-R-0028 — Ruled projection and normalization models (proved, marked setup)](quartic_ruled_projection_geometry.md)**
+- **[STCI-R-0027 — Dual discriminant singular scheme (proved, saved-certificate qualified)](quartic_dual_singular_scheme.md)**
 - **[STCI-R-0026 — Flag incidence and conormal geometry (proved, marked setup)](quartic_flag_conormal_geometry.md)**
 - **[STCI-R-0025 — Fixed sextic jet rigidity (proved, saved-certificate qualified)](ci_fixed_sextic_jet_rigidity.md)**
 - **[STCI-R-0024 — Independent residual-node smoothing at fixed boundary (proved, explicit pencil)](ci_quartic_fixed_boundary_smoothing.md)**
