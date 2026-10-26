@@ -12,7 +12,7 @@
 | Space Curves I–VI donor records | [source-artifact-inventory.json](archive/space-curves-2026-10-19/source-artifact-inventory.json), [intake manifest](archive/space-curves-2026-10-19/manifest.json), [README](archive/space-curves-2026-10-19/README.md) | **98** donor artifact files, not 98 distinct results | Source project, path, ID, title, original status, SHA-256, imported flag | Imported evidence and unimported donor references must not be conflated |
 | Ultra selected handoffs and source-audit copies | [ULTRA_INTAKE](archive/ULTRA_INTAKE.md) | Seven handoff/state snapshots plus selected source notes | Original branch and preserved archival paths | Historical state only; status labels do not override current authority |
 | October 17 provenance census | [PROVENANCE_CLASSIFICATION](PROVENANCE_CLASSIFICATION_2026-10-17.md) | Notes 382, computations 461, validation 2,168, scratch 112, archive 95, synthesis 11, results 17, questions 1 | **Directory totals at that date**, not per-path listing for every directory | Baseline for gap detection, not current counts |
-| Current authority and indexed active research | [research index](INDEX.md), [canonical results](results/INDEX.md), [provisional inventory](PROVISIONAL_INVENTORY.md) | 29 promoted result IDs on adjudication branch; 46 separately registered provisional/reviewed claims | Navigation and scope; recent October 20–26 packages | Keep separate from historical Ultra snapshot and from theorem authority |
+| Current authority and indexed active research | [research index](INDEX.md), [canonical results](results/INDEX.md), [provisional inventory](PROVISIONAL_INVENTORY.md) | 31 promoted result IDs on adjudication branch; 46 separately registered provisional/reviewed claims | Navigation and scope; recent October 20–26 packages | Keep separate from historical Ultra snapshot and from theorem authority |
 
 **Do not add these counts together as a count of unique repository files.** The 356/427/2168 inventories are source snapshots and overlap the October 17 directory census; the 98 donor artifacts are an external intake, some imported and some not. In particular the 3,076 preserved Ultra-branch blobs reported by [ULTRA_INTAKE](archive/ULTRA_INTAKE.md) are not a disjoint additional population.
 
@@ -20,7 +20,7 @@
 
 | Path family | Status | Review procedure | Deletion policy |
 |---|---|---|---|
-| `research/results/` | Canonical only for exact record hypotheses | Read R-0001–R-0029 and source dependencies; identify legacy topic navigation separately | Retain |
+| `research/results/` | Canonical only for exact record hypotheses | Read R-0001–R-0031 and source dependencies; identify legacy topic navigation separately | Retain |
 | `research/questions/` | Canonical question record, not a proof | Check STCI-Q-0001 and open frontier | Retain |
 | `research/notes/` | Mixed historical proof, failed attempt, audit, provisional theorem and later promoted evidence | Match each source path from Ultra index and post-snapshot notes against results and CR-01–CR-46; label promoted evidence, unpromoted claim, correction, or abandoned approach | Retain |
 | `research/computations/` | Executable certificate and output mixture | For each script, locate its saved output, assumptions, characteristic, exact inputs, dependency in a note/result and replay status | Retain |
@@ -60,3 +60,7 @@ A *complete current-head path manifest* requires one GitHub tree snapshot with b
 Seven scoped result records, R-0023–R-0029, were added on the adjudication branch after this manifest's initial compilation. The 46 adjudicated CR claims have the following disposition: R-0023 (CR-06–07), R-0024 (CR-08), R-0025 (CR-09–11), R-0026 (CR-15–20 and 42–43), R-0027 (CR-21–22 and 44–46), R-0028 (CR-23–26), and R-0029 (CR-32–41). CR-27–30 is an alternative proof attached to R-0022, CR-31 is covered by existing exclusions, CR-01–05 are supporting local claims, CR-14 is a correction, and CR-12–13 remain on hold.
 
 This overlay updates **claim dispositions only**. It does not supply a fresh recursive current-head tree listing, establish completeness for scratch/archive, or identify every post-snapshot source. The path-level completeness criteria in section E remain unmet. No deletion is authorized.
+
+## G. Filtration claim disposition update
+
+R-0030 promotes the independently reviewed local comparison, generator-excess, torsion and smooth-carrier support statements; R-0031 promotes the fixed characteristic-two pair's global fourth-equation/kernel identification. This raises the review-branch result index to 31. The normal-Koszul spectral-sequence general packaging and supported punctual-defect question remain unpromoted or open. This update does not improve completeness of the historical file-tree inventory.
