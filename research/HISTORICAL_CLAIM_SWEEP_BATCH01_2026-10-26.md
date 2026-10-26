@@ -32,3 +32,11 @@ The dated index contains exactly 356 note entries across 12 mutually exclusive f
 Read 6–8 of the source audit/verification notes linked above, prioritizing (i) symbolic-ribbon independent audit or counterexample, (ii) general conductor theorem's split-unit and lattice reviews, (iii) degree15 certificate independent original-tensor verifier, and (iv) quintic endpoint contact audit. Then adjudicate whether these are new IDs, supplemental evidence to existing results, or unresolved provisional claims.
 
 **Coverage:** 8/356 individual historical notes examined in this targeted sweep, with a dated index census for all 356. This fraction is not a claim-completeness metric because the source populations overlap and historical notes vary widely in scope.
+
+## Follow-up source checks in same pass (three additional distinct notes)
+
+- `2026-10-13-generalization-smooth-normalization-independent-audit.md`: **independent PASS** for the all-degree classification of smooth normalizations under singleton-lift hypotheses, giving plane/scroll minimal-degree models. Check for overlap with R-0002 before any new ID; this is not arbitrary-carrier classification.
+- `2026-10-13-generalization-socle-independent-audit.md`: **independent PROVED** review of a full conormal-filtration/socle budget, Gorenstein equality and degree-independent necessary inequalities for thick complete intersections. This is a **new high-priority candidate** distinct in scope from the symbolic-ribbon note; accepted upstream inputs were not rerun.
+- `2026-10-11-session-quintic-endpoint-factor-contact-independent-audit.md`: confirms exact endpoint quadric factor, projective coordinate normalization and seven-unit **length** excess; specifically warns that seven is not a number of distinct points and does not give a contradiction. Strengthens evidence for the quintic endpoint reduction, but remains scoped to a!=0 endpoint projections.
+
+**Revised coverage:** 11 distinct historical source notes examined in this sweep. Three additional notes provide evidence for two earlier candidate families and identify the separate socle-budget candidate. The degree15 certificate was reread to verify its stated independent-verifier and terminal-exit provenance, but its computation was not rerun.
