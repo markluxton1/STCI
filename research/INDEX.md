@@ -82,3 +82,7 @@ For new work, preserve source notes and audits, keep navigation links short, and
 - [Historical source manifest](HISTORICAL_SOURCE_MANIFEST_2026-10-26.md) — reconciles Ultra and Space Curves path inventories, preservation decisions and outstanding current-tree gaps
 
 - [PR #76 exact path delta](PR76_PATH_DELTA_2026-10-26.md) — GitHub compare manifest of 57 changed paths against main, with roles and current-tree completeness caveat
+
+## October 26 promotion status on adjudication branch
+
+The canonical [results index](results/INDEX.md) now links R-0023 through R-0029, covering scoped explicit residual, fixed-sextic, flag, dual-scheme and ruled-model results. The [consolidated promotion matrix](CONSOLIDATED_PROMOTION_MATRIX_2026-10-26.md), [provisional inventory](PROVISIONAL_INVENTORY.md), and [historical source manifest](HISTORICAL_SOURCE_MANIFEST_2026-10-26.md) distinguish these promotions from the still-open filtration claims CR-12–13 and the incomplete current-head path inventory. These are review-branch changes, not a merge into main.
