@@ -1,0 +1,11 @@
+# Adjudication: CR-06–08 and CR-12–14
+Date: 2026-10-26. Six-claim source audit. No fresh computational execution, canonical promotion, or STCI generalization.
+
+- **CR-06 — promotion candidate.** An explicit rational (4,4) complete intersection has C and a smooth geometrically integral residual degree-12 genus-16 curve, with 18 reduced transverse attachments away from endpoints. Source: notes/2026-10-25-ci-cycle-smooth-residual-audit.md; computations/ci_smooth_residual_boundary_2026_10_25.json.
+- **CR-07 — promotion candidate.** At pencil parameters (a,b)=(1,1), the residual splits into a line and smooth degree-11 genus-12 curve, with five line/curve nodes and 18 total attachments to C. The five local smoothing parameters are unit multiples of ab-1. The fivefold local product is not a claim about the universal scheme discriminant multiplicity. Source: notes/2026-10-25-ci-cycle-line-degeneration-audit.md.
+- **CR-08 — promotion candidate.** In the fixed-boundary deformation calculation, boundary, node and combined ranks are 19, 5, 24 on the 36-dimensional ordered source. The corresponding Grassmannian fixed-boundary fiber has dimension 14, with five independent node-smoothing directions and nine other directions. Formal/étale deformation, not an exhibited global polynomial arc. Source: notes/2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md; computations/ci_fixed_boundary_node_smoothing_2026_10_25.json.
+- **CR-12 — partial verification; HOLD.** Filtered initial-ideal comparison gives exact 0→Delta_n→Q_n→gr_F^n(J/IJ)→0 with Q=H/S_+H and Delta_n=in_I(IJ)_n/(S_+H)_n. Verify support theorem, sheafification and spectral-sequence indexing before promotion. No assertion of simultaneous singularities on C. Source: RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md.
+- **CR-13 — HOLD.** Characteristic-two example reports Delta=0 and kernel O(-24); chart transitions and twisting, plus reconciliation with R-0020/21, remain necessary. Same reconciliation source.
+- **CR-14 — verified correction, no result ID.** Vanishing of the wedge of normal directions alone does not force a residual curve. Source: RECONCILIATION_2026-10-23-VALUATIONS.md.
+
+Disposition: promote only scoped example/deformation results CR-06–08 after evidence packaging. Retain CR-12/13 as unresolved, and CR-14 as a correction.
