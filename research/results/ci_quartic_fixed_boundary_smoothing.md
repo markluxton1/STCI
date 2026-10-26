@@ -9,7 +9,8 @@ scope:
   hypotheses:
     - "The (1,1) quartic pencil and five residual nodes of R-0023"
 statement: "The fixed-boundary Grassmannian fiber is smooth of dimension 14 and admits five independent formal and etale-local residual-node smoothing parameters."
-dependencies: ["STCI-R-0023"]
+dependencies:
+  - STCI-R-0023
 evidence:
   - "research/notes/2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md"
   - "research/computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py"
