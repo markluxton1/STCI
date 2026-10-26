@@ -34,3 +34,7 @@ PROMOTION_ADJUDICATION_CR27-31_2026-10-26.md
 PROMOTION_ADJUDICATION_CR32-37_2026-10-26.md
 PROMOTION_ADJUDICATION_CR38-43_2026-10-26.md
 PROMOTION_ADJUDICATION_CR44-46_2026-10-26.md
+
+## Later promotion status
+
+The table above is the original pre-promotion adjudication. On the review branch R-0023 through R-0029 have since been created and indexed. The R-0022 K3 alternative proof was attached without a new ID. CR-12 and CR-13 remain on hold. The rank distinction in CR-08 is affine boundary rank 19 versus projective boundary rank 18. No merge to main has been performed.
