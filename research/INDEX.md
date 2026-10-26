@@ -73,3 +73,5 @@ For new work, preserve source notes and audits, keep navigation links short, and
 - [Consolidation audit](CONSOLIDATION_AUDIT_2026-10-26.md) — branch ancestry, evidence preservation, review criteria; no promotions
 - [Provisional inventory](PROVISIONAL_INVENTORY.md) — initial topic-level intake; claim-level sweep outstanding
 - [Promotion queue](PROMOTION_QUEUE.md) — scoped candidates and required audits, not canonical theorems
+
+- [Claim-level review, October 26](CLAIM_REVIEW_2026-10-26.md) — fourteen source-linked claims, dependencies and remaining promotion gates; no canonical promotion
