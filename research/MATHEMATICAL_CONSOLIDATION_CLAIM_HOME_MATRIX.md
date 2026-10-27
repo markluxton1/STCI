@@ -71,3 +71,28 @@ Use a short self-contained explanation of the result's *relevant aspect* in each
 ## Status
 
 This is a first-pass **subject index** of the 36 existing canonical statements, based on their titles, known scopes and prior thematic reviews. The exact proof and evidence dependency audit remains outstanding. Chapter boundaries are provisional until the unpromoted mathematics and counterexamples have been mapped.
+
+## Unpromoted mathematics: first overlapping-subject map
+
+These entries are **mathematical topics**, not additional canonical theorems. The status column separates independently reviewed derivations from exploratory frameworks; source links should be preserved when migrating exposition.
+
+| Topic | Subjects | Current evidence and scope | Proposed explanatory placement |
+|---|---|---|---|
+| Automorphisms of marked C and P4 projection center | G | Independently reviewed intrinsic-geometry synthesis; unpromoted | Projective geometry and symmetries |
+| Osculating planes, residual involution, endpoint contact | G, I | Special-lines derivation and geometry audit; unpromoted | Special contacts, with incidence cross-reference |
+| Bitangent correspondence and Sym²(C) contact conics | G, I | Bitangent/symmetric-square notes and audits; unpromoted | Special contacts |
+| Trisecant ruling, ruled cubic and paired secants | G, C | Geometry audits; canonical R-0028 covers only its own marked setup | Ruled/projected geometry |
+| Universal osculating and bitangent plane-family W | I, G, F | Special-sections derivation and independent STCI audit; finite-flat rank de and pushforward degree under sole-support hypothesis | Incidence and complete-intersection geometry |
+| General quartic-pencil attachment map and differential | I, F | CI-cycle deformation laboratory and independent audit; local rank at explicit pencil | Residual deformation and attachment |
+| Generic smooth degree-12 residual and 18 attachments | I, G | Audited but unpromoted Bertini/blowup deduction; R-0023 supplies fixed exact benchmark | Residual geometry |
+| Positive-characteristic STCI construction beyond prescribed char-2 pair | A, F | Computations README documents char 2,3,5,7 tests; general construction and literature proof require dedicated source check | Characteristic geometry; **not yet source-audited here** |
+| Intrinsic conormal graded algebra and delta-filtration analysis | F, A | October 26–27 notes; exploratory constraints and characteristic comparison, not a universal exclusion | Filtered geometry |
+| Function-field normal coordinates and two-layer valuations | F, I | Adaptive-valuative and weighted-initial notebooks; framework, with precise coordinate dependence | Valuative contact |
+| Entirely-thick degree inequalities and repeated-root boundary | F, C | Legacy results/entirely_thick.md and open questions; scoped necessary conditions | Filtered equations |
+| Fixed-carrier conductor sufficiency versus nilpotent obstruction | C, F | Canonical R-0003 and R-0017 supply theorem and counterexample; explanatory synthesis unpromoted | Carrier geometry |
+| P4/delta embedding, flag-duality and Rees families | G, F | Marked-embedding notes and validations; finite checks do not prove global realization | Projective geometry, then filtered comparison |
+| Chow form and special-line pencils | G, C | Exact script documentation and older carrier notes; distinguish finite restrictions from global identity | Intrinsic geometry and carrier applications |
+
+**Editorial consequences:** Geometry G and residual incidence I should each explain the special-plane families from their own viewpoint; F should discuss only the normal-algebra implications. The characteristic chapter should include positive-characteristic *existence constructions*, not merely obstructions to lifting one example. The valuation framework belongs in both F (initial algebra) and I (cycle consequences), with an explicit bridge explaining why these are not equivalent.
+
+**Not yet exhaustive:** This map is a first synthesis of the reviewed thematic files, not a complete survey of every note or open question. Before deletion, reconcile it with the repository-wide file manifest and canonical evidence matrix. No provisional item is promoted by its inclusion.
