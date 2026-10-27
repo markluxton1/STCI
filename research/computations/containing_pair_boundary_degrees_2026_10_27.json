@@ -1,0 +1,663 @@
+{
+  "scope": "27 new higher/mixed-degree coordinate checks over Q",
+  "results": [
+    {
+      "degrees": [
+        4,
+        5
+      ],
+      "source_dimensions": [
+        18,
+        35
+      ],
+      "vary_first_support": [
+        12,
+        22
+      ],
+      "vary_second_support": [
+        0,
+        14
+      ],
+      "affine_differential_rank": 23,
+      "projective_boundary_dimension": 22,
+      "general_residual_degree": 16,
+      "general_residual_genus": 30,
+      "general_attachment_length": 22,
+      "residual_Rao_degree": 4
+    },
+    {
+      "degrees": [
+        5,
+        4
+      ],
+      "source_dimensions": [
+        35,
+        18
+      ],
+      "vary_first_support": [
+        8,
+        22
+      ],
+      "vary_second_support": [
+        0,
+        10
+      ],
+      "affine_differential_rank": 23,
+      "projective_boundary_dimension": 22,
+      "general_residual_degree": 16,
+      "general_residual_genus": 30,
+      "general_attachment_length": 22,
+      "residual_Rao_degree": 4
+    },
+    {
+      "degrees": [
+        5,
+        5
+      ],
+      "source_dimensions": [
+        35,
+        35
+      ],
+      "vary_first_support": [
+        12,
+        26
+      ],
+      "vary_second_support": [
+        0,
+        14
+      ],
+      "affine_differential_rank": 27,
+      "projective_boundary_dimension": 26,
+      "general_residual_degree": 21,
+      "general_residual_genus": 51,
+      "general_attachment_length": 26,
+      "residual_Rao_degree": 5,
+      "pencil_dimension": 66,
+      "generic_boundary_fiber_dimension": 40
+    },
+    {
+      "degrees": [
+        5,
+        6
+      ],
+      "source_dimensions": [
+        35,
+        59
+      ],
+      "vary_first_support": [
+        16,
+        30
+      ],
+      "vary_second_support": [
+        0,
+        18
+      ],
+      "affine_differential_rank": 31,
+      "projective_boundary_dimension": 30,
+      "general_residual_degree": 26,
+      "general_residual_genus": 77,
+      "general_attachment_length": 30,
+      "residual_Rao_degree": 6
+    },
+    {
+      "degrees": [
+        5,
+        7
+      ],
+      "source_dimensions": [
+        35,
+        91
+      ],
+      "vary_first_support": [
+        20,
+        34
+      ],
+      "vary_second_support": [
+        0,
+        22
+      ],
+      "affine_differential_rank": 35,
+      "projective_boundary_dimension": 34,
+      "general_residual_degree": 31,
+      "general_residual_genus": 108,
+      "general_attachment_length": 34,
+      "residual_Rao_degree": 7
+    },
+    {
+      "degrees": [
+        5,
+        8
+      ],
+      "source_dimensions": [
+        35,
+        132
+      ],
+      "vary_first_support": [
+        24,
+        38
+      ],
+      "vary_second_support": [
+        0,
+        26
+      ],
+      "affine_differential_rank": 39,
+      "projective_boundary_dimension": 38,
+      "general_residual_degree": 36,
+      "general_residual_genus": 144,
+      "general_attachment_length": 38,
+      "residual_Rao_degree": 8
+    },
+    {
+      "degrees": [
+        5,
+        9
+      ],
+      "source_dimensions": [
+        35,
+        183
+      ],
+      "vary_first_support": [
+        28,
+        42
+      ],
+      "vary_second_support": [
+        0,
+        30
+      ],
+      "affine_differential_rank": 43,
+      "projective_boundary_dimension": 42,
+      "general_residual_degree": 41,
+      "general_residual_genus": 185,
+      "general_attachment_length": 42,
+      "residual_Rao_degree": 9
+    },
+    {
+      "degrees": [
+        6,
+        5
+      ],
+      "source_dimensions": [
+        59,
+        35
+      ],
+      "vary_first_support": [
+        12,
+        30
+      ],
+      "vary_second_support": [
+        0,
+        14
+      ],
+      "affine_differential_rank": 31,
+      "projective_boundary_dimension": 30,
+      "general_residual_degree": 26,
+      "general_residual_genus": 77,
+      "general_attachment_length": 30,
+      "residual_Rao_degree": 6
+    },
+    {
+      "degrees": [
+        6,
+        6
+      ],
+      "source_dimensions": [
+        59,
+        59
+      ],
+      "vary_first_support": [
+        16,
+        34
+      ],
+      "vary_second_support": [
+        0,
+        18
+      ],
+      "affine_differential_rank": 35,
+      "projective_boundary_dimension": 34,
+      "general_residual_degree": 32,
+      "general_residual_genus": 112,
+      "general_attachment_length": 34,
+      "residual_Rao_degree": 7,
+      "pencil_dimension": 114,
+      "generic_boundary_fiber_dimension": 80
+    },
+    {
+      "degrees": [
+        6,
+        7
+      ],
+      "source_dimensions": [
+        59,
+        91
+      ],
+      "vary_first_support": [
+        20,
+        38
+      ],
+      "vary_second_support": [
+        0,
+        22
+      ],
+      "affine_differential_rank": 39,
+      "projective_boundary_dimension": 38,
+      "general_residual_degree": 38,
+      "general_residual_genus": 153,
+      "general_attachment_length": 38,
+      "residual_Rao_degree": 8
+    },
+    {
+      "degrees": [
+        6,
+        8
+      ],
+      "source_dimensions": [
+        59,
+        132
+      ],
+      "vary_first_support": [
+        24,
+        42
+      ],
+      "vary_second_support": [
+        0,
+        26
+      ],
+      "affine_differential_rank": 43,
+      "projective_boundary_dimension": 42,
+      "general_residual_degree": 44,
+      "general_residual_genus": 200,
+      "general_attachment_length": 42,
+      "residual_Rao_degree": 9
+    },
+    {
+      "degrees": [
+        6,
+        9
+      ],
+      "source_dimensions": [
+        59,
+        183
+      ],
+      "vary_first_support": [
+        28,
+        46
+      ],
+      "vary_second_support": [
+        0,
+        30
+      ],
+      "affine_differential_rank": 47,
+      "projective_boundary_dimension": 46,
+      "general_residual_degree": 50,
+      "general_residual_genus": 253,
+      "general_attachment_length": 46,
+      "residual_Rao_degree": 10
+    },
+    {
+      "degrees": [
+        7,
+        5
+      ],
+      "source_dimensions": [
+        91,
+        35
+      ],
+      "vary_first_support": [
+        12,
+        34
+      ],
+      "vary_second_support": [
+        0,
+        14
+      ],
+      "affine_differential_rank": 35,
+      "projective_boundary_dimension": 34,
+      "general_residual_degree": 31,
+      "general_residual_genus": 108,
+      "general_attachment_length": 34,
+      "residual_Rao_degree": 7
+    },
+    {
+      "degrees": [
+        7,
+        6
+      ],
+      "source_dimensions": [
+        91,
+        59
+      ],
+      "vary_first_support": [
+        16,
+        38
+      ],
+      "vary_second_support": [
+        0,
+        18
+      ],
+      "affine_differential_rank": 39,
+      "projective_boundary_dimension": 38,
+      "general_residual_degree": 38,
+      "general_residual_genus": 153,
+      "general_attachment_length": 38,
+      "residual_Rao_degree": 8
+    },
+    {
+      "degrees": [
+        7,
+        7
+      ],
+      "source_dimensions": [
+        91,
+        91
+      ],
+      "vary_first_support": [
+        20,
+        42
+      ],
+      "vary_second_support": [
+        0,
+        22
+      ],
+      "affine_differential_rank": 43,
+      "projective_boundary_dimension": 42,
+      "general_residual_degree": 45,
+      "general_residual_genus": 205,
+      "general_attachment_length": 42,
+      "residual_Rao_degree": 9,
+      "pencil_dimension": 178,
+      "generic_boundary_fiber_dimension": 136
+    },
+    {
+      "degrees": [
+        7,
+        8
+      ],
+      "source_dimensions": [
+        91,
+        132
+      ],
+      "vary_first_support": [
+        24,
+        46
+      ],
+      "vary_second_support": [
+        0,
+        26
+      ],
+      "affine_differential_rank": 47,
+      "projective_boundary_dimension": 46,
+      "general_residual_degree": 52,
+      "general_residual_genus": 264,
+      "general_attachment_length": 46,
+      "residual_Rao_degree": 10
+    },
+    {
+      "degrees": [
+        7,
+        9
+      ],
+      "source_dimensions": [
+        91,
+        183
+      ],
+      "vary_first_support": [
+        28,
+        50
+      ],
+      "vary_second_support": [
+        0,
+        30
+      ],
+      "affine_differential_rank": 51,
+      "projective_boundary_dimension": 50,
+      "general_residual_degree": 59,
+      "general_residual_genus": 330,
+      "general_attachment_length": 50,
+      "residual_Rao_degree": 11
+    },
+    {
+      "degrees": [
+        8,
+        5
+      ],
+      "source_dimensions": [
+        132,
+        35
+      ],
+      "vary_first_support": [
+        12,
+        38
+      ],
+      "vary_second_support": [
+        0,
+        14
+      ],
+      "affine_differential_rank": 39,
+      "projective_boundary_dimension": 38,
+      "general_residual_degree": 36,
+      "general_residual_genus": 144,
+      "general_attachment_length": 38,
+      "residual_Rao_degree": 8
+    },
+    {
+      "degrees": [
+        8,
+        6
+      ],
+      "source_dimensions": [
+        132,
+        59
+      ],
+      "vary_first_support": [
+        16,
+        42
+      ],
+      "vary_second_support": [
+        0,
+        18
+      ],
+      "affine_differential_rank": 43,
+      "projective_boundary_dimension": 42,
+      "general_residual_degree": 44,
+      "general_residual_genus": 200,
+      "general_attachment_length": 42,
+      "residual_Rao_degree": 9
+    },
+    {
+      "degrees": [
+        8,
+        7
+      ],
+      "source_dimensions": [
+        132,
+        91
+      ],
+      "vary_first_support": [
+        20,
+        46
+      ],
+      "vary_second_support": [
+        0,
+        22
+      ],
+      "affine_differential_rank": 47,
+      "projective_boundary_dimension": 46,
+      "general_residual_degree": 52,
+      "general_residual_genus": 264,
+      "general_attachment_length": 46,
+      "residual_Rao_degree": 10
+    },
+    {
+      "degrees": [
+        8,
+        8
+      ],
+      "source_dimensions": [
+        132,
+        132
+      ],
+      "vary_first_support": [
+        24,
+        50
+      ],
+      "vary_second_support": [
+        0,
+        26
+      ],
+      "affine_differential_rank": 51,
+      "projective_boundary_dimension": 50,
+      "general_residual_degree": 60,
+      "general_residual_genus": 336,
+      "general_attachment_length": 50,
+      "residual_Rao_degree": 11,
+      "pencil_dimension": 260,
+      "generic_boundary_fiber_dimension": 210
+    },
+    {
+      "degrees": [
+        8,
+        9
+      ],
+      "source_dimensions": [
+        132,
+        183
+      ],
+      "vary_first_support": [
+        28,
+        54
+      ],
+      "vary_second_support": [
+        0,
+        30
+      ],
+      "affine_differential_rank": 55,
+      "projective_boundary_dimension": 54,
+      "general_residual_degree": 68,
+      "general_residual_genus": 416,
+      "general_attachment_length": 54,
+      "residual_Rao_degree": 12
+    },
+    {
+      "degrees": [
+        9,
+        5
+      ],
+      "source_dimensions": [
+        183,
+        35
+      ],
+      "vary_first_support": [
+        12,
+        42
+      ],
+      "vary_second_support": [
+        0,
+        14
+      ],
+      "affine_differential_rank": 43,
+      "projective_boundary_dimension": 42,
+      "general_residual_degree": 41,
+      "general_residual_genus": 185,
+      "general_attachment_length": 42,
+      "residual_Rao_degree": 9
+    },
+    {
+      "degrees": [
+        9,
+        6
+      ],
+      "source_dimensions": [
+        183,
+        59
+      ],
+      "vary_first_support": [
+        16,
+        46
+      ],
+      "vary_second_support": [
+        0,
+        18
+      ],
+      "affine_differential_rank": 47,
+      "projective_boundary_dimension": 46,
+      "general_residual_degree": 50,
+      "general_residual_genus": 253,
+      "general_attachment_length": 46,
+      "residual_Rao_degree": 10
+    },
+    {
+      "degrees": [
+        9,
+        7
+      ],
+      "source_dimensions": [
+        183,
+        91
+      ],
+      "vary_first_support": [
+        20,
+        50
+      ],
+      "vary_second_support": [
+        0,
+        22
+      ],
+      "affine_differential_rank": 51,
+      "projective_boundary_dimension": 50,
+      "general_residual_degree": 59,
+      "general_residual_genus": 330,
+      "general_attachment_length": 50,
+      "residual_Rao_degree": 11
+    },
+    {
+      "degrees": [
+        9,
+        8
+      ],
+      "source_dimensions": [
+        183,
+        132
+      ],
+      "vary_first_support": [
+        24,
+        54
+      ],
+      "vary_second_support": [
+        0,
+        26
+      ],
+      "affine_differential_rank": 55,
+      "projective_boundary_dimension": 54,
+      "general_residual_degree": 68,
+      "general_residual_genus": 416,
+      "general_attachment_length": 54,
+      "residual_Rao_degree": 12
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "source_dimensions": [
+        183,
+        183
+      ],
+      "vary_first_support": [
+        28,
+        58
+      ],
+      "vary_second_support": [
+        0,
+        30
+      ],
+      "affine_differential_rank": 59,
+      "projective_boundary_dimension": 58,
+      "general_residual_degree": 77,
+      "general_residual_genus": 511,
+      "general_attachment_length": 58,
+      "residual_Rao_degree": 13,
+      "pencil_dimension": 362,
+      "generic_boundary_fiber_dimension": 304
+    }
+  ]
+}

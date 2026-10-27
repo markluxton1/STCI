@@ -1,0 +1,6 @@
+Status: partial bounded rational experiment, not a smoothness certificate.
+PAIR PROPER
+RESIDUAL COMPUTED
+RESIDUAL DEGREE32 GENUS112
+Interrupted while computing the scheme-union comparison.
+No claim about completion of later smoothness/attachment assertions.

@@ -2,6 +2,8 @@
 
 Checked through: 2026-09-30
 
+Focused refresh, 2026-10-27: [containing intersections, G3/formal extension, liaison and positive-characteristic constructions](notes/2026-10-27-containing-intersections-literature-refresh.md). This supplements the dated ledger, records current source access and exact scope, and does not claim that every item below was reread or that the search was exhaustive.
+
 This ledger records the scope actually used in the research report. A source is
 not listed as settling more than its hypotheses permit. “No later resolution
 found” is a documented search result, not a proof that no unindexed work exists.

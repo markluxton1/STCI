@@ -2,6 +2,8 @@
 
 ## Research activity status — October 27, 2026
 
+The [containing-intersections research vision](notes/2026-10-27-containing-intersections-research-vision.md) integrates three independently reviewed provisional lanes: all-degree residual/attachment geometry, formal-neighborhood visibility and fixed-twist extension, and positive-characteristic residual-to-thickness constructions. The user-directed guiding question is to understand and construct proper intersections containing \(C\), with residual curves included throughout and sole support a possible endpoint. These deductions and the proposed sextic experiments have **not** been promoted; no canonical mathematical status changes.
+
 The October 24 intrinsic-geometry interlude is a preserved historical phase, not an accurate description of all subsequent activity. Research has since resumed on complete-intersection cycles, normal filtrations, weighted initial ideals, and boundary obstructions. The October 26–27 notes linked in [research navigation](INDEX.md) are **provisional evidence**, not automatically promoted theorems. The unrestricted characteristic-zero STCI question remains open. See [current frontier](FRONTIER.md) and [authority rules](AUTHORITY.md).
 
 

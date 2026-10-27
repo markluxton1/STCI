@@ -2,6 +2,8 @@
 
 This is a **navigation and prioritization guide**, not a new theorem, proof audit, or assignment of an exclusive active frontier. Consult [STATE.md](STATE.md) and the [canonical results](results/INDEX.md) for authoritative statements. The unrestricted fixed rational quartic STCI question remains open.
 
+The [October 27 research vision](notes/2026-10-27-containing-intersections-research-vision.md) adopts a constructive, residual-inclusive framing: understand actual proper intersections containing \(C\), then ask how to reach particular thickness and residual configurations. New reviewed deductions there remain provisional. Changes of residual geometry at fixed generic multiplicity and transfer of residual mass onto \(C\) are distinct experiments; acquiring a common surface factor leaves the proper-pair problem. Compare both positive and negative evidence, including odd-characteristic constructions and global formal-section extension, without assuming the characteristic-zero answer.
+
 ## Essential conclusions: read first
 
 | Importance | What is established | Authority | Consequence |
@@ -45,7 +47,7 @@ The existing frontier offers several **nonexclusive** entry points: [jet depende
 - Legacy quartic B1/B2/B3/D mate cases as open cases: [STCI-R-0001](results/quartic_carrier_exclusion.md) closed them for the fixed curve.
 - Individual validation logs or scratch outputs unless a canonical result, a reproducibility question, or an active computation points to them.
 - New synthesis/audit notes as proof authority. They can clarify interfaces but cannot promote results.
-- Generalization notes for other curves/characteristics when the immediate goal is the fixed characteristic-zero C0, unless a specific theorem transfer is justified.
+- Generalization notes unrelated to the actual question. When characteristic comparison is requested, include positive-characteristic constructions with their literal hypotheses; no theorem transfer to characteristic zero is presumed.
 
 ## How to find evidence efficiently
 
@@ -59,6 +61,6 @@ The existing frontier offers several **nonexclusive** entry points: [jet depende
 
 ## Completion test for future work
 
-A new research contribution should answer at least one of: **(i)** exclude a genuinely surviving class of actual STCI presentations; **(ii)** establish a new general geometric constraint with explicit hypotheses and proof; **(iii)** compute a previously unresolved necessary/sufficient test for an actual candidate family; **(iv)** repair a substantive gap in an accepted proof. A restatement, inventory, or new notation alone does not meet this bar.
+A new research contribution should answer at least one of: **(i)** exclude a genuinely surviving class of actual STCI presentations; **(ii)** establish a new general geometric statement with explicit hypotheses and proof, including existence/flexibility results; **(iii)** compute a previously unresolved necessary/sufficient test for an actual candidate family; **(iv)** repair a substantive gap in an accepted proof; **(v)** construct or analyze an actual family of intersections containing \(C\), retaining its residual schemes and global realization conditions, in a way that changes the next constructive test. A restatement, inventory, or new notation alone does not meet this bar.
 
 This guide ranks relevance and directs reading; it does not claim exhaustive dependency tracing across every historical file.
