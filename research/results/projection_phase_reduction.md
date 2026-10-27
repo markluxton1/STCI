@@ -16,10 +16,10 @@ dependencies:
   - STCI-R-0002
   - STCI-R-0003
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-projection-torsion-coset-reduction.md"
+  - "research/notes/2026-10-15-generalization-projection-torsion-coset-reduction.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md"
+  - "research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md"
+accepted_in: "research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
