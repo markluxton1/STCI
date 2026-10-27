@@ -96,3 +96,57 @@ These entries are **mathematical topics**, not additional canonical theorems. Th
 **Editorial consequences:** Geometry G and residual incidence I should each explain the special-plane families from their own viewpoint; F should discuss only the normal-algebra implications. The characteristic chapter should include positive-characteristic *existence constructions*, not merely obstructions to lifting one example. The valuation framework belongs in both F (initial algebra) and I (cycle consequences), with an explicit bridge explaining why these are not equivalent.
 
 **Not yet exhaustive:** This map is a first synthesis of the reviewed thematic files, not a complete survey of every note or open question. Before deletion, reconcile it with the repository-wide file manifest and canonical evidence matrix. No provisional item is promoted by its inclusion.
+
+## Counterexamples and failed implications: cross-subject map
+
+This table records **why a tempting implication fails**, not a timeline of unsuccessful research. A counterexample's precise hypotheses must remain attached to its source.
+
+| Failed implication / invalid shortcut | Subjects | Mathematical witness or missing bridge | Permanent explanatory location |
+|---|---|---|---|
+| Primitive e=2 quartic thickenings do not exist | F, C | Legacy `results/quartic_e2.md`: primitive quadruples exist; the actual quartic factorization statement is narrower | F, with quartic carrier cross-link |
+| First normal symbols generate the full initial ideal | F, A | Prescribed characteristic-two pair, R-0031: nonlinear cancellation supplies fourth-order generator | F, with arithmetic example |
+| A flat integral family keeps its reduced support on C | A, I | R-0021: generic mu4 fiber splits into four distinct curves | A |
+| Splitting of the conormal bundle alone globalizes a desired thickening | G, F, A | Missing actual equations and overlap compatibility; R-0020 versus R-0031 | F |
+| Singleton reduced inverse support suffices for a mate | C | R-0017: fixed plane-normalization family fails nilpotent conductor descent | C |
+| Reduced conductor data captures the fixed-carrier obstruction | C, F | R-0003 requires full conductor-unit classes, including nilpotent terms | C |
+| Every exceptional vertical cycle produces a residual curve downstairs | I, F | Distinct exceptional contact versus actual fundamental cycle; R-0019 is an auxiliary zero-cycle statement | I |
+| Fixed first tangent forms bound all higher transverse contact | F, I | Entirely-thick local examples; higher cancellation and adapted valuations matter | F |
+| Fixed monomial weights recover full transverse intersection length | F, I | `(x-y^2,y^N)` family; same original-coordinate monomial-weight ideal values, varying colength | F |
+| Any ideals with same integral closure have same colength | F, I | False for arbitrary ideals; **true for parameter ideals in a 2D regular local ring** via Hilbert–Samuel multiplicity. Preserve the distinction | F |
+| Plane-section length determines embedded local algebra | I, F | Special-plane audit: supported rank-four algebras can have same plane length but different embedding dimension | I |
+| Small universal bound on osculating normal coincidences | G, I | Audited cubic with six coincidences; related pair has residual trisecant lines | G, with I cross-link |
+| A first-order fixed-boundary smoothing gives an explicit global polynomial arc | I | R-0024 establishes formal/étale local smoothing; global polynomial arc not supplied | I |
+| Finite exact computations establish an unrestricted global theorem | All | Computational README explicitly identifies inherited inputs, tested slices, and missing completeness steps | Evidence policy, linked from chapters |
+| Conditional bounded-index or fixed-sextic exclusions extend to arbitrary carriers | C, I, F | R-0035 only indices <=4; R-0025 one sextic and mate degree 16 | C / I respectively |
+| Arithmetic nonlifting for the prescribed Z4 model forbids every mixed-characteristic lift | A | R-0012 covers two specified bases, not arbitrary ramified DVRs | A |
+
+These are **not all counterexamples in the repository**. They are the important failures already encountered in the thematic reviews. Keep exact witnesses, not every unsuccessful attempt log.
+
+## Open mathematical interfaces: cross-subject map
+
+| Interface | Subjects | What would actually close it | Status boundary |
+|---|---|---|---|
+| Unrestricted characteristic-zero STCI | C, F, I | Construction or obstruction for all remaining higher-degree equations | R-0001 closes integral quartic carriers only |
+| Actual projection realization and conductor descent | C, G | Admissible maps and full-conductor phase images for surviving models | R-0002 necessary models; R-0004 reduction, not solution |
+| Higher-index and nonnormal carrier cases | C, F | Carrier-specific Cartier/conductor calculations or general bounds | R-0035 bounded indices only |
+| Nonsaturated and entirely-thick normal relations | F, I | Control actual equations, higher initial generators and defects globally | Saturated conditional theorems do not apply automatically |
+| Singular/nonreduced moving roots and special degeneration | F | Bridge graded Picard/root constraints to actual global CI equations | R-0005–0011 are scoped |
+| Quadratic-root second zero locus | F | Determine full second obstruction scheme and torsion intersection | R-0007 provides equations, not full elimination |
+| Supported punctual comparison defects | F, I | Exhibit or rule out punctual defect for sole-support CI under exact hypotheses | R-0030 local criterion only |
+| Valuative contact to residual component | F, I | Global upper bound on generic m or actual branch construction | Partial valuations typically give lower bounds |
+| Universal special-plane incidence to an obstruction | G, I, F | Use embedded incidence algebra/global constraints, not just cycle/length identities | Audited incidence formulas unpromoted |
+| Positive-characteristic construction in arbitrary p | A, F | Source-verified construction, including characteristic-three and Frobenius mechanism | General p claim not audited in this consolidation |
+| Intrinsic quartic moduli, duality and incidence | G | Clarify geometric statements and proofs independent of STCI | Reviewed but some claims unpromoted |
+| Deformation beyond fixed quartic benchmarks | I | Global arcs, boundary behavior and residual singularity control | R-0023/24 fixed examples and local statements |
+
+### Permanent-chapter design, subject to evidence reconciliation
+
+1. **Projective geometry of the marked quartic (G).** Parametrization, quadric/rulings, automorphisms, osculation and bitangents, dual/flag geometry, projections and normalization. Intrinsic geometric questions remain first-class.
+2. **Normal geometry and thickenings (F).** Conormal bundle as an input, graded and saturated filtrations, actual equations, root schemes, higher contact, valuations and socle. Use a separate section on the realization gap.
+3. **Carriers and conductor descent (C).** Carrier geometry, normalization, full inverse support, Cartier relations, phase reductions, explicit counterexamples and scoped exclusions.
+4. **Intersections, residual cycles and deformations (I).** Generic multiplicity, actual versus auxiliary/exceptional cycles, plane incidence, quartic-pencil residuals, attachment and deformation.
+5. **Characteristic and arithmetic (A).** Positive-characteristic existence constructions, conormal jump, group-scheme coalescence, arithmetic ruled families, initial-equation cancellations and prescribed nonlifting.
+
+Use **one concise global status/exclusions index**, not a sixth full chapter. Each chapter should contain (i) geometric motivation, (ii) established results with exact scopes, (iii) essential examples and failures, (iv) unresolved interfaces, (v) links to canonical proofs and exact certificates. Mathematical explanations may overlap; proof authority must not.
+
+**Next quality gate:** inspect the 36 canonical records' front matter and direct evidence links, and reconcile the unpromoted and counterexample tables with the source manifest. Only then start moving explanations and retiring superseded files. This design does not authorize deletions.
