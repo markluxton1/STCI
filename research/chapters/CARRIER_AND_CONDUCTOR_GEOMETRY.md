@@ -80,6 +80,18 @@ The cone needs its own argument. On its F4 resolution, the hyperplane class is E
 
 Sources: [genus-zero audit](../notes/2026-10-09-session-normalization-genus-zero-independent-audit.md) and [nonrational-normalization audit](../notes/2026-10-09-session-nonrational-normalization-independent-audit.md).
 
+#### Genus-zero classification: proof of the six-section reduction
+
+On a smooth resolution \(M\), write \(L=\sigma^*H\), so \(L^2=4\) and \(K_M\cdot L=-6\). Since \((K_M+L)\cdot L=-2\), nefness of \(L\) implies \(h^0(K_M+L)=0\). Kawamata–Viehweg vanishing gives \(H^i(M,K_M+L)=0\) for \(i>0\). Riemann–Roch then yields
+\[
+0=\chi(K_M+L)=\chi(\mathcal O_M)-1,
+\]
+so \(\chi(\mathcal O_M)=1\). The same nef-intersection argument gives \(p_g(M)=0\), hence \(h^1(M,\mathcal O_M)=0\). Because \(\sigma_*\mathcal O_M=\mathcal O_S\), the Leray edge map injects \(H^1(S,\mathcal O_S)\) into \(H^1(M,\mathcal O_M)\); no rational-singularity hypothesis is used here.
+
+For a general smooth \(Y\in|H|\), \(Y\cong\mathbf P^1\) and \(H|_Y\cong\mathcal O_{\mathbf P^1}(4)\). The exact restriction sequence gives \(h^0(S,H)=1+5=6\). Since the original four sections generate \(H\), the complete six-section map is basepoint-free; ampleness of \(H\) makes it finite. It is birational because the original map \(S\to X\) is already birational. Its nondegenerate image in \(\mathbf P^5\) has degree four and codimension three, so is a surface of minimal degree. The complete classification gives precisely the scrolls \(S(2,2)\), \(S(1,3)\), the cone \(S(0,4)\), and the Veronese surface. All four are normal; the finite birational map is therefore an isomorphism. This is why the classification is exhaustive even though \(S\) was not assumed smooth.
+
+For the cone, torsion-freeness of its class group forces the lifted \(c\) to be Cartier and to avoid the vertex. The remaining proof uses the ruling map to a rational plane quartic: if its normalization has two points over a plane point, singleton inverse support fails; if all fibers are singletons, the plane quartic still has a singular unibranch point, where the ruling map has vanishing differential. The source proves the resulting local-unit/conductor contradiction. Thus neither a nodal nor a cuspidal base can produce a mate. See the [genus-zero audit](../notes/2026-10-09-session-normalization-genus-zero-independent-audit.md) for the last local calculation.
+
 ### 3.2 Genus-one mechanism: intrinsic projection, ribbon, partitions
 
 The normalization is rational by the ruled-surface argument retaining infinitely near multiplicities. Its minimal resolution is a weak degree-four del Pezzo surface; the normal anticanonical model is an ADE two-quadric intersection in P4. Restricting the complete anticanonical sections to the lifted curve determines the projection center: it deletes the middle s²t² coordinate of the rational normal quartic. This is deduced for every carrier in this lane, not assumed from a special family.
