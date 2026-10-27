@@ -92,6 +92,10 @@ There is a plausible research interface: exceptional directions and their specia
 
 ## 4.7 What this chapter does and does not establish
 
+The newer [carrier/conductor/socle interface](carrier_conductor_socle_interfaces.md) adds **scoped** results not covered by the original normalization classification: actual local Cartier-index and socle constraints on normal carriers (R-0034 and R-0035), a pointwise conductor-to-top-socle divisor identity under smooth singleton hypotheses (R-0036), and exclusion of specified plane-projection families (R-0017). These do **not** close the remaining Cartier singleton models or establish a universal conductor-to-normal-filtration comparison.
+
+
+
 **Established:** the fixed-carrier conductor criterion; the restricted Cartier singleton-lift classification; and the fixed-family torsion-coset reduction, each under its precise hypotheses.
 
 **Open:** computation of the actual projection phase images and conductor descent for the three models, and treatment of non-Cartier, multiple-branch, or higher-degree inverse lifts.

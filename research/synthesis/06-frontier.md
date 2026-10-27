@@ -2,9 +2,9 @@
 
 The unrestricted characteristic-zero question for the fixed rational quartic \(C_0\subset\mathbf P^3\) remains **open**. The completed quartic-carrier exclusion [STCI-R-0001](../results/quartic_carrier_exclusion.md) forces both defining degrees to be at least five; it does not settle higher-degree pairs.
 
-This chapter translates the [canonical frontier](../FRONTIER.md) into **specific mathematical deliverables**. The ordering reflects likely explanatory value and logical leverage, not a claim that one lane must succeed.
+This chapter collects **candidate mathematical deliverables**, not a current priority ranking. The [canonical frontier](../FRONTIER.md) currently emphasizes general proper intersections, residual cycles, full initial ideals, and their global realization; the older jet, root, and carrier tasks below remain available alternatives. The ordering of sections is expository, not a research directive.
 
-## 6.1 First priority: explain jet-condition dependence geometrically
+## 6.1 Jet-condition dependence
 
 **Problem.** For a chain of primitive or quasiprimitive structures
 \[
@@ -20,7 +20,7 @@ when are the successive conditions imposed on ambient hypersurfaces dependent? W
 
 **What would not count?** Another unexplained list of polynomial equations, or reclassifying an already excluded quartic mate case.
 
-## 6.2 Second priority: the entirely-thick and excess-contact problem
+## 6.2 Entirely-thick and excess-contact problem
 
 **Problem.** When both original equations have generic normal orders \(r,s\ge2\), their first symbols can hide arbitrarily high intersection multiplicity. Which *finite* geometric data control that excess in the global STCI setting?
 
@@ -100,12 +100,9 @@ The possible payoff is conceptual: a special-point defect visible in normal-form
 | A torsion-coset reduction | Structured finite-type problem | Compute admissible phase image and surviving torsion |
 | A case exclusion | Conditional or scoped theorem | Audit quantifiers, missing strata, and factor reduction |
 
-## 6.8 Recommended sequence
+## 6.8 Selecting the next problem
 
-**Near term:** (1) audit and formalize the common-normal-factor geometry of actual pairs; (2) derive a geometric jet-dependence criterion on the quadric; (3) test a finite valuation description of excess contact. These steps focus on geometry and coefficients rather than another broad degree enumeration.
+The [current frontier](../FRONTIER.md) takes precedence over the ordering of this chapter. In particular, general proper intersections may have a residual cycle, and the STCI multiplicity formula applies only when that residual cycle vanishes. A generator-independent comparison of the full normal initial ideal, special-point defects, and actual residual support is an active **research question**, not a theorem; see [residual intersections and jets](residual_intersections_and_jets.md) and [normal-filtration defects](normal_filtration_boundary_obstructions.md).
 
-**Parallel bounded tasks:** compute the quadratic-root second locus and one admissible Cartier projection family. Both have concrete stopping points and should remain explicitly scoped.
+The jet-dependence, root-obstruction, and Cartier-projection problems in Sections 6.1–6.6 remain bounded alternative projects. Choose them by mathematical leverage and check whether later scoped results already settle the proposed subcase. Promote claims only under the [authority policy](../AUTHORITY.md), with exact hypotheses and independent audit.
 
-**Promotion rule:** put a theorem in [STATE.md](../STATE.md) only after an exact statement, proof provenance, independent audit, and scope check. Until then record it as a question, calculation, or provisional synthesis. The detailed working priorities remain in [FRONTIER.md](../FRONTIER.md).
-
-The purpose of this roadmap is not to multiply lanes. It is to identify **which missing geometric implication** each lane is trying to prove.
