@@ -97,3 +97,17 @@ At branch commit `466f124`, examined the R-0001 independent assembly audit, the 
 **Endpoint proof:** The genus-two endpoint audit explicitly rejects treating an earlier irreducible-residual subcase as exhaustive. The full quartic family, local ADE corrections and doubled-horizontal analysis are separate required ingredients. This distinction is important for preventing an invalid simplification during chapter rewriting.
 
 **Next proof-closure task:** identify exact retained source for P-010 and the other named historical premises, and build a compact dependency DAG for the six quartic lanes. Do not delete the corresponding source notes merely because canonical YAML links resolve.
+
+## Historical premise P-010: source and scope identified
+
+The P-010 theorem is recorded in `research/RESEARCH_RECORD.md`, claim table and section **“P-010: a second-neighborhood obstruction for the monomial quartic”**. The proof there gives the actual two-chart coordinate changes, balanced conormal frames, quadratic transition, and Cech obstruction classes. Its fixed-C0 computation is:
+`h_theta=3 theta^3 z^-5-(3/2)theta^2 z^-4+(3/4)theta z^-3-(3/8)z^-2`, and the missing direction has `h_infinity=3 z^-5`. These are nonzero in characteristic zero. This is the **exact inherited direction-class premise** used in R-0033 and the bounded-index proof R-0035. The historical P-010 claim is broader (primitive triples for smooth rational quartics), so the fixed-C0 formula should not be mistaken for a proof of the entire general-embedding statement.
+
+A second readable derivation of the coefficients is in `research/notes/2026-10-05-typea-audit.md`, section 1; `research/notes/2026-10-13-generalization-thick-equality-geometry.md` explicitly points to it. The independent review `research/notes/2026-10-13-generalization-thick-relation-obstruction-independent-audit.md` checks the *new lifting argument*, and expressly does **not** reverify P-010's direction coefficients. Preserve this distinction.
+
+**Dependency graph addition:**
+- `P-010 (historical source, fixed-C0 direction classes)` → `R-0033 (constant first-relation lifting)` → zero-defect equality exclusion, using `R-0032`.
+- `P-010` + `R-0001 (low-degree exclusion)` + `R-0032 (socle budget)` + `R-0034 (local index compatibility)` + normal-carrier torsion/index argument → `R-0035 (bounded-index exclusion)`.
+- The local normal-carrier audit says explicitly that these earlier inputs were *not rerun* during its new-proof review.
+
+**Retention:** preserve the exact P-010 two-chart proof and Cech coefficients (not just its name), the type-A independent derivation, and the distinction between a fixed-C0 calculation and the broader historical theorem. This is a provenance and logical-dependency reconciliation, not an independent recomputation of P-010.
