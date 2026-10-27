@@ -13,3 +13,11 @@ Read [research/INDEX.md](research/INDEX.md) first. This file governs **how to re
 
 For substantial work, report: precise claim used, assumptions, supporting path(s), unresolved dependencies, and whether the claim is promoted or provisional. Do not equate a computational reduction with a completed computation.
 New research contributions should follow [the proposal and audit checklist](research/CONTRIBUTING_AGENT.md). Canonical metadata can be checked with `python3 research/computations/validate_records.py`.
+
+## Navigation maintenance contract
+
+- `research/STATE.md` summarizes established knowledge and open mathematical status; only change mathematical status when supported by canonical evidence and the applicable review process.
+- `research/FRONTIER.md` describes current investigations, alternative open interfaces, and next tests; update it when research direction changes, without rewriting historical evidence.
+- `research/RESEARCH_DECISION_GUIDE.md` describes selection criteria and comparative strategy, not a compulsory agenda or theorem authority.
+- When changing any of these, check the others for stale 'active/current/leading' language. Keep dated priorities explicitly historical and retain paths to negative results and discontinued approaches.
+- Never infer proof authority from recency, prominence, or inclusion in the frontier. Do not promote provisional findings during a navigation-only change.
