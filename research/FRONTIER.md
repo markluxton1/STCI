@@ -1,11 +1,11 @@
 # Current research frontier
 
-## Current focus — intrinsic geometry interlude (2026-10-24)
+## Current focus — October 27, 2026
 
-**STCI-directed research is voluntarily paused.** The current objective is to explore the intrinsic projective geometry of the fixed rational quartic **for its own mathematical interest**, not to seek an STCI obstruction. Any eventual STCI insight is incidental, not a criterion for success. The unrestricted characteristic-zero STCI problem and all open frontier items below remain open; their former priority labels are historical STCI-work priorities, **not active assignments** during this interlude. See [the geometry agenda](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md). Preserve accepted result scopes and do not promote exploratory geometry without audit.
+The October 24 intrinsic-geometry interlude has been followed by renewed study of intersections containing the quartic, especially generic normal multiplicity, saturation and punctual defects, weighted initial ideals, and boundary repair/global lifting. The [October 26–27 notes](INDEX.md) and their audits remain provisional; they do not settle the unrestricted characteristic-zero STCI problem. Current tasks are to identify the exact hypotheses under which boundary repair is obstructed, connect local filtered data to global homogeneous equations, and distinguish genuine residual curves from exceptional contact. The older priority labels below are historical options, not a mandated order.
 
 
-This file records the mathematical frontier retained for future STCI work. The Priority 1/2 labels below are historical STCI priorities, not active assignments during the intrinsic-geometry interlude. Established claims belong in \`STATE.md\`; detailed historical handoffs and dated reports are provenance, not competing descriptions of current status.
+This file records the mathematical frontier retained for future STCI work. The Priority 1/2 labels below are historical STCI priorities, not a current ranking. Established claims belong in \`STATE.md\`; detailed historical handoffs and dated reports are provenance, not competing descriptions of current status.
 
 The [Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) is preserved as provisional evidence from the earlier STCI-directed phase. Its follow-up questions are **not active priorities** during the intrinsic-geometry interlude.
 
