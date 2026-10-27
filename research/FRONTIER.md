@@ -30,7 +30,7 @@ Viable alternative lanes include normalization/conductor descent and projection 
 - **Root geometry:** R-0005–R-0011 constrain graded/formal root configurations under differing hypotheses. Graded spectral Picard torsion, an all-orders Cartier lift, and actual global equations are three separate realizability problems. Singular/nonreduced roots, nonsaturation, special-point degenerations and incomplete second zero loci remain genuine gaps.
 - **Local-to-global residual contact:** R-0019 gives an auxiliary cycle identity under finite-flat curvilinear/saturated-flag assumptions, not an automatic residual curve downstairs. R-0030 comparison defects can be punctual; their occurrence for a sole-support CI is not settled by residual-support examples. Weighted/initial data without full cancellations and adapted valuations do not determine intersection length.
 - **Characteristic:** R-0020 conormal splitting differs in characteristic two; R-0021 is a flat integral pair whose generic reduced support splits into four curves; R-0012 prohibits prescribed embedded lifts over two specified unramified mixed-characteristic bases, not arbitrary ramified lifts or arbitrary characteristic-zero STCI. The positive-characteristic existence mechanism is a separate subject and should be preserved.
-- **Special incidence:** universal osculating/bitangent plane cycles, their finite-flat pushforward degree, and individual osculating coincidence counts are independently reviewed but unpromoted. Each hypothetical defining surface is singular *somewhere* on C; no theorem forces them to share a singular point.
+- **Special incidence:** universal osculating/bitangent plane cycles, their finite-flat pushforward degree, and individual osculating coincidence counts are independently reviewed but unpromoted.
 
 ### Failed shortcuts worth retaining as counterexamples or warnings
 
@@ -42,7 +42,6 @@ Viable alternative lanes include normalization/conductor descent and projection 
 6. **First-normal, Hilbert-function, or socle budgets alone exclude all STCI pairs:** unsupported; higher contact, saturation defects, and global realization remain.
 7. **Exceptional vertical cycles imply downstairs residual curves:** false as a general inference; actual residual cycle or proper intersection argument is needed.
 8. **Plane-section length determines local plane algebra:** false; distinct supported rank-four transverse algebras give identical lengths and different embedding dimensions.
-9. **Every hypothetical STCI pair has a common singular point on C:** not proved. Individual global singularity of each defining surface is a weaker, independently reviewed conclusion.
 10. **A small finite computational PASS proves a global theorem:** false; exact scripts certify stated finite calculations, with inherited classification inputs and untested families explicitly separated.
 
 ### Positive mathematical directions independent of obstruction
@@ -77,7 +76,7 @@ Useful levels of analysis include the generic filtered transverse complete-inter
 
 ## Ideal-filtration comparison defect — OPEN supported-local question
 
-[October 24 reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) records a provisional comparison-defect and filtered-Koszul framework. The evidence indicates that the defect vanishes wherever one carrier is smooth along C, but does **not** establish the existence of simultaneous singularities. Priority test: with radical(J)=I_C and generically zero defect, can a punctual defect occur? Separate residual-support examples from genuine supported intersections. Do not treat these provisional notes as a promoted obstruction or reopen the closed degree-(4,*) carrier cases.
+[October 24 reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) records a provisional comparison-defect and filtered-Koszul framework. The evidence indicates that the defect vanishes wherever one carrier is smooth along C, and leaves the supported punctual-defect question open. Priority test: with radical(J)=I_C and generically zero defect, can a punctual defect occur? Separate residual-support examples from genuine supported intersections. Do not treat these provisional notes as a promoted obstruction or reopen the closed degree-(4,*) carrier cases.
 
 ## Earlier priority: jet-condition and discrepancy framework
 
@@ -173,7 +172,6 @@ The October 20 source intake above is reconciled: its supported claims are [STCI
 
 **Earlier proposed investigation (not a theorem; alternative lanes remain open):** For an actual hypothetical pair `F_a,G_b` with `a,b>=5`, and full generic coprime initial CI of orders `r<s`, compare the defect divisor `D` and resultant vanishing `Delta` from [STCI-R-0016](results/nonsaturated_first_relation_resultant.md) with the pointwise torsion/residual-cycle determinant mechanism of [STCI-R-0019](results/quasiprimitive_residual_cycles.md). First identify a filtration-level specialization map from saturated quotient-generation defects `c_j` to a *geometrically defined* residual cycle on an auxiliary containing surface or successive transform. Prove (rather than assume) finite flatness, the existence of a curvilinear saturated flag, and properness of the residual intersection; where these fail, formulate correction terms. Seek a global inequality by intersecting its effective cycle with sections induced by the **actual** two homogeneous forms, retaining special-point saturation defects. No comparison between `Delta` and `D_(m-1)` is currently known in the general entirely-thick class, and exceptional vertical components need not descend to residual curves.
 
-The claim that the two defining surfaces must share a singular point on C0 remains **OPEN/UNPROVED**: no such general audited proof is recorded. The arithmetic [STCI-R-0012](results/prescribed_z4_arithmetic_nonlifting.md) neither closes this question nor the unrestricted characteristic-zero STCI problem.
 
 ## October 21 new evidence: focused next actions (not promoted)
 
