@@ -17,6 +17,10 @@ Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and wh
 5. [Exclusion arguments](05-exclusions.md)
 6. [Surviving questions](06-frontier.md)
 
+## Thematic research interfaces
+
+- [Carrier descent and socle interfaces](carrier_conductor_socle_interfaces.md) — connects the carrier/conductor framework with scoped local-index and pointwise socle results; no new theorem authority.
+
 ## Provisional research interfaces
 
 - [Normal-filtration defects and boundary lifting](normal_filtration_boundary_obstructions.md) — first Phase 2 consolidation; distinguishes canonical local results from provisional one-step/global obstruction arguments.
