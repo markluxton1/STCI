@@ -143,60 +143,11 @@ For an irreducible residual \(R\) of class \((1,2)\), the transformed surface ha
 
 This extraction captures the earlier note's mathematical argument and its precise **irreducible-residual** hypothesis; the later full endpoint proof remains necessary for reducible and doubled residuals. The [original conditional note](../notes/2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md) can now be treated as a **candidate for archival retirement**, subject to a repository-wide inbound-reference and unique-evidence check. No source deletion is performed here.
 
-## 6. Source-by-source retention review: genus-one and bisection owners
+## 6. Source evidence and editorial disposition
 
-This review compares mathematical scope, not merely theorem labels. **No deletions are authorized by this table alone**: inbound references, computational provenance and evidence manifests must also be checked.
+The file-by-file retention decisions, supersession boundaries, and validation-reference deletion gates are maintained in the [working file inventory](../FILE_LEVEL_INVENTORY_WORKING.md). This appendix preserves mathematical proofs and the links to their underlying audits; editorial tables belong in the inventory.
 
-| Source | Unique contribution compared with the later accepted audit | Disposition |
-|---|---|---|
-| [Repeated-partitions owner proof](../notes/2026-10-09-session-ribbon-repeated-partitions-complete.md) | Original complete parameter reduction and the first unbounded-power conductor argument, with the invisible middle coefficient retained | **Retain as primary owner evidence**; the [independent audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md) rederives and certifies it, rather than replacing its provenance |
-| [Standalone \([4]\) proof](../notes/2026-10-09-session-ribbon-4-root-independent-proof.md) | Short self-contained endpoint argument; same all-direction coverage as the later complete owner and audit | **Potential narrative duplicate**; check citations and whether its exact local singular-line argument is already reproduced before retirement |
-| [Standalone \([2,2]\) power obstruction](../notes/2026-10-09-session-ribbon-22-bounded-power-obstruction.md) | Independent fixed-pencil calculation, deliberately not claiming coverage of all \([2,2]\) pencils | **Potential duplicate of the later full audit's trace/norm certificate**; compare its chosen slice and sign conventions before retirement |
-| [\([2,1,1]\) projection audit](../notes/2026-10-09-session-ribbon-211-projection-independent-audit.md) | Covers the *distinct* partition \([2,1,1]\), absent from the repeated-root audit's \([4],[3,1],[2,2]\) list | **Retain**; indispensable separate case, not a duplicate |
-| [Uniform projection adversarial note](../notes/2026-10-09-session-genus-one-uniform-projection-adversarial.md) | Exact full-fiber condition and warning against excluding isolated smooth-source ramification by a generic-rank argument | **Retain**; preserves a substantive failure shield used by the partition proofs |
-| [Even-fiber bisection proof](../notes/2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md) | Integral exceptional correction, line-bundle descent, and local regularity of a smooth Cartier curve | **Retain as a reusable lemma**; the later global conormal contradiction supersedes the particular bisection exclusion but not the descent argument |
-| [Three-blowup-fiber proof](../notes/2026-10-10-session-genus-two-bisection-three-blowup-fiber-exclusion.md) | Detailed irreducible/reduced/nonreduced fiber graph analysis with infinitely near blowups | **Retain pending technical extraction**; not implied as a graph classification by the global conormal contradiction |
-
-### A necessary correction to the genus-one coverage summary
-
-The repeated-root audit covers \([4]\), \([3,1]\), and \([2,2]\). The partition \([2,1,1]\) is excluded in a **different** independent projection audit, and \([1,1,1,1]\) in the full-fiber/squarefree argument. Thus the genus-one proof has five partitions but not five cases proved by the same ribbon-net computation. The distinction matters for both the dependency graph and eventual file retirement.
-
-### Deletion gate
-
-A file becomes removable only after (1) its mathematical claims and unique counterexamples or failure shields are captured in a permanent home, (2) all references to it are redirected or deliberately preserved in an evidence record, (3) independent audits still have accessible primary evidence, and (4) no canonical result lists the file as indispensable verification. The current candidates are **only** the narrow standalone \([4]\) and \([2,2]\) notes and the earlier endpoint irreducible-residual note. Their deletion is **not yet approved**.
-
-### Inbound-reference check: deletion is presently blocked
-
-A GitHub code-search check on the repository's indexed default-branch content found **11 references each** to the three narrow retirement candidates:
-
-- \`2026-10-09-session-ribbon-4-root-independent-proof.md\`
-- \`2026-10-09-session-ribbon-22-bounded-power-obstruction.md\`
-- \`2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md\`
-
-In each case the matches include \`research/archive/ULTRA_SOURCE_NOTES_INDEX.md\`, one later owner/audit note, and multiple **executable historical validation scripts and their recorded outputs** under \`research/validation/\`. The references are therefore not merely old navigation links. Removing the notes without changing the validators would destroy an existing source-path invariant or its reproducibility. GitHub code search is indexed against the default branch and does not by itself prove exhaustive coverage of this working branch; a complete branch-local scan remains required before deletion.
-
-**Disposition update:** keep all three files in place for now. The extracted mathematics permits future narrative consolidation, but removing physical files is a separate migration requiring validator and evidence-manifest decisions. Do not quietly rewrite historical validation outputs to manufacture a passing result.
-
-## 7. Broader proof-source review: ten further notes
-
-This pass expands beyond the genus-one repeated-partition subproblem to the genus-zero and genus-two structural reductions. A note can be historically superseded **without** its argument becoming mathematically dispensable.
-
-| Source | Distinct mathematical content or limitation | Retention decision |
-|---|---|---|
-| [Genus-zero owner proof](../notes/2026-10-09-session-normalization-sectional-genus-zero.md) | Six-section minimal-degree classification, singular cone exclusion, exceptional correction at singular normalization points | **Retain owner proof**, though the chapter now gives the global classification argument |
-| [Rational-cone proposal](../notes/2026-10-09-session-quartic-rational-cone-normalization.md) | Projected-cone description and local jet contradiction; explicitly marked as pending adversarial audit | **Retain pending claim comparison** with accepted genus-zero proof; do not silently promote proposed steps |
-| [Nonrational-normalization owner proof](../notes/2026-10-09-session-nonrational-quartic-normalizations.md) | Ruled-surface nef pushdown and multiplicity bound; rationality of the normalization | **Retain primary evidence** alongside the independent audit |
-| [Genus-two square-one counteraudit](../notes/2026-10-09-session-genus-two-degree-one-counteraudit.md) | Hodge equality \(L\equiv-2K\), upgrade to linear equivalence, anticanonical two-section contradiction | **Retain reusable numerical lemma**; narrower than the full genus-two theorem |
-| [Proposed line-blowup lift](../notes/2026-10-10-session-genus-two-blowup-lift-normality-proposed-audit.md) | Explicit trace-duality and crepancy argument, initially marked pending independent audit | **Retain as owner evidence**, cross-check against the later [independent lift audit](../notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md) |
-| [Conductor-line positions](../notes/2026-10-10-session-genus-two-conductor-line-position.md) | Scheme-theoretic intersection lengths, all length-two line positions, trisecant classification, branch-count counterexample | **Retain geometry and failure shield** |
-| [Marking and section pause audit](../notes/2026-10-10-session-genus-two-marking-and-section-pause-audit.md) | Ruled eight-blowup marking, vertical \(D_8\) lattice, nine-point plane marking; separately labels unfinished section analysis | **Retain technical marking**, do not present the paused argument as a completed exclusion |
-| [No-zero-horizontal audit](../notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md) | Conditional one-/two-horizontal-line exclusion and its exact boundary | **Retain as independent bounded audit** |
-| [Horizontal-line budget owner](../notes/2026-10-10-session-genus-two-lambda1-horizontal-line-budget.md) | Free-chain anti-nef cycles, exact integral pullback bookkeeping, failed shortcuts | **Retain unique calculations and failure modes** |
-| [Trisecant carrier owner](../notes/2026-10-10-session-genus-two-trisecant-quartic-carriers.md) | Complete trisecant types and cubic ideal; later discriminant argument originally conditional | **Retain source geometry**; rely on later accepted endpoint/nonendpoint audits for final exclusion |
-
-**Scope conclusion.** These ten files are not a deletion batch. Several are narrow or preliminary, but their unique computations or audit boundaries are worth preserving. In particular, the unproved portions of an early owner note cannot be reclassified as established merely because a later theorem proves a similar conclusion by different means. Consolidation should extract the specific mathematical mechanism and keep its status explicit.
-
-## 8. Evidence and retention
+## 7. Evidence and retention
 
 The exposition above reproduces the short universal inequalities and identifies the longer exact calculations. It does not re-execute Macaulay2, independently establish the classical classification theorems, or replace the source audits. The [independent assembly audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md) checks that the normal and nonnormal lanes cover every integral quartic and that the final lower-degree argument is noncircular.
 
