@@ -1,4 +1,28 @@
-# Current research frontier
+# Research frontier — current navigation (October 27, 2026)
+
+This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
+
+## Current exploratory focus (provisional)
+
+Study general proper intersections of two homogeneous surfaces containing the fixed quartic, allowing residual components rather than assuming STCI. Compare generic multiplicity, the full normal initial ideal and its specialization, saturation/cancellation defects, and residual intersections. Investigate whether these yield **global** restrictions on actual homogeneous pairs; local graded behavior or exceptional vertical cycles alone do not imply a residual curve downstairs. See the October 26–27 notes through [INDEX.md](INDEX.md).
+
+Related comparison: characteristic-dependent conormal geometry and thickenings, particularly the distinction between the characteristic-two examples and characteristic-zero obstructions. Such comparisons do not by themselves prove characteristic-zero nonexistence.
+
+Viable alternative lanes include normalization/conductor descent and projection phase computations, moving-root/formal lifting, jet dependence, and deformation/moduli approaches. These remain options, not abandoned results or required steps. In characteristic zero, R-0001 rules out defining degrees below five for an STCI presentation; degree-(4,4) studies can still illuminate geometry without reopening that closed case.
+
+## Unresolved interfaces to test
+
+- Construct an intrinsic comparison between initial-ideal/saturation defects and geometric residual cycles, stating finite-flatness, curvilinearity and properness hypotheses rather than assuming them.
+- Separate what can be established for a general intersection from what additionally follows under set-theoretic complete-intersection support.
+- Identify which positive-characteristic constructions depend on splitting or Frobenius and which restrictions persist in characteristic zero.
+- Reassess older carrier, conductor, root and jet directions by their remaining open implications, not by chronology.
+
+## Historical frontier record
+
+The sections below preserve earlier research proposals and their original context. Expressions such as 'leading next investigation', 'current recommendation', and 'active' in those dated sections describe **the priorities at that time**, not today's assignment. Canonical result status must be checked separately.
+
+---
+
 
 ## Current focus — October 27, 2026
 
@@ -133,4 +157,4 @@ The claim that the two defining surfaces must share a singular point on C0 remai
 
 ## October 26 structural frontier update
 
-The [structural promotion navigation](STRUCTURAL_PROMOTION_NAV_2026-10-26.md) records R-0032 through R-0036 and remaining moving-relation, positive-defect, high-index and non-Cartier cases. These are historical open interfaces, not active assignments during the intrinsic-geometry interlude.
+The [structural promotion navigation](STRUCTURAL_PROMOTION_NAV_2026-10-26.md) records R-0032 through R-0036 and remaining moving-relation, positive-defect, high-index and non-Cartier cases. These are historical open interfaces; whether to resume them is a research decision, not a theorem-status change.
