@@ -9,4 +9,4 @@ This directory is the durable topic-level layer beneath [../STATE.md](../STATE.m
 - [Entirely-thick numerical restrictions](entirely_thick.md)
 - [Quartic jet geometry](jet_geometry.md)
 
-Canonical epistemic status is still controlled by `../STATE.md`. If a synthesis and a dated note appear to conflict, check `STATE.md` first and then the cited audit/proof provenance.
+Canonical status and scope are controlled by the promoted [result records](INDEX.md), under the [authority policy](../AUTHORITY.md). `STATE.md` and these topic syntheses are navigation summaries, not independent theorem authority. If summaries conflict, check the exact canonical record and its cited evidence; report unresolved discrepancies.
