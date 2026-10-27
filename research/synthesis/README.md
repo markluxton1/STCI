@@ -23,6 +23,8 @@ Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and wh
 
 ## Provisional research interfaces
 
+- [Residual intersections, deformations, and global jet bounds](residual_intersections_and_jets.md) — relates scoped residual-cycle, explicit quartic deformation, and fixed-sextic jet results; distinguishes examples from family-level obstructions.
+
 - [Normal-filtration defects and boundary lifting](normal_filtration_boundary_obstructions.md) — first Phase 2 consolidation; distinguishes canonical local results from provisional one-step/global obstruction arguments.
 - [Formal normal geometry and residual intersections](formal-normal-intersection.md) — exploratory synthesis of the broader intersection setting, normal filtrations, exceptional geometry, valuations, and tropical viewpoints; **not** a promoted result.
 
