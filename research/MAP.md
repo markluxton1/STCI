@@ -8,6 +8,8 @@ For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is
 
 **Closed low-degree boundary:** [R-0001](results/quartic_carrier_exclusion.md) excludes every integral quartic carrier with a mate; together with its accepted lower-degree/factor reduction, both defining degrees in any hypothetical characteristic-zero STCI are at least five. [R-0022](results/quartic_44_filtered_exclusion.md) gives a separate, narrower proof for a quartic pair. Neither resolves higher-degree pairs.
 
+For a compact list of specific unresolved implications, see the [open-question locator](questions/README.md). It is navigation, not an additional authority layer.
+
 ## Approaches and their missing bridges
 
 | Approach | What the records provide | Main unresolved bridge |
