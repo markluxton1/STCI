@@ -169,6 +169,42 @@ The preceding arguments do not show that \(C_0\) is not a set-theoretic complete
 
 The natural research order is: understand the possible inverse support and divisor class on the normalization; compute the **full** conductor descent obstruction; then test whether a mate can exist. This avoids treating a successful normalization model, a numerical relation, or a reduced phase calculation as an actual STCI construction.
 
+## 8. Proof preservation and consolidation decisions
+
+This section is a **claim-level editorial disposition**, not permission to delete the supporting source files. The permanent exposition now contains the theorem statement, shared reductions, and decisive mechanism of each lane. What follows identifies the material that remains mathematically necessary for reconstructing those proofs.
+
+| Claim / proof component | What this chapter now preserves | What still requires an exact technical proof | Disposition |
+|---|---|---|---|
+| Shared nonnormal reductions | Generic regularity, rationality, full inverse support | Ruled intersection with infinitely near multiplicities; purity and normalization-fiber arguments | Retain source as technical proof |
+| Normal quartic exclusion | Scope and global exceptional-cycle strategy | Reduced and nonreduced graph enumerations, necessary-superset argument, final exceptional passage | Retain both audit/proof sources |
+| Genus zero | Vanishing, six sections, minimal-degree classification, singular cone class-group argument | All-scroll and Veronese universal exclusions; cone exceptional correction | Retain technical proofs |
+| Genus one | ADE degree-four del Pezzo, forced projection center, Cartier ribbon, five partitions | Entire-conductor algebra, complete ribbon net, universal ideals for [4], [3,1], [2,2], direction boundaries | Retain complete proof and exact validation |
+| Genus two shared | Adjoint pencil, two numerical strata, actual ADE strict transform | Null-curve classification, full conductor algebra, normality and correction lemmas | Retain upstream proofs |
+| Genus-two bisection | Full ribbon and global conormal-map contradiction | Cartier-double and nilideal derivation; independent normal-bundle calculation | Retain exact proof |
+| Genus-two nonendpoint | All effective decompositions and all-length exceptional-chain contradiction | Complete divisor case split, chain equations and contact inequalities | Retain exact proof |
+| Genus-two endpoint | Four coefficient regimes and complete ADE/doubled-horizontal exhaustion | Quartic ideal identity, local A/D correction equations, doubled-horizontal arbitrary-root argument | Retain exact proof |
+| Final degree bound | Coprime factor reduction, quadric class, independent cubic exclusion | Primary cubic source and no-circularity evidence | Retain proof audit |
+
+### Where the detailed mathematics should live
+
+A **permanent proof section** is appropriate for arguments whose content is concise and structurally central: the normalization divisor-degree calculation; the factor reduction; the genus-two numerical dichotomy; and the global bisection conormal contradiction. These can be expanded and checked directly in this chapter without reproducing whole historical sessions.
+
+A **technical appendix** is appropriate for long but reusable computations: the genus-one universal ideal and conductor certificates, normal-quartic exceptional graphs, nonendpoint all-length chain solutions, and endpoint ADE/doubled-horizontal calculations. Such an appendix should preserve exact formulas, hypotheses, and independently checked computational evidence, not merely a PASS label.
+
+An **audit/evidence record** remains appropriate for independent replays, failed scripts, corrections, primary-source verification, and the assembly audit's attribution. These are evidence about the proof rather than the mathematical exposition itself. They should remain reachable from the permanent proof or appendix; a passing bounded computation is not a substitute for the universal argument.
+
+### What is and is not redundant
+
+The [quartic-carrier dependency graph](../MATHEMATICAL_CONSOLIDATION_QUARTIC_CARRIER_DEPENDENCIES.md) and the six-lane table in Section 3 overlap in *orientation*, but the graph still provides a compact dependency map. They are candidates for eventual navigation consolidation, **not** proof deletion.
+
+The older [irreducible-residual endpoint note](../notes/2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md) is mathematically narrower than the full endpoint reduction: it cannot be used as an exhaustive proof. Its unique calculations should be checked against the full reduction before it is considered redundant. Likewise, the [earlier bisection quadratic-descent note](../notes/2026-10-10-session-genus-two-bisection-quadratic-descent.md) provides a weaker conductor route; its conditional content is not automatically disposable because the global conormal contradiction is stronger.
+
+**No deletion decision is justified solely by a newer theorem's stronger conclusion.** The criterion is whether a historical source contains a unique valid argument, counterexample, hypothesis check, computation, or useful failure explanation absent from the retained permanent material.
+
+### Immediate proof-integration order
+
+First, write the short intrinsic arguments directly into the chapter and check their hypotheses. Second, prepare one quartic-carrier technical appendix organized by the six lanes, with links to original exact proofs. Third, compare each historical source against the appendix claim by claim and record any genuinely unique content. Only then consider retiring duplicated narrative files; preserve the canonical R-0001 theorem and independent audits throughout.
+
 ## Editorial and verification status
 
 **Critical review, pass 1:** checked all 16 relative Markdown links against the complete working-branch Git tree: all resolve. Corrected a material overgeneralization in Section 1: the coefficient of the singleton lift in the pulled-back mate divisor is \(n=b\deg X/\deg C\), and equals the mate degree only for quartic carriers of the degree-four curve. Also made explicit why a proper STCI pair has no common surface component. The rest of the chapter has been compared at the statement/scope level with R-0001, R-0002, R-0003, R-0004, R-0017, R-0034 and R-0035; this is **not** an independent audit of the original proofs.
