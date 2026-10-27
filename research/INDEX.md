@@ -92,7 +92,11 @@ For new work, preserve source notes and audits, keep navigation links short, and
 
 ## October 26 promotion status on adjudication branch
 
-The canonical [results index](results/INDEX.md) now links R-0023 through R-0029, covering scoped explicit residual, fixed-sextic, flag, dual-scheme and ruled-model results. The [consolidated promotion matrix](CONSOLIDATED_PROMOTION_MATRIX_2026-10-26.md), [provisional inventory](PROVISIONAL_INVENTORY.md), and [historical source manifest](HISTORICAL_SOURCE_MANIFEST_2026-10-26.md) distinguish these promotions from the still-open filtration claims CR-12–13 and the incomplete current-head path inventory. These are review-branch changes, not a merge into main.
+The canonical [results index](results/INDEX.md) now links R-0023 through R-0029, covering scoped explicit residual, fixed-sextic, flag, dual-scheme and ruled-model results. The [consolidated promotion matrix](CONSOLIDATED_PROMOTION_MATRIX_2026-10-26.md), [provisional inventory](PROVISIONAL_INVENTORY.md), and [historical source manifest](HISTORICAL_SOURCE_MANIFEST_2026-10-26.md) distinguish these promotions from the still-open filtration claims CR-12–13 and the incomplete current-head path inventory. These scoped promotions are now present on `main`; consult individual result records for exact authority.
+
+## October 27 integration status
+
+PRs [#78](https://github.com/markluxton1/STCI/pull/78) and [#79](https://github.com/markluxton1/STCI/pull/79) merged the October 26–27 CI-cycle, degeneration, normal-torsion, weighted-initial, boundary-repair and one-step-obstruction notes and audits into `main`. These merges **did not promote their provisional claims**. The canonical result index currently lists STCI-R-0001 through STCI-R-0036; use their exact hypotheses and evidence rather than inferring authority from a merge.
 
 ## Filtration result split
 
