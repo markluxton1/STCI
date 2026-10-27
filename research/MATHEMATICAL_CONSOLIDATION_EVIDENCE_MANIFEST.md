@@ -47,3 +47,27 @@ Represent shared files once and link them from every dependent claim. Record whe
 5. Only then replace provisional thematic syntheses with permanent subject chapters and retire duplicates.
 
 **Completion status:** 36/36 canonical records have metadata/scope review in the matrix; this manifest has **8 directly fetched evidence objects**, not an exhaustive claim-to-evidence closure audit.
+
+## Complete first-level path-existence check (2026-10-27)
+
+**Branch:** `restructure/mathematical-consolidation`, HEAD `c9082e8c7a6a5fd7ed765d0977a298c252a3f4d5`; recursive Git tree `7d0b34b1d409fe9c9b876ebfc6b6e9b07ed4e225` (**4,339 entries; not truncated**).
+
+I re-read all 36 canonical YAML front matters and transcribed the `evidence`, `independent_audits`, and `accepted_in` paths into a deduplicated existence check against the recursive Git tree. **Result: 115 distinct cited paths checked, zero missing.** The check includes notes, adjudications/reconciliations, computation scripts and saved JSON/text outputs, and the ideal-filtrations validation README. Duplicated paths were counted once.
+
+This is **first-level reference closure**, not full transitive proof closure. In particular, an evidence note may itself refer to a source script, external branch/blob, inherited theorem, or historical proof not named in the canonical YAML. Those second-level references have not all been checked. The check was based on manually transcribed canonical path lists; an automated YAML parser should independently repeat it before destructive cleanup.
+
+### Practical consequences
+
+- **No immediate broken canonical evidence link** was detected in the 36-record front matter. This removes one straightforward reason to retain old branches, but **does not** establish that all historical proof dependencies have been preserved.
+- **Do not delete proof notes, scripts or saved outputs on this basis alone.** Path existence does not verify content, mathematical correctness, reproducibility, or whether a different file contains unique supporting arguments.
+- For R-0003, an empty `independent_audits` list is compatible with the embedded reviewer record in its existing proof note; preserve this distinction.
+- For R-0023 and R-0036, the same file may occupy multiple evidence roles; count unique objects once while retaining the distinct relationships.
+
+### Remaining gates, in order
+
+1. **Transitive proof closure:** inspect links and named inherited lemmas inside proof/audit/adjudication files, beginning with R-0001, R-0022 and R-0035. Verify stable retained locations for historical-branch blobs.
+2. **Computational replay closure:** record which scripts actually ran, with commands, outputs, environment and source SHA; keep saved-certificate-only status where appropriate.
+3. **Unique-content review:** compare legacy and exploratory mathematical arguments with the proposed permanent chapters; preserve failed implications and their counterexamples without a chronological archive.
+4. **Deletion eligibility:** mark a file redundant only when its unique mathematical content and evidence role have both been captured elsewhere with traceable references.
+
+**Audit state:** canonical metadata 36/36; first-level cited path existence 115/115; transitive proof/evidence closure **incomplete**.
