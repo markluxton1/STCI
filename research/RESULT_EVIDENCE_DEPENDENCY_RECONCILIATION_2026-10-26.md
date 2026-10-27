@@ -26,3 +26,7 @@ The fixed-sextic result cites `CR09_CERTIFICATE_INSPECTION_2026-10-26.md` as evi
 - Stabilize old branch URLs in result metadata, preserving provenance.
 - Verify supersession relations and external evidence semantics as the schema evolves.
 - Independent mathematical and computational review is separate from these checks.
+
+## Closure disposition
+
+The October 26 structural/provenance audit is **closed with disclosed verification debt**, not certified as an independently reproduced proof of all 36 results. No theorem status is changed by this documentary review. Follow-up work is limited to running the committed validator, stabilizing historical branch URLs, locating a separately preserved R-0003 audit if available, and independently replaying R-0025 when computational certification is required. PR #77 remains subject to its normal review and merge process.
