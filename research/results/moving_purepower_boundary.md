@@ -15,12 +15,12 @@ statement: "Finite principal-relation lifting can persist for many orders, but a
 dependencies:
   - STCI-R-0008
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-power-obstruction-tower.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-power-second-relation.md"
+  - "research/notes/2026-10-14-generalization-moving-power-obstruction-tower.md"
+  - "research/notes/2026-10-14-generalization-moving-power-second-relation.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-purepower-tower-independent-audit.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md"
+  - "research/notes/2026-10-14-generalization-moving-purepower-tower-independent-audit.md"
+  - "research/notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md"
+accepted_in: "research/notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
