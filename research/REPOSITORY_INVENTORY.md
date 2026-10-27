@@ -1,21 +1,28 @@
-# Repository inventory — current main
+# Repository inventory — branch snapshots
 
-Updated 2026-10-17 from the complete recursive Git tree. Earlier figures of 149 blobs are superseded. No files were deleted or computations rerun.
+This is a compact **file-count census**, not a mathematical audit or permission to delete reproducibility evidence. For mathematical retention decisions use [the working file inventory](FILE_LEVEL_INVENTORY_WORKING.md) and [the evidence manifest](MATHEMATICAL_CONSOLIDATION_EVIDENCE_MANIFEST.md).
 
-| Area | Tracked blobs |
-|---|---:|
-| Entire repository | 3,293 |
-| research/ | 3,277 |
-| research/validation/ | 2,168 |
-| research/computations/ | 461 |
-| research/notes/ | 382 |
+## Current consolidation branch (2026-10-27)
+
+Source: complete, untruncated GitHub recursive tree at commit `4480297cd1805fdc5146d04627cc0d3164cef1a4` on `restructure/mathematical-consolidation`.
+
+| Area | Tracked files |
+| --- | ---: |
+| Entire repository | 3,862 |
+| research/validation/ | 2,253 |
+| research/computations/ | 629 |
+| research/notes/ | 545 |
+| research/archive/ | 146 |
 | research/scratch/ | 112 |
-| research/archive/ | 95 |
-| research/results/ | 17 |
-| research/synthesis/ | 11 |
+| research/results/ | 44 |
+| research/synthesis/ | 15 |
+| research/open/ | 8 |
+| research/chapters/ | 2 |
 
-There are 106 immediate validation directories. The combined Git blob sizes total 195,325,933 bytes. Content-hash comparison finds 478 identical-blob groups and 869 additional copies beyond one per group. These are **not** estimates of safely removable files: many copies are intentional reproducibility snapshots, and some duplicates are empty logs.
+Counts are path counts, not distinct Git blobs. They do not measure duplicate mathematical content. No file deletion is inferred from this table.
 
-The earlier inventory's 149-file figures described an intermediate state of main. The [Ultra validation inventory](archive/ULTRA_VALIDATION_RECURSIVE_INVENTORY.md) remains useful as historical branch provenance. Do not confuse a previously reported oversized uncompressed witness push failure with a file currently tracked on main.
+## Earlier baseline (2026-10-17)
 
-See [provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md). The local link checker `scripts/check_markdown_links.py` was not run in this GitHub API pass; the prior seven-file spot-check is not a comprehensive validation.
+An earlier complete recursive tree had **3,293 tracked blobs**, including 2,168 validation files, 461 computation files, 382 notes, 112 scratch files, 95 archive files, 17 result files and 11 synthesis files. Its reported 478 identical-blob groups and 869 additional copies refer **only to that earlier snapshot** and should not be presented as current-branch duplicate counts.
+
+The October 27 [file-manifest baseline](FILE_MANIFEST_BASELINE.md) gives a separate local-tree census of 3,840 tracked files and 886 extra identical-blob paths. Because its exact local commit is not established, these are distinct snapshots and should not be combined into a single current count.
