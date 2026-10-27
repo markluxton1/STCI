@@ -28,3 +28,22 @@ Keep **two subject chapters**: (1) *Normal relations and filtered thickenings*, 
 ## Next content review
 
 Review the remaining carrier results R-0002, R-0004, R-0017 and the legacy `results/normal_carrier.md` and `results/entirely_thick.md`. Identify the conceptual difference between fixed-carrier descent, phase reduction, and entire-thick cases before deciding which older syntheses to fold into the chapters.
+
+
+## Degree-obstruction audit (theme 5, continuation)
+
+The strongest global degree exclusion is **R-0001**: every integral quartic carrier of the *fixed* C0 in characteristic zero has no mate of **any** positive degree, whether normal or nonnormal. Its accepted proof assembles normal quartics and nonnormal plane-sectional genus 0,1,2 cases; the source acceptance and independent dependency audit should remain linked. Factor reduction, together with plane/quadric/cubic exclusions, implies both degrees of any hypothetical STCI presentation are at least five, including reducible defining forms. For a quintic carrier the mate degree is divisible by four (first possible degree eight). Do not misstate R-0001 as excluding arbitrary quartic forms without applying factor reduction.
+
+**R-0022** is a mathematically distinct, narrower (4,4) proof via saturated Gorenstein filtration and contact-space classification; its alternate K3 resolution argument is retained as a valid independent route, not made the main approach. It adds insight into why length four cannot be achieved by the relevant quartic pencils but does **not** strengthen the all-degree exclusion R-0001.
+
+The legacy **normal_carriers.md** records useful earlier geometric classification and failure modes (rational versus nonrational singularities, ADE budget, simple elliptic exclusion, Ishii–Nakayama types, finite degree bound). Its historical open cases are **not current open quartic-mate cases** after R-0001. Preserve the classification ideas, not obsolete frontier labels.
+
+The legacy **quartic_e2.md** records an important failed shortcut: primitive e=2 quadruples **do exist**, contrary to an earlier blanket exclusion. The actual result is that their canonical primitive triples force all containing quartics to factor, excluding only specified (4,7) and (4,8) branches by that argument. The all-quartic theorem now subsumes these as mate exclusions, but does not erase their structural significance.
+
+The legacy **order_one.md** gives conditional quasiprimitive/BF numerical restrictions (0<=e<=6 generally under its hypotheses; 0<=e<=2 for quartic order-one carriers). The **entirely-thick** branch lies outside it. These are useful inputs to the normal-filtration chapter, not unrestricted global exclusions.
+
+The legacy **normalization_conductor.md** provides the fixed-carrier inverse-support obstruction: an isolated point in the full reduced normalization preimage excludes a mate. When all nonnormality is supported on C, an effective Cartier divisor upstairs with appropriate positive polarization is sufficient after a high conductor power. This **special support-contained sufficiency** must not be conflated with the full-conductor descent lattice of R-0003 in general.
+
+### Remaining audit targets
+
+For global intersection/incidence theme 6, review universal plane-family W_osc/W_bit, degree formulas, and fixed-boundary deformation records; for theme 7, map each exact computational witness to its theorem or provisional claim. This pass reviewed the **canonical statements and selected source descriptions**, not independently rerun all historical quartic exclusion proofs.
