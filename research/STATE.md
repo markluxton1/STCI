@@ -5,7 +5,7 @@
 The October 24 intrinsic-geometry interlude is a preserved historical phase, not an accurate description of all subsequent activity. Research has since resumed on complete-intersection cycles, normal filtrations, weighted initial ideals, and boundary obstructions. The October 26–27 notes linked in [research navigation](INDEX.md) are **provisional evidence**, not automatically promoted theorems. The unrestricted characteristic-zero STCI question remains open. See [current frontier](FRONTIER.md) and [authority rules](AUTHORITY.md).
 
 
-This is the durable entry point for claims currently regarded as established in the STCI project. It replaces dated handoffs and reports as the place to determine current status. Git history and the archived dated state preserve provenance.
+This is the durable summary of established mathematical knowledge and explicitly unresolved questions. It does not prescribe which research direction to pursue. Promoted result records remain the authority for their exact statements. It replaces dated handoffs and reports as the place to determine current status. Git history and the archived dated state preserve provenance.
 
 ## Epistemic labels
 
@@ -29,7 +29,7 @@ The [Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geome
 
 The [October 24 ruled-surface package](notes/2026-10-24-p4-ruled-surfaces-synthesis.md) is **merged provisional research evidence** (PR #73), not canonical theorem authority: same-center cubic-scroll normalization, four-curve ruled model, explicit ruled-surface transformations and characteristic-two scheme structure. Its independently reviewed calculations are not additional numbered STCI results and do not change the unrestricted question. The [discussion reconciliation](notes/2026-10-24-discussion-reconciliation.md) is now on `main` as provisional agenda and correction tracking, not theorem authority.
 
-The [special lines/planes investigation](notes/2026-10-24-special-lines-planes-research-note.md) and [automorphism/bitangent synthesis](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) are geometry-first exploratory evidence with independent audits and figures. They are not promoted canonical results or STCI obstructions; the intrinsic-geometry interlude remains the active focus.
+The [special lines/planes investigation](notes/2026-10-24-special-lines-planes-research-note.md) and [automorphism/bitangent synthesis](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) are geometry-first exploratory evidence with independent audits and figures. They are not promoted canonical results or STCI obstructions; the intrinsic-geometry interlude is historical; current investigative priorities are maintained in [FRONTIER.md](FRONTIER.md).
 
 ## October 24 ideal-filtration investigation — REVIEWED PROPOSAL, NOT PROMOTED
 
