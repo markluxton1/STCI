@@ -8,7 +8,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Start here
 
-- [Containing-intersections research vision (October 27)](notes/2026-10-27-containing-intersections-research-vision.md) — three-lane integration of global residual geometry, formal visibility and all-prime constructions; reviewed provisional deductions, explicit sextic starting locus, and construction-oriented next experiments
+- [Containing-intersections research vision (October 27)](notes/2026-10-27-containing-intersections-research-vision.md) and [arbitrary-degree absorption continuation](notes/2026-10-27-arbitrary-degree-absorption-synthesis.md) — general positive constructions, scoped residual capacity, full-primary attachment and equation-lifting interfaces; reviewed provisional work, with degree-specific examples serving as tests
 - [Repository overview](../README.md)
 - [Mathematical map](MAP.md) — thematic result locator and open interfaces
 - [Current research state](STATE.md)

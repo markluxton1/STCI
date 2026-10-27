@@ -4,6 +4,8 @@ Checked through: 2026-09-30
 
 Focused refresh, 2026-10-27: [containing intersections, G3/formal extension, liaison and positive-characteristic constructions](notes/2026-10-27-containing-intersections-literature-refresh.md). This supplements the dated ledger, records current source access and exact scope, and does not claim that every item below was reread or that the search was exhaustive.
 
+Additional focused refresh, 2026-10-27: [complete-intersection discrepancy and families](notes/2026-10-27-absorption-discrepancy-literature.md). The current numerical-invariants theorem includes nonreduced CM generically-CI curves and their **full** attachment schemes. The compatible-component-family theorem requires flatness and full induced component structures; it does not make primary extraction commute across an arbitrary absorption jump. The note records exact primary versions, hypotheses and the relation to the new provisional attachment-module identity.
+
 This ledger records the scope actually used in the research report. A source is
 not listed as settling more than its hypotheses permit. “No later resolution
 found” is a documented search result, not a proof that no unindexed work exists.

@@ -8,6 +8,8 @@ For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is
 
 **Closed low-degree boundary:** [R-0001](results/quartic_carrier_exclusion.md) excludes every integral quartic carrier with a mate; together with its accepted lower-degree/factor reduction, both defining degrees in any hypothetical characteristic-zero STCI are at least five. [R-0022](results/quartic_44_filtered_exclusion.md) gives a separate, narrower proof for a quartic pair. Neither resolves higher-degree pairs.
 
+**Provisional constructive interface:** the [arbitrary-degree absorption synthesis](notes/2026-10-27-arbitrary-degree-absorption-synthesis.md) connects actual partial-transfer constructions, nef capacity bounds on carriers smooth along \(C\), full-primary attachment/duality, and marked-flag equation lifting. It is explanatory navigation to reviewed proposals, not a new canonical result or a mandate to enumerate degree pairs.
+
 For a compact list of specific unresolved implications, see the [open-question locator](questions/README.md). It is navigation, not an additional authority layer.
 
 ## Approaches and their missing bridges

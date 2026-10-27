@@ -28,7 +28,7 @@ The results below concern **specific residual cycles, deformation families, and 
 
 ## 4. The missing bridge
 
-The natural desired theorem would connect a **generator-independent normal invariant** (full initial ideal, Rees data, or saturated flag) to a **positive residual degree** for actual global equations. Current evidence does not supply that implication in general. In particular:
+The desired general interface should explain actual residual geometry and its specialization from full normal and global equation data. Positive residual-degree bounds are one scoped outcome; constructive transfer of residual mass onto \(C\) is another. The current [arbitrary-degree continuation](../notes/2026-10-27-arbitrary-degree-absorption-synthesis.md) proves selected interfaces provisionally without assuming that every pair has residual support. In particular:
 
 1. A horizontal common direction on the first blowup need not be a smooth global root section.
 2. A vertical exceptional component is not a residual curve in projective space.
@@ -38,9 +38,11 @@ The natural desired theorem would connect a **generator-independent normal invar
 
 The [filtration/boundary synthesis](normal_filtration_boundary_obstructions.md) isolates the separate punctual-comparison and one-step lifting questions. A bridge between those defects and R-0019's residual cycles still requires proof, with hypotheses on saturation, finite flatness, and properness.
 
-## 5. Concrete next investigations
+## 5. Selecting investigations
 
-- **Residual detector:** formulate and prove one implication from a full initial-ideal or valuation invariant to positive residual degree for an actual family. Begin by separating horizontal and vertical exceptional support.
+A substantial calculation should test a general construction, criterion or competing assertion, with a stated payoff beyond its degree pair. The sextic locus is an optional control, with no reduction from arbitrary equations. The earlier scoped questions below remain available when they serve such a principle.
+
+- **Residual interface:** compare actual attachment and transfer with full primary equation modules and valuation data. Distinguish the geometric residual, the flat closure of a generic residual, and exceptional vertical support.
 - **Family-level jet bound:** replace the single Fstar of R-0025 with a geometrically defined family and prove a uniform jet-kernel restriction. A generic rank bound alone may leave special carriers.
 - **Fixed-boundary deformation:** determine which invariants of R-0023's attachment divisor remain fixed when residual nodes smooth, and whether analogous independent smoothing holds beyond the specified pencil.
 - **Characteristic comparison:** isolate the exact flatness and support mechanisms of R-0021 rather than treating characteristic-two coalescence as a characteristic-zero obstruction.
@@ -48,3 +50,14 @@ The [filtration/boundary synthesis](normal_filtration_boundary_obstructions.md) 
 ## 6. Authority and evidence
 
 The canonical records R-0001, R-0019, R-0021–R-0025 are authoritative only within their recorded scopes. Their audits and computation certificates remain linked there. The general valuation and blowup program in [formal-normal intersection](formal-normal-intersection.md) is provisional. This synthesis changes neither status nor evidence, and retires no source material.
+
+## 7. General partial absorption and the actual equation presentation
+
+The [arbitrary-degree absorption synthesis](../notes/2026-10-27-arbitrary-degree-absorption-synthesis.md) integrates four reviewed provisional interfaces, with proofs and audits linked there:
+
+- On a chosen smooth containing surface, linear-system interpolation constructs any finite increase \(m<n\) in marked multiplicity for sufficiently large mate degree. The residual closure specializes to \((n-m)C+D_n\), with actual global equations and Cartier gluing. This is a positive characteristic-zero operation, not a claim that every given residual deforms this way.
+- For the fixed quartic, an integral carrier smooth at every point of \(C\) forces residual degree at least one third of the CI degree. The nef bundle \(3H-C\) proves this uniform capacity statement; it is not transferred to arbitrary on-curve singular carriers.
+- For the full \(C\)-primary component \(T\), the actual attachment divisor is the determinant of the torsion-free equation source plus the torsion divisor of \(I_T/I_CI_T\). A determinant alone can miss attachments at non-lci points of \(T\). Full attachment \(T\cap D\) also includes marked normal nilpotent contributions.
+- A flat lower witness can organize deformations of actual pairs, while the full primary component changes Hilbert polynomial at an absorption jump. Quot motion and global section lifting have distinct obstruction groups, and full primary extraction must not be assumed to commute with specialization.
+
+These interfaces connect nef/effective cones, linkage duality, Quot deformation theory and conductor/formal-group descent. They remain proposals with independent evidence; they do not establish an unrestricted characteristic-zero construction or exclusion.

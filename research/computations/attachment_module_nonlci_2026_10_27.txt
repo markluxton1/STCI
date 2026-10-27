@@ -1,0 +1,4 @@
+PASS characteristic zero: primary extraction, linkage, HB, torsion presentation, Fitt0 and attachment length 2
+PASS characteristic two: primary extraction, linkage, HB, torsion presentation, Fitt0 and attachment length 2
+PASS characteristic three: primary extraction, linkage, HB, torsion presentation, Fitt0 and attachment length 2
+Scope: exact local ideal control; determinant of torsion-free source is a unit while torsion accounts for all attachment.

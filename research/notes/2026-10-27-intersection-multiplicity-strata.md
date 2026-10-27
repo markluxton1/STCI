@@ -51,7 +51,7 @@ is relatively Zariski closed. Consequently the exact-multiplicity strata are loc
 x_1=u,\quad x_2=u^3+X,\quad x_3=u^4+Y.
 \]
 
-At the generic point of \(C\), the completed transverse ring is \(K[[X,Y]]\), \(K=k\(u\)\). Let
+At the generic point of \(C\), the completed transverse ring is \(K[[X,Y]]\), \(K=k(u)\). Let
 
 \[
 A=K[X,Y]/(X,Y)^{B+1},\quad D=\dim_K A=(B+1)(B+2)/2.

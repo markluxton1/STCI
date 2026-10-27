@@ -4,6 +4,8 @@ This is a **navigation and prioritization guide**, not a new theorem, proof audi
 
 The [October 27 research vision](notes/2026-10-27-containing-intersections-research-vision.md) adopts a constructive, residual-inclusive framing: understand actual proper intersections containing \(C\), then ask how to reach particular thickness and residual configurations. New reviewed deductions there remain provisional. Changes of residual geometry at fixed generic multiplicity and transfer of residual mass onto \(C\) are distinct experiments; acquiring a common surface factor leaves the proper-pair problem. Compare both positive and negative evidence, including odd-characteristic constructions and global formal-section extension, without assuming the characteristic-zero answer.
 
+The [arbitrary-degree continuation](notes/2026-10-27-arbitrary-degree-absorption-synthesis.md) makes the selection rule explicit: formulate a general construction, criterion or competing assertion first. Before substantial degree-specific work, identify the principle being tested, what each possible outcome would teach, and which argument survives a change of degrees. An empty \((6,6)\) endpoint would settle only that degree pair; there is no reduction of arbitrary equations to sextics. Positive constructions and exact limits of known methods are substantive outcomes even when they do not decide STCI.
+
 ## Essential conclusions: read first
 
 | Importance | What is established | Authority | Consequence |

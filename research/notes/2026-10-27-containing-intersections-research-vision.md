@@ -2,6 +2,8 @@
 
 Date: 2026-10-27. Branch: **codex/intersections-containing-quartic-2026-10-27**, created from **main**. Integration of three research lanes and independent reviews. **All new deductions remain provisional and unpromoted.** This changes research framing and proposed experiments, not the canonical open status.
 
+**Subsequent research direction:** after the user questioned a sextic-first agenda, the [arbitrary-degree continuation](2026-10-27-arbitrary-degree-absorption-synthesis.md) established general partial-absorption constructions, scoped capacity and attachment/lifting interfaces. The sextic geometry below remains useful evidence and an optional test; it is not the leading assignment or a reduction of the general problem.
+
 ## The guiding question
 
 For the fixed smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), what do proper intersections of two hypersurfaces containing \(C\) look like, and how can their residual geometry be used to construct particular intersections?
@@ -130,7 +132,7 @@ has exactly \(m_C=2\), residual cycle degree 28. This elementary reducible contr
 
 Proposed next experiments:
 
-1. **Study an actual sextic thickness family.** Choose a component or controlled slice of the \(m_C\ge2\) linear section; impose the next full-jet condition \(m_C\ge3\); track properness, factorization, and the residual primary scheme. Seek an exact family or completed component calculation. Continue toward \(m_C=9\) only if intermediate geometry supports it.
+1. **Test a general absorption principle.** Formulate an arbitrary-degree construction or compatibility criterion first. A sextic thickness slice may test it if both possible outcomes would change the general understanding. The existence and dimension of its \(m_C\ge2\) locus alone do not justify an extended calculation toward \(m_C=9\), and no reduction to that endpoint is known.
 2. **Retain the formal equation presentation.** Compute next global lifting classes with actual ambient twists for surviving jets, and saturate at attachments. If a full twisted formal pair with power containment is constructed, apply extension without inventing a further algebraization hurdle.
 3. **Use characteristic-\(p\) positive controls.** Compare actual jets and higher relations in odd characteristic as well as two. Ask what could replace the radicial collapse in characteristic zero, allowing a different constructive mechanism.
 4. **Check literature at each proposed bridge.** Retrieve the smallest canonical record and its evidence first, then inspect primary sources before claiming novelty or transferring a theorem. Keep projective/affine, characteristic, degree, and carrier assumptions literal.
