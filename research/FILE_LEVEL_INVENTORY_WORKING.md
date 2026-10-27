@@ -54,3 +54,32 @@ Recommended `evidence_level`: filename only; indexed metadata; content read; cro
 ## No deletion or promotion
 
 This register is an inventory aid. Neither file disposition nor mathematical authority changes during this phase.
+
+## Quartic-carrier proof-file disposition — 2026-10-27
+
+Permanent mathematics: [carrier chapter](chapters/CARRIER_AND_CONDUCTOR_GEOMETRY.md) and [technical proofs](chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md). Keep source provenance and deletion decisions here, not in the technical appendix.
+
+| Source file (under research/notes/) | Disposition and reason |
+| --- | --- |
+| 2026-10-09-session-ribbon-4-root-independent-proof.md | Candidate after reference migration; later complete repeated-partition proof covers all endpoints/directions |
+| 2026-10-09-session-ribbon-22-bounded-power-obstruction.md | Candidate after reference migration; later full audit proves all-power trace/norm obstruction |
+| 2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md | Candidate after reference migration; its unique graph argument is extracted in technical proofs |
+| 2026-10-09-session-ribbon-repeated-partitions-complete.md | Retain owner proof and computational provenance |
+| 2026-10-10-session-ribbon-repeated-partitions-independent-audit.md | Retain exact ideal-equality certificates |
+| 2026-10-09-session-genus-one-ribbon-net-independent-audit.md | Retain two-chart conormal and orbit audit |
+| 2026-10-09-session-ribbon-211-projection-independent-audit.md | Retain distinct [2,1,1] case |
+| 2026-10-09-session-genus-one-uniform-projection-adversarial.md | Retain full-fiber criterion and ramification failure shield |
+| 2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md | Retain integral-correction descent lemma |
+| 2026-10-10-session-genus-two-bisection-three-blowup-fiber-exclusion.md | Retain explicit fiber-graph analysis pending extraction |
+| 2026-10-09-session-normalization-sectional-genus-zero.md | Retain primary genus-zero proof |
+| 2026-10-09-session-quartic-rational-cone-normalization.md | Retain proposal, distinguish from independently accepted proof |
+| 2026-10-09-session-nonrational-quartic-normalizations.md | Retain ruled-normalization owner proof |
+| 2026-10-09-session-genus-two-degree-one-counteraudit.md | Retain Hodge/Riemann–Roch square-one lemma |
+| 2026-10-10-session-genus-two-blowup-lift-normality-proposed-audit.md | Retain owner derivation alongside independent audit |
+| 2026-10-10-session-genus-two-conductor-line-position.md | Retain intersection-length and trisecant geometry |
+| 2026-10-10-session-genus-two-marking-and-section-pause-audit.md | Retain D8 marking; separate unfinished section work |
+| 2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md | Retain bounded independent audit |
+| 2026-10-10-session-genus-two-lambda1-horizontal-line-budget.md | Retain integral pullback cycles and failure modes |
+| 2026-10-10-session-genus-two-trisecant-quartic-carriers.md | Retain cubic carrier ideal and geometry; later audits establish exclusions |
+
+**Deletion gate:** The three candidates each had 11 indexed default-branch code-search references, including historical validation scripts and outputs. Do not remove them without a full branch-local inbound-reference scan and deliberate treatment of reproducibility. Never rewrite historical validation outputs merely to clear a deletion check.
