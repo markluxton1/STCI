@@ -27,6 +27,31 @@ M(d)=\begin{pmatrix}d_0&d_1&d_2\\d_1&d_2+d_3&d_4\\d_2&d_4&d_5\end{pmatrix}.
 \]
 The off-conic condition \(\eta_1^2\ne\eta_0\eta_2\) is necessary for the surface to remain an integral two-quadric intersection. The derivative binary quartic then has exactly the partitions \([1,1,1,1]\), \([2,1,1]\), \([2,2]\), \([3,1]\), \([4]\). The first two are excluded by the fixed-center argument; the other three by universal ideal calculations. In particular, the invisible \(d_2\)-coefficient and all kernel-direction boundaries must be retained. The [independent repeated-partition audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md) contains the actual ideal certificates and successful Macaulay2 check, not just sample pencils.
 
+### Entire genus-one conductor: proof by graded modules
+
+The conductor identity above admits a short, complete algebraic proof, worth retaining separately from its computational verification. Let \(T=k[x_0,x_1,x_2,x_3]\), \(A_X=T/(F)\), and \(B=T[z]/(Q_1,Q_2)\), where \(Q_1=z^2-Az-R_1\), \(Q_2=Lz+R\), and \(F=R^2+ALR-R_1L^2\). The projection identifies the fraction fields, and the integral degree-four image has equation \(F\), so \(A_X\hookrightarrow B\). The two quadrics form a complete intersection and \(B\) is normal under the genus-one hypotheses.
+
+If \(R\) were divisible by \(L\), the equation \(Q_2\) would factor into linear forms on the integral nondegenerate surface. Hence \(L,R\) form a regular sequence in \(T\), and \(C_\Gamma=T/(L,R)\) is the **entire** coordinate ring of a plane conic, possibly reducible or doubled. In \(B\),
+\[
+Lz=-R,\qquad Rz=AR-LR_1.
+\]
+Thus \((L,R)\) annihilates \(B/A_X\), and monicity of \(Q_1\) gives a surjection \(C_\Gamma(-1)\twoheadrightarrow B/A_X\). The Hilbert series are
+\[
+\operatorname{HS}(B)=\frac{(1+t)^2}{(1-t)^3},\quad
+\operatorname{HS}(A_X)=\frac{1+t+t^2+t^3}{(1-t)^3},\quad
+\operatorname{HS}(C_\Gamma)=\frac{1+t}{(1-t)^2}.
+\]
+Since \(\operatorname{HS}(B)-\operatorname{HS}(A_X)=t\operatorname{HS}(C_\Gamma)\), the surjection is an isomorphism **in every graded degree**, not merely after removing finite-length modules. Consequently
+\[
+B/A_X\cong C_\Gamma(-1),\qquad
+\operatorname{cond}(A_X,B)=\operatorname{Ann}_{A_X}(B/A_X)=(L,R).
+\]
+Moreover, \((L,R)B=(L)\), so the entire upstairs conductor has coordinate ring
+\[
+B/(L)=C_\Gamma[z]/(z^2-Az-R_1).
+\]
+It is free of rank two over \(C_\Gamma\), including over doubled or reducible conics. The trace-zero generator \(w=z-A/2\) satisfies \(w^2=A^2/4+R_1\). This derivation, including the sign in \(Rz=AR-LR_1\), is independently checked in the [algebra audit](../notes/2026-10-09-session-genus-one-entire-conductor-algebra-independent-audit.md). The [owner proof](../notes/2026-10-09-session-genus-one-entire-conductor.md) also gives the six exact fixed-curve quadrics and their coefficient restrictions, which remain necessary for the root-partition arguments.
+
 ## 3. Nonendpoint trisecant: exact all-length contradiction
 
 The normal conic model has an exceptional divisor of bidegree \((2,2)\) on \(\mathbf P^1\times\mathbf P^1\), with distinguished horizontal \(B\) of class \((1,0)\). Multiplicity two on \(B\) leaves two ruling fibers and violates singleton inverse support. With multiplicity one, the residual class is \((1,2)\). Every reducible residual is either a \((1,1)\) curve plus a ruling fiber or a second horizontal plus two ruling fibers, including doubled fibers; the [audit](../notes/2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md) handles the coefficient-zero horizontal boundary. The remaining integral residual is a rational graph, meeting \(B\) in two transverse points.
@@ -81,6 +106,16 @@ and its rank-two algebra \(p_*\mathcal O_D=\mathcal O_\Gamma\oplus\mathcal O_\Ga
 These are exact **conductor-power** constraints, not merely a weaker statement that the bisection lane is impossible. The later [global conormal proof](../notes/2026-10-10-session-genus-two-bisection-full-independent-audit.md) excludes the lane more efficiently but does not make the root-of-unity and split-conductor calculations mathematically empty. They are reusable for other normalization/descent problems. **Retain these calculations as a separate conditional lemma**; the source's formerly open possibilities are superseded by the conormal contradiction.
 
 The two sources therefore have different retention status: the endpoint note is a **candidate for retirement after its geometric graph argument is extracted**, whereas the bisection note contains **independent conductor algebra worth retaining** even though its mate-existence motivation has closed.
+
+### Endpoint irreducible graph: extracted geometric argument
+
+The earlier conditional endpoint note's distinct geometric step can be recorded precisely. In the blowup chart \(x_0=1\), set \(a=x_1/x_0\), \(y=x_2/x_0\), \(x_3/x_0=yb\). The strict transform of \(C\), parametrized by \(r=t/s\), is
+\[
+a=r,\qquad b=r,\qquad y=r^3.
+\]
+For an irreducible residual \(R\) of class \((1,2)\), the transformed surface has local equation \(aR(a,b)+yH(a,b,y)=0\). Restriction to \(C\) forces \(R(r,r)\) to vanish to order at least two. Since an irreducible \((1,2)\) curve is a graph \(a=\phi(b)\) and cannot contain the ruling fiber \(b=0\), it follows that \(\phi(0)=0\) and \(\phi'(0)=1\). The degree-two map \(R\to\Gamma\) is therefore unramified over the endpoint, with two distinct inverse points (the second possibly in the opposite chart). Both intersections with \(B=\{a=0\}\) are transverse. This supplies the geometric input for the all-length chain calculation in Section 3.
+
+This extraction captures the earlier note's mathematical argument and its precise **irreducible-residual** hypothesis; the later full endpoint proof remains necessary for reducible and doubled residuals. The [original conditional note](../notes/2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md) can now be treated as a **candidate for archival retirement**, subject to a repository-wide inbound-reference and unique-evidence check. No source deletion is performed here.
 
 ## 6. Evidence and retention
 
