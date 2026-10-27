@@ -36,3 +36,22 @@ The central open bridge is to extract a global upper bound on m or construct an 
 ## Next content review
 
 Review characteristic-dependent constructions and arithmetic lifting (R-0012, R-0020, R-0021, R-0029, R-0031), asking which effects are Frobenius/coalescence, which are bundle-splitting, and which are genuine integral nonlifting statements. Preserve the distinctions rather than one slogan about characteristic two.
+
+
+## Theme 6: global quartic incidence and deformation
+
+**Parameter space.** For the fixed C, V=H^0(I_C(4)) has dimension 18. Proper quartic pencils form an open U in Gr(2,V), dimension 32. The universal complete intersection is flat with Hilbert polynomial 16n-32 and arithmetic genus 33. This is a *family of complete intersections containing C*, not a family of STCI presentations.
+
+**Attachment map.** The determinant of the two first normal sections is in det(N_C^*(4))=O_C(18). Where nonzero, it gives a rational attachment-divisor map beta:U-->P H^0(O_C(18)). At the distinguished four-component pencil beta=9p0+9pInfinity. The deformation-laboratory note and independent audit calculate a surjective differential of rank 18 there, leaving a 14-dimensional local fixed-boundary fiber. This is a local statement, not surjectivity of the global map.
+
+**Residual genus and motion.** For a general proper quartic pencil containing C, the independently reviewed but unpromoted blowup/Bertini argument gives a smooth degree-12 genus-16 residual with 18 transverse attachments. R-0023 provides one *exact* rational benchmark. The explicit one-equation perturbation G_lambda=G+lambda*x0^2*Q splits eight units of endpoint attachment from 9p0+9pInfinity to p0+9pInfinity plus eight moving points; it does not certify global residual smoothness. A different root pencil preserves the concentrated boundary while varying the four-sheet configuration. Thus constant arithmetic genus, constant attachment divisor, and constant normalization are different constraints.
+
+**Fixed-boundary smoothing.** R-0024 gives exact ordered-source ranks 19 (affine boundary), 5 (node classes), and 24 (joint), yielding projective boundary rank 18 and five independent node-smoothing directions in the 14-dimensional fixed-boundary fiber. After labeling nodes, its completed local ring has five smoothing and nine other parameters. No explicit global polynomial arc is asserted. In particular, a first-order fixed-boundary perturbation need not preserve the boundary at higher orders.
+
+**Three kinds of universality must not be conflated.** (i) The Grassmannian family includes all proper quartic pencils containing the fixed C. (ii) The determinant boundary map is defined only where the first-normal determinant is nonzero, and the rank/smoothing results are at particular points. (iii) Osculating and bitangent plane families are separate incidence constructions with their own finiteness and transversality hypotheses. Their degree formula and scheme structure should be checked in their source before inclusion as established global theorems.
+
+**Interesting geometry to retain:** migration of genus between normalization and singular gluing, endpoint collision of attachment points, fixed-boundary smoothing of residual nodes, the root-pencil four-sheet configuration, and the topology/conductor viewpoint. These deserve a home even when they yield no STCI exclusion.
+
+**Audit still required:** locate and review the exact W_osc/W_bit universal plane-family source and its independent audit, including the rank-de and pushforward degree formulas. They are not verified by the documents inspected in this pass. Do not silently promote them based on summary mentions.
+
+**Sources:** research/notes/2026-10-25-ci-cycle-deformation-laboratory.md; research/notes/2026-10-25-ci-cycle-exploration-audit.md; research/notes/2026-10-25-ci-cycle-geometry-notebook.md; research/notes/2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md; canonical R-0023 and R-0024.
