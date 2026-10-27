@@ -197,3 +197,29 @@ Use **one concise global status/exclusions index**, not a sixth full chapter. Ea
 - **Evidence:** all nine records list at least one independent audit artifact. This batch does not check whether those file paths resolve on the current branch; source-retention verification remains a separate gate.
 
 **Progress:** 18/36 canonical records inspected for metadata and scope (batches 1–2), including R-0001–R-0018. Remaining R-0019–R-0036.
+
+## Canonical evidence audit — batch 3 (R-0019–R-0027)
+
+**Method:** inspected all nine canonical YAML records, including statements, exact scopes, evidence lists, dependencies, acceptance and limitations. This is not independent proof verification or a rerun of computational certificates.
+
+| Record | Evidence and dependency | Scope / preservation requirement |
+|---|---|---|
+| R-0019 | One proof note and one independent audit; no R dependencies | Auxiliary residual **zero-cycle** and divisor inequality for saturated finite-flat curvilinear setting, not an ideal equality or residual curve downstairs |
+| R-0020 | Geometry note, Python normal-bundle verifier, independent geometry-symbol audit | Intrinsic G/A/F fact: char 2 splitting versus char not 2; no equation exclusion by itself |
+| R-0021 | Same geometry note, Macaulay2 mu4-family verifier and independent audit | A/I/F: **prescribed** integral quartic pair; four generic characteristic-zero components versus char-two supported length four |
+| R-0022 | Filtered proof, inherited primitive-triple audits, two Python scripts including an audit script; depends on R-0020 | F/C: characteristic-zero (4,4) exclusion; accepted filtration and primitive e=1 inputs essential, distinct proof from R-0001 |
+| R-0023 | Two detailed exact-example audit notes serve as both evidence and independent-audit entries; depends on R-0021 | I/G: specified smooth degree-12 and line+degree-11 residual configurations only; evidence-role overlap should be recorded |
+| R-0024 | Source note, Python verifier, JSON output, separate independent audit; depends on R-0023 | I/F: fixed-boundary formal/étale local smoothing, **not** explicit global polynomial arc |
+| R-0025 | Certificate inspection, scope audit, Macaulay2 source/JSON, independent Python/JSON; no R dependencies | I/F: one sextic Fstar and degree-16 mates; independent normal-division replay passed in CI, Macaulay2 **not** rerun there |
+| R-0026 | Two source notes, saved JSON, independent flag-duality audit; depends on R-0020 | G/I: marked flag and contact geometry; saved computations not freshly replayed; no STCI exclusion |
+| R-0027 | Two source notes, Macaulay2 source and saved output, independent audit and adjudication; depends on R-0026 | G: marked dual Jacobian scheme, embedded endpoint corrections; Macaulay2 saved certificates inspected, not rerun |
+
+### Findings requiring explicit treatment
+
+1. **R-0023 evidence-role overlap.** The same two files are listed in both `evidence` and `independent_audits`. This does **not** establish that an independent reviewer separate from the example computation performed a second verification. Inspect the audit files and provenance before describing them as independent replication.
+2. **Computational verification levels differ.** R-0025 has an independently replayed normal-division computation but an unrerun Macaulay2 source; R-0026 and R-0027 cite saved artifacts without fresh execution. Preserve these qualifications in the evidence index instead of assigning one undifferentiated “verified” label.
+3. **Cross-subject scope.** R-0019 concerns auxiliary residual zero-cycles, R-0023 actual residual curves, and R-0024 their local deformations. They share chapter I but must not be merged into a single residual-component theorem.
+4. **R-0022 proof independence.** Its alternate filtered-contact argument should remain accessible despite the stronger quartic-carrier result R-0001, because it explains a different mechanism.
+5. **Characteristic dependence.** R-0020/21 are not interchangeable: one is a bundle-splitting fact, the other an explicit family with changing geometric support.
+
+**Progress:** 27/36 canonical records audited at metadata/scope level; remaining R-0028–R-0036. Source-path existence and proof replay remain separate tasks.
