@@ -24,17 +24,6 @@ The sections below preserve earlier research proposals and their original contex
 ---
 
 
-## Current focus — October 27, 2026
-
-The October 24 intrinsic-geometry interlude has been followed by renewed study of intersections containing the quartic, especially generic normal multiplicity, saturation and punctual defects, weighted initial ideals, and boundary repair/global lifting. The [October 26–27 notes](INDEX.md) and their audits remain provisional; they do not settle the unrestricted characteristic-zero STCI problem. Current tasks are to identify the exact hypotheses under which boundary repair is obstructed, connect local filtered data to global homogeneous equations, and distinguish genuine residual curves from exceptional contact. The older priority labels below are historical options, not a mandated order.
-
-
-This file records the mathematical frontier retained for future STCI work. The Priority 1/2 labels below are historical STCI priorities, not a current ranking. Established claims belong in \`STATE.md\`; detailed historical handoffs and dated reports are provenance, not competing descriptions of current status.
-
-The [Delta marked-embedding continuation](notes/2026-10-24-delta-embedding-geometry-report.md) is preserved as provisional evidence from the earlier STCI-directed phase. Its follow-up questions are **not active priorities** during the intrinsic-geometry interlude.
-
-The [special lines/planes](notes/2026-10-24-special-lines-planes-research-note.md) and [automorphisms/bitangents](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) explorations support the active intrinsic-geometry agenda. These are provisional geometric research records, not new STCI assignments or promoted theorem authority.
-
 ## General intersection viewpoint (research framing, not a theorem)
 
 For the fixed curve \(C_0\), it is often useful to begin with two surfaces having no common surface component and
@@ -53,7 +42,7 @@ Useful levels of analysis include the generic filtered transverse complete-inter
 
 [October 24 reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) records a provisional comparison-defect and filtered-Koszul framework. The evidence indicates that the defect vanishes wherever one carrier is smooth along C, but does **not** establish the existence of simultaneous singularities. Priority test: with radical(J)=I_C and generically zero defect, can a punctual defect occur? Separate residual-support examples from genuine supported intersections. Do not treat these provisional notes as a promoted obstruction or reopen the closed degree-(4,*) carrier cases.
 
-## Priority 1 — jet-condition and discrepancy framework
+## Earlier priority: jet-condition and discrepancy framework
 
 **Question.** For primitive or quasiprimitive thickenings
 \[
@@ -69,7 +58,7 @@ The earlier quartic order-one \(e=0,1\) calculations remain a laboratory for jet
 
 **Intermediate target.** Prove that rank failure through the first few jets is equivalent to a finite list of special divisor/incidence configurations on the quadric.
 
-## Priority 2 — structural invariants for the entirely-thick branch
+## Earlier priority: structural invariants for the entirely-thick branch
 
 **Question.** For exact generic normal orders \(p,q\ge2\), what data beyond the first tangent forms controls the exceptional intersection cycle of the proper transforms of the two defining surfaces?
 
@@ -145,7 +134,7 @@ The October 20 source intake above is reconciled: its supported claims are [STCI
 
 **Open actual-STCI cases, both defining degrees at least five:** nonsaturated first-relation loci and their intrinsic defect divisors, full generic initial ideals with more than two generators, reduced singular roots and component gluing with possibly singular formal surfaces, unspecified movement (including epsilon>=9), and positive residual-cycle constraints that can be realized by **actual global homogeneous** generators. The six movement-two rows are a conditional arithmetic list, not a complete frontier for arbitrary presentations. The existing all-integral-quartic exclusion [STCI-R-0001](results/quartic_carrier_exclusion.md) is unchanged.
 
-**Leading next investigation (not a theorem; alternative lanes remain open):** For an actual hypothetical pair `F_a,G_b` with `a,b>=5`, and full generic coprime initial CI of orders `r<s`, compare the defect divisor `D` and resultant vanishing `Delta` from [STCI-R-0016](results/nonsaturated_first_relation_resultant.md) with the pointwise torsion/residual-cycle determinant mechanism of [STCI-R-0019](results/quasiprimitive_residual_cycles.md). First identify a filtration-level specialization map from saturated quotient-generation defects `c_j` to a *geometrically defined* residual cycle on an auxiliary containing surface or successive transform. Prove (rather than assume) finite flatness, the existence of a curvilinear saturated flag, and properness of the residual intersection; where these fail, formulate correction terms. Seek a global inequality by intersecting its effective cycle with sections induced by the **actual** two homogeneous forms, retaining special-point saturation defects. No comparison between `Delta` and `D_(m-1)` is currently known in the general entirely-thick class, and exceptional vertical components need not descend to residual curves.
+**Earlier proposed investigation (not a theorem; alternative lanes remain open):** For an actual hypothetical pair `F_a,G_b` with `a,b>=5`, and full generic coprime initial CI of orders `r<s`, compare the defect divisor `D` and resultant vanishing `Delta` from [STCI-R-0016](results/nonsaturated_first_relation_resultant.md) with the pointwise torsion/residual-cycle determinant mechanism of [STCI-R-0019](results/quasiprimitive_residual_cycles.md). First identify a filtration-level specialization map from saturated quotient-generation defects `c_j` to a *geometrically defined* residual cycle on an auxiliary containing surface or successive transform. Prove (rather than assume) finite flatness, the existence of a curvilinear saturated flag, and properness of the residual intersection; where these fail, formulate correction terms. Seek a global inequality by intersecting its effective cycle with sections induced by the **actual** two homogeneous forms, retaining special-point saturation defects. No comparison between `Delta` and `D_(m-1)` is currently known in the general entirely-thick class, and exceptional vertical components need not descend to residual curves.
 
 The claim that the two defining surfaces must share a singular point on C0 remains **OPEN/UNPROVED**: no such general audited proof is recorded. The arithmetic [STCI-R-0012](results/prescribed_z4_arithmetic_nonlifting.md) neither closes this question nor the unrestricted characteristic-zero STCI problem.
 

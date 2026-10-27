@@ -1,11 +1,11 @@
-# Active open problems by topic
+# Open problems by topic
 
-This directory is the durable topic-level layer beneath [../FRONTIER.md](../FRONTIER.md). It separates active mathematical questions from chronological notes and historical handoffs.
+This directory is the durable topic-level layer beneath [../FRONTIER.md](../FRONTIER.md). It organizes mathematical questions independently of whether they are currently being pursued.
 
-The priority order is maintained in `../FRONTIER.md`. Topic files state a precise open question, known leverage, invalid shortcuts, and the next finite target.
+Current research activity is summarized in [FRONTIER.md](../FRONTIER.md). Topic files record mathematical questions, known leverage, invalid shortcuts, and finite targets; their listing order is not a current research ranking.
 
-- [Jet-condition / discrepancy framework](jet_condition_framework.md) — priority 1.
-- [Entirely-thick branch](entirely_thick.md) — priority 2.
+- [Jet-condition / discrepancy framework](jet_condition_framework.md) — previously prioritized; still an open structural question.
+- [Entirely-thick branch](entirely_thick.md) — previously prioritized; still an open structural question.
 - [Normal quartic carrier investigations (historical)](normal_quartic_remaining.md) — mate cases closed by [STCI-R-0001](../results/quartic_carrier_exclusion.md); retained as provenance.
 - [Local cohomology](local_cohomology.md) — finite incidence frontier.
 - [MF6](mf6.md) — multiplicity-six structural frontier.
