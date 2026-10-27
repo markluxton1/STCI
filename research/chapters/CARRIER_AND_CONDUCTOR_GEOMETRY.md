@@ -8,15 +8,15 @@ Fix
 \[
 C=C_0=\{[s^4:s^3t:st^3:t^4]\}\subset\mathbf P^3.
 \]
-Suppose homogeneous forms \(F,G\) have \(\sqrt{(F,G)}=I_C\). Choosing an **integral** component \(X=V(F_0)\) of \(V(F)\) containing \(C\), the restriction of \(G\) cuts out \(C\) set-theoretically on \(X\), provided \(G\) is not identically zero on \(X\). Thus integral *carriers* are a natural intermediate problem. This reduction does not mean \(F\) itself is irreducible, or that every useful carrier is normal.
+Suppose homogeneous forms \(F,G\) have \(\sqrt{(F,G)}=I_C\). Choosing an **integral** component \(X=V(F_0)\) of \(V(F)\) containing \(C\), the restriction of \(G\) cuts out \(C\) set-theoretically on \(X\), provided \(G\) is not identically zero on \(X\). Because \(V(F,G)\) has pure curve support, \(F\) and \(G\) cannot share a surface component. Thus integral *carriers* are a natural intermediate problem. This reduction does not mean \(F\) itself is irreducible, or that every useful carrier is normal.
 
 Let \(\nu:S\to X\) be the finite normalization, and let \(H=\nu^*\mathcal O_X(1)\). If \(G\) has degree \(b\), its pullback is a section of \(\mathcal O_S(bH)\). Its **entire zero support** is \(\nu^{-1}(C)\), not merely the preferred component mapping birationally to \(C\). This is the first crucial distinction: additional inverse branches and isolated inverse points matter.
 
-When the full reduced inverse support is a single curve \(c\) mapping isomorphically to \(C\), the zero divisor is \(bc\), so
+When the full reduced inverse support is a single curve \(c\) mapping isomorphically to \(C\), the zero divisor is \(nc\) for some positive integer \(n\), so
 \[
-bc\sim bH.
+nc\sim bH.
 \]
-The coefficient \(b\) follows from intersection with \(H\), using \(H\cdot c=H^2=\deg X\). On a singular normal surface \(c\) need not itself be Cartier; only the relevant multiple is necessarily Cartier. See R-0001 and its [independent assembly audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md).
+Intersecting with \(H\) gives \(n\deg C=b\deg X\), since \(H\cdot c=\deg C\) and \(H^2=\deg X\). Thus \(n=b\) **for a quartic carrier of this quartic curve**, but not for an arbitrary-degree carrier. On a singular normal surface \(c\) need not itself be Cartier; only the relevant multiple is necessarily Cartier. See R-0001 and its [independent assembly audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md).
 
 The conceptual question is therefore twofold: **can the inverse-support divisor have the required polarization class upstairs, and can its defining section descend through the conductor downstairs?** Neither condition alone suffices.
 
@@ -112,5 +112,7 @@ The preceding arguments do not show that \(C_0\) is not a set-theoretic complete
 The natural research order is: understand the possible inverse support and divisor class on the normalization; compute the **full** conductor descent obstruction; then test whether a mate can exist. This avoids treating a successful normalization model, a numerical relation, or a reduced phase calculation as an actual STCI construction.
 
 ## Editorial and verification status
+
+**Critical review, pass 1:** checked all 16 relative Markdown links against the complete working-branch Git tree: all resolve. Corrected a material overgeneralization in Section 1: the coefficient of the singleton lift in the pulled-back mate divisor is \(n=b\deg X/\deg C\), and equals the mate degree only for quartic carriers of the degree-four curve. Also made explicit why a proper STCI pair has no common surface component. The rest of the chapter has been compared at the statement/scope level with R-0001, R-0002, R-0003, R-0004, R-0017, R-0034 and R-0035; this is **not** an independent audit of the original proofs.
 
 This is the **first permanent-chapter draft**. It integrates accepted statements and the geometric reasons for their scope, while linking rather than duplicating long source proofs. It has not been independently proof-audited; it is **not yet a replacement for canonical R-records or their underlying evidence**. Before retiring historical files, each six-lane proof and each conductor/index lemma must be compared for unique content, and the chapter's references and hypotheses checked line by line.
