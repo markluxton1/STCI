@@ -223,3 +223,36 @@ Use **one concise global status/exclusions index**, not a sixth full chapter. Ea
 5. **Characteristic dependence.** R-0020/21 are not interchangeable: one is a bundle-splitting fact, the other an explicit family with changing geometric support.
 
 **Progress:** 27/36 canonical records audited at metadata/scope level; remaining R-0028–R-0036. Source-path existence and proof replay remain separate tasks.
+
+## Canonical evidence audit — batch 4 (R-0028–R-0036)
+
+**Method:** inspected all nine canonical YAML records for scope, evidence, dependencies, audits, acceptance and limitations. This finishes **metadata/scope inspection of all 36 canonical records**. It does not establish independent proof correctness or existence of every linked file.
+
+| Record | Evidence and dependencies | Essential scope and preservation |
+|---|---|---|
+| R-0028 | Ruled-surface synthesis, saved JSON, separate comparison audit and adjudication; no R dependencies | G/C: specified marked projections only; normalization, resolution and conductor are distinct; computations not freshly rerun |
+| R-0029 | Arithmetic ruled-family source and independent audit; R-0021 dependency | A/G/C: prescribed mixed-characteristic cone/four-section; no general lifting theorem |
+| R-0030 | Three evidence files, two independent reviews; no R dependencies | F/I: canonical local comparison, punctual defect criterion; no global twisting or punctual existence theorem |
+| R-0031 | Source investigation, validation README and independent review; R-0020/21/30 dependencies | A/F: prescribed char-two pair, fourth initial equation O(-24), zero comparison defect; inherited validation not rerun |
+| R-0032 | Entirely-thick/Rees progress note, independent socle audit, historical adjudication; no R dependencies | F: necessary full filtration/socle identity under valid conormal quotient degree bounds |
+| R-0033 | Thick-equality geometry source, independent audit, historical adjudication; R-0032 dependency | F: constant first relation and zero-defect next relation only; inherited direction nonvanishing |
+| R-0034 | Normal-index source, index-compatibility audit, historical adjudication; no R dependencies | C/F: actual local Cartier index, not carrier multiplicity; ordinary filtration |
+| R-0035 | Normal-index and torsion source notes, index-compatibility audit; R-0034 and R-0001 dependencies | C/F: indices <=4, normal carriers only; inherited quadratic-direction input |
+| R-0036 | Conductor-Jacobian source and a proof/audit file also listed as evidence, second transverse-socle audit; no R dependencies | C/F: singleton smooth Cartier lift, invertible conductor, normalization smooth along lift; char-zero Jacobian |
+
+### Final batch findings
+
+1. **R-0036 evidence-role overlap:** one independent-audit note is also an evidence entry. Unlike R-0023, a separate second audit is listed, but the overlap should still be visible in an evidence graph rather than counted as an independent proof twice.
+2. **R-0035 dependency depth:** the bounded-index exclusion rests on inherited normal-carrier torsion and quadratic-direction inputs in addition to its listed R dependencies. A proof-preservation manifest must follow those notes, not only the R-ID graph.
+3. **R-0031 computational provenance:** its validation README is a pointer to an inherited exact-script package, not evidence of a fresh replay during promotion.
+4. **R-0028 versus R-0029:** geometrically related ruled models but different base and hypotheses; no blanket specialization or lifting principle follows.
+5. **R-0030 versus R-0032–0036:** filtered comparison, conormal numerical budgets, and conductor/Cartier-index formulas are distinct interfaces. Their subject memberships overlap without making their hypotheses interchangeable.
+
+### Completion of the first-pass canonical audit
+
+- **36/36 canonical records:** front-matter statement, scope, dependencies, evidence, independent audits and limitations inspected.
+- **Outstanding evidence work:** verify each linked path/blob on durable retained refs; examine independent-review provenance where the same file serves multiple roles; retain scripts and exact outputs; distinguish replayed computations from saved certificates.
+- **Outstanding mathematical work:** independent proof reruns and substantive reconciliation of inherited lemmas were **not** performed by this metadata audit.
+- **Architecture status:** five overlapping subject chapters remain the provisional design; no canonical status changes, no source deletions and no claim promotions in this pass.
+
+**Next action:** create a claim-to-evidence preservation manifest (R-ID → source proof → independent audit → computational inputs/output → branch/blob retention) and check actual source existence. This is the gate before any deletion or permanent chapter migration.
