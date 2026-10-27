@@ -1,6 +1,6 @@
 # What matters now: STCI research decision guide
 
-This is a **navigation and prioritization guide**, not a new theorem, proof audit, or change to the accepted frontier. Consult [STATE.md](STATE.md) and the [canonical results](results/INDEX.md) for authoritative statements. The unrestricted fixed rational quartic STCI question remains open.
+This is a **navigation and prioritization guide**, not a new theorem, proof audit, or assignment of an exclusive active frontier. Consult [STATE.md](STATE.md) and the [canonical results](results/INDEX.md) for authoritative statements. The unrestricted fixed rational quartic STCI question remains open.
 
 ## Essential conclusions: read first
 
@@ -16,7 +16,11 @@ This is a **navigation and prioritization guide**, not a new theorem, proof audi
 
 The [reconciliation decision](RECONCILIATION_2026-10-21.md) accepts [STCI-R-0012–0019](results/INDEX.md). The arithmetic prescribed-Z4 nonlifting theorem (R0012) is not unrestricted characteristic-zero nonexistence. The actual-generator theorem R0013 rules out movement one *only* under saturated/full generic binary-CI hypotheses; R0014 gives six necessary movement-two numerical rows and R0015 proves finiteness at each movement through eight, not arbitrary classification. R0016 quantifies **nonsaturated** first-relation/resultant defects; R0019 gives a **saturated curvilinear finite-flat** pointwise residual-cycle determinant formula and first-normal bound. R0017 excludes a degree-sixteen plane-normalization *subfamily*; R0018 excludes all-orders roots only with a **regular lifted formal surface**.
 
-**Leading next investigation (not a theorem; other lanes remain available):** attempt a rigorously specified map from the R0016 defect sheaves/resultant divisor to a R0019 residual length cycle for an actual homogeneous pair of degrees at least five, proving any finite-flat/curvilinear/properness assumptions and retaining special-point corrections. Do not equate local graded realizability, a vertical exceptional cycle, or arithmetic candidates with a global STCI realization. No general comparison of the R0016 resultant divisor with the R0019 final saturated-filtration defect is established for arbitrary entirely-thick presentations. The general shared-singular-point claim is unproved. The [focused October 21 review](notes/2026-10-21-focused-reconciliation-math-review.md) checks the forced triple and residual-cycle globalization only within their stated hypotheses.
+**October 21 proposed investigation (historical, not a current mandate):** attempt a rigorously specified map from the R0016 defect sheaves/resultant divisor to a R0019 residual length cycle for an actual homogeneous pair of degrees at least five, proving any finite-flat/curvilinear/properness assumptions and retaining special-point corrections. Do not equate local graded realizability, a vertical exceptional cycle, or arithmetic candidates with a global STCI realization. No general comparison of the R0016 resultant divisor with the R0019 final saturated-filtration defect is established for arbitrary entirely-thick presentations. The general shared-singular-point claim is unproved. The [focused October 21 review](notes/2026-10-21-focused-reconciliation-math-review.md) checks the forced triple and residual-cycle globalization only within their stated hypotheses.
+
+## Research selection principles (editorial guidance, not theorem)
+
+Choose work by the chance of obtaining a global, independently checkable mathematical implication, clarity of hypotheses, and the size of the genuinely surviving class addressed. Prefer comparing complementary approaches over extending a computation simply because it is already underway. Current activity is described in [FRONTIER.md](FRONTIER.md); this guide should not designate a single active assignment. A change of research interest is not evidence that an earlier direction failed.
 
 ## Research viewpoints and agent discretion (editorial guidance, not theorem)
 
