@@ -172,3 +172,28 @@ Use **one concise global status/exclusions index**, not a sixth full chapter. Ea
 **Source availability gate:** R-0001 explicitly references historical-branch proof and audit blobs. Before pruning branches or files, verify these are preserved on the intended retained refs or copied into stable evidence locations. A URL to a branch that may be deleted is not durable proof preservation.
 
 **Next batches:** R-0010–R-0018, R-0019–R-0027, R-0028–R-0036. For each, check evidence lists, dependencies, accepted-in records, exact limitations, and file availability. Only then create a source-retention/deletion plan.
+
+## Canonical evidence audit — batch 2 (R-0010–R-0018)
+
+**Method:** inspected the YAML statements, scopes, dependencies, evidence lists, independent-audit lists, and limitations of all nine canonical records. This checks traceability and editorial classification, **not** mathematical proof correctness or live existence of every referenced source file.
+
+| Record | Evidence trace | Critical hypothesis or status | Consolidation decision |
+|---|---|---|---|
+| R-0010 | Two proof notes, two independent audits; no R dependencies | Actual lci, saturated first kernel, full generic binary CI with 2<=r<s | F/I; ordinary normal flatness only in this scope |
+| R-0011 | One source, one audit; R-0008 dependency | Moving full finite-flat root, Picard descent; total root reduced, fibers may be nonreduced | F; don't collapse reduced total space with reduced fibers |
+| R-0012 | Four source notes, one audit, reconciliation acceptance | Exact special fiber and generic fixed reduced support over Z_(2) or Z_2 | A/F; no arbitrary ramified-base nonlifting |
+| R-0013 | One source, one audit; R-0001 and R-0010 dependencies | Actual STCI, saturated first kernel, full generic CI | F/I; movement-one exclusion not unrestricted |
+| R-0014 | One source, two audits; five inherited R dependencies | `kind: reduction`, `status: exact_reduction`; six necessary movement-two rows | F; numerical candidates, **not** constructions |
+| R-0015 | One source, one audit; R-0013 dependency | `kind: reduction`, `status: exact_reduction`; epsilon=1..8 only | F; no claim for epsilon>=9 |
+| R-0016 | Three sources, three audits; R-0010/11 listed dependencies | Nonsaturated first kernel; gap <=2 normal flatness | F/I; see dependency qualification below |
+| R-0017 | One source, one audit; R-0002/3 dependencies | Specified degree-16 plane-projection family | C/G; first-order conductor obstruction not all plane models |
+| R-0018 | One source, two audits; R-0005 dependency | All-orders Cartier lift **with regular formal surface** | F; singular formal surfaces not excluded |
+
+### Reconciliation findings
+
+- **Dependency semantics (R-0016):** the canonical limitations expressly say R-0010 is a comparison/special case, **not a proof input** to the nonsaturated resultant formula; R-0011 is used only for an optional repeated-root strengthening. The YAML `dependencies` list alone therefore overstates what a reader might infer as a mandatory proof chain. Retain that explanatory qualification in any consolidated dependency graph; do not silently edit the canonical record.
+- **Status preservation (R-0014, R-0015):** both are `exact_reduction`, unlike surrounding `proved` theorem records. Their enumerated tuples are necessary arithmetic possibilities, not geometric existence.
+- **Logical hierarchy:** R-0010 treats saturated actual first relations; R-0016 treats nonsaturated first relations under its own conditions; R-0013–0015 add actual global equation and numerical restrictions. R-0008/11 concern abstract spectral root descent; R-0005/18 concern formal Cartier lifting. These are related but not interchangeable.
+- **Evidence:** all nine records list at least one independent audit artifact. This batch does not check whether those file paths resolve on the current branch; source-retention verification remains a separate gate.
+
+**Progress:** 18/36 canonical records inspected for metadata and scope (batches 1–2), including R-0001–R-0018. Remaining R-0019–R-0036.
