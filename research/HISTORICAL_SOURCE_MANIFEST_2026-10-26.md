@@ -64,3 +64,7 @@ This overlay updates **claim dispositions only**. It does not supply a fresh rec
 ## G. Filtration claim disposition update
 
 R-0030 promotes the independently reviewed local comparison, generator-excess, torsion and smooth-carrier support statements; R-0031 promotes the fixed characteristic-two pair's global fourth-equation/kernel identification. This raises the review-branch result index to 31. The normal-Koszul spectral-sequence general packaging and supported punctual-defect question remain unpromoted or open. This update does not improve completeness of the historical file-tree inventory.
+
+## H. Subsequent structural promotions (review-branch overlay)
+
+The historical structural adjudication promoted R-0032 through R-0036 after the earlier 31-record census. These five records cover the conormal/socle budget, constant first-relation obstruction, local normal-carrier index/socle identity, bounded-index normal-carrier exclusion and pointwise conductor/socle identity. The canonical index now contains 36 records. This overlay does not imply a new recursive current-head tree inventory, or a resolution of deferred symbolic-ribbon, quintic endpoint, or degree-15 certificate questions.
