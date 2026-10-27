@@ -83,3 +83,20 @@ Permanent mathematics: [carrier chapter](chapters/CARRIER_AND_CONDUCTOR_GEOMETRY
 | 2026-10-10-session-genus-two-trisecant-quartic-carriers.md | Retain cubic carrier ideal and geometry; later audits establish exclusions |
 
 **Deletion gate:** The three candidates each had 11 indexed default-branch code-search references, including historical validation scripts and outputs. Do not remove them without a full branch-local inbound-reference scan and deliberate treatment of reproducibility. Never rewrite historical validation outputs merely to clear a deletion check.
+
+## Exact duplicate-blob census — current branch (2026-10-27)
+
+Source: full, untruncated recursive Git tree at commit `c71eb0b70a090479017a80b4ba29b01c2f37ab4f`. Grouping by Git blob SHA gives **3,862 tracked files, 2,976 distinct blobs, 483 duplicate clusters, and 886 additional identical-file paths**. These are exact byte-for-byte duplicates, not semantically redundant proofs.
+
+| Location of duplicate cluster | Extra identical paths |
+| --- | ---: |
+| Spans more than one top-level research family (or research and root) | 780 |
+| Entirely within research/validation | 86 |
+| Entirely within research/archive | 14 |
+| Entirely within research/computations | 4 |
+| Entirely within research/scratch | 2 |
+| **Total** | **886** |
+
+The dominant pattern is **cross-family evidence copying**, especially `research/computations/` sources repeated inside `research/validation/.../isolated/research/computations/`, and branch-reconciliation snapshots of `research/STATE.md` and `research/FRONTIER.md`. Another large identical-blob cluster is empty or near-empty stderr/stdout logs across failed and successful runs. These categories should not be conflated: isolated snapshots may be intentionally self-contained and repeated empty logs have low mathematical content, but historical scripts and manifests may refer to their paths.
+
+**Deletion priority:** first assess repeated empty stdout/stderr files, then redundant snapshot copies that are not needed by any independent replay, and only then proof-owner notes. Before any deletion, check branch-local inbound references and execution expectations. This census supplies candidate *families*, not deletion authorization.
