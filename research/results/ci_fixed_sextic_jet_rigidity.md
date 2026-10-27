@@ -26,7 +26,7 @@ supersedes: []
 superseded_by: []
 limitations:
   - "Only one selected sextic and degree-sixteen mates"
-  - "Saved computational certificates source-inspected, not freshly rerun"
+  - "Saved certificates source-inspected at promotion; independent normal-division replay passed in GitHub Actions run 40434021004 (2026-10-26). Macaulay2 was not rerun in that workflow."
   - "Bound not claimed sharp"
 ---
 # Fixed sextic jet rigidity
@@ -44,7 +44,7 @@ The quadratic normal form has nonsquare discriminant class 1+z^2 over k(z). The 
 The nonsplit-node finite-length lemma and audited global jet certificate, both detailed in the source notes.
 
 ## Evidence and verification
-Two separately implemented saved computations corroborate rank 683 and annihilation of the multiples. Sources and outputs were inspected, but no fresh execution or independently archived nonzero maximal minor was performed for this promotion.
+Two separately implemented saved computations corroborate rank 683 and annihilation of the multiples. The October 26 promotion originally inspected these sources without executing them. Subsequently, GitHub Actions [run 40434021004](https://github.com/markluxton1/STCI/actions/runs/40434021004) independently executed the Python/C++ normal-division reconstruction, passed the rank 683 / nullity 286 / all-multiples checks, and matched the saved matrix SHA-256. The Macaulay2 implementation was not rerun in this workflow; no separately archived nonzero maximal minor was produced.
 
 ## Consequences
 No proper degree-sixteen mate for this selected sextic has sole reduced support C0.
