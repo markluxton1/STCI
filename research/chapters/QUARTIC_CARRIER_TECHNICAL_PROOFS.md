@@ -165,6 +165,18 @@ The repeated-root audit covers \([4]\), \([3,1]\), and \([2,2]\). The partition 
 
 A file becomes removable only after (1) its mathematical claims and unique counterexamples or failure shields are captured in a permanent home, (2) all references to it are redirected or deliberately preserved in an evidence record, (3) independent audits still have accessible primary evidence, and (4) no canonical result lists the file as indispensable verification. The current candidates are **only** the narrow standalone \([4]\) and \([2,2]\) notes and the earlier endpoint irreducible-residual note. Their deletion is **not yet approved**.
 
+### Inbound-reference check: deletion is presently blocked
+
+A GitHub code-search check on the repository's indexed default-branch content found **11 references each** to the three narrow retirement candidates:
+
+- \`2026-10-09-session-ribbon-4-root-independent-proof.md\`
+- \`2026-10-09-session-ribbon-22-bounded-power-obstruction.md\`
+- \`2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md\`
+
+In each case the matches include \`research/archive/ULTRA_SOURCE_NOTES_INDEX.md\`, one later owner/audit note, and multiple **executable historical validation scripts and their recorded outputs** under \`research/validation/\`. The references are therefore not merely old navigation links. Removing the notes without changing the validators would destroy an existing source-path invariant or its reproducibility. GitHub code search is indexed against the default branch and does not by itself prove exhaustive coverage of this working branch; a complete branch-local scan remains required before deletion.
+
+**Disposition update:** keep all three files in place for now. The extracted mathematics permits future narrative consolidation, but removing physical files is a separate migration requiring validator and evidence-manifest decisions. Do not quietly rewrite historical validation outputs to manufacture a passing result.
+
 ## 7. Evidence and retention
 
 The exposition above reproduces the short universal inequalities and identifies the longer exact calculations. It does not re-execute Macaulay2, independently establish the classical classification theorems, or replace the source audits. The [independent assembly audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md) checks that the normal and nonnormal lanes cover every integral quartic and that the final lower-degree argument is noncircular.
