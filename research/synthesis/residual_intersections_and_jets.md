@@ -2,15 +2,11 @@
 
 **Status:** thematic synthesis of scoped canonical results and open interfaces. This is not a new theorem or an independent rerun of computational certificates. Start with [the simultaneous-surface chapter](02-two-surfaces.md) and [the formal-normal intersection framework](formal-normal-intersection.md).
 
-## 1. Cycle bookkeeping before local geometry
+## 1. Setup: proper intersections are not necessarily STCI
 
-Let C be the fixed rational quartic in projective three-space over an algebraically closed characteristic-zero field. Suppose F and G have degrees d and e, no common surface component, and both vanish on C. The proper intersection has a fundamental cycle
+For two surfaces meeting properly and containing the fixed quartic C, write the fundamental cycle as [V(F,G)] = m[C] + R. Then de = 4m + degree(R), so m = de/4 **only** when R vanishes. See [Chapter 2](02-two-surfaces.md) for generic normal orders and exceptional directions, and [Formal normal geometry](formal-normal-intersection.md) for the provisional full-initial-ideal/valuation framework.
 
-    [V(F,G)] = m[C] + R,    de = 4m + degree(R),
-
-where m is the generic transverse intersection length along C, and R is effective with no component C. **Only when R=0** does Bezout force m=de/4. Studying residual curves is therefore not a proof of an STCI obstruction until one controls *all* actual pairs in the proposed family.
-
-At the generic point, first normal orders r,s give m >= r*s, with equality when the first binary forms are coprime. A common initial factor predicts excess contact but not a global residual curve. The full initial ideal, not just two displayed leading forms, determines higher cancellations. Exceptional curves vertical over points of C do not themselves contribute positive-degree residual components downstairs.
+The results below concern **specific residual cycles, deformation families, and global jet sources**. None makes a vertical exceptional component into a positive-degree residual curve or proves that every pair has residual support.
 
 ## 2. Four distinct results and their scopes
 
