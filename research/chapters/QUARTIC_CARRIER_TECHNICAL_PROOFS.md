@@ -52,6 +52,32 @@ B/(L)=C_\Gamma[z]/(z^2-Az-R_1).
 \]
 It is free of rank two over \(C_\Gamma\), including over doubled or reducible conics. The trace-zero generator \(w=z-A/2\) satisfies \(w^2=A^2/4+R_1\). This derivation, including the sign in \(Rz=AR-LR_1\), is independently checked in the [algebra audit](../notes/2026-10-09-session-genus-one-entire-conductor-algebra-independent-audit.md). The [owner proof](../notes/2026-10-09-session-genus-one-entire-conductor.md) also gives the six exact fixed-curve quadrics and their coefficient restrictions, which remain necessary for the root-partition arguments.
 
+### Ribbon-net completeness and repeated-root certificates
+
+The ribbon-net calculation is intrinsic, rather than a choice of a convenient normal direction. For the rational normal quartic \(c\subset\mathbf P^4\), the six quadratic generators \(E_0,\ldots,E_5\) have conormal classes satisfying three relations on an affine parameter chart. A homomorphism \(I_c/I_c^2\to\mathcal O_c(-6)\) sends these six quadrics to binary quadratics. The relations force all six images to depend on exactly three scalars \((A,B,C)\); the [direct conormal proof](../notes/2026-10-09-session-genus-one-ribbon-net-independent-audit.md) checks both parameter charts and gives \(I_c/I_c^2\simeq\mathcal O(-6)^3\). Every nonzero direction defines an everywhere-surjective quotient. Its projective orbit is determined by \(\Delta=B^2-AC\). If \(\Delta=0\), the common net base locus contains a cubic surface (a cone over a twisted cubic), so no two quadrics in that net define the required integral quartic. Thus only \(\Delta\ne0\) remains.
+
+The [repeated-partition audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md) uses only parameter scalings and reversal, which **preserve the actual projection center**; arbitrary \(\mathrm{PGL}_2\) changes would not justify the reduction. Its exhaustive normal forms include \([4]\) at an endpoint, the endpoint and nonendpoint \([3,1]\) alternatives, and the nonendpoint \([2,2]\) form \(L_c=(U^2+UV-V^2/2)^2\).
+
+For the nonendpoint \([3,1]\) branch the exact determinant is \(-k(k^2+9)\). The independent ideal equality reduces all candidate coefficients to \(k=0\), \(\eta=(1,-1/2,1)\), and a one-parameter pencil equivalent to
+\[
+T=E_0-E_2+E_3+E_5=(Y_0-Y_2)(Y_2-Y_4)-(Y_1-Y_3)^2.
+\]
+Its gradient vanishes on the line \(Y_0=Y_2=Y_4,\ Y_1=Y_3\), contradicting normality of the required del Pezzo surface. The two \(k^2=-9\) roots are excluded by the **ideal equality**, not by an arbitrary selection of a preferred kernel chart.
+
+For \([2,2]\), the determinant is \(-(2k+1)(2k^2-k+8)/4\). The complete ideal equality eliminates the quadratic-factor roots and leaves, after changing pencil generators,
+\[
+Q_1=2E_1+E_3-E_4,\quad
+Q_2=E_0-2E_1-E_2/2+E_4+E_5/4,\quad
+\eta=(1,0,2).
+\]
+The missing kernel-coordinate boundary \(\eta_1=0\) is precisely the surviving case, so it must not be discarded. The independent conductor calculation has a smooth integral conic and quadratic trace \(T\), norm \(N\) of the Cartier-double section \(Q=E_3\). On the slice \(x_1=0,x_3=1,x_2=t\), its two points satisfy \(18t^2-1=0\), while
+\[
+T^2/N=22+72t
+\]
+takes two different values. If any positive power \(Q^n\) descended, the ratio of its two conjugates would be a root of unity and \(T^2/N\) would be constant. Thus **no positive power descends**, without a finite bound on \(n\). The original audit retains the exact ideals and Macaulay2 evidence; the displayed reductions do not replace that certificate.
+
+**Retention assessment:** the ribbon-net independent audit is the source of the two-chart conormal calculation and orbit classification; the repeated-partition independent audit is the source of the universal ideal equalities and unbounded-power obstruction. Both remain essential verification records, even though their principal mathematical deductions are now represented here. The separate owner proofs should be compared against these exact certificates for unique computational or geometric material before any retirement decision.
+
 ## 3. Nonendpoint trisecant: exact all-length contradiction
 
 The normal conic model has an exceptional divisor of bidegree \((2,2)\) on \(\mathbf P^1\times\mathbf P^1\), with distinguished horizontal \(B\) of class \((1,0)\). Multiplicity two on \(B\) leaves two ruling fibers and violates singleton inverse support. With multiplicity one, the residual class is \((1,2)\). Every reducible residual is either a \((1,1)\) curve plus a ruling fiber or a second horizontal plus two ruling fibers, including doubled fibers; the [audit](../notes/2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md) handles the coefficient-zero horizontal boundary. The remaining integral residual is a rational graph, meeting \(B\) in two transverse points.
