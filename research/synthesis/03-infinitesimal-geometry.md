@@ -73,14 +73,8 @@ The older [order-one](../results/order_one.md), [jet geometry](../results/jet_ge
 
 ## 3.8 The unresolved interface
 
-The most useful next theorem would not simply add another numerical inequality. It would identify **checkable geometric hypotheses on an actual pair** under which its common-direction scheme determines a saturated global root relation and a controlled second quotient relation, while recording the possible defects at special points.
+The missing theorem would give checkable hypotheses under which an actual pair's common-direction scheme determines a saturated global root relation and a controlled second quotient relation, including special-point defects. The distinctions between generic factors, global saturation, full initial ideals, fiberwise coprimality and embedded lifting remain essential.
 
-This is a research target, not an established implication. The next audit should distinguish:
-
-- Generic common factors versus saturated global first relations.
-- The first two displayed symbols versus the **full** generic initial ideal.
-- Fiberwise coprimality versus special-point degeneration.
-- Graded Picard descent versus actual ambient lifting.
-- A finite embedded thickening versus a global pair of hypersurfaces.
+The valuation and specialization program is maintained in [Formal normal geometry](formal-normal-intersection.md); residual detection in [Residual intersections and jets](residual_intersections_and_jets.md); and punctual comparison defects and boundary lifting in [Normal-filtration defects](normal_filtration_boundary_obstructions.md). None of these interfaces is a proved general implication.
 
 Next: [carrier normalization and conductor](04-carriers.md), which imposes a different global descent condition.
