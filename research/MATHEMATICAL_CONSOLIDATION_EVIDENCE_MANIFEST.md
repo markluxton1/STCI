@@ -83,3 +83,17 @@ Checked R-0001, R-0022 and R-0035 and their main proof notes. Against the comple
 **R-0035.** The normal-carrier source develops local detection of class-group torsion by Cartier indices along the ample rational curve, via a connected cyclic-cover argument. It distinguishes necessary local-index constraints from actual global torsion. The index/socle compatibility audit and inherited quadratic-direction argument are part of the proof chain. Preserve the mechanism, not just the bounded-index numerical conclusion.
 
 **Conclusion.** Canonical YAML alone does not encode all proof dependencies. Source-body links and inherited inputs must be traced before any deletion. This first-layer check is not exhaustive; no files have been removed or canonical theorem statuses changed.
+
+## Transitive proof dependencies: second layer
+
+At branch commit `466f124`, examined the R-0001 independent assembly audit, the R-0022 independent filtered audit and its alternative K3 proof/audit, the R-0035 index/socle independent compatibility audit, the conductor theorem, and the endpoint trisecant proof/audit. Checked **19 further referenced paths** against the complete Git tree; **all 19 exist**. This remains a selective dependency trace, not exhaustive independent proof verification.
+
+**R-0001:** The independent assembly audit separately cites normal-carrier adversarial checks, normalization-genus-zero classification, genus-one interface and repeated-partition audits, genus-two adjoint/null-curve/conductor/normality inputs, and the endpoint local correction. Its saved genus-one replay manifest exists. The audit explicitly distinguishes a source-bound saved replay from a fresh computation. The six-case assembly is a dependency graph, not one monolithic proof.
+
+**R-0022:** The filtered-contact independent audit expressly treats the saturated Gorenstein pairing and primitive e=1 classification as inherited inputs. The alternative K3 proof and its independent audit both exist on the working branch, as does its local-algebra verification script. The alternative uses exceptional-curve rank on a K3 resolution, rather than the primitive-triple orbit classification. This is a distinct geometric explanation; preserve it as an optional alternate proof with scope and provenance, not as a prerequisite to the primary filtered argument.
+
+**R-0035:** The index/socle audit explicitly inherits the normal-carrier torsion theorem, full socle duality, balanced conormal splitting, low-degree carrier exclusion and a nonzero quadratic-direction obstruction (identified there as P-010). The audit independently checks the new compatibility, not these older inputs. The torsion source also relies on the fixed-carrier conductor theorem and separate cyclic-cover/local-class-group notes. Keep those inherited inputs visibly labeled rather than claiming a single fully independent rerun.
+
+**Endpoint proof:** The genus-two endpoint audit explicitly rejects treating an earlier irreducible-residual subcase as exhaustive. The full quartic family, local ADE corrections and doubled-horizontal analysis are separate required ingredients. This distinction is important for preventing an invalid simplification during chapter rewriting.
+
+**Next proof-closure task:** identify exact retained source for P-010 and the other named historical premises, and build a compact dependency DAG for the six quartic lanes. Do not delete the corresponding source notes merely because canonical YAML links resolve.
