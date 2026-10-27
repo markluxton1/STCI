@@ -12,9 +12,10 @@ scope:
 statement: "An STCI mate on a fixed hypersurface exists exactly when the full conductor descent lattice contains a fully positive vector."
 dependencies: []
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-conductor-theorem.md"
-independent_audits: []
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/AUDITED_STATE_2026-10-14.md"
+  - "research/notes/2026-10-13-generalization-conductor-theorem.md"
+independent_audits:
+  - research/notes/2026-10-13-generalization-conductor-theorem.md
+accepted_in: "research/AUDITED_STATE_2026-10-14.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
