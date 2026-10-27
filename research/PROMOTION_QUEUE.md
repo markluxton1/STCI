@@ -6,7 +6,7 @@ This is a **triage queue**, not a list of promoted theorems. Canonical authority
 |---|---|---|---|
 | PQ-01 | Fixed sextic: degree-sixteen mates have residual degree at least eight under the stated properness and node hypotheses | Independently reproduce jet-kernel computation; inspect node-to-multiplicity inequality; verify quantifiers | Promoted as R-0025; saved certificate inspected, independent replay remains desirable |
 | PQ-02 | Quartic pencil: affine boundary differential rank 19, projective boundary target dimension 18, node smoothing rank 5, combined rank 24 | Independent exact audit confirms ranks and formal/étale local smoothing; package scoped result, no explicit polynomial arc | Promoted as R-0024 |
-| PQ-03 | Explicit quartic CI with smooth degree-12 genus-16 residual meeting C in 18 transverse points | Reproduce ideal/smoothness/intersection computations and characteristic assumptions | Pending |
+| PQ-03 | Explicit quartic CI with smooth degree-12 genus-16 residual meeting C in 18 transverse points | Reproduce ideal/smoothness/intersection computations and characteristic assumptions | Promoted as R-0023 for the fixed explicit example; no generalization |
 | PQ-04 | Local adapted valuation cluster formula for generic CI multiplicity | Audit residue-degree and proximity conventions, completeness of cluster, assumptions | Pending |
 | PQ-05 | Quartic flag and duality scheme identities | Check scheme-theoretic equalities, embedded components, characteristic restrictions | Promoted as R-0026 and R-0027 |
 | PQ-06 | Ruled-surface geometry and elementary transformations | Check normalization and projection scopes, distinguish intrinsic geometry from STCI claims | Promoted as R-0028 and R-0029 |
@@ -26,3 +26,7 @@ R-0030 promotes the local comparison exact sequence, generic generator-excess co
 ## Filtration status after R-0031
 
 The characteristic-two prescribed-pair fourth normal equation and kernel identification is now R-0031. The general local comparison is R-0030. The supported punctual-defect question and broader normal-Koszul spectral-sequence packaging remain open or provisional.
+
+## Structural historical promotion reconciliation
+
+The five accepted structural claims are now R-0032 through R-0036. Their source and audit pairs are recorded in `HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md`. Do not requeue them as unpromoted. The symbolic-ribbon criterion, quintic endpoint geometry and degree-15 fixed-family certificate remain deferred or evidence only.
