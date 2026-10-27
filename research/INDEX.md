@@ -1,5 +1,7 @@
 # Research navigation
 
+**Mathematics-first entry point:** [Mathematical map](MAP.md) — all 36 canonical results grouped by topic, connections to open problems, and unresolved bridges. This is conceptual navigation, not theorem authority. For a focused task, start there rather than reading the chronological directory below.
+
 - [Intrinsic geometry interlude (October 24)](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md) — geometry-first agenda and earlier pause of STCI-directed work; later cycle and valuative continuations are linked below
 
 This page is a **directory**, not an independent source of mathematical claims.
@@ -7,6 +9,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 ## Start here
 
 - [Repository overview](../README.md)
+- [Mathematical map](MAP.md) — thematic result locator and open interfaces
 - [Current research state](STATE.md)
 - [Current research frontier](FRONTIER.md)
 - [Research decision guide](RESEARCH_DECISION_GUIDE.md) — what matters, next actions, and evidence-reading routes
@@ -73,7 +76,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 Read the relevant result or question record **before** relying on an index summary. Confirm its hypotheses, status, evidence, and limitations. Some legacy state and frontier prose may still require reconciliation with later audited notes; use [authority rules](AUTHORITY.md) rather than treating a timestamp as decisive.
 
-For new work, preserve source notes and audits, keep navigation links short, and avoid appending theorem-by-theorem prose to this directory. Update a result or question record and its topic index only when the claim has been reviewed.
+For new work, retain proof/audit evidence and mathematically informative negative findings, keep navigation links short, and avoid appending theorem-by-theorem prose to this directory. Historical chronology is not a maintenance goal; consolidate reusable mathematical content by topic when independently checked. Update a result or question record and its topic index only when the claim has been reviewed.
 
 ## Consolidation and promotion review (October 26)
 
