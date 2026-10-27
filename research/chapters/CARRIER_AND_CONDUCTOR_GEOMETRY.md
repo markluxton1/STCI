@@ -58,6 +58,24 @@ For exact dependencies and links to the six independently reviewed proofs, use t
 
 A hypothetical STCI presentation of \(C_0\) therefore cannot use a quartic carrier. Combined with the separate lower-degree exclusions, this forces both defining degrees to be at least five. This is a degree bound, not a global nonexistence theorem.
 
+### 3.1 Genus-zero mechanism: vanishing, classification, cone
+
+On a resolution M of the normalization S, write L for the pullback of H. In the sectional-genus-zero case, L is nef and big with L squared equal to 4, and K_M.L=-6. The divisor K_M+L has negative intersection with L and no sections. Kawamata-Viehweg vanishing and Riemann-Roch give chi(O_M)=1. A general normalized hyperplane section Y is P1, and the restriction sequence for H yields h0(S,H)=6. Thus the complete system maps S finitely and birationally to a degree-four minimal-degree surface in P5. The possibilities include scrolls, the Veronese surface and the singular rational-normal quartic cone.
+
+The cone needs its own argument. On its F4 resolution, the hyperplane class is E+4f, with E squared -4. Its class group is Z[f] and [H]=4[f]. For a mate, the quartic-specific relation b(c-H)~0 forces c~H and makes c Cartier. The smooth curve c cannot pass through the cone vertex, whose local ring is singular. The remaining case is covered by the scroll/conductor exclusion. Exceptional corrections on the resolution must be retained; they cannot be dropped simply because c is smooth.
+
+Sources: [genus-zero audit](../notes/2026-10-09-session-normalization-genus-zero-independent-audit.md) and [nonrational-normalization audit](../notes/2026-10-09-session-nonrational-normalization-independent-audit.md).
+
+### 3.2 Genus-one mechanism: intrinsic projection, ribbon, partitions
+
+The normalization is rational by the ruled-surface argument retaining infinitely near multiplicities. Its minimal resolution is a weak degree-four del Pezzo surface; the normal anticanonical model is an ADE two-quadric intersection in P4. Restricting the complete anticanonical sections to the lifted curve determines the projection center: it deletes the middle s²t² coordinate of the rational normal quartic. This is deduced for every carrier in this lane, not assumed from a special family.
+
+An actual Cartier divisor 2c on the normalization defines a Cohen-Macaulay ribbon, including at ADE points where c need not be Cartier. Its nilideal and the entire nonreduced conductor enter the mate obstruction. Replacing this double by the ordinary square of the curve ideal would be incorrect.
+
+The remaining derivative is a binary quartic. Its five multiplicity partitions are [1,1,1,1], [2,1,1], [2,2], [3,1], and [4]. The first two are excluded by the derivative and ribbon-net argument. The remaining three require the complete repeated-partition calculations, including invisible quadric coefficients and boundary directions. The independent Macaulay2 audit records 29 successful checks; earlier failed scaffolding runs are not passing certificates.
+
+Sources: [genus-one interface audit](../notes/2026-10-10-session-genus-one-interface-independent-audit.md) and [repeated-partition audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
+
 ## 4. Cartier singleton lifts: a necessary classification, not a construction
 
 Under the stronger hypotheses that the entire reduced inverse image is a single curve \(c\cong C\) and **\(c\) is Cartier on the normalization**, R-0002 classifies the possible normalization/polarization pairs. The mate makes \(c\) ample, and \(|c|\) realizes a normal surface of minimal degree. The proof uses the Cartier restriction sequence, surface classification and the singular cone case.
