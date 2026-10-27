@@ -150,3 +150,25 @@ These are **not all counterexamples in the repository**. They are the important 
 Use **one concise global status/exclusions index**, not a sixth full chapter. Each chapter should contain (i) geometric motivation, (ii) established results with exact scopes, (iii) essential examples and failures, (iv) unresolved interfaces, (v) links to canonical proofs and exact certificates. Mathematical explanations may overlap; proof authority must not.
 
 **Next quality gate:** inspect the 36 canonical records' front matter and direct evidence links, and reconcile the unpromoted and counterexample tables with the source manifest. Only then start moving explanations and retiring superseded files. This design does not authorize deletions.
+
+## Canonical evidence audit — batch 1 (R-0001–R-0009)
+
+**Method:** read canonical YAML front matter and selected proof/limitations text, compare with the subject map. This is a **metadata and scope audit**, not an independent rerun of proofs or code.
+
+| Record | Evidence / audit situation | Reconciliation decision |
+|---|---|---|
+| R-0001 | Accepted proof assembly, independent dependency and factor audits linked; some evidence explicitly points to historical branch blobs | Preserve exact branch/blob provenance; don't assume every source has been migrated |
+| R-0002 | Two source notes and two independent audits; dependency R-0001 | C/G placement sound; classification is necessary under singleton Cartier hypotheses |
+| R-0003 | Source proof and acceptance in AUDITED_STATE; **independent_audits field empty** and limitation says reviewers reported in proof note, no separate audit artifact identified | Flag evidence-trace gap, **not** proof failure; retain proof note and acceptance |
+| R-0004 | Source note, independent review; depends on R-0002 and R-0003 | C/G/A membership; phase-image computation still open |
+| R-0005 | Two sources including characteristic-scope addendum, independent audit | Preserve balanced normal-bundle assumption; formal all-orders statement only |
+| R-0006 | Source and two audits; depends on R-0005 | Actual-CI bridge needs saturated everywhere-generated first relation and full initial ideal; retain as F/I interface |
+| R-0007 | Three proof notes and three independent audits; depends on R-0005/6 | Exact first/second obstruction model; global second zero locus unresolved |
+| R-0008 | Source and independent audit; no canonical dependencies | Graded Picard descent only; no formal or ambient realization |
+| R-0009 | Two sources and two independent audits; depends on R-0008 | Evaluation degeneration, not global exclusion; characteristic-zero apolar scope |
+
+**Specific metadata issue:** R-0003 is marked `proved` and accepted, but its `independent_audits: []` is intentionally explicit. Consolidation should not rewrite this as independently audited merely because other records are. The proof note may contain reviewer evidence; check it before altering metadata.
+
+**Source availability gate:** R-0001 explicitly references historical-branch proof and audit blobs. Before pruning branches or files, verify these are preserved on the intended retained refs or copied into stable evidence locations. A URL to a branch that may be deleted is not durable proof preservation.
+
+**Next batches:** R-0010–R-0018, R-0019–R-0027, R-0028–R-0036. For each, check evidence lists, dependencies, accepted-in records, exact limitations, and file availability. Only then create a source-retention/deletion plan.
