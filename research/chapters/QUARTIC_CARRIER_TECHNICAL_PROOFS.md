@@ -177,7 +177,26 @@ In each case the matches include \`research/archive/ULTRA_SOURCE_NOTES_INDEX.md\
 
 **Disposition update:** keep all three files in place for now. The extracted mathematics permits future narrative consolidation, but removing physical files is a separate migration requiring validator and evidence-manifest decisions. Do not quietly rewrite historical validation outputs to manufacture a passing result.
 
-## 7. Evidence and retention
+## 7. Broader proof-source review: ten further notes
+
+This pass expands beyond the genus-one repeated-partition subproblem to the genus-zero and genus-two structural reductions. A note can be historically superseded **without** its argument becoming mathematically dispensable.
+
+| Source | Distinct mathematical content or limitation | Retention decision |
+|---|---|---|
+| [Genus-zero owner proof](../notes/2026-10-09-session-normalization-sectional-genus-zero.md) | Six-section minimal-degree classification, singular cone exclusion, exceptional correction at singular normalization points | **Retain owner proof**, though the chapter now gives the global classification argument |
+| [Rational-cone proposal](../notes/2026-10-09-session-quartic-rational-cone-normalization.md) | Projected-cone description and local jet contradiction; explicitly marked as pending adversarial audit | **Retain pending claim comparison** with accepted genus-zero proof; do not silently promote proposed steps |
+| [Nonrational-normalization owner proof](../notes/2026-10-09-session-nonrational-quartic-normalizations.md) | Ruled-surface nef pushdown and multiplicity bound; rationality of the normalization | **Retain primary evidence** alongside the independent audit |
+| [Genus-two square-one counteraudit](../notes/2026-10-09-session-genus-two-degree-one-counteraudit.md) | Hodge equality \(L\equiv-2K\), upgrade to linear equivalence, anticanonical two-section contradiction | **Retain reusable numerical lemma**; narrower than the full genus-two theorem |
+| [Proposed line-blowup lift](../notes/2026-10-10-session-genus-two-blowup-lift-normality-proposed-audit.md) | Explicit trace-duality and crepancy argument, initially marked pending independent audit | **Retain as owner evidence**, cross-check against the later [independent lift audit](../notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md) |
+| [Conductor-line positions](../notes/2026-10-10-session-genus-two-conductor-line-position.md) | Scheme-theoretic intersection lengths, all length-two line positions, trisecant classification, branch-count counterexample | **Retain geometry and failure shield** |
+| [Marking and section pause audit](../notes/2026-10-10-session-genus-two-marking-and-section-pause-audit.md) | Ruled eight-blowup marking, vertical \(D_8\) lattice, nine-point plane marking; separately labels unfinished section analysis | **Retain technical marking**, do not present the paused argument as a completed exclusion |
+| [No-zero-horizontal audit](../notes/2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md) | Conditional one-/two-horizontal-line exclusion and its exact boundary | **Retain as independent bounded audit** |
+| [Horizontal-line budget owner](../notes/2026-10-10-session-genus-two-lambda1-horizontal-line-budget.md) | Free-chain anti-nef cycles, exact integral pullback bookkeeping, failed shortcuts | **Retain unique calculations and failure modes** |
+| [Trisecant carrier owner](../notes/2026-10-10-session-genus-two-trisecant-quartic-carriers.md) | Complete trisecant types and cubic ideal; later discriminant argument originally conditional | **Retain source geometry**; rely on later accepted endpoint/nonendpoint audits for final exclusion |
+
+**Scope conclusion.** These ten files are not a deletion batch. Several are narrow or preliminary, but their unique computations or audit boundaries are worth preserving. In particular, the unproved portions of an early owner note cannot be reclassified as established merely because a later theorem proves a similar conclusion by different means. Consolidation should extract the specific mathematical mechanism and keep its status explicit.
+
+## 8. Evidence and retention
 
 The exposition above reproduces the short universal inequalities and identifies the longer exact calculations. It does not re-execute Macaulay2, independently establish the classical classification theorems, or replace the source audits. The [independent assembly audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md) checks that the normal and nonnormal lanes cover every integral quartic and that the final lower-degree argument is noncircular.
 
