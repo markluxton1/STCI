@@ -255,6 +255,8 @@ The preceding arguments do not show that \(C_0\) is not a set-theoretic complete
 
 The natural research order is: understand the possible inverse support and divisor class on the normalization; compute the **full** conductor descent obstruction; then test whether a mate can exist. This avoids treating a successful normalization model, a numerical relation, or a reduced phase calculation as an actual STCI construction.
 
+The [quartic-carrier technical appendix](QUARTIC_CARRIER_TECHNICAL_PROOFS.md) now preserves the genus-one exact algebra, nonendpoint all-length inequality, and endpoint ADE/doubled-horizontal budget in a compact permanent home. It identifies source calculations still requiring retention.
+
 ## 8. Proof preservation and consolidation decisions
 
 This section is a **claim-level editorial disposition**, not permission to delete the supporting source files. The permanent exposition now contains the theorem statement, shared reductions, and decisive mechanism of each lane. What follows identifies the material that remains mathematically necessary for reconstructing those proofs.
