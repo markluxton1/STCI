@@ -71,3 +71,15 @@ This is **first-level reference closure**, not full transitive proof closure. In
 4. **Deletion eligibility:** mark a file redundant only when its unique mathematical content and evidence role have both been captured elsewhere with traceable references.
 
 **Audit state:** canonical metadata 36/36; first-level cited path existence 115/115; transitive proof/evidence closure **incomplete**.
+
+## Transitive proof dependencies: first layer
+
+Checked R-0001, R-0022 and R-0035 and their main proof notes. Against the complete Git tree at commit `5485c43`, **30 selected second-level source paths were present, zero missing**. This checks availability, not proof validity.
+
+**R-0001.** The October 11 acceptance organizes the integral quartic exclusion into six cases: normal carriers; nonnormal sectional genus 0; genus 1; genus 2 bisection; genus 2 nonendpoint trisecant; genus 2 endpoint trisecant. The last case invokes local ADE corrections and doubled-horizontal arguments. Preserve this case structure and its coverage audit. The two primary accepted proof/audit blobs also exist on the current branch, although canonical body links still target an older research branch.
+
+**R-0022.** The filtered (4,4) argument distinguishes the degree-three-defect case from the primitive-triple case and uses nonzero cubic-contact determinants of actual quartic pencils. The proof note records an incorrect earlier quadratic-contact sign and an overgeneralized fixed-ruling-line shortcut; preserve the corrected reasoning. The canonical **body** additionally cites an alternative K3/lattice proof and its audit, not included in the YAML evidence fields. This is a body-level preservation dependency, not a newly checked proof.
+
+**R-0035.** The normal-carrier source develops local detection of class-group torsion by Cartier indices along the ample rational curve, via a connected cyclic-cover argument. It distinguishes necessary local-index constraints from actual global torsion. The index/socle compatibility audit and inherited quadratic-direction argument are part of the proof chain. Preserve the mechanism, not just the bounded-index numerical conclusion.
+
+**Conclusion.** Canonical YAML alone does not encode all proof dependencies. Source-body links and inherited inputs must be traced before any deletion. This first-layer check is not exhaustive; no files have been removed or canonical theorem statuses changed.
