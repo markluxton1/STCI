@@ -1,6 +1,6 @@
 # 5. The exclusion results and their logical architecture
 
-This chapter records **what is excluded**, **how the cases were organized**, and **which historical arguments remain useful**. It is a guide to the accepted proof, **not** a substitute for the underlying case proofs and independent audits.
+This chapter records **what is excluded** and the hypotheses and proof architecture behind those exclusions. Older arguments are mentioned only when needed to prevent an obsolete open case from being mistaken for a current one. This guide does **not** replace the underlying case proofs and independent audits.
 
 ## 5.1 The precise theorem
 
@@ -64,7 +64,7 @@ Hence \(4\mid e\). Since degrees at most four are already excluded, the **first 
 
 The same principle applies to other degrees: \(4\mid de\) is necessary for the fixed degree-four curve, but generally far from sufficient.
 
-## 5.5 What happens to the older partial quartic arguments?
+## 5.5 Scope of older partial quartic arguments
 
 A completed theorem can supersede the **open status** of an earlier subcase without making its calculations false or useless.
 
@@ -76,7 +76,7 @@ A completed theorem can supersede the **open status** of an earlier subcase with
 | MF6 and thickening analyses in [STATE](../STATE.md) | Gorenstein pairings, defect identities, ancestor questions | Actual quartic-mate survivors |
 | Local-cohomology ancestor incidence in [STATE](../STATE.md) | Finite principal-part reduction and unresolved incidence | **Not** superseded as a distinct ancestor-incidence question |
 
-This is why older notes should remain accessible, but **not** be used as an alternative current status ledger.
+For present-day research decisions, use [STATE](../STATE.md) and [FRONTIER](../FRONTIER.md), rather than the old case labels. The independent [degree-(4,4) exclusion R-0022](../results/quartic_44_filtered_exclusion.md) is narrower than R-0001 and does not reopen quartic carriers. For residual intersections of arbitrary surfaces, see [residual intersections and jets](residual_intersections_and_jets.md): a quartic surface can appear in a proper intersection with residual curves without contradicting the STCI exclusion.
 
 ## 5.6 Relation to the other chapters
 
