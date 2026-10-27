@@ -55,3 +55,29 @@ Review characteristic-dependent constructions and arithmetic lifting (R-0012, R-
 **Audit still required:** locate and review the exact W_osc/W_bit universal plane-family source and its independent audit, including the rank-de and pushforward degree formulas. They are not verified by the documents inspected in this pass. Do not silently promote them based on summary mentions.
 
 **Sources:** research/notes/2026-10-25-ci-cycle-deformation-laboratory.md; research/notes/2026-10-25-ci-cycle-exploration-audit.md; research/notes/2026-10-25-ci-cycle-geometry-notebook.md; research/notes/2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md; canonical R-0023 and R-0024.
+
+
+## Theme 6 closure: universal special-plane incidence (reviewed, unpromoted)
+
+The source previously marked as missing is **research/notes/2026-10-24-special-sections-stci-derivation.md**, independently checked by **research/notes/2026-10-24-special-lines-planes-stci-audit.md** (sections 5 and 1–4). The claims below are independently reconstructed *research evidence*, not numbered canonical promotions.
+
+Let Z=V(F,G) be a proper (d,e) CI with **sole reduced support C**, and let m=de/4. For a degree-k family of planes over P1, the universal plane cuts a relative effective Cartier divisor W on Z×P1. Because every plane is a proper section of this sole-support nonplanar Z, W is finite flat of rank de over P1. The universal-plane exact sequence yields
+
+    deg f_*O_W = -k*de*(d+e-2)/2.
+
+For osculating planes k=4 and the **fundamental cycle** on the reduced carrier is m(3 Delta + Gamma_iota). For the bitangent plane family, it is m(2 Gamma_c+ + 2 Gamma_c-). These are cycle identities in the ambient product, not descriptions of the embedded thickened incidence algebra or a proof of nonexistence. Without sole support, a plane may contain residual components and properness of every section fails.
+
+The same audited note establishes pointwise local plane intersection lengths m*ord_p(H|C) under sole support, giving osculating (3m,m), bitangent (2m,2m), and hyperosculating 4m. Equal lengths do not determine local Hilbert functions or tangent cones. Restriction to lines has no analogous universal multiplication-by-m formula.
+
+**Global singularity qualification:** If either defining surface were smooth along *all* C, Cartier restriction and adjunction would imply 4e=m(14-4d) and de=4m, hence 16=d(14-4d), impossible for positive integer d. Thus each defining surface is singular *somewhere* on C. No common singular point is proved. The osculating normal-direction coincidence count 4d-6-deg A_F uses a nonzero first normal symbol and its saturated line; it does not imply a small universal bound. The explicit smooth-along-C cubic with six coincidences and its residual-line pair disprove such unscoped shortcuts.
+
+**Status:** the original W_osc/W_bit incidence gap is now located and reviewed. Theme 6 can be treated as covered at the thematic level, with canonical promotion and comprehensive proof replay separate decisions. Preserve the elegant incidence geometry as mathematics of independent interest.
+
+## Theme 7 evidence classification (initial tranche)
+
+- **Exact, scoped canonical witness:** R-0023 smooth residual quartic benchmark and line-plus-degree-11 degeneration; R-0024 fixed-boundary node-smoothing rank and tangent vectors. Retain their exact scripts, inputs, expected outputs, and independent audits.
+- **Independently audited but unpromoted deductions:** quartic Grassmannian boundary differential, universal plane-family finite-flatness and degree formula, osculating coincidence count. Preserve proofs and audit, without treating passing symbolic checks as promotion.
+- **Counterexample witnesses:** the cubic with six osculating coincidences, and (F,x0 F+q²) with two residual trisecants. Preserve because they identify precisely which attractive universal bounds are false.
+- **Exploratory experiments:** root-pencil motions, higher boundary repair, valuation/proximity heuristics. Preserve conceptual discoveries and reproducible calculations where they support a concrete claim; do not elevate exploratory outcomes to universal results.
+
+Further theme-7 work should check the full computational directory against the canonical result index, rather than infer coverage from the examples above.
