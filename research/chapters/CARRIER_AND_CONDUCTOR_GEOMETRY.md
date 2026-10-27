@@ -56,7 +56,15 @@ The last two rows cannot be combined by appealing to a generic trisecant. In par
 
 For exact dependencies and links to the six independently reviewed proofs, use the [quartic-carrier dependency graph](../MATHEMATICAL_CONSOLIDATION_QUARTIC_CARRIER_DEPENDENCIES.md), the [accepted assembly](../notes/2026-10-11-session-all-quartic-results-acceptance.md), and the [independent coverage audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md). This section is a **proof guide**; the six source proofs remain necessary until their arguments have been integrated and checked in full.
 
-A hypothetical STCI presentation of \(C_0\) therefore cannot use a quartic carrier. Combined with the separate lower-degree exclusions, this forces both defining degrees to be at least five. This is a degree bound, not a global nonexistence theorem.
+A hypothetical STCI presentation of \(C_0\) therefore cannot use a quartic carrier. Combined with the separate lower-degree exclusions, this forces both defining degrees to be at least five. The reduction includes **reducible and repeated equations**: F and G are coprime, and for any irreducible factor f of F, the proper intersection V(f,G) is a nonempty pure curve contained in C, hence has support C itself. Thus every factor is an integral carrier. A linear factor cannot contain the nonplanar curve; the unique quadric Q has C of class (1,3), whereas an ambient equation restricts to class (b,b); the all-cubic exclusion is a separate classical theorem. The quartic exclusion then removes degree four. This is a degree bound, not a global nonexistence theorem. See the [degree-factor audit](../notes/2026-10-11-session-degree-factor-and-mf6-scope-audit.md).
+
+### 3.0 Shared reductions and the normal case
+
+The assembly audit proves three prerequisites before splitting the nonnormal cases: generic regularity of every integral quartic along the fixed curve, rationality of every nonnormal quartic normalization, and full inverse support of a hypothetical mate. The rationality argument uses the ruled-surface intersection identity with **all infinitely near multiplicities**; it does not rely on the existence of a mate. Full inverse support uses purity of the pulled-back Cartier divisor and rules out isolated normalization points above C.
+
+For a **normal integral quartic**, the proof is a separate global surface argument, not an instance of the normalized sectional-genus-zero, -one or -two classification. Its inherited inputs include normal-quartic classification, rational-singularity and ADE-pair results, actual normal-sheaf bounds, and necessary exceptional-graph enumerations for both reduced and nonreduced cycles. The enumerations eliminate a necessary superset; they do not assert realization of each graph. The final exceptional-passage argument is geometric. The independent assembly audit checks that the required small-degree exclusions were proved independently and do not invoke the quartic-carrier theorem being assembled.
+
+Sources: [normal global audit](../notes/2026-10-07-session-normal-global-adversarial.md), [nonreduced-cycle audit](../notes/2026-10-07-session-normal-nonreduced-independent-audit.md), and [assembly audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md).
 
 ### 3.1 Genus-zero mechanism: vanishing, classification, cone
 
@@ -75,6 +83,14 @@ An actual Cartier divisor 2c on the normalization defines a Cohen-Macaulay ribbo
 The remaining derivative is a binary quartic. Its five multiplicity partitions are [1,1,1,1], [2,1,1], [2,2], [3,1], and [4]. The first two are excluded by the derivative and ribbon-net argument. The remaining three require the complete repeated-partition calculations, including invisible quadric coefficients and boundary directions. The independent Macaulay2 audit records 29 successful checks; earlier failed scaffolding runs are not passing certificates.
 
 Sources: [genus-one interface audit](../notes/2026-10-10-session-genus-one-interface-independent-audit.md) and [repeated-partition audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
+
+### 3.2a Shared genus-two geometry and exhaustion
+
+On the minimal resolution M of a genus-two normalization, the adjoint divisor f=K_M+L is a connected basepoint-free conic pencil. The actual exceptional correction Z satisfies q=-Z²>0, lambda=K_M.Z a nonnegative integer, q+lambda=4 and lambda²<=q. These force exactly two possibilities: (lambda,q)=(0,4) and (1,3). The bisection and trisecant cases are therefore exhaustive; an older assumption that q always equals four would miss the latter.
+
+In the trisecant case the conductor line lies in the degree-three ruling of the unique smooth quadric containing C. Its intersection with C is described by a cubic with either three distinct roots or a triple endpoint root; the opposite endpoint is obtained by reversal. The normal ADE model is the strict transform in the blowup of the conductor line; **it is not the potentially non-Gorenstein normalization S**. The actual conductor retains split, singular and nonreduced covers. These are shared prerequisites, not additional unexamined case assumptions.
+
+Sources: [genus-two adjoint audit](../notes/2026-10-09-session-genus-two-adjoint-independent-audit.md), [null-curve and correction audit](../notes/2026-10-09-session-genus-two-nullcurve-mate-independent-audit.md), [entire-conductor audit](../notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md), and [normal strict-transform audit](../notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md).
 
 ### 3.3 Genus-two bisection: a global conormal contradiction
 
