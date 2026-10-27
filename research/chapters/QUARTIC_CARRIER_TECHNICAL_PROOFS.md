@@ -64,7 +64,25 @@ Its zeros, including infinity and repeated roots, have total multiplicity three.
 \]
 The correction equation with \(z_B=1\) requires total block contribution three. If \(A\ne0\), the contact contributes strictly below two and the other roots contribute one; if \(A=0\), the contact order is \(k=2\) or \(3\), the contact contributes at most \((k+2)/2\), and the remaining roots contribute \((3-k)/2\), totaling at most \(5/2\). Both contradict three. This argument handles arbitrary ADE blocks, not just short \(A\)-chains. Its local-coordinate proof and hypotheses remain in the [endpoint independent audit](../notes/2026-10-10-session-genus-two-endpoint-full-independent-audit.md).
 
-## 5. Evidence and retention
+## 5. Two earlier proof paths: exact overlap and unique content
+
+The following comparison is based on reading the original notes, not just their titles or status labels. It determines **mathematical redundancy**, not yet safe file deletion.
+
+**Earlier endpoint irreducible-residual note.** The [conditional irreducible-conic proof](../notes/2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md) assumes \(D_T=B_T+R\) with \(R\) irreducible of class \((1,2)\). It identifies the endpoint blowup chart \(a=r,b=r,y=r^3\), writes \(aR(a,b)+yH=0\), and uses the cubic contact to force \(R(r,r)\) to vanish to order at least two. The graph \(a=\phi(b)\) then has \(\phi(0)=0,\phi'(0)=1\), so the degree-two map \(R\to\Gamma\) is unramified at the endpoint. Its two transverse crossings yield the same all-length inequality reproduced in Section 3. The later [full endpoint reduction](../notes/2026-10-10-session-genus-two-endpoint-full-quartic-reduction.md) and [coverage audit](../notes/2026-10-10-session-genus-two-endpoint-full-independent-audit.md) handle **all** residual types. The earlier note's distinct value is the short geometric derivation of the irreducible graph's transverse crossings. This derivation is not yet reproduced in full in the permanent exposition; **retain the note pending extraction**. Its conditional theorem is subsumed, but that alone is not a reason to delete its proof.
+
+**Earlier bisection quadratic-descent note.** The [quadratic compression proof](../notes/2026-10-10-session-genus-two-bisection-quadratic-descent.md) derives \(2Z=\sum_t k_tF_t-2R\) from four blowups (including infinitely near centers), so \(2c\sim2H\). It then studies the entire conductor sequence
+\[
+0\to\mathcal O_X\to\nu_*\mathcal O_S\to\mathcal O_\Gamma(-2)\to0
+\]
+and its rank-two algebra \(p_*\mathcal O_D=\mathcal O_\Gamma\oplus\mathcal O_\Gamma(-2)\), with trace-zero generator \(w\) satisfying \(w^2=\delta\). The compressed quadratic section has conductor restriction \(Q|_D=m+w\), with \(m\in H^0(\Gamma,\mathcal O(2))\). If \(m=0\), \(Q^2\) descends to an ambient quartic, contradicting the independent \((4,4)\) exclusion. For \(m\ne0\), power descent forces \(\delta=r^2\) and \(m=\alpha r\); the split branches have \(Q_\pm=(\alpha\pm1)r\), and descent of \(Q^n\) requires
+\[
+\left(\frac{\alpha+1}{\alpha-1}\right)^n=1.
+\]
+These are exact **conductor-power** constraints, not merely a weaker statement that the bisection lane is impossible. The later [global conormal proof](../notes/2026-10-10-session-genus-two-bisection-full-independent-audit.md) excludes the lane more efficiently but does not make the root-of-unity and split-conductor calculations mathematically empty. They are reusable for other normalization/descent problems. **Retain these calculations as a separate conditional lemma**; the source's formerly open possibilities are superseded by the conormal contradiction.
+
+The two sources therefore have different retention status: the endpoint note is a **candidate for retirement after its geometric graph argument is extracted**, whereas the bisection note contains **independent conductor algebra worth retaining** even though its mate-existence motivation has closed.
+
+## 6. Evidence and retention
 
 The exposition above reproduces the short universal inequalities and identifies the longer exact calculations. It does not re-execute Macaulay2, independently establish the classical classification theorems, or replace the source audits. The [independent assembly audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md) checks that the normal and nonnormal lanes cover every integral quartic and that the final lower-degree argument is noncircular.
 
