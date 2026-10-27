@@ -13,12 +13,12 @@ scope:
 statement: "All ordinary J-adic layers J^i/J^(i+1) are locally free on C and every graded fiber is a binary complete intersection of degrees (r,s)."
 dependencies: []
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/codex/normal-cone-rigidity-2026-10-19/research/notes/2026-10-19-saturated-first-relation-spectral-bridge.md"
-  - "https://github.com/markluxton1/STCI/blob/codex/normal-cone-rigidity-2026-10-19/research/notes/2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md"
+  - "research/notes/2026-10-19-saturated-first-relation-spectral-bridge.md"
+  - "research/notes/2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/codex/normal-cone-rigidity-2026-10-19/research/notes/2026-10-19-normal-flatness-adversarial-audit.md"
-  - "https://github.com/markluxton1/STCI/blob/codex/normal-cone-rigidity-2026-10-19/research/notes/2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/codex/normal-cone-rigidity-2026-10-19/research/notes/2026-10-19-normal-flatness-adversarial-audit.md"
+  - "research/notes/2026-10-19-normal-flatness-adversarial-audit.md"
+  - "research/notes/2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit.md"
+accepted_in: "research/notes/2026-10-19-normal-flatness-adversarial-audit.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
