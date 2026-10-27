@@ -17,6 +17,43 @@ Viable alternative lanes include normalization/conductor descent and projection 
 - Identify which positive-characteristic constructions depend on splitting or Frobenius and which restrictions persist in characteristic zero.
 - Reassess older carrier, conductor, root and jet directions by their remaining open implications, not by chronology.
 
+
+## Thematic review reconciliation: conditional and failed arguments (October 27)
+
+**Scope:** navigation for the mathematical consolidation, not a new theorem, promotion, or replacement for the 36 canonical result records. The dated material below is retained for its *mathematical lessons*, not as a chronological research program.
+
+### Distinct unresolved interfaces
+
+- **Higher-degree existence:** R-0001 eliminates integral quartic carriers of the fixed C0 in characteristic zero, hence both STCI degrees are at least five. The unrestricted problem remains open. R-0022 gives a separate (4,4) argument, not an all-degree theorem.
+- **Carrier descent:** R-0002 lists three *necessary* normalization models under Cartier singleton-lift hypotheses; actual admissible projections and full-conductor descent remain separate open tasks. R-0003 gives a fixed-carrier criterion, R-0004 a finite-type phase reduction, not computed phase images. R-0017 shows singleton reduced inverse support alone does not suffice.
+- **Filtered equations:** R-0010, R-0013 and R-0016 require specific saturated/nonsaturated actual first-relation hypotheses. R-0032 and R-0033 are conditional numerical/lifting statements. The entirely-thick case (both generic normal orders at least two) is not covered by order-one arguments.
+- **Root geometry:** R-0005–R-0011 constrain graded/formal root configurations under differing hypotheses. Graded spectral Picard torsion, an all-orders Cartier lift, and actual global equations are three separate realizability problems. Singular/nonreduced roots, nonsaturation, special-point degenerations and incomplete second zero loci remain genuine gaps.
+- **Local-to-global residual contact:** R-0019 gives an auxiliary cycle identity under finite-flat curvilinear/saturated-flag assumptions, not an automatic residual curve downstairs. R-0030 comparison defects can be punctual; their occurrence for a sole-support CI is not settled by residual-support examples. Weighted/initial data without full cancellations and adapted valuations do not determine intersection length.
+- **Characteristic:** R-0020 conormal splitting differs in characteristic two; R-0021 is a flat integral pair whose generic reduced support splits into four curves; R-0012 prohibits prescribed embedded lifts over two specified unramified mixed-characteristic bases, not arbitrary ramified lifts or arbitrary characteristic-zero STCI. The positive-characteristic existence mechanism is a separate subject and should be preserved.
+- **Special incidence:** universal osculating/bitangent plane cycles, their finite-flat pushforward degree, and individual osculating coincidence counts are independently reviewed but unpromoted. Each hypothetical defining surface is singular *somewhere* on C; no theorem forces them to share a singular point.
+
+### Failed shortcuts worth retaining as counterexamples or warnings
+
+1. **Primitive e=2 is empty:** false; primitive quadruples exist. A later factorization result excludes specified quartic-mate branches, and R-0001 now excludes all integral quartic mates. Keep the geometric e=2 classification rather than the obsolete exclusion.
+2. **Common first normal direction forces a tiny coincidence count:** false without additional sole-support/global hypotheses. An explicit smooth-along-C cubic has six osculating coincidences; a proper pair sharing its saturated direction has residual trisecant lines.
+3. **Dependent first symbols determine the whole thickening:** false. The characteristic-two prescribed pair has an essential degree-four initial equation produced by cancellation.
+4. **Flat arithmetic lifting preserves reduced support:** false for the mu4 family; characteristic-zero fibers have extra reduced components.
+5. **A singleton inverse-support projection admits a mate:** false in R-0017 because nilpotent conductor descent fails.
+6. **First-normal, Hilbert-function, or socle budgets alone exclude all STCI pairs:** unsupported; higher contact, saturation defects, and global realization remain.
+7. **Exceptional vertical cycles imply downstairs residual curves:** false as a general inference; actual residual cycle or proper intersection argument is needed.
+8. **Plane-section length determines local plane algebra:** false; distinct supported rank-four transverse algebras give identical lengths and different embedding dimensions.
+9. **Every hypothetical STCI pair has a common singular point on C:** not proved. Individual global singularity of each defining surface is a weaker, independently reviewed conclusion.
+10. **A small finite computational PASS proves a global theorem:** false; exact scripts certify stated finite calculations, with inherited classification inputs and untested families explicitly separated.
+
+### Positive mathematical directions independent of obstruction
+
+Preserve intrinsic marked-quartic geometry (projection from the rational normal quartic, dual/flag schemes, osculating and bitangent correspondences, cubic ruling, normalizations, conductor geometry) **because it is interesting**, even where no STCI consequence is known. Likewise preserve concrete residual-curve deformation and attachment geometry.
+
+### Reconciliation checklist
+
+Before retiring files, assign each canonical R-0001–R-0036 record, important unpromoted proposition, counterexample, and open interface **one permanent subject home**, and preserve direct links to its proof and essential exact certificates. Compare against results/INDEX.md, STATE.md, FRONTIER.md, computations/README.md and validation audits. Resolve conflicting historical status labels; do not retain obsolete priorities as active instructions. This is a content audit, not a file-count minimization exercise.
+
+
 ## Historical frontier record
 
 The sections below preserve earlier research proposals and their original context. Expressions such as 'leading next investigation', 'current recommendation', and 'active' in those dated sections describe **the priorities at that time**, not today's assignment. Canonical result status must be checked separately.
