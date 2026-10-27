@@ -7,7 +7,6 @@ Historical GitHub URLs are resolved to their local research/ paths where present
 this verifies availability, not the validity of a historical branch URL.
 """
 from pathlib import Path
-from collections import Counter
 import re
 import sys
 from urllib.parse import urlparse
@@ -33,7 +32,7 @@ def check_source(value, record, field):
         return
     if value.startswith("https://github.com/"):
         u = urlparse(value)
-        match = re.match(r"/markluxton1/STCI/blob/[^/]+/(research/.+)", u.path)
+        match = re.match(r"/markluxton1/STCI/blob/.+?/(research/.+)", u.path)
         if not match:
             warnings.append(f"{record}: external/unrecognized source {value}")
             return
