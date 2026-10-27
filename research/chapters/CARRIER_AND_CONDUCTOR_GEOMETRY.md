@@ -76,6 +76,30 @@ The remaining derivative is a binary quartic. Its five multiplicity partitions a
 
 Sources: [genus-one interface audit](../notes/2026-10-10-session-genus-one-interface-independent-audit.md) and [repeated-partition audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
 
+### 3.3 Genus-two bisection: a global conormal contradiction
+
+The genus-two normalization admits a second-pencil reduction, with bisection case denoted lambda=0 in the source. Under a hypothetical mate, the accepted conductor geometry produces an **actual Cartier double** R_C supported on the smooth lifted curve c. Its Cohen-Macaulay purity makes the nilideal J square-zero globally, not merely generically, and the source calculates J=O_C(-8). This is a genuine ribbon on the normalization, including its singular points.
+
+The morphism from this ribbon to P3 induces a global conormal map N*_(C/P3) -> J. It is nonzero: away from the conductor line the normalization is an isomorphism, so the embedded ribbon generates its nilideal from the ambient curve ideal. For the fixed C in characteristic zero, N*_(C/P3)=O(-7) direct sum O(-7). Hence Hom(N*,O(-8))=0. Contradiction. This **global** argument excludes the whole bisection lane; the older quadratic-conductor chain remains a valid but weaker conditional analysis.
+
+Source: [bisection independent proof and audit](../notes/2026-10-10-session-genus-two-bisection-full-independent-audit.md).
+
+### 3.4 Nonendpoint trisecant: support and exceptional chains
+
+In the lambda=1 trisecant stratum, the lifted curve is a section of the second ruling. A hypothetical mate forces **singleton inverse support at every conductor contact**: all points in the normalization fiber above a point of C must lie on the single lifted curve. On the normal conic model the exceptional divisor has bidegree (2,2); a distinguished horizontal component B has class (1,0). The audit exhausts multiplicity two on B, multiplicity one with reducible residual, and multiplicity one with integral residual.
+
+In the integral residual case the residual has class (1,2), is a smooth rational graph over the ruling, and meets B in two transverse points. Exceptional corrections are then controlled by ADE chains at the contacts. The exact chain solution, with arbitrary chain lengths and all contact positions, contradicts the required correction budget. This is a universal positivity/intersection contradiction, not a finite search through short chains. The proof's independent symbolic replay supplements rather than replaces that argument.
+
+Sources: [nonendpoint independent audit](../notes/2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md) and [owner's conic obstruction](../notes/2026-10-10-session-genus-two-nonendpoint-trisecant-conic-obstruction.md).
+
+### 3.5 Endpoint trisecant: the full quartic family matters
+
+At the endpoint, the conductor contact is triple, and the nonendpoint transversality argument cannot simply be reused. The owner first derives the **complete** quartic equation from the ideal identity I(C) intersect (x2,x3)^2=(q*x2,q*x3,D). Its exceptional polynomial is then exhausted by the four coefficient regimes c0 nonzero; a1 nonzero; a1=0 with b1 nonzero; and a1=b1=0 with c1 nonzero. The last regime includes doubled horizontal components, while the preceding regime includes triple residual contact and local A/D configurations.
+
+The independent audit checks the coefficient-zero and doubled-component gaps, the two distinct residual intersections, triple-contact ADE corrections, and arbitrary ADE roots in the doubled-horizontal case. Each regime contradicts the mate correction identities. Reversal handles the opposite endpoint. A former argument restricted to irreducible residual curves was **not** an exhaustion proof and cannot stand in for these additional cases.
+
+Sources: [full endpoint reduction](../notes/2026-10-10-session-genus-two-endpoint-full-quartic-reduction.md), [independent coverage audit](../notes/2026-10-10-session-genus-two-endpoint-full-independent-audit.md), [local ADE correction audit](../notes/2026-10-10-session-endpoint-local-ade-correction-audit.md), and [doubled-horizontal audit](../notes/2026-10-10-session-genus-two-endpoint-double-horizontal-independent-audit.md).
+
 ## 4. Cartier singleton lifts: a necessary classification, not a construction
 
 Under the stronger hypotheses that the entire reduced inverse image is a single curve \(c\cong C\) and **\(c\) is Cartier on the normalization**, R-0002 classifies the possible normalization/polarization pairs. The mate makes \(c\) ample, and \(|c|\) realizes a normal surface of minimal degree. The proof uses the Cartier restriction sequence, surface classification and the singular cone case.
