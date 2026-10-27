@@ -20,6 +20,12 @@ Intersecting with \(H\) gives \(n\deg C=b\deg X\), since \(H\cdot c=\deg C\) and
 
 The conceptual question is therefore twofold: **can the inverse-support divisor have the required polarization class upstairs, and can its defining section descend through the conductor downstairs?** Neither condition alone suffices.
 
+### 1.1 Reduction to integral factors and the lower-degree bound
+
+For a genuine set-theoretic presentation \(V(F,G)=C\), the two forms are coprime: a common irreducible factor would contribute a surface to their intersection. Let \(f\) be any irreducible factor of \(F\). Then \(f\) and \(G\) are coprime, so \(V(f,G)\) is a nonempty projective complete intersection of pure dimension one. Its support is contained in the irreducible curve \(C\), hence is exactly \(C\). Thus **every irreducible factor of either defining equation is itself an integral carrier with a mate**; multiplicities of factors do not alter the support argument.
+
+For the fixed curve, linear carriers are impossible because \(C\) is nonplanar. Its unique quadric \(Q\) is smooth, with \(C\) of bidegree \((1,3)\); an ambient equation of degree \(b\) restricts to \((b,b)\), which cannot equal a positive multiple of \((1,3)\). Integral cubic carriers are excluded by the separately verified classical theorem, and integral quartic carriers by R-0001. Therefore **each irreducible factor** of \(F\) and \(G\) has degree at least five, and in particular \(\deg F,\deg G\ge5\). This conclusion does not assume the defining equations are irreducible and does not establish that any higher-degree presentation exists. See the [degree-factor audit](../notes/2026-10-11-session-degree-factor-and-mf6-scope-audit.md).
+
 ## 2. The normalization is not the original carrier
 
 The normalization \(S\) remembers divisors and intersection theory more transparently than \(X\), but it can lose gluing conditions. Let \(\mathfrak c\) denote the conductor ideal of \(\mathcal O_X\subset\nu_*\mathcal O_S\). A section upstairs may have the correct zero support and still fail to be a section downstairs because its values or infinitesimal jets disagree across the conductor.
@@ -56,7 +62,7 @@ The last two rows cannot be combined by appealing to a generic trisecant. In par
 
 For exact dependencies and links to the six independently reviewed proofs, use the [quartic-carrier dependency graph](../MATHEMATICAL_CONSOLIDATION_QUARTIC_CARRIER_DEPENDENCIES.md), the [accepted assembly](../notes/2026-10-11-session-all-quartic-results-acceptance.md), and the [independent coverage audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md). This section is a **proof guide**; the six source proofs remain necessary until their arguments have been integrated and checked in full.
 
-A hypothetical STCI presentation of \(C_0\) therefore cannot use a quartic carrier. Combined with the separate lower-degree exclusions, this forces both defining degrees to be at least five. The reduction includes **reducible and repeated equations**: F and G are coprime, and for any irreducible factor f of F, the proper intersection V(f,G) is a nonempty pure curve contained in C, hence has support C itself. Thus every factor is an integral carrier. A linear factor cannot contain the nonplanar curve; the unique quadric Q has C of class (1,3), whereas an ambient equation restricts to class (b,b); the all-cubic exclusion is a separate classical theorem. The quartic exclusion then removes degree four. This is a degree bound, not a global nonexistence theorem. See the [degree-factor audit](../notes/2026-10-11-session-degree-factor-and-mf6-scope-audit.md).
+The full factor reduction and the resulting degree bound are proved in Section 1.1; the quartic-carrier theorem is its deepest input.
 
 ### 3.0 Shared reductions and the normal case
 
