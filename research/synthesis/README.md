@@ -19,6 +19,7 @@ Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and wh
 
 ## Provisional research interfaces
 
+- [Normal-filtration defects and boundary lifting](normal_filtration_boundary_obstructions.md) — first Phase 2 consolidation; distinguishes canonical local results from provisional one-step/global obstruction arguments.
 - [Formal normal geometry and residual intersections](formal-normal-intersection.md) — exploratory synthesis of the broader intersection setting, normal filtrations, exceptional geometry, valuations, and tropical viewpoints; **not** a promoted result.
 
 **Evidence convention.** **Established** means supported by a promoted result or specifically identified audited source; **conditional** means its hypotheses must be checked before application; **provisional** means the discussion is an organizing interpretation or a research question. The synthesis does not promote new theorems.
