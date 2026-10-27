@@ -16,11 +16,11 @@ statement: "The actual intersection of the two strict divisors is a primitive el
 dependencies:
   - STCI-R-0005
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md"
+  - "research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-local-algebra-review.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md"
+  - "research/notes/2026-10-15-generalization-inseparable-root-blowup-local-algebra-review.md"
+  - "research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md"
+accepted_in: "research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
