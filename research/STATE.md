@@ -1,8 +1,8 @@
 # Canonical research state
 
-## Research activity status — intrinsic geometry interlude (2026-10-24)
+## Research activity status — October 27, 2026
 
-Active STCI-obstruction research is **paused by choice**, not because the problem has been settled. The current focus is exploring the intrinsic geometry of the embedded rational quartic for its own sake; possible STCI consequences are welcome but not the objective. See [the exploration agenda](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md). All proved, conditional, provisional, and open mathematical statuses below are unchanged.
+The October 24 intrinsic-geometry interlude is a preserved historical phase, not an accurate description of all subsequent activity. Research has since resumed on complete-intersection cycles, normal filtrations, weighted initial ideals, and boundary obstructions. The October 26–27 notes linked in [research navigation](INDEX.md) are **provisional evidence**, not automatically promoted theorems. The unrestricted characteristic-zero STCI question remains open. See [current frontier](FRONTIER.md) and [authority rules](AUTHORITY.md).
 
 
 This is the durable entry point for claims currently regarded as established in the STCI project. It replaces dated handoffs and reports as the place to determine current status. Git history and the archived dated state preserve provenance.
