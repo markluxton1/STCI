@@ -12,6 +12,15 @@ This is a **navigation and prioritization guide**, not a new theorem, proof audi
 | Restricted reduction | Projection phase/torsion-coset criterion | [STCI-R-0004](results/projection_phase_reduction.md) | Computation of actual phase images is still missing |
 | Conditional infinitesimal toolkit | Smooth-root formal obstruction, actual-CI bridge, quadratic obstruction, spectral Picard criterion, pure-power degeneration | [STCI-R-0005 through 0009](results/INDEX.md) | Powerful only with exact hypotheses; not an arbitrary-STCI exclusion |
 
+## Later structural constraints that change the choices
+
+- [R-0030](results/local_filtration_comparison_defect.md) gives a scoped local comparison and punctual-defect criterion; existence of a supported, generically defect-free punctual defect remains open.
+- [R-0032](results/full_conormal_socle_budget.md) and [R-0033](results/constant_first_relation_lifting.md) constrain filtration and lifting under stated hypotheses, not arbitrary global intersections.
+- [R-0034](results/normal_carrier_index_socle.md), [R-0035](results/normal_carrier_bounded_index_exclusion.md), and [R-0036](results/pointwise_conductor_socle_defect.md) sharpen conditional carrier/index/conductor restrictions. In particular, bounded-index normal-carrier exclusion does not dispose of higher-index or nonnormal cases.
+- [R-0019](results/quasiprimitive_residual_cycles.md) and [R-0023](results/ci_quartic_explicit_residual_geometry.md) should be read together when proposing a defect-to-residual bridge: scoped residual-cycle statements and explicit examples do not supply the unrestricted implication.
+
+Use the [open-question locator](questions/README.md) for precise missing bridges and [MAP.md](MAP.md) for all 36 records. These additions update available tools, **not** the ranking of research directions.
+
 ## New accepted but scope-limited constraints (October 21)
 
 The [reconciliation decision](RECONCILIATION_2026-10-21.md) accepts [STCI-R-0012–0019](results/INDEX.md). The arithmetic prescribed-Z4 nonlifting theorem (R0012) is not unrestricted characteristic-zero nonexistence. The actual-generator theorem R0013 rules out movement one *only* under saturated/full generic binary-CI hypotheses; R0014 gives six necessary movement-two numerical rows and R0015 proves finiteness at each movement through eight, not arbitrary classification. R0016 quantifies **nonsaturated** first-relation/resultant defects; R0019 gives a **saturated curvilinear finite-flat** pointwise residual-cycle determinant formula and first-normal bound. R0017 excludes a degree-sixteen plane-normalization *subfamily*; R0018 excludes all-orders roots only with a **regular lifted formal surface**.
