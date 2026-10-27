@@ -102,6 +102,35 @@ The remaining derivative is a binary quartic. Its five multiplicity partitions a
 
 Sources: [genus-one interface audit](../notes/2026-10-10-session-genus-one-interface-independent-audit.md) and [repeated-partition audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
 
+#### Genus-one projection and ribbon: the missing derivation
+
+The degree-four weak del Pezzo identification is not just numerical. The genus-one ADE proof obtains \(K_M\sim-L\) and the crepant anticanonical model. The correction \(Z=L-c^\#\) lies in the \(D_5\) Picard lattice with \(Z^2=-2\); the exceptional-lattice saturation argument leaves only two configurations and shows \(2Z\) belongs to the exceptional lattice. Consequently \(2c\sim2H\) as Weil divisors on \(S\), an **actual Cartier equivalence**. This supplies a section \(Q\in H^0(S,2H)\) with entire divisor \(2c\). Any hypothetical mate restricts upstairs to a scalar power of \(Q\), but that does not assert that \(Q\) itself descends.
+
+The complete anticanonical system has five sections and identifies \(S\) with a normal intersection of two quadrics in \(\mathbf P^4\). Restriction
+\[
+H^0(S,H)\longrightarrow H^0(c,\mathcal O_{\mathbf P^1}(4))
+\]
+is injective: a hyperplane section containing \(c\) would equal \(c\) by degree, making \(c\) Cartier and contradicting the nonzero exceptional correction. Both spaces have dimension five, so it is an isomorphism. The complete coordinates on \(c\) are therefore
+\[
+(Y_0,\ldots,Y_4)=(s^4,s^3t,s^2t^2,st^3,t^4).
+\]
+The given projection to the fixed \(C\subset\mathbf P^3\) **necessarily deletes \(Y_2\)**. Its center misses \(S\), because the original four sections generate \(H\).
+
+The conductor can be computed without discarding its scheme structure. Writing \(z=Y_2\), suitable generators of the two-quadric ideal have the form
+\[
+Q_1=z^2-Az-R_1,\qquad Q_2=Lz+R,
+\]
+with \(A,L\) linear and \(R_1,R\) quadratic in the retained coordinates. Elimination gives the quartic equation \(R^2+ALR-R_1L^2=0\). The independent algebra proof identifies the **entire** conductor as \((L,R)\), including nonreduced fibers; it is not enough to use the reduced support. The section \(Q\) above defines an actual \((2,2,2)\) complete-intersection double of the rational normal quartic in \(\mathbf P^4\). Its arithmetic genus is five, so its square-zero nilideal is \(\mathcal O_{\mathbf P^1}(-6)\). Since the conormal bundle of the rational normal quartic in \(\mathbf P^4\) is \(\mathcal O(-6)^3\), every such embedded ribbon is encoded by a nonzero quotient direction. The source's explicit ribbon-net matrix
+\[
+M(d)=
+\begin{pmatrix}
+d_0&d_1&d_2\\
+d_1&d_2+d_3&d_4\\
+d_2&d_4&d_5
+\end{pmatrix}
+\]
+has to annihilate that direction for each defining quadric. This turns the geometric classification into the five exhaustive binary-quartic root partitions discussed above. The full ideal certificates, direction boundaries and conductor-power obstruction remain in the [genus-one interface audit](../notes/2026-10-10-session-genus-one-interface-independent-audit.md) and [repeated-partition audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
+
 ### 3.2a Shared genus-two geometry and exhaustion
 
 On the minimal resolution M of a genus-two normalization, the adjoint divisor f=K_M+L is a connected basepoint-free conic pencil. The actual exceptional correction Z satisfies q=-Z²>0, lambda=K_M.Z a nonnegative integer, q+lambda=4 and lambda²<=q. These force exactly two possibilities: (lambda,q)=(0,4) and (1,3). The bisection and trisecant cases are therefore exhaustive; an older assumption that q always equals four would miss the latter.
