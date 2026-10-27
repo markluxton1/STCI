@@ -1,6 +1,6 @@
 # Research navigation
 
-- [Intrinsic geometry interlude (October 24)](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md) — current voluntary pause of STCI-directed work; geometry-first exploration agenda, not theorem authority
+- [Intrinsic geometry interlude (October 24)](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md) — geometry-first agenda and earlier pause of STCI-directed work; later cycle and valuative continuations are linked below
 
 This page is a **directory**, not an independent source of mathematical claims.
 
@@ -25,6 +25,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md) — current tree inventory and evidence-retention decisions
 
 - [October 24 intrinsic quartic geometry: automorphisms and bitangents](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) — exploratory proofs, independent audits, and figures
+- [October 25 complete-intersection cycles containing the quartic](notes/2026-10-25-ci-cycle-geometry-notebook.md) — deformation notebook and [adaptive valuative continuation](notes/2026-10-25-ci-cycle-adaptive-valuative-notebook.md), conductor and topology pictures, cycle-dependent proximity measures, explicit pencils, and independent audits; no canonical promotion
 - [October 24 quartic flag, conormal geometry, and three duals](notes/2026-10-24-quartic-flag-duality-synthesis.md) — global divisor flag, residual double cover, cubic Gauss resolution, intersection schemes, and independent audit; provisional geometry
 - [October 24 rational normal quartic and ruled surfaces](notes/2026-10-24-p4-ruled-surfaces-synthesis.md) — resolved projection in four-space, cone and cubic-scroll normalizations, arithmetic section configurations, and independent audits; provisional intrinsic geometry
 - [October 24 special lines and planes](notes/2026-10-24-special-lines-planes-research-note.md) — exploratory incidence and dual geometry, independently audited
@@ -39,6 +40,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Intrinsic (4,4) K3 obstruction and handoff](notes/2026-10-23-intrinsic-44-research-report.md) — independently reviewed new proof, contact and valuation constructions; not canonically promoted
 
 - [October 23 higher-initial-ideals and valuations reconciliation](RECONCILIATION_2026-10-23-VALUATIONS.md) — four provisional notes, local criterion audit, and canonical-scope boundaries
+- [October 26 endpoint-four actual sextics and a fixed-carrier certificate](notes/2026-10-25-endpoint4-actual-sextics.md) — actual sextic family; one displayed carrier forces residual degree at least eight for every proper degree-sixteen mate, with two finite jet implementations and a nonsplit-node audit; unpromoted
 - [Equality, orders, filtration, and duality](notes/2026-10-21-equality-orders-filtration-duality.md) — provisional generic Hilbert-function framework
 - [Higher initial ideals and valuations](notes/2026-10-21-higher-initial-ideals-valuations.md) — cancellation examples and globalization limits
 - [Residual-cycle and wedge distinctions](notes/2026-10-21-residual-cycle-proposition-audit.md) — elementary cycle identity and tangent/singular cases
@@ -65,3 +67,28 @@ This page is a **directory**, not an independent source of mathematical claims.
 Read the relevant result or question record **before** relying on an index summary. Confirm its hypotheses, status, evidence, and limitations. Some legacy state and frontier prose may still require reconciliation with later audited notes; use [authority rules](AUTHORITY.md) rather than treating a timestamp as decisive.
 
 For new work, preserve source notes and audits, keep navigation links short, and avoid appending theorem-by-theorem prose to this directory. Update a result or question record and its topic index only when the claim has been reviewed.
+
+## Consolidation and promotion review (October 26)
+
+- [Consolidation audit](CONSOLIDATION_AUDIT_2026-10-26.md) — branch ancestry, evidence preservation, review criteria; no promotions
+- [Provisional inventory](PROVISIONAL_INVENTORY.md) — initial topic-level intake; claim-level sweep outstanding
+- [Promotion queue](PROMOTION_QUEUE.md) — scoped candidates and required audits, not canonical theorems
+
+- [Claim-level review, October 26](CLAIM_REVIEW_2026-10-26.md) — fourteen source-linked claims, dependencies and remaining promotion gates; no canonical promotion
+
+- [Geometry and K3 claim review](CLAIM_REVIEW_GEOMETRY_K3_2026-10-26.md) — CR-15 through CR-31
+- [Arithmetic and scheme claim review](CLAIM_REVIEW_ARITHMETIC_SCHEMES_2026-10-26.md) — CR-32 through CR-46
+
+- [Historical source manifest](HISTORICAL_SOURCE_MANIFEST_2026-10-26.md) — reconciles Ultra and Space Curves path inventories, preservation decisions and outstanding current-tree gaps
+
+- [PR #76 exact path delta](PR76_PATH_DELTA_2026-10-26.md) — GitHub compare manifest of 57 changed paths against main, with roles and current-tree completeness caveat
+
+## October 26 promotion status on adjudication branch
+
+The canonical [results index](results/INDEX.md) now links R-0023 through R-0029, covering scoped explicit residual, fixed-sextic, flag, dual-scheme and ruled-model results. The [consolidated promotion matrix](CONSOLIDATED_PROMOTION_MATRIX_2026-10-26.md), [provisional inventory](PROVISIONAL_INVENTORY.md), and [historical source manifest](HISTORICAL_SOURCE_MANIFEST_2026-10-26.md) distinguish these promotions from the still-open filtration claims CR-12–13 and the incomplete current-head path inventory. These are review-branch changes, not a merge into main.
+
+## Filtration result split
+
+The canonical results index includes R-0030 (local comparison and punctual torsion) and R-0031 (the prescribed characteristic-two fourth equation). Their limited scopes do not settle the supported punctual-defect problem or the general STCI question.
+
+- [October 26 structural theorem promotions](STRUCTURAL_PROMOTION_NAV_2026-10-26.md) — scoped R-0032 through R-0036 and remaining interfaces.

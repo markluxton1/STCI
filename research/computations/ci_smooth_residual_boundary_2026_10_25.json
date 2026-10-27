@@ -1,0 +1,38 @@
+{
+  "scope": "Actual QQ quartics, generic first-normal independence, squarefree boundary only.",
+  "checks": {
+    "homogeneous_quartics": true,
+    "actual_global_vanishing_on_C": true,
+    "independent_determinant_formula": true,
+    "degree_18": true,
+    "squarefree_over_QQ": true,
+    "neither_endpoint_is_an_attachment": true
+  },
+  "determinant_coefficients_in_ascending_u_degree": [
+    4,
+    4,
+    7,
+    3,
+    4,
+    2,
+    10,
+    11,
+    11,
+    -8,
+    -6,
+    1,
+    4,
+    3,
+    2,
+    7,
+    3,
+    1,
+    3
+  ],
+  "gcd_with_derivative": [
+    1
+  ],
+  "generic_component_multiplicity_from_nonzero_determinant": 1,
+  "number_of_simple_geometric_attachment_points": 18,
+  "projective_residual_geometry": "Certified separately by the Macaulay2 companion."
+}

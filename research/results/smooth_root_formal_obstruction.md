@@ -13,11 +13,11 @@ scope:
 statement: "No such smooth movement-two root Z has an all-orders embedded Cartier lift in the exceptional formal completion."
 dependencies: []
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md"
+  - "research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md"
+  - "research/notes/2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md"
+  - "research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md"
+accepted_in: "research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []

@@ -15,14 +15,14 @@ dependencies:
   - STCI-R-0005
   - STCI-R-0006
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quadratic-root-universal-incidence.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quadratic-root-second-obstruction.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md"
+  - "research/notes/2026-10-14-generalization-quadratic-root-universal-incidence.md"
+  - "research/notes/2026-10-14-generalization-quadratic-root-second-obstruction.md"
+  - "research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md"
+  - "research/notes/2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit.md"
+  - "research/notes/2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit.md"
+  - "research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md"
+accepted_in: "research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []

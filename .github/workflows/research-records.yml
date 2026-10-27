@@ -5,6 +5,8 @@ on:
       - "research/results/**"
       - "research/questions/**"
       - "research/computations/validate_records.py"
+      - "research/computations/validate_result_records.py"
+      - "research/computations/endpoint4_fixed_jet_independent_2026_10_26.py"
       - ".github/workflows/research-records.yml"
   push:
     branches: [main]
@@ -25,3 +27,32 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 research/computations/validate_records.py
+      - run: python3 -m pip install PyYAML
+      - run: python3 research/computations/validate_result_records.py
+
+  replay-r0025:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Independently rerun the R-0025 rank computation
+        run: python3 research/computations/endpoint4_fixed_jet_independent_2026_10_26.py
+      - name: Check replay against saved matrix hash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          r = json.loads(Path('research/computations/endpoint4_fixed_jet_independent_2026_10_26.json').read_text())
+          assert r['rank'] == 683 and r['kernel_dimension'] == 286
+          assert r['matrix_shape'] == [690, 969]
+          assert r['all_286_known_multiples_annihilated_at_every_sample']
+          assert r['coefficient_matrix_sha256_native_uint32'] == 'a3e546424d11200e1d8075c7f9d5d342787bd925a303901bd2b33b2661f56445'
+          print('PASS: independent rank, kernel and matrix hash')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: r0025-independent-replay
+          path: research/computations/endpoint4_fixed_jet_independent_2026_10_26.json

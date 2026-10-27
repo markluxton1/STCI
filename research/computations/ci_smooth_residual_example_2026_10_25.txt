@@ -1,0 +1,16 @@
+Actual homogeneous quartics vanish on C; proper (4,4) intersection: PASS
+Residual degree12, Hilbert polynomial12n-15, exact scheme union C union D: PASS
+(Residual generators: , {{4}, {4}, {5}, {5}, {5}})
+Residual projective Jacobian singular scheme empty over QQ: PASS
+Attachment has18 geometric reduced points; neither distinguished endpoint occurs: PASS
+H0(O_D)=QQ: rank1 overQQ: PASS
+By geometric smoothness and H0 base change, D is geometrically integral.
+EXACT QQ SMOOTH RESIDUAL BENCHMARK PASSED
+ -- used 0.01292s (cpu); 0.0129182s (thread); 0s (gc)
+ -- used 0.397901s (cpu); 0.343896s (thread); 0s (gc)
+ -- used 0.003633s (cpu); 0.00363583s (thread); 0s (gc)
+ -- used 0.254s (cpu); 0.226762s (thread); 0s (gc)
+ -- used 0.292469s (cpu); 0.239279s (thread); 0s (gc)
+
+Process return code: 0
+Elapsed seconds: 1.253

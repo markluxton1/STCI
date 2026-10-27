@@ -12,11 +12,11 @@ scope:
 statement: "For every such X and G, the set V(X,G) is not C0."
 dependencies: []
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-results-acceptance.md"
+  - "research/notes/2026-10-11-session-all-quartic-results-acceptance.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-degree-factor-and-mf6-scope-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-results-acceptance.md"
+  - "research/notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md"
+  - "research/notes/2026-10-11-session-degree-factor-and-mf6-scope-audit.md"
+accepted_in: "research/notes/2026-10-11-session-all-quartic-results-acceptance.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []

@@ -13,10 +13,10 @@ scope:
 statement: "A degree-s second quotient relation coprime in every fiber exists iff the direction line bundle O_Z(s) descends from the base along the full finite flat root scheme Z, including nilpotents."
 dependencies: []
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-spectral-root-curve-relations.md"
+  - "research/notes/2026-10-14-generalization-spectral-root-curve-relations.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md"
+  - "research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md"
+accepted_in: "research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []

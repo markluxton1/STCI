@@ -1,7 +1,21 @@
 # Canonical results and legacy topic navigation
 
-**Current authority:** the twenty-two ID-bearing STCI-R-0001 through STCI-R-0022 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
+**Current authority:** the thirty-six ID-bearing STCI-R-0001 through STCI-R-0036 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
 
+- **[STCI-R-0036 — Pointwise conductor and top-socle defect (proved, conditional)](pointwise_conductor_socle_defect.md)**
+- **[STCI-R-0035 — Bounded-index normal-carrier exclusion for C0 (proved, conditional)](normal_carrier_bounded_index_exclusion.md)**
+- **[STCI-R-0034 — Local Cartier-index and socle compatibility (proved, conditional)](normal_carrier_index_socle.md)**
+- **[STCI-R-0033 — Constant first-relation lifting obstruction (proved, conditional)](constant_first_relation_lifting.md)**
+- **[STCI-R-0032 — Full conormal filtration and socle budget (proved, conditional)](full_conormal_socle_budget.md)**
+- **[STCI-R-0031 — Characteristic-two fourth equation and kernel (proved, prescribed pair)](quartic_char2_fourth_equation_kernel.md)**
+- **[STCI-R-0030 — Local filtered-equation comparison and punctual defect criterion (proved, scoped)](local_filtration_comparison_defect.md)**
+- **[STCI-R-0029 — Arithmetic ruled four-section family (proved, prescribed model)](quartic_arithmetic_ruled_models.md)**
+- **[STCI-R-0028 — Ruled projection and normalization models (proved, marked setup)](quartic_ruled_projection_geometry.md)**
+- **[STCI-R-0027 — Dual discriminant singular scheme (proved, saved-certificate qualified)](quartic_dual_singular_scheme.md)**
+- **[STCI-R-0026 — Flag incidence and conormal geometry (proved, marked setup)](quartic_flag_conormal_geometry.md)**
+- **[STCI-R-0025 — Fixed sextic jet rigidity (proved, saved-certificate qualified)](ci_fixed_sextic_jet_rigidity.md)**
+- **[STCI-R-0024 — Independent residual-node smoothing at fixed boundary (proved, explicit pencil)](ci_quartic_fixed_boundary_smoothing.md)**
+- **[STCI-R-0023 — Explicit quartic residual geometry (proved, fixed examples)](ci_quartic_explicit_residual_geometry.md)**
 - **[STCI-R-0020 — Characteristic-dependent conormal splitting (proved)](quartic_conormal_characteristic_jump.md)**
 - **[STCI-R-0021 — Explicit mu4 degeneration (proved)](quartic_mu4_degeneration.md)**
 - **[STCI-R-0022 — Shorter filtered-contact (4,4) exclusion (proved, inherited inputs)](quartic_44_filtered_exclusion.md)**
@@ -31,4 +45,4 @@
 - [Entirely-thick presentations](entirely_thick.md)
 - [Jet geometry](jet_geometry.md)
 
-For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the twenty-two ID-bearing records above.
+For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the thirty-six ID-bearing records above.

@@ -13,10 +13,10 @@ statement: "The full root divisor Z is reduced; each irreducible component has b
 dependencies:
   - STCI-R-0008
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/codex/normal-cone-rigidity-2026-10-19/research/notes/2026-10-19-spectral-nonreduced-root-obstruction.md"
+  - "research/notes/2026-10-19-spectral-nonreduced-root-obstruction.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/codex/normal-cone-rigidity-2026-10-19/research/notes/2026-10-19-spectral-nonreduced-root-independent-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/codex/normal-cone-rigidity-2026-10-19/research/notes/2026-10-19-spectral-nonreduced-root-independent-audit.md"
+  - "research/notes/2026-10-19-spectral-nonreduced-root-independent-audit.md"
+accepted_in: "research/notes/2026-10-19-spectral-nonreduced-root-independent-audit.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []

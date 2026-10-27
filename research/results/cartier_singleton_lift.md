@@ -15,12 +15,12 @@ statement: "The complete linear system |c| identifies S with a normal minimal-de
 dependencies:
   - STCI-R-0001
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-cartier-lift-minimal-degree.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-global-carrier-framework.md"
+  - "research/notes/2026-10-14-generalization-cartier-lift-minimal-degree.md"
+  - "research/notes/2026-10-13-generalization-global-carrier-framework.md"
 independent_audits:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-smooth-normalization-independent-audit.md"
-accepted_in: "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
+  - "research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
+  - "research/notes/2026-10-13-generalization-smooth-normalization-independent-audit.md"
+accepted_in: "research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
