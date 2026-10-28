@@ -55,7 +55,7 @@ The existing frontier offers several **nonexclusive** entry points: [jet depende
 
 1. Find the ID in [results/INDEX.md](results/INDEX.md) or the tracked [question STCI-Q-0001](questions/cartier_projection_models.md).
 2. Read the result's YAML scope, hypotheses, evidence, audits, and limitations *before* the exposition.
-3. Follow the evidence links in that record; many point to preserved historical notes. Consult [source-note inventory](archive/ULTRA_SOURCE_NOTES_INDEX.md) only when the record lacks a direct path.
+3. Follow the evidence links in that record; many point to preserved historical notes. Consult [research notes](notes/) only when the record lacks a direct path.
 4. For exact computations use the [certificate map](certificates/README.md), [computation guide](computations/README.md), and [validation inventory](archive/ULTRA_VALIDATION_RECURSIVE_INVENTORY.md). Do not infer a certificate from an output filename.
 5. If a note conflicts with a canonical result, apply [AUTHORITY.md](AUTHORITY.md); record the discrepancy rather than silently broadening the theorem.
 
