@@ -4,6 +4,8 @@ This map records **logical dependence** separately from **conceptual contact**. 
 
 ## Established dependencies
 
+The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
+
 - **Low-degree and quartic carrier exclusions** -> [STCI-R-0001](../results/quartic_carrier_exclusion.md) plus audited factor reduction -> hypothetical defining degrees at least five.
 - [STCI-R-0002](../results/cartier_singleton_lift.md) -> [STCI-Q-0001](../questions/cartier_projection_models.md) (restricted candidate normalization models -> unresolved actual projections and conductor descent).
 - [STCI-R-0003](../results/fixed_carrier_conductor_criterion.md) -> [STCI-R-0004](../results/projection_phase_reduction.md) (full-conductor descent framework -> fixed-family phase/torsion reduction).
