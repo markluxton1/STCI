@@ -1,2 +1,0 @@
-PASS NEW CERTIFICATE: normalized degree<=2 dual; all18 actual-tensor column identities modulo full degree15 polynomial; every affine lambda.
-Inherited tensor/top-map interpretations accepted; no inherited verifier rerun.

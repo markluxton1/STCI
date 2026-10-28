@@ -1,6 +1,0 @@
-infinity S leading factor=(ll)^4*(2*ll-1)^3*(-216)
-infinity H degree2 leading=(ll)^2*(-6)
-infinity S degree4 leading=(ll)^4*(20*ll^4-412*ll^3+594*ll^2-313*ll+56)*(-24)
-infinity finite candidate ideal=matrix {{1}}
-candidate H degree=-infinity
-candidate S degree=-infinity

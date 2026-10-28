@@ -1,7 +1,0 @@
-PASS compact support remainders generate the unit ideal
-PASS literal original-generator Bezout product is one
-NUMERATOR DEGREES={{22}, {22}, {22}, {22}}
-DENOMINATOR FACTORS={(45*dl^2-38*dl-29)^9*(32), (45*dl^2-38*dl-29)^9*(256), (45*dl^2-38*dl-29)^9*(512), (45*dl^2-38*dl-29)^9*(512)}
-PASS leading-drop has no allowed infinity root
-PASS no extra A4 root in Q4 when delta is nonzero
-DONE lambda1 complete support exclusion

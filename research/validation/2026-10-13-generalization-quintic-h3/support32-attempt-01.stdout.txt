@@ -1,3 +1,0 @@
-PHASE remaining complete triple/double support incidence
-triple/double support saturated ideal=matrix {{1}}
-DONE remaining triple/double support incidence

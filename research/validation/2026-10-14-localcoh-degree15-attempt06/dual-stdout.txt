@@ -1,6 +1,0 @@
-FLINT exact pencil and accepted row transform read
-PASS exact complement, observability and target compatibility
-PASS all16 linear and1 quadratic exact annihilator identities
-normalization branch: incompatible linear evaluations 0,1
-PASS canonical normalized degree<=2 dual and original coordinate72=1; CPU 0.966 seconds
-Independent original tensor identities remain required

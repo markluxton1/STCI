@@ -1,2 +1,0 @@
-first candidate witness exponent=2
-PASS literal H-divides-S coefficient witness
