@@ -21,12 +21,12 @@ These dated snapshots contain accepted and provisional claims together. Their pr
 
 ## Source-note inventory
 
-- [Ultra source-note inventory](ULTRA_SOURCE_NOTES_INDEX.md) — 356 original-branch notes indexed by filename keywords; preserved on `main`, but **not** promoted as mathematical results.
+- [research notes](notes/) — 356 original-branch notes indexed by filename keywords; preserved on `main`, but **not** promoted as mathematical results.
 
 ## Computation and validation inventories
 
 - [Ultra computation files](ULTRA_COMPUTATIONS_INDEX.md) — 427 directly listed files with reported sizes; no execution.
-- [Ultra validation directories](ULTRA_VALIDATION_INDEX.md) — 106 immediate directories.
+- [validation evidence](validation/) — 106 immediate directories.
 - [Recursive validation inventory](ULTRA_VALIDATION_RECURSIVE_INVENTORY.md) — 2,168 tracked files and large-artifact sizes; no execution.
 
 ## Source and audit intake — first selected batch
