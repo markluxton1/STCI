@@ -1,6 +1,6 @@
 # All-branch frontier and provenance inventory — 2026-10-13 evening
 
-**Scope:** repository coverage and routing, with accepted mathematics taken as correct. No inherited verifier or proof was rerun. This note records the branches actually observed locally and through the connected GitHub reader. It does not change checkout, branches, remote refs, canonical files, or the status of any mathematical claim.
+**Scope:** repository coverage and routing, with accepted mathematics taken as correct. No inherited verifier or proof was rerun. This note records the branches actually observed locally and through the connected GitHub reader. **Historical snapshot:** branch inventories and statuses here are dated October 13, not current branch or theorem status. The present [authority policy](../AUTHORITY.md) and [canonical results](../results/INDEX.md) control. Preserve the historical manifest as evidence. It does not change checkout, branches, remote refs, canonical files, or the status of any mathematical claim.
 
 ## 1. Observed checkout and complete ref coverage
 
