@@ -1,6 +1,6 @@
 # Entirely-thick numerical restrictions
 
-Canonical status: **PROVED necessary conditions; branch remains open**
+Canonical status: **PROVED necessary conditions; general branch remains open**
 
 Let two defining surfaces of degrees \(a,b\) have exact generic normal orders \(p,q\) along a smooth rational quartic \(C\), with \(p,q\ge2\). On the blowup of \(\mathbf P^3\) along \(C\), effectivity of the proper intersection cycle on the exceptional \(\mathbf P^1\times\mathbf P^1\) gives
 \[
