@@ -1,9 +1,0 @@
-{
-  "status": "pass",
-  "started_at": "2026-10-15T13:27:58.931786+00:00",
-  "finished_at": "2026-10-15T13:27:59.610282+00:00",
-  "exit_code": 0,
-  "source_sha256": "6c5649ba306010760f2e4c21396868917ebf5e57a7e389264ac4b96e09092308",
-  "scope": "new universal coefficient identities only; no actual conductor or accepted verifier replay",
-  "repair": "formal q,r,j,v,w are coefficient-ring elements for s,t action extraction; attempt01 retained"
-}

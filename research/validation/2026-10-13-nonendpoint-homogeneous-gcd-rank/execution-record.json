@@ -1,8 +1,0 @@
-{
-  "scope": "Twelve exact identities supporting the homogeneous rank proof; no numerical matrix sampling is a proof of gcd classification.",
-  "latest_attempt": "attempt-03",
-  "latest_record": "attempt-03/execution-record.json",
-  "exit_code": 0,
-  "source_sha256": "5bbecf46250b07936299b6db1851e4b0cd27bd16cbb605ae238536f655f73df9",
-  "exact_checks": 12
-}

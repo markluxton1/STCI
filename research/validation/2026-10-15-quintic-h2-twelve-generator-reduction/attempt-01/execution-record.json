@@ -1,8 +1,0 @@
-{
-  "status": "failed",
-  "started_at": "2026-10-15T13:26:24.619266+00:00",
-  "finished_at": "2026-10-15T13:26:25.346002+00:00",
-  "exit_code": 1,
-  "source_sha256": "b785c728a04919d9e38c0ee466ae8a6875358d558597dda47d15dd237c552687",
-  "scope": "new universal coefficient identities only; no actual conductor or accepted verifier replay"
-}

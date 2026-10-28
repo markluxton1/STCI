@@ -1,8 +1,0 @@
-{
-  "status": "pass",
-  "started_at": "2026-10-15T19:13:40.796296+00:00",
-  "finished_at": "2026-10-15T19:13:41.426329+00:00",
-  "exit_code": 0,
-  "source_sha256": "bb124d558fcd67a287e35048eef433f25cb218825cd2382f64e6fed881e5afe7",
-  "scope": "new universal automatic-qhigh and ODE identities only; accepted A4 coefficient formulas are premises, no actual map replay"
-}
