@@ -2,13 +2,13 @@
 
 This is an **organizational archive**, not promotion of mathematical claims.
 
-Source branch: `research/ultra-resume-2026-10-06`. Five dated handoff/update files and two audited-state snapshots have been copied into `research/archive/`. Each archive copy links to its original Ultra path; embedded relative links were converted to explicit original-branch URLs, at the time of the original intake. A full tree audit on 2026-10-19 subsequently verified that all 3,076 source-branch file blobs are preserved on `main`.
+Source branch: `research/ultra-resume-2026-10-06`. Two dated research-update files and two audited-state snapshots remain copied into `research/archive/`. Each archive copy links to its original Ultra path; embedded relative links were converted to explicit original-branch URLs, at the time of the original intake. A full tree audit on 2026-10-19 subsequently verified that all 3,076 source-branch file blobs are preserved on `main`.
 
-## Imported historical snapshots
+## Retained historical research updates and removed handoff copies
 
-- [Codex resume, October 6](handoffs/ULTRA_CODEX_RESUME_2026-10-06.md)
-- [Successor handoff, October 7](handoffs/ULTRA_SUCCESSOR_HANDOFF_2026-10-07.md)
-- [Successor handoff, October 14](handoffs/ULTRA_SUCCESSOR_HANDOFF_2026-10-14.md)
+- Codex resume, October 6: redundant archived copy removed; original remains in Git history.
+- Successor handoff, October 7: redundant archived copy removed; original remains in Git history.
+- Successor handoff, October 14: redundant archived copy removed; original remains in Git history.
 - [Research update, October 5](reports/ULTRA_RESEARCH_UPDATE_2026-10-05.md)
 - [Research update, October 7](reports/ULTRA_RESEARCH_UPDATE_2026-10-07.md)
 
