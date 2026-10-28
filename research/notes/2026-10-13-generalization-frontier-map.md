@@ -1,7 +1,7 @@
 # Frontier reconciliation and mechanisms beyond individual degrees
 
 Date: 2026-10-13, continued 2026-10-14, America/New_York. Lane: `frontier_reconcile`.
-Status: **REPOSITORY RECONCILIATION AND RESEARCH ROUTING**. Accepted mathematics
+Status: **HISTORICAL REPOSITORY RECONCILIATION AND RESEARCH ROUTING**. The branch tips and active-frontier descriptions below are October 13 snapshots; use [current state](../STATE.md), [current frontier](../FRONTIER.md), and [canonical results](../results/INDEX.md) for present claims. This note remains provenance, not independent theorem authority. Accepted mathematics
 is taken as correct at the user's direction. No inherited verifier was run,
 no remote source was fetched again, and no canonical or frozen proof was
 edited. The current team's subsequent acceptance record controls promotion
