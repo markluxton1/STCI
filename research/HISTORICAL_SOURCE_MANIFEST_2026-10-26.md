@@ -6,7 +6,7 @@
 
 | Set | Existing per-path source | Snapshot size | What is covered | Decision |
 |---|---|---:|---|---|
-| Ultra historical source notes | [research notes](notes/) | **356** individual notes | File paths, GitHub source links, sizes, heuristic keyword buckets | Historical claim sources; review against canonical records before extraction or promotion |
+| Ultra historical source notes | [research notes](notes/) | **356** individual notes | Original source notes (keyword index retired) | Historical claim sources; review against canonical records before extraction or promotion |
 | Ultra computations | [ULTRA_COMPUTATIONS_INDEX](archive/ULTRA_COMPUTATIONS_INDEX.md) | **427** directly contained files | Scripts, outputs, JSON, logs and data with exact paths/sizes | Evidence, not independent theorem authority; distinguish executable source from output |
 | Ultra validation | [ULTRA_VALIDATION_RECURSIVE_INVENTORY](archive/ULTRA_VALIDATION_RECURSIVE_INVENTORY.md) and [validation evidence](validation/) | **2,168** tracked blobs in 106 top-level directories; 2,542 tree entries | Recursive validation paths, preserved blob sizes, Git tree SHA 48ed7bda55b4faf9606b7959986178b417601e80 | Preserve complete sessions and dependency chains; large witnesses are not disposable duplicates |
 | Space Curves I–VI donor records | [source-artifact-inventory.json](archive/space-curves-2026-10-19/source-artifact-inventory.json), [intake manifest](archive/space-curves-2026-10-19/manifest.json), [README](archive/space-curves-2026-10-19/README.md) | **98** donor artifact files, not 98 distinct results | Source project, path, ID, title, original status, SHA-256, imported flag | Imported evidence and unimported donor references must not be conflated |
