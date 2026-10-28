@@ -14,7 +14,7 @@
 | Ideal filtrations and spectral sequences | [reconciliation](RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) | Provisional | PQ-08 |
 | Higher initial ideals and valuations | [reconciliation](RECONCILIATION_2026-10-23-VALUATIONS.md) | Provisional, mixed scopes | PQ-08 |
 | Delta marked-embedding geometry | [report](notes/2026-10-24-delta-embedding-geometry-report.md) | Provisional, inactive lane | PQ-08 |
-| Historical unpromoted claims and open topics | [provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md), [open topics](open/README.md), [research record](RESEARCH_RECORD.md) | Requires claim-level sweep | PQ-08 |
+| Historical unpromoted claims and open topics | [file-level inventory](FILE_LEVEL_INVENTORY_WORKING.md), [open topics](open/README.md), [research record](RESEARCH_RECORD.md) | Requires claim-level sweep | PQ-08 |
 
 Promoted records remain authoritative only within their stated scopes. Unrestricted characteristic-zero STCI remains open. Do not infer exhaustive coverage from this initial register.
 
