@@ -43,3 +43,8 @@ The actual degree-d normal-jet source is the image of global sections of I(d) in
 - Construct a justified comparison among the R-0016, R-0019 and R-0030 defects, with all finite-flatness and curvilinearity hypotheses explicit.
 
 This document is a reading route, not a replacement for proof evidence. No source note is retired by this first consolidation.
+
+
+## Relation to the historical jet-discrepancy calculation
+
+The [order-one result](../results/order_one.md) distinguishes the maximal-rank defect of successive global-section maps from the divisor D_j in a quasiprimitive saturated layer. The local comparison defect of R-0030 concerns the actual filtered equation module versus its initial generators, and is not automatically equal to either invariant. The quadric comparison divisor R and doubled divisor 2R are concrete finite-jet test cases, not a general identification of these three defects. Any proposed equality or implication needs an explicit comparison theorem and hypotheses.
