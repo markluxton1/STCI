@@ -1,3 +1,5 @@
+> **Historical status (2026-10-28):** This October 6 reconciliation predates the accepted complete quartic-carrier exclusion (R-0001). Its open quartic-mate and MF6 case labels are historical, not active existence questions. Preserve its mathematical evidence and negative audit findings.
+
 # Resume reconciliation and structural research assessment
 
 Date: 2026-10-06. Status: **RECONCILIATION / RESEARCH STRATEGY**.
