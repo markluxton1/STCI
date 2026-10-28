@@ -141,7 +141,7 @@ a=r,\qquad b=r,\qquad y=r^3.
 \]
 For an irreducible residual \(R\) of class \((1,2)\), the transformed surface has local equation \(aR(a,b)+yH(a,b,y)=0\). Restriction to \(C\) forces \(R(r,r)\) to vanish to order at least two. Since an irreducible \((1,2)\) curve is a graph \(a=\phi(b)\) and cannot contain the ruling fiber \(b=0\), it follows that \(\phi(0)=0\) and \(\phi'(0)=1\). The degree-two map \(R\to\Gamma\) is therefore unramified over the endpoint, with two distinct inverse points (the second possibly in the opposite chart). Both intersections with \(B=\{a=0\}\) are transverse. This supplies the geometric input for the all-length chain calculation in Section 3.
 
-This extraction captures the earlier note's mathematical argument and its precise **irreducible-residual** hypothesis; the later full endpoint proof remains necessary for reducible and doubled residuals. The [original conditional note](../notes/2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md) can now be treated as a **candidate for archival retirement**, subject to a repository-wide inbound-reference and unique-evidence check. No source deletion is performed here.
+This extraction captures the earlier note's mathematical argument and its precise **irreducible-residual** hypothesis; the later full endpoint proof remains necessary for reducible and doubled residuals. The earlier conditional endpoint argument is incorporated above; its original note has been retired to Git history. The full endpoint proof remains necessary for reducible and doubled residuals.
 
 ## 6. Source evidence and editorial disposition
 
