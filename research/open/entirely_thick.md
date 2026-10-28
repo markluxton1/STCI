@@ -1,6 +1,6 @@
 # Entirely-thick branch
 
-Status: **OPEN — priority 2**
+Status: **OPEN structural question — no fixed priority ranking**
 
 Both defining equations have generic normal order at least two. This branch is not covered by the order-one Bănică–Forster bounds.
 
