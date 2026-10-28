@@ -1,4 +1,0 @@
-PASS forced-a-rank-one-c-fiber
-PASS off-branch-three-exact-target-constraints
-PASS actual-normalization-quintic
-PASS branch-denominator-and-c-collision
