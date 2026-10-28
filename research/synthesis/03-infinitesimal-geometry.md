@@ -78,3 +78,8 @@ The missing theorem would give checkable hypotheses under which an actual pair's
 The valuation and specialization program is maintained in [Formal normal geometry](formal-normal-intersection.md); residual detection in [Residual intersections and jets](residual_intersections_and_jets.md); and punctual comparison defects and boundary lifting in [Normal-filtration defects](normal_filtration_boundary_obstructions.md). None of these interfaces is a proved general implication.
 
 Next: [carrier normalization and conductor](04-carriers.md), which imposes a different global descent condition.
+
+
+### Jet-condition budgets: a precise historical model
+
+In the order-one quartic calculations, the successive restriction map from degree-a ambient sections through a primitive layer to the next conormal layer has two different shortfalls: failure to hit the full target and failure to attain the maximal rank allowed by source and target dimensions. A quasiprimitive defect divisor modifies the target line bundle; it is not the same as either rank shortfall. The [order-one result](../results/order_one.md) now records the definitions and the concrete quadric-comparison example using R and 2R. This is a model for higher-degree global-source problems, not a universal implication from expected jet counts to residual support. Historical quartic-mate open cases are superseded by R-0001.
