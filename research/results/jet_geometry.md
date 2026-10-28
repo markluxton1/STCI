@@ -21,3 +21,7 @@ The older side-thread statement that \((4,7),e=2\) remained open is superseded b
 - \`../notes/2026-10-06-quartic-jet-geometry-structural-supplement.md\`
 
 Active continuation: \`../open/jet_condition_framework.md\`.
+
+## Scope reconciliation (October 2026 consolidation)
+
+This result describes the e=2 quartic-order-one comparison: the degree-three divisor R and its doubled-jet evaluation. The general successive-map rank-defect definitions, and the e=0,1 comparisons, are consolidated in [order-one structure](order_one.md). The historical source [structural supplement](../notes/2026-10-06-quartic-jet-geometry-structural-supplement.md) retains obsolete open-status language explicitly superseded by [R-0001](quartic_carrier_exclusion.md); it is evidence of the calculation, not a current quartic-mate frontier. The original note and exact certificates remain preserved.
