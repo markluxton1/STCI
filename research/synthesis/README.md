@@ -6,6 +6,8 @@ C_0=\{[s^4:s^3t:st^3:t^4]\}\subset\mathbf P^3.
 \]
 The question whether it is a set-theoretic complete intersection remains **open**.
 
+The historical jet-discrepancy model and its status corrections are summarized in [order-one structure](../results/order_one.md); obsolete quartic-mate cases remain closed by R-0001, while higher-degree jet-dependence questions survive.
+
 Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and which are independent. For precise scope, use [canonical results](../results/INDEX.md), [current state](../STATE.md), [frontier](../FRONTIER.md), and [authority policy](../AUTHORITY.md).
 
 ## Chapters
