@@ -60,7 +60,7 @@ The six proof lanes are:
 
 The last two rows cannot be combined by appealing to a generic trisecant. In particular, an argument that excludes only an irreducible residual conic does **not** exhaust the endpoint family. Similarly, the genus-one projection center is derived from the complete anticanonical model and restriction to the lifted curve, not assumed from a chosen example.
 
-For exact dependencies and links to the six independently reviewed proofs, use the [technical proof mechanisms](QUARTIC_CARRIER_TECHNICAL_PROOFS.md), the [accepted assembly](../notes/2026-10-11-session-all-quartic-results-acceptance.md), and the [independent coverage audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md). This section is a **proof guide**; the six source proofs remain necessary until their arguments have been integrated and checked in full.
+For exact dependencies and links to the six independently reviewed proofs, use the [quartic-carrier dependency graph](../MATHEMATICAL_CONSOLIDATION_QUARTIC_CARRIER_DEPENDENCIES.md), the [accepted assembly](../notes/2026-10-11-session-all-quartic-results-acceptance.md), and the [independent coverage audit](../notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md). This section is a **proof guide**; the six source proofs remain necessary until their arguments have been integrated and checked in full.
 
 The full factor reduction and the resulting degree bound are proved in Section 1.1; the quartic-carrier theorem is its deepest input.
 
