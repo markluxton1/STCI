@@ -1,2 +1,0 @@
-support32 witness exponent=2
-PASS literal support32 original-six-generator witness

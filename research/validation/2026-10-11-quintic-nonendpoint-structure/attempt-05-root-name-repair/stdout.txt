@@ -1,9 +1,0 @@
-PASS 1: exact quadric factor by the affine equation of c
-RESIDUAL aa*sepD^4-4*aa*sepD^3*rr+bb*sepD^3*rr-sepD^4*rr+6*aa*sepD^2*rr^2-3*bb*sepD^2*rr^2+3*sepD^3*rr^2-3*sepD^2*rr^3+sepD^4*tt-3*sepD^3*rr*tt-bb*gg*rr^2+aa*parD*rr^2-aa*rr^3+bb*rr^3+gg*rr^3-parD*rr^3+4*aa*sepD*rr*tt-3*bb*sepD*rr*tt-gg*sepD*rr*tt-bb*gg*tt+aa*parD*tt-aa*rr*tt+bb*rr*tt+gg*rr*tt-parD*rr*tt+aa*tt^2-bb*tt^2-gg*tt^2+parD*tt^2
-PASS 2: seven dimensional pole filtered expression
-PASS 3: quadric restricts nontrivially to ell
-PASS 4: entire nonendpoint image tangent line
-PASS 5: exact ramification rank ideal along ell
-PASS 6: transverse differential kernel
-PASS 7: nonzero characteristic-zero unit jet for every ramified-ell projection
-PASS ALL: 7 supporting checks

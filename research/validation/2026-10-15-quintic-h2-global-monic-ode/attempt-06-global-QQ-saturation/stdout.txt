@@ -1,2 +1,0 @@
-LOADED exact global h2 input over QQ: 17 equations, 9 variables, delta*cofactor*Delta1 domain
-No cover determinant, discriminant, q coefficient, or Jbar is inverted. No GB/saturation executed.

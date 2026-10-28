@@ -1,4 +1,0 @@
-PASS specified branch first derivative
-PASS specified branch exact second coefficient
-PASS retained fiber-rank denominator
-PASS all three regular L1 double-root checks

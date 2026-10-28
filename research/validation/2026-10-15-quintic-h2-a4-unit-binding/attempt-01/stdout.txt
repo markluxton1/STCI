@@ -1,3 +1,0 @@
-PASS q6 = c * delta^e0 * discriminant^e1 * K^e2 * Jbar_num * Delta1_num, with c a nonzero rational
-PASS literal polynomial equality after multiplying only negative declared-unit powers
-COMPLETE new A4 coefficient unit binding; no geometric emptiness claim

@@ -1,2 +1,0 @@
-COMPLETE homogeneous Hamiltonian incidence 9x2; coefficient degrees {{18}, {18}, {18}, {18}, {18}, {18}, {18}, {18}, {18}}
-common content, common denominator and nonzero F locus retained from attempt02

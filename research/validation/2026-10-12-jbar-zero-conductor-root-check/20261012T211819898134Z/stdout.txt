@@ -1,9 +1,0 @@
-PASS first-actual-target-generator
-PASS second-actual-target-generator
-PASS third-actual-target-generator
-PASS linear-elimination-determinant
-PASS actual-source-quadratic-coefficient
-PASS complete-low-pole-restriction
-PASS generic-line-transverse-uniformizer
-PASS retained-ramified-line-specialization
-PASS all eight bounded conductor-local identity groups

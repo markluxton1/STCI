@@ -1,5 +1,0 @@
-IDEAL matrix {{z4^2-z3*z5, z2*z4-z1*z5, z2*z3-z1*z4, z2^2-z3*z4-z0*z5, z1*z2-z3^2-z0*z4, z3^2*z4-z1^2*z5+z0*z3*z5, z3^3-z1^2*z4+z0*z3*z4}}
-DIM 3
-DEGREE 5
-HS (1-5*T^2+5*T^3-T^5)/((1-T)^6)
-HP new ProjectiveHilbertPolynomial from {0 => 1, 1 => -5, 2 => 5}

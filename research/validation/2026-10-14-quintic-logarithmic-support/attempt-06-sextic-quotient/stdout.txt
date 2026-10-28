@@ -1,2 +1,0 @@
-PASS literal F=H*Q6; both reduced Hamiltonian coefficient identities; both product-action identities
-COMPLETE sextic support incidence capture on accepted finite inverse-map open

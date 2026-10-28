@@ -1,1 +1,0 @@
-Assertion failed: (fmpq_mpoly_set_str_pretty(input, flat, names, ctx) == 0), function main, file generalization_quintic_h2_horner_input_2026_10_15.c, line 85.

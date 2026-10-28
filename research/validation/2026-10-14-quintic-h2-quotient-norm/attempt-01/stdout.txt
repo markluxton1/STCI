@@ -1,6 +1,0 @@
-PASS exact norm product: Res(H,Q)=detM^2*N12*N18; both factors have exponent one
-PASS gcd(primitive norm,cofactor-determinant numerator)=1
-PASS gcd(primitive norm,Jbar numerator)=1
-PASS gcd(primitive norm,G numerator)=1
-PASS gcd(primitive norm,Delta1 numerator)=1
-COMPLETE bounded quotient-algebra norm reduction; no elimination or quintic exclusion

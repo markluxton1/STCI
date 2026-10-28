@@ -1,3 +1,0 @@
-PASS universal cubic expansions and row-seven identities
-PASS both fixed-pivot identities for all 56 cubic minors
-PASS first-minor absorption identities with j retained

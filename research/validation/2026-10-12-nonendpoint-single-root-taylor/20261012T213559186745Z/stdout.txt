@@ -1,2 +1,0 @@
-PASS complete finite common-root substitution
-PASS automatic common-root factor

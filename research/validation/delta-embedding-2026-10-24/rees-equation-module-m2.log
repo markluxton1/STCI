@@ -1,8 +1,0 @@
-PASS full Rees ideal and equation module: a=2, b=4, torsion duration=2
-PASS full Rees ideal and equation module: a=3, b=4, torsion duration=1
-PASS full Rees ideal and equation module: a=2, b=5, torsion duration=3
-PASS full Rees ideal and equation module: a=4, b=5, torsion duration=1
-PASS labelled carrier square: non-Cartesian special square with zero Delta
-ALL 5 NEW EXACT REES SAMPLES PASS
-Boundary: finite presentations over QQ; not arbitrary-parameter proofs,
-sheaf gluing, integral-carrier proofs, or a global STCI statement.

@@ -1,4 +1,0 @@
-PASS 1: actual A4 image point and target frame
-PASS 2: all three target-ratio linear jets at A4
-PASS 3: exact A4 cotangent determinant
-PASS ALL: 3 exact identities; no conductor scheme or parameter exhaustion computed

@@ -1,4 +1,0 @@
-PASS independent endpoint subresultant identities: 18 checks
-Resultant = (a*z-b)^7 * E, with E=v^2-(3*z*A-1)*h*v+A*p0*h^2
-Boundary P: -b^3+a^2*c-a*b
-Boundary R: -b^4+a^3*d-a^2*b-2*a*b^2-a^2

@@ -1,5 +1,0 @@
-Library discriminant value and class:
-3732480
-diagnosticRing
-Explicit classical cubic discriminant:
--746496

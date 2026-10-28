@@ -1,8 +1,0 @@
-TYPE2 A4 degree-drop relation and possible next coefficient degeneration
-| separation+6familyRoot-3 |
-| 1 |
-PASS: Type2 A4 target contact 3 when degree T=2; 4 when degree T=1; no degree<=0 T
-TYPE3 A4 degree-drop relation and possible next coefficient degeneration
-| separation+6familyRoot-12conicRoot+3 |
-| 1 |
-PASS: Type3 A4 target contact 3 when degree T=2; 4 when degree T=1; no degree<=0 T

@@ -1,6 +1,0 @@
-PASS finite H determinant
-PASS exceptional K augmented minor
-PASS repeated H left kernel
-PASS repeated H compatibility
-PASS repeated H rank-three minor
-PASS infinity plus finite root determinant

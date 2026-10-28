@@ -1,7 +1,0 @@
-PASS target parameter equation
-PASS target cube residual
-PASS target fourth residual
-PASS linear elimination identity
-PASS septic remainder identity
-PASS septic degree exactly seven generically
-PASS septic leading coefficient a Cb

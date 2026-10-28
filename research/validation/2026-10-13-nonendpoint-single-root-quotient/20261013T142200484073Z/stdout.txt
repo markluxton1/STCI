@@ -1,1 +1,0 @@
-PASS first derivative exact factor

@@ -1,3 +1,0 @@
-PASS NEW Sym5 six-by-six characteristic polynomial and Cayley-Hamilton identity
-PASS unified idempotent algebra and both exact projected eigen-residual identities
-COMPLETE NEW unified spectral identities; accepted Sym6 characteristic is only a premise

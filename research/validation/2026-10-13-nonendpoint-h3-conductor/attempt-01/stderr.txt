@@ -1,6 +1,0 @@
-research/validation/2026-10-13-nonendpoint-h3-conductor/attempt-01/verify_session_nonendpoint_h3_conductor_2026_10_13.m2:9:50:(3):[5]: error: assignment to protected global variable 'dd', originally defined at /opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Complexes/ChainComplex.m2:111:6:(2):
-/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:80:23:(0):[5]: --back trace--
-/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:126:61:(1):[4]: --back trace--
-/opt/homebrew/Cellar/macaulay2/1.26.06_1/share/Macaulay2/Core/Core.m2:138:29:(1):[2]: --back trace--
-/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:547:66:(0):[1]: --back trace--
-/private/tmp/macaulay2-20260630-44927-c8kzx6/M2-release-1.26.06/M2/Macaulay2/m2/startup.m2.in:635:41:(2): --back trace--
