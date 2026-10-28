@@ -58,6 +58,8 @@ Each ID below links to the authoritative record. Descriptions are deliberately s
 
 ### C. Residual geometry, jets and explicit intersections
 
+The [order-one jet-discrepancy model](results/order_one.md) distinguishes global-section rank failures from saturated-layer defect divisors; the [normal-filtration synthesis](synthesis/normal_filtration_boundary_obstructions.md) explains why neither is automatically the actual-equation-module comparison defect. Historical quartic-carrier subcases are closed by R-0001, not active frontier tasks.
+
 - [R-0019](results/quasiprimitive_residual_cycles.md) — saturated quasiprimitive residual cycles and first-normal bound, conditional.
 - [R-0023](results/ci_quartic_explicit_residual_geometry.md) — explicit residual geometry for fixed quartic examples.
 - [R-0024](results/ci_quartic_fixed_boundary_smoothing.md) — independent residual-node smoothing for an explicit pencil.
