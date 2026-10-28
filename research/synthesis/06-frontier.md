@@ -12,7 +12,7 @@ C=C_1\subset C_2\subset\cdots\subset C_m,
 \]
 when are the successive conditions imposed on ambient hypersurfaces dependent? Why does the naive count of independent jet conditions sometimes fail?
 
-**Established inputs.** The [jet-geometry lemmas](../results/jet_geometry.md) identify a comparison divisor between the primitive conormal direction and the conormal direction of the unique quadric. Earlier [order-one](../results/order_one.md), [primitive e=2](../results/quartic_e2.md), local-cohomology, and MF6 calculations give controlled test cases. The historical quartic-mate cases are closed, but their *jet mechanisms* are not thereby erased.
+**Established inputs.** The [order-one result](../results/order_one.md) now records the rank-defect definitions and first finite evaluation maps; the [jet-geometry lemmas](../results/jet_geometry.md) identify a comparison divisor between the primitive conormal direction and the conormal direction of the unique quadric. Earlier [order-one](../results/order_one.md), [primitive e=2](../results/quartic_e2.md), local-cohomology, and MF6 calculations give controlled test cases. The historical quartic-mate cases are closed, but their *jet mechanisms* are not thereby erased.
 
 **Next mathematical deliverable.** On the unique quadric \(Q\), write the first two or three containment maps intrinsically, identify the comparison divisor, and prove an exact rank formula (or a finite geometric incidence criterion) for failure of independence. Separate the part that holds for any smooth rational quartic from the part depending on this embedding.
 
