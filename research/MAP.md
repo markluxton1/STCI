@@ -12,6 +12,8 @@ For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is
 
 The [October 28 continuation](notes/2026-10-28-containing-intersections-synthesis.md) adds every-divisor attachment constructions in a sufficient degree range, a flat once-linked family through multiplicity jumps with equation recovery, an all-degree conic section dictionary on the known quintic del Pezzo model, and prescribed-index singular carriers with smooth residuals. Its source notes and separate audits connect to liaison moduli, Fano geometry and Noether–Lefschetz theory. All new deductions remain reviewed provisional work; no canonical record or unrestricted status changes.
 
+The [residual-degree follow-up](notes/2026-10-28-residual-degree-synthesis.md) asks what these constructions imply quantitatively. It connects the marked attachment module to a genuine degree floor, extends carrier capacity using numerical pullback on a normal surface or normalization, and retrieves the earlier normal-order/quadric-sensitive graph inequalities. It separates unconditional input-dependent bounds from reduced-residual or marked-singularity specializations. Zero Hodge gap and zero attachment contribution remain possible boundaries of these bounds; no unrestricted positive residual theorem is asserted.
+
 For a compact list of specific unresolved implications, see the [open-question locator](questions/README.md). It is navigation, not an additional authority layer.
 
 ## Approaches and their missing bridges
@@ -77,7 +79,7 @@ Each ID below links to the authoritative record. Descriptions are deliberately s
 - [R-0027](results/quartic_dual_singular_scheme.md) — dual discriminant singular scheme, certificate-qualified.
 - [R-0028](results/quartic_ruled_projection_geometry.md) — marked ruled projection and normalization models.
 - [R-0029](results/quartic_arithmetic_ruled_models.md) — prescribed arithmetic ruled four-section family.
- 
+
 **Coverage:** R-0001–R-0036 appear above exactly once except R-0022, which is cross-referenced in the low-degree boundary and listed in D. All statements remain subject to their record-level qualifications.
 
 ## Open interfaces: where a new result would matter

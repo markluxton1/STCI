@@ -201,3 +201,38 @@ root slopes determine what the graph inequalities say. They do not
 give a positive residual degree for every characteristic-zero pair.
 The no-integral-carrier scope, different equality mechanisms, and
 limits of nef-only reasoning must accompany any later summary.
+
+## 6. Addendum: automatic root slope from an order-one carrier
+
+The source's subsequently added §7 also **PASSES**. In the accepted
+balanced conormal splitting, an exact order-one equation F_a has two
+first-normal binary forms of degree 4a-7. Removing their gcd of degree
+d_F leaves a basepoint-free pair of degree h=4a-7-d_F. Its zero
+divisor on E has a unique horizontal component, the graph of the
+degree-h root map; its remaining components are vertical gcd fibers.
+The horizontal part of the actual W must be supported on that graph.
+It therefore contributes direction degree h(m-s), and vertical
+components can only increase u. This proves the needed slope bound
+u>=h(m-s) from actual equation data.
+
+Substitution of r=1 and rho=h in the inherited graph inequality gives
+
+\[
+ K+h(ab-4s)
+ =b(4a^2-14a+16-a d_F)+4s d_F.
+\]
+
+The universal denominator is 5+h=4a-2-d_F>=5. Under the separate
+no-quadric-residual hypothesis it is 1+h=4a-6-d_F>=1. Thus the
+source has the correct additional term, signs and division conditions.
+If m=s the slope inequality is vacuous but valid, and the corollary
+still has its stated universal scope. No normality or integral-carrier
+assumption is needed in this graph proof.
+
+The comparison with a coarse normal-sheaf gcd capacity bound is also
+correct. Replacing an exact numerical self-intersection by its upper
+bound deg N_(C/S) loses the extra term 4s d_F in this graph estimate.
+An exact smaller self-intersection can supply stronger information,
+so the source properly recommends combining bounds. The corollary
+does not make the numerator automatically positive for all actual
+carriers and does not settle the unrestricted endpoint.

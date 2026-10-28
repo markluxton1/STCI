@@ -1,8 +1,9 @@
 # Residual-degree bounds from the graph: retrieved inequalities and equality geometry
 
 Date: 2026-10-28. Author: `blowup_linear_systems` research agent.
-Status: **provisional consolidation and new geometric interpretations;
-independent review requested**. The basic inequalities were already proved
+Status: **independently reviewed provisional consolidation and geometric
+interpretations**; see the [separate audit](2026-10-28-residual-degree-blowup-audit.md),
+including its order-one addendum. The basic inequalities were already proved
 and independently reviewed on October 19. They are not new results of this
 pass, and neither they nor the present interpretation is a canonical
 unrestricted residual-positivity theorem.
@@ -292,3 +293,89 @@ include it and use (7) or (8). The amount of geometric input is then visible
 in the bound. A universally positive answer depending only on arbitrary
 large degrees would require additional mathematics; it does not follow
 from these first-graph nef inequalities.
+
+## 7. Computable order-one corollary: the first-normal gcd supplies the slope
+
+There is a useful explicit application of the **already reviewed**
+October 19 common-root-slope inequality. It is not an independent new
+normal-carrier mechanism. Suppose \(F_a\) has exact generic order one
+along \(C\), while \(G_b\) has exact order \(s\). Write its nonzero first
+normal symbol, using the accepted balanced conormal splitting, as a pair
+of binary forms
+
+\[
+f=(f_0,f_1),\qquad \deg f_i=4a-7.
+\]
+
+Let \(d_F\) be the degree of their common zero divisor. Dividing that
+common factor leaves a basepoint-free pair of degree
+
+\[
+h=4a-7-d_F\ge0.
+\]
+
+Consequently the only horizontal component of the zero divisor of \(f\)
+on \(E\) is the graph of a degree-\(h\) map between the two projective
+lines. The remaining zero divisor consists of the vertical fibers over
+the first-normal gcd. Every horizontal exceptional component of the
+actual strict-pair intersection must therefore be this graph. Its
+intersection multiplicity is retained in \(m-s\), rather than read off
+from the first symbols. In the notation of §2,
+
+\[
+u\ge h(m-s).
+\]
+
+If the graph is not common to the second symbol, there is no horizontal
+exceptional component and \(m=s\); the displayed inequality is then
+vacuous and remains valid. Thus no unspoken common-root or
+\(m>s\) assumption is needed for the following corollary.
+
+Substituting \(r=1,\rho=h\) into (7), with
+\(K=16(as+b)-7ab-28s\), gives
+
+\[
+\boxed{
+\deg R\ge
+\frac{b(4a^2-14a+16-a d_F)+4s d_F}
+     {4a-2-d_F}.}\tag{10}
+\]
+
+Indeed the numerator before substitution is
+
+\[
+K+h(ab-4s)
+=b\bigl((h-7)a+16\bigr)
+ +s(16a-28-4h),
+\]
+
+and the two brackets become \(4a^2-14a+16-ad_F\) and \(4d_F\).
+The denominator is \(h+5\ge5\). If no component of \(R\) lies on \(Q\),
+(8) gives the same numerator with the stronger denominator
+
+\[
+\boxed{4a-6-d_F=h+1\ge1.}\tag{11}
+\]
+
+As throughout, negative numerical right sides add no lower bound beyond
+effectivity; positive values should be strengthened by the congruence in
+(9). These are inequalities for the genuine residual of an actual proper
+pair. They are available without a normality or Q-Cartier hypothesis on
+the degree-\(a\) carrier. Integrality may be imposed for comparison with
+the carrier formulas below, but is not needed in this graph argument.
+
+For a carrier regular generically along \(C\), the first-normal gcd gives
+\(\deg N_{C/S}=14-4a+d_F\). Replacing a numerical self-intersection by
+that upper bound in the normal-sheaf capacity argument gives only the
+first term of the numerator in (10). The extra nonnegative term
+\(4s d_F\) is already supplied by the inherited moving-root graph
+inequality, so the weaker gcd-only capacity bound must not be presented
+as a new independent mechanism. An exact Mumford self-intersection can
+nevertheless be smaller than \(\deg N_{C/S}\); its sharper quantitative
+bound can then improve on (10). Which comparison wins depends on the
+actual marked carrier geometry and the mate order.
+
+This corollary makes one part of the needed slope data directly
+computable from actual homogeneous coefficients. It neither supplies an
+automatic positive numerator for all carriers nor replaces the remaining
+higher-normal and full-primary geometry.

@@ -1,7 +1,8 @@
 # Residual-degree capacity on normal carriers
 
 Date: 2026-10-28. Author: `singular_carrier_construction` research agent.
-**Status: provisional quantitative deductions, independent review requested;
+**Status: provisional quantitative deductions, independently reviewed in the
+[separate audit](2026-10-28-residual-degree-singular-audit.md);
 no canonical promotion.** The result bounds the genuine residual cycle of
 an actual proper intersection. It neither presumes nor proves that a
 characteristic-zero sole-support intersection is impossible.

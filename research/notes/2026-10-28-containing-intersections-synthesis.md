@@ -7,6 +7,12 @@ reviews. **New claims remain provisional and unpromoted.** No accepted
 mathematics is rewritten and the unrestricted characteristic-zero STCI
 question remains open.
 
+The [quantitative follow-up on residual degree](2026-10-28-residual-degree-synthesis.md)
+uses this construction picture to derive attachment-module and numerical
+carrier-capacity lower bounds, alongside retrieved graph estimates and
+their exact limitations. Its source proofs and audits retain genuine
+residual, once-linked and full-primary distinctions.
+
 ## 1. The question we are organizing around
 
 For the fixed smooth quartic

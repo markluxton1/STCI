@@ -2,6 +2,8 @@
 
 Checked through: 2026-09-30
 
+Further focused check, 2026-10-28: [residual-degree bounds and their proof sources](notes/2026-10-28-residual-degree-synthesis.md), using Mumford/Schröer numerical pullback, Cartier degree and ribbon literature. The October 19 graph inequalities and October 5 numerical normal-sheaf comparison were located before new applications; the October 17 pending endpoint-sufficiency claim is explicitly not used. New capacity inequalities remain independently reviewed provisional deductions, without a literature novelty claim.
+
 Focused refresh, 2026-10-28: [residual liaison, the conic/Fano model, normal-jet construction and Noether–Lefschetz theory](notes/2026-10-28-containing-intersections-literature.md). Includes Brevik–Nollet's paper published online October 19, 2026, with its very-general complex ordinary-thickening and Picard-group hypotheses retained. This is a targeted supplement; it does not redatestamp the entire ledger or claim exhaustive coverage or an STCI resolution.
 
 Focused refresh, 2026-10-27: [containing intersections, G3/formal extension, liaison and positive-characteristic constructions](notes/2026-10-27-containing-intersections-literature-refresh.md). This supplements the dated ledger, records current source access and exact scope, and does not claim that every item below was reread or that the search was exhaustive.

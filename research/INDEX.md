@@ -8,6 +8,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Start here
 
+- [Lower bounds on genuine residual degree (October 28)](notes/2026-10-28-residual-degree-synthesis.md) — marked attachment-module bounds, numerical capacity on normal carriers and normalizations, order-sensitive graph bounds, and full-attachment/genus limits; source proofs and independent audits, with literal scope and positivity conditions
 - [Containing intersections: residual families and constructive global models (October 28)](notes/2026-10-28-containing-intersections-synthesis.md) — three-agent continuation with separate audits: every-divisor attachment constructions, flat once-linked families and equation recovery, the conic model on a Fano threefold, and actual prescribed-index carriers; reviewed provisional work, with [focused primary literature](notes/2026-10-28-containing-intersections-literature.md)
 - [Containing-intersections research vision (October 27)](notes/2026-10-27-containing-intersections-research-vision.md) and [arbitrary-degree absorption continuation](notes/2026-10-27-arbitrary-degree-absorption-synthesis.md) — general positive constructions, scoped residual capacity, full-primary attachment and equation-lifting interfaces; reviewed provisional work, with degree-specific examples serving as tests
 - [Repository overview](../README.md)

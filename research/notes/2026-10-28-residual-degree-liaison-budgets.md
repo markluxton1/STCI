@@ -1,7 +1,8 @@
 # Genuine residual degree: attachment bounds, low-degree structure, and genus limits
 
 Date: 2026-10-28. Author: residual-liaison agent. Status: **provisional,
-pending independent review; no canonical promotion**. This answers the
+independently reviewed in the [separate audit](2026-10-28-residual-degree-liaison-audit.md);
+no canonical promotion**. This answers the
 quantitative question for proper intersections containing the fixed quartic,
 without assuming that a sole-support endpoint is impossible.
 
@@ -86,6 +87,15 @@ before a residual decomposition. It is conditional on that extra
 cohomology information; connected nonreduced support does not imply
 \(h^0=1\).
 
+The practical input may instead be an independently proved lower bound
+\(B\ge B_0\), or attachment data controlled throughout a proposed family
+of primary thickenings. One can replace \(B\) by \(B_0\) in the lower
+bounds below. A completed explicit extraction of the full primary ideal
+already determines its generic multiplicity and hence \(r=ab-4m\);
+these inequalities are not claimed to shortcut that completed computation.
+They are constraints on proposed primary families, module budgets, or
+partially known decompositions.
+
 Two clean cases need no detailed cohomology calculation:
 
 - If \(Z\) is reduced, it has at most \(r\) connected components, and
@@ -109,6 +119,12 @@ The variable \(B\) cannot silently be replaced by
 additional normal-nilpotent contribution even when the marked intersection
 has been fixed. Likewise (4) cannot be used after merely reducing \(Z\):
 that changes its degree and its Euler characteristic.
+If a marked lower bound \(\operatorname{length}(C\cap Z)\ge A_0\) is
+known, the containment \(C\cap Z\subset T\cap Z\) does give
+\(B\ge A_0\). Thus the **weaker inequalities obtained by substituting the
+lower bound \(A_0\)** are legitimate under the same reducedness or
+cohomology hypotheses. That use of a lower bound does not identify the
+two attachment lengths or turn (1) into a marked-intersection identity.
 
 ## 3. Why genus alone does not give an unrestricted degree bound
 
