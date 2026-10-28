@@ -37,6 +37,8 @@ The broader question can start from \(C_0\subset V(F,G)_{\mathrm{red}}\) with no
 
 Possible complementary viewpoints are: (a) generic filtered transverse algebras and full initial ideals; (b) global realization by normal jets and homogeneous equations; (c) Rees algebras, successive blowups, exceptional and residual intersection cycles; (d) carrier geometry, normalization, and conductor descent. None is a required first step. Work on one level can be valuable even before it forces a residual component.
 
+The historical quartic jet-discrepancy framework is now summarized in [order-one structure](results/order_one.md), with the surviving higher-degree question in [jet-condition framework](open/jet_condition_framework.md). It does not identify the R-0030 equation-module comparison defect with the maximal-rank defect of ambient jet maps. The original symbolic calculations remain evidence, not newly rerun certificates.
+
 The existing frontier offers several **nonexclusive** entry points: [jet dependence/discrepancy](FRONTIER.md), [entirely-thick successive transforms](results/entirely_thick.md), [root and formal-lifting questions](results/INDEX.md), and [fixed-carrier projection/conductor questions](questions/cartier_projection_models.md). Agents should choose or combine them based on potential mathematical leverage, not the number of existing records, convenience of case-splitting, or a mandated strategy. The possible Hilbert-function approach is one hypothesis to evaluate, not an adopted priority. New ideas outside these lanes are welcome if their assumptions and relationship to the original problem are explicit.
 
 ## What to ignore by default
