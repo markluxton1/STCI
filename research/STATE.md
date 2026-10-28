@@ -1,6 +1,8 @@
 # Canonical research state
 
-## Research activity status — October 27, 2026
+## Research activity status — October 28, 2026
+
+The [October 28 containing-intersections synthesis](notes/2026-10-28-containing-intersections-synthesis.md) continues the residual-inclusive construction question with three complementary agents and independent reviews. New **provisional** deductions prescribe every attachment divisor for \(a,b\ge7\), lift compatible finite normal jets in an explicit twist range, follow a flat once-linked curve through thickness jumps while recovering the actual pair, translate equation spaces to the established conic/Fano model, and construct actual high-index carriers with smooth residual class cancellation. The [literature refresh](notes/2026-10-28-containing-intersections-literature.md) includes the October 19, 2026 Brevik–Nollet paper with its Picard-group scope retained. These are reviewed source proposals; no canonical mathematical status changes.
 
 The [containing-intersections research vision](notes/2026-10-27-containing-intersections-research-vision.md) integrates three independently reviewed provisional lanes: all-degree residual/attachment geometry, formal-neighborhood visibility and fixed-twist extension, and positive-characteristic residual-to-thickness constructions. The user-directed guiding question is to understand and construct proper intersections containing \(C\), with residual curves included throughout and sole support a possible endpoint. These deductions and the proposed sextic experiments have **not** been promoted; no canonical mathematical status changes.
 

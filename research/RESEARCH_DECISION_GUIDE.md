@@ -6,6 +6,8 @@ The [October 27 research vision](notes/2026-10-27-containing-intersections-resea
 
 The [arbitrary-degree continuation](notes/2026-10-27-arbitrary-degree-absorption-synthesis.md) makes the selection rule explicit: formulate a general construction, criterion or competing assertion first. Before substantial degree-specific work, identify the principle being tested, what each possible outcome would teach, and which argument survives a change of degrees. An empty \((6,6)\) endpoint would settle only that degree pair; there is no reduction of arbitrary equations to sextics. Positive constructions and exact limits of known methods are substantive outcomes even when they do not decide STCI.
 
+The [October 28 construction picture](notes/2026-10-28-containing-intersections-synthesis.md) sharpens this criterion: a useful residual deformation must retain the actual low equations and the fixed marked partner. A once-linked curve can remain flat through absorption while full-primary extraction jumps. Every attachment divisor is constructible in a sufficient range, so concentrating attachment alone is not evidence of increasing thickness. The established Fano model supplies alternative actual section spaces, and prescribed-index carriers show that local singularity data and global divisor relations are separate construction tasks. These reviewed proposals motivate an integrated family experiment; they do not make one carrier model or degree pair compulsory. Check the [focused primary literature](notes/2026-10-28-containing-intersections-literature.md) before a new bridge, especially the distinction between Picard, Weil and almost-Cartier data.
+
 ## Essential conclusions: read first
 
 | Importance | What is established | Authority | Consequence |

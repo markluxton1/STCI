@@ -2,6 +2,8 @@
 
 Date: 2026-10-27. This continues the [containing-intersections vision](2026-10-27-containing-intersections-research-vision.md) after the user's explicit correction: put a general construction or geometric principle first; use a degree-specific example only to test it. **All new deductions are independently reviewed provisional evidence, not canonical promotions or claims of literature novelty.** The characteristic-zero STCI question for the fixed quartic remains open.
 
+The [October 28 continuation](2026-10-28-containing-intersections-synthesis.md) develops the residual deformation space and actual equation constructions further. Its flat **once-linked** family can cross thickness jumps; this complements, without changing, the nonflatness of a family of full primary components proved below.
+
 ## 1. What changed in this pass
 
 The question was whether residual geometry can specialize into thickness on the fixed \(C=[s^4:s^3t:st^3:t^4]\), and which local/global data govern that operation. The work now supplies a positive operation across degrees, a scope-specific capacity bound, a precise fiberwise attachment identity, and an obstruction to moving actual equations with a lower thickening. It supplies no reduction from arbitrary degrees to sextics.

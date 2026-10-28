@@ -1,0 +1,158 @@
+{
+  "field": "Q",
+  "method": "exact Taylor matrices with Fraction Gaussian elimination",
+  "scope": "15 finite normal-layer checks; theorem proved separately",
+  "checks": [
+    {
+      "normal_order": 1,
+      "ambient_degree": 4,
+      "source_h0_I_power": 18,
+      "kernel_h0_next_power": 1,
+      "image_rank": 17,
+      "target_dimension": 20,
+      "cokernel_dimension": 3,
+      "expected_cokernel_dimension": 3
+    },
+    {
+      "normal_order": 1,
+      "ambient_degree": 5,
+      "source_h0_I_power": 35,
+      "kernel_h0_next_power": 7,
+      "image_rank": 28,
+      "target_dimension": 28,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 1,
+      "ambient_degree": 6,
+      "source_h0_I_power": 59,
+      "kernel_h0_next_power": 23,
+      "image_rank": 36,
+      "target_dimension": 36,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 2,
+      "ambient_degree": 7,
+      "source_h0_I_power": 47,
+      "kernel_h0_next_power": 7,
+      "image_rank": 40,
+      "target_dimension": 45,
+      "cokernel_dimension": 5,
+      "expected_cokernel_dimension": 5
+    },
+    {
+      "normal_order": 2,
+      "ambient_degree": 8,
+      "source_h0_I_power": 80,
+      "kernel_h0_next_power": 23,
+      "image_rank": 57,
+      "target_dimension": 57,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 2,
+      "ambient_degree": 9,
+      "source_h0_I_power": 123,
+      "kernel_h0_next_power": 54,
+      "image_rank": 69,
+      "target_dimension": 69,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 3,
+      "ambient_degree": 10,
+      "source_h0_I_power": 96,
+      "kernel_h0_next_power": 23,
+      "image_rank": 73,
+      "target_dimension": 80,
+      "cokernel_dimension": 7,
+      "expected_cokernel_dimension": 7
+    },
+    {
+      "normal_order": 3,
+      "ambient_degree": 11,
+      "source_h0_I_power": 150,
+      "kernel_h0_next_power": 54,
+      "image_rank": 96,
+      "target_dimension": 96,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 3,
+      "ambient_degree": 12,
+      "source_h0_I_power": 217,
+      "kernel_h0_next_power": 105,
+      "image_rank": 112,
+      "target_dimension": 112,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 4,
+      "ambient_degree": 13,
+      "source_h0_I_power": 170,
+      "kernel_h0_next_power": 54,
+      "image_rank": 116,
+      "target_dimension": 125,
+      "cokernel_dimension": 9,
+      "expected_cokernel_dimension": 9
+    },
+    {
+      "normal_order": 4,
+      "ambient_degree": 14,
+      "source_h0_I_power": 250,
+      "kernel_h0_next_power": 105,
+      "image_rank": 145,
+      "target_dimension": 145,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 4,
+      "ambient_degree": 15,
+      "source_h0_I_power": 346,
+      "kernel_h0_next_power": 181,
+      "image_rank": 165,
+      "target_dimension": 165,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 5,
+      "ambient_degree": 16,
+      "source_h0_I_power": 274,
+      "kernel_h0_next_power": 105,
+      "image_rank": 169,
+      "target_dimension": 180,
+      "cokernel_dimension": 11,
+      "expected_cokernel_dimension": 11
+    },
+    {
+      "normal_order": 5,
+      "ambient_degree": 17,
+      "source_h0_I_power": 385,
+      "kernel_h0_next_power": 181,
+      "image_rank": 204,
+      "target_dimension": 204,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    },
+    {
+      "normal_order": 5,
+      "ambient_degree": 18,
+      "source_h0_I_power": 515,
+      "kernel_h0_next_power": 287,
+      "image_rank": 228,
+      "target_dimension": 228,
+      "cokernel_dimension": 0,
+      "expected_cokernel_dimension": 0
+    }
+  ],
+  "passed": 15
+}

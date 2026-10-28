@@ -10,6 +10,8 @@ For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is
 
 **Provisional constructive interface:** the [arbitrary-degree absorption synthesis](notes/2026-10-27-arbitrary-degree-absorption-synthesis.md) connects actual partial-transfer constructions, nef capacity bounds on carriers smooth along \(C\), full-primary attachment/duality, and marked-flag equation lifting. It is explanatory navigation to reviewed proposals, not a new canonical result or a mandate to enumerate degree pairs.
 
+The [October 28 continuation](notes/2026-10-28-containing-intersections-synthesis.md) adds every-divisor attachment constructions in a sufficient degree range, a flat once-linked family through multiplicity jumps with equation recovery, an all-degree conic section dictionary on the known quintic del Pezzo model, and prescribed-index singular carriers with smooth residuals. Its source notes and separate audits connect to liaison moduli, Fano geometry and Noether–Lefschetz theory. All new deductions remain reviewed provisional work; no canonical record or unrestricted status changes.
+
 For a compact list of specific unresolved implications, see the [open-question locator](questions/README.md). It is navigation, not an additional authority layer.
 
 ## Approaches and their missing bridges

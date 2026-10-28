@@ -4,6 +4,8 @@ Date: 2026-10-27. Branch: **codex/intersections-containing-quartic-2026-10-27**,
 
 **Subsequent research direction:** after the user questioned a sextic-first agenda, the [arbitrary-degree continuation](2026-10-27-arbitrary-degree-absorption-synthesis.md) established general partial-absorption constructions, scoped capacity and attachment/lifting interfaces. The sextic geometry below remains useful evidence and an optional test; it is not the leading assignment or a reduction of the general problem.
 
+The [October 28 continuation](2026-10-28-containing-intersections-synthesis.md) adds every-divisor constructions, a flat once-linked family through thickness jumps, equation recovery, and Fano/singular-carrier construction models. The generic attachment assertion below retains its original scope; the newer every-divisor existence statement has its own sufficient degree range, proof and independent audit.
+
 ## The guiding question
 
 For the fixed smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), what do proper intersections of two hypersurfaces containing \(C\) look like, and how can their residual geometry be used to construct particular intersections?

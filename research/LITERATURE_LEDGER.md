@@ -2,6 +2,8 @@
 
 Checked through: 2026-09-30
 
+Focused refresh, 2026-10-28: [residual liaison, the conic/Fano model, normal-jet construction and Noether–Lefschetz theory](notes/2026-10-28-containing-intersections-literature.md). Includes Brevik–Nollet's paper published online October 19, 2026, with its very-general complex ordinary-thickening and Picard-group hypotheses retained. This is a targeted supplement; it does not redatestamp the entire ledger or claim exhaustive coverage or an STCI resolution.
+
 Focused refresh, 2026-10-27: [containing intersections, G3/formal extension, liaison and positive-characteristic constructions](notes/2026-10-27-containing-intersections-literature-refresh.md). This supplements the dated ledger, records current source access and exact scope, and does not claim that every item below was reread or that the search was exhaustive.
 
 Additional focused refresh, 2026-10-27: [complete-intersection discrepancy and families](notes/2026-10-27-absorption-discrepancy-literature.md). The current numerical-invariants theorem includes nonreduced CM generically-CI curves and their **full** attachment schemes. The compatible-component-family theorem requires flatness and full induced component structures; it does not make primary extraction commute across an arbitrary absorption jump. The note records exact primary versions, hypotheses and the relation to the new provisional attachment-module identity.
