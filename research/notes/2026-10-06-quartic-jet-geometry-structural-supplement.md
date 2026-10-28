@@ -354,3 +354,10 @@ Thus C_0 offers a test of whether algebraic rank-degeneracy loci of successive j
 - Prove or disprove P-044 + H^0(I_{C_3}(4)) != 0 => R ruling fiber.
 - Determine whether P-044 localizes naturally at R.
 - Formulate a correct general jet-budget invariant and test it on known STCI/non-STCI examples before treating it as a general obstruction theory.
+
+
+---
+
+## Consolidation status (2026-10-28)
+
+This historical note remains a source for the geometric derivations and should not be deleted merely because its original research agenda was superseded. The current [jet geometry](../results/jet_geometry.md) and [order-one result](../results/order_one.md) summarize the structural claims. The complete [quartic-carrier theorem](../results/quartic_carrier_exclusion.md) supersedes *all* open quartic-mate status labels, not just the old (4,7), e=2 label. In particular, the P-044 and e=0,1 quartic-mate tasks below are not active STCI cases. Their intermediate calculations may still inform higher-degree jet questions. No historical computation was independently rerun in this consolidation.
