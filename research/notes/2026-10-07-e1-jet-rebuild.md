@@ -488,3 +488,10 @@ D3 degree is four, as indicated by the exact unique-quartic sample.
 
 The elimination is certified by research/computations/verify_e1_d2_defect.py
 at commit 93c0ca4519f0976bc9cbdba74fd75e5b5de2f719.
+
+
+---
+
+## Consolidation status (2026-10-28)
+
+Read the final **Repair of the fixed-ruling STCI implication** section rather than the earlier, explicitly retracted inference that a mate's intersection with a fixed line must lie outside C. The repaired argument uses intersection multiplicity on a smooth quartic carrier. The historical e=1 quartic-mate frontier is superseded by [R-0001](../results/quartic_carrier_exclusion.md); the exact annihilator and higher-jet calculations remain useful evidence and are not deleted. No new independent symbolic execution was performed in this consolidation.
