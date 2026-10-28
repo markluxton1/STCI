@@ -68,7 +68,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Space Curves I–VI intake](archive/space-curves-2026-10-19/README.md) — evaluated historical imports, proposed additions, source audits and explicit review gaps
 - [Chronological research record](RESEARCH_RECORD.md) — dated activity and provenance
 - [Ultra computation inventory](archive/ULTRA_COMPUTATIONS_INDEX.md) and [validation evidence](validation/)
-- [research notes](notes/) — 356 source notes, original branch links
+- [research notes](notes/) — original source notes (historical index retired)
 - [Ultra historical intake](archive/ULTRA_INTAKE.md) — copied dated handoffs and updates, not current authority
 - [Archived reports](archive/reports/AUDITED_STATE_2026-10-06.md) — preserved snapshots
 
