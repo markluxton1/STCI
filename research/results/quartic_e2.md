@@ -1,6 +1,6 @@
 # Primitive e=2 quartic results
 
-Canonical status: **PROVED for the fixed monomial quartic in the stated \((4,7)\) and \((4,8)\) branches**
+Canonical status: **PROVED for the fixed monomial quartic in the stated \((4,7)\) and \((4,8)\) branches; all quartic carriers subsequently excluded by R-0001**
 
 For
 \[
