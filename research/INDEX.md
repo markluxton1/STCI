@@ -67,8 +67,8 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [October 20 normal-filtration research report](notes/2026-10-20-normal-filtration-research-report.md) — source proofs for scope-limited promoted R0013–R0018 (historically provisional)
 - [Space Curves I–VI intake](archive/space-curves-2026-10-19/README.md) — evaluated historical imports, proposed additions, source audits and explicit review gaps
 - [Chronological research record](RESEARCH_RECORD.md) — dated activity and provenance
-- [Ultra computation inventory](archive/ULTRA_COMPUTATIONS_INDEX.md) and [validation directory inventory](archive/ULTRA_VALIDATION_INDEX.md)
-- [Ultra source-note inventory](archive/ULTRA_SOURCE_NOTES_INDEX.md) — 356 source notes, original branch links
+- [Ultra computation inventory](archive/ULTRA_COMPUTATIONS_INDEX.md) and [validation evidence](validation/)
+- [research notes](notes/) — 356 source notes, original branch links
 - [Ultra historical intake](archive/ULTRA_INTAKE.md) — copied dated handoffs and updates, not current authority
 - [Archived reports](archive/reports/AUDITED_STATE_2026-10-06.md) — preserved snapshots
 
