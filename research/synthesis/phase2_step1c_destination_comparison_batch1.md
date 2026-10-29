@@ -20,3 +20,7 @@ Scope: direct comparison against research/chapters/CARRIER_AND_CONDUCTOR_GEOMETR
 2. Read the Veronese conductor-jet endpoint argument and compare at proof level.
 3. Read the nonimmersion-prime and nonnormal MF6 source notes; compare against their actual owners.
 4. Integrate only verified omissions and record commit SHA per change.
+
+## Subsequent integration status
+
+Veronese classification and singular-pencil reduction are now recorded in `phase2_step1c_veronese_integration.md` (2b4aaac), linked from the technical carrier chapter (b8af1a1), with the explicit length-three conductor-jet argument added in d275c95. These claims are integrated for preservation, not independently re-certified. The Mumford numerical bound is preserved provisionally in `phase2_step1c_mumford_numerical_bound_review.md` (19d3a57; expanded db7f90a) and linked from the carrier chapter (2436f49). Its correctness audit remains open.
