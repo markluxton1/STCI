@@ -240,10 +240,9 @@ More generally for c_f=(w-f(z)), h=ord(f) and r=ord(f^2+z^2), the source compute
 
 Source: research/notes/2026-10-07-session-ramification-scheme-counterexample.md, with its exact symbolic verifier. These local distinctions should be preserved in future conductor/ramification arguments.
 
-## 16. Remaining Phase 2 coverage
+## 16. Source scope and mathematical boundaries
 
-The historical Space Curves III artifact proofs and scripts, the October 8 scroll applicability companion, the October 21 conditional (2,12) singular-gluing analysis, and the October 24 cubic-scroll/P4 normalization work require a separate scope decision or closer source reading. The latter two may belong primarily to other investigation families, rather than being absorbed wholesale into this dossier. No claim of exhaustive coverage is made, and no original mathematical sources are deleted.
-
+The historical Space Curves III cuspidal and ruled-cubic artifacts are represented in Section 13; their distinct conductor and divisor-class obstructions have been checked against the primary artifact descriptions. The October 8 smooth twisted-cubic scroll argument is treated in Section 14, with no extension to degenerate conductor centers. The October 21 conditional singular-root work and October 24 ruled-model geometry are cross-referenced in the companion addendum; their spectral-root and intrinsic-geometric arguments remain owned by their respective investigation families. The independently audited plane-normalization example and its family are represented in Sections 5, 10 and 12. These source comparisons are not fresh independent reruns of every inherited theorem. Original mathematical sources remain retained.
 
 ## 17. Ruled-model and conditional conductor continuation
 
