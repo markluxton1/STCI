@@ -41,3 +41,25 @@ Compared the Phase 1 mathematical investigation inventory (including Phase 1B an
 **PASS — scoped mathematical-package coverage of the identified normalization/conductor/projection sources, after recovery of the smooth-scroll extension, the independently audited A4 quintic subcase, and the opposite-ruling failure example.**
 
 **NOT CERTIFIED — exhaustive current-branch file coverage, complete historical branch comparison, or independent proof correctness of all inherited results.** In particular, the independent adversarial reconstruction of P-010 is a separate task. This limitation is a certification boundary, not a mathematical open problem. The separately deferred codex branch remains for coordinated later integration. No theorem promotion, source deletion, or modification of main is authorized by this record.
+
+
+## Full working-branch tree enumeration (supersedes the earlier search-only limitation)
+
+On the branch head \`c46c28ad3d1ccc1f81e623b23b0080bb4c38be29\`, GitHub's recursive Git-tree endpoint returned \`truncated=false\`, with **2,328 blob files**. Among **549** Markdown notes under \`research/notes/\`, a filename-level scope filter using conductor, normaliz*, projection, Cartier, phase, scroll, ramification, singleton, carrier, quintic, delpezzo, dp4 and dp5 matched **147** notes. These counts are a reproducible candidate population, **not** evidence that every file's mathematical contents were individually reviewed. The tree also exposed preexisting consolidation chapters and mathematical dependency maps not covered by the earlier certificate.
+
+### Cross-family disposition from the tree review
+
+- \`research/chapters/CARRIER_AND_CONDUCTOR_GEOMETRY.md\` already organizes the **complete degree-four carrier exclusion** across genus-zero, genus-one and genus-two normalizations. That proof program, including the genus-two conormal, trisecant and endpoint cases, is primarily a low-degree-exclusions package. The Phase 2 normalization/conductor dossier owns the general descent machinery and the specific smooth-scroll conductor component, **not** the full case-by-case proof of R-0001. This chapter remains an essential navigation link.
+- \`research/MATHEMATICAL_CONSOLIDATION_QUARTIC_CARRIER_DEPENDENCIES.md\` records the complete quartic-carrier proof dependency DAG; it should not be conflated with the narrower Cartier singleton model theorem.
+- \`research/MATHEMATICAL_CONSOLIDATION_PROJECTIONS_AND_THICK_CONTACT.md\` distinguishes full conductor phase descent from entirely-thick intersections; the latter stays in the moving-roots/filtration family.
+- \`research/MATHEMATICAL_CONSOLIDATION_CARRIERS_AND_FILTRATIONS.md\` distinguishes the carrier-index/socle argument from first-relation torsion and flags unresolved correctness dependencies; these belong to separate proof chains even where both use C's normal data.
+- The October 9–16 del Pezzo, A3/A4, quintic, elliptic and genus-two conductor investigations appear in numerous source notes and executable certificates. They are grouped with the full quartic-carrier exclusion or low-degree carrier continuation; their distinctive conductor mechanisms must be retained in those owner chapters. A title-matched enumeration alone does not certify their individual proofs or their content-level incorporation.
+- The October 14–16 generalization and phase notes contain the reusable finite-dimensional projection spaces, full-conductor family construction, contact-budget inequalities, split-phase counterexample, and exact rational algorithm. Their shared general theory is in the Phase 2 dossier; concrete quintic-specific elimination programs remain cross-family.
+- The October 21 conditional (2,12) conductor notes remain cross-referenced in the Phase 2 addendum, not promoted to a global normal-carrier theorem.
+- The separate \`codex/intersections-containing-quartic-2026-10-27\` research branch remains excluded from this working-branch tree snapshot by design.
+
+### Revised certification level
+
+**PASS for inventory-level allocation of the identified Phase 2 mathematical packages on the enumerated working branch. NOT PASS for claim-level exhaustive source preservation.** A fully exhaustive claim-level certificate would require reading and classifying the mathematical contents of all potentially relevant tree entries, especially the 147 title-matched research notes plus the archival and computational population, and reconciling each unique theorem, computation, failed approach and open direction with its owner destination. The earlier phrase "scoped mathematical-package coverage" must not be construed as an exhaustive file-level or claim-level certification.
+
+The independent P-010/R-0035 reconstruction checkpoint committed at \`c46c28a\` reports **INCOMPLETE** for both claims. Its numerical conditional check is not a proof of the primitive-thickening reduction; P-010, that reduction, and R-0035 must be separately certified. This is a proof correctness dependency, not an unlocated-source category.
