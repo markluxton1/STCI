@@ -55,6 +55,18 @@ is fiberwise surjective; \(W=\ker T_f\) has rank two and determinant \(\mathcal 
 
 This is a complete representation of the **second obstruction**, not proof that its zero scheme is empty or that the first obstruction vanishes. The original construction also retains the actual embedded chart and the smoothness discriminant of the binary quartic; do not infer a universal exclusion by testing a generic coefficient chart alone. [Global dual construction](notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md).
 
+## Elliptic root-curve torsion and the second obstruction locus
+
+On the smooth \((2,2)\) root-curve open \(U_{\rm sm}\subset\mathbf P^8\), put \(A=\mathcal O_Z(1,0)\), \(B=\mathcal O_Z(0,1)\), and \(\eta=B\otimes A^{-1}\in\operatorname{Pic}^0(Z)\). The two ruling deck involutions satisfy \(\iota_B\iota_A(p)=p+\eta\); thus the torsion order of \(\eta\) is the order of a **canonical translation** on the elliptic root curve. For each fixed \(n\ge2\), the \(n\)-torsion locus is a smooth codimension-one relative-Picard locus on \(U_{\rm sm}\) in characteristic zero. It is not automatically transverse to a compatibility or obstruction scheme.
+
+For \(n=2\) there is a concrete determinantal equation: if \(f=a(z)u^2+b(z)uv+c(z)v^2\), then \(\eta\) has exact order two on the smooth open iff
+\[
+\det\begin{pmatrix}a_0&a_1&a_2\\b_0&b_1&b_2\\c_0&c_1&c_2\end{pmatrix}=0.
+\]
+At the specified seed \(f_0=(z^2+4)u^2+(z^2-8)v^2\), the accepted first compatibility component \(C\) is smooth four-dimensional, and the explicit tangent \(\delta f=zuv+4v^2\) evaluates the determinant differential to \(12\). Hence \(C\) meets the order-two divisor transversely, in a three-dimensional local branch \(D\). The canonical second obstruction \(\sigma_2\) is nonzero at the seed; its zero locus on this irreducible \(D\) has dimension **at most two**. The same local bound applies to the even-order torsion component through this seed, including orders eight and twelve.
+
+This is a rigorous **local dimension bound on one torsion branch**, not a proof that the entire second obstruction locus is empty, not a statement about other torsion components, and not a reduction of unbounded torsion orders to finitely many. [Torsion and second-zero geometry](notes/2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry.md).
+
 ## Important interface: ordinary versus saturated filtration
 
 The independent index/socle audit proves that, for a curvilinear actual CI thickening, the torsion-free **ordinary** layers are powers B_i=B_1^i, and 2 sum length(T_i)_P=n D_n,P. This does not assert that the **saturated** BF layers have trivial multiplication divisors. The first-relation resultant theorem instead uses the saturated filtration and its generation defects. Confusing the two makes apparent contradictions and invalid shortcut exclusions.
