@@ -1,0 +1,9 @@
+# Mumford numerical normal bound: provisional preservation and audit obligations
+
+Source: [October 5 proof](../notes/2026-10-05-mumford-normal-bound.md). Status: historical proof reconstructed, **not independently audited or promoted**.
+
+Claim: for an integral projective surface S regular at the generic point of a smooth integral curve C, normalization followed by resolution gives a numerical pullback C-sharp with square at most the degree of the normal line of C in S. On a resolution factoring through the blowup of the curve ideal, write its invertible transform as O(-D), with D=C-tilde+Z exceptional, and numerical pullback C-sharp=C-tilde+R. The proposed exact defect is deg N(C/S)-(C-sharp)^2=(Z-R).C-tilde, nonnegative. The argument uses relative generation of O(-D), negative definiteness of the exceptional intersection matrix and the inverse positivity of its negative.
+
+The source computes a contribution one-half at an ordinary A1 node. Conditional on the split-sextic geometric hypotheses and its previously established numerical value C-sharp squared equal to 13/5, two ordinary endpoint nodes improve the Jacobian divisor estimate to delta at least eight. The finite-chart consequence gcd(R,g) of degree at least six and, for nonzero G of degree at most six, G divides R, **does not cover G identically zero**.
+
+Independent audit required before theorem promotion: (1) justify that the strict transform of C is isomorphic to C and that the transformed ideal restriction identifies with the torsion-free conormal, including at nonnormal points; (2) check relative global generation on every exceptional component and matrix sign conventions; (3) verify node coefficients for arbitrary smooth branches; (4) independently reconstruct the split-sextic normal-degree and 13/5 antecedents; (5) keep the G=0 stratum separate. None of these conditional numerical restrictions alone excludes a general STCI pair.
