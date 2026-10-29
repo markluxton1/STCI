@@ -1,0 +1,40 @@
+ROW_ORDER=0
+ROW_ORDER=1
+ROW_ORDER=2
+ROW_ORDER=3
+ROW_ORDER=4
+SHAPE=(90,84)
+GLOBAL_CARRIER_ANNIHILATED_AND_PRIMITIVE
+BLOCK_START
+BLOCK=0 SHAPE=(15, 16)
+PRESENTATION=| k 0 0                                                                                                       |
+             | 0 k 0                                                                                                       |
+             | 0 0 1215k9+183834k8+16985880k7+1305652552k6+56634503616k5+1412125752640k4+14480360156160k3-16148528394240k2 |
+             | 0 0 0                                                                                                       |
+BLOCK=1 SHAPE=(15, 13)
+PRESENTATION=| k 0 0 0 0 |
+             | 0 k 0 0 0 |
+             | 0 0 k 0 0 |
+BLOCK=2 SHAPE=(15, 14)
+PRESENTATION=| k 0 0  0 |
+             | 0 k 0  0 |
+             | 0 0 k2 0 |
+BLOCK=3 SHAPE=(15, 14)
+PRESENTATION=| k 0 0 0  0 |
+             | 0 k 0 0  0 |
+             | 0 0 k 0  0 |
+             | 0 0 0 k2 0 |
+BLOCK=4 SHAPE=(15, 14)
+PRESENTATION=| k 0 0  0 |
+             | 0 k 0  0 |
+             | 0 0 k2 0 |
+BLOCK=5 SHAPE=(15, 13)
+PRESENTATION=| k 0 0 0 0 |
+             | 0 k 0 0 0 |
+             | 0 0 k 0 0 |
+COMBINED_ZERO_SHAPE=(30, 16)
+COMBINED_ZERO_PRESENTATION=| k 0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+                           | 0 k 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+                           | 0 0 k2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+                           | 0 0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+PASS_ALL_NONZERO_PARAMETERS_BRANCH_ORDER5_KERNEL_IS_SCALAR_CARRIER

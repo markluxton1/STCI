@@ -11,8 +11,11 @@ Existence and nonexistence remain open. This document selects and records
 searches; it is not a new canonical result. New deductions below are
 independently reviewed provisional work, with their source proofs and
 computations linked explicitly.
-The [final integration review](notes/2026-10-29-stci-search-integration-audit.md)
-checks this synthesis, its scope boundaries and the navigation changes.
+The [baseline integration review](notes/2026-10-29-stci-search-integration-audit.md)
+checks the earlier synthesis, its scope boundaries and navigation changes.
+The [subsequent continuation](notes/2026-10-29-search-continuation.md)
+links the new family calculations and their separate independent audits;
+its full projection-locus endpoint remains unfinished.
 
 ## 1. The question and the search cycle
 
@@ -267,9 +270,9 @@ has not been identified with actual normalization sections or a mate.
    completed ranks to seek special contact loci rather than new generic
    samples. These are complementary constructive tests with explicit
    success certificates.
-3. Develop the arithmetic obstruction specifically beyond one-binomial
-   pairs. Keep the all-pairs delta(p) target visible; do not identify
-   fixed-carrier optimality with this target.
+3. Extend the higher-jet arithmetic obstruction beyond its now-tested
+   larger plane source. Keep the all-pairs delta(p) target visible; do not
+   identify restricted-source optimality with this target.
    For a degree bound B, primes p>B automatically remove all one-binomial
    presentations from that bounded search; allow extension-field
    coefficient solutions in the remaining two-non-binomial locus.
@@ -278,3 +281,30 @@ The next deliverable should be an actual defining pair, an exact empty
 specified parameter locus, or a smaller surviving locus with the first
 unresolved equation identified. A new geometric invariant earns further
 work here by helping produce or reject those equations.
+
+## 7. Completed continuation and its remaining projection endpoint
+
+The [October 29 continuation](notes/2026-10-29-search-continuation.md)
+records three distinct outcomes, with proofs, exact computations and
+independent audits:
+
+- For \(F=q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\), every
+  member is integral and every proper actual sextic mate has
+  \(\ell_C\le8\). The entire \((6,6)\) contact-nine incidence is empty;
+  \(\deg R\ge4\). The calculation treats the split branches separately
+  and retains every parameter. Higher mate degrees remain uncomputed.
+- On a specified twenty-three-parameter plane source, every mate degree
+  satisfies \(p\mid b\), by a higher-jet descent gap. An explicit
+  non-binomial degree-sixteen carrier has non-binomial degree-\(p\)
+  mates for every prime \(p\ge43\), with literal pullback \(z^{4p}\).
+  The restricted-source minimum is exactly \(p\); this does not bound
+  the all-pairs minimum below.
+- For the complete marked smooth-quadric source, only determinant orders
+  one and two can be basepoint free. Several complete parameter slices
+  and residual-divisor strata are excluded. The remaining full-inverse
+  incidence and descent on surviving admissible strata are **not**
+  computed. The source notes specify those remaining equations.
+
+These are reviewed provisional contributions, without canonical promotion.
+They do not settle the unrestricted characteristic-zero question or the
+other normalization models.

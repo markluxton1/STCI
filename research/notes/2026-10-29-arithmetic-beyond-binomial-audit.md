@@ -148,3 +148,99 @@ classify the larger admissible locus, or reduce arbitrary carriers to
 this source. In particular the stronger claim that `b=p` is attained
 for all sufficiently large primes requires separate conductor descent
 or explicit polynomial membership evidence.
+
+## Addendum: independent audit of the explicit mates and conductor
+
+**Verdict: PASS for Sections 3--5 of the companion note, including every
+prime `p>=43`, the literal two-non-binomial assertion, the exact restricted
+minimum, and the optional conductor interpretation.** This addendum
+supersedes the earlier statement that positive-characteristic attainability
+had not yet been established. The initial obstruction audit remains valid.
+
+Here is a separate direct reconstruction of the central polynomial
+identity, without using localization on the carrier. Use the notation
+`r,n,E,A,B,P_p` in Section 4. For `j=4h+l`, the pullback of its summand,
+before its binomial coefficient, is
+
+```
+U1^r U0^(E+h-3l) U3^(n-j) B(U)^h A(U)^l
+ = s^(3r+4E+12h+3l) t^r z^(4h+l) (t^4+s^3z)^(n-j)
+ = s^(p+3j) t^r z^j (t^4+s^3z)^(n-j).
+```
+
+Thus ordinary binomial expansion, even before reducing the characteristic,
+gives
+
+```
+P_p(U)
+ = s^p t^r sum_j (-1)^j binom(n,j) (s^3z)^j (t^4+s^3z)^(n-j)
+ = s^p t^r [(t^4+s^3z)-s^3z]^n
+ = s^p t^(r+4n)
+ = s^p t^(3p).
+```
+
+Characteristic `p` then gives `G_p(U)=z^(4p)`. This independently checks
+the signs, coefficient exponents, and full homogeneous identity. Each
+summand has degree `r+E+n=p`. Its smallest possible `x0` exponent is
+bounded below by `E-9`, and `E>=9` for every prime at least 43: when
+`p=3 mod4`, `r=1` and `E=(p-3)/4`; when `p=1 mod4`, `r=3` and
+`E=(p-9)/4`, with the first such prime above 43 equal to 53. Therefore
+no localization or negative homogeneous exponent remains in the formula.
+
+The source map is finite and surjective onto `X`, and its full inverse
+support over `C0` is the line `z=0`. Hence the nonzero pullback identity
+proves properness and global projective support equality. No untested
+boundary chart is omitted. Bézout gives the cycle `4p[C0]`.
+
+The carrier equation is irreducible in every characteristic by primitive
+linearity in `x2`: its leading coefficient is `-x0^15`, and its constant
+coefficient restricts at `x0=0` to `x1^16`. The two distinct irreducibles
+`U2=st^3+z^4` and `U3=t^4+s^3z` are primitive linear polynomials in `s`
+and `z`, respectively. Their nonassociation to each other or to `s,t`
+therefore proves the no-binomial-relation assertion by unique
+factorization. This argument does not assume the coefficients have
+characteristic zero.
+
+For the mate, every term of `P_p` is divisible by `x1^r`, `r>0`, so
+`G_p` has the nonzero pure term `x2^p`. Were it binomial, it would have
+the form `x2^p-cM`. Its pullback would require `cM(U)=s^p t^(3p)`.
+Unique factorization forces zero exponents of `x2,x3` in `M`. The
+remaining monomial `x0^a x1^b` has `t` exponent `b`, which would have
+to equal `3p`, impossible in total degree `p`. Consequently both displayed
+equations are non-binomial, with no binomial equation hidden as the
+carrier. Combining this attained degree with the independently audited
+lower bound `p | b` proves the claimed exact restricted minimum `p`.
+It leaves the all-carrier minimum `delta(p)` untouched.
+
+I inspected and reran the dependency-free sparse verifier. Its exact
+controls pass at `43,47,53,59,61,101` and reproduce the saved JSON. These
+finite runs support the formula; the preceding polynomial expansion is
+the proof for all stated primes.
+
+The optional conductor calculation is also valid. Finite duality gives
+`omega_S=Hom_A(B,omega_X)` locally for the finite birational normalization;
+since `omega_X` is invertible, its twist by the inverse identifies
+`Hom_A(B,A)` with the conductor. This follows directly by extending an
+`A`-linear map to the common fraction field: it is multiplication by an
+element `q`, and the condition is precisely `qB subset A`.
+The finite-duality input was checked against [Stacks Lemma 48.11.4](https://stacks.math.columbia.edu/tag/0AX2).
+The hypersurface dualizing formula was checked against
+[de Jong, Lecture Notes B, Lemma 1.2](https://www.math.columbia.edu/~dejong/courses/schemes-spring-2020/lecture-notes-b.pdf).
+
+Here both `S=P2` and `X` are Gorenstein, so this conductor is invertible
+upstairs, of class `O(-3-4*12)=O(-51)`. The map is an isomorphism off
+`D=(s=0)`; at its generic point the boundary map to its image line has
+residue-field degree four in every characteristic (possibly inseparable),
+so the conductor support is exactly `D`. An invertible effective ideal
+supported on that line is `O(-nD)`, and its class forces `n=51`; no
+codimension-two correction can occur for an invertible ideal. Since
+`Q-U2=-st^3`, a Frobenius power at least 51 puts `Q^q-U2^q` in this
+conductor. Conductor sections descend after twisting, and the
+hypersurface exact sequence lifts the result to an ambient form because
+`H^1(P3,O(q-16))=0`. This proves the stated weaker threshold by an
+independent mechanism. The sharper threshold 43 is already supplied by
+the explicit formula and does not depend on duality.
+
+No unsupported generalization was found in the reviewed claims. The
+unclassified larger admissible locus and the absence of an exhaustive
+all-pairs reduction remain explicit limitations.
