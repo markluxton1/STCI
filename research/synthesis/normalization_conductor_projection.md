@@ -308,3 +308,35 @@ where (D_F) is the entire common-zero divisor of the carrier's first normal symb
 The independently reviewed October 16 raw-input corollary starts from explicit rational parameter presentations of one of the **three fixed models**, not an already computed phase image. It algorithmically filters basepoints, extra inverse points, and nonbirational maps, constructs actual conductor module data and a rational phase-image presentation, then applies the accepted torsion decision procedure. This is an **existence/termination result for an algorithm**, not a report that any fixed-model phase image or mate locus has been computed. Source: `research/notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md`.
 
 The ongoing source-level ledgers are `phase2_reconciliation_batch2.md` through `phase2_reconciliation_batch5.md` and `normalization_conductor_phase2_source_reconciliation_batch1.md`. These allocations do not yet establish exhaustive preservation.
+
+
+## 21. Entire-conic quadratic conductor: exact power criterion
+
+This is a reusable *actual-conductor algebra* theorem, not a classification of which conic conductor data occur for the fixed curve. For a characteristic-zero degree-four ADE del Pezzo normalization with a two-quadric anticanonical embedding, choose a projection from a point outside the surface. The graded equations can be arranged as
+[
+Q_1=z^2-Az-R_1,qquad Q_2=Lz+R,
+]
+where (A,L) are linear and (R_1,R) quadratic in the four target coordinates. Elimination gives the quartic
+[
+F=R^2+ALR-R_1L^2.
+]
+Under the complete-intersection, finite-birational projection hypotheses, the **entire downstairs conductor scheme** is the plane conic (\Gamma=V(L,R)), not its reduction. It may be smooth, reducible, or a double line. The algebra audit accepts this exact calculation conditionally on the geometric setup; it does not independently establish every claimed anticanonical embedding or fixed-(C_0) spanning application. Sources: `research/notes/2026-10-09-session-genus-one-entire-conductor.md` and `research/notes/2026-10-09-session-genus-one-entire-conductor-algebra-independent-audit.md`.
+
+Let (M=\mathcal O_\Gamma(1)) and suppose the *entire* finite flat quadratic algebra is
+[
+p_*\mathcal O_D=\mathcal O_\Gamma\oplus M^{-1},\qquad w^2=\delta,
+]
+with trace involution (\sigma(w)=-w). For a nonzerodivisor section (q=m+w\ell), where (m\in H^0(\Gamma,M^2)), (\ell\in H^0(\Gamma,M)), (\delta\in H^0(\Gamma,M^2)), put
+[
+\mathcal C_{\rm cyc}=\left\{\left(\frac{1+\zeta}{1-\zeta}\right)^2:\ \zeta\text{ a root of unity},\ \zeta\ne\pm1\right\}.
+]
+For a smooth conic or the **entire plane double line**, a positive power of (q) is invariant under (\sigma) if and only if
+[
+m\ell=0\quad\text{on the entire }\Gamma,
+\qquad\text{or}\qquad
+m^2=\rho\delta\ell^2\quad\text{on the entire }\Gamma
+\quad\text{for some }\rho\in\mathcal C_{\rm cyc}.
+]
+For two distinct lines, impose the corresponding criterion **separately on both components**, with possibly different cyclotomic constants and a common multiple of the resulting power orders. These are equalities of entire schemes, including nilpotents, not equations only on reduced supports. The proof uses (\sigma(q)/q) in generic Artin rings, separability of (T^n-1) in characteristic zero, and injectivity of sections into generic total quotient rings. A split quadratic conductor permits unbounded phase order; this algebraic criterion alone does **not** bound mate degree or exclude the remaining genus-one carrier models. Sources: `research/notes/2026-10-09-session-quadratic-conductor-power-descent.md` and its `2026-10-09-session-quadratic-conductor-power-descent-independent-audit.md`.
+
+The companion genus-one weak del Pezzo reduction and D5 root-saturation filter concern which actual normalizations and primitive sections can occur. They are **separate geometric hypotheses**, not consequences of the quadratic-algebra criterion. The explicit four-A1 projections are negative full-inverse-support examples, not an exhaustion of the lattice stratum. See `research/notes/2026-10-09-session-genus-one-delpezzo-reduction.md`, `research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md`, and `research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md`.
