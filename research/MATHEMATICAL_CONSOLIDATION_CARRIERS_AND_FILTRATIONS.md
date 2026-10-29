@@ -67,6 +67,30 @@ At the specified seed \(f_0=(z^2+4)u^2+(z^2-8)v^2\), the accepted first compatib
 
 This is a rigorous **local dimension bound on one torsion branch**, not a proof that the entire second obstruction locus is empty, not a statement about other torsion components, and not a reduction of unbounded torsion orders to finitely many. [Torsion and second-zero geometry](notes/2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry.md).
 
+## Universal quadratic root incidence and its nonzero second obstruction
+
+In characteristic zero, consider a moving quadratic first relation of movement two
+\[
+f=a(z)u^2+b(z)uv+c(z)v^2,\qquad \deg a,\deg b,\deg c\le2,
+\]
+on the basepoint-free open \(U\subset\mathbf P^8\). The root divisor \(Z_f\subset\mathbf P^1\times\mathbf P^1\) is finite flat of degree two over the base, including singular or nonreduced members. The **actual embedded-chart** first ambient class is represented by \(d_f=\operatorname{pr}(D_uf_u+D_vf_v+\alpha f_z)\), with the base-motion term retained, modulo multiplication by \(f\). Its universal \(16\times12\) multiplication matrix \(A_f\) is injective on \(U\); therefore the first compatibility scheme is exactly
+\[
+K=\{[f]\in U:\operatorname{rank}[A_f\mid d_f]=12\},
+\]
+defined by the \(13\times13\) minors of one \(16\times13\) matrix. The correcting vector is unique on \(K\).
+
+The explicit smooth elliptic seed \(f_0=(z^2+4)u^2+(z^2-8)v^2\) satisfies the first class. Its first-incidence Jacobian has a nonzero \(16\times16\) minor \(-405\), so \(K\) is smooth of dimension four at \([f_0]\). Moreover the ruling-difference class \(\eta=\mathcal O_{Z_0}(0,1)\otimes\mathcal O_{Z_0}(-1,0)\) has **exact order two**. Thus actual first ambient compatibility and spectral torsion coexist on a positive-dimensional smooth-root family: neither condition alone excludes the moving-root geometry.
+
+The **second** ambient class, relevant when the independent second relation has degree \(s>4\), lives in the rank-sixteen cokernel
+\[
+\operatorname{coker}\big[H^1(\mathcal O(-14,2))\xrightarrow{\cdot f}H^1(\mathcal O(-12,4))\big].
+\]
+Retaining nonlinear base motion and the first equation-unit correction, the explicit seed's quartic residual \(R_4\) admits the Serre-dual functional
+\[
+\lambda(R_4)=[z^{-1}](-c\,r_1+a\,r_3)=\tfrac18\ne0.
+\]
+The sparse dual vector \((0,-c,0,a,0)\) annihilates the entire multiplication image. Hence the second obstruction is **nonzero at the very seed that passes the first and torsion tests**. Uniqueness of first corrections makes the second class a canonical section of a rank-sixteen vector bundle on \(K\), not an unrelated test. It is nonzero generically on the component through the seed, but its complete zero scheme remains undetermined. The result applies to actual complete intersections only under the separate actual-CI-to-root-curve bridge; it does not exclude every root divisor or the \(s=4\) lane. [Universal first incidence](notes/2026-10-14-generalization-quadratic-root-universal-incidence.md), [second-class certificate](notes/2026-10-14-generalization-quadratic-root-second-obstruction.md).
+
 ## Important interface: ordinary versus saturated filtration
 
 The independent index/socle audit proves that, for a curvilinear actual CI thickening, the torsion-free **ordinary** layers are powers B_i=B_1^i, and 2 sum length(T_i)_P=n D_n,P. This does not assert that the **saturated** BF layers have trivial multiplication divisors. The first-relation resultant theorem instead uses the saturated filtration and its generation defects. Confusing the two makes apparent contradictions and invalid shortcut exclusions.
