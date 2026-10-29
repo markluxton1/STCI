@@ -24,6 +24,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Literature ledger](LITERATURE_LEDGER.md) — external source checks
 
 - [Normalization, conductor, and projection dossier](synthesis/normalization_conductor_projection.md) — Phase 2 mathematical consolidation of fixed-carrier descent, Cartier singleton models, projection phases, counterexamples, and bounded-index restrictions; source coverage remains bounded.
+- [Phase 2 normalization/conductor addendum](synthesis/normalization_conductor_phase2_addendum.md) — ruled cubic and cone normalizations, embedded inverse-image corrections, and conditional singular-root boundaries; source status retained.
 - [Mathematical synthesis](synthesis/README.md) — explanatory chapters, not independent theorem authority
 - [Authority reconciliation](AUTHORITY_RECONCILIATION_2026-10-17.md) — checked interfaces and outstanding metadata limitations
 - [Provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md) — current tree inventory and evidence-retention decisions
