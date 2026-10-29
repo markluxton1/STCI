@@ -20,6 +20,32 @@ The October 21 conductor-budget proposal originally depended on an anticanonical
 
 Sources: research/notes/2026-10-20-conditional-2-12-singular-gluing.md and research/notes/2026-10-21-conditional-2-12-conductor-ramification.md. Conditional cross-family work, not promoted.
 
+## Exact global sextic-symbol restriction in the conditional (6,16) lane
+
+For an actual supported \((F_6,G_{16})\) pair with **full fiberwise coprime** generic normal CI \((2,12)\) and an **actual saturated movement-two** first relation, write the basepoint-free quadratic first root \(f=a(z)u^2+b(z)uv+c(z)v^2\) and the degree-six symbol \(\sigma_2(F_6)=\alpha f\), where \(\alpha\in H^0(\mathbf P^1,\mathcal O(8))\) is nonzero. A global sextic does **not** have an arbitrary symbol in \(H^0(\mathcal O(10))^3\). The exact map
+\[
+H^0(I_{C_0}^2(6))\longrightarrow H^0(\operatorname{Sym}^2N_{C_0/\mathbf P^3}^{\vee}(6))
+\]
+has source dimension 23, rank 22, kernel \(kq^3\) (with \(q=x_0x_3-x_1x_2\)), and image cut out by **eleven independent linear equations** in the 33 symbol coefficients \(P_j,Q_j,R_j\). A source basis consists of \(q^2\) times the ten quadrics; \(qA\) times \(x_0,x_1,x_2,x_3\); \(qB\) and \(qD\) times \(x_2,x_3\); and \(A^2,AB,AD,BD,D^2\), with \(A=x_0^2x_2-x_1^3\), \(B=x_0x_2^2-x_1^2x_3\), \(D=x_2^3-x_1x_3^2\). The eleven equations are, in order,
+\[
+\begin{gathered}
+P_9-2Q_{10},\quad Q_0-2R_1,\quad P_0-2Q_1+4R_2,\quad
+3P_1-2Q_2-4R_3,\\
+P_2-2Q_3+4R_4,\quad P_3-2Q_4+4R_5,\quad P_4-4R_6,\quad
+P_5-2Q_6+4R_7,\\
+P_6-2Q_7+4R_8,\quad P_7+2Q_8-12R_9,\quad P_8-2Q_9+4R_{10}.
+\end{gathered}
+\]
+Substituting \(P=\alpha a,Q=\alpha b,R=\alpha c\) gives **eleven bilinear global-symbol equations**. They do not invert \(\alpha\) at its zeros. For fixed compatible \((f,\alpha)\), global sextics with this symbol differ by \(\eta q^3\).
+
+The next necessary global lifting equation compares the **actual cubic jet** of such a sextic with the unique first-compatible local cubic correction \(G_0\):
+\[
+(F_c)_3-\alpha G_0=f(\ell(z)u+m(z)v),\qquad \deg\ell,\deg m\le7.
+\]
+This is a finite 40-coefficient condition, distinct from the first and second local ambient classes and from the full spectral torsion criterion. The smooth torsion-two seed \(f_0=(z^2+4)u^2+(z^2-8)v^2\) admits a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying the eleven equations, but it **fails** the cubic comparison (an exact annihilating pairing is \(-384\)) and already fails the independently accepted second obstruction. This is a seed exclusion, not emptiness of the combined incidence.
+
+The reviewed singular-root bridge uses the actual transformed ideal \((p,t^{10})\) and proves necessity of the ambient classes even for singular reduced roots, under the stated actual-pair hypotheses. The remaining structured scheme also retains all twenty-five second-obstruction pairings and full-scheme spectral torsion (including nodal gluing); its emptiness, nonemptiness, and realization by a globally supported pair are **unresolved**. The independent audit passed the exact symbol map and conditional necessity reductions, without promoting a general STCI exclusion. [Symbol map and cubic comparison](../notes/2026-10-20-conditional-2-12-symbol-map.md); [global incidence](../notes/2026-10-20-conditional-2-12-global-realization-incidence.md); [independent audit](../notes/2026-10-20-conditional-2-12-incidence-audit.md).
+
 ## Remaining boundaries
 
 No arbitrary projection classification, full conductor phase image, higher-index exclusion, global spectral realization, or unrestricted characteristic-zero STCI theorem follows. The separate codex/intersections-containing-quartic-2026-10-27 branch remains excluded. Original mathematical sources are retained.
