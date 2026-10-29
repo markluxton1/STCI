@@ -243,3 +243,8 @@ Source: research/notes/2026-10-07-session-ramification-scheme-counterexample.md,
 ## 16. Remaining Phase 2 coverage
 
 The historical Space Curves III artifact proofs and scripts, the October 8 scroll applicability companion, the October 21 conditional (2,12) singular-gluing analysis, and the October 24 cubic-scroll/P4 normalization work require a separate scope decision or closer source reading. The latter two may belong primarily to other investigation families, rather than being absorbed wholesale into this dossier. No claim of exhaustive coverage is made, and no original mathematical sources are deleted.
+
+
+## 17. Ruled-model and conditional conductor continuation
+
+The companion [Phase 2 addendum](normalization_conductor_phase2_addendum.md) consolidates the paired-secant cubic's finite F1 normalization and double-line conductor, the nonnormal projection cone and its F4 resolution, the four-section quartic's nonreduced conductor, and the reviewed conditional (6,16) singular-root/conductor frontier. Crucially, the October 21 independent continuation audit verifies the previously conditional cubic-model contraction in the exact actual-pair setting and forces a multiple base zero of alpha or a zero of alpha at a spectral-root node. This does not eliminate those exceptional strata or prove an STCI exclusion. The original historical sources remain retained; the separate codex branch is excluded.
