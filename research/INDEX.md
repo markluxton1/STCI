@@ -23,6 +23,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Open-problem topics](open/README.md) — longer-lived topic navigation
 - [Literature ledger](LITERATURE_LEDGER.md) — external source checks
 
+- [Normalization, conductor, and projection dossier](synthesis/normalization_conductor_projection.md) — Phase 2 mathematical consolidation of fixed-carrier descent, Cartier singleton models, projection phases, counterexamples, and bounded-index restrictions; source coverage remains bounded.
 - [Mathematical synthesis](synthesis/README.md) — explanatory chapters, not independent theorem authority
 - [Authority reconciliation](AUTHORITY_RECONCILIATION_2026-10-17.md) — checked interfaces and outstanding metadata limitations
 - [Provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md) — current tree inventory and evidence-retention decisions
