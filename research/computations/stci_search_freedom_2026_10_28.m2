@@ -24,7 +24,7 @@ for m from 1 to 6 do (
         assert(actual == dimensionFormula(d,m));
         if d >= 2*m and d < 3*m then (
             -- Every degree-d section is divisible by the stated fixed Q power.
-            v := basis(d,J#m);
+            v := super basis(d,J#m);
             assert(v % gens ideal(Q^(3*m-d)) == 0);
             );
         );

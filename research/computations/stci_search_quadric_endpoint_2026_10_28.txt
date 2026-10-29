@@ -1,0 +1,7 @@
+Command: /opt/homebrew/bin/M2 --script research/computations/stci_search_quadric_endpoint_2026_10_28.m2
+Completed: 2026-10-29
+Exit code: 0
+
+DIAGONAL_RESTRICTION_VERIFIED
+OFF_DIAGONAL_ENDPOINT_WITNESS_VERIFIED
+NONZERO_LAMBDA_EXTRA_INVERSE_POINTS_ZERO_LAMBDA_BASEPOINTS

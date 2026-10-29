@@ -1,0 +1,8 @@
+Command: /opt/homebrew/bin/M2 --script research/computations/stci_search_quadric_updated_2026_10_29.m2
+Completed: 2026-10-29
+Exit code: 0
+
+BASEPOINT_FREE_VERIFIED
+OFF_DIAGONAL_INVERSE_DIMENSION=0
+OFF_DIAGONAL_INVERSE_DEGREE=16
+OFF_DIAGONAL_INVERSE_GROEBNER_BASIS=matrix {{b-c-1, c^2-a*d+c, 3*a^2-2*a*c-c*d+d^2-2*a+1, 54*d^5-994*a*c*d^2-309*a*d^3+136*c*d^3+164*d^4+1264*a*c*d-514*a*d^2-205*c*d^2-488*d^3+33*a*c-167*a*d+201*c*d-244*d^2-39*a-399*c-326*d-435, 54*c*d^4+47*a*c*d^2+384*a*d^3-50*c*d^3+62*d^4-1136*a*c*d-85*a*d^2+188*c*d^2+604*d^3-561*a*c-191*a*d+336*c*d+275*d^2-525*a+429*c+496*d+429, 2*a*d^4+6*a*c*d^2-6*a*d^3-c*d^3+d^4+6*a*d^2+6*c*d^2+9*a*c-12*c*d+6*d^2+9*a+1, 18*a*c*d^3-146*a*c*d^2-15*a*d^3+23*c*d^3+28*d^4+170*a*c*d-77*a*d^2-32*c*d^2-67*d^3+6*a*c-10*a*d+48*c*d-29*d^2-3*a-51*c-40*d-57}}

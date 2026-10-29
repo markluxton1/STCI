@@ -4,6 +4,8 @@ This is a **conceptual navigation map**, not a new proof, a chronological record
 
 ## The central question and boundary
 
+**Current research framing (October 29):** [If C were a STCI, how would we find its equations?](STCI_SEARCH.md) organizes the constructive search, exact candidate tests, informative failures and revisions. It links provisional arithmetic and global-freedom deductions with independent audits. This changes research selection, not theorem authority or the open status below.
+
 For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is \(C_0\) a set-theoretic complete intersection of two surfaces in characteristic zero? **Open.** For a proper intersection \(Y=V(F_a,G_b)\) containing \(C_0\), the cycle can be studied as \([Y]=m[C_0]+R\), with \(ab=4m+\deg R\). Study residual components, attachment/gluing and constructive specialization in their own right; \(R=0\) is a possible endpoint rather than an assumed impossibility. The [October 27 integrated vision](notes/2026-10-27-containing-intersections-research-vision.md) links reviewed provisional deductions and concrete next experiments without promoting them. Do not infer a residual curve downstairs from exceptional vertical cycles.
 
 **Closed low-degree boundary:** [R-0001](results/quartic_carrier_exclusion.md) excludes every integral quartic carrier with a mate; together with its accepted lower-degree/factor reduction, both defining degrees in any hypothetical characteristic-zero STCI are at least five. [R-0022](results/quartic_44_filtered_exclusion.md) gives a separate, narrower proof for a quartic pair. Neither resolves higher-degree pairs.

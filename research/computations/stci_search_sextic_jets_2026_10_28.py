@@ -126,8 +126,8 @@ def main():
             f=ambient_carrier(t,kappa)
             multiples=[[(INDEX[tuple(a+b for a,b in zip(m,h))],c) for m,c in f.items()]
                        for h in exponents(DEGREE-6)]
-            points=[z for z in range(1,80) if (1+2*t*z+z*z)%PRIME
-                    and (1+2*t*z+(1+t*t)*z*z)%PRIME][:40]
+            points=[z for z in range(1,150) if (1+2*t*z+z*z)%PRIME
+                    and (1+2*t*z+(1+t*t)*z*z)%PRIME][:80]
             rows=[]
             for z in points:rows.extend(point_matrix(z,t,kappa,multiples))
             rank,digest=rank_rows(rows)
@@ -166,6 +166,9 @@ def main():
                                  for a in filtration],flush=True)
             destination=Path(__file__).with_suffix(".json")
             destination.write_text(json.dumps({"status":"provisional exact rank certificates",
+                "script_sha256":hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+                "arithmetic_helper_sha256":hashlib.sha256(Path(__file__).with_name(
+                    "endpoint4_fixed_jet_independent_2026_10_26.py").read_bytes()).hexdigest(),
                 "prime":PRIME,"source_degree":DEGREE,"known_multiples":286,
                 "source_dimension":969,"max_rank":MAX_RANK,
                 "scope":"Seven selected actual sextics, all degree16 global mates; no family exhaustion",

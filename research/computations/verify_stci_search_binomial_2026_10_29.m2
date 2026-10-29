@@ -1,0 +1,13 @@
+R=ZZ/5[x0,x1,x2,x3];
+F=x1^3-x0^2*x2;
+G=x2^20-3*x0*x1*x2^13*x3^5+3*x0^2*x1^2*x2^6*x3^10-x0^5*x3^15;
+A=ZZ/5[u,v];
+psi=map(A,R,{1_A,u,u^3,v});
+assert(psi G == (u^4-v)^15);
+T=ZZ/5[y,z];
+eta=map(T,R,{0_T,0_T,y,z});
+assert(eta G == y^20);
+assert(degree F == {3});
+assert(degree G == {20});
+print "PASS char5 (3,20): affine restriction (u^4-v)^15; boundary restriction y^20; degrees 3,20";
+exit 0;
