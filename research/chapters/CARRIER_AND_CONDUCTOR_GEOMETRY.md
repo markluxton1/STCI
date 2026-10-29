@@ -168,6 +168,18 @@ In the trisecant case the conductor line lies in the degree-three ruling of the 
 
 Sources: [genus-two adjoint audit](../notes/2026-10-09-session-genus-two-adjoint-independent-audit.md), [null-curve and correction audit](../notes/2026-10-09-session-genus-two-nullcurve-mate-independent-audit.md), [entire-conductor audit](../notes/2026-10-10-session-genus-two-entire-conductor-independent-audit.md), and [normal strict-transform audit](../notes/2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md).
 
+#### Conductor line positions: the two strata have different geometry
+
+In the genus-two blowup-lift framework, identifying the adjoint pencil with the pencil of planes through the reduced conductor line \(\Gamma\) gives the conditional scheme-length identity
+\[
+\tau=\operatorname{length}(C_0\cap\Gamma)=4-f\cdot c^\#.
+\]
+Thus the \(\lambda=0\) bisection stratum has \(\tau=2\), while the \(\lambda=1\) trisecant stratum has \(\tau=3\). This implication uses the **separate blowup-lift identification**; the elementary line-position classification below does not.
+
+All trisecants lie in the degree-three ruling of the unique quadric and are \(\Gamma_\kappa=(x_2-\kappa x_0,x_3-\kappa x_1)\), together with \(\Gamma_\infty=(x_0,x_1)\). For \(\kappa\ne0,\infty\), the contact divisor consists of three distinct cube roots of \(\kappa\); at the two endpoints it is a single length-three fat point. **No trisecant has contact partition \([2,1]\)**, and no line meets \(C_0\) in length four.
+
+The length-two positions are precisely ordinary secants not lying in the quadric and tangents at nonendpoint points. For finite distinct parameters \(a,b\), their secant lies in the quadric exactly when \(a^2+ab+b^2=0\), equivalently \(a^3=b^3\); for \(a=b\ne0\), the tangent has length two. Secants through infinity remain ordinary bisecants. These explicit boundary distinctions prevent treating a length-two conductor as a degenerate member of the trisecant ruling. [Full line-position calculation and conditional lift discussion](../notes/2026-10-10-session-genus-two-conductor-line-position.md).
+
 ### 3.3 Genus-two bisection: a global conormal contradiction
 
 The genus-two normalization admits a second-pencil reduction, with bisection case denoted lambda=0 in the source. Under a hypothetical mate, the accepted conductor geometry produces an **actual Cartier double** R_C supported on the smooth lifted curve c. Its Cohen-Macaulay purity makes the nilideal J square-zero globally, not merely generically, and the source calculates J=O_C(-8). This is a genuine ribbon on the normalization, including its singular points.
