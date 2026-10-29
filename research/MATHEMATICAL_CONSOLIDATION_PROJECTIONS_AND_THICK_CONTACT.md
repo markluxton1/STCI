@@ -24,6 +24,21 @@ The normalized (3,3) boundary is excluded; the (3,4) equality boundary forces re
 
 This is not another carrier-normalization model. It is an **equation-side** decomposition of possibilities and belongs with the filtered/normal-thickening chapter, cross-linked to carrier arguments where relevant.
 
+## Equality rigidity on the quadric and the open ambient lift
+
+Let \(Q\cong\mathbf P^1\times\mathbf P^1\) be the unique smooth quadric containing \(C_0\), with \([C_0]=(1,3)\), and let \(h\) cut out \(C_0\) on \(Q\). If a degree-\(3p\) ambient form \(F\) has generic normal order \(p\) along \(C_0\), then
+\[
+F|_Q=h^pR_F,\qquad R_F\in H^0(Q,\mathcal O_Q(2p,0)).
+\]
+This has **exact** order \(p\) along \(C_0\): divisibility of \(R_F\) by \(h\) would require a nonzero section of \(\mathcal O_Q(2p-1,-3)\), which does not exist. Every effective divisor of type \((2p,0)\) is a sum of ruling fibers, so \(R_F=\lambda\prod_i\ell_i^{M_i}\), with \(\sum M_i=2p\). For a hypothetical entirely-thick STCI equality pair of degrees \((3p,4q)\), the **separate exceptional-cycle argument** bounds the number \(r\) of distinct fibers by \(r\le\min(p,q)\). This is a necessary consequence, not a converse or an existence result.
+
+Crucially, these are **restrictions on \(Q\)**, not factorizations of the ambient form \(F\). Choosing an ambient lift \(H_p\) of \(h^pR_F\), any form with that restriction is \(F=H_p+q_QK\), with \(\deg K=3p-2\), but the required ambient normal-order condition is additionally \(F\in I_{C_0}^p\). The unresolved lifting problem is to determine the image and kernel of
+\[
+H^0(\mathbf P^3,I_{C_0}^p(3p))\longrightarrow
+H^0(Q,\mathcal O_Q(3p,3p))
+\]
+and the associated first-symbol map to \(H^0(C_0,\operatorname{Sym}^pN_{C_0}^\vee(3p))\). In characteristic zero the latter bundle is \(\mathcal O_{\mathbf P^1}(5p)^{\oplus(p+1)}\). The quadric direction constrains only one slice of the normal symbol; it does not determine all ambient coefficients. No reducibility, power structure, nonnormality, or STCI exclusion follows without this lifting analysis. Source: [equality rigidity and ambient-lifting formulation](notes/2026-10-07-thick-boundary-carrier-rigidity.md).
+
 ## Architectural implications
 
 - Keep the carrier chapter ordered by **logical dependency**, not date: fixed-carrier descent -> singleton classification -> admissible projections -> phase reduction -> explicit no-mate example.
