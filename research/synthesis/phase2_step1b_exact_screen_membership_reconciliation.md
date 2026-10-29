@@ -6,9 +6,9 @@ Snapshot recursive tree: `219dc14f022c06fb0719f01a0fafa1fad3f000c1`. Authoritati
 
 - Original snapshot: **549** `research/notes/*.md` paths; **147** screen-matched, **402** screen-unmatched.
 - Distinct note paths appearing in the 17 intake matrices: **266**.
-- Intake paths in the 402 screen-unmatched population: **216**.
+- Intake paths in the 402 screen-unmatched population: **217**.
 - Intake paths in the 147 screen-matched population: **49**.
-- Intake paths outside the original 549-note snapshot: **1**.
+- Intake paths outside the original 549-note snapshot: **0**.
 - **Remaining screen-unmatched paths not mentioned by these matrices: 186.**
 
 This is an exact-path membership comparison, not a certification that a matrix entry's mathematical claims are correct or preserved at the destination. The historical original 147-path list was reconstructed from the reported rule rather than independently preserved.
@@ -31,7 +31,7 @@ This is an exact-path membership comparison, not a certification that a matrix e
 | [phase2_step1b_oct13_cross_family_batch_k](phase2_step1b_oct13_cross_family_batch_k.md) | 25 | 19 | 6 | 0 |
 | [phase2_step1b_oct14_cross_family_batch_l1](phase2_step1b_oct14_cross_family_batch_l1.md) | 8 | 4 | 4 | 0 |
 | [phase2_step1b_oct14_cross_family_batch_l2](phase2_step1b_oct14_cross_family_batch_l2.md) | 12 | 7 | 5 | 0 |
-| [phase2_step1b_oct14_cross_family_batch_l3](phase2_step1b_oct14_cross_family_batch_l3.md) | 14 | 6 | 7 | 1 |
+| [phase2_step1b_oct14_cross_family_batch_l3](phase2_step1b_oct14_cross_family_batch_l3.md) | 14 | 7 | 7 | 0 |
 | [phase2_step1b_oct14_cross_family_batch_l4](phase2_step1b_oct14_cross_family_batch_l4.md) | 12 | 8 | 4 | 0 |
 | [phase2_step1b_oct14_cross_family_batch_l5](phase2_step1b_oct14_cross_family_batch_l5.md) | 7 | 4 | 3 | 0 |
 
@@ -89,9 +89,9 @@ This is an exact-path membership comparison, not a certification that a matrix e
 
 ## Intake paths outside original snapshot
 
-- `research/notes/2026-10-14-localcoh-pencil-independent-review.md`
+None. The L3 filename link was corrected in commit `3238ebff76fab2e2f52ebddedc1dbeee9567f8bd`; it points to the existing `generalization-localcoh-pencil-independent-review` source.
 
-## Remaining unscreened paths: 186
+## Remaining unscreened paths: 185
 
 The following is the **exact set difference** of the original 402 minus all source paths identified in Step 1B matrices; alphabetical ordering is inherited from the reconstructed manifest.
 
@@ -106,7 +106,6 @@ The following is the **exact set difference** of the original 402 minus all sour
 - `research/notes/2026-10-12-session-sparse-heptic-cubic-pair-classification.md`
 - `research/notes/2026-10-14-cyclic-cover-local-smooth-curve.md`
 - `research/notes/2026-10-14-generalization-curvilinear-torsion-and-index12.md`
-- `research/notes/2026-10-14-generalization-localcoh-pencil-independent-review.md`
 - `research/notes/2026-10-14-localcoh-polynomial-scaling-design.md`
 - `research/notes/2026-10-14-normal-cyclic-cover-torsion-detection.md`
 - `research/notes/2026-10-15-formal-branch-ruled-model-degree-bound-review.md`
