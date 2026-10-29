@@ -366,6 +366,24 @@ Crucially, the separately audited **global necessary** monic incidence has **sev
 
 The detailed source allocations and the conditional (6,16)/(2,12) boundary are in `research/synthesis/phase2_reconciliation_batch12.md` and `phase2_reconciliation_batch13.md`. Neither family yields a general fixed-(C_0) STCI exclusion.
 
+## 23. Nonendpoint quintic (h=3) exclusion and (h=2) differential reduction
+
+These statements concern **admissible nonendpoint genus-one quintic \(A_4\) projections in characteristic zero**, not all quintic carriers. Let \(H_j\) be the homogeneous gcd of the corrected first conormal cubics, and let \(F_{\rm cond}\) be the **actual homogeneous conductor octic**.
+
+**Complete \(h=3\) lane.** Under the accepted homogeneous gcd-three classification, every admissible projection with \(\deg H_3=3\) is excluded for **all positive mate degrees**. Zero-cubic and proportional boundary charts are included. In the remaining proportional family \(F_{\rm cond}=\mathrm{const}\cdot H_3S_5\). Full inverse support restricts the roots of \(S_5\) to those of \(H_3\). The homogeneous leading-drop analysis excludes infinity support, and the complete alternatives are: three distinct roots, or multiplicity patterns \(5\), \(4+1\), \(3+2\). The last pattern uses the **original six-generator** polynomial row \(M_6\) and an exact identity \(M_6W=(Vc_5)^2\), where the admissible parameter product \(Vc_5\) is nonzero; thus the six equations cannot vanish simultaneously. This closes the entire \(h=3\) lane, not merely a generic chart. [Accepted scoped result](../notes/2026-10-14-generalization-quintic-h3-results-acceptance.md).
+
+**Differential content of \(h=2\).** For every finite birational ring extension \(A\subset B\) with conductor \(I\), the identity \(I\Omega_{B/A}=0\) follows from \(c\,db=d(cb)-b\,dc\) for \(c\in I\). Along the smooth lifted curve, the relative differentials have the local form \(\Omega_{S/X}\otimes\mathcal O_c\cong\mathcal O_c/(u_1,v_1)\,dT\), where \(u_1,v_1\) are the corrected conormal symbols. Hence their complete homogeneous gcd \(H_2\) divides \(F_{\rm cond}\), including multiplicities and the permitted simple \(A_4\) infinity factor. Write \(F_{\rm cond}=H_2Q_6\), with \(Q_6\) homogeneous sextic. This is **divisibility**, not equality of conductor and first-symbol divisors.
+
+When no extra \(A_4\) support is allowed, the remaining support condition becomes the eigenvector equation
+\[
+D_{H_2}Q_6=\mu Q_6,\qquad D_K=(\partial_tK)\partial_s-(\partial_sK)\partial_t.
+\]
+For quadratic \(H_2=as^2+bst+ct^2\), with \(\Delta=b^2-4ac\), the degree-six action has characteristic polynomial
+\[
+\mu(\mu^2-4\Delta)(\mu^2-16\Delta)(\mu^2-36\Delta),
+\]
+valid also on the repeated-root boundary. With the allowed \(A_4\) point \(s=0\), retain the homogeneous system \(D_{sH_2}Q_6=L_1Q_6,\ jD_{H_2}Q_6=\mu Q_6\), \(j=\bar J\), rather than discarding \(j=0\). For \(j\ne0\) the support condition is equivalently the covariant identity \(J(\operatorname{Hess}(F_{\rm cond}),Q_6)=0\). These are necessary incidence reductions, **not an \(h=2\) exclusion or conductor-power descent**. The original source flags its later quadratic-algebra norm computation as pending independent review; do not promote that extension here. [Differential proof and incidence](../notes/2026-10-14-generalization-quintic-h2-conductor-quotient.md).
+
 ## Exact finite-Artinian phase descent and effective rational bound
 
 For an injective inclusion of finite-dimensional commutative algebras `A subset B` over a characteristic-zero field F, write their canonical etale/nilpotent decompositions `A=K+N_A`, `B=E+N_B`. Every unit `u in B*` has a unique expression `u=v*exp(w)` with `v in E*`, `w in N_B`. Put `D=E tensor_K E` and `rho=(v tensor 1)/(1 tensor v)`. Then **some positive power of u lies in A if and only if** `w in N_A` and `rho` is torsion in `D*`; the least such exponent is `ord(rho)`. This is the exact full-Artinian criterion, including nilpotent layers; reduced phase alone is insufficient. The proof uses the etale equalizer `K={e in E:e tensor 1=1 tensor e}` and characteristic-zero logarithm. The [source](../notes/2026-10-14-generalization-projection-finite-phase-space.md) further gives a conditional finite-type phase cover from bounded rational multiplication matrices, with parameter stratification and actual conductor tests. It does **not** compute mate existence for the fixed projection families.
