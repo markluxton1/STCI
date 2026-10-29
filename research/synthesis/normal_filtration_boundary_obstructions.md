@@ -70,3 +70,5 @@ The remaining defective ancestor strata and other directions must be checked wit
 ## Rational endpoint-family comparison
 
 The [Step 1C endpoint-family synthesis](phase2_step1c_endpoint_families.md) preserves the complete first-family target-u exclusion and the incomplete second-family certificate. For the latter, 22 primitive geometric parameter points remain unresolved after the two quadratic exceptional factors are closed. These are exceptions to a certificate, not constructed ancestors. Both results concern specified pure-top endpoint directions, not all quartic ancestors or arbitrary mates.
+
+**Later endpoint closure:** The earlier October 8 count of 22 unresolved second-family exception points was eliminated by the October 13 cubic/quartic field duals and the October 14 degree-fifteen fraction-free certificate. Both specified rational endpoint families are excluded under their actual tensor and pure-top assumptions. See [the updated endpoint synthesis](phase2_step1c_endpoint_families.md). Do not interpret the earlier count as the current frontier.
