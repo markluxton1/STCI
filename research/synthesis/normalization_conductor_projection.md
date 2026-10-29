@@ -395,6 +395,25 @@ W(k)\cap\operatorname{Tor}(\mathbf G_m^D)
 \]
 Deleting inadmissible boundaries is essential: torsion cosets in the closure of \(W\) need not meet \(W\). There is an exact trichotomy for **least** mate degrees across the fixed family: no surviving coset means no mates; only zero-dimensional cosets give a uniform bound; a surviving positive-dimensional coset gives unbounded least mate degrees as carriers vary. This is not an effective determination of the cosets or a constructibility theorem for the mate locus. [Theorem and proof](../notes/2026-10-15-generalization-projection-torsion-coset-reduction.md).
 
+## 25. Quintic (h=2): compact incidence, ODE, and spectral accelerator
+
+On the justified remaining nonendpoint \(A_4\) quintic \(h=2\) parameter open, write \(H=t^2+vst+ws^2\), \(Q=\sum_{i=0}^6q_is^{6-i}t^i\), \(j=\bar J\), and \(R=D_HQ\). The accepted closed-lane and intrinsic-contact results give the **unit ideal** \((q_5,q_6)=A\) on the localized candidate ring; this is not permission to invert either coefficient separately. The full quadratic and cubic rank incidence has 77 minors. Its saturation by \((q_5,q_6)\) equals the saturation of **twelve fixed generators**: eleven selected cubic minors and \(jM_{56}\), where \(M_{56}=q_5r_6-q_6r_5\). The identity uses pivot covers, works with nonreduced parameter rings, and does not divide by \(j\). The actual conductor norm product can be appended as a single necessary equation without splitting its factors.
+
+On the same localized scheme, the cubic rank condition is equivalently the existence of uniquely determined, locally gluing witnesses \(d,u\) for
+\[
+h(z)q'(z)=(dz+u)q(z),\quad
+E_i=w(i+1)q_{i+1}+(vi-u)q_i+(i-1-d)q_{i-1}=0
+\quad(0\le i\le7).
+\]
+The equations imply **as ideal memberships**, not just at closed points, \((d-5)(d-6)=0\) and \(j(d-6)=0\). The \(d=5\) branch retains simple intrinsic-\(A_4\) infinity contact; \(d=6\) has no infinity root. Neither is discarded.
+
+There is a single derived spectral polynomial on this entire scheme. Put \(\Delta=v^2-4w\), \(\eta=dv-2u\),
+\[
+P_6(X)=X(X^2-4\Delta)(X^2-16\Delta)(X^2-36\Delta),\qquad
+P_5(X)=(X^2-\Delta)(X^2-9\Delta)(X^2-25\Delta).
+\]
+Then \((d-5)P_6(\eta)+(6-d)P_5(\eta)\) belongs to the same ODE ideal. The proof uses the two complementary idempotents \(d-5\) and \(6-d\) and Cayley–Hamilton on the sixth and fifth symmetric powers, without radicalizing, inverting a discriminant, or choosing roots. This is a computational compression, **not a unit-ideal certificate**. The subsequent whole-\(h=2\) global saturation prospect stopped at its memory guard and supplied no mathematical emptiness result; that resource-limit history is not part of the theorem. [Twelve generators](../notes/2026-10-15-generalization-quintic-h2-twelve-generator-support-system.md), [ODE equivalence](../notes/2026-10-15-generalization-quintic-h2-automatic-open-and-ODE.md), [spectral identity](../notes/2026-10-15-generalization-quintic-h2-unified-spectral-accelerator.md).
+
 ## Exact finite-Artinian phase descent and effective rational bound
 
 For an injective inclusion of finite-dimensional commutative algebras `A subset B` over a characteristic-zero field F, write their canonical etale/nilpotent decompositions `A=K+N_A`, `B=E+N_B`. Every unit `u in B*` has a unique expression `u=v*exp(w)` with `v in E*`, `w in N_B`. Put `D=E tensor_K E` and `rho=(v tensor 1)/(1 tensor v)`. Then **some positive power of u lies in A if and only if** `w in N_A` and `rho` is torsion in `D*`; the least such exponent is `ord(rho)`. This is the exact full-Artinian criterion, including nilpotent layers; reduced phase alone is insufficient. The proof uses the etale equalizer `K={e in E:e tensor 1=1 tensor e}` and characteristic-zero logarithm. The [source](../notes/2026-10-14-generalization-projection-finite-phase-space.md) further gives a conditional finite-type phase cover from bounded rational multiplication matrices, with parameter stratification and actual conductor tests. It does **not** compute mate existence for the fixed projection families.
