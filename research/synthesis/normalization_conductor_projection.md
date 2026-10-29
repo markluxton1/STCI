@@ -190,3 +190,21 @@ This explains why the differential divisor alone does not measure conductor cont
 ### Source status for this expansion
 
 Directly inspected source proofs: `notes/2026-10-13-generalization-conductor-theorem.md`, `notes/2026-10-19-singleton-projection-investigation.md`, and `notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md`. This expansion preserves their concrete calculations and argument mechanisms. Their independent audit files, other historical conductor examples, and source-complete proof reconciliation remain outstanding. No historical files are deleted.
+
+## 11. Normal-carrier index mechanism (source-level reconstruction)
+
+The full proof of R-0034/R-0035 distinguishes the actual local Cartier index r of C on a normal carrier from both surface multiplicity and tangent-cone data. If the mate multiplicity is n=kr and h locally cuts rC, normality and height-one valuations give (h^k:I)=h^(k-1)(h:I) and Soc(W_n)=h^(k-1)Soc(W_r). The relative complete-intersection Jacobian and Gorenstein duality then yield the pointwise identity D_n,P=(k-1)A_F,P+kD_r,P. For ordinary J-adic torsion layers T_i, the Frobenius pairing also gives 2 sum_i length(T_i)_P=n D_n,P. This latter statement does not erase saturated BF-filtration multiplication defects.
+
+For C0, let a=deg F, b=deg G, n=ab/4 and first free normal quotient O(-ell), ell<=7. The proof computes deg D_n=(n-1)ell-4(a+b)+14 and deg A_F=4a-14+ell. A bound s on every actual on-curve index gives s(ell-16/a)>=4a-14+ell, hence 4a^2-(7s+7)a+16s<=0. This bounds carrier degree in terms of s, not uniformly without an index bound.
+
+For s=4, inherited torsion/index and low-degree results reduce to the minimal pair (a,b)=(6,8), n=12. For an octic, deg(D_n-2A_F)=9ell-78 is negative. For a sextic, 9ell-62 forces ell=7, deg D_n=35, deg A_F=17, and total slack one. The local expression D_n,P-2A_F,P=(k-3)A_F,P+kD_r,P then excludes index-two points and positive primitive socle defects at index-three/four points. The remaining primitive triples glue to an embedded primitive triple with constant first-normal direction O(-7)^2 -> O(-7), contradicting the inherited P-010 quadratic obstruction. Thus R-0035 excludes all normal integral carriers with actual on-curve indices at most four, subject to the explicit inherited results. Index six and twelve (k=2 and 1), higher indices, nonnormal carriers, and entirely thick presentations remain outside this exclusion.
+
+Source: research/notes/2026-10-14-generalization-normal-index-socle-theorem.md. The separate filtered-compatibility proof has not been independently reconstructed in this consolidation pass.
+
+## 12. Audited local first-order obstruction for the plane family
+
+The independent review of R-0017 gives an exact generic conductor-local calculation. In the source chart z=1, write r=s/z, y=t/z. At the generic boundary D=(r=0), the normalization DVR is B=k(y)[r]_(r), with residue E=k(y). For the eleven-parameter family, the target residue field is K=k(g(y)/alpha), where g(y)=y^4+P(0,y,1); the extension E/K has degree four. On the target chart X2 nonzero, the local coordinate functions are a0=r^4/(alpha+r y^3), a1=r^3 y/(alpha+r y^3), and w=(y^4+P(r,y,1))/(alpha+r y^3).
+
+Modulo r^2, any target-local element, including fractions with denominators invertible at the generic boundary, is represented by R(w) for a rational function R. If its residue is constant, injectivity of K into E forces R to be constant, so its first r-coefficient vanishes. In contrast, the candidate ray unit q^b=(alpha+r y^3)^(-b) has expansion alpha^(-b)-b alpha^(-b-1)y^3 r modulo r^2, whose linear coefficient is nonzero in characteristic zero for every b>0. Therefore no power descends even though the reduced residue phase is trivial. This is a concrete counterexample to replacing the full conductor-unit test by reduced residue torsion.
+
+The independent review in research/notes/2026-10-19-singleton-plane-projection-independent-audit.md confirms the explicit map, full inverse support, family birationality criterion, all-degree exclusion, differential-kernel test, local first-order defect, and the literal two-fixed-coordinate sublane. It does not classify arbitrary plane projections or determine the complete conductor phase image.
