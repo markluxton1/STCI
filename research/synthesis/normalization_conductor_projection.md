@@ -132,3 +132,61 @@ This is an equality of actual divisors, not just degrees. It is not established 
 **Still to compare directly:** the historical Ultra source proofs and audits linked from these records, detailed local conductor calculations (including cuspidal/ruled-cubic examples), relevant scratch scripts, projection and singular-carrier historical investigations, and other mathematical source material not enumerated by Phase 1. No completeness or redundancy certificate is asserted for these sources.
 
 **Deletion policy:** no original mathematical source is removed in this batch. Ordinary correction chronology should not be imported into the final exposition; substantive failed mathematical mechanisms should.
+
+## 10. Source-level expansions: explicit computations and finite reductions
+
+### 10.1 An explicit plane normalization and its polynomial obstruction
+
+The original R-0017 source gives the concrete map
+\[
+f([s:t:z])=[s^4:s^3t:st^3+z^4:t^4+s^3z].
+\]
+On \(s\ne0\), writing \(x=t/s\), \(n=z/s\), the image coordinates are \((x,x^3+n^4,x^4+n)\), so \(x\) and \(n\) are recovered rationally. The map is basepoint-free; since \(f^*\mathcal O(1)=\mathcal O_{\mathbf P^2}(4)\) is ample, it is finite. Its image has degree sixteen and is defined by
+\[
+F=(X_0^3X_3-X_1^4)^4-X_0^{13}(X_0^2X_2-X_1^3)=0.
+\]
+The pullbacks of the two bracketed forms are \(s^{15}z\) and \(s^8z^4\). The inverse image of \(C_0\) has full reduced support \(z=0\), including the boundary \(s=0\).
+
+Suppose a degree-\(b>0\) mate \(G\) existed. Pullback and positivity force \(G(f)=\lambda z^{4b}\), rescaled to \(z^{4b}\). Restriction to \(s=0\), where \([t:z]\mapsto[z^4:t^4]\) is surjective, gives \(G(0,0,Z,T)=Z^b\). Differentiating \(G(f)=z^{4b}\) in \(s\) and then setting \(s=0\) gives
+\[
+0=b\,t^3z^{4b-4},
+\]
+a contradiction in characteristic zero. This is a **global polynomial proof**, not just a generic-point phase argument.
+
+For the eleven-parameter family with \(U_2=st^3+\alpha z^4\), \(U_3=t^4+zP_3\), writing \(P_3=A_3+zB_2+z^2C_1+\delta z^3\), the generic map degree is respectively \(1,2,4\) according as \(A_3\) or \(C_1\) is nonzero; both vanish but \(B_2\ne0\); or all three vanish. This follows from the \(\mu_4\)-action on \(k(x,n)/k(x,n^4)\). Only the first locus gives degree-sixteen plane normalizations. The derivative contradiction persists across the entire family. The broader two-fixed-coordinate exclusion requires literal \(U_0=s^4,U_1=s^3t\) and full inverse support; it is **not** a normal form for all plane projections.
+
+### 10.2 A reusable off-curve differential test
+
+Let \(Q\in H^0(S,H)\) have divisor \(mc\), and suppose \(p\in S\setminus c\) is smooth. If \(v\in\ker(d\nu_p)\) and \(d(Q/\nu^*h)_p(v)\ne0\) for a local downstairs frame \(h\), no positive power of the polarization can descend with zero support precisely \(C\), in characteristic zero. Indeed a putative mate pullback must equal a scalar multiple of \(Q^b\), whereas differentials of downstairs functions annihilate \(\ker d\nu_p\). This detects an **off-curve infinitesimal conductor defect** even when the reduced residue class is trivial.
+
+For the explicit map above, in \(z=1\), \(r=s/z,y=t/z\), take \(p=(0,1)\) and frame \(U_2\). Then \(q=Q/U_2=1/(1+ry^3)\), and \(v=\partial_r+\tfrac14\partial_y\) belongs to \(\ker d\nu_p\) while \(dq_p(v)=-1\).
+
+### 10.3 The finite support-covering criterion
+
+For the full conductor descent lattice \(\Lambda_{\mathrm{desc}}\), the monoid \(\Lambda_{\mathrm{desc}}\cap\mathbf N^{s+1}\) has a finite Hilbert basis. A fully positive vector exists exactly when the supports of the basis elements together cover all inverse branches \(\Gamma_j\); summing a support-covering collection gives a candidate. Equivalently one may test the extreme rays of the rational nonnegative cone. **An individual Hilbert-basis element need not be a mate**: it may omit some branches.
+
+This is an abstract finite reduction, not an effective algorithm until the class group and full conductor-unit relations have been computed. In the singleton generically regular case, every candidate lies on the primitive ray \((a/g,c/g)\). If \(\mathrm{Cl}(S)\) is torsion-free and a mate exists, the primitive upstairs section has degree \(c/g\le c\). For a degree-four curve this gives upstairs base degrees among \(1,2,4\), not a bound on the actual descending mate degree.
+
+### 10.4 The characteristic-zero nilpotent defect
+
+For the actual Artinian conductor extension \(A\subset B\), the relevant obstruction is \(B^*/A^*\). In characteristic zero, after separating reduced residue classes, a nilpotent unit has a logarithm, and its class has finite order only when its logarithmic defect vanishes. Thus torsion of reduced residue phases does **not** imply descent of a chosen power. With several residual branches, relative root-of-unity phases can have unbounded order even for fixed small residual degree (e.g. \((1,\zeta)\) in \(k\times k\) modulo diagonal \(k^*\)). In characteristic \(p\), sufficiently large \(p\)-powers kill nilpotent units; this does not kill non-torsion residual ratios.
+
+### 10.5 Local conductor–Jacobian contact
+
+The source for R-0036 supplies a useful intermediate identity. In completed local coordinates \(C=(y,z)\), \(S=(t,u)\), with \(\nu(t,u)=(t,Y(t,u),Z(t,u))\), let \(h\) generate the invertible conductor. Finite duality and hypersurface residues yield, up to a common unit,
+\[
+F_z\circ\nu=hY_u,\qquad F_y\circ\nu=-hZ_u.
+\]
+Restricting to \(u=0\) gives the **ideal identity**
+\[
+(F_y,F_z)|_c=(h|_c)(Y_u,Z_u)|_c.
+\]
+Consequently, if \(D_F\) is the common-zero divisor of the actual first normal symbol and \(A\) the zero divisor of the transverse differential, then
+\[
+D_F=B|_c+A.
+\]
+This explains why the differential divisor alone does not measure conductor contact. For the three necessary quartic models, the source computes \(B\cdot c=20,20,51\) (smooth quadric, cone, plane respectively), using \(B\sim(a-4)H-K_S\) and adjunction. These are necessary numerical contacts, not existence certificates.
+
+### Source status for this expansion
+
+Directly inspected source proofs: `notes/2026-10-13-generalization-conductor-theorem.md`, `notes/2026-10-19-singleton-projection-investigation.md`, and `notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md`. This expansion preserves their concrete calculations and argument mechanisms. Their independent audit files, other historical conductor examples, and source-complete proof reconciliation remain outstanding. No historical files are deleted.
