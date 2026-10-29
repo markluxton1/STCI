@@ -1,6 +1,6 @@
-# October 7–8 Step 1C source-to-claim disposition matrix (verified subset)
+# October 7–8 Step 1C source-to-claim disposition matrix (51 sources)
 
-**Scope:** 39 of the 51 filename-unmatched October 7–8 notes, specifically all 16 batch-B and all 23 batch-C entries. This is a destination-text reconciliation based on source reads and prior integration commits, **not** independent mathematical validation or certification of the remaining batch-A 12. `partial` means the mathematical issue itself remains unresolved; the limitation is explicitly preserved. Relative destination paths below are within `research/synthesis/` unless otherwise noted.
+**Scope:** all 51 filename-unmatched October 7–8 notes: batch A (12), batch B (16), batch C (23). This is a destination-text reconciliation based on source reads and prior integration commits, **not** independent mathematical validation or certification of the wider Phase 2 source population. `partial` means the mathematical issue itself remains unresolved; the limitation is explicitly preserved. Relative destination paths below are within `research/synthesis/` unless otherwise noted.
 
 | Historical note (`research/notes/`) | Permanent destination | Disposition | Integration commit |
 |---|---|---|---|
