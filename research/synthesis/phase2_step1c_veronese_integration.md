@@ -1,0 +1,9 @@
+# Veronese projection classification: Step 1C preservation
+
+The primary mathematical owner remains `research/notes/2026-10-07-session-veronese-pencil-classification.md`, with its October 8 independent audit. This integration records the exact distinctions needed in the permanent exposition.
+
+For a finite birational projection of the quadratic Veronese plane to an integral quartic surface, the projection center is a rank-one-free pencil of symmetric three-by-three matrices. If a member is invertible, self-adjoint Jordan decomposition gives exactly the Roman, length-two Jordan, and length-three Jordan types. If every member is singular, the primitive kernel of the adjugate has degree one. The resulting projection has quadric image and generic degree two, so does not normalize an integral quartic. The singular-pencil proof is `research/notes/2026-10-07-session-veronese-singular-pencil.md`.
+
+In characteristic zero, a mate of any positive degree for a smooth rational quartic on one of the three birational carriers would pull back to a scalar multiple of a power of the unique smooth lifted conic equation. Full inverse support forces every point of the conic to have a singleton normalization fiber. Roman type: the six permitted points on the three coordinate axes lie on no conic. Length-two Jordan type: the conductor line has only one permitted singleton point, where immersion forces transverse intersection, contradicting the conic intersection number. Length-three Jordan type: the two permitted points force a conic whose powers fail the first conductor-jet descent condition. The last obstruction is not merely a reduced-fiber count.
+
+This excludes all positive-degree mates for this normalization class, not for every nonnormal quartic. This is source preservation, not a fresh proof audit.
