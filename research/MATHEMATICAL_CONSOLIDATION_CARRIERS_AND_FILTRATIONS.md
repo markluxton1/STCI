@@ -29,6 +29,21 @@ p_\delta=(1,0,-\delta^2/3,0,\delta^4),
 \]
 There is no pair automorphism that normalizes every nonzero \(\delta\) to one. For each fixed center, line extensions to a projection from \(\mathbf P^5\) retain four parameters, and admissibility still requires avoidance of \(S\), finite birationality, and **full inverse support**. Thus an endpoint-only computation is not an exhaustion of genus-one quintic projections. Actual conductor descent in both lanes remains open. [Proof and complete formulas](notes/2026-10-11-session-dp5-a4-intrinsic-pair-classification.md).
 
+## Rational-resolution denominator compression: a conditional degree bound
+
+For a normal integral degree-\(a\) carrier \(S\subset\mathbf P^3\) with **rational smooth resolution** \(\sigma:M\to S\), let \(C\subset S\) have degree \(\delta\), strict transform \(c\), and numerical exceptional correction \(Z\). If a mate exists, its divisor is \(rC\sim bH\) with \(r\delta=ab\), and the numerical pullback is \(c+Z\equiv(\delta/a)H\). Let \(n\) be the least positive integer clearing the coefficients of \(Z\) and \(\delta/a\). Since the Picard group of a smooth rational projective surface is torsion-free and numerical equivalence agrees with linear equivalence, the integral numerically trivial divisor
+\[
+n((\delta/a)H-c-Z)
+\]
+is principal. Pushing down yields \(nC\sim(n\delta/a)H\) as an actual Cartier relation, and hypersurface restriction lifts its canonical section to an ambient mate of degree \(n\delta/a\). Conversely any mate clears these denominators. For \(a=\delta=4\), **\(n\) is the least mate degree on this fixed normal quartic**, conditional on the rational-resolution and mate hypotheses.
+
+For the classified rational-resolution normal quartic possibilities with \(K_M=-E\), set \(d=-E^2\in\{1,2,3\}\), \(A_{ij}=-E_iE_j\) for all exceptional primes, and \(E=\sum a_iE_i\). Minimality and adjunction give
+\[
+\sum_i(b_i-2)_+\le d,\quad b_i=-E_i^2,\qquad
+r\le9+d.
+\]
+Hadamard's inequality gives \(\det A\le2^r(3/2)^d\le512\cdot3^d\). The correction denominator divides \(\det A\), hence the conditional least mate degrees obey \(n\le1536,4608,13824\) for \(d=1,2,3\) respectively. This was a genuine **finite-degree reduction**, not a coefficient enumeration. The subsequently accepted all-degree quartic exclusion R-0001 supersedes it as an exclusion statement, but not its rational-Picard mechanism. It does **not** extend to nonnormal carriers or higher-degree carriers. An illustrative cusp-cycle correction with denominator two is thereby excluded as mate-compatible by the unique-quadric obstruction, without asserting that the numerical cycle is realized by a smooth curve. [Derivation](notes/2026-10-06-normal-rational-carrier-compression.md).
+
 ## Important interface: ordinary versus saturated filtration
 
 The independent index/socle audit proves that, for a curvilinear actual CI thickening, the torsion-free **ordinary** layers are powers B_i=B_1^i, and 2 sum length(T_i)_P=n D_n,P. This does not assert that the **saturated** BF layers have trivial multiplication divisors. The first-relation resultant theorem instead uses the saturated filtration and its generation defects. Confusing the two makes apparent contradictions and invalid shortcut exclusions.
