@@ -308,3 +308,7 @@ The [four explicit nonnormal MF6 boundary carriers](../notes/2026-10-07-session-
 The [ordinary pinch and nodal conductor analysis](../notes/2026-10-07-session-nonnormal-structural-progress.md) proves transversality for an immersed lifted curve at an ordinary pinch. Under explicit ordinary-singularity assumptions this yields a four-versus-six scroll conductor count and a six-point Roman Veronese no-conic obstruction. A separate nodal-conductor local model admits smooth embedded image curves of arbitrarily high conductor contact, so reduced branch counts cannot be used without the ordinary hypotheses.
 
 These arguments are incorporated as source-preservation statements, not independently certified new theorems. The Veronese Jordan classification and Mumford numerical-pullback proof still need detailed integration.
+
+## 10. Numerical self-intersection versus normal degree: provisional
+
+The [Step 1C Mumford-bound review](../synthesis/phase2_step1c_mumford_numerical_bound_review.md) preserves the proposed inequality between the numerical self-intersection of the lifted curve and its normal degree on an integral carrier generically regular along that curve. It records the exceptional-cycle defect, the ordinary-node half-unit contribution, and the conditional split-sextic Jacobian restriction. **Independent audit is still required**; the bound is not promoted here as a new canonical theorem. In particular the identically-zero polynomial branch remains separate.
