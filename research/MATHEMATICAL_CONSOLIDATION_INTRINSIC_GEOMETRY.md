@@ -16,6 +16,24 @@ The paired osculating planes intersect along secants sweeping R: x0*x2²-x1²*x3
 - **R-0027:** the dual discriminant's Jacobian scheme has four minimal and two embedded endpoint associated primes, with two length-one endpoint corrections. Its scheme-theoretic identities carry multiplicities that the reduced dual alone misses. The source explicitly records a corrected earlier omission of endpoint-pencil components; retain this failure mode, not the obsolete reduced description.
 - **R-0028:** the projection models distinguish finite normalization, smooth resolution, and elementary transformations: the cone normalizes to P(1,1,4) and resolves on F4; the projected cubic normalizes on F1, with a doubled conductor line. Endpoint corrections are real scheme structure, not cosmetic artifacts.
 
+## Concrete ruled and resolved-projection geometry
+
+For the marked projection \(C_4=[s^4:s^3t:s^2t^2:st^3:t^4]\subset\mathbf P^4\) from \(z=[0:0:1:0:0]\), the resolved ambient map is
+\[
+\operatorname{Bl}_z\mathbf P^4=\mathbf P_{\mathbf P^3}(\mathcal O\oplus\mathcal O(-1))
+\longrightarrow\mathbf P^3
+\]
+with the **lines** convention. Its inverse surface over \(C\) is \(\mathbb F_4\). The complete and projected quartics are graph sections \(q=s^2t^2\) and \(q=0\) in \(|E+4f|\); their intersection divisor is \(2p_0+2p_\infty\). The full graph family is five-dimensional \(H^0(\mathcal O(4))\); complementary hyperplanes give only the four-dimensional subfamily corresponding to the fixed four-coordinate span. The smooth surface and its two sections must not be confused with their projective images.
+
+The cone's **finite normalization** is the singular weighted projective surface \(T=\mathbf P(1,1,4)\), while \(\mathbb F_4\) is its smooth resolution. The paired-secant cubic \(R=V(x_0x_2^2-x_1^2x_3)\) has finite normalization \(\mathbb F_1\), and the marked quartic is a bisection there, rather than a ruling section. Its doubled conductor line is branched at the two endpoints. The same-center cubic scroll in \(\mathbf P^4\) is
+\[
+\Sigma=S(1,2):
+\quad X_0X_4-X_2^2=X_0X_3-X_1X_2=X_2X_3-X_1X_4=0.
+\]
+The scroll and projection cone meet in reduced support \(C_4\), with two additional embedded length-one endpoint corrections. On the original quadric the *different* Cartier intersection is \(R|_Q=C+L_0+L_\infty\). These residual lines are genuine one-dimensional components; the corrections upstairs are zero-dimensional embedded structure.
+
+The ordered-endpoint elementary transforms from \(Q\) to the \(\mathbb F_4\) model change the marked section's self-intersection as \(6\to5\to4\to3\to4\), with the first three centers on the marked curve and the fourth off it. This does not identify the projective polarizations. The \(\mathbb F_1\) bisection instead splits only after the degree-two ruling-base change, on \(\mathbb F_2\). These distinctions are part of the geometric content of [R-0028](results/quartic_ruled_projection_geometry.md), with complete calculations in the [ruled-surface synthesis](notes/2026-10-24-p4-ruled-surfaces-synthesis.md).
+
 ## Why preserve this even without an STCI application
 
 The geometry supplies its own worthwhile questions: symmetry and moduli of projected quartics; osculating versus bitangent correspondences; incidence and contact on Sym²C; dual singular schemes; normalization of ruled surfaces; behavior at distinguished endpoints and in characteristic two. It is valuable as a coherent small project, not a miscellaneous appendage to a nonexistence proof.
