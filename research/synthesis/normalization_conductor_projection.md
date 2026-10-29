@@ -340,3 +340,22 @@ m^2=\rho\delta\ell^2\quad\text{on the entire }\Gamma
 For two distinct lines, impose the corresponding criterion **separately on both components**, with possibly different cyclotomic constants and a common multiple of the resulting power orders. These are equalities of entire schemes, including nilpotents, not equations only on reduced supports. The proof uses (\sigma(q)/q) in generic Artin rings, separability of (T^n-1) in characteristic zero, and injectivity of sections into generic total quotient rings. A split quadratic conductor permits unbounded phase order; this algebraic criterion alone does **not** bound mate degree or exclude the remaining genus-one carrier models. Sources: `research/notes/2026-10-09-session-quadratic-conductor-power-descent.md` and its `2026-10-09-session-quadratic-conductor-power-descent-independent-audit.md`.
 
 The companion genus-one weak del Pezzo reduction and D5 root-saturation filter concern which actual normalizations and primitive sections can occur. They are **separate geometric hypotheses**, not consequences of the quadratic-algebra criterion. The explicit four-A1 projections are negative full-inverse-support examples, not an exhaustion of the lattice stratum. See `research/notes/2026-10-09-session-genus-one-delpezzo-reduction.md`, `research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md`, and `research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md`.
+
+
+## 22. Remaining quintic h2 incidence: local ODE versus global parameter cover
+
+The accepted nonendpoint A4 quintic reductions leave a homogeneous gcd-two common-conormal factor (H) and sextic quotient (Q) of the **actual conductor octic**. On a finite inverse-map chart where the cover/cofactor determinants, (delta), and (Delta_1) are units, the accepted coefficient identities imply ((q_5,q_6)=A) in the actual parameter ring. This is an ideal equality even over nonreduced bases. The previously necessary open (D(q_5)\cup D(q_6)) therefore covers this localized chart; it does **not** justify inverting the cover determinants globally.
+
+Write (h(z)=z^2+vz+w) and (q(z)=\sum_{i=0}^{6}q_i z^i). The localized cubic-rank incidence is scheme-theoretically equivalent to existence of unique locally glued action witnesses (d,u) satisfying
+[
+h(z)q'(z)=(dz+u)q(z).
+]
+Its eight coefficient equations, with out-of-range (q_i=0), are
+[
+E_i=w(i+1)q_{i+1}+(vi-u)q_i+(i-1-d)q_{i-1}=0,quad i=0,\ldots,7.
+]
+The polynomial ((d-5)(d-6)) and the equation (j(d-6)), where (j=\bar J), belong to the same localized ideal. They retain the degree-five/simple-infinity-root and degree-six/no-infinity-root alternatives; they do not prove the incidence empty. The spectral polynomial is a further *derived* accelerator, not a new restriction on actual projections. Sources: `research/notes/2026-10-15-generalization-quintic-h2-automatic-open-and-ODE.md`, its independent audit, and `research/notes/2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit.md`.
+
+Crucially, the separately audited **global necessary** monic incidence has **seventeen equations in nine variables** on the original-parameter open (delta EDelta_1\ne0). It retains the inverse-map boundary (Delta K=0). A computation saturating by (Delta K) cannot close this global system. The attempted guarded rational saturation stopped without a characteristic-zero unit-ideal certificate. The later degree-five (j=0) necessary-incidence exclusion is narrower and its linked verifier was not rerun during this reconciliation; the degree-six (j\ne0) branch remains open. Sources: `research/notes/2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md`, `research/notes/2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md`, `research/notes/2026-10-16-generalization-quintic-h2-global-QQ-prospect-terminal-record.md`, and `research/notes/2026-10-29-quintic-h2-degree-five-incidence-reduction.md`.
+
+The detailed source allocations and the conditional (6,16)/(2,12) boundary are in `research/synthesis/phase2_reconciliation_batch12.md` and `phase2_reconciliation_batch13.md`. Neither family yields a general fixed-(C_0) STCI exclusion.
