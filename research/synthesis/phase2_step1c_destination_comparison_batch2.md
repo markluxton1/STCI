@@ -17,3 +17,7 @@ The MF6 boundary argument has four explicitly specified carriers, not a general 
 The nodal conductor local model permits arbitrarily high conductor contact despite a smooth embedded image curve, refuting a reduced-branch-count argument.
 
 **Status:** provisional destination gaps, not global absence certificates. Other permanent owners still need checking. Historical sources unchanged; no mathematical correctness promotion.
+
+## Post-integration disposition
+
+The three source families above were subsequently integrated into `research/chapters/CARRIER_AND_CONDUCTOR_GEOMETRY.md` by commit `827b073`: generic nonimmersion-prime, the four specifically identified MF6 nonnormal boundary carriers, and the ordinary-pinch/scroll/Roman/nodal-contact distinctions. The preservation status for the **identified claims** is therefore integrated at summary level. The historical proofs still contain finer local computations; proof-level transcription and independent correctness review are separate tasks. This update does not certify global source coverage.
