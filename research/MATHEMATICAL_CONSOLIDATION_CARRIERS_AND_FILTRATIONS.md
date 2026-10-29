@@ -44,6 +44,17 @@ r\le9+d.
 \]
 Hadamard's inequality gives \(\det A\le2^r(3/2)^d\le512\cdot3^d\). The correction denominator divides \(\det A\), hence the conditional least mate degrees obey \(n\le1536,4608,13824\) for \(d=1,2,3\) respectively. This was a genuine **finite-degree reduction**, not a coefficient enumeration. The subsequently accepted all-degree quartic exclusion R-0001 supersedes it as an exclusion statement, but not its rational-Picard mechanism. It does **not** extend to nonnormal carriers or higher-degree carriers. An illustrative cusp-cycle correction with denominator two is thereby excluded as mate-compatible by the unique-quadric obstruction, without asserting that the numerical cycle is realized by a smooth curve. [Derivation](notes/2026-10-06-normal-rational-carrier-compression.md).
 
+## Quadratic-root second obstruction: chart-free dual compression
+
+For a basepoint-free binary quadratic \(f=a(z)u^2+b(z)uv+c(z)v^2\) of base degree two, the second ambient obstruction has a **global dual presentation** that avoids choosing an invertible coefficient chart. The transpose multiplication map
+\[
+T_f=\begin{pmatrix}a&b&c&0&0\\0&a&b&c&0\\0&0&a&b&c\end{pmatrix}:
+\mathcal O_{\mathbf P^1}^{5}\longrightarrow\mathcal O_{\mathbf P^1}(2)^3
+\]
+is fiberwise surjective; \(W=\ker T_f\) has rank two and determinant \(\mathcal O(-6)\). Its degree-ten twist has \(h^0(W(10))=16\), and the canonical map \(H^0(\mathcal O(4))^5\twoheadrightarrow H^0(W(10))\) is surjective with nine-dimensional kernel. Thus **25 polynomial pairings test all 16 obstruction coordinates**, including coefficient splitting-jump loci, with no chosen minor or 39 auxiliary inverse variables. The columns of the skew \(5\times5\) matrix of signed complementary maximal minors of \(T_f\) generate \(W(6)\), giving a polynomial global test.
+
+This is a complete representation of the **second obstruction**, not proof that its zero scheme is empty or that the first obstruction vanishes. The original construction also retains the actual embedded chart and the smoothness discriminant of the binary quartic; do not infer a universal exclusion by testing a generic coefficient chart alone. [Global dual construction](notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md).
+
 ## Important interface: ordinary versus saturated filtration
 
 The independent index/socle audit proves that, for a curvilinear actual CI thickening, the torsion-free **ordinary** layers are powers B_i=B_1^i, and 2 sum length(T_i)_P=n D_n,P. This does not assert that the **saturated** BF layers have trivial multiplication divisors. The first-relation resultant theorem instead uses the saturated filtration and its generation defects. Confusing the two makes apparent contradictions and invalid shortcut exclusions.
