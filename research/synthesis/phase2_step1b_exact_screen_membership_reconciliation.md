@@ -9,7 +9,7 @@ Snapshot recursive tree: `219dc14f022c06fb0719f01a0fafa1fad3f000c1`. Authoritati
 - Intake paths in the 402 screen-unmatched population: **217**.
 - Intake paths in the 147 screen-matched population: **49**.
 - Intake paths outside the original 549-note snapshot: **0**.
-- **Remaining screen-unmatched paths not mentioned by these matrices: 186.**
+- **Remaining screen-unmatched paths not mentioned by these matrices: 185.**
 
 This is an exact-path membership comparison, not a certification that a matrix entry's mathematical claims are correct or preserved at the destination. The historical original 147-path list was reconstructed from the reported rule rather than independently preserved.
 
