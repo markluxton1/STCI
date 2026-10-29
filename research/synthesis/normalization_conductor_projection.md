@@ -422,6 +422,20 @@ For an integral Cohen–Macaulay projective surface with finite normalization, i
 
 Split residual algebras invalidate this bound: \(k\hookrightarrow k\times k\), \(u=(1,\zeta)\), has arbitrarily large least exponent as the order of \(\zeta\) varies. The theorem is therefore not a uniform bound on arbitrary conductor phase systems. The source states the proof as a theorem pending independent review, so retain that review qualification rather than promoting it as a new canonical result. [Full argument](../notes/2026-10-13-evening-general-conductor-power-compression.md).
 
+## 27. Intrinsic (A_4) contact bound and a necessary quintic norm
+
+In the admissible nonendpoint genus-one quintic \(A_4\) model, write \(j=\bar J\), \(\delta\ne0\), and \(F\) for the **actual primitive conductor octic** in the target coordinate \(p=\delta/r\). On \(j=0\), the exact coefficient identities are
+\[
+F(0)=0,\quad [p]F=-2G(\delta^2+2B+G)(3\delta^2+G)^2,
+\]
+and, when \(G=-3\delta^2\),
+\[
+[p^2]F=-108\delta^5(\delta^2-B).
+\]
+The accepted \(G=j=0\) mate exclusion and full target-fiber criterion show that any remaining \(j=0\) mate candidate has \(G\ne0\) and \(\delta^2+2B+G\ne0\). Thus its intrinsic \(A_4\) conductor contact is **exactly one or two**, not arbitrarily large. The contact-two case occurs on \(G=-3\delta^2\) with \(B\ne\delta^2\).
+
+For the homogeneous \(h=2\) factorization \(F_{\rm src}=H_2Q_6\), the first-symbol factor \(H_2\) cannot contain the \(A_4\) point on a surviving candidate. If \(\operatorname{Res}(H_2,Q_6)\ne0\) when \(j=0\), all sextic roots would have to lie at the \(A_4\) point, forcing conductor contact six and contradicting the bound. Therefore **every remaining \(h=2\) mate candidate**, for either value of \(j\), satisfies \(\operatorname{Res}(H_2,Q_6)=0\). This is a necessary homogeneous norm equation, not an emptiness proof; the repeated-root and infinity charts remain included. [Intrinsic coefficient and support proof](../notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md).
+
 ## Exact finite-Artinian phase descent and effective rational bound
 
 For an injective inclusion of finite-dimensional commutative algebras `A subset B` over a characteristic-zero field F, write their canonical etale/nilpotent decompositions `A=K+N_A`, `B=E+N_B`. Every unit `u in B*` has a unique expression `u=v*exp(w)` with `v in E*`, `w in N_B`. Put `D=E tensor_K E` and `rho=(v tensor 1)/(1 tensor v)`. Then **some positive power of u lies in A if and only if** `w in N_A` and `rho` is torsion in `D*`; the least such exponent is `ord(rho)`. This is the exact full-Artinian criterion, including nilpotent layers; reduced phase alone is insufficient. The proof uses the etale equalizer `K={e in E:e tensor 1=1 tensor e}` and characteristic-zero logarithm. The [source](../notes/2026-10-14-generalization-projection-finite-phase-space.md) further gives a conditional finite-type phase cover from bounded rational multiplication matrices, with parameter stratification and actual conductor tests. It does **not** compute mate existence for the fixed projection families.
