@@ -118,3 +118,40 @@ The [weighted-initial note](../notes/2026-10-26-weighted-initials-normal-boundar
 Choose a specific surviving pair of degrees at least five, or a specified lower embedded thickening. Record (i) its generic transverse algebra and **full** initial ideal; (ii) the saturation and exceptional-point defect of each conormal layer; (iii) the exact obstruction class and allowed boundary divisor for the next lift; and (iv) the image of actual global homogeneous sections in the required jets. At each step distinguish failure of a necessary condition from failure to construct a solution. Finally check properness and actual residual support independently. The provisional [boundary repair](../notes/2026-10-26-boundary-repair-global-lifting.md) and [one-step completion](../notes/2026-10-27-one-step-boundary-obstruction.md) analyses provide scoped tools, not a theorem that this procedure always decides STCI.
 
 **Remaining mathematical gap:** there is no established general implication from a generic or graded root configuration and its local repair data to a pair of global equations with sole reduced support. Conversely, there is no established theorem excluding all such configurations when first relations are nonsaturated or the comparison defect is punctual.
+
+## Local comparison, saturation, and the unresolved singularity interface
+
+The canonical comparison in [R-0030](../results/local_filtration_comparison_defect.md) can be stated without choosing normal coordinates. In a regular local ring along a smooth codimension-two curve, put I=I_C, J=(f,g), S=gr_I(R), H=in_I(J), B=in_I(IJ), and S_+=the positive-degree ideal. Filter the *actual* equation module D=J/IJ by its intersections with powers of I. In each degree n there is an exact sequence
+
+    0 -> Delta_n -> Q_n -> gr_F^n(D) -> 0,
+    Delta_n=B_n/(S_+H)_n,  Q_n=H_n/(S_+H)_n.
+
+This compares three objects that are often conflated: minimal generators of the full initial ideal H, the initial ideal B of IJ, and the filtered images of the two actual equations. At a generic transverse field where J is a parameter ideal, dim Delta=mu(H)-2; hence a two-generator original ideal can have more than two *initial* generators. If Delta vanishes generically, the DVR formula reads
+
+    length(Delta_n)=length(tors Q_n)-length(tors gr_F^n(D)).
+
+Under the stated local hypotheses, Delta vanishes wherever either carrier is smooth on C. Therefore nonzero punctual Delta requires a simultaneous singular point of both carriers; the converse is not asserted, nor is existence under radical(J)=I. This criterion does **not** prove that every supported complete intersection has a common singular point. It only locates a defect *if* that defect exists.
+
+### Three distinct exceptional phenomena
+
+1. **Unsaturated first relation.** The coefficient section vanishes at a point of C, so the first-relation line and its quotient acquire a base-point or torsion issue. The [nonsaturated resultant result R-0016](../results/nonsaturated_first_relation_resultant.md) supplies a scoped numerical test, not a blanket exclusion.
+2. **Singular but nonvanishing root divisor.** The coefficient section remains nonzero, while roots collide or become nonreduced. Saturation alone does not prevent this. The formal-root and Picard-descent restrictions must be applied with their own hypotheses.
+3. **Punctual comparison defect.** Even if the generic initial ideal has the expected two generators, special fibers can acquire cancellation-generated initials. R-0030 measures this separately from first-relation saturation and from residual components.
+
+These alternatives need not be mutually exclusive. A proof eliminating one does not eliminate the others. In particular, do not infer properness or sole support from a vanishing graded obstruction.
+
+## What the socle budget does and does not exclude
+
+For an actual supported complete intersection, [R-0032](../results/full_conormal_socle_budget.md) records the corrected identity
+
+    n(lambda*d-L)=lambda*(n*d-2*M)+2*Delta,
+
+where n is generic length, d the Loewy index, M the weighted layer-rank sum, L the canonical degree parameter, lambda a valid conormal quotient degree bound, and Delta the corrected degree/torsion defect. The intermediate layers matter: computing only the first normal form and final socle omits terms in M and Delta. The conclusion lambda*d>=L is necessary under the theorem's hypotheses. Equality gives graded self-duality; a constant algebra needs additional balanced-rational assumptions.
+
+The [constant-first-relation obstruction R-0033](../results/constant_first_relation_lifting.md) requires an actual embedded thickening, a constant first form f, and next initial relation space exactly fV. For a factor direction m of multiplicity nonzero in the field, the quadratic obstruction h_m must vanish. For the fixed characteristic-zero quartic, the inherited nonvanishing of the direction classes excludes the corresponding zero-defect constant-graded-CI equality models. It does not exclude a moving f, an extra next-order relation, or a positive-defect model.
+
+## A bounded next experiment, not another case catalogue
+
+The most informative single test is to choose one candidate whose generic transverse algebra is explicit and carry it across the exceptional points of C. Record in one place the full initial ideal, the first-relation saturation divisor, the local comparison module Delta, the torsion-corrected conormal layers, the next extension class, and the image of global homogeneous sections. A failed candidate should be classified by the *first failed interface*: generic algebra, saturation, punctual comparison, embedded lifting, global source, or residual support. State whether the failure survives coordinate changes or is specific to the chosen family.
+
+A useful negative outcome is a mechanism that excludes an entire invariant class; a failed isolated pair without that explanation is not a general obstruction. The characteristic-two split conormal example and the characteristic-zero balanced extension provide a controlled comparison, but arithmetic specialization by itself does not transfer sole reduced support.
