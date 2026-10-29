@@ -77,6 +77,31 @@ The missing theorem would give checkable hypotheses under which an actual pair's
 
 The valuation and specialization program is maintained in [Formal normal geometry](formal-normal-intersection.md); residual detection in [Residual intersections and jets](residual_intersections_and_jets.md); and punctual comparison defects and boundary lifting in [Normal-filtration defects](normal_filtration_boundary_obstructions.md). None of these interfaces is a proved general implication.
 
+## 3.9 A practical hierarchy for thickening investigations
+
+For an actual pair \(J=(F,G)\subset I_C\), distinguish the generic length of \(\mathcal O_{\mathbf P^3}/J\) along \(C\), the graded conormal layers of its supported Cohen–Macaulay structure, the full \(I_C\)-initial ideal, and the images of **global** degree-bounded homogeneous sections. These four objects can have different generators and different exceptional-point behavior. The cancellation example in §3.1 already shows why the first two displayed symbols need not generate the initial ideal.
+
+The balanced characteristic-zero normal bundle of the fixed quartic and its characteristic-two jump are recorded precisely in [R-0020](../results/quartic_conormal_characteristic_jump.md). This is a useful test of globalization: a locally chosen normal direction over \(k(C)\) need not extend as a line summand on \(C\). Do not infer that the characteristic-two split model lifts to characteristic zero.
+
+For **saturated, full generic binary complete-intersection** initial data, [R-0010](../results/saturated_first_relation_normal_flatness.md) supplies a conditional normal-flatness result; [R-0013](../results/saturated_actual_generator_movement.md) and [R-0014](../results/movement_two_six_rows.md) further restrict actual generators and movement-two numerical possibilities under their own hypotheses. The six rows are necessary cases within that class, not a classification of arbitrary supported intersections. [R-0015](../results/fixed_small_movement_finiteness.md) is a fixed-range arithmetic reduction, not a completed all-degree obstruction. Reduced singular roots with a regular lifted formal surface are treated separately in [R-0018](../results/regular_singular_root_formal_obstruction.md); dropping regularity or saturation is not justified.
+
+When saturation fails, [R-0016](../results/nonsaturated_first_relation_resultant.md) measures a conditional resultant/defect budget, while [R-0030](../results/local_filtration_comparison_defect.md) identifies a *different* comparison between the filtered actual equation module and its initial generators. The latter leaves open whether a generically vanishing defect can be punctual under sole reduced support. Neither defect is automatically the jet-map rank shortfall from the historical order-one calculations. [R-0032](../results/full_conormal_socle_budget.md) imposes a separate socle budget on supported complete intersections; [R-0033](../results/constant_first_relation_lifting.md) obstructs a specified constant-relation lifting model, not every moving relation.
+
+### Structural lessons from unsuccessful shortcuts
+
+- **First symbols are insufficient.** Higher initial generators may arise through cancellation; the prescribed characteristic-two example has an essential fourth equation [R-0031](../results/quartic_char2_fourth_equation_kernel.md).
+- **A graded model is not an embedded thickening.** The full-root Picard criterion [R-0008](../results/spectral_root_picard_criterion.md) must be combined with ambient compatibility, not treated as a global construction.
+- **Numerical budgets do not realize equations.** Conormal degrees, socle identities, and finite jet ranks constrain candidates but do not establish that a pair of homogeneous forms realizes them.
+- **Special-point defects are not residual curves by definition.** Residual support requires a separate actual intersection argument; see [R-0019](../results/quasiprimitive_residual_cycles.md).
+
+### Concrete remaining tests
+
+1. For a candidate actual pair with \(\sqrt J=I_C\), compute the full local initial ideal and the R-0030 comparison at every exceptional point; decide whether a nonzero punctual defect is compatible with sole support.
+2. In a surviving saturated-root family, check full fiberwise coprimality, the actual generator hypotheses, and successive embedded lifting separately; calculate the remaining zero locus rather than extrapolating from one obstructed seed.
+3. For a fixed lower thickening, compute the extension class and permitted repair divisor described in [the provisional one-step note](../notes/2026-10-27-one-step-boundary-obstruction.md), then impose the actual global degree-\(d\) source image. A vanishing extension class alone does not supply two defining equations.
+
+These tests are complementary rather than a mandated sequence. For detailed boundary-repair and punctual-defect discussion, continue to [the filtration supplement](normal_filtration_boundary_obstructions.md).
+
 Next: [carrier normalization and conductor](04-carriers.md), which imposes a different global descent condition.
 
 
