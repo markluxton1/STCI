@@ -141,6 +141,25 @@ has exactly four \(A_1\) singularities. A four-parameter open \(\alpha\beta\gamm
 
 Projecting from the deleted-middle-coordinate center, which lies outside \(S\), gives finite birational integral quartics containing the **literal** \(C_0\). In the source's coordinates the eliminated equation is \(F=R^2-x_1x_2L^2\), with \(L\) linear and \(R\) quadratic. Along \(C_0\), \(L_C\) is a nonzero quartic whose endpoint values are nonzero, so every zero has \(UV\ne0\). At each such zero the normalization fiber contains two distinct points with middle coordinates \(z=\pm U^2V^2\), only one on \(c\). This violates full inverse support and excludes **every member of this specified parameter open in every mate degree**, including repeated-root subloci. It does not exhaust all four-\(A_1\) projections, other ADE configurations, or degenerate parameter boundaries. The construction illustrates why an ADE lattice condition, even with \(2c\sim2H\), is weaker than an actual fixed-carrier mate. [Explicit family and fiber proof](../notes/2026-10-09-session-singular-delpezzo-four-A1-family.md).
 
+#### An (A_3+2A_1) projection family: four isolated inverse points
+
+A second concrete genus-one ADE test is the normal degree-four complete intersection
+\[
+S=V(ab-c^2,\ cd-e^2)\subset\mathbf P^4.
+\]
+It has two \(A_1\) singularities and one \(A_3\) singularity. On the parameter open \(\gamma\delta(\alpha\delta-\beta\gamma)\ne0\), the five binary quartics
+\[
+a=s^2D^2,\quad b=t^2D^2,\quad c=stD^2,\quad d=stN^2,\quad e=-stDN,
+\quad D=\gamma s+\delta t,\quad N=\alpha s+\beta t
+\]
+give a rational normal quartic: their coefficient determinant is \(\gamma^2\delta^2(\alpha\delta-\beta\gamma)^3\). Deleting its middle coefficient projects it isomorphically to the fixed \(C_0\), and the center lies outside \(S\). The resulting image is an integral quartic with finite birational normalization \(S\).
+
+The extra inverse fibers are controlled by the actual quartic
+\[
+P_4=\gamma^4s^4-2\gamma^3\delta s^3t-2\gamma\delta^3st^3+\delta^4t^4.
+\]
+Its endpoint coefficients are nonzero. After rescaling, its polynomial is \(r^4-2r^3-2r+1\), with discriminant \(-1728\), so there are **four distinct nonendpoint zeros**. At each zero the projection line contains, in addition to the marked curve point, another point of \(S\) with nonzero middle-coordinate displacement \(\lambda=-2s^2t^2\). The extra inverse points are isolated because the projection is generically one-to-one along \(C_0\). Purity of the zero divisor of any pulled-back mate excludes **every carrier in this displayed family in every mate degree**. This does not classify all \(A_3+2A_1\) projections or all centers. [Explicit proof](../notes/2026-10-09-session-A3-two-A1-projection-family.md).
+
 ### 3.2a Shared genus-two geometry and exhaustion
 
 On the minimal resolution M of a genus-two normalization, the adjoint divisor f=K_M+L is a connected basepoint-free conic pencil. The actual exceptional correction Z satisfies q=-Z²>0, lambda=K_M.Z a nonnegative integer, q+lambda=4 and lambda²<=q. These force exactly two possibilities: (lambda,q)=(0,4) and (1,3). The bisection and trisecant cases are therefore exhaustive; an older assumption that q always equals four would miss the latter.
