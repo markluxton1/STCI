@@ -1,0 +1,13 @@
+# Phase 2 source reconciliation — batch 3
+
+Preservation audit, not independent proof verification. Read four primary sources on October 14–16 projection/contact/phase theory.
+
+1. `research/notes/2026-10-14-generalization-projection-contact-phase-criterion.md`: for normalization with full singleton smooth Cartier lift and Q divisor m c, on each normalized off-diagonal geometric-pair curve T the exact ratio divisor is m(p1*c-p2*c). Reduced conductor torsion requires equality of the entire contact divisors and root-of-unity constant ratios. This does not eliminate nilpotent conductor defects. Reviewed theorem; COVERED at package level in main Phase 2 dossier, detailed source retained.
+
+2. `research/notes/2026-10-14-generalization-projection-conductor-contact-budget.md`: under finite birational normalization of degree-a hypersurface, generically regular C, smooth ample singleton c, actual conductor ideal is O_S(-B), with B equivalent to (a-4)H-K_S. Contact budget B.c=d(a-4)+c^2-(2g-2). Each conductor prime contributes positive weighted contact; for reduced off-diagonal pair curves over a conductor image, sum of first-projection degrees equals total residue degree minus one and is at most a-1. Distinguish direct duality/contact bound from the separately premised first-symbol Jacobian bridge. PARTIAL: check whether exact weighted equality and pair-degree formula appear in final synthesis.
+
+3. `research/notes/2026-10-15-generalization-projection-torsion-coset-reduction.md`: after admissibility (basepoint-free, finite birational, full inverse support), full nilpotent conductor tests define a constructible locus with finite phase cover Z to T0 and torus phase map. Torsion tuples characterize mates; finite torsion-coset envelope does not make the mate locus constructible. Independent review PASS. COVERED at package level; actual three fixed-C0 phase images remain uncomputed.
+
+4. `research/notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md`: PASS for the raw-input algorithm-existence and termination corollary on explicitly rationally presented fixed models. Quantifier elimination handles basepoints and extra inverse points; Hilbert-polynomial strata detect birationality; finite-module and monic Groebner calculations retain conductor fibers; Mann and Smith-normal-form steps decide torsion and boundedness. No algorithm has been executed on the three actual fixed-C0 families. PARTIAL: preserve this stronger raw-input conclusion, not merely the algorithm requiring precomputed phase image.
+
+All source proofs retained. No general carrier exclusion, computed phase image, or independent reproof claimed. Further source and computational coverage required.
