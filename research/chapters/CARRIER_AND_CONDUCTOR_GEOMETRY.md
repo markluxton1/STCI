@@ -155,6 +155,33 @@ In the integral residual case the residual has class (1,2), is a smooth rational
 
 Sources: [nonendpoint independent audit](../notes/2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md) and [owner's conic obstruction](../notes/2026-10-10-session-genus-two-nonendpoint-trisecant-conic-obstruction.md).
 
+#### Explicit trisecant lines and the quartic linear system
+
+For \(C_0=[s^4:s^3t:st^3:t^4]\), write \(q=x_0x_3-x_1x_2\) and
+\(A=x_0^2x_2-x_1^3\), \(B=x_0x_2^2-x_1^2x_3\), \(D=x_2^3-x_1x_3^2\).
+Every trisecant line lies on \(Q=V(q)\), since a line not contained in the quadric meets it in length at most two. The trisecant ruling consists of
+\[
+\Gamma_a=V(x_2-a x_0,x_3-a x_1),\qquad
+\Gamma_\infty=V(x_0,x_1).
+\]
+The contact divisor for finite \(a\) is \(t^3-a s^3\). In characteristic zero over an algebraically closed field, nonzero \(a\) gives three distinct contacts and one orbit (represented by \(a=1\)); \(a=0,\infty\) give triple contact and are exchanged by reversal. Over a non-algebraically-closed field, nonzero parameters need not be equivalent: the scaling requires a cube root.
+
+For finite \(a\), set \(u=x_0,v=x_1,z=x_2-a x_0,w=x_3-a x_1\) and \(T_a=D-2aB+a^2A=z^3+a u z^2-vw^2\). The exact homogeneous ideal is
+\[
+I(C_0)\cap(z,w)^2=(qz,qw,T_a).
+\]
+Consequently every quartic through \(C_0\) and double along \(\Gamma_a\) is
+\[
+F=qQ_2+T_aL_1,\quad Q_2\in(z,w)_2,\quad L_1\in k[x_0,x_1,x_2,x_3]_1.
+\]
+Here \((z,w)_2\) denotes the seven-dimensional degree-two part of the line ideal, **not** its three-dimensional square in degree two. The summands have dimensions seven and four and intersect trivially, so the vector space of quartics has dimension **11** (projective dimension **10**). On the quadric,
+\[
+\operatorname{div}(F|_Q)=C_0+2\Gamma_a+(Q\cap V(L_1)).
+\]
+The residual conic can degenerate into ruling lines; it must not be assumed integral.
+
+A separate discriminant obstruction in the [original trisecant calculation](../notes/2026-10-10-session-genus-two-trisecant-quartic-carriers.md) is **conditional** on identifying the actual normalized conductor with the quadratic algebra on the ambient line blowup, together with the stated normality and contraction hypotheses. Under those hypotheses the discriminant must vanish at each contact; for \(\Gamma_1\), after imposing contact vanishing it takes the form \(4(v^3-u^3)[(c_0^2+b_0c_1)v+(b_0c_0-c_1^2)u]\). The argument excludes the nonzero-discriminant branch only under its lifting hypotheses. It does **not** settle identically-zero discriminant, endpoint triple contact, or the whole genus-two lane by itself. The chapter's separately sourced endpoint and nonendpoint analyses must not be conflated with this conditional calculation.
+
 ### 3.5 Endpoint trisecant: the full quartic family matters
 
 At the endpoint, the conductor contact is triple, and the nonendpoint transversality argument cannot simply be reused. The owner first derives the **complete** quartic equation from the ideal identity I(C) intersect (x2,x3)^2=(q*x2,q*x3,D). Its exceptional polynomial is then exhausted by the four coefficient regimes c0 nonzero; a1 nonzero; a1=0 with b1 nonzero; and a1=b1=0 with c1 nonzero. The last regime includes doubled horizontal components, while the preceding regime includes triple residual contact and local A/D configurations.
