@@ -8,6 +8,27 @@
 
 **Carrier/divisor descent route.** Fix an integral surface X containing C. R-0003 treats an integral Cohen–Macaulay carrier with finite normalization and no isolated inverse-support points: a mate exists exactly when the full conductor descent lattice has a vector strictly positive on every inverse branch. The criterion is not an effective classification of all carriers. When X is normal, the conductor disappears and the obstruction becomes torsion of the class mu[C]-v[H], where mu=a/gcd(a,4), v=4/gcd(a,4). The normal-carrier source proves that the torsion order is detected by local class groups on C under the rational ample-Cartier-multiple hypothesis. R-0034 then relates the **actual local Cartier index** r (not the surface multiplicity) to ordinary socle defects for a mate nC: D_n,P=(n/r-1)A_F,P+(n/r)D_r,P. R-0035 excludes normal carriers whose on-curve local indices are all <=4, with inherited torsion and quadratic-direction inputs. Higher indices, nonnormal carriers, and entirely-thick cases remain outside this result.
 
+## Intrinsic genus-one quintic (A_4) pair and its projection-center modulus
+
+This is an intrinsic classification under the **genus-one, degree-five anticanonical del Pezzo, unique \(A_4\), characteristic-zero** hypotheses, not a quintic mate exclusion. Let \(S\) have \(5c\sim4H\), unique degree-one line \(\ell\) with \(5\ell\sim H\), and \(c+\ell\sim H\). On the minimal resolution the \(A_4\) chain \(R_1-R_2-R_3-R_4\) meets \(c^\#\) at \(R_2\) and \(\ell^\#\) at \(R_3\). Successively contracting \(\ell^\#,R_3,R_2,R_1\) yields \(\mathbf P^2\). Reversing the contractions gives a length-four infinitely-near cluster locally equivalent to \((y-x^3,x^4)\), with fourth center off the neighboring exceptional curves. The conic class \(c^\#=2h-e_1-e_2\) consists of equations \(Ayz+Bx^2+Cxy+Dy^2=0\), smooth precisely when \(AB\ne0\). The cluster stabilizer acts transitively on these smooth conics, so the polarized intrinsic pair \((S,c)\) has one isomorphism class, represented by \(yz+x^2=0\).
+
+After fixing this conic, the full pair automorphism group is the additive translation group \(\mathbf G_a\), acting by
+\[
+(x,y,z)\longmapsto(x+by,y,z-2bx-b^2y).
+\]
+On the rational-normal parameter \(r=s/t\) it acts by \(r\mapsto r+b\); it does **not** contain a residual scaling. The anticanonical system has six plane-cubic generators
+\[
+yz^2-x^3,\ xyz,\ y^2z,\ x^2y,\ xy^2,\ y^3.
+\]
+With the coordinate choices in the [intrinsic classification source](notes/2026-10-11-session-dp5-a4-intrinsic-pair-classification.md), the lifted curve is the complete rational normal quartic, the unique line is its tangent at the \(A_4\) endpoint, and there are actual sections with divisors \(c+\ell\), \(5\ell\), and \(5c\) (the last in \(4H\)). These are sections on \(S\), **not** automatically descended equations on a four-coordinate projected carrier.
+
+A center in the \(\mathbf P^4\) span of \(c\) projects the rational normal quartic to \(C_0\) exactly when its associated binary quartic has two distinct double roots. Modulo translations there are **two lanes**: an endpoint lane (one double root at the fixed \(A_4\) point), with one orbit represented by the deleted-middle-coordinate center; and a nonendpoint lane, with finite double roots \(\pm\delta\), \(\delta\ne0\), modulo \(\delta\sim-\delta\). A representative nonendpoint center is
+\[
+p_\delta=(1,0,-\delta^2/3,0,\delta^4),
+\quad\Phi_{p_\delta}(Z)=(Z-\delta)^2(Z+\delta)^2.
+\]
+There is no pair automorphism that normalizes every nonzero \(\delta\) to one. For each fixed center, line extensions to a projection from \(\mathbf P^5\) retain four parameters, and admissibility still requires avoidance of \(S\), finite birationality, and **full inverse support**. Thus an endpoint-only computation is not an exhaustion of genus-one quintic projections. Actual conductor descent in both lanes remains open. [Proof and complete formulas](notes/2026-10-11-session-dp5-a4-intrinsic-pair-classification.md).
+
 ## Important interface: ordinary versus saturated filtration
 
 The independent index/socle audit proves that, for a curvilinear actual CI thickening, the torsion-free **ordinary** layers are powers B_i=B_1^i, and 2 sum length(T_i)_P=n D_n,P. This does not assert that the **saturated** BF layers have trivial multiplication divisors. The first-relation resultant theorem instead uses the saturated filtration and its generation defects. Confusing the two makes apparent contradictions and invalid shortcut exclusions.
