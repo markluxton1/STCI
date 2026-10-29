@@ -21,3 +21,7 @@ The relative Noether recursion applies to proper intersections and terminating h
 The local model F=h^p x^M, G=h^q(A0(y)+xA1(y)+...) has no new reduced common support off C provided A0 has none there, regardless of higher coefficients. Thus the thickened-fiber jet cokernel is not an obstruction without additional scheme-theoretic hypotheses.
 
 **Verdict:** provisional partial/absent in the two compared syntheses; broader destination search and permanent integration remain pending. No correctness promotion, no historical edits.
+
+## Post-integration disposition
+
+Commit `1e2b8f2` integrated the Noether higher-contact budget, horizontal blowup recursion, ideal-power saturation and colon formulas, and thickened-fiber countermodel into `research/synthesis/formal-normal-intersection.md`. The early sheaf-colon note's open saturation question is superseded by the later positive theorem in its specified degree range. These **identified contributions** are preserved at summary level, with detailed source proofs still linked; independent proof verification and full historical-source coverage remain open.
