@@ -267,3 +267,44 @@ The independently reviewed October 15 torsion-coset theorem constructs a finite-
 The [Phase 2 source-coverage certificate](normalization_conductor_phase2_coverage_certificate.md) maps the identified canonical, historical, and independently reviewed normalization/conductor/projection packages to this dossier or an explicitly assigned neighboring investigation family. Its certification is scoped: it does not assert a complete branch-tree enumeration or independent proof reconstruction of inherited P-010.
 
 Two October 14 projection examples must remain distinct. The split-conductor affine model permits phase orders of arbitrary size but does not produce a global fixed-C0 mate. The opposite-ruling quadric family has branchwise phase a^(-2) of arbitrary order yet always has an additional inverse point outside the diagonal, so it violates full singleton inverse support. Neither example excludes the unrestricted four-section projection family. Sources: research/notes/2026-10-14-generalization-projection-ray-and-split-phase-model.md and research/notes/2026-10-14-quadric-opposite-ruling-phase-family-failure.md (with its coefficient normal form).
+
+
+## 20. Exact projection and conductor formulas recovered in claim-level reconciliation
+
+This section preserves reusable mathematics recovered in the Phase 2 source reconciliation. It does not supersede the complete proofs in the cited notes or certify all remaining source coverage.
+
+### 20.1 Projection parameter spaces and admissibility
+
+For the three primitive Cartier singleton models (smooth quadric, quadric cone, plane), the restriction kernels of the full section spaces to the fixed quartic have dimensions 4, 4, 10. Choosing lifts of the four fixed coordinate sections is an affine graph space of dimensions **16, 16, 40**, respectively, before equivalences. Basepoint freeness gives finiteness by ampleness, but birationality and **full inverse support** are additional conditions. For the graded section ring (B=\bigoplus_{b\ge0}H^0(S,bH)) and the four-section subring (R), the primitive ray section (Q) has a degree-(b) mate precisely when (Q^b\in R_b), with the prescribed normalization/support hypotheses. Source: `research/notes/2026-10-14-generalization-projection-ray-and-split-phase-model.md`.
+
+### 20.2 An affine conductor with unbounded phase, not a projective STCI construction
+
+Let (B=k[u,v]), (\lambda=\alpha+\beta), (\mu=\alpha\beta), (y=v^2-\lambda uv), (h=y+\mu u^2=(v-\alpha u)(v-\beta u)), (z=vh), and (A=k[u,y,z]=k[u,y]\oplus h k[u,y]v). The carrier relation is (z^2-\lambda uhz-yh^2=0); the **entire conductor** is (hB). The quotients are (A/hB=k[u]) and (B/hB=k[u,v]/((v-\alpha u)(v-\beta u))). For (Q=v^q), (Q^n\in A) exactly when (\alpha^{qn}=\beta^{qn}). Choosing (\alpha/\beta) of order (N) coprime to (q) forces least descent exponent (N). The inverse support of the indicated affine downstairs line is the smooth line (v=0). This disproves any algebra-only universal bound on phase order, **not** a projective fixed-(C_0) bound. Same source.
+
+### 20.3 Opposite-ruling quadric: restricted failure versus full coefficient space
+
+On the smooth quadric with diagonal (c), the specified pairing ((x,0)\leftrightarrow(0,ax)), (a\ne0,-1), forces phase (a^{-2}) and permits the **full form within this pairing**
+[
+U(x,y)=W_0+\frac{ax+y}{a+1}W_1+
+(a^2x^2+y^2-(a^2+1)xy)D+
+xy\bigl(xE+y(W_2-E)\bigr)+x^2y^2W_3,
+]
+where (D,E\in k^4) are arbitrary. The sparse choice (D=W_2,E=uW_2) is finite but has extra inverse points mapping to ([0:0:0:1]): ((\infty,-a^2/u)) when (u\ne0), and ((-1/(1-u),\infty)) when (u\ne1). The boundary coefficient pairs of the full form are (a^2D+yE+y^2W_3) and (D+x(W_2-E)+x^2W_3), which can avoid these particular sparse-family defects. Thus only the **sparse family** is excluded. Sources: `research/notes/2026-10-14-quadric-opposite-ruling-phase-normal-form.md`, `research/notes/2026-10-14-quadric-opposite-ruling-phase-family-failure.md`.
+
+### 20.4 Full conductor contact and the first-symbol correction
+
+Under the generically regular, smooth singleton Cartier-lift hypotheses, finite duality gives the actual upstairs conductor (\mathcal O_S(-B)), with (B\sim(a-4)H-K_S) for a degree-(a) hypersurface. Its weighted contact budget is
+[
+B\cdot c=d(a-4)+c^2-(2g-2).
+]
+For the three fixed quartic models these values are **20, 20, 51**. The *effective divisor* identity along (c) is
+[
+D_F=B|_c+A_{\mathrm{diff}},
+]
+where (D_F) is the entire common-zero divisor of the carrier's first normal symbol and (A_{\mathrm{diff}}) is the normal-differential degeneracy divisor. Neither one alone is the conductor contact. On each reduced off-diagonal pair correspondence, the ratio (p_1^*Q/p_2^*Q) has divisor (m(p_1^*c-p_2^*c)); equality of full contact divisors and root-of-unity constants characterizes **residual** torsion, not full nilpotent descent. Sources: `research/notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md`, `research/notes/2026-10-14-generalization-projection-conductor-contact-budget.md`, and their independent review; `research/notes/2026-10-14-generalization-projection-contact-phase-criterion.md`.
+
+### 20.5 Effective decision scope
+
+The independently reviewed October 16 raw-input corollary starts from explicit rational parameter presentations of one of the **three fixed models**, not an already computed phase image. It algorithmically filters basepoints, extra inverse points, and nonbirational maps, constructs actual conductor module data and a rational phase-image presentation, then applies the accepted torsion decision procedure. This is an **existence/termination result for an algorithm**, not a report that any fixed-model phase image or mate locus has been computed. Source: `research/notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md`.
+
+The ongoing source-level ledgers are `phase2_reconciliation_batch2.md` through `phase2_reconciliation_batch5.md` and `normalization_conductor_phase2_source_reconciliation_batch1.md`. These allocations do not yet establish exhaustive preservation.
