@@ -229,6 +229,29 @@ This map is nonzero: off the conductor line the normalization is an isomorphism 
 \]
 This contradiction excludes the bisection stratum. It uses the entire Cartier double, not an assumed first infinitesimal neighborhood. The exact derivation of \(2c\sim2H\), the splitting calculation and the purity arguments are in the [independent bisection proof](../notes/2026-10-10-session-genus-two-bisection-full-independent-audit.md).
 
+## 3.7 Characteristic-dependent cuspidal quartic: exact fixed-carrier mate degrees
+
+Let \(k\) be algebraically closed, \(C_0=[s^4:s^3t:st^3:t^4]\), and fix the *particular* integral quartic cone
+\[
+X=V(F),\qquad F=x_0x_3^3-x_2^4.
+\]
+The normalization is \(\nu:\mathbf P(1,1,4)\to X\), \([s:t:z]\mapsto[s^4:z:st^3:t^4]\), induced by \(A=k[s^4,st^3,t^4,z]\subset k[s,t,z]\) with weights \(1,1,4\). It is finite, birational, and universally injective. The full inverse support of \(C_0\) is the Cartier divisor \(D=V(\phi)\), \(\phi=z-s^3t\), of weighted degree four.
+
+A degree-\(N>0\) mate \(G\) exists on **this fixed carrier** precisely when \(\phi^N\in A\). Indeed the pullback of any such mate has support exactly \(D\); factoriality of \(k[s,t,z]\) and weighted degree force its pullback to be a scalar multiple of \(\phi^N\). Conversely, membership gives a homogeneous lift with exactly the required support.
+
+For \(R=k[s^4,st^3,t^4]\), the monomial criterion is
+\[
+s^{3r}t^r\in R\quad\Longleftrightarrow\quad r\in\langle3,4\rangle
+=\{0,3,4,6,7,8,\ldots\}.
+\]
+In characteristic zero, the coefficient \(-Ns^3t\) of \(z^{N-1}\) prevents descent for every \(N>0\). In characteristic \(p>0\), write \(N=p^eM\) with \(p\nmid M\). Frobenius and the first nonzero lower coefficient give the **exact criterion**
+\[
+\phi^N\in A\quad\Longleftrightarrow\quad p^{v_p(N)}\in\langle3,4\rangle.
+\]
+Thus the qualifying degrees are: characteristic \(2\), exactly \(4\mid N\); characteristic \(3\), exactly \(3\mid N\); characteristic \(5\), exactly \(25\mid N\); and prime characteristic \(p\ge7\), exactly \(p\mid N\). Minimum mate degrees are respectively \(4,3,25,p\). The characteristic-five exception comes from the semigroup gap \(5\), not a computational accident. If \(r=3b+4c=p^e\), set \(a=2b+3c\); the explicit mate \(x_0^a x_2^b x_3^c-x_1^r\) pulls back to \(-\phi^r\).
+
+These are **all mate degrees for this fixed cone**, not global minima for the curve across all carriers; in particular the characteristic-five \((4,25)\) pair does not supersede a separately known \((3,20)\) presentation. The characteristic-zero conclusion is likewise only a fixed-carrier exclusion. [Source and proof](../notes/2026-10-05-positive-quartic-carrier-optimality.md).
+
 ## 4. Cartier singleton lifts: a necessary classification, not a construction
 
 Under the stronger hypotheses that the entire reduced inverse image is a single curve \(c\cong C\) and **\(c\) is Cartier on the normalization**, R-0002 classifies the possible normalization/polarization pairs. The mate makes \(c\) ample, and \(|c|\) realizes a normal surface of minimal degree. The proof uses the Cartier restriction sequence, surface classification and the singular cone case.
