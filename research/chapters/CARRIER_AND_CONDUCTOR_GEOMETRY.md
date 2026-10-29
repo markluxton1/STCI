@@ -131,6 +131,16 @@ d_2&d_4&d_5
 \]
 has to annihilate that direction for each defining quadric. This turns the geometric classification into the five exhaustive binary-quartic root partitions discussed above. The full ideal certificates, direction boundaries and conductor-power obstruction remain in the [genus-one interface audit](../notes/2026-10-10-session-genus-one-interface-independent-audit.md) and [repeated-partition audit](../notes/2026-10-10-session-ribbon-repeated-partitions-independent-audit.md).
 
+#### A four-(A_1) ADE projection family: numerical feasibility does not imply a mate
+
+Over an algebraically closed characteristic-zero field, the normal degree-four del Pezzo
+\[
+S=V(ae-c^2,\ bd-c^2)\subset\mathbf P^4
+\]
+has exactly four \(A_1\) singularities. A four-parameter open \(\alpha\beta\gamma\delta(\alpha\delta-\beta\gamma)\ne0\) admits a smooth rational normal quartic \(c\subset S\) through all four singular points, with \(2c\sim2H\) and non-Cartier local class of order two at each singularity. Thus the genus-one numerical and torsion conditions can genuinely occur; they are not sufficient for a mate.
+
+Projecting from the deleted-middle-coordinate center, which lies outside \(S\), gives finite birational integral quartics containing the **literal** \(C_0\). In the source's coordinates the eliminated equation is \(F=R^2-x_1x_2L^2\), with \(L\) linear and \(R\) quadratic. Along \(C_0\), \(L_C\) is a nonzero quartic whose endpoint values are nonzero, so every zero has \(UV\ne0\). At each such zero the normalization fiber contains two distinct points with middle coordinates \(z=\pm U^2V^2\), only one on \(c\). This violates full inverse support and excludes **every member of this specified parameter open in every mate degree**, including repeated-root subloci. It does not exhaust all four-\(A_1\) projections, other ADE configurations, or degenerate parameter boundaries. The construction illustrates why an ADE lattice condition, even with \(2c\sim2H\), is weaker than an actual fixed-carrier mate. [Explicit family and fiber proof](../notes/2026-10-09-session-singular-delpezzo-four-A1-family.md).
+
 ### 3.2a Shared genus-two geometry and exhaustion
 
 On the minimal resolution M of a genus-two normalization, the adjoint divisor f=K_M+L is a connected basepoint-free conic pencil. The actual exceptional correction Z satisfies q=-Z²>0, lambda=K_M.Z a nonnegative integer, q+lambda=4 and lambda²<=q. These force exactly two possibilities: (lambda,q)=(0,4) and (1,3). The bisection and trisecant cases are therefore exhaustive; an older assumption that q always equals four would miss the latter.
