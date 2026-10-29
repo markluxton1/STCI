@@ -20,6 +20,26 @@ The October 21 conductor-budget proposal originally depended on an anticanonical
 
 Sources: research/notes/2026-10-20-conditional-2-12-singular-gluing.md and research/notes/2026-10-21-conditional-2-12-conductor-ramification.md. Conditional cross-family work, not promoted.
 
+## Seven-cubic contraction and five-quadric anticanonical model
+
+The conditional \((2,12;6,16;2)\) actual-pair geometry has a **separate** exact projective construction, not implied by the sextic symbol matrix. Write \(q=x_0x_3-x_1x_2\), \(A=x_0^2x_2-x_1^3\), \(B_0=x_0x_2^2-x_1^2x_3\), \(D_0=x_2^3-x_1x_3^2\). The seven cubics
+\[
+qx_0,\ qx_1,\ qx_2,\ qx_3,\ A,\ B_0,\ D_0
+\]
+generate \(I_{C_0}(3)\) and define \(\phi:\operatorname{Bl}_{C_0}\mathbf P^3\to V\subset\mathbf P^6\). In corresponding coordinates \(y_0,\ldots,y_6\), the image \(V\) is cut out **scheme-theoretically** by the five quadrics
+\[
+\begin{aligned}
+&y_0y_5-y_2y_4+y_1^2,\quad y_0y_6-y_2y_5+y_1y_3,\\
+&y_1y_5-y_3y_4+y_0y_2,\quad y_1y_6-y_3y_5+y_2^2,\quad
+y_4y_6-y_5^2+y_1y_2.
+\end{aligned}
+\]
+The homogeneous ring has free resolution of ranks \((1,5,5,1)\), shifts \((0,2,3,5)\); \(V\) is a smooth integral degree-five threefold with \(\omega_V=\mathcal O_V(-2)\). Projection to \([y_0:y_1:y_2:y_3]\) has base ideal defining the smooth conic \(\Gamma=\{y_0=\cdots=y_3=0,\ y_4y_6-y_5^2=0\}\). Its graph identifies \(\operatorname{Bl}_{C_0}\mathbf P^3=\operatorname{Bl}_\Gamma V\), contracting the strict transform of the unique quadric.
+
+Every sextic in \(H^0(I_{C_0}^2(6))\) is a quadratic expression in these seven cubics and descends to \(T\in|\mathcal O_V(2)|\), with \(\omega_T=\mathcal O_T\). **For an actual supported pair** the low-degree carrier exclusion forces the sextic, its strict transform, and \(T\) to be integral, and the quadric cannot be a component. Finite duality for the normalization \(Y\to T\) identifies \(\omega_Y\) with its full conductor ideal, and the resulting conductor curve \(\Delta\) satisfies \(\omega_\Delta=\mathcal O_\Delta\), even if the conductor is nonreduced or \(Y\) is not Gorenstein. A generically reduced irreducible conductor component of multiplicity one must have arithmetic genus at most one. This global restriction drives the reviewed exclusion of ramified contacts over **simple** zeros of the multiplier \(\alpha\). It does not exclude repeated zeros or nodal root contacts where \(\alpha\) vanishes.
+
+The exact cubic model, graph identification, conductor duality, and simple-zero exclusion received an independent **PASS under the conditional actual-pair hypotheses**. A different nodal example's purported finite normalization by dividing by a nonunit was explicitly **rejected** and is not used. No unconditional \((6,16)\) or STCI exclusion follows. [Cubic image and conductor construction](../notes/2026-10-21-conditional-2-12-cubic-image-and-conductor-interface.md); [independent review and rejected nodal claim](../notes/2026-10-21-conditional-2-12-surface-audit-cont2.md).
+
 ## Exact global sextic-symbol restriction in the conditional (6,16) lane
 
 For an actual supported \((F_6,G_{16})\) pair with **full fiberwise coprime** generic normal CI \((2,12)\) and an **actual saturated movement-two** first relation, write the basepoint-free quadratic first root \(f=a(z)u^2+b(z)uv+c(z)v^2\) and the degree-six symbol \(\sigma_2(F_6)=\alpha f\), where \(\alpha\in H^0(\mathbf P^1,\mathcal O(8))\) is nonzero. A global sextic does **not** have an arbitrary symbol in \(H^0(\mathcal O(10))^3\). The exact map
