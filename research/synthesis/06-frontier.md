@@ -106,3 +106,11 @@ The [current frontier](../FRONTIER.md) takes precedence over the ordering of thi
 
 The jet-dependence, root-obstruction, and Cartier-projection problems in Sections 6.1–6.6 remain bounded alternative projects. Choose them by mathematical leverage and check whether later scoped results already settle the proposed subcase. Promote claims only under the [authority policy](../AUTHORITY.md), with exact hypotheses and independent audit.
 
+
+## 6.9 Residual-intersection deliverables
+
+Two research routes remain distinct. First, extend the fixed-sextic jet-kernel theorem R-0025 to a geometrically defined family of carriers and mates, including the exceptional rank-drop strata. A uniform upper bound on generic multiplicity strictly below de/4 would imply positive residual degree via the projective cycle formula. One selected sextic does not establish such a uniform bound.
+
+Second, extend the saturated residual zero-cycle formula R-0019 to a detector for a residual one-cycle in projective space. This requires an explicit bridge from auxiliary-surface intersections and horizontal exceptional data to the actual global equations; vertical exceptional cycles alone do not suffice. The explicit residual quartics of R-0023 and fixed-boundary deformation of R-0024 are useful laboratories, not general existence or nonexistence theorems.
+
+A new case computation should identify an invariant class excluded, an exceptional stratum left unresolved, or a structural implication that fails. Otherwise it remains exploratory evidence, not a promoted result.
