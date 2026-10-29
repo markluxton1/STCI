@@ -43,9 +43,20 @@
 | [2026-10-08-session-nonimmersion-prime-independent-audit](../notes/2026-10-08-session-nonimmersion-prime-independent-audit.md) | `QUARTIC_CARRIER_TECHNICAL_PROOFS.md` | integrated; conditional prime lemma | earlier |
 | [2026-10-08-session-principal-e1-d1-independent-completeness-audit](../notes/2026-10-08-session-principal-e1-d1-independent-completeness-audit.md) | `phase2_step1c_mf6_principal_boundary.md` | integrated; ancestor-only | earlier |
 | [2026-10-08-session-veronese-allmate-independent-audit](../notes/2026-10-08-session-veronese-allmate-independent-audit.md) | `QUARTIC_CARRIER_TECHNICAL_PROOFS.md` | integrated; scoped all-degree | earlier |
+| [2026-10-07-session-nonnormal-mf6-independent-audit](../notes/2026-10-07-session-nonnormal-mf6-independent-audit.md) | `CARRIER_AND_CONDUCTOR_GEOMETRY.md` | integrated; four fixed carriers, not family-wide | 827b073 |
+| [2026-10-07-session-nonnormal-structural-progress](../notes/2026-10-07-session-nonnormal-structural-progress.md) | `CARRIER_AND_CONDUCTOR_GEOMETRY.md` | integrated; ordinary pinch versus nodal conductor distinction | 827b073 |
+| [2026-10-07-session-normal-global-adversarial](../notes/2026-10-07-session-normal-global-adversarial.md) | `QUARTIC_CARRIER_TECHNICAL_PROOFS.md` | integrated; inherited classification hypotheses explicit | 8c65532 |
+| [2026-10-07-session-normal-nonreduced-independent-audit](../notes/2026-10-07-session-normal-nonreduced-independent-audit.md) | `QUARTIC_CARRIER_TECHNICAL_PROOFS.md` | integrated; nonreduced exceptional graph and Type D | 8c65532 |
+| [2026-10-07-session-socle-bridge-adversarial-audit](../notes/2026-10-07-session-socle-bridge-adversarial-audit.md) | `normal_filtration_boundary_obstructions.md` | integrated; simultaneous two-target bridge only | 46e66bc |
+| [2026-10-07-entirely-thick-rees-valuation-framework](../notes/2026-10-07-entirely-thick-rees-valuation-framework.md) | `formal-normal-intersection.md` | integrated; Noether/Rees and length countermodel | 1e2b8f2 |
+| [2026-10-07-entirely-thick-relative-blowup-budget](../notes/2026-10-07-entirely-thick-relative-blowup-budget.md) | `formal-normal-intersection.md` | integrated; horizontal recursion; monotonicity unproved | 1e2b8f2 |
+| [2026-10-07-thick-sheaf-colon-recursion](../notes/2026-10-07-thick-sheaf-colon-recursion.md) | `formal-normal-intersection.md` | integrated; sheaf colon; degree saturation later resolved | b681fcb |
+| [2026-10-07-thickened-fiber-local-countermodel](../notes/2026-10-07-thickened-fiber-local-countermodel.md) | `formal-normal-intersection.md` | integrated; reduced support does not fix higher jets | 1e2b8f2 |
+| [2026-10-07-session-localcoh-conormal-splitting](../notes/2026-10-07-session-localcoh-conormal-splitting.md) | `normal_filtration_boundary_obstructions.md` | integrated; conditional splitting and Gorenstein stratum | 46e66bc |
+| [2026-10-07-session-localcoh-mf6-bridge](../notes/2026-10-07-session-localcoh-mf6-bridge.md) | `normal_filtration_boundary_obstructions.md` | superseded false one-target inference; failure preserved | 46e66bc |
+| [2026-10-07-session-mf6-e1-defective-structural](../notes/2026-10-07-session-mf6-e1-defective-structural.md) | `normal_filtration_boundary_obstructions.md` | integrated; Hilbert-Burch and annihilators | 2bfdcde |
 
 ## Outstanding actions
 
-1. Reconcile the 12 batch-A notes against their permanent destination sections and append them to this matrix.
-2. The entirely-thick trisecant-root to horizontal-exceptional-section correspondence remains unproved; do not assert the historical distinct-root count as unconditional.
-3. After batch A, compare this bounded window with the wider original 402-unmatched population and the 147 filename-matched sources. The 39 rows here do not certify exhaustive Phase 2 coverage.
+1. The entirely-thick trisecant-root to horizontal-exceptional-section correspondence remains unproved; do not assert the historical distinct-root count as unconditional.
+2. Compare this bounded window with the wider original 402-unmatched population and the 147 filename-matched sources. The 51 rows here do not certify exhaustive Phase 2 coverage.
