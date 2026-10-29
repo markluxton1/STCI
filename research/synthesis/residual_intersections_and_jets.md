@@ -48,3 +48,37 @@ The [filtration/boundary synthesis](normal_filtration_boundary_obstructions.md) 
 ## 6. Authority and evidence
 
 The canonical records R-0001, R-0019, R-0021–R-0025 are authoritative only within their recorded scopes. Their audits and computation certificates remain linked there. The general valuation and blowup program in [formal-normal intersection](formal-normal-intersection.md) is provisional. This synthesis changes neither status nor evidence, and retires no source material.
+
+## 7. Quantitative comparison: where residual degree enters
+
+For a proper intersection of surfaces of degrees d and e, the fundamental cycle decomposes as
+
+    [V(F,G)] = m_C[C] + sum_i m_i[R_i],
+
+where the R_i are irreducible residual curves distinct from C. Consequently
+
+    d*e = 4*m_C + sum_i m_i*deg(R_i).
+
+This is a cycle identity, not a decomposition of defining ideals. It gives a precise target for any proposed residual detector: a universal obstruction must force m_C < d*e/4 for every actual proper pair in the class. By contrast, an exceptional component of a blowup can contribute to a local intersection calculation without producing an R_i downstairs.
+
+Three distinct quantitative tests are available:
+
+- **Proper residual intersection on an auxiliary surface:** Under R-0019's finite-flat curvilinear and saturated-flag hypotheses, the residual *zero-cycle* is (m-1)T + D_(m-1). Its degree is not automatically the degree of a residual *curve* in P3; the auxiliary intersection and properness hypotheses matter.
+- **Actual quartic residual curves:** R-0023 constructs a (2,3) pair with a smooth degree-12 residual D and C meeting D transversely in 18 points. At the (1,1) specialization, the degree-12 residual splits into a line and a smooth degree-11 component, with five transverse nodes between them. These have residual multiplicity one along C and degree 12 in the projective cycle; they do not contradict the characteristic-zero quartic-carrier exclusion.
+- **Fixed higher-degree jet source:** In R-0025 the selected sextic Fstar and degree-sixteen mates have d*e=96. The normal-branch calculation gives m_C=2n <=22, so the residual cycle has degree at least 96-4*22=8. The essential step is the degree-sixteen jet-kernel identity for this particular Fstar, not a bound valid for all sextics.
+
+The examples show two logically independent ways of proving positive residual degree: construct and certify the residual scheme, or prove a strict upper bound on generic multiplicity for an actual global source space. A formal normal-cone picture alone supplies neither.
+
+## 8. Fixed boundary versus residual removal
+
+The fixed-boundary deformation theorem R-0024 is more precise than the phrase "the nodes smooth." For its specified quartic pencil, the 36-dimensional ordered source has boundary, node and combined tangent ranks 19, 5 and 24. On the Grassmannian, the projective boundary rank is 18, and the fixed-boundary fiber is smooth of dimension 14. After etale localization at the five labeled nodes its formal local ring has five independent smoothing coordinates and nine further parameters.
+
+Thus attachment of the residual to C can be held fixed while the internal singularities of the residual change. This separates **boundary incidence**, **residual geometry**, and **residual degree**. Independent smoothing is not an operation that deletes the residual cycle. The theorem gives formal/etale-local parameters; it does not supply a polynomial coefficient arc in the original source coordinates.
+
+## 9. From isolated calculations to an invariant exclusion
+
+A case calculation should be retained in the synthesis only when it identifies one of the following reusable mechanisms: a saturated-flag divisor formula, a geometric residual component and its attachments, a fixed-boundary deformation invariant, or a global jet-kernel obstruction. Repeatedly searching for individual F,G pairs without extracting a condition on an invariant family does not advance an unrestricted exclusion.
+
+For a proposed family-level extension of R-0025, first define a parameter space of carriers and the vector spaces of degree-e mates. Construct the normal jet map over the parameter space, determine a rank condition on its kernel modulo carrier multiples, and identify the locus where the rank can drop. Then analyze those exceptional strata geometrically; a generic rank calculation is insufficient to rule out all carriers. Finally translate the uniform multiplicity bound, if established, into residual degree using the cycle identity above.
+
+For a proposed extension of R-0019, instead start with a saturated finite-flat flag and check that its residual zero-cycle formula is compatible with the actual global equations. Do not assume a vertical exceptional cycle maps to a residual curve. These are two different possible research programs, and neither currently bridges arbitrary initial ideals to a universal STCI obstruction.
