@@ -52,27 +52,6 @@ Verified in this pass: working-branch AGENTS, INDEX, MAP, STATE, FRONTIER, resul
 
 Next: enumerate current tree with nontruncated tree SHA; compare side branches and historical manifests; extract claims per dossier, preserving unique mathematics and eliminating mere correction chronology only after comparison.
 
-## Phase 1B supplemental mathematical extraction (2026-10-29)
-
-This is a **selective verified-source supplement**, not a complete current-tree census. Sources below were read directly on the consolidation branch. Status labels distinguish imported source arguments from independently promoted STCI results.
-
-| Contribution and exact hypotheses | Source paths | Permanent home / relation | Status and preservation risk |
-|---|---|---|---|
-| Fixed-degree finite normal-jet criterion: integral degree-d curve, homogeneous F,G of degrees a,b, d divides ab, M=ab/d; radical equality iff generic truncated length at I^(M+1) equals M. Sharp exponent; multiplication-map rank; weighted reduced-reducible extension. | `research/archive/space-curves-2026-10-19/space-curves-vi/state/artifacts/integrated/ARTIFACT-20260906-011-finite-normal-jet-certificate.md`; `research/archive/space-curves-2026-10-19/space-curves-vi/scripts/finite_normal_jet_certificate.m2` | Computational mathematics / global jet realizability; compare R-0005–0011 and R-0030 without confusing fixed-degree certificate with universal degree bound | Source proof and donor audit; not promoted here. Preserve exact cutoff, scalar parameter restrictions, and full multiplication matrix. |
-| Global coefficient trap: for C_n of type (1,n), n>=2, Q=xw-yz and pencil <y S_n,w S_n> with S_n=yw^(n-1)-z^n; K=k(C_n) combination yields (v,u²) but every nonzero k-constant combination has generic length one. | `research/archive/space-curves-2026-10-19/space-curves-vi/state/artifacts/integrated/ARTIFACT-20260906-012-global-coefficients-and-frobenius.md` | Global jet realizability and valuations; directly guards the proposed K-valued normal-form search | Exact family proof with donor audit; do not replace global k-coefficients by K-coefficients. |
-| For the particular pair (S_n,x^n w-y^(n+1)), in characteristic p>0 generic length p^v_p(n), support exactly C_n iff n is a p-power; characteristic-zero generic length one with residual branches. Twisted-cubic mixed-term positive control. | Same VI-012 source and VI-011 M2 script | Positive characteristic/arithmetic; compare R-0020–0021, not a nonexistence theorem for alternative pairs | Exact pair-specific statement; preserve residual-component decomposition and characteristic qualifications. |
-| Contact depth: smooth integral C, characteristic zero, generic normal orders p,q, generic length m=ab/d; m <= (h+1)pq; with effective threshold tau and both slopes >=tau, h>=ceil(tau²/d)-1; for (1,n) on quadric h>=n-1. | `research/archive/space-curves-2026-10-19/README.md`; donor VI-003, VI-005 and VI-010 linked there | Entirely-thick / valuations; bridge global effectiveness to generic infinitely-near contact | Imported source argument, not newly audited. Arbitrarily deep local contact is possible, so no contradiction follows. |
-| Rational degree-five curve on smooth cubic in char 0: five disjoint lines; on normal one-A1 cubic, smooth rational quintic avoiding node: disjoint degree-one curve, via weak del Pezzo E6 lattice. | `research/archive/space-curves-2026-10-19/README.md`; I-014/015/019/020 and `space-curves-i/research-state/scripts/nodal_cubic_quintic_lattice.py` under the intake root | General space curves / affine complements (distinct from fixed quartic normalization dossier) | Source-reviewed; nodal independent-review provenance weaker. Do not infer universal quintic non-STCI. |
-| Cuspidal cubic additive polar-part obstruction -3z^-2 despite proportional normalized classes; ruled cubic pinch-point compatibility but failure of class proportionality. | Intake README; III-012/013 and `space-curves-iii/research-state/experiments/explicit_examples.py` under intake root | Normalization/conductor; concrete failures illustrating separate conditions in R-0003 | Imported examples, not fresh audit. Preserve exact carrier and obstruction, not review chronology. |
-| Fivefold conormal-root quartic with first-transform normal derivative 2 and p1=5,p2=0; repeated root need not persist after blowup. | Intake README; IV-031/032 and `space-curves-iv/experiments/c4_root_collision.py` under intake root | Entirely-thick/root geometry; compare R-0005–0011 | Computation with provisional surface-type interpretation; no established irreducibility/normality. |
-| Corrected type-B (4,5) second-neighborhood Cech obstruction, rank-one determinant c1*c3-c2², killing section c2-c1*z on c1 !=0 and remaining coefficient c1². | `research/scratch/explore_quasi45_type_b.py` | Normal/conormal filtrations and low-degree historical methods | Exploratory script, not theorem. Preserve corrected formulas and hypotheses; do not preserve obsolete frozen-frame calculation as mathematics. |
-
-### Phase 1B coverage and pending checks
-
-Directly read: Phase 1 inventory, historical source manifest, provisional inventory, Space Curves intake README, VI-011, VI-012, and `research/scratch/explore_quasi45_type_b.py`. GitHub default-branch code search also identified `research/scratch/explore_split4_lift.py`, `explore_split4_local.py`, `explore_split22_nonramified.py`, and `mf6_type4_resultant.m2`; these are **discovery leads, not individually reviewed**. No exhaustive scratch enumeration, complete computational-input mapping, or all-branch comparison has been performed. The named `codex/intersections-containing-quartic-2026-10-27` branch remains a priority comparison. Do not delete or promote on the strength of this supplement.
-
-**Phase 2 implication:** treat global jet realizability as a cross-cutting mathematical question rather than collapsing it into generic formal normal-jet algebra; retain general-space-curve results (especially rational quintics) even when unrelated to the fixed quartic's immediate frontier. Exact source scripts should remain linked to the mathematical statements they actually test.
-
 ## Phase 1B — historical donor mathematical extraction (October 29)
 
 **Scope:** source-specific extraction from the Space Curves intake README, donor artifact manifest, historical source manifest, mathematical map, and frontier. This is not a new proof audit or an exhaustive scratch/tree scan. Paths below are relative to `research/archive/space-curves-2026-10-19/` unless otherwise stated.
@@ -97,3 +76,19 @@ Directly read: Phase 1 inventory, historical source manifest, provisional invent
 - **Computational intake outstanding:** map each exact script/input to its claimed proposition, characteristic, outputs and limitations; the Space Curves donor inventory is an acceleration index, not evidence that all scripts were checked.
 - **New conceptual dossier recommendation:** separate *general space curves and rational quintics* from C0-specific geometry, and treat *global homogeneous equation realization* as an explicit interface connecting finite jets, k versus k(C) coefficients, and boundary repair.
 - **No new promotions, source deletions or dossier restructuring** in this phase. Ordinary corrected mistakes should not become permanent research history; substantive counterexamples and failed realizations should.
+
+### Reconciled unique scratch calculation
+
+| Contribution and hypotheses | Exact source | Destination | Status |
+|---|---|---|---|
+| Corrected type-B (4,5) second-neighborhood Cech obstruction, rank-one determinant c1*c3-c2², killing section c2-c1*z on c1 !=0 and remaining coefficient c1². | `research/scratch/explore_quasi45_type_b.py` | Normal/conormal filtrations and low-degree historical methods | Exploratory script, not theorem. Preserve corrected formulas and hypotheses; do not preserve obsolete frozen-frame calculation as mathematics. |
+
+The source script defines α=a0+a1z, β=b0+b1z and restricts to Δ=a0b1−a1b0 ≠ 0. Its corrected Čech coordinates c1,c2,c3 satisfy the rank-one killing condition c1c3−c2²=0; on c1≠0 the killing section is c2−c1z and the remaining coefficient is c1². These are symbolic calculations, **not a proved global (4,5) obstruction theorem**. Retain the coefficient corrections under changes of embedded charts; do not use the obsolete frozen-frame formulas.
+
+### Additional preservation cautions from the parallel pass
+
+- The VI-011 finite-jet criterion uses the sharp truncation I_C^(M+1), the full multiplication matrix, and restricted global scalar parameters, not merely two coefficient vectors.
+- The VI-012 example distinguishes k-constant linear combinations from k(C)-linear combinations; the latter cannot be substituted in a global homogeneous-equation search.
+- Scratch discovery leads not individually reviewed: `research/scratch/explore_split4_lift.py`, `research/scratch/explore_split4_local.py`, `research/scratch/explore_split22_nonramified.py`, and `research/scratch/mf6_type4_resultant.m2` (verify the final path before use).
+- The branch `codex/intersections-containing-quartic-2026-10-27` still needs a substantive mathematical comparison; no complete branch or scratch census is claimed.
+
