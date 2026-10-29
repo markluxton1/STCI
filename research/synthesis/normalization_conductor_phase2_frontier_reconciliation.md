@@ -20,11 +20,11 @@ During the reorganization, distinguish (A) the mathematical frontier supported b
 
 ## Temporary source-reconciliation tasks (remove from final frontier once checked)
 
-- Reconcile Space Curves III cuspidal and ruled-cubic primary artifacts with the current summaries.
-- Check the full October 15 phase-space and effective algorithm proofs against their independent reviews before final promotion decisions.
-- Check the inherited P-010 quadratic obstruction and socle/filtered inputs, without treating already documented proofs as missing.
-- Check the corrected October 21 nodal normalization candidate if it is needed; the rejected nonfinite candidate must not be used.
-- Search remaining historical branches/scratch material for substantive normalization/conductor results; integrate the separately deferred codex/intersections-containing-quartic-2026-10-27 branch only in the coordinated later phase.
+- Completed: compared Space Curves III cuspidal and ruled-cubic primary artifacts with the current summaries; their distinct mechanisms agree.
+- Completed at independent-review level: both October 15 theorem reviews were inspected; neither replays inherited premises or runs the algorithm on the actual quartic families. No new canonical promotion is claimed.
+- Source dependency checked: R-0035 invokes the inherited P-010 constant-direction obstruction, and the historical cohomology source distinguishes the primitive case from boundary-divisor repairs. An independent reconstruction of P-010 itself has not been carried out in this closeout.
+- The rejected nonfinite October 21 nodal normalization is excluded from the synthesis. A proposed replacement remains unverified and is not used to support any theorem; its verification belongs to the continuing conditional singular-root investigation.
+- Final cross-family source-coverage certification and the separately deferred codex/intersections-containing-quartic-2026-10-27 branch remain assigned to coordinated repository-wide integration, not to mathematical claims in this dossier.
 
 These are **coverage and validation tasks**, not open mathematical questions. At final closeout, either integrate located results and update the mathematical status, or explicitly record a real unproved dependency. Do not retain a speculative category of 'possibly proved somewhere we have not read' in the finished mathematical record.
 
