@@ -38,6 +38,18 @@ The last specialized item is recorded in [the conditional addendum](normalizatio
 
 **Still open:** completeness beyond the enumerated claim groups; any specialized unrepresented source mathematics not already identified by the checkpoints; independent correctness of unpromoted proposals; conditional (6,16) incidence emptiness; quintic h2 global exclusion; and the inherited R-0035 reduction. No historical sources or canonical theorem records were modified. A short final closeout review should check these boundaries without restarting source intake.
 
+## Bounded Phase 2 integration closeout verdict
+
+This review closes the **previously identified substantive integration queue**, not the exhaustive historical claim-preservation audit. The final comparison checked the permanent quartic-carrier chapter, intrinsic-geometry consolidation, normalization/conductor Phase 2 addendum, and this register. All 69 relative Markdown links across those four files resolve to paths in the branch tree (56, 2, 5, and 6 respectively). This is a link-target check, **not** a check of every mathematical cross-reference or assertion.
+
+- **Historical source intake:** previously reported 549/549 source-level dispositions (147 filename-matched and 402 unmatched); not independently recounted in this bounded closeout.
+- **Identified destination gaps:** the specific groups listed in the earlier reconciliation checkpoints have now been addressed in permanent mathematics, including the separately audited seven-cubic/five-quadric contraction and global sextic-symbol/cubic-jet interface. Older PARTIAL and NEEDS REVIEW entries above describe the pre-integration state.
+- **Exhaustive distinct-claim coverage:** **NOT CERTIFIED**. The 549 file dispositions do not imply that every distinct contribution has been atomized or checked against its destination.
+- **Mathematical correctness:** no blanket certification. Source-specific independent audits are cited where available; conditional claims retain their hypotheses, and rejected calculations are not promoted.
+- **Open mathematical problems:** the conditional (6,16) combined incidence and global realization, quintic h2 global exclusion, and R-0035's inherited reduction remain open. They are **not** editorial integration failures.
+
+**Disposition:** stop expanding Phase 2 by repeating source intake. A separate short review can spot-check the highest-risk mathematical assertions and then decide whether the branch is ready for a PR. Do not infer merge readiness solely from this bounded preservation verdict.
+
 ## Coverage boundary
 
 The original 549-note population and 147/402 filename screen are historical intake checkpoints, not independently certified by this matrix. A file appearing in the source ledger or a claim group here does not alone prove every distinct contribution preserved. The unified register records decisions and remaining verification/integration obligations; Phase 2 Step 1C is not closed.
