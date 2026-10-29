@@ -180,6 +180,19 @@ All trisecants lie in the degree-three ruling of the unique quadric and are \(\G
 
 The length-two positions are precisely ordinary secants not lying in the quadric and tangents at nonendpoint points. For finite distinct parameters \(a,b\), their secant lies in the quadric exactly when \(a^2+ab+b^2=0\), equivalently \(a^3=b^3\); for \(a=b\ne0\), the tangent has length two. Secants through infinity remain ordinary bisecants. These explicit boundary distinctions prevent treating a length-two conductor as a degenerate member of the trisecant ruling. [Full line-position calculation and conditional lift discussion](../notes/2026-10-10-session-genus-two-conductor-line-position.md).
 
+#### Relative Morse splitting with labeled conductor branches
+
+The nonendpoint trisecant argument uses a local assertion stronger than the abstract classification of Du Val singularities. In characteristic zero, suppose a completed surface germ has
+\[
+F=uv+r\,h(u,v,r)
+\]
+and the **specified** Cartier divisor \(r=0\) has reduced branches \((u,r)\), \((v,r)\). If the surface is smooth or Du Val, an \(r\)-preserving formal Morse iteration, with changes \(x\equiv u,\ y\equiv v\pmod r\), yields \(F=xy+g(r)\). If singular, \(g(r)\) has finite order \(m\ge2\); rescaling a unit gives \(xy=r^m\), preserving both branch ideals. Consequently the singularity is \(A_{m-1}\), not \(D\) or \(E\), and the **actual two branches** meet opposite ends of the minimal crepant exceptional chain. For \(A_1\), they meet the single exceptional curve at distinct points. This follows from the explicit toric resolution charts
+\[
+x=a_i^{i+1}b_i^i,\quad y=a_i^{m-i-1}b_i^{m-i},\quad r=a_ib_i
+\quad(0\le i<m).
+\]
+The local statement was independently audited; it does **not** independently establish the global nonendpoint-trisecant hypotheses or exclusion. [Parameter-preserving proof](../notes/2026-10-10-session-relative-morse-conductor-branches-independent-audit.md).
+
 ### 3.3 Genus-two bisection: a global conormal contradiction
 
 The genus-two normalization admits a second-pencil reduction, with bisection case denoted lambda=0 in the source. Under a hypothetical mate, the accepted conductor geometry produces an **actual Cartier double** R_C supported on the smooth lifted curve c. Its Cohen-Macaulay purity makes the nilideal J square-zero globally, not merely generically, and the source calculates J=O_C(-8). This is a genuine ribbon on the normalization, including its singular points.
