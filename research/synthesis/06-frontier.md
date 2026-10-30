@@ -124,3 +124,9 @@ The exact ideal-power theorem gives complete global equation spaces in degrees d
 ## 6.11 Arithmetic specialization research target
 
 The prescribed characteristic-two quartic complete intersection has a proved nonlifting obstruction over the two specified unramified mixed-characteristic bases. This does not exclude unrelated characteristic-zero equations. A meaningful extension would classify which invariants of a supported thickening persist under flat specialization, with the exact special embedded scheme and generic reduced support specified. The characteristic-dependent conormal extension, cancellation-generated initial equations, and arithmetic obstruction must be checked separately. See Chapter 3 and canonical results R-0012, R-0020, R-0021, and R-0031.
+
+## 6.12 Global source and embedded lifting tests
+
+The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
+
+For a fixed lower thickening Y of generic length n, an actual proper degree-(a,b) pair with ab=(n+1)deg(C) has sole reduced support C exactly when its determinant in the rank-two torsion-free equation module vanishes. This converts the fixed-Y existence problem to a decomposable-kernel problem in the actual homogeneous source spaces, after removing improper pairs. The next theorem should classify the zero locus across a geometrically controlled family of lower embedded thickenings, including rank-drop strata, rather than assume generic source rank settles all cases. See Chapter 3 and the October 27 one-step boundary investigation.
