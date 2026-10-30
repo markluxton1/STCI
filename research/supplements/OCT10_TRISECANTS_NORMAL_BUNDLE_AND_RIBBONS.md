@@ -852,7 +852,7 @@ bounded mate degree, reduced conductor or displayed-family hypothesis.
 
 Root accepts the completed
 [interface audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd)
-and [remaining-partitions audit](2026-10-10-session-ribbon-repeated-partitions-independent-audit.md)
+and [remaining-partitions audit](GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md)
 after reading their arguments, the owner partition proof and the actual
 exact companions. The proof is the following complete chain:
 
