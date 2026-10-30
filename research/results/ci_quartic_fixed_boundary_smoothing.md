@@ -47,3 +47,7 @@ Residual nodes can be smoothed independently with the attachment divisor exactly
 
 ## Limitations
 No explicit polynomial or rational coefficient arc, nor universal theorem for all quartic pairs.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/05-exclusions.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
