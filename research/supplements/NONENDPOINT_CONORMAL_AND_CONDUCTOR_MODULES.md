@@ -484,7 +484,7 @@ Suppose a mate exists. Its full inverse target support is exactly c.
 At every finite smooth point of c where the two actual conormal symbols
 do not vanish together, the cotangent map is surjective. The finite
 single-fiber Nakayama argument in the
-[conormal/conductor audit](2026-10-12-session-nonendpoint-all-mate-conormal-conductor-independent-audit.md)
+[conormal/conductor audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit)
 makes the normalization a local isomorphism there, so Dc misses that point.
 At A4 the same argument applies if Jbar!=0.
 
@@ -839,7 +839,7 @@ incidence remains a necessary condition. Its emptiness and the global STCI
 question remain open.
 
 This audit binds the frozen owner note
-[nonendpoint restricted conductor determinant](2026-10-12-session-nonendpoint-restricted-conductor-determinant.md),
+[nonendpoint restricted conductor determinant](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#2-nonendpoint-restricted-conductor-determinant),
 SHA-256 `fbd0cadc994d9aa40d2459f7853889ad958d82be4744fce8df3e868bb0faf0fb`.
 No owner, canonical, previously frozen or Git file was edited. Work over an
 algebraically closed field of characteristic zero. The actual normalization
@@ -1214,7 +1214,7 @@ but does not exclude the remaining resultant and A4 cotangent loci, all
 nonendpoint projections, all quintic carriers, or fixed C0 itself.
 
 The audited cubic data are in
-[the corrected conormal reduction](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md),
+[the corrected conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction),
 as read with SHA-256
 `3576392d41d4f64db506291f7cd0609a6930a80296eeedd7c9ccdfa92352c3f5`.
 This new note also audits root's proposed geometric extension, which is
@@ -1483,7 +1483,7 @@ No existing canonical or sealed file was edited.
 ## 1. Proposed theorem and geometric inputs
 
 Use the actual sections and conormal cubics P,J of the
-[conormal reduction](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md),
+[conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction),
 the [intrinsic pair](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
 the [local A4 chart](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-dp5-a4-local-chart-independent-auditmd),
 and the [entire conductor](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md).
@@ -1737,7 +1737,7 @@ full Artinian membership and purity. It does not infer rank from average
 degrees or bound the phases of an algebra that remains split.
 
 The audited owner is
-[Jbar-zero coprime conductor phase bound](2026-10-12-session-jbar-zero-coprime-conductor-phase-bound.md),
+[Jbar-zero coprime conductor phase bound](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#6-jbar-zero-coprime-conductor-phase-bound),
 as read with SHA-256
 `5749a82f42bce56842c826fc18b8972f85bfc6f4e21276754f7c80a066e3f23a`.
 This audit binds its mathematical sections 1--6. At that version its final
