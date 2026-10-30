@@ -159,3 +159,10 @@ These four subject supplements preserve the full mathematical content of 22 reti
 - [Single-root quotient fibers, double roots and Taylor incidence](supplements/NONENDPOINT_SINGLE_ROOT_INCIDENCE.md)
 
 These supplements preserve seven complete historical mathematical sources, including limitations and corrections.
+
+## Generalization supplements
+
+- [Normal-index and socle bounds](supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md)
+- [Symbolic triple and torsion](supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md)
+- [Projection conductor contact and phase](supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md)
+- [Quintic A4 conductor and sextic incidence](supplements/QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md)
