@@ -25,7 +25,7 @@ normalizations. No mathematical execution is claimed here.
 
 ## 1. Imported geometric scope
 
-Use the [quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md),
+Use the [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 its [independent audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
 the [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
 and the [explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
@@ -170,7 +170,7 @@ The universal STCI problem remains open.
 The owner proof audited is
 [the a=b=0 jet-obstruction proof](2026-10-11-session-quintic-endpoint-a-b-zero-jet-obstruction.md).
 The geometric antecedents were read in the actual saved
-[quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md),
+[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 [independent conormal and del Pezzo audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
 [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
 and [explicit-model independent audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
@@ -393,7 +393,7 @@ over an algebraically closed characteristic-zero field.
 The inherited inputs are the actual coordinates and regular section
 in the [explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md),
 and the necessary normalized-mate relation in the
-[quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md).
+[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd).
 Under a mate, its degree is b_mate=4k with k a positive integer,
 and its normalized section is a nonzero scalar multiple of Q^k,
 where Q has actual divisor 5c. No bound on k is assumed.
@@ -529,7 +529,7 @@ Date: 2026-10-11. Owner: `power_descent_algebra_audit`, child of
 Status: the algebraic statements below are **PROVED HERE** with explicit
 proofs. The application to the degree-five A4 del Pezzo lane uses the
 recorded geometric inputs in the
-[quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md),
+[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 particularly the actual conductor, purity of the normalization quotient,
 and `div(Q)=5c`. This note does not assert that any projection satisfies
 the resulting power criterion, or exclude every quintic carrier.
