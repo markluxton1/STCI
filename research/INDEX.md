@@ -34,7 +34,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Phase 2 closeout checks](synthesis/phase2_closeout_checks.md) — source comparisons, bounded-index dependency review, and remaining integration checks.
 - [Mathematical synthesis](synthesis/README.md) — explanatory chapters, not independent theorem authority
 - [Authority reconciliation](AUTHORITY_RECONCILIATION_2026-10-17.md) — checked interfaces and outstanding metadata limitations
-- [Provenance classification](PROVENANCE_CLASSIFICATION_2026-10-17.md) — current tree inventory and evidence-retention decisions
+- [Historical file census](REPOSITORY_INVENTORY.md) and [evidence manifest](MATHEMATICAL_CONSOLIDATION_EVIDENCE_MANIFEST.md) — dated inventory and retention context
 
 - [October 24 intrinsic quartic geometry: automorphisms and bitangents](notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md) — exploratory proofs, independent audits, and figures
 - [October 25 complete-intersection cycles containing the quartic](notes/2026-10-25-ci-cycle-geometry-notebook.md) — deformation notebook and [adaptive valuative continuation](notes/2026-10-25-ci-cycle-adaptive-valuative-notebook.md), conductor and topology pictures, cycle-dependent proximity measures, explicit pencils, and independent audits; no canonical promotion
@@ -76,7 +76,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [October 20 normal-filtration research report](notes/2026-10-20-normal-filtration-research-report.md) — source proofs for scope-limited promoted R0013–R0018 (historically provisional)
 - [Space Curves I–VI intake](archive/space-curves-2026-10-19/README.md) — evaluated historical imports, proposed additions, source audits and explicit review gaps
 - [Chronological research record](RESEARCH_RECORD.md) — dated activity and provenance
-- [Ultra computation inventory](archive/ULTRA_COMPUTATIONS_INDEX.md) and [validation evidence](validation/)
+- [Historical Ultra intake](archive/ULTRA_INTAKE.md), [computation sources](computations/), and [validation evidence](validation/)
 - [research notes](notes/) — original source notes (historical index retired)
 - [Ultra historical intake](archive/ULTRA_INTAKE.md) — copied dated handoffs and updates, not current authority
 - [Archived reports](archive/reports/AUDITED_STATE_2026-10-06.md) — preserved snapshots
