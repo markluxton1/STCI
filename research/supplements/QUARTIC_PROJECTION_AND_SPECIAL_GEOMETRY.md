@@ -3016,26 +3016,11 @@ Equality first gives \(u=2v\), and the other equations then give the ideal
 The normalization remembers the contact point, so these are different
 incidence problems and their different scheme lengths are consistent.
 
-## 7. Characteristic boundary and audit outcome
+## 7. Characteristic and scheme boundaries
 
-The smooth-conic construction requires characteristic different from two;
-the stated higher-contact equations and ordinary derivative interpretation
-are here asserted in characteristic zero. In characteristic two, the
-double-divisor map becomes purely inseparable onto a line, even though the
-ambient pairing remains nondegenerate. The companion product, branch conic,
-and these jet formulas must not be specialized unchanged. Characteristics
-three and five also require separate treatment of the displayed constants
-and contact calculations.
+The global conormal product, distinguished sections, ramification divisor, plane-map line bundle, third-contact divisor and **length-four nonreduced fourth-contact scheme** are established in the stated characteristic-zero setting, including coincident points and endpoints. The fourth-contact scheme must not be replaced by its reduced support.
 
-**Outcome:** the reviewer found no discrepancy in the global product,
-ramification identification, distinguished sections, plane-map line bundle,
-third-contact divisor, length-four fourth-contact scheme, fixed-scheme
-intersection, resultant restriction, or image intersection lengths under the stated
-characteristic-zero hypotheses. The arguments above reconstruct the claims
-independently and include the coincident-point and endpoint cases. They are
-review evidence for the [conormal residual note](2026-10-24-quartic-conormal-residual-geometry.md),
-not a promoted result record or an STCI conclusion.
-
+The smooth-conic construction requires characteristic different from two. In characteristic two the double-divisor map is purely inseparable onto a line although the ambient bilinear pairing remains nondegenerate; the characteristic-zero product, branch conic and derivative-based contact formulas do not specialize unchanged. Characteristics three and five require separate treatment of the coefficients and contact formulas. None of this establishes an STCI result.
 
 
 ---
