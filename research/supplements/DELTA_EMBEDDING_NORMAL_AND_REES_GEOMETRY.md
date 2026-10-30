@@ -1,5 +1,18 @@
 # Delta embedding: normal, singular and Rees geometry
 
+## Integration guide: embedding data, Rees cycles, and the limits of numerical tests
+
+The retained Delta construction concerns a **marked embedding** and the comparison between its equation, conormal, and associated-graded filtrations. Its annihilator and specialization statements must be read with the exact regular-sequence and torsion hypotheses in [the Delta report](#delta-embedding-geometry-report) and [the independent review](#delta-annihilator-review). They are not a universal criterion for set-theoretic complete intersection.
+
+Three adjacent investigations answer different questions. [Ideal filtrations](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) retains the entire embedding diagram and a counterexample to inferring higher generators from first-order information. [Normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) gives a conditional propagation theorem when the saturated first relation and fiberwise hypotheses hold; it explicitly excludes nonsaturated first relations. [Full-ideal Rees and residual cycles](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-rees-residual-investigation) separates global intersection/Segre budgets from special-point saturation defects, including a family in which the latter are unbounded despite fixed generic algebra.
+
+**Consequent separation:** a fixed generic transverse length, a fixed global intersection degree, and control of the full-ideal Rees divisors do not individually bound every boundary defect. Conversely, local Delta torsion does not automatically produce a global residual curve. The missing step is a comparison with the **actual homogeneous equation source**, rather than arbitrary formal normal symbols; see [boundary repair and lifting](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#boundary-repair-global-lifting).
+
+This guide is editorial integration of retained source arguments, not a new independent audit or promotion.
+
+---
+
+
 Permanent subject consolidation of historical mathematical investigations. Full mathematical details, substantive failed approaches, hypotheses and review qualifications are retained; this is not theorem promotion.
 
 
