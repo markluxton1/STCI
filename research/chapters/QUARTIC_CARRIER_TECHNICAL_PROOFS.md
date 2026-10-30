@@ -268,3 +268,64 @@ T_1&=x_3-(a+b)(a^2+b^2)x_1+ab(a^2+ab+b^2)x_0.
 After removing the common factor \((t-as)(t-bs)\), their restrictions are \(s(t+(a+b)s)\) and \(t^2+(a+b)st+(a^2+ab+b^2)s^2\). For a secant through infinity, \(T_0=x_1-ax_0\), \(T_1=x_2-a^3x_0\), with residual quadrics \(s^2\) and \(t^2+ast+a^2s^2\). The exact executable identity check is [verify_session_genus_two_line_positions_2026_10_10.m2](../computations/verify_session_genus_two_line_positions_2026_10_10.m2).
 
 A useful limitation: three intersections of \(C\) with \(\Gamma\) do **not** automatically produce three branch points of the residual degree-two conductor cover. Horizontal components can be connected to the strict curve by ADE chains and contracted, identifying points downstairs. The separate all-length chain arguments must be used instead of naive branch counting. Also, the adjoint pencil argument gives \(h^0(M,-K_M)=1\), not \(h^0(M,-nK_M)=1\) for every \(n\); the mate correction may have fractional coefficients.
+
+
+## 16. Bisection fiber counts: integral descent and the three-center obstruction
+
+**Scope:** characteristic-zero genus-two bisection under the second-pencil reduction, not an unrestricted STCI statement. On the four-blowup model \(M\to V\), let \(F_t\) be the **entire** fiber, \(k_t\) the number of centers over it, and \(R_t\) the relative canonical contribution. The exact correction is
+\[
+Z_t=\tfrac{k_t}{2}F_t-R_t,\qquad c\cdot Z_t=k_t,\qquad \sum_t k_t=4.
+\]
+Every positive component of \(Z\) is a vertical exceptional \((-2)\)-curve. Positivity of intersections and \((c+Z)\cdot E=0\) show that its positive support contains **whole connected exceptional graphs**, not arbitrary subgraphs.
+
+**Even-count exclusion (proved under these inputs).** If \(k_t>0\) is even, \(Z_t\) is an integral divisor. Over a singular point \(p\) in its support, \(N=\mathcal O_M(c+Z_p)\) has degree zero on every exceptional component. Rationality of the singularity and the line-bundle descent theorem imply \(N=\sigma^*P\) for an invertible \(P\) near \(p\). On the punctured neighborhood \(P\) agrees with the reflexive divisorial sheaf \(\mathcal O_S(c_S)\), hence the two agree everywhere. The embedded smooth \(c_S\) is thus Cartier at \(p\). But a smooth Cartier curve through a surface point forces that surface point regular, contradicting the nonempty exceptional fiber. Therefore no positive even \(k_t\) occurs; the partitions \([4]\), \([2,2]\), and \([2,1,1]\) are excluded. This is stronger than a mere local class-group torsion argument; the **rational-singularity descent hypothesis** is essential. [Detailed integral descent proof](../notes/2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md).
+
+**Three-center exclusion (conditional on the same geometric inputs; source originally awaited a separate parent audit).** The nef-anticanonical rational pencil on \(V\) has three possible entire-fiber types: an irreducible smooth component of square zero; a reduced chain with two \((-1)\) ends; or a nonreduced tree with one multiplicity-two \((-1)\) component, two multiplicity-one leaves, and a possibly empty multiplicity-two tail. A blowup of an old \((-2)\) component is forbidden by nefness. For \(k_t=3\), every old \((-1)\) must be hit exactly once, an old square-zero component exactly twice, and a positive-coefficient new exceptional component must finish with square \(-2\). At each new center,
+\[
+\operatorname{coeff}_{E}(Z_t)=\tfrac32\operatorname{mult}_{E}(F_t)-\operatorname{coeff}_{E}(R_t).
+\]
+These rules leave exactly the following configurations:
+
+| Original \(V\)-fiber | Forced positive exceptional graph | Obstruction |
+| --- | --- | --- |
+| Irreducible | \(A_3\) chain, coefficients \(3/2,1,1/2\) | The strict curve has intersection two with the same connected exceptional graph, not one transverse contact |
+| Reduced | \(D_4\) star, central coefficient \(2\), leaves \(3/2,3/2,1\) | The strict curve meets both original \((-1)\) ends in one connected graph |
+| Nonreduced | \(D_n\), \(n\ge5\), with contact component coefficient \(3\); shortest \(D_5\) correction \(3A+\frac32(B_1+B_2)+2E_1+E_2\) | No positive **integral anti-nef uniformizer cycle** can have coefficient one at the contact component |
+
+The nonreduced case is a substantive near-counterexample to a purely numerical argument: the rational correction is effective and satisfies intersection equations. The obstruction uses a genuine local uniformizer of the smooth downstairs curve. An integral anti-nef cycle with contact coefficient one propagates coefficient one along the \((-2)\) long arm; at the trivalent fork, anti-nefness would demand \(2\ge1+1+1\), impossible. Thus the three-center partition \([3,1]\) is excluded **within the conditional argument**, leaving only \([1,1,1,1]\). Preserve the source's exhaustive center-history proof and status distinction: [three-center fiber analysis](../notes/2026-10-10-session-genus-two-bisection-three-blowup-fiber-exclusion.md).
+
+## 17. Trisecant carrier ideal and discriminant boundary
+
+For a finite trisecant \(\Gamma_a=(z,w)\), set \(u=x_0\), \(v=x_1\), \(z=x_2-ax_0\), \(w=x_3-ax_1\), \(q=uw-vz\), and
+\[
+T_a=z^3+auz^2-vw^2
+=(x_2^3-x_1x_3^2)-2a(x_0x_2^2-x_1^2x_3)+a^2(x_0^2x_2-x_1^3).
+\]
+The **entire homogeneous ideal**, not merely its radical or degree-four component, is
+\[
+I(C)\cap I(\Gamma_a)^2=(qz,qw,T_a).
+\]
+On the smooth quadric \(q\), the cubic \(T_a\) cuts \(C+2\Gamma_a\). Subtracting its multiple from any section vanishing along \(C\) and twice along \(\Gamma_a\) leaves a multiple of \(q\), whose quotient must lie in \((z,w)\). Alternatively the three generators are maximal minors of
+\[
+\begin{pmatrix}
+w&z^2+auz\\ -z&-vw\\0&-q
+\end{pmatrix}.
+\]
+The quartics through \(C\) and double along \(\Gamma_a\) therefore have the exact form
+\[
+F=qQ+T_aL_0,\quad Q\in(z,w)_2,\quad L_0\in k[x_0,x_1,x_2,x_3]_1,
+\]
+an **11-dimensional** space (seven dimensions for \(q(z,w)_2\), four for \(T_aR_1\)). Their divisor on \(q\) is \(C+2\Gamma_a+(q\cap V(L_0))\); the residual conic may split.
+
+**Conditional reduced-discriminant obstruction.** Under the normal ambient blowup/conductor identification, a mate forces the quadratic conductor discriminant to vanish at every \(C\cap\Gamma_a\) contact. For the generic trisecant \(\Gamma_1\), write the first normal quadratic part of \(F\) as \(A_2z^2+B_2zw+C_2w^2\), with
+\[
+A_2=-v\alpha+u\ell,\quad B_2=u\alpha-v\beta,\quad C_2=u\beta-v\ell,
+\]
+where \(\alpha=a_0u+a_1v\), \(\beta=b_0u+b_1v\), \(\ell=c_0u+c_1v\). At \(r=v/u\), \(r^3=1\), the discriminant is the square \((\alpha(1,r)+r\beta(1,r)-2r^2\ell(1,r))^2\). Vanishing at all three contacts gives
+\[
+a_0=2c_1,\quad a_1=-b_0,\quad b_1=2c_0,\qquad
+\Delta=4(v^3-u^3)[(c_0^2+b_0c_1)v+(b_0c_0-c_1^2)u].
+\]
+When \(\Delta\ne0\), a horizontal exceptional section in the correction forces a double root of \(\Delta\), so the three contact roots allow only one such section. Normalizing its contact to \(r=1\) gives \(\Delta=4\kappa(v^3-u^3)(v-u)\) with \(\kappa=c_0^2-c_0c_1+c_1^2\ne0\). The residual conductor meets the horizontal section in two ordinary nodes. Their ADE resolutions yield at most two \(A_n\) arms. The exceptional correction coefficient at the horizontal section is one, but the adjacent chain coefficients cannot satisfy the required intersection equation: without a curve contact an arm contributes \(n/(n+1)<1\), and with one contact it contributes \(n/(n+1)+(n+1-j)/(n+1)<2\). This excludes the **generic-trisecant, nonzero-discriminant** branch under the stated model hypotheses.
+
+**Unresolved boundaries:** \(\Delta\equiv0\), where the residual conductor may be nonreduced; the two endpoint trisecants; and the bisecant lane. Neither the ordinary-node argument nor a three-distinct-contact condition extends automatically to these. The [complete carrier-ideal and conditional discriminant derivation](../notes/2026-10-10-session-genus-two-trisecant-quartic-carriers.md) remains useful for its scheme-theoretic proof.
