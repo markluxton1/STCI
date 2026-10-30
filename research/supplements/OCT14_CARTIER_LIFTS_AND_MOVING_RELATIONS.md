@@ -268,7 +268,7 @@ presentations. In positive characteristic the factor multiplicity
 
 Date: 2026-10-14. Reviewer: root. Status: **PROVED under the stated exact
 rank hypotheses**. This reviews the new abstract theorem in
-[the polynomial-dual note](generalization-localcoh-dual-lemma.md), not
+[the polynomial-dual note](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md#source-generalization-localcoh-dual-lemmamd), not
 any previously accepted tensor computation.
 
 For a field `K`, consider `L(lambda)=(lambda I_q+A; B)` with
