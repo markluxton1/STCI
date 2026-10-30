@@ -78,7 +78,19 @@ A completed theorem can supersede the **open status** of an earlier subcase with
 
 For present-day research decisions, use [STATE](../STATE.md) and [FRONTIER](../FRONTIER.md), rather than the old case labels. The independent [degree-(4,4) exclusion R-0022](../results/quartic_44_filtered_exclusion.md) is narrower than R-0001 and does not reopen quartic carriers. For residual intersections of arbitrary surfaces, see [residual intersections and jets](residual_intersections_and_jets.md): a quartic surface can appear in a proper intersection with residual curves without contradicting the STCI exclusion.
 
-## 5.6 Relation to the other chapters
+## 5.6 Why the newer methods are not additional exclusions
+
+The Phase 3 integration adds several precise tools, but does not extend the degree bound of R-0001. Their quantifiers differ:
+
+- The residual-jet theorem R-0025 forces positive residual degree for mates to **one prescribed sextic**, not every sextic or every carrier of degree at least five.
+- The characteristic-two family R-0021 gives sole reduced support in characteristic two, while its characteristic-zero generic fiber has four components. The prescribed arithmetic nonlifting theorem R-0012 concerns that embedded special scheme and two specified bases, not arbitrary characteristic-zero pairs.
+- The local filtered comparison R-0030 and conormal/socle results R-0032–R-0033 have stated saturation, defect or equality hypotheses. They do not establish a common singular point for every hypothetical STCI pair.
+- The flag, dual and ruled models R-0026–R-0029 are proved for specified marked constructions. Their endpoint corrections are not automatically singularities of both equations in an arbitrary pair.
+- The reviewed October 27 fixed-lower determinant test characterizes **proper** degree-compatible pairs with sole support once a lower embedded thickening is fixed. It is an exact conditional existence test, not proof that the required pair or lower scheme exists.
+
+These results sharpen the *interfaces* to the open problem. A new exclusion requires either a family-level bound covering all candidates under its hypotheses or a genuine global incompatibility theorem. See the [dependency map](DEPENDENCIES.md) and [frontier](06-frontier.md).
+
+## 5.7 Relation to the other chapters
 
 The quartic exclusion uses global geometry of **carriers**, including normalizations and conductor corrections, and so is most directly related to [Chapter 4](04-carriers.md). The common-normal-factor and jet analyses of [Chapters 2](02-two-surfaces.md) and [3](03-infinitesimal-geometry.md) offer different necessary conditions and structural tools. Their unfinished cases do not weaken the quartic theorem; nor does the quartic theorem settle their more general questions for carriers of degree at least five.
 
