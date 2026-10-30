@@ -229,3 +229,12 @@ These supplements preserve seven complete historical mathematical sources, inclu
 
 - [One-step boundary obstruction and endpoint scope](supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md)
 - [Endpoint-four actual sextic constructions](supplements/ENDPOINT_FOUR_ACTUAL_SEXTICS.md)
+
+## Early October foundational mathematics (October 5–6)
+
+- [E2 obstruction, primitive structures and quartic incidence](supplements/E2_PRIMITIVE_QUARTIC_INCIDENCE.md)
+- [Local cohomology, directions and apolarity](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md)
+- [Normal and primitive carriers and bounds](supplements/NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS.md)
+- [Multiplicity, mixed (4,6) and MF6](supplements/MULTIPLICITY_MIXED46_AND_MF6.md)
+- [Residual cycles and split configurations](supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md)
+- [Foundational frontier and incidence](supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md)
