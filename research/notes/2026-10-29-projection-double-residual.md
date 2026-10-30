@@ -3,8 +3,7 @@
 October 29, 2026. Author: `projection_audit`, continuing the independent
 review with a new exact incidence calculation. Status: **independently
 reviewed provisional scoped exclusion**; see
-[the geometry review](2026-10-29-projection-double-residual-audit.md) and
-[the separate binary-incidence review](2026-10-29-projection-double-residual-independent-review.md).
+[the independent geometric and binary-incidence review](2026-10-29-projection-double-residual-independent-review.md).
 The ambient sixteen-parameter locus remains open.
 
 ## Literal stratum and claim

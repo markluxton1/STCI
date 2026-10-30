@@ -309,4 +309,10 @@ failure on the zero-determinant stratum, and the residual ruling/contact
 calculation. They apply to this complete marked smooth-quadric source,
 with basepoint freedom retained. They do not apply to the cone or plane
 normalization sources and do not establish unrestricted STCI
-nonexistence. Independent review of this note remains required.
+nonexistence. The determinant, differential and conditional passport
+arguments are independently reconstructed in
+[the projection audit](2026-10-29-projection-locus-audit.md).
+Later [boundary exclusions](2026-10-29-projection-m2-boundary.md) and
+[the smooth residual audit](2026-10-29-projection-m2-doublecover-audit.md)
+strengthen the surviving order-two description without deleting these
+earlier proofs.

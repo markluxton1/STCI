@@ -1,13 +1,14 @@
 # Projection, mixed-weight contact, and arithmetic search continuation
 
-October 29, 2026. Status: **synthesis of reviewed provisional contributions**.
+Started October 29, continued October 30, 2026.
+Status: **synthesis of reviewed provisional contributions**.
 This is not a canonical result or a claim that all three requested endpoints
 have been completed. The full marked-quadric admissible locus and descent on
 its surviving strata remain uncomputed.
 
-This continuation uses the existing branch
+The initial continuation used the existing branch
 codex/intersections-containing-quartic-2026-10-27, starting from commit
-9238210. Proofs, audits and computations are retained as local changes.
+9238210. Subsequent delivery history is recorded in Git.
 
 Throughout, \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\). Characteristic
 zero is understood in the projection and mixed-weight sections; the
@@ -17,8 +18,8 @@ The unrestricted characteristic-zero STCI question remains open.
 
 | Requested direction | Completed result | Exact remaining limit |
 | --- | --- | --- |
-| Admissible marked smooth-quadric projections and descent | Determinant orders reduced to one and two; several complete coefficient slices and residual-divisor strata excluded | The remaining order-one/order-two parameter incidence is not solved. No admissible surviving stratum has been supplied for a conductor or pure-power descent calculation |
-| Global contact in an explicit mixed-weight family | The complete \((6,6)\) contact-nine incidence is empty for every nonzero pair of seed parameters | Higher mate degrees, including sixteen, and other carrier families remain untested |
+| Admissible marked smooth-quadric projections and descent | The order-two residual boundary and its double-image case are excluded; a primitive smooth elliptic incidence remains, with further global support exclusions. Several complete order-one slices are excluded | The general order-one and remaining primitive elliptic parameter incidences are not solved. No actual admissible stratum has been supplied for a completed descent calculation |
+| Global contact in an explicit mixed-weight family | Four actual ruling lines exclude every positive mate degree on the entire nonzero seed. A uniform line argument excludes the squarefree axis-free part of a larger graded subalgebra in every degree | Repeated or axis-root binary boundaries and arbitrary ambient coefficient spaces remain outside the larger theorem |
 | Arithmetic obstruction beyond binomial carriers | A higher-jet obstruction forces \(p\mid b\) on a specified 23-parameter source; explicit two-non-binomial \((16,p)\) pairs attain the bound for every prime \(p\ge43\) | This is a restricted-source minimum. There is no reduction of arbitrary pairs to this source and no all-pairs growing lower bound |
 
 ## 1. Projection: computed exclusions and the unresolved incidence
@@ -49,7 +50,7 @@ The [projection calculations](2026-10-29-projection-locus.md) exclude:
 The entire order-two **square residual** stratum \(D=2R\), for every
 effective divisor \(R\) of type \((1,1)\) distinct from \(c\), is also
 excluded by the [double-residual calculation](2026-10-29-projection-double-residual.md)
-and its [independent audit](2026-10-29-projection-double-residual-audit.md).
+and its [independent audit](2026-10-29-projection-double-residual-independent-review.md).
 For smooth \(R\), the image would be an integral \((3,1)\) curve on the
 target quadric meeting \(C_0\) in at most two points. The exact binary-form
 restriction calculation rules that out. Reducible \(R\) forces an
@@ -71,6 +72,31 @@ the support of \(D\cap c\), with no component mapping into \(C_0\).
 The first-normal derivative-zero boundary is a four-dimensional symmetric
 source and cannot be birational.
 
+The [complete order-two boundary proof](2026-10-29-projection-m2-boundary.md)
+now excludes every singular, reducible and nonreduced \(D\).
+The [smooth-residual audit](2026-10-29-projection-m2-doublecover-audit.md)
+also excludes the degree-two residual image from birational admissibility.
+The remaining \(D\) is a smooth elliptic curve mapped birationally to
+a target curve of class \((6,2)\). Its two ruling functions have reduced,
+pairwise disjoint zero and pole divisors. The degree-twenty function
+\(B^3/A\) has passports \((3^6,1^2)\) over zero and infinity and four
+points over one, with no other branch values.
+
+The [order-two survivor record](2026-10-30-projection-order-two-survivor.md)
+states the remaining target equation and actual global extension tests.
+The [new support obstruction](2026-10-30-projection-elliptic-target-incidence.md)
+and its independent audit exclude the whole locus where the marked
+four-point support quartic has zero middle coefficient. This works for
+every distribution of the twenty contact orders. It also preserves an
+explicit elliptic target incidence that fails the global source extension.
+The balanced-contact coefficient computations beyond this locus remain
+partial; the unfinished charts are labelled in that record.
+
+In order one, the [additional uniform calculations](2026-10-29-projection-order-one.md)
+exclude a full four-parameter family, a nine-parameter endpoint family,
+and the complete triple-residual boundary. These do not exhaust the
+residual \((3,3)\) incidence.
+
 These are necessary strata and completed exclusions, not an evaluation
 of the full sixteen-parameter admissible locus. The
 [independent projection audit](2026-10-29-projection-locus-audit.md)
@@ -82,7 +108,7 @@ admissible stratum the next descent equation remains
 There is no surviving admissible stratum identified here on which this
 all-degree descent problem has been completed.
 
-## 2. Mixed-weight contact: the bounded endpoint is empty
+## 2. Mixed-weight contact: an all-mate-degree obstruction
 
 Put \(q=x_0x_3-x_1x_2\), \(c_0=x_1^3-x_0^2x_2\),
 \(c_2=x_2^3-x_1x_3^2\), and take
@@ -90,24 +116,43 @@ Put \(q=x_0x_3-x_1x_2\), \(c_0=x_1^3-x_0^2x_2\),
 F_{\alpha,\beta}=q^3+\alpha c_0^2+\beta c_2^2,\qquad
 \alpha\beta\ne0.
 \]
-The [complete incidence calculation](2026-10-29-mixed-weight-contact.md)
-proves that every member is integral and every proper actual sextic
-mate satisfies
-\[
-m_C\le8,\qquad \deg R=36-4m_C\ge4.
-\]
-Thus the required length-nine \((6,6)\) incidence is empty. Attainment
-of the bound eight is not asserted.
+The [earlier exact incidence calculation](2026-10-29-mixed-weight-contact.md)
+proved integrality and exhausted the complete degree-six mate space.
+The [new four-line argument](2026-10-30-mixed-weight-line-obstruction.md)
+and its [independent audit](2026-10-30-mixed-weight-line-obstruction-audit.md)
+now exclude a mate of **every positive degree** on this entire family.
 
-The generic node splits. The calculation therefore controls both
-branch orders separately, including asymmetric contact: branch order
-at least five forces a global sextic to be a scalar multiple of \(F\).
-It retains all 84 global coefficients. The parameter remains symbolic
-over \(\mathbf Q[h]\); two exact finite schemes for the curve coordinate
-eliminate all exceptional parameter roots left by the first rank test.
-The [independent proof and verifier](2026-10-29-mixed-weight-contact-audit.md)
-confirm the uniform conclusion. This does not compute degree-sixteen
-mates on this family.
+After torus normalization to \(F_h=hq^3+c_2^2-c_0^2\), the target
+quadric cuts out \(C_0\) twice and four actual ruling lines. Each line
+meets \(C_0\) at three simple nonendpoint points and attaches to one of
+the two normalization branches. A hypothetical degree-\(b\) mate with
+branch orders \(r,s\) would satisfy
+\[
+b=3r=3s,\qquad 6b=4(r+s),
+\]
+which are incompatible. A proper containing pair with contact
+\(r+s>2b/3\) must instead contain both actual lines attached to at least
+one branch as genuine residual components.
+
+There is a uniform enlargement. The
+[graded-subalgebra theorem](2026-10-30-weighted-subalgebra-line-obstruction.md),
+with its [all-\(m\) independent audit](2026-10-30-weighted-subalgebra-line-audit.md),
+excludes every mate of every actual equation
+\[
+F=\sum_{i=0}^{\lfloor m/2\rfloor}q^{3i}B_{m-2i}(c_0,c_2),\qquad
+\deg F=3m,
+\]
+when \(B_m\) is squarefree and has no axis root. All lower binary forms
+are arbitrary and carrier integrality is not assumed. Its \(m\) generic
+branches each have two attached actual lines; a hypothetical mate would
+give \(b=3r_j\) for every branch and \(3mb=4\sum r_j\), again impossible.
+The remaining search in this subalgebra must enter the repeated-root
+or axis-root boundary. Arbitrary ambient forms are not covered.
+
+The earlier 84-column, symbolic-parameter jet certificate and
+[its audit](2026-10-29-mixed-weight-contact-audit.md) remain retained.
+At \((6,6)\) they independently give \(m_C\le8\), hence \(\deg R\ge4\).
+Their fixed-degree scope is not silently enlarged by the later line proof.
 
 ## 3. Arithmetic: a larger source with attained degree growth
 

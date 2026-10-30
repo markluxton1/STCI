@@ -1,0 +1,13 @@
+BALANCED_TARGET_SOURCE_BUILT
+TARGET_COEFFICIENT_DEGREES={{6, 5}, {6, 5}, {6, 5}}
+REMAINDER_EQUATION_COUNT=8
+REMAINDER_TOTAL_DEGREES={13, 13, 13, 13, 13, 13, 13, 12}
+EQUATION_TERM_COUNTS={126, 187, 335, 378, 445, 366, 319, 228}
+SQUARE_DIVISIBILITY_INCIDENCE_READY
+           2
+(12, - 15pa  - 20pb)
+            5        3             2        2
+(11, - 354pa  - 780pa pb - 420pa*pb  - 120pa pc - 180pb*pc - 30pa)
+           8        6           4  2         5           2  3         3              4        4            2          2  2         2             2        2
+(10, - 15pa  - 780pa pb - 3000pa pb  - 1770pa pc - 2640pa pb  - 4680pa pb*pc - 1770pa  - 120pb  - 2940pa*pb pc - 420pa pc  - 2340pa pb - 720pb*pc  - 420pb  - 240pa*pc - 15)
+| 3pa^2+4pb 28pb^3-45papbpc+90pb 14papb^2+30pbpc+45pa |

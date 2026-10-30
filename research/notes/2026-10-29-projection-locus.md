@@ -1,9 +1,10 @@
-# Marked quadric projection: two completed empty loci and the remaining incidence
+# Marked quadric projection: computed empty strata and the remaining incidence
 
-October 29, 2026. Status: **provisional exact exclusions of the two literal
-families below**. This note does not claim to have computed the full
-sixteen-parameter admissible locus. Independent review is required before
-using these as accepted results.
+October 29, 2026. Status: **reviewed provisional exact exclusions of the
+literal strata below**, with the
+[independent audit](2026-10-29-projection-locus-audit.md).
+This note does not claim to have computed the full sixteen-parameter
+admissible locus and is not a canonical promotion.
 
 ## Source and authority
 
