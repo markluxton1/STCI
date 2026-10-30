@@ -307,7 +307,7 @@ STRUCTURAL REDUCTION; independent review passed** in the
 [written review](2026-10-14-generalization-projection-contact-phase-independent-review.md).
 This uses the
 accepted [Cartier-lift classification](2026-10-14-generalization-cartier-lift-independent-audit.md),
-[full conductor theorem](2026-10-13-generalization-conductor-theorem.md),
+[full conductor theorem](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-conductor-theoremmd),
 and [transverse differential theorem](2026-10-14-generalization-transverse-socle-independent-audit.md)
 as premises. None of their certificates is rerun. The result below
 reduces residual function-field torsion to projective intersection
@@ -712,7 +712,7 @@ replacement for that false inference.
 
 ## 8. A deliberately preserved failed global phase construction
 
-The [opposite-ruling normal form](2026-10-14-quadric-opposite-ruling-phase-normal-form.md)
+The [opposite-ruling normal form](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-quadric-opposite-ruling-phase-normal-formmd)
 gives the entire coefficient family for the specified pairing
 `(x,0)<->(0,a x)` through one diagonal point. It retains arbitrary
 four-vectors `D,E`; its branchwise phase is `a^(-2)`. This is a
@@ -971,7 +971,7 @@ and conductor results are used without reruns.
 
 ## 1. The finite-dimensional projection spaces
 
-The [Cartier-lift theorem](2026-10-14-generalization-cartier-lift-minimal-degree.md)
+The [Cartier-lift theorem](OCT14_CARTIER_LIFTS_AND_MOVING_RELATIONS.md#source-2026-10-14-generalization-cartier-lift-minimal-degreemd)
 leaves three fixed-C0 models after accepted quartic exclusion:
 
     smooth quadric, H=(2,2), c=(1,1);
@@ -1155,7 +1155,7 @@ next structural target. No mate-power search has been started.
 Date: 2026-10-14. Owner: `phase_family_constructibility`.
 Status: **NEW STRUCTURAL REDUCTION; independent review pending.** No inherited
 certificate has been rerun. The accepted
-[full conductor theorem](2026-10-13-generalization-conductor-theorem.md) and
+[full conductor theorem](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-conductor-theoremmd) and
 [projection/contact reduction](2026-10-14-generalization-projection-contact-phase-criterion.md)
 are premises. The reduction does not prove that the remaining fixed-C0
 projection families contain any mate, or exclude them. It replaces the search
