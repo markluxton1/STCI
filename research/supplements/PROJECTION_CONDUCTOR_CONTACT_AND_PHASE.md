@@ -14,7 +14,7 @@ STRUCTURAL THEOREM; independent review requested**. The accepted
 [projective contact criterion](2026-10-14-generalization-projection-contact-phase-criterion.md),
 and its uniform fiber-degree bound are premises, not computations to replay.
 The new input is the actual canonical conductor ideal from the
-[conductor--Jacobian bridge](2026-10-14-generalization-projection-conductor-jacobian-bridge.md).
+[conductor--Jacobian bridge](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-generalization-projection-conductor-jacobian-bridgemd).
 
 ## 1. General theorem
 
@@ -184,7 +184,7 @@ No accepted certificate was rerun and no large CAS job was launched.
 # Independent review of the canonical conductor contact budget
 
 Date: 2026-10-14. Reviewer: `projection_global_continue`. Scope: the new proofs in
-[the conductor--Jacobian bridge](2026-10-14-generalization-projection-conductor-jacobian-bridge.md)
+[the conductor--Jacobian bridge](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-generalization-projection-conductor-jacobian-bridgemd)
 and [the conductor contact budget](2026-10-14-generalization-projection-conductor-contact-budget.md).
 Status: **PASS under the stated Gorenstein, smooth Cartier-lift, full-support,
 and generic-regularity hypotheses**. The accepted Cartier-lift classification,
