@@ -9,7 +9,7 @@ This subject supplement preserves the full mathematical content of the source in
 
 # An actual smooth genus-sixteen residual with moving contact points
 
-Date: 2026-10-25. Status: exact coordinate benchmark, independently audited and unpromoted. This supplies the explicit general-type example proposed in the [deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md), and a concrete test for the [adaptive valuative notebook](2026-10-25-ci-cycle-adaptive-valuative-notebook.md). The underlying complete-intersection geometry is discussed in the [main notebook](2026-10-25-ci-cycle-geometry-notebook.md). No canonical result changes.
+Date: 2026-10-25. Status: exact coordinate benchmark, independently audited and unpromoted. This supplies the explicit general-type example proposed in the [deformation laboratory](#2026-10-25-ci-cycle-deformation-laboratorymd), and a concrete test for the [adaptive valuative notebook](CI_CYCLE_ADAPTIVE_FRONTIER.md#2026-10-25-ci-cycle-adaptive-valuative-notebookmd). The underlying complete-intersection geometry is discussed in the [main notebook](#2026-10-25-ci-cycle-geometry-notebookmd). No canonical result changes.
 
 The example is over \(\mathbf Q\), with geometric conclusions after passing to an algebraic closure. It is a single actual pair of homogeneous quartics. The exact computation does not classify all quartic pencils or assert anything about arbitrary equation degrees.
 
@@ -141,7 +141,7 @@ The benchmark uses \(a=2,b=3\). Its determinant has degree 18, constant coeffici
 
 The [independent standard-library verifier](../computations/verify_ci_smooth_residual_boundary_2026_10_25.py) constructs the actual homogeneous equations, differentiates them in the normal coordinates, and independently checks (3), degree 18, endpoint absence, and the exact Euclidean gcd. Its [JSON output](../computations/ci_smooth_residual_boundary_2026_10_25.json) records the result. That script checks the boundary; the Macaulay2 calculation separately checks the entire residual curve.
 
-In the terminology of the [valuative contact-cycle note](2026-10-25-ci-cycle-valuative-contact-cycle.md), if \(R=[D]\), then
+In the terminology of the [valuative contact-cycle note](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-contact-cyclemd), if \(R=[D]\), then
 
 \[
 M_C(W)=B_C^{\mathrm{val}}(R)
@@ -187,7 +187,7 @@ Run from the repository root:
 python3 research/computations/verify_ci_smooth_residual_boundary_2026_10_25.py
 ```
 
-The rational Macaulay2 suite took about 1.1 seconds in the recorded environment. Its largest individual test was the residual Jacobian saturation, about 0.4 CPU seconds. The initial smaller smooth pair received a separate independent rational computation; the final endpoint-free pair and its geometric interpretation are covered by the [independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md).
+The rational Macaulay2 suite took about 1.1 seconds in the recorded environment. Its largest individual test was the residual Jacobian saturation, about 0.4 CPU seconds. The initial smaller smooth pair received a separate independent rational computation; the final endpoint-free pair and its geometric interpretation are covered by the [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-smooth-residual-auditmd).
 
 The present benchmark completes the proposed explicit smooth-residual experiment. It leaves open the topology of fixed-boundary fibers and any universal positive-residual assertion. The failed line-containing pair suggests a next experiment in which the genus 16 residual breaks into a line and a degree 11 curve, with possible genus carried by their gluing; that interpretation should be checked before use.
 
@@ -199,7 +199,7 @@ The present benchmark completes the proposed explicit smooth-residual experiment
 
 # Deformation laboratory for complete intersections through the fixed quartic
 
-Date: 2026-10-25. Status: exploratory contribution to the [main notebook](2026-10-25-ci-cycle-geometry-notebook.md). New calculations below are provisional research evidence; no canonical theorem or frontier record changes. The elementary calculations have reproducible scripts; the [independent audit](2026-10-25-ci-cycle-exploration-audit.md) separately reconstructs the deformation argument and exact global-source differential rank.
+Date: 2026-10-25. Status: exploratory contribution to the [main notebook](#2026-10-25-ci-cycle-geometry-notebookmd). New calculations below are provisional research evidence; no canonical theorem or frontier record changes. The elementary calculations have reproducible scripts; the [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-exploration-auditmd) separately reconstructs the deformation argument and exact global-source differential rank.
 
 Throughout the main discussion, \(k\) is algebraically closed of characteristic zero,
 
@@ -391,7 +391,7 @@ A useful next computation would choose a local 14-parameter slice to this fiber 
 
 ## Reproducible evidence and review scope
 
-**Continuation checkpoint.** The pending explicit-example experiment has now been completed in the [smooth residual benchmark](2026-10-25-ci-cycle-smooth-residual-example.md), with a [separate independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md). The actual rational pair has a smooth geometrically integral degree-12 genus-16 residual and eighteen simple attachments, none at the distinguished endpoints. The original scripts below retain their narrower scopes; the new benchmark has its own certificates.
+**Continuation checkpoint.** The pending explicit-example experiment has now been completed in the [smooth residual benchmark](#2026-10-25-ci-cycle-smooth-residual-examplemd), with a [separate independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-smooth-residual-auditmd). The actual rational pair has a smooth geometrically integral degree-12 genus-16 residual and eighteen simple attachments, none at the distinguished endpoints. The original scripts below retain their narrower scopes; the new benchmark has its own certificates.
 
 Run from the repository root:
 
@@ -402,7 +402,7 @@ python3 research/computations/explore_ci_contact_deformations_2026_10_25.py
 
 The Python script checks the exact rational differential ranks, its support decomposition, and the displayed boundary of the asymmetric pencil. The Macaulay2 script checks the actual ideal generators, residual Hilbert polynomials, and one attachment length. Both passed on 2026-10-25. They do not classify all pencils, analyze every fixed-boundary fiber, or promote these observations.
 
-The [independent audit](2026-10-25-ci-cycle-exploration-audit.md) reconstructs the generic-smooth-residual explanation, determinant-map interpretation, and local-smoothness inference. They remain exploratory and unpromoted. There is no canonical authority gap for the prescribed four-component family itself: it is covered by STCI-R-0021. There is an authority distinction for the present deductions: these are exploratory unpromoted notes. No accepted mathematics is edited and no unrestricted frontier question changes.
+The [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-exploration-auditmd) reconstructs the generic-smooth-residual explanation, determinant-map interpretation, and local-smoothness inference. They remain exploratory and unpromoted. There is no canonical authority gap for the prescribed four-component family itself: it is covered by STCI-R-0021. There is an authority distinction for the present deductions: these are exploratory unpromoted notes. No accepted mathematics is edited and no unrestricted frontier question changes.
 
 
 
@@ -416,7 +416,7 @@ Date: 2026-10-25. **Status: exploratory research, with selective exact calculati
 
 The question is how to see the distinguished four-quartic intersection as a special configuration among complete intersections containing a marked curve. The most productive picture emerging here is that it **concentrates a fixed attachment boundary and a large amount of genus into two symmetric places**. That picture has several mathematical realizations, but each forgets something. We keep the competing viewpoints alive rather than choosing a universal order prematurely.
 
-**Clarified direction.** The broader aim is to show that every proper characteristic-zero hypersurface pair containing this fixed \(C\) has a nonzero residual cycle away from \(C\). Proximity to a multiple of \(C\) is the research tool, and its measure may depend on the pair being studied. The [adaptive valuative continuation](2026-10-25-ci-cycle-adaptive-valuative-notebook.md) develops this interpretation: generic transverse valuations, point valuations on \(C\), infinitely near points, and a valuative contact divisor provide complementary certificate types. It distinguishes the proposed universal goal from the local identities and examples currently established.
+**Clarified direction.** The broader aim is to show that every proper characteristic-zero hypersurface pair containing this fixed \(C\) has a nonzero residual cycle away from \(C\). Proximity to a multiple of \(C\) is the research tool, and its measure may depend on the pair being studied. The [adaptive valuative continuation](CI_CYCLE_ADAPTIVE_FRONTIER.md#2026-10-25-ci-cycle-adaptive-valuative-notebookmd) develops this interpretation: generic transverse valuations, point valuations on \(C\), infinitely near points, and a valuative contact divisor provide complementary certificate types. It distinguishes the proposed universal goal from the local identities and examples currently established.
 
 Throughout the characteristic-zero discussion, the field is algebraically closed. Statements about ordinary topology mean the complex fiber. Write
 \[
@@ -450,9 +450,9 @@ If \(D\) is smooth and the attachments are transverse, these are eighteen ordina
 \[
 33=0+16+18-1.
 \]
-This is the basic picture against which to compare \(Z\): a high-genus residual curve joined to \(C\) at eighteen separate places, versus three rational residual quartics whose attachments to \(C\) are concentrated at two places. The generic smoothness assertion is a new provisional geometric deduction, independently reviewed in this package. The ideal of \(C\) is generated in degrees at most three, so its blowup embeds as a graph in \(\mathbf P^3\times\mathbf P^6\). The Segre polarization restricts to \(4H-E\), which is very ample. Two general members give a smooth irreducible residual curve upstairs by Bertini. Simple boundary zeros, available by section 5, give transverse crossings of the exceptional divisor; blowdown preserves smoothness there and yields transverse attachments to \(C\). The [deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md) and [independent audit](2026-10-25-ci-cycle-exploration-audit.md) record the details. The subsequent [exact rational benchmark](2026-10-25-ci-cycle-smooth-residual-example.md), with its [independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md), now supplies a computed pair with all eighteen attachments away from \(p,q\).
+This is the basic picture against which to compare \(Z\): a high-genus residual curve joined to \(C\) at eighteen separate places, versus three rational residual quartics whose attachments to \(C\) are concentrated at two places. The generic smoothness assertion is a new provisional geometric deduction, independently reviewed in this package. The ideal of \(C\) is generated in degrees at most three, so its blowup embeds as a graph in \(\mathbf P^3\times\mathbf P^6\). The Segre polarization restricts to \(4H-E\), which is very ample. Two general members give a smooth irreducible residual curve upstairs by Bertini. Simple boundary zeros, available by section 5, give transverse crossings of the exceptional divisor; blowdown preserves smoothness there and yields transverse attachments to \(C\). The [deformation laboratory](#2026-10-25-ci-cycle-deformation-laboratorymd) and [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-exploration-auditmd) record the details. The subsequent [exact rational benchmark](#2026-10-25-ci-cycle-smooth-residual-examplemd), with its [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-smooth-residual-auditmd), now supplies a computed pair with all eighteen attachments away from \(p,q\).
 
-The [deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md) gives the actual section basis, a pencil that moves attachment points, and a calculation of the boundary map. The [Stacks Project Euler-characteristic lemma](https://stacks.math.columbia.edu/tag/0B9T) explains the general flat-family constancy behind this use of Hilbert polynomials; here the complete-intersection resolution gives the polynomial directly.
+The [deformation laboratory](#2026-10-25-ci-cycle-deformation-laboratorymd) gives the actual section basis, a pencil that moves attachment points, and a calculation of the boundary map. The [Stacks Project Euler-characteristic lemma](https://stacks.math.columbia.edu/tag/0B9T) explains the general flat-family constancy behind this use of Hilbert polynomials; here the complete-intersection resolution gives the polynomial directly.
 
 ## 2. A visible dissolution of an endpoint
 
@@ -521,7 +521,7 @@ The first-normal determinant for finite parameter is proportional to
 \]
 For \(a\ne4\), its divisor is exactly \(9p+9q\). At \(a=4\) it becomes identically zero: an attachment divisor for a generically simple marked component has ceased to be the right object. At infinity the divisor is again \(9p+9q\), despite the radically different residual cycle.
 
-This family is a useful warning and an invitation. Boundary concentration does not characterize the four-quartic arrangement. Conversely, equal boundary leaves room for interesting moduli and changes of multiplicity. The [root-pencil notebook](2026-10-25-ci-cycle-root-pencil.md) records the exact equations, exceptional parameters, and a reproducible verifier.
+This family is a useful warning and an invitation. Boundary concentration does not characterize the four-quartic arrangement. Conversely, equal boundary leaves room for interesting moduli and changes of multiplicity. The [root-pencil notebook](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-root-pencilmd) records the exact equations, exceptional parameters, and a reproducible verifier.
 
 ## 4. A hidden elliptic curve in the four branches
 
@@ -577,7 +577,7 @@ Thus near \(Z\) the boundary is locally a freely moving degree-18 divisor, and t
 
 **What might fail.** The boundary does not specify the number, genera, multiplicities, or higher contact data of residual components. Surjectivity does not assert that every arbitrarily chosen global boundary has a prescribed smooth residual realization, and it gives no multiplicity-four model on \(C\). Understanding topology inside a boundary fiber is a separate experiment.
 
-**Completed continuation, October 26.** At the [line-plus-degree-eleven residual member](2026-10-25-ci-cycle-line-degeneration.md), the boundary map is again smooth of rank eighteen. The [fixed-boundary smoothing experiment](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md) shows that its fourteen-dimensional local fiber controls all five residual node-smoothing parameters independently, with nine further tangent parameters. The exact ranks and formal/étale interpretation have [independent review](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md). Thus even the exact divisor, rather than only its degree, can be fixed while genus moves from residual gluing into residual normalization. An explicit polynomial coefficient arc is not part of that calculation.
+**Completed continuation, October 26.** At the [line-plus-degree-eleven residual member](#2026-10-25-ci-cycle-line-degenerationmd), the boundary map is again smooth of rank eighteen. The [fixed-boundary smoothing experiment](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd) shows that its fourteen-dimensional local fiber controls all five residual node-smoothing parameters independently, with nine further tangent parameters. The exact ranks and formal/étale interpretation have [independent review](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md). Thus even the exact divisor, rather than only its degree, can be fixed while genus moves from residual gluing into residual normalization. An explicit polynomial coefficient arc is not part of that calculation.
 
 ## 6. What exactly is compressed at the endpoints?
 
@@ -634,7 +634,7 @@ flowchart LR
   B -. "allow the prescribed C to disappear" .-> C
 ```
 
-**Geometric intuition.** Genus is being stored in different places: on normalization components, in graph loops, and in infinitesimal gluing. \(Z\) stores almost all of it in infinitesimal gluing. This seems closer to the user's intuition than total degree alone. The unit-quotient description and the characteristic-zero restriction are explained in the [conductor and topology notebook](2026-10-25-ci-cycle-conductor-topology.md), with [Bosch–Lütkebohmert–Raynaud, Jacobians of relative curves](https://math.arizona.edu/~cais/scans/BLR-Neron_Models/neron4.pdf) as a primary reference.
+**Geometric intuition.** Genus is being stored in different places: on normalization components, in graph loops, and in infinitesimal gluing. \(Z\) stores almost all of it in infinitesimal gluing. This seems closer to the user's intuition than total degree alone. The unit-quotient description and the characteristic-zero restriction are explained in the [conductor and topology notebook](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd), with [Bosch–Lütkebohmert–Raynaud, Jacobians of relative curves](https://math.arizona.edu/~cais/scans/BLR-Neron_Models/neron4.pdf) as a primary reference.
 
 ## 8. Is this an extremal amount of singularity?
 
@@ -692,7 +692,7 @@ Regard \(B(Z)\) as the degree-18 binary form \(s^9t^9\). In the usual \(\operato
 
 This is a compelling version of the guiding intuition. It is balanced between two equal concentrations, not spread uniformly over eighteen points. The root pencil shows why a boundary quotient should be only the first stage of a richer moduli problem.
 
-Two qualifications preserve the geometry. First, full \(\operatorname{PGL}_2\) forgets the specified four-dimensional hyperplane linear system defining the embedding \(C\subset\mathbf P^3\). The actual embedded automorphism group is smaller. Second, stable binary forms do not all have \(s^9t^9\) in their semistable orbit closure. This GIT observation does not order every complete intersection above \(Z\). See [Alper–Isaev, §5.2](https://sites.math.washington.edu/~jarod/papers/binary.pdf) and the [specialization notebook](2026-10-25-ci-cycle-specialization-proximity.md).
+Two qualifications preserve the geometry. First, full \(\operatorname{PGL}_2\) forgets the specified four-dimensional hyperplane linear system defining the embedding \(C\subset\mathbf P^3\). The actual embedded automorphism group is smaller. Second, stable binary forms do not all have \(s^9t^9\) in their semistable orbit closure. This GIT observation does not order every complete intersection above \(Z\). See [Alper–Isaev, §5.2](https://sites.math.washington.edu/~jarod/papers/binary.pdf) and the [specialization notebook](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-specialization-proximitymd).
 
 Under the actual torus fixing \(p,q\), plus endpoint exchange, \(9p+9q\) is the unique invariant effective divisor of degree eighteen. But it is not the unique torus-fixed complete-intersection pencil: the whole root pencil is torus invariant. This is a symmetry principle for a quotient of the geometry, with a substantial fiber still to understand.
 
@@ -761,7 +761,7 @@ Each can motivate a geometric classification on its own and may contribute to th
 ## 14. Next experiments, in a useful order
 
 1. **Explore the fourteen-dimensional boundary fiber.** Compute first deformations with \(\beta=9p+9q\) beyond the root pencil. Determine which retain four components, which change residual genus, and which change endpoint analytic types. Record the full residual schemes, not only the determinant. This tests what the boundary is concealing.
-2. **Compare explicit global deformation mechanisms.** The [exact rational benchmark](2026-10-25-ci-cycle-smooth-residual-example.md) completes the requested smooth degree-12 genus-16 example, with eighteen simple attachments away from both endpoints. Its intermediate failed candidate forces an additional residual line. Study how the line appears and how its attachments redistribute genus, rather than rerunning the completed smoothness check.
+2. **Compare explicit global deformation mechanisms.** The [exact rational benchmark](#2026-10-25-ci-cycle-smooth-residual-examplemd) completes the requested smooth degree-12 genus-16 example, with eighteen simple attachments away from both endpoints. Its intermediate failed candidate forces an additional residual line. Study how the line appears and how its attachments redistribute genus, rather than rerunning the completed smoothness check.
 3. **Resolve the endpoint arrangement with its marking.** Track the four points exposed by successive blowups and compare the configurations at \(p\) and \(q\). Determine the automorphism group of the generic root-pencil member and its enhancement at \(a=0\). Check which elliptic symmetries lift to the embedded curve configuration.
 4. **Separate boundary GIT from embedded GIT.** Study the image of \(\beta\) and the action of the actual stabilizer of \(C\). Determine whether the balanced boundary fiber has distinguished closed orbits after retaining higher symbols. Do not substitute the full \(\operatorname{PGL}_2\) action for the embedded one.
 5. **Compute the conductor algebra along a selected pencil.** Follow the thirty additive Picard directions and identify which become toric or abelian in a reduced deformation. This turns “genus compression” into a more concrete deformation question.
@@ -778,15 +778,15 @@ These are proposed experiments, not computations claimed complete. The first fou
 
 **New exploratory contributions:** the deformation parameter and boundary calculations; explicit partial dissolution; root pencil and auxiliary elliptic modulus; genus-storage comparison; selected competing arrangements; proposed orders and next experiments. These have the scope and uncertainty stated in their sections. The companion notebooks preserve derivations and primary literature links:
 
-- [Deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md).
-- [Conductor and topology](2026-10-25-ci-cycle-conductor-topology.md).
-- [Specialization and proximity](2026-10-25-ci-cycle-specialization-proximity.md).
-- [Root pencil and elliptic modulus](2026-10-25-ci-cycle-root-pencil.md).
-- [Independent audit](2026-10-25-ci-cycle-exploration-audit.md).
-- [Adaptive valuative continuation](2026-10-25-ci-cycle-adaptive-valuative-notebook.md), incorporating the clarified broader goal and cycle-dependent measures.
-- [Explicit smooth residual benchmark](2026-10-25-ci-cycle-smooth-residual-example.md) and [independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md).
-- [Line degeneration](2026-10-25-ci-cycle-line-degeneration.md) and [independent audit](2026-10-25-ci-cycle-line-degeneration-audit.md).
-- [Independent node smoothing at fixed boundary](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md) and [October 26 audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md).
+- [Deformation laboratory](#2026-10-25-ci-cycle-deformation-laboratorymd).
+- [Conductor and topology](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd).
+- [Specialization and proximity](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-specialization-proximitymd).
+- [Root pencil and elliptic modulus](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-root-pencilmd).
+- [Independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-exploration-auditmd).
+- [Adaptive valuative continuation](CI_CYCLE_ADAPTIVE_FRONTIER.md#2026-10-25-ci-cycle-adaptive-valuative-notebookmd), incorporating the clarified broader goal and cycle-dependent measures.
+- [Explicit smooth residual benchmark](#2026-10-25-ci-cycle-smooth-residual-examplemd) and [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-smooth-residual-auditmd).
+- [Line degeneration](#2026-10-25-ci-cycle-line-degenerationmd) and [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-line-degeneration-auditmd).
+- [Independent node smoothing at fixed boundary](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd) and [October 26 audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md).
 - [Completed endpoint-four sextic followup](2026-10-25-endpoint4-actual-sextics.md), including one explicit fixed-carrier residual bound, and [scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md).
 
 Run the new selective experiments from the repository root:
@@ -845,8 +845,8 @@ of degree twelve and genus sixteen, with eighteen simple attachments to
 [exact benchmark script](../computations/verify_ci_smooth_residual_example_2026_10_25.m2).
 This note investigates the initially unsuccessful choice \((1,1)\).
 The general deformation framework and its review are in
-[the laboratory](2026-10-25-ci-cycle-deformation-laboratory.md) and
-[the exploration audit](2026-10-25-ci-cycle-exploration-audit.md).
+[the laboratory](#2026-10-25-ci-cycle-deformation-laboratorymd) and
+[the exploration audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-exploration-auditmd).
 
 The canonical input [R0021](../results/quartic_mu4_degeneration.md)
 concerns the original prescribed \((F,G)\) family, not (1). All new finite
