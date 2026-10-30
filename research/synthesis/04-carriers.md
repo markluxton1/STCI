@@ -4,6 +4,8 @@ Chapters [2](02-two-surfaces.md) and [3](03-infinitesimal-geometry.md) treat bot
 
 The central issue is global: **does a divisor supported over \(C\) on the normalization of \(X\) descend to an actual hypersurface section of \(X\)?** The answer involves both divisor classes and conductor gluing.
 
+**Scope boundary.** The [bounded-index normal-carrier exclusion, R-0035](../results/normal_carrier_bounded_index_exclusion.md), assumes local Cartier indices at most four and inherited normal-carrier inputs. The [pointwise conductor/socle identity, R-0036](../results/pointwise_conductor_socle_defect.md), requires a single smooth Cartier inverse branch, smooth normalization along it, and an invertible conductor without that branch as a component. Neither is an unrestricted carrier classification.
+
 ## 4.1 Passing to the normalization
 
 Let \(\nu:S\to X\) be the finite normalization, and put
