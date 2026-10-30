@@ -57,3 +57,7 @@ Separates generic extra initial generators from isolated torsion cancellations, 
 
 ## Limitations
 Does not promote the characteristic-two O(-24) global identification or the filtered normal-Koszul spectral sequence. Does not decide whether a nonzero punctual defect exists under radical(J)=I and generic Delta=0. Counterexamples with residual support do not settle that question.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
