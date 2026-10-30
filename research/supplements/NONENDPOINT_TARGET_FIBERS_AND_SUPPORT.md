@@ -11,7 +11,7 @@ Permanent complete mathematical dossier, including projective boundary condition
 Date: 2026-10-12. Author: `oct12_restricted_conductor_section/residual_norm_identity`.
 
 Status: **EXACT COEFFICIENT IDENTITY, WITH A CAPTURED STANDARD-LIBRARY CHECK**.
-The auxiliary [diagonal norm note](2026-10-12-session-nonendpoint-diagonal-norm-identity.md)
+The auxiliary [diagonal norm note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#4-nonendpoint-diagonal-norm-identity)
 and its fifteen-check source remain frozen. No previously sealed file or
 canonical summary is edited here.
 
@@ -72,7 +72,7 @@ No canonical, previously sealed, or frozen owner file is edited.
 
 Work over an algebraically closed field of characteristic zero. Use the
 actual intrinsic pair and nonendpoint sections in the
-[target-fiber reduction](2026-10-12-session-nonendpoint-target-fiber-reduction-and-bounded-exclusions.md),
+[target-fiber reduction](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions),
 Sections 1--3. That note is frozen during its separate audit; this is a
 new continuation beyond its explicitly open G=J=0 lead.
 
@@ -370,7 +370,7 @@ characteristic zero, in the accepted intrinsic A4 quintic model. Retain
 `S`. Here `B=b-a`, `G=g-3b+2a`, and `J=d-2g+2b-a`; this `J` is the lift
 parameter, also denoted `Jbar`, rather than the first-normal cubic numerator.
 
-The [target-fiber reduction](2026-10-12-session-nonendpoint-target-fiber-reduction-and-bounded-exclusions.md)
+The [target-fiber reduction](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions)
 supplies the complete affine chart `S minus ell=A2(r,T)`, the actual sections
 `X0,...,X3`, and the embedded curve `c:T=0`, with parameter
 `z=(r-delta)/r`. The missing `r=infinity` point is the intrinsic A4 point
@@ -385,7 +385,7 @@ The accepted quintic full-support theorem makes
 contradicts that condition using actual fibers, including the quadratic
 transverse term `T^2`. It uses no first-normal length bound. The case
 `B=0`, namely `a=b=g=d`, is already excluded in Section 9 of the target-fiber
-reduction and its [independent audit](2026-10-12-session-nonendpoint-target-fiber-independent-proof-audit.md).
+reduction and its [independent audit](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#5-nonendpoint-target-fiber-independent-proof-audit).
 The new argument therefore treats `B!=0` without losing the `B=0` case.
 
 ## 2. The forced parameter and the projective degree boundary
@@ -926,7 +926,7 @@ SPECIALIZATION STATEMENTS**. The full nonendpoint family, the remaining
 quintic lanes, and the global STCI question remain open.
 
 The audited owner note is
-[target-fiber reduction and bounded exclusions](2026-10-12-session-nonendpoint-target-fiber-reduction-and-bounded-exclusions.md),
+[target-fiber reduction and bounded exclusions](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions),
 SHA-256 `c5c7b5b75babd6aa8881f2afc0489e2816f546bd79865e4e1e3458564abb7d5c`.
 It was read without modification. All owner execution-manifest source and
 stream hashes were checked against the actual files and matched. The
