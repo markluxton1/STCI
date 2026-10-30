@@ -28,7 +28,7 @@ carrier for C0 in every mate degree. Consequently every integral
 quartic with smooth normalization is excluded in every mate degree.
 
 The [owner proof](2026-10-09-session-normalization-sectional-genus-zero.md)
-and [independent audit](2026-10-09-session-normalization-genus-zero-independent-audit.md)
+and [independent audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-normalization-genus-zero-independent-auditmd)
 give an exhaustive classification from nef-big vanishing and
 Riemann--Roch: h0(H)=6, so the complete polarized normalization is a
 degree-four minimal-degree surface in P5. The possibilities are
@@ -84,8 +84,8 @@ singularities. Its minimal resolution is a weak del Pezzo surface
 with L=-K_M. No mate hypothesis is needed for this classification
 reduction.
 
-The [root proof](2026-10-09-session-genus-one-delpezzo-reduction.md)
-and [independent audit](2026-10-09-session-rational-genus-one-ADE-independent-audit.md)
+The [root proof](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
+and [independent audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-rational-genus-one-ade-independent-auditmd)
 derive h0(K_M+L)=1. Its unique effective divisor is exceptional;
 minimality gives nonnegative canonical intersection with every
 exceptional prime. Negative definiteness then forces that divisor
@@ -97,8 +97,8 @@ del Pezzo marking inputs are explicitly checked in the notes.
 If such a genus-one carrier has a mate, its complete exceptional
 type is exactly one of 4A1 or A3+2A1, and its mate degree is even.
 All other ADE types in this lane are excluded. See the
-[owner D5 proof](2026-10-09-session-delpezzo-D5-torsion-filter.md)
-and [root independent audit](2026-10-09-session-delpezzo-D5-root-independent-audit.md).
+[owner D5 proof](OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-torsion-filtermd)
+and [root independent audit](OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-root-independent-auditmd).
 
 The missing integral root Z=L-c# has square -2 and belongs to
 sat(R) minus R. Downstairs smoothness is needed to exclude Z in R.
@@ -126,11 +126,11 @@ before a final written record and is not counted as completed.
 
     alpha beta gamma delta (alpha delta-beta gamma) != 0,
 
-the [displayed family](2026-10-09-session-singular-delpezzo-four-A1-family.md)
+the [displayed family](#source-2026-10-09-session-singular-delpezzo-four-a1-familymd)
 has normalization S=V(ae-c^2,bd-c^2) in P4, a smooth lifted rational
 normal quartic with 2c~2H, and projection to the exact fixed C0.
 Nevertheless every carrier in that family is excluded in every
-mate degree. The [independent audit](2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md)
+mate degree. The [independent audit](#source-2026-10-09-session-singular-delpezzo-four-a1-family-independent-auditmd)
 proves the actual finite birational normalization and entire parameter
 coverage, including repeated roots and the special cancellation loci.
 
@@ -160,9 +160,9 @@ principal weighted parameter points**. The exact zero list remains
 uncomputed, and this locus is not asserted to equal the nonnormal
 parameter locus or the locus of actual mates.
 
-The [owner proof](2026-10-09-session-mf6-principal-weighted-candidate.md),
-[independent geometry audit](2026-10-09-session-mf6-weighted-candidate-geometric-audit.md)
-and [independent algebra audit](2026-10-09-session-mf6-weighted-candidate-algebra-independent-audit.md)
+The [owner proof](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-mf6-principal-weighted-candidatemd),
+[independent geometry audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-mf6-weighted-candidate-geometric-auditmd)
+and [independent algebra audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-mf6-weighted-candidate-algebra-independent-auditmd)
 bind eighteen actual quartic forms, three polynomial syzygies of
 weighted degrees 9,9,10, and the actual first-normal binary octic.
 The fixed 14-by-14 determinant has weighted degree 210 and retains
@@ -249,7 +249,7 @@ alpha*beta*gamma*delta*(alpha*delta-beta*gamma) != 0
 
 fails to admit a mate of any degree whose set-theoretic intersection is the exact fixed curve `C0=[U^4:U^3V:UV^3:V^4]`.
 
-The [owner proof](2026-10-09-session-singular-delpezzo-four-A1-family.md) is accepted at this scope. The universal coordinate identities are checked by a separate implementation and isolated replays. The mathematical proof is the algebra and geometry below, not agreement between agents or a numerical parameter sample. The singular surface, smooth lifted curve, finite birational quartic image, and extra normalization point are bound to the actual fixed coordinates.
+The [owner proof](#source-2026-10-09-session-singular-delpezzo-four-a1-familymd) is accepted at this scope. The universal coordinate identities are checked by a separate implementation and isolated replays. The mathematical proof is the algebra and geometry below, not agreement between agents or a numerical parameter sample. The singular surface, smooth lifted curve, finite birational quartic image, and extra normalization point are bound to the actual fixed coordinates.
 
 This family is not asserted to exhaust all four-A1 embeddings or projections, all genus-one singular normalizations, genus-two normalizations, or the unrestricted STCI problem. The parameter boundary where the displayed transformation becomes singular is outside this construction and outside this theorem.
 
@@ -503,7 +503,7 @@ Its pullback is exactly f^2. On S its divisor is exactly 2c, because
 the quotient map is finite and generically unramified over that curve.
 Consequently 2c~2H. The curve c is non-Cartier at the four A1 points;
 its local class has order two, as in the
-[local lift countershield](2026-10-09-session-singular-local-lift.md).
+[local lift countershield](#source-2026-10-09-session-singular-local-liftmd).
 On the minimal resolution the correction is half the sum of the four
 disjoint (-2) curves, so q=-Z^2=2. This realizes the surviving identity
 q=2pi for pi=1. No descent of Q to a projected quartic is assumed.
@@ -698,9 +698,9 @@ The independent audit directly checked all polynomial identities with SymPy.
 The owner's self-contained checker is
 [verify_singular_local_lift_countershield_2026_10_09.py](../../computations/verify_singular_local_lift_countershield_2026_10_09.py),
 reported terminal `PASS`; the main note is
-[2026-10-09-session-singular-local-lift.md](2026-10-09-session-singular-local-lift.md).
+[2026-10-09-session-singular-local-lift.md](#source-2026-10-09-session-singular-local-liftmd).
 A longer independent proof is preserved in
-[2026-10-09-singular-normalization-local-countershield-audit.md](2026-10-09-singular-normalization-local-countershield-audit.md).
+[2026-10-09-singular-normalization-local-countershield-audit.md](#source-2026-10-09-singular-normalization-local-countershield-auditmd).
 
 
 ---
