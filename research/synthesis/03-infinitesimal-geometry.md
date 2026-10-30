@@ -113,4 +113,21 @@ In R-0013 the saturated first-relation line has degree -7r-epsilon. Its coeffici
 
 The socle identity in R-0032 is n(lambda*d-L)=lambda*(n*d-2*M)+2*Delta, with n the generic length, d the Loewy index, M the weighted sum of layer ranks, L the canonical degree parameter, lambda a valid conormal degree bound, and Delta the corrected layer defect. Equality gives graded self-duality; a constant algebra requires additional balanced-rational hypotheses. R-0033 then excludes only specified constant-first-relation equality models, assuming the next relation space is exactly fV. Moving relations, extra relations and positive-defect models remain outside its scope.
 
+
+## 3.10 The characteristic-two arithmetic test case
+
+For the fixed quartic the conormal sequence is
+
+    0 -> O_C(-8) -> N_C^* -> O_C(-6) -> 0.
+
+Its extension class is proportional to 2 in H1(P1,O(-2)). Accordingly [R-0020](../results/quartic_conormal_characteristic_jump.md) gives N_C^*=O(-7)^2 in characteristic different from two and O(-8)+O(-6) in characteristic two. This changes the available symmetric-power directions; it does not itself exclude or construct defining equations.
+
+The prescribed integral quartics F=x1^4-x0^3*x3 and G=x2^4-x0*x3^3 give a complementary example. By [R-0021](../results/quartic_mu4_degeneration.md), their intersection is flat over Z and, away from the endpoints, equals G_m times mu_4. In characteristic zero it is the reduced union of four distinct quartic curves, while in characteristic two it has sole reduced support C and generic algebra K[Y]/(Y^4). This is coalescence of *actual projective components*, not merely exceptional directions.
+
+The full initial ideal explains the jump. In characteristic zero the two generic first normal symbols are independent and the transverse multiplicity along C is one. In characteristic two they become dependent, and cancellation using the actual equations supplies the order-four generator. The special ideal is (X,Y^4), not merely the ideal of the displayed first symbols. [R-0031](../results/quartic_char2_fourth_equation_kernel.md) identifies the fourth minimal initial-equation bundle and the filtered equation-module kernel with O(-24), with zero comparison defect, for this prescribed pair. It does not give a general theorem for arbitrary characteristic-two pairs.
+
+Finally [R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) excludes a *flat embedded lift of this particular special complete intersection* over Z_(2) or Z_2 whose generic reduced support is the fixed relative quartic. The obstruction is a forced primitive-triple class in H1(P1,O(-4)) with a middle Laurent coefficient congruent to 2 modulo 4. The theorem neither covers arbitrary ramified mixed-characteristic DVRs nor excludes an unrelated characteristic-zero STCI. Flatness of the displayed integral family is consistent with nonlifting under the extra requirement of sole generic reduced support: its characteristic-zero generic fiber has four components.
+
+These results separate four questions: conormal splitting, full initial equations, global reduced support, and arithmetic deformation of a prescribed embedded scheme. None may be substituted for another.
+
 Next: [carrier normalization and conductor](04-carriers.md), which imposes a different global descent condition.
