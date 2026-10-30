@@ -627,7 +627,7 @@ reruns. This note does not claim a solution of either the fixed `C0`
 question or the universal STCI question.
 
 The accepted
-[weighted-ribbon proof](2026-10-10-session-weighted-ribbon-conormal-independent-audit.md)
+[weighted-ribbon proof](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-weighted-ribbon-conormal-independent-auditmd)
 uses an actual Cartier double on the normalization of a quartic. The
 construction below supplies a canonical *symbolic* double even when
 `2c` is not Cartier. Its numerical degree is controlled by all symbolic
@@ -966,7 +966,7 @@ accepted quartic, conductor and fixed-C0 premises were not rerun. The theorem
 does not imply that an arbitrary minimum carrier has these hypotheses.
 
 Owner source read:
-[degree-free carrier framework](2026-10-13-generalization-global-carrier-framework.md),
+[degree-free carrier framework](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-global-carrier-frameworkmd),
 SHA-256 `38bff3c497b1c0f8310a623e36c0fd5d6ded0517fc6903115b4321f5672d5848`.
 The acceptance here is for section 3 and the finite fixed-C0 classification
 in section 4. The later power-compression consequences have their separate
