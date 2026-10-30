@@ -685,7 +685,7 @@ Date: 2026-10-15. Author: `formal_algebraization_route`.
 Status: **GEOMETRIC THEOREM; independently audited in characteristic zero**.
 Accepted conormal, blowup, actual-CI bridge, and formal-root functor statements
 are inputs. No accepted computation or proof was rerun. A distinct worker
-reviewed the [branch-normalization and ruled-surface intersection steps](2026-10-15-formal-branch-ruled-model-degree-bound-review.md),
+reviewed the [branch-normalization and ruled-surface intersection steps](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd),
 and the [full independent audit](2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
 passes Sections 1--8, including the general criterion and finite-stage/gap
 consequences. Section 9 preserves an ineffective finite-jet attempt.
@@ -1102,7 +1102,7 @@ during review. This audit inspected the primary algebraicity and
 high-self-intersection sources. Accepted root-functor, finite-tower,
 actual-CI bridge, and prior CAS/class computations are premises and were
 not replayed. The existing
-[focused branch/ruled review](2026-10-15-formal-branch-ruled-model-degree-bound-review.md)
+[focused branch/ruled review](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd)
 is an input; the additional work here checks the algebraicity hypotheses,
 global branch selection, multiplicity/genus passage, all-r numerical
 scope, and the finite-cutoff conclusion.
