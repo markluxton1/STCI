@@ -16,7 +16,7 @@ Permanent mathematical dossier retaining full computations, coefficient systems,
 # The Delta1 open removes qhigh saturation and gives eight linear action equations
 
 Date: 2026-10-15. Owner: `quintic_shared_incidence/support_structural`.
-Status: **PASS [INDEPENDENT AUDIT](2026-10-15-generalization-quintic-h2-automatic-open-ODE-independent-audit.md)
+Status: **PASS [INDEPENDENT AUDIT](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-automatic-open-ode-independent-audit)
 for automatic qhigh, the equivalent ODE incidence scheme, and both
 derived accelerator equations on the declared localized domain.**
 The accepted eleven-generator presentation, intrinsic A4 coefficients,
@@ -34,7 +34,7 @@ remaining mate candidates under the accepted closures and SUP
 consequences. The other listed localizations specify the declared
 finite inverse-map chart; in particular its nonzero cover determinant
 is not a globally necessary condition on all remaining mates.
-The new [eleven-generator unit audit](2026-10-15-generalization-quintic-h2-eleven-generator-unit-independent-audit.md)
+The new [eleven-generator unit audit](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eleven-generator-unit-independent-audit)
 justifies the Delta1 localization and exact relation q6=unit*j.
 
 First use the actual unscaled monic factorization Fsrc=H*Qactual,
@@ -180,7 +180,7 @@ ideal.** The statements hold over nonreduced parameter bases as well
 as at geometric points.
 
 The reviewed proposal is
-[the automatic-open and ODE note](2026-10-15-generalization-quintic-h2-automatic-open-and-ODE.md).
+[the automatic-open and ODE note](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-automatic-open-and-ode).
 All previous accepted h2 factor, reciprocal-coordinate, A4, closed-lane
 and eleven-generator results are premises. No accepted verifier or
 actual coefficient construction was replayed. This audit checks only
@@ -386,7 +386,7 @@ to full inverse support, and no nonlinear conductor descent.
 
 Date: 2026-10-15. Status: **GLOBAL COVER AND EXACT INPUT ASSEMBLY;
 independently audited** in the
-[global monic ODE review](2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md).
+[global monic ODE review](STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
 Accepted conormal forms, the actual
 conductor octic, the full h2 conductor factor, global Delta1 open, ODE
 and spectral reductions are premises. No accepted verifier is replayed.
