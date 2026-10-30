@@ -200,3 +200,11 @@ Five historical mathematical notes preserved in full in `BOUNDARY_ONE_STEP_AND_E
 ## Full-content migration — October 5–6 foundational notes (2026-10-30)
 
 Thirty source notes were preserved in six topical supplements: `E2_PRIMITIVE_QUARTIC_INCIDENCE.md` (5), `LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md` (6), `NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS.md` (5), `MULTIPLICITY_MIXED46_AND_MF6.md` (6), `RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md` (5), and `FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md` (3). All thirty original files were deleted on `restructure/mathematical-consolidation` after their full contents were committed. This is source-preserving topical consolidation, not editorial deduplication or mathematical claim promotion. Based on the prior recorded 290 retirements, **cumulative retired: 320**; based on the supplied file tree (259 notes before this batch), **229 notes remain**. Inbound reference cleanup and editorial integration remain outstanding.
+
+## Migration continuation — October 7 local cohomology (2026-10-30)
+
+The previously completed 30-note batch (four supplements: LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE, NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC, OCT6_SESSION_FRONTIERS_AND_VALIDATION, OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION) retired 30 notes, bringing the reported cumulative total to 350. Its inventory entry was delayed by a write failure.
+
+Verified `OCT7_LOCALCOH_CONORMAL_PART1.md` and retired its original conormal-splitting note (one additional source). Preserved six additional October 7 local-cohomology sources in `OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md` and retired their originals: e1-simultaneous, independent-audit, mf6-bridge, q1-exception, q13-exception, q3-exception. The failed bridge is retained as a failure mode, not promoted as a proof. This is complete source preservation, not editorial integration or independent re-audit.
+
+**Reported cumulative retired: 357.** Estimated remaining: 192 based on the supplied earlier 549-note population, not a freshly enumerated branch tree.
