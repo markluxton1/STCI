@@ -247,7 +247,7 @@ persists on a stated family. No new isolated example is needed here.
 # Weighted initial ideals over the coefficient curve
 
 Date: 2026-10-26. Status: provisional continuation, with
-[independent review](2026-10-26-weighted-initials-normal-boundary-audit.md).
+[independent review](#weighted-initials-normal-boundary-audit).
 No canonical promotion or STCI exclusion is claimed.
 
 ## Question and inherited scope
@@ -259,7 +259,7 @@ normal coordinates X,Y. A point p below means a closed point of C.
 Characteristic is arbitrary for the local example.
 
 The [October 23 coefficient-valuation note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md)
-and its [review](2026-10-23-intrinsic-contact-valuations-independent-audit.md)
+and its [review](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-contact-valuations-independent-audit)
 already establish the Gauss construction, formal-series domain restriction,
 coordinate dependence, and scalar-value limitation in their stated scope.
 Those reviewed provisional constructions are premises, not replay tasks.
