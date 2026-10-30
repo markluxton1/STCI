@@ -13,7 +13,7 @@ For a proper intersection of degrees \(d,e\) supported set-theoretically on \(C_
 **Established boundary:** integral quartic carriers have no mate in characteristic zero, [STCI-R-0001](../results/quartic_carrier_exclusion.md). Together with separately audited lower-degree and factor arguments, hypothetical defining degrees are at least five. The unrestricted STCI question is still open.
 
 
-## Intrinsic contact geometry and marked duality
+## 1.1 Intrinsic contact geometry and marked duality
 
 The curve's special parametrization supplies more than its degree, quadric and normal bundle. The two endpoints are distinguished by fourth-order contact. The osculating-plane correspondence and its paired secants organize how the curve meets the ruled cubic and its dual. These geometric structures provide possible loci where global equations acquire exceptional jets, but do not by themselves constrain the full defining ideal of a pair.
 
