@@ -44,3 +44,7 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 
 - No finiteness conclusion is claimed for epsilon>=9.
 - Finite arithmetic lists are not realizability lists or STCI classifications.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
