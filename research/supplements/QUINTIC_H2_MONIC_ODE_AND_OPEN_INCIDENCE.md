@@ -1,5 +1,12 @@
 # quintic h2 monic ode and open incidence
 
+## Integration guide: the actual open and the differential equations
+
+This dossier studies the quintic h=2 incidence scheme on the stated nonvanishing open, including the reduction to a shared logarithmic ODE and its coefficient equations. The [spectral and generator dossier](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md) reorganizes these same equations to expose linear-algebra structure; that is a computational acceleration, not an independent proof of global support exclusion. The [degree-five incidence frontier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md) tests an additional candidate exclusion whose exact resultants still require independent rerun. Preserve the open-set assumptions and the separate audit of the ODE equivalence.
+
+---
+
+
 Permanent mathematical dossier retaining full computations, coefficient systems, corrected formulas, proof scope and unresolved cases. Source labels below organize mathematics, not provenance authority.
 
 ---
