@@ -941,7 +941,7 @@ been executed in this note; the finite procedure is proved here.
 ## 9. Meta-effectivity from explicit projection-family input
 
 Status: **PASS for the precise explicit rational fixed-model input below**
-in the separate [2026-10-16 raw-input scope audit](2026-10-16-generalization-raw-projection-decision-independent-audit.md).
+in the separate [2026-10-16 raw-input scope audit](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-16-generalization-raw-projection-decision-independent-auditmd).
 This adds an algorithm-existence corollary to the accepted explicit-phase-image
 decision theorem; no actual phase image has been computed.
 
