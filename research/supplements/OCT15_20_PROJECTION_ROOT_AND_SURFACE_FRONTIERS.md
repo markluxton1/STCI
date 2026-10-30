@@ -126,7 +126,7 @@ To use this as a finished exclusion, the parent proof should explicitly state th
 Date: 2026-10-15. Integrator: primary agent.
 Subsequent accepted scope extensions, the whole-h2 global model and current
 process state are recorded in the
-[October 16 continuation](2026-10-16-session-structural-continuation.md).
+[October 16 continuation](STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md).
 The universal integral-curve STCI question and unrestricted characteristic-zero
 `C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. This record accepts new written
 arguments only at their stated scope. Previously accepted proofs and
