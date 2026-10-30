@@ -65,7 +65,7 @@ comparison for directing curves, projected cubic scrolls, and their dual
 geometry. The [primary scan](https://webhomes.maths.ed.ac.uk/~icheltso/edge2016/pdf/ruled.pdf)
 was requested again, but the browsing service rejected its approximately
 19 MB size. Its internal classifications were **not inspected**. The
-[earlier source ledger](2026-10-24-ruled-surfaces-literature.md) also records
+[earlier source ledger](CUBIC_SCROLL_AND_RULED_SURFACES.md) also records
 the access boundary for Semple–Roth. Neither book is used as a verified
 dependency for our exact cubic or its self-duality.
 
@@ -100,8 +100,8 @@ C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3.
 
 The [research index](../INDEX.md), [contribution checklist](../CONTRIBUTING_AGENT.md),
 [discussion reconciliation](2026-10-24-discussion-reconciliation.md),
-[earlier dual-incidence derivation](2026-10-24-special-dual-incidence-derivation.md),
-and [merged ruled-surface synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md)
+[earlier dual-incidence derivation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md),
+and [merged ruled-surface synthesis](CUBIC_SCROLL_AND_RULED_SURFACES.md)
 are the retrieval route. We retain the earlier identification of
 \(C^\vee\) with the restricted binary-quartic discriminant, together with
 the two endpoint pencil lines and the osculating quartic. These are
@@ -128,7 +128,7 @@ Indeed the ruling parametrization \([a:b:zb:z^2a]\) gives Gauss image
 This image is two-dimensional; its closure is the irreducible cubic
 \(V(K)\). Its finite normalization, distinct from its singular projected
 image, is the cubic scroll \(\mathbb F_1\); the
-[Gauss-map investigation](2026-10-24-cubic-scroll-gauss-dual.md)
+[Gauss-map investigation](CUBIC_SCROLL_AND_RULED_SURFACES.md)
 studies that normalization and the resolved Gauss map.
 
 Write \(\Delta\) for the ordinary discriminant of
@@ -339,7 +339,7 @@ R^\vee\cap Q^\vee=V(M,K).
 \]
 Its pullback to the same Segre quadric is the reduced divisor
 \(ab(bc^3+ad^3)=0\): the two endpoint lines and a different smooth
-quartic. The [scroll-duality note](2026-10-24-cubic-scroll-gauss-dual.md)
+quartic. The [scroll-duality note](CUBIC_SCROLL_AND_RULED_SURFACES.md)
 provides its interpretation and the Gauss maps. The minus and plus
 signs in (8) and this last equation cannot be interchanged. In
 particular \(\Gamma_Q\), \(O\), and this third quartic are distinct.
@@ -465,10 +465,10 @@ were consulted before the investigation. Navigation and discussion
 records are not theorem authority.
 
 The retained geometry is the exact fixed-embedding description in the
-[special-lines note](2026-10-24-special-lines-planes-research-note.md)
+[special-lines note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
 and its [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md),
-the [automorphism/bitangent synthesis](2026-10-24-quartic-automorphisms-bitangents-synthesis.md),
-and the [merged ruled-surface synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md)
+the [automorphism/bitangent synthesis](#2026-10-24-quartic-automorphisms-bitangents-synthesis),
+and the [merged ruled-surface synthesis](CUBIC_SCROLL_AND_RULED_SURFACES.md)
 with its linked independent audits. These are previously reviewed
 **provisional geometry**, not promoted result records. We retain their
 unique quadric, group, secant fibers, projection center, and actual cubic
@@ -482,7 +482,7 @@ The supporting investigations are:
 | --- | --- |
 | [Flag incidence](2026-10-24-quartic-flag-incidence.md) | Global construction, finite fibers, swap, contact structure, automorphisms; proofs and exact checks |
 | [Conormal and residual geometry](2026-10-24-quartic-conormal-residual-geometry.md) | Canonical product, distinguished sections, residual double cover and higher contact; proofs and independent reconstruction |
-| [Cubic scroll and Gauss duality](2026-10-24-cubic-scroll-gauss-dual.md) | Dual equation, normalization, Gauss resolution and elementary transformations; proofs and exact checks |
+| [Cubic scroll and Gauss duality](CUBIC_SCROLL_AND_RULED_SURFACES.md) | Dual equation, normalization, Gauss resolution and elementary transformations; proofs and exact checks |
 | [Dual intersections](2026-10-24-quartic-dual-intersections.md) | Global intersection ideals and endpoint inverse-ideal corrections; proofs and exact checks |
 | [Dual singular scheme](2026-10-24-quartic-dual-singular-scheme.md) | Full Jacobian scheme, generic transverse structures and embedded endpoint points; local algebra and exact certificates |
 | [Independent audit](2026-10-24-quartic-flag-duality-independent-audit.md) | Independent reconstruction, boundary checks, and separate algebra replay |
@@ -903,7 +903,7 @@ The repository route was [INDEX](../INDEX.md),
 [STATE](../STATE.md), [FRONTIER](../FRONTIER.md), and
 [AUTHORITY](../AUTHORITY.md). These navigation files do not establish new
 mathematics. The starting evidence was the
-[special-lines research note](2026-10-24-special-lines-planes-research-note.md)
+[special-lines research note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
 and its [independent geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
 on `codex/special-lines-planes-2026-10-24`, base commit
 `51dc4772e6a2b028a1d9559a4bcfbd69be9bd0d6`.
@@ -1201,13 +1201,13 @@ confusion between different ramification maps.
 The exact premises retained without rerunning inherited proofs are:
 
 - The merged [projection/group and symmetric-square
-  synthesis](2026-10-24-quartic-automorphisms-bitangents-synthesis.md),
+  synthesis](#2026-10-24-quartic-automorphisms-bitangents-synthesis),
   including the embedded automorphism group, secant normalization, and
   trisecant fibers. These are independently reviewed provisional
   geometry, not numbered canonical results.
 - The finite normalization of the primal cubic on \(\mathbb F_1\), with
   hyperplane \(H=E+2f\) and conductor section \(D=E+f\), from the
-  [merged ruled-surface synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md)
+  [merged ruled-surface synthesis](CUBIC_SCROLL_AND_RULED_SURFACES.md)
   and its cited independent audits. Its old normalization computation
   was not rerun.
 - [R0020](../results/quartic_conormal_characteristic_jump.md), only for
@@ -1224,7 +1224,7 @@ conversation state as mathematical evidence.
 The supporting notes reviewed are the
 [flag note](2026-10-24-quartic-flag-incidence.md),
 [conormal note](2026-10-24-quartic-conormal-residual-geometry.md),
-[scroll note](2026-10-24-cubic-scroll-gauss-dual.md),
+[scroll note](CUBIC_SCROLL_AND_RULED_SURFACES.md),
 [intersection note](2026-10-24-quartic-dual-intersections.md), and
 [singular-scheme note](2026-10-24-quartic-dual-singular-scheme.md).
 
@@ -1580,7 +1580,7 @@ This note supplies the literature and moduli context for the
 [projection and automorphism note](2026-10-24-quartic-projection-automorphisms.md)
 and the [symmetric-square note](2026-10-24-quartic-symmetric-square-bitangents.md).
 The retrieval route was [research/INDEX](../INDEX.md); the earlier
-[special-lines investigation](2026-10-24-special-lines-planes-research-note.md)
+[special-lines investigation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
 and its [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
 are supporting exploratory evidence. The calculations below are independently
 reconstructed from the quartic linear system. None of those evidence files
@@ -1874,7 +1874,7 @@ closed field of characteristic zero, with the fixed marked embedding
 
 ## 1. Scope and retained input
 
-The [merged dual-incidence derivation](2026-10-24-special-dual-incidence-derivation.md)
+The [merged dual-incidence derivation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
 and [independent geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
 already establish that the dual surface is the restricted binary-quartic
 discriminant, of degree six. Its reduced singular locus has four
@@ -2663,7 +2663,7 @@ V=\langle s^4,s^3t,st^3,t^4\rangle.
 \]
 
 This note reconstructs the symmetric-square statements needed from the
-[special-lines investigation](2026-10-24-special-lines-planes-research-note.md)
+[special-lines investigation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
 and its [independent geometry audit](2026-10-24-special-lines-planes-geometry-audit.md).
 The arguments depend only on the displayed embedding and its unique
 smooth containing quadric, whose elementary derivation is recalled below.
