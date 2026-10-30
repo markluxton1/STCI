@@ -269,3 +269,7 @@ Read supplements 33–44 (12 files) directly from working branch. Extracted **21
 ## Supplement link audit — batch 5 (2026-10-30)
 
 Read supplements 45–56 (12 files), comprising **348** relative Markdown link occurrences and **1** retired-style historical session-note link. Repaired that occurrence in `STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md` to the retained `OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit` section (commit `c9abbc4`). Cumulative **56/105** supplements inspected, **26** committed link repairs in the counted audit batches. This is a historical-name scan and selective repair; it does not certify every link target or heading anchor. No dependency guides or mathematical-status changes.
+
+## Supplement link audit — batch 6 (2026-10-30)
+
+Read supplements 57–68 (12 files), with **280** relative Markdown link occurrences. **Zero** links use a retired standalone `2026-MM-DD-session-*.md` destination. One link contains a historical filename **inside an existing supplement anchor** (`INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md` to `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-independent-auditmd`), so it must be checked for heading-anchor existence rather than rewritten by filename heuristic. No edits to supplements were justified by the filename scan. Cumulative coverage **68/105**, counted repairs **26**. Full relative-target and anchor verification remains outstanding.
