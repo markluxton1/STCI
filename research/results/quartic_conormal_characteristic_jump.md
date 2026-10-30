@@ -47,4 +47,4 @@ This conormal statement does not establish the global (4,4) exclusion.
 
 ## Permanent evidence navigation
 
-The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/01-marked-quartic.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
+The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/01-problem-and-curve.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
