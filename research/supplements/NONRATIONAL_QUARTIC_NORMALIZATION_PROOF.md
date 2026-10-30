@@ -1,7 +1,7 @@
 # Nonnormal quartic surfaces have rational normalization
 
 Audited source:
-[Nonrational quartic normalizations](../notes/2026-10-09-session-nonrational-quartic-normalizations.md),
+[Nonrational quartic normalizations](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md),
 sections 1--6. Work over an algebraically closed field of characteristic
 zero. The hypothesis is that X is an integral **nonnormal** quartic
 containing the smooth rational degree-four curve C0.
