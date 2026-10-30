@@ -643,63 +643,9 @@ The saturated Gorenstein pairing is used only in its inherited scope.
 No accepted proof or executable certificate was rerun, and no sampled
 example is used as evidence for a universal assertion.
 
-## 2. Principal parts and the dual repair condition
+## 2–3. Independent verification of the repair criterion and common-divisor test
 
-For effective D, the quotient Q_D=V(D)/V is a finite-support sheaf, and
-the exact sequence 0 -> V -> V(D) -> Q_D -> 0 gives the exact segment
-
-    H^0(Q_D) -> H^1(V) -> H^1(V(D)).
-
-Thus the kernel of the latter map is exactly the principal-parts image.
-This proves the source's criterion for an identified class o in H^1(V).
-It does not endow o itself with a zero divisor.
-
-Functorial Serre duality identifies the dual of H^1(V) -> H^1(V(D)) with
-the inclusion
-
-    H^0(V^vee tensor omega_C(-D))
-      -> H^0(V^vee tensor omega_C).
-
-A class maps to zero if and only if its functional vanishes on the image
-of this inclusion. The annihilator criterion therefore has the correct
-direction and twist. Both arguments work in arbitrary characteristic.
-The source correctly avoids assuming that varying-divisor cohomology
-dimensions are constant on an arbitrary higher-genus curve.
-
-## 3. P1: common-divisor kernel and the dimension threshold
-
-For V=O(-r), r>=2, let n=r-2. Serre duality identifies o with a functional
-on H^0(O(n)). If D has degree B and is cut out by nonzero h in H^0(O(B)),
-then the image of H^0(O(n)(-D)) in H^0(O(n)) is exactly
-h H^0(O(n-B)); it is zero when n-B<0.
-
-Consequently repair by D is equivalent to
-
-    o(hg)=0 for every g in H^0(O(n-B)),
-
-which is exactly h in the kernel of the source's multiplication map.
-Conversely any nonzero kernel element defines such an effective D.
-If a divisor of degree less than B repairs o, adding an effective divisor
-to obtain degree B preserves vanishing, since the maps on H^1 factor.
-This verifies the stated equivalence with degree at most B. Repeated
-factors of h are permitted throughout; no reduced-support restriction
-or separability assumption is hidden in the argument.
-
-The dimensions in the threshold argument are B+1 and max(r-1-B,0).
-For B>=floor(r/2), the former is strictly greater than the latter.
-Hence a nonzero kernel exists for every o. This establishes the stated
-limit of a single line-bundle obstruction under an unrestricted pole
-allowance. It does not prove an actual boundary or a realizable lift.
-
-For a split bundle, the direct-sum H^1 class maps to zero exactly when
-every component does. If one divisor must repair them, the SAME section h
-must lie in every component kernel. The stacked map therefore gives the
-correct simultaneous condition. Allowing a separate h for each component
-would be a weaker test and would lose the common-boundary requirement.
-On a fixed splitting-type stratum these maps have fixed source and target
-dimensions, so their ranks and degeneracy loci have the stated finite
-algebraic meaning. No assertion of universal rank is inferred from a
-generic parameter or a selected point.
+The proof of the principal-parts criterion and its Serre-dual annihilator formulation is given in the primary calculation above, sections 2–3. The independent reconstruction checked the direction of the connecting homomorphism and the \(-D\) twist, including arbitrary characteristic. It also verified that for \(V=\mathcal O_{\mathbf P^1}(-r)\) the kernel of the multiplication map parametrizes **all** effective degree-\(B\) repair divisors, including nonreduced ones; padding a smaller divisor preserves vanishing. The dimension threshold \(B\ge\lfloor r/2\rfloor\) is correct. For a split bundle the *same* section \(h\) must lie in every component kernel; separate componentwise choices would not solve the simultaneous problem. No stronger existence or realization conclusion follows.
 
 ## 4. The boundary comparison is not proved by these criteria
 
@@ -816,37 +762,9 @@ bridge. The existing reviewed Gauss/domain construction is used in its
 stated scope; inherited certificates and accepted exclusions were not
 rerun. No finite sample is used to justify the all-weights calculation.
 
-## 1. Domain, residues, and coordinate qualifications
+## 1. Verification of domains and frames
 
-For each closed p of a smooth curve C and a chosen rational normal frame,
-the displayed minimum is a Gauss valuation on k(C)[X,Y] for any integer
-weights, and extends by quotients to k(C)(X,Y). Initial polynomials over
-the associated graded coefficient domain prove multiplicativity even
-when multiple terms tie. Positive rational weights extend this formula
-to the integral completed local model D[[X,Y]], D=k[[t]]. The divergent
-series sum t^(-n^2)X^n correctly rules out the same formula on arbitrary
-k(C)[[X,Y]]. No centering claim is made on that entire generic formal ring.
-
-For integer weights, substituting X=t^alpha U,Y=t^beta V and dividing
-by t^v(f) gives the stated residue initial in k[U,V]. This is a normalized
-description of a valued-field initial. The integral model retains the
-coefficient symbol T as noninvertible; passing to the field inverts it.
-The warning that inf v(J)=-infinity for a nonzero k(C)-ideal is correct,
-because multiplication by t^(-N) is allowed. This warning does not deny
-the well-defined valued-field full initial ideal.
-
-The diagonal frame-change signs are correct: X'=fX makes the transported
-weight alpha'=alpha+ord_p(f). The GL_2 counterexample correctly shows
-that the values of new coordinate variables alone need not determine the
-transported valuation: the initial relation between those variables must
-also be retained. Thus C_closed times Z^2 is a framed family, rather than
-a canonical global product of valuation spaces.
-
-The Newton comparisons give rational affine walls at fixed coefficient
-weight one. Calling their subdivision a complex, rather than asserting
-an unqualified fan or a global finiteness theorem, is appropriate.
-Integral weights need not meet every rational cell. The diagonal shift
-observation in fixed normal degree is correct.
+The preceding source gives the Gauss valuation on \(k(C)[X,Y]\), the distinction between \(k[T]\) and \(k[T,T^{-1}]\) in the graded coefficient ring, and the divergent series \(\sum t^{-n^2}X^n\) excluding arbitrary formal series. The independent review reconstructed these facts for the stated positive rational weights, including tied residue terms. It also checked that a diagonal frame change \(X'=fX\) shifts the transported weight by \(\operatorname{ord}_p(f)\), whereas a general \(\mathrm{GL}_2\) change requires initial residue relations, not merely the new variable values. At fixed coefficient weight the chambers form an affine complex, not automatically a fan; integer weights may miss rational chambers. These verifications do not establish a canonical global family of weighted valuations.
 
 ## 2. Full chamber calculation, all stated weights
 
