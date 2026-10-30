@@ -386,7 +386,7 @@ The [central normalization audit](2026-10-24-four-sheet-arithmetic-independent-a
 also checks the full inverse-image ideals as well as the reduced curve classes;
 its final source comparison records no remaining discrepancy. No novelty is asserted: the normalization of cones and
 Hirzebruch-surface calculations are standard mechanisms, and the package's
-[literature note](2026-10-24-ruled-surfaces-literature.md) records checked references.
+[literature note](#2026-10-24-ruled-surfaces-literature) records checked references.
 
 Characteristic-two statements do not follow by replacing the four roots
 with one point. The full group scheme, orbit divisor, and the distinction
@@ -439,7 +439,7 @@ them and records the limits of the identifications.
 | V: actual elementary transformations and the degree-two base change | [Independent comparison](2026-10-24-ruled-comparison-independent-audit.md) |
 | Independent reconstruction of I–III | [Central-model audit](2026-10-24-p4-ruled-models-independent-audit.md) |
 | Independent reconstruction of IV | [Four-section and arithmetic audit](2026-10-24-four-sheet-arithmetic-independent-audit.md) |
-| Literature and priority limits | [Source check](2026-10-24-ruled-surfaces-literature.md) |
+| Literature and priority limits | [Source check](#2026-10-24-ruled-surfaces-literature) |
 
 Retrieval followed [INDEX](../INDEX.md), the requested state/frontier
 summaries, [authority rules](../AUTHORITY.md), and the
@@ -743,7 +743,7 @@ center, the smooth cubic scroll controls the osculating-pair incidence,
 and the projected cubic has a double directrix. These are distinct cubic
 objects. The discriminant value \(I^3/J^2=27\) retains its previous
 binary-quartic meaning; this work produces no relation to the twenty-seven
-lines on a smooth cubic surface. The [literature check](2026-10-24-ruled-surfaces-literature.md)
+lines on a smooth cubic surface. The [literature check](#2026-10-24-ruled-surfaces-literature)
 places the constructions in their classical setting and makes no novelty
 claim.
 
@@ -807,7 +807,7 @@ Throughout Sections 1–8, \(k\) is algebraically closed of characteristic zero.
  c([s:t])=[s^4:s^3t:st^3:t^4],\qquad
  R=V(x_0x_2^2-x_1^2x_3)\subset\mathbf P^3.
 \]
-This is intrinsic projective geometry, with no STCI inference. The [earlier special-lines note](2026-10-24-special-lines-planes-research-note.md), Section 5, and its [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md), Section 4, give the motivating paired-secant formula. We reconstruct it and all normalization and divisor claims used here. No novelty claim is made. The general projection/cone constructions are treated in the companion notes on [resolved projection](2026-10-24-p4-resolved-projection.md) and the [cone](2026-10-24-projection-cone-ruled-model.md).
+This is intrinsic projective geometry, with no STCI inference. The [earlier special-lines note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md), Section 5, and its [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md), Section 4, give the motivating paired-secant formula. We reconstruct it and all normalization and divisor claims used here. No novelty claim is made. The general projection/cone constructions are treated in the companion notes on [resolved projection](2026-10-24-p4-resolved-projection.md) and the [cone](2026-10-24-projection-cone-ruled-model.md).
 
 ## 1. The quadric and its two rulings
 
@@ -1033,7 +1033,7 @@ Date: 2026-10-24. Status: **source comparison for provisional intrinsic
 geometry research; no priority or novelty claim**.
 
 This note records what was actually inspected for the
-[ruled-surface investigation](2026-10-24-p4-ruled-surfaces-synthesis.md).
+[ruled-surface investigation](#2026-10-24-p4-ruled-surfaces-synthesis).
 The new specialized statements are proved in the companion notes, rather
 than inferred from general scroll theory. No STCI exclusion is an input.
 
@@ -1758,7 +1758,7 @@ After the reconstruction, the reviewer compared Sections 4 and 6 of the four-she
 
 ## 7. Synthesis review
 
-The reviewer also checked Sections 3–5 and 7 of the [synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md), including the table's marked bisection and hyperplane classes, both elementary-transform bridges, and the rank-two subbundle splittings. The displayed divisor, intersection, and bundle calculations agree with the independent reconstruction. The reviewer requested four presentation precisions: distinguish the contraction F₄→T from the subsequent finite projections; identify the auxiliary section of the quadric chain intrinsically as the chosen endpoint tangent trisecant; specify that the parameter normalizations in this package are P¹ when invoking bundle splitting; and refer to the pulled-back marked bisection rather than an unspecified full inverse-image quartic. These requests do not alter any calculated class or map. The completed synthesis was reread after all four precisions were incorporated. Its revised wording correctly distinguishes these objects and hypotheses. No remaining discrepancy is identified in the reviewed synthesis claims.
+The reviewer also checked Sections 3–5 and 7 of the [synthesis](#2026-10-24-p4-ruled-surfaces-synthesis), including the table's marked bisection and hyperplane classes, both elementary-transform bridges, and the rank-two subbundle splittings. The displayed divisor, intersection, and bundle calculations agree with the independent reconstruction. The reviewer requested four presentation precisions: distinguish the contraction F₄→T from the subsequent finite projections; identify the auxiliary section of the quadric chain intrinsically as the chosen endpoint tangent trisecant; specify that the parameter normalizations in this package are P¹ when invoking bundle splitting; and refer to the pulled-back marked bisection rather than an unspecified full inverse-image quartic. These requests do not alter any calculated class or map. The completed synthesis was reread after all four precisions were incorporated. Its revised wording correctly distinguishes these objects and hypotheses. No remaining discrepancy is identified in the reviewed synthesis claims.
 
 
 
@@ -3138,7 +3138,7 @@ implicitly transferred to characteristic two.
 
 ## 7. Synthesis review
 
-Sections 2–4 and 7 of the [package synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md),
+Sections 2–4 and 7 of the [package synthesis](#2026-10-24-p4-ruled-surfaces-synthesis),
 including every entry of its ruled-surface table, were compared with the
 reviewed notes. The hyperplane and strict-quartic classes, the difference
 between finite normalization and contraction, the two same-center
@@ -3342,7 +3342,7 @@ or STCI implication.
 ## Follow-up audit: flag restriction and characteristic two
 
 After the core reconstruction I read Section 5 of the author's
-[final cubic-duality note](2026-10-24-cubic-scroll-gauss-dual.md).
+[final cubic-duality note](#2026-10-24-cubic-scroll-gauss-dual).
 The identification of its dual normalization with a restriction of the
 residual flag also passes.
 
@@ -3722,7 +3722,7 @@ canonical theorem promotion, or change to the STCI frontier.
 
 ## 8. Final synthesis comparison
 
-The final [package synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md),
+The final [package synthesis](#2026-10-24-p4-ruled-surfaces-synthesis),
 Section 3's row for \(X=V(F)\) and Section 6's four-section and
 arithmetic comparison, was read against the reviewed source notes.
 The \(\mathbb F_4\) model, hyperplane and curve classes, conductor,
