@@ -89,7 +89,6 @@ For new work, retain proof/audit evidence and mathematically informative negativ
 
 ## Consolidation and promotion review (October 26)
 
-- [Consolidation audit](CONSOLIDATION_AUDIT_2026-10-26.md) — branch ancestry, evidence preservation, review criteria; no promotions
 - [Historical provisional inventory](PROVISIONAL_INVENTORY.md) — dated intake register, superseded by canonical results and permanent synthesis
 - [Promotion queue](PROMOTION_QUEUE.md) — scoped candidates and required audits, not canonical theorems
 
