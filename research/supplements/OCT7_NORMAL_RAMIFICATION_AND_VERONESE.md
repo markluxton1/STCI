@@ -798,7 +798,7 @@ E1=L=O(e-7), E2=L^2(D2), E3=L^3(D3).
 ```
 
 Assume also the audited socle-pencil theorem in Section 2 of
-[`2026-10-06-session-localcoh-progress.md`](2026-10-06-session-localcoh-progress.md),
+[`2026-10-06-session-localcoh-progress.md`](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-localcoh-progress),
 the complete primitive-e=1 triple directions and quartic fibres in
 [`2026-10-07-session-mf6-e1-independent-audit.md`](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-independent-auditmd),
 and P-037's all-stage exclusion of multiplier degrees at most three.
