@@ -650,8 +650,8 @@ preserves incomplete work as well as accepted progress.
    accepted separately from their STCI-carrier counterparts.
 
 The new scroll and defect-four results are reviewed in the
-[root acceptance record](2026-10-08-session-new-results-acceptance.md).
-The [late acceptance record](2026-10-08-session-late-results-acceptance.md)
+[root acceptance record](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-new-results-acceptancemd).
+The [late acceptance record](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-late-results-acceptancemd)
 supersedes the former incomplete contact and degenerate-conductor
 boundaries. It accepts the entire e=1,d2=1 ancestor lane, every smooth
 rational quartic-scroll carrier with unrestricted conductor schemes,
@@ -714,7 +714,7 @@ section at infinity and projective b0=0 charts. The node p=2,r=1/2
 has dimension four with a fixed cubic times all linear forms; every
 other valid principal fibre has dimension one. The node reduces to
 P-037 rather than being discarded by a uniform dimension assertion.
-See the [independent completeness proof](2026-10-08-session-principal-e1-d1-independent-completeness-audit.md)
+See the [independent completeness proof](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-principal-e1-d1-independent-completeness-auditmd)
 and [frozen audit record](../validation/2026-10-08-principal-e1-d1-audit/audit-manifest.json).
 Together with the accepted endpoints and primitive-point finite-flat
 obstruction, this closes the entire e=1,d2=1 ancestor lane.
@@ -746,7 +746,7 @@ full quartic-rank incidence remain **OPEN**.
 smooth rational quartic-scroll normalization S->X, the actual downstairs
 conductor is an ACM cubic curve with Hilbert polynomial 3m+1, including
 reducible and nonreduced cases. The
-[independent ACM proof](2026-10-08-session-scroll-acm-independent-audit.md)
+[independent ACM proof](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-acm-independent-auditmd)
 now verifies the entire cohomological route. Here is the root's
 verification, retained as an additional derivation.
 
@@ -783,9 +783,9 @@ are classified; their entire generic canonical modules, Frobenius
 annihilators and actual differential valuations exhaust the residual
 nonreduced cases. The independently proved differential obstruction
 uses the entire mate power, not an ordinary-pinch count or reduced-fibre
-involution. See the [classification](2026-10-08-session-scroll-nongorenstein-cubic-classification.md),
-[exact Artin audit](2026-10-08-session-scroll-artin-independent-audit.md)
-and [full independent audit](2026-10-08-session-scroll-nongorenstein-independent-audit.md).
+involution. See the [classification](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-cubic-classificationmd),
+[exact Artin audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-artin-independent-auditmd)
+and [full independent audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-independent-auditmd).
 **PROVED:** every integral quartic with smooth rational quartic-scroll
 normalization is excluded for fixed C0 in every mate degree. Singular
 normalizations and other smooth polarization classes remain OPEN.
