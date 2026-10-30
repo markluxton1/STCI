@@ -243,3 +243,9 @@ Thirty historical mathematical sources preserved in full in four supplements: `O
 ## Final historical-note migration — October 21–29 and quintic H2 (2026-10-30)
 
 The final twelve historical mathematical sources were preserved in full in two supplements: `OCT21_26_Z4_QUARTIC_SPECIAL_GEOMETRY_AND_FILTRATION.md` (7 sources) and `QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md` (5 sources). Both committed supplements were verified to contain all expected source sections before original deletion. **Cumulative historical sources retired: 549; remaining in `research/notes/`: 0.** This completes source-preserving migration of the enumerated historical-note directory, not an independent correctness audit, editorial integration, or repository-wide inbound-reference cleanup. The next stage is verifying repository-wide coverage and repairing references to retired source paths, followed by subject-level harmonization and careful claim auditing.
+
+## Genus-one proof/certificate link reconciliation — 2026-10-30
+
+Compared `GENUS_ONE_RIBBON_PARTITION_PROOFS.md` with `GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md` directly. The owner uses an `x2=0, x3=1` conductor section; the independent audit uses `x1=0, x3=1` and verifies universal ideal equalities in Macaulay2. They are independent evidence, not redundant proof copies. Both are conditional on the stated upstream ribbon-net and conductor hypotheses; neither addresses `[2,1,1]` or unrestricted STCI.
+
+Four historical relative Markdown links were redirected to retained subject supplements in two committed files (commits `7b5b3f3`, `bf29327`). This is a verified, **scoped** correction, not a repository-wide path or heading-anchor audit. The historical source discussion remains intact; no canonical status changed. Further branch-wide checks remain outstanding.
