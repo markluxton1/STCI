@@ -90,7 +90,18 @@ These approaches study the same hypothetical pair \((F,G)\), but retain differen
 
 There is a plausible research interface: exceptional directions and their special-point degenerations may reflect branches or conductor behavior of a chosen carrier. But **no general identification of these structures has been proved in the canonical records**. The first task is to formulate an exact comparison for a specified carrier and its normalization, not to assume that the two obstruction theories coincide.
 
-## 4.7 What this chapter does and does not establish
+
+## 4.7 Ruled normalizations and conductor: a marked test family
+
+The [ruled projection result R-0028](../results/quartic_ruled_projection_geometry.md) gives explicit geometric models in which the distinctions of this chapter can be checked without conflation. The specified cone has finite normalization P(1,1,4) and smooth resolution F4; the projected cubic has finite normalization F1 and a doubled conductor line branched at the two marked endpoints. The projected scroll/cone intersection has reduced support C with two embedded length-one endpoint corrections. Neither normalization nor resolution is the original carrier, and a reduced inverse curve is not enough to certify descent of a hypersurface section.
+
+The [arithmetic ruled four-section R-0029](../results/quartic_arithmetic_ruled_models.md) adds a specialization test. Its relative Cartier four-section is finite flat over the parameter line with pushforward O plus O(-4) plus O(-8) plus O(-12). The characteristic-zero sections meet at the endpoints, while the characteristic-two fiber is a fourth Cartier multiple of one section. The scheme image of the mu4 orbit fails to commute with restriction to an endpoint, and normalization of the reduced total family does not specialize to normalization of the reduced special curve. This is a concrete warning against interchanging normalization, scheme image, and base change.
+
+The associated flag and dual models, [R-0026](../results/quartic_flag_conormal_geometry.md) and [R-0027](../results/quartic_dual_singular_scheme.md), record endpoint contact and embedded Jacobian corrections. They help identify which nilpotent and conductor information a proposed projection-based argument must retain. They do not show that the conductor gluing criterion for an arbitrary integral carrier is automatically satisfied or violated.
+
+A reusable projection test should therefore compute, in order: the finite normalization, the full inverse support and conductor scheme, the actual pullback of the candidate hypersurface section, and the descent condition on the original surface. A smooth resolution or a divisor-class calculation on its own does not replace this test.
+
+## 4.8 What this chapter does and does not establish
 
 The newer [carrier/conductor/socle interface](carrier_conductor_socle_interfaces.md) adds **scoped** results not covered by the original normalization classification: actual local Cartier-index and socle constraints on normal carriers (R-0034 and R-0035), a pointwise conductor-to-top-socle divisor identity under smooth singleton hypotheses (R-0036), and exclusion of specified plane-projection families (R-0017). These do **not** close the remaining Cartier singleton models or establish a universal conductor-to-normal-filtration comparison.
 
