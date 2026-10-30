@@ -21,7 +21,7 @@ Status: **candidate exclusion; exact resultant identities require a standalone r
 
 This concerns the *necessary restricted-conductor support incidence* in the characteristic-zero genus-one A4 quintic projection analysis, **not** a proof about the original rational-quartic STCI question. Work on the finite monic exact-gcd-two chart with parameters `delta,a,B,G,j,v,w`, quadratic `H=x^2+vx+w`, primitive source conductor `F_src=H Q`, and the source note's open conditions `delta E Delta1 != 0`. Do not invert the discriminant of H or the inverse-map denominator globally. Coordinate conventions matter: use the actual source-coordinate conductor, not the older shifted coefficient array.
 
-Primary background: [conductor quotient](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient) and [global monic ODE incidence](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md).
+Primary background: [conductor quotient](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient) and [global monic ODE incidence](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence).
 
 ## Degree-five branch
 
@@ -535,7 +535,7 @@ gcd(f,g)=1.
 ```
 Since delta != 0 and v != 0 implies delta != -1, the resultants cannot vanish simultaneously. QED.
 
-**Exact source-based verifier:** [verify_quintic_h2_degree_five.py](../computations/verify_quintic_h2_degree_five.py). **Global hypotheses:** [monic incidence](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md). **Working reduction:** [degree-five dossier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md#source-quintic-h2-degree-five-support-incidence-working-dossiermd).
+**Exact source-based verifier:** [verify_quintic_h2_degree_five.py](../computations/verify_quintic_h2_degree_five.py). **Global hypotheses:** [monic incidence](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence). **Working reduction:** [degree-five dossier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md#source-quintic-h2-degree-five-support-incidence-working-dossiermd).
 
 **Limit:** This excludes the j=0 branch only. The j != 0, degree-six branch is unresolved. The necessary incidence is not equivalent to STCI existence. The argument does not invert the discriminant of H or inverse-map denominators.
 
@@ -552,7 +552,7 @@ Since delta != 0 and v != 0 implies delta != -1, the resultants cannot vanish si
 
 For the quintic h2 projection/mate investigation, determine whether the *necessary* common-conormal-quadratic, conductor-divisibility, and conductor-support ODE incidence has points. Even a point of this incidence would **not** by itself produce a projection or an STCI: inverse fibers, center avoidance, and nonlinear conductor descent remain additional conditions.
 
-The global, denominator-free formulation and its hypotheses are in [the monic ODE incidence note](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md). This dossier treats the **degree-five branch** `j=0`; the degree-six branch `j != 0` remains open. Keep the global open `delta * E * Delta1 != 0`; do not invert the discriminant of H or inverse-map denominators.
+The global, denominator-free formulation and its hypotheses are in [the monic ODE incidence note](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence). This dossier treats the **degree-five branch** `j=0`; the degree-six branch `j != 0` remains open. Keep the global open `delta * E * Delta1 != 0`; do not invert the discriminant of H or inverse-map denominators.
 
 ## Exact common-factor reduction for j=0
 
@@ -644,7 +644,7 @@ This is an investigation dossier, not an audit log. Ordinary correction history 
 
 ## Current result
 
-The characteristic-zero degree-five (j=0) branch of the necessary common-conormal-quadratic/conductor-support incidence has been excluded. See [proof](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md#source-quintic-h2-degree-five-exclusionmd) and [exact verifier](../computations/verify_quintic_h2_degree_five.py). This is not an STCI nonexistence theorem. The degree-six (j != 0) branch remains unresolved. The global model, including the discriminant-zero and inverse-map boundaries, is [here](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md).
+The characteristic-zero degree-five (j=0) branch of the necessary common-conormal-quadratic/conductor-support incidence has been excluded. See [proof](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md#source-quintic-h2-degree-five-exclusionmd) and [exact verifier](../computations/verify_quintic_h2_degree_five.py). This is not an STCI nonexistence theorem. The degree-six (j != 0) branch remains unresolved. The global model, including the discriminant-zero and inverse-map boundaries, is [here](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence).
 
 ## Recommended continuation, when research resumes
 
