@@ -415,7 +415,7 @@ C0, let nu:S->X be its finite normalization, and let
 H=nu*O_X(1). Suppose its normalization sectional genus is pi=1.
 The proof does not require a mate.
 
-The accepted [nonrational-normalization theorem](2026-10-09-session-nonrational-quartic-normalizations.md)
+The accepted [nonrational-normalization theorem](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
 shows that S is rational. Let sigma:M->S be its minimal smooth
 resolution and L=sigma*H. Then L is a nef and big Cartier divisor,
 L^2=4, and a general smooth hyperplane curve of class L has genus
@@ -505,7 +505,7 @@ effective rational exceptional correction Z with
 
     c#+Z numerically equivalent to L,       -Z^2=2 pi=2.
 
-The previous [sectional-genus proof](2026-10-09-session-normalization-sectional-genus-zero.md)
+The previous [sectional-genus proof](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
 establishes this identity without assuming that c is Cartier. On the
 rational weak del Pezzo M, the integral class L-c# realizes Z in
 the saturation of the exceptional root lattice inside the
@@ -773,7 +773,7 @@ degree-four curve C0. Let nu:S->X be its finite normalization,
 sigma:M->S its minimal smooth resolution, H=nu*O_X(1), and L=sigma*H.
 Assume normalization sectional genus pi=2.
 
-The accepted [rationality theorem](2026-10-09-session-nonrational-quartic-normalizations.md)
+The accepted [rationality theorem](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
 gives rational M, without a mate hypothesis. The basic data are
 
     L nef, big and globally generated,
@@ -1647,7 +1647,7 @@ There are consequently at most two horizontal exceptional
 ## 4. The correct mate identity retains two different strata
 
 Assume now that an ambient mate of degree b exists. The accepted
-[full-support and smooth-lift identities](2026-10-09-session-normalization-sectional-genus-zero.md)
+[full-support and smooth-lift identities](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
 give a smooth embedded curve c in S isomorphic to the degree-four
 rational C and an effective pullback divisor on M
 
