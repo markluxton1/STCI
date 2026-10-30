@@ -29,7 +29,7 @@ C=[s^4:s^3t:st^3:t^4],\qquad
 Z=V(x_1^4-x_0^3x_3,\ x_2^4-x_0x_3^3).
 \]
 
-The accepted input is [STCI-R-0021](../results/quartic_mu4_degeneration.md): this prescribed integral family is flat, has four reduced quartic components in geometric characteristic zero, and has generic transverse length four on the sole reduced support \(C\) in characteristic two. Its source note supplies the local branch-separation formula and conductor boundary. The [ruled-surface synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md), sections 5–6, and its linked audits supply additional **provisional, independently audited geometry**, rather than promoted results. No accepted argument is reopened here.
+The accepted input is [STCI-R-0021](../results/quartic_mu4_degeneration.md): this prescribed integral family is flat, has four reduced quartic components in geometric characteristic zero, and has generic transverse length four on the sole reduced support \(C\) in characteristic two. Its source note supplies the local branch-separation formula and conductor boundary. The [ruled-surface synthesis](CUBIC_SCROLL_AND_RULED_SURFACES.md#p4-ruled-surfaces-synthesis), sections 5–6, and its linked audits supply additional **provisional, independently audited geometry**, rather than promoted results. No accepted argument is reopened here.
 
 ## 1. Start with an honest ambiguity in “closer”
 
@@ -284,7 +284,7 @@ with its [source discussion](2026-10-23-quartic-characteristic-conormal.md):
 \(V(F,G)\) is the reduced union of the four \(C_\zeta\) in characteristic
 zero and has reduced support \(C\), generic multiplicity four, in
 characteristic two. The common ruled-surface picture in
-[the October 24 synthesis](2026-10-24-p4-ruled-surfaces-synthesis.md) is
+[the October 24 synthesis](CUBIC_SCROLL_AND_RULED_SURFACES.md#p4-ruled-surfaces-synthesis) is
 reviewed provisional evidence; none of its global claims is needed below.
 
 The family, discriminant, and elliptic interpretation below are fresh
@@ -569,7 +569,7 @@ F=x_1^4-x_0^3x_3,\quad G=x_2^4-x_0x_3^3,
 \quad Z=V(F,G).
 \]
 
-Write \(p=[1:0:0:0]\), \(q=[0:0:0:1]\). The prescribed four-component decomposition and mixed-characteristic flatness are promoted in [STCI-R-0021](../results/quartic_mu4_degeneration.md); its [source note](2026-10-23-quartic-characteristic-conormal.md), Section 1, supplies the endpoint contact calculation. These established inputs are used without rerunning their proof. The ruled cubic used for a competing example below comes from [the independently reviewed provisional cubic-scroll note](2026-10-24-cubic-scroll-normalization.md); that geometry has not been promoted canonically.
+Write \(p=[1:0:0:0]\), \(q=[0:0:0:1]\). The prescribed four-component decomposition and mixed-characteristic flatness are promoted in [STCI-R-0021](../results/quartic_mu4_degeneration.md); its [source note](2026-10-23-quartic-characteristic-conormal.md), Section 1, supplies the endpoint contact calculation. These established inputs are used without rerunning their proof. The ruled cubic used for a competing example below comes from [the independently reviewed provisional cubic-scroll note](CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-normalization); that geometry has not been promoted canonically.
 
 ## 1. An intuitive starting point: the same genus in different places
 
