@@ -337,7 +337,19 @@ The genus-one net is \(M(d)\eta=0\), with \(\eta_1^2-\eta_0\eta_2\ne0\), and the
 
 There is also a necessary **ramification countershield**: an isolated rank-one differential of a projection from a smooth surface point does not by itself force a residual curve, a nonnormal surface, or failure of the mate condition. Such an inference requires an actual global fiber, divisor, or conductor obstruction. In particular, two toric model families are not automatically exhaustive when their coordinate changes move the omitted-middle projection center. The uniform projection analysis keeps the complete fibers, including points over singularities and the parameter endpoints, rather than treating a convenient affine chart as global. [Actual-coordinate projection analysis](../notes/2026-10-09-session-genus-one-uniform-projection-adversarial.md).
 
-## 19. Genus-two marked section case: established constraints versus surviving graphs
+## 19. Genus-two marked section case
+
+### Full free-chain proof for the \(B\)-absent marked case
+
+When \(B=e_0-e_i-e_j\) is absent, all eight blowup centers form free chains; there is no satellite. A horizontal proper line has four centers on its strict transform. Once a chain leaves that line, it cannot return to it, because the next center is at a different point of the exceptional divisor.
+
+For a single horizontal line \(H\), let a chain contain \(s\) centers on the line and \(t\) centers off it. The whole \(A_{s+t-1}\) chain attaches at its \(s\)-th vertex. Eliminating the negative Cartan intersection matrix contributes \(st/(s+t)\) to the correction at \(H\). Since the horizontal coefficient is one, the contributions must sum to two. The constraints \(\sum s\le4\), \(\sum t\le4\) and Cauchy force equality: all four on-line and four off-line centers participate, with \(s=t\) in each cluster. For an integral anti-nef local uniformizer cycle \(Y\) with \(Y_H=1\), discrete concavity along the chain forces its neighboring coefficient at \(H\) to be at least \(\min(s,t)\). Summing gives at least four neighbors, whereas \(Y\cdot H\le0\) permits at most three. Contradiction.
+
+For two horizontal lines, their strict transforms meet at exactly one shared simple center. They account for seven centers, leaving one outside their union. The common free chain follows at most one of the lines: leaving that line would connect the entire null prefix to both positive-horizontal-degree primes, violating the connected-exceptional-graph constraint. It ends on the line, giving an endpoint \(A_k\) arm to the other line, \(k\le3\). The outside center supplies at most one additional arm, of contribution \(s/(s+1)\), \(s\le3\). If the two arms are split between the lines, their total horizontal correction is at most \(8/9\). If both lie on the same line, it is at most one. The required equality \(K\cdot Z=1\) forces the latter bound to be attained, with \(k=s=3\).
+
+In that equality configuration all eight centers lie in two clusters rooted at \(P,Q\) on the same horizontal line; the first-child directions are the two horizontal lines. A vertical exceptional proper line would pass through the original point \(p_0\) and two simple centers. It cannot contain both \(P,Q\), whose joining line is horizontal and misses \(p_0\); at either root its direction is different from the first child's horizontal direction, so it cannot contain a later center. Thus no vertical proper exceptional line exists. The two horizontal lines are the only positive-\(h\)-degree exceptional primes, and their coefficients sum to one. This yields \(h\cdot Z=1\), contradicting \(h\cdot Z=3\). The \(B\)-absent case is excluded. The \(B\)-present satellite patterns are **not** excluded by this proof.
+
+: established constraints versus surviving graphs
 
 For the genus-two section stratum \(\lambda=1\), the plane marking gives
 \[
