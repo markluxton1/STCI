@@ -881,7 +881,7 @@ exact companions. The proof is the following complete chain:
    partitions are squarefree, `[2,1,1]`, `[3,1]`, `[2,2]`, and `[4]`.
 6. Squarefree and all `[2,1,1]` cases are excluded by the separately
    checked derivative map, including its only common-basepoint locus.
-   The [complete repeated-partition proof](2026-10-09-session-ribbon-repeated-partitions-complete.md)
+   The [complete repeated-partition proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md)
    and separate audit exclude every remaining partition. Endpoints,
    zero direction coordinates and the derivative-invisible coefficient
    are retained; only center-preserving diagonal changes and reversal
@@ -963,7 +963,7 @@ along `Gamma`. This is a structural reduction, not a mate exclusion.
 
 ## 4. Accepted markings and a bounded section-case exclusion
 
-The [marking audit](2026-10-10-session-genus-two-marking-and-section-pause-audit.md)
+The [marking audit](GENUS_TWO_MARKING_AND_SECTION_PROOF.md)
 accepts the remaining ruled/plane marking steps of the
 [adjoint model](2026-10-09-session-genus-two-adjoint-conic-model.md),
 including the exact vertical `D8` lattice. The complete pencil
