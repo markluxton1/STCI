@@ -884,7 +884,7 @@ identity contradicts the degree-four rational curve whenever the
 normalization is nonrational. It applies to this lane and gives a
 rational normalization.
 
-The [independent genus-one ADE proof](2026-10-09-session-rational-genus-one-ADE-independent-audit.md)
+The [independent genus-one ADE proof](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-rational-genus-one-ade-independent-auditmd)
 then applies to its minimal resolution `sigma:M->S`, with
 `L=sigma*H`. It proves the actual linear equivalences `K_M~-L` and
 `K_S~-H`, and a compatible crepant equality, before invoking the
@@ -894,7 +894,7 @@ does not assume rational singularities or Gorensteinness prematurely.
 It follows that `M` is weak del Pezzo of degree four and `S` is a
 Gorenstein ADE del Pezzo surface with ample anticanonical divisor `H`.
 
-The [independent D5 proof](2026-10-09-session-delpezzo-D5-root-independent-audit.md)
+The [independent D5 proof](OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-root-independent-auditmd)
 uses the actual class `Z=L-c#` in the free Picard group of rational
 `M`. Adjunction and `L.c#=4` give `c#^2=2`, hence `Z^2=-2`.
 The pullback of the effective Cartier divisor `b c` gives
@@ -968,7 +968,7 @@ center; arbitrary parameter changes must not be treated as doing so.
 ## 5. Entire conductor and sign conventions
 
 The [entire-conductor proof](2026-10-09-session-genus-one-entire-conductor.md)
-and [independent algebra audit](2026-10-09-session-genus-one-entire-conductor-algebra-independent-audit.md)
+and [independent algebra audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd)
 have all their conditional geometric hypotheses established by section 4.
 One pencil member has nonzero `z^2` coefficient because the center
 misses `S`; cancel that coefficient from the other. Its remaining
