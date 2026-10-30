@@ -46,3 +46,7 @@ Required hypotheses:
 Canonical dependencies: STCI-R-0032. Additional inherited premises are in the proof and audit.
 - Uses inherited P-010 direction classes for the C0 consequence
 - Does not exclude moving first relations, extra next-order relations, or positive-defect models
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
