@@ -23,11 +23,11 @@ Canonical statements are in [R-0028](../results/quartic_ruled_projection_geometr
 
 Date: 2026-10-24. Author: independent research agent `four_sheet`.
 Status: **provisional intrinsic geometry; independently reconstructed and
-reviewed in the [arithmetic and normalization audit](2026-10-24-four-sheet-arithmetic-independent-audit.md)
-and the [comparison audit](2026-10-24-ruled-comparison-independent-audit.md);
+reviewed in the [arithmetic and normalization audit](#four-sheet-arithmetic-independent-audit)
+and the [comparison audit](#ruled-comparison-independent-audit);
 no canonical promotion**. Work over an algebraically closed field of
 characteristic zero unless a base is specified. The arithmetic companion
-[studies specialization separately](2026-10-24-ruled-surfaces-arithmetic.md).
+[studies specialization separately](#ruled-surfaces-arithmetic).
 
 The fixed objects are
 \[
@@ -289,7 +289,7 @@ For $\xi\in\mu_4$ it permutes the four curves. It extends through the
 pencil resolution and acts on its base by $\lambda\mapsto\xi\lambda$.
 Over characteristic zero, this is the usual action of four geometric
 points. Over $\mathbf Z_{(2)}$ its group scheme meaning must be kept;
-the [arithmetic note](2026-10-24-ruled-surfaces-arithmetic.md) treats it.
+the [arithmetic note](#ruled-surfaces-arithmetic) treats it.
 
 ```mermaid
 flowchart LR
@@ -336,7 +336,7 @@ flowchart LR
  S -->|"omit st³"| X["quartic cone X in P3"]
 ```
 
-The [projection-cone companion](2026-10-24-projection-cone-ruled-model.md)
+The [projection-cone companion](#projection-cone-ruled-model)
 explains the nonnormal vertex of $S$ and the exact distinction between
 linear equivalence of graph sections on $Y,T$ and Cartier descent on $S$.
 
@@ -392,9 +392,9 @@ normalization or minimal resolution of $X$.
 ## 7. Scope, evidence, and remaining questions
 
 All bundle, normalization, conductor, intersection, and blowup statements
-above are proved by the displayed constructions. The [independent comparison audit](2026-10-24-ruled-comparison-independent-audit.md)
+above are proved by the displayed constructions. The [independent comparison audit](#ruled-comparison-independent-audit)
 reconstructs the pencil resolution and the marked elementary transformations.
-The [central normalization audit](2026-10-24-four-sheet-arithmetic-independent-audit.md)
+The [central normalization audit](#four-sheet-arithmetic-independent-audit)
 also checks the full inverse-image ideals as well as the reduced curve classes;
 its final source comparison records no remaining discrepancy. No novelty is asserted: the normalization of cones and
 Hirzebruch-surface calculations are standard mechanisms, and the package's
@@ -444,13 +444,13 @@ them and records the limits of the identifications.
 | Assignment | Report and evidence |
 | --- | --- |
 | I: ambient blowup, the two quartics, hyperplane choices, upstairs incidences | [Resolved projection in four-space](2026-10-24-p4-resolved-projection.md) |
-| II: cone, finite normalization, resolution, section family | [Projection cone](2026-10-24-projection-cone-ruled-model.md) |
-| III: quadric, cubic incidence, conductor, same-center cubic scroll | [Cubic scroll](2026-10-24-cubic-scroll-normalization.md) |
-| IV: common quartic cone, four sections, intersection schemes | [Four-section ruled surface](2026-10-24-four-sheet-ruled-surface.md) |
-| IV: group schemes, orbit images, arithmetic normalization, contact comparison | [Arithmetic](2026-10-24-ruled-surfaces-arithmetic.md) |
-| V: actual elementary transformations and the degree-two base change | [Independent comparison](2026-10-24-ruled-comparison-independent-audit.md) |
+| II: cone, finite normalization, resolution, section family | [Projection cone](#projection-cone-ruled-model) |
+| III: quadric, cubic incidence, conductor, same-center cubic scroll | [Cubic scroll](#cubic-scroll-normalization) |
+| IV: common quartic cone, four sections, intersection schemes | [Four-section ruled surface](#four-sheet-ruled-surface) |
+| IV: group schemes, orbit images, arithmetic normalization, contact comparison | [Arithmetic](#ruled-surfaces-arithmetic) |
+| V: actual elementary transformations and the degree-two base change | [Independent comparison](#ruled-comparison-independent-audit) |
 | Independent reconstruction of I–III | [Central-model audit](2026-10-24-p4-ruled-models-independent-audit.md) |
-| Independent reconstruction of IV | [Four-section and arithmetic audit](2026-10-24-four-sheet-arithmetic-independent-audit.md) |
+| Independent reconstruction of IV | [Four-section and arithmetic audit](#four-sheet-arithmetic-independent-audit) |
 | Literature and priority limits | [Source check](#2026-10-24-ruled-surfaces-literature) |
 
 Retrieval followed [INDEX](../INDEX.md), the requested state/frontier
@@ -819,7 +819,7 @@ Throughout Sections 1–8, \(k\) is algebraically closed of characteristic zero.
  c([s:t])=[s^4:s^3t:st^3:t^4],\qquad
  R=V(x_0x_2^2-x_1^2x_3)\subset\mathbf P^3.
 \]
-This is intrinsic projective geometry, with no STCI inference. The [earlier special-lines note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md), Section 5, and its [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md), Section 4, give the motivating paired-secant formula. We reconstruct it and all normalization and divisor claims used here. No novelty claim is made. The general projection/cone constructions are treated in the companion notes on [resolved projection](2026-10-24-p4-resolved-projection.md) and the [cone](2026-10-24-projection-cone-ruled-model.md).
+This is intrinsic projective geometry, with no STCI inference. The [earlier special-lines note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md), Section 5, and its [geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit), Section 4, give the motivating paired-secant formula. We reconstruct it and all normalization and divisor claims used here. No novelty claim is made. The general projection/cone constructions are treated in the companion notes on [resolved projection](2026-10-24-p4-resolved-projection.md) and the [cone](#projection-cone-ruled-model).
 
 ## 1. The quadric and its two rulings
 
@@ -1133,7 +1133,7 @@ of new mathematics in the literature.
 
 The value \(I^3/J^2=27\) is the discriminant value in the chosen
 binary-quartic invariant normalization. The previous
-[invariant-theory source check](2026-10-24-quartic-invariant-literature-outlook.md)
+[invariant-theory source check](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md#quartic-invariant-literature-outlook)
 records the exact convention. Our scroll construction introduces no
 configuration of twenty-seven lines, and no implication from this value
 to the line geometry of a smooth cubic surface has been proved. The
@@ -1157,7 +1157,7 @@ gap in the elementary proofs supplied in the new notes.
 # Arithmetic of the four sections and the contact correspondences
 
 Date: 2026-10-24. Status: **provisional research argument; independent
-review is recorded in the [companion audit](2026-10-24-four-sheet-arithmetic-independent-audit.md); no canonical promotion**.
+review is recorded in the [companion audit](#four-sheet-arithmetic-independent-audit); no canonical promotion**.
 
 The base is $A=\mathbf Z_{(2)}$, with fraction field $K=\mathbf Q$
 and residue field $k=\mathbf F_2$; geometric fibers can subsequently
@@ -1172,9 +1172,9 @@ supplies the already established flatness and fiber description of this
 particular complete intersection. The present argument reconstructs the
 additional ruled-model and normalization claims, rather than rerunning
 that accepted calculation. The coordinate description of the ruled model
-is proved in the [four-section note](2026-10-24-four-sheet-ruled-surface.md).
-The prior [symmetric-square note](2026-10-24-quartic-symmetric-square-bitangents.md)
-and [projection audit](2026-10-24-quartic-projection-independent-audit.md)
+is proved in the [four-section note](#four-sheet-ruled-surface).
+The prior [symmetric-square note](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md#quartic-symmetric-square-bitangents)
+and [projection audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-independent-audit)
 are provisional background; the contact formulas used here are derived
 again in Section 7. No carrier-exclusion or arithmetic-nonlifting theorem
 is used.
@@ -1469,7 +1469,7 @@ base, not substituted silently into (12).
 
 The graph pencil $q=\eta h$, $\eta\in\mathbf P^1$, has base
 divisor $3p_0+p_\infty$ on its finite graph sections. The
-[four-section note](2026-10-24-four-sheet-ruled-surface.md) resolves it
+[four-section note](#four-sheet-ruled-surface) resolves it
 by three successive point blowups over $p_0$ and one over
 $p_\infty$. The base centers and their successive transforms are
 defined over $A$, so the construction works arithmetically. The
@@ -1770,7 +1770,7 @@ The contraction \(\mathbb F_4\to T\) precedes the finite projections and is not 
 Date: 2026-10-24. Author role: `scroll_duality`.
 
 **Status: proposed intrinsic geometry with proofs, independently reviewed in the
-[companion audit](2026-10-24-cubic-scroll-dual-independent-audit.md); not a canonical
+[companion audit](#cubic-scroll-dual-independent-audit); not a canonical
 result record.** Throughout, \(k\) is algebraically closed of characteristic zero,
 
 \[
@@ -1784,7 +1784,7 @@ rational quartics or all cubic scroll projections. It has no STCI conclusion.
 ## 1. Retained input and conventions
 
 We retain the independently reviewed construction of the smooth finite
-normalization from the [merged cubic-scroll note](2026-10-24-cubic-scroll-normalization.md),
+normalization from the [merged cubic-scroll note](#cubic-scroll-normalization),
 Sections 2–5, and its
 [independent audit](2026-10-24-p4-ruled-models-independent-audit.md), Section 3.
 We do not rerun that normalization proof. In its notation,
@@ -2391,7 +2391,7 @@ z=[0:0:1:0:0],\qquad S=\bigcup_{p\in\mathbf P^1}\overline{zC_4(p)}
 
 The source dependencies are the [research protocol](../INDEX.md), the
 [contribution instructions](../CONTRIBUTING_AGENT.md), and the setup of the
-[earlier projection note](2026-10-24-quartic-projection-automorphisms.md).
+[earlier projection note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-automorphisms).
 The bundle construction, normalization, conductor, and section claims
 are reconstructed below. No STCI result or carrier exclusion is used.
 The [resolved-projection report](2026-10-24-p4-resolved-projection.md)
@@ -2751,7 +2751,7 @@ related through a universal incidence, without being the same problem.
 
 ## 7. A concrete bridge to the common quartic surface
 
-The [four-section surface note](2026-10-24-four-sheet-ruled-surface.md)
+The [four-section surface note](#four-sheet-ruled-surface)
 studies \(F=x_1^4-x_0^3x_3\). The relation to this cone is an actual
 linear projection, not just the rationality of the two surfaces. In
 the complete normalized cone's coordinates
@@ -3052,8 +3052,8 @@ preserving the unordered endpoint pair without that extra choice.
 ## 6. Final draft comparison, corrections, and review boundary
 
 The final texts of the [resolved-projection report](2026-10-24-p4-resolved-projection.md),
-[projection-cone note](2026-10-24-projection-cone-ruled-model.md), and
-[cubic-scroll note](2026-10-24-cubic-scroll-normalization.md) were read in
+[projection-cone note](#projection-cone-ruled-model), and
+[cubic-scroll note](#cubic-scroll-normalization) were read in
 full and compared with the independent reconstruction above. The
 following less obvious additions were checked explicitly.
 
@@ -3171,7 +3171,7 @@ synthesis sections or table.
 Work over an algebraically closed field of characteristic zero with
 \(R=(x_0x_2^2-x_1^2x_3=0)\) and \(Q=(x_0x_3-x_1x_2=0)\).
 I read `research/INDEX.md`, `AUTHORITY.md`, and `CONTRIBUTING_AGENT.md`.
-The retained input is the reviewed [normalization](2026-10-24-cubic-scroll-normalization.md):
+The retained input is the reviewed [normalization](#cubic-scroll-normalization):
 \[
 T=\mathbb F_1,\quad E^2=-1,\quad H=E+2f,\quad
 \nu=[Av_0^2:Bv_0:Bv_1:Av_1^2],
