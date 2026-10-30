@@ -19,12 +19,12 @@ of the full residual incidence is asserted.
 ## 1. Saved work and exact authority
 
 The pre-interruption contribution is
-[the October 20 surface-bound proposal](2026-10-20-conditional-2-12-surface-bound.md).
+[the October 20 surface-bound proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-surface-bound).
 It proves that an ACTUAL supported pair in the exact conditional
 configuration cannot have a normal strict sextic `D` on
 `B=Bl_C0(P3)`. Its proof was independently reconstructed by
 `incidence_audit` in
-[the October 21 audit, section 2](2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus.md).
+[the October 21 audit, section 2](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus).
 The inherited mathematical inputs are promoted R-0010 and R-0011;
 the finite singular-root bridge remains a separately reviewed,
 unpromoted dependency. This continuation does not broaden those
@@ -238,8 +238,8 @@ at every full root point. The full root `Z=(f)` is reduced of class
 `(2,2)` on `E`, and `Z->C` is finite flat of degree two.
 
 This review concerns
-[the strict-surface proposal](2026-10-20-conditional-2-12-surface-bound.md)
-and [the forced-norm proposal](2026-10-20-conditional-2-12-geometric-continuation.md).
+[the strict-surface proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-surface-bound)
+and [the forced-norm proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-geometric-continuation).
 Inherited chart, normal-flatness and root-obstruction verifiers were
 not rerun. The normal-surface argument below was independently
 reconstructed from its geometric inputs.
@@ -649,11 +649,11 @@ zero, degrees `(6,16)`, sole reduced support `C0`, FULL generic coprime
 ordinary initial CI `(2,12)`, and ACTUAL saturated movement-two first
 relation. The reviewed inputs are:
 
-* [the cubic-image and conductor interface](2026-10-21-conditional-2-12-cubic-image-and-conductor-interface.md);
-* [the conductor-ramification proposal](2026-10-21-conditional-2-12-conductor-ramification.md), sections 1--6;
-* [the normality and ampleness audit](2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus.md),
+* [the cubic-image and conductor interface](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface);
+* [the conductor-ramification proposal](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification), sections 1--6;
+* [the normality and ampleness audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus),
   whose nodal extension was independently reconstructed in
-  [the surface continuation](2026-10-21-conditional-2-12-surface-bound-continuation.md).
+  [the surface continuation](#2026-10-21-conditional-2-12-surface-bound-continuation).
 
 The singular-root finite bridge remains an explicit reviewed but
 unpromoted dependency. The canonical lower-carrier input was read in
@@ -882,7 +882,7 @@ saturated-first-relation application uses the hypotheses of
 [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) and
 the separately supplied finite singular-root bridge. The new global
 source map is the previously recorded
-[exact sextic symbol calculation](2026-10-20-conditional-2-12-symbol-map.md).
+[exact sextic symbol calculation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map).
 
 The exact new computations are:
 
