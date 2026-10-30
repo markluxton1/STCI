@@ -194,6 +194,10 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Conditional (2,12) continuation and sextic exclusions](supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md)
 - [Higher initial ideals and embedded thickening obstructions](supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
 
+## Historical source-link audit: October 7–14 (October 30)
+
+The October 7–9 and October 10–14 supplement compilations received source-heading-based link repairs. In the completed passes, **209** retired-filename links were replaced with links to retained source sections. A scoped check confirmed **120** valid heading links in the twelve-file October 7–9 group and **89** in the eight-file October 10–14 group. This is **not** a repository-wide link audit; remaining unmatched historical references need a global destination lookup, and proof-level deduplication remains separate.
+
 ## Genus-one and genus-two proof dependencies (October 30)
 
 For the **genus-one normalization lane**, start with [ribbon and conormal-net reduction](supplements/GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md#dependency-guide-ribbon-reduction-and-quadratic-net), then [actual projection and ramification conditions](supplements/GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md#dependency-guide-actual-projection-and-ramification-boundary), [the repeated-contact partition proof](supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md#dependency-guide-partition-by-partition-exclusion), and [independent complete-ideal certificates](supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md#dependency-guide-independent-certificate-versus-source-proof). The [4], [3,1], and [2,2] exclusions are conditional and distinct from [2,1,1].
