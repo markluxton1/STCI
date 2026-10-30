@@ -1190,7 +1190,7 @@ If the sole horizontal common root is the graph of a degree-\(\epsilon\) morphis
 
 This holds despite arbitrary multiplicities of that root and arbitrary special-point degenerations.
 
-For the STCI specialization, put \(x=d/p\), \(y=e/q\). The [inherited thick audit](2026-10-06-session-thick-independent-audit.md) proves that neither equation can be divisible by \(Q\), and restriction to \(Q\) then gives \(x,y\ge3\). This premise is supported by the linked audited legacy evidence; there is no separate ID-bearing promoted record for that numerical restriction in the current canonical index. This dependence is essential: the lower bounds are not asserted for arbitrary residual pairs containing a quadric factor. Since \(m=de/4\) and \(\lambda=0\), (A10) becomes
+For the STCI specialization, put \(x=d/p\), \(y=e/q\). The [inherited thick audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit) proves that neither equation can be divisible by \(Q\), and restriction to \(Q\) then gives \(x,y\ge3\). This premise is supported by the linked audited legacy evidence; there is no separate ID-bearing promoted record for that numerical restriction in the current canonical index. This dependence is essential: the lower bounds are not asserted for arbitrary residual pairs containing a quadric factor. Since \(m=de/4\) and \(\lambda=0\), (A10) becomes
 
 \[
 \boxed{\frac{7-s}{4}xy+7+s\ge4(x+y)}.
