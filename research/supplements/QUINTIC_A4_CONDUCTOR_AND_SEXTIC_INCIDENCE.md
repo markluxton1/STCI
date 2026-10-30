@@ -1663,7 +1663,7 @@ projection hypothesis. Write `d=delta`, `k=kappa=aq+B`,
 
 Impose the complete finite common-root incidence `Pt(q)=Jt(q)=0`, with
 `G=Gs,J=Js` as in the accepted
-[Taylor incidence](2026-10-13-session-nonendpoint-single-root-taylor-incidence.md).
+[Taylor incidence](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence).
 The actual octic conductor restriction has expansion
 
     F(q+t)=sum_(i=1)^8 f_i t^i,
@@ -1684,7 +1684,7 @@ Jbar nonzero or the sole-root condition.
 **New all-mate consequence.** If additionally `Jbar=Js!=0` and q is
 the sole common homogeneous conormal root, there is no mate of any
 positive degree on the regular chart. The inherited
-[quotient-fiber theorem](2026-10-13-session-nonendpoint-single-root-quotient-fibers.md)
+[quotient-fiber theorem](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-quotient-fibers)
 already excludes the regular L1 branch under full inverse support.
 The remaining branch has `L1!=0,L2=0`, but full inverse support and
 the sole-root/Jbar hypotheses concentrate the nonzero degree-eight
