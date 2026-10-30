@@ -11,7 +11,7 @@ Full original source text is preserved below, including calculations, qualificat
 Date: 2026-10-08. Fixed curve
 `C0=[s^4:s^3t:st^3:t^4]`, over an algebraically closed characteristic-zero
 field. This note complements the
-[independent open-chart rank proof](2026-10-08-session-mf6-principal-rank-open-independent-audit.md).
+[independent open-chart rank proof](#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd).
 It uses actual complete quartic spaces at every exceptional frame, rather
 than specializing a generic nullspace basis. No canonical records were
 edited. The unrestricted C0 and universal STCI problems remain open.
@@ -201,8 +201,8 @@ cannot be supported on a twisted cubic. The degree-four alternative
 cannot have sole reduced support of degree three, because its generic
 multiplicity there would have to be an integer. This proves
 integrality, including over an algebraic closure. The
-[accepted applicability proof](2026-10-08-session-scroll-conductor-applicability.md)
-and [adversarial audit](2026-10-08-session-scroll-conductor-adversarial.md)
+[accepted applicability proof](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-applicabilitymd)
+and [adversarial audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-adversarialmd)
 then exclude every mate degree.
 
 At (p,r)=(8,1/2), the Jacobian cone has dimension two and degree five.
@@ -546,7 +546,7 @@ quartic carriers is a separate problem and is not claimed here.
 
 Date: 2026-10-08. Status: **PROVED all-mate exclusion**, with exact
 normalization/conductor identities and a completed
-[independent audit](2026-10-08-session-mf6-rhalf-scroll-independent-audit.md).
+[independent audit](#source-2026-10-08-session-mf6-rhalf-scroll-independent-auditmd).
 This is a fixed member of the principal
 e=1,d2=1 quartic family, not an exclusion of every member of that family.
 
@@ -639,7 +639,7 @@ height two, and the Hilbert--Burch resolution makes its projective
 curve an ACM cubic with Hilbert polynomial 3m+1. The entire actual
 conductor of this smooth quartic-scroll normalization also has
 polynomial 3m+1 by the duality calculation in the
-[applicability note](2026-10-08-session-scroll-conductor-applicability.md).
+[applicability note](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-applicabilitymd).
 The inclusion J subset I gives a coherent quotient I/J. Its Hilbert
 polynomial is zero; a nonzero coherent sheaf on projective space has a
 nonzero Hilbert polynomial. Hence the conductor ideal sheaves agree:
@@ -961,16 +961,16 @@ review, not a universal STCI resolution or a novelty claim.
 This is the intermediate acceptance record. Its statements of pending
 audit and the remaining reducible/nonreduced conductor boundary describe
 that stage of the work. The
-[late reconciliation](2026-10-08-session-late-results-acceptance.md)
+[late reconciliation](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-late-results-acceptancemd)
 records the completed independent audits, full smooth-scroll exclusion,
 principal ancestor closure and current remaining strata.
 
 ## 1. Every integral quartic singular along a smooth twisted cubic
 
 **Accepted:** such a quartic has no mate cutting out C0 set-theoretically,
-in any positive degree. The [applicability proof](2026-10-08-session-scroll-conductor-applicability.md)
-and [conductor criterion](2026-10-08-session-irreducible-conductor-compression.md)
-together supply the argument. The [independent adversarial audit](2026-10-08-session-scroll-conductor-adversarial.md)
+in any positive degree. The [applicability proof](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-applicabilitymd)
+and [conductor criterion](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-irreducible-conductor-compressionmd)
+together supply the argument. The [independent adversarial audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-adversarialmd)
 checks the criterion and the entire-conductor Hilbert/CM calculation.
 The root additionally checked the stronger equation-space and blowup
 transition below. The independent auditor reported acceptance of these
@@ -1040,7 +1040,7 @@ outside this theorem.
 **Accepted:** for A=r*z,B=1,12r^2+4r+3=0, every genuine defect-four
 triple has at most one containing quartic. Hence it cannot supply two
 independent quartic multiplier equations for the fixed ancestor targets.
-This is the narrow [defect-four proof](2026-10-08-session-localcoh-e1-d4-algebraic.md),
+This is the narrow [defect-four proof](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d4-algebraicmd),
 not an STCI mate theorem.
 
 The root checked the explicit seven ambient forms, their complete
@@ -1133,7 +1133,7 @@ The proof does not apply to an isolated rank-drop point on a prime which is gene
 
 ## Relation to the current frontier
 
-This independently agrees with the separate [normal-global audit](2026-10-08-session-normalization-differential-independent-audit.md), whose proof uses the equivalent constant-rank kernel over O_E. Agreement is not the proof: the unit-pivot argument above independently establishes the extension across singular E and across c intersect E.
+This independently agrees with the separate [normal-global audit](#source-2026-10-08-session-normalization-differential-independent-auditmd), whose proof uses the equivalent constant-rank kernel over O_E. Agreement is not the proof: the unit-pivot argument above independently establishes the extension across singular E and across c intersect E.
 
 For an integral quartic with smooth rational quartic-scroll normalization, any mate of the fixed smooth rational quartic C0 must therefore leave the normalization generically immersive along every actual conductor prime. The generic Artin classification or geometric transverse branch classification still has to establish which conductor possibilities have that property; the obstruction alone is not a closure of that carrier class.
 
@@ -1357,7 +1357,7 @@ a global section cutting out c, or a globally constant power factor.
 No new classification of nonnormal carriers follows solely from this
 local strengthening. The earlier historical nongorenstein-scroll
 boundary was subsequently closed by the separate
-[complete scroll audit](2026-10-08-session-scroll-nongorenstein-independent-audit.md).
+[complete scroll audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-independent-auditmd).
 
 
 ---
@@ -1594,7 +1594,7 @@ unique carrier nor use an STCI-only second-defect bound.
 ## 5. Evidence and reproducibility
 
 The open theorem and source are preserved in
-[the source-owner's detailed proof](2026-10-08-session-mf6-principal-rank-open-independent-audit.md)
+[the source-owner's detailed proof](#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd)
 and
 [`verify_session_mf6_principal_rank_open_2026_10_08.py`](../computations/verify_session_mf6_principal_rank_open_2026_10_08.py).
 Its frozen source hash is
