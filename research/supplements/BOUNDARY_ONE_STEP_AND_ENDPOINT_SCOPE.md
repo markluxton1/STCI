@@ -1,5 +1,16 @@
 # Boundary obstruction and endpoint scope investigations
 
+## Integration guide: one-step obstructions and global endpoint tests
+
+The [one-step boundary obstruction](#2026-10-27-one-step-boundary-obstruction) treats extensions in the **actual equation module**, not arbitrary formal transverse sections. Its independent audit keeps the Gorenstein final-step restrictions and the precise converse separate. The accompanying fixed-boundary smoothing audit concerns a different deformation problem and must not be read as a universal STCI obstruction.
+
+Compare [global repair and weighted initials](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#boundary-repair-global-lifting): a repair divisor is useful only when the required correction belongs to the image of the global homogeneous source. [Intrinsic valuations](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd) supplies normal/coefficent valuation distinctions but not the missing global lift. [Rees and residual cycles](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-rees-residual-investigation) supplies cycle budgets but cannot substitute for this module-level test.
+
+**Logical boundary:** one-step obstruction, final socle obstruction, and global residual-support exclusion are three different assertions. Retain the separate hypotheses and counterexamples in their source sections.
+
+---
+
+
 Full historical mathematics retained, including independently reviewed limits, with no theorem promotion.
 
 
