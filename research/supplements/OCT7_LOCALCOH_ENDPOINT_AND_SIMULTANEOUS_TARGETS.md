@@ -242,7 +242,7 @@ Date: 2026-10-07. Scope: the characteristic-zero curve
 `C0=[s^4:s^3t:st^3:t^4]`, primitive degree-two normal-dual direction,
 and pure cubic top coefficient `h=t`. This is an independent audit of
 Sections 4--6 of
-[`2026-10-06-session-localcoh-progress.md`](2026-10-06-session-localcoh-progress.md).
+[`2026-10-06-session-localcoh-progress.md`](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-localcoh-progress).
 It proves the stated endpoint classification and the first family's
 generic exclusion, and closes its quadratic exceptional locus. It does
 not exclude every quartic ancestor or address a nonendpoint top-zero.
@@ -454,7 +454,7 @@ E1=L=O(e-7), E2=L^2(D2), E3=L^3(D3).
 ```
 
 The socle-pencil theorem in
-[`2026-10-06-session-localcoh-progress.md`](2026-10-06-session-localcoh-progress.md),
+[`2026-10-06-session-localcoh-progress.md`](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-localcoh-progress),
 Section 2, forces `degD3=7-3e`. Therefore:
 
 > There is no common quartic ancestor with `e=1,D2=0`.
