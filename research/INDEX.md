@@ -1,5 +1,12 @@
 # Research navigation
 
+## Consolidated reading route (Phases 2–3 complete)
+
+For mathematics rather than research chronology, begin with the [six-chapter synthesis](synthesis/README.md), then consult the [dependency and missing-implication map](synthesis/DEPENDENCIES.md). The [mathematical topic map](MAP.md) locates all 36 promoted results; [result records](results/INDEX.md) alone provide canonical theorem statements and precise hypotheses. [Current frontier](FRONTIER.md) separates active research programs from historical investigations. Phase 2's normalization/conductor dossier and the Phase 3 supplements are linked from the synthesis; neither promotes provisional claims.
+
+**Authority order:** canonical result and its evidence for theorem claims; synthesis for exposition; frontier for research questions; dated notes for supporting history. The unrestricted characteristic-zero STCI question remains open.
+
+
 **Mathematics-first entry point:** [Mathematical map](MAP.md) — all 36 canonical results grouped by topic, connections to open problems, and unresolved bridges. This is conceptual navigation, not theorem authority. For a focused task, start there rather than reading the chronological directory below.
 
 - [Intrinsic geometry interlude (October 24)](INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md) — geometry-first agenda and earlier pause of STCI-directed work; later cycle and valuative continuations are linked below
