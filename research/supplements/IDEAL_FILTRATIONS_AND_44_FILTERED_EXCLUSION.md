@@ -1,5 +1,16 @@
 # Intrinsic local algebra and characteristic-zero quartic geometry
 
+## Integration guide: first symbols, complete filtrations, and (4,4) exclusion
+
+The [ideal-filtration investigation](#2026-10-23-ideal-filtrations-independent-investigationmd) records the full marked embedding and an explicit failure of the proposed general first-order-to-higher-generator correspondence. The [filtered (4,4) proposal](#2026-10-23-quartic-44-filtered-proof-proposalmd) and [independent audit](#2026-10-23-quartic-44-filtered-proof-independent-auditmd) instead use additional specific numerical, classification, and global quartic-contact input. These are not contradictory: a special filtered exclusion may hold without the false general correspondence.
+
+The alternative [surface-singularity route](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-proof-proposal) replaces the global contact determinant with a characteristic-zero exceptional-rank contradiction, while retaining the local defect algebra. [The genus-budget synthesis](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md#cross-supplement-synthesis-distinct-44-obstruction-routes-editorial-not-a-new-audit) contrasts both approaches with lower-multiplicity residual examples. [Delta embedding](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-embedding-geometry-report) and [normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) give broader filtration frameworks, each with independent scope restrictions.
+
+Keep the original computational checks, correction freedoms, counterexample, and audit status below. This guide does not extend any (4,4) conclusion to arbitrary degrees.
+
+---
+
+
 Full mathematical investigations retained by subject. Proposals, independent reviews, limitations and rejected mathematical approaches retain their original epistemic status. This compilation is not a new proof audit.
 
 
