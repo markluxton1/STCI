@@ -16,7 +16,7 @@ OUTSTANDING**. Supporting exact classifications, polynomial certificates,
 and all failed execution versions are preserved and bound below. Work over an
 algebraically closed field of characteristic zero, retaining `delta!=0`.
 
-Use the [actual nonendpoint sections](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
+Use the [actual nonendpoint sections](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd)
 and the independently audited [residual divisor and curve maps](2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md).
 An admissible projection has center avoiding the entire normalization
 surface. A hypothetical mate requires full inverse support
@@ -380,7 +380,7 @@ the cubic-pair locus. Work over an algebraically closed field of characteristic
 zero. Retain delta!=0, actual center avoidance, and repeated cubic factors.
 
 The actual sections and residual coefficients are those of the
-[pole-filtration note](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
+[pole-filtration note](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd)
 and the [residual-factor note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md).
 No frozen source, canonical record, or Git state was changed for this work.
 
