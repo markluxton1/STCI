@@ -130,7 +130,7 @@ On \(F=0\), substituting \(x_2=\lambda u^3\) gives
 =(\lambda-1)(\lambda^3+\lambda^2+\lambda+1-a).
 \]
 
-For general \(a\), its four roots are distinct and nonzero, so the components remain four projectively equivalent smooth rational quartics with exactly the same endpoint pairwise contact. The marked-root derivative is \(4-a\); hence for \(a\ne4\) the boundary stays \(9p+9q\). The original roots-of-unity fiber is \(a=0\). See the sibling [root-pencil laboratory](2026-10-25-ci-cycle-root-pencil.md) for the independently calculated global and exceptional-parameter details. This directly shows that two-point conductor data does not force the roots-of-unity group configuration.
+For general \(a\), its four roots are distinct and nonzero, so the components remain four projectively equivalent smooth rational quartics with exactly the same endpoint pairwise contact. The marked-root derivative is \(4-a\); hence for \(a\ne4\) the boundary stays \(9p+9q\). The original roots-of-unity fiber is \(a=0\). See the sibling [root-pencil laboratory](#2026-10-25-ci-cycle-root-pencilmd) for the independently calculated global and exceptional-parameter details. This directly shows that two-point conductor data does not force the roots-of-unity group configuration.
 
 **Next experiment.** Compute a small slice of \(\beta^{-1}([s^9t^9])\) and test whether nearby members preserve four rational components, or instead replace them by fewer components with positive normalization genus. This is more informative than merely rediscovering the divisor.
 
