@@ -1,5 +1,16 @@
 # z4 lifting and deformation
 
+## Proof-dependency map: prescribed Z4 versus general lifting
+
+The [quartic obstruction calculation](#2026-10-20-z4-quartic-obstruction) concerns a **specified** characteristic-two quartic complete-intersection structure and its attempted lift; its explicit integral normal coordinates and cocycle calculation are primary evidence. The [independent audit](#2026-10-20-z4-lift-independent-audit) checks that computation. The [characteristic-zero lifting report](#2026-10-20-z4-characteristic-zero-lifting-report) and [CI deformation lemma](#2026-10-20-z4-ci-deformation-lemma) address related but different extension questions.
+
+The [intrinsic arithmetic synthesis](Z4_INTRINSIC_ARITHMETIC_MECHANISM.md#2026-10-21-z4-general-mechanism-synthesis) interprets this example via divided powers and characteristic change; the [quadratic-gluing comparison](Z4_INTRINSIC_ARITHMETIC_MECHANISM.md#2026-10-21-z4-quadratic-gluing-comparison) keeps track of the extra hypotheses needed for an intrinsic obstruction class. The [divided-Frobenius origin](#2026-10-21-z4-divided-frobenius-origin) is a mechanism, not a universal no-lift theorem.
+
+**Non-implication:** failure to lift the specified positive-characteristic pair does not prove that no different characteristic-zero STCI pair exists. Preserve the integral cocycle, its nonzero class, the audit, and the conditional deformation statements separately.
+
+---
+
+
 Permanent mathematical dossier preserving complete proofs, computations, exact characteristic hypotheses, obstruction classes, counterexamples and conditional implications. No new theorem promotion is implied.
 
 ---
