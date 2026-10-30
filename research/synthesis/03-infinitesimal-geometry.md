@@ -130,4 +130,21 @@ Finally [R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) excludes a *
 
 These results separate four questions: conormal splitting, full initial equations, global reduced support, and arithmetic deformation of a prescribed embedded scheme. None may be substituted for another.
 
+
+## 3.11 Embedded one-step lifting and the actual homogeneous source
+
+The [October 27 one-step investigation](../notes/2026-10-27-one-step-boundary-obstruction.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
+
+    0 -> Ubar_Y -> M_Y -> V_Y -> 0,
+
+with extension class e_Y in Ext^1(V_Y,Ubar_Y). These objects depend on the embedded lower scheme, not only on its graded Hilbert function.
+
+To add a saturated next layer T=L^n(D), a necessary condition is A_Y <= D. Under that condition, extension of the prescribed power map from Ubar_Y to all of M_Y is equivalent to vanishing of the pushed-forward class in H^1(Ubar_Y tensor V_Y^vee(D-A_Y)). Maps satisfying the extension condition form a torsor; *surjectivity* is a further requirement for an actual pure embedded extension, automatic when D=A_Y. Thus an abstract cohomological repair is not itself an embedded thickening.
+
+At the final step of a generically curvilinear Gorenstein multiple curve of length at least three, the source proves the stronger necessary conditions e_Y=0 and A_Y=D_soc. The final socle divisor has no unused repair allowance. For a fixed lower Y the source also gives a completion criterion: splitting of the equation-module extension together with all required perfect-pairing divisor equalities. This is a criterion for an embedded Gorenstein completion, not for two homogeneous carrier equations.
+
+There is a separate exact test for the actual global equations. Suppose C has degree c, ab=(n+1)c, and F,G are actual sections of J(a),J(b) forming a proper pair. Their classes in M_Y give a determinant section theta_Y(F,G). Its vanishing is equivalent to sole reduced support C: if nonzero, the generic length is n and the residual cycle has degree c; if zero, Bezout and purity force generic length n+1 and exhaust the projective degree. For equal degrees the zero-pencils form a Grassmannian linear section of the kernel of the determinant map, restricted to proper pairs; for unequal degrees use the corresponding Segre locus. A generic-rank computation alone does not settle its exceptional decomposable kernel points.
+
+These statements are retained as reviewed source-level deductions, not independently promoted canonical theorems. Their practical contribution is to distinguish the lower embedded extension class, its boundary repair, the final Gorenstein pairing, and the actual global source map. Passing any one of these tests does not imply the next.
+
 Next: [carrier normalization and conductor](04-carriers.md), which imposes a different global descent condition.
