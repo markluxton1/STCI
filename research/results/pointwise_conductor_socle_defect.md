@@ -51,3 +51,7 @@ Required hypotheses:
 Inherited premises are described in the proof and audit.
 - Not established for multiple branches, non-Cartier lift, singular normalization along c, or generically singular carrier
 - Jacobian argument cannot be transferred to characteristic dividing n
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/04-carriers.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
