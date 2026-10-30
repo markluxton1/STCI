@@ -21,11 +21,11 @@ Permanent mathematical dossier. Complete source arguments are preserved with the
 
 Date: 2026-10-14. Author: `normal_index_general_scope`.
 Status: **PROVED NEW STRUCTURAL THEOREMS; independently reviewed in
-[the general-scope audit](2026-10-14-generalization-normal-index-general-scope-independent-audit.md).**
+[the general-scope audit](#2026-10-14-generalization-normal-index-general-scope-independent-audit).**
 The accepted local power-socle theorem in
-[the root theorem](2026-10-14-generalization-normal-index-socle-theorem.md)
+[the root theorem](#2026-10-14-generalization-normal-index-socle-theorem)
 and its
-[filtered compatibility audit](2026-10-14-generalization-index12-filtered-compatibility.md)
+[filtered compatibility audit](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-index12-filtered-compatibility)
 are premises. Their proofs and the inherited computations were not
 repeated. The present note removes the choice of mate from the local
 budget, extends the comparison before any mate exists, and obtains
@@ -250,7 +250,7 @@ direction.
 
 In characteristic zero the sharp threshold is stronger still. The
 accepted [rational-ample local torsion detection
-theorem](2026-10-14-generalization-normal-carrier-torsion.md) gives the
+theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-torsion) gives the
 exact minimal mate degree on a normal carrier. All singular indices
 are e-1, so R=e-1. For a=e-1, the primitive numerical pair is
 (mu,v)=(e-1,e), and the minimal mate degree is e; for a=e it is
@@ -377,9 +377,9 @@ accepted C0 computations.
 
 Date: 2026-10-14. Status: **PROVED, WITH A SEPARATE INDEPENDENT NEW-PROOF
 AUDIT**. This is the current theorem statement and integration record.
-The [full independent proof](2026-10-14-generalization-index12-filtered-compatibility.md)
+The [full independent proof](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-index12-filtered-compatibility)
 reconstructs every new local step. The
-[earlier ordinary-curvilinear note](2026-10-14-generalization-curvilinear-torsion-and-index12.md)
+[earlier ordinary-curvilinear note](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-curvilinear-torsion-and-index12)
 records the route to this theorem. Previously accepted socle duality,
 normal-carrier torsion/index arithmetic, C0 normal splitting, low-degree
 carrier exclusions and P-010 were used as premises and were not rerun.
@@ -563,7 +563,7 @@ a degree-by-degree verification or a global exhaustion theorem.
 Date: 2026-10-14. Author: `normal_general_threshold_audit`.
 Status: **PROVED NEW CONSEQUENCES, WITH THE SCOPE BELOW.** This review
 uses the accepted [local power-socle and ordinary-layer
-theorem](2026-10-14-generalization-index12-filtered-compatibility.md)
+theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-index12-filtered-compatibility)
 as a premise. It does not rerun that proof, any accepted curve
 obstruction, or any CAS computation. The new work checked here is the
 degree-independent inequality, its integer and equality consequences,
@@ -803,7 +803,7 @@ indices, or excludes all balanced rational curves from being STCI.
 ## 7. Addendum: direct construction on a smooth projective threefold
 
 After this audit was drafted, the
-[owner note](2026-10-14-generalization-normal-index-general-scope.md)
+[owner note](#2026-10-14-generalization-normal-index-general-scope)
 supplied a direct construction preceding the duality calculation.
 That construction also passes independent review. Its natural scope
 is a smooth projective threefold X, a normal integral Cartier divisor
@@ -864,7 +864,7 @@ equal to e-1, and D_(e-1),P=0 at every such point. The singular set
 is nonempty, so its actual global Cartier index is R=e-1.
 
 Use the accepted
-[rational-ample torsion detection theorem](2026-10-14-generalization-normal-carrier-torsion.md)
+[rational-ample torsion detection theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-torsion)
 without reauditing its proof. Its hypotheses hold: the support is
 smooth rational, the surface is normal, and the hypothetical mate
 makes a positive multiple of C an ample Cartier divisor. For
@@ -1125,7 +1125,7 @@ necessary common-root bounds in the remaining Cartier-lift models.
 
 Date: 2026-10-14. Reviewer: root. Status: **PROVED under the owner's
 explicit hypotheses, in every characteristic**. The reviewed source is
-[the transverse-differential theorem](2026-10-14-generalization-transverse-differential-socle-bound.md).
+[the transverse-differential theorem](#2026-10-14-generalization-transverse-differential-socle-bound).
 The accepted socle-duality theorem and C0 normal splitting are inputs;
 neither was recomputed.
 
@@ -1193,7 +1193,7 @@ record; no old computation, carrier exclusion, or accepted proof was
 replayed.
 
 Accepted inputs are the
-[transverse first-layer/socle theorem and independent review](2026-10-14-generalization-transverse-socle-independent-audit.md)
+[transverse first-layer/socle theorem and independent review](#2026-10-14-generalization-transverse-socle-independent-audit)
 and the actual conductor residue identities in the
 [conductor--Jacobian bridge](2026-10-14-generalization-projection-conductor-jacobian-bridge.md).
 The standard characteristic-zero Artin complete-intersection theorem
@@ -1453,7 +1453,7 @@ a projective mate.
 ## 6. Exact colength in the thickening on the carrier normalization
 
 There is a further pointwise consequence using the accepted ordinary
-[Frobenius/free-powers lattice identity](2026-10-14-generalization-normal-index-socle-theorem.md),
+[Frobenius/free-powers lattice identity](#2026-10-14-generalization-normal-index-socle-theorem),
 Section 2. Keep the local notation above and choose `w in J` mapping to
 a generator of the torsion-free first layer, so
 
@@ -1511,7 +1511,7 @@ It is not asserted to be a normalization of the nonreduced scheme
 inside this specified pullback thickening.
 
 Finally the accepted
-[length-two/three primitive theorem](2026-10-14-generalization-normal-carrier-symbolic-triple-certificate.md),
+[length-two/three primitive theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-symbolic-triple-certificate),
 Section 2, gives `D_n=0` for `n in {2,3}`. Hence in these two lengths
 the pointwise divisor relation specializes to
 
