@@ -211,3 +211,9 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [ci cycle adaptive frontier](supplements/CI_CYCLE_ADAPTIVE_FRONTIER.md)
 - [intrinsic valuations and contact geometry](supplements/INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md)
 - [ideal filtrations and 44 filtered exclusion](supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md)
+
+## Quartic duality, ruled surfaces and projection geometry (October 24)
+
+- [Quartic duality, flags and bitangents](supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md)
+- [Cubic scrolls and ruled surfaces](supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md)
+- [Quartic projection, conormal and special geometry](supplements/QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
