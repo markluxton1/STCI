@@ -213,3 +213,8 @@ Verified `OCT7_LOCALCOH_CONORMAL_PART1.md` and retired its original conormal-spl
 ## Full-content migration — October 7–8 MF6, normal carriers, and thick geometry (2026-10-30)
 
 Thirty historical mathematical sources were preserved in full in four permanent supplements: `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md` (6), `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md` (7), `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md` (8), `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md` (9). All thirty originals were deleted only after the four supplements were committed and their source headings verified. Conditional results, failed arguments, counterexamples, calculations, and open cases retain their source status. This is full-text source preservation, not an independent mathematical audit or editorial deduplication. **Cumulative historical retirements: 387. Live remaining notes: 162.** Repository-wide inbound-reference cleanup remains outstanding.
+
+
+## Full-content migration — October 8 local cohomology, MF6, and scroll geometry (2026-10-30)
+
+Thirty historical mathematical notes were preserved in full in four supplements: `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md` (9), `OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md` (8), `OCT8_SCROLL_CONDUCTOR_AND_ACM.md` (7), `OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md` (6). All 30 source files were deleted only after the supplements were committed and their source headings verified. This is source preservation, not a new mathematical correctness audit or theorem promotion. **Cumulative retired: 417; live remaining historical notes: 132.** Inbound reference cleanup and editorial integration remain outstanding.
