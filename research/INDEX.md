@@ -152,3 +152,10 @@ These four permanent supplements integrate seventeen former dated source notes i
 - [Target-fiber reductions and full inverse-support obstructions](supplements/NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md)
 
 These four subject supplements preserve the full mathematical content of 22 retired historical notes, including hypotheses, proof calculations, independent certificates and surviving cases. Executable computational files remain separately maintained.
+
+## Nonendpoint cubic-pair completion
+
+- [Cubic-pair complete classification, coefficient checks, gcd and theorem scope](supplements/NONENDPOINT_CUBIC_PAIR_COMPLETION.md)
+- [Single-root quotient fibers, double roots and Taylor incidence](supplements/NONENDPOINT_SINGLE_ROOT_INCIDENCE.md)
+
+These supplements preserve seven complete historical mathematical sources, including limitations and corrections.
