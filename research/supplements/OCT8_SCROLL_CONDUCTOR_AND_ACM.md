@@ -1100,7 +1100,7 @@ Finite absolute duality gives
 
 The [applicability note](#source-2026-10-08-session-scroll-conductor-applicabilitymd)
 proves Gamma is pure Cohen--Macaulay with Hilbert polynomial 3m+1.
-The [Oct8 checkpoint](2026-10-08-session-checkpoint.md) strengthens this
+The [Oct8 checkpoint](OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-08-session-checkpointmd) strengthens this
 to an arithmetically Cohen--Macaulay cubic with the Hilbert--Burch
 resolution
 
