@@ -41,3 +41,7 @@ This strengthens the actual-CI bridge beyond smooth roots and balanced conormal 
 ## Combined consequence for C0
 
 For the fixed rational quartic C0, when E=O(-7)^2 and the first root is moving, the uniform graded second quotient relation satisfies the hypotheses of STCI-R-0011. Therefore the **full** moving first root is reduced. This is conditional on the hypotheses above and does not constrain arbitrary STCI presentations.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata values preserve original source identities. The migrated mathematical argument, its conditional hypotheses, and an independent audit are accessible in [normal flatness and filtered complete intersections](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md). Consult that supplement and [Chapter 3](../synthesis/03-infinitesimal-geometry.md) rather than treating the retired paths as live files.
