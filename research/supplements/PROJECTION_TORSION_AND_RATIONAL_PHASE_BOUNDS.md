@@ -10,7 +10,7 @@ Permanent complete mathematical dossier with exact assumptions, projection and t
 
 Date: 2026-10-15. Owner: `conductor_torsion_geometry`.
 Status: **NEW STRUCTURAL THEOREM; independent review passed** in the
-[written independent review](2026-10-15-generalization-projection-torsion-coset-independent-review.md).
+[written independent review](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review).
 The accepted conductor, Cartier-lift, contact-divisor, and conductor-budget
 theorems are premises. No accepted proof or computational certificate has
 been rerun. This note supplies the family-specialization details needed by
@@ -453,7 +453,7 @@ unrestricted characteristic-zero fixed-C0 problem remain open.
 Date: 2026-10-15. Reviewer: `phase_family_audit`.
 Result: **PASS, after the small corrections recorded below.**
 
-Reviewed the complete [theorem note](2026-10-15-generalization-projection-torsion-coset-reduction.md).
+Reviewed the complete [theorem note](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-reduction).
 The accepted conductor, Cartier-lift, contact-divisor, and conductor-budget
 results were treated as premises. No accepted proof, inherited certificate,
 or CAS computation was rerun. A separate `etale_matrix_check` independently
@@ -587,9 +587,9 @@ fixed-C0 or universal projective-curve STCI problem.
 
 Date: 2026-10-15. Owner: `conductor_torsion_geometry`.
 Status: **NEW EFFECTIVE STRUCTURAL THEOREM; independent review PASS.**
-See the [independent review](2026-10-15-generalization-effective-rational-phase-bound-independent-review.md).
-The [full conductor phase-space theorem](2026-10-15-generalization-projection-torsion-coset-reduction.md)
-and its [independent review](2026-10-15-generalization-projection-torsion-coset-independent-review.md)
+See the [independent review](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound-independent-review).
+The [full conductor phase-space theorem](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-reduction)
+and its [independent review](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review)
 are premises. No accepted proof or computation has been rerun. This note
 makes the torsion-coset step effective for an explicitly presented
 constructible phase image over `Q`. It does not compute the actual phase
@@ -1114,8 +1114,8 @@ Verdict: **PASS for the new effective theorem, with the descent and
 degenerate-case clarifications recorded below incorporated in the note.**
 
 Reviewed:
-[Effective rational phase images: Mann partitions and finite mate bounds](2026-10-15-generalization-effective-rational-phase-bound.md).
-The [full-conductor phase-space theorem](2026-10-15-generalization-projection-torsion-coset-reduction.md)
+[Effective rational phase images: Mann partitions and finite mate bounds](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound).
+The [full-conductor phase-space theorem](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-reduction)
 and its existing independent review are accepted premises. This audit
 does not replay their proofs or their computations. It checks the new
 rational descent, finite arithmetic construction, order estimates,
@@ -1415,13 +1415,13 @@ replay was performed.
 
 Date: 2026-10-15. Author: `formal_algebraization_route`.
 Status: **SCOPE GENERALIZATION; targeted independent audit passes**.
-The [independent scope audit](2026-10-15-generalization-nef-formal-branch-arbitrary-base-independent-audit.md)
+The [independent scope audit](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-nef-formal-branch-arbitrary-base-independent-audit)
 passes the intrinsic nef formulation, exact normal-bundle hypothesis,
 new genus/degree expressions, and resulting numerical criterion.
-The separate [movement-one audit](2026-10-15-generalization-movement-one-formal-roots-independent-audit.md)
+The separate [movement-one audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-movement-one-formal-roots-independent-audit)
 also passes the new corollary in Section 5.
 The independently audited branch-algebraization/ruled-surface argument in
-[smooth-root formal nonexistence](2026-10-15-generalization-smooth-root-formal-nonexistence.md)
+[smooth-root formal nonexistence](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence)
 is a premise. This note isolates its intrinsic form and computes the new
 genus and degree expressions when the base curve is not rational. It does
 not replay that proof or any accepted CAS certificate.
@@ -1468,7 +1468,7 @@ The imported primary inputs are [Bost, Theorem 3.5 and Corollary 3.8](https://ww
 and [Hartshorne, Theorem 4.1, with the neighborhood-equivalence definition
 in Section 0](https://www.numdam.org/item/PMIHES_1969__36__111_0.pdf).
 Their exact hypotheses and the branch-normalization details are covered
-by the [accepted full audit](2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md).
+by the [accepted full audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit).
 
 ## 2. Apply it over a smooth curve of any genus
 
@@ -1651,7 +1651,7 @@ Date: 2026-10-15. Reviewer: `g3_branch_uniqueness`.
 
 **Verdict: PASS for the stated new characteristic-zero scope.** This is a targeted review of the new intrinsic formulation, vector-bundle hypothesis, adjunction and degree formulas, passage to inequality (13), and conditional movement-two consequence. The already audited branch-algebraization, normalization, ruled-neighborhood, square-comparison, and plane-multiplicity arguments are premises and were not re-audited. No CAS computation or accepted verifier was rerun.
 
-Reviewed artifact: [nef formal branches over arbitrary bases](2026-10-15-generalization-nef-formal-branch-arbitrary-base.md).
+Reviewed artifact: [nef formal branches over arbitrary bases](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-nef-formal-branch-arbitrary-base).
 
 Reviewed SHA-256:
 
