@@ -119,3 +119,23 @@ This closes an ambient-source completeness question for these degrees, but not t
 For an actual proper pair F,G, begin with its generic colength and full I-initial ideal over K, then compute the horizontal exceptional directions. At each special point, record the conormal frame transition and the *integral* weighted-initial lattice, including cancellation-generated relations and any torsion. If a curvilinear saturated flag is available, apply the scoped residual-zero-cycle formulas; otherwise record precisely why the hypotheses fail. Next test whether the candidate local jets lie in the image of the global degree-d and degree-e equation spaces, using the exact power theorem when its degree range applies. Finally compute the projective residual cycle, not just the exceptional support.
 
 A negative computation should identify which step fails and whether the failure is stable across a whole parameter family. This protocol is provisional: it does not assert that passing every finite test yields global equations or that failure of an isolated test excludes all STCI pairs.
+
+## 14. Why marked trisecant and ruling tests did not force a contradiction
+
+The [marked-trisecant local calculation](../notes/2026-10-07-thick-local-pair-marked-trisecant.md) is an informative negative result. On Q near a transverse point of a trisecant ruling L meeting C, choose parameters with L=(u) and C=(y). If a carrier restricts as F|Q=y^p*u^M times a unit and the mate as G|Q=y^q*R_G, the reduced-support condition along L only fixes R_G(0,y)=y^e times a unit. It does not fix the u-dependent coefficients of R_G or the coefficient transverse to Q. Even retaining the multiplicity M and all three marked intersections of L with C does not produce the desired local coupling without extra global hypotheses.
+
+This explains why imposing a contact budget on the ruling alone is insufficient: the ambient normal direction remains free. To turn this into an obstruction, one must identify a global divisor relation, a proximity constraint on an actual complete-intersection cluster, or a justified compatibility map between the ruling and ambient transverse data. The negative result is about the insufficiency of a method, not evidence that an STCI exists.
+
+## 15. Intrinsic flags versus scalar valuation lists
+
+The [coefficient-valuation study](../notes/2026-10-23-intrinsic-coefficient-valuations.md) distinguishes the intrinsic normal blowup and subsequent valuation flags from the noncanonical choice of a coefficient field and transverse coordinates. On the full formal ring K[[U,V]], weights that assign positive order to U,V support normal-first valuations under their stated domain conditions; coefficient-first Gauss expressions for arbitrary real weights require separate convergence/domain control. Their associated initial ideals and residue polynomials carry more information than a collection of scalar values of elements.
+
+The same study gives a warning from the prescribed mu4 family: even knowing scalar values of an ideal for all selected weights does not in general recover transverse length. Cancellation, residue classes, and higher initials matter. Consequently the useful object is a filtered ideal or an initial algebra together with its integral model and frame transitions, not a numerical valuation score.
+
+This is a provisional methodological distinction, not an assertion that a canonical valuation invariant already decides residual support.
+
+## 16. Family-level failure analysis
+
+The entirely-thick investigations have produced both exact positive tools and instructive dead ends. The degree-3p quotient and power-saturation theorem determine global equation spaces in a stable degree range. The marked-trisecant and ruling interpolation tests show that a reduced-support condition does not automatically constrain all transverse coefficients. The weighted-initial framework tracks degeneration but does not, without a comparison theorem, force residual support.
+
+A next experiment should therefore state the invariant class it tests, the specific global source image it uses, and the exact step where the proposed local-to-global implication fails. Do not restart an unbounded search through isolated equations after each failure; ask whether the failure persists for the entire family and what additional hypothesis would make the implication valid.
