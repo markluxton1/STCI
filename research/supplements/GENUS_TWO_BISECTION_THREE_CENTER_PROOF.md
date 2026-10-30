@@ -24,7 +24,7 @@ not by itself exclude the surviving four-single-blowup partition.
 ## 1. Exact input
 
 Use the notation of the
-[second-pencil audit](2026-10-10-session-genus-two-bisection-second-pencil-independent-audit.md).
+[second-pencil audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd).
 The smooth weak del Pezzo surface V is the minimal crepant resolution
 of its ADE double-cover model W. The connected rational pencils f
 and c on V satisfy
