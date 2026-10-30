@@ -194,6 +194,12 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Conditional (2,12) continuation and sextic exclusions](supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md)
 - [Higher initial ideals and embedded thickening obstructions](supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
 
+## Z4 and conditional (2,12) proof-dependency routes (October 30)
+
+The [Z4 lifting dossier](supplements/Z4_LIFTING_AND_DEFORMATION.md#proof-dependency-map-prescribed-z4-versus-general-lifting) starts from the explicit prescribed-pair obstruction and its independent audit. The [intrinsic arithmetic dossier](supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md#proof-dependency-map-intrinsic-mechanism-and-its-failure-shields) analyzes divided powers, persistence, coordinate invariance, and conditional characteristic-zero implications. Neither route proves that every characteristic-zero pair is excluded.
+
+For the conditional (2,12;6,16;2) lane, read [symbol elimination and actual sextic realization](supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#proof-dependency-map-symbol-equations-to-actual-sextic-realization), then [node gluing and conductor](supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#proof-dependency-map-node-gluing-and-conductor-constraints), then [strict-surface and exceptional-locus exclusions](supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#proof-dependency-map-conditional-exclusions-and-exceptional-loci). All conclusions retain the original hypotheses and audit statuses.
+
 ## CI-cycle mathematical reading route (October 30)
 
 The five CI-cycle supplements now contain cross-supplement dependency guides. Read [actual residual examples and deformations](supplements/CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#mathematical-dependency-guide-residual-examples-versus-smoothing-claims) alongside [their independent audits](supplements/CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#mathematical-dependency-guide-separate-the-audited-experiments); then compare [valuative contact](supplements/CI_CYCLE_VALUATIONS_AND_CONTACT.md#mathematical-dependency-guide-three-levels-of-contact), [pencils and specialization](supplements/CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#mathematical-dependency-guide-pencils-conductor-and-specialization), and [the adaptive frontier](supplements/CI_CYCLE_ADAPTIVE_FRONTIER.md#mathematical-dependency-guide-what-adaptive-valuations-can-and-cannot-decide).
