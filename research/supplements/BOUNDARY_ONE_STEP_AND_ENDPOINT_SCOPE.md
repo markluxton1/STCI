@@ -21,7 +21,7 @@ Full historical mathematics retained, including independently reviewed limits, w
 # One-step boundary repair and the final Gorenstein obstruction
 
 Date: 2026-10-27. Status: new research deduction, with
-[independent audit](2026-10-27-one-step-boundary-obstruction-audit.md).
+[independent audit](#2026-10-27-one-step-boundary-obstruction-audit).
 No canonical promotion, unrestricted STCI exclusion, or literature novelty
 claim is made. The argument treats whole classes of embedded multiple
 curves; no sampled pair is used.
@@ -62,7 +62,7 @@ for the extension class of (1). This class depends on the actual embedded
 lower thickening, rather than only the degrees of its normal layers.
 The triple version of this equation-module construction is inherited
 reviewed evidence in the
-[intrinsic cubic-contact note](2026-10-23-intrinsic-cubic-contact-construction.md).
+[intrinsic cubic-contact note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-constructionmd).
 The argument here uses the power-relation line for arbitrary n.
 
 ## 2. Exact one-step repair theorem
@@ -144,7 +144,7 @@ repair bound, with coefficient one, for this particular lifting class.
 It does not assert that all ambient obstruction problems share this
 target or the same twist.
 
-The [principal-parts and multiplication-kernel criterion](2026-10-26-boundary-repair-global-lifting.md)
+The [principal-parts and multiplication-kernel criterion](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#boundary-repair-global-lifting)
 can be applied to the actual bundle Ubar_Y tensor V_Y^vee. On P1 this
 is a line bundle, and all possible effective repair divisors can be
 tested by one multiplication matrix. The actual divisor must also
@@ -482,7 +482,7 @@ Delta=0. Higher spectral cancellations must be retained. The existence
 of nonzero punctual Delta under sole support and generic defect zero
 is not settled by this theorem. The exact spectral comparison and its
 promotion limits remain those of the
-[October 24 continuation](2026-10-24-delta-singular-locus-continuation.md).
+[October 24 continuation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation).
 
 ## 7. What has been gained and what remains
 
@@ -533,7 +533,7 @@ inputs and promoted result scopes are retained rather than re-certified.
 # Independent audit: one-step boundary and final Gorenstein obstruction
 
 Date: 2026-10-27. Reviewer: independent `equation_budget_audit` agent.
-Status: mathematical reconstruction of the [source note](2026-10-27-one-step-boundary-obstruction.md),
+Status: mathematical reconstruction of the [source note](#2026-10-27-one-step-boundary-obstruction),
 not canonical promotion. No new unrestricted STCI exclusion or realization
 of an unclassified family is certified.
 
