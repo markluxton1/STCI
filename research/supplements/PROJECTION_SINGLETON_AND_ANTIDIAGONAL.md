@@ -12,7 +12,7 @@ Date: 2026-10-19. Investigator: `projection_geometry`.
 
 **Status:** new proposal, independently reviewed for the explicit maps and
 all-degree exclusions in Sections 1--5 by
-[the separate audit](2026-10-19-singleton-plane-projection-independent-audit.md).
+[the separate audit](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-singleton-plane-projection-independent-audit).
 The reusable differential lemma and the local conductor interpretation in
 Sections 6--7 are independently checked in that audit's addendum. The broader
 two-fixed-coordinate exclusion in Section 5a is a separate new proposal.
@@ -581,7 +581,7 @@ separate canonical promotion decision.
 ## Addendum: independent audit of the differential lemma and generic local descent
 
 The reviewer separately reconstructed Sections 6--7 of the
-[source investigation](2026-10-19-singleton-projection-investigation.md).
+[source investigation](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-singleton-projection-investigation).
 **Outcome: PASS**, with the lemma understood for an integral projective
 surface and its finite normalization, as in the surrounding investigation.
 This addendum supplies independent review evidence; it does not promote a
@@ -728,7 +728,7 @@ sublane, classify its support-admissible locus, or remove the hypotheses.
 
 Date: 2026-10-19. Author: `carrier_models`.
 Status: **INDEPENDENTLY REVIEWED PROPOSAL; audit PASS; not promoted.**
-Review: [separate carrier audit](2026-10-19-quadric-antidiagonal-fourfold-line-independent-audit.md).
+Review: [separate carrier audit](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-quadric-antidiagonal-fourfold-line-independent-audit).
 
 ## Exact question and scope
 
@@ -935,7 +935,7 @@ Section 5 microaudit by `inverse_branch_microaudit`.
 
 **Outcome: PASS for the two explicitly stated families and their all-degree
 mate exclusions.** This is independent review evidence for the
-[source proposal](2026-10-19-quadric-antidiagonal-fourfold-line-proposal.md),
+[source proposal](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-quadric-antidiagonal-fourfold-line-proposal),
 not a canonical promotion. No accepted mathematics or canonical record was
 edited, and no inherited quartic proof or certificate was rerun.
 
