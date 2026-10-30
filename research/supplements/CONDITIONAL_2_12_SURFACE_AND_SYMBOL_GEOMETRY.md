@@ -195,7 +195,7 @@ Precisely scoped inherited premises:
 
 The promoted smooth bridge R-0006 does not supply necessity on singular
 roots. The new, separately reviewed finite bridge in
-[the singular-root note, section 2](2026-10-20-conditional-2-12-singular-gluing.md)
+[the singular-root note, section 2](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd)
 fills this scope gap only under the actual hypotheses above. No inference
 for residual intersections or arbitrary STCI presentations is made.
 
@@ -363,7 +363,7 @@ unless the two fibers over the node are also identified. For the
 two-node pair both identifications must be retained; either one alone
 can be normalized away. Explicit invariant formulas, the conductor
 jets in the additive cases, and the finite bridge proof are in
-[the gluing note](2026-10-20-conditional-2-12-singular-gluing.md).
+[the gluing note](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
 
 A sparse matrix retains all these conditions in the ORIGINAL nine
 coefficients, without choosing normalization coordinates:
@@ -520,7 +520,7 @@ New artifacts:
 * [structured exporter](../computations/conditional_2_12_structured_incidence_2026_10_20.py),
   [M2 presentation](../computations/conditional_2_12_structured_incidence_2026_10_20.m2),
   and [metadata](../computations/conditional_2_12_structured_incidence_2026_10_20.json);
-* [singular bridge and full gluing proof](2026-10-20-conditional-2-12-singular-gluing.md)
+* [singular bridge and full gluing proof](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd)
   and [independent review](#2026-10-20-conditional-2-12-incidence-audit).
 
 Run the three new Python scripts with `python3`; they use only the
@@ -560,7 +560,7 @@ first relation. Use promoted
 [R-0010](../results/saturated_first_relation_normal_flatness.md) and
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md), and
 the newly reviewed finite bridge in
-[the singular-root proposal](2026-10-20-conditional-2-12-singular-gluing.md).
+[the singular-root proposal](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
 The latter is reviewed but unpromoted; this is an explicit dependency.
 
 Put `B=Bl_C(P3)`, `H=pi^*O(1)`, and write `E` for its exceptional divisor.
@@ -829,7 +829,7 @@ here is a **new argument**, not a silent extension of R-0006.
 The new source artifacts reviewed are
 [symbol-map generator](../computations/conditional_2_12_symbol_map_2026_10_20.py),
 [symbol data](../computations/conditional_2_12_symbol_map_2026_10_20.json),
-[singular-gluing proposal](2026-10-20-conditional-2-12-singular-gluing.md),
+[singular-gluing proposal](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd),
 and [combined exporter](../computations/conditional_2_12_structured_incidence_2026_10_20.py).
 
 ## 2. Independent linear-algebra reconstruction
@@ -1342,7 +1342,7 @@ edited.
 Use [R-0010](../results/saturated_first_relation_normal_flatness.md),
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md),
 and the newly reviewed finite bridge in
-[the singular-root note](2026-10-20-conditional-2-12-singular-gluing.md).
+[the singular-root note](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
 In particular, on the blowup `B=Bl_C0(P3)`, with exceptional divisor
 `E`, the common order-two transforms of an actual pair have local
 ideal `(p,t^10)` at each full root point. The root is reduced of
