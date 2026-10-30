@@ -194,6 +194,12 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Conditional (2,12) continuation and sextic exclusions](supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md)
 - [Higher initial ideals and embedded thickening obstructions](supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
 
+## CI-cycle mathematical reading route (October 30)
+
+The five CI-cycle supplements now contain cross-supplement dependency guides. Read [actual residual examples and deformations](supplements/CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#mathematical-dependency-guide-residual-examples-versus-smoothing-claims) alongside [their independent audits](supplements/CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#mathematical-dependency-guide-separate-the-audited-experiments); then compare [valuative contact](supplements/CI_CYCLE_VALUATIONS_AND_CONTACT.md#mathematical-dependency-guide-three-levels-of-contact), [pencils and specialization](supplements/CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#mathematical-dependency-guide-pencils-conductor-and-specialization), and [the adaptive frontier](supplements/CI_CYCLE_ADAPTIVE_FRONTIER.md#mathematical-dependency-guide-what-adaptive-valuations-can-and-cannot-decide).
+
+These files preserve distinct equations, contact calculations, deformation examples, counterexamples, and audits. The guide does not assert that a residual component can be eliminated globally or that the characteristic-zero STCI problem has been settled.
+
 ## Complete-intersection cycle geometry and intrinsic contact (October 23–25)
 
 - [ci cycle deformations and residual geometry](supplements/CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md)
