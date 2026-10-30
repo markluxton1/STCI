@@ -8,6 +8,8 @@ The question whether it is a set-theoretic complete intersection remains **open*
 
 The historical jet-discrepancy model and its status corrections are summarized in [order-one structure](../results/order_one.md); obsolete quartic-mate cases remain closed by R-0001, while higher-degree jet-dependence questions survive.
 
+The three main forward research routes are the **embedded lower-thickening/determinant route**, the **uniform residual-jet route**, and the **fixed-carrier conductor-descent route**. These are programs with missing implications, not established reductions of the unrestricted STCI problem. See [current frontier](../FRONTIER.md).
+
 Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and which are independent. For precise scope, use [canonical results](../results/INDEX.md), [current state](../STATE.md), [frontier](../FRONTIER.md), and [authority policy](../AUTHORITY.md).
 
 ## Chapters
