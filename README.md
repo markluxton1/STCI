@@ -15,7 +15,7 @@ The repository does **not** currently prove that this curve is or is not a set-t
 ## Start here
 
 - [Research navigation](research/INDEX.md) — compact map of records, evidence, and history.
-- [Repository maintenance plan](research/MAINTENANCE.md) — includes [inventory](research/REPOSITORY_INVENTORY.md) and [artifact policy](research/ARTIFACT_POLICY.md) — organization tasks and cleanup sequence.
+- [Artifact policy](research/ARTIFACT_POLICY.md) — retention and handling of research artifacts.
 - [Canonical research state](research/STATE.md) — what is currently proved, exactly reduced, conditional, superseded, or open.
 - [Current frontier](research/FRONTIER.md) — the active open problems and recommended research directions.
 - [Open-problem topics](research/open/README.md) — durable topic pages for active work.
