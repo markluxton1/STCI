@@ -1,5 +1,16 @@
 # Complete-intersection cycles: permanent mathematical source consolidation
 
+## Mathematical dependency guide: residual examples versus smoothing claims
+
+The [explicit smooth residual example](#2026-10-25-ci-cycle-smooth-residual-examplemd) supplies an actual equation pair and attachment calculation; the [deformation laboratory](#2026-10-25-ci-cycle-deformation-laboratorymd) explores how such intersections move. The [geometry notebook](#2026-10-25-ci-cycle-geometry-notebookmd) and [line degeneration](#2026-10-25-ci-cycle-line-degenerationmd) add geometric models with different boundary behavior.
+
+The corresponding [smooth residual audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-smooth-residual-auditmd) and [line-degeneration audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-line-degeneration-auditmd) are the status checks. [Specialization proximity](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-specialization-proximitymd) gives a directed degeneration relation, not a total measure of closeness to STCI. [Valuative contact](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-contact-cyclemd) can record higher tangency without collapsing the residual cycle to zero.
+
+The distinction between an actual residual component, its contact with the marked quartic, and the existence of a global deformation eliminating residual support is essential.
+
+---
+
+
 This subject supplement preserves the full mathematical content of the source investigations below, including hypotheses, computations, counterexamples, and limitations. Historical headings identify internal sections, not separate retained source files. No new theorem promotion is implied.
 
 
