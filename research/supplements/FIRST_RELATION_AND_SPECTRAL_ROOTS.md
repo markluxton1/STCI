@@ -1283,8 +1283,8 @@ not cover arbitrary actual STCI equations.
 The spectral interpretation for abstract graded second quotient
 relations is promoted as [STCI-R-0008](../results/spectral_root_picard_criterion.md).
 Its proof and nonsplit-generator warning are in
-[the original spectral note](2026-10-14-generalization-spectral-root-curve-relations.md)
-and [its independent audit](2026-10-14-generalization-spectral-root-curve-independent-audit.md).
+[the original spectral note](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations)
+and [its independent audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
 That promoted theorem alone does not provide an actual-CI bridge.
 
 The new saturated-duality lemma, including its proof from actual
