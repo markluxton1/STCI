@@ -9,8 +9,8 @@ Permanent mathematical dossier preserving complete proofs, computations, exact c
 # Integral obstruction for the prescribed Z4: independent calculation
 
 Status: new exact calculation, independently reviewed on 2026-10-21; not
-promoted. See [independent audit](2026-10-20-z4-lift-independent-audit.md) and
-[full report](2026-10-20-z4-characteristic-zero-lifting-report.md).  This note does not rely on the
+promoted. See [independent audit](#2026-10-20-z4-lift-independent-audit) and
+[full report](#2026-10-20-z4-characteristic-zero-lifting-report).  This note does not rely on the
 previous integral quartic-carrier exclusion or on previously recorded primitive
 triple formulas.
 
@@ -163,11 +163,11 @@ curve. Its generic multiplicity would automatically be four.
 
 Reviewed source contributions:
 
-- [Exact local structure](2026-10-20-z4-local-structure.md), including its
+- [Exact local structure](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-20-z4-local-structuremd), including its
   Macaulay2 kernel, saturation, chart, and transition computation.
-- [Deformation and containment lemmas](2026-10-20-z4-ci-deformation-lemma.md),
+- [Deformation and containment lemmas](#2026-10-20-z4-ci-deformation-lemma),
   including every intermediate-stage flatness claim.
-- [Integral obstruction calculation](2026-10-20-z4-quartic-obstruction.md),
+- [Integral obstruction calculation](#2026-10-20-z4-quartic-obstruction),
   including all first-order coefficients and all second-order corrections.
 
 No normal-bundle calculation was repeated. The given splitting need not enter
@@ -356,7 +356,7 @@ of the deformation-theoretic reduction. Existing canonical mathematics has
 not been changed, and no unrestricted STCI assertion is inferred.
 
 The final integrated
-[lifting report](2026-10-20-z4-characteristic-zero-lifting-report.md) was also
+[lifting report](#2026-10-20-z4-characteristic-zero-lifting-report) was also
 read in full. Its theorem retains precisely the two requested DVRs, and its
 logical use of the triple obstruction follows the forced-stage proof above.
 The additional command
@@ -464,7 +464,7 @@ The saturated ideals of all four stages are computed from
 and contains I_C^4 but not I_C^3. These assertions are independently
 checked by exact homogeneous computations.
 
-Detailed evidence: [local and global structure](2026-10-20-z4-local-structure.md).
+Detailed evidence: [local and global structure](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-20-z4-local-structuremd).
 
 ## B. Reduction of the entire embedded Hilbert problem
 
@@ -518,7 +518,7 @@ identifies L_special=O(-6); Pic(P1_R)=Z gives L=O(-6). Every admissible full
 lift therefore supplies the primitive embedded triple used next. No
 intermediate-stage flatness or multiplication condition has been assumed.
 
-Detailed proof: [CI, containment and relative primitives](2026-10-20-z4-ci-deformation-lemma.md).
+Detailed proof: [CI, containment and relative primitives](#2026-10-20-z4-ci-deformation-lemma).
 
 ## C. Completed finite integral calculation with all corrections
 
@@ -604,7 +604,7 @@ no solution. This is a uniform divisibility obstruction, already visible
 modulo four, which excludes every possible integral lift; no indefinite
 sequence of finite-modulus experiments is involved.
 
-Detailed calculation: [integral obstruction](2026-10-20-z4-quartic-obstruction.md).
+Detailed calculation: [integral obstruction](#2026-10-20-z4-quartic-obstruction).
 
 ## Global coefficient coverage and the first successful stage
 
@@ -650,7 +650,7 @@ including arbitrary quadratic corrections. A separate universal computation
 in a polynomial ring over ZZ/4 verifies the parity identity. The proposing
 SymPy calculation and the independent Macaulay2 implementation agree.
 
-[Independent audit, tested hypotheses, correction space and scope](2026-10-20-z4-lift-independent-audit.md).
+[Independent audit, tested hypotheses, correction space and scope](#2026-10-20-z4-lift-independent-audit).
 There are no unresolved mathematical dependencies within this stated theorem.
 The standard projective cohomology, properness, regularity, and filtration
 arguments are proved in the companion reduction and audit; computation
@@ -698,7 +698,7 @@ outputs represent completed successful runs.
 # Persistence and containment for the prescribed embedded quadruple structure
 
 Status: new lemma, independently reviewed on 2026-10-21; not promoted.
-Review: [independent audit](2026-10-20-z4-lift-independent-audit.md).
+Review: [independent audit](#2026-10-20-z4-lift-independent-audit).
 
 This note concerns only the curve
 \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\) and the special fiber
