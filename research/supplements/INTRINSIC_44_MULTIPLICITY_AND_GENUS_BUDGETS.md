@@ -9,7 +9,7 @@ Permanent subject consolidation. All source mathematical detail retained with it
 
 # Curve-centered proof routes for multiplicity four
 
-Date: 2026-10-26. Status: exploratory synthesis, an explicit reformulation of an existing proof, and new negative controls; independently reviewed in the [audit](2026-10-26-44-intrinsic-proof-routes-audit.md). No canonical promotion.
+Date: 2026-10-26. Status: exploratory synthesis, an explicit reformulation of an existing proof, and new negative controls; independently reviewed in the [audit](#2026-10-26-44-intrinsic-proof-routes-audit). No canonical promotion.
 
 ## 1. Question and honest distinction
 
@@ -1279,7 +1279,7 @@ No inherited proof or finite computational certificate was rerun.
 
 Date: 2026-10-26. Reviewer: independent `budget_audit` agent. Status:
 independently reconstructed mathematical review of the [companion
-synthesis](2026-10-26-normal-torsion-spectral-genus-budget.md), not canonical
+synthesis](#2026-10-26-normal-torsion-spectral-genus-budget), not canonical
 promotion. No unrestricted STCI theorem, global homogeneous realization,
 or literature novelty claim is asserted.
 
