@@ -117,7 +117,7 @@ support-concentration consequence. Delta remains a parameter, not a
 normalized constant.
 
 For variable target `p`, use the actual target-fiber system of the
-[diagonal norm note](2026-10-12-session-nonendpoint-diagonal-norm-identity.md):
+[diagonal norm note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#4-nonendpoint-diagonal-norm-identity):
 
     Z=Gp(2-p)+J(3-p),
     A=(3delta^2+G)p(2-p)+J(3-p),
@@ -368,7 +368,7 @@ in characteristic zero. The conormal polynomials in the target coordinate
 
 They are the corrected cubic pair after the regular finite-target
 normalization described in the
-[diagonal norm note](2026-10-12-session-nonendpoint-diagonal-norm-identity.md).
+[diagonal norm note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#4-nonendpoint-diagonal-norm-identity).
 Let `q!=0` be a specified finite common root. The complete equations
 `Pt(q)=Jt(q)=0` solve without any further division as
 
