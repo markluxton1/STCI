@@ -73,7 +73,7 @@ complete split used by the proof.
 | Nonnormal, `pi=2`, `lambda=1`, one triple contact | [Full endpoint audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-endpoint-full-independent-auditmd), including reversal of the endpoint |
 
 There is no separate nonrational-normalization row: the
-[ruled intersection audit](2026-10-09-session-nonrational-normalization-independent-audit.md)
+[ruled intersection audit](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
 proves that every nonnormal integral quartic containing a smooth rational
 degree-four curve has rational normalization, without assuming a mate.
 Its nef pushdown identity retains every infinitely near blowup:
