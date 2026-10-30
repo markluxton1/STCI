@@ -217,3 +217,10 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Quartic duality, flags and bitangents](supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md)
 - [Cubic scrolls and ruled surfaces](supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md)
 - [Quartic projection, conormal and special geometry](supplements/QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
+
+## Delta embedding, intrinsic (4,4) and normal boundary (October 23–26)
+
+- [Delta embedding normal and Rees geometry](supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md)
+- [Intrinsic (4,4) multiplicity and genus budgets](supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md)
+- [Normal boundary, weighted initials and lifting](supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md)
+- [Intrinsic (4,4) approaches and characteristic conormal](supplements/INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md)
