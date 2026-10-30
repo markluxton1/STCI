@@ -1,5 +1,18 @@
 # Research frontier — current navigation (October 27, 2026)
 
+## Three principal research programs (not proved implication chains)
+
+These are focused possible next steps, not a mandated order or new theorems. The [synthesis dependency map](synthesis/DEPENDENCIES.md) records the precise gaps.
+
+1. **Global determinant route.** Fix and classify admissible embedded lower thickenings of the quartic; check extension and Gorenstein conditions, then calculate actual homogeneous equation modules. The missing step is a **proper decomposable determinant-zero pair** in the global source, not merely a formal kernel or numerical budget. The October 27 one-step criterion is reviewed source-level work, not a promoted universal existence theorem.
+2. **Uniform residual-jet route.** Extend fixed-carrier jet rigidity to a family covering relevant higher-degree carriers, including exceptional rank-drop strata, and prove a uniform residual-degree obstruction for actual proper pairs. One sextic certificate or explicit residual example cannot supply that bound.
+3. **Conductor-descent route.** Identify actual higher-degree integral carriers, compute the **full** conductor and inverse-image support, and test descent of genuine hypersurface sections. Necessary normalization models, Cartier class relations, and finite phase reductions alone do not produce mates or exclude every carrier.
+
+**Supporting tools, not independent conclusions:** full initial ideals and valuations (with cancellation and specialization), characteristic-two/zero comparisons (without assuming support-preserving lifting), and intrinsic contact/dual/ruled geometry (without an unproved map to equation modules). The unrestricted characteristic-zero STCI question is open; both hypothetical defining degrees are at least five by the accepted low-degree boundary.
+
+**Research selection rule:** pursue a calculation only when its outcome constrains a family, proves an interface implication, or yields a reusable counterexample/obstruction. Do not restart disconnected case enumeration or treat completed consolidation as an active mathematical problem.
+
+
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
 ## Current exploratory focus (provisional)
