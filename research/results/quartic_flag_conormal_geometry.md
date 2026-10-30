@@ -54,3 +54,7 @@ A unified geometric model for marked factorization, conormal contacts, and duali
 
 ## Limitations
 Do not identify the conormal normalization with C0 inside its containing quadric, or infer an STCI obstruction from these incidence statements.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/01-marked-quartic.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
