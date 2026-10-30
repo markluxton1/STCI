@@ -101,7 +101,7 @@ facts from the preceding reduction, Section 2.
 **Claim.** For every a,B and nonzero delta in this subfamily, under center
 avoidance there is an actual point off c mapping to C0. Hence
 (pi^{-1}(C0))_red=c cannot hold. The full-support theorem imported in the
-[quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md),
+[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 Section 1, makes that equality necessary for a mate, so this is an
 all-mate-degree exclusion in the stated normalization/projection lane.
 
@@ -572,7 +572,7 @@ previously sealed file is edited. The entire nonendpoint family remains open.
 ## 1. Actual pair, modulus and convenient lift parameters
 
 Use the actual sections and chart in the
-[pole-filtration and line-jet note](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md),
+[pole-filtration and line-jet note](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd),
 with delta!=0 over an algebraically closed field of characteristic zero.
 The accepted normalization pair and its complete open S minus ell=A2(r,T)
 are supplied by the [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
