@@ -390,9 +390,9 @@ jet cutoff, or actual STCI exclusion follows without additional work.
 
 Proof: [singular-root note](2026-10-19-singular-root-investigation.md).
 Independent review:
-[smoothing audit](2026-10-19-regular-singular-root-smoothing-audit.md),
+[smoothing audit](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-19-regular-singular-root-smoothing-auditmd),
 with a separate elementary argument for two equal-slope rational
-components in [the two-component audit](2026-10-19-regular-reducible-root-independent-audit.md).
+components in [the two-component audit](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-19-regular-reducible-root-independent-auditmd).
 
 ## 6. Main finding E: generic Rees data cannot replace the defect sheaves
 
