@@ -515,7 +515,7 @@ once its own lattice proof is accepted. The classification of that
 lattice filter and the exclusion of any surviving conductor types
 are separate obligations.
 
-The displayed [four-A1 family](2026-10-09-session-singular-delpezzo-four-A1-family.md)
+The displayed [four-A1 family](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-delpezzo-four-a1-familymd)
 already realizes the order-two correction in an actual normalization,
 then fails the full-fiber condition. It does not represent every
 possible projection of a four-A1 surface. Genus-two rational
@@ -759,10 +759,10 @@ conditional algebra acceptance.
 
 Date: 2026-10-09. Owner: `delpezzo_d5_torsion_filter`.
 Status: **PROVED HERE**. Sections 1--2 are independently accepted in
-the [adjoint audit](2026-10-09-session-genus-two-adjoint-independent-audit.md)
-and its [degree-one counteraudit](2026-10-09-session-genus-two-degree-one-counteraudit.md).
+the [adjoint audit](#source-2026-10-09-session-genus-two-adjoint-independent-auditmd)
+and its [degree-one counteraudit](#source-2026-10-09-session-genus-two-degree-one-counterauditmd).
 Sections 4--5 and 7 are independently accepted in the
-[null-curve and mate-strata audit](2026-10-09-session-genus-two-nullcurve-mate-independent-audit.md).
+[null-curve and mate-strata audit](#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd).
 Sections 3, 6 and 8 are supplied for a final bounded audit. This is a
 structural reduction; neither the genus-two mate lane nor the
 unrestricted STCI problem is excluded here.
@@ -987,7 +987,7 @@ Every vertical contracted (-2) curve is one of these roots. The
 negative definite lattice of all vertical exceptional primes is
 therefore an embedded root subsystem of D8, and its total rank is
 at most eight. The signed-coordinate argument from the
-[D5 filter](2026-10-09-session-delpezzo-D5-torsion-filter.md) applies
+[D5 filter](OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-torsion-filtermd) applies
 to root sublattices here as well: coordinate-connected components
 are A or D, including D2=2A1 and D3=A3. This is an exact lattice
 identification, not a claim that every embedded D8 configuration
@@ -1272,7 +1272,7 @@ the actual image being X. The square-one case is excluded.
 
 This bounded argument was counteraudited independently by
 `degree_one_anticanonical_counteraudit`; its
-[separate note](2026-10-09-session-genus-two-degree-one-counteraudit.md)
+[separate note](#source-2026-10-09-session-genus-two-degree-one-counterauditmd)
 also checks the numerical-to-linear upgrade and the independence
 of the square sections. Consequently
 
@@ -1533,7 +1533,7 @@ is the explicit generic-point argument in Step 4.
 
 Date: 2026-10-09. Auditor: `genus_two_adjoint_audit`. Status:
 **PROVED HERE / independently accepted as bounded structural
-reductions**. This extends the [independent adjoint audit](2026-10-09-session-genus-two-adjoint-independent-audit.md).
+reductions**. This extends the [independent adjoint audit](#source-2026-10-09-session-genus-two-adjoint-independent-auditmd).
 No canonical frontier file was edited. The genus-two mate problem
 remains open.
 
