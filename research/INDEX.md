@@ -183,3 +183,12 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Quintic H2 spectral and generator systems](supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md)
 - [Quintic H2 monic ODE and open incidence](supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md)
 - [Projection torsion, rational phase bounds and nef formal branches](supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md)
+
+## Filtered complete intersections and October 19 geometry
+
+- [Normal flatness and filtered complete intersections](supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md)
+- [First-relation defects and spectral nonreduced roots](supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md)
+- [Rees residuals and exceptional cycles](supplements/REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md)
+- [Saturated duality and moving powers](supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md)
+- [Singleton projections and quadric antidiagonal geometry](supplements/PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md)
+- [Structural continuation and independent investigations](supplements/STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md)
