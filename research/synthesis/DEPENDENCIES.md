@@ -32,6 +32,21 @@ There is **no proved implication** from these contact or dual singularity scheme
 
 The October 27 one-step source supplies a different conditional bridge: for a fixed embedded lower thickening and actual proper equations of degree product (n+1)deg(C), determinant zero in its torsion-free equation module is equivalent to sole reduced support. This source-level criterion is not a promoted universal existence theorem; it requires a suitable lower thickening and proper decomposable kernel point.
 
+## Cross-family proof obligations
+
+These are the concrete proof obligations at the interfaces. They are **not** additional established arrows.
+
+| Proposed implication | What must be supplied | Failure mode already seen |
+| --- | --- | --- |
+| Weighted normal data -> residual support | Full cancellation-stable initial ideal, integral specializations, proper global pair, projective cycle comparison | Scalar valuations and vertical exceptional support alone are insufficient |
+| Saturated lower layers -> actual embedded thickening | Fixed lower embedding, extension class, allowable repair divisor and surjective equation-module quotient | Abstract graded layers can fail to lift |
+| Embedded thickening -> two hypersurfaces | Actual source maps in both degrees, decomposable determinant-zero point, properness and degree exhaustion | A nonempty formal or linear kernel need not contain a proper decomposable pair |
+| Characteristic-two construction -> characteristic-zero construction | A specified flat embedded deformation with controlled generic reduced support and base | The mu4 family is flat but has extra generic components |
+| Ruled/dual contact -> carrier exclusion | An intrinsic map from actual equations to contact data and a full conductor descent calculation | Reduced endpoint or divisor-class information misses embedded corrections |
+| Fixed-carrier jet bound -> unrestricted exclusion | A family covering all carriers under consideration and its exceptional rank-drop strata | A single fixed sextic only excludes its own mate family |
+
+The exact determinant test in the reviewed October 27 one-step source is unusually strong **after** fixing the lower embedding and assuming a proper degree-compatible pair. It does not construct the lower embedding or prove that a proper determinant-zero pair exists. This should be the default separation when moving from local structure to a claimed STCI conclusion.
+
 ## Epistemic guardrails
 
 - Do not replace exact hypotheses by a generic phrase such as “smooth root” or “normal carrier.”
