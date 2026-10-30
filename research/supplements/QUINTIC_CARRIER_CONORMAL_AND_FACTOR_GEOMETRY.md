@@ -78,7 +78,7 @@ point, the pullback of I_C induces a generically nonzero map
 
 Therefore `deg J>=-7`; for `deg J<-7` the Hom space is zero. Global
 immersion of R is unnecessary. This is the direct proof used in the
-accepted [quartic weighted-ribbon audit](2026-10-10-session-weighted-ribbon-conormal-independent-audit.md).
+accepted [quartic weighted-ribbon audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-weighted-ribbon-conormal-independent-auditmd).
 
 If S is Gorenstein in a neighborhood of R, Cartier adjunction and ribbon
 duality give
@@ -98,7 +98,7 @@ The ribbon and generic conormal deductions above are written out directly.
 
 ## 3. Multiplicity ten without global primitivity or a regular ratio
 
-The separately delegated [multiplicity-ten filtration audit](2026-10-11-session-multiplicity-ten-filtration-audit.md)
+The separately delegated [multiplicity-ten filtration audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
 supplies a direct finite-flat Frobenius proof, read and checked by this
 auditor. A hypothetical CI(5,8) is generically curvilinear by Section 1.
 Its saturated graded pieces E_i are line bundles, even at nonprimitive
