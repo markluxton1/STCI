@@ -23,7 +23,7 @@ Date: 2026-10-19.
 Author: `filtered_algebra/annihilator_audit`, independently reconstructing the
 local-family argument proposed by the filtered-algebra worker.
 Status: **PROPOSAL WITH INDEPENDENT REVIEW PASS; not promoted.**
-Independent audit: [local normal-flatness review](2026-10-19-filtered-local-normal-flatness-independent-audit.md).
+Independent audit: [local normal-flatness review](#2026-10-19-filtered-local-normal-flatness-independent-audit).
 This note is a research contribution, not a promoted result record. No
 canonical record is edited or promoted.
 
@@ -79,10 +79,10 @@ algebra has first ideal order `r`, then its Hilbert function begins
 
 Its characteristic-free proof is preserved in
 [Reflection, higher moments, and sharp codimension-two Loewy bounds,
-section 2](2026-10-13-generalization-higher-moment-and-loewy-bounds.md).
+section 2](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-higher-moment-and-loewy-boundsmd).
 The delicate separate restriction calculations and Jordan-block argument
 were independently checked in
-[the independent socle audit](2026-10-13-generalization-socle-independent-audit.md),
+[the independent socle audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd),
 section 6. These inherited proofs are inputs and were not rerun here.
 
 A current primary research statement was directly checked during this
@@ -101,7 +101,7 @@ Verified primary PDF: <https://arxiv.org/pdf/2202.04021>.
 The new contribution is the passage from this accepted numerical theorem
 to uniformity of ALL ordinary normal powers in an ACTUAL thickening.
 The proof is independent of the global spectral/apolar bridge in
-[the moving pure-power proposal](2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md).
+[the moving pure-power proposal](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
 
 ## 3. Purity, the local finite free algebra, and exact special order
 
@@ -335,7 +335,7 @@ additional reduced components.
 
 Date: 2026-10-19. Reviewer: filtered-algebra worker.
 Reviewed proposal:
-[2026-10-19-filtered-generic-ci-normal-flatness.md](2026-10-19-filtered-generic-ci-normal-flatness.md).
+[2026-10-19-filtered-generic-ci-normal-flatness.md](#2026-10-19-filtered-generic-ci-normal-flatness).
 Verdict: **PASS for the exact stated hypotheses; proposal not promoted.**
 The reviewer independently reconstructed the specialization and DVR argument,
 using the previously accepted codimension-two local Gorenstein drop theorem
@@ -479,10 +479,10 @@ every fiber is a binary graded complete intersection of degrees `(r,s)`.
 No splitting or balance of `E` is assumed.
 
 Source statement and resultant proof: section 8 of
-[the spectral bridge proposal](2026-10-19-saturated-first-relation-spectral-bridge.md).
+[the spectral bridge proposal](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge).
 The ordinary-power recovery is also detailed in its sections 3 and 6.
 The saturation-duality proof is section 3 of
-[the filtered-duality proposal](2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md).
+[the filtered-duality proposal](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
 Both sources remain proposals; this audit supplies independent review
 of this theorem alone and does not certify other conclusions in them.
 
@@ -692,7 +692,7 @@ nor intersections with residual curve components are covered.
   supplies normal flatness of the entire ordinary J-adic algebra under
   the stated hypotheses. Its preserved proof computes the second minimal
   quotient relation T and its degree in
-  [the saturated first-relation bridge](2026-10-19-saturated-first-relation-spectral-bridge.md),
+  [the saturated first-relation bridge](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge),
   sections 3--6. In the present splitting,
 
   \[
@@ -703,7 +703,7 @@ nor intersections with residual curve components are covered.
   The second relation is a **quotient relation**. No global second
   polynomial line is assumed.
 - The general generator-filtration lemma is proved independently in
-  [the generator-filtration audit](2026-10-13-generalization-thick-generator-filtration-audit.md),
+  [the generator-filtration audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd),
   sections 1--4. It is a reviewed supporting source, not a separate
   promoted result record. Its general statement applies to a full
   locally CI initial ideal; the application below is enabled by R0010.
@@ -725,8 +725,8 @@ nor intersections with residual curve components are covered.
   its proof is not used in the arithmetic exclusion of movement one.
 
 The new claims in this note remain unpromoted proposals. Independent
-reconstruction passed in [the core audit](2026-10-19-numerical-first-root-independent-audit.md)
-and [the fixed-movement audit](2026-10-19-global-ci-filtration-independent-audit.md).
+reconstruction passed in [the core audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-numerical-first-root-independent-audit)
+and [the fixed-movement audit](#2026-10-19-global-ci-filtration-independent-audit).
 
 ## 3. The actual generator sequence and why it cannot split
 
@@ -1061,7 +1061,7 @@ a canonical record or independently certify the geometric construction of
 the generator filtration.
 
 Audited proposal: section 7 of
-[the global CI filtration investigation](2026-10-19-global-ci-filtration-investigation.md).
+[the global CI filtration investigation](#2026-10-19-global-ci-filtration-investigation).
 The factorization arguments and strict cutoff in that section agree with
 the independent reconstruction below.
 
