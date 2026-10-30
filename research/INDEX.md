@@ -192,3 +192,12 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Saturated duality and moving powers](supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md)
 - [Singleton projections and quadric antidiagonal geometry](supplements/PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md)
 - [Structural continuation and independent investigations](supplements/STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md)
+
+## Arithmetic lifting, conditional (2,12) geometry, and intrinsic ideals
+
+- [Z4 lifting and deformation obstruction](supplements/Z4_LIFTING_AND_DEFORMATION.md)
+- [Z4 intrinsic arithmetic and divided-power mechanism](supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md)
+- [Conditional (2,12) surface and symbol geometry](supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md)
+- [Conditional (2,12) singular and conductor calculations](supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md)
+- [Conditional (2,12) continuation and sextic exclusions](supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md)
+- [Higher initial ideals and embedded thickening obstructions](supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
