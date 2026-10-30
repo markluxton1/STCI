@@ -614,7 +614,7 @@ The next promising calculation is therefore to relate \(M_i\) to the **sectionwi
 
 # Continuation checkpoint after the October 8 batch, reconciled October 9
 
-The [October 9 acceptance](2026-10-09-session-results-acceptance.md)
+The [October 9 acceptance](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-results-acceptancemd)
 supersedes the older open smooth-normalization language below. Every
 genus-zero and every smooth-normalization quartic carrier is now
 excluded; every nonnormal quartic containing C0 has rational
