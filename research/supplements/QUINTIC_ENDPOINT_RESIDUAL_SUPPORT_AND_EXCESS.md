@@ -283,7 +283,7 @@ Agent agreement alone is not used as a proof.
 Work over an algebraically closed field of characteristic zero. The normal
 degree-five anticanonical del Pezzo surface `S` and smooth lifted quartic `c`
 are the actual pair in the accepted
-[quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md),
+[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 with the exhaustive
 [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
 and its
