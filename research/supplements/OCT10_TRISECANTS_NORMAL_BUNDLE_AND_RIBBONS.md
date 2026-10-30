@@ -308,7 +308,7 @@ fixed-C0 STCI, and the universal projective-curve question remain
 
 # Positive-characteristic primary-source refresh, 2026-10-10
 
-Status: bounded literature verification. This supplements the [2026-10-06 audit](2026-10-06-positive-characteristic-literature-audit.md). It adds a precise later toric extension, independently rechecks Moh's official abstract, and records the continuing full-text access limit for Hartshorne. It asserts no universal projective STCI theorem and no new theorem proved in this repository.
+Status: bounded literature verification. This supplements the [2026-10-06 audit](NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-positive-characteristic-literature-audit). It adds a precise later toric extension, independently rechecks Moh's official abstract, and records the continuing full-text access limit for Hartshorne. It asserts no universal projective STCI theorem and no new theorem proved in this repository.
 
 ## Moh: the official abstract and the exact projection hypotheses
 
@@ -359,7 +359,7 @@ No canonical frontier file was edited by this lane.
 The controlling records inspected were the current
 [literature ledger](../LITERATURE_LEDGER.md), the
 [October 6 source audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-literature-refresh), the
-[positive-characteristic proof audit](2026-10-06-positive-characteristic-literature-audit.md),
+[positive-characteristic proof audit](NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-positive-characteristic-literature-audit),
 and both October 10 acceptance records, including the
 [resumed continuation acceptance](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-continuation-results-acceptancemd).
 The latter records the accepted genus-one exclusion, genus-two bisection
