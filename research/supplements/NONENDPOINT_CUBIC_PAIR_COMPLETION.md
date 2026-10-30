@@ -44,7 +44,7 @@ complete inverse-support condition SUP, including no isolated extra point.
 
 Use B=b-a, G=g-3b+2a, Jbar=d-2g+2b-a, so A=a+d-b-g=G+Jbar. The 3+3
 partition lies on A=-3delta^2. The upstream
-[residual audit](2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md),
+[residual audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-nonendpoint-residual-factor-and-genus-independent-audit),
 SHA `db72f936486253cf91e82645de9c3b6b23562dac9da49eee6ee31f0cb94b5322`,
 proves under SUP that every prime cubic is a smooth rational normal cubic
 with equation t+m r+n=0, and maps isomorphically to a smooth Q-curve of class
@@ -55,11 +55,11 @@ excluded in that upstream proof, rather than discarded by selecting a minor.
 The frozen owner's section 7 has a stronger formulation than its proof:
 it asserts failure of SUP on the entire lane. On Jbar=0, however,
 A=-3delta^2 forces G=-3delta^2, the entire-line rank-one stratum. The accepted
-[pole/line audit](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet-independent-audit.md)
+[pole/line audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit)
 excludes all mates there by the actual candidate-power obstruction; that
 does not itself establish failure of SUP. I identified this distinction;
 the owner withdrew the stronger assertion in the separate
-[scope qualification](2026-10-13-session-cubic-pair-theorem-scope-qualification.md),
+[scope qualification](NONENDPOINT_CUBIC_PAIR_COMPLETION.md#2026-10-13-session-cubic-pair-theorem-scope-qualification),
 SHA `0dce1ea4cee349a6a4520285a56152c6243c1ffaf6cb4d7607e6c1c253c59d7b`.
 
 The precise conclusions accepted here are:
@@ -193,7 +193,7 @@ with s=1+h and p=uv. These necessary equations retain all algebraic branches.
 I delegated a separate narrow algebra reconstruction and then read and
 reconstructed its written argument, rather than treating the worker's
 agreement as proof. The frozen
-[coefficient subaudit](2026-10-13-session-nonendpoint-cubic-pair-coefficient-independent-subaudit.md)
+[coefficient subaudit](NONENDPOINT_CUBIC_PAIR_COMPLETION.md#2026-10-13-session-nonendpoint-cubic-pair-coefficient-independent-subaudit)
 has SHA `8dc9ca3c3623a42023ed8acee208dc1b8272b3942e91c68d4b43d6994d72c316`.
 Its conditional geometric hypotheses are supplied by Sections 1–3 here.
 
@@ -864,7 +864,7 @@ The exact proven statements are:
    doubled cubic, all target endpoints, and every contact profile.
 2. On `Jbar=0`, the equation `A=G+Jbar=-3delta^2` forces
    `G=-3delta^2`, hence the entire-line rank-one conditions. The accepted
-   [pole/line audit](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet-independent-audit.md)
+   [pole/line audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit)
    proves that no positive power of the actual candidate section can
    descend as a mate. That is an all-mate obstruction; it does not itself
    prove failure of SUP.
