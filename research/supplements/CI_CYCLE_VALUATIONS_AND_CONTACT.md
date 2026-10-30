@@ -581,7 +581,7 @@ For an ideal \(I\) in a two-dimensional local ring, let \(e(I)\) denote Hilbertâ
 
 See [Hunekeâ€“Swanson, *Integral Closure of Ideals, Rings, and Modules*, Proposition 11.1.10(2), printed p.225, and Proposition 11.2.1, p.226](https://www.math.purdue.edu/~iswanso/book/SwansonHuneke.pdf).
 
-This supplies the important correction to a possible overreading of the earlier [coefficient-valuation note](2026-10-23-intrinsic-coefficient-valuations.md), section 6, and its [audit](2026-10-23-intrinsic-contact-valuations-independent-audit.md), section 5. Their example
+This supplies the important correction to a possible overreading of the earlier [coefficient-valuation note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd), section 6, and its [audit](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-contact-valuations-independent-auditmd), section 5. Their example
 
 \[
 J_1=(U^2,V^2),\qquad J_2=(U,V)^2
