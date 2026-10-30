@@ -223,3 +223,8 @@ Thirty historical mathematical notes were preserved in full in four supplements:
 ## Full-content migration — October 9 del Pezzo and conductor geometry (2026-10-30)
 
 Thirty historical mathematical sources preserved in full in four supplements: `OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md` (9), `OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md` (8), `OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md` (7), `OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md` (6). All thirty originals retired after source sections were verified in committed supplements. Conditional hypotheses, counterexamples, calculations, and unresolved cases retain their original status; no new correctness audit or theorem promotion. **Cumulative historical sources retired: 447. Live notes remaining: 102.** Editorial deduplication and inbound-reference cleanup remain outstanding.
+
+
+## Full-content migration — October 10–11 bisection, genus two, and quartic geometry (2026-10-30)
+
+Thirty historical mathematical sources preserved in full in four supplements: `OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md` (8), `OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md` (8), `OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md` (8), `OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md` (6). All 30 originals retired only after committed supplements were verified to include each source heading. Mathematical arguments, hypotheses, counterexamples, failures and open boundaries retain source status; no independent correctness audit or theorem promotion. **Cumulative historical retirements: 477; live remaining notes: 72.** Inbound reference cleanup and editorial harmonization remain outstanding.
