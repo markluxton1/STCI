@@ -1,5 +1,16 @@
 # higher initial ideals and embedded thickenings
 
+## Integration guide: cancellations and higher embedded data
+
+The [higher-initial investigation](#2026-10-21-higher-initial-ideals-valuations) records how cancellations between leading normal forms create higher initial generators; the explicit examples must be retained because they rule out replacing the full initial ideal with just the first symbols. The [embedded ribbon/triple obstruction](#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction) concerns a different global extension and gluing problem, with its own Čech and coordinate-invariance hypotheses.
+
+Compare the [full ideal-filtration diagram](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), the [valuation length counterexample](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd), and the [boundary equation-module test](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction). The common obstruction to an overly simple approach is loss of higher-order or gluing information, **not** a theorem that any given local thickening fails globally.
+
+The original coprime theorem, examples, and unreviewed status remain intact below.
+
+---
+
+
 Complete mathematical arguments and exploratory boundaries preserved. Conditional conclusions remain conditional; computational and geometric obstructions are not asserted beyond their original hypotheses.
 
 ---
