@@ -21,7 +21,7 @@ Full historical mathematical content organized by topic. Original conditional an
 
 Date: 2026-10-24. **Status: source comparison, without a novelty or priority
 claim.** This note belongs to the provisional
-[flag–duality synthesis](2026-10-24-quartic-flag-duality-synthesis.md).
+[flag–duality synthesis](#quartic-flag-duality-synthesis).
 The specialized propositions are proved in the supporting notes and audited
 there; the sources below supply context rather than substitute hypotheses.
 
@@ -109,7 +109,7 @@ C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3.
 ## 1. Scope, retained evidence, and conventions
 
 The [research index](../INDEX.md), [contribution checklist](../CONTRIBUTING_AGENT.md),
-[discussion reconciliation](2026-10-24-discussion-reconciliation.md),
+[discussion reconciliation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#discussion-reconciliation),
 [earlier dual-incidence derivation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md),
 and [merged ruled-surface synthesis](CUBIC_SCROLL_AND_RULED_SURFACES.md)
 are the retrieval route. We retain the earlier identification of
@@ -470,13 +470,13 @@ The checkout starts at current main \(320dbd8\), containing merged PRs
 #71–#74. The [research index](../INDEX.md), [state](../STATE.md),
 [frontier](../FRONTIER.md), [authority policy](../AUTHORITY.md),
 [interlude](../INTRINSIC_GEOMETRY_INTERLUDE_2026-10-24.md), and
-[discussion reconciliation](2026-10-24-discussion-reconciliation.md)
+[discussion reconciliation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#discussion-reconciliation)
 were consulted before the investigation. Navigation and discussion
 records are not theorem authority.
 
 The retained geometry is the exact fixed-embedding description in the
 [special-lines note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
-and its [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md),
+and its [geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit),
 the [automorphism/bitangent synthesis](#2026-10-24-quartic-automorphisms-bitangents-synthesis),
 and the [merged ruled-surface synthesis](CUBIC_SCROLL_AND_RULED_SURFACES.md)
 with its linked independent audits. These are previously reviewed
@@ -490,13 +490,13 @@ The supporting investigations are:
 
 | Note | Main contribution and evidence type |
 | --- | --- |
-| [Flag incidence](2026-10-24-quartic-flag-incidence.md) | Global construction, finite fibers, swap, contact structure, automorphisms; proofs and exact checks |
-| [Conormal and residual geometry](2026-10-24-quartic-conormal-residual-geometry.md) | Canonical product, distinguished sections, residual double cover and higher contact; proofs and independent reconstruction |
+| [Flag incidence](#quartic-flag-incidence) | Global construction, finite fibers, swap, contact structure, automorphisms; proofs and exact checks |
+| [Conormal and residual geometry](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-conormal-residual-geometry) | Canonical product, distinguished sections, residual double cover and higher contact; proofs and independent reconstruction |
 | [Cubic scroll and Gauss duality](CUBIC_SCROLL_AND_RULED_SURFACES.md) | Dual equation, normalization, Gauss resolution and elementary transformations; proofs and exact checks |
-| [Dual intersections](2026-10-24-quartic-dual-intersections.md) | Global intersection ideals and endpoint inverse-ideal corrections; proofs and exact checks |
-| [Dual singular scheme](2026-10-24-quartic-dual-singular-scheme.md) | Full Jacobian scheme, generic transverse structures and embedded endpoint points; local algebra and exact certificates |
-| [Independent audit](2026-10-24-quartic-flag-duality-independent-audit.md) | Independent reconstruction, boundary checks, and separate algebra replay |
-| [Literature context](2026-10-24-quartic-flag-duality-literature.md) | Primary-source comparison and explicit access limits; no novelty claim |
+| [Dual intersections](#quartic-dual-intersections) | Global intersection ideals and endpoint inverse-ideal corrections; proofs and exact checks |
+| [Dual singular scheme](#quartic-dual-singular-scheme) | Full Jacobian scheme, generic transverse structures and embedded endpoint points; local algebra and exact certificates |
+| [Independent audit](#quartic-flag-duality-independent-audit) | Independent reconstruction, boundary checks, and separate algebra replay |
+| [Literature context](#quartic-flag-duality-literature) | Primary-source comparison and explicit access limits; no novelty claim |
 
 None of these new propositions has been promoted to a canonical result.
 The proofs and review establish the scope of this package; passing scripts
@@ -914,7 +914,7 @@ The repository route was [INDEX](../INDEX.md),
 [AUTHORITY](../AUTHORITY.md). These navigation files do not establish new
 mathematics. The starting evidence was the
 [special-lines research note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
-and its [independent geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
+and its [independent geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit)
 on `codex/special-lines-planes-2026-10-24`, base commit
 `51dc4772e6a2b028a1d9559a4bcfbd69be9bd0d6`.
 The contact identities needed for the new arguments were reconstructed;
@@ -923,13 +923,13 @@ dual singular locus remain relevant cautions.
 
 The self-contained proof notes are:
 
-- [Projection, linear system, and full automorphism group](2026-10-24-quartic-projection-automorphisms.md).
-- [Symmetric square, bitangent conic, and correspondences](2026-10-24-quartic-symmetric-square-bitangents.md).
-- [Literature, projection moduli, and characteristic-two outlook](2026-10-24-quartic-invariant-literature-outlook.md).
+- [Projection, linear system, and full automorphism group](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-automorphisms).
+- [Symmetric square, bitangent conic, and correspondences](#quartic-symmetric-square-bitangents).
+- [Literature, projection moduli, and characteristic-two outlook](#quartic-invariant-literature-outlook).
 
 Independent reconstruction is recorded in the
-[projection/group audit](2026-10-24-quartic-projection-independent-audit.md)
-and [symmetric-square audit](2026-10-24-quartic-symmetric-independent-audit.md).
+[projection/group audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-independent-audit)
+and [symmetric-square audit](#quartic-symmetric-independent-audit).
 These are reviews of research evidence; none is a numbered canonical result.
 
 ## 2. The smallest common datum
@@ -1122,7 +1122,7 @@ exactly the two distinguished endpoints.
 ## 6. Moduli and the characteristic-two boundary
 
 The surrounding geometry is classical. The
-[literature/outlook note](2026-10-24-quartic-invariant-literature-outlook.md)
+[literature/outlook note](#quartic-invariant-literature-outlook)
 records the sources actually inspected and their precise use: Bernardi's
 projection criterion and apolarity, and Isaev's binary-quartic invariants
 and strictly semistable orbit description. No novelty claim is made.
@@ -1224,7 +1224,7 @@ The exact premises retained without rerunning inherited proofs are:
   the already accepted normal/conormal splitting when it is mentioned.
   The new marked-product argument does not need to reprove it.
 - The dual's reduced singular support of four components from the
-  [earlier geometry audit](2026-10-24-special-lines-planes-geometry-audit.md).
+  [earlier geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit).
   The new work refines its scheme structure.
 
 No carrier-exclusion theorem, primitive-thickening classification, or
@@ -1232,11 +1232,11 @@ other STCI argument is a dependency. The reviewer did not consult older
 conversation state as mathematical evidence.
 
 The supporting notes reviewed are the
-[flag note](2026-10-24-quartic-flag-incidence.md),
-[conormal note](2026-10-24-quartic-conormal-residual-geometry.md),
+[flag note](#quartic-flag-incidence),
+[conormal note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-conormal-residual-geometry),
 [scroll note](CUBIC_SCROLL_AND_RULED_SURFACES.md),
-[intersection note](2026-10-24-quartic-dual-intersections.md), and
-[singular-scheme note](2026-10-24-quartic-dual-singular-scheme.md).
+[intersection note](#quartic-dual-intersections), and
+[singular-scheme note](#quartic-dual-singular-scheme).
 
 ## 2. The global flag and the two different branch constructions
 
@@ -1535,16 +1535,16 @@ changes the characteristic to two. No STCI conclusion, normal-bundle
 calculation, or carrier exclusion is asserted or used.
 
 This note supplies the literature and moduli context for the
-[projection and automorphism note](2026-10-24-quartic-projection-automorphisms.md)
-and the [symmetric-square note](2026-10-24-quartic-symmetric-square-bitangents.md).
+[projection and automorphism note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-automorphisms)
+and the [symmetric-square note](#quartic-symmetric-square-bitangents).
 The retrieval route was [research/INDEX](../INDEX.md); the earlier
 [special-lines investigation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
-and its [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
+and its [geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit)
 are supporting exploratory evidence. The calculations below are independently
 reconstructed from the quartic linear system. None of those evidence files
 is treated as a promoted canonical result.
 
-The [independent projection audit](2026-10-24-quartic-projection-independent-audit.md)
+The [independent projection audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-independent-audit)
 also checks the moduli statements and the characteristic-two scope.
 
 ## 1. Literature checked and the boundary of the comparison
@@ -1833,7 +1833,7 @@ closed field of characteristic zero, with the fixed marked embedding
 ## 1. Scope and retained input
 
 The [merged dual-incidence derivation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
-and [independent geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
+and [independent geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit)
 already establish that the dual surface is the restricted binary-quartic
 discriminant, of degree six. Its reduced singular locus has four
 components: the osculating quartic, the bitangent quartic, and the two
@@ -1859,7 +1859,7 @@ In the dual projective space \(\mathbf P^3_{[A:B:C:D]}\), put
 \[
 L=BC-4AD,\qquad K=AC^2+B^2D.
 \]
-The [dual-intersection calculation](2026-10-24-quartic-dual-intersections.md)
+The [dual-intersection calculation](#quartic-dual-intersections)
 uses the classical invariant presentation
 \[
 \Delta=-4L^3-27K^2
@@ -2101,9 +2101,9 @@ hyperplane **sections**, while the ambient embedding is in
 
 The retrieval route was [INDEX](../INDEX.md), the
 [contribution checklist](../CONTRIBUTING_AGENT.md), the
-[discussion reconciliation](2026-10-24-discussion-reconciliation.md), and the
-[symmetric-square note](2026-10-24-quartic-symmetric-square-bitangents.md)
-with its [independent audit](2026-10-24-quartic-symmetric-independent-audit.md).
+[discussion reconciliation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#discussion-reconciliation), and the
+[symmetric-square note](#quartic-symmetric-square-bitangents)
+with its [independent audit](#quartic-symmetric-independent-audit).
 The group and secant-map facts used below are retained in their exact
 characteristic-zero scopes from those independently audited exploratory
 notes. They are not canonically promoted. No accepted normal-bundle or
@@ -2344,7 +2344,7 @@ The two lines \(\ell_1(D,R),\ell_2(D,R)\) lie in the hyperplane
 \(f(D,R)\). Swap exchanges these line maps and fixes the hyperplane map.
 
 Retain the audited facts from the
-[symmetric-square note, Section 2](2026-10-24-quartic-symmetric-square-bitangents.md):
+[symmetric-square note, Section 2](#quartic-symmetric-square-bitangents):
 \(\sigma\) is the finite birational normalization of its secant surface
 \(S\) in the Grassmannian; a general trisecant ruling of the unique
 quadric has three reduced inverse pairs; an endpoint tangent trisecant
@@ -2495,7 +2495,7 @@ exchanged by residual swap.
 ## 8. The full embedded automorphism group and all fixed loci
 
 Retain from the independently audited
-[projection/group note](2026-10-24-quartic-projection-automorphisms.md)
+[projection/group note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-automorphisms)
 that \(G=\operatorname{Aut}(\mathbf P^3,C)=\mathbf G_m\rtimes\mathbf Z/2\).
 On the divisor plane its generators are
 \[
@@ -2622,15 +2622,15 @@ V=\langle s^4,s^3t,st^3,t^4\rangle.
 
 This note reconstructs the symmetric-square statements needed from the
 [special-lines investigation](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md)
-and its [independent geometry audit](2026-10-24-special-lines-planes-geometry-audit.md).
+and its [independent geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit).
 The arguments depend only on the displayed embedding and its unique
 smooth containing quadric, whose elementary derivation is recalled below.
 They do not use the accepted normal-bundle splitting, quartic-carrier
 exclusions, or any proposed STCI obstruction. For projection and group
-conventions see the companion [projection note](2026-10-24-quartic-projection-automorphisms.md).
+conventions see the companion [projection note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-automorphisms).
 No literature-priority claim is made.
 
-The [independent audit](2026-10-24-quartic-symmetric-independent-audit.md)
+The [independent audit](#quartic-symmetric-independent-audit)
 reconstructs the arguments, including endpoint schemes and correspondence
 composition, and records the final review boundary.
 
@@ -3175,11 +3175,11 @@ c(u)=[1:u:u^3:u^4].
 \]
 
 This audit independently reconstructs the claims of the
-[symmetric-square note](2026-10-24-quartic-symmetric-square-bitangents.md).
+[symmetric-square note](#quartic-symmetric-square-bitangents).
 It is review of provisional research evidence, not canonical promotion.
 No normal-bundle splitting or quartic-carrier exclusion is used or rerun.
 The research index and the previous
-[special-lines geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
+[special-lines geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit)
 were read first. The derivations below were made before the new author
 note was available, followed by a comparison with its final text.
 
