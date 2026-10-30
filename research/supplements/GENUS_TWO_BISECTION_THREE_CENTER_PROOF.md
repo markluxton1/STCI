@@ -221,7 +221,7 @@ obstruction proved directly, without a graph-table assertion.
 Every possible V-fiber and every allowed three-center history leads
 to a contradiction. Therefore `k_t=3` is impossible in the accepted
 lambda-zero bisection mate reduction. Together with the separate
-[even-count exclusion](2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md),
+[even-count exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md),
 the only possible blowup-count partition is
 
     [1,1,1,1].
