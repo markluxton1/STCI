@@ -16,7 +16,7 @@ separate structural proposal requiring its own audit. No canonical file
 is edited, and this note asserts no universal STCI theorem.
 
 Audited source:
-[three-blowup fiber exclusion](2026-10-10-session-genus-two-bisection-three-blowup-fiber-exclusion.md),
+[three-blowup fiber exclusion](GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md),
 SHA256 `f7177554d64e14a30d169daaedee7ff2ebcc51ed8b3d8435ed590369d9f24103`.
 The present auditor independently checked every coefficient, center
 restriction, and final contact contradiction. This is a mathematical
@@ -43,7 +43,7 @@ whose coefficient at that contact is one.
 
 The three-blowup note is accepted at exactly this scope: **every fiber
 with k_t=3 is impossible**. Combining it with the independently checked
-[even-count exclusion](2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md)
+[even-count exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md)
 leaves only `[1,1,1,1]`. This conclusion does not yet use conductor power
 descent, the splitting of the conductor, or the fixed embedding of C0.
 
@@ -490,7 +490,7 @@ sectional-genus-two inputs:
     f^2=0,          L.f=2,
     the actual |L| morphism is birational onto X.
 
-Also accept the independently proved [entire conductor theorem](2026-10-10-session-genus-two-entire-conductor-independent-audit.md):
+Also accept the independently proved [entire conductor theorem](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md):
 the actual conductor `Gamma` is a reduced line, its ideal on `X` is
 `I=nu_*omega_S`, resolution duality gives `R sigma_*omega_M=omega_S`,
 and the generic order of the quartic equation along `Gamma` is exactly
@@ -1891,7 +1891,7 @@ The class convention here gives a fiber over a point of Gamma class
 `(1,0)` and a fiber over a point of the pencil class `(0,1)`.
 The actual conductor on the finite normalization `S` is a line, with
 entire finite-flat degree-two inverse conductor, as proved in the
-[conductor audit](2026-10-10-session-genus-two-entire-conductor-independent-audit.md).
+[conductor audit](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md).
 The proper birational map `T -> S` contracts exactly the horizontal
 sigma-exceptional curves. All other sigma-exceptional primes are the
 vertical (-2) curves resolved by rho.
