@@ -224,3 +224,8 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Intrinsic (4,4) multiplicity and genus budgets](supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md)
 - [Normal boundary, weighted initials and lifting](supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md)
 - [Intrinsic (4,4) approaches and characteristic conormal](supplements/INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md)
+
+## Endpoint-four and one-step boundary investigations
+
+- [One-step boundary obstruction and endpoint scope](supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md)
+- [Endpoint-four actual sextic constructions](supplements/ENDPOINT_FOUR_ACTUAL_SEXTICS.md)
