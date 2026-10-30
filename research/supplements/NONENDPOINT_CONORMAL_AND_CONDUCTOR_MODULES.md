@@ -98,7 +98,7 @@ curvilinear. The saturated finite-flat Gorenstein pairing gives
     deg D_(m-1)=(5k-1)(7-e)-6-16k >= 0.
 
 Here D_(m-1) is effective. This is the same direct algebraic argument
-as the [multiplicity-ten audit](2026-10-11-session-multiplicity-ten-filtration-audit.md)
+as the [multiplicity-ten audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
 and [uniform order-one bound](2026-10-06-uniform-order-one-frontier.md).
 For primary-source context the Gorenstein duality and its quasiprimitive
 BF specialization were freshly inspected in
@@ -153,7 +153,7 @@ has rank two and the map on cotangent spaces is surjective at every
 smooth point of c.
 
 At the remaining A4 point, use the actual chart Z0=1 from the
-[independent local-chart audit](2026-10-11-session-dp5-a4-local-chart-independent-audit.md).
+[independent local-chart audit](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-dp5-a4-local-chart-independent-auditmd).
 Let alpha=Z1/Z0, beta=Z2/Z0, chi=Z3/Z0. These generate the maximal
 ideal; the single surface relation has no linear term. Put
 
@@ -1485,7 +1485,7 @@ No existing canonical or sealed file was edited.
 Use the actual sections and conormal cubics P,J of the
 [conormal reduction](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md),
 the [intrinsic pair](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
-the [local A4 chart](2026-10-11-session-dp5-a4-local-chart-independent-audit.md),
+the [local A4 chart](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-dp5-a4-local-chart-independent-auditmd),
 and the [entire conductor](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md).
 The normalization S is anticanonically embedded in P5, H has square five,
 the unique degree-one prime is ell, and c maps isomorphically to C0.
