@@ -196,3 +196,7 @@ Twenty-five historical mathematical sources were preserved in full in four subje
 ## Full-content migration — October 25–27 endpoint and boundary (2026-10-30)
 
 Five historical mathematical notes preserved in full in `BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md` (four) and `ENDPOINT_FOUR_ACTUAL_SEXTICS.md` (one). Topics include one-step boundary obstructions and their audit, endpoint-four nonsplit node scope, fixed-boundary node smoothing, and actual sextic jet certificates. No theorem promotion. **Target cumulative retirements after deleting five originals: 290.** Inbound reference cleanup remains outstanding.
+
+## Full-content migration — October 5–6 foundational notes (2026-10-30)
+
+Thirty source notes were preserved in six topical supplements: `E2_PRIMITIVE_QUARTIC_INCIDENCE.md` (5), `LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md` (6), `NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS.md` (5), `MULTIPLICITY_MIXED46_AND_MF6.md` (6), `RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md` (5), and `FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md` (3). All thirty original files were deleted on `restructure/mathematical-consolidation` after their full contents were committed. This is source-preserving topical consolidation, not editorial deduplication or mathematical claim promotion. Based on the prior recorded 290 retirements, **cumulative retired: 320**; based on the supplied file tree (259 notes before this batch), **229 notes remain**. Inbound reference cleanup and editorial integration remain outstanding.
