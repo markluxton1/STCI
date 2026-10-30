@@ -20,8 +20,8 @@ to the omitted-coordinate derivative. It edits no canonical frontier file.
 The unrestricted STCI problem is not resolved by this bounded theorem.
 
 The inputs are the
-[independent ribbon-net proof](2026-10-09-session-genus-one-ribbon-net-independent-audit.md),
-[actual-coordinate full-fiber conditions](2026-10-09-session-genus-one-uniform-projection-adversarial.md),
+[independent ribbon-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md),
+[actual-coordinate full-fiber conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md),
 and [entire conductor calculation](2026-10-09-session-genus-one-entire-conductor.md).
 The separate [partition [2,1,1] proof](2026-10-09-session-ribbon-211-projection-independent-audit.md)
 is outside this note's independently computed coverage. Combining all four
@@ -319,7 +319,7 @@ multiple of `Q^n`: the quotient has zero Weil divisor on the normal
 projective integral surface and is a constant global unit. Thus no mate
 of any degree exists for this last pencil. This excludes all of [2,2].
 
-The [root's bounded [2,2] proof](2026-10-09-session-ribbon-22-bounded-power-obstruction.md)
+The [root's bounded [2,2] proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md)
 was read and independently accepted here. Its separate quotient-ring
 certificate has coefficients `(114,336)` for `T^2` and `(1,4)` for `N`,
 with nonzero minor 120. The two-point calculation above supplies a
