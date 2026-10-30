@@ -1,5 +1,12 @@
 # Genus-two bisection: integral correction and even fiber-count exclusion
 
+## Dependency guide: parity exclusion under the second-pencil reduction
+
+The theorem here excludes **even fiber blowup counts**, conditional on the accepted genus-two second-pencil theorem and the specified smooth embedded lift. Its essential step is the descent of an integral correction to a Cartier curve, followed by the regularity contradiction; it is not merely numerical parity. The [three-center obstruction](GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md) addresses a different fiber configuration, while [the entire conductor theorem](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md) is upstream geometry. Neither excludes the entire bisection stratum without the remaining cases and hypotheses.
+
+---
+
+
 Permanent mathematical proof. Conditional on the accepted genus-two second-pencil reduction; no global STCI claim.
 
 # Genus-two bisection: every even fiber blowup count is excluded
