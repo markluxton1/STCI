@@ -10,7 +10,7 @@ Complete mathematical dossier preserving computations, exact hypotheses, counter
 
 Date: 2026-10-19.
 Status: **PROPOSAL WITH INDEPENDENT REVIEW PASS; not promoted.**
-Independent audit: [filtered-bridge review](2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit.md).
+Independent audit: [filtered-bridge review](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit).
 Author: filtered-algebra worker, with the degree-s shortcut suggested by
 the independent filtered-bridge reviewer. No canonical record is edited
 or promoted.
@@ -248,12 +248,12 @@ Status: **PASS within the exact hypotheses below; reviewed proposal, not a
 promoted canonical result.**
 
 The initial proposal was the moving-pure-power argument in
-[the filtered-duality note](2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md).
+[the filtered-duality note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
 Independent reconstruction yielded a shorter pure-power contradiction;
 the parent investigation then proposed the arbitrary-first-relation
 spectral bridge audited in Sections 4--5 below and its arbitrary-conormal
 resultant extension in Section 7. The general proposal is recorded in
-[the saturated-first-relation bridge](2026-10-19-saturated-first-relation-spectral-bridge.md).
+[the saturated-first-relation bridge](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge).
 This file records those stronger reconstructions explicitly. No accepted proof, canonical record,
 or inherited computation was modified or rerun.
 
@@ -314,7 +314,7 @@ In characteristic zero, for the pure-power specialization
 `M=M_1^r`, with `M_1 subset V tensor O_C` and `deg M_1<0`, the audited
 conclusion is that no such `Y` exists. Section 8 proves this directly.
 For the rational base, combining (3) with the separately reviewed
-[nonreduced-root obstruction](2026-10-19-spectral-nonreduced-root-obstruction.md)
+[nonreduced-root obstruction](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-obstruction)
 excludes every nonreduced moving full root under (1)--(2). The independent
 audit of that latter obstruction remains its own evidence; it is not
 replaced by this audit.
@@ -639,7 +639,7 @@ The equal-degree case is not included in this resultant proof: then
 the first relation space has rank two and the construction of its
 second quotient line is different. A separate local Hilbert-function
 argument is recorded in
-[the normal-flatness proposal](2026-10-19-filtered-generic-ci-normal-flatness.md);
+[the normal-flatness proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness);
 that broader variant is not needed as a premise here.
 
 ## 8. Independent pure-power shortcut
