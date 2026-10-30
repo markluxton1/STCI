@@ -25,7 +25,7 @@ presentations remain outside the quartic exclusions.
 ## Established quartic frontier
 
 The [canonical audited state](../AUDITED_STATE_2026-10-07.md) and
-[October 9 acceptance](2026-10-09-session-results-acceptance.md) retain
+[October 9 acceptance](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-results-acceptancemd) retain
 the independently accepted results:
 
 - Every normal integral quartic carrier for fixed `C0` is excluded in
@@ -76,12 +76,12 @@ previously missing identities.
 
 ## Genus two: structural progress, no mate exclusion
 
-The [adjoint model](2026-10-09-session-genus-two-adjoint-conic-model.md)
+The [adjoint model](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd)
 has independently accepted core inputs: on the rational minimal resolution,
 `L^2=4`, `K.L=-2`, and `f=K+L` is a basepoint-free rational pencil with
 `f^2=0` and `L.f=2`. Its exceptional primes are vertical `(-2)` curves
 and at most two disjoint horizontal `(-3)` sections. The separate
-[mate-strata audit](2026-10-09-session-genus-two-nullcurve-mate-independent-audit.md)
+[mate-strata audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
 retains BOTH possibilities
 
     (lambda,q)=(0,4):  c#^2=0, f.c#=2;
