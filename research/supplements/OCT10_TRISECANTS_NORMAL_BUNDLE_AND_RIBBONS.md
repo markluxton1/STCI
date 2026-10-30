@@ -18,16 +18,16 @@ carrier degrees or the universal STCI question.
 ## 1. Binding source and scope
 
 The owner proof is
-[the nonendpoint trisecant conic obstruction](2026-10-10-session-genus-two-nonendpoint-trisecant-conic-obstruction.md),
+[the nonendpoint trisecant conic obstruction](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-nonendpoint-trisecant-conic-obstructionmd),
 SHA-256
 `5d02eb6f79da5e4c367a472a5ce711dfe42953bfb78abefed82459027831c975`.
 The following separately accepted inputs were read in full for this audit:
 
-* [Normal ambient conic model](2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md),
+* [Normal ambient conic model](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-blowup-lift-normality-independent-auditmd),
   SHA-256 `8b2f8b2c73f95b5b71854425359fc9c8dfa188156ccc8375bc8acd513619d41b`.
 * [Actual entire conductor](2026-10-10-session-genus-two-entire-conductor-independent-audit.md),
   SHA-256 `77bc3c17b7832907fd2d859de6e4d82735f6b279efb923ecd9a865fbc0767550`.
-* [Lambda-one marked-prime classification](2026-10-10-session-genus-two-lambda-one-marked-prime-audit.md),
+* [Lambda-one marked-prime classification](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-lambda-one-marked-prime-auditmd),
   SHA-256 `c7dd16ed8d9c18c921faaaaba130daec59fd2aec845f4ce59a9232567bb22f34`.
 * [Exclusion with the degree-zero horizontal prime absent](2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md),
   SHA-256 `f6ac621d0906917947cbc5ea2ecb91c7ef85ab81129e8b1e2a9527fb47c07f26`.
@@ -201,7 +201,7 @@ with `E_B=(r=0)` and actual branches `(u,r)`, `(v,r)`. Its equation is
     F=uv+r h(u,v,r).
 
 The separately delegated
-[relative formal Morse and specified-branch audit](2026-10-10-session-relative-morse-conductor-branches-independent-audit.md),
+[relative formal Morse and specified-branch audit](#source-2026-10-10-session-relative-morse-conductor-branches-independent-auditmd),
 SHA-256 `a88aacc867f2cfae9e77ee8e54e88875b395f6446935dfc24f8ad540008e5153`,
 proves directly that formal coordinates preserving `r` give
 
@@ -361,7 +361,7 @@ The controlling records inspected were the current
 [October 6 source audit](2026-10-06-session-literature-refresh.md), the
 [positive-characteristic proof audit](2026-10-06-positive-characteristic-literature-audit.md),
 and both October 10 acceptance records, including the
-[resumed continuation acceptance](2026-10-10-session-continuation-results-acceptance.md).
+[resumed continuation acceptance](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-continuation-results-acceptancemd).
 The latter records the accepted genus-one exclusion, genus-two bisection
 exclusion, and three-distinct-contact trisecant exclusion for fixed
 C0=[s^4:s^3t:s t^3:t^4]. Its endpoint trisecant remainder and higher-degree
@@ -451,7 +451,7 @@ from 2 and 3. It is not used as an uninspected all-quartic exclusion.
 
 ## 4. Positive characteristic and apparent modern shortcuts remain separate
 
-The [independent positive-characteristic refresh](2026-10-10-session-positive-characteristic-primary-refresh.md)
+The [independent positive-characteristic refresh](#source-2026-10-10-session-positive-characteristic-primary-refreshmd)
 records current primary abstract checks. Verified affirmative projective
 families must not be enlarged to all integral projective curves. The earlier
 exact cone-vertex and infinity-compatibility objections remain relevant.
@@ -688,7 +688,7 @@ are recorded in the sibling validation directory
 Date: 2026-10-10. Author: `relative_morse_axis_audit`.
 Status: **PROVED HERE / independent local audit**. This verifies the local
 claim in section 4 of the
-[nonendpoint trisecant obstruction](2026-10-10-session-genus-two-nonendpoint-trisecant-conic-obstruction.md).
+[nonendpoint trisecant obstruction](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-nonendpoint-trisecant-conic-obstructionmd).
 It does not by itself verify that note's global hypotheses or remaining
 steps. No canonical frontier file is edited.
 
@@ -851,7 +851,7 @@ there is no homogeneous form `G` of any positive degree with
 bounded mate degree, reduced conductor or displayed-family hypothesis.
 
 Root accepts the completed
-[interface audit](2026-10-10-session-genus-one-interface-independent-audit.md)
+[interface audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd)
 and [remaining-partitions audit](2026-10-10-session-ribbon-repeated-partitions-independent-audit.md)
 after reading their arguments, the owner partition proof and the actual
 exact companions. The proof is the following complete chain:
@@ -974,7 +974,7 @@ Both mate strata must remain:
     (lambda,q)=(1,3): c#^2=1, f.c#=1.
 
 **PROVED HERE / bounded exclusion.** In the second stratum, the
-[marked-prime audit](2026-10-10-session-genus-two-lambda-one-marked-prime-audit.md)
+[marked-prime audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-lambda-one-marked-prime-auditmd)
 and [independent no-zero-horizontal audit](2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md)
 exclude both one- and two-proper-horizontal-line cases when the
 degree-zero horizontal prime `B=e0-e_i-e_j` is absent. A survivor
@@ -993,7 +993,7 @@ the bounded acceptance without rewriting that historical source.
 ## 5. The actual normal ambient conic model is accepted
 
 **PROVED HERE / independently accepted without a mate.** Root accepts
-the [blowup-lift independent audit](2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md)
+the [blowup-lift independent audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-blowup-lift-normality-independent-auditmd)
 after reading its complete proof and checking the cited primary proper
 duality and blowup inputs. It accepts the
 [owner proposal](2026-10-10-session-genus-two-blowup-lift-normality-proposed-audit.md)
@@ -1078,7 +1078,7 @@ does not establish the unrestricted C0 or universal STCI question.
 The root and another independent audit had already identified the same
 ribbon obstruction when this author reported it. Agreement is not the
 proof; the exact ring and conormal arguments below are the evidence. The
-[child conormal audit](2026-10-10-session-weighted-ribbon-conormal-independent-audit.md)
+[child conormal audit](#source-2026-10-10-session-weighted-ribbon-conormal-independent-auditmd)
 checks the complete CM, Euler, derivative, and generic-immersion interfaces.
 
 ## 1. Accepted inputs and the original weighted-ring target
@@ -1328,7 +1328,7 @@ Suppose the bisection mate reduction supplies an actual section
 where the reduced prime curve `c_S` maps isomorphically to C0. In
 particular this is an actual effective Cartier double divisor; the
 statement is stronger than a numerical doubling relation. The
-[second-pencil audit](2026-10-10-session-genus-two-bisection-second-pencil-independent-audit.md)
+[second-pencil audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd)
 supplies precisely this actual relation in its bisection mate setting.
 
 **Conclusion:** these inputs are incompatible with the specific
