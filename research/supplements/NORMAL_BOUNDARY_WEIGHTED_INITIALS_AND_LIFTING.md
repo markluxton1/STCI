@@ -615,7 +615,9 @@ In particular, \(B\ge\lfloor r/2\rfloor\) forces a nonzero kernel for **arbitrar
 
 The exact finite-degree endpoint in the review likewise requires actual proper global forms: if \(C\) has degree \(d\), \(F,G\) have degrees \(a,b\), and \(M=ab/d\) is integral, then the length of the generic transverse algebra truncated at order \(M+1\) is \(M\) exactly when the entire reduced intersection is \(C\). This is a *recognition test*, not a construction. The missing step is still to compare the permitted socle/boundary modifications with the obstruction to lifting an **embedded** lower thickening into actual homogeneous source spaces. Neither the abstract \(H^1\)-test nor the reviewed fixed-lower comparison proves that bridge for arbitrary pairs.
 
-## Boundary repair: independent scope checks
+## boundary-repair-global-lifting-audit
+
+### Independent scope checks
 
 The primary derivation above supplies the cohomological repair theorem, the common-divisor catalecticant test, the actual homogeneous source-image formulas and the fixed-degree endpoint. The remaining verification below records the **distinct** limitations relevant to applying these statements to embedded thickenings. No theorem identifies arbitrary allowed boundary divisors with realizable global lifts.
 
