@@ -161,7 +161,7 @@ A useful deliverable would be one intrinsic map with a proved compatibility or a
 The retained source calculations suggest four independent tests, not a chain of established implications:
 
 1. **From valuations to global residual degree:** find a coordinate-independent, cancellation-stable normal invariant and prove that it bounds generic intersection multiplicity for *actual* proper homogeneous pairs uniformly across exceptional strata. A vertical exceptional component alone is insufficient.
-2. **From principal-parts repair to equations:** identify the actual obstruction complex for a specified embedded lower thickening, compare its allowable repair divisor with the saturated socle budget, and compute the images of the global equation modules. The general comparison is not established by the abstract (H^1)-criterion.
+2. **From principal-parts repair to equations:** identify the actual obstruction complex for a specified embedded lower thickening, compare its allowable repair divisor with the saturated socle budget, and compute the images of the global equation modules. The general comparison is not established by the abstract \(H^1\)-criterion.
 3. **From marked dual/ruled geometry to carriers:** construct a map from actual equation or conductor data to the marked contact/flag schemes; the explicit dual identity and endpoint conductor corrections are test cases, not universal STCI obstructions.
 4. **From a fixed lower thickening to a pair:** determine whether the proper decomposable determinant-zero locus meets the actual global source. Formal kernels and abstract numerical budgets do not settle this existence question.
 
