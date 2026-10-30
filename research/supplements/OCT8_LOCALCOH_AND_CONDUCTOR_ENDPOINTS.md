@@ -64,7 +64,7 @@ surface cannot have isolated support points. Therefore
 and every normalization fiber above C0 consists of exactly one point.
 This is a full-fiber condition, not merely a statement about the
 generic fiber along C0. It is the same support argument as in the
-[earlier normalization note](2026-10-07-session-nonnormal-structural-progress.md).
+[earlier normalization note](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd).
 
 If div(nu*G)=m c, intersection with H gives 4m=4n, so m=n. Since c
 is Cartier and Pic(S) has no torsion, n(c-H)~0 implies c~H. Choose
@@ -582,7 +582,7 @@ Their canonical triple is contained in both multipliers. If it has
 `e=1,d2=1` and is on the complete `a0=0` or `b1=0` boundary of the
 defect-killed quadratic class, the actual torus normalization gives one
 of the six triples from
-[`2026-10-07-session-mf6-e1-d1-endpoints.md`](2026-10-07-session-mf6-e1-d1-endpoints.md):
+[`2026-10-07-session-mf6-e1-d1-endpoints.md`](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-d1-endpointsmd):
 
 ```text
 A=r*z, B=1+z, delta=z,
