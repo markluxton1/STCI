@@ -1,6 +1,6 @@
 # If C were a STCI, how would we find its equations?
 
-Search record, begun October 28 and continued October 29, 2026.
+Search record, begun October 28 and continued through October 30, 2026.
 The curve throughout is
 \[
 C=C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3.
@@ -16,6 +16,13 @@ checks the earlier synthesis, its scope boundaries and navigation changes.
 The [subsequent continuation](notes/2026-10-29-search-continuation.md)
 links the new family calculations and their separate independent audits;
 its full projection-locus endpoint remains unfinished.
+
+The [adversarial research game](STCI_GAME.md) is the current strategy
+ledger. The existence side develops constructions and the non-existence
+side independently seeks the largest exclusions and general principles;
+both may pursue side research using the full record. New results must
+change that shared understanding, not merely accumulate as isolated
+family calculations.
 
 ## 1. The question and the search cycle
 
@@ -282,7 +289,7 @@ specified parameter locus, or a smaller surviving locus with the first
 unresolved equation identified. A new geometric invariant earns further
 work here by helping produce or reject those equations.
 
-## 7. Completed continuation and its remaining projection endpoint
+## 7. First continuation and its remaining projection endpoint
 
 The [October 29 continuation](notes/2026-10-29-search-continuation.md)
 records three distinct outcomes, with proofs, exact computations and
@@ -308,3 +315,44 @@ independent audits:
 These are reviewed provisional contributions, without canonical promotion.
 They do not settle the unrestricted characteristic-zero question or the
 other normalization models.
+
+## 8. October 30: all-degree line obstructions and the adversarial update
+
+The [four-line theorem](notes/2026-10-30-mixed-weight-line-obstruction.md)
+now excludes **every positive mate degree** on the entire mixed-weight
+seed \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). Its
+independent audit reconstructs actual branch attachment and the
+incompatible divisor-degree identities. This supersedes the earlier
+research limitation that higher mate degrees on this seed were untested;
+the earlier \((6,6)\) certificate remains a separately scoped control.
+
+The [uniform subalgebra theorem](notes/2026-10-30-weighted-subalgebra-line-obstruction.md)
+extends this to every actual
+\[
+F=\sum_{i=0}^{\lfloor m/2\rfloor}q^{3i}B_{m-2i}(c_0,c_2)
+\]
+with squarefree axis-free \(B_m\), for every \(m\ge1\) and every mate
+degree, without assuming carrier irreducibility. The next construction
+must enter its binary boundary or leave this subalgebra. Its relative
+dimension in the full degree-\(3m\), order-\(m\) source tends to zero;
+there is no exhaustion of arbitrary equations.
+
+The [order-two projection survivor](notes/2026-10-30-projection-order-two-survivor.md)
+is now a primitive smooth elliptic residual with precise degree-twenty
+three-branch-value data. All singular/reducible/nonreduced boundaries
+and the double-image case are excluded. The
+[support and global extension theorem](notes/2026-10-30-projection-elliptic-target-incidence.md)
+excludes the zero-middle-coefficient support quartic for every contact
+distribution. An explicit elliptic target incidence survives the target
+tests but fails this source-extension test. The general primitive
+elliptic and order-one loci, followed by descent on actual surviving
+strata, remain uncomputed.
+
+These results and their next challenges are tracked in
+[STCI_GAME.md](STCI_GAME.md). In particular the obstruction side must
+continue to enlarge coverage and extract reusable mechanisms, rather
+than wait for the next construction to refute. The current
+[quadric-boundary investigation](notes/2026-10-30-stci-game-quadric-boundary.md)
+tests why large global higher-order lifting freedom can preserve a fixed
+residual, and identifies a global row-operation restriction to compare
+with formal cancellation.

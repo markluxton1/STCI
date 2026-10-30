@@ -4,7 +4,7 @@ This is a **conceptual navigation map**, not a new proof, a chronological record
 
 ## The central question and boundary
 
-**Current research framing (October 29):** [If C were a STCI, how would we find its equations?](STCI_SEARCH.md) organizes the constructive search, exact candidate tests, informative failures and revisions. It links provisional arithmetic and global-freedom deductions with independent audits. This changes research selection, not theorem authority or the open status below.
+**Current research framing (October 30):** the [existence and non-existence research game](STCI_GAME.md) couples two independent programs and assesses every new result for its effect on the unrestricted question. The obstruction side seeks general principles and maximal coverage, not only refutations. [If C were a STCI, how would we find its equations?](STCI_SEARCH.md) retains the actual source spaces, exact tests, informative failures and evidence. This changes research selection, not theorem authority or the open status below.
 
 The [subsequent search continuation](notes/2026-10-29-search-continuation.md) gives a uniform mixed-weight \((6,6)\) exclusion and an attained arithmetic degree-growth bound on a specified non-binomial source. Its marked-quadric projection calculation is partial: the remaining admissible and descent loci are explicitly open. These are reviewed provisional contributions, not additions to the canonical result list.
 

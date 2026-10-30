@@ -202,12 +202,40 @@ the unit ideal; see
 [the boundary script](../computations/stci_projection_elliptic_target_boundary_2026_10_30.m2)
 and [its saved output](../computations/stci_projection_elliptic_target_boundary_2026_10_30.txt).
 
-The affine square-factor degree-three and degree-four computations are
-not completed. The nonzero-middle chart is separately saturated by
-\(b\) as well, because Section 3 has already excluded its zero locus
-as an actual marked projection. No unfinished Gröbner calculation is
-reported as a completed locus calculation. Neither the balanced-contact
-case nor arbitrary four-point contact distributions are exhausted here.
+The affine square-factor degree-three chart has now been completed by
+a separate exact resultant and number-field calculation, rather than
+by the unfinished multivariate saturation. This computational conclusion
+still awaits independent review. The degree-twelve and degree-eleven
+leading coefficients first force
+\[
+b=-3a^2/4,\qquad c=(7a^4+40)/(20a),\qquad a\ne0,
+\]
+on the nonzero-middle locus. Scaling the support parameter by \(t=ay\)
+and writing \(\lambda=a^4\) gives the one-parameter support
+\[
+20\lambda y^4+20\lambda y^3-15\lambda y^2+(7\lambda+40)y+20.
+\]
+The resultant of its target discriminant and that discriminant's
+derivative has six nonconstant irreducible factors in \(\lambda\), of
+degrees \(1,2,2,3,12,14\). The degree-one and one degree-two factors
+give degenerate support or a lower discriminant degree, already excluded.
+For every root of each remaining factor, exact arithmetic in its
+number field gives odd squarefree discriminant degree eight, hence
+normalization genus three, instead of one. Away from the resultant
+roots the degree-ten discriminant is squarefree and also has the
+wrong genus. This excludes the entire stated degree-ten chart.
+The [classification script](../computations/stci_projection_elliptic_target_degree_ten_resultant_2026_10_30.m2)
+and [complete output](../computations/stci_projection_elliptic_target_degree_ten_resultant_2026_10_30.txt)
+end with the marker DEGREE_TEN_PARAMETER_CLASSIFICATION_COMPLETE.
+
+The affine square-factor degree-four chart, corresponding to target
+discriminant degree twelve, is **not completed**. Its nonzero-middle
+saturation was stopped with script and partial output retained. The
+balanced-contact case and arbitrary four-point contact distributions
+are therefore not exhausted. The independent audit linked at the top
+reviews the uniform geometric support theorem, not these subsequent
+large coefficient calculations. No unfinished Gröbner computation is
+reported as a completed locus calculation.
 
 The small
 [support-identity verifier](../computations/stci_projection_elliptic_target_support_2026_10_30.m2)

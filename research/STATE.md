@@ -1,8 +1,10 @@
 # Canonical research state
 
-## Research activity status — October 29, 2026
+## Research activity status — October 30, 2026
 
 The current user-directed program asks [how we would find actual STCI equations if they exist](STCI_SEARCH.md). New provisional work makes the all-pairs characteristic-p minimum-degree implication precise, computes exact global equation freedom and forced factors, and records completed candidate tests with their search updates. Independent audits and computation evidence are linked from that record. The unrestricted characteristic-zero question remains **open**; no canonical result or mathematical status is changed. The residual-inclusive constructions below are retained inputs and historical research context, rather than the current leading assignment.
+
+The current method is an [adversarial existence and non-existence research game](STCI_GAME.md), with independent side research allowed for both programs. The obstruction side seeks broad exclusions and general principles as well as critiques of constructions. New reviewed provisional line arguments exclude all mate degrees on the mixed-weight seed and a larger nondegenerate graded-subalgebra source across all its degrees. The projection calculation excludes the entire order-two residual boundary and its double-image case, but the remaining primitive elliptic and order-one incidences and their descent are not computed. These are scoped advances; no unrestricted STCI status or canonical result record changes.
 
 The [October 29 continuation](notes/2026-10-29-search-continuation.md) adds reviewed provisional results: a uniform empty \((6,6)\) incidence on an explicit mixed-weight family, a higher-jet arithmetic obstruction on a larger plane source with explicit non-binomial \((16,p)\) pairs attaining degree growth, and further marked-quadric projection exclusions. The full sixteen-parameter admissible projection locus and descent on its surviving strata remain uncomputed. These statements do not change the canonical open status or establish an all-pairs lower bound on \(\delta(p)\).
 
