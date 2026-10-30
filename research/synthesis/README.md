@@ -30,6 +30,23 @@ The six chapters are the main reading route. The four supplements below have **d
 | Actual residual curves, fixed-boundary deformations or global jet bounds | [Residual intersections and jets](residual_intersections_and_jets.md), after [Chapter 2](02-two-surfaces.md) | Scoped R-0019 and R-0021–R-0025, distinguishing examples from universal claims |
 | Valuation and specialization **research questions**, rather than accepted theorems | [Formal normal geometry](formal-normal-intersection.md) | Provisional generic-to-global and Rees/valuation framework; not a separate theorem authority |
 
+## How the integrated arguments fit together
+
+The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
+
+| Starting information | Established or reviewed tool | Missing implication |
+| --- | --- | --- |
+| Two actual hypersurfaces and their generic transverse algebra | Projective residual-cycle degree, scoped residual examples and jet bounds (Chapter 2) | Uniform control of residual support for all relevant global pairs |
+| An embedded lower thickening with saturated layers | Conditional root and socle results; reviewed one-step extension-class test (Chapter 3) | Classification of admissible lower embeddings and their actual global equation images |
+| A normal valuation or weighted initial calculation | Full initial ideals, integral lattices and ideal-power source theorem (formal-normal supplement) | Coordinate-independent obstruction that forces a residual projective curve |
+| A characteristic-two supported presentation | Explicit mu4 degeneration, filtered fourth equation and prescribed arithmetic nonlifting (Chapter 3) | A specialization principle applicable beyond the prescribed embedded model |
+| A normalized integral carrier and inverse curve | Full-conductor descent and restricted Cartier/phase criteria (Chapter 4) | Computation of descent for the relevant higher-degree carriers |
+| Marked contact, flag, dual and ruled geometry | R-0026–R-0029 models and endpoint corrections (Chapters 1 and 4) | A proved compatibility map to actual equation modules or conductor descent |
+
+The **actual global equation source** is the recurring checkpoint. Formal solutions, local jets, abstract filtrations, divisor classes and numerical constraints do not become a set-theoretic complete intersection without actual proper homogeneous equations. Conversely, a failure for one fixed source family does not exclude all higher-degree pairs.
+
+For navigation, read [the dependency map](DEPENDENCIES.md) for logical arrows, [Chapter 6](06-frontier.md) for candidate deliverables, and the [canonical frontier](../FRONTIER.md) for current research priorities. The synthesis chapters are not a new authority layer.
+
 **Why four files remain:** the carrier and filtration supplements are scoped-result guides, the residual supplement connects examples and jet bounds, and the formal-normal supplement is an explicitly speculative method proposal. Combining them now would obscure those status differences and create a long mixed-authority document. Their overlapping setup should instead be delegated to Chapters 2–4.
 
 **Evidence convention.** **Established** means supported by a promoted result or specifically identified audited source; **conditional** means its hypotheses must be checked before application; **provisional** means the discussion is an organizing interpretation or a research question. The synthesis does not promote new theorems.
