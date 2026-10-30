@@ -3,6 +3,16 @@
 Full historical mathematical content organized by topic. Original conditional and audited status is retained; no theorem promotion is implied.
 
 
+## Subject reading order and mathematical dependencies
+
+1. **Definitions and exact equations:** start with `quartic-dual-intersections` for the binary-quartic invariants, the identities for the discriminant, and the full scheme (V(K,L^3)). The distinction between a Cartier triple and an ambient ideal cube is essential.
+2. **Incidence geometry:** read `quartic-flag-incidence` and `quartic-symmetric-square-bitangents` for residual degree-two divisors, the swap involution and its fixed locus. Do not identify the flag threefold with the conormal surface.
+3. **Singularities and characteristic:** `quartic-dual-singular-scheme` records the saturated Jacobian calculation, including embedded endpoint corrections. Keep characteristic-zero conclusions separate from characteristic-two degenerations.
+4. **Verification and context:** the independent-audit sections qualify the preceding claims; the literature sections contextualize them but do not certify novelty. The canonical scope is controlled by [R-0026](../results/quartic_flag_conormal_geometry.md) and [R-0027](../results/quartic_dual_singular_scheme.md).
+
+**Boundary:** none of these marked dual computations forces a common singularity of arbitrary defining surfaces on (C).
+
+
 ---
 
 ## quartic-flag-duality-literature
