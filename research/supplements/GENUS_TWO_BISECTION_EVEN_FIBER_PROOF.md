@@ -15,7 +15,7 @@ Date: 2026-10-10. Author and auditor: `bisection_second_pencil_audit`,
 with a separate adversarial acceptance by `fiber_weight_parity_audit`.
 Status: **PROVED HERE, conditional on the accepted genus-two mate
 reduction and the independently checked second-pencil theorem**.
-This strengthens the [second-pencil audit](2026-10-10-session-genus-two-bisection-second-pencil-independent-audit.md).
+This strengthens the [second-pencil audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd).
 It does not exclude the whole bisection stratum. No canonical files
 were edited.
 
