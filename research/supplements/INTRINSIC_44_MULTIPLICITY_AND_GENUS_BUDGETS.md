@@ -283,7 +283,7 @@ Promoted premises, used without rerunning their proofs:
 - [R0001](../results/quartic_carrier_exclusion.md): no integral quartic carrier through this C admits any homogeneous mate with sole support C.
 - [R0020](../results/quartic_conormal_characteristic_jump.md): \(N^*_{C/\mathbf P^3}=\mathcal O_{\mathbf P^1}(-7)^2\).
 
-The elementary identity \(H^0(\mathcal I_C^2(4))=kq^2\), for \(q=x_0x_3-x_1x_2\), and the new [smooth-carrier lemma](#44-degeneration-genus-budgets) are already independently reviewed. The displayed conjugate pencils below are inherited accepted source-level evidence from [October 7, section 4](2026-10-07-session-mf6-e1-independent-audit.md) and [the October 23 filtered proof](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd). Their residual factorization and geometric interpretation are the new calculation here. No exhaustiveness assertion from the multiplicity-four classification is transferred to arbitrary multiplicity-three pairs.
+The elementary identity \(H^0(\mathcal I_C^2(4))=kq^2\), for \(q=x_0x_3-x_1x_2\), and the new [smooth-carrier lemma](#44-degeneration-genus-budgets) are already independently reviewed. The displayed conjugate pencils below are inherited accepted source-level evidence from [October 7, section 4](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-independent-auditmd) and [the October 23 filtered proof](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd). Their residual factorization and geometric interpretation are the new calculation here. No exhaustiveness assertion from the multiplicity-four classification is transferred to arbitrary multiplicity-three pairs.
 
 ## 2. Exactly triple, with a real degree-four residual
 
@@ -545,7 +545,7 @@ The field is algebraically closed of characteristic zero; statements about ordin
 
 Completion of this move means deriving the genus and componentwise boundary constraints, giving actual smoothable examples at several extremes, and isolating the additional information needed when a component acquires multiplicity. It does not mean classifying all degree partitions or all embedded limits.
 
-Promoted inputs are [R0021](../results/quartic_mu4_degeneration.md), for the prescribed four-quartic configuration, and the precise scope of [R0022](../results/quartic_44_filtered_exclusion.md), for the already established fixed-curve (4,4) exclusion. Neither exclusion proof is rerun. The [previous cycle notebook](2026-10-25-ci-cycle-geometry-notebook.md) and [conductor/topology note](2026-10-25-ci-cycle-conductor-topology.md), with their linked audits, supply reviewed but unpromoted geometry. The smooth-carrier dichotomy in section 7 is a new elementary deduction, independently reconstructed during this move.
+Promoted inputs are [R0021](../results/quartic_mu4_degeneration.md), for the prescribed four-quartic configuration, and the precise scope of [R0022](../results/quartic_44_filtered_exclusion.md), for the already established fixed-curve (4,4) exclusion. Neither exclusion proof is rerun. The [previous cycle notebook](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-geometry-notebookmd) and [conductor/topology note](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd), with their linked audits, supply reviewed but unpromoted geometry. The smooth-carrier dichotomy in section 7 is a new elementary deduction, independently reconstructed during this move.
 
 ## 2. What is conserved
 
@@ -772,7 +772,7 @@ The ambient space is projective three-space over an algebraically closed field o
 \[
 C=[s^4:s^3t:st^3:t^4].
 \]
-The reviewer read the research index, the reviewed note, promoted records [R0021](../results/quartic_mu4_degeneration.md) and [R0022](../results/quartic_44_filtered_exclusion.md), and the relevant [conductor/topology evidence](2026-10-25-ci-cycle-conductor-topology.md). The prescribed four-quartic decomposition and the fixed-curve exclusion were retained at their recorded scope; their inherited proofs and certificates were not rerun. The earlier generic smooth residual and eight-component competitor remain reviewed, unpromoted inputs with the provenance stated in the main note.
+The reviewer read the research index, the reviewed note, promoted records [R0021](../results/quartic_mu4_degeneration.md) and [R0022](../results/quartic_44_filtered_exclusion.md), and the relevant [conductor/topology evidence](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd). The prescribed four-quartic decomposition and the fixed-curve exclusion were retained at their recorded scope; their inherited proofs and certificates were not rerun. The earlier generic smooth residual and eight-component competitor remain reviewed, unpromoted inputs with the provenance stated in the main note.
 
 ## Reconstruction of the scheme and reduced-curve budgets
 
