@@ -35,7 +35,7 @@ records the source, input and raw-output hashes and passed with exit
 code zero and empty stderr.
 
 The following geometric consequence depends on the separate
-[restricted-conductor determinant argument](2026-10-12-session-nonendpoint-restricted-conductor-determinant.md).
+[restricted-conductor determinant argument](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#2-nonendpoint-restricted-conductor-determinant).
 Its independent mathematical audit is ongoing at this note's freeze.
 Once that argument identifies `F` with a unit multiple of the actual
 degree-eight conductor restriction, its zero at target infinity has
@@ -356,7 +356,7 @@ Date of mathematical checks: 2026-10-12. Final audit saved: 2026-10-13.
 Auditor: `oct11_endpoint_support_global_audit/two_root_contact_audit`.
 Status: **PASS: geometric root cover and direct exact polynomial certificates**.
 
-This audits the frozen [owner proof](2026-10-12-session-nonendpoint-GJ-zero-full-support-exclusion.md), SHA256
+This audits the frozen [owner proof](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#2-nonendpoint-gj-zero-full-support-exclusion), SHA256
 `9a3532827eaf3c45efcbf9759681d7070045923465710b19d06efc4799a06d33`.
 No correction to its mathematical claim is required. The result excludes the
 whole displayed `G=J=0` nonendpoint projection subfamily in every mate degree.
@@ -964,7 +964,7 @@ avoidance is sufficient for the actual normalization projection used by
 the owner note.
 
 The accepted
-[quintic structural reduction](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md)
+[quintic structural reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit)
 supplies the actual section
 
     Q=h^5/U0, div(Q)=5c, Q=T^5 on the complete affine open U0=1.
