@@ -1,5 +1,16 @@
 # conditional 2 12 surface and symbol geometry
 
+## Proof-dependency map: symbol equations to actual sextic realization
+
+The [norm-symbol elimination](#2026-10-20-conditional-2-12-elimination) is an exact algebraic reduction in the conditional (2,12;6,16;2) setting. The [global realization incidence](#2026-10-20-conditional-2-12-global-realization-incidence) asks whether a formal or symbol-level solution comes from an **actual sextic**; its [independent incidence audit](#2026-10-20-conditional-2-12-incidence-audit) keeps the correction-variable and exceptional-locus qualifications. The [surface bound](#2026-10-20-conditional-2-12-surface-bound), [symbol map](#2026-10-20-conditional-2-12-symbol-map), and [geometric continuation](#2026-10-20-conditional-2-12-geometric-continuation) are separate necessary tests.
+
+The [singular gluing and conductor analysis](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-20-conditional-2-12-singular-continuation) checks whether the local branches can be matched; the [strict-surface continuation](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-bound-continuation) introduces additional geometric hypotheses. A solution to the eight symbol equations is not, by itself, a projective sextic with the desired residual support.
+
+Keep the explicit elimination, actual-lift polynomial test, and audit independently inspectable.
+
+---
+
+
 Permanent mathematical dossier. The (2,12) setting and every other hypothesis remain conditional as in the original arguments; full calculations, exceptional cases and failures are retained.
 
 ---
