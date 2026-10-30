@@ -1,5 +1,12 @@
 # quintic a4 conductor and sextic incidence
 
+## Integration guide: intrinsic contact and actual sextic incidence
+
+The A4 conductor-contact bounds constrain the marked quintic normalization. The sextic incidence calculations then ask whether **actual homogeneous equations** realize the desired contact and residual support. The [quintic carrier structure dossier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md) supplies geometric inputs; [the endpoint power-descent analysis](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md) supplies a separate obstruction mechanism. An intrinsic contact bound, an equation on a normalization, and an ambient sextic are not interchangeable. Keep the audited contact calculations and the incidence-lifting conditions distinct.
+
+---
+
+
 Permanent complete mathematical dossier. The arguments, calculations, precise scope, corrected formulas and open cases are preserved without asserting any new theorem authority.
 
 ---
