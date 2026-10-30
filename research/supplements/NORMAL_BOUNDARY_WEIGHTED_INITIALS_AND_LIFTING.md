@@ -10,7 +10,7 @@ Permanent subject consolidation. All source mathematical detail retained with it
 # Can the boundary repair the actual global lifting obstruction?
 
 Date: 2026-10-26. Status: provisional structural continuation, with
-[independent review](2026-10-26-boundary-repair-global-lifting-audit.md).
+[independent review](#2026-10-26-boundary-repair-global-lifting-audit).
 No canonical promotion, new exclusion, or homogeneous realization is claimed.
 No isolated example or sampled pair is used.
 
@@ -22,8 +22,8 @@ It does not settle a comparison for arbitrary ambient obstruction complexes.
 
 ## 1. The general question worth answering
 
-The preceding [genus account](2026-10-26-normal-torsion-spectral-genus-budget.md)
-and [intrinsic initial construction](2026-10-26-weighted-initials-normal-boundary.md)
+The preceding [genus account](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md)
+and [intrinsic initial construction](#2026-10-26-weighted-initials-normal-boundary)
 make boundary indices measurable, but have not shown that those indices
 control the obstruction to realizing two actual homogeneous equations.
 The next target is a comparison theorem between an allowed boundary
@@ -258,13 +258,13 @@ Let C be smooth over algebraically closed k, K=k(C), and choose rational
 normal coordinates X,Y. A point p below means a closed point of C.
 Characteristic is arbitrary for the local example.
 
-The [October 23 coefficient-valuation note](2026-10-23-intrinsic-coefficient-valuations.md)
+The [October 23 coefficient-valuation note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md)
 and its [review](2026-10-23-intrinsic-contact-valuations-independent-audit.md)
 already establish the Gauss construction, formal-series domain restriction,
 coordinate dependence, and scalar-value limitation in their stated scope.
 Those reviewed provisional constructions are premises, not replay tasks.
 This continuation links them to the
-[normal torsion/genus account](2026-10-26-normal-torsion-spectral-genus-budget.md).
+[normal torsion/genus account](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md).
 
 ## 1. The proposed valuations and their initials
 
@@ -777,7 +777,7 @@ exclusion, nonempty realization locus, or canonical result promotion.
 # Independent audit: weighted initials and normal boundary data
 
 Date: 2026-10-26. Reviewer: independent `valuation_budget` agent.
-Status: independent reconstruction of the [companion continuation](2026-10-26-weighted-initials-normal-boundary.md).
+Status: independent reconstruction of the [companion continuation](#2026-10-26-weighted-initials-normal-boundary).
 Outcome: **PASS within the stated domains and hypotheses**. This is reviewed
 provisional evidence, not canonical promotion, a global realization, or an
 STCI exclusion.
