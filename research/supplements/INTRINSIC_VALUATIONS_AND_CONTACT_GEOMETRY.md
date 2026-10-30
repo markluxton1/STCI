@@ -1,5 +1,16 @@
 # Intrinsic local algebra and characteristic-zero quartic geometry
 
+## Integration guide: valuations, length, and actual contact equations
+
+The four retained investigations have distinct outputs. [Coefficient valuations](#2026-10-23-intrinsic-coefficient-valuationsmd) distinguishes places of the function field, normal Gauss valuations, and geometric blowup flags; its length-three/length-four counterexample shows why scalar ideal values are insufficient to recover intersection length. [The independent valuation audit](#2026-10-23-intrinsic-contact-valuations-independent-auditmd) records the quantifier and coordinate-domain checks. [The quadruple local algebra](#2026-10-23-intrinsic-quadruple-local-algebramd) identifies local defect and moving-singularity types under its rank-four hypotheses. [The cubic-contact construction](#2026-10-23-intrinsic-cubic-contact-constructionmd) constructs an intrinsic determinant target for the **actual ambient source** but does not establish the determinant's nonvanishing.
+
+The common lesson is methodological, not a new obstruction: normal-first valuations organize candidate degenerations, while the full initial ideal and actual source map retain information needed for colength and global realizability. Compare the [weighted-boundary calculations](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#weighted-initials-normal-boundary), the [full filtration diagram](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), and the [distinct (4,4) proof routes](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md#cross-supplement-synthesis-distinct-44-obstruction-routes-editorial-not-a-new-audit).
+
+No statement here equates valuation agreement with equality of local ideals, or local contact compatibility with a projective STCI.
+
+---
+
+
 Full mathematical investigations retained by subject. Proposals, independent reviews, limitations and rejected mathematical approaches retain their original epistemic status. This compilation is not a new proof audit.
 
 
