@@ -22,7 +22,7 @@ Hypotheses throughout: an algebraically closed field of characteristic
 zero; the genus-one normalization S and smooth lifted quartic c in
 [the frozen quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 with its independently checked
-[A4 and unique-line reductions](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md).
+[A4 and unique-line reductions](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit).
 Thus S is a normal degree-five anticanonical del Pezzo surface, its only
 singularity is A4, `5c~4H`, and its unique degree-one line ell satisfies
 `5ell~H`, `c+ell~H`. The resolution has a four-prime A4 chain, c meets
@@ -294,7 +294,7 @@ establish an ambient mate. Earlier frozen audit notes are unchanged.
 Work over an algebraically closed field of characteristic zero.
 
 The inputs concerning a hypothetical mate are in the separately frozen
-[quintic structural audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md):
+[quintic structural audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit):
 the normalization is a degree-five del Pezzo surface with one A4 point;
 the smooth quartic meets an interior A4 vertex; the unique degree-one
 curve meets the opposite interior vertex. The coordinates below verify
