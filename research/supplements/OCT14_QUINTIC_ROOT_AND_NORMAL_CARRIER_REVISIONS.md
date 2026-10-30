@@ -410,7 +410,7 @@ model, with every positive mate degree**. The universal STCI question,
 unrestricted C0 question and other quintic normalization lanes remain open.
 
 This accepts the final obligation of the
-[owner continuation](2026-10-13-generalization-quintic-continuation.md)
+[owner continuation](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-quintic-continuationmd)
 after the earlier [independent geometric audit](#source-2026-10-14-generalization-quintic-new-independent-auditmd).
 The completed literal membership identity is an input; it is not
 re-expanded here at the user's direction. The new root review matches
@@ -538,7 +538,7 @@ model, conductor, conormal, endpoint, residual-partition, or regular-L1
 verifier was rerun. Canonical files were not edited.
 
 This audit reviews the owner notes
-[quintic continuation](2026-10-13-generalization-quintic-continuation.md)
+[quintic continuation](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-quintic-continuationmd)
 and [regular L2](2026-10-13-generalization-quintic-l2.md). The underlying
 problem remains restricted to the fixed characteristic-zero rational
 quartic C0, the sectional-genus-one degree-five A4 normalization model,
@@ -1077,7 +1077,7 @@ the accepted embedded quadratic transition is used as a premise. No previous
 normal-bundle or constant-direction computation is repeated.
 
 This note reviews the moving operator in Section 8 of
-[the thick relation extension](2026-10-13-generalization-thick-equality-extension.md)
+[the thick relation extension](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-equality-extensionmd)
 for a moving **linear** relation. The calculation gives an obstruction-zero
 family, rather than an exclusion theorem.
 
