@@ -169,7 +169,7 @@ obligations; they must not be inferred just from the ACM resolution.
 Date: 2026-10-08. Status: **ACCEPTED independent proof audit**, under
 the exact smooth-scroll normalization and full-support hypotheses.
 This file audits the written proof in
-[nongorenstein cubic classification](2026-10-08-session-scroll-nongorenstein-cubic-classification.md)
+[nongorenstein cubic classification](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-cubic-classificationmd)
 and records a direct completion for the double-line-plus-line case.
 It makes no canonical frontier edits and no global STCI assertion.
 
@@ -235,7 +235,7 @@ coordinates to the support line consequently vanish to order at
 least two on F. The longitudinal coordinate has nonzero differential
 since F maps isomorphically to the line, so nu has generic rank one
 there. The
-[independently audited differential lemma](2026-10-08-session-normalization-differential-independent-audit.md)
+[independently audited differential lemma](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-normalization-differential-independent-auditmd)
 excludes a mate, including at special junctions with other conductor
 components. This validates the entire fat-line exclusion.
 
@@ -676,7 +676,7 @@ be a carrier in a set-theoretic complete-intersection presentation of
 C0=[s^4:s^3t:st^3:t^4], in any mate degree.
 
 The proof verifies the precise hypotheses of the
-[conductor compression criterion](2026-10-08-session-irreducible-conductor-compression.md).
+[conductor compression criterion](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-irreducible-conductor-compressionmd).
 It includes reduced, reducible, nodal, and nonreduced upstairs conductor
 schemes inside this class. It does not infer a classification from
 Ducat's semi-log-canonical Table 3.
@@ -1098,7 +1098,7 @@ Finite absolute duality gives
 
     I=nu_*omega_S, D~-K_S, H.D=6.
 
-The [applicability note](2026-10-08-session-scroll-conductor-applicability.md)
+The [applicability note](#source-2026-10-08-session-scroll-conductor-applicabilitymd)
 proves Gamma is pure Cohen--Macaulay with Hilbert polynomial 3m+1.
 The [Oct8 checkpoint](2026-10-08-session-checkpoint.md) strengthens this
 to an arithmetically Cohen--Macaulay cubic with the Hilbert--Burch
@@ -1152,7 +1152,7 @@ Suppose X has a mate G of positive degree b with
 
 Gamma has degree three, so C0 is generically in the normal locus. The
 full pullback support argument in the
-[compression note](2026-10-08-session-irreducible-conductor-compression.md)
+[compression note](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-irreducible-conductor-compressionmd)
 gives a unique c subset S isomorphic to C0, with
 
     (nu^-1(C0))_red=c, div(nu*G)=b c, c~H.
@@ -1283,7 +1283,7 @@ the extra intersection contradiction there.
 The reduced-D hypothesis of section 5 can be removed. This extension
 was proposed by the normal-global-adversarial agent and independently
 checked by the present author and root. Its separate written proof is
-the [all-D independent audit](2026-10-08-session-scroll-conic-line-independent-audit.md).
+the [all-D independent audit](#source-2026-10-08-session-scroll-conic-line-independent-auditmd).
 
 For every proper prime E<D, even when D is nonreduced, the sequence
 0->O_S(-E)->O_S->O_E->0 gives
@@ -1427,7 +1427,7 @@ Indeed the ACM cubic classification leaves a smooth twisted cubic,
 a smooth conic plus a line meeting once, or three lines in a
 noncoplanar chain or concurrent configuration. The smooth twisted
 cubic case is proved in the
-[entire-conductor applicability theorem](2026-10-08-session-scroll-conductor-applicability.md).
+[entire-conductor applicability theorem](#source-2026-10-08-session-scroll-conductor-applicabilitymd).
 Sections 5 and 7 cover the conic-plus-line case with every upstairs
 scheme. Section 8 covers the three-line cases with every upstairs
 scheme. The proof is a classification of the reduced ACM conductor
@@ -1483,7 +1483,7 @@ used to handle exactly that exception.
 ## 12. Accepted all-Gorenstein-conductor extension
 
 The following finite reduction has a completed
-[independent audit](2026-10-08-session-scroll-gorenstein-independent-audit.md).
+[independent audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-gorenstein-independent-auditmd).
 It extends section 9 from reduced Gamma to every locally Gorenstein
 actual Gamma, retaining arbitrary D. It does not claim a locally
 Gorenstein property for every ACM cubic.
@@ -1544,7 +1544,7 @@ Gorenstein actual conductor is excluded. The boundary of this
 particular argument is an actual nonreduced nongorenstein ACM cubic;
 later sections address that boundary using additional structural
 information. A concrete successful nonreduced example is the
-[MF6 (8,1/2) conductor proof](2026-10-08-session-mf6-rhalf-scroll-conductor.md).
+[MF6 (8,1/2) conductor proof](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-mf6-rhalf-scroll-conductormd).
 
 ## 13. A cover of a support line cannot have degree at least three
 
@@ -1649,7 +1649,7 @@ globally. The usual quadric contradiction follows.
 
 This extension was independently checked by the
 normal-global-adversarial agent, while the direct Artin reduction in
-[the independent audit](2026-10-08-session-scroll-artin-independent-audit.md)
+[the independent audit](#source-2026-10-08-session-scroll-artin-independent-auditmd)
 provides another route through this case. It retains the generic Artin
 lengths and the local doubled branches; a reduced-support argument
 alone would not prove it. Triple-line conductors remain outside this
@@ -1660,10 +1660,10 @@ extension.
 This alternate transverse-plane proof is retained as an independent
 research route, with its geometric slice passage still explicitly
 unpromoted. The exact Artin proof in
-[nongorenstein cubic classification](2026-10-08-session-scroll-nongorenstein-cubic-classification.md)
-and its [independent audit](2026-10-08-session-scroll-artin-independent-audit.md)
+[nongorenstein cubic classification](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-cubic-classificationmd)
+and its [independent audit](#source-2026-10-08-session-scroll-artin-independent-auditmd)
 avoid this passage. The
-[differential obstruction audit](2026-10-08-session-normalization-differential-independent-audit.md)
+[differential obstruction audit](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-normalization-differential-independent-auditmd)
 independently proves its first step: under a mate, nu must be
 generically immersive along every proper conductor prime E. If its
 generic differential rank were at most one, choose P in c intersect E
@@ -1790,7 +1790,7 @@ This audit uses the independently established conductor antecedents: Gamma is pu
 
 A mate supplies a single smooth c~H, nu|c an isomorphism to C0, full singleton normalization fibers over C0, and the entire identity nu^*G=lambda f^n with div(f)=c. The reduction retains all conductor multiplicities. Every proper conductor prime E is smooth rational by H1(O_E)=H0(O_S(E-D))*=0. Since D has H-degree six while Gamma has degree three, its conductor prime configurations below are proper, rather than D itself.
 
-The all-reduced-conductor theorem and the independently audited [all-locally-Gorenstein theorem](2026-10-08-session-scroll-gorenstein-independent-audit.md) were accepted separately. This note checks the remaining nonreduced nongorenstein schemes directly, rather than invoking a classification of all quartic surfaces or the alternative transverse-completion argument in section 17 of the owner note.
+The all-reduced-conductor theorem and the independently audited [all-locally-Gorenstein theorem](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-gorenstein-independent-auditmd) were accepted separately. This note checks the remaining nonreduced nongorenstein schemes directly, rather than invoking a classification of all quartic surfaces or the alternative transverse-completion argument in section 17 of the owner note.
 
 ## 1. Whole nongorenstein ACM cubic classification
 
@@ -1837,7 +1837,7 @@ On F0 the effective class C+f is a prime of degree three or a horizontal C-prime
 
 On F2, any prime other than C_min has class a C_min+b f with b>=2a; fibers are individually prime only with class f. Thus C_min+2f is either a degree-three prime, C_min+F1+F2 for distinct fibers, or C_min+2F. The prime case is excluded by the ramification argument. The distinct fibers have proportional nonzero restrictions of f, because their n-th powers descend to the same line. Their equal zero on the base gives distinct points of c in one normalization fiber, impossible.
 
-The remaining actual divisor is D=2C_min+4F. In its generic F-factor B_F=K[t]/t^4 the preceding self-annihilator computation gives NB_F=(t^2). Ambient coordinates normal to the support line have classes in N, so their actual pullbacks vanish to order at least two along F: the equality modulo the conductor (t^4) implies actual membership in (t^2). The longitudinal coordinate has nonzero derivative because F maps isomorphically to the line. Hence dnu has generic rank one on F. The [independent nonimmersion-prime lemma](2026-10-08-session-nonimmersion-prime-independent-audit.md) excludes the mate. This step verifies derivative rank from the actual generic algebra; multiplicity four alone would not do so.
+The remaining actual divisor is D=2C_min+4F. In its generic F-factor B_F=K[t]/t^4 the preceding self-annihilator computation gives NB_F=(t^2). Ambient coordinates normal to the support line have classes in N, so their actual pullbacks vanish to order at least two along F: the equality modulo the conductor (t^4) implies actual membership in (t^2). The longitudinal coordinate has nonzero derivative because F maps isomorphically to the line. Hence dnu has generic rank one on F. The [independent nonimmersion-prime lemma](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-nonimmersion-prime-independent-auditmd) excludes the mate. This step verifies derivative rank from the actual generic algebra; multiplicity four alone would not do so.
 
 ## 5. Doubled line plus reduced line, including the nongorenstein vertex
 
