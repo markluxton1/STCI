@@ -45,7 +45,7 @@ The navigation protocol is [INDEX](../INDEX.md); the contribution requirements a
  F=x_1^4-x_0^3x_3,\qquad G=x_2^4-x_0x_3^3.
 \]
 
-Its global support statements are used as premises. The explicit weighted calculations below are new checks of local expressions, not re-execution of an inherited proof. The earlier [higher-initial note](2026-10-21-higher-initial-ideals-valuations.md) correctly called for a suitable completion; this note makes the domain restriction precise and supplies an intrinsic normal-first alternative.
+Its global support statements are used as premises. The explicit weighted calculations below are new checks of local expressions, not re-execution of an inherited proof. The earlier [higher-initial note](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-higher-initial-ideals-valuations) correctly called for a suitable completion; this note makes the domain restriction precise and supplies an intrinsic normal-first alternative.
 
 ## 1. Which coefficient valuations occur?
 
@@ -224,7 +224,7 @@ The coefficient value groups remain `Z` in the displayed calculations, or `Q` af
 
 ### 6.1 The precise characteristic-two boundary of the surface argument
 
-The prescribed pair also shows exactly why the moving-singularity argument in the separate [intrinsic K3 proof proposal](2026-10-23-intrinsic-44-k3-proof-proposal.md) cannot be transported to characteristic two. This is a comparison with that proposal, not a dependency of the valuation constructions.
+The prescribed pair also shows exactly why the moving-singularity argument in the separate [intrinsic K3 proof proposal](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-proof-proposal) cannot be transported to characteristic two. This is a comparison with that proposal, not a dependency of the valuation constructions.
 
 In characteristic two the first normal symbols of `(F,G)` on `x0=1` are `(U,z^8 U)`. On `x3=1`, with `c=x2/x3` and `A=x0/x3-c^4`, they are `(c^8 A,A)` up to the common unit sign. Hence the symbols have no common zero in their saturated line bundle `M(4)`, and their associated map is
 
@@ -423,7 +423,7 @@ Write d for the valuation of the multiplication E_1^2 -> E_2. In the
 global notation E_i=L^i(D_i), this is the local multiplicity of D_2;
 perfect pairings give D_2=D_3. The pairing theorem is the accepted general
 local-algebra premise in
-[the MF6 pairing audit](2026-10-05-mf6-pairing-audit.md), sections 1--2.
+[the MF6 pairing audit](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit), sections 1--2.
 It is independent of any quartic-carrier classification.
 
 For the assertion about ambient formal coordinates, assume additionally
@@ -600,7 +600,7 @@ checked without external packages by
 
     python3 research/computations/verify_intrinsic_quadruple_local_algebra_2026_10_23.py
 
-The [independent K3 proof audit](2026-10-23-intrinsic-44-k3-independent-audit.md)
+The [independent K3 proof audit](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-independent-audit)
 reconstructs this local argument and its use in the principal proof.
 The calculation checks local formulas and the numerical rank budget; the
 proof above establishes the classification-free normal form and the
@@ -640,12 +640,12 @@ the accepted inputs E=O(-7)² and O_C(1)=O(4) come from
 [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md).
 The two possible first layers L=O(-7), O(-6) in a hypothetical (4,4)
 intersection are inherited from adjunction and the saturated pairing argument
-in [the pairing audit](2026-10-05-mf6-pairing-audit.md). This note does not
+in [the pairing audit](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit). This note does not
 reprove that numerical reduction. It does not use the primitive-direction
 classification or any quartic-carrier exclusion.
 
 The existing coordinate determinant being reconstructed is in
-[the filtered proof proposal](2026-10-23-quartic-44-filtered-proof-proposal.md),
+[the filtered proof proposal](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd),
 section “A common pencil criterion.” Its meanings are exactly these:
 
     H=h_H*m+k_H*ell²+e_H*m*ell+c_H*ell³+R_H,
@@ -924,7 +924,7 @@ wedge²(rho_Y) nonzero, without enumerating triple directions or
 quartic pencils. The argument must use more than the degrees of the
 bundles in (1).
 
-The separate [K3 proof proposal](2026-10-23-intrinsic-44-k3-proof-proposal.md)
+The separate [K3 proof proposal](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-proof-proposal)
 offers a different intrinsic route: its singularity budget aims to replace
 the need to prove this determinant nonvanishing at all. That argument is a
 separate proposal with its own audit and dependencies; no assertion in the
