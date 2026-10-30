@@ -3470,55 +3470,15 @@ bitangent constructions remain visibly different after taking
 unordered pairs. A conic parametrizing pairs does not provide a
 single-valued self-map of $C$.
 
-## 6. Verification record and review boundary
+## 6. Reproducibility boundary
 
-Independent SymPy 1.14.0 checks were run with
-`/tmp/stci-z4-env/bin/python` for (1), the endpoint Gröbner basis (2),
-the conic-intersection ideal (4), the trace and eigenvalues, and the
-composition elimination (7). All returned the displayed exact values.
-The package's separate verifier provides the durable reproducible
-checks; the mathematical arguments above are the justification for
-completeness and for the interpretation of those identities.
+The exact Plücker identities, endpoint fiber ideal, conic intersection, polar trace, and correspondence composition are independently checkable by symbolic algebra. Their geometric conclusions follow from the derivations above, not from a finite computational sample. The independent reconstruction does not claim a new STCI exclusion.
 
-## 7. Final draft comparison and outcome
+## 7. Additional geometry and remaining scope
 
-The completed symmetric-square note was then read in full and compared
-with the independent reconstruction above. Its additional statements
-were also checked: the entire trisecant preimage is
-$\beta^2-\alpha\gamma=0$, the map along it is a cubic map to the
-ruling conic, and the secant surface has Plücker degree nine because the
-finite birational normalization pulls back its hyperplane to
-$\mathcal O_{\mathbf P^2}(3)$. The assertion of a closed immersion
-for squaring into the plane-section space is valid: it is proper,
-universally injective, and unramified. Universal injectivity follows by
-the same polynomial-square argument over every extension field, and
-the differential is injective since characteristic is zero.
+The secant map's trisecant preimage is the conic \(\beta^2-\alpha\gamma=0\); its restriction is cubic onto the ruling conic. The Plücker degree of the secant image is nine, since its finite birational normalization pulls back the Plücker hyperplane bundle to \(\mathcal O_{\mathbf P^2}(3)\). Squaring degree-two sections gives a closed immersion into the plane-section space in characteristic zero: the map is proper, universally injective by uniqueness of polynomial square roots up to scalar, and unramified.
 
-The synthesis note's Sections 4 and 5 were reviewed for the same
-invariant and correspondence claims. Two presentation corrections were
-requested: compose the ordered relation $R\subset C\times C$, rather
-than the conic $B\subset\operatorname{Sym}^2 C$; and describe its
-infinite contact orbits without calling a Zariski-dense orbit discrete.
-The scheme-theoretic image in the composition is itself reduced, whereas
-cycle pushforward and the resultant retain the diagonal's multiplicity
-two. This distinction has been explicitly communicated for the final
-synthesis.
+Correspondence composition must be carried out on the **ordered** relation \(\mathcal R\subset C\times C\), not on the unordered bitangent conic. Its scheme-theoretic composition image can be reduced even when the resultant and cycle pushforward record a diagonal component with multiplicity two. Infinite contact orbits may be Zariski dense and should not be described as discrete in the Zariski topology.
 
-The amended synthesis Sections 4 and 5 were reread after these requests.
-They now compose the ordered relation $\mathcal R$, state explicitly
-that the scheme-theoretic composition image is already reduced, and
-describe the infinite orbit without the misleading word “discrete”.
-These corrections are confirmed in the reviewed final text.
-
-**Outcome:** no remaining mathematical discrepancy is identified in the
-reviewed Part B claims. The endpoint curvilinear fiber calculation was
-communicated during drafting and incorporated by the author. Invariance
-and tangency alone were carefully distinguished from the canonical
-trace-free selector. The precise analytic singularity type of the
-secant image at the endpoint tangent trisecants remains uncomputed; the
-note explicitly leaves it outside its claims.
-
-The claims concern only this fixed curve and characteristic zero. No new
-STCI conclusion, finite-degree carrier claim, or canonical promotion
-follows from the audit.
+The exact analytic singularity type of the secant image at the two endpoint tangent trisecants remains uncomputed. These statements concern the fixed characteristic-zero curve and do not imply a new STCI result.
 
