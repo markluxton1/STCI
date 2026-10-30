@@ -217,8 +217,8 @@ No canonical frontier file was edited by this auditor.
 ## 1. Exact hypotheses and notation
 
 Work over an algebraically closed field of characteristic zero. The
-[adjoint model](2026-10-09-session-genus-two-adjoint-conic-model.md) and
-[independent mate audit](2026-10-09-session-genus-two-nullcurve-mate-independent-audit.md)
+[adjoint model](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd) and
+[independent mate audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
 give a smooth rational minimal resolution `sigma:M->S`, the pulled-back
 hyperplane class `L`, and a connected rational pencil `f=K_M+L`, with
 
@@ -1876,7 +1876,7 @@ carrier degrees. No canonical frontier file is edited.
 ## 1. Inputs and exact scope
 
 Use the genus-two notation in the
-[adjoint conic model](2026-10-09-session-genus-two-adjoint-conic-model.md).
+[adjoint conic model](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd).
 Assume the proposed
 [normal blowup lift](GENUS_TWO_BLOWUP_LIFT_NORMALITY_CONDITIONAL_ARGUMENT.md)
 has passed its separate audit. Thus
