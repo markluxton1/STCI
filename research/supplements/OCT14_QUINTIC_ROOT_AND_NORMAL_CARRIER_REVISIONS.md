@@ -947,7 +947,7 @@ acceptance remains separate**. This is mathematical review of a new
 written proof. No accepted repository statement or verifier was rerun.
 
 The reviewed source is
-[the symbolic-ribbon criterion](2026-10-13-generalization-ribbon-numerical-criterion.md).
+[the symbolic-ribbon criterion](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-ribbon-numerical-criterionmd).
 I independently reconstructed its sheaf arguments, multiplication maps,
 Euler identity and all displayed numerical specializations. The theorem
 is sound under its stated normality, smooth curve, actual Cartier
