@@ -124,7 +124,7 @@ Consequently
 \[
 R\ne0\quad\Longleftrightarrow\quad m<\frac{de}{4}.
 \]
-This elementary identity is recorded, with its distinction from conditional auxiliary-surface results, in the [residual-cycle note](2026-10-21-residual-cycle-proposition-audit.md) and its [reconciliation](../RECONCILIATION_2026-10-23-VALUATIONS.md).
+This elementary identity is recorded, with its distinction from conditional auxiliary-surface results, in the [residual-cycle note](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-residual-cycle-proposition-auditmd) and its [reconciliation](../RECONCILIATION_2026-10-23-VALUATIONS.md).
 
 The integer \(m\) has an exact local meaning. If
 \[
