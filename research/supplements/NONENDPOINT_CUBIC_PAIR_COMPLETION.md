@@ -30,7 +30,7 @@ was read at SHA-256
 `7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a`.
 The [cubic-contact companion](2026-10-12-session-nonendpoint-cubic-contact-symbolics.md)
 has SHA `0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c`;
-the [sparse-heptic companion](2026-10-12-session-sparse-heptic-cubic-pair-classification.md)
+the [sparse-heptic companion](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-sparse-heptic-cubic-pair-classificationmd)
 has SHA `58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8`.
 No owner, companion, canonical, old seal-bound file or Git state was edited.
 
