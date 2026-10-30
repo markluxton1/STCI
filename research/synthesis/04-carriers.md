@@ -116,3 +116,10 @@ The newer [carrier/conductor/socle interface](carrier_conductor_socle_interfaces
 **Provisional:** a direct geometric bridge between the common-normal-factor curve of Chapters 2–3 and the normalization/conductor data of an arbitrary carrier.
 
 Next: [how the exclusion results assemble](05-exclusions.md), followed by the [surviving frontier](06-frontier.md).
+
+
+## 4.9 Marked ruled models: finite normalization is not resolution
+
+The explicit quartic and cubic ruled models offer a concrete laboratory for the conductor criterion, without classifying arbitrary carriers. For the cubic (R=V(x_0x_2^2-x_1^2x_3)), the smooth cubic scroll (\mathbb F_1) maps finitely to the projected cubic with a doubled conductor line; the normalization is distinct from both the singular image and a subsequent resolution. The quadric intersection has the cycle (R\cap Q=C+L_0+L_\infty), but scheme-theoretic endpoint corrections matter when pulling back marked divisors. The cone model likewise distinguishes its finite normalization from its (\mathbb F_4) resolution. See the exact scoped [ruled projection record R-0028](../results/quartic_ruled_projection_geometry.md) and the full [scroll and ruled-surface calculations](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md).
+
+The characteristic-dependent four-section family is another warning: the finite-flat divisor of four sections can specialize without normalization commuting with special-fiber formation. The [arithmetic ruled record R-0029](../results/quartic_arithmetic_ruled_models.md) and the corresponding ruled supplement distinguish the relative divisor, its projective image, and the conductor. A class relation on a normalization, or the fact that a projected inverse curve has singleton reduced support, does not prove descent of a genuine section across the full conductor. These examples belong beside the descent criterion because they expose precisely what that criterion must check.
