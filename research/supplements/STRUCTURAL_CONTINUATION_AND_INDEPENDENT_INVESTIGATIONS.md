@@ -204,7 +204,7 @@ within their stated scopes. The fixed normal bundle is the
 characteristic-zero `N_C0=O(7)^2`. No quartic proof was rerun.
 
 For the numerical `d/p,e/q>=3` input, the exact inherited proof is
-the [entirely-thick independent audit](2026-10-06-session-thick-independent-audit.md).
+the [entirely-thick independent audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit).
 The legacy [entirely-thick topic](../results/entirely_thick.md) is
 navigation, not an ID-bearing promoted theorem. This metadata authority
 gap is recorded explicitly; no stronger universal claim is inferred.
