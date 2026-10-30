@@ -2066,7 +2066,7 @@ mate exactly when this section descends through the full conductor.
 For a normal carrier `X=S`, descent is automatic, so (under (2.1)) the
 criterion `D is torsion` is necessary and sufficient. It is also necessary
 and sufficient if all normalization defect is supported on `C`, by the
-accepted [asymptotic conductor theorem](2026-10-06-session-conductor-support.md).
+accepted [asymptotic conductor theorem](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-conductor-support).
 On a general nonnormal carrier, torsion upstairs leaves a real additional
 descent obstruction. This exact distinction survives arbitrary degrees.
 
