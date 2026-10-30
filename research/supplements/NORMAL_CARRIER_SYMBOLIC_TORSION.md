@@ -1,5 +1,16 @@
 # normal carrier symbolic torsion
 
+## Integration guide: class-group torsion, index bounds, and the mate problem
+
+The [carrier torsion investigation](#2026-10-14-generalization-normal-carrier-torsion) distinguishes Cartier and Weil divisor information on possibly singular normal surfaces. The [symbolic-triple certificate](#2026-10-14-generalization-normal-carrier-symbolic-triple-certificate) adds a specific primitive structure and first torsion divisor; its [comparison audit](#2026-10-14-generalization-symbolic-triple-torsion-comparison-audit) tracks the cases of different Cartier indices and the scope of strengthened bounds.
+
+The related [normal-index and socle dossier](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-general-scope) records inequalities that do not presuppose a second equation. The [Rees cycle dossier](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-rees-residual-investigation) makes clear why a global degree budget alone does not control every filtered defect.
+
+A normal carrier's symbolic divisor data is **not** by itself a construction of a set-theoretic complete intersection. The local index, actual homogeneous lifting, and residual-support questions remain distinct.
+
+---
+
+
 Permanent mathematical dossier. Complete source arguments are preserved with their precise hypotheses, conditional scope, calculations, failed approaches, and unresolved boundaries. This grouping does not promote claims to canonical results.
 
 ---
