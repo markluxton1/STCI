@@ -20,10 +20,10 @@ The review starts from [research/INDEX.md](../INDEX.md), then
 the prescribed four-component family and the fixed curve's conormal splitting
 are used as premises. Their inherited proofs were not rerun.
 
-The contributions reviewed are [deformations](2026-10-25-ci-cycle-deformation-laboratory.md),
-[conductor and topology](2026-10-25-ci-cycle-conductor-topology.md),
-[specialization and proximity](2026-10-25-ci-cycle-specialization-proximity.md),
-and [the root pencil](2026-10-25-ci-cycle-root-pencil.md). The synthesis notebook
+The contributions reviewed are [deformations](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-deformation-laboratorymd),
+[conductor and topology](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd),
+[specialization and proximity](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-specialization-proximitymd),
+and [the root pencil](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-root-pencilmd). The synthesis notebook
 is reviewed separately below when assembled.
 
 ## 1. Independent reconstruction of the deformation calculation
@@ -258,7 +258,7 @@ of them. No accepted mathematics or canonical frontier status changes.
 
 ## 8. Synthesis review
 
-The [main notebook](2026-10-25-ci-cycle-geometry-notebook.md) was read after
+The [main notebook](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-geometry-notebookmd) was read after
 assembly. Its comparison of mass, boundary, normalization, topology, and
 nilpotent structure is consistent with the component calculations above.
 The review strengthened the generic-residual paragraph from an expectation
@@ -301,10 +301,10 @@ protocol. The fixed-curve conormal and prescribed degeneration facts in
 [R0020](../results/quartic_conormal_characteristic_jump.md) and
 [R0021](../results/quartic_mu4_degeneration.md) remain accepted premises; their
 proofs were not rerun. This review concerns the new
-[adaptive notebook](2026-10-25-ci-cycle-adaptive-valuative-notebook.md),
-[generic multiplicity note](2026-10-25-ci-cycle-valuative-multiplicity.md),
-[contact-cycle note](2026-10-25-ci-cycle-valuative-contact-cycle.md), and
-[endpoint valuation note](2026-10-25-ci-cycle-endpoint-valuations.md).
+[adaptive notebook](CI_CYCLE_ADAPTIVE_FRONTIER.md#2026-10-25-ci-cycle-adaptive-valuative-notebookmd),
+[generic multiplicity note](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-multiplicitymd),
+[contact-cycle note](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-contact-cyclemd), and
+[endpoint valuation note](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-endpoint-valuationsmd).
 
 **Outcome.** The parameter-ideal refinement is correct and materially useful:
 complete ambient valuative information does recover the generic multiplicity
@@ -637,13 +637,13 @@ boundary, not defects in the valid local multiplicity bridge.
 
 # Five residual nodes can move independently to first order at fixed boundary
 
-Date: 2026-10-25. Status: exploratory exact tangent calculation with independent reconstruction; no canonical promotion. The [independent review](2026-10-25-ci-cycle-fixed-boundary-node-smoothing-audit.md) records the finite calculation and its local-deformation interpretation separately. The starting point is the line-plus-degree-eleven degeneration in the [line-degeneration note](2026-10-25-ci-cycle-line-degeneration.md). The main question is whether a fixed attachment divisor on \(C\) can hide changes in the genus and component structure of the residual curve.
+Date: 2026-10-25. Status: exploratory exact tangent calculation with independent reconstruction; no canonical promotion. The [independent review](#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd) records the finite calculation and its local-deformation interpretation separately. The starting point is the line-plus-degree-eleven degeneration in the [line-degeneration note](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-line-degenerationmd). The main question is whether a fixed attachment divisor on \(C\) can hide changes in the genus and component structure of the residual curve.
 
 **Finite result.** At this actual quartic pencil, the full boundary map has projective differential rank 18, and the map from its 14-dimensional fixed-boundary tangent space to the five residual node parameters is surjective. Its kernel has dimension 9. Thus retaining the exact boundary to first order does not force any linear relation among the five node smoothing parameters. A separate formal interpretation is given below; no explicit polynomial arc with exactly constant boundary has been constructed by this calculation.
 
 ## 1. The actual point and the two separate boundaries
 
-Use the homogeneous forms \(F,G,Q,A,D_3,H_0,H_1\) from the [smooth residual benchmark](2026-10-25-ci-cycle-smooth-residual-example.md), but take coefficients 1,1:
+Use the homogeneous forms \(F,G,Q,A,D_3,H_0,H_1\) from the [smooth residual benchmark](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-smooth-residual-examplemd), but take coefficients 1,1:
 
 \[
 f=F+QH_0+x_0A,\qquad
@@ -832,7 +832,7 @@ python3 research/computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25
 
 The script uses only Python's standard library and finishes in a fraction of a second. It checks that \(P\) is squarefree, the carrier derivative is invertible, the gradient-dependence identities hold at the node algebra, the base boundary is degree 18 and squarefree, and all five explicit rational tangent pairs satisfy (7). A separate agent independently rebuilt the global basis and both maps in a scratch computation, obtaining the same ranks 19,5,24 and the same Grassmannian interpretation.
 
-The geometry of \(L,E\) and their intersections is supplied by the [companion exact line-degeneration computation](2026-10-25-ci-cycle-line-degeneration.md) and its [independent audit](2026-10-25-ci-cycle-line-degeneration-audit.md); this script does not repeat that projective smoothness calculation. The formal interpretation has its additional local-deformation input stated explicitly. No accepted result, proof, or canonical frontier record changes.
+The geometry of \(L,E\) and their intersections is supplied by the [companion exact line-degeneration computation](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-line-degenerationmd) and its [independent audit](#2026-10-25-ci-cycle-line-degeneration-auditmd); this script does not repeat that projective smoothness calculation. The formal interpretation has its additional local-deformation input stated explicitly. No accepted result, proof, or canonical frontier record changes.
 
 
 
@@ -844,7 +844,7 @@ The geometry of \(L,E\) and their intersections is supplied by the [companion ex
 
 Date: 2026-10-26. Reviewer: independent reconstruction worker in the cycle-notebook team. Status: reviewed finite calculation and its stated formal-local consequence; unpromoted research evidence. The filename retains the October 25 investigation date. This review completes the current experiment and proposes no additional work.
 
-**Outcome.** The [investigation note](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md) correctly gives exact affine ranks 19,5,24 from actual global quartics. On the Grassmannian, the fixed-boundary tangent space has dimension 14 and maps onto all five residual-node smoothing parameters, with kernel dimension 9. After splitting and marking the geometric nodes, the stated completed local coordinate form is justified by the standard node-family theorem and the formal inverse-function argument. This is distinct from an explicitly computed coefficient arc, which the note correctly says has not been supplied.
+**Outcome.** The [investigation note](#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd) correctly gives exact affine ranks 19,5,24 from actual global quartics. On the Grassmannian, the fixed-boundary tangent space has dimension 14 and maps onto all five residual-node smoothing parameters, with kernel dimension 9. After splitting and marking the geometric nodes, the stated completed local coordinate form is justified by the standard node-family theorem and the formal inverse-function argument. This is distinct from an explicitly computed coefficient arc, which the note correctly says has not been supplied.
 
 ## 1. The independently reconstructed source and maps
 
@@ -854,7 +854,7 @@ The reviewed point is the actual homogeneous pair
 f=F+QH_0+x_0A,\qquad g=G+QH_1+x_3D_3,
 \]
 
-with the forms specified in the [smooth-residual benchmark](2026-10-25-ci-cycle-smooth-residual-example.md). The [line-degeneration calculation](2026-10-25-ci-cycle-line-degeneration.md) and its [independent audit](2026-10-25-ci-cycle-line-degeneration-audit.md) supply the starting geometry: the residual is \(L\cup E\), with \(E\) smooth of degree 11 and genus 12, and exactly five reduced ordinary nodes \(L\cap E\) away from \(C\). The current rank calculation does not independently recertify projective smoothness of \(E\).
+with the forms specified in the [smooth-residual benchmark](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-smooth-residual-examplemd). The [line-degeneration calculation](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-line-degenerationmd) and its [independent audit](#2026-10-25-ci-cycle-line-degeneration-auditmd) supply the starting geometry: the residual is \(L\cup E\), with \(E\) smooth of degree 11 and genus 12, and exactly five reduced ordinary nodes \(L\cap E\) away from \(C\). The current rank calculation does not independently recertify projective smoothness of \(E\).
 
 Before reading the durable verifier, the reviewer independently rebuilt its ingredients in a standard-library rational computation:
 
@@ -977,11 +977,11 @@ Status: reviewed exact example and local deformation deductions; exploratory
 and not canonically promoted.
 
 The reviewer followed [the research index](../INDEX.md). This audit concerns
-the new [line-degeneration note](2026-10-25-ci-cycle-line-degeneration.md);
+the new [line-degeneration note](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-line-degenerationmd);
 the original prescribed \(\mu_4\) family in
 [R0021](../results/quartic_mu4_degeneration.md) is an accepted reference and
 its proof was not rerun. The smooth member at parameters \((2,3)\) has its
-separate [exact audit](2026-10-25-ci-cycle-smooth-residual-audit.md).
+separate [exact audit](#2026-10-25-ci-cycle-smooth-residual-auditmd).
 
 **Outcome.** The checked member at \((1,1)\) is exactly the union of the marked
 quartic \(C\), a ruling line \(L\), and a smooth geometrically integral curve
@@ -1220,7 +1220,7 @@ The existing geometry of the marked quartic is used as a premise, with
 [R0021](../results/quartic_mu4_degeneration.md) fixing the original reference
 pair. This audit concerns new computations, not a replay of that accepted
 result. The broad adaptive residual question remains as stated in the
-[valuative continuation](2026-10-25-ci-cycle-adaptive-valuative-notebook.md).
+[valuative continuation](CI_CYCLE_ADAPTIVE_FRONTIER.md#2026-10-25-ci-cycle-adaptive-valuative-notebookmd).
 
 **Outcome.** The final explicit pair over \(\mathbf Q\) has exactly the
 scheme union of \(C\) and a smooth geometrically integral residual curve
