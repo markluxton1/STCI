@@ -1274,7 +1274,7 @@ in the relevant degree are separate problems.
 ## 1. Accepted inputs and the next target
 
 Use the frames and coefficients from the [independent quadratic
-audit](2026-10-14-moving-linear-quadratic-obstruction-independent-audit.md):
+audit](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd):
 
     a=A+Cz, b=B+Dz, Delta=AD-BC != 0,
     f0=a u+b v,
@@ -1450,7 +1450,7 @@ strata. No inherited accepted computation was rerun.
 
 Date: 2026-10-14. Status: **PASS**, exact independent derivation of the new
 cubic calculation. The accepted embedded chart and [quadratic
-audit](2026-10-14-moving-linear-quadratic-obstruction-independent-audit.md)
+audit](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 are premises. Their earlier computations were not re-audited. The owner's
 [cubic note](2026-10-14-moving-linear-cubic-compatibility.md) was first read
 after this audit's separate expansion had produced its answer.
@@ -1598,7 +1598,7 @@ Date: 2026-10-14. Status: independent geometric audit conditional only on the
 new cubic classification's recorded exact coefficient verification. This
 note does not repeat the accepted quadric or constant-direction calculations.
 
-Use the [quadratic frame review](2026-10-14-moving-linear-quadratic-obstruction-independent-audit.md)
+Use the [quadratic frame review](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 and [new cubic classification](2026-10-14-moving-linear-cubic-compatibility.md).
 They identify the unique compatible basepoint-free moving linear relation
 line `W=O(-8)` through normal degree three as the line of the actual quadric
@@ -1760,7 +1760,7 @@ the accepted projective frontier. The argument does not require
 birationality and places no restriction on the order of `a^{-2}`.
 
 It also does not exclude general opposite-ruling pairs. The
-[complete coefficient normal form](2026-10-14-quadric-opposite-ruling-phase-normal-form.md)
+[complete coefficient normal form](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-quadric-opposite-ruling-phase-normal-formmd)
 contains arbitrary vectors `D,E in k^4` in place of the restricted
 choice `D=W2,E=u W2`; those coefficients can remove this particular
 boundary obstruction. No general phase-order bound or full
