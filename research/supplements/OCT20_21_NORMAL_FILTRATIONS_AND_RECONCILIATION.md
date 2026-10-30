@@ -183,9 +183,9 @@ necessary arithmetic system has respectively
 These counts do not test Picard descent or ambient realizability.
 No finiteness theorem for epsilon at least nine is claimed here.
 
-Proofs: [homogeneous generator and arithmetic note](2026-10-19-global-ci-filtration-investigation.md).
-Independent reconstruction: [core audit](2026-10-19-numerical-first-root-independent-audit.md)
-and [fixed-movement audit](2026-10-19-global-ci-filtration-independent-audit.md).
+Proofs: [homogeneous generator and arithmetic note](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-global-ci-filtration-investigation).
+Independent reconstruction: [core audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-numerical-first-root-independent-audit)
+and [fixed-movement audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-global-ci-filtration-independent-audit).
 Exact finite divisor implementation:
 [arithmetic verifier](../computations/global_ci_small_movement_divisor_audit.py).
 
@@ -272,9 +272,9 @@ actual first relation `txy` with defect length one. Its support is the
 smooth t-axis. It is a local counterexample, not a projective C0 pair.
 
 Proof and full-root component accounting:
-[effective-defect note](2026-10-19-first-relation-defect-investigation.md).
+[effective-defect note](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-investigation).
 Independent reconstruction:
-[defect audit](2026-10-19-first-relation-defect-independent-audit.md).
+[defect audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-independent-audit).
 
 ## 4. Main finding C: actual full-singleton plane carriers can fail first-order descent
 
@@ -341,10 +341,10 @@ such an obstruction. Its reduced residue class is already trivial;
 the first nilpotent term obstructs every power. This demonstrates why
 reduced phase or inverse-support checks alone cannot settle Q0001.
 
-Proof: [singleton-projection note](2026-10-19-singleton-projection-investigation.md).
+Proof: [singleton-projection note](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-singleton-projection-investigation).
 Independent review, including a closing reconstruction of the broader
 coordinate sublane:
-[carrier audit](2026-10-19-singleton-plane-projection-independent-audit.md).
+[carrier audit](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-singleton-plane-projection-independent-audit).
 The full plane-model projection/descent question remains open.
 
 ## 5. Main finding D: a reduced singular movement-two root requires a singular formal surface
@@ -388,7 +388,7 @@ examples `xy+u^2` and `y^2-x^3+u^2` show that Cartier lifting alone
 does not force regularity. No singular-root actual-CI bridge, finite
 jet cutoff, or actual STCI exclusion follows without additional work.
 
-Proof: [singular-root note](2026-10-19-singular-root-investigation.md).
+Proof: [singular-root note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-singular-root-investigation).
 Independent review:
 [smoothing audit](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-19-regular-singular-root-smoothing-auditmd),
 with a separate elementary argument for two equal-slope rational
@@ -430,8 +430,8 @@ a bound must retain defect sheaves or special-fiber geometry of the
 normalized exceptional surfaces, rather than only generic divisorial
 data or ordinary Segre numbers.
 
-Proof: [Rees and intrinsic-defect note](2026-10-19-rees-residual-investigation.md).
-Independent reconstruction: [Rees audit](2026-10-19-rees-residual-independent-audit.md).
+Proof: [Rees and intrinsic-defect note](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-rees-residual-investigation).
+Independent reconstruction: [Rees audit](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-rees-residual-independent-audit).
 
 ## 7. Recommended continuation and exact remaining obstacles
 
