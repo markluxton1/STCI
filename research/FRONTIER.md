@@ -63,7 +63,7 @@ Preserve intrinsic marked-quartic geometry (projection from the rational normal 
 
 ### Consolidation status
 
-The mathematical integration of Phases 2 and 3 is complete for this reorganization. Remaining historical-source retirement and redundancy cleanup are Phase 5 tasks, not open mathematical research problems.
+The mathematical integration of Phases 2 and 3 is complete for this reorganization. Repository housekeeping, historical-source retirement, and redundancy cleanup are administrative work, **not** open mathematical research problems. Dated Phase 5 progress statements should not be interpreted as current research priorities.
 
 
 ## Historical frontier record — not current assignments
