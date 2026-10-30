@@ -53,7 +53,7 @@ equation is
 Its geometrically integral genus-one normalization and explicit
 Weierstrass model `YE^2=XE^3+96XE-448` are checked in the
 [curve source](../computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py)
-and the [checkpoint](2026-10-08-session-checkpoint.md). The corrected
+and the [checkpoint](OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-08-session-checkpointmd). The corrected
 fiber is H(p,-1/2)=8p(p+2)^2.
 
 Set
@@ -104,7 +104,7 @@ The complement is exhausted as follows.
 This is a full chart-complement argument. It makes no assertion about
 other e, other defect degrees, or directions with a0*b1=0; the latter
 defect-one endpoint directions were treated separately in the
-[endpoint proof](2026-10-07-session-mf6-e1-d1-endpoints.md).
+[endpoint proof](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-d1-endpointsmd).
 
 ## 2. Fresh ambient quartic spaces
 
