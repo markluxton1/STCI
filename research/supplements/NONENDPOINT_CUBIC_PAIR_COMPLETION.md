@@ -25,10 +25,10 @@ contact-classification argument only on Jbar!=0. This does not close the
 integral residual lane, other quintic normalizations, higher-degree carriers,
 unrestricted C0, or the universal STCI problem.
 
-The frozen [owner proof](2026-10-12-session-nonendpoint-cubic-pair-contact-reduction.md)
+The frozen [owner proof](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#1-nonendpoint-cubic-pair-contact-reduction)
 was read at SHA-256
 `7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a`.
-The [cubic-contact companion](2026-10-12-session-nonendpoint-cubic-contact-symbolics.md)
+The [cubic-contact companion](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#2-nonendpoint-cubic-contact-symbolics)
 has SHA `0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c`;
 the [sparse-heptic companion](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-sparse-heptic-cubic-pair-classificationmd)
 has SHA `58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8`.
@@ -306,14 +306,14 @@ coinciding cubic factors remain in scope.
 ## 1. Exact audited inputs and scope
 
 The relevant portion of the owner's
-[cubic-pair note](2026-10-12-session-nonendpoint-cubic-pair-contact-reduction.md)
+[cubic-pair note](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#1-nonendpoint-cubic-pair-contact-reduction)
 is Sections 4–6. Its digest at this audit is
 
     7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a
 
 The complete actual coefficients and the extra matching equation are in
 Sections 1 and 4 of the
-[cubic-contact companion](2026-10-12-session-nonendpoint-cubic-contact-symbolics.md),
+[cubic-contact companion](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#2-nonendpoint-cubic-contact-symbolics),
 digest
 
     0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c
@@ -552,7 +552,7 @@ The genus-one quintic A4 lane and the unrestricted problem remain open
 on their unexcluded strata. Canonical files, old notes and seals are not
 edited by this audit.
 
-The literal input is [the October 12 conormal reduction](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md),
+The literal input is [the October 12 conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction),
 SHA-256 `3576392d41d4f64db506291f7cd0609a6930a80296eeedd7c9ccdfa92352c3f5`.
 The finite/infinite systems below were reconstructed from those literal
 cubics independently of the owner's coefficient inversion.
@@ -851,7 +851,7 @@ Status: **OWNER CORRECTION OF A STRONGER STATEMENT; ALL-MATE EXCLUSION
 UNCHANGED, INDEPENDENT AUDIT PENDING**. This is a separate qualification;
 the frozen owner proof and its binding package are preserved unchanged.
 
-The [frozen cubic-pair proof](2026-10-12-session-nonendpoint-cubic-pair-contact-reduction.md),
+The [frozen cubic-pair proof](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#1-nonendpoint-cubic-pair-contact-reduction),
 SHA-256 `7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a`,
 has an overly strong formulation in section 7: it says that no admissible
 nonendpoint projection with residual partition 3+3 satisfies full inverse
