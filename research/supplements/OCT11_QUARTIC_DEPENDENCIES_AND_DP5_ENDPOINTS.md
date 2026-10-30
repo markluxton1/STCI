@@ -759,7 +759,7 @@ images; they vanish on its canonical triple, rather than on the
 whole quadruple. In particular these equalities do not turn either
 quartic into an STCI carrier with a mate supported only on C0.
 
-The [retracted bridge](2026-10-07-session-localcoh-mf6-bridge.md)
+The [retracted bridge](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#mf6-bridge)
 records exactly why replacing the nonzero socle images by zero is
 invalid. Its corrected simultaneous-target proof excludes particular
 ancestor strata by their own target equations. The present carrier
