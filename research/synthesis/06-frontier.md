@@ -114,3 +114,9 @@ Two research routes remain distinct. First, extend the fixed-sextic jet-kernel t
 Second, extend the saturated residual zero-cycle formula R-0019 to a detector for a residual one-cycle in projective space. This requires an explicit bridge from auxiliary-surface intersections and horizontal exceptional data to the actual global equations; vertical exceptional cycles alone do not suffice. The explicit residual quartics of R-0023 and fixed-boundary deformation of R-0024 are useful laboratories, not general existence or nonexistence theorems.
 
 A new case computation should identify an invariant class excluded, an exceptional stratum left unresolved, or a structural implication that fails. Otherwise it remains exploratory evidence, not a promoted result.
+
+## 6.10 Formal-normal and valuation research targets
+
+A next theorem should seek a coordinate-independent invariant of the full normal initial ideal, including integral specialization at exceptional points, and connect it to an actual projective residual cycle. Weighted valuations in a rational normal frame do not yet provide that implication; residue and cancellation data matter.
+
+The exact ideal-power theorem gives complete global equation spaces in degrees d at least 3m. Their geometric singularity and jet-rank strata remain to be classified. The marked-trisecant negative calculation shows that ruling-contact conditions alone leave ambient transverse coefficients free. A successful obstruction needs a proved global compatibility condition rather than another isolated calculation.
