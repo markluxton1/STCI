@@ -202,7 +202,7 @@ regularity intrinsically. Neither U0, hsec, nor Q is assumed to
 descend to any chosen four-coordinate projection.
 
 The coordinate/model auditor is preparing
-[a separate explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
+[a separate explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 Its global ideal and local A4 certificates are independent of the
 geometric contraction exhaustion here.
 
