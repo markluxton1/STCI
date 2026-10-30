@@ -319,7 +319,7 @@ digest
     0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c
 
 The actual ambient residual polynomial is taken from Section 1 of the
-[residual-factor note](2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md),
+[residual-factor note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md),
 digest
 
     d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44
