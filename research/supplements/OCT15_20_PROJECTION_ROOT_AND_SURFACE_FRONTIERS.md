@@ -143,7 +143,7 @@ with [the successor handoff](../SUCCESSOR_HANDOFF_2026-10-14.md).
 
 Accepted new inputs and reductions are:
 
-- The [intrinsic A4 contact bound](2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md)
+- The [intrinsic A4 contact bound](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-intrinsic-a4-contact-bound)
   and its independent review. Every surviving `j=0` candidate has contact
   at most two. On h2, H misses A4, so the sextic Q cannot be supported only
   at A4. Hence every remaining candidate, for either value of j, satisfies
