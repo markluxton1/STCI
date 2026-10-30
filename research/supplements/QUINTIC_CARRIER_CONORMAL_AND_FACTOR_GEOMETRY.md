@@ -214,7 +214,7 @@ contradicting negative definiteness unless E=0. Consequently
 The contraction is crepant, with ADE singularities, and S is a degree-five
 Gorenstein del Pezzo surface with `K_S=-H`. This uses the same minimality
 and negative-definiteness proof as the accepted
-[genus-one quartic reduction](2026-10-09-session-genus-one-delpezzo-reduction.md).
+[genus-one quartic reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd).
 
 In a rational degree-five del Pezzo marking, Pic(M) has basis h,e1,...,e4,
 with L=3h-sum e_i. The roots P with L.P=0 and P^2=-2 are exactly
@@ -380,7 +380,7 @@ quintic-carrier exclusion. No frozen note, canonical record or existing
 integrity seal is edited by this audit.
 
 The owner source is the [endpoint quadric-factor reduction](2026-10-11-session-quintic-endpoint-quadric-factor-reduction.md).
-The geometric inputs are the [quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md),
+The geometric inputs are the [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 its [independent conormal/del Pezzo audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
 and the [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
@@ -878,7 +878,7 @@ Status: **DIRECT STRUCTURAL REDUCTION, pending separate proof audit**.
 This note concerns only the endpoint placement of the A4 point on fixed
 characteristic-zero C0. It neither excludes the whole endpoint family
 nor treats the additional nonendpoint projection-center parameter.
-The frozen [quintic frontier](2026-10-11-session-quintic-structural-frontier.md)
+The frozen [quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd)
 supplies the normal degree-five del Pezzo, single A4 point, smooth c,
 unique line ell, and the actual relations H~c+ell~5ell, 5c~4H.
 The explicit model below must be covered by the separately developed
