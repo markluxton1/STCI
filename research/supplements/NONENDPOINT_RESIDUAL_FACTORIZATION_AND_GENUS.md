@@ -20,7 +20,7 @@ claimed here; all identities used below follow from the saved exact model.
 The field is algebraically closed of characteristic zero. Use the
 [intrinsic A4 pair](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
 the [exact low-pole spaces](2026-10-11-session-a4-low-pole-spaces.md), and the
-[actual nonendpoint sections and residual divisor](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md).
+[actual nonendpoint sections and residual divisor](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd).
 The two double roots are 0,delta, where delta is arbitrary and nonzero.
 It is not normalized to one. The four lift parameters are a,b,g,d.
 
@@ -726,7 +726,7 @@ the cubic-pair conductor cases and unbounded full descent remain open.
 
 Additional read input versions:
 
-* [nonendpoint pole filtration and line jet](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md),
+* [nonendpoint pole filtration and line jet](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd),
   SHA-256 `ad4459de5a95b12e26a162419082d7b32745323a6781716efdf6cca72767c2a2`.
 * [exact low-pole spaces](2026-10-11-session-a4-low-pole-spaces.md),
   SHA-256 `929f8165fd0f484175c819011cdf2eefaf6766e3c88735d556903241a2177f5a`.
@@ -757,7 +757,7 @@ the algebraic identities are reconstructed below. Prior records and canonical
 files were not edited.
 
 The audited owner note is
-[nonendpoint pole filtration and line jet](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md),
+[nonendpoint pole filtration and line jet](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd),
 as read with SHA-256
 `ad4459de5a95b12e26a162419082d7b32745323a6781716efdf6cca72767c2a2`.
 The only clarification required is that the displayed transverse derivation
@@ -811,7 +811,7 @@ generic degree is one and the image is an integral quintic. Normality of S
 then identifies this finite birational map with the normalization.
 
 The all-power conclusion also uses the accepted
-[quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md):
+[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd):
 any hypothetical mate has degree `4k` and pulls back to a nonzero scalar
 multiple of `Q^k`. That input is not inferred from the pole calculation.
 
