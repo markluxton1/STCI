@@ -1,5 +1,16 @@
 # conditional 2 12 singular and conductor
 
+## Proof-dependency map: node gluing and conductor constraints
+
+The [two-node torsion calculation](#2026-10-20-conditional-2-12-singular-continuation) and [subsequent singular continuation](#2026-10-21-conditional-2-12-singular-continuation2) analyze branch identifications. The [cubic-image/conductor interface](#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface) and [conductor ramification](#2026-10-21-conditional-2-12-conductor-ramification) add global compatibility conditions, with an [independent chart review](#2026-10-21-conditional-2-12-conductor-and-chart-independent-review).
+
+The [symbol-map and sextic realization dossier](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-elimination) supplies the equation-level inputs; the [strict-surface continuation](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-bound-continuation) imposes further conditions. The torsion and conductor tests are necessary compatibility constraints in the stated conditional geometry; they are not an unconditional exclusion of the (2,12) degree pair.
+
+Preserve the exact two-node factors, torsion scheme, diagonal-slice countercheck, and chart-independence qualifications below.
+
+---
+
+
 Permanent mathematical dossier. The (2,12) setting and every other hypothesis remain conditional as in the original arguments; full calculations, exceptional cases and failures are retained.
 
 ---
