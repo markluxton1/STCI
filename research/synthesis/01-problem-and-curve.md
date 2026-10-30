@@ -28,23 +28,23 @@ All these results concern specified marked constructions. They form a coherent g
 
 ## 1.2 Three different incidence spaces and their markings
 
-The following distinctions prevent several recurring false identifications in the historical geometry discussions. Work in characteristic zero unless stated otherwise.
+The following distinctions prevent recurring false identifications in the historical geometry discussions. Work in characteristic zero unless stated otherwise.
 
-**The containing quadric.** The smooth quadric (Q=V(x_0x_3-x_1x_2)) is abstractly (mathbf P^1\times\mathbf P^1), and (C) has bidegree ((1,3)) (up to swapping rulings). For the ruling in which (C) is a section, (C^2=6).
+**The containing quadric.** The smooth quadric \(Q=V(x_0x_3-x_1x_2)\) is abstractly \(\mathbf P^1\times\mathbf P^1\), and \(C\) has bidegree \((1,3)\) (up to swapping rulings). For the ruling in which \(C\) is a section, \(C^2=6\).
 
-**The conormal incidence surface.** Let (mathcal N=\{(p,H):p\in C,\ T_pC\subset H\}). This is a (mathbf P^1)-bundle over (C), abstractly (mathbf P^1\times\mathbf P^1) in characteristic zero because the normal bundle is balanced. It parametrizes tangent planes *with a marked contact point*, not points of (Q). The section (p\mapsto(p,T_pQ)) has self-intersection (2), not (6). Consequently there is no isomorphism over (C) taking this distinguished section to the section (C\subset Q). Abstract isomorphism of the underlying products is not an identification of marked ruled surfaces.
+**The conormal incidence surface.** Let \(\mathcal N=\{(p,H):p\in C,\ T_pC\subset H\}\). This is a \(\mathbf P^1\)-bundle over \(C\), abstractly \(\mathbf P^1\times\mathbf P^1\) in characteristic zero because the normal bundle is balanced. It parametrizes tangent planes *with a marked contact point*, not points of \(Q\). The section \(p\mapsto(p,T_pQ)\) has self-intersection \(2\), not \(6\). Consequently there is no isomorphism over \(C\) taking this distinguished section to the section \(C\subset Q\). Abstract isomorphism of the underlying products is not an identification of marked ruled surfaces.
 
-**The secant-plane flag space.** A length-two divisor (D\in\operatorname{Sym}^2 C\simeq\mathbf P^2), together with a plane containing its secant (or tangent) line, gives a three-dimensional incidence space. The residual degree-two divisor in the plane section yields a second symmetric-square coordinate. The residual-swap involution and its fixed conic belong to this threefold, not to the two-dimensional conormal incidence surface. The precise flag and finite-flat assertions are in [R-0026](../results/quartic_flag_conormal_geometry.md).
+**The secant-plane flag space.** A length-two divisor \(D\in\operatorname{Sym}^2 C\simeq\mathbf P^2\), together with a plane containing its secant (or tangent) line, gives a three-dimensional incidence space. The residual degree-two divisor in the plane section yields a second symmetric-square coordinate. The residual-swap involution and its fixed conic belong to this threefold, not to the two-dimensional conormal incidence surface. The precise flag and finite-flat assertions are in [R-0026](../results/quartic_flag_conormal_geometry.md).
 
-These distinctions also explain why polarity on (Q) does not provide a canonical marked identification (mathcal N\simeq Q): the polar line of a tangent line is not generally a ruling of (Q). See the preserved calculations in [quartic projection and special geometry](../supplements/QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md) and [quartic duality and flags](../supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md). The comparison is geometric background, **not** a theorem about arbitrary defining surface pairs.
+These distinctions also explain why polarity on \(Q\) does not provide a canonical marked identification \(\mathcal N\simeq Q\): the polar line of a tangent line is not generally a ruling of \(Q\). See the preserved calculations in [quartic projection and special geometry](../supplements/QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md) and [quartic duality and flags](../supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md). The comparison is geometric background, **not** a theorem about arbitrary defining surface pairs.
 
 ## 1.3 Dual invariants and the scheme-theoretic intersection
 
-Write dual coordinates ([A:B:C:D]) for the plane whose restriction to the parametrized curve is (As^4+Bs^3t+Cst^3+Dt^4). Put
+Write dual coordinates \([A:B:C:D]\) for the plane whose restriction to the parametrized curve is \(As^4+Bs^3t+Cst^3+Dt^4\). Put
 \[
 M=AD-BC,\qquad L=BC-4AD,\qquad K=AC^2+B^2D.
 \]
-The dual quadric is (Q^\vee=V(M)), while the dual of the ruled cubic (R=V(x_0x_2^2-x_1^2x_3)) is (R^\vee=V(K)). For the binary-quartic discriminant (Delta) of this restricted four-term system, the exact identity is
+The dual quadric is \(Q^\vee=V(M)\), while the dual of the ruled cubic \(R=V(x_0x_2^2-x_1^2x_3)\) is \(R^\vee=V(K)\). For the binary-quartic discriminant \(\Delta\) of this restricted four-term system, the exact identity is
 \[
 \Delta=-4L^3-27K^2.
 \]
@@ -52,8 +52,5 @@ Thus the **scheme-theoretic** intersection is
 \[
 C^\vee\cap R^\vee=V(K,L^3),
 \]
-not merely the support (V(K,L)) and not the ambient ideal cube ((K,L)^3). The reduced divisor (V(K,L)) consists of the osculating quartic and the two endpoint pencil lines; the triple Cartier structure retains endpoint contact information. The explicit discriminant expansion, affine elimination, and normalization pullback are preserved in [the duality calculations](../supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md). Consult [R-0027](../results/quartic_dual_singular_scheme.md) separately for the promoted singular-scheme assertion and its exact scope.
+not merely the support \(V(K,L)\) and not the ambient ideal cube \((K,L)^3\). The reduced support \(V(K,L)\) consists of the osculating quartic and the two endpoint pencil lines; the triple Cartier structure retains endpoint contact information. This identity alone does not determine the full singular scheme of the dual discriminant: see [R-0027](../results/quartic_dual_singular_scheme.md).
 
-This invariant calculation is not evidence that the dual is globally a product of a cusp and a curve, nor that the dual intersection forces a common singular point for arbitrary STCI surfaces. Those implications remain unproved.
-
-Next: [simultaneous surface geometry](02-two-surfaces.md).
