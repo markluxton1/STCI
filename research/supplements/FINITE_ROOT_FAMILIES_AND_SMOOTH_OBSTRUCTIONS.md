@@ -1551,7 +1551,7 @@ the actual embedding varies.
 ## 4. Positive-characteristic actual-CI consequence is conditional
 
 The existing
-[actual-CI bridge audit](2026-10-14-generalization-blowup-root-curve-bridge-independent-audit.md)
+[actual-CI bridge audit](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-bridge-independent-audit)
 is explicitly stated in characteristic zero. Its generic-root argument
 uses generic separability. In characteristic p, smoothness of the
 whole root does not by itself imply this: the local equation
