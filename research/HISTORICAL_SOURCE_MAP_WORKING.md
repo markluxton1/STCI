@@ -4,6 +4,45 @@ Exact `## Source:` headings extracted from migrated October supplements. Use exa
 
 | Historical filename | Preserved destination |
 |---|---|
+| `2026-10-07-session-mf6-e1-d1-endpoints.md` | `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-d1-endpointsmd` |
+| `2026-10-07-session-mf6-e1-defective-structural.md` | `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-defective-structuralmd` |
+| `2026-10-07-session-mf6-e1-independent-audit.md` | `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-independent-auditmd` |
+| `2026-10-07-session-mf6-e1-progress.md` | `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-progressmd` |
+| `2026-10-07-session-nonnormal-mf6-independent-audit.md` | `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-mf6-independent-auditmd` |
+| `2026-10-07-session-nonnormal-structural-progress.md` | `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd` |
+| `2026-10-07-session-normal-carrier-independent-audit.md` | `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-normal-carrier-independent-auditmd` |
+| `2026-10-07-session-normal-global-adversarial.md` | `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-normal-global-adversarialmd` |
+| `2026-10-07-session-normal-nonreduced-independent-audit.md` | `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-normal-nonreduced-independent-auditmd` |
+| `2026-10-07-session-ramification-scheme-counterexample.md` | `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd` |
+| `2026-10-07-session-socle-bridge-adversarial-audit.md` | `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-socle-bridge-adversarial-auditmd` |
+| `2026-10-07-session-veronese-pencil-classification.md` | `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-veronese-pencil-classificationmd` |
+| `2026-10-07-session-veronese-singular-pencil.md` | `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-veronese-singular-pencilmd` |
+| `2026-10-07-thick-apic-conductor-bridge.md` | `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-apic-conductor-bridgemd` |
+| `2026-10-07-thick-boundary-carrier-rigidity.md` | `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-boundary-carrier-rigiditymd` |
+| `2026-10-07-thick-degree-3p-quotient.md` | `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-degree-3p-quotientmd` |
+| `2026-10-07-thick-first-blowup-marked-coupling.md` | `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-first-blowup-marked-couplingmd` |
+| `2026-10-07-thick-generic-normalization-filter.md` | `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-generic-normalization-filtermd` |
+| `2026-10-07-thick-local-pair-marked-trisecant.md` | `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-local-pair-marked-trisecantmd` |
+| `2026-10-07-thick-marked-point-jets.md` | `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-marked-point-jetsmd` |
+| `2026-10-07-thick-quadric-section-divisor.md` | `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-quadric-section-divisormd` |
+| `2026-10-07-thick-repeated-fiber-smoothability.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-repeated-fiber-smoothabilitymd` |
+| `2026-10-07-thick-root-budget-separation.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-root-budget-separationmd` |
+| `2026-10-07-thick-ruling-interpolation-audit.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-ruling-interpolation-auditmd` |
+| `2026-10-07-thick-segre-root-audit.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-segre-root-auditmd` |
+| `2026-10-07-thick-sheaf-colon-recursion.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-sheaf-colon-recursionmd` |
+| `2026-10-07-thickened-fiber-jets.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thickened-fiber-jetsmd` |
+| `2026-10-07-thickened-fiber-local-countermodel.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thickened-fiber-local-countermodelmd` |
+| `2026-10-08-session-checkpoint.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-08-session-checkpointmd` |
+| `2026-10-08-session-first-endpoint-completeness-audit.md` | `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-08-session-first-endpoint-completeness-auditmd` |
+| `2026-10-08-session-irreducible-conductor-compression.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-irreducible-conductor-compressionmd` |
+| `2026-10-08-session-late-results-acceptance.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-late-results-acceptancemd` |
+| `2026-10-08-session-localcoh-e1-d1-endpoint-ancestors.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d1-endpoint-ancestorsmd` |
+| `2026-10-08-session-localcoh-e1-d4-algebraic.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d4-algebraicmd` |
+| `2026-10-08-session-localcoh-e1-d4-independent-audit.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d4-independent-auditmd` |
+| `2026-10-08-session-localcoh-family2-generic.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-family2-genericmd` |
+| `2026-10-08-session-localcoh-family2-quadratic-independent-audit.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-family2-quadratic-independent-auditmd` |
+| `2026-10-08-session-localcoh-family2-quadratics.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-family2-quadraticsmd` |
+| `2026-10-08-session-localcoh-quadric-direction.md` | `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-quadric-directionmd` |
 | `2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md` | `OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-all-quartic-dependency-assembly-independent-auditmd` |
 | `2026-10-11-session-all-quartic-results-acceptance.md` | `OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-all-quartic-results-acceptancemd` |
 | `2026-10-11-session-degree-factor-and-mf6-scope-audit.md` | `OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-degree-factor-and-mf6-scope-auditmd` |
