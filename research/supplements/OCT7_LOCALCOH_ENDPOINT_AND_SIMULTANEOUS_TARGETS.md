@@ -41,7 +41,7 @@ generating the second quotient. The triple then has local basis
 `1,ell,ell^2` and is primitive, whether or not the quadruple has a
 defective last piece. For `e=1` it has `L=O(-6)` and belongs to the four
 complete actual torus orbits in
-[`2026-10-07-session-mf6-e1-independent-audit.md`](2026-10-07-session-mf6-e1-independent-audit.md).
+[`2026-10-07-session-mf6-e1-independent-audit.md`](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-independent-auditmd).
 This proof uses its complete quartic fibres, rather than its individual
 carrier cubic-pole bounds or its STCI mate-support argument.
 
@@ -225,7 +225,7 @@ agreement is not a substitute for the frame argument in Section 2.
 
 The root independently verified both simultaneous contradictions. The
 separate frame audit
-[`2026-10-07-session-socle-bridge-adversarial-audit.md`](2026-10-07-session-socle-bridge-adversarial-audit.md)
+[`2026-10-07-session-socle-bridge-adversarial-audit.md`](OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-socle-bridge-adversarial-auditmd)
 accepted the global socle frame, normalized targets, quotient-frame
 transitions, tau degree bound and complete quadric orbit. The corrected
 `e=1,D2=0` ancestor exclusion is therefore accepted. The failed earlier
@@ -460,7 +460,7 @@ Section 2, forces `degD3=7-3e`. Therefore:
 > There is no common quartic ancestor with `e=1,D2=0`.
 
 The accepted MF6 orbit calculations used here are Sections 2--5 of
-[`2026-10-07-session-mf6-e1-independent-audit.md`](2026-10-07-session-mf6-e1-independent-audit.md).
+[`2026-10-07-session-mf6-e1-independent-audit.md`](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-independent-auditmd).
 Only their complete primitive-triple classification and cubic polar
 degree bounds are needed. The further mate-support argument for the
 pure quartic carriers is not used in the ancestor setting.
