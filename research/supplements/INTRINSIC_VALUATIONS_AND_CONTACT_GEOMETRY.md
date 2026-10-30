@@ -291,7 +291,7 @@ Date: 2026-10-23. Reviewer: `secondary_audit`, with a separate narrow external-s
 
 ## Scope and reviewed evidence
 
-This review concerns the new [coefficient-valuation note](2026-10-23-intrinsic-coefficient-valuations.md), its new [stdlib verification script](../computations/verify_intrinsic_valuations_2026_10_23.py), and the new [intrinsic cubic-contact note](2026-10-23-intrinsic-cubic-contact-construction.md). The repository [retrieval index](../INDEX.md), [authority rules](../AUTHORITY.md), and [independent-review requirements](../CONTRIBUTING_AGENT.md) govern the review. No inherited proof or computation was rerun.
+This review concerns the new [coefficient-valuation note](#2026-10-23-intrinsic-coefficient-valuations), its new [stdlib verification script](../computations/verify_intrinsic_valuations_2026_10_23.py), and the new [intrinsic cubic-contact note](2026-10-23-intrinsic-cubic-contact-construction.md). The repository [retrieval index](../INDEX.md), [authority rules](../AUTHORITY.md), and [independent-review requirements](../CONTRIBUTING_AGENT.md) govern the review. No inherited proof or computation was rerun.
 
 The valuation note assumes the fixed smooth rational quartic over algebraically closed `k`, with `K=k(C)=k(z)`, and valuations trivial on `k`. Its characteristic-two calculation concerns the prescribed roots-of-unity pair only. The contact construction assumes an embedded pure quasiprimitive triple in a smooth threefold, saturated nilpotent layers `L` and `E2=L^2(D)`, and a surjection `I/I^2 -> L`. Statements about the corresponding rank-two module do not apply by assertion to arbitrary nonpure thickenings.
 
