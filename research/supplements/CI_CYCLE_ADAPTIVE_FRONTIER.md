@@ -21,16 +21,16 @@ The active branch is codex/ci-cycle-valuations-2026-10-25, based on commit 59c70
 
 ## Checkpoint 1: adaptive valuations and the arithmetic root-collision tree
 
-The [adaptive notebook](2026-10-25-ci-cycle-adaptive-valuative-notebook.md) now states the clarified all-pairs residual-cycle goal and permits the measuring data to depend on the pair. Its reviewed local bridges are:
+The [adaptive notebook](#2026-10-25-ci-cycle-adaptive-valuative-notebookmd) now states the clarified all-pairs residual-cycle goal and permits the measuring data to depend on the pair. Its reviewed local bridges are:
 
 - Generic transverse colength equals Hilbert–Samuel multiplicity for the actual two-generator parameter ideal, so sufficiently complete adaptive valuation data recover the coefficient of \(C\).
 - Residual existence is equivalent to a pointwise multiplicity jump somewhere on \(C\), using complete-intersection connectedness.
 - Normalized residual-branch valuations define a contact divisor, with point-multiplicity excess below it and a cubic degree bound above it.
 - This contact divisor is distinct from the conductor boundary in nonplanar germs.
 
-The [root-collision notebook](2026-10-25-ci-cycle-root-collision-valuations.md) is the completed concrete continuation. It gives thresholds \(3v(2)/2\) and \(5v(2)/2\), residue-sensitive refinement at the second threshold, and the cross-ratio/elliptic valuation consistency check. The stdlib script and JSON record fifty finite checks. The primary independently reconstructed these calculations; a separate additional audit of this later experiment is not claimed.
+The [root-collision notebook](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-root-collision-valuationsmd) is the completed concrete continuation. It gives thresholds \(3v(2)/2\) and \(5v(2)/2\), residue-sensitive refinement at the second threshold, and the cross-ratio/elliptic valuation consistency check. The stdlib script and JSON record fifty finite checks. The primary independently reconstructed these calculations; a separate additional audit of this later experiment is not claimed.
 
-The earlier [valuative audit](2026-10-25-ci-cycle-valuative-audit.md) was preserved and its mathematical formatting cleaned. Accepted results and their proofs were not changed or rerun. No universal residual positivity has been proved.
+The earlier [valuative audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-valuative-auditmd) was preserved and its mathematical formatting cleaned. Accepted results and their proofs were not changed or rerun. No universal residual positivity has been proved.
 
 ## Publication record
 
@@ -38,21 +38,21 @@ Checkpoint 1 was pushed as a4420cb5d01ca27f09f4e07c0ee8289b8cb14c48. The exact r
 
 ## Checkpoint 2: exact global smooth residual benchmark
 
-The generic existence argument in the [deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md) is now accompanied by a [fully explicit rational pair](2026-10-25-ci-cycle-smooth-residual-example.md) and [independent audit](2026-10-25-ci-cycle-smooth-residual-audit.md). The actual saturated colon ideal has degree twelve and arithmetic genus sixteen. Exact rational Jacobian calculations show it is smooth; its space of global functions is \(\mathbf Q\), so base change gives geometric connectedness and hence geometric integrality. Its attachment scheme has eighteen geometric reduced points and avoids both distinguished endpoints.
+The generic existence argument in the [deformation laboratory](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-deformation-laboratorymd) is now accompanied by a [fully explicit rational pair](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-smooth-residual-examplemd) and [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-smooth-residual-auditmd). The actual saturated colon ideal has degree twelve and arithmetic genus sixteen. Exact rational Jacobian calculations show it is smooth; its space of global functions is \(\mathbf Q\), so base change gives geometric connectedness and hence geometric integrality. Its attachment scheme has eighteen geometric reduced points and avoids both distinguished endpoints.
 
 The independent standard-library boundary calculation gives a squarefree polynomial of degree eighteen with constant coefficient four and leading coefficient three. The Macaulay2 and Python scripts, JSON, and captured rational output are retained. No finite-field lifting argument is needed.
 
 A preliminary coefficient choice forced the line \(L=V(x_0+x_1,x_2+x_3)\). Its residual has five singular points on that line. This is the next intrinsic geometry item: isolate the degree-eleven component, check its genus and smoothness, and understand the genus redistribution when the line is absorbed in a nearby smooth residual.
 
-The separate [frontier reconnaissance](2026-10-25-valuative-frontier-next-experiments.md) identifies two genuinely open STCI followups after that geometry checkpoint: the single-defect nonsaturated degree-\((6,12)\) slice, and an endpoint-four nodal chart of the conditional degree-\((6,16)\) lane. Their exact hypotheses and unresolved global-realization requirements remain explicit. Do not reopen accepted exclusions or treat these candidate experiments as existence/nonexistence results.
+The separate [frontier reconnaissance](#2026-10-25-valuative-frontier-next-experimentsmd) identifies two genuinely open STCI followups after that geometry checkpoint: the single-defect nonsaturated degree-\((6,12)\) slice, and an endpoint-four nodal chart of the conditional degree-\((6,16)\) lane. Their exact hypotheses and unresolved global-realization requirements remain explicit. Do not reopen accepted exclusions or treat these candidate experiments as existence/nonexistence results.
 
 Checkpoint 2 was pushed as d856d78078b75ec78d38c8782b9da3a6f9b1c9ab, with the exact remote ref verified.
 
 ## Checkpoint 3: line absorption and independent smoothing at fixed boundary
 
-The [line degeneration](2026-10-25-ci-cycle-line-degeneration.md) and its [audit](2026-10-25-ci-cycle-line-degeneration-audit.md) certify a residual \(L\cup E\), where \(E\) is smooth geometrically integral of degree eleven and genus twelve. There are five simple \(L\)-\(E\) nodes, seventeen \(C\)-\(E\) attachments, and one \(C\)-\(L\) attachment, with no triple points. The moving ruling-line stratum is \(ab=1\) near the chosen parameter. Each node-smoothing parameter is a unit times \(ab-1\); the order-five assertion concerns their product, not every scheme structure called a discriminant.
+The [line degeneration](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-line-degenerationmd) and its [audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-line-degeneration-auditmd) certify a residual \(L\cup E\), where \(E\) is smooth geometrically integral of degree eleven and genus twelve. There are five simple \(L\)-\(E\) nodes, seventeen \(C\)-\(E\) attachments, and one \(C\)-\(L\) attachment, with no triple points. The moving ruling-line stratum is \(ab=1\) near the chosen parameter. Each node-smoothing parameter is a unit times \(ab-1\); the order-five assertion concerns their product, not every scheme structure called a discriminant.
 
-The [fixed-boundary calculation](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md), its [independent reconstruction](2026-10-25-ci-cycle-fixed-boundary-node-smoothing-audit.md), and the [October 26 final audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md) give affine ranks \(19,5,24\). On the pencil Grassmannian the exact-boundary fiber has dimension fourteen and maps smoothly to the five marked node parameters, with nine further formal coordinates. The formal/étale local existence statement is reviewed; an explicit polynomial coefficient arc is not claimed.
+The [fixed-boundary calculation](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd), its [independent reconstruction](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd), and the [October 26 final audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md) give affine ranks \(19,5,24\). On the pencil Grassmannian the exact-boundary fiber has dimension fourteen and maps smoothly to the five marked node parameters, with nine further formal coordinates. The formal/étale local existence statement is reviewed; an explicit polynomial coefficient arc is not claimed.
 
 These two geometric investigations are complete at their stated exploratory scope. Checkpoint 3 was pushed as 15b1806cc174737806fa4b9e2a57f70eab0de374, with the remote ref verified.
 
@@ -79,7 +79,7 @@ The exact scripts, data, output, geometric bridges, and limitations are saved. A
 
 # Adaptive valuative comparisons with multiples of the quartic
 
-Date: 2026-10-25. **Exploratory continuation of the complete-intersection cycle notebook.** New deductions and proposed comparison principles remain provisional; independent review is recorded in the [valuative audit](2026-10-25-ci-cycle-valuative-audit.md). No general residual-component theorem is claimed.
+Date: 2026-10-25. **Exploratory continuation of the complete-intersection cycle notebook.** New deductions and proposed comparison principles remain provisional; independent review is recorded in the [valuative audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-valuative-auditmd). No general residual-component theorem is claimed.
 
 ## 1. The clarified goal and its quantifiers
 
@@ -145,7 +145,7 @@ This refines an earlier warning in the repository. The ideals
 \]
 have the same integral closure and the same values for every valuation, but colengths four and three. That remains a valid warning for arbitrary ideals. It does not contradict the present statement: the second ideal is not a parameter ideal, and both ideals have multiplicity four. Restricting to the actual two-generator complete-intersection class recovers precisely the numerical invariant needed for the cycle coefficient.
 
-The [generic valuative multiplicity note](2026-10-25-ci-cycle-valuative-multiplicity.md) supplies primary references, field-of-definition qualifications, and the finite-cluster formula. The point is a standard multiplicity theorem applied to this problem; no novelty claim is made for the theorem.
+The [generic valuative multiplicity note](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-multiplicitymd) supplies primary references, field-of-definition qualifications, and the finite-cluster formula. The point is a standard multiplicity theorem applied to this problem; no novelty claim is made for the theorem.
 
 This suggests a substantial change of viewpoint: **generic transverse multiplicity is a valuative quantity on the relevant class**, even though a few scalar values or a fixed coordinate fan can miss it.
 
@@ -248,7 +248,7 @@ For a general nodal \(C\cup D\), it is the sum of the eighteen simple attachment
 
 Thus this valuative divisor continues to make sense in a class where the first-normal boundary no longer does. It is a natural candidate for comparing contact with a multiple of \(C\).
 
-It is not in general the dualizing/conductor boundary. In the local complete intersection of four noncoplanar lines, choose one line as \(C\). The other three lines each contribute one to \(\mathcal B_C\), giving \(3p\); the conductor on the marked normalized line has coefficient two. The [contact-cycle note](2026-10-25-ci-cycle-valuative-contact-cycle.md) calculates this example explicitly. These objects agree for the smooth-surface branch arrangement of \(Z\), but serve different purposes in the broader space-curve problem.
+It is not in general the dualizing/conductor boundary. In the local complete intersection of four noncoplanar lines, choose one line as \(C\). The other three lines each contribute one to \(\mathcal B_C\), giving \(3p\); the conductor on the marked normalized line has coefficient two. The [contact-cycle note](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-contact-cyclemd) calculates this example explicitly. These objects agree for the smooth-surface branch arrangement of \(Z\), but serve different purposes in the broader space-curve problem.
 
 Connectedness also gives
 \[
@@ -308,11 +308,11 @@ The normal-first flag becomes \((1,1)\), and the ordinary point multiplicity bec
 
 These surface calculations require the indicated smooth carrier chart. For the ambient ideal \((X,f)\), a scalar ideal value is \(\min\{v(X),v(f)\}\), which may conceal the interesting part. One should retain the quotient by the actual smooth carrier, the full transformed ideal, or sufficiently refined intersection data. A single minimum is not an intrinsic substitute for all of them.
 
-The [endpoint valuation notebook](2026-10-25-ci-cycle-endpoint-valuations.md) develops these pictures and their scope.
+The [endpoint valuation notebook](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-endpoint-valuationsmd) develops these pictures and their scope.
 
-The [root-collision continuation](2026-10-25-ci-cycle-root-collision-valuations.md) then follows the actual root pencil near its double-\(C\) member over a field above two. It finds two different thresholds: one for how fast a residual sheet approaches the marked sheet, and another for collision within the residual sheets. The first-normal determinant records their total marked separation but misses that second collision. A full tree with residue information resolves the ambiguity.
+The [root-collision continuation](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-root-collision-valuationsmd) then follows the actual root pencil near its double-\(C\) member over a field above two. It finds two different thresholds: one for how fast a residual sheet approaches the marked sheet, and another for collision within the residual sheets. The first-normal determinant records their total marked separation but misses that second collision. A full tree with residue information resolves the ambiguity.
 
-The later [fixed-boundary node experiment](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md) supplies another concrete distinction: all five nodes inside a line-plus-degree-eleven residual curve can be smoothed independently in the formal fixed-boundary fiber, with an étale algebraic local realization. These nodes lie away from \(C\). Their smoothing changes residual normalization genus while the exact attachment divisor on \(C\) stays fixed. This is a verified local deformation picture, not a universal ordering or an explicit polynomial coefficient path.
+The later [fixed-boundary node experiment](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd) supplies another concrete distinction: all five nodes inside a line-plus-degree-eleven residual curve can be smoothed independently in the formal fixed-boundary fiber, with an étale algebraic local realization. These nodes lie away from \(C\). Their smoothing changes residual normalization genus while the exact attachment divisor on \(C\) stays fixed. This is a verified local deformation picture, not a universal ordering or an explicit polynomial coefficient path.
 
 ## 9. How “closest” might guide adaptive certificates
 
@@ -372,7 +372,7 @@ Date: 2026-10-25. Reconnaissance for choosing the next experiment; no canonical 
 
 Retrieval followed [INDEX](../INDEX.md), the relevant portions of [FRONTIER](../FRONTIER.md) and [STATE](../STATE.md), then the records and evidence below. The older intrinsic-geometry pause is a research preference, not mathematical closure; the present continuation is explicitly authorized to consider open STCI items. No quartic-carrier case is reopened.
 
-The new [valuative multiplicity note](2026-10-25-ci-cycle-valuative-multiplicity.md) supplies an exploratory bridge: for an actual proper pair, the generic transverse ideal is a parameter ideal, so its multiplicity is determined by its complete adapted valuation data. The experiments here concern the extra global twisting and actual-generator restrictions that this local computation does not supply.
+The new [valuative multiplicity note](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-multiplicitymd) supplies an exploratory bridge: for an actual proper pair, the generic transverse ideal is a parameter ideal, so its multiplicity is determined by its complete adapted valuation data. The experiments here concern the extra global twisting and actual-generator restrictions that this local computation does not supply.
 
 ## Candidate A: a single nonsaturated first-relation defect in degree (6,12)
 
