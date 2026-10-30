@@ -106,11 +106,11 @@ geometry. The sole retained project normal-bundle premise is
 [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md), in the
 exact scope \(N_{C/H}=\mathcal O(7)^2\) in characteristic zero. Its
 accepted proof is not rerun. The earlier
-[projection note](2026-10-24-quartic-projection-automorphisms.md),
-[symmetric-square note](2026-10-24-quartic-symmetric-square-bitangents.md),
+[projection note](#quartic-projection-automorphisms),
+[symmetric-square note](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md#quartic-symmetric-square-bitangents),
 and their independent audits
-([projection](2026-10-24-quartic-projection-independent-audit.md),
-[symmetric square](2026-10-24-quartic-symmetric-independent-audit.md))
+([projection](#quartic-projection-independent-audit),
+[symmetric square](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md#quartic-symmetric-independent-audit))
 are provisional background. Essential geometric statements needed here
 are reconstructed below, rather than promoted by reference. No
 normalization or STCI classification is a premise.
@@ -347,7 +347,7 @@ a finite normalization map. Moreover \(S\) is nonnormal at its vertex,
 because the embedding of its base \(C\) is not projectively normal.
 The precise factorization through the normal cone and the minimal
 resolution is proved in the separate
-[projection-cone note](2026-10-24-projection-cone-ruled-model.md).
+[projection-cone note](CUBIC_SCROLL_AND_RULED_SURFACES.md#projection-cone-ruled-model).
 The smooth common surface here is \(T\subset B\), not a fictitious
 smooth normalization of the projective cone.
 
@@ -649,7 +649,7 @@ line gives the ruled incidence whose image is the singular cubic
 associated with \((C_4,z)\), and not merely a rational surface later
 compared by a birational map. Its smooth model, conductor, and
 projection from the cubic normal scroll are analyzed in the
-[cubic-scroll note](2026-10-24-cubic-scroll-normalization.md).
+[cubic-scroll note](CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-normalization).
 
 For higher osculating incidences one uses the universal divisors
 \((r+1)p\), their evaluation bundles of rank \(r+1\), and the
@@ -947,10 +947,10 @@ fixed embedded curve
 This note concerns its intrinsic projective geometry. It uses no
 normal-bundle splitting, quartic-carrier exclusion, or STCI obstruction.
 The prior [special-lines note](#2026-10-24-special-lines-planes-research-note),
-Sections 2–4, and its [independent geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
+Sections 2–4, and its [independent geometry audit](#special-lines-planes-geometry-audit)
 supply the calculations to be explained. The arguments needed for the new
 conclusions are reconstructed below, including the endpoint jet drops.
-The [symmetric-square companion](2026-10-24-quartic-symmetric-square-bitangents.md)
+The [symmetric-square companion](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md#quartic-symmetric-square-bitangents)
 and [synthesis](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md)
 explain how the same center controls the bitangent conic. No novelty claim
 is intended.
@@ -1339,7 +1339,7 @@ The [exact verifier](../computations/verify_quartic_automorphisms_bitangents_202
 checks the catalecticant, apolar normalization, Wronskian, group matrices,
 and osculating formulas; its [report](../computations/quartic_automorphisms_bitangents_2026_10_24.json)
 records the finite checks. The
-[independent audit](2026-10-24-quartic-projection-independent-audit.md)
+[independent audit](#quartic-projection-independent-audit)
 reconstructs the group and projection proofs separately.
 Computational identities do not replace the arguments establishing
 completeness of the stabilizer or the projective embedding.
@@ -1391,10 +1391,10 @@ endpoint schemes.
 Retrieval began with [INDEX](../INDEX.md), the requested navigation
 summaries, the [authority policy](../AUTHORITY.md), and the
 [contribution checklist](../CONTRIBUTING_AGENT.md). Relevant retained
-evidence is the [discussion reconciliation](2026-10-24-discussion-reconciliation.md),
+evidence is the [discussion reconciliation](#discussion-reconciliation),
 [dual-incidence derivation](#2026-10-24-special-dual-incidence-derivation),
-[geometry audit](2026-10-24-special-lines-planes-geometry-audit.md), and
-[symmetric-square note](2026-10-24-quartic-symmetric-square-bitangents.md).
+[geometry audit](#special-lines-planes-geometry-audit), and
+[symmetric-square note](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md#quartic-symmetric-square-bitangents).
 Their status remains provisional. The promoted input
 [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md) is used
 only for its stated splitting
@@ -1815,7 +1815,7 @@ in characteristic zero. They do not classify other projection centers,
 identify \(N\) with the marked quadric, determine the entire image
 singular scheme by themselves, or establish an STCI consequence.
 Independent reconstruction is recorded in
-[the conormal audit](2026-10-24-quartic-conormal-independent-audit.md).
+[the conormal audit](#quartic-conormal-independent-audit).
 
 
 
@@ -1859,14 +1859,14 @@ but unpromoted intrinsic $(4,4)$ K3 proposal is not an input, nor are earlier
 proposed bounds on common normal directions. No source branch or acceptance
 note is treated as a substitute for a promoted record.
 
-New evidence consists of the [geometry derivation](2026-10-24-special-lines-geometry-derivation.md),
+New evidence consists of the [geometry derivation](#special-lines-planes-research-note),
 [dual-incidence derivation](#2026-10-24-special-dual-incidence-derivation),
-[section derivation](2026-10-24-special-sections-stci-derivation.md),
-and [independent normal-count review](2026-10-24-osculating-normal-count-review.md).
+[section derivation](#special-lines-planes-research-note),
+and [independent normal-count review](#special-lines-planes-stci-audit).
 These are research evidence, not numbered canonical results. Proofs of the
 new statements are given here. No literature-priority claim is intended.
-The final [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
-and [STCI scope audit](2026-10-24-special-lines-planes-stci-audit.md)
+The final [geometry audit](#special-lines-planes-geometry-audit)
+and [STCI scope audit](#special-lines-planes-stci-audit)
 independently reconstruct the corrected statements. The geometry audit
 found an omitted pair of endpoint-pencil components in the initial dual
 singular-locus description; Section 6 now includes them, and the rejected
