@@ -1,5 +1,12 @@
 # quintic h2 spectral and generator system
 
+## Integration guide: spectral acceleration versus existence
+
+The spectral accelerator, generator equations, and rank conditions are **different presentations of constrained incidence calculations**, conditional on the same quintic h=2 setup. Compare [the monic ODE/open derivation](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md) for the underlying action equations and [the degree-five incidence frontier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md) for the proposed global elimination step. A vanishing determinant, an exact generator identity, or an open-chart incidence computation does not by itself prove that the required homogeneous mate exists or that all residual support disappears. Retain the individual exact certificates and audits.
+
+---
+
+
 Permanent mathematical dossier retaining full computations, coefficient systems, corrected formulas, proof scope and unresolved cases. Source labels below organize mathematics, not provenance authority.
 
 ---
