@@ -564,7 +564,7 @@ Date: 2026-10-09. Auditor: `normal_global_adversarial`. Status:
 This is a bounded proof audit; no canonical frontier documents were edited.
 
 Owner proof:
-[Normalization sectional genus zero](2026-10-09-session-normalization-sectional-genus-zero.md),
+[Normalization sectional genus zero](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md),
 sections 1--6. Accepted earlier inputs are the full inverse-support
 reduction, the all-scroll theorem, the all-Veronese theorem, and the
 local-unit differential lemma. The vanishing and minimal-degree
