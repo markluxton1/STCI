@@ -168,7 +168,7 @@ The universal STCI problem remains open.
 ## 1. Actual sources and the precise antecedents
 
 The owner proof audited is
-[the a=b=0 jet-obstruction proof](2026-10-11-session-quintic-endpoint-a-b-zero-jet-obstruction.md).
+[the a=b=0 jet-obstruction proof](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#1-quintic-endpoint-a-b-zero-jet-obstruction).
 The geometric antecedents were read in the actual saved
 [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 [independent conormal and del Pezzo audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
@@ -341,7 +341,7 @@ frozen antecedent notes or canonical records.
 ## 6. Supporting exact record and source snapshots
 
 The separate
-[coefficient audit](2026-10-11-session-quintic-endpoint-abzero-first-jet-independent-audit.md)
+[coefficient audit](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#3-quintic-endpoint-abzero-first-jet-independent-audit)
 has SHA-256
 `635c7b30c4fae36ad10f7bb0804f5db84c5c242499b3b238b6b5c3408c60e99a`.
 Its new standard-library
