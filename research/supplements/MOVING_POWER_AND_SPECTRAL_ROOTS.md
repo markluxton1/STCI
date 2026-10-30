@@ -167,7 +167,7 @@ Vanishing obstruction groups do not remove that global cost.
 ## 4. The degree-one moving linear branch has an exact zero locus
 
 The new independently derived calculation in
-[the moving linear audit](2026-10-14-moving-linear-quadratic-obstruction-independent-audit.md)
+[the moving linear audit](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 also treats the smallest movement case, where `r=e=1` and
 `Q_1=O(-4)` has nonzero cohomology. Write
 
@@ -201,14 +201,14 @@ not directly exclude an entirely thick presentation having first symbol
 
 Inputs used as accepted premises:
 
-- [Thick equality and moving operator](2026-10-13-generalization-thick-equality-extension.md),
+- [Thick equality and moving operator](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-equality-extensionmd),
   especially Sections 7--8.
-- [Independent movement-gap cost audit](2026-10-14-generalization-moving-relation-gap-cost-independent-audit.md).
-- [Independent constant-relation audit](2026-10-13-generalization-thick-relation-obstruction-independent-audit.md).
+- [Independent movement-gap cost audit](OCT14_CARTIER_LIFTS_AND_MOVING_RELATIONS.md#source-2026-10-14-generalization-moving-relation-gap-cost-independent-auditmd).
+- [Independent constant-relation audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd).
 
 New independent review:
 
-- [Moving linear quadratic obstruction and pure-power quadratic splitting](2026-10-14-moving-linear-quadratic-obstruction-independent-audit.md).
+- [Moving linear quadratic obstruction and pure-power quadratic splitting](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
 - [Completed independent higher-tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
   Its finite-order scope is now accepted; it supplies no global STCI pair.
 
@@ -235,7 +235,7 @@ for the rational quartic is used as a premise. No accepted chart-transition,
 normal-bundle, or constant-direction computation is repeated.
 
 This note audits the proposed generalization of the next-order calculation in
-[the moving linear relation review](2026-10-14-moving-linear-quadratic-obstruction-independent-audit.md).
+[the moving linear relation review](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
 The apolar quotient, the successive gluing obstruction, the vanishing range,
 and the Cohen--Macaulay assertion all pass. The construction supplies embedded
 finite-order thickenings; it does not supply a global carrier or an STCI pair.
