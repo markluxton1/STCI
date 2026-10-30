@@ -1,5 +1,16 @@
 # normal flatness and filtered ci
 
+## Integration guide: what normal flatness actually propagates
+
+The [saturated first-relation theorem](#2026-10-19-filtered-generic-ci-normal-flatness) is conditional on the exact hypotheses recorded there, including the saturated generic initial complete-intersection lane and the fiberwise Hilbert-envelope argument. Its [independent audit](#2026-10-19-filtered-local-normal-flatness-independent-audit) and the nonsaturated failure shield must be retained together.
+
+The [ideal-filtration dossier](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) explains why arbitrary first-order data cannot reconstruct all higher generators. The [Rees residual dossier](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-rees-residual-investigation) exhibits boundary defects that escape generic-algebra budgets, and the [Delta embedding dossier](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-embedding-geometry-report) retains the conormal and specialization distinctions.
+
+Thus the normal-flatness result should be used as a **hypothesis-sensitive propagation lemma**, not as a blanket assertion that every moving normal root is forbidden or that the rational quartic is not STCI. The retained examples identify exactly where saturation or special-fiber control matters.
+
+---
+
+
 Complete mathematical dossier preserving proofs, counterexamples, assumptions, conditional claims and unresolved questions. Source headings below organize the arguments, without promoting results to canonical authority.
 
 ---
