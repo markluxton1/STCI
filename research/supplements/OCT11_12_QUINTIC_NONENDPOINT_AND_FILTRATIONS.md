@@ -1129,8 +1129,8 @@ in the audit. They are not an exhaustion of the general fiber incidence.
 
 **PROVED HERE / independently audited:** the whole subfamily
 G=Jbar=0 is excluded in every mate degree. Root accepts its
-[full-support proof](2026-10-12-session-nonendpoint-GJ-zero-full-support-exclusion.md)
-and [independent geometric/certificate audit](2026-10-12-session-nonendpoint-GJ-zero-full-support-independent-audit.md),
+[full-support proof](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#2-nonendpoint-gj-zero-full-support-exclusion)
+and [independent geometric/certificate audit](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#3-nonendpoint-gj-zero-full-support-independent-audit),
 saved on October 13. The B=0 equal-lift case is covered above. For B!=0,
 actual fibers force one lift parameter and an actual nonzero leading
 coefficient. A complete exceptional-fiber argument then forces a
