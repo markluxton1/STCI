@@ -1110,7 +1110,7 @@ Before interpreting any observed fixed locus as new, compare it with classical s
 
 ## Consolidation status (2026-10-28)
 
-This is retained as detailed historical evidence, not a present quartic-carrier research frontier. The [canonical order-one result](../results/order_one.md) now includes the rank-defect definitions, quadric comparison and finite-jet source model. The [October 7 e=1 rebuild](2026-10-07-e1-jet-rebuild.md) supplies later calculations and explicitly repairs the initially invalid fixed-ruling-line argument. The [complete quartic-carrier exclusion](../results/quartic_carrier_exclusion.md) supersedes historical quartic-mate open cases; the unrestricted higher-degree STCI problem remains open. All exact computational claims here retain their original audit status, without new independent reruns.
+This is retained as detailed historical evidence, not a present quartic-carrier research frontier. The [canonical order-one result](../results/order_one.md) now includes the rank-defect definitions, quadric comparison and finite-jet source model. The [October 7 e=1 rebuild](OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild) supplies later calculations and explicitly repairs the initially invalid fixed-ruling-line argument. The [complete quartic-carrier exclusion](../results/quartic_carrier_exclusion.md) supersedes historical quartic-mate open cases; the unrestricted higher-degree STCI problem remains open. All exact computational claims here retain their original audit status, without new independent reruns.
 
 
 ---
