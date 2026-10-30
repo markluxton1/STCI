@@ -36,7 +36,7 @@ bundles.
 Relevant existing records are P-016 and P-042 in
 [RESEARCH_RECORD](../RESEARCH_RECORD.md),
 [the local multiplicity-six pairing audit](2026-10-05-mf6-pairing-audit.md),
-and [the uniform saturated-filtration audit](2026-10-06-session-uniform-audit.md).
+and [the uniform saturated-filtration audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-uniform-audit).
 The primary source was freshly opened for this audit:
 [Manolache, *Duality for Gorenstein multiple structures on smooth algebraic
 varieties*, 2023](https://imar.ro/journals/Revue_Mathematique/pdfs/2023/1-2/10.pdf),
@@ -557,7 +557,7 @@ in this filter excludes them.
 ## 5. Every pi=1 normalization under a mate has exactly one A4 point
 
 By section 2 M is rational. The adjoint proof in the
-[degree-four del Pezzo reduction](2026-10-09-session-genus-one-delpezzo-reduction.md)
+[degree-four del Pezzo reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
 now applies with `L^2=5`: `K_M.L=-5`, and vanishing and
 Riemann--Roch give one effective divisor `A~K_M+L` with `L.A=0`.
 Every component is sigma-exceptional. Minimality and prime adjunction
