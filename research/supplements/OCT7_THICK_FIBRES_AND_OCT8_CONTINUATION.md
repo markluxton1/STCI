@@ -870,7 +870,7 @@ cross-artifact checks preserved with this audit; it does not follow from
 a generic rank calculation or from a printed `PASS` alone.
 
 The older independent checkpoint
-[`2026-10-07-session-localcoh-independent-audit.md`](2026-10-07-session-localcoh-independent-audit.md)
+[`2026-10-07-session-localcoh-independent-audit.md`](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#independent-audit)
 retained 21 first-family geometric points after the quadratic exception
 was closed. Its first-family exception list is superseded by the Q1, Q3,
 and Q13 certificates and this combined audit. The complete exceptional
@@ -1114,10 +1114,10 @@ preserved in
 [`audit-manifest.json`](../validation/2026-10-08-first-endpoint-audit/audit-manifest.json).
 The original field proofs and their generation/replay routes are
 preserved in the
-[Q1 note](2026-10-07-session-localcoh-q1-exception.md),
-[Q3 note](2026-10-07-session-localcoh-q3-exception.md), and
-[Q13 note](2026-10-07-session-localcoh-q13-exception.md), with Q2 in the
-[independent endpoint audit](2026-10-07-session-localcoh-independent-audit.md).
+[Q1 note](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#q1-exception),
+[Q3 note](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#q3-exception), and
+[Q13 note](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#q13-exception), with Q2 in the
+[independent endpoint audit](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#independent-audit).
 Root's central continuation validation records the full current checker
 replays separately. This additional countercheck concerns parameter
 coverage and source binding; it does not duplicate or substitute for
