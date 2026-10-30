@@ -9,7 +9,7 @@ This subject supplement preserves the full mathematical content of the source in
 
 # Adaptive local witnesses and the valuative contact cycle
 
-Date: 2026-10-25. Status: exploratory continuation of the [adaptive valuative notebook](2026-10-25-ci-cycle-adaptive-valuative-notebook.md), building on the [complete-intersection cycle notebook](2026-10-25-ci-cycle-geometry-notebook.md). Standard local and intersection-theoretic facts are separated from the proposed organizing viewpoint. Nothing here asserts that every characteristic-zero complete intersection containing the fixed quartic has a residual component. The [independent valuative audit](2026-10-25-ci-cycle-valuative-audit.md) reconstructs the local criterion and the four-line counterexample.
+Date: 2026-10-25. Status: exploratory continuation of the [adaptive valuative notebook](CI_CYCLE_ADAPTIVE_FRONTIER.md#2026-10-25-ci-cycle-adaptive-valuative-notebookmd), building on the [complete-intersection cycle notebook](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-geometry-notebookmd). Standard local and intersection-theoretic facts are separated from the proposed organizing viewpoint. Nothing here asserts that every characteristic-zero complete intersection containing the fixed quartic has a residual component. The [independent valuative audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-valuative-auditmd) reconstructs the local criterion and the four-line counterexample.
 
 ## 1. First separate the residual question from its possible witnesses
 
@@ -168,7 +168,7 @@ B_C^{\mathrm{val}}(R_Z)=9p+9q,
 
 and the excess contact is \(6p+6q\). In the generic deformation picture \(C\cup D\) with 18 transverse nodes, each coefficient of both cycles is 1. This offers two complementary ways to compare configurations without asserting a total ordering.
 
-A degree-dependent estimate is available, but it is not a bounded-degree solution. Since the actual fixed-quartic ideal is generated in degrees at most 3, as recorded with the explicit generators in the [deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md), choose a general cubic through \(C\) avoiding all components of \(R\). On every normalized residual component its divisor has degree \(3\deg D\) and dominates \(T_D\). Hence
+A degree-dependent estimate is available, but it is not a bounded-degree solution. Since the actual fixed-quartic ideal is generated in degrees at most 3, as recorded with the explicit generators in the [deformation laboratory](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-deformation-laboratorymd), choose a general cubic through \(C\) avoiding all components of \(R\). On every normalized residual component its divisor has degree \(3\deg D\) and dominates \(T_D\). Hence
 
 \[
 0\le\deg M_C(W)\le\deg B_C^{\mathrm{val}}(R)\le3\deg R
@@ -270,7 +270,7 @@ F=x_1^4-x_0^3x_3,\quad G=x_2^4-x_0x_3^3,
 \quad Z=V(F,G).
 \]
 
-The prescribed decomposition and its characteristic-two coalescence are the promoted input [STCI-R-0021](../results/quartic_mu4_degeneration.md), with its [source calculation](2026-10-23-quartic-characteristic-conormal.md). This note uses that geometry without reopening its verification. The actual partial-splitting family below is developed in [the deformation laboratory](2026-10-25-ci-cycle-deformation-laboratory.md), Section 4. The accompanying [conductor/topology note](2026-10-25-ci-cycle-conductor-topology.md) supplies the genus ledger.
+The prescribed decomposition and its characteristic-two coalescence are the promoted input [STCI-R-0021](../results/quartic_mu4_degeneration.md), with its [source calculation](2026-10-23-quartic-characteristic-conormal.md). This note uses that geometry without reopening its verification. The actual partial-splitting family below is developed in [the deformation laboratory](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-deformation-laboratorymd), Section 4. The accompanying [conductor/topology note](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd) supplies the genus ledger.
 
 ## 1. First distinguish the centers of the valuations
 
@@ -353,7 +353,7 @@ f=u^{12}\,Y_3\prod_{\zeta\ne1}(Y_3-c_\zeta).
 
 The strict branches now meet the last exceptional curve at four distinct points: the marked direction \(0\), and the three residual directions \(c_\zeta\). The exceptional valuation has \(v(f)=12\). The pairwise contact order three has become a chain of three common infinitely near points, followed by separation.
 
-This gives a concrete decorated contact tree. Before separation all four branches share the path; after separation their positions on the exceptional \(\mathbf P^1\) carry extra information such as a cross-ratio. The weight fan records the break at three but does not record that cross-ratio. One must retain the initial polynomial at the wall, or the four marked points on the exceptional curve. The [root-pencil note](2026-10-25-ci-cycle-root-pencil.md) develops the corresponding elliptic modulus.
+This gives a concrete decorated contact tree. Before separation all four branches share the path; after separation their positions on the exceptional \(\mathbf P^1\) carry extra information such as a cross-ratio. The weight fan records the break at three but does not record that cross-ratio. One must retain the initial polynomial at the wall, or the four marked points on the exceptional curve. The [root-pencil note](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-root-pencilmd) develops the corresponding elliptic modulus.
 
 Thus even the full piecewise-linear function (2) is not a complete contact invariant. A useful adaptive object is a tree of valuations together with residue polynomials at the vertices where branches separate.
 
@@ -529,7 +529,7 @@ No endpoint profile here has been promoted to an all-pairs extremality principle
 
 # Adaptive valuations and the multiplicity spent on the marked curve
 
-Date: 2026-10-25. Exploratory extension of the [complete-intersection-cycle notebook](2026-10-25-ci-cycle-geometry-notebook.md).
+Date: 2026-10-25. Exploratory extension of the [complete-intersection-cycle notebook](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-geometry-notebookmd).
 
 **Question and status.** The curve is the fixed smooth rational quartic
 \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3_k\), in characteristic zero. Let \(W=V(F_a,G_b)\) be any proper hypersurface intersection with \(C\subset W_{\mathrm{red}}\). Proper means that the equations have no common surface component. The guiding question is whether valuations adapted to the actual pair can expose a positive residual cycle. The valuation or finite valuation data may depend on \(W\). The distinguished \((4,4)\) intersection is a reference configuration, not a restriction on \((a,b)\).
@@ -789,7 +789,7 @@ The local conclusion is substantial but carefully bounded: **complete adaptive a
 
 Date: 2026-10-25. **Exploratory continuation, not canonically promoted.**
 This is a selective calculation in the actual fixed-\(C\) pencil from
-[the root-pencil note](2026-10-25-ci-cycle-root-pencil.md). It explores a
+[the root-pencil note](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-root-pencilmd). It explores a
 valuative picture of proximity and uses no accepted STCI obstruction.
 The established mixed-characteristic reference configuration is exactly
 [STCI-R-0021](../results/quartic_mu4_degeneration.md); its proof is not rerun.
