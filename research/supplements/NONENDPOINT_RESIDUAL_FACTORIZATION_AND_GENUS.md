@@ -407,7 +407,7 @@ family, no bound on descending powers and no higher-contact upper bound is
 proved here. No new CAS execution is claimed for this audit.
 
 The audited owner note is
-[nonendpoint residual factor and genus reduction](2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md),
+[nonendpoint residual factor and genus reduction](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#1-nonendpoint-residual-factor-and-genus-reduction),
 SHA-256
 `d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44`.
 This version includes its section 4a, the eight one-parameter necessary
@@ -1064,7 +1064,7 @@ We work over an algebraically closed field of characteristic zero, with
 Here `J` is the parameter denoted `Jbar` in the conormal note; it is not
 the conormal cubic. The actual source, projection-center avoidance and
 finite-target equations are those of the
-[target-fiber reduction](2026-10-12-session-nonendpoint-target-fiber-reduction-and-bounded-exclusions.md).
+[target-fiber reduction](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions).
 The corrected cubics and their two-chart interpretation come from the
 [conormal reduction](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md).
 All common-root interpretations below require the stated actual center
