@@ -278,7 +278,7 @@ its equations, or proving it empty, remains a new problem; finite
 determinacy does not itself settle that geometry. On the specified
 three-dimensional torsion-two intersection component through the seed,
 the separately reviewed
-[torsion/second-zero argument](2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry.md)
+[torsion/second-zero argument](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry)
 bounds the support of the second zero locus, and hence of the stable
 formal locus, by dimension two. Other components are retained.
 
@@ -289,8 +289,8 @@ equations with the required support. The universal STCI problem and
 unrestricted `C0` remain open. No commit or memory update was made.
 
 Independent reviews of the new theorem are recorded in
-[the all-order cohomology audit](2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit.md)
-and [the relative functor/noetherian audit](2026-10-15-generalization-uniform-root-tower-functor-independent-audit.md).
+[the all-order cohomology audit](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit)
+and [the relative functor/noetherian audit](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-functor-independent-audit).
 The latter includes arbitrary nonreduced parameter bases, equation units,
 scheme-theoretic stabilization, and the regular locally principal formal
 inverse limit. Neither review asserts algebraization.
@@ -311,9 +311,9 @@ their audits, and actual-CI bridge are premises and were not rechecked.
 No old verifier or degree enumeration was run.
 
 Reviewed proposal:
-[uniform root-tower finite determinacy](2026-10-15-generalization-uniform-root-tower-finite-determinacy.md).
+[uniform root-tower finite determinacy](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-finite-determinacy).
 The separate
-[all-order cohomology audit](2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit.md)
+[all-order cohomology audit](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit)
 supplies the stated vanishing, ranks, and coefficient twists. This note
 checks the conceptual bridge from those bundles to the asserted scheme
 and formal lifting functor.
@@ -574,7 +574,7 @@ to a separate conceptual reviewer. No accepted chart computation,
 first-incidence verifier, or second-obstruction verifier was rerun.
 
 Reviewed proposal:
-[uniform root-tower finite determinacy](2026-10-15-generalization-uniform-root-tower-finite-determinacy.md).
+[uniform root-tower finite determinacy](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-finite-determinacy).
 The accepted first and second obstruction calculations are premises;
 this review concerns the new all-order structural input.
 
@@ -812,8 +812,8 @@ conclusion. No commit or memory update was made.
 
 Date: 2026-10-15. Author: `formal_algebraization_route`.
 Status: **ARBITRARY-CHARACTERISTIC BRIDGE; independent review passed** in
-the [full new-scope audit](2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md),
-with a separate [generic local-algebra review](2026-10-15-generalization-inseparable-root-blowup-local-algebra-review.md).
+the [full new-scope audit](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit),
+with a separate [generic local-algebra review](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-local-algebra-review).
 The accepted characteristic-zero bridge is a premise. This note proves
 the new extension to arbitrary characteristic by replacing its single
 root-splitting step with uncompleted local algebra over `K=k(C)`.
@@ -1037,7 +1037,7 @@ units and all points retained.
 
 ## 6. Consequence for the characteristic-free smooth-root cutoff
 
-The [characteristic-scope addendum](2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+The [characteristic-scope addendum](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 already proves the formal smooth movement-two nonexistence theorem
 and its finite empty smooth-root stage in every characteristic under
 the explicit normal-bundle hypothesis. The present new proof supplies
@@ -1078,11 +1078,11 @@ the conormal splitting, actual Cartier lifts through the claimed stages,
 and the conditional finite-gap consequence in arbitrary characteristic.
 
 Reviewed source:
-[inseparable-root blowup bridge](2026-10-15-generalization-inseparable-root-blowup-bridge.md).
+[inseparable-root blowup bridge](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge).
 The accepted characteristic-zero bridge and the
-[characteristic-free formal/tower addendum](2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+[characteristic-free formal/tower addendum](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 are premises. The separate
-[generic local-algebra review](2026-10-15-generalization-inseparable-root-blowup-local-algebra-review.md)
+[generic local-algebra review](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-local-algebra-review)
 passes the standard-basis and root-prime steps. This full new-scope
 audit checks their use in the global extension, the new wild family,
 and the obstruction/lift consequences. No accepted computation,
@@ -1311,7 +1311,7 @@ it does not reaudit the accepted characteristic-zero bridge, replay a
 certificate, or certify the separate formal nonexistence theorem.
 
 Reviewed source:
-[the inseparable-root bridge owner note](2026-10-15-generalization-inseparable-root-blowup-bridge.md).
+[the inseparable-root bridge owner note](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge).
 
 ## 1. The generator change is valid in the uncompleted ring
 
