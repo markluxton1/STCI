@@ -1103,7 +1103,7 @@ Established inputs, with their exact scopes:
 - Normal splitting and characteristic jump: [P-009 in the research record](../RESEARCH_RECORD.md#p-009-characteristic-jump-in-the-normal-bundle-of-c_0)
   and [its exact transition check](../computations/verify_normal_bundle.py).
 - Embedded characteristic-two charts and multiplication:
-  [the R0012 structure evidence](2026-10-20-z4-local-structure.md).
+  [the R0012 structure evidence](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-20-z4-local-structuremd).
 - Prescribed arithmetic nonlifting: [R0012](../results/prescribed_z4_arithmetic_nonlifting.md),
   [its proof](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-quartic-obstruction), and
   [independent audit](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-lift-independent-audit).
