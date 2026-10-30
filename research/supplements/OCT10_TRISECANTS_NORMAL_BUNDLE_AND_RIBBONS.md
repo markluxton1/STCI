@@ -358,7 +358,7 @@ No canonical frontier file was edited by this lane.
 
 The controlling records inspected were the current
 [literature ledger](../LITERATURE_LEDGER.md), the
-[October 6 source audit](2026-10-06-session-literature-refresh.md), the
+[October 6 source audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-literature-refresh), the
 [positive-characteristic proof audit](2026-10-06-positive-characteristic-literature-audit.md),
 and both October 10 acceptance records, including the
 [resumed continuation acceptance](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-continuation-results-acceptancemd).
