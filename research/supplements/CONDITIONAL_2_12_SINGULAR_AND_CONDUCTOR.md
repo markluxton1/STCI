@@ -34,7 +34,7 @@ and its `diagonal_arithmetic` worker, with verdict PASS.
 Retain precisely the characteristic-zero curve, actual-CI, full generic
 coprime `(2,12)` initial ideal and saturated movement-two relation
 hypotheses in
-[the singular-root bridge note](2026-10-20-conditional-2-12-singular-gluing.md).
+[the singular-root bridge note](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
 The current task investigates the necessary structured incidence, not
 unrestricted homogeneous equations. The inherited universal first
 incidence and complete second test are the promoted
@@ -292,7 +292,7 @@ relation of movement two. The promoted inputs are
 and the universal first/second operators in
 [R-0007](../results/quadratic_root_obstruction_model.md).
 The finite singular-root bridge remains the reviewed proposal in
-[the singular-root note](2026-10-20-conditional-2-12-singular-gluing.md).
+[the singular-root note](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
 
 This continuation additionally uses the independently reviewed
 **actual-pair** norm identity from
@@ -844,7 +844,7 @@ algebraically closed field of characteristic zero. The promoted inputs are
 [R-0010](../results/saturated_first_relation_normal_flatness.md) and
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md); the finite
 singular-root bridge remains the reviewed, unpromoted dependency in
-[the singular-gluing proposal](2026-10-20-conditional-2-12-singular-gluing.md).
+[the singular-gluing proposal](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
 
 Put `B=Bl_C0(P3)`, `L=3H-E`, and `Q'=2H-E=L-H`. The strict sextic is
 `D in |2L|`, and `K_D=Q'|D`. In this note **D is assumed integral**. At a root
