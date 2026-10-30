@@ -308,7 +308,7 @@ STRUCTURAL REDUCTION; independent review passed** in the
 This uses the
 accepted [Cartier-lift classification](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit),
 [full conductor theorem](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-conductor-theoremmd),
-and [transverse differential theorem](2026-10-14-generalization-transverse-socle-independent-audit.md)
+and [transverse differential theorem](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-transverse-socle-independent-audit)
 as premises. None of their certificates is rerun. The result below
 reduces residual function-field torsion to projective intersection
 data and finitely many leading coefficients. It does not eliminate
@@ -1137,7 +1137,7 @@ would have to couple the extra common curves to the actual
 hyperplane multiplicity, global canonical/conductor divisor, or
 prescribed C0 parametrization.
 
-The separately written [transverse differential/socle theorem](2026-10-14-generalization-transverse-differential-socle-bound.md)
+The separately written [transverse differential/socle theorem](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-transverse-differential-socle-bound)
 already supplies one global coupling: on a generically regular
 carrier, every surviving projection requires a nonzero common-zero
 divisor of the transverse differential, with bounded degree five
