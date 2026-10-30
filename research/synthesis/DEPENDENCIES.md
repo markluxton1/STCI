@@ -1,5 +1,18 @@
 # Dependency and interface map
 
+## Principal research routes — explicit missing arrows
+
+The following are **programs**, not chains of proved implications. Each arrow requires an independently established bridge involving actual global homogeneous equations.
+
+| Route | Available starting point | Missing implication | Required deliverable |
+| --- | --- | --- | --- |
+| Global determinant | Conditional lower-layer/socle and embedded one-step tests | Admissible lower embedding and extension data -> actual equation modules -> **proper decomposable** determinant-zero pair | Prove existence or uniform nonexistence of such a pair in the relevant source spaces; do not infer decomposability from a nonzero kernel |
+| Uniform residual jets | R-0019 and R-0023–R-0025, fixed examples and fixed-carrier bounds | Fixed-carrier jet restrictions -> control over all relevant carriers and exceptional strata | A uniform positive residual-degree bound for actual proper homogeneous pairs |
+| Conductor descent | R-0002–R-0004, R-0017, R-0034–R-0036 | Necessary normalization models -> actual higher-degree carriers -> full conductor and descent of sections | Computed admissible families and full conductor-unit descent, including non-Cartier/multiple-branch limitations |
+
+A necessary condition is not sufficient; a conditional reduction is not an unconditional theorem; computational certificates cover only their stated inputs. Valuations, characteristic specialization and marked contact geometry supply potential interfaces but no established universal arrow to STCI nonexistence.
+
+
 This map records **logical dependence** separately from **conceptual contact**. For exact hypotheses and audit links, consult the individual result records.
 
 ## Established dependencies
