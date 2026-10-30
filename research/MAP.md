@@ -10,6 +10,8 @@ For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is
 
 For a compact list of specific unresolved implications, see the [open-question locator](questions/README.md). It is navigation, not an additional authority layer.
 
+The three principal research programs are summarized in the [current frontier](FRONTIER.md), with their unproved arrows identified in the [dependency map](synthesis/DEPENDENCIES.md). None is presently a general STCI equivalence.
+
 ## Approaches and their missing bridges
 
 | Approach | What the records provide | Main unresolved bridge |
