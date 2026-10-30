@@ -16,7 +16,7 @@ without retesting accepted chart or conormal statements.
 
 ## 1. The hierarchy detects geometry that both first tests permit
 
-The [universal quadratic incidence note](2026-10-14-generalization-quadratic-root-universal-incidence.md)
+The [universal quadratic incidence note](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd)
 constructs the actual first obstruction scheme `K`, proves it is smooth
 of dimension four at the seed
 
