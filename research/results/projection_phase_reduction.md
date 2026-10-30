@@ -58,3 +58,7 @@ The three Cartier singleton models from [STCI-R-0002](cartier_singleton_lift.md)
 ## Limitations
 
 The torsion set and mate locus need not be constructible. The actual C0 projection-family phase images, torsion cosets, and admissible parameters remain uncomputed. This reduction does not address non-Cartier or multiple inverse lifts and does not settle the unrestricted STCI problem.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/04-carriers.md). The original evidence identities and theorem scope remain unchanged.
