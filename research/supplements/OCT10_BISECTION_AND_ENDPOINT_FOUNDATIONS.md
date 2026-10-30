@@ -42,7 +42,7 @@ the independently accepted results:
 
 ## Genus one: complete argument, final acceptance integration pending
 
-The [remaining-partitions proof](2026-10-09-session-ribbon-repeated-partitions-complete.md)
+The [remaining-partitions proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md)
 covers `[4]`, `[3,1]`, and `[2,2]`, including coefficient and direction
 boundaries. The earlier squarefree and `[2,1,1]` arguments complete the
 five partitions of the four conductor-contact zeros. The proof retains
@@ -88,7 +88,7 @@ retains BOTH possibilities
     (lambda,q)=(1,3):  c#^2=1, f.c#=1.
 
 The claim that only `q=4` survives was corrected and must not be reused.
-The newly saved [marking and section pause audit](2026-10-10-session-genus-two-marking-and-section-pause-audit.md)
+The newly saved [marking and section pause audit](GENUS_TWO_MARKING_AND_SECTION_PROOF.md)
 accepts the owner's remaining ruled/plane marking sections, while retaining
 the exceptional-graph obligations. In particular, internal chain
 attachments and satellite blowups invalidate proposed simple arm-budget
@@ -833,7 +833,7 @@ the universal projective-curve STCI problem.
 
 ## 2. Full inverse support must precede the divisor class relation
 
-The [nonrational-normalization independent proof](2026-10-09-session-nonrational-normalization-independent-audit.md)
+The [nonrational-normalization independent proof](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
 and its referenced automatic generic-regularity argument apply to an
 integral nonnormal quartic containing any smooth rational degree-four
 curve. Sectional genus one implies that the quartic is nonnormal: a
@@ -877,7 +877,7 @@ before any class, double-curve, or power-descent assertion is made.
 
 ## 3. Rationality, ADE reduction, and the actual order-two double
 
-The [accepted rationality proof](2026-10-09-session-nonrational-normalization-independent-audit.md)
+The [accepted rationality proof](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
 needs no mate. Its multiplicity bound `0<=m_i<=a` is proved at every
 successive blowup, including infinitely near centers. The ruled-surface
 identity contradicts the degree-four rational curve whenever the
@@ -1015,7 +1015,7 @@ that every isolated rank-one point must be singular on `S`.
 
 ## 6. Cartier double, full ribbon net, and all direction charts
 
-The [independent ribbon-net proof](2026-10-09-session-genus-one-ribbon-net-independent-audit.md)
+The [independent ribbon-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md)
 has precisely the three inputs established above: the normal
 two-quadric `S`, embedded smooth rational normal `c`, and `Q` with
 entire divisor `2c`. Its local proof applies at every point of `c`,
@@ -1080,7 +1080,7 @@ would force these two degree-four forms to be proportional. Their
 middle coefficients contradict that. This uniformly excludes the
 partition `[1,1,1,1]`.
 
-The [complete [2,1,1] proof](2026-10-09-session-ribbon-211-projection-independent-audit.md)
+The [complete [2,1,1] proof](GENUS_ONE_211_PROJECTION_PROOF.md)
 then uses the exact three-dimensional derivative space. The direction
 chart `eta0!=0` and its reversal cover every direction except
 `(0,1,0)`, which is explicitly treated. On the main chart the three
@@ -1114,7 +1114,7 @@ The first two are excluded by section 7. The other three are the
 explicit scope of the independently assigned remaining-partition
 audit. Its required conclusion must cover every derivative-invisible
 quadric coefficient and direction boundary, not just an example
-pencil or a numerical root. The [owner's completed reconstruction](2026-10-09-session-ribbon-repeated-partitions-complete.md)
+pencil or a numerical root. The [owner's completed reconstruction](GENUS_ONE_RIBBON_PARTITION_PROOFS.md)
 states such coverage, and the root's separate `[4]` and bounded
 `[2,2]` arguments support two parts; their mathematical acceptance
 is being handled outside the present interface task.
