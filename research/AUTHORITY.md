@@ -2,7 +2,7 @@
 
 **Consolidated hierarchy:** [Canonical results](results/INDEX.md) and their evidence govern theorem scope; [synthesis chapters](synthesis/README.md) provide exposition; [dependency navigation](synthesis/DEPENDENCIES.md) identifies proved arrows and missing bridges; [state](STATE.md), [frontier](FRONTIER.md), and [topic map](MAP.md) guide readers but do not promote claims. A chapter must not broaden the hypotheses of a result record.
 
-This policy defines the intended **post-migration** authority model. It does not retroactively certify or change any mathematical statement.
+This policy defines the current consolidated authority model. It does not retroactively certify or change any mathematical statement.
 
 ## Levels
 
