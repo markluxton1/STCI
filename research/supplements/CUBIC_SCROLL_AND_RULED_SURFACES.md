@@ -449,7 +449,7 @@ them and records the limits of the identifications.
 | IV: common quartic cone, four sections, intersection schemes | [Four-section ruled surface](#four-sheet-ruled-surface) |
 | IV: group schemes, orbit images, arithmetic normalization, contact comparison | [Arithmetic](#ruled-surfaces-arithmetic) |
 | V: actual elementary transformations and the degree-two base change | [Independent comparison](#ruled-comparison-independent-audit) |
-| Independent reconstruction of I–III | [Central-model audit](2026-10-24-p4-ruled-models-independent-audit.md) |
+| Independent reconstruction of I–III | [Central-model audit](CUBIC_SCROLL_AND_RULED_SURFACES.md#p4-ruled-models-independent-audit) |
 | Independent reconstruction of IV | [Four-section and arithmetic audit](#four-sheet-arithmetic-independent-audit) |
 | Literature and priority limits | [Source check](#2026-10-24-ruled-surfaces-literature) |
 
@@ -812,7 +812,7 @@ carrier case.
 
 # The paired-secant cubic: smooth scroll upstairs, conductor downstairs
 
-Date: 2026-10-24. Status: **independently reviewed provisional research with proofs; not canonical promotion**. See the [independent ruled-model audit](2026-10-24-p4-ruled-models-independent-audit.md).
+Date: 2026-10-24. Status: **independently reviewed provisional research with proofs; not canonical promotion**. See the [independent ruled-model audit](CUBIC_SCROLL_AND_RULED_SURFACES.md#p4-ruled-models-independent-audit).
 
 Throughout Sections 1–8, \(k\) is algebraically closed of characteristic zero. We study
 \[
@@ -1031,7 +1031,7 @@ In fact, in characteristic two the same smooth scroll \(\Sigma\) is the tangent 
 
 All normalization, conductor, divisor, and common-\(\mathbf P^4\) claims above are supplied with direct proofs. Dependencies are elementary projective-bundle intersection theory, finite birational normalization, the quadric multiplication calculation, and the length-two secant incidence; no canonical STCI theorem is invoked. The earlier provisional notes motivated the paired-secant family but did not establish the new normalization or schematic inverse-image assertions by authority.
 
-The [independent ruled-model audit](2026-10-24-p4-ruled-models-independent-audit.md) reconstructed the conductor at the two ramification points, the embedded defects in (5.3), the same-center embedding (3.1), the double-cover base change, and the characteristic-two tangent-developable description; its substantive mathematical verdict is clean. The relation between this degree-two base change and elementary transformations of the other marked ruled surfaces is treated comparatively, rather than asserted here. A full arithmetic comparison with the \(\mu_4\) orbit family requires the separate arithmetic note; coincidence of characteristic two alone is insufficient. No new STCI result is proposed or promoted.
+The [independent ruled-model audit](CUBIC_SCROLL_AND_RULED_SURFACES.md#p4-ruled-models-independent-audit) reconstructed the conductor at the two ramification points, the embedded defects in (5.3), the same-center embedding (3.1), the double-cover base change, and the characteristic-two tangent-developable description; its substantive mathematical verdict is clean. The relation between this degree-two base change and elementary transformations of the other marked ruled surfaces is treated comparatively, rather than asserted here. A full arithmetic comparison with the \(\mu_4\) orbit family requires the separate arithmetic note; coincidence of characteristic two alone is insufficient. No new STCI result is proposed or promoted.
 
 
 
@@ -1786,7 +1786,7 @@ rational quartics or all cubic scroll projections. It has no STCI conclusion.
 We retain the independently reviewed construction of the smooth finite
 normalization from the [merged cubic-scroll note](#cubic-scroll-normalization),
 Sections 2–5, and its
-[independent audit](2026-10-24-p4-ruled-models-independent-audit.md), Section 3.
+[independent audit](CUBIC_SCROLL_AND_RULED_SURFACES.md#p4-ruled-models-independent-audit), Section 3.
 We do not rerun that normalization proof. In its notation,
 
 \[
