@@ -26,7 +26,7 @@ EXCLUSIONS; independent new-proof audits recorded below.**
 Accepted input, not recomputed: the fixed characteristic-zero curve
 `C0=[s^4:s^3t:st^3:t^4]` has no integral carrier of degree at most four
 with a mate of any positive degree. The
-[Cartier-ray theorem](2026-10-13-generalization-conductor-theorem.md)
+[Cartier-ray theorem](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-conductor-theoremmd)
 is also an accepted input for this continuation. No claim is made
 that all normal carrier classes have now been excluded.
 
@@ -483,7 +483,7 @@ arithmetic script ran successfully and checked precisely the rows
 displayed above. These audits concern new deductions, not a rerun
 of accepted low-degree exclusions. The auxiliary proof records are
 [normal cyclic-cover torsion detection](2026-10-14-normal-cyclic-cover-torsion-detection.md)
-and [primary Picard/local-torsion inputs](2026-10-14-normal-carrier-picard-local-torsion-primary.md).
+and [primary Picard/local-torsion inputs](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd).
 
 The remaining normal-carrier target is now sharp: show that the
 specific class `Delta_0` cannot be torsion with the required local
