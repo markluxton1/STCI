@@ -11,8 +11,8 @@ for a hypothetical genus-one quartic mate, in characteristic zero.
 It does not yet exclude the partitions [4], [3,1], or [2,2].
 No canonical frontier file is edited.
 
-Inputs are the [independent ribbon-net proof](2026-10-09-session-genus-one-ribbon-net-independent-audit.md)
-and the [uniform actual-coordinate fiber conditions](2026-10-09-session-genus-one-uniform-projection-adversarial.md).
+Inputs are the [independent ribbon-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md)
+and the [uniform actual-coordinate fiber conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md).
 The ribbon-net proof was read in this audit; its local Cohen--Macaulay
 ribbon argument and direct conormal-kernel calculation supply a uniform
 net, rather than an assumption that either toric family is exhaustive.
