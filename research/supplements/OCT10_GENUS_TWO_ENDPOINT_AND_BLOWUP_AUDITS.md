@@ -149,7 +149,7 @@ Its proper transform through the four node blowups is an effective
 integral anticanonical divisor on M and remains a smooth genus-one
 curve. The actual ambient conic model supplies an effective divisor
 `D_M=-K_M`, pulled back from the entire conductor. The
-[unique-anticanonical-section argument](2026-10-10-session-genus-two-conductor-line-position.md)
+[unique-anticanonical-section argument](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#15-genus-two-conductor-line-positions-on-the-fixed-quartic)
 would identify D_M with this irreducible genus-one curve. To check that
 argument directly, tensor the basepoint-free f-pencil sequence by -K.
 An effective section of `-K-f` would write `L=2f+T` and impose a
@@ -1036,7 +1036,7 @@ The audited sources are the
 the [local triple ADE calculation](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-endpoint-local-ade-correction-auditmd),
 and the [double-horizontal calculation](#source-2026-10-10-session-genus-two-endpoint-double-horizontal-independent-auditmd).
 The older
-[irreducible-residual note](2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md)
+[irreducible-residual note](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#4-endpoint-trisecant-why-the-full-family-is-necessary)
 was read but is not used as an exhaustion certificate: it covers only one
 residual stratum. The entire quartic family is supplied by section 2 of
 the [carrier ideal proof](GENUS_TWO_TRISECANT_CARRIER_PROOF.md).
@@ -1902,7 +1902,7 @@ Assume a mate exists in the lambda-one stratum. Then `f.c#=1` and
     K_M.Z=1,       Z.E=-c#.E for every exceptional prime E.
 
 The accepted
-[no-zero-horizontal audit](2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md)
+[no-zero-horizontal audit](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#19-genus-two-marked-section-case)
 forces the special horizontal prime
 
     B=e0-e_i-e_j,       B^2=-3,       f.B=1,       c#.B=0.
