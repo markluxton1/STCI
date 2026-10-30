@@ -176,7 +176,7 @@ The equality persists under characteristic-zero coefficient-field extension. Thi
 
 ## Every proper degree-sixteen pair on this carrier has residual degree at least eight
 
-The [nonsplit-node scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md) independently reconstructs the needed local lemma. The generic quadratic normal term of \(F_*\) is
+The [nonsplit-node scope audit](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-26-endpoint4-nonsplit-node-scope-audit) independently reconstructs the needed local lemma. The generic quadratic normal term of \(F_*\) is
 
 \[
 z^8\bigl((1+z^2)u^2-z^2v^2/4\bigr).
