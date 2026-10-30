@@ -20,7 +20,7 @@ No full common-root incidence exhaustion or global STCI result is claimed.
 All older sources and notes remain unchanged.
 
 Use the finite common-root parameters and exact coefficients of the
-[Taylor incidence note](2026-10-13-session-nonendpoint-single-root-taylor-incidence.md):
+[Taylor incidence note](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence):
 
     F(q+t)=t(u0+u1 t+...+u7 t^7),
     kappa=aq+B, Pc=q^2-6q+6.
@@ -105,7 +105,7 @@ Work over an algebraically closed field of characteristic zero. Retain
 `delta!=0`, the actual center-avoidance condition and finite birational
 projection hypotheses of the audited model. Let `q!=0` be a finite
 common conormal root, and impose the complete solutions `G=Gs,J=Js`
-from the [Taylor incidence note](2026-10-13-session-nonendpoint-single-root-taylor-incidence.md):
+from the [Taylor incidence note](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence):
 
     Gs=-(6B+delta^2-3delta)q-(3a-3B+2delta)q^2+2aq^3,
     2Js=-Gs(1+3q)-(6B+5delta^2-3delta)q
@@ -244,7 +244,7 @@ When P6 vanishes, (8) still supplies the first relation in (9).
 The quotient proof never divides by P6 or Aq. It permits that actual
 double/triple diagonal fiber before using the conductor section.
 
-The separate [exact double-root calculation](2026-10-13-session-nonendpoint-regular-l1-double-root.md)
+The separate [exact double-root calculation](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-regular-l1-double-root)
 substitutes (9) into the actual conductor restriction and proves
 
     F(q+t)=u1 t^2+terms of degree at least three,
