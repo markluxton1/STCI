@@ -1764,17 +1764,13 @@ The cubic-scroll model is linked naturally by a degree-two base change and split
 
 The author notes retain the proofs and full normalization/conductor information for the [projection cone](2026-10-24-projection-cone-ruled-model.md), [cubic scroll](2026-10-24-cubic-scroll-normalization.md), and [four-sheet surface](2026-10-24-four-sheet-ruled-surface.md). Their independent central-model and arithmetic audits are separate from this comparison audit. These are new provisional research contributions, with no change to canonical results, no STCI implication, and no novelty claim.
 
-## 6. Final source comparison
+## 6. Distinct marked ruled models
 
-After the reconstruction, the reviewer compared Sections 4 and 6 of the four-sheet note and Section 7 of the cubic-scroll note with these calculations. Their graph-pencil blowups, marked Q-to-F₄ chain, and F₂ base change agree with the independent local coordinate constructions and intersection numbers above. No discrepancy was found in those final comparison claims. The separate projective hyperplane classes and the differing marked F₀ and F₂ models have been retained explicitly in this audit to prevent an abstract-surface identification from being mistaken for an identification of the geometric constructions.
+The graph-pencil elementary transforms, the marked \(Q\)-to-\(\mathbb F_4\) chain and the \(\mathbb F_2\) base change agree with the explicit bundle-coordinate and intersection calculations above. These constructions must retain their **different rulings, hyperplane classes, and marked curves**: an abstract isomorphism of ruled surfaces does not identify their embeddings or the given marked curve.
 
-## 7. Synthesis review
+## 7. Map and normalization qualifications
 
-The reviewer also checked Sections 3–5 and 7 of the [synthesis](#2026-10-24-p4-ruled-surfaces-synthesis), including the table's marked bisection and hyperplane classes, both elementary-transform bridges, and the rank-two subbundle splittings. The displayed divisor, intersection, and bundle calculations agree with the independent reconstruction. The reviewer requested four presentation precisions: distinguish the contraction F₄→T from the subsequent finite projections; identify the auxiliary section of the quadric chain intrinsically as the chosen endpoint tangent trisecant; specify that the parameter normalizations in this package are P¹ when invoking bundle splitting; and refer to the pulled-back marked bisection rather than an unspecified full inverse-image quartic. These requests do not alter any calculated class or map. The completed synthesis was reread after all four precisions were incorporated. Its revised wording correctly distinguishes these objects and hypotheses. No remaining discrepancy is identified in the reviewed synthesis claims.
-
-
-
----
+The contraction \(\mathbb F_4\to T\) precedes the finite projections and is not itself one of them. The auxiliary section in the quadric elementary-transform chain is the chosen endpoint tangent trisecant. The parameter normalizations used for the splitting statements are \(\mathbf P^1\). Under base change, the object compared is the **pulled-back marked bisection**, not an unspecified entire inverse-image quartic. The divisor and rank-two bundle calculations retain these hypotheses.
 
 ## cubic-scroll-gauss-dual
 
@@ -3344,12 +3340,7 @@ tangent plane, despite the full three-component dual intersection.
 
 ## Audit boundary
 
-No counterexample or omitted boundary remains in the stated scope.
-The material addition to the initial proposal was the saturation
-distinction in (6) and the two embedded points of the singular scheme.
-This audit covers no arbitrary cubic-scroll projection, positive
-characteristic theorem, separate \(C^\vee\)-intersection calculation,
-or STCI implication.
+The saturated homogeneous gradient ideal is needed to retain the two embedded points of the cubic's singular scheme. The reviewed computation does not extend to arbitrary cubic-scroll projections, positive-characteristic duality, separate intersections with \(C^\vee\), or an STCI conclusion.
 
 ## Follow-up audit: flag restriction and characteristic two
 
@@ -3707,49 +3698,11 @@ section. It is not a proved coordinate-free identification for an
 unordered endpoint pair. That broader formulation remains open in
 the author's stated questions.
 
-## 7. Final outcome and remaining scope
+## 7. Marked elementary transforms and scope
 
-No mathematical discrepancy remains in the reviewed final central
-identifications, conductor, divisor classes, endpoint schemes,
-normalization assertions, or marked weight-three specialization
-construction. The initial endpoint-label reversal in a reviewer
-message was corrected; the distinction between total orbit image and
-individual endpoint orbit was requested during review and is present
-in the final draft. The global conductor and embedded inverse-image
-correction were independently checked rather than inferred from the
-normalization's reduced support.
+The marked \(Q\)-to-\(\mathbb F_4\) bridge has four elementary transforms. With \(C:A=u^3\) on \(\mathbb F_0\), the first three centers lie on the evolving marked curve and the fourth does not; its self-intersection sequence is \(6,5,4,3,4\), and the classes are \(E_j+3f\) for \(0\le j\le3\), then \(E_4+4f\). The conductor and full inverse-image scheme cannot be inferred from reduced support alone. The construction depends on the chosen endpoint ordering and does not identify projective hyperplane classes.
 
-The four elementary transformations in the surface note's final
-quadric bridge were also checked: with \(C:A=u^3\) on
-\(\mathbb F_0\), the first three centers on the evolving negative
-section lie on \(C\), while the fourth does not. Its squares are
-\(6,5,4,3,4\), and its classes become \(E_j+3f\) for
-\(0\le j\le3\), then \(E_4+4f\). This verifies the marked bridge
-without identifying projective hyperplane classes or pretending it
-is invariant under exchanging endpoints.
+## 8. Nonreduced arithmetic special fiber
 
-This audit certifies only the arguments for the specified geometric
-and arithmetic configurations. It is not a novelty assessment,
-canonical theorem promotion, or change to the STCI frontier.
-
-## 8. Final synthesis comparison
-
-The final [package synthesis](#2026-10-24-p4-ruled-surfaces-synthesis),
-Section 3's row for \(X=V(F)\) and Section 6's four-section and
-arithmetic comparison, was read against the reviewed source notes.
-The \(\mathbb F_4\) model, hyperplane and curve classes, conductor,
-full inverse-image correction, endpoint intersections, orbit-image
-distinction and weight-three comparison agree with the audited
-arguments above. One wording correction was requested and then
-confirmed in the revised Section 6: the special fiber of the total
-normalization is now displayed explicitly as two reduced projective
-lines and one projective line over \(k[\epsilon]/(\epsilon^2)\).
-The text correctly distinguishes its three reduced support components
-from the nonreduced third connected component. The added splitting-DVR
-intersection formula was also reread and agrees with Section 4 of this
-audit, including the stated adjacent and opposite root valuations and
-the need to retain the vertical component. No discrepancy remains in
-these revised synthesis passages. The review does not assert an
-additional audit of the synthesis's separate cubic-scroll arithmetic
-paragraph.
+The special fiber of the **total normalization** consists of two reduced projective lines and one projective line over \(k[\epsilon]/(\epsilon^2)\). It therefore has three reduced support components, but the third connected component is nonreduced. The splitting-DVR intersection formula retains both adjacent/opposite root valuations and the vertical component; discarding that component changes the arithmetic comparison. These are statements about the specified weight-three degeneration, not a general STCI obstruction.
 
