@@ -148,8 +148,8 @@ Accepted new inputs and reductions are:
   at most two. On h2, H misses A4, so the sextic Q cannot be supported only
   at A4. Hence every remaining candidate, for either value of j, satisfies
   `Res(H,Q)=0`.
-- The [twelve-generator ideal-sheaf reduction](2026-10-15-generalization-quintic-h2-twelve-generator-support-system.md)
-  and [independent audit](2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit.md).
+- The [twelve-generator ideal-sheaf reduction](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-twelve-generator-support-system)
+  and [independent audit](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit).
   On the monic finite-H chart and `D(q5) union D(q6)`, eleven fixed cubic
   minors plus one retained-j minor define exactly the same ideal sheaf
   as all seventy-seven original rank minors. This includes nonreduced
@@ -163,9 +163,9 @@ boundaries remain open.
 
 ## 2. A uniform formal first-relation frontier
 
-Accepted: [the uniform tower theorem](2026-10-15-generalization-uniform-root-tower-finite-determinacy.md),
-[cohomology review](2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit.md)
-and [embedded-ideal functor review](2026-10-15-generalization-uniform-root-tower-functor-independent-audit.md).
+Accepted: [the uniform tower theorem](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-finite-determinacy),
+[cohomology review](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit)
+and [embedded-ideal functor review](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-functor-independent-audit).
 For a fixed balanced rational formal neighborhood, `lambda>3epsilon`
 makes every correction unique. All obstruction stages therefore remain
 closed schemes on one fixed finite-type coefficient open and eventually
@@ -178,8 +178,8 @@ Within the accepted actual-CI bridge, only stages `m<s-r` are supplied.
 Thus `s>r+N` forces the stable formal locus. Without a further theorem,
 this is neither algebraization nor emptiness of that locus.
 
-The [torsion/second-zero geometry](2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry.md)
-and [independent audit](2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit.md)
+The [torsion/second-zero geometry](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry)
+and [independent audit](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit)
 are also accepted. On smooth `(2,2)` roots, exact order-two ruling
 difference is the cubic coefficient determinant. Its specified component
 D through the accepted seed is three-dimensional; the second zero locus
@@ -188,8 +188,8 @@ orders are retained.
 
 ## 3. All mate powers in fixed projection families
 
-Accepted: [the full phase-space/torsion-coset theorem](2026-10-15-generalization-projection-torsion-coset-reduction.md)
-and [independent family review](2026-10-15-generalization-projection-torsion-coset-independent-review.md).
+Accepted: [the full phase-space/torsion-coset theorem](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-reduction)
+and [independent family review](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review).
 After finite stratification, the actual fixed normalization families have
 one finite-type torus phase image, retaining full inverse support and all
 nilpotent conductor equations. Relative Noether normalization is spread
@@ -212,14 +212,14 @@ singular along C, not just the generically regular lane.
 
 ## 4. A new all-order geometric exclusion
 
-The [smooth movement-two formal nonexistence theorem](2026-10-15-generalization-smooth-root-formal-nonexistence.md)
+The [smooth movement-two formal nonexistence theorem](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence)
 uses ample-normal formal algebraization as a branch, then a ruled model
 near the unchanged root curve and an opposing plane-section genus bound.
 It addresses every `r>=2` simultaneously for balanced rational degree-e
 curves with `e>=4`. The focused
 [branch/ruled-model review](#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd)
 passes its conditional steps. The full
-[independent source-hypothesis and global audit](2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
+[independent source-hypothesis and global audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
 now passes the theorem, general numerical criterion, and the finite-r
 corollary. The image surface would have degree `d<=r+2` but also
 `(d-1)(d-2)>=e r(r-1)`, which is impossible for e>=4,r>=2.
@@ -435,8 +435,8 @@ model assembly or completed verification was rerun by this audit.
 Date: 2026-10-16. Reviewer: `phase_family_audit`.
 Status: **PASS for the precise explicit rational fixed-model input below.**
 
-Reviewed only [Section 9 of the effective phase-bound note](2026-10-15-generalization-effective-rational-phase-bound.md)
-and [Section 8 of its independent review](2026-10-15-generalization-effective-rational-phase-bound-independent-review.md),
+Reviewed only [Section 9 of the effective phase-bound note](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound)
+and [Section 8 of its independent review](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound-independent-review),
 including the newly added admissibility paragraph. The accepted finite-phase
 theorem and explicit-`W` Mann/SNF/boundary theorem are premises; their proofs
 were not replayed. No actual phase image, CAS computation, or family decision
@@ -952,7 +952,7 @@ between `D1` and `D2`.
 The accepted blowup conventions and the branch normalization, resolution,
 multiplicity, and plane-genus mechanisms are recorded in
 [STCI-R-0005](../results/smooth_root_formal_obstruction.md) and its
-[independent source audit](2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md),
+[independent source audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit),
 especially Sections 1--3 and 5--6. They are used within their stated scope;
 the accepted smooth-root exclusion itself is not replayed. The new points
 checked here are the self-intersection of a component of a reducible root,
@@ -1167,7 +1167,7 @@ Let `r>=2`, and let `Z` be a **reduced effective Cartier divisor** of class
 is **regular along all of `Z`**. Then such a lift does not exist.
 
 The promoted input [STCI-R-0005](../results/smooth_root_formal_obstruction.md)
-concerns a smooth full root; its [accepted independent audit](2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
+concerns a smooth full root; its [accepted independent audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
 supplies the algebraic branch, ruled-model degree, and plane-section
 arguments used as premises here. This review checks their new interface
 with a singular root and supplies the new smoothing argument. It does
