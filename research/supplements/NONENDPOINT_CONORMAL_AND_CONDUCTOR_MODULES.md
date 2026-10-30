@@ -99,7 +99,7 @@ curvilinear. The saturated finite-flat Gorenstein pairing gives
 
 Here D_(m-1) is effective. This is the same direct algebraic argument
 as the [multiplicity-ten audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
-and [uniform order-one bound](2026-10-06-uniform-order-one-frontier.md).
+and [uniform order-one bound](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-uniform-order-one-frontier).
 For primary-source context the Gorenstein duality and its quasiprimitive
 BF specialization were freshly inspected in
 [Manolache, 2023, pp.143-145](https://imar.ro/journals/Revue_Mathematique/pdfs/2023/1-2/10.pdf).
