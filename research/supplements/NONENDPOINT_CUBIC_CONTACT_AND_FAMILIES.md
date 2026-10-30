@@ -189,7 +189,7 @@ Repeated T gives the same formula with the coincident finite linear
 form raised to the sixth power; it must be tested separately, rather
 than silently removed by division by u-v. The complete exact
 classification and smoothness filter are recorded in the
-[separate sparse-heptic companion](2026-10-12-session-sparse-heptic-cubic-pair-classification.md).
+[separate sparse-heptic companion](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-sparse-heptic-cubic-pair-classificationmd).
 
 ## 4. Matching both source factors eliminates the modulus from one equation
 
