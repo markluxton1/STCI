@@ -951,7 +951,7 @@ Vahap Erdoğdu,
 [*Radically finite rings and space curves*](https://arxiv.org/abs/2209.04489),
 still shows only v1, submitted **September 9, 2022**. Its abstract
 claims a negative conclusion about space curves. The exact October 6
-[unique-maximal/unique-prime countercheck](2026-10-06-session-literature-refresh.md)
+[unique-maximal/unique-prime countercheck](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-literature-refresh)
 remains controlling; no revised version or primary corrected proof was
 located. The invalid argument is not an established resolution of the
 user's projective algebraically closed problem.
@@ -1865,10 +1865,10 @@ it never asks for inherited mathematics to be reverified.
 | Genus-one quintic nonendpoint, homogeneous gcd degree zero | **ACCEPTED** all-mate exclusion for every admissible coprime corrected conormal pair | Closed. Both `Jbar!=0` local-isomorphism and `Jbar=0` full conductor-phase alternatives are accepted |
 | Nonendpoint `G=Jbar=0`; entire-line rank-one; equal lifts | **ACCEPTED** stated entire subfamilies have no mate in any degree | Closed within exact scopes; entire-line power exclusion need not prove SUP failure |
 | Nonendpoint residual partitions `2+2+2`, `2+4` | **ACCEPTED** exhaustive no-mate results, retaining repeated primes, all target endpoint/degree-drop strata and actual higher jets | Closed |
-| Nonendpoint residual partition `3+3` | **COMPLETED INDEPENDENT AUDIT** [full October 13 audit](2026-10-13-session-nonendpoint-cubic-pair-full-independent-audit.md): entire all-mate exclusion, including a doubled residual cubic | Closed after root acceptance. SUP fails by the contact argument only when `Jbar!=0`; at `Jbar=0`, use separate all-power obstruction |
+| Nonendpoint residual partition `3+3` | **COMPLETED INDEPENDENT AUDIT** [full October 13 audit](NONENDPOINT_CUBIC_PAIR_COMPLETION.md#2026-10-13-session-nonendpoint-cubic-pair-full-independent-audit): entire all-mate exclusion, including a doubled residual cubic | Closed after root acceptance. SUP fails by the contact argument only when `Jbar!=0`; at `Jbar=0`, use separate all-power obstruction |
 | Nonendpoint integral residual | **ACCEPTED REDUCTION**: arithmetic genus one source, birational target arithmetic genus three, exact excess contact length eight, including affine singular source cases | Complete support/higher-contact/conductor incidence remains open; exact total excess does not bound individual contact |
 | Actual conductor quadric and binary octic | **ACCEPTED** whole conductor ideal upstairs, nonzero homogeneous degree-eight restriction, all pivot/rank alternatives; mate requires `Fdet | (H P^epsilon)^8` | This is necessary, not sufficient for full inverse support or actual power descent |
-| Nonendpoint homogeneous gcd degree two/three | **COMPLETED INDEPENDENT ALGEBRA AUDIT** [rank and complete cover](2026-10-13-session-nonendpoint-homogeneous-gcd-rank-and-cover-independent-audit.md) | Cover classifies corrected first symbols only. Actual centers, higher contacts and conductor descent remain separate |
+| Nonendpoint homogeneous gcd degree two/three | **COMPLETED INDEPENDENT ALGEBRA AUDIT** [rank and complete cover](NONENDPOINT_CUBIC_PAIR_COMPLETION.md#2026-10-13-session-nonendpoint-homogeneous-gcd-rank-and-cover-independent-audit) | Cover classifies corrected first symbols only. Actual centers, higher contacts and conductor descent remain separate |
 | Nonendpoint sole-common-root Taylor incidence | **NEW EXACT / REVIEW PENDING** eight Taylor coefficients; target-zero simple conductor zero; actual quotient-fiber L1/L2 separation | Review only the new incidence/branch proof and its connection to sole-root support; singular denominator charts and L2 remain active |
 | Regular L1 rational branch | **NEW EXACT / REVIEW PENDING** [exact double-root identity](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md) with retained factors `q(q-1)(q-2)(q^2-6q+6)!=0` | Its all-mate consequence also needs the quotient-fiber necessity of the rational family and a sole-common-root hypothesis |
 | Nonendpoint h3 zero-P/zero-J charts | **NEW EXACT / REVIEW PENDING** actual cubic-times-quintic conductor factorization, original remainder-coefficient Bezout product one and homogeneous chart reversal | New written geometric proof/review required; recorded exact package is under `2026-10-13-h3-zero-chart-conductor-new/` |
@@ -1882,7 +1882,7 @@ it never asks for inherited mathematics to be reverified.
 | Entirely thick pairs | **ACCEPTED** first blowup cycle/Noether budget and failure shields; **NEW OWNER THEOREM / REVIEW PENDING** all-normal-layer socle budget | No uniform degree/Loewy bound or entirely-thick exclusion; equality filtered deformation and positive-defect generation remain active |
 | General single-field conductor power compression | **NEW OWNER THEOREM / REVIEW PENDING** characteristic-zero full Artinian membership compresses to field degree, then global surface descent | Primitive Cartier section degree and uncontrolled split phases are not supplied by this theorem |
 | Smooth-normalization singleton rational lane, every carrier degree | **NEW THEOREM / COMPLETED INDEPENDENT AUDIT** [all-degree classification](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd) forces a minimal-degree polarized `(S,c)`; fixed C0 has only higher models `a=8,P1xP1,H=(2,2),c=(1,1)` and `a=16,P2,H=4h,c=line` | Actual projections and full conductor descent remain open. Smooth normalization and singleton isomorphic lift are hypotheses, not guaranteed properties of a minimum carrier |
-| Cartier-normalization-lift singleton rational lane, every carrier degree | **NEW EXTENSION / COMPLETED INDEPENDENT AUDIT** [singular extension](2026-10-14-generalization-cartier-lift-independent-audit.md) permits exactly one extra fixed-C0 model: degree-eight quadric-cone normalization, c a Cartier conic, H=2c | Three actual projection targets remain; non-Cartier lifts and several or nonisomorphic inverse curves remain outside |
+| Cartier-normalization-lift singleton rational lane, every carrier degree | **NEW EXTENSION / COMPLETED INDEPENDENT AUDIT** [singular extension](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit) permits exactly one extra fixed-C0 model: degree-eight quadric-cone normalization, c a Cartier conic, H=2c | Three actual projection targets remain; non-Cartier lifts and several or nonisomorphic inverse curves remain outside |
 | Cartier curve downstairs on an integral carrier, every characteristic | **NEW COROLLARY / INDEPENDENTLY DERIVED IN THE EXTENSION AUDIT** forces normal X, `a divides d^2`, `2g-2=d^2/a+(a-4)d`, and `a<4+(2g-2)/d` | Every smooth rational d>=3 is non-Cartier downstairs on every mate-admitting integral carrier; this does not exclude Cartier lifts upstairs on nonnormal X |
 
 The h3 current-work status above incorporates the owning continuation lane's
@@ -1899,7 +1899,7 @@ The following changes are status reconciliation, not new proof obligations:
    `SUCCESSOR_HANDOFF_2026-10-07.md`, and section 5 of the October 12
    acceptance still call the frozen `3+3` proof under review. The completed
    October 13 full independent audit supersedes that label.
-2. The standalone [scope qualification](2026-10-13-session-cubic-pair-theorem-scope-qualification.md)
+2. The standalone [scope qualification](NONENDPOINT_CUBIC_PAIR_COMPLETION.md#2026-10-13-session-cubic-pair-theorem-scope-qualification)
    still says its independent audit is pending. Its correction was explicitly
    incorporated in the full audit. Preserve frozen owner/proof bytes and
    retain the qualified theorem; only continuation labels should change.
@@ -2022,8 +2022,8 @@ The reusable content of the accepted proofs is stronger than a collection
 of degree exclusions. It is the combination of full inverse-image
 support, a positive Cartier divisor on a ray in the normalization class
 group, and descent through the entire conductor. The recovered thick
-notes [normalization/APic bridge](../validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-apic-conductor-bridge.md)
-and [generic normalization filter](../validation/2026-10-13-evening-branch-inventory/remote-snapshots/research_entirely-thick-rees-valuation/research/notes/2026-10-07-thick-generic-normalization-filter.md)
+notes [normalization/APic bridge](OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-apic-conductor-bridgemd)
+and [generic normalization filter](OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-generic-normalization-filtermd)
 already preserve this organization and its unproved coverage boundary.
 The new theorem below classifies an entire normalization lane in every
 carrier degree.
