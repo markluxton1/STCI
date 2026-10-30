@@ -315,7 +315,7 @@ only through the actual finite projection and the accepted isomorphism
 of each source cubic to a smooth target cubic.
 
 The complete affine heptic and its division by the actual T are in the
-[cubic-contact companion](2026-10-12-session-nonendpoint-cubic-contact-symbolics.md).
+[cubic-contact companion](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#2-nonendpoint-cubic-contact-symbolics).
 The finite coefficient classification is in the separate sparse-heptic
 companion linked above. The integral residual, conic-plus-quartic,
 other quintic normalization lanes, higher carriers, and the unrestricted
@@ -847,7 +847,7 @@ essential hypotheses. This does not exclude the other six conic-plus-quartic
 families, the integral residual or cubic-pair cases, all quintic carriers,
 or C0 in unrestricted degree.
 
-The frozen [owner proof](2026-10-12-session-nonendpoint-type1-two-family-exclusion.md)
+The frozen [owner proof](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#3-nonendpoint-type1-two-family-exclusion)
 was read and checked at SHA-256
 `447f4d68991b862b33005ba6b60a73595a21d3d177f54a61e922b5a0605561ed`.
 No owner, canonical, earlier audit or seal-bound file was edited.
@@ -1054,7 +1054,7 @@ Status: **DIRECT ALL-MATE EXCLUSION WITH EXACT SUPPORTING COMPUTATIONS;
 INDEPENDENT PROOF AUDIT OUTSTANDING**. This is a new owner note. It closes
 exactly the six Type2/Type3 families in section 4a of the frozen
 [residual factor and genus reduction](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md).
-Together with the separate [Type1 exclusion](2026-10-12-session-nonendpoint-type1-two-family-exclusion.md),
+Together with the separate [Type1 exclusion](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#3-nonendpoint-type1-two-family-exclusion),
 it excludes all eight conic-plus-quartic families, conditional on the
 independent audit of the new proofs. The integral residual and cubic-pair
 residual lanes remain separate obligations. No frozen owner, canonical,
@@ -1342,13 +1342,13 @@ Date: 2026-10-12. Auditor: `oct12_type1_two_family_audit`.
 
 Status: **PASS: independently reconstructed all-mate exclusion for the two
 Type 2 and four Type 3 branches.** Together with the separate
-[Type 1 independent audit](2026-10-12-session-nonendpoint-type1-two-family-independent-audit.md),
+[Type 1 independent audit](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#4-nonendpoint-type1-two-family-independent-audit),
 this excludes the entire residual partition 2+4 in the accepted nonendpoint
 genus-one quintic family. The integral and cubic-pair residual cases, other
 quintic normalizations and higher-degree carriers remain outside this result.
 The fixed C0 and the universal STCI problem remain open.
 
-The frozen [owner proof](2026-10-12-session-nonendpoint-type23-six-family-exclusion.md)
+The frozen [owner proof](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#5-nonendpoint-type23-six-family-exclusion)
 was read at SHA-256
 `11c13ba7201b84e02cf1a2ab1d6b42d8cf5fbcbaf15b51e95d5c75c65f7de48d`.
 No owner, canonical or old seal-bound file was changed. The audit is separate
