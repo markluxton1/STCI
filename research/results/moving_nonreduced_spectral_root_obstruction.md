@@ -36,3 +36,7 @@ The geometric lemma is injectivity of Pic(P1 x P1) -> Pic(2D) for any effective 
 Writing g=gcd(epsilon,r), each irreducible component has class t_i(epsilon/g,r/g), with positive t_i summing to g. For epsilon=2, the only possibilities are an integral reduced (2,r) divisor, or (if r is even) two distinct smooth rational (1,r/2) components. This is a necessary restriction, not a sufficient criterion for descent.
 
 STCI-R-0008 provides the abstract graded Picard-descent interface. STCI-R-0010 supplies the bridge for **actual** lci thickenings under its separate saturated-first-relation and full generic-CI hypotheses. Neither theorem implies that every actual STCI has those hypotheses.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original evidence identities and theorem scope remain unchanged.
