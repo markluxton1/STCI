@@ -36,7 +36,7 @@ E_3=L^3(D)=\mathcal O(-18),\quad \deg D=3-3e.
 \]
 Here degrees are on the normalization \(C\simeq\mathbf P^1\), with ambient \(\mathcal O_C(4)=\mathcal O(16)\). Effectivity leaves e=1,D=0 or e=0,deg D=3. The common fixed divisor of the actual first normal symbols is exactly D, and the moving pencil has degree \(6+2e\).
 
-At primitive points the exact ambient local ideal is \((m,\ell^4)\). At a defect of multiplicity d it is \((x^2,y^2-t^d x)\). These are derived from rank-four multiplication, not from a classification of surface singularities. The primitive moving-zero calculation gives a general carrier equation \(uv-t^4\). At a defect, the parametric Morse calculation gives \(uv-t^{2d}\). Only exponents 2,4,6 occur. Bertini gives smoothness outside C. These conclusions, including arbitrary local coefficient functions, are proved in the preserved [local-algebra note](2026-10-23-intrinsic-quadruple-local-algebra.md).
+At primitive points the exact ambient local ideal is \((m,\ell^4)\). At a defect of multiplicity d it is \((x^2,y^2-t^d x)\). These are derived from rank-four multiplication, not from a classification of surface singularities. The primitive moving-zero calculation gives a general carrier equation \(uv-t^4\). At a defect, the parametric Morse calculation gives \(uv-t^{2d}\). Only exponents 2,4,6 occur. Bertini gives smoothness outside C. These conclusions, including arbitrary local coefficient functions, are proved in the preserved [local-algebra note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebra).
 
 ## 3. Direct blowups and a classification-free surface bound
 
@@ -128,7 +128,7 @@ There is a sharper negative control for a proof using only the two residual (3,1
 F=x_1^4-x_0^3x_3,\quad G=x_2^4-x_0x_3^3,
 \quad q=x_0x_3-x_1x_2.
 \]
-For the actual triple example from the [preceding note](2026-10-26-44-multiplicity-three-forces.md), take \(12r^2+4r+3=0\) and put
+For the actual triple example from the [preceding note](#44-multiplicity-three-forces), take \(12r^2+4r+3=0\) and put
 \[
 a=r+3/2,\quad b=r+1/2,\quad
 c=1/6-r,\quad d=r-7/6.
@@ -141,7 +141,7 @@ Hence their restricted pencils on Q are identical up to nonzero basis scalars. N
 
 ## 6. The exact C-neighborhood target
 
-The existing [intrinsic cubic-contact construction](2026-10-23-intrinsic-cubic-contact-construction.md) formulates a genuinely marked-neighborhood obstruction. For a quasiprimitive triple T with ideal J define
+The existing [intrinsic cubic-contact construction](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-construction) formulates a genuinely marked-neighborhood obstruction. For a quasiprimitive triple T with ideal J define
 \[
 \mathcal M_T=(J/I_CJ)/\mathrm{torsion}.
 \]
@@ -179,11 +179,11 @@ The direct-resolution reformulation is complete and avoids the classification of
 
 # Independent audit: what multiplicity at least three forces in (4,4)
 
-Date: 2026-10-26. Reviewer: independent `triple_classification` agent. Reviewed document: [multiplicity-three deductions](2026-10-26-44-multiplicity-three-forces.md). **Outcome: the stated deductions pass independent reconstruction at their stated scopes. No canonical promotion.**
+Date: 2026-10-26. Reviewer: independent `triple_classification` agent. Reviewed document: [multiplicity-three deductions](#44-multiplicity-three-forces). **Outcome: the stated deductions pass independent reconstruction at their stated scopes. No canonical promotion.**
 
 ## Scope and accepted premises
 
-The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal promoted statements of [R0001](../results/quartic_carrier_exclusion.md), [R0020](../results/quartic_conormal_characteristic_jump.md), and [R0022](../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](2026-10-26-44-degeneration-genus-budgets.md) and the accepted source-level conjugate pencil in the [filtered proof](2026-10-23-quartic-44-filtered-proof-proposal.md) were consulted at their recorded scope.
+The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal promoted statements of [R0001](../results/quartic_carrier_exclusion.md), [R0020](../results/quartic_conormal_characteristic_jump.md), and [R0022](../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](#44-degeneration-genus-budgets) and the accepted source-level conjugate pencil in the [filtered proof](2026-10-23-quartic-44-filtered-proof-proposal.md) were consulted at their recorded scope.
 
 The reviewer independently derived the conjugate example's factorization and branch geometry before reading the new verifier. The [new script](../computations/verify_44_triple_residual_example_2026_10_26.py) was inspected as finite polynomial evidence. Its successful execution is recorded separately in the linked validation directory; the audit does not equate execution with a global proof.
 
@@ -241,7 +241,7 @@ No substantive mathematical correction is required. The attained maximum, forced
 
 # What multiplicity at least three forces in a (4,4) intersection
 
-Date: 2026-10-26. Status: new deductions and explicit residual calculation, independently reviewed in the [audit](2026-10-26-44-multiplicity-three-forces-audit.md); no canonical promotion.
+Date: 2026-10-26. Status: new deductions and explicit residual calculation, independently reviewed in the [audit](#44-multiplicity-three-forces-audit); no canonical promotion.
 
 ## 1. Exact question, inputs, and answer
 
@@ -265,7 +265,7 @@ Promoted premises, used without rerunning their proofs:
 - [R0001](../results/quartic_carrier_exclusion.md): no integral quartic carrier through this C admits any homogeneous mate with sole support C.
 - [R0020](../results/quartic_conormal_characteristic_jump.md): \(N^*_{C/\mathbf P^3}=\mathcal O_{\mathbf P^1}(-7)^2\).
 
-The elementary identity \(H^0(\mathcal I_C^2(4))=kq^2\), for \(q=x_0x_3-x_1x_2\), and the new [smooth-carrier lemma](2026-10-26-44-degeneration-genus-budgets.md) are already independently reviewed. The displayed conjugate pencils below are inherited accepted source-level evidence from [October 7, section 4](2026-10-07-session-mf6-e1-independent-audit.md) and [the October 23 filtered proof](2026-10-23-quartic-44-filtered-proof-proposal.md). Their residual factorization and geometric interpretation are the new calculation here. No exhaustiveness assertion from the multiplicity-four classification is transferred to arbitrary multiplicity-three pairs.
+The elementary identity \(H^0(\mathcal I_C^2(4))=kq^2\), for \(q=x_0x_3-x_1x_2\), and the new [smooth-carrier lemma](#44-degeneration-genus-budgets) are already independently reviewed. The displayed conjugate pencils below are inherited accepted source-level evidence from [October 7, section 4](2026-10-07-session-mf6-e1-independent-audit.md) and [the October 23 filtered proof](2026-10-23-quartic-44-filtered-proof-proposal.md). Their residual factorization and geometric interpretation are the new calculation here. No exhaustiveness assertion from the multiplicity-four classification is transferred to arbitrary multiplicity-three pairs.
 
 ## 2. Exactly triple, with a real degree-four residual
 
@@ -424,7 +424,7 @@ The independent review reconstructs the new deductions, checks the explicit glob
 
 ## 9. An independent route to the multiplicity-four bound
 
-The use of R0022 in section 2 can be replaced by the existing, independently audited [October 23 K3 proof](2026-10-23-intrinsic-44-k3-proof-proposal.md), with its [independent audit](2026-10-23-intrinsic-44-k3-independent-audit.md) and [rank-four local algebra](2026-10-23-intrinsic-quadruple-local-algebra.md). That proof is explanatory evidence, not a promoted canonical result. It is the multiplicity-four analogue of the moving-A2 argument above and uses neither R0001 nor R0022.
+The use of R0022 in section 2 can be replaced by the existing, independently audited [October 23 K3 proof](2026-10-23-intrinsic-44-k3-proof-proposal.md), with its [independent audit](2026-10-23-intrinsic-44-k3-independent-audit.md) and [rank-four local algebra](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebra). That proof is explanatory evidence, not a promoted canonical result. It is the multiplicity-four analogue of the moving-A2 argument above and uses neither R0001 nor R0022.
 
 Under hypothetical multiplicity four, purity and degree give sole support C. The smooth-quadric calculation excludes any order-two quartic member, so the generic transverse algebra is curvilinear of length four. Saturated Gorenstein duality gives
 \[
@@ -452,7 +452,7 @@ This replaces the R0022 input for the maximum-multiplicity assertion. The all-me
 
 # Independent audit: curve-centered proof routes for multiplicity four
 
-Date: 2026-10-26. Reviewer: independent `intrinsic_intersection_route` agent. Reviewed document: [proof routes and negative controls](2026-10-26-44-intrinsic-proof-routes.md). **Outcome: the stated direct-resolution reformulation and negative controls pass independent reconstruction at their stated scopes. No canonical promotion.**
+Date: 2026-10-26. Reviewer: independent `intrinsic_intersection_route` agent. Reviewed document: [proof routes and negative controls](#44-intrinsic-proof-routes). **Outcome: the stated direct-resolution reformulation and negative controls pass independent reconstruction at their stated scopes. No canonical promotion.**
 
 ## Scope and retained premises
 
@@ -497,7 +497,7 @@ The coefficients b,c are nonzero for the stated quadratic equation on r. Thus th
 
 ## Neighborhood target and normal-bundle condition
 
-The determinant target and its degree-four/degree-six alternatives are retained at the exact scope of the [intrinsic cubic-contact construction](2026-10-23-intrinsic-cubic-contact-construction.md). The source correctly calls classification-free nonvanishing for actual quartic sources an unresolved sufficient statement. The abstract rank-one source examples demonstrate why the line-bundle degrees alone do not prove it.
+The determinant target and its degree-four/degree-six alternatives are retained at the exact scope of the [intrinsic cubic-contact construction](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-construction). The source correctly calls classification-free nonvanishing for actual quartic sources an unresolved sufficient statement. The abstract rank-one source examples demonstrate why the line-bundle degrees alone do not prove it.
 
 For the primitive e=1 branch, the blowup normal degrees reconstruct as follows. The first selected normal line has degree six inside \(N_C=\mathcal O(7)^2\). The successive normal sequences have degrees (2,6), (-4,6), and finally (-10,6). The transformed quartic line bundle has successive degrees 10,4,-2 on the successive center curves. After three blowups, actual generation of the reduced remaining center ideal by two such sections would give its conormal bundle \(\mathcal O(2)^2\), equivalently normal bundle \(\mathcal O(-2)^2\).
 
@@ -515,7 +515,7 @@ No substantive mathematical correction was required. The direct blowup calculati
 
 # Degenerating a (4,4) curve: cycles, gluing, and nilpotent genus
 
-Date: 2026-10-26. Status: exploratory synthesis and new elementary deductions; independent review is recorded in the [audit](2026-10-26-44-degeneration-genus-budgets-audit.md). No canonical promotion.
+Date: 2026-10-26. Status: exploratory synthesis and new elementary deductions; independent review is recorded in the [audit](#44-degeneration-genus-budgets-audit). No canonical promotion.
 
 ## 1. Question and scope
 
@@ -746,7 +746,7 @@ All new product examples, genus allocations, nilpotent calculations, and the smo
 
 # Independent audit: (4,4) degeneration and genus budgets
 
-Date: 2026-10-26. Reviewer: independent `genus_topology` agent. Reviewed document: [degeneration and genus budgets](2026-10-26-44-degeneration-genus-budgets.md). **Outcome: the stated elementary deductions pass independent reconstruction at the scopes below. This is an evidence audit, with no canonical promotion.**
+Date: 2026-10-26. Reviewer: independent `genus_topology` agent. Reviewed document: [degeneration and genus budgets](#44-degeneration-genus-budgets). **Outcome: the stated elementary deductions pass independent reconstruction at the scopes below. This is an evidence audit, with no canonical promotion.**
 
 ## Scope and inputs
 
@@ -819,7 +819,7 @@ No substantive mathematical correction was required. Componentwise normalization
 # Normal-order divisors, torsion, and the complete-intersection genus budget
 
 Date: 2026-10-26. Status: research synthesis and new elementary bridge arguments;
-independent audit is recorded in the [companion audit](2026-10-26-normal-torsion-spectral-genus-budget-audit.md).
+independent audit is recorded in the [companion audit](#normal-torsion-spectral-genus-budget-audit).
 No canonical result is promoted. No unrestricted STCI exclusion is claimed.
 
 ## 1. Exact question and scope
@@ -846,7 +846,7 @@ The proper-pair Koszul resolution gives
 These are stronger together than genus alone. General perturbations of a
 proper pair give a smoothing; if the specialized equations acquire a common
 surface, their naive zero locus need not be the flat curve limit.
-The [earlier genus notebook](2026-10-26-44-degeneration-genus-budgets.md)
+The [earlier genus notebook](#44-degeneration-genus-budgets)
 records this distinction. Constancy of coherent Euler characteristic in
 proper flat families is [Stacks, Lemma 36.32.2](https://stacks.math.columbia.edu/tag/0B9T).
 
@@ -1058,8 +1058,8 @@ can reduce to the two actual equations with the required global twists.
 They are not an extra independent genus term in (1) or (3).
 
 The precise reviewed source is the
-[October 24 continuation](2026-10-24-delta-singular-locus-continuation.md),
-with its [independent review](2026-10-24-delta-singular-locus-review.md).
+[October 24 continuation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation),
+with its [independent review](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-review).
 Its canonical promotion and global sheaf/descent gates remain those in
 the [reconciliation](../RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md).
 The local spectral-sequence statement and the intrinsic sheaf comparison
