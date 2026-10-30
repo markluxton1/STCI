@@ -238,8 +238,8 @@ The normalization and lifted curve have the exhaustive pair (S,c) in the
 [intrinsic classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
 with the independently reconstructed
 [explicit model](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
-and [local A4 chart](2026-10-11-session-dp5-a4-local-chart-independent-audit.md).
-The frozen [quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md)
+and [local A4 chart](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-dp5-a4-local-chart-independent-auditmd).
+The frozen [quintic structural frontier](#source-2026-10-11-session-quintic-structural-frontiermd)
 and [del Pezzo/conormal audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md)
 supply the actual single A4 normalization, unique line ell and section
 Q of 4H with div(Q)=5c. Every hypothetical mate pulls back to a nonzero
@@ -288,12 +288,12 @@ The three disjoint cases below exhaust all four parameter values.
   seven, with all roots yielding genuine finite-target fibers. The A=0,
   X0=0 and h=0 exceptional cases are checked before division. The sole
   support-compatible h=0 fiber has order exactly two. The
-  [independent target-contact proof](2026-10-11-session-endpoint-two-common-roots-target-contact-independent-audit.md)
+  [independent target-contact proof](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-endpoint-two-common-roots-target-contact-independent-auditmd)
   derives actual third and fourth jets: every compatible root has order
   at most four, and an order-four root prohibits any second common point.
   Thus one or two common points cannot carry seven roots. Three points
   force U|V with a=3b^2/2; the independently implemented
-  [original-variable](2026-10-11-session-three-common-roots-residual-quartic-independent-audit.md)
+  [original-variable](#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
   and [shifted-variable](2026-10-11-session-endpoint-three-common-roots-shifted-replay.md)
   quartic certificates contradict full root support on every allowed
   parameter value. No finite exceptional set remains in this endpoint
@@ -329,7 +329,7 @@ exact criterion in the reduced genus-one lane, not a parameter solution.
 Its final four-parameter wording is superseded by the two-lane scope
 correction in section 1.
 
-The new [nonendpoint filtration and line-jet note](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
+The new [nonendpoint filtration and line-jet note](#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd)
 records a direct root reconstruction after that worker's usage-limit
 stop. The full pole filtration has generators of weights 2,3,5, giving
 seven sections in O(6ell). The pulled quadric has an actual residual
@@ -344,12 +344,12 @@ five-parameter family remains open.
 
 ## 4. Antecedents, open scope and epistemic limits
 
-The frozen [all-quartic acceptance](2026-10-11-session-all-quartic-results-acceptance.md)
+The frozen [all-quartic acceptance](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-all-quartic-results-acceptancemd)
 continues to exclude every integral quartic carrier, with any mate.
 Its factor consequence makes both defining degrees at least five.
 There is no upper degree bound or theorem forcing an unrestricted
 presentation into the newly excluded endpoint family. The accepted
-[multiplicity-ten filtration](2026-10-11-session-multiplicity-ten-filtration-audit.md)
+[multiplicity-ten filtration](#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
 leaves 308 necessary numerical profiles for (5,8), not realizations or
 a degree-pair exclusion. Other nonnormal quintic genera, normal
 quintics, higher carriers, entirely thick presentations, the retained
@@ -689,7 +689,7 @@ The next fixed-C0 quintic lanes are:
 
 The smallest mate degree after the complete quartic exclusion is
 b=8, giving transverse multiplicity ten. The separate
-[multiplicity-ten filtration audit](2026-10-11-session-multiplicity-ten-filtration-audit.md)
+[multiplicity-ten filtration audit](#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
 has 308 necessary degree profiles, not 308 realized structures or a
 global parameter exhaustion. Nonregular first-normal ratios, higher
 jets and genuine closed-point defect divisors must survive any
@@ -1034,8 +1034,8 @@ integral projective-curve STCI problem and unrestricted characteristic-zero
 problem for `C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. All statements below
 concern this literal curve and its projective equivalents over algebraically
 closed fields of characteristic zero. No novelty claim is certified.
-The [all-quartic acceptance](2026-10-11-session-all-quartic-results-acceptance.md)
-and [endpoint quintic acceptance](2026-10-11-session-quintic-continuation-results-acceptance.md)
+The [all-quartic acceptance](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-all-quartic-results-acceptancemd)
+and [endpoint quintic acceptance](#source-2026-10-11-session-quintic-continuation-results-acceptancemd)
 remain unchanged. Older nonendpoint pending/open labels are superseded
 only for the precise completed results accepted here.
 
@@ -1297,11 +1297,11 @@ or every algebraically closed field.
    nonnormal normalization-genus cases are exhausted. The degree-factor
    argument and checked lower-degree exclusions imply that every
    irreducible factor of either defining form has degree at least five.
-   See the [all-quartic root acceptance](2026-10-11-session-all-quartic-results-acceptance.md).
+   See the [all-quartic root acceptance](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-all-quartic-results-acceptancemd).
 2. **PROVED HERE / independently audited:** the entire admissible endpoint
    projection family in the sectional-genus-one quintic A4 normalization
    lane has no mate in any positive degree, for all four lift parameters.
-   See the [endpoint root acceptance](2026-10-11-session-quintic-continuation-results-acceptance.md).
+   See the [endpoint root acceptance](#source-2026-10-11-session-quintic-continuation-results-acceptancemd).
    The intrinsic pair is unique, but the nonendpoint projection family
    retains a nonzero separation parameter and is a separate problem.
 
