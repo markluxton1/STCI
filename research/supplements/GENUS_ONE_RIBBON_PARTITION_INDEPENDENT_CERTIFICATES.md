@@ -1,5 +1,12 @@
 # Genus-one ribbon repeated-partition independent certificates
 
+## Dependency guide: independent certificate versus source proof
+
+The [owner's repeated-partition proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md) gives the geometric and algebraic case analysis for **[4], [3,1], [2,2]**. This file supplies independent complete-ideal and conductor certificates, with its Macaulay2 validation artifact, under the same upstream ribbon and entire-conductor hypotheses. It does **not** independently establish the entire genus-one reduction or dispose of the separate [2,1,1] partition. The original exact checks are retained because the proof and the verification have different evidentiary roles.
+
+---
+
+
 Complete mathematical source including universal ideal equalities, conductor obstruction and precise hypotheses. Executable certificate remains at `research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2`.
 
 # Independent complete audit of the repeated contact partitions [4], [3,1], [2,2]
