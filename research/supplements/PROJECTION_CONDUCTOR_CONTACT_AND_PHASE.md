@@ -10,8 +10,8 @@ Permanent complete mathematical dossier. The arguments, calculations, precise sc
 
 Date: 2026-10-14. Owner: `global_phase_duality`. Status: **NEW WRITTEN
 STRUCTURAL THEOREM; independent review requested**. The accepted
-[Cartier-lift classification](2026-10-14-generalization-cartier-lift-independent-audit.md),
-[projective contact criterion](2026-10-14-generalization-projection-contact-phase-criterion.md),
+[Cartier-lift classification](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit),
+[projective contact criterion](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-contact-phase-criterion),
 and its uniform fiber-degree bound are premises, not computations to replay.
 The new input is the actual canonical conductor ideal from the
 [conductor--Jacobian bridge](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-generalization-projection-conductor-jacobian-bridgemd).
@@ -185,7 +185,7 @@ No accepted certificate was rerun and no large CAS job was launched.
 
 Date: 2026-10-14. Reviewer: `projection_global_continue`. Scope: the new proofs in
 [the conductor--Jacobian bridge](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-generalization-projection-conductor-jacobian-bridgemd)
-and [the conductor contact budget](2026-10-14-generalization-projection-conductor-contact-budget.md).
+and [the conductor contact budget](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-conductor-contact-budget).
 Status: **PASS under the stated Gorenstein, smooth Cartier-lift, full-support,
 and generic-regularity hypotheses**. The accepted Cartier-lift classification,
 normal splitting, projective contact criterion, and fiber-degree bound are
@@ -304,9 +304,9 @@ universal STCI question.
 
 Date: 2026-10-14. Owner: `projection_conductor_ray`. Status: **NEW
 STRUCTURAL REDUCTION; independent review passed** in the
-[written review](2026-10-14-generalization-projection-contact-phase-independent-review.md).
+[written review](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-contact-phase-independent-review).
 This uses the
-accepted [Cartier-lift classification](2026-10-14-generalization-cartier-lift-independent-audit.md),
+accepted [Cartier-lift classification](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit),
 [full conductor theorem](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-conductor-theoremmd),
 and [transverse differential theorem](2026-10-14-generalization-transverse-socle-independent-audit.md)
 as premises. None of their certificates is rerun. The result below
@@ -738,7 +738,7 @@ descent problem remains for that broader family.
 # Independent review of the projective contact and phase criterion
 
 Date: 2026-10-14. Reviewer: `quadric_phase_review`. Scope: the new arguments in
-[the projection contact and phase note](2026-10-14-generalization-projection-contact-phase-criterion.md).
+[the projection contact and phase note](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-contact-phase-criterion).
 Previously accepted Cartier-lift, conductor, and transverse differential results
 are premises; none of their certificates was replayed.
 
@@ -1156,7 +1156,7 @@ Date: 2026-10-14. Owner: `phase_family_constructibility`.
 Status: **NEW STRUCTURAL REDUCTION; independent review pending.** No inherited
 certificate has been rerun. The accepted
 [full conductor theorem](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-conductor-theoremmd) and
-[projection/contact reduction](2026-10-14-generalization-projection-contact-phase-criterion.md)
+[projection/contact reduction](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-contact-phase-criterion)
 are premises. The reduction does not prove that the remaining fixed-C0
 projection families contain any mate, or exclude them. It replaces the search
 over all mate exponents by finite algebraic data and a precisely isolated
