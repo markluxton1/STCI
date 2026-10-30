@@ -22,8 +22,8 @@ The unrestricted STCI problem is not resolved by this bounded theorem.
 The inputs are the
 [independent ribbon-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md),
 [actual-coordinate full-fiber conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md),
-and [entire conductor calculation](2026-10-09-session-genus-one-entire-conductor.md).
-The separate [partition [2,1,1] proof](2026-10-09-session-ribbon-211-projection-independent-audit.md)
+and [entire conductor calculation](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md).
+The separate [partition [2,1,1] proof](GENUS_ONE_211_PROJECTION_PROOF.md)
 is outside this note's independently computed coverage. Combining all four
 partitions requires accepting that separate proof and the preceding inputs;
 agreement between owners is not the proof.
@@ -105,7 +105,7 @@ along a curve, contradicting normality of `S`. Reversal covers the other
 endpoint. This proves exclusion of all of [4].
 
 This reconstruction independently agrees with the
-[root proof of [4]](2026-10-09-session-ribbon-4-root-independent-proof.md),
+[root proof of [4]](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md),
 which was read and accepted here. No isolated-ramification assertion is
 used: the singular locus contains an actual entire line.
 
