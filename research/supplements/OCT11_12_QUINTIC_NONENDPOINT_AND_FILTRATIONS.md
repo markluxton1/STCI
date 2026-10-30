@@ -240,7 +240,7 @@ with the independently reconstructed
 [explicit model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
 and [local A4 chart](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-dp5-a4-local-chart-independent-auditmd).
 The frozen [quintic structural frontier](#source-2026-10-11-session-quintic-structural-frontiermd)
-and [del Pezzo/conormal audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md)
+and [del Pezzo/conormal audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit)
 supply the actual single A4 normalization, unique line ell and section
 Q of 4H with div(Q)=5c. Every hypothetical mate pulls back to a nonzero
 scalar Q^k, with degree 4k. The surface and full inverse-support
@@ -265,24 +265,24 @@ The normalized endpoint sections on S minus ell=A2(r,T) are
 The three disjoint cases below exhaust all four parameter values.
 
 * **a=0,b!=0:** the [complete support proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md)
-  and [independent audit](2026-10-11-session-quintic-endpoint-a0-polynomial-support-independent-audit.md)
+  and [independent audit](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#3-quintic-endpoint-a0-polynomial-support-independent-audit)
   prove an actual off-c point over C0 for every b,g,d. The degree-six
   residual polynomial cannot have all its roots at the common roots of
   its quadratic and cubic inputs. Denominator-zero fibers are explicitly
   retained; one-root coefficient/derivative conditions contradict, and
   the two-root factorization also contradicts. All images have X0=1.
-* **a=b=0:** root accepts the [all-power jet proof](2026-10-11-session-quintic-endpoint-a-b-zero-jet-obstruction.md)
-  and [independent direct audit](2026-10-11-session-quintic-endpoint-a0-b0-power-jet-independent-audit.md).
+* **a=b=0:** root accepts the [all-power jet proof](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#1-quintic-endpoint-a-b-zero-jet-obstruction)
+  and [independent direct audit](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#2-quintic-endpoint-a0-b0-power-jet-independent-audit).
   In the actual fourth chart at generic ell, the map differential has
   transverse kernel D, but the actual downstairs-frame function
   q=Q/X2^4 has D(q^k)=k(5-2r+4g), nonzero for every positive k.
   Every descended function must have D derivative zero. No conductor
   flatness/reducedness hypothesis or higher-contact bound is inferred.
-  The separate [twelve-condition check](2026-10-11-session-quintic-endpoint-abzero-first-jet-independent-audit.md)
+  The separate [twelve-condition check](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#3-quintic-endpoint-abzero-first-jet-independent-audit)
   verifies the source-section frames and first jets; the power rule is
   the direct all-k proof, not a computational extrapolation.
-* **a!=0:** root accepts the [complete support proof](2026-10-11-session-endpoint-a-nonzero-full-support-exclusion.md)
-  and [complete independent global audit](2026-10-11-session-endpoint-a-nonzero-global-independent-audit.md).
+* **a!=0:** root accepts the [complete support proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#1-endpoint-a-nonzero-full-support-exclusion)
+  and [complete independent global audit](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#2-endpoint-a-nonzero-global-independent-audit).
   Cb=a^2g-ab-b^3=0 gives an actual extra endpoint inverse point or a
   forbidden base point. On Cb!=0 the target residual has exact degree
   seven, with all roots yielding genuine finite-target fibers. The A=0,
@@ -294,7 +294,7 @@ The three disjoint cases below exhaust all four parameter values.
   Thus one or two common points cannot carry seven roots. Three points
   force U|V with a=3b^2/2; the independently implemented
   [original-variable](#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
-  and [shifted-variable](2026-10-11-session-endpoint-three-common-roots-shifted-replay.md)
+  and [shifted-variable](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#5-endpoint-three-common-roots-shifted-replay)
   quartic certificates contradict full root support on every allowed
   parameter value. No finite exceptional set remains in this endpoint
   case.
@@ -308,9 +308,9 @@ usage limit. That terminal error does not supply a theorem; the saved
 written audit and its bound exact records supply the evidence used here.
 
 The previously accepted [quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md),
-[factor audit](2026-10-11-session-quintic-endpoint-factor-independent-audit.md),
-and [contact-length audit](2026-10-11-session-quintic-endpoint-factor-contact-independent-audit.md)
-remain valid. The separate [direct-r excess proof](2026-10-11-session-quintic-endpoint-a-nonzero-local-excess-bound.md)
+[factor audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit),
+and [contact-length audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#3-quintic-endpoint-factor-contact-independent-audit)
+remain valid. The separate [direct-r excess proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#6-quintic-endpoint-a-nonzero-local-excess-bound)
 provides another route with explicit QQ Bezout certificates. It is not
 needed to replace the global target-fiber proof. First-normal degrees
 alone supply no bound on later contact lengths.
@@ -318,7 +318,7 @@ alone supply no bound on later contact lengths.
 ## 3. Other accepted reductions and the remaining nonendpoint task
 
 Root accepts the direct full-conductor algebra statements in the
-[power-descent audit](2026-10-11-session-power-descent-algebra-audit.md):
+[power-descent audit](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#4-power-descent-algebra-audit):
 actual conductor-algebra membership is required; tensor equalizers can
 give false positives; in characteristic zero powers cannot repair a
 unit nilpotent jet after its reduced phase is resolved; and purity of
@@ -424,7 +424,7 @@ smooth rational quartic `C0=[s^4:s^3t:st^3:t^4]`, an integral quintic
 `X`, and an arbitrary ambient mate. This is structural progress beyond
 the quartic-carrier work, not an exclusion of all quintics or an STCI
 resolution. The accompanying
-[independent conormal audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md)
+[independent conormal audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit)
 records the independently checked parts; its status takes precedence
 over any unreviewed continuation lead below.
 
@@ -906,7 +906,7 @@ the displayed weight filtration is exhaustive. In particular
 
     H0(S,O(6ell))=span{1,r,t,r^2,rt,v,r^3}.
 
-The separately completed [low-pole-spaces proof](2026-10-11-session-a4-low-pole-spaces.md)
+The separately completed [low-pole-spaces proof](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-a4-low-pole-spaces)
 gives the same filtration and an exhaustive classification of prime equations
 of degrees two, three and four. Root read and reconstructed that saved proof;
 it was completed before its parent worker stopped. No CAS run is claimed for
@@ -1065,7 +1065,7 @@ The accepted proof is assembled from two complete alternatives:
   in each fiber over C0. Two finite Nakayama arguments give exact local
   ring equality along c. The actual Cartier conductor in `|2H|` would
   miss c, contradicting its required restriction degree eight. Root
-  accepts the [independent conormal/conductor audit](2026-10-12-session-nonendpoint-all-mate-conormal-conductor-independent-audit.md).
+  accepts the [independent conormal/conductor audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit).
 * For `Jbar=0`, put `E=g-3b+2a`. Homogeneous coprimality excludes E=0,
   and E=-3delta^2 is the separately excluded ramified-line family.
   Otherwise the actual A4 normalization fiber has length two. Under
@@ -1078,8 +1078,8 @@ The accepted proof is assembled from two complete alternatives:
   at most two. The full unit-nilpotent logarithm forces Q squared to
   descend whenever any Q power does. Purity and the ambient lifting
   sequence make this an actual degree-eight mate, contradicted by its
-  e=3 socle Hom space. Root accepts the [Jbar-zero owner proof](2026-10-12-session-jbar-zero-coprime-conductor-phase-bound.md)
-  and [independent phase audit](2026-10-12-session-jbar-zero-conductor-phase-independent-audit.md).
+  e=3 socle Hom space. Root accepts the [Jbar-zero owner proof](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#6-jbar-zero-coprime-conductor-phase-bound)
+  and [independent phase audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#7-jbar-zero-conductor-phase-independent-audit).
 
 Root has read both written audits and reconstructed the local elimination,
 finite module propagation, prime degree classification, line valuation over
@@ -1148,10 +1148,10 @@ saturation occurs in those twenty-one polynomial unit certificates.
 
 **PROVED HERE / independently audited.** The eight necessary families
 in the accepted residual reduction exhaust the partition `2+4` under
-full inverse support. Root accepts the [two-family Type1 proof](2026-10-12-session-nonendpoint-type1-two-family-exclusion.md)
-and its [independent reconstruction](2026-10-12-session-nonendpoint-type1-two-family-independent-audit.md),
-and the [six-family Type2/Type3 proof](2026-10-12-session-nonendpoint-type23-six-family-exclusion.md)
-and its [separate independent reconstruction](2026-10-12-session-nonendpoint-type23-six-family-independent-audit.md).
+full inverse support. Root accepts the [two-family Type1 proof](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#3-nonendpoint-type1-two-family-exclusion)
+and its [independent reconstruction](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#4-nonendpoint-type1-two-family-independent-audit),
+and the [six-family Type2/Type3 proof](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#5-nonendpoint-type23-six-family-exclusion)
+and its [separate independent reconstruction](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#6-nonendpoint-type23-six-family-independent-audit).
 Every admissible projection in this entire partition has no mate of
 any positive degree.
 
@@ -1175,8 +1175,8 @@ proof or count copies and replays as independent lineages.
 
 ## 4. Actual conductor quadric, octic and finite necessary incidence
 
-**PROVED HERE / independently audited.** Root accepts the [actual conductor determinant theorem](2026-10-12-session-nonendpoint-restricted-conductor-determinant.md)
-and [independent module/ideal audit](2026-10-12-session-conductor-quadric-module-independent-audit.md).
+**PROVED HERE / independently audited.** Root accepts the [actual conductor determinant theorem](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#2-nonendpoint-restricted-conductor-determinant)
+and [independent module/ideal audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#4-conductor-quadric-module-independent-audit).
 Every admissible finite birational projection in this normalization
 lane has a unique ambient conductor quadric up to scalar. Its pullback
 generates the entire actual invertible conductor ideal O_S(-2H), with
@@ -1227,7 +1227,7 @@ mate degree. Other roots, Jbar=0 and higher gcd strata remain retained.
 
 ## 5. Claims still under independent review
 
-The proposed [entire cubic-pair exclusion](2026-10-12-session-nonendpoint-cubic-pair-contact-reduction.md)
+The proposed [entire cubic-pair exclusion](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#1-nonendpoint-cubic-pair-contact-reduction)
 uses the actual degree-seven target contact divisor, an exhaustive
 eight-candidate sparse-heptic classification, and a modulus-free source
 coefficient identity that no pair of candidates satisfies. Distinct and
@@ -1329,8 +1329,8 @@ integral quintic normalization. Parameters are `delta!=0,a,b,g,d`.
   over C0 into exact local normalization isomorphisms. The actual
   conductor divisor in `|2H|` would then miss the lifted curve, contrary
   to its required restriction degree eight. This is not a first-normal
-  bound on higher contact lengths. See the [owner proof](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md)
-  and [independent all-mate audit](2026-10-12-session-nonendpoint-all-mate-conormal-conductor-independent-audit.md).
+  bound on higher contact lengths. See the [owner proof](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction)
+  and [independent all-mate audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit).
 * **PROVED HERE / independently audited, every mate degree:** the
   entire-line rank-one subfamily has an actual downstairs-frame
   differential obstruction to every positive power of Q. See the
