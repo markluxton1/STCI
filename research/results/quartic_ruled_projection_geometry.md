@@ -46,3 +46,7 @@ Separates projection, finite normalization, smooth resolution and birational ele
 
 ## Limitations
 No universal projected-scroll classification or STCI exclusion.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/04-carriers.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
