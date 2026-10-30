@@ -339,7 +339,7 @@ Suppose also
     nu>4g_Z+5.                                            (17)
 
 The accepted
-[intrinsic nef formal-branch criterion](2026-10-15-generalization-nef-formal-branch-arbitrary-base.md)
+[intrinsic nef formal-branch criterion](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-nef-formal-branch-arbitrary-base)
 then supplies an integral surface in `P3` of some integer degree
 `d>=1` satisfying
 
@@ -1592,7 +1592,7 @@ Date: 2026-10-15. Reviewer: `g3_branch_uniqueness`.
 
 **Verdict: PASS for Section 5 in its stated characteristic-zero scope.** The imported intrinsic nef criterion, branch/ruled-surface argument, and plane-adjunction inequality are premises. Only the new movement-one corollary was reviewed; accepted Sections 1--4 and prior CAS certificates were not re-audited.
 
-Reviewed artifact: [Section 5 of nef formal branches over arbitrary bases](2026-10-15-generalization-nef-formal-branch-arbitrary-base.md).
+Reviewed artifact: [Section 5 of nef formal branches over arbitrary bases](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-nef-formal-branch-arbitrary-base).
 
 Reviewed whole-file SHA-256:
 
