@@ -696,35 +696,7 @@ modified.
 
 ## quartic-projection-independent-audit
 
-# Independent audit: projection, automorphisms, moduli, and characteristic two
-
-Date: 2026-10-24. Reviewer: independent agent `audit_projection`.
-Status: **independent reconstruction completed; reviewed exploratory
-research, not canonical promotion**.
-
-The principal object is the fixed smooth rational quartic
-$[s:t]\mapsto[s^4:s^3t:st^3:t^4]$ over an algebraically closed field of
-characteristic zero. Characteristic two is considered only in Section 6.
-The reviewer read [INDEX](../INDEX.md), the authority and contribution
-instructions, and the earlier [special-lines geometry audit](2026-10-24-special-lines-planes-geometry-audit.md),
-then reconstructed the arguments before reading the new full drafts.
-No normal-bundle calculation, carrier exclusion, or STCI obstruction was
-used or rerun.
-
-Reviewed sources are the [projection note](2026-10-24-quartic-projection-automorphisms.md),
-the [literature/outlook note](2026-10-24-quartic-invariant-literature-outlook.md),
-and Sections 2, 3, and 6 of the [synthesis](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md).
-The symmetric-square and correspondence claims have a
-[separate independent audit](2026-10-24-quartic-symmetric-independent-audit.md).
-
-**Outcome:** no substantive mathematical discrepancy was found in the
-reviewed final arguments. Two distinctions checked especially carefully
-are the closed orbit *inside the semistable locus*, and the difference in
-characteristic two between the reduced diagonal image and the double-line
-discriminant divisor. Both are correctly maintained. The endpoint
-reconstruction formula suggested during this audit was added to the
-projection note; it strengthens the intrinsic explanation without changing
-the claimed group.
+**Scope.** Independent mathematical reconstruction of the specified fixed-curve geometry; supporting evidence, not a new canonical result or an unrestricted STCI theorem.
 
 ## 1. Projection center and exceptional osculating spaces
 
@@ -2602,22 +2574,7 @@ that every inherited proposal is promoted or that this branch starts at
 
 ## special-lines-planes-stci-audit
 
-# Independent audit: special sections and their STCI scope
-
-Date: 2026-10-24. Reviewer: independent agent stci_final_audit.
-Review target: Sections 1 and 7–13 of
-[the special-lines research note](#2026-10-24-special-lines-planes-research-note).
-Status: **PASS for these scoped statements and their limitations;
-research evidence only, not canonical promotion or an STCI exclusion**.
-
-The reviewer read [INDEX](../INDEX.md) first and then the exact records
-[STCI-R-0020](../results/quartic_conormal_characteristic_jump.md),
-[STCI-R-0001](../results/quartic_carrier_exclusion.md), and
-[STCI-R-0019](../results/quasiprimitive_residual_cycles.md).
-Their accepted normal splitting/degree and carrier conclusions were used as
-premises. None of their proof computations was rerun. The arguments below
-were reconstructed independently; agreement of agents or a passing script
-is not substituted for proof.
+**Scope.** Special-section geometry and local/global STCI constraints; accepted carrier and normal-bundle results are premises, not reproved here. No unrestricted STCI exclusion follows.
 
 ## 1. Proper intersection and actual local lengths
 
@@ -2812,17 +2769,7 @@ The outstanding step is global control of **actual homogeneous equations**, incl
 
 ## quartic-conormal-independent-audit
 
-# Independent audit: residual conormal product and higher contact
-
-Date: 2026-10-24. Reviewer: independent agent `conormal_check`.
-
-**Status: independent reconstruction of new provisional research evidence;
-no canonical promotion.** The field is algebraically closed of characteristic
-zero, and the curve is exactly
-\(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\).
-The reviewer read the research index and the discussion reconciliation before
-reconstructing the proposed residual construction. No STCI exclusion or
-normal-bundle calculation is used or rerun.
+**Scope.** Independent mathematical reconstruction of the specified fixed-curve geometry; supporting evidence, not a new canonical result or an unrestricted STCI theorem.
 
 ## 1. Global construction, including coincident points
 
@@ -3027,18 +2974,7 @@ The smooth-conic construction requires characteristic different from two. In cha
 
 ## special-lines-planes-geometry-audit
 
-# Independent geometry audit: special lines and planes
-
-Date: 2026-10-24. Reviewer: independent agent geometry_final_audit.
-Scope: Sections 2–6 and the geometric conormal input of Section 10 of the
-[research note](#2026-10-24-special-lines-planes-research-note).
-
-**Outcome:** one substantive omitted-components error was found in the
-initial dual-surface statement. The corrected reduced singular locus has
-four components, not two. The correction is proved below. The other
-reviewed geometric statements and normal-direction count are verified
-with their stated hypotheses. This is independent review of provisional
-research evidence, not canonical promotion or an STCI obstruction.
+**Scope.** Fixed characteristic-zero quartic. The corrected dual singular locus has four reduced components, including the two endpoint lines; the derivation below retains the correction.
 
 ## 1. Method and retained input
 
