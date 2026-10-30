@@ -1347,7 +1347,7 @@ set-theoretic complete-intersection presentation of any smooth rational
 quartic C in P3, regardless of mate degree or common singular points.
 
 This note independently audits the strengthened argument developed in
-[the pencil classification note](2026-10-07-session-veronese-pencil-classification.md).
+[the pencil classification note](OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-veronese-pencil-classificationmd).
 That note is being upgraded from its earlier slc-only form; this audit
 states the complete hypotheses and proof independently of edit timing.
 
@@ -1397,7 +1397,7 @@ linear with independent coefficient vectors. Putting v=(s,t,0) directly
 forces the Kronecker pencil, up to removable diagonal terms. Its
 projection has quadric image and generic degree two, contradicting the
 finite birational quartic hypothesis. I checked this against the
-[separate singular-pencil proof](2026-10-07-session-veronese-singular-pencil.md).
+[separate singular-pencil proof](OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-veronese-singular-pencilmd).
 
 Thus Roman, Jordan2 and Jordan3 exhaust the hypotheses. The two Jordan
 cases were previously discarded using slc; the arguments below exclude
@@ -1540,7 +1540,7 @@ all positive mate degrees, not a finite collection of power tests.
 The involution is a first-order conductor descent test. It does not
 assert scheme containment of nonreduced ramification in c, the general
 claim refuted by the
-[local counterexample](2026-10-07-session-ramification-scheme-counterexample.md).
+[local counterexample](OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd).
 
 ## 6. Audit outcome and reproducibility
 
