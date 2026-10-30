@@ -1,5 +1,14 @@
 # Complete-intersection cycles: consolidated mathematical investigations
 
+## Mathematical dependency guide: separate the audited experiments
+
+The [exploration audit](#2026-10-25-ci-cycle-exploration-auditmd) reviews the deformation, pencil, conductor, and topology calculations under their own assumptions. The [valuative audit](#2026-10-25-ci-cycle-valuative-auditmd) checks a different family of local and cycle-level claims. The [fixed-boundary node smoothing](#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd), [its audit](#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd), and [line-degeneration audit](#2026-10-25-ci-cycle-line-degeneration-auditmd) must not be treated as a single unrestricted deformation theorem.
+
+Use [the original deformation and residual calculations](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-deformation-laboratorymd), [the conductor and pencil calculations](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd), and [the valuative contact construction](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-contact-cyclemd) as the corresponding mathematical sources. The audits constrain their claims; they do not replace their explicit equations or independent counterexamples.
+
+---
+
+
 Full source mathematical content retained in subject sections. Statements retain their original provisional or audited scope; this compilation does not promote results.
 
 
