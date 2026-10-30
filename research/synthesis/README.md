@@ -12,6 +12,10 @@ The three main forward research routes are the **embedded lower-thickening/deter
 
 Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and which are independent. For precise scope, use [canonical results](../results/INDEX.md), [current state](../STATE.md), [frontier](../FRONTIER.md), and [authority policy](../AUTHORITY.md).
 
+## Document status
+
+The six numbered chapters and the named mathematical supplements below form the permanent exposition. Files named `phase2_*` and `normalization_conductor_phase2_*` record dated source intake, reconciliation, integration checkpoints, and source dispositions. They are **historical working records**, not additional chapters, current task lists, or competing theorem authority. Retain them where they identify a specific mathematical gap, source disposition, or independently useful failure; consult the permanent exposition and canonical results for current status.
+
 ## Chapters
 
 1. [Problem and fixed geometry](01-problem-and-curve.md)
