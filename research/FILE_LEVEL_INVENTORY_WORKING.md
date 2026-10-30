@@ -233,3 +233,8 @@ Thirty historical mathematical sources preserved in full in four supplements: `O
 ## Full-content migration — October 11–14 quintic and generalization investigations (2026-10-30)
 
 Thirty historical mathematical sources preserved in full in four supplements: `OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md` (8), `OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md` (8), `OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md` (9), `OCT14_CARTIER_LIFTS_AND_MOVING_RELATIONS.md` (5). All thirty originals retired only after permanent supplements were committed and source headings verified. Calculations, counterexamples, conditional arguments and unresolved issues retain original evidence status; no independent correctness audit or theorem promotion. **Cumulative historical retirements: 507; live remaining notes: 42.** Inbound reference cleanup and editorial harmonization remain outstanding.
+
+
+## Full-content migration — October 14–21 roots, carrier geometry, filtrations, and Z4 (2026-10-30)
+
+Thirty historical mathematical sources preserved in full in four supplements: `OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md` (8), `OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md` (8), `OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md` (7), `OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md` (7). All thirty originals retired after the committed supplements were verified to contain each source heading. Original hypotheses, calculations, failed approaches, counterexamples, and unresolved issues retain source status; no new correctness audit or theorem promotion. **Cumulative historical retirements: 537; live remaining notes: 12.** Editorial harmonization and repository-wide inbound-reference cleanup remain outstanding.
