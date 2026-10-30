@@ -1,5 +1,16 @@
 # Complete-intersection cycles: consolidated mathematical investigations
 
+## Mathematical dependency guide: pencils, conductor, and specialization
+
+The [specialization-proximity investigation](#2026-10-25-ci-cycle-specialization-proximitymd) distinguishes cycle mass and directed specialization paths; it does not define a universal distance to set-theoretic complete intersection. The [root pencil](#2026-10-25-ci-cycle-root-pencilmd) and [conductor topology](#2026-10-25-ci-cycle-conductor-topologymd) study different invariants of the same broad residual problem.
+
+The [deformation laboratory](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-deformation-laboratorymd) supplies actual moving pairs. The [CI-cycle exploration audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-exploration-auditmd) records where the pencil/conductor inferences are supported. The [adaptive valuation notebook](CI_CYCLE_ADAPTIVE_FRONTIER.md#2026-10-25-ci-cycle-adaptive-valuative-notebookmd) proposes local tests, which must still be compared with projective residual support.
+
+Retain the pencil equations and conductor calculations as independent evidence rather than substituting a degeneration narrative for them.
+
+---
+
+
 Full source mathematical content retained in subject sections. Statements retain their original provisional or audited scope; this compilation does not promote results.
 
 
