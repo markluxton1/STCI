@@ -10,7 +10,7 @@ Permanent complete mathematical dossier with hypotheses, proofs, characteristic 
 
 Date: 2026-10-15; completed 2026-10-16. Author: `intrinsic_root_finite_family`.
 Status: **NEW STRUCTURAL GENERALIZATION; targeted independent review passes**.
-The [independent scope audit](2026-10-15-generalization-intrinsic-finite-root-family-independent-audit.md)
+The [independent scope audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family-independent-audit)
 checks the relative cohomology and Cartier hypotheses, Hilbert-family
 boundedness, splitting-free identities, numerical empty-stage criterion,
 and strict conditional CI indexing.
@@ -169,7 +169,7 @@ noetherian argument applies to this one fixed finite-type `S`, proving
 (2)--(4) and the regular locally principal formal inverse limit.
 
 These uses of the already audited machinery are recorded in the
-[relative functor audit](2026-10-15-generalization-uniform-root-tower-functor-independent-audit.md).
+[relative functor audit](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-functor-independent-audit).
 The new content is the intrinsic degree criterion and the relative
 perfect-cohomology proof replacing the product splitting calculation.
 
@@ -412,7 +412,7 @@ The relative finite-family argument and the intersection identities
 use no characteristic-zero division. This note nevertheless fixes
 characteristic zero throughout; extending the final CI consequence
 requires the chosen bridge in the chosen characteristic. The accepted
-[characteristic scope addendum](2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+[characteristic scope addendum](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 addresses the formal geometric inputs separately.
 
 Singular or nonreduced roots are outside the negative-degree argument
@@ -435,7 +435,7 @@ Reviewer: `relative_scope_audit`.
 **Verdict: PASS for the stated relative finite-family generalization,
 bounded Hilbert-family construction, splitting-free intersection identities,
 and conditional finite empty-stage consequence.** The completed
-[owner note](2026-10-15-generalization-intrinsic-finite-root-family.md)
+[owner note](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family)
 was read in full. The accepted embedded-Cartier lifting functor, its
 noetherian stabilization argument, and the accepted intrinsic nef
 formal-branch and plane-multiplicity theorems are premises. This audit
@@ -686,10 +686,10 @@ Status: **GEOMETRIC THEOREM; independently audited in characteristic zero**.
 Accepted conormal, blowup, actual-CI bridge, and formal-root functor statements
 are inputs. No accepted computation or proof was rerun. A distinct worker
 reviewed the [branch-normalization and ruled-surface intersection steps](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd),
-and the [full independent audit](2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
+and the [full independent audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
 passes Sections 1--8, including the general criterion and finite-stage/gap
 consequences. Section 9 preserves an ineffective finite-jet attempt.
-The [characteristic-scope addendum](2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+The [characteristic-scope addendum](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 also passes the formal geometric theorem and finite smooth-root cutoff
 in Section 10 over arbitrary algebraically closed fields, retaining the
 explicit normal-bundle hypothesis and the actual-CI bridge boundary.
@@ -781,7 +781,7 @@ it. Singular, nonreduced, or disconnected roots require separate arguments.
 ## 3. The compatible Cartier ideal defines a smooth formal surface
 
 Write `E_m=V(I_E^(m+1))`. The exact functor used here is the one in the
-[uniform formal-root tower note](2026-10-15-generalization-uniform-root-tower-finite-determinacy.md):
+[uniform formal-root tower note](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-finite-determinacy):
 compatible invertible embedded ideals `I_m subset O_(E_m)` restricting to
 `I_(Z/E)`. Their local equations glue using the full equation units. Their
 inverse limit is an effective Cartier divisor `Vhat` on the completion of
@@ -1095,7 +1095,7 @@ bounded-gap consequence below. It does not exclude all actual complete
 intersections in that open.
 
 The target is the live
-[formal-nonexistence note](2026-10-15-generalization-smooth-root-formal-nonexistence.md),
+[formal-nonexistence note](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence),
 including the clarification of connectedness, the whole-curve gluing
 argument, the direct plane-adjunction argument, and equation (3a) added
 during review. This audit inspected the primary algebraicity and
@@ -1374,7 +1374,7 @@ with a balanced normal bundle.
 
 Fix the actual embedding C subset P3 and r. On the accepted coefficient
 open U for (epsilon,r)=(2,r), lambda=2e-1>=7>3epsilon. The
-[accepted finite tower](2026-10-15-generalization-uniform-root-tower-finite-determinacy.md)
+[accepted finite tower](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-finite-determinacy)
 therefore supplies closed schemes K_m on this single finite-type U,
 all-order uniqueness, and a finite index N with K_N=K_(N+1)=... .
 Its stable scheme represents compatible formal embedded Cartier ideals.
@@ -1406,7 +1406,7 @@ excluded. This proves the requested existential bound on the actual
 bridge gap, while preserving its strict indexing.
 
 The accepted
-[functor audit](2026-10-15-generalization-uniform-root-tower-functor-independent-audit.md)
+[functor audit](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-functor-independent-audit)
 already fixes this indexing and all-order compatibility; those proofs
 were not replayed. Finite-gap actual pairs can introduce their second
 relation before the empty stage, so (I) is not their exclusion.
@@ -1445,9 +1445,9 @@ conditional on the actual bridge being valid in the chosen
 characteristic.**
 
 This reviews only Section 10 of the
-[owner note](2026-10-15-generalization-smooth-root-formal-nonexistence.md).
+[owner note](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence).
 The completed
-[characteristic-zero geometry audit](2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
+[characteristic-zero geometry audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
 is a premise; its arguments and accepted computations were not replayed.
 No characteristic-zero logarithmic argument, P010 calculation, or
 normal-bundle splitting of the literal repository curve is imported.
