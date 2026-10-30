@@ -11,7 +11,7 @@ Complete mathematical dossier preserving proofs, counterexamples, assumptions, c
 Date: 2026-10-19.
 Author: `saturation_defects` research worker.
 Status: **provisional structural theorem package; independent audit PASS**.
-Independent reconstruction: [defect audit](2026-10-19-first-relation-defect-independent-audit.md).
+Independent reconstruction: [defect audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-independent-audit).
 No canonical result is edited or promoted.
 
 ## 1. Scope, dependencies, and proposed contribution
@@ -41,14 +41,14 @@ nonreduced root to those defects, and ultimately to `D`.
 
 Accepted inputs are [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md),
 its saturated Gorenstein-duality proof in
-[the filtered-duality evidence](2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md),
+[the filtered-duality evidence](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge),
 and [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md).
 The characteristic-zero pure-power quotient formula is an accepted input
 of [STCI-R-0009](../results/moving_purepower_boundary.md).
 The local exact-order normal-flatness lemma is independently reviewed
 supporting evidence in
-[the local theorem](2026-10-19-filtered-generic-ci-normal-flatness.md)
-and [its audit](2026-10-19-filtered-local-normal-flatness-independent-audit.md);
+[the local theorem](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness)
+and [its audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit);
 it is not itself a separate promoted result. Its codimension-two
 Gorenstein Hilbert-function drop input is explicitly identified there.
 
@@ -455,7 +455,7 @@ Date: 2026-10-19.
 Reviewer: `saturation_defects/defect_formula_audit`.
 Status: **PASS within the exact hypotheses. Reviewed proposal, not a promoted result.**
 
-Proposal audited: [first-relation defect investigation](2026-10-19-first-relation-defect-investigation.md).
+Proposal audited: [first-relation defect investigation](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-investigation).
 No accepted proof, inherited computation, or canonical result record was modified or rerun.
 
 ## 1. Exact scope and authority
@@ -464,9 +464,9 @@ The setting is an actual locally complete-intersection thickening `Y` of a smoot
 
 The primitive saturation `R` of the actual first relation `K_r` is a line subbundle, but the actual kernel is allowed to be `K_r=R(-D)` for a nonzero effective divisor `D`. This allowance is essential: it prevents direct application of promoted [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) to the entire curve.
 
-The accepted saturated-duality input is the construction and proof in [the filtered-duality note](2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md), section 3, as independently checked in [its audit](2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit.md), section 2. That lemma does not require a saturated first relation. It uses actual Gorenstein CM duality, purity, unique support, and generic graded Gorenstein symmetry.
+The accepted saturated-duality input is the construction and proof in [the filtered-duality note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge), section 3, as independently checked in [its audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit), section 2. That lemma does not require a saturated first relation. It uses actual Gorenstein CM duality, purity, unique support, and generic graded Gorenstein symmetry.
 
-The local exact-order normal-flatness theorem used for the support statement and small-gap conclusion is [the reviewed local theorem](2026-10-19-filtered-generic-ci-normal-flatness.md), with [its separate independent audit](2026-10-19-filtered-local-normal-flatness-independent-audit.md). It remains supporting evidence rather than a separately promoted result record. The new note identifies this authority distinction correctly. Its classical planar Gorenstein Hilbert-function drop input is accepted as stated there; this audit does not re-prove an inherited theorem.
+The local exact-order normal-flatness theorem used for the support statement and small-gap conclusion is [the reviewed local theorem](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness), with [its separate independent audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit). It remains supporting evidence rather than a separately promoted result record. The new note identifies this authority distinction correctly. Its classical planar Gorenstein Hilbert-function drop input is accepted as stated there; this audit does not re-prove an inherited theorem.
 
 The doubled-positive-divisor lemma is accepted evidence for promoted [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md). The apolar pure-power calculation is accepted evidence for promoted [STCI-R-0009](../results/moving_purepower_boundary.md). The general defect package and its new numerical consequences remain proposals.
 
@@ -842,7 +842,7 @@ degeneration, nonsaturation, and additional initial generators remain
 possible. No common singular point of the original surfaces is
 assumed or deduced.
 
-The separate [actual filtered-algebra bridge](2026-10-19-saturated-first-relation-spectral-bridge.md)
+The separate [actual filtered-algebra bridge](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge)
 proves that an actual lci thickening with a saturated actual first
 relation and full generic binary CI initial ideal satisfies precisely
 the uniform graded hypotheses used here. Combining the two arguments
@@ -869,7 +869,7 @@ proved here; the cited sources are inputs, not claims that this exact
 STCI application was previously established.
 
 Independent reconstruction and failure tests are recorded in
-[the separate audit](2026-10-19-spectral-nonreduced-root-independent-audit.md).
+[the separate audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-independent-audit).
 The review outcome is PASS, including the component bound and the
 movement-two dichotomy. This remains an unpromoted research proposal;
 canonical promotion is a separate repository action.
@@ -890,7 +890,7 @@ of rational components, without discarding ramification or gluing.
 Date: 2026-10-19. Reviewer: `spectral_nilpotent_audit`, independently
 reconstructing the proposal received from the parent investigation.
 The final review also checks the actual written proposal
-[A doubled-divisor obstruction to nonreduced moving spectral roots](2026-10-19-spectral-nonreduced-root-obstruction.md),
+[A doubled-divisor obstruction to nonreduced moving spectral roots](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-obstruction),
 including its component arithmetic, movement-two dichotomy, and integral
 `(1,k)` component assertion.
 
@@ -1210,7 +1210,7 @@ repository action.
 
 Date: 2026-10-19.
 Status: **PROPOSAL WITH INDEPENDENT REVIEW PASS; not promoted.**
-Independent audit: [filtered-bridge review](2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit.md).
+Independent audit: [filtered-bridge review](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit).
 Authors: root and filtered-algebra workers; independent filtered-bridge
 reviewer. No canonical record is edited or promoted.
 
@@ -1289,7 +1289,7 @@ That promoted theorem alone does not provide an actual-CI bridge.
 
 The new saturated-duality lemma, including its proof from actual
 Gorenstein MCM duality, is in section 3 of
-[the simultaneous pure-power proposal](2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md).
+[the simultaneous pure-power proposal](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
 The use below does not depend on pure-power, movement, or apolarity:
 only the symmetric generic Hilbert function in (1) is used for perfect
 saturated pairings. The actual socle line and local MCM duality are
@@ -1588,7 +1588,7 @@ retraction. Its key global input is the projectivity of `C`, which
 turns a generic nonzero degree-zero resultant section into an everywhere
 nonzero section. A separate local extremal-Hilbert-function proof,
 with its explicit classical drop-theorem dependency, is preserved in
-[the independent local normal-flatness proposal](2026-10-19-filtered-generic-ci-normal-flatness.md).
+[the independent local normal-flatness proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness).
 That independent route also handles the equal-degree case under its
 stated exact-order hypothesis; this section only claims `r<s`.
 
@@ -1615,7 +1615,7 @@ No canonical record is edited or promoted by this audit.
 
 This audit independently reconstructs sections 3--6 and the smooth-root
 application in section 8 of
-[the global CI proposal](2026-10-19-global-ci-filtration-investigation.md).
+[the global CI proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-global-ci-filtration-investigation).
 It does not merely check the output of the proposing worker's search.
 The general fixed-movement finiteness assertion in its section 7 is assigned
 to a separate reviewer and is not included in this review decision.
@@ -1644,7 +1644,7 @@ The inherited inputs are:
 - Promoted [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md):
   all ordinary normal layers are locally free and every full graded fiber
   is a binary CI of degrees `(r,s)`. Its preserved
-  [proof](2026-10-19-saturated-first-relation-spectral-bridge.md), sections
+  [proof](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge), sections
   3--6, identifies the second quotient relation as a line bundle T of degree
   `-7s+s*epsilon/r`. This uses the FULL generic CI hypothesis and the actual
   first relation subbundle. These inherited results are used as accepted
