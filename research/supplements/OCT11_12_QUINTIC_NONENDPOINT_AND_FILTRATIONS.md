@@ -487,7 +487,7 @@ write its ruling degree as `a>0`. At each blowup, the multiplicity
 `m_i` satisfies `0<=m_i<=a`: intermediate polarizations are nef, and
 the actual positive fiber cycle through the center has total L-degree
 a. This holds at infinitely near centers as in the independently
-checked [quartic ruled proof](2026-10-09-session-nonrational-normalization-independent-audit.md).
+checked [quartic ruled proof](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md).
 
 The same elimination of the ruled-section coefficient gives
 
