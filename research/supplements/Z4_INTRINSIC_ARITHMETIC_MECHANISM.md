@@ -30,7 +30,7 @@ image as
     q:E→L=E/M,
 
 where D is effective and M,L are line bundles. Put H=M∨⊗L².
-The [characteristic-zero report](2026-10-21-z4-characteristic-zero-stci-consequences.md)
+The [characteristic-zero report](#2026-10-21-z4-characteristic-zero-stci-consequences)
 proves the necessary condition
 
     image of o_X(q) in H¹(C,H(D)) is zero.               (A)
@@ -67,7 +67,7 @@ is weaker than compatibility with a specified complete intersection.
 ## 2. Does divided Frobenius produce the intrinsic class?
 
 No unconditional identification is proved. The
-[intrinsic arithmetic report](2026-10-21-z4-intrinsic-divided-power-mechanism.md)
+[intrinsic arithmetic report](#2026-10-21-z4-intrinsic-divided-power-mechanism)
 does recover the accepted full class −6[u⁻²] and the divided variation
 
     λ(α,β,γ)=γ[u⁻¹]+[u⁻²]+α[u⁻³],
@@ -87,7 +87,7 @@ class β in H¹(Der_S(A₁,B)). The canonical sheaf map
 
 restricts a derivation to M and projects by Sym²q. It carries β to
 the difference of the Yoneda obstruction classes. The
-[quadratic-gluing comparison](2026-10-21-z4-quadratic-gluing-comparison.md)
+[quadratic-gluing comparison](#2026-10-21-z4-quadratic-gluing-comparison)
 proves the statement and its coordinate functoriality. The missing arithmetic
 bridge is a natural derivation-valued gluing class carrying the full normal
 and moving-base data. A divided-power polynomial does not furnish it.
@@ -171,7 +171,7 @@ small-prime illustrations. The structural arguments above are proofs, not
 inferences from those finite tests. The inherited carrier exclusions and
 accepted full ambient cocycle were used as premises, not re-proved.
 
-The companion [independent audit](2026-10-21-z4-general-mechanism-independent-audit.md)
+The companion [independent audit](#2026-10-21-z4-general-mechanism-independent-audit)
 records reconstruction of the new implications and the cross-investigation
 scope checks. All new results remain unpromoted research evidence.
 
@@ -229,7 +229,7 @@ The general square-zero derivation principle is described in the
 [Stacks Project, Lemma 91.2.1](https://stacks.math.columbia.edu/tag/08S3).
 Formula (1) is proved directly below; it is not quoted from that source.
 The target obstruction is the corrected canonical extension of the
-[independent intrinsic audit](2026-10-21-intrinsic-ribbon-triple-independent-audit.md).
+[independent intrinsic audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd).
 
 ## Proof
 
@@ -306,7 +306,7 @@ The structural audit worker independently reconstructed the automorphism
 identification, O_C-linearity of restriction, and the Čech comparison.
 It explicitly required the local-isomorphism hypothesis and a consistent
 overlap orientation. Its audit is recorded in the companion
-[general-mechanism audit](2026-10-21-z4-general-mechanism-independent-audit.md).
+[general-mechanism audit](#2026-10-21-z4-general-mechanism-independent-audit).
 All new claims remain research evidence; no canonical result is promoted.
 
 
@@ -329,16 +329,16 @@ Its accepted inputs are the exact order-one scope in
 unramified arithmetic nonlifting theorem
 [R0012](../results/prescribed_z4_arithmetic_nonlifting.md), and the
 corrected canonical module extension in the
-[intrinsic independent audit](2026-10-21-intrinsic-ribbon-triple-independent-audit.md).
+[intrinsic independent audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd).
 The general intrinsic construction is reviewed evidence, not a promoted
 canonical result. The previously audited quartic Laurent polynomial is
 an imported input; this review does not reconstruct its rational ambient
 chart expansion.
 
 The new targets are the
-[characteristic-zero report](2026-10-21-z4-characteristic-zero-stci-consequences.md),
-the [arithmetic-mechanism report](2026-10-21-z4-intrinsic-divided-power-mechanism.md),
-and the [quadratic-gluing comparison](2026-10-21-z4-quadratic-gluing-comparison.md).
+[characteristic-zero report](#2026-10-21-z4-characteristic-zero-stci-consequences),
+the [arithmetic-mechanism report](#2026-10-21-z4-intrinsic-divided-power-mechanism),
+and the [quadratic-gluing comparison](#2026-10-21-z4-quadratic-gluing-comparison).
 The arguments below were reconstructed directly, with particular attention
 to generic versus everywhere assertions, compatibility with an existing
 complete intersection, and the scope of arithmetic nonvanishing.
@@ -501,7 +501,7 @@ include the next ambient neighborhood and the actual `J_n`.
 ## 4. Quadratic-gluing comparison, including its sign
 
 Use the exact local-isomorphism and marking hypotheses of the
-[comparison supplement](2026-10-21-z4-quadratic-gluing-comparison.md).
+[comparison supplement](#2026-10-21-z4-quadratic-gluing-comparison).
 Write `A₁=O_X/I²`, `B=Sym²E`, and
 `D₂=Der_S(A₁,B)`, with `B` acted on through `O_C`.
 
@@ -625,23 +625,23 @@ ambient is over \(R=\mathbf Z_{(2)}\) or \(\mathbf Z_2\). The prescribed
 special quotient has \(L=\mathcal O(-6)\), \(M=\mathcal O(-8)\).
 The following are inherited premises, not proofs rerun here:
 
-* The [corrected intrinsic audit](2026-10-21-intrinsic-ribbon-triple-independent-audit.md)
+* The [corrected intrinsic audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd)
   gives the canonical extension and identifies its splitting torsor with
   embedded primitive triples in the fixed ambient.
-* The [persistent relative audit](2026-10-21-z4-persistent-independent-audit.md)
+* The [persistent relative audit](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-persistent-independent-auditmd)
   supplies the relative Ext construction, the full integral Laurent
   coefficient polynomials, and the exhaustiveness of the marked quotient
   family. Its class is relative to the fixed marked integral problem.
-* The [coordinate-summand counterexample](2026-10-21-z4-coordinate-invariance-counterexample.md)
+* The [coordinate-summand counterexample](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-coordinate-invariance-counterexamplemd)
   invalidates assigning intrinsic meaning to one quadratic transition
   summand. The full extension remains intrinsic.
-* The [arithmetic precursor](2026-10-21-z4-divided-frobenius-origin.md) and
-  [Investigation 4](2026-10-21-investigation-4-general-pr-mechanism-preliminary.md)
+* The [arithmetic precursor](Z4_LIFTING_AND_DEFORMATION.md#2026-10-21-z4-divided-frobenius-origin) and
+  [Investigation 4](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-investigation-4-general-pr-mechanism-preliminarymd)
   supply the binomial valuation and divided cross-effect identities.
 
 The [consolidation dossier](../Z4_ARITHMETIC_CONSOLIDATION_2026-10-21.md)
 is navigation, not additional theorem authority. The
-[literature assessment](2026-10-21-z4-intrinsic-obstruction-literature.md)
+[literature assessment](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-intrinsic-obstruction-literaturemd)
 does not identify a verified divided-Frobenius map to this obstruction.
 No novelty claim about general deformation theory is made here.
 
@@ -817,7 +817,7 @@ calculation is not thereby extended to all ramified DVRs.
 
 ## 4. A genuine comparison map, with the arithmetic datum still missing
 
-The companion [quadratic gluing comparison](2026-10-21-z4-quadratic-gluing-comparison.md)
+The companion [quadratic gluing comparison](#2026-10-21-z4-quadratic-gluing-comparison)
 proves the following precise statement. Let two marked quadratic
 neighborhoods \(A_2,A_2'\) have the same first neighborhood
 \(A_1=\mathcal O_X/I^2\) and the same kernel
@@ -1190,9 +1190,9 @@ conormal or special-fiber data, no universal arithmetic nonvanishing
 theorem, and no deduction here about an arbitrary characteristic-zero
 STCI pair without the bridge analyzed in Investigation A.
 
-The [independent general-mechanism audit](2026-10-21-z4-general-mechanism-independent-audit.md)
+The [independent general-mechanism audit](#2026-10-21-z4-general-mechanism-independent-audit)
 records independent checks and any scope corrections. The separate
-[synthesis](2026-10-21-z4-general-mechanism-synthesis.md) compares these
+[synthesis](#2026-10-21-z4-general-mechanism-synthesis) compares these
 results with Investigation A. All claims remain unpromoted research
 evidence.
 
@@ -1304,7 +1304,7 @@ The following are inherited premises, rather than computations repeated in this 
 * [STCI-R-0001](../results/quartic_carrier_exclusion.md), with its accepted lower-degree and factor reduction, gives d,e at least five for any characteristic-zero STCI presentation of this C. Its complete quartic-carrier exclusion is not reopened here.
 * The fixed normal bundle is N=O(7) squared, hence E=I/I²=O(-7) squared. The basic generic local intersection and blow-up restrictions are recorded in [the simultaneous-surfaces synthesis](../synthesis/02-two-surfaces.md); the entirely-thick inequalities are not asserted to exclude that branch.
 * [STCI-R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) rules out the prescribed flat embedded Z4 lift over exactly Z_(2) and Z_2. It does not exclude arbitrary characteristic-zero STCI presentations or arbitrary ramified bases.
-* The [corrected independent ribbon-to-triple audit](2026-10-21-intrinsic-ribbon-triple-independent-audit.md) constructs, for a line quotient q:E onto L with kernel M, the canonical extension
+* The [corrected independent ribbon-to-triple audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd) constructs, for a line quotient q:E onto L with kernel M, the canonical extension
 
   \[
   0\longrightarrow L^2\longrightarrow B_q
@@ -1314,9 +1314,9 @@ The following are inherited premises, rather than computations repeated in this 
   \]
 
   Its Yoneda class o_X(q) in H¹(M dual tensor L²) vanishes precisely when the fixed embedded ribbon admits an ambient embedded primitive triple. This is independently audited evidence, not a new promoted canonical record. The distinction matters: the ambient triple need not be contained in a given Z.
-* The [persistent independent audit](2026-10-21-z4-persistent-independent-audit.md) proves the fixed marked integral first-order calculation and its precise relative meaning. In particular, every admissible integral quotient reducing to the specified q0 has a middle obstruction coefficient 2 modulo 4. This additional relative conclusion is audited evidence, rather than a broader restatement of R0012.
+* The [persistent independent audit](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-persistent-independent-auditmd) proves the fixed marked integral first-order calculation and its precise relative meaning. In particular, every admissible integral quotient reducing to the specified q0 has a middle obstruction coefficient 2 modulo 4. This additional relative conclusion is audited evidence, rather than a broader restatement of R0012.
 
-The [existing literature assessment](2026-10-21-z4-intrinsic-obstruction-literature.md) has been consulted. Its distinction between abstract multiple curves and fixed-ambient embedded extension is retained. No claim of priority over the multiple-curve literature is made for the elementary consequences proved here. The reports and the present proofs establish the stated scope; a familiar analogy with abstract extension or divided Frobenius is not being used as a theorem.
+The [existing literature assessment](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-intrinsic-obstruction-literaturemd) has been consulted. Its distinction between abstract multiple curves and fixed-ambient embedded extension is retained. No claim of priority over the multiple-curve literature is made for the elementary consequences proved here. The reports and the present proofs establish the stated scope; a familiar analogy with abstract extension or divided Frobenius is not being used as a theorem.
 
 ## 2. What an actual STCI presentation forces
 
