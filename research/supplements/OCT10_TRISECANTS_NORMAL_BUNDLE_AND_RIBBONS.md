@@ -29,7 +29,7 @@ The following separately accepted inputs were read in full for this audit:
   SHA-256 `77bc3c17b7832907fd2d859de6e4d82735f6b279efb923ecd9a865fbc0767550`.
 * [Lambda-one marked-prime classification](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-lambda-one-marked-prime-auditmd),
   SHA-256 `c7dd16ed8d9c18c921faaaaba130daec59fd2aec845f4ce59a9232567bb22f34`.
-* [Exclusion with the degree-zero horizontal prime absent](2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md),
+* [Exclusion with the degree-zero horizontal prime absent](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#19-genus-two-marked-section-case),
   SHA-256 `f6ac621d0906917947cbc5ea2ecb91c7ef85ab81129e8b1e2a9527fb47c07f26`.
 
 Let `X` be an integral nonnormal quartic carrier of
@@ -67,7 +67,7 @@ are distinct in both their Gamma coordinates and their f coordinates.
 For example, after a diagonal automorphism they are the three roots
 of `t^3-s^3`, while the actual plane-pencil map on `C0` is `[s:t]`.
 This elementary assertion is also recorded in
-[the conductor-line position note](2026-10-10-session-genus-two-conductor-line-position.md).
+[the conductor-line position note](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#15-genus-two-conductor-line-positions-on-the-fixed-quartic).
 
 **Conclusion:** no such mate exists. The proof below exhausts all
 effective divisor decompositions of `D_T`, including nonreduced ones.
@@ -975,7 +975,7 @@ Both mate strata must remain:
 
 **PROVED HERE / bounded exclusion.** In the second stratum, the
 [marked-prime audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-lambda-one-marked-prime-auditmd)
-and [independent no-zero-horizontal audit](2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md)
+and [independent no-zero-horizontal audit](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#19-genus-two-marked-section-case)
 exclude both one- and two-proper-horizontal-line cases when the
 degree-zero horizontal prime `B=e0-e_i-e_j` is absent. A survivor
 therefore requires `B` present. The anti-nef cycle pulled back from a
