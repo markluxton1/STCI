@@ -17,7 +17,7 @@ Permanent complete mathematical dossier. The arguments, calculations, precise sc
 
 Date: 2026-10-14. Status: **ALL-PARAMETER CONTACT BOUND; independently
 audited** in the
-[new A4 contact review](2026-10-14-generalization-quintic-intrinsic-a4-contact-independent-audit.md).
+[new A4 contact review](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-intrinsic-a4-contact-independent-audit).
 The actual conductor octic and complete
 intrinsic A4 target-fiber criterion are accepted inputs. The accepted
 all-power exclusion of `G=Jbar=0` is used as a premise, without replaying
@@ -93,7 +93,7 @@ not enumerate conductor multiplicity partitions.
 ## 3. Both values of Jbar satisfy the same h2 norm condition
 
 On the actual h2 locus, the independently reviewed
-[conductor--differential factor theorem](2026-10-14-generalization-quintic-h2-conductor-quotient.md)
+[conductor--differential factor theorem](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient)
 gives homogeneous `Fsrc=H Q6` in source coordinates `x=T/S=r/delta`.
 The intrinsic point is `S=0`. If H contains that point, the accepted
 leading-coefficient equations give G=j=0. That entire mate lane is already
@@ -141,7 +141,7 @@ not prove the remaining resultant locus empty or prove conductor power
 descent.
 
 The reviewed proposal is
-[the intrinsic A4 contact-bound note](2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md).
+[the intrinsic A4 contact-bound note](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-intrinsic-a4-contact-bound).
 The actual conductor octic, the complete A4 target-fiber criterion and
 the accepted exclusion of G=Jbar=0 are premises. No accepted verifier
 was replayed. This audit checks the new deductions directly and reads
@@ -255,7 +255,7 @@ literal new coefficients, and their precise geometric scope.
 
 Date: 2026-10-14. Owner: `quintic_shared_incidence/support_structural`.
 Status: **THE HOMOGENEOUS FACTOR, SEXTIC INCIDENCE AND HESSIAN CRITERION
-PASS [INDEPENDENT REVIEW](2026-10-14-generalization-quintic-h2-conductor-factor-independent-audit.md).
+PASS [INDEPENDENT REVIEW](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-factor-independent-audit).
 THE NEW NORM REDUCTION IN SECTION 6 HAS CAPTURED EXACT ARITHMETIC;
 ITS INDEPENDENT REVIEW IS PENDING.**
 Accepted conormal charts, the actual conductor theorem, the complete
@@ -390,7 +390,7 @@ For a binary form `K`, put
     D_K=(partial_t K) partial_s-(partial_s K) partial_t.
 
 The characteristic-zero logarithmic-support lemma in the
-[shared support note](2026-10-14-generalization-quintic-logarithmic-conductor-support.md)
+[shared support note](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-logarithmic-conductor-support)
 implies that support in a fixed quadratic `H` is equivalent to
 being an eigenvector of `D_H`. Since `D_H H=0`, (1) gives
 
@@ -586,8 +586,8 @@ quintic exclusion, an empty-locus certificate, or a conductor-descent
 theorem.
 
 The principal reviewed statements are in
-[the h2 conductor-quotient note](2026-10-14-generalization-quintic-h2-conductor-quotient.md)
-and [the corrected-coordinate sextic-incidence note](2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence.md).
+[the h2 conductor-quotient note](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient)
+and [the corrected-coordinate sextic-incidence note](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence).
 The accepted actual conductor theorem, corrected two conormal charts,
 complete homogeneous h2 cover, and exact A4 conductor value are premises.
 No accepted proof or CAS certificate was replayed. The new attempt05 and
@@ -863,11 +863,11 @@ Date: 2026-10-14. **Coordinate-binding correction:** the attempt02/04
 coefficient capture below used p->1-z while the h2 source and actual
 octic parameters are reciprocal. Its exact algebraic output is retained
 as a failed geometric bridge and must not be used as the actual h2
-incidence. The [corrected capture](2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence.md)
+incidence. The [corrected capture](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence)
 now uses z^8 F(1/z) and has passed literal transformation checks.
 The general support/eigenvector proof is unaffected.
 
-Status: **PROVED STRUCTURAL LEMMA, with [independent review](2026-10-14-generalization-quintic-logarithmic-support-independent-audit.md)**. This continues the existing quintic lane without
+Status: **PROVED STRUCTURAL LEMMA, with [independent review](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-logarithmic-support-independent-audit)**. This continues the existing quintic lane without
 splitting workers by root partitions. Accepted conductor forms, gcd
 covers and previously closed quintic charts are premises. No inherited
 certificate is replayed. The new lemma is valid in arbitrary degree;
@@ -1097,7 +1097,7 @@ binding.** This is an independent written proof audit, not a new quintic
 exclusion or a proof of emptiness of any coefficient locus.
 
 The reviewed proposal is
-[the logarithmic conductor-support note](2026-10-14-generalization-quintic-logarithmic-conductor-support.md).
+[the logarithmic conductor-support note](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-logarithmic-conductor-support).
 Accepted actual-conductor, homogeneous-gcd-cover and previous quintic
 certificates are premises. Their verifiers were not rerun. The audit
 checks the new elementary implications directly and checks the new
@@ -1311,14 +1311,14 @@ monic quadratic cover is explicitly defined with
     z=r/delta, H_z(z)=z^2+vz+w
 
 in section 1 and section 3 of the
-[accepted homogeneous-gcd audit](2026-10-13-session-nonendpoint-homogeneous-gcd-rank-and-cover-independent-audit.md).
+[accepted homogeneous-gcd audit](NONENDPOINT_CUBIC_PAIR_COMPLETION.md#2026-10-13-session-nonendpoint-homogeneous-gcd-rank-and-cover-independent-audit).
 The actual primitive conductor polynomial is F_p(p), with
 
     r0=delta/p,
     Pt(p)=p^3 P(delta/p)/delta^3
 
 in sections 2 and 4 of the
-[accepted diagonal-norm note](2026-10-12-session-nonendpoint-diagonal-norm-identity.md).
+[accepted diagonal-norm note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#4-nonendpoint-diagonal-norm-identity).
 Combining these definitions gives p=1/z on their common finite chart.
 It does not give p=1-z. The latter relation uses the target normalization
 coordinate z_target=1-p, which is a different coordinate from r/delta.
@@ -1390,7 +1390,7 @@ conclusion.
 
 Date: 2026-10-14. Status: **EXACT COORDINATE CORRECTION AND INCIDENCE
 CAPTURE; independently audited** in the
-[new factor and source-binding audit](2026-10-14-generalization-quintic-h2-conductor-factor-independent-audit.md).
+[new factor and source-binding audit](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-factor-independent-audit).
 Accepted parameter covers,
 the actual octic conductor, and previously closed quintic lanes are premises.
 This note makes no support-emptiness, full-descent, whole-quintic or universal
@@ -1457,7 +1457,7 @@ neither the accepted octic nor the rational inverse map is reconstructed.
 
 ## 2. Remove the forced differential factor before testing support
 
-The new [conductor--differential factor proof](2026-10-14-generalization-quintic-h2-conductor-quotient.md)
+The new [conductor--differential factor proof](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient)
 shows, on the entire actual h2 locus,
 
 ```
@@ -1606,13 +1606,13 @@ Thus all two-by-two minors of the first matrix and all three-by-three
 minors of the second form one homogeneous coefficient ideal.
 
 The separately audited
-[intrinsic A4 contact bound](2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md)
+[intrinsic A4 contact bound](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-intrinsic-a4-contact-bound)
 proves that after accepted G=j=0 mate closure, every j=0 full-support
 candidate has actual A4 conductor contact one or two. Therefore every
 surviving h2 mate candidate, including j=0, satisfies `Res(H,Q)=0`.
 On the captured finite inverse-map chart this is the single necessary
 condition `N12*N18=0` from the
-[bounded norm calculation](2026-10-14-generalization-quintic-h2-conductor-quotient.md).
+[bounded norm calculation](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient).
 Neither factor is separately declared impossible.
 
 This contact bound also gives one coefficient-open condition useful for
