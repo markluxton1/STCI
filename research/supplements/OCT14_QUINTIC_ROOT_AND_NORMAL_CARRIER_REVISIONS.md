@@ -552,7 +552,7 @@ The accepted normalization model and actual center-avoidance conditions
 give a finite birational projection `nu:S->X`, with `c` mapped
 isomorphically to C0. A mate forces full inverse support
 `nu^{-1}(C0)_red=c`. The
-[accepted conductor module audit](2026-10-12-session-conductor-quadric-module-independent-audit.md)
+[accepted conductor module audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md)
 identifies the upstairs conductor with an actual Cartier divisor in
 `|2H|`, whose restriction to c is a nonzero degree-eight binary form F.
 The accepted local-ring argument implies
@@ -866,7 +866,7 @@ SymPy; it supplies no evidence.
 ## 8. Independent review of the existing regular-L1 geometric bridge
 
 The exact identities in the
-[October 13 quotient-fiber note](2026-10-13-session-nonendpoint-single-root-quotient-fibers.md)
+[October 13 quotient-fiber note](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md)
 were already captured and verified, but its geometric bridge still
 requested independent review. This section reviews only that implication;
 its eleven-identity checker and separate exact double-root checker were
