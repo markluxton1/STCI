@@ -1,5 +1,16 @@
 # NORMAL BOUNDARY WEIGHTED INITIALS AND LIFTING
 
+## Integration guide: boundary repair versus weighted initial data
+
+Two complementary approaches occur below. The [global lifting criterion](#boundary-repair-global-lifting) asks whether a prescribed divisor on the curve can repair a failed global section-lifting condition; the [weighted-initial calculation](#weighted-initials-normal-boundary) studies how initial ideals and chamber decompositions change with normal weights and coefficient valuations. Neither computation may replace the other.
+
+For a genuine surface pair, the allowable sections come from the homogeneous equation space, not the whole space of sections of a normal bundle. The [one-step boundary obstruction](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction) supplies a separate equation-module comparison. The [intrinsic valuation dossier](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd) explains why arbitrary coefficient-pole series are outside the naive real-weight minimum and why scalar ideal values fail to determine colength. The [higher-initial dossier](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-higher-initial-ideals-valuations) preserves cancellation phenomena that first normal forms can miss.
+
+**Open implication:** translating a locally admissible weighted initial configuration into an actual global pair with no residual support remains unproved here. Boundary repair is a test on a specified equation module, not an existence theorem for STCI pairs. The full chamber calculations and failed shortcuts remain below.
+
+---
+
+
 Permanent subject consolidation. All source mathematical detail retained with its original conditional and audited status; no new theorem promotion.
 
 
