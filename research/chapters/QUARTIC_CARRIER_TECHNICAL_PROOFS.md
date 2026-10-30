@@ -78,6 +78,16 @@ takes two different values. If any positive power \(Q^n\) descended, the ratio o
 
 **Retention assessment:** the ribbon-net independent audit is the source of the two-chart conormal calculation and orbit classification; the repeated-partition independent audit is the source of the universal ideal equalities and unbounded-power obstruction. Both remain essential verification records, even though their principal mathematical deductions are now represented here. The separate owner proofs should be compared against these exact certificates for unique computational or geometric material before any retirement decision.
 
+### Endpoint [4] derivative partition: direct line-singularity argument
+
+Under the genus-one ribbon-net and fixed-projection hypotheses of Section 2, take the second pencil quadric with vanishing coefficient of \(E_3\). Its derivative on the rational normal quartic is
+\[
+L_C=c_0U^4-c_1U^3V-c_4UV^3+c_5V^4.
+\]
+If its zero divisor is \([4]\), writing \(L_C=\lambda(\alpha U+\beta V)^4\) forces \(6\alpha^2\beta^2=0\). In characteristic zero the quadruple root is therefore an endpoint. The coordinate reversal preserves the omitted-middle projection center, so normalize \(L_C=U^4\). Then \(Q_2=E_0+hE_2\), whose net matrix has determinant \(-h^3\); a nonzero kernel direction forces \(h=0\). Thus \(Q_2=E_0\), and the net direction \(\eta=(a,b,c)\) satisfies \(a=0\), \(b\ne0\).
+
+Full singleton support forces the other derivative to vanish at that endpoint, giving \(c_5=0\). The net equations then imply \(c_4=0\), \(c_2=-c_3\), \(c_1=cc_3/b\). Modulo \(Q_2\), the other pencil quadric is a combination of \(E_1\) and \(E_3-E_2\). Both quadrics vanish on the line \(Y_0=Y_1=Y_2=0\), and \(\nabla E_0=0\) there. Their intersection is singular along that line, contradicting normality of the required surface. This excludes the entire \([4]\) partition under the stated hypotheses, independently of the other partitions. The original standalone proof is incorporated here; the complete partition classification remains supported by the repeated-partition audit.
+
 ## 3. Nonendpoint trisecant: exact all-length contradiction
 
 The normal conic model has an exceptional divisor of bidegree \((2,2)\) on \(\mathbf P^1\times\mathbf P^1\), with distinguished horizontal \(B\) of class \((1,0)\). Multiplicity two on \(B\) leaves two ruling fibers and violates singleton inverse support. With multiplicity one, the residual class is \((1,2)\). Every reducible residual is either a \((1,1)\) curve plus a ruling fiber or a second horizontal plus two ruling fibers, including doubled fibers; the [audit](../notes/2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md) handles the coefficient-zero horizontal boundary. The remaining integral residual is a rational graph, meeting \(B\) in two transverse points.
