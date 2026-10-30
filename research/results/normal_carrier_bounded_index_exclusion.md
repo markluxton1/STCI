@@ -51,3 +51,7 @@ Required hypotheses:
 Canonical dependencies: STCI-R-0034, STCI-R-0001. Additional inherited premises are in the proof and audit.
 - Indices six, twelve and higher are not excluded
 - No conclusion for nonnormal or entirely-thick presentations
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/04-carriers.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
