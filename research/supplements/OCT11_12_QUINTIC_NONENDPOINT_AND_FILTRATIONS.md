@@ -235,9 +235,9 @@ base-point projections are excluded from admissibility, not assumed away
 inside a purported parameter exhaustion.
 
 The normalization and lifted curve have the exhaustive pair (S,c) in the
-[intrinsic classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
+[intrinsic classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md),
 with the independently reconstructed
-[explicit model](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
+[explicit model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
 and [local A4 chart](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-dp5-a4-local-chart-independent-auditmd).
 The frozen [quintic structural frontier](#source-2026-10-11-session-quintic-structural-frontiermd)
 and [del Pezzo/conormal audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md)
@@ -853,8 +853,8 @@ Work over an algebraically closed field of characteristic zero.
 ## 1. The full nonendpoint parameter and actual sections
 
 Use the accepted genus-one normalization pair in the
-[intrinsic classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
-and [explicit model](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
+[intrinsic classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
+and [explicit model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 On S minus ell use r,T with
 
     U=(1,r,r^2,r^3-rT,r^4-(2r^2+r)T+T^2), h=T.
@@ -1053,7 +1053,7 @@ This is a proper closed necessary locus, not a claim that it supports
 mates or an exhaustion of that locus. All finite common roots, common
 roots at infinity, repeated roots and higher contact remain retained.
 The normalization model and lifted pair are the previously accepted
-[intrinsic pair](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md).
+[intrinsic pair](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 The intrinsic pair's uniqueness does not make its projections one orbit.
 The separation modulus cannot be normalized to one.
 
