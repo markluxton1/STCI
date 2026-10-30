@@ -1658,7 +1658,7 @@ The inherited inputs are:
   separately audited factor-reduction consequence. The unique quadric cannot
   divide either equation in an STCI presentation. The exact restriction
   argument yielding degree at least three times normal order is also in
-  the accepted [thick audit](2026-10-06-session-thick-independent-audit.md),
+  the accepted [thick audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit),
   first section. There is no separate promoted record for that numerical
   restriction. The elementary argument is included below.
 
