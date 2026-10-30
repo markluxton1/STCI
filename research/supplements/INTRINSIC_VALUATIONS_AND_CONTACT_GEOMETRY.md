@@ -283,6 +283,16 @@ The strongest construction is the intrinsic rank-two blowup-flag valuation, toge
 
 ---
 
+### Consolidated valuation theorem, example and limits
+
+The preceding coefficient-valuation construction and the independent review establish one scoped local framework. Every nontrivial valuation of \(k(C)=k(z)\) trivial on algebraically closed \(k\) is proportional to \(\operatorname{ord}_p\) for a unique closed point \(p\in C\). A chosen prolongation to an algebraic closure has value group \(\mathbf Q\) and residue field \(k\); the prolongation itself is not canonical. For a valued coefficient field \((L,w)\) and positive weights \(\alpha,\beta\), the minimum
+\[
+v\!\left(\sum a_{ij}U^iV^j\right)=\min_{a_{ij}\ne0}\{w(a_{ij})+i\alpha+j\beta\}
+\]
+is a multiplicative valuation on \(L[U,V]\) and extends to \(L(U,V)\), because the coefficient associated graded ring is a domain. It is **not** finite on arbitrary \(L[[U,V]]\): the series \(\sum_{n\ge0}z^{-n^2}U^n\), at \(w(z)=1\), has unbounded-below term weights. A bounded-tail completion or a normal-first valuation is required.
+
+The valuation's expression depends on a chosen normal frame. Under a general \(\mathrm{GL}_2(K)\) change, the values of the two new variables alone need not determine the original valuation; residue relations between their initial forms are necessary. Even the full collection of scalar ideal values does not in general recover Artin colength. The blowup-flag interpretation is intrinsic only when the flag, residue and descent data are retained. The \(\mu_4\) calculation is a prescribed local test, not a characteristic-zero exclusion. The proof, counterexamples and independent reconstruction remain in the source sections below; the separate weighted-chamber continuation is in [weighted initials and boundary lifting](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md).
+
 ## 2026-10-23-intrinsic-contact-valuations-independent-audit.md
 
 # Independent review of intrinsic contact and coefficient valuations
