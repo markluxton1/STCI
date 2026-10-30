@@ -3,6 +3,18 @@
 Full historical mathematical content retained by topic, including computational details, substantive failures and independently reviewed limitations. No theorem promotion.
 
 
+## Mathematical reading route
+
+The calculations concern several distinct ruled models. Their common projection geometry does not identify their normalizations or marked curves.
+
+1. **Paired-secant cubic:** `cubic-scroll-normalization` gives finite normalization, the smooth scroll, the singular line and its conductor. `cubic-scroll-gauss-dual` computes the dual geometry.
+2. **Four-sheet quartic cone:** `four-sheet-ruled-surface` distinguishes the plane-quartic cone, finite normal cone, F4 resolution and four marked curves. Normalization is finite; the resolution is not.
+3. **Projection comparison:** `p4-ruled-surfaces-synthesis` and `projection-cone-ruled-model` compare constructions through the rational normal quartic and chosen elementary transformations.
+4. **Arithmetic specialization:** `ruled-surfaces-arithmetic` studies the finite-flat four-section divisor, projective image, and failure of normalization to commute with special-fiber formation.
+
+Canonical statements are in [R-0028](../results/quartic_ruled_projection_geometry.md) and [R-0029](../results/quartic_arithmetic_ruled_models.md). Detailed sections retain exploratory calculations and limitations without promoting them.
+
+
 ---
 
 ## four-sheet-ruled-surface
