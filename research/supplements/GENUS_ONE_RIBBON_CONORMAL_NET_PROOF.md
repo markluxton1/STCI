@@ -1,5 +1,12 @@
 # genus one ribbon net independent audit
 
+## Dependency guide: ribbon reduction and quadratic net
+
+This is the **upstream conditional reduction**: the degree-four ADE del Pezzo normalization and D5 torsion inputs force the indicated double divisor to be a ribbon and constrain its conormal quadratic net. Its two direction orbits organize, but do not by themselves exclude, all projection/contact cases. See [uniform projection conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md), [the repeated-partition proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md), and [independent partition certificates](GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md). Preserve the stated normalization hypotheses; the ribbon conclusion is not a theorem about arbitrary quartic carriers.
+
+---
+
+
 Permanent detailed mathematical record, including all proofs, calculations, counterexamples and explicit unresolved conditions.
 
 # Bounded audit: the genus-one double divisor is a ribbon, and its quadratic net has two direction orbits
