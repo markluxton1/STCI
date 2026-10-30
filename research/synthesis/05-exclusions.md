@@ -2,6 +2,8 @@
 
 This chapter records **what is excluded** and the hypotheses and proof architecture behind those exclusions. Older arguments are mentioned only when needed to prevent an obsolete open case from being mistaken for a current one. This guide does **not** replace the underlying case proofs and independent audits.
 
+The lower-degree exclusion is a theorem about the **fixed embedded curve** and its projective equivalents. It does not rule out higher-degree carriers; the [frontier](../FRONTIER.md) and [dependency map](DEPENDENCIES.md) identify the missing steps.
+
 ## 5.1 The precise theorem
 
 Fix an algebraically closed field \(k\) of characteristic zero and
