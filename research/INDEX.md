@@ -175,3 +175,11 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Cyclic-cover counterexamples and moving-linear rigidity](supplements/CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md)
 - [Local-cohomology degree-15 calculations and certificates](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
 - [Finite-root families and smooth-root formal obstructions](supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md)
+
+## Uniform root towers and quintic H2 calculations
+
+- [Uniform root towers and inseparable blowup bridges](supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md)
+- [Quadratic-root second-zero and dual compression](supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md)
+- [Quintic H2 spectral and generator systems](supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md)
+- [Quintic H2 monic ODE and open incidence](supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md)
+- [Projection torsion, rational phase bounds and nef formal branches](supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md)
