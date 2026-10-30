@@ -96,7 +96,7 @@ or star assumptions. Conditional small-graph bounds do not constitute a
 geometric exclusion until their hypotheses are proved. Both mate strata
 remain open.
 
-The new [entire-conductor independent audit](2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
+The new [entire-conductor independent audit](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md)
 accepts a substantial additional reduction without a mate: all singularities
 of the normalization are rational, the actual downstairs conductor scheme
 is a reduced line with no embedded or isolated points, and the entire
@@ -424,7 +424,7 @@ reducible and nonreduced conductor configurations before excluding them.
 ## 3. Preserved weaker bisection reductions and superseded survivors
 
 The independently checked four-blowup and
-[even-fiber arguments](2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md)
+[even-fiber arguments](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md)
 first left only odd partitions `[3,1]` and `[1,1,1,1]`. The older
 second-pencil note's retained `[2,1,1]` was superseded by the local
 integral-correction argument. The
@@ -1409,7 +1409,7 @@ conormal map is used.
 ## 5. The originally requested conductor chain remains valid but weaker
 
 I independently audited Sections 2--4 of the [quadratic-descent note](2026-10-10-session-genus-two-bisection-quadratic-descent.md),
-and the [even-fiber exclusion](2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md).
+and the [even-fiber exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md).
 Their necessary reductions are valid. They are superseded as open
 mate possibilities by the contradiction above.
 
