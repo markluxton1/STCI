@@ -281,7 +281,7 @@ F=x_1^4-x_0^3x_3,\quad G=x_2^4-x_0x_3^3,
 \quad Z=V(F,G).
 \]
 
-The prescribed decomposition and its characteristic-two coalescence are the promoted input [STCI-R-0021](../results/quartic_mu4_degeneration.md), with its [source calculation](2026-10-23-quartic-characteristic-conormal.md). This note uses that geometry without reopening its verification. The actual partial-splitting family below is developed in [the deformation laboratory](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-deformation-laboratorymd), Section 4. The accompanying [conductor/topology note](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd) supplies the genus ledger.
+The prescribed decomposition and its characteristic-two coalescence are the promoted input [STCI-R-0021](../results/quartic_mu4_degeneration.md), with its [source calculation](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#quartic-characteristic-conormal). This note uses that geometry without reopening its verification. The actual partial-splitting family below is developed in [the deformation laboratory](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-deformation-laboratorymd), Section 4. The accompanying [conductor/topology note](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-conductor-topologymd) supplies the genus ledger.
 
 ## 1. First distinguish the centers of the valuations
 
