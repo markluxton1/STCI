@@ -30,7 +30,7 @@ K3 resolution of a general member of the hypothetical pencil.
 The proof retains the promoted balanced-conormal calculation
 [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md) and the
 general accepted source-level
-[saturated Gorenstein pairing theorem](2026-10-05-mf6-pairing-audit.md).
+[saturated Gorenstein pairing theorem](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit).
 The latter is not a separately promoted result ID; the rank-four pairing
 needed here is also reconstructed directly by its Frobenius determinant
 in the new proof and audit. The unique smooth
@@ -273,7 +273,7 @@ singularities.
    \(q=x_0x_3-x_1x_2\); \(C\) has class \((3,1)\), up to exchanging the
    rulings.
 2. The accepted source-level
-   [saturated pairing audit](2026-10-05-mf6-pairing-audit.md), sections 1–2,
+   [saturated pairing audit](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit), sections 1–2,
    proves that a finite-free Gorenstein algebra with generic fiber
    \(K[v]/(v^4)\) has invertible saturated layers and perfect multiplication
    \(E_1\otimes E_2\longrightarrow E_3\).
@@ -1108,7 +1108,7 @@ Established inputs, with their exact scopes:
   [its proof](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-quartic-obstruction), and
   [independent audit](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-lift-independent-audit).
 - The intrinsic codimension-three restriction sequence is also recorded in
-  [the earlier quartic jet supplement](2026-10-06-quartic-jet-geometry-structural-supplement.md#1-the-unique-quadric-and-the-first-normal-codimension-three).
+  [the earlier quartic jet supplement](NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#1-the-unique-quadric-and-the-first-normal-codimension-three).
   That file's obsolete frontier labels are not used.
 
 New computations:
@@ -1124,7 +1124,7 @@ The first script uses Python's standard library; the contact scripts use SymPy.
 The temporary runtime is contextual, not a portable prerequisite: any
 compatible Python with SymPy can run it. See
 [execution evidence](../validation/44-conormal-2026-10-23/README.md),
-[the independent geometry/symbol audit](2026-10-23-quartic-geometry-symbol-independent-audit.md),
+[the independent geometry/symbol audit](OCT21_26_Z4_QUARTIC_SPECIAL_GEOMETRY_AND_FILTRATION.md#source-2026-10-23-quartic-geometry-symbol-independent-auditmd),
 and [the independent filtered-proof audit](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-independent-auditmd).
 The computations verify displayed identities and complete finite linear
 maps; the global nonexistence deduction also uses the explicit mathematical
