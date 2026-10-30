@@ -59,8 +59,8 @@ not apply to the whole `Y` when other components are present.
 ## 2. Dependencies and authority
 
 The characteristic-zero apolar bundle calculation is an accepted input
-from [the pure-power tower](2026-10-14-generalization-moving-power-obstruction-tower.md)
-and [its independent audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
+from [the pure-power tower](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-power-obstruction-tower)
+and [its independent audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
 For every `j>=r-1`, it gives
 
     Sym^j E/(W^r tensor Sym^(j-r)E)
@@ -299,7 +299,7 @@ graded family back to an actual thickening.
 The accepted inputs are the socle-line and Gorenstein MCM duality facts
 in [the independent socle audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd),
 and the root-quotient identification of R-0008 and its
-[independent evidence](2026-10-14-generalization-spectral-root-curve-independent-audit.md).
+[independent evidence](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
 The existing socle audit proves perfect ordinary pairings under extra
 conditions. The perfect **saturated** pairing established next is the
 new bridge; no assertion that the ordinary powers are already saturated
