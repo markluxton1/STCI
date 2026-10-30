@@ -33,11 +33,11 @@ The live checkout inspected here had HEAD
 `2ba77d1a1177db9390693066c6b185040766c089`. The source notes and working-tree
 canonical records were read rather than treating an older pause summary as
 current evidence. The October 10 resumed
-[acceptance](2026-10-10-session-continuation-results-acceptance.md) already
+[acceptance](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-continuation-results-acceptancemd) already
 accepts the bisection and nonendpoint section exclusions. Its remaining
 endpoint label is its preserved earlier frontier. The subsequently saved
-[full endpoint reduction](2026-10-10-session-genus-two-endpoint-full-quartic-reduction.md)
-and [binding independent audit](2026-10-10-session-genus-two-endpoint-full-independent-audit.md)
+[full endpoint reduction](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-endpoint-full-quartic-reductionmd)
+and [binding independent audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-endpoint-full-independent-auditmd)
 supply the missing component checked in this assembly. Root acceptance and
 canonical reconciliation remain distinct actions.
 
@@ -67,10 +67,10 @@ complete split used by the proof.
 |---|---|
 | Integral normal quartic | [Normal global audit](2026-10-07-session-normal-global-adversarial.md), including [nonreduced exceptional cycles](2026-10-07-session-normal-nonreduced-independent-audit.md) |
 | Nonnormal, `pi=0` | [Minimal-degree classification and cone audit](2026-10-09-session-normalization-genus-zero-independent-audit.md), with the accepted entire F0/F2 scroll and Veronese projection proofs |
-| Nonnormal, `pi=1` | [All genus-one interfaces](2026-10-10-session-genus-one-interface-independent-audit.md) and [all repeated contact partitions](2026-10-10-session-ribbon-repeated-partitions-independent-audit.md) |
-| Nonnormal, `pi=2`, `lambda=0` | [Full second-pencil/Cartier-double/ribbon audit](2026-10-10-session-genus-two-bisection-full-independent-audit.md) |
-| Nonnormal, `pi=2`, `lambda=1`, three distinct contacts | [Full nonendpoint trisecant audit](2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md) |
-| Nonnormal, `pi=2`, `lambda=1`, one triple contact | [Full endpoint audit](2026-10-10-session-genus-two-endpoint-full-independent-audit.md), including reversal of the endpoint |
+| Nonnormal, `pi=1` | [All genus-one interfaces](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd) and [all repeated contact partitions](2026-10-10-session-ribbon-repeated-partitions-independent-audit.md) |
+| Nonnormal, `pi=2`, `lambda=0` | [Full second-pencil/Cartier-double/ribbon audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-two-bisection-full-independent-auditmd) |
+| Nonnormal, `pi=2`, `lambda=1`, three distinct contacts | [Full nonendpoint trisecant audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-auditmd) |
+| Nonnormal, `pi=2`, `lambda=1`, one triple contact | [Full endpoint audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-endpoint-full-independent-auditmd), including reversal of the endpoint |
 
 There is no separate nonrational-normalization row: the
 [ruled intersection audit](2026-10-09-session-nonrational-normalization-independent-audit.md)
@@ -165,7 +165,7 @@ The [entire conductor proof](2026-10-10-session-genus-two-entire-conductor-indep
 establishes rational singularities of S and the actual reduced downstairs
 conductor line, with no embedded or isolated components. Its upstairs
 quadratic algebra retains split, singular and nonreduced covers. The
-[normal ambient-model proof](2026-10-10-session-genus-two-blowup-lift-normality-independent-audit.md)
+[normal ambient-model proof](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-blowup-lift-normality-independent-auditmd)
 constructs the actual strict transform in the ambient line blowup and proves
 its normal ADE property by proper trace, before invoking crepancy. It is T,
 not the possibly non-Gorenstein S, which is asserted ADE. The pulled line
@@ -215,7 +215,7 @@ away-contact contribution `2 v^t Q^(-1) v=ord(h)`. The actual contact
 equation gives total contribution at most 5/2, below the required three.
 This is the calculation closing the potentially dangerous repeated scheme;
 an assumed all-A-chain graph or an abstract D7 numerical example is not used
-to assert realizability or exclusion. The [full endpoint binding audit](2026-10-10-session-genus-two-endpoint-full-independent-audit.md)
+to assert realizability or exclusion. The [full endpoint binding audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-endpoint-full-independent-auditmd)
 checks these actual family interfaces and local attachments. Reversal closes
 the second endpoint. This exhausts `lambda=1` and hence the genus-two lane.
 
@@ -266,7 +266,7 @@ every integral degree-four factor. Therefore:
 
 This conclusion includes reducible and repeated presentations. It does not
 assert that degree five is attained or that a higher-degree pair exists.
-The delegated [degree-factor microaudit](2026-10-11-session-degree-factor-and-mf6-scope-audit.md)
+The delegated [degree-factor microaudit](#source-2026-10-11-session-degree-factor-and-mf6-scope-auditmd)
 separately inspected the actual [CG1989 primary PDF](https://www.numdam.org/item/RSMUP_1989__81__171_0.pdf),
 printed pages 171--173: its base field is already algebraically closed of
 characteristic zero, its mate has arbitrary degree, and its cubic carriers
@@ -360,7 +360,7 @@ characteristic-zero question for fixed
 quartic-carrier theorem assembled from the preserved October 9--10
 proofs and the new genus-two arguments. It supersedes the endpoint-open
 frontier in the
-[October 10 continuation acceptance](2026-10-10-session-continuation-results-acceptance.md).
+[October 10 continuation acceptance](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-continuation-results-acceptancemd).
 The source notes retain their dated scopes and historical open labels.
 No claim of novelty is made without a separate literature assessment.
 
@@ -396,10 +396,10 @@ assuming a mate.
 | --- | --- |
 | Normal integral quartic | The prior all-degree normal-quartic theorem, routed by the [October 9 acceptance](2026-10-09-session-results-acceptance.md) and canonical state. |
 | Nonnormal, sectional genus zero | The [complete genus-zero audit](2026-10-09-session-normalization-sectional-genus-zero.md), including smooth scrolls, the Veronese and the rational cone, with the prior separate applicability and conductor audits. |
-| Nonnormal, sectional genus one | The [October 10 acceptance](2026-10-10-session-results-acceptance.md), complete fixed-center ribbon net, all five root partitions, actual conductor and arbitrary-power descent. |
-| Nonnormal, sectional genus two, lambda zero | The [full bisection audit](2026-10-10-session-genus-two-bisection-full-independent-audit.md) and global Cartier-double/ribbon obstruction accepted in the [resumed October 10 record](2026-10-10-session-continuation-results-acceptance.md). |
-| Nonnormal, sectional genus two, lambda one, nonendpoint trisecant | The [complete nonendpoint coverage audit](2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md), including every effective `(2,2)` conductor decomposition and arbitrary endpoint A-chain lengths. |
-| Nonnormal, sectional genus two, lambda one, endpoint trisecant | The [full endpoint proof](2026-10-10-session-genus-two-endpoint-full-quartic-reduction.md) and [binding independent audit](2026-10-10-session-genus-two-endpoint-full-independent-audit.md), accepted below. |
+| Nonnormal, sectional genus one | The [October 10 acceptance](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-results-acceptancemd), complete fixed-center ribbon net, all five root partitions, actual conductor and arbitrary-power descent. |
+| Nonnormal, sectional genus two, lambda zero | The [full bisection audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-two-bisection-full-independent-auditmd) and global Cartier-double/ribbon obstruction accepted in the [resumed October 10 record](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-continuation-results-acceptancemd). |
+| Nonnormal, sectional genus two, lambda one, nonendpoint trisecant | The [complete nonendpoint coverage audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-auditmd), including every effective `(2,2)` conductor decomposition and arbitrary endpoint A-chain lengths. |
+| Nonnormal, sectional genus two, lambda one, endpoint trisecant | The [full endpoint proof](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-endpoint-full-quartic-reductionmd) and [binding independent audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-endpoint-full-independent-auditmd), accepted below. |
 
 The genus-two mate identity has exactly the two alternatives
 `(lambda,q)=(0,4),(1,3)`. The actual normal ambient conic model identifies
@@ -414,12 +414,12 @@ Root has read the new complete proofs and independently reconstructed
 the ribbon Euler calculation, global conormal map, conductor divisor
 cases, local factorization identities and correction equations. Root
 also accepts the completed
-[independent dependency/coverage assembly](2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md)
+[independent dependency/coverage assembly](#source-2026-10-11-session-all-quartic-dependency-assembly-independent-auditmd)
 at SHA-256 `ca4b7e8a174b2cd17536052ae3cae59f535c8674f6e2af732b44a15703522f73`.
 It checks every older dependency scope, the noncircular use of prior
 P-040, all normalization genera, both mate strata and every conductor
 line position. Its separately completed
-[degree-factor microaudit](2026-10-11-session-degree-factor-and-mf6-scope-audit.md)
+[degree-factor microaudit](#source-2026-10-11-session-degree-factor-and-mf6-scope-auditmd)
 checks the reduced/integral factor argument and the actual primary
 characteristic-zero cubic theorem.
 
@@ -441,14 +441,14 @@ The proof exhausts:
   branch-preserving relative formal proof gives endpoint A-chains and
   the all-length correction coefficient strictly below one.
 * A triple residual intersection. The
-  [local ADE audit](2026-10-10-session-endpoint-local-ade-correction-audit.md)
+  [local ADE audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-endpoint-local-ade-correction-auditmd)
   retains the full ambient equation: an endpoint A-chain, an internal
   A-chain with exact coefficient `2/(n+5)`, or the actually realized
   D4 with coefficient `1/4`. The all-quadratic-terms-zero case violates
   ADE multiplicity two. The abstract D7 numerical shield is not a
   realization of this equation.
 * The doubled-horizontal divisor `2B_T+2F0`. The
-  [complete doubled-horizontal audit](2026-10-10-session-genus-two-endpoint-double-horizontal-independent-audit.md)
+  [complete doubled-horizontal audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-endpoint-double-horizontal-independent-auditmd)
   uses the crepant residue to prove the exact identity
   `2 v^t Q^(-1) v=ord(h_B)` at every away-contact normal-derivative
   root. The global normal derivative has degree three, so infinity,
@@ -499,15 +499,15 @@ counterexample, or universal positive theorem has been proved.
 
 ## 5. Evidence and literature status
 
-The fresh [primary-literature refresh](2026-10-10-session-primary-literature-frontier-refresh.md)
+The fresh [primary-literature refresh](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-primary-literature-frontier-refreshmd)
 checks exact hypotheses in Craighero--Gattazzo, Jaffe, Ellia and
 Hartshorne--Polini. None of the checked primary sources supplies this
 full arbitrary-mate quartic theorem. This bounded finding does not
 certify novelty. The unrestricted questions retain their stated open
 repository status.
 
-The [ribbon/conormal microaudit](2026-10-10-session-bisection-ribbon-conormal-microaudit.md)
-and [independent weighted-ribbon interface audit](2026-10-10-session-weighted-ribbon-conormal-independent-audit.md)
+The [ribbon/conormal microaudit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-bisection-ribbon-conormal-microauditmd)
+and [independent weighted-ribbon interface audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-weighted-ribbon-conormal-independent-auditmd)
 supply separate checks of the full global nilideal and nonzero ambient
 conormal map in the bisection theorem. Their agreement is not used in
 place of the written sheaf arguments.
@@ -533,7 +533,7 @@ certifies current bytes and routing, not theorem truth by check count.
 ## 6. Root-reviewed continuation beyond degree four
 
 Root has read and accepts the bounded structural results in the frozen
-[quintic frontier](2026-10-11-session-quintic-structural-frontier.md),
+[quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 SHA-256 `4e84d1183435f8509df48b6b1d02fb4f00f29736ec8670bb09b2577dc991595b`,
 and its [independent audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
 SHA-256 `9cf5438894e3fb07f2094b4bcc1280ec0ead01822155d3897aceb73ffc1011fb`.
@@ -566,7 +566,7 @@ remain open.
 
 Root also accepts the actual finite-flat multiplication-duality proof
 and necessary inequalities in the frozen
-[multiplicity-ten audit](2026-10-11-session-multiplicity-ten-filtration-audit.md),
+[multiplicity-ten audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd),
 SHA-256 `90bd87fad8cf0f10fe39b4e8d9c3946fc38a3424d497ce3f5ad969c5047221e3`.
 For a hypothetical (5,8) pair, the first saturated line has degree
 `-7,-6,-5`, with top defects of degree `25,16,7`. Four actual effective
@@ -1197,7 +1197,7 @@ characteristic-zero question for
 
 ## Accepted and sealed milestone
 
-The [all-quartic acceptance](2026-10-11-session-all-quartic-results-acceptance.md)
+The [all-quartic acceptance](#source-2026-10-11-session-all-quartic-results-acceptancemd)
 assembles a written, independently audited exclusion of every integral
 quartic surface containing fixed C0, with a mate of any positive degree.
 It includes normal and nonnormal carriers, singular normalizations and the
@@ -1222,7 +1222,7 @@ frozen acceptance and seal unless already reached by their recorded scope.
 
 ## Accepted quintic structural frontier
 
-The frozen [quintic frontier](2026-10-11-session-quintic-structural-frontier.md)
+The frozen [quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd)
 and its [independent audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md)
 exclude the full sectional-genus-zero normalization lane. Under a mate,
 smooth normalization is impossible. Rationality is proved through
@@ -1239,7 +1239,7 @@ divisor relations. There is an actual section `Q` of `4H` with divisor
 `4k`, with k at least two; the first remaining degree pair is (5,8).
 The upstairs quartic section is not an ambient quartic without descent.
 
-The [multiplicity-ten filtration](2026-10-11-session-multiplicity-ten-filtration-audit.md)
+The [multiplicity-ten filtration](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
 leaves 308 necessary numerical profiles for (5,8). They are not realized
 structures, a classification of all embedded structures, or an exclusion.
 
