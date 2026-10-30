@@ -15,6 +15,12 @@ A necessary condition is not sufficient; a conditional reduction is not an uncon
 
 This map records **logical dependence** separately from **conceptual contact**. For exact hypotheses and audit links, consult the individual result records.
 
+## Canonical scope checks for the three routes
+
+- **Determinant and conormal:** [R-0032](../results/full_conormal_socle_budget.md) is a necessary filtration/socle identity for an actual supported complete intersection, subject to its degree-bound hypothesis; it does not construct the next embedded layer. [R-0030](../results/local_filtration_comparison_defect.md) is local and does not decide whether punctual defects occur under sole reduced support. The reviewed one-step determinant criterion remains source-level, not promoted.
+- **Residual and low-degree:** [R-0001](../results/quartic_carrier_exclusion.md) excludes integral quartic carriers for the fixed embedding and all mate degrees. [R-0022](../results/quartic_44_filtered_exclusion.md) is an independent narrower (4,4) exclusion with inherited filtration prerequisites. Neither gives a uniform higher-degree residual bound.
+- **Carrier and conductor:** [R-0035](../results/normal_carrier_bounded_index_exclusion.md) applies to normal integral carriers only with actual local Cartier indices at most four and inherited torsion/direction inputs. [R-0036](../results/pointwise_conductor_socle_defect.md) requires a single smooth Cartier inverse branch and additional normalization/conductor hypotheses. Neither covers arbitrary higher-index, nonnormal or multiple-branch carriers.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
