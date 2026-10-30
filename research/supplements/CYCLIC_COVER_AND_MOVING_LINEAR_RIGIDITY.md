@@ -11,7 +11,7 @@ Permanent subject dossier retaining full mathematical computations, counterexamp
 Date: 2026-10-14. Author: `cyclic_cover_structure/local_torsion_curve`.
 
 Status: **PROVED HERE**, with an independent audit of the explicit families in
-[2026-10-14-cyclic-cover-D4-counterexample-audit.md](2026-10-14-cyclic-cover-D4-counterexample-audit.md).
+[2026-10-14-cyclic-cover-D4-counterexample-audit.md](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-cyclic-cover-D4-counterexample-audit).
 These are local results. They do not give a projective mate for `C0` or resolve
 the universal STCI question.
 
@@ -809,7 +809,7 @@ despite local class order two.
 
 Auditor: `duval_counterexample`, 2026-10-14.
 Audited source:
-[2026-10-14-cyclic-cover-local-smooth-curve.md](2026-10-14-cyclic-cover-local-smooth-curve.md),
+[2026-10-14-cyclic-cover-local-smooth-curve.md](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-cyclic-cover-local-smooth-curve),
 sections 1 and 4 only. The examples already audited above were not
 recomputed. **Verdict: the statements and written proofs are sound under
 the source's complete, excellent, normal two-dimensional local
@@ -1260,7 +1260,7 @@ theory, Serre's normality criterion, Serre duality, and Serre vanishing.
 # Degree-one moving linear relations: the cubic obstruction
 
 Date: 2026-10-14. Status: new exact cubic calculation, independently accepted in the
-[sign/frame audit](2026-10-14-moving-linear-cubic-independent-audit.md). The accepted embedded chart and the independently established
+[sign/frame audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-independent-audit). The accepted embedded chart and the independently established
 quadratic obstruction locus are premises; neither is re-audited here.
 
 The calculation below eliminates the nonquadric members of the quadratic
@@ -1452,7 +1452,7 @@ Date: 2026-10-14. Status: **PASS**, exact independent derivation of the new
 cubic calculation. The accepted embedded chart and [quadratic
 audit](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 are premises. Their earlier computations were not re-audited. The owner's
-[cubic note](2026-10-14-moving-linear-cubic-compatibility.md) was first read
+[cubic note](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-compatibility) was first read
 after this audit's separate expansion had produced its answer.
 
 ## 1. Frame and correction signs
@@ -1599,7 +1599,7 @@ new cubic classification's recorded exact coefficient verification. This
 note does not repeat the accepted quadric or constant-direction calculations.
 
 Use the [quadratic frame review](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
-and [new cubic classification](2026-10-14-moving-linear-cubic-compatibility.md).
+and [new cubic classification](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-compatibility).
 They identify the unique compatible basepoint-free moving linear relation
 line `W=O(-8)` through normal degree three as the line of the actual quadric
 `q=u+(z/2)v`. Its quotient conormal is `M=O(-6)`.
