@@ -8,10 +8,10 @@ For current claims read [the canonical state](../STATE.md), [current frontier](.
 
 - [Space Curves I–VI intake](space-curves-2026-10-19/README.md): selective external-project evidence, provenance hashes, proposed uses and review boundaries; no canonical promotions.
 - [research notes](../notes/): original mathematical notes; the obsolete filename-keyword index was retired.
-- [Ultra computations index](ULTRA_COMPUTATIONS_INDEX.md): historical index; original scripts are available at [research/computations](../computations/).
-- [Ultra validation inventory](ULTRA_VALIDATION_RECURSIVE_INVENTORY.md): historical inventory; original evidence remains in [research/validation](../validation/).
+- Ultra computations index (historical file not present on this branch); original scripts remain at [research/computations](../computations/).
+- Ultra validation inventory (historical file not present on this branch); original evidence remains in [research/validation](../validation/).
 - [Ultra intake](ULTRA_INTAKE.md) and [dated reports](reports/): older handoffs and snapshots.
-- [Ultra conflicting versions](ultra-conflicts/): alternate blobs preserved from the Ultra branch where main already had a different file at the same path.
+- Ultra conflicting versions: consult the [branch reconciliation archive](branch-reconciliation/) for preserved alternatives; the former `ultra-conflicts/` directory is not present on this branch.
 - [Other branch reconciliation](branch-reconciliation/): original branch-specific alternatives, organized by source branch. Paths within these directories are historical source paths, **not live canonical paths**.
 
 ## Duplication and provenance
