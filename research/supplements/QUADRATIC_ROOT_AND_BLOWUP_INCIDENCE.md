@@ -1203,9 +1203,9 @@ Status: **PASS FOR THE NEW SINGULAR-NORMALIZATION EXTENSION UNDER ITS
 EXPLICIT CARTIER, SINGLETON AND DEGREE-ONE LIFT HYPOTHESES**.
 
 Source audited:
-[Cartier-lift minimal-degree theorem](2026-10-14-generalization-cartier-lift-minimal-degree.md),
+[Cartier-lift minimal-degree theorem](OCT14_CARTIER_LIFTS_AND_MOVING_RELATIONS.md#source-2026-10-14-generalization-cartier-lift-minimal-degreemd),
 SHA-256 `0a120c0caf2847b38c749fd47adddc0896a864c1b44e1646225889b34f7055ba`.
-The [smooth-normalization theorem](2026-10-13-generalization-smooth-normalization-independent-audit.md)
+The [smooth-normalization theorem](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
 is an accepted premise and was not rechecked. This audit concerns only the
 new singular scope, cone polarization and added consequences. No inherited
 verifier, mathematical source or remote branch was reread to reconfirm it.
