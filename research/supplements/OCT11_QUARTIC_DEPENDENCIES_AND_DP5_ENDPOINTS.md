@@ -774,7 +774,7 @@ The totally ramified split-sextic carrier boundary and higher minimum
 carrier degrees likewise lie outside a quartic-carrier theorem.
 
 The split boundary is genuinely a sextic-carrier problem. In the
-[full ramified reduction](2026-10-06-split22-finite-reduction.md), the
+[full ramified reduction](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-split22-finite-reduction), the
 surviving actual forms are
 
     F_tau = -B^2 + tau*q*K,  tau!=0,
