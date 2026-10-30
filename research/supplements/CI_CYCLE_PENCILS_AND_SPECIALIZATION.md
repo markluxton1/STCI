@@ -280,7 +280,7 @@ G=x_2^4-x_0x_3^3,\quad Q=x_0x_3-x_1x_2.
 \]
 
 The established input is [STCI-R-0021](../results/quartic_mu4_degeneration.md),
-with its [source discussion](2026-10-23-quartic-characteristic-conormal.md):
+with its [source discussion](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#quartic-characteristic-conormal):
 \(V(F,G)\) is the reduced union of the four \(C_\zeta\) in characteristic
 zero and has reduced support \(C\), generic multiplicity four, in
 characteristic two. The common ruled-surface picture in
@@ -569,7 +569,7 @@ F=x_1^4-x_0^3x_3,\quad G=x_2^4-x_0x_3^3,
 \quad Z=V(F,G).
 \]
 
-Write \(p=[1:0:0:0]\), \(q=[0:0:0:1]\). The prescribed four-component decomposition and mixed-characteristic flatness are promoted in [STCI-R-0021](../results/quartic_mu4_degeneration.md); its [source note](2026-10-23-quartic-characteristic-conormal.md), Section 1, supplies the endpoint contact calculation. These established inputs are used without rerunning their proof. The ruled cubic used for a competing example below comes from [the independently reviewed provisional cubic-scroll note](CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-normalization); that geometry has not been promoted canonically.
+Write \(p=[1:0:0:0]\), \(q=[0:0:0:1]\). The prescribed four-component decomposition and mixed-characteristic flatness are promoted in [STCI-R-0021](../results/quartic_mu4_degeneration.md); its [source note](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#quartic-characteristic-conormal), Section 1, supplies the endpoint contact calculation. These established inputs are used without rerunning their proof. The ruled cubic used for a competing example below comes from [the independently reviewed provisional cubic-scroll note](CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-normalization); that geometry has not been promoted canonically.
 
 ## 1. An intuitive starting point: the same genus in different places
 
