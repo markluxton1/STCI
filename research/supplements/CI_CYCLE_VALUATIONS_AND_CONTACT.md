@@ -549,7 +549,7 @@ This note identifies a useful standard-local-algebra bridge and several experime
 
 ## 1. The global question has an exact local numerical slot
 
-Use the elementary cycle identity in the provisional [residual-cycle audit](2026-10-21-residual-cycle-proposition-audit.md):
+Use the elementary cycle identity in the provisional [residual-cycle audit](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-residual-cycle-proposition-auditmd):
 
 \[
 [W]=m_C[C]+R_W,\qquad \deg R_W=ab-4m_C.
@@ -774,7 +774,7 @@ The generic cluster computes the coefficient of \(C\) in the global cycle. It do
 \lambda_p=\ell\bigl(k[[x,y]]/(F(0,x,y),G(0,x,y))\bigr)
 \]
 
-is again the multiplicity of a parameter ideal. It can therefore be reconstructed by a separate two-dimensional cluster on that slice. The audited local criterion in [valuative standard-basis test](2026-10-21-valuative-standard-basis-criterion.md) distinguishes \(m_C\) from the total generic rank of the formal local curve. Under its finite-slice hypotheses, \(\lambda_p-m_C\) counts the positive contributions of residual formal branches through \(p\). An infinite slice length falls outside the finite multiplicity calculation and signals a different dimension situation.
+is again the multiplicity of a parameter ideal. It can therefore be reconstructed by a separate two-dimensional cluster on that slice. The audited local criterion in [valuative standard-basis test](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-valuative-standard-basis-criterionmd) distinguishes \(m_C\) from the total generic rank of the formal local curve. Under its finite-slice hypotheses, \(\lambda_p-m_C\) counts the positive contributions of residual formal branches through \(p\). An infinite slice length falls outside the finite multiplicity calculation and signals a different dimension situation.
 
 The slice, the coefficient field, and the localization at the marked generic factor must remain explicit. In particular, \(k[[t,x,y]][1/t]\) is not \(k((t))[[x,y]]\); the latter isolates a completed local factor. Also, a point-centered valuation of the three-dimensional ambient ring is not automatically one of the generic two-dimensional Rees valuations. Its residue and center must be tracked.
 
