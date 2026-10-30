@@ -14,7 +14,7 @@ Status: **NEW STRUCTURAL THEOREM; independent review passed** in the
 The accepted conductor, Cartier-lift, contact-divisor, and conductor-budget
 theorems are premises. No accepted proof or computational certificate has
 been rerun. This note supplies the family-specialization details needed by
-the pending [finite-phase proposal](2026-10-14-generalization-projection-finite-phase-space.md),
+the pending [finite-phase proposal](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-finite-phase-space),
 then isolates the remaining arithmetic geometry by Laurent's theorem.
 It does not exclude or construct a mate in any of the three fixed-C0
 projection families.
@@ -197,7 +197,7 @@ finite-type algebra presentations; it is not inferred from reduced
 contact graphs, a fixed surface degree, or an unspecified formal family.
 
 In the three fixed-C0 models, the accepted
-[actual-conductor duality formula](2026-10-14-generalization-projection-conductor-budget-independent-review.md)
+[actual-conductor duality formula](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-conductor-budget-independent-review)
 gives a sharper explicit threshold. Write the actual upstairs conductor
 as `O_S(-B)`, with `B~(a-4)H-K_S`. This part of duality requires the
 Gorenstein normalization and hypersurface image, but not generic
