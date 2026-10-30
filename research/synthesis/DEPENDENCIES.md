@@ -23,6 +23,15 @@ The historical jet rank-defect calculation in [order-one structure](../results/o
 
 These arrows are **research interfaces**, not established theorem dependencies. In particular, the common-factor and blowup material needs source-by-source audit before promotion.
 
+
+## Marked geometry: proved results versus missing implications
+
+The flag-incidence theorem [R-0026](../results/quartic_flag_conormal_geometry.md) supplies the marked conormal and contact geometry used by the dual singular-scheme theorem [R-0027](../results/quartic_dual_singular_scheme.md). This is a stated canonical dependency. The ruled projection models [R-0028](../results/quartic_ruled_projection_geometry.md) and arithmetic four-section family [R-0029](../results/quartic_arithmetic_ruled_models.md) are separately scoped constructions; R-0029 uses the prescribed degeneration of R-0021.
+
+There is **no proved implication** from these contact or dual singularity schemes to a common singular point of arbitrary STCI equations on C. Nor does the projected conductor model imply descent for every carrier. The proposed arrows from actual normal initial ideals to contact flags, and from contact flags to global conductor obstructions, remain research questions.
+
+The October 27 one-step source supplies a different conditional bridge: for a fixed embedded lower thickening and actual proper equations of degree product (n+1)deg(C), determinant zero in its torsion-free equation module is equivalent to sole reduced support. This source-level criterion is not a promoted universal existence theorem; it requires a suitable lower thickening and proper decomposable kernel point.
+
 ## Epistemic guardrails
 
 - Do not replace exact hypotheses by a generic phrase such as “smooth root” or “normal carrier.”
