@@ -60,3 +60,7 @@ For the balanced rational-space-curve movement-two smooth-root setting of [STCI-
 - [Independent full-scope audit (PASS)](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md)
 
 The characteristic-zero predecessor and characteristic-free formal-tower addendum are cited and treated as inherited premises in these notes.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original evidence identities and theorem scope remain unchanged.
