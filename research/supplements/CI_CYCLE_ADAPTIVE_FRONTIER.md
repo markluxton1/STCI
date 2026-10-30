@@ -205,7 +205,7 @@ defines a composite valuation ring. After choosing a suitable splitting, its val
 
 This flag is centered at \(p\) on the original threefold. It is not centered on the generic local ring \(S\): a parameter at \(p\) and its inverse are units in \(S\), but the flag assigns them nonzero values. Generic Rees valuations and point-sensitive flags play different roles and require an explicit bridge.
 
-The [earlier coefficient-valuation note](2026-10-23-intrinsic-coefficient-valuations.md), independently reviewed but unpromoted, gives the intrinsic construction and coordinate cautions. Two particularly useful rules are:
+The [earlier coefficient-valuation note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd), independently reviewed but unpromoted, gives the intrinsic construction and coordinate cautions. Two particularly useful rules are:
 
 - Positive monomial weights in actual regular parameters define valuations. An arbitrary positive real linear combination of the numerical coordinates of a lexicographic flag need not be a valuation.
 - Combining \(\operatorname{ord}_p\) with normal weights works for polynomials and controlled series domains. It need not make sense on all of \(k(C)[[U,V]]\), where coefficient poles can grow without bound.
@@ -393,7 +393,7 @@ This is a deliberately narrow slice of the open nonsaturated-first-relation fron
 
 **Current authority.** [STCI-R-0016](../results/nonsaturated_first_relation_resultant.md) is promoted and proves a defect/resultant budget under actual lci, sole smooth support, and a full generic binary-CI initial algebra. It does not exclude nonsaturated first relations. [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) assumes saturation, and [STCI-R-0013](../results/saturated_actual_generator_movement.md) excludes movement one only in that saturated class. Consequently R0013 cannot dispose of the proposed slice. The general non-CI-initial-ideal cases remain separate; this candidate still assumes a full generic CI.
 
-The exact identities used next are in the accepted evidence for R0016, [first-relation defect investigation](2026-10-19-first-relation-defect-investigation.md), sections 3–5. Its historical provisional label does not independently promote its contents, but R0016 explicitly links the proof and its independent audits. The new numerical application below is provisional.
+The exact identities used next are in the accepted evidence for R0016, [first-relation defect investigation](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-investigation), sections 3–5. Its historical provisional label does not independently promote its contents, but R0016 explicitly links the proof and its independent audits. The new numerical application below is provisional.
 
 Let \(R_{\mathrm{sat}}=\mathcal O(-14-\epsilon)\), let \(D\) have length \(\delta\), and use the evidence notation \(c_j\) for saturated generation defects. The socle line of an actual degree-\((a,b)\) CI has degree \(\ell=14-4(a+b)\). With \((a,b;r,s)=(6,12;2,9)\), its degree identity gives
 
@@ -411,7 +411,7 @@ Effectivity and \(\epsilon\ge0\) leave \((\epsilon,c_8)=(0,10)\) or \((1,3)\). I
 
 Thus its resultant degree is three or one. For \(\delta=1\), the general bound \(c_8\le\binom72\delta\) does not contradict either value. These are necessary arithmetic possibilities, not existence evidence.
 
-**One fresh experiment.** Use the actual sextic second-symbol image, already computed with rank 22 and kernel \(kq^3\) in the independently reviewed [sextic symbol map](2026-10-20-conditional-2-12-symbol-map.md). Its symbol calculation is reusable independently of the saturated \((2,12)\) application advertised in that note.
+**One fresh experiment.** Use the actual sextic second-symbol image, already computed with rank 22 and kernel \(kq^3\) in the independently reviewed [sextic symbol map](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map). Its symbol calculation is reusable independently of the saturated \((2,12)\) application advertised in that note.
 
 Parameterize a full movement-one quadratic root
 
@@ -433,7 +433,7 @@ The simplest local warning remains the accepted source family \((txy+x^3+y^4,xy^
 
 **Current authority.** [STCI-R-0014](../results/movement_two_six_rows.md) gives six necessary rows in the saturated/full generic binary-CI class, including this row. It is a promoted arithmetic reduction, not a construction or emptiness theorem. [STCI-R-0018](../results/regular_singular_root_formal_obstruction.md) excludes all-orders lifts whose entire formal surface is regular along the reduced movement-two root; singular formal surfaces remain outside its conclusion.
 
-The [October 21 conductor/chart independent review](2026-10-21-conditional-2-12-conductor-and-chart-independent-review.md), sections 5–6, gives reviewed but **unpromoted** endpoint reductions. It leaves the normal forms \(\tau=z^3(1+z)\) and \(\tau=z^4\), plus a distinct nonzero-endpoint orbit-collision chart. On the fourth-order chart a retained root is integral nodal and its actual Picard gluing modulus satisfies
+The [October 21 conductor/chart independent review](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-and-chart-independent-review), sections 5–6, gives reviewed but **unpromoted** endpoint reductions. It leaves the normal forms \(\tau=z^3(1+z)\) and \(\tau=z^4\), plus a distinct nonzero-endpoint orbit-collision chart. On the fourth-order chart a retained root is integral nodal and its actual Picard gluing modulus satisfies
 
 \[
 \rho^{12}=1,\qquad \rho\ne1.
