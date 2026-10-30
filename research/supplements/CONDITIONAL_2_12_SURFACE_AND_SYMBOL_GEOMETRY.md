@@ -10,7 +10,7 @@ Permanent mathematical dossier. The (2,12) setting and every other hypothesis re
 
 Date: 2026-10-20. Status: **new exact reduction, provisional pending independent review**. No canonical result is changed. Work is over an algebraically closed characteristic-zero field, with the fixed curve C0 and the full generic ordinary coprime binary-CI initial ideal and actual saturated first relation required in the parent task. A bounded CAS interruption is process evidence only.
 
-The source symbol matrix, exact image minor, and cubic layer are the new reviewed proposal in [the earlier global-realization note](2026-10-20-conditional-2-12-global-realization-incidence.md). The first-incidence construction is the promoted [STCI-R-0007](../results/quadratic_root_obstruction_model.md), used within its actual-CI interface and the separately reviewed finite singular-root bridge. The source script does not rerun accepted proofs.
+The source symbol matrix, exact image minor, and cubic layer are the new reviewed proposal in [the earlier global-realization note](#2026-10-20-conditional-2-12-global-realization-incidence). The first-incidence construction is the promoted [STCI-R-0007](../results/quadratic_root_obstruction_model.md), used within its actual-CI interface and the separately reviewed finite singular-root bridge. The source script does not rerun accepted proofs.
 
 ## 1. Eight symbol equations are a norm factorization
 
@@ -132,7 +132,7 @@ The precise unresolved computation is the intersection of these compact first/gl
 Date: 2026-10-20. Status: **new proposal / exact structured reduction**.
 No canonical result is promoted. Independent audit of the new symbol map,
 singular bridge, torsion presentation, and exporter is recorded in
-[the audit](2026-10-20-conditional-2-12-incidence-audit.md).
+[the audit](#2026-10-20-conditional-2-12-incidence-audit).
 
 The output is a specified scheme of remaining necessary conditions and
 its first unresolved global lifting condition. **Its emptiness or
@@ -510,7 +510,7 @@ New artifacts:
   [M2 presentation](../computations/conditional_2_12_structured_incidence_2026_10_20.m2),
   and [metadata](../computations/conditional_2_12_structured_incidence_2026_10_20.json);
 * [singular bridge and full gluing proof](2026-10-20-conditional-2-12-singular-gluing.md)
-  and [independent review](2026-10-20-conditional-2-12-incidence-audit.md).
+  and [independent review](#2026-10-20-conditional-2-12-incidence-audit).
 
 Run the three new Python scripts with `python3`; they use only the
 standard library. Load the exported M2 file with
@@ -754,7 +754,7 @@ degree-twelve standard-basis certificate is supplied by this note.
 ## 6. Independent audit of the forced norm multiplier
 
 I independently reconstructed sections 1-4 of
-[the geometric continuation note](2026-10-20-conditional-2-12-geometric-continuation.md).
+[the geometric continuation note](#2026-10-20-conditional-2-12-geometric-continuation).
 Verdict: **PASS within the actual supported-pair scope**, including
 all repeated-root, collision, and ramification cases.
 
@@ -1029,7 +1029,7 @@ and its explicit first missing global lift.
 
 ## 7. Final assembled-note review
 
-The final [assembled proposal](2026-10-20-conditional-2-12-global-realization-incidence.md)
+The final [assembled proposal](#2026-10-20-conditional-2-12-global-realization-incidence)
 was reviewed against the source order, target order and exact JSON.
 The source basis list and eleven image forms have the correct
 indices. The independent determinant of the indicated 22-row
@@ -1059,7 +1059,7 @@ this review.**
 
 Date: 2026-10-20. Status: **new exact reduction and evidence; independently
 reviewed proposal, no canonical promotion**. See
-[the independent audit](2026-10-20-conditional-2-12-incidence-audit.md).
+[the independent audit](#2026-10-20-conditional-2-12-incidence-audit).
 Work over an algebraically closed field of characteristic
 zero with `C0=[s^4:s^3t:st^3:t^4]`. The intended application assumes the
 full generic ordinary initial ideal is a coprime binary CI of degrees
