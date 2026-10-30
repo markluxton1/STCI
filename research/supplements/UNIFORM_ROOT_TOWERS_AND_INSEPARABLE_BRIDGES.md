@@ -826,7 +826,7 @@ Let `k` be an algebraically closed field of any characteristic, `X` a
 smooth threefold, and `C subset X` a smooth connected curve. Let the
 actual complete intersection `Y=(F,G)` have reduced support exactly `C`.
 Retain the literal hypotheses of the
-[accepted actual-CI/root bridge](2026-10-14-generalization-blowup-root-curve-primitive-bridge.md):
+[accepted actual-CI/root bridge](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-primitive-bridge):
 
 1. The first ordinary normal relation has degree `r`, and its actual
    relation sheaf is a saturated line subbundle of `Sym^r N_C^*`.
