@@ -192,3 +192,7 @@ Thirty October 24 historical mathematical notes were preserved in full in three 
 ## Full-content migration — October 23–26 delta, (4,4) and normal boundary (2026-10-30)
 
 Twenty-five historical mathematical sources were preserved in full in four subject supplements: `DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md` (nine), `INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md` (eight), `NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md` (four), and `INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md` (four). Delta embedding, singular loci, conormal annihilators, Rees specialization, characteristic conormal, intrinsic (4,4) proposals and critical audits, multiplicity constraints, degeneration genus budgets, normal torsion, weighted initials and global lifting are preserved without theorem promotion. **Target cumulative retirements after deleting all 25 originals: 285.** Inbound-reference cleanup remains outstanding.
+
+## Full-content migration — October 25–27 endpoint and boundary (2026-10-30)
+
+Five historical mathematical notes preserved in full in `BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md` (four) and `ENDPOINT_FOUR_ACTUAL_SEXTICS.md` (one). Topics include one-step boundary obstructions and their audit, endpoint-four nonsplit node scope, fixed-boundary node smoothing, and actual sextic jet certificates. No theorem promotion. **Target cumulative retirements after deleting five originals: 290.** Inbound reference cleanup remains outstanding.
