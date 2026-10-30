@@ -88,6 +88,26 @@ If its zero divisor is \([4]\), writing \(L_C=\lambda(\alpha U+\beta V)^4\) forc
 
 Full singleton support forces the other derivative to vanish at that endpoint, giving \(c_5=0\). The net equations then imply \(c_4=0\), \(c_2=-c_3\), \(c_1=cc_3/b\). Modulo \(Q_2\), the other pencil quadric is a combination of \(E_1\) and \(E_3-E_2\). Both quadrics vanish on the line \(Y_0=Y_1=Y_2=0\), and \(\nabla E_0=0\) there. Their intersection is singular along that line, contradicting normality of the required surface. This excludes the entire \([4]\) partition under the stated hypotheses, independently of the other partitions. The original standalone proof is incorporated here; the complete partition classification remains supported by the repeated-partition audit.
 
+### Explicit trace–norm certificate for the surviving displayed [2,2] pencil
+
+For the displayed pencil in Section 2, set \(Q=E_3\) and write \(Q=\ell z+q\) on the normalized surface. In retained coordinates \((x,y,v,w)\), the full conductor is \(\Gamma=V(L,R)\), with
+\[
+\begin{aligned}
+A&=-2y+v,& R_1&=2xv+yv-yw,\\
+L&=x+2y-v+w/4,& R&=-y^2-2xv-(xw-yv)/2+yw-v^2/4,\\
+\ell&=2y-v,&q&=-2xv+yw.
+\end{aligned}
+\]
+Eliminating \(x=-2y+v-w/4\) gives the smooth conic
+\[
+R_c=-y^2+\tfrac92yv+2yw-\tfrac94v^2+\tfrac18w^2=0,
+\]
+whose symmetric-matrix determinant is \(243/128\). In the entire quadratic conductor algebra \(z^2-Az-R_1=0\), the conjugation is \(\sigma(z)=A-z\), and
+\[
+T=Q+\sigma(Q)=2q+A\ell,\qquad N=Q\sigma(Q)=q^2+Aq\ell-R_1\ell^2.
+\]
+Reducing \(T^2,N\) modulo \(R_c\) with lexicographic order \(y,v,w\), the coefficients of \(yv^3,yv^2w\) are respectively \((114,336)\) and \((1,4)\); their minor is \(120\ne0\). Thus \(T^2/N\) is nonconstant. If \(Q^n\) descended for any positive \(n\), the generic ratio \(r=\sigma(Q)/Q\) would satisfy \(r^n=1\), making \(T^2/N=2+r+r^{-1}\) constant (also in the split or nonreduced quadratic cases in characteristic zero). Contradiction. This is a fixed-pencil all-power obstruction, not a classification of all \([2,2]\) pencils. The executable calculation is [verify_session_ribbon_22_bounded_2026_10_09.py](../computations/verify_session_ribbon_22_bounded_2026_10_09.py); the broader partition coverage is supplied separately by the repeated-partition audit.
+
 ## 3. Nonendpoint trisecant: exact all-length contradiction
 
 The normal conic model has an exceptional divisor of bidegree \((2,2)\) on \(\mathbf P^1\times\mathbf P^1\), with distinguished horizontal \(B\) of class \((1,0)\). Multiplicity two on \(B\) leaves two ruling fibers and violates singleton inverse support. With multiplicity one, the residual class is \((1,2)\). Every reducible residual is either a \((1,1)\) curve plus a ruling fiber or a second horizontal plus two ruling fibers, including doubled fibers; the [audit](../notes/2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md) handles the coefficient-zero horizontal boundary. The remaining integral residual is a rational graph, meeting \(B\) in two transverse points.
