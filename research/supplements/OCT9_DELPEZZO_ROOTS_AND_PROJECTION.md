@@ -263,9 +263,9 @@ interrupted by the weekly usage limit before its final written record;
 it is not counted as a completed audit. The argument below and the
 separate signed-partition check supply this acceptance.
 
-Audited source: [D5 torsion filter](2026-10-09-session-delpezzo-D5-torsion-filter.md).
-The separate [genus-one reduction](2026-10-09-session-genus-one-delpezzo-reduction.md)
-and [its independent ADE audit](2026-10-09-session-rational-genus-one-ADE-independent-audit.md)
+Audited source: [D5 torsion filter](#source-2026-10-09-session-delpezzo-d5-torsion-filtermd).
+The separate [genus-one reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
+and [its independent ADE audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-rational-genus-one-ade-independent-auditmd)
 establish its weak-del-Pezzo/ADE hypotheses for every sectional-genus-one
 normalization of an integral nonnormal quartic containing fixed C0.
 This audit does not exclude mates in both surviving singularity types.
@@ -426,12 +426,12 @@ remain OPEN. No unrestricted C0 or universal STCI conclusion follows.
 Date: 2026-10-09. Owner: `delpezzo_d5_torsion_filter`.
 Status: **PROVED HERE, independently accepted within the stated
 weak-del-Pezzo/ADE hypotheses**; the exhaustive exact lattice checker
-has terminal PASS. The [written independent proof audit](2026-10-09-session-delpezzo-D5-torsion-independent-audit.md)
+has terminal PASS. The [written independent proof audit](#source-2026-10-09-session-delpezzo-d5-torsion-independent-auditmd)
 accepts sections 2--5 without corrections. This note does not classify all sectional-genus-one
 normalizations, construct a mate, or resolve the STCI problem.
 
 This follows the [sectional-genus reduction](2026-10-09-session-normalization-sectional-genus-zero.md)
-and complements the [explicit four-A1 family](2026-10-09-session-singular-delpezzo-four-A1-family.md).
+and complements the [explicit four-A1 family](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-delpezzo-four-a1-familymd).
 The latter realizes the first surviving lattice pattern and then excludes
 its displayed projections by an additional normalization-fiber argument.
 That family is not assumed to exhaust the four-A1 lattice pattern.
@@ -732,7 +732,7 @@ the signed-coordinate classification and highlighted the necessary
 downstairs smoothness in section 2, then hit the account usage limit
 before saving a final audit note. Its message is a useful audit lead,
 not a completed independent acceptance record. The verification owner's
-[bounded written audit](2026-10-09-session-delpezzo-D5-torsion-independent-audit.md)
+[bounded written audit](#source-2026-10-09-session-delpezzo-d5-torsion-independent-auditmd)
 subsequently accepted the frozen proof without corrections. The present
 revision changes only this acceptance status and its links; the audited
 mathematical statements and checker source are unchanged.
@@ -749,7 +749,7 @@ is not resolved here.
 
 No implication from arbitrary pi=1 normalizations to this weak degree-four
 del Pezzo/ADE model has been used in the lattice proof. The separately
-accepted [genus-one model-coverage theorem](2026-10-09-session-genus-one-delpezzo-reduction.md)
+accepted [genus-one model-coverage theorem](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
 now supplies those hypotheses for rational genus-one quartic normalizations
 containing C0; combining the two theorems is justified by that separate
 record. Sectional genus two, higher carrier degrees,
@@ -766,7 +766,7 @@ by this owner.
 
 Date: 2026-10-09. Auditor: `verification`. Status: **ACCEPTED / PROVED HERE**, with the weak degree-four del Pezzo and ADE hypotheses stated below. This is a proof audit, not a duplicate run of the exhaustive lattice checker.
 
-The frozen owner note [D5 torsion filter](2026-10-09-session-delpezzo-D5-torsion-filter.md) was read in full at SHA256 `b4f4e4bb5a44c01022ce0e7d342bb1ce74127d0d3575aa227b3a18050e5d5919`. Its checker source, read/hash bound but not rerun here, is `computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py`, SHA256 `fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e`.
+The frozen owner note [D5 torsion filter](#source-2026-10-09-session-delpezzo-d5-torsion-filtermd) was read in full at SHA256 `b4f4e4bb5a44c01022ce0e7d342bb1ce74127d0d3575aa227b3a18050e5d5919`. Its checker source, read/hash bound but not rerun here, is `computations/verify_delpezzo_D5_torsion_filter_2026_10_09.py`, SHA256 `fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e`.
 
 ## Exact accepted scope
 
@@ -815,7 +815,7 @@ No canonical frontier file was changed and no new mathematical computation was r
 
 **Accepted as a conditional structural theorem in characteristic zero.**
 The audited proof is
-[2026-10-09-session-delpezzo-entire-conductor.md](2026-10-09-session-delpezzo-entire-conductor.md).
+[2026-10-09-session-delpezzo-entire-conductor.md](#source-2026-10-09-session-delpezzo-entire-conductormd).
 No canonical files were edited and no additional agents were used.
 
 The hypotheses are a finite normalization `nu:S -> X` of an integral quartic
