@@ -299,7 +299,7 @@ row/column selection is certified in characteristic zero before use.
 This removes repeated division by growing algebraic-field pivots. The exact
 polynomial inversion and its identity checks took5.201 CPU seconds in this
 run. This is an observed cost for this matrix, not a general complexity or
-performance claim. The optional [row/column scaling design](2026-10-14-localcoh-polynomial-scaling-design.md)
+performance claim. The optional [row/column scaling design](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md#2026-10-14-localcoh-polynomial-scaling-design)
 can further reduce degree growth in related computations; it is unnecessary
 for the successful certificate here.
 
