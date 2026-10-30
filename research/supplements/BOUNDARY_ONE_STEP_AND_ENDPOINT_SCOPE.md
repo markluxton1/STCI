@@ -805,9 +805,9 @@ Status: exact tangent calculation and local deformation interpretation
 reviewed; no canonical promotion.
 
 This finishes review of the existing
-[fixed-boundary node-smoothing calculation](2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md).
+[fixed-boundary node-smoothing calculation](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd).
 The underlying line-plus-degree-eleven curve has its separate
-[geometric audit](2026-10-25-ci-cycle-line-degeneration-audit.md).
+[geometric audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-line-degeneration-auditmd).
 No new investigation is started here.
 
 **Outcome.** The ranks \(19,5,24\) are correct for the actual global quartic
@@ -876,7 +876,7 @@ checked against the combined matrix. Its
 [JSON evidence](../computations/ci_fixed_boundary_node_smoothing_2026_10_25.json)
 preserves their thirty-six source coefficients and exact images.
 The separate
-[independent reconstruction audit](2026-10-25-ci-cycle-fixed-boundary-node-smoothing-audit.md)
+[independent reconstruction audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd)
 records another reconstruction and the same quotient calculation.
 
 ## 2. Why the five-dimensional functional is the node map
