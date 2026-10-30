@@ -233,7 +233,7 @@ not justify such a replacement of torsion loci or an algebraization
 to projective equations.
 
 Independent review is recorded in
-[the structural torsion audit](2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit.md).
+[the structural torsion audit](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit).
 No commit or memory update was made.
 
 
@@ -251,7 +251,7 @@ nonzero value are premises. No accepted certificate was replayed and no
 new seed was evaluated.
 
 Reviewed proof:
-[torsion divisors and the second zero locus](2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry.md).
+[torsion divisors and the second zero locus](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry).
 
 ## 1. Intrinsic torsion and its ambient divisors
 
@@ -559,7 +559,7 @@ one discriminant inverse equation. The second equations have at most
 are exact export metadata, not complexity or solvability claims.
 
 The new proof and the exported generator algorithm passed
-[the independent compression audit](2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md).
+[the independent compression audit](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit).
 Exactly one bounded M2 launch was made, with the heavy quintic window
 held separately. Its supervisor hit a sandbox `PermissionError` when
 invoking `/bin/ps` for RSS monitoring. The M2 child had a 45-second CPU
