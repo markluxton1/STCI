@@ -20,7 +20,7 @@ were left untouched.
 
 Hypotheses throughout: an algebraically closed field of characteristic
 zero; the genus-one normalization S and smooth lifted quartic c in
-[the frozen quintic frontier](2026-10-11-session-quintic-structural-frontier.md),
+[the frozen quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 with its independently checked
 [A4 and unique-line reductions](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md).
 Thus S is a normal degree-five anticanonical del Pezzo surface, its only
