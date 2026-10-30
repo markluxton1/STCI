@@ -47,3 +47,7 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not exclude every degree-sixteen plane-normalization projection or every Cartier singleton model.
 - For nonbirational parameter values the image does not give an additional degree-sixteen normalization.
 - Reduced inverse support alone does not imply conductor descent.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/04-carriers.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
