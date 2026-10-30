@@ -48,3 +48,7 @@ Provides a concrete smooth residual and a five-node line degeneration.
 
 ## Limitations
 No universal statement about quartic pairs or STCI.
+
+## Permanent evidence navigation
+
+The historical source filenames in the metadata above are provenance identifiers. For current mathematical navigation, see [the exclusions synthesis](../synthesis/05-exclusions.md) and its retained residual-geometry supplements. This addition does not change the scoped result.
