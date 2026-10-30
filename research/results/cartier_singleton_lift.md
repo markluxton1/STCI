@@ -77,3 +77,7 @@ These links preserve evidence on the Ultra branch; this promotion does not merge
 ## Limitations
 
 The actual projection parameters, complete inverse support, and full conductor descent for the three fixed-\(C_0\) models **remain unresolved**. The classification does not establish existence of a mate on any listed carrier. The unrestricted STCI problem for \(C_0\) remains open.
+
+## Permanent evidence navigation
+
+Historical `research/notes/` identifiers in the metadata are preserved for provenance. The permanent [subject synthesis](../synthesis/04-carriers.md) provides navigation to the mathematical arguments and their detailed supplements. This addition does not change any theorem or audit claim.
