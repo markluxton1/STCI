@@ -154,3 +154,15 @@ One bridge asks whether the intrinsic horizontal common-direction scheme of two 
 The arithmetic ruled four-section warns that normalization, scheme image and specialization cannot be silently interchanged. A proposed theorem should state which operation is compatible with base change and prove the relevant comparison map. The embedded endpoint terms in the dual Jacobian and projected scroll/cone intersection are concrete tests for such a comparison.
 
 A useful deliverable would be one intrinsic map with a proved compatibility or a counterexample identifying its failure. Repeating dual discriminant computations without a link to actual global equation spaces would not advance the STCI question.
+
+
+## 6.14 Precise interfaces left by the subject integration
+
+The retained source calculations suggest four independent tests, not a chain of established implications:
+
+1. **From valuations to global residual degree:** find a coordinate-independent, cancellation-stable normal invariant and prove that it bounds generic intersection multiplicity for *actual* proper homogeneous pairs uniformly across exceptional strata. A vertical exceptional component alone is insufficient.
+2. **From principal-parts repair to equations:** identify the actual obstruction complex for a specified embedded lower thickening, compare its allowable repair divisor with the saturated socle budget, and compute the images of the global equation modules. The general comparison is not established by the abstract (H^1)-criterion.
+3. **From marked dual/ruled geometry to carriers:** construct a map from actual equation or conductor data to the marked contact/flag schemes; the explicit dual identity and endpoint conductor corrections are test cases, not universal STCI obstructions.
+4. **From a fixed lower thickening to a pair:** determine whether the proper decomposable determinant-zero locus meets the actual global source. Formal kernels and abstract numerical budgets do not settle this existence question.
+
+Detailed source mathematics is preserved in the [intrinsic valuation](../supplements/INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md), [boundary](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md), [ruled](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md), and [embedded Delta](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md) supplements. These interfaces are editorial syntheses, not promoted claims.
