@@ -740,7 +740,7 @@ This note constructs actual integral degree-eight hypersurfaces whose finite nor
 
 This is a completed exclusion for the explicitly defined subfamily below, not an exclusion of all smooth-quadric projections or of either other normalization model in STCI-R-0002. It supplies an actual residual-conductor construction illustrating why full inverse support is an essential extra condition in STCI-Q-0001.
 
-Dependencies used as navigation/premises: [STCI-R-0002](../results/cartier_singleton_lift.md), [STCI-R-0003](../results/fixed_carrier_conductor_criterion.md), [STCI-Q-0001](../questions/cartier_projection_models.md), and the literal universal projection family in [the October 14 contact-phase note, Section 4](2026-10-14-generalization-projection-contact-phase-criterion.md). The argument below is elementary and does not rerun an inherited certificate or use the phase-reduction conclusion.
+Dependencies used as navigation/premises: [STCI-R-0002](../results/cartier_singleton_lift.md), [STCI-R-0003](../results/fixed_carrier_conductor_criterion.md), [STCI-Q-0001](../questions/cartier_projection_models.md), and the literal universal projection family in [the October 14 contact-phase note, Section 4](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-contact-phase-criterion). The argument below is elementary and does not rerun an inherited certificate or use the phase-reduction conclusion.
 
 ## 1. The family
 
@@ -968,7 +968,7 @@ promoted isolated-inverse-point obstruction. This review also reconstructs
 that elementary obstruction directly, without invoking the remaining
 conductor descent lattice theorem. The balanced first-jet formulas are read
 from Section 4 of the
-[October 14 projection note](2026-10-14-generalization-projection-contact-phase-criterion.md).
+[October 14 projection note](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-contact-phase-criterion).
 The projection-phase reduction is not needed as a premise.
 
 ## 1. Basepoint-free locus and finiteness of the kappa family
