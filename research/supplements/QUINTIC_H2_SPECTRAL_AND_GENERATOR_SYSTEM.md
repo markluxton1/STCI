@@ -18,7 +18,7 @@ Permanent mathematical dossier retaining full computations, coefficient systems,
 Date: 2026-10-15. Owner: `quintic_shared_incidence/support_structural`.
 Status: **STRUCTURAL CONSEQUENCE AND EXACT UNIVERSAL CHECK; independently
 audited** in the
-[eta spectral review](2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit.md).
+[eta spectral review](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit).
 The accepted automatic-open and ODE
 scheme theorem, its degree polynomial, and the accepted Sym6
 characteristic polynomial are premises. None is replayed. This note
@@ -32,7 +32,7 @@ delta, cover-determinant, cofactor-determinant and recorded scalar
 units, together with the justified Delta1 open. Only Delta1 is a
 globally necessary new remaining-mate open; the other localizations
 specify the chart under investigation. The accepted
-[automatic-open/ODE audit](2026-10-15-generalization-quintic-h2-automatic-open-ODE-independent-audit.md)
+[automatic-open/ODE audit](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-automatic-open-ode-independent-audit)
 gives (q5,q6)=A in this localized parameter ring A.
 
 Adjoin d,u and let I be the eight-coefficient ideal of
@@ -184,7 +184,7 @@ domain and actual-projection hypotheses remain in force.
 
 Date: 2026-10-15. Status: **NEW SCOPE AND EXACT COEFFICIENT BINDING;
 independent review completed** in the
-[eleven-generator unit audit](2026-10-15-generalization-quintic-h2-eleven-generator-unit-independent-audit.md).
+[eleven-generator unit audit](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eleven-generator-unit-independent-audit).
 Accepted conductor, coefficient, intrinsic-fiber and closed-lane theorems are
 premises. This does not assert emptiness of the h2 incidence.
 
@@ -319,7 +319,7 @@ combination with the accepted shared ODE. It gives no actual-parameter
 emptiness or conductor-descent conclusion.
 
 The reviewed proposal is
-[the unified spectral-accelerator note](2026-10-15-generalization-quintic-h2-unified-spectral-accelerator.md).
+[the unified spectral-accelerator note](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-unified-spectral-accelerator).
 
 ## 1. Ring, sign conventions and the proposed polynomial
 
@@ -523,7 +523,7 @@ is an equality on the declared open, not equality of the global
 unsaturated ideals and not a quintic exclusion.
 
 The reviewed proposal is
-[the twelve-generator support-system note](2026-10-15-generalization-quintic-h2-twelve-generator-support-system.md).
+[the twelve-generator support-system note](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-twelve-generator-support-system).
 The accepted h2 conductor factor, reciprocal coordinates, sextic
 quotient, A4 bounds and closed mate lanes are premises. Their proofs
 and computations were not replayed. This audit checks only the new
