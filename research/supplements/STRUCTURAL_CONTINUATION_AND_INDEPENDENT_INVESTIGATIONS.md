@@ -63,11 +63,11 @@ graded map an isomorphism. Degree-one generation finally gives
 `P_i=J^i` for all `i`. This removes the possible later ordinary-layer
 torsion rather than assuming it away.
 
-Source: [general theorem and proof, Section 8](2026-10-19-saturated-first-relation-spectral-bridge.md).
+Source: [general theorem and proof, Section 8](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge).
 The same note proves the balanced full-root spectral bridge and retains
 the nonsplit second-generator extension.
-Independent reconstruction: [filtered bridge audit](2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit.md).
-Additional adversarial review: [normal-flatness audit](2026-10-19-normal-flatness-adversarial-audit.md).
+Independent reconstruction: [filtered bridge audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit).
+Additional adversarial review: [normal-flatness audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-normal-flatness-adversarial-audit).
 
 A separate local proof uses the accepted sharp codimension-two
 Artinian Gorenstein Hilbert-function bound. Length `rs`, Loewy degree
@@ -76,8 +76,8 @@ special Hilbert function to equal the CI envelope. A DVR argument then
 makes every ordinary layer flat. This second proof removes projectivity
 and also treats `r=s` under its explicit constant-exact-order hypothesis;
 the saturated first kernel is a sufficient condition of the appropriate
-rank. Its [source](2026-10-19-filtered-generic-ci-normal-flatness.md) and
-[separate audit](2026-10-19-filtered-local-normal-flatness-independent-audit.md)
+rank. Its [source](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) and
+[separate audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit)
 record the additional classical dependency. It supplies independent
 support for A1 rather than a finite check of the resultant proof.
 
@@ -116,10 +116,10 @@ For movement two, a spectral survivor must be an integral reduced
 distinct smooth rational `(1,r/2)` divisors. Ramified nonreduced
 **fibers** of a reduced total root remain allowed.
 
-Source: [nonreduced-root proof](2026-10-19-spectral-nonreduced-root-obstruction.md).
-Independent reconstruction: [spectral audit](2026-10-19-spectral-nonreduced-root-independent-audit.md).
+Source: [nonreduced-root proof](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-obstruction).
+Independent reconstruction: [spectral audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-independent-audit).
 A shorter general-base argument for moving pure powers is preserved
-in [the pure-power note](2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md).
+in [the pure-power note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
 
 ### A3. Exact exceptional-cycle balance and new support restrictions
 
@@ -162,8 +162,8 @@ If no residual component lies on the unique quadric, its coefficient
 improves from five to one. These are necessary inequalities, not a
 residual-existence theorem.
 
-Source: [cycle balance, slope refinement, and examples](2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples.md).
-Independent reconstruction: [cycle audit, including slope addendum](2026-10-19-exceptional-cycle-and-vertical-family-independent-audit.md).
+Source: [cycle balance, slope refinement, and examples](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples).
+Independent reconstruction: [cycle audit, including slope addendum](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-exceptional-cycle-and-vertical-family-independent-audit).
 
 ### A4. Counterexamples and actual higher-degree carriers
 
@@ -190,8 +190,8 @@ computed exactly; at parameter `gamma=1` it is the diagonal plus
 exactly five isolated points. These families do not exhaust the
 degree-eight projection model.
 
-Source: [actual degree-eight families](2026-10-19-quadric-antidiagonal-fourfold-line-proposal.md).
-Independent reconstruction: [carrier audit](2026-10-19-quadric-antidiagonal-fourfold-line-independent-audit.md).
+Source: [actual degree-eight families](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-quadric-antidiagonal-fourfold-line-proposal).
+Independent reconstruction: [carrier audit](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-quadric-antidiagonal-fourfold-line-independent-audit).
 
 ## B. Dependencies, authority, and precise frontier change
 
@@ -221,9 +221,9 @@ to be a saturated line. No canonical result, question, state, or
 frontier record was edited or promoted.
 
 An independent local Hilbert-function argument is preserved in
-[the local normal-flatness proposal](2026-10-19-filtered-generic-ci-normal-flatness.md).
+[the local normal-flatness proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness).
 It has its own classical dependency and a separate
-[independent audit](2026-10-19-filtered-local-normal-flatness-independent-audit.md).
+[independent audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit).
 It is also a reviewed but unpromoted proposal. The projective theorem
 has the self-contained resultant/duality proof and does not depend on
 this additional classical bound or on the local route's broader scope.
