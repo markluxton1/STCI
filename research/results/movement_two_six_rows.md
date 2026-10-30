@@ -82,3 +82,7 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not exhaust arbitrary characteristic-zero STCI pairs.
 - Picard descent, singular full roots, formal lifting, and actual homogeneous equations remain untested for the rows.
 - STCI-R-0011 ensures reduction of moving full roots only under its own Picard-descent interface.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
