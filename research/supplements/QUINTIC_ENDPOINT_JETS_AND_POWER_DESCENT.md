@@ -26,9 +26,9 @@ normalizations. No mathematical execution is claimed here.
 ## 1. Imported geometric scope
 
 Use the [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
-its [independent audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
-the [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
-and the [explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
+its [independent audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
+the [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
+and the [explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit).
 These give the normal degree-five del Pezzo surface S, its single A4
 singularity, the lifted curve c, and the unique line ell. In anticanonical
 coordinates put
@@ -136,8 +136,8 @@ make the same obstruction persist under every power, by the exact chain
 rule. No reduced, flat, Gorenstein or ordinary conductor-cover hypothesis
 is used. No tensor-equalizer sufficiency is asserted.
 
-The separate [a=0,b!=0 support proof](2026-10-11-session-quintic-endpoint-a0-support-exclusion.md)
-and its [completed independent audit](2026-10-11-session-quintic-endpoint-a0-polynomial-support-independent-audit.md)
+The separate [a=0,b!=0 support proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#4-quintic-endpoint-a0-support-exclusion)
+and its [completed independent audit](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#3-quintic-endpoint-a0-polynomial-support-independent-audit)
 treat the other a=0 boundary. Combining them after this note is audited
 would close the entire a=0 endpoint family. The a!=0 common-root support
 problem and the extra nonendpoint modulus remain separate.
@@ -171,9 +171,9 @@ The owner proof audited is
 [the a=b=0 jet-obstruction proof](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#1-quintic-endpoint-a-b-zero-jet-obstruction).
 The geometric antecedents were read in the actual saved
 [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
-[independent conormal and del Pezzo audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
-[intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
-and [explicit-model independent audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
+[independent conormal and del Pezzo audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
+[intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification),
+and [explicit-model independent audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit).
 In particular:
 
 * `S` is the normal degree-five del Pezzo surface with a single A4 point;
@@ -329,9 +329,9 @@ its nonzero transverse derivative. Characteristic zero is essential
 to this all-positive-integer claim.
 
 The separate
-[a=0,b!=0 support proof](2026-10-11-session-quintic-endpoint-a0-support-exclusion.md)
+[a=0,b!=0 support proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#4-quintic-endpoint-a0-support-exclusion)
 and its
-[completed independent polynomial-support audit](2026-10-11-session-quintic-endpoint-a0-polynomial-support-independent-audit.md)
+[completed independent polynomial-support audit](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#3-quintic-endpoint-a0-polynomial-support-independent-audit)
 exclude the rest of the `a=0` endpoint stratum. Combining these actual
 proofs closes the entire `a=0` endpoint family. The endpoint `a!=0`
 common-root/contact problem, nonendpoint modulus, and other quintic
@@ -391,7 +391,7 @@ the endpoint projection sublane a=b=0 of the degree-five A4 model,
 over an algebraically closed characteristic-zero field.
 
 The inherited inputs are the actual coordinates and regular section
-in the [explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md),
+in the [explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit),
 and the necessary normalized-mate relation in the
 [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd).
 Under a mate, its degree is b_mate=4k with k a positive integer,
