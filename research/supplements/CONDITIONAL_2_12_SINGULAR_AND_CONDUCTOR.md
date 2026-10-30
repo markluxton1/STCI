@@ -285,7 +285,7 @@ The finite singular-root bridge remains the reviewed proposal in
 
 This continuation additionally uses the independently reviewed
 **actual-pair** norm identity from
-[the geometric continuation](2026-10-20-conditional-2-12-geometric-continuation.md):
+[the geometric continuation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-geometric-continuation):
 if `q1=u+zv/2`, `tau=f|_(q1=0)`, then `tau!=0` and
 
     alpha proportional tau(omega*z)*tau(omega^2*z), omega^3=1.
@@ -294,7 +294,7 @@ That identity retains collisions and endpoint ramification. It must
 not be inferred on arbitrary low-order points just from the generic
 orbit factorization. The sextic symbol image and its exact
 one-dimensional kernel are the reviewed new computation in
-[the symbol-map note](2026-10-20-conditional-2-12-symbol-map.md).
+[the symbol-map note](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map).
 
 Only the two-node reducible root stratum is considered below. The
 previously excluded cuspidal and tangent strata stay excluded;
@@ -508,7 +508,7 @@ With both defects units, `B1=0` forces `B2^3=0`. On closed points
 both `B` coefficients vanish; the same statement holds for the
 two `C` coefficients. If both `B` and both `C` vanish, the old
 diagonal exclusion in
-[the preceding continuation](2026-10-20-conditional-2-12-singular-continuation.md)
+[the preceding continuation](#2026-10-20-conditional-2-12-singular-continuation)
 applies. The remaining `B=0` boundary has both `C_i` invertible.
 Set `C1=C2=1` by factor scaling. Here `Delta_i=Ai*Di` and
 `d_i, Ai+2Di` are units. Equations (2) give
@@ -729,7 +729,7 @@ polarization. This proof needs no classification theorem for V5.
 ## 3. The actual sextic descends to an anticanonical surface
 
 The exact 23-element source basis in
-[the symbol computation](2026-10-20-conditional-2-12-symbol-map.md)
+[the symbol computation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map)
 consists of products of the seven cubics. Consequently every actual
 sextic in H0(I_C0^2(6)) gives a quadric section T of V with
 
@@ -738,7 +738,7 @@ sextic in H0(I_C0^2(6)) gives a quadric section T of V with
 
 For an actual supported pair, F6 cannot have Q as a component, by
 the quadric Picard argument in
-[the norm note](2026-10-20-conditional-2-12-geometric-continuation.md).
+[the norm note](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-geometric-continuation).
 Thus D has no Q' component, T does not contain Gamma, and D is the
 strict transform as well as total pullback of T. Off Q', phi is an
 isomorphism, so local normalizations and conductors there transfer
@@ -826,7 +826,7 @@ nonnormal-surface bound is claimed.
 ## 1. Exact scope and source boundary
 
 Use the same actual-pair hypotheses as the reviewed but unpromoted
-[surface-bound proposal](2026-10-20-conditional-2-12-surface-bound.md): an actual
+[surface-bound proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-surface-bound): an actual
 homogeneous supported pair of degrees `(6,16)`, full generic coprime initial CI
 of degrees `(2,12)`, and actual saturated movement-two first relation, over an
 algebraically closed field of characteristic zero. The promoted inputs are
@@ -1114,7 +1114,7 @@ conductor and normalization singularities must not be used. The equation
 `F=z*p+t^10` and the existence of its nonnormal curve remain correct local
 countermodels. The correction and a genuinely integral normalization
 candidate are recorded in
-[the continuation audit](2026-10-21-conditional-2-12-surface-audit-cont2.md).
+[the continuation audit](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2).
 This defect is confined to the nodal example; sections 2--6 use the monic
 `x^2` normalization calculation and do not divide by a nonunit coefficient.
 
@@ -1187,7 +1187,7 @@ relation, and sole reduced support `C0`.
 ## 1. The explicit cubic contraction
 
 The reviewed source is
-[the cubic-image and conductor-interface note](2026-10-21-conditional-2-12-cubic-image-and-conductor-interface.md).
+[the cubic-image and conductor-interface note](#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface).
 The new verifier was run directly:
 
     /opt/homebrew/bin/M2 --script research/computations/conditional_2_12_cubic_image_2026_10_21.m2
@@ -1274,7 +1274,7 @@ arithmetic-genus-at-most-one component lemma.**
 ## 3. Ramified simple base multiplier: local and global audit
 
 The reviewed saved source is
-[the conductor-ramification note](2026-10-21-conditional-2-12-conductor-ramification.md).
+[the conductor-ramification note](#2026-10-21-conditional-2-12-conductor-ramification).
 At a smooth ramified root point over a simple base zero, its
 Weierstrass and parameter-Morse steps preserve the exceptional
 parameter `t` and give
