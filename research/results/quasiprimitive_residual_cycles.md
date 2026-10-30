@@ -49,3 +49,7 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Unsaturated ordinary associated gradeds and improper residual intersections are outside the claim.
 - Historical quartic (4,b) applications remain illustrations, not open mate cases after STCI-R-0001.
 - Vertical exceptional cycles are not residual curves downstairs.
+
+## Permanent evidence navigation
+
+Historical `research/notes/` identifiers in the metadata are preserved for provenance. The permanent [subject synthesis](../synthesis/05-exclusions.md) provides navigation to the mathematical arguments and their detailed supplements. This addition does not change any theorem or audit claim.
