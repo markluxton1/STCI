@@ -30,7 +30,7 @@ The chapters now provide explicit entry points into the migrated source packages
 | Multiplicity-three residual quartics and the (4,4) exclusion boundary | [Chapter 5](05-exclusions.md), §5.8 | [(4,4) multiplicity and genus](../supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md) |
 | Open bridges to actual global equations | [Chapter 6](06-frontier.md), §6.14 | Corresponding source packages above; canonical status in [results](../results/INDEX.md) |
 
-These are subject-level reading routes, not certifications of every preserved historical argument. The source supplements retain detailed proofs and limitations while their internal duplication awaits further editorial review. Do not infer an established theorem from inclusion in a synthesis chapter.
+These are subject-level reading routes, not certifications of every preserved historical argument. The source supplements retain detailed proofs and limitations and preserve detailed arguments whose specialization would be lost in a chapter summary. Do not infer an established theorem from inclusion in a synthesis chapter.
 
 ## Chapters
 
