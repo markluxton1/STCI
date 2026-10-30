@@ -965,7 +965,7 @@ along `Gamma`. This is a structural reduction, not a mate exclusion.
 
 The [marking audit](GENUS_TWO_MARKING_AND_SECTION_PROOF.md)
 accepts the remaining ruled/plane marking steps of the
-[adjoint model](2026-10-09-session-genus-two-adjoint-conic-model.md),
+[adjoint model](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd),
 including the exact vertical `D8` lattice. The complete pencil
 `f=K_M+L` is rational and basepoint-free, `f^2=0`, `L.f=2`.
 Both mate strata must remain:
