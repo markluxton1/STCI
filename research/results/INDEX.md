@@ -48,3 +48,7 @@ For mathematical exposition see the [consolidated synthesis](../synthesis/README
 - [Jet geometry](jet_geometry.md)
 
 For status conflicts consult [authority rules](../AUTHORITY.md). The older migration-era assertion that no theorem had been promoted is superseded by the thirty-six ID-bearing records above.
+
+## Reading historical evidence fields after consolidation
+
+The `research/notes/2026-*.md` values in canonical result front matter are original provenance identifiers, not live paths on this branch. Each of the 36 ID-bearing records has a **Permanent evidence navigation** section pointing to retained mathematical exposition. Follow that route and the chapter's linked supplements for actual derivations; use the historical identifiers to track original acceptance and independent review, not as current file locations. A chapter link is a subject entry point, not a replacement for reading the exact hypotheses and audits. The original metadata is intentionally preserved.
