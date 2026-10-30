@@ -1,5 +1,12 @@
 # genus two marking and section pause audit
 
+## Dependency guide: audited markings versus unfinished section exclusion
+
+Sections 1–4 provide bounded marking and section-model checks under the accepted genus-two adjoint/conic-pencil inputs. The **noncrepant section exclusion is explicitly unfinished**; its graph and proximity conditions are continuation work, not a proved obstruction. Compare [the conductor/double-cover proof](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md) for normalization inputs and the [even-fiber](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md) and [three-center](GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md) exclusions for independent bisection restrictions. Preserve the rejected shortcuts and unfinished case analysis below.
+
+---
+
+
 Permanent detailed mathematical record, including all proofs, calculations, counterexamples and explicit unresolved conditions.
 
 # October 10 genus-two marking audit and section-case continuation record
