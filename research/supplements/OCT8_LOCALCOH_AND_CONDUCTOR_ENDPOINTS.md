@@ -325,7 +325,7 @@ field-root, Taylor-order, and torsionfree arguments above.
 # Root reconciliation of the late October 8 results
 
 This is the completed October 8 batch record. The
-[October 9 acceptance](2026-10-09-session-results-acceptance.md)
+[October 9 acceptance](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-results-acceptancemd)
 supersedes its remaining smooth-normalization language and gives
 the rationality, genus-one del Pezzo/D5 reductions and 630-point
 necessary principal mate bound. The historical 91/103 execution
@@ -342,7 +342,7 @@ not turn the principal ancestor exclusion into a carrier theorem.
 No common quartic ancestor of the two fixed independent targets has
 e=1 and a genuine second defect of degree one.
 
-The [independent principal completeness audit](2026-10-08-session-principal-e1-d1-independent-completeness-audit.md)
+The [independent principal completeness audit](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-principal-e1-d1-independent-completeness-auditmd)
 exhausts the principal chart and its projective complement. On the
 declared open the complete eighteen-dimensional quartic ideal space
 has first/contact rank 17. The first-normal determinant, complete
@@ -359,7 +359,7 @@ A uniform dimension-one assertion on the whole lane would be false.
 
 Root rechecked the antecedents: the six nonprincipal endpoint triples
 are exhausted and excluded by their complete quartic spaces in the
-[endpoint ancestor proof](2026-10-08-session-localcoh-e1-d1-endpoint-ancestors.md).
+[endpoint ancestor proof](#source-2026-10-08-session-localcoh-e1-d1-endpoint-ancestorsmd).
 At the primitive obstruction-zero point, the only correction has no
 additional H0(O(-3)) freedom; multiplication by a degree-one killing
 section shares its zero, so it is not a genuine finite-flat positive
@@ -386,15 +386,15 @@ positive degree. The theorem retains arbitrary upstairs conductor D.
 
 The actual conductor is an ACM cubic with Hilbert polynomial 3m+1;
 this is a scheme-level result, not a claim about the Jacobian radical.
-The [ACM audit](2026-10-08-session-scroll-acm-independent-audit.md)
-and [owner proof](2026-10-08-session-scroll-degenerate-conductor.md)
+The [ACM audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-acm-independent-auditmd)
+and [owner proof](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-degenerate-conductormd)
 derive its Hilbert--Burch presentation and the exact sequence
 0 -> O_Gamma -> p_*O_D -> omega_Gamma -> 0.
 The reduced theorem includes the smooth twisted cubic, conic plus line,
 and all three-line configurations. The concurrent three-line case is
 excluded geometrically before any flat-cover assertion. See the
-[conic-plus-line audit](2026-10-08-session-scroll-conic-line-independent-audit.md)
-and [three-line audit](2026-10-08-session-scroll-three-lines-independent-audit.md).
+[conic-plus-line audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conic-line-independent-auditmd)
+and [three-line audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-three-lines-independent-auditmd).
 
 For locally Gorenstein Gamma the exact sequence makes p finite flat
 of rank two even when Gamma is nonreduced. A locally Gorenstein triple
@@ -410,7 +410,7 @@ sigma(f)^n=f^n then forces sigma(f)/f=+1 or -1 in each entire generic
 Artin ring, with no nilpotent correction. Cohen--Macaulay purity extends
 square invariance globally, and the conductor square descends f^2 to
 the forbidden quadric mate. The
-[independent Gorenstein audit](2026-10-08-session-scroll-gorenstein-independent-audit.md)
+[independent Gorenstein audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-gorenstein-independent-auditmd)
 accepts this scope. Root checked the thick-base partitions and the
 prime-exchange qualification; reduced-fibre reasoning alone would not
 justify them.
@@ -431,8 +431,8 @@ is (x^2,xy,xL-8yz), a double line plus a line; its upstairs divisor is
 so its complete finite flat algebra, including nilpotents, gives the
 square compression in section 2.
 
-The [owner proof](2026-10-08-session-mf6-rhalf-scroll-conductor.md)
-and [independent audit](2026-10-08-session-mf6-rhalf-scroll-independent-audit.md)
+The [owner proof](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-mf6-rhalf-scroll-conductormd)
+and [independent audit](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-mf6-rhalf-scroll-independent-auditmd)
 bind this equation to the unique actual boundary quartic. Root
 independently derived the normalization-ring closure and all six
 annihilator identities. Hilbert--Burch and the actual conductor Hilbert
@@ -452,7 +452,7 @@ the unique quartic kernel gives a regular projective family away from
 the treated node, and a normal b0=0 fibre makes the closed
 positive-dimensional Jacobian-fibre locus proper. The exact finite
 subset is not yet enumerated. See section 6 of the
-[boundary proof](2026-10-08-session-mf6-principal-boundary-audit.md).
+[boundary proof](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-mf6-principal-boundary-auditmd).
 
 ## 4. Execution and continuation state
 
@@ -483,7 +483,7 @@ unrestricted. This supersedes the intermediate conductor boundary in
 section 2, while retaining singular normalizations and other polarized
 normalization classes as separate work.
 
-The [nongorenstein classification](2026-10-08-session-scroll-nongorenstein-cubic-classification.md)
+The [nongorenstein classification](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-cubic-classificationmd)
 uses the actual three-by-two linear Hilbert--Burch matrix. Its projective
 rank-zero locus is a point or a line. The point case is a cone over a
 noncollinear length-three scheme in P2; saturation and absence of linear
@@ -513,7 +513,7 @@ only remaining class is D=2C_min+4F on F2.
 That final pattern has NB_F=(t^2) in its length-four factor. Ambient
 normal coordinates to the support line therefore vanish to order at
 least two along F, making d nu generically rank one there. The
-[independent differential lemma](2026-10-08-session-normalization-differential-independent-audit.md)
+[independent differential lemma](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-normalization-differential-independent-auditmd)
 excludes it. Root checked the lemma directly: a unit Jacobian pivot
 gives a regular kernel vector modulo the prime ideal of the conductor
 component. Differentiating the full power identity in an ambient-unit
@@ -524,7 +524,7 @@ the smooth c, its tangent is the kernel, contradicting immersion of
 nu|c. The lemma also permits singular conductor primes. An isolated
 differential rank-drop point does not satisfy its hypothesis.
 
-Finally, the [exact Artin audit](2026-10-08-session-scroll-artin-independent-audit.md)
+Finally, the [exact Artin audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-artin-independent-auditmd)
 completes double-line-plus-line conductors directly, including the
 nongorenstein junction. Above the doubled line, free rank two over
 K[epsilon]/epsilon^2 gives only (a,r)=(4,1),(2,2), or two (2,1).
@@ -540,7 +540,7 @@ This proof uses entire Artin rings and the whole mate equation. The
 alternative transversal-plane delta argument is retained as a proposed
 secondary route; it is not needed for the accepted theorem. The
 independent Artin audit, differential audit, the
-[complete independent scroll audit](2026-10-08-session-scroll-nongorenstein-independent-audit.md)
+[complete independent scroll audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-independent-auditmd)
 and root verification supply the promoted scope. No broad classification of all nonnormal quartic
 surfaces is inferred from the classification of these ACM cubics.
 
@@ -548,8 +548,8 @@ surfaces is inferred from the classification of these ACM cubics.
 
 Both factors k^2+1 and k^2-2k-1 are excluded at all four geometric roots
 and for every lower parameter lambda. The
-[owner proof](2026-10-08-session-localcoh-family2-quadratics.md)
-and [independent audit](2026-10-08-session-localcoh-family2-quadratic-independent-audit.md)
+[owner proof](#source-2026-10-08-session-localcoh-family2-quadraticsmd)
+and [independent audit](#source-2026-10-08-session-localcoh-family2-quadratic-independent-auditmd)
 check polynomial duals with n^T L=0 and n^T u=1 on all eighteen actual
 quartic columns. Separate exact-field arithmetic rederives the seeds,
 directions, slopes, rank-29 top map and complete affine lift fibre.
@@ -647,7 +647,7 @@ would not suffice.
 Date: 2026-10-08. Fixed C0 in characteristic zero. Status:
 **PROVED BY COMPLETE QUARTIC FIBRES AND A PARAMETER-COVERING RANK ARGUMENT;
 accepted after independent and root review.** See the
-[root acceptance record](2026-10-08-session-new-results-acceptance.md).
+[root acceptance record](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-new-results-acceptancemd).
 This treats exactly the two
 directions `A=r*z,B=1,12r^2+4r+3=0` with d2=4. Other positive-D2
 directions and Gorenstein quadruples outside these fibres remain open.
@@ -790,7 +790,7 @@ d2=4 Gorenstein stratum follows.
 Date: 2026-10-08. Fixed C0, characteristic zero. Scope: exactly
 `A=r*z,B=1,12r^2+4r+3=0`, genuine degree-four second defect. The audited
 claim is in
-[`2026-10-08-session-localcoh-e1-d4-algebraic.md`](2026-10-08-session-localcoh-e1-d4-algebraic.md).
+[`2026-10-08-session-localcoh-e1-d4-algebraic.md`](#source-2026-10-08-session-localcoh-e1-d4-algebraicmd).
 
 **ACCEPTED:** every genuine triple in either algebraic direction has a
 complete space of containing ambient quartics of dimension at most one.
@@ -1221,7 +1221,7 @@ PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python \
 
 The producing agent's independent evidence and original process history
 are retained in the
-[quadratic proof note](2026-10-08-session-localcoh-family2-quadratics.md).
+[quadratic proof note](#source-2026-10-08-session-localcoh-family2-quadraticsmd).
 The absent parent-local handle for one producing process was not treated
 as a failed computation or used to infer a live process. Acceptance here
 comes from the exact identities and new terminal executions.
@@ -1497,4 +1497,4 @@ The rank check is a separate exact verification of the complete quartic
 space; the global divisor proof supplies the defect-independent reason.
 The two already excluded cubic-factor endpoint directions and four
 one-dimensional endpoint fibres are recorded separately in
-[`2026-10-08-session-localcoh-e1-d1-endpoint-ancestors.md`](2026-10-08-session-localcoh-e1-d1-endpoint-ancestors.md).
+[`2026-10-08-session-localcoh-e1-d1-endpoint-ancestors.md`](#source-2026-10-08-session-localcoh-e1-d1-endpoint-ancestorsmd).
