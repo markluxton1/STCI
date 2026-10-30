@@ -59,7 +59,7 @@ for this theorem. The same argument applies to any smooth rational
 degree-four curve in a nonnormal integral quartic.
 
 See the [owner proof](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
-and [independent audit](2026-10-09-session-nonrational-normalization-independent-audit.md).
+and [independent audit](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md).
 For a smooth resolution M and L the pulled-back hyperplane,
 L^2=4, K_M.L=2pi-6<0, and 0<=pi<=2. A nonrational resolution is
 ruled over a curve of positive genus. Pushing the nef L through
