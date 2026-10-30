@@ -11,7 +11,7 @@ and the classical minimal-degree classification, with primary source
 checks stated below. It does not classify every singular normalization
 or settle the unrestricted quartic-carrier problem.
 
-The [independent genus-zero audit](2026-10-09-session-normalization-genus-zero-independent-audit.md)
+The [independent genus-zero audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-normalization-genus-zero-independent-auditmd)
 has accepted all sections below and the automatic generic regularity
 strengthening in section 1.
 
@@ -24,8 +24,8 @@ is exactly C. No semi-log-canonical hypothesis is made.
 
 ## 1. The support and divisor identities that are available
 
-The [full-support theorem](2026-10-06-session-conductor-support.md) and
-the [smooth-lift argument](2026-10-07-session-nonnormal-structural-progress.md)
+The [full-support theorem](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-conductor-support) and
+the [smooth-lift argument](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd)
 give, under a mate,
 
     (nu^{-1}(C))_red = c,
@@ -61,7 +61,7 @@ the general plane section is positive. Consequently
     0 <= pi <= 2
 
 in the nonnormal case. The separate
-[singular-degree audit](2026-10-08-session-singular-degree-and-singleton-hessian-audit.md)
+[singular-degree audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-singular-degree-and-singleton-hessian-auditmd)
 records the complete plane-section defect argument. Here pi is a
 normalization sectional genus, not the arithmetic genus of an ambient
 plane quartic and not the degree of a conductor or Jacobian scheme.
@@ -213,15 +213,15 @@ tangent of c is therefore the kernel of dnu, contrary to the
 immersion nu|c:c->C subset P3. This proves the cone exclusion.
 
 The same local-unit differential argument is independently stated in
-[the differential audit](2026-10-08-session-normalization-differential-independent-audit.md).
+[the differential audit](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-normalization-differential-independent-auditmd).
 The proof here does not cite an unrederived arbitrary-degree cone
 theorem and does not assume that a section on S descends to X.
 
 ## 4. Consequence after combining the accepted scroll and Veronese lanes
 
-The accepted [entire smooth-scroll theorem](2026-10-08-session-scroll-nongorenstein-independent-audit.md)
+The accepted [entire smooth-scroll theorem](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-independent-auditmd)
 excludes the first two polarizations in section 2, and the accepted
-[entire Veronese theorem](2026-10-08-session-veronese-allmate-independent-audit.md)
+[entire Veronese theorem](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-veronese-allmate-independent-auditmd)
 excludes the third. Section 3 excludes the fourth. Thus:
 
 **Corollary.** Under the hypotheses above, a mate requires pi>0.
@@ -271,7 +271,7 @@ remove such points. This is a necessary filter; it does not exclude
 all singular normalization classes. In particular rational double
 points can admit exactly this finite torsion.
 
-The [local lift countershield](2026-10-09-session-singular-local-lift.md)
+The [local lift countershield](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-local-liftmd)
 constructs an order-one affine quartic carrier with A1 normalization
 and a smooth curve passing through the normalization singularity,
 with full inverse support and an actual local mate. It prevents
