@@ -411,7 +411,7 @@ unrestricted C0 question and other quintic normalization lanes remain open.
 
 This accepts the final obligation of the
 [owner continuation](2026-10-13-generalization-quintic-continuation.md)
-after the earlier [independent geometric audit](2026-10-14-generalization-quintic-new-independent-audit.md).
+after the earlier [independent geometric audit](#source-2026-10-14-generalization-quintic-new-independent-auditmd).
 The completed literal membership identity is an input; it is not
 re-expanded here at the user's direction. The new root review matches
 that final identity to the already reviewed six-generator geometry and
