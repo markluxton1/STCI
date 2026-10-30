@@ -13,6 +13,21 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 > **Migration navigation (October 30).** The historical `research/notes/` directory was retired after preservation in `research/supplements/`. Historical note links have been removed from this index; use the subject supplement links below and the six synthesis chapters. Canonical theorem authority remains exclusively in `results/`. The original source-to-supplement mapping is retained in the migration inventory; no mathematical claim is promoted by this navigation repair.
 
+## Integrated normal-filtration and boundary reading route (October 30)
+
+The following order follows the mathematical dependencies rather than the historical dates. These are **research supplements**, not new canonical theorem records.
+
+1. [Full ideal-filtration diagram and the filtered (4,4) route](supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#integration-guide-first-symbols-complete-filtrations-and-44-exclusion): distinguish the actual embedding from first normal symbols, including the retained counterexample.
+2. [Conditional normal flatness](supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#integration-guide-what-normal-flatness-actually-propagates): apply the saturated-first-relation theorem only under its stated hypotheses.
+3. [Rees and residual cycles](supplements/REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#integration-guide-global-cycles-do-not-determine-local-saturation): global intersection budgets do not bound every local saturation defect.
+4. [Delta embedding and conormal torsion](supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#integration-guide-embedding-data-rees-cycles-and-the-limits-of-numerical-tests): preserve the marked-embedding and specialization data.
+5. [Higher initial ideals](supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#integration-guide-cancellations-and-higher-embedded-data) and [intrinsic valuations/contact](supplements/INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#integration-guide-valuations-length-and-actual-contact-equations): cancellation and colength require more than scalar valuation minima.
+6. [Global boundary lifting](supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#integration-guide-boundary-repair-versus-weighted-initial-data) and [one-step endpoint tests](supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#integration-guide-one-step-obstructions-and-global-endpoint-tests): test the image of the actual homogeneous equation module.
+7. [Normal-index/socle inequalities](supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#integration-guide-numerical-indices-and-actual-symbolic-structures) and [symbolic carrier torsion](supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md#integration-guide-class-group-torsion-index-bounds-and-the-mate-problem): distinguish one-carrier restrictions from constraints imposed by a mate.
+8. [Comparison of the distinct (4,4) obstruction routes](supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md#cross-supplement-synthesis-distinct-44-obstruction-routes-editorial-not-a-new-audit): keep the filtered calculation, surface-singularity proposal, and lower-multiplicity counterexamples separate.
+
+For theorem status and hypotheses, use [canonical results](results/INDEX.md). These integrations organize historical proofs, computations, counterexamples, and limitations; they do not promote claims or settle the unrestricted characteristic-zero STCI problem.
+
 ## Start here
 
 - [Repository overview](../README.md)
