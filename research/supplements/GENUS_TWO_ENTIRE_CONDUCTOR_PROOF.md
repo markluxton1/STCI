@@ -1,5 +1,12 @@
 # The entire genus-two conductor: duality and double-cover proof
 
+## Dependency guide: normalization/conductor input, not mate exclusion
+
+This proof identifies the conductor and double-cover geometry under the accepted **genus-two quartic normalization** hypotheses. It supplies inputs to the [bisection even-fiber exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md), [three-center fiber obstruction](GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md), and [marking/section analysis](GENUS_TWO_MARKING_AND_SECTION_PROOF.md). The conductor identity does not establish descent of the adjoint pencil, a resolution-to-ambient-blowup map, or nonexistence of a mate. Those are separate global obligations, not consequences to insert into the conductor proof.
+
+---
+
+
 This audit accepts the conductor reduction proposed by the root agent. It
 does not exclude mates in the genus-two branch. In particular it proves
 neither that the adjoint pencil descends to the normalization nor that the
