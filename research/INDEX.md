@@ -114,3 +114,19 @@ PRs [#78](https://github.com/markluxton1/STCI/pull/78) and [#79](https://github.
 The canonical results index includes R-0030 (local comparison and punctual torsion) and R-0031 (the prescribed characteristic-two fourth equation). Their limited scopes do not settle the supported punctual-defect problem or the general STCI question.
 
 - [October 26 structural theorem promotions](STRUCTURAL_PROMOTION_NAV_2026-10-26.md) — scoped R-0032 through R-0036 and remaining interfaces.
+
+## Permanent carrier proof supplements (migration)
+
+The following supplements preserve complete mathematical proofs and calculations, including conditional hypotheses and unresolved boundaries; they replace the corresponding dated historical notes.
+
+- [Genus-two bisection: even fiber-count exclusion](supplements/GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md)
+- [Genus-two bisection: three-center fiber classification](supplements/GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md)
+- [Genus-two trisecant carrier ideal and discriminant](supplements/GENUS_TWO_TRISECANT_CARRIER_PROOF.md)
+- [Genus-two entire-conductor proof](supplements/GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md)
+- [Nonrational quartic normalization proof](supplements/NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
+- [Genus-two marking and section](supplements/GENUS_TWO_MARKING_AND_SECTION_PROOF.md)
+- [Genus-two lambda-one horizontal-line budget](supplements/GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md)
+- [Genus-one ribbon repeated partitions](supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md)
+- [Genus-one ribbon conormal net](supplements/GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md)
+- [Genus-one fixed-center 2,1,1 projection](supplements/GENUS_ONE_211_PROJECTION_PROOF.md)
+- [Genus-one uniform projection analysis](supplements/GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md)
