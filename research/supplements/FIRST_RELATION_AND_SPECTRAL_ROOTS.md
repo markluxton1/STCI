@@ -54,7 +54,7 @@ Gorenstein Hilbert-function drop input is explicitly identified there.
 
 The elementary torsion upper bound in section 3 below is inherited in
 substance from section 9 of
-[the generator-filtration audit](2026-10-13-generalization-thick-generator-filtration-audit.md).
+[the generator-filtration audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd).
 The proposed new contribution is its combination with exact saturated
 duality and the quotient resultant, including the formula
 
@@ -1293,7 +1293,7 @@ Gorenstein MCM duality, is in section 3 of
 The use below does not depend on pure-power, movement, or apolarity:
 only the symmetric generic Hilbert function in (1) is used for perfect
 saturated pairings. The actual socle line and local MCM duality are
-accepted in [the socle audit](2026-10-13-generalization-socle-independent-audit.md).
+accepted in [the socle audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd).
 
 All new assertions here remain unpromoted proposals. The linked independent
 written review records PASS under the stated hypotheses. No accepted
@@ -1650,7 +1650,7 @@ The inherited inputs are:
   first relation subbundle. These inherited results are used as accepted
   premises, rather than re-audited here.
 - The reviewed
-  [generator-filtration proof](2026-10-13-generalization-thick-generator-filtration-audit.md),
+  [generator-filtration proof](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd),
   sections 1--4: for the entire initial ideal, not just two chosen symbols,
   `gr_F(Q/IQ)=K/(S_+K)`. This is accepted evidence, but has no separate
   promoted result ID. The present audit checks the new use of that interface.
