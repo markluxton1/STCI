@@ -15,7 +15,7 @@ No canonical promotion, new exclusion, or homogeneous realization is claimed.
 No isolated example or sampled pair is used.
 
 Continuation, October 27: the
-[one-step equation-module comparison](2026-10-27-one-step-boundary-obstruction.md)
+[one-step equation-module comparison](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction)
 proves the proposed repair principle for a fixed lower embedded
 thickening and identifies exact vanishing at the final Gorenstein step.
 It does not settle a comparison for arbitrary ambient obstruction complexes.
