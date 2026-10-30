@@ -228,3 +228,8 @@ Thirty historical mathematical sources preserved in full in four supplements: `O
 ## Full-content migration — October 10–11 bisection, genus two, and quartic geometry (2026-10-30)
 
 Thirty historical mathematical sources preserved in full in four supplements: `OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md` (8), `OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md` (8), `OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md` (8), `OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md` (6). All 30 originals retired only after committed supplements were verified to include each source heading. Mathematical arguments, hypotheses, counterexamples, failures and open boundaries retain source status; no independent correctness audit or theorem promotion. **Cumulative historical retirements: 477; live remaining notes: 72.** Inbound reference cleanup and editorial harmonization remain outstanding.
+
+
+## Full-content migration — October 11–14 quintic and generalization investigations (2026-10-30)
+
+Thirty historical mathematical sources preserved in full in four supplements: `OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md` (8), `OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md` (8), `OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md` (9), `OCT14_CARTIER_LIFTS_AND_MOVING_RELATIONS.md` (5). All thirty originals retired only after permanent supplements were committed and source headings verified. Calculations, counterexamples, conditional arguments and unresolved issues retain original evidence status; no independent correctness audit or theorem promotion. **Cumulative historical retirements: 507; live remaining notes: 42.** Inbound reference cleanup and editorial harmonization remain outstanding.
