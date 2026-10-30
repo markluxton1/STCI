@@ -1,7 +1,7 @@
 # A moving power forces degeneration of the next coprime relation
 
 Date: 2026-10-14. Status: **PROVED, independently reviewed in
-[the second-relation audit](2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md).**
+[the second-relation audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-second-relation-independent-audit).**
 This is a global relation-bundle obstruction, uniform in the two
 hypersurface degrees. Accepted normal-layer defect identities and the
 accepted movement-gap cost are premises. No previously verified
@@ -39,7 +39,7 @@ annihilator calculation,
        =H^-s tensor M^-(g+1) tensor Sym^(r-1)V.            (1)
 
 It has rank `r`. This identity is proved in
-[the moving-power tower](2026-10-14-generalization-moving-power-obstruction-tower.md).
+[the moving-power tower](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-power-obstruction-tower).
 
 Since `K_s` contains `P_s`, its image in `A_s` is a rank-one actual
 relation sheaf `T`. It is torsion-free on the smooth curve and hence a
@@ -208,10 +208,10 @@ Accepted inputs:
 
 New structural input:
 
-- [Moving-power quotient and obstruction tower](2026-10-14-generalization-moving-power-obstruction-tower.md).
-- [Independent tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
+- [Moving-power quotient and obstruction tower](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-power-obstruction-tower).
+- [Independent tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
 
-The [completed independent review](2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md)
+The [completed independent review](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-second-relation-independent-audit)
 accepts the second-relation evaluation, exact torsion-inclusive degree
 identity and the combined defect bound under their stated hypotheses.
 The full written proofs, rather than agreement alone, establish these claims.
