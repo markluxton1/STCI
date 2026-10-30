@@ -784,7 +784,7 @@ is the existence of a mate of any degree, retaining the integral
 carrier, reduced/content-free split exceptional divisor, and no
 vertical component assumptions of P-020. It is not the assumption
 that this sextic has a quartic mate. The corresponding
-[split-sextic note](2026-10-05-split-sextic.md) records the necessary
+[split-sextic note](RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#2026-10-05-split-sextic) records the necessary
 degree and branch-order scale k*(11,1,8), with k>0; in particular the
 mate degree is 8k in this stratum. Thus an all-quartic theorem does
 not close this surviving one-parameter family, its normalization or
