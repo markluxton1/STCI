@@ -24,7 +24,7 @@ R=\mathcal O_{P,p},\quad I=I_C=(x,y),\quad B=R/I,
 \]
 where \(f,g\) form a regular sequence. Distinct integral hypersurfaces give this situation; several algebraic results below have weaker hypotheses, stated in their individual notes. No rational-quartic classification, sole-support theorem, or STCI exclusion is a premise.
 
-The inherited [comparison construction](2026-10-23-ideal-filtrations-independent-investigation.md) and [normal-Koszul continuation](2026-10-24-delta-singular-locus-continuation.md) are reviewed but **unpromoted** evidence. Their exact claims are retained as premises, without replaying inherited certificates. In particular,
+The inherited [comparison construction](2026-10-23-ideal-filtrations-independent-investigation.md) and [normal-Koszul continuation](#delta-singular-locus-continuation) are reviewed but **unpromoted** evidence. Their exact claims are retained as premises, without replaying inherited certificates. In particular,
 \[
 S=\operatorname{gr}_I R=\operatorname{Sym}_B E,\quad E=I/I^2,
 \quad H=\operatorname{in}_I J,\quad T=\operatorname{in}_I(IJ),
@@ -69,7 +69,7 @@ Put
 \mathfrak a=\operatorname{im}(E^\vee\otimes D\xrightarrow{\phi}B)
 =\operatorname{Fitt}_1(N^*_{C/Z}),
 \]
-where the first map includes evaluation. In frames, \(\mathfrak a\) is the ideal of entries of the first conormal map. The [annihilator proposal](2026-10-24-delta-conormal-annihilator-proposal.md) proves
+where the first map includes evaluation. In frames, \(\mathfrak a\) is the ideal of entries of the first conormal map. The [annihilator proposal](#delta-conormal-annihilator-proposal) proves
 \[
 \boxed{\mathfrak a\Delta=0.} \tag{3}
 \]
@@ -92,7 +92,7 @@ At a DVR point, \(\mathfrak a=(t^r)\ne0\) implies that each elementary-divisor e
 \]
 The bound is sharp: \(J=(t^rx+y^2,t^ry+x^2)\) has \(\Delta_3=B/(t^r)\). Thus the nonreduced conormal scheme matters. This bounds coefficient thickness, not normal degree or the number of defect generators. It does not assert that \(\mathfrak a\) annihilates all higher \(Q_n\): surviving higher equations can remain free.
 
-The [independent annihilator review](2026-10-24-delta-annihilator-review.md) reconstructs the proof, its broader hypotheses, and the intrinsic Fitting ideal.
+The [independent annihilator review](#delta-annihilator-review) reconstructs the proof, its broader hypotheses, and the intrinsic Fitting ideal.
 
 ## 4. Delta is the special fibre of conormal torsion
 
@@ -107,7 +107,7 @@ The canonical quotient \(\mathscr R/L=B[u]\) gives the marked family \(C\times\m
 \mathscr N=\mathscr J/L\mathscr J,
 \qquad\mathscr N|_{u=1}=D,\quad\mathscr N|_{u=0}=Q.
 \]
-The [Rees proposal](2026-10-24-delta-rees-specialization-proposal.md) and its [independent review](2026-10-24-delta-rees-specialization-review.md) establish
+The [Rees proposal](#delta-rees-specialization-proposal) and its [independent review](#delta-rees-specialization-review) establish
 \[
 0\to\mathscr E\to\mathscr N\to\operatorname{Rees}_F(D)\to0,
 \qquad
@@ -146,7 +146,7 @@ At fixed \(b\), the graded defect \(\Delta=Be_T\) stays unchanged while the tors
 
 ## 5. Different geometric questions have different tests
 
-The [normal-geometry proposal](2026-10-24-delta-normal-geometry-proposal.md) proves the following distinctions in the smooth-curve, complete-intersection scope.
+The [normal-geometry proposal](#delta-normal-geometry-proposal) proves the following distinctions in the smooth-curve, complete-intersection scope.
 
 | Geometric question | Exact local test or comparison |
 |---|---|
@@ -177,7 +177,7 @@ Choose formal coordinates \(R=B[[x,y]]\), \(B=k[[t]]\), with a specified lift of
 \[
 U_n=\operatorname{Tor}_1^B(M/K^n,k).
 \]
-The [base-change proposal](2026-10-24-delta-base-change-proposal.md) proves the natural exact sequence
+The [base-change proposal](#delta-base-change-proposal) proves the natural exact sequence
 \[
 U_{n+1}\to U_n\to
 (K^n/K^{n+1})\otimes_Bk
@@ -329,13 +329,13 @@ At a DVR point with (\mathfrak s=(t^r)\ne0), every invariant factor of (\Delta_n
 \le r\,\mu_B(\Delta_n).
 \]
 
-The already reviewed punctual family in [the predecessor, section 5](2026-10-24-delta-singular-locus-continuation.md) has (\phi=\operatorname{diag}(t^r,t^r)) and (\Delta_d=B/(t^r)). It witnesses sharpness; that inherited computation was not replayed here. If (\mathfrak s=0), the new theorem supplies no numerical bound, as expected for a generically singular pair.
+The already reviewed punctual family in [the predecessor, section 5](#delta-singular-locus-continuation) has (\phi=\operatorname{diag}(t^r,t^r)) and (\Delta_d=B/(t^r)). It witnesses sharpness; that inherited computation was not replayed here. If (\mathfrak s=0), the new theorem supplies no numerical bound, as expected for a generically singular pair.
 
 ## 5. Authority boundary and outcome
 
 **Outcome:** the annihilator theorem, its coordinate independence, its Fitting-ideal interpretation, and the stated DVR consequences are independently reconstructed. No counterexample or omitted support assumption was found in this proof audit. The proof itself establishes the theorem; finite samples or agent agreement are not substituted for it.
 
-The retained inherited inputs are the full initial-ideal definition of (\Delta\), its inclusion in (Q), and the canonical normal-Koszul identification of (Q), as recorded in [the continuation](2026-10-24-delta-singular-locus-continuation.md). The elementary reconstruction above also makes the needed representative-level identification explicit. The antecedent records remain reviewed proposals, not promoted canonical results.
+The retained inherited inputs are the full initial-ideal definition of (\Delta\), its inclusion in (Q), and the canonical normal-Koszul identification of (Q), as recorded in [the continuation](#delta-singular-locus-continuation). The elementary reconstruction above also makes the needed representative-level identification explicit. The antecedent records remain reviewed proposals, not promoted canonical results.
 
 This review does not classify (Z), reconstruct its nonlinear extension data, prove normal flatness, produce global projective carrier equations, or resolve the STCI problem. No canonical result or question record was changed.
 
@@ -349,7 +349,7 @@ This review does not classify (Z), reconstruct its nonlinear extension data, pro
 
 Date: 2026-10-24.
 
-Target: [continuation report](2026-10-24-delta-singular-locus-continuation.md).
+Target: [continuation report](#delta-singular-locus-continuation).
 
 Status: **independent mathematical reconstruction completed for the claims identified below; provisional research, not canonical acceptance**.
 
@@ -459,7 +459,7 @@ F^nD=((J\cap I^n)+IJ)/IJ,\quad
 0\longrightarrow\Delta_n\longrightarrow Q_n\longrightarrow G_n\longrightarrow0,
 \qquad G_n=F^nD/F^{n+1}D. \tag{1}
 \]
-The [continuation](2026-10-24-delta-singular-locus-continuation.md) is the source for the generic generator count and the supported quadruple used below. Those inherited proofs and scripts are not replayed here. The standard definition of regular immersion is recalled in [Stacks, regular immersions](https://stacks.math.columbia.edu/tag/0638).
+The [continuation](#delta-singular-locus-continuation) is the source for the generic generator count and the supported quadruple used below. Those inherited proofs and scripts are not replayed here. The standard definition of regular immersion is recalled in [Stacks, regular immersions](https://stacks.math.columbia.edu/tag/0638).
 
 ## 1. Two separate obstructions to regularity of the normal-cone embedding
 
@@ -568,7 +568,7 @@ Independent audit: agent `geometry_maps/audit_cone_criterion` independently reco
 
 Date: 2026-10-24. Reviewer: `audit_rees`, an independent agent in this investigation.
 
-Target: [Rees specialization proposal](2026-10-24-delta-rees-specialization-proposal.md).
+Target: [Rees specialization proposal](#delta-rees-specialization-proposal).
 
 Status: **independent reconstruction of the algebraic theorem and explicit family; research evidence, not canonical promotion or external referee acceptance**.
 
@@ -754,7 +754,7 @@ A=\operatorname{gr}_K M=S/H,\quad
 \mathcal D=J/IJ,\quad G=\operatorname{gr}_F\mathcal D=H/T,
 \quad Q=H/S_+H,\quad\Delta=T/S_+H.
 \]
-The exact comparison `0 -> Delta -> Q -> G -> 0` and the smooth-carrier vanishing statement are retained reviewed premises from the [original investigation](2026-10-23-ideal-filtrations-independent-investigation.md). Their authority remains provisional; this note does not promote them. The [continuation](2026-10-24-delta-singular-locus-continuation.md), sections 5 and 7, supplies the inherited punctual family and supported quadruple used below. Their previously reviewed computations are not rerun here.
+The exact comparison `0 -> Delta -> Q -> G -> 0` and the smooth-carrier vanishing statement are retained reviewed premises from the [original investigation](2026-10-23-ideal-filtrations-independent-investigation.md). Their authority remains provisional; this note does not promote them. The [continuation](#delta-singular-locus-continuation), sections 5 and 7, supplies the inherited punctual family and supported quadruple used below. Their previously reviewed computations are not rerun here.
 
 The parameter lift is additional data for an actual transverse slice. The cone `Spec_C A` is intrinsic to `C subset Z`; the transverse slice `M/tM` need not be independent of that lift. All assertions comparing with the slice use the specified `B`-algebra structure.
 
@@ -978,7 +978,7 @@ In a third focused review, `audit_base_change` independently reconstructed Lemma
 
 Date: 2026-10-24. Status: **proved local arguments independently reconstructed by agent review; provisional research evidence, not a promoted result**.
 
-This note continues the [merged ideal-filtration investigation](2026-10-23-ideal-filtrations-independent-investigation.md) and [normal-Koszul continuation](2026-10-24-delta-singular-locus-continuation.md). It studies the marked embedding \(C\subset Z=X\cap Y\), without imposing \(Z_{\mathrm{red}}=C\). All claims below concern the marked embedding and its deformation; residual components are permitted.
+This note continues the [merged ideal-filtration investigation](2026-10-23-ideal-filtrations-independent-investigation.md) and [normal-Koszul continuation](#delta-singular-locus-continuation). It studies the marked embedding \(C\subset Z=X\cap Y\), without imposing \(Z_{\mathrm{red}}=C\). All claims below concern the marked embedding and its deformation; residual components are permitted.
 
 ## 1. Exact scope and retained dependencies
 
@@ -1205,7 +1205,7 @@ No assertion here reconstructs \(Z\) from \(\Delta\), determines unmarked compon
 
 ## 8. Review and reproducibility boundary
 
-The preceding proofs are local algebraic arguments, not inferences from sampled computations. Agent `audit_rees` independently reconstructed the degreewise quotients, torsion kernel, specialization sequence, flatness qualification, carrier saturation, full family ideal, and complete syzygies, then read this note in full. Its [independent review](2026-10-24-delta-rees-specialization-review.md) records the exact scope and the correction of the splitting terminology. This is an agent proof audit, not external acceptance or canonical promotion.
+The preceding proofs are local algebraic arguments, not inferences from sampled computations. Agent `audit_rees` independently reconstructed the degreewise quotients, torsion kernel, specialization sequence, flatness qualification, carrier saturation, full family ideal, and complete syzygies, then read this note in full. Its [independent review](#delta-rees-specialization-review) records the exact scope and the correction of the splitting terminology. This is an agent proof audit, not external acceptance or canonical promotion.
 
 The [new Macaulay2 script](../computations/verify_delta_rees_equation_module_2026_10_24.m2) independently computes full saturated Rees ideals and full syzygy modules for four parameter pairs, and the labelled-square example. The [validation record](../validation/delta-embedding-2026-10-24/README.md) captures its run and computational boundaries. No inherited proof or existing certificate is changed.
 
@@ -1329,7 +1329,7 @@ For \(r>1\), the reduced ideal \((t)\) does not annihilate \(\Delta\). The full 
 
 ## 5. Review, evidence, and next question
 
-The proposing agent `annihilator_probe` derived both the spectral and elementary arguments. Its independent reviewer `annihilator_probe/annihilator_audit` reconstructed the actual Koszul-boundary proof and confirmed that the complete-intersection hypothesis on \(J\) is unnecessary. A separate root-level reviewer independently reconstructed the proof in the [annihilator review](2026-10-24-delta-annihilator-review.md). These are independent agent reviews, not human referee acceptance or canonical promotion.
+The proposing agent `annihilator_probe` derived both the spectral and elementary arguments. Its independent reviewer `annihilator_probe/annihilator_audit` reconstructed the actual Koszul-boundary proof and confirmed that the complete-intersection hypothesis on \(J\) is unnecessary. A separate root-level reviewer independently reconstructed the proof in the [annihilator review](#delta-annihilator-review). These are independent agent reviews, not human referee acceptance or canonical promotion.
 
 The new script [exact annihilator samples](../computations/verify_delta_conormal_annihilator_2026_10_24.m2) checks (5), the full comparison denominator, exact annihilation, and sharpness for \(r=1,2,3\). It does not prove the arbitrary-parameter theorem, sheaf gluing, or global existence of projective pairs with prescribed local behavior.
 
@@ -1688,7 +1688,7 @@ The literature already studies the generic tangent-cone generator and cancellati
 
 The normal Koszul theorem was independently derived by lifting_audit and checked against the primary agent's separate filtration and Tor analysis. diagrams_derived independently reconstructed the generic generator count and cancellation resolution; its family_singular reviewer reconstructed (16)–(21). singular_family proved the punctual parameter family, and completeness independently reproduced its full Rees initials and lifted syzygies. The primary agent separately checked the integral-carrier arguments, special-fibre length, supported quadruple, and all saved code.
 
-The [review record](2026-10-24-delta-singular-locus-review.md) distinguishes completed independent mathematical checks from the primary-agent synthesis and remaining convergence qualifications. The [validation directory](../validation/delta-singular-locus-2026-10-24/README.md) preserves exact commands and outputs.
+The [review record](#delta-singular-locus-review) distinguishes completed independent mathematical checks from the primary-agent synthesis and remaining convergence qualifications. The [validation directory](../validation/delta-singular-locus-2026-10-24/README.md) preserves exact commands and outputs.
 
 Two independent implementations accompany the proofs: [Python full-product identities](../computations/verify_delta_singular_identities_2026_10_24.py) and [Macaulay2 Rees-saturation samples](../computations/verify_delta_singular_families_2026_10_24.m2). Finite samples verify their stated boundaries, not the arbitrary-parameter theorems. No canonical result or question record is altered.
 
