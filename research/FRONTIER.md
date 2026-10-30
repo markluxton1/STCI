@@ -61,12 +61,12 @@ Viable alternative lanes include normalization/conductor descent and projection 
 
 Preserve intrinsic marked-quartic geometry (projection from the rational normal quartic, dual/flag schemes, osculating and bitangent correspondences, cubic ruling, normalizations, conductor geometry) **because it is interesting**, even where no STCI consequence is known. Likewise preserve concrete residual-curve deformation and attachment geometry.
 
-### Reconciliation checklist
+### Consolidation status
 
-Before retiring files, assign each canonical R-0001–R-0036 record, important unpromoted proposition, counterexample, and open interface **one permanent subject home**, and preserve direct links to its proof and essential exact certificates. Compare against results/INDEX.md, STATE.md, FRONTIER.md, computations/README.md and validation audits. Resolve conflicting historical status labels; do not retain obsolete priorities as active instructions. This is a content audit, not a file-count minimization exercise.
+The mathematical integration of Phases 2 and 3 is complete for this reorganization. Remaining historical-source retirement and redundancy cleanup are Phase 5 tasks, not open mathematical research problems.
 
 
-## Historical frontier record
+## Historical frontier record — not current assignments
 
 The sections below preserve earlier research proposals and their original context. Expressions such as 'leading next investigation', 'current recommendation', and 'active' in those dated sections describe **the priorities at that time**, not today's assignment. Canonical result status must be checked separately.
 
@@ -152,7 +152,7 @@ The [spectral Picard criterion STCI-R-0008](results/spectral_root_picard_criteri
 
 [STCI-R-0009](results/moving_purepower_boundary.md) rules out uniform fiberwise coprimality for moving pure-power first relations of order at least two, but forces an **actual degeneration divisor**, not an unrestricted STCI contradiction. Study its geometry and its compatibility with the full actual initial ideal, including noncoprime next relations and saturation defects. Finite-order principal-relation lifts exist in some ranges and are not STCI constructions.
 
-## Other active lanes
+## Earlier alternative lanes (historical)
 
 - **Order-one e=0/e=1:** retain the jet/ancestor structural questions, but not as possible quartic STCI-mate cases after STCI-R-0001.
 - **Local cohomology:** finite bilinear quartic incidence remains open; use it as a certificate/translation of the jet problem rather than launching unstructured higher-stage scans.
@@ -160,7 +160,7 @@ The [spectral Picard criterion STCI-R-0008](results/spectral_root_picard_criteri
 - **Split carriers:** explicit [4]/[2,2] survivors remain; avoid treating first-normal survivors as actual STCI constructions.
 - **Normalization/conductor:** use as a carrier-exclusion tool when normalization geometry produces isolated inverse-image points or prevents the required Cartier divisor.
 
-## Current recommendation
+## Earlier recommendation (historical)
 
 Evaluate the available approaches against the broader intersection problem, with attention to structural arguments that work across degrees and normal orders. The jet-condition, entirely-thick, root-scheme, residual-intersection, and carrier approaches remain available; these listed priorities are **options, not instructions to follow in order**. Select or combine approaches according to mathematical leverage and exact hypotheses. Do not reopen quartic STCI-mate cases closed by STCI-R-0001.
 
