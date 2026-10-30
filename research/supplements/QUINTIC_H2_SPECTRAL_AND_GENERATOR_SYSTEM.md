@@ -783,7 +783,7 @@ Specifically, when j is nonzero, accepted SUP forces q6 nonzero.
 When j is zero, the additional accepted entire-line exclusion removes
 the contact-two alternative, so remaining SUP has A4 contact exactly
 one and q5 is nonzero. The premises are the
-[intrinsic A4 contact result](2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md)
+[intrinsic A4 contact result](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-intrinsic-a4-contact-bound)
 and the pole-line closure in the
 [accepted nonendpoint results](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-results-acceptancemd).
 This is a necessary candidate open, not an
