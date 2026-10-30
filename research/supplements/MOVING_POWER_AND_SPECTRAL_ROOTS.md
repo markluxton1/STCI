@@ -9,7 +9,7 @@ Permanent subject dossier retaining complete mathematical source arguments, thei
 # A uniform obstruction tower for moving power relations
 
 Date: 2026-10-14. Status: **PROVED NEW STRUCTURAL THEOREM, independently reviewed in
-[the tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).**
+[the tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).**
 The accepted balanced conormal bundle and embedded transition of `C0` are
 premises. The statement concerns the compatibility of a single first normal
 relation, and proves a boundary of that method rather than an STCI exclusion.
@@ -209,7 +209,7 @@ Inputs used as accepted premises:
 New independent review:
 
 - [Moving linear quadratic obstruction and pure-power quadratic splitting](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
-- [Completed independent higher-tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
+- [Completed independent higher-tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
   Its finite-order scope is now accepted; it supplies no global STCI pair.
 
 The useful next targets are the cubic obstruction on the degree-one linear
@@ -453,7 +453,7 @@ Date: 2026-10-14. Status: **independently proved new obstruction and exact
 degree identity** under the hypotheses stated below. The previously accepted
 normal-layer defect convention and first-relation gap cost are premises; they
 are not replayed here. The new apolar quotient is independently established in
-[the finite-order tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
+[the finite-order tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
 
 ## 1. Bundle setting and the new second relation
 
@@ -914,13 +914,13 @@ tests at once.
 Accepted inputs used without replay:
 
 - [Moving-power second relation](2026-10-14-generalization-moving-power-second-relation.md).
-- [Independent second-relation audit](2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md).
-- [Moving-power obstruction tower](2026-10-14-generalization-moving-power-obstruction-tower.md).
-- [Independent tower audit](2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
+- [Independent second-relation audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-second-relation-independent-audit).
+- [Moving-power obstruction tower](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-power-obstruction-tower).
+- [Independent tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
 
 Independent review of the new spectral descent criterion, elliptic
 counterboundary, and ambient interpretation is recorded separately in
-[the spectral audit](2026-10-14-generalization-spectral-root-curve-independent-audit.md).
+[the spectral audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
 The descent criterion, graded construction, elliptic counterboundary,
 obstruction-bundle identification, and first class interpretation passed
 that review. No ambient compatibility or STCI existence claim is made.
@@ -937,7 +937,7 @@ Date: 2026-10-14. Author: `moving_second_general/spectral_audit`.
 Status: **NEW PROOF, independently derived for the parent moving-relation lane.**
 No inherited pure-power, tower, or normal-carrier certificate was rerun.
 The statement being audited is [Root-curve descent and the geometry of
-moving binary relations](2026-10-14-generalization-spectral-root-curve-relations.md).
+moving binary relations](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations).
 
 This note proves a criterion for an abstract graded algebra on a curve.
 It does not construct a multiple structure in the actual formal neighborhood
