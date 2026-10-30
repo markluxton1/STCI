@@ -25,7 +25,7 @@ audit; no CAS execution or new symbolic-check count is claimed.
 ## 1. Precise input and verdict
 
 Use the characteristic-zero notation of the
-[second-pencil audit](2026-10-10-session-genus-two-bisection-second-pencil-independent-audit.md).
+[second-pencil audit](#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd).
 There is a smooth weak degree-four del Pezzo surface V, with connected
 rational pencils f and c satisfying `-K_V=f+c` and `f.c=2`. The smooth
 minimal resolution M is obtained from V by four point blowups disjoint
@@ -1032,9 +1032,9 @@ carriers of other degree, other rational quartics, or the universal STCI
 problem. No canonical frontier file is edited here.
 
 The audited sources are the
-[full endpoint reduction](2026-10-10-session-genus-two-endpoint-full-quartic-reduction.md),
-the [local triple ADE calculation](2026-10-10-session-endpoint-local-ade-correction-audit.md),
-and the [double-horizontal calculation](2026-10-10-session-genus-two-endpoint-double-horizontal-independent-audit.md).
+[full endpoint reduction](#source-2026-10-10-session-genus-two-endpoint-full-quartic-reductionmd),
+the [local triple ADE calculation](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-endpoint-local-ade-correction-auditmd),
+and the [double-horizontal calculation](#source-2026-10-10-session-genus-two-endpoint-double-horizontal-independent-auditmd).
 The older
 [irreducible-residual note](2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md)
 was read but is not used as an exhaustion certificate: it covers only one
@@ -1149,7 +1149,7 @@ At each, the two exceptional-divisor branches are transverse; all
 other points of B_T are smooth on T. Relative formal Morse splitting
 with the exceptional parameter fixed gives A_n chains with B attached
 at an endpoint. The relative splitting has been audited separately in
-[the branch-preserving Morse note](2026-10-10-session-relative-morse-conductor-branches-independent-audit.md).
+[the branch-preserving Morse note](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-relative-morse-conductor-branches-independent-auditmd).
 
 If the contacted chain has length n and contact node k, and the other
 has length m, then
@@ -1292,7 +1292,7 @@ Date: 2026-10-10. Author: `trisecant_endpoint_research`.
 Status: **PROVED HERE / combined independent audit PASS**. The local
 triple and doubled-horizontal proofs have separate written independent
 audits. The binding
-[full independent coverage verdict](2026-10-10-session-genus-two-endpoint-full-independent-audit.md)
+[full independent coverage verdict](#source-2026-10-10-session-genus-two-endpoint-full-independent-auditmd)
 checks the full family exhaustion and all local interfaces. The conclusion
 remains scoped to the fixed curve, characteristic zero, the accepted conic
 model, and the lambda-one stratum; root canonical acceptance is separate.
@@ -1456,7 +1456,7 @@ The equation becomes
 The only intersection of B_T with the residual exceptional divisor is
 b=0, of multiplicity two. Thus every singularity of T on B_T is at
 this one point. The full local proof is in
-[the exact local ADE correction audit](2026-10-10-session-endpoint-local-ade-correction-audit.md).
+[the exact local ADE correction audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-endpoint-local-ade-correction-auditmd).
 It preserves the complete polynomial (3) and proves:
 
 * A nonzero: B attaches to an endpoint of an A_n chain, giving its
@@ -1494,7 +1494,7 @@ Thus additional singular points of T on B_T can occur away from the
 contact at the other zeros of h_B, including infinity. The earlier
 two-node endpoint-chain shortcut does not apply here. The complete
 proof is in
-[the doubled-horizontal independent audit](2026-10-10-session-genus-two-endpoint-double-horizontal-independent-audit.md).
+[the doubled-horizontal independent audit](#source-2026-10-10-session-genus-two-endpoint-double-horizontal-independent-auditmd).
 Here is its structural calculation.
 
 For an ADE block let Q be its positive Cartan matrix and let v encode
