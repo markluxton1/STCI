@@ -179,7 +179,7 @@ constant field. A reducible or nonreduced projective hypersurface
 would have a positive-dimensional singular locus. The surface is
 therefore geometrically integral, and the hypersurface Cohen–Macaulay
 property plus regularity in codimension one makes it normal. The
-[accepted normal-carrier theorem](2026-10-06-session-normal-carrier-progress.md)
+[accepted normal-carrier theorem](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-normal-carrier-progress)
 excludes all three carriers in every mate degree.
 
 The S=0 rational quartic and both infinity-defect quartics have Jacobian
