@@ -120,3 +120,21 @@ Five more historical sources retired after comparison with the permanent technic
 Read but **retained** for further extraction: `2026-10-09-session-normalization-sectional-genus-zero.md` (detailed vanishing/classification and singular-point correction), and `2026-10-09-session-ribbon-repeated-partitions-complete.md` (full exhaustive partition computations; independent audit retained). One named degree-one counteraudit path was absent from this branch and is not counted as processed.
 
 **Cumulative dispositions:** 8 retired; 2 retained pending reconciliation; 0 explicitly unresolved mathematical conflicts. These figures refer only to sources actually reviewed during these migration passes, not the historical full-tree population. Full branch-wide inbound-link reconciliation is not yet complete; references in historical evidence may still name retired files.
+
+
+## Migration continuation — third group (2026-10-30)
+
+**15 additional sources read or sampled by section and content**, of which seven were integrated into Sections 16–19 of the permanent technical chapter and eight were compared against existing Sections 2–15 and retained for their detailed proofs, certificates, or dependency boundaries. No source from this group was deleted: the complete fiber-history enumeration, independent ideal equalities, two-chart conormal calculations, and marked proximity arguments remain substantially more detailed than the chapter synopsis. This is a deliberate *retain pending further extraction* decision, not a completed retirement.
+
+Newly integrated:
+- \`2026-10-10-session-genus-two-bisection-even-fiber-exclusion.md\`: whole exceptional graph, rational-singularity line-bundle descent, all positive even fiber counts excluded.
+- \`2026-10-10-session-genus-two-bisection-three-blowup-fiber-exclusion.md\`: three entire fiber types, forced three-center histories, and the nonreduced \(D_5\) numerical near-counterexample defeated by an integral anti-nef uniformizer cycle. Source's conditional/awaiting-audit status preserved.
+- \`2026-10-10-session-genus-two-trisecant-quartic-carriers.md\`: entire cubic ideal, 11-dimensional quartic space, contact discriminant and its identically-zero boundary.
+- \`2026-10-09-session-ribbon-211-projection-independent-audit.md\`: fixed-center \([2,1,1]\) partition argument.
+- \`2026-10-09-session-genus-one-uniform-projection-adversarial.md\`: isolated-ramification countershield and toric-family nonexhaustiveness.
+- \`2026-10-10-session-genus-two-marking-and-section-pause-audit.md\`: \(D_8\) marking and internal-chain satellite caution.
+- \`2026-10-10-session-genus-two-lambda1-horizontal-line-budget.md\` together with \`2026-10-10-session-genus-two-no-zero-horizontal-independent-audit.md\`: integral contact test, one/two-line budget, accepted \(B\)-absent exclusion and surviving \(B\)-present boundary.
+
+Also compared and retained: \`2026-10-09-session-ribbon-repeated-partitions-complete.md\`, \`2026-10-10-session-ribbon-repeated-partitions-independent-audit.md\`, \`2026-10-09-session-genus-one-ribbon-net-independent-audit.md\`, \`2026-10-09-session-normalization-sectional-genus-zero.md\`, \`2026-10-10-session-genus-two-blowup-lift-normality-proposed-audit.md\`, \`2026-10-09-session-nonrational-normalization-independent-audit.md\`, and \`2026-10-10-session-genus-two-entire-conductor-independent-audit.md\`. These provide deeper proof or independent verification of material already in the chapter. (The two horizontal-line sources above are counted together as one thematic unit; individual file tally is 15.)
+
+**Cumulative:** eight historical sources retired in earlier passes. This pass made mathematical integration rather than deletions. Do not infer completeness of historical source coverage or an exhaustive inbound-reference scan.
