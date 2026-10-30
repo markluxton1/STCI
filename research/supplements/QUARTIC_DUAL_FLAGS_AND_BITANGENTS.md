@@ -1505,73 +1505,21 @@ the two length-one pieces. These are exact algebra computations,
 separate from the local proof above. The explicit primary presentation
 in the singular-scheme note is appropriately labelled computational.
 
-## 7. Evidence, precision corrections, and remaining boundaries
+## 7. Reproducibility, distinct identifications, and characteristic boundary
 
-The review's independently authored replay is
-[audit_quartic_flag_duality_2026_10_24.m2](../computations/audit_quartic_flag_duality_2026_10_24.m2),
-with [saved output](../computations/quartic_flag_duality_independent_audit_2026_10_24_m2.txt).
-It checks the two discriminant identities and ideal equalities, six
-associated primes, Hilbert polynomials, endpoint annihilator, local
-Hilbert--Burch determinants and syzygies, nonmembership, and weighted
-Euler. Reproduce with
+The independent [Macaulay2 verification](../computations/audit_quartic_flag_duality_2026_10_24.m2) and its [saved output](../computations/quartic_flag_duality_independent_audit_2026_10_24_m2.txt) check the discriminant identities, ideal equalities, associated primes, Hilbert polynomials, endpoint annihilator, local Hilbert–Burch relations, and weighted Euler identity over \(\mathbf Q\). These calculations support, but do not replace, the geometric arguments above. The projective singular scheme is described by the saturated homogeneous gradient ideal; the unsaturated gradient presentation is not a separate geometry.
 
-```sh
-M2 --script research/computations/audit_quartic_flag_duality_2026_10_24.m2
-```
+The following identifications are **false** and must remain distinct: the conormal surface is not the threefold cover's ramification divisor; the marked quadric-tangent section is not \(C\subset Q\); the secant map is not injective above trisecants; full dual intersections are not merely common-point traces; and ordinary, deck, and residual-swap involutions differ.
 
-The replay ran under Macaulay2 1.26.06 over \(\mathbf Q\) and passed.
-During author/auditor exchange, the cubic singular ideal was refined
-from raw gradients to its saturated homogeneous ideal, making the
-embedded pinch-point structure explicit. The raw gradients already
-defined the correct projective scheme; this precision correction
-does not change its dual equation or Gauss geometry.
+The fixed bilinear flag pairing remains nondegenerate in characteristic two, but the characteristic-zero smooth-conic product model does not extend unchanged. In characteristic two the doubled-divisor map is inseparable onto a line, the conormal ruled surface is \(\mathbb F_2\), and its map to the reduced dual is inseparable rather than a normalization. The Gauss resolution and ordinary cusp calculations need separate characteristic analysis.
 
-The final notes correctly preserve the following failed identifications:
-the conormal surface is not the threefold cover's ramification divisor;
-the marked quadric-tangent section cannot be matched to \(C\subset Q\);
-the secant map is not injective over trisecants; full dual intersections
-are not common-point traces; and ordinary, deck, and residual-swap
-involutions are different operations. No unresolved proof gap was found
-in the fixed characteristic-zero core reviewed here.
+## 8. Morphism domains and endpoint scheme intersections
 
-The characteristic-zero smooth-conic product construction fails in
-characteristic two. There the doubled-divisor map is inseparable onto
-a line, the conormal ruled surface is \(\mathbb F_2\), and its map
-to the reduced dual is inseparable, so it is not the normalization.
-These changes are consistent with the accepted splitting and the
-direct first-jet equations in the conormal note. The fixed flag pairing
-itself remains nondegenerate. The old Gauss resolution and ordinary
-cusp calculations require a separate characteristic analysis and are
-not transported by these checks.
+The ruling parameter curve does not map to the swept cubic by selecting a point on each ruling. The correct geometric object is the universal point-on-ruling surface \(\mathbb F_1\), with its projection to the ruling curve and its finite morphism to the primal cubic; the two-blowup Gauss resolution is a separate map. This distinction is necessary when interpreting the flag diagram.
 
-Varying the projection center, descending all marked constructions
-without the exceptional endpoint pair, and building a broader theory
-of higher contact remain research questions. They are extensions of
-the proved fixed setup, not unproved dependencies of its propositions.
-No novelty claim, canonical theorem promotion, or STCI frontier closure
-is supported by this audit.
+For the second flag surface, the scheme equality \(\tau(N_C)\cap\mathscr S=\tau(\sigma_O)\) holds. Its further intersection with \(N_C\) is **not** identified with \(T_4\) merely from matching endpoint lengths: the first-order directions differ. The separately established identity is \(T_4=N_C\cap\operatorname{Fix}(\tau)\).
 
-## 8. Synthesis integration addendum, 2026-10-25
-
-Recorded by the integrating author, following the independent reviewer's
-final message. The reviewer read the main synthesis and found one actual
-diagram error: an arrow from the ruling parameter curve directly to its
-swept cubic surface claimed a morphism that the line family does not
-supply. The corrected diagram displays the universal point-on-ruling
-\(\mathbb F_1\), its projection to the ruling curve, its finite map to
-the primal cubic, and the two-blowup Gauss resolution. Each displayed
-arrow then has the stated morphism domain. This correction concerns the
-synthesis diagram; the supporting scroll proof already retained those
-domains.
-
-The reviewer also confirmed the scheme equality
-\(\tau(N_C)\cap\mathscr S=\tau(\sigma_O)\) for the second flag
-surface. Its further intersection with \(N_C\) must not be identified
-with \(T_4\) merely from equal endpoint lengths: their first-order
-directions differ. The synthesis uses only the separately proved
-equality \(T_4=N_C\cap\operatorname{Fix}(\tau)\). No new broader
-claim is introduced by this integration addendum.
-
+Varying the projection center, removing the distinguished endpoint pair, and extending the contact construction remain open directions. None of these fixed-curve statements proves an STCI exclusion or promotes a new canonical result.
 
 
 ---
