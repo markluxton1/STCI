@@ -785,7 +785,7 @@ the contact-two alternative, so remaining SUP has A4 contact exactly
 one and q5 is nonzero. The premises are the
 [intrinsic A4 contact result](2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md)
 and the pole-line closure in the
-[accepted nonendpoint results](2026-10-12-session-nonendpoint-results-acceptance.md).
+[accepted nonendpoint results](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-results-acceptancemd).
 This is a necessary candidate open, not an
 assertion about arbitrary coefficient tuples or all possible SUP
 parameters before the accepted mate exclusions.
