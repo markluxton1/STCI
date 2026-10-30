@@ -27,7 +27,7 @@ whose normalization has sectional genus zero is excluded as a mate
 carrier for C0 in every mate degree. Consequently every integral
 quartic with smooth normalization is excluded in every mate degree.
 
-The [owner proof](2026-10-09-session-normalization-sectional-genus-zero.md)
+The [owner proof](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
 and [independent audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-normalization-genus-zero-independent-auditmd)
 give an exhaustive classification from nef-big vanishing and
 Riemann--Roch: h0(H)=6, so the complete polarized normalization is a
@@ -58,7 +58,7 @@ normalization. Extra isolated points over C0 need not be excluded
 for this theorem. The same argument applies to any smooth rational
 degree-four curve in a nonnormal integral quartic.
 
-See the [owner proof](2026-10-09-session-nonrational-quartic-normalizations.md)
+See the [owner proof](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
 and [independent audit](2026-10-09-session-nonrational-normalization-independent-audit.md).
 For a smooth resolution M and L the pulled-back hyperplane,
 L^2=4, K_M.L=2pi-6<0, and 0<=pi<=2. A nonrational resolution is
@@ -403,7 +403,7 @@ Status: **PROVED HERE, submitted for independent audit**. Uniform
 exclusion of the displayed family in every mate degree; no assertion
 that this family exhausts all singular normalizations of genus one.
 
-This note follows the [sectional-genus reduction](2026-10-09-session-normalization-sectional-genus-zero.md).
+This note follows the [sectional-genus reduction](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md).
 The remaining quartic normalization lane has pi=1 or pi=2 and a
 non-Cartier smooth lifted curve passing through Sing(S). The example
 here realizes the genus-one numerical and torsion conditions with
