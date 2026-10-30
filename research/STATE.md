@@ -9,6 +9,10 @@ The October 24 intrinsic-geometry interlude is a preserved historical phase, not
 
 This is the durable summary of established mathematical knowledge and explicitly unresolved questions. It does not prescribe which research direction to pursue. Promoted result records remain the authority for their exact statements. It replaces dated handoffs and reports as the place to determine current status. Git history and the archived dated state preserve provenance.
 
+## Current scope boundaries
+
+The integral quartic-carrier exclusion [R-0001](results/quartic_carrier_exclusion.md) and separate (4,4) exclusion [R-0022](results/quartic_44_filtered_exclusion.md) do not resolve higher-degree pairs. The local comparison criterion [R-0030](results/local_filtration_comparison_defect.md), socle budget [R-0032](results/full_conormal_socle_budget.md), bounded-index normal-carrier exclusion [R-0035](results/normal_carrier_bounded_index_exclusion.md), and pointwise conductor identity [R-0036](results/pointwise_conductor_socle_defect.md) retain their individual hypotheses. The reviewed October 27 one-step determinant test is not an independently promoted general realization theorem. The three active programs and missing arrows are indexed in [dependencies](synthesis/DEPENDENCIES.md).
+
 ## Epistemic labels
 
 - **PROVED** — mathematical argument accepted under its stated hypotheses.
