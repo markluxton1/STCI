@@ -161,7 +161,7 @@ actual correction Z it proves
 Consequently the only mate strata are `(lambda,q)=(0,4)` and `(1,3)`.
 The earlier shortcut `q=4` in every case is not used.
 
-The [entire conductor proof](2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
+The [entire conductor proof](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md)
 establishes rational singularities of S and the actual reduced downstairs
 conductor line, with no embedded or isolated components. Its upstairs
 quadratic algebra retains split, singular and nonreduced covers. The
@@ -395,7 +395,7 @@ assuming a mate.
 | Carrier lane | Accepted proof and coverage |
 | --- | --- |
 | Normal integral quartic | The prior all-degree normal-quartic theorem, routed by the [October 9 acceptance](2026-10-09-session-results-acceptance.md) and canonical state. |
-| Nonnormal, sectional genus zero | The [complete genus-zero audit](2026-10-09-session-normalization-sectional-genus-zero.md), including smooth scrolls, the Veronese and the rational cone, with the prior separate applicability and conductor audits. |
+| Nonnormal, sectional genus zero | The [complete genus-zero audit](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md), including smooth scrolls, the Veronese and the rational cone, with the prior separate applicability and conductor audits. |
 | Nonnormal, sectional genus one | The [October 10 acceptance](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-results-acceptancemd), complete fixed-center ribbon net, all five root partitions, actual conductor and arbitrary-power descent. |
 | Nonnormal, sectional genus two, lambda zero | The [full bisection audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-two-bisection-full-independent-auditmd) and global Cartier-double/ribbon obstruction accepted in the [resumed October 10 record](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-continuation-results-acceptancemd). |
 | Nonnormal, sectional genus two, lambda one, nonendpoint trisecant | The [complete nonendpoint coverage audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-auditmd), including every effective `(2,2)` conductor decomposition and arbitrary endpoint A-chain lengths. |
@@ -1245,8 +1245,8 @@ structures, a classification of all embedded structures, or an exclusion.
 
 ## New work after the seal
 
-1. The [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
-   and [explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
+1. The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
+   and [explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
    give a written exhaustion of the pair (S,c), including its plane
    blowup model and automorphisms. Supporting symbolic identities and their
    failed development attempts are saved. The intrinsic exhaustion is the
