@@ -261,3 +261,7 @@ Read supplements 13–20 (eight files) in `research/INDEX.md` order. Found **157
 ## Supplement link audit — batch 3 (2026-10-30)
 
 Read supplements 21–32 in index order (12 files), containing **235** relative Markdown link occurrences and **58** historical session-note filename occurrences before repair. Repaired **8** links across three supplements: `NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md` (4, `4e2226d`), `NONENDPOINT_CUBIC_PAIR_COMPLETION.md` (1, `bc8f571`), and `NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md` (3, `a6686d1`). Cumulative files inspected **32/105**, and repairs in the three counted batches **24**. Historical-style links not yet resolved must be verified individually, especially independent-audit provenance. No heading-anchor completeness claim or mathematical consolidation made.
+
+## Supplement link audit — batch 4 (2026-10-30)
+
+Read supplements 33–44 (12 files) directly from working branch. Extracted **216** relative Markdown link occurrences, **4** containing historical session-note strings (two are already migrated anchored links, not broken historical filenames). Repaired one retired standalone reference in `FIRST_RELATION_AND_SPECTRAL_ROOTS.md` to `OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit` (commit `df52685`). Other historical-style reference(s) require target verification. Cumulative **44/105** supplements inspected, **25** link occurrences repaired in counted batches. Link-target existence and Markdown heading-anchor checks are not yet exhaustively certified.
