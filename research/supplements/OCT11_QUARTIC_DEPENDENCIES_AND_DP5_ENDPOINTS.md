@@ -535,7 +535,7 @@ certifies current bytes and routing, not theorem truth by check count.
 Root has read and accepts the bounded structural results in the frozen
 [quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 SHA-256 `4e84d1183435f8509df48b6b1d02fb4f00f29736ec8670bb09b2577dc991595b`,
-and its [independent audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
+and its [independent audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
 SHA-256 `9cf5438894e3fb07f2094b4bcc1280ec0ead01822155d3897aceb73ffc1011fb`.
 These do not exclude every quintic carrier.
 
@@ -1223,7 +1223,7 @@ frozen acceptance and seal unless already reached by their recorded scope.
 ## Accepted quintic structural frontier
 
 The frozen [quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd)
-and its [independent audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md)
+and its [independent audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit)
 exclude the full sectional-genus-zero normalization lane. Under a mate,
 smooth normalization is impossible. Rationality is proved through
 sectional genus three; this is not an exclusion of every other genus.
@@ -1258,7 +1258,7 @@ structures, a classification of all embedded structures, or an exclusion.
    delta, up to sign, as well as four lift parameters. The endpoint family
    alone does not exhaust the entire genus-one quintic lane. Any older
    globally read four-parameter wording must be read with this correction.
-3. The [power-descent algebra audit](2026-10-11-session-power-descent-algebra-audit.md)
+3. The [power-descent algebra audit](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#4-power-descent-algebra-audit)
    proves that actual membership in the full conductor algebra is required;
    a tensor equalizer can give a false positive. In characteristic zero,
    powering cannot repair a unit nilpotent-jet obstruction after its reduced
@@ -1270,15 +1270,15 @@ structures, a classification of all embedded structures, or an exclusion.
    four-parameter wording likewise requires the two-lane correction above.
 4. The endpoint projection is written
    `X=(1+aT, r+bT, r^3+(g-r)T, r^4+(d-2r^2-r)T+T^2)`, with `c:T=0`.
-   The [a=0,b!=0 proof](2026-10-11-session-quintic-endpoint-a0-support-exclusion.md)
-   now has a completed [independent full audit](2026-10-11-session-quintic-endpoint-a0-polynomial-support-independent-audit.md).
+   The [a=0,b!=0 proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#4-quintic-endpoint-a0-support-exclusion)
+   now has a completed [independent full audit](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#3-quintic-endpoint-a0-polynomial-support-independent-audit).
    It proves that every displayed parameter choice has an actual off-c
    inverse point over C0. Thus every admissible projection in this subfamily
    is excluded in every mate degree. The owner's historical pending header
    is superseded, for this bounded claim, by the completed audit.
-5. For endpoint a!=0, the [quadric-factor reduction](2026-10-11-session-quintic-endpoint-quadric-factor-reduction.md)
-   has a completed [independent audit](2026-10-11-session-quintic-endpoint-factor-independent-audit.md)
-   and separate [contact-length audit](2026-10-11-session-quintic-endpoint-factor-contact-independent-audit.md).
+5. For endpoint a!=0, the [quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#4-quintic-endpoint-quadric-factor-reduction)
+   has a completed [independent audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit)
+   and separate [contact-length audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#3-quintic-endpoint-factor-contact-independent-audit).
    The actual pulled quadric factors as `hK`. Its integral residual curve
    has arithmetic genus one and image of type (3,2) on the quadric. Full
    inverse support requires exactly seven excess contact lengths. Those
