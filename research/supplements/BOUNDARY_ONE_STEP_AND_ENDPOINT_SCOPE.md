@@ -1019,7 +1019,7 @@ The selected rational sextic is
 F_*=-q^2x_3^2-qDx_2+D^2/4+q^3,
 \quad q=x_0x_3-x_1x_2,\quad D=x_2^3-x_1x_3^2.
 \]
-The [actual-sextic note](2026-10-25-endpoint4-actual-sextics.md) uses the
+The [actual-sextic note](ENDPOINT_FOUR_ACTUAL_SEXTICS.md) uses the
 following completed finite input:
 \[
 \{G\in H^0(\mathbf P^3,\mathcal O(16)):
