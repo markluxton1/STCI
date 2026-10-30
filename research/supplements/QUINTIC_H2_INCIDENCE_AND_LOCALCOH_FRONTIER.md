@@ -535,7 +535,7 @@ gcd(f,g)=1.
 ```
 Since delta != 0 and v != 0 implies delta != -1, the resultants cannot vanish simultaneously. QED.
 
-**Exact source-based verifier:** [verify_quintic_h2_degree_five.py](../computations/verify_quintic_h2_degree_five.py). **Global hypotheses:** [monic incidence](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md). **Working reduction:** [degree-five dossier](quintic-h2-degree-five-support-incidence-working-dossier.md).
+**Exact source-based verifier:** [verify_quintic_h2_degree_five.py](../computations/verify_quintic_h2_degree_five.py). **Global hypotheses:** [monic incidence](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md). **Working reduction:** [degree-five dossier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md#source-quintic-h2-degree-five-support-incidence-working-dossiermd).
 
 **Limit:** This excludes the j=0 branch only. The j != 0, degree-six branch is unresolved. The necessary incidence is not equivalent to STCI existence. The argument does not invert the discriminant of H or inverse-map denominators.
 
@@ -644,7 +644,7 @@ This is an investigation dossier, not an audit log. Ordinary correction history 
 
 ## Current result
 
-The characteristic-zero degree-five (j=0) branch of the necessary common-conormal-quadratic/conductor-support incidence has been excluded. See [proof](quintic-h2-degree-five-exclusion.md) and [exact verifier](../computations/verify_quintic_h2_degree_five.py). This is not an STCI nonexistence theorem. The degree-six (j != 0) branch remains unresolved. The global model, including the discriminant-zero and inverse-map boundaries, is [here](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md).
+The characteristic-zero degree-five (j=0) branch of the necessary common-conormal-quadratic/conductor-support incidence has been excluded. See [proof](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md#source-quintic-h2-degree-five-exclusionmd) and [exact verifier](../computations/verify_quintic_h2_degree_five.py). This is not an STCI nonexistence theorem. The degree-six (j != 0) branch remains unresolved. The global model, including the discriminant-zero and inverse-map boundaries, is [here](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md).
 
 ## Recommended continuation, when research resumes
 
