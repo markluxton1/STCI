@@ -100,3 +100,15 @@ Source: full, untruncated recursive Git tree at commit `c71eb0b70a090479017a80b4
 The dominant pattern is **cross-family evidence copying**, especially `research/computations/` sources repeated inside `research/validation/.../isolated/research/computations/`, and branch-reconciliation snapshots of `research/STATE.md` and `research/FRONTIER.md`. Another large identical-blob cluster is empty or near-empty stderr/stdout logs across failed and successful runs. These categories should not be conflated: isolated snapshots may be intentionally self-contained and repeated empty logs have low mathematical content, but historical scripts and manifests may refer to their paths.
 
 **Deletion priority:** first assess repeated empty stdout/stderr files, then redundant snapshot copies that are not needed by any independent replay, and only then proof-owner notes. Before any deletion, check branch-local inbound references and execution expectations. This census supplies candidate *families*, not deletion authorization.
+
+## Mathematical migration progress — 2026-10-30
+
+Working branch: `restructure/mathematical-consolidation`. Fixed population: historical research notes and other historical mathematical sources indexed by the existing inventories, plus later branch additions; current exhaustive path population and remaining count are **not yet established**. The October 27 snapshot counted 545 notes, not a verified current remainder. Do not count scripts or canonical results as disposable notes.
+
+| Historical source under `research/notes/` | Disposition | Permanent mathematical destination |
+| --- | --- | --- |
+| `2026-10-09-session-ribbon-4-root-independent-proof.md` | Retired | `research/chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md`, direct [4] line-singularity proof |
+| `2026-10-09-session-ribbon-22-bounded-power-obstruction.md` | Retired | Same chapter, explicit [2,2] trace/norm computation; executable verifier retained |
+| `2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md` | Retired | Same chapter, endpoint irreducible graph and all-length chain inequality |
+
+Completed: **3 retired, 0 retained, 0 unresolved** in this processed group. Outstanding: remaining indexed historical sources not yet individually reconciled. Previous 'candidate after reference migration' labels for the first two files and the stale 'retain pending extraction' label for the third are superseded by the above completed dispositions. The complete branch-local inbound-link cleanup remains an organizational follow-up; do not modify historical computational output solely to erase old references.
