@@ -39,8 +39,8 @@ quadrics define an integral degree-four surface. The discriminant-zero
 directions instead have a cubic surface as their quadratic base locus.
 
 The accepted preceding inputs are recorded in
-[the genus-one reduction](2026-10-09-session-genus-one-delpezzo-reduction.md)
-and [the D5 filter](2026-10-09-session-delpezzo-D5-torsion-filter.md).
+[the genus-one reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
+and [the D5 filter](OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-torsion-filtermd).
 They are premises here, not reproved by this audit.
 
 ## 2. Pure multiplicity two over a smooth curve forces a ribbon
