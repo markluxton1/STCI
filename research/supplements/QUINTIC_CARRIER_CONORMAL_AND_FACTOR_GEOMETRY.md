@@ -350,7 +350,7 @@ so neither case permits this smooth quartic. The cone therefore cannot
 contain the lift even before assuming a mate. This proves the pi=0
 quintic-carrier exclusion in every mate degree, using the standard
 minimal-degree classification already audited in the
-[quartic genus-zero record](2026-10-09-session-normalization-sectional-genus-zero.md).
+[quartic genus-zero record](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md).
 
 ## 10. Continuation boundary
 
@@ -382,8 +382,8 @@ integrity seal is edited by this audit.
 The owner source is the [endpoint quadric-factor reduction](2026-10-11-session-quintic-endpoint-quadric-factor-reduction.md).
 The geometric inputs are the [quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md),
 its [independent conormal/del Pezzo audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
-and the [explicit model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
-The [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
+and the [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
+The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
 separately records the required distinction between endpoint and nonendpoint
 projection centers. The present statement applies to the displayed endpoint
 projection; it does not replace that distinction by a four-parameter global
@@ -677,8 +677,8 @@ This note changes no frozen note or canonical frontier file.
 Scope: the explicit endpoint projection in the
 [factor reduction](2026-10-11-session-quintic-endpoint-quadric-factor-reduction.md),
 with center disjoint from S and coefficient a!=0. The
-[explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
-and [intrinsic-pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
+[explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
+and [intrinsic-pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
 provide the actual degree-five A4 model and the endpoint-versus-nonendpoint
 projection distinction. This audit does not extend the endpoint equations
 to nonendpoint projection centers, does not treat a=0, and gives no
@@ -1022,10 +1022,10 @@ family or bound higher contact multiplicities.
 Work over an algebraically closed field of characteristic zero. The normal
 anticanonical degree-five surface S, its unique line ell, the complete smooth
 quartic c, and the plane model are those of the
-[intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md).
+[intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 In particular H is ample, `H~5ell`, `c~4ell`, and the actual section U0 of H has
 divisor 5ell. The
-[explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
+[explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
 verifies the global model and its chart `U0!=0`.
 
 ## 1. The entire reflexive section filtration
