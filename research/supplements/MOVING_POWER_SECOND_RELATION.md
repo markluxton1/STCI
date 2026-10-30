@@ -203,8 +203,8 @@ complete-intersection thickening.
 
 Accepted inputs:
 
-- [Normal-layer and socle budget](2026-10-13-evening-entirely-thick-rees-progress.md).
-- [Movement-gap cost audit](2026-10-14-generalization-moving-relation-gap-cost-independent-audit.md).
+- [Normal-layer and socle budget](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-evening-entirely-thick-rees-progressmd).
+- [Movement-gap cost audit](OCT14_CARTIER_LIFTS_AND_MOVING_RELATIONS.md#source-2026-10-14-generalization-moving-relation-gap-cost-independent-auditmd).
 
 New structural input:
 
