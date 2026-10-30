@@ -194,6 +194,14 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Conditional (2,12) continuation and sextic exclusions](supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md)
 - [Higher initial ideals and embedded thickening obstructions](supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
 
+## Genus-one and genus-two proof dependencies (October 30)
+
+For the **genus-one normalization lane**, start with [ribbon and conormal-net reduction](supplements/GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md#dependency-guide-ribbon-reduction-and-quadratic-net), then [actual projection and ramification conditions](supplements/GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md#dependency-guide-actual-projection-and-ramification-boundary), [the repeated-contact partition proof](supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md#dependency-guide-partition-by-partition-exclusion), and [independent complete-ideal certificates](supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md#dependency-guide-independent-certificate-versus-source-proof). The [4], [3,1], and [2,2] exclusions are conditional and distinct from [2,1,1].
+
+For the **genus-two normalization lane**, use [the conductor/double-cover theorem](supplements/GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md#dependency-guide-normalizationconductor-input-not-mate-exclusion) as an input to [the even-fiber bisection exclusion](supplements/GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md#dependency-guide-parity-exclusion-under-the-second-pencil-reduction) and [the three-center fiber obstruction](supplements/GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md#dependency-guide-odd-fiber-obstruction-and-surviving-cases). [The marking/section dossier](supplements/GENUS_TWO_MARKING_AND_SECTION_PROOF.md#dependency-guide-audited-markings-versus-unfinished-section-exclusion) explicitly preserves the open noncrepant section case.
+
+These are conditional historical proof routes, not unrestricted STCI exclusions.
+
 ## Z4 and conditional (2,12) proof-dependency routes (October 30)
 
 The [Z4 lifting dossier](supplements/Z4_LIFTING_AND_DEFORMATION.md#proof-dependency-map-prescribed-z4-versus-general-lifting) starts from the explicit prescribed-pair obstruction and its independent audit. The [intrinsic arithmetic dossier](supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md#proof-dependency-map-intrinsic-mechanism-and-its-failure-shields) analyzes divided powers, persistence, coordinate invariance, and conditional characteristic-zero implications. Neither route proves that every characteristic-zero pair is excluded.
