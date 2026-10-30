@@ -13,7 +13,7 @@ Started 2026-10-25; completed 2026-10-26. Status: exact new linear realization, 
 The curve is the fixed characteristic-zero quartic
 \(C=[s^4:s^3t:st^3:t^4]\). The family construction starts in the conditional degree-\((6,16)\) lane with full generic ordinary initial CI \((2,12)\), saturated actual first relation, and movement two. [STCI-R-0014](../results/movement_two_six_rows.md) makes it a necessary numerical row under those hypotheses; it does not assert existence. The final fixed-carrier corollary is stated separately and does not require those initial-ideal or saturation hypotheses.
 
-The [October 21 conductor/chart independent review](2026-10-21-conditional-2-12-conductor-and-chart-independent-review.md), section 6, retains the endpoint-four root chart with
+The [October 21 conductor/chart independent review](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-and-chart-independent-review), section 6, retains the endpoint-four root chart with
 
 \[
 \begin{aligned}
@@ -30,7 +30,7 @@ Its normalization is \(4f(-z/2,1)=z^4\). On the retained integral-nodal open its
 \rho=2b_1/a_0-1,\qquad \rho^{12}=1,\quad\rho\ne1.
 \]
 
-The root and torsion reductions are reviewed, unpromoted evidence. They are not an emptiness result. The [saved sextic symbol computation](2026-10-20-conditional-2-12-symbol-map.md) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
+The root and torsion reductions are reviewed, unpromoted evidence. They are not an emptiness result. The [saved sextic symbol computation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
 
 The exact balanced normal frame is
 
