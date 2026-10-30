@@ -154,11 +154,11 @@ Next: [carrier normalization and conductor](04-carriers.md), which imposes a dif
 
 ## 3.12 Boundary repair versus embedded lifting
 
-A useful provisional calculation starts with a *specified* obstruction (o\in H^1(C,V)) for a vector bundle (V) on a smooth curve and an effective divisor (D). The exact sequence
+A useful provisional calculation starts with a *specified* obstruction (o\in H^1(C,V)) for a vector bundle \(V\) on a smooth curve and an effective divisor \(D\). The exact sequence
 \[
-0\longrightarrow V\longrightarrow V(D)\longrightarrow V(D)/V\longrightarrow0
+0\longrightarrow V\longrightarrow V\(D\)\longrightarrow V\(D\)/V\longrightarrow0
 \]
-shows that (o) becomes zero in (H^1(C,V(D))) exactly when it lies in the image of the connecting homomorphism (H^0(C,V(D)/V)\to H^1(C,V)). This is an exact **principal-parts repair criterion** for the chosen obstruction. It does not identify the obstruction governing an arbitrary embedded thickening or guarantee that the repaired object comes from homogeneous hypersurfaces.
+shows that \(o\) becomes zero in (H^1\(C,V(D)\)) exactly when it lies in the image of the connecting homomorphism (H^0\(C,V(D)/V\)\to H^1\(C,V\)). This is an exact **principal-parts repair criterion** for the chosen obstruction. It does not identify the obstruction governing an arbitrary embedded thickening or guarantee that the repaired object comes from homogeneous hypersurfaces.
 
 For (C=\mathbf P^1), the calculation can be expressed using a common-divisor/kernel condition across all allowed repair divisors. The arithmetic size of the boundary is constrained by the saturated-layer and Gorenstein socle data; a numerical dimension count is not a substitute for the actual kernel. The [boundary-repair calculations](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) give the exact cohomological test and the unproved comparison to the ambient obstruction complex.
 
