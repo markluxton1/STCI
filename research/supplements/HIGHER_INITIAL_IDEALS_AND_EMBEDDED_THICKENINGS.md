@@ -46,7 +46,7 @@ The m-adic order is total transverse degree and is not a valuation on K itself. 
 ## Globalization and limitations
 The degree-d normal symbol of F of I-order r is a section of Sym^r(N_C^∨)⊗O_C(d), which for the characteristic-zero balanced splitting is O_{P¹}(4d-7r)^{⊕(r+1)} (O_C(1)=O_{P¹}(4)). Thus a nonzero symbol requires 4d-7r>=0; similarly 4e-7s>=0. This is a necessary degree constraint, not a new STCI exclusion. The local (x,y) coordinates are only rational frames of the conormal bundle: rational cancellation coefficients generally have poles at closed points and do not produce ambient global polynomial combinations. Clear denominators only after tracking the induced twists and possible extra zero divisors. In characteristic two do not use the characteristic-zero normal-bundle splitting.
 
-Related notes: [residual-cycle and wedge distinctions](2026-10-21-residual-cycle-proposition-audit.md); [special-fiber length and standard bases](2026-10-21-valuative-standard-basis-criterion.md); [orders, Hilbert filtration, and duality](2026-10-21-equality-orders-filtration-duality.md).
+Related notes: [residual-cycle and wedge distinctions](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-residual-cycle-proposition-auditmd); [special-fiber length and standard bases](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-valuative-standard-basis-criterionmd); [orders, Hilbert filtration, and duality](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-equality-orders-filtration-dualitymd).
 
 ## Canonical scope references
 
