@@ -49,3 +49,7 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not apply without saturation, a full generic binary-CI initial ideal, or actual two-equation global STCI.
 - Movement zero and movement at least two are not excluded.
 - An abstract bundle sequence does not establish global embedded realizability.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
