@@ -575,8 +575,8 @@ Use the actual sections and chart in the
 [pole-filtration and line-jet note](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md),
 with delta!=0 over an algebraically closed field of characteristic zero.
 The accepted normalization pair and its complete open S minus ell=A2(r,T)
-are supplied by the [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
-and [explicit model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
+are supplied by the [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
+and [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 Assume the projection center avoids S whenever using an actual finite
 normalization projection. Delta is retained as a modulus throughout.
 
@@ -943,7 +943,7 @@ conormal audit. Put B=b-a and G=g-3b+2a.
 
 The accepted input is the actual normal anticanonical degree-five surface
 S and its smooth rational quartic c, described in the
-[explicit model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
+[explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 This audit checks fiber coverage and exclusions on that model; it does
 not reprove the upstream classification of every admissible normalization
 pair. The nonendpoint sections are exactly the sections displayed in the
