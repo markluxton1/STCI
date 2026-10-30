@@ -22,10 +22,10 @@ Status: **COMPLETE PROOF PROPOSED, pending independent global audit**.
 Work over an algebraically closed field of characteristic zero. This proof
 concerns only the displayed endpoint projection of the degree-five A4
 normalization. The applicability to that intrinsic endpoint lane uses the
-[pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
-and the [explicit model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
+[pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
+and the [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit).
 It does not exclude nonendpoint projections or all quintic surfaces.
-The [quadric-factor audit](2026-10-11-session-quintic-endpoint-factor-independent-audit.md)
+The [quadric-factor audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit)
 supplies the preceding geometric reductions, but the proof below establishes
 an actual off-curve inverse point rather than relying on a first-normal
 contact count. No frozen canonical source or existing seal is changed.
@@ -285,9 +285,9 @@ degree-five anticanonical del Pezzo surface `S` and smooth lifted quartic `c`
 are the actual pair in the accepted
 [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
 with the exhaustive
-[intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
+[intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
 and its
-[explicit-model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md).
+[explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit).
 The unique line is `ell`; the only surface singularity is A4. Its actual
 anticanonical sections satisfy `div(U0)=5ell`, `div(hsec)=c+ell`.
 Consequently `S minus ell` is the complete open chart `A2(r,T)`, with
@@ -552,8 +552,8 @@ or the unrestricted STCI problem. No frozen source, canonical record or
 integrity seal is edited.
 
 The source audited in full is the [root's a0 support proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#4-quintic-endpoint-a0-support-exclusion).
-The [explicit model](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
-and [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
+The [explicit model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
+and [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
 supply the normalization chart and the limited endpoint scope. Work over
 an algebraically closed characteristic-zero field.
 
@@ -856,7 +856,7 @@ obstruction at the unique line ell; no claim about it is derived
 from this polynomial support proof. The endpoint a!=0 family and
 the nonendpoint delta family remain separate obligations.
 
-The [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
+The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
 states the endpoint/nonendpoint distinction. Its written geometric
 exhaustion and the explicit affine-model audit, rather than this
 degree-six computation, supply the global normalization applicability.
@@ -1013,8 +1013,8 @@ the three-common-root stratum or nonendpoint projection centers.
 ## 1. Scope and retained transverse equations
 
 Use the actual endpoint projection and center-avoidance hypotheses in the
-[quadric-factor reduction](2026-10-11-session-quintic-endpoint-quadric-factor-reduction.md)
-and its [independent audit](2026-10-11-session-quintic-endpoint-factor-independent-audit.md).
+[quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#4-quintic-endpoint-quadric-factor-reduction)
+and its [independent audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit).
 On the smooth affine normalization chart the coordinates are
 
     X0=1+aT, X1=r+bT,
