@@ -217,7 +217,7 @@ uses ample-normal formal algebraization as a branch, then a ruled model
 near the unchanged root curve and an opposing plane-section genus bound.
 It addresses every `r>=2` simultaneously for balanced rational degree-e
 curves with `e>=4`. The focused
-[branch/ruled-model review](2026-10-15-formal-branch-ruled-model-degree-bound-review.md)
+[branch/ruled-model review](#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd)
 passes its conditional steps. The full
 [independent source-hypothesis and global audit](2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
 now passes the theorem, general numerical criterion, and the finite-r
