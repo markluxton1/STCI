@@ -1100,7 +1100,7 @@ the all-parameter and all-mate-degree implications.
 
 ## 2. Other newly accepted structural and bounded results
 
-Root accepts the [independent pole/line audit](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet-independent-audit.md).
+Root accepts the [independent pole/line audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit).
 The exact pole orders 2,3,5 and cancellation-aware basis exhaust all
 low-pole sections. The pulled quadric has actual residual degree six,
 with partitions `6,2+4,3+3,2+2+2`, including repeated primes. The specified
@@ -1108,7 +1108,7 @@ entire-line rank-one subfamily has an all-power downstairs-frame
 derivation obstruction. Its annihilation statement is evaluated at the
 generic point of the line, not asserted throughout the surface chart.
 
-Root accepts the [independent residual-factor/genus audit](2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md).
+Root accepts the [independent residual-factor/genus audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-nonendpoint-residual-factor-and-genus-independent-audit).
 The two factor hyperplanes are exhaustive. The entire `2+2+2` partition
 is excluded, and map degrees and target classes in `2+4` and `3+3` are
 restricted without discarding repeated primes. The conic-plus-quartic
@@ -1118,7 +1118,7 @@ including its singular affine cases, maps birationally to the target
 residual of arithmetic genus three, and has exact excess contact length
 eight. This equality supplies no upper bound at an individual point.
 
-Root accepts the [independent target-fiber audit](2026-10-12-session-nonendpoint-target-fiber-independent-proof-audit.md).
+Root accepts the [independent target-fiber audit](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#5-nonendpoint-target-fiber-independent-proof-audit).
 The complete projective source boundary, denominator-free finite fibers,
 regular-chart quadratic/cubic system, rank degeneracies, target-one split
 and target-infinity degree drops are all retained within their stated
@@ -1217,7 +1217,7 @@ On pZ!=0 its normalized quadratic/cubic norm retains every leading
 degree drop; vanishing can still represent an allowed doubled c-fiber.
 The other target charts keep their separate fiber equations.
 
-The [additional infinity coefficient](2026-10-12-session-nonendpoint-conductor-infinity-coefficient.md)
+The [additional infinity coefficient](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#1-nonendpoint-conductor-infinity-coefficient)
 has a captured standard-library coefficient check. With a=B=0,
 Fdet has affine p-degree seven and p^7 coefficient delta^7. Its zero at
 target infinity is therefore exactly simple. Combining this with the
@@ -1334,7 +1334,7 @@ integral quintic normalization. Parameters are `delta!=0,a,b,g,d`.
 * **PROVED HERE / independently audited, every mate degree:** the
   entire-line rank-one subfamily has an actual downstairs-frame
   differential obstruction to every positive power of Q. See the
-  [pole and line-jet audit](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet-independent-audit.md).
+  [pole and line-jet audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit).
 * **PROVED HERE / independently audited, structural reductions:** the
   residual Weil divisor has degree partitions `6,2+4,3+3,2+2+2`.
   The full `2+2+2` partition is excluded. The conic-plus-quartic case
@@ -1344,12 +1344,12 @@ integral quintic normalization. Parameters are `delta!=0,a,b,g,d`.
   residual of arithmetic genus three, and needs exactly eight additional
   scheme lengths of contact beyond its intrinsic intersection with c.
   No upper bound on those lengths is asserted. See the
-  [residual-factor/genus audit](2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md).
+  [residual-factor/genus audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-nonendpoint-residual-factor-and-genus-independent-audit).
 * **PROVED HERE / independently audited, every mate degree:** every
   equal-lift projection `a=b=g=d` is excluded for all `delta!=0`.
   Complete source-boundary and exceptional-target equations also give
   additional exact bounded exclusions; they do not exhaust the family.
-  See the [target-fiber proof audit](2026-10-12-session-nonendpoint-target-fiber-independent-proof-audit.md).
+  See the [target-fiber proof audit](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#5-nonendpoint-target-fiber-independent-proof-audit).
 
 Root has read the new written audits and the corresponding proof scopes.
 The corrected conormal coefficient identities are supported by root's
