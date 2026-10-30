@@ -134,3 +134,12 @@ The following supplements preserve complete mathematical proofs and calculations
 - [Genus-one ribbon independent ideal certificates](supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md)
 - [Sectional genus-zero normalization proof](supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
 - [Genus-two blowup lift and normality: conditional argument](supplements/GENUS_TWO_BLOWUP_LIFT_NORMALITY_CONDITIONAL_ARGUMENT.md)
+
+## Quintic carrier mathematical supplements
+
+- [Conormal, factorization, residual divisors, and low-pole spaces](supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md)
+- [Degree-five del Pezzo A4 intrinsic classification and explicit model](supplements/DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
+- [Quintic endpoint residual support and excess intersections](supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md)
+- [Quintic endpoint transverse jets and power descent](supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md)
+
+These four permanent supplements integrate seventeen former dated source notes in full, retaining all hypotheses and unresolved boundaries. Executable computation files remain in their original directories.
