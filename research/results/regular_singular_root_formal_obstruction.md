@@ -47,3 +47,7 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Regularity of the entire formal lifted surface is essential, not automatic from Cartier lifting.
 - No exclusion of singular formal surfaces, finite lifts, or arbitrary actual STCI equations is obtained.
 - The suggested degree-e generalization is not part of this promotion.
+
+## Permanent evidence navigation
+
+Historical `research/notes/` identifiers in the metadata are preserved for provenance. The permanent [subject synthesis](../synthesis/03-infinitesimal-geometry.md) provides navigation to the mathematical arguments and their detailed supplements. This addition does not change any theorem or audit claim.
