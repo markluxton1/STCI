@@ -245,3 +245,6 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Normal carriers, primitive structures, jets and characteristic](supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md)
 - [October 6 session frontiers, audits and finite reductions](supplements/OCT6_SESSION_FRONTIERS_AND_VALIDATION.md)
 - [October 7 saturation, Rees valuations and carrier classification](supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md)
+
+- [October 7 conormal splitting and Hankel criteria](supplements/OCT7_LOCALCOH_CONORMAL_PART1.md) — preserved necessary conditions, not a general exclusion.
+- [October 7 local-cohomology endpoint and simultaneous-target calculations](supplements/OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md) — six preserved sources, including scoped exact exceptional-fibre certificates and a retracted bridge distinguished from its repair.
