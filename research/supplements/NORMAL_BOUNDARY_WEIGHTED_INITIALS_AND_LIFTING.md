@@ -782,6 +782,21 @@ exclusion, nonempty realization locus, or canonical result promotion.
 
 ---
 
+### Consolidated mathematical status of the weighted-initial calculation
+
+The source and its independent reconstruction agree on the precise domain: a chosen rational normal frame and a coefficient valuation \(v_p\) give weighted Gauss valuations on \(k(C)[X,Y]\); arbitrary \(k(C)[[X,Y]]\) does **not** admit the same finite real-valued formula without a bounded-tail hypothesis. A normal-first lexicographic valuation is a distinct alternative. The weights give an affine chamber decomposition in a fixed coefficient-weight slice, not automatically a canonical global fan. Full initial **ideals**, including cancellation, are essential; the monomial-free tropical locus alone loses the nilpotent intersection algebra.
+
+For the integral family \(J=(x^2,y^2+t^r x)\subset k[[t,x,y]]\), put \(\delta=2\beta-r-\alpha\), where the weights of \(t,x,y\) are \(1,\alpha,\beta\). The complete chamber computation gives
+\[
+\operatorname{in}(J)=
+\begin{cases}
+(X^2,Y^2),&\delta<0,\\
+(X^2,Y^2+T^rX),&\delta=0,\\
+(X^2,T^rX,XY^2,Y^4),&\delta>0.
+\end{cases}
+\]
+Here \(T\) remains noninvertible in the integral graded coefficient ring. The third chamber requires the cancellation generators \(xy^2\) and \(y^4\); it cannot be read from the two displayed initial generators. The source proof and independent syzygy verification remain below for full detail. The resulting normal-lattice torsion and determinant indices are coordinate-sensitive until their frame-change and residue data are retained. This local example proves neither a global finite-generation theorem nor a characteristic-zero STCI exclusion.
+
 ## weighted-initials-normal-boundary-audit
 
 # Independent audit: weighted initials and normal boundary data
