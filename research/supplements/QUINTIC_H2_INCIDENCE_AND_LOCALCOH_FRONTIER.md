@@ -21,7 +21,7 @@ Status: **candidate exclusion; exact resultant identities require a standalone r
 
 This concerns the *necessary restricted-conductor support incidence* in the characteristic-zero genus-one A4 quintic projection analysis, **not** a proof about the original rational-quartic STCI question. Work on the finite monic exact-gcd-two chart with parameters `delta,a,B,G,j,v,w`, quadratic `H=x^2+vx+w`, primitive source conductor `F_src=H Q`, and the source note's open conditions `delta E Delta1 != 0`. Do not invert the discriminant of H or the inverse-map denominator globally. Coordinate conventions matter: use the actual source-coordinate conductor, not the older shifted coefficient array.
 
-Primary background: [conductor quotient](2026-10-14-generalization-quintic-h2-conductor-quotient.md) and [global monic ODE incidence](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md).
+Primary background: [conductor quotient](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient) and [global monic ODE incidence](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md).
 
 ## Degree-five branch
 
