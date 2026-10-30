@@ -324,17 +324,9 @@ The external-source reviewer checked the primary Stacks sources. The sections or
 
 More precise supporting statements are the [finite-extension value-group and residue-degree bound, tag 0ASH](https://stacks.math.columbia.edu/tag/0ASH), the [finite separable DVR normalization description, tag 09E8](https://stacks.math.columbia.edu/tag/09E8), [Galois transitivity on places, tag 09EA](https://stacks.math.columbia.edu/tag/09EA), the [purely inseparable extension statement, tag 0H37](https://stacks.math.columbia.edu/tag/0H37), and [henselization of valuation rings, tag 0ASK](https://stacks.math.columbia.edu/tag/0ASK). No material valuation-theoretic error was identified.
 
-## 3. Exact finite replay and its limit
+## 3. Computational example and quantifier boundary
 
-The reviewer independently ran only the new command
-
-```
-python3 research/computations/verify_intrinsic_valuations_2026_10_23.py
-```
-
-It exited successfully and printed all four `PASS` lines. This reproduces the integer polynomial cancellation, reduction modulo two, the weighted values `(4,4)`, `(12,12)`, `(13,16)` at the three selected weights, the critical residue polynomial, the coordinate-change example, and the two monomial colengths.
-
-The general piecewise minimum formula follows directly from the four affine term weights, not from the finite sample of weights in the script. Likewise the divergent-tail obstruction and all-valutions equal-value example require their written general proofs; the finite replay alone would not establish their quantifiers. The global support of the prescribed roots-of-unity pair remains the explicitly inherited premise. The calculations distinguish coefficient/normal behavior for that pair and do not prove universal nonexistence of characteristic-zero quartic pairs.
+The reproducible example is implemented in [the valuation verification script](../computations/verify_intrinsic_valuations_2026_10_23.py). It checks the polynomial cancellation, characteristic-two reduction, selected weighted values \((4,4),(12,12),(13,16)\), the critical residue polynomial, a coordinate change, and the distinct colengths of the two monomial ideals. These finite computations **illustrate** the general piecewise minimum and coordinate dependence; they cannot establish universal claims about all weights or all quartic pairs. Those claims require the preceding proofs. The global support of the prescribed roots-of-unity pair is an inherited hypothesis, not a consequence of the sampled weights.
 
 ## 4. Contact module and determinant: reconstruction
 
@@ -360,7 +352,7 @@ det M_Y = (L tensor E2) tensor K0(-D)
 
 Accordingly the determinant of the actual ambient source has the asserted global target, of degrees four and six for the two stated quartic cases. A source-basis change multiplies its coordinate representative by the source determinant; an adapted target change multiplies it by the inverse target determinant. The displayed generic law `Delta'=Delta/(a*d^3)` follows by expanding the triangular basis change. These are line-bundle transitions, not invariance of a numerical polynomial without its trivializations.
 
-Two precision corrections were requested from the contact author during review. First, the equivalence between vanishing of the relation-line image and vanishing of the determinant requires the first-symbol map to be generically nonzero. If that map is zero, its kernel is all of `W` and the determinant is already zero, while the image of `W` in the kernel line can be nonzero. Second, a Taylor remainder denoted only `O(normal order 4)` must not silently absorb the possible terms `m^2` and `m*t^2`. The suitable remainder for the displayed cubic-contact calculation is `(m^2,m*t^2,t^4)`, or equivalently weight at least four for weights `(2,1)` before replacing `m` by `m-f2*t^2`. These corrections do not alter the determinant construction.
+The equivalence between vanishing of the relation-line image and vanishing of the determinant **requires** the first-symbol map to be generically nonzero. Otherwise its kernel is all of `W` and the determinant vanishes, but the image of `W` in the kernel line may be nonzero. In the cubic-contact Taylor expansion the remainder belongs to `(m^2,m*t^2,t^4)` (weight at least four for weights `(2,1)` before substituting `m=f2*t^2`); it is not enough to write an unspecified fourth normal-order remainder. These qualifications leave the determinant construction intact.
 
 With a nonzero first symbol and common contact at least three, substituting the formal branch of one equation gives a residual `t^3` coefficient `Delta/h0`. Hence nonzero determinant is equivalent to local length three; zero determinant gives length at least four when the colength is finite. The two successive blowup interpretation agrees with this calculation. Defect points require the global module, because the displayed rational normal charts need not extend there.
 
