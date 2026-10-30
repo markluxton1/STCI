@@ -381,7 +381,7 @@ zero. Retain delta!=0, actual center avoidance, and repeated cubic factors.
 
 The actual sections and residual coefficients are those of the
 [pole-filtration note](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
-and the [residual-factor note](2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md).
+and the [residual-factor note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md).
 No frozen source, canonical record, or Git state was changed for this work.
 
 ## 1. Actual restriction and complete cubic-divisor equations
@@ -621,7 +621,7 @@ Date: 2026-10-12. Author: `nonendpoint_pole_spaces`.
 Status: **DIRECT ALL-MATE EXCLUSION WITH EXACT SUPPORTING COMPUTATIONS;
 INDEPENDENT PROOF AUDIT OUTSTANDING**. This note closes exactly the first two
 one-parameter families in section 4a of the frozen
-[residual factor and genus reduction](2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md).
+[residual factor and genus reduction](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md).
 It does not close its other six families or the remaining nonendpoint
 integral and cubic-pair residuals. The frozen owner and sealed files were
 not edited.
@@ -855,7 +855,7 @@ No owner, canonical, earlier audit or seal-bound file was edited.
 ## 1. Inputs, retained parameters and the exact conditional setting
 
 I reconstructed section 4a of the
-[residual reduction](2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md),
+[residual reduction](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md),
 SHA `d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44`,
 and its [independent audit](2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md),
 SHA `db72f936486253cf91e82645de9c3b6b23562dac9da49eee6ee31f0cb94b5322`.
@@ -1053,7 +1053,7 @@ Date: 2026-10-12. Author: `nonendpoint_pole_spaces`.
 Status: **DIRECT ALL-MATE EXCLUSION WITH EXACT SUPPORTING COMPUTATIONS;
 INDEPENDENT PROOF AUDIT OUTSTANDING**. This is a new owner note. It closes
 exactly the six Type2/Type3 families in section 4a of the frozen
-[residual factor and genus reduction](2026-10-12-session-nonendpoint-residual-factor-and-genus-reduction.md).
+[residual factor and genus reduction](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md).
 Together with the separate [Type1 exclusion](2026-10-12-session-nonendpoint-type1-two-family-exclusion.md),
 it excludes all eight conic-plus-quartic families, conditional on the
 independent audit of the new proofs. The integral residual and cubic-pair
