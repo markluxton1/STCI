@@ -469,7 +469,7 @@ frontier file or prior evidence seal is edited. No mate exclusion follows
 from this structural theorem alone.
 
 Audited owner proof:
-[genus-two blowup lift and normality](2026-10-10-session-genus-two-blowup-lift-normality-proposed-audit.md),
+[genus-two blowup lift and normality](GENUS_TWO_BLOWUP_LIFT_NORMALITY_CONDITIONAL_ARGUMENT.md),
 including its subsequently added section 6. Audited source SHA256:
 `2ca17ce2e546bd7ee4f0585cf5b42755c6f723fa8ec867f076a0e33bfd4a1999`.
 The owner note's proposal label records its status before this separate
@@ -1039,7 +1039,7 @@ The older
 [irreducible-residual note](2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md)
 was read but is not used as an exhaustion certificate: it covers only one
 residual stratum. The entire quartic family is supplied by section 2 of
-the [carrier ideal proof](2026-10-10-session-genus-two-trisecant-quartic-carriers.md).
+the [carrier ideal proof](GENUS_TWO_TRISECANT_CARRIER_PROOF.md).
 
 ## 1. Exact inputs and claim
 
@@ -1315,7 +1315,7 @@ give distinct Gamma-fibers. Vertical exceptional primes are (-2) curves
 contracted in the crepant ADE resolution `rho:M -> T`.
 
 The actual full quartic family and endpoint coordinates are from
-[the carrier ideal proof](2026-10-10-session-genus-two-trisecant-quartic-carriers.md).
+[the carrier ideal proof](GENUS_TWO_TRISECANT_CARRIER_PROOF.md).
 Here the conductor line is `Gamma=(x2,x3)`. On the blowup chart put
 
     a=x1/x0,       y=x2/x0,       b=x3/x2.
@@ -1878,7 +1878,7 @@ carrier degrees. No canonical frontier file is edited.
 Use the genus-two notation in the
 [adjoint conic model](2026-10-09-session-genus-two-adjoint-conic-model.md).
 Assume the proposed
-[normal blowup lift](2026-10-10-session-genus-two-blowup-lift-normality-proposed-audit.md)
+[normal blowup lift](GENUS_TWO_BLOWUP_LIFT_NORMALITY_CONDITIONAL_ARGUMENT.md)
 has passed its separate audit. Thus
 
     rho:M -> T subset Bl_Gamma(P3),
