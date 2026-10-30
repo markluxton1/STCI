@@ -13,7 +13,7 @@ Date: 2026-10-13. Author: `oct12_restricted_conductor_section/residual_norm_iden
 Status: **DIRECT EXACT DOUBLE-ROOT IDENTITY FOR A SPECIFIED FAMILY;
 INDEPENDENT AUDIT REQUESTED**. The actual-conductor identification is
 inherited from the
-[independent module audit](2026-10-12-session-conductor-quadric-module-independent-audit.md).
+[independent module audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#4-conductor-quadric-module-independent-audit).
 The separate quotient-fiber argument owns the claim that this rational
 family is the surviving regular L1 branch under full inverse support.
 No full common-root incidence exhaustion or global STCI result is claimed.
@@ -94,7 +94,7 @@ Date: 2026-10-13. Author: `oct12_restricted_conductor_section`.
 Status: **EXACT QUOTIENT IDENTITIES AND A STRUCTURAL NECESSARY BRANCH
 REDUCTION; INDEPENDENT AUDIT REQUESTED**. This note uses the actual
 nonendpoint genus-one quintic A4 model and the
-[audited conductor theorem](2026-10-12-session-conductor-quadric-module-independent-audit.md).
+[audited conductor theorem](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#4-conductor-quadric-module-independent-audit).
 It does not assert parameter-space exhaustion, a first-normal bound on
 higher contact, a global quintic exclusion, or a universal STCI result.
 All earlier frozen sources, notes and canonical records are unchanged.
@@ -351,7 +351,7 @@ Author: `oct12_restricted_conductor_section/residual_norm_identity`.
 
 Status: **DIRECT EXACT COEFFICIENT REDUCTION; INDEPENDENT AUDIT REQUESTED**.
 The geometric use below depends on the
-[audited actual conductor quadric](2026-10-12-session-conductor-quadric-module-independent-audit.md).
+[audited actual conductor quadric](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#4-conductor-quadric-module-independent-audit).
 This is a necessary incidence, not an exhaustion, a sufficient condition,
 or an all-quintic theorem. Delta remains a genuine parameter. Older norm,
 determinant, endpoint, captured and canonical records are unchanged.
