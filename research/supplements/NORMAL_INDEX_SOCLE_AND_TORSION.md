@@ -922,7 +922,7 @@ Date: 2026-10-14. Owner: `global_structure`. Status: **NEW WRITTEN
 PROOF; independent review requested**. The accepted normal bundle of
 fixed C0 and accepted carrier exclusions are premises, with no reruns.
 This note studies new restrictions on the three Cartier-lift models
-from the [accepted classification](2026-10-14-generalization-cartier-lift-independent-audit.md).
+from the [accepted classification](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-14-generalization-cartier-lift-independent-auditmd).
 The full socle line is the previously reviewed duality interface in the
 [conormal-socle budget audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd);
 the new ingredient here is the actual first-layer identification from
