@@ -82,3 +82,40 @@ The [first-blowup coupling audit](../notes/2026-10-07-thick-first-blowup-marked-
 The [October 7 rational-quartic power theorem](../notes/2026-10-07-rational-quartic-power-saturation.md) proves for every `m>=0`, `d>=3m` both `H0(P3,I_C^m(d))=(I_C^m)_d` and `H1(P3,I_C^m(d))=0`. The key sheaf exact sequence, using C Cartier of class `(1,3)` on Q, is `0 -> I_C^(m-1)(d-2) --Q--> I_C^m(d) -> O_Q(d-m,d-3m) -> 0`. The cubic generators, after factoring C on Q, span `H0(O_Q(2,0))`; their m-fold products and ambient degree `d-3m` factors surject onto the quadric quotient. Induction proves both vanishing and **ordinary-power** saturation in this range; there is no extra symbolic section at degree at least `3m`.
 
 In particular `(I^p:Q)_(3p-2)=(I^(p-1))_(3p-2)` and `(I^p)_(3p) intersect (Q)=Q (I^(p-1))_(3p-2)`. The [degree-3p quotient note](../notes/2026-10-07-thick-degree-3p-quotient.md) and the power theorem identify `(I^p)_(3p)/Q(I^(p-1))_(3p-2)` with `H0(Q,O_Q(2p,0))`. Thus every degree-3p order-at-least-p carrier is `F=F_cub+QK`, with `F_cub` a combination of products of p cubic generators and `K in (I^(p-1))_(3p-2)`. This describes the full ambient vector space but does **not** control its singularities, normalization, or mate support. It also justifies the transverse smoothing freedom discussed above without asserting that every such smoothing occurs globally.
+
+## 11. Valuation data with coordinate and integral-model discipline
+
+The weighted-initial investigation starts with K=k(C), a rational normal frame X,Y, a closed point p, and the discrete valuation v_p on K. For polynomial expressions and integer weights (alpha,beta), define
+
+    v_(p,alpha,beta)(sum a_ij X^i Y^j)
+      = min {v_p(a_ij)+i*alpha+j*beta : a_ij nonzero}.
+
+In this chosen frame the construction is a Gauss valuation on K(X,Y). Its initial polynomial retains all terms attaining the minimum; its *initial ideal* must be formed from every element of the ideal, not merely from the initials of F and G. The [weighted-initial source](../notes/2026-10-26-weighted-initials-normal-boundary.md) studies the resulting Newton and Groebner chambers and records its restrictions on formal series. This is a coordinate-dependent calculation, not yet an intrinsic invariant of the embedded pair.
+
+Two distinctions are essential. First, multiplying a generator by a rational coefficient changes its scalar value, so taking the infimum of v_(p,w) over every nonzero element of a K-ideal is meaningless: powers of a local parameter in the denominator drive that infimum to minus infinity. The integral model over O_(C,p), its saturation, and the associated graded coefficient ring retain the boundary information that would otherwise disappear. Second, the rational frame changes at p; the individual coefficient valuations and Newton polygons can change. The intrinsic leading symbols instead live in symmetric conormal powers, and their divisors require the correct transition functions.
+
+For a research test, retain the chosen frame, integral lattice, full initial ideal, and transformation rule. Only after proving frame invariance may a chamber boundary or valuation defect be called a geometric obstruction. Monomial-containing initials must be included; restricting to the tropical (monomial-free) locus would discard relevant specializations.
+
+## 12. What the exact ideal-power theorem contributes
+
+The [October 7 power-saturation theorem](../notes/2026-10-07-rational-quartic-power-saturation.md) gives, for the fixed rational quartic and every m>=0, d>=3m,
+
+    H^0(P3, I_C^m(d)) = (I_C^m)_d,
+    H^1(P3, I_C^m(d)) = 0.
+
+This is a source-level proved theorem retained here without a new promotion decision. Its proof uses the exact sequence through the unique quadric Q, on which C has class (1,3):
+
+    0 -> I_C^(m-1)(d-2) --Q--> I_C^m(d)
+      -> O_Q(d-m,d-3m) -> 0.
+
+The H1 vanishing follows by induction in the stated range, and products of the three cubic generators span the quadric quotient after factoring C. The theorem says that ordinary homogeneous powers already supply all global sections of the ideal-sheaf power in degrees at least 3m; no additional symbolic section appears in that range.
+
+At d=3p it gives a recursive description of *all* order-at-least-p carriers: the quotient of (I^p)_(3p) by Q*(I^(p-1))_(3p-2) is H^0(Q,O_Q(2p,0)), represented by products of p cubic generators. Thus every such carrier can be written as a cubic-product combination plus Q*K with K in (I^(p-1))_(3p-2).
+
+This closes an ambient-source completeness question for these degrees, but not the STCI problem. It does not constrain singularities of an arbitrary carrier in the space, the generic initial ideal of a mate, or the absence of residual support. The distinction is important: a complete parameterization of a vector space is not a classification of the geometry of its members.
+
+## 13. A single local-to-global test protocol
+
+For an actual proper pair F,G, begin with its generic colength and full I-initial ideal over K, then compute the horizontal exceptional directions. At each special point, record the conormal frame transition and the *integral* weighted-initial lattice, including cancellation-generated relations and any torsion. If a curvilinear saturated flag is available, apply the scoped residual-zero-cycle formulas; otherwise record precisely why the hypotheses fail. Next test whether the candidate local jets lie in the image of the global degree-d and degree-e equation spaces, using the exact power theorem when its degree range applies. Finally compute the projective residual cycle, not just the exceptional support.
+
+A negative computation should identify which step fails and whether the failure is stable across a whole parameter family. This protocol is provisional: it does not assert that passing every finite test yields global equations or that failure of an isolated test excludes all STCI pairs.
