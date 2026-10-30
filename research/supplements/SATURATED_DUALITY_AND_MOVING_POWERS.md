@@ -69,7 +69,7 @@ For every `j>=r-1`, it gives
 where at `j=r-1` the denominator is zero.
 
 The actual socle line and Gorenstein MCM duality are accepted inputs in
-[the independent socle audit](2026-10-13-generalization-socle-independent-audit.md),
+[the independent socle audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd),
 sections 2--4. That audit does not itself supply the general saturated
 pairing used below; its ordinary pairing statements have more
 restrictive equality/torsion-free hypotheses. The new bridge consists
@@ -297,7 +297,7 @@ spectral criterion; it does not claim to lift an arbitrary abstract
 graded family back to an actual thickening.
 
 The accepted inputs are the socle-line and Gorenstein MCM duality facts
-in [the independent socle audit](2026-10-13-generalization-socle-independent-audit.md),
+in [the independent socle audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd),
 and the root-quotient identification of R-0008 and its
 [independent evidence](2026-10-14-generalization-spectral-root-curve-independent-audit.md).
 The existing socle audit proves perfect ordinary pairings under extra
@@ -752,8 +752,8 @@ Date: 2026-10-19. Author: `singular_roots` research agent.
 
 Status: **new conditional theorem proposal with independent review PASS; not promoted**.
 The separate audits are
-[the smoothing audit](2026-10-19-regular-singular-root-smoothing-audit.md) and
-[the equal-slope two-component audit](2026-10-19-regular-reducible-root-independent-audit.md).
+[the smoothing audit](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-19-regular-singular-root-smoothing-auditmd) and
+[the equal-slope two-component audit](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-19-regular-reducible-root-independent-auditmd).
 This note does not promote a canonical result, alter an accepted theorem, or
 settle the singular-formal-surface case.
 
@@ -972,7 +972,7 @@ geometric input is Hartshorne,
 Theorem 4.1, printed p. 122](https://www.numdam.org/item/PMIHES_1969__36__111_0.pdf).
 The local equivalence to the ruled neighborhood and the nef square
 comparison are the same accepted mechanism as in
-[the preserved independent branch review](2026-10-15-formal-branch-ruled-model-degree-bound-review.md).
+[the preserved independent branch review](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd).
 We use that mechanism with the new smoothed curve, not the statement
 that a smooth `(2,r)` root itself exists in `E`.
 
