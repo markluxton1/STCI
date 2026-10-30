@@ -150,3 +150,18 @@ There is a separate exact test for the actual global equations. Suppose C has de
 These statements are retained as reviewed source-level deductions, not independently promoted canonical theorems. Their practical contribution is to distinguish the lower embedded extension class, its boundary repair, the final Gorenstein pairing, and the actual global source map. Passing any one of these tests does not imply the next.
 
 Next: [carrier normalization and conductor](04-carriers.md), which imposes a different global descent condition.
+
+
+## 3.12 Boundary repair versus embedded lifting
+
+A useful provisional calculation starts with a *specified* obstruction (o\in H^1(C,V)) for a vector bundle (V) on a smooth curve and an effective divisor (D). The exact sequence
+\[
+0\longrightarrow V\longrightarrow V(D)\longrightarrow V(D)/V\longrightarrow0
+\]
+shows that (o) becomes zero in (H^1(C,V(D))) exactly when it lies in the image of the connecting homomorphism (H^0(C,V(D)/V)\to H^1(C,V)). This is an exact **principal-parts repair criterion** for the chosen obstruction. It does not identify the obstruction governing an arbitrary embedded thickening or guarantee that the repaired object comes from homogeneous hypersurfaces.
+
+For (C=\mathbf P^1), the calculation can be expressed using a common-divisor/kernel condition across all allowed repair divisors. The arithmetic size of the boundary is constrained by the saturated-layer and Gorenstein socle data; a numerical dimension count is not a substitute for the actual kernel. The [boundary-repair calculations](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) give the exact cohomological test and the unproved comparison to the ambient obstruction complex.
+
+The [one-step source package](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) treats a narrower, stronger situation: **fix** an embedded lower thickening, its equation module, the final Gorenstein extension, and actual homogeneous source maps. Only then can a determinant-zero condition for a proper decomposable pair be compared with sole reduced support by degree exhaustion. A nonzero abstract kernel need not contain a decomposable point, and a formal extension need not lift to the required global equations. The source-level criterion is reviewed but not independently promoted as an unrestricted theorem.
+
+The [Delta-embedding package](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md) studies a different comparison defect for the marked embedding (C\subset V(F,G)), without assuming sole support. Its conormal-torsion and normal-cone interpretations must not be conflated with a residual curve or with the existence of a repaired global equation pair. The supported punctual-defect question remains open; see [R-0030](../results/local_filtration_comparison_defect.md) for the precise promoted local statement.
