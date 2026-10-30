@@ -443,7 +443,7 @@ them and records the limits of the identifications.
 
 | Assignment | Report and evidence |
 | --- | --- |
-| I: ambient blowup, the two quartics, hyperplane choices, upstairs incidences | [Resolved projection in four-space](2026-10-24-p4-resolved-projection.md) |
+| I: ambient blowup, the two quartics, hyperplane choices, upstairs incidences | [Resolved projection in four-space](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#p4-resolved-projection) |
 | II: cone, finite normalization, resolution, section family | [Projection cone](#projection-cone-ruled-model) |
 | III: quadric, cubic incidence, conductor, same-center cubic scroll | [Cubic scroll](#cubic-scroll-normalization) |
 | IV: common quartic cone, four sections, intersection schemes | [Four-section ruled surface](#four-sheet-ruled-surface) |
@@ -819,7 +819,7 @@ Throughout Sections 1–8, \(k\) is algebraically closed of characteristic zero.
  c([s:t])=[s^4:s^3t:st^3:t^4],\qquad
  R=V(x_0x_2^2-x_1^2x_3)\subset\mathbf P^3.
 \]
-This is intrinsic projective geometry, with no STCI inference. The [earlier special-lines note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md), Section 5, and its [geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit), Section 4, give the motivating paired-secant formula. We reconstruct it and all normalization and divisor claims used here. No novelty claim is made. The general projection/cone constructions are treated in the companion notes on [resolved projection](2026-10-24-p4-resolved-projection.md) and the [cone](#projection-cone-ruled-model).
+This is intrinsic projective geometry, with no STCI inference. The [earlier special-lines note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md), Section 5, and its [geometry audit](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#special-lines-planes-geometry-audit), Section 4, give the motivating paired-secant formula. We reconstruct it and all normalization and divisor claims used here. No novelty claim is made. The general projection/cone constructions are treated in the companion notes on [resolved projection](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#p4-resolved-projection) and the [cone](#projection-cone-ruled-model).
 
 ## 1. The quadric and its two rulings
 
@@ -2394,7 +2394,7 @@ The source dependencies are the [research protocol](../INDEX.md), the
 [earlier projection note](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#quartic-projection-automorphisms).
 The bundle construction, normalization, conductor, and section claims
 are reconstructed below. No STCI result or carrier exclusion is used.
-The [resolved-projection report](2026-10-24-p4-resolved-projection.md)
+The [resolved-projection report](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#p4-resolved-projection)
 places this surface inside the ambient blowup.
 
 ## 1. Projectivization and the morphism
@@ -3051,7 +3051,7 @@ preserving the unordered endpoint pair without that extra choice.
 
 ## 6. Final draft comparison, corrections, and review boundary
 
-The final texts of the [resolved-projection report](2026-10-24-p4-resolved-projection.md),
+The final texts of the [resolved-projection report](QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md#p4-resolved-projection),
 [projection-cone note](#projection-cone-ruled-model), and
 [cubic-scroll note](#cubic-scroll-normalization) were read in
 full and compared with the independent reconstruction above. The
