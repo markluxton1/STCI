@@ -63,3 +63,7 @@ The spectral criterion covers singular and nonreduced root schemes; [STCI-R-0005
 - [Independent spectral audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md).
 
 The proofs and audit remain preserved on the Ultra branch; no new proof or ambient existence claim is asserted.
+
+## Permanent evidence navigation
+
+Historical `research/notes/` identifiers in the metadata are preserved for provenance. The permanent [subject synthesis](../synthesis/03-infinitesimal-geometry.md) provides navigation to the mathematical arguments and their detailed supplements. This addition does not change any theorem or audit claim.
