@@ -214,7 +214,7 @@ Three distinct common roots force U to divide V. Direct long division gives
     a=3b^2/2,       g=1/(9b)-2/3,       d=1/(54b^2)-1/(9b),
 
 with b!=0. In this family Cb=-3b^3(2b+3)/4, so b!=-3/2 as well.
-Write E=U S. The [independent shifted-variable support certificate](2026-10-11-session-endpoint-three-common-roots-shifted-replay.md)
+Write E=U S. The [independent shifted-variable support certificate](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#5-endpoint-three-common-roots-shifted-replay)
 proves S is a genuine quartic and cannot have all its roots among the roots
 of U: its collision resultant with U and its derivative resultant have
 coprime parameter factors. The separate
@@ -263,19 +263,19 @@ remains within that scope. This is not an exclusion of nonendpoint
 projections, all quintic carriers, or unrestricted STCI presentations.
 
 The owner proof is
-[the endpoint a-nonzero full-support exclusion](2026-10-11-session-endpoint-a-nonzero-full-support-exclusion.md).
+[the endpoint a-nonzero full-support exclusion](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#1-endpoint-a-nonzero-full-support-exclusion).
 I reconstructed the projective implication and the target residual equations
 independently, and delegated an independent reconstruction of the contact
 orders to
 [the two-common-root target audit](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-endpoint-two-common-roots-target-contact-independent-auditmd).
 I read its final note, source, execution record, and the separate
-[direct-r local-excess proof](2026-10-11-session-quintic-endpoint-a-nonzero-local-excess-bound.md).
+[direct-r local-excess proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#6-quintic-endpoint-a-nonzero-local-excess-bound).
 The latter gives a second route through actual intersection lengths, but the
 global argument below does not require its geometric length identification.
 The proof also uses the independently implemented
 [original-variable residual-quartic certificate](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
 and its
-[shifted-variable replay](2026-10-11-session-endpoint-three-common-roots-shifted-replay.md).
+[shifted-variable replay](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#5-endpoint-three-common-roots-shifted-replay).
 Agent agreement alone is not used as a proof.
 
 ## 1. Exact statement and the mate implication
@@ -488,7 +488,7 @@ In the final case `Cb=-3b^3(2b+3)/4`, so `b != -3/2`. Write E=US.
 The residual S has degree exactly four throughout this locus. The
 [original-variable audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
 and its independent
-[shifted-variable certificate](2026-10-11-session-endpoint-three-common-roots-shifted-replay.md)
+[shifted-variable certificate](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#5-endpoint-three-common-roots-shifted-replay)
 give exact incompatible resultants: if every root of S were a root of U,
 the two polynomials would share a root, while S would have a repeated root
 because a quartic is supported at at most three points. Their resultant
@@ -551,7 +551,7 @@ exclude a!=0, a=b=0, nonendpoint projections, other quintic normalizations
 or the unrestricted STCI problem. No frozen source, canonical record or
 integrity seal is edited.
 
-The source audited in full is the [root's a0 support proof](2026-10-11-session-quintic-endpoint-a0-support-exclusion.md).
+The source audited in full is the [root's a0 support proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#4-quintic-endpoint-a0-support-exclusion).
 The [explicit model](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
 and [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
 supply the normalization chart and the limited endpoint scope. Work over
