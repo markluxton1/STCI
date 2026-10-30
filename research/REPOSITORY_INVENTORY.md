@@ -2,9 +2,9 @@
 
 This is a compact **file-count census**, not a mathematical audit or permission to delete reproducibility evidence. For mathematical retention decisions use [the working file inventory](FILE_LEVEL_INVENTORY_WORKING.md) and [the evidence manifest](MATHEMATICAL_CONSOLIDATION_EVIDENCE_MANIFEST.md).
 
-## Current consolidation branch (2026-10-27)
+## Historical consolidation-branch snapshot (2026-10-27)
 
-Source: complete, untruncated GitHub recursive tree at commit `4480297cd1805fdc5146d04627cc0d3164cef1a4` on `restructure/mathematical-consolidation`.
+These figures describe a past commit, **not the current branch head**. Source: complete, untruncated GitHub recursive tree at commit `4480297cd1805fdc5146d04627cc0d3164cef1a4` on `restructure/mathematical-consolidation`.
 
 | Area | Tracked files |
 | --- | ---: |
