@@ -1,5 +1,7 @@
 # Canonical research state
 
+**Current reading route:** [canonical results](results/INDEX.md) govern precise statements; [mathematical synthesis](synthesis/README.md) explains the integrated work; [dependencies](synthesis/DEPENDENCIES.md) distinguish proved implications from open bridges; [frontier](FRONTIER.md) identifies current research programs. Dated activity sections below are historical snapshots. The unrestricted characteristic-zero STCI question remains open.
+
 ## Research activity snapshot — October 27, 2026
 
 The October 24 intrinsic-geometry interlude is a preserved historical phase, not an accurate description of all subsequent activity. Research has since resumed on complete-intersection cycles, normal filtrations, weighted initial ideals, and boundary obstructions. The October 26–27 notes linked in [research navigation](INDEX.md) are **provisional evidence**, not automatically promoted theorems. The unrestricted characteristic-zero STCI question remains open. See [current frontier](FRONTIER.md) and [authority rules](AUTHORITY.md).
