@@ -56,3 +56,7 @@ For a singleton branch when X is generically regular along C, set a=H^2, c=H.Gam
 [Accepted October 14 state, Section 2](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/AUDITED_STATE_2026-10-14.md).
 
 The source proof is preserved on the Ultra branch; no new independent proof or unrestricted STCI conclusion is asserted here.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/04-carriers.md). The original evidence identities and theorem scope remain unchanged.
