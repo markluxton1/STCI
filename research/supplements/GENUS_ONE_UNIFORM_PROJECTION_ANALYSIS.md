@@ -1,5 +1,12 @@
 # genus one uniform projection adversarial
 
+## Dependency guide: actual projection and ramification boundary
+
+This file derives necessary fiber and singularity conditions using the **complete anticanonical embedding** and the actual projected curve, conditional on the ADE del Pezzo/D5 reduction. Its ramification countershield prevents the false inference that isolated smooth-source ramification is automatically excluded. The [conormal-net reduction](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md) controls the ribbon directions; the [repeated-partition calculation](GENUS_ONE_RIBBON_PARTITION_PROOFS.md) handles particular contact strata. Neither should be read as a uniform elimination of all genus-one carriers.
+
+---
+
+
 Permanent detailed mathematical record, including all proofs, calculations, counterexamples and explicit unresolved conditions.
 
 # Uniform genus-one projection conditions and a ramification countershield
