@@ -1,5 +1,12 @@
 # ribbon repeated partitions complete
 
+## Dependency guide: partition-by-partition exclusion
+
+The [ribbon conormal-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md) and [uniform projection conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md) are upstream assumptions. This proof treats the repeated-contact partitions **[4], [3,1], and [2,2]**, including endpoints and direction boundaries, and does not claim to handle the distinct [2,1,1] stratum. Its [independent certificate](GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md) checks coverage and conductor/power obstructions with exact ideal computations. Retain the original case calculations and the independent audit as distinct evidence, not interchangeable summaries.
+
+---
+
+
 Permanent detailed mathematical record, including all proofs, calculations, counterexamples and explicit unresolved conditions.
 
 # Complete exclusion of contact partitions [4], [3,1], and [2,2]
