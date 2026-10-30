@@ -703,7 +703,7 @@ used or rerun.
 
 Reviewed sources are the [projection note](2026-10-24-quartic-projection-automorphisms.md),
 the [literature/outlook note](2026-10-24-quartic-invariant-literature-outlook.md),
-and Sections 2, 3, and 6 of the [synthesis](2026-10-24-quartic-automorphisms-bitangents-synthesis.md).
+and Sections 2, 3, and 6 of the [synthesis](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md).
 The symmetric-square and correspondence claims have a
 [separate independent audit](2026-10-24-quartic-symmetric-independent-audit.md).
 
@@ -981,12 +981,12 @@ fixed embedded curve
 
 This note concerns its intrinsic projective geometry. It uses no
 normal-bundle splitting, quartic-carrier exclusion, or STCI obstruction.
-The prior [special-lines note](2026-10-24-special-lines-planes-research-note.md),
+The prior [special-lines note](#2026-10-24-special-lines-planes-research-note),
 Sections 2–4, and its [independent geometry audit](2026-10-24-special-lines-planes-geometry-audit.md)
 supply the calculations to be explained. The arguments needed for the new
 conclusions are reconstructed below, including the endpoint jet drops.
 The [symmetric-square companion](2026-10-24-quartic-symmetric-square-bitangents.md)
-and [synthesis](2026-10-24-quartic-automorphisms-bitangents-synthesis.md)
+and [synthesis](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md)
 explain how the same center controls the bitangent conic. No novelty claim
 is intended.
 
@@ -1427,7 +1427,7 @@ Retrieval began with [INDEX](../INDEX.md), the requested navigation
 summaries, the [authority policy](../AUTHORITY.md), and the
 [contribution checklist](../CONTRIBUTING_AGENT.md). Relevant retained
 evidence is the [discussion reconciliation](2026-10-24-discussion-reconciliation.md),
-[dual-incidence derivation](2026-10-24-special-dual-incidence-derivation.md),
+[dual-incidence derivation](#2026-10-24-special-dual-incidence-derivation),
 [geometry audit](2026-10-24-special-lines-planes-geometry-audit.md), and
 [symmetric-square note](2026-10-24-quartic-symmetric-square-bitangents.md).
 Their status remains provisional. The promoted input
@@ -1895,7 +1895,7 @@ proposed bounds on common normal directions. No source branch or acceptance
 note is treated as a substitute for a promoted record.
 
 New evidence consists of the [geometry derivation](2026-10-24-special-lines-geometry-derivation.md),
-[dual-incidence derivation](2026-10-24-special-dual-incidence-derivation.md),
+[dual-incidence derivation](#2026-10-24-special-dual-incidence-derivation),
 [section derivation](2026-10-24-special-sections-stci-derivation.md),
 and [independent normal-count review](2026-10-24-osculating-normal-count-review.md).
 These are research evidence, not numbered canonical results. Proofs of the
@@ -2613,7 +2613,7 @@ that every inherited proposal is promoted or that this branch starts at
 
 Date: 2026-10-24. Reviewer: independent agent stci_final_audit.
 Review target: Sections 1 and 7–13 of
-[the special-lines research note](2026-10-24-special-lines-planes-research-note.md).
+[the special-lines research note](#2026-10-24-special-lines-planes-research-note).
 Status: **PASS for these scoped statements and their limitations;
 research evidence only, not canonical promotion or an STCI exclusion**.
 
@@ -3071,7 +3071,7 @@ not a promoted result record or an STCI conclusion.
 
 Date: 2026-10-24. Reviewer: independent agent geometry_final_audit.
 Scope: Sections 2–6 and the geometric conormal input of Section 10 of the
-[research note](2026-10-24-special-lines-planes-research-note.md).
+[research note](#2026-10-24-special-lines-planes-research-note).
 
 **Outcome:** one substantive omitted-components error was found in the
 initial dual-surface statement. The corrected reduced singular locus has
