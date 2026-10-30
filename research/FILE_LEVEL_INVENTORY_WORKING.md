@@ -208,3 +208,8 @@ The previously completed 30-note batch (four supplements: LOCALCOH_CONTACT_PARIT
 Verified `OCT7_LOCALCOH_CONORMAL_PART1.md` and retired its original conormal-splitting note (one additional source). Preserved six additional October 7 local-cohomology sources in `OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md` and retired their originals: e1-simultaneous, independent-audit, mf6-bridge, q1-exception, q13-exception, q3-exception. The failed bridge is retained as a failure mode, not promoted as a proof. This is complete source preservation, not editorial integration or independent re-audit.
 
 **Reported cumulative retired: 357.** Estimated remaining: 192 based on the supplied earlier 549-note population, not a freshly enumerated branch tree.
+
+
+## Full-content migration — October 7–8 MF6, normal carriers, and thick geometry (2026-10-30)
+
+Thirty historical mathematical sources were preserved in full in four permanent supplements: `OCT7_MF6_AND_NONNORMAL_STRUCTURES.md` (6), `OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md` (7), `OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md` (8), `OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md` (9). All thirty originals were deleted only after the four supplements were committed and their source headings verified. Conditional results, failed arguments, counterexamples, calculations, and open cases retain their source status. This is full-text source preservation, not an independent mathematical audit or editorial deduplication. **Cumulative historical retirements: 387. Live remaining notes: 162.** Repository-wide inbound-reference cleanup remains outstanding.
