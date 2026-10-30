@@ -50,3 +50,7 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not rule out characteristic-zero STCI or arbitrary characteristic-zero multiplicity-four schemes.
 - Does not cover arbitrary ramified DVRs of residue characteristic two.
 - Does not imply that the prescribed characteristic-two ribbon itself fails to lift.
+
+## Permanent evidence navigation
+
+The original `research/notes/` metadata identifies historical sources. The [Z4 lifting and deformation dossier](../supplements/Z4_LIFTING_AND_DEFORMATION.md) retains the obstruction calculation and independent review. The [intrinsic arithmetic dossier](../supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md) covers related conditional mechanisms. These links do not broaden the prescribed-model theorem.
