@@ -63,13 +63,13 @@ Checkpoint 2 was pushed as d856d78078b75ec78d38c8782b9da3a6f9b1c9ab, with the ex
 
 The [line degeneration](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-line-degenerationmd) and its [audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-line-degeneration-auditmd) certify a residual \(L\cup E\), where \(E\) is smooth geometrically integral of degree eleven and genus twelve. There are five simple \(L\)-\(E\) nodes, seventeen \(C\)-\(E\) attachments, and one \(C\)-\(L\) attachment, with no triple points. The moving ruling-line stratum is \(ab=1\) near the chosen parameter. Each node-smoothing parameter is a unit times \(ab-1\); the order-five assertion concerns their product, not every scheme structure called a discriminant.
 
-The [fixed-boundary calculation](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd), its [independent reconstruction](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd), and the [October 26 final audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md) give affine ranks \(19,5,24\). On the pencil Grassmannian the exact-boundary fiber has dimension fourteen and maps smoothly to the five marked node parameters, with nine further formal coordinates. The formal/étale local existence statement is reviewed; an explicit polynomial coefficient arc is not claimed.
+The [fixed-boundary calculation](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd), its [independent reconstruction](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd), and the [October 26 final audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd) give affine ranks \(19,5,24\). On the pencil Grassmannian the exact-boundary fiber has dimension fourteen and maps smoothly to the five marked node parameters, with nine further formal coordinates. The formal/étale local existence statement is reviewed; an explicit polynomial coefficient arc is not claimed.
 
 These two geometric investigations are complete at their stated exploratory scope. Checkpoint 3 was pushed as 15b1806cc174737806fa4b9e2a57f70eab0de374, with the remote ref verified.
 
 ## Final checkpoint: actual endpoint-four sextics and a fixed-carrier residual certificate
 
-The [actual-sextic note](2026-10-25-endpoint4-actual-sextics.md) completes the prescribed second-symbol lifting problem on the retained endpoint-four chart, preserving all actual global coefficient constraints and the one-dimensional kernel. It justifies the \(a_0=1\) gauge using the actual \(C\)-preserving torus and its recorded square-root cover. This family construction alone is not a mate-existence or chart-emptiness statement.
+The [actual-sextic note](ENDPOINT_FOUR_ACTUAL_SEXTICS.md#actual-sextics-on-the-retained-endpoint-four-chart) completes the prescribed second-symbol lifting problem on the retained endpoint-four chart, preserving all actual global coefficient constraints and the one-dimensional kernel. It justifies the \(a_0=1\) gauge using the actual \(C\)-preserving torus and its recorded square-root cover. This family construction alone is not a mate-existence or chart-emptiness statement.
 
 For the selected carrier
 \[
@@ -357,7 +357,7 @@ The endpoint-four followup now gives one concrete instance of the adaptive certi
 q=x_0x_3-x_1x_2,\qquad D=x_2^3-x_1x_3^2,\qquad
 F_*=-q^2x_3^2-qDx_2+D^2/4+q^3.
 \]
-For this displayed degree-six carrier and every homogeneous degree-sixteen \(G\) containing \(C\), provided the intersection is proper, the new [actual-sextic investigation](2026-10-25-endpoint4-actual-sextics.md) and [nonsplit-node scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md) give
+For this displayed degree-six carrier and every homogeneous degree-sixteen \(G\) containing \(C\), provided the intersection is proper, the new [actual-sextic investigation](ENDPOINT_FOUR_ACTUAL_SEXTICS.md#actual-sextics-on-the-retained-endpoint-four-chart) and [nonsplit-node scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md) give
 \[
 m_C(V(F_*,G))\le22,\qquad \deg R\ge8.
 \]
