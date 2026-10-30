@@ -139,3 +139,9 @@ This is a provisional methodological distinction, not an assertion that a canoni
 The entirely-thick investigations have produced both exact positive tools and instructive dead ends. The degree-3p quotient and power-saturation theorem determine global equation spaces in a stable degree range. The marked-trisecant and ruling interpolation tests show that a reduced-support condition does not automatically constrain all transverse coefficients. The weighted-initial framework tracks degeneration but does not, without a comparison theorem, force residual support.
 
 A next experiment should therefore state the invariant class it tests, the specific global source image it uses, and the exact step where the proposed local-to-global implication fails. Do not restart an unbounded search through isolated equations after each failure; ask whether the failure persists for the entire family and what additional hypothesis would make the implication valid.
+
+## 17. Arithmetic support and normal specialization
+
+R-0021 supplies a flat integral pair whose characteristic-zero intersection has four reduced quartic components, while the characteristic-two intersection has sole reduced support C and transverse length four. R-0020 describes the associated change in conormal splitting. These facts demonstrate that flatness preserves neither the number of reduced components nor the form of the normal initial ideal.
+
+R-0012 excludes a lift of precisely this special embedded scheme over Z_(2) or Z_2 only when the generic reduced support must be C. The displayed integral family does not satisfy that extra generic-support requirement. Consequently a valuation or blowup argument using specialization must keep the embedded model, base, full initial ideal, and support condition separate.
