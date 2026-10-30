@@ -18,8 +18,8 @@ entire family or any other quintic normalization lane. No CAS execution is
 claimed here; all identities used below follow from the saved exact model.
 
 The field is algebraically closed of characteristic zero. Use the
-[intrinsic A4 pair](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
-the [exact low-pole spaces](2026-10-11-session-a4-low-pole-spaces.md), and the
+[intrinsic A4 pair](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification),
+the [exact low-pole spaces](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-a4-low-pole-spaces), and the
 [actual nonendpoint sections and residual divisor](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd).
 The two double roots are 0,delta, where delta is arbitrary and nonzero.
 It is not normalized to one. The four lift parameters are a,b,g,d.
@@ -728,11 +728,11 @@ Additional read input versions:
 
 * [nonendpoint pole filtration and line jet](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd),
   SHA-256 `ad4459de5a95b12e26a162419082d7b32745323a6781716efdf6cca72767c2a2`.
-* [exact low-pole spaces](2026-10-11-session-a4-low-pole-spaces.md),
+* [exact low-pole spaces](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-a4-low-pole-spaces),
   SHA-256 `929f8165fd0f484175c819011cdf2eefaf6766e3c88735d556903241a2177f5a`.
-* [explicit A4 model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md),
+* [explicit A4 model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit),
   SHA-256 `f19ae25848ba77a5c59f3a9ce53819b24258c03b5d90f234b31ec7581306f8bd`.
-* [intrinsic pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md),
+* [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification),
   SHA-256 `537e341fb79632997648209efb7728c64229d7bd648cc2721285e8ab04cf0e0f`.
 
 The source `verify_session_nonendpoint_target_fibers_2026_10_12.m2` was also
@@ -771,8 +771,8 @@ Work over an algebraically closed field `k` of characteristic zero. The
 accepted intrinsic genus-one pair consists of the normal degree-five
 anticanonical del Pezzo surface `S`, its smooth lifted quartic `c`, and its
 unique line `ell`. Its only singular point is A4, on ell. The accepted
-[pair classification](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md)
-and [coordinate audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
+[pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
+and [coordinate audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
 give the actual divisor identities
 
     div(U0)=5ell, div(h)=c+ell, H~5ell, c~4ell,
@@ -864,7 +864,7 @@ sheaf. There is no additional codimension-two condition at A4. In particular
     H0(S,O_S(6ell))=span{1,r,t,r^2,rt,v,r^3}.
 
 This also independently confirms the written
-[low-pole-spaces proof](2026-10-11-session-a4-low-pole-spaces.md). Neither
+[low-pole-spaces proof](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-a4-low-pole-spaces). Neither
 6ell nor its sheaf is being asserted to be Cartier.
 
 ## 3. The residual divisor is actual and has exactly the stated partitions
@@ -1066,7 +1066,7 @@ the conormal cubic. The actual source, projection-center avoidance and
 finite-target equations are those of the
 [target-fiber reduction](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions).
 The corrected cubics and their two-chart interpretation come from the
-[conormal reduction](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md).
+[conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction).
 All common-root interpretations below require the stated actual center
 avoidance. Literal polynomial identities do not require that open condition.
 
@@ -1266,7 +1266,7 @@ the target-fiber note remain authoritative for that locus.
 
 ## 5. Literal identity with the five-quadric determinant
 
-The [accepted model audit](2026-10-11-session-dp5-a4-explicit-model-independent-audit.md)
+The [accepted model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
 gives the actual five quadrics
 
     Z4^2-Z3 Z5, Z2 Z4-Z1 Z5, Z2 Z3-Z1 Z4,
