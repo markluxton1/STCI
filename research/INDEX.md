@@ -31,7 +31,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 - [Normalization, conductor, and projection dossier](synthesis/normalization_conductor_projection.md) — Phase 2 mathematical consolidation of fixed-carrier descent, Cartier singleton models, projection phases, counterexamples, and bounded-index restrictions; source coverage remains bounded.
 - [Phase 2 normalization/conductor addendum](synthesis/normalization_conductor_phase2_addendum.md) — ruled cubic and cone normalizations, embedded inverse-image corrections, and conditional singular-root boundaries; source status retained.
 - [Phase 2 frontier reconciliation](synthesis/normalization_conductor_phase2_frontier_reconciliation.md) — separates mathematical open questions from temporary source-review and validation tasks; final synthesis should omit coverage uncertainty.
-- [Phase 2 closeout checks](synthesis/phase2_closeout_checks.md) — source comparisons, bounded-index dependency review, and remaining integration checks.
+- [Historical Phase 2 closeout checks](synthesis/phase2_closeout_checks.md) — dated source-level dependency review; unresolved proof-certification cautions are not current integration assignments.
 - [Mathematical synthesis](synthesis/README.md) — explanatory chapters, not independent theorem authority
 - [Authority reconciliation](AUTHORITY_RECONCILIATION_2026-10-17.md) — checked interfaces and outstanding metadata limitations
 - [Historical file census](REPOSITORY_INVENTORY.md) and [evidence manifest](MATHEMATICAL_CONSOLIDATION_EVIDENCE_MANIFEST.md) — dated inventory and retention context
