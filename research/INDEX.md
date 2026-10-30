@@ -143,3 +143,12 @@ The following supplements preserve complete mathematical proofs and calculations
 - [Quintic endpoint transverse jets and power descent](supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md)
 
 These four permanent supplements integrate seventeen former dated source notes in full, retaining all hypotheses and unresolved boundaries. Executable computation files remain in their original directories.
+
+## Nonendpoint quintic mathematical supplements
+
+- [Conormal, socle, conductor modules, determinant and phase restrictions](supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md)
+- [Residual factorization, genus, pole filtration and diagonal norm](supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md)
+- [Cubic-pair contact and type 1/2/3 family exclusions](supplements/NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md)
+- [Target-fiber reductions and full inverse-support obstructions](supplements/NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md)
+
+These four subject supplements preserve the full mathematical content of 22 retired historical notes, including hypotheses, proof calculations, independent certificates and surviving cases. Executable computational files remain separately maintained.
