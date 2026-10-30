@@ -474,7 +474,7 @@ Completeness of this package is built in because a nonzero fiber includes the or
 
 Every \(\mathcal O(n)\) here means \(\mathcal O_{\mathbf P^1}(n)\); ambient \(\mathcal O_P(d)|_C=\mathcal O(4d)\). The curve is \([s:t]\mapsto[s^4:s^3t:st^3:t^4]\) and the equations are \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\).
 
-The currently promoted [R0020](../results/quartic_conormal_characteristic_jump.md) and [R0021](../results/quartic_mu4_degeneration.md) cover the splitting and explicit degeneration. Their [geometry/symbol audit](2026-10-23-quartic-geometry-symbol-independent-audit.md) was consulted. The chart calculations below independently reconstruct the requested formulas and lifting compatibility; unrelated accepted exclusions are not rerun.
+The currently promoted [R0020](../results/quartic_conormal_characteristic_jump.md) and [R0021](../results/quartic_mu4_degeneration.md) cover the splitting and explicit degeneration. Their [geometry/symbol audit](OCT21_26_Z4_QUARTIC_SPECIAL_GEOMETRY_AND_FILTRATION.md#source-2026-10-23-quartic-geometry-symbol-independent-auditmd) was consulted. The chart calculations below independently reconstruct the requested formulas and lifting compatibility; unrelated accepted exclusions are not rerun.
 
 ### 7.1 Exact equations and overlap
 
@@ -694,11 +694,11 @@ Both were reconstructed at the chart level requested by this audit. No broader S
 
 The general identities, comparison direction, counterexamples, completeness distinctions, and recommendation are the assessment here. Independent workers separately reconstructed the lifting algebra, quartic charts, completeness examples, and derived diagrams. The accompanying review record states what was checked and corrected. Review within this investigation is not canonical acceptance.
 
-See the [independent review record](2026-10-23-ideal-filtrations-independent-review.md) and [validation commands and outputs](../validation/ideal-filtrations-2026-10-23/README.md).
+See the [independent review record](#2026-10-23-ideal-filtrations-independent-reviewmd) and [validation commands and outputs](../validation/ideal-filtrations-2026-10-23/README.md).
 
 Exact finite arithmetic is supplied by the [higher-generator counterexample script](../computations/verify_ideal_filtration_counterexamples_2026_10_23.py), [completeness counterexample script](../computations/verify_ideal_filtration_completeness_2026_10_23.py), and [quartic conormal/lifting identity script](../computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py). They check stated polynomial identities, finite algebra models, and transition formulas. They prove no global projective existence or nonexistence statement and do not replace the general arguments.
 
-Continuation: the [October 24 singular-locus investigation](2026-10-24-delta-singular-locus-continuation.md) identifies the defect with filtered normal-Koszul cancellations, derives generic counts and punctual length formulas, and supplies parameter families. It remains a separate reviewed research proposal; this note's mathematical statements and status are unchanged.
+Continuation: the [October 24 singular-locus investigation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation) identifies the defect with filtered normal-Koszul cancellations, derives generic counts and punctual length formulas, and supplies parameter families. It remains a separate reviewed research proposal; this note's mathematical statements and status are unchanged.
 
 
 
@@ -710,7 +710,7 @@ Continuation: the [October 24 singular-locus investigation](2026-10-24-delta-sin
 
 Date: 2026-10-23.
 
-Target: [independent investigation](2026-10-23-ideal-filtrations-independent-investigation.md).
+Target: [independent investigation](#2026-10-23-ideal-filtrations-independent-investigationmd).
 
 Status: **independent mathematical review completed within the scopes below; proposal only, no canonical promotion**. The reviewers are independent agents in this investigation, not human referees or external acceptance authorities. A PASS means that the stated derivation was independently checked within its assigned scope. It is not evidence that a computation by itself proves the mathematics.
 
@@ -1086,7 +1086,7 @@ e=1 determinants from inherited accepted h,T expressions. Expected final
 output includes PASS for e=0 and e=1 determinants; it explicitly retains
 the inherited status of e=1 completeness.
 
-The [independent audit](2026-10-23-quartic-44-filtered-proof-independent-audit.md) checks the degree3 defect pushout and correction
+The [independent audit](#2026-10-23-quartic-44-filtered-proof-independent-auditmd) checks the degree3 defect pushout and correction
 uniqueness; the signs in m=gamma/delta*ell^2; the ambient torus action;
 the exhaustiveness of quartic source matrices; and the passage from a
 nonzero cubic determinant to generic intersection length three. It also checks that the inherited BF and e=1 classification hypotheses match
