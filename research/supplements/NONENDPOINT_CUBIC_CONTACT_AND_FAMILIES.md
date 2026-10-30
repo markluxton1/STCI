@@ -17,7 +17,7 @@ and all failed execution versions are preserved and bound below. Work over an
 algebraically closed field of characteristic zero, retaining `delta!=0`.
 
 Use the [actual nonendpoint sections](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd)
-and the independently audited [residual divisor and curve maps](2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md).
+and the independently audited [residual divisor and curve maps](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-nonendpoint-residual-factor-and-genus-independent-audit).
 An admissible projection has center avoiding the entire normalization
 surface. A hypothetical mate requires full inverse support
 `(nu^(-1)(C0))_red=c`; call this condition SUP.
@@ -77,7 +77,7 @@ precisely the entire-line rank-one conditions
     R3=2G+J+6delta^2=0.
 
 The independently audited entire-line all-power obstruction excludes
-every mate there; see the [separate pole/line proof audit](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet-independent-audit.md).
+every mate there; see the [separate pole/line proof audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit).
 Thus only J!=0 needs further analysis in this note.
 
 ### 2a. The complete affine heptic and its exact extra-factor removal
@@ -699,7 +699,7 @@ intrinsic four.
 ## 3. All possible finite conductor contacts are explicitly retained
 
 Use the actual balanced conormal cubics P,J from the
-[conormal reduction](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md).
+[conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction).
 Their homogeneous leading coefficients on this family are opposite
 nonzero multiples of eta delta^2. There is no common zero at infinity.
 At a finite smooth point of c where they are not both zero, the
@@ -857,7 +857,7 @@ No owner, canonical, earlier audit or seal-bound file was edited.
 I reconstructed section 4a of the
 [residual reduction](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md),
 SHA `d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44`,
-and its [independent audit](2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md),
+and its [independent audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-nonendpoint-residual-factor-and-genus-independent-audit),
 SHA `db72f936486253cf91e82645de9c3b6b23562dac9da49eee6ee31f0cb94b5322`.
 The missing z^2 coefficient in the conic plane section leaves exactly eight
 necessary one-parameter families; the present audit covers the two branches
@@ -935,14 +935,14 @@ would have to be six.
 
 ## 4. Every possible place of excess is retained
 
-I used the corrected [conormal reduction](2026-10-12-session-nonendpoint-conormal-cubic-reduction.md),
+I used the corrected [conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction),
 SHA `3576392d41d4f64db506291f7cd0609a6930a80296eeedd7c9ccdfa92352c3f5`,
 and reconstructed its P,J from the unexpanded quotient-differentiation
 expressions using the actual four T derivatives. At each finite point of
 c, including r=0 in the opposite frame, a nonzero P or J gives cotangent
 surjectivity. Under (SUP), the fiber has one point and equal residue field.
 The finite local algebra lemma in the
-[all-mate conormal/conductor audit](2026-10-12-session-nonendpoint-all-mate-conormal-conductor-independent-audit.md),
+[all-mate conormal/conductor audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit),
 SHA `bddb6c89a77e14b25607c22a8e9aaab59d4159ac9a1718b8be651856387baf2a`,
 then gives equality of local surface rings. Such points contribute exactly
 zero excess; this is stronger than a first-normal estimate.
@@ -1363,7 +1363,7 @@ and a hypothetical mate in any degree, full inverse support (SUP) holds:
 the reduced inverse image of C0 is exactly c, without isolated extra points.
 
 The eight necessary conic-plus-quartic families were reconstructed in the
-[residual reduction audit](2026-10-12-session-nonendpoint-residual-factor-and-genus-independent-audit.md),
+[residual reduction audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-nonendpoint-residual-factor-and-genus-independent-audit),
 SHA `db72f936486253cf91e82645de9c3b6b23562dac9da49eee6ee31f0cb94b5322`,
 binding the owner reduction SHA
 `d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44`.
@@ -1436,7 +1436,7 @@ two common finite points for a fixed parameter.
 At a finite c point with P or J nonzero, the actual target cotangent map is
 surjective, including r=0 in the reversed frame. Under (SUP) the fiber is a
 single point with equal residue field. The finite local Nakayama argument
-in the [conormal/conductor audit](2026-10-12-session-nonendpoint-all-mate-conormal-conductor-independent-audit.md)
+in the [conormal/conductor audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit)
 makes the surface projection a local isomorphism. The actual reduced curve
 ideals then agree, so such a point contributes zero excess. First symbols
 are used here to prove a local ring equality, not to bound later contact.
