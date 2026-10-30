@@ -65,8 +65,8 @@ complete split used by the proof.
 
 | Carrier or normalization lane | Complete exclusion used |
 |---|---|
-| Integral normal quartic | [Normal global audit](2026-10-07-session-normal-global-adversarial.md), including [nonreduced exceptional cycles](2026-10-07-session-normal-nonreduced-independent-audit.md) |
-| Nonnormal, `pi=0` | [Minimal-degree classification and cone audit](2026-10-09-session-normalization-genus-zero-independent-audit.md), with the accepted entire F0/F2 scroll and Veronese projection proofs |
+| Integral normal quartic | [Normal global audit](OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-normal-global-adversarialmd), including [nonreduced exceptional cycles](OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-normal-nonreduced-independent-auditmd) |
+| Nonnormal, `pi=0` | [Minimal-degree classification and cone audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-normalization-genus-zero-independent-auditmd), with the accepted entire F0/F2 scroll and Veronese projection proofs |
 | Nonnormal, `pi=1` | [All genus-one interfaces](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd) and [all repeated contact partitions](2026-10-10-session-ribbon-repeated-partitions-independent-audit.md) |
 | Nonnormal, `pi=2`, `lambda=0` | [Full second-pencil/Cartier-double/ribbon audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-two-bisection-full-independent-auditmd) |
 | Nonnormal, `pi=2`, `lambda=1`, three distinct contacts | [Full nonendpoint trisecant audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-auditmd) |
@@ -91,7 +91,7 @@ ambient partial derivatives vanished generically on C0, they would vanish
 on it. A general integral plane quartic would then have its four distinct
 transverse C0-intersection points singular. Its normalization defect would
 be at least four, greater than arithmetic genus three. The
-[genus-zero audit's addendum](2026-10-09-session-normalization-genus-zero-independent-audit.md)
+[genus-zero audit's addendum](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-normalization-genus-zero-independent-auditmd)
 proves this without a normality assumption. Consequently there is no extra
 integral quartic lane singular at the generic point of C0.
 
@@ -148,7 +148,7 @@ rational quartic projection is not substituted for the literal C0.
 
 ## 5. Both genus-two mate strata, and all trisecants, are covered
 
-The [adjoint proof](2026-10-09-session-genus-two-adjoint-independent-audit.md)
+The [adjoint proof](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-independent-auditmd)
 gives the complete connected basepoint-free conic pencil `f=K_M+L`, with
 `K_M^2=0`. The [null-curve and correction proof](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
 classifies every exceptional prime as vertical (-2) or horizontal (-3),
@@ -795,7 +795,7 @@ split hypotheses.
 
 The prior normal-quartic theorem uses excluded compressed mate
 degrees through five. Its
-[nonreduced independent audit](2026-10-07-session-normal-nonreduced-independent-audit.md),
+[nonreduced independent audit](OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-normal-nonreduced-independent-auditmd),
 section 1, lists that dependency explicitly. The degree-five exclusion
 is the already independently established P-040 no-(4,5) theorem in
 the research record, proved from P-025's multiplicity-five structure
