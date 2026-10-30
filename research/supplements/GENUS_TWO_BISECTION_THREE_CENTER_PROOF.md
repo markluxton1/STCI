@@ -1,5 +1,12 @@
 # Genus-two bisection: three-center fiber obstruction
 
+## Dependency guide: odd fiber obstruction and surviving cases
+
+This conditional argument excludes a **three-blowup fiber** by analyzing irreducible, reduced, and nonreduced fiber graphs, including the stated near-counterexample. It complements rather than duplicates [the even-fiber exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md). Both require the second-pencil reduction and the smooth embedded lift; this proof also records that the parent's adversarial audit was pending. The surviving four-single-blowup partition and other global mate questions remain open here.
+
+---
+
+
 Permanent complete proof, retaining the original conditional status and numerical nonreduced-fiber near-counterexample.
 
 # Genus-two bisections: the three-blowup fiber is impossible
