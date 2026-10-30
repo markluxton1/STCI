@@ -1,5 +1,16 @@
 # rees residual and exceptional cycles
 
+## Integration guide: global cycles do not determine local saturation
+
+The [full-ideal Rees investigation](#2026-10-19-rees-residual-investigation) and [its independent audit](#2026-10-19-rees-residual-independent-audit) concern normalized blowups, Rees multiplicities, and Segre/intersection budgets. Their absence of special-point exceptional divisors for the *full lci curve ideal* is not an absence of special-point defects in a different, filtered intersection ideal. The explicit unbounded-defect family is a necessary scope warning.
+
+The [Delta embedding analysis](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-embedding-geometry-report) keeps track of additional marked-embedding and conormal-torsion data; [normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) only propagates generic complete-intersection behavior under saturation and flatness hypotheses. [Boundary repair](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#boundary-repair-global-lifting) then asks which special-point corrections are realizable by global equations.
+
+**Do not infer:** fixed Segre numbers or the generic transverse algebra alone force a bound on the boundary correction divisor, or imply that a pair has no residual components. The counterexamples and exact hypotheses in the original sections remain part of the argument.
+
+---
+
+
 Complete mathematical dossier preserving computations, exact hypotheses, counterexamples, independent arguments and unresolved scope.
 
 ---
