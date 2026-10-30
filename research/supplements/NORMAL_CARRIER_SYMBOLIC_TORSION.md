@@ -961,8 +961,8 @@ carriers, nonnormal carriers, or all STCI presentations of C0.
 
 Date: 2026-10-14. Root continuation from the `socle_audit` worker's
 index-twelve program. This precursor's new proofs are now independently
-accepted in the [full filtered compatibility audit](2026-10-14-generalization-index12-filtered-compatibility.md).
-The [current theorem and scope record](2026-10-14-generalization-normal-index-socle-theorem.md)
+accepted in the [full filtered compatibility audit](#2026-10-14-generalization-index12-filtered-compatibility).
+The [current theorem and scope record](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem)
 adds the local power-socle formula, a linear index/degree bound and the
 all-degree exclusion of normal C0 carriers with actual on-curve indices
 at most four. The sections below retain the earlier intermediate route;
