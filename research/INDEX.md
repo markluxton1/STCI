@@ -238,3 +238,10 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Multiplicity, mixed (4,6) and MF6](supplements/MULTIPLICITY_MIXED46_AND_MF6.md)
 - [Residual cycles and split configurations](supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md)
 - [Foundational frontier and incidence](supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md)
+
+## October 6–7 local cohomology, carriers, and valuations
+
+- [Local cohomology contact, parity and MF6 type](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md)
+- [Normal carriers, primitive structures, jets and characteristic](supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md)
+- [October 6 session frontiers, audits and finite reductions](supplements/OCT6_SESSION_FRONTIERS_AND_VALIDATION.md)
+- [October 7 saturation, Rees valuations and carrier classification](supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md)
