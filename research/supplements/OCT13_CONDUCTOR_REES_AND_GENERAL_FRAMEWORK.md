@@ -1112,7 +1112,7 @@ checked unit inversions.
 
 The actual tensor and coordinate sources are unchanged and SHA-256-bound
 inside each certificate. They are the same tensor sources accepted in the
-[previous independent quadratic audit](2026-10-08-session-localcoh-family2-quadratic-independent-audit.md).
+[previous independent quadratic audit](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-family2-quadratic-independent-auditmd).
 This certificate inherits that audited coordinate interpretation; it does
 not reconstruct the ambient quotient basis from fresh geometric generators.
 
