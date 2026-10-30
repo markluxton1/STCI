@@ -130,3 +130,7 @@ The following supplements preserve complete mathematical proofs and calculations
 - [Genus-one ribbon conormal net](supplements/GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md)
 - [Genus-one fixed-center 2,1,1 projection](supplements/GENUS_ONE_211_PROJECTION_PROOF.md)
 - [Genus-one uniform projection analysis](supplements/GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md)
+
+- [Genus-one ribbon independent ideal certificates](supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md)
+- [Sectional genus-zero normalization proof](supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
+- [Genus-two blowup lift and normality: conditional argument](supplements/GENUS_TWO_BLOWUP_LIFT_NORMALITY_CONDITIONAL_ARGUMENT.md)
