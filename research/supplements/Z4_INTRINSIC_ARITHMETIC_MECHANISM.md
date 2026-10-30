@@ -1,5 +1,16 @@
 # z4 intrinsic arithmetic mechanism
 
+## Proof-dependency map: intrinsic mechanism and its failure shields
+
+Start with the [general synthesis](#2026-10-21-z4-general-mechanism-synthesis), then compare the [quadratic-gluing calculation](#2026-10-21-z4-quadratic-gluing-comparison) with its [independent audit](#2026-10-21-z4-general-mechanism-independent-audit). The [divided-power mechanism](#2026-10-21-z4-intrinsic-divided-power-mechanism) and [persistent arithmetic obstruction](#2026-10-21-z4-persistent-arithmetic-obstruction) analyze what remains after coordinate changes and reductions. The [characteristic-zero consequences](#2026-10-21-z4-characteristic-zero-stci-consequences) retain their stated conditional status.
+
+The underlying [explicit Z4 quartic obstruction](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-quartic-obstruction) and [independent lifting audit](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-lift-independent-audit) are narrower: they concern a prescribed model. The [coordinate-invariance counterexample](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-coordinate-invariance-counterexamplemd) is an essential failure shield against interpreting an arbitrary Laurent representative as an intrinsic class. The [ribbon/triple audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd) checks a distinct gluing issue.
+
+**Status separation:** an explicit obstruction class for one family, an invariant interpretation under additional choices, and a universal characteristic-zero STCI exclusion are three different claims. No such universal conclusion is promoted here.
+
+---
+
+
 Permanent mathematical dossier preserving complete proofs, computations, exact characteristic hypotheses, obstruction classes, counterexamples and conditional implications. No new theorem promotion is implied.
 
 ---
