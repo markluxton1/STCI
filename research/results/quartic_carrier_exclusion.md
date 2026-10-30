@@ -73,3 +73,7 @@ The unrestricted characteristic-zero STCI problem for \(C_0\) remains **open**. 
 ## Supersession map
 
 This result supersedes **the open-status labels**, not the underlying partial theorems, in the earlier `research/STATE.md` quartic \(e=2\), MF6 quartic-mate, and normal-quartic sections, and the corresponding quartic-mate priorities in `research/FRONTIER.md`. Their prior computations and structural lemmas remain available. The separate local-cohomology ancestor problem remains open.
+
+## Permanent evidence navigation
+
+The `research/notes/` entries in the metadata above are original provenance identifiers from before historical-note retirement, not current-tree paths. For the permanent mathematical exposition and its component proof routes, consult [Chapter 5](../synthesis/05-exclusions.md). That chapter also links the original accepted assembly and independent dependency audit at their historical GitHub revision. Retain the original metadata identifiers to preserve the acceptance trail.
