@@ -32,3 +32,7 @@ Let C have degree e and genus g, and let Y=V(F_a,G_b) be an actual complete inte
 The actual socle is omega_C tensor O_C(4-a-b). In particular lambda*d>=L. Equality gives globally Gorenstein graded self-duality; identifying a constant algebra requires the additional balanced rational hypothesis.
 
 The [original proof](../notes/2026-10-13-evening-entirely-thick-rees-progress.md), [independent audit](../notes/2026-10-13-generalization-socle-independent-audit.md), and [acceptance decision](../HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md) delimit the claim. No general STCI exclusion follows.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
