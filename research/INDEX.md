@@ -248,3 +248,10 @@ These supplements preserve seven complete historical mathematical sources, inclu
 
 - [October 7 conormal splitting and Hankel criteria](supplements/OCT7_LOCALCOH_CONORMAL_PART1.md) — preserved necessary conditions, not a general exclusion.
 - [October 7 local-cohomology endpoint and simultaneous-target calculations](supplements/OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md) — six preserved sources, including scoped exact exceptional-fibre certificates and a retracted bridge distinguished from its repair.
+
+
+### October 7–8 historical mathematics (full-text supplements)
+- [`OCT7_MF6_AND_NONNORMAL_STRUCTURES.md`](supplements/OCT7_MF6_AND_NONNORMAL_STRUCTURES.md)
+- [`OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md`](supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md)
+- [`OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md`](supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md)
+- [`OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md`](supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md)
