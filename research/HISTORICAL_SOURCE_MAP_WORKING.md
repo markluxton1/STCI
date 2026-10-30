@@ -250,3 +250,6 @@ Exact `## Source:` headings extracted from migrated October supplements. Use exa
 | `2026-10-14-generalization-blowup-root-curve-primitive-bridge.md` | `QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-primitive-bridge` |
 | `2026-10-14-generalization-blowup-root-curve-bridge-independent-audit.md` | `QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-bridge-independent-audit` |
 | `2026-10-14-generalization-cartier-lift-independent-audit.md` | `QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit` |
+| `2026-10-13-session-nonendpoint-regular-l1-double-root.md` | `NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-regular-l1-double-root` |
+| `2026-10-13-session-nonendpoint-single-root-quotient-fibers.md` | `NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-quotient-fibers` |
+| `2026-10-13-session-nonendpoint-single-root-taylor-incidence.md` | `NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence` |
