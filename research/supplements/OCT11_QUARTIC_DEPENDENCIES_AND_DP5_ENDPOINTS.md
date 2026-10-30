@@ -150,7 +150,7 @@ rational quartic projection is not substituted for the literal C0.
 
 The [adjoint proof](2026-10-09-session-genus-two-adjoint-independent-audit.md)
 gives the complete connected basepoint-free conic pencil `f=K_M+L`, with
-`K_M^2=0`. The [null-curve and correction proof](2026-10-09-session-genus-two-nullcurve-mate-independent-audit.md)
+`K_M^2=0`. The [null-curve and correction proof](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
 classifies every exceptional prime as vertical (-2) or horizontal (-3),
 with at most two disjoint horizontal sections. For the effective rational
 actual correction Z it proves
@@ -394,7 +394,7 @@ assuming a mate.
 
 | Carrier lane | Accepted proof and coverage |
 | --- | --- |
-| Normal integral quartic | The prior all-degree normal-quartic theorem, routed by the [October 9 acceptance](2026-10-09-session-results-acceptance.md) and canonical state. |
+| Normal integral quartic | The prior all-degree normal-quartic theorem, routed by the [October 9 acceptance](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-results-acceptancemd) and canonical state. |
 | Nonnormal, sectional genus zero | The [complete genus-zero audit](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md), including smooth scrolls, the Veronese and the rational cone, with the prior separate applicability and conductor audits. |
 | Nonnormal, sectional genus one | The [October 10 acceptance](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-results-acceptancemd), complete fixed-center ribbon net, all five root partitions, actual conductor and arbitrary-power descent. |
 | Nonnormal, sectional genus two, lambda zero | The [full bisection audit](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-two-bisection-full-independent-auditmd) and global Cartier-double/ribbon obstruction accepted in the [resumed October 10 record](OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-continuation-results-acceptancemd). |
