@@ -25,7 +25,7 @@ The following separately accepted inputs were read in full for this audit:
 
 * [Normal ambient conic model](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-blowup-lift-normality-independent-auditmd),
   SHA-256 `8b2f8b2c73f95b5b71854425359fc9c8dfa188156ccc8375bc8acd513619d41b`.
-* [Actual entire conductor](2026-10-10-session-genus-two-entire-conductor-independent-audit.md),
+* [Actual entire conductor](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md),
   SHA-256 `77bc3c17b7832907fd2d859de6e4d82735f6b279efb923ecd9a865fbc0767550`.
 * [Lambda-one marked-prime classification](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-lambda-one-marked-prime-auditmd),
   SHA-256 `c7dd16ed8d9c18c921faaaaba130daec59fd2aec845f4ce59a9232567bb22f34`.
@@ -934,7 +934,7 @@ installation or historical failure deletion was performed.
 ## 3. Genus-two actual conductor-line theorem
 
 **PROVED HERE / independently accepted without a mate hypothesis.**
-Root accepts the [entire-conductor audit](2026-10-10-session-genus-two-entire-conductor-independent-audit.md).
+Root accepts the [entire-conductor audit](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md).
 In the accepted genus-two situation the resolution is rational,
 `L^2=4`, and `K_M.L=-2`. Every singularity of the normal surface `S`
 is rational, without assuming `K_S` Cartier or Q-Cartier. Negative
@@ -986,7 +986,7 @@ chains, not a count of unused centers alone.
 The `B`-present free-child and satellite cases remain open in these
 proofs. Internal chain attachments invalidate the proposed star shortcut.
 The bisection stratum remains open as well. The separate frozen
-[source line-budget note](2026-10-10-session-genus-two-lambda1-horizontal-line-budget.md)
+[source line-budget note](GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md)
 retains its old pending two-line label; the independent audit supplies
 the bounded acceptance without rewriting that historical source.
 
@@ -996,7 +996,7 @@ the bounded acceptance without rewriting that historical source.
 the [blowup-lift independent audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-blowup-lift-normality-independent-auditmd)
 after reading its complete proof and checking the cited primary proper
 duality and blowup inputs. It accepts the
-[owner proposal](2026-10-10-session-genus-two-blowup-lift-normality-proposed-audit.md)
+[owner proposal](GENUS_TWO_BLOWUP_LIFT_NORMALITY_CONDITIONAL_ARGUMENT.md)
 at its recorded hash; the frozen proposal label is superseded by this
 separate audit and acceptance, not silently rewritten.
 
