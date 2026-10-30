@@ -1,5 +1,12 @@
 # Quintic endpoint: residual support and local excess obstructions
 
+## Integration guide: residual support, excess, and projective boundary
+
+The constituent arguments separate a **proposed full-support exclusion** (whose independent global audit is pending in the retained source), explicit residual-root classifications, and higher-jet or excess-intersection tests. The [endpoint jet/power-descent dossier](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md) supplies a different all-power obstruction on its own locus; [carrier factor and conormal geometry](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md) supplies structural restrictions. Local excess and projective-boundary support must both be checked before asserting an actual mate exclusion. Preserve the proposed/proved/audited labels of each section.
+
+---
+
+
 Complete mathematical arguments, exact projective-boundary treatment, root classifications, and higher-jet calculations. This is not an assertion of a broader exclusion beyond the hypotheses of the constituent proofs.
 
 ---
