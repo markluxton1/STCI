@@ -35,7 +35,7 @@ bundles.
 
 Relevant existing records are P-016 and P-042 in
 [RESEARCH_RECORD](../RESEARCH_RECORD.md),
-[the local multiplicity-six pairing audit](2026-10-05-mf6-pairing-audit.md),
+[the local multiplicity-six pairing audit](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit),
 and [the uniform saturated-filtration audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-uniform-audit).
 The primary source was freshly opened for this audit:
 [Manolache, *Duality for Gorenstein multiple structures on smooth algebraic
