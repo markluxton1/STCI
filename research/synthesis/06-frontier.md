@@ -2,7 +2,7 @@
 
 The unrestricted characteristic-zero question for the fixed rational quartic \(C_0\subset\mathbf P^3\) remains **open**. The completed quartic-carrier exclusion [STCI-R-0001](../results/quartic_carrier_exclusion.md) forces both defining degrees to be at least five; it does not settle higher-degree pairs.
 
-This chapter collects **candidate mathematical deliverables**, not a current priority ranking. The [canonical frontier](../FRONTIER.md) currently emphasizes general proper intersections, residual cycles, full initial ideals, and their global realization; the older jet, root, and carrier tasks below remain available alternatives. The ordering of sections is expository, not a research directive.
+This chapter collects **candidate mathematical deliverables**, not a current priority ranking. The [canonical frontier](../FRONTIER.md) currently organizes work around the global determinant, uniform residual-jet, and conductor-descent routes; the older jet, root, and carrier tasks below remain available alternatives. The ordering of sections is expository, not a research directive.
 
 ## Choosing the next theorem without restarting case enumeration
 
