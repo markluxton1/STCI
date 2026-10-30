@@ -1,4 +1,4 @@
-# Research frontier — current navigation (October 27, 2026)
+# Research frontier — current navigation (October 30, 2026)
 
 ## Three principal research programs (not proved implication chains)
 
