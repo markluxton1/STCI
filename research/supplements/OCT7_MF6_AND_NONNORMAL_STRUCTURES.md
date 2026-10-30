@@ -478,7 +478,7 @@ quartic/quasiprimitive inputs:
 The earlier inputs are the balanced conormal bundle `O(-7)^2`, the
 quartic generic-order-one theorem P-011, and the directly audited BF
 filtration/duality in
-[`2026-10-06-session-uniform-audit.md`](2026-10-06-session-uniform-audit.md),
+[`2026-10-06-session-uniform-audit.md`](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-uniform-audit),
 sections 2--4. P-011 and the balanced conormal theorem are not reproved
 here. The **quartic-specific** all-degree bound `d3<=5` is proved again
 in section 6; the bound 17 for arbitrary defining degrees is a different
@@ -1195,7 +1195,7 @@ inside its function field is that coordinate ring itself.
 
 If a mate G exists, its nonzero pullback is an effective Cartier divisor
 whose full support is (nu^{-1}(C))_red. The
-[full-support argument](2026-10-06-session-conductor-support.md) excludes
+[full-support argument](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-conductor-support) excludes
 isolated inverse-image points. Therefore this entire support is c.
 Every fiber above C has exactly one point, and nu|c is an isomorphism.
 
