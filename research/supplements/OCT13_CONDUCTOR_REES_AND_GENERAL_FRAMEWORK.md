@@ -724,7 +724,7 @@ audit the new repository carrier proofs or certify their novelty.
 The controlling records inspected were [the literature ledger](../LITERATURE_LEDGER.md),
 [the current audited state](../AUDITED_STATE_2026-10-07.md),
 [the October 10 primary refresh](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-primary-literature-frontier-refreshmd),
-[the October 6 positive-characteristic proof audit](2026-10-06-positive-characteristic-literature-audit.md),
+[the October 6 positive-characteristic proof audit](NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-positive-characteristic-literature-audit),
 and [the October 10 positive-characteristic primary refresh](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-positive-characteristic-primary-refreshmd).
 The current repository claims concern fixed
 `C0=[s^4:s^3t:s t^3:t^4]` in characteristic zero, including all integral quartic
