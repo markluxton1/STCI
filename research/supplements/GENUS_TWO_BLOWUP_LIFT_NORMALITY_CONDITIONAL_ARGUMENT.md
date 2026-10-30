@@ -8,7 +8,7 @@ Date: 2026-10-10. Author: `oct10_genus_two_conductor_audit`.
 Status: **COMPLETE PROPOSED PROOF / separate adversarial audit pending**.
 
 This note records a follow-on argument discovered while auditing the
-[entire conductor](2026-10-10-session-genus-two-entire-conductor-independent-audit.md).
+[entire conductor](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md).
 The conductor audit remains accepted in its original scope. The present
 blowup lift and normality claims have not been promoted to a canonical
 frontier entry. No genus-two mate exclusion is asserted.
