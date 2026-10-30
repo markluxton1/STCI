@@ -16,7 +16,7 @@ common quartic ancestors with `e=1,D2=0`. The defective-triple stratum
 `e=1,D2>0` remains open.
 
 The original single-multiplier argument is preserved separately as
-[`2026-10-07-session-localcoh-mf6-bridge.md`](2026-10-07-session-localcoh-mf6-bridge.md),
+[`2026-10-07-session-localcoh-mf6-bridge.md`](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#mf6-bridge),
 explicitly labeled **FAILED**. Its error was treating `F*alpha=u` as
 `F=0` in the quadruple rather than a nonzero socle target. This repair
 keeps both target equations and their independence throughout.
