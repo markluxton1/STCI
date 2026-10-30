@@ -400,7 +400,7 @@ branch choices. A stronger corollary starts from finite rational
 section/module data for these three fixed models and constructs the
 actual phase image by a terminating algebraic procedure; the written
 review contains its scope addendum. A fresh
-[October 16 raw-input scope audit](2026-10-16-generalization-raw-projection-decision-independent-audit.md)
+[October 16 raw-input scope audit](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-16-generalization-raw-projection-decision-independent-auditmd)
 now passes the final admissibility and generic-freeness formulation.
 The precise finite rational input is one of the three fixed source
 rings with H,c,Q, four polynomial parameter sections with their prescribed
