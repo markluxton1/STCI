@@ -3,6 +3,16 @@
 Full historical mathematical investigations retained by subject. Original scopes and epistemic limitations are preserved; no theorem promotion.
 
 
+## Subject reading order and mathematical dependencies
+
+1. **Special contact geometry:** `special-lines-planes-research-note` develops hyperosculating endpoints, the osculating involution, paired secants and the ruled cubic. Retain the distinction between osculating pairs and bitangent pairs.
+2. **Marked conormal and residual constructions:** `quartic-conormal-residual-geometry` treats normal directions and contact flags. A projective-bundle isomorphism need not preserve distinguished sections; the rejected polarity identification is not a theorem.
+3. **Projection from the rational normal quartic:** `p4-resolved-projection` studies the missing middle coordinate and its resolution. Read its independent audit before transferring claims to a projected singular model.
+4. **Reviews and limitations:** `discussion-reconciliation` preserves useful failed constructions and unresolved bridges; audit sections are evidence of scoped checking, not automatic canonical promotion. The accepted marked geometry is recorded in [R-0026](../results/quartic_flag_conormal_geometry.md) and [R-0028](../results/quartic_ruled_projection_geometry.md).
+
+**Boundary:** a local incidence or projection construction does not establish global realizability of an STCI pair.
+
+
 ---
 
 ## discussion-reconciliation
