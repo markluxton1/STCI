@@ -218,3 +218,8 @@ Thirty historical mathematical sources were preserved in full in four permanent 
 ## Full-content migration — October 8 local cohomology, MF6, and scroll geometry (2026-10-30)
 
 Thirty historical mathematical notes were preserved in full in four supplements: `OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md` (9), `OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md` (8), `OCT8_SCROLL_CONDUCTOR_AND_ACM.md` (7), `OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md` (6). All 30 source files were deleted only after the supplements were committed and their source headings verified. This is source preservation, not a new mathematical correctness audit or theorem promotion. **Cumulative retired: 417; live remaining historical notes: 132.** Inbound reference cleanup and editorial integration remain outstanding.
+
+
+## Full-content migration — October 9 del Pezzo and conductor geometry (2026-10-30)
+
+Thirty historical mathematical sources preserved in full in four supplements: `OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md` (9), `OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md` (8), `OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md` (7), `OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md` (6). All thirty originals retired after source sections were verified in committed supplements. Conditional hypotheses, counterexamples, calculations, and unresolved cases retain their original status; no new correctness audit or theorem promotion. **Cumulative historical sources retired: 447. Live notes remaining: 102.** Editorial deduplication and inbound-reference cleanup remain outstanding.
