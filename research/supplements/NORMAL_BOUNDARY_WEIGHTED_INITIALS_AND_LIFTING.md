@@ -605,6 +605,16 @@ calculating their initial objects and maps, not part of their definition.
 
 ---
 
+### Consolidated mathematical status of the boundary-repair calculation
+
+The preceding derivation and its independent reconstruction establish the same exact statement: for a **specified** class \(o\in H^1(C,V)\), allowing poles on an effective divisor \(D\) kills \(o\) precisely when \(o\) annihilates \(H^0(C,V^\vee\otimes\omega_C(-D))\). For \(V=\mathcal O_{\mathbf P^1}(-r)\), all degree-\(B\) repairs are captured simultaneously by the kernel of the catalecticant
+\[
+H^0(\mathcal O(B))\longrightarrow H^0(\mathcal O(r-2-B))^\vee,\quad h\longmapsto(g\longmapsto o(hg)).
+\]
+In particular, \(B\ge\lfloor r/2\rfloor\) forces a nonzero kernel for **arbitrary** allowed divisors; it does not force a geometrically admissible boundary. For a split bundle, a **single common** \(h\) must solve all component equations. The original proof of the criterion and the full independent reconstruction remain below, but their repeated statements are consolidated here rather than presented as separate advances.
+
+The exact finite-degree endpoint in the review likewise requires actual proper global forms: if \(C\) has degree \(d\), \(F,G\) have degrees \(a,b\), and \(M=ab/d\) is integral, then the length of the generic transverse algebra truncated at order \(M+1\) is \(M\) exactly when the entire reduced intersection is \(C\). This is a *recognition test*, not a construction. The missing step is still to compare the permitted socle/boundary modifications with the obstruction to lifting an **embedded** lower thickening into actual homogeneous source spaces. Neither the abstract \(H^1\)-test nor the reviewed fixed-lower comparison proves that bridge for arbitrary pairs.
+
 ## boundary-repair-global-lifting-audit
 
 # Independent audit: boundary repair and global lifting
