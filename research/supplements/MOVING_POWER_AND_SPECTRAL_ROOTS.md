@@ -913,7 +913,7 @@ tests at once.
 
 Accepted inputs used without replay:
 
-- [Moving-power second relation](2026-10-14-generalization-moving-power-second-relation.md).
+- [Moving-power second relation](MOVING_POWER_SECOND_RELATION.md#1-hypotheses-and-the-second-relation-quotient).
 - [Independent second-relation audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-second-relation-independent-audit).
 - [Moving-power obstruction tower](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-power-obstruction-tower).
 - [Independent tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
