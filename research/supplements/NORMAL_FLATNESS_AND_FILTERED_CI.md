@@ -1090,7 +1090,7 @@ exact sequence or its degree consequences. Their proof is an additional
 dependency of the geometric application. The restriction `a,b>=3r`
 uses the absence of a quadric factor in either actual STCI equation and
 its exact normal order `r`. Its inherited supporting evidence is the
-[entirely-thick audit](2026-10-06-session-thick-independent-audit.md),
+[entirely-thick audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit),
 under its stated STCI hypotheses. The legacy
 [entirely-thick topic](../results/entirely_thick.md) is navigation, not an
 additional ID-bearing promoted theorem. These lower bounds are not
