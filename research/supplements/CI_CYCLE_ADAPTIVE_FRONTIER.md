@@ -78,7 +78,7 @@ F_*=-q^2x_3^2-qDx_2+D^2/4+q^3,
 \]
 the fixed-carrier M2 certificate and the independent normal-division implementation both pass: the \(690\times969\) matrix has rank \(683\), and all \(286\) actual global multiples \(F_*H_{10}\) are annihilated. The known-multiple guard caught an M2 multiline-assignment error during development; that error was corrected before the final certificates passed. The failure mechanism and final source/output hashes are retained.
 
-The [independent nonsplit-node audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md) supplies the bridge from that jet kernel to **every proper degree-sixteen mate** on the selected carrier. The two conjugate generic branches have equal vanishing orders \(n\); finite intersection length is \(m_C=2n\), and \(n\ge12\) would force a global multiple of \(F_*\). Thus \(m_C\le22\), and the residual cycle has degree at least eight. This requires no prescribed full initial ideal or saturation hypothesis. It remains a new unpromoted fixed-carrier result, not an exclusion of the entire endpoint-four chart or the unrestricted characteristic-zero problem.
+The [independent nonsplit-node audit](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-26-endpoint4-nonsplit-node-scope-audit) supplies the bridge from that jet kernel to **every proper degree-sixteen mate** on the selected carrier. The two conjugate generic branches have equal vanishing orders \(n\); finite intersection length is \(m_C=2n\), and \(n\ge12\) would force a global multiple of \(F_*\). Thus \(m_C\le22\), and the residual cycle has degree at least eight. This requires no prescribed full initial ideal or saturation hypothesis. It remains a new unpromoted fixed-carrier result, not an exclusion of the entire endpoint-four chart or the unrestricted characteristic-zero problem.
 
 The exact scripts, data, output, geometric bridges, and limitations are saved. All investigations underway at the user's October 26 instruction have now reached their stated endpoints. No additional research item is being started; finish validation and push this final checkpoint, then stop.
 
@@ -357,7 +357,7 @@ The endpoint-four followup now gives one concrete instance of the adaptive certi
 q=x_0x_3-x_1x_2,\qquad D=x_2^3-x_1x_3^2,\qquad
 F_*=-q^2x_3^2-qDx_2+D^2/4+q^3.
 \]
-For this displayed degree-six carrier and every homogeneous degree-sixteen \(G\) containing \(C\), provided the intersection is proper, the new [actual-sextic investigation](ENDPOINT_FOUR_ACTUAL_SEXTICS.md#actual-sextics-on-the-retained-endpoint-four-chart) and [nonsplit-node scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md) give
+For this displayed degree-six carrier and every homogeneous degree-sixteen \(G\) containing \(C\), provided the intersection is proper, the new [actual-sextic investigation](ENDPOINT_FOUR_ACTUAL_SEXTICS.md#actual-sextics-on-the-retained-endpoint-four-chart) and [nonsplit-node scope audit](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-26-endpoint4-nonsplit-node-scope-audit) give
 \[
 m_C(V(F_*,G))\le22,\qquad \deg R\ge8.
 \]
