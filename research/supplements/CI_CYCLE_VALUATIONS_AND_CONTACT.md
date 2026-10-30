@@ -1,5 +1,16 @@
 # Complete-intersection cycles: permanent mathematical source consolidation
 
+## Mathematical dependency guide: three levels of contact
+
+The [valuative contact cycle](#2026-10-25-ci-cycle-valuative-contact-cyclemd) separates a cycle-level witness from its possible local valuations. The [endpoint valuations](#2026-10-25-ci-cycle-endpoint-valuationsmd), [valuative multiplicity](#2026-10-25-ci-cycle-valuative-multiplicitymd), and [root-collision valuations](#2026-10-25-ci-cycle-root-collision-valuationsmd) address different local degeneration regimes. The source calculations should not be reduced to a single scalar order.
+
+The [independent valuative audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-valuative-auditmd) limits what follows. Compare [intrinsic coefficient valuations and the colength counterexample](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd), [actual smooth residual examples](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-smooth-residual-examplemd), and [pencil specialization](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-specialization-proximitymd).
+
+A higher contact order does not by itself establish an additional residual component or its absence; retain both the local calculation and the global intersection test.
+
+---
+
+
 This subject supplement preserves the full mathematical content of the source investigations below, including hypotheses, computations, counterexamples, and limitations. Historical headings identify internal sections, not separate retained source files. No new theorem promotion is implied.
 
 
