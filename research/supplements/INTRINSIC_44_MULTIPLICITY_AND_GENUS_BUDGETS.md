@@ -19,7 +19,7 @@ C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3,
 \]
 can multiplicity four in a proper quartic pair be excluded by an argument intrinsic to the marked curve, without a classification of K3 surface singularities?
 
-Two requests should be distinguished. The singularity classification can be removed completely: the equations forced by the marked neighborhood admit direct blowup calculations, and Noether's formula and Hodge theory finish the same global surface obstruction. This is a complete reformulation of the [existing independently audited proof](2026-10-23-intrinsic-44-k3-proof-proposal.md), retaining its [audit](2026-10-23-intrinsic-44-k3-independent-audit.md). It is not a new obstruction or a purely curve-only proof.
+Two requests should be distinguished. The singularity classification can be removed completely: the equations forced by the marked neighborhood admit direct blowup calculations, and Noether's formula and Hodge theory finish the same global surface obstruction. This is a complete reformulation of the [existing independently audited proof](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-proof-proposal), retaining its [audit](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-independent-audit). It is not a new obstruction or a purely curve-only proof.
 
 A proof using only the embedded infinitesimal neighborhoods and actual quartic source, with no global surface-rank bound, remains missing. Sections 4--6 give concrete reasons why genus, conormal degrees, the quadric restriction, and numerical positivity alone cannot supply it, and state a precise sufficient nonvanishing theorem.
 
@@ -183,7 +183,7 @@ Date: 2026-10-26. Reviewer: independent `triple_classification` agent. Reviewed 
 
 ## Scope and accepted premises
 
-The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal promoted statements of [R0001](../results/quartic_carrier_exclusion.md), [R0020](../results/quartic_conormal_characteristic_jump.md), and [R0022](../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](#44-degeneration-genus-budgets) and the accepted source-level conjugate pencil in the [filtered proof](2026-10-23-quartic-44-filtered-proof-proposal.md) were consulted at their recorded scope.
+The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal promoted statements of [R0001](../results/quartic_carrier_exclusion.md), [R0020](../results/quartic_conormal_characteristic_jump.md), and [R0022](../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](#44-degeneration-genus-budgets) and the accepted source-level conjugate pencil in the [filtered proof](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) were consulted at their recorded scope.
 
 The reviewer independently derived the conjugate example's factorization and branch geometry before reading the new verifier. The [new script](../computations/verify_44_triple_residual_example_2026_10_26.py) was inspected as finite polynomial evidence. Its successful execution is recorded separately in the linked validation directory; the audit does not equate execution with a global proof.
 
@@ -265,7 +265,7 @@ Promoted premises, used without rerunning their proofs:
 - [R0001](../results/quartic_carrier_exclusion.md): no integral quartic carrier through this C admits any homogeneous mate with sole support C.
 - [R0020](../results/quartic_conormal_characteristic_jump.md): \(N^*_{C/\mathbf P^3}=\mathcal O_{\mathbf P^1}(-7)^2\).
 
-The elementary identity \(H^0(\mathcal I_C^2(4))=kq^2\), for \(q=x_0x_3-x_1x_2\), and the new [smooth-carrier lemma](#44-degeneration-genus-budgets) are already independently reviewed. The displayed conjugate pencils below are inherited accepted source-level evidence from [October 7, section 4](2026-10-07-session-mf6-e1-independent-audit.md) and [the October 23 filtered proof](2026-10-23-quartic-44-filtered-proof-proposal.md). Their residual factorization and geometric interpretation are the new calculation here. No exhaustiveness assertion from the multiplicity-four classification is transferred to arbitrary multiplicity-three pairs.
+The elementary identity \(H^0(\mathcal I_C^2(4))=kq^2\), for \(q=x_0x_3-x_1x_2\), and the new [smooth-carrier lemma](#44-degeneration-genus-budgets) are already independently reviewed. The displayed conjugate pencils below are inherited accepted source-level evidence from [October 7, section 4](2026-10-07-session-mf6-e1-independent-audit.md) and [the October 23 filtered proof](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd). Their residual factorization and geometric interpretation are the new calculation here. No exhaustiveness assertion from the multiplicity-four classification is transferred to arbitrary multiplicity-three pairs.
 
 ## 2. Exactly triple, with a real degree-four residual
 
@@ -424,7 +424,7 @@ The independent review reconstructs the new deductions, checks the explicit glob
 
 ## 9. An independent route to the multiplicity-four bound
 
-The use of R0022 in section 2 can be replaced by the existing, independently audited [October 23 K3 proof](2026-10-23-intrinsic-44-k3-proof-proposal.md), with its [independent audit](2026-10-23-intrinsic-44-k3-independent-audit.md) and [rank-four local algebra](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebra). That proof is explanatory evidence, not a promoted canonical result. It is the multiplicity-four analogue of the moving-A2 argument above and uses neither R0001 nor R0022.
+The use of R0022 in section 2 can be replaced by the existing, independently audited [October 23 K3 proof](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-proof-proposal), with its [independent audit](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-independent-audit) and [rank-four local algebra](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebra). That proof is explanatory evidence, not a promoted canonical result. It is the multiplicity-four analogue of the moving-A2 argument above and uses neither R0001 nor R0022.
 
 Under hypothetical multiplicity four, purity and degree give sole support C. The smooth-quadric calculation excludes any order-two quartic member, so the generic transverse algebra is curvilinear of length four. Saturated Gorenstein duality gives
 \[
@@ -456,7 +456,7 @@ Date: 2026-10-26. Reviewer: independent `intrinsic_intersection_route` agent. Re
 
 ## Scope and retained premises
 
-The curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\) over an algebraically closed field of characteristic zero. The pair consists of proper quartics. The reviewer read the research index, the reviewed note, and the preserved [October 23 proof](2026-10-23-intrinsic-44-k3-proof-proposal.md). Its previously audited rank-four multiplication and duality deductions were retained as premises, rather than rerunning accepted proofs or certificates.
+The curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\) over an algebraically closed field of characteristic zero. The pair consists of proper quartics. The reviewer read the research index, the reviewed note, and the preserved [October 23 proof](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-proof-proposal). Its previously audited rank-four multiplication and duality deductions were retained as premises, rather than rerunning accepted proofs or certificates.
 
 The reformulation starts from the actual local equations forced by those deductions. It uses neither R0001 nor R0022. Its final obstruction still uses global surface cohomology. The source explicitly distinguishes this from a proof depending only on the embedded neighborhoods of C.
 
@@ -1143,7 +1143,7 @@ The known characteristic-two (4,4) equations have the stronger actual
 chart descriptions (X,Y^4) and (A,B^4), covering C. They give no boundary
 torsion, L=O(-6), and D_soc=0. These are properties of the equations and
 their gluing, not splitting alone; see the
-[characteristic note](2026-10-23-quartic-characteristic-conormal.md).
+[characteristic note](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#quartic-characteristic-conormal).
 
 As a diagnostic of (3), a hypothetical characteristic-zero curvilinear
 (4,4) thickening would have m=4 and p_a=33, so
@@ -1251,7 +1251,7 @@ A decisive control is the primitive divisor 4C on the smooth quadric.
 In characteristic zero it has L=O(-6), the required degree sixteen,
 genus thirty-three, saturated layers, and perfect pairings, but is not
 a (4,4) complete intersection. See the inherited
-[characteristic note, section 6](2026-10-23-quartic-characteristic-conormal.md).
+[characteristic note, section 6](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#quartic-characteristic-conormal).
 This shows exactly why matching the normal algebra and genus does not
 settle homogeneous realization. Progress requires an additional bound
 or incompatibility involving the actual carrier-section maps, their
