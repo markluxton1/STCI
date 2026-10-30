@@ -120,3 +120,7 @@ A new case computation should identify an invariant class excluded, an exception
 A next theorem should seek a coordinate-independent invariant of the full normal initial ideal, including integral specialization at exceptional points, and connect it to an actual projective residual cycle. Weighted valuations in a rational normal frame do not yet provide that implication; residue and cancellation data matter.
 
 The exact ideal-power theorem gives complete global equation spaces in degrees d at least 3m. Their geometric singularity and jet-rank strata remain to be classified. The marked-trisecant negative calculation shows that ruling-contact conditions alone leave ambient transverse coefficients free. A successful obstruction needs a proved global compatibility condition rather than another isolated calculation.
+
+## 6.11 Arithmetic specialization research target
+
+The prescribed characteristic-two quartic complete intersection has a proved nonlifting obstruction over the two specified unramified mixed-characteristic bases. This does not exclude unrelated characteristic-zero equations. A meaningful extension would classify which invariants of a supported thickening persist under flat specialization, with the exact special embedded scheme and generic reduced support specified. The characteristic-dependent conormal extension, cancellation-generated initial equations, and arithmetic obstruction must be checked separately. See Chapter 3 and canonical results R-0012, R-0020, R-0021, and R-0031.
