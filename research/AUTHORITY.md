@@ -31,3 +31,7 @@ Indexes should contain IDs, concise scopes, statuses, and relative links, not co
 ## Review checklist
 
 A promotion PR must state the old and new claims verbatim or by precise references, show the scope bridge, list evidence and audit paths, identify affected frontier questions and supersession links, and verify local links. No wholesale merging of diverged research branches.
+
+## Historical mathematical sources
+
+Historical notes, original proofs, computations, counterexamples, and informative failed approaches are retained as evidence and research context, not as competing theorem authority. A claim appearing in a dated source is not promoted by its presence there; consult the canonical result record for accepted status, hypotheses, and limitations. Ordinary correction history need not be repeated in permanent exposition, but substantive obstructions and counterexamples remain accessible. Uncertain sources are retained rather than deleted solely because their conclusions are summarized in a chapter.
