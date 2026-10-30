@@ -1,5 +1,12 @@
 # Quintic endpoint: transverse jets and algebraic power descent
 
+## Integration guide: jet obstruction and all-power descent
+
+The transverse-jet argument at the specified endpoint is stronger than a test for one fixed mate degree only when the retained **all-positive-power algebra-membership argument** applies. Distinguish actual subalgebra membership from weaker equalizer or formal-fiber conditions. The [endpoint residual-support dossier](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md) treats complementary geometric and boundary cases; the [quintic carrier conormal/factor dossier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md) provides upstream carrier restrictions. Neither a local jet computation nor a proposed support exclusion may be extended beyond its explicitly checked parameter locus.
+
+---
+
+
 Complete mathematical derivations of the transverse-jet obstruction, its all-positive-power form, and the distinction between algebra membership and weaker equalizer tests. All original hypotheses and limitations remain in the proofs below.
 
 ---
