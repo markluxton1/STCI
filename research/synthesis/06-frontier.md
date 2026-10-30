@@ -4,6 +4,20 @@ The unrestricted characteristic-zero question for the fixed rational quartic \(C
 
 This chapter collects **candidate mathematical deliverables**, not a current priority ranking. The [canonical frontier](../FRONTIER.md) currently emphasizes general proper intersections, residual cycles, full initial ideals, and their global realization; the older jet, root, and carrier tasks below remain available alternatives. The ordering of sections is expository, not a research directive.
 
+## Choosing the next theorem without restarting case enumeration
+
+The research directions below are alternatives, not a request to run every one. A bounded next investigation should specify four things *before* computation: (i) the invariant family or moduli stratum being tested; (ii) the actual global source spaces or embedded lower structures in scope; (iii) the exact theorem that would follow from a successful computation; and (iv) the exceptional locus left if the generic calculation succeeds.
+
+Three especially concrete routes emerge from the completed integration:
+
+1. **Fixed-lower determinant route.** Construct a controlled family of embedded lower thickenings satisfying the reviewed one-step lifting and final Gorenstein conditions. Compute the determinant map on *actual* homogeneous source spaces and its proper decomposable zero locus. A nonempty proper locus would give an actual degree-specific STCI pair; proving emptiness for a complete family would exclude that family.
+2. **Uniform residual-jet route.** Generalize the fixed-sextic jet-kernel calculation to a geometric carrier family, including all rank-drop strata. A uniform bound on generic transverse length strictly below de/4 would force residual projective degree by Bezout.
+3. **Conductor compatibility route.** For a controlled higher-degree normalized carrier family, compute the full conductor and the descent of actual hypersurface sections. The ruled and dual endpoint schemes provide test models but not the general descent theorem.
+
+The weighted-valuation, root-scheme and characteristic-specialization programs are useful when they supply a missing map or invariant needed by one of these routes. An isolated counterexample is worth retaining when it invalidates a proposed implication; an isolated failed polynomial search without a family-level lesson is not a new research direction.
+
+**Completion standard for a pass:** either a theorem with precise quantified scope, a counterexample to a stated general implication, or a rigorously identified surviving stratum with a smaller next problem. Do not infer unrestricted nonexistence from a fixed family, and do not promote source-level results without their independent review.
+
 ## 6.1 Jet-condition dependence
 
 **Problem.** For a chain of primitive or quasiprimitive structures
