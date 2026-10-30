@@ -17,7 +17,7 @@ explicitly checked that finiteness is not required for this parametrization.
 No universal exclusion of e=1 positive D2 is claimed.
 
 This continues section 4 of
-[`2026-10-07-session-mf6-e1-defective-structural.md`](2026-10-07-session-mf6-e1-defective-structural.md).
+[`2026-10-07-session-mf6-e1-defective-structural.md`](#source-2026-10-07-session-mf6-e1-defective-structuralmd).
 The six directions are the entire `a0=0` or `b1=0` boundary of the
 degree-one killing determinant, after removing the primitive class-zero
 locus. The principal direction locus `a0*b1!=0` remains open.
@@ -240,10 +240,10 @@ those loci, arbitrary quartics, or unrestricted STCI follows here.
 Date: 2026-10-07. Fixed C0, characteristic zero. Status: **PROVED
 NECESSARY REDUCTIONS; REMAINING INCIDENCE OPEN**. This follows the
 all-degree primitive-triple exclusion in
-[`2026-10-07-session-mf6-e1-independent-audit.md`](2026-10-07-session-mf6-e1-independent-audit.md).
+[`2026-10-07-session-mf6-e1-independent-audit.md`](#source-2026-10-07-session-mf6-e1-independent-auditmd).
 No exclusion of MF6 types `(d2,d3)=(1,3),(2,2)` is claimed here.
 The subsequent bounded endpoint work is now proved in
-[`2026-10-07-session-mf6-e1-d1-endpoints.md`](2026-10-07-session-mf6-e1-d1-endpoints.md):
+[`2026-10-07-session-mf6-e1-d1-endpoints.md`](#source-2026-10-07-session-mf6-e1-d1-endpointsmd):
 all six degree-one endpoint orbits in section 4 admit no mate, for any
 mate degree. The principal direction locus and type (2,2) remain open.
 
@@ -456,7 +456,7 @@ characteristic zero. Status: **PROVED HERE, EXACTLY AND INDEPENDENTLY
 AUDITED** for the primitive-triple lane. The root agent reconstructed
 the classification and normalization argument separately. The further
 adversarial normalization audit is
-[`2026-10-07-session-nonnormal-mf6-independent-audit.md`](2026-10-07-session-nonnormal-mf6-independent-audit.md),
+[`2026-10-07-session-nonnormal-mf6-independent-audit.md`](#source-2026-10-07-session-nonnormal-mf6-independent-auditmd),
 which independently accepts the full-inverse-support and branch-value
 obstruction. This note does not assert that C0 is not
 STCI, and it does not cover `D2>0`, `e=0`, `e=2`, carriers of higher
@@ -1181,7 +1181,7 @@ Throughout the proved lemmas, k is algebraically closed of characteristic
 zero. Let X be an integral quartic containing a smooth rational curve C
 of degree four, and assume X is regular at the generic point of C. This
 includes the displayed MF6 carriers in the
-[separate arbitrary-degree audit](2026-10-07-session-nonnormal-mf6-independent-audit.md).
+[separate arbitrary-degree audit](#source-2026-10-07-session-nonnormal-mf6-independent-auditmd).
 Write nu:S->X for its finite normalization and H=nu*O_X(1).
 
 ## 1. Full support makes the lifted curve an embedded copy of C
