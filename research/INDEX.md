@@ -201,3 +201,13 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Conditional (2,12) singular and conductor calculations](supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md)
 - [Conditional (2,12) continuation and sextic exclusions](supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md)
 - [Higher initial ideals and embedded thickening obstructions](supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
+
+## Complete-intersection cycle geometry and intrinsic contact (October 23–25)
+
+- [ci cycle deformations and residual geometry](supplements/CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md)
+- [ci cycle valuations and contact](supplements/CI_CYCLE_VALUATIONS_AND_CONTACT.md)
+- [ci cycle audits and boundary smoothing](supplements/CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md)
+- [ci cycle pencils and specialization](supplements/CI_CYCLE_PENCILS_AND_SPECIALIZATION.md)
+- [ci cycle adaptive frontier](supplements/CI_CYCLE_ADAPTIVE_FRONTIER.md)
+- [intrinsic valuations and contact geometry](supplements/INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md)
+- [ideal filtrations and 44 filtered exclusion](supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md)
