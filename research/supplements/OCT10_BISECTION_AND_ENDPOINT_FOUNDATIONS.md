@@ -428,7 +428,7 @@ The independently checked four-blowup and
 first left only odd partitions `[3,1]` and `[1,1,1,1]`. The older
 second-pencil note's retained `[2,1,1]` was superseded by the local
 integral-correction argument. The
-[quadratic-descent note](2026-10-10-session-genus-two-bisection-quadratic-descent.md)
+[quadratic-descent note](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#9-genus-two-bisection-global-ribbon-contradiction-and-distinct-conductor-algebra)
 then forced a reduced split conductor and a root-of-unity ratio of
 unbounded order. Its formula has orientation `m^2=rho*delta`.
 Those were necessary conditions, not realized surviving carriers.
@@ -967,7 +967,7 @@ center; arbitrary parameter changes must not be treated as doing so.
 
 ## 5. Entire conductor and sign conventions
 
-The [entire-conductor proof](2026-10-09-session-genus-one-entire-conductor.md)
+The [entire-conductor proof](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#2-genus-one-exact-algebra-that-cannot-be-omitted)
 and [independent algebra audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd)
 have all their conditional geometric hypotheses established by section 4.
 One pencil member has nonzero `z^2` coefficient because the center
@@ -1408,7 +1408,7 @@ conormal map is used.
 
 ## 5. The originally requested conductor chain remains valid but weaker
 
-I independently audited Sections 2--4 of the [quadratic-descent note](2026-10-10-session-genus-two-bisection-quadratic-descent.md),
+I independently audited Sections 2--4 of the [quadratic-descent note](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#9-genus-two-bisection-global-ribbon-contradiction-and-distinct-conductor-algebra),
 and the [even-fiber exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md).
 Their necessary reductions are valid. They are superseded as open
 mate possibilities by the contradiction above.
