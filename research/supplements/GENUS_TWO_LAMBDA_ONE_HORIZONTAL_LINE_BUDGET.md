@@ -16,9 +16,9 @@ promoted the two-line argument. Independent agreement is not itself a
 proof of a broader exclusion.
 
 The starting reductions are sections 7--8 of
-[the adjoint conic model](2026-10-09-session-genus-two-adjoint-conic-model.md)
+[the adjoint conic model](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd)
 and sections 2--5 of
-[the null-curve audit](2026-10-09-session-genus-two-nullcurve-mate-independent-audit.md).
+[the null-curve audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd).
 In the retained noncrepant mate stratum the marked plane model is
 
     M -> P2,     c# = h,
