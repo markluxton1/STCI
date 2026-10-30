@@ -1007,7 +1007,7 @@ The two remaining quartics and degree-thirteen polynomial are finite
 from their vanishing. They are square-free, pairwise coprime and inside the
 primitive chart, leaving 21 geometric direction parameters, each with its
 full lambda fibre. See
-[`2026-10-07-session-localcoh-independent-audit.md`](2026-10-07-session-localcoh-independent-audit.md)
+[`2026-10-07-session-localcoh-independent-audit.md`](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#independent-audit)
 for the complete coverage and denominator audit and
 `verify_session_localcoh_q2_dual_2026_10_07.py` for the quadratic certificate.
 The first family remains an exact open family exclusion rather than a
