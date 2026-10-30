@@ -16,6 +16,8 @@ The accepted [STCI-R-0001](../results/quartic_carrier_exclusion.md) says:
 
 The quantifiers matter: the theorem imposes **no** normality, singularity-type, mate-degree, or generic-normal-order restriction. It concerns this fixed quartic embedding (and its projective equivalents), not automatically every rational quartic embedding.
 
+The separate [R-0022 filtered-contact proof](../results/quartic_44_filtered_exclusion.md) excludes only the degree pair (4,4) and uses accepted source-level filtration and primitive-triple inputs; it does not supply the arbitrary-mate-degree argument of R-0001. The bounded-index normal-carrier result [R-0035](../results/normal_carrier_bounded_index_exclusion.md) has its own local-index and inherited-premise restrictions.
+
 ## 5.2 How the quartic proof is assembled
 
 The [October 11 accepted assembly](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-results-acceptance.md) and [independent dependency audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-11-session-all-quartic-dependency-assembly-independent-audit.md) are the authoritative pointers to the component arguments.
