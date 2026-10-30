@@ -64,3 +64,7 @@ The second obstruction is a necessary condition for actual supported complete in
 - [Global second-dual compression](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md) and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md).
 
 These are accepted proof and audit links on the preserved Ultra branch, not newly rerun computations.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original evidence identities and theorem scope remain unchanged.
