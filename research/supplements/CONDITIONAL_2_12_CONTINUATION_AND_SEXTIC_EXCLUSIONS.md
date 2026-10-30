@@ -243,7 +243,7 @@ The promoted inputs are
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md).
 The finite singular-root bridge is a separately reviewed but
 unpromoted dependency in
-[the October 20 singular-root note](2026-10-20-conditional-2-12-singular-gluing.md).
+[the October 20 singular-root note](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
 It gives common order-two transforms with local ideal `(p,t^10)`
 at every full root point. The full root `Z=(f)` is reduced of class
 `(2,2)` on `E`, and `Z->C` is finite flat of degree two.
