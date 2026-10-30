@@ -322,8 +322,8 @@ that commit. This continuation has further working-tree changes.
 
 ## 1. The strongest structural generalization
 
-The new [intrinsic finite-root-family theorem](2026-10-15-generalization-intrinsic-finite-root-family.md)
-and [independent new-scope audit](2026-10-15-generalization-intrinsic-finite-root-family-independent-audit.md)
+The new [intrinsic finite-root-family theorem](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family)
+and [independent new-scope audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family-independent-audit)
 remove the rational-base and split-normal-bundle hypotheses from a fixed
 bounded smooth-root family. If `A=Z^2_E`, `nu=E.Z`, and
 `nu>max(A,0)`, all successive correction lines have negative degree
@@ -366,13 +366,13 @@ separate carrier degrees, are the continuing geometric mechanism.
 
 ## 2. Characteristic and actual-CI bridge
 
-The [formal characteristic addendum](2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+The [formal characteristic addendum](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 accepts the balanced-rational formal theorem and finite tower in every
 algebraically closed characteristic, with its explicit normal-bundle
 and smooth-root hypotheses.
 
-The [inseparable-root actual-CI bridge](2026-10-15-generalization-inseparable-root-blowup-bridge.md)
-now also has a [full independent new-scope PASS](2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md).
+The [inseparable-root actual-CI bridge](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge)
+now also has a [full independent new-scope PASS](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit).
 It uses the actual root prime over `k(C)` and an uncompleted standard
 basis, retaining inseparable residue fields. The original strict-divisor
 intersection is locally `(h,u^(s-r))`, without saturation or removal
@@ -384,8 +384,8 @@ literal C0 splitting in bad characteristics is inserted.
 
 ## 3. Arithmetic reduction of all mate powers
 
-The [effective rational phase theorem](2026-10-15-generalization-effective-rational-phase-bound.md)
-and [arithmetic review](2026-10-15-generalization-effective-rational-phase-bound-independent-review.md)
+The [effective rational phase theorem](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound)
+and [arithmetic review](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound-independent-review)
 are accepted. For an explicit rational constructible phase image,
 Mann's theorem, finite cyclotomic calculations and Smith normal form
 give a finite exact coset/boundary certificate. It decides torsion
@@ -422,7 +422,7 @@ ODE on the declared rational inverse-map chart. The reviewed eta
 spectral accelerator retains one ideal rather than separate degree,
 root or norm-factor cases.
 
-The new [global monic h2 ODE model](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md)
+The new [global monic h2 ODE model](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
 is the next whole-h2 target. It uses the original parameters, a monic
 quadratic H, four conormal remainders, two actual-conductor remainders,
 eight ODE coefficients and three derived accelerators: seventeen equations
@@ -445,8 +445,8 @@ not by itself prove a whole-quintic theorem.
 
 ## 5. Computation and continuation state
 
-- The [global quadratic-root second model](2026-10-15-generalization-quadratic-root-global-second-dual-compression.md)
-  and [complete model audit](2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md)
+- The [global quadratic-root second model](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
+  and [complete model audit](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit)
   replace the full rank-sixteen second obstruction by twenty-five
   complete scalar pairings, without coefficient charts or thirty-nine
   new quartic unit variables. The homogeneous branch discriminant
@@ -565,7 +565,7 @@ over `QQ`. Its domain is exactly `delta*E*Delta1`. There is no inverse of
 the rational-cover determinant, quadratic discriminant, a q coefficient,
 or `Jbar`; repeated and cover-boundary points remain in this model.
 The precise geometric scope is the accepted
-[global monic ODE incidence](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md)
+[global monic ODE incidence](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
 and its
 [independent audit](2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md).
 
@@ -609,7 +609,7 @@ This is a necessary incidence for every remaining actual h2 mate
 candidate, not an emptiness or mate-existence theorem.
 
 The reviewed proposal is
-[the global monic incidence note](2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md).
+[the global monic incidence note](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence).
 Accepted conormal forms, the actual octic, the global h2 conductor
 factor, previous mate closures, the Delta1 open, and ODE/spectral
 proofs are premises. No accepted proof or verifier was replayed.
