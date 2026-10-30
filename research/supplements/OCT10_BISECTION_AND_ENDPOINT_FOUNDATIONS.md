@@ -49,7 +49,7 @@ five partitions of the four conductor-contact zeros. The proof retains
 the literal omitted-middle projection center and the entire conductor.
 It excludes mates in every degree, rather than merely a bounded range.
 
-The [October 10 interface audit](2026-10-10-session-genus-one-interface-independent-audit.md)
+The [October 10 interface audit](#source-2026-10-10-session-genus-one-interface-independent-auditmd)
 has finished and accepts the whole implication chain through squarefree
 and `[2,1,1]`: full inverse support, actual Cartier double, singular ADE
 points, complete ribbon net, ambient lift, and fixed projection coordinates.
@@ -213,7 +213,7 @@ and no failed source retrieval is treated as mathematical evidence.
 
 Date: 2026-10-10. Auditor: `bisection_full_audit/primary_descent_sources`.
 Verdict: **ACCEPT** Sections 2--4 of the
-[full independent bisection audit](2026-10-10-session-genus-two-bisection-full-independent-audit.md).
+[full independent bisection audit](#source-2026-10-10-session-genus-two-bisection-full-independent-auditmd).
 Input SHA256:
 `5aa6eeedb31ff2fe316b706c3c0e86ff78d9beca01c9f92dfa5d7fafcc283133`.
 This hash was checked directly after reading the source. The earlier
@@ -292,7 +292,7 @@ STCI problem remain open. No canonical frontier file is edited here.
 The universal projective-curve STCI question and the unrestricted
 characteristic-zero question for
 `C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. This acceptance extends the
-[earlier October 10 acceptance](2026-10-10-session-results-acceptance.md),
+[earlier October 10 acceptance](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-results-acceptancemd),
 whose proof and evidence bytes are preserved. No novelty claim is made
 without the separate literature assessment.
 
@@ -310,7 +310,7 @@ no mate in the `lambda=0` stratum, in any positive mate degree.
 The bisection, ordinary bisecant and tangent boundaries are all covered.
 
 Root accepts the full
-[bisection independent audit](2026-10-10-session-genus-two-bisection-full-independent-audit.md)
+[bisection independent audit](#source-2026-10-10-session-genus-two-bisection-full-independent-auditmd)
 after reading its proof and independently reconstructing both its
 Cartier compression and its global ribbon contradiction. The argument
 uses the following complete chain, rather than a bounded root-of-unity
@@ -327,7 +327,7 @@ or exceptional-graph search.
    V by exactly four point blowups, allowing all infinitely near and
    intersection centers.
 3. With R the actual integral relative canonical divisor, the
-   [second-pencil audit](2026-10-10-session-genus-two-bisection-second-pencil-independent-audit.md)
+   [second-pencil audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd)
    proves an equality of actual rational divisors
 
        Z+R=(1/2) sum_t k_t F_t,   sum_t k_t=4.
@@ -360,7 +360,7 @@ or exceptional-graph search.
 7. The already known repository P-009 gives
    `N_C0/P3^*=O_P1(-7) direct-sum O_P1(-7)`. Root independently
    reconstructed the derivative coefficient calculation; the
-   [new Jacobian audit](2026-10-10-session-quartic-normal-bundle-independent-audit.md)
+   [new Jacobian audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-quartic-normal-bundle-independent-auditmd)
    supplies two cubic kernel columns independent at every point,
    including both endpoints. But
 
@@ -382,9 +382,9 @@ global pole or higher-multiplicity behavior from tangent data.
 ## 2. Every nonendpoint trisecant section case is excluded
 
 **PROVED HERE / independently accepted.** Root accepts the
-[nonendpoint continuation audit](2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-audit.md)
+[nonendpoint continuation audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-genus-two-nonendpoint-trisecant-continuation-independent-auditmd)
 and its separately written
-[relative Morse/branch audit](2026-10-10-session-relative-morse-conductor-branches-independent-audit.md)
+[relative Morse/branch audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-relative-morse-conductor-branches-independent-auditmd)
 after reading their complete arguments. They exclude every genus-two
 `lambda=1` mate whose actual conductor line meets C0 at three distinct
 points. There is no bound on mate degree or exceptional chain length.
@@ -1239,7 +1239,7 @@ smooth rational (-2)-curves, and orthogonal to L. Its exceptional
 correction is not integral. These hypotheses are precisely the
 `lambda=0` lane, not all genus-two mates.
 
-I independently checked the [second-pencil audit](2026-10-10-session-genus-two-bisection-second-pencil-independent-audit.md):
+I independently checked the [second-pencil audit](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd):
 
 * `0->O_M->O_M(c)->O_c->0` and rationality give `h0(c)=2` and generation
   everywhere. The Stein factor has genus zero; its finite map to the
@@ -1428,7 +1428,7 @@ and none of its components, of total degree two, is c_S.
 
 If m=0, the full Q^2 descends to an ambient quartic and yields a
 (4,4) mate, excluded by Craighero--Gattazzo. The exact primary
-statement is verified in [the source audit](2026-10-10-session-bisection-primary-descent-sources.md):
+statement is verified in [the source audit](#source-2026-10-10-session-bisection-primary-descent-sourcesmd):
 Proposition 4, printed page 187, over an algebraically closed
 field of characteristic different from two and three. The
 paper's convention requires reduced surfaces. The descended
