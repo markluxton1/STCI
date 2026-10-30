@@ -664,7 +664,7 @@ No commit or memory update was made.
 
 Date: 2026-10-14. Author: root. Status: **WRITTEN GEOMETRIC THEOREM;
 independently audited under the stated hypotheses**. The
-[independent bridge audit](2026-10-14-generalization-blowup-root-curve-bridge-independent-audit.md)
+[independent bridge audit](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-bridge-independent-audit)
 includes separate local-algebra and conormal reviews, a shorter local
 proof, and a defect-boundary family. The spectral root-curve criterion and its
 already reviewed ambient obstruction class are premises. This note
@@ -902,11 +902,11 @@ mathematical audit, not a finite computation or a claim of ambient
 obstruction nonvanishing.
 
 Reviewed source:
-[blowup/root-curve primitive bridge](2026-10-14-generalization-blowup-root-curve-primitive-bridge.md).
+[blowup/root-curve primitive bridge](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-primitive-bridge).
 The accepted
-[spectral root-curve theorem](2026-10-14-generalization-spectral-root-curve-relations.md)
+[spectral root-curve theorem](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations)
 and its
-[independent audit](2026-10-14-generalization-spectral-root-curve-independent-audit.md)
+[independent audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit)
 are premises. Their spectral descent criterion, ambient extension class,
 and cohomology targets were not reaudited. No previous CAS or carrier
 certificate was replayed.
