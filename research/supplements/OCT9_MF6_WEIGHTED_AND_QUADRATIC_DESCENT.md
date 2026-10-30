@@ -10,7 +10,7 @@ Full original source text preserved. Hypotheses, counterexamples, unsuccessful a
 
 Date: 2026-10-09. Fixed smooth rational quartic `C0` in characteristic
 zero. This continues the accepted
-[complete principal ancestor audit](2026-10-08-session-principal-e1-d1-independent-completeness-audit.md).
+[complete principal ancestor audit](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-principal-e1-d1-independent-completeness-auditmd).
 The principal common-quartic-ancestor lane is already excluded. The
 present question is whether its unique integral quartic carriers can
 have a mate of some other degree.
@@ -290,7 +290,7 @@ finite singular locus prove geometric normality of all three conjugates.
 The accepted normal-carrier theorem excludes their mates in every degree.
 
 No canonical frontier file was edited. The
-[independent geometric audit](2026-10-09-session-mf6-weighted-candidate-geometric-audit.md)
+[independent geometric audit](#source-2026-10-09-session-mf6-weighted-candidate-geometric-auditmd)
 accepts the actual conductor meeting, Hessian argument, two-branch
 contradiction, and the 630 bound conditional on the exact inputs. The
 exact syzygy, determinant and r=0 certificates have their completed local
@@ -308,7 +308,7 @@ Date: 2026-10-09. Auditor: `verification`. Status: **PROVED HERE / independently
 
 ## 1. Accepted statement and its scope
 
-Use weighted parameters (p,r,b) of weights (2,1,1), and the integral weighted sextic H from the [owner proof](2026-10-09-session-mf6-principal-weighted-candidate.md). Put
+Use weighted parameters (p,r,b) of weights (2,1,1), and the integral weighted sextic H from the [owner proof](#source-2026-10-09-session-mf6-principal-weighted-candidatemd). Put
 
     d=p-rb,
     P=2p+12r^2+16rb+9b^2,
@@ -334,7 +334,7 @@ Owner source SHA256 is `78ed372321bb99c81003892e30ca48a253b56702d0a00e05c5347e7a
 | `mf6-principal-weighted-kernel-2026-10-08.json` | `4889f20b60fa094cde47992342701ebdf29a98413fc216b20f971550331cd9db` |
 | `session-mf6-e1-principal-contact-2026-10-08.json` | `bc32db62b6d87e15300168a47f50d6bf3cd952d0d19b60ad52fc5ae8cdfa9818` |
 
-The last is the contact reconstruction already bound by the [complete principal audit](2026-10-08-session-principal-e1-d1-independent-completeness-audit.md). All three inputs give exactly the same eighteen literal ambient quartic forms. The owner verifier proves each vanishes on actual C0, proves their ambient coefficient rank eighteen, and checks the thirty-five quartic monomials restrict to all z-degrees 0 through 16. Thus the full degree-four ideal kernel has dimension 35-17=18, and these forms constitute the complete space; this is not a generator-coordinate substitute for ambient forms.
+The last is the contact reconstruction already bound by the [complete principal audit](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-principal-e1-d1-independent-completeness-auditmd). All three inputs give exactly the same eighteen literal ambient quartic forms. The owner verifier proves each vanishes on actual C0, proves their ambient coefficient rank eighteen, and checks the thirty-five quartic monomials restrict to all z-degrees 0 through 16. Thus the full degree-four ideal kernel has dimension 35-17=18, and these forms constitute the complete space; this is not a generator-coordinate substitute for ambient forms.
 
 The full 23-by-18 contact matrix specializes at b=1 to the accepted eleven first-contact rows and twelve second-contact rows. Its row offsets are exactly 1 through 11, then 10 through 21; its column offsets are exactly 1,0,2,3,4,5,6,1,3,4,5,6,7,7,8,9,9,10. Homogeneous polynomial extension of a fixed offset is uniquely determined by its b=1 specialization: a monomial p^i r^j has the unique possible b-exponent w-2i-j. The owner checks these entry weights, each coordinate of the three degrees 9,9,10 generators, and all sixty-nine contact identities modulo H.
 
@@ -379,7 +379,7 @@ Geometric integrality of H is an accepted preceding theorem, not inferred from t
 
 ## 5. Specialization and exceptional-generator qualification
 
-At a point of U!=0 where G0 is nonzero, it lies in the complete contact kernel and hence is a nonzero scalar multiple of the unique actual quartic. That scalar and d do not change first-normal root multiplicities. The geometric necessity proved by the [separate audit](2026-10-09-session-mf6-weighted-candidate-geometric-audit.md) forces a multiple projective root, so Delta vanishes.
+At a point of U!=0 where G0 is nonzero, it lies in the complete contact kernel and hence is a nonzero scalar multiple of the unique actual quartic. That scalar and d do not change first-normal root multiplicities. The geometric necessity proved by the [separate audit](#source-2026-10-09-session-mf6-weighted-candidate-geometric-auditmd) forces a multiple projective root, so Delta vanishes.
 
 If G0 specializes to zero, its first-normal vector specializes to zero, and Delta vanishes automatically. If G0 remains nonzero but its entire first-normal vector is zero, the same conclusion holds. No exceptional parameter was removed by dividing by a coefficient of G0, by a leading coefficient h_8, or by a rational scalar chosen on a smaller chart. The basepoint-free and contact units are the explicit U factors; parameters outside that open are handled separately, not silently added to this candidate theorem.
 
@@ -414,7 +414,7 @@ The exact polynomial reconstruction and modular nonzero certificate
 are separate computational obligations, not certified by this note.
 
 Owner source:
-[Principal weighted candidate](2026-10-09-session-mf6-principal-weighted-candidate.md),
+[Principal weighted candidate](#source-2026-10-09-session-mf6-principal-weighted-candidatemd),
 especially section 2. This bounded audit checks the actual conductor
 meeting, Hessian, formal branches, and the resulting necessary
 multiple-root condition. No canonical frontier documents were edited.
@@ -426,7 +426,7 @@ rational quartic C0. It is automatically regular at the generic point
 of C0: a general integral plane quartic would otherwise have four
 distinct singular points, contradicting arithmetic genus three.
 The full argument is appended to the
-[sectional-genus audit](2026-10-09-session-normalization-genus-zero-independent-audit.md).
+[sectional-genus audit](#source-2026-10-09-session-normalization-genus-zero-independent-auditmd).
 
 Suppose a form G of degree b>0 has intersection support exactly C0.
 For the finite normalization nu:S->X, the accepted full-support
@@ -1344,7 +1344,7 @@ structural lemma proposed by root; it does not itself exclude mates.
 No canonical frontier records were edited.
 
 Binding owner source, subsequently read in full:
-[Genus-one del Pezzo reduction](2026-10-09-session-genus-one-delpezzo-reduction.md),
+[Genus-one del Pezzo reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd),
 sections 1--5. Its canonical-form representative argument agrees
 with the independent proof below. Its proposed lattice filter is
 explicitly a separate obligation, not promoted by this audit.
