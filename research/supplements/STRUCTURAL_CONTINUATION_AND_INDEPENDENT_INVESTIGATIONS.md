@@ -429,7 +429,7 @@ eight ODE coefficients and three derived accelerators: seventeen equations
 in nine variables, with only `delta*E*Delta1` inverted. Its purpose is
 to retain the repeated-root and cover-determinant boundary that the
 earlier rational inverse-map chart could not cover. The
-[final global scope audit](2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md)
+[final global scope audit](#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit)
 now passes the whole-h2 cover and current exact artifact bindings. Its
 [runnable input](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
 is saved and passed a load-only check. One subsequent capped global QQ
@@ -567,7 +567,7 @@ or `Jbar`; repeated and cover-boundary points remain in this model.
 The precise geometric scope is the accepted
 [global monic ODE incidence](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
 and its
-[independent audit](2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md).
+[independent audit](#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
 
 The 193-byte
 [stdout](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/stdout.txt)
