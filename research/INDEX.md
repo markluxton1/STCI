@@ -166,3 +166,12 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Symbolic triple and torsion](supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md)
 - [Projection conductor contact and phase](supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md)
 - [Quintic A4 conductor and sextic incidence](supplements/QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md)
+
+## Root towers, cyclic covers and finite-root obstructions
+
+- [Moving-power second relation](supplements/MOVING_POWER_SECOND_RELATION.md)
+- [Moving-power obstruction towers and spectral-root relations](supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md)
+- [Quadratic roots, blowup incidence and Cartier lifts](supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md)
+- [Cyclic-cover counterexamples and moving-linear rigidity](supplements/CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md)
+- [Local-cohomology degree-15 calculations and certificates](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
+- [Finite-root families and smooth-root formal obstructions](supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md)
