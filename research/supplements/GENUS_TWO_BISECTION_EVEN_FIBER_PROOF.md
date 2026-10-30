@@ -31,7 +31,7 @@ and Z is its effective rational sigma-exceptional correction. We have
     Z+R=(1/2)sum_t k_t F_t,  sum_t k_t=4,
     R=sum_i e_i,   c.R=0,   c.F_t=2.
 
-The accepted [entire-conductor audit](2026-10-10-session-genus-two-entire-conductor-independent-audit.md)
+The accepted [entire-conductor audit](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md)
 establishes that S has rational singularities. This is needed below:
 integral numerical correction does not imply local Cartierness for
 arbitrary normal surface singularities.
