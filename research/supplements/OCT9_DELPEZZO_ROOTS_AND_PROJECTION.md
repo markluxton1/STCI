@@ -130,7 +130,7 @@ This construction binds one three-parameter family of pairs to the
 specific deleted-middle-coordinate projection. It does not identify
 every admissible projection of an A3+2A1 pair. Parameter changes moving
 the three singular passages also transform the projection center;
-see the [uniform adversarial note](2026-10-09-session-genus-one-uniform-projection-adversarial.md).
+see the [uniform adversarial note](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md).
 The global C0 problem and the complete A3+2A1 projection stratum remain
 open at this record's scope.
 
@@ -430,7 +430,7 @@ has terminal PASS. The [written independent proof audit](#source-2026-10-09-sess
 accepts sections 2--5 without corrections. This note does not classify all sectional-genus-one
 normalizations, construct a mate, or resolve the STCI problem.
 
-This follows the [sectional-genus reduction](2026-10-09-session-normalization-sectional-genus-zero.md)
+This follows the [sectional-genus reduction](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
 and complements the [explicit four-A1 family](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-delpezzo-four-a1-familymd).
 The latter realizes the first surviving lattice pattern and then excludes
 its displayed projections by an additional normalization-fiber argument.
