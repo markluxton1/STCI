@@ -194,6 +194,14 @@ These supplements preserve seven complete historical mathematical sources, inclu
 - [Conditional (2,12) continuation and sextic exclusions](supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md)
 - [Higher initial ideals and embedded thickening obstructions](supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
 
+## Quintic proof-dependency route (October 30)
+
+For quintic **h=2**, start with [the monic open and ODE incidence system](supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#integration-guide-the-actual-open-and-the-differential-equations), then [the spectral/generator formulation](supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#integration-guide-spectral-acceleration-versus-existence), and finally [the degree-five support-incidence frontier](supplements/QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md#integration-guide-incidence-reduction-and-certification-boundary), whose exact resultant identities still require a standalone rerun.
+
+For **endpoint and carrier geometry**, compare [quintic conormal/factor restrictions](supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#integration-guide-carrier-structure-is-not-mate-existence), [endpoint jets and all-power descent](supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md#integration-guide-jet-obstruction-and-all-power-descent), [residual support and excess](supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#integration-guide-residual-support-excess-and-projective-boundary), and [A4 conductor/sextic incidence](supplements/QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#integration-guide-intrinsic-contact-and-actual-sextic-incidence). The [nonendpoint cubic-pair completion](supplements/NONENDPOINT_CUBIC_PAIR_COMPLETION.md#integration-guide-completed-cubic-pair-lane-and-its-scope) excludes a specified residual partition within its accepted family, not all quintic mates.
+
+The retained source proofs and independent audits remain separate. No candidate or conditional exclusion is promoted by this index.
+
 ## Historical source-link audit: October 7–14 (October 30)
 
 The October 7–9 and October 10–14 supplement compilations received source-heading-based link repairs. In the completed passes, **209** retired-filename links were replaced with links to retained source sections. A scoped check confirmed **120** valid heading links in the twelve-file October 7–9 group and **89** in the eight-file October 10–14 group. This is **not** a repository-wide link audit; remaining unmatched historical references need a global destination lookup, and proof-level deduplication remains separate.
