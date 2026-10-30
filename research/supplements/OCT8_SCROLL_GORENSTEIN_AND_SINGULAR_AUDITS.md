@@ -205,12 +205,12 @@ Work over an algebraically closed field of characteristic zero. Let an integral
 quartic X have finite smooth normalization nu:S->X, where S is F0 with
 H=C+2f or F2 with H=C+3f, C^2=-2 in the latter case. Let Gamma be the **actual
 entire downstairs conductor**, and D its Cartier inverse conductor divisor.
-The [independent ACM audit](2026-10-08-session-scroll-acm-independent-audit.md)
+The [independent ACM audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-acm-independent-auditmd)
 supplies D=-K_S, the full conductor Hilbert polynomial 3m+1, and the resolution
 
     0 -> O_P3(-3)^2 -> O_P3(-2)^3 -> J_Gamma -> 0.
 
-The [scroll conductor note](2026-10-08-session-scroll-degenerate-conductor.md)
+The [scroll conductor note](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-degenerate-conductormd)
 supplies the exact sequence retaining every nilpotent:
 
     0 -> O_Gamma -> p_*O_D -> omega_Gamma -> 0.
@@ -524,9 +524,9 @@ the unrestricted STCI problem.
 
 Audited owner sources:
 
-- [Nongorenstein classification and triple-line proof](2026-10-08-session-scroll-nongorenstein-cubic-classification.md), sections 1--5.
-- [Degenerate conductor proof](2026-10-08-session-scroll-degenerate-conductor.md), sections 14--16.
-- [Independent differential obstruction](2026-10-08-session-normalization-differential-independent-audit.md).
+- [Nongorenstein classification and triple-line proof](#source-2026-10-08-session-scroll-nongorenstein-cubic-classificationmd), sections 1--5.
+- [Degenerate conductor proof](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-degenerate-conductormd), sections 14--16.
+- [Independent differential obstruction](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-normalization-differential-independent-auditmd).
 - Earlier independent ACM, reduced-center, and locally Gorenstein audits.
 
 ## 1. Hypotheses and the exact conductor algebras
@@ -687,7 +687,7 @@ No identification of a plane transverse singularity is needed.
 ## 6. Direct Artin proof for every double-line-plus-line center
 
 The classifier's added section 7 and the conductor owner's separate
-[exact Artin audit](2026-10-08-session-scroll-artin-independent-audit.md)
+[exact Artin audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-artin-independent-auditmd)
 give a shorter proof, which this auditor independently accepts. It
 uses only generic entire schemes and avoids a trace at the vertex.
 
