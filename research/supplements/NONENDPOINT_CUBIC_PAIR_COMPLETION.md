@@ -1,5 +1,12 @@
 # Nonendpoint cubic-pair completion and scope
 
+## Integration guide: completed cubic-pair lane and its scope
+
+The independent audit excludes the **residual 3+3 cubic-pair partition within the accepted nonendpoint genus-one quintic A4 normalization family**, including its specified doubled-root and homogeneous-gcd cases. This is not a universal exclusion of all nonendpoint quintic carriers or all mates. Compare [the quintic carrier conormal/factor analysis](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md) and [the A4 conductor/sextic incidence dossier](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md) for upstream conditions and other residual partitions. Retain the full gcd casework and the independent audit as evidence for this bounded result.
+
+---
+
+
 Complete subject-grouped mathematical arguments, including exact hypotheses, coefficient certificates, homogeneous gcd cases and theorem-scope qualifications.
 
 ---
