@@ -945,47 +945,15 @@ no further mathematical correction is required. The findings remain
 reviewed provisional evidence, with no new global realization, exclusion,
 or canonical result promotion.
 
-## 6. Independent review of the lattice formulation
+## 6. Lattice formulation: independent verification and scope
 
-Date: 2026-10-26. Reviewer: independent `intrinsic_filtration` agent.
-The reviewer read the saved section 5 and independently reconstructed the
-lattice formulation. This review concerns its algebra, not a new audit
-of the cited Bruhat--Tits source or a global ambient extension theorem.
+The preceding intrinsic-symbol and weighted-flag calculation is equivalent, for integral weights, to a full \(D=\mathcal O_{C,p}\)-lattice \(\Lambda\subset E_K\), with valuation on \(\operatorname{Sym}_K E_K\) defined by the coefficient orders relative to \(\operatorname{Sym}^n\Lambda\). An integral basis makes this a Gauss valuation, and its degree-one unit ball recovers \(\Lambda\). This was independently checked, including negative integer weights.
 
-Let D=O_C,p, m=m_p, K=k(C), and let Lambda be a full D-lattice in E_K.
-The formula c_(Lambda,n)(s)=max{r:s belongs to m^r Sym^n Lambda}, followed
-by the minimum over the finite homogeneous components, is a valuation.
-Indeed, any D-basis of Lambda makes it the coefficient Gauss valuation
-on a polynomial algebra. Its initial polynomials multiply in the domain
-gr_(ord_p)K[U,V]. The definition uses only Lambda, so changing its integral
-basis cannot change the valuation. Its degree-one unit ball recovers
-Lambda, as claimed.
+The scale matters: replacing \(\Lambda\) by \(\mathfrak m^{-c}\Lambda\) shifts the value of a degree-\(n\) symbol by \(nc\). For a saturated line \(R\subset E\), quotient \(L\), and \(\beta>\alpha\), the nonsplit intrinsic lattice
+\[
+\Lambda=\mathfrak m^{-\beta}R_p+\mathfrak m^{-\alpha}E_p
+\]
+reproduces the preceding filtration by the submodules \(B_{n,j}\). Real weights instead use the ceiling filtration; a single \(D\)-lattice is not claimed. This verifies the earlier calculation without repeating its adapted-basis expansion.
 
-The signs in Lambda_w=m^(-w_X)DX+m^(-w_Y)DY are correct: X is t^(w_X)
-times the lattice basis vector t^(-w_X)X, and therefore has value w_X.
-This holds for all integer weights, including negative ones, on the
-polynomial algebra and its fraction field. The distinguished reference
-lattice E_p is separate from the weighted lattice Lambda. In particular,
-Lambda=m^(-a)E_p assigns common normal weight a. Replacing any Lambda by
-m^(-c)Lambda adds nc to the value of a homogeneous degree-n symbol.
-The actual lattice scale is thus relevant when normal degrees are mixed.
-
-For a saturated line R subset E with quotient L and integers beta>alpha,
-Lambda=m^(-beta)R_p+m^(-alpha)E_p is intrinsic without a splitting.
-An adapted integral frame r,y expresses it as
-t^(-beta)Dr direct_sum t^(-alpha)Dy. Expanding its symmetric powers gives
-exactly the source's sum over B_(n,j) with coefficient exponent
-q-n alpha-j(beta-alpha). Thus the lattice construction and the previous
-weighted-flag filtration agree. For real weights, the ceiling formula
-defines the filtration directly; a single D-lattice is not asserted.
-
-The algebra on which this construction is intrinsic is Sym_K E_K, or the
-normal-bundle model with its canonical projection to C. No identification
-of that model with the full ambient formal neighborhood is supplied by a
-lattice or conormal flag. The example x versus x+y^2 when beta>2 alpha
-correctly demonstrates the additional higher-order data needed there.
-
-**Lattice review outcome: PASS.** No source correction is required for
-the inspected lattice formulas. They remain reviewed provisional evidence
-and do not promote a global ambient valuation or realization theorem.
+The conclusion is confined to the normal-bundle symmetric algebra (or its fraction field), **not** the entire ambient formal neighborhood. In particular, \(x\) and \(x+y^2\) have the same conormal class but can have different weighted ambient values when \(\beta>2\alpha\). No global realization or exclusion follows.
 
