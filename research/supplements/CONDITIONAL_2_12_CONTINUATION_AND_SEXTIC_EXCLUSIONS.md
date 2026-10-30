@@ -1,5 +1,16 @@
 # conditional 2 12 continuation and sextic exclusions
 
+## Proof-dependency map: conditional exclusions and exceptional loci
+
+The [strict-surface continuation](#2026-10-21-conditional-2-12-surface-bound-continuation) and [exceptional-locus audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) refine the original conditional (2,12;6,16;2) geometry. The [surface audit continuation](#2026-10-21-conditional-2-12-surface-audit-cont2) and [free-orbit sextic exclusion](#2026-10-21-cont2-free-orbit-global-sextic-exclusion) make more specific deductions under the retained assumptions.
+
+These depend on the [symbol and actual sextic realization tests](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-global-realization-incidence) and on the [node/conductor constraints](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface). The surface-bound arguments, exceptional-locus computations, and actual homogeneous lifting are distinct steps. A conditional exclusion on a specified orbit or singularity type does not eliminate all (2,12) pairs.
+
+Retain the original hypotheses, computational certificates, exceptional cases, and independent audits as the evidence for each narrow conclusion.
+
+---
+
+
 Complete mathematical arguments and exploratory boundaries preserved. Conditional conclusions remain conditional; computational and geometric obstructions are not asserted beyond their original hypotheses.
 
 ---
