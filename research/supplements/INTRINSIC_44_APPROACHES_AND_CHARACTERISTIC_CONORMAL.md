@@ -21,7 +21,7 @@ C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3_k
 
 cannot be the reduced support of a complete intersection of two quartics
 over an algebraically closed field of characteristic zero. The proof is in
-[the K3 obstruction note](2026-10-23-intrinsic-44-k3-proof-proposal.md).
+[the K3 obstruction note](#intrinsic-44-k3-proof-proposal).
 It uses no classification of primitive triples, normal directions, quartic
 carriers, or quartic contact pencils, and no cubic-contact nonvanishing
 calculation. Its new obstruction is a surplus of exceptional curves on the
@@ -150,7 +150,7 @@ intrinsic local singularity type. No preferred global quartic is classified.
 
 ## Contact, coefficient valuations, and actual realizability
 
-The [intrinsic cubic-contact note](2026-10-23-intrinsic-cubic-contact-construction.md)
+The [intrinsic cubic-contact note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-constructionmd)
 constructs, for a pure quasiprimitive triple Y with ideal J,
 
 \[
@@ -167,7 +167,7 @@ the coordinate transformation laws, and its interpretation after two
 normal-slice blowups. This construction alone does not force its
 nonvanishing. The K3 proof bypasses that missing nonvanishing argument.
 
-The [coefficient-valuation note](2026-10-23-intrinsic-coefficient-valuations.md)
+The [coefficient-valuation note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd)
 distinguishes coefficient places, prolongations to an algebraic closure,
 normal Gauss valuations, and ambient blowup-flag valuations. A real
 weighted minimum is justified on polynomials or an explicitly restricted
@@ -182,7 +182,7 @@ valuation, do not recover colength; a length-four versus length-three
 counterexample is preserved in that note.
 
 For completeness, the accepted quartic lifting constraints remain
-available in [the characteristic/conormal source note, section 4](2026-10-23-quartic-characteristic-conormal.md).
+available in [the characteristic/conormal source note, section 4](#quartic-characteristic-conormal).
 They are not inputs to the K3 proof. In a balanced affine frame
 \(U=x_3-z^4-\tfrac32z(x_2-z^3),\ V=x_2-z^3\), the actual first-symbol
 image is the 17-dimensional subspace of \(H^0(E(4))\) consisting of
@@ -206,9 +206,9 @@ it uses only the pencil supplied by the hypothetical equations.
 The principal proof and supporting local-algebra proof are new,
 unpromoted research contributions. Independent mathematical review is
 recorded in
-[the K3 audit](2026-10-23-intrinsic-44-k3-independent-audit.md).
+[the K3 audit](#intrinsic-44-k3-independent-audit).
 The contact and valuation constructions have their own
-[secondary audit](2026-10-23-intrinsic-contact-valuations-independent-audit.md).
+[secondary audit](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-contact-valuations-independent-auditmd).
 Exact new calculation evidence and commands are collected in
 [the validation record](../validation/intrinsic-44-2026-10-23/README.md).
 These checks verify displayed identities and examples; the mathematical
@@ -297,10 +297,10 @@ Everything after these inputs is derived here. This file is a proposal,
 not a promotion of a new canonical result.
 
 Supporting artifacts are the independently developed
-[local-algebra note](2026-10-23-intrinsic-quadruple-local-algebra.md), the
+[local-algebra note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebramd), the
 [exact local verification script](../computations/verify_intrinsic_quadruple_local_algebra_2026_10_23.py),
 and the
-[independent proof audit](2026-10-23-intrinsic-44-k3-independent-audit.md).
+[independent proof audit](#intrinsic-44-k3-independent-audit).
 The script checks representative polynomial identities and Milnor-algebra
 dimensions; the argument for arbitrary formal unit coefficients is the
 proof below, together with the local-algebra note. It is not inferred
@@ -639,7 +639,7 @@ this proof. The general saturated pairing input remains an explicit
 dependency; the conormal splitting remains the only special numerical
 input from the fixed embedding beyond the smooth-quadric facts.
 
-The [independent proof audit](2026-10-23-intrinsic-44-k3-independent-audit.md)
+The [independent proof audit](#intrinsic-44-k3-independent-audit)
 reconstructed and accepted the argument, including its defect points and
 arbitrary local coefficient functions. This proves only the stated
 quartic–quartic exclusion. It does not establish an
@@ -1047,7 +1047,7 @@ problem above is the infinitesimal version of that contact analysis. The
 paper's common-singularity conclusion belongs to its proved hypothesis
 \(F\cdot G=4C\); it is not used here as an unproved general STCI principle.
 
-The [companion proof proposal](2026-10-23-quartic-44-filtered-proof-proposal.md)
+The [companion proof proposal](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd)
 supplies this additional interface for \((4,4)\), using accepted
 quasiprimitive filtration/duality and the existing accepted classification
 of primitive triples of type \(\mathcal O(-6)\). It does not invoke the
@@ -1105,8 +1105,8 @@ Established inputs, with their exact scopes:
 - Embedded characteristic-two charts and multiplication:
   [the R0012 structure evidence](2026-10-20-z4-local-structure.md).
 - Prescribed arithmetic nonlifting: [R0012](../results/prescribed_z4_arithmetic_nonlifting.md),
-  [its proof](2026-10-20-z4-quartic-obstruction.md), and
-  [independent audit](2026-10-20-z4-lift-independent-audit.md).
+  [its proof](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-quartic-obstruction), and
+  [independent audit](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-lift-independent-audit).
 - The intrinsic codimension-three restriction sequence is also recorded in
   [the earlier quartic jet supplement](2026-10-06-quartic-jet-geometry-structural-supplement.md#1-the-unique-quadric-and-the-first-normal-codimension-three).
   That file's obsolete frontier labels are not used.
@@ -1125,7 +1125,7 @@ The temporary runtime is contextual, not a portable prerequisite: any
 compatible Python with SymPy can run it. See
 [execution evidence](../validation/44-conormal-2026-10-23/README.md),
 [the independent geometry/symbol audit](2026-10-23-quartic-geometry-symbol-independent-audit.md),
-and [the independent filtered-proof audit](2026-10-23-quartic-44-filtered-proof-independent-audit.md).
+and [the independent filtered-proof audit](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-independent-auditmd).
 The computations verify displayed identities and complete finite linear
 maps; the global nonexistence deduction also uses the explicit mathematical
 exhaustion and inherited hypotheses in the companion proof.
@@ -1142,7 +1142,7 @@ Date: 2026-10-23. Reviewer: independently delegated adversarial audit agent.
 
 Status: **the reconstructed argument passes this independent mathematical audit**, with the precise hypotheses and local details below. This is an audit of a new proposal, not a canonical promotion. It does not use the previously accepted quartic-carrier exclusion, the previous quartic coefficient classification, or the earlier filtered \(4,4\) proof.
 
-Reviewed documents: [the principal proof proposal](2026-10-23-intrinsic-44-k3-proof-proposal.md) and [the supporting local-algebra note](2026-10-23-intrinsic-quadruple-local-algebra.md). The reconstruction below was completed independently and then compared against both actual files. No mathematical discrepancy was found.
+Reviewed documents: [the principal proof proposal](#intrinsic-44-k3-proof-proposal) and [the supporting local-algebra note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebramd). The reconstruction below was completed independently and then compared against both actual files. No mathematical discrepancy was found.
 
 ## Exact scope and inputs
 
