@@ -105,3 +105,12 @@ The proper synthesis is therefore:
 3. **Open:** higher-degree carriers, special-point degeneration, general initial-ideal patterns, and unrestricted STCI existence.
 
 Next: [the surviving frontier](06-frontier.md); [logical dependency map](DEPENDENCIES.md).
+
+
+## 5.8 The (4,4) laboratory is not a surviving STCI degree case
+
+For two quartic equations, Bézout gives total cycle degree sixteen. If the generic multiplicity along the degree-four curve is (m_C=3), the residual cycle has degree (16-12=4). The reviewed explicit constructions and their audits in [multiplicity and genus budgets](../supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md) exhibit a genuine residual quartic and study moving (A_2) singularities of pencil members. This is valuable information about residual geometry, not a counterexample to R-0001.
+
+A hypothetical proper (4,4) intersection with sole reduced support (C) would instead have generic multiplicity four. The historical geometric proof can be reformulated using direct blowups and surface numerical inequalities without relying on a classification of singularities; it is **not** thereby a proof using only the infinitesimal neighborhood of (C). In particular, the same restriction to the containing quadric can occur with different transverse multiplicities, so quadric restriction alone does not determine the needed obstruction. The narrower promoted exclusion is [R-0022](../results/quartic_44_filtered_exclusion.md); the unrestricted integral-quartic carrier theorem is [R-0001](../results/quartic_carrier_exclusion.md).
+
+The characteristic-two prescribed (4,4) pair is a separate example whose special reduced support can be (C); its flat arithmetic deformation may acquire additional generic components. It is not a characteristic-zero (4,4) STCI and does not contradict the exclusions. See [R-0021](../results/quartic_mu4_degeneration.md) and the [arithmetic lifting supplement](../supplements/Z4_LIFTING_AND_DEFORMATION.md).
