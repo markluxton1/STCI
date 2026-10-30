@@ -22,7 +22,7 @@ Complete mathematical dossier preserving computations, exact hypotheses, counter
 Date: 2026-10-19. Status: **provisional structural propositions with proofs;
 independently reconstructed in the companion audit; not promoted**.
 
-Independent review: [Rees/residual audit](2026-10-19-rees-residual-independent-audit.md).
+Independent review: [Rees/residual audit](#2026-10-19-rees-residual-independent-audit).
 
 ## 1. Exact question and inherited premises
 
@@ -45,9 +45,9 @@ dropped.
 The exact first-blowup balance, residual-degree bounds, moving-direction
 refinements, and generator-dependent vertical counterexamples were
 already proved and independently reconstructed in the
-[exceptional-cycle note](2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples.md)
+[exceptional-cycle note](#2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples)
 and its
-[audit](2026-10-19-exceptional-cycle-and-vertical-family-independent-audit.md).
+[audit](#2026-10-19-exceptional-cycle-and-vertical-family-independent-audit).
 Those statements remain **reviewed evidence, not promoted canonical
 results**. They are not new contributions of this note.
 
@@ -349,7 +349,7 @@ Status: **independently reconstructed structural statements on the hypotheses be
 
 The blowup statements concern a smooth integral threefold of finite type over a field, and a codimension-two complete-intersection subscheme whose reduced support is one integral curve. The Segre calculation specializes to two homogeneous surfaces in projective three-space with no common surface component. The degeneration family is an affine local model over the affine line; it makes no existence claim for a global homogeneous presentation of the fixed rational quartic.
 
-The companion proposal audited here is [the full-ideal Rees investigation](2026-10-19-rees-residual-investigation.md). The relevant prior evidence is the [exceptional-cycle and vertical-family proposal](2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples.md), especially its local family, and its [independent audit](2026-10-19-exceptional-cycle-and-vertical-family-independent-audit.md). Those records already establish the chosen-pair vertical degeneration. This audit does not repeat that multiplicity calculation or reopen the inherited entirely-thick numerical inequality. It reconstructs the intrinsic full-ideal blowup claims and adds the exact first-relation defect calculation.
+The companion proposal audited here is [the full-ideal Rees investigation](#2026-10-19-rees-residual-investigation). The relevant prior evidence is the [exceptional-cycle and vertical-family proposal](#2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples), especially its local family, and its [independent audit](#2026-10-19-exceptional-cycle-and-vertical-family-independent-audit). Those records already establish the chosen-pair vertical degeneration. This audit does not repeat that multiplicity calculation or reopen the inherited entirely-thick numerical inequality. It reconstructs the intrinsic full-ideal blowup claims and adds the exact first-relation defect calculation.
 
 The audit outcomes are:
 
@@ -681,7 +681,7 @@ The evidence in this audit is the exact arguments above. No computational reduct
 
 # Exceptional cycle balance and unbounded vertical degeneration
 
-Status: **proposed structural statements with proofs and an independent reconstruction on the stated hypotheses; not a promoted result**. See the [independent audit](2026-10-19-exceptional-cycle-and-vertical-family-independent-audit.md), including the moving-direction addendum.
+Status: **proposed structural statements with proofs and an independent reconstruction on the stated hypotheses; not a promoted result**. See the [independent audit](#2026-10-19-exceptional-cycle-and-vertical-family-independent-audit), including the moving-direction addendum.
 
 The fixed-curve statements concern the characteristic-zero quartic
 \(C=C_0=[s^4:s^3t:st^3:t^4]\), with the accepted inputs
@@ -908,7 +908,7 @@ Consequently a proposed intrinsic invariant built from successive intersections 
 
 The precise unsolved step relevant to the quartic is to further constrain the distribution of the effective class \((A,B)\) among horizontal curves and vertical fibers using the globally realizable full normal filtration. The residual-correction inequality alone recovers the inherited inequality when \(R=0\); section 2a adds new conditional exclusions using horizontal support slopes. The unrestricted characteristic-zero \(C_0\) STCI problem remains open.
 
-Independent audit: [independent reconstruction of cycle balance, residual bounds, degeneration examples, and the moving-direction refinement](2026-10-19-exceptional-cycle-and-vertical-family-independent-audit.md). No canonical result or question record is modified by this note.
+Independent audit: [independent reconstruction of cycle balance, residual bounds, degeneration examples, and the moving-direction refinement](#2026-10-19-exceptional-cycle-and-vertical-family-independent-audit). No canonical result or question record is modified by this note.
 
 
 ---
@@ -920,7 +920,7 @@ Independent audit: [independent reconstruction of cycle balance, residual bounds
 Date: 2026-10-19.
 
 Reviewer: independent `exceptional_audit` research agent.
-Scope: the statements in [the proposed exceptional-cycle note](2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples.md).
+Scope: the statements in [the proposed exceptional-cycle note](#2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples).
 Outcome: **the cycle identities, residual inequalities, local multiplicities, and homogeneous line example pass independent reconstruction under the hypotheses below.** The phrase “fixed generic algebra” requires the subsequence qualification in §4. No canonical result or question is promoted by this audit.
 
 ## 1. Dependencies, assumptions, and authority
