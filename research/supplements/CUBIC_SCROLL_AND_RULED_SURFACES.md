@@ -1756,13 +1756,12 @@ In characteristic two the same base-change equation is λ²−u²=(λ−u)². Th
 
 This F₂ and the F₂ in the elementary chain (1) are abstractly the same Hirzebruch type, but their marked curves have different classes and squares: E₂+2f₂ (square two) in the base-change construction, versus E₂+3f₂ (square four) in (1). Their equality as abstract surfaces supplies no identification of the marked configurations.
 
-## 5. Audit outcome and scope
+## 5. Geometric comparison and limits
 
-Both explicit elementary-transform chains are verified. The graph-pencil chain separates the four marked sections onto a product with square-zero constant sections; this product is distinguished explicitly from Q. The Q-to-F₄ chain is also verified. It proves a relationship compatible with the marked curve and the degree-one ruling, with the ordered endpoint and explicit embedding data stated. Its divisor transform formula, intermediate classes, and final bundle transitions agree independently.
+The two explicit elementary-transform chains agree with the marked intersection and bundle calculations: the graph-pencil chain separates four sections onto a product with square-zero constant sections, **not** the original quadric \(Q\); the marked \(Q\)-to-\(\mathbb F_4\) chain depends on ordered endpoints and the specified degree-one ruling. The cubic-scroll comparison instead uses a degree-two base change that splits the marked bisection, **not** a birational identification of the two rulings. The hyperplane pullback and graph intersection divisor must accompany this comparison.
 
-The cubic-scroll model is linked naturally by a degree-two base change and splitting of the marked bisection, rather than by a birational identification of the specified rulings. Its hyperplane pullback and graph intersection divisor are verified. The characteristic-two assertion here is restricted to this exact base-change equation.
+The characteristic-two observation concerns only the displayed base-change equation. The distinct normalization and conductor calculations are retained in the primary model sections, without a new STCI implication.
 
-The author notes retain the proofs and full normalization/conductor information for the [projection cone](2026-10-24-projection-cone-ruled-model.md), [cubic scroll](2026-10-24-cubic-scroll-normalization.md), and [four-sheet surface](2026-10-24-four-sheet-ruled-surface.md). Their independent central-model and arithmetic audits are separate from this comparison audit. These are new provisional research contributions, with no change to canonical results, no STCI implication, and no novelty claim.
 
 ## 6. Distinct marked ruled models
 
