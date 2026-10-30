@@ -615,33 +615,9 @@ In particular, \(B\ge\lfloor r/2\rfloor\) forces a nonzero kernel for **arbitrar
 
 The exact finite-degree endpoint in the review likewise requires actual proper global forms: if \(C\) has degree \(d\), \(F,G\) have degrees \(a,b\), and \(M=ab/d\) is integral, then the length of the generic transverse algebra truncated at order \(M+1\) is \(M\) exactly when the entire reduced intersection is \(C\). This is a *recognition test*, not a construction. The missing step is still to compare the permitted socle/boundary modifications with the obstruction to lifting an **embedded** lower thickening into actual homogeneous source spaces. Neither the abstract \(H^1\)-test nor the reviewed fixed-lower comparison proves that bridge for arbitrary pairs.
 
-## boundary-repair-global-lifting-audit
+## Boundary repair: independent scope checks
 
-# Independent audit: boundary repair and global lifting
-
-Review date: 2026-10-27. Reviewer: independent `repair_note_audit` agent.
-Source: [boundary repair and global lifting](2026-10-26-boundary-repair-global-lifting.md).
-Outcome: **PASS within the stated scopes**. The exact repair criteria,
-source-image identities, and fixed-degree endpoint are independently
-reconstructed below. The controlled boundary-modification comparison
-remains an explicitly unproved research target. No canonical promotion,
-new STCI exclusion, or homogeneous realization is certified by this review.
-
-## 1. Scope and method
-
-The reviewer read the retrieval index and contribution protocol, then
-checked the exact source text. The review distinguishes the following:
-
-- smooth-projective-curve cohomology for a specified vector bundle V;
-- the entire effective-divisor family on P1, with B a nonnegative integer;
-- normal and jet images from actual homogeneous equations;
-- the degree-exhaustion criterion for actual proper complete intersections;
-- the proposed, but not yet established, comparison with saturated boundary
-  data of a supported generically curvilinear thickening.
-
-The saturated Gorenstein pairing is used only in its inherited scope.
-No accepted proof or executable certificate was rerun, and no sampled
-example is used as evidence for a universal assertion.
+The primary derivation above supplies the cohomological repair theorem, the common-divisor catalecticant test, the actual homogeneous source-image formulas and the fixed-degree endpoint. The remaining verification below records the **distinct** limitations relevant to applying these statements to embedded thickenings. No theorem identifies arbitrary allowed boundary divisors with realizable global lifts.
 
 ## 2–3. Independent verification of the repair criterion and common-divisor test
 
@@ -713,17 +689,6 @@ in R/m^(M+1). Fixed chart denominators can be cleared, with coefficients
 of the actual forms remaining constants in k. One must retain the proper
 pair open locus. No bound uniform in a,b follows from this fixed-degree
 criterion.
-
-## Outcome
-
-No substantive correction to the inspected source text is required.
-The universal repair test and the exact finite endpoint pass independent
-reconstruction. The proposed boundary-to-obstruction comparison remains
-open and must not be reported as a completed theorem. The audit supports
-using these criteria to choose a class-wide calculation and to diagnose
-when a coarse obstruction is too weak; it does not certify any new
-exclusion, nonempty realization locus, or canonical result promotion.
-
 
 
 ---
