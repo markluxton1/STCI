@@ -14,7 +14,7 @@ Complete mathematical source including universal ideal equalities, conductor obs
 Date: 2026-10-10. Auditor: `oct10_repeated_coverage_audit`.
 Status: **ACCEPTED AS PROVED HERE under the explicit upstream inputs**.
 This independently accepts the complete coverage in
-[the owner's repeated-partition proof](2026-10-09-session-ribbon-repeated-partitions-complete.md).
+[the owner's repeated-partition proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md).
 No parameter, endpoint, direction chart, invisible quadric coefficient, or
 positive mate exponent remains uncovered within these three partitions.
 This note changes no canonical state or acceptance file.
