@@ -924,7 +924,7 @@ fixed C0 and accepted carrier exclusions are premises, with no reruns.
 This note studies new restrictions on the three Cartier-lift models
 from the [accepted classification](2026-10-14-generalization-cartier-lift-independent-audit.md).
 The full socle line is the previously reviewed duality interface in the
-[conormal-socle budget audit](2026-10-13-generalization-socle-independent-audit.md);
+[conormal-socle budget audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd);
 the new ingredient here is the actual first-layer identification from
 the normalization differential and its ramification divisor.
 
@@ -1195,7 +1195,7 @@ replayed.
 Accepted inputs are the
 [transverse first-layer/socle theorem and independent review](#2026-10-14-generalization-transverse-socle-independent-audit)
 and the actual conductor residue identities in the
-[conductor--Jacobian bridge](2026-10-14-generalization-projection-conductor-jacobian-bridge.md).
+[conductor--Jacobian bridge](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-generalization-projection-conductor-jacobian-bridgemd).
 The standard characteristic-zero Artin complete-intersection theorem
 that the Jacobian determinant generates its socle is also an input.
 The new steps below justify its use for the **actual relative socle at
