@@ -1,5 +1,16 @@
 # Complete-intersection cycles: consolidated mathematical investigations
 
+## Mathematical dependency guide: what adaptive valuations can and cannot decide
+
+This dossier organizes candidate residual witnesses and the next experiments. The [adaptive notebook](#2026-10-25-ci-cycle-adaptive-valuative-notebookmd) and [valuative frontier](#2026-10-25-valuative-frontier-next-experimentsmd) are exploration protocols, not global existence or nonexistence theorems.
+
+The mathematical inputs are split across [valuative contact cycles](CI_CYCLE_VALUATIONS_AND_CONTACT.md#2026-10-25-ci-cycle-valuative-contact-cyclemd), [deformation and explicit smooth residual examples](CI_CYCLE_DEFORMATIONS_AND_RESIDUAL_GEOMETRY.md#2026-10-25-ci-cycle-smooth-residual-examplemd), and [pencils and specialization](CI_CYCLE_PENCILS_AND_SPECIALIZATION.md#2026-10-25-ci-cycle-specialization-proximitymd). [Independent CI-cycle audits](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-exploration-auditmd) delimit the supported transitions. A valuation or collision tree can detect local contact changes without deciding whether the projective intersection has additional components.
+
+Keep the root-collision computations, the actual residual benchmarks, and the failed global shortcuts in their original sections; none is subsumed by the adaptive summary.
+
+---
+
+
 Full source mathematical content retained in subject sections. Statements retain their original provisional or audited scope; this compilation does not promote results.
 
 
