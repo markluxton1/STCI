@@ -1620,15 +1620,7 @@ construction already proves the limited relationship requested here.
 
 ## ruled-comparison-independent-audit
 
-# Independent audit: natural ruled comparisons and their limits
-
-Date: 2026-10-24. Reviewer: independent agent `comparison_audit`.
-Status: **independently reconstructed provisional geometry; no canonical promotion**.
-The field is algebraically closed of characteristic zero except where a change is explicitly stated. The fixed curve is
-\[
-C=[s^4:s^3t:st^3:t^4].
-\]
-The reviewer read [INDEX](../INDEX.md) and the [contribution instructions](../CONTRIBUTING_AGENT.md), then reconstructed the comparisons below from local bundle coordinates and intersection theory before consulting author drafts. No STCI result is a premise. This audit verifies specific maps; it does not identify arbitrary birational equivalences as geometric explanations.
+**Scope.** Independent mathematical reconstruction of the specified fixed-curve geometry; supporting evidence, not a new canonical result or an unrestricted STCI theorem.
 
 ## 1. A four-step elementary transformation from the quadric to the four-sheet model
 
@@ -3172,11 +3164,7 @@ synthesis sections or table.
 
 ## cubic-scroll-dual-independent-audit
 
-# Independent audit: the cubic scroll Gauss map and dual
-
-Date: 2026-10-24. Reviewer role: `scroll_dual_audit`.
-**Verdict: the claims below pass in their stated characteristic-zero scope.**
-This is evidence for a provisional research package, not canonical promotion.
+**Scope.** Independent mathematical reconstruction of the specified fixed-curve geometry; supporting evidence, not a new canonical result or an unrestricted STCI theorem.
 
 ## Scope and retained input
 
@@ -3388,37 +3376,7 @@ Gauss geometry across the fiber.
 
 ## four-sheet-arithmetic-independent-audit
 
-# Independent audit of the four-section surface and its arithmetic
-
-Date: 2026-10-24. Reviewer: independent agent `audit_arithmetic`.
-Status: **independent reconstruction and final-draft review completed;
-reviewed provisional geometry, not canonical promotion**.
-
-The reviewed objects are the particular surface and complete intersection
-\[
- X=V(x_1^4-x_0^3x_3),\qquad
- D=V(x_1^4-x_0^3x_3,\ x_2^4-x_0x_3^3),
-\]
-the curves
-\(C_\zeta=[s^4:s^3t:\zeta st^3:t^4]\), and the base
-\(A=\mathbf Z_{(2)}\). Characteristic-zero geometric assertions use an
-algebraically closed field. Put \(p_0=[1:0]\), \(p_\infty=[0:1]\).
-
-The reviewer first reconstructed the cone, ruled bundle, endpoint rings,
-conductor and orbit-image algebra independently, before the author drafts
-were available. Findings were communicated to the authors during drafting.
-The completed [surface note](2026-10-24-four-sheet-ruled-surface.md) and
-[arithmetic note](2026-10-24-ruled-surfaces-arithmetic.md) were then read
-in full and compared with those reconstructions. This audit records that
-final comparison, rather than treating an agreement of draft summaries as
-review. The repository index and contribution protocol were read first.
-
-The accepted [STCI-R-0021](../results/quartic_mu4_degeneration.md) is used
-only for its stated flatness and fiber description of these prescribed
-equations; its accepted proof was not rerun. All additional normalization,
-incidence and arithmetic claims below have their own arguments. No
-carrier exclusion, arithmetic nonlifting theorem, or unrestricted STCI
-claim enters the audit.
+**Scope.** The specified four-section surface, its complete intersection, conductor and arithmetic degeneration over \(\mathbf Z_{(2)}\); geometric statements are made in their stated characteristics.
 
 ## 1. Ruled bundle and finite normalization are different objects
 
