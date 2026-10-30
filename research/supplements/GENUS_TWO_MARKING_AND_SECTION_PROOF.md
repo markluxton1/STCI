@@ -15,12 +15,12 @@ Date: 2026-10-10. Auditor: `genus_two_adjoint_audit`. Status:
 **PROVED HERE for the marking arguments in sections 1--4;
 the full noncrepant section exclusion remains OPEN.** This note
 records the requested bounded audit of sections 3, 6 and 8 of
-[the genus-two owner reduction](2026-10-09-session-genus-two-adjoint-conic-model.md),
+[the genus-two owner reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd),
 then preserves the unfinished graph work for continuation. No
 canonical frontier file was edited.
 
-The prior [adjoint audit](2026-10-09-session-genus-two-adjoint-independent-audit.md)
-and [exceptional/mate-strata audit](2026-10-09-session-genus-two-nullcurve-mate-independent-audit.md)
+The prior [adjoint audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-independent-auditmd)
+and [exceptional/mate-strata audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
 establish, over an algebraically closed characteristic-zero field,
 
     M smooth rational; L nef, big and globally generated;
