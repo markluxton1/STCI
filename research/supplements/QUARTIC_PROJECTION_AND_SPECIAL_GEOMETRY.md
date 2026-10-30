@@ -952,28 +952,11 @@ onto a line in the dual projective space. No inference about a
 characteristic-two orbit classification or a full nonreduced
 correspondence is warranted or claimed.
 
-## 7. Reproduction, corrections, and remaining scope
+## 7. Verification and scope
 
-The reviewer used an independent SymPy 1.14.0 calculation, separate from
-the submitted verifier, for the substitution coefficients, maximal-minor
-gcds of $[v,v',\ldots,v^{(r)},e_2]$ for $r=1,2,3$, and the two
-invariant evaluations. The nonzero-minor gcds on the finite chart were
-$1$, $6u$, and $72u^2$, respectively. The reversed chart was checked
-by the endpoint symmetry. These are checks of explicit identities;
-the completeness, scheme, and quotient arguments are supplied above.
+Independent symbolic checks recover the substitution coefficients, maximal-minor gcds of the osculating matrices, and two invariant evaluations. On the finite chart the nonzero-minor gcds for orders \(1,2,3\) are \(1,6u,72u^2\); the opposite endpoint follows by symmetry. These identities support, but do not replace, the global scheme and invariant-quotient arguments.
 
-No incorrect mathematical assertion was retained after this review.
-The reviewer requested the explicit endpoint reconstruction formula
-and emphasized the reduced-diagonal/double-discriminant distinction;
-both are present. The final cubic-plane pencil addition was rechecked.
-No unresolved mathematical defect was identified within this audit's
-scope. This does not certify the unreviewed parts by association, and
-does not constitute canonical promotion, a novelty claim, or any STCI
-conclusion.
-
-
-
----
+The endpoint reconstruction must distinguish the reduced diagonal from the doubled discriminant; the cubic-plane pencil belongs to the same fixed-curve construction. The reviewed scope is characteristic zero and this embedding, not arbitrary projections, a novelty claim, or an STCI result.
 
 ## quartic-projection-automorphisms
 
@@ -2821,29 +2804,11 @@ A rank-\(de\) bundle on \(\mathbf P^1\) has Euler characteristic
 For \(k=4\) this is exactly (11.2). Rank, degree, and cycle are formal
 compatibility conditions, without an established incompatibility.
 
-## 6. Evidence and outcome
+## 6. Mathematical scope and residual obstruction
 
-The new exact identity script was rerun with
-/tmp/stci-z4-env/bin/python and returned **PASS**, using SymPy 1.14.0.
-The local models, normal count, explicit residual pair, and global
-adjunction were also reconstructed algebraically above. Computation
-supports the displayed identities and is not proof of a new exclusion.
+The exact identity computation and independent algebraic reconstruction agree on the local models, normal count, residual example and global adjunction. The residual example has additional support; it is **not** a set-theoretic complete intersection with sole support \(C\). Local tangency does not by itself imply a global singularity assertion.
 
-No substantive mathematical correction was required in the reviewed
-Sections 7–11. The local/global singularity wording clarification was
-applied. The separate geometry audit governs the dual singular-locus
-classification, which is not an input to the STCI statements checked here.
-
-Section 1 accurately retains the scopes of R0020, R0001, and R0019.
-Sections 12–13 leave the unrestricted STCI problem open, do not propose an
-unsupported inequality, and distinguish the residual example from sole
-support. The remaining dependency is global control of actual homogeneous
-equations, higher normal data, and embedded gluing. These reviewed
-proposals have not been promoted to canonical result records.
-
-
-
----
+The outstanding step is global control of **actual homogeneous equations**, including higher normal symbols and embedded gluing. The separate dual singular-locus classification is not an input to these STCI-local claims. No new numerical exclusion is established.
 
 ## quartic-conormal-independent-audit
 
@@ -3287,25 +3252,9 @@ pair's support contains exactly the two residual trisecant lines in
 the Segre factorization. It is therefore a valid test of an unscoped
 small normal-direction bound, and not an actual-STCI counterexample.
 
-## 7. Review boundary
+## 7. Corrected dual singular locus and scope
 
-All reviewed claims concern this fixed embedding in characteristic zero.
-The mandatory correction is the four-component reduced dual singular
-locus. The audit records the rejected two-component assertion rather
-than silently replacing it with a PASS.
+The reduced singular locus of the restricted discriminant has **four** components, not only the osculating and bitangent quartics: the endpoint pencils \(\ell_0,\ell_\infty\) are additional singular lines. Their direct derivative check and the completeness argument are given above. This correction concerns the **reduced** singular locus; it does not identify the full singular scheme with its support.
 
-The reviewer reread the amended Section 3 endpoint-pencil description,
-Section 6 four-component statement and completeness proof, and Section 10
-balanced-projective-bundle interpretation. The endpoint pencils are
-correctly described, the dual claim is now explicitly about the reduced
-singular locus, and the degree-one osculating section can indeed be
-identified with a diagonal in the balanced product, giving intersection
-number $\mu+1$. The amended identity verifier also passes, including
-vanishing of all discriminant derivatives on the extra lines.
-The explicit Segre factorization has the scalar sign
-$(a^2-b^2)(bc^3-ad^3)$, as in the main note.
-
-**Final corrected outcome:** no remaining discrepancy is identified in
-the reviewed geometry. The unrestricted STCI problem and canonical
-status are unchanged.
+The osculating section has degree one in the balanced projective-bundle model, giving the stated intersection count \(\mu+1\). The Segre factorization retains the sign \((a^2-b^2)(bc^3-ad^3)\). The geometry remains specific to the fixed characteristic-zero quartic and does not settle STCI.
 
