@@ -20,7 +20,7 @@ exclusion is not reopened. Existing sealed records are unchanged.
 
 ## 1. Actual projection and balanced conormal direction
 
-Use the [nonendpoint family](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md)
+Use the [nonendpoint family](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd)
 and the accepted [intrinsic pair](2026-10-11-session-dp5-a4-intrinsic-pair-classification.md).
 On the affine normalization chart let `c:T=0` and `delta!=0`. The four
 sections restrict to
@@ -624,7 +624,7 @@ by root. Status: **CORRECTED EXACT IDENTITIES AND DIRECT GLOBAL-FRAME
 AUDIT; NECESSARY DEGREE RESTRICTIONS ONLY**.
 
 This note audits the actual nonendpoint family in section 1 of the
-[pole-filtration and line-jet note](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md),
+[pole-filtration and line-jet note](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd),
 using the accepted intrinsic A4 pair and fixed characteristic-zero
 C0. It does not re-audit every argument of that note, classify its
 entire conductor, or exclude generic mates in all degrees. The
@@ -1524,7 +1524,7 @@ If E=-3delta^2, Jbar=0 also gives
     d+6delta^2+3a-4b=0.
 
 This is precisely the already excluded entire-line ramification subfamily
-in the [pole/line note](2026-10-12-session-nonendpoint-pole-filtration-and-line-jet.md).
+in the [pole/line note](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd).
 We may consequently assume E(E+3delta^2)!=0.
 
 ## 2. The actual A4 normalization fiber has length two
