@@ -1,5 +1,12 @@
 # Historical mathematical investigations
 
+## Integration guide: incidence reduction and certification boundary
+
+The degree-five support-incidence calculation in this dossier is a **candidate exclusion**, not a certified theorem: the retained source explicitly requires a standalone rerun of its resultant identities. Compare the [monic open and ODE incidence analysis](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md) and [spectral/generator system](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md) for the structural equations. Their independently audited reductions do not automatically certify the later resultant computation. Keep the local-cohomology frontier, resultant computation, and validation obligation separately inspectable.
+
+---
+
+
 Complete source text is retained below, including original mathematical calculations, conditional arguments, failed approaches, counterexamples and open questions. This preservation does not independently certify the mathematical claims.
 
 ---
