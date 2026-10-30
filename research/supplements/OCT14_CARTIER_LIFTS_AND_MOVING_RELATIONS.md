@@ -10,7 +10,7 @@ Complete source text preserved below, including explicit hypotheses, calculation
 
 Date: 2026-10-14. Owner: `global_structure`. Status: **NEW WRITTEN
 THEOREM; independent review requested**. This extends the already
-reviewed [smooth-normalization theorem](2026-10-13-generalization-global-carrier-framework.md)
+reviewed [smooth-normalization theorem](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-global-carrier-frameworkmd)
 by a new proof of the extra singular-normalization scope. It does not
 rerun or recheck the earlier theorem.
 
@@ -155,7 +155,7 @@ one. The three projection targets still require full conductor descent.
 
 Date: 2026-10-14, America/New_York. Reviewer: root.
 Status: **PROVED under the explicit hypotheses below**. This reviews new
-Section 6 of [the thick extension](2026-10-13-generalization-thick-equality-extension.md).
+Section 6 of [the thick extension](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-equality-extensionmd).
 The previously accepted quadratic transition and apolar annihilator
 classification are inputs; their calculations were not repeated.
 
@@ -331,7 +331,7 @@ separate evidence records.
 
 Date: 2026-10-14. Reviewer: root. Status: **PROVED** under the stated
 balanced-normal and generic relation-rank hypotheses. This reviews new
-Section 7 of [the thick extension](2026-10-13-generalization-thick-equality-extension.md).
+Section 7 of [the thick extension](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-equality-extensionmd).
 It does not replay a previously accepted statement or computation.
 
 Let `N_C=H tensor k^2` on a smooth integral projective curve, and let
