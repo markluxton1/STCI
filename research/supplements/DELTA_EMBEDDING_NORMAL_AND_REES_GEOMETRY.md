@@ -24,7 +24,7 @@ R=\mathcal O_{P,p},\quad I=I_C=(x,y),\quad B=R/I,
 \]
 where \(f,g\) form a regular sequence. Distinct integral hypersurfaces give this situation; several algebraic results below have weaker hypotheses, stated in their individual notes. No rational-quartic classification, sole-support theorem, or STCI exclusion is a premise.
 
-The inherited [comparison construction](2026-10-23-ideal-filtrations-independent-investigation.md) and [normal-Koszul continuation](#delta-singular-locus-continuation) are reviewed but **unpromoted** evidence. Their exact claims are retained as premises, without replaying inherited certificates. In particular,
+The inherited [comparison construction](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) and [normal-Koszul continuation](#delta-singular-locus-continuation) are reviewed but **unpromoted** evidence. Their exact claims are retained as premises, without replaying inherited certificates. In particular,
 \[
 S=\operatorname{gr}_I R=\operatorname{Sym}_B E,\quad E=I/I^2,
 \quad H=\operatorname{in}_I J,\quad T=\operatorname{in}_I(IJ),
@@ -449,7 +449,7 @@ Date: 2026-10-24. Status: **provisional research with an independent agent recon
 
 Let \(p\) be a closed point of a smooth integral curve \(C\) in a smooth threefold \(P\), over a field of arbitrary characteristic. Put \(R=\mathcal O_{P,p}\), \(B=\mathcal O_{C,p}\), \(I=I_C\), and \(J=(f,g)\subset I\), where \(f,g\) form a regular sequence. The labelled principal ideals \(A=(f), B_Y=(g)\) are retained; the letter \(B\) denotes the curve ring, not the second carrier ideal. There is **no assumption** that \(\sqrt J=I\). All statements concern the marked embedding, not classification of any additional components. The examples are local algebraic examples, not constructions for the fixed projective rational quartic.
 
-Use the reviewed but unpromoted comparison from [the merged investigation, section 4](2026-10-23-ideal-filtrations-independent-investigation.md):
+Use the reviewed but unpromoted comparison from [the merged investigation, section 4](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd):
 \[
 S=\operatorname{gr}_I R=\operatorname{Sym}_B(I/I^2),\quad
 H=\operatorname{in}_I J,\quad Q=H/S_+H,\quad D=J/IJ\simeq B^2,
@@ -754,7 +754,7 @@ A=\operatorname{gr}_K M=S/H,\quad
 \mathcal D=J/IJ,\quad G=\operatorname{gr}_F\mathcal D=H/T,
 \quad Q=H/S_+H,\quad\Delta=T/S_+H.
 \]
-The exact comparison `0 -> Delta -> Q -> G -> 0` and the smooth-carrier vanishing statement are retained reviewed premises from the [original investigation](2026-10-23-ideal-filtrations-independent-investigation.md). Their authority remains provisional; this note does not promote them. The [continuation](#delta-singular-locus-continuation), sections 5 and 7, supplies the inherited punctual family and supported quadruple used below. Their previously reviewed computations are not rerun here.
+The exact comparison `0 -> Delta -> Q -> G -> 0` and the smooth-carrier vanishing statement are retained reviewed premises from the [original investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd). Their authority remains provisional; this note does not promote them. The [continuation](#delta-singular-locus-continuation), sections 5 and 7, supplies the inherited punctual family and supported quadruple used below. Their previously reviewed computations are not rerun here.
 
 The parameter lift is additional data for an actual transverse slice. The cone `Spec_C A` is intrinsic to `C subset Z`; the transverse slice `M/tM` need not be independent of that lift. All assertions comparing with the slice use the specified `B`-algebra structure.
 
@@ -978,7 +978,7 @@ In a third focused review, `audit_base_change` independently reconstructed Lemma
 
 Date: 2026-10-24. Status: **proved local arguments independently reconstructed by agent review; provisional research evidence, not a promoted result**.
 
-This note continues the [merged ideal-filtration investigation](2026-10-23-ideal-filtrations-independent-investigation.md) and [normal-Koszul continuation](#delta-singular-locus-continuation). It studies the marked embedding \(C\subset Z=X\cap Y\), without imposing \(Z_{\mathrm{red}}=C\). All claims below concern the marked embedding and its deformation; residual components are permitted.
+This note continues the [merged ideal-filtration investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) and [normal-Koszul continuation](#delta-singular-locus-continuation). It studies the marked embedding \(C\subset Z=X\cap Y\), without imposing \(Z_{\mathrm{red}}=C\). All claims below concern the marked embedding and its deformation; residual components are permitted.
 
 ## 1. Exact scope and retained dependencies
 
@@ -1223,7 +1223,7 @@ Scope: a regular codimension-two embedding \(C\hookrightarrow P\), locally with 
 
 ## 1. Claim and its intrinsic meaning
 
-Use the merged [comparison framework](2026-10-23-ideal-filtrations-independent-investigation.md), with
+Use the merged [comparison framework](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), with
 \[
  B=R/I,\quad S=\operatorname{gr}_I R=\operatorname{Sym}_B E,
  \quad E=I/I^2,\quad H=\operatorname{in}_I(J),
@@ -1347,7 +1347,7 @@ The useful next question is now sharper than a support-only question: how do the
 
 Date: 2026-10-24. Status: **proved arguments and parameter families, independently reconstructed within this investigation; research proposal, not canonical promotion**.
 
-This continues the [independent filtration investigation](2026-10-23-ideal-filtrations-independent-investigation.md), especially its question about
+This continues the [independent filtration investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), especially its question about
 \(\Delta=\operatorname{in}_I(IJ)/(S_+\operatorname{in}_I(J))\) at simultaneous singular points. The predecessor's quotient comparison and smooth-carrier support proposition are used as reviewed premises rather than reproved.
 
 Scope: local algebra along a smooth codimension-two marked curve \(C\) in a smooth threefold, with a two-generator regular-sequence ideal \(J\subset I_C\). The entire reduced support may be \(C\), or \(C\) may be a proper marked component. The distinction matters in the examples. No new unrestricted STCI proof or global pair for the fixed rational quartic is asserted.
