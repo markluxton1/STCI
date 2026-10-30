@@ -800,7 +800,7 @@ E1=L=O(e-7), E2=L^2(D2), E3=L^3(D3).
 Assume also the audited socle-pencil theorem in Section 2 of
 [`2026-10-06-session-localcoh-progress.md`](2026-10-06-session-localcoh-progress.md),
 the complete primitive-e=1 triple directions and quartic fibres in
-[`2026-10-07-session-mf6-e1-independent-audit.md`](2026-10-07-session-mf6-e1-independent-audit.md),
+[`2026-10-07-session-mf6-e1-independent-audit.md`](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-independent-auditmd),
 and P-037's all-stage exclusion of multiplier degrees at most three.
 The socle theorem gives `E3=O(-14)`. Thus `e=1` means
 `L=O(-6),degD3=4`.
@@ -1065,7 +1065,7 @@ companion verifier. Exhaustiveness is proved by the linear-algebra
 argument below, not by a parameter search. No canonical state is edited
 by this note, and no novelty claim is made.
 
-The [independent Oct8 audit](2026-10-08-session-veronese-allmate-independent-audit.md)
+The [independent Oct8 audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-veronese-allmate-independent-auditmd)
 checks the classification, full inverse support, exceptional fibers,
 global constant multiplier and arbitrary-degree first conductor jet.
 
@@ -1353,7 +1353,7 @@ For a quadratic form A x^2+B y^2+C z^2+D xy+E xz+F yz, evaluation
 at these six points gives D=E=F=0 and A+B=A+C=B+C=0. In
 characteristic zero all six coefficients vanish. This contradicts
 the nonzero equation f. This also reproduces the
-[independent Roman argument](2026-10-07-session-nonnormal-structural-progress.md).
+[independent Roman argument](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd).
 
 ## 8. Jordan size two: only one allowed point on one conductor line
 
@@ -1449,7 +1449,7 @@ The subsidiary slc classification remains valid: its only possible
 type is Roman, because the Jordan cases have nonreduced conductors
 **generically**. The stronger no-mate proof does not rely on slc.
 It does not repair the false general R subset c implication:
-the [local slc counterexample](2026-10-07-session-ramification-scheme-counterexample.md)
+the [local slc counterexample](#source-2026-10-07-session-ramification-scheme-counterexamplemd)
 still stands for other normalized surfaces. Other nonnormal quartic
 classes and singular normalizations remain outside this theorem.
 
