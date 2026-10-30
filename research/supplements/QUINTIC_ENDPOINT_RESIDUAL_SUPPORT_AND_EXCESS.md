@@ -218,7 +218,7 @@ Write E=U S. The [independent shifted-variable support certificate](2026-10-11-s
 proves S is a genuine quartic and cannot have all its roots among the roots
 of U: its collision resultant with U and its derivative resultant have
 coprime parameter factors. The separate
-[original-variable audit](2026-10-11-session-three-common-roots-residual-quartic-independent-audit.md)
+[original-variable audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
 reconstructs the same certificate. The contradiction retains repeated
 roots and all allowed parameters, with no unresolved finite exceptional set.
 
@@ -267,13 +267,13 @@ The owner proof is
 I reconstructed the projective implication and the target residual equations
 independently, and delegated an independent reconstruction of the contact
 orders to
-[the two-common-root target audit](2026-10-11-session-endpoint-two-common-roots-target-contact-independent-audit.md).
+[the two-common-root target audit](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-endpoint-two-common-roots-target-contact-independent-auditmd).
 I read its final note, source, execution record, and the separate
 [direct-r local-excess proof](2026-10-11-session-quintic-endpoint-a-nonzero-local-excess-bound.md).
 The latter gives a second route through actual intersection lengths, but the
 global argument below does not require its geometric length identification.
 The proof also uses the independently implemented
-[original-variable residual-quartic certificate](2026-10-11-session-three-common-roots-residual-quartic-independent-audit.md)
+[original-variable residual-quartic certificate](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
 and its
 [shifted-variable replay](2026-10-11-session-endpoint-three-common-roots-shifted-replay.md).
 Agent agreement alone is not used as a proof.
@@ -450,7 +450,7 @@ Order at least three therefore forces exactly
 
 The final coefficients c3,c4 and their explicit numerator polynomials are
 displayed in the
-[independent target-contact audit](2026-10-11-session-endpoint-two-common-roots-target-contact-independent-audit.md).
+[independent target-contact audit](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-endpoint-two-common-roots-target-contact-independent-auditmd).
 I inspected that proof and its source. It derives the coefficients from E
 itself and proves the exact polynomial gcd statements
 
@@ -486,7 +486,7 @@ There are four possible counts of distinct common roots of U,V:
 
 In the final case `Cb=-3b^3(2b+3)/4`, so `b != -3/2`. Write E=US.
 The residual S has degree exactly four throughout this locus. The
-[original-variable audit](2026-10-11-session-three-common-roots-residual-quartic-independent-audit.md)
+[original-variable audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
 and its independent
 [shifted-variable certificate](2026-10-11-session-endpoint-three-common-roots-shifted-replay.md)
 give exact incompatible resultants: if every root of S were a root of U,
@@ -990,7 +990,7 @@ of the same failed source as attempt one appears in the tool transcript;
 it supplies no additional certificate.
 
 The separate
-[residual-quartic independent audit](2026-10-11-session-three-common-roots-residual-quartic-independent-audit.md)
+[residual-quartic independent audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
 works directly in the original variable `z` and obtains the same parameter
 factors, with its own captured eight-assertion source. The two sources are
 independent implementations of this algebraic certificate; execution
