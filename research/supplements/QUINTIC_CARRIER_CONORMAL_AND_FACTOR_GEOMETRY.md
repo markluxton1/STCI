@@ -379,9 +379,9 @@ normalization and endpoint-projection hypotheses below. This is not a
 quintic-carrier exclusion. No frozen note, canonical record or existing
 integrity seal is edited by this audit.
 
-The owner source is the [endpoint quadric-factor reduction](2026-10-11-session-quintic-endpoint-quadric-factor-reduction.md).
+The owner source is the [endpoint quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#4-quintic-endpoint-quadric-factor-reduction).
 The geometric inputs are the [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
-its [independent conormal/del Pezzo audit](2026-10-11-session-quintic-conormal-and-delpezzo-audit.md),
+its [independent conormal/del Pezzo audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
 and the [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
 separately records the required distinction between endpoint and nonendpoint
@@ -641,7 +641,7 @@ with seven passing checks. This auditor read the entire checker and its
 raw output. It is one original polynomial checker execution, not a
 Macaulay2 run or a duplicate verifier count.
 
-The delegated [algebra/contact audit](2026-10-11-session-quintic-endpoint-factor-contact-independent-audit.md)
+The delegated [algebra/contact audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#3-quintic-endpoint-factor-contact-independent-audit)
 independently reconstructed both length exact sequences and the projective
 scaling calculation. Its final SHA-256 is
 `f4e86e9c5e0b88e1bfb9d145e72e5226f884184463abee9928cbdda3bb37cca6`.
@@ -675,7 +675,7 @@ local exact sequences without using the author's proof as a premise.
 This note changes no frozen note or canonical frontier file.
 
 Scope: the explicit endpoint projection in the
-[factor reduction](2026-10-11-session-quintic-endpoint-quadric-factor-reduction.md),
+[factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#4-quintic-endpoint-quadric-factor-reduction),
 with center disjoint from S and coefficient a!=0. The
 [explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
 and [intrinsic-pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
