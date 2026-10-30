@@ -27,7 +27,7 @@ Permanent subject consolidation. All source mathematical detail retained with it
 
 # Curve-centered proof routes for multiplicity four
 
-Date: 2026-10-26. Status: exploratory synthesis, an explicit reformulation of an existing proof, and new negative controls; independently reviewed in the [audit](#2026-10-26-44-intrinsic-proof-routes-audit). No canonical promotion.
+Date: 2026-10-26. Status: exploratory synthesis, an explicit reformulation of an existing proof, and new negative controls; independently reviewed in the [audit](#44-intrinsic-proof-routes-audit). No canonical promotion.
 
 ## 1. Question and honest distinction
 
@@ -54,7 +54,7 @@ E_3=L^3(D)=\mathcal O(-18),\quad \deg D=3-3e.
 \]
 Here degrees are on the normalization \(C\simeq\mathbf P^1\), with ambient \(\mathcal O_C(4)=\mathcal O(16)\). Effectivity leaves e=1,D=0 or e=0,deg D=3. The common fixed divisor of the actual first normal symbols is exactly D, and the moving pencil has degree \(6+2e\).
 
-At primitive points the exact ambient local ideal is \((m,\ell^4)\). At a defect of multiplicity d it is \((x^2,y^2-t^d x)\). These are derived from rank-four multiplication, not from a classification of surface singularities. The primitive moving-zero calculation gives a general carrier equation \(uv-t^4\). At a defect, the parametric Morse calculation gives \(uv-t^{2d}\). Only exponents 2,4,6 occur. Bertini gives smoothness outside C. These conclusions, including arbitrary local coefficient functions, are proved in the preserved [local-algebra note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebra).
+At primitive points the exact ambient local ideal is \((m,\ell^4)\). At a defect of multiplicity d it is \((x^2,y^2-t^d x)\). These are derived from rank-four multiplication, not from a classification of surface singularities. The primitive moving-zero calculation gives a general carrier equation \(uv-t^4\). At a defect, the parametric Morse calculation gives \(uv-t^{2d}\). Only exponents 2,4,6 occur. Bertini gives smoothness outside C. These conclusions, including arbitrary local coefficient functions, are proved in the preserved [local-algebra note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebramd).
 
 ## 3. Direct blowups and a classification-free surface bound
 
@@ -159,7 +159,7 @@ Hence their restricted pencils on Q are identical up to nonzero basis scalars. N
 
 ## 6. The exact C-neighborhood target
 
-The existing [intrinsic cubic-contact construction](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-construction) formulates a genuinely marked-neighborhood obstruction. For a quasiprimitive triple T with ideal J define
+The existing [intrinsic cubic-contact construction](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-constructionmd) formulates a genuinely marked-neighborhood obstruction. For a quasiprimitive triple T with ideal J define
 \[
 \mathcal M_T=(J/I_CJ)/\mathrm{torsion}.
 \]
@@ -442,7 +442,7 @@ The independent review reconstructs the new deductions, checks the explicit glob
 
 ## 9. An independent route to the multiplicity-four bound
 
-The use of R0022 in section 2 can be replaced by the existing, independently audited [October 23 K3 proof](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-proof-proposal), with its [independent audit](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-independent-audit) and [rank-four local algebra](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebra). That proof is explanatory evidence, not a promoted canonical result. It is the multiplicity-four analogue of the moving-A2 argument above and uses neither R0001 nor R0022.
+The use of R0022 in section 2 can be replaced by the existing, independently audited [October 23 K3 proof](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-proof-proposal), with its [independent audit](INTRINSIC_44_APPROACHES_AND_CHARACTERISTIC_CONORMAL.md#intrinsic-44-k3-independent-audit) and [rank-four local algebra](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-quadruple-local-algebramd). That proof is explanatory evidence, not a promoted canonical result. It is the multiplicity-four analogue of the moving-A2 argument above and uses neither R0001 nor R0022.
 
 Under hypothetical multiplicity four, purity and degree give sole support C. The smooth-quadric calculation excludes any order-two quartic member, so the generic transverse algebra is curvilinear of length four. Saturated Gorenstein duality gives
 \[
@@ -515,7 +515,7 @@ The coefficients b,c are nonzero for the stated quadratic equation on r. Thus th
 
 ## Neighborhood target and normal-bundle condition
 
-The determinant target and its degree-four/degree-six alternatives are retained at the exact scope of the [intrinsic cubic-contact construction](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-construction). The source correctly calls classification-free nonvanishing for actual quartic sources an unresolved sufficient statement. The abstract rank-one source examples demonstrate why the line-bundle degrees alone do not prove it.
+The determinant target and its degree-four/degree-six alternatives are retained at the exact scope of the [intrinsic cubic-contact construction](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-constructionmd). The source correctly calls classification-free nonvanishing for actual quartic sources an unresolved sufficient statement. The abstract rank-one source examples demonstrate why the line-bundle degrees alone do not prove it.
 
 For the primitive e=1 branch, the blowup normal degrees reconstruct as follows. The first selected normal line has degree six inside \(N_C=\mathcal O(7)^2\). The successive normal sequences have degrees (2,6), (-4,6), and finally (-10,6). The transformed quartic line bundle has successive degrees 10,4,-2 on the successive center curves. After three blowups, actual generation of the reduced remaining center ideal by two such sections would give its conormal bundle \(\mathcal O(2)^2\), equivalently normal bundle \(\mathcal O(-2)^2\).
 
@@ -1297,7 +1297,7 @@ No inherited proof or finite computational certificate was rerun.
 
 Date: 2026-10-26. Reviewer: independent `budget_audit` agent. Status:
 independently reconstructed mathematical review of the [companion
-synthesis](#2026-10-26-normal-torsion-spectral-genus-budget), not canonical
+synthesis](#normal-torsion-spectral-genus-budget), not canonical
 promotion. No unrestricted STCI theorem, global homogeneous realization,
 or literature novelty claim is asserted.
 
