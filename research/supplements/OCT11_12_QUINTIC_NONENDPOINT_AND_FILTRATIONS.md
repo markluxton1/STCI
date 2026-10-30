@@ -264,7 +264,7 @@ The normalized endpoint sections on S minus ell=A2(r,T) are
 
 The three disjoint cases below exhaust all four parameter values.
 
-* **a=0,b!=0:** the [complete support proof](2026-10-11-session-quintic-endpoint-a0-support-exclusion.md)
+* **a=0,b!=0:** the [complete support proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md)
   and [independent audit](2026-10-11-session-quintic-endpoint-a0-polynomial-support-independent-audit.md)
   prove an actual off-c point over C0 for every b,g,d. The degree-six
   residual polynomial cannot have all its roots at the common roots of
@@ -307,7 +307,7 @@ was saved with its complete PASS verdict before its worker later hit a
 usage limit. That terminal error does not supply a theorem; the saved
 written audit and its bound exact records supply the evidence used here.
 
-The previously accepted [quadric-factor reduction](2026-10-11-session-quintic-endpoint-quadric-factor-reduction.md),
+The previously accepted [quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md),
 [factor audit](2026-10-11-session-quintic-endpoint-factor-independent-audit.md),
 and [contact-length audit](2026-10-11-session-quintic-endpoint-factor-contact-independent-audit.md)
 remain valid. The separate [direct-r excess proof](2026-10-11-session-quintic-endpoint-a-nonzero-local-excess-bound.md)
@@ -513,7 +513,7 @@ to these strata.
 ## 3. The entire sectional-genus-zero lane is excluded
 
 The characteristic-zero vanishing and minimal-degree argument used in
-the [quartic genus-zero proof](2026-10-09-session-normalization-sectional-genus-zero.md)
+the [quartic genus-zero proof](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
 applies with degree five. Namely `K_M.L=-7`,
 `chi(K_M+L)=chi(O_M)-1`, and negative nef degree plus vanishing give
 `chi(O_M)=1`, `p_g=0`, and `h1(O_M)=0`. Restriction to the general
