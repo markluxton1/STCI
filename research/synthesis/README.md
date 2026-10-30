@@ -16,6 +16,22 @@ Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and wh
 
 The six numbered chapters and the named mathematical supplements below form the permanent exposition. Files named `phase2_*` and `normalization_conductor_phase2_*` record dated source intake, reconciliation, integration checkpoints, and source dispositions. They are **historical working records**, not additional chapters, current task lists, or competing theorem authority. Retain them where they identify a specific mathematical gap, source disposition, or independently useful failure; consult the permanent exposition and canonical results for current status.
 
+
+## Integrated mathematical topics (October 30 consolidation)
+
+The chapters now provide explicit entry points into the migrated source packages:
+
+| Mathematical question | Start with | Detailed retained derivations |
+| --- | --- | --- |
+| Marked conormal versus quadric and secant-plane flags; dual discriminant intersection | [Chapter 1](01-problem-and-curve.md), §§1.2–1.3 | [Dual flags](../supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md), [projection geometry](../supplements/QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md) |
+| Proper residual cycles, coefficient valuations and full initial ideals | [Chapter 2](02-two-surfaces.md), §2.10 | [CI-cycle valuations](../supplements/CI_CYCLE_VALUATIONS_AND_CONTACT.md), [intrinsic valuations](../supplements/INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md) |
+| Principal-parts boundary repair and embedded equation modules | [Chapter 3](03-infinitesimal-geometry.md), §3.12 | [Weighted initials and repair](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md), [one-step criterion](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md), [Delta embedding](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md) |
+| Scroll/cone normalizations, conductor and four-section specialization | [Chapter 4](04-carriers.md), §4.9 | [Ruled surfaces](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md) |
+| Multiplicity-three residual quartics and the (4,4) exclusion boundary | [Chapter 5](05-exclusions.md), §5.8 | [(4,4) multiplicity and genus](../supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md) |
+| Open bridges to actual global equations | [Chapter 6](06-frontier.md), §6.14 | Corresponding source packages above; canonical status in [results](../results/INDEX.md) |
+
+These are subject-level reading routes, not certifications of every preserved historical argument. The source supplements retain detailed proofs and limitations while their internal duplication awaits further editorial review. Do not infer an established theorem from inclusion in a synthesis chapter.
+
 ## Chapters
 
 1. [Problem and fixed geometry](01-problem-and-curve.md)
