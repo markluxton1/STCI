@@ -1,5 +1,16 @@
 # normal index socle and torsion
 
+## Integration guide: numerical indices and actual symbolic structures
+
+The [general index scope](#2026-10-14-generalization-normal-index-general-scope) derives inequalities that may be applied before a second defining surface is chosen; the [socle theorem](#2026-10-14-generalization-normal-index-socle-theorem) then imposes additional local structure under its exact assumptions. The independent audit distinguishes scalar inequalities from stronger equality-case conclusions and records characteristic restrictions.
+
+[Symbolic carrier torsion](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-torsion) provides Cartier-index and divisor-class information, while [normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) concerns propagation of a filtered complete-intersection structure. Neither a favorable scalar budget nor a formal normal carrier supplies a global second equation automatically. Conversely, the presence of a mate introduces additional numerical constraints that should not be silently assumed in the one-carrier arguments.
+
+Preserve the equality-case, characteristic, and pointwise-index qualifications in the original audits.
+
+---
+
+
 Permanent mathematical dossier. Complete source arguments are preserved with their precise hypotheses, conditional scope, calculations, failed approaches, and unresolved boundaries. This grouping does not promote claims to canonical results.
 
 ---
