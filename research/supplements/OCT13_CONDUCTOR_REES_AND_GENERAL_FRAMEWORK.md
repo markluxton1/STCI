@@ -723,9 +723,9 @@ audit the new repository carrier proofs or certify their novelty.
 
 The controlling records inspected were [the literature ledger](../LITERATURE_LEDGER.md),
 [the current audited state](../AUDITED_STATE_2026-10-07.md),
-[the October 10 primary refresh](2026-10-10-session-primary-literature-frontier-refresh.md),
+[the October 10 primary refresh](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-primary-literature-frontier-refreshmd),
 [the October 6 positive-characteristic proof audit](2026-10-06-positive-characteristic-literature-audit.md),
-and [the October 10 positive-characteristic primary refresh](2026-10-10-session-positive-characteristic-primary-refresh.md).
+and [the October 10 positive-characteristic primary refresh](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-positive-characteristic-primary-refreshmd).
 The current repository claims concern fixed
 `C0=[s^4:s^3t:s t^3:t^4]` in characteristic zero, including all integral quartic
 carriers and specified quintic normalization/projection families. Those
@@ -1201,7 +1201,7 @@ Status: **NEW STRUCTURAL THEOREMS WITH WRITTEN PROOFS; independent audits
 recorded below.** Previously accepted repository claims were used as
 context and were not recomputed. This note audits and substantially
 extends the new
-[power-compression proposal](2026-10-13-evening-general-conductor-power-compression.md).
+[power-compression proposal](#source-2026-10-13-evening-general-conductor-power-compressionmd).
 No novelty claim is made. These results give a degree-independent
 framework on a **fixed carrier**; they do not classify all carriers or
 resolve the global projective-curve STCI question.
@@ -1825,7 +1825,7 @@ arbitrary hypothetical presentation.
 
 ## 1. Authority and complete branch coverage
 
-The existing [evening branch inventory](2026-10-13-evening-branch-frontier-audit.md)
+The existing [evening branch inventory](#source-2026-10-13-evening-branch-frontier-auditmd)
 already provides complete local/cached/live coverage and exact SHAs. Its
 saved [manifest](../validation/2026-10-13-evening-branch-inventory/snapshot-manifest.json)
 binds 25 recovered sources to their branches and Git blobs. That inventory
@@ -1857,9 +1857,9 @@ it never asks for inherited mathematics to be reverified.
 
 | Lane | Strongest current result and precise scope | Live obligation |
 |---|---|---|
-| Universal question; unrestricted fixed C0 in characteristic zero | **OPEN**. The [October 13 literature refresh](2026-10-13-evening-literature-refresh.md) found no accepted unrestricted resolution in its inspected primary sources | No general positive theorem, characteristic-zero counterexample or all-carrier obstruction |
+| Universal question; unrestricted fixed C0 in characteristic zero | **OPEN**. The [October 13 literature refresh](#source-2026-10-13-evening-literature-refreshmd) found no accepted unrestricted resolution in its inspected primary sources | No general positive theorem, characteristic-zero counterexample or all-carrier obstruction |
 | Positive characteristic | **ACCEPTED** restricted constructions, including this monomial C0 and the audited cuspidal-projection hypotheses; literature scopes remain as recorded | Do not infer a theorem for every integral projective curve from monomial/cuspidal families |
-| Actual carriers of degree at most four | **ACCEPTED** [all-quartic assembly](2026-10-11-session-all-quartic-results-acceptance.md), with the earlier cubic/quadric exclusions and factor reduction | Closed as STCI mate lanes, including MF6, early defects, normal quartics, every nonnormal normalization genus and full conductor degenerations |
+| Actual carriers of degree at most four | **ACCEPTED** [all-quartic assembly](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-all-quartic-results-acceptancemd), with the earlier cubic/quadric exclusions and factor reduction | Closed as STCI mate lanes, including MF6, early defects, normal quartics, every nonnormal normalization genus and full conductor degenerations |
 | Quintic structural frontier | **ACCEPTED** rationality through sectional genus three; genus zero excluded; Gorenstein nonnormal mate lane forced to degree-five ADE del Pezzo normalization with one A4 point | Normal quintics and other nonnormal genera remain open; Cartier index divisible by five is a necessary restriction, not exclusion |
 | Genus-one quintic intrinsic endpoint projection | **ACCEPTED** all lift parameters and every positive mate power excluded | Closed; do not transfer its endpoint factorization into the genuine nonendpoint separation modulus |
 | Genus-one quintic nonendpoint, homogeneous gcd degree zero | **ACCEPTED** all-mate exclusion for every admissible coprime corrected conormal pair | Closed. Both `Jbar!=0` local-isomorphism and `Jbar=0` full conductor-phase alternatives are accepted |
@@ -1881,7 +1881,7 @@ it never asks for inherited mathematics to be reverified.
 | Totally ramified split-sextic `[2,2]` | **ACCEPTED REDUCTION**, actual carrier degree six and mate scale `8k` | Actual full conductor and filtered higher jets remain open; all-quartic theorem does not close this lane |
 | Entirely thick pairs | **ACCEPTED** first blowup cycle/Noether budget and failure shields; **NEW OWNER THEOREM / REVIEW PENDING** all-normal-layer socle budget | No uniform degree/Loewy bound or entirely-thick exclusion; equality filtered deformation and positive-defect generation remain active |
 | General single-field conductor power compression | **NEW OWNER THEOREM / REVIEW PENDING** characteristic-zero full Artinian membership compresses to field degree, then global surface descent | Primitive Cartier section degree and uncontrolled split phases are not supplied by this theorem |
-| Smooth-normalization singleton rational lane, every carrier degree | **NEW THEOREM / COMPLETED INDEPENDENT AUDIT** [all-degree classification](2026-10-13-generalization-smooth-normalization-independent-audit.md) forces a minimal-degree polarized `(S,c)`; fixed C0 has only higher models `a=8,P1xP1,H=(2,2),c=(1,1)` and `a=16,P2,H=4h,c=line` | Actual projections and full conductor descent remain open. Smooth normalization and singleton isomorphic lift are hypotheses, not guaranteed properties of a minimum carrier |
+| Smooth-normalization singleton rational lane, every carrier degree | **NEW THEOREM / COMPLETED INDEPENDENT AUDIT** [all-degree classification](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd) forces a minimal-degree polarized `(S,c)`; fixed C0 has only higher models `a=8,P1xP1,H=(2,2),c=(1,1)` and `a=16,P2,H=4h,c=line` | Actual projections and full conductor descent remain open. Smooth normalization and singleton isomorphic lift are hypotheses, not guaranteed properties of a minimum carrier |
 | Cartier-normalization-lift singleton rational lane, every carrier degree | **NEW EXTENSION / COMPLETED INDEPENDENT AUDIT** [singular extension](2026-10-14-generalization-cartier-lift-independent-audit.md) permits exactly one extra fixed-C0 model: degree-eight quadric-cone normalization, c a Cartier conic, H=2c | Three actual projection targets remain; non-Cartier lifts and several or nonisomorphic inverse curves remain outside |
 | Cartier curve downstairs on an integral carrier, every characteristic | **NEW COROLLARY / INDEPENDENTLY DERIVED IN THE EXTENSION AUDIT** forces normal X, `a divides d^2`, `2g-2=d^2/a+(a-4)d`, and `a<4+(2g-2)/d` | Every smooth rational d>=3 is non-Cartier downstairs on every mate-admitting integral carrier; this does not exclude Cartier lifts upstairs on nonnormal X |
 
@@ -1931,7 +1931,7 @@ hypotheses.
 | Cartierness downstairs bounds carrier degree independently of mate | New arbitrary-characteristic normality and adjunction corollary | Focus unbounded carrier work on actual non-Cartier singularities; upstairs Cartier-lift projections still require full conductor analysis |
 | Restricted conductor support converts all mate degrees to finite contact geometry | Accepted homogeneous octic and full cubic/heptic contact proofs | Build the actual conductor restriction on broader normalization classes and prove a uniform support obstruction; first symbols locate exceptional support but never cap its contact multiplicity |
 | Primitive Cartier divisor ray + complete conductor descent compresses mate powers | Accepted Picard/lattice compression in closed lanes; new general single-field Artinian theorem | Bound primitive upstairs section degree and reduced field degrees geometrically, and exclude or control split phase groups |
-| Socle line + every conormal layer records the whole thickening | New [socle budget](2026-10-13-evening-entirely-thick-rees-progress.md): `n(lambda*d-L)=lambda*Asym+2*Delta` | Derive an upper bound on actual Loewy index or positive global defect from ambient homogeneous generation, or contradict the constant Gorenstein graded algebra at equality |
+| Socle line + every conormal layer records the whole thickening | New [socle budget](#source-2026-10-13-evening-entirely-thick-rees-progressmd): `n(lambda*d-L)=lambda*Asym+2*Delta` | Derive an upper bound on actual Loewy index or positive global defect from ambient homogeneous generation, or contradict the constant Gorenstein graded algebra at equality |
 | Global ribbon/conormal obstruction after compression | Accepted balanced `O(-7)^2` normal bundle and global Cartier-double/ribbon argument | Generalize to support curves with controlled normal slopes and actual low-degree Cartier multiples; do not assume normalization sections already descend |
 | Polynomial left duals exclude whole parameter/lift fibers | Accepted actual tensor and affine lift coverage; new f3/f4 polynomial duals | Turn families into a projective parameter/module theorem that includes every denominator/rank stratum and scales to higher ancestors |
 | Full Rees/colon/cluster data couples generic and special behavior | Recovered relative-blowup and saturation framework, with accepted higher-jet failure shields | Supply actual marked-point coupling beyond distinct-root counts; generic exceptional coefficient is not special root multiplicity |
@@ -2010,9 +2010,9 @@ does not resolve either unrestricted STCI question.
 
 ## 1. Accepted inputs and the reason to change the organization
 
-The controlling inputs are the [all-quartic acceptance](2026-10-11-session-all-quartic-results-acceptance.md),
-[quintic structural frontier](2026-10-11-session-quintic-structural-frontier.md),
-and the current [all-branch inventory](2026-10-13-evening-branch-frontier-audit.md).
+The controlling inputs are the [all-quartic acceptance](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-all-quartic-results-acceptancemd),
+[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
+and the current [all-branch inventory](#source-2026-10-13-evening-branch-frontier-auditmd).
 The all-quartic theorem excludes every integral quartic carrier of the
 literal fixed `C0=[s^4:s^3t:st^3:t^4]` in characteristic zero, with
 arbitrary mate degree. It does not force an arbitrary STCI presentation
@@ -2191,7 +2191,7 @@ or remove their split conductor phases.
 Both entries have `H~q c` with `q=2,4`. Consequently the primitive
 normalized section `Q` has degree one and divisor `q c`, and every
 normalized mate of degree `b` is a scalar multiple of `Q^b`.
-Under the separately audited [single-field conductor power-compression theorem](2026-10-13-evening-general-conductor-power-compression.md),
+Under the separately audited [single-field conductor power-compression theorem](#source-2026-10-13-evening-general-conductor-power-compressionmd),
 if no conductor prime is contained in `c` and every generic reduced
 upstairs conductor algebra is one field of degree at most two, any
 mate compresses to ambient degree two. This is excluded by the accepted
@@ -2278,7 +2278,7 @@ The fastest general continuation now has specific targets:
    normalization type, or a divisor-class obstruction across every
    allowed inverse-image vector. None of these is assumed established.
 
-The companion [symbolic-ribbon generalization](2026-10-13-generalization-ribbon-numerical-criterion.md)
+The companion [symbolic-ribbon generalization](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-ribbon-numerical-criterionmd)
 develops a different reusable obstruction from the accepted ribbon
 arguments. Its audit status must be checked before using it as a
 premise. The root's new conductor power theorem is also a separate
