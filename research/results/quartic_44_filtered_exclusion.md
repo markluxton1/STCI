@@ -61,3 +61,7 @@ Provides a shorter proof of the (4,4) case than the full quartic-carrier exclusi
 
 ## Limitations
 It is not a coordinate-free symmetric-algebra obstruction or an unrestricted STCI theorem.
+
+## Permanent evidence navigation
+
+The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/05-exclusions.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
