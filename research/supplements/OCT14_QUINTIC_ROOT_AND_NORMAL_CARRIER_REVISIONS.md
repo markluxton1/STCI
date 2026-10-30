@@ -539,7 +539,7 @@ verifier was rerun. Canonical files were not edited.
 
 This audit reviews the owner notes
 [quintic continuation](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-quintic-continuationmd)
-and [regular L2](2026-10-13-generalization-quintic-l2.md). The underlying
+and [regular L2](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-13-generalization-quintic-l2). The underlying
 problem remains restricted to the fixed characteristic-zero rational
 quartic C0, the sectional-genus-one degree-five A4 normalization model,
 and its actual nonendpoint projections. It does not decide the universal
