@@ -588,7 +588,7 @@ Thus near \(Z\) the boundary is locally a freely moving degree-18 divisor, and t
 
 **What might fail.** The boundary does not specify the number, genera, multiplicities, or higher contact data of residual components. Surjectivity does not assert that every arbitrarily chosen global boundary has a prescribed smooth residual realization, and it gives no multiplicity-four model on \(C\). Understanding topology inside a boundary fiber is a separate experiment.
 
-**Completed continuation, October 26.** At the [line-plus-degree-eleven residual member](#2026-10-25-ci-cycle-line-degenerationmd), the boundary map is again smooth of rank eighteen. The [fixed-boundary smoothing experiment](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd) shows that its fourteen-dimensional local fiber controls all five residual node-smoothing parameters independently, with nine further tangent parameters. The exact ranks and formal/étale interpretation have [independent review](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md). Thus even the exact divisor, rather than only its degree, can be fixed while genus moves from residual gluing into residual normalization. An explicit polynomial coefficient arc is not part of that calculation.
+**Completed continuation, October 26.** At the [line-plus-degree-eleven residual member](#2026-10-25-ci-cycle-line-degenerationmd), the boundary map is again smooth of rank eighteen. The [fixed-boundary smoothing experiment](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd) shows that its fourteen-dimensional local fiber controls all five residual node-smoothing parameters independently, with nine further tangent parameters. The exact ranks and formal/étale interpretation have [independent review](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd). Thus even the exact divisor, rather than only its degree, can be fixed while genus moves from residual gluing into residual normalization. An explicit polynomial coefficient arc is not part of that calculation.
 
 ## 6. What exactly is compressed at the endpoints?
 
@@ -797,8 +797,8 @@ These are proposed experiments, not computations claimed complete. The first fou
 - [Adaptive valuative continuation](CI_CYCLE_ADAPTIVE_FRONTIER.md#2026-10-25-ci-cycle-adaptive-valuative-notebookmd), incorporating the clarified broader goal and cycle-dependent measures.
 - [Explicit smooth residual benchmark](#2026-10-25-ci-cycle-smooth-residual-examplemd) and [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-smooth-residual-auditmd).
 - [Line degeneration](#2026-10-25-ci-cycle-line-degenerationmd) and [independent audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-line-degeneration-auditmd).
-- [Independent node smoothing at fixed boundary](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd) and [October 26 audit](2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit.md).
-- [Completed endpoint-four sextic followup](2026-10-25-endpoint4-actual-sextics.md), including one explicit fixed-carrier residual bound, and [scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md).
+- [Independent node smoothing at fixed boundary](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd) and [October 26 audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd).
+- [Completed endpoint-four sextic followup](ENDPOINT_FOUR_ACTUAL_SEXTICS.md#actual-sextics-on-the-retained-endpoint-four-chart), including one explicit fixed-carrier residual bound, and [scope audit](2026-10-26-endpoint4-nonsplit-node-scope-audit.md).
 
 Run the new selective experiments from the repository root:
 
