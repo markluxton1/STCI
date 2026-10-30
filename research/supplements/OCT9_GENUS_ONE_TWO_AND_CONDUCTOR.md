@@ -1174,7 +1174,7 @@ singularities.
 
 ## 1. Inputs and the exact scope of minimality
 
-The accepted [nonrational-normalization audit](2026-10-09-session-nonrational-normalization-independent-audit.md)
+The accepted [nonrational-normalization audit](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
 establishes that M is rational without requiring a mate. The general
 plane-section and pullback calculations give
 
