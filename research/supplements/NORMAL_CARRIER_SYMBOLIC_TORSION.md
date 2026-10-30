@@ -482,7 +482,7 @@ arithmetic corollaries. It also independently audited
 arithmetic script ran successfully and checked precisely the rows
 displayed above. These audits concern new deductions, not a rerun
 of accepted low-degree exclusions. The auxiliary proof records are
-[normal cyclic-cover torsion detection](2026-10-14-normal-cyclic-cover-torsion-detection.md)
+[normal cyclic-cover torsion detection](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-normal-cyclic-cover-torsion-detection)
 and [primary Picard/local-torsion inputs](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd).
 
 The remaining normal-carrier target is now sharp: show that the
