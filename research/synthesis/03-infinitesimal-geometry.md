@@ -145,6 +145,12 @@ The prescribed pair \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\) gives an exact ar
 
 The conormal splitting change R-0020 (see [canonical results](../results/INDEX.md)) and the prescribed embedded nonlifting result R-0012 (see [canonical results](../results/INDEX.md)) address different objects. The latter excludes the specified supported embedded lift over its stated two-adic bases, **not** the displayed integral family (whose generic support is larger), nor every characteristic-zero pair. This example tests three separate interfaces: full initial ideals, integral embedded liftability, and generic support.
 
+## 3.10B An explicit sextic normal-symbol image
+
+The conditional movement-two (6,16) investigation computes the first nontrivial global-source map rather than assuming normal-symbol surjectivity. For the fixed characteristic-zero quartic, the map from degree-six forms vanishing to order two to quadratic normal symbols has a 23-dimensional domain, a 22-dimensional image and kernel spanned by the cube of the containing quadric. The target has dimension 33, so its image has codimension eleven. The [conditional incidence calculation](normalization_conductor_phase2_addendum.md) gives an explicit source basis and all eleven independent linear equations.
+
+For a moving quadratic root f with symbol multiplier alpha, these equations become eleven bilinear conditions on f and alpha. They are necessary before considering the next cubic jet; in particular alpha must not be inverted at its zeros. The subsequent cubic-jet compatibility is a separate finite 40-coefficient equation, and its solvability does not construct a proper mate of degree sixteen. This is a concrete instance where complete knowledge of the ambient ideal-power space does **not** make its leading-symbol map surjective.
+
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
 The [October 27 one-step investigation](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
