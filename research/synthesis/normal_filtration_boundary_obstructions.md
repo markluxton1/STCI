@@ -31,6 +31,20 @@ The [one-step note](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md), wit
 
 For the final Gorenstein step (generic length at least three), that note argues that no additional divisor allowance remains: the relevant extension class must vanish, and perfect top-layer multiplication is also required. **These claims remain provisional and scoped.** They do not give a general ambient obstruction comparison, a global STCI exclusion, or a converse from splitting to two global equations.
 
+## Full initial ideals and the filtered equation module
+
+For a regular codimension-two embedding C in a smooth threefold, let I be its ideal and J=(F,G) a proper complete-intersection ideal contained in I. Set S=gr_I(O_X)=Sym(I/I²), H=in_I(J), and Q_n=H_n/(S_+ H)_n. The actual equation module J/IJ carries its induced I-filtration. The canonical comparison has an exact sequence
+
+    0 -> Delta_n -> Q_n -> gr^n(J/IJ) -> 0,
+
+where Delta_n=in_n(IJ)/(S_+ H)_n. In particular, minimal generators of the full initial ideal need not survive as independent generators of the filtered equation module. This is the comparison in [R-0030](../results/local_filtration_comparison_defect.md), with its full construction and counterexample in [the ideal-filtration supplement](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd).
+
+The full initial ideal is itself not determined by the two displayed leading forms. In the regular transverse local ring, J=(x²,x²+y³)=(x²,y³), so the displayed order-two symbols generate only (X²), whereas the full initial ideal is (X²,Y³), of colength six. The [higher-initial investigation](../supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#explicit-cancellation-examples) gives further local examples and the prescribed characteristic-two quartic computation. None of these local models by itself constructs a global STCI.
+
+The comparison defect Delta_n is supported only where both carrier hypersurfaces are singular along C. Thus smoothness of either carrier along C forces its vanishing there; simultaneous singularity is necessary, not sufficient, for a nonzero punctual defect. Whether a nonzero punctual comparison defect occurs for an actual proper pair with sole reduced support C remains open. The characteristic-two quartic example illustrates the distinction: its fourth initial equation arises by cancellation, but its comparison defect vanishes [R-0031](../results/quartic_char2_fourth_equation_kernel.md).
+
+Neither Delta_n nor cancellation is the saturated first-relation resultant defect of [R-0016](../results/nonsaturated_first_relation_resultant.md), the quasiprimitive residual-cycle divisor of [R-0019](../results/quasiprimitive_residual_cycles.md), or the rank shortfall of a global jet map. Identifying any two requires an additional comparison argument.
+
 ## The global-source gap
 
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
