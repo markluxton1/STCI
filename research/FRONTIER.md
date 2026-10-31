@@ -125,6 +125,14 @@ is integrated at its exact Gorenstein-normalization scope. This
 checkpoint selects no additional Betti, liaison-chain or quintic-stratum
 classification; separately owned carrier work remains recorded above.
 
+The [finite-map and full-cover checkpoint, §33](notes/2026-10-31-unrestricted-strategy-assessment.md#33-finite-maps-repackage-the-pair-supported-closure-does-not-force-residual-support)
+identifies finite ambient completion as an exact STCI reformulation.
+Supported flat scheme closure exists, but need not retain two global
+equations. The checked moduli theorems supply no forced boundary
+for the full embedded nonreduced cover. Proof and preservation
+reviews pass at provisional scope; no subsequent map-degree or
+endpoint classification is selected.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

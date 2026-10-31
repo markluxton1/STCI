@@ -950,6 +950,39 @@ also extends to every smooth rational space curve; the quartic
 Rao and resolution claims do not automatically generalize.
 This source check selects no Betti or liaison-chain classification.
 
+## Finite ambient maps and full cover moduli
+
+[The bounded source check](notes/2026-10-31-finite-maps-and-cover-moduli.md)
+and [assessment §33](notes/2026-10-31-unrestricted-strategy-assessment.md#33-finite-maps-repackage-the-pair-supported-closure-does-not-force-residual-support)
+separate actual embedded closure from preservation of two equations.
+
+- [Chinburg–Moret-Bailly–Pappas–Taylor, Definition 1.1 and
+  Theorem 1.2](https://arxiv.org/pdf/1201.0678) complete given sections.
+  [Poonen, Theorem 2.2](https://math.mit.edu/~poonen/papers/selfmap.pdf)
+  extends polarized maps without prescribing sole inverse support.
+  [Jamet, Proposition 1.1](https://arxiv.org/pdf/math/0103202)
+  retains the full inverse scheme. The total-invariance hypothesis
+  of [Luo–Meng](https://arxiv.org/pdf/2610.10103) is absent here;
+  this is an applicability check, not an audit of that preprint.
+- [Poonen, Proposition 1.1 and §2](https://arxiv.org/pdf/math/0608491)
+  parameterizes globally based algebras affinely. The actual
+  pencil module is nontrivial, so its frame bundle matters.
+- [Benoist, Theorem 0.8, Corollary 0.10, Proposition 3.23 and
+  Remarks 3.24–3.25](https://arxiv.org/pdf/1212.4862v2) give complete
+  curves in the unequal-degree punctual binary-CI locus and
+  rational examples for consecutive degrees. They invalidate
+  blanket forced-boundary reasoning, without constructing the
+  prescribed ambient quartic thickening.
+- [Deopurkar, Definition 3.3(2), Theorem 3.8](https://ananddeopurkar.org/papers/CompHurwitz.pdf)
+  requires generic étaleness; [Lieblich, Definition 1.1,
+  Theorems 1.3–1.4 and Proposition 2.1.5](https://arxiv.org/pdf/math/0603034)
+  distinguishes proper reduced branchvarieties from general
+  coherent algebra laws. The full hypothetical CI is nonreduced.
+
+No map-degree or local-algebra classification is selected.
+The elementary scheme-closure proof needs no Hilbert–Chow
+smoothness or proper-Hurwitz input.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.

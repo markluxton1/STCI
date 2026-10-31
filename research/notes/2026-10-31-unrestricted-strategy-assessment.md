@@ -3106,3 +3106,107 @@ All three bounded assignments are complete. The carrier proof
 review is reused at its recorded scope, not represented as a
 new independent proof audit. No canonical promotion or
 unrestricted STCI conclusion follows.
+
+## 33. Finite maps repackage the pair; supported closure does not force residual support
+
+The [finite-map and cover-moduli check](2026-10-31-finite-maps-and-cover-moduli.md)
+tests two global mechanisms against the full characteristic-zero
+question. Its elementary deductions are useful clarifications,
+not an additional STCI obstruction. Independent proof, source-scope
+and written-preservation reviews pass within the stated scopes.
+
+**Exact gain and limitation.** An STCI in projective space is
+exactly a reduced inverse image of a linear space under some
+finite endomorphism. For a supported pair on C0, the explicit
+completion is
+\[
+[F^b:G^a:x_0^{ab}:x_3^{ab}].
+\]
+The construction already needs F and G. Its additional power
+ramification factors out, leaving precisely the relative
+Jacobian of the existing finite pencil. Total-invariance
+theorems do not apply: the target is a line, different from C0.
+This closes the proposed completion shortcut, not finite-map
+methods generally.
+
+The second extraction is constructive. Any already embedded
+finite flat thickening over a nonempty open part of the pencil,
+with reduced support C0 there, has a unique flat scheme closure
+in the pencil's plane bundle. The closure is supported on C0,
+misses the exceptional divisor, and descends to a locally CM
+thickening in the original P3. The argument generalizes to any
+curve disjoint from the axis of a finite linear pencil.
+
+Thus support itself is preserved by closure. Gorenstein fibers,
+the required splitting, canonical duality and two global equations
+need not be preserved. A residual-at-infinity argument must
+concern extensions of the equations with these conditions,
+not arbitrary extensions of the supported scheme. This locates
+the missing bridge at the actual ambient ideal, in the user's
+curve/surface/map/ambient compatibility picture.
+
+**Literature changes the proposed moduli premise.** Poonen's
+affine algebra space requires a global basis; the pencil's
+nontrivial vector bundle instead uses a frame bundle and
+change-of-basis action. Benoist supplies complete families
+inside the punctual binary-CI locus, including rational
+examples for consecutive unequal degrees. Complete base
+therefore does not automatically force a non-CI fiber.
+The checked Hurwitz properness requires generic étaleness,
+and branchvariety properness requires reduced sources.
+Neither applies to the full nonreduced hypothetical CI.
+The proof note records the exact statements and primary links.
+
+**Comparison with the strongest recent gains.** The new all-pair
+conductor postulation bound in §28 and the completed quintic
+exclusion in §32 remain actual necessary conditions or class
+exclusions. The former lacks a conflicting upper bound; the
+latter lacks an exhaustive reduction of arbitrary pairs.
+Sections 31–32 identify exact section defects of specified
+sources and recover equations from residual maps. This check
+does not turn those scoped results into an unrestricted bound.
+It adds a positive closure operation and removes two false
+shortcuts, leaving the global equation problem open.
+
+**Recommendation and stopping conditions.** No further technical
+test is selected from either mechanism. Existence would follow
+from one actual ambient construction whose supported closure
+has the required global ideal. The checked theorems do not
+produce it. Nonexistence would require a comparison applying
+to every embedded pair or to an exhaustively reduced class;
+neither the old different nor abstract moduli supplies one.
+
+Reopen for an actual operation on ambient sections or ideals
+which preserves support and controls their global defect, or
+a precise new inequality on the same full embedded object.
+Stop if the input is simply the missing pair, if reduction
+replaces the full nonreduced cover, or if total invariance,
+global framing or boundary positivity is assumed without proof.
+No map-degree, Artin-algebra or endpoint classification follows.
+This decision does not override the separately owned carrier
+investigation recorded in FRONTIER.
+
+**Independent challenge and preservation: scoped PASS.**
+The two scouts used fresh gpt-6-astra/xhigh contexts; the
+independent challenger used fresh gpt-6.1-sol/high. The latter
+reconstructed the deductions, checked the primary-source
+hypotheses, and explicitly challenged nonselection for an
+overlooked construction. It confirmed the stronger elementary
+closure operation without requiring Hilbert–Chow, but found
+no source-backed control of the remaining global ideal.
+Its written review found no material correction.
+
+The reviewed assessment SHA256, before review metadata, was
+
+    985848ad71c549d6bcf0151bf2ccc3e9df4c674d1552b257c80606c68c1f7c32
+
+The ledger state was
+
+    83842cc611b145ce7b53725f5f0eed4c28bd86691898158e14a88487026de27d
+
+The [source §6](2026-10-31-finite-maps-and-cover-moduli.md#6-independent-review-and-disposition)
+records its exact reviewed state and subsequent metadata/citation
+changes. No nested delegation or new computation was performed.
+All three assignments are complete; these contexts are not
+reused for a broader investigation. No canonical promotion or
+unrestricted mathematical status change follows.
