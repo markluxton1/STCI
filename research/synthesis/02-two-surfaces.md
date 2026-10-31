@@ -103,6 +103,12 @@ The conditional movement-two (6,16) calculation gives a concrete source map for 
 
 A proposed symbol alpha times a moving quadratic root must satisfy these equations before it can be the leading symbol of an actual sextic. The next cubic normal jet and the degree-sixteen mate remain independent realization conditions. This example shows concretely why ordinary ideal-power completeness and normal-symbol surjectivity are different statements.
 
+## 2.7C A leading-symbol solution that fails higher compatibility
+
+For the conditional movement-two sextic program, a specified smooth quadratic root and its unique projective multiplier pass the eleven equations defining the actual leading-symbol image. The next cubic-jet compatibility fails by a nonzero exact pairing. The [computed seed](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence) therefore demonstrates that even an **actual global leading symbol** is insufficient to certify the required higher normal behavior.
+
+The failure concerns this seed and the prescribed next-jet condition. It does not show that every sextic with the same first order has a residual curve, or that the entire (6,16) incidence is empty. The generic transverse colength and proper mate still require separate arguments.
+
 ## 2.8 A global equation-module criterion
 
 For a fixed embedded curvilinear lower thickening of generic length n, the October 27 source establishes a determinant test for actual proper pairs of degrees a,b with ab=(n+1)deg(C). The determinant vanishes exactly for pairs with sole reduced support C; otherwise the residual degree is deg(C). The existence of proper determinant-zero pairs remains a separate source-space problem. See Chapter 3 for the hypotheses and the independent lifting test.
