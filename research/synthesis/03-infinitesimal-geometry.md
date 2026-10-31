@@ -163,6 +163,12 @@ The sextic example suggests a precise algebraic distinction. First solve the **i
 
 The second ambient obstruction and the spectral torsion of the full root are additional tests, not interchangeable replacements for the cubic comparison. In particular, a smooth-root example failing the cubic comparison gives a point outside the higher-jet incidence, but says nothing about the singular-root components. This is a scheme-level formulation of the next finite computation, not a claim that it has been carried out.
 
+## 3.10E The augmented-rank test for the cubic correction
+
+For the conditional (6,16) cubic correction, choose bases so that the 40 coefficient identities become \(A(t)x=b(t)\), with sixteen possible coefficients from two polynomials of degree at most seven. On each rank-r stratum of \(A(t)\), compatibility is exactly the vanishing of the (r+1)-minors of \([A(t)\mid b(t)]\). The rank stratum itself requires vanishing of the (r+1)-minors of A **and** a nonzero r-minor, treated on its principal opens. The zero-rank case requires b=0. See [the explicit elimination prescription](normalization_conductor_phase2_addendum.md#determinantal-elimination-without-generic-division).
+
+This rank-by-rank criterion prevents two mistakes: substituting a generic inverse on a locus where it does not exist, and treating the closure of a projected incidence as though every boundary point were realized. The coefficient matrix has not been stratified in the repository, and no emptiness claim follows from this formulation.
+
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
 The [October 27 one-step investigation](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
