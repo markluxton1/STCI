@@ -319,19 +319,19 @@ The ongoing source-level ledgers are `phase2_reconciliation_batch2.md` through `
 ## 21. Entire-conic quadratic conductor: exact power criterion
 
 This is a reusable *actual-conductor algebra* theorem, not a classification of which conic conductor data occur for the fixed curve. For a characteristic-zero degree-four ADE del Pezzo normalization with a two-quadric anticanonical embedding, choose a projection from a point outside the surface. The graded equations can be arranged as
-[
-Q_1=z^2-Az-R_1,qquad Q_2=Lz+R,
-]
+\[
+Q_1=z^2-Az-R_1,\qquad Q_2=Lz+R,
+\]
 where (A,L) are linear and (R_1,R) quadratic in the four target coordinates. Elimination gives the quartic
-[
+\[
 F=R^2+ALR-R_1L^2.
-]
+\]
 Under the complete-intersection, finite-birational projection hypotheses, the **entire downstairs conductor scheme** is the plane conic (\Gamma=V(L,R)), not its reduction. It may be smooth, reducible, or a double line. The algebra audit accepts this exact calculation conditionally on the geometric setup; it does not independently establish every claimed anticanonical embedding or fixed-(C_0) spanning application. Sources: `research/notes/2026-10-09-session-genus-one-entire-conductor.md` and `research/notes/2026-10-09-session-genus-one-entire-conductor-algebra-independent-audit.md`.
 
-Let (M=\mathcal O_\Gamma(1)) and suppose the *entire* finite flat quadratic algebra is
-[
+Let \(M=\mathcal O_\Gamma(1)\) and suppose the *entire* finite flat quadratic algebra is
+\[
 p_*\mathcal O_D=\mathcal O_\Gamma\oplus M^{-1},\qquad w^2=\delta,
-]
+\]
 with trace involution (\sigma(w)=-w). For a nonzerodivisor section (q=m+w\ell), where (m\in H^0(\Gamma,M^2)), (\ell\in H^0(\Gamma,M)), (\delta\in H^0(\Gamma,M^2)), put
 [
 \mathcal C_{\rm cyc}=\left\{\left(\frac{1+\zeta}{1-\zeta}\right)^2:\ \zeta\text{ a root of unity},\ \zeta\ne\pm1\right\}.
@@ -383,6 +383,12 @@ For quadratic \(H_2=as^2+bst+ct^2\), with \(\Delta=b^2-4ac\), the degree-six act
 \mu(\mu^2-4\Delta)(\mu^2-16\Delta)(\mu^2-36\Delta),
 \]
 valid also on the repeated-root boundary. With the allowed \(A_4\) point \(s=0\), retain the homogeneous system \(D_{sH_2}Q_6=L_1Q_6,\ jD_{H_2}Q_6=\mu Q_6\), \(j=\bar J\), rather than discarding \(j=0\). For \(j\ne0\) the support condition is equivalently the covariant identity \(J(\operatorname{Hess}(F_{\rm cond}),Q_6)=0\). These are necessary incidence reductions, **not an \(h=2\) exclusion or conductor-power descent**. The original source flags its later quadratic-algebra norm computation as pending independent review; do not promote that extension here. [Differential proof and incidence](../notes/2026-10-14-generalization-quintic-h2-conductor-quotient.md).
+
+## 23A. Full conductor phases: an exact local-to-family distinction
+
+At a fixed conductor point, the full finite-Artinian inclusion \(A\subset B\) separates a unit into an etale phase and a nilpotent logarithm in characteristic zero. A positive power descends precisely when the nilpotent logarithm already lies downstairs and the reduced etale ratio is torsion. The nilpotent condition cannot be repaired by taking a power. The exact algebraic criterion, including its equalizer formulation, is recorded in [the finite-Artinian phase section](#exact-finite-artinian-phase-descent-and-effective-rational-bound).
+
+For a **family** of projected carriers, this fixed-point criterion must be applied on the admissible parameter locus: basepoint freeness, finite birationality, full inverse support and the complete conductor scheme are prerequisites. A torsion coset in the closure of a phase image need not intersect the constructible admissible image. The family theorem below retains these boundaries and distinguishes bounded isolated torsion phases from unbounded orders along positive-dimensional surviving cosets. The effective order bound later in this file applies only after explicit rational equations for the phase image have been supplied; it is not a uniform bound on arbitrary projection families.
 
 ## 24. Torsion-coset envelope for all-power projection families
 
