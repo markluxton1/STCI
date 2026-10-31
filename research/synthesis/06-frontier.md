@@ -166,6 +166,10 @@ The degree-six quadratic-symbol map has rank 22 from a 23-dimensional source int
 
 The remaining finite task is to solve these equations together with all twenty-five second-obstruction pairings and full-root spectral torsion, retaining singular roots and multiplier-zero strata. A proof of emptiness would exclude only the specified saturated movement-two (6,16) locus; a surviving point would still require a proper mate and support exhaustion. See [the explicit coefficient formulation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
 
+## 6.11D A closed free-orbit chart and the remaining boundary
+
+An existing exact [free cube-orbit certificate](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) already eliminates \(\eta\) from the full cubic sextic equations and proves the restricted chart empty. The result assumes nonzero endpoint coefficients, no primitive-cube root collisions and the canonical cube-norm multiplier. It does not exclude endpoint or collision strata, and its application to actual pairs requires the separate norm necessity argument. The next calculation should therefore address those uncovered strata, not rerun the free-orbit chart.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
