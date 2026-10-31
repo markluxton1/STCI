@@ -89,10 +89,14 @@ first-normal divisor must be nonreduced: the reduced case forces only marked
 \(A_2\) and \(A_8\) points and is excluded by the sextic rank budget and
 the primitive-triple obstruction. A local simple elliptic model shows why
 the nonreduced case is not covered by that argument. The \(L=\mathcal O(-7)\)
-row requires \(D_2\ne0\), but an explicit local rank-nine complete
-intersection with marked \(A_8\) carrier realizes \(D_2=3[0]\).
-The three profiles remain global divisor and lifting problems, not a
-completed exclusion.
+row requires \(2\le\deg D_2\le5\), with additional global actual-pole
+restrictions. An explicit local rank-nine complete intersection realizes
+\(D_2=3[0]\), but a global defect of degree three in that row must have
+three distinct support points. The
+[ADE reduction](../supplements/SEXTIC_ADE_REDUCTION.md) combines the global
+restriction with marked local models to leave only \(L=\mathcal O(-6)\)
+and \(D_2=0\) when the general carrier has rational double points.
+This remaining primitive-triple case and non-ADE carriers are unresolved.
 
 The older [order-one](../results/order_one.md), [jet geometry](../results/jet_geometry.md), and [entirely-thick](../results/entirely_thick.md) analyses ask how ambient sections lift through successive thickenings and how the relevant restriction maps fail to have expected rank. These provide complementary tools for studying the same local-to-global problem. Their historical quartic-carrier cases are not reopened after [STCI-R-0001](../results/quartic_carrier_exclusion.md).
 

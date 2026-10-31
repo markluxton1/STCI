@@ -45,15 +45,20 @@ remains open.
 The [reviewed sextic-pair reduction](supplements/SEXTIC_PAIR_REDUCTION.md)
 covers every \((6,6)\) candidate in characteristic zero or \(p\ge7\):
 it must be generically curvilinear with one of three nonzero defect profiles.
-The \(\mathcal O(-7)\) row also requires a nonzero second defect; an
-explicit local rank-nine complete intersection shows that such a defect is
-locally realizable, without constructing global sextic equations.
+The \(\mathcal O(-7)\) row requires a second defect of degree two through
+five, with exact apolar and actual-pole support restrictions. An explicit
+local rank-nine complete intersection realizes a positive second defect,
+without constructing global sextic equations.
 In characteristic zero its pencil supplies normal integral sextics with an
 actual Cartier-index-nine point, and its common first-normal divisor must be
 nonreduced. The order-three class cover has exact canonical and Euler
-invariants, imposing additional irregularity constraints. The remaining
-nonreduced divisor/lift problem is open; these provisional deductions do not
-exclude the degree pair.
+invariants, imposing additional irregularity constraints. If a general
+pencil carrier has only ADE singularities, the
+[reviewed ADE reduction](supplements/SEXTIC_ADE_REDUCTION.md) leaves only
+\(L=\mathcal O(-6),D_2=0\), with a primitive saturated triple in one
+of three retained ambient torus orbits.
+That case and the non-ADE divisor/lift problem remain open; these
+provisional deductions do not exclude the degree pair.
 
 In positive characteristic, the [reviewed trace bound](supplements/EQUIVARIANT_DEGREE_BOUNDS.md)
 gives \(p\mid ab\) when one defining equation is homogeneous for weights
