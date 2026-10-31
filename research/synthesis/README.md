@@ -75,6 +75,10 @@ For a proper pair with sole support the degree-four curve, \(4\mid de\), equival
 
 The [conditional sextic synthesis](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) now recovers a historical exact unit certificate excluding the entire specified free cube-orbit chart **with** the \(q^3\) lift freedom. This does not settle endpoint, orbit-collision or other root configurations. The earlier single-seed \(-384\) pairing must not be treated as the full-lift certificate.
 
+## Scoped two-node calculations recovered
+
+The [conditional singular-root synthesis](normalization_conductor_phase2_addendum.md#two-node-root-strata-exact-exclusions-and-retained-pencils) now distinguishes excluded generic line and nonzero-defect boundary components from the unresolved generic conic and zero-defect sextic pencil \(H_1H_2+\eta q^3\). These are conditional two-node statements, not a complete classification of all roots.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
