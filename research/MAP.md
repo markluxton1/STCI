@@ -212,6 +212,34 @@ Each ID below links to the authoritative record. Descriptions are deliberately s
 - [R-0035](results/normal_carrier_bounded_index_exclusion.md) — normal integral carriers excluded under bounded local index (at most four) and inherited hypotheses; higher indices and nonnormal carriers not covered.
 - [R-0036](results/pointwise_conductor_socle_defect.md) — pointwise contact/top-socle divisor identity for smooth singleton Cartier normalization with invertible conductor.
 
+The provisional [nonnormal-carrier continuation](notes/2026-10-31-nonnormal-carrier-descent.md)
+separates torsion upstairs from failure of a root to descend, proves the
+general normalization-index denominator constraint, and constructs actual
+local and projective power-descent controls. It recovers the exact octic
+section-image test on the A4 quintic source. The
+[completed Gorenstein-normalization theorem](notes/2026-10-31-quintic-gorenstein-normalization-exclusion.md)
+excludes every mate degree for a nonnormal quintic with Gorenstein
+normalization, with no integrality or reducedness condition on the full
+conductor. The integral case compares eight required contacts with an
+upper bound of six. Multiple components force the actual quartic root
+to descend at the marked A4 point and then globally; the multiple-line
+case fails by its canonical-module type and A4 contact. The
+[componentwise analysis](notes/2026-10-31-componentwise-conductor-root-defect.md)
+retains the general defect formula and local controls showing why a
+nonzero root class need not generate every generic conductor module.
+Non-Gorenstein normalizations remain outside the quintic theorem.
+The [all-degree contact bound](notes/2026-10-31-carrier-conductor-differential-bound.md)
+also shows that a carrier of degree at least five generically regular
+along C must have a normalization singularity on the inverse curve or
+a singular scheme-theoretic conductor contact on C. This does not
+cover generic singularity along C. These results are independently
+reviewed and provisional. The linked local note retains an actual
+singular-A4 square-descent control, without a projective quintic
+realization.
+The preserved [globally ADE quintic theorem](notes/2026-10-31-quintic-octic-ade-exclusion.md)
+excludes that carrier class for (5,8); it does not exclude a nonnormal
+carrier whose normalization has ADE singularities.
+
 ### B. Normal roots, first relations, filtrations and thickening obstructions
 
 - [R-0005](results/smooth_root_formal_obstruction.md) — smooth movement-two formal-root exclusion in balanced setup.

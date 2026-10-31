@@ -2,6 +2,32 @@
 
 ## Research activity status — October 31, 2026
 
+The preserved [quintic–octic ADE exclusion](notes/2026-10-31-quintic-octic-ade-exclusion.md)
+is independently reviewed provisional evidence: a quintic in such a
+presentation cannot have only ADE singularities everywhere, including
+when its first-symbol divisor has repeated zeros. The
+[nonnormal continuation](notes/2026-10-31-nonnormal-carrier-descent.md)
+proves normalization-index restrictions and constructs genuine local
+and projective power-descent controls with different support/degree.
+The [completed Gorenstein-normalization theorem](notes/2026-10-31-quintic-gorenstein-normalization-exclusion.md)
+excludes every mate degree for a nonnormal quintic with Gorenstein
+normalization, including integral, reducible and nonreduced full
+conductors. Integral conductors fail the contact/differential comparison;
+several components force descent of the quartic root through the actual
+A4 conductor algebra. The final multiple-line conductor is excluded
+by its canonical-module type and contact at that A4 point. Thus any
+hypothetical nonnormal quintic carrier must have non-Gorenstein
+normalization. Normal quintics with worse singularities remain outside
+the separate globally ADE (5,8) result.
+
+The [broader differential bound](notes/2026-10-31-carrier-conductor-differential-bound.md)
+applies in every carrier degree at least five, with no global
+Gorenstein-normalization hypothesis. A hypothetical carrier generically
+regular along C must have a normalization singularity on its lifted
+curve or a singular scheme-theoretic conductor contact on C. These
+are independently reviewed provisional restrictions; the unrestricted
+STCI question and canonical status are unchanged.
+
 The [supported ACM construction test](notes/2026-10-31-acm-construction-selection.md)
 is independently reviewed provisional work. Every projected power
 image Y_uv in characteristic zero fails ACM: a uniformly nonzero

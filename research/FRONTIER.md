@@ -2,6 +2,54 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
+## Parallel investigation: nonnormal carriers and full conductor descent
+
+The [nonnormal-carrier continuation](notes/2026-10-31-nonnormal-carrier-descent.md)
+tests both construction and obstruction mechanisms. Its reviewed local
+and ordinary-projective examples show that index five and square-only
+descent can coexist with an actual supported intersection. The example
+has conic support and degrees (10,2), so the fixed-quartic embedding and
+degree requirements remain substantive. Its construction operation
+preserves residual support rather than absorbing it.
+
+The [completed Gorenstein-normalization theorem](notes/2026-10-31-quintic-gorenstein-normalization-exclusion.md)
+excludes every mate degree for a nonnormal quintic with Gorenstein
+normalization, including every reduced or nonreduced conductor scheme.
+The actual conductor-cone geometry and differential bound settle the
+integral case. Component degrees and the contact-two A4 conductor
+algebra force descent of the quartic root when there are several
+components. The remaining multiple-line conductor fails in each
+canonical-module type. The
+[local proof and controls](notes/2026-10-31-square-descent-conductor-contact.md)
+retain genuine singular-conductor descent examples and the distinction
+between this differential and a carrier first symbol.
+
+The [all-degree differential comparison](notes/2026-10-31-carrier-conductor-differential-bound.md)
+requires a normalization singularity on the inverse curve or a singular
+conductor contact on every hypothetical carrier of degree at least five
+that is generically regular along C. Generic singularity along C remains
+outside the argument. Both theorems are independently reviewed and
+provisional; neither settles unrestricted STCI.
+
+The [componentwise root test](notes/2026-10-31-componentwise-conductor-root-defect.md)
+has produced a general sheaf formula, positive local controls, an
+actual projective all-power failure, and the bridge used in the full
+quintic theorem. Its conductor-case investigation is complete.
+
+The next bounded investigation, independently challenged by
+`/root/nonnormal_strategy_challenge`, checks the low-sectional-genus
+classification against the remaining non-Gorenstein quintic
+normalizations. First verify the exact primary-source hypotheses;
+then test its degree-five models against a marked smooth rational
+curve of hyperplane degree four and an actual finite projection to
+the fixed C0. The already excluded genus-zero models are not reopened.
+A useful outcome may be a source model, a geometric restriction or a
+specific missing realization condition. If the classification leaves
+only broad families without a tractable marked-projection question,
+reassess normal quintics with worse singularities or an identified
+higher-degree construction. Those cases and unrestricted STCI remain
+open.
+
 ## Current ACM construction checkpoint: uniform source failure
 
 The [supported ACM test](notes/2026-10-31-acm-construction-selection.md) is complete and
