@@ -2,8 +2,9 @@
 
 The fixed curve is \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), with
 marked endpoints \(p_0,p_\infty\). The constructions in the first two
-sections work over any algebraically closed field. Strict movement uses
-characteristic zero. All deductions here retain their independently reviewed
+sections work over any algebraically closed field. Strict movement holds
+in characteristic zero and in characteristic \(p>0\) when \(p\nmid ab\).
+All deductions here retain their independently reviewed
 **provisional** status; they do not settle the STCI problem.
 
 **Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed provisional deductions, with no canonical promotion; no computation or inherited certificate rerun was needed.
@@ -112,7 +113,7 @@ variation of the abstract Artin algebra.
 
 ## Positive movement and the global presentation barrier
 
-In characteristic zero,
+In characteristic zero, or in characteristic \(p>0\) with \(p\nmid ab\),
 
 \[
 e>0,\qquad W\text{ is not the intersection of any two global effective
@@ -126,13 +127,13 @@ Scaling \(t\) while fixing \(u,v\) preserves \(W\), and equivariance of (1)
 preserves its scheme image \(Z\). The saturated graded ideal \((F,G)\)
 is therefore torus invariant. Diagonalizing its two-dimensional graded
 minimal-generator representation, then lifting weight components, gives
-two weight-homogeneous generators by graded Nakayama. Their gcd is one,
-since the ideal has height two. But
-[Hellus–Hübl, Theorem 1.2](https://arxiv.org/pdf/1312.7661) says that the
-extreme bihomogeneous components of any defining pair for this precise
-characteristic-zero quartic have a nonunit common divisor in \(I_C\).
-For weight-homogeneous generators the extreme components are the generators.
-This contradiction proves strict movement.
+two weight-homogeneous generators by graded Nakayama. This diagonalization
+works in every characteristic, and the generators retain the ordinary
+degrees \(\{a,b\}\). The [trace theorem](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md#trace-proof-for-two-weight-homogeneous-equations)
+excludes such a supported pair in characteristic zero and forces \(p\mid ab\)
+in positive characteristic. This proves strict movement in the asserted
+range. In characteristic zero it also follows from
+[Hellus–Hübl, Theorem 1.2](https://arxiv.org/pdf/1312.7661).
 
 For the second assertion a useful general lemma works in every
 characteristic. Suppose a finite flat \(W\subset\mathbf P^1\times\mathbf G_m^2\)
@@ -227,7 +228,7 @@ The corresponding weighted monomials belong to \(A\), so
 
 \[
 \delta_i\le\sum_{(i,j)\in E}(3i+4j)\le2m(m-1),\qquad
-0<e\le m(4m-2a-2b+3) \quad(\operatorname{char}k=0). \tag{7}
+0<e\le m(4m-2a-2b+3) \quad(\operatorname{char}k=0\text{ or }p\nmid ab). \tag{7}
 \]
 
 For the second bound, the monomial at position \(r\ge0\) in degree order
@@ -436,10 +437,14 @@ use purity, DVR lattices and finite duality, not logarithms, separability
 of the cyclic fourfold projection, or an invertible generic multiplicity.
 The proof of the all-two-divisor lemma is also characteristic free: it
 says such a presentation forces embedded constancy. To deduce its
-impossibility for \(W\), however, one needs \(e>0\), and the proof of that
-strict inequality uses the characteristic-zero Hellus–Hübl theorem.
-The characteristic-seven constant family above witnesses the failure
-of that strict inequality in positive characteristic. The fixed quartic
+impossibility for \(W\), however, one needs \(e>0\). The trace theorem
+establishes that strict inequality in characteristic zero and in
+characteristic \(p>0\) when \(p\nmid ab\). Independent reconstruction on
+October 31, 2026 checked the characteristic-free constancy argument,
+diagonalization with preservation of ordinary degrees, and the resulting
+extensions of (5) and (7). The characteristic-seven constant family above
+has \(7\mid ab\), and witnesses failure of strict movement outside the
+asserted range. The fixed quartic
 in fact has an STCI with a quartic carrier in **every** positive
 characteristic; the [characteristic chapter](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) owns the full construction.
 This broader existence is consistent with characteristic-free conductor
@@ -461,7 +466,8 @@ in characteristic zero, as specified at its application.
 
 ## The remaining global interface
 
-For an actual supported CI, (3)–(9) give a moving finite punctual family,
+For an actual supported CI, (3)–(9) give a finite punctual family (moving
+in characteristic zero or when \(p\nmid ab\)),
 two exact weighted contractions, and compatible conductor pinching algebras.
 The moving primitive construction proves these conditions are not
 inconsistent. The global two-generator ideal and its twists are additional

@@ -24,7 +24,7 @@ no recorded rank or unperformed computation substitutes for one.
 | Approach | Object retained | What is established | What remains missing |
 |---|---|---|---|
 | [Jacobian/contact](contact_jacobians_and_hamiltonian_actions.md) | Actual CI ideal and actual socle line | All six Jacobians recover tangent sextics; exact different/colon and involutive ideal | Quartic-specific incompatibility, or a pair satisfying the global identities |
-| [Full tropical modification](tropical_thickenings_and_endpoint_duality.md) | Entire saturated finite family \(W\to\mathbf P^1\), its two contracted subalgebras and conductor schemes | Every characteristic-zero pair forces positive embedded movement and no two global Cartier equations upstairs | Whether its image can have two compatible homogeneous equations downstairs |
+| [Full tropical modification](tropical_thickenings_and_endpoint_duality.md) | Entire saturated finite family \(W\to\mathbf P^1\), its two contracted subalgebras and conductor schemes | Positive embedded movement and no two global Cartier equations upstairs in characteristic zero or when \(p\nmid ab\) | Whether its image can have two compatible homogeneous equations downstairs |
 | [Polarization root](polarization_roots_and_section_defects.md) | Full nilpotent root algebra, its grading and reduced vertex defect | A unique ample fourth root; Gorenstein full algebra; exact invariant defect and restrictions on reduced section images | A theorem forcing forbidden sections or a construction of the requisite fourth Veronese |
 | [Embedded-neighborhood and Rees controls](section_defects_and_exceptional_cover_controls.md) | Specified section-lifting class; actual normalized exceptional cover | First-order obstruction persists; exceptional covers can be branched with unbounded genus | A proved link to actual residual support using the fixed quartic's equation spaces |
 
@@ -43,8 +43,9 @@ The characteristic-free parts of this account are therefore compatibility
 conditions that such equations may satisfy, not hidden nonexistence claims.
 The full tropical closure, conductor modules/pairings, endpoint indices and
 constant-family two-divisor lemma do not require separability or an inverse
-multiplicity. Strict movement uses characteristic-zero Hellus–Hübl and
-fails for the explicit characteristic-seven constant family. Actual
+multiplicity. The trace theorem gives strict movement in characteristic zero
+and when \(p\nmid ab\); the explicit characteristic-seven constant family
+has \(7\mid ab\) and falls outside that range. Actual
 Jacobian socle recovery instead needs the multiplicity \(m\) invertible;
 its displayed symplectic/tame-cover interpretation additionally needs two
 invertible. The root construction and perfect degree-four torsor pairing

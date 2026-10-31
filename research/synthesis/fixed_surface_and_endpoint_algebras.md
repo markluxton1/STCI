@@ -2,6 +2,13 @@
 
 These are full proofs for the fixed quartic C0, with characteristic zero in the fixed-surface/trace part and arbitrary characteristic in the elementary two-chart and endpoint part. They are independently reviewed provisional deductions, not promoted results. Independent source review reconstructed the finite-flat algebra, identical-full-restriction examples, trace-residue formula and zero-first-trace counterexample, followed by the two-chart/endpoint and determinant arguments. The elementary deductions require no finite search or inherited certificate rerun. The [global equation account](global_equations_and_constructions.md) supplies the elementary quartic geometry and affine-boundary theorem.
 
+The [canonical projection-section proof](../supplements/TAME_PROJECTION_SECTIONS.md)
+adds a characteristic-zero and odd-characteristic consequence for every
+supported pair: the unique algebra section over the unramified base has
+pole order at most \(m-1\) at each branch point. A local complete
+intersection attains that bound even when \(p>4m\); this does not supply
+a regular global retraction or a degree bound growing with \(p\).
+
 ## Characteristic scope of the separate tests
 
 The finite-flat projection/module-splitting proof, actual q-cokernel, and equivalence of sole support with nilpotence and vanishing characteristic coefficients use no characteristic-zero assumption and work over algebraically closed k in every characteristic, under their stated endpoint/quadric hypotheses. The reduced projection [s:t]↦[s⁴:t⁴] is separable in odd characteristic and characteristic zero, and purely inseparable of degree four in characteristic two. Degree ab counts the full finite-flat algebra, not a reduced separable cover.

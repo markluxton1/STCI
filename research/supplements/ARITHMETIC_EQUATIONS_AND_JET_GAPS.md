@@ -2,6 +2,16 @@
 
 The embedded curve is the fixed integral model \(C_0=[s^4:s^3t:st^3:t^4]\). All defining forms have actual scalar coefficients over the algebraically closed field in question. The arithmetic reduction and restricted constructions below have inherited independent review; they remain unpromoted. Their minima range over specified carriers or sources, not every homogeneous pair.
 
+Two extensions have separate focused proofs: [the torus weight bounds](EQUIVARIANT_DEGREE_BOUNDS.md)
+allow one weight-homogeneous equation with an arbitrary mate, at most two
+weights in each equation, or a specified pair of boundary congruences. They
+also constrain extreme components when \(p\nmid ab\).
+[Effective characteristic transfer](EFFECTIVE_CHARACTERISTIC_TRANSFER.md)
+quantifies the bounded-degree arithmetic reduction below and, using the
+promoted quartic exclusion, proves unconditional growth of mate degrees
+over every quartic carrier. Neither establishes unrestricted degree growth
+without the characteristic-zero nonexistence hypothesis.
+
 ## Bounded degree and characteristic-zero existence
 
 ## 1. The exact characteristic limit that would settle the question

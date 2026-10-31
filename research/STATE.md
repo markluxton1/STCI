@@ -42,6 +42,35 @@ full quintic first-symbol divisor and globally ADE quintic. Its integral Picard
 and double-cover step goes beyond its rank count. The full \((5,8)\) problem
 remains open.
 
+The [reviewed sextic-pair reduction](supplements/SEXTIC_PAIR_REDUCTION.md)
+covers every \((6,6)\) candidate in characteristic zero or \(p\ge7\):
+it must be generically curvilinear with one of three nonzero defect profiles.
+The \(\mathcal O(-7)\) row also requires a nonzero second defect; an
+explicit local rank-nine complete intersection shows that such a defect is
+locally realizable, without constructing global sextic equations.
+In characteristic zero its pencil supplies normal integral sextics with an
+actual Cartier-index-nine point, and its common first-normal divisor must be
+nonreduced. The order-three class cover has exact canonical and Euler
+invariants, imposing additional irregularity constraints. The remaining
+nonreduced divisor/lift problem is open; these provisional deductions do not
+exclude the degree pair.
+
+In positive characteristic, the [reviewed trace bound](supplements/EQUIVARIANT_DEGREE_BOUNDS.md)
+gives \(p\mid ab\) when one defining equation is homogeneous for weights
+\((0,1,3,4)\), with an arbitrary mate. The minimum larger degree in that
+class is exactly \(p\) for \(p\ge7\). The same sharp minimum holds when
+each equation has at most two weights. For arbitrary pairs with \(p\nmid ab\),
+both extreme-component pairs have nonunit gcds in \(I_C\), and the full
+tropical family has positive embedded movement; neither condition excludes
+all such pairs. [Effective characteristic transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md)
+gives explicit prime thresholds for bounded-degree existence. Combined with
+the promoted quartic exclusion and a monic-remainder coefficient reduction,
+it gives the unconditional all-quartic mate-degree bound
+\(\beta_4(p)\gg\sqrt{\log\log p/\log\log\log p}\).
+These extensions are independently reviewed provisional deductions.
+A growing unrestricted lower bound remains equivalent to characteristic-zero
+nonexistence; the quantitative growth consequence retains that hypothesis.
+
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.
 A source-reviewed result need not have a promoted ID. Characteristic extensions

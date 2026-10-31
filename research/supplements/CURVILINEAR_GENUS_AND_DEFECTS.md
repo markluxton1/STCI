@@ -524,6 +524,11 @@ ordinary powers, standalone nongorenstein lattices, or the branch where
 both equations have generic normal order at least two.
 
 
+The [all-sextic-pair reduction](SEXTIC_PAIR_REDUCTION.md) applies these
+identities after excluding the thick–thick order stratum. It gives three
+necessary defect profiles for every hypothetical supported \(6,6\) pair
+in characteristic zero or \(p\ge7\), without asserting realizability.
+
 ## Review scope and computational support
 
 The ordinary-layer Euler-characteristic sign, saturated lattice comparison, pointwise Gram-determinant formula and supported boundary model were independently reconstructed in the inherited source state. The counterexample above verifies the missing Gorenstein condition. The perfect saturated multiplication argument is a different direct proof of the self-dual flag used by the degree restrictions. The finite primitive-degree reduction is exhausted by the displayed positive-divisor factorization, with the strict positivity argument; [its exact divisor enumerator](../computations/primitive_curvilinear_degree_budget_2026_10_26.py) is corroboration, not a bounded-search replacement for that proof. The independent arithmetic audit explicitly retained the(17,220) row and the requirement4|ab. No corresponding finite bound on an unbounded socle divisor is asserted. The [positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) is compatible with these conditional structural identities.

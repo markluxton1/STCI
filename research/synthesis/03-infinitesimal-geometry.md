@@ -80,6 +80,20 @@ This produces a **necessary degeneration divisor**, not a contradiction to every
 
 ## 3.7 The other multiple-structure calculations
 
+The [all-sextic-pair reduction](../supplements/SEXTIC_PAIR_REDUCTION.md)
+excludes the thick–thick stratum and gives three necessary finite-defect
+profiles for every supported \((6,6)\) pair in characteristic zero or
+\(p\ge7\). In characteristic zero a general member of its actual pencil
+is normal and must have an on-curve Cartier-index-nine point. Its common
+first-normal divisor must be nonreduced: the reduced case forces only marked
+\(A_2\) and \(A_8\) points and is excluded by the sextic rank budget and
+the primitive-triple obstruction. A local simple elliptic model shows why
+the nonreduced case is not covered by that argument. The \(L=\mathcal O(-7)\)
+row requires \(D_2\ne0\), but an explicit local rank-nine complete
+intersection with marked \(A_8\) carrier realizes \(D_2=3[0]\).
+The three profiles remain global divisor and lifting problems, not a
+completed exclusion.
+
 The older [order-one](../results/order_one.md), [jet geometry](../results/jet_geometry.md), and [entirely-thick](../results/entirely_thick.md) analyses ask how ambient sections lift through successive thickenings and how the relevant restriction maps fail to have expected rank. These provide complementary tools for studying the same local-to-global problem. Their historical quartic-carrier cases are not reopened after [STCI-R-0001](../results/quartic_carrier_exclusion.md).
 
 ## 3.8 The unresolved interface
