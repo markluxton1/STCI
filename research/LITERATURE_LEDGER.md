@@ -646,6 +646,33 @@ elementary matrices. This is a scope warning, not a classification of
 the particular q-localized polynomial ring. The direct defect and
 operation calculations make no literature-novelty claim.
 
+## Ambient constructions, global deficiency and conductor duality
+
+The [October 31 ambient-source test](notes/2026-10-31-ambient-transport-and-projection.md)
+uses [Cheltsov–Przyjalkowski–Shramov, Lemma 6.13](https://arxiv.org/html/1809.09223v1#S6.L13)
+for the exact quartic/conic common blowup, and checks the scope of
+[Cremona linearization, §§1–2](https://people.math.osu.edu/cueto.5/CremonaLinearizations.pdf).
+The actual residual cycle after one displayed Cremona transport is
+computed directly, rather than inferred from reduced birational equivalence.
+
+[Singh–Walther, Example 3.5 and Question 3.6](https://www.math.utah.edu/~singh/publications/singh_walther_pure.pdf)
+explicitly ask the same-radical CM question for this quartic in 2007;
+this historical statement is not proof of its current status. The
+[AG doubles of Notari–Ojeda–Spreafico, Theorems 4.4 and 4.6](https://arxiv.org/pdf/0812.2578)
+retain their rational-normal ambient embeddings. The distinction between
+abstract canonical extensions and embedded constructions is retained from
+[Manolache, introduction and §2](https://imar.ro/journals/Revue_Mathematique/pdfs/2007/4/manolache.pdf).
+
+[Torrente's primary abstract](https://unige.iris.cineca.it/handle/11567/809282)
+corroborates the classical rational-normal-quartic three-quadric source;
+the displayed equations are verified directly because the full chapter
+was not accessed. [Stacks Tag 0AX0](https://stacks.math.columbia.edu/tag/0AX0)
+supplies finite duality without a reducedness hypothesis. The source
+applies it to the full nonreduced schemes to deduce that a Gorenstein
+image of the Gorenstein source must have invertible conductor. Its
+all-exponent nonprincipality proof and Frobenius comparison are direct
+reviewed deductions, with no literature-novelty claim.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.

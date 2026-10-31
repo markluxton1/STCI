@@ -2,7 +2,28 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: actual presentation defects and construction limits
+## Current checkpoint: projected CI source closed by its endpoint conductor
+
+The [ambient transport and projection test](notes/2026-10-31-ambient-transport-and-projection.md)
+is complete and independently reviewed. Actual AG curves
+V(h,f^u,g^v) on a smooth quadric threefold project to schemes whose
+reduced support is exactly C. For every positive u,v, the projected
+scheme fails AG: a nontrivial exponent forces a non-Cartier conductor
+at a marked endpoint, contradicting the necessary finite-duality
+condition for a Gorenstein image; (1,1) fails ACM. This uniformly closes
+the entire selected source as a direct CI construction. Its general
+ACM question remains unresolved and was not needed for that conclusion.
+
+The [assessment, §20](notes/2026-10-31-unrestricted-strategy-assessment.md#20-ambient-transport-a-genuine-projection-source-and-its-conductor-obstruction)
+records the independent challenge that enabled the construction and
+stops automatic exponent or projection-center expansion. Equal odd
+Frobenius powers make the conductor Cartier, removing this specific
+obstruction without proving ACM, AG or CI. Additional reviewed source
+boundaries cover the single-blowup Cremona route and abstract canonical
+idealization. No arbitrary-pair reduction or unrestricted exclusion is
+claimed; a different CI thickening with the same radical remains possible.
+
+## Preceding actual presentation defects and construction limits
 
 The [two presentation investigations](notes/2026-10-31-quadric-presentation-boundary.md)
 are complete. They identify an all-order normal-action defect of the

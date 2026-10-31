@@ -44,6 +44,16 @@ This closes the two bounded tests and shows why a numerical class
 change alone is insufficient. The next global comparison or constructive
 operation remains unspecified; no classification is selected.
 
+The [later ambient-source test](notes/2026-10-31-ambient-transport-and-projection.md)
+constructs actual projected thickenings with exactly the required reduced
+support. A uniform conductor argument shows that none of its positive
+two-power family is AG: a nontrivial power leaves a non-Cartier endpoint
+conductor, while the smallest case retains global section deficiency.
+The coefficient/conductor test is reusable for quadratic covers; odd
+Frobenius powers make this particular conductor Cartier. These are
+reviewed provisional statements about an actual construction and its
+failure, with no reduction of arbitrary STCI pairs to the source.
+
 The [subsequent mechanism comparison](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils)
 checks birational transport, complement pencils and homogeneous bundle
 amplification. It separates preservation of transverse thickness, an
