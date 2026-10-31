@@ -48,8 +48,9 @@ The [supported ACM construction test](notes/2026-10-31-acm-construction-selectio
 settles the projected-power family's previously open ACM question:
 every characteristic-zero image has an explicit global section
 outside the ambient restriction image. The proof is uniform in both
-powers and extends to any covering quadric under the stated
-homogeneous parameter condition. The classical skew-line residual
+powers and now covers all homogeneous binary mixtures with isolated
+common zero, by a determinant and Jacobian-socle argument. It extends
+to any covering quadric under the stated homogeneous parameter condition. The classical skew-line residual
 construction also fails through explicit output ideals and a Koszul
 depth witness. These reviewed provisional results close actual
 sources, not arbitrary ACM thickenings or STCI pairs. No exponent

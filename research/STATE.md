@@ -9,9 +9,12 @@ coefficient class gives an actual missing ambient section, with
 Rao lower bounds 1,2,1 in three consecutive degrees. The proof
 works whenever uv is nonzero in the field and generalizes to
 quadratic covers satisfying the stated parameter condition. The
-classical skew-line residual/Fitting/Kitt constructions also fail
+same determinant/socle argument excludes arbitrary homogeneous binary
+mixtures of the two source functions, uniformly in their coefficients.
+These source classes do not automatically survive quotients to other
+thickenings; no all-pair transfer is asserted. The classical skew-line residual/Fitting/Kitt constructions also fail
 by explicit ideals and depth conditions. The
-[assessment, §25](notes/2026-10-31-unrestricted-strategy-assessment.md#25-the-projected-powers-fail-acm-through-an-explicit-global-section)
+[assessment, §26](notes/2026-10-31-unrestricted-strategy-assessment.md#26-the-same-defect-survives-arbitrary-binary-mixtures-no-new-lane-selected)
 closes these sources without excluding other ACM thickenings or
 unrestricted STCI. No new experiment or canonical promotion.
 

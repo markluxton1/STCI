@@ -11,11 +11,15 @@ the four-coordinate ambient image. The coefficient proof works
 uniformly and extends to arbitrary covering quadrics under a
 homogeneous parameter condition. Its characteristic restriction
 is uv nonzero in the field, retaining the divisible-power cases.
+A uniform determinant/Jacobian-socle extension now closes arbitrary
+homogeneous binary mixtures of the same source functions as well.
+This is extraction of the mechanism, not a new construction lane.
 
 The separate classical residual construction has three exact
 failed outputs and an explicit Koszul-depth obstruction. The
-[assessment, §25](notes/2026-10-31-unrestricted-strategy-assessment.md#25-the-projected-powers-fail-acm-through-an-explicit-global-section)
-closes both sources. Reopening needs an operation that changes
+[assessment, §26](notes/2026-10-31-unrestricted-strategy-assessment.md#26-the-same-defect-survives-arbitrary-binary-mixtures-no-new-lane-selected)
+closes both sources and rejects automatic defect transfer to arbitrary
+primary lifts: the displayed high-degree classes can die in quotients. Reopening needs an operation that changes
 the actual ambient-section deficiency while preserving support,
 or an all-pair comparison. No exponent, neighboring-quadric or
 local linkage classification is selected. STCI remains open.

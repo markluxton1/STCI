@@ -2108,3 +2108,84 @@ supplied here, so no next technical experiment is selected.
 The final source passed two independent reviews with separate
 responsibilities. All four bounded assignments are complete.
 No canonical promotion; unrestricted characteristic-zero STCI remains open.
+
+## 26. The same defect survives arbitrary binary mixtures; no new lane selected
+
+The next selection asked whether replacing independent powers by
+\(\Phi(f,g),\Psi(f,g)\), for arbitrary homogeneous binary forms with
+positive degrees u,v and isolated common zero at the origin, could
+produce an ACM image. This
+is an actual operation with automatic support control, but it had no
+identified mechanism for changing the missing ambient section.
+
+A fresh gpt-6-astra/xhigh scout and a separate fresh
+gpt-6-astra/xhigh strategy reviewer independently found the same
+determinant replacement for the previous product. Primary literature
+supplied the precise Jacobian-socle theorem. The reviewer recommended
+only one uniform proof extraction, then closure, rather than a new
+construction campaign. The parent reported that recommendation and
+the stopping conditions before the proof investigation. No binary-form,
+degree or coefficient classification was launched.
+
+**Exact gain.** The [source, §3a](2026-10-31-acm-construction-selection.md#3a-arbitrary-binary-mixtures-retain-the-same-defect)
+proves that every such mixed source fails ACM when uv is nonzero in
+the field. The odd coefficients of the two substituted equations give
+a two-by-two matrix relative to the two linear chart coordinates.
+Its determinant H is irrelevant torsion; modulo those coordinates it
+becomes the binary Jacobian socle generator. Finite free substitution
+preserves that nonzero generator and yields the same Rao lower bounds
+1,2,1. The parameter-sequence generalization of the preceding result
+persists; characteristic two is allowed for odd uv.
+
+The actual geometric object is the section Hz. It has compatible
+representatives on the two charts covering the image, yet no ambient
+polynomial represents it. Mixing the two functions changes the source
+scheme while retaining this failure of the projected section ring.
+The auxiliary binary algebra explains the determinant, but is not
+being identified with the entire generic transverse algebra.
+The precise literature dependency is Eisenbud–Ulrich, Appendix
+Theorem A.5; no new general socle theorem is claimed.
+
+**Why this does not transfer automatically to arbitrary pairs.**
+A pure primary lift of a hypothetical supported CI need not have
+this two-equation source presentation or even be ACM. Its quotient
+by the downstairs ring has no irrelevant torsion precisely because
+the downstairs ring is CM. Asking for a nonzero class in that torsion
+therefore states a contradiction target; it does not construct one.
+
+Even the displayed source class need not survive a quotient that keeps
+the same reduced curve. Reduction to the rational normal quartic D
+gives \(B_D/A_{C_0}=k(-1)\): only the omitted degree-one section z is
+missing, and the four retained quartics generate every section in
+degrees at least two. Thus the class \(H_{uv}z\), of degree
+\(2u+2v-3>1\) when u+v>2, maps to zero after reduction to D. This
+blocks a functorial persistence shortcut. It does not provide a CI
+quotient or rule out a different universal invariant.
+
+**Existence versus nonexistence.** The result explains and closes a
+whole support-preserving operation. It does not make nonexistence
+more likely, exclude arbitrary ACM thickenings, or supply a lower
+bound on a genuine residual curve. An actual ACM thickening in the
+fixed P3 remains a substantive constructive intermediate target;
+an AG one would settle existence. The nonexistence direction still
+needs an independent restriction on arbitrary defining pairs.
+Neither naming their Rao defect nor repeating the conductor/attachment
+identity supplies that restriction.
+
+**Recommendation and stopping.** Close independent powers and all
+homogeneous binary mixtures together. Do not seek different degrees,
+binary coefficients, quadrics or a complete Rao-module classification
+inside this mechanism. No next technical experiment is selected.
+Reopening requires either an actual support-preserving embedded
+operation with a reason it can alter the global section defect, or a
+new all-pair comparison with a specified geometric input and a
+discriminating consequence. For example, an independent strict upper
+bound contradicting the existing conductor lower bound would qualify;
+requesting that bound without any mechanism does not.
+
+The new proof is independently reviewed in the
+[audit appendix](2026-10-31-acm-construction-selection-audit.md).
+This continuation consolidates the preceding result rather than adding
+a new source catalog. All bounded assignments are complete. The
+unrestricted characteristic-zero STCI question remains open, and
+existence remains a live possibility.

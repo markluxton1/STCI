@@ -788,6 +788,20 @@ no literature-novelty claim. Its broader parameter-sequence version
 uses only regular-sequence and monic-finiteness arguments; it does
 not retain the special reduced quartic when the quadric is varied.
 
+The consolidated §3a extends the same obstruction to arbitrary
+homogeneous binary mixtures. Its new literature input is
+[Eisenbud–Ulrich, Duality and socle generators for residual intersections,
+Appendix Theorem A.5, p.224](https://www.math.purdue.edu/~bulrich/papers/published%20version%20of%20Duality%20for%20Residual%20Intersections.pdf),
+J. reine angew. Math. 756 (2019), 183–226: the Jacobian generates the
+socle of a finite local complete intersection when its length is nonzero
+in the field. The binary algebra here has length uv. Theorem A.3
+identifies the complete-intersection different; A.5 gives the exact
+socle assertion. Preprint numbering is Theorem 8.5, not A.5.
+Finite free substitution by two parameter quadrics retains that socle;
+the projection determinant turns it into an actual missing ambient
+section. This application closes the mixed source without claiming
+an obstruction for arbitrary supported thickenings.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
