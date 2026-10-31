@@ -190,6 +190,10 @@ P-012 already proves every smooth rational quartic is STCI in characteristic \(p
 
 For the restricted family \(F=x_1^4-x_0^3x_3\), \(G=x_2^{p^r}-x_0^a x_1^b x_3^c\), the [exact exponent criterion](01-problem-and-curve.md#12c-exact-frobenius-binomial-criterion-for-a-quartic-first-carrier) is \(0\le b\le p^r/3\) and \(b\equiv3p^r\pmod4\), with \(a=(p^r-3b)/4,\ c=(3p^r-b)/4\). Every admissible triple defines the monomial quartic set-theoretically. For \(p=5\), no admissible \(b\) exists at \(r=1\), while \(r=2\) works with \((a,b,c)=(4,3,18)\). Thus \(25\) is the minimum second degree **in this specified family**; unrestricted characteristic-five degree-product minimality is still open.
 
+## 6.11K All components of the quartic-binomial family
+
+The [exact reduced-support classification](01-problem-and-curve.md#12d-necessity-of-the-frobenius-exponent-and-all-reduced-components) removes the power-of-characteristic assumption from the binomial ansatz. For an exponent-compatible degree-\(n\) second binomial, write \(n=p^r m\), \(p\nmid m\). The reduced intersection is exactly the union of \(m\) quartics \(C_\zeta=[s^4:s^3t:\zeta st^3:t^4]\), indexed by the \(m\)-th roots of unity. Thus sole support holds exactly when \(m=1\). In characteristic zero, the same family has \(n\) components, and its exponent constraints prohibit \(n=1\); hence it never gives a sole-support pair. This is a complete answer for this ansatz, not a characteristic-zero exclusion beyond it.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
