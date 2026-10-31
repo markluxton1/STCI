@@ -1446,3 +1446,103 @@ flexible local Cohen–Macaulay objects; from the nonexistence side it
 locates the missing global presentation constraint. Neither establishes
 an unrestricted conclusion. The independently reviewed work remains
 provisional, with no canonical promotion.
+
+## 19. Actual matrix columns, normal-action defects, and the limit of operation invariants
+
+Two fresh `gpt-6-astra/xhigh` scouts examined the actual presentation
+constraint left by §18: one studied the all-order normal q-action, the
+other constructive determinant-preserving operations. A fresh
+`gpt-6.1-sol/high` reviewer independently reconstructed their deductions
+and challenged their recommendation. The bounded sources and review are
+preserved in the [presentation-boundary note](2026-10-31-quadric-presentation-boundary.md)
+and its [audit](2026-10-31-quadric-presentation-boundary-audit.md).
+The assignments are closed; none is retained for a larger-N campaign.
+
+**Actual gain from the first investigation.** For a hypothetical
+supported pair and least N with q^N∈(F,G), its determinant presentation
+has cokernel M=I_{Y,NQ}. The reduced equation column has common divisor
+rC and a finite residual base scheme T supported on C. The calculation
+identifies the actual inclusion of q^(N−1)M in Ann_M(q), and their
+quotient is a line twist of O_Q/(c^e I_T), with 0≤e≤r−1. Thus normal
+action can fail along an entire multiple eC as well as at points.
+This is an all-order description of a specific geometric defect, not
+an assumption that all layers are line bundles or all defects punctual.
+The finite length 2ab−4r(a+b)+6r² is the familiar quadric intersection
+budget; the new dictionary does not strengthen that budget or compare
+the defect with a residual curve outside C.
+
+**Actual gain and correction from the second.** A column from O(−a)
+in a determinant-q^N matrix whose saturated image on Q is O(α,β)
+requires the full equality (α+a,β+a)=(ν,3ν) to have divisor νC.
+Integral q-pole transvections preserve that image line while every
+intermediate reduction remains nonzero and generically rank one.
+This excludes a specified operation sequence from the standard seeds.
+It does not exclude arbitrary matrices or operations.
+
+The reviewer supplied an explicit escape: the known endpoint-defect
+matrix is transformed to qI, and a subsequent pole operation on q²I
+gives q²I+v w, with v=(x0²,x2²)^t and w=(−x2²,x0²). Its determinant
+is q⁴ and its saturated image O_Q(−2,0) has the required ruling
+difference 2. Nevertheless its column class is (2,4), and its nonfree
+locus contains an unwanted ruling line. The parent accepted this
+challenge: merely changing the ruling difference is already possible
+and is an inadequate next construction target. This single control
+tests the scope of a proposed universal inference; it is not the start
+of a seed classification.
+
+The literature check retained the generation, linearity and distinct
+support-factor hypotheses of the Kerner–Vinnikov determinant results.
+Cohn's elementary-generation counterexample prevents an unsupported
+exhaustiveness assumption. Neither literature input supplies a general
+classification of the arbitrary-twist presentation at issue. The
+proofs and exact primary-source links are in the source note.
+
+**Reassessment of recent progress.** The full sextic correction-space
+exclusion remains a real source theorem, with a residual floor, rather
+than a theorem for all sextic equations. Its Picard interpretation
+exposes a global obstruction, while the uniform punctual extension
+theorem shows how nonfree sheaves can accommodate every ruling class.
+The present work determines a defect of the actual equation ideal and
+exhibits additional constructive flexibility. None of these establishes
+that the required global two equations cannot exist. The earlier
+prescribed-ribbon absorption is also genuine positive input: it moves
+residual degree onto C, but its automatic embedding criterion does not
+reach a supported endpoint. Nonzero obstruction spaces must still not
+be mistaken for nonzero obstruction classes.
+
+The user's compatibility hierarchy clarifies this distinction. An
+abstract curve, an abstract curve in surfaces, compatible maps of those
+surfaces, and their actual images with sole intersection C in P3 impose
+different conditions. Every new result should identify which passage
+it controls. That is an interpretive test, not an instruction to build
+a theory at every level. Here the determinant presentation retains
+actual ambient equations; forgetting its distinguished column or its
+normal action loses precisely the compatibility still at issue.
+
+**Recommendation before another round:** close these two bounded
+investigations and stop further multiple-quadric bookkeeping as a
+default direction. No new technical experiment is selected at this
+checkpoint. On the existence side, an explicit operation on homogeneous
+equations or a concrete embedded surface source would be useful only
+if it adds control of the full boundary divisor and unwanted support;
+a changed numerical class alone no longer qualifies. On the
+nonexistence side, the missing input is a comparison valid for arbitrary
+pairs between the retained normal-action defect and an actual global
+capacity or positive residual degree. The displayed identities do not
+provide it. Searching for a matrix with the final successful column is
+equivalent to the original problem, not a new construction mechanism.
+
+**Stopping conditions:** do not continue by enumerating thicknesses,
+local modules, finite base schemes or neighboring seeds. Reopen only
+when a proposed operation or comparison specifies additional input,
+its applicability to the actual homogeneous equations, and what a
+positive or negative outcome would establish. A construction can settle
+existence within a special family; an exclusion needs an exhaustive
+reduction to settle nonexistence. Neither direction receives priority
+merely because it produces quicker local calculations. The continuing
+assessment remains part of the process, and unrestricted
+characteristic-zero STCI remains open.
+
+Final-state independent review: **scoped PASS** by
+`matrix_boundary_strategy_review`; see the companion audit, including
+its final strategy-assessment disposition. No canonical promotion.

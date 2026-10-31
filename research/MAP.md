@@ -32,8 +32,17 @@ characteristics and constructs arbitrary ruling-class MCM extensions
 free away from one prescribed point. This prevents a bare Picard
 imbalance from serving as an unrestricted obstruction once nonfree
 defects are retained; the actual homogeneous presentation and equation
-column still impose unexamined conditions. The work is independently
+column still impose additional conditions. The work is independently
 reviewed and provisional, with no canonical promotion.
+
+The [actual-presentation continuation](notes/2026-10-31-quadric-presentation-boundary.md)
+identifies one normal-action defect uniformly, including divisorial
+nonfreeness, without deriving a new residual-degree bound. Its scoped
+pole-operation invariant has an explicit rank-zero escape: the ruling
+difference changes, but the full column divisor and support fail.
+This closes the two bounded tests and shows why a numerical class
+change alone is insufficient. The next global comparison or constructive
+operation remains unspecified; no classification is selected.
 
 The [subsequent mechanism comparison](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils)
 checks birational transport, complement pencils and homogeneous bundle

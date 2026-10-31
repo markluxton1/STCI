@@ -2,6 +2,19 @@
 
 ## Research activity status — October 31, 2026
 
+The [actual-presentation continuation](notes/2026-10-31-quadric-presentation-boundary.md)
+is independently reviewed provisional work. It identifies the quotient
+Ann_M(q)/q^(N−1)M for the actual equation ideal on NQ, retaining both a
+possible multiple of C and finite defects. Its finite length calculation
+is the known quadric intersection budget, with no new residual bound.
+An invariant of specified pole operations has an explicit rank-zero
+escape supplied during independent review; that example fails the full
+column-divisor and off-C support requirements. The
+[assessment, §19](notes/2026-10-31-unrestricted-strategy-assessment.md#19-actual-matrix-columns-normal-action-defects-and-the-limit-of-operation-invariants)
+closes these bounded investigations without selecting a classification
+or another technical experiment. No canonical or unrestricted status
+changes.
+
 The [multiple-quadric lifting theorem](notes/2026-10-31-punctual-quadric-lifting.md)
 is independently reviewed provisional work. For every finite n≥2 it
 computes the Picard restriction image: diagonal in characteristic zero,

@@ -2,7 +2,24 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: global normal corrections and punctual extension
+## Current checkpoint: actual presentation defects and construction limits
+
+The [two presentation investigations](notes/2026-10-31-quadric-presentation-boundary.md)
+are complete. They identify an all-order normal-action defect of the
+actual equation ideal, including its possible divisorial part, and an
+image-line invariant of specified integral pole operations. Independent
+review supplied an explicit rank-zero transition that changes the ruling
+difference, while failing the full column-divisor and support conditions.
+The [assessment, §19](notes/2026-10-31-unrestricted-strategy-assessment.md#19-actual-matrix-columns-normal-action-defects-and-the-limit-of-operation-invariants)
+closes both bounded investigations. No new residual inequality,
+successful equation column, or next technical experiment is claimed.
+Reopening needs a specified operation adding simultaneous divisor/support
+control, or an arbitrary-pair comparison with actual residual degree;
+neither thickness enumeration nor a request for the final successful
+matrix supplies that new input. Unrestricted characteristic-zero STCI
+remains open.
+
+## Preceding normal corrections and punctual extension
 
 The [multiple-quadric lifting theorem](notes/2026-10-31-punctual-quadric-lifting.md)
 is complete and independently reviewed provisional work. It computes

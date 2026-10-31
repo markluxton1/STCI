@@ -42,6 +42,15 @@ stop expanding once that question has been answered. The
 [October 31 assessment](notes/2026-10-31-unrestricted-strategy-assessment.md)
 records the first application of this standing process.
 
+The user's curve/surface/ambient compatibility picture is a useful
+interpretive check: say whether a result concerns the abstract marked
+curve, its placement in abstract surfaces, compatible surface maps, or
+the actual images and their complete intersection support in P3. A
+result at an earlier level needs an explicit bridge to the later one.
+Use this to expose missing conditions, without making every level a
+separate compulsory research program. An exact reformulation is useful
+orientation but is not itself a new construction or obstruction.
+
 ## Available geometric inputs
 
 The [all-multiplicity moving control](notes/2026-10-31-moving-family-descent.md)
