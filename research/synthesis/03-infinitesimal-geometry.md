@@ -166,6 +166,10 @@ The twenty-five second-obstruction pairings, full-root torsion and existence of 
 
 The historical [free cube-orbit calculation](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) includes the free \(\eta q^3\) sextic lift. Its restricted chart reduces to \(p(h)=648h^4+45h^2-4=0\), while two full cubic equations satisfy \(E_4-6E_8=18h-324h^3\) and a polynomial unit certificate. Thus that entire chart is empty even after varying the lift. The endpoint and orbit-collision strata remain unexcluded; application to supported pairs depends on the separately proposed norm necessity bridge.
 
+## 3.10F Two-node reduction and the surviving sextic pencil
+
+The [forced-norm two-node continuation](normalization_conductor_phase2_addendum.md#two-node-root-strata-exact-exclusions-and-retained-pencils) excludes the generic nonzero-defect line component and its \(B=0,C=0\) boundaries by exact scoped computations. The generic conic component remains unresolved. On the distinct zero-defect stratum, the global sextic has the exact form \(H_1H_2+\eta q^3\), and an actual supported pair must have \(\eta\ne0\) by cubic factor reduction. This is a necessary pencil description, not a mate construction.
+
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
 The [October 27 one-step investigation](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
