@@ -165,6 +165,12 @@ The explicit smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique 
 
 The next finite task is to describe the common zero locus of the eleven symbol equations, the cubic comparison and the second-obstruction pairings, with singular-root and multiplier-zero strata retained. One cannot infer emptiness of the incidence from the failed seed or from a generic-rank computation.
 
+## 6.11E A finite incidence with explicit rank strata
+
+The next bounded (6,16) problem has a definite algebraic shape: take the eleven bilinear equations for the actual quadratic-symbol image, adjoin the cubic-jet linear system, stratify by the rank of its correction matrix, and impose the twenty-five second-obstruction pairings and the spectral condition on the **full** root scheme. The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) specifies why generic inversion or division by the multiplier is unsafe.
+
+The result should distinguish an empty necessary incidence, nonempty formal candidates without actual mates, and genuinely realized proper pairs. Even a nonempty necessary incidence does not settle the STCI question. Conversely, an emptiness proof for the complete incidence only excludes the saturated movement-two (6,16) locus unless all other possible first-relation types are separately covered.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
