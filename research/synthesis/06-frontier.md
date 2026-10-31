@@ -186,6 +186,10 @@ The reviewed [strict-sextic singular-curve argument](normalization_conductor_pha
 
 P-012 already proves every smooth rational quartic is STCI in characteristic \(p>0\), with degrees \((3,4p)\). P-008 provides a direct fixed-monomial construction, improved to \((3,4)\) in characteristic three and \((4,4)\) in characteristic two. The remaining question about smallest degree products, including characteristic five, is **not** settled by these existence results. Keep fixed-model minimization separate from the universal theorem, and from characteristic-zero exclusion arguments. See [Chapter 1](01-problem-and-curve.md#12b-positive-characteristic-presentations-fixed-model-versus-all-rational-quartics).
 
+## 6.11J A solved characteristic-five subproblem
+
+For the restricted family \(F=x_1^4-x_0^3x_3\), \(G=x_2^{p^r}-x_0^a x_1^b x_3^c\), the [exact exponent criterion](01-problem-and-curve.md#12c-exact-frobenius-binomial-criterion-for-a-quartic-first-carrier) is \(0\le b\le p^r/3\) and \(b\equiv3p^r\pmod4\), with \(a=(p^r-3b)/4,\ c=(3p^r-b)/4\). Every admissible triple defines the monomial quartic set-theoretically. For \(p=5\), no admissible \(b\) exists at \(r=1\), while \(r=2\) works with \((a,b,c)=(4,3,18)\). Thus \(25\) is the minimum second degree **in this specified family**; unrestricted characteristic-five degree-product minimality is still open.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
