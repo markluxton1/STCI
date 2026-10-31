@@ -2,6 +2,9 @@
 
 **Status:** thematic synthesis of scoped canonical results and open interfaces. This is not a new theorem or an independent rerun of computational certificates. Start with [the simultaneous-surface chapter](02-two-surfaces.md) and [the formal-normal intersection framework](formal-normal-intersection.md).
 
+**Varying-lift qualification.** A compatible quadratic symbol determines a sextic only modulo \(\eta q^3\). Since \(q^3\) has normal order three, the correct existence test for some sextic lift is \(h+\eta(q^3)_3=f(\ell u+mv)\). The correction map alone has rank sixteen; the augmented map including \(\eta\) has rank sixteen or seventeen depending on whether \((q^3)_3\) lies in its image. Consequently a fixed-lift cubic failure does not, without checking this extra direction, exclude every lift of the same symbol. The reported \(-384\) pairing must be checked against \((q^3)_3\) before it is used as a varying-lift obstruction. See [the precise correction](normalization_conductor_phase2_addendum.md#varying-the-sextic-lift-the-missing-q3-direction).
+
+
 ## 1. Setup: proper intersections are not necessarily STCI
 
 For two surfaces meeting properly and containing the fixed quartic C, write the fundamental cycle as [V(F,G)] = m[C] + R. Then de = 4m + degree(R), so m = de/4 **only** when R vanishes. See [Chapter 2](02-two-surfaces.md) for generic normal orders and exceptional directions, and [Formal normal geometry](formal-normal-intersection.md) for the provisional full-initial-ideal/valuation framework.
