@@ -83,6 +83,10 @@ The [conditional singular-root synthesis](normalization_conductor_phase2_addendu
 
 The [strict-sextic continuation](normalization_conductor_phase2_addendum.md#singular-curves-on-the-strict-sextic-two-conditional-alternatives) narrows remaining actual-pair geometry to nonnormality at a multiplier zero or, under local normality there, a specific singular trisecant ruling line through one root node. Neither alternative is an exclusion; the distinction is important when selecting a conductor calculation.
 
+## Positive-characteristic existence already proved
+
+The [fixed-model and universal constructions](01-problem-and-curve.md#12b-positive-characteristic-presentations-fixed-model-versus-all-rational-quartics) are separate: explicit binomial presentations for the monomial quartic, and a cuspidal-projection/Frobenius proof that every smooth rational quartic is STCI in positive characteristic with degrees \((3,4p)\). Those degrees are not claimed minimal.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
