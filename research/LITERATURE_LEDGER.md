@@ -193,18 +193,44 @@ smooth curves in three-dimensional affine schemes,” arXiv:2511.07589
 (submitted November 2025).
 
 - Source: <https://arxiv.org/abs/2511.07589>
-- Verified abstract theorem: every height-two local-complete-intersection ideal
+- Verified statement of the abstract's claim: every height-two local-complete-intersection ideal
   in a commutative noetherian ring of dimension three is a set-theoretic
-  complete intersection.  The same preprint also gives a four-dimensional
+  complete intersection. The same preprint also claims a four-dimensional
   affine result over an algebraic closure of a finite field and a stronger
   complete-intersection conclusion under trivial conormal bundle.
-- This is stronger and more general on the affine three-dimensional side than
-  the separately published conditional theorem above.  It still does not
+- The claimed scope is stronger on the affine three-dimensional side than
+  the separately published conditional theorem above. It still does not
   apply to the homogeneous coordinate ring \(k[x_0,x_1,x_2,x_3]\), which has
   dimension four, and it supplies no compatibility at the hyperplane at
   infinity.  P-007 records the missing projective boundary condition exactly.
 - The broad statement is an unrefereed arXiv v1 as of the search cutoff and
   must not be conflated with the authors' narrower peer-reviewed 2026 theorem.
+- **October 31 independent proof check: relevant bridge fails as written.**
+  Theorem 4.2, Step 3, printed p.10 replaces the tensor target J/cJ
+  by the image ideal J/(c); Theorem 4.4 inherits that method.
+  For B=A/(c), the correct tensor sequence ends
+  B -> P/cP -> J/cJ -> 0, and there is a further exact sequence
+  0 -> (c)/cJ -> J/cJ -> J/(c) -> 0. If c is a nonzerodivisor,
+  the omitted term is A/J.
+- The elementary witness is A=k[x,y,z], J=(x,y), c=x, P=A^2
+  with Koszul map 1 maps to (-y,x). After tensoring,
+  B=k[y,z] and J/xJ is B/(y) plus B. The induced map
+  B^2 -> J/(x)=(y), (a,b) maps to yb, has kernel B e1,
+  whereas the tensor image is only yB e1. Thus the displayed
+  sequence is not exact at P/cP even for a genuine global CI.
+- Conormal lifts generate at primes containing J, not necessarily
+  everywhere: x(1-x),y form a basis modulo J^2 for J=(x,y),
+  but have the extra line x=1,y=0. This does not refute invertibility
+  of the image ideal J/(c); the fatal step is the tensor/kernel
+  identification above. Do not use the stronger statements as
+  established patching theorems. This check does not prove all
+  stated conclusions false or audit the full preprint.
+- Reviewer affine_source_proof_check, fresh gpt-6.1-sol/high,
+  independently reconstructed both examples and the correct
+  sequences; no files or nested delegation. Classical affine A3
+  remains independent: [Szpiro, Chapter 4 §3, Theorem 2, p.73](https://mathweb.tifr.res.in/Documents/Publications/Lectures/tifr62.pdf#page=83)
+  gives the Ferrand–Szpiro result using affine vector-bundle
+  triviality. Theorem 3 there separately treats projective bundles.
 
 ## Chow forms and global determinant representations
 
@@ -1042,6 +1068,31 @@ record the exact applications and stopping decision.
   with the first blowup. None supplies the missing upper capacity.
 
 No classification or computational sweep follows from these checks.
+
+## Pencil Milnor numbers and orbit-closure limitations
+
+[The pencil deduction](notes/2026-10-31-pencil-milnor-budget.md)
+and [assessment §36](notes/2026-10-31-unrestricted-strategy-assessment.md#36-pencil-unions-give-a-normal-degree-milnor-bound-orbit-closure-supplies-no-presentation)
+use the following primary statements at their exact scopes:
+
+- [Aluffi, Corollary 3.6](https://www.math.fsu.edu/~aluffi/archive/paper432.pdf):
+  polar degree from Euler characteristic of the affine complement.
+- [Siersma–Tibăr, Theorem 2.1](https://arxiv.org/pdf/2105.05743):
+  polar degree for a one-dimensional singular locus, including
+  all special points; [Milnor Fibre Homology via Deformation,
+  Theorem 4.4(c)](https://webspace.science.uu.nl/~siers101/SiTi2015DefHomology.pdf):
+  the local first-Betti bound makes the combined correction nonnegative.
+- [Dimca–Greuel, Theorem 2.1(1)](https://www.journalofsing.org/volume18/dimca-greuel.pdf):
+  the reduced curve Milnor/delta/branch formula, used for unions
+  of transverse pencil members, retaining full pairwise contact.
+- [Bertone–Cioffi–Orth–Seiler, Corollaries 5.5 and 6.18](https://www.mathematik.uni-kassel.de/~seiler/Papers/PDF/Loci.pdf):
+  AG/strict-CI openness and recognition, not closure preservation.
+  [Hattori–Zanardini, Theorem A.1 and Corollary 4.5](https://ems.press/content/serial-article-files/50397):
+  a one-way stability comparison for an actual CI, and stable
+  linear systems with common hypersurface factors.
+
+These sources yield the preserved all-pair Milnor inequality.
+No torus-boundary or singularity classification is selected.
 
 ## October 21 accepted-interface references
 

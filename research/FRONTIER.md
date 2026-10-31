@@ -157,6 +157,16 @@ strategy challenge and written-preservation reviews pass. Neither
 route supplies an upper contact capacity or new global equations,
 and no further classification is selected.
 
+The [pencil-union checkpoint, §36](notes/2026-10-31-unrestricted-strategy-assessment.md#36-pencil-unions-give-a-normal-degree-milnor-bound-orbit-closure-supplies-no-presentation)
+extracts a necessary generic transverse Milnor bound for every
+supported pair, after degree equalization. Its general smooth-curve
+form uses the degree of the normal bundle; all special-point
+vanishing cycles are retained. Proof and written-preservation reviews
+pass at provisional scope. No conflicting universal lower
+bound or equation construction is supplied. Torus/Hilbert closure
+and GIT do not provide preservation of the required presentation,
+and no further classification is selected.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

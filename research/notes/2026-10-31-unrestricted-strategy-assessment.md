@@ -3487,3 +3487,93 @@ The parent adopted its suggested explicit exponent notation.
 The [blowup audit, §8](2026-10-28-residual-degree-blowup-audit.md#8-october-31-addendum-normalized-ci-ideal-blowups-and-genus-selection)
 records the exact pre-metadata states and scope. No canonical
 promotion or unrestricted status change follows.
+
+## 36. Pencil unions give a normal-degree Milnor bound; orbit closure supplies no presentation
+
+The selection after §35 examined actual global pencils and
+support-preserving torus limits. It yielded one new all-pair
+necessary inequality, rather than another singularity classification.
+The [pencil proof](2026-10-31-pencil-milnor-budget.md) is provisional;
+independent proof challenge and written-preservation review pass.
+
+**New geometric implication.** For any smooth connected support C
+of degree d and genus g, equalize a hypothetical defining pair to
+degree D, retaining the powers. Let m=D^2/d and let mu be the
+generic transverse Milnor number of a general pencil member.
+Then
+\[
+dD(m+1-\mu)\ge(\deg N_{C/\mathbf P^3})m.
+\]
+For C0 this is mu<=D^2/4+1-7D/8. The argument uses unions of
+k general members of that same pencil. Their pairwise transverse
+intersection length is m; their polar degree follows by
+inclusion–exclusion. The nonnegative special-point vanishing-cycle
+correction is a quadratic polynomial in k, whose leading
+coefficient must be nonnegative. Thus full contact and the
+embedded normal degree enter the same inequality.
+
+The proof retains all exceptional points and monodromy through
+Siersma–Tibăr's nonisolated-singularity theorems. It needs no
+smooth carrier, normal-flatness, saturated first relation or
+balanced normal bundle. It transfers from C to algebraically
+closed characteristic-zero fields, and further power equalization
+does not improve it artificially. The line control attains equality.
+No claim of literature priority or independence from every existing
+normal budget is made.
+
+This adds a condition for any actual construction, but no checked
+global input forces mu above it. Large local intersection length
+can coexist with small mu. The correction is a vanishing-cycle
+quantity on surfaces, not a residual curve. A proposed comparison
+with first normal orders, conductor or higher-contact budgets must
+prove that comparison before using it.
+
+**Torus and GIT selection stops.** The existing full torus limits
+retain support and Hilbert polynomial while potentially losing AG
+and the two-equation presentation. The newly checked
+[Bertone–Cioffi–Orth–Seiler, Corollaries 5.5 and 6.18](https://www.mathematik.uni-kassel.de/~seiler/Papers/PDF/Loci.pdf)
+give open AG/strict-CI loci and constructive recognition algorithms.
+They do not preserve these loci at a flat boundary. The reviewer
+checked that those algorithms would require an actual specified
+boundary ideal and a support-constrained deformation with the
+necessary generator conditions, neither supplied here.
+
+[Hattori–Zanardini, Theorem A.1](https://ems.press/content/serial-article-files/50397)
+passes from Chow stability of an already proper equal-degree CI
+to stability of its generating system. It supplies no converse
+preservation. Their Corollary 4.5 constructs stable systems with
+a common hypersurface factor. Therefore GIT stability alone does
+not even retain proper intersection. Fixed Chow cycles forget
+the embedded nilpotent structure; no Hilbert-boundary campaign
+is selected.
+
+**Source correction affecting possible affine input.** A separate
+independent check found a proof gap in Mandal–Zinna arXiv:2511.07589,
+Theorem 4.2 Step 3: tensoring the Serre sequence yields J/cJ,
+not the image ideal J/(c). The omitted term is nonzero even for
+J=(x,y), c=x in a polynomial ring. The stronger affine statements
+remain claims of that preprint with this identified gap; the
+[literature ledger](../LITERATURE_LEDGER.md#mandal--zinna-2025-preprint)
+records the exact witness and scope. The classical affine-space
+result and the explicit affine quartic presentations are unaffected.
+This is not a claim that every theorem in that preprint is false.
+
+**Recommendation and stop.** Complete and preserve the general
+Milnor deduction, then stop both selections. Reopening needs
+a specific global lower bound conflicting with its upper budget,
+an operation producing compatible ambient equations, or a
+support-preserving deformation with independently controlled
+global generators. No degree, spectrum, local-algebra or
+boundary classification follows. Existence remains possible.
+One successful construction suffices; restricted failures still
+require an exhaustive reduction to imply nonexistence.
+
+The orbit/source synthesis used fresh gpt-6-astra/xhigh; the
+pencil-source selection, separate affine proof check and fresh
+independent strategy/proof challenge used gpt-6.1-sol/high.
+The reviewer verified the new inequality and challenged both
+nonselection and possible constructive input. No nested delegation
+or computation campaign occurred. The final written review found
+no material correction; [source §5](2026-10-31-pencil-milnor-budget.md#5-independent-review)
+preserves its exact states and scope. The assignments are complete
+and their contexts retired. No canonical status change follows.
