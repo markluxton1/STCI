@@ -171,11 +171,9 @@ The next bounded (6,16) problem has a definite algebraic shape: take the eleven 
 
 The result should distinguish an empty necessary incidence, nonempty formal candidates without actual mates, and genuinely realized proper pairs. Even a nonempty necessary incidence does not settle the STCI question. Conversely, an emptiness proof for the complete incidence only excludes the saturated movement-two (6,16) locus unless all other possible first-relation types are separately covered.
 
-## 6.11F A precise finite rank-stratification target
+## 6.11F The reduced cubic-jet elimination target
 
-For the conditional (6,16) cubic correction, the two degree-at-most-seven polynomials contribute sixteen coefficients to a 40-equation system. After constructing its actual parameter-dependent matrix \(A(t)\) and right-hand side \(b(t)\), compute the loci \(\operatorname{rank}A=r\) and impose the (r+1)-minors of \([A\mid b]\) on each one. Keep the nonvanishing r-minor conditions, the eleven leading-symbol equations, the twenty-five second-obstruction pairings and the full-root spectral constraints. See [the exact elimination setup](normalization_conductor_phase2_addendum.md#determinantal-elimination-without-generic-division).
-
-The requested output is a list of **actual locally closed solution strata**, with emptiness or witnesses supported by exact calculations, not a closed determinantal envelope obtained by discarding inequalities. The present synthesis specifies the computation but does not claim it has been performed.
+The displayed correction map is multiplication by a nonzero quadratic root, hence injective: rank sixteen in a forty-dimensional cubic-coefficient target. The next finite task is to compute the twenty-four quotient obstruction coordinates jointly with the eleven first-symbol equations and twenty-five second-obstruction pairings. Retain singular roots, multiplier zeros and full spectral torsion, but do not introduce artificial rank-drop strata for this injective correction map. A solution of these necessary conditions still requires an actual proper mate.
 
 ## 6.12 Global source and embedded lifting tests
 
