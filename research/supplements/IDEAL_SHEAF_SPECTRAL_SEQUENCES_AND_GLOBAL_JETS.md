@@ -317,6 +317,70 @@ nonlinear root or contact conditions whenever possible. Keeping extra
 independent normal coefficients would enlarge the search with candidates
 that no global surface can realize.
 
+### The two degree rows use the source filter at different orders
+
+Under the precise saturated, full generic initial-CI, order-two,
+movement-two hypotheses retained in the
+[torsion-two continuation](QUADRATIC_ROOT_TORSION_TWO_REDUCTION.md#7-connection-to-the-already-bounded-actual-degree-rows),
+the remaining degree rows are \((6,16)\) and \((8,8)\). The sextic row
+already has the 11 quadratic-symbol conditions above. An octic has no
+quadratic-symbol restriction: the actual source has dimension 80 and
+surjects onto the full 57-dimensional symbol space. Nevertheless its
+higher corrections are constrained in an especially simple way.
+
+Write \(V_{d,r}=H^0(I^r(d))\), and let \(\sigma_{d,r}\) be the leading
+symbol map. The existing quadric-factor formula gives exact global identities
+\[
+V_{8,3}=qV_{6,2},\qquad V_{8,4}=kq^4.
+\tag{13}
+\]
+Thus, after fixing the quadratic symbol and choosing one actual octic
+\(F_0\) with that symbol, **every** other actual lift is
+\(F_0+qH\), \(H\in V_{6,2}\). Its cubic symbol difference from \(F_0\)
+lies precisely in
+\[
+\ell\,\operatorname{im}\sigma_{6,2}
+\subset H^0(\operatorname{Sym}^3E(8)),
+\qquad \ell=\sigma_{2,1}(q)=u+\tfrac12zv.
+\tag{14}
+\]
+The image has dimension 22 inside a 48-dimensional space, and the remaining
+equation freedom after fixing it is \(kq^4\). These statements concern
+differences of octics with the **same** quadratic symbol. The absolute cubic
+term of an arbitrary octic is not required to be divisible by \(\ell\).
+
+The 26 missing directions have a geometric two-stage description. The
+conormal flag of the smooth quadric is
+\[
+0\to L=\mathcal O_{\mathbf P^1}(-8)\to
+E=\mathcal O_{\mathbf P^1}(-7)^{\oplus2}
+\to\mathcal O_{\mathbf P^1}(-6)\to0.
+\]
+Multiplying by \(\ell\) and taking the quotient gives
+\[
+0\to\operatorname{Sym}^2E(6)
+\xrightarrow{\ell}\operatorname{Sym}^3E(8)
+\to\mathcal O_{\mathbf P^1}(14)\to0.
+\tag{15}
+\]
+Because the first term has no \(H^1\), the sequence on global sections
+is exact with dimensions \(33\to48\to15\). First impose these 15
+linear conditions for **global divisibility** by \(\ell\); then the unique
+quadratic quotient must satisfy the 11 sextic-symbol conditions. This is a
+canonical nested filtration of the constraints, not a preferred direct-sum
+decomposition of their targets. It gives exactly the image in (14), with
+all global correction freedom retained.
+
+Consequently the same 11-condition source calculation can be reused for
+both rows: directly on sextic quadratic symbols, and after 15 divisibility
+conditions on differences of octic cubic lifts. When comparing a proposed
+compatible cubic jet with \(F_0\), use this affine image instead of 48
+independent cubic coefficients. This is a linear reduction; no new
+emptiness calculation for the root incidence follows from it. Nor does
+(13) alone give an order-six global cutoff for arbitrary octic jets:
+divisibility of actual equations and divisibility of truncated jets are
+different requirements.
+
 For the movement-two laboratory, [R-0007](../results/quadratic_root_obstruction_model.md)
 concerns a root divisor on the exceptional ruled surface. Call that divisor
 \(\Sigma\) here to avoid confusing it with \(Z=X\cap Y\). Its first and
@@ -340,6 +404,11 @@ calculation instead supplies a rigorously separate compatibility filter.
   implementation review. Its wording correction distinguishes the 11
   conditions from their 22-dimensional kernel. No mathematical finding
   remains unresolved within these claims.
+- The same reviewer independently reconstructed the subsequent octic
+  application (13)–(15), including the subbundle property, global
+  divisibility, exact dimensions, and residual \(q^4\) freedom. The
+  accepted qualification is that the 15 and 11 constraints are nested;
+  no preferred splitting or identification with root obstructions is used.
 - The `sextic_cech_review` reviewer independently checked coverage by the two
   affine charts, both coordinate frames, the degree-six transition, Laurent
   gap obstruction, correction signs, and completeness of all lift freedoms.
