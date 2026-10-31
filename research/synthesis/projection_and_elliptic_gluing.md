@@ -1195,3 +1195,72 @@ and elliptic-gluing family at source snapshot `76804e6`, including distinct
 arguments in its audits and exact scripts. Source review is reused only
 for unchanged scoped claims. Historical logs and candidate-selection
 narratives have no mathematical role in the statements above.
+
+## Ambient coincidence and local conductor phase
+
+The following restrictions concern prescribed normalization or pinching
+data. They do not construct a conductor, its full finite algebra, or
+four sections descending to the required embedded surface.
+
+**One ambient symmetry.** Let \(k\) be algebraically closed, and let
+\(f:\mathbf P^2\dashrightarrow\mathbf P^3\) be birational onto its
+image, represented by homogeneous forms \(F_0,\ldots,F_3\) of degree
+\(d>0\) with no common divisorial factor. Suppose a single nonidentity
+\(\sigma\in\operatorname{PGL}_3(k)\) satisfies
+\(f(p)=f(\sigma p)\) on a dense open subset of each irreducible
+component of a reduced divisor \(D\subset\mathbf P^2\). Then
+\[
+ \deg D\le2d.
+ \tag{P1}
+\]
+Choose a linear representative for \(\sigma\). Every crossminor
+\[
+ F_i(F_j\circ\sigma)-F_j(F_i\circ\sigma)
+\]
+is a homogeneous form of degree \(2d\) vanishing on \(D\). The
+squarefree defining equation of \(D\) divides every crossminor. If
+\(\deg D>2d\), all crossminors vanish identically. Hence
+\(f=f\circ\sigma\) as rational maps. Composing with a rational inverse
+to the birational map onto its image forces \(\sigma=\mathrm{id}\),
+a contradiction. This proves the coincidence bound, in every characteristic.
+
+For quartic forms the bound is eight. A multiplicity-weighted conductor
+class, such as \(51L\), does not determine its reduced degree. The
+argument applies to one ambient automorphism: components paired by
+different automorphisms cannot have their degrees added in that bound.
+A conductor deck map need not extend to a projective automorphism of
+\(\mathbf P^2\), so the lemma does not bound a general conductor.
+
+**Local tame phase.** Let \(B\subset\mathbf P^2_k\) be an integral
+curve, smooth at \(p\in B\cap L\), where \(L=(z=0)\) and \(B\ne L\).
+Suppose an automorphism \(\tau\) of \(B\) has finite order \(e\), fixes
+\(p\), and acts on the one-dimensional cotangent space at \(p\) by a
+primitive \(e\)-th root \(\xi\in k\). Assume \(k\) algebraically
+closed and \(\operatorname{char}k\nmid e\); characteristic zero is
+included. Let \(F_i\) be a quartic form nonzero at \(p\), put
+\[
+ q=(z^4/F_i)|_B\in k(B),\qquad k_p=\operatorname{ord}_p(z|_B)>0,
+\]
+where the order uses any local trivialization of the hyperplane line
+bundle. If \(q^b\) is \(\tau\)-invariant for some \(b>0\), then
+\[
+ \frac{e}{\gcd(e,4k_p)}\mid b.
+ \tag{P2}
+\]
+Indeed \(q\ne0\) and \(\operatorname{ord}_p(q)=4k_p\).
+Invariance gives \((\tau^*q/q)^b=1\) in \(k(B)\). Since \(k\) is
+algebraically closed, \(\tau^*q/q\) is a constant root of unity.
+Choose a local parameter \(t\) at \(p\). The cotangent action says
+\(\tau^*t=\xi t+O(t^2)\), so comparison of leading terms of \(q\)
+gives \(\tau^*q/q=\xi^{4k_p}\). Its order is
+\(e/\gcd(e,4k_p)\), proving the stated divisibility.
+
+The existence of a primitive root of order \(e\) and the faithful
+cotangent action are explicit tame hypotheses. No assertion for wild
+inertia with nonfaithful cotangent action follows. The lemma also
+supplies neither the automorphism nor compatible global sections,
+admissibility, or nilpotent-conductor descent. It is a conditional
+consequence within the full phase criterion, without a replacement
+for that criterion.
+
+The two conditional lemmas were independently reconstructed with their reduced-divisor, single-automorphism, birationality and tame-cotangent hypotheses. Neither supplies the missing conductor or globally descending sections.

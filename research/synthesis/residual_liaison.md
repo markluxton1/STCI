@@ -387,3 +387,7 @@ statements here use Kleppe's cited characteristic-zero theorem; no
 positive-characteristic analogue is inferred. A once-link may contain C in
 any characteristic; it must not be confused with the genuine residual at a
 [positive-characteristic supported endpoint](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+
+## Supported operations and generic algebra
+
+The [supported basic-link account](supported_linkage_operations.md) constructs actual ACM thickenings on the quadratic cover and identifies their generic and descended-equation failure gates. Its uniform local Hilbert-Burch lemma applies to any specified germ of the form described there, not just a power of one source section. Rao dimensions repeat the conductor-boundary inequality rather than provide an independent budget. These supported operations are different from the once-linked deformation problem treated above; no finite chain or arbitrary linkage classification follows.

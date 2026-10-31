@@ -25,7 +25,7 @@ Permanent subject consolidation. All source mathematical detail retained with it
 
 ## 44-intrinsic-proof-routes
 
-[Complete proof routes, negative controls and neighborhood-only gap](../synthesis/quartic_pair_obstruction.md).
+[Complete proof routes and negative controls](../synthesis/quartic_pair_obstruction.md), including the [completed embedded fourth-extension proof](../synthesis/intrinsic_fourth_extension.md).
 
 ## 44-multiplicity-three-forces-audit
 

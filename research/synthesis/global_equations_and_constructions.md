@@ -602,3 +602,7 @@ conductor data. Over a nonclosed field, descent of geometric STCI to two
 ground-field equations is a separate arithmetic question. These are scope
 boundaries and questions, with no assertion that the corresponding extensions
 have been established.
+
+## Primary complement obstructions and actual sections
+
+The [complete section-obstruction account](complement_section_obstructions.md) proves the continuous rank-two criterion on the complement of any smooth connected complex space curve and the twisted Chow-Witt comparison over an algebraically closed field of characteristic different from two. For the positive split bundles relevant to equations, the checked primary classes impose only degree divisibility. Hartogs identifies actual algebraic or holomorphic sections with homogeneous pairs, while the nonplanar low-degree control shows that the primary conditions do not realize them. The complement is nonaffine, so affine splitting and representability results do not close that gap.

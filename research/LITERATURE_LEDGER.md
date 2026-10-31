@@ -549,3 +549,14 @@ The conditional regular-surface obstruction [STCI-R-0018](results/regular_singul
 ## General constructive mechanisms checked in the synthesis
 
 The [global-equation chapter](synthesis/global_equations_and_constructions.md), [finite-pullback proof](synthesis/finite_pullback_and_matrix_obstructions.md), and [foliation/affine account](synthesis/foliation_and_affine_degree_mechanisms.md) state exact hypotheses alongside their uses. In particular: Poonen Theorem 2.2 extends sufficiently highly polarized maps from a fixed closed subscheme with target dimension at least ambient dimension, without sole-inverse-support control; Amerik–Kuznetsova Theorem 2 concerns degree-greater-than-one maps between projective bundles over a simply connected complex projective base with H1(B,L)=0 for every line bundle; Forster–Wolffhardt Theorem 1.5 is affine and preserves a zero scheme in the dual bundle, not a split target. The normalized foliation formulas retain the finite non-Kupka/component hypotheses and the unit-times-exact condition. None supplies unrestricted equations or a universal obstruction for C0.
+
+## Section realization, finite-order presentations and liaison
+
+The mathematical accounts now incorporate the following bounded primary-source comparisons directly into their proofs:
+
+- [Complement sections](synthesis/complement_section_obstructions.md) uses purity/Gysin and sphere-bundle obstruction theory, then checks the affine and analytic hypotheses of the cited splitting and realization theorems. Twisted Chow-Witt vanishing here does not assume the complement is affine.
+- [Punctual presentations](synthesis/punctual_quadric_extensions.md) retains the distinction between arbitrary homogeneous twists and the linear/maximal-generation hypotheses of matrix-representation results, and between multiple quadrics and double-plane classifications.
+- [Quadratic conductor descent](synthesis/quadratic_covers_and_conductor_descent.md) combines finite duality with the canonical-module postulation argument; its module-generation hypotheses and non-Gorenstein controls remain explicit.
+- [Supported linkage](synthesis/supported_linkage_operations.md) checks the source and generic-smoothness hypotheses in liaison and blowup results rather than using liaison-class membership or Rao dimensions as realization theorems.
+
+These are scoped integrations, not an exhaustive new literature search.

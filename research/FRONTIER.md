@@ -22,6 +22,12 @@ help choose a bounded investigation. Exact established statements are in the
 | Marked dual/ruled geometry | [Fixed geometry](synthesis/01-problem-and-curve.md) | Construct a proved map from actual equation/conductor data to marked contact schemes, retaining nilpotents and endpoint corrections |
 | Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [arithmetic gaps](supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md) | Separate all-positive-characteristic existence from minimum degree products and from support-preserving characteristic-zero lifting; prescribed nonlifting does not exclude unrelated presentations |
 
+The newer boundaries sharpen three interfaces without settling them:
+
+- [Quadratic conductor descent](synthesis/quadratic_covers_and_conductor_descent.md) gives a lower boundary-length and Hilbert-postulation constraint. An incompatible upper bound or an embedded AG conjugate union with the required polarization is still missing; the extracted primary branch need not be Gorenstein.
+- [Punctual finite-order MCM lifts](synthesis/punctual_quadric_extensions.md) show that Picard nonlifting alone is insufficient. A useful next comparison must retain the actual column divisor and full normal-action quotient, including rank-zero strata.
+- [Complement section classes](synthesis/complement_section_obstructions.md) pass every divisibility-admissible positive degree pair. An actual nonaffine realization mechanism or a genuinely richer algebraic invariant is required. The [supported linkage family](synthesis/supported_linkage_operations.md) supplies explicit schemes but fails its generic Gorenstein or descended low-degree equation tests; it does not exhaust other operations.
+
 The [embedded fourth-extension calculation](synthesis/intrinsic_fourth_extension.md) closes the previously missing neighborhood-only route for the two allowed (4,4) types. It does not supply a general classification of higher-length thickenings or higher-degree actual sources; those remain separate interfaces above.
 
 ## Tests that distinguish a new implication from a repeated computation
