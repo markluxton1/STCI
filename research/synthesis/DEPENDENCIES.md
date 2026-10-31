@@ -56,6 +56,12 @@ The conditional (6,16) smooth torsion-two seed satisfies all eleven first-symbol
 
 The counterexample is scoped to the seed. It does not imply that the joint global-source incidence is empty, nor that a residual cycle exists for every (6,16) proper pair. Any bridge theorem must quantify over the full root/multiplier family and include the exceptional strata.
 
+## A concrete finite elimination problem, with quantified scope
+
+The (6,16) global-source route has moved beyond a dimension heuristic: its first quadratic-symbol map and eleven image equations are exact, and the next cubic comparison is an explicit parameter-dependent linear system. The remaining finite algebraic task is to retain its determinantal rank strata, impose all twenty-five second-obstruction pairings, and preserve the full root scheme in the torsion condition. The [incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) states the candidate scheme and the necessary open conditions.
+
+Its logical endpoint is limited. Emptiness would exclude the specified saturated movement-two locus; nonemptiness would provide candidates, not a supported complete intersection. Any inference to all characteristic-zero STCI pairs requires a separate exhaustion of nonsaturated, higher-movement and other carrier cases.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
