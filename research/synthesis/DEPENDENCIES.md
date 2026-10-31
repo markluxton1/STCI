@@ -59,6 +59,10 @@ Even a point passing these necessary conditions does not supply a proper degree-
 
 For a proper pair with sole reduced support the fixed degree-four curve, \(de=4m\) for the generic transverse length \(m\). Equivalently \(4/\gcd(4,d)\mid e\). This necessary gate removes degree pairs but does not provide an equation or control residual cycles; for a proper pair with residual degree \(r\), the equality is instead \(de=4m+r\). The characteristic-zero carrier exclusions and the higher-jet/source tests are independent, stronger requirements.
 
+## A scoped full-lift exclusion already available
+
+The [free cube-orbit chart certificate](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) explicitly retains the \(\eta q^3\) sextic freedom. Its full cubic equations and unit identity prove the specified noncollision, nonendpoint cube-norm chart empty. This is stronger than the fixed-seed \(-384\) pairing, but it relies on the chart hypotheses; transferring it to actual supported pairs requires the separate quadric-cycle norm necessity bridge. Collision and endpoint cases remain unresolved by this certificate.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
