@@ -83,6 +83,10 @@ P-008 constructs explicit defining pairs for the fixed monomial quartic; P-012 p
 
 The [fixed-quartic calculation](01-problem-and-curve.md#12c-exact-frobenius-binomial-criterion-for-a-quartic-first-carrier) proves the exact criterion for pairs \(x_1^4-x_0^3x_3\) and \(x_2^{p^r}-x_0^a x_1^b x_3^c\): the nonnegative exponent solution exists iff some \(b\le p^r/3\) satisfies \(b\equiv3p^r\pmod4\). Frobenius and the \(x_0=0\) boundary prove sole reduced support. Characteristic five first qualifies at \(p^r=25\), not \(5\). This is a restricted family-minimum theorem, not a lower bound for arbitrary STCI pairs.
 
+## Binomial ansatz: complete reduced-support classification
+
+For the quartic first equation \(x_1^4-x_0^3x_3\) and exponent-compatible second binomial of degree \(n\), the [component theorem](01-problem-and-curve.md#12d-necessity-of-the-frobenius-exponent-and-all-reduced-components) gives exactly \(m\) reduced quartic components when \(n=p^r m\) with \(p\nmid m\). Frobenius power is therefore necessary and sufficient for sole support **inside this family**. Characteristic zero yields \(n\) components and has no admissible \(n=1\) exponent choice. The argument says nothing about general defining pairs.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
