@@ -17,6 +17,7 @@ The fixed curve is smooth in every characteristic: on x0≠0 its parameter is x1
 | Chow/resultant sole-support criterion, ordinary K0 quotient, AG-primary thickening criterion | Every characteristic, with properness/purity and arithmetic Gorenstein hypotheses unchanged. The displayed Chow polynomial specializes modulo p; its nonzero unit-coefficient terms prevent it becoming identically zero. |
 | Homogeneous coregularity criterion | Every characteristic with the theorem's regular-sequence and higher-vanishing hypotheses; it does not equate ordinary vanishing with existence. |
 | Affine lci and projective bundle-section constructions | The cited algebraic constructions apply to the stated lci curve setting over algebraically closed k. Splitting one guaranteed double remains insufficient to cover arbitrary higher thickness in any characteristic. |
+| Elementary transform, hull and fixed-Chern-class control | The explicit kernel, cohomology and integer Chern-number argument work in every characteristic. The stated instanton/monad literature application is over C; the smooth-family power-cohomology theorem assumes a characteristic-zero field in its base. |
 | Cremona generic transverse multiplicity | Preserved wherever the two ambient maps are inverse near generic points, in any characteristic. The orbifold/topological refinement and the cited bundle-amplification splitting theorem below are characteristic-zero statements. |
 
 These scopes do not extend the characteristic-zero quartic-carrier exclusion to positive characteristic. In characteristic p, Frobenius changes the construction and descent problem: (1+j)^(p^e)=1 once j^(p^e)=0, so a nilpotent-unit obstruction to taking a required power can disappear. Conversely prime-to-p root rigidity survives under its exact hypotheses in the [finite-pullback proof](finite_pullback_and_matrix_obstructions.md#polarization-and-section-lifting).
@@ -573,6 +574,108 @@ Geometrically, the two polynomial operations would eliminate every unwanted proj
 Forster–Wolffhardt, [Theorem 1.5 and Proposition 1.6](https://www.math.lmu.de/~forster/eprints/zeroschemes.pdf), concern an **affine** scheme X, a rank-two bundle E and section s, with det(E) trivial on Z=Sch(s). They construct ψ,λ,h with ψ(s)+λh=1 and a map Φ=ψ⊗ψ+i(λ):E→E* whose determinant is λ². The transformed section has exactly the same zero scheme: where λ is invertible Φ is invertible, and where λ vanishes the displayed identity makes ψ(s) invertible. This is an actual identity controlling degeneration, not an assumption that all fiber directions can be eliminated.
 
 Its target is E*. On projective three-space, imposing det(E)|Z trivial with Z_red=C0 forces det(E)=O(c) with 4c=0, hence c=0 and E*≅E by the rank-two wedge pairing. That does not split E. A projective transplant also needs the global sections and identity used in the affine proof. An operation into two line bundles with degeneration controlled relative to the particular section remains a possible constructive mechanism; neither the affine theorem nor the homogeneous amplification restriction supplies it.
+
+### An elementary transform along the embedded quartic
+
+There is an explicit sheaf construction that retains the chosen embedding.
+Work over \(\mathbf C\) for the instanton and monad applications below, and
+write \(i:C_0\hookrightarrow\mathbf P^3\). The sections \(s^7,t^7\) have no
+common zero, so they give a surjection and an actual kernel
+\[
+0\longrightarrow\mathcal F\longrightarrow O_{\mathbf P^3}^{\,2}
+\xrightarrow{(s^7,t^7)}i_*O_{\mathbf P^1}(7)\longrightarrow0.
+\tag{ET}
+\]
+Here \(O_{\mathbf P^3}(1)|_{C_0}=O_{\mathbf P^1}(4)\).
+At a point of \(C_0\), one of the two coefficients is a unit on the curve.
+After a local change of basis the quotient map is reduction of one
+coordinate modulo \(I_{C_0}\). Thus
+\(\mathcal F\simeq O\oplus I_{C_0}\) locally there. In particular,
+\(\mathcal F\) is rank-two torsion-free, is singular along exactly the
+embedded curve, and has reflexive hull \(\mathcal F^{**}=O^2\).
+
+For completeness, put \(h=c_1(O_{\mathbf P^3}(1))\). The Hilbert polynomial
+of the quotient is
+\(\chi(O_{\mathbf P^1}(7+4n))=4n+8\).
+A sheaf with Chern character \(d h^2+e h^3\) on \(\mathbf P^3\) has this
+polynomial equal to \(dn+2d+e\); hence
+\[
+\operatorname{ch}(i_*O_{\mathbf P^1}(7))=4h^2,
+\quad\operatorname{ch}(\mathcal F)=2-4h^2,
+\quad(c_1,c_2,c_3)(\mathcal F)=(0,4,0).
+\]
+Twisting (ET) by \(-1\), the vanishing of \(H^0(O(-1))\) and
+\(H^1(O(-1))\) gives
+\[
+H^1(\mathcal F(-1))\simeq H^0(\mathbf P^1,O(3)),\qquad h^1=4.
+\]
+[Jardim–Markushevich–Tikhomirov, Proposition 3.1](https://arxiv.org/pdf/1501.00736)
+identifies this as a torsion-free instanton sheaf of charge four: its input
+line bundle is \(O_{\mathbf P^1}(-1)\), whose ambient twist by two is
+\(O_{\mathbf P^1}(7)\). The construction therefore gives concrete sheaf
+geometry on this embedding. It supplies no ideal of a new multiple curve
+or its ACM homogeneous coordinate ring.
+
+Two controls specify what changing this construction would require.
+A kernel \(\ker(E\to T)\), with \(E\) locally free and \(T\) supported in
+codimension at least two, agrees with \(E\) off that support and has
+reflexive hull \(E\). Likewise an isomorphism between two locally free
+extensions off \(C_0\) extends uniquely across it; the isomorphism and its
+inverse extend as sections of reflexive Hom sheaves. This is the
+[codimension-two extension property, Hartshorne, Remark 1.8](https://escholarship.org/content/qt4j1747kh/qt4j1747kh.pdf).
+It concerns a fixed identification on the complement. It places no
+restriction on deformations that change that complement restriction.
+
+Even allowing that change, a flat deformation of this particular sheaf
+with its fixed Chern classes cannot be a split rank-two bundle. A split
+bundle \(O(r)\oplus O(-r)\) has \(c_2=-r^2\), incompatible with \(c_2=4\).
+After a common twist by \(t\), putative split degrees would satisfy
+\[
+a+b=2t,\qquad ab=t^2+4,
+\qquad(a-b)^2=-16.
+\]
+This is an equality of integer Chern numbers; reducing its coefficients
+in the ground field does not remove it. It excludes splitting within this
+flat class, while operations changing the Chern classes and other
+multiple structures remain possible. The elementary kernel, cohomology
+and numerical calculations themselves use no characteristic-zero step;
+the stated instanton literature application is over \(\mathbf C\).
+
+### Monad presentations and cohomology in families
+
+A monad retains a useful presentation without making its cohomology a
+split target. In the Horrocks construction described by
+[Malaspina–Rao, §1, pp.2–3](https://arxiv.org/pdf/2202.00304), a rank-two
+bundle \(E\) on \(\mathbf P^3\) is the cohomology of
+\[
+A\longrightarrow P\longrightarrow B,
+\qquad E=\ker(P\to B)/\operatorname{im}A,
+\]
+where \(P\) splits and
+\(\operatorname{rk}P=2+\operatorname{rk}A+\operatorname{rk}B\).
+Thus the split middle bundle has extra directions. Obtaining a section
+of two line bundles with the desired zero scheme still requires a
+construction eliminating those terms and controlling that section.
+Neither the monad nor the reflexive-hull calculation performs this step.
+
+A distinct family theorem controls variation of cohomology rather than
+constructing such a section. Precisely,
+[Ballico–Cid-Ruiz–Singh, Theorem A](https://arxiv.org/html/2602.09201v2)
+assumes a Noetherian domain \(A\) containing a characteristic-zero field
+and a closed subscheme \(X\subset\mathbf P^n_A\) smooth over \(A\).
+For a fixed integer \(j\), a single nonzero element of \(A\) can be inverted
+so that every \(H^i(X_t,O_{X_t}(j))\) is flat over that localization,
+for every ordinary power thickening \(X_t=V(I_X^t)\) and every \(i\ge0\).
+Flatness does not assert that these modules vanish. The theorem does not
+cover arbitrary supported ideals or mixed-characteristic specialization.
+These distinctions leave meaningful geometric targets: an actual new
+multiple-curve ideal, its multiplication and cohomology, and a section
+whose zero scheme is controlled. The checked sheaf and monad operations
+produce the objects proved above, without deciding realization of those
+further targets. Their source applications received scoped independent
+review. Independent integration review reconstructed the elementary transform,
+Chern and cohomology calculations, checked the monad and generic-flatness
+hypotheses, and accepted the preserved realization limits.
 
 ### Precise remaining implications
 

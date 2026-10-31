@@ -6,6 +6,11 @@ own promoted statements and exact hypotheses. The linked mathematical proof
 homes also retain reviewed provisional results and conditional reductions;
 consolidation alone does not promote them.
 
+The maintained account also describes proper intersections containing C0,
+their multiplicities and residual cycles, supported multiple structures, and
+normalization, projection and deformation constructions. These are mathematical
+outcomes in their own right; unrestricted non-STCI is not a presumed conclusion.
+
 ## Established boundaries
 
 - [R-0001](results/quartic_carrier_exclusion.md) excludes every integral
@@ -28,7 +33,7 @@ consolidation alone does not promote them.
 The current proof homes make the scope explicit: saturation and actual-source
 conditions for [filtrations](synthesis/03-infinitesimal-geometry.md);
 actual examples and family-dependent [residual bounds](synthesis/residual_intersections_and_jets.md);
-[elliptic polarization and node-gluing failures](synthesis/projection_and_elliptic_gluing.md);
+[elliptic polarization, actual sections and node gluing](synthesis/projection_and_elliptic_gluing.md);
 [partial marked absorption](synthesis/marked_deformation_and_absorption.md);
 and [full contact/endpoint models](synthesis/contact_duality_and_global_descent.md).
 They support constructive and obstructive investigations without resolving the
@@ -45,6 +50,47 @@ The [ruled-surface criterion](synthesis/ruled_surface_degree_criterion.md) now i
 The [quadratic-cover account](synthesis/quadratic_covers_and_conductor_descent.md) retains arbitrary-pair boundary formulas separately from excluded projected families, and generalizes the graded conductor inequality to a homogeneous module generator of degree d over a two-dimensional Gorenstein ring. [Punctual extensions](synthesis/punctual_quadric_extensions.md) exist at every finite order but do not supply actual homogeneous columns. [Supported basic-link operations](synthesis/supported_linkage_operations.md) have a uniform generic type-two failure gate under their stated local hypotheses. The [complement section account](synthesis/complement_section_obstructions.md) proves that the checked continuous and primary characteristic-class conditions impose no further degree restriction beyond divisibility; actual section realization remains open. Its [embedded extremal-case argument](synthesis/quadratic_covers_and_conductor_descent.md#12-embedded-curve-exclusion-of-the-minimal-boundary) strengthens the necessary boundary length to \(\delta\ge a+b-2\) for a hypothetical characteristic-zero fixed-quartic pair. Equality in the previous bound would force a residual line; no incompatible upper bound is known.
 
 The [projected-thickening theorem](synthesis/projected_thickening_section_defects.md) strengthens the explicit source failure from non-AG to non-ACM for independent powers and homogeneous binary mixtures with nonzero degree product in the field. Its actual missing section and Rao lower bounds do not persist automatically under reduction or transfer to arbitrary primary lifts. Known ACM schemes upstairs on the quadric threefold do not settle the weaker ACM-thickening problem downstairs in P3.
+
+For a hypothetical characteristic-zero sole-support pair, let \(\delta\) be
+the finite quadratic conductor-boundary length. The [ambient quadratic norm](synthesis/quadratic_covers_and_conductor_descent.md#81-ambient-quadratic-norms-force-conductor-postulation)
+requires no conductor-boundary equation below \(q=\lceil a/2\rceil-1\)
+and gives \(\delta\ge a+b-3+2[\binom{q+2}{3}-q]\) for
+\(5\le a\le b\). This is stronger than the earlier scalar bound in this
+application. It uses the same canonical inequality with additional ambient
+information and supplies no upper capacity bound. The conductor's full section
+ring, quadratic action and graph relations retain different data; completing
+sections is not an embedded ACM repair.
+
+The [elliptic double-inverse construction](synthesis/elliptic_double_inverse_construction.md)
+provides actual global quadratic sections and a verified finite birational octic
+member. That member has an extra projective inverse scheme of length twelve and
+therefore no mate in any degree. The five-parameter family's full inverse-support
+and descent loci remain open. The separate balanced degree-ten discriminant
+chart now has independent computational review; the degree-twelve chart is
+unfinished. Neither target classification nor one failed member decides the
+whole elliptic source.
+
+The [reduction for arbitrary sole-support sextic pairs](supplements/SEXTIC_PAIR_REDUCTION.md)
+retains three necessary divisor profiles. In characteristic zero it gives normal
+pencil carriers, an index-nine point, a nontrivial order-three Weil class, and
+necessary invariants of its normal cyclic cover. It also excludes a reduced
+common first-normal divisor while retaining local nonreduced controls. The
+remaining global sextic realization problem is open; the cover's invariants are
+not those of an assumed smooth resolution, and no contradictory upper irregularity
+bound is known.
+
+The [polarized retraction obstruction](synthesis/contact_jacobians_and_hamiltonian_actions.md#a-pencil-compatible-polarized-retraction-cannot-extend-globally)
+is a characteristic-free section-count result, with a separate punctured-cover
+application when two is invertible. It describes a restriction on how the
+multiple structure can sit over the reduced curve, not an STCI exclusion.
+
+The [spectral four-torsion theorem](synthesis/spectral_torsion_and_syzygy_splitting.md)
+interprets a syzygy splitting jump through the ruling-difference line bundle on
+a smooth (2,2) curve. The minimal generator degrees change from (3,3) to (2,4)
+while the dual obstruction dimension remains sixteen. This selected
+characteristic-zero theorem is independently reviewed provisional geometry;
+the broader all-power pushforward extension and the source checkpoint's later
+bounded exclusion calculations are not imported by this statement.
 
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.

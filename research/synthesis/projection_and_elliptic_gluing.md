@@ -11,6 +11,13 @@ It distinguishes a map with the right restriction on a curve, a finite
 normalization with **full** inverse support, and a mate descending to the
 image. An isolated additional inverse point already prevents a mate.
 
+The [elliptic double-inverse construction](elliptic_double_inverse_construction.md)
+also realizes a different source: its inverse elliptic curve covers \(C_0\)
+twice, and one fixed member is a finite birational normalization of an octic.
+That member has a projective extra inverse scheme of length twelve. Its full
+five-parameter support locus remains open; it is outside the isomorphic-inverse
+classification and the diagonal-source exclusions below.
+
 The degree-eight smooth-quadric model is a necessary model only under the
 Cartier singleton hypotheses of [R-0002](../results/cartier_singleton_lift.md).
 [R-0004](../results/projection_phase_reduction.md) supplies the conditional
@@ -22,8 +29,10 @@ spin, and paired-cover arguments have independent source review, reused here
 for their unchanged mathematical content. They remain **reviewed provisional
 mathematics**, not promoted canonical results. The finite special-target
 calculation and balanced discriminant calculations are identified separately
-in section 5. The local contact-six example has exact source computation but
-less independent review than the contact-five example. The fixed palindromic
+in section 5. The balanced degree-ten chart now has independent exact review;
+the degree-twelve chart remains unfinished. The local contact-six example has
+exact source computation but less independent review than the contact-five
+example. The fixed palindromic
 Python replay was rerun successfully during consolidation (Python 3.15.2,
 SymPy 1.14.0), reproducing its target PASS and component-gate FAIL. Macaulay2
 was unavailable, so its inherited exact executions were not replayed. Independent
@@ -32,6 +41,13 @@ bounded deductions, and section 9.1 characteristic scopes; requested corrections
 are resolved. The qualified computations in section 5 retain their separate
 review limitations. No actual admissible carrier or mate has been constructed
 by these calculations.
+
+The later October 31 source audit independently reviews the double-inverse
+fixed member and its rejection, as stated in its linked proof home. It also
+supplies the degree-ten repeated-gcd control incorporated in section 5. These
+source executions are reused, without claiming a fresh Macaulay2 run here.
+Independent comparison with the complete later source proofs and audits
+accepted this integration's proof preservation, support bindings and scopes.
 
 ## 1. The actual source and its two determinant strata
 
@@ -178,6 +194,43 @@ concentration of this full conductor contact with common roots of the
 normal quintic pair is an unresolved interface. Their root-support bound
 alone does not bound these conductor multiplicities; the explicit local
 controls in section 2.3 warn against making that inference.
+
+### 1.3 The full fiberwise inverse and descent tests
+
+For the whole sixteen-parameter source (1), the order-one open is a union
+of seven principal opens: the binary sextic
+\[
+ t^4A_0(s^2,st,st,t^2)+s^4A_3(s^2,st,st,t^2)
+ -st^3A_1(s^2,st,st,t^2)-s^3tA_2(s^2,st,st,t^2)
+\]
+has at least one nonzero coefficient. Inverting the product of all seven
+coefficients would discard valid order-one parameters.
+
+The affine chart \(z=1\), \(b=y+1/2,c=y-1/2\), meets every projective
+point off the diagonal. For the four literal generators
+\[
+ q=x_0x_3-x_1x_2,\quad c_0=x_0^2x_2-x_1^3,\quad
+ c_1=x_0x_2^2-x_1^2x_3,\quad c_2=x_2^3-x_1x_3^2,
+\]
+the specialized inverse ideal is
+\[
+ J=(ad-y^2+1/4,q(U),c_0(U),c_1(U),c_2(U)).
+\]
+It must be the unit ideal. This retains isolated points and basepoints:
+a basepoint also zeros all four pulled-back generators, while the diagonal
+restriction has none. The equivalent homogeneous test saturates by \(z\)
+and the source irrelevant ideal. Parameter-fraction-field calculations
+alone test the generic fiber; every exceptional support and rank stratum
+remains part of the constructible problem. After this support test,
+birationality and degree-eight image remain separate requirements.
+
+For a surviving member, expand the columns \(U^\alpha\), \(|\alpha|=b\),
+and \(z^{2b}\) in a complete degree-\(2b\) Segre-ring basis. Equation (2)
+is equality of the original and augmented ranks. Each original rank stratum
+requires its own nonzero minor and augmented-minor equations; failure on one
+chosen maximal-minor open does not cover the family. This actual coordinate
+subalgebra test includes conductor descent. Neither it nor the order-one
+support-unit locus has been computed for the full sixteen parameters.
 
 
 ## 2. Uniform excluded coefficient loci and why local counts are insufficient
@@ -687,8 +740,19 @@ factors of degrees \(1,2,2,3,12,14\). One linear and one quadratic
 factor are degenerate support or lower discriminant degree. Exact number-
 field gcd decomposition gives odd discriminant degree eight for each
 remaining factor; away from them the degree-ten discriminant is squarefree.
-Hence no elliptic normalization occurs on this degree-ten chart. This
-completed source calculation still lacks independent computational review.
+Hence no elliptic normalization occurs on this degree-ten chart. The
+October 31 independent review reconstructs this calculation with fresh
+coefficient formation, a fresh resultant and a derivative-gcd layer count;
+the [independently executed control](../computations/stci_closeout_degree_ten_independent_2026_10_31.m2)
+and [captured successful output](../computations/stci_closeout_degree_ten_independent_2026_10_31.txt)
+are retained. The linear factor is \(\lambda\), already excluded, and the
+degree-lowering factor is \(169\lambda^2+280\lambda-800\). At every
+nondegenerate exceptional factor of degrees \(2,3,12,14\), successive
+derivative-gcd degrees are \((10,1,0)\): one double root and eight simple
+roots, hence odd part degree eight and genus three. Away from the resultant
+locus the degree-ten discriminant is squarefree and gives genus four.
+This is **independently reviewed provisional exclusion of that exact chart**,
+not an exclusion of all balanced contacts or primitive elliptic targets.
 
 Reciprocal support supplies a useful smaller coefficient model, without
 a classification claim. For \(R=t^4+at^3+bt^2+at+1\), coefficient
@@ -710,10 +774,35 @@ image has arithmetic genus five, so elliptic normalization requires total
 singularity defect four; the discriminant method tracks this through the
 actual equation rather than presuming a generic singularity type.
 
-The affine square-quartic/degree-twelve chart is **uncomputed**. Its
-coefficient incidence is retained in the script, without an unfinished
-Gröbner run or success claim. These partial charts neither exhaust
-balanced contact nor arbitrary contact distributions.
+The affine square-quartic/degree-twelve chart is **unfinished**. Its exact
+necessary incidence is as follows. Over
+\(B=\mathbf Q[a,b,c,s_0,s_1,s_2,s_3]\), put
+\[
+ R=t^4+at^3+bt^2+ct+1,\qquad
+ S_4(A)=A^4+s_3A^3+s_2A^2+s_1A+s_0,
+\]
+regroup \(R^5\) into \(e_0,e_1,e_2\), and set
+\[
+ I=\bigl([A^j]\operatorname{rem}(e_1^2-4e_0e_2,S_4^2):0\le j\le7\bigr).
+\]
+The saturation by \(b\operatorname{Disc}(R)\) never returned in the
+source calculation. The literal degree-twelve chart additionally retains
+\(4b+3a^2\ne0\). One must not invert \(s_0\) or a convenient coefficient
+minor: the square factor may pass through \(A=0\). A surviving quotient
+\(D_4=\Delta/S_4^2\) must be a separable quartic, with nonzero constant
+and leading coefficients. Primitive actual bidegree, reduced disjoint
+normalized ruling boundaries, exactly four normalized inverse points and
+source extension remain additional tests. The binary formulation retains
+square factors at infinity; this monic affine chart does not by itself.
+
+Eligible affine discriminant degrees are even on the surviving boundary
+stratum: the degree-two \(A\)-map has reduced zero and pole divisors and
+therefore no branch over \(0,\infty\). In the binary degree-twelve
+discriminant, odd order at infinity would contradict this. The completed
+lower charts and independently reviewed degree-ten result consequently
+leave this degree-twelve chart distinct. No emptiness, dimension or component
+classification is claimed for it, and other contact distributions still need
+their own binary discriminant and normalized inverse-point analysis.
 
 ## 6. Reconstructing an actual source from a marked elliptic target
 
@@ -1160,6 +1249,14 @@ and determinant gates; and on an actual admissible image solve full mate
 descent. No degree bound or exhaustive reduction sends arbitrary STCI
 pairs to this interface. Both possible outcomes of the unrestricted
 existence problem remain visible.
+
+There is also an actual higher-degree inverse source, rather than only a
+logical exception to these tests. The [five-parameter elliptic double inverse](elliptic_double_inverse_construction.md)
+has complete global coordinate lifts and a fixed birational octic member.
+Its first unresolved condition is absence of extra inverse support on a
+smooth, basepoint-free birational stratum, followed by pure-power descent.
+Its length-twelve fixed-member failure neither excludes that whole family
+nor transfers the rational-diagonal symmetry argument to it.
 
 ### 9.1 What extends to positive characteristic
 

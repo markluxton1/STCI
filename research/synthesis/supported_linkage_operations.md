@@ -1,4 +1,4 @@
-# Supported linkage operations and their generic and descended equations
+# Constructing supported curves: ACM sources and stronger descent gates
 
 Work over an algebraically closed field of characteristic zero with
 \(C=C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\). Put
@@ -11,8 +11,16 @@ with involution \(\sigma(z)=-z\). The lift
 \]
 is displayed in coordinates \([a:b:z:c:d]\); write \(P=I_D\subset E\).
 All constructions preserve this embedding and hyperplane polarization.
-The deductions below are provisional, not a canonical STCI result.
-The unrestricted characteristic-zero question remains open.
+The intermediate constructive target considered here is an actual supported
+**ACM curve downstairs in \(\mathbf P^3\)**. A complete intersection is a stronger target. For a codimension-two
+curve in \(\mathbf P^3\), AG implies CI: if S/I is CM, the Hilbert–Burch resolution of I
+has last free rank equal to the CM type of S/I; type one gives two ideal
+generators, hence a regular sequence. An ACM quotient need not have type
+one and its ideal can have more than two minimal generators. An ACM
+curve on \(Q_3\) therefore supplies useful input, with its actual projection
+and coordinate image still to be checked. The deductions here are reviewed
+provisional construction controls, not a canonical STCI result. The
+unrestricted characteristic-zero question remains open.
 
 The [quadratic-cover account](quadratic_covers_and_conductor_descent.md)
 owns the arbitrary-pair boundary, automatic conjugate descent, and the
@@ -140,7 +148,7 @@ is an actual ACM supported thickening, with
  \tag{5}
 \]
 These follow from (4) and the degree \(8uv\) of its CI quotient.
-Global ACM compatibility has genuinely been achieved for this source.
+This source achieves actual ACM compatibility on Q3.
 
 ## 4. A uniform local algebra lemma: every higher-order containing section has type two
 
@@ -257,31 +265,192 @@ multiplier \(g^v\) as quadratic when \(v>1\); the generic lemma above
 handles that power family separately. Formula (8) identifies the actual
 descended equation that makes the restriction uniform.
 
-## 6. What these mechanisms leave open
+## 6. Liaison addition gives an actual supported ACM source
 
-Actual supported ACM thickenings on the upstairs quadric threefold have been constructed, and their whole
-positive-power source is excluded as a direct CI construction. The
-local lemma also excludes all higher-order containing sections with the
-specified generic basic-double-link ideal, and the norm argument
-excludes every quadratic multiplier independently of its containing
-section. These are bounded operation theorems, without an exhaustion
-of supported thickenings, higher multipliers, or finite chains.
+The preceding power construction is not the only support-compatible
+liaison input. For the smooth arithmetically Gorenstein threefold Q3,
+let I_1,I_2 be saturated ideals of locally Cohen–Macaulay codimension-two
+curves, and choose a regular pair F_i∈I_i of degrees d_i. Liaison addition
+is the actual homogeneous ideal
+\[
+J=F_2I_1+F_1I_2.
+\]
+[Hartshorne–Migliore–Nagel, Definition 2.1 and Lemma 2.2](https://academicweb.nd.edu/~jmiglior/HMN.pdf)
+give its saturation and the exact ideal sequence
+\[
+0\longrightarrow E(-d_1-d_2)
+\xrightarrow{h\mapsto(F_1h,-F_2h)}
+I_1(-d_2)\oplus I_2(-d_1)
+\xrightarrow{(u,v)\mapsto F_2u+F_1v}J\longrightarrow0.
+\tag{9}
+\]
+The kernel description also follows directly by cancellation of the
+regular pair. At the level of support,
+\(V(J)=V(I_1)\cup V(I_2)\cup V(F_1,F_2)\): a prime containing J
+contains an input ideal, or else contains both multipliers. Thus both
+input curves and the regular-pair intersection remain in the output. On \(Q_3\), \(H^1\) and \(H^2\) of every twist of
+\(\mathcal O_{Q_3}\) vanish; sheafifying
+(9) therefore gives the shifted direct sum of Rao modules
+\[
+M_J=M_{I_1}(-d_2)\oplus M_{I_2}(-d_1).
+\tag{10}
+\]
+Thus adding a curve with a nonzero Rao module retains that defect as a
+direct summand. This particular operation does not turn a deficient input
+into an ACM output, including the reduced union \(D\cup\sigma D\)
+when it is used as an input. It does allow two ACM inputs to give an ACM output.
+Neither assertion prescribes the new scheme's reduced support.
 
-The canonical boundary/Rao comparison supplies one condition viewed in
-two ways. Neither genus from support alone nor a repeated numerical
-liaison comparison supplies the missing upper boundary budget. An
-obstruction would need a genuinely independent comparison applying to
-arbitrary pairs; an existence construction would need a different
-operation retaining generic Gorenstein algebra and actual global
-sections and conjugate attachment. Both remain live mathematical
-possibilities. No stated vanishing, ACM property, liaison-class
-membership or local compatibility proves STCI.
+### An explicit support-compatible pair
 
-## Independent review and scope
+Use the two rational normal curves D and sigma(D) separately. Both are
+ACM on Q3. With the already defined quadrics f=b²-az and g=c²-dz, put
+\[
+I_1=P,\quad I_2=\sigma P,\qquad
+F_1=f,\quad F_2=g^3-4d^4f.
+\]
+These are actual homogeneous forms, of degrees two and six. On sigma(D),
+whose parametrization has z=-s²t², one has
+\[
+f=2s^6t^2,\qquad g=2s^2t^6,
+\]
+so g³=4d⁴f and F_2∈sigma(P). Also
+\[
+(f,F_2)=(f,g^3).
+\]
+The earlier regular sequence (f,g) has sole reduced support D; replacing
+g by g³ preserves regularity and support. Thus the liaison ideal
+\[
+\boxed{J=(g^3-4d^4f)P+f\,\sigma P}
+\tag{11}
+\]
+is saturated and defines an actual ACM curve. Its support is exactly
+D∪sigma(D). Indeed J is contained in both P and sigma(P). If a prime
+containing J contained neither input ideal, it would contain F_2 and f,
+hence rad(f,g³)=P, a contradiction. There are no other curve components.
+Its ACMness follows either from (10), or from (9) and the depth lemma:
+P and sigma(P) have depth three over the four-dimensional CM ring E,
+so J has depth at least three and E/J is CM of dimension two.
 
-Independent reconstruction checked the actual supported ACM source, Rao-boundary dependence, generic and descended-equation gates, and the stronger arbitrary-h local lemma via its minimal Hilbert-Burch resolution and regular-element length filtration. The scope is a bounded operation class, not an exhaustion of supported thickenings, higher multiplier ideals, or linkage chains.
+This construction establishes the simultaneous feasibility of actual
+support and ACMness **upstairs**. It does not assert that the two full
+primary structures are conjugates of one another, or that the contracted
+coordinate image in P3 is ACM, AG, or a complete intersection.
 
-The inherited mathematical inputs retain the scope and review evidence of their linked owners. No inherited CAS campaign was broadly rerun, and the unrestricted characteristic-zero STCI question remains open.
+### Its invariant quartic survives primary extraction and conjugation
+
+The first multiplier produces an immediate stronger-property gate:
+\[
+N(f)=f\sigma(f)\in f\sigma P\subset J.
+\]
+This is the same nonzero invariant quartic displayed in §4. Every
+D-primary extraction Q_D of J contains J. Since sigma(N(f))=N(f), the
+conjugate ideal sigma(Q_D) contains it as well. Consequently
+\[
+N(f)\in Q_D\cap\sigma(Q_D),
+\]
+and the coordinate image of that conjugate union has this quartic in its
+homogeneous ideal. If the image were a supported CI, it would contradict
+[R-0001 and its factor reduction](../results/quartic_carrier_exclusion.md).
+The same argument applies to every addition of this pattern retaining
+F_1=f, whatever admissible second form F_2 is used.
+
+This excludes the displayed source as a direct supported CI construction
+in characteristic zero. The quartic equation alone does **not** rule out
+an ACM coordinate image with more than two defining generators. Nor is
+this a theorem about arbitrary liaison additions, other multipliers,
+chains of links, or all supported ACM thickenings.
+
+### What Rao and N-type theorems do and do not construct
+
+For curves on the smooth quadric threefold, the applicable Rao statement
+concerns the **even Gorenstein liaison class**, up to twist. It does not
+identify that class with a fixed-support locus or a CI-biliaison class.
+[Hartshorne–Migliore–Nagel, §5, Example 5.5](https://academicweb.nd.edu/~jmiglior/HMN.pdf)
+exhibits different CI-biliaison data with the same Rao module: a maximal
+Cohen–Macaulay module and its compatible surjection remain part of the
+presentation. Thus the direct-sum obstruction (10) is a statement about
+this operation, and the Rao class is not a substitute for its equations,
+conjugation, or ambient restriction maps.
+
+[Casanellas–Drozd–Hartshorne, Proposition 3.4](https://arxiv.org/pdf/math/0307378)
+starts with an N-type resolution on a normal AG ambient scheme and a
+sequence
+\[
+0\to\mathcal E\to\mathcal N\to\mathcal N'\to0,
+\]
+where E is an **orientable rank-two ACM subsheaf** and N' is locally
+Cohen–Macaulay of rank at least two. It uses sufficiently general sections
+to obtain a scheme in the same even G-liaison class with a resolution
+using N'. The output resolution is N-type only with the additional
+condition \(H^1_*(\mathcal N'^{\vee})=0\). The theorem does not select the support D,
+the conjugate partner, or the equation maps needed here. Its use as a
+construction mechanism requires those actual hypotheses and choices;
+removing a formal ACM summand or quoting a Rao class supplies none of them.
+
+## 7. A height-two residual pattern already contains the support problem
+
+[Batavia–Pandey–Walther, Theorems 5.1–5.2 and §2.4](https://arxiv.org/pdf/2610.25680v1)
+construct residual intersections that are STCI in any characteristic.
+Theorem 5.1 starts with a regular sequence of length n>1 in a Gorenstein
+local ring and constructs s-residual intersections for s≥n in a polynomial
+extension. Theorem 5.2 uses a generic height-three Gorenstein Pfaffian
+ideal and a specialization preserving that input height, with s≥3.
+These are existence theorems for their residual sources, not a conclusion
+that every specialization has a prescribed irreducible projective support.
+
+For a height-two output of the explicit Theorem 5.1 pattern, take s=n=2.
+Writing the input as (u,v), its matrix and output ideal are
+\[
+X'=\begin{pmatrix}x&\lambda\\\lambda&0\end{pmatrix},
+\qquad J=(xu+\lambda v,\lambda u,\lambda^2).
+\]
+Here the two linear combinations are X'(u,v)^t and the determinant adds
+-lambda². In every ring, and after every substitution,
+\[
+\boxed{\sqrt J=\sqrt{(\lambda,xu)}}.
+\tag{12}
+\]
+Indeed J⊂(lambda,xu), while lambda²∈J puts lambda in rad J and the
+first generator then puts xu in rad J. This proves both radical
+inclusions without a colon calculation or a genericity assertion.
+Geometrically,
+\[
+V(\lambda,xu)=V(\lambda,x)\cup V(\lambda,u).
+\tag{13}
+\]
+
+If lambda,x,u are nonzero positive-degree homogeneous forms in the
+coordinate ring of P3 over an algebraically closed field, each branch of
+(13) is nonempty and has dimension at least one. If their union has
+support exactly the irreducible C0, each branch is a closed subset of C0
+of dimension at least one, hence both already have support C0. Producing
+such a specialization therefore already produces supported two-equation
+pairs (lambda,x) and (lambda,u). The operation may change their transverse
+scheme structures; it cannot remove an unwanted component of either
+branch. This is an explicit support control, not a contradiction to the
+positive residual-intersection theorem.
+
+A nonzero linear lambda cannot contain the nondegenerate C0. Using
+higher-degree entries requires actual homogeneous forms, including
+\[
+\deg x+\deg u=\deg\lambda+\deg v,
+\]
+and separate verification of their support. The universal radical
+identity survives arbitrary substitution; the colon equality, height,
+regularity and residual-intersection hypotheses of the source theorem
+do not follow from it. The branch argument just given uses positive
+degrees and nonzero entries; it is not an assertion about a substitution
+with a unit or zero entry outside those hypotheses.
+
+The source's regular homogeneous specializations preserve height because
+the specializing sequence is regular on both the ambient ring and its
+quotient: both dimensions fall by the same length. Accordingly the
+height-three theorem, whose residual height is s≥3, does not produce a
+codimension-two curve by such a specialization. An additional height-drop
+map would require its own actual support and two-equation proof. This
+leaves other residual constructions open.
+
 
 ## Classical residual operations on the skew-line link
 
@@ -298,11 +467,11 @@ their actual link to C0:
 \[
 \mathfrak a:I_D=P,\qquad
 (q,B_3)=(ac,ad,bc,bd)
-\begin{pmatrix}0&-c\\1&0\\-1&0\\0&b\end{pmatrix}.                    \tag{7}
+\begin{pmatrix}0&-c\\1&0\\-1&0\\0&b\end{pmatrix}.                    \tag{14}
 \]
 In Segre coordinates \(a=xu,b=xv,c=yu,d=yv\), the cubic restricts to
 \(xy(xv^3-yu^3)\): its divisor is the two lines plus C0 of class (1,3).
-This proves the residual support and multiplicities in (7).
+This proves the residual support and multiplicities in (14).
 
 The actual outputs of the proposed operations are:
 
@@ -362,3 +531,65 @@ of all residual constructions.
 
 
 The exact skew-line source operations and their theorem-applicability limits were independently reconstructed. These are bounded source failures, not a classification of residual constructions. The [projected-thickening section obstruction](projected_thickening_section_defects.md) is a different failure of the actual downstairs homogeneous section ring.
+
+<a id="6-what-these-mechanisms-leave-open"></a>
+
+## 8. What has been realized, and which stronger properties fail
+
+The basic-double-link power family and the explicit liaison addition
+construct actual supported ACM schemes on Q3. Their operation formulas,
+regular pairs and saturation arguments make the input realizable, rather
+than an abstract module with desired numerical invariants. The
+[projected-source calculation](projected_thickening_section_defects.md)
+separately tests whether its specified actual upstairs sources remain ACM
+downstairs; ACMness is not automatic under this projection.
+
+Different failures here test different stronger requirements. The generic
+type-two lemma prevents AG conjugate unions for its containing-section
+pattern. The invariant quartic and factored sextic prevent supported CI
+images in characteristic zero. Those low-degree equations do not by
+themselves exclude an ACM image with additional generators. The BPW
+height-two specialization retains both input branches, and the skew-line
+residual operations retain their particular equations or depth defects.
+None of these source-specific conclusions covers all liaison additions,
+higher multipliers, finite chains, or all supported structures.
+
+The canonical-boundary/Rao formula is one condition in two descriptions;
+its conductor multiplication is owned by the
+[quadratic-cover account](quadratic_covers_and_conductor_descent.md).
+For that covering construction an AG conjugate union supplies a CI image,
+but obtaining an actual supported ACM image is a distinct intermediate
+problem. Module ranks, liaison-class membership and sheaf existence do
+not select the embedded multiplication, compatible surjections, projection
+sections or conjugate gluing required by either target. Genus from support
+alone supplies no missing bound.
+
+Thus the concrete outcomes are supported ACM sources and exact failure
+mechanisms for the displayed attempts to achieve stronger descent. Other
+actual sources and operations remain available for construction; an
+unrestricted obstruction would need an additional theorem covering them.
+No residual positivity or incompatible conductor capacity is asserted.
+
+## Characteristic reach and independent review
+
+The uniform local type-two lemma and BPW radical identity are
+characteristic-free. The explicit two-branch Q3 liaison construction uses
+a separated involution and the displayed equations in characteristic zero;
+the same regular-pair and support calculation works when 2 is invertible.
+Its forbidden-quartic conclusion uses the characteristic-zero carrier
+exclusion and does not extend to positive characteristic, where a
+[quartic carrier has a supported mate](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+The quoted liaison and N-type operations retain their ambient, field,
+regularity and cohomology hypotheses; no arbitrary-characteristic extension
+is inferred from their module notation.
+
+Inherited independent reconstruction covers §§1–5 and the classical
+skew-line operations at their stated scopes. The new liaison-addition and
+BPW transfer reuses the independently reviewed frozen source, including
+the corrected CDH hypotheses and explicit supported input. Independent integration and preservation review accepted the actual
+liaison source, exact support and Rao sequence, invariant-quartic gate,
+corrected CDH hypotheses, BPW radical/height scope, and preservation of the
+existing proofs, with no unresolved material finding. Primary inspection checked HMN Definition2.1/Lemma2.2/Example5.5,
+CDH Proposition3.4 and BPW Theorems5.1–5.2 for the exact applications above.
+No new CAS execution, general operation classification, or canonical
+promotion is claimed.

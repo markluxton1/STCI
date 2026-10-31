@@ -106,6 +106,11 @@ The global H2 model loads its seventeen equations and domain polynomial from
 The retained exact generator source reconstructs the twelve-generator spectral
 system from the corrected sextic coefficient inputs; bulk Horner exports add
 no separate mathematical assertion.
+The two previously absent coefficient captures were recovered from the retained
+complete forms: `Q-coefficient-6.txt` is `[x^6]Q`, equal to the saved octic
+coefficient `[x^8]Fsrc`, and `F-source-coefficient-0.txt` is
+`[x^0]Fsrc=wPar*[x^0]Q`. This restores input paths without a new incidence
+calculation; the retained full forms satisfy `Fsrc=(x^2+vPar*x+wPar)*Q`.
 
 A `.txt`, `.json` or compressed file can be the mathematical witness itself.
 Conversely, a rank summary, process record, hash inventory or repeated PASS

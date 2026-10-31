@@ -23,3 +23,25 @@ New research contributions should follow [the proposal and audit checklist](rese
 - Never infer proof authority from recency, prominence, or inclusion in the frontier. Do not promote provisional findings during a navigation-only change.
 
 - `research/MAP.md` is a conceptual topic and interface map, not a formal dependency graph or new source of theorem authority. Maintain links to canonical records as new results are promoted; prefer mathematical consolidation to chronological accumulation.
+
+## Bounded integration while research continues
+
+Use `restructure/mathematical-consolidation` as the integration branch for this
+cleanup. Define each pass by exact committed sources and selected mathematical
+contributions; record that scope and exclusions in the integration commit or PR.
+Assign one writer to each destination proof home and reconcile INDEX, MAP, STATE,
+FRONTIER and the selection guide together. Do not import competing source
+navigation or create another intake registry.
+
+Investigation owners retain control of their worktrees and can continue after
+committing a coherent checkpoint with its necessary support and review status.
+Preserve valuable untracked work in the checkpoint; naming a branch alone does
+not preserve it. Integrate fixed committed inputs selectively, without rebasing,
+renaming or deleting active investigators' files. A pass ends when its declared
+inputs are faithfully incorporated and reviewed, even if later research exists.
+
+Review preservation separately from new mathematical deductions. Reuse applicable
+review of unchanged arguments; changes in proof or scope need their own review.
+Integration does not promote a provisional result. Retire a source worktree only
+after its owner has finished or handed off and its remaining committed and
+uncommitted contributions and computational consumers have been reconciled.

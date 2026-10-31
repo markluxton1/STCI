@@ -288,4 +288,12 @@ For an arbitrary hypothetical supported CI, its primary lift need not have this 
 
 ## Independent reconstruction and scope
 
+The result describes the section ring of these actual projections, not only a
+failed STCI attempt. A different downstairs ACM construction must eliminate or
+avoid the exhibited ambient-section defect through different source or
+multiplication data. The quotient example above explains why a general
+persistence theorem would require a new comparison. The parameter-sequence
+formulation makes the mechanism available for other finite projections while
+keeping its degree-product and presentation hypotheses explicit.
+
 Independent review reconstructed the irrelevant-torsion witness, the actual missing section, the parameter-sequence generalization and the binary Jacobian-socle argument, checking its precise nonzero-degree-product hypothesis against the primary socle theorem. The lower bounds describe three Rao degrees, not the full module. Reduction to the rational normal quartic kills the exhibited higher-degree classes, so no support-only persistence argument transfers this source obstruction to arbitrary primary lifts. The characteristic-divisible cases, including the stated Frobenius sources, remain outside the theorem.

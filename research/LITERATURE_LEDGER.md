@@ -560,3 +560,33 @@ The mathematical accounts now incorporate the following bounded primary-source c
 - [Supported linkage](synthesis/supported_linkage_operations.md) checks the source and generic-smoothness hypotheses in liaison and blowup results rather than using liaison-class membership or Rao dimensions as realization theorems.
 
 These are scoped integrations, not an exhaustive new literature search.
+
+The selected later contributions retain these further primary-source limits in
+their mathematical homes:
+
+- [Canonical conductor endomorphisms](synthesis/quadratic_covers_and_conductor_descent.md#13-canonical-conductor-section-completion-and-embedded-action)
+  uses the canonical-module endomorphism description of finite S2-ification;
+  it does not identify that completion with an embedding repair. The ambient
+  norm bound is a repository deduction from actual equations and the existing
+  canonical Hilbert-function inequality.
+- [Liaison additions and residual constructions](synthesis/supported_linkage_operations.md)
+  states the HMN ideal/Rao sequence, the full CDH subsheaf and cohomology
+  conditions, and the BPW height/support limits beside the actual constructions.
+- [Elementary transforms and monads](synthesis/global_equations_and_constructions.md)
+  distinguishes the specific torsion-free sheaf from a reflexive or monad output;
+  the fixed-twist ordinary-power generic-flatness result asserts flatness, not
+  vanishing or a mixed-characteristic lift.
+- [Finite Gorenstein covers](synthesis/fixed_surface_and_endpoint_algebras.md)
+  applies Casnati–Ekedahl to the supplied actual cover. Its canonical embedding
+  and available sections do not supply the required original projective image
+  or its algebra-linear duality. The [polarized retraction criterion](synthesis/contact_jacobians_and_hamiltonian_actions.md#a-pencil-compatible-polarized-retraction-cannot-extend-globally)
+  separately uses formal étaleness only on the unramified open.
+- [The sextic cyclic-cover calculation](supplements/SEXTIC_PAIR_REDUCTION.md)
+  checks characteristic-zero Bertini and the normalized Kummer eigensheaf
+  formula with arbitrary normal singularities. Its numerical invariants belong
+  to the normal cover; resolution inequalities are not imported without their
+  hypotheses.
+
+These entries reuse the scoped primary checks recorded with the selected
+contributions and their independent reviews. They do not certify unchecked
+extensions or assert literature novelty.

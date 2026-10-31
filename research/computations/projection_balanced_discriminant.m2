@@ -1,6 +1,6 @@
 -- Exact support for the restricted balanced-discriminant calculations.
--- Lower charts have inherited execution evidence. Degree-ten classification
--- remains without independent computational review. Degree-twelve is OPEN.
+-- Lower charts have inherited execution evidence. Degree ten now has separate
+-- independent review/control; this comment edit is not a rerun. Degree twelve is OPEN.
 -- Balanced four-contact target stratum: P(t)=R(t)^5.
 -- R has four distinct nonzero roots; coefficients normalized leading/constant1.
 -- This file builds an exact incidence, not a completed emptiness certificate.

@@ -10,6 +10,13 @@ The effective residual cycle \(R\) has no \(C\)-component. The STCI question
 asks whether \(R=0\) is possible in characteristic zero. Neither residual
 support nor its absence is a premise for the general geometry below.
 
+For degrees admitting a proper pair, one can equivalently ask for the attainable
+generic lengths and define \(\rho(a,b)=\min\deg R=ab-4\max m\), over actual
+pairs of those degrees. This is a way to organize constructions and residual
+bounds, not a newly computed invariant. No monotonicity in a or b is assumed.
+A new attainable multiplicity or an actual residual transfer can be useful even
+when \(\rho\) is not determined or the residual remains positive.
+
 ## 2.1 Generic length and common normal directions
 
 At \(\eta_C\) the ambient local ring is regular of dimension two, with

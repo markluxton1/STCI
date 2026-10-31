@@ -4,6 +4,9 @@ The fixed characteristic-zero STCI problem remains open; every positive
 characteristic admits a quartic-carrier construction for the same curve.
 Begin with the [approach index](../INDEX.md) or the [mechanism map](../MAP.md).
 The following chapters provide orientation, then link directly to full proofs.
+They also describe proper intersections containing the curve, realizable
+embedded multiple structures, residual cycles, and normalization or projection
+constructions. The account does not require every useful result to decide STCI.
 
 1. [The fixed curve and its geometry](01-problem-and-curve.md)
 2. [Two surfaces, multiplicity and residual support](02-two-surfaces.md)

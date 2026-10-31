@@ -1,17 +1,21 @@
-# Jacobian duality and Hamiltonian actions
+# Jacobian duality, pencil geometry, and Hamiltonian actions
 
-Throughout, \(k\) is algebraically closed of characteristic zero,
+Unless a characteristic extension is stated explicitly, \(k\) is
+algebraically closed of characteristic zero,
 \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), and
 \(Z=V(F_a,G_b)\) is a proper homogeneous complete intersection with
 \(Z_{\mathrm{red}}=C\). Put \(m=ab/4\), \(d=a+b\),
 \(p_0=[1:0:0:0]\), and \(p_\infty=[0:0:0:1]\).
 Here \(\mathcal O_C(r)\) means degree \(r\) on \(C\simeq\mathbf P^1\);
 an ambient twist by one has degree four. These are independently reviewed
-**provisional** deductions, not promoted results. They apply to arbitrary
-supported pairs without a smooth carrier, normal flatness, saturation of
-a first normal relation, or a retraction onto \(C\).
+**provisional** deductions, not promoted results. The Jacobian and
+Hamiltonian arguments apply to arbitrary supported pairs without assuming
+a smooth carrier, normal flatness, saturation of a first normal relation,
+or a retraction onto \(C\). The pencil also has a polarized retraction
+obstruction proved below. These statements retain actual embedded
+geometry; realizing compatible global equations remains a separate problem.
 
-**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed provisional deductions, with no canonical promotion; no computation or inherited certificate rerun was needed.
+**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed the Jacobian and Hamiltonian deductions and their explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed provisional deductions, with no canonical promotion; no computation or inherited certificate rerun was needed.
 
 ## The actual socle and a projection-change lemma
 
@@ -142,6 +146,82 @@ ideal** is involutive. The reduced Legendrian criterion alone would only
 control its radical. [Buczyński, §§3–5](https://arxiv.org/pdf/math/0503528)
 provides the reduced contact dictionary; its normal irreducible-CI theorems
 cannot be transferred to this everywhere nonreduced scheme.
+
+## A pencil-compatible polarized retraction cannot extend globally
+
+Write \(i:C\hookrightarrow Z\), \(\pi:Z\to B\) for the pencil above,
+\(f=\pi\circ i\), and
+\[
+L=\mathcal O_Z(1)=\pi^*\mathcal O_B(1).
+\]
+The equality follows from the two generating ambient sections \(x_0,x_3\),
+which have no common zero on \(Z\). There is no retraction
+\(r:Z\to C\) satisfying both
+\[
+r\circ i=\mathrm{id}_C,\qquad f\circ r=\pi. \tag{Retract}
+\]
+
+**Proof.** Nondegeneracy of the embedded quartic forces \(a,b\ge2\).
+The complete-intersection resolution, twisted by one, is
+\[
+0\longrightarrow\mathcal O_{\mathbf P^3}(1-a-b)
+\longrightarrow\mathcal O_{\mathbf P^3}(1-a)\oplus
+                    \mathcal O_{\mathbf P^3}(1-b)
+\longrightarrow\mathcal I_Z(1)\longrightarrow0.
+\]
+Intermediate line-bundle cohomology on \(\mathbf P^3\) vanishes in
+every characteristic, so \(H^0(\mathcal I_Z(1))=H^1(\mathcal I_Z(1))=0\).
+Consequently ambient linear forms give
+\[
+h^0(Z,L)=4,\qquad
+h^0(C,i^*L)=h^0(\mathbf P^1,\mathcal O_{\mathbf P^1}(4))=5. \tag{Sections}
+\]
+Here \(i^*L\) has degree four in this chapter's curve-degree notation.
+If (Retract) held, its pencil compatibility would identify
+\[
+r^*i^*L=(f\circ r)^*\mathcal O_B(1)=L
+\]
+compatibly with restriction to \(C\). Pullback along \(r\) would then
+split
+\[
+H^0(Z,L)\longrightarrow H^0(C,i^*L).
+\]
+This would make a map from a four-dimensional space onto a five-dimensional
+space surjective, which is impossible. ∎
+
+This section-count proof is characteristic free under the same proper
+supported-complete-intersection hypothesis; it uses no Jacobian, trace,
+or separability assertion. For \(\operatorname{char}k\ne2\), however,
+\(C^\circ\to B^\circ\) is finite étale, where
+\(B^\circ=B\setminus\{0,\infty\}\), \(Z^\circ=\pi^{-1}(B^\circ)\),
+and \(C^\circ=C\cap Z^\circ\). Formal étaleness uniquely lifts the
+identity of \(C^\circ\) across the nilpotent immersion
+\(C^\circ\hookrightarrow Z^\circ\), giving a unique retraction over
+\(B^\circ\). See [Stacks, Theorem 41.15.1](https://stacks.math.columbia.edu/tag/06NE).
+It follows that this particular punctured retraction cannot extend to a
+retraction over all of \(B\). The proof does not identify an obstructing
+endpoint. In characteristic two the reduced pencil is purely inseparable;
+this formal-étale existence and uniqueness assertion is not available.
+
+The section argument has a general form. Suppose
+\(D\subset Y\subset\mathbf P^N\), ambient linear forms surject onto
+\(H^0(Y,H)\) for \(H=\mathcal O_Y(1)\), and the given embedding of
+\(D\) is not linearly normal. There is no retraction \(r:Y\to D\)
+with an isomorphism \(r^*(H|_D)\simeq H\) compatible with restriction
+along \(D\). Such an isomorphism and \(r|_D=\mathrm{id}_D\) would split
+restriction on global sections. Its composition with the ambient
+linear-section map would surject onto \(H^0(D,H|_D)\), contrary to the
+failure of linear normality. This criterion is also characteristic free.
+
+For the quartic, a pencil-compatible retraction would lift the omitted
+section \(s^2t^2\). Its failure is the geometric consequence of the
+existing missing fifth hyperplane section, not another numerical budget.
+It excludes no arbitrary unpolarized abstract retraction and gives no
+endpoint classification or STCI contradiction. In particular, the
+section argument remains consistent with the supported complete
+intersections in positive characteristic. The corollary and its general
+polarized form carry a separate inherited scoped independent review;
+they remain provisional.
 
 ## Hamiltonian actions in the entirely thick branch
 
@@ -274,6 +354,10 @@ Finally \(q=x_0x_3-x_1x_2\) has Hamiltonian coordinate weights
 \((-1,-\tfrac12,\tfrac12,1)\), proportional to the quartic torus weights
 modulo scalar dilation. But \(q\) is only in the radical: involutivity of
 \((F,G)\) does not imply its invariance under \(\{q,-\}\), a torus action,
-or an equivariant splitting. The missing step is an incompatibility or a
-construction involving the quartic's actual global homogeneous equations.
-Neither the contact identity nor its unipotent actions provides that step.
+or an equivariant splitting. The realization problem still concerns the
+quartic's actual global homogeneous equations. The socle and contact identities
+constrain any such pair, while the polarized retraction obstruction explains one failure
+of extending the punctured pencil geometry. None supplies an arbitrary
+unpolarized splitting or a contradiction for every homogeneous pair; the
+remaining task is an actual supported construction or an obstruction with
+the necessary global coverage.

@@ -1,6 +1,22 @@
 # Quadratic covers, projected thickenings and conductor descent
 
-**Scope and status.** Independently reviewed provisional mathematics; no canonical promotion. Fix the smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field. Characteristic zero is the default; every positive-characteristic statement below identifies its extra hypotheses. The conductor controls a finite map on the entire nonreduced schemes. The central distinction is between the explicit projected CI family and the primary lift of an arbitrary hypothetical supported pair: the latter need not be Gorenstein. No family calculation covers every pair. Characteristic-zero STCI remains open.
+**Scope and status.** Independently reviewed provisional mathematics; no canonical promotion. Fix the smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field. Characteristic zero is the default; every positive-characteristic statement below identifies its extra hypotheses. Characteristic-zero STCI remains open.
+
+This chapter asks which multiple structures and intersections with this
+support can arise from actual homogeneous equations, and what projection
+and conductor constructions produce. The explicit power sources give
+real embedded thickenings whose projected section rings can be tested. A
+primary lift of an arbitrary supported pair has different hypotheses and
+need not be Gorenstein. Failures of the explicit sources therefore retain
+their source-specific scope.
+
+For any pair in the separated quadratic-cover setting, the full conductor
+scheme carries both local gluing and global postulation data. The canonical
+and norm bounds describe necessary geometry for a realization, including
+its infinitesimal endpoint structure. Conversely, an embedded AG conjugate
+union would descend to the required complete intersection. These conditions
+and the automatic descent criterion leave a concrete construction problem;
+they do not presume that no such intersection exists.
 
 ## 1. What the natural birational transport can and cannot do
 
@@ -546,6 +562,133 @@ Thus (7) also applies in odd characteristic and contains no mechanism
 specific to characteristic zero. In characteristic two this cover
 does not separate the branches, so its application here is unavailable.
 
+## 8.1. Ambient quadratic norms force conductor postulation
+
+**Independently reviewed provisional theorem.** The actual ambient equation
+degrees add a norm constraint to the canonical Hilbert-function inequality
+(7a). This uses the separated quadratic extension of §§6–8.
+Order the defining degrees as \(5\le\alpha\le\beta\); the lower bound
+five uses the accepted characteristic-zero low-carrier exclusions and
+factor reduction, including
+[STCI-R-0001](../results/quartic_carrier_exclusion.md).
+Put
+\[
+q=\left\lceil\frac{\alpha}{2}\right\rceil-1,\qquad
+L_q=\binom{q+2}{3}.
+\]
+Let \(J_\Delta\subset S\) be the inverse image of \(\mathfrak c\)
+under \(S\to A\), so \(T=S/J_\Delta\). The earlier vanishing
+\(H^0_{\mathfrak m}(T)=0\) makes this the saturated ideal of the
+actual projective boundary.
+
+**Theorem.** Every supported complete-intersection pair of §§6–8 in
+characteristic zero, with the ordered degrees above, satisfies
+\[
+(J_\Delta)_d=0\quad(0\le d<q),                                    \tag{7b}
+\]
+and
+\[
+\boxed{\quad
+\delta\ge\alpha+\beta-3+
+2\left[\binom{q+2}{3}-q\right].
+\quad}                                                           \tag{7c}
+\]
+This strengthens (7), uniformly in both degrees and without a
+carrier-normality, generic-normal-order or local-type hypothesis.
+It is a new consequence of (7a) and the norm input below, not a
+second independent duality budget. No optimality claim is made.
+
+**Proof.** Take \(0\ne h\in(J_\Delta)_d\), with \(d<q\). Since \(d<\alpha\),
+h has a nonzero class in A. Conductor membership means that
+\(hz\in A_{d+1}\). Choose a homogeneous polynomial
+\(P\in S_{d+1}\) representing it. In B,
+\[
+P^2-rh^2=0,\qquad r=2bc-ad.
+\]
+The injection \(A\hookrightarrow B\) implies
+\[
+P^2-rh^2\in(F_\alpha,G_\beta).
+\]
+This is a nonzero polynomial. Otherwise \(r=(P/h)^2\) in
+\(\operatorname{Frac}S\), whereas the irreducible quadratic r has
+odd valuation at its prime divisor and is not a rational square.
+The argument divides only in the fraction field of the polynomial
+ring S; h may be nilpotent in A. The fact that r becomes a square
+on the reduced curve is irrelevant to this nonvanishing.
+
+Its degree is \(2d+2\le2q<\alpha\), contradicting the least degree
+of a nonzero element of \((F_\alpha,G_\beta)\). This proves (7b).
+All representatives were taken in the actual graded rings. No
+replacement of B by a full section ring was made.
+
+Consequently
+\[
+H_\Delta(n)=\binom{n+3}{3}\quad(0\le n<q),\qquad
+H_\Delta(q-1)=L_q.
+\]
+Reduce T by a regular general linear form. Its h-vector has
+\(h_i=\binom{i+2}{2}\) for \(i<q\), and the earlier canonical
+injection gives \(s\ge e=\alpha+\beta-4\). Since there are no
+internal zeros, \(h_i\ge1\) for \(q\le i\le e\). Also
+\(e-q\ge q-1\), because \(\beta\ge\alpha\ge5\). Therefore
+\[
+H_\Delta(e-q)\ge L_q+e-2q+1.
+\]
+Apply (7a) at \(n=q-1\):
+\[
+\delta\ge H_\Delta(q-1)+H_\Delta(e-q)
+       \ge2L_q+e-2q+1,
+\]
+which is (7c). This uses neither symmetry of the h-vector nor an
+arithmetically Gorenstein boundary.
+
+Two reusable ingredients are separated by this proof. The norm
+argument works for a homogeneous inclusion \(A\hookrightarrow B\)
+with \(B=A+Aw\), \(\deg w=1\), and \(w^2=r\), whenever r is a
+quadratic polynomial nonsquare in \(\operatorname{Frac}S\).
+The ideal defining A need only have no nonzero form below degree
+\(\alpha\) for (7b). To obtain (7c), retain finite birationality on
+the full generic algebras, saturation, local CM and finite projective quotient-support
+hypotheses stated above, with A a complete intersection. Separately,
+any one-dimensional standard graded CM quotient of S with
+\(J_{<q}=0\), \(s\ge e\), and (7a) satisfies the same scalar
+bound when \(q\ge1\) and \(e\ge2q-1\). These algebraic deductions
+are characteristic free under their explicit hypotheses; applying
+this particular separated cover still requires characteristic
+different from two, and the low-degree premise used here is the
+characteristic-zero one.
+
+Geometrically, the actual conductor boundary of \(W\to Y\) cannot
+lie scheme-theoretically on an ambient hypersurface of degree below
+q. Such an equation would allow its multiple of the omitted
+coordinate to descend and create a forbidden low-degree equation
+of Y. Although the reduced boundary has only the two marked
+points, its full infinitesimal structure must impose independent
+conditions on all these low-degree ambient forms. Canonical
+duality then requires complementary later postulation. This adds
+a term growing cubically with the smaller defining degree to the
+boundary-length requirement. It is not a bound on distinct points,
+an upper bound on conductor capacity, or a positive residual degree.
+
+The canonical Hilbert-function input remains the direct proof of
+(7a) and the already checked Kreuzer comparison. The elementary
+norm specialization is a new explicit repository consequence;
+no literature priority or exhaustive literature-search claim is made.
+The frozen source and its companion audit record a separate independent
+reconstruction of this norm and postulation deduction. The current chapter
+retains that reviewed provisional scope; no canonical promotion follows.
+
+The distinction from the general theorem in §11 is essential. Its
+canonical injection and Hilbert inequality allow any positive degree of
+the extra module generator and any two-dimensional standard graded
+Gorenstein base. The norm step here additionally uses an actual polynomial
+ambient ring, the quadratic relation for a degree-one generator, and a
+lower bound on the initial degree of the defining ideal. The extremal
+argument in §12 instead uses an irreducible nonlinear reduced support and
+its embedding, without requiring a quadratic relation. For the fixed
+quartic application with \(\alpha\ge5\), (7c) gives the stronger scalar
+bound, but it does not replace those more general statements.
+
 ## 9. Why the extracted branch need not be Gorenstein
 
 One exact local control suffices to test that possible shortcut; no
@@ -700,7 +843,7 @@ If s=e−d+1, the faithful canonical element in (10) lies in the initial degree 
 
 This isolates the geometric information shared by the projected source and the arbitrary-pair cover. An extra polarized section becomes regular upstairs; the conductor records its failure to descend. Local duality controls the boundary algebra, while the canonical twist controls its global postulation. The non-Cartier obstruction for the explicit characteristic-zero source and the incompatible adjunction in its odd Frobenius powers are additional tests on that source. Neither is automatic for an arbitrary extracted branch, as §9 demonstrates.
 
-The remaining unrestricted gaps are concrete: no upper bound incompatible with (11) or (12) is established for the endpoint boundary, and no embedded AG conjugate union with the required polarization has been constructed. Local Gorenstein attachment, an abstract canonical extension, or success of the rank and determinant conditions alone does not fill those gaps. The characteristic-zero STCI question remains open.
+The common theorem describes the boundary of an extra polarized section. In the quadratic application, §8.1 adds actual ambient equation information to its Hilbert inequality; §12 adds an independent extremal embedding constraint. These remain necessary conditions. No incompatible upper bound or embedded AG conjugate union with the required polarization follows from the graded theorem alone.
 
 ## 12. Embedded-curve exclusion of the minimal boundary
 
@@ -734,12 +877,134 @@ For the separated quadratic lift of any hypothetical supported pair on the fixed
 \boxed{\delta\ge a+b-2.}
 \]
 
-Here the extremal case would create an actual line in the complete intersection downstairs. It is neither a cone-vertex artifact nor merely vertical exceptional support. The refined lower bound still has no incompatible upper bound; it leaves unrestricted characteristic-zero STCI open.
+Here the extremal case would create an actual line in the complete intersection downstairs. It is neither a cone-vertex artifact nor merely vertical exceptional support. For the fixed quartic with the stronger premise min(a,b)≥5, the quadratic norm in §8.1 gives a larger scalar lower bound. This extremal proof retains its separate value for the stated degree-d extensions without a quadratic relation. Neither argument supplies an incompatible upper boundary bound.
 
 **Review scope.** Independently reconstructed the extremal h-vector argument, the saturated line-supported scheme step, and the degree restriction contradiction. Nonreduced conductor support causes no exception: a binary form of smaller degree cannot vanish on a divisor of larger scheme length unless it is zero. No computation or literature rerun is required for this refinement. The algebraic implication is characteristic free under the stated extension and degree hypotheses; the specified separated quadratic-lift application retains its characteristic-not-two restriction.
+
+## 13. Canonical conductor, section completion and embedded action
+
+**Independently reviewed provisional deductions.** Keep the actual graded
+rings of the hypothetical supported pair in §§6–8, in the stated
+characteristic-zero setting. This argument identifies additional structure
+on the same embedded branch; it does not produce a new ACM embedding.
+Write \(\mathfrak c=\operatorname{Hom}_A(B,A)\) and \(T=A/\mathfrak c\).
+The exact sequence
+\[
+0\longrightarrow\mathfrak c\longrightarrow A\longrightarrow T
+\longrightarrow0
+\]
+has depths two and one in its last two terms. The depth lemma therefore
+gives \(\operatorname{depth}_A\mathfrak c=2\). Thus the conductor is MCM
+over the two-dimensional ring A. As a module over the four-dimensional
+covering ring \(E=S[z]/(z^2-r)\), however, it still has dimension and
+depth two and is not MCM. The boundary theorem already implies this depth;
+it is not a second restriction on the pair.
+
+Finite duality gives \(\mathfrak c(e)=\omega_B\). Consequently the
+canonical-endomorphism construction gives
+\[
+B^\sharp=\operatorname{End}_B(\mathfrak c)
+        =\operatorname{End}_A(\mathfrak c).                    \tag{13}
+\]
+For the second equality, localize in the common full total quotient
+algebra: the conductor has rank one there, so each A-endomorphism is
+multiplication by an element of that commutative algebra and commutes
+with B. The primary branch is unmixed. The canonical-endomorphism theorem
+identifies this finite extension with its \(S_2\)-ification; see
+[Hochster–Huneke, §2.2(f,h) and Proposition 2.7](https://arxiv.org/pdf/math/0211172).
+Since B is CM away from its cone vertex, the graded section sequence then
+gives
+\[
+B^\sharp=\bigoplus_{n\in\mathbf Z}H^0(W,\mathcal O_W(n)),\qquad
+B^\sharp/B=H^1_{\mathfrak m}(B)=M_W.                           \tag{14}
+\]
+Thus this operation fills the section ring of the same projective scheme
+W. It does not change the original ambient restriction maps or turn their
+coordinate image B into an ACM quotient. The full graded ring can include
+negative-degree nilpotent sections and is not automatically a standard
+graded quotient in the same coordinates.
+
+Multiplication by the omitted coordinate is an actual graded action
+\[
+\mu:\mathfrak c\longrightarrow\mathfrak c(1),\qquad \mu^2=r.
+\]
+It also acts on \(M_W\). Indeed \(B^\sharp\mathfrak c\subset\mathfrak c\),
+so \(\mathfrak c M_W=0\), and the quotient in (14) is a module over
+\(T[z]/(z^2-r)\). This does not give a compatible z-action on the two
+terms of the canonical injection \(T(e-1)\hookrightarrow\omega_T\):
+multiplication by z sends the even copy of T in the quadratic conductor
+boundary into the odd summand. That injection alone does not retain such
+an action on its separate terms.
+
+The complete action does retain the embedded equation maps. Put
+\(R=A[z]/(z^2-r)\). Then
+\[
+\ker(R\longrightarrow B)
+   =\{zh-\mu(h):h\in\mathfrak c\}.                           \tag{15}
+\]
+Every element of R has the unique form \(p+zq\). It vanishes in B
+exactly when \(qz\in A\), equivalently \(q\in\mathfrak c\), and
+\(p=-\mu(q)\). Conversely those graph elements vanish. Their stability
+under multiplication by z follows from
+\[
+z(zh-\mu(h))=-\bigl(z\mu(h)-\mu^2(h)\bigr).
+\]
+This proves (15) as the actual ideal presentation, rather than only a
+module count. It records which conductor multiples of the omitted
+coordinate descend and the sections to which they descend. Specifying
+the allowable embedded conductor and its full action reconstructs the
+branch ideal; without a further comparison, that specification is still
+an equation-realization problem. Module ranks or twists alone forget
+the required maps.
+
+There is a useful presentation distinction on the covering quadric. The
+second E-syzygy of \(\mathfrak c\) is MCM: two free syzygy steps raise its
+depth from two to four. Its maps back to \(\mathfrak c\), the inclusion
+\(\mathfrak c\subset A\), and \(\mu\) are still needed. This does not
+make the ordinary E-type module of an arbitrary W MCM. That conclusion
+requires the actual curve to be ACM in
+[Drozd, Lemma 2 and Theorem 2](https://arxiv.org/pdf/math/0409243).
+For non-ACM curves, the presentation in
+[Hartshorne–Migliore–Nagel, §5](https://academicweb.nd.edu/~jmiglior/HMN.pdf)
+retains a compatible surjection as well as Rao and MCM modules. These
+maps can hold information beyond the scalar postulation bounds, but no
+checked theorem here makes their required conjugate compatibility
+impossible or supplies the desired branch.
+
+## 14. Boundary geometry and the remaining realization problem
+
+The explicit projections above produce genuine supported multiple
+structures, with precise local and global section-ring behavior. Their
+failures identify features a different embedded construction would have
+to change. They are not an exhaustive classification of possible sources.
+For an arbitrary supported pair, the separated lift has a full quadratic
+conductor boundary, not just two reduced attachment points. Canonical
+duality constrains its grading; the ambient norm forces independent
+low-degree conditions and complementary later postulation. Neither
+length is a count of distinct points or a residual curve downstairs.
+
+These necessary conditions can test a proposed realization. In the fixed
+characteristic-zero application, (7c) strengthens the lower boundary
+requirement, while §12 retains an independent embedding argument in its
+broader setting. No incompatible upper bound on the same full conductor
+scheme is available. The canonical endomorphism ring completes sections
+of an existing W; it does not construct the missing homogeneous maps or
+repair their image in the fixed projective space.
+
+There is also a concrete constructive target: §10 proves that an actual
+embedded AG conjugate union with the prescribed support descends to a
+complete intersection downstairs. The available local Gorenstein
+attachments and abstract canonical modules do not yet supply that union
+with its polarization and section ring. An explicit embedded operation
+or a defined comparison on the actual conductor action can therefore
+pose a meaningful further test, even before its outcome is known. The
+results here describe what such a realization must retain, without
+presuming either existence or nonexistence of a supported pair.
 
 ## Independent review and scope
 
 Independent reconstruction checked the projected-source and arbitrary-pair distinction, full primary extraction, conductor and attachment formulas, characteristic bounds, and conjugate descent. The degree-d theorem was proved again with full finite-birational, module-generation, CM and support hypotheses, including the nonreduced setting, exact shifts and Hilbert inequalities. No incompatible upper boundary bound, AG conjugate union, or unrestricted STCI conclusion follows.
+
+The separately reviewed norm/postulation theorem is retained with its full actual-ring proof, including nilpotent h, nonsquare polynomial norm, parity cutoff, and characteristic boundaries. The conductor-endomorphism application retains its scoped source review: it identifies section completion and the actual quadratic graph presentation, without an embedded ACM repair or a new exclusion. These additions do not re-certify unrelated source material or promote a canonical result.
 
 The inherited mathematical inputs retain the scope and review evidence of their linked owners. No inherited CAS campaign was broadly rerun, and the unrestricted characteristic-zero STCI question remains open.

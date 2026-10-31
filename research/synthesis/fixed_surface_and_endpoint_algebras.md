@@ -1,10 +1,12 @@
 # Fixed surfaces, endpoint equations, and the missing normal action
 
-These are full proofs for the fixed quartic C0, with characteristic zero in the fixed-surface/trace part and arbitrary characteristic in the elementary two-chart and endpoint part. They are independently reviewed provisional deductions, not promoted results. Independent source review reconstructed the finite-flat algebra, identical-full-restriction examples, trace-residue formula and zero-first-trace counterexample, followed by the two-chart/endpoint and determinant arguments. The elementary deductions require no finite search or inherited certificate rerun. The [global equation account](global_equations_and_constructions.md) supplies the elementary quartic geometry and affine-boundary theorem.
+These are full proofs for the fixed quartic C0. The finite-cover and elementary two-chart arguments are characteristic-free; the residue controls and trace criteria have the precise characteristic assumptions below. They are independently reviewed provisional deductions, not promoted results. Independent source review reconstructed the finite-flat algebra, identical-full-restriction examples, trace-residue formula and zero-first-trace counterexample, followed by the two-chart/endpoint and determinant arguments. The elementary deductions require no finite search or inherited certificate rerun. The [global equation account](global_equations_and_constructions.md) supplies the elementary quartic geometry and affine-boundary theorem.
 
 ## Characteristic scope of the separate tests
 
 The finite-flat projection/module-splitting proof, actual q-cokernel, and equivalence of sole support with nilpotence and vanishing characteristic coefficients use no characteristic-zero assumption and work over algebraically closed k in every characteristic, under their stated endpoint/quadric hypotheses. The reduced projection [s:t]↦[s⁴:t⁴] is separable in odd characteristic and characteristic zero, and purely inseparable of degree four in characteristic two. Degree ab counts the full finite-flat algebra, not a reduced separable cover.
+
+The generic cover-trace identity proved below works in every characteristic. Its pairing has rank four exactly in characteristic zero or odd characteristic not dividing the transverse length m; it is zero if the characteristic divides m, and also in characteristic two because the reduced cover is inseparable. The corrected canonical-cover structure theorem has no characteristic restriction. Its Gorenstein and realization hypotheses remain necessary.
 
 The equivalence with traces through rank n=ab needs the Newton divisions 1,...,n: it is valid when n! is invertible (in particular characteristic zero or p>n). Without that condition, trace vanishing cannot replace the characteristic polynomial: even the identity on a rank-p vector space has every positive power trace zero in characteristic p but is not nilpotent. The explicit cubic Cminus decomposition, its regular-parameter thickness calculations, the two-lower-layer residue derivation, and the zero-firsttrace quartic control below retain their checked characteristic-zero scope. In characteristic two Cminus=C and the crucial coefficient 2 in the generic cubic relation vanishes; the characteristic-zero cubic controls cannot simply be reused. The actual two-chart/endpoint/determinant arguments in the second part are characteristic-free, as their proofs show.
 
@@ -222,6 +224,145 @@ The module splitting is not an algebra splitting. Its multiplication,
 and the two maps given by multiplication by \(x_1,x_2\), retain the
 actual arbitrary defining pair. Replacing them by freely chosen matrices
 would discard the ambient realization problem.
+
+## Cover multiplication, trace and geometric realization
+
+For this comparison assume \(Y_{\mathrm{red}}=C_0\) in §4 and write
+\(ab=4m\), where \(m\) is the generic transverse length along \(C_0\).
+The base is \(B=\mathbf P^1\), the reduced map is
+\(f:[s:t]\mapsto[s^4:t^4]\), and \(L=O_Y(1)=\pi^*O_B(1)\).
+These describe one finite algebra together with its polarization. They
+retain more than the reduced cover or its marked fibers alone.
+
+### What the trace retains of transverse nilpotents
+
+Put \(K=k(B)\), \(A=(\pi_*O_Y)_K\), and \(K'=k(C_0)\).
+Then \(A\) is an Artinian local \(K\)-algebra of dimension \(4m\),
+with residue field \(K'\) of degree four. Filter \(A\) by powers of its
+nilradical \(N\). Each quotient is a \(K'\)-vector space, and multiplication
+by \(u\in A\) on it is multiplication by its residue \(\bar u\).
+The sum of the quotient dimensions over \(K'\) is \(m\), so additivity
+of matrix trace gives
+\[
+\operatorname{Tr}_{A/K}(u)
+=m\operatorname{Tr}_{K'/K}(\bar u),
+\qquad
+\operatorname{Tr}_{A/K}(uv)
+=m\operatorname{Tr}_{K'/K}(\bar u\bar v).
+\tag{T}
+\]
+This argument is characteristic-free and does not choose an algebra
+splitting. Since the finite locally free sheaves on \(B\) are torsion-free,
+the generic identity gives the corresponding global trace identity
+\(\operatorname{Tr}_{Y/B}=m\operatorname{Tr}_{C_0/B}\circ\mathrm{red}\).
+
+In characteristic zero, or odd characteristic \(p\nmid m\), the field
+extension \(K'/K\) is separable and its trace pairing is nondegenerate.
+Thus (T) has rank four on the \(4m\)-dimensional algebra, and its radical
+is exactly \(N\). If \(p\mid m\), the trace is zero. In characteristic
+two the reduced extension is purely inseparable of degree four, so its
+trace is also zero, regardless of \(m\). In all cases, for \(m>1\) the
+ordinary trace discriminant is identically zero: its generic determinant
+vanishes. It is therefore not an effective two-point branch divisor of
+this nonreduced cover. Normalizing a scalar trace by \(m\), when allowed,
+does not construct a multiplicative retraction to \(C_0\).
+
+Only the reduced cover is étale off the two marked fibers in
+characteristic different from two. The nilpotent-invariance results for
+étale categories in [SGA 1, I.5.5 and I.8.3](https://arxiv.org/pdf/math/0206203)
+and its tame specialization results in XIII.2.8–2.12 for smooth curves
+with boundary do not construct the embedded transverse nilpotent algebra.
+The full cover with \(m>1\) is generically nonreduced and is not étale
+there. Likewise a nonzero Jacobian socle element under its
+prime-to-characteristic hypothesis is not an étaleness statement. The
+[actual different and characteristic bounds](contact_jacobians_and_hamiltonian_actions.md#the-six-ambient-minors-different-and-contact-identity)
+retain that additional structure.
+
+There is a concrete global interpretation of the omitted linear section.
+A retraction \(r:Y\to C_0\) over \(B\) would preserve \(L\) compatibly with
+restriction, and split the map from \(H^0(Y,L)\), of dimension four, onto
+\(H^0(C_0,L|_{C_0})\), of dimension five. The complete
+[polarized retraction proof](contact_jacobians_and_hamiltonian_actions.md#a-pencil-compatible-polarized-retraction-cannot-extend-globally)
+also gives the general linear-normality criterion. Its section argument
+works in every characteristic; only in characteristic different from
+two does formal étaleness give the unique punctured \(B\)-retraction.
+This expresses the missing section \(s^2t^2\), with no identification of
+a particular obstructing endpoint or exclusion of arbitrary unpolarized
+retractions. It is compatible with the positive-characteristic supported
+pairs.
+
+### A canonical cover embedding and the separate ambient embedding
+
+An actual CI pencil satisfies the hypotheses of the corrected
+[Casnati–Ekedahl structure theorem, Landesman–Vakil–Wood, Theorem 3.2 and Remark 3.3](https://arxiv.org/pdf/2203.01840).
+The theorem applies to finite locally free Gorenstein covers of degree at
+least three over arbitrary schemes, with no reducedness or characteristic
+restriction. It gives a relative canonical embedding into
+\(\mathbf P((\pi_*O_Y/O_B)^\vee)\) and its self-dual resolution, with
+nondegenerate arithmetically Gorenstein fibers. Here each fiber is a
+zero-dimensional complete intersection in its plane and hence
+Gorenstein. Adjunction gives
+\[
+\omega_Y\simeq O_Y(a+b-4),\qquad
+\omega_{Y/B}\simeq O_Y(a+b-2)=L^{a+b-2}.
+\tag{C}
+\]
+The theorem applies to this actual, generally nonreduced cover. It does
+not construct its multiplication starting from the module (7), or
+identify its canonical projective bundle with the original \(\mathbf P^3\).
+
+For a constructive converse, let an abstract finite cover \(\rho:T\to B\)
+have the displayed module splitting (7), with \(a,b\ge2\), and put
+\(L_T=\rho^*O_B(1)\). Projection formula already gives
+\[
+\begin{aligned}
+H^0(T,L_T)
+&=\bigoplus_{i=0}^{a-1}\bigoplus_{j=0}^{b-1}
+H^0(B,O_B(1-i-j)),\\
+h^0(T,L_T)&=2+1+1=4.
+\end{aligned}
+\]
+Pullback of the base pencil generates \(L_T\), so these four sections
+supply an actual morphism \(\Phi_{|L_T|}:T\to\mathbf P^3\).
+Four sections and basepoint freeness are therefore already available.
+Realizing the specified embedded multiple curve requires further data:
+
+- The reduced scheme must be \(C_0\), with reduced map \(f\), and restriction
+  of the four sections must have image precisely
+  \(\langle s^4,s^3t,st^3,t^4\rangle\subset H^0(\mathbf P^1,O(4))\),
+  after choosing the desired ambient coordinates.
+- The morphism must be a closed immersion, including separation of the
+  transverse nilpotent directions, with a complete-intersection image.
+- For the canonical-cover route, \(\rho\) must itself be Gorenstein and
+  its algebra-linear canonical duality must give the prescribed power
+  of \(L_T\).
+
+The last condition is stronger than the visible symmetry of the split
+module. Indeed, reindexing \((i,j)\) by \((a-1-i,b-1-j)\) gives an
+\(O_B\)-module isomorphism
+\[
+(\rho_*O_T)^\vee\simeq(\rho_*O_T)(a+b-2).
+\]
+For a finite cover, however, \(\rho_*\omega_{T/B}\) is
+\(\operatorname{Hom}_{O_B}(\rho_*O_T,O_B)\) with its natural
+\(\rho_*O_T\)-module action. An isomorphism yielding (C) must respect
+that action. An arbitrary symmetry of the underlying split bundle
+supplies no such perfect multiplication pairing. Gorensteinness itself
+only makes \(\omega_{T/B}\) invertible; it does not specify its isomorphism
+with \(L_T^{a+b-2}\).
+
+These are geometric realization conditions on a useful construction of
+multiple structures. They identify what a proposed cover produces and
+what must be supplied to recover the prescribed intersection in
+\(\mathbf P^3\); they do not presume that realization fails. For the
+separate arithmetic implications and compatible lifts, use the
+[full equation incidence and arithmetic degree bounds](../supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#the-full-simultaneous-equation-incidence).
+The cover statements prove no all-pair divisibility condition or
+mixed-characteristic supported lift. Their source applications retain
+scoped independent review. Independent integration review reconstructed the
+trace and realization arguments and accepted their precise characteristic,
+section-generation and algebra-duality boundaries. No new cover is constructed
+by that review.
 
 ## 5. The quadric section is a cokernel; sole support requires nilpotence
 
