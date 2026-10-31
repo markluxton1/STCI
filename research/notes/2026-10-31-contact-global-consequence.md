@@ -244,3 +244,127 @@ socle linearity, and the scope of the noncommuting homogeneous-presentation
 control. No material correction was required. The audit also verifies the
 reduced deformation literature's hypotheses; it does not infer an STCI
 obstruction from their failure here.
+
+## 6. Quantization of the smooth cone and a supported-cohomology limit
+
+October 31 continuation. The deductions below are independently reviewed
+and provisional; they do not assume an STCI pair exists.
+Sections 1–5 and their audit remain inherited evidence.
+
+### 6.1 Every line bundle on the smooth punctured cone quantizes
+
+Put \(Y=\widehat C_0\setminus\{0\}\subset
+U=\mathbf A^4\setminus\{0\}\), with the symplectic form of §1.
+For the constant Moyal quantization \(\mathcal O_\hbar\) on U,
+every line bundle L on Y has a complete flat module quantization
+whose reduction is \(i_*L\).
+
+Indeed \(Y=\mathcal O_{\mathbf P^1}(-4)^\times\). Removing the
+zero section from this line bundle gives
+\(\operatorname{Pic}(Y)=\mathbf Z/4\). Thus the additive
+Atiyah–Chern classes of L and \(K_Y\) vanish even in the
+**truncated** de Rham group
+\(\mathbb H^2(Y,\Omega_Y^{\ge1})\), a characteristic-zero vector space.
+
+The constant Moyal product has a global module splitting, symmetric
+second coefficient and zero transition derivations. The cocycle in
+[Baranovsky–Ginzburg–Kaledin–Pecharich, Remark 5.3.4](https://arxiv.org/pdf/1403.3493)
+therefore gives \(\operatorname{At}(\mathcal O_\hbar,Y)=0\) in
+that same truncated group. All higher period classes vanish:
+the quantization restricts from affine four-space, whose
+\(H^2_{\rm dR}\) is zero. Consequently the two conditions of
+their Theorem 1.1.4 hold:
+\[
+c_1(L)-\tfrac12c_1(K_Y)=\operatorname{At}(\mathcal O_\hbar,Y)=0,
+\qquad i^*\omega_j=0\quad(j\ge2).
+\]
+This proves the stated existence. Ordinary de Rham vanishing
+alone would not justify the truncated-class equality.
+
+The argument extends to the punctured cone of any smooth rational
+Legendrian curve in this constant symplectic four-space: positive
+hyperplane degree d gives Picard group \(\mathbf Z/d\). It does not
+quantize a thick quotient \(\mathcal O_U/(F,G)\), whose reduced
+ideal acts nontrivially. No equivariant structure, filtered Weyl
+module, or extension across the cone vertex is supplied.
+Geometrically, smooth half-canonical/period compatibility is
+available; it cannot obstruct the desired thick equations.
+
+### 6.2 Rational supported Chern classes have only one possible degree
+
+Over \(\mathbf C\), let \(V=\widehat C_0\subset\mathbf A^4\),
+including its vertex. Its link is the circle bundle of Euler
+number \(-4\) over \(S^2\), hence a rational homology three-sphere.
+The one-point compactification of V is the suspension of its
+link. Borel–Moore homology and ambient duality therefore give
+\[
+H_j^{BM}(V,\mathbf Q)=
+\begin{cases}\mathbf Q&j=4,\\0&j\ne4,\end{cases}
+\qquad
+H^r_V(\mathbf A^4,\mathbf Q)=
+\begin{cases}\mathbf Q&r=4,\\0&r\ne4.\end{cases}
+\tag{7}
+\]
+For clarity, this is **rational** concentration. Integrally the
+link has \(H_1=\mathbf Z/4\), so
+\(H^{BM}_2(V,\mathbf Z)=\mathbf Z/4\) and
+\(H^6_V(\mathbf A^4,\mathbf Z)=\mathbf Z/4\) also survive.
+
+Every coherent sheaf supported on V consequently has its supported
+de Rham Chern character concentrated in degree four, without any
+quantization hypothesis. For a supported CI, the surviving class
+is \(m[V]\), with \(m=ab/4\). This calculation includes the vertex;
+it does not identify vertex phenomena with a projective residual.
+It generalizes to the cone over every smooth rational projective
+curve of positive degree d in P3, with integral torsion \(\mathbf Z/d\).
+The Lagrangian hypothesis is unnecessary for (7).
+
+[Baranovsky–Ginzburg, ZAG Handbook, Theorem 11.1, pp. 41–44](https://api.pageplace.de/preview/DT0400.9781040378878_A50830332/preview-9781040378878_A50830332.pdf)
+announces supported trace-density vanishing for general coherent
+modules **assuming flat quantizability**. In this dimension and
+support dimension its conclusion is exactly concentration in
+degree four. The chapter sends the full proof to a work listed as
+in preparation. The conclusion is already automatic by (7), even
+if that theorem and the missing quantizability premise are granted.
+The elementary topological deduction here does not depend on the
+announced theorem.
+
+### 6.3 The missing full-module and filtered bridges
+
+The checked additional sources do not provide quantization of an
+arbitrary supported CI quotient. [Baranovsky–Ginzburg–Pecharich,
+Theorem 7 and Corollary 13](https://arxiv.org/pdf/0909.5520)
+concern bundles on smooth coisotropic supports.
+[Garay–van Straten, Theorem 1](https://arxiv.org/pdf/0802.1647)
+requires a commuting integrable system and torsion-free obstruction
+module; §4 already shows why involutivity does not supply commuting
+homogeneous generators.
+[Baranovsky–Huey, §§1.1–2 and 7](https://arxiv.org/pdf/2607.12910)
+extends existing finite-order quantizations of bundles locally free
+on the symplectic ambient variety. Its morphism-lifting discussion
+does not produce a quantized Koszul complex with flat cokernel.
+
+Even a formal quantization would need an equivariant/algebraization
+argument before becoming a Bernstein-filtered Weyl module; setting
+the formal parameter to one is not defined in general. Stafford's
+two-generator theorem, as implemented by
+[Leykin, Theorems 3 and 6 and §§4–5](https://arxiv.org/pdf/math/0204303),
+does not guarantee a two-symbol presentation of the characteristic
+ideal. For example, the left ideal
+\[
+A_2\partial_1+A_2\partial_2
+=A_2P+A_2Q,\qquad
+P=\partial_1,\quad Q=x_1\partial_1+\partial_2,
+\]
+has associated graded ideal \((\xi_1,\xi_2)\) under the Bernstein
+filtration, whereas its displayed symbols generate only
+\((\xi_1,x_1\xi_1)=(\xi_1)\). The missing symbol is recovered by
+the cancellation \(Q-x_1P=\partial_2\). This explains the
+filtered-presentation gap, not a failure of the two-generator theorem.
+
+No operator, local-algebra or quantization classification is selected.
+Reopening requires an actual full-module construction together with
+control of its principal-symbol support, or a finer invariant linked
+by a proved implication to arbitrary homogeneous pairs. The rational
+test is exhausted here; unstable, integral and equivariant refinements
+are not claimed exhausted. STCI existence remains live.

@@ -193,3 +193,46 @@ The missing bridge is still a quartic-specific incompatibility or a
 construction involving the actual global homogeneous equations. The
 order-one branch is outside these new deductions. This audit supports
 reviewed provisional status only.
+
+## 6. October 31 quantization and support-cohomology continuation
+
+Independent reviewer /root/patching_quantization_strategy_challenge,
+fresh gpt-6.1-sol/high context. Scope: new source §6, assessment
+§34 and the corresponding literature-ledger entry. The source's
+§§1–5 are unchanged; their earlier review is reused.
+
+**Proof/source review and written preservation: scoped PASS.**
+The reviewer reconstructed Picard torsion, the vanishing of the
+truncated Atiyah cocycle for constant Moyal, and the exact
+application of BGKP Theorem 1.1.4. It independently reconstructed
+the link/suspension and support-duality calculation, adding the
+integral Z/4 caveat before preservation. It checked the smooth
+versus full-module and formal versus filtered distinctions, the
+Stafford symbol-cancellation example, source hypotheses and
+generalizations. The later Baranovsky–Huey source was checked
+directly. Its scope does not include the full supported quotient.
+
+The same reviewer checked the overlap K1 deduction and explicit
+reduced conormal transition in assessment §34. It challenged the
+stopping recommendation for overlooked constructive input.
+Neither the positive smooth quantization nor Stafford's actual
+algorithms supplies the missing full filtered presentation.
+No classification or further technical experiment was selected.
+
+The exact reviewed source fingerprint was
+
+    c42cb0d2c94b11254fb28ad20dffd1215a568ef9e0a04fd86a946622c68c19ad
+    research/notes/2026-10-31-contact-global-consequence.md
+
+The reviewed ledger fingerprint was
+
+    75b16fadf136e6d77bfaf7a0abe217e802648163252922820210e932a43f3a57
+
+After review, the parent changed source status metadata and
+replaced “does not preserve” by the more literal “does not
+guarantee” in the Stafford sentence. It clarified the Moyal
+wording in the assessment and added review records. No proof
+changed. Verification used independent reasoning and primary
+source inspection, without computation or inherited verifier
+reruns. These are reviewed provisional deductions; unrestricted
+STCI remains open.

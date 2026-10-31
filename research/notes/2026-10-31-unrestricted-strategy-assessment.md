@@ -3210,3 +3210,169 @@ changes. No nested delegation or new computation was performed.
 All three assignments are complete; these contexts are not
 reused for a broader investigation. No canonical promotion or
 unrestricted mathematical status change follows.
+
+## 34. Patching and quantization retain a global presentation gap
+
+This checkpoint tests two mechanisms suggested by §33's supported
+closure: patch actual affine equations, or use the full contact
+identity to obtain equations through quantization. A fresh
+independent challenge confirms positive smooth-cone flexibility
+and two precise limitations. It selects no further classification.
+Proof, source-scope and written-preservation reviews pass.
+
+**Stable patching sees only the determinant, once a matrix exists.**
+The actual overlap of the hyperosculating affine charts has ring
+\[
+R=k[u,v,w,w^{-1}],\qquad
+u=x_1/x_0,\ v=x_2/x_0,\ w=x_3/x_0.
+\]
+[Bass–Heller–Swan, Theorems 1–2, pp. 62–63](https://numdam.org/item/PMIHES_1964__22__61_0.pdf)
+and polynomial homotopy invariance give
+\[
+K_1(R)=K_1(k[u,v])\oplus K_0(k[u,v])
+      =k^\times\oplus\mathbf Z.
+\]
+The units \(cw^n\) represent both summands. Thus determinant
+detects the entire stable class: an already constructed
+\(M\in GL_2(R)\), after diagonal determinant correction, is
+stably elementary. This does not construct M, factor it in
+rank two, preserve its chosen section, or control degrees.
+
+The independent reviewer supplied a concrete missing-premise
+check. The reduced affine pairs
+\[
+(f,g)=(v-u^3,w-u^4),\qquad
+(h,j)=(u/w-v^3/w^3,\ 1/w-v^4/w^4)
+\]
+generate the same reduced ideal on the overlap. Along their
+support \(v=u^3,w=u^4\), differentiating in the conormal
+basis \((f,g)\) gives
+\[
+\binom h j\equiv
+\begin{pmatrix}-3u^{-6}&2u^{-7}\\-4u^{-7}&3u^{-8}\end{pmatrix}
+\binom f g\pmod{(f,g)^2}.
+\]
+The determinant is \(-u^{-14}\), whereas every ambient unit
+restricts to \(cu^{4n}\). Hence no ambient invertible matrix
+relates these pairs, despite equality of their full ideals.
+Geometrically this is the familiar degree-14 normal determinant
+versus ambient degree-four polarization. It concerns the
+reduced curve; a thick CI has a different conormal determinant.
+This control explains why stable K1 cannot be started from
+equality of ideals. It is not a new unrestricted exclusion.
+
+[Keshari–Tikader, Theorem 1.2](https://arxiv.org/pdf/2307.02441)
+does lift a prescribed conormal orientation to the same full
+affine ideal under a monic-localized lifting hypothesis. Its
+bound \(2n\ge d+3\) fails for rank n=2 over the dimension-two
+coefficient ring used for an affine three-space chart. Its
+Corollary 2.10 also requires two comaximal elements of one
+affine ring, unlike x0,x3 in the homogeneous coordinate ring.
+Neither result supplies the weighted projective presentation.
+The inherited [two-chart criterion](2026-10-30-four-streams-affine-endpoints.md#1-once-actual-split-sections-glue-the-missing-line-is-not-an-extra-obstruction)
+already proves that actual split sections would suffice.
+
+**Quantization gives a positive smooth compatibility result.**
+The [contact-note continuation, §6](2026-10-31-contact-global-consequence.md#6-quantization-of-the-smooth-cone-and-a-supported-cohomology-limit)
+shows that every line bundle on the smooth punctured quartic
+cone admits a formal Moyal-module quantization. Picard torsion
+kills its Atiyah–Chern classes; the global Moyal splitting and
+symmetric second coefficient give zero truncated Atiyah class. The argument
+generalizes to smooth rational Legendrian curves, with the
+same constant symplectic ambient hypothesis.
+
+This is an actual positive application of the smooth theorem.
+It quantizes a line bundle on the reduction, not the structure
+sheaf of an arbitrary thick intersection. The source also
+computes rational support cohomology of the full affine cone,
+including its vertex: only degree four survives. Therefore
+the checked rational supported trace-density vanishing test
+would be automatic even if a full quantization were supplied.
+Integral degree-six torsion Z/4 survives, so the conclusion
+does not exhaust all refinements. Both calculations extend
+in their stated scopes, without a new STCI constraint.
+
+**A constructive theorem does not preserve the needed filtration.**
+The reviewer also checked Stafford's actual cyclicity and
+two-generator algorithms through Leykin. These give genuine
+Weyl-module operations, but two operator generators can have
+principal symbols cutting out a larger support than the
+associated graded ideal. The contact note retains an elementary
+example exhibiting the cancellation. Formal-to-filtered
+algebraization and control of the two principal-symbol radicals
+are both missing. No operator search is selected on the basis
+of the two-generator theorem alone.
+
+**Comparative decision.** Existence remains possible: neither
+smooth contact quantization nor stable patching produces an
+incompatibility. The positive quantization removes a proposed
+smooth obstruction, while the explicit transition control
+locates a real failure for reduced presentations. Neither
+extends automatically to the full thick object.
+
+The separately owned [genus-two carrier continuation](2026-10-31-quintic-genus-two-toric-source.md)
+has meanwhile supplied a more concrete existence source: a
+non-Gorenstein toric normalization with the marked quartic and
+an actual quartic root upstairs. Its first finite projection
+has five extra inverse points, so that center fails every
+mate; the proposed variation retains the source and marked
+curve and tests precisely this inverse-support defect.
+The note also extracts the general bound \(a\le dr\) for an
+integral carrier generically regular along C, with an actual
+sole-supported mate, whose resolved normalization
+has a connected general fiber of hyperplane degree
+\(r<d=\deg C\), using an actual mate's effective total transform.
+Under these hypotheses, C0 and conic fibers exclude a at least nine.
+These are reviewed provisional findings in source §§2–3,6–7;
+this assessment reuses that recorded review without rerunning
+its proof or certificate. The source does not exhaust arbitrary
+carriers. Its actual marked projection is a better-defined
+construction test than a new stable or rational invariant
+classification; its continuation remains with its existing owner.
+
+Stop these bounded selections after preserving their deductions.
+Reopen for an actual section-preserving, degree-controlled
+patching operation, or a filtered module construction whose
+two principal symbols have exactly the required radical.
+For nonexistence, a finer detector needs a proved implication
+from every full supported pair and a nonautomatic value.
+An unstable or equivariant invariant is not selected simply
+because the stable or rational detector loses information.
+No matrix, degree, operator or local-thickening classification
+follows. This decision leaves the separately owned carrier
+investigation unchanged.
+
+**Independent challenge and written preservation: scoped PASS.**
+The patching scout used a fresh gpt-6.1-sol/high context; the
+quantization scout used fresh gpt-6-astra/xhigh for the
+nonreduced/smooth comparison and new implications. A fresh
+gpt-6.1-sol/high challenger reconstructed the deductions and
+checked the sources, including the later Baranovsky–Huey
+paper and constructive Stafford algorithms. It supplied the
+reduced transition control and integral torsion qualification,
+and challenged the possible constructive bridge through Weyl
+modules. Neither candidate supplied a justified next test.
+
+The main written review found no material correction. Its
+assessment fingerprint, before metadata and the later
+parallel-carrier paragraph, was
+
+    6a093da15be522f1788a3bfc0a0eb1f8b4f7f97a4d37ba0ac8975aab9aca9f32
+
+The added carrier paragraph received a separate scope review.
+That check required explicit generic regularity and the
+connected general fiber; after correction it passed at
+
+    1b70e8bb586411e69b34bfe1c9780c054d0e71daae49636269825ee5a6056587
+
+The parent then made the source's integral-carrier,
+sole-supported-mate and same-hypotheses qualifications literal,
+without changing the scoped conclusion. This paragraph reuses
+the parallel source's proof evidence, rather than re-auditing it.
+The parent also made the two suggested wording clarifications
+and updated status records. The
+[contact audit, §6](2026-10-31-contact-global-consequence-audit.md#6-october-31-quantization-and-support-cohomology-continuation)
+identifies the proof state and exact review boundary. No
+computation, nested delegation or canonical promotion occurred.
+All three assignments are complete and their contexts are
+retired from further research.

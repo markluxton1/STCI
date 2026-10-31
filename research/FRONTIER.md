@@ -133,6 +133,14 @@ for the full embedded nonreduced cover. Proof and preservation
 reviews pass at provisional scope; no subsequent map-degree or
 endpoint classification is selected.
 
+The [patching and quantization checkpoint, §34](notes/2026-10-31-unrestricted-strategy-assessment.md#34-patching-and-quantization-retain-a-global-presentation-gap)
+finds positive formal quantizations of line bundles on the smooth
+punctured cone. Stable overlap K1 and rational supported Chern classes
+do not control the global two-equation presentation. The exact
+rank-two transition and filtered-symbol gaps remain. Proof and
+preservation reviews pass at provisional scope; no new
+classification is selected.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

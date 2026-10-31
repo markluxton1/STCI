@@ -983,6 +983,38 @@ No map-degree or local-algebra classification is selected.
 The elementary scheme-closure proof needs no Hilbert–Chow
 smoothness or proper-Hurwitz input.
 
+## Affine presentation patching and contact quantization
+
+[Assessment §34](notes/2026-10-31-unrestricted-strategy-assessment.md#34-patching-and-quantization-retain-a-global-presentation-gap)
+and [contact-note §6](notes/2026-10-31-contact-global-consequence.md#6-quantization-of-the-smooth-cone-and-a-supported-cohomology-limit)
+record the bounded checks and their geometric limits.
+
+- [Bass–Heller–Swan, Theorems 1–2](https://numdam.org/item/PMIHES_1964__22__61_0.pdf):
+  stable K1 of the actual Laurent overlap is detected by determinant;
+  this presupposes an ambient invertible transition.
+- [Keshari–Tikader, Theorem 1.2 and Corollary 2.10](https://arxiv.org/pdf/2307.02441):
+  full affine ideal lifting has the unmet rank/dimension inequality;
+  elementary patching requires comaximal affine elements.
+- [Baranovsky–Ginzburg–Kaledin–Pecharich, Theorem 1.1.4 and
+  Remark 5.3.4](https://arxiv.org/pdf/1403.3493): the exact smooth
+  line-bundle theorem applies positively to the punctured cone.
+  The truncated Atiyah class is checked directly, not inferred
+  from ordinary de Rham vanishing.
+- [Baranovsky–Ginzburg, Handbook Theorem 11.1](https://api.pageplace.de/preview/DT0400.9781040378878_A50830332/preview-9781040378878_A50830332.pdf):
+  the general coherent-module statement assumes flat quantizability
+  and refers its full proof elsewhere; its rational conclusion
+  is automatic for this cone.
+- [Garay–van Straten, Theorem 1](https://arxiv.org/pdf/0802.1647)
+  requires commuting functions and torsion-free obstruction data.
+  [Baranovsky–Huey, §§1.1–2 and 7](https://arxiv.org/pdf/2607.12910)
+  treats quantizations of ambient locally free bundles, not the
+  supported quotient.
+- [Leykin, Theorems 3 and 6, §§4–5](https://arxiv.org/pdf/math/0204303):
+  constructive holonomic cyclicity and two-generator Weyl ideals
+  do not ensure that two principal symbols retain characteristic support.
+
+No stable-K1, local-algebra or operator classification is selected.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
