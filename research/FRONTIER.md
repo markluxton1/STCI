@@ -1,5 +1,9 @@
 # Research frontier — current navigation (October 30, 2026)
 
+## A closed restricted problem, not a new universal exclusion
+
+The [Frobenius-binomial component classification](synthesis/01-problem-and-curve.md#12d-necessity-of-the-frobenius-exponent-and-all-reduced-components) solves reduced support for the fixed quartic-plus-binomial ansatz: \(n=p^rm\) yields \(m\) reduced quartics, and characteristic five requires \(n\ge25\) **in that family**. The characteristic-zero version of that ansatz never has sole support. This does not establish minimum degree products among arbitrary pairs or exclude any unrestricted characteristic-zero carrier family. Future work on characteristic-five minimality must use an argument applying beyond this binomial ansatz.
+
 ## Three principal research programs (not proved implication chains)
 
 These are focused possible next steps, not a mandated order or new theorems. The [synthesis dependency map](synthesis/DEPENDENCIES.md) records the precise gaps.
