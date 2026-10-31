@@ -16,6 +16,14 @@ A different approach uses local Cartier indices on a **normal integral carrier**
 
 This is not established for multiple branches, non-Cartier lifts, singular normalization along c, or a generically singular carrier. Its Jacobian argument also requires the relevant characteristic restriction. It is a real conductor-to-normal-filtration interface, but not a universal comparison of all defect theories.
 
+## How the divisor identity interacts with descent
+
+The two carrier tests have different logical directions. R-0003 starts with a **fixed integral carrier** and asks whether an upstairs divisor with full inverse support can descend (possibly after taking a power) to an actual section downstairs. R-0036 starts with an **already existing supported complete intersection** and, under its smooth single-branch hypotheses, computes its top socle defect from the differential-zero and conductor divisors. The latter is a necessary identity, not a construction of a descending section.
+
+In the singleton situation where both sets of hypotheses hold, write the actual divisor equality as D_n=(n-1)A-B|_c. Since D_n is effective, the equality imposes the coefficientwise inequalities (n-1)ord_p(A) >= ord_p(B|_c) at each p of c. These are pointwise conditions, stronger than the degree inequality. They do not replace the conductor-unit torsion test: an effective divisor relation upstairs can satisfy these numerical inequalities and still fail to descend through nonreduced conductor structure. Conversely, a class-group relation and reduced-phase torsion cannot establish the R-0036 identity without an actual pair and its local normal filtration.
+
+For multiple inverse branches, non-Cartier inverse curves, or singular normalization along the branch, neither the singleton formula nor a branchwise summation of it is justified. The relevant open bridge is a comparison between full conductor descent and socle defects **for an actual pair** in those broader settings, with corrections derived rather than assumed.
+
 ## Decision gates for a candidate carrier
 
 1. Check integrality, proper intersection and degree. In characteristic zero, [R-0001](../results/quartic_carrier_exclusion.md) already excludes integral quartic carriers.
