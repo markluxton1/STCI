@@ -99,15 +99,9 @@ The conditional (6,16) study has a smooth torsion-two root whose multiplier sati
 
 This is evidence that successive jet conditions are genuinely coupled. It is **not** a residual-degree bound for every mate to that carrier, nor an exclusion of all (6,16) pairs. The remaining exceptional root and multiplier strata must be treated before converting source restrictions into a uniform transverse-length estimate.
 
-## 7D. Exceptional sextic incidence loci are not correction-rank drops
+## 7D. Constant-rank correction and residual scope
 
-The conditional sextic cubic-jet equation is a parameter-dependent linear system in correction coefficients. For a nonzero root the correction map is injective and has constant rank sixteen. Compatibility is vanishing in its twenty-four-dimensional cokernel. The [finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) retains these loci alongside the first-symbol image equations.
-
-These source constraints alone do not force a residual curve. A residual-degree theorem still requires a uniform upper bound on generic transverse length for actual proper pairs, including exceptional strata.
-
-## 7E. Constant-rank correction and residual scope
-
-For the displayed conditional sextic cubic comparison, multiplication by a nonzero quadratic root sends the sixteen coefficients of \(\ell u+mv\) injectively into forty cubic coefficients. The quotient obstruction therefore has dimension twenty-four. The earlier generic augmented-rank formulation was valid linear algebra but its proposed rank-drop analysis is unnecessary for this particular multiplication map. Root singularities and multiplier zeros still matter to other equations. A vanishing cubic obstruction does not itself bound transverse length or remove a residual curve.
+Multiplication by the nonzero quadratic root gives an injective cubic correction map with sixteen source coefficients and forty target coefficients. The resulting twenty-four-dimensional quotient is the higher-jet obstruction. Root singularities and multiplier zeros remain relevant to other incidence conditions, not to this map's rank. Passing the source tests does not establish a uniform transverse-length bound or eliminate a residual curve.
 
 ## 8. Fixed boundary versus residual removal
 
