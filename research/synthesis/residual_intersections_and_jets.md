@@ -43,6 +43,10 @@ Fix positive degrees d,e and a proper pair containing C. If sole reduced support
 
 This is a finite-length **test for a specified pair**, not a uniform jet-rank theorem. The relevant candidate jets must lie in the images of actual degree-d and degree-e homogeneous sections; arbitrary compatible-looking graded symbols need not lift. Properness and the absence of common surface factors must also be checked before applying the projective cycle identity. For a fixed carrier family, a uniform bound m <= M-1 on all actual proper mates would imply deg(R)>=4. The fixed-sextic R-0025 is one scoped instance of this strategy, not a bound on all carriers.
 
+## 3C. A computed boundary-contact example that does not create residual degree
+
+For the exponent-compatible binomial pair \(F=x_1^4-x_0^3x_3\), \(G=x_2^n-x_0^a x_1^b x_3^c\), write \(n=p^rm\) with \(p\nmid m\). The complete intersection cycle is \(p^r\sum_{\zeta^m=1}[C_\zeta]\), where each \(C_\zeta\) is a quartic. Different components have contact lengths three at \(p_0\) and one at \(p_\infty\), but those punctual intersections contribute no extra one-cycle degree. For \(m=1\) the generic multiplicity \(p^r=n\) exhausts Bézout's degree \(4n\), so sole support follows from the explicit chart and boundary computation. For \(m>1\) the residual degree relative to the distinguished \(C_0\) is \(4p^r(m-1)\), not a sum of the endpoint intersection lengths. This is a concrete warning against treating punctual contact as residual curve degree. See [the component calculation](01-problem-and-curve.md#12e-generic-multiplicities-and-contacts-among-binomial-components).
+
 ## 4. The missing bridge
 
 The natural desired theorem would connect a **generator-independent normal invariant** (full initial ideal, Rees data, or saturated flag) to a **positive residual degree** for actual global equations. Current evidence does not supply that implication in general. In particular:
