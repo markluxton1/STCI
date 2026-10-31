@@ -113,6 +113,31 @@ It has rank sixteen if \(\tau\in\operatorname{im}\mu_f\), and rank seventeen oth
 
 The coefficient equations become \(h_i+\eta\tau_i=(a\ell,\ b\ell+am,\ c\ell+bm)_i\), with the fourth coefficient \(cm\). They remain division-free. Any claim that a seed fails the cubic comparison must specify whether the test allowed the \(q^3\) direction; a fixed-lift failure alone does not exclude all sextics with the same quadratic symbol. The independently computed second obstruction is unaffected by this logical distinction, subject to its original hypotheses.
 
+## Existing full-lift exclusion on the free cube-orbit chart
+
+The historical [free cube-orbit global sextic calculation](https://github.com/markluxton1/STCI/blob/main/research/notes/2026-10-21-cont2-free-orbit-global-sextic-exclusion.md) already includes the previously omitted \(\eta q^3\) freedom. It concerns a **restricted chart**, not all quadratic roots: the multiplier is the canonical cube norm of the quadric-line restriction, both endpoint coefficients are nonzero, and no two roots lie in the same primitive-cube orbit. The application to actual supported pairs additionally depends on the separate quadric-cycle norm necessity bridge.
+
+After the first ambient equations and the chart normalization, its candidate scheme is
+\[
+h_6=h_5=d_3=d_1=0,\quad h_4=-2h_7,\quad
+t=\tfrac{27}{4}h_7^3+\tfrac{15}{32}h_7,\quad
+d_2=108h_7^3-\tfrac92h_7,\quad
+p(h_7)=648h_7^4+45h_7^2-4=0.
+\]
+The source computation retains the free sextic coefficient \(\eta\). Two of its full cubic equations specialize to
+\[
+E_4=\tfrac34\eta+\tfrac{369}{16}h-\tfrac{891}{2}h^3,\qquad
+E_8=\tfrac18\eta+\tfrac{27}{32}h-\tfrac{81}{4}h^3.
+\]
+Their difference \(E_4-6E_8=18h-324h^3\) eliminates \(\eta\), and the exact polynomial certificate is
+\[
+1=\frac{162h^2-1}{4}p(h)
+ +\left(81h^3+\frac{77}{8}h\right)(E_4-6E_8).
+\]
+Thus the **entire stated free-orbit chart is empty**, even allowing the sextic lift to vary by \(q^3\). The historical note records independent rational-arithmetic verification. This is a stronger scoped exclusion than a single failed seed, but it does **not** decide the endpoint strata, orbit collisions, or unrestricted movement-two incidence. The retained collision-boundary computation uses multiplication by \(\alpha\) in \(k[z]/(D)\) and cannot be replaced by cancellation of \(\alpha\).
+
+The correction to the previous synthesis is therefore twofold: the fixed-lift \(-384\) pairing alone must not be overinterpreted, **and** a pre-existing exact full-lift certificate already resolves the separate free-orbit subfamily. Future work should concentrate on the uncovered strata rather than repeat this chart's elimination.
+
 ## Exact failed seed and the remaining incidence
 
 The smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven quadratic-symbol image equations. This is a positive first-stage realization result for that seed, not a full ambient lift. The next cubic comparison fails: the recorded exact annihilating pairing is \(-384\), so the specified seed does **not** extend to the required compatible sextic jet. It independently fails the accepted second obstruction.
