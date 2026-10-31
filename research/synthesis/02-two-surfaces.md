@@ -103,15 +103,9 @@ The conditional movement-two (6,16) calculation gives a concrete source map for 
 
 A proposed symbol alpha times a moving quadratic root must satisfy these equations before it can be the leading symbol of an actual sextic. The next cubic normal jet and the degree-sixteen mate remain independent realization conditions. This example shows concretely why ordinary ideal-power completeness and normal-symbol surjectivity are different statements.
 
-## 2.7C A leading-symbol solution that fails higher compatibility
+## 2.7C A leading-symbol solution that fails the cubic jet
 
-For the conditional movement-two sextic program, a specified smooth quadratic root and its unique projective multiplier pass the eleven equations defining the actual leading-symbol image. The next cubic-jet compatibility fails by a nonzero exact pairing. The [computed seed](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence) therefore demonstrates that even an **actual global leading symbol** is insufficient to certify the required higher normal behavior.
-
-The failure concerns this seed and the prescribed next-jet condition. It does not show that every sextic with the same first order has a residual curve, or that the entire (6,16) incidence is empty. The generic transverse colength and proper mate still require separate arguments.
-
-## 2.7D An exact cubic-jet membership test
-
-For the conditional (6,16) movement-two source, the next cubic-jet condition is not a free choice of sixteen correction coefficients. It is membership in the image of multiplication by the specified nonzero quadratic root. Writing \(f=au^2+buv+cv^2\), the four coefficient identities \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\) give an exact test with \(\deg\ell,\deg m\le7\). The correction, if it exists, is unique; see [the detailed derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination). This is still only a necessary source condition for a proper pair.
+In the conditional movement-two (6,16) lane, a smooth quadratic root and its unique projective multiplier satisfy the eleven actual leading-symbol equations but fail the next cubic comparison by a nonzero exact pairing. For \(f=au^2+buv+cv^2\), the correction test is \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), with \(\deg\ell,\deg m\le7\). A correction, if it exists for nonzero \(f\), is unique. See [the coefficient calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination). Neither this failure nor compatibility for another root settles the existence of a proper supported mate.
 
 ## 2.8 A global equation-module criterion
 
