@@ -46,6 +46,14 @@ The osculating-plane family has contact divisor \(3\Delta+\Gamma_\iota\) on \(C\
 
 The distinction matters for global intersection arguments: multiplying the universal plane contact divisor by the degree of a chosen plane family is legitimate only after that family and its pullback multiplicities have been specified. It does not turn the two marked endpoints into compulsory singularities of both carriers. The flag and dual records [R-0026](../results/quartic_flag_conormal_geometry.md) and [R-0027](../results/quartic_dual_singular_scheme.md) retain the nonreduced contact and embedded endpoint structure; [Chapter 4](04-carriers.md) explains the additional conductor conditions required to descend a divisor from a carrier normalization.
 
+## 1.2B Positive-characteristic presentations: fixed model versus all rational quartics
+
+Two established constructions must not be conflated. For the fixed monomial quartic \(C_0=[s^4:s^3t:st^3:t^4]\), the exact binomial calculation P-008 gives \(\sqrt{(A,G_e)}=I_{C_0}\), where \(A=x_1^3-x_0^2x_2\), \(e=3\) for \(p=3\) and \(e=3p\) otherwise, and \(\deg G_e=4e/3\). Thus the explicit degrees are \((3,4)\) in characteristic three and \((3,4p)\) otherwise. In characteristic three one may take \(G=x_0x_3^3-x_2^4\); in characteristic two there is the smaller \((4,4)\) binomial pair.
+
+The stronger P-012 construction applies to **every smooth nondegenerate rational quartic over an algebraically closed field of positive characteristic**. It finds an internal projection to a cuspidal plane cubic, takes the cubic cone \(F=0\), and uses the finite radicial normalization \(\mathbf P(1,1,3)\to(F=0)\). The quartic lifts to a weighted degree-four graph \(\phi=lz-h\); Frobenius makes \(\phi^{3p}\) descend to a homogeneous equation \(G\) of degree \(4p\). Since the normalization is a universal homeomorphism, \(\sqrt{(F,G)}=I_C\). This proves existence with degrees \((3,4p)\) for all such curves, not minimality of those degrees.
+
+The characteristic-three monomial \((3,4)\) example is a special improvement over the general \((3,12)\) bound. Likewise, characteristic-two \((4,4)\) is special to the fixed model in this argument. Do not infer the same smaller degrees for arbitrary rational quartics, and do not transfer these positive-characteristic constructions to characteristic zero. Detailed original proofs: P-008 and P-012 in [RESEARCH_RECORD](../RESEARCH_RECORD.md).
+
 ## 1.3 Dual invariants and the scheme-theoretic intersection
 
 Write dual coordinates \([A:B:C:D]\) for the plane whose restriction to the parametrized curve is \(As^4+Bs^3t+Cst^3+Dt^4\). Put
