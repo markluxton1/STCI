@@ -45,6 +45,16 @@ The comparison defect Delta_n is supported only where both carrier hypersurfaces
 
 Neither Delta_n nor cancellation is the saturated first-relation resultant defect of [R-0016](../results/nonsaturated_first_relation_resultant.md), the quasiprimitive residual-cycle divisor of [R-0019](../results/quasiprimitive_residual_cycles.md), or the rank shortfall of a global jet map. Identifying any two requires an additional comparison argument.
 
+## A common-divisor test for cohomological boundary repair
+
+For a fixed obstruction \(o\in H^1(\mathbf P^1,\mathcal O(-r))\), \(r\ge2\), and an effective divisor of degree \(B\), write \(n=r-2\). Serre duality identifies the obstruction with a functional on \(H^0(\mathcal O(n))\). If the divisor is cut out by \(h\in H^0(\mathcal O(B))\), then the obstruction dies after twisting by that divisor precisely when
+\[
+\langle o,hq\rangle=0\quad\text{for all }q\in H^0(\mathcal O(n-B)).
+\]
+Thus allowing the divisor to vary asks for a nonzero kernel of a catalecticant multiplication map. A dimension argument supplies such a divisor for every scalar obstruction when \(B\ge\lfloor r/2\rfloor\); for a vector-valued obstruction the **same divisor** must lie in the kernels of all component maps. A prescribed socle boundary is still more restrictive.
+
+This is a precise *cohomological* criterion, not a proof that the allowed socle divisor modifies the ambient embedded-lifting obstruction in this way. The missing comparison of obstruction complexes and the actual global homogeneous source are separate requirements. The detailed derivation and limits are in [the boundary supplement](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md), with the fixed-lower embedded criterion in [the one-step supplement](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md).
+
 ## The global-source gap
 
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
