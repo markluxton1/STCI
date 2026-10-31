@@ -345,6 +345,54 @@ over \(B\setminus\{0,\infty\}\) is not an extension over the endpoints;
 retraction. The unrestricted characteristic-zero STCI question remains
 open.
 
+### 5.1. The punctured retraction cannot extend over the pencil
+
+There is a short uniform strengthening of the preceding warning.
+Write \(i:C\hookrightarrow Z\) and
+\(L=\mathcal O_Z(1)=\pi^*\mathcal O_B(1)\). No retraction
+\(r:Z\to C\) can satisfy both \(r\circ i=\mathrm{id}_C\) and
+\(f\circ r=\pi\).
+
+Indeed, nondegeneracy of C forces \(a,b\ge2\). The complete-intersection
+resolution gives
+\[
+h^0(Z,L)=4,\qquad h^0(C,i^*L)=h^0(\mathbf P^1,\mathcal O(4))=5.
+\]
+A retraction over B would give
+\(r^*i^*L=(f\circ r)^*\mathcal O_B(1)=L\), compatibly with restriction.
+Pullback along r would then split the restriction map
+\[
+H^0(Z,L)\longrightarrow H^0(C,i^*L),
+\]
+making a map from a four-dimensional space onto a five-dimensional
+space surjective. This is impossible.
+
+The section argument works in every characteristic, under the same
+supported complete-intersection hypothesis. In characteristic different
+from two, \(C^\circ\to B^\circ\), with
+\(B^\circ=B\setminus\{0,\infty\}\), is finite étale. Formal étaleness
+therefore gives a unique B°-retraction \(Z^\circ\to C^\circ\);
+[Stacks, Theorem 41.15.1](https://stacks.math.columbia.edu/tag/06NE)
+is the relevant lifting statement. The argument proves that this
+retraction cannot extend over B. It neither identifies an obstructing
+endpoint nor excludes an unpolarized abstract retraction.
+
+More generally, suppose \(C\subset Z\subset\mathbf P^N\), ambient
+linear forms surject onto \(H^0(Z,\mathcal O_Z(1))\), and the given
+embedding of C is not linearly normal. A retraction preserving
+\(\mathcal O(1)\), with the isomorphism compatible with restriction,
+would make ambient linear forms surject onto
+\(H^0(C,\mathcal O_C(1))\), again a contradiction.
+
+Geometrically, the pencil-compatible retraction would lift the omitted
+section \(s^2t^2\). Its failure is the geometric consequence of the
+already recorded [missing fifth section](2026-10-31-polarization-root-budget.md#3-the-reduced-cover-retains-a-vertex-defect-and-restricted-linear-series),
+not an independent numerical budget or an obstruction to STCI.
+In particular it is consistent with the characteristic-two supported
+complete intersection. No endpoint classification follows or is selected.
+This added corollary has its own scoped review in the linked audit;
+the earlier audit's source fingerprint covers the preceding version.
+
 ## 6. Verification boundary
 
 No computational reduction was substituted for a completed calculation;

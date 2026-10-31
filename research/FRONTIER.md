@@ -50,6 +50,15 @@ the two branches exists, but retains the forbidden quartic norm.
 This corrects the missing-input diagnosis without selecting a new
 construction search, module classification or technical experiment.
 
+The [marked-cover and arithmetic assessment, §30](notes/2026-10-31-unrestricted-strategy-assessment.md#30-marked-covers-clarify-a-missing-section-arithmetic-and-residual-constructions-need-embedded-input)
+extracts a uniform geometric consequence of the missing fifth section:
+no global retraction can preserve the pencil. This section argument is
+characteristic free and does not obstruct STCI. The checked tame-cover,
+relative canonical-embedding and explicit residual-intersection theorems
+do not yet supply the needed embedded construction or a new all-pair
+constraint. This strand stops without a prime, endpoint or presentation
+classification; its exact reopening conditions are retained in §30.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

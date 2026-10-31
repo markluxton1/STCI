@@ -250,3 +250,36 @@ colon and contact conclusion follow. No material mathematical finding
 remains unresolved in those conclusions. This establishes reviewed
 provisional evidence, not canonical promotion, projective existence,
 or an unrestricted quartic STCI exclusion.
+
+## 7. Added no-retraction corollary: separate scoped review
+
+The later source §5.1 adds a geometric extraction from the existing
+missing fifth section. The independent reviewer
+/root/arithmetic_cover_strategy_challenge, using a fresh
+gpt-6.1-sol/high context for the bounded cover assessment, reconstructed
+the argument before checking its written form. The assignment is
+complete; it involved no edits, nested delegation or computation.
+
+For any supported complete intersection as stated, its four-dimensional
+space of hyperplane sections cannot surject onto the five-dimensional
+space on the reduced quartic. A retraction over the pencil would
+preserve its polarization and split this restriction, proving the
+claimed impossibility. The generalization requires compatible
+preservation of the polarization. The section argument is
+characteristic free; the unique punctured retraction additionally
+uses characteristic different from two and formal étaleness.
+
+The reviewer checked the geometric interpretation and the boundaries:
+no exclusion of an arbitrary unpolarized retraction, no endpoint
+identification, no new independent budget, and no STCI nonexistence
+claim. Its final disposition is **scoped PASS for §5.1** at source
+SHA-256
+
+    bdf7331c3163d2189b41671261777cf481353315fb351610f7dc32a2f655fb4e
+
+The preceding Sections 1–6 retain their earlier review above; the
+new review does not repeat that full audit. The companion
+[strategy assessment §30](2026-10-31-unrestricted-strategy-assessment.md#30-marked-covers-clarify-a-missing-section-arithmetic-and-residual-constructions-need-embedded-input)
+records the literature checks and independently challenged stopping
+decision. This addition remains provisional, with no canonical
+promotion.

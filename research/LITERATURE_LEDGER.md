@@ -866,6 +866,42 @@ prescribe this support or conjugate partner.
 These checks do not exclude the general operations or establish an
 unrestricted obstruction.
 
+## Marked covers, arithmetic lifting and explicit residual STCI constructions
+
+[Assessment §30](notes/2026-10-31-unrestricted-strategy-assessment.md#30-marked-covers-clarify-a-missing-section-arithmetic-and-residual-constructions-need-embedded-input)
+checks these sources against the full nonreduced embedded scheme.
+[SGA 1, I.5.5, I.8.3 and XIII.2.8–2.12](https://arxiv.org/pdf/math/0206203)
+provides nilpotent invariance of étale categories and tame lifting
+for smooth-curve covers with boundary. It does not lift the
+transverse nilpotent algebra and both ambient equations.
+[Stacks, Theorem 41.15.1](https://stacks.math.columbia.edu/tag/06NE)
+gives the punctured retraction by formal étaleness; the new short
+corollary in cyclic-cover duality §5.1 proves that it cannot extend
+over the pencil. [Stacks, §49.3](https://stacks.math.columbia.edu/tag/0BVH)
+defines the ordinary trace discriminant, identically zero here for
+generic multiplicity greater than one.
+
+[Landesman–Vakil–Wood, Theorem 3.2 and Remark 3.3, pp.16–18](https://arxiv.org/pdf/2203.01840)
+give the corrected Casnati–Ekedahl structure theorem for finite
+locally free Gorenstein covers of degree at least three, allowing
+nonreduced sources. It applies to the actual CI pencil cover.
+For an abstract cover with the known module splitting, four
+globally generating sections already exist. Their restriction
+image, separation of nilpotents, CI image, and algebra-linear
+canonical duality remain additional construction conditions.
+
+[Batavia–Pandey–Walther, On the arithmetic rank and cohomological
+dimension of some residual intersections, arXiv:2610.25680v1](https://arxiv.org/pdf/2610.25680v1),
+dated 19 October 2026, gives explicit STCI residual constructions in
+Theorems 5.1–5.2, pp.22–27. Section 2.4 defines the homogeneous
+height-preserving specialization. The exact height-two instance
+of the §5 pattern has radical \(\sqrt{(\lambda,xu)}\); its two
+branches must already be supported on C0 if their union is.
+This is a checked limitation of that operation's use for the
+fixed quartic, not a rejection of residual methods or of the
+paper's existence results. No prime or presentation search is
+selected from these sources.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
