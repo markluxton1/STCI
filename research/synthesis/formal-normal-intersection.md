@@ -26,6 +26,14 @@ The appropriate structural question is how the **full filtered ideal**, rather t
 
 The valuation tree of persistent horizontal directions and their specializations is a **possible organizing picture**, not an established classification or a canonical tree. It requires a precise choice of valuations and a proof that any proposed invariant is independent of coordinates, generators, and blowup sequence.
 
+## 3A. Initial equations, punctual defects, and integral boundary data
+
+Three distinct operations must be kept separate. Taking the leading normal forms of F and G can miss generators of the full initial ideal H. Passing from the minimal generators of H to the associated graded of the actual equation module J/IJ can then lose further information. Finally, passing to the generic point removes punctual torsion in these sheaves. The canonical exact comparison and its local counterexample are integrated in [Normal-filtration defects](normal_filtration_boundary_obstructions.md#full-initial-ideals-and-the-filtered-equation-module), with the scoped result [R-0030](../results/local_filtration_comparison_defect.md).
+
+The support of the comparison defect lies where both carriers are singular along C. That necessary condition does not prove a punctual defect exists for an intersection with sole reduced support C. Nor does cancellation imply such a defect: the characteristic-two quartic has a higher initial equation but vanishing comparison defect [R-0031](../results/quartic_char2_fourth_equation_kernel.md).
+
+Weighted valuations require the integral coefficient lattice at each point, not only the generic algebra. In the family (x²,y²+t^r x), the integral weighted initial ideals distinguish the boundary exponent r; after inverting t, the generic length remains four. The Smith-form determinant index of a normal-degree relation matrix records torsion missed by entry valuations alone. The calculation and frame-change limitations are in [Weighted initials and normal boundary](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#weighted-initials-normal-boundary). These invariants can constrain special-point behavior but do not alone imply a global residual curve.
+
 ## 4. Where this fits among established results
 
 For the scoped root, graded-relation and actual-CI bridge theorems R-0005–R-0009, use [Chapter 3](03-infinitesimal-geometry.md). For local initial-ideal comparison and saturation, use [Normal-filtration defects](normal_filtration_boundary_obstructions.md). For proper residual cycles, examples and global jet obstructions, use [Residual intersections and jets](residual_intersections_and_jets.md). For fixed-carrier normalization and conductor descent, use [Chapter 4](04-carriers.md) and [Carrier/socle interfaces](carrier_conductor_socle_interfaces.md). The quartic-carrier exclusion [R-0001](../results/quartic_carrier_exclusion.md) remains closed.
