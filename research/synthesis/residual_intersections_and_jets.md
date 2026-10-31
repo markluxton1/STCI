@@ -103,7 +103,7 @@ This is evidence that successive jet conditions are genuinely coupled. It is **n
 
 Multiplication by the nonzero quadratic root gives an injective cubic correction map with sixteen source coefficients and forty target coefficients. The resulting twenty-four-dimensional quotient is the higher-jet obstruction. Root singularities and multiplier zeros remain relevant to other incidence conditions, not to this map's rank. Passing the source tests does not establish a uniform transverse-length bound or eliminate a residual curve.
 
-## 7E. Coefficient membership without dividing by root coefficients
+## 7F. Coefficient membership without dividing by root coefficients
 
 The conditional cubic correction can be tested by the four polynomial equations \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), with \(\deg\ell,\deg m\le7\). This retains the loci \(a=0\), \(c=0\), and singular roots, where naive division loses cases. The correction is unique for nonzero \(f\). See [the full coefficient derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination). Its solvability is not a generic transverse-length estimate and does not imply the absence of residual components.
 
