@@ -79,6 +79,10 @@ The [conditional sextic synthesis](normalization_conductor_phase2_addendum.md#ex
 
 The [conditional singular-root synthesis](normalization_conductor_phase2_addendum.md#two-node-root-strata-exact-exclusions-and-retained-pencils) now distinguishes excluded generic line and nonzero-defect boundary components from the unresolved generic conic and zero-defect sextic pencil \(H_1H_2+\eta q^3\). These are conditional two-node statements, not a complete classification of all roots.
 
+## A geometric alternative on the exceptional multiplier locus
+
+The [strict-sextic continuation](normalization_conductor_phase2_addendum.md#singular-curves-on-the-strict-sextic-two-conditional-alternatives) narrows remaining actual-pair geometry to nonnormality at a multiplier zero or, under local normality there, a specific singular trisecant ruling line through one root node. Neither alternative is an exclusion; the distinction is important when selecting a conductor calculation.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
