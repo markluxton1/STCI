@@ -21,6 +21,17 @@ This map records **logical dependence** separately from **conceptual contact**. 
 - **Residual and low-degree:** [R-0001](../results/quartic_carrier_exclusion.md) excludes integral quartic carriers for the fixed embedding and all mate degrees. [R-0022](../results/quartic_44_filtered_exclusion.md) is an independent narrower (4,4) exclusion with inherited filtration prerequisites. Neither gives a uniform higher-degree residual bound.
 - **Carrier and conductor:** [R-0035](../results/normal_carrier_bounded_index_exclusion.md) applies to normal integral carriers only with actual local Cartier indices at most four and inherited torsion/direction inputs. [R-0036](../results/pointwise_conductor_socle_defect.md) requires a single smooth Cartier inverse branch and additional normalization/conductor hypotheses. Neither covers arbitrary higher-index, nonnormal or multiple-branch carriers.
 
+## Cross-route nonimplications that constrain a proof
+
+The three routes have a common final requirement—**an actual proper homogeneous pair**—but their intermediate invariants do not determine one another.
+
+- A full generic initial ideal determines the transverse length, but does not determine the punctual comparison defect of the filtered equation module or whether its generators lift to prescribed-degree global homogeneous forms. See [normal filtrations](normal_filtration_boundary_obstructions.md#full-initial-ideals-and-the-filtered-equation-module).
+- A local embedded one-step extension or vanishing obstruction does not imply that two compatible ambient forms exist; the image of the global jet source and the proper decomposable locus are additional constraints. See [Chapter 3](03-infinitesimal-geometry.md).
+- A positive upstairs divisor relation on a normalization does not imply descent through the full conductor; conversely, the pointwise socle/conductor formula R-0036 presupposes an actual supported pair and its restrictive smooth singleton hypotheses. See [carrier/socle interface](carrier_conductor_socle_interfaces.md#how-the-divisor-identity-interacts-with-descent).
+- A vertical exceptional cycle or punctual initial-ideal defect does not imply positive residual projective degree. A residual bound requires an upper bound on generic transverse length for actual pairs, as in the scoped R-0025 calculation.
+
+These are failures of proposed implication, not new nonexistence theorems. Any future proof connecting routes must supply a map between the corresponding actual objects and verify its hypotheses.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
