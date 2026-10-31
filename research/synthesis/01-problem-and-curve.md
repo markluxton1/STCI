@@ -81,6 +81,29 @@ and characteristic seven gives \(n=7,b=1,a=1,c=5\).
 
 The statement that \(p=5\) requires \(r\ge2\) is **minimality only inside the displayed quartic-plus-Frobenius-binomial family**, not among all homogeneous defining pairs. Likewise, this does not supersede the uniform cubic construction or the special characteristic-three cubic/quartic pair.
 
+## 1.2D Necessity of the Frobenius exponent and all reduced components
+
+The power-of-characteristic condition in the preceding construction is **necessary**, not merely convenient, within the same two-binomial family. Let \(n\ge1\) be arbitrary and assume the nonnegative integers \(a,b,c\) satisfy the two exponent equations above. Write \(n=p^r m\), with \(p\nmid m\). On \(x_0=1\), the scheme is
+\[
+x_3=x_1^4,\qquad x_2^n=x_1^{3n}.
+\]
+Over an algebraically closed field, its reduced equation factors as
+\[
+\prod_{\zeta^m=1}(x_2-\zeta x_1^3)=0,
+\]
+since \(x_2^n-x_1^{3n}=(x_2^m-x_1^{3m})^{p^r}\). Thus the reduced projective support is the union of **exactly \(m\) distinct quartic curves**
+\[
+C_\zeta:\quad [s:t]\longmapsto[s^4:s^3t:\zeta st^3:t^4],\qquad \zeta^m=1.
+\]
+Indeed the \(x_0=0\) equations leave only the common endpoint, already contained in every \(C_\zeta\). Each affine component is irreducible and its projective closure is \(C_\zeta\). Consequently
+\[
+\sqrt{(F,G)}=I_{C_0}\quad\Longleftrightarrow\quad m=1
+\quad\Longleftrightarrow\quad n\text{ is a power of }p,
+\]
+for exponent-compatible binomials of this precise shape. This is a complete **reduced-support classification of this family**, not a statement about arbitrary second equations.
+
+The same calculation works over characteristic zero with \(m=n\), so no positive exponent \(n>1\) in this binomial family gives sole support there. In characteristic zero the \(n=1\) exponent congruence has no nonnegative solution (\(b\le0\) but \(b\equiv3\bmod4\)); hence the family produces **no characteristic-zero STCI at all**. This conclusion is limited to the displayed binomial ansatz.
+
 ## 1.3 Dual invariants and the scheme-theoretic intersection
 
 Write dual coordinates \([A:B:C:D]\) for the plane whose restriction to the parametrized curve is \(As^4+Bs^3t+Cst^3+Dt^4\). Put
