@@ -1845,3 +1845,105 @@ and this selection decision. The audit identifies the final source
 fingerprint and the inherited theorem evidence reused. Both scouts
 and the reviewer have completed their bounded assignments. No
 canonical promotion or further technical experiment is claimed.
+
+## 23. The continuous section problem is solvable; algebraic realization remains
+
+This selection stepped away from the quadratic-cover source. Two fresh
+`gpt-6-astra/xhigh` scouts examined complement geometry and rational
+plane-normalization descent independently. A fresh
+`gpt-6-astra/xhigh` reviewer reconstructed the parent's global
+topological consequence and challenged the complement recommendation;
+a fresh `gpt-6.1-sol/high` reviewer checked the plane-descent selection.
+No nested delegation or local classification was used. The
+[complement source](2026-10-31-complement-sections-and-topology.md) and
+[audit](2026-10-31-complement-sections-and-topology-audit.md) preserve
+the proof and the distinct review scopes below.
+
+**A global result, with a genuine generalization.** For every smooth
+connected complex degree-d space curve C, not just the rational quartic,
+every topological complex rank-two bundle E on P3 minus C has a
+continuous nowhere-zero section exactly when c2(E) vanishes. The
+Gysin sequence gives h² exact order d and zero integral cohomology
+in degrees five, six and seven. The S3 sphere-bundle obstruction
+sequence therefore has only its top-Chern obstruction: both possible
+higher mod-two obstruction groups vanish. This checks torsion and
+sufficiency, rather than merely observing a vanishing Euler class.
+For E=O(a) plus O(b), the criterion is precisely d dividing ab.
+
+Consequently every Bézout-admissible degree pair for C0 passes the
+**entire classical continuous-section problem** for the bundle that
+the equations would use. This is not an assertion that every
+topological method involving carriers or singularities is exhausted.
+It identifies one complete obstruction problem whose further
+calculation cannot decide the remaining question.
+
+Hartogs extension supplies the exact contrast: a holomorphic section
+of the same bundle extends across C to P3 and is algebraic. For positive
+degrees, a holomorphic nowhere-zero section on the complement is
+therefore exactly a supported pair of homogeneous equations. The
+unresolved passage is continuous-to-holomorphic realization, with no
+additional analytic-to-algebraic issue for these particular sections.
+
+**Why affine splitting does not supply that passage.** Successful
+equations would define an algebraic extension with middle bundle
+O(a) plus O(b), trivial subbundle and quotient O(a+b). That extension
+must be nonsplit: all homomorphisms from the positive middle bundle
+to O vanish by Hartogs. Its nonzero class, represented by 1/(FG) on
+the actual two-open cover, is compatible with success and required
+by it. The checked Asok–Bachmann–Hopkins theorem concerns a trivial
+direct summand on a smooth affine corank-one base. The complement
+is nonaffine, and a positive-rank Jouanolou replacement changes the
+rank–dimension relation and still requires actual section descent.
+Affine A1 representability also retains its source and target
+hypotheses and compares homotopy classes, not individual maps.
+
+**The constructive normalization alternative still lacks actual data.**
+The known arithmetic degree-sixteen plane source and its larger tested
+variation remain useful examples, but their exclusions do not cover
+all four quartics extending the marked line series. R-0004 already
+retains the full phase and infinitesimal-conductor criterion for power
+descent. Ferrand pushouts and Kollár's finite relations do not furnish
+the prescribed four sections or ensure that their actual image has
+the designed conductor. Designing a reduced point pairing alone loses
+the nilpotent gluing that the known source requires. No new plane
+projection or mate was produced by the checked literature.
+
+One elementary global limitation on an ambient-symmetry design is
+worth retaining. If a birational map f:P2→P3 is given by degree-d
+forms F_i, and a **single** nonidentity projective automorphism sigma
+satisfies f(p)=f(sigma p) along a reduced divisor D, then deg D≤2d.
+Indeed all crossminors F_i(F_j composed with sigma) minus
+F_j(F_i composed with sigma) have degree 2d and vanish on D. If its
+degree were larger, all would vanish identically; birationality would
+then force sigma to be the identity. For quartics the bound is eight.
+The full conductor class 51L counts multiplicity and does not imply
+that its reduced degree exceeds eight. Components paired by distinct
+automorphisms cannot have their degrees summed in this argument,
+and a conductor deck map need not extend to P2. The local inertia/phase
+check is a consequence within the existing phase criterion and does
+not select a new conductor classification.
+
+**Recommendation and stopping.** Retain the global continuous-section
+criterion and its essential algebraic-extension distinction. Do not
+start a classical Euler or secondary-section-obstruction calculation
+for these bundles, since it has been completed uniformly. Do not
+start a conductor-inertia or plane-symmetry classification: the
+selection supplied limitations on a proposed design, not its missing
+global four-section data. Neither conclusion favors nonexistence.
+
+A future complement proposal must name a strict descent or realization
+operation for the actual holomorphic/algebraic section, or an algebraic
+obstruction retaining the relevant global data. A future normalization
+proposal must supply actual sections or compatible pinching/projection
+data with a mechanism for their full power descent. An unproved
+mechanism may be tested; a reformulation alone does not justify a new
+campaign. Report its added input and stopping conditions before
+starting. No further technical experiment is selected here, and
+unrestricted characteristic-zero STCI remains open.
+
+Both independent reviews returned **scoped PASS**. The complement
+review verifies the full obstruction calculation and the actual
+holomorphic/algebraic predicates; the plane review verifies the
+separate symmetry bound and its limited constructive implication.
+The audit preserves distinct scopes and the source fingerprint.
+All four bounded assignments are complete. No canonical promotion.

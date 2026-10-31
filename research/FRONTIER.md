@@ -2,7 +2,26 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: supported linkage selection completed
+## Current checkpoint: continuous sections settled, algebraic realization open
+
+The [complement-section comparison](notes/2026-10-31-complement-sections-and-topology.md)
+is complete and independently reviewed. For any smooth connected complex
+degree-d space curve, the relevant positive split bundle has a continuous
+nowhere-zero section exactly when d divides the degree product. Higher
+classical section obstructions vanish. Holomorphic sections extend to
+the actual homogeneous equations; a successful algebraic extension on
+the complement is necessarily nonsplit. Affine splitting and an affine
+replacement do not automatically supply the missing sections or descent.
+
+The [assessment, §23](notes/2026-10-31-unrestricted-strategy-assessment.md#23-the-continuous-section-problem-is-solvable-algebraic-realization-remains)
+selects no further classical obstruction calculation or plane-conductor
+classification. Its separate normalization check retains full gluing and
+four-coordinate requirements; a degree bound limits only designs using
+one ambient projective symmetry. Reopening needs an actual realization
+or descent mechanism, or an algebraic obstruction retaining those data.
+The unrestricted characteristic-zero STCI question remains open.
+
+## Preceding supported linkage selection
 
 The [supported-linkage selection](notes/2026-10-31-supported-linkage-selection.md)
 and independent audit are complete. Basic double linkage supplies

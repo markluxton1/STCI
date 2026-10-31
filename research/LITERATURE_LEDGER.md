@@ -715,6 +715,32 @@ exclusions are reviewed deductions using the accepted R-0001 factor
 reduction, not claims from the cited construction paper. No finite-chain
 exhaustion or literature novelty is asserted.
 
+## Complement sections, topology and the affine-theorem boundary
+
+The [complement-section note](notes/2026-10-31-complement-sections-and-topology.md)
+uses [Hatcher, Vector Bundles and K-Theory, §3.3](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)
+and [Algebraic Topology, Chapter 4, p. 339](https://pi.math.cornell.edu/~hatcher/AT/ATch4.pdf)
+for the standard sphere-bundle obstruction framework and homotopy groups.
+The complete complement calculation is independently reconstructed,
+including the higher mod-two groups. No literature novelty is claimed.
+
+[Asok–Bachmann–Hopkins, Theorem 7.1.1](https://arxiv.org/pdf/2306.04631)
+retains its algebraically closed characteristic-zero field, smooth affine
+base, corank-one bundle and trivial-direct-summand conclusion.
+[Asok–Hoyois–Wendt, Introduction and Theorem 4.2.10](https://msp.org/gt/2018/22-2/gt-v22-n2-p11-s.pdf)
+compares naive homotopy classes of morphisms with motivic homotopy
+classes under the stated affine-source and target hypotheses. These
+are not automatic section-existence or descent results on the
+nonaffine complement considered here.
+
+The separate plane-normalization selection reuses the precise
+[Ferrand pushout](https://www.numdam.org/item/BSMF_2003__131_4_553_0/)
+requirements and checks [Kollár's finite-equivalence-relation examples](https://arxiv.org/pdf/0812.3608).
+Reduced identifications do not supply all infinitesimal conductor data
+or the required four marked sections. The bounded symmetry limitation
+in assessment §23 is a direct degree argument, not a general theorem
+excluding plane normalizations.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.

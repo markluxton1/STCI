@@ -44,6 +44,16 @@ This closes the two bounded tests and shows why a numerical class
 change alone is insufficient. The next global comparison or constructive
 operation remains unspecified; no classification is selected.
 
+The [complement-section theorem](notes/2026-10-31-complement-sections-and-topology.md)
+applies to every smooth connected complex space curve of degree d:
+O(a) plus O(b) on its complement has a continuous nowhere-zero section
+exactly when d divides ab. The higher torsion obstruction groups vanish.
+Holomorphic sections extend to actual homogeneous equations, and a
+successful pair's algebraic extension must be nonsplit. This locates
+an algebraic realization gap; affine direct-summand theorems do not
+supply that passage. It does not exhaust carrier-dependent topology
+or enriched motivic information, and leaves STCI open.
+
 The [supported-linkage selection](notes/2026-10-31-supported-linkage-selection.md)
 constructs actual ACM thickenings through basic double linkage, but
 uniformly excludes the selected power operation through its generic

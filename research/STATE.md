@@ -2,6 +2,19 @@
 
 ## Research activity status — October 31, 2026
 
+The [complement-section theorem](notes/2026-10-31-complement-sections-and-topology.md)
+is independently reviewed provisional work over C. For every smooth
+connected degree-d space curve and any topological rank-two complex
+bundle on its complement, c2=0 is sufficient as well as necessary for
+a continuous nowhere-zero section. For O(a) plus O(b) this is exactly
+d dividing ab. Holomorphic sections extend across the curve and recover
+the original homogeneous-pair problem. A successful pair has a necessarily
+nonsplit algebraic extension, so affine direct-summand theorems do not
+resolve it. The [assessment, §23](notes/2026-10-31-unrestricted-strategy-assessment.md#23-the-continuous-section-problem-is-solvable-algebraic-realization-remains)
+also preserves the separate plane-normalization nonselection and
+bounded ambient-symmetry limitation. No canonical promotion or
+unrestricted STCI conclusion is claimed.
+
 The [supported-linkage continuation](notes/2026-10-31-supported-linkage-selection.md)
 is independently reviewed provisional work. It constructs saturated
 ACM thickenings (f^u)+g^v I_D, then excludes every positive parameter
