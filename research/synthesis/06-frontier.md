@@ -178,6 +178,10 @@ The [historical two-node calculation](normalization_conductor_phase2_addendum.md
 
 The October 21 geometric exceptional-locus calculation proves, under the actual supported (6,16) pair and saturated movement-two hypotheses, that the full quadratic-root multiplier divisor cannot be reduced. The normal strict-sextic argument forces total Milnor number at least 144, whereas the global resolution bound gives at most 50. Its nodal extension uses ampleness of the strict mate to exclude nonnormal singular curves when the multiplier divisor is reduced. The resulting necessary exceptional equation has degree 52 in the original root coefficients. This is not a proof that the exceptional locus is empty. See the October 21 geometric-audit-and-exceptional-locus source note on main for the exact hypotheses and proof.
 
+## 6.11H A two-branch geometric target on the degree-52 locus
+
+The reviewed [strict-sextic singular-curve argument](normalization_conductor_phase2_addendum.md#singular-curves-on-the-strict-sextic-two-conditional-alternatives) reduces a remaining actual-pair singular curve, under normality near multiplier-zero root points, to a trisecant ruling line meeting one ordinary root node. Its numerical identity is \(16d-2e=10n\), with \(n\le2\) and \(e\) retaining all exceptional contacts, not just nodal contacts. The alternative is nonnormality at a multiplier zero. These are specific geometric/conductor targets; neither is currently excluded.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
