@@ -99,7 +99,7 @@ The conditional (6,16) study has a smooth torsion-two root whose multiplier sati
 
 This is evidence that successive jet conditions are genuinely coupled. It is **not** a residual-degree bound for every mate to that carrier, nor an exclusion of all (6,16) pairs. The remaining exceptional root and multiplier strata must be treated before converting source restrictions into a uniform transverse-length estimate.
 
-## 7D. Rank-drop loci in the sextic incidence
+## 7D. Exceptional sextic incidence loci are not correction-rank drops
 
 The conditional sextic cubic-jet equation is a parameter-dependent linear system in correction coefficients. A generic solution does not control its rank-drop locus. Solvability must be checked separately on each matrix-rank stratum using augmented minors. The [finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) retains these loci alongside the first-symbol image equations.
 
