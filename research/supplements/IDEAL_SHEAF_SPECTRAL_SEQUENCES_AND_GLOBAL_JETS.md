@@ -395,6 +395,11 @@ full initial-CI, smooth-root, and relation-gap hypotheses. No comparison
 identifying these root classes with the differentials in (1), or with
 either Koszul spectral sequence, has been established. The finite-source
 calculation instead supplies a rigorously separate compatibility filter.
+The subsequent [actual octic comparison](ACTUAL_OCTIC_ROOT_LIFT_COMPARISON.md)
+constructs a restriction map from actual sources to membership in the
+first lifted Cartier root, then quotients by all source corrections. This
+connects the two compatibility problems without identifying their
+obstruction classes or their spectral-sequence differentials.
 
 ## Evidence and review
 

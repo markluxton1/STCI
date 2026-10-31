@@ -348,11 +348,15 @@ A flat family of curves alone does not establish the required behavior of
 every higher-page differential. Similarly, intrinsic nonlinear parameter
 dimension is not itself a runtime bound.
 
-The next useful generalization test is to carry the flag recursion (6)
-into the actual root-lifting incidence on a specified rank stratum. It should
-identify the compared maps and preserve all correction freedoms. Replacing
-the current matrix by a larger unified complex without that comparison would
-add notation without improving the decision problem.
+The [actual octic comparison](ACTUAL_OCTIC_ROOT_LIFT_COMPARISON.md) now
+carries the flag recursion (6) into first root-lift membership. Restriction
+to the embedded lifted divisor gives the actual map, with all correction
+freedoms retained. Its target has dimension six to nine, and a seed
+calculation produces proper first-compatible pairs with residual degree 32.
+Extending that map across the remaining root strata is distinct from
+identifying spectral-sequence classes. Replacing it by a larger unified
+complex without further comparisons would add notation without improving
+the decision problem.
 
 ## Review and scope
 
