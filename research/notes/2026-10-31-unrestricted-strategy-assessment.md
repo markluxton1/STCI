@@ -725,3 +725,88 @@ confirmed that an informative unproved mechanism remains eligible for
 exploration. No unresolved material correction remains. The two producers
 and reviewer completed their bounded tasks. No canonical status is changed,
 and no new technical round has begun.
+
+## 11. Constructive selection: finite pullbacks and controlled bundle degeneration
+
+The next selection deliberately sought a source producing both equations
+together, and a published operation allowing bundle-map degeneration away
+from a chosen section. Two fresh `gpt-6-astra/xhigh` workers checked those
+distinct mechanisms and their primary literature. No map-degree search,
+monad enumeration or new ribbon classification was started.
+
+### A finite-pullback source closes by a general lifting principle
+
+A finite map `Phi:P3 -> P3` with sole reduced inverse image of the twisted
+cubic equal to C0 would pull back its known (2,3) pair to a genuine STCI
+pair (2d,3d). Unlike ordinary Cremona transport, this map could create
+transverse thickness. Poonen's extension theorem supplies highly polarized
+ambient extensions of reduced curve maps, but no inverse-support control.
+
+The selection led to a new precise geometric implication, recorded in
+[the proof note](2026-10-31-finite-pullback-lifting.md). The full inverse
+scheme W would inherit the twisted cubic's pulled-back resolution. Thus
+all its ambient-twist sections lift and it has no equations of degree d.
+The degree relation `3e=4d` forces 3|d. On a rational thickening, Pic(W)
+has no 3-torsion in characteristic different from three. Consequently
+the pencil giving `W -> T = P1` must be `O_W(d/3)`. Its two sections
+lift to ambient forms A,B, and the absence of degree-d correction terms
+forces all four coordinates of Phi to be their cubic monomials. The
+ambient map then collapses into the twisted cubic, a contradiction.
+
+The bounded verification and its stop rule were reported before a fresh
+independent reviewer reconstructed it. It excludes the entire proposed
+finite-pullback source, with no degree bound or transverse-type assumption.
+The underlying lemma separates four actual inputs: torsion-free choice of
+the required polarization root, scalar global units, lifting of its
+sections, and absence of ambient correction sections. For a rational
+normal curve of degree N in PN, the same proof applies when N divides d
+and is invertible in the field; a smooth rational reduced inverse curve
+of degree coprime to N forces that divisibility.
+
+**Effect on the full question:** this is a construction-source exclusion
+and reusable global lifting principle, not an arbitrary-STCI obstruction.
+It even holds in characteristic two, where C0 has the inherited (4,4)
+STCI pair. This proves that the source is nonexhaustive. The line target
+used to encode a pair of equations has degree-d correction equations and
+does not satisfy the lemma. No claim of publication novelty is made.
+
+### Controlled degeneration exists, but does not yet give a split target
+
+[Forster–Wolffhardt, Theorem 1.5](https://www.math.lmu.de/~forster/eprints/zeroschemes.pdf)
+provides a substantive affine mechanism: when det(E) is trivial on the
+zero scheme of s, the identity `psi(s)+lambda*h=1` controls a map
+`Phi=psi tensor psi+i(lambda):E -> E-dual`, with determinant lambda².
+The transformed section has exactly the same zero scheme, including
+where the map loses rank. Thus degeneracy away from the section can be
+controlled by an actual identity; the earlier uniform bundle-splitting
+restriction does not disprove this principle.
+
+Its target, however, is E-dual. If its determinant premise were imposed
+on P3 with support C0, restriction forces `det E=O` and E-dual is already
+isomorphic to E. The theorem is affine; a projective use additionally
+needs its global input sections and identity. Neither that operation nor
+the inspected monad/symmetric-power descriptions supplies the split
+rank-two target. Ferrand's projective supported double and bundle section
+already exist by the theorem in Szpiro, Chapter 4, §3; their existence is
+not the missing input and does not justify another ribbon classification.
+
+**Recommendation and stopping conditions:** the finite-twisted-cubic
+source is now closed by the proof, so stop it in all degrees. Do not
+replace it automatically by another target. Retain the general lifting
+lemma for sources that actually meet its hypotheses. Stop the bare
+Forster–Wolffhardt transplant: a renewed bundle construction needs a
+specified operation into two line bundles and an independent identity or
+extension mechanism controlling its zero support. This may be an
+unproved mechanism proposed for a bounded test; success need not be known
+in advance. Neither result justifies treating C0 as non-STCI. No next
+technical campaign is selected by these findings.
+
+The fresh `gpt-6.1-sol/high` [audit](2026-10-31-finite-pullback-lifting-audit.md)
+covers the preserved lifting proof, its characteristic/generalization
+claims, Poonen/Jamet source scopes and the displayed Forster–Wolffhardt
+deduction. It verified the actual assessment and resolved two wording
+clarifications about scheme-theoretic factorization and smooth rational
+support. No material correction remains. Ferrand's proof and the monad
+literature were not independently re-audited by this reviewer. Both source
+workers and the reviewer completed their bounded tasks. No numerical
+computation or canonical promotion was performed.

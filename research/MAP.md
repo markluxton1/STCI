@@ -23,6 +23,15 @@ exact STCI reformulation and a published splitting restriction. The
 reviewed assessment identifies missing constructive/global input without
 selecting another model or cover classification.
 
+Finite maps can create transverse thickness, but the
+[finite-pullback theorem](notes/2026-10-31-finite-pullback-lifting.md)
+excludes the twisted-cubic source in all degrees for C0. Its full inverse
+scheme would force a root of its polarization whose sections lift, while
+the absence of correction equations collapses the ambient map into the
+target curve. The general lifting lemma retains those exact hypotheses.
+The exclusion also holds in characteristic two where C0 is STCI, so it
+does not cover arbitrary defining pairs.
+
 The [paired-cover construction](notes/2026-10-31-paired-elliptic-construction.md)
 subsequently supplies actual odd-spin elliptic target data with compatible
 component polarizations. Its node-gluing ratios are values of a degree-three

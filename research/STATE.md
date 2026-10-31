@@ -2,7 +2,17 @@
 
 ## Research activity status — October 31, 2026
 
-The latest [arbitrary-pair mechanism selection](notes/2026-10-31-foliation-affine-selection.md)
+The latest [finite-pullback deduction](notes/2026-10-31-finite-pullback-lifting.md)
+is independently reviewed and provisional. It excludes every finite
+endomorphism whose inverse image of a twisted cubic has reduced support
+C0, in characteristic different from three, by a general polarization-root
+and section-lifting argument. This is a construction-source exclusion;
+its validity in characteristic two, where C0 is STCI, explicitly prevents
+an unrestricted inference. The [assessment, §11](notes/2026-10-31-unrestricted-strategy-assessment.md#11-constructive-selection-finite-pullbacks-and-controlled-bundle-degeneration)
+records the generalization, parallel affine bundle construction and stopping
+decisions. No canonical status changes or next technical campaign follow.
+
+The earlier [arbitrary-pair mechanism selection](notes/2026-10-31-foliation-affine-selection.md)
 is independently reviewed and provisional. It extracts a normalized-foliation dichotomy and an exact residue in the
 factor-free branch, together with two separate affine boundary losses.
 Neither the foliation theorems nor the checked affine degree estimates

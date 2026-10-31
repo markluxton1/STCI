@@ -139,7 +139,7 @@ Spaces,” LNM 1092 (1984), 1--28.
   of Fundamental Research Lectures on Mathematics and Physics 62,
   Springer/TIFR, 1979.
 - TIFR text:
-  <https://mathweb.tifr.res.in/sites/default/files/publications/ln/tifr62.pdf>
+  <https://mathweb.tifr.res.in/Documents/Publications/Lectures/tifr62.pdf>
 - Verified scope:
   1. an lci curve in affine three-space is a set-theoretic complete
      intersection;
@@ -149,6 +149,27 @@ Spaces,” LNM 1092 (1984), 1--28.
   Quillen--Suslin makes the bundle free. On \(\mathbf P^3\), the Ferrand bundle
   may be indecomposable, whereas two global equations require
   \(\mathcal O(a)\oplus\mathcal O(b)\).
+
+### Forster--Wolffhardt: controlled degeneration along a section
+
+O. Forster and K. Wolffhardt, “A Theorem on Zero Schemes of Sections in
+Two-Bundles over Affine Schemes with Applications to Set Theoretic
+Intersections,” *Lecture Notes in Mathematics* 1270 (1987), 372--383.
+[Author reprint](https://www.math.lmu.de/~forster/eprints/zeroschemes.pdf),
+Theorem 1.5 and its proof.
+
+- On an affine scheme, a section s of a rank-two bundle E with
+  determinant trivial on its zero scheme can be replaced by a section
+  of E-dual with exactly the same zero scheme.
+- The proof permits a degenerating bundle map: the identity
+  `psi(s)+lambda*h=1` ensures that rank loss cannot kill the chosen
+  section where it was nonzero. It constructs a dual-bundle section,
+  not a split rank-two target.
+- On P3, determinant triviality on a thickening supported on C0 forces
+  `det E=O`, by restriction to the degree-four curve. Then E-dual is
+  already isomorphic to E. This conditional projective observation is
+  not an extension of the affine theorem or a splitting result. See
+  the [strategy assessment, §11](notes/2026-10-31-unrestricted-strategy-assessment.md#11-constructive-selection-finite-pullbacks-and-controlled-bundle-degeneration).
 
 ### Mandal--Zinna, published 2026
 

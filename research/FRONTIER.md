@@ -2,7 +2,21 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: arbitrary-pair mechanisms assessed; no next experiment selected
+## Current checkpoint: finite-pullback source closed by a lifting theorem
+
+The [finite-pullback theorem](notes/2026-10-31-finite-pullback-lifting.md)
+excludes every finite endomorphism of P3 whose inverse image of a twisted
+cubic has reduced support C0, in characteristic different from three.
+The proof uses the full thickening's polarization root, section lifting
+and absence of correction terms, and generalizes to rational normal curve
+targets under explicit degree/characteristic conditions. It is independently
+reviewed and provisional. Its validity also in characteristic two, where
+C0 is STCI, makes the source's nonexhaustiveness explicit.
+The [assessment, §11](notes/2026-10-31-unrestricted-strategy-assessment.md#11-constructive-selection-finite-pullbacks-and-controlled-bundle-degeneration)
+also preserves a genuine affine bundle operation and its missing split
+projective target. Both bounded investigations stop; no replacement target,
+degree search or bundle classification is assigned. The unrestricted
+characteristic-zero question remains open.
 
 The [foliation and affine-degree selection](notes/2026-10-31-foliation-affine-selection.md)
 is complete and independently reviewed. It returns to arbitrary defining
