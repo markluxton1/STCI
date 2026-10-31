@@ -103,6 +103,14 @@ The associated flag and dual models, [R-0026](../results/quartic_flag_conormal_g
 
 A reusable projection test should therefore compute, in order: the finite normalization, the full inverse support and conductor scheme, the actual pullback of the candidate hypersurface section, and the descent condition on the original surface. A smooth resolution or a divisor-class calculation on its own does not replace this test.
 
+## 4.7A Conductor gluing versus the top-socle divisor
+
+The exact fixed-carrier descent criterion [R-0003](../results/fixed_carrier_conductor_criterion.md) and the pointwise divisor identity [R-0036](../results/pointwise_conductor_socle_defect.md) address different stages. R-0003 tests whether an upstairs divisor relation supported on the **entire inverse support** descends through the full conductor (possibly after taking a positive power). R-0036 starts with an **already existing actual supported pair**, and only under its smooth single-Cartier-branch and invertible-conductor assumptions identifies the top socle defect as \(D_n=(n-1)A-B|_c\).
+
+The latter implies the pointwise necessary inequality \((n-1)\operatorname{ord}_p(A)\ge\operatorname{ord}_p(B|_c)\). It is not a substitute for full conductor-unit torsion or nilpotent gluing. Nor does a positive class-group relation establish the existence of the actual pair required to invoke R-0036. The [carrier–socle interface](carrier_conductor_socle_interfaces.md#how-the-divisor-identity-interacts-with-descent) spells out this logical separation.
+
+The marked cubic and ruled normalizations illustrate why the distinction matters: reduced inverse support, finite normalization, resolution, and scheme-theoretic conductor are different objects. There is no established extension of the singleton divisor identity to multiple inverse branches or non-Cartier inverse curves by summing branchwise formulas.
+
 ## 4.8 What this chapter does and does not establish
 
 The newer [carrier/conductor/socle interface](carrier_conductor_socle_interfaces.md) adds **scoped** results not covered by the original normalization classification: actual local Cartier-index and socle constraints on normal carriers (R-0034 and R-0035), a pointwise conductor-to-top-socle divisor identity under smooth singleton hypotheses (R-0036), and exclusion of specified plane-projection families (R-0017). These do **not** close the remaining Cartier singleton models or establish a universal conductor-to-normal-filtration comparison.
