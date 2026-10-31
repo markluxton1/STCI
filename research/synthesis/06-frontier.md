@@ -170,6 +170,10 @@ The remaining finite task is to solve these equations together with all twenty-f
 
 An existing exact [free cube-orbit certificate](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) already eliminates \(\eta\) from the full cubic sextic equations and proves the restricted chart empty. The result assumes nonzero endpoint coefficients, no primitive-cube root collisions and the canonical cube-norm multiplier. It does not exclude endpoint or collision strata, and its application to actual pairs requires the separate norm necessity argument. The next calculation should therefore address those uncovered strata, not rerun the free-orbit chart.
 
+## 6.11E The remaining two-node targets are narrower than all singular roots
+
+The [historical two-node calculation](normalization_conductor_phase2_addendum.md#two-node-root-strata-exact-exclusions-and-retained-pencils) already excludes the generic nonzero-defect line component and the nonzero-defect \(B/C\) boundaries under its forced-norm hypotheses. Its generic conic remains unresolved; a bounded attempted elimination there produced no certificate. The zero-defect stratum instead has the exact sextic pencil \(H_1H_2+\eta q^3\), with \(\eta\ne0\) necessary for an actual supported pair. Focus new calculations on these two retained loci and on the still-uncovered global root strata, not on excluded line/boundary components.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
