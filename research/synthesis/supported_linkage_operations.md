@@ -259,7 +259,7 @@ descended equation that makes the restriction uniform.
 
 ## 6. What these mechanisms leave open
 
-Actual supported ACM thickenings have been constructed, and their whole
+Actual supported ACM thickenings on the upstairs quadric threefold have been constructed, and their whole
 positive-power source is excluded as a direct CI construction. The
 local lemma also excludes all higher-order containing sections with the
 specified generic basic-double-link ideal, and the norm argument
@@ -282,3 +282,83 @@ membership or local compatibility proves STCI.
 Independent reconstruction checked the actual supported ACM source, Rao-boundary dependence, generic and descended-equation gates, and the stronger arbitrary-h local lemma via its minimal Hilbert-Burch resolution and regular-element length filtration. The scope is a bounded operation class, not an exhaustion of supported thickenings, higher multiplier ideals, or linkage chains.
 
 The inherited mathematical inputs retain the scope and review evidence of their linked owners. No inherited CAS campaign was broadly rerun, and the unrestricted characteristic-zero STCI question remains open.
+
+## Classical residual operations on the skew-line link
+
+This separate literature test concerns
+[Hassanzadeh, Theorems 3.7, 3.16, Corollary 3.19 and Theorem 4.2](https://arxiv.org/html/2409.05705v2).
+Return to characteristic zero and write
+\[
+q=ad-bc,\quad A_3=b^3-a^2c,\quad B_3=b^2d-ac^2,\quad C_3=bd^2-c^3,
+\quad P=I_{C_0}=(q,A_3,B_3,C_3).
+\]
+Let \(I_D=(ac,ad,bc,bd)=(a,b)\cap(c,d)\) and
+\(\mathfrak a=(q,B_3)\). These are two skew ruling lines on Q and
+their actual link to C0:
+\[
+\mathfrak a:I_D=P,\qquad
+(q,B_3)=(ac,ad,bc,bd)
+\begin{pmatrix}0&-c\\1&0\\-1&0\\0&b\end{pmatrix}.                    \tag{7}
+\]
+In Segre coordinates \(a=xu,b=xv,c=yu,d=yv\), the cubic restricts to
+\(xy(xv^3-yu^3)\): its divisor is the two lines plus C0 of class (1,3).
+This proves the residual support and multiplicities in (7).
+
+The actual outputs of the proposed operations are:
+
+| Operation | Output | Failure |
+| --- | --- | --- |
+| Boundary determinant ideal | \(\mathfrak a+I_4(\Phi)=\mathfrak a\) | Retains both residual lines |
+| Zeroth Fitting ideal of \(I_D/\mathfrak a\) | \(P\cap\mathfrak m^3\) | Adds only an embedded cone-vertex defect |
+| Full Koszul–Fitting ideal | \(P\) | Returns the original non-ACM quartic |
+
+The first row is Hassanzadeh's Theorem 4.2; the 4-by-2 matrix has no
+4-by-4 minors. The last row follows from
+[Bouça–Hassanzadeh, Proposition 5.9](https://arxiv.org/pdf/1810.05134)
+with s=g=2. That equality does not assert that the quotient is CM.
+
+For the middle row an exact presentation after eliminating bc is
+\[
+M=\begin{pmatrix}
+d&b&0&0&-c\\
+-c&-a&b&d&0\\
+0&0&-a&-c&b
+\end{pmatrix}.
+\]
+Its maximal minors, in column orders
+123,124,125,134,135,145,234,235,245,345, are respectively
+\[
+aq,\ cq,\ -bq,\ dq,\ B_3,\ C_3,\ bq,\ A_3,\ B_3,\ -cq.
+\]
+They generate \((aq,bq,cq,dq,A_3,B_3,C_3)=P\cap\mathfrak m^3\).
+The nonzero class of q is killed by \(\mathfrak m\), so this quotient
+has depth zero; saturation recovers P. Its projective scheme is still
+the reduced quartic, not a newly constructed thickening.
+
+The theorem hypotheses fail for a visible reason. In the Koszul complex
+on \((ac,ad,bc,bd)\), the cycle
+\(\eta=bd\,e_1-bc\,e_2\) is a nonzero class in H1. In multidegree abcd,
+the only boundary directions are \(\partial e_{14}\) and
+\(\partial e_{23}\); their unavoidable e4 and e3 terms prevent a
+boundary representation. With \(k_{ij}=\partial(e_i\wedge e_j)\),
+\[
+a\eta=-b k_{12},\quad
+b\eta=-b k_{14}+b k_{23}+a k_{34},\quad
+c\eta=-d k_{13}+c k_{23},\quad
+d\eta=-d k_{14}+c k_{24}.
+\]
+Hence H1 has depth zero instead of the required sliding depth at least
+one. At \(\mathfrak m\), \(Z_1\) has depth at least two; the sequence
+\(0\to B_1\to Z_1\to H_1\to0\) forces depth \(B_1=1\).
+Then \(0\to Z_2\to K_2\to B_1\to0\) gives depth \(Z_2=2\) and
+projective dimension \(Z_2=2\), exceeding Theorem 3.16's bound one.
+Thus the broader cycle hypothesis also fails. Theorem 3.7's s≥r
+hypothesis already fails because 2<4.
+
+Varying a proper linking pair while keeping this fixed skew-line source
+does not change its failed depth conditions; ordinary direct CI linkage
+also preserves ACM status. This is a source limitation, not an exclusion
+of all residual constructions.
+
+
+The exact skew-line source operations and their theorem-applicability limits were independently reconstructed. These are bounded source failures, not a classification of residual constructions. The [projected-thickening section obstruction](projected_thickening_section_defects.md) is a different failure of the actual downstairs homogeneous section ring.

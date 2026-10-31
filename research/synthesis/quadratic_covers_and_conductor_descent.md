@@ -295,6 +295,8 @@ condition, not a sufficient one. The next section extracts a further global
 consequence of the same formula, without a new exponent search.
 
 
+The [uniform projected-section obstruction](projected_thickening_section_defects.md) gives a stronger result for this source: every power image, and every homogeneous binary mixture in the stated source, fails ACM when \(uv\ne0\) in the field. It exhibits an actual missing ambient section and Rao lower bounds \(1,2,1\) in three specified degrees. All positive degrees in characteristic zero are covered; characteristic-divisible degrees are not. The proof needs neither a generic-birational projection nor a Gorenstein image. Its actual source-ring comparison does not apply to arbitrary primary lifts, and it does not decide the ACM status of the odd-Frobenius family considered next.
+
 ## 5. Frobenius images: global adjunction in odd characteristic and CI images in characteristic two
 
 Keep the same family with u=v=n. First take odd characteristic p and

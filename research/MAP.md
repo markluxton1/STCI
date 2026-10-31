@@ -29,6 +29,8 @@ locator is [results/INDEX.md](results/INDEX.md).
 
 The [ruled integral gap](synthesis/ruled_surface_degree_criterion.md#the-first-positive-integral-gap) and [embedded conductor refinement](synthesis/quadratic_covers_and_conductor_descent.md#12-embedded-curve-exclusion-of-the-minimal-boundary) share a useful method: analyze equality or the first integral gaps in a budget, then use the actual fiber or ambient equation scheme to exclude a numerical survivor. Their correction terms and obstruction modules remain different objects.
 
+The [projected-source calculation](synthesis/projected_thickening_section_defects.md) makes another comparison explicit: a missing ambient section corresponds to irrelevant torsion in the source/image quotient and nonzero Rao classes downstairs, using ACMness of that source. Those high-degree classes can die under reduction with the same support. This section-ring defect is neither the R-0030 relative comparison defect nor a residual curve, and no all-pair persistence map is proved.
+
 ## Compatibility as an optional viewpoint
 
 A useful distinction is between the abstract rational curve, embeddings of it

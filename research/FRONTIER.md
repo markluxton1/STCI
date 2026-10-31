@@ -47,6 +47,8 @@ there is a new actual source, a missing boundary calculation, a provable
 coverage extension, or an informative counterexample. A new notation or
 another equivalent condition alone is not a completed advance.
 
+The [projected-section obstruction](synthesis/projected_thickening_section_defects.md) closes power and homogeneous binary-mixture repairs of its stated source at the weaker downstairs ACM gate. The [skew-line residual calculation](synthesis/supported_linkage_operations.md#classical-residual-operations-on-the-skew-line-link) closes three specified residual/Fitting operations on that source. Neither covers the conditional sextic pencil or identifies its source/image torsion with the relative comparison defect below, so the two bounded tests remain unchanged. Constructing an actual ACM thickening downstairs remains distinct from constructing an ACM scheme on the covering quadric.
+
 ## Two bounded next investigations
 
 These are alternatives with different payoffs, not an ordered agenda. The first has the clearest existing finite source. The second tests a structural ambiguity. The extremal conductor case is now excluded by the embedded line argument; it is not an open task or a reason to enumerate adjacent lengths without a new mechanism.
