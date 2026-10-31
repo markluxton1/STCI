@@ -2,6 +2,19 @@
 
 ## Research activity status — October 31, 2026
 
+The [supported-linkage continuation](notes/2026-10-31-supported-linkage-selection.md)
+is independently reviewed provisional work. It constructs saturated
+ACM thickenings (f^u)+g^v I_D, then excludes every positive parameter
+pair as a CI-image source: higher containing powers are generically
+non-Gorenstein; the remaining case retains a forbidden quartic.
+A broader quadratic-multiplier lemma retains a factored sextic and
+excludes all such multipliers, irrespective of the containing section.
+The branch's Rao dimensions are also exactly the existing boundary
+inequality, not an independent global bound. The
+[assessment, §22](notes/2026-10-31-unrestricted-strategy-assessment.md#22-liaison-comparison-and-a-supported-basic-double-link-operation)
+stops this selection without a chain classification or unrestricted
+conclusion. No canonical promotion.
+
 The [quadratic boundary theorem](notes/2026-10-31-quadratic-cover-boundary.md)
 is independently reviewed provisional evidence for arbitrary supported
 CI pairs of degrees alpha,beta. The full primary lift has a locally

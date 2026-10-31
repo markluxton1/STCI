@@ -44,6 +44,16 @@ This closes the two bounded tests and shows why a numerical class
 change alone is insufficient. The next global comparison or constructive
 operation remains unspecified; no classification is selected.
 
+The [supported-linkage selection](notes/2026-10-31-supported-linkage-selection.md)
+constructs actual ACM thickenings through basic double linkage, but
+uniformly excludes the selected power operation through its generic
+transverse algebra or a low-degree norm equation. More generally,
+any quadratic multiplier retains a forbidden factored sextic in the
+image ideal. This excludes the operation, not arbitrary pairs. The
+same comparison identifies Rao dimensions as already determined by
+the conductor restriction function, so their nonnegativity adds no
+second inequality. No finite-chain or higher-degree search is selected.
+
 The [arbitrary-pair quadratic continuation](notes/2026-10-31-quadratic-cover-boundary.md)
 retains the full endpoint conductor of every hypothetical supported CI.
 Its canonical grading forces boundary length at least the sum of the

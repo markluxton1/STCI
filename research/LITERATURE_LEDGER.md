@@ -695,6 +695,26 @@ were checked for construction selection, without importing an automatic
 AG conjugate-union construction. The boundary remains a necessary
 compatibility condition, not an unrestricted STCI obstruction.
 
+## Supported linkage and independent comparison limits
+
+The [supported-linkage selection](notes/2026-10-31-supported-linkage-selection.md)
+checks [Hartshorne–Migliore–Nagel, §5](https://academicweb.nd.edu/~jmiglior/HMN.pdf)
+for the MCM presentation data beyond Rao dimensions, and
+[Jaffe, Theorem 10.3](https://arxiv.org/pdf/alg-geom/9410008)
+with both generic-smoothness assumptions retained. Neither supplies
+the unrestricted missing upper budget. The standard Ferrand kernel
+construction from [Notari–Ojeda–Spreafico, §2](https://arxiv.org/pdf/0812.2578)
+yields the stated negative-genus support control, without claiming
+its large positive-quotient-degree ribbons ACM or their unions AG.
+
+[Migliore–Nagel, Definition 2.1](https://www3.nd.edu/~jmiglior/MN7.pdf)
+is checked for the standard basic-double-link operation. Its actual
+support, CM and degree assertions on this quadric are proved directly
+by an exact sequence. The generic-algebra and quadratic-multiplier
+exclusions are reviewed deductions using the accepted R-0001 factor
+reduction, not claims from the cited construction paper. No finite-chain
+exhaustion or literature novelty is asserted.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.

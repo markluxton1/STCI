@@ -2,7 +2,24 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: arbitrary-pair boundary constraint, no new classification
+## Current checkpoint: supported linkage selection completed
+
+The [supported-linkage selection](notes/2026-10-31-supported-linkage-selection.md)
+and independent audit are complete. Basic double linkage supplies
+actual supported ACM thickenings, but the full selected power operation
+fails a uniform generic-Gorenstein or low-degree-norm test. Any
+quadratic multiplier is excluded more generally by a factored sextic
+in the actual image ideal. Ordinary Rao dimensions and their linkage
+symmetry already reproduce the preceding boundary inequality.
+
+The [assessment, §22](notes/2026-10-31-unrestricted-strategy-assessment.md#22-liaison-comparison-and-a-supported-basic-double-link-operation)
+selects no further experiment. A new operation needs specified sections,
+a generic CI mechanism and an escape from the low-degree norm equation;
+a new comparison needs data beyond the dependent Rao dimensions.
+Finite chains and higher multipliers are not classified or excluded.
+The unrestricted characteristic-zero STCI question remains open.
+
+## Preceding arbitrary-pair boundary constraint
 
 The [quadratic-cover continuation](notes/2026-10-31-quadratic-cover-boundary.md)
 and its independent audit are complete. For every hypothetical supported

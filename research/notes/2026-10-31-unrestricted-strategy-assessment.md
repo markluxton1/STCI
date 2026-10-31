@@ -1759,3 +1759,89 @@ dimensions from all sections on the finite boundary. The final audit
 records the source fingerprint and accepts this assessment's stopping
 decision. All four bounded assignments are complete; no canonical
 promotion and no further technical experiment selected.
+
+## 22. Liaison comparison and a supported basic-double-link operation
+
+The next selection asked for new input beyond §21, with two fresh
+`gpt-6-astra/xhigh` workers: one compared global contact and liaison
+constraints with the conductor inequality, and one sought an actual
+embedded operation. A fresh `gpt-6.1-sol/high` reviewer challenged the
+proposal and reconstructed its viability check. The
+[source](2026-10-31-supported-linkage-selection.md) and
+[audit](2026-10-31-supported-linkage-selection-audit.md) preserve the
+proofs, literature hypotheses and stopping decision. No nested
+delegation or parameter enumeration was used.
+
+**The proposed second budget was dependent.** The branch's Rao
+dimension in degree n is exactly delta−H_Delta(n−1)−
+H_Delta(alpha+beta−4−n). Its nonnegativity and numerical conjugate-link
+symmetry therefore repeat the previous canonical inequality. Actual
+MCM presentations carry additional information, as the liaison
+literature makes clear, but no incompatible constraint on that
+presentation was supplied. Maximum-genus estimates have the wrong
+direction for an upper conductor bound. Fixed support and multiplicity
+alone also admit Ferrand ribbons of arbitrarily negative genus; those
+particular ribbons are not ACM and are not claimed to have an AG
+conjugate union. Jaffe's cited higher-blowup theorem assumes generic
+smoothness of both defining surfaces and does not cover the retained
+arbitrary normal orders. These distinctions prevent counting the same
+descent defect as two independent constraints.
+
+**A real construction was found and rejected uniformly during selection.**
+Let P be the ideal of D in the smooth quadratic cover, with the known
+supported regular sequence f,g. The basic double link
+
+\[
+I=(f^u)+g^vP,\qquad u,v>0,
+\]
+
+is an actual saturated ACM thickening of D, of multiplicity 1+2uv,
+with the fixed ambient polarization. It is distinct from the prior
+complete-intersection power source. Its exact presentation supplies
+a decisive early test: for u≥2 its transverse generic ideal has three
+minimal generators in a regular local ring of dimension two, so the
+branch is generically non-Gorenstein. The conjugate branch meets it
+only at endpoints and cannot repair that generic defect. For u=1 the
+actual image retains the quartic norm of f, excluded by R-0001 and its
+factor reduction. Thus the whole displayed operation fails, before
+any proposed spinor/MCM degree-sum calculation. That speculative
+degree-sum equality was not proved, used, or retained as a claim.
+
+**The useful generalization prevents nearby case expansion.** More
+generally, any homogeneous branch ideal containing G P for a nonzero
+quadric G has the actual sextic q N(G) in its image ideal, where q is
+the quadric through C. Every irreducible factor has degree at most
+four. The CI degree divisibility and the accepted low-degree factor
+exclusion show that a supported CI ideal cannot contain such a sextic.
+Consequently every supported basic double link with quadratic multiplier
+fails, regardless of the containing section's degree or coefficients.
+This applies beyond ACM or Gorenstein branches. Higher-degree
+multipliers and arbitrary finite chains remain outside the theorem.
+
+**Assessment and stopping.** The construction genuinely supplies
+supported ACM thickenings, showing that global ACMness by itself does
+not repair generic canonical compatibility. The all-pair Rao identity
+is a dependency check, not a new inequality. The multiplier theorem
+is an exclusion of a broad specified operation, with no reduction
+of arbitrary STCI pairs to it. None of these findings favors a
+nonexistence conclusion for C.
+
+No next technical experiment is selected. Do not respond by enumerating
+higher multipliers, alternate containing sections or finite BDL chains.
+A new operation must specify actual sections and explain how it could
+retain a generic CI algebra while escaping the low-degree norm equation,
+then permit a simultaneous attachment/section-ring test. A new
+obstruction must retain information beyond the already determined
+Rao dimensions and provide a calibrated comparison at R=0. An
+unproved mechanism may be tested, but its new input and success/failure
+consequences must be reported first. Stop when the proposed comparison
+collapses to the existing identity or an operation fails a uniform
+necessary condition. The unrestricted characteristic-zero question
+remains open.
+
+Independent reconstruction and final preservation review returned
+**scoped PASS**, including the quadratic-multiplier generalization
+and this selection decision. The audit identifies the final source
+fingerprint and the inherited theorem evidence reused. Both scouts
+and the reviewer have completed their bounded assignments. No
+canonical promotion or further technical experiment is claimed.
