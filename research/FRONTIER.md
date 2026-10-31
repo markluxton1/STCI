@@ -2,7 +2,18 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: fixed target stopped at polarization
+## Current checkpoint: mechanism comparison completed
+
+The [subsequent strategy comparison, §8](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils)
+is complete and independently reviewed. Ordinary Cremona transport
+preserves generic transverse thickness; a nonconstant map from the
+quartic's complement to P1 is equivalent to STCI; and a published
+projective-bundle splitting theorem limits uniform homogeneous powering
+of a nonsplit Serre bundle. These identify the scope of the tested
+mechanisms, not new exclusions of arbitrary defining pairs. No further
+model enumeration, cover classification or candidate test is selected.
+The constructive routes remain open with their stated missing exceptional
+corrections, embedded fibration data or controlled bundle degeneration.
 
 The [unrestricted strategy assessment](notes/2026-10-31-unrestricted-strategy-assessment.md)
 closes the distinguished-column and two-marked-fiber ramification tests.

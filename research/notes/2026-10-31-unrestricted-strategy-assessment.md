@@ -443,3 +443,168 @@ Independent review of the proof, replay coverage, spin interpretation and
 stopping decision is recorded with the result. The broader goal remains
 active and unresolved; this is a completed bounded experiment, not a
 resolution of unrestricted STCI.
+
+## 8. Subsequent selection: birational transport and complement pencils
+
+**Status: independently reviewed provisional deductions and allocation.**
+The [bounded independent audit](2026-10-31-transport-pencil-strategy-audit.md)
+reconstructs the arguments and checks their geometric and strategic scope.
+After the fixed-target result was reported, two fresh
+`gpt-6-astra/xhigh` workers independently assessed the mechanisms below,
+using primary literature and the existing proofs. Neither tested another
+elliptic target, classified local structures, or launched a technical
+campaign. Both completed their bounded read-only assignments. The lead
+also checked a projective-bundle theorem relevant to globalizing the
+affine construction. The findings concern what these mechanisms supply;
+they do not change the unrestricted answer.
+
+### Birational transport must transport transverse thickness
+
+[Mella–Polastri, Theorem 1 and Corollary 1](https://arxiv.org/pdf/0906.4858)
+give Cremona equivalence of birational embeddings in codimension at least
+two. [Ciliberto–Cueto–Mella–Ranestad–Zwiernik, §2.2 and Remark 2.4](https://people.math.osu.edu/cueto.5/CremonaLinearizations.pdf)
+give a constructive treatment and a correction to the earlier proof.
+These supply a birational transformation of this reduced rational curve
+to a line, with both ambient maps defined at the respective general
+points. They do not assert transport of complete-intersection equations.
+
+Such an ordinary equivalence is an ambient isomorphism near those general
+points. Consequently strict transforms of two divisors cutting out a
+reduced CI retain generic intersection multiplicity one. If their proper
+intersection in P3 had sole support C, Bézout would force `ab=4`.
+Nonplanarity excludes a degree-one factor and the unique containing
+quadric excludes two independent quadrics. Taking powers of the same
+equations leaves their strict transformed supports unchanged. Thus
+linearizing the reduced embedding does not create the required thickening.
+This diagnostic does not apply when C is an indeterminacy center, or
+exclude transport of a genuinely nonreduced CI.
+
+The alternative blowup link with a conic on V5 is already developed in the
+[equation dictionary and support criterion](2026-10-28-blowup-residual-geometry.md).
+On that common model the actual strict-transform intersection must be
+supported on the exceptional divisor E over C. Support on the image
+surface in V5 is insufficient: its inverse image also contains the other
+exceptional divisor, whose rulings can be genuine residual trisecants
+downstairs. Another Cremona model or section-ring presentation does not
+solve this existing condition. A viable new construction needs a specified
+thickened CI and a reason its pair-dependent exceptional corrections work,
+or a construction on a model centered on C supplying those corrections.
+
+### The complement pencil is equivalent to the global question
+
+For this irreducible curve put `U=P3\C`. There is an elementary equivalence
+
+`C is STCI  <=>  U admits a nonconstant morphism to P1`.
+
+Indeed, a supported pair of degrees a,b gives
+`[F^(b/g):G^(a/g)]`, where g=gcd(a,b). Conversely,
+`Pic(U)=Pic(P3)=Z` because the ambient schemes are regular and the omitted
+set has codimension two. The two sections defining a morphism extend
+across C as sections A,B of O(n). Nonconstancy forces n>0. Their common
+zero set is contained in C; there is no common hypersurface component,
+and projective intersection theory makes their nonempty support equal C.
+Every such morphism is affine: the inverse images of the standard affine
+charts are the affine principal opens D_+(A) and D_+(B). Thus affineness of
+the surface fibers is automatic and provides no additional test.
+
+After choosing irreducible factors of an STCI pair, its equalized pencil
+has connected generic fiber. A nontrivial rational composition of degree
+d would force d to divide both b/g and a/g, since its zero and pole fibers
+each have a single irreducible support. Over C, the complement U is simply
+connected by general position. The orbifold surjection of
+[Artal Bartolo–Cogolludo, Proposition 1.5](https://arxiv.org/pdf/1002.2097)
+therefore allows at most two multiple fibers, with coprime multiplicities
+if both occur. This is compatible with b/g and a/g, not a contradiction.
+The logarithmic differential of F^(b/g)/G^(a/g) has poles along the carrier
+surfaces inside U; it is not a regular form on U with boundary only over C.
+The resolved pencil uses `(F^(b/g),G^(a/g))`, not automatically `(F,G)`.
+These distinctions prevent inappropriate reduced-cover or boundary
+arguments. The [earlier pencil control](2026-10-30-four-streams-pencil.md)
+already rules out bounding exceptional-cover genus from rational support.
+
+The equation pencil on U is different from the
+[two-hyperplane projection on the full CI](2026-10-30-fixed-surface-configuration.md#4-the-plane-pencil-converts-every-admissible-pair-into-one-finite-cover).
+There `Z=V(F,G)` denotes the entire, generally nonreduced curve;
+`[x0:x3]:Z -> P1` has degree ab. Its reduction C maps by `[s^4:t^4]`,
+of degree four, with the two marked totally ramified fibers. This reduced
+map is separable in characteristic zero and in odd characteristic, and
+purely inseparable in characteristic two. Its usual ramification formula
+does not become a formula for a reduced degree-ab cover: Z is not one.
+
+A nonexistence use needs an additional comparison using the embedded
+quartic, such as a specified negative quotient of an actual nef Hodge
+bundle; no such comparison has been obtained. A construction of a
+fibration on this exact complement would suffice for existence, but the
+equivalence alone does not produce one. Neither multiple-fiber patterns
+nor abstract affine surface fibrations supply the required embedded
+boundary contraction.
+
+### A literature restriction on polynomial amplification of a bundle section
+
+The affine Serre/Ferrand construction is recorded in the
+[literature ledger](../LITERATURE_LEDGER.md#ferrand--szpiro).
+Suppose a section of a rank-two bundle E on P3 has zero scheme supported
+on C. A possible construction would apply two globally defined fiberwise
+homogeneous polynomial maps
+`P:E -> L1`, `Q:E -> L2`, of positive fiber degrees r,s, whose only common
+zero in every fiber is the origin. Evaluating them on the section would
+give a supported pair in the two line bundles.
+
+This construction cannot improve a genuinely nonsplit E in characteristic
+zero. The powers P^s,Q^r induce a morphism
+`P(E) -> P(L1^s direct-sum L2^r)` over P3, of fiber degree rs. If rs>1,
+[Amerik–Kuznetsova, Theorem 2](https://arxiv.org/pdf/1609.00910) forces both
+bundles to split: its base hypotheses are simple connectedness and
+`H1(B,L)=0` for every line bundle, both satisfied by P3. If r=s=1, the
+fiberwise no-common-zero condition itself gives an isomorphism of E with
+the split target. The theorem is used over C; the conclusion transfers to
+an algebraically closed characteristic-zero field by descent to a finitely
+generated subfield, base change, and the splitting criterion for bundles
+on projective space.
+
+Geometrically, uniformly eliminating all unwanted fiber directions is
+already too strong: this type of nonlinear operation cannot remove the
+projective bundle's failure to split. This is a consequence of a published
+theorem, not a newly claimed STCI obstruction. Actual pairs are not known
+to arise from such everywhere nondegenerate bundle maps. Maps allowed to
+degenerate away from the particular section remain possible; their
+degeneration must be controlled rather than assumed harmless. No claim
+about all nonhomogeneous operations or all thickenings follows.
+
+The characteristic comparison is concrete: in characteristic p, relative
+Frobenius gives `P(E) -> P(F_B^*E)` over B, of degree p on each projective
+line fiber, including when E is nonsplit. It illustrates why the
+characteristic-zero splitting theorem cannot simply be transferred.
+Frobenius does not thereby make the target bundle split or give equations
+for the projective curve.
+
+### Recommendation and stopping conditions
+
+Do not launch a birational-model enumeration, an exceptional-cover
+classification, or a fiberwise-powering search from these findings.
+The two principal mechanisms currently lack, respectively, exceptional
+correction data and an independent complement-fibration construction or
+quartic-specific comparison. The bundle theorem identifies an additional
+precise limitation of a seemingly constructive operation. None justifies
+discarding the possibility that C is STCI.
+
+Reopening one of these routes requires a *specified mechanism to test*,
+not a proof of success in advance: name the source thickening and its
+exceptional corrections, the actual sheaf comparison, or the controlled
+degeneration of a bundle map along its section. State an outcome that adds
+information beyond the equivalent two-equation condition. Stop once that
+mechanism succeeds or its essential premise fails; do not append adjacent
+examples automatically. This stops only these bare mechanisms, not the
+existence program or the overall research goal. At this selection
+checkpoint no such next technical experiment is recommended.
+
+A fresh `gpt-6.1-sol/high` reviewer independently reconstructed the three
+deductions, checked the primary theorem hypotheses, projectivization
+conventions and characteristic comparison, and challenged the allocation.
+No material mathematical defect remained. The reviewer confirmed that
+stopping is justified only for the bare mechanisms just tested, without
+demanding a proof of prospective success before exploration. In particular,
+the earlier graph-residual construction proposal is not disproved; it
+still needs a specified family and correction mechanism. The reviewer
+completed the assignment. No canonical result was promoted, no inherited
+certificate was rerun, and no new technical campaign was started.

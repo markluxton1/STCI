@@ -16,6 +16,13 @@ a geometric prerequisite for a future balanced elliptic construction,
 not a classification of all targets or arbitrary STCI pairs. No carrier,
 mate or unrestricted exclusion is claimed.
 
+The [subsequent mechanism comparison](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils)
+checks birational transport, complement pencils and homogeneous bundle
+amplification. It separates preservation of transverse thickness, an
+exact STCI reformulation and a published splitting restriction. The
+reviewed assessment identifies missing constructive/global input without
+selecting another model or cover classification.
+
 The [subsequent search continuation](notes/2026-10-29-search-continuation.md) gives a uniform mixed-weight \((6,6)\) exclusion and an attained arithmetic degree-growth bound on a specified non-binomial source. Its marked-quadric projection calculation is partial: the remaining admissible and descent loci are explicitly open. These are reviewed provisional contributions, not additions to the canonical result list.
 
 For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is \(C_0\) a set-theoretic complete intersection of two surfaces in characteristic zero? **Open.** For a proper intersection \(Y=V(F_a,G_b)\) containing \(C_0\), the cycle can be studied as \([Y]=m[C_0]+R\), with \(ab=4m+\deg R\). Study residual components, attachment/gluing and constructive specialization in their own right; \(R=0\) is a possible endpoint rather than an assumed impossibility. The [October 27 integrated vision](notes/2026-10-27-containing-intersections-research-vision.md) links reviewed provisional deductions and concrete next experiments without promoting them. Do not infer a residual curve downstairs from exceptional vertical cycles.
