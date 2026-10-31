@@ -156,7 +156,7 @@ For a moving quadratic root f with symbol multiplier alpha, these equations beco
 
 ## 3.10C A failed seed and an exact cubic correction
 
-The conditional (6,16) calculation has a smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) with a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven leading-symbol image equations. Its next cubic comparison fails by the exact pairing \(-384\), and the seed independently fails the second obstruction. This excludes the seed, not the family.
+The conditional (6,16) calculation has a smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) with a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven leading-symbol image equations. For a fixed sextic lift, the cubic comparison has nonzero pairing \(-384\); this does not test the additional \(q^3\) lift direction. The seed independently fails the second obstruction under its stated hypotheses, excluding that seed but not the family.
 
 The cubic correction is \(f(\ell u+mv)\), where \(f=au^2+buv+cv^2\) and \(\deg\ell,\deg m\le7\). For a prescribed cubic \(h=h_0u^3+h_1u^2v+h_2uv^2+h_3v^3\), compatibility means \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\). Multiplication by nonzero \(f\) is injective, giving a rank-sixteen correction map into forty cubic coefficients and a twenty-four-dimensional quotient obstruction. A correction, if it exists, is unique. These undivided identities remain valid for singular roots and coefficient zeros.
 
