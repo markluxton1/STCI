@@ -56,6 +56,8 @@ Substitution gives (2) with no additional geometric assumption.
 The symmetry \(n\leftrightarrow\alpha+\beta-3-n\) is automatic.
 Nonnegativity in (2) is precisely the existing canonical restriction
 inequality; comparing these dimensions does not supply a second budget.
+The [ambient extremal-boundary argument](quadratic_covers_and_conductor_descent.md#12-embedded-curve-exclusion-of-the-minimal-boundary) adds information not contained in this numerical identity: for a supported fixed-quartic pair it excludes the minimal boundary by forcing a genuine line downstairs, strengthening the lower bound to \(\delta\ge\alpha+\beta-2\).
+
 The multiplication maps and embedded presentation remain additional
 information. [Hartshorne–Migliore–Nagel, §5, especially Example 5.5](https://academicweb.nd.edu/~jmiglior/HMN.pdf)
 explicitly retain MCM-module and presentation data beyond the Rao

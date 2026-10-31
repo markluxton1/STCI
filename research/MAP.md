@@ -27,6 +27,8 @@ locator is [results/INDEX.md](results/INDEX.md).
 - [Punctual lifts and actual columns](synthesis/punctual_quadric_extensions.md) distinguish finite-order sheaf existence from the normal-action quotient of a specified homogeneous ideal embedding. A rank-zero transition can change the ruling invariant.
 - [Supported linkage](synthesis/supported_linkage_operations.md) isolates the generic Gorenstein test. Its type-two local algebra cannot be repaired by changing only endpoint attachment; the Rao dimensions are the same canonical boundary budget, not a second independent obstruction.
 
+The [ruled integral gap](synthesis/ruled_surface_degree_criterion.md#the-first-positive-integral-gap) and [embedded conductor refinement](synthesis/quadratic_covers_and_conductor_descent.md#12-embedded-curve-exclusion-of-the-minimal-boundary) share a useful method: analyze equality or the first integral gaps in a budget, then use the actual fiber or ambient equation scheme to exclude a numerical survivor. Their correction terms and obstruction modules remain different objects.
+
 ## Compatibility as an optional viewpoint
 
 A useful distinction is between the abstract rational curve, embeddings of it
@@ -41,6 +43,12 @@ compatibility along \(C_0\) and global sole support are different conditions.
 A divisor or local-algebra model may be realizable while every available pair
 has a residual curve. Conversely, useful positive-characteristic constructions
 show that some apparently restrictive compatibility conditions can coexist.
+
+## Connections that change the next question
+
+In the stated separated quadratic cover, the [canonical conductor sequence](synthesis/quadratic_covers_and_conductor_descent.md) already determines the [Rao dimensions](synthesis/supported_linkage_operations.md#1-rao-dimensions-repeat-the-canonical-boundary-inequality). Comparing those dimensions repeats one budget. The boundary's embedded multiplication and actual defining-equation restrictions retain additional information; the extremal residual-line argument uses precisely that extra information. An embedded AG conjugate union descends automatically, so constructing the union with its required support and polarization is the unresolved constructive step.
+
+The [intrinsic fourth-extension proof](synthesis/intrinsic_fourth_extension.md) and [unique sextic lift](synthesis/rank_strata_and_sextic_lifts.md) connect embedded data to actual equations in two different covered settings. They explain useful rigidity after the relevant hypotheses are established; neither reduces arbitrary higher-degree thickenings to these settings. The [punctual cohomological comparison](synthesis/punctual_quadric_extensions.md#5-an-explicit-characteristic-zero-comparison-with-the-sextic-normal-correction) is a stated map for the specified source, not an identification of general deformation problems or of the R-0030 comparison defect.
 
 ## Proved arrows and proposed bridges
 

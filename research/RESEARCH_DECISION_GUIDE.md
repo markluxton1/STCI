@@ -16,6 +16,8 @@ full conductor, surface singularity, or proper projective intersection. State
 what either outcome changes and a stopping condition. Check existing proofs
 before rederiving a known mechanism.
 
+Before comparing two proposed obstructions, determine whether both follow from the same exact sequence or numerical identity. A repeated budget is not independent evidence. Prefer a task that adds actual source, multiplication, embedding, or coverage information, and state which information it adds. A negative control can retire a detection shortcut without retiring the surrounding subject.
+
 Keep both constructive and obstructive uses visible. A compatibility condition
 can suggest a construction. Failure of one family is not nonexistence. An
 all-degree theorem about one source is not a theorem about all sources; source
@@ -27,6 +29,8 @@ in every positive characteristic, whereas characteristic-zero quartic carriers
 are excluded. For a transfer, identify the precise use of separability,
 invertible integers, Frobenius, duality, or a global surface bound. An algebraic
 formula can extend even when the argument using it does not.
+
+Use positive-characteristic solutions to check the claimed scope of characteristic-free necessary conditions. They do not prescribe how a characteristic-zero construction must look. The [frontier’s bounded tests](FRONTIER.md#two-bounded-next-investigations) are concrete alternatives, not a replacement for the broader approach landscape.
 
 For a claim, retrieve its exact statement and proof, then its necessary
 computation. Reuse review of unchanged inputs. Independently review material
