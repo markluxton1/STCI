@@ -50,7 +50,9 @@ support. A uniform conductor argument shows that none of its positive
 two-power family is AG: a nontrivial power leaves a non-Cartier endpoint
 conductor, while the smallest case retains global section deficiency.
 The coefficient/conductor test is reusable for quadratic covers; odd
-Frobenius powers make this particular conductor Cartier. These are
+Frobenius powers make this conductor Cartier but force incompatible
+global CI degrees. Characteristic two instead recovers the known quartic
+CI pair through a rank-two nilpotent projection. These are
 reviewed provisional statements about an actual construction and its
 failure, with no reduction of arbitrary STCI pairs to the source.
 

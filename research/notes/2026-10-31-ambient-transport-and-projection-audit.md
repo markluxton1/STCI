@@ -388,3 +388,100 @@ its primary sources were not independently re-audited here. The parent
 may replace the assessment's pending-preservation sentence with this
 scoped PASS without further mathematical change. No material finding
 remains unresolved within this review's stated scope.
+
+## 8. Further extraction: global adjunction for odd Frobenius powers and characteristic two
+
+Reviewer: `projection_conductor_proof_review`. Date: 2026-10-31.
+**PASS for the following additional deductions**, independently challenged
+after the preceding reviewed version was preserved. These are further
+consequences for the same source; they supersede no proved statement
+above and do not extend the construction campaign. In particular, the
+earlier absence of a positive conclusion from conductor invertibility
+alone remains valid.
+
+**Odd Frobenius powers: the global obstruction.** In odd characteristic,
+let u=v=n=p^e, e≥1. The checked conductor calculation gives
+c=O_W(1−n), and the checked generic isomorphism on the full nilpotent
+structures gives deg(Y)=deg(W)=8n². Suppose the actual Y were a
+scheme-theoretic complete intersection of degrees a,b. Then ab=8n²,
+ω_Y=O_Y(a+b−4), and ω_W=O_W(4n−3). The coordinate projection
+pulls O_Y(1) back to O_W(1). Finite duality therefore gives
+
+    O_W(4n−3) ≅ c ⊗ π*ω_Y = O_W(a+b−n−3).
+
+Restriction to D≅P1, where O_W(1)|D has degree four, forces
+a+b=5n. But then (a−b)²=(a+b)²−4ab=−7n²<0 as an equality of
+ordinary integer degrees. Hence Y is not a CI, and consequently not
+AG in P3. The degree calculation and inequality take place in the
+integers, not the positive-characteristic field. The conductor is
+Cartier in these cases; the obstruction is instead the incompatible
+global dualizing twist and degree budget. This proves no failure of
+local Gorensteinness or ACM.
+
+**Characteristic two: actual CI images.** Let n=2^e, e≥1. Now
+h=z²+ad, and Frobenius gives relations in the retained coordinates:
+
+    F=b^(2n)+a^(3n/2)d^(n/2),
+    G=c^(2n)+a^(n/2)d^(3n/2).
+
+Thus B=(S/(F,G))[z]/(z²+ad) exactly, with S/(F,G) embedded by the
+constant coefficient of this monic quotient. In particular the actual
+image ring A is S/(F,G). The forms are monic in the separate variables
+b,c, making A finite free over k[a,d]; they form a height-two regular
+sequence. This supplies an actual CI(2n,2n), of degree 4n².
+
+The radical is precisely I_C. Explicitly
+
+    F=(b⁴+a³d)^(n/2),   G=(c⁴+ad³)^(n/2).
+
+On a≠0, the first quartic gives d=b⁴/a³, and the second gives
+c⁴=b¹²/a⁸. The fourth-power map is injective in characteristic two,
+so c=b³/a² on the reduced support. These are the fixed quartic's
+parameter equations on that chart. At a=0, b=c=0 and only the other
+endpoint remains. This checks the entire projective reduced support.
+
+The projection here is finite flat and radicial of rank two, since
+B is free with basis 1,z over A and its quadratic equation is purely
+inseparable. Its map on the reduced curves D→C is nevertheless an
+isomorphism, with reduced function-field degree one. The rank-two
+statement concerns the full nilpotent schemes: they are not generically
+isomorphic, so the odd-characteristic birational-conductor argument
+does not apply. The ambient quadric h is singular along
+a=d=z=0; this line is disjoint from D. No smoothness of that entire
+quadric is needed for the displayed monic algebra or CI conclusions.
+
+This is a uniform recovery of the characteristic-two quartic pair
+and its powers in the same operation, rather than a new STCI theorem
+in characteristic zero. The three geometric mechanisms remain distinct:
+non-Cartier endpoint conductor in the audited characteristic-zero family,
+incompatible global adjunction for odd Frobenius powers, and actual
+rank-two projection onto a CI in characteristic two.
+
+## 9. Final state after the further extraction
+
+Reviewer: `projection_conductor_proof_review`. Date: 2026-10-31.
+**Final scoped PASS** for source §§3–6 in the state with SHA-256
+
+    0fa00e1fa531806e4489cc91817b7c9e9d5a3bd98128b8686b60e57a4c89d4a7
+
+for `2026-10-31-ambient-transport-and-projection.md`. The earlier hash
+in §7 identifies the earlier accepted state and is retained; §8 records
+the substantive independent review of the subsequent extraction.
+The final §5 points to §6 without drawing a sufficient-condition
+inference from invertibility alone. The final §6 preserves the odd
+Frobenius adjunction contradiction as an integer-degree argument and
+the characteristic-two exact CI construction, including the full-scheme
+rank-two versus reduced-isomorphism distinction. The linked prior
+positive-characteristic construction was checked: its q=4 pair is
+exactly the quartic pair recovered here in characteristic two.
+
+The revised characteristic paragraph of strategy assessment §20 was
+also checked against these statements. It preserves the odd-Frobenius
+AG/CI exclusion without asserting failure of ACM or local Gorensteinness,
+and the known characteristic-two success without implying a
+characteristic-zero construction. The assessment may explicitly set
+n=p^e and label its source-closing recommendation characteristic zero;
+these are clarity adjustments consistent with this disposition.
+There is no new canonical promotion, exhaustive reduction, or change
+to the unrestricted characteristic-zero STCI question. No material
+finding remains unresolved in this review's stated scope.

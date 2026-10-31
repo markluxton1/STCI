@@ -313,11 +313,11 @@ support D, so the conductor sheaf is exactly
 
 It is an effective Cartier ideal: W is a pure CI and r is nonzero
 at its generic support point, hence a nonzerodivisor. Thus Frobenius
-makes this precise endpoint non-Cartier obstruction disappear. This
-does not establish that the image is locally Gorenstein, ACM, AG or
-a CI; invertibility of the conductor was used as a necessary condition,
-not a sufficient one. No new positive-characteristic experiment is
-selected by this comparison.
+makes this precise endpoint non-Cartier obstruction disappear. By
+itself this does not establish that the image is locally Gorenstein,
+ACM, AG or a CI; invertibility of the conductor was used as a necessary
+condition, not a sufficient one. Section 6 extracts a further global
+consequence of the same formula, without a new exponent search.
 
 The uniform ACM question for u,v other than (1,1) remains unresolved
 here. It is unnecessary for closing this source as a direct construction
@@ -328,3 +328,70 @@ with the same radical, including a thicker scheme containing Y_uv.
 A new proposal needs an operation that overcomes the identified
 non-Cartier conductor while retaining the full embedded support.
 The unrestricted characteristic-zero STCI question remains open.
+
+## 6. Frobenius images: a global obstruction in odd characteristic, a CI in characteristic two
+
+Keep the same family with u=v=n. First take odd characteristic p and
+n=p^e, e≥1. Although §5 proves that the projective conductor is
+Cartier, its degree still rules out a complete-intersection image.
+
+Suppose Y_nn were a CI of surface degrees α,β. Projection is generically
+an isomorphism on the full schemes, so
+
+    αβ=deg Y=deg W=8n².
+
+The source is a CI of degrees (2,2n,2n) in P4, hence
+ω_W=O_W(4n−3). The conductor sheaf is O_W(1−n), and projection
+preserves the hyperplane bundle. Finite duality for the hypothetical
+Gorenstein image gives
+
+\[
+\omega_W=\mathfrak c\otimes\pi^*\omega_Y
+=\mathcal O_W(\alpha+\beta-n-3).
+\]
+
+Restriction to D≅P1, where O_W(1) has degree four, forces
+α+β=5n. These are equalities of integer degrees, not elements of the
+ground field. They are incompatible with αβ=8n², since
+
+    (α−β)²=(5n)²−4(8n²)=−7n²<0.
+
+Thus these odd-Frobenius images also fail to be AG/CI. The argument
+does not decide their local Gorensteinness or ACM property. It shows
+why the Cartier conductor condition alone was insufficient: its global
+twist must also match the degree and canonical class of the image.
+
+Now take characteristic two and n=2^e, e≥1. Here h=z²+ad and
+Frobenius makes both remaining equations lie in S itself:
+
+\[
+F=b^{2n}+a^{3n/2}d^{n/2},\qquad
+G=c^{2n}+a^{n/2}d^{3n/2}.
+\]
+
+Consequently
+
+    B=(S/(F,G))[z]/(z²+ad),   A=S/(F,G).
+
+The inclusion of A is injective because the extension is monic.
+Moreover F=(b4+a³d)^(n/2) and G=(c4+ad³)^(n/2). These are
+the powers of the known characteristic-two quartic pair in the
+[positive-characteristic construction record, §3](2026-10-27-positive-characteristic-construction-interface.md#3-complete-cycle-description-in-every-characteristic).
+Directly, on a≠0 the first quartic gives d=b4/a³; the second gives
+c4=b12/a8 and hence c=b³/a², by injectivity of Frobenius over the
+field. On a=0, they force b=c=0, leaving the other endpoint. Thus
+the radical is exactly I_C, and F,G are a proper regular sequence.
+
+The actual image is a CI of degrees (2n,2n), degree 4n². The
+projection W→Y is finite flat radicial of rank two, and deg W=8n².
+It is an isomorphism on the reduced curves but not on their full
+generic nilpotent structures. There is no degree-two extension of their
+reduced function fields. Hence the birational conductor argument used
+above does not apply. The characteristic-two quadric h=0 is singular
+along a=d=z=0, disjoint from D; the CI source remains well defined.
+
+This recovers an already known positive-characteristic construction;
+the new extraction is its place in the same projection operation and
+the distinction between non-Cartier conductor, incompatible global
+canonical degree, and finite flat nilpotent projection. It supplies
+no characteristic-zero construction or unrestricted nonexistence proof.

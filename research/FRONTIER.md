@@ -17,8 +17,10 @@ ACM question remains unresolved and was not needed for that conclusion.
 The [assessment, §20](notes/2026-10-31-unrestricted-strategy-assessment.md#20-ambient-transport-a-genuine-projection-source-and-its-conductor-obstruction)
 records the independent challenge that enabled the construction and
 stops automatic exponent or projection-center expansion. Equal odd
-Frobenius powers make the conductor Cartier, removing this specific
-obstruction without proving ACM, AG or CI. Additional reviewed source
+Frobenius powers make the conductor Cartier, but adjunction then forces
+incompatible CI degrees. In characteristic two the same operation
+recovers the known quartic CI pair, through a finite flat radicial
+projection of rank two on the full schemes. Additional reviewed source
 boundaries cover the single-blowup Cremona route and abstract canonical
 idealization. No arbitrary-pair reduction or unrestricted exclusion is
 claimed; a different CI thickening with the same radical remains possible.

@@ -1620,14 +1620,21 @@ absent but global section deficiency remains; these are separate conditions.
 
 The proof also explains a characteristic distinction without a prime
 search. It extends when p does not divide 2uv. For odd characteristic
-and equal Frobenius powers u=v=p^e, the coefficient calculation instead
+and equal Frobenius powers u=v=n=p^e, the coefficient calculation instead
 makes the projective conductor the Cartier ideal
 r^((p^e−1)/2)O_W. The specific non-Cartier obstruction disappears.
-No sufficient Gorenstein, ACM or STCI conclusion follows. This is
-positive flexibility in the same geometric operation, not a new campaign.
+Further finite duality then forces incompatible CI degrees: their product
+would be 8n² and sum 5n. The odd-Frobenius images therefore also fail
+AG/CI, while their local Gorenstein and ACM status remains unresolved.
+In characteristic two, the same operation gives the known quartic CI
+pair and its powers. Projection there is finite flat radicial of rank
+two on the full schemes, although it is an isomorphism on the reduced
+curves, so the birational conductor argument does not apply. This
+comparison isolates two failures and a known success of one explicit
+operation; it does not select a prime or exponent campaign.
 
 **Recommendation and stopping conditions.** Close the entire selected
-two-parameter source as a direct construction of a CI scheme. Do not
+characteristic-zero two-parameter source as a direct construction of a CI scheme. Do not
 continue with another exponent or a nearby projection center without a
 new operation that controls the non-Cartier conductor and the global
 section deficiency together. This theorem does not exclude a different

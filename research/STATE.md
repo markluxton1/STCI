@@ -9,9 +9,11 @@ model fails AG, although its reduced support is exactly C. Nontrivial
 powers force a nonprincipal endpoint conductor on the Gorenstein source;
 finite duality obstructs a Gorenstein image. The remaining image fails
 ACM. The general ACM question for this source is not resolved. The
-same proof works if the characteristic does not divide 2uv; equal odd
-Frobenius powers instead give a Cartier projective conductor, without
-a converse conclusion. The [assessment, §20](notes/2026-10-31-unrestricted-strategy-assessment.md#20-ambient-transport-a-genuine-projection-source-and-its-conductor-obstruction)
+same proof works if the characteristic does not divide 2uv. Equal odd
+Frobenius powers instead give a Cartier conductor, but adjunction forces
+incompatible CI degrees. In characteristic two the operation recovers
+the known quartic CI pair through a finite flat radicial rank-two
+projection on the full schemes. The [assessment, §20](notes/2026-10-31-unrestricted-strategy-assessment.md#20-ambient-transport-a-genuine-projection-source-and-its-conductor-obstruction)
 closes the tested source, preserves the related birational and section
 boundaries, and retains the possibility of other CI thickenings with
 the same radical. No canonical or unrestricted status changes.
