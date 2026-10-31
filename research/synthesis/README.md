@@ -52,6 +52,10 @@ The six chapters are the main reading route. The four supplements below have **d
 | Actual residual curves, fixed-boundary deformations or global jet bounds | [Residual intersections and jets](residual_intersections_and_jets.md), after [Chapter 2](02-two-surfaces.md) | Scoped R-0019 and R-0021–R-0025, distinguishing examples from universal claims |
 | Valuation and specialization **research questions**, rather than accepted theorems | [Formal normal geometry](formal-normal-intersection.md) | Provisional generic-to-global and Rees/valuation framework; not a separate theorem authority |
 
+## Reading the conductor phase calculations
+
+For the carrier route, start with [Chapter 4](04-carriers.md) for the exact fixed-carrier criterion, then [carrier/conductor/socle interfaces](carrier_conductor_socle_interfaces.md) for the restricted pointwise identity. The long [projection synthesis](normalization_conductor_projection.md) retains distinct exact calculations: full quadratic conductor power descent, finite-Artinian nilpotent and etale phases, torsion-coset families, and the conditional single-field power bound. They are not interchangeable hypotheses or an executed exclusion of the three remaining Cartier singleton models.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
