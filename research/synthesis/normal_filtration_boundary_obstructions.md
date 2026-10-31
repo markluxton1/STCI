@@ -69,7 +69,7 @@ This failure is not the local comparison defect \(\Delta_n\) of R-0030, not a no
 
 ## Full-root incidence rather than generic elimination
 
-The global sextic quadratic-symbol image is an exact linear subspace, but its next cubic compatibility equation depends on the chosen root and multiplier. Solving that equation on the generic full-rank open and dividing by a parameter cannot decide the exceptional rank-drop or multiplier-zero strata. The correct incidence retains the full coefficient scheme, imposes augmented-minor solvability on each rank stratum, and then intersects with the independently necessary second-obstruction and full-root torsion conditions. See [the finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation).
+The global sextic quadratic-symbol image is an exact linear subspace, but its next cubic compatibility equation depends on the chosen root and multiplier. Multiplication by the nonzero root has constant rank sixteen, so compatibility is a twenty-four-dimensional quotient obstruction. The full incidence must still retain multiplier-zero and singular-root strata and intersect with the independent second-obstruction and full-root torsion conditions. See [the finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation).
 
 This procedure does not identify the local comparison module \(\Delta_n\), nor does it assert that the necessary incidence has a point. It specifies how to avoid losing legitimate exceptional candidates while testing **actual** homogeneous source realization.
 
