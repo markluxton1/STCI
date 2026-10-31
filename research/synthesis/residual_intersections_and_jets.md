@@ -93,19 +93,11 @@ For sextics vanishing twice along the fixed quartic, the quadratic normal-symbol
 
 The next cubic jet and a proper degree-sixteen mate are separate conditions. Consequently this rank calculation does not yet bound the transverse length of every proper pair in those degrees. Such a bound must include exceptional strata before the cycle formula can force positive residual degree.
 
-## 7C. First-symbol membership can fail at the next jet
+## 7C. Higher-jet membership does not imply residual removal
 
-The conditional (6,16) study has a smooth torsion-two root whose multiplier satisfies all eleven equations for the actual sextic quadratic-symbol image, but whose cubic comparison has nonzero annihilating pairing \(-384\). The seed is therefore excluded by a higher-jet condition even though it passes the leading-symbol source test. See [the exact seed calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence).
+The conditional (6,16) smooth torsion-two seed passes the eleven equations defining the actual sextic leading-symbol image but fails the next cubic compatibility by the exact nonzero pairing \(-384\). For general nonzero \(f=au^2+buv+cv^2\), the correction is uniquely determined if it exists: \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), with \(\deg\ell,\deg m\le7\). This injective correction map has a twenty-four-dimensional cokernel in the forty-dimensional cubic target. See [the exact coefficient calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
 
-This is evidence that successive jet conditions are genuinely coupled. It is **not** a residual-degree bound for every mate to that carrier, nor an exclusion of all (6,16) pairs. The remaining exceptional root and multiplier strata must be treated before converting source restrictions into a uniform transverse-length estimate.
-
-## 7D. Constant-rank correction and residual scope
-
-Multiplication by the nonzero quadratic root gives an injective cubic correction map with sixteen source coefficients and forty target coefficients. The resulting twenty-four-dimensional quotient is the higher-jet obstruction. Root singularities and multiplier zeros remain relevant to other incidence conditions, not to this map's rank. Passing the source tests does not establish a uniform transverse-length bound or eliminate a residual curve.
-
-## 7F. Coefficient membership without dividing by root coefficients
-
-The conditional cubic correction can be tested by the four polynomial equations \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), with \(\deg\ell,\deg m\le7\). This retains the loci \(a=0\), \(c=0\), and singular roots, where naive division loses cases. The correction is unique for nonzero \(f\). See [the full coefficient derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination). Its solvability is not a generic transverse-length estimate and does not imply the absence of residual components.
+The undivided identities retain singular roots and coefficient-zero loci. Neither first-symbol membership nor vanishing of the cubic quotient obstruction gives a uniform generic transverse-length bound for actual proper pairs; a residual-degree conclusion still requires that independent argument.
 
 ## 8. Fixed boundary versus residual removal
 
