@@ -74,6 +74,12 @@ The cubic-image and conductor calculation adds a further restriction **condition
 
 These conditions sit at different logical levels: (i) root and formal normal algebra; (ii) actual global sextic source; (iii) conductor geometry for a supported pair; and (iv) the still-unresolved exceptional locus. Their conjunction is a candidate-family test, not a universal implication between the global determinant, residual-jet and conductor-descent routes. See [Chapter 3](03-infinitesimal-geometry.md#311-embedded-one-step-lifting-and-the-actual-homogeneous-source) and [dependencies](DEPENDENCIES.md).
 
+## Why the conditional sextic conductor does not solve descent
+
+The seven-cubic contraction supplies an exact anticanonical surface model **assuming an actual supported pair**. Its duality calculation constrains the conductor of that model, and the simple-zero argument eliminates a specified ramification stratum. This is logically different from the full-conductor descent test for an independently chosen normalization and a proposed mate: in the sextic argument the pair is an antecedent, whereas in the projection program its existence is the conclusion sought.
+
+The eleven linear equations defining the global sextic-symbol image likewise impose necessary realization conditions without selecting a proper degree-sixteen mate. The remaining multiple-base-zero and nodal-contact loci therefore require direct treatment; neither the cubic-image duality nor the symbol rank closes them. For the general descent framework and the role of nilpotent conductor phases, see [Chapter 4](04-carriers.md#42-the-full-conductor-descent-criterion) and [the projection phase synthesis](normalization_conductor_projection.md#23a-full-conductor-phases-an-exact-local-to-family-distinction).
+
 ## Remaining boundaries
 
 No arbitrary projection classification, full conductor phase image, higher-index exclusion, global spectral realization, or unrestricted characteristic-zero STCI theorem follows. The separate codex/intersections-containing-quartic-2026-10-27 branch remains excluded. Original mathematical sources are retained.
