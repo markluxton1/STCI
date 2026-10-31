@@ -24,6 +24,19 @@ Both are geometric inputs, not an unrestricted obstruction or a required
 new agenda. Their audits and characteristic qualifications are linked
 from the integration record.
 
+The [full tropical-descent continuation](notes/2026-10-31-tropical-descent.md)
+now proves that every hypothetical characteristic-zero supported pair
+produces a moving finite-flat punctual family upstairs, of positive
+tautological degree, with an exact endpoint index formula. Its full
+saturated thickening cannot be a global intersection of two Cartier
+divisors on that toric ambient, although the reduced curve can. Whether
+such a moving family can contract to an actual homogeneous CI remains
+unresolved. The [Hamiltonian continuation](notes/2026-10-31-contact-global-consequence.md)
+also identifies why reduced-Lagrangian rigidity and commuting-generator
+shortcuts fail in the entirely thick branch; it does not exclude that
+branch. Both contributions have linked independent audits and remain
+provisional.
+
 The open target is a global compatibility constraint or construction for
 arbitrary higher supported structures. The affine endpoint multiplicity
 criterion and finite-cover nilpotence criterion are exact formulations,

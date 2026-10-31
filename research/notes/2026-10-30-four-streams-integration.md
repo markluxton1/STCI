@@ -317,6 +317,66 @@ The general tropical existence theorems establish a schön/lci model
 after choosing a very affine open; the stronger global Cartier-STCI
 claim for arbitrary curves is not settled by the checked sources.
 
+## Sixth integration: full tropical movement and the Hamiltonian limit
+
+The next allocation tested genuine consequences of the new contact and
+tropical statements. Two fresh `gpt-6-astra/ultra` researchers worked on
+separate geometric questions. A fresh `gpt-6.1-sol/high` reviewer checked
+the tropical proof, while the earlier contact reviewer was reused for a
+coherent bounded extension. Both revised source states passed independent
+hand reconstruction. The assignments ended at those proved conclusions;
+no degree-family or higher-moment search was opened.
+
+The [full tropical-descent theorem](2026-10-31-tropical-descent.md), with
+[audit](2026-10-31-tropical-descent-audit.md), adds a condition for every
+hypothetical characteristic-zero supported pair. Close its full torus
+scheme in Y=P1×G_m^2, saturating the entire ideal at both boundaries.
+The result W is finite flat of rank m=ab/4 over the parameter t of C,
+not over the earlier plane-pencil base. It is a finite modification of Z,
+whose cokernel has endpoint lengths δ0,δInfinity. Its algebra B is
+globally generated and has degree e satisfying
+\[
+\delta_0+\delta_\infty=e+m(2a+2b-7),\qquad e>0.
+\]
+The strict inequality says that the **entire embedded punctual scheme
+must move**. Degree zero would make its multiplication and coordinate
+sections constant; the image would be torus invariant and its saturated
+CI ideal would admit two weight-eigenvector generators, contradicting
+the inherited Hellus–Hübl condition. This uses the full Artin algebra,
+not the conditional first-symbol movement parameter of earlier records.
+
+Moreover W admits **no** scheme-theoretic presentation as the intersection
+of two global effective Cartier divisors on Y. All line bundles on Y
+are O(d), and nonzero sections require d>=0. Such a presentation would
+give, by adjunction and finite-flat duality,
+`2e = -m(d1+d2)`, forcing e=0. This is an all-presentations statement
+upstairs, not an STCI contradiction downstairs. W can still be locally
+a CI, and its reduced curve remains the global CI (u-1,v-1).
+
+The actual endpoint subalgebras give weighted monomial bounds and
+`0<e<=m(4m-2a-2b+3)`, but this coarse inequality leaves the surviving
+degrees untouched. The inherited characteristic-seven example has
+constant W=(v-1,(u-1)^7); the same equations in characteristic zero give
+seven distinct constant sections. This directly contrasts constant
+Frobenius thickness with the movement necessary in characteristic zero.
+
+The [Hamiltonian continuation](2026-10-31-contact-global-consequence.md)
+and [audit](2026-10-31-contact-global-consequence-audit.md) identify a
+different boundary. In the entirely thick branch, the Hamiltonians
+raise the nilpotent filtration, exponentiate on the punctured cone,
+kill the whole socle, and force both homogeneous cofactors A,B to lie
+in I_C. Their deformation complex consequently has an infinite-dimensional
+socle contribution to its zeroth analytic stalks. Reduced-Lagrangian
+constructibility/rigidity results cannot be imported. An actual entirely
+thick twisted-cubic CI also has no commuting homogeneous generators of
+its defining ideal. This closes those proposed shortcuts, not the branch.
+
+The useful next question is whether a moving full punctual family can
+have the required endpoint contractions and an actual homogeneous CI
+image. Its normal algebra, contraction lattices and global equation
+structure must all be retained. The positive movement and failure of
+a split two-divisor presentation upstairs do not yet decide that question.
+
 ## State at this integration checkpoint
 
 The retained proof notes and independent audits preserve the actual
@@ -333,8 +393,9 @@ twists. The affine endpoint criterion asks for a strict multiplicity
 inequality for every affine supported pair, or one equality construction;
 the finite-cover criterion asks whether an actual homogeneous pair can
 realize the required nilpotent algebra. The new contact identity adds an
-actual equation constraint, and the tropical normal maps identify an
-explicit change of ambient geometry. Neither completes the global bridge.
+actual equation constraint, and the full tropical family adds strict
+movement and an all-presentations barrier upstairs. These still leave
+the global homogeneous image condition unresolved.
 Repeating the reduced determinant obstruction, extending a fixed-carrier
 calculation, or testing successively more trace moments without a uniform
 principle would not complete that task. Literature and existing evidence
