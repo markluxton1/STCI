@@ -90,6 +90,18 @@ curvilinearity and the stated strong support containment, it also excludes
 a lift over \(W_2\). These reviewed provisional statements do not
 exclude ramified traits or calculate the full horizontal incidence.
 
+The [reviewed power-extraction theorem](supplements/PRIME_TO_P_POWER_EXTRACTION.md)
+uses the full support condition: if the special pair is \((F_0,H_0^n)\),
+the base pair is supported on \(C_0\), the first carrier is generically
+smooth along it, and \(p\nmid n\), any actual supported DVR lift
+extracts a degree-\(\deg H_0\) equation, modulo the first equation.
+Applied to \((G_p,F_4^n)\), it excludes all ramified supported lifts
+of these specified points by the characteristic-zero quartic theorem.
+They lie on no horizontal component of their fixed-degree incidence.
+For \(n=p^e n_0\), only the prime-to-\(p\) factor \(n_0\)
+is removed; the pure \(p\)-power and arbitrary-presentation cases remain
+open. This is not unrestricted degree growth.
+
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.
 A source-reviewed result need not have a promoted ID. Characteristic extensions

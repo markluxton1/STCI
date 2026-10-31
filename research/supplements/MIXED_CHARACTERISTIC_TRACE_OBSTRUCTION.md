@@ -14,6 +14,13 @@ provisional deductions; no canonical promotion. These constrain lifts of
 specified special fibers. They do not exclude arbitrary characteristic-zero
 STCIs or prove that every characteristic-zero pair specializes to this locus.
 
+The later [prime-to-p extraction theorem](PRIME_TO_P_POWER_EXTRACTION.md)
+excludes **all** ramified supported lifts of the particular powered-quartic
+pairs below when the power is prime to \(p\). It uses full nilpotence
+and global primary-ideal membership, beyond the trace argument here.
+General eigen special fibers are still subject only to the stated trace
+restriction unless another result applies.
+
 ## The valuation obstruction
 
 Let \(R\) be a mixed-characteristic DVR with uniformizer \(\pi\),
@@ -226,7 +233,10 @@ does have the ramified lift \(x=y=\pi,\ \pi^2=p\).
 
 The [full arithmetic incidence](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#mixed-characteristic-lifting-on-the-full-incidence)
 retains both arbitrary equations, ramification and actual generic support.
-Its horizontal-component question remains open. In particular, the
+The [power-extraction theorem](PRIME_TO_P_POWER_EXTRACTION.md) proves that
+no horizontal component passes through the prescribed points
+\((G_p,F_4^n)\) when \(p\nmid n\), including \((G_p,F_4^2)\).
+The unrestricted horizontal-component question remains open. In particular, the
 non-eigen degree-\((16,p)\) examples in that proof home are not covered
 by this special-eigen theorem. The field-valued rank incidence is not
 silently identified with the stronger infinitesimal condition (3).

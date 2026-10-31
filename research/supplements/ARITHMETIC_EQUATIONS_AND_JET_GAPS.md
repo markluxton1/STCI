@@ -24,6 +24,11 @@ now constrains simultaneous deformations of both equations near the
 torus-homogeneous locus: it excludes unramified good reduction when
 \(v_p(ab)=1\) and gives a necessary valuation bound for ramified lifts.
 It does not calculate every horizontal component.
+The [prime-to-p power-extraction theorem](PRIME_TO_P_POWER_EXTRACTION.md)
+goes further for the prescribed powered-quartic points: every prime-to-\(p\)
+power can be extracted from an actual supported trait, excluding those
+points from horizontal components even after ramification. Pure \(p\)-powers
+and other special presentations remain unresolved.
 
 ## Bounded degree and characteristic-zero existence
 
@@ -209,12 +214,20 @@ coefficients, every actual mixed-characteristic supported lift satisfies
 \(e\,v_p(ab)\ge2r\), where \(e=v_\pi(p)\). This is a necessary
 condition on a trait, not a proof that the condition produces one.
 
+There is now a full-trait exclusion for a specified family. The
+[power-extraction proof](PRIME_TO_P_POWER_EXTRACTION.md) shows that every
+supported trait reducing to \((G_p,F_4^n)\), \(p\nmid n\),
+would yield a quartic mate on its characteristic-zero generic fiber.
+Thus these points satisfy \(p\in\sqrt{0}\) in their local incidence
+rings. This allows arbitrary deformations of both equations and arbitrary
+ramification. It does not calculate the whole degree-\((p,4n)\) locus.
+
 The remaining arithmetic input is a support-preserving lifting operation
 or a structural calculation on this full simultaneous-pair incidence.
 One horizontal component would establish characteristic-zero existence;
-excluding selected special-fiber points or fixed carriers would not
-establish nonexistence without an exhaustive reduction. No such
-horizontal-component calculation or compatible lifting system is claimed.
+excluding the selected special-fiber points or fixed carriers does not
+establish nonexistence without an exhaustive reduction. No horizontal
+component or compatible supported lifting system has been constructed.
 
 ## One binomial equation, with an arbitrary mate
 
