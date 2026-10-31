@@ -299,6 +299,14 @@ the bit size of the inverse, the quotient algebra's presentation, or a full
 negative certificate. Its finite-algebra hypothesis does not hold for the
 remaining parameter chart, so this is no scalar compression of all T[2].
 
+The subsequent independently reviewed
+[closed-point refinement](INTRINSIC_GEOMETRY_AND_STCI_COMPLEXITY.md#6-certificate-selection-depends-on-closed-support-not-total-length)
+improves the sufficient range to `0,...,120`. The two four-dimensional
+algebras over Q and the degree-18 number field have at most eight closed
+points over Q; rational scalar choices work simultaneously over their
+conjugate embeddings. No specific successful scalar or inverse has been
+computed. The earlier length-based bound remains valid but is weaker.
+
 ## 7. Connection to the already bounded actual degree rows
 
 The promoted [R-0014 six-row reduction](../results/movement_two_six_rows.md)

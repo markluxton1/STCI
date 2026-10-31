@@ -19,6 +19,10 @@ actual ideal-adic filtration has a Cech spectral sequence whose surviving
 sections recover actual homogeneous equations at an explicit depth. This
 organizes one compatibility problem without identifying it with either
 Koszul spectral sequence or the nonlinear lifting of a root divisor.
+The subsequent [intrinsic review and generalization](INTRINSIC_GEOMETRY_AND_STCI_COMPLEXITY.md)
+formulates the source deficit without coordinates, proves an existential
+cutoff for smooth connected curves in projective space and an explicit
+quadric-family bound, and generalizes the octic correction recursion.
 
 ## 1. Keep the actual diagram and distinguish its spectral sequences
 

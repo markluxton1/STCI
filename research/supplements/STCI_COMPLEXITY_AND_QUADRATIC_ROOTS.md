@@ -25,6 +25,10 @@ equation jets. It proves an order-\(d\) global-extension cutoff for degree
 Its filtered Cech sequence locates the eleven missing quadratic symbols
 in a rank-11 third differential; this does not identify that differential
 with either root-lifting obstruction.
+The [intrinsic review](INTRINSIC_GEOMETRY_AND_STCI_COMPLEXITY.md) extends the
+pushforward splitting to every power, distinguishes embedding invariants
+from elimination choices, and refines finite scalar selection by counting
+closed points over the coefficient field.
 
 ## 1. Fixing the computational questions
 
