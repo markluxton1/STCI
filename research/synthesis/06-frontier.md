@@ -159,7 +159,7 @@ The degree-six quadratic-symbol map has rank 22 from a 23-dimensional source int
 
 The next finite task is to solve the joint incidence of the eleven symbol equations, the cubic quotient obstruction, all twenty-five second-obstruction pairings, and full-scheme spectral torsion. Singular-root and multiplier-zero strata must be retained, but the cubic multiplication map has no rank-drop strata. Emptiness would exclude only the specified saturated movement-two (6,16) locus; nonemptiness would still require a proper degree-sixteen mate and support exhaustion. See [the conditional source calculation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction).
 
-## 6.11D The finite cubic calculation now has four explicit equations
+## 6.11G The finite cubic calculation now has four explicit equations
 
 The 24-dimensional cubic quotient obstruction in the conditional (6,16) lane can be tested directly by four polynomial coefficient identities for the two correction polynomials. They are valid without division by root coefficients, including on singular-root loci, and have at most one solution for each nonzero root and prescribed cubic difference. See [the exact equations](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
 
