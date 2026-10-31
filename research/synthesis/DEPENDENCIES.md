@@ -50,6 +50,12 @@ The movement-two (6,16) program provides a rare fully computed **first** global-
 
 The missing arrow starts *after* that rank computation. The next cubic jet must lift compatibly, the degree-sixteen mate must come from its own homogeneous source, and the resulting pair must be proper with the required transverse length. The conductor calculation for this lane presupposes such a pair and only constrains its remaining contact strata. Thus a rank-22 image is genuine mathematical progress but neither an existence theorem nor an exclusion.
 
+## An explicit nonimplication within the global-source route
+
+The conditional (6,16) smooth torsion-two seed satisfies all eleven first-symbol image equations but fails the next cubic comparison by the exact nonzero pairing \(-384\). Its independent second obstruction also fails. Thus the proposed arrow **actual leading-symbol image membership -> compatible higher jet** is false without additional hypotheses, even for a smooth root. See [the conditional calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence).
+
+The counterexample is scoped to the seed. It does not imply that the joint global-source incidence is empty, nor that a residual cycle exists for every (6,16) proper pair. Any bridge theorem must quantify over the full root/multiplier family and include the exceptional strata.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
