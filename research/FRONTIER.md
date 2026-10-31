@@ -2,7 +2,29 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: projected CI source closed by its endpoint conductor
+## Current checkpoint: arbitrary-pair boundary constraint, no new classification
+
+The [quadratic-cover continuation](notes/2026-10-31-quadratic-cover-boundary.md)
+and its independent audit are complete. For every hypothetical supported
+CI of degrees alpha,beta, the total endpoint conductor length is at
+least alpha+beta-3; the stronger retained condition concerns restrictions
+of ambient forms in complementary degrees. The proof keeps potentially
+non-Gorenstein, non-ACM branches and works in every characteristic other
+than two. No independent estimate contradicts this requirement or
+forces a residual curve.
+
+On the existence side, any pure branch and its conjugate descend
+scheme-theoretically to their actual image. Constructing an AG union
+would therefore produce a supported CI in P3. The inspected linkage
+and divisor theorems do not yet supply such an embedded operation.
+The [assessment, §21](notes/2026-10-31-unrestricted-strategy-assessment.md#21-an-arbitrary-pair-boundary-bound-and-automatic-conjugate-descent)
+closes both bounded checks and sets the reopening criterion: a specified
+comparison that could conflict with the boundary requirement at R=0,
+or an actual embedded operation with a concrete global support/section
+mechanism. It may be tested before success is known. Further endpoint,
+multiplicity or degree classification is not selected.
+
+## Preceding projected CI source closed by its endpoint conductor
 
 The [ambient transport and projection test](notes/2026-10-31-ambient-transport-and-projection.md)
 is complete and independently reviewed. Actual AG curves

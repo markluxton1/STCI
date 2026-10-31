@@ -673,6 +673,28 @@ image of the Gorenstein source must have invertible conductor. Its
 all-exponent nonprincipality proof and Frobenius comparison are direct
 reviewed deductions, with no literature-novelty claim.
 
+## Quadratic boundary, canonical postulation and embedded linkage
+
+The [arbitrary-pair boundary note](notes/2026-10-31-quadratic-cover-boundary.md)
+applies standard finite duality to the cyclic degree-one extension of
+a hypothetical supported CI. Its Hilbert-function inequality is a
+canonical-module constraint of the type studied by
+[Kreuzer, §1 and Theorem 2.4](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7DC79E96BB5A7CBA61D74E9F5835E927/S0008414X00045843a.pdf/div-class-title-on-the-canonical-module-of-a-0-dimensional-scheme-div.pdf).
+The full maximal-degree Cayley–Bacharach conclusion is retained only
+when the specified faithful canonical element is in the initial degree.
+The proof and characteristic extension are direct reviewed deductions;
+no literature-novelty claim is made.
+
+[Manolache, Theorem 2.10 and Remark 2.12](https://imar.ro/journals/Revue_Mathematique/pdfs/2007/4/manolache.pdf)
+require supplied embedded linkage extensions;
+[Hartshorne, Proposition 3.1](https://arxiv.org/pdf/math/0301163)
+requires an actual effective divisor of the stated anticanonical class;
+[Casanellas–Drozd–Hartshorne, Theorem 6.1 and Remark 6.3](https://arxiv.org/pdf/math/0307378)
+do not prescribe support or a conjugate partner. Their exact statements
+were checked for construction selection, without importing an automatic
+AG conjugate-union construction. The boundary remains a necessary
+compatibility condition, not an unrestricted STCI obstruction.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.

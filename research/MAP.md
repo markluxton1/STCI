@@ -44,6 +44,16 @@ This closes the two bounded tests and shows why a numerical class
 change alone is insufficient. The next global comparison or constructive
 operation remains unspecified; no classification is selected.
 
+The [arbitrary-pair quadratic continuation](notes/2026-10-31-quadratic-cover-boundary.md)
+retains the full endpoint conductor of every hypothetical supported CI.
+Its canonical grading forces boundary length at least the sum of the
+two equation degrees minus three, and a stronger restriction-function
+inequality. This works in every characteristic other than two, with
+no incompatible upper bound or residual-degree comparison. Conversely,
+a pure branch's conjugate union descends automatically, so constructing
+an AG union would suffice. Non-Gorenstein branches remain possible;
+no new embedded operation or endpoint classification is selected.
+
 The [later ambient-source test](notes/2026-10-31-ambient-transport-and-projection.md)
 constructs actual projected thickenings with exactly the required reduced
 support. A uniform conductor argument shows that none of its positive

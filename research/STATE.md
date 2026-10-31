@@ -2,6 +2,20 @@
 
 ## Research activity status — October 31, 2026
 
+The [quadratic boundary theorem](notes/2026-10-31-quadratic-cover-boundary.md)
+is independently reviewed provisional evidence for arbitrary supported
+CI pairs of degrees alpha,beta. The full primary lift has a locally
+Gorenstein conductor boundary downstairs and its prescribed quadratic
+pullback upstairs. Graded duality forces boundary length at least
+alpha+beta-3, without assuming the branch ACM or Gorenstein. A local
+control shows those extra hypotheses cannot be inserted automatically.
+The converse pure conjugate-union construction descends automatically;
+an AG union would produce a CI image. The bound also holds in odd
+characteristic and supplies no residual-degree contradiction. The
+[assessment, §21](notes/2026-10-31-unrestricted-strategy-assessment.md#21-an-arbitrary-pair-boundary-bound-and-automatic-conjugate-descent)
+stops this bounded round without a new classification or a change to
+the unrestricted open status. No canonical promotion.
+
 The [projected power-source theorem](notes/2026-10-31-ambient-transport-and-projection.md)
 is independently reviewed provisional work. For every positive u,v,
 the actual projection of V(h,f^u,g^v) from the rational-normal-quartic

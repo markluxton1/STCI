@@ -1651,3 +1651,111 @@ independent review coverage in the companion audit. Final assessment
 preservation received **scoped PASS** from
 `projection_conductor_proof_review`, retaining the separate alternative-source
 review. All bounded assignments are complete; no canonical promotion.
+
+## 21. An arbitrary-pair boundary bound and automatic conjugate descent
+
+The next bounded question was whether the preceding conductor test
+adds anything for an **arbitrary** hypothetical supported CI, while
+also checking the converse construction. Two fresh
+`gpt-6-astra/xhigh` workers examined these distinct directions. A fresh
+`gpt-6.1-sol/high` reviewer reconstructed the boundary and construction
+identities; a different fresh `gpt-6-astra/xhigh` reviewer challenged
+the parent's graded inequality and strategic recommendation. No nested
+delegation or endpoint classification was used. The
+[source](2026-10-31-quadratic-cover-boundary.md) and
+[audit](2026-10-31-quadratic-cover-boundary-audit.md) preserve their scopes.
+
+**What has genuinely been added.** Given any supported CI of degrees
+alpha,beta, its full primary lift W in the fixed quadratic cover is
+finite birational on the full nilpotent scheme. The conductor boundary
+Delta downstairs is locally Gorenstein; upstairs it is exactly the
+quadratic pullback of Delta. These statements do not require W to be
+Gorenstein. The missing fifth coordinate gives the actual homogeneous
+quotient B/A=T(-1), where T is the saturated coordinate ring of Delta.
+Duality yields a canonical injection T(alpha+beta-5) into omega_T,
+even when W is not ACM. Hence
+
+\[
+\ell\Delta\ge\alpha+\beta-3.
+\]
+
+The stronger retained statement compares the dimensions of ambient-form
+restrictions in complementary degrees: H_Delta(n)+
+H_Delta(alpha+beta-5-n) is at most length Delta. This is a classical
+canonical-module constraint applied to the actual quadratic boundary,
+not a new duality theory. It is absent from the focused inherited
+notes inspected, with no claim of literature novelty. The attachment
+length alpha beta+2 length Delta is instead a genus identity; it must
+not be counted as an independent obstruction.
+
+Geometrically, an actual two-equation scheme must compensate for the
+extra linear section of its separated rational-normal-quartic branch
+by a sufficiently large endpoint boundary, with the appropriate
+graded canonical pairing. The defect is not merely optional bad
+behavior: some defect is required for descent to four coordinates.
+This concerns the user's last compatibility level, the actual
+polarized images and their equations, rather than only abstract curves
+or abstract Gorenstein gluings. The inequality applies in every
+characteristic other than two, so it supplies no characteristic-zero
+contradiction on its own.
+
+**Which shortcuts are now closed.** The full primary lift of a local
+supported CI in this exact cover can be non-Gorenstein: one explicit
+length-three transverse control has defect four and two-dimensional
+socle at the endpoint, while both conductor boundary algebras remain
+Gorenstein. Thus the preceding Gorenstein-source theorem cannot be
+extended to every pair by simply taking its primary lift. This single
+control answers that logical question; no further local examples are
+needed. A separate reduced-union control already has Cartier endpoint
+attachment and local Gorensteinness but fails the global canonical
+twist and linear-section condition. Local gluing alone is insufficient.
+
+**Existence is simplified, not excluded.** For every pure W supported
+on D in the quadratic cover, its union with its involutive conjugate
+is automatically the full inverse image of its actual scheme image.
+The union is AG if and only if the image is AG, and an AG curve in
+P3 is a CI. Thus one constructed AG conjugate union would settle
+existence; there is no independent descent obstacle after that.
+Symmetrizing the already excluded power sources leaves their image
+unchanged and does not supply such a construction.
+
+Manolache's linkage extensions explain how non-Gorenstein branches
+can glue to a Gorenstein union, but require actual embedded extension
+maps and do not establish the global ACM property. Hartshorne's
+anticanonical-divisor construction on a surface inside this smooth
+quadric becomes the problem of finding the requisite supported
+hypersurface section. The quadric G-liaison theorem does not preserve
+the fixed branches or select the conjugate partner. None of these
+checked theorems supplies a new embedded operation here. Their exact
+primary propositions and limitations are preserved in the source.
+
+**Recommendation and stopping conditions.** Preserve the all-pair
+bound as a necessary construction constraint and stop the present
+boundary investigation. The nonexistence direction has no independent
+upper bound on the conductor and no comparison forcing positive
+residual degree. The existence direction has an exact sufficient
+construction, but no new operation producing it. Neither absence
+counts as evidence that C is not STCI.
+
+Do not begin a boundary-length, endpoint-type, multiplicity or degree
+classification. Reopen for an independent geometric comparison that,
+at residual degree zero, would force length Delta below alpha+beta-3
+or violate the stronger restriction-function inequality; an
+uncalibrated upper bound alone is insufficient. Alternatively, reopen
+for a concrete embedded operation whose support, attachment and
+global sections can be tested together with a prospect of an AG union.
+A bounded test may fail; it must add an input beyond prescribing the
+desired final object. If it yields only an attachment identity, a
+rephrasing of global equations, or another local type with no relevant
+comparison/construction, stop and reassess rather than expand the cases.
+Report that input and stopping condition before the next experiment.
+The unrestricted question remains open.
+
+Both independent reviews returned **scoped PASS**. The graded reviewer
+required the generalization to say A-module generation, rather than
+mere algebra generation by one integral element; the final source
+incorporates that correction. It also distinguishes ambient restriction
+dimensions from all sections on the finite boundary. The final audit
+records the source fingerprint and accepts this assessment's stopping
+decision. All four bounded assignments are complete; no canonical
+promotion and no further technical experiment selected.
