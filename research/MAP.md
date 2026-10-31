@@ -44,6 +44,17 @@ This closes the two bounded tests and shows why a numerical class
 change alone is insufficient. The next global comparison or constructive
 operation remains unspecified; no classification is selected.
 
+The [supported ACM construction test](notes/2026-10-31-acm-construction-selection.md)
+settles the projected-power family's previously open ACM question:
+every characteristic-zero image has an explicit global section
+outside the ambient restriction image. The proof is uniform in both
+powers and extends to any covering quadric under the stated
+homogeneous parameter condition. The classical skew-line residual
+construction also fails through explicit output ideals and a Koszul
+depth witness. These reviewed provisional results close actual
+sources, not arbitrary ACM thickenings or STCI pairs. No exponent
+or neighboring-quadric classification is selected.
+
 The [algebraic complement comparison](notes/2026-10-31-algebraic-complement-obstructions.md)
 shows that twisted Chow–Witt CH2 on the complement of any smooth
 connected degree-d space curve is Z/d, for every line-bundle twist,

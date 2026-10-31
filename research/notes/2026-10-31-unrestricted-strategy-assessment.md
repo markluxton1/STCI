@@ -2029,3 +2029,82 @@ that last step in one source would suffice for existence, even without
 classifying all sources. The scoped independent review passed; all
 three assignments are complete. No canonical promotion, and the
 unrestricted characteristic-zero STCI question remains open.
+
+## 25. The projected powers fail ACM through an explicit global section
+
+This selection tested a constructive intermediate target: a homogeneous
+ACM thickening supported on the fixed C0 in its actual P3. Such a
+construction would be substantive, although it would not itself settle
+STCI. The earlier projected-power family had supplied support and had
+been excluded as AG, but its ACM status was explicitly left open.
+Reopening that precise question did not reopen the closed CI claim.
+
+Two fresh gpt-6-astra/xhigh scouts checked residual-perfection and
+embedded-doubling literature. A fresh gpt-6-astra/xhigh strategy reviewer
+challenged the proposal and allowed only an all-parameter mechanism
+or one structurally selected actual construction, with no exponent grid.
+The parent reported that recommendation and stopping rule before the
+test. The source scout's coherent context was then reused for the proof;
+a separate fresh gpt-6.1-sol/high reviewer independently reconstructed
+it. No nested delegation was used.
+
+**New result and geometric content.** For every positive u,v in
+characteristic zero, the actual image of V(h,f^u,g^v) fails ACM.
+Writing the two coefficients of the omitted coordinate as Q=a q and
+T=d t, the product H=q t survives modulo the coefficient ideal but
+is killed by an irrelevant-primary ideal. It therefore supplies a
+nonzero Rao class, with lower bounds 1,2,1 in degrees
+2u+2v-3 and the next two.
+
+More concretely, H z has compatible expressions in the retained
+coordinates on the two charts covering the image, yet no global
+ambient polynomial represents it. The new obstruction is an actual
+failure of the ambient restriction map. It is not the previous local
+non-Cartier conductor and is not a residual component. The
+[source](2026-10-31-acm-construction-selection.md) and
+[audit](2026-10-31-acm-construction-selection-audit.md) preserve the
+explicit section, proof and independent review scopes.
+
+**Generalization extracted.** The argument does not depend on the
+particular covering quadric. For two linear coefficients and quadratic
+remainders forming a homogeneous parameter sequence, any quadratic
+monic covering equation gives the same power-projection obstruction.
+Changing that quadric alone cannot repair the family; the underlying
+curve may change. The algebra works whenever uv is nonzero in the
+field, including characteristic two with odd exponents. It says nothing
+about the divisible-exponent cases containing the known Frobenius
+constructions.
+
+**The second constructive check also has a concrete outcome.** The
+classical quadric–cubic link to two skew lines gives three explicit
+outputs under the checked residual machinery. The boundary determinant
+ideal retains the lines; its natural Fitting ideal is P intersect m³
+and adds only a cone-vertex defect; full Kitt recovers P, the original
+quartic ideal. A nonzero Koszul socle class explains failure of the
+sliding-depth and broader cycle hypotheses. This is more informative
+than saying a theorem does not apply, but it remains a limitation of
+that supplied source, not of all residual constructions.
+
+**Existence versus nonexistence.** No ACM thickening was produced.
+The all-power result closes a genuine operation and identifies exactly
+what a replacement must repair. Its generalization eliminates simple
+changes of the covering quadric within the same parameter construction.
+It does not show that every supported thickening has such a section
+defect, supply a positive residual-degree bound, or favor nonexistence
+of STCI. A successful different ACM construction would still be a
+meaningful step; an AG construction in the fixed P3 would settle
+existence directly.
+
+**Recommendation and stopping.** Close the inherited power source
+as a producer of ACM images, not just AG images. Close the tested
+skew-line residual presentation and its determinant/Fitting/Kitt
+variants. Do not continue with exponents, neighboring quadrics or
+local linkage types. A renewed construction needs an actual operation
+that changes the embedded global deficiency while preserving support;
+a renewed nonexistence argument needs a reason that this kind of
+defect persists for arbitrary defining pairs. Neither new input is
+supplied here, so no next technical experiment is selected.
+
+The final source passed two independent reviews with separate
+responsibilities. All four bounded assignments are complete.
+No canonical promotion; unrestricted characteristic-zero STCI remains open.

@@ -9,6 +9,12 @@ closed the multiple-quadric bookkeeping round. This note records the
 completed source selection and the particular projection test selected
 after an independent challenge. It does not prescribe further families.
 
+**Subsequent result:** the [supported ACM construction test](2026-10-31-acm-construction-selection.md)
+settles the ACM question left open in §5 below: every positive
+power image in characteristic zero fails ACM through an explicit
+missing ambient section. The earlier proofs and their historical
+scope are retained here; the new proof has its own independent audit.
+
 ## 1. What the natural birational transport can and cannot do
 
 Write B=Bl_C(P3), with H the pullback of a plane and E exceptional.

@@ -2,7 +2,25 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current complement checkpoint: characteristic classes settled, realization open
+## Current ACM construction checkpoint: uniform source failure
+
+The [supported ACM test](notes/2026-10-31-acm-construction-selection.md) is complete and
+independently reviewed. All characteristic-zero projected powers
+fail ACM, not just AG: a specific global section is absent from
+the four-coordinate ambient image. The coefficient proof works
+uniformly and extends to arbitrary covering quadrics under a
+homogeneous parameter condition. Its characteristic restriction
+is uv nonzero in the field, retaining the divisible-power cases.
+
+The separate classical residual construction has three exact
+failed outputs and an explicit Koszul-depth obstruction. The
+[assessment, §25](notes/2026-10-31-unrestricted-strategy-assessment.md#25-the-projected-powers-fail-acm-through-an-explicit-global-section)
+closes both sources. Reopening needs an operation that changes
+the actual ambient-section deficiency while preserving support,
+or an all-pair comparison. No exponent, neighboring-quadric or
+local linkage classification is selected. STCI remains open.
+
+## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)
 is complete and independently reviewed. The twisted Chow–Witt
@@ -81,8 +99,9 @@ reduced support is exactly C. For every positive u,v, the projected
 scheme fails AG: a nontrivial exponent forces a non-Cartier conductor
 at a marked endpoint, contradicting the necessary finite-duality
 condition for a Gorenstein image; (1,1) fails ACM. This uniformly closes
-the entire selected source as a direct CI construction. Its general
-ACM question remains unresolved and was not needed for that conclusion.
+the entire selected source as a direct CI construction. The later
+supported-ACM test above now closes its characteristic-zero ACM
+question through a separate uniform missing-section argument.
 
 The [assessment, §20](notes/2026-10-31-unrestricted-strategy-assessment.md#20-ambient-transport-a-genuine-projection-source-and-its-conductor-obstruction)
 records the independent challenge that enabled the construction and

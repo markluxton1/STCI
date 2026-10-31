@@ -2,6 +2,19 @@
 
 ## Research activity status — October 31, 2026
 
+The [supported ACM construction test](notes/2026-10-31-acm-construction-selection.md)
+is independently reviewed provisional work. Every projected power
+image Y_uv in characteristic zero fails ACM: a uniformly nonzero
+coefficient class gives an actual missing ambient section, with
+Rao lower bounds 1,2,1 in three consecutive degrees. The proof
+works whenever uv is nonzero in the field and generalizes to
+quadratic covers satisfying the stated parameter condition. The
+classical skew-line residual/Fitting/Kitt constructions also fail
+by explicit ideals and depth conditions. The
+[assessment, §25](notes/2026-10-31-unrestricted-strategy-assessment.md#25-the-projected-powers-fail-acm-through-an-explicit-global-section)
+closes these sources without excluding other ACM thickenings or
+unrestricted STCI. No new experiment or canonical promotion.
+
 The [algebraic complement comparison](notes/2026-10-31-algebraic-complement-obstructions.md)
 is independently reviewed provisional work. For every smooth
 connected curve of degree d over an algebraically closed field of
@@ -61,7 +74,8 @@ the actual projection of V(h,f^u,g^v) from the rational-normal-quartic
 model fails AG, although its reduced support is exactly C. Nontrivial
 powers force a nonprincipal endpoint conductor on the Gorenstein source;
 finite duality obstructs a Gorenstein image. The remaining image fails
-ACM. The general ACM question for this source is not resolved. The
+ACM. Its later supported-ACM test now excludes all characteristic-zero
+images as ACM, through a distinct global-section argument. The
 same proof works if the characteristic does not divide 2uv. Equal odd
 Frobenius powers instead give a Cartier conductor, but adjunction forces
 incompatible CI degrees. In characteristic two the operation recovers

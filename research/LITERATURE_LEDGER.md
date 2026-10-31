@@ -767,6 +767,27 @@ not a Stein source for sections over the complement. No checked
 realization theorem supplies the missing algebraic equations;
 this is a bounded search conclusion, not a no-go theorem.
 
+## Actual ACM construction tests: residual machinery and power projections
+
+The [ACM construction note](notes/2026-10-31-acm-construction-selection.md) applies
+[Hassanzadeh, Theorems 3.7, 3.16, Corollary 3.19 and Theorem 4.2](https://arxiv.org/html/2409.05705v2)
+to the actual quadric–cubic link of C0 with two skew ruling lines.
+The boundary determinant ideal retains the lines; the source fails
+the sliding-depth and broader Koszul-cycle projective-dimension
+hypotheses, witnessed by an explicit nonzero socle class.
+[Bouça–Hassanzadeh, Proposition 5.9](https://arxiv.org/pdf/1810.05134)
+identifies full Kitt with the colon for s=g=2, yielding the original
+quartic ideal rather than a CM quotient. The natural Fitting ideal
+is explicitly P intersect m³. These are reviewed applications,
+not a claim that every residual construction fails.
+
+The same note's uniform projected-power non-ACM theorem is a direct
+coefficient and local-cohomology proof. It strengthens the inherited
+non-AG result, exhibits actual missing ambient sections, and makes
+no literature-novelty claim. Its broader parameter-sequence version
+uses only regular-sequence and monic-finiteness arguments; it does
+not retain the special reduced quartic when the quadric is varied.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
