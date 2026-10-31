@@ -108,8 +108,13 @@ constructs a universal graded (2,n) family for n>2, including nonreduced
 parameter bases. Fixed-elliptic-curve multiplicities when p|n do not determine
 total parameter-space multiplicities. In characteristic zero the
 [explicit order-three root](synthesis/spectral_pushforward_powers.md#6-testing-this-example-in-the-actual-embedding)
-fails the first ambient lift by an exact three-term certificate. Other roots
-remain untested here. Under the full saturated movement-two hypotheses,
+fails the first ambient lift by an exact three-term certificate. The
+[order-three continuation](synthesis/order_three_roots_and_sextic_lifts.md)
+parameterizes the entire smooth order-three locus by an open of P7. In a
+specified two-parameter slice, exactly six smooth roots pass the first embedded
+test: four permit no actual sextic symbol and two permit symbols but fail
+complete cubic lifting. This is a covered slice calculation; the remaining
+order-three locus is not excluded. Under the full saturated movement-two hypotheses,
 R-0014 and exact order three retain only (2,12;6,16) as a projective numerical
 target; this does not negate abstract (2,6) graded existence.
 

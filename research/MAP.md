@@ -52,8 +52,7 @@ The [projected-source calculation](synthesis/projected_thickening_section_defect
 Conductor–differential comparisons and more general tame covers remain additional
 directions. For the spectral construction, the next questions concern determinant
 schemes at singular roots and realization of varying graded families in the
-actual embedded neighborhood; the explicit order-three root fails its first
-lift. Only a statement
+actual embedded neighborhood. The [order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md) identifies the full smooth torsion locus with an open of P7; a selected slice supplies six first-compatible roots, with separate symbol and cubic failures in the actual sextic source. The full parameter space remains open for embedded realization. Only a statement
 with its governing proof is an available lemma; a promising extension is still a
 proposed bridge. In particular the surface-normalization conductor is not the
 conductor of the quadratic separation of a nonreduced intersection.
