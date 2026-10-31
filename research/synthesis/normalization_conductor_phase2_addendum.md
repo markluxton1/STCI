@@ -66,21 +66,17 @@ This is a finite 40-coefficient condition, distinct from the first and second lo
 
 The reviewed singular-root bridge uses the actual transformed ideal \((p,t^{10})\) and proves necessity of the ambient classes even for singular reduced roots, under the stated actual-pair hypotheses. The remaining structured scheme also retains all twenty-five second-obstruction pairings and full-scheme spectral torsion (including nodal gluing); its emptiness, nonemptiness, and realization by a globally supported pair are **unresolved**. The independent audit passed the exact symbol map and conditional necessity reductions, without promoting a general STCI exclusion. [Symbol map and cubic comparison](../notes/2026-10-20-conditional-2-12-symbol-map.md); [global incidence](../notes/2026-10-20-conditional-2-12-global-realization-incidence.md); [independent audit](../notes/2026-10-20-conditional-2-12-incidence-audit.md).
 
-## A scheme-level incidence formulation
+## The finite source incidence and its constant-rank cubic obstruction
 
-Let S denote the actual degree-six source space, let T be its quadratic-symbol target, and let \(\rho_2:S\to T\) be the computed rank-22 linear map. Write \(f=a(z)u^2+b(z)uv+c(z)v^2\) for the moving root and \(\alpha\) for the multiplier. The first-stage parameter scheme is cut out by the eleven explicit equations for \(\alpha f\in\operatorname{im}\rho_2\), together with the open conditions that the root has the prescribed saturated movement-two degree and \(\alpha\ne0\) as a section. This is an incidence in coefficients, not a quotient by \(\alpha\) in the coordinate ring.
+Let \(S=H^0(I_C^2(6))\), and let \(\rho_2:S\to H^0(\operatorname{Sym}^2N_C^\vee(6))\) be the computed rank-22 map. Write the proposed leading symbol as \(\alpha f\), with \(f=a(z)u^2+b(z)uv+c(z)v^2\). The eleven explicit linear image equations for \(\alpha f\) define the first necessary coefficient incidence, subject to the actual saturated movement-two and nonzero-section conditions. In particular, no division by \(\alpha\) is permitted at its zeros.
 
-Over that scheme, cubic-jet compatibility is the vanishing of the cubic difference in the cokernel of multiplication by the nonzero root. This multiplication map has constant rank sixteen; its cokernel has dimension twenty-four. Root singularities and multiplier zeros remain exceptional for the other conditions, not for the rank of this correction map. The twenty-five second-obstruction pairings and the full-scheme spectral torsion condition impose further necessary conditions on the same parameters.
+For a chosen compatible sextic, the next condition is
+\[
+(F_c)_3-\alpha G_0=f(\ell u+m v),\qquad\deg\ell,\deg m\le7.
+\]
+The sixteen correction coefficients map into forty cubic coefficients by multiplication by nonzero \(f\). This map is injective in the polynomial ring and therefore has constant rank sixteen; its image is locally a subbundle and the obstruction is a section of the twenty-four-dimensional quotient. **No rank-drop stratification of this multiplication map is required.** Singular roots and multiplier zeros remain exceptional for the other conditions.
 
-This formulation records a finite **necessary-condition scheme**. Even a point satisfying all of these conditions does not yet produce a proper degree-sixteen mate or prove support exhaustion. Conversely, a proof of emptiness of this entire necessary-condition scheme, with its excluded degeneracies separately handled, would exclude the scoped saturated movement-two (6,16) locus. The reviewed source has not established such emptiness.
-
-## Constant-rank cubic correction and the exact quotient obstruction
-
-The cubic comparison is \((F_c)_3-\alpha G_0=f(\ell u+m v)\), with \(\deg\ell,\deg m\le7\). At every admissible nonzero quadratic root \(f\), multiplication by \(f\) is injective in the polynomial ring \(k[z,u,v]\). Thus the map from the sixteen correction coefficients into the forty coefficients of a binary cubic of \(z\)-degree at most nine has **constant rank sixteen**, independent of root collisions or the vanishing of \(\alpha\) at individual points. The quotient has dimension twenty-four.
-
-Consequently cubic compatibility is exactly the vanishing of the class of \((F_c)_3-\alpha G_0\) in this twenty-four-dimensional quotient. Locally on the nonzero-root parameter space the image is a subbundle, and the obstruction is a section of its cokernel bundle. No rank stratification of the correction map is needed. If an alternative coefficient model restricts the correction source, that model must be checked separately; the conclusion here concerns the displayed full correction space.
-
-This does **not** remove the genuinely exceptional strata of the broader incidence: root singularities, multiplier zeros, spectral torsion, the twenty-five second-obstruction pairings and global mate realization remain. The earlier proposal to stratify the rank of this particular correction matrix was unnecessarily general. A nonzero root has no correction-map rank drops.
+The full necessary incidence also imposes the twenty-five second-obstruction pairings and full-root spectral torsion, including nodal gluing. Its projection to root/multiplier parameters can be constructible rather than closed. The known smooth seed fails the cubic quotient obstruction, but no emptiness or nonemptiness result for the full incidence follows. Even a point satisfying all these conditions does not yet provide a proper degree-sixteen mate or prove sole reduced support.
 
 ## Exact failed seed and the remaining incidence
 
