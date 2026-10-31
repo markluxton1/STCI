@@ -24,6 +24,12 @@ the actual ambient-section deficiency while preserving support,
 or an all-pair comparison. No exponent, neighboring-quadric or
 local linkage classification is selected. STCI remains open.
 
+The [global realization comparison, §27](notes/2026-10-31-unrestricted-strategy-assessment.md#27-carrier-defects-and-sheaf-modifications-do-not-yet-supply-the-next-bridge)
+checks the newer carrier differential conditions and actual elementary
+transform/monad constructions. The two conductor modules have no
+supplied comparison; the constructed sheaf and its flat deformations
+do not yield a split rank-two target. No new experiment is selected.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

@@ -802,6 +802,33 @@ the projection determinant turns it into an actual missing ambient
 section. This application closes the mixed source without claiming
 an obstruction for arbitrary supported thickenings.
 
+## Global realization selection: actual sheaf output and flatness scope
+
+[Assessment §27](notes/2026-10-31-unrestricted-strategy-assessment.md#27-carrier-defects-and-sheaf-modifications-do-not-yet-supply-the-next-bridge)
+records a bounded primary-source check and independent strategy review.
+[Jardim–Markushevich–Tikhomirov, Proposition 3.1](https://arxiv.org/pdf/1501.00736)
+constructs elementary-transform instanton sheaves. For C0, the actual
+quotient O²→i_*O_P1(7), given by s⁷,t⁷, has a rank-two kernel F of
+charge four, reflexive hull O², and h¹(F(-1))=4. It is a sheaf singular
+along the curve, not an ACM thickening. Fixed Chern classes also prevent
+its flat deformations from becoming split rank-two bundles.
+
+[Hartshorne, Generalized Divisors and Biliaison, Remark 1.8](https://escholarship.org/content/qt4j1747kh/qt4j1747kh.pdf)
+gives the codimension-two extension property used to retain the reflexive
+hull. It does not forbid deformations changing the complement restriction.
+[Malaspina–Rao, §1, pp.2–3](https://arxiv.org/pdf/2202.00304)
+describes the Horrocks monad: its middle bundle splits on P3, while the
+original rank-two bundle remains its cohomology. No supported section
+of a split rank-two target is produced.
+
+[Ballico–Cid-Ruiz–Singh, Theorem A](https://arxiv.org/html/2602.09201v2)
+gives generic flatness of cohomology for all ordinary power thickenings
+at a fixed twist, for a smooth family over a Noetherian domain containing
+a field of characteristic zero. It gives neither vanishing,
+arbitrary-supported-ideal coverage,
+nor mixed-characteristic specialization. None of these checked theorems
+supplies the missing embedded construction or an unrestricted exclusion.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.

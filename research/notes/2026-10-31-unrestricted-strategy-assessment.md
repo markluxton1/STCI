@@ -2189,3 +2189,136 @@ This continuation consolidates the preceding result rather than adding
 a new source catalog. All bounded assignments are complete. The
 unrestricted characteristic-zero STCI question remains open, and
 existence remains a live possibility.
+
+## 27. Carrier defects and sheaf modifications do not yet supply the next bridge
+
+This selection compared the new carrier differential result with an
+actual literature construction on the fixed P3. It selected no
+technical experiment. The purpose was to identify a new input affecting
+arbitrary pairs or an embedded construction, after §26 closed the
+binary-substitution source.
+
+### The two defining surfaces have necessary defects, but their budgets are different
+
+The current [all-degree carrier note](2026-10-31-carrier-conductor-differential-bound.md)
+and its embedded review imply the following trichotomy for **each**
+integral defining carrier of a hypothetical characteristic-zero STCI:
+it is generically singular along C0, its normalization is singular on
+the inverse curve, or its full conductor is singular at a contact with
+C0. The factor reduction and low-degree exclusion remain inherited
+premises. The trichotomy does not place the two carriers' failures at
+the same point or in the same alternative.
+
+For a generically regular carrier of degree a whose normalization is
+smooth along the inverse curve c, its geometric quantities are
+\[
+c^2=16/a,\qquad D\cdot c=4a-14+16/a,\qquad
+\deg H_{\rm diff}\le7-16/a.
+\]
+The incompatible smooth-contact comparison gives a required **lower**
+contribution from singular conductor contacts. It supplies no upper
+bound on those contributions. Neither generic singularity along C0
+nor a singular normalization can be dropped from the remaining regimes.
+
+This surface-normalization conductor is different from the finite
+endpoint conductor of the full nonreduced intersection in the
+[quadratic-cover note](2026-10-31-quadratic-cover-boundary.md).
+That note's \(\delta\ge a+b-3\) is another lower requirement. Neither
+source supplies a morphism or filtration comparing the two conductor
+modules in a direction that would contradict either bound.
+
+The shared tangent direction does not supply that missing comparison.
+The earlier [actual first-layer identification, §§1–4](2026-10-14-generalization-transverse-differential-socle-bound.md)
+already identifies the dual saturated normalization direction with
+\((J/J^2)_{\rm tf}\), when its generic-regularity and singleton Cartier
+lift hypotheses hold; its [independent audit](2026-10-14-generalization-transverse-socle-independent-audit.md)
+preserves that scope despite the older source header's pending wording.
+Applying it to both eligible carriers makes
+their saturated directions equal. This is an inherited compatibility
+statement, not a new obstruction or a reduction of singular lifts.
+
+### A concrete sheaf construction and its precise limits
+
+Work over C for this literature application. Let \(i:C_0\hookrightarrow
+\mathbf P^3\). The basepoint-free pair \(s^7,t^7\) supplies an actual
+surjection and kernel
+\[
+0\longrightarrow F\longrightarrow\mathcal O_{\mathbf P^3}^{\,2}
+\longrightarrow i_*\mathcal O_{\mathbf P^1}(7)\longrightarrow0.
+\]
+[Jardim–Markushevich–Tikhomirov, Proposition 3.1](https://arxiv.org/pdf/1501.00736)
+applies with \(L=\mathcal O_{\mathbf P^1}(-1)\), since \(L(2)=
+\mathcal O_{\mathbf P^1}(7)\). It gives a rank-two torsion-free
+instanton sheaf of charge four. Its reflexive hull is \(\mathcal O^2\);
+locally along C0 its kernel is \(\mathcal O\oplus I_{C_0}\).
+The sequence twisted by -1 gives
+\[
+H^1(F(-1))=H^0(\mathbf P^1,\mathcal O(3)),\qquad h^1=4.
+\]
+Thus this is an actual sheaf singular along the chosen embedded curve,
+with nonzero intermediate cohomology. It does not provide a new
+homogeneous coordinate ring or an ACM thickening.
+
+Two general restrictions explain why the obvious repairs do not finish
+this operation. First, a kernel of a vector bundle E mapping to a
+codimension-two-supported quotient has reflexive hull E. Two locally
+free extensions equipped with an isomorphism off C0 are isomorphic
+globally, by [Hartshorne, Remark 1.8](https://escholarship.org/content/qt4j1747kh/qt4j1747kh.pdf).
+This does not forbid deformations changing the restriction on the
+complement. Second, even such a flat deformation of this particular F
+cannot become a split rank-two bundle: its fixed Chern classes are
+\(c_1=0,c_2=4\), whereas \(\mathcal O(r)\oplus\mathcal O(-r)\)
+has \(c_2=-r^2\). After any common twist t the required split degrees
+would satisfy \(a+b=2t,\ ab=t^2+4\), with discriminant -16.
+This elementary check concerns the fixed flat class, not operations
+changing Chern classes or other possible supported thickenings.
+
+The [Horrocks monad construction described by Malaspina–Rao, §1](https://arxiv.org/pdf/2202.00304)
+also supplies no such repair. Its split middle bundle P on P3 has
+rank \(2+\operatorname{rk}A+\operatorname{rk}B\); the original
+rank-two E remains the cohomology \(\ker(P\to B)/\operatorname{im}A\).
+Eliminating those extra terms while controlling a supported section
+requires additional data, not provided by the monad theorem.
+
+The recent [Ballico–Cid-Ruiz–Singh, Theorem A](https://arxiv.org/html/2602.09201v2)
+likewise does not fill this gap. It gives generic flatness, for one
+fixed twist j and all ordinary power thickenings, for a smooth family
+over a Noetherian domain containing a field of characteristic zero.
+It does not give cohomology vanishing,
+arbitrary supported ideals, or mixed-characteristic specialization.
+
+### Disposition, review and stopping
+
+These comparisons identify the actual objects produced by the checked
+operations and the missing implications. They provide no new
+unrestricted nonexistence theorem. An actual ACM thickening remains a
+meaningful constructive target, and an AG thickening in P3 would settle
+existence. No numerical failure above should be transferred to a
+different operation without checking its hypotheses and output.
+
+**Recommendation:** select no technical experiment from these inputs.
+Do not enumerate conductor singularities, instanton charges, monad maps
+or adjacent degrees. Reopening requires a specified support-preserving
+operation into an actual ideal/section, or a geometric comparison of
+the two specified conductor modules with a discriminating consequence.
+A proposed mechanism may be unproved; a restatement of the desired
+vanishing or bound is insufficient. Stop its first test if it only
+recovers a sheaf presentation or one of the existing lower budgets.
+
+Two fresh gpt-6-astra/xhigh scouts performed the separate carrier and
+existence selections. A fresh gpt-6.1-sol/high reviewer independently
+challenged the recommendation, checked the primary theorem scopes and
+reconstructed the sheaf/cohomology deductions. The new Chern-class
+check received a separate bounded confirmation. No nested delegation,
+numerical experiment or new local classification was used.
+The reviewer returned a scoped PASS on the actual written §27;
+its suggested precision about smoothness and the base in Theorem A
+was incorporated. No material finding remains unresolved.
+
+This review reuses the carrier note's recorded provisional proof status;
+it is not a fresh audit or canonical promotion of the concurrent work.
+The inspected carrier-note fingerprint is
+fbad7b8b4e708edb8b94c7d1e2be2237a20f8ff7b14f858ee42c1f07125cd24f.
+Its concurrent files were preserved without editing or staging them.
+All selection assignments are complete. Unrestricted characteristic-zero
+STCI remains open; no next technical round has begun.
