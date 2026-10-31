@@ -73,6 +73,12 @@ The global sextic quadratic-symbol image is an exact linear subspace, but its ne
 
 This procedure does not identify the local comparison module \(\Delta_n\), nor does it assert that the necessary incidence has a point. It specifies how to avoid losing legitimate exceptional candidates while testing **actual** homogeneous source realization.
 
+## Exact cubic correction rank strata
+
+The conditional sextic cubic comparison has forty coefficient equations in sixteen correction coefficients, arising from two polynomials of degree at most seven. On a stratum where its coefficient matrix has rank r, a solution exists exactly when the augmented matrix has the same rank. The rank-r stratum includes a nonzero r-minor condition; generic inversion cannot describe its complement. See [the determinantal construction](normalization_conductor_phase2_addendum.md#determinantal-elimination-without-generic-division).
+
+This tests global higher-jet compatibility, not the local filtered equation-module defect. The matrix rank strata have not yet been computed.
+
 ## The global-source gap
 
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
