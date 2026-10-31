@@ -2,15 +2,27 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current allocation: reassessment before another research round
+## Current allocation: a bounded construction test after mechanism comparison
 
 The [unrestricted strategy assessment](notes/2026-10-31-unrestricted-strategy-assessment.md)
 closes the distinguished-column and two-marked-fiber ramification tests.
-It compares the recent global constraints, exact reformulations and failed
-shortcuts from both existence and nonexistence viewpoints. No further
-technical campaign is currently assigned. The recommendation is a bounded
-comparison of concrete construction and global-implication mechanisms,
-with explicit stopping conditions, after the assessment is reported.
+Its §6 then carries out the recommended comparison of elliptic global
+source extension with specialization of actual CI duality. The
+[canonical-extension proposal](notes/2026-10-31-elliptic-canonical-extension.md)
+reconstructs a normal quadric source from a nodal genus-four curve and
+gives separate component-polarization, residue-gluing and contact gates.
+It includes the quadric cone, rather than treating failure of a smooth
+source as a complete construction failure. The alternative duality
+mechanism currently adds no controllable quartic-specific restriction.
+
+The proposed next experiment is the existing palindromic elliptic target:
+replay its exact construction, test component Picard compatibility, then
+the residue and contact gates if the preceding gates pass. No gate has
+been evaluated in this selection round and no carrier or mate is claimed.
+The fixed target's first failure stops this experiment; success would
+give a degree-eight carrier before its separate full mate-descent test.
+The recommendation and independent review are recorded in the assessment;
+the technical experiment has not begun.
 The [decision guide](RESEARCH_DECISION_GUIDE.md#continuing-extraction-and-strategy-assessment)
 now makes extraction, useful generalization and independently challenged
 strategy assessment a continuing part of the process. C being a STCI

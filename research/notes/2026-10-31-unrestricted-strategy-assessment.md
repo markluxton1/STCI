@@ -259,3 +259,141 @@ The reviewer found no evidence-supported replacement technical campaign.
 Both producers and the reviewer have completed their assignments; none is
 continuing into new cases. The recommendation is reported before any next
 research round, with the mathematical objective still unresolved.
+
+## 6. Executed comparison: canonical gluing versus duality specialization
+
+The recommended bounded selection was carried out after the preceding
+assessment was reported. Two fresh `gpt-6-astra/ultra` workers, without
+nested delegation, examined concrete mechanisms: construct a global source
+from the surviving elliptic target and its marked rational curve; or obtain
+a new global constraint by specializing actual CI duality through the full
+torus limits. No additional local-type or cover classification was assigned.
+
+### The duality-specialization mechanism
+
+**Independently checked diagnostic, with the scope recorded below.** The
+correct object to specialize is the relative dualizing complex, not an
+assumed invertible special canonical sheaf. This is the distinction in
+[Stacks, §109.19](https://stacks.math.columbia.edu/tag/0E6N) and
+[§86.9](https://stacks.math.columbia.edu/tag/0E5W). Write R=k[[tau]], let
+X be a full flat Hilbert degeneration, let Z be its special curve, and
+let `0 -> T -> O_Z -> O_H -> 0` remove its endpoint embedded points.
+Put `s=a+b-4`, and on P3_R set
+
+\[
+\Omega=\mathcal Ext^2(\mathcal O_X,\mathcal O(-4)),\qquad
+\mathcal E=\mathcal Ext^3(\mathcal O_X,\mathcal O(-4)).
+\]
+
+The producer's base-change calculation gives
+
+\[
+0\to\Omega/\tau\Omega\to\omega_H\to\mathcal E[\tau]\to0,
+\qquad \mathcal E/\tau\mathcal E\simeq T^D,
+\]
+
+with Omega R-flat and the two finite-length modules of equal length at
+each endpoint. Codimension two and the nonzerodivisor tau leave only
+Ext degrees two and three; the base-change exact sequence supplies these
+claims. The primitive generator of the rank-one free module
+`H0(X,Omega(-s))` specializes to a nonzero map
+
+\[
+\mathcal O_Z(s)\longrightarrow\Omega/\tau\Omega\subset\omega_H.
+\]
+
+It kills T and factors through O_H(s). **Nonzero need not mean generically
+invertible** on the nonreduced generic transverse algebra. If generic
+invertibility is separately established, the inclusions
+`O_H(s) subset Omega/tau Omega subset omega_H` have successive quotient
+lengths ell and ell, where `ell=length(T)`. This recovers the existing genus
+budget; it is not a second numerical equation.
+
+The producer calibrated the actual twist on the existing
+[all-degree line control](2026-10-30-four-streams-degeneration.md), without
+creating another family. With
+`f_tau=Y A_tau+tau X^d`, `g=Y^d` and
+`A_tau=Z^(d-1)+tau^2 W^(d-1)`, on `A_tau != 0` use
+`h=Y+tau X^d/A_tau`, `k=X^(d^2)`. The determinant changing these generators
+is `(-1)^d tau^d A_tau^(1-d)`, so adjunction gives
+`tau^d eta_(f,g)=+/- A_tau^(d-1) eta_(h,k)`.
+The inherited saturation relations show that tau^d kills the saturation
+quotient, and this exponent is minimal where A_tau is invertible.
+The resulting special canonical section on the hull
+`H=V(Y,X^(d^2))` is `Z^((d-1)^2)`; the opposite limit gives
+`W^((d-1)^2)`. Its zero length is `d^2(d-1)^2=2 ell`.
+Thus the actual twist accommodates both endpoint defects.
+
+The inspected [Gallego–González–Purnaprajna paper](https://arxiv.org/abs/1211.5458)
+allows non-Cohen–Macaulay multiple flat limits; it provides no contrary
+fixed-quartic theorem. [Van Straten–Warmt](https://arxiv.org/abs/1104.3070)
+uses an almost-complete-intersection presentation, which an arbitrary full
+initial ideal need not have. No perfect pairing on every endpoint defect
+was inferred from that result.
+
+**Disposition:** do not select this as a standalone campaign. A new argument
+must control the canonical lattice, the generic rank of the specialized
+map, or its two opposite specializations using additional quartic geometry.
+Derived duality describes those data but does not bound them. Constructively,
+the limits show legitimate ways a supported CI can acquire defects. This
+stops the proposed shortcut, not all uses of degeneration or duality.
+
+### The construction mechanism and proposed next experiment
+
+The [canonical-extension proposal](2026-10-31-elliptic-canonical-extension.md)
+uses the nodal genus-four curve obtained by gluing the elliptic residual
+to the marked rational curve at the four inverse points. It identifies the
+canonical quadric source and separates actual line-bundle gluing from
+projective agreement at the nodes. The proposal includes smooth quadrics
+and quadric cones, with a sufficient global extension and contact test.
+Its proof and exact remaining gates are in the linked note.
+
+The constructive candidate is the existing
+[palindromic elliptic target](2026-10-30-projection-elliptic-target-palindromic.md),
+whose smooth-source extension fails. That does not dispose of the cone
+model retained by [R-0002](../results/cartier_singleton_lift.md).
+**Component Picard compatibility is not yet verified for this target.**
+The identity `L^2=O_E(Z)` in the earlier survivor record used actual-source
+compatibility and cannot be assumed from target ramification alone.
+Conditional on that equality, its Möbius marking selects the canonical
+cone. The subsequent gluing, contact and mate-descent gates remain separate.
+
+The proposed next experiment is to replay the existing exact target data,
+check the component Picard equality, then evaluate the intrinsic node-gluing
+and contact conditions. A failure stops this candidate; a success constructs
+an admissible degree-eight carrier and then permits its separate actual
+mate-descent test. No pass or carrier is claimed here. The experiment is
+not a passport enumeration, a new classification, or an exhaustive source.
+
+### Independent challenge and current disposition
+
+A fresh `gpt-6.1-sol/high` reviewer, independent of both producers and with
+no nested delegation, reconstructed the canonical-extension criterion and
+challenged the allocation. The [audit](2026-10-31-elliptic-canonical-extension-audit.md)
+found no material defect and supports the one fixed-target experiment.
+It checked the reducible canonical embedding, the cone vertex and Cartier
+conditions, actual node-gluing residues, unique section recovery, and the
+coefficient-one argument for surface birationality and full inverse support.
+It also checked the conditional cone inference without assuming the
+unevaluated component Picard equality.
+
+For the alternative, the reviewer reconstructed the Ext base-change
+sequence, the nonzero-versus-generically-invertible distinction, and the
+actual-twist line calibration. The optional paper-specific pairing
+discussion was not audited and is not a premise of the allocation.
+The resulting diagnostic is independently checked within that boundary.
+
+**Current recommendation:** execute the one fixed palindromic-target test
+in the stated order: independent target replay and normalized support;
+component Picard equality; residue gluing; unique-section recovery and
+nonzero contact determinant. Stop this candidate at its first failed gate
+and extract the obstruction's geometric meaning. If all gates pass, an
+actual degree-eight carrier is obtained and its full conductor/mate descent
+is the next separate question. Failure is not authorization to enumerate
+further targets. No reduction of arbitrary STCI pairs to this construction
+is asserted or needed for a successful existence example.
+
+Both producers and the reviewer have completed their bounded assignments.
+This recommendation is reported before the technical experiment starts.
+No candidate gate has been run, no carrier or mate is established, and
+all new mathematical contributions remain reviewed provisional results.

@@ -538,6 +538,18 @@ Existence remains a live possibility, and new examples should answer a
 named question before more cases are assigned. Both producers and the
 fresh reviewer completed their assignments without starting another round.
 
+The subsequent bounded comparison is recorded in
+[assessment §6](2026-10-31-unrestricted-strategy-assessment.md#6-executed-comparison-canonical-gluing-versus-duality-specialization).
+It produced a [canonical nodal-curve extension criterion](2026-10-31-elliptic-canonical-extension.md)
+for the elliptic construction source, including normal quadric cones.
+The competing duality specialization retains a canonical lattice and
+endpoint defect data but currently gives no new controllable global
+restriction. The proposed next experiment tests the existing palindromic
+target's component polarization, intrinsic gluing and contact conditions,
+stopping at its first failed gate. The target has not been replayed or
+tested in this selection round, and no admissible carrier or mate is
+claimed. The assessment owns the comparison and its independent review.
+
 ## State at this integration checkpoint
 
 The retained proof notes and independent audits preserve the actual

@@ -6,6 +6,14 @@ This is a **conceptual navigation map**, not a new proof, a chronological record
 
 **Current research framing:** the [unrestricted strategy assessment](notes/2026-10-31-unrestricted-strategy-assessment.md) evaluates what the [geometric research integration](notes/2026-10-30-four-streams-integration.md) has added before another research round. Each result should yield geometric understanding, useful generalizations and an assessment of both existence and nonexistence. The earlier [research game](STCI_GAME.md) and [equation search](STCI_SEARCH.md) retain actual source spaces, exact tests and useful failures. These guide research selection, not theorem authority or the open status below.
 
+Its subsequent [canonical-extension proposal](notes/2026-10-31-elliptic-canonical-extension.md)
+reconstructs a smooth or cone quadric from the marked elliptic/rational
+nodal union, with explicit polarization, residue and contact conditions
+sufficient for an admissible carrier. The fixed target proposed for testing
+those conditions is unevaluated; no carrier, mate or unrestricted exclusion
+is claimed. This is a construction interface, not a classification of all
+STCI pairs.
+
 The [subsequent search continuation](notes/2026-10-29-search-continuation.md) gives a uniform mixed-weight \((6,6)\) exclusion and an attained arithmetic degree-growth bound on a specified non-binomial source. Its marked-quadric projection calculation is partial: the remaining admissible and descent loci are explicitly open. These are reviewed provisional contributions, not additions to the canonical result list.
 
 For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is \(C_0\) a set-theoretic complete intersection of two surfaces in characteristic zero? **Open.** For a proper intersection \(Y=V(F_a,G_b)\) containing \(C_0\), the cycle can be studied as \([Y]=m[C_0]+R\), with \(ab=4m+\deg R\). Study residual components, attachment/gluing and constructive specialization in their own right; \(R=0\) is a possible endpoint rather than an assumed impossibility. The [October 27 integrated vision](notes/2026-10-27-containing-intersections-research-vision.md) links reviewed provisional deductions and concrete next experiments without promoting them. Do not infer a residual curve downstairs from exceptional vertical cycles.
