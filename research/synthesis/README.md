@@ -91,6 +91,10 @@ The [fixed-model and universal constructions](01-problem-and-curve.md#12b-positi
 
 The [fixed-quartic binomial criterion](01-problem-and-curve.md#12c-exact-frobenius-binomial-criterion-for-a-quartic-first-carrier) determines exactly when a quartic first equation and a degree-\(p^r\) Frobenius-binomial second equation have sole reduced support. It explains the characteristic-five jump from \(5\) to \(25\) inside that family, without asserting global minimality.
 
+## The binomial family is completely classified by reduced support
+
+The [component calculation](01-problem-and-curve.md#12d-necessity-of-the-frobenius-exponent-and-all-reduced-components) shows why Frobenius is essential: an exponent-compatible degree-\(n=p^rm\) second binomial produces exactly \(m\) distinct quartics. The sole-support cases are precisely the \(p\)-power exponents; the characteristic-zero ansatz has no such case.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
