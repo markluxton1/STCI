@@ -60,17 +60,9 @@ For the carrier route, start with [Chapter 4](04-carriers.md) for the exact fixe
 
 The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-the-exact-ideal-power-theorem-contributes) supplies all homogeneous sections of \(I_C^m(d)\) in the stable range \(d\ge3m\). [Chapter 2](02-two-surfaces.md#27a-ambient-ideal-powers-and-normal-symbols) and [Chapter 3](03-infinitesimal-geometry.md) distinguish that source description from the image of normal-symbol and finite-jet maps. The distinction is necessary for both the global determinant and uniform residual-degree programs; it is not an additional STCI exclusion.
 
-## A concrete successive-jet failure
+## The conditional (6,16) calculation
 
-The [conditional (6,16) calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence) contains a useful worked negative example: a smooth quadratic root and multiplier satisfy the eleven **actual** leading-symbol equations but fail the next cubic-jet comparison by an exact nonzero pairing. This distinguishes a complete first-symbol source calculation from a successful higher-order global lift without claiming an exclusion of the entire family.
-
-## The finite (6,16) incidence, not just the failed seed
-
-The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction) connects the explicit eleven first-symbol equations to the constant-rank cubic-jet quotient obstruction, the second-obstruction pairings and full-root torsion. The [frontier](06-frontier.md#611c-the-finite-616-incidence-after-the-cubic-simplification) states the bounded elimination task and its limited exclusion scope. The known failed smooth seed is one point rejected by this system, not a proof of global emptiness.
-
-## Direct cubic coefficient equations
-
-The conditional [sextic calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) now gives four polynomial equations for the unique possible cubic correction, without dividing by root coefficients. This refines the finite (6,16) necessary-condition incidence while preserving singular roots and multiplier-zero cases.
+The [detailed source calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) computes eleven actual sextic leading-symbol equations and gives a division-free four-equation test for the unique possible cubic correction. The correction map has constant rank sixteen and a twenty-four-dimensional quotient obstruction. A specified smooth seed passes the leading-symbol equations but fails the cubic comparison by an exact nonzero pairing. The [frontier](06-frontier.md#611c-the-finite-616-incidence-after-the-cubic-simplification) describes the remaining joint incidence with second obstructions and full-root torsion. Neither the failed seed nor the source calculation excludes the entire family.
 
 ## How the integrated arguments fit together
 
