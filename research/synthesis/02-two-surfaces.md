@@ -91,6 +91,12 @@ The blowup has intrinsic horizontal direction schemes. Weighted valuations in ra
 
 For the fixed quartic, the historical ideal-power theorem identifies global sections of the m-th ideal-sheaf power in degree d at least 3m with the degree-d ordinary homogeneous ideal power and proves H1 vanishing. This is a complete description of an ambient equation space in that range, not a theorem about its singularity strata or possible mates. Global properness and residual support remain separate tests.
 
+## 2.7A Ambient ideal powers and normal symbols
+
+For the fixed quartic, the source-level ideal-power theorem identifies H0(I_C^m(d)) with the degree-d part of the ordinary ideal power and gives H1(I_C^m(d))=0 for d at least 3m. The proof restricts to the unique quadric and recursively describes the ambient forms, including degree-3m products of cubic generators. See [the exact source theorem](formal-normal-intersection.md#12-what-the-exact-ideal-power-theorem-contributes).
+
+This determines the ambient equation space, not the image of its leading normal-symbol restriction. The latter may have additional linear conditions; successive normal symbols must also arise from the same homogeneous equation. A complete source description is therefore a starting point for the generic-length and residual-cycle tests, not an STCI exclusion.
+
 ## 2.8 A global equation-module criterion
 
 For a fixed embedded curvilinear lower thickening of generic length n, the October 27 source establishes a determinant test for actual proper pairs of degrees a,b with ab=(n+1)deg(C). The determinant vanishes exactly for pairs with sole reduced support C; otherwise the residual degree is deg(C). The existence of proper determinant-zero pairs remains a separate source-space problem. See Chapter 3 for the hypotheses and the independent lifting test.
