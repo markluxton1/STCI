@@ -1,6 +1,7 @@
 # Characteristic-zero STCI: geometric research integration
 
-Date: October 30, 2026. Branch: `codex/stci-char0-four-streams-2026-10-30`.
+Date: October 30, 2026; continued October 31.
+Branch: `codex/stci-char0-four-streams-2026-10-30`.
 Research base: `317d5bc`; the consolidated branch was inspected at
 `0b18029`. This is a research decision record, not theorem authority.
 
@@ -257,6 +258,65 @@ The simultaneous fixed surfaces remain useful because they identify the
 actual normal action that a complete compatibility argument must control.
 Nilpotence is an exact formulation, not a new obstruction by itself.
 
+## Fifth integration: actual Jacobians, contact geometry, and the tropical model
+
+The next continuation tested finite-cover duality and checked primary
+logarithmic/toroidal literature before opening further lanes. The latter
+gave no applicable constraint on the missing normal action: the available
+statements either concern reduced support or introduce pair-dependent
+modifications without the needed global bound. No separate log-boundary
+calculation was launched.
+
+The [Jacobian/contact investigation](2026-10-31-cyclic-cover-duality.md)
+and [independent audit](2026-10-31-cyclic-cover-duality-audit.md) yield an
+actual equation constraint for every hypothetical characteristic-zero
+supported pair. If Mij are the 2-by-2 gradient minors, all six generate
+the socle sheaf and, in its twist O_C(6), recover the tangent Plücker
+sextics. In particular
+\[
+M_{12}-2M_{03}\in(F,G),\qquad (F,G):M_{12}=I_C.
+\]
+The plane-pencil different is the nilpotent ideal
+`S(-3p0-3pInfinity)`, not a Cartier ramification divisor on Z.
+The first identity expresses involutivity for the contact structure
+whose affine symplectic form is `dx0 wedge dx3 - 2 dx1 wedge dx2`.
+It holds in the actual defining ideal, not only its radical.
+
+The investigator was a fresh `gpt-6-astra/ultra` worker, with bounded
+literature support and independent proof reconstruction by separate
+`gpt-6.1-sol/high` workers. Review found that a proposed absolute-duality
+normalization was not covered by the cited relative statements. An
+elementary varying-projection argument replaced it, and the unnecessary
+stronger assertion was removed. The revised conclusions pass review.
+The relative Jacobian-socle input is credited to the existing October 14
+proof, not claimed anew. A genuine Legendrian twisted-cubic STCI shows
+why involutivity by itself cannot be a general nonexistence theorem.
+
+The user then suggested tropical compactification and characteristic
+comparison, without making that route compulsory. The
+[tropical-model note](2026-10-31-tropical-model-characteristic.md) and
+[independent audit](2026-10-31-tropical-model-characteristic-audit.md)
+give a positive geometric statement: after the unimodular torus change
+`(t,u,v)=(x1/x0,x0^2*x2/x1^3,x0^3*x3/x1^4)`, the whole curve is
+`P1 times {(1,1)}` in `Y=P1 times G_m^2`, cut out scheme-theoretically
+by u-1 and v-1. This is an actual schön tropical compactification in
+every characteristic. Its morphism to P3 contracts the two boundary
+tori, and the induced normal map `O_C^2 -> N_C/P3` has invariant
+factors (3,4) at each endpoint. This gives an explicit geometric origin
+for fourteen units of normal degree and retains their point valuations.
+Clearing the two particular equations' denominators introduces a line;
+this is not a proof that all choices must acquire residual support.
+
+Characteristic two makes the reduced fourth-power cover inseparable.
+Independently, characteristic dividing the generic thickness kills the
+trace and relative Jacobian. The existing characteristic-seven (4,7)
+construction supplies a concrete control with tame reduced cover and
+zero trace. The tropical CI persists in characteristic zero, so these
+observations locate rather than solve its projective descent problem.
+The general tropical existence theorems establish a schön/lci model
+after choosing a very affine open; the stronger global Cartier-STCI
+claim for arbitrary curves is not settled by the checked sources.
+
 ## State at this integration checkpoint
 
 The retained proof notes and independent audits preserve the actual
@@ -272,7 +332,9 @@ full nonlinear transitions, normal multiplication and the actual ambient
 twists. The affine endpoint criterion asks for a strict multiplicity
 inequality for every affine supported pair, or one equality construction;
 the finite-cover criterion asks whether an actual homogeneous pair can
-realize the required nilpotent algebra. Neither bridge is proved.
+realize the required nilpotent algebra. The new contact identity adds an
+actual equation constraint, and the tropical normal maps identify an
+explicit change of ambient geometry. Neither completes the global bridge.
 Repeating the reduced determinant obstruction, extending a fixed-carrier
 calculation, or testing successively more trace moments without a uniform
 principle would not complete that task. Literature and existing evidence

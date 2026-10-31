@@ -14,6 +14,16 @@ pencil and multiplication by q retain the missing normal action. A first
 trace shortcut has an explicit counterexample. These independently reviewed
 proposals give no unrestricted existence or nonexistence theorem.
 
+The [subsequent Jacobian/contact result](notes/2026-10-31-cyclic-cover-duality.md)
+adds an independently reviewed condition on the actual arbitrary ideal:
+`M12-2M03` belongs to `(F,G)`, with the full Jacobian tuple generating
+its socle sheaf. The [tropical model](notes/2026-10-31-tropical-model-characteristic.md)
+realizes the whole curve as a scheme CI in `P1 times G_m^2` and measures
+the endpoint normal map to P3 by invariant factors (3,4) at each end.
+Both are geometric inputs, not an unrestricted obstruction or a required
+new agenda. Their audits and characteristic qualifications are linked
+from the integration record.
+
 The open target is a global compatibility constraint or construction for
 arbitrary higher supported structures. The affine endpoint multiplicity
 criterion and finite-cover nilpotence criterion are exact formulations,
