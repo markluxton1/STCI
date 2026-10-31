@@ -41,6 +41,15 @@ an upper bound, construction or next technical experiment. Reopening
 needs an actual construction to test or a specified geometric
 comparison constraining this same boundary, not endpoint enumeration.
 
+The [conductor-action and liaison-addition assessment, §29](notes/2026-10-31-unrestricted-strategy-assessment.md#29-conductor-endomorphisms-retain-the-embedding-problem-liaison-addition-has-actual-input)
+distinguishes the CM conductor and full section ring from the actual
+embedded coordinate image. Its full quadratic operator reconstructs
+the branch ideal, so a classification without new input would restate
+the equation problem. An explicit supported ACM liaison addition of
+the two branches exists, but retains the forbidden quartic norm.
+This corrects the missing-input diagnosis without selecting a new
+construction search, module classification or technical experiment.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

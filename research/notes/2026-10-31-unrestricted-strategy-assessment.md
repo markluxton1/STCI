@@ -2409,3 +2409,190 @@ or a new geometric comparison that constrains this same boundary.
 No further technical experiment is selected. All three assignments
 are complete; no nested delegation or numerical experiments occurred.
 The result remains provisional and unrestricted STCI remains open.
+
+## 29. Conductor endomorphisms retain the embedding problem; liaison addition has actual input
+
+This selection compared a possible global use of the quadratic conductor
+action with an actual construction operation on the smooth covering
+quadric. It selected no new classification or technical experiment.
+The setting is the fixed characteristic-zero C0 and the full hypothetical
+supported CI from the [boundary note](2026-10-31-quadratic-cover-boundary.md).
+All statements below use its actual graded rings, not just the reduced
+curve or generic function field. These are independently reviewed
+provisional deductions, with the scope recorded below.
+
+**The CM conductor does not repair the embedded curve.**
+Write \(A=S/(F_\alpha,G_\beta)\), \(e=\alpha+\beta-4\),
+\(A\subset B=A+Az\), \(z^2=r=2bc-ad\), and
+\(\mathfrak c=\operatorname{Hom}_A(B,A)\), \(T=A/\mathfrak c\).
+The exact sequence
+\[
+0\longrightarrow\mathfrak c\longrightarrow A\longrightarrow T
+\longrightarrow0
+\]
+and the already established depths two and one give
+\(\operatorname{depth}\mathfrak c=2\). This is a consequence of the
+existing boundary result, not another independent restriction.
+The conductor is MCM over A, but has dimension and depth two over
+the four-dimensional covering ring E, so is not MCM over E.
+
+Finite duality identifies \(\mathfrak c(e)=\omega_B\). The canonical
+endomorphism construction therefore gives
+\[
+B^\sharp=\operatorname{End}_B(\mathfrak c)
+        =\operatorname{End}_A(\mathfrak c).
+\]
+For the second equality, localize in the common full total quotient
+algebra: c has rank one there, so its A-endomorphisms are multiplication
+operators and commute with B. The primary branch is unmixed.
+[Hochster–Huneke, §2.2(f,h), Proposition 2.7](https://arxiv.org/pdf/math/0211172)
+identify this ring as the finite S2-ification. Here B is CM off its
+cone vertex, and the graded section sequence gives
+\[
+B^\sharp=\bigoplus_{n\in\mathbf Z}H^0(W,\mathcal O_W(n)),\qquad
+B^\sharp/B=H^1_{\mathfrak m}(B)=M_W.
+\]
+Thus this operation fills the section ring of the same projective
+scheme W. It does not change W's given ambient restriction maps or
+turn their coordinate image B into an ACM quotient. The full graded
+ring can include negative-degree nilpotent sections; it is not
+automatically another standard graded quotient in the same coordinates.
+
+There is actual quadratic action on the conductor,
+\(\mu:\mathfrak c\to\mathfrak c(1)\), with \(\mu^2=r\), and on \(M_W\).
+Since \(B^\sharp\mathfrak c\subset\mathfrak c\), one has
+\(\mathfrak c M_W=0\), so the latter is a module over
+\(T[z]/(z^2-r)\). But multiplication by z does not preserve the even
+copy of T in the quadratic conductor boundary: it sends it into
+the odd summand. No compatible z-action on the two terms of
+\(T(e-1)\hookrightarrow\omega_T\) is inherited by that argument.
+
+The full action, with its embedding retained, has an exact meaning.
+In \(R=A[z]/(z^2-r)\),
+\[
+\ker(R\longrightarrow B)
+=\{zh-\mu(h):h\in\mathfrak c\}.
+\]
+A relation \(p+zq=0\) says exactly that \(q\in\mathfrak c\) and
+\(p=-\mu(q)\); stability under z follows from
+\[
+z(zh-\mu(h))=-\bigl(z\mu(h)-\mu^2(h)\bigr).
+\]
+Geometrically, this records which multiples of the omitted coordinate
+descend, and their actual descended sections. It reconstructs the
+embedded branch ideal. Asking for the allowable embedded conductor
+and action, without a further comparison, restates that equation
+problem. Keeping only module ranks or twists drops these crucial maps.
+
+The second E-syzygy of c is MCM and is eligible for the quadric module
+classification, but its maps back to c, the embedding into A, and
+mu remain to be supplied.
+[Drozd, Lemma 2 and Theorem 2](https://arxiv.org/pdf/math/0409243)
+require the actual curve to be ACM for its ordinary E-type module to
+be ACM/MCM. That hypothesis is unavailable for arbitrary W.
+[Hartshorne–Migliore–Nagel, §5](https://academicweb.nd.edu/~jmiglior/HMN.pdf)
+retain a compatible surjection as well as Rao and MCM modules for
+non-ACM curves. Those data may contain more than numerical postulation,
+but no checked theorem makes their actual conjugate compatibility
+impossible here.
+
+**Liaison addition has a real support-compatible input, with an early failure.**
+For ideals \(I_1,I_2\) on Q3 and a regular pair \(F_i\in I_i\), the
+same paper's Definition 2.1 and Lemma 2.2 give the saturated ideal
+\[
+J=F_2I_1+F_1I_2
+\]
+and exact sequence
+\[
+0\to E(-d_1-d_2)\to I_1(-d_2)\oplus I_2(-d_1)\to J\to0.
+\]
+Its support includes both input curves and \(V(F_1,F_2)\);
+its Rao module is the direct sum of the shifted input modules.
+Consequently using the deficient reduced union \(D\cup\sigma D\)
+as an input cannot repair its Rao module. This does not exclude
+using the two ACM rational normal curves separately.
+
+Indeed put \(P=I_D\), \(f=b^2-az\), \(g=c^2-dz\), and choose
+\[
+F_1=f,\qquad F_2=g^3-4d^4f.
+\]
+On \(\sigma D\), \(f=2s^6t^2\) and \(g=2s^2t^6\), so
+\(F_2\in\sigma P\). Also \((f,F_2)=(f,g^3)\), a regular sequence
+supported on D by the accepted power-source calculation. Therefore
+\[
+J=F_2P+f\,\sigma P
+\]
+is an actual ACM curve supported on \(D\cup\sigma D\).
+It adds the two branches and a CI thickening on D; it does not
+assert equality of the two conjugate primary structures.
+
+The existing obstruction applies immediately:
+\(f\sigma(f)\in J\). Every D-primary extraction contains J, and its
+conjugate also retains this invariant quartic. Their union therefore
+descends with a quartic equation in its ideal, ruling out a supported
+CI image by the accepted low-carrier exclusion. The same gate applies
+to every such addition retaining \(F_1=f\), regardless of \(F_2\).
+This is a check of available input using an existing obstruction,
+not a new exclusion of liaison addition generally.
+
+[Casanellas–Drozd–Hartshorne, Proposition 3.4](https://arxiv.org/pdf/math/0307378)
+does give an operation when an N-type sheaf N has an orientable
+rank-two ACM subsheaf with locally CM quotient N' of rank at least
+two. It uses sufficiently general sections and even G-liaisons to
+obtain a resolution with N'; this is N-type only under the additional
+vanishing \(H^1_*(N'^\vee)=0\). The operation neither prescribes this
+fixed support nor the conjugate partner, and even G-liaison preserves
+Rao modules up to twist. It does not supply the missing equation maps
+in the successful form required here.
+
+**Comparative decision and stopping.**
+The conductor calculation prevents replacing the actual coordinate
+ring by its CM section ring and claiming an embedded repair. It also
+isolates an actual action on the Rao module, without asserting an
+unproved action on T or a second numerical budget. The liaison check
+shows that support and ACMness can be achieved together upstairs;
+their achievement still need not remove a forbidden downstairs
+equation or give the required conjugate canonical structure.
+
+For existence, reopening needs an actual embedded operation escaping
+that norm with specified support and conjugation control. For
+nonexistence, it needs a defined constraint on the actual conductor
+action or presentation maps beyond the existing scalar identities.
+A result deciding such a proposed test is not required in advance.
+No spinor-twist, Rao-module, endpoint or liaison-chain classification
+is selected. These findings supply neither an upper conductor bound
+nor residual positivity; STCI existence remains live.
+
+Two fresh gpt-6-astra/xhigh scouts performed the separate literature
+and input checks; a fresh gpt-6.1-sol/high reviewer challenged the
+selection and independently reconstructed its consequential claims.
+The preliminary assertion that support-compatible liaison input was
+missing was corrected by the explicit pair above before reliance.
+No nested delegation, numerical experiment or local classification
+was run, and no further technical experiment was selected.
+
+**Review disposition.** The scouts were
+/root/quadratic_action_global_selection and
+/root/quadric_liaison_construction_selection; both assignments are
+complete. The independent reviewer,
+/root/conductor_module_strategy_challenge, checked the written §29
+at assessment-file SHA256
+
+    1cd97fe66a8d0f4fb5dc75ac097d23d599a9bd8bcba11b38101542796f0d2182
+
+and returned scoped PASS subject to one CDH hypothesis clarification.
+That clarification is incorporated above: orientable rank-two ACM
+subsheaf, locally CM quotient of rank at least two, and the additional
+dual-cohomology condition for an N-type output. The parent checked
+the correction; the subsequent edits only record this review state.
+No material finding remains unresolved in this section.
+
+The review independently covered the canonical-endomorphism theorem's
+application, equality of endomorphism rings, full graded section-ring
+and Rao quotient identifications, conductor annihilation and quadratic
+action, graph reconstruction, syzygy depth and E-type distinction,
+the exact liaison theorem and its saturation/ACM consequence, explicit
+regular pair and norm persistence, and comparative stopping decision.
+It reused the accepted low-carrier and supported-power proofs rather
+than re-auditing them. These scoped passes do not promote a canonical
+result or prove an unrestricted STCI conclusion.

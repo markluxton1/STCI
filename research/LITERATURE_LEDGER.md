@@ -839,6 +839,33 @@ arbitrary-supported-ideal coverage,
 nor mixed-characteristic specialization. None of these checked theorems
 supplies the missing embedded construction or an unrestricted exclusion.
 
+## Conductor action, section rings and actual liaison addition
+
+[Assessment §29](notes/2026-10-31-unrestricted-strategy-assessment.md#29-conductor-endomorphisms-retain-the-embedding-problem-liaison-addition-has-actual-input)
+checks the following sources against the actual embedded problem.
+[Hochster–Huneke, §2.2(f,h) and Proposition 2.7](https://arxiv.org/pdf/math/0211172)
+identify canonical endomorphisms with S2-ification under unmixedness.
+Applied to the conductor, this gives the full graded section ring,
+not automatic equality with the original coordinate ring.
+[Drozd, Lemma 2 and Theorem 2](https://arxiv.org/pdf/math/0409243)
+retain the ACM-curve hypothesis in the E-type/MCM correspondence;
+classification of a conductor syzygy leaves its actual maps unspecified.
+
+[Hartshorne–Migliore–Nagel, Definition 2.1, Lemma 2.2 and §5](https://academicweb.nd.edu/~jmiglior/HMN.pdf)
+give liaison addition and retain compatible maps in their non-ACM
+classification. Their ideal sequence allows an actual addition of
+D and its conjugate with support retained. The explicit input in §29
+still retains the forbidden quartic norm. Using the deficient union
+as an input instead retains its Rao module.
+[Casanellas–Drozd–Hartshorne, Proposition 3.4](https://arxiv.org/pdf/math/0307378)
+requires an orientable rank-two ACM subsheaf of an N-type sheaf
+with locally CM quotient of rank at least two. Its general-section
+and even-G-liaison operation gives a resolution by that quotient,
+N-type only with the stated dual-cohomology vanishing; it does not
+prescribe this support or conjugate partner.
+These checks do not exclude the general operations or establish an
+unrestricted obstruction.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
