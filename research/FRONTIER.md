@@ -30,7 +30,7 @@ results need their own committed source and applicable review.
 | Actual global pairs | [Exact source spaces](supplements/ACTUAL_EQUATION_SPACES.md), [Chow/complement equivalents](synthesis/global_equations_and_constructions.md) | Produce a proper pair with exhausted cycle, or prove an incompatibility covering every relevant source; dimension and equivalent formulation alone do neither |
 | Embedded lower thickenings | [One-step and filtration tests](synthesis/03-infinitesimal-geometry.md) | Determine a proper decomposable determinant-zero point in the actual equation spaces across a justified family of lower embeddings |
 | General roots and initial ideals | [Root and normal-filtration tools](synthesis/normal_filtration_boundary_obstructions.md) | Handle singular/nonreduced roots, nonsaturation, extra generators, noncoprime next relations and failure of joint generation; no arbitrary entirely-thick→movement-two reduction is known |
-| Spectral graded families and their realization | [All-power coefficient construction](synthesis/spectral_pushforward_powers.md), [full-root classification](synthesis/spectral_pushforward_boundary.md) | Lift a kernel-derived graded CI family into the actual embedded neighborhood with all higher corrections; independently, determine determinant scheme multiplicities. Unbalanced reducible roots have nonunit kernels and give no graded CI by this construction |
+| Spectral graded families and their realization | [Universal graded family on the torsion scheme](synthesis/spectral_determinant_schemes.md), [fixed-root lifting test](synthesis/spectral_pushforward_powers.md#6-testing-this-example-in-the-actual-embedding), [full-root classification](synthesis/spectral_pushforward_boundary.md) | Vary the root to seek an actual embedded lift with all corrections; the explicit order-three root fails already at the first step. Under the saturated global hypotheses, exact order three requires (2,12;6,16). Independently, determine the singular-root determinant scheme and total p-divisible torsion geometry |
 | Punctual comparison defects | [R-0030](results/local_filtration_comparison_defect.md), [supported specialization control](synthesis/comparison_defect_specialization.md) | Decide nonzero relative defect under sole support and generically vanishing comparison defect; a nonzero exceptional-fiber defect need not be a relative defect, and residual-support controls do not answer existence |
 | Conditional sextic incidence | [Full source calculation](synthesis/normalization_conductor_phase2_addendum.md), [unique actual lift](synthesis/rank_strata_and_sextic_lifts.md) | Cubic matching determines at most one actual sextic on the necessary root open; resolve the surviving root/target incidence and then a mate and support. Generic-conic, zero-defect pencil and endpoint strata remain; the seed and free cube-orbit chart are already excluded within their exact scopes |
 | Actual carrier families | [Fixed-carrier descent](synthesis/04-carriers.md), [Q-0001](questions/cartier_projection_models.md) | Compute admissible images, full inverse support and complete conductor phase; include non-Cartier/multiple-branch carriers outside singleton classification |
@@ -147,10 +147,11 @@ The surviving universe remains wider than these tests: higher-index and non-Cart
 Promising broader questions include realizing singular conductor gluing compatible
 with an actual projection and extending tame projection-section arguments to
 other covers. The [all-power spectral extension](synthesis/spectral_pushforward_powers.md)
-and its [singular boundary](synthesis/spectral_pushforward_boundary.md) now have
-independent review as provisional results. Their intrinsic classification and
-graded construction leave actual embedded lifting and determinant scheme
-structure as distinct next questions. Each needs precise source and comparison
+and its [singular boundary](synthesis/spectral_pushforward_boundary.md) have
+independent review as provisional results. The [scheme continuation](synthesis/spectral_determinant_schemes.md)
+now supplies the smooth-root Picard torsion scheme and universal graded family.
+Actual embedded lifting on varying roots and scheme structure at singular
+roots remain distinct next questions. Each needs precise source and comparison
 hypotheses.
 The surface-normalization conductor and the separated quadratic-cover conductor
 are different objects; their bounds cannot be combined without a proved map.

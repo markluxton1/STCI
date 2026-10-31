@@ -46,13 +46,14 @@ The [projected-source calculation](synthesis/projected_thickening_section_defect
 | [One extra homogeneous module generator](synthesis/quadratic_covers_and_conductor_descent.md#11-a-common-graded-mechanism-one-extra-homogeneous-module-generator) | Canonical-module inequalities for finite birational graded extensions of Gorenstein curve rings; a module-generator hypothesis is stronger than algebra generation |
 | [Quadratic norm and postulation](synthesis/quadratic_covers_and_conductor_descent.md#81-ambient-quadratic-norms-force-conductor-postulation) | Converts actual conductor membership into an ambient polynomial relation, then a Hilbert-function bound; the separated-cover application has additional characteristic hypotheses |
 | [Projection section defects](synthesis/projected_thickening_section_defects.md) | A parameter-sequence and Jacobian-socle mechanism for finite projection of nonreduced schemes; the generalized version may change the reduced curve |
-| [All spectral powers and coefficient kernels](synthesis/spectral_pushforward_powers.md), [full-root boundary](synthesis/spectral_pushforward_boundary.md) | Reviewed provisional results in every characteristic: ruling-difference torsion controls every pushforward power on balanced root types, and a matrix kernel constructs a graded CI family; the unbalanced reducible exception is explicit. The [actual fourth-power application](synthesis/spectral_torsion_and_syzygy_splitting.md) retains its own embedded hypotheses |
+| [Spectral powers](synthesis/spectral_pushforward_powers.md), [determinant schemes and universal families](synthesis/spectral_determinant_schemes.md), [full-root boundary](synthesis/spectral_pushforward_boundary.md) | Reviewed provisional results in every characteristic: smooth-root determinants present Picard torsion schemes and their kernel lines construct graded CI families over those schemes. The unbalanced reducible exception and fixed-curve/total-space multiplicity distinction are explicit; the [actual fourth-power application](synthesis/spectral_torsion_and_syzygy_splitting.md) retains its own embedded hypotheses |
 | [Ruled-surface criterion](synthesis/ruled_surface_degree_criterion.md) and [numerical pullback](synthesis/numerical_surface_pullback.md) | Degree/genus and ideal-versus-numerical pullback comparisons under their own geometric hypotheses; the quartic and quintic uses are applications |
 
 Conductor–differential comparisons and more general tame covers remain additional
-directions. For the spectral construction, the next questions are determinant
-scheme structure and realization of its graded families in the actual embedded
-neighborhood. Only a statement
+directions. For the spectral construction, the next questions concern determinant
+schemes at singular roots and realization of varying graded families in the
+actual embedded neighborhood; the explicit order-three root fails its first
+lift. Only a statement
 with its governing proof is an available lemma; a promising extension is still a
 proposed bridge. In particular the surface-normalization conductor is not the
 conductor of the quadratic separation of a nonreduced intersection.

@@ -100,6 +100,19 @@ These results do not supply an actual embedded lift or global pair, and no
 canonical result is promoted. The source checkpoint's later bounded exclusion
 calculations remain outside this statement.
 
+The reviewed provisional [scheme continuation](synthesis/spectral_determinant_schemes.md)
+identifies D_n with the relative Picard n-torsion scheme on the smooth-root
+open. The determinant is reduced and smooth when n is invertible, its gcd
+intersection rule holds scheme-theoretically there, and its kernel line
+constructs a universal graded (2,n) family for n>2, including nonreduced
+parameter bases. Fixed-elliptic-curve multiplicities when p|n do not determine
+total parameter-space multiplicities. In characteristic zero the
+[explicit order-three root](synthesis/spectral_pushforward_powers.md#6-testing-this-example-in-the-actual-embedding)
+fails the first ambient lift by an exact three-term certificate. Other roots
+remain untested here. Under the full saturated movement-two hypotheses,
+R-0014 and exact order three retain only (2,12;6,16) as a projective numerical
+target; this does not negate abstract (2,6) graded existence.
+
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.
 A source-reviewed result need not have a promoted ID. Characteristic extensions

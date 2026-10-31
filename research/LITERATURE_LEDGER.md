@@ -590,3 +590,19 @@ their mathematical homes:
 These entries reuse the scoped primary checks recorded with the selected
 contributions and their independent reviews. They do not certify unchecked
 extensions or assert literature novelty.
+
+## Spectral determinant schemes and characteristic-dependent fiber lengths
+
+The [smooth-root determinant-scheme proof](synthesis/spectral_determinant_schemes.md)
+uses [Stacks, Fitting ideals](https://stacks.math.columbia.edu/tag/07Z6)
+for presentation independence and arbitrary base change. [Stacks 0BA0](https://stacks.math.columbia.edu/tag/0BA0)
+provides fixed-curve Picard background; the required relative genus-one
+evaluation-divisor argument is written in the proof, rather than inferred
+from that fixed-curve statement. [Sutherland, MIT 18.783 Lecture 13, slide 2](https://math.mit.edu/classes/18.783/2022/LectureSlides13.pdf)
+supplies separable/inseparable isogeny factorization, kernel cardinality and
+multiplicativity of the two degrees. These justify torsion multiplicities
+on a fixed elliptic curve. They do not identify those multiplicities with
+the total coefficient-space divisor; the characteristic-two determinant
+example explicitly prevents that inference. The coefficient-matrix comparison
+and universal graded-family construction are repository deductions, not
+assertions of literature novelty or actual embedded realization.

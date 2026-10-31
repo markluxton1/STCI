@@ -181,7 +181,9 @@ construction against R-0008 and its retained audit. No material error or
 unresolved proof gap was found. No mathematical computation was needed or run.
 
 The theorem classifies geometric fibers of the coefficient matrices. The
-scheme structure and multiplicities of their determinant divisors, especially
-when the characteristic divides n and along the unbalanced stratum, remain
-open here. The existing normal-source, actual-neighborhood and
+[smooth-root scheme continuation](spectral_determinant_schemes.md) identifies
+the determinant with the relative Picard torsion scheme and constructs a
+universal graded family there. Scheme structure along singular roots,
+including the unbalanced stratum, remains open here. The existing
+normal-source, actual-neighborhood and
 projective-support hypotheses remain separate; no canonical result is promoted.

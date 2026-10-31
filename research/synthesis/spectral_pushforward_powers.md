@@ -93,6 +93,8 @@ no assertion about determinant multiplicities, reducedness of its parameter
 scheme, or transverse intersection with an ambient compatibility locus is made.
 This qualification is particularly important when char(k) divides n.
 For n=2 and n=4, (4) recovers the existing 3-by-3 and 15-by-15 detectors.
+The independently reviewed [determinant-scheme continuation](spectral_determinant_schemes.md)
+addresses the scheme structure on the smooth open separately.
 
 The construction of the matrix and sequence (2) also makes sense for a
 singular or nonreduced basepoint-free root. The independently reviewed
@@ -198,6 +200,54 @@ n=3 supplies a graded family of type (2,3), and n=6 one of type (2,6).
 These are deductions from the torsion construction and the theorem,
 not a claimed computer-algebra execution or an ambient realization on C0.
 
+## 6. Testing this example in the actual embedding
+
+Work in characteristic zero and put z=t/s, so the example is
+f=-z*u^2-u*v+z^2*v^2 in the fixed
+balanced normal coordinates. The accepted first ambient operator of
+[R-0007](../results/quadratic_root_obstruction_model.md) is represented by
+
+    d_f = pr_[z^-4,...,z^-1]( f_u*DU + f_v*DV + f_z*alpha ),
+    DU = -(5/2)z^-4*u^2 - 3z^-3*u*v - (3/8)z^-2*v^2,
+    DV = 3z^-5*u^2 - z^-4*u*v - (9/4)z^-3*v^2,
+    alpha = z^-3*u + (1/2)z^-2*v.
+
+The permitted equation-unit correction is f*h, with
+h=a(z)u+b(z)v and a,b supported on z^-6,...,z^-1. The following
+functional on the cubic Cech target annihilates every such correction:
+
+    lambda(r) = -[z^-3]r_(u^3) + [z^-4]r_(u^2*v)
+                +[z^-3]r_(v^3).
+
+Indeed the relevant coefficients of f*h are -z*a, -a-z*b and z^2*b,
+so lambda(f*h)=a_-4-a_-4-b_-5+b_-5=0. Direct substitution in d_f gives
+the three tested coefficients 4, 7/2 and 0, hence
+
+    lambda(d_f) = -1/2 != 0.                                    (11)
+
+Thus this fixed embedded root fails the first ambient Cartier-lifting
+test. Its graded constructions remain valid. Under the full hypotheses
+of [R-0006](../results/actual_ci_smooth_root_bridge.md), no actual pair
+whose root is this fixed equation and whose gap s-2>=2 can realize it.
+In particular increasing the next relation from six to twelve does not
+repair this fixed root. This does not exclude the order-three torsion
+locus: an abstract change of the two ruling coordinates need not preserve
+the actual embedded operator, and varying roots requires a new test.
+
+There is also a distinct numerical restriction on any projective target.
+Under all the saturated/full-generic-CI hypotheses of
+[R-0013](../results/saturated_actual_generator_movement.md) and movement two,
+[R-0014](../results/movement_two_six_rows.md) leaves only
+
+    (r,s;a,b)=(2,8;8,8) or (2,12;6,16)
+
+when r=2. For a smooth root of exact order three, the Picard condition
+3|s retains only the second row. A (2,6) graded family can therefore
+be studied for embedded realizability in its own right, but cannot be the
+full generic initial CI of a global pair under those hypotheses.
+The corresponding projective construction question uses (2,12) and
+surface degrees (6,16), and must vary the root beyond the failed example.
+
 ## Review and remaining realization question
 
 Independent review on 2026-10-31 by `review_spectral_powers` (GPT-6.1 Sol,
@@ -206,13 +256,26 @@ coefficient-map orientation, determinant/kernel identification, quotient-ideal
 construction, exact-order tests and explicit example against R-0008 and its
 retained proof. The review passed after clarifying that n>2 is the
 unequal-degree convention, not a nonexistence claim for degree-two second
-relations. No mathematical computation was needed or run.
+relations. No mathematical computation was needed or run for sections 1--5.
+
+For section 6, an exact rational diagnostic reused the
+[accepted incidence generator](../computations/generalization_quadratic_root_curve_universal_incidence.py)
+at (a1,b0,c2)=(-1,-1,1), with all other coefficients zero. It found rank
+12 and inconsistency. Equation (11) retains the complete three-term
+certificate as a direct proof; no new verifier or generated output is
+needed. Independent review by `review_spectral_powers` reconstructed its
+three coefficients, annihilation identity, first-lift bridge and numerical
+scope against R-0006, R-0007, R-0013 and R-0014. It passed after clarifying
+that a question about embedded realizability does not assert an embedded
+object. The reviewer did not rerun the diagnostic; the direct certificate
+is the independently checked evidence.
 
 The new construction ends at an abstract graded family. The next embedded
 question is which of these families admit successive lifts in the actual
 neighborhood of C0, with the fixed conormal embedding and all allowed higher
-corrections retained. The order-three example with second degree six gives
-a concrete starting object; one root does not cover its torsion stratum.
+corrections retained. The explicit order-three root fails the first step;
+the remaining question concerns varying roots, with the projective numerical
+scope in section 6 kept separate from graded or finite-neighborhood existence.
 The inherited actual n=4 obstruction model keeps all hypotheses stated in
 its owning chapter. No all-n ambient obstruction model, formal lift,
 projective pair or change to C0's STCI status is asserted here.
