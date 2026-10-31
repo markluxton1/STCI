@@ -330,11 +330,7 @@ isolated-rank-one differential obstruction.
 
 The exact companion
 [verify_session_ribbon_repeated_partitions_2026_10_09.py](../computations/verify_session_ribbon_repeated_partitions_2026_10_09.py)
-checks 72 identities. Its terminal replay returned exit zero and `PASS`
-on 2026-10-09, wall time `0.679139` seconds, with source SHA256
-`25a0ffcc2d4d46f1fec158ed6bde86b1b939725fe9396a57446e1c6ff4d182d8`.
-The JSON record is
-[session-ribbon-repeated-partitions-2026-10-09.json](../scratch/session-ribbon-repeated-partitions-2026-10-09.json).
+contains the 72 exact identity checks supporting this proof.
 
 The checks verify the literal RNC ideal, omitted-coordinate derivative,
 center-preserving reversal, every determinant and direction kernel,

@@ -323,9 +323,9 @@ where the compact, complete definition of the eight polynomials is
                          f_n(delta,a,B,Gs,Js), i=0,...,7.  (4)
 
 The exact checker verifies the automatic factor and the reconstruction
-by all eight extracted coefficients. Expanded polynomial artifacts
-`u0,...,u7` are preserved with individual hashes in the successful
-[coefficient capture](../validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/coefficient-artifacts.json).
+by all eight extracted coefficients. The expanded polynomial arrays
+`u0,...,u7` are retained together, beginning with
+[`u0`](../validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u0.txt).
 They have respectively 196,230,210,199,166,133,96,61 monomials before the
 change from `B` to `kappa` (the counts are descriptive and do not prove
 independence of the equations).

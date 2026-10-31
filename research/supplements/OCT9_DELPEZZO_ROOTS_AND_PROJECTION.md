@@ -123,8 +123,7 @@ quartic is excluded for every positive mate degree.
 Alpha or beta may be zero; only gamma delta Delta is required nonzero.
 The determinant and all projection calculations are universal in these
 parameters. They are checked in the independent
-[uniform projection checker](../computations/verify_session_genus_one_projection_2026_10_09.py)
-and its [JSON record](../scratch/session-genus-one-projection-checks-2026-10-09.json).
+[uniform projection checker](../computations/verify_session_genus_one_projection_2026_10_09.py).
 
 This construction binds one three-parameter family of pairs to the
 specific deleted-middle-coordinate projection. It does not identify
@@ -241,10 +240,6 @@ the actual conductor equality and the divisor claims.
 The checker returned exit 0 and `status: PASS` on 2026-10-09.
 Its source SHA256 is
 `326a5fd0f0d445cb4e51e2c3e53e447529c2c079caca8d45be8ac766d34eacc6`.
-The output is
-`research/scratch/session-a1-singular-conductor-parity-shield-2026-10-09.json`,
-with SHA256
-`dd6696a4945b6f6d5b573d6ea6908bfccee7f4e3a6f4959337fd46e83bf7ce3b`.
 Normality uses the primary
 [Stacks Project Serre criterion](https://stacks.math.columbia.edu/tag/031S).
 
@@ -388,14 +383,10 @@ parities of every one of the forty ambient roots. Exactly fifteen
 embeddings are 4A1 and ten are A3+2A1; their missing-root counts
 are sixteen and twenty-four. Every other embedding is saturated.
 
-Its terminal isolated execution passed in 0.091 seconds. The frozen
-owner source also completed its separate isolated replay with exit
-zero in 3.059 seconds. The terminal statuses, source snapshots, logs
-and output hashes are in
-[replay-manifest.json](../validation/2026-10-09-D5-root-audit/replay-manifest.json).
-The written signed-component proof establishes the theorem; these
-controls check its finite arithmetic representation. Neither process
-remains running.
+The written signed-component proof establishes the theorem; the two
+independent finite controls check its arithmetic representation. Their
+scope is the stated D5 lattice problem under the geometric hypotheses,
+not an unrestricted surface classification.
 
 ## 6. Combined accepted conclusion
 
@@ -711,11 +702,10 @@ source SHA256 is
 
     fdbb9bdddd0c7b6b20140835662b3526ba800aa814d3d71c5de91085097e3a7e
 
-The [JSON report](../scratch/session-delpezzo-D5-torsion-filter-2026-10-09.json)
-preserves all type counts, the lattice profiles, both root bases,
-both correction vectors and their intersections. It explicitly records
-that the checker does not classify all sectional-genus-one normalizations
-and does not claim to settle STCI.
+The checker reconstructs all type counts, the lattice profiles, both
+root bases, both correction vectors and their intersections. Its scope
+is the stated root-lattice filter: it does not classify all
+sectional-genus-one normalizations and does not settle STCI.
 
 The [bounded written audit](#source-2026-10-09-session-delpezzo-d5-torsion-independent-auditmd) accepted the frozen proof without corrections; its mathematical statements and checker source are unchanged.
 
@@ -1616,22 +1606,13 @@ image, finite birationality, equality of the conductor scheme and
 the all-mate obstruction.
 
 The final replay returned exit 0 and `status: PASS` on 2026-10-09.
-Output:
-`research/scratch/session-dp4-projection-local-lift-2026-10-09.json`.
 Source SHA256:
 `9cf1ac1ff6d30f1f0415afe59a3b987de06631253dd8359ca6fd55e9040f0dc0`.
-Output SHA256:
-`eede2536db9da0af4c0d7295106ba25e5aa378a71951e3b3a6a985a8163fc1f2`.
 
 The first replay failed at a SymPy structural-equality comparison of
 two differently factored expressions for the same discriminant. The
 expanded difference was exactly zero. The correction compares that
 expanded difference with zero; it changes no mathematical identity.
-The failed source bytes are preserved and hash-verified at
-`research/scratch/session-dp4-projection-local-lift-2026-10-09-failed-01-source.py`,
-with the failure record at the matching `failed-01.json` path. That
-source SHA256 is
-`a0101c34a7cbefd8fb12a4a6cf676134ff284094b981620dd4461202d3605e7a`.
 
 An independent adversarial proof accepted the finite birational
 normalization, actual conductor module and all-mate fiber obstruction;

@@ -729,24 +729,22 @@ source map is the previously recorded
 The exact new computations are:
 
 - [four-parameter family exporter](../computations/conditional_2_12_cubic_reduction_2026_10_21_family.py),
-  [Macaulay2 input](../computations/conditional_2_12_cubic_reduction_2026_10_21_family.m2),
-  and [metadata](../computations/conditional_2_12_cubic_reduction_2026_10_21_family.json);
+  and [Macaulay2 input](../computations/conditional_2_12_cubic_reduction_2026_10_21_family.m2);
 - [full global C3 specialization](../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.py),
   [its exact equations](../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.m2),
   and [all sixteen nonzero specialized equations](../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.json);
 - [lightweight exact certificate](../computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.m2)
   and [successful output record](../computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.json);
-- [independent rational-arithmetic reconstruction](../computations/conditional_2_12_cont2_independent_unit_audit_2026_10_21.py)
-  and [independent PASS record](../computations/conditional_2_12_cont2_independent_unit_audit_2026_10_21.json).
+- [independent rational-arithmetic reconstruction](../computations/conditional_2_12_cont2_independent_unit_audit_2026_10_21.py),
+  whose exact residual comparison and raw unit identity are explained below.
 
 The lightweight certificate runs with
 `M2 --script research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.m2`.
 It checks both exact ideal containments and then checks the final unit
 identity by literal polynomial multiplication. It does not rely on a
-unit marker from an interrupted large elimination. The older large
-coefficient lifts are preserved at
-[the archived exact lift matrices](../computations/conditional_2_12_cubic_reduction_2026_10_21_family_lifts.m2),
-but are unnecessary for this lightweight replay.
+unit marker from an interrupted large elimination. Its saved successful
+output establishes completion of this smaller exact check; the large
+coefficient-lift dump supplies no additional proof step.
 
 ## The norm-symbol equations collapse to a symmetric family
 

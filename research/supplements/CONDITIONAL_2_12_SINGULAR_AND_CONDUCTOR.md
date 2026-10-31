@@ -132,9 +132,8 @@ doubles the involution stratum. At `tau=0`, the quotient
 `Q12/tau=-6*delta^5` is a unit. The independent audit specifically
 caught and corrected this possible scheme error.
 
-The exact original-coordinate first/second incidence with (3) and
-open (1) is exported to
-`../computations/conditional_2_12_singular_continuation_2026_10_20_two_node.m2`.
+The [original-coordinate generator](../computations/conditional_2_12_singular_continuation_2026_10_20.py)
+constructs the exact first/second incidence with (3) and open (1).
 This replaces a 143-component torsion-kernel witness by one
 polynomial on this stratum. It is still a low-order necessary
 incidence; the actual global sextic cubic matching condition and
@@ -642,17 +641,18 @@ in this note is asserted nonempty or realized.
 
 ## 9. Metadata correction and evidence boundaries
 
-Independent review found a naming defect in the committed
-`conditional_2_12_singular_continuation_2026_10_21.json`: its
+Independent review found a naming defect in an earlier generic two-node
+metadata export: its
 `norm_symbol_equations` strings were formatted after the exporter
 mutated its display-name array for the later line exports. The
 original-coordinate `.m2` equations were formatted BEFORE that
 mutation and are correct; all completed calculations use those
 mathematical input files. The old JSON strings are not equation
-authority. The exact corrected strings, original names and source
-hash are preserved in the NEW sidecar
-`../computations/conditional_2_12_singular_continuation2_2026_10_21_metadata_correction.json`.
-Previously committed files were not silently rewritten.
+authority. The [exporter](../computations/conditional_2_12_singular_continuation_2026_10_21.py)
+now captures the original-coordinate equation strings before renaming the
+display variables, so its metadata agrees with the actual equation source. This metadata repair leaves every generated
+M2 mathematical input unchanged and does not repair or resolve the separate
+FIRST-residual discrepancy in the reconciliation dossier.
 
 The old generic mixed-cube-root line trial returned a large first
 Groebner basis but was stopped before a torsion result; it is not
@@ -1183,14 +1183,12 @@ sextic cubic lift, independently of the second ambient or Picard
 tests. This is a polynomial unit identity, not just exclusion of
 four numerical approximations.
 
-The new exact family ideal-equality verifier was also run:
-
-    /opt/homebrew/bin/M2 --script research/computations/conditional_2_12_cubic_reduction_2026_10_21_family_certificate.m2
-
-It completed with `EXACT_IDEAL_EQUALITY_VERIFIED`, dimension zero
-and degree four. It checks both coefficient-matrix inclusions
-between the saved first/quadric-cubic family ideal and the
-triangular ideal defining `P=0`. This bridges the tiny identity
+The [lightweight exact family verifier](../computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.m2)
+was also run successfully, as recorded in its
+[saved output](../computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.json).
+It checks both exact ideal containments by rational normal forms,
+with dimension zero and degree four, between the saved
+first/quadric-cubic family ideal and the triangular ideal defining `P=0`. This bridges the tiny identity
 back to the entire displayed family, rather than just checking
 that the four candidate points solve necessary equations.
 

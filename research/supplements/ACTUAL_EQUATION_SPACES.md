@@ -319,7 +319,7 @@ proof for arbitrary pairs.
 
 ## Exact support and review boundary
 
-The flag-sequence formula and symbol dimensions were independently reconstructed in the source research. The retained [Macaulay2 calculation](../computations/stci_search_freedom_2026_10_28.m2) and [exact dimension table](../computations/stci_search_freedom_2026_10_28.json) check saturated powers for \(1\le m\le6\), all \(0\le d\le3m+2\), and the displayed symbol rows. The uniform proof is the flag sequence and induction, not the finite checks. The fixed-cubic family and its residual-cycle floor also received independent review. No new computation was needed for this consolidation.
+The flag-sequence formula and symbol dimensions were independently reconstructed in the source research. The retained [Macaulay2 calculation](../computations/stci_search_freedom_2026_10_28.m2) checks saturated powers for \(1\le m\le6\), all \(0\le d\le3m+2\), and the displayed symbol rows. The uniform proof is the flag sequence and induction, not the finite checks. The fixed-cubic family and its residual-cycle floor also received independent review. No new computation was needed for this consolidation.
 
 The mechanism is useful in both directions: choose degrees where higher lifts can move the restriction on \(Q\), or show that a specified source cannot move its residual. Formal row operations over \(k(C)\) do not prove that an actual homogeneous triangular row operation crosses the fixed-factor threshold.
 

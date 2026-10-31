@@ -48,114 +48,19 @@ arbitrary carriers, change the other family's scope, or resolve the universal
 STCI question. The established projective lower-lift boundary remains an
 inherited separate premise.
 
-## Certified fraction-free inverse
+## Direct original-tensor verification
 
-Let \(M=B[I,J]\) be the previously selected block of the accepted rational
-pencil
+The retained [normalized dual certificate](../computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-certificate.json) stores the 74 polynomial coordinates over \(\mathbb Q[k]/(f_{15})\). The [independent verifier](../computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py) reconstructs the actual 74-by-18 matrix from the retained tensor and rational-family seed. Using standard-library `Fraction` arithmetic, it checks every coefficient of all 18 column identities, the parameter-degree bound and coordinate 72 equal to one. The final identities are sufficient evidence for this exclusion; construction inverses and auxiliary duals are unnecessary premises.
 
-\[
- L_{\rm can}=\begin{pmatrix}\lambda I_{18}+A\\B\end{pmatrix}.
-\]
+The certificate is bound to the actual tensor, its coordinate bases, top map and second-family seed. Those inputs retain the accepted geometric interpretation and the completeness of the affine lower-lift fiber. The identity check uses the entire quotient polynomial, so it covers every root and every affine lower parameter without numerical sampling. It does not establish the inherited tensor interpretation or the separate projective boundary anew.
 
-Exact rational-function arithmetic clears its denominators by
-
-\[
- d(k)=8141785875300\,(k^2-1)^9,\qquad P=dM\in M_{17}(\mathbb Z[k]).
-\]
-
-Each entry of \(P\) has degree at most18 and coefficients of at most59 bits.
-FLINT computes an integer polynomial matrix \(N\) and polynomial \(D\)
-with
-
-\[
- PN=NP=D I_{17}.
-\]
-
-Both identities were checked over \(\mathbb Z[k]\), before specialization.
-The resulting \(D\) has degree280. Polynomial extended gcd computations
-then check that both \(d\) and \(D\) are units modulo \(f_{15}\), and set
-
-\[
- M^{-1}=dN D^{-1}\pmod{f_{15}}.
-\]
-
-Both specialized inverse identities were also checked. Thus the diagnostic
-row/column selection is certified in characteristic zero before use.
-
-The optional scaling method below gives a smaller representation for related matrices; it is not needed for this certificate. The mathematical evidence is the polynomial inverse identities and coprimality of the denominators with the full exception polynomial.
-
-## Construction and normalization of the dual
-
-Embed \(M^{-1}\) into an18 by56 matrix \(D_B\), using the selected rows and
-columns and zero on the missing column complement. With missing column
-\(l=15\), set
-
-\[
- h=(I-D_BB)e_l,\qquad a=Ah.
-\]
-
-The program checks
-
-\[
- Bh=0,\quad h_l=1,\quad D_BB=I-he_l^T,
-\]
-
-then constructs \(F_h,F_a\) with
-
-\[
- F_hh=1,\quad F_ha=0,\quad F_ah=0,\quad F_aa=1.
-\]
-
-It checks the actual bottom target compatibility and constructs the accepted
-sixteen linear duals and one quadratic dual using multiplication by
-\(D_B\), without Gaussian elimination. Every coefficient of all17
-annihilation identities is checked in \((\mathbb Q[k]/f_{15})[\lambda]\).
-
-In this instance the first two linear target evaluations
-\(\ell_i=\alpha_i+\beta_i\lambda\) suffice. Their incompatibility is
-certified by a unit denominator in the same full quotient. The normalized
-dual is the corresponding constant linear combination
-
-\[
- n=\frac{\beta_0 n_1-\beta_1n_0}
-          {\beta_0\alpha_1-\beta_1\alpha_0}.
-\]
-
-The program checks \(n^TL_{\rm can}=0\), \(n^TU_{\rm can}=1\), transports
-through the accepted constant row transformation \(T\), and checks original
-coordinate72 equals1. This stage consumes
-the inherited tensor interpretation; it does not establish that interpretation
-again.
-
-## Independent original-tensor verification and evidence
-
-The existing new-certificate verifier independently reconstructs the actual
-74 by18 tensor matrix from the accepted tensor and family seed files. Using
-only Python standard-library `Fraction` and polynomial arithmetic, it checks
-all18 complete polynomial column identities modulo \(f_{15}\), the degree
-bound, and the exact target normalization. It exited0 after approximately
-5.6 seconds. Its identity-checking body is unchanged; a backward-compatible
-`--generator-file` option was added only to bind actual C and input provenance
-instead of assuming an M2 generator.
-
-The primary evidence is:
-
-- [Normalized original-tensor dual](../computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-dual.txt).
-- [Independent tensor certificate](../computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-certificate.json).
-- [Specialized inverse](../validation/2026-10-14-localcoh-degree15-attempt06/field-inverse.txt), retained as a current certificate hash input. The larger polynomial inverse is unnecessary for checking the final normalized dual.
-- [Dual generation execution record](../validation/2026-10-14-localcoh-degree15-attempt06/dual-execution-record.json) and [all obstruction evaluations](../validation/2026-10-14-localcoh-degree15-attempt06/obstructions.txt).
-- [Polynomial input preparer](../computations/general_localcoh_degree15_fractionfree_prepare_2026_10_14.py), [FLINT inverse source](../computations/general_localcoh_degree15_fractionfree_inverse_2026_10_14.c), [dual input preparer](../computations/general_localcoh_degree15_fractionfree_dual_prepare_2026_10_14.py), and [FLINT dual source](../computations/general_localcoh_degree15_fractionfree_dual_2026_10_14.c).
-- [Independent verifier](../computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py).
-
-The normalized dual and the original-tensor verifier are the smallest independent mathematical support for the exclusion. The generator and inverse files additionally explain how the dual was obtained. Source hashes and process logs are provenance, not substitutes for the identities.
-
-To verify this **new** certificate when a fresh check is justified:
+Run from the repository root:
 
 ```sh
-python3 research/computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py --verify --stem general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06
+python3 -B research/computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py --verify --stem general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06
 ```
 
-The certificate closes the fifteen-root stratum, and together with the earlier cubic and quartic certificates the full 22-root exceptional locus of this family. Its scope is a target-specific ancestor incidence, rather than arbitrary STCI pairs.
+The check closes the fifteen-root stratum. Together with the cubic and quartic certificates it closes their combined 22-root exception set; the complete second-family coverage additionally includes the separate quadratic factors and boundary premises described below. Its scope remains the specified ancestor incidence.
 
 ## A reusable corank-one dual construction
 

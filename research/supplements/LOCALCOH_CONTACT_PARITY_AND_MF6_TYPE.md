@@ -448,13 +448,13 @@ Containing the specified triple requires exactly the quadratic identity
 
 The resulting coefficient matrix is 13 by 8, affine in A,B. It has rank
 seven over Q(A,B), so its generic solution space is a unique quartic up
-to scalar. The exact polynomial kernel vector, full coefficient matrix,
-and the resulting polynomials S,T are preserved in
-`research/scratch/mf6_type4_incidence.json`. The script
-`research/scratch/explore_mf6_type4.py` derives these data using
-fraction-free polynomial-domain operations and checks every kernel
-equation exactly. Rank-drop parameter loci have not been classified;
-the generic kernel must not be called the complete quartic family there.
+to scalar. The [universal infinity verifier](../computations/verify_mf6_infinity_universal.py)
+reconstructs the full coefficient matrix and its polynomial generic kernel
+from the complete ambient quartic basis, then constructs S,T and checks
+every kernel equation exactly. The generic kernel alone does not describe
+the complete quartic family on rank-drop fibers; the full exceptional
+fiber and a reduction independent of the generic kernel are supplied by
+[the complete type-(4,5) proof](MULTIPLICITY_SIX_QUARTIC_CONTACT.md).
 
 Since delta and R are coprime, the quadratic identity forces `h=delta S`.
 S is a section of O(5). The formal cubic coefficient of the quartic is
@@ -488,35 +488,22 @@ parameters lie in a proper algebraic exceptional locus. Additional exact
 sample parameters also have gcd one but do not constitute a universal
 exclusion.
 
-### Continuation and failed computational shortcuts
+### Generic calculation and complete boundary control
 
-The required next calculation is the rank-drop boundary together with
-the subresultant conditions `deg gcd(S,T)>=deg S-1`, followed by the direct
-infinity chart. Both boundaries are necessary: a generic nullspace vector
-does not identify every special solution, and affine loss of degree in S
-can hide an infinity pole.
+A generic nullspace vector does not identify every special solution,
+and affine loss of degree in S can hide an infinity pole. These are
+necessary cautions for any subresultant approach. The attempted full
+generic resultant supplied no completed resultant certificate and is
+not needed for the retained proof.
 
-Run
-
-    python3 research/scratch/explore_mf6_type4.py
-
-to reconstruct the exact generic incidence. The optional `--resultant`
-attempt computes `Res_z(S,T)` as a polynomial in A,B; it may be expensive
-and is not required to reproduce the proved reductions. Initial direct
-symbolic `Matrix.rank()/nullspace()` operations expanded rational
-expressions unnecessarily; polynomial-domain `DomainMatrix.nullspace()`
-gave the same exact kernel rapidly. The full generic resultant attempt
-was interrupted after several minutes of coefficient growth; no resultant
-answer is recorded or claimed. The exact S,T inputs are preserved. This
-distinction affects computation cost, not the scope of the result.
-
-`research/scratch/mf6_type4_resultant.m2` preserves the same exact S,T input
-for an alternative Macaulay2 resultant attempt. That attempt was also
-interrupted without a returned result. There is no pending computation
-and no resultant output to treat as evidence. A more useful next attempt
-may compute the high-gcd subresultant ideal directly, instead of expanding
-the full degree-zero resultant.
-
-The type `(4,5)` still contributes the nonregular coarse pole lengths
-3 and 4. The e=1 types `(0,4),(1,3),(2,2)` still contribute pole lengths
-4, 5, and 6 as detailed in the preceding note.
+The [complete type-(4,5) proof](MULTIPLICITY_SIX_QUARTIC_CONTACT.md)
+instead derives a universal second-frame annihilator from the full
+incidence space. Its exact coefficient ideal forces A=12,B=4, and its
+complete exceptional quartic space is a fixed cubic times linear forms.
+The [self-contained checker](../computations/verify_mf6_infinity_universal.py)
+reconstructs that incidence, the second-frame transition, the explicit
+ideal-membership witnesses and the exceptional fiber. This closes the
+stated e=0,(d2,d3)=(4,5) branch under the proof's hypotheses; the earlier
+generic gcd calculation alone supplies only its proper-open exclusion.
+The separate e=1 types and their precise boundaries are treated in
+[the filtration account](../synthesis/normal_filtration_boundary_obstructions.md).

@@ -552,10 +552,8 @@ source. Its quadric restriction fixes the binary boundary
 
 The [new exact control](../computations/stci_game_obstruction_2026_10_30.m2)
 checks this carrier's normal form, discriminant, line factorization
-and nonvanishing condition. Its
-[output](../computations/stci_game_obstruction_2026_10_30.txt)
-is a local/global identity control, not an unproved normalization
-classification. This example need not belong to every smooth-root
+and nonvanishing condition. These are local/global identity controls;
+they do not supply a normalization classification. This example need not belong to every smooth-root
 generic condition in Section 3; the smaller test-line criterion suffices.
 
 ## What a surviving carrier must change

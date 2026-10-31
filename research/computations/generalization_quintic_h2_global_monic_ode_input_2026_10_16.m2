@@ -3,7 +3,7 @@
 -- Objects retained for a future calculation:
 -- h2GlobalRing, h2GlobalEquations, h2GlobalIdeal, h2GlobalDomainUnit.
 h2GlobalRing=QQ[delta,a,B,G,J,vH2,wH2,h2DGlobal,h2EtaGlobal];
-h2GlobalData="research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-04-completion";
+h2GlobalData="research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-02-name-repair";
 h2GlobalEquations=value get(h2GlobalData|"/global-seventeen-equations.txt");
 h2GlobalDomainUnit=value get(h2GlobalData|"/global-domain-unit.txt");
 assert(numgens h2GlobalRing==9);

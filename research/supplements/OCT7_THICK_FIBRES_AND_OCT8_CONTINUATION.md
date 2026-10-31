@@ -841,47 +841,23 @@ reduction. Every rational denominator is checked nonzero and inverted.
 This closes the provenance limitation without editing the existing
 checkers or relying on a fresh regeneration of their inputs.
 
-## 6. Durable replay record
+## 6. Exact computational support
 
-The new independent source is
-[`countercheck.py`](../validation/2026-10-08-first-endpoint-audit/countercheck.py).
-It is self-contained apart from the retained repository inputs and
-SymPy, writes one deterministic JSON result, and invokes neither the
-saved exceptional verifier bodies nor any generator. The final run
-completed with exit code zero. Reproduce it from the repository root:
+The independent
+[`countercheck.py`](../validation/2026-10-08-first-endpoint-audit/countercheck.py)
+checks the full factor partition, multiplicities, finite reductions and
+all four coefficient comparisons. It uses the retained repository inputs
+and SymPy, invokes neither the exceptional verifier bodies nor a generator,
+and checks their actual coefficient data directly. Run from the repository
+root:
 
 ```sh
 PYTHONDONTWRITEBYTECODE=1 python3 \
-  research/validation/2026-10-08-first-endpoint-audit/countercheck.py \
-  > research/validation/2026-10-08-first-endpoint-audit/countercheck.log
+  research/validation/2026-10-08-first-endpoint-audit/countercheck.py
 ```
 
-Its [`countercheck-result.json`](../validation/2026-10-08-first-endpoint-audit/countercheck-result.json) contains the full factor partition, multiplicities, finite reductions, all four coefficient-comparison results and input hashes. Source SHA256:
-
-```text
-4fb9d7cf4b0a119bc8bfd0b1d5bb3a4bece08948bb9d44f505d3091ce2e74df0
-```
-
-Result/log SHA256:
-
-```text
-d5197c04be2c9fcb567c49b46fa8342345af4bc5dd7b0a3f965c07b61b57d34d
-```
-
-The reviewed source hashes and all coefficient-certificate hashes are
-preserved in
-[`audit-manifest.json`](../validation/2026-10-08-first-endpoint-audit/audit-manifest.json).
-The original field proofs and their generation/replay routes are
-preserved in the
-[Q1 note](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md),
-[Q3 note](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md), and
-[Q13 note](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md), with Q2 in the
-[independent endpoint audit](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md).
-Root's central continuation validation records the full current checker
-replays separately. This additional countercheck concerns parameter
-coverage and source binding; it does not duplicate or substitute for
-the eighteen-column tensor replay.
-
-The next unresolved endpoint work starts with the second rational family
-or one of the two `p(0)=0` boundary families. The first family should no
-longer be listed as retaining Q1, Q3, or Q13 exceptions.
+The [completed endpoint proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
+contains the field arguments and their precise hypotheses. This additional
+countercheck supplies parameter coverage and source binding; the
+[eighteen-column tensor reconstruction](../validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2)
+supplies the separate actual-incidence comparison.

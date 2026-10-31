@@ -516,7 +516,14 @@ has rank seventeen and its kernel has dimension one.
 
 ### 4. Evidence and exact remaining scope
 
-The source and raw inputs are bound in [`session-mf6-principal-rank-open-audit-2026-10-08.json`](../scratch/session-mf6-principal-rank-open-audit-2026-10-08.json). The free determinant denominator is `2^52`, not `2^53`; cofactor and specialization comparisons require expanded polynomial equality rather than structural SymPy equality.
+The [exact rank checker](../computations/verify_session_mf6_principal_rank_open_2026_10_08.py)
+reconstructs the ambient maps and verifies the retained
+[contact matrix and frame](../scratch/session-mf6-e1-principal-contact-2026-10-08.json),
+[normalized contact data](../scratch/session-mf6-e1-principal-minors-2026-10-08.json),
+and [raw cofactors](../scratch/audit-mf6-e1-principal-raw-minors-2026-10-08.json).
+The free determinant denominator is `2^52`, not `2^53`; cofactor and
+specialization comparisons require expanded polynomial equality rather
+than structural SymPy equality.
 
 This theorem covers only the displayed principal flat chart with
 `a0=b0=1`, including every parameter of that chart, rather than merely
@@ -1047,8 +1054,11 @@ has such a projective zero, so this is not a valid finite-flat triple.
 Every genuine triple therefore has theta!=0, which is normalized to
 one by scaling the equation. This discards no valid theta=0 boundary.
 
-The [isolated replay](../validation/2026-10-08-e1-d4-algebraic-audit/replay-manifest.json) preserves the exact source-byte check and torsion coverage. The central isolated replay also passed with source SHA256
-`ae88024f00b8216be727957930747001b44f457e532a0746e6a8e2a657850a02`.
+The self-contained
+[algebraic checker](../computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py)
+reconstructs the ambient space and verifies the minor and diagonal
+identities. The theta-zero torsion argument above supplies its separate
+finite-flatness implication.
 
 **Boundary:** the principal obstruction-zero direction and directions
 with nonzero primitive quadratic obstruction remain open at positive
@@ -1566,53 +1576,33 @@ These arguments exhaust the principal direction lane for the stated
 ancestor problem. They neither decide a higher-degree mate for one
 unique carrier nor use an STCI-only second-defect bound.
 
-### 5. Evidence and reproducibility
+### 5. Exact support and scope
 
-The open theorem and source are preserved in
-[the source-owner's detailed proof](#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd)
+The rank-open argument and its hypotheses are given in
+[the detailed proof](#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd)
 and
 [`verify_session_mf6_principal_rank_open_2026_10_08.py`](../computations/verify_session_mf6_principal_rank_open_2026_10_08.py).
-Its frozen source hash is
-`2fbefebda6723b7d721f0034c0167a2c70a3b79eed01675b99baf453453a9ac8`.
-The source owner observed the complete final run exit zero in 82.912
-seconds. This audit inspects its reconstruction and exact proof logic
-and independently recomputes the frame and coverage checks; it does not
-count that owner's run as a second auditor execution.
+The source uses the corrected free-determinant denominator `2^52` and
+exact expanded polynomial differences for its coefficient comparisons.
 
-The fresh
+The independent
 [`coverage-countercheck.py`](../validation/2026-10-08-principal-e1-d1-audit/coverage-countercheck.py)
-completed exit zero. Its
-[`result`](../validation/2026-10-08-principal-e1-d1-audit/coverage-countercheck-result.json)
-binds the actual contact input and source hash, determinant, diagonal,
-complement identities, opposite-correction norm, cubic irreducibility,
-and S-zero rank. It does not invoke an existing verifier or regenerate
+checks the determinant, diagonal, complement identities,
+opposite-correction norm, cubic irreducibility and S-zero rank from the
+actual contact input. It invokes no existing verifier and regenerates no
 proof inputs.
 
-The frozen all-35-column
-[`boundary source`](../computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py)
-has hash
-`9d485f208f61afc495e43bd62054651df37e65c297534ca9930033c44bfea53e`.
-Its exact bytes were replayed with `--scope all` in an isolated snapshot;
-the run exited zero, and the output and all five field calculations are
-retained separately. The actual two-chart
-[`residue source`](../computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py)
-was also replayed from exact bytes, with source hash
-`02fac92723ff5b5b29c6024e49d8706e4ffe7445431e55cd1761030adaa6dcdb`.
-It exited zero. The independent
+The all-35-column
+[boundary source](../computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py)
+and its retained
+[complete field data](../validation/2026-10-08-principal-e1-d1-audit/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_all.json)
+supply the boundary calculations. The actual two-chart
+[residue source](../computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py)
+and independent
 [`residue-input-comparison.py`](../validation/2026-10-08-principal-e1-d1-audit/residue-input-comparison.py)
-then bound all three literal quartics, direction parameters, cocycles,
-defect sections and finite corrections to the fresh complete-35-column
-output, and derived the raw normal transition from the actual coordinate
-change. Its exact checks also passed. The companion's cubic-pole outputs
-are separate necessary bounds; they do not strengthen this audit into
-an all-mate carrier exclusion.
-The complete source/input closure, copied open-proof result/transcript,
-fresh boundary and residue results/logs, and both countercheck hashes are in
-[`audit-manifest.json`](../validation/2026-10-08-principal-e1-d1-audit/audit-manifest.json).
-The snapshot preserves the required `research/computations` and
-`research/scratch` layout, so the open proof can also be replayed there.
-
-The source-owner note preserves three earlier checker repairs: one
-incorrect free-determinant denominator and two structural-expression
-comparisons. The frozen source uses `2^52` and exact expanded polynomial
-differences. No altered failed source is treated as passing mathematics.
+bind the three literal quartics, direction parameters, cocycles,
+defect sections and finite corrections to that complete-35-column data.
+The comparison also derives the raw normal transition from the actual
+coordinate change. The companion's cubic-pole conclusions are separate
+necessary bounds; they do not strengthen this audit into an all-mate
+carrier exclusion.

@@ -1,7 +1,7 @@
 -- Independent reconstruction, not an execution of the tensor exporter.
 -- All output belongs to the dedicated 2026-10-08 quadratic audit folder.
 -- Run from repository root using M2 --script on this source.
--- Frozen input text files are bound by actual-tensor-input-manifest.json.
+-- Exact basis and tensor inputs are retained under research/computations.
 S=QQ[x,y,z,w];
 q=x*w-y*z;
 a=x^2*z-y^3;
@@ -52,7 +52,7 @@ print("PASS: all 18 actual quartic forms are independent and span the restrictio
 
 -- Bind these exact column bases to the displayed, frozen data.
 use S;
-dataLines=lines get "research/validation/2026-10-08-family2-quadratic-audit/localcoh-incidence-bases.txt";
+dataLines=lines get "research/computations/localcoh-incidence-bases.txt";
 assert(#dataLines==50);
 assert(dataLines#0=="ancestor stage4 numerators");
 assert(dataLines#31=="quartic multipliers");
@@ -77,7 +77,7 @@ compressed=transpose gens gb image transpose coefficientsAll;
 assert(numRows compressed==74 and numColumns compressed==542);
 
 -- Read the frozen 74x542 tensor without running the original exporter.
-tensorLines=lines get "research/validation/2026-10-08-family2-quadratic-audit/localcoh-incidence-tensor.txt";
+tensorLines=lines get "research/computations/localcoh-incidence-tensor.txt";
 assert(tensorLines#0=="30 18 74 542");
 storedMutable=mutableMatrix(QQ,74,542);
 seenEntries=new MutableHashTable;

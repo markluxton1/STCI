@@ -440,55 +440,24 @@ The complete global quadratic-root second model uses twenty-five scalar pairings
 
 <a id="2026-10-16-generalization-quintic-h2-global-qq-prospect-terminal-record"></a>
 
-## Terminal record: one whole-h2 global QQ saturation prospect
+## Whole-h2 global saturation remains open
 
-The one authorized global prospect ended without a mathematical result.
-It loaded the accepted seventeen-equation, nine-variable input over
-`QQ`, reached the single saturation by `delta*E*Delta1`, and was stopped
-when the M2 process exceeded the sampled memory threshold. This is
-bounded computation evidence; it does not prove that the incidence is
-empty or nonempty. There is no unit-ideal output or certificate.
-
-### Exact source, input and output binding
-
-The loader hash was checked against the accepted load-only execution
-record. The exact seventeen-generator data have SHA256
-`c29dff74c9b120df41b7c59852d81d88d9d7004fa6e8586cda961eafd82e5008`;
-the exact domain polynomial has SHA256
-`4bd9af1e22bcf421017a2b0213cdc74e5dfbd9451860c1c644c24104977e778b`.
-The loader itself has SHA256
-`f5db87f6ea8dbd7d32411621bec3c68221ceaa9dc48a54e5dd3e82312535d1b4`.
-All are bound in the execution record. No accepted coefficient
-assembly, theorem verifier, or prior prospect was rerun.
-
-The sole new algebra operation was
+The accepted seventeen-equation, nine-variable model over `QQ` retains
+repeated roots and the finite cover boundary. Its
+[runnable input](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
+loads the exact equations and domain polynomial. The target is
 
 ```macaulay2
 saturate(h2GlobalIdeal, ideal h2GlobalDomainUnit)
 ```
 
-over `QQ`. Its domain is exactly `delta*E*Delta1`. There is no inverse of
-the rational-cover determinant, quadratic discriminant, a q coefficient,
-or `Jbar`; repeated and cover-boundary points remain in this model.
-The precise geometric scope is the accepted
+on the domain `delta*E*Delta1 != 0`. No rational-cover determinant,
+quadratic discriminant, quotient coefficient or `Jbar` is additionally
+inverted. A bounded attempt did not complete this saturation and supplied
+no ideal, dimension, unit certificate or emptiness conclusion. The global
+H2 incidence remains undecided. Its geometric scope is the
 [global monic ODE incidence](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
-and its
-[independent audit](#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
-
-No `saturated-ideal.txt`, `is-unit.txt` or saturation-completion marker was produced. Entering the saturation stage is not a completed computation or a unit certificate.
-
-The generic earlier bounded driver was not used for this prospect. Its
-exact checkpoint bytes are retained as
-[generic-runner-at-checkpoint.py](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/generic-runner-at-checkpoint.py),
-recovered from checkpoint
-`bf124f8ab962ef0ed4085397034c50ee8d0d7162`, with SHA256
-`55d370623116a153645974d755e3e0805a3eb054f087734d5206ddb7128b7018`.
-Thus this new runner does not change the source binding of earlier
-execution records.
-
-The global h2 incidence remains an accepted necessary target whose
-emptiness has not been decided. No additional CAS run is part of this
-record.
+and the [independent argument](#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
 
 ---
 
@@ -652,33 +621,9 @@ avoidance or all original fiber conditions, and it does not establish
 full inverse support or nonlinear conductor descent. An algebraic
 survivor is therefore not automatically a projection or a mate.
 
-### 5. Source, failure lineage and completed-output bindings
+### 5. Exact model and checking boundary
 
-The [assembly source](../computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2) and [completion source](../computations/generalization_quintic_h2_global_monic_ode_completion_2026_10_15.py) use the literal accepted octic, reversed coefficients, recurrence, four cover equations, eight ODE equations and three accelerators. The assembly writes all groups and seven q_i and asserts (2) and (3); the completion retains precisely (4).
-
-The attempt-02 process exits one: its error is at that final
-equation-count print, after stdout records the quotient/remainder
-and cofactor assertions passing and after all data files were
-written. This remains a failed process and is not relabelled a
-fully passing CAS run. Its complete outputs are the bound inputs
-to the separate Python completion; the earlier protected-name and
-path/shape failures remain preserved as separate attempts.
-
-The completion strips only boundary whitespace when reading the
-expanded matrix entries, checks the exact four-group concatenation
-4+2+8+3=17, checks a seven-entry Q vector, and copies the saved
-model artifacts. It does not reread the primitive octic, reconstruct
-the model, or run any CAS. Its record reports exit zero and empty
-stderr.
-
-On October 16 I independently checked, read-only: both current and
-frozen assembly source hashes; the current completion-source hash;
-the assembly's primitive-input hash; all seventeen completion-input
-hashes; byte equality of all four copied model artifacts; exact
-group/whole-vector equality; and all seven individual q_i files
-against the completed Q vector. Every check passed. The completion
-stderr is empty. This verifies current artifact bindings without
-rerunning the mathematical assembly.
+The [assembly source](../computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2) derives the model from the literal accepted octic, reversed coefficients, recurrence, four cover equations, eight ODE equations and three accelerators. Its polynomial assertions check the cofactor and quotient/remainder identities. The retained seventeen-equation row and original domain polynomial supply precisely the incidence (4); grouped and individual coefficient exports are redundant representations.
 
 The new currently runnable
 [load-only input](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)

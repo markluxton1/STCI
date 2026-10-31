@@ -164,10 +164,8 @@ The [independent exact checker](../computations/verify_session_genus_one_project
 verifies the actual net basis, its omitted-coordinate coefficients and
 derivatives, the divided cubic, both cross-product equations, the double
 fiber, the remainder matrix, its unique kernel, and the final four-root
-factorization. The resulting [JSON record](../scratch/session-genus-one-projection-checks-2026-10-09.json)
-records these identities separately from the earlier displayed-family
-checks. It does not substitute finite testing for the geometric fiber
-argument.
+factorization. These exact identities support the displayed representations;
+the geometric fiber argument above supplies the parameter coverage.
 
 Combined with the uniform necessary repeated-root condition, a remaining
 hypothetical genus-one mate must have conductor-contact partition [4],

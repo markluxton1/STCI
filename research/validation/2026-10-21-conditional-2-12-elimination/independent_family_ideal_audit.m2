@@ -1,4 +1,4 @@
-load "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_elimination_2026_10_21.m2";
+load "research/computations/conditional_2_12_elimination_2026_10_21.m2";
 familyRing=QQ[d1,d2,d3,t,h4,h5,h6,h7,MonomialOrder=>GRevLex];
 familyAugmented=sub(augmented,familyRing);
 familyEquations=familyAugmented*transpose matrix{{h4,h5,h6,h7,1}};

@@ -504,10 +504,10 @@ and [independent audit](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
 check polynomial duals with n^T L=0 and n^T u=1 on all eighteen actual
 quartic columns. Separate exact-field arithmetic rederives the seeds,
 directions, slopes, rank-29 top map and complete affine lift fibre.
-A fresh Macaulay2 reconstruction binds all 540 products and both target
-columns literally and proves equality with the complete next-stage Ext
-image. The [aggregate manifest](../validation/2026-10-08-family2-quadratic-audit/audit-manifest.json)
-binds the exact input/source hashes and tensor reconstruction.
+The independent Macaulay2
+[actual-tensor reconstruction](../validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2)
+binds all 540 products and both target columns literally and proves
+equality with the complete next-stage Ext image.
 
 The cubic, quartic and degree-fifteen factors are also closed over their full exact quotient fields, uniformly in lambda, in [the completed endpoint proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md). Thus all 26 exceptional geometric roots of the second family are excluded; the first family is likewise complete. Nonendpoint top-zero charts require their separate actual incidence analysis.
 
@@ -837,25 +837,15 @@ space. Their images would be proportional, contrary to the independent
 targets. This uses the accepted canonical-triple reduction for ancestors,
 not an STCI mate bound or a further carrier classification.
 
-### Fresh replay and provenance
+### Exact computational support
 
 The retained self-contained
 [`source`](../computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py)
-was inspected and freshly replayed from an exact byte snapshot in an
-isolated directory. It reads no discovery JSON or generated proof input.
-The source SHA256 is
-
-```text
-ae88024f00b8216be727957930747001b44f457e532a0746e6a8e2a657850a02
-```
-
-The replay completed with exit code zero and all assertions passed. Its
-source copy, generated complete matrix/basis JSON, output log, and hashes
-are preserved under
-[`2026-10-08-e1-d4-algebraic-audit`](../validation/2026-10-08-e1-d4-algebraic-audit/replay-manifest.json).
-The generated JSON is byte-identical to the retained canonical generated
-JSON; the original source and generated JSON were not modified. This
-audit does not edit any canonical frontier file.
+reconstructs the complete matrix and basis, checks the seven ambient forms,
+and verifies the minor identities and final diagonal case used above.
+It reads no discovery JSON or generated proof input. The geometric
+interpretation and the theta-zero torsion argument remain part of the
+proof, with the characteristic and direction hypotheses stated there.
 
 ---
 

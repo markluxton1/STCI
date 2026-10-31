@@ -505,4 +505,4 @@ has its separate proof.
 
 ## Exact computational support
 
-The [root-pencil verifier](../computations/verify_ci_cycle_root_pencil_2026_10_25.py) and [saved exact output](../computations/ci_cycle_root_pencil_2026_10_25.json) retain the polynomial discriminant, Weierstrass invariants, special cycles and two endpoint coefficient relation. The [eight-component verifier](../computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2) supports the actual larger-delta competing scheme. These inherited calculations were not rerun in consolidation; the distinct symbolic derivations and geometric interpretations survive above.
+The [root-pencil verifier](../computations/verify_ci_cycle_root_pencil_2026_10_25.py) retains the polynomial discriminant, Weierstrass invariants, special cycles and two endpoint coefficient relation. The [eight-component verifier](../computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2) supports the actual larger-delta competing scheme. These inherited calculations were not rerun in consolidation; the distinct symbolic derivations and geometric interpretations survive above.

@@ -44,5 +44,5 @@ Fsource=sum(toList(0..8),i->sub(f#i,h2SourceRing)*xH2^(8-i));
 assert(Fsource==H*Q+sub(frem#1,h2SourceRing)*xH2+sub(frem#0,h2SourceRing));
 save("equation-degrees",apply(allEquations,g->first degree g));
 print "PASS new monic quotient/remainder export and exact cofactor-determinant formula";
-print("COMPLETE GLOBAL denominator-free monic h2 ODE incidence: "|toString #allEquations|" equations, delta*cofactor*Delta1 unit; no h2CoverEquations determinant inverted");
+print("COMPLETE GLOBAL denominator-free monic h2 ODE incidence: "|toString(#allEquations)|" equations, delta*cofactor*Delta1 unit; no h2CoverEquations determinant inverted");
 exit 0;

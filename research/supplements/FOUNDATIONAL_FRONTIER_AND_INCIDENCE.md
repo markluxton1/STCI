@@ -614,15 +614,11 @@ certificate of that result.
 
 ### 4. Audit boundary and unfinished attempts
 
-The saved scripts `localcoh-symbol-paritycheck.m2` and
-`localcoh-symbol-seedcheck.m2` used `basis(4,I)` and then multiplied its first
-row alone by ancestor numerators. Macaulay2 represents this basis in the
+A tempting incorrect multiplication test uses `basis(4,I)` and multiplies its first row alone by ancestor numerators. Macaulay2 represents this basis in the
 four ideal-generator coordinates: the first row contains coefficient
 polynomials, not the actual quartic forms. Correct forms require summing
 all four generator products. The incorrect products have degrees14 or15,
-so their degree17 target coefficient functionals vanish vacuously. Those
-scripts' asserted full-family multiplication exclusions do not constitute
-valid proofs as written. The tensor exporter audited here uses the correct
+so their degree17 target coefficient functionals vanish vacuously. Such coefficient tests do not establish full-family multiplication exclusions. The tensor exporter audited here uses the correct
 sum over all four generators. A corrected full-family test belongs to a
 separate computation and is not inferred from the fixed-direction result.
 

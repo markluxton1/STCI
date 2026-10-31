@@ -205,12 +205,11 @@ Run
 
 ```text
 python3 research/computations/endpoint4_actual_2026_10_25.py
-/opt/homebrew/bin/M2 --script research/computations/endpoint4_actual_2026_10_25.m2
 python3 research/computations/endpoint4_fixed_m2_2026_10_25.py
 python3 research/computations/endpoint4_fixed_jet_independent_2026_10_26.py
 ```
 
-The first script records the inherited matrix hash, solves only the new right-hand sides, and performs a direct ambient substitution. The generated [JSON](../computations/endpoint4_actual_2026_10_25.json) includes full ambient and normal expansions, parameter conventions, and the torus action. The generated M2 family file loads successfully.
+The first script records the inherited matrix hash, solves only the new right-hand sides, and performs a direct ambient substitution. The generated [JSON](../computations/endpoint4_actual_2026_10_25.json) includes full ambient and normal expansions, parameter conventions, and the torus action. The exporter also produces an M2 family presentation; its successful load adds no further mathematical test.
 
 Independent `endpoint4_formula_audit` reconstructed the second symbol, torus normalization, and exact singular-line orders without rerunning the inherited rank proof. It corrected the initial overly cautious normalization warning: the actual torus does supply the square-root gauge.
 

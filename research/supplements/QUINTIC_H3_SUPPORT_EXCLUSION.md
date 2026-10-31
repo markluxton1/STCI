@@ -68,7 +68,7 @@ coordinate identities. It uses restricted AST parsing and exact
 owner checker. Evidence is
 [the literal arithmetic report](../validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic-report.json),
 [source](../validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic.py)
-and [raw output](../validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic.stdout.txt).
+and the report records the exact input hashes and original-generator products checked.
 
 **Audit conclusion: PROVED within the inherited model.** Both charts have
 no mate in any degree, because they fail the necessary full support
@@ -112,7 +112,7 @@ lists at lambda=1; its
 [report](../validation/2026-10-14-quintic-independent-audit/lambda-binding-result.json)
 also records the nonzero scalar 2d and the infinity separation identity.
 The arithmetic report in section 2 contains the original-generator
-checks. Failed parser versions are preserved in this independent lineage.
+checks. The retained independent sources implement the corrected exact parser.
 
 **Audit conclusion: PROVED within the inherited model.** The whole
 lambda=1 chart fails full inverse support and has no mate in any degree.
@@ -175,18 +175,21 @@ original-generator identity is
 This excludes H3|S5 on the precise declared chart. The exact witness is
 [saved](../validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt),
 and the owner source asserts the literal matrix product before saving it.
-The original failed extraction omitted c5, found no witness at the stated
-bounded exponent, and failed its assertion. Its failure is retained;
-the repaired chart is the one used here.
+The original extraction omitted c5 and failed its bounded witness
+assertion. The repaired chart retains c5 and is the one used here.
 
 For multiplicity at least four the original four generators are
 `S5(x),S5'(x),S5''(x),S5'''(x)`. In characteristic zero their vanishing is
 equivalent to a root of multiplicity at least four. The completed owner
 source records a literal combination of these original generators equal
 to `(V c5)^2`, with x retained as a variable. Its
-[22 MB exact witness](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt)
-is accompanied by exponent two, the original input row, the source
-`generalization_quintic_h3_multiplicity_witness.m2`, and passing raw output.
+[compressed exact witness](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt.gz)
+has exponent two and retains the original input row and source
+`generalization_quintic_h3_multiplicity_witness.m2`. The gzip archive
+recovers the exact 22,448,188-byte coefficient column, with SHA256
+`6cf77107cc2c0d8a934bc867417d8efefafe8fcbe5040ccaac481277d4315bd6`.
+Decompress it before direct inspection in Macaulay2; the generating source
+continues to write the plain-text coefficient column.
 This is an exact membership certificate on all parameters, rather than
 a reliance on a printed saturated `ideal(1)` or a root sample.
 
@@ -199,7 +202,7 @@ these are descriptive sizes, not additional theorem counts. It binds the
 actual captured c5 and the exponent-two file. Evidence is the
 [main literal report](../validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic-report.json),
 [independent source](../validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic.py)
-and its raw output.
+with exact input hashes and the zero residual.
 
 **Audit conclusion for these alternatives: their geometric implications
 are sound, with actual original-generator membership witnesses.** The
@@ -345,7 +348,7 @@ The sole-common-root regular-L1/L2 bridges are a different contribution, owned w
 
 The h=2 incidence, degree-one singular quotient-fiber charts, other quintic normalizations and entirely thick presentations remain separate questions. The coefficient identities are exact characteristic-zero proofs on the stated unit charts. Their geometric setup, scalar inversions, multiplicity derivatives and witness nonvanishing must be verified before any reduction modulo a prime; no arbitrary positive-characteristic exclusion is asserted.
 
-The other two branches retain direct data access: [H3-divides-S5 original remainder generators](../validation/2026-10-13-generalization-quintic-h3/h-divides-s-remainder.txt) and [three-entry witness](../validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt), plus [multiplicity-four original input](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-input.txt) and [four-entry witness](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt). These literal coefficient columns support different root-pattern exclusions; they are not interchangeable logs.
+The other two branches retain direct data access: [H3-divides-S5 original remainder generators](../validation/2026-10-13-generalization-quintic-h3/h-divides-s-remainder.txt) and [three-entry witness](../validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt), plus [multiplicity-four original input](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-input.txt) and [four-entry witness](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt.gz). These literal coefficient columns support different root-pattern exclusions; they are not interchangeable logs.
 
 ## Consolidation review
 

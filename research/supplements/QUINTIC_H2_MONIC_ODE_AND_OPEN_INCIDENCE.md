@@ -384,7 +384,7 @@ unit and the equation degrees. The degrees are
 3,3,3,3,13,13,14,13,12,11,10,9,8,7,2,2,8.
 ```
 
-The [completion script](../computations/generalization_quintic_h2_global_monic_ode_completion_2026_10_15.py) reuses the complete saved coefficient outputs, verifies their concatenation into seventeen entries and the seven-entry Q vector, and binds every input by SHA256. It neither rereads the primitive polynomial nor reconstructs the model. No Gröbner basis, saturation, resultant or emptiness conclusion follows from assembling this input.
+The retained exact seventeen-entry equation row and domain polynomial are the complete saved model. The assembly source specifies their construction from the actual octic; no Gröbner basis, saturation, resultant or emptiness conclusion follows from assembling this input.
 
 The [input file](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2) reads the completed model over QQ and exposes `h2GlobalRing`, `h2GlobalEquations`, `h2GlobalIdeal` and `h2GlobalDomainUnit`. It checks the seventeen-entry matrix in the nine-variable ring and constructs the unsaturated ideal only; it does not execute domain localization or a Gröbner computation.
 
@@ -394,6 +394,6 @@ survivors and test the full fibers and conductor. A finite inverse-map
 calculation may be useful, but its `Delta*K!=0` conclusion must not be
 reported as closure of this global seventeen-equation problem.
 
-## The bounded global calculation did not close the incidence
+## Required evidence for an exclusion
 
-The [global QQ driver](../computations/generalization_quintic_h2_global_QQ_saturation_2026_10_16.m2) loads the accepted seventeen-equation, nine-variable input and attempts only saturation by the original domain δEΔ1. It introduces no cover discriminant, K, coefficient or j inverse and does not reconstruct the actual octic. The recorded bounded attempt was interrupted and produced no saturated ideal or original-generator unit certificate. Its process-control review is not mathematical evidence of emptiness. Even a later unit-ideal output would require an exact certificate in the declared original generators and complete boundary coverage.
+The global seventeen-equation incidence remains unresolved. An exclusion by saturation must use the original domain δEΔ1, without silently adding a cover discriminant, K, coefficient or j inverse. A unit-ideal output needs an exact identity in the declared original generators and complete coverage of the stated boundary. A bounded attempt or its process-control checks supplies neither.

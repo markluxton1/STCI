@@ -705,35 +705,12 @@ Their middle coefficients rule that out in characteristic zero.
 This accepts only the squarefree subcase. Repeated-root strata and
 the global power-descent problem remain unresolved by this audit.
 
-## 7. Replay provenance and the missing requested root manifest
+## 7. Exact algebra and geometric hypotheses
 
-At the first read and a subsequent recheck on 2026-10-09, the
-requested path
-`validation/2026-10-09-genus-one-conductor/root-replay/execution-manifest.json`
-did not exist in this checkout. This audit does not claim to have
-verified that intended root replay or infer whether some separately
-running root tool is active. Its absence does not obstruct the
-conditional mathematical audit.
-
-I made a separate frozen-source bounded replay in
-`validation/2026-10-09-genus-one-conductor-algebra-independent/`.
-It began at 2026-10-09T18:23:13.649396+00:00 and returned exit 0,
-`status: PASS`, with 17 literal symbolic checks. The original and
-frozen source hashes matched after execution:
-
-    19e0c6bcb1db999dc95c8a640463ecd722ced43b0694037fe20835bb112ebd2f.
-
-The output SHA256 was
-
-    700e0ac83877a4b9aa20f7de6505485fc5bdb6191bc108d78427ef5dbd1c4f52.
-
-The independent execution manifest is
-`validation/2026-10-09-genus-one-conductor-algebra-independent/execution-manifest.json`.
-It records the frozen source, exact runtime, cwd, output and both
-terminal stream hashes. No external scratch input is used by this
-checker. Passing identities corroborate the displayed algebra;
-they do not verify the geometric hypotheses or supply parameter
-coverage for the application.
+The symbolic identities corroborate the displayed algebra. They do not
+verify the geometric hypotheses or supply parameter coverage for the
+application; those requirements remain as stated in the proof and
+acceptance boundary below.
 
 ## 8. Acceptance boundary
 

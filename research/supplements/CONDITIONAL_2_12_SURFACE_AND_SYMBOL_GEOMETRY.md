@@ -125,9 +125,8 @@ The compact exporter gives exactly 48 nonzero scalar coefficient equations from 
 Run
 
     python3 research/computations/conditional_2_12_elimination_2026_10_20.py
-    /opt/homebrew/bin/M2 --script research/computations/conditional_2_12_elimination_2026_10_20.m2
 
-The latter loads the hierarchical model and reports `COMPACT_BASE_MODEL_READY` and `COMPACT_CUBIC_EQUATIONS=48`. It launches no Groebner computation. The model is smooth-open only for the bounded CAS trial; singular-root strata remain in the parent structured incidence and are not excluded by this note.
+The exporter reconstructs the hierarchical model, whose M2 presentation reports `COMPACT_BASE_MODEL_READY` and `COMPACT_CUBIC_EQUATIONS=48`. This is an equation export, with no Groebner computation. The model is smooth-open only for the bounded CAS trial; singular-root strata remain in the parent structured incidence and are not excluded by this note.
 
 The bounded QQ trials in `research/validation/2026-10-20-conditional-2-12-elimination/` preserve exact input files, return codes, and resource limits. Early expanded models and the first compact base model hit their 60-second CPU limits. These runs supplied **no ideal, dimension, unit, or emptiness certificate**. The final reduced cubic trial is recorded separately. No theorem may be inferred from a CPU-limited or killed process.
 
@@ -518,15 +517,13 @@ New artifacts:
 * [independent direct-binomial audit](../computations/conditional_2_12_symbol_independent_audit_2026_10_20.py)
   and its JSON evidence;
 * [structured exporter](../computations/conditional_2_12_structured_incidence_2026_10_20.py),
-  [M2 presentation](../computations/conditional_2_12_structured_incidence_2026_10_20.m2),
-  and [metadata](../computations/conditional_2_12_structured_incidence_2026_10_20.json);
+  containing the exact equation and torsion-matrix construction;
 * [singular bridge and full gluing proof](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md)
   and [independent review](#2026-10-20-conditional-2-12-incidence-audit).
 
 Run the three new Python scripts with `python3`; they use only the
-standard library. Load the exported M2 file with
-`/opt/homebrew/bin/M2 --script research/computations/conditional_2_12_structured_incidence_2026_10_20.m2`.
-The M2 load constructs the equations and reports MODEL_READY; this
+standard library. The structured exporter reconstructs an M2 presentation
+that constructs the equations and reports MODEL_READY; this
 does NOT compute a Groebner basis, determine emptiness, or certify
 realization. Canonical metadata validation is a separate integrity
 check, not a proof of any new mathematical assertion.

@@ -70,6 +70,8 @@ def main():
     b2=ca(cs(cm(A2,cp(d2,2)),-1),cm(w,ca(D2,cs(A2,-1))))
     norms=[ca(k1,k2),ca(b2,cs(b1,-1),cs(k1,-1))]
     fmt=env['fmt']
+    # Capture original-coordinate labels before the later line-chart renaming.
+    norm_symbol_equations=list(map(fmt,norms))
     data=json.loads((HERE/'conditional_2_12_symbol_map_2026_10_20.json').read_text())
     rows=data['image_rank_certificate']['minor_rows_zero_based']
     labels=data['source_basis_labels'];cols=[labels.index(x) for x in data['image_basis_labels']]
@@ -219,7 +221,7 @@ def main():
         'generic_open':'B1*B2*C1*C2*kappa1*kappa2*Delta1*Delta2*(tau^2-4delta)!=0 before normalization',
         'remaining_boundary_strata':['kappa1=kappa2=0','B1*B2*C1*C2=0 with both kappa nonzero','integral nodal roots','smooth roots'],
         'excluded_mixed_kappa':'exactly one kappa zero forces that factor to be the quadric direction',
-        'norm_symbol_equations':list(map(fmt,norms)),
+        'norm_symbol_equations':norm_symbol_equations,
         'first_count':8,'eliminated_first_rows':[0,1,2,3,12,13,14,15],
         'first_free_h':['h4','h5','h6','h7'],
         'spectral_torsion':'tau*(tau^2-delta)*(tau^2-2delta)*(tau^2-3delta)*((tau^2-2delta)^2-3delta^2)=0',

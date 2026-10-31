@@ -35,7 +35,7 @@ auditCondition("exact B intersection equation",
     -3*coefficientB+nLen*coefficientB/(nLen+1)+chainSource+mLen*coefficientB/(mLen+1) == 0);
 auditCondition("strict gap from coefficient one",
     1-coefficientB == ((contactNode+1)/(nLen+1)+1/(mLen+1))/chainDenominator);
-ff = openOut "research/validation/2026-10-10-genus-two-nonendpoint-trisecant-independent-audit/result.json";
+ff = openOut "research/validation/2026-10-10-genus-two-nonendpoint-trisecant-continuation-audit/result.json";
 ff << "{\n  \"status\": \"PASS\",\n  \"engine\": \"Macaulay2 1.26.06\",\n  \"checked_conditions\": " << auditCount << ",\n  \"scope\": \"Symbolic all-length two-endpoint A-chain equations; n>=1, m>=0, 1<=k<=n inequalities and geometric hypotheses proved separately\",\n  \"coefficient_B\": \"((n+1-k)/(n+1))/(3-n/(n+1)-m/(m+1))\",\n  \"one_minus_coefficient_B\": \"((k+1)/(n+1)+1/(m+1))/(1+1/(n+1)+1/(m+1))\",\n  \"does_not_claim\": \"A finite graph enumeration, endpoint-trisecant coverage, lambda-zero exclusion, or the universal STCI theorem\"\n}\n";
 close ff;
 print("PASS: " | toString auditCount | " all-length rational identities");

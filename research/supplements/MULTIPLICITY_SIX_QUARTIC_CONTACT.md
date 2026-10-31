@@ -183,8 +183,8 @@ three combinations of the six minors give `alpha^2,alpha beta,beta^2`.
 Conversely every minor has no term below total degree two. Thus the
 ideal equality can be checked solely by polynomial expansion, without
 trusting a Groebner-basis output. The witnesses are embedded directly
-in `verify_mf6_infinity_universal.py`; their discovery output is also in
-`../scratch/session-mf6-minor-membership.json`.
+in [the universal verifier](../computations/verify_mf6_infinity_universal.py),
+which checks all three combinations by exact polynomial expansion.
 
 Consequently any nonzero `L` forces `A=12,B=4` over an algebraically
 closed characteristic-zero field. This conclusion uses the whole
@@ -211,11 +211,10 @@ where the explicit cubic is
        -16x0x2^2-8x0x2x3-4x0x3^2-64x1^3-32x1^2x2
        +16x1^2x3+8x1x2^2+4x1x2x3-x1x3^2+x2^3.
 
-The companion `../scratch/session-mf6-special-fiber.py` derives the
-complete mixed quartic basis, computes all four special kernel vectors,
-and certifies equality with `C3*<x0,x1,x2,x3>` by an exact quartic
-monomial coefficient matrix of rank four. Its exact output is preserved
-in `../scratch/session-mf6-special-fiber.json`.
+The [universal verifier](../computations/verify_mf6_infinity_universal.py)
+reconstructs the complete mixed quartic basis, computes all four special
+kernel vectors, and certifies equality with `C3*<x0,x1,x2,x3>` by an
+exact quartic monomial coefficient matrix of rank four.
 
 Every nonzero remaining quartic thus has an ambient plane factor. It
 cannot occur in a defining pair with radical support `C0`: if the plane
@@ -240,13 +239,14 @@ at six points:
     (0,B), B^2-2B+4=0,
     (-12,B), B^2+4B+40=0.
 
-The exploratory Groebner output is in
-`../scratch/session-mf6-rank-boundary.json`. These other rank-drop fibers
-need not be separately classified for the proof, because (4) eliminates
-them independently of the quartic kernel. The full exceptional fiber at(12,4), rather than the vanishing generic vector, is indispensable.
+This six-point list is additional boundary information, not an input to
+the exclusion. These other rank-drop fibers need not be separately
+classified for the proof, because (4) eliminates them independently of
+the quartic kernel. The full exceptional fiber at (12,4), rather than
+the vanishing generic vector, is indispensable.
 
 ## Exact support and review scope
 
-The self-contained [universal verifier](../computations/verify_mf6_infinity_universal.py) reconstructs the complete original coefficient matrix and its full exceptional fiber from the actual ideal basis, checks the moving-support derivative, derives the polynomial matrix and verifies both its ideal equality and the explicit membership witnesses. It reads no generated-JSON proof fixture. The independent reconstruction in the inherited source state rederived the global annihilator, the degree loss whenS has infinity zeros, the shifted coefficient ideal and the whole rank-four exceptional fiber. The separate special-fiber scratch calculation is corroboration rather than a required external input.
+The self-contained [universal verifier](../computations/verify_mf6_infinity_universal.py) reconstructs the complete original coefficient matrix and its full exceptional fiber from the actual ideal basis, checks the moving-support derivative, derives the polynomial matrix and verifies both its ideal equality and the explicit membership witnesses. It reads no generated-JSON proof fixture. The independent reconstruction in the inherited source state rederived the global annihilator, the degree loss whenS has infinity zeros, the shifted coefficient ideal and the whole rank-four exceptional fiber. No separate generated special-fiber fixture is needed.
 
 The ordinary rational formulas use2 as a unit, and their exact coefficient/minor identities have only been certified in their stated characteristic-zero model. A prime-characteristic application would need the correct conormal and actual source model and all relevant inversions. The [positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) prevents interpreting this fixed characteristic-zero contact proof as a universal STCI obstruction. Other multiplicity-six types have their own proofs and prerequisites; the scalar divisor budget alone does not remove them.

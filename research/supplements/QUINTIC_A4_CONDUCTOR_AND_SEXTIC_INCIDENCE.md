@@ -494,10 +494,7 @@ the original four linear cover equations are the correct data for
 retaining the repeated-root determinant boundary; the homogeneous
 general criterion itself excludes no such boundary.
 
-The old [attempt02 source](../computations/generalization_quintic_logarithmic_support_2026_10_14_attempt02.m2)
-substituted \(p=1-x\), while [attempt04](../computations/generalization_quintic_logarithmic_support_2026_10_14_attempt04.m2)
-applied the correct Hamiltonian operator to that incorrectly bound vector.
-Their exact matrices are not the actual finite-h2 conductor incidence.
+The [initial coefficient capture](../computations/generalization_quintic_logarithmic_support_2026_10_14_attempt02.m2) uses \(p=1-x\). Applying the Hamiltonian operator directly to that vector would therefore give the wrong finite-h2 conductor incidence.
 The relation \(p=1-z_{\rm target}\) uses the target normalization
 coordinate, whereas the conormal cover uses \(x=r/\delta\) and hence
 \(p=1/x\). The reciprocal transformation proved above repairs this

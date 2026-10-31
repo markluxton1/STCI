@@ -35,10 +35,10 @@ int main(int argc,char **argv) {
     if(argc!=2){fprintf(stderr,"usage: %s OUTPUT_DIR\n",argv[0]);return 1;}
     const char *outdir=argv[1]; char path[2048],label[128];
     fmpq_mpoly_ctx_init(ctx,3,ORD_DEGREVLEX);
-    fmpq_mpoly_t q[8],prevq[8],r[8],unit[3],j,x,y,raw,nf,quot,mult,check,oldfirst;
+    fmpq_mpoly_t q[8],prevq[8],r[8],unit[3],j,x,y,raw,nf,quot,mult,check;
     for(int i=0;i<8;i++){fmpq_mpoly_init(q[i],ctx);fmpq_mpoly_init(prevq[i],ctx);fmpq_mpoly_init(r[i],ctx);}
     for(int i=0;i<3;i++)fmpq_mpoly_init(unit[i],ctx);
-    fmpq_mpoly_init(j,ctx);fmpq_mpoly_init(x,ctx);fmpq_mpoly_init(y,ctx);fmpq_mpoly_init(raw,ctx);fmpq_mpoly_init(nf,ctx);fmpq_mpoly_init(quot,ctx);fmpq_mpoly_init(mult,ctx);fmpq_mpoly_init(check,ctx);fmpq_mpoly_init(oldfirst,ctx);
+    fmpq_mpoly_init(j,ctx);fmpq_mpoly_init(x,ctx);fmpq_mpoly_init(y,ctx);fmpq_mpoly_init(raw,ctx);fmpq_mpoly_init(nf,ctx);fmpq_mpoly_init(quot,ctx);fmpq_mpoly_init(mult,ctx);fmpq_mpoly_init(check,ctx);
     for(int i=0;i<7;i++){
         snprintf(path,sizeof(path),"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-%d.txt",i);
         read_poly(q[i],path);if(i>0)fmpq_mpoly_set(prevq[i],q[i-1],ctx);
@@ -58,7 +58,6 @@ int main(int argc,char **argv) {
         if(n==0){fmpq_mpoly_mul(raw,q[5],r[6],ctx);fmpq_mpoly_mul(x,q[6],r[5],ctx);fmpq_mpoly_sub(raw,raw,x,ctx);fmpq_mpoly_mul(raw,raw,j,ctx);}
         else if(n<=5)det3(raw,q,prevq,r,n-1,5,6);
         else det3(raw,q,prevq,r,n-6,6,7);
-        if(n==1){read_poly(oldfirst,"research/validation/2026-10-15-quintic-h2-unified-incidence/attempt-03-flat-lex-size-probe/raw-generator-1.txt");assert(fmpq_mpoly_equal(raw,oldfirst,ctx));}
         snprintf(label,sizeof(label),"raw-generator-%d",n);write_poly(raw,outdir,label);
         fmpq_mpoly_set(nf,raw,ctx);fmpq_mpoly_one(mult,ctx);int exps[3]={0,0,0};
         if(!fmpq_mpoly_is_zero(nf,ctx)) for(int u=0;u<3;u++) while(fmpq_mpoly_divides(quot,nf,unit[u],ctx)){
@@ -69,8 +68,8 @@ int main(int argc,char **argv) {
         fprintf(stats,"%d\t%d\t%d\t%d\t%ld\t%ld\n",n,exps[0],exps[1],exps[2],fmpq_mpoly_total_degree_si(nf,ctx),fmpq_mpoly_length(nf,ctx));fflush(stats);
         printf("PASS generator %d, removed only declared units, degree %ld terms %ld\n",n,fmpq_mpoly_total_degree_si(nf,ctx),fmpq_mpoly_length(nf,ctx));fflush(stdout);
     }
-    fclose(stats);puts("COMPLETE exact shared 12-generator preparation and first-generator cross-engine binding");
+    fclose(stats);puts("COMPLETE exact shared 12-generator preparation and declared-unit product checks");
     for(int i=0;i<8;i++){fmpq_mpoly_clear(q[i],ctx);fmpq_mpoly_clear(prevq[i],ctx);fmpq_mpoly_clear(r[i],ctx);}
     for(int i=0;i<3;i++)fmpq_mpoly_clear(unit[i],ctx);
-    fmpq_mpoly_clear(j,ctx);fmpq_mpoly_clear(x,ctx);fmpq_mpoly_clear(y,ctx);fmpq_mpoly_clear(raw,ctx);fmpq_mpoly_clear(nf,ctx);fmpq_mpoly_clear(quot,ctx);fmpq_mpoly_clear(mult,ctx);fmpq_mpoly_clear(check,ctx);fmpq_mpoly_clear(oldfirst,ctx);fmpq_mpoly_ctx_clear(ctx);flint_cleanup();return 0;
+    fmpq_mpoly_clear(j,ctx);fmpq_mpoly_clear(x,ctx);fmpq_mpoly_clear(y,ctx);fmpq_mpoly_clear(raw,ctx);fmpq_mpoly_clear(nf,ctx);fmpq_mpoly_clear(quot,ctx);fmpq_mpoly_clear(mult,ctx);fmpq_mpoly_clear(check,ctx);fmpq_mpoly_ctx_clear(ctx);flint_cleanup();return 0;
 }

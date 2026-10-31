@@ -20,7 +20,7 @@ alpha*beta*gamma*delta*(alpha*delta-beta*gamma) != 0
 
 fails to admit a mate of any degree whose set-theoretic intersection is the exact fixed curve `C0=[U^4:U^3V:UV^3:V^4]`.
 
-The [owner proof](#source-2026-10-09-session-singular-delpezzo-four-a1-familymd) is accepted at this scope. The universal coordinate identities are checked by a separate implementation and isolated replays. The mathematical proof is the algebra and geometry below, not agreement between agents or a numerical parameter sample. The singular surface, smooth lifted curve, finite birational quartic image, and extra normalization point are bound to the actual fixed coordinates.
+The [owner proof](#source-2026-10-09-session-singular-delpezzo-four-a1-familymd) is accepted at this scope. A separate implementation checks the universal coordinate identities. The mathematical proof is the algebra and geometry below, not agreement between agents or a numerical parameter sample. The singular surface, smooth lifted curve, finite birational quartic image, and extra normalization point are bound to the actual fixed coordinates.
 
 This family is not asserted to exhaust all four-A1 embeddings or projections, all genus-one singular normalizations, genus-two normalizations, or the unrestricted STCI problem. The parameter boundary where the displayed transformation becomes singular is outside this construction and outside this theorem.
 
@@ -139,28 +139,26 @@ The stated quadric section `Q` pulls back exactly to the square of this odd sect
 
 At each A1 vertex the curve is non-Cartier. Its curve local ring is regular of dimension one, whereas the surface local ring has embedding dimension three. Quotient by one element could decrease embedding dimension by at most one, leaving at least two; the curve ideal therefore cannot be principal. Together with the Cartier divisor `2c_S`, its nonzero local class has order two. On the minimal resolution the smooth curve meets each exceptional `(-2)` curve once: its three A1 chart coordinates vanish to first order, so its tangent direction lifts to one transverse point on the exceptional conic. The correction is half the sum of the four exceptional curves, of square `-2`. This validates the auxiliary identity `q=2pi=2`. The exclusion itself is already proved in section 4.
 
-## 6. Frozen evidence and reproduction
+## 6. Exact computational support
 
-The independent [countercheck](../validation/2026-10-09-four-A1-family-audit/countercheck.py) uses universal parameters, not a sample. It verifies the coordinate, cancellation, resultant, actual curve, singular-locus, local A1, cover-square, branch-equation, and extra-point identities. Its SHA256 is
+The independent
+[countercheck](../validation/2026-10-09-four-A1-family-audit/countercheck.py)
+uses universal parameters. It verifies the coordinate, cancellation,
+resultant, actual-curve, singular-locus, local-A1, cover-square,
+branch-equation and extra-point identities. The separate
+[owner checker](../../computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py)
+is also retained.
 
-```text
-9412835cf6ef3df5f0e1b9c9f3d5208a7bc89ed4e0d1bf904f0d1f0f7386317c
-```
-
-Its terminal result is in [countercheck-result.json](../validation/2026-10-09-four-A1-family-audit/countercheck-result.json). Both the frozen owner checker and this checker ran in an isolated snapshot with terminal exit code zero. Their deterministic reports were byte-identical to the corresponding saved repository reports, and snapshot inputs stayed unchanged. The owner replay took 0.580 seconds; the independent replay took 0.651 seconds. The [isolated replay manifest](../validation/2026-10-09-four-A1-family-audit/isolated-replay-manifest.json) preserves the execution record.
-
-The original source is actually at [computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py](../../computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py), with SHA256 `0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4`. Its root-level computation path is preserved rather than silently rewritten.
-
-Reproduce the independent controls:
+Run the independent controls from the repository root:
 
 ```sh
 PYTHONDONTWRITEBYTECODE=1 python3 \
   research/validation/2026-10-09-four-A1-family-audit/countercheck.py
-PYTHONDONTWRITEBYTECODE=1 python3 \
-  research/validation/2026-10-09-four-A1-family-audit/isolated-replay.py
 ```
 
-The frozen snapshot includes the owner proof as inspected, both exact sources, and both reports. The [aggregate audit manifest](../validation/2026-10-09-four-A1-family-audit/audit-manifest.json) binds this independent note and all evidence files. No process from this bounded audit remains running. The global question and singular-normalization strata outside the explicit family remain open.
+The algebra and geometry above establish the accepted exclusion for this
+explicit family. The global question and singular-normalization strata
+outside that family remain open.
 
 
 ---
@@ -386,11 +384,11 @@ Source SHA256:
 
     0e72ced585c9e1135648b5e9a278c09964c6677009f50554aac46a68d3b6cef4
 
-The [report](../scratch/session-singular-delpezzo-four-A1-family-2026-10-09.json)
-retains the uniform parameter open and disclaims an unrestricted STCI
-claim. An independent auditor is reviewing the family proof and a
-separate child reconstruction checks the exact alpha=beta=gamma=1,
-delta=2 example, including its actual conductor.
+The uniform parameter open is the one stated in this proof. The
+[retained independent family audit](#source-2026-10-09-session-singular-delpezzo-four-a1-family-independent-auditmd)
+treats the family proof; the explicit alpha=beta=gamma=1,delta=2 example
+below includes its actual conductor. The family exclusion remains
+separate from an unrestricted STCI claim.
 
 For that example,
 
@@ -665,12 +663,8 @@ Cartier criterion; the script does not label those conclusions proved
 merely because a polynomial identity passed.
 
 Terminal replay on 2026-10-09 returned exit 0 and `status: PASS`.
-The output is
-`research/scratch/session-singular-local-lift-countershield-2026-10-09.json`.
 Source SHA256:
 `edb3a209b026fd2cbde4a11335087fce7430b291e6380b4774f62ca2415aa503`.
-Output SHA256:
-`fbc741cde69ab4b33b808711a228b6381fbe7ff2210872dcdec8a4c363475c9b`.
 The separate adversarial proof is saved in
 `research/notes/2026-10-09-singular-normalization-local-countershield-audit.md`;
 it accepts the example and explicitly checks the nonreduced inverse

@@ -561,9 +561,7 @@ minimum, not the unrestricted \(\delta(p)\).
 
 The dependency-free [exact verifier](../computations/stci_arithmetic_beyond_2026_10_29.py)
 checks homogeneity, nonnegative exponents and sparse polynomial pullbacks
-at \(p=43,47,53,59,61,101\). Its
-[saved output](../computations/stci_arithmetic_beyond_2026_10_29.json)
-records every input. Run
+at \(p=43,47,53,59,61,101\), with every input explicit in the source. Run
 `python3 research/computations/stci_arithmetic_beyond_2026_10_29.py`.
 These are finite controls; the uniform proof is (8)--(9).
 
@@ -606,7 +604,7 @@ retains the characteristic power invisible to ordinary differentiation.
 
 The jet-gap lemma measures the first infinitesimal variation upstairs that the target local ring cannot represent. Ordinary differentiation sees only divisibility by \(p\); the first surviving Hasse order sees the whole \(p^{v_p(b)}\). Conversely, once a Frobenius difference vanishes in the full conductor, it descends. This is a relation between infinitesimal gluing and an actual homogeneous equation, and it persists for a carrier with no nonzero binomial relation.
 
-The [dependency-free sparse verifier](../computations/stci_arithmetic_beyond_2026_10_29.py) with its [exact output](../computations/stci_arithmetic_beyond_2026_10_29.json) checks the literal identity at \(p=43,47,53,59,61,101\), all exponents and ordinary degrees. Independent direct four-variable Macaulay2 substitution at \(43,53\) was recorded in the source audit. The uniform proof is the localization identity followed by Frobenius; no inference across all primes is made from the finite controls. No fresh run was needed to preserve the proof.
+The [dependency-free sparse verifier](../computations/stci_arithmetic_beyond_2026_10_29.py) checks the literal identity at \(p=43,47,53,59,61,101\), all exponents and ordinary degrees. Independent direct four-variable Macaulay2 substitution at \(43,53\) was recorded in the source audit. The uniform proof is the localization identity followed by Frobenius; no inference across all primes is made from the finite controls. No fresh run was needed to preserve the proof.
 
 [Positive-characteristic constructions](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md) supplies the family-wide rational-quartic theorem and fixed-cubic minima. [The exact binomial-family analysis](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#exact-two-binomial-reduced-support-and-endpoint-contacts) preserves the distinct characteristic-five minimum 25 in its quartic-plus-binomial family. The minimum 20 in the one-binomial class uses a different cubic carrier. A family minimum is never a lower bound for the unrestricted minimum without a coverage theorem.
 

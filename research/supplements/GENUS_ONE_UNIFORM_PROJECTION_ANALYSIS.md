@@ -203,7 +203,6 @@ The independent checker
 [verify_session_genus_one_projection_2026_10_09.py](../computations/verify_session_genus_one_projection_2026_10_09.py)
 verifies the six literal RNC quadrics, both normalized equations, every
 normal-gradient entry, the completed-square identities, the local
-countershield identities, and all new A3+2A1 family identities. It writes
-[session-genus-one-projection-checks-2026-10-09.json](../scratch/session-genus-one-projection-checks-2026-10-09.json).
+countershield identities, and all A3+2A1 family identities.
 These calculations check the representations of the preceding proofs;
 they do not classify every repeated-root projection parameter.

@@ -226,8 +226,6 @@ resolution on five deterministic proper pairs over \(\mathbf F_{32003}\).
 The finite examples do not prove the all-degree statement; (1), (4), and
 local duality supply that proof. They assert no smoothness or
 characteristic-zero lifting of the sampled residuals.
-The [saved PASS output](../computations/residual_liaison_resolution_2026_10_28.txt)
-records the finite check, including the residual degrees and genera.
 
 ## 4. Literature gives a precise deformation interpretation
 

@@ -104,8 +104,7 @@ Here the two directions have independent arithmetic checks:
 3. **`J:t=J`.** Macaulay2 checks the colon equality exactly. The following elementary module argument verifies it without another saturation computation.
 
 The multiplier matrix is in
-[`session_dx1_shifted_membership_2026_10_07.txt`](../computations/session_dx1_shifted_membership_2026_10_07.txt); its generator is
-[`session_dx1_shifted_membership_2026_10_07.m2`](../computations/session_dx1_shifted_membership_2026_10_07.m2).
+[`session_dx1_shifted_membership_2026_10_07.txt`](../computations/session_dx1_shifted_membership_2026_10_07.txt). The [exact saturation audit](../computations/audit_dx1_saturation_2026_10_07.py) checks it against the original five obstruction coordinates.
 
 ## An elementary saturation and radical proof
 
@@ -196,9 +195,8 @@ There is an independently certified real zero of this insufficient subsystem nea
 
 The displayed numbers specify an exact rational cube center. A cube of radius `10^-10` has an exact rational Newton contraction bound below `10^-4` and is mapped into a cube of radius below `10^-14`. Thus it contains a unique real zero. All four open factors `x,u,2a+1,a+u+2x` are bounded away from zero throughout the cube. The omitted `Q1,Q3` numerators are also bounded away from zero there, so this zero is not a P-044 zero.
 
-The exact interval proof, independent expansion of the older `s^2=sum Q_i C_i` certificate, and their rerunnable output are retained in
-[`verify_session_dx1_independent_2026_10_06.py`](../computations/verify_session_dx1_independent_2026_10_06.py) and
-[`verify_session_dx1_independent_2026_10_06.out`](../computations/verify_session_dx1_independent_2026_10_06.out).
+The exact interval proof and independent expansion of the older `s^2=sum Q_i C_i` certificate are retained in
+[`verify_session_dx1_independent_2026_10_06.py`](../computations/verify_session_dx1_independent_2026_10_06.py), together with the actual polynomial and membership-certificate inputs it reads.
 
 Accordingly, the earlier note's proposed equivalence with emptiness of the three-equation open set must not be reused. The correct repair uses the full five obstruction coordinates. The old resultants remain exact identities but have no emptiness implication by coprimality alone.
 
@@ -284,7 +282,7 @@ On the main component normalize
 A=1+tz,qquad B=-2t-8t^2z,qquad t
 e0.
 ]
-The new self-contained certificate `verify_e1_jet_rebuild.py` reconstructs:
+The retained [independent full-orbit certificate](../computations/audit_mf6_e1_primitive_2026_10_07.py) includes the main-component reconstruction:
 1. (I_C(4)) from all 35 ambient quartic monomials;
 2. the first-symbol condition defining (I_{C_2}(4));
 3. the BF quadratic chart correction;
@@ -292,19 +290,11 @@ The new self-contained certificate `verify_e1_jet_rebuild.py` reconstructs:
 5. its kernel as actual ambient quartics (F_0,F_1);
 6. the gcd of (F_0,F_1) over (mathbf Q(t)).
 
-## Status discipline
-
-The script contains exact symbolic assertions for the previously obtained dimensions/rank, but this branch has not yet recorded a runtime transcript from an independent Python execution. Therefore:
-- the BF obstruction locus is **ported exact certificate / previously audited**;
-- the rebuilt quartic assertions are **PENDING RUNTIME VERIFICATION**;
-- no new gcd or residual-base-locus conclusion is promoted yet.
-
-After runtime verification, compute/saturate the ideal ((F_0,F_1)) against (I_C), preferably in Macaulay2, and record the residual scheme uniformly over the parameter (t). Only then interpret the geometry and literature-check linkage/contact antecedents.
-
+The original pending-runtime checkpoint was superseded by the recorded independent execution below. The retained full-orbit audit also reconstructs the boundary directions and their normalizations; its exact scope is stated in [the primitive-triple proof](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md). No new canonical result is promoted here.
 
 ## Runtime verification and main-component carrier exclusion
 
-Independent execution of \`verify_e1_jet_rebuild.py\` reproduced:
+Independent execution of the main-component reconstruction reproduced:
 \[
 h^0(I_C(4))=18,\qquad h^0(I_{C_2}(4))=7,
 \]

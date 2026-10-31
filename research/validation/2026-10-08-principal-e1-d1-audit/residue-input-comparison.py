@@ -5,7 +5,8 @@ import ast,hashlib,json
 import sympy as s
 from sympy.polys.domains import QQ
 OUT=Path(__file__).resolve().parent
-source=OUT/'research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py'
+ROOT=Path(__file__).resolve().parents[3]
+source=ROOT/'research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py'
 boundary=OUT/'research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_all.json'
 tree=ast.parse(source.read_text())
 assignment=next(item for item in tree.body if isinstance(item,ast.Assign) and
@@ -38,7 +39,7 @@ assert s.cancel(s.diff(Uraw,eps).subs(eps,0)-V/(2*z**7))==0
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 result={'status':'PASS exact literal-source binding and actual balanced first-normal transition',
  'source_sha256':sha(Path(__file__)),
- 'input_sha256':{str(source.relative_to(OUT)):sha(source),str(boundary.relative_to(OUT)):sha(boundary)},
+ 'input_sha256':{str(source.relative_to(ROOT)):sha(source),str(boundary.relative_to(ROOT)):sha(boundary)},
  'matched_complete35_fibres':matched,
  'raw_opposite_normal_transition':'(Uraw,Vraw)=z^-7*(V/2,2U)',
  'balanced_opposite_chart':'x3=1,x2=w,x1=w³+2Uop,x0=w4+Vop/2+3wUop',

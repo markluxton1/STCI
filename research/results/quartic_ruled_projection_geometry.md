@@ -13,7 +13,7 @@ dependencies: []
 evidence:
   - "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
   - "research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md"
-  - "research/computations/p4_ruled_surfaces_2026_10_24.json"
+  - "research/computations/verify_p4_ruled_surfaces_2026_10_24.py"
 independent_audits:
   - "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
   - "research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md"

@@ -17,7 +17,7 @@ some are bounded exploratory models rather than certificate checkers.
 
 | Mathematical question | Proof and computation | Exact scope |
 |---|---|---|
-| The curve, conormal geometry, and positive-characteristic constructions | [Curve geometry](../synthesis/01-problem-and-curve.md), [positive-characteristic proofs](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md); `verify_c0.py`, `verify_normal_bundle.py`, `verify_positive_quartic_descent.py`, `verify_fixed_quartic_mate_degrees.py` | The stated parametrizations, transitions and identities. The all-degree construction and optimality arguments are in the proofs, not inferred from a finite prime scan. |
+| The curve, conormal geometry, and positive-characteristic constructions | [Curve geometry](../synthesis/01-problem-and-curve.md), [positive-characteristic proofs](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md); `verify_c0.py`, `verify_normal_bundle.py` | The stated parametrizations and transitions. The positive-characteristic construction and optimality arguments are proved directly in the mathematical home. |
 | Quartic carrier mechanisms | [Quartic carrier proof](../synthesis/quartic_carrier_proof.md); primitive obstruction/factor programs, normal-carrier programs and genus-one/genus-two exact checks linked there | Complete arguments require the classification/coverage and descent steps in their proof homes. A determinant or denominator compression alone is not a carrier exclusion. |
 | The separate filtered quartic-pair calculation | [Quartic-pair account](../synthesis/quartic_pair_obstruction.md), [R-0022](../results/quartic_44_filtered_exclusion.md); `verify_44_quartic_symbol_comparison_2026_10_23.py`, `verify_44_filtered_contact_2026_10_23.py`, `audit_44_filtered_contact_2026_10_23.py` | Actual quartic source maps and the stated filtered-contact cases; inherited primitive-direction coverage remains a separate mathematical input. |
 | Filtrations, cancellation, and marked embedding | [Filtration account](../synthesis/normal_filtration_boundary_obstructions.md); `verify_ideal_filtration_*.py`, `verify_delta_conormal_annihilator_2026_10_24.m2`, `verify_delta_rees_equation_module_2026_10_24.m2`, `verify_delta_singular_families_2026_10_24.m2` | Explicit identities, counterexamples and displayed Rees/initial ideals. Finite samples do not establish global equation realization or a general STCI consequence. |
@@ -27,7 +27,7 @@ some are bounded exploratory models rather than certificate checkers.
 | Explicit residual curves and fixed-boundary smoothing | [Residual examples](../synthesis/explicit_quartic_residuals.md), [smoothing proof](../synthesis/fixed_boundary_smoothing.md); exact residual/line M2 programs and `verify_ci_fixed_boundary_node_smoothing_2026_10_25.py` | The displayed quartic pairs, geometric smoothness/connectedness, and five independent node parameters in the specified fixed-boundary family. |
 | Fixed sextic, degree-sixteen mates | [R-0025 full proof](../results/ci_fixed_sextic_jet_rigidity.md); `endpoint4_fixed_m2_2026_10_25.m2`, `endpoint4_fixed_jet_independent_2026_10_26.py` | One carrier and one mate degree. The 23-dimensional normal quotient, 969 constant coefficients, 286 carrier multiples, good samples and rank 683 are all needed. |
 | Finite generic jets at fixed degrees | [Finite-jet theorem](../synthesis/finite_normal_jets.md); `finite_normal_jet_certificate.m2` | The general iff criterion has a mathematical Nakayama/degree proof, valid for singular integral curves and weighted reducible curves in arbitrary characteristic. The program supplies examples and source-coefficient controls, not that general proof or an all-degree solver. |
-| Residual constructions and equation spaces | [Actual global models](../synthesis/residual_global_models.md), [reverse liaison](../synthesis/residual_liaison.md); `verify_normal_jet_freedom_2026_10_28.py`, `verify_containing_pair_boundary_degrees_2026_10_27.py`, `verify_residual_liaison_resolution_2026_10_28.m2` | Finite checks corroborate the all-degree sheaf/cohomology/linkage proofs. Exporting an incidence system is not solving it. |
+| Residual constructions and equation spaces | [Actual global models](../synthesis/residual_global_models.md), [reverse liaison](../synthesis/residual_liaison.md); `verify_residual_liaison_resolution_2026_10_28.m2` | The sheaf/cohomology and attachment-map arguments are proved in the mathematical homes; the program checks the stated linkage resolution. Exporting an incidence system is not solving it. |
 | Projection and elliptic gluing | [Projection proof](../synthesis/projection_and_elliptic_gluing.md); focused `projection_*.m2` programs and `projection_palindromic_picard.py` | Exact incidence, local contact, inverse-image and Picard gates for the stated targets. The compact programs have no dependency on historical validation snapshots. |
 | Mixed contact and additional sextic ranks | [Mixed-sextic contact](../supplements/MIXED_SEXTIC_CONTACT.md); primary/independent `stci_mixed_contact_2026_10_29.m2`, `stci_search_sextic_jets_2026_10_28.py` | Uniform polynomial matrix arguments and named finite sextic-source ranks are distinct. The latter imports the retained R-0025 arithmetic implementation. |
 | Root pencils and collision scales | [Geometric pencil](../synthesis/root_pencil_geometry.md), [arithmetic collision](../synthesis/arithmetic_root_collision.md); root-pencil, eight-component and root-collision verifiers | Displayed actual families, contact/conductor controls and residue-sensitive valuation calculations; no invariant of every containing pair is asserted. |
@@ -81,10 +81,11 @@ Keep a check's actual dependency closure. In particular:
   seed JSONs, dual coefficient files and saved exact certificates. Some
   verifiers also bind small evaluation files by hash. Restore or deliberately
   repair those bindings before removing an input.
-- The degree-15 certificate additionally binds selected construction
-  files under `../validation/2026-10-14-localcoh-degree15-attempt06/`.
-  The final dual proves the identity without rebuilding an inverse, but the
-  current hash-input contract still has to be satisfied.
+- The degree-fifteen certificate stores the complete normalized dual in JSON.
+  Its checker reconstructs the actual tensor from the four mathematical inputs
+  and checks all polynomial identities directly; construction inverses and
+  generation records are unnecessary. The certificate also binds the exact
+  arithmetic implementation used by that check.
 - Quintic and nonendpoint programs read actual coefficient data under
   `../validation/`: the primitive diagonal polynomial, Taylor coefficient
   arrays, corrected H2 quotient/norm inputs, and H3 coefficient/remainder
@@ -100,11 +101,11 @@ Keep a check's actual dependency closure. In particular:
   `../validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2`.
   A nested replay snapshot is unnecessary once its actual source is restored.
 
-The H2 Horner exporter `generalization_quintic_h2_horner_input_2026_10_15.c`
-requires assertions enabled: required parsing and I/O operations occur inside
-`assert` expressions. The recorded build did not define `NDEBUG`. A future
-`-DNDEBUG` build must first move those operations into explicitly checked
-calls; otherwise it skips required work as well as checks.
+The global H2 model loads its seventeen equations and domain polynomial from
+`../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-02-name-repair/`.
+The retained exact generator source reconstructs the twelve-generator spectral
+system from the corrected sextic coefficient inputs; bulk Horner exports add
+no separate mathematical assertion.
 
 A `.txt`, `.json` or compressed file can be the mathematical witness itself.
 Conversely, a rank summary, process record, hash inventory or repeated PASS

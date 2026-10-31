@@ -765,7 +765,7 @@ obstruction is a separate contribution to the main lifting report.
 
 Date: 2026-10-21. Status: **diagnostic only; no repaired certificate and no theorem promotion**.
 
-The committed `conditional_2_12_certificate_audit_cont2_2026_10_21.json` reports an M2 assertion failure at line 23 of the generated `.m2` script. Line 22 asserts that rows 0–3 and 12–15 of the reconstructed universal FIRST operator vanish; line 23 compares rows 4–11 with the saved eight-polynomial export from `conditional_2_12_singular_continuation_2026_10_21_line_component_w1.m2`.
+A failed reconstructed audit reported an M2 assertion failure at line 23 of its generated script. Line 22 asserts that rows 0–3 and 12–15 of the reconstructed universal FIRST operator vanish; line 23 compares rows 4–11 with the saved eight-polynomial export from `conditional_2_12_singular_continuation_2026_10_21_line_component_w1.m2`.
 
 A separate direct arithmetic evaluation of the *recorded expressions* gives:
 

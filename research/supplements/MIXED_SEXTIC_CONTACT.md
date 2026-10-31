@@ -115,8 +115,9 @@ calculation therefore applies separately to each branch.
 ## Exact global coefficient calculation and all rank strata
 
 The primary [Macaulay2 verifier](../computations/stci_mixed_contact_2026_10_29.m2)
-and its [complete output](../computations/stci_mixed_contact_2026_10_29.txt)
-work over Q[h], with no inversion of h during matrix construction.
+works over Q[h], with no inversion of h during matrix construction. The
+[independent exact output](../computations/stci_mixed_contact_audit_2026_10_29.txt)
+retains both exceptional polynomials and the independently assembled rank strata.
 For the first sample scheme z^18=1,
 
 \[
@@ -212,4 +213,4 @@ cycle is counted as a residual curve.
 
 ## Necessary exact computational support
 
-The [primary verifier](../computations/stci_mixed_contact_2026_10_29.m2) and [separately assembled verifier](../computations/stci_mixed_contact_audit_2026_10_29.m2), with their saved outputs, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The inherited independent review reconstructed the recurrence, weight blocks, invariant factors, and integrality deduction. No fresh rank run was required for the editorial consolidation.
+The [primary verifier](../computations/stci_mixed_contact_2026_10_29.m2) and [separately assembled verifier](../computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The inherited independent review reconstructed the recurrence, weight blocks, invariant factors, and integrality deduction. No fresh rank run was required for the editorial consolidation.

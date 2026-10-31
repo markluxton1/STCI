@@ -1,73 +1,49 @@
 #!/usr/bin/env python3
-"""Verify only the NEW degree15 corank-one dual, in the accepted actual tensor.
+"""Check the saved degree-fifteen dual in the complete actual tensor.
 
-This does not rerun the accepted tensor/top-basis/rank29 verifiers. It checks
-new polynomial dual identities modulo the full degree15 polynomial, rather
-than numerical roots or rank samples. An existing certificate can be checked
-with --verify; without that option, the exact M2 output is parsed and bound.
+The certificate contains the exact dual. This checker reconstructs the matrix
+from its mathematical inputs and checks every polynomial identity; construction
+inverses, run records and earlier search attempts are unnecessary.
 """
 from pathlib import Path
 import argparse
 import hashlib
 import importlib.util
 import json
-import re
 
-HERE=Path(__file__).resolve().parent
-STEM='general-localcoh-family2-degree15-corank-one-2026-10-14-attempt02'
-spec=importlib.util.spec_from_file_location('accepted_arithmetic',HERE/'evening_localcoh_family2_exception_fields_2026_10_13.py')
-arithmetic=importlib.util.module_from_spec(spec)
-spec.loader.exec_module(arithmetic)
+HERE = Path(__file__).resolve().parent
+STEM = 'general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06'
+ARITHMETIC = 'evening_localcoh_family2_exception_fields_2026_10_13.py'
+
 
 def main():
-    parser=argparse.ArgumentParser()
-    parser.add_argument('--verify',action='store_true')
-    parser.add_argument('--stem',default=STEM,help='Exact new computation source/output stem; default preserves attempt02 lineage.')
-    parser.add_argument('--generator-file',action='append',default=[],help='Actual generator source or evidence path relative to computations; repeatable. Without this option the historical stem.m2 source is bound.')
-    args=parser.parse_args()
-    stem=args.stem
-    assert re.fullmatch(r'general-localcoh-family2-degree15-corank-one-2026-10-14(?:-attempt\d+)?',stem),'unexpected source/output stem'
-    audit=arithmetic.Audit('degree15')
-    certificate=HERE/(stem+'-certificate.json')
-    if args.verify:
-        record=json.loads(certificate.read_text())
-        for name,digest in record['sha256'].items():
-            assert hashlib.sha256((HERE/name).read_bytes()).hexdigest()==digest,name
-        assert record['modulus_coefficients']==list(map(str,audit.mod))
-        dual=list(map(audit.decode,record['dual']))
-    else:
-        dual=[]
-        for row,line in enumerate((HERE/(stem+'-dual.txt')).read_text().splitlines()):
-            index,expression=line.split(maxsplit=1)
-            assert int(index)==row
-            expression=re.sub(r'\bz\b','k',expression)
-            dual.append(audit.expr(expression))
-        generator_files=args.generator_file or [stem+'.m2']
-        names=arithmetic.INPUTS+generator_files+[stem+'-dual.txt',Path(__file__).name]
-        record={
-            'case':'degree15',
-            'modulus_coefficients':list(map(str,audit.mod)),
-            'sha256':{name:hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in names},
-            'dual':list(map(audit.encode,dual)),
-            'scope':'Accepted actual quartic-ancestor tensor; second rational endpoint family; every root of degree15 factor; every affine lower lift lambda.',
-            'inherited_scope':'Accepted actual tensor and coordinate/top-map interpretations are used without re-verification.',
-            'new_checks':'Polynomial normalized dual degree at most2; all18 tensor-column identities modulo entire degree15 polynomial; target coordinate72 equals1.',
-            'generator_files':generator_files,
-        }
-    assert len(dual)==74
-    assert dual[72]=={0:audit.one}
-    assert all(all(degree<=2 for degree in polynomial) for polynomial in dual)
-    source,alpha,kernel,p,r=audit.source()
-    L=audit.matrix(alpha)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--verify', action='store_true', help='Retained command compatibility; checking is always performed.')
+    parser.add_argument('--stem', default=STEM, choices=[STEM], help='Saved complete degree-fifteen certificate.')
+    args = parser.parse_args()
+    record = json.loads((HERE / (args.stem + '-certificate.json')).read_text())
+    spec = importlib.util.spec_from_file_location('accepted_arithmetic', HERE / ARITHMETIC)
+    arithmetic = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(arithmetic)
+    assert set(record['sha256']) == set(arithmetic.INPUTS + [ARITHMETIC]), 'mathematical input closure'
+    for name, digest in record['sha256'].items():
+        assert hashlib.sha256((HERE / name).read_bytes()).hexdigest() == digest, name
+    audit = arithmetic.Audit('degree15')
+    assert record['modulus_coefficients'] == list(map(str, audit.mod))
+    dual = list(map(audit.decode, record['dual']))
+    assert len(dual) == 74
+    assert dual[72] == {0: audit.one}
+    assert all(all(degree <= 2 for degree in polynomial) for polynomial in dual)
+    source, alpha, kernel, p, r = audit.source()
+    matrix = audit.matrix(alpha)
     for column in range(18):
-        total={}
+        total = {}
         for row in range(74):
-            total=audit.add(total,audit.mul(dual[row],L[row][column]))
-        assert not total,('new polynomial dual failure',column)
-    if not args.verify:
-        certificate.write_text(json.dumps(record,indent=2)+'\n')
-    print('PASS NEW CERTIFICATE: normalized degree<=2 dual; all18 actual-tensor column identities modulo full degree15 polynomial; every affine lambda.',flush=True)
-    print('Inherited tensor/top-map interpretations accepted; no inherited verifier rerun.',flush=True)
+            total = audit.add(total, audit.mul(dual[row], matrix[row][column]))
+        assert not total, ('polynomial dual failure', column)
+    print('PASS: normalized degree<=2 dual; all18 actual-tensor column identities modulo full degree15 polynomial; every affine lambda.')
+    print('Inherited tensor/top-map interpretations remain the stated mathematical premises.')
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     main()

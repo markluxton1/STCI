@@ -218,11 +218,9 @@ the inverse-support identities and the reversal/torus identity.
 The branch-value argument (2)--(3) and its norm contradiction are proved
 above; a passing symbolic substitution alone is not that proof.
 
-The exploratory discovery script and its large exact quadratic-field
-bases remain in
-[`session-mf6-e1-d1-boundaries.py`](../scratch/session-mf6-e1-d1-boundaries.py)
-and its JSON for provenance. The final source uses the simplified
-explicit quartics and complete rank checks instead.
+The retained endpoint verifier uses the simplified explicit quartics
+and complete rank checks, including both quadratic-field conjugates;
+the earlier exploratory bases supply no additional case coverage.
 
 Remaining: the principal `a0*b1!=0` portion of the d2=1 direction
 sextic, and the entire d2=2 defective triple/cubic incidence. They still
@@ -849,8 +847,9 @@ The full 18-dimensional quartic ideal basis, reconstructed from the
 original homogeneous generators, gives the following complete spaces:
 
 - At A=1+z,B=-2-8z, gamma=192z+96 and the space of quartics containing
-  the triple has dimension two. Its full matrix and two quartics are in
-  `../scratch/session-mf6-e1-primitive.json`.
+  the triple has dimension two. Its full ambient matrix and quartics are
+  reconstructed independently in
+  [the primitive audit](../computations/audit_mf6_e1_primitive_2026_10_07.py).
 - At A=-z/2,B=1, gamma=0 and the complete quartic space is
   `q*H0(P3,O(2))`, dimension ten. Every such carrier has the unique
   quadric factor; the retained unique-quadric STCI obstruction excludes

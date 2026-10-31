@@ -191,7 +191,6 @@ true("[2,2] independent points are distinct", s.discriminant(p, t) != 0)
 true("[2,2] generic conductor cover is separable", s.gcd(s.rem(disc.subs(other_slice), p, t), p) == 1)
 
 dependencies = [
-    ROOT/"research/notes/2026-10-09-session-ribbon-repeated-partitions-complete.md",
     ROOT/"research/computations/verify_session_ribbon_repeated_partitions_2026_10_09.py",
 ]
 result = {
