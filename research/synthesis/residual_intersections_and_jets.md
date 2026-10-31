@@ -81,6 +81,12 @@ Three distinct quantitative tests are available:
 
 The examples show two logically independent ways of proving positive residual degree: construct and certify the residual scheme, or prove a strict upper bound on generic multiplicity for an actual global source space. A formal normal-cone picture alone supplies neither.
 
+## 7A. Exact ideal-power sources do not make jet conditions independent
+
+For \(d\ge3m\), the fixed quartic has the source-level equality \(H^0(I_C^m(d))=(I_C^m)_d\) and vanishing \(H^1(I_C^m(d))\). This is an effective parameterization of all ambient forms vanishing to order at least \(m\), not a statement that their leading normal symbols fill \(H^0(\operatorname{Sym}^m N_C^\vee(d))\). The latter map has its own kernel and image, and two source spaces at different orders must still come from the **same** global equation when their jets are compared.
+
+Consequently a residual-degree argument based on linear jet conditions must compute the actual image and rank-drop strata. It cannot infer independence from the vanishing of the ambient ideal-power cohomology alone. The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-the-exact-ideal-power-theorem-contributes) and [Chapter 2](02-two-surfaces.md#27a-exact-ordinary-power-source-in-the-stable-degree-range) give the source, while [R-0025](../results/ci_fixed_sextic_jet_rigidity.md) illustrates a scoped image calculation.
+
 ## 8. Fixed boundary versus residual removal
 
 The fixed-boundary deformation theorem R-0024 is more precise than the phrase "the nodes smooth." For its specified quartic pencil, the 36-dimensional ordered source has boundary, node and combined tangent ranks 19, 5 and 24. On the Grassmannian, the projective boundary rank is 18, and the fixed-boundary fiber is smooth of dimension 14. After etale localization at the five labeled nodes its formal local ring has five independent smoothing coordinates and nine further parameters.
