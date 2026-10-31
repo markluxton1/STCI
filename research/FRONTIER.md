@@ -36,19 +36,25 @@ has produced a general sheaf formula, positive local controls, an
 actual projective all-power failure, and the bridge used in the full
 quintic theorem. Its conductor-case investigation is complete.
 
-The next bounded investigation, independently challenged by
-`/root/nonnormal_strategy_challenge`, checks the low-sectional-genus
-classification against the remaining non-Gorenstein quintic
-normalizations. First verify the exact primary-source hypotheses;
-then test its degree-five models against a marked smooth rational
-curve of hyperplane degree four and an actual finite projection to
-the fixed C0. The already excluded genus-zero models are not reopened.
-A useful outcome may be a source model, a geometric restriction or a
-specific missing realization condition. If the classification leaves
-only broad families without a tractable marked-projection question,
-reassess normal quintics with worse singularities or an identified
-higher-degree construction. Those cases and unrestricted STCI remain
-open.
+The independently challenged low-genus investigation has checked its
+primary-source hypotheses and produced an [actual genus-two toric
+normalization](notes/2026-10-31-quintic-genus-two-toric-source.md), with
+non-Gorenstein singularities, the marked quartic and an actual quartic
+root upstairs. Its first projection gives C0 but fails through five
+extra inverse points. The next bounded test varies the relative
+projection center on this same source and curve, retaining exceptional
+center loci and the curve endpoints. The independently reviewed toric
+polygon and marked-curve arguments show that this test covers every
+toric quintic normalization of a hypothetical mate. It tests whether
+gluing can remove the precise failure of the first model; a general
+center failure alone is not a complete exclusion.
+
+The general fiber-degree comparison in that note gives `a<=dr` under
+an actual mate and a resolved-normalization fibration of degree r<d.
+For C0, conic-fiber models are excluded in carrier degrees at least
+nine. Genus zero and one are already closed for quintic mates; genus
+two and three beyond the tested source, normal quintics with worse
+singularities, and unrestricted STCI remain open.
 
 ## Current ACM construction checkpoint: uniform source failure
 

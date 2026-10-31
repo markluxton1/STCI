@@ -28,6 +28,16 @@ curve or a singular scheme-theoretic conductor contact on C. These
 are independently reviewed provisional restrictions; the unrestricted
 STCI question and canonical status are unchanged.
 
+The [genus-two continuation](notes/2026-10-31-quintic-genus-two-toric-source.md)
+constructs an actual non-Gorenstein toric normalization with the marked
+quartic and a section whose divisor is five times that curve. One finite
+quintic projection maps it exactly to C0 but has five extra inverse
+points, excluding every mate on that projected carrier. Other relative
+centers remain open. The same note proves the general necessary bound
+`a<=dr` when a resolved normalization is fibered by curves of hyperplane
+degree r<d; for C0 and conic fibers this excludes carrier degree at
+least nine. These are independently reviewed provisional findings.
+
 The [supported ACM construction test](notes/2026-10-31-acm-construction-selection.md)
 is independently reviewed provisional work. Every projected power
 image Y_uv in characteristic zero fails ACM: a uniformly nonzero

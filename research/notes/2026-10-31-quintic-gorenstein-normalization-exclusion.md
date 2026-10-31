@@ -307,3 +307,9 @@ the separate globally ADE (5,8) result. The general
 retains its all-degree and other-curve applications. Local positive
 descent controls remain relevant; the obstruction here is their
 incompatibility with the actual quintic embedding and divisor classes.
+
+The [genus-two continuation](2026-10-31-quintic-genus-two-toric-source.md)
+tests an actual non-Gorenstein normalization with a marked quartic and
+an upstairs root, and extracts a general fiber-degree restriction.
+It uses the inherited genus-zero exclusion and genus-one reduction
+rather than reopening those cases.

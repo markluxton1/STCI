@@ -228,6 +228,13 @@ case fails by its canonical-module type and A4 contact. The
 retains the general defect formula and local controls showing why a
 nonzero root class need not generate every generic conductor module.
 Non-Gorenstein normalizations remain outside the quintic theorem.
+The [genus-two continuation](notes/2026-10-31-quintic-genus-two-toric-source.md)
+supplies an actual non-Gorenstein toric source, marked rational normal
+quartic and quartic root. A finite projection giving C0 fails through
+five extra inverse points; the remaining relative-center test retains
+the actual source and curve. Its general fiber-degree comparison
+`a<=dr` also excludes conic-fiber normalization models for C0 in carrier
+degrees at least nine, under its stated actual-mate hypotheses.
 The [all-degree contact bound](notes/2026-10-31-carrier-conductor-differential-bound.md)
 also shows that a carrier of degree at least five generically regular
 along C must have a normalization singularity on the inverse curve or

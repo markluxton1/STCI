@@ -214,3 +214,11 @@ multiplicity extension are recorded in the linked §12 by reviewer
 the new local lemma and the present comparison remain independently
 reviewed provisional mathematics. No new computation is required by
 this proof, and no unrestricted STCI conclusion is claimed.
+
+A complementary [fiber-degree criterion](2026-10-31-quintic-genus-two-toric-source.md#3-a-general-fiber-degree-bound)
+uses the actual total-transform divisor rather than the differential:
+if a resolved normalization has connected fibers of hyperplane degree
+r smaller than the marked curve degree d, a mate forces `a<=dr`.
+For C0 it excludes conic-fiber models in carrier degrees at least nine,
+including models with singular normalization along the marked curve.
+Its hypotheses and independent review are recorded at that link.
