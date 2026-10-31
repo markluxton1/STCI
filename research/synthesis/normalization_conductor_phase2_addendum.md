@@ -161,6 +161,18 @@ The two-node continuation identifies the complete twenty-five second pairings, s
 
 The October 21 independently reviewed geometric argument gives a necessary condition beyond the sextic symbol incidence. Under actual sole support and the saturated movement-two hypotheses, the full-root multiplier divisor cannot be reduced. For a normal strict sextic, local singularities force total Milnor number at least 144, whereas the global resolution argument bounds it by 50. The nodal extension uses the ample strict mate to eliminate nonnormal singular curves when the divisor is reduced. Hence candidates must lie on the explicit degree-52 discriminant-resultant exceptional locus. This does not prove the exceptional locus empty. See the historical geometric-audit-and-exceptional-locus note for the proof and its dependencies.
 
+## Singular curves on the strict sextic: two conditional alternatives
+
+The reviewed geometric continuation further classifies a singular curve \(\Sigma\) on the strict sextic, provided that the sextic is normal near the multiplier-zero points of the full root. Let \(n\le2\) count its transverse contacts with ordinary root nodes, \(d=H\cdot\Sigma>0\), and \(e=E\cdot\Sigma\). Multiple multiplier fibers can contribute additional contacts with \(E\), so **one must not set \(e=n\)**. The strict mate gives the exact degree identity
+\[
+16d-2e=10n.
+\]
+If \(\Sigma\) is not contained in the strict quadric \(Q'\sim2H-E\), effectivity gives \(e\le2d\), whence \(12d\le10n\le20\). For \(d\ge2\) this is impossible; \(d=1\) forces \(n=2\), then \(e=-2\), also impossible. Thus \(\Sigma\subset Q'\).
+
+The intersection of the strict sextic with \(Q'\) has ruling class \((4,0)\). Consequently \(\Sigma\) must be a trisecant ruling line, with \(d=1\), \(e=3\), \(n=1\), meeting the full root at one ordinary node in the quadric direction. Its multiplicity in the sextic-quadric intersection is at least two. The forced norm then requires additional multiplier multiplicities along its ruling orbit. The line is not an endpoint branch fiber.
+
+Accordingly, a remaining actual pair under these hypotheses must exhibit **either** nonnormality at a multiplier-zero root point **or** this precise singular trisecant ruling line. This is a conditional classification, not an exclusion. See the [reviewed source](https://github.com/markluxton1/STCI/blob/main/research/notes/2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus.md), section 7.
+
 ## Exact failed seed and the remaining incidence
 
 The smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven quadratic-symbol image equations. This is a positive first-stage realization result for that seed, not a full ambient lift. The next cubic comparison fails: the recorded exact annihilating pairing is \(-384\), so the specified seed does **not** extend to the required compatible sextic jet. It independently fails the accepted second obstruction.
