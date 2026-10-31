@@ -54,6 +54,14 @@ The global question is therefore not merely whether common directions exist, but
 
 For a proper intersection of degrees \(d,e\) whose only one-dimensional support is the degree-four curve \(C\), Bézout gives \(de=4m\), where \(m\) is the generic length along \(C\). Hence \(4/\gcd(4,d)\) divides \(e\). If a residual curve is present, the correct cycle equality is \(de=4m+\deg R\), and the divisibility conclusion need not hold. This separates a necessary numerical condition for an STCI candidate from a generic-length bound used to prove residual support.
 
+## 2.3B A positive-characteristic test case with exact cycle and endpoint contacts
+
+The [Frobenius-binomial construction](01-problem-and-curve.md#12e-generic-multiplicities-and-contacts-among-binomial-components) gives a useful completely computed comparison between generic length and special-point geometry. For the quartic \(F=x_1^4-x_0^3x_3\) and exponent-compatible degree-\(n\) binomial \(G\), write \(n=p^rm\), \(p\nmid m\). Then
+\[
+[V(F,G)]=p^r\sum_{\zeta^m=1}[C_\zeta],
+\]
+so each reduced quartic has generic multiplicity \(p^r\), and the cycle degree is \(4n\). Distinct \(C_\zeta,C_\xi\) meet only at \(p_0,p_\infty\), with local intersection lengths \(3,1\). For \(m=1\), the same generic multiplicity is concentrated on the sole support \(C_0\); for \(m>1\), the extra components account for the remaining degree. The pairwise endpoint contact lengths are **not** residual one-cycle degrees and cannot be added to the Bézout cycle budget as if they were new components.
+
 ## 2.4 Global numerical constraints
 
 The audited entirely-thick analysis records, for generic orders \(r,s\ge2\), the necessary inequalities
