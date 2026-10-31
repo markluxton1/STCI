@@ -153,6 +153,12 @@ The reviewed October 27 one-step source separates the extension class of a fixed
 
 For a fixed lower thickening Y of generic length n, an actual proper degree-(a,b) pair with ab=(n+1)deg(C) has sole reduced support C exactly when its determinant in the rank-two torsion-free equation module vanishes. This converts the fixed-Y existence problem to a decomposable-kernel problem in the actual homogeneous source spaces, after removing improper pairs. The next theorem should classify the zero locus across a geometrically controlled family of lower embedded thickenings, including rank-drop strata, rather than assume generic source rank settles all cases. See Chapter 3 and the October 27 one-step boundary investigation.
 
+## 6.12A An effective conductor calculation needs its parameter image
+
+For a specified family of four-section projections, the full-conductor phase test has two stages: first compute the actual admissible constructible image of the parameter space in a phase torus, including nilpotent gluing and excluded boundaries; then intersect that image with torsion cosets. The [projection synthesis](normalization_conductor_projection.md#24-torsion-coset-envelope-for-all-power-projection-families) gives the conditional torsion-coset reduction, and its [finite-Artinian section](normalization_conductor_projection.md#exact-finite-artinian-phase-descent-and-effective-rational-bound) distinguishes exact power descent from reduced-phase agreement.
+
+The effective isolated-torsion order bound requires explicit rational equations for the image. It is **not** a divisibility statement and does not bound orders on surviving positive-dimensional torsion cosets. A useful deliverable for one of the three Cartier singleton models is therefore an explicit admissible phase image with all constructible boundary conditions, followed by a genuine emptiness or nonemptiness computation. A classification of normalization types alone is not that deliverable.
+
 ## 6.13 Intrinsic contact, duality and conductor bridges
 
 The marked flag, dual discriminant, ruled projection and arithmetic four-section results (R-0026 through R-0029) provide controlled models of endpoint contact, nonreduced fibers, embedded dual singularities, conductor gluing, and specialization. Their natural role is to formulate *invariant bridge questions*, not to add an unrestricted STCI exclusion.
