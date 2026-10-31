@@ -94,6 +94,12 @@ The Phase 3 integration adds several precise tools, but does not extend the degr
 
 These results sharpen the *interfaces* to the open problem. A new exclusion requires either a family-level bound covering all candidates under its hypotheses or a genuine global incompatibility theorem. See the [dependency map](DEPENDENCIES.md) and [frontier](06-frontier.md).
 
+## 5.6A Why fixed-degree and carrier-family obstructions do not enlarge the exclusion theorem
+
+For a hypothetical proper pair of degrees \(d,e\) supported only on the degree-four curve, the generic transverse length must be \(de/4\). The finite truncated-length criterion is exact for an actual pair, but checking one pair or one fixed carrier cannot quantify over all degree-\(d\) carriers. The audited sextic jet bound [R-0025](../results/ci_fixed_sextic_jet_rigidity.md) therefore proves residual support for its prescribed carrier and mate degree, not a new universal lower bound on the defining degrees.
+
+Likewise the full initial ideal may have higher cancellation-generated equations while the filtered actual equation module has zero comparison defect; these two local facts do not imply an STCI exclusion. See [the integrated normal-filtration treatment](normal_filtration_boundary_obstructions.md#full-initial-ideals-and-the-filtered-equation-module). The conductor–socle identity [R-0036](../results/pointwise_conductor_socle_defect.md) is conditional on an actual pair and restrictive normalization hypotheses; it does not eliminate all higher-degree carriers. The only unrestricted degree conclusion recorded here remains [R-0001](../results/quartic_carrier_exclusion.md).
+
 ## 5.7 Relation to the other chapters
 
 The quartic exclusion uses global geometry of **carriers**, including normalizations and conductor corrections, and so is most directly related to [Chapter 4](04-carriers.md). The common-normal-factor and jet analyses of [Chapters 2](02-two-surfaces.md) and [3](03-infinitesimal-geometry.md) offer different necessary conditions and structural tools. Their unfinished cases do not weaken the quartic theorem; nor does the quartic theorem settle their more general questions for carriers of degree at least five.
