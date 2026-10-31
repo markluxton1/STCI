@@ -608,3 +608,54 @@ the earlier graph-residual construction proposal is not disproved; it
 still needs a specified family and correction mechanism. The reviewer
 completed the assignment. No canonical result was promoted, no inherited
 certificate was rerun, and no new technical campaign was started.
+
+## 9. A constructive paired cover clears polarization, then fails gluing
+
+The next selection supplied a concrete input rather than another passport
+or arbitrary target. Primary work on hyperelliptic odd coverings motivated
+pairing the branch values **within** the zero and pole groups of a
+degree-five rational map. An explicit rational degree-four map and a
+double-cover base change then construct a smooth elliptic E with actual
+functions A,B of degrees two and six. The
+[construction and proof](2026-10-31-paired-elliptic-construction.md) establish
+birationality, full contact five at four distinct smooth marked points,
+trivial induced spin, and the genuine equalities `O_E(Z)=L^2`, `M=L^3`.
+This is a positive construction of the target data that the previous
+fixed target failed to supply. It is not a carrier or a mate.
+
+A fresh reviewer independently checked the construction and recommended
+one canonical residue experiment. That recommendation and its first-failure
+rule were reported before the experiment proceeded. The residue calculation
+then identifies the gluing ratios, up to one common scalar, with
+`J(x_i)=x_i(x_i-a)/(x_i-u)^3` at four distinct points of P1. The
+degree-three map J cannot have all four points in one fiber. Thus the
+node-gluing class is nontrivial, despite compatible polarizations on each
+component. The [audit](2026-10-31-paired-elliptic-construction-audit.md)
+independently reconstructs the normalization, actual coordinate-section
+divisor and quadratic residues, including the branches at infinity.
+
+**Effect on the full problem:** spin and the actual ruling divisors can
+be controlled geometrically, so their earlier failures do not eliminate
+the constructive interface. Compatibility on the reduced union is a
+further global condition, not a numerical consequence of them. The
+degree comparison explains this particular failure without another cover
+classification. It gives no exclusion of every elliptic target or
+arbitrary STCI pairs. For existence, a subsequent mechanism in this
+interface needs to impose node gluing together with the component data;
+for nonexistence, a general incompatibility or arbitrary-pair reduction
+is still missing.
+
+These two target tests have exposed different global compatibility
+conditions but have not produced an actual carrier. Do not let the next
+allocation become another attempt to repair this target one condition at
+a time. Returning to this interface needs independent geometric input
+controlling the global embedding, with the later mate problem retained.
+No replacement technical campaign is selected by this failure.
+
+**Disposition:** stop this target. Section recovery, source contact,
+carrier construction and mate descent were not run. No adjacent root
+choice, cover, or target enumeration is assigned. The preceding ribbon
+retrieval located existing net/projection evidence and did not reopen any
+closed quartic carrier. The constructive producer and independent reviewer
+completed their tasks. The contributions remain reviewed provisional;
+unrestricted characteristic-zero STCI remains open.

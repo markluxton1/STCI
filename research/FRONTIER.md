@@ -2,48 +2,37 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: mechanism comparison completed
+## Current checkpoint: paired construction stopped at node gluing
 
-The [subsequent strategy comparison, §8](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils)
-is complete and independently reviewed. Ordinary Cremona transport
-preserves generic transverse thickness; a nonconstant map from the
-quartic's complement to P1 is equivalent to STCI; and a published
-projective-bundle splitting theorem limits uniform homogeneous powering
-of a nonsplit Serre bundle. These identify the scope of the tested
-mechanisms, not new exclusions of arbitrary defining pairs. No further
-model enumeration, cover classification or candidate test is selected.
-The constructive routes remain open with their stated missing exceptional
-corrections, embedded fibration data or controlled bundle degeneration.
+The [paired elliptic construction](notes/2026-10-31-paired-elliptic-construction.md)
+is complete and independently reviewed. A rational-map base change gives
+actual degree-two and degree-six ruling functions, full contact at four
+distinct marks, trivial spin and compatible component polarizations.
+Thus it supplies positive target data that the earlier
+[palindromic target](notes/2026-10-31-palindromic-polarization-spin.md) lacked.
+The next node-gluing test fails: its ratios are values of a degree-three
+map at four distinct points and cannot all agree.
 
-The [unrestricted strategy assessment](notes/2026-10-31-unrestricted-strategy-assessment.md)
-closes the distinguished-column and two-marked-fiber ramification tests.
-Its §6 then carries out the recommended comparison of elliptic global
-source extension with specialization of actual CI duality. The
-[canonical-extension proposal](notes/2026-10-31-elliptic-canonical-extension.md)
-reconstructs a normal quadric source from a nodal genus-four curve and
-gives separate component-polarization, residue-gluing and contact gates.
-It includes the quadric cone, rather than treating failure of a smooth
-source as a complete construction failure. The alternative duality
-mechanism currently adds no controllable quartic-specific restriction.
+The recommendation and first-failure rule were reported before that
+residue experiment. The candidate is now stopped; section recovery,
+source contact, carrier construction and mate descent were not run.
+No adjacent target or cover enumeration is assigned. The
+[canonical-extension criterion](notes/2026-10-31-elliptic-canonical-extension.md)
+remains available, but a future construction must control the actual node
+gluing as well as spin and ruling divisors. The
+[strategy assessment, §9](notes/2026-10-31-unrestricted-strategy-assessment.md#9-a-constructive-paired-cover-clears-polarization-then-fails-gluing)
+records the positive construction, geometric obstruction and full-question
+limits. The characteristic-zero STCI question remains open.
 
-The [fixed palindromic-target test](notes/2026-10-31-palindromic-polarization-spin.md)
-is now complete and independently reviewed. Its exact target replay passes,
-but its first component Picard gate fails. The defect is a nontrivial
-two-torsion line bundle, identified with the even theta characteristic
-induced by the odd-ramification cover. Under the stated complete balanced
-passport, a compatible component polarization would have trivial/odd spin.
-No theorem forces even spin on every such target, and no arbitrary-pair
-reduction to these covers is known.
+Earlier mechanism assessments remain in that same record: duality
+specialization adds no controllable quartic-specific restriction; ordinary
+Cremona transport preserves transverse thickness; complement pencils
+reformulate STCI; and uniform homogeneous bundle amplification has a
+published splitting restriction. These do not retire the corresponding
+subjects or prove unrestricted nonexistence.
 
-The fixed target is stopped; residue gluing, source contact, carrier
-construction and mate descent were not run. No further target or cover
-enumeration is assigned. Reopening this constructive source would need
-a mechanism controlling the required spin and actual functions, with the
-other gluing and contact conditions retained. The assessment §7 records
-the extraction, independent challenge and stopping decision. The full
-characteristic-zero question remains open.
 The [decision guide](RESEARCH_DECISION_GUIDE.md#continuing-extraction-and-strategy-assessment)
-now makes extraction, useful generalization and independently challenged
+makes extraction, useful generalization and independently challenged
 strategy assessment a continuing part of the process. C being a STCI
 remains a live possibility.
 

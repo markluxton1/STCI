@@ -7,6 +7,12 @@ passes. Its first component-polarization gate fails. Residue gluing, contact,
 carrier construction and mate descent were not attempted after that failure.
 The unrestricted characteristic-zero STCI question remains open.
 
+**Subsequent constructive comparison:** the
+[paired-cover construction](2026-10-31-paired-elliptic-construction.md)
+realizes trivial spin and the actual A,B divisors simultaneously. It
+fails the separate node-gluing condition. This verifies that the spin
+finding here does not exclude all target constructions.
+
 ## 1. Exact question and replay boundary
 
 The [reviewed canonical-extension criterion](2026-10-31-elliptic-canonical-extension.md)

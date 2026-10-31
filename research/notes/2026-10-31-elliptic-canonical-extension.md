@@ -13,6 +13,12 @@ passes its exact target replay but fails the first component-polarization
 gate. Its proposed cone construction is therefore stopped before residues
 or contact. The general conditional criterion below is unchanged.
 
+The subsequent [paired elliptic construction](2026-10-31-paired-elliptic-construction.md)
+does satisfy the component-polarization condition and gives the marked
+cone geometry. Its node-gluing class is nontrivial, by an independently
+reviewed quadratic-residue calculation. It stops before section recovery
+and source contact; the two conditions are genuinely separate.
+
 ## 1. Input and the new geometric object
 
 Work over an algebraically closed field of characteristic zero. Keep the
