@@ -88,9 +88,17 @@ The [spectral four-torsion theorem](synthesis/spectral_torsion_and_syzygy_splitt
 interprets a syzygy splitting jump through the ruling-difference line bundle on
 a smooth (2,2) curve. The minimal generator degrees change from (3,3) to (2,4)
 while the dual obstruction dimension remains sixteen. This selected
-characteristic-zero theorem is independently reviewed provisional geometry;
-the broader all-power pushforward extension and the source checkpoint's later
-bounded exclusion calculations are not imported by this statement.
+characteristic-zero theorem retains its actual embedded hypotheses.
+The independently reviewed provisional [all-power extension](synthesis/spectral_pushforward_powers.md)
+now gives pushforward splittings and coefficient determinants for every n>=2
+in every characteristic. A kernel recovers a spectral trivialization and,
+for n>2 in R-0008's convention, an abstract graded CI family. The
+[full-root classification](synthesis/spectral_pushforward_boundary.md) extends
+the torsion rule to integral, balanced reducible and doubled roots; a
+(0,1)+(2,1) root instead has determinant corank n-1 without torsion.
+These results do not supply an actual embedded lift or global pair, and no
+canonical result is promoted. The source checkpoint's later bounded exclusion
+calculations remain outside this statement.
 
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.

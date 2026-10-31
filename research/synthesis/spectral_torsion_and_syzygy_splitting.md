@@ -15,6 +15,14 @@ and [R-0007](../results/quadratic_root_obstruction_model.md) supply the
 identification with the actual ambient obstruction. The geometric proof
 itself uses the spectral curve and its ruling line bundles.
 
+The independently reviewed provisional [all-power theorem](spectral_pushforward_powers.md)
+extends the intrinsic pushforward and coefficient determinant to every n>=2
+in every characteristic and recovers graded families from matrix kernels.
+The [full-root classification](spectral_pushforward_boundary.md) handles singular
+and nonreduced roots, with an explicit unbalanced reducible exception to the
+torsion interpretation. Those extensions preserve this chapter's separate
+characteristic-zero actual-obstruction hypotheses.
+
 ## The spectral curve and the actual dual bundle
 
 In the fixed embedded normal coordinates for

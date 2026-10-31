@@ -30,6 +30,7 @@ results need their own committed source and applicable review.
 | Actual global pairs | [Exact source spaces](supplements/ACTUAL_EQUATION_SPACES.md), [Chow/complement equivalents](synthesis/global_equations_and_constructions.md) | Produce a proper pair with exhausted cycle, or prove an incompatibility covering every relevant source; dimension and equivalent formulation alone do neither |
 | Embedded lower thickenings | [One-step and filtration tests](synthesis/03-infinitesimal-geometry.md) | Determine a proper decomposable determinant-zero point in the actual equation spaces across a justified family of lower embeddings |
 | General roots and initial ideals | [Root and normal-filtration tools](synthesis/normal_filtration_boundary_obstructions.md) | Handle singular/nonreduced roots, nonsaturation, extra generators, noncoprime next relations and failure of joint generation; no arbitrary entirely-thick→movement-two reduction is known |
+| Spectral graded families and their realization | [All-power coefficient construction](synthesis/spectral_pushforward_powers.md), [full-root classification](synthesis/spectral_pushforward_boundary.md) | Lift a kernel-derived graded CI family into the actual embedded neighborhood with all higher corrections; independently, determine determinant scheme multiplicities. Unbalanced reducible roots have nonunit kernels and give no graded CI by this construction |
 | Punctual comparison defects | [R-0030](results/local_filtration_comparison_defect.md), [supported specialization control](synthesis/comparison_defect_specialization.md) | Decide nonzero relative defect under sole support and generically vanishing comparison defect; a nonzero exceptional-fiber defect need not be a relative defect, and residual-support controls do not answer existence |
 | Conditional sextic incidence | [Full source calculation](synthesis/normalization_conductor_phase2_addendum.md), [unique actual lift](synthesis/rank_strata_and_sextic_lifts.md) | Cubic matching determines at most one actual sextic on the necessary root open; resolve the surviving root/target incidence and then a mate and support. Generic-conic, zero-defect pencil and endpoint strata remain; the seed and free cube-orbit chart are already excluded within their exact scopes |
 | Actual carrier families | [Fixed-carrier descent](synthesis/04-carriers.md), [Q-0001](questions/cartier_projection_models.md) | Compute admissible images, full inverse support and complete conductor phase; include non-Cartier/multiple-branch carriers outside singleton classification |
@@ -144,9 +145,13 @@ an instruction to interrupt an already running investigation.
 The surviving universe remains wider than these tests: higher-index and non-Cartier carriers, multiple-branch inverse support, nonsaturated and extra-generator normal patterns, common generic singularities, non-Gorenstein separated branches, and rank-zero matrix transitions are not exhausted. Neither recent success nor an equivalent reformulation makes one program compulsory.
 
 Promising broader questions include realizing singular conductor gluing compatible
-with an actual projection, extending the [spectral fourth-power splitting theorem](synthesis/spectral_torsion_and_syzygy_splitting.md)
-to other powers, and extending tame projection-section
-arguments to other covers. These need precise source and comparison hypotheses.
+with an actual projection and extending tame projection-section arguments to
+other covers. The [all-power spectral extension](synthesis/spectral_pushforward_powers.md)
+and its [singular boundary](synthesis/spectral_pushforward_boundary.md) now have
+independent review as provisional results. Their intrinsic classification and
+graded construction leave actual embedded lifting and determinant scheme
+structure as distinct next questions. Each needs precise source and comparison
+hypotheses.
 The surface-normalization conductor and the separated quadratic-cover conductor
 are different objects; their bounds cannot be combined without a proved map.
 A proposed generalization remains a question until its proof and review are
