@@ -44,31 +44,13 @@ For \(d\ge3m\), the fixed-curve ideal-power theorem gives \(H^0(I_C^m(d))=(I_C^m
 
 Thus the missing global-source arrow in the determinant and residual-jet routes is a concrete image and proper-pair computation, not merely a presentation of the ambient ideal-power space. For the conditional (6,16) lane, the known sextic-symbol map has rank 22 from a 23-dimensional source into 33 coefficients; this is an explicit instance of the distinction, not a universal rank formula.
 
-## The degree-six source calculation as a precise test case
+## The (6,16) source-to-jet dependency, with a failed implication
 
-The movement-two (6,16) program provides a rare fully computed **first** global-source arrow: degree-six order-two carriers map from a 23-dimensional source to a 33-dimensional quadratic-symbol target with rank 22, kernel the cube of the containing quadric, and eleven independent image equations. The [conditional calculation](normalization_conductor_phase2_addendum.md) gives the actual basis and bilinear constraints after writing the symbol as alpha times a moving quadratic root.
+The degree-six order-two source has dimension 23 and maps with rank 22 to 33 quadratic-symbol coefficients. Its eleven image equations are necessary for a moving root times multiplier to arise from a global sextic. The next cubic correction is multiplication by the nonzero root on sixteen correction coefficients, injective into forty cubic coefficients. Thus cubic compatibility is vanishing in a twenty-four-dimensional quotient, equivalently the undivided equations \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\). See [the coefficient derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
 
-The missing arrow starts *after* that rank computation. The next cubic jet must lift compatibly, the degree-sixteen mate must come from its own homogeneous source, and the resulting pair must be proper with the required transverse length. The conductor calculation for this lane presupposes such a pair and only constrains its remaining contact strata. Thus a rank-22 image is genuine mathematical progress but neither an existence theorem nor an exclusion.
+A specified smooth torsion-two seed passes all eleven first-symbol equations but fails the cubic condition by exact pairing \(-384\) and separately fails the second obstruction. Therefore leading-symbol image membership does **not** imply a compatible higher jet. The remaining nonlinear incidence must impose all twenty-five second-obstruction pairings and full-root spectral torsion, including singular-root and multiplier-zero loci. There are no rank-drop strata for the cubic multiplication map itself.
 
-## An explicit nonimplication within the global-source route
-
-The conditional (6,16) smooth torsion-two seed satisfies all eleven first-symbol image equations but fails the next cubic comparison by the exact nonzero pairing \(-384\). Its independent second obstruction also fails. Thus the proposed arrow **actual leading-symbol image membership -> compatible higher jet** is false without additional hypotheses, even for a smooth root. See [the conditional calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence).
-
-The counterexample is scoped to the seed. It does not imply that the joint global-source incidence is empty, nor that a residual cycle exists for every (6,16) proper pair. Any bridge theorem must quantify over the full root/multiplier family and include the exceptional strata.
-
-## A concrete finite elimination problem, with quantified scope
-
-The (6,16) global-source route has moved beyond a dimension heuristic: its first quadratic-symbol map and eleven image equations are exact, and the next cubic comparison is an explicit parameter-dependent linear system. The remaining finite algebraic task is to retain its determinantal rank strata, impose all twenty-five second-obstruction pairings, and preserve the full root scheme in the torsion condition. The [incidence formulation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction) states the candidate scheme and the necessary open conditions.
-
-Its logical endpoint is limited. Emptiness would exclude the specified saturated movement-two locus; nonemptiness would provide candidates, not a supported complete intersection. Any inference to all characteristic-zero STCI pairs requires a separate exhaustion of nonsaturated, higher-movement and other carrier cases.
-
-## The cubic correction arrow has constant rank
-
-The displayed (6,16) cubic correction is multiplication by the nonzero quadratic root \(f\) on the sixteen-dimensional space of degree-at-most-seven linear normal forms. It is injective, with a twenty-four-dimensional cokernel in the forty-dimensional cubic target. Thus the necessary cubic-jet condition is a quotient-class vanishing, not an unresolved rank-drop stratification of this map. This supersedes the more general augmented-rank prescription previously proposed for this particular arrow. Singular-root and multiplier-zero loci still require treatment in the other incidence conditions.
-
-## An exact cubic coefficient test, not a generic rank assumption
-
-The conditional sextic cubic correction has the four polynomial coefficient identities \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\). They provide an exact, division-free membership test and a unique correction for each compatible nonzero root. The [derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) supersedes the earlier suggestion of a rank-drop computation for this multiplication map. The nonlinear joint incidence and actual proper mate remain unproved.
+Even a point passing these necessary conditions does not supply a proper degree-sixteen mate. Emptiness would exclude only the scoped saturated movement-two (6,16) locus, not every characteristic-zero STCI pair.
 
 ## Established dependencies
 
