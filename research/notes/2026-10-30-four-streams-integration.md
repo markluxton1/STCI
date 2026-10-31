@@ -377,6 +377,69 @@ image. Its normal algebra, contraction lattices and global equation
 structure must all be retained. The positive movement and failure of
 a split two-divisor presentation upstairs do not yet decide that question.
 
+## Seventh integration: full conductor data and a moving all-multiplicity control
+
+Two fresh `gpt-6-astra/ultra` researchers tested the full conductor
+condition and the proposed incompatibility between movement and
+Gorenstein endpoint contractions. Each received a bounded independent
+`gpt-6.1-sol/high` audit. Both proofs passed hand reconstruction without
+material corrections. All four assignments ended after their scoped
+deliverables; no nested delegation or new degree enumeration occurred.
+Primary literature on finite duality, canonical ideals, Ferrand pinching
+and primitive multiple curves was checked before reliance.
+
+The [conductor formulation](2026-10-31-tropical-conductor.md), with
+[audit](2026-10-31-tropical-conductor-audit.md), keeps the source W
+potentially non-Gorenstein. At either endpoint A⊂B, its actual conductor
+c gives a finite Gorenstein algebra D=B/c of length 2δ and a unital
+subalgebra E=A/c of length δ. A chosen Frobenius functional on A over
+the parameter DVR gives a perfect residue multiplication pairing on D
+with E equal to its orthogonal complement. The exact fiber product
+A=B×_D E recovers the entire contraction. This is an application of
+classical duality and pinching, now retaining the full finite boundary
+schemes of this nonreduced modification. It is not a new theorem about
+reduced normalizations or a claim of an STCI exclusion.
+
+Globally the actual conductor module is
+`pi_*c = B^vee tensor O(14−4(a+b))`. Its degree identity is exactly the
+previous genus formula, so it gives no independent numerical constraint.
+An explicit local CI with weighted saturation
+`B=R[U,V]/(U²+t²V²,UV,V³)` has a non-Gorenstein special fiber but
+Gorenstein conductor quotient: c=(t⁸,t⁶U), δ=15 and length(B/c)=30.
+This prevents replacing the dualizing module of an arbitrary W by a
+line bundle. The Frobenius functional is not the algebra trace, which
+can degenerate on nilpotents.
+
+The [moving-family construction](2026-10-31-moving-family-descent.md)
+and [audit](2026-10-31-moving-family-descent-audit.md) resolve the
+local-contraction test in the opposite direction from an obstruction.
+The cubic
+`S=V(x0²x2−x1³+x2³−x1x3²)` is smooth. For every m≥2 its Cartier
+multiple Z_m=mC is locally CI, and its full tropical closure W_m is
+locally CI with every fiber curvilinear. The section conormal changes
+from O(−2) on S to O(6) upstairs; its quotient direction has degree
+six. Hence
+\[
+\deg\pi_*O_{W_m}=3m(m-1)>0,\qquad
+\delta_0=\delta_\infty=2m(m-1).
+\]
+Both exact endpoint images are `R[t⁴V]⊂R[V]/(V^m)`, using the actual
+changed parameter z and V' at infinity. Thus movement, local CI
+structure, curvilinear fibers and both Gorenstein contractions coexist
+in every multiplicity. This is a control for a proposed universal
+implication, not a new restricted STCI case to pursue.
+
+The same images fail the global homogeneous condition for every m:
+their least equation degree is three, while a hypothetical (3,b) CI
+would require both 3b=4m and m=2b by degree and genus. This contradiction
+concerns these particular thick schemes, not all possible thickenings
+of C. The local tests cannot distinguish them from a potential solution
+without also retaining the global equation module. Further punctual
+classification is therefore deferred unless it supplies a uniform
+constraint on that module or constructs the required two sections.
+The already established globally glued fixed-twist formal-pair criterion
+remains an available route; no new algebraization gap is asserted.
+
 ## State at this integration checkpoint
 
 The retained proof notes and independent audits preserve the actual
@@ -395,7 +458,10 @@ the finite-cover criterion asks whether an actual homogeneous pair can
 realize the required nilpotent algebra. The new contact identity adds an
 actual equation constraint, and the full tropical family adds strict
 movement and an all-presentations barrier upstairs. These still leave
-the global homogeneous image condition unresolved.
+the global homogeneous image condition unresolved. The full conductor
+pairing retains endpoint descent, while the all-multiplicity moving
+control proves that local CI/Gorenstein compatibility cannot alone close
+that gap.
 Repeating the reduced determinant obstruction, extending a fixed-carrier
 calculation, or testing successively more trace moments without a uniform
 principle would not complete that task. Literature and existing evidence

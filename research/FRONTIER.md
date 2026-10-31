@@ -1,4 +1,4 @@
-# Research frontier — current navigation (October 30, 2026)
+# Research frontier — current navigation (October 31, 2026)
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
@@ -36,6 +36,17 @@ also identifies why reduced-Lagrangian rigidity and commuting-generator
 shortcuts fail in the entirely thick branch; it does not exclude that
 branch. Both contributions have linked independent audits and remain
 provisional.
+
+The [full conductor boundary](notes/2026-10-31-tropical-conductor.md)
+retains the finite Gorenstein boundary schemes and their self-orthogonal
+subalgebras, without assuming that the saturated family is Gorenstein.
+Its degree formula supplies no extra genus constraint. The
+[all-multiplicity moving control](notes/2026-10-31-moving-family-descent.md)
+shows that positive movement, curvilinear fibers and both locally CI
+endpoint contractions can coexist for every multiplicity. Its image
+fails the global homogeneous two-equation condition. Both results have
+independent audits; they direct any continuation toward that global
+condition, rather than further local-Gorenstein or punctual-type lists.
 
 The open target is a global compatibility constraint or construction for
 arbitrary higher supported structures. The affine endpoint multiplicity

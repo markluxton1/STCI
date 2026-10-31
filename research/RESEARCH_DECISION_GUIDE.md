@@ -4,6 +4,13 @@ This is a **navigation and prioritization guide**, not a new theorem, proof audi
 
 Prefer geometric arguments with an explicit path to the unrestricted STCI question. Check literature and the existing evidence before selecting a direction, and do not let successive family exclusions replace the full target. The [October 30 integration](notes/2026-10-30-four-streams-integration.md) illustrates this rule through arbitrary-pair criteria and counterexamples to proposed universal implications. Its finite-cover and affine-endpoint formulations are available tools, not prescribed methods or established obstructions.
 
+The [all-multiplicity moving control](notes/2026-10-31-moving-family-descent.md)
+shows that positive tropical movement, curvilinear fibers and both locally
+CI endpoint contractions can coexist. Its projective image fails the global
+two-equation condition. A further punctual-family investigation therefore
+needs an explicit connection to that global condition; refining local
+Gorensteinness or movement alone would not overcome this tested limitation.
+
 For an actual source investigation, retain the earlier [STCI equation search](STCI_SEARCH.md) discipline: generate a plausible source, test it exactly, diagnose failure, and revise the source. Prefer work that either constructs equations, rules out an explicitly quantified source, or identifies its next unresolved condition; explain how the result affects the full question. Compare positive and negative evidence. Large parameter spaces, sophisticated local data and positive residual bounds do not independently answer the search question. The characteristic-p lane must distinguish fixed-carrier bounds from an all-pairs minimum; the freedom lane must retain actual global source images and common factors.
 
 Geometric interpretation is part of both research and review. Explain the actual divisor, morphism, linear system, attachment or deformation measured by each calculation, the constraint it reveals, and its effect on the general STCI question. When that interpretation is unknown, formulate the missing geometric question explicitly. The [geometric review](notes/2026-10-30-stci-game-geometry-review.md) supplies current examples; numerical certificates should lead to this understanding rather than replace it.
