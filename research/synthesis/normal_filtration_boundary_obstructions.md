@@ -67,15 +67,9 @@ The conditional movement-two (6,16) calculation supplies a particularly sharp ne
 
 This failure is not the local comparison defect \(\Delta_n\) of R-0030, not a nonsaturated first relation, and not a residual curve. It is an obstruction at the next global-source compatibility stage for a specified seed. A uniform theorem would need to handle the whole root/multiplier incidence, including singular roots and multiplier zeros.
 
-## Full-root incidence rather than generic elimination
+## Cubic correction and the full-root incidence
 
-The global sextic quadratic-symbol image is an exact linear subspace, but its next cubic compatibility equation depends on the chosen root and multiplier. Multiplication by the nonzero root has constant rank sixteen, so compatibility is a twenty-four-dimensional quotient obstruction. The full incidence must still retain multiplier-zero and singular-root strata and intersect with the independent second-obstruction and full-root torsion conditions. See [the finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation).
-
-This procedure does not identify the local comparison module \(\Delta_n\), nor does it assert that the necessary incidence has a point. It specifies how to avoid losing legitimate exceptional candidates while testing **actual** homogeneous source realization.
-
-## The constant-rank cubic correction
-
-The cubic correction is multiplication by the nonzero root \(f\), applied to a linear normal form with two degree-at-most-seven coefficients. This is injective over the polynomial ring, so the correction image has rank sixteen and codimension twenty-four in the forty-dimensional target. The correct test is vanishing of the cubic difference in this quotient, not a search for correction-matrix rank drops. The exceptional geometry remains in the root, multiplier, second obstruction and mate equations.
+The quadratic-symbol image for sextics is a proper rank-22 subspace of a 33-dimensional target. For a nonzero quadratic root, the next cubic correction map is injective with sixteen source coefficients and forty target coefficients; the obstruction lies in a twenty-four-dimensional quotient. This replaces the previously proposed correction-matrix rank stratification. The full-root torsion, multiplier-zero and singular-root loci, second-obstruction pairings, and actual mate realization remain separate tests. None of these global-source conditions identifies the punctual local comparison module.
 
 ## The global-source gap
 
