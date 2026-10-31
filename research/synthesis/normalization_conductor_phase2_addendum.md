@@ -138,6 +138,25 @@ Thus the **entire stated free-orbit chart is empty**, even allowing the sextic l
 
 The correction to the previous synthesis is therefore twofold: the fixed-lift \(-384\) pairing alone must not be overinterpreted, **and** a pre-existing exact full-lift certificate already resolves the separate free-orbit subfamily. Future work should concentrate on the uncovered strata rather than repeat this chart's elimination.
 
+## Two-node root strata: exact exclusions and retained pencils
+
+The historical [forced-norm two-node continuation](https://github.com/markluxton1/STCI/blob/main/research/notes/2026-10-21-conditional-2-12-singular-continuation2.md) gives more than an unclassified singular-root boundary. Under its stated actual-pair, saturated movement-two, forced-norm and two-node hypotheses, it computes the nonzero cubic-defect locus. The generic component decomposes into a line and a conic. The **entire generic line component** is excluded by exact first-incidence plus spectral-torsion unit calculations for \(w=1\) and the primitive cube-root branches. The nonzero-defect \(B=0\) and \(C=0\) boundaries are also excluded, the latter by the actual involution \(x_0\leftrightarrow x_3,\ x_1\leftrightarrow x_2\). These are scoped coefficient-scheme exclusions, not an unrestricted characteristic-zero theorem.
+
+The surviving nonzero-defect locus from that calculation is the generic conic
+\[
+B_1=B_2=C_1=1,\quad C_2=w,\quad w^3=1,\qquad
+2(x^2+xy+y^2)+3=0,
+\]
+with the explicit nonvanishing conditions and remaining coefficient relations in the historical note. The bounded conic computation was interrupted; **it supplies neither emptiness nor a surviving point**.
+
+The other retained stratum has both cubic defects zero, \(\kappa_1=\kappa_2=0\). Its exact global sextic family is
+\[
+F_6=H_1H_2+\eta q^3,
+\]
+where the global cubics \(H_i\) have the prescribed first symbols. For an actual sole-support pair, \(\eta\ne0\): otherwise \(F_6\) factors into cubic carriers, contradicting the characteristic-zero lower-degree exclusion after factor reduction. The pencil is a necessary source description, **not** a construction of a supported pair.
+
+The two-node continuation identifies the complete twenty-five second pairings, spectral torsion, and actual cubic-jet matching as the next tests for these retained strata. Its original note records the independent-review status and exact computational artifacts; this synthesis does not promote unreviewed component calculations beyond their stated scope.
+
 ## Exact failed seed and the remaining incidence
 
 The smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven quadratic-symbol image equations. This is a positive first-stage realization result for that seed, not a full ambient lift. The next cubic comparison fails: the recorded exact annihilating pairing is \(-384\), so the specified seed does **not** extend to the required compatible sextic jet. It independently fails the accepted second obstruction.
