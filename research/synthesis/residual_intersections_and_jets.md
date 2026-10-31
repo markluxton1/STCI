@@ -103,6 +103,10 @@ This is evidence that successive jet conditions are genuinely coupled. It is **n
 
 Multiplication by the nonzero quadratic root gives an injective cubic correction map with sixteen source coefficients and forty target coefficients. The resulting twenty-four-dimensional quotient is the higher-jet obstruction. Root singularities and multiplier zeros remain relevant to other incidence conditions, not to this map's rank. Passing the source tests does not establish a uniform transverse-length bound or eliminate a residual curve.
 
+## 7E. Coefficient membership without dividing by root coefficients
+
+The conditional cubic correction can be tested by the four polynomial equations \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), with \(\deg\ell,\deg m\le7\). This retains the loci \(a=0\), \(c=0\), and singular roots, where naive division loses cases. The correction is unique for nonzero \(f\). See [the full coefficient derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination). Its solvability is not a generic transverse-length estimate and does not imply the absence of residual components.
+
 ## 8. Fixed boundary versus residual removal
 
 The fixed-boundary deformation theorem R-0024 is more precise than the phrase "the nodes smooth." For its specified quartic pencil, the 36-dimensional ordered source has boundary, node and combined tangent ranks 19, 5 and 24. On the Grassmannian, the projective boundary rank is 18, and the fixed-boundary fiber is smooth of dimension 14. After etale localization at the five labeled nodes its formal local ring has five independent smoothing coordinates and nine further parameters.
