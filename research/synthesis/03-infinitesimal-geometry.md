@@ -159,9 +159,7 @@ This is an explicit **failed implication**, not merely a warning about dimension
 
 ## 3.10D Higher-jet compatibility with a constant-rank correction
 
-The sextic example suggests a precise algebraic distinction. First solve the **image** problem for the quadratic symbol, using the eleven equations of the rank-22 map. Next treat the cubic-jet equation as a linear system whose coefficients depend on the root and multiplier. On a fixed rank stratum, solvability is the vanishing of the appropriate augmented minors; on rank-drop loci one must recompute the rank and cannot reuse a generic inverse. The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) keeps these exceptional points.
-
-The second ambient obstruction and the spectral torsion of the full root are additional tests, not interchangeable replacements for the cubic comparison. In particular, a smooth-root example failing the cubic comparison gives a point outside the higher-jet incidence, but says nothing about the singular-root components. This is a scheme-level formulation of the next finite computation, not a claim that it has been carried out.
+The eleven equations of the rank-22 quadratic-symbol map are the first realization test. For a nonzero root, the subsequent cubic correction is multiplication by that root, an injective map from sixteen correction coefficients into forty cubic coefficients. Its obstruction is a class in the twenty-four-dimensional quotient. The second ambient obstruction and full-root spectral torsion are additional conditions, and singular roots or multiplier zeros must remain in their own incidence strata. The failed smooth seed excludes only that seed.
 
 ## 3.10E Constant-rank cubic correction
 
