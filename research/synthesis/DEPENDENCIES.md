@@ -58,7 +58,7 @@ The counterexample is scoped to the seed. It does not imply that the joint globa
 
 ## A concrete finite elimination problem, with quantified scope
 
-The (6,16) global-source route has moved beyond a dimension heuristic: its first quadratic-symbol map and eleven image equations are exact, and the next cubic comparison is an explicit parameter-dependent linear system. The remaining finite algebraic task is to retain its determinantal rank strata, impose all twenty-five second-obstruction pairings, and preserve the full root scheme in the torsion condition. The [incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) states the candidate scheme and the necessary open conditions.
+The (6,16) global-source route has moved beyond a dimension heuristic: its first quadratic-symbol map and eleven image equations are exact, and the next cubic comparison is an explicit parameter-dependent linear system. The remaining finite algebraic task is to retain its determinantal rank strata, impose all twenty-five second-obstruction pairings, and preserve the full root scheme in the torsion condition. The [incidence formulation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction) states the candidate scheme and the necessary open conditions.
 
 Its logical endpoint is limited. Emptiness would exclude the specified saturated movement-two locus; nonemptiness would provide candidates, not a supported complete intersection. Any inference to all characteristic-zero STCI pairs requires a separate exhaustion of nonsaturated, higher-movement and other carrier cases.
 
