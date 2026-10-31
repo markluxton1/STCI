@@ -12,6 +12,9 @@ The three main forward research routes are the **embedded lower-thickening/deter
 
 Read [the dependency map](DEPENDENCIES.md) to see which arguments connect and which are independent. For precise scope, use [canonical results](../results/INDEX.md), [current state](../STATE.md), [frontier](../FRONTIER.md), and [authority policy](../AUTHORITY.md).
 
+**Varying-lift qualification.** A compatible quadratic symbol determines a sextic only modulo \(\eta q^3\). Since \(q^3\) has normal order three, the correct existence test for some sextic lift is \(h+\eta(q^3)_3=f(\ell u+mv)\). The correction map alone has rank sixteen; the augmented map including \(\eta\) has rank sixteen or seventeen depending on whether \((q^3)_3\) lies in its image. Consequently a fixed-lift cubic failure does not, without checking this extra direction, exclude every lift of the same symbol. The reported \(-384\) pairing must be checked against \((q^3)_3\) before it is used as a varying-lift obstruction. See [the precise correction](normalization_conductor_phase2_addendum.md#varying-the-sextic-lift-the-missing-q3-direction).
+
+
 ## Document status
 
 The six numbered chapters and the named mathematical supplements below form the permanent exposition. Files named `phase2_*` and `normalization_conductor_phase2_*` record dated source intake, reconciliation, integration checkpoints, and source dispositions. They are **historical working records**, not additional chapters, current task lists, or competing theorem authority. Retain them where they identify a specific mathematical gap, source disposition, or independently useful failure; consult the permanent exposition and canonical results for current status.
