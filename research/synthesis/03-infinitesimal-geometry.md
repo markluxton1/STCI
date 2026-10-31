@@ -151,19 +151,13 @@ The conditional movement-two (6,16) investigation computes the first nontrivial 
 
 For a moving quadratic root f with symbol multiplier alpha, these equations become eleven bilinear conditions on f and alpha. They are necessary before considering the next cubic jet; in particular alpha must not be inverted at its zeros. The subsequent cubic-jet compatibility is a separate finite 40-coefficient equation, and its solvability does not construct a proper mate of degree sixteen. This is a concrete instance where complete knowledge of the ambient ideal-power space does **not** make its leading-symbol map surjective.
 
-## 3.10C A first-symbol success that fails the next jet
+## 3.10C A failed seed and an exact cubic correction
 
-In the same (6,16) lane, the smooth quadratic root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) admits a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) in the computed quadratic-symbol image. Nevertheless the required cubic-jet comparison has a nonzero exact annihilating pairing \(-384\). The seed therefore fails the next necessary lifting condition even after passing all eleven first-symbol equations; it also fails the separate second obstruction. The [conditional calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence) records the scope.
+The conditional (6,16) calculation has a smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) with a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven leading-symbol image equations. Its next cubic comparison fails by the exact pairing \(-384\), and the seed independently fails the second obstruction. This excludes the seed, not the family.
 
-This is an explicit **failed implication**, not merely a warning about dimensions: global first-symbol realizability does not ensure higher-jet compatibility. The counterexample excludes the specified seed, not every smooth quadratic root or the full (6,16) family.
+The cubic correction is \(f(\ell u+mv)\), where \(f=au^2+buv+cv^2\) and \(\deg\ell,\deg m\le7\). For a prescribed cubic \(h=h_0u^3+h_1u^2v+h_2uv^2+h_3v^3\), compatibility means \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\). Multiplication by nonzero \(f\) is injective, giving a rank-sixteen correction map into forty cubic coefficients and a twenty-four-dimensional quotient obstruction. A correction, if it exists, is unique. These undivided identities remain valid for singular roots and coefficient zeros.
 
-## 3.10D The cubic quotient obstruction and remaining incidence
-
-For the conditional (6,16) quadratic root, the correction term is \(f(\ell u+mv)\), where \(\deg\ell,\deg m\le7\). Multiplication by nonzero \(f\) is injective, so the sixteen correction coefficients map with constant rank sixteen into forty cubic coefficients. The next-jet obstruction is the class of \((F_c)_3-\alpha G_0\) in the twenty-four-dimensional quotient. The eleven leading-symbol equations are a prior condition; the twenty-five second-obstruction pairings and full-root torsion are further independent tests. Singular roots and multiplier zeros affect those tests, not the rank of multiplication by \(f\). The explicit smooth seed fails the quotient condition with pairing \(-384\), excluding that seed only. See [the conditional calculation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction).
-
-## 3.10F Coefficient form and uniqueness of the cubic correction
-
-The cubic compatibility can be checked without choosing a quotient basis. If \(f=au^2+buv+cv^2\) and the prescribed cubic difference has coefficients \((h_0,h_1,h_2,h_3)\), the equations are \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), with \(\deg\ell,\deg m\le7\). For nonzero \(f\), multiplication is injective, so a compatible correction is unique. The [coefficient derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) avoids division by root coefficients and remains valid at singular roots.
+The twenty-five second-obstruction pairings, full-root torsion and existence of a proper degree-sixteen mate remain separate tests. See [the full calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
 
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
