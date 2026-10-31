@@ -74,6 +74,14 @@ Over that scheme, the cubic-jet comparison is an additional linear solvability c
 
 This formulation records a finite **necessary-condition scheme**. Even a point satisfying all of these conditions does not yet produce a proper degree-sixteen mate or prove support exhaustion. Conversely, a proof of emptiness of this entire necessary-condition scheme, with its excluded degeneracies separately handled, would exclude the scoped saturated movement-two (6,16) locus. The reviewed source has not established such emptiness.
 
+## Determinantal elimination without generic division
+
+Write the cubic compatibility equation, after choosing coefficient bases, as \(A(t)x=b(t)\), where \(t\) denotes the root, multiplier and any fixed lower-jet parameters, and \(x\) collects the coefficients of the two correction polynomials. Each polynomial has degree at most seven, so this correction space has dimension sixteen. The recorded 40-coefficient equation is an equality in a 40-dimensional coefficient space; hence \(A(t)\) is a 40-by-16 matrix once the relevant lower-jet choices have been fixed. This description does **not** assert that the matrix has generic rank sixteen.
+
+On the locally closed stratum \(\operatorname{rank}A(t)=r\), solvability is equivalent to \(\operatorname{rank}[A(t)\mid b(t)]=r\). Scheme-theoretically the rank-r locus is defined by vanishing of all (r+1)-minors of A and by the union of opens on which an r-minor is invertible; on each such open, impose all (r+1)-minors of the augmented matrix. For r=0 the condition is simply b=0. This produces a finite stratified incidence without inverting a coefficient of \(\alpha\) or assuming a generic matrix rank. If some coefficients of the correction polynomials are further constrained by the geometry, the actual restricted source must replace the full sixteen-dimensional space.
+
+The resulting locally closed pieces must be intersected with the eleven leading-symbol equations, the twenty-five second-obstruction pairings and the full-root torsion conditions. A projection to the root/multiplier space is constructible, not automatically closed; taking its closure may introduce boundary candidates absent from the actual incidence. Properness and existence of a degree-sixteen mate remain separate tests. This is a mathematically exact elimination prescription, **not** a computed rank stratification or an emptiness result.
+
 ## Exact failed seed and the remaining incidence
 
 The smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven quadratic-symbol image equations. This is a positive first-stage realization result for that seed, not a full ambient lift. The next cubic comparison fails: the recorded exact annihilating pairing is \(-384\), so the specified seed does **not** extend to the required compatible sextic jet. It independently fails the accepted second obstruction.
