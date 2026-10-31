@@ -87,6 +87,10 @@ The [strict-sextic continuation](normalization_conductor_phase2_addendum.md#sing
 
 The [fixed-model and universal constructions](01-problem-and-curve.md#12b-positive-characteristic-presentations-fixed-model-versus-all-rational-quartics) are separate: explicit binomial presentations for the monomial quartic, and a cuspidal-projection/Frobenius proof that every smooth rational quartic is STCI in positive characteristic with degrees \((3,4p)\). Those degrees are not claimed minimal.
 
+## Explicit Frobenius-binomial classification
+
+The [fixed-quartic binomial criterion](01-problem-and-curve.md#12c-exact-frobenius-binomial-criterion-for-a-quartic-first-carrier) determines exactly when a quartic first equation and a degree-\(p^r\) Frobenius-binomial second equation have sole reduced support. It explains the characteristic-five jump from \(5\) to \(25\) inside that family, without asserting global minimality.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
