@@ -93,6 +93,12 @@ For sextics vanishing twice along the fixed quartic, the quadratic normal-symbol
 
 The next cubic jet and a proper degree-sixteen mate are separate conditions. Consequently this rank calculation does not yet bound the transverse length of every proper pair in those degrees. Such a bound must include exceptional strata before the cycle formula can force positive residual degree.
 
+## 7C. First-symbol membership can fail at the next jet
+
+The conditional (6,16) study has a smooth torsion-two root whose multiplier satisfies all eleven equations for the actual sextic quadratic-symbol image, but whose cubic comparison has nonzero annihilating pairing \(-384\). The seed is therefore excluded by a higher-jet condition even though it passes the leading-symbol source test. See [the exact seed calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence).
+
+This is evidence that successive jet conditions are genuinely coupled. It is **not** a residual-degree bound for every mate to that carrier, nor an exclusion of all (6,16) pairs. The remaining exceptional root and multiplier strata must be treated before converting source restrictions into a uniform transverse-length estimate.
+
 ## 8. Fixed boundary versus residual removal
 
 The fixed-boundary deformation theorem R-0024 is more precise than the phrase "the nodes smooth." For its specified quartic pencil, the 36-dimensional ordered source has boundary, node and combined tangent ranks 19, 5 and 24. On the Grassmannian, the projective boundary rank is 18, and the fixed-boundary fiber is smooth of dimension 14. After etale localization at the five labeled nodes its formal local ring has five independent smoothing coordinates and nine further parameters.
