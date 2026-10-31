@@ -66,6 +66,10 @@ Its logical endpoint is limited. Emptiness would exclude the specified saturated
 
 The displayed (6,16) cubic correction is multiplication by the nonzero quadratic root \(f\) on the sixteen-dimensional space of degree-at-most-seven linear normal forms. It is injective, with a twenty-four-dimensional cokernel in the forty-dimensional cubic target. Thus the necessary cubic-jet condition is a quotient-class vanishing, not an unresolved rank-drop stratification of this map. This supersedes the more general augmented-rank prescription previously proposed for this particular arrow. Singular-root and multiplier-zero loci still require treatment in the other incidence conditions.
 
+## An exact cubic coefficient test, not a generic rank assumption
+
+The conditional sextic cubic correction has the four polynomial coefficient identities \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\). They provide an exact, division-free membership test and a unique correction for each compatible nonzero root. The [derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) supersedes the earlier suggestion of a rank-drop computation for this multiplication map. The nonlinear joint incidence and actual proper mate remain unproved.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
