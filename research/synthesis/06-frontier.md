@@ -159,6 +159,12 @@ The conditional movement-two (6,16) analysis already computes the full quadratic
 
 The bounded continuation is therefore **not** another abstract jet-count estimate. It is to impose the eleven bilinear symbol equations, the cubic-jet compatibility and the full-root discriminant conditions on the same actual parameter family; then stratify every rank-drop and conductor-contact locus without discarding alpha=0 points by division. The output must state whether each stratum is empty, admits an actual proper pair, or remains unresolved. A computation on the smooth-root open alone would not settle the exceptional loci or the unrestricted STCI problem.
 
+## 6.11D What the exact failed sextic seed eliminates
+
+The explicit smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique multiplier passing the eleven quadratic-symbol equations, yet the next cubic-jet pairing is \(-384\ne0\). The seed also fails the independently accepted second obstruction. This closes that **one** seed, while proving that first-symbol image membership does not suffice for the next jet. See [the conditional source calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence).
+
+The next finite task is to describe the common zero locus of the eleven symbol equations, the cubic comparison and the second-obstruction pairings, with singular-root and multiplier-zero strata retained. One cannot infer emptiness of the incidence from the failed seed or from a generic-rank computation.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
