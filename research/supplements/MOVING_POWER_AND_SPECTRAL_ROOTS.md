@@ -1,12 +1,17 @@
 # moving power and spectral roots
 
-Permanent subject dossier retaining complete mathematical source arguments, their hypotheses, corrections, counterexamples and unresolved scope.
+The proof units below retain their exact hypotheses, counterexamples and unresolved interfaces. They distinguish abstract graded data, embedded lifts and actual equations.
+
+- [A uniform obstruction tower for moving power relations](#2026-10-14-generalization-moving-power-obstruction-tower)
+- [Moving pure-power relations: uniform obstruction bundles and finite-order lifts](#2026-10-14-generalization-moving-purepower-tower-independent-audit)
+- [Root-curve descent and the geometry of moving binary relations](#2026-10-14-generalization-spectral-root-curve-relations)
+- [Moving first relations: spectral descent criterion and elliptic gap examples](#2026-10-14-generalization-spectral-root-curve-independent-audit)
 
 ---
 
-## 2026-10-14-generalization-moving-power-obstruction-tower
+<a id="2026-10-14-generalization-moving-power-obstruction-tower"></a>
 
-# A uniform obstruction tower for moving power relations
+## A uniform obstruction tower for moving power relations
 
 Date: 2026-10-14. Status: **PROVED NEW STRUCTURAL THEOREM, independently reviewed in
 [the tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).**
@@ -15,7 +20,7 @@ premises. The statement concerns the compatibility of a single first normal
 relation, and proves a boundary of that method rather than an STCI exclusion.
 No accepted computation is rerun.
 
-## 1. The quotient bundles in every normal order
+### 1. The quotient bundles in every normal order
 
 Let `C` be a smooth curve in a smooth threefold, in characteristic zero, with
 balanced conormal bundle
@@ -70,7 +75,7 @@ The characteristic-zero hypothesis makes the symmetric pairing perfect
 without any factorial qualification. No assertion for arbitrary positive
 characteristic is made here.
 
-## 2. What vanishing cohomology actually constructs
+### 2. What vanishing cohomology actually constructs
 
 Let `I=I_C` and fix `g>=2`. If
 
@@ -118,7 +123,7 @@ formal lifts of the first relation at all orders. This is a statement in
 the formal neighborhood of `C`; it does not assert algebraization to an
 actual projective hypersurface.
 
-## 3. A sharp cohomology threshold on a rational balanced curve
+### 3. A sharp cohomology threshold on a rational balanced curve
 
 For `C=P1`, put `H=O(lambda)`, `M=O(-e)`, `e>=0`. Formula (2) becomes
 
@@ -164,10 +169,10 @@ pays the accepted cost
 when it occurs in a full thickening with the specified next-relation gap.
 Vanishing obstruction groups do not remove that global cost.
 
-## 4. The degree-one moving linear branch has an exact zero locus
+### 4. The degree-one moving linear branch has an exact zero locus
 
 The new independently derived calculation in
-[the moving linear audit](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
+[the moving linear audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 also treats the smallest movement case, where `r=e=1` and
 `Q_1=O(-4)` has nonzero cohomology. Write
 
@@ -197,18 +202,18 @@ that branch. The accepted exclusion of a mate to the carrier `q=0` does
 not directly exclude an entirely thick presentation having first symbol
 `q^r`.
 
-## 5. Evidence and next use
+### 5. Evidence and next use
 
 Inputs used as accepted premises:
 
-- [Thick equality and moving operator](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-equality-extensionmd),
+- [Thick equality and moving operator](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd),
   especially Sections 7--8.
-- [Independent movement-gap cost audit](OCT14_CARTIER_LIFTS_AND_MOVING_RELATIONS.md#source-2026-10-14-generalization-moving-relation-gap-cost-independent-auditmd).
-- [Independent constant-relation audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd).
+- [Independent movement-gap cost audit](MOVING_POWER_SECOND_RELATION.md#source-2026-10-14-generalization-moving-relation-gap-cost-independent-auditmd).
+- [Independent constant-relation audit](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd).
 
 New independent review:
 
-- [Moving linear quadratic obstruction and pure-power quadratic splitting](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
+- [Moving linear quadratic obstruction and pure-power quadratic splitting](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
 - [Completed independent higher-tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
   Its finite-order scope is now accepted; it supplies no global STCI pair.
 
@@ -219,15 +224,11 @@ budget. The calculation establishes why a nonzero fixed-direction class
 cannot be evaluated pointwise on a moving relation, and gives an exact
 degree-independent boundary for higher-jet versions of that method.
 
-No memory file or external source was needed for this new linear-algebra
-and Cech argument. No large CAS job was started and no commit was made.
-
-
 ---
 
-## 2026-10-14-generalization-moving-purepower-tower-independent-audit
+<a id="2026-10-14-generalization-moving-purepower-tower-independent-audit"></a>
 
-# Moving pure-power relations: uniform obstruction bundles and finite-order lifts
+## Moving pure-power relations: uniform obstruction bundles and finite-order lifts
 
 Date: 2026-10-14. Status: **independently proved new finite-order lifting
 theorem**, with the scope stated below. The accepted conormal identification
@@ -235,12 +236,12 @@ for the rational quartic is used as a premise. No accepted chart-transition,
 normal-bundle, or constant-direction computation is repeated.
 
 This note audits the proposed generalization of the next-order calculation in
-[the moving linear relation review](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
+[the moving linear relation review](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
 The apolar quotient, the successive gluing obstruction, the vanishing range,
 and the Cohen--Macaulay assertion all pass. The construction supplies embedded
 finite-order thickenings; it does not supply a global carrier or an STCI pair.
 
-## 1. Hypotheses and the precise truncation
+### 1. Hypotheses and the precise truncation
 
 Let `C` be a smooth curve embedded in a smooth threefold `X` over a field of
 characteristic zero. Write `I=I_C` and suppose its actual conormal bundle is
@@ -270,7 +271,7 @@ Thus the last prescribed principal-relation degree is `N-1=r+g-1`. There
 is no asserted second independent relation before that degree. A new full
 truncation relation appears in degree `N`.
 
-## 2. The obstruction bundle in every order
+### 2. The obstruction bundle in every order
 
 For the passage from truncation `r+k` to truncation `r+k+1`, with `k>=1`, put
 
@@ -309,7 +310,7 @@ without this factor is correct after choosing a nonzero element of `det(V)`;
 it is the same bundle up to a constant one-dimensional vector-space factor.
 The coefficient `r+k+1` of the movement degree is essential.
 
-## 3. Why H^1(Q_k) controls gluing ideals in the actual ambient space
+### 3. Why H^1(Q_k) controls gluing ideals in the actual ambient space
 
 The initial truncation exists without an obstruction: take the preimage of
 `W^r` under `I^r -> I^r/I^(r+1)`. It is an ideal because multiplication by
@@ -352,7 +353,7 @@ the principal initial relation sheaves specified in Section 1. Vanishing
 does not make the choices canonical; the corresponding `H^0(Q_k)` controls
 available changes to each lift.
 
-## 4. The initial algebra and Cohen--Macaulay property
+### 4. The initial algebra and Cohen--Macaulay property
 
 Locally, the leading form of `p` is a nonzerodivisor in `Sym E`. Thus a
 product with `p` has precisely the sum of its factors' normal orders.
@@ -373,7 +374,7 @@ dimension one, so `Y_N` is Cohen--Macaulay. This argument is intrinsic to
 the filtration and does not need a retraction even for the flatness claim
 one might otherwise make in local coordinates.
 
-## 5. Uniform vanishing range on the rational quartic
+### 5. Uniform vanishing range on the rational quartic
 
 On `C=P^1`, write `H=O(lambda)` and `M=O(-e)`, with `e>=0`. The constant
 factor in Section 2 has dimension `r`, and hence
@@ -409,7 +410,7 @@ On a curve of positive genus the bundle formula remains valid, but the
 `q>=-1` vanishing criterion is specific to `P^1`. The appropriate hypothesis
 is the actual vanishing of each line-bundle `H^1` in Section 3.
 
-## 6. Scope and consequences for the research frontier
+### 6. Scope and consequences for the research frontier
 
 This proves that finite-order normal compatibility cannot uniformly exclude
 moving pure-power first relations in the vanishing range. For any fixed
@@ -433,7 +434,7 @@ is restricted to finite orders. To progress toward an STCI exclusion, one
 must use a new independent relation, Gorenstein/socle constraints, actual
 global equations, or another condition beyond this principal-relation tower.
 
-## 7. Audit verdict
+### 7. Audit verdict
 
 **Pass**, with the constant determinant factor made explicit and with the
 truncation understood as `J_N=(p,I^N)` for `N=r+g`. The claimed uniform
@@ -442,211 +443,11 @@ space, exact initial relation sheaves, and Cohen--Macaulay conclusion are
 proved above. The stronger global carrier/STCI conclusions are not part of
 the theorem and do not follow from it.
 
-
 ---
 
-## 2026-10-14-generalization-moving-purepower-second-relation-independent-audit
+<a id="2026-10-14-generalization-spectral-root-curve-relations"></a>
 
-# Moving pure-power first relations: a uniform second-relation obstruction
-
-Date: 2026-10-14. Status: **independently proved new obstruction and exact
-degree identity** under the hypotheses stated below. The previously accepted
-normal-layer defect convention and first-relation gap cost are premises; they
-are not replayed here. The new apolar quotient is independently established in
-[the finite-order tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
-
-## 1. Bundle setting and the new second relation
-
-Let `C` be a smooth integral projective curve in characteristic zero, with
-balanced conormal bundle
-
-    E=H^-1 tensor V,
-
-where `V` is a constant two-dimensional vector space. Let
-
-    M subset V tensor O_C,   deg M=-e<0,
-    W=H^-1 tensor M,
-    L=E/W=H^-1 tensor det(V) tensor M^-1.
-
-Assume the first generic initial relation is the pure power `m^r`, with
-`r>=2`. Let `s>r` be the next independent generic relation degree, and put
-`g=s-r`. At the generic point, assume that this new binary form is coprime
-to `m`; in particular this holds when the generic initial ideal is the
-complete intersection `(m^r,g_s)`.
-
-Write `K_s` for the actual degree-`s` relation kernel inside `Sym^s E`.
-The saturated space of multiples of the first relation is
-
-    A_prior=W^r tensor Sym^g E subset Sym^s E.
-
-It is a rank-`g+1` subbundle. Define
-
-    U_s=K_s intersection A_prior,
-    T=K_s/U_s subset A_s,
-    A_s=Sym^s E/A_prior.
-
-The intersection and the quotient are taken as actual sheaves. The map to
-`A_s` identifies `T` with a torsion-free rank-one subsheaf, so `T` is a line
-bundle on the smooth curve. It need not be a subbundle at special points.
-This definition does not identify a generic generator with a globally
-saturated special-fiber generator.
-
-The apolar quotient formula, including its constant factor, is
-
-    A_s=H^-s tensor M^(-(g+1))
-        tensor det(V)^(g+1) tensor Sym^(r-1)V.
-
-Restriction to the quotient direction `E -> L` induces a canonical map
-
-    A_s -> L^s.
-
-The assumed generic coprimality makes its restriction to `T` nonzero.
-Consequently there is an effective divisor `D` such that
-
-    T=L^s(-D).
-
-Here `D` is the actual zero divisor of this map, including any failure of the
-subsheaf `T` to remain a subbundle. It is not discarded by saturation.
-
-## 2. Uniform coprimality is impossible for a moving power of order at least two
-
-Suppose the full initial algebra is a complete intersection of degrees
-`r<s` on every fiber, with its first generator the line `W^r` and first
-generator `m^r`. Then `T` is the second generator line and the map
-`T -> L^s` is nowhere zero: a binary form is coprime to `m` exactly when
-its restriction to `m=0` is nonzero. Thus `D=0` and `T=L^s`.
-
-But the natural inclusion `T -> A_s` would then be a nonzero section of
-
-    Hom(L^s,A_s)
-      = M^(r-1) tensor det(V)^(1-r) tensor Sym^(r-1)V.
-
-The final two factors are constant. Since `(r-1)deg M<0`, this bundle has
-no global section on an integral projective curve. This is a contradiction.
-
-Therefore a pure-power first relation of order `r>=2` in a genuinely moving
-basepoint-free direction cannot extend to a fiberwise complete-intersection
-initial algebra of two distinct generator degrees. The conclusion is
-uniform in `r` and `s`. It does not exclude merely generic complete
-intersection initial algebras with special-point defects, nor the linear
-case `r=1`.
-
-## 3. Generic coprimality forces an effective degeneration cost
-
-In the generic situation of Section 1, the nonzero inclusion `T -> A_s`
-instead defines a section of
-
-    Hom(T,A_s)
-      = M^(r-1)(D) tensor det(V)^(1-r) tensor Sym^(r-1)V.
-
-A line bundle carrying a nonzero section has nonnegative degree. Hence,
-writing `delta=deg D`,
-
-    delta >= (r-1)e.
-
-This includes subsheaf zeros and the special-point loss of coprimality in
-one intrinsic divisor. No special fiber is assumed to retain its generic
-minimal-generator presentation. If equality holds, the line bundle
-`M^(r-1)(D)` is trivial; this follows because its nonzero section has an
-effective zero divisor of degree zero. On `P^1`, its corresponding map into
-the constant factor of `A_s` is a constant binary form of degree `r-1`.
-Its evaluation divisor is the pullback of that form's root divisor by the
-moving direction map. This equality description is not needed for the
-inequality.
-
-## 4. Exact degree-s defect, retaining the first relation's pole divisor
-
-The first relation may itself have an effective defect divisor:
-
-    K_r=W^r(-D0),       delta0=deg D0.
-
-Multiplication of this actual relation by degree-`g` normal forms gives
-
-    A_prior(-D0) subset U_s subset A_prior.
-
-Both `U_s` and `A_prior` have rank `g+1`, so put
-
-    tau=length(A_prior/U_s)>=0.
-
-This retains the defect of the old relation multiples at the new-generator
-degree. For example `D0=0` forces `tau=0`; in general
-`tau<=(g+1)delta0`.
-
-Let `lambda=deg H`. By definition of the accepted normal-layer defect,
-with `rank K_s=g+2`,
-
-    Delta_s=-deg K_s-lambda s(g+2).
-
-The exact sequence `0 -> U_s -> K_s -> T -> 0` gives
-
-    deg A_prior=-lambda s(g+1)-r e(g+1),
-    deg U_s=deg A_prior-tau,
-    deg T=-lambda s+s e-delta.
-
-Adding these degrees yields the new exact identity
-
-    Delta_s=e g(r-1)+delta+tau.
-
-Consequently,
-
-    Delta_s >= e(r-1)(g+1)+tau
-             >= e(r-1)(g+1).
-
-This calculation uses the actual degree-`s` kernel and the actual divisor
-`D`. It does not silently replace either by its saturation. The identity
-holds on any smooth projective support curve with the stated balanced
-conormal and generic relation ranks.
-
-## 5. Combination with the accepted earlier-gap cost
-
-The accepted first-relation gap calculation has movement degree
-`epsilon=r e` for the pure power. The sum of its defects in degrees
-`r,...,s-1` is therefore at least
-
-    r e g(g+1)/2+delta0.
-
-The remaining normal-layer defects are nonnegative. Adding the new
-degree-`s` bound gives
-
-    Delta >= r e g(g+1)/2+delta0
-             +e(r-1)(g+1)+tau.
-
-In particular, omitting only the explicitly nonnegative `tau` proves the
-proposed lower bound
-
-    Delta >= r e g(g+1)/2+delta0+e(r-1)(g+1).
-
-For the accepted rational-quartic exact socle budget
-`n mu=7 Asym+2 Delta`, this entails the necessary condition
-
-    n mu >= 7 Asym+r e g(g+1)+2delta0
-            +2e(r-1)(g+1)+2tau.
-
-It is a uniform obstruction cost, rather than a complete exclusion of all
-moving generic initial complete intersections. The gap can be one; unlike
-the separate constant-direction quadratic pole obstruction, no gap-at-least-
-two hypothesis is needed here.
-
-## 6. Audit verdict and frontier meaning
-
-**Pass.** The new fiberwise exclusion, generic divisor bound, exact
-`Delta_s` identity, and combination with the already accepted gap cost
-follow from the quotient bundle and the actual sheaf degree sequences.
-
-The first relation's divisor `D0`, the old-multiple defect `tau`, and the
-evaluation divisor `D` are distinct and are all retained. The finite-order
-existence theorem in the companion audit is compatible with this exclusion:
-it adds a full truncation relation at its last degree, and for `r>1` its
-top layer already has socle dimension at least `r`. A future complete-
-intersection second relation must pay the new divisor cost; it cannot be
-inserted with fiberwise coprimality and zero defects.
-
-
----
-
-## 2026-10-14-generalization-spectral-root-curve-relations
-
-# Root-curve descent and the geometry of moving binary relations
+## Root-curve descent and the geometry of moving binary relations
 
 Date: 2026-10-14. Status: **new structural theorem, independently reviewed**.
 This note generalizes the relation-bundle viewpoint, rather
@@ -654,7 +455,7 @@ than enumerating further carrier degrees. The accepted moving-power
 second-relation obstruction and its independent audit are premises. No
 accepted calculation is repeated.
 
-## 1. The root divisor remembers the entire first binary relation
+### 1. The root divisor remembers the entire first binary relation
 
 Let `C` be a smooth integral projective curve, and let the actual conormal
 bundle in a smooth threefold be
@@ -694,7 +495,7 @@ relation at a later degree `s>r` is
 The notation `O_Z(j)` always means restriction of the **direction** ruling
 `q^*O(j)`, not the base ruling.
 
-## 2. Exact criterion for a second fiberwise coprime relation
+### 2. Exact criterion for a second fiberwise coprime relation
 
 Let `T` be a line bundle on `C`. By adjunction, a morphism
 
@@ -730,7 +531,7 @@ first generator**. A global lift `T -> Sym^s E` is not needed. Such a lift
 can be impossible even when (4) holds. The graded family constructed here
 also has not been lifted into the actual formal neighborhood of `C`.
 
-## 3. The criterion becomes a precise torsion problem on a rational base
+### 3. The criterion becomes a precise torsion problem on a rational base
 
 Now let `C=P1`, `M=O(-epsilon)`, with `epsilon>=0`. The root divisor has
 bidegree `(epsilon,r)`, where the first entry is the base degree. Its
@@ -772,7 +573,7 @@ The obstruction lies in the full nonreduced Picard group. Passing merely
 to the graph loses the decisive information. General root curves need
 not have the same obstruction.
 
-## 4. A smooth elliptic root curve defeats a naive pure-power extension
+### 4. A smooth elliptic root curve defeats a naive pure-power extension
 
 Let `B` be an elliptic curve over an algebraically closed field of
 characteristic zero. Choose a line bundle `A` of degree two and a
@@ -812,7 +613,7 @@ missing condition is realization in the actual ambient neighborhood and
 then by two projective equations; a graded construction alone supplies
 neither.
 
-## 5. The actual ambient obstruction lives naturally on the root curve
+### 5. The actual ambient obstruction lives naturally on the root curve
 
 Suppose no independent relation has yet appeared by degree `r+k`, with
 `k>=1`. The first-relation correction bundle is
@@ -909,12 +710,11 @@ formal-neighborhood extension class of `Z` to the torsion-descent condition
 would impose geometry beyond all graded Hilbert-function and socle-degree
 tests at once.
 
-## 6. Evidence and scope
+### 6. Evidence and scope
 
 Accepted inputs used without replay:
 
 - [Moving-power second relation](MOVING_POWER_SECOND_RELATION.md#1-hypotheses-and-the-second-relation-quotient).
-- [Independent second-relation audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-second-relation-independent-audit).
 - [Moving-power obstruction tower](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-power-obstruction-tower).
 - [Independent tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
 
@@ -924,14 +724,12 @@ counterboundary, and ambient interpretation is recorded separately in
 The descent criterion, graded construction, elliptic counterboundary,
 obstruction-bundle identification, and first class interpretation passed
 that review. No ambient compatibility or STCI existence claim is made.
-No large CAS computation, memory update, or commit was made.
-
 
 ---
 
-## 2026-10-14-generalization-spectral-root-curve-independent-audit
+<a id="2026-10-14-generalization-spectral-root-curve-independent-audit"></a>
 
-# Moving first relations: spectral descent criterion and elliptic gap examples
+## Moving first relations: spectral descent criterion and elliptic gap examples
 
 Date: 2026-10-14. Author: `moving_second_general/spectral_audit`.
 Status: **NEW PROOF, independently derived for the parent moving-relation lane.**
@@ -945,7 +743,7 @@ of `C0`, and it does not produce a set-theoretic complete intersection in
 projective space. In particular, a second generator in the quotient by the
 first relation must be distinguished from a global line of polynomials.
 
-## 1. Setup and the root divisor
+### 1. Setup and the root divisor
 
 Let `C` be a smooth connected projective curve over an algebraically closed
 field, let `V` be a fixed two-dimensional vector space, and put
@@ -988,7 +786,7 @@ part of the quotient by the first relation,
 The order convention in (1) makes the sign of the later descent degree
 unambiguous.
 
-## 2. Exact criterion for a coprime quotient relation
+### 2. Exact criterion for a coprime quotient relation
 
 Fix `s>r` and a line bundle `T` on `C`. By finite adjunction and (2), a
 map `T->A_s` is equivalent to a section
@@ -1047,7 +845,7 @@ also recorded in [Stacks, Norms, Lemmas 31.18.2 and
 31.18.6](https://stacks.math.columbia.edu/tag/0BCX).
 Equation (5) is necessary; it does not replace (4).
 
-## 3. On `P1`: the sign and the global-lift obstruction
+### 3. On `P1`: the sign and the global-lift obstruction
 
 Now take `C=P1` and `deg H=h`. Since `Z` has bidegree
 `(epsilon,r)` in `P1 x P1`,
@@ -1090,7 +888,7 @@ the standard complete-intersection Hilbert function. This follows also
 from the local Koszul resolution and fiberwise regularity. No assertion
 of a global split two-generator resolution is needed.
 
-## 4. Elliptic `(2,2)` examples with arbitrary second degree
+### 4. Elliptic `(2,2)` examples with arbitrary second degree
 
 Work in characteristic zero. Fix any integer `m>2`. Choose a smooth
 elliptic curve `E0`, a line bundle `A0` of degree two, and a line bundle
@@ -1143,7 +941,7 @@ The first relation has fixed order two and moving degree two, while the
 gap `m-2` is arbitrarily large. These examples demonstrate that no bound
 on the second degree can follow from `r` and `epsilon` alone.
 
-## 5. Exact `C0` numerical boundary for these abstract families
+### 5. Exact `C0` numerical boundary for these abstract families
 
 Take `H=O(7)` on `P1`, as in the accepted balanced conormal bundle of
 `C0`. In the elliptic construction at second degree `s=m`,
@@ -1201,7 +999,7 @@ as abstract algebras is a boundary for that method. Realization in the
 actual normal-neighborhood transitions, and then by two projective
 equations, remain entirely unproved and may be obstructed.
 
-## 6. The actual ambient lifting problem has a spectral obstruction group
+### 6. The actual ambient lifting problem has a spectral obstruction group
 
 The abstract examples identify an obstruction that the next step must use:
 compatibility with the actual formal-neighborhood transitions. Here is
@@ -1283,7 +1081,7 @@ two distinct root directions, so they also show why a theorem for a
 moving pure power does not automatically cover an arbitrary moving
 first relation.
 
-## 7. Coordinate-free first class on the blowup
+### 7. Coordinate-free first class on the blowup
 
 The owner's blowup interpretation gives a precise way to name that
 actual first class. Let `X` be the actual smooth ambient threefold,
@@ -1343,7 +1141,7 @@ cohomology class, taken modulo the image under multiplication by `f`,
 must be built from the actual `kappa` and `df`. The quotient description
 does not itself say that the class vanishes or is nonzero.
 
-## Audit conclusion
+### Audit conclusion
 
 The spectral criterion (4), the positive sign in (6), the mandatory
 nonsplitting (8), the arbitrary elliptic gap construction (9), and the

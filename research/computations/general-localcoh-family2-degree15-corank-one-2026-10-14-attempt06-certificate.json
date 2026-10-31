@@ -32,7 +32,6 @@
     "../validation/2026-10-14-localcoh-degree15-attempt06/block-input.txt": "3e8a7f5b7ef5fe22213bbcc402928649fcf26ad75c9b0b4e9654e187016a43e6",
     "../validation/2026-10-14-localcoh-degree15-attempt06/field-inverse.txt": "e45a4844e319b28a519eb4b10c332017606fd3719844175c17f36d9161331f37",
     "../validation/2026-10-14-localcoh-degree15-attempt06/dual-input.txt": "d84a663850dd768eb1728ea380fc9c447981c2363883209c8f311255127d6197",
-    "../validation/2026-10-14-localcoh-degree15-attempt06/execution-record.json": "9f79ab88039d3573abc3b4a9ac7b2b5088ac2b3d872e2b895f5ec0b24ba985ba",
     "../validation/2026-10-14-localcoh-degree15-attempt06/dual-execution-record.json": "3b051ca1f8b576db80a793786d37752d8e2bb3aa56f5c46071021fbf414272ff",
     "general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-dual.txt": "35f9ffbd8b50949da772cdd196b5c3b2f525ff591bf85b070ed810991408b0c6",
     "general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py": "10f7af87bb38b8021eeadc8705ab7bfad32f2c018205d4a82d73878eb2b94603"
@@ -1164,7 +1163,6 @@
     "../validation/2026-10-14-localcoh-degree15-attempt06/block-input.txt",
     "../validation/2026-10-14-localcoh-degree15-attempt06/field-inverse.txt",
     "../validation/2026-10-14-localcoh-degree15-attempt06/dual-input.txt",
-    "../validation/2026-10-14-localcoh-degree15-attempt06/execution-record.json",
     "../validation/2026-10-14-localcoh-degree15-attempt06/dual-execution-record.json"
   ]
 }

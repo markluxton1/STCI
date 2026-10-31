@@ -1,12 +1,12 @@
-# Multiplicity, mixed (4,6) cases, and MF6 pairing
+# Mixed normal orders, multiplicity-six types and exact layer lattices
 
 Consolidated mathematical source material; conditional statements and independent audits retain their original status.
 
 ---
 
-## 2026-10-05-audit-regular-pure
+<a id="2026-10-05-audit-regular-pure"></a>
 
-# Independent audit: the pure constant directions in regular degree (4,6)
+## Independent audit: the pure constant directions in regular degree (4,6)
 
 Date: 2026-10-05. Status: **PASS**, with a small local-intersection
 clarification recorded below. Scope is exactly characteristic zero,
@@ -22,12 +22,12 @@ The conclusion is that, after globally subtracting a quadratic multiple of
 the quartic from the sextic, a hypothetical set-theoretic pair cannot have
 quartic first normal form \(hV\) or \(hU\) in the stated balanced frame.
 
-## What was checked independently
+### What was checked independently
 
 The full exact script was run with
 
 ```
-/private/tmp/stci-cas-venv/bin/python research/computations/verify_mixed46_regular.py
+python3 research/computations/verify_mixed46_regular.py
 ```
 
 It passed its assertions. Before reading the complete proposed proof, the
@@ -70,7 +70,7 @@ form by \(V\) kills the \(D^2\) coefficient, and indeed makes
 \(a_0\mid\sigma\) in \(G|_Q=c^2\sigma\). This is an exhaustive ambient
 kernel argument, not an assumption that an arbitrary jet lifts.
 
-## Boundary and contact-degree checks
+### Boundary and contact-degree checks
 
 If \(c_9=0\), the displayed residual has the factor \(a_0\). Since
 \(a_0\mid\sigma\) too, the entire ruling \(a_0=0\) lies in both carriers.
@@ -124,7 +124,7 @@ rulings—is resolved by this local argument: the single smooth point
 \(P\) already exhausts the degree-four vanishing allowance of \(\sigma\).
 Support considerations alone would not have forced this concentration.
 
-## Cubic identity and final contradiction
+### Cubic identity and final contradiction
 
 The residual equality gives
 \(G=\gamma A^2+qF'\). Because \(G\) has normal order at least two and
@@ -182,9 +182,9 @@ there.
 
 ---
 
-## 2026-10-05-mf6-further-audit
+<a id="2026-10-05-mf6-further-audit"></a>
 
-# MF6 audit and higher-jet exclusions for the mixed (4,6) pole branch
+## MF6 audit and higher-jet exclusions for the mixed (4,6) pole branch
 
 Started 2026-10-05; completed and resumed 2026-10-06. Characteristic zero
 for the global application to `C0=[s^4:s^3t:st^3:t^4]`. The local MF6
@@ -209,7 +209,7 @@ type-three audit in `2026-10-06-mf6-type3-independent-audit.md` confirms the
 cubic-pole argument, its quotient-chart exhaustion, and its direct infinity
 calculation; no gap was found under the stated hypotheses.
 
-## 1. MF6, including the torsion and generation steps
+### 1. MF6, including the torsion and generation steps
 
 Let R be a completed DVR along the smooth reduced support, B its rank-six
 finite-free embedded lci algebra, and `N_i=B intersect (y^i) B_K` its
@@ -269,7 +269,7 @@ of a globally regular multiple of the quartic is used. Neither `A=D3` nor
 remain necessary safeguards. In particular the global degree of a
 coefficientwise minimum cannot be replaced by the minimum of two degrees.
 
-## 2. The complete embedded triple obstruction when e=0
+### 2. The complete embedded triple obstruction when e=0
 
 Use the balanced affine conormal coordinates
 
@@ -324,7 +324,7 @@ Both triples are flat; their defect divisors are twice an endpoint. Their
 existence as triples is retained, rather than incorrectly excluded by
 endpoint flatness.
 
-## 3. A quartic containing either degree-two triple has a plane factor
+### 3. A quartic containing either degree-two triple has a plane factor
 
 Write the first-normal form of a pure-U quartic F as hU, and its V^2
 coefficient as Q. Membership in the first degree-two triple forces
@@ -367,7 +367,7 @@ hypothetical characteristic-zero `(4,b)` pair on C0 has
 The claim is mate-independent but specific to the monomial quartic C0;
 it is not asserted for every rational quartic orbit.
 
-## 4. The exact third-piece lattice lemma
+### 4. The exact third-piece lattice lemma
 
 This lemma retains the higher-normal coefficient missing from first-normal
 arguments. Let the canonical length-four quotient be generated over a DVR
@@ -395,7 +395,7 @@ two-generator embeddedness, saturation, and the full cubic coefficient.
 It also shows why the multiplicity-five type-A terminal calculation
 cannot be imported into a sextuple: its fourth piece is different.
 
-## 5. The d2=3 quartic pencil and all of its cubic poles
+### 5. The d2=3 quartic pencil and all of its cubic poles
 
 For degree three, the two pure directions fail triple flatness: every
 killing section contains an additional homogeneous linear factor common
@@ -488,7 +488,7 @@ MF6 gives `A=D3+(D2 wedge (D3-D2))=3D2=H`. Hence the pole divisor
 `(d2,d3)=(3,6)` branch; beta=0 remains a regular-ratio possibility.
 No sextuple existence or exclusion of that regular member is claimed.
 
-## 6. Surviving strata and a failed uniform shortcut
+### 6. Surviving strata and a failed uniform shortcut
 
 Combining these exclusions with MF6 leaves the following coarse nonregular
 strata for `(4,6)`:
@@ -524,12 +524,12 @@ membership condition. It is a retained exact triple-compatible model;
 it does not provide a global STCI mate. This is why the uniform claim is
 `d2>=3`, rather than blanket exclusion of all pure quotient directions.
 
-## 7. Reproducibility and continuation
+### 7. Reproducibility and continuation
 
 Run with SymPy 1.14.0:
 
-    /private/tmp/stci-cas-venv/bin/python research/computations/verify_mf6_defect12.py
-    /private/tmp/stci-cas-venv/bin/python research/computations/verify_mf6_type3.py
+    python3 research/computations/verify_mf6_defect12.py
+    python3 research/computations/verify_mf6_type3.py
 
 Both pass. The second reruns the first and uses its independently derived
 complete quartic ideal basis. The local lattice lemma is proved above
@@ -542,16 +542,16 @@ branches, and all higher carrier degrees remain unresolved by this note.
 
 ---
 
-## 2026-10-05-mf6-pairing-audit
+<a id="2026-10-05-mf6-pairing-audit"></a>
 
-# MF6 prerequisite audit: perfect pairings on the saturated filtration
+## MF6 prerequisite audit: perfect pairings on the saturated filtration
 
 Date: 2026-10-05. Independent local-algebra audit of P-042 and
 `research/notes/2026-10-05-mixed46-poles.md`. The assertion audited here is
 proved below for arbitrary multiplicity and arbitrary characteristic. This
 does not construct a global multiple curve or an STCI representation.
 
-## 1. Verdict and exact hypotheses
+### 1. Verdict and exact hypotheses
 
 Let R be a DVR, K its fraction field, and B a commutative finite-free local
 R-algebra. Suppose
@@ -584,7 +584,7 @@ R. Its special fibre is an Artin complete intersection and is Gorenstein, so
 the Frobenius condition follows. No characteristic-zero argument is used
 in this local deduction.
 
-## 2. Elementary proof over the DVR
+### 2. Elementary proof over the DVR
 
 Each N_i is an ideal. B/N_i is torsion-free over R: if t b belongs to N_i,
 then b belongs to (v^i)B_K as well, hence to N_i. Thus B/N_i is free and
@@ -640,7 +640,7 @@ of its product-pairing matrix is nonzero modulo t, hence is a unit in R.
 This is the required lambda. The usual algebra trace is generally degenerate
 on nilpotent algebras and must not replace this Frobenius functional.
 
-## 3. Consequence in multiplicity six
+### 3. Consequence in multiplicity six
 
 For n=6, write E_i=L^i(D_i), D_1=0, where D_i are the divisors of the
 generically invertible maps L^i -> E_i. Because these maps arise from the
@@ -662,7 +662,7 @@ as asserted in the MF6 note. The unit in the last position follows from a
 perfect pairing; it does not need an extra assumption about the degeneration
 of the special fibre.
 
-## 4. A countermodel when Gorenstein is omitted
+### 4. A countermodel when Gorenstein is omitted
 
 Let R=k[[t]] with char(k)=0, and inside K[y]/(y^6) put
 
@@ -698,13 +698,13 @@ ambient generators are insufficient by themselves.
 
 The existing exact lattice program confirms the basis invariants and socle:
 
-    /private/tmp/stci-cas-venv/bin/python research/scratch/mixed46/local_lattice.py
+    python3 research/scratch/mixed46/local_lattice.py
 
 Its case (1,2,0,0) reports ((0,0,1,1,2,3),2,3), meaning the complete defect
 sequence including E_0, first-normal Fitting exponent 2, and socle dimension
 3. These are local examples, not global candidates on C0.
 
-## 5. Saturation is essential even for a local complete intersection
+### 5. Saturation is essential even for a local complete intersection
 
 Take the length-six finite-flat complete intersection
 
@@ -719,7 +719,7 @@ saturation N_2 does contain x. Hence N/N^2 has a nonzero R/(t) summand and
 is not the line bundle E_1. A claim about ordinary powers must not be
 silently substituted for the saturated BF claim proved above.
 
-## 6. Primary-source cross-check and continuation boundary
+### 6. Primary-source cross-check and continuation boundary
 
 The direct argument is consistent with Nicolae Manolache, *Duality for
 Gorenstein multiple structures on smooth algebraic varieties*, Rev. Roumaine
@@ -738,16 +738,16 @@ the complete saturated ideals, defect divisors, and higher normal jets.
 
 ---
 
-## 2026-10-05-mixed46-poles
+<a id="2026-10-05-mixed46-poles"></a>
 
-# Mixed (4,6): the first-normal Fitting divisor and the multiplicity-six defects
+## Mixed (4,6): the first-normal Fitting divisor and the multiplicity-six defects
 
 Date: 2026-10-05. Characteristic zero for the application to C0; the local
 algebra argument below works in any characteristic in which the stated
 quasiprimitive Gorenstein filtration and pairings hold. This note does not
 assert existence of a global sextuple structure or an STCI pair.
 
-## 1. What was checked before continuing
+### 1. What was checked before continuing
 
 The starting data are P-031, P-038, and P-042 in
 `research/RESEARCH_RECORD.md`, and the mixed-(4,6) frontier in
@@ -775,7 +775,7 @@ local proof uses those pairings, local freeness of all BF pieces, finite
 flatness over the support, and embedding dimension at most two relative to
 the support.
 
-## 2. Exact local identity (proved; independent audit requested)
+### 2. Exact local identity (proved; independent audit requested)
 
 Let R be the completed DVR of the smooth support at a point, let B be the
 finite-flat length-six local algebra, and let N be its nilradical. Write
@@ -843,7 +843,7 @@ In particular D3 <= A <= D2+D3. Neither A=D3 nor A=D2+D3 is universal.
 There is no claim that the pole divisor P itself equals (2D2-D3)_+;
 only its degree is determined by this identity and the quartic degree.
 
-## 3. Matching the seven types with the pole strata
+### 3. Matching the seven types with the pole strata
 
 Let tau=deg(D2 wedge (D3-D2)). Necessarily
 
@@ -884,7 +884,7 @@ minimum of the two total degrees is false when the defect divisors have
 different supports. In particular the numerical types alone cannot justify
 collapsing the seven coarse strata further.
 
-## 4. Exact local laboratory and failed shortcuts
+### 4. Exact local laboratory and failed shortcuts
 
 `research/scratch/mixed46/local_lattice.py` realizes B=R[x,y] as an
 R-sublattice in K[y]/(y^6), with x a Laurent-coefficient polynomial starting
@@ -928,7 +928,7 @@ produce the displayed counterexample. It is preserved here precisely because
 it shows why first-normal or untuned finite scans cannot replace higher-jet
 control.
 
-## 5. Highest-value continuation
+### 5. Highest-value continuation
 
 The next global test should couple (MF6) to the actual first-normal incidence
 space and the quadric residual intersection, while retaining the full divisors
@@ -941,9 +941,9 @@ is not available for these pole strata.
 
 ---
 
-## 2026-10-05-mixed46-regular
+<a id="2026-10-05-mixed46-regular"></a>
 
-# Regular-ratio degree-(4,6) pairs: a pure horizontal direction is impossible
+## Regular-ratio degree-(4,6) pairs: a pure horizontal direction is impossible
 
 Date: 2026-10-05. Scope: characteristic zero, the monomial rational quartic
 \(C_0=[s^4:s^3t:st^3:t^4]\). This note is independent of the main ledgers.
@@ -951,7 +951,7 @@ It addresses the **regular-ratio branch only**: after subtracting an ambient
 quadratic multiple of the quartic, the sextic has normal order at least two.
 The quotient regularity cannot be inferred for a general pair.
 
-## Result and exact hypotheses
+### Result and exact hypotheses
 
 **PROVED here and independently audited.** Suppose forms \(F_4,G_6\)
 cut out \(C_0\) set-theoretically in characteristic zero, the first normal
@@ -973,7 +973,7 @@ The proof uses the global residual divisor on the unique quadric, and only the
 cubic and quartic transverse jets after that restriction. No claim is made
 about the mixed direction or \(e=1\), or about the nonregular branch.
 
-## Dependencies rechecked
+### Dependencies rechecked
 
 Set
 
@@ -999,7 +999,7 @@ smooth quartic therefore makes every transverse coefficient through order
 five vanish. In particular the quadratic normal form of \(G\) is divisible
 by the linear normal form of \(F\).
 
-## Complete pure-direction quartic space
+### Complete pure-direction quartic space
 
 Define
 
@@ -1036,7 +1036,7 @@ The term “other” here includes terms involving \(V\); after the formal
 solution \(V=-(R/h)U^2+\cdots\), these do not affect that quadratic
 coefficient.
 
-## The quadric forces the sextic residual
+### The quadric forces the sextic residual
 
 Use Segre coordinates
 
@@ -1101,7 +1101,7 @@ form \(h'V\), so \(F'\) belongs to the same eight-dimensional quartic
 space. Here no cancellation of a torsion class, no smooth-normalization
 assumption, and no sextic normalization argument is involved.
 
-## A universal cubic-jet rigidity identity
+### A universal cubic-jet rigidity identity
 
 Let \(R'\) be the \(U^2\) coefficient associated to \(F'\). Eliminating
 \(F\) gives
@@ -1137,12 +1137,12 @@ preserves \(C_0\), and exchanges the two pure constant directions up to
 nonzero scale in the balanced frames (its coefficient action is already
 verified in P-025). Hence the pure-\(U\) case is excluded too.
 
-## Computation, epistemic boundary, and next investigation
+### Computation, epistemic boundary, and next investigation
 
 Run
 
 ```
-/private/tmp/stci-cas-venv/bin/python research/computations/verify_mixed46_regular.py
+python3 research/computations/verify_mixed46_regular.py
 ```
 
 with SymPy 1.14.0. The script derives the full pure quartic space, checks the
@@ -1163,9 +1163,9 @@ remains separate.
 
 ---
 
-## 2026-10-05-uniform-multiplicity
+<a id="2026-10-05-uniform-multiplicity"></a>
 
-# Uniform quasiprimitive restrictions with a quartic carrier
+## Uniform quasiprimitive restrictions with a quartic carrier
 
 Status: proved numerical consequences of checked quasiprimitive Gorenstein
 duality; exact exploratory calculation for the primitive `(4,7)` branch.
@@ -1174,7 +1174,7 @@ Work in characteristic zero with a smooth rational quartic
 `C0=[s⁴:s³t:st³:t⁴]`. These restrictions do not address pairs whose
 two carriers have degree at least six and are thick along the whole curve.
 
-## Checked duality input
+### Checked duality input
 
 The full, unbounded multiplicity statement is justified by Nicolae Manolache,
 [Duality for Gorenstein multiple structures on smooth algebraic varieties,
@@ -1208,7 +1208,7 @@ The top piece is the annihilator of the support ideal. CM duality therefore
 gives `E_{n-1}=ω_C⊗(ω_X|C)^(-1)`. None of these statements assumes the
 multiple curve is primitive everywhere.
 
-## Proved uniform bounds for `(4,b)`
+### Proved uniform bounds for `(4,b)`
 
 Suppose `X=V(F_4,G_b)` is supported on `C`, with `b≥4`. The quartic has
 normal order one generically by project result P-011. The generic transverse
@@ -1259,7 +1259,7 @@ for `e=2,b=8` one has `D_2=D_3=0`, so the canonical quadruple is primitive.
 An obstruction to primitive quadruples of type `O(-5)` would thus close both
 these branches and potentially larger cases with small early defects.
 
-## A tempting false first-normal identity
+### A tempting false first-normal identity
 
 The identity `A=D_top`, where `A` is the common vertical Fitting divisor
 of the defining differentials, is false in arbitrary multiplicity. Over
@@ -1277,7 +1277,7 @@ In particular `D_top=(s-1)[t=0]`. Complementary divisor duality is satisfied,
 but the differential divisor only equals the top defect when `s=2`.
 The example is a local finite flat model, not a global projective candidate.
 
-## Exact primitive-fourth calculation, exploratory status
+### Exact primitive-fourth calculation, exploratory status
 
 The script
 `research/scratch/primitive47/obstruction.py` computes the obstruction to
@@ -1302,3 +1302,211 @@ This nonzero vector excludes primitive quadruples, and hence primitive
 seventuples, **for that particular quotient direction**. Several additional
 sample pairs also give nonzero vectors. The calculation has not yet
 classified all coprime quadratic pairs and is not a no-`(4,7)` theorem.
+
+
+---
+
+<a id="source-2026-10-11-session-multiplicity-ten-filtration-auditmd"></a>
+
+## Quasiprimitive multiplicity-ten filtration: necessary numerical reduction
+
+Date: 2026-10-11.
+
+Status: **DIRECT PROOF AUDIT AND NECESSARY NUMERICAL REDUCTION**. This note
+does not exclude degree `(5,8)`, does not classify embedded multiplicity-ten
+structures, and does not establish that `C0` is not an STCI.
+
+### 1. Scope and inputs
+
+Work over an algebraically closed field of characteristic zero. Let
+
+`C=C0=[s^4:s^3 t:s t^3:t^4]`,
+
+and suppose `X=V(F5,G8)` has reduced support exactly `C`. The equations have
+no common surface factor, so `X` is a projective local complete intersection
+of degree 40 and generic multiplicity ten. The argument below requires its
+generic transverse algebra to be curvilinear. For a hypothetical defining
+pair that requirement follows from the repository's P-011: the quintic must
+have generic normal order one. This note audits the filtration argument,
+not P-011.
+
+The conormal input is `N_C^*=O_P1(-7)^2`. No assertion is made that `X` is
+primitive at every point, that the first-normal quotient of the equations
+has regular ratio, or that the ordinary nilradical-power quotients are line
+bundles.
+
+Relevant existing records are P-016 and P-042 in
+[RESEARCH_RECORD](../RESEARCH_RECORD.md),
+[the local multiplicity-six pairing audit](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit),
+and [the uniform saturated-filtration audit](ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-session-uniform-audit).
+The primary source was freshly opened for this audit:
+[Manolache, *Duality for Gorenstein multiple structures on smooth algebraic
+varieties*, 2023](https://imar.ro/journals/Revue_Mathematique/pdfs/2023/1-2/10.pdf),
+printed pp.142–145. The theorem concerns canonical Gorenstein multiplication
+duality; its Remark 2 identifies the filtrations for quasiprimitive
+structures. The proof below is a direct local algebra proof for this setting.
+The Boratyński original was not freshly fetched in this audit.
+
+### 2. Saturated filtration and duality at every support point
+
+Complete at a support point, choose a tangent parameter `t`, and put
+`R=k[[t]]`, `K=Frac(R)`. The completed ring `B` of `X` is finite over `R`:
+its two normal coordinates are nilpotent. Cohen–Macaulayness makes `t` a
+nonzerodivisor, hence `B` is finite free of rank ten. The special fibre is an
+Artin complete intersection and is Gorenstein. Lifting a Frobenius functional
+from that fibre produces a functional `lambda:B->R` for which
+`B -> Hom_R(B,R)`, `b |-> lambda(b * _)`, is an isomorphism. The determinant
+is a unit because it is nonzero modulo `t`.
+
+Generically `B_K=K[v]/(v^10)`. Define the canonical saturated ideals
+
+`N_i=B intersect v^i B_K`, for `0<=i<=10`.
+
+Every quotient `B/N_i` is torsion free over the DVR `R`, so the relevant
+submodules split as `R`-modules. Each `E_i=N_i/N_(i+1)` has rank one and is
+free. Also `B/N_1=R`: it is a finite integral `R`-subalgebra of `K`, and `R`
+is integrally closed. Generic computation, followed by torsion freeness,
+gives `Ann_B(N_i)=N_(10-i)`.
+
+For any ideal `J`, its orthogonal for the Frobenius pairing equals its
+annihilator. Indeed, if `lambda(bJ)=0`, then `lambda(bjc)=0` for all `c`,
+and perfectness forces `bj=0` for every `j`. Consequently `N_9` is dual to
+`B/N_1=R`. The restriction of `lambda` identifies `N_9` with `R`, and the
+induced pairings
+
+`E_i tensor E_(9-i) -> E_9`
+
+are perfect. For example any functional on `E_(9-i)` extends to `B` by the
+saturated direct-summand property; its representing element lies in `N_i`,
+and its kernel on passage to the graded piece is `N_(i+1)`. This proves the
+claim for the actual multiplication maps, including at nonprimitive points.
+
+The filtration glues because it is intrinsically the saturation of nilradical
+powers. Put `L=E_1`. The iterated multiplication `L^i->E_i` is generically an
+isomorphism of line bundles, with effective zero divisor `D_i`. Thus
+
+`E_i=L^i(D_i)`, `D_0=D_1=0`.
+
+Associativity and perfect complementary multiplication yield identities and
+inequalities of actual divisors, rather than only numerical classes:
+
+`D_i+D_j <= D_(i+j)` for `i+j<=9`,
+
+`D_i+D_(9-i)=D_9` for `0<=i<=9`.
+
+The conormal map onto `E_1` is surjective: the ambient ideal of `C` maps onto
+the nilradical, and its square maps into `N_2`. Therefore
+`O(-7)^2 ->> L` and `l=deg L>=-7`.
+
+### 3. Exact socle and genus identities
+
+The top piece is `Ann_(O_X)(I_C)`. Gorenstein duality identifies it with
+`omega_C tensor (omega_X|C)^(-1)`. Complete-intersection adjunction gives
+`omega_X=O_X(5+8-4)=O_X(9)`, while `O_C(1)=O_P1(4)` and `omega_C=O(-2)`.
+Hence
+
+`E_9=O(-38)`, and `9l+d_9=-38`.
+
+Effectivity of `D_9`, together with the conormal quotient bound, leaves
+exactly three possibilities:
+
+| `l` | quotient direction degree `e=l+7` | `d_9` |
+| --- | --- | --- |
+| -7 | 0 | 25 |
+| -6 | 1 | 16 |
+| -5 | 2 | 7 |
+
+The arithmetic genus is `p_a(X)=1+40*9/2=181`, so `chi(O_X)=-180`.
+Complementary duality gives `sum_(i=0)^9 d_i=5d_9`; therefore additivity of
+Euler characteristic gives
+
+`chi(O_X)=10+45l+5d_9=-180`.
+
+This is precisely five times the socle degree relation, plus ten. It gives
+no further independent constraint. A globally primitive structure is
+impossible numerically: it would have `D_9=0` and `9l=-38`.
+
+### 4. Complete necessary divisor inequalities in four divisors
+
+Write `A=D_2`, `B=D_3`, `C'=D_4`, and `T=D_9` (the prime on `C'`
+distinguishes this divisor from the support curve). The complete defect
+sequence is necessarily
+
+`(D_0,...,D_9)=(0,0,A,B,C',T-C',T-B,T-A,T,T)`.
+
+All its effectivity and superadditivity conditions are equivalent to
+
+`0<=A<=B<=C'`,
+
+`2A<=C'`, `2C'<=T`, `A+B+C'<=T`, and `3B<=T`.
+
+Here every inequality holds coefficientwise at every point. To check
+equivalence, multiplication by `E_1` gives monotonicity; the new unordered
+pairs with both indices at least two are `(2,2)`, `(2,3)`, `(2,4)`, `(2,5)`,
+`(2,6)`, `(2,7)`, `(3,3)`, `(3,4)`, `(3,5)`, `(3,6)`, `(4,4)`, and `(4,5)`.
+Substitution gives exactly the displayed inequalities, their repetitions,
+and complementary equalities. No further pair occurs with index sum at most
+nine.
+
+For degrees `a=deg A`, `b=deg B`, `c=deg C'`, this implies:
+
+| `l` | `a` | `b` | `c` |
+| --- | --- | --- | --- |
+| -7 | 1 through 6 | at most 8 | at most 12 |
+| -6 | 0 through 4 | at most 5 | at most 8 |
+| -5 | 0 or 1 | at most 2 | at most 3 |
+
+The positive lower bound in the first row additionally uses P-010. If
+`l=-7` and `D_2=0`, the canonical embedded triple has pieces `O,L,L^2`;
+in codimension two it is primitive everywhere. One normal coordinate
+generates its nilradical locally by Nakayama, and a transverse normal
+coordinate supplies a smooth local containing surface. Thus it contradicts
+the repository's independently audited primitive-triple exclusion. No such
+extra lower bound is asserted for `l=-6` or `-5`.
+
+An exact exhaustive enumeration of the resulting degree inequalities gives
+198 triples for `l=-7`, 97 for `l=-6`, and 13 for `l=-5`: **308 necessary
+degree triples**, not 308 classified structures. The last row is explicitly
+
+`(0,0,0),(0,0,1),(0,0,2),(0,0,3),`
+
+`(0,1,1),(0,1,2),(0,1,3),(0,2,2),(0,2,3),`
+
+`(1,1,2),(1,1,3),(1,2,2),(1,2,3)`.
+
+The standalone enumerator uses only Python's standard library and tests each
+retained sequence against every original superadditivity and complementary
+condition. It also tests the compact conditions against the original
+conditions on every degree triple in the finite bounding boxes..
+
+### 5. Why this does not classify multiplicity-ten structures
+
+Actual coefficientwise divisor data are stronger than the degree
+inequalities. Even actual divisor data and perfect graded pairings do not
+by themselves construct compatible local saturated ideals, higher normal
+jets, or a global embedding in `P^3`. A locally embedded Gorenstein multiple
+curve need not be arithmetically Gorenstein. The global complete intersection
+requires that stronger property, as recorded in P-035.
+
+The degree of `T` is not the degree of the common first-normal Fitting
+divisor. Already the finite-flat multiplicity-ten local complete intersection
+
+`R[[x,y]]/(t*x-y^2,x^5)`
+
+has generic algebra `K[y]/(y^10)`, saturated defects
+`D_i=floor(i/2)[t=0]`, and first-normal image `t*x`. Its common Fitting divisor
+is `[t=0]`, whereas `D_9=4[t=0]`. The `R`-basis
+`x^a*y^b`, `0<=a<5`, `0<=b<2`, proves finite flatness and rank ten;
+`x=t^(-1)y^2` proves the asserted filtration. A second model
+
+`R[[x,y]]/(t*x-y^5,x^2)`
+
+has `D_i=floor(i/5)[t=0]`, so its first four defects vanish even though it
+is nonprimitive at the special point. These are local shields against false
+filtration shortcuts, not projective candidates.
+
+The strongest verified conclusion here is therefore the three possible
+line degrees, the exact coefficientwise four-divisor reduction, and the
+308 necessary numerical triples. A `(5,8)` exclusion still needs an embedded
+extension obstruction, a surface/conductor argument, or another condition
+that removes all surviving divisor and higher-jet data.

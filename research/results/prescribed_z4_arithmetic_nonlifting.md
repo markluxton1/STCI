@@ -13,13 +13,10 @@ scope:
 statement: "No such flat embedded family exists; every hypothetical family forces a primitive triple whose obstruction in H^1(P1_R,O(-4)) has middle Laurent coefficient congruent to 2 modulo 4."
 dependencies: []
 evidence:
-  - "research/notes/2026-10-20-z4-characteristic-zero-lifting-report.md"
-  - "research/notes/2026-10-20-z4-local-structure.md"
-  - "research/notes/2026-10-20-z4-ci-deformation-lemma.md"
-  - "research/notes/2026-10-20-z4-quartic-obstruction.md"
+  - "research/supplements/Z4_LIFTING_AND_DEFORMATION.md"
 independent_audits:
-  - "research/notes/2026-10-20-z4-lift-independent-audit.md"
-accepted_in: "research/RECONCILIATION_2026-10-21.md"
+  - "research/supplements/Z4_LIFTING_AND_DEFORMATION.md"
+accepted_in: "research/supplements/Z4_LIFTING_AND_DEFORMATION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -43,7 +40,7 @@ No such flat embedded family exists; every hypothetical family forces a primitiv
 
 The source proves persistence of the global quartic complete-intersection equations under flat embedded deformation, containment of the fourth ideal power and forced primitive intermediate stages. An integral two-chart calculation then produces the universal middle Laurent coefficient `C2=(b-d)(4ah+3b^2-8bd+6d^2)=2 (mod 4)` for all permitted quotient directions and quadratic corrections. The independent audit reconstructs these reductions and checks the integer and Macaulay2 certificates. This is an arithmetic nonlifting result, logically independent of STCI-R-0001.
 
-Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above. Scope acceptance for this promotion is documented in [the reconciliation decision](../RECONCILIATION_2026-10-21.md); that decision does not replace the source proof.
+The complete proof and the independently reconstructed scope are retained in [the arithmetic nonlifting chapter](../supplements/Z4_LIFTING_AND_DEFORMATION.md). The quotient-family parameterization and every intermediate-stage flatness assertion are proved there; an execution result alone is not substituted for that reduction.
 
 ## Limitations
 
@@ -51,6 +48,6 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not cover arbitrary ramified DVRs of residue characteristic two.
 - Does not imply that the prescribed characteristic-two ribbon itself fails to lift.
 
-## Permanent evidence navigation
+## Current proof
 
-The original `research/notes/` metadata identifies historical sources. The [Z4 lifting and deformation dossier](../supplements/Z4_LIFTING_AND_DEFORMATION.md) retains the obstruction calculation and independent review. The [intrinsic arithmetic dossier](../supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md) covers related conditional mechanisms. These links do not broaden the prescribed-model theorem.
+[Z4_LIFTING_AND_DEFORMATION](../supplements/Z4_LIFTING_AND_DEFORMATION.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

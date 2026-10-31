@@ -1,289 +1,44 @@
 # Quintic endpoint: residual support and local excess obstructions
 
-## Integration guide: residual support, excess, and projective boundary
+The characteristic-zero intrinsic degree-five A4 endpoint family has three
+parameter strata. The complete inverse-support proofs below exclude every
+admissible projection with `a != 0` and with `a=0,b != 0`; the
+[actual fourth-blowup all-power argument](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md)
+excludes `a=b=0`. Together they close this endpoint lane in every mate
+degree. The nonendpoint projection has a separate modulus, and these
+arguments do not exclude arbitrary quintic normalizations or the
+unrestricted STCI problem.
+
+The global proof uses the full target-septic
+[higher-contact calculation](QUINTIC_ENDPOINT_TARGET_CONTACT.md) and the
+[three-root residual quartic](QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md). The
+source-parameter intersection-length argument at the end is a distinct
+geometric control; a first-normal contact count alone would not suffice.
+
+<a id="1-endpoint-a-nonzero-full-support-exclusion"></a>
+<a id="2-endpoint-a-nonzero-global-independent-audit"></a>
+## Full inverse support when a is nonzero
 
-The constituent arguments separate a **proposed full-support exclusion** (whose independent global audit is pending in the retained source), explicit residual-root classifications, and higher-jet or excess-intersection tests. The [endpoint jet/power-descent dossier](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md) supplies a different all-power obstruction on its own locus; [carrier factor and conormal geometry](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md) supplies structural restrictions. Local excess and projective-boundary support must both be checked before asserting an actual mate exclusion. Preserve the proposed/proved/audited labels of each section.
-
----
-
-
-Complete mathematical arguments, exact projective-boundary treatment, root classifications, and higher-jet calculations. This is not an assertion of a broader exclusion beyond the hypotheses of the constituent proofs.
-
----
-
-## 1. endpoint a nonzero full support exclusion
-
-# Endpoint quintic projections with a nonzero: complete support exclusion
-
-Date: 2026-10-11 (executions continued through 2026-10-12 UTC).
-Author: `oct11_endpoint_a_nonzero_support`.
-Status: **COMPLETE PROOF PROPOSED, pending independent global audit**.
-
-Work over an algebraically closed field of characteristic zero. This proof
-concerns only the displayed endpoint projection of the degree-five A4
-normalization. The applicability to that intrinsic endpoint lane uses the
-[pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
-and the [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit).
-It does not exclude nonendpoint projections or all quintic surfaces.
-The [quadric-factor audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit)
-supplies the preceding geometric reductions, but the proof below establishes
-an actual off-curve inverse point rather than relying on a first-normal
-contact count. No frozen canonical source or existing seal is changed.
-
-## 1. Claim and projective boundary
-
-On the actual open normalization chart S minus ell=A2(r,T), let c be T=0
-and consider
-
-    X0=1+aT,
-    X1=r+bT,
-    X2=r^3+(g-r)T,
-    X3=r^4+(d-2r^2-r)T+T^2,             a!=0.
-
-Assume the projection center is disjoint from S. Then at least one point
-off c maps into fixed C0. Consequently the full inverse-support condition
-required by a mate fails in every mate degree.
-
-Define the two parameter polynomials
-
-    Cb=a^2*g-a*b-b^3,
-    Db=a^3*d-a^2*b-2*a*b^2-b^4-a^2.
-
-At (r,T)=(b/a,-1/a), the first two X coordinates vanish, while
-X2=-Cb/a^3 and X3=-Db/a^4. If Cb=0 and Db=0 the point is a
-projection base point, forbidden by center avoidance. If Cb=0 and Db!=0
-it is an actual off-c point mapping to C0 at infinity, [0:0:0:1].
-Thus a hypothetical full-support projection must have Cb!=0. No saturation
-at X0 discards this boundary; it has been settled explicitly.
-
-## 2. Exact target-parameter residual equations
-
-For a finite target point [1:z:z^3:z^4], the equation X1=z X0 gives
-r=z+(az-b)T. Put
-
-    A=az-b,
-    U=2az^3-3bz^2-z+g,
-    V=3az^4-4bz^3-2z^2-z+d,
-    h=az^3+z-g-1,
-    J=A V-(Az-1)U.
-
-After substitution, the remaining two equations, with their common factor
-T removed, are
-
-    P=U+(3zA^2-A)T+A^3 T^2,
-    R=V+(6z^2A^2-4zA-A+1)T+(4zA^3-2A^2)T^2+A^4 T^3.
-
-The exact linear remainder is
-
-    A R-(A^2 T+Az-1)P=A^2 h T+J.
-
-Define the target septic
-
-    E=J^2-(3zA-1)hJ+A U h^2.
-
-Its leading coefficient is a Cb, so Cb!=0 makes its degree exactly seven.
-The fixed-degree Sylvester identity is Res_T(P,R)=A^7 E, as checked in
-the separately preserved [subresultant source](../computations/verify_session_quintic_endpoint_subresultant_2026_10_11.m2).
-We use the explicit remainder to retain all exceptional fibers.
-
-At A=0 one has E=az^3+z-g. There z=b/a and
-a^2 E=b^3+ab-a^2g=-Cb, so no septic root has A=0.
-Also the exact cleared evaluation is
-
-    a^2 P(-1/a)=Cb.
-
-Thus no common residual solution can have X0=1+aT=0 on Cb!=0.
-Every residual solution constructed below is a genuine finite target
-fiber with a defined image.
-
-## 3. Every septic root is a common U,V root under full support
-
-Suppose the projection has no off-c inverse point over C0. Let rho be a
-root of E. By the preceding section A(rho)!=0.
-
-If h(rho)!=0, the actual value T=-J/(A^2 h) solves P=0, because
-
-    A^4 h^2 P(-J/(A^2 h))=A^3 E.
-
-The linear remainder then gives R=0. The X0 boundary is impossible, so
-absence of an off-c inverse point forces T=0. Consequently U(rho)=V(rho)=0.
-
-If h(rho)=0, the equation E=0 gives J(rho)=0. The linear remainder
-now shows every root of the quadratic P solves R. Its leading coefficient
-A^3 is nonzero, and no root can have X0=0. Therefore all its roots must
-be T=0. This requires U=0 and 3rho A-1=0. The identity
-h=3rho^2 A-1-U gives rho=1 and A=1/3. J=0 then gives V=0, hence
-
-    b=a-1/3,       g=a,       d=a+5/3.
-
-At this exceptional contact the first two coefficients of E at z=1
-vanish and its quadratic coefficient is exactly 1/9. The septic root
-therefore has order exactly two. Every other h-zero septic fiber already
-contains an off-c point.
-
-Thus under full support all seven roots counted with multiplicity must
-lie among the common geometric roots of U,V. There are at most three such
-points, since U has degree exactly three.
-
-## 4. Actual higher jets bound each root by four
-
-At a common root rho, set k=a rho-b. The coefficient of z-rho in E is
-
-    -(3rho^2 k-1)*(6rho^2 k^2+3rho k^2-6rho k+1).
-
-We have already settled h=0, where the only support-compatible root has
-order two. Assume h=3rho^2 k-1!=0. A repeated septic root must satisfy
-
-    6rho^2 k^2+3rho k^2-6rho k+1=0.
-
-In particular rho and k are nonzero. Put q=k rho and
-
-    D=6q^2-6q+1,       B=3q^2+3q-1.
-
-The repeated-root condition is equivalent to
-
-    k=-D/(3q),       rho=q/k.
-
-Here q,D are nonzero. Moreover
-
-    h=-(3q-1)B/D,
-
-so h!=0 excludes both 3q-1=0 and B=0. At fixed q, the coefficient
-e2 of (z-rho)^2 is linear in a, and its a coefficient is
-
-    -3q B(3q-1)^2/D^2.
-
-It is nonzero throughout this remaining stratum. Thus order at least
-three forces the unique value
-
-    a=-D^2*(54q^4-72q^3+15q^2-3q+1)/(27q^3(3q-1)^2).
-
-At this value the next two coefficients are
-
-    e3=-B D N9/(81q^4(3q-1)^3),
-    e4=-D^2 N11/(81q^4(3q-1)^3),
-
-where
-
-    N9=8748q^9-20412q^8+18954q^7-8262q^6+1458q^5
-       -252q^4+180q^3-66q^2+12q-1,
-
-    N11=17496q^11-46656q^10+39366q^9-16848q^8+12123q^7
-        -12231q^6+8316q^5-2934q^4+612q^3-129q^2+25q-2.
-
-Exact polynomial arithmetic gives
-
-    gcd(numerator(e3),numerator(e4))=D       up to nonzero scalars.
-
-D!=0 makes simultaneous vanishing impossible. Thus every support-compatible
-septic root has order at most four. This is a bound obtained from the
-full third and fourth jets of the actual residual equation, not from
-first-normal data. An earlier provisional message saying order at most
-three was incorrect and was withdrawn before acceptance: N9 can vanish,
-so order four must be retained.
-
-## 5. An order-four root prevents every second common point
-
-At a common root rho the exact polynomials after removing z-rho are
-
-    U/(z-rho)=2a(z^2+rho z+rho^2)-3b(z+rho)-1,
-
-    V/(z-rho)=3a(z^3+rho z^2+rho^2 z+rho^3)
-              -4b(z^2+rho z+rho^2)-2(z+rho)-1.
-
-At the unique a value in the preceding section, form their degree-(2,3)
-Sylvester determinant Delta over QQ(q). Exact arithmetic gives
-
-    gcd(numerator(e3),numerator(Delta))=D     up to nonzero scalars.
-
-Consequently an order-four root (which requires e3=0) has Delta!=0.
-The two quotient polynomials share no root. In particular U,V have no
-second common geometric point. This also retains repeated roots at rho;
-none were removed by a squarefree assumption.
-
-There cannot be just one common point under full support: its order is at
-most four but E has degree seven. There cannot be just two common points:
-an order-four point would prohibit the second, while otherwise their total
-order is at most six. The only remaining possibility is three distinct
-common roots.
-
-## 6. The three-common-root family is excluded
-
-Three distinct common roots force U to divide V. Direct long division gives
-
-    a=3b^2/2,       g=1/(9b)-2/3,       d=1/(54b^2)-1/(9b),
-
-with b!=0. In this family Cb=-3b^3(2b+3)/4, so b!=-3/2 as well.
-Write E=U S. The [independent shifted-variable support certificate](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#5-endpoint-three-common-roots-shifted-replay)
-proves S is a genuine quartic and cannot have all its roots among the roots
-of U: its collision resultant with U and its derivative resultant have
-coprime parameter factors. The separate
-[original-variable audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
-reconstructs the same certificate. The contradiction retains repeated
-roots and all allowed parameters, with no unresolved finite exceptional set.
-
-The three cases for the number of common geometric roots are exhaustive.
-Thus the supposition of full inverse support is impossible. There is an
-actual off-c point over C0 for every admissible displayed a!=0 endpoint
-projection, and no mate in any degree can exist for that projection.
-
-## 7. Evidence and scope
-
-The dedicated [target-jet checker](../computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2)
-passes sixteen exact assertions. They check the leading coefficient,
-projective boundary evaluations, exceptional h-zero root order, first
-jet, rational parameter reduction, solved second jet, exact third/fourth
-jets, and both polynomial-gcd certificates. Its source hash and actual
-execution, including the failed coefficient-ring comparison development
-attempt, are preserved in the
-[execution record](../validation/2026-10-11-endpoint-a-nonzero-support/execution-record.json).
-Earlier exploratory coefficient outputs and a fraction-field construction
-failure are preserved separately in the same attempt history; they are
-leads, not additional certificate implementations.
-
-This is a proposed complete support proof for a!=0 in the intrinsic
-endpoint lane. Independent global proof audit must verify the rational
-coefficient quantifiers and the exceptional fibers before canonical
-promotion. The a=0 support/jet lanes, the nonendpoint parameter family,
-other sectional genera and unrestricted quintic/higher carrier degrees
-remain separate mathematical obligations.
-
-
----
-
-## 2. endpoint a nonzero global independent audit
-
-# Independent global audit: complete endpoint a-nonzero support exclusion
-
-Date: 2026-10-11, with recorded executions on 2026-10-12 UTC.
-Auditor: `oct11_endpoint_support_global_audit`.
 Status: **PROVED HERE; COMPLETE INDEPENDENT GLOBAL AUDIT PASS** for the
 stated intrinsic endpoint lane and `a != 0`. No unresolved parameter stratum
 remains within that scope. This is not an exclusion of nonendpoint
 projections, all quintic carriers, or unrestricted STCI presentations.
 
-The owner proof is
-[the endpoint a-nonzero full-support exclusion](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#1-endpoint-a-nonzero-full-support-exclusion).
-I reconstructed the projective implication and the target residual equations
-independently, and delegated an independent reconstruction of the contact
-orders to
-[the two-common-root target audit](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-endpoint-two-common-roots-target-contact-independent-auditmd).
-I read its final note, source, execution record, and the separate
-[direct-r local-excess proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#6-quintic-endpoint-a-nonzero-local-excess-bound).
-The latter gives a second route through actual intersection lengths, but the
-global argument below does not require its geometric length identification.
-The proof also uses the independently implemented
-[original-variable residual-quartic certificate](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
-and its
-[shifted-variable replay](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#5-endpoint-three-common-roots-shifted-replay).
-Agent agreement alone is not used as a proof.
+The target-variable proof of contact order is the full
+[two-common-root calculation](QUINTIC_ENDPOINT_TARGET_CONTACT.md). The
+[direct source-parameter excess proof](#6-quintic-endpoint-a-nonzero-local-excess-bound)
+gives a second route through actual intersection lengths; the global
+argument below does not require its geometric length identification.
+The [original-variable residual quartic](QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md)
+and [shifted certificate](#5-endpoint-three-common-roots-shifted-replay)
+retain their two exact computational implementations.
 
 ## 1. Exact statement and the mate implication
 
 Work over an algebraically closed field of characteristic zero. The normal
 degree-five anticanonical del Pezzo surface `S` and smooth lifted quartic `c`
 are the actual pair in the accepted
-[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
+[quintic structural frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
 with the exhaustive
 [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
 and its
@@ -362,6 +117,11 @@ Substitution in the last two target-coordinate equations gives exactly
 The exact linear elimination identity is
 
     A R-(A^2 T+Az-1)P=J+A^2 H T.
+
+The fixed-degree Sylvester identity is `Res_T(P,R)=A^7 E`, as checked
+in the retained [subresultant source](../computations/verify_session_quintic_endpoint_subresultant_2026_10_11.m2).
+The explicit linear identity, rather than division by this resultant,
+settles the exceptional fibers below.
 
 Define
 
@@ -450,7 +210,7 @@ Order at least three therefore forces exactly
 
 The final coefficients c3,c4 and their explicit numerator polynomials are
 displayed in the
-[independent target-contact audit](OCT11_QUARTIC_DEPENDENCIES_AND_DP5_ENDPOINTS.md#source-2026-10-11-session-endpoint-two-common-roots-target-contact-independent-auditmd).
+[independent target-contact audit](QUINTIC_ENDPOINT_TARGET_CONTACT.md#4-exact-coprimality-checks-and-maximum-contact-order).
 I inspected that proof and its source. It derives the coefficients from E
 itself and proves the exact polynomial gcd statements
 
@@ -486,7 +246,7 @@ There are four possible counts of distinct common roots of U,V:
 
 In the final case `Cb=-3b^3(2b+3)/4`, so `b != -3/2`. Write E=US.
 The residual S has degree exactly four throughout this locus. The
-[original-variable audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
+[original-variable audit](QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md#3-two-incompatible-necessary-resultants)
 and its independent
 [shifted-variable certificate](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#5-endpoint-three-common-roots-shifted-replay)
 give exact incompatible resultants: if every root of S were a root of U,
@@ -508,26 +268,14 @@ in every degree.
 My separately written
 [geometry checker](../validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2)
 has SHA-256
-`5e786b80c301f98a0aa34a360190d4596fbe52d9ae8e9e0df0e9050e1adc4de2`.
-Its final execution passed **16 exact identities**. The
-[captured execution](../validation/2026-10-11-endpoint-support-global-audit/attempts/20261012T000749690971Z/execution-record.json)
-binds the source snapshot and raw stdout/stderr. Four earlier failed
-development versions are retained: a protected variable name, a parsed
-multiline omission, a nested-ring fraction-field construction, and an
-incompatible ring substitution. The final source uses a flat polynomial
-ring and cleared polynomial evaluations throughout. No failed execution
-supplies an accepted certificate.
+`5e786b80c301f98a0aa34a360190d4596fbe52d9ae8e9e0df0e9050e1adc4de2`. The final source uses a flat polynomial ring and cleared polynomial evaluations throughout.
 
-The delegated independent target-contact source has SHA-256
-`c08e6512379953227600fb176164148d52acd3ce3fe7e9ec00a51b5526d5c5db`.
-It passed **14 exact assertions** in
-[its final captured execution](../validation/2026-10-11-endpoint-support-global-audit/two-root-contact-attempts/20261012T000753990549Z/execution-record.json).
-Its prior successful development execution and intermediate failed
-total-degree assertion remain preserved. These are executions of one
-source, not distinct mathematical cases. The original-variable and shifted-
-variable quartic certificates have their own eight- and nine-assertion
-records linked above. I inspected the actual proof, final sources and
-records; no audit here is based merely on the agents' final messages.
+The separately retained [target-jet checker](../computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2)
+checks the original higher-jet and projective-boundary identities. Its
+conditions overlap the full independent reconstruction below; no new run is
+claimed by this consolidation.
+
+The independent target-contact source has SHA-256 `c08e6512379953227600fb176164148d52acd3ce3fe7e9ec00a51b5526d5c5db` and verifies fourteen exact conditions. The degree assertions use the specified univariate coordinate, not total degree in all coefficient variables.
 
 The global audit passes. Its acceptance covers only `a != 0` in the intrinsic
 endpoint genus-one A4 lane. The two `a=0` subfamilies require their separate
@@ -539,11 +287,10 @@ existing evidence seal.
 
 ---
 
-## 3. quintic endpoint a0 polynomial support independent audit
+<a id="4-quintic-endpoint-a0-support-exclusion"></a>
+<a id="3-quintic-endpoint-a0-polynomial-support-independent-audit"></a>
+## Full inverse support when a vanishes and b is nonzero
 
-# Independent polynomial-support audit: endpoint a=0, b!=0 is excluded
-
-Date: 2026-10-11. Auditor: `oct11_quartic_assembly_audit`.
 Status: **DIRECT COMPLETE PROOF AUDIT PASS for the displayed affine family**.
 The applicability to the entire intrinsic endpoint lane uses the separately
 recorded A4 pair and projection-center classification. This note does not
@@ -551,7 +298,6 @@ exclude a!=0, a=b=0, nonendpoint projections, other quintic normalizations
 or the unrestricted STCI problem. No frozen source, canonical record or
 integrity seal is edited.
 
-The source audited in full is the [root's a0 support proof](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#4-quintic-endpoint-a0-support-exclusion).
 The [explicit model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
 and [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
 supply the normalization chart and the limited endpoint scope. Work over
@@ -695,171 +441,11 @@ coefficient incompatibility, the exact P|N quotient, and the S/J root
 contradiction. No new script, symbolic run or numerical count is claimed;
 the coefficient calculations are included explicitly as the proof.
 
-The entire endpoint family does not close here. The a=b=0 jet-descent
-problem, the a!=0 seven-excess contact reduction and the nonendpoint
-projection-center parameter retain their separately recorded status. In
-particular this support proof does not substitute for the intrinsic pair
-classification or establish an unrestricted quintic-carrier theorem.
-
-
----
-
-## 4. quintic endpoint a0 support exclusion
-
-# Endpoint quintic projections with a=0,b!=0: complete full-support exclusion
-
-Date: 2026-10-11. Author: root.
-
-Status: **DIRECT COMPLETE ALGEBRAIC PROOF for the displayed family;
-pending independent proof and coefficient audit**. Characteristic zero,
-algebraically closed field. This is the endpoint placement of the A4
-point on fixed C0, in the intrinsic affine normalization chart. It is
-not the nonendpoint placement and it does not treat a!=0.
-No mathematical execution is claimed by this note.
-
-## 1. Claim and actual affine inverse image
-
-Use the affine normalization chart S minus ell=A2(r,T), with c:T=0,
-and the endpoint projection
-
-    X0=1,
-    X1=r+bT,
-    X2=r^3+(g-r)T,
-    X3=r^4+(d-2r^2-r)T+T^2,             b!=0.
-
-For every b!=0,g,d this map sends at least one point with T!=0 to
-the affine C0=[1:z:z^3:z^4]. Consequently any admissible finite
-normalization projection in this family fails the full inverse-support
-condition forced by a mate, in every mate degree.
-
-The affine ideal of C0 is generated by A=X2-X1^3 and
-q=X3-X1 X2. Exact expansion gives
-
-    A=T(P-3rb^2T-b^3T^2),
-    q=T(N+MT),
-    P=g-r-3br^2,
-    N=d-r^2-(1+g)r-br^3,
-    M=1-bg+br.
-
-Thus the problem is whether the two residual equations have a point
-with T!=0. Put
-
-    R=P M^2+3rb^2 N M-b^3N^2.             (1)
-
-Its leading term is -b^5 r^6, so R has six roots counted with
-multiplicity. Its next two coefficients are
-
-    [r^5]R=-5b^4,
-    [r^4]R=-b^3(10+2b-bg).                (2)
-
-## 2. Denominator zero never conceals a successful residual fiber
-
-If M(r0)=0 and R(r0)=0, then (1) gives N(r0)=0. At r=r0 the
-second residual equation vanishes for every T. The first has degree
-two with nonzero leading coefficient -b^3. If P(r0)!=0, its roots
-are nonzero. If P(r0)=0, it is
-
-    T(-3r0 b^2-b^3T).
-
-Here r0!=0: M(0)=0 would give g=1/b and P(0)=g!=0. Hence it
-again has a nonzero root. Every root of R at M=0 therefore gives
-an actual off-c inverse point.
-
-Suppose for contradiction that no off-c inverse point exists.
-Every root r0 of R must then have M(r0)!=0, and setting
-T=-N/M solves both residual equations. The absence of off-c
-points forces N(r0)=0, hence P(r0)=0. Therefore
-
-    every root of R lies in the common zero set of P and N,
-    and M is nonzero at every root of R.          (3)
-
-Since P has degree two, its gcd with N has degree zero, one or two.
-Degree zero contradicts the existence of roots of R immediately.
-
-## 3. A single common root is impossible
-
-If the common zero set consists of just rho (including a double root
-of P), (3) and the leading coefficient force
-
-    R=-b^5(r-rho)^6.
-
-The r^5 coefficient in (2) gives w=b rho=-5/6. From P(rho)=0,
-
-    g=rho+3b rho^2=5/(4b), M(rho)=-13/12.
-
-Comparing r^4 coefficients gives
-
-    10+2b-bg=15w^2=125/12,
-    b=5/6.                                    (4)
-
-But differentiating (1) at the common root, using P=N=0, gives
-
-    R'(rho)=-M(rho)[6w^2+(6+3b)w+1].
-
-The alleged sixth power has R'(rho)=0. With w=-5/6 and M!=0
-this instead forces b=1/15, contradicting (4).
-
-This covers every degree-one gcd and a degree-two gcd with just one
-geometric root. It does not assume simple projection ramification.
-
-## 4. Two common roots are impossible
-
-The only remaining case is P|N with two distinct roots. Polynomial
-division gives the necessary identities
-
-    g=1/(6b)-3/4, d=2g/(9b),
-    N=(r/3+2/(9b))P.
-
-Set w=br, gamma=bg and
-
-    p=gamma-w-3w^2, m=1-gamma+w.
-
-Equation (1) factors as R=P S, where
-
-    S=m^2+(w^2+2w/3)m-p(w/3+2/9)^2.       (5)
-
-S is a quartic, with
-
-    [w^4]S=1/3, [w^3]S=14/9.              (6)
-
-Every root of S must be a root of p by (3), and none may have m=0.
-At a root of p, gamma=w+3w^2 and (5) becomes
-
-    S=(1-3w^2)(1-2w^2+2w/3).
-
-The first factor is exactly m at that root, and is nonzero by (3).
-Thus every root of S must be a common root of p and
-
-    J=1-2w^2+2w/3.
-
-The two roots of p have sum -1/3, while the two roots of J have
-sum 1/3. These quadratics cannot share both roots. Hence S must
-have just one geometric root w0, and (6) forces
-
-    S=(1/3)(w-w0)^4, w0=-7/6.
-
-Yet J(-7/6)=-5/2 is nonzero. This contradiction exhausts the
-last case. The argument proves existence of an off-c affine inverse
-point for every displayed b!=0,g,d.
-
-## 5. Scope and continuation
-
-For an actual STCI mate on a finite normalization, the reduced full
-inverse image of C0 must be its unique lifted curve c. The off-c point
-above violates that condition, regardless of mate degree or any
-conductor reducedness/flatness hypothesis. All displayed affine
-points have X0=1, so none can be discarded as an infinity point or
-a projection base point.
-
-The companion a=b=0 family requires an arbitrary-power jet
-obstruction at the unique line ell; no claim about it is derived
-from this polynomial support proof. The endpoint a!=0 family and
-the nonendpoint delta family remain separate obligations.
-
-The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
-states the endpoint/nonendpoint distinction. Its written geometric
-exhaustion and the explicit affine-model audit, rather than this
-degree-six computation, supply the global normalization applicability.
+The [a=b=0 jet proof](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md) and
+[complete a!=0 inverse-support proof](#full-inverse-support-when-a-is-nonzero)
+close the complementary endpoint strata. The nonendpoint projection-center
+parameter remains a separate problem. This support proof uses the intrinsic
+pair classification and does not establish an unrestricted quintic-carrier theorem.
 
 
 ---
@@ -976,21 +562,10 @@ Its final captured execution passes **nine exact assertions**: the two
 divisibilities, the shifted cubic, the quotient, the carrier coefficient,
 the shifted quartic, both resultant identities and their coprimality.
 
-The [execution record](../validation/2026-10-11-endpoint-three-common-roots/execution-record.json)
-retains five captured source snapshots with stdout and stderr. The first
-failure is a fraction-field construction error; the second is an unsupported
-generic polynomial-gcd call; the third is a coefficient-ring construction
-error caught by a failed resultant assertion. In that third attempt,
-`coefficient(x^k, f)` in `QQ[b,x]` discarded terms with positive powers of
-`b`. The final construction uses `QQ[b][x]`, retaining the full coefficient
-polynomials. Attempt four passes the development assertions; attempt five
-passes the final nine assertions and checks the exact nonzero resultant
-constants. All failures remain preserved. An initial uncaptured invocation
-of the same failed source as attempt one appears in the tool transcript;
-it supplies no additional certificate.
+The final three-common-root construction uses `QQ[b][x]`, retaining the full x-coefficient polynomials. In contrast, `coefficient(x^k,f)` in flat `QQ[b,x]` discards terms with positive powers of b. The final nine conditions include the exact nonzero resultant constants.
 
 The separate
-[residual-quartic independent audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-three-common-roots-residual-quartic-independent-auditmd)
+[residual-quartic independent audit](QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md#3-two-incompatible-necessary-resultants)
 works directly in the original variable `z` and obtains the same parameter
 factors, with its own captured eight-assertion source. The two sources are
 independent implementations of this algebraic certificate; execution
@@ -1013,7 +588,7 @@ the three-common-root stratum or nonendpoint projection centers.
 ## 1. Scope and retained transverse equations
 
 Use the actual endpoint projection and center-avoidance hypotheses in the
-[quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#4-quintic-endpoint-quadric-factor-reduction)
+[quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit)
 and its [independent audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit).
 On the smooth affine normalization chart the coordinates are
 
@@ -1199,14 +774,7 @@ common-root family remains a separate obligation in this note.
 
 ## 7. Execution provenance and failure corrections
 
-The [execution record](../validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/execution-record.json)
-binds the final checker source, its snapshot, commands, raw streams,
-four recorded source-version executions, and the two Bezout checks.
-The source has SHA-256
-`84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd`.
-The recorded final run returned zero with fourteen passing M2 checks.
-There is one mathematical M2 checker; its recorded replays and source
-copies do not constitute additional distinct checker results.
+The exact local-excess source has SHA-256 `84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd` and verifies the fourteen identities, including both Bézout checks.
 
 Three failed source versions are preserved. The first two assertions
 failed because unparenthesized multiline M2 assignments silently omitted

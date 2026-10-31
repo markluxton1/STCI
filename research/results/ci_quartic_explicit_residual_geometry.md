@@ -12,12 +12,10 @@ statement: "The (2,3) pair has a smooth degree-12 genus-16 residual; the (1,1) p
 dependencies:
   - STCI-R-0021
 evidence:
-  - "research/notes/2026-10-25-ci-cycle-smooth-residual-audit.md"
-  - "research/notes/2026-10-25-ci-cycle-line-degeneration-audit.md"
+  - "research/synthesis/explicit_quartic_residuals.md"
 independent_audits:
-  - "research/notes/2026-10-25-ci-cycle-smooth-residual-audit.md"
-  - "research/notes/2026-10-25-ci-cycle-line-degeneration-audit.md"
-accepted_in: "research/PROMOTION_ADJUDICATION_CR06-08_CR12-14_2026-10-26.md"
+  - "research/synthesis/explicit_quartic_residuals.md"
+accepted_in: "research/results/ci_quartic_explicit_residual_geometry.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -41,7 +39,7 @@ The independent audits verify exact ideal unions, saturation, Hilbert polynomial
 The reference quartic forms appear in R-0021.
 
 ## Evidence and verification
-See linked independent audits and their exact verifier scripts. No new replay was performed in this promotion turn.
+See linked independent audits and their exact verifier scripts. The inherited exact certificates were not rerun in this consolidation.
 
 ## Consequences
 Provides a concrete smooth residual and a five-node line degeneration.
@@ -49,6 +47,6 @@ Provides a concrete smooth residual and a five-node line degeneration.
 ## Limitations
 No universal statement about quartic pairs or STCI.
 
-## Permanent evidence navigation
+## Current proof home
 
-The historical source filenames in the metadata above are provenance identifiers. For current mathematical navigation, see [the exclusions synthesis](../synthesis/05-exclusions.md) and its retained residual-geometry supplements. This addition does not change the scoped result.
+The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/explicit_quartic_residuals.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new inherited CAS execution was required.

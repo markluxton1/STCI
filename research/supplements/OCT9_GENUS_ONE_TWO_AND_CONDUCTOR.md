@@ -338,7 +338,7 @@ The fixed curve C0 lies on exactly one quadric, up to scalar:
     Q0 = V(x0 x3-x1 x2).
 
 This is immediate by restricting the ten degree-two monomials to
-[s^4:s^3t:st^3:t^4]: nine resulting monomials are independent and
+`[s^4:s^3t:st^3:t^4]`: nine resulting monomials are independent and
 the only repeated monomial is x0x3=x1x2=s^4t^4. Thus q_X is a
 nonzero scalar multiple of this smooth quadric's equation.
 
@@ -415,7 +415,7 @@ C0, let nu:S->X be its finite normalization, and let
 H=nu*O_X(1). Suppose its normalization sectional genus is pi=1.
 The proof does not require a mate.
 
-The accepted [nonrational-normalization theorem](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
+The accepted [nonrational-normalization theorem](../synthesis/quartic_carrier_proof.md#2-why-a-nonnormal-normalization-is-rational)
 shows that S is rational. Let sigma:M->S be its minimal smooth
 resolution and L=sigma*H. Then L is a nef and big Cartier divisor,
 L^2=4, and a general smooth hyperplane curve of class L has genus
@@ -773,7 +773,7 @@ degree-four curve C0. Let nu:S->X be its finite normalization,
 sigma:M->S its minimal smooth resolution, H=nu*O_X(1), and L=sigma*H.
 Assume normalization sectional genus pi=2.
 
-The accepted [rationality theorem](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
+The accepted [rationality theorem](../synthesis/quartic_carrier_proof.md#2-why-a-nonnormal-normalization-is-rational)
 gives rational M, without a mate hypothesis. The basic data are
 
     L nef, big and globally generated,
@@ -1174,7 +1174,7 @@ singularities.
 
 ## 1. Inputs and the exact scope of minimality
 
-The accepted [nonrational-normalization audit](NONRATIONAL_QUARTIC_NORMALIZATION_PROOF.md)
+The accepted [nonrational-normalization audit](../synthesis/quartic_carrier_proof.md#2-why-a-nonnormal-normalization-is-rational)
 establishes that M is rational without requiring a mate. The general
 plane-section and pullback calculations give
 

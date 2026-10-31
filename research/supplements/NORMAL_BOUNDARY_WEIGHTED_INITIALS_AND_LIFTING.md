@@ -4,7 +4,7 @@
 
 Two complementary approaches occur below. The [global lifting criterion](#boundary-repair-global-lifting) asks whether a prescribed divisor on the curve can repair a failed global section-lifting condition; the [weighted-initial calculation](#weighted-initials-normal-boundary) studies how initial ideals and chamber decompositions change with normal weights and coefficient valuations. Neither computation may replace the other.
 
-For a genuine surface pair, the allowable sections come from the homogeneous equation space, not the whole space of sections of a normal bundle. The [one-step boundary obstruction](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction) supplies a separate equation-module comparison. The [intrinsic valuation dossier](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd) explains why arbitrary coefficient-pole series are outside the naive real-weight minimum and why scalar ideal values fail to determine colength. The [higher-initial dossier](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-higher-initial-ideals-valuations) preserves cancellation phenomena that first normal forms can miss.
+For a genuine surface pair, the allowable sections come from the homogeneous equation space, not the whole space of sections of a normal bundle. The [one-step boundary obstruction](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction) supplies a separate equation-module comparison. The [intrinsic valuation dossier](../synthesis/coefficient_valuations.md) explains why arbitrary coefficient-pole series are outside the naive real-weight minimum and why scalar ideal values fail to determine colength. The [higher-initial dossier](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-higher-initial-ideals-valuations) preserves cancellation phenomena that first normal forms can miss.
 
 **Open implication:** translating a locally admissible weighted initial configuration into an actual global pair with no residual support remains unproved here. Boundary repair is a test on a specified equation module, not an existence theorem for STCI pairs. The full chamber calculations and failed shortcuts remain below.
 
@@ -16,9 +16,9 @@ Permanent subject consolidation. All source mathematical detail retained with it
 
 ---
 
-## boundary-repair-global-lifting
+<a id="boundary-repair-global-lifting"></a>
 
-# Can the boundary repair the actual global lifting obstruction?
+## Can the boundary repair the actual global lifting obstruction?
 
 Date: 2026-10-26. Status: provisional structural continuation, with
 [independent review](#boundary-repair-global-lifting-audit).
@@ -31,7 +31,7 @@ proves the proposed repair principle for a fixed lower embedded
 thickening and identifies exact vanishing at the final Gorenstein step.
 It does not settle a comparison for arbitrary ambient obstruction complexes.
 
-## 1. The general question worth answering
+### 1. The general question worth answering
 
 The preceding [genus account](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md)
 and [intrinsic initial construction](#weighted-initials-normal-boundary)
@@ -52,7 +52,7 @@ specific linear system and paired divisor data, not just an arbitrary
 collection of punctual lengths. The higher-rank normal-layer account is
 needed when the generic transverse algebra has embedding dimension two.
 
-## 2. A precise repair criterion on any smooth projective curve
+### 2. A precise repair criterion on any smooth projective curve
 
 Let V be a vector bundle on a smooth connected projective curve C over
 an algebraically closed field, and let o in H^1(C,V) be an identified
@@ -83,7 +83,7 @@ For varying D on a general curve, use the principal-parts incidence
 and cohomology/base-change strata; no unqualified closed-locus assertion
 across jumping cohomology dimensions is needed.
 
-## 3. On P1, all repair divisors at once give a kernel test
+### 3. On P1, all repair divisors at once give a kernel test
 
 Suppose V=O_P1(-r), r>=2, and n=r-2. Regard o as a linear functional on
 H^0(O(n)) by Serre duality. A divisor D of degree B is the zero divisor
@@ -131,7 +131,7 @@ same modification is required to repair them. On fixed splitting-type
 strata, (5) is a universal matrix on the actual obstruction parameter
 family; full-column-rank and its failure are finite algebraic conditions.
 
-## 4. The unproved comparison needed for our multiple curves
+### 4. The unproved comparison needed for our multiple curves
 
 The following is a RESEARCH TARGET, not a consequence of the repair lemma:
 
@@ -166,7 +166,7 @@ and [R0019](../results/quasiprimitive_residual_cycles.md) already give
 specific conditional divisor comparisons. They are precedents with their
 own hypotheses, not authority for the proposed general comparison above.
 
-## 5. Preserve the actual homogeneous source throughout
+### 5. Preserve the actual homogeneous source throughout
 
 Let I=I_C and d a carrier degree. The actual finite normal-jet image is
 
@@ -199,7 +199,7 @@ coefficients remain constants in k. A generic nonzero obstruction only
 excludes a dense open locus; its zero locus must still be studied.
 An isolated successful or failed lift does not settle the family.
 
-## 6. An exact finite endpoint for a fixed degree pair
+### 6. An exact finite endpoint for a fixed degree pair
 
 For actual proper global F_a,G_b containing an integral C of degree d,
 suppose d divides ab and put M=ab/d. At the generic point of C, let
@@ -227,7 +227,7 @@ rational-function identities expanded into finitely many k-equations.
 This gives an exact fixed-degree question across all pairs, rather than
 a sampled example. It supplies no uniform bound on carrier degrees.
 
-## 7. What the outcomes would teach
+### 7. What the outcomes would teach
 
 - If no permitted boundary repairs any actual-source obstruction on a
   stratum, we obtain an exclusion of that entire stratum.
@@ -253,15 +253,15 @@ persists on a stated family. No new isolated example is needed here.
 
 ---
 
-## weighted-initials-normal-boundary
+<a id="weighted-initials-normal-boundary"></a>
 
-# Weighted initial ideals over the coefficient curve
+## Weighted initial ideals over the coefficient curve
 
 Date: 2026-10-26. Status: provisional continuation, with
 [independent review](#weighted-initials-normal-boundary-audit).
 No canonical promotion or STCI exclusion is claimed.
 
-## Question and inherited scope
+### Question and inherited scope
 
 The question is about all weighted initial ideals, including those that
 contain monomials, rather than only the monomial-free tropical locus.
@@ -269,15 +269,15 @@ Let C be smooth over algebraically closed k, K=k(C), and choose rational
 normal coordinates X,Y. A point p below means a closed point of C.
 Characteristic is arbitrary for the local example.
 
-The [October 23 coefficient-valuation note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md)
-and its [review](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-contact-valuations-independent-auditmd)
+The [October 23 coefficient-valuation note](../synthesis/coefficient_valuations.md)
+and its [review](../synthesis/coefficient_valuations.md)
 already establish the Gauss construction, formal-series domain restriction,
 coordinate dependence, and scalar-value limitation in their stated scope.
 Those reviewed provisional constructions are premises, not replay tasks.
 This continuation links them to the
 [normal torsion/genus account](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md).
 
-## 1. The proposed valuations and their initials
+### 1. The proposed valuations and their initials
 
 With a fixed rational normal frame, for w=(alpha,beta) in Z^2,
 
@@ -316,7 +316,7 @@ finite alpha. Finite normal symbols have no such issue. The existing
 normal-first lexicographic construction is another option on the full
 generic formal ring.
 
-## 2. Newton and Groebner combinatorics
+### 2. Newton and Groebner combinatorics
 
 For a polynomial f, lift each exponent to
 
@@ -347,7 +347,7 @@ algebras contain substantial multiplicity and boundary information.
 Standard terminology and definitions appear in
 [Vinzant's initial-ideal/Groebner-complex notes](https://sites.math.washington.edu/~vinzant/teaching/582D/0116.pdf).
 
-## 3. Complete chamber calculation for the supported quadruple
+### 3. Complete chamber calculation for the supported quadruple
 
 Take D=k[[t]], r>=1, and
 
@@ -404,7 +404,7 @@ valued-field FAMILY still retains r through the wall location. Thus do
 not claim that all valued-field data lose the boundary; the integral
 lattice is what identifies its actual torsion/divisor/genus contribution.
 
-## 4. Frame changes and the information to retain
+### 4. Frame changes and the information to retain
 
 For diagonal changes X'=fX,Y'=gY, the same valuation has weights
 
@@ -450,7 +450,7 @@ spectral sequence. A weighted wall by itself is not identified with a
 spectral-sequence page. Global realization still requires the actual
 homogeneous carrier sections and filtered gluing.
 
-## 5. Intrinsic normal symbols and weighted flags
+### 5. Intrinsic normal symbols and weighted flags
 
 This continuation answers the question about removing normal-coordinate
 choices. All constructions here are intrinsic to the indicated embedded
@@ -616,7 +616,7 @@ calculating their initial objects and maps, not part of their definition.
 
 ---
 
-### Consolidated mathematical status of the boundary-repair calculation
+#### Consolidated mathematical status of the boundary-repair calculation
 
 The preceding derivation and its independent reconstruction establish the same exact statement: for a **specified** class \(o\in H^1(C,V)\), allowing poles on an effective divisor \(D\) kills \(o\) precisely when \(o\) annihilates \(H^0(C,V^\vee\otimes\omega_C(-D))\). For \(V=\mathcal O_{\mathbf P^1}(-r)\), all degree-\(B\) repairs are captured simultaneously by the kernel of the catalecticant
 \[
@@ -626,17 +626,17 @@ In particular, \(B\ge\lfloor r/2\rfloor\) forces a nonzero kernel for **arbitrar
 
 The exact finite-degree endpoint in the review likewise requires actual proper global forms: if \(C\) has degree \(d\), \(F,G\) have degrees \(a,b\), and \(M=ab/d\) is integral, then the length of the generic transverse algebra truncated at order \(M+1\) is \(M\) exactly when the entire reduced intersection is \(C\). This is a *recognition test*, not a construction. The missing step is still to compare the permitted socle/boundary modifications with the obstruction to lifting an **embedded** lower thickening into actual homogeneous source spaces. Neither the abstract \(H^1\)-test nor the reviewed fixed-lower comparison proves that bridge for arbitrary pairs.
 
-## boundary-repair-global-lifting-audit
+### boundary-repair-global-lifting-audit
 
-### Independent scope checks
+#### Independent scope checks
 
 The primary derivation above supplies the cohomological repair theorem, the common-divisor catalecticant test, the actual homogeneous source-image formulas and the fixed-degree endpoint. The remaining verification below records the **distinct** limitations relevant to applying these statements to embedded thickenings. No theorem identifies arbitrary allowed boundary divisors with realizable global lifts.
 
-## 2–3. Independent verification of the repair criterion and common-divisor test
+### 2–3. Independent verification of the repair criterion and common-divisor test
 
 The proof of the principal-parts criterion and its Serre-dual annihilator formulation is given in the primary calculation above, sections 2–3. The independent reconstruction checked the direction of the connecting homomorphism and the \(-D\) twist, including arbitrary characteristic. It also verified that for \(V=\mathcal O_{\mathbf P^1}(-r)\) the kernel of the multiplication map parametrizes **all** effective degree-\(B\) repair divisors, including nonreduced ones; padding a smaller divisor preserves vanishing. The dimension threshold \(B\ge\lfloor r/2\rfloor\) is correct. For a split bundle the *same* section \(h\) must lie in every component kernel; separate componentwise choices would not solve the simultaneous problem. No stronger existence or realization conclusion follows.
 
-## 4. The boundary comparison is not proved by these criteria
+### 4. The boundary comparison is not proved by these criteria
 
 The inherited relations D_i+D_(m-1-i)=D_soc and effectivity imply
 0<=D_i<=D_soc. Accordingly
@@ -656,7 +656,7 @@ of degree c delta is logically safe only after the comparison is supplied:
 failure of the relaxed test excludes permitted repairs; passing it proves
 neither the constrained divisor data nor a genuine lift.
 
-## 5. Actual homogeneous jet and symbol images
+### 5. Actual homogeneous jet and symbol images
 
 The source-image formulas follow directly from the sheaf sequences
 
@@ -675,7 +675,7 @@ or ideal lifting problems, whose targets have not been supplied by that
 sequence. Choosing allowable graded symbols separately does not specify
 one compatible jet, so retaining the whole source U_(d,N) is necessary.
 
-## 6. Fixed-degree generic length and degree exhaustion
+### 6. Fixed-degree generic length and degree exhaustion
 
 Let F,G be actual global forms of degrees a,b defining a proper complete
 intersection containing an integral C of degree d, and suppose M=ab/d
@@ -706,7 +706,7 @@ criterion.
 
 ---
 
-### Consolidated mathematical status of the weighted-initial calculation
+#### Consolidated mathematical status of the weighted-initial calculation
 
 The source and its independent reconstruction agree on the precise domain: a chosen rational normal frame and a coefficient valuation \(v_p\) give weighted Gauss valuations on \(k(C)[X,Y]\); arbitrary \(k(C)[[X,Y]]\) does **not** admit the same finite real-valued formula without a bounded-tail hypothesis. A normal-first lexicographic valuation is a distinct alternative. The weights give an affine chamber decomposition in a fixed coefficient-weight slice, not automatically a canonical global fan. Full initial **ideals**, including cancellation, are essential; the monomial-free tropical locus alone loses the nilpotent intersection algebra.
 
@@ -721,9 +721,9 @@ For the integral family \(J=(x^2,y^2+t^r x)\subset k[[t,x,y]]\), put \(\delta=2\
 \]
 Here \(T\) remains noninvertible in the integral graded coefficient ring. The third chamber requires the cancellation generators \(xy^2\) and \(y^4\); it cannot be read from the two displayed initial generators. The source proof and independent syzygy verification remain below for full detail. The resulting normal-lattice torsion and determinant indices are coordinate-sensitive until their frame-change and residue data are retained. This local example proves neither a global finite-generation theorem nor a characteristic-zero STCI exclusion.
 
-## weighted-initials-normal-boundary-audit
+<a id="weighted-initials-normal-boundary-audit"></a>
 
-# Independent audit: weighted initials and normal boundary data
+## Independent audit: weighted initials and normal boundary data
 
 Date: 2026-10-26. Reviewer: independent `valuation_budget` agent.
 Status: independent reconstruction of the [companion continuation](#weighted-initials-normal-boundary).
@@ -731,7 +731,7 @@ Outcome: **PASS within the stated domains and hypotheses**. This is reviewed
 provisional evidence, not canonical promotion, a global realization, or an
 STCI exclusion.
 
-## Scope and method
+### Scope and method
 
 The reviewer read the retrieval index and the preceding normal-torsion
 budget, then independently checked the integral chamber calculation,
@@ -740,11 +740,11 @@ bridge. The existing reviewed Gauss/domain construction is used in its
 stated scope; inherited certificates and accepted exclusions were not
 rerun. No finite sample is used to justify the all-weights calculation.
 
-## 1. Verification of domains and frames
+### 1. Verification of domains and frames
 
 The preceding source gives the Gauss valuation on \(k(C)[X,Y]\), the distinction between \(k[T]\) and \(k[T,T^{-1}]\) in the graded coefficient ring, and the divergent series \(\sum t^{-n^2}X^n\) excluding arbitrary formal series. The independent review reconstructed these facts for the stated positive rational weights, including tied residue terms. It also checked that a diagonal frame change \(X'=fX\) shifts the transported weight by \(\operatorname{ord}_p(f)\), whereas a general \(\mathrm{GL}_2\) change requires initial residue relations, not merely the new variable values. At fixed coefficient weight the chambers form an affine complex, not automatically a fan; integer weights may miss rational chambers. These verifications do not establish a canonical global family of weighted valuations.
 
-## 2. Full chamber calculation, all stated weights
+### 2. Full chamber calculation, all stated weights
 
 Let J=(x^2,y^2+t^r x) in D[[x,y]], r>=1, and give (t,x,y)
 positive rational weights (1,alpha,beta). Put delta=2 beta-r-alpha.
@@ -796,7 +796,7 @@ but its normal layers are those of this different weighted degeneration,
 not the ordinary normal layers of B. Their absence of coefficient torsion
 does not contradict the ordinary torsion budget or imply an extra component.
 
-## 3. Determinants recover the normal saturation indices
+### 3. Determinants recover the normal saturation indices
 
 The additional Smith-minor bridge is correct. Let columns of a matrix M
 over D generate H_n inside the free module S_n, and let h be its rank.
@@ -817,7 +817,7 @@ not determine the index: tied leading terms can cancel. Actual minor
 valuations and residue/initial relations retain this information. This
 supports the proposed use of full initial data rather than scalar minima.
 
-## 4. Scope boundaries and outcome
+### 4. Scope boundaries and outcome
 
 Monomial-containing initials must be retained for the stated problem.
 A nilpotent normal ideal contains powers of the normal variables, so
@@ -840,7 +840,7 @@ No substantive correction to the inspected continuation is required.
 The all-weights chamber proof and the Smith-minor bridge are independently
 reconstructed here. No canonical result record is changed or promoted.
 
-## 5. Additional independent review of intrinsic symbols and weighted flags
+### 5. Additional independent review of intrinsic symbols and weighted flags
 
 Reviewer: independent `budget_audit` agent, 2026-10-26. This addendum reviews
 only the newly appended section 5 of the source. It independently checks
@@ -923,7 +923,7 @@ no further mathematical correction is required. The findings remain
 reviewed provisional evidence, with no new global realization, exclusion,
 or canonical result promotion.
 
-## 6. Lattice formulation: independent verification and scope
+### 6. Lattice formulation: independent verification and scope
 
 The preceding intrinsic-symbol and weighted-flag calculation is equivalent, for integral weights, to a full \(D=\mathcal O_{C,p}\)-lattice \(\Lambda\subset E_K\), with valuation on \(\operatorname{Sym}_K E_K\) defined by the coefficient orders relative to \(\operatorname{Sym}^n\Lambda\). An integral basis makes this a Gauss valuation, and its degree-one unit ball recovers \(\Lambda\). This was independently checked, including negative integer weights.
 

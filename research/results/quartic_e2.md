@@ -24,12 +24,20 @@ It does **not** prove an exclusion for arbitrary \((4,b)\) with larger \(b\), no
 
 The dx=1/P-044 residual slice is independently closed by the later saturation certificate; on its basepoint-free locus P-044 is exactly P-045.
 
-## Provenance and certificates
+## Full proofs and exact support
 
-Proof/audit:
-- \`../notes/2026-10-06-primitive-quadruple-universal.md\`
-- \`../notes/2026-10-06-primitive-quadruple-audit.md\`
-- \`../notes/2026-10-05-e2-full-obstruction.md\`
-- \`../notes/2026-10-06-dx1-p044-classification.md\` (historical gap note; status superseded by saturation)
+The [universal primitive-fourth proof and independent contact calculation](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-primitive-quadruple-universal)
+retain the obstruction zero locus, every parameter chart and cubic-times-
+linear quartic kernel. The [earlier incidence and surviving-family analysis](../supplements/E2_PRIMITIVE_QUARTIC_INCIDENCE.md)
+retains the false universal-exclusion counterexample and the distinct
+primitive-septuple consequences. These mechanisms are not discarded by
+the later all-degree quartic-carrier theorem.
 
-Certificates are indexed in \`../certificates/README.md\`.
+The [certificate map](../certificates/README.md) locates the universal
+quadruple, quartic-factor and parity sources. The repaired boundary
+checker now states its actual `x!=0` chart, and the incidence checker
+allows exact rational coefficients after clearing parameter denominators;
+both targeted checks passed after independent code review in this
+consolidation. Their generic-rank controls do not become a global
+classification. The characteristic-zero scope is retained; no reduction
+modulo a prime is inferred merely from rational symbolic identities.

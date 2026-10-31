@@ -9,7 +9,7 @@ This policy defines the current consolidated authority model. It does not retroa
 1. **Canonical result records:** one addressable statement per accepted result, with explicit quantifiers, hypotheses, evidence, limitations, dependencies, and review status. Records live under `research/results/` after promotion.
 2. **Canonical question records:** open questions and precise missing implications, linked to applicable results. They live under `research/questions/` when introduced.
 3. **Navigation:** `research/INDEX.md`, `research/STATE.md`, `research/FRONTIER.md`, and topic indexes route readers; summaries are not independent proofs or competing sources of mathematical authority.
-4. **Evidence:** immutable or historically preserved proof notes, independent audits, computations, literature records, and acceptance records establish provenance and support review. An accepted note is not automatically a promoted canonical result.
+4. **Evidence:** current proofs, essential exact computations, checked literature applications, and concise independent review decisions support mathematical claims. Historical wrappers and original paths are not independently required. An accepted note is not automatically a promoted canonical result.
 5. **Provisional work:** active branches, scratch notes, and ChatGPT submissions are not canonical by default.
 
 **Transition:** `STATE.md` and `FRONTIER.md` are navigation summaries, not independent theorem authority. Some legacy passages remain unreconciled with promoted records. Use the canonical record and its evidence for exact claims; when a genuine conflict remains, state the uncertainty and cite both sources.
@@ -19,7 +19,7 @@ This policy defines the current consolidated authority model. It does not retroa
 - Promote **claims**, not entire branches or documents. Check scope against the exact source proof and independent audit; preserve the characteristic, curve, degrees, normality, Cartier, genericity, and other hypotheses.
 - Give each result a stable ID. Prefer one statement per record, or separate independently usable lemmas into distinct records. Keep legacy IDs as aliases rather than silently renumbering them.
 - Require a recorded review decision, explicit evidence paths, dependencies, and limitations. A newer timestamp, broader title, or stronger-looking summary does not establish a stronger theorem.
-- Supersede an older claim only when a documented implication or correction justifies it. Preserve its historical path and record `supersedes` / `superseded_by` references. Do not overwrite proofs to erase earlier errors.
+- Supersede an older claim only when a documented implication or correction justifies it. Retain any mathematically useful counterexample or limitation and record a precise corrected statement. Consolidated proofs may replace obsolete versions after review; Git retains development history.
 - Where two records conflict without a verified scope bridge, mark the dispute and do not use either stronger formulation as an unconditional premise.
 - Never promote a conditional result to an unconditional one; never promote a necessary condition or decision procedure into existence/nonexistence of a mate without its remaining computation.
 - Keep the unrestricted characteristic-zero STCI question open unless a separately reviewed proof actually resolves it.
@@ -32,6 +32,25 @@ Indexes should contain IDs, concise scopes, statuses, and relative links, not co
 
 A promotion PR must state the old and new claims verbatim or by precise references, show the scope bridge, list evidence and audit paths, identify affected frontier questions and supersession links, and verify local links. No wholesale merging of diverged research branches.
 
-## Historical mathematical sources
+## Mathematical retention and review
 
-Historical notes, original proofs, computations, counterexamples, and informative failed approaches are retained as evidence and research context, not as competing theorem authority. A claim appearing in a dated source is not promoted by its presence there; consult the canonical result record for accepted status, hypotheses, and limitations. Ordinary correction history need not be repeated in permanent exposition, but substantive obstructions and counterexamples remain accessible. Uncertain sources are retained rather than deleted solely because their conclusions are summarized in a chapter.
+A source earns retention through useful mathematical content not adequately
+represented elsewhere. This includes conditional statements, alternative proofs,
+constructions, counterexamples, intermediate lemmas, precise unresolved questions,
+and exact computational support. Promotion status is not a retention test.
+
+Review replacements together with proposed removals. Preserve the actual
+hypotheses, quantifiers, characteristic, embedding, and distinction between formal,
+local, graded, and global objects. A recorded rank or successful run alone does
+not establish a theorem. Supply the mathematical meaning and necessary exact
+support of a computation before removing its certificate.
+
+Remove redundant exposition, execution logs, repeated verification records,
+chronological handoffs, migration inventories, and obsolete formulations after
+unique mathematics and necessary support have surviving reviewed homes. Original
+evidence paths may be updated to those homes. Independent review can be recorded
+concisely with the claim it covers; a separate audit hierarchy is not required.
+
+These rules govern consolidation as well as new work. They do not authorize
+stronger claims, removal of essential evidence, or relabeling provisional work as
+proved. The unrestricted characteristic-zero existence question remains open.

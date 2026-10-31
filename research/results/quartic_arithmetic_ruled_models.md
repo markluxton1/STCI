@@ -12,10 +12,10 @@ statement: "The prescribed arithmetic ruled model has the normalization, conduct
 dependencies:
   - STCI-R-0021
 evidence:
-  - "research/notes/2026-10-24-ruled-surfaces-arithmetic.md"
+  - "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
 independent_audits:
-  - "research/notes/2026-10-24-four-sheet-arithmetic-independent-audit.md"
-accepted_in: "research/PROMOTION_ADJUDICATION_CR32-37_2026-10-26.md"
+  - "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
+accepted_in: "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -30,7 +30,7 @@ Over A=Z localized at 2, the cone x1^4=x0^3*x3 has finite normalization P_A(1,1,
 
 The characteristic-zero sections meet pairwise in 3p0+pInfinity; the characteristic-two fiber is a fourth Cartier multiple of one section. The mu4 orbit has this divisor as scheme image, but scheme image fails to commute with restriction to the endpoint. Over A[i], the vertical intersection coefficients for adjacent and opposite roots are one and two.
 
-The ruled-to-projective map is finite; at infinity pairwise intersection lengths are one upstairs and three downstairs. The total normalization of the reduced arithmetic four-section family has two P1 components over A and one over A[i]; its special fiber differs from normalization of the reduced special curve. Three graph-pencil blowups at p0 and one at pInfinity separate characteristic-zero sections while leaving the characteristic-two group-scheme multiplicity. The multiplier scheme lambda^2+4lambda+1=0 is finite flat of degree two over A, not generically a subgroup.
+The map from the ruled four-section divisor to the projective complete-intersection curve is finite; at infinity pairwise intersection lengths are one upstairs and three downstairs. The total normalization of the reduced arithmetic four-section family has two P1 components over A and one over A[i]; its special fiber differs from normalization of the reduced special curve. Three graph-pencil blowups at p0 and one at pInfinity separate characteristic-zero sections while leaving the characteristic-two group-scheme multiplicity. The multiplier scheme lambda^2+4lambda+1=0 is finite flat of degree two over A, not generically a subgroup.
 
 ## Hypotheses and quantifiers
 Only this explicit arithmetic family, its ruled model and indicated base changes.
@@ -50,6 +50,6 @@ Distinguishes specialization of a finite flat divisor, normalization of the tota
 ## Limitations
 No unrestricted characteristic-two lifting or STCI theorem.
 
-## Permanent evidence navigation
+## Current proof
 
-The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/04-carriers.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
+[Arithmetic graph sections, endpoint images and normalization](../supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

@@ -6,8 +6,8 @@ on:
       - 'research/computations/verify_ideal_filtration_*.py'
       - 'research/computations/verify_delta_singular_*'
       - 'research/computations/validate_records.py'
-      - 'research/validation/ideal-filtrations-2026-10-23/**'
-      - 'research/validation/delta-singular-locus-2026-10-24/**'
+      - 'research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md'
+      - 'research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md'
       - '.github/workflows/ideal-filtration-validation.yml'
   push:
     branches:

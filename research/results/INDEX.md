@@ -1,8 +1,8 @@
-# Canonical results and legacy topic navigation
+# Canonical results and topic navigation
 
 For mathematical exposition see the [consolidated synthesis](../synthesis/README.md); for logical gaps and research routes see the [dependency map](../synthesis/DEPENDENCIES.md) and [current frontier](../FRONTIER.md). Neither changes the scope or status of these result records.
 
-**Current authority:** the thirty-six ID-bearing STCI-R-0001 through STCI-R-0036 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked audits determine their claims. The six legacy topic syntheses listed afterward are **navigation and historical context**, not competing theorem authority. See [authority policy](../AUTHORITY.md) and [reconciliation](../AUTHORITY_RECONCILIATION_2026-10-17.md).
+**Current authority:** the thirty-six ID-bearing STCI-R-0001 through STCI-R-0036 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked review evidence determine their claims. The six topic syntheses listed afterward provide navigation; they do not broaden those statements. See the [authority policy](../AUTHORITY.md).
 
 - **[STCI-R-0036 — Pointwise conductor and top-socle defect (proved, conditional)](pointwise_conductor_socle_defect.md)**
 - **[STCI-R-0035 — Bounded-index normal-carrier exclusion for C0 (proved, conditional)](normal_carrier_bounded_index_exclusion.md)**

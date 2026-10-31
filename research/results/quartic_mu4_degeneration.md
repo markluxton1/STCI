@@ -11,11 +11,11 @@ scope:
 statement: "The complete intersection is flat over Z; away from endpoints it is G_m times mu_4. In characteristic zero it is the reduced union of four degree-four curves, whereas in characteristic two its reduced support is C0 with generic transverse length four."
 dependencies: []
 evidence:
-  - "research/notes/2026-10-23-quartic-characteristic-conormal.md"
+  - "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
   - "research/computations/verify_44_mu4_family_2026_10_23.m2"
 independent_audits:
-  - "research/notes/2026-10-23-quartic-geometry-symbol-independent-audit.md"
-accepted_in: "research/RECONCILIATION_2026-10-23-44.md"
+  - "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
+accepted_in: "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -45,6 +45,6 @@ The four characteristic-zero components coalesce into a single nonreduced suppor
 ## Limitations
 This does not imply arbitrary characteristic-zero quartic pairs have four components.
 
-## Permanent evidence navigation
+## Current proof
 
-The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/01-problem-and-curve.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
+[Conormal splitting, mu4 specialization and actual quartic symbols](../supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

@@ -6,6 +6,13 @@ The central issue is global: **does a divisor supported over \(C\) on the normal
 
 **Scope boundary.** The [bounded-index normal-carrier exclusion, R-0035](../results/normal_carrier_bounded_index_exclusion.md), assumes local Cartier indices at most four and inherited normal-carrier inputs. The [pointwise conductor/socle identity, R-0036](../results/pointwise_conductor_socle_defect.md), requires a single smooth Cartier inverse branch, smooth normalization along it, and an invertible conductor without that branch as a component. Neither is an unrestricted carrier classification.
 
+For a specified normal hypersurface in characteristic zero, a separately
+[reviewed provisional Hodge criterion](../supplements/NORMAL_CARRIER_DIVISOR_GEOMETRY.md)
+characterizes mate existence: the integral curve must be Q-Cartier and satisfy
+\(C^2=(\deg C)^2/\deg X\). Its proof distinguishes existence of some mate
+from the stronger formula for the least mate degree. Realizing this equality
+on an actual higher-degree carrier of \(C_0\) remains a geometric question.
+
 ## 4.1 Passing to the normalization
 
 Let \(\nu:S\to X\) be the finite normalization, and put
@@ -37,6 +44,8 @@ A relation produces an upstairs rational section with the prescribed divisor. Al
 
 The conductor condition is not merely matching values on the reduced double locus. Nilpotent structure may impose further gluing conditions. In characteristic zero, residual torsion of reduced phases alone does not eliminate these nilpotent defects.
 
+The [full lattice proof](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md) includes the support-covering cone test, primitive-ray arithmetic and exact one-branch mate degrees. The [local descent algebra](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md) proves membership, purity and unit-power lemmas, with tensor-equalizer, nonunit and split-phase counterexamples.
+
 This is an **exact theorem for a specified carrier**, not an effective classification of every possible carrier: its class group, inverse branches, and conductor-unit map still have to be computed.
 
 ## 4.3 The special case of one Cartier inverse curve
@@ -47,7 +56,7 @@ The accepted [singleton-lift classification, STCI-R-0002](../results/cartier_sin
 \[
 m c\sim bH.
 \]
-Consequently \(c\) is ample, and the complete linear system \(|c|\) identifies \(S\) with a normal surface of minimal degree. The proof uses the Cartier property, regularity along \(c\), adjunction, and surface classification. The theorem is a **necessary-model classification**, not a converse construction.
+Consequently \(c\) is ample, and the complete linear system \(|c|\) identifies \(S\) with a normal surface of minimal degree. The proof uses the Cartier property, regularity along \(c\), adjunction, and surface classification. The theorem is a **necessary-model classification**, not a converse construction. Its [complete proof](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#cartier-singleton-models-the-complete-proof) includes regularity along c, rationality, the complete linear system and the singular-cone Cartier polarization.
 
 For our fixed rational quartic, after excluding degree-four carriers by [STCI-R-0001](../results/quartic_carrier_exclusion.md), three higher-degree normalization/polarization models remain within this restricted class:
 
@@ -77,7 +86,7 @@ The accepted [projection-family reduction, STCI-R-0004](../results/projection_ph
 
 This is a significant reduction: it replaces an unbounded search over mate degrees by a structured question about the phase image and its torsion points. But the actual phase images and surviving torsion cosets for the three fixed-\(C\) models **have not been computed**. The mate locus need not itself be constructible.
 
-In particular, the existence of a finite-type phase description is not a proof that one of the models admits a mate, nor that all three fail.
+The actual [plane and smooth-quadric examples](../supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md) distinguish the two principal failures. In the plane family full inverse support holds but every unit power fails infinitesimal descent. In the quadric families isolated inverse points already obstruct a divisor pullback. These restricted exclusions do not exhaust the complete projection families.
 
 ## 4.6 Interface with the simultaneous-equation geometry
 
@@ -113,9 +122,9 @@ The marked cubic and ruled normalizations illustrate why the distinction matters
 
 ## 4.7B Full Artinian phases and bounded-power exceptions
 
-For a finite inclusion of characteristic-zero conductor algebras, descent of a power has two distinct parts: the nilpotent logarithm must already descend, while the reduced etale ratio must be torsion. The [finite-Artinian phase treatment](normalization_conductor_projection.md#exact-finite-artinian-phase-descent-and-effective-rational-bound) makes the test exact. It explains why agreement on the reduced conductor cannot replace full scheme-theoretic gluing.
+For a finite inclusion of characteristic-zero conductor algebras, descent of a power has two distinct parts: the nilpotent logarithm must already descend, while the reduced etale ratio must be torsion. The [finite-Artinian phase treatment](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md) makes the test exact. It explains why agreement on the reduced conductor cannot replace full scheme-theoretic gluing.
 
-The [torsion-coset family reduction](normalization_conductor_projection.md#24-torsion-coset-envelope-for-all-power-projection-families) is conditional on a specified admissible projection family and its constructible phase image. Isolated surviving torsion phases have bounded orders once the image is explicitly controlled; positive-dimensional surviving torsion cosets can have unbounded least orders across carriers. A different [single-field compression theorem](normalization_conductor_projection.md#26-single-field-conductor-power-compression-exact-scope) is source-level and conditional on a single residual field at every generic conductor point. Split residual algebras defeat its bound. Neither statement computes the missing conductor phases for the three Cartier singleton models.
+The [torsion-coset family reduction](normalization_conductor_projection.md#projection-phases-effective-scope-and-geometric-scaling) is conditional on a specified admissible projection family and its constructible phase image. Isolated surviving torsion phases have bounded orders once the image is explicitly controlled; positive-dimensional surviving torsion cosets can have unbounded least orders across carriers. A different [single-field compression theorem](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md#10-global-compression-and-characteristic-boundaries) is source-level and conditional on a single residual field at every generic conductor point. Split residual algebras defeat its bound. Neither statement computes the missing conductor phases for the three Cartier singleton models.
 
 ## 4.7C The strict-sextic singular-curve alternative
 
@@ -136,8 +145,15 @@ The newer [carrier/conductor/socle interface](carrier_conductor_socle_interfaces
 Next: [how the exclusion results assemble](05-exclusions.md), followed by the [surviving frontier](06-frontier.md).
 
 
-## 4.9 Marked ruled models: finite normalization is not resolution
+## 4.9 Constructive torsion and the global realization boundary
 
-The explicit quartic and cubic ruled models offer a concrete laboratory for the conductor criterion, without classifying arbitrary carriers. For the cubic \(R=V(x_0x_2^2-x_1^2x_3)\), the smooth cubic scroll (\mathbb F_1) maps finitely to the projected cubic with a doubled conductor line; the normalization is distinct from both the singular image and a subsequent resolution. The quadric intersection has the cycle (R\cap Q=C+L_0+L_\infty), but scheme-theoretic endpoint corrections matter when pulling back marked divisors. The cone model likewise distinguishes its finite normalization from its (\mathbb F_4) resolution. See the exact scoped [ruled projection record R-0028](../results/quartic_ruled_projection_geometry.md) and the full [scroll and ruled-surface calculations](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md).
+The [twisted-cubic benchmark](../supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md) exhibits a characteristic-zero corrected square on a normal quadric cone: a non-Cartier Weil-class relation becomes an actual homogeneous cubic after correction by the carrier equation. It is a construction for another curve, and it explains a mechanism that remains worth seeking for the fixed quartic. The accompanying nodal pinching proof shows why freely prescribed phase torsion can violate the smooth marked curve and full inverse-support hypotheses.
 
-The characteristic-dependent four-section family is another warning: the finite-flat divisor of four sections can specialize without normalization commuting with special-fiber formation. The [arithmetic ruled record R-0029](../results/quartic_arithmetic_ruled_models.md) and the corresponding ruled supplement distinguish the relative divisor, its projective image, and the conductor. A class relation on a normalization, or the fact that a projected inverse curve has singleton reduced support, does not prove descent of a genuine section across the full conductor. These examples belong beside the descent criterion because they expose precisely what that criterion must check.
+The relation lattice also permits products of different global divisor directions whose logarithmic defects cancel. Such cancellation is unavailable by repeatedly powering one fixed ray with nonzero additive defect. An existence investigation must construct the compatible actual sections on the same projective carrier. This is the precise missing implication, rather than a search for arbitrarily large powers with unchanged local defect.
+
+The [carrier-complement and collision controls](carrier_complement_and_collision_controls.md)
+give separate geometric tests: disjoint lines obstruct affine complements for
+rational quintics on smooth or nodal cubics, while a concrete conormal collision
+computes a local singularity and its next contact depth. These examples concern
+their specified curves and carriers; they do not extend the fixed-quartic exclusion
+to arbitrary higher-degree surfaces.

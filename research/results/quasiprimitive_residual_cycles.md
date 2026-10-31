@@ -13,10 +13,10 @@ scope:
 statement: "For q with nonzero generic first class, length tors(B/qB)=(m-1)ord(q_1)+ord(D_(m-1)); globally the proper residual zero-cycle satisfies [rho cap sigma]=(m-1)T+D_(m-1), and the first-normal divisor satisfies A<=D_(m-1) coefficientwise."
 dependencies: []
 evidence:
-  - "research/notes/2026-10-05-residual-cycle.md"
+  - "research/synthesis/quasiprimitive_residual_cycles.md"
 independent_audits:
-  - "research/notes/2026-10-05-residual-cycle-audit.md"
-accepted_in: "research/RECONCILIATION_2026-10-21.md"
+  - "research/synthesis/quasiprimitive_residual_cycles.md"
+accepted_in: "research/results/quasiprimitive_residual_cycles.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -41,7 +41,7 @@ For q with nonzero generic first class, length tors(B/qB)=(m-1)ord(q_1)+ord(D_(m
 
 The independent determinant audit chooses a saturated DVR-adapted basis, computes a triangular nonzero minor for multiplication by q and telescopes valuations. Cancellation on Q and finite flatness identify the torsion quotient with the proper residual intersection, yielding the pointwise cycle formula. A conormal quotient argument bounds A. The local determinant and bound generalize beyond quartic carriers; the explicit classes, bidegrees, and historical numerical consequences on the unique quadric do not.
 
-Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above. Scope acceptance for this promotion is documented in [the reconciliation decision](../RECONCILIATION_2026-10-21.md); that decision does not replace the source proof.
+Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above.
 
 ## Limitations
 
@@ -50,6 +50,6 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Historical quartic (4,b) applications remain illustrations, not open mate cases after STCI-R-0001.
 - Vertical exceptional cycles are not residual curves downstairs.
 
-## Permanent evidence navigation
+## Current proof home
 
-Historical `research/notes/` identifiers in the metadata are preserved for provenance. The permanent [subject synthesis](../synthesis/05-exclusions.md) provides navigation to the mathematical arguments and their detailed supplements. This addition does not change any theorem or audit claim.
+The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/quasiprimitive_residual_cycles.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new inherited CAS execution was required.

@@ -74,7 +74,15 @@ For a rational surface singularity, a line bundle on a log minimal
 resolution having degree zero on every exceptional component descends
 to a locally free rank-one sheaf; the natural pullback map is an
 isomorphism. This is [Kollár, Chapter 2, Proposition 76(1), PDF pages
-35--36](https://web.math.princeton.edu/~kollar/book/chap2.pdf).
+35--36](https://web.math.princeton.edu/~kollar/book/chap2.pdf). No prior
+Gorenstein or Q-Cartier hypothesis is imposed. The normal excellent
+surface scope in that chapter covers the present characteristic-zero
+projective setting. Rationality of the target singularities and degree
+zero on every exceptional prime remain required inputs. In the accepted
+resolution the exceptional curves are rational of self-intersection -2
+or -3. Adjunction gives K_M.E=-2-E^2>=0 for every such prime, so this
+resolution is log minimal with zero boundary, as required by the cited
+statement.
 
 The cited proof starts from rationality to obtain `H1(O_A)=0` for
 every effective exceptional cycle A. It then identifies line bundles

@@ -4,7 +4,7 @@
 
 The [higher-initial investigation](#2026-10-21-higher-initial-ideals-valuations) records how cancellations between leading normal forms create higher initial generators; the explicit examples must be retained because they rule out replacing the full initial ideal with just the first symbols. The [embedded ribbon/triple obstruction](#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction) concerns a different global extension and gluing problem, with its own Čech and coordinate-invariance hypotheses.
 
-Compare the [full ideal-filtration diagram](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), the [valuation length counterexample](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd), and the [boundary equation-module test](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction). The common obstruction to an overly simple approach is loss of higher-order or gluing information, **not** a theorem that any given local thickening fails globally.
+Compare the [full ideal-filtration diagram](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), the [valuation length counterexample](../synthesis/coefficient_valuations.md), and the [boundary equation-module test](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction). The common obstruction to an overly simple approach is loss of higher-order or gluing information, **not** a theorem that any given local thickening fails globally.
 
 The original coprime theorem, examples, and unreviewed status remain intact below.
 
@@ -46,7 +46,7 @@ The m-adic order is total transverse degree and is not a valuation on K itself. 
 ## Globalization and limitations
 The degree-d normal symbol of F of I-order r is a section of Sym^r(N_C^∨)⊗O_C(d), which for the characteristic-zero balanced splitting is O_{P¹}(4d-7r)^{⊕(r+1)} (O_C(1)=O_{P¹}(4)). Thus a nonzero symbol requires 4d-7r>=0; similarly 4e-7s>=0. This is a necessary degree constraint, not a new STCI exclusion. The local (x,y) coordinates are only rational frames of the conormal bundle: rational cancellation coefficients generally have poles at closed points and do not produce ambient global polynomial combinations. Clear denominators only after tracking the induced twists and possible extra zero divisors. In characteristic two do not use the characteristic-zero normal-bundle splitting.
 
-Related notes: [residual-cycle and wedge distinctions](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-residual-cycle-proposition-auditmd); [special-fiber length and standard bases](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-valuative-standard-basis-criterionmd); [orders, Hilbert filtration, and duality](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-equality-orders-filtration-dualitymd).
+Related notes: [residual-cycle and wedge distinctions](../synthesis/residual_contact_cycles.md#wedge-degeneracy-distinguishes-neither-thickness-nor-residual-contact); [special-fiber length and standard bases](../synthesis/valuations_and_residual_contact.md#valuative-standard-bases-and-special-length-jumps); [orders, Hilbert filtration, and duality](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-equality-orders-filtration-dualitymd).
 
 ## Canonical scope references
 
@@ -67,82 +67,307 @@ This note does not claim the generic local data determine global radical equalit
 
 ## 2026-10-21-intrinsic-embedded-ribbon-triple-obstruction
 
-# Intrinsic embedded ribbon-to-triple obstruction (2026-10-21)
+# The embedded ribbon-to-triple obstruction
 
-Status: **provisional mathematical construction; independent audit pending**. Dedicated branch only. No canonical promotion.
+The mathematical owner here is the corrected ideal-sheaf proof, independently reconstructed in the retained source audit. It replaces the provisional difference-of-lifts argument. The construction is characteristic free and fixes the embedded ribbon and its quotient throughout; the explicit quartic Laurent coefficient remains an inherited audited calculation. This is source-level reviewed mathematics, with no new result promotion.
 
-## Precise theorem (fixed embedded ribbon)
+## The canonical embedded extension
 
-Let \(i:C\hookrightarrow X\) be a regular immersion of codimension two, with \(X\) smooth over a base DVR \(R\), and \(C\) smooth over \(R\). Let \(I\) be its ideal and let \(q:E=I/I^2\twoheadrightarrow L\) be a line-bundle quotient with kernel \(M\). Write \(J_2\) for the inverse image of \(M\) in \(I\); this fixes the embedded ribbon \(C_2=V(J_2)\).
+Let `i:C -> X` be a regular immersion of codimension two of schemes, with ideal `I`, and `E=I/I²`. Fix a surjective homomorphism of locally free sheaves `q:E -> L` with `L` invertible and kernel `M` invertible. Put `J₂=ker(I -> E -> L)`, and define the **canonical ideal** `K=I J₂+I³` (indeed `I³ ⊂ I J₂`).
 
-Consider embedded ideals \(J_3\subset\mathcal O_X\) with \(I^3\subset J_3\subset J_2\), such that locally, in regular parameters \((x,y)\) for \(I\) with \(q(x)=0\), \(q(y)\) generating \(L\), the ideal is
+There is a canonical exact sequence of **O_C-modules**
+```
+0 -> L^⊗2 -> J₂/K -> M -> 0.                    (*)
+```
+The sheaf of embedded ideals `J₃` satisfying `I³ ⊂ J₃ ⊂ J₂`, with local primitive-triple normal form `(x-a y²,I³)` for generators adapted to `q`, is canonically identified with the sheaf of O_C-linear splittings of (*). It is a locally nonempty torsor under `H=Hom_O_C(M,L²)`. Its class is exactly the Yoneda extension class
+```
+o_X(q) = [J₂/K] ∈ Ext¹_O_C(M,L²) = H¹(C,H).
+```
+It vanishes exactly when a global embedded primitive triple exists. If one exists, the set of global embedded triples is a torsor under `H⁰(C,H)`.
+
+This holds in arbitrary characteristic, including mixed-characteristic DVRs; smoothness over a DVR is sufficient but not required beyond the stated regular immersion and locally free quotient. The claim is about embedded ideals in the fixed X and the fixed quotient q, not about abstract multiple curves.
+
+## Independent proof
+
+1. Regular immersion gives `I²/I³ ≅ Sym²(E)`. Since `J₂` is the inverse image of `M`, `I² ⊂ J₂`, and the image of `I J₂` in `I²/I³` is precisely the image `ME` of `M ⊗ E -> Sym²(E)`. Consequently
+```
+(I²+K)/K = I²/(I J₂+I³) ≅ Sym²(E)/(ME) ≅ Sym²(L)=L².
+```
+The last isomorphism is canonical for a line quotient, with no need to invert 2. The quotient `J₂/I²=M`. These identify the kernel and cokernel of (*).
+
+2. Since `I J₂ ⊂ K`, multiplication by `I` kills `J₂/K`. Thus (*) is genuinely an exact sequence of O_C-modules, not a spurious O_C-module structure on `I/I³`. This repairs the central gap in the provisional proof.
+
+3. For any admissible `J₃`, `I J₃ ⊂ J₃`, `I³ ⊂ J₃`, and the local normal form implies that the image of `J₃` in `E` is `M` and its intersection with `I²` modulo `I³` is `ME`. Therefore `K ⊂ J₃` and `J₃/K -> M` is an isomorphism: its inverse is a splitting of (*).
+
+4. Conversely, a splitting `s:M -> J₂/K` has image an O_C-submodule. Its inverse image `J₃` in `J₂` is an O_X-ideal: multiplying an element of `J₃` by a function in O_X preserves its image modulo K because the action factors through O_C, and `K` is an ideal. It contains K and hence I³, and maps onto M with quadratic intersection ME. Étale/Zariski locally choose adapted generators `x,y` of I, with x mapping to M and y to L. A splitting is generated modulo K by `x-a y²` for some local coefficient a, hence `J₃=(x-a y²,I³)`; the terms x²,xy already belong to the ideal. Since x-a y² is another regular generator of I near C, this is equivalent locally to `(x-a y²,y³)`, a primitive triple with graded pieces O_C,L,L². The construction works over any DVR without division.
+
+5. Splittings of an exact sequence with locally free quotient M exist locally. The difference of two splittings is a unique O_C-linear map M -> L². This action is free, transitive, additive and restriction-compatible. The construction uses only intrinsic ideals and module operations.
+
+6. On a trivializing cover choose splittings s_i and set h_ij=s_j-s_i. Then h_ij+h_jk=h_ik. Replacing s_i by s_i+t_i adds the Čech coboundary t_j-t_i. Vanishing means the splittings can be adjusted to agree and glue, and inverse images in J₂ give a global *embedded ideal*. Conversely a global ideal yields a global splitting. Standard sheaf Ext gives Ext¹(M,L²)=H¹(Hom(M,L²)) because M is locally free. There is no nonabelian obstruction at this fixed embedded stage.
+
+## Arbitrary adapted coordinate transformations
+
+Locally choose generators x,y of I with q(x)=0 and q(y) a frame of L. Any other adapted generators, modulo I³, have the form
+```
+x' = α x + A x² + B xy + C y²,
+y' = β x + δ y + D x² + E xy + F y²,
+```
+where α and δ restrict to units on C; coefficients may be ambient functions, including dependence on moving base coordinates. Terms from nilpotent variations of these coefficients are already included in their quadratic jets. In the quotient by `(x-a y²,I³)`, x=a y², y'=δ y + O(y²), and x'=(α a+C)y². Hence
+```
+a' = (α a+C)/δ²
+```
+with all coefficients restricted to C (and the appropriate local frames). For two choices a,b in the *same original frame*,
+```
+a' - b' = (α/δ²)(a-b).
+```
+This is exactly the transition for Hom(M,L²): x' has M-frame αx, y' has L-frame δy. The affine translation C/δ² may depend on the full quadratic neighborhood and base-coordinate movement; it cancels in differences. Arbitrary linear mixing β, all x²/xy terms, and quadratic corrections to y' do not change this result. No chosen retraction of the quadratic neighborhood is used. Equality is equality of ideals, not of preferred generators.
+
+## Functoriality, base change and dependence
+
+Isomorphisms of embedded triples (X,C,q) carry I,J₂,K and (*) to their counterparts, hence carry the Yoneda class functorially. For a flat base change of the ambient setup, the defining ideals, conormal exact sequence and (*) pull back exactly, and the extension class pulls back naturally. For nonflat base change, the same conclusion holds **if** the regular immersion and the conormal quotient remain compatible, the relevant ideal/product/graded identifications commute with pullback, and the pulled-back sequence remains exact; it is not automatic for arbitrary base change. Natural pullback of the Ext class does not assert that the cohomology base-change map is an isomorphism. The class is determined by the embedded quadratic neighborhood O_X/I³ and q: J₂/K is computed entirely inside that truncation. It need not be determined by the associated graded algebra Sym(E) or by the abstract ribbon alone.
+
+## Quartic consistency
+
+For the specified relative rational quartic and distinguished quotient `L=O(-6), M=O(-8)`,
+```
+H = M^∨ ⊗ L² = O(-4).
+```
+On the two standard affine charts, H¹(O(-4)) has Laurent representatives u^-1,u^-2,u^-3. The earlier independently audited raw ambient calculation yields the transition defect `K(u)` and for the distinguished quotient `[-6u^-2]`. The current theorem proves **why** the difference of local kernel equations represents the intrinsic Yoneda extension class: each local equation defines a splitting of (*), and their normalized differences are precisely its Čech connecting cocycle. This identifies the type and intrinsic meaning of the previously audited numerical class; it is not a new re-expansion or a re-verification of the sign conventions. The earlier lifting audit establishes the middle coefficient is 2 mod 4 for all specified admissible quotients over Z_(2) and Z_2. No claim for arbitrary ramified DVRs follows.
+
+## Why the common comparison object matters
+
+The statement that one can subtract arbitrary lifts of M *inside I/I³* as O_C-linear maps is not justified: I/I³ has no canonical O_C-module structure. Also the expression I²/(I³+IJ) is circular unless J is fixed and it does not by itself define a common comparison object for varying J. The common object is instead **J₂/(I J₂+I³)**. It is annihilated by I, so the difference construction and its additive law are literal O_C-module statements. The original numerical calculation survives; the original general proof should not be promoted verbatim.
+
+## A coordinate change as an explicit control
+
+The complete quadratic transition, including movement of the base coordinate, yields for the distinguished relative-quartic quotient the contributions K_A=18u^-2, K_B=-12u^-2, K_move=-12u^-2, and total K=-6u^-2. Under A'=A+B, B'=B the first contributions become K_A'=18u^-2+9u^-1 and K_B'=-12u^-2-9u^-1; the base term stays unchanged. Only the total represents the intrinsic class. These are the inherited exact chart calculations from [the arithmetic lifting proof](Z4_LIFTING_AND_DEFORMATION.md), with the failure of individual-summand invariance isolated in [the coordinate control](Z4_INTRINSIC_ARITHMETIC_MECHANISM.md#a-coordinate-summand-really-changes). The corrected extension proof explains the invariance; it does not independently recompute these Laurent coefficients.
+
+## Relation to arithmetic operations
+
+No identification of this Yoneda class with a divided-Frobenius or cotangent-complex operation has been established. Such a comparison requires a morphism of the relevant embedded deformation complexes and proof that it takes the actual extension class to the proposed operation. The existence of a formal arithmetic operation alone does not establish a nonzero geometric obstruction.
+
+## Primitive triples on smooth rational quartics
+
+This result is independent of, and stronger in the formal-neighborhood
+direction than, the already known exclusion of cubic carriers for \(C_0\): it
+excludes every embedded primitive triple of the type forced by a \((3,4)\)
+complete intersection, whether or not that triple is generated by global
+equations of degrees three and four.
+
+First, any \((3,4)\) complete intersection \(X\) supported on a smooth rational
+quartic would be primitive everywhere.  At a point of the curve, complete the
+ambient local ring as
+
 \[
-J_3=(x-a y^2,I^3)
+k[[t,x,y]],\qquad I_C=(x,y).
 \]
-for a local coefficient \(a\) (and, equivalently, \(J_3\) is a primitive embedded triple with first quotient \(q\)). The reduction of \(J_3\) modulo \(I^2\) is \(J_2\). Here all statements are on sufficiently small open neighborhoods of \(C\); ambient opens away from \(C\) play no role.
 
-**Theorem.** The sheaf of local embedded primitive triples extending this *fixed* embedded ribbon is an \(\mathcal H=\mathcal Hom_{\mathcal O_C}(M,L^{\otimes2})\)-torsor (sheaf of sets, not a claimed groupoid of abstract triples). Consequently it has a canonical obstruction
+The quotient by the two equations is finite over \(k[[t]]\), is a
+one-dimensional Cohen--Macaulay ring with a unique associated prime, and is
+therefore torsion-free and finite free over the DVR.  Its rank is
+\(3\cdot4/4=3\).  Every transverse fiber is consequently a length-three Artin
+complete intersection and hence Gorenstein.  Such a local algebra cannot have
+embedding dimension two: then its Hilbert function would be \((1,2)\), its
+square of the maximal ideal would vanish, and its socle would have dimension
+two.  It is therefore \(k[\epsilon]/(\epsilon^3)\).  A local linear combination
+\(H\) of the two equations has nonzero normal differential.  The surface
+\(S=(H=0)\) is regular, and \(C\) is the Cartier divisor \((v=0)\) in the
+two-dimensional regular local UFD \(\mathcal O_{S,p}\).  The other local
+generator \(K\) has radical \((v)\), so unique factorization gives
+\(K=\text{unit}\cdot v^n\).  The transverse length is three, hence \(n=3\),
+and after changing coordinates
+
 \[
-o_X(q)\in H^1(C,\mathcal H).
+ I_X=(u,v^3)
 \]
-It vanishes if and only if an embedded primitive triple extending the fixed ribbon exists. When it vanishes, global extensions form a torsor under \(H^0(C,\mathcal H)\).
 
-The theorem concerns *embedded ideal subschemes*, not presentations of abstract multiple curves or their automorphism groups. An embedded subscheme has no nontrivial automorphism over \(X\). Changes of local generators and ambient coordinates act on presentations, not on these objects.
+inside that smooth surface.  Thus the triple is primitive at every point, with
+no finite exceptional defects.
 
-## Proof: local existence and intrinsic difference
+If \(L\) is its type line bundle, then
 
-Because \(q\) is a surjection of locally free modules and \(C\hookrightarrow X\) is regular, étale/affine locally choose regular generators \(x,y\) of \(I\) with \(q(x)=0\) and \(q(y)\) a generator of \(L\). Then \((x,I^3)\) is a local triple: its structure algebra has filtration with graded pieces \(\mathcal O_C,L,L^2\), and multiplication \(L\otimes L\simeq L^2\). Its defining equation is allowed to be modified by \(a y^2\).
-
-For any two such triples \(J,J'\), their defining ideals modulo \(I^3\) have the same image \(M\subset I/I^2\). The unique difference is the induced map \(M\to I^2/(I^3+I J)\simeq L^2\), equivalently the coefficient difference \(a'-a\) in the chosen frame. Independence from a lift of a generator of \(M\) follows because replacing it by a unit or by an element of \(I J\) changes both equations compatibly; \(I J\) maps to zero in \(L^2\). Conversely, every homomorphism \(M\to L^2\) modifies the defining equation and produces another local primitive triple. Composition of modifications is addition, giving a free transitive \(\mathcal H\)-action.
-
-A more explicit intrinsic description avoids identifying \(I/I^3\) with an \(\mathcal O_C\)-module: for a fixed triple \(J\), its image \(\bar J\subset I/I^3\) maps onto \(M\), and the multiplication image \(I\bar J\subset\bar J\) is the canonical rank-two quadratic submodule \(M E\subset\operatorname{Sym}^2 E\). The quotient \((I^2/I^3)/(M E)\) is canonically \(L^2\). Differences of two lifts of \(M\) to \(I/I^3\), modulo \(M E\), therefore lie in \(\operatorname{Hom}(M,L^2)\). This quotient formulation, rather than a fictitious \(\mathcal O_C\)-linear splitting of \(I/I^3\), is the invariant construction.
-
-## Čech construction and descent
-
-Choose an affine cover \(\{U_i\}\) trivializing \(E,M,L\), and local triples \(J_i\). On \(U_{ij}\) define \(h_{ij}=J_j-J_i\) by the intrinsic difference above. Additivity of differences gives \(h_{ij}+h_{jk}=h_{ik}\); hence \(h\) is a Čech 1-cocycle. Replacing \(J_i\) by \(J_i+a_i\) changes \(h_{ij}\) by \(a_j-a_i\). Thus \([h]\) is independent of choices. If \([h]=0\), adjust local triples to agree on overlaps; their ideal sheaves glue to a global embedded triple. Conversely a global triple gives zero cocycle. This proves the theorem.
-
-This construction is functorial under isomorphisms of pairs \((X,C,q)\) and under base changes for which regular immersion and the prescribed quotient persist. It depends on the *embedded quadratic neighborhood* and not merely on the abstract ribbon.
-
-## Coordinate-invariance mechanism
-
-On an overlap, write normal variables \((X,Y)\) and \((A,B)\), with the ambient coordinate on the base changing as \(c=c_0(u)+c_1(u;X,Y)+O(I^2)\). To compare kernel equations \(m_U,m_V\), substitute the **entire** quadratic transition, including the Taylor/Hasse first derivative of coefficients of \(m_V\) evaluated at \(c\). The result is the intrinsic difference \(h_{UV}\). Individual contributions from the normal-coordinate substitution and the nilpotent base displacement are not invariants.
-
-For the audited distinguished quartic quotient, the recorded decomposition is
 \[
-K_A=18u^{-2},\quad K_B=-12u^{-2},\quad K_{\rm move}=-12u^{-2},\qquad K=-6u^{-2}.
+\operatorname{gr}\mathcal O_X
+=\mathcal O_C\oplus L\oplus L^2.
 \]
-Under \(A'=A+B, B'=B\), the first two terms become
+
+Complete-intersection adjunction gives
+
 \[
-K_A'=18u^{-2}+9u^{-1},\quad K_B'=-12u^{-2}-9u^{-1}.
+\omega_X|_C=\mathcal O_C(3)=\mathcal O_{\mathbf P^1}(12),
 \]
-The base contribution stays unchanged, so the **total** cocycle remains \(-6u^{-2}\). This is not accidental cancellation: the coordinate change carries the same embedded ideal into a new presentation, while the intrinsic difference of ideals is unchanged.
 
-## Rational quartic specialization
+while the primitive-triple formula gives
+\(\omega_C\otimes L^{-2}\).  Thus
 
-For \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3_R\) and the distinguished quotient \(L=\mathcal O(-6)\), \(M=\mathcal O(-8)\), the difference sheaf is
 \[
-\mathcal H=M^\vee\otimes L^2=\mathcal O(-4).
+ \mathcal O_{\mathbf P^1}(12)
+ =\mathcal O_{\mathbf P^1}(-2)\otimes L^{-2}.
 \]
-With \(u=s/t\) on one chart and \(c=t/s\) on the other, the audited normalization of the kernel comparison gives
+
+Since \(\operatorname{Pic}(\mathbf P^1)\simeq\mathbf Z\) has no two-torsion,
+\(L=\mathcal O(-7)\).  In characteristic zero every smooth rational quartic
+has \(N_C^*=\mathcal O(-7)^2\), by the normal-bundle theorem of
+Eisenbud--Van de Ven, so quotients to \(L\) exist and first-order data alone
+do not obstruct the triple.
+
+For \(C_0\), make the calculation intrinsic to the two standard embedded
+charts.  On \(x_0\ne0\), put \(z=x_1/x_0\) and
+
 \[
-H^1(\mathbf P^1_R,\mathcal O(-4))
-=R[u,u^{-1}]/(R[u]+u^{-4}R[u^{-1}]).
+ a=x_2/x_0-z^3,\qquad b=x_3/x_0-z^4.
 \]
-The classes of \(u^{-1},u^{-2},u^{-3}\) form an \(R\)-basis. The complete audited transition computes \(o_X(q)=[-6u^{-2}]\) for the distinguished quotient. For all admissible quotients reducing to the prescribed characteristic-two ribbon, the audited coefficient of \([u^{-2}]\) is \(2\pmod4\), so none extends.
 
-The *existence and intrinsic meaning* of the class follow from the ideal-sheaf torsor theorem above; the numerical identification uses the previously audited integral coordinate computation rather than an independent re-expansion.
+On \(x_3\ne0\), put \(w=x_2/x_3\) and
 
-## Relation to cotangent complexes
+\[
+ a'=x_1/x_3-w^3,\qquad b'=x_0/x_3-w^4.
+\]
 
-The filtered-ideal torsor is the direct, sufficient construction. No unproved identification with a cotangent-complex Ext class or a divided-Frobenius operation is asserted. Such an identification would require an explicit morphism from the relevant embedded deformation complex to \(\mathcal H[1]\) and a comparison of the two obstruction classes.
+On the overlap the exact coordinate changes include
 
-## Exact boundaries and Investigation 3 handoff
+\[
+ w=\frac{z^3+a}{z^4+b},\qquad
+ a'=\frac{z}{z^4+b}-w^3,\qquad
+ b'=\frac1{z^4+b}-w^4.
+\]
 
-- Fix the **entire embedded first-order quotient** \(q\), not merely its isomorphism class or its residue-field reduction. The obstruction is relative to that fixed quotient.
-- Work in \(I/I^3\), retaining its filtered algebra structure and the full ambient quadratic transition; do not impose a canonical graded splitting or a retraction \(C_2\to C\).
-- On each chart choose an \(I\)-generator \(y\) mapping to a generator of \(L\), a kernel generator \(x\), and local equations \(x-a y^2\). Track the transformation of \(x\) and of the base-coordinate-dependent coefficients, including Hasse derivatives.
-- Identify \(M\) and \(L^2\) frames on overlaps, then normalize the difference to the \(\mathcal O(-4)\) transition; for the audited quartic conventions the equation is \(K=\gamma_U(u)+u^{-4}\gamma_V(u^{-1})\).
-- Investigation 3 may study arithmetic origins of \([-6u^{-2}]\), but no divided-Frobenius interpretation is established here.
-- Independent review should explicitly test the intrinsic-difference quotient \(I^2/(I^3+IJ)\), its independence of choices, and faithfully flat descent before promotion.
+Choose the split conormal frames
 
-Sources: research/notes/2026-10-20-z4-lift-independent-audit.md; research/notes/2026-10-20-z4-characteristic-zero-lifting-report.md; literature branch research/z4-intrinsic-obstruction-literature-2026-10-21; counterexample branch research/z4-divided-frobenius-2026-10-21.
+\[
+ u=b-\frac32za,\quad v=a,\qquad
+ u'=\frac12a',\quad v'=-3wa'+2b'.
+\]
+
+Direct expansion of the exact changes through order two gives
+
+\[
+\begin{aligned}
+u'={}&z^{-7}u-\frac52z^{-11}u^2-3z^{-10}uv-\frac38z^{-9}v^2,\\
+v'={}&z^{-7}v+3z^{-12}u^2-z^{-11}uv-\frac94z^{-10}v^2
+\end{aligned}
+\pmod{I_C^3}.
+\]
+
+Every quotient \(N_C^*\twoheadrightarrow\mathcal O(-7)\) is parametrized by
+a kernel line in \(\mathbf P^1\).  For the finite chart take
+\(m=u+\theta v\), \(\ell=v\); the corresponding Ferrand double has ideal
+\((m,\ell^2)\).  The embedded extension theorem proved above (also the Bănică--Forster criterion in this setting) says it extends to a primitive
+triple exactly when
+
+\[
+0\longrightarrow L^2\longrightarrow
+J_2/(I J_2+I^3)\longrightarrow M\longrightarrow0
+\]
+
+splits.  The Čech class of this extension is
+
+\[
+h_\theta=3\left(
+\theta^3z^{-5}-\frac12\theta^2z^{-4}
++\frac14\theta z^{-3}-\frac18z^{-2}
+\right)
+\in H^1(\mathcal O(-7)).
+\]
+
+In the standard basis \(z^{-1},\ldots,z^{-6}\), its \(z^{-2}\) coefficient
+is \(-3/8\), so it is nonzero for every finite \(\theta\) in characteristic
+zero.  The missing kernel line, represented by \(m=v,\ell=u\), has class
+\(3z^{-5}\ne0\).  These cases exhaust the quotient projective line.  Hence no
+Ferrand double extends to a primitive triple of type \(\mathcal O(-7)\), and
+there can be no \((3,4)\) complete intersection supported on \(C_0\).
+
+The class is intrinsic in \(\operatorname{Ext}^1(M,L^2)\): changes of local
+lifts add a Čech coboundary, frame changes act on the parameter projective
+line, and changes of parameter transport cohomology.  Its overall factor of
+three explains, at the level of the second formal neighborhood, why the
+obstruction disappears in characteristic three, where P-008 supplies an actual
+primitive \((3,4)\) complete intersection.
+
+The obstruction in fact never vanishes for *any* characteristic-zero smooth
+rational quartic.  By the [smooth-quadric graph description](../synthesis/01-problem-and-curve.md), the curve is the graph, on
+\(Q\simeq\mathbf P^1\times\mathbf P^1\), of a separable degree-three map
+\(f:\mathbf P^1\to\mathbf P^1\).  Pre- and postcomposition by
+\(\operatorname{PGL}_2\) come from automorphisms of the Segre quadric and do
+not change the existence of a primitive triple.  Riemann--Hurwitz gives total
+ramification four.  If there is no simple ramification, there are exactly two
+totally ramified points and the map is equivalent to \(z^3\), the case just
+computed.  Otherwise choose two simple ramification points.  Their branch
+values are distinct, and source and target normalizations put the map in the
+marked form
+
+\[
+ f_\lambda(z)=\frac{z^2(z-1)}{z-\lambda},\qquad \lambda\ne0,1.
+\]
+
+This parameter is a surjective marked cover of the remaining left--right
+orbits; it is not asserted to be a unique coarse-moduli coordinate.
+
+For this graph, explicit split conormal frames again identify
+\(N_C^*=\mathcal O(-7)^2\).  Use the Čech cover
+
+\[
+ U=\mathbf P^1\setminus\{\infty,\lambda\},\qquad
+ V=\mathbf P^1\setminus\{0,1\}.
+\]
+
+Reducing the exact quadratic chart transition by subtracting the principal
+parts at \(\lambda\) and \(1\) gives the Bănică--Forster class in the standard
+basis of \(H^1(\mathcal O(-7))\).  For a quotient point \([A:B]\in\mathbf
+P^1\), multiply its six coordinates by the common unit
+\(4\lambda^4(\lambda-1)^2\).  Four of the resulting homogeneous cubics are
+
+\[
+\begin{aligned}
+G_1={}&(A\lambda+B)\bigl((5\lambda^3-3\lambda^2)A^2
+ +(6\lambda^2-2\lambda)AB+(3\lambda-1)B^2\bigr),\\
+G_2={}&\lambda(A\lambda+B)\bigl((3\lambda^3-\lambda^2)A^2
+ +4\lambda^2AB+(3\lambda-1)B^2\bigr),\\
+G_5={}&\lambda^4(A+B)\bigl((3\lambda-1)A^2
+ +4\lambda AB+(3\lambda-1)B^2\bigr),\\
+G_6={}&\lambda^4(A+B)\bigl((3\lambda-1)A^2
+ +2(3\lambda-1)AB+(5\lambda-3)B^2\bigr).
+\end{aligned}
+\]
+
+On \(A=1\), write \(T=B\), and divide \(G_2\) by \(\lambda\) and
+\(G_5,G_6\) by \(\lambda^4\).  Exact subtraction gives
+
+\[
+ G_1-G_2/\lambda=2\lambda(\lambda-1)(\lambda+T)^2,
+\]
+
+and
+
+\[
+ G_5/\lambda^4-G_6/\lambda^4
+ =-2T(\lambda-1)(T+1)^2.
+\]
+
+If all six obstruction coordinates vanished, the first identity would force
+\(T=-\lambda\); the second difference would then be
+\(2\lambda(\lambda-1)^3\ne0\), a contradiction.  At the missing point
+\(A=0\), a direct calculation gives, up to the same unit,
+
+\[
+ (G_1,\ldots,G_6)=
+ (3\lambda-1,\lambda(3\lambda-1),\lambda^2(3\lambda-1),
+ \lambda^3(3\lambda-1),\lambda^4(3\lambda-1),
+ \lambda^4(5\lambda-3)).
+\]
+
+Simultaneous vanishing would require both \(3\lambda-1=0\) and
+\(5\lambda-3=0\), impossible in characteristic zero.  Hence the obstruction
+has no zero on any quotient line for any degree-three map, proving P-010 for
+all smooth rational quartics.  The marked-transition reduction, including the
+discard of a \(z^{-7}\) Čech coboundary, is checked exactly in
+[the exact marked-transition verifier](../computations/verify_all_quartic_primitive_obstruction.py).
+
+
+## Characteristic reach of the two mechanisms
+
+The filtered-Koszul coprime theorem and the corrected embedded extension 0→L²→J₂/(IJ₂+I³)→M→0 require no division by an integer, so their stated regular-immersion/line-quotient constructions apply in every characteristic, including relative mixed characteristic. Their obstruction classes need not remain nonzero after specialization. In the fixed-quartic P010 calculation the balanced frames use 1/2 and the final obstruction has a factor 3: the fixed-C0 displayed nonvanishing proof also applies for every p>3 (only powers of2 are inverted and3 stays nonzero), disappears at3, and cannot simply be read in characteristic2, where the conormal splits differently. The explicit characteristic3 primitive presentation in [positive-characteristic constructions](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md) is the control. The higher-initial example itself works in characteristic2 and shows why cancellation, rather than two selected symbols, is essential. These local/embedded mechanisms are compatible with [the every-positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) for the fixed C0.
+
+### The fixed-quartic primitive-triple boundary in characteristic2
+
+The invalidity of the balanced coordinate formulas at2 does not leave this particular type undecided. R0020 gives N_C0^*=O(-8)⊕O(-6). There is no surjection to O(-7): a homomorphism from O(-6) vanishes because H0(O(-1))=0, while every homomorphism O(-8)→O(-7) is a section of O(1) and vanishes somewhere. Thus no embedded primitive triple of typeO(-7) exists on fixedC0 in characteristic2 already at the conormal quotient stage. The length-three lci/adjunction argument above works in every characteristic and would force this type for a supported(3,4) pair, so that pair is excluded in characteristic2. Together with the displayed nonzero P010 class for p>3 and the characteristic-zero calculation, the fixed-C0(3,4) obstruction has exactly characteristic3 as its positive-characteristic escape; there the explicit primitive presentation exists. This is an independently reconstructed source-level extension, not a new canonical promotion. No assertion about every smooth rational quartic in characteristic2 follows from the fixedC0 splitting alone.

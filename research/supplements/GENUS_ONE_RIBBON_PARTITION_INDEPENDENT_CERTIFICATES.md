@@ -284,14 +284,7 @@ The final command was
 
     /opt/homebrew/bin/M2 --script research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2
 
-It returned exit `0`, tool chunk `d3531b`, wall time `0.533071458` seconds,
-and `PASS: 29 independent exact conditions`. Its generated
-[result.json](../validation/2026-10-10-repeated-partitions-independent-audit/result.json)
-contains the bounded scope and independent conductor section. The
-[execution record](../validation/2026-10-10-repeated-partitions-independent-audit/execution-record.json)
-binds source, output, input note, and owner-checker hashes. These checks
-support the explicit argument above; their passing status does not itself
-prove any upstream geometric hypothesis or the universal STCI question.
+The independent checker verifies the 29 exact conditions used above. Its passing status does not itself prove upstream geometric hypotheses or settle the unrestricted STCI question.
 
 The assigned audit is complete. Promotion of all genus-one quartic
 carriers still requires the separate upstream/interface and `[2,1,1]`

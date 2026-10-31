@@ -23,10 +23,10 @@ These statements do not apply to the entirely-thick branch.
 ## Provenance
 
 Primary proof record:
-- \`../notes/2026-10-06-uniform-order-one-frontier.md\`
-- \`../notes/2026-10-05-mf6-pairing-audit.md\`
+- \`../supplements/OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-uniform-order-one-frontier\`
+- \`../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit\`
 - \`../notes/2026-10-05-mumford-normal-bound.md\`
-- \`../notes/2026-10-06-primitive-quadruple-audit.md\`
+- \`../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-primitive-quadruple-audit\`
 
 Current frontier: \`../open/jet_condition_framework.md\` and \`../open/mf6.md\`.
 
@@ -40,4 +40,4 @@ The first quartic-source space K_R=H^0(Q,I_{R/Q}(1,3)) has dimension 7-e+epsilon
 
 The comparison-zero e=1 direction is excluded from the divisor-R formulation and is analyzed separately in the later e=1 rebuild. That rebuild also corrects an invalid inference that any mate meeting a fixed ruling line creates support outside C; the repaired argument uses intersection multiplicity on a smooth carrier. None of these calculations settles unrestricted characteristic-zero STCI.
 
-Sources: [October 6 jet-discrepancy framework](../notes/2026-10-06-order-one-jet-discrepancy-framework.md) and [October 7 e=1 rebuild](../notes/2026-10-07-e1-jet-rebuild.md). Preserve the original proofs and certificates pending claim-level audit.
+Sources: [October 6 jet-discrepancy framework](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-order-one-jet-discrepancy-framework) and [October 7 e=1 rebuild](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild). Preserve the original proofs and certificates pending claim-level audit.

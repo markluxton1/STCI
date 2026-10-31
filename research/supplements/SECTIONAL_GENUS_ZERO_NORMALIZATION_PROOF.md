@@ -1,19 +1,11 @@
-# normalization sectional genus zero
+# Sectional genus zero: the four normalizations and the cone exclusion
 
-Permanent complete mathematical exposition. All hypotheses, calculations, unresolved conditions and qualifications in the original are retained. This does not promote conditional claims to established results.
-
-# Quartic normalizations of sectional genus zero and the remaining singular lane
-
-Date: 2026-10-09. Owner: `singular_normalization_next_frontier`.
-Status: **PROVED HERE, independently accepted**. The proof uses
-the standard characteristic-zero Kawamata--Viehweg vanishing theorem
-and the classical minimal-degree classification, with primary source
-checks stated below. It does not classify every singular normalization
-or settle the unrestricted quartic-carrier problem.
-
-The [independent genus-zero audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-normalization-genus-zero-independent-auditmd)
-has accepted all sections below and the automatic generic regularity
-strengthening in section 1.
+This independently accepted proof classifies every sectional-genus-zero
+normalization and excludes its singular cone. The full scroll and
+Veronese conductor arguments are linked separately. The
+[complete carrier proof](../synthesis/quartic_carrier_proof.md) combines
+these with the positive-genus cases; those cases are not an open
+quartic-mate frontier.
 
 Let k be an algebraically closed field of characteristic zero. Let
 X subset P3 be an integral quartic, let nu:S->X be its finite
@@ -24,7 +16,7 @@ is exactly C. No semi-log-canonical hypothesis is made.
 
 ## 1. The support and divisor identities that are available
 
-The [full-support theorem](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-conductor-support) and
+The [full-support theorem](NORMALIZATION_SECTION_AND_MODULE_DESCENT.md) and
 the [smooth-lift argument](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd)
 give, under a mate,
 
@@ -61,7 +53,7 @@ the general plane section is positive. Consequently
     0 <= pi <= 2
 
 in the nonnormal case. The separate
-[singular-degree audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-singular-degree-and-singleton-hessian-auditmd)
+[singular-degree audit](QUARTIC_SINGULAR_SUPPORT_AND_SINGLETON_FIBERS.md)
 records the complete plane-section defect argument. Here pi is a
 normalization sectional genus, not the arithmetic genus of an ambient
 plane quartic and not the degree of a conductor or Jacobian scheme.
@@ -219,9 +211,9 @@ theorem and does not assume that a section on S descends to X.
 
 ## 4. Consequence after combining the accepted scroll and Veronese lanes
 
-The accepted [entire smooth-scroll theorem](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-independent-auditmd)
+The accepted [entire smooth-scroll theorem](QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md)
 excludes the first two polarizations in section 2, and the accepted
-[entire Veronese theorem](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-veronese-allmate-independent-auditmd)
+[entire Veronese theorem](VERONESE_QUARTIC_PROJECTIONS.md)
 excludes the third. Section 3 excludes the fourth. Thus:
 
 **Corollary.** Under the hypotheses above, a mate requires pi>0.
@@ -278,18 +270,14 @@ with full inverse support and an actual local mate. It prevents
 discarding the remaining singular lane merely from smoothness of c
 or the Cartier property of b c.
 
-## 6. Continuation boundary
+## 6. Scope and characteristic boundary
 
-The next structural task is to examine pi=1 or pi=2 normalizations
-together with the actual conductor and the finite torsion classes
-at c intersect Sing(S). The exact identity in section 5 must retain
-its exceptional correction. Pulling the mate to a resolution can
-introduce exceptional zero factors, so the unit differential proof
-cannot be transferred across those points without checking them.
-
-No full classification of those positive-genus normalizations has
-been imported from a table of semi-log-canonical quartics. Original
-Urabe classification endpoints attempted on October 8 were inaccessible;
-the secondary restatements and slc tables remain leads rather than
-an exhaustion of arbitrary nonnormal quartics. The universal problem
-and the unrestricted fixed C0 characteristic-zero problem remain open.
+The positive-genus normalizations require their actual conductor and
+exceptional corrections, supplied by the complete proof. The local
+counterexample above shows why a smooth lift alone cannot remove them.
+The genus-zero classification proof uses characteristic-zero vanishing;
+its cone class-group and support calculations are algebraic, but the
+last derivative cancellation requires mate degree nonzero in the field.
+In positive characteristic Frobenius powers can evade that cancellation;
+the fixed curve has quartic-carrier STCI presentations in every such
+characteristic. See the [explicit construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).

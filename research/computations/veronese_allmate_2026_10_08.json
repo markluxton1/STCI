@@ -32,9 +32,6 @@
     }
   ],
   "source_sha256": {
-    "research/notes/2026-10-07-session-veronese-pencil-classification.md": "0547b5543b832596d6663cd5a2efe362019407a88646c12bda226a0b6c79bdfe",
-    "research/notes/2026-10-07-session-veronese-singular-pencil.md": "13000117565317f8e14672914b72437674c0f8e66c6909ae9926a29bd09d4da7",
-    "research/notes/2026-10-08-session-veronese-allmate-independent-audit.md": "2f8f4defc67a72f68b1b0a6ede3704402b5a7fe2e19bf1c4faa6fa3a9ca72e61",
     "research/computations/verify_session_veronese_pencils.py": "6d51948637d33e20f46a8c9331ffb4f45e9e76a3a754028502468bc6f44afde6",
     "research/computations/verify_session_veronese_singular_pencil.py": "4e3c5f478664690a8058a38d794d3bb11ac8c82bc6739c9cb64b2fef0fff3678",
     "research/computations/verify_session_veronese_allmate_independent.py": "6bb6827c0061776773341ef42e590389d61901c1eb21a894c01ca658e9a9e46e"
@@ -65,13 +62,13 @@
     {
       "agent": "/root/nonnormal_structural",
       "status": "accepted complete all-degree theorem, including non-slc Jordan projections",
-      "durable_note": "research/notes/2026-10-08-session-veronese-allmate-independent-audit.md",
+      "durable_note": "research/supplements/VERONESE_QUARTIC_PROJECTIONS.md",
       "independent_verifier": "research/computations/verify_session_veronese_allmate_independent.py"
     },
     {
       "agent": "/root/veronese_pencil_classification/singular_pencil",
       "status": "formal acceptance after independent classification, conductor, full-support, singleton-fiber and first-jet audit",
-      "durable_singular_pencil_proof": "research/notes/2026-10-07-session-veronese-singular-pencil.md",
+      "durable_singular_pencil_proof": "research/supplements/VERONESE_QUARTIC_PROJECTIONS.md#10-complete-singular-pencil-classification",
       "restriction": "characteristic zero and P2,O(2) normalization scope only"
     }
   ]

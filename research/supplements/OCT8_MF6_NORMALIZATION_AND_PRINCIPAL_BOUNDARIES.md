@@ -1,12 +1,12 @@
-# October 8 historical mathematical investigations
+# Principal triple incidence, normalization and conductor boundaries
 
 Full original source text is preserved below, including calculations, qualifications, counterexamples, and unresolved questions. This compilation does not independently audit or promote claims.
 
 ---
 
-## Source: 2026-10-08-session-mf6-principal-boundary-audit.md
+<a id="source-2026-10-08-session-mf6-principal-boundary-auditmd"></a>
 
-# Principal e=1,d2=1: complete frame complements and carrier boundaries
+## Principal e=1,d2=1: complete frame complements and carrier boundaries
 
 Date: 2026-10-08. Fixed curve
 `C0=[s^4:s^3t:st^3:t^4]`, over an algebraically closed characteristic-zero
@@ -35,7 +35,7 @@ and is excluded in every mate degree. The remaining complement carrier
 at (p,r)=(8,1/2) is integral and nonnormal; its actual conductor/mate
 obstruction remains open at the time this note was written.
 
-## 1. Direction curve and complete chart coverage
+### 1. Direction curve and complete chart coverage
 
 On the principal locus a0*b1!=0 and b0!=0, quotient scaling and the
 actual torus give
@@ -53,7 +53,7 @@ equation is
 Its geometrically integral genus-one normalization and explicit
 Weierstrass model `YE^2=XE^3+96XE-448` are checked in the
 [curve source](../computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py)
-and the [checkpoint](OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-08-session-checkpointmd). The corrected
+and the [checkpoint](MF6_PRINCIPAL_DIRECTION_CURVE.md). The corrected
 fiber is H(p,-1/2)=8p(p+2)^2.
 
 Set
@@ -106,7 +106,7 @@ other e, other defect degrees, or directions with a0*b1=0; the latter
 defect-one endpoint directions were treated separately in the
 [endpoint proof](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-d1-endpointsmd).
 
-## 2. Fresh ambient quartic spaces
+### 2. Fresh ambient quartic spaces
 
 The [boundary verifier](../computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py)
 rebuilds all 35 degree-four monomials. It imposes restriction to C0,
@@ -140,7 +140,7 @@ F and G by Cstar gives a common degree-one ancestor, forbidden by
 accepted P-037. At every other fiber, F and G are proportional;
 they cannot produce the two independent fixed local-cohomology targets.
 
-## 3. The infinity-defect frame is flat
+### 3. The infinity-defect frame is flat
 
 For the quadratic roots write a^2=-2 and
 
@@ -167,7 +167,7 @@ roots. Thus the infinity defect is genuinely flat. The
 [literal-form two-chart verifier](../computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py)
 checks the full actual-frame calculation.
 
-## 4. Geometry and mate scope of the unique boundary carriers
+### 4. Geometry and mate scope of the unique boundary carriers
 
 The [self-contained M2 certificate](../computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.m2)
 contains the literal quartics, number-field equations and explicit
@@ -179,7 +179,7 @@ constant field. A reducible or nonreduced projective hypersurface
 would have a positive-dimensional singular locus. The surface is
 therefore geometrically integral, and the hypersurface Cohen–Macaulay
 property plus regularity in codimension one makes it normal. The
-[accepted normal-carrier theorem](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-normal-carrier-progress)
+[accepted normal-carrier theorem](../synthesis/quartic_carrier_proof.md#3-normal-quartics-exceptional-correction-and-actual-ideal-vanishing)
 excludes all three carriers in every mate degree.
 
 The S=0 rational quartic and both infinity-defect quartics have Jacobian
@@ -201,8 +201,8 @@ cannot be supported on a twisted cubic. The degree-four alternative
 cannot have sole reduced support of degree three, because its generic
 multiplicity there would have to be an integer. This proves
 integrality, including over an algebraic closure. The
-[accepted applicability proof](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-applicabilitymd)
-and [adversarial audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-adversarialmd)
+[accepted applicability proof](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md)
+and [adversarial audit](QUARTIC_SCROLL_REDUCED_CONDUCTORS.md)
 then exclude every mate degree.
 
 At (p,r)=(8,1/2), the Jacobian cone has dimension two and degree five.
@@ -234,7 +234,7 @@ factor of degree one or two, so this excludes all factorizations over
 an algebraic closure. Its conductor and all-mate exclusion were passed
 to the degenerate-scroll-conductor lane as an explicit remaining target.
 
-## 5. Cubic residue bounds and continuation
+### 5. Cubic residue bounds and continuation
 
 The residue verifier uses S=h/delta and T=Gamma*E-delta*K in the
 actual local expansion h*m+Qquad*y^2+E*m*y+K*y^3. The normalized
@@ -264,7 +264,7 @@ API corrections (`isCM` and resolution of a quotient ring) were
 replaced by the checked length-two resolution of `coker gens Tc`.
 These execution repairs changed no mathematical assertion.
 
-## 6. A structural finite reduction for principal STCI carriers
+### 6. A structural finite reduction for principal STCI carriers
 
 There is a further consequence that does not require computing a large
 Jacobian elimination ideal. Let U be the valid flat principal direction
@@ -306,12 +306,11 @@ be identified or excluded structurally. Neither finiteness nor the
 complete common-ancestor conclusion is presented as a universal STCI
 theorem.
 
-
 ---
 
-## Source: 2026-10-08-session-mf6-principal-rank-open-independent-audit.md
+<a id="source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd"></a>
 
-# Principal e=1,d2=1 quartic rank: independent open-chart audit
+## Principal e=1,d2=1 quartic rank: independent open-chart audit
 
 Date: 2026-10-08. Fixed `C0=[s^4:s^3t:st^3:t^4]`, characteristic
 zero. Status: **PROVED HERE, exact polynomial certificate on the stated
@@ -341,7 +340,7 @@ Thus this entire open cannot supply two independent quartic ancestors.
 A unique quartic can still serve as one carrier in an STCI pair; that
 question is not settled by this calculation.
 
-## 1. Complete ambient first-normal space and the exact frame
+### 1. Complete ambient first-normal space and the exact frame
 
 The standalone verifier
 [`verify_session_mf6_principal_rank_open_2026_10_08.py`](../computations/verify_session_mf6_principal_rank_open_2026_10_08.py)
@@ -412,7 +411,7 @@ row is a multiple of `H`. Divide the first six rows by
 unit on `U`. Its rank is the actual contact rank of the complete
 first-normal kernel.
 
-## 2. Factor before reduction; only two residual norms are needed
+### 2. Factor before reduction; only two residual norms are needed
 
 The independent raw-factor computation retained all seven actual
 cofactors, instead of reducing matrix entries modulo `H` before taking
@@ -492,7 +491,7 @@ Therefore neither quadratic fiber contains a common residual zero
 on `U`. This proves that the two cofactors cannot vanish simultaneously
 on `U` intersected with `S!=0`.
 
-## 3. Retain and cover the nonunit factor S
+### 3. Retain and cover the nonunit factor S
 
 `S` is not a unit and was never silently cancelled. Its entire fiber
 on `H` is given by
@@ -515,18 +514,9 @@ This independently covers the retained `S=0` branch. Consequently
 first-normal kernel has dimension seven, the complete quartic matrix
 has rank seventeen and its kernel has dimension one.
 
-## 4. Evidence and exact remaining scope
+### 4. Evidence and exact remaining scope
 
-The source and raw inputs are bound by SHA-256 in
-[`session-mf6-principal-rank-open-audit-2026-10-08.json`](../scratch/session-mf6-principal-rank-open-audit-2026-10-08.json),
-with the successful terminal transcript in
-[`session-mf6-principal-rank-open-audit-2026-10-08.out`](../scratch/session-mf6-principal-rank-open-audit-2026-10-08.out).
-The independent raw-factor explorer and norm explorer are preserved
-beside their outputs. Three preliminary verifier runs were corrected:
-one transcribed the free determinant denominator as `2^53` rather
-than `2^52`; two used structural SymPy equality instead of
-expanded polynomial equality (a cofactor remainder and the linear P specialization). Their failed transcripts are retained.
-None of these failed runs entered the resultant/fiber argument.
+The source and raw inputs are bound in [`session-mf6-principal-rank-open-audit-2026-10-08.json`](../scratch/session-mf6-principal-rank-open-audit-2026-10-08.json). The free determinant denominator is `2^52`, not `2^53`; cofactor and specialization comparisons require expanded polynomial equality rather than structural SymPy equality.
 
 This theorem covers only the displayed principal flat chart with
 `a0=b0=1`, including every parameter of that chart, rather than merely
@@ -537,12 +527,11 @@ before asserting a theorem for the whole principal triple incidence.
 The existence or nonexistence of an STCI mate for the remaining unique
 quartic carriers is a separate problem and is not claimed here.
 
-
 ---
 
-## Source: 2026-10-08-session-mf6-rhalf-scroll-conductor.md
+<a id="source-2026-10-08-session-mf6-rhalf-scroll-conductormd"></a>
 
-# The principal MF6 boundary (p,r)=(8,1/2): an entire-conductor proof
+## The principal MF6 boundary (p,r)=(8,1/2): an entire-conductor proof
 
 Date: 2026-10-08. Status: **PROVED all-mate exclusion**, with exact
 normalization/conductor identities and a completed
@@ -550,7 +539,7 @@ normalization/conductor identities and a completed
 This is a fixed member of the principal
 e=1,d2=1 quartic family, not an exclusion of every member of that family.
 
-## 1. Carrier binding and a finite smooth normalization
+### 1. Carrier binding and a finite smooth normalization
 
 The complete quartic space at this boundary has dimension one. The
 source quartic is the `rhalf_unique` row of the
@@ -600,7 +589,7 @@ birational. Its image is the integral quartic F, and S is its smooth
 normalization. Its polarization is the smooth rational quartic scroll
 F0 with H^2=4 and K_S.H=-6.
 
-## 2. The complete normalization ring and the entire conductor ideal
+### 2. The complete normalization ring and the entire conductor ideal
 
 Two additional degree-one sections are
 
@@ -639,7 +628,7 @@ height two, and the Hilbert--Burch resolution makes its projective
 curve an ACM cubic with Hilbert polynomial 3m+1. The entire actual
 conductor of this smooth quartic-scroll normalization also has
 polynomial 3m+1 by the duality calculation in the
-[applicability note](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-applicabilitymd).
+[applicability note](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md).
 The inclusion J subset I gives a coherent quotient I/J. Its Hilbert
 polynomial is zero; a nonzero coherent sheaf on projective space has a
 nonzero Hilbert polynomial. Hence the conductor ideal sheaves agree:
@@ -662,7 +651,7 @@ upstairs conductor is
 
 No isolated conductor defect is left implicit.
 
-## 3. The nonreduced downstairs conductor is Gorenstein and the cover flat
+### 3. The nonreduced downstairs conductor is Gorenstein and the cover flat
 
 The entries of the Hilbert--Burch matrix cannot all vanish at a
 projective point: x=y=z=0 would make L=96w, forcing w=0. At every
@@ -695,7 +684,7 @@ acts trivially on the reduced field. In particular sigma preserves
 both minimal associated primes of D. This statement retains the
 generic nilpotent scheme structure.
 
-## 4. Every descended power compresses to a descended square
+### 4. Every descended power compresses to a descended square
 
 Suppose F had a mate of positive degree n presenting C0 set
 theoretically. The full-support argument for a smooth scroll gives a
@@ -735,7 +724,7 @@ C0 has bidegree (1,3), while the restriction of the integral quartic
 F has divisor class (4,4). It cannot be supported only on C0.
 This contradiction excludes a mate in every positive degree.
 
-## 5. Exact evidence and retained limits
+### 5. Exact evidence and retained limits
 
 The standalone
 [verifier](../computations/verify_session_mf6_rhalf_scroll_2026_10_08.py)
@@ -762,12 +751,11 @@ checked for another carrier. The unrestricted STCI problem and the
 remaining principal-family strata are unchanged by this fixed-member
 exclusion.
 
-
 ---
 
-## Source: 2026-10-08-session-mf6-rhalf-scroll-independent-audit.md
+<a id="source-2026-10-08-session-mf6-rhalf-scroll-independent-auditmd"></a>
 
-# Independent audit: the principal MF6 (p,r)=(8,1/2) carrier
+## Independent audit: the principal MF6 (p,r)=(8,1/2) carrier
 
 Date: 2026-10-08. Status: **ACCEPTED all-mate exclusion** of this
 fixed characteristic-zero member of the principal e=1,d2=1 family.
@@ -786,7 +774,7 @@ Its JSON binds the independently parametrized carrier to the saved
 verify algebraic identities; the arbitrary-degree conclusion is the
 structural argument checked below.
 
-## 1. The carrier and finite normalization
+### 1. The carrier and finite normalization
 
 The invertible coordinate change in the owner note gives
 
@@ -816,7 +804,7 @@ The generic ratios G/x^2=a/b and x/z=U/V recover both parameters,
 so it is birational. Substitution vanishes on F; irreducibility makes
 its image the whole carrier. The smooth S is its normalization.
 
-## 2. The complete normalization module and actual conductor
+### 2. The complete normalization module and actual conductor
 
 The extra sections v=Uab and u=Vab recover, together with the four
 ambient sections, the complete six-dimensional space H0(S,H).
@@ -855,7 +843,7 @@ P1. Therefore the actual upstairs conductor is exactly
 with no isolated remainder. It is the anticanonical Cartier divisor
 on S. Downstairs its support is two lines, one doubled.
 
-## 3. Gorenstein center and rank-two trace on a nonreduced base
+### 3. Gorenstein center and rank-two trace on a nonreduced base
 
 At every projective point some entry of the Hilbert--Burch matrix is
 a unit: if x=y=z=0 then L=96w, and their simultaneous vanishing is
@@ -889,7 +877,7 @@ deck action a/b->-a/b; on T it is the identity. Preservation of
 these primes, rather than a presumed involution on the whole
 surface S, is the fact required by the next step.
 
-## 4. Roots of unity retain every generic nilpotent jet
+### 4. Roots of unity retain every generic nilpotent jet
 
 The mate hypothesis gives the full inverse support c isomorphic to
 C0, with c~H and nu*G_mate=lambda*f^n, div(f)=c. The divisor c is
@@ -916,7 +904,7 @@ reduced field action is the identity, so the selected zeta is one.
 Therefore f^2 is invariant in both generic Artin localizations.
 This includes the generic nilpotent directions above the double line.
 
-## 5. Extension and line-bundle descent
+### 5. Extension and line-bundle descent
 
 D is Cartier on the smooth surface S, hence Cohen--Macaulay and
 without embedded associated primes. An invertible sheaf on D has
@@ -937,7 +925,7 @@ That is impossible: C0 lies on its unique smooth quadric with class
 multiple of (1,3) equals (4,4). Therefore this fixed MF6 carrier
 has no mate in any degree.
 
-## 6. Audit decision and scope
+### 6. Audit decision and scope
 
 The normalization, whole conductor equality, local Gorensteinness,
 nonreduced-base trace algebra, prime preservation and generic-to-global
@@ -947,12 +935,11 @@ of Gamma and does not apply a reduced-center theorem to this scheme.
 Other principal parameters, other conductor schemes, and the
 unrestricted STCI problem remain separate.
 
-
 ---
 
-## Source: 2026-10-08-session-new-results-acceptance.md
+<a id="source-2026-10-08-session-new-results-acceptancemd"></a>
 
-# Root acceptance of the October 8 scroll and defect-four results
+## Root acceptance of the October 8 scroll and defect-four results
 
 Date: 2026-10-08. Fixed curve C0=[s^4:s^3t:st^3:t^4], over an
 algebraically closed characteristic-zero field. This records proof
@@ -965,17 +952,13 @@ that stage of the work. The
 records the completed independent audits, full smooth-scroll exclusion,
 principal ancestor closure and current remaining strata.
 
-## 1. Every integral quartic singular along a smooth twisted cubic
+### 1. Every integral quartic singular along a smooth twisted cubic
 
 **Accepted:** such a quartic has no mate cutting out C0 set-theoretically,
-in any positive degree. The [applicability proof](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-applicabilitymd)
+in any positive degree. The [applicability proof](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md)
 and [conductor criterion](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-irreducible-conductor-compressionmd)
-together supply the argument. The [independent adversarial audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conductor-adversarialmd)
+together supply the argument. The [independent adversarial audit](QUARTIC_SCROLL_REDUCED_CONDUCTORS.md)
 checks the criterion and the entire-conductor Hilbert/CM calculation.
-The root additionally checked the stronger equation-space and blowup
-transition below. The independent auditor reported acceptance of these
-steps before its turn ended at the account usage limit; its planned
-section 10 was not completed, so that unwritten section is not cited.
 
 The complete derivative restriction on all 35 quartic monomials has
 rank 29. Six independent products of the three twisted-cubic quadrics
@@ -1035,7 +1018,7 @@ classification. The absolute-duality input was checked against
 normalizations, other quartic classes and higher carrier degrees remain
 outside this theorem.
 
-## 2. Both algebraic e=1,d2=4 ancestor directions
+### 2. Both algebraic e=1,d2=4 ancestor directions
 
 **Accepted:** for A=r*z,B=1,12r^2+4r+3=0, every genuine defect-four
 triple has at most one containing quartic. Hence it cannot supply two
@@ -1064,28 +1047,22 @@ has such a projective zero, so this is not a valid finite-flat triple.
 Every genuine triple therefore has theta!=0, which is normalized to
 one by scaling the equation. This discards no valid theta=0 boundary.
 
-The verification agent independently reported this exact coverage and
-the torsion check before its usage-limit interruption. Its isolated
-source-byte replay is preserved in
-[the audit replay directory](../validation/2026-10-08-e1-d4-algebraic-audit/replay-manifest.json);
-it did not finish a separate narrative audit. Root's central isolated
-replay also passed, with source SHA256
-ae88024f00b8216be727957930747001b44f457e532a0746e6a8e2a657850a02.
+The [isolated replay](../validation/2026-10-08-e1-d4-algebraic-audit/replay-manifest.json) preserves the exact source-byte check and torsion coverage. The central isolated replay also passed with source SHA256
+`ae88024f00b8216be727957930747001b44f457e532a0746e6a8e2a657850a02`.
 
 **Boundary:** the principal obstruction-zero direction and directions
 with nonzero primitive quadratic obstruction remain open at positive
 D2. This does not exclude every defect-four Gorenstein quadruple.
 
-
 ---
 
-## Source: 2026-10-08-session-nonimmersion-prime-independent-audit.md
+<a id="source-2026-10-08-session-nonimmersion-prime-independent-auditmd"></a>
 
-# Independent audit: the generic nonimmersion-prime obstruction
+## Independent audit: the generic nonimmersion-prime obstruction
 
 Date: 2026-10-08. Auditor: `verification`. Status: **PROVED HERE**, independently audited from the full power identity. This note does not classify all nonnormal quartic surfaces.
 
-## Exact statement
+### Exact statement
 
 Let k be algebraically closed, let S be a smooth projective surface, and let nu:S -> X subset P^N be finite and birational. Write H=nu^*O_X(1). Suppose a smooth integral curve c on S satisfies c~H, there is f in H^0(S,O_S(H)) with divisor c, and an ambient homogeneous polynomial G of positive degree n satisfies
 
@@ -1095,7 +1072,7 @@ Suppose that nu|c is an immersion into P^N. Assume n is nonzero in k; in particu
 
 Neither smoothness of E nor a conductor hypothesis on E is required. A finite normalization of a smooth rational quartic scroll has H ample, so every actual conductor prime satisfies the positive-intersection hypothesis. The previously audited full-support mate reduction supplies exactly c, f, and the power identity in that application.
 
-## Proof, including singular E and the point f=0
+### Proof, including singular E and the point f=0
 
 Because c.E=H.E>0 and E is distinct from c, choose a closed point P in c intersect E. Suppose that dnu has generic rank at most one along E. On any local chart, every two-by-two minor of its derivative matrix vanishes in k(E). The entries are regular and E is integral, so those minors vanish modulo the prime ideal of E. Hence the rank of dnu at P is at most one. Rank zero would already contradict immersion of c; its rank is therefore exactly one.
 
@@ -1121,7 +1098,7 @@ The image of g in the local domain O_E is nonzero: its divisor on S is c, distin
 
 Since c is smooth, dg_P is nonzero and its kernel is the one-dimensional tangent line T_Pc. The nonzero vector V(P) both lies in that tangent line and is killed by dnu_P. This contradicts immersion of nu|c. Thus the assumed generic rank deficiency is impossible.
 
-## A local-unit variant and exact limits
+### A local-unit variant and exact limits
 
 The same cancellation argument even permits a local identity nu^*A=u g^n for a regular unit u, provided that A is an ambient function. Differentiation modulo I_E gives
 
@@ -1131,7 +1108,7 @@ After cancelling in O_E and evaluating at P, where g(P)=0, one again obtains V(g
 
 The proof does not apply to an isolated rank-drop point on a prime which is generically immersive. It does not infer rank deficiency merely from an upstairs conductor multiplicity. A claim that a concrete conductor branch is excluded must establish its generic derivative rank from the actual normalization morphism or from a valid transverse singularity argument. In characteristic dividing n, the derivative of g^n loses the necessary information.
 
-## Relation to the current frontier
+### Relation to the current frontier
 
 This independently agrees with the separate [normal-global audit](#source-2026-10-08-session-normalization-differential-independent-auditmd), whose proof uses the equivalent constant-rank kernel over O_E. Agreement is not the proof: the unit-pivot argument above independently establishes the extension across singular E and across c intersect E.
 
@@ -1139,18 +1116,17 @@ For an integral quartic with smooth rational quartic-scroll normalization, any m
 
 No canonical frontier file was changed by this audit.
 
-
 ---
 
-## Source: 2026-10-08-session-normalization-differential-independent-audit.md
+<a id="source-2026-10-08-session-normalization-differential-independent-auditmd"></a>
 
-# Independent audit: a rank-deficient normalization prime obstructs a mate
+## Independent audit: a rank-deficient normalization prime obstructs a mate
 
 Date: 2026-10-08. Auditor: `normal_global_adversarial`. Status: **PROVED HERE,
 independently accepted**, with the hypotheses below. No claim about all
 nonnormal quartics is made by this lemma alone.
 
-## Statement
+### Statement
 
 Let k be an algebraically closed field of characteristic zero. Let
 nu:S->X subset P^N be a finite birational morphism from a smooth projective
@@ -1174,7 +1150,7 @@ E need not be smooth, and E need not be a conductor prime. In the
 application, E is an actual conductor prime and c~H, with H ample.
 The characteristic assumption can be weakened to n nonzero in k.
 
-## Proof with the extension at f=0 retained
+### Proof with the extension at f=0 retained
 
 Since c.E=H.E>0, choose a closed point P in c intersect E. The immersion
 nu|c into P^N implies that dnu_P is nonzero on the tangent line T_P c.
@@ -1225,7 +1201,7 @@ If the generic rank on E were zero, all matrix entries would vanish
 on E and already contradict the immersion at P. The proof therefore
 also handles the rank-zero case.
 
-## Applicability to the scroll frontier
+### Applicability to the scroll frontier
 
 The previously audited mate reduction supplies exactly the required
 data when S is a smooth rational quartic-scroll normalization of an
@@ -1251,7 +1227,7 @@ the lemma excludes it without any Gorenstein assumption on the
 downstairs conductor and without extending a trace involution through
 a nongorenstein point.
 
-## Adversarial checks
+### Adversarial checks
 
 - The argument differentiates the entire power identity, not its first
   normal coefficient or a chosen jet truncation.
@@ -1271,7 +1247,7 @@ a nongorenstein point.
 This is a structural obstruction. It does not by itself classify the
 remaining nonreduced nongorenstein ACM cubic conductors.
 
-## 2026-10-09 addendum: the local unit factor is harmless
+### 2026-10-09 addendum: the local unit factor is harmless
 
 Status: **PROVED HERE, independently accepted**. This is a stronger
 local version. It does not require a global root section, a constant
@@ -1314,7 +1290,7 @@ The argument does not claim df(V)=0 at every generic point: for a
 nonconstant unit, its regular relation with du(V), followed by
 specialization at P, is what proves the contradiction.
 
-### Consequence for an arbitrary finite smooth normalization
+#### Consequence for an arbitrary finite smooth normalization
 
 Let nu:S->X subset P^N now be finite with S smooth projective, and put
 H=nu^*O_X(1). Suppose an ambient form G of degree b>0 has the entire
@@ -1336,7 +1312,7 @@ rank two on every such E. This includes every conductor prime
 distinct from c, without requiring c~H, Picard-group torsion-freeness,
 a global section cutting out c, or a globally constant power factor.
 
-### Exact boundaries of the strengthening
+#### Exact boundaries of the strengthening
 
 - The distinction E!=c is essential. If E=c, the restriction of f to
   E is zero and the cancellation in its domain is unavailable.
@@ -1357,14 +1333,13 @@ a global section cutting out c, or a globally constant power factor.
 No new classification of nonnormal carriers follows solely from this
 local strengthening. The earlier historical nongorenstein-scroll
 boundary was subsequently closed by the separate
-[complete scroll audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-independent-auditmd).
-
+[complete scroll audit](QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md).
 
 ---
 
-## Source: 2026-10-08-session-principal-e1-d1-independent-completeness-audit.md
+<a id="source-2026-10-08-session-principal-e1-d1-independent-completeness-auditmd"></a>
 
-# Independent completeness audit of principal e1,d2=1 quartic ancestors
+## Independent completeness audit of principal e1,d2=1 quartic ancestors
 
 Date: 2026-10-08. Fixed `C0=[s^4:s^3t:st^3:t^4]`, characteristic zero.
 Scope: the principal `a0*b1!=0` direction lane for a genuine second defect
@@ -1387,7 +1362,7 @@ of some other degree. No all-mate carrier theorem is inferred here.
 Other e-strata, second-defect degrees, higher multipliers, positive
 characteristic, and the universal problem retain their separate scopes.
 
-## 1. Parameter and triple coverage
+### 1. Parameter and triple coverage
 
 For `b0!=0`, common direction scaling and the actual ambient torus give
 the representative
@@ -1451,7 +1426,7 @@ points. The cubic has no root modulo five: its values at 0,1,2,3,4 are
 `-160704`, so the three characteristic-zero embeddings are distinct.
 One exact cubic-field calculation therefore covers all three points.
 
-## 2. Complete frame on the open
+### 2. Complete frame on the open
 
 Put
 
@@ -1497,7 +1472,7 @@ recorded row divisions use only p and p-r, also units on U. The resulting
 `6x7` matrix is therefore the contact operator on the complete
 first-normal kernel, without omitted quartics.
 
-## 3. Two cofactors, their exact norms, and the nonunit S branch
+### 3. Two cofactors, their exact norms, and the nonunit S branch
 
 The open verifier recomputes all seven actual maximal cofactors before
 reducing modulo H, and checks their retained factorizations. The
@@ -1545,7 +1520,7 @@ ideal space has rank 17 there. Consequently the contact rank is six
 everywhere on U, and the complete containing-quartic space has dimension
 `18-11-6=1`.
 
-## 4. Exhaustive complement and fresh ambient boundary evidence
+### 4. Exhaustive complement and fresh ambient boundary evidence
 
 The independent countercheck verifies the precise polynomial identities
 
@@ -1591,7 +1566,7 @@ These arguments exhaust the principal direction lane for the stated
 ancestor problem. They neither decide a higher-degree mate for one
 unique carrier nor use an STCI-only second-defect bound.
 
-## 5. Evidence and reproducibility
+### 5. Evidence and reproducibility
 
 The open theorem and source are preserved in
 [the source-owner's detailed proof](#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd)

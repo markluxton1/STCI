@@ -13,12 +13,11 @@ scope:
 statement: "With A the transverse differential zero divisor and J^(n-1)=Soc(Y)(-D_n), equality of actual divisors holds: D_n=(n-1)A-B|c."
 dependencies: []
 evidence:
-  - research/notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md
-  - research/notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md
+  - "research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md"
 independent_audits:
-  - research/notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md
-  - research/notes/2026-10-14-generalization-transverse-socle-independent-audit.md
-accepted_in: research/HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md
+  - "research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md"
+  - "research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md"
+accepted_in: "research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -40,11 +39,11 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md)
-- [Source proof](../notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md)
-- [Independent audit](../notes/2026-10-14-generalization-pointwise-conductor-socle-independent-audit.md)
-- [Independent audit](../notes/2026-10-14-generalization-transverse-socle-independent-audit.md)
-- [Claim-level acceptance](../HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md)
+- [Source proof](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#exact-top-socle-divisor-for-an-actual-pair)
+- [Source proof](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#local-residue-identity-and-global-contact)
+- [Independent audit](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#exact-top-socle-divisor-for-an-actual-pair)
+- [Independent audit](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-transverse-socle-independent-audit)
+- [Claim-level acceptance](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#consolidation-review)
 
 ## Dependencies and limitations
 
@@ -52,6 +51,6 @@ Inherited premises are described in the proof and audit.
 - Not established for multiple branches, non-Cartier lift, singular normalization along c, or generically singular carrier
 - Jacobian argument cannot be transferred to characteristic dividing n
 
-## Permanent evidence navigation
+## Current mathematical evidence
 
-The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/04-carriers.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

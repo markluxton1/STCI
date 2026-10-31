@@ -1,12 +1,12 @@
-# Local cohomology, direction images, and apolarity
+# Local-cohomology direction spaces and apolarity
 
 Consolidated mathematical source material. Original claims, calculations, and qualifications are preserved; audits are not automatically promoted to theorems.
 
 ---
 
-## 2026-10-05-localcoh-degree4
+<a id="2026-10-05-localcoh-degree4"></a>
 
-# Degree-four local-cohomology frontier: finite reduction and ruling slices
+## Degree-four local-cohomology frontier: finite reduction and ruling slices
 
 Date: 2026-10-05.  This investigation concerns only the characteristic-zero
 monomial quartic
@@ -22,7 +22,7 @@ The target classes remain
 The question is whether \(F\alpha=u,G\alpha=v\) with quartic \(F,G\)
 and \(\alpha\) of degree \(-7\).  No general STCI conclusion is claimed.
 
-## New all-stage exclusion: both ruling-ratio slices
+### New all-stage exclusion: both ruling-ratio slices
 
 **Proved, conditional only on the already proved P-010 and P-037.**  There is
 no common ancestor for any quartic pair whose nonzero first-conormal symbols
@@ -34,7 +34,7 @@ contained in the ratio-\(t\) slice.
 This is an all-stage proof; it does not infer a direct-limit conclusion from
 a finite stage scan.  Its ingredients are explained below.
 
-### The complete linear classification of the ratio-t slice
+#### The complete linear classification of the ratio-t slice
 
 If \(\sigma(G)=t\sigma(F)\), then \(xG-yF\) vanishes to second order
 along \(C_0\).  Every quintic with this property is \(qD\), with
@@ -67,7 +67,7 @@ xG-yF=qD,\qquad wF-zG=qH.
 
 For P-039, one has \(H=A-\lambda B\), \(D=\lambda A\).
 
-### A surviving pair must be coprime, with independent cubic symbols
+#### A surviving pair must be coprime, with independent cubic symbols
 
 If a nonconstant \(T\) divides both \(F,G\), then \(T\alpha\) is a
 common ancestor with multipliers of degree at most three, contradicting
@@ -79,7 +79,7 @@ cubic classification gives either a scalar pair \(H,D\), or two
 a cubic factor; in the second they share \(q\).  Hence a surviving pair
 must have generically independent \(\sigma(H),\sigma(D)\).
 
-### Ancestors of principal-part order at most three are impossible
+#### Ancestors of principal-part order at most three are impossible
 
 Write
 \(\mathcal T_n=(0:_{\mathcal H^2_{C_0}(O_{\mathbf P^3})}I^n)\).
@@ -124,7 +124,7 @@ Consequently any quartic common ancestor would have principal-part order at
 least four.  This argument applies to every quartic multiplier pair with
 nonzero first symbol, not just to ruling ratios.
 
-### Every higher principal-part order in the ruling slice is impossible
+#### Every higher principal-part order in the ruling slice is impossible
 
 Work at the generic point of the curve and let the highest order be \(n\ge4\).
 The first symbols of \(F,G\) are proportional and nonzero.  Their action on
@@ -173,7 +173,7 @@ applies.  Constant invertible changes of the two equations give every
 Möbius transform of either ratio; they also change the target pair by an
 invertible constant matrix, preserving its independence and socle order.
 
-## Independent exact computation of the low principal parts
+### Independent exact computation of the low principal parts
 
 **Exact computation over QQ, hence stable under extension to any
 characteristic-zero field.**  The Macaulay2 script
@@ -207,7 +207,7 @@ The Python script
 checks the exact 14-dimensional classification of both ruling slices, all
 determinant identities, and the P-039 specialization.
 
-## Uniform finite reduction for the remaining degree-four locus
+### Uniform finite reduction for the remaining degree-four locus
 
 The separate audit in `2026-10-05-localcoh-finite-bound.md` proves the
 following reduction.  Coprime quartics have generic transverse intersection
@@ -239,7 +239,7 @@ projective degree \(e\), the top coefficient has degree \(7-3e\);
 therefore \(e\le2\).  This sharply reduces the remaining conormal
 classification, but does not by itself exclude it.
 
-## Limitations and highest-value continuation
+### Limitations and highest-value continuation
 
 The full degree-four locus is still open.  The new geometric theorem excludes
 two entire ruling-ratio slices and their Möbius transforms; it does not
@@ -254,17 +254,14 @@ the order-four symbol-lifting equations in the 30-dimensional exact ancestor
 space.  This is a finite geometric/algebraic problem, not an invitation to
 repeat increasingly high direct-limit stage scans.
 
-Validation on 2026-10-05: Python 3.14.8 with SymPy 1.14.0 at
-`/private/tmp/stci-cas-venv/bin/python`; Macaulay2 1.26.06.  Both dedicated
-scripts passed.  The system and bundled Python interpreters initially lacked
-SymPy; no result was obtained from those failed invocations.
+Validated with Python 3.14.8, SymPy 1.14.0 and Macaulay2 1.26.06; both dedicated scripts passed.
 
 
 ---
 
-## 2026-10-05-localcoh-direction-image
+<a id="2026-10-05-localcoh-direction-image"></a>
 
-# Exact quartic symbol image and primitive direction strata
+## Exact quartic symbol image and primitive direction strata
 
 Date: 2026-10-05. This note works in characteristic zero, on the smooth
 monomial rational quartic
@@ -278,7 +275,7 @@ nonexistence of a common local-cohomology ancestor, or of an STCI pair.
 The exact companion script is
 `research/computations/verify_localcoh_direction_image.py`.
 
-## 1. The image, with the frame fixed explicitly
+### 1. The image, with the frame fixed explicitly
 
 On the chart \(x=1\), use \(t=y\) and the balanced conormal frame
 
@@ -377,7 +374,7 @@ surjective: quartic monomials on \(C_0\) attain every exponent
 \(0,\ldots,16\). Thus \(\dim I_{C_0}(4)=35-17=18\), proving that these
 18 forms exhaust it.
 
-## 2. Intersections with primitive binary directions
+### 2. Intersections with primitive binary directions
 
 Write a primitive direction of degree \(e\) as
 
@@ -406,7 +403,7 @@ following three scalar equations:
 
 where coefficients outside \(0\le j\le9-e\) are zero.
 
-### Degree zero
+#### Degree zero
 
 Each row has coefficients \((a_0,-2b_0)\) in a separate pair of columns.
 The direction is nonzero, so all three rows are independent. Therefore
@@ -417,7 +414,7 @@ The direction is nonzero, so all three rows are independent. Therefore
 
 for every direction.
 
-### Degree one
+#### Degree one
 
 Each row is the coefficient triple
 
@@ -449,7 +446,7 @@ quartic preimage is \(qS_2\), of dimension ten, because all its symbols
 are provided by \(qH\) and its one-dimensional symbol kernel is
 \(kq^2\).
 
-### Degree two
+#### Degree two
 
 Set
 
@@ -531,7 +528,7 @@ by the nonvanishing homogeneous resultant
  =a_0^3a_2-6a_0a_1a_2b_0+2a_1^3b_0+4a_2^2b_0^2\ne0.}
 \]
 
-## 3. Dimensions in the ambient quartic space
+### 3. Dimensions in the ambient quartic space
 
 The preimage of each symbol intersection adds the independent parameter
 \(cq^2\). Thus the quartics whose first symbol has the given direction
@@ -541,7 +538,7 @@ these linear spaces; selecting an actual pair with primitive common
 direction still requires nonzero scalar symbols, appropriate gcd
 conditions, and every higher direct-limit equation.
 
-## 4. Coprime quartic pairs exist in every remaining direction
+### 4. Coprime quartic pairs exist in every remaining direction
 
 Let \(K_r\) be the scalar kernel computed above and put
 
@@ -611,9 +608,9 @@ the higher normal jets as the next research obligation.
 
 ---
 
-## 2026-10-05-localcoh-finite-bound
+<a id="2026-10-05-localcoh-finite-bound"></a>
 
-# A finite principal-part bound for quartic local-cohomology ancestors
+## A finite principal-part bound for quartic local-cohomology ancestors
 
 Status: **PROVED**, conditional only on the already checked P-037 low-degree
 exclusion and the literature's degree-(4,4) exclusion. This note does not
@@ -644,7 +641,7 @@ quartics \(F,G\) and a homogeneous \(\alpha\in M_{-7}\) satisfy
 
 P-037 supplies \(F,G\in I\) and proportional first conormal symbols.
 
-## 1. Coprimality and generic transverse length
+### 1. Coprimality and generic transverse length
 
 The two forms are coprime. Indeed, if their greatest common divisor \(H\)
 has positive degree \(r\), then \(\beta=H\alpha\) satisfies
@@ -676,7 +673,7 @@ The precise literature record is in `research/LITERATURE_LEDGER.md`, under
 “Craighero--Gattazzo, 1986”; the primary source is
 <https://www.numdam.org/item/RSMUP_1986__76__177_0/>.
 
-## 2. Generic annihilation extends over every curve point
+### 2. Generic annihilation extends over every curve point
 
 Write
 
@@ -750,7 +747,7 @@ constant length at the special points, and does not require global ideal
 containment \(I^m\subset(F,G)\). Torsion-freeness is exactly what extends
 the generic annihilation of this particular local-cohomology element.
 
-## 3. A genuinely fixed direct-limit stage
+### 3. A genuinely fixed direct-limit stage
 
 Since \(q,B\in I\), the bound implies \(q^4\alpha=B^4\alpha=0\). The sequence
 \((q,B)\) is regular in \(S\), and
@@ -787,7 +784,7 @@ without this support/annihilator condition may introduce irrelevant
 residual-line classes, so that condition should be retained in a finite
 computation.
 
-## 4. The primitive common conormal direction has degree at most two
+### 4. The primitive common conormal direction has degree at most two
 
 Use the checked splitting \(N_{C_0/\mathbf P^3}\simeq O_{\mathbf P^1}(7)^2\).
 In characteristic zero, the principal-part quotients are
@@ -850,7 +847,7 @@ balanced normal-bundle frame. It is not the degree of the quotient
 (\sigma(G)/\sigma(F)), and should not be confused with an affine
 coordinate polynomial degree before converting to that frame.
 
-## 5. General form of the bound and remaining obstacle
+### 5. General form of the bound and remaining obstacle
 
 For coprime equal-degree multipliers of degree \(d\) containing a smooth
 degree-\(\delta\) curve, the same proof gives
@@ -875,9 +872,9 @@ of the candidate highest symbols require a separate verified computation.
 
 ---
 
-## 2026-10-05-localcoh-generic-length
+<a id="2026-10-05-localcoh-generic-length"></a>
 
-# A quartic ancestor forces a curvilinear triple and a degree-four residual cycle
+## A quartic ancestor forces a curvilinear triple and a degree-four residual cycle
 
 Date: 2026-10-05. Status: **PROVED**, conditional on the antecedent results
 identified below. This note concerns the characteristic-zero monomial rational
@@ -900,7 +897,7 @@ degree-(4,4) exclusion. The note `2026-10-05-localcoh-degree4.md` excludes
 principal-part order at most three, using P-010; therefore the ancestor has
 order exactly four.
 
-## Generic length is exactly three, rather than merely at most three
+### Generic length is exactly three, rather than merely at most three
 
 At the generic point of the curve, complete the transverse regular local
 ring to \(R=K[[\xi,\eta]]\), where \(K=k(C_0)\), and write
@@ -945,7 +942,7 @@ degree twelve to its fundamental cycle. The remaining effective cycle has
 degree exactly four. This is a cycle statement; it does not assert that the
 residual curve is integral, reduced, smooth, or disjoint from \(C_0\).
 
-## A further exclusion inside the constant-direction stratum
+### A further exclusion inside the constant-direction stratum
 
 Write the proportional quartic first symbols in the balanced normal frame as
 \(ar,br\), where \(r\) is a primitive basepoint-free direction of degree
@@ -975,7 +972,7 @@ constant-direction stratum on which the scalar factors form a basepoint-free
 pencil. It leaves its scalar-basepoint boundary and every possible \(e=1,2\)
 stratum unresolved.
 
-## Failed shortcut: a top-symbol zero does not force target vanishing
+### Failed shortcut: a top-symbol zero does not force target vanishing
 
 It is tempting to argue that the length-four cyclic inverse system must be
 Gorenstein in every transverse fiber, and therefore that its pure-cubic top
@@ -1021,7 +1018,7 @@ Thus finite-flat cyclicity along the curve does not supply relative
 Gorenstein fibers. Any global argument excluding top-coefficient zeros must
 use extra ambient or multiplier information.
 
-## Continuation boundary
+### Continuation boundary
 
 Combine the new multiplicity-three condition with the exact pure-cubic
 top-symbol lifting equations and the full multiplication tensor. The next
@@ -1034,9 +1031,9 @@ produce those two multiplier equations.
 
 ---
 
-## 2026-10-05-localcoh-pure-direction-audit
+<a id="2026-10-05-localcoh-pure-direction-audit"></a>
 
-# Independent audit of pure constant quartic directions
+## Independent audit of pure constant quartic directions
 
 Date: 2026-10-05. Status: **PASS**. Scope is the characteristic-zero
 monomial rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\), quartic multiplier
@@ -1052,7 +1049,7 @@ not settle the mixed constant directions or degree-one/two directions.
 The exact independent companion is
 `research/computations/verify_localcoh_pure_direction_audit.py`.
 
-## 1. Exact pure-direction space and transverse coefficients
+### 1. Exact pure-direction space and transverse coefficients
 
 Retain
 
@@ -1090,7 +1087,7 @@ In particular, \(R_F=0\) if and only if
 \(\kappa=c_6=c_7=c_9=0\), and then \(F\in AS_1\). A zero first symbol
 means \(F=\kappa q^2\); this boundary is included.
 
-## 2. The contact identity has no missing coefficient strata
+### 2. The contact identity has no missing coefficient strata
 
 For two such forms, define
 
@@ -1134,7 +1131,7 @@ Therefore an ambient-coprime pair has \(\Delta\ne0\). The two forms
 cannot both have zero first symbol, since the first-symbol kernel is
 \(kq^2\).
 
-## 3. Generic transverse length and the ancestor implication
+### 3. Generic transverse length and the ancestor implication
 
 Let \(K=k(C_0)\). For an ambient-coprime pair the generic transverse
 algebra is the finite-colength complete intersection in \(K[[U,V]]\).
@@ -1208,7 +1205,7 @@ unit changes in local trivialization of the twisted ancestor. P-010
 excludes such a primitive triple in characteristic zero. Therefore no
 pure-\(V\) quartic pair supplies a common ancestor.
 
-## 4. The pure-\(U\) direction is included by an exact symmetry
+### 4. The pure-\(U\) direction is included by an exact symmetry
 
 The ambient coordinate reversal
 \(\tau(x,y,z,w)=(w,z,y,x)\) preserves \(C_0\), sends the curve parameter
@@ -1235,9 +1232,9 @@ order-three primitive-triple obstruction.
 
 ---
 
-## 2026-10-06-localcoh-constant-direction-apolar
+<a id="2026-10-06-localcoh-constant-direction-apolar"></a>
 
-# Constant directions require a prescribed common scalar divisor
+## Constant directions require a prescribed common scalar divisor
 
 Date: 2026-10-06. Status: **PROVED**, conditional on the characteristic-zero
 P-010 quadratic transition class and the generic length-three reduction in

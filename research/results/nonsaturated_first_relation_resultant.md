@@ -15,14 +15,14 @@ dependencies:
   - STCI-R-0010
   - STCI-R-0011
 evidence:
-  - "research/notes/2026-10-19-first-relation-defect-investigation.md"
-  - "research/notes/2026-10-19-filtered-generic-ci-normal-flatness.md"
-  - "research/notes/2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md"
+  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
+  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
 independent_audits:
-  - "research/notes/2026-10-19-first-relation-defect-independent-audit.md"
-  - "research/notes/2026-10-19-filtered-local-normal-flatness-independent-audit.md"
-  - "research/notes/2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit.md"
-accepted_in: "research/RECONCILIATION_2026-10-21.md"
+  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
+  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+accepted_in: "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -47,7 +47,7 @@ The quotient-relation resultant defines an effective divisor Delta supported on 
 
 The principal formula uses the separately proved saturated Gorenstein-duality and local exact-order normal-flatness lemmas listed as evidence, not R0010 applied to a nonsaturated first relation. R0010 is a comparison theorem for the zero-defect saturated case; R0011 enters only the additional repeated-root payment argument. Saturated Gorenstein duality computes the quotient relation line and the degree of its resultant section; the independent audit reconstructs the defect sheaves, signs, support and gap-two local classification. The source separately supplies the stronger pure-power defect payment with the denominator restriction s-r>=2. R0010 covers the zero-defect saturated special case; this record does not weaken its assumptions.
 
-Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above. Scope acceptance for this promotion is documented in [the reconciliation decision](../RECONCILIATION_2026-10-21.md); that decision does not replace the source proof.
+Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above.
 
 ## Limitations
 
@@ -55,6 +55,6 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Nonsaturated roots may pay an effective degeneration divisor, rather than being excluded.
 - Local gap-three counterexamples do not establish global homogeneous examples.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

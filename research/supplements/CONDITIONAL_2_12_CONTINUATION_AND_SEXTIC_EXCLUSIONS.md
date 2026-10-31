@@ -2,7 +2,7 @@
 
 ## Proof-dependency map: conditional exclusions and exceptional loci
 
-The [strict-surface continuation](#2026-10-21-conditional-2-12-surface-bound-continuation) and [exceptional-locus audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) refine the original conditional (2,12;6,16;2) geometry. The [surface audit continuation](#2026-10-21-conditional-2-12-surface-audit-cont2) and [free-orbit sextic exclusion](#2026-10-21-cont2-free-orbit-global-sextic-exclusion) make more specific deductions under the retained assumptions.
+The [strict-surface continuation](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#nonnormal-conductor-budget-and-local-escape-models) and [exceptional-locus audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) refine the original conditional (2,12;6,16;2) geometry. The [surface audit continuation](#2026-10-21-conditional-2-12-surface-audit-cont2) and [free-orbit sextic exclusion](#2026-10-21-cont2-free-orbit-global-sextic-exclusion) make more specific deductions under the retained assumptions.
 
 These depend on the [symbol and actual sextic realization tests](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-global-realization-incidence) and on the [node/conductor constraints](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface). The surface-bound arguments, exceptional-locus computations, and actual homogeneous lifting are distinct steps. A conditional exclusion on a specified orbit or singularity type does not eliminate all (2,12) pairs.
 
@@ -15,130 +15,9 @@ Complete mathematical arguments and exploratory boundaries preserved. Conditiona
 
 ---
 
-## 2026-10-21-conditional-2-12-surface-bound-continuation
+## Nonnormal conductor budget and local escape models
 
-# Conditional (2,12;6,16;2): strict-surface continuation and independent audit
-
-Date: 2026-10-21. Author: `surface_bound` worker.
-
-Status: **continuation of reviewed conditional proposals**. The normal
-strict-sextic exclusion has independent review PASS in the linked audit.
-The ampleness and nodal extension are independently reconstructed below.
-No canonical result record is changed, and no global pair or emptiness
-of the full residual incidence is asserted.
-
-## 1. Saved work and exact authority
-
-The pre-interruption contribution is
-[the October 20 surface-bound proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-surface-bound).
-It proves that an ACTUAL supported pair in the exact conditional
-configuration cannot have a normal strict sextic `D` on
-`B=Bl_C0(P3)`. Its proof was independently reconstructed by
-`incidence_audit` in
-[the October 21 audit, section 2](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus).
-The inherited mathematical inputs are promoted R-0010 and R-0011;
-the finite singular-root bridge remains a separately reviewed,
-unpromoted dependency. This continuation does not broaden those
-promoted theorem statements.
-
-For a normal strict sextic, the local Jacobian containment
-
-    J_(A*p+t^10*U) subset (A,p,t^9)
-
-gives total Milnor number at least `9*16=144`. It applies to all
-multiplier multiplicities and all retained root types. A genus-six
-general plane section of a resolution bounds its irregularity by six;
-the resolution/contraction exact sequences give `b1(D),b3(D)<=12`.
-Since a smoothing has Euler number 28, the isolated singularities have
-total Milnor number at most 50. The contradiction `144>50` is the
-reviewed normality obstruction. It needs no V5 model, discriminant
-degree formula, or K3 singularity classification.
-
-## 2. Independent audit: the strict mate is ample
-
-Let `L=3H-E`. The seven cubic generators of `I_C0(3)` give a closed
-graph embedding
-
-    B -> P3 x P6.
-
-Indeed the Rees algebra of the generated twisted ideal is a quotient
-of its symmetric algebra, so its relative Proj embeds in the trivial
-projective bundle. The restrictions of the two hyperplane bundles
-are `H` and `L`. Consequently
-
-    G' =16H-2E=10H+2L
-
-is the restriction of the ample bundle `O(10,2)`.
-
-If a projective curve `Gamma` is contained in `Sing(D)`, it must
-intersect `G'`, unless it is contained in `G'`; in the latter case it
-is already in the actual common support. The actual strict pair has
-common support precisely `Z`. Thus every singular curve of `D`
-meets `Z`. This is a consequence of the ACTUAL supported pair and
-does not follow from the abstract root incidence alone.
-
-**Independent verdict: PASS.** This replaces an unjustified global
-normality assumption by a local analysis along the actual common root.
-
-## 3. Independent audit: reduced div_Z(alpha) excludes every retained root
-
-The retained root types are smooth integral genus one, integral nodal,
-and two `(1,1)` components meeting in two nodes. Assume
-`div_Z(alpha)` is reduced. Then `alpha` has simple base zeros, each
-away from root nodes and branch values of the degree-two projection.
-In particular every zero of `alpha|Z` is a smooth point of `Z`.
-
-Along the entire exceptional surface:
-
-* At a multiplier fiber away from `Z`, the base derivative of
-  `alpha*f` is nonzero, so `D` is smooth.
-* At a smooth root point with `alpha` a unit, the root derivative
-  makes `D` smooth.
-* At a zero of `alpha|Z`, the exact equation is `A*p+t^10*unit`
-  in regular coordinates, hence an isolated `A9` singularity.
-* At a retained node, `alpha` is a unit. The parameter-preserving
-  Morse lemma writes the strict sextic as `xy+h(t)`, where `t=0`
-  is the exceptional surface. It has a singular curve through the
-  point only when `h=0`; then that curve is uniquely `x=y=0` and
-  is smooth and transverse to `E`.
-
-Thus no singular curve is contained in `E`. Any singular curve
-`Gamma` not contained in `E` can meet `E` only at the at most two
-nodes of `Z`, with local intersection multiplicity one. On its
-normalization put
-
-    d=H.Gamma>0,          e=E.Gamma<=2.
-
-At all these contacts `alpha` is a unit, so one may take the first
-finite-bridge generator to be `F'` itself. Then
-
-    G'=C*F'+t^10*unit.
-
-Since `F'` vanishes on `Gamma`, restriction gives order exactly
-ten times the order of `E` at each contact. There are no other
-zeros of `G'|Gamma`, by actual sole common support `Z`. Hence
-
-    G'.Gamma=10e.
-
-The divisor class of `G'` also gives
-
-    16d-2e=10e,          e=4d/3.
-
-Integral positive `d,e` then imply `e>=4`, contradicting `e<=2`.
-There is no singular curve, so the Cohen--Macaulay hypersurface
-`D` is regular in codimension one and normal. Section 1 excludes it.
-
-**Independent verdict: PASS.** Therefore every actual pair in the
-exact configuration must have a NONREDUCED divisor `div_Z(alpha)`.
-The proof retains singular nodes; it does not add a smooth-root
-assumption. In coefficient terms the reviewed exceptional condition
-is currently
-
-    Disc_8(Ncomp(tau))*Res_(8,4)(Ncomp(tau),Delta)=0,
-
-of total degree 52 in the nine root coefficients, with
-`Delta=b^2-4ac`, `tau=f(-z/2,1)`, and the actual norm multiplier.
-The earlier full root discriminant factor is unnecessary.
+These conditional consequences use an actual sole-support degree-(6,16) pair, full generic initial CI (2,12), and actual saturated movement-two first relation. The complete strict-sextic proof follows below.
 
 ## 4. Conductor budget: a useful identity, not yet an exclusion
 
@@ -243,13 +122,13 @@ The promoted inputs are
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md).
 The finite singular-root bridge is a separately reviewed but
 unpromoted dependency in
-[the October 20 singular-root note](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
+[the October 20 singular-root note](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md).
 It gives common order-two transforms with local ideal `(p,t^10)`
 at every full root point. The full root `Z=(f)` is reduced of class
 `(2,2)` on `E`, and `Z->C` is finite flat of degree two.
 
 This review concerns
-[the strict-surface proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-surface-bound)
+[the strict-surface proposal](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus)
 and [the forced-norm proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-geometric-continuation).
 Inherited chart, normal-flatness and root-obstruction verifiers were
 not rerun. The normal-surface argument below was independently
@@ -338,6 +217,8 @@ proves the claimed exclusion with its exact normality assumption.
 **Review outcome:** PASS. The threshold `144>50` includes all
 multiplier multiplicities and all retained root types. The proof
 does not apply directly to positive-dimensional singular loci.
+
+The isolated argument cannot be applied to a nonnormal strict sextic with a singular curve: its ordinary Jacobian algebra has infinite length. Embedding a finite complete intersection (A,p,t^9) in that singular scheme gives no bound on the degree of the whole scheme or a discriminant multiplicity. The [Aluffi–Cukierman multiplicity formula](https://www.math.fsu.edu/~aluffi/papers/1992Mod.pdf) uses the full Segre class and first-jet spanning; an arbitrary finite subscheme length supplies neither. The local escape models above preserve the explicit counterexamples to this misuse.
 
 ## 3. Ampleness extends the exclusion to a whole root open
 
@@ -664,7 +545,7 @@ relation. The reviewed inputs are:
 * [the conductor-ramification proposal](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification), sections 1--6;
 * [the normality and ampleness audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus),
   whose nodal extension was independently reconstructed in
-  [the surface continuation](#2026-10-21-conditional-2-12-surface-bound-continuation).
+  [the surface continuation](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#nonnormal-conductor-budget-and-local-escape-models).
 
 The singular-root finite bridge remains an explicit reviewed but
 unpromoted dependency. The canonical lower-carrier input was read in
@@ -672,56 +553,6 @@ unpromoted dependency. The canonical lower-carrier input was read in
 **Consequences** paragraph, which expressly includes the earlier
 plane/quadric/cubic exclusions and factor reduction. No inherited
 carrier proof was rerun.
-
-## 2. Exact cubic model: independent review PASS
-
-I reran
-
-    /opt/homebrew/bin/M2 --script research/computations/conditional_2_12_cubic_image_2026_10_21.m2
-
-with exit code zero. The output verifies dimension four and degree five
-for the homogeneous ring, projective smoothness by the Jacobian ideal,
-the resolution with ranks `(1,5,5,1)` and shifts `(0,2,3,5)`, and vanishing
-of the five displayed quadratic equations after substituting the seven
-cubics. The computation is an exact check over `QQ`; it is not an
-existence computation for `(F6,G16)`.
-
-The resolution is Cohen--Macaulay of type one and gives
-`omega_V=O_V(-2)`. Arithmetic Cohen--Macaulayness also gives connected
-`Proj`; smoothness and connectedness imply integrality. The source
-cubic map is birational on `q!=0`, where its first four coordinates
-recover the original projective point. Its closed three-dimensional
-image therefore equals this integral `V`.
-
-On `V`, the four coordinates `y0,...,y3` cut out exactly the smooth conic
-`Gamma` with equation `y4*y6-y5^2=0`. The inverse rational projection to
-`P3` has this base IDEAL, not just this set-theoretic base locus. Thus
-its graph closure is `Bl_Gamma(V)`. The Rees graph embedding of
-`Bl_C0(P3)` has the same graph on the dense open, and both closures
-are integral reduced schemes; hence they agree scheme-theoretically.
-The common pullback divisor of `y0,...,y3` is exactly
-`Q'=2H-E=L-H`, because the four remaining factors `x_i` have no common
-zero. Consequently the contraction is an isomorphism off `Q'`, and
-its contracted curves are precisely the appropriate ruling fibers.
-
-The 23-dimensional sextic source consists of quadratic products of
-the seven cubics. Equivalently `h0(V,O_V(2))=28-5=23` matches the full
-source. Therefore every actual strict sextic descends as
-`D=phi^*T`, with `T in |O_V(2)|`, and adjunction gives `omega_T=O_T`.
-The quadric-factor exclusion says `D` has no `Q'` component, so `T`
-does not contain the center conic.
-
-The integrality step also passes. If an irreducible factor of `F`
-did not contain `C0`, its intersection with the positive-degree mate
-would produce a curve outside `C0`. Every factor is thus itself a
-supported carrier. R-0001's stated consequences put its degree at
-least five. Since `deg F=6`, only one factor with multiplicity one
-is possible. Thus `F`, `D`, and `T` are integral under the ACTUAL
-supported-pair hypotheses.
-
-**Verdict: PASS.** This supplies the previously unresolved contraction
-and descent hypotheses in section 3 of the conductor-ramification
-proposal, within its exact actual-pair scope.
 
 ## 3. Full conductor duality and component genus: independent review PASS
 

@@ -24,6 +24,6 @@ These restrictions do not exclude the entirely-thick branch. Fixed first tangent
 
 ## Provenance
 
-- \`../notes/2026-10-06-session-thick-independent-audit.md\`
+- \`../supplements/OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit\`
 
 Active continuation: \`../open/entirely_thick.md\`.

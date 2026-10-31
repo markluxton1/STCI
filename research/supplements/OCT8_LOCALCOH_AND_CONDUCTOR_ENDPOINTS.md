@@ -1,12 +1,12 @@
-# October 8 historical mathematical investigations
+# Quartic ancestor incidence and conductor descent
 
-Full original source text is preserved below, including calculations, qualifications, counterexamples, and unresolved questions. This compilation does not independently audit or promote claims.
+The quartic-ancestor incidence and conductor arguments below retain their stated hypotheses. Endpoint-family closure is complete in [the exact local-cohomology proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md), including the degree-fifteen field.
 
 ---
 
-## Source: 2026-10-08-session-irreducible-conductor-compression.md
+<a id="source-2026-10-08-session-irreducible-conductor-compressionmd"></a>
 
-# Smooth normalized quartic scrolls: conductor descent and mate compression
+## Smooth normalized quartic scrolls: conductor descent and mate compression
 
 Date: 2026-10-08. Status: **PROVED conditional structural exclusion**,
 independently audited from the proposed conductor argument. The result
@@ -21,7 +21,7 @@ audits the reduced reducible extension. Section 7 records a separately
 audited rank-two nonreduced extension, whose restrictive hypotheses
 must remain attached to it.
 
-## 1. Exact statement and support hypotheses
+### 1. Exact statement and support hypotheses
 
 Work over an algebraically closed field of characteristic zero. Let
 X be an integral quartic hypersurface in P3. Let nu:S->X be its finite
@@ -76,7 +76,7 @@ because their quotient has neither zeros nor poles on the projective
 integral surface S. This global constant-unit conclusion is stronger
 than a local affine-unit statement.
 
-## 2. The actual upstairs conductor has no isolated defects
+### 2. The actual upstairs conductor has no isolated defects
 
 For completeness, the conductor is an invertible ideal on the smooth
 normalization in this setting. This does not require the normalization
@@ -118,7 +118,7 @@ isomorphically to Gamma and has H-degree three; c is not any such
 component either. Consequently f|D is generically nonzero on every
 reduced component used below.
 
-## 3. The double-cover involution remains exact at nodes
+### 3. The double-cover involution remains exact at nodes
 
 Because 2 is invertible and p is finite flat of rank two, trace splits
 the algebra as
@@ -147,7 +147,7 @@ integral over O_Gamma, and hence belongs to O_Gamma. The trace-algebra
 proof makes explicit why a node upstairs introduces no additional
 descent obstruction under the stated smooth-base hypotheses.
 
-## 4. Integral reduced D forces a quadratic descended mate
+### 4. Integral reduced D forces a quadratic descended mate
 
 The section nu*G descends from X, so its restriction to D is sigma
 invariant. Thus, in the function field of the integral reduced curve D,
@@ -170,7 +170,7 @@ If zeta=1, f itself descends by the same argument, yielding the even
 stronger impossible hyperplane in section 6. The quadratic compression
 works uniformly for zeta=1 and zeta=-1.
 
-## 5. Entire-conductor gluing and the C0 contradiction
+### 5. Entire-conductor gluing and the C0 contradiction
 
 The conductor square is exact for every finite normalization. Locally,
 with I its conductor,
@@ -210,7 +210,7 @@ q is nonzero and has divisor class (4,4). A divisor supported only on
 C0 would have class m(1,3), which cannot equal (4,4) for any positive
 integer m. Hence the descended quadric cannot exist.
 
-## 6. Reduced reducible D: contact prevents unequal eigenvalues
+### 6. Reduced reducible D: contact prevents unequal eigenvalues
 
 Retain all hypotheses except integrality, and now suppose D is
 reduced reducible. Since D~-K_S, its arithmetic genus is one, so
@@ -265,7 +265,7 @@ of order >m must have order >m. This is a contradiction. Thus no
 zeta!=1 is possible. The reduced reducible case is excluded without
 assuming its conductor nodes are ordinary pinch points.
 
-## 7. A rank-two nonreduced addendum
+### 7. A rank-two nonreduced addendum
 
 This addendum was proposed and independently audited by the separate
 normal-global-adversarial agent. It retains the exact entire conductor,
@@ -291,7 +291,7 @@ Thus f itself descends to an ambient hyperplane, again impossible.
 This handles all conductor scheme structures inside the specified
 smooth-base, flat-rank-two class.
 
-## 8. Boundaries and continuation information
+### 8. Boundaries and continuation information
 
 The resulting criterion excludes every smooth normalized rational
 quartic scroll whose actual downstairs conductor is a smooth twisted
@@ -317,26 +317,15 @@ contact and trace-algebra identities have a self-contained exact
 The verifier is an identity check; the all-degree proofs are the
 field-root, Taylor-order, and torsionfree arguments above.
 
-
 ---
 
-## Source: 2026-10-08-session-late-results-acceptance.md
+<a id="source-2026-10-08-session-late-results-acceptancemd"></a>
 
-# Root reconciliation of the late October 8 results
+## Ancestor incidence and smooth-scroll consequences
 
-This is the completed October 8 batch record. The
-[October 9 acceptance](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-results-acceptancemd)
-supersedes its remaining smooth-normalization language and gives
-the rationality, genus-one del Pezzo/D5 reductions and 630-point
-necessary principal mate bound. The historical 91/103 execution
-count below is preserved; the current index has 97/110.
+Fix C0 in characteristic zero. The [quartic-carrier theorem](../synthesis/quartic_carrier_proof.md) supplies the complete quartic-carrier exclusion; the incidence and conductor arguments below retain independent structural content. Ancestor exclusions and carrier exclusions have different hypotheses. The unrestricted characteristic-zero STCI question remains open.
 
-Date: 2026-10-08, America/New_York. Fixed C0 in characteristic zero.
-The universal STCI question and unrestricted C0 question remain OPEN.
-This note promotes completed proofs with their exact scopes; it does
-not turn the principal ancestor exclusion into a carrier theorem.
-
-## 1. The entire e=1,d2=1 common quartic ancestor lane
+### 1. The entire e=1,d2=1 common quartic ancestor lane
 
 **PROVED under the accepted canonical-triple reduction and P-037.**
 No common quartic ancestor of the two fixed independent targets has
@@ -368,16 +357,9 @@ the degree-one ancestor lane. The surviving e=1 ancestor degrees are
 d2=2,3,4, with the separately excluded quadric and algebraic directions
 still removed.
 
-Root's isolated open-proof replay exited zero in 83.978 seconds; its
-[central transcript](../validation/2026-10-07-continuation/verify_session_mf6_principal_rank_open_2026_10_08.log)
-binds source SHA256
-2fbefebda6723b7d721f0034c0167a2c70a3b79eed01675b99baf453453a9ac8.
-The independent auditor's four own executions, source snapshots and
-input closure are in the
-[principal audit manifest](../validation/2026-10-08-principal-e1-d1-audit/audit-manifest.json).
-The copied owner replay is not counted as an auditor execution.
+The principal-rank proof uses the exact reconstructed input and independent geometric argument. Repeated source snapshots and process transcripts are not additional independent mathematical checks.
 
-## 2. Smooth quartic scrolls: reduced or locally Gorenstein conductor
+### 2. Smooth quartic scrolls: reduced or locally Gorenstein conductor
 
 **PROVED:** if an integral quartic X has smooth rational quartic-scroll
 normalization and its actual downstairs conductor Gamma is reduced
@@ -386,15 +368,15 @@ positive degree. The theorem retains arbitrary upstairs conductor D.
 
 The actual conductor is an ACM cubic with Hilbert polynomial 3m+1;
 this is a scheme-level result, not a claim about the Jacobian radical.
-The [ACM audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-acm-independent-auditmd)
-and [owner proof](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-degenerate-conductormd)
+The [ACM audit](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md)
+and [owner proof](QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md)
 derive its Hilbert--Burch presentation and the exact sequence
 0 -> O_Gamma -> p_*O_D -> omega_Gamma -> 0.
 The reduced theorem includes the smooth twisted cubic, conic plus line,
 and all three-line configurations. The concurrent three-line case is
 excluded geometrically before any flat-cover assertion. See the
-[conic-plus-line audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-conic-line-independent-auditmd)
-and [three-line audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-three-lines-independent-auditmd).
+[conic-plus-line audit](QUARTIC_SCROLL_REDUCED_CONDUCTORS.md)
+and [three-line audit](QUARTIC_SCROLL_REDUCED_CONDUCTORS.md).
 
 For locally Gorenstein Gamma the exact sequence makes p finite flat
 of rank two even when Gamma is nonreduced. A locally Gorenstein triple
@@ -410,18 +392,14 @@ sigma(f)^n=f^n then forces sigma(f)/f=+1 or -1 in each entire generic
 Artin ring, with no nilpotent correction. Cohen--Macaulay purity extends
 square invariance globally, and the conductor square descends f^2 to
 the forbidden quadric mate. The
-[independent Gorenstein audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-gorenstein-independent-auditmd)
+[independent Gorenstein audit](QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md)
 accepts this scope. Root checked the thick-base partitions and the
 prime-exchange qualification; reduced-fibre reasoning alone would not
 justify them.
 
-**Retained boundary at this intermediate acceptance:** an actual conductor that is
-both nonreduced and not locally Gorenstein. Classification and an
-actual differential obstruction are being independently audited; the
-proposed extension is not a premise of the theorem accepted here.
-Singular normalizations and higher carrier degrees remain separate.
+Section 5 supplies the full nonreduced nongorenstein conductor argument. Singular normalizations and higher carrier degrees remain separate from this smooth-scroll theorem.
 
-## 3. The principal exceptional quartic (p,r)=(8,1/2)
+### 3. The principal exceptional quartic (p,r)=(8,1/2)
 
 **PROVED all-mate exclusion of this fixed carrier.** Its explicit
 normalization is F0. In invertibly changed coordinates the equation is
@@ -437,16 +415,10 @@ bind this equation to the unique actual boundary quartic. Root
 independently derived the normalization-ring closure and all six
 annihilator identities. Hilbert--Burch and the actual conductor Hilbert
 polynomial prove equality of the entire ideal sheaves, not just their
-support. A fresh isolated root replay of the
-[checker](../computations/verify_session_mf6_rhalf_scroll_2026_10_08.py)
-passed in 0.591 seconds, source SHA256
-9d532c25c9f50f206e0d57c5ce7f35b9feb54707bf1b630fd622c0c473028aa2.
-Its [transcript](../validation/2026-10-07-continuation/verify_session_mf6_rhalf_scroll_2026_10_08.log)
-retains the command and source/log hashes.
+support.
 
 The other complement carriers were already excluded as normal quartics
-or quartics singular along smooth twisted cubics. The generic principal
-carrier problem remains distinct. Its nonnormal locus is a proper
+or quartics singular along smooth twisted cubics. The principal direction-curve incidence remains distinct. Its nonnormal locus is a proper
 closed finite subset of the geometrically integral direction curve:
 the unique quartic kernel gives a regular projective family away from
 the treated node, and a normal b0=0 fibre makes the closed
@@ -454,36 +426,15 @@ positive-dimensional Jacobian-fibre locus proper. The exact finite
 subset is not yet enumerated. See section 6 of the
 [boundary proof](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-mf6-principal-boundary-auditmd).
 
-## 4. Execution and continuation state
-
-The original usage-limit interruption was followed by successful
-resumptions. A later 7:59 PM reset was independently checked at
-2026-10-09 01:01:59 UTC; current usage allowed ordinary work, and the
-assigned agents resumed. An earlier root poll could not access another
-agent's process 60266; its owner subsequently observed that process
-terminal with exit zero. An unavailable root handle is not evidence
-that the owner's observation failed. No root process is claimed live
-from a source file or an intended command.
-
-The [reconciled index](../validation/2026-10-08-continuation-index/index.json)
-at this earlier checkpoint included 91 distinct latest-PASS top-level sources and 103
-explicitly indexed executions, including the four actual independent
-principal executions. The baseline was retained. Earlier failed checks
-and the superseded Veronese source-byte retention limitation remain
-explicit. These counts establish provenance and execution scope; they
-do not substitute for the geometric proofs.
-
-## 5. Final accepted extension: every smooth rational quartic scroll
+### 5. Final accepted extension: every smooth rational quartic scroll
 
 **PROVED:** let X be an integral quartic with finite normalization S=F0,
 H=C+2f, or S=F2,H=C+3f, over an algebraically closed characteristic-zero
 field. No hypersurface of any positive degree has intersection with X
 supported exactly on the fixed C0. Both actual conductor schemes are
-unrestricted. This supersedes the intermediate conductor boundary in
-section 2, while retaining singular normalizations and other polarized
-normalization classes as separate work.
+unrestricted. It includes every conductor type; singular normalizations and other polarized normalization classes remain outside this smooth-scroll theorem.
 
-The [nongorenstein classification](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-cubic-classificationmd)
+The [nongorenstein classification](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md)
 uses the actual three-by-two linear Hilbert--Burch matrix. Its projective
 rank-zero locus is a point or a line. The point case is a cone over a
 noncollinear length-three scheme in P2; saturation and absence of linear
@@ -524,7 +475,7 @@ the smooth c, its tangent is the kernel, contradicting immersion of
 nu|c. The lemma also permits singular conductor primes. An isolated
 differential rank-drop point does not satisfy its hypothesis.
 
-Finally, the [exact Artin audit](OCT8_SCROLL_CONDUCTOR_AND_ACM.md#source-2026-10-08-session-scroll-artin-independent-auditmd)
+Finally, the [exact Artin audit](QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md)
 completes double-line-plus-line conductors directly, including the
 nongorenstein junction. Above the doubled line, free rank two over
 K[epsilon]/epsilon^2 gives only (a,r)=(4,1),(2,2), or two (2,1).
@@ -540,37 +491,31 @@ This proof uses entire Artin rings and the whole mate equation. The
 alternative transversal-plane delta argument is retained as a proposed
 secondary route; it is not needed for the accepted theorem. The
 independent Artin audit, differential audit, the
-[complete independent scroll audit](OCT8_SCROLL_GORENSTEIN_AND_SINGULAR_AUDITS.md#source-2026-10-08-session-scroll-nongorenstein-independent-auditmd)
+[complete independent scroll audit](QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md)
 and root verification supply the promoted scope. No broad classification of all nonnormal quartic
 surfaces is inferred from the classification of these ACM cubics.
 
-## 6. Accepted second-family quadratic exceptions
+### 6. Exact second-family closure and actual-tensor binding
 
 Both factors k^2+1 and k^2-2k-1 are excluded at all four geometric roots
 and for every lower parameter lambda. The
-[owner proof](#source-2026-10-08-session-localcoh-family2-quadraticsmd)
-and [independent audit](#source-2026-10-08-session-localcoh-family2-quadratic-independent-auditmd)
+[owner proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
+and [independent audit](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
 check polynomial duals with n^T L=0 and n^T u=1 on all eighteen actual
 quartic columns. Separate exact-field arithmetic rederives the seeds,
 directions, slopes, rank-29 top map and complete affine lift fibre.
 A fresh Macaulay2 reconstruction binds all 540 products and both target
 columns literally and proves equality with the complete next-stage Ext
 image. The [aggregate manifest](../validation/2026-10-08-family2-quadratic-audit/audit-manifest.json)
-retains all input/source hashes, isolated replay, countercheck and tensor
-execution history, including two preparatory failures.
+binds the exact input/source hashes and tensor reconstruction.
 
-The remaining second-family locus is 22 geometric points from factors
-of degrees 3,4,15, each retaining its entire lambda fibre OPEN. No
-survivor or rank jump is inferred from being an exception to the old
-generic dual. Other endpoint families and nonendpoint top zeros remain
-open.
-
+The cubic, quartic and degree-fifteen factors are also closed over their full exact quotient fields, uniformly in lambda, in [the completed endpoint proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md). Thus all 26 exceptional geometric roots of the second family are excluded; the first family is likewise complete. Nonendpoint top-zero charts require their separate actual incidence analysis.
 
 ---
 
-## Source: 2026-10-08-session-localcoh-e1-d1-endpoint-ancestors.md
+<a id="source-2026-10-08-session-localcoh-e1-d1-endpoint-ancestorsmd"></a>
 
-# The six defective e=1 endpoint triples also exclude quartic ancestors
+## The six defective e=1 endpoint triples also exclude quartic ancestors
 
 Date: 2026-10-08. Fixed `C0` in characteristic zero. Status:
 **PROVED COROLLARY OF THE ACCEPTED COMPLETE QUARTIC FIBRES AND P-037.**
@@ -637,12 +582,11 @@ the actual torus weights and reversal on 2026-10-08. This proof depends
 on those complete spaces; merely inspecting the displayed FL/FR forms
 would not suffice.
 
-
 ---
 
-## Source: 2026-10-08-session-localcoh-e1-d4-algebraic.md
+<a id="source-2026-10-08-session-localcoh-e1-d4-algebraicmd"></a>
 
-# Two algebraic e=1 directions exclude d2=4 quartic ancestors for every defect section
+## Two algebraic e=1 directions exclude d2=4 quartic ancestors for every defect section
 
 Date: 2026-10-08. Fixed C0 in characteristic zero. Status:
 **PROVED BY COMPLETE QUARTIC FIBRES AND A PARAMETER-COVERING RANK ARGUMENT;
@@ -652,7 +596,7 @@ This treats exactly the two
 directions `A=r*z,B=1,12r^2+4r+3=0` with d2=4. Other positive-D2
 directions and Gorenstein quadruples outside these fibres remain open.
 
-## 1. Genuine degree-four defects and their complete linear incidence
+### 1. Genuine degree-four defects and their complete linear incidence
 
 These directions have zero primitive quadratic obstruction and unique
 primitive correction gamma0=0. For a defect section delta in H0(O(4)),
@@ -683,7 +627,7 @@ classes u and v are independent. The proof below shows that this exact
 linear containment system has dimension at most one for every delta.
 No STCI mate or BF d2 bound is involved.
 
-## 2. The complete seven-dimensional double-quartic space
+### 2. The complete seven-dimensional double-quartic space
 
 The independent source reconstructs all 35 ambient degree-four monomials
 and imposes both the curve restriction and the first normal coefficient
@@ -722,7 +666,7 @@ through z^7 of
 delta*E-sum(a_i*e_i*z^(i+2),i=0..4).
 ```
 
-## 3. Exact minors cover every defect section
+### 3. Exact minors cover every defect section
 
 Write `delta=d0+d1*z+d2*z^2+d3*z^3+d4*z^4` in its finite chart.
 
@@ -757,12 +701,12 @@ direction has at most one independent containing quartic, and cannot
 support the two independent multiplier equations of a common quartic
 ancestor.
 
-## 4. Exact evidence and retained scope
+### 4. Exact evidence and retained scope
 
 Run
 
 ```sh
-PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python \
+PYTHONDONTWRITEBYTECODE=1 python3 \
  research/computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py
 ```
 
@@ -780,12 +724,11 @@ double-divisor/P-037 proof. Directions with nonzero primitive quadratic
 obstruction are not covered by this note. No claim eliminating an entire
 d2=4 Gorenstein stratum follows.
 
-
 ---
 
-## Source: 2026-10-08-session-localcoh-e1-d4-independent-audit.md
+<a id="source-2026-10-08-session-localcoh-e1-d4-independent-auditmd"></a>
 
-# Independent audit of the algebraic e1,d2=4 quartic exclusion
+## Independent audit of the algebraic e1,d2=4 quartic exclusion
 
 Date: 2026-10-08. Fixed C0, characteristic zero. Scope: exactly
 `A=r*z,B=1,12r^2+4r+3=0`, genuine degree-four second defect. The audited
@@ -799,7 +742,7 @@ with independent target classes u and v. This is uniform over every
 defect section, including repeated roots and roots at infinity. It does
 not eliminate the other directions or an entire Gorenstein stratum.
 
-## Genuine triples and normalization
+### Genuine triples and normalization
 
 The previously audited defective-triple presentation is
 `J=(delta*m+theta*y^2,m*y,m^2,y^3)`, up to the harmless sign convention
@@ -831,7 +774,7 @@ With theta one, the quotient has free basis `1,y,m` and relation
 The omitted terms lie in `(m*y,m^2,y^3)`. This also proves the containment
 criterion at zeros of delta, rather than merely away from them.
 
-## Complete ambient quartic space
+### Complete ambient quartic space
 
 The source enumerates all exponent quadruples of sum four: there are
 `binomial(7,3)=35`, each occurring once. It substitutes the actual
@@ -869,7 +812,7 @@ isomorphic to the kernel of the displayed `7x5` operator. In particular,
 E zero does not leave an extra primitive quartic: it forces h zero and
 both primitive coefficients zero.
 
-## Coverage of every defect section
+### Coverage of every defect section
 
 The four minor identities provide an exhaustive case split:
 
@@ -894,7 +837,7 @@ space. Their images would be proportional, contrary to the independent
 targets. This uses the accepted canonical-triple reduction for ancestors,
 not an STCI mate bound or a further carrier classification.
 
-## Fresh replay and provenance
+### Fresh replay and provenance
 
 The retained self-contained
 [`source`](../computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py)
@@ -914,525 +857,11 @@ The generated JSON is byte-identical to the retained canonical generated
 JSON; the original source and generated JSON were not modified. This
 audit does not edit any canonical frontier file.
 
-
 ---
 
-## Source: 2026-10-08-session-localcoh-family2-generic.md
+<a id="source-2026-10-08-session-localcoh-quadric-directionmd"></a>
 
-# Second endpoint family: exact generic exclusion and retained exceptions
-
-Date: 2026-10-08. Scope: characteristic zero, the fixed rational quartic
-`C0=[s^4:s^3t:st^3:t^4]`, primitive degree-two normal-dual directions,
-pure cubic top `h=t`, and the second rational endpoint family. This note
-does not address either `p(0)=0` boundary family or a nonendpoint top zero.
-
-## Result and exact unresolved locus
-
-**PROVED under the audited actual multiplication tensor and coordinate
-bases:** the second rational endpoint family excludes target `u`, for
-every lower-correction parameter `lambda`, away from the displayed
-denominator roots. After removing chart poles and nonprimitive directions,
-the following five square-free, pairwise-coprime factors retain exactly
-26 primitive geometric parameter points:
-
-```text
-k^2+1
-k^2-2k-1
-3k^3+4k^2+9k-4
-13k^4+10k^3+2k^2-42k-7
-243k^15+810k^14+2646k^13+990k^12-9465k^11-54222k^10
- -114414k^9-166406k^8-34359k^7+301686k^6+897946k^5
- +1296458k^4+1345117k^3+811630k^2+285598k-610
-```
-
-Each retained parameter point still has its complete affine `lambda`
-fibre. These are exceptions to this certificate, with no implication
-that they support an ancestor or even an actual rank jump. No exceptional
-field fibre was computed in this branch.
-
-## Actual direction and complete affine family
-
-The independently classified second family has
-
-```text
-p=1+(k^2+3)/(2-2k^2)*t
-     -(k^2+2k+3)/(2(k+1)^2)*t^2,
-r=1+(k-3)(k^2+2k+3)/((k-1)^2(k+1))*t
-     -2(k^2+1)(k^2-2k-1)(k^2+2k+3)/((k-1)^3(k+1)^3)*t^2.
-```
-
-Its actual quartic lift is the complete affine line
-`a*(k)+lambda*k0`, where the 32-by-30 pure-top map has rank 29 and `k0`
-is its nonzero kernel vector. The clearing factors are
-
-```text
-B=2(k-1)^3(k+1)^3                  [direction denominator]
-A=120(k-1)^9(k+1)^9               [ancestor denominator].
-```
-
-The certificate stores `alpha=A*(a*+lambda*k0)`, along with
-`P=B*p` and `R=B*r`. Its standard-library verifier checks all four
-rational direction formulas by polynomial cross-multiplication, the
-rank-29 top map, and the coefficient of `lambda` in each of the thirty
-ancestor coordinates. It verifies all 32 cleared pure-top identities
-
-```text
-B^3 * M(alpha) = A * coefficients(t*P^i*R^(3-i)), i=0,1,2,3.
-```
-
-Since `A` and `B` are nonzero on the retained chart, these checks prove
-coverage of the entire affine lift fibre at every retained parameter.
-
-## Exact polynomial dual
-
-The saved full 74-by-18 module calculation over `QQ(k)[lambda]` returned
-target evaluation ideal `(1)` and a complete polynomial left dual. The
-cleared dual has 26 nonzero entries and degree at most two in `lambda`.
-Its exact target value is
-
-```text
-D=89514547200*(k-1)^15*(k+1)^12*(k^2+1)^5*(k^2-2k-1)^5
- *(k^2+2k+3)^4*(3k^3+4k^2+9k-4)
- *(3k^4-2k^3-6k^2-18k-9)*(13k^4+10k^3+2k^2-42k-7)
- *(243k^15+810k^14+2646k^13+990k^12-9465k^11-54222k^10
-   -114414k^9-166406k^8-34359k^7+301686k^6+897946k^5
-   +1296458k^4+1345117k^3+811630k^2+285598k-610).
-```
-
-The verifier checks all eighteen actual tensor-column identities
-`n^T L(alpha)=0` over `QQ[k,lambda]` and `n^T u=D`. It also checks
-the actual target columns in the stored tensor are `e72,e73`.
-Therefore target `u` cannot lie in the multiplier image wherever `D!=0`,
-for every value of `lambda`.
-
-A fixed four-by-four homogeneous Sylvester determinant gives
-
-```text
-Res_hom(p,r)=-8*(k^2+2k+3)*(3k^4-2k^3-6k^2-18k-9)
-             /((k-1)^5*(k+1)^6).
-```
-
-Thus `k=+/-1` are chart poles, while the roots of `k^2+2k+3` and
-`3k^4-2k^3-6k^2-18k-9` are nonprimitive. The independent verifier
-reconstructs the full factorization of `D`; verifies the five remaining
-factors are square-free and pairwise coprime; and verifies they are
-coprime to both the chart factor and the homogeneous resultant numerator.
-This establishes the precise count and scope of the retained 26 points.
-
-## Reproduction, evidence, and terminal status
-
-Recompute the generic module:
-
-```sh
-/opt/homebrew/bin/M2 --script \
-  research/computations/session-localcoh-origin-family-2.m2
-```
-
-Regenerate its cleared certificate using SymPy:
-
-```sh
-PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python \
-  research/computations/verify_session_localcoh_family2_generic_2026_10_08.py --regenerate
-```
-
-Verify every saved identity and scope assertion with an ordinary Python:
-
-```sh
-python3 research/computations/verify_session_localcoh_family2_generic_2026_10_08.py
-```
-
-The M2 process was explicitly launched in tool session `55063` on
-2026-10-08 and completed with exit code zero. Certificate regeneration
-in session `18670` and strengthened default verification in session
-`79082` also completed with exit code zero. No process from this branch
-remains running. An auxiliary dense rational point-rank probe in session
-`26885` was stopped with `KeyboardInterrupt` and exit code 130 after
-the generic dual had completed; it produced no rank result, and none
-is asserted here.
-
-Full evidence is retained in
-[`session-localcoh-origin-family-2-generic-dual.txt`](../computations/session-localcoh-origin-family-2-generic-dual.txt),
-[`session-localcoh-origin-family-2-evaluations.txt`](../computations/session-localcoh-origin-family-2-evaluations.txt),
-[`session_localcoh_family2_generic_dual_audit_2026_10_08.json`](../computations/session_localcoh_family2_generic_dual_audit_2026_10_08.json),
-and the separate
-[`verify_session_localcoh_family2_generic_2026_10_08.py`](../computations/verify_session_localcoh_family2_generic_2026_10_08.py).
-The original generic verifier is imported as an unchanged standard-library
-arithmetic helper; its exact file hash, all coordinate sources, the seed,
-the full module input, raw dual, and evaluation output are bound to the
-new certificate. The first family's sources and Q1/Q3 artifacts were
-left unchanged.
-
-
----
-
-## Source: 2026-10-08-session-localcoh-family2-quadratic-independent-audit.md
-
-# Independent audit of both family2 quadratic exception fibres
-
-Date: 2026-10-08. Scope: characteristic zero, the fixed rational quartic
-`C0=[s^4:s^3t:st^3:t^4]`, the second primitive degree-two endpoint
-direction family, and all its lower correction parameters at the roots
-of `k^2+1` and `k^2-2k-1`. Auditor: a separate agent from the coefficient
-certificate producer. No original coefficient certificate, generation
-source, or canonical frontier document was edited.
-
-## Verdict
-
-**PROVED under the previously audited local-cohomology interpretation:**
-the two roots of each quadratic, four geometric direction parameters in
-total, exclude target `u` for **every** affine lower correction `lambda`.
-The producing verifier passed an isolated replay with all thirteen input
-files frozen. A separate implementation using SymPy algebraic-number
-domains passed all exact polynomial identities without importing the
-producing verifier or regenerating its coefficient certificates.
-
-Together with the previously accepted generic family2 certificate, these
-exclusions reduce that certificate's retained primitive direction locus
-from 26 points to 22 points, of degrees `3+4+15`. Each remaining point
-retains its entire affine `lambda` fibre. These are unresolved certificate
-exceptions; no surviving incidence or ancestor is inferred. The other
-endpoint families, nonendpoint top zeros, unrestricted quartic incidence,
-and the global STCI problem remain outside this conclusion.
-
-## Actual forms, top map, and complete parameter fibre
-
-The independent
-[`countercheck.py`](../validation/2026-10-08-family2-quadratic-audit/countercheck.py)
-parses the displayed stage-four ancestor numerators and quartic forms in
-[`localcoh-incidence-bases.txt`](../computations/localcoh-incidence-bases.txt).
-It verifies the quartics are the following **actual degree-four forms**:
-
-```text
-q=xw-yz, A=x^2z-y^3, B=xz^2-y^2w, C=yw^2-z^3;
-q*(x^2,xy,xw,yz,zw,w^2),
-A*(x,y,z,w), B*(x,y,z,w), C*(x,y,z,w).
-```
-
-They all vanish on `C0` and have independent coefficient vectors of rank
-18. The restriction of the 35 degree-four monomials to `C0` has rank 17,
-so the displayed forms span exactly the full degree-four ideal piece.
-They are not four-coordinate generator rows mistaken for polynomial forms.
-
-The checker independently substitutes `x=1,y=t,z=t^3+a,w=t^4+ta+q`
-in every actual ancestor numerator. It extracts its normal-order-three
-part, converts it to the previously audited balanced normal coordinates,
-and computes all four degree-six residues. All thirty top columns match
-the saved top map literally. The resulting `32x30` matrix has rank 29.
-Its nonzero rational kernel vector is exactly the lower slope in the
-family2 seed. Consequently every lift of the specified nonzero pure top
-is the full affine line
-
-```text
-alpha(k,lambda)=a*(k)+lambda*k0.
-```
-
-At each quadratic field, all thirty constant seed coefficients and all
-thirty slopes are compared directly to the rational family2 source, and
-all six direction coefficients are compared to the same source. Every
-source denominator is inverted only after checking it is a unit modulo
-the defining quadratic. All 32 coefficients of the specified actual
-normalization `t*p^i*r^(3-i)`, `i=0,1,2,3`, match the top of `alpha`.
-Thus no lower parameter is lost through sampling or a generic-rank
-argument. The projective limit with zero top is a different stratum,
-not a lift of this fixed nonzero top.
-
-The independent fixed-size homogeneous Sylvester determinant is nonzero
-in each field even though `r` loses its quadratic coefficient there:
-
-| Field | Chosen exact embedding | Homogeneous resultant |
-|---|---|---|
-| `QQ[k]/(k^2+1)` | `k=i` | `-8i` |
-| `QQ[k]/(k^2-2k-1)` | `k=1+sqrt(2)` | `-96+68sqrt(2)` |
-
-The second norm is `-32`, so neither conjugate resultant vanishes. Both
-quadratics are coprime to the chart-pole factor and homogeneous
-nonprimitive factors. These four parameters are admissible primitive
-directions, not excluded chart or normalization points.
-
-## Independent field and polynomial dual checks
-
-The original verifier uses rational coefficient pairs and an AST parser.
-The new countercheck instead uses SymPy's algebraic-number domains
-`QQ(i)` and `QQ(1+sqrt(2))`, reducing rational source expressions by
-polynomial remainders and extended inverses. It does not import any
-helper from the original verifier. It also compares all 74 entries of
-each raw Macaulay2 dual directly with the saved coefficient certificate.
-
-In each field the dual has 27 nonzero entries and degree two in `lambda`.
-The tensor is read as a sparse `74x542` matrix with header
-`30 18 74 542`; its last two target columns are checked to be exactly
-`e72,e73`. For each of the eighteen multiplier columns, the new checker
-forms its image from **all thirty ancestor coordinates**, multiplies it
-by the full dual, and verifies that every coefficient through degree
-three in `lambda` is zero:
-
-```text
-n(lambda)^T L(alpha(lambda))=0,    n(lambda)^T u=1.
-```
-
-If `L(alpha)*x=u`, these exact identities would give `0=1` after left
-multiplication by `n`. One valid dual is sufficient; correctness does
-not depend on trusting a claim that the exported vector spans an entire
-left kernel or that the producing module computation was exhaustive.
-There are no `lambda` denominators, so specialization creates no
-additional exceptional lower parameters.
-
-The defining quadratics have discriminants `-4` and `8`; both are
-irreducible and separable over `QQ`. The identities transport through
-both embeddings into any algebraically closed characteristic-zero
-field. Every inverted field unit remains nonzero under each embedding.
-This establishes all four geometric roots, rather than just the two
-chosen exact embeddings used by the independent arithmetic implementation.
-
-## Durable execution record
-
-The independent countercheck completed in tool session `19588` with exit
-code zero. Its source, output, and full input hashes are in
-[`countercheck-result.json`](../validation/2026-10-08-family2-quadratic-audit/countercheck-result.json)
-and the retained
-[`countercheck.log`](../validation/2026-10-08-family2-quadratic-audit/countercheck.log).
-Its source SHA256 is
-
-```text
-88e8aa6072fd93074453a2fe6fbef710bc3b6a2273151f12d00320233c095334
-```
-
-The unchanged original verifier was copied with all its input closure
-into a separate snapshot and ran with exit code zero in 0.082 seconds.
-The snapshot's thirteen input hashes were unchanged after execution.
-Reproduction and its terminal record are in
-[`isolated-replay.py`](../validation/2026-10-08-family2-quadratic-audit/isolated-replay.py),
-[`isolated-replay.log`](../validation/2026-10-08-family2-quadratic-audit/isolated-replay.log),
-and
-[`isolated-replay-manifest.json`](../validation/2026-10-08-family2-quadratic-audit/isolated-replay-manifest.json).
-The replayed original verifier SHA256 is
-`a1168854beed0d56838851710444a5d2d35ef835333f9ab179d2163f23739ea3`;
-its output SHA256 is
-`69a490fc61abf1fe30a932b6e84f5707470db7e47806aef71921fb4f10dd1aed`.
-
-Reproduce the additional independent check from the repository root:
-
-```sh
-PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python \
-  research/validation/2026-10-08-family2-quadratic-audit/countercheck.py
-PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python \
-  research/validation/2026-10-08-family2-quadratic-audit/isolated-replay.py
-```
-
-The producing agent's independent evidence and original process history
-are retained in the
-[quadratic proof note](#source-2026-10-08-session-localcoh-family2-quadraticsmd).
-The absent parent-local handle for one producing process was not treated
-as a failed computation or used to infer a live process. Acceptance here
-comes from the exact identities and new terminal executions.
-
-## Fresh reconstruction of the complete actual tensor
-
-An additional independent Macaulay2 checker completed with exit code zero
-in 0.840 seconds. Its
-[`actual-tensor-reconstruction.m2`](../validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2)
-rebuilds the ancestor space from the Ext map, verifies that it has
-dimension 30 and that the map is injective in degree `-7`, and sums all
-four ideal-generator contributions to obtain actual quartic forms.
-Every one of its thirty degree-thirteen ancestor polynomial entries and
-eighteen quartic polynomial entries agrees literally with the frozen
-displayed bases. It additionally verifies `I^4*h subset (q^4,B^4)` for
-each ancestor and every generator of `I^4`.
-
-All 540 actual ancestor-times-quartic product columns and the two target
-columns are reduced modulo `(q^4,B^4)` afresh. Their full coefficient
-matrix has rank 74, the product-only matrix already has rank 74, and
-the independent compressed matrix is **literally equal** to the retained
-`74x542` tensor. The union of the uncompressed coefficient rows and stored
-rows also has rank 74. Thus no quotient equation or target row was lost
-through compression. The entire degree `-3` stage-three Ext image is
-independently reconstructed in the same quotient, its injection is
-verified, and its union with the 540 product columns has rank 74. This
-establishes actual equality with the complete next-stage image, beyond
-merely matching its abstract dimension.
-
-Its
-[`actual-tensor-reconstruction.log`](../validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.log),
-[`terminal result`](../validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction-result.json),
-and
-[`frozen input manifest`](../validation/2026-10-08-family2-quadratic-audit/actual-tensor-input-manifest.json)
-retain the exact evidence. Source SHA256:
-
-```text
-b2c4722f6d9b5d9ece43d5bfd38348527ceec7577832c37747263a8a9b85c187
-```
-
-Log SHA256:
-
-```text
-31188e3f9f4940157ed8286c3c3a9ef5a0cc94fa8a95ca299ab6183ee17c4700
-```
-
-Two earlier checker scaffolding failures are preserved separately: an
-M2 sequence-versus-list mismatch and comparison of differently graded
-matrices rather than their polynomial entries. Neither reported a
-disagreement of a displayed polynomial or tensor entry. The final
-checker uses entrywise polynomial comparison for the graded ancestor
-matrix and performs the literal rational tensor comparison successfully.
-The first passing source, log, and terminal result are also retained as
-`attempt03-pass` records; the final source strengthens that pass by
-identifying the complete next-stage image explicitly. The full tensor
-development record is in
-[`actual-tensor-provenance.json`](../validation/2026-10-08-family2-quadratic-audit/actual-tensor-provenance.json).
-
-The combined
-[`audit-manifest.json`](../validation/2026-10-08-family2-quadratic-audit/audit-manifest.json)
-binds this note, the three successful final proof checks, their input
-closures, the original generation history, and both retained scaffolding
-failures. No process from this audit remains running.
-
-
----
-
-## Source: 2026-10-08-session-localcoh-family2-quadratics.md
-
-# Exact closure of both quadratic exceptions in endpoint family2
-
-Date: 2026-10-08. Scope: characteristic zero, the fixed rational quartic
-`C0=[s^4:s^3t:st^3:t^4]`, the second primitive degree-two endpoint family,
-and its complete affine line of lower quartic corrections. The pure top
-is the actual saved `t*p^i*r^(3-i)` normalization. This note concerns the
-two quadratic exceptions to the generic family2 dual, with no assertion
-about the other endpoint families or a nonendpoint top zero.
-
-## Result
-
-**PROVED under the audited actual tensor and coordinate bases:** both
-roots of `k^2+1` and both roots of `k^2-2k-1` exclude target `u` for every
-`lambda`. These four geometric direction parameters are removed from the
-generic family2 certificate's retained locus.
-
-The remaining exceptions to that generic certificate are precisely the
-22 geometric roots of the following three factors, each still retaining
-its full affine `lambda` fibre:
-
-```text
-3k^3+4k^2+9k-4
-13k^4+10k^3+2k^2-42k-7
-243k^15+810k^14+2646k^13+990k^12-9465k^11-54222k^10
- -114414k^9-166406k^8-34359k^7+301686k^6+897946k^5
- +1296458k^4+1345117k^3+811630k^2+285598k-610
-```
-
-Their square-free, pairwise-coprime and primitive-chart status was checked
-by the complete generic verifier. This branch does not assert they are
-actual incidence survivors. No high-degree factor calculation was begun.
-
-## Exact fields and independent coefficient reconstruction
-
-The two computations use
-
-```text
-Kplus=QQ[k]/(k^2+1),       k^2=-1,       discriminant=-4;
-Kminus=QQ[k]/(k^2-2k-1),  k^2=2k+1,     discriminant=8.
-```
-
-Both quadratics are irreducible over `QQ`, since their discriminants
-are nonzero rational nonsquares. A single standard-library verifier
-implements exact arithmetic in both fields with rational coefficient
-pairs. For `k^2=c+d*k`, it inverts `a+b*k` by the explicit formula
-
-```text
-(a+b*k)^(-1) = (a+d*b-b*k)/(a^2+d*a*b-c*b^2).
-```
-
-Every rational source denominator is checked by this norm formula to
-be a field unit. A restricted AST parser, with no `eval`, reconstructs
-all source expressions directly in the quadratic field and its
-polynomial ring in `lambda`. On every default verification run, it
-rederives all thirty saved seed coefficients, all thirty lower slopes,
-and the four direction coefficients from the family2 rational expressions.
-It compares them exactly with the certificate; it does not merely trust
-a previously reduced coefficient table or a point sample.
-
-The explicit direction formulas checked are
-
-```text
-p=1+(k^2+3)/(2-2k^2)*t
-     -(k^2+2k+3)/(2(k+1)^2)*t^2,
-r=1+(k-3)(k^2+2k+3)/((k-1)^2(k+1))*t
-     -2(k^2+1)(k^2-2k-1)(k^2+2k+3)/((k-1)^3(k+1)^3)*t^2.
-```
-
-In both fields the verifier checks all 32 actual pure-top identities,
-the rank-29 top map, and that the coefficient of `lambda` in the lift
-is the exact nonzero kernel vector. Thus the full affine lift fibre is
-covered. Its fixed four-by-four Sylvester determinant confirms the
-homogeneous direction is primitive, even though `r` loses its quadratic
-coefficient at these parameter values.
-
-## Full polynomial duals
-
-Separate reduced 74-by-18 modules were generated from the actual tensor,
-using the directly reconstructed field coefficients. In each field,
-Macaulay2 computed the full polynomial left-kernel module over `K[lambda]`
-and returned target evaluation ideal `(1)`. The resulting duals each have
-27 nonzero entries and degree at most two in `lambda`.
-
-The independent verifier checks every coefficient of all eighteen
-identities `n^T L(a*+lambda*k0)=0`, and checks `n^T u=1`. It checks the
-actual target columns in the tensor are `e72,e73`, so the target evaluation
-is tied to the same actual multiplier incidence. Since the fields are
-quadratic and separable in characteristic zero, these identities hold
-through both embeddings of each field into an algebraic closure. No
-specialization or generic-rank extrapolation enters the conclusion.
-
-## Reproduction and terminal execution evidence
-
-Generate both exact field modules without SymPy:
-
-```sh
-python3 research/computations/verify_session_localcoh_family2_quadratics_2026_10_08.py --generate
-```
-
-Run each separate M2 module:
-
-```sh
-/opt/homebrew/bin/M2 --script research/computations/session-localcoh-origin-family-2-exception-qplus.m2
-/opt/homebrew/bin/M2 --script research/computations/session-localcoh-origin-family-2-exception-qminus.m2
-```
-
-Regenerate coefficient certificates and verify everything using only an
-ordinary Python:
-
-```sh
-python3 research/computations/verify_session_localcoh_family2_quadratics_2026_10_08.py --regenerate
-python3 research/computations/verify_session_localcoh_family2_quadratics_2026_10_08.py
-```
-
-The qplus M2 process was observed terminal with exit code zero in agent-local
-tool session `60266`. Its complete output included matrix readiness,
-full polynomial kernel completion, full evaluation-ideal export, and
-complete polynomial dual export. A parent-local query could not resolve
-that handle; the agent's terminal observation and saved outputs are
-the evidence for completion. No replay was inferred necessary from the
-parent's unavailable handle. The qminus run returned exit code zero
-directly. Both coefficient-regeneration checks and the fresh combined
-default verification passed. No process from these two branches remains
-running.
-
-Evidence is retained in the
-[`standard-library generator and verifier`](../computations/verify_session_localcoh_family2_quadratics_2026_10_08.py),
-the
-[`qplus exact certificate`](../computations/session_localcoh_family2_qplus_audit_2026_10_08.json),
-the
-[`qminus exact certificate`](../computations/session_localcoh_family2_qminus_audit_2026_10_08.json),
-the separate `.m2`, `-dual.txt` and `-evaluations.txt` files for each field,
-and the frozen source/output hashes in
-[`session_localcoh_family2_quadratics_execution_2026_10_08.json`](../computations/session_localcoh_family2_quadratics_execution_2026_10_08.json).
-Canonical frontier documents were left to the root agent.
-
-
----
-
-## Source: 2026-10-08-session-localcoh-quadric-direction.md
-
-# Every quartic ancestor in the quadric quotient direction is excluded
+## Every quartic ancestor in the quadric quotient direction is excluded
 
 Date: 2026-10-08. Fixed `C0=[s^4:s^3t:st^3:t^4]` in characteristic
 zero. Status: **PROVED, conditional on the accepted ancestor-to-canonical-

@@ -3,7 +3,11 @@ on:
   pull_request:
     paths:
       - 'research/computations/**'
-      - 'research/notes/2026-10-23-**'
+      - 'research/synthesis/quartic_pair_obstruction.md'
+      - 'research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md'
+      - 'research/results/quartic_44_filtered_exclusion.md'
+      - 'research/results/quartic_conormal_characteristic_jump.md'
+      - 'research/results/quartic_mu4_degeneration.md'
       - '.github/workflows/verify-quartic-44.yml'
   workflow_dispatch:
 jobs:

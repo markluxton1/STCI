@@ -1,19 +1,12 @@
-# genus two lambda1 horizontal line budget
+# Genus-two marked sections: free chains and integral pullback cycles
 
-Permanent detailed mathematical record, including all proofs, calculations, counterexamples and explicit unresolved conditions.
-
-# Genus-two lambda-one line budget: free chains and integral pullback cycles
-
-Date: 2026-10-10. Owner: `lambda1_horizontal_line_budget`, with independent
-checks by `plane_proximity_audit` and `anti_nef_star_bound`.
-
-Status at the requested pause: **PROVED HERE, bounded conditional one-line
-exclusion; TWO-LINE ARGUMENT SUPPLIED FOR PARENT AUDIT**. No canonical
-frontier file is edited. The global genus-two mate lane remains **OPEN**:
-this note assumes the absence of the degree-zero horizontal exceptional
-prime, and the parent has not yet accepted complete graph coverage or
-promoted the two-line argument. Independent agreement is not itself a
-proof of a broader exclusion.
+This proves the absence-of-degree-zero-horizontal-prime subcase of the
+fixed-curve genus-two section argument in characteristic zero. Both the
+one-line and two-line exclusions are independently accepted components;
+the complete all-quartic theorem and its later trisecant endings are in
+[the carrier proof](../synthesis/quartic_carrier_proof.md). The integral
+anti-nef uniformizer condition is essential. The counterexamples below
+explain why weaker vertex-count and individual-coefficient shortcuts fail.
 
 The starting reductions are sections 7--8 of
 [the adjoint conic model](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd)
@@ -156,7 +149,7 @@ contrary to the anti-nef bound three at H. This excludes the single
 horizontal proper-line case under the stated absence of E0. It does
 not use a classification of the other vertical exceptional fibers.
 
-## 4. Two horizontal proper lines: revised argument for parent audit
+## 4. Two horizontal proper lines
 
 Assume two horizontal proper lines H1,H2 exist. Their disjointness on
 M and their plane intersection number one imply that they share
@@ -215,10 +208,7 @@ h-degree zero. This contradicts the marked correction identity:
     h.Z = 3,
 
 because its proposed exceptional representative has
-h.Z=a_H1+a_H2=1. This supplies a two-line exclusion argument for
-parent review. The free-chain coverage and equality geometry must
-be checked before promoting a complete exclusion of the no-E0
-subcase into the canonical frontier.
+h.Z=a_H1+a_H2=1. This proves the two-line exclusion under the stated absence of E0; it is the independently accepted free-chain component used in the full trisecant proof.
 
 ## 5. Failed preliminary shortcuts retained for continuation
 
@@ -243,13 +233,13 @@ centers can create another A3, so the former proposed total bound
 in section 4 is one, with its equality configuration excluded using
 the full marked class h.Z=3.
 
-## 6. Pause boundary
+## 6. Scope and characteristic boundary
 
-The one-line conditional proof is ready for exact audit. The two-line
-argument is written out and supplied for parent audit; its status
-has not been promoted during the pause. The h-degree-zero horizontal
-prime E0 case is untouched. No conductor classification, descent of
-mate sections, exhaustive genus-two theorem, or global STCI conclusion
-is asserted here. Resume by checking the chain coverage and two-line
-equality configuration against the parent's E0 analysis, while
-preserving the integral uniformizer-cycle condition.
+The degree-zero horizontal prime E0 is outside this proof; the full
+quartic theorem treats it by the actual ambient conic model and conductor
+attachments. Its existence is forced after the no-E0 contradiction above.
+The chain recurrences and integer anti-nef argument are intersection-
+theoretic and do not use division by the characteristic; the actual
+rational marked model, exceptional-prime classification and smooth
+embedded descent remain premises. This is not an independent extension
+of the whole carrier exclusion to positive characteristic.

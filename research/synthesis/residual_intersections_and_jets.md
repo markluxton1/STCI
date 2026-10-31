@@ -1,123 +1,154 @@
-# Residual intersections, deformations, and global jet bounds
+# Residual intersections: actual cycles, attachment, and equation sources
 
-**Status:** thematic synthesis of scoped canonical results and open interfaces. This is not a new theorem or an independent rerun of computational certificates. Start with [the simultaneous-surface chapter](02-two-surfaces.md) and [the formal-normal intersection framework](formal-normal-intersection.md).
+For the fixed quartic, the unrestricted characteristic-zero STCI question
+remains open. Study a general proper pair \(Y=V(F_a,G_b)\) through
+\(C=C_0\) by its actual cycle \([Y]=m[C]+R\), with
+\(\deg R=ab-4m\). A strict bound on generic length can force residual
+degree; a curve on an exceptional divisor alone cannot. [Chapter 2](02-two-surfaces.md)
+introduces the approaches; this page routes directly to their full proofs.
 
-**Varying-lift qualification.** A compatible quadratic symbol determines a sextic only modulo \(\eta q^3\). Since \(q^3\) has normal order three, the correct existence test for some sextic lift is \(h+\eta(q^3)_3=f(\ell u+mv)\). The correction map alone has rank sixteen; the augmented map including \(\eta\) has rank sixteen or seventeen depending on whether \((q^3)_3\) lies in its image. Consequently a fixed-lift cubic failure does not, without checking this extra direction, exclude every lift of the same symbol. The reported \(-384\) pairing must be checked against \((q^3)_3\) before it is used as a varying-lift obstruction. See [the precise correction](normalization_conductor_phase2_addendum.md#varying-the-sextic-lift-the-missing-q3-direction).
+## Canonical residual statements and their distinct mechanisms
 
+| Statement | Proof home and essential scope | What it does not supply |
+|---|---|---|
+| [R-0019](../results/quasiprimitive_residual_cycles.md) | [Saturated quasiprimitive flag proof](quasiprimitive_residual_cycles.md): triangular multiplication determinant, finite-flat identification, proper auxiliary residual zero-cycle | A scheme equality or a residual-curve theorem for arbitrary nonsaturated flags |
+| [R-0023](../results/ci_quartic_explicit_residual_geometry.md) | [Explicit quartic residuals](explicit_quartic_residuals.md): exact homogeneous ideal unions, Jacobian and connectedness certificates | A classification of quartic pairs |
+| [R-0024](../results/ci_quartic_fixed_boundary_smoothing.md) | [Fixed-boundary smoothing](fixed_boundary_smoothing.md): actual global tangent maps of ranks 19,5,24 and node-family charts | Removal of residual degree or an explicit polynomial coefficient arc |
+| [R-0025](../results/ci_fixed_sextic_jet_rigidity.md) | Full proof in its record: one selected sextic, degree-sixteen source, normal quotient and rank/kernel certificate | A theorem on every sextic or every mate degree |
 
-## 1. Setup: proper intersections are not necessarily STCI
+The explicit (2,3) quartic benchmark has a smooth degree-twelve genus-sixteen
+residual meeting \(C\) in eighteen transverse points. At the (1,1) benchmark
+that residual is a line and smooth degree-eleven genus-twelve curve with
+five transverse internal nodes. The five smoothing parameters remain
+independent with the exact marked attachment divisor fixed. Smoothing changes
+residual singularities, not the cycle degree twelve.
 
-For two surfaces meeting properly and containing the fixed quartic C, write the fundamental cycle as [V(F,G)] = m[C] + R. Then de = 4m + degree(R), so m = de/4 **only** when R vanishes. See [Chapter 2](02-two-surfaces.md) for generic normal orders and exceptional directions, and [Formal normal geometry](formal-normal-intersection.md) for the provisional full-initial-ideal/valuation framework.
+The fixed sextic instead yields \(m\le22\) and \(\deg R\ge8\) by limiting
+**all actual degree-sixteen mates** in that one source. Its 23-dimensional
+normal quotient, 969 global coefficients, 286 carrier multiples and good
+finite specializations explain why rank 683 proves the exact kernel. The
+independent normal-division replay succeeded in CI; Macaulay2 was not rerun
+in that workflow. A characteristic-65521 extension from that very certificate
+is separately stated for consolidation review.
 
-The results below concern **specific residual cycles, deformation families, and global jet sources**. None makes a vertical exceptional component into a positive-degree residual curve or proves that every pair has residual support.
+## Attachment and actual global constructions
 
-For sole-support pairs, \(4\mid de\), equivalently \(4/\gcd(4,d)\mid e\). A positive residual degree changes the equation to \(de=4m+\deg R\), so the divisibility filter is **not** a necessary condition for arbitrary proper intersections containing \(C\). This distinction is useful when interpreting a fixed-carrier jet bound: a residual curve is not a contradiction to Bézout.
+The [full-primary attachment account](residual_capacity_and_constructions.md)
+proves the exact marked-divisor identity including non-lci torsion, its
+normal-nilpotent correction to full attachment, universal degree bounds,
+and necessary tests for residuals of degrees one and two. Its local control
+has a unit determinant but marked attachment length two and full attachment
+length six. This distinguishes a useful correction from a misleading
+conormal-only detector.
 
-## 2. Four distinct results and their scopes
+The [normalization capacity account](normalization_residual_capacity.md)
+explains the common nef mechanism for a carrier smooth along \(C\), normal
+with marked singularities, or nonnormal with a single/multiple divisorial
+inverse. Its smooth case gives the sharp uniform bound \(\deg R\ge ab/3\).
+A positive Hodge gap gives capacity; a zero gap leaves a potential endpoint
+and does not establish conductor descent. [Prescribed singular carriers](prescribed_singular_carriers.md)
+realize arbitrary A-type local indices and actual smooth residuals cancelling
+the local class, with exact attachment lengths.
 
-**A. Residual cycles from a saturated quasiprimitive flag.** [R-0019](../results/quasiprimitive_residual_cycles.md) gives a torsion-length identity and a proper residual zero-cycle formula under finite-flat curvilinear and saturated-order-flag assumptions, plus a smooth auxiliary surface with a nonzero generic first class and proper residual intersection. It also bounds the first-normal divisor by the top defect under its additional primitive-horizontal-kernel hypothesis. These are *length cycles and divisor inequalities*, not scheme/ideal equalities. Do not apply them to an unsaturated associated graded or an improper residual intersection.
+The [all-degree construction account](residual_global_models.md) proves
+generic smooth residual geometry and attachment-map dominance for
+\(a,b\ge4\), and realizes every effective marked attachment divisor for
+\(a,b\ge7\). All contact can be concentrated at one point while generic
+multiplicity stays one and the smooth residual retains its full degree.
+The [reverse-linkage account](residual_liaison.md) recovers equations from
+the embedded once-linked curve, proves its relative flatness through
+multiplicity jumps, and identifies the deformation space preserving this
+incidence. Full-primary extraction is a different, potentially nonflat
+operation.
 
-**B. Explicit quartic residual configurations.** [R-0023](../results/ci_quartic_explicit_residual_geometry.md) studies specified quartic pairs in characteristic zero. One (2,3) pair has residual D smooth of degree 12 and genus 16, meeting C transversely in 18 points. A (1,1) pair has residual L union E, with L a line and E smooth of degree 11 and genus 12; their five transverse nodes coexist with 17 C-E attachments and one C-L attachment, without triple points. This demonstrates actual global residual configurations, **not** a classification of quartic pairs.
+## Exceptional geometry and what survives each model
 
-**C. Deforming the residual while fixing its attachment boundary.** [R-0024](../results/ci_quartic_fixed_boundary_smoothing.md) applies only at the (1,1) pencil of R-0023. The fixed-boundary Grassmannian fiber is smooth of dimension 14, and after splitting/labeling the five nodes its formal local coordinates include five independent node-smoothing parameters. Thus the residual nodes can be smoothed independently *while the boundary is fixed*, locally in the specified family. This is not a global polynomial coefficient arc or a universal smoothing theorem.
+The [two-blowup model](blowup_residual_geometry.md) retains actual sections,
+\(B=\operatorname{Bl}_C\mathbf P^3=\operatorname{Bl}_\Gamma V_5\), both
+exceptional divisors and both projections. Its anticanonical surface has
+normalization \(E\) and conductor \(2(E\cap Q')\). An original trisecant
+residual can contract to a point on \(V_5\); an exceptional curve can map to
+a genuine curve there while recording only thickness along \(C\) downstairs.
+The exact support test is on the graph.
 
-**D. A selected higher-degree global jet obstruction.** [R-0025](../results/ci_fixed_sextic_jet_rigidity.md) fixes one sextic Fstar and considers proper degree-sixteen mates G. Its audited order-twelve jet-kernel computation implies generic multiplicity at most 22 and residual degree at least eight. The source uses exact normal division and finite-field rank certification lifted to characteristic zero; an independent normal-division replay passed, while the Macaulay2 source was not rerun in that workflow. The conclusion is for this Fstar and this mate degree, not all sextics.
+The [Rees and vertical controls](rees_and_vertical_controls.md) show that
+all divisorial Rees valuations of a full lci curve ideal are visible over
+generic curve points, with an exact coefficient/residue-degree budget. The
+ordinary Segre numbers are fixed by the CI degrees. Nevertheless intrinsic
+first-relation saturation defect and chosen-pair vertical degeneration can
+grow without changing the generic filtered algebra. An explicit projective
+pure-support example prevents vertical exceptional geometry from becoming
+a residual-curve criterion.
 
-## 3. How the results fit together
+## Valuations, finite jets, and formal geometry
 
-- R-0019 controls **abstractly constrained local-to-global residual cycles** provided its strong saturated/finite-flat hypotheses hold. R-0023 provides **specific actual projective intersections**, but those examples alone do not establish that R-0019's hypotheses hold for them.
-- R-0024 shows that residual singularities need not be rigid under a fixed attachment divisor in its particular pencil. It does **not** say the residual can be removed: smoothing nodes changes singularities, not automatically the positive residual degree in the cycle.
-- R-0025 supplies a **global source-space obstruction** in a selected higher-degree setting. Its residual-degree bound comes from limiting the generic transverse multiplicity, not from an exceptional vertical cycle or the R-0019 formula.
-- [R-0021](../results/quartic_mu4_degeneration.md) is a different specialization phenomenon: a prescribed flat pair has four distinct quartic components in characteristic zero but only C as reduced support in characteristic two. It is a useful warning that support and transverse multiplicity behave differently under characteristic change; it is not a universal quartic-pair decomposition.
-- [R-0022](../results/quartic_44_filtered_exclusion.md), independently of the broader [R-0001](../results/quartic_carrier_exclusion.md), excludes quartic-pair STCI in characteristic zero. R-0023/R-0024 remain useful geometric laboratories **despite** the closed quartic STCI case.
+The [valuation/contact account](valuations_and_residual_contact.md) distinguishes
+parameter-ideal multiplicity recovered from full integral-closure data from
+arbitrary colength, includes complete point-basis weights and residue degrees,
+and proves the correct coefficient-adic domain and intrinsic flag construction.
+Its contact cycle recognizes actual residual support by connectedness and
+point multiplicity, but does not prove positivity for every pair. The four-line
+control proves that branch contact need not equal the conductor boundary.
 
-## 3A. Generic length, residual degree, and the role of full initial equations
+The [generic contact-depth theorem](generic_contact_depth.md) extracts a
+power-invariant mechanism: per-level tangent budgets and Noether's formula
+bound generic intersection by \((h+1)rs\), yielding depth and surviving-tail
+requirements. On an unbalanced smooth quadric curve of type \((1,n)\),
+every hypothetical supported pair needs generic contact depth at least
+\(n-1\). Deep contact is locally possible; a global upper-depth theorem
+remains missing.
 
-For a proper degree-(d,e) pair containing C, let m be the length of its generic transverse local algebra. The cycle identity is de=4m+deg(R), where R is the residual one-cycle. Consequently a lower bound on residual degree requires an *upper* bound on m for actual global equations. A bound on the product of their displayed normal orders does not suffice when leading forms share a factor: cancellation can raise m beyond that product. The full generic initial ideal, rather than two chosen leading forms, determines the generic associated-graded length. See [Chapter 2](02-two-surfaces.md) and [Higher initial ideals](../supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#explicit-cancellation-examples).
+The [finite normal-jet criterion](finite_normal_jets.md) is exact at fixed
+degrees, even for singular integral curves and weighted reducible curves.
+Its sharp cutoff is \(M+1\) without a prior properness check; known
+coprimality permits cutoff \(M\). All monomial multiples of the two actual
+jets enter the ideal matrix. Scalar equation parameters remain in the
+constant field even when matrix rank is computed over \(k(C)\).
+No witness-degree bound or general solver is supplied.
 
-A punctual defect in the filtered equation-module comparison is a different issue: it concerns how generic initial relations extend over closed points of C. The [filtration synthesis](normal_filtration_boundary_obstructions.md#full-initial-ideals-and-the-filtered-equation-module) explains why neither such a defect nor a vertical exceptional cycle automatically supplies a positive-degree residual curve. The selected sextic calculation [R-0025](../results/ci_fixed_sextic_jet_rigidity.md) avoids this inference: it bounds m using the actual global mate source and then applies degree exhaustion. A uniform residual theorem would need a comparable bound over every admissible carrier and exceptional stratum, not only the tested sextic.
+The [full formal account](formal_residual_visibility.md) shows what remains
+after generic localization: attached residual germs can have exactly the
+same generic transverse algebra as a sole-support germ. Completion along
+\(C\) retains the attached germs. Projective-space G3/Lefschetz extends two
+globally glued **fixed-twist** all-order sections; uniform power containment
+then gives an exact STCI reformulation. Compatible finite jets and arbitrary
+local generators are weaker data.
 
-## 3B. Exact fixed-degree endpoint and what a jet computation certifies
+## Root configurations, conductor, and characteristic
 
-Fix positive degrees d,e and a proper pair containing C. If sole reduced support is possible, M=de/4 is an integer. At the generic point of C, let R_eta be the two-dimensional regular local ring with maximal ideal m_eta. For J=(F,G)R_eta, the equality length(R_eta/J)=M is equivalent to length(R_eta/(J+m_eta^(M+1)))=M: the Artinian local algebra of length M has nilpotent maximal ideal of exponent at most M, and conversely the truncated quotient cannot have length M while the untruncated quotient has greater length without contradicting the filtration length bound. The source-level endpoint calculation is in [the boundary supplement](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md).
+The [root-pencil account](root_pencil_geometry.md) supplies a continuous
+four-sheet family with fixed \(9p_0+9p_\infty\) marked boundary, varying
+elliptic branch modulus, a double-marked-component member, residual-root
+collisions and a weighted-line boundary at infinity. It retains the
+conductor/generalized-Jacobian calculation, a larger-delta eight-component
+control, balanced-boundary interpretation and two-scale mixed-characteristic
+collision tree. These are explicit laboratories, not invariants of every
+pair.
 
-This is a finite-length **test for a specified pair**, not a uniform jet-rank theorem. The relevant candidate jets must lie in the images of actual degree-d and degree-e homogeneous sections; arbitrary compatible-looking graded symbols need not lift. Properness and the absence of common surface factors must also be checked before applying the projective cycle identity. For a fixed carrier family, a uniform bound m <= M-1 on all actual proper mates would imply deg(R)>=4. The fixed-sextic R-0025 is one scoped instance of this strategy, not a bound on all carriers.
+The degree, length, linkage and finite-scheme attachment mechanisms have
+characteristic-free forms with their stated hypotheses. The balanced-normal
+first-blowup constants require characteristic different from two; the
+certified rational residual and fixed-boundary examples have characteristic-zero
+scope. Every positive characteristic admits an actual supported pair with
+a quartic carrier; its [complete construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier)
+is displayed alongside the characteristic-zero carrier exclusion. Individual
+mechanism homes state which additional arguments extend and which do not.
+A characteristic-two coalescence or positive-characteristic supported endpoint
+is never used as a characteristic-zero obstruction.
 
-## 3C. A computed boundary-contact example that does not create residual degree
+## Exact remaining interfaces
 
-For the exponent-compatible binomial pair \(F=x_1^4-x_0^3x_3\), \(G=x_2^n-x_0^a x_1^b x_3^c\), write \(n=p^rm\) with \(p\nmid m\). The complete intersection cycle is \(p^r\sum_{\zeta^m=1}[C_\zeta]\), where each \(C_\zeta\) is a quartic. Different components have contact lengths three at \(p_0\) and one at \(p_\infty\), but those punctual intersections contribute no extra one-cycle degree. For \(m=1\) the generic multiplicity \(p^r=n\) exhausts Bézout's degree \(4n\), so sole support follows from the explicit chart and boundary computation. For \(m>1\) the residual degree relative to the distinguished \(C_0\) is \(4p^r(m-1)\), not a sum of the endpoint intersection lengths. This is a concrete warning against treating punctual contact as residual curve degree. See [the component calculation](01-problem-and-curve.md#12e-generic-multiplicities-and-contacts-among-binomial-components).
+A family-level jet obstruction must control **every actual mate**, including
+rank-drop strata, before converting length to positive residual degree.
+A saturated-flag divisor formula must establish finite flatness, saturation,
+and proper auxiliary intersection before it applies. A formal construction
+must produce the two globally compatible fixed-twist equations and uniform
+power containment. None of these missing implications is supplied by merely
+passing local numerical tests or observing residuals in examples.
 
-## 4. The missing bridge
-
-The natural desired theorem would connect a **generator-independent normal invariant** (full initial ideal, Rees data, or saturated flag) to a **positive residual degree** for actual global equations. Current evidence does not supply that implication in general. In particular:
-
-1. A horizontal common direction on the first blowup need not be a smooth global root section.
-2. A vertical exceptional component is not a residual curve in projective space.
-3. A local or graded algebra passing numerical tests need not be realized by homogeneous forms.
-4. The existence of residual curves in selected examples does not imply all pairs have residual curves.
-5. A jet-kernel rank calculation for one carrier cannot be extrapolated to arbitrary carriers.
-
-The [filtration/boundary synthesis](normal_filtration_boundary_obstructions.md) isolates the separate punctual-comparison and one-step lifting questions. A bridge between those defects and R-0019's residual cycles still requires proof, with hypotheses on saturation, finite flatness, and properness.
-
-## 5. Concrete next investigations
-
-- **Residual detector:** formulate and prove one implication from a full initial-ideal or valuation invariant to positive residual degree for an actual family. Begin by separating horizontal and vertical exceptional support.
-- **Family-level jet bound:** replace the single Fstar of R-0025 with a geometrically defined family and prove a uniform jet-kernel restriction. A generic rank bound alone may leave special carriers.
-- **Fixed-boundary deformation:** determine which invariants of R-0023's attachment divisor remain fixed when residual nodes smooth, and whether analogous independent smoothing holds beyond the specified pencil.
-- **Characteristic comparison:** isolate the exact flatness and support mechanisms of R-0021 rather than treating characteristic-two coalescence as a characteristic-zero obstruction.
-
-## 6. Authority and evidence
-
-The canonical records R-0001, R-0019, R-0021–R-0025 are authoritative only within their recorded scopes. Their audits and computation certificates remain linked there. The general valuation and blowup program in [formal-normal intersection](formal-normal-intersection.md) is provisional. This synthesis changes neither status nor evidence, and retires no source material.
-
-## 7. Quantitative comparison: where residual degree enters
-
-For a proper intersection of surfaces of degrees d and e, the fundamental cycle decomposes as
-
-    [V(F,G)] = m_C[C] + sum_i m_i[R_i],
-
-where the R_i are irreducible residual curves distinct from C. Consequently
-
-    d*e = 4*m_C + sum_i m_i*deg(R_i).
-
-This is a cycle identity, not a decomposition of defining ideals. It gives a precise target for any proposed residual detector: a universal obstruction must force m_C < d*e/4 for every actual proper pair in the class. By contrast, an exceptional component of a blowup can contribute to a local intersection calculation without producing an R_i downstairs.
-
-Three distinct quantitative tests are available:
-
-- **Proper residual intersection on an auxiliary surface:** Under R-0019's finite-flat curvilinear and saturated-flag hypotheses, the residual *zero-cycle* is (m-1)T + D_(m-1). Its degree is not automatically the degree of a residual *curve* in P3; the auxiliary intersection and properness hypotheses matter.
-- **Actual quartic residual curves:** R-0023 constructs a (2,3) pair with a smooth degree-12 residual D and C meeting D transversely in 18 points. At the (1,1) specialization, the degree-12 residual splits into a line and a smooth degree-11 component, with five transverse nodes between them. These have residual multiplicity one along C and degree 12 in the projective cycle; they do not contradict the characteristic-zero quartic-carrier exclusion.
-- **Fixed higher-degree jet source:** In R-0025 the selected sextic Fstar and degree-sixteen mates have d*e=96. The normal-branch calculation gives m_C=2n <=22, so the residual cycle has degree at least 96-4*22=8. The essential step is the degree-sixteen jet-kernel identity for this particular Fstar, not a bound valid for all sextics.
-
-The examples show two logically independent ways of proving positive residual degree: construct and certify the residual scheme, or prove a strict upper bound on generic multiplicity for an actual global source space. A formal normal-cone picture alone supplies neither.
-
-## 7A. Exact ideal-power sources do not make jet conditions independent
-
-For \(d\ge3m\), the fixed quartic has the source-level equality \(H^0(I_C^m(d))=(I_C^m)_d\) and vanishing \(H^1(I_C^m(d))\). This is an effective parameterization of all ambient forms vanishing to order at least \(m\), not a statement that their leading normal symbols fill \(H^0(\operatorname{Sym}^m N_C^\vee(d))\). The latter map has its own kernel and image, and two source spaces at different orders must still come from the **same** global equation when their jets are compared.
-
-Consequently a residual-degree argument based on linear jet conditions must compute the actual image and rank-drop strata. It cannot infer independence from the vanishing of the ambient ideal-power cohomology alone. The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-the-exact-ideal-power-theorem-contributes) and [Chapter 2](02-two-surfaces.md#27a-ambient-ideal-powers-and-normal-symbols) give the source, while [R-0025](../results/ci_fixed_sextic_jet_rigidity.md) illustrates a scoped image calculation.
-
-## 7B. Explicit sextic symbol image
-
-For sextics vanishing twice along the fixed quartic, the quadratic normal-symbol map has source dimension 23, target dimension 33, rank 22 and kernel generated by the cube of the containing quadric. The eleven independent image equations are computed in [the conditional (6,16) study](normalization_conductor_phase2_addendum.md). They constrain a proposed moving quadratic root and multiplier before a global sextic exists.
-
-The next cubic jet and a proper degree-sixteen mate are separate conditions. Consequently this rank calculation does not yet bound the transverse length of every proper pair in those degrees. Such a bound must include exceptional strata before the cycle formula can force positive residual degree.
-
-## 7C. Higher-jet membership does not imply residual removal
-
-The conditional (6,16) smooth torsion-two seed passes the eleven equations defining the actual sextic leading-symbol image but has a nonzero fixed-lift cubic pairing \(-384\). The free \(q^3\) sextic direction must also be tested before asserting varying-lift incompatibility. For general nonzero \(f=au^2+buv+cv^2\), the correction is uniquely determined if it exists: \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), with \(\deg\ell,\deg m\le7\). This injective correction map has a twenty-four-dimensional cokernel in the forty-dimensional cubic target. See [the exact coefficient calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
-
-The undivided identities retain singular roots and coefficient-zero loci. Neither first-symbol membership nor vanishing of the cubic quotient obstruction gives a uniform generic transverse-length bound for actual proper pairs; a residual-degree conclusion still requires that independent argument.
-
-## 8. Fixed boundary versus residual removal
-
-The fixed-boundary deformation theorem R-0024 is more precise than the phrase "the nodes smooth." For its specified quartic pencil, the 36-dimensional ordered source has boundary, node and combined tangent ranks 19, 5 and 24. On the Grassmannian, the projective boundary rank is 18, and the fixed-boundary fiber is smooth of dimension 14. After etale localization at the five labeled nodes its formal local ring has five independent smoothing coordinates and nine further parameters.
-
-Thus attachment of the residual to C can be held fixed while the internal singularities of the residual change. This separates **boundary incidence**, **residual geometry**, and **residual degree**. Independent smoothing is not an operation that deletes the residual cycle. The theorem gives formal/etale-local parameters; it does not supply a polynomial coefficient arc in the original source coordinates.
-
-## 9. From isolated calculations to an invariant exclusion
-
-A case calculation should be retained in the synthesis only when it identifies one of the following reusable mechanisms: a saturated-flag divisor formula, a geometric residual component and its attachments, a fixed-boundary deformation invariant, or a global jet-kernel obstruction. Repeatedly searching for individual F,G pairs without extracting a condition on an invariant family does not advance an unrestricted exclusion.
-
-For a proposed family-level extension of R-0025, first define a parameter space of carriers and the vector spaces of degree-e mates. Construct the normal jet map over the parameter space, determine a rank condition on its kernel modulo carrier multiples, and identify the locus where the rank can drop. Then analyze those exceptional strata geometrically; a generic rank calculation is insufficient to rule out all carriers. Finally translate the uniform multiplicity bound, if established, into residual degree using the cycle identity above.
-
-For a proposed extension of R-0019, instead start with a saturated finite-flat flag and check that its residual zero-cycle formula is compatible with the actual global equations. Do not assume a vertical exceptional cycle maps to a residual curve. These are two different possible research programs, and neither currently bridges arbitrary initial ideals to a universal STCI obstruction.
+A conditional sextic symbol has a further lift freedom \(\eta q^3\).
+Thus a fixed-lift cubic failure cannot exclude all sextics with that symbol
+without checking this extra direction. The complete corrected calculation
+belongs to [the conditional sextic account](normalization_conductor_phase2_addendum.md);
+its leading-symbol and higher-jet tests remain distinct from a proper-mate
+length bound.

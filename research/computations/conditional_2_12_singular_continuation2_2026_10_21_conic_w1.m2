@@ -1,5 +1,5 @@
 -- Exact w=1 generic norm-symbol conic component; no arbitrary ruling action.
-load "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_singular_continuation_2026_10_21.m2";
+load "research/computations/conditional_2_12_singular_continuation_2026_10_21.m2";
 T=QQ[h4,h5,h6,h7,A2,a,x,y,MonomialOrder=>Eliminate 5];
 phi=map(T,R,{1,a-x,(a+x)/2,A2,y+A2/2,h4,h5,h6,h7,0,0});
 I=ideal join(apply(firstEquations,p->phi p),apply(normSymbolEquations,p->phi p),{2*(x^2+x*y+y^2)+3});

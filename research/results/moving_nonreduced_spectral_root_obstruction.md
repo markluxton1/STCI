@@ -13,10 +13,10 @@ statement: "The full root divisor Z is reduced; each irreducible component has b
 dependencies:
   - STCI-R-0008
 evidence:
-  - "research/notes/2026-10-19-spectral-nonreduced-root-obstruction.md"
+  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
 independent_audits:
-  - "research/notes/2026-10-19-spectral-nonreduced-root-independent-audit.md"
-accepted_in: "research/notes/2026-10-19-spectral-nonreduced-root-independent-audit.md"
+  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
+accepted_in: "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,6 +37,6 @@ Writing g=gcd(epsilon,r), each irreducible component has class t_i(epsilon/g,r/g
 
 STCI-R-0008 provides the abstract graded Picard-descent interface. STCI-R-0010 supplies the bridge for **actual** lci thickenings under its separate saturated-first-relation and full generic-CI hypotheses. Neither theorem implies that every actual STCI has those hypotheses.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original evidence identities and theorem scope remain unchanged.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

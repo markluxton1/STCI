@@ -13,10 +13,10 @@ statement: "For each fixed epsilon in 1,...,8 only finitely many numerical tuple
 dependencies:
   - STCI-R-0013
 evidence:
-  - "research/notes/2026-10-19-global-ci-filtration-investigation.md"
+  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
 independent_audits:
-  - "research/notes/2026-10-19-global-ci-filtration-independent-audit.md"
-accepted_in: "research/RECONCILIATION_2026-10-21.md"
+  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+accepted_in: "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -38,13 +38,13 @@ For each fixed epsilon in 1,...,8 only finitely many numerical tuples (r,s;a,b) 
 
 The independent arithmetic proof treats small-order exceptional denominators using signed divisor pairs and obtains a strict large-order cutoff and integral factorization. The verifier `research/computations/global_ci_small_movement_divisor_audit.py` reproduces the counts.
 
-Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above. Scope acceptance for this promotion is documented in [the reconciliation decision](../RECONCILIATION_2026-10-21.md); that decision does not replace the source proof.
+Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above.
 
 ## Limitations
 
 - No finiteness conclusion is claimed for epsilon>=9.
 - Finite arithmetic lists are not realizability lists or STCI classifications.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

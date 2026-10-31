@@ -1,201 +1,10 @@
-# z4 intrinsic arithmetic mechanism
+# Embedded primitive towers: gluing, arithmetic variation, and actual pairs
 
-## Proof-dependency map: intrinsic mechanism and its failure shields
+An abstract rational curve or its normal bundle does not determine the obstruction to extending an embedded ribbon. This chapter owns the full primitive-stage extension, the comparison under quadratic gluing changes, the marked divided leading-class theorem, and explicit counterexamples showing why the full neighborhood and integral lift are essential. It then records what an actual supported complete intersection does and does not supply. These are independently reviewed provisional results, not new canonical promotions.
 
-Start with the [general synthesis](#2026-10-21-z4-general-mechanism-synthesis), then compare the [quadratic-gluing calculation](#2026-10-21-z4-quadratic-gluing-comparison) with its [independent audit](#2026-10-21-z4-general-mechanism-independent-audit). The [divided-power mechanism](#2026-10-21-z4-intrinsic-divided-power-mechanism) and [persistent arithmetic obstruction](#2026-10-21-z4-persistent-arithmetic-obstruction) analyze what remains after coordinate changes and reductions. The [characteristic-zero consequences](#2026-10-21-z4-characteristic-zero-stci-consequences) retain their stated conditional status.
+The embedded ribbon-to-triple extension is proved in [higher embedded structures](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction). The exact arithmetic example is [R-0012's nonlifting proof](Z4_LIFTING_AND_DEFORMATION.md). The full extension—not any chosen quadratic summand—has invariant meaning. Standard square-zero derivations and cotangent-complex deformation theory contextualize the construction, but do not identify it with a Frobenius-lifting or Witt-vector obstruction. Abstract primitive-multiple-curve results likewise do not by themselves solve fixed-ambient compatibility over a mixed-characteristic DVR.
 
-The underlying [explicit Z4 quartic obstruction](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-quartic-obstruction) and [independent lifting audit](Z4_LIFTING_AND_DEFORMATION.md#2026-10-20-z4-lift-independent-audit) are narrower: they concern a prescribed model. The [coordinate-invariance counterexample](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-coordinate-invariance-counterexamplemd) is an essential failure shield against interpreting an arbitrary Laurent representative as an intrinsic class. The [ribbon/triple audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd) checks a distinct gluing issue.
-
-**Status separation:** an explicit obstruction class for one family, an invariant interpretation under additional choices, and a universal characteristic-zero STCI exclusion are three different claims. No such universal conclusion is promoted here.
-
----
-
-
-Permanent mathematical dossier preserving complete proofs, computations, exact characteristic hypotheses, obstruction classes, counterexamples and conditional implications. No new theorem promotion is implied.
-
----
-
-## 2026-10-21-z4-general-mechanism-synthesis
-
-# Z4 arithmetic mechanism and characteristic-zero STCI: synthesis
-
-Date: 2026-10-21. Status: **new research evidence, independently reviewed in
-the companion audit; unpromoted**. No canonical theorem record is modified.
-Base: `research/z4-arithmetic-obstruction-consolidated-2026-10-21`, fetched
-at `c1af2e466c4b2251622ee70116613a3b2afb1391`.
-
-The two investigations reached definite outcomes: a defect-sensitive
-necessary condition for generically curvilinear STCI presentations, an
-embedded obstruction hierarchy, and counterexamples to the unrestricted
-bridges suggested by the arithmetic analogy. They do not exclude arbitrary
-characteristic-zero STCI presentations of the fixed rational quartic C0.
-
-## 1. New characteristic-zero restriction
-
-Let C be a smooth curve regularly embedded in a smooth threefold, with
-ideal I, and let J define a supported complete intersection whose generic
-transverse algebra is curvilinear of length m≥3. Saturate its first-normal
-image as
-
-    (J+I²)/I² = M(−D) ⊂ M ⊂ E=I/I²,
-    q:E→L=E/M,
-
-where D is effective and M,L are line bundles. Put H=M∨⊗L².
-The [characteristic-zero report](#2026-10-21-z4-characteristic-zero-stci-consequences)
-proves the necessary condition
-
-    image of o_X(q) in H¹(C,H(D)) is zero.               (A)
-
-The proof uses the image of J inside the canonical extension module:
-it projects isomorphically to M(−D) and therefore splits the pulled-back
-extension. It does not require an everywhere primitive triple inside the
-complete intersection. Equivalently the obstruction must be supplied by
-principal parts supported on the *actual* first-normal defect divisor.
-
-For the distinguished marked quotient of C0 with L=O(−6), M=O(−8),
-and o=−6[u⁻²], condition (A) implies:
-
-- deg D≥2;
-- if deg D=2, a defining binary quadratic for D has zero st coefficient
-  in the fixed marking;
-- if deg D≥3, this first obstruction alone imposes no further condition.
-
-These statements include nonreduced effective divisors. They concern an
-actual pair inducing this q. Other quotients of the same degree can have
-zero obstruction: the audited polynomial family has the surjective example
-a=h=0, b=d=1. More generally, for the accepted conormal E=O(−7)²,
-L=O(ε−7) gives H=O(3ε−7), so the first obstruction group vanishes
-for ε≥2. There is no unrestricted new exclusion of surface degrees.
-
-The structural limitation is also proved. A supported lci may be
-curvilinear generically and fail to contain any globally primitive triple.
-The family J=(x²,y²+t x), free of rank four over k[t], has generic algebra
-k(t)[y]/(y⁴) and special algebra k[x,y]/(x²,y²). The latter has no
-curvilinear length-three quotient. An ambient triple extending a ribbon
-can exist while failing to be contained in J. Thus vanishing of o_X(q)
-is weaker than compatibility with a specified complete intersection.
-
-## 2. Does divided Frobenius produce the intrinsic class?
-
-No unconditional identification is proved. The
-[intrinsic arithmetic report](#2026-10-21-z4-intrinsic-divided-power-mechanism)
-does recover the accepted full class −6[u⁻²] and the divided variation
-
-    λ(α,β,γ)=γ[u⁻¹]+[u⁻²]+α[u⁻³],
-    D(α,β,γ)=γ[u⁻¹]+α[u⁻³].
-
-This uses the full embedded Yoneda extension and the previously audited
-Laurent polynomials. It does not isolate a normal-coordinate summand or
-derive the full class from a binomial coefficient. The nonzero image in
-coker D is intrinsic for the specified marked integral problem.
-
-There is a genuine conditional comparison, with an explicit source and
-target. If two quadratic neighborhoods are locally isomorphic over the
-same marked first neighborhood A₁ and B=Sym²E, their difference is a
-class β in H¹(Der_S(A₁,B)). The canonical sheaf map
-
-    ρ_q:Der_S(A₁,Sym²E)→Hom(M,L²)
-
-restricts a derivation to M and projects by Sym²q. It carries β to
-the difference of the Yoneda obstruction classes. The
-[quadratic-gluing comparison](#2026-10-21-z4-quadratic-gluing-comparison)
-proves the statement and its coordinate functoriality. The missing arithmetic
-bridge is a natural derivation-valued gluing class carrying the full normal
-and moving-base data. A divided-power polynomial does not furnish it.
-
-## 3. Strongest general characteristic-p conclusion
-
-For every fixed embedded primitive n-fold J_n, n≥2, with inherited q,
-there is a canonical exact sequence
-
-    0→L^n→J_n/(I J_n+I^(n+1))→M→0.                    (B)
-
-Its splittings classify compatible primitive (n+1)-fold embedded ideals.
-Thus the obstruction is in H¹(M∨⊗L^n), and when it vanishes the choices
-form a torsor under H⁰(M∨⊗L^n). This works in arbitrary characteristic
-under the regular-immersion and primitive-stage hypotheses. The fixed
-stage J_n and the ambient neighborhood are essential data.
-
-The universal p^r binomial arithmetic predicts the least normal order of
-its own cross-effect, p^(r−1) when one argument is a unit and the other
-is normal. It does not predict the first nonzero class in hierarchy (B).
-Explicit triangular gluing gives the same conormal bundle and the same
-lower primitive stages but an arbitrary nonzero next-stage class; the split
-vector-bundle model admits every stage even though the arithmetic polynomial
-is nonzero. Varying an integral gluing coefficient πc gives identical full
-special ambient fibers but different divided obstruction classes.
-
-The relative persistent-cokernel theorem is correct when the obstruction
-module is locally free, reduction and cohomology comparisons apply, and the
-leading section on the marked lift torsor is affine-linear with difference
-map D. At higher divided orders, affine linearity is additional content:
-the example o(q)=4+q², q=2t gives o/4=1+t² modulo two, with zero ordinary
-differential and a cancelling lift. A cokernel of the ordinary differential
-cannot replace the nonlinear obstruction image in general.
-
-## 4. Specialization boundary and status
-
-Support-preserving spreading is possible after localization, using finite
-ideal containments I^N⊂J⊂I and generic flatness. This produces an open set
-of good specializations; it need not include residue characteristic two.
-It forces neither the marked quotient nor the prescribed Z4 integral
-deformation class. For C0, the accepted lower-carrier exclusions and Bézout
-give m=de/4≥9, whereas the prescribed Z4 has m=4. Flat direct specialization
-to that whole quadruple is therefore incompatible even with the degree.
-Extracting a separate quadruple would be a further theorem.
-
-| Conclusion | Status and boundary |
-| --- | --- |
-| Defect-twisted necessary condition (A) | Proved here; independently reconstructed; generic curvilinear branch, m≥3 |
-| Distinguished q0 defect bound | Proved corollary, with fixed marking; no classification of all quotients |
-| Generic curvilinear lci need not contain a primitive triple | Explicit counterexample; no assertion that it occurs on C0 |
-| Primitive-stage obstruction hierarchy (B) | Proved here and independently reconstructed; fixed embedded primitive stage |
-| Quadratic-gluing comparison | Proved under explicit marked local-isomorphism hypotheses |
-| Relative divided obstruction in coker D | Conditional general theorem; Z4 instance imported from the corrected independent audit |
-| Conormal/arithmetic data alone determine the obstruction | False, by explicit smooth ambient gluing examples |
-| Natural divided-Frobenius identification for the full Z4 class | Open; no nonexistence theorem for every richer possible comparison is claimed |
-| Unrestricted characteristic-zero STCI for C0 | Open |
-
-## 5. Single next mathematical step
-
-Test (A) against the *actual global first-normal symbol image* of STCI
-surface pairs, beginning with the ε=1 quotient locus and its low-degree
-defect divisors. Construct the incidence requiring that the two homogeneous
-surface symbols have common saturated line M, actual common divisor D,
-and o(q) annihilate H⁰(ω_C⊗H⁻¹(−D)). The symbols must come from global
-k-coefficient forms, not arbitrary k(C)-linear choices. Use already accepted
-carrier and defect budgets as premises; do not reopen excluded quartics.
-
-The stopping rule is exact emptiness for a stated finite locus, or an
-explicit surviving pair of symbols together with its first unresolved lift
-condition. This is the next direct use of the new STCI condition. A survivor
-does not constitute actual surfaces with exhausted support; cases with both
-generic normal orders at least two remain in their separate accepted
-blow-up/normal-filtration lanes.
-
-## Verification and review
-
-The two new scripts, the independent audit, and their exact scope are linked
-from the reports. They check polynomial/Laurent arithmetic, coordinate
-transformations, defect cancellation, local counterexample algebras, and
-small-prime illustrations. The structural arguments above are proofs, not
-inferences from those finite tests. The inherited carrier exclusions and
-accepted full ambient cocycle were used as premises, not re-proved.
-
-The companion [independent audit](#2026-10-21-z4-general-mechanism-independent-audit)
-records reconstruction of the new implications and the cross-investigation
-scope checks. All new results remain unpromoted research evidence.
-
-
----
-
-## 2026-10-21-z4-quadratic-gluing-comparison
-
-# Comparing quadratic neighborhoods with the embedded Yoneda obstruction
-
-Date: 2026-10-21. Status: **proved here under explicit comparison hypotheses;
-independently reconstructed by the structural audit worker; unpromoted**.
-This is evidence for Investigation B, not a theorem about unrestricted STCI.
+## Comparing two marked quadratic neighborhoods
 
 ## Statement and source
 
@@ -240,7 +49,7 @@ The general square-zero derivation principle is described in the
 [Stacks Project, Lemma 91.2.1](https://stacks.math.columbia.edu/tag/08S3).
 Formula (1) is proved directly below; it is not quoted from that source.
 The target obstruction is the corrected canonical extension of the
-[independent intrinsic audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd).
+[independent intrinsic audit](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction).
 
 ## Proof
 
@@ -311,350 +120,7 @@ gluing derivations, rather than an isolated coefficient of a transition.
 It does not identify divided Frobenius with that class, and it imposes
 no additional condition on arbitrary characteristic-zero STCI pairs.
 
-## Independent reconstruction and limits
-
-The structural audit worker independently reconstructed the automorphism
-identification, O_C-linearity of restriction, and the Čech comparison.
-It explicitly required the local-isomorphism hypothesis and a consistent
-overlap orientation. Its audit is recorded in the companion
-[general-mechanism audit](#2026-10-21-z4-general-mechanism-independent-audit).
-All new claims remain research evidence; no canonical result is promoted.
-
-
----
-
-## 2026-10-21-z4-general-mechanism-independent-audit
-
-# Independent audit: general mechanism and characteristic-zero consequences
-
-Date: 2026-10-21. Reviewer: independent structural-audit worker in the
-current research task. Status: **independently reconstructed research
-claims; unpromoted**. This review does not amend a canonical theorem,
-reopen an accepted carrier exclusion, or settle characteristic-zero STCI.
-
-## Scope, dependencies, and method
-
-The review follows `research/INDEX.md` and `research/AUTHORITY.md`.
-Its accepted inputs are the exact order-one scope in
-[`results/order_one.md`](../results/order_one.md), the prescribed
-unramified arithmetic nonlifting theorem
-[R0012](../results/prescribed_z4_arithmetic_nonlifting.md), and the
-corrected canonical module extension in the
-[intrinsic independent audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd).
-The general intrinsic construction is reviewed evidence, not a promoted
-canonical result. The previously audited quartic Laurent polynomial is
-an imported input; this review does not reconstruct its rational ambient
-chart expansion.
-
-The new targets are the
-[characteristic-zero report](#2026-10-21-z4-characteristic-zero-stci-consequences),
-the [arithmetic-mechanism report](#2026-10-21-z4-intrinsic-divided-power-mechanism),
-and the [quadratic-gluing comparison](#2026-10-21-z4-quadratic-gluing-comparison).
-The arguments below were reconstructed directly, with particular attention
-to generic versus everywhere assertions, compatibility with an existing
-complete intersection, and the scope of arithmetic nonvanishing.
-
-## 1. Generic primitiveness does not force a primitive triple
-
-Work over a characteristic-zero field, and use projective coordinates
-`[t:x:y:w]`. The homogeneous ideal
-
-    J = (x², y²+t x)
-
-is a regular sequence and has radical `(x,y)`. Thus its projective zero
-scheme is a genuine `(2,2)` complete intersection with reduced support the
-smooth line `C=V(x,y)`. The two equations may both be chosen integral:
-
-    F=x²+y²+t x,       G=x²+2y²+2t x.
-
-They generate `J`, and each is a rank-three irreducible quadric in
-characteristic zero. Both are singular at `[0:0:0:1]`.
-
-On `w=1`, the quotient is obtained by adjoining `x` with the monic
-relation `x²=0`, then `y` with the monic relation `y²+t x=0`. It is free
-of rank four over `k[t]`, with basis `1,x,y,xy`. After inverting `t`,
-
-    J=(x+y²/t, y⁴),
-
-so the generic transverse algebra is curvilinear of length four and
-one equation has generic normal order one. At `t=0` the transverse algebra
-is instead
-
-    k[x,y]/(x²,y²).
-
-This algebra has no curvilinear length-three quotient. Indeed, in any
-surjection to `k[z]/(z³)`, write
-
-    x=a z+b z²,       y=c z+d z².
-
-The square relations imply `a²=c²=0`, hence `a=c=0`; the images cannot
-generate the class of `z`. A primitive triple embedded along `C` inside
-the complete intersection would, on completing at the displayed point,
-be finite flat of rank three over `k[[t]]`, with special quotient
-`k[z]/(z³)`. This is impossible. This proves a projective counterexample,
-not merely a generic-point algebra example.
-
-There is an additional distinction. The ribbon `V(x,y²)` lies inside
-this complete intersection. Its ambient primitive triple `V(x,y³)`
-exists, since for the associated quotient on the line
-
-    E=O(-1)⊕O(-1),   M=L=O(-1),
-    H¹(Hom(M,L²))=H¹(O(-1))=0.
-
-But `V(x,y³)` is not contained in `V(J)`: the image of `y²+t x` is the
-nonzero class `y²`. Thus even vanishing of the ambient ribbon-to-triple
-obstruction does not assert compatibility with a prescribed multiple
-scheme. The generic compatible equation `x+y²/t` has a pole at the
-nonprimitive point.
-
-**Verdict:** the proposed general implication fails even for projective
-complete intersections with smooth support and integral defining surfaces.
-The example concerns a line, so it does not exclude a separate theorem
-using special rational-quartic hypotheses. No such scope bridge has been
-proved here.
-
-## 2. The defect-twisted necessary vanishing is valid
-
-Let `C` be a smooth integral curve regularly embedded in codimension two,
-with ideal `I` and conormal `E=I/I²`. Let `J⊂I` define a multiple scheme
-with generic transverse algebra curvilinear of length `m≥3`. Put
-
-    N=image(J→E),    M=saturation of N in E,
-    N=M(-D),        q:E→L=E/M,
-
-where `D` is effective and `M,L` are line bundles. Rank-one saturation
-is a subbundle because the base is a smooth curve. Let
-
-    Q=J₂/(I J₂+I³),       0→L²→Q→M→0
-
-be the canonical extension for `q`. Since `J⊂J₂` and `I` annihilates
-`Q`, its image `P=image(J→Q)` is an `O_C`-module and maps onto `N`.
-At the generic point, choose adapted parameters with
-`J=(f,y^m)`. Modulo the defining ideal of `Q`, the image of `J` is a
-single graph line projecting isomorphically to `M`: the second generator
-has order at least three. Therefore the kernel of `P→N`, a subsheaf
-of the line bundle `L²`, is generically zero. It is consequently zero
-everywhere. This argument does not discard a possible torsion module:
-a subsheaf of `L²` is torsion-free.
-
-Hence `P≅N`, and its inclusion in `Q` canonically splits the extension
-pulled back along `N→M`. Equivalently,
-
-    o_X(q) maps to zero in H¹(M^∨⊗L²(D)).
-
-The hypothesis `m≥3` is necessary for this proof: for `m=2`, the
-second generic generator has nonzero image in `L²`. For `D=0`, the
-conclusion is ambient primitive-triple existence. For general `D`, it is
-a bounded-pole or principal-parts condition, and it does not assert a
-primitive triple inside the given scheme.
-
-This is a direct characteristic-zero necessary condition once the
-first-normal direction and its defect divisor have been obtained from an
-actual pair. It is not a restriction on all arbitrary line quotients,
-nor does it cover the entirely-thick branch.
-
-### The fixed quartic quotient
-
-For the distinguished quotient `L=O(-6)`, `M=O(-8)` on the prescribed
-rational quartic, the imported class is `-6[u^-2]` in `H¹(O(-4))`.
-In characteristic zero, Serre duality identifies it with a nonzero
-multiple of the middle-coefficient functional
-
-    A s²+B st+C t² ↦ B.
-
-Its image in `H¹(O(-4)(D))` vanishes precisely when this functional
-annihilates `H⁰(O(2)(-D))`.
-
-For `deg D=1`, the latter space is the kernel of evaluation at a point
-`[a:b]`. Evaluation has coefficient vector `[a²:ab:b²]`, which cannot
-be proportional to `[0:1:0]`. Thus no divisor of degree zero or one
-kills the class. For `deg D=2`, if the defining quadratic is
-`Q_D=A s²+B st+C t²`, vanishing holds exactly when `B=0`; this
-includes nonreduced divisors. For `deg D≥3`, the target cohomology group
-is zero. These are exact tests for killing this class, and only
-necessary conditions for existence of a complete-intersection pair.
-
-## 3. The compatible higher-stage extension is correct
-
-Fix an actual embedded primitive stage `J_n`, `n≥2`, locally
-`J_n=(z,y^n)` with `I=(z,y)`. Its first quotient gives the fixed
-`q:E→L` with line kernel `M`. Set
-
-    K_n=I J_n+I^(n+1).
-
-Locally `K_n=(z²,zy,y^(n+1))`. Consequently `J_n/K_n` is annihilated
-by `I`, its image in `E` is `M`, and its kernel is the multiplication
-image of `I^n`. That image is canonically
-
-    Sym^n(E)/(M Sym^(n-1)(E)) = L^n.
-
-There is therefore an exact sequence of genuine `O_C`-modules
-
-    0→L^n→J_n/K_n→M→0.
-
-A splitting has inverse-image ideal locally
-`(z-a y^n,y^(n+1))`. This is an embedded primitive stage `J_(n+1)`
-with `J_n=J_(n+1)+I^n`. Conversely this compatibility forces
-`K_n⊂J_(n+1)`, since
-
-    I J_n=I J_(n+1)+I^(n+1).
-
-The resulting quotient of `J_(n+1)` maps isomorphically to `M`, giving
-the inverse construction. The obstruction is in `H¹(Hom(M,L^n))`,
-and the set of compatible extensions, if nonempty, is a torsor under
-`H⁰(Hom(M,L^n))`.
-
-**Verdict:** valid for a fixed embedded primitive stage. It does not
-produce that stage from generic curvilinearity, prove an infinite tower,
-or make a higher obstruction independent of previous choices. Its data
-include the next ambient neighborhood and the actual `J_n`.
-
-## 4. Quadratic-gluing comparison, including its sign
-
-Use the exact local-isomorphism and marking hypotheses of the
-[comparison supplement](#2026-10-21-z4-quadratic-gluing-comparison).
-Write `A₁=O_X/I²`, `B=Sym²E`, and
-`D₂=Der_S(A₁,B)`, with `B` acted on through `O_C`.
-
-An automorphism of `A₂` inducing identity on `A₁` and `B` is uniquely
-`id+δπ`, where `π:A₂→A₁` and `δ∈D₂`. The Leibniz identity follows
-from multiplicativity; products of two differences vanish in `B`.
-The inverse is `id-δπ`, and composition adds derivations. For
-`e∈E` and any lift `a` of a base function,
-
-    δ(ae)=aδ(e)+eδ(a)=aδ(e).
-
-Thus `δ|E` is `O_C`-linear independently of the lift. It follows that
-
-    ρ_q(δ)=Sym²(q)∘δ|M
-
-is a canonical `O_C`-linear morphism to `Hom(M,L²)`.
-
-Choose local marked isomorphisms `φ_i:A₂′→A₂` and define
-`φ_i φ_j^-1=id+δ_ij`. Composition proves the cocycle identity.
-If `s_i` split the unprimed canonical extension, put
-`t_i=φ_i^-1 s_i`. Applying `φ_i` to their difference gives
-
-    φ_i(t_j-t_i)=(s_j-s_i)+ρ_q(δ_ij).
-
-The difference of the two Yoneda cocycles has the **plus** sign in the
-supplement with this overlap orientation. Changing local isomorphisms
-changes `δ_ij` by a coboundary. Therefore
-
-    o_(A₂′)(q)-o_(A₂)(q)=H¹(ρ_q)(β(A₂′,A₂)).
-
-The proof includes derivations of base functions. It does not choose a
-retraction to the reduced curve or isolate a normal-coordinate summand.
-A coordinate change that moves base functions at first normal order
-must first transport the marking of `A₁`. Local isomorphism over the
-marked `A₁` is essential; arbitrary regular immersions are not asserted
-to meet it.
-
-**Verdict:** the comparison theorem is correct under its stated
-hypotheses. It concerns a genuine derivation-valued gluing class.
-No argument identifies a divided-power polynomial with that class.
-
-## 5. Arithmetic boundaries and independent calculations
-
-The supplied divided-power congruences are arithmetic identities.
-Their normal order depends on how their inputs meet the ideal of `C`:
-one tangential unit and one normal input can have leading order
-`p^(r-1)`, while two normal inputs give total normal order `p^r`.
-Neither statement implies that an embedded obstruction is nonzero.
-
-Split normal bundles with their standard zero sections have all
-primitive stages despite nonzero universal divided cross-effects.
-Conversely, triangular quadratic or higher transition terms can realize
-nonzero obstruction classes with the same split conormal and the same
-lower marked neighborhood. These examples establish insufficiency of
-the lower data and failure of a universal nonvanishing implication.
-They do not prove nonexistence of every possible natural comparison
-with richer geometric input.
-
-The independent reviewer ran
-
-    /private/tmp/stci-z4-env/bin/python research/computations/verify_z4_general_mechanism_2026_10_21.py
-
-and obtained all six `PASS` groups. The runtime supplies SymPy 1.14.0;
-the system Python and the bundled desktop Python do not have SymPy.
-The checks cover the imported Laurent polynomial's leading reduction,
-adapted quadratic changes including base movement, integral
-coboundaries, finite samples of nonsplit higher gluing, low-prime
-binomial identities, and the higher divided-order nonlinear example.
-These are reproducible checks of the new interfaces. They do not
-recompute the original quartic ambient Laurent cocycle or prove the
-general structural theorems by finite sampling.
-
-In particular, at higher divided order a tangent cokernel can miss
-nonlinear cancellation. The elementary family `o(q)=4+q²`, `q=2t`,
-has divided reduction `1+t²` in characteristic two, with zero
-differential but a zero at `t=1`. A persistent-cokernel theorem at a
-higher stage therefore needs a proved affine-linear law, not merely a
-computed differential.
-
-## Overall assessment
-
-The defect-twisted vanishing is a valid necessary condition for actual
-generic order-one pairs. The projective degeneration is a valid
-counterexample to a general forced-primitive-stage argument. The fixed
-stage hierarchy and marked quadratic comparison are valid with their
-explicit hypotheses. The arithmetic identities do not furnish the
-missing geometric gluing class. All new conclusions remain unpromoted
-research evidence; the unrestricted characteristic-zero rational-quartic
-STCI problem remains open.
-
-
----
-
-## 2026-10-21-z4-intrinsic-divided-power-mechanism
-
-# Embedded primitive towers, divided leading obstructions, and the arithmetic comparison gap
-
-Date: 2026-10-21. Investigation B. **New results below are proved research
-proposals, submitted for independent audit, and unpromoted.**
-No canonical result record is changed. The claim concerns a fixed regular
-codimension-two embedding and marked conormal quotient; it does not establish
-an obstruction to arbitrary characteristic-zero STCI presentations.
-
-The definite outcomes are an embedded primitive-stage obstruction hierarchy,
-a precise relative leading-class theorem, a natural comparison from quadratic
-gluing derivations, and smooth algebraic counterexamples to recovery from
-conormal or special-fiber data alone. These results do **not** identify the
-quartic obstruction with divided Frobenius.
-
-## 1. Scope and inherited premises
-
-The motivating quartic is
-
-\[
-C\subset\mathbf P^3,\qquad
-[s:t]\longmapsto[s^4:s^3t:st^3:t^4].
-\]
-
-For its specified characteristic-two quadruple problem, the marked integral
-ambient is over \(R=\mathbf Z_{(2)}\) or \(\mathbf Z_2\). The prescribed
-special quotient has \(L=\mathcal O(-6)\), \(M=\mathcal O(-8)\).
-The following are inherited premises, not proofs rerun here:
-
-* The [corrected intrinsic audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd)
-  gives the canonical extension and identifies its splitting torsor with
-  embedded primitive triples in the fixed ambient.
-* The [persistent relative audit](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-persistent-independent-auditmd)
-  supplies the relative Ext construction, the full integral Laurent
-  coefficient polynomials, and the exhaustiveness of the marked quotient
-  family. Its class is relative to the fixed marked integral problem.
-* The [coordinate-summand counterexample](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-coordinate-invariance-counterexamplemd)
-  invalidates assigning intrinsic meaning to one quadratic transition
-  summand. The full extension remains intrinsic.
-* The [arithmetic precursor](Z4_LIFTING_AND_DEFORMATION.md#2026-10-21-z4-divided-frobenius-origin) and
-  [Investigation 4](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-investigation-4-general-pr-mechanism-preliminarymd)
-  supply the binomial valuation and divided cross-effect identities.
-
-The [consolidation dossier](../Z4_ARITHMETIC_CONSOLIDATION_2026-10-21.md)
-is navigation, not additional theorem authority. The
-[literature assessment](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-intrinsic-obstruction-literaturemd)
-does not identify a verified divided-Frobenius map to this obstruction.
-No novelty claim about general deformation theory is made here.
+## Primitive stages and divided leading obstructions
 
 For a regular immersion \(C\hookrightarrow X\), let \(I\) be its ideal,
 \(E=I/I^2\), and fix \(q:E\twoheadrightarrow L\) with invertible kernel
@@ -671,6 +137,8 @@ embedded ribbon admits a primitive triple. In particular, \(I/I^3\) must
 not be substituted for \(Q_2\) as an allegedly canonical
 \(\mathcal O_C\)-module. Multiplication by \(I\) annihilates \(Q_2\),
 which makes (1) a literal module extension.
+
+<a id="primitive-stage-hierarchy"></a>
 
 ## 2. A primitive-stage hierarchy
 
@@ -826,47 +294,14 @@ works with \(\pi\) over a ramified DVR when its hypotheses hold;
 division by \(p\) then has a different valuation. The audited quartic
 calculation is not thereby extended to all ramified DVRs.
 
-## 4. A genuine comparison map, with the arithmetic datum still missing
-
-The companion [quadratic gluing comparison](#2026-10-21-z4-quadratic-gluing-comparison)
-proves the following precise statement. Let two marked quadratic
-neighborhoods \(A_2,A_2'\) have the same first neighborhood
-\(A_1=\mathcal O_X/I^2\) and the same kernel
-\(B=\operatorname{Sym}^2 E\). Assume they are locally isomorphic as
-algebras inducing the specified identities on \(A_1,B\). Define
-
-\[
-\mathcal D_2=\operatorname{Der}_S(A_1,B),\qquad
-\rho_q:\mathcal D_2\longrightarrow\operatorname{Hom}(M,L^2),
-\quad \rho_q(\delta)=\operatorname{Sym}^2(q)\circ\delta|_M.  \tag{8}
-\]
-
-The restriction to \(M\) is \(\mathcal O_C\)-linear: multiplication
-by the square-zero ideal \(E\) kills \(B\), so the Leibniz rule
-gives \(\delta(ae)=a\delta(e)\). The overlap differences of local
-isomorphisms give a class
-\(\beta(A_2',A_2)\in H^1(C,\mathcal D_2)\), and, with the
-orientation in that proof,
-
-\[
-o_{A_2'}(q)-o_{A_2}(q)=H^1(\rho_q)(\beta(A_2',A_2)).        \tag{9}
-\]
-
-This is a natural map with a specified source and target, rather than a
-projection onto one normal-coordinate summand. It allows derivations
-moving base functions into \(B\). Changes of coordinates transporting
-the marked first neighborhood transport (8) and (9); an order-one
-movement of a base coordinate must first be carried to the common
-\(A_1\). Changing \(q\) changes \(\rho_q\) and its target as part
-of the relative family. There is no canonical identification of targets
-for arbitrary unrelated quotients.
+## The missing arithmetic comparison
 
 A sufficient **conditional arithmetic comparison** is now exact. An
 arithmetic construction must provide a coordinate-equivariant sheaf
 map \(\chi:\mathcal A\to\mathcal D_2\) and a cocycle
 \(a\in H^1(C,\mathcal A)\) whose image is the actual gluing
 difference \(\beta\). Its image in the embedded obstruction is then
-\(H^1(\rho_q\chi)(a)\), by (9). If the cocycle is divisible by
+\(H^1(\rho_q\chi)(a)\), by [the marked quadratic-gluing comparison](#comparing-two-marked-quadratic-neighborhoods). If the cocycle is divisible by
 \(\pi\), compatible flatness and base change allow leading division;
 if B2's affine hypotheses hold, one may then pass to the persistent
 cokernel.
@@ -1065,7 +500,7 @@ from this split ambient in (15) is \(p\) times a gluing derivation.
 If \(q'=q+p t\) is any admissible first-order quotient lift reducing
 to the same special \(q\), both restriction to its kernel and
 \(\operatorname{Sym}^2(q')\) have the same reduction as for \(q\).
-Formula (9) consequently gives
+The [marked quadratic-gluing comparison](#comparing-two-marked-quadratic-neighborhoods) consequently gives
 
 \[
 \lambda(q')=\bar c[u^{-2}],\qquad D=0.                     \tag{17}
@@ -1163,141 +598,64 @@ geometric realization of that elementary section. The fixed-stage
 torsor theorem remains valid; the family of earlier choices need not
 be affine-linear in a higher divided obstruction.
 
-## 9. Verification and definite boundary
+## Relative Ext construction in the marked quartic problem
 
-The new script is
-[verify_z4_general_mechanism_2026_10_21.py](../computations/verify_z4_general_mechanism_2026_10_21.py).
-It was run successfully on 2026-10-21 with
+Let R=Z_(2), C=P1_R, E=I/I², L=O(-6). The space of surjections E→L is the open locus U in the affine R-space Hom(E,L), and its kernel M is a line bundle on C×U. Over C×U the canonical construction
+`0→L²→J₂/(IJ₂+I³)→M→0`
+defines a relative extension. Its obstruction section belongs to the relative sheaf `H=R¹π_*(M^∨⊗L²)`. The degree of M on every fiber is -8; on P1 over a base, a degree -8 line bundle may differ from O(-8) by pullback of a base line bundle. Thus H is a locally free rank-three bundle, not *a priori* a fixed copy of A=H¹(O(-4)). Cohomology and base change hold here because H⁰(O(-4))=0 and H¹ has constant dimension three. Over the special quotient, H_k canonically identifies with Ext¹(M_k,L_k²), without choosing an integral trivialization.
 
-```text
-/private/tmp/stci-z4-env/bin/python research/computations/verify_z4_general_mechanism_2026_10_21.py
-```
+Restrict to the congruence neighborhood of the fixed special quotient. The already audited integral cocycle proves the relative obstruction is zero modulo 2 and has coefficients divisible by 2 for all integral lifts; the same polynomial identities hold universally over the mod-4 first-order parameter ring. Consequently its reduction modulo 4 belongs to `2H/4H`. Because H is locally free over the unramified base, multiplication by 2 canonically identifies `H/2H` with `2H/4H`. This gives a *leading* section λ over the first-order congruence space. The special-fiber identifications of H are canonical: changing a lift of a frame by 1+2r acts trivially on λ modulo 2. The same observation handles changes of the integral kernel identification. One must not compare integral Ext classes in distinct fibers before this reduction.
 
-The existing environment provides SymPy. The system and bundled
-\(\texttt{python3}\) executables tested here lack SymPy; no package
-installation or runtime mutation was needed. All six check groups passed:
+The first-order congruence fiber modulo 4 is a torsor under Hom(E_k,L_k); dividing by quotient-frame scalars reducing to 1 gives tangent `T=H⁰(Hom(M_k,L_k))=H⁰(O(2))`. The tangent identification follows from the exact sequence `0→Hom(L_k,L_k)→Hom(E_k,L_k)→Hom(M_k,L_k)→0` on global sections: the connecting obstruction lies in H¹(O)=0. A base point q0 is used to identify the torsor with T. The affine-linear λ has canonical difference map `D:T→H¹(Hom(M_k,L_k²))`; it is independent of q0 because the difference is linear. This is the differential of the *divided first-order obstruction section*, not the ordinary differential of the undivided obstruction at the special point. Its construction is natural for automorphisms of the entire marked integral embedded problem. It is not asserted invariant under arbitrary automorphisms of an unmarked P1.
 
-* the accepted full Laurent polynomials give (11), (12), and rank two;
-* a nonlinear adapted change with moving base coefficients obeys (13);
-* nontrivial integral chartwise changes add only the coboundary (14);
-* the new stage models have the nonzero normalized class for stages 2–8;
-* \(p=2,3,5\), \(r=1,2,3\) illustrate the arithmetic and normal-order regimes;
-* the higher divided-section example has zero differential and a cancelling lift.
+## Exhaustiveness and surjectivity
 
-The arbitrary-stage and general theorems are proved above, rather than
-inferred from these finite checks. The old ambient rational-chart
-calculation and already accepted carrier exclusions were not rerun.
-
-**Proved:** the hierarchy (2), the relative leading-class theorem under
-its stated hypotheses, the geometric gluing comparison (8)–(9), and
-the smooth counterexamples B3–B4 and (19).
-**Conditional:** a divided-Frobenius interpretation after supplying a
-coordinate-equivariant arithmetic source cocycle and map \(\chi\)
-that reproduce the actual gluing difference.
-**Open:** constructing that additional arithmetic datum for the
-marked quartic, or proving a sharper impossibility result even with
-the full integral lift retained. There is no general recovery from
-conormal or special-fiber data, no universal arithmetic nonvanishing
-theorem, and no deduction here about an arbitrary characteristic-zero
-STCI pair without the bridge analyzed in Investigation A.
-
-The [independent general-mechanism audit](#2026-10-21-z4-general-mechanism-independent-audit)
-records independent checks and any scope corrections. The separate
-[synthesis](#2026-10-21-z4-general-mechanism-synthesis) compares these
-results with Investigation A. All claims remain unpromoted research
-evidence.
+The raw conormal transition from the audited main report yields exactly
+`p=a+bu+3hu², q=d+2hu, P=3ac²+(3b-4d)c+h, Q=2ac+2b-3d`.
+Higher coefficients vanish because the two linear relations have unit determinant. Reduction to the prescribed special quotient gives a,b,h∈2R, d∈1+2R. On the special fiber (p,q)=(0,1), so the quotient is surjective everywhere on C_k. Its cokernel is coherent on the proper R-curve; if nonzero, its closed support would meet the special fiber (properness over the local base), a contradiction. Therefore **every** such integral parameter choice is surjective. This proof does not assume q=d+2hu is a unit in R[u]. The scalar direction δ is gauge, leaving α,β,γ as the three tangent coordinates.
 
 
----
+## Serre duality
 
-## 2026-10-21-z4-persistent-arithmetic-obstruction
+With the usual residue convention, [u^-1],[u^-2],[u^-3] pair respectively with 1,u,u² in H⁰(O(2)). Hence `V^⊥=k·u=k·st` and the pairing of the persistent class with st is 1. The intrinsic object is the annihilator line of D, not a preferred monomial on an abstract unmarked P1.
 
-# Investigation 3: persistent leading arithmetic obstruction for the prescribed Z4
+## A coordinate summand really changes
 
-Date: 2026-10-21. **Status: new research proposal; requires independent audit; not canonical promotion.**
-Branch: `research/z4-persistent-arithmetic-obstruction-2026-10-21`.
-Scope: fixed embedded relative rational quartic over R=Z_(2), fixed special conormal quotient, and the full family of integral quotients lifting it. No general STCI conclusion.
+Fix the distinguished quotient p=0,q=1,P=-4c,Q=-3, so m_V=-3A+4cB. Along X=0,Y=epsilon the quadratic coefficients are A2=-6u^-10, B2=-3u^-9, and c1=u^-4. The quadratic cocycle decomposition in the original normal coordinates is K_A=18u^-2, K_B=-12u^-2, K_move=-12u^-2, giving total K=-6u^-2.
 
-## Verdict: B (relative to the fixed embedded deformation problem)
+Make the invertible integral normal-coordinate change A'=A+B, B'=B on V. Then m_V=-3A'+(4c+3)B'. The quadratic coefficient A2'=A2+B2=-6u^-10-3u^-9. Thus K_A'=18u^-2+9u^-1, K_B'=-12u^-2-9u^-1, and K_move'=-12u^-2. The total remains -6u^-2.
 
-The variation subspace of the leading Yoneda obstruction is intrinsically the image of the first-order variation map and has dimension two. Its cokernel is one-dimensional and the persistent class is nonzero. This **does not** establish a canonical divided-Frobenius realization. In particular the distinguished middle Laurent coefficient is a *calculation* of the intrinsic quotient, not its definition.
+The difference [K_A']-[K_A]=9[u^-1] is nonzero in H^1(P1_R,O(-4))=R[u,u^-1]/(R[u]+u^-4 R[u^-1]); it even survives mod 2. Therefore the naive 'first normal coordinate' quadratic contribution does not define an intrinsic cohomology class. This disproves invariance of that decomposition, but does not disprove the existence of a more sophisticated canonical divided-Frobenius-to-obstruction construction.
 
-### Source and authority
+## A reported Laurent stress test
 
-Read AGENTS.md, research/INDEX.md, research/STATE.md, research/FRONTIER.md; corrected independent Yoneda audit at `research/intrinsic-ribbon-triple-audit-2026-10-21:research/notes/2026-10-21-intrinsic-ribbon-triple-independent-audit.md`; counterexample at `research/z4-divided-frobenius-2026-10-21:research/notes/2026-10-21-z4-coordinate-invariance-counterexample.md`; and the five 2026-10-20 Z4 reports on main. The quartic cocycle formula and its identification with the canonical Yoneda extension are imported from the independently audited sources; the mod-4 reduction and variation/cokernel conclusions are checked here. The earlier normal-coordinate summand is explicitly *not* invariant.
+This calculation was reported independently without a standalone derivation or script; it remains a reported test, not independent proof of the general invariance theorem. Its displayed difference is an explicit coboundary.
 
-## 1. Exact family of admissible quotients
+For the distinguished conormal quotient, the original Laurent cocycle is
+\[
+K=-6u^{-2}.
+\]
+Under the reported nonlinear adapted changes
+\[
+m_U'=X+(1+u)Y^2,\qquad
+m_V'=(-3A+4cB)+(c+c^2)B^2/9,
+\]
+the re-expanded cocycle is
+\[
+K'=1+u-6u^{-2}+u^{-5}+u^{-6}.
+\]
+Consequently,
+\[
+K'-K=(1+u)+u^{-4}(u^{-1}+u^{-2}),
+\]
+an explicit Čech coboundary in the stated Laurent trivializations, so the two cocycles represent the same class.
 
-Let E=I/I², L=O(-6), M=O(-8), and fix the reduction \bar q:E_k -> L_k of the distinguished quotient. Define Q as the set of surjections q:E_R -> L_R whose reduction equals \bar q, **modulo automorphisms of L_R reducing to the identity**. The last quotient only removes scalar presentation gauge; keeping framed quotients instead gives the same obstruction and variation.
-
-Using the audited U/V conormal transition, every homomorphism E -> L has exactly the form
-```
-p=a+bu+3hu², q=d+2hu;
-P=3ac²+(3b-4d)c+h, Q=2ac+2b-3d
-```
-with a,b,h,d in R. Fixing the reduction imposes a,b,h in 2R and d in 1+2R. **Every such choice is surjective**: on U, q=d+2hu reduces to 1; on V, Q=2ac+2b-3d reduces to 1 in F2[c]. A cokernel of a map of finite locally free sheaves supported away from the closed fiber on the proper R-curve is empty (equivalently, on these two affine charts one of the two displayed components is a unit, since d is odd and 2h is even, and Q has odd constant and even other coefficients). Thus no extra realizability constraint occurs.
-
-More precisely the displayed U component q=d+2hu is a unit in R[u] **only when h=0**; surjectivity is instead by the pair (p,q) and the properness/closed-fiber argument above, not by claiming q is a unit in the polynomial ring. This distinction matters.
-
-The parameter space of framed lifts is the congruence fiber in the rank-four R-module Hom(E,L); after quotienting by scalar units 1+2R it is a formal neighborhood of the distinguished point in the open scheme of quotients. Its mod-4 first-order tangent space is
-T = H⁰(C_k,Hom(M_k,L_k)) = H⁰(P¹_k,O(2)), dimension 3.
-Indeed the four parameters (α,β,γ,δ) modulo 2 have the scalar direction δ, leaving (α,β,γ). The special-fiber quotient is fixed and the variation is first-order over R/4; no assertion is made that the whole integral congruence fiber is a vector space.
-
-## 2. The intrinsic variation map
-
-For each q in Q, let J₂(q)=ker(I -> E -> L), K(q)=I J₂(q)+I³ and
-E_q=J₂(q)/K(q). The corrected audit proves a canonical extension
-0 -> L² -> E_q -> M -> 0
-and its class o(q) in A=Ext¹(M,L²)=H¹(O(-4)).
-The fixed special quotient supplies fixed special L_k and M_k, so all classes reduce into the same A_k=A/2A. The audited calculation gives o(q) in 2A for every q in Q. Define λ(q)=(o(q)/2) mod 2.
-
-For t in T choose any lift q_t congruent to q₀+2t modulo 4 (a local choice of quotient frame is harmless). Define
-D(t)=λ(q_t)-λ(q₀) in A_k.
-The formula depends only on t, not on the lift modulo 4: the audited obstruction is polynomial in a,b,h,d with integral coefficients, and differences of parameters in 4R give differences in 4A. Its first-order Taylor expansion is linear because products of two 2-adic perturbations vanish modulo 4. Scalar presentation gauge acts trivially on the extension class. This gives a canonical k-linear map D:T -> A_k, with functoriality under automorphisms of the fixed embedded deformation problem. It is **not** a canonical map from an unmarked abstract P¹ without its embedded quotient.
-
-With a=2α,b=2β,h=2γ,d=1+2δ, exact polynomial reduction yields
-(C₁,C₂,C₃)=(2γ,2,2α) mod 4.
-Consequently in the audited Laurent basis (u^-1,u^-2,u^-3),
-λ(q)=γ[u^-1]+[u^-2]+α[u^-3],
-D(α,β,γ)=γ[u^-1]+α[u^-3].
-All α,γ in F2 occur for actual surjections (previous section); hence
-**V=im(D)=span{[u^-1],[u^-3]}**, dim V=2.
-The β-direction is the kernel of D, and δ is presentation gauge. Thus the span of all pairwise differences is exactly im(D), not merely contained in it.
-
-The coordinate-free definition of V is im(D), not the displayed span. The canonical extension, reduction and first-order difference construction commute with isomorphisms of (X_R,C_R,\bar q) preserving the specified integral deformation problem; therefore such isomorphisms transport V and the quotient class. Changing adapted normal coordinates, including quadratic corrections and moving-base terms, changes representatives and local splittings but not Yoneda classes. The counterexample for A'=A+B shows why a singled-out quadratic contribution cannot replace the full extension.
-
-## 3. Persistent class and dual interpretation
-
-Define \bar λ to be the common image of λ(q) in A_k/V. This is independent of q because all differences lie in V. Since dim A_k=3 and dim V=2, dim(A_k/V)=1. The displayed calculation gives \bar λ equal to the nonzero image of [u^-2]. Therefore no admissible integral quotient admits an embedded primitive triple: its Yoneda class has nonzero leading component.
-
-By Serre duality A_k^∨=H⁰(P¹_k,O(2)). The annihilator V^⊥ is an **intrinsically defined line**, namely ker(D^∨). In the standard u=s/t chart, residue pairing identifies [u^-1],[u^-2],[u^-3] with the coefficient functionals on 1,u,u², respectively. Thus V^⊥ is spanned by u, i.e. the homogeneous quadratic st. This is a **geometric characterization relative to the embedded deformation problem**: the line is the annihilator of its obstruction variation, not an arbitrary declaration that the monomial st is canonical on an unmarked P¹. The pairing of λ with any nonzero element of V^⊥ is nonzero (over F2 it equals 1 with the indicated normalization). There is no claimed absolute preferred generator under all automorphisms of an unmarked curve.
-
-This is also the cokernel of the linearized Yoneda obstruction map. Its interpretation needs no new noncanonical splitting of the reduced extension.
-
-## 4. Divided fourth powers: boundary of the theorem
-
-D₄(a,b)=((a+b)^4-a^4-b^4)/2 = 2a³b+3a²b²+2ab³, so D₄ mod 2=a²b². This is a natural polynomial cross-effect for *specified elements* a,b of an integral algebra; it is not additive in each input and does not by itself define a sheaf-linear morphism into Ext¹(M,L²). In particular replacing adapted normal coordinates by A'=A+B changes an isolated quadratic contribution by 9[u^-1], nonzero modulo 2, while the total Yoneda class is fixed (source counterexample). This variation lies in V for this example, but that coincidence **does not prove** that arbitrary divided-power coordinate defects land in V or that D₄ descends to A_k/V.
-
-No canonical natural transformation from the filtered quadratic neighborhood or a PD/Frobenius-lift structure to A_k/V is constructed here. Additional choices would at minimum require a functorial way to evaluate the fourth-power cross-effect on the embedded conormal filtration and a proof that all coordinate/gauge defects map into V. Consequently the arithmetic leading class and its persistence are proved, while a divided-Frobenius identification remains unproved.
-
-## 5. Reproducibility and scope
-
-Run `python3 research/computations/verify_z4_persistent_obstruction_2026_10_21.py` (SymPy) for exact coefficient identities and linear rank. The script checks polynomial identities, not the source geometric conormal parameterization or the general Yoneda theorem; those are proved in the cited audits. Example actual lifts: (a,b,h,d)=(0,0,0,1), (2,0,0,1), (0,0,2,1), (2,0,2,1), yielding divided coordinates (0,1,0),(0,1,1),(1,1,0),(1,1,1).
-
-**Investigation 4 handoff (no investigation performed):** for a proposed p^r analog first establish a flat integral embedding and a fixed special quotient, compute its canonical Yoneda obstruction, prove divisibility by p in a p-torsion-free Ext group, identify the actual mod-p quotient-deformation tangent and the image of its leading obstruction differential, and only then test whether divided p-power cross-effects descend to the intrinsic cokernel. The p=2 quartic result alone proves no general p^r statement.
+**Verification boundary:** This calculation was reported after the independent audit branch was committed. No standalone calculation script or full derivation was supplied for this supplement. It tests one nontrivial global change, not the general coordinate-invariance theorem, which relies on the relative-Ext construction in the independent audit.
 
 
 ---
 
-## 2026-10-21-z4-characteristic-zero-stci-consequences
-
-# Characteristic-zero STCI consequences of the intrinsic obstruction
-
-Date: 2026-10-21. **Status: new research proposal with proofs and an independent mathematical check of the principal new implications; no canonical promotion.** The unrestricted characteristic-zero STCI question for the fixed quartic remains open.
-
-The main positive result below is a necessary condition that incorporates the *actual first-normal defect divisor* of a generically curvilinear complete intersection. The obstruction need not vanish globally: it must vanish after allowing poles bounded by that divisor. For the distinguished quotient from the arithmetic problem this forces a divisor of degree at least two, with a precise condition in degree two. This is a restriction on a specified normal direction, not an exclusion of arbitrary characteristic-zero STCI presentations.
-
-The principal negative results are also definite. A global complete intersection with smooth support can be generically primitive and still contain no global primitive triple; this remains true with integral projective defining surfaces. Spreading a characteristic-zero pair preserves support after spreading finite ideal identities, but cannot force residue characteristic two, the specified marking, or the prescribed special scheme. Direct flat specialization of a hypothetical surviving quartic STCI intersection to the multiplicity-four scheme Z4 is already impossible by degree.
+## Consequences for actual characteristic-zero pairs
 
 ## 1. Exact setup, inherited claims, and authority
 
@@ -1315,7 +673,7 @@ The following are inherited premises, rather than computations repeated in this 
 * [STCI-R-0001](../results/quartic_carrier_exclusion.md), with its accepted lower-degree and factor reduction, gives d,e at least five for any characteristic-zero STCI presentation of this C. Its complete quartic-carrier exclusion is not reopened here.
 * The fixed normal bundle is N=O(7) squared, hence E=I/I²=O(-7) squared. The basic generic local intersection and blow-up restrictions are recorded in [the simultaneous-surfaces synthesis](../synthesis/02-two-surfaces.md); the entirely-thick inequalities are not asserted to exclude that branch.
 * [STCI-R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) rules out the prescribed flat embedded Z4 lift over exactly Z_(2) and Z_2. It does not exclude arbitrary characteristic-zero STCI presentations or arbitrary ramified bases.
-* The [corrected independent ribbon-to-triple audit](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-intrinsic-ribbon-triple-independent-auditmd) constructs, for a line quotient q:E onto L with kernel M, the canonical extension
+* The [corrected independent ribbon-to-triple audit](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction) constructs, for a line quotient q:E onto L with kernel M, the canonical extension
 
   \[
   0\longrightarrow L^2\longrightarrow B_q
@@ -1325,9 +683,9 @@ The following are inherited premises, rather than computations repeated in this 
   \]
 
   Its Yoneda class o_X(q) in H¹(M dual tensor L²) vanishes precisely when the fixed embedded ribbon admits an ambient embedded primitive triple. This is independently audited evidence, not a new promoted canonical record. The distinction matters: the ambient triple need not be contained in a given Z.
-* The [persistent independent audit](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-persistent-independent-auditmd) proves the fixed marked integral first-order calculation and its precise relative meaning. In particular, every admissible integral quotient reducing to the specified q0 has a middle obstruction coefficient 2 modulo 4. This additional relative conclusion is audited evidence, rather than a broader restatement of R0012.
+* The [persistent independent audit](#relative-ext-construction-in-the-marked-quartic-problem) proves the fixed marked integral first-order calculation and its precise relative meaning. In particular, every admissible integral quotient reducing to the specified q0 has a middle obstruction coefficient 2 modulo 4. This additional relative conclusion is audited evidence, rather than a broader restatement of R0012.
 
-The [existing literature assessment](OCT21_VALUATIONS_RESIDUAL_CYCLES_AND_Z4.md#source-2026-10-21-z4-intrinsic-obstruction-literaturemd) has been consulted. Its distinction between abstract multiple curves and fixed-ambient embedded extension is retained. No claim of priority over the multiple-curve literature is made for the elementary consequences proved here. The reports and the present proofs establish the stated scope; a familiar analogy with abstract extension or divided Frobenius is not being used as a theorem.
+The [existing literature assessment](#the-missing-arithmetic-comparison) has been consulted. Its distinction between abstract multiple curves and fixed-ambient embedded extension is retained. No claim of priority over the multiple-curve literature is made for the elementary consequences proved here. The reports and the present proofs establish the stated scope; a familiar analogy with abstract extension or divided Frobenius is not being used as a theorem.
 
 ## 2. What an actual STCI presentation forces
 
@@ -1381,6 +739,8 @@ M(4e)=O(4e-7-epsilon).
 One symbol can be zero identically. Where both vanish, both surfaces are singular along C in their normal directions. Saturation extends the generic direction, but does not supply a primitive triple in Z.
 
 If both generic orders are at least two, N1=0; there is no preferred line quotient of E forced by the pair. The higher first relation, horizontal common-direction curve, and full initial ideal then require the additional hypotheses in such results as [R0006](../results/actual_ci_smooth_root_bridge.md). Neither the arithmetic Z4 result nor the construction (1) fills those interfaces.
+
+<a id="defect-twisted-vanishing"></a>
 
 ## 3. A new necessary condition: defect-twisted obstruction vanishing
 
@@ -1502,6 +862,8 @@ In particular, if Z is an actual local complete intersection with support exactl
 
 Proposition A recovers ambient vanishing when D=0; the local support argument in this paragraph additionally proves containment of the primitive triple in Z.
 
+<a id="generic-primitivity-counterexample"></a>
+
 ### Counterexample C — generic primitivity does not globalize
 
 Let C be the line V(x,y) in projective three-space with coordinates [t:x:y:w], and consider the complete intersection
@@ -1596,22 +958,41 @@ Indeed Proposition B gives a relative primitive triple. Its canonical extension 
 
 Flatness cannot be omitted in descent arguments. Over a DVR, generic containments extend to the total scheme when the target quotients O_Z and O_C are torsionfree, but quotient flatness is what also identifies the base-changed ideal with the actual special-fiber ideal via Tor vanishing. An ideal itself is torsionfree without its quotient being flat: (2x,x²) in Z_2[x] is an elementary counterexample.
 
-## 6. Outcome, audit boundary, and the next mathematical target
+## Verification and the unproved bridge
 
-**Proved in this report:** the defect-twisted necessary condition (6); the q0 common-zero divisor restriction (9) and its exact degree-two incidence; automatic first-stage vanishing for epsilon at least two; the all-points sufficient bridge to a triple contained in Z; the projective integral-surface counterexample to generic globalization; and the support-preserving spreading/degree statements.
+The [general-mechanism verifier](../computations/verify_z4_general_mechanism_2026_10_21.py) retains the full Laurent variation, nonlinear adapted coordinate change, arbitrary-stage local models, binomial order examples and nonlinear divided-section counterexample. The [actual-pair consequences verifier](../computations/verify_z4_stci_consequences_2026_10_21.py) retains the quotient values, Serre-dual incidence, integral-quadric ideal identities and CI Hilbert-polynomial arithmetic. The mathematical proofs carry the uniform and global statements; the finite controls do not replace them. The inherited independent review reconstructed the gluing comparison, defect-twisted vanishing, all-points containment bridge, projective counterexample and spreading argument. Those inherited mechanism and consequence scripts were not rerun during consolidation; the separate raw-frame reconstruction below was executed.
 
-**Conditional:** the arithmetic exclusion of an everywhere rank-one model over either exact unramified base with the specified marked ribbon reduction. It uses the audited relative coefficient calculation and supplies no such model for an arbitrary characteristic-zero pair.
+A general arithmetic explanation still requires a coordinate-equivariant source cocycle and a map to the actual gluing derivations that reproduces the embedded difference. An unrestricted STCI application additionally requires actual homogeneous symbols to force an incompatible quotient/defect incidence or a global compatible primitive stage. Neither follows from generic primitivity, the existence of a ribbon, a vanishing ambient obstruction, or spreading out alone. The explicit counterexamples above are mathematical limits on those proposed bridges.
 
-**Open:** whether the actual homogeneous surface symbols of any surviving pair force a direction and divisor violating (6); whether C0-specific geometry forces stronger global intermediate stages despite Counterexample C; all entirely-thick interfaces not covered by existing scoped results; and the unrestricted characteristic-zero STCI question. No new unconditional carrier-degree exclusion is claimed.
 
-The most focused next step on the order-one branch is to impose (6) on the *actual first-normal symbols* (5), together with their global lift conditions, rather than classify arbitrary ribbons. For epsilon=1 this is a finite-dimensional incidence between the quotient q, the common-zero divisor D of those symbols, and the Serre-dual functional (11). A proof that all actual surviving pairs violate that incidence would be an exclusion. The present report establishes the incidence as necessary and gives one exact restricted-direction obstruction; it does not establish the missing actual-pair classification. For epsilon at least two, the first Yoneda stage is identically insufficient, so a later-stage or independent geometric condition is required.
+## Raw-frame attribution of the middle Laurent coefficient
 
-Independent checks were supplied during this investigation by the structural-audit worker for Propositions A/B, the projective counterexample, and the q0 Serre-dual bound; a separate spreading-audit worker reconstructed Proposition D and checked the fiberwise flatness reference. These checks do not promote the report. The independent audit's stable path should be consulted when attached by the coordinating report.
+This exact decomposition is made only in the prescribed raw integral coordinates. The counterexample above proves that its summands do not define invariant classes. The complete raw-frame calculation was reconstructed exactly and independently reviewed during consolidation. Its individual summands remain coordinate dependent; the total obstruction and its arithmetic nonvanishing are the invariant conclusions.
 
-Reproducible calculation:
+Let p=a+bu+3hu^2, q=d+2hu; P(c)=3ac^2+(3b-4d)c+h, Q(c)=2ac+2b-3d. Set c0=u^-1, c1=u^-4q-u^-5p, A1=3u^-8p-4u^-7q, B1=2u^-7p-3u^-6q,
+A2=-9u^-12p^2+16u^-11pq-6u^-10q^2,
+B2=-5u^-11p^2+9u^-10pq-3u^-9q^2.
 
-```text
-python3 research/computations/verify_z4_stci_consequences_2026_10_21.py
-```
+The quadratic cocycle K=u^8([epsilon^2]m_V+u^-8[epsilon^2]m_U) decomposes as
+K_A=u^8 Q(c0) A2,
+K_B=-u^8 P(c0) B2,
+K_move=u^8 c1(Q'(c0) A1-P'(c0) B1).
+Terms involving arbitrary quadratic embedding corrections cancel against the linear kernel transition. These formulas are an **exact equality in the chosen frame**, not an invariant direct sum of cohomology classes.
 
-This standard-library script checks the exact q0/q1 cubic values, the evaluation-conic determinant, obstruction-group dimensions, the integral-quadric ideal identities and ranks, nilpotence in the degeneration example, and the finite minimum/CI Hilbert-polynomial arithmetic. The geometric proofs above carry the global statements; a script PASS is not a substitute for them.
+For the distinguished quotient p=0,q=1,P=-4c,Q=-3:
+K_A=18u^-2, K_B=-12u^-2, K_move=-12u^-2;
+K=-6u^-2. The -6 in A2 comes directly from binomial(4,2); the other contributions are divisible by four.
+
+For the full admissible quotient family, individual summands can acquire nonzero middle residues that cancel. Their exact middle Laurent coefficients are needed; parity of one factor alone does not show its product vanishes modulo four.
+
+Exact symbolic extraction gives middle Laurent coefficients:
+[K_A]_-2 = -88abh+114adh-18b^3+59b^2d-60bd^2+18d^3;
+[K_B]_-2 = 82abh-102adh+15b^3-47b^2d+45bd^2-12d^3;
+[K_move]_-2 = 10abh-16adh+6b^3-23b^2d+29bd^2-12d^3.
+Their sum is C2=(b-d)(4ah+3b^2-8bd+6d^2).
+Substitute a=2α,b=2β,h=2γ,d=1+2δ. Modulo four the three middle coefficients are respectively **2,2β,2β**. The latter two cancel in the total, leaving C2=2 modulo four. The earlier raw-frame source attributed residues (2,0,0) to all quotients; that claim was incorrect when β is odd. At the distinguished quotient β=0 the displayed (18,-12,-12) values remain correct. This correction changes the attribution, not the reviewed total cocycle or nonlifting theorem.
+
+This does not construct a natural map from divided-power polynomials to H^1(O(-4)). In particular, a change of raw normal coordinates changes the allocation among K_A, K_B and K_move. The total class is intrinsic for the fixed quotient, but the decomposition is not proved invariant.
+
+
+The source cited a verifier that is absent from the covered snapshots. Its necessary support is replaced by [the exact Laurent reconstruction](../computations/verify_z4_raw_source_decomposition.py), which derives all three middle polynomials from the displayed raw-frame definitions, checks their sum against C2, and performs the formal parameter substitution modulo four. It was executed successfully during consolidation. This fixed-frame identity does not assert invariance of individual pieces.

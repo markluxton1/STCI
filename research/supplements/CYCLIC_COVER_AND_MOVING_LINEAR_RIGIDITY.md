@@ -4,14 +4,14 @@ Permanent subject dossier retaining full mathematical computations, counterexamp
 
 ---
 
-## 2026-10-14-cyclic-cover-local-smooth-curve
+<a id="2026-10-14-cyclic-cover-local-smooth-curve"></a>
 
-# Local torsion order, cyclic-cover splitting, and ramification along a smooth curve
+## Local torsion order, cyclic-cover splitting, and ramification along a smooth curve
 
 Date: 2026-10-14. Author: `cyclic_cover_structure/local_torsion_curve`.
 
 Status: **PROVED HERE**, with an independent audit of the explicit families in
-[2026-10-14-cyclic-cover-D4-counterexample-audit.md](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-cyclic-cover-D4-counterexample-audit).
+[2026-10-14-cyclic-cover-D4-counterexample-audit.md](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-cyclic-cover-d4-counterexample-audit).
 These are local results. They do not give a projective mate for `C0` or resolve
 the universal STCI question.
 
@@ -21,7 +21,7 @@ read from ramification of its cyclic class cover. The answer is **no**, even
 on a cyclic quotient hypersurface. There is instead an exact formula involving
 a fractional intersection invariant and a separate splitting number.
 
-## 1. Setup and the exact local formula
+### 1. Setup and the exact local formula
 
 Let `k` be algebraically closed of characteristic zero. Let `(R,m)` be a
 complete normal two-dimensional local `k`-algebra, excellent and with residue
@@ -105,7 +105,7 @@ This convention avoids the sign ambiguity of calling it a self-linking
 number. Its denominator, which is the ramification index, is independent
 of that sign.
 
-### Proof
+#### Proof
 
 If `f` were a `p`-th power in `Frac(R)` for a prime `p` dividing `r`, its
 root would have divisor `(r/p)C`, contradicting exact order `r`. Since the
@@ -185,7 +185,7 @@ on `C` has valuation zero. Hence `m_C mod r`, `lambda_C`, `b`, and `e`
 are well defined. Finally, the usual local definition of intersection with
 a `Q`-Cartier divisor gives `(D.C)=m_C/r`. ∎
 
-## 2. A `D_n` counterexample: local order two, ramification one
+### 2. A `D_n` counterexample: local order two, ramification one
 
 For any integer `n>=4`, put
 
@@ -243,7 +243,7 @@ This also disproves the stronger guess that a smooth finite-index curve
 on a hypersurface surface germ forces the surface to be a cyclic quotient
 singularity: `D_n` is a counterexample.
 
-## 3. The complete `A`-type family realizes every possible ramification divisor
+### 3. The complete `A`-type family realizes every possible ramification divisor
 
 Fix `N>=2` and `1<=a<N`, and put
 
@@ -284,7 +284,7 @@ The fractional intersection invariant of Theorem 1 is
   \boxed{\lambda_{C_a}=a^2/N\pmod{\mathbf Z}}.
 \]
 
-### Proof of exact order and cover identification
+#### Proof of exact order and cover identification
 
 Write the usual cyclic quotient presentation
 
@@ -363,7 +363,7 @@ Restriction to `C_a` yields
 
 Thus `m_C/r=a^2/N`, and `gcd(r,m_C)=gcd(r,g)` as asserted. ∎
 
-### Every index--ramification pair occurs
+#### Every index--ramification pair occurs
 
 For any `r>=2` and any positive divisor `e` of `r`, put
 
@@ -401,7 +401,7 @@ The smallest instance is already on `A_3`:
 Its class cover is `UV=z^2`, with `f=(U-V)^2`. The inverse curve consists
 of `U=V=z` and `U=V=-z`, both unramified over `C`.
 
-## 4. The gluing defect is visible in the discriminant
+### 4. The gluing defect is visible in the discriminant
 
 The preceding examples do not evade the index by making the inverse
 Cartier curve smooth. They move the defect into its multiple branches and
@@ -444,7 +444,7 @@ discriminant, or gluing defect of the pulled-back Cartier curve. Applying
 Riemann--Hurwitz only to its normalization discards the `2delta` term and
 cannot bound the local Cartier index.
 
-## 5. Consequences and failure shields for the global structural lane
+### 5. Consequences and failure shields for the global structural lane
 
 - A hyperplane class is Cartier locally. Adding a multiple of it to a
   global torsion relation does not itself change local class order or
@@ -472,9 +472,9 @@ independent example audit is the companion note linked at the beginning.
 
 ---
 
-## 2026-10-14-cyclic-cover-D4-counterexample-audit
+<a id="2026-10-14-cyclic-cover-d4-counterexample-audit"></a>
 
-# A smooth curve of local class order two whose cyclic cover splits
+## A smooth curve of local class order two whose cyclic cover splits
 
 Date: 2026-10-14.
 Author: `duval_counterexample`; independent elementary local audit for
@@ -484,7 +484,7 @@ Status: **NEW PROVED EXAMPLE.** This note checks a new local example only.
 Previously accepted global STCI results are premises and have not been
 replayed. It gives no counterexample to the global STCI conjecture.
 
-## 1. The surface and smooth curve
+### 1. The surface and smooth curve
 
 Let `k` be algebraically closed of characteristic zero and choose
 `i in k` with `i^2=-1`. Put
@@ -527,7 +527,7 @@ of a Weil divisor class is equivalent to being principal. Consequently
 order([C] in Cl(A)) = 2.
 ```
 
-## 2. The normalized class cover
+### 2. The normalized class cover
 
 Adjoin a square root `t` of `y` to `Frac(A)`, and put `w=x/t`. The
 normalization is
@@ -572,7 +572,7 @@ has `t=w=0`; the defining equation then forces `z=0` on its support.
 The action is therefore free away from the closed point, and the
 finite cover is etale there. In particular it is quasi-etale.
 
-## 3. Two inverse branches, each unramified over the curve
+### 3. Two inverse branches, each unramified over the curve
 
 The reduced inverse support of `C` is `V(t)`. Its two components are
 
@@ -604,7 +604,7 @@ which is absent in every quasi-etale class cover.
 The scheme-theoretic inverse ideal is `(t w,t^2)` and has reduced
 support as above; no claim that this ideal equals `(t)` is needed.
 
-## 4. Consequence and a whole `D_n` family
+### 4. Consequence and a whole `D_n` family
 
 The assertion that a smooth curve on an isolated normal hypersurface
 surface necessarily has ramification index equal to its local class
@@ -638,7 +638,7 @@ not by itself bound carrier degrees, force conductor torsion, or
 settle whether a projective curve is a set-theoretic complete
 intersection.
 
-## 5. Independent audit of an arbitrary-order cyclic-quotient family
+### 5. Independent audit of an arbitrary-order cyclic-quotient family
 
 The parent `local_torsion_curve` independently found the following
 stronger family during this audit. The formulas below were independently
@@ -750,7 +750,7 @@ e=N/gcd(N,a^2).
 
 This is equal to the value `r/gcd(r,g)` found from the class cover.
 
-## 6. The fractional-intersection explanation
+### 6. The fractional-intersection explanation
 
 Here is the mechanism behind the distinction between class order and
 ramification. Let `C` be a smooth curve through the closed point of a
@@ -805,7 +805,7 @@ h|_C=-z^2,
 Its denominator is one, explaining the two unramified branches
 despite local class order two.
 
-## 7. Signed independent audit of the general theorem and discriminant
+### 7. Signed independent audit of the general theorem and discriminant
 
 Auditor: `duval_counterexample`, 2026-10-14.
 Audited source:
@@ -864,9 +864,9 @@ not computational evidence and not a claim of mathematical novelty.
 
 ---
 
-## 2026-10-14-normal-cyclic-cover-torsion-detection
+<a id="2026-10-14-normal-cyclic-cover-torsion-detection"></a>
 
-# Torsion detected on an ample smooth rational curve
+## Torsion detected on an ample smooth rational curve
 
 Date: 2026-10-14.
 Author: `cyclic_cover_structure`, independently checking a proposal from
@@ -878,7 +878,7 @@ not recomputed. No novelty claim is made. This note concerns normal carriers;
 it does not eliminate all normal carriers or resolve the universal STCI
 problem.
 
-## 1. An intrinsic torsion-detection theorem
+### 1. An intrinsic torsion-detection theorem
 
 Let `X` be a normal integral projective surface over an algebraically closed
 field `k`. Let `C` be a smooth rational prime curve. Assume that some positive
@@ -904,7 +904,7 @@ The empty least common multiple is one. In particular this theorem detects
 torsion at singularities **on `C`**, independently of singularities elsewhere
 on the surface. It does not assert that `Cl(X)` is torsion-free.
 
-### Proof of the cyclic-cover construction
+#### Proof of the cyclic-cover construction
 
 Choose a Weil divisor representing `T`, write `t T=div(phi)`, and form the
 usual cyclic reflexive algebra
@@ -941,7 +941,7 @@ PDF](https://arxiv.org/pdf/1310.3951). Etaleness near the Cartier locus here
 is established directly by the local equation `w^t=unit`; the proof does
 not use an assertion of etaleness at arbitrary non-Cartier singular points.
 
-### Proof of the torsion-detection assertion
+#### Proof of the torsion-detection assertion
 
 If `T` is Cartier at every point of `C`, its invertible locus is an open
 neighborhood of `C`. The cyclic cover is finite etale on that neighborhood.
@@ -983,7 +983,7 @@ fundamental-group theorem for `X`. More generally it works if `C` is a
 proper connected reduced curve with no nontrivial finite etale covers,
 provided an ample effective Cartier divisor has support `C`.
 
-## 2. Exact normal-carrier formula for the quartic
+### 2. Exact normal-carrier formula for the quartic
 
 Let `X subset P3` be a normal integral degree-`a` hypersurface in
 characteristic zero, containing the accepted smooth rational quartic
@@ -1050,7 +1050,7 @@ These are necessary conditions on a hypothetical mate, not an exhaustive
 carrier classification. No bound on `a`, on the local indices, or on
 their least common multiple has been proved here.
 
-## 3. Failure shield: local order is not curve ramification
+### 3. Failure shield: local order is not curve ramification
 
 A local cyclic class cover can have several branches over a smooth
 curve, meeting above the surface singularity. Normalizing those branches
@@ -1159,7 +1159,7 @@ The residue class `ell mod n` is independent of the choices. The
 ramification invariant is the fractional local intersection class
 `ell/n mod Z`; it can be zero for a nontrivial divisor class.
 
-## 4. A conditional global budget retaining the gluing
+### 4. A conditional global budget retaining the gluing
 
 This additional calculation was independently audited by
 `local_torsion_curve`. Retain the normal quartic-carrier setup of section 2
@@ -1225,7 +1225,7 @@ singularity stratum and the extra Cartier-inverse hypothesis**. It does
 not bound arbitrary local indices on arbitrary carriers. Obtaining an
 analogue with the residual non-Cartier inverse curve is an open next step.
 
-## 5. What this proves and what remains
+### 5. What this proves and what remains
 
 The new degree-independent gain is exact localization of the global
 torsion obstruction to the finite singular set on the hypothetical
@@ -1255,9 +1255,9 @@ theory, Serre's normality criterion, Serre duality, and Serre vanishing.
 
 ---
 
-## 2026-10-14-moving-linear-cubic-compatibility
+<a id="2026-10-14-moving-linear-cubic-compatibility"></a>
 
-# Degree-one moving linear relations: the cubic obstruction
+## Degree-one moving linear relations: the cubic obstruction
 
 Date: 2026-10-14. Status: new exact cubic calculation, independently accepted in the
 [sign/frame audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-independent-audit). The accepted embedded chart and the independently established
@@ -1271,10 +1271,10 @@ classification of the specified relation-lifting problem. A relation with
 torsion or poles, a first relation of higher order, and an additional relation
 in the relevant degree are separate problems.
 
-## 1. Accepted inputs and the next target
+### 1. Accepted inputs and the next target
 
 Use the frames and coefficients from the [independent quadratic
-audit](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd):
+audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd):
 
     a=A+Cz, b=B+Dz, Delta=AD-BC != 0,
     f0=a u+b v,
@@ -1302,7 +1302,7 @@ and on the open conic
 
 The conic is normalized below by `D=1, B=t, C=8/t`, with `t!=0`.
 
-## 2. Canonical quadratic correction and the unit term
+### 2. Canonical quadratic correction and the unit term
 
 Let `T` be the accepted quadratic discrepancy evaluated at `(b,-a)`. On its
 obstruction-zero locus, split it uniquely as
@@ -1340,7 +1340,7 @@ the corresponding unit contribution and a cubic coboundary. Thus they do not
 introduce another compatibility parameter. The unspecified degree-two term
 of the comparison unit multiplies `f0` and vanishes in the quotient.
 
-## 3. Exact chart calculation
+### 3. Exact chart calculation
 
 The accepted chart is expanded only through normal degree three:
 
@@ -1402,7 +1402,7 @@ the open conic extends through cubic normal degree. The points in the conic's
 closure with `D=0` have `Delta=0`, so they are outside the basepoint-free
 degree-one relation problem and are not discarded by a saturation here.
 
-## 4. Conclusion and scope
+### 4. Conclusion and scope
 
 The complete basepoint-free degree-one quadratic zero locus has now been
 tested in the next normal degree. Only the actual quadric relation survives.
@@ -1444,18 +1444,18 @@ strata. No inherited accepted computation was rerun.
 
 ---
 
-## 2026-10-14-moving-linear-cubic-independent-audit
+<a id="2026-10-14-moving-linear-cubic-independent-audit"></a>
 
-# Independent audit of the degree-one moving linear cubic obstruction
+## Independent audit of the degree-one moving linear cubic obstruction
 
 Date: 2026-10-14. Status: **PASS**, exact independent derivation of the new
 cubic calculation. The accepted embedded chart and [quadratic
-audit](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
+audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 are premises. Their earlier computations were not re-audited. The owner's
 [cubic note](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-compatibility) was first read
 after this audit's separate expansion had produced its answer.
 
-## 1. Frame and correction signs
+### 1. Frame and correction signs
 
 Write `W=O(-8)`, `M=O(-6)`,
 
@@ -1495,7 +1495,7 @@ After evaluating in the quotient, the third-degree remainder is precisely
 The minus sign comes from the third-degree product `L2 q0 ell0^2`.
 The term `L3 f0` vanishes in the quotient.
 
-## 2. Independent expansion method and exact output
+### 2. Independent expansion method and exact output
 
 The independent source changes normal variables before expanding:
 
@@ -1559,7 +1559,7 @@ The `z^-1` coefficient is nonzero at every allowed point. These are
 identities over the parameter Laurent ring, not tests at finitely many
 parameters. They agree with the owner's calculation term for term.
 
-## 3. Lifting freedom and primitive length-four scope
+### 3. Lifting freedom and primitive length-four scope
 
 Two quotient-level quadratic lifts of the same leading line differ by a
 global section of `Hom(W,Sym^2 M)=O(-4)`, whose `H^0` is zero. Thus the
@@ -1583,28 +1583,26 @@ allowed, or when another independent relation enters in the relevant
 degree. It does not take a root of a higher-order pure-power relation and
 does not assert an STCI exclusion on its own.
 
-The independent [source](../computations/moving_linear_cubic_independent_audit_2026_10_14.py)
-and [complete stdout](../validation/2026-10-14-moving-linear-cubic/independent-audit/stdout.txt)
-preserve the new derivation and its exact field reductions.
+The independent [source](../computations/moving_linear_cubic_independent_audit_2026_10_14.py) preserves the derivation and its exact field reductions.
 
 
 ---
 
-## 2026-10-14-moving-linear-ideal-rigidity-independent-audit
+<a id="2026-10-14-moving-linear-ideal-rigidity-independent-audit"></a>
 
-# Degree-one moving linear relations: ideal rigidity and a carrier consequence
+## Degree-one moving linear relations: ideal rigidity and a carrier consequence
 
 Date: 2026-10-14. Status: independent geometric audit conditional only on the
 new cubic classification's recorded exact coefficient verification. This
 note does not repeat the accepted quadric or constant-direction calculations.
 
-Use the [quadratic frame review](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
+Use the [quadratic frame review](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 and [new cubic classification](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-compatibility).
 They identify the unique compatible basepoint-free moving linear relation
 line `W=O(-8)` through normal degree three as the line of the actual quadric
 `q=u+(z/2)v`. Its quotient conormal is `M=O(-6)`.
 
-## 1. Finite principal ideals with a fixed relation line
+### 1. Finite principal ideals with a fixed relation line
 
 Let `C` be a smooth curve in a smooth threefold, with conormal bundle `E`.
 Fix a subline `W` in `E` whose quotient `M=E/W` is a line bundle. Consider
@@ -1634,7 +1632,7 @@ This is uniqueness of ideals. It does not choose a distinguished local
 generator; generator units are exactly the harmless differences removed
 in the argument.
 
-## 2. The quadric direction is rigid at every finite length
+### 2. The quadric direction is rigid at every finite length
 
 For `C0`, `W=O(-8)` and `M=O(-6)` give
 
@@ -1659,7 +1657,7 @@ No claim is made about higher-order pure-power relations, nonsaturated
 first relations, torsion in the first normal quotient, or a second
 independent relation before normal degree four.
 
-## 3. Consequence for a normal carrier
+### 3. Consequence for a normal carrier
 
 Let `F` be an integral hypersurface of degree `a` containing `C0`, and
 assume its entire symbolic multiple `C_N` is a primitive length-`N`
@@ -1690,7 +1688,7 @@ conormal freeness at selected points. It applies in every carrier degree
 with the stated structure and makes no assertion about unbounded local
 index strata lacking that structure.
 
-## 4. Verification and boundary
+### 4. Verification and boundary
 
 The finite ideal uniqueness proof, inclusion of `I_C^N` for a primitive
 multiple, and the divisor-degree consequence have been independently
@@ -1703,9 +1701,9 @@ not a solution of the universal STCI question.
 
 ---
 
-## 2026-10-14-quadric-opposite-ruling-phase-family-failure
+<a id="2026-10-14-quadric-opposite-ruling-phase-family-failure"></a>
 
-# A global opposite-ruling phase family always has extra inverse points
+## A global opposite-ruling phase family always has extra inverse points
 
 Date: 2026-10-14. Owner: `quadric_global_phase_geometry`, for
 `projection_conductor_ray/quadric_phase_review`.
@@ -1760,8 +1758,233 @@ the accepted projective frontier. The argument does not require
 birationality and places no restriction on the order of `a^{-2}`.
 
 It also does not exclude general opposite-ruling pairs. The
-[complete coefficient normal form](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-quadric-opposite-ruling-phase-normal-formmd)
+[complete coefficient normal form](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom)
 contains arbitrary vectors `D,E in k^4` in place of the restricted
 choice `D=W2,E=u W2`; those coefficients can remove this particular
 boundary obstruction. No general phase-order bound or full
 four-section family exclusion follows from this calculation.
+
+
+---
+
+<a id="source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd"></a>
+
+## Moving linear relations: exact quadratic obstruction and independent review
+
+Date: 2026-10-14. Status: independently derived new compatibility calculation;
+the accepted embedded quadratic transition is used as a premise. No previous
+normal-bundle or constant-direction computation is repeated.
+
+This note reviews the moving operator in Section 8 of
+[the thick relation extension](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd)
+for a moving **linear** relation. The calculation gives an obstruction-zero
+family, rather than an exclusion theorem.
+
+### 1. Frames and the cohomology target
+
+Write the actual conormal bundle as `E=O(-7)^2`. Let the relation line be
+`W=O(-8)` with basepoint-free image
+
+    f=a(z)u+b(z)v,
+    a=A+Cz,  b=B+Dz,  Delta=AD-BC != 0.
+
+On the second chart, `w=z^-1` on the reduced curve, the coefficient pair is
+`a_1=Aw+C=z^-1 a`, `b_1=Bw+D=z^-1 b`. The normal frames satisfy
+`u'=z^-7 u`, `v'=z^-7 v` to first order, and the relation frame satisfies
+`W_1=z^-8 W_0`.
+
+The quotient `M=E/W` is `O(-6)`. Locally its generator `q` is normalized by
+`u -> b q`, `v -> -a q`. Since the second-chart coefficients have the extra
+factor `z^-1`, its frame transition is `q_1=z^-6 q_0`. Thus the degree-two
+relation obstruction has target
+
+    Q=Hom(W, Sym^2 M)=O(-4),
+    (q_1^2/W_1)=z^-4(q_0^2/W_0).
+
+Consequently, evaluating the chart-zero quadratic discrepancy at
+`(u,v)=(b,-a)` produces the coefficient in the chart-zero frame of `Q`, with
+**no extra power of z**. Its Cech cohomology class retains exactly the
+coefficients of `z^-1,z^-2,z^-3`. Nonnegative exponents are first-chart
+coboundaries; exponents at most `-4` are second-chart coboundaries.
+
+More generally, a basepoint-free linear relation of movement degree `e`
+has `W=O(-7-e)`, `M=O(e-7)`, and
+
+    Q=Hom(W,Sym^2 M)=O(3e-7).
+
+For `e>=2`, `H^1(Q)=0`, so this one-step obstruction gives no exclusion.
+
+### 2. Exact coefficient calculation
+
+Use the accepted quadratic chart terms
+
+    Du=-(5/2)z^-4 u^2-3z^-3 uv-(3/8)z^-2 v^2,
+    Dv=3z^-5 u^2-z^-4 uv-(9/4)z^-3 v^2.
+
+The moving operator is
+
+    Du f_u+Dv f_v+(z^-3 u+(1/2)z^-2 v) f_z.
+
+Here `f_z=C u+D v`, and its value at `(b,-a)` is
+`Cb-Da=-Delta`. The evaluated discrepancy is therefore exactly
+
+    T=3 z^-5 b^3-(3/2)z^-4 a b^2
+      +(3/4)z^-3 a^2 b-(3/8)z^-2 a^3
+      -Delta z^-3 b+(Delta/2)z^-2 a.
+
+The three cohomology coefficients are
+
+    4 [z^-3]T = B(36D^2-16AD+3A^2-2BC),
+
+    8 [z^-2]T = 24D^3-20AD^2+10A^2D-3A^3
+                 +8BC(A-2D),
+
+    8 [z^-1]T = C(-12D^2+16AD-9A^2+2BC).
+
+These formulas include the base derivative. Dropping that term changes the
+zero locus and is not a valid moving-relation calculation.
+
+### 3. Complete obstruction-zero locus on Delta != 0
+
+All statements here are in characteristic zero over an algebraically
+closed field, and `[A:B:C:D]` is considered up to common nonzero scale.
+
+If `B=C=0`, then `A,D` are nonzero. With `t=A/D`, the remaining equation is
+
+    24-20t+10t^2-3t^3
+      =-(t-2)(3t^2-4t+12)=0.
+
+This gives three distinct diagonal points:
+
+    [A:B:C:D]=[t:0:0:1],
+    t=2, (2+4 sqrt(-2))/3, (2-4 sqrt(-2))/3.
+
+The point `t=2` is the accepted quadric direction
+`q=u+(z/2)v`. In that direction the raw discrepancy `T` itself is zero.
+
+If `C=0` and `B!=0`, then `Delta=AD!=0`. The first and second coefficient
+equations would require a common root of
+`3t^2-16t+36` and `(t-2)(3t^2-4t+12)`. The first polynomial does not vanish
+at `2`; its difference from `3t^2-4t+12` is `-12(t-2)`, so no common root
+exists. If `B=0` and `C!=0`, the analogous pair is
+`9t^2-16t+12` and `(t-2)(3t^2-4t+12)`. The first does not vanish at `2`;
+its difference from three times the second quadratic is `-4(t+6)`, and
+its value at `-6` is `432`. Again there is no common root.
+
+If `B,C` are both nonzero, the first and third equations give
+`A^2=4D^2`. Necessarily `D!=0`. For `A=-2D` they force `BC=40D^2`, and the
+middle equation becomes `-1152D^3=0`, which is impossible. For `A=2D`
+they force `BC=8D^2`, and the middle equation vanishes identically.
+Moreover, `Delta=-6D^2!=0`.
+
+Thus the exact zero locus is the disjoint union of the three diagonal
+points above and the open conic
+
+    A=2D,  BC=8D^2,  D!=0.
+
+The closure of this conic has two points with `D=0`; both have `Delta=0`
+and are outside the basepoint-free degree-one problem. Passing the
+quadratic obstruction means compatibility through this one normal step;
+it does not prove a global surface, primitive quadruple, or STCI pair.
+
+### 4. Independent review of the pure-power quotient
+
+Let `L=O(-e)` be any basepoint-free moving direction inside the constant
+rank-two bundle `V tensor O`, and consider the pure-power relation
+`m^r` of movement degree `re`. Put
+
+    Q_tilde=Sym^(r+1)V / (L^r tensor V).
+
+The annihilator line `L_perp` inside `V^* tensor O` is `O(-e)`. The
+annihilator of `m^r V` under the perfect characteristic-zero symmetric
+pairing is exactly
+
+    (L_perp)^2 tensor Sym^(r-1)V^*.
+
+Indeed, in a basis with `m` the first vector, the two vectors spanning
+`m^r V` have exponents `(r+1,0)` and `(r,1)`; their annihilator consists
+precisely of degree-`r+1` dual binary forms divisible by the square of the
+second dual variable. This is a fiberwise equality of rank-`r` bundles,
+so
+
+    Q_tilde^*=O(-2e)^r,
+    Q_tilde=O(2e)^r.
+
+After restoring the conormal twist and tensoring with the dual relation
+line, the actual next-order obstruction bundle is
+
+    Q_r=O((r+2)e-7)^r.
+
+For `e=1`, all pure powers of order `r>=4` therefore have zero
+`H^1(Q_r)`. For `e>=2`, already `r>=1` gives zero `H^1(Q_r)`. This proves
+that no universal exclusion of moving pure-power first relations can
+come from this quadratic step alone. It does not assert the existence
+of a complete-intersection thickening with such a first relation.
+
+For the actual quadric direction, the global equation `q^r` supplies
+all higher-order lifts of the single relation. A new second independent
+relation, or additional full-algebra constraints, is required to obtain
+an STCI exclusion.
+
+### 5. All finite steps before the second independent relation
+
+The apolar argument extends to every step `k>=1`. For the pure-power
+first relation `m^r`, the initial multiples in degree `r+k` are
+`L^r tensor Sym^k V`. Their annihilator is precisely
+
+    (L_perp)^(k+1) tensor Sym^(r-1)V^*.
+
+This follows in the same basis: the initial multiples have second-variable
+exponents `0,...,k`, and their annihilator has second-variable exponent at
+least `k+1`. It is an equality of rank-`r` bundles. Thus, after the actual
+conormal twist and dual relation twist, the obstruction bundle is
+
+    Q_k=Hom(W_r, Sym^(r+k)E / (W_r tensor Sym^k E))
+       =O((r+k+1)e-7k)^r,
+    W_r=O(-r(7+e)).
+
+The displayed direct-sum isomorphism is independent of local direction
+coordinates. A fixed volume form on the constant two-dimensional vector
+space identifies the annihilator line with `L`; changing that volume form
+only introduces a constant one-dimensional factor.
+
+If all these `H^1(Q_k)` vanish for `1<=k<g`, one can construct a coherent
+principal-relation ideal modulo `I_C^(r+g)` with associated initial ideal
+generated by `m^r` in every order below `r+g`. Here is the precise finite
+construction. Choose arbitrary local lifts of the leading relation on an
+affine cover. Assuming they already glue, up to multiplication by units,
+through order `r+k-1`, their degree-`r+k` discrepancy is a Cech cocycle
+with values in `Q_k`. Vanishing of `H^1(Q_k)` permits local degree-`r+k`
+corrections; the discrepancy left in `W_r tensor Sym^k E` is removed by
+changing the gluing units in normal degree `k`. The generated local ideals
+then agree modulo `I_C^(r+k+1)`. Iterating gives the claimed finite ideal.
+Local multiplication by the nonzero leading polynomial `m^r` is injective
+in the symmetric normal algebra; consequently this construction adds no
+unexpected initial relation or torsion layer below the cutoff.
+
+This is a finite formal-neighborhood construction, not the construction
+of a global hypersurface or a complete-intersection pair. No algebraization
+or compatible infinite-order lifting is asserted here.
+
+For `1<=e<7`, the obstruction-bundle degree decreases with `k`. All the
+required groups vanish if and only if
+
+    (r+g)e >= 7g-8.
+
+For `e=1`, this reads `r>=6g-8`. In particular, for any prescribed finite
+gap `g`, moving pure-power first relations of sufficiently high order pass
+every formal compatibility step before the second independent relation.
+Thus increasing the finite jet order cannot by itself give a uniform
+exclusion of all such moving first relations. The full algebra, the
+independent second relation, or a global condition must enter a universal
+argument.
+
+### 6. Audit scope
+
+The new coefficient equations, their complete case split, the frame
+identification, the pure-power splitting at every step, and the finite
+principal-relation lifting argument have been independently derived. The
+accepted chart transition and accepted quadric equation
+were used without re-verification. No new finite test is promoted to a
+proof of global existence. The next unresolved calculation is the
+cubic compatibility of the obstruction-zero moving linear relations.

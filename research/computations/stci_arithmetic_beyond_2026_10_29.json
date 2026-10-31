@@ -1,0 +1,78 @@
+{
+  "scope": "selected-prime exact controls; uniform proof in companion note",
+  "family": "F=(x0^3*x3-x1^4)^4-x0^13*(x0^2*x2-x1^3)",
+  "checks": [
+    {
+      "prime": 43,
+      "r": 1,
+      "n": 32,
+      "E": 10,
+      "summands_before_expansion": 33,
+      "minimum_x0_exponent": 1,
+      "homogeneous_degree": 43,
+      "P_pullback": "s^43*t^129",
+      "G_pullback": "z^172",
+      "status": "PASS"
+    },
+    {
+      "prime": 47,
+      "r": 1,
+      "n": 35,
+      "E": 11,
+      "summands_before_expansion": 36,
+      "minimum_x0_exponent": 2,
+      "homogeneous_degree": 47,
+      "P_pullback": "s^47*t^141",
+      "G_pullback": "z^188",
+      "status": "PASS"
+    },
+    {
+      "prime": 53,
+      "r": 3,
+      "n": 39,
+      "E": 11,
+      "summands_before_expansion": 40,
+      "minimum_x0_exponent": 2,
+      "homogeneous_degree": 53,
+      "P_pullback": "s^53*t^159",
+      "G_pullback": "z^212",
+      "status": "PASS"
+    },
+    {
+      "prime": 59,
+      "r": 1,
+      "n": 44,
+      "E": 14,
+      "summands_before_expansion": 45,
+      "minimum_x0_exponent": 5,
+      "homogeneous_degree": 59,
+      "P_pullback": "s^59*t^177",
+      "G_pullback": "z^236",
+      "status": "PASS"
+    },
+    {
+      "prime": 61,
+      "r": 3,
+      "n": 45,
+      "E": 13,
+      "summands_before_expansion": 46,
+      "minimum_x0_exponent": 4,
+      "homogeneous_degree": 61,
+      "P_pullback": "s^61*t^183",
+      "G_pullback": "z^244",
+      "status": "PASS"
+    },
+    {
+      "prime": 101,
+      "r": 3,
+      "n": 75,
+      "E": 23,
+      "summands_before_expansion": 76,
+      "minimum_x0_exponent": 14,
+      "homogeneous_degree": 101,
+      "P_pullback": "s^101*t^303",
+      "G_pullback": "z^404",
+      "status": "PASS"
+    }
+  ]
+}

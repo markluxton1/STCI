@@ -19,7 +19,7 @@ The sole-support cycle equality also imposes the elementary degree filter \(4/\g
 
 The curve's special parametrization supplies more than its degree, quadric and normal bundle. The two endpoints are distinguished by fourth-order contact. The osculating-plane correspondence and its paired secants organize how the curve meets the ruled cubic and its dual. These geometric structures provide possible loci where global equations acquire exceptional jets, but do not by themselves constrain the full defining ideal of a pair.
 
-The canonical [flag-incidence theorem R-0026](../results/quartic_flag_conormal_geometry.md) identifies a smooth complete flag surface for the marked pairing. Addition of effective degree-two divisors is finite flat of degree six, including a single length-six fiber at a quadruple root. Its swap fixed locus is a smooth conic in characteristic zero and a doubled line in characteristic two; the ambient flag remains smooth. The conormal normalization is C times C, while the degree-three unordered partition quotient is a *different* construction. The diagonal and involution graph meet at the two endpoints; third- and fourth-contact schemes carry additional endpoint multiplicities.
+The canonical [flag-incidence theorem R-0026](../results/quartic_flag_conormal_geometry.md) identifies a smooth complete flag threefold for the marked pairing. Addition of effective degree-two divisors is finite flat of degree six, including a single length-six fiber at a quadruple root. Its swap fixed locus is a smooth conic in characteristic zero and a doubled line in characteristic two; the ambient flag remains smooth. The conormal normalization is C times C, while the degree-three unordered partition quotient is a *different* construction. The diagonal and involution graph meet at the two endpoints; third- and fourth-contact schemes carry additional endpoint multiplicities.
 
 The [dual singular-scheme theorem R-0027](../results/quartic_dual_singular_scheme.md) refines the familiar osculating and bitangent strata. For the specified dual discriminant, its saturated Jacobian scheme has degree sixteen, four minimal associated primes, and two embedded endpoint primes of length one each. The distinction between the unmixed singular cycle and the endpoint corrections matters: reduced singular support alone loses scheme-theoretic information.
 
@@ -46,79 +46,22 @@ The osculating-plane family has contact divisor \(3\Delta+\Gamma_\iota\) on \(C\
 
 The distinction matters for global intersection arguments: multiplying the universal plane contact divisor by the degree of a chosen plane family is legitimate only after that family and its pullback multiplicities have been specified. It does not turn the two marked endpoints into compulsory singularities of both carriers. The flag and dual records [R-0026](../results/quartic_flag_conormal_geometry.md) and [R-0027](../results/quartic_dual_singular_scheme.md) retain the nonreduced contact and embedded endpoint structure; [Chapter 4](04-carriers.md) explains the additional conductor conditions required to descend a divisor from a carrier normalization.
 
-## 1.2B Positive-characteristic presentations: fixed model versus all rational quartics
+## 1.2B Characteristic changes the construction problem
 
-Two established constructions must not be conflated. For the fixed monomial quartic \(C_0=[s^4:s^3t:st^3:t^4]\), the exact binomial calculation P-008 gives \(\sqrt{(A,G_e)}=I_{C_0}\), where \(A=x_1^3-x_0^2x_2\), \(e=3\) for \(p=3\) and \(e=3p\) otherwise, and \(\deg G_e=4e/3\). Thus the explicit degrees are \((3,4)\) in characteristic three and \((3,4p)\) otherwise. In characteristic three one may take \(G=x_0x_3^3-x_2^4\); in characteristic two there is the smaller \((4,4)\) binomial pair.
-
-The stronger P-012 construction applies to **every smooth nondegenerate rational quartic over an algebraically closed field of positive characteristic**. It finds an internal projection to a cuspidal plane cubic, takes the cubic cone \(F=0\), and uses the finite radicial normalization \(\mathbf P(1,1,3)\to(F=0)\). The quartic lifts to a weighted degree-four graph \(\phi=lz-h\); Frobenius makes \(\phi^{3p}\) descend to a homogeneous equation \(G\) of degree \(4p\). Since the normalization is a universal homeomorphism, \(\sqrt{(F,G)}=I_C\). This proves existence with degrees \((3,4p)\) for all such curves, not minimality of those degrees.
-
-The characteristic-three monomial \((3,4)\) example is a special improvement over the general \((3,12)\) bound. Likewise, characteristic-two \((4,4)\) is special to the fixed model in this argument. Do not infer the same smaller degrees for arbitrary rational quartics, and do not transfer these positive-characteristic constructions to characteristic zero. Detailed original proofs: P-008 and P-012 in [RESEARCH_RECORD](../RESEARCH_RECORD.md).
-
-## 1.2C Exact Frobenius-binomial criterion for a quartic first carrier
-
-Let \(k\) be algebraically closed of characteristic \(p>0\), \(n=p^r\), and fix
+For the fixed embedding, every positive characteristic admits a **quartic carrier**. Choose \(N=p^e=3a+4b\), \(a,b\ge0\), and take
 \[
 F=x_1^4-x_0^3x_3,\qquad
-G=x_2^n-x_0^a x_1^b x_3^c.
+G=x_2^N-x_0^b x_1^a x_3^{2a+3b}.
 \]
-The second monomial has the same restriction as \(x_2^n\) on \(C_0=[s^4:s^3t:st^3:t^4]\) exactly when
-\[
-4a+3b=n,\qquad b+4c=3n.
-\]
-Thus \(a=(n-3b)/4,\ c=(3n-b)/4\), with \(a,b,c\) nonnegative integers. Equivalently, it suffices to choose
-\[
-0\le b\le\lfloor n/3\rfloor,\qquad b\equiv3n\pmod4.
-\]
-These conditions also imply \(a+b+c=n\), so \(G\) is homogeneous of degree \(n\).
+The affine equation is \((x_2-x_1^3)^N=0\), and the boundary gives only the missing endpoint. Such a power exists for every prime. The [complete construction and exact fixed-carrier degree classification](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) prove least mate degrees \(4,3,25,p\) for \(p=2,3,5,p\ge7\), respectively. These minima range over all homogeneous mates on that particular carrier. They are not unrestricted minima: in characteristic five a cubic carrier has a degree-20 mate.
 
-**Claim (within this binomial family).** Every such choice gives \(\sqrt{(F,G)}=I_{C_0}\). On \(x_0=1\), the first equation gives \(x_3=x_1^4\), and the second becomes \(x_2^n=x_1^{3n}\). Since \(n\) is a power of the characteristic, this is \((x_2-x_1^3)^n=0\), so the reduced affine zero set is the parametrized quartic. On \(x_0=0\), \(F\) forces \(x_1=0\), and \(G\) forces \(x_2=0\), leaving only the endpoint \([0:0:0:1]\). The two forms have no extra projective component.
+A different theorem constructs a cubic cone and a degree-\(4p\) mate for **every smooth nondegenerate rational quartic**, using internal cuspidal projection and radicial normalization. Its full proof and the distinct standard/nonclassical characteristic-three cusp minima are in [positive-characteristic constructions](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md). The smaller fixed-model pairs in characteristics two and three do not follow for arbitrary quartics from that theorem.
 
-For odd \(n\), the smallest nonnegative admissible residue is \(b=1\) when \(n\equiv3\pmod4\), and \(b=3\) when \(n\equiv1\pmod4\). Hence every odd prime \(p\equiv3\pmod4\) works already with \(n=p\). For \(p\equiv1\pmod4\), \(n=p\) works exactly when \(p\ge9\), i.e. for primes \(p\ge13\); the exceptional prime \(p=5\) first works at \(n=25\). For \(p=2\), \(n=4\) gives \(b=0,a=1,c=3\). In particular the characteristic-five choice \(n=25,b=3,a=4,c=18\) gives
-\[
-G=x_2^{25}-x_0^4x_1^3x_3^{18},
-\]
-and characteristic seven gives \(n=7,b=1,a=1,c=5\).
+For the prescribed \(\mu_4\) quartic pair, characteristic zero has four reduced quartic components, each with multiplicity one; characteristic two has sole support \(C_0\) with transverse length four. The normal bundle changes from \(\mathcal O(7)^2\) when \(2\ne0\) to \(\mathcal O(6)\oplus\mathcal O(8)\) in characteristic two. Full normal initial ideals and actual global symbol spaces retain information beyond this splitting; [the exact degeneration proof](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#the-prescribed-mu4-intersection-and-actual-quartic-symbols) makes these differences explicit.
 
-The statement that \(p=5\) requires \(r\ge2\) is **minimality only inside the displayed quartic-plus-Frobenius-binomial family**, not among all homogeneous defining pairs. Likewise, this does not supersede the uniform cubic construction or the special characteristic-three cubic/quartic pair.
+The [full two-binomial support calculation](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#exact-two-binomial-reduced-support-and-endpoint-contacts) classifies every exponent-compatible pair in its ansatz. If \(N=p^rm\), \(p\nmid m\), its reduced support has exactly \(m\) quartic components, each of generic multiplicity \(p^r\). Distinct components have projective endpoint contact length three at \(p_0\); at infinity the length is three when their phase cubes differ and four when those cubes coincide. For \(\mu_4\) it is three at both endpoints. The divisor \(3p_0+p_\infty\) describes their graph sections on \(\mathbf F_4\), whose finite map changes infinity contact downstairs. This distinction prevents confusing a smooth ruled model with its projective image.
 
-## 1.2D Necessity of the Frobenius exponent and all reduced components
-
-The power-of-characteristic condition in the preceding construction is **necessary**, not merely convenient, within the same two-binomial family. Let \(n\ge1\) be arbitrary and assume the nonnegative integers \(a,b,c\) satisfy the two exponent equations above. Write \(n=p^r m\), with \(p\nmid m\). On \(x_0=1\), the scheme is
-\[
-x_3=x_1^4,\qquad x_2^n=x_1^{3n}.
-\]
-Over an algebraically closed field, its reduced equation factors as
-\[
-\prod_{\zeta^m=1}(x_2-\zeta x_1^3)=0,
-\]
-since \(x_2^n-x_1^{3n}=(x_2^m-x_1^{3m})^{p^r}\). Thus the reduced projective support is the union of **exactly \(m\) distinct quartic curves**
-\[
-C_\zeta:\quad [s:t]\longmapsto[s^4:s^3t:\zeta st^3:t^4],\qquad \zeta^m=1.
-\]
-Indeed the \(x_0=0\) equations leave only the common endpoint, already contained in every \(C_\zeta\). Each affine component is irreducible and its projective closure is \(C_\zeta\). Consequently
-\[
-\sqrt{(F,G)}=I_{C_0}\quad\Longleftrightarrow\quad m=1
-\quad\Longleftrightarrow\quad n\text{ is a power of }p,
-\]
-for exponent-compatible binomials of this precise shape. This is a complete **reduced-support classification of this family**, not a statement about arbitrary second equations.
-
-The same calculation works over characteristic zero with \(m=n\), so no positive exponent \(n>1\) in this binomial family gives sole support there. In characteristic zero the \(n=1\) exponent congruence has no nonnegative solution (\(b\le0\) but \(b\equiv3\bmod4\)); hence the family produces **no characteristic-zero STCI at all**. This conclusion is limited to the displayed binomial ansatz.
-
-## 1.2E Generic multiplicities and contacts among binomial components
-
-The component classification above also determines the **fundamental one-cycle**, not just the reduced support. For \(n=p^r m\), \(p\nmid m\), the local complete intersection on \(x_0=1\) is
-\[
-(x_3-x_1^4,\ (x_2^m-x_1^{3m})^{p^r}).
-\]
-At the generic point of each \(C_\zeta\), the other \(m-1\) factors are units; the generic transverse length is exactly \(p^r\). Consequently, as an effective cycle,
-\[
-[V(F,G)]=p^r\sum_{\zeta^m=1}[C_\zeta].
-\]
-Each component has degree four, so the cycle degree is \(4p^rm=4n=\deg F\deg G\), as Bézout requires. In characteristic zero take \(p^r=1,m=n\).
-
-The distinct components meet **only at the two endpoints**, and their intersection lengths there are unequal. Near \(p_0=[1:0:0:0]\), use \(t=x_1/x_0\); the branches are \((x_1,x_2,x_3)=(t,\zeta t^3,t^4)\). For \(\zeta\ne\xi\), their scheme-theoretic intersection has length three, because their defining ideals together impose \(t^3=0\). Near \(p_\infty=[0:0:0:1]\), use \(v=s/t\); the branches are \((x_0,x_1,x_2)=(v^4,v^3,\zeta v)\), and the corresponding intersection length is one. Thus the pairwise local contact budget is \(3p_0+p_\infty\), of total length four.
-
-This explains why generic multiplicity and endpoint contact must be kept distinct: the cycle degree accounts for the complete intersection, but the nonreduced structure and intersections at the endpoints are not determined by that degree alone. The calculation is specific to this binomial family and does not imply a general rule for all STCI thickenings.
+The quartic-carrier exclusion is therefore specifically characteristic zero. Positive-characteristic constructions supply a concrete existence mechanism; no reduction of an arbitrary characteristic-zero pair to one Frobenius model has been proved.
 
 ## 1.3 Dual invariants and the scheme-theoretic intersection
 

@@ -12,13 +12,13 @@ scope:
 statement: "The initial-equation comparison has a canonical exact sequence; generic defect is initial-generator excess; under generic vanishing punctual defect is the torsion lost by the comparison, supported at simultaneous carrier singularities."
 dependencies: []
 evidence:
-  - "research/RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md"
-  - "research/notes/2026-10-24-delta-singular-locus-continuation.md"
-  - "research/notes/2026-10-26-filtration-local-proof-audit.md"
+  - "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
+  - "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
+  - "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
 independent_audits:
-  - "research/notes/2026-10-23-ideal-filtrations-independent-review.md"
-  - "research/notes/2026-10-24-delta-singular-locus-review.md"
-accepted_in: "research/notes/2026-10-26-filtration-local-proof-audit.md"
+  - "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
+  - "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
+accepted_in: "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -58,6 +58,6 @@ Separates generic extra initial generators from isolated torsion cancellations, 
 ## Limitations
 Does not promote the characteristic-two O(-24) global identification or the filtered normal-Koszul spectral sequence. Does not decide whether a nonzero punctual defect exists under radical(J)=I and generic Delta=0. Counterexamples with residual support do not settle that question.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

@@ -15,12 +15,12 @@ statement: "Finite principal-relation lifting can persist for many orders, but a
 dependencies:
   - STCI-R-0008
 evidence:
-  - "research/notes/2026-10-14-generalization-moving-power-obstruction-tower.md"
-  - "research/notes/2026-10-14-generalization-moving-power-second-relation.md"
+  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
+  - "research/supplements/MOVING_POWER_SECOND_RELATION.md"
 independent_audits:
-  - "research/notes/2026-10-14-generalization-moving-purepower-tower-independent-audit.md"
-  - "research/notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md"
-accepted_in: "research/notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md"
+  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
+  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
+accepted_in: "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -58,9 +58,9 @@ The divisor D records actual special-point degeneration, including failures of s
 
 ## Original evidence and independent audits
 
-- [Moving-power tower](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-power-obstruction-tower.md) and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-purepower-tower-independent-audit.md).
-- [Second-relation payment](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-power-second-relation.md) and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-moving-purepower-second-relation-independent-audit.md).
+- [Moving-power tower](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-power-obstruction-tower) and [independent audit](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
+- [Second-relation payment](../supplements/MOVING_POWER_SECOND_RELATION.md#1-hypotheses-and-the-second-relation-quotient) and [independent audit](../supplements/MOVING_POWER_SECOND_RELATION.md).
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original evidence identities and theorem scope remain unchanged.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

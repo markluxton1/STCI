@@ -13,10 +13,10 @@ statement: "Every linear factor direction m of f with multiplicity nonzero in th
 dependencies: 
   - STCI-R-0032
 evidence:
-  - research/notes/2026-10-13-generalization-thick-equality-geometry.md
+  - research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md
 independent_audits:
-  - research/notes/2026-10-13-generalization-thick-relation-obstruction-independent-audit.md
-accepted_in: research/HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md
+  - research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md
+accepted_in: "research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,9 +37,8 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../notes/2026-10-13-generalization-thick-equality-geometry.md)
-- [Independent audit](../notes/2026-10-13-generalization-thick-relation-obstruction-independent-audit.md)
-- [Claim-level acceptance](../HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md)
+- [Source proof](../supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-geometrymd)
+- [Independent audit](../supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd)
 
 ## Dependencies and limitations
 
@@ -47,6 +46,6 @@ Canonical dependencies: STCI-R-0032. Additional inherited premises are in the pr
 - Uses inherited P-010 direction classes for the C0 consequence
 - Does not exclude moving first relations, extra next-order relations, or positive-defect models
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

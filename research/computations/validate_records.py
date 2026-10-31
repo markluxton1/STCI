@@ -3,6 +3,7 @@
 import pathlib
 import re
 import sys
+from urllib.parse import unquote, urlsplit
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 RECORDS = [ROOT / "research/results", ROOT / "research/questions"]
@@ -67,7 +68,7 @@ def main():
             for target in value:
                 if target.startswith("http"):
                     continue  # Remote branch evidence is not validated here.
-                if target and not (ROOT / target).exists():
+                if target and not (ROOT / unquote(urlsplit(target).path)).exists():
                     errors.append(f"{path}: missing {field} path {target}")
     for error in errors:
         print("ERROR:", error)

@@ -1,4 +1,4 @@
-# quintic h2 spectral and generator system
+# Quintic h=2: spectral operators, determinant generators, and actual coefficient units
 
 ## Integration guide: spectral acceleration versus existence
 
@@ -7,297 +7,7 @@ The spectral accelerator, generator equations, and rank conditions are **differe
 ---
 
 
-Permanent mathematical dossier retaining full computations, coefficient systems, corrected formulas, proof scope and unresolved cases. Source labels below organize mathematics, not provenance authority.
-
----
-
-## 2026-10-15-generalization-quintic-h2-unified-spectral-accelerator
-
-# A single spectral accelerator for the shared logarithmic ODE
-
-Date: 2026-10-15. Owner: `quintic_shared_incidence/support_structural`.
-Status: **STRUCTURAL CONSEQUENCE AND EXACT UNIVERSAL CHECK; independently
-audited** in the
-[eta spectral review](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit).
-The accepted automatic-open and ODE
-scheme theorem, its degree polynomial, and the accepted Sym6
-characteristic polynomial are premises. None is replayed. This note
-computes only the new Sym5 characteristic and new universal residual
-identities, with no actual-parameter Groebner computation.
-
-## 1. Scope and the proposed single polynomial
-
-Use the declared actual finite h=2 inverse-map domain, retaining its
-delta, cover-determinant, cofactor-determinant and recorded scalar
-units, together with the justified Delta1 open. Only Delta1 is a
-globally necessary new remaining-mate open; the other localizations
-specify the chart under investigation. The accepted
-[automatic-open/ODE audit](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-automatic-open-ode-independent-audit)
-gives (q5,q6)=A in this localized parameter ring A.
-
-Adjoin d,u and let I be the eight-coefficient ideal of
-
-    h(z)q'(z)=(dz+u)q(z),
-    h=z^2+vz+w,       q=sum_(i=0)^6 q_i z^i.
-
-The accepted theorem proves
-
-    (d-5)(d-6) belongs to I,
-    j(d-6) belongs to I,
-
-as exact localized ideal memberships, including over nonreduced
-parameter bases. Put
-
-    Delta=v^2-4w,            eta=dv-2u,
-    P6(X)=X(X^2-4Delta)(X^2-16Delta)(X^2-36Delta),
-    P5(X)=(X^2-Delta)(X^2-9Delta)(X^2-25Delta).
-
-Then the new single accelerator is
-
-    P=(d-5)P6(eta)+(6-d)P5(eta),                         (1)
-
-and the claim proved below is
-
-    P belongs to I.                                     (2)
-
-Thus (1) may be appended to the same ODE ideal without changing
-its localized scheme. It neither splits the d values into separate
-computations nor divides by j. No eigenvalue or root partition is
-selected.
-
-## 2. The new degree-five representation identity
-
-For H=t^2+vst+ws^2, the Hamiltonian action D_H on a degree-n
-form with coefficient vector a=(a0,...,an) is the matrix A_n with
-
-    (A_n a)_i=(n-2i)v*a_i+(2n-2i+2)a_(i-1)
-                         -2(i+1)w*a_(i+1).              (3)
-
-In particular the new degree-five matrix is
-
-    A5 = [ 5v  -2w    0    0    0     0 ]
-         [ 10   3v  -4w    0    0     0 ]
-         [  0    8    v  -6w    0     0 ]
-         [  0    0    6   -v  -8w     0 ]
-         [  0    0    0    4  -3v  -10w ]
-         [  0    0    0    0    2    -5v ].
-
-Its characteristic polynomial is P5(X). For a structural derivation,
-the two-dimensional action has matrix
-
-    [ v  -2w ]
-    [ 2   -v ],
-
-whose square is Delta times the identity. Over the square-root
-extension on the dense Delta-nonzero locus its eigenvalues are
-plus and minus sqrt(Delta). The fifth symmetric power has weights
-5,3,1,-1,-3,-5, giving P5(X). This is an identity over QQ[v,w],
-so polynomial continuation proves it also at Delta=0. There it
-is X^6; no repeated-root boundary was divided away in this
-representation theorem.
-
-The new exact source independently checks det(X*Id-A5)=P5(X)
-and the corresponding six-by-six Cayley-Hamilton product. The
-degree-six characteristic P6 is the previously accepted premise,
-not recalculated in that source.
-
-## 3. One idempotent argument proves the ideal consequence
-
-Work in the quotient B=A[d,u]/I. Set
-
-    e6=d-5,       e5=6-d.
-
-Because the accepted degree polynomial is zero in B,
-
-    e6+e5=1,       e6*e5=0,       e6^2=e6,       e5^2=e5.
-
-These are algebraic idempotents over B even if B is nonreduced.
-They are used simultaneously in the proof; no separately computed
-parameter ideals are introduced.
-
-Let q6vec=(q0,...,q6)^transpose. Directly from the eight ODE
-coefficients E_i, one has the exact identity before quotienting
-
-    e6*(A6-eta*Id)*q6vec
-      =-2e6*(E0,...,E6)^transpose
-        -(d-5)(d-6)*(2q_(i-1)+v*q_i)_(i=0..6).          (4)
-
-Thus e6*q6vec is an eta eigenvector of A6 over B. The accepted
-Cayley-Hamilton identity P6(A6)=0 yields
-
-    e6*P6(eta)*q_i=0,       0<=i<=6.                     (5)
-
-For the degree-five part, the top ODE coefficient is
-
-    E7=(6-d)q6=e5*q6,
-
-so the e5 component has no coefficient of z^6. Put
-q5vec=(q0,...,q5)^transpose. A second exact identity is
-
-    e5*(A5-eta*Id)*q5vec
-      =-2e5*(E0,...,E5)^transpose
-        +(d-5)(d-6)*(2q_(i-1)+v*q_i)_(i=0..5)
-        +12w*E7*(0,0,0,0,0,1)^transpose.                (6)
-
-Consequently e5*q5vec is an eta eigenvector of A5 over B. The
-new Cayley-Hamilton identity gives
-
-    e5*P5(eta)*q_i=0,       0<=i<=5.
-
-The same equation for i=6 follows from e5*q6=0. Adding to (5)
-proves P*q_i=0 for all seven coefficients. The accepted exact
-unit ideal (q5,q6)=A remains the unit ideal after passing to B,
-so P=0 in B. This is (2), with no reduction to field-valued points,
-no radical operation, and no cancellation by a coefficient or by j.
-
-The proof uses Cayley-Hamilton over a commutative coefficient ring.
-The eigen-residual identities and idempotents therefore preserve
-nilpotents and zero divisors in the parameter quotient.
-
-## 4. Exact supporting arithmetic and limitation
-
-The new [source](../computations/generalization_quintic_h2_unified_spectral_accelerator_2026_10_15.m2)
-checks only the new Sym5 determinant and Cayley-Hamilton identity,
-the idempotent identities modulo the known degree polynomial,
-and both projected residual formulas (4),(6). The source constructs
-A6 only to check the new ODE residual relation; it does not compute
-its determinant, characteristic polynomial, or Cayley-Hamilton
-identity. The accepted Sym6 polynomial remains a premise.
-
-The [new execution record](../validation/2026-10-15-quintic-h2-unified-spectral-accelerator/attempt-01/execution-record.json)
-stores the source and output. The actual captured conductor map is
-not substituted. A successful universal check supports the displayed
-identities; the written quotient-ring argument supplies the exact
-localized ideal implication.
-
-Equation (1) is a derived accelerator for one shared support ideal.
-It is not an actual-parameter unit-ideal witness, an emptiness result,
-or a conductor power-descent theorem. All original finite inverse-map
-domain and actual-projection hypotheses remain in force.
-
-
----
-
-## 2026-10-15-generalization-quintic-h2-a4-unit-and-eleven-generators
-
-# One A4 unit open removes the retained-j twelfth generator
-
-Date: 2026-10-15. Status: **NEW SCOPE AND EXACT COEFFICIENT BINDING;
-independent review completed** in the
-[eleven-generator unit audit](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eleven-generator-unit-independent-audit).
-Accepted conductor, coefficient, intrinsic-fiber and closed-lane theorems are
-premises. This does not assert emptiness of the h2 incidence.
-
-## 1. Delta1 is nonzero on every remaining mate candidate
-
-Write `j=Jbar`, `S0=G+3delta^2`, `L=G+delta^2+2B`. The accepted A4
-target-fiber criterion gives `Delta1!=0` under SUP when j is nonzero.
-When j is zero the accepted polynomial formula gives
-
-```
-Delta1=G*S0*L.
-```
-
-The accepted G=j=0 mate exclusion removes G=0. The accepted entire-line
-ramification mate exclusion removes j=0,G=-3delta^2. Finally SUP forces
-L nonzero: if L=0 and G is nonzero, then `D0=delta^2/2+B=-G/2!=0` and
-`G=-2D0`, giving the forbidden actual off-c A4 fiber from the accepted
-criterion. Therefore
-
-```
-Delta1 != 0                                               (1)
-```
-
-on every remaining mate candidate, for both values of j. This is a
-necessary open after the stated accepted mate exclusions; it is not a
-claim that every SUP projection before those exclusions satisfies (1).
-
-The accepted h2 infinity equations give G=j=0, so that lane is already
-closed for mates. A remaining h2 candidate thus has finite monic
-`H=t^2+vst+ws^2`. Its source A4 point is s=0, where H has value one.
-
-## 2. Actual and captured coefficient units
-
-For the actual source conductor `Fsrc=H Qactual`, the accepted literal
-value is
-
-```
-Qactual(0,1)=Fsrc(0,1)=-3*j*Delta1.                       (2)
-```
-
-On the accepted finite inverse-map chart the captured coefficient vector
-is multiplied by `kappa=commonDen/delta^4`, a unit after delta and the
-recorded inverse-map denominator are inverted. Thus
-
-```
-q6=-3*kappa*j*Delta1.                                    (3)
-```
-
-In particular q6/j is a unit in the localized actual coefficient ring
-where delta, the inverse-map determinant and Delta1 are units. This
-statement does not divide by j, which may be zero or nilpotent.
-
-There is a particularly simple exact binding in the saved polynomial
-numerators. Write Jnum and Dnum for the saved actual Jbar and Delta1
-numerators from the accepted rational cover. The new captured arithmetic
-proves the literal polynomial identity
-
-```
-delta^4*q6=-3*Jnum*Dnum.                                  (4)
-```
-
-No discriminant or K powers occur in this identity. The
-[new FLINT source](../computations/generalization_quintic_h2_a4_unit_binding_2026_10_15.c)
-reads only those three saved polynomials, removes only declared-unit
-powers, finds constant ratio -3, and then asserts (4) as a polynomial
-identity by cross multiplication. Its
-[execution record](../validation/2026-10-15-quintic-h2-a4-unit-binding/attempt-01/execution-record.json)
-has exit zero, empty stderr and exact input/source digests. No accepted
-coefficient construction or verifier is repeated.
-
-## 3. An eleven-generator polynomial presentation
-
-Use the independently reviewed twelve-generator reduction and write
-
-```
-R=D_H Q,       M_ik=q_i r_k-q_k r_i,
-B_ikl=det(rows i,k,l of [sQ,tQ,sR]).
-```
-
-Its twelve raw generators are Jnum*M56 and the eleven selected cubics
-`B_i56 (i=0..4), B_i67 (i=0..5)`, on the candidate open
-`(q5,q6)!=(0,0)`. Since
-
-```
-B_i67=-q6*M_i6,
-delta^4*B_i67=3*Dnum*(Jnum*M_i6),                         (5)
-```
-
-the same localized ideal has the polynomial presentation
-
-```
-B_i56,          i=0,...,4,
-Jnum*M_i6,      i=0,...,5.                               (6)
-```
-
-There are eleven polynomials. The case i=5 in the second group is the
-previously separate Jnum*M56, so the twelfth generator is redundant.
-The conversion uses only the common unit `3*Dnum/delta^4`. It keeps the
-whole Jbar-zero locus and never cancels Jnum.
-
-Equivalently the eleven cubic generators alone give the shared support
-ideal after the stated localization. The compact polynomial second
-group in (6) has lower degree than the cubic forms. These are equalities
-of localized ideals over nonreduced coefficient rings, with the
-candidate-open and actual-cover hypotheses preserved.
-
-The full declared unit open for the finite inverse-map calculation may
-therefore use delta, `Delta*K`, the exact-h2 cofactor determinant, and
-Dnum. Projection admissibility and the original fiber conditions remain
-necessary when interpreting a surviving parameter as an actual carrier.
-This note supplies no emptiness certificate and makes no extension of
-the rational inverse map onto its repeated-root denominator boundary.
-
+The three complete proofs below are the independently reconstructed spectral, determinant, and actual-unit arguments. Their strongest exact forms replace duplicate proposals; the exporter section concerns representation of the same fixed polynomials and establishes no incidence result. Work in characteristic zero on each declared actual inverse-map domain unless a universal identity is explicitly separated.
 
 ---
 
@@ -319,7 +29,7 @@ combination with the accepted shared ODE. It gives no actual-parameter
 emptiness or conductor-descent conclusion.
 
 The reviewed proposal is
-[the unified spectral-accelerator note](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-unified-spectral-accelerator).
+[the unified spectral-accelerator note](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit).
 
 ## 1. Ring, sign conventions and the proposed polynomial
 
@@ -355,6 +65,22 @@ with H=t^2+vst+ws^2. Reversing that derivation would reverse the
 eigenvalue sign; no such convention change is made here.
 
 ## 2. The new degree-five characteristic polynomial
+
+For H=t^2+vst+ws^2, the Hamiltonian action D_H on a degree-n
+form with coefficient vector a=(a0,...,an) is the matrix A_n with
+
+    (A_n a)_i=(n-2i)v*a_i+(2n-2i+2)a_(i-1)
+                         -2(i+1)w*a_(i+1).              (3)
+
+In particular the new degree-five matrix is
+
+    A5 = [ 5v  -2w    0    0    0     0 ]
+         [ 10   3v  -4w    0    0     0 ]
+         [  0    8    v  -6w    0     0 ]
+         [  0    0    6   -v  -8w     0 ]
+         [  0    0    0    4  -3v  -10w ]
+         [  0    0    0    0    2    -5v ].
+
 
 On the degree-one coordinate basis (s,t), the coefficient matrix of
 D_H is
@@ -461,16 +187,7 @@ without enforcing that domain would be a different claim.
 
 ## 5. New exact capture and prepared actual run
 
-The new
-[universal source](../computations/generalization_quintic_h2_unified_spectral_accelerator_2026_10_15.m2)
-and its
-[passing attempt-01 record](../validation/2026-10-15-quintic-h2-unified-spectral-accelerator/attempt-01/execution-record.json)
-were read. The source and frozen-source digests match the recorded
-digest. Exit is zero, stderr is empty, and stdout records both the
-new degree-five determinant/Cayley--Hamilton identity and the
-idempotent/projected-residual checks passing. It computes no
-degree-six characteristic polynomial or degree-six Cayley--Hamilton
-product; that accepted theorem remains a premise.
+The [universal source](../computations/generalization_quintic_h2_unified_spectral_accelerator_2026_10_15.m2) verifies the degree-five determinant/Cayley–Hamilton identity and the idempotent/projected-residual identities. It computes no degree-six characteristic polynomial or degree-six Cayley–Hamilton product; that accepted theorem remains a separate premise.
 
 The projected residual formulas have the correct extra boundary
 term. For b_i=2q_(i-1)+v*q_i and Dpoly=(d-5)(d-6), the degree-six
@@ -523,7 +240,7 @@ is an equality on the declared open, not equality of the global
 unsaturated ideals and not a quintic exclusion.
 
 The reviewed proposal is
-[the twelve-generator support-system note](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-twelve-generator-support-system).
+[the twelve-generator support-system note](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit).
 The accepted h2 conductor factor, reciprocal coordinates, sextic
 quotient, A4 bounds and closed mate lanes are premises. Their proofs
 and computations were not replayed. This audit checks only the new
@@ -581,6 +298,25 @@ The candidate open is
 
 It retains points where either coefficient vanishes. It must not be
 replaced by D(q5*q6).
+
+## Explicit universal determinant witnesses
+
+For any indices, put d_ik=q_i*q_(k-1)−q_k*q_(i-1), retaining the displayed determinant row orientation. The full cubic minors satisfy
+
+    B_ikl=−q_(i-1)M_kl+q_(k-1)M_il−q_(l-1)M_ik,
+    B_ik7=−q6*M_ik.
+
+For either pivot pair (a,b), the exact Schur determinant identity is
+
+    d_ab*B_ikl=d_kl*B_iab−d_il*B_kab+d_ik*B_lab.
+
+The retained-j absorption has direct polynomial witnesses
+
+    d56*j*M_i6=(q5*q_i−q6*q_(i-1))*j*M56−j*q6*B_i56,
+    q6*M_i5=q5*M_i6−q_i*M56,
+    q5*M_i5=−B_i56−q_(i-1)*M56+q4*M_i6.
+
+They hold before choosing an invertible pivot and retain nilpotents and j. In particular j times every cubic minor belongs to the first-minor ideal. These formulas supplement the localized-solve proof below; they do not cancel j or require both q5 and q6 nonzero.
 
 ## 2. The Hamiltonian column operation has the stated sign and scalar
 
@@ -727,20 +463,7 @@ no additional discriminant inversion. Its monic actual chart and
 candidate open come from the accepted prior reductions, not from
 discarding a repeated-root or j=0 stratum in this proof.
 
-The first universal identity execution was read and preserves a
-failure at the final Hamiltonian coefficient-extraction assertion,
-after successful checks of the cubic expansions, both pivot
-identities and retained-j absorption identities. The repaired
-[attempt-02 source and execution](../validation/2026-10-15-quintic-h2-twelve-generator-reduction/attempt-02/execution-record.json)
-were also read. The repair places the formal q,r,j,v,w parameters in
-the coefficient ring and s,t in the subsequent polynomial ring, so
-the final coefficient extraction uses the intended variable split.
-Its exit code is zero, stderr is empty, and its stdout records all
-four groups of exact identity checks passing. Attempt-01 remains a
-failed run; attempt-02 supplies the passing arithmetic evidence.
-The written proof above establishes the ideal-sheaf reduction
-independently. Neither that identity check nor the actual-coefficient
-size probe is an elimination or saturated-unit-ideal certificate.
+For the final Hamiltonian coefficient extraction, the formal q,r,j,v,w parameters belong to the coefficient ring and s,t to the subsequent polynomial ring. The written proof above establishes the ideal-sheaf reduction independently. Neither these universal identities nor the actual-coefficient size probe supply an elimination or saturated-unit-ideal certificate.
 
 The accepted norm product may be appended to both equivalent ideals
 without changing (9), with its original domain retained. Nothing in
@@ -751,212 +474,7 @@ nonlinear conductor descent.
 
 ---
 
-## 2026-10-15-generalization-quintic-h2-twelve-generator-support-system
-
-# Twelve generators for the shared quadratic/A4 sextic support incidence
-
-Date: 2026-10-15. Owner: `quintic_shared_incidence/support_structural`.
-Status: **NEW UNIVERSAL ALGEBRA REDUCTION; independent review pending**.
-The accepted conductor factor, coordinate correction, sextic capture,
-intrinsic A4 contact result, and previously accepted closed mate lanes
-are premises. None is replayed. This note performs no incidence
-elimination and proves no quintic exclusion.
-
-## 1. The candidate open and the original shared incidence
-
-Write `Q=sum_(i=0)^6 q_i s^(6-i)t^i` for the nonzero sextic conductor
-quotient, `H=t^2+vst+ws^2`, `j=Jbar`, and
-
-    R=D_H Q,       W=D_(sH) Q,
-    D_K=K_t partial_s-K_s partial_t.
-
-Keep the single shared support incidence
-
-    rank[Q,jR]<=1,         rank[sQ,tQ,W]<=2.                 (1)
-
-The accepted intrinsic/A4 and closed-lane consequences allow the
-candidate open
-
-    (q5,q6)!=(0,0).                                        (2)
-
-Specifically, when j is nonzero, accepted SUP forces q6 nonzero.
-When j is zero, the additional accepted entire-line exclusion removes
-the contact-two alternative, so remaining SUP has A4 contact exactly
-one and q5 is nonzero. The premises are the
-[intrinsic A4 contact result](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-intrinsic-a4-contact-bound)
-and the pole-line closure in the
-[accepted nonendpoint results](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-results-acceptancemd).
-This is a necessary candidate open, not an
-assertion about arbitrary coefficient tuples or all possible SUP
-parameters before the accepted mate exclusions.
-
-No factor of j is inverted. The finite inverse-map domain conditions
-`delta!=0`, `Delta*K!=0`, and nonzero cofactor determinant stay exactly
-as in the original coefficient capture. This reduction also holds
-abstractly without any discriminant inversion, so it does not itself
-discard repeated roots or projective coefficient drops.
-
-## 2. Remove the expanded cubic action column
-
-Euler identities in degrees two and six give the exact identity
-
-    W=(3/2)sR-3H_t Q.                                     (3)
-
-The subtracted term is a linear combination of sQ and tQ, and 3/2 is
-a unit. Thus the second rank condition in (1) is equivalently
-
-    rank[sQ,tQ,sR]<=2.                                    (4)
-
-Write `R=sum_(i=0)^6 r_i s^(6-i)t^i`, and set q_i=r_i=0
-outside 0 through 6. The coefficient matrix in (4) has row i,
-for i=0 through 7,
-
-    (q_i,q_(i-1),r_i).
-
-Put
-
-    M_ik=q_i*r_k-q_k*r_i,
-    d_ik=q_i*q_(k-1)-q_k*q_(i-1),
-    B_ikl=det(rows i,k,l of that 8-by-3 matrix).
-
-For indices i<k<l at most six,
-
-    B_ikl=-q_(i-1)M_kl+q_(k-1)M_il-q_(l-1)M_ik,
-    B_ik7=-q6*M_ik.                                      (5)
-
-In particular j times every cubic minor belongs to the first-minor
-ideal generated by all jM_ik. These identities retain j; they do
-not cancel it on the zero locus.
-
-## 3. Eleven fixed cubic minors replace all fifty-six
-
-Use the two fixed pivot row pairs (5,6) and (6,7). Their determinants
-in the first two columns are
-
-    d56=q5^2-q4*q6,          d67=q6^2.                     (6)
-
-Their common vanishing locus is exactly q5=q6=0. Thus their two
-principal opens cover the entire candidate open (2), without any
-condition on a root of H or an eigenvalue.
-
-Let Bsmall consist of these eleven minors:
-
-    B_i56,       i=0,...,4,
-    B_i67,       i=0,...,5.                               (7)
-
-The overlap minor B567 occurs only in the second displayed group.
-For either fixed pair (a,b) and any triple (i,k,l), the exact identity
-
-    d_ab B_ikl
-      =d_kl B_iab-d_il B_kab+d_ik B_lab                  (8)
-
-expresses the pivot determinant times every cubic minor using minors
-with that pivot pair. Hence on each pivot open, Bsmall generates the
-full cubic-minor ideal. After saturation by ideal(q5,q6), it gives
-the same ideal as all fifty-six cubic minors. This is an equality
-of ideal sheaves on the candidate open, not just a test on sampled
-geometric points.
-
-## 4. One retained-j minor replaces all twenty-one first minors
-
-Together with Bsmall, retain only
-
-    j*M56.                                                (9)
-
-On the d67 open, q6 is a unit. The minors B_i67=-q6*M_i6
-force all M_i6 to vanish. The standard relation
-
-    q6*M_ik=q_k*M_i6-q_i*M_k6
-
-then forces every M_ik to vanish, without using j.
-
-On the d56 open, the full cubic rank condition from section 3 gives
-unique coefficients alpha,beta with
-
-    sR=alpha*sQ+beta*tQ.
-
-Their existence follows by solving the two pivot rows and using (8)
-for the remaining rows; this is valid over the localized coefficient
-ring, including a nonreduced base. The pivot rows give
-
-    M56=beta*d56.
-
-Thus (9) forces j*beta=0. Multiplying the displayed column relation
-by j then gives jR=(j*alpha)Q, and therefore every jM_ik vanishes.
-No division by j is made.
-
-For a direct polynomial check of the same absorption mechanism,
-the new source verifies
-
-    d56*j*M_i6
-      =(q5*q_i-q6*q_(i-1))*j*M56-j*q6*B_i56,
-    q6*M_i5=q5*M_i6-q_i*M56,
-    q5*M_i5=-B_i56-q_(i-1)*M56+q4*M_i6.                    (10)
-
-These also establish the implication after saturation by (q5,q6).
-Consequently, writing Iall for the seventy-seven minors in (1), and
-
-    Ismall=(j*M56, Bsmall),
-
-one has the exact localized ideal equality
-
-    Iall : (q5,q6)^infinity
-       = Ismall : (q5,q6)^infinity.                       (11)
-
-The fixed system has twelve generators and keeps both values of j.
-No root partition, norm factor, or parameter case is split into a
-separate computation.
-
-## 5. Compact actual-action first generator and one norm product
-
-For the quadratic Hamiltonian action on degree-six forms,
-
-    r6=-6v*q6+2q5,
-    r5=-4v*q5+4q4-12w*q6.
-
-Therefore the first generator, after removing the scalar two, is
-
-    j*(q5^2-v*q5*q6-2q4*q6+6w*q6^2).                      (12)
-
-The eleven cubic minors can be constructed from (5), using already
-computed two-by-two expressions rather than repeatedly expanding the
-original cubic action determinants. The actual finite coefficient map
-may remove only its declared unit factors from these generators.
-
-The accepted A4 contact result forces Res(H,Q)=0 for every surviving
-h2 mate candidate, for both values of j. Thus the previously captured
-single norm product N12*N18 may be appended to Ismall, with the
-original inverse-map domain and common-content conditions retained.
-Its two factors are not split into separate ideals. Nonzero Q is
-retained by saturation with the ideal(q5,q6), not by the product
-q5*q6. The latter would incorrectly require both coefficients nonzero
-and discard the j=0/contact-one candidates.
-
-## 6. New exact supporting arithmetic and boundary
-
-The new [universal identity source](../computations/generalization_quintic_h2_twelve_generator_syzygies_2026_10_15.m2)
-uses independent formal coefficients q_i,r_i. It checks all cubic
-expansions, row-seven identities, both pivot formulas (8) for all
-fifty-six minors, the retained-j absorption identities (10), and the
-Hamiltonian Euler and compact first-generator identities (3),(12).
-It does not substitute or reconstruct the actual conductor coefficient
-map. Its [passing execution record](../validation/2026-10-15-quintic-h2-twelve-generator-reduction/attempt-02/execution-record.json)
-records exit zero and empty stderr. The first attempt is preserved:
-all generic matrix identities passed before the final action-coefficient
-assertion failed because the formal q_i were in the same variable ring
-as s,t. The repair makes q_i,r_i,j,v,w coefficient-ring elements before
-extracting s,t coefficients; the displayed formulas are unchanged.
-These are new polynomial identities,
-not a saturated-unit-ideal certificate.
-
-The remaining task is one unified actual-coefficient incidence
-calculation using these twelve generators, the single norm product,
-the declared parameter unit product, and the candidate open ideal.
-The present reduction provides no claim that the resulting locus is
-empty or that full conductor descent follows there.
-
-
----
+The direct universal support is [the original twelve-generator syzygy source](../computations/generalization_quintic_h2_twelve_generator_syzygies_2026_10_15.m2). It verifies formal coefficient identities, not the actual conductor coefficient map. The accepted necessary norm product is N12*N18; retain it as one equation on its declared domain, without splitting its factors.
 
 ## 2026-10-15-generalization-quintic-h2-eleven-generator-unit-independent-audit
 
@@ -1042,9 +560,7 @@ after the same localization. The numerator Delta1num represents
 Delta1 up to its recorded denominator unit. Inverting Delta1num is
 therefore exactly the new Delta1 open on that chart.
 
-The new exact
-[unit-binding capture](../validation/2026-10-15-quintic-h2-a4-unit-binding/attempt-01/execution-record.json)
-strengthens that comparison to the literal polynomial identity
+The exact unit-binding calculation gives the literal polynomial identity
 
     delta^4*q6=-3*jNum*Delta1num.                       (5a)
 
@@ -1232,9 +748,7 @@ runs, not a controlled benchmark against the earlier modular prospect.
 Attempt 01 failed before export because FLINT's pretty parser rejected the
 trailing newline in the captured input text. Its source snapshot and actual
 assertion failure are retained. The repair trims trailing whitespace only;
-original input bytes and hashes remain recorded. Attempt 02 was reserved by
-that runner invocation but never started Macaulay2, as its `NOT_RUN.md`
-explains. The successful repaired executions are attempts 03 and 04.
+original input bytes and hashes remain recorded. Attempt02 was reserved by that runner invocation but never started Macaulay2. The successful repaired executions are attempts 03 and 04.
 
 The reusable exporter accepts arbitrary explicitly listed three-variable
 polynomial files, in the required output order:
@@ -1256,8 +770,8 @@ normalized by this exporter.
 An independent read-only implementation and record review passed. It checked
 the Horner recurrence and rational coefficient extraction, recomputed all
 input/output/source manifest hashes, and inspected the complete M2 import
-records without running CAS. Its report is saved as
-`research/validation/2026-10-15-h2-horner-input/independent-read-only-review.md`.
-This review is not a second polynomial verifier or an incidence certificate.
+records without running CAS. This review is not a second polynomial verifier or an incidence certificate.
 The geometric common-root/conductor incidence remains unresolved by this
 format validation.
+
+The actual/captured coefficient binding is implemented in [the exact A4 unit-binding source](../computations/generalization_quintic_h2_a4_unit_binding_2026_10_15.c); its scalar and localization scope are the ones in the eleven-generator proof. A format/import check does not replace this actual-map identification.

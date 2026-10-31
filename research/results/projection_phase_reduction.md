@@ -16,10 +16,10 @@ dependencies:
   - STCI-R-0002
   - STCI-R-0003
 evidence:
-  - "research/notes/2026-10-15-generalization-projection-torsion-coset-reduction.md"
+  - "research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md"
 independent_audits:
-  - "research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md"
-accepted_in: "research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md"
+  - "research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md"
+accepted_in: "research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -43,7 +43,7 @@ For the constructible phase image W=z(Z), the torsion points of W are a finite u
 
 ## Hypotheses and proof outline
 
-The original proof uses flattening and monic Noether-normalization equations before rational localization to preserve all generic conductor components on specialization. Finite Artinian matrix calculations retain the full nilpotent conductor defect. A finite root-ordering cover produces a phase tuple in a fixed torus. Laurent's theorem gives the torsion-coset envelope for the constructible phase image, with excluded parameter boundaries still excluded. The [independent review](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md) records the corrections needed for specialization and confirms the result.
+The original proof uses flattening and monic Noether-normalization equations before rational localization to preserve all generic conductor components on specialization. Finite Artinian matrix calculations retain the full nilpotent conductor defect. A finite root-ordering cover produces a phase tuple in a fixed torus. Laurent's theorem gives the torsion-coset envelope for the constructible phase image, with excluded parameter boundaries still excluded. The [independent review](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review) records the corrections needed for specialization and confirms the result.
 
 ## Consequences for fixed C0
 
@@ -51,14 +51,14 @@ The three Cartier singleton models from [STCI-R-0002](cartier_singleton_lift.md)
 
 ## Evidence
 
-[Accepted source theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-projection-torsion-coset-reduction.md).
+[Accepted source theorem](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-reduction).
 
-[Independent review (PASS with recorded corrections)](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-projection-torsion-coset-independent-review.md).
+[Independent review (PASS with recorded corrections)](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review).
 
 ## Limitations
 
 The torsion set and mate locus need not be constructible. The actual C0 projection-family phase images, torsion cosets, and admissible parameters remain uncomputed. This reduction does not address non-Cartier or multiple inverse lifts and does not settle the unrestricted STCI problem.
 
-## Permanent evidence navigation
+## Current mathematical evidence
 
-The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/04-carriers.md). The original evidence identities and theorem scope remain unchanged.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

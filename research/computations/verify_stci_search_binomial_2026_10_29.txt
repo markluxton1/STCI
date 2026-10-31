@@ -1,0 +1,1 @@
+PASS char5 (3,20): affine restriction (u^4-v)^15; boundary restriction y^20; degrees 3,20

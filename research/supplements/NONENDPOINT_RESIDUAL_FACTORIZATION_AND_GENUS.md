@@ -1,40 +1,8 @@
-# Residual geometry and factorization
+# Nonendpoint residual divisors, pole filtration and actual fiber norms
 
-Permanent complete mathematical dossier for the nonendpoint quintic geometry. The original calculations, exact hypotheses, conditional status, counterexamples, failure modes and unresolved cases are preserved below. Independent certificates are mathematical arguments; executable code remains separately located in the repository.
+Fix the embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), an algebraically closed characteristic-zero field, and the accepted anticanonical degree-five A4 pair \((S,c)\). Retain arbitrary \(\delta\ne0\), the four lift parameters \(a,b,g,d\), and an actual line center disjoint from \(S\), giving a finite birational projection \(\nu:S\to X\) onto an integral quintic. The restriction \(c\to C_0\) is an isomorphism. A hypothetical mate forces **full** reduced inverse support \((\nu^{-1}C_0)_{red}=c\), denoted SUP; it excludes isolated extra inverse points as well as extra curves. The proofs below concern this exact family, not every quintic carrier. The intrinsic pair is proved in [the A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md); actual projection coordinates and every target boundary are in [the target-fiber chapter](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md).
 
----
-
-## 1. nonendpoint residual factor and genus reduction
-
-# Nonendpoint quintics: residual factor loci, curve maps, and eight excess contacts
-
-Date: 2026-10-12. Author: `nonendpoint_pole_spaces`.
-
-Status: **DIRECT NEW STRUCTURAL REDUCTIONS; INDEPENDENT PROOF AUDIT
-OUTSTANDING**. This note excludes a residual degree partition and gives
-necessary finite parameter and contact reductions in the remaining
-nonendpoint genus-one quintic projection family. It does not exclude the
-entire family or any other quintic normalization lane. No CAS execution is
-claimed here; all identities used below follow from the saved exact model.
-
-The field is algebraically closed of characteristic zero. Use the
-[intrinsic A4 pair](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification),
-the [exact low-pole spaces](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-a4-low-pole-spaces), and the
-[actual nonendpoint sections and residual divisor](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd).
-The two double roots are 0,delta, where delta is arbitrary and nonzero.
-It is not normalized to one. The four lift parameters are a,b,g,d.
-
-Throughout, an admissible projection means a line center avoiding S and
-the resulting finite birational normalization map `nu:S->X` onto an integral
-quintic. Every mate forces the full inverse-support condition
-
-    (nu^(-1)(C0))_red=c.                     (SUP)
-
-The restriction `nu|c:c->C0` is an isomorphism, including the A4 point p of c,
-which maps to the nonendpoint target parameter z=1. Consequently (SUP)
-permits only p as a normalization point above that target point.
-
-## 1. Reducibility has only two parameter hyperplanes
+## Exact residual equation and parameters
 
 Put `t=T-r^2`, `v=t^2-r^3`, and define coefficients
 
@@ -51,378 +19,13 @@ The residual D is the actual Weil divisor `div(F)+6ell`, where
 It excludes ell. Its only possible prime-degree partitions, including
 multiplicities, are 6,2+4,3+3,2+2+2.
 
-If `A!=0,-3delta^2`, the discriminant of (1), viewed as a quadratic in t,
-is the cubic
 
-    Delta(r)=(J r+E)^2
-      -4A[(-3delta^2-A)r^3+P2 r^2+L r+N],                 (2)
+<a id="1-nonendpoint-residual-factor-and-genus-reduction"></a>
+<a id="2-nonendpoint-residual-factor-and-genus-independent-audit"></a>
 
-with nonzero leading coefficient `4A(A+3delta^2)`. A nonzero polynomial of
-odd degree is not a square in k(r): its valuation at infinity is odd.
-The quadratic is therefore irreducible over k(r), and is primitive over
-k[r] because its t^2 coefficient is a nonzero constant. Thus F is
-irreducible in k[r,t] and D is integral and reduced.
+## Factorization, finite curve maps and eight excess contacts
 
-On `A=0`, write
-
-    F=(J r+E)t+P(r),
-    P(r)=-3delta^2 r^3+P2 r^2+L r+N.                      (3)
-
-If J is nonzero, the sole reducibility condition is
-
-    rho=-E/J, P(rho)=0.                                  (4)
-
-Then F factors into a degree-two prime `r-rho` and a degree-four prime
-whose t coefficient is J. The latter is integral, since it is a graph
-over r. If J=0 and E!=0, F is an irreducible graph. If J=E=0, F is a
-cubic polynomial in r and the partition is 2+2+2, with repetitions allowed.
-
-On `A=-3delta^2`, the r^3 coefficient vanishes. Reducibility occurs precisely
-when the degree-at-most-two discriminant (2) is a square in k[r], including
-the zero square. The resulting factors have degree three, and coincide
-when the discriminant is zero. If the discriminant is not square, D is
-integral. These two exceptional hyperplanes are retained in full; they are
-not covered by the genus-one argument below.
-
-## 2. Cycle pushforward, including conductor components
-
-On the target smooth quadric Q, the quintic equation cuts C0 plus a residual
-divisor R of class (4,2): C0 has class (1,3), while the quintic restriction
-has class (5,5). Therefore
-
-    nu_*D=R, class(R)=(4,2).                              (5)
-
-This equality counts both component multiplicities and possible degrees
-greater than one of the maps of curve components. It remains valid when
-the generic point of a component belongs to the conductor. Indeed at a
-codimension-one point of X, let the finite birational inclusion of local
-one-dimensional rings be A0 subset B0, and M=B0/A0. For a nonzero local
-equation q, M has finite length and multiplication by q has equal kernel
-and cokernel lengths. The exact sequence with multiplication by q then
-shows `length(A0/qA0)=length(B0/qB0)`, with residue-field degrees included
-when B0 is semilocal. This proves the cycle equality without assuming
-normality along the target residual.
-
-## 3. No degree-two or degree-three prime can collapse to a ruling line
-
-A degree-two prime on S is the closure of `r=rho`. Its normalization is P1,
-and its support on c consists exactly of p and the finite point `T=0,r=rho`.
-This follows directly from its anticanonical parametrization: as t tends to
-infinity, Z0=t^2-rho^3 dominates and the limit is the A4 point p.
-
-Its degree-two polarization permits image degree two with mapping degree
-one, or image degree one with mapping degree two. In the latter case its
-image line contains both target points C0(1) and C0(zrho), where
-
-    zrho=(rho-delta)/rho
-
-and zrho is interpreted as infinity when rho=0. These two points are
-distinct for delta!=0. A ruling line through both of them must be the
-trisecant ruling, and meets C0 in three distinct points. Explicitly, its
-fixed Segre coordinate is z^3=1, so the points are the three cube roots of
-unity. A surjective curve map to that line must have preimages of all
-three points, whereas (SUP) allows only the two points of this prime on c.
-This is impossible. Thus every degree-two prime in D satisfying (SUP)
-maps birationally to a smooth plane conic of class (1,1) on Q.
-
-A degree-three prime has affine equation `t+B1 r+C1=0`, and its
-normalization is P1. Its anticanonical parametrization is the complete
-cubic system on that P1: the coordinate functions span 1,r,r^2,r^3.
-Its support on c has at most three points, namely p and the roots of
-`-r^2+B1 r+C1`. At least one of those roots is finite. Its image can have
-degree three birationally, or degree one with mapping degree three.
-
-If the image is the ruling line meeting C0 only once, that point is C0(1),
-but the finite point of the prime on c maps to a distinct target point,
-which is impossible. If it is the trisecant ruling, (SUP) requires each of
-its three distinct C0 points to have a singleton fiber in the normalization
-of the prime. A degree-three map P1->P1 would then be totally ramified at
-three different source points. These contribute at least six to the
-ramification divisor, whereas Riemann-Hurwitz gives degree four. This is
-again impossible. Thus a degree-three component must map birationally to
-a smooth cubic of class (2,1) or (1,2) on Q.
-
-These arguments include repeated components of D: repetition changes the
-cycle multiplicity, not the map or its point fibers.
-
-## 4. A complete partition exclusion and a five-value conic reduction
-
-The partition 2+2+2 is impossible under (SUP). By section 3 all its components
-push forward as plane conics, with repetitions counted. Their total class
-would be (3,3), contradicting (5).
-
-In the partition 2+4, the conic has class (1,1). The remaining pushforward
-must consequently have class (3,1). The degree-four prime cannot map four
-times to a line: its graph equation has a nonzero r^2 and a nonzero t
-coefficient, and its anticanonical coordinate functions consequently span
-1,r,r^2,r^3,r^4. Its intrinsic coordinate span has dimension five, and
-restriction of the four-dimensional projection system has dimension at
-least three (its kernel is at most the two-dimensional kernel of the
-projection system in the full six-dimensional anticanonical space).
-Nor can it map twice to a conic, whose pushforward class would be (2,2).
-Thus the quartic maps birationally to the smooth rational Q-curve (3,1).
-
-There is a small exact parameter restriction on the conic `r=rho`.
-Its image is a smooth plane conic. Its intersection with C0 is therefore
-the plane section of C0, a binary quartic supported, by (SUP), only at
-z=1 and z=zrho. A plane equation restricted to
-
-    C0(z)=[1:z:z^3:z^4]
-
-has no z^2 coefficient. For finite zrho different from 1, a binary quartic
-with the stated support is, up to scalar,
-
-    (z-1)^m(z-zrho)^(4-m), m=1,2,3.
-
-Its z^2 coefficients are respectively
-
-    3 zrho(zrho+1), zrho^2+4 zrho+1, 3(zrho+1).
-
-For zrho=infinity the polynomial has degree m, and its z^2 coefficient
-vanishes only for m=1. These cases give precisely the necessary values
-
-    rho/delta in {0,1,1/2,(3-sqrt(3))/6,(3+sqrt(3))/6},        (6)
-
-or equivalently
-
-    rho(rho-delta)(2rho-delta)
-       (6rho^2-6delta rho+delta^2)=0.                         (7)
-
-In particular the reducible A=0 locus, if it could have a mate, must satisfy
-J!=0, the two conditions (4), and the finite restriction (7). This preserves
-the arbitrary nonzero modulus delta and all four lift parameters; it does
-not assert that any of these five possibilities succeeds.
-
-In the partition 3+3, section 3 and (5) force both cubics to have class
-(2,1). This includes the case of a doubled cubic. The corresponding conic
-and cubic contact arguments do not yet exclude 2+4 or 3+3 in their entirety.
-
-### 4a. The conic-plus-quartic locus reduces to eight one-parameter families
-
-The plane condition also gives one linear relation in the lift parameters.
-If `H(z)=h0+h1 z+h2 z^3+h3 z^4` is the required plane quartic, the conic
-parametrization is
-
-    X(T)=T^2(1,1,1,1)+T(L0,L1,L2,L3)+C0(zrho),
-
-up to the scalar r^4 in the last term, with its homogeneous meaning at
-rho=0. The coefficient vector in T is
-
-    (a,b,g,d)+(-2rho^2-rho)(1,1,1,1)
-                +delta rho(0,1,3,4).
-
-Because H(1)=0, the plane contains this conic precisely when
-
-    h0 a+h1 b+h2 g+h3 d+delta rho H'(1)=0.                 (8a)
-
-Use coordinates on the hyperplane A=0 given by
-
-    u=a-b, w=a-g,
-    b=a-u, g=a-w, d=a-u-w, B=-uw.
-
-Write `rho=tau delta`. The two literal factor conditions in (4) are
-equivalent to
-
-    uw=tau(3u+w)delta^2+(1-3tau)delta^4,                 (8b)
-
-    0=a(3tau^2-3tau+1)
-      +u(-3tau^3+3tau^2-tau)-w tau^3
-      +delta(-3tau^3+3tau^2-tau)
-      +delta^2 tau^2(3tau-1).                           (8c)
-
-The second equality is P(rho)=0 after using the first, and dividing by
-delta^4; delta is nonzero throughout. No lift variable is divided out.
-
-For tau=0, the allowed plane polynomial is z-1. Equation (8a) says b=a,
-whereas the constant factor condition gives a=0. Then b=0 and the other
-factor condition would require `B+delta^4=delta^4=0`, impossible.
-For tau=1, the allowed polynomial is z^4-z^3. Its plane equation gives
-`b=a-delta^2`. Hence `u=delta^2`, `B=delta^2(g-a)`, and
-`J=(a-g)delta`. The factor condition `J delta+E=0` again reads
-`delta^4=0`. Thus neither tau=0 nor tau=1 survives.
-
-For tau=1/2, there are exactly two allowed contact patterns. They produce
-the following necessary families, with delta arbitrary and nonzero:
-
-* Contact multiplicities (1,3) at (1,-1): set `u=x delta^2`, where
-  `2x^2-2x-1=0`; set `w=(u+4delta^2)/3`; then
-  `a=(u+w+delta-delta^2)/2`.
-* Contact multiplicities (3,1) at (1,-1): set `u=x delta^2`, where
-  `6x^2-6x+1=0`; set `w=3u`; then
-  `a=(u+w+delta-delta^2)/2`.
-
-Indeed the two plane polynomials are respectively
-`z^4+2z^3-2z-1` and `z^4-2z^3+2z-1`; (8a) gives
-`3w=u+4delta^2` and `w=3u`. Substitution in (8b)--(8c) gives exactly
-the displayed quadratics and a expressions.
-
-For either root tau of `6tau^2-6tau+1=0`, the contact pattern is (2,2).
-Write `zrho=1-1/tau`. Its plane polynomial is
-`(z-1)^2(z-zrho)^2`. Reducing its coefficients by
-`zrho^2+4zrho+1=0`, (8a) gives `w=3u`. Equations (8b)--(8c) then give
-
-    u=x delta^2,
-    3x^2-6tau x-1+3tau=0,
-    w=3u,
-    a=(6tau-1)u+tau delta-(3tau-2/3)delta^2.               (8d)
-
-The quadratic in x has nonzero discriminant six. There are two choices
-of x for each of the two choices of tau. Finally recover b,g,d from the
-displayed u,w formulas. Thus the entire 2+4 locus compatible with the
-conic's full target support lies in eight explicit one-parameter families:
-two of the first type, two of the second, and four of type (8d).
-
-These families are only necessary. Center avoidance, the quartic component's
-ten target contacts, and full conductor descent remain to be tested. No
-family is declared admissible or successful. The parameters in (8a)--(8d)
-are direct equations from the actual model, not a broad resultant run.
-
-## 5. Off the two factor hyperplanes, the integral residual has genus one
-
-Assume now `A!=0,-3delta^2`. Complete the square in (1) by putting
-
-    y=2A t+J r+E.
-
-The affine residual is `y^2=Delta(r)`, where Delta is a cubic with nonzero
-leading coefficient. Its plane cubic compactification has one smooth
-point p_infinity. It is integral of arithmetic genus one even when Delta
-has a repeated root; its geometric genus can then be zero. At p_infinity
-r has pole two and t has pole three. The leading relation is
-
-    t^2 ~ kappa r^3, kappa=(A+3delta^2)/A,
-
-where kappa and kappa-1 are nonzero. Hence v has pole six.
-
-The six anticanonical coordinate functions on this cubic are
-
-    [Z0:Z1:Z2:Z3:Z4:Z5]=[v:rt:t:r^2:r:1].                  (8)
-
-They extend using the frame O(6 p_infinity), with Z0 nonzero at infinity;
-there is no base point. The resulting morphism is the already defined
-map to S on the affine chart. Near infinity, in the Z0=1 chart, its local
-coordinates are
-
-    a0=rt/v, b0=t/v, c0=r^2/v.
-
-Their vanishing orders are 1,3,2. In particular a0 is a uniformizer with
-nonzero leading coefficient. The finite birational curve map is therefore
-an isomorphism near infinity: the completed image ring contains k[[a0]],
-which equals the completed source DVR. It is also an isomorphism on the
-affine chart. Thus the actual integral Weil curve D is this plane cubic
-compactification, has arithmetic genus one, and is smooth at the A4 point p.
-No assumption of nonsingularity at its affine points is made.
-
-## 6. A degree-two map of this integral residual contradicts full support
-
-If this integral D maps to its reduced image R0 with generic degree e, (5)
-forces `e[R0]=(4,2)`. Thus e is one or two. If e=2, R0 has class (2,1),
-is an integral curve of arithmetic genus zero, and is therefore smooth.
-
-At p, the tangent of D is the a0 direction. The same is true for c: the
-local equations of c in the A4 chart are
-
-    b0+c0=0, (1-a0)c0-a0^2=0.                             (9)
-
-Since nu|c is an isomorphism onto the smooth C0, the target derivative of
-the a0 direction is nonzero. The map D->R0 is consequently unramified at p.
-A degree-two finite map to a smooth curve then has another point in the
-fiber of nu(p). One may justify the degree count by torsion-freeness over
-the target DVR, which makes the finite map flat, or by its normalization.
-But (SUP) and the isomorphism c->C0 permit only p in this fiber. This is a
-contradiction. Therefore
-
-    D -> R is finite birational,
-    class(R)=(4,2), pa(R)=3, pa(D)=1.                      (10)
-
-The curve-model quotient `nu_*O_D/O_R` has total length two. That number is
-not an upper bound on subsequent contact lengths.
-
-## 7. Exactly eight excess contact lengths are required on this locus
-
-The intrinsic ideal of c restricted to D is locally principal. At finite
-points of c the surface is smooth and the ideal is generated by T.
-The finite part of its zero scheme has length four because substitution
-`t=-r^2` into (1) gives
-
-    F|c=A r^4+(-3delta^2-A-J)r^3+(P2-E)r^2+L r+N,
-
-whose leading coefficient A is nonzero. All repeated roots are counted.
-
-At p use (9). The ratios computed from (8) satisfy
-
-    c0/a0^2 = v/t^2 -> 3delta^2/(A+3delta^2),
-    b0/a0^2 -> 0.
-
-The limiting c0 coefficient is nonzero and differs from one. Each generator
-in (9) thus has order exactly two on the smooth D at p, so their image
-ideal is `(a0^2)`. The intrinsic ideal zero scheme consequently has total
-length `4+2=6` on D.
-
-The target intersection C0.R has length fourteen by (10). Its Cartier
-equation on the smooth Q pulls back to a nonzerodivisor phi on D. The total
-zero length of phi is also fourteen: the finite-length quotient in (10)
-has equal multiplication-kernel and multiplication-cokernel lengths,
-exactly as in section 2. By (SUP), these zeros all occur on c.
-
-Locally write the intrinsic ideal on D as `(tau)`. The target equation
-vanishes on c scheme-theoretically after pullback, so `phi=tau*w` with w
-regular. The nonnegative local excess is `length(O_D/(w))`. Additivity for
-products of nonzerodivisors, including at singular affine points of D,
-gives the exact necessary condition
-
-    sum local excess lengths = 14-6 = 8.                 (11)
-
-This is a full contact requirement. It does not bound these excesses by
-the degree or number of first-normal roots, by the two curve-model quotient
-lengths, or by a generic differential calculation. The factor hyperplanes
-A=0 and A=-3delta^2 are outside (10)--(11), and all higher-jet exceptional
-strata on the present locus remain open.
-
-## 8. Continuation boundary
-
-The new completed deductions, subject to independent audit, are the factor
-hyperplane reduction, the exclusion of the complete 2+2+2 partition, the
-five-value necessary conic parameter restriction in 2+4, the map-degree
-restrictions for 2+4 and 3+3, and the exact eight-excess requirement for the
-integral residual off the two hyperplanes. The next work is to compare (11)
-with the actual finite conormal cancellation loci, and to analyze the five
-conic cases and the cubic-pair discriminant locus with full target fibers.
-Neither the nonendpoint family nor the unrestricted STCI question is
-resolved by these statements.
-
-
----
-
-## 2. nonendpoint residual factor and genus independent audit
-
-# Independent audit: nonendpoint residual factors, finite maps and excess contacts
-
-Date: 2026-10-12. Auditor:
-`oct11_endpoint_a_nonzero_support/a_nonzero_three_common_roots`.
-
-Status: **PASS, direct independent mathematical audit.** The deductions
-listed below hold under the owner's actual model and admissible finite
-birational projection hypotheses. No exclusion of the entire nonendpoint
-family, no bound on descending powers and no higher-contact upper bound is
-proved here. No new CAS execution is claimed for this audit.
-
-The audited owner note is
-[nonendpoint residual factor and genus reduction](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#1-nonendpoint-residual-factor-and-genus-reduction),
-SHA-256
-`d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44`.
-This version includes its section 4a, the eight one-parameter necessary
-families. An earlier read preceded that addition; this audit binds the
-completed version, which was reread before acceptance. Owner, canonical
-and sealed files are unchanged by the auditor.
-
-The input is the actual normal degree-five A4 pair, its complete
-anticanonical coordinates and the five projection parameters
-`delta != 0,a,b,g,d`. The restriction to c is the fixed C0 with
-`z=(r-delta)/r`; its A4 point p maps to z=1. A mate necessarily requires
-`(nu^{-1}(C0))_red=c`. This last condition is used as a necessary condition,
-not as a sufficient descent criterion.
-
-## 1. Factor hyperplanes and all component multiplicities
+### 1. Factor hyperplanes and all component multiplicities
 
 Write the residual equation as
 
@@ -461,7 +64,7 @@ is therefore a polynomial. The factors, when present, are linear in t
 and at most linear in r; their exact pole degree is three. A zero
 discriminant is the doubled cubic case. This exhausts the factor cases.
 
-## 2. Cycle equality is valid on conductor components
+### 2. Cycle equality is valid on conductor components
 
 The Cartier intersection cycle of X and Q is the same whether computed
 by the quintic equation on smooth Q or by q on the hypersurface X.
@@ -481,7 +84,7 @@ already includes all residue-field degrees. Thus the cycle equality
 retains both component multiplicities and map degrees and needs no
 normality assumption along the target residual.
 
-## 3. Low-degree source curves and maps of degree greater than one
+### 3. Low-degree source curves and maps of degree greater than one
 
 These source compactifications can be checked directly, rather than
 assuming normality from an affine graph.
@@ -530,7 +133,7 @@ dimension at least three, so its image is not a line. A double map
 to a conic would contribute class `(2,2)`, also impossible. Thus it
 maps birationally to the smooth rational curve of class `(3,1)`.
 
-## 4. The five conic locations and eight necessary parameter families
+### 4. The five conic locations and eight necessary parameter families
 
 The conic is exactly the plane section of Q by its containing plane.
 Consequently its scheme intersection with C0 equals the plane section
@@ -596,7 +199,7 @@ branch it is `delta^3(10x-5)/3`; in the other branches it is
 These calculations do not prove center avoidance or successful full
 support of the quartic, let alone conductor descent.
 
-## 5. The actual integral residual is an arithmetic-genus-one curve
+### 5. The actual integral residual is an arithmetic-genus-one curve
 
 Off the two hyperplanes, `y=2At+Jr+E` realizes the affine residual
 as `y^2=Delta(r)` with a genuine cubic right side. Its projective
@@ -619,7 +222,7 @@ isomorphism near infinity; it is already an isomorphism on the whole
 affine chart. Thus the actual reduced curve D is this plane cubic,
 not its normalization, and `pa(D)=1`. It is smooth at the A4 point p.
 
-## 6. A double map is excluded at p for every allowed lift parameter
+### 6. A double map is excluded at p for every allowed lift parameter
 
 Cycle equality permits only generic map degrees one or two. In the
 degree-two case the image has class `(2,1)`, hence is smooth.
@@ -652,7 +255,7 @@ It has `pa(R)=3`, so the actual curve-model quotient
 `nu_*O_D/O_R` has length `3-1=2`. That quotient length is not a contact
 bound and is not used as one.
 
-## 7. The eight-excess condition is a scheme-length equality
+### 7. The eight-excess condition is a scheme-length equality
 
 The exact intrinsic ideal of c at p, in the A4 surface chart, is
 
@@ -708,64 +311,12 @@ The lengths are nonnegative. No claim restricts their size via the
 number of first-normal roots, the geometric genus, or the length-two
 curve-model quotient. The factor hyperplanes are outside this equality.
 
-## 8. Verdict, repairs and input bindings
 
-All audited deductions pass. No mathematical repair of the owner note
-is required. This audit makes explicit three supporting points that
-were compressed there: the smooth compactifications of the low-degree
-source primes, the nonzero actual derivative delta at p, and the
-nonzerodivisor exact sequence at singular affine points. It also verifies
-the subsequently added section 4a and its eight necessary branches.
+<a id="3-nonendpoint-pole-filtration-and-line-jet-independent-audit"></a>
 
-The completed results are the two factor hyperplanes, exclusion of
-`2+2+2`, the map-degree restrictions in `2+4` and `3+3`, the eight
-necessary conic-plus-quartic parameter families, and the exact
-eight-excess requirement for integral D off the two hyperplanes.
-The integral genus-one residual cases, the eight quartic-contact cases,
-the cubic-pair conductor cases and unbounded full descent remain open.
+## Complete pole filtration and entire-line power obstruction
 
-Additional read input versions:
-
-* [nonendpoint pole filtration and line jet](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd),
-  SHA-256 `ad4459de5a95b12e26a162419082d7b32745323a6781716efdf6cca72767c2a2`.
-* [exact low-pole spaces](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-a4-low-pole-spaces),
-  SHA-256 `929f8165fd0f484175c819011cdf2eefaf6766e3c88735d556903241a2177f5a`.
-* [explicit A4 model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit),
-  SHA-256 `f19ae25848ba77a5c59f3a9ce53819b24258c03b5d90f234b31ec7581306f8bd`.
-* [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification),
-  SHA-256 `537e341fb79632997648209efb7728c64229d7bd648cc2721285e8ab04cf0e0f`.
-
-The source `verify_session_nonendpoint_target_fibers_2026_10_12.m2` was also
-read as context; its separate execution is neither repeated nor counted
-as a new certificate by this written proof audit.
-
-
----
-
-## 3. nonendpoint pole filtration and line jet independent audit
-
-# Nonendpoint pole filtration and ramified-line powers: independent audit
-
-Date: 2026-10-12. Auditor:
-`oct11_endpoint_support_global_audit/two_root_contact_audit`.
-
-Status: **PASS: direct independent mathematical reconstruction** of the pole
-filtration, actual residual Weil divisor and its numerical partitions, and
-the stated entire-line all-power obstruction. No broader nonendpoint or
-quintic exclusion is asserted. No new mathematical CAS execution was needed;
-the algebraic identities are reconstructed below. Prior records and canonical
-files were not edited.
-
-The audited owner note is
-[nonendpoint pole filtration and line jet](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-nonendpoint-pole-filtration-and-line-jetmd),
-as read with SHA-256
-`ad4459de5a95b12e26a162419082d7b32745323a6781716efdf6cca72767c2a2`.
-The only clarification required is that the displayed transverse derivation
-annihilates pulled-back target functions **after evaluation at the generic
-point of ell**, not identically throughout the two-dimensional chart. This
-interpretation is sufficient for the proof and is made explicit in Section 5.
-
-## 1. Accepted inputs, parameters and admissibility
+### 1. Accepted inputs, parameters and admissibility
 
 Work over an algebraically closed field `k` of characteristic zero. The
 accepted intrinsic genus-one pair consists of the normal degree-five
@@ -811,11 +362,11 @@ generic degree is one and the image is an integral quintic. Normality of S
 then identifies this finite birational map with the normalization.
 
 The all-power conclusion also uses the accepted
-[quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd):
+[quintic structural frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit):
 any hypothetical mate has degree `4k` and pulls back to a nonzero scalar
 multiple of `Q^k`. That input is not inferred from the pole calculation.
 
-## 2. The pole filtration is exhaustive, including cancellation strata
+### 2. The pole filtration is exhaustive, including cancellation strata
 
 On the genuine fourth blowup chart write `B=1+xu`. The accepted section
 vector after the common base factor is removed is
@@ -867,7 +418,7 @@ This also independently confirms the written
 [low-pole-spaces proof](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-a4-low-pole-spaces). Neither
 6ell nor its sheaf is being asserted to be Cartier.
 
-## 3. The residual divisor is actual and has exactly the stated partitions
+### 3. The residual divisor is actual and has exactly the stated partitions
 
 For a direct reconstruction set
 
@@ -933,7 +484,7 @@ These are numerical partitions with multiplicities, not realization or
 genus statements. D may contain c as the degree-four member; no assumption
 that D is reduced or disjoint from c is required or established.
 
-## 4. The rank-one equations exhaust entire-line ramification
+### 4. The rank-one equations exhaust entire-line ramification
 
 In the same fourth chart, the four section values on ell are
 
@@ -962,7 +513,7 @@ rank at least one. Its rank at the generic point of ell is one exactly
 when `R2=R3=0`; it otherwise has rank two. This is an exhaustion for
 the stated entire-line rank condition, not for isolated ramification.
 
-## 5. Frame-correct derivation and the obstruction to every positive power
+### 5. Frame-correct derivation and the obstruction to every positive power
 
 Assume `R2=R3=0` and put `lambda=(b-a)/delta`. Define the polynomial
 
@@ -1018,43 +569,10 @@ Its D value would then vanish, contradicting the preceding formula.
 This proves the claimed exclusion for every positive k on this precise
 admissible ramified-line subfamily.
 
-## 6. Audit outcome and evidence boundary
 
-The owner's structural claims and bounded all-power exclusion **PASS**.
-The generic rank-two nonendpoint projection family remains open. In
-particular this audit supplies no exclusion from a first derivative at
-isolated points, no exhaustion of residual component genera, no universal
-conductor descent result and no conclusion for all quintic carriers.
+<a id="4-nonendpoint-diagonal-norm-identity"></a>
 
-The owner supporting source has SHA-256
-`24ae9f4b3b2092bf7870f4f09e17307b2feda84000ad91eb6087c022b4892738`.
-I inspected its actual source, the
-[recorded repaired execution](../validation/2026-10-11-quintic-nonendpoint-structure/attempt-05-root-name-repair/execution-record.json)
-and both raw streams. A fresh read-only hash comparison matched the source,
-execution snapshot, stdout and stderr to that record. It returned exit zero
-and seven supporting conditions; the eighth printed PASS line is the final
-label. This audit does not count that historical execution as a fresh
-mathematical verifier, and no redundant CAS run was performed.
-
-The independent evidence supplied here is the written reconstruction of
-the full filtration, divisor, minors, frame and derivation. All prior
-attempts, failure explanations and seal-bound files remain unchanged.
-
-
----
-
-## 4. nonendpoint diagonal norm identity
-
-# Nonendpoint fibers: diagonal conormal identities and an exact degree-eight norm
-
-Date: 2026-10-12. Author: `oct12_restricted_conductor_section/residual_norm_identity`.
-
-Status: **DIRECT AUXILIARY POLYNOMIAL IDENTITIES, WITH A CAPTURED EXACT CHECK**.
-This note supplies compact algebraic identities for the actual nonendpoint
-family. It does not infer that a polynomial is the conductor merely from
-its degree. A separate argument must establish the geometric status of
-the five-quadric determinant. No frozen note, canonical file or Git state
-is changed.
+## Diagonal conormal identities and the degree-eight norm
 
 We work over an algebraically closed field of characteristic zero, with
 `delta!=0`. The five actual parameters are `delta,a,B,G,J`, where
@@ -1070,7 +588,7 @@ The corrected cubics and their two-chart interpretation come from the
 All common-root interpretations below require the stated actual center
 avoidance. Literal polynomial identities do not require that open condition.
 
-## 1. Compact diagonal evaluations
+### 1. Compact diagonal evaluations
 
 Write
 
@@ -1110,7 +628,7 @@ Substituting these three expressions gives (1). Differentiating once
 more gives `C3_r(r0)=Psi_rr(r0)/(2p)`; this is a product-rule identity,
 with no assertion about actual conductor length or a higher-contact bound.
 
-## 2. Exact relation to the corrected conormal cubics
+### 2. Exact relation to the corrected conormal cubics
 
 Denote the corrected conormal cubics by `P(r)` and `Jcub(r)`. In the
 parameters used here they are
@@ -1156,7 +674,7 @@ This includes all possible degree drops of the cubics and quadratic;
 there is no normalization `delta=1` and no omission of `p=2` or `p=3`.
 The targets `p=0`, `p=infinity` and the locus `Z=0` are retained separately.
 
-## 3. A small Sylvester identity and its false leading-drop factor
+### 3. A small Sylvester identity and its false leading-drop factor
 
 Write the exact cubic as
 
@@ -1214,7 +732,7 @@ combining the subresultant and conormal equations:
 
 None of (5)--(9) bounds higher contact by first-normal data.
 
-## 4. The primitive degree-eight polynomial
+### 4. The primitive degree-eight polynomial
 
 There is the exact factorization
 
@@ -1264,7 +782,7 @@ fiber analysis when `J=0`. No zero-locus claim for `Z=0` follows solely
 from the removed factor `Z^2`; the denominator-free rank equations in
 the target-fiber note remain authoritative for that locus.
 
-## 5. Literal identity with the five-quadric determinant
+### 5. Literal identity with the five-quadric determinant
 
 The [accepted model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
 gives the actual five quadrics
@@ -1295,36 +813,9 @@ conductor interpretation. The parent research lane is proving that
 presentation of the projected normalization. That proof, rather than
 the degree-eight match, is the required geometric bridge.
 
-## 6. Captured evidence, failures and boundaries
 
-The [checker](../computations/verify_session_nonendpoint_diagonal_norm_2026_10_12.m2)
-checks fifteen supporting identities and emits one completion marker.
-Its final captured execution is
-[20261012T212553449292Z](../validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/execution-record.json):
-exit code zero, fifteen individual PASS lines, completion marker, empty
-stderr. Source SHA-256 is
-`cc188b7ee97b91710f519d4c357184383437b8b492aad97e09c33c3138cd99e2`.
-The expanded primitive polynomial is copied into that capture.
+## Exact support and characteristic scope
 
-Two earlier executions of the final checker are fully captured and
-preserved. The first passed three identities before M2's fraction-field
-construction changed the effective coefficient-ring context of subsequent
-polynomial multiplication. The second passed fourteen identities before
-M2 rejected polynomial-ring division into a fraction field over a
-nonprimitive coefficient ring. Moving fraction-field construction after
-the polynomial identities and multiplying by an explicitly typed inverse
-of delta repaired these interface errors. These runs are not successful
-fifteen-check executions.
+The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_diagonal_norm_2026_10_12.m2](../computations/verify_session_nonendpoint_diagonal_norm_2026_10_12.m2). No inherited computation was rerun for this consolidation.
 
-Earlier exploratory code also encountered coefficient-extraction,
-protected-symbol and factor-display interface errors. The retained source
-snapshots and inventory explicitly state that their original raw tool
-outputs were not separately saved to disk. They are debugging history,
-not substitute successful execution certificates. The final checker is
-one lineage, not fifteen independent proofs.
-
-This auxiliary result leaves `p=0`, target infinity, `Z=0`, rank-one
-fibers, actual projection-center avoidance, and all specialized degree
-drops visible. It establishes no universal STCI theorem, no full
-nonendpoint exclusion, and no first-normal upper bound on conductor
-or higher contact multiplicities.
+These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).

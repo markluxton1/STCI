@@ -1,66 +1,36 @@
-# What matters now: STCI research decision guide
+# Choosing a bounded investigation
 
-This is a **navigation and prioritization guide**, not a new theorem, proof audit, or assignment of an exclusive active frontier. Consult [STATE.md](STATE.md) and the [canonical results](results/INDEX.md) for authoritative statements. The unrestricted fixed rational quartic STCI question remains open.
+This guide gives selection criteria, not theorem authority or a compulsory
+agenda. The [approaches](INDEX.md), [mechanisms](MAP.md), and
+[open interfaces](FRONTIER.md) expose the landscape. Choose work for its
+mathematical contribution, not the volume of previous files in a lane.
 
-## Essential conclusions: read first
+A useful task may construct actual equations, exclude a covered class,
+identify a reusable lemma, make a computation geometric, supply an explicit
+counterexample, verify a literature application, or formulate the exact
+remaining implication. It need not solve unrestricted STCI to be worthwhile.
 
-| Importance | What is established | Authority | Consequence |
-|---|---|---|---|
-| Decisive for low degrees | No integral quartic carrier of the fixed C0 admits a mate; with lower-degree exclusions, both defining degrees are at least five | [STCI-R-0001](results/quartic_carrier_exclusion.md) | Do not reopen quartic mate cases |
-| General structural tool, not classification | Exact fixed-carrier full-conductor criterion | [STCI-R-0003](results/fixed_carrier_conductor_criterion.md) | Apply when a specific higher-degree carrier is available |
-| Restricted higher-degree models | Three necessary Cartier-singleton normalization models | [STCI-R-0002](results/cartier_singleton_lift.md) | Investigate actual projections and conductor descent; do not infer existence or exhaustiveness |
-| Restricted reduction | Projection phase/torsion-coset criterion | [STCI-R-0004](results/projection_phase_reduction.md) | Computation of actual phase images is still missing |
-| Conditional infinitesimal toolkit | Smooth-root formal obstruction, actual-CI bridge, quadratic obstruction, spectral Picard criterion, pure-power degeneration | [STCI-R-0005 through 0009](results/INDEX.md) | Powerful only with exact hypotheses; not an arbitrary-STCI exclusion |
+Before expanding a calculation, identify the object and source: abstract curve,
+embedded multiple structure, actual global linear system, normalized carrier,
+full conductor, surface singularity, or proper projective intersection. State
+what either outcome changes and a stopping condition. Check existing proofs
+before rederiving a known mechanism.
 
-## Later structural constraints that change the choices
+Keep both constructive and obstructive uses visible. A compatibility condition
+can suggest a construction. Failure of one family is not nonexistence. An
+all-degree theorem about one source is not a theorem about all sources; source
+dimension or density does not prove paired support. A stopped target is not an
+exhausted subject.
 
-- [R-0030](results/local_filtration_comparison_defect.md) gives a scoped local comparison and punctual-defect criterion; existence of a supported, generically defect-free punctual defect remains open.
-- [R-0032](results/full_conormal_socle_budget.md) and [R-0033](results/constant_first_relation_lifting.md) constrain filtration and lifting under stated hypotheses, not arbitrary global intersections.
-- [R-0034](results/normal_carrier_index_socle.md), [R-0035](results/normal_carrier_bounded_index_exclusion.md), and [R-0036](results/pointwise_conductor_socle_defect.md) sharpen conditional carrier/index/conductor restrictions. In particular, bounded-index normal-carrier exclusion does not dispose of higher-index or nonnormal cases.
-- [R-0019](results/quasiprimitive_residual_cycles.md) and [R-0023](results/ci_quartic_explicit_residual_geometry.md) should be read together when proposing a defect-to-residual bridge: scoped residual-cycle statements and explicit examples do not supply the unrestricted implication.
+Characteristic is substantive. The fixed quartic has a quartic-carrier STCI
+in every positive characteristic, whereas characteristic-zero quartic carriers
+are excluded. For a transfer, identify the precise use of separability,
+invertible integers, Frobenius, duality, or a global surface bound. An algebraic
+formula can extend even when the argument using it does not.
 
-Use the [open-question locator](questions/README.md) for precise missing bridges and [MAP.md](MAP.md) for all 36 records. These additions update available tools, **not** the ranking of research directions.
-
-## New accepted but scope-limited constraints (October 21)
-
-The [reconciliation decision](RECONCILIATION_2026-10-21.md) accepts [STCI-R-0012–0019](results/INDEX.md). The arithmetic prescribed-Z4 nonlifting theorem (R0012) is not unrestricted characteristic-zero nonexistence. The actual-generator theorem R0013 rules out movement one *only* under saturated/full generic binary-CI hypotheses; R0014 gives six necessary movement-two numerical rows and R0015 proves finiteness at each movement through eight, not arbitrary classification. R0016 quantifies **nonsaturated** first-relation/resultant defects; R0019 gives a **saturated curvilinear finite-flat** pointwise residual-cycle determinant formula and first-normal bound. R0017 excludes a degree-sixteen plane-normalization *subfamily*; R0018 excludes all-orders roots only with a **regular lifted formal surface**.
-
-**October 21 proposed investigation (historical, not a current mandate):** attempt a rigorously specified map from the R0016 defect sheaves/resultant divisor to a R0019 residual length cycle for an actual homogeneous pair of degrees at least five, proving any finite-flat/curvilinear/properness assumptions and retaining special-point corrections. Do not equate local graded realizability, a vertical exceptional cycle, or arithmetic candidates with a global STCI realization. No general comparison of the R0016 resultant divisor with the R0019 final saturated-filtration defect is established for arbitrary entirely-thick presentations. The general shared-singular-point claim is unproved. The [focused October 21 review](notes/2026-10-21-focused-reconciliation-math-review.md) checks the forced triple and residual-cycle globalization only within their stated hypotheses.
-
-## Research selection principles (editorial guidance, not theorem)
-
-Choose work by the chance of obtaining a global, independently checkable mathematical implication, clarity of hypotheses, and the size of the genuinely surviving class addressed. Prefer comparing complementary approaches over extending a computation simply because it is already underway. Current activity is described in [FRONTIER.md](FRONTIER.md); this guide should not designate a single active assignment. A change of research interest is not evidence that an earlier direction failed.
-
-## Research viewpoints and agent discretion (editorial guidance, not theorem)
-
-The broader question can start from \(C_0\subset V(F,G)_{\mathrm{red}}\) with no common surface component, without imposing STCI in advance. Write \([V(F,G)]=m[C_0]+R\) and \(de=4m+\deg R\). An STCI has \(R=0\); conversely, forcing \(R\ne0\) excludes an STCI presentation for the chosen pair. Exceptional vertical curves do not automatically imply residual components downstairs.
-
-Possible complementary viewpoints are: (a) generic filtered transverse algebras and full initial ideals; (b) global realization by normal jets and homogeneous equations; (c) Rees algebras, successive blowups, exceptional and residual intersection cycles; (d) carrier geometry, normalization, and conductor descent. None is a required first step. Work on one level can be valuable even before it forces a residual component.
-
-The historical quartic jet-discrepancy framework is now summarized in [order-one structure](results/order_one.md), with the surviving higher-degree question in [jet-condition framework](open/jet_condition_framework.md). It does not identify the R-0030 equation-module comparison defect with the maximal-rank defect of ambient jet maps. The original symbolic calculations remain evidence, not newly rerun certificates.
-
-The existing frontier offers several **nonexclusive** entry points: [jet dependence/discrepancy](FRONTIER.md), [entirely-thick successive transforms](results/entirely_thick.md), [root and formal-lifting questions](results/INDEX.md), and [fixed-carrier projection/conductor questions](questions/cartier_projection_models.md). Agents should choose or combine them based on potential mathematical leverage, not the number of existing records, convenience of case-splitting, or a mandated strategy. The possible Hilbert-function approach is one hypothesis to evaluate, not an adopted priority. New ideas outside these lanes are welcome if their assumptions and relationship to the original problem are explicit.
-
-## What to ignore by default
-
-- Historical handoffs and dated state snapshots when determining *current* theorem status.
-- Legacy quartic B1/B2/B3/D mate cases as open cases: [STCI-R-0001](results/quartic_carrier_exclusion.md) closed them for the fixed curve.
-- Individual validation logs or scratch outputs unless a canonical result, a reproducibility question, or an active computation points to them.
-- New synthesis/audit notes as proof authority. They can clarify interfaces but cannot promote results.
-- Generalization notes for other curves/characteristics when the immediate goal is the fixed characteristic-zero C0, unless a specific theorem transfer is justified.
-
-## How to find evidence efficiently
-
-**Question -> canonical record -> exact cited proof/acceptance -> independent audit -> certificate/computation (only if necessary).**
-
-1. Find the ID in [results/INDEX.md](results/INDEX.md) or the tracked [question STCI-Q-0001](questions/cartier_projection_models.md).
-2. Read the result's YAML scope, hypotheses, evidence, audits, and limitations *before* the exposition.
-3. Follow the evidence links in that record; many point to preserved historical notes. Consult [research notes](notes/) only when the record lacks a direct path.
-4. For exact computations use the [certificate map](certificates/README.md), [computation guide](computations/README.md), and [validation evidence](validation/). Do not infer a certificate from an output filename.
-5. If a note conflicts with a canonical result, apply [AUTHORITY.md](AUTHORITY.md); record the discrepancy rather than silently broadening the theorem.
-
-## Completion test for future work
-
-A new research contribution should answer at least one of: **(i)** exclude a genuinely surviving class of actual STCI presentations; **(ii)** establish a new general geometric constraint with explicit hypotheses and proof; **(iii)** compute a previously unresolved necessary/sufficient test for an actual candidate family; **(iv)** repair a substantive gap in an accepted proof. A restatement, inventory, or new notation alone does not meet this bar.
-
-This guide ranks relevance and directs reading; it does not claim exhaustive dependency tracing across every historical file.
+For a claim, retrieve its exact statement and proof, then its necessary
+computation. Reuse review of unchanged inputs. Independently review material
+new deductions, changed proofs and consequential preservation decisions.
+Retain useful mathematics and compact support, not a new administrative
+hierarchy. Follow [authority](AUTHORITY.md) and [contribution](CONTRIBUTING_AGENT.md)
+rules for status and promotion.

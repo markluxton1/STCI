@@ -1,23 +1,10 @@
-# Nonendpoint single-root incidence
+# Nonendpoint single-root incidence and actual quotient fibers
 
-Complete mathematical arguments and exact incidence calculations, with all hypotheses and limitations retained.
+Fix the embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), an algebraically closed characteristic-zero field, and the accepted anticanonical degree-five A4 pair \((S,c)\). Retain arbitrary \(\delta\ne0\), the four lift parameters \(a,b,g,d\), and an actual line center disjoint from \(S\), giving a finite birational projection \(\nu:S\to X\) onto an integral quintic. The restriction \(c\to C_0\) is an isomorphism. A hypothetical mate forces **full** reduced inverse support \((\nu^{-1}C_0)_{red}=c\), denoted SUP; it excludes isolated extra inverse points as well as extra curves. The proofs below concern this exact family, not every quintic carrier. The intrinsic pair is proved in [the A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md); actual projection coordinates and every target boundary are in [the target-fiber chapter](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md). The common-root reductions below are necessary conditions and specified branch exclusions; they do not exhaust the full conductor incidence. L1 and L2 arise from different actual maps, and inverse-denominator/degree-drop boundaries are retained.
 
----
+<a id="2026-10-13-session-nonendpoint-regular-l1-double-root"></a>
 
-## 2026-10-13-session-nonendpoint-regular-l1-double-root
-
-# The regular L1 rational branch has an exact double conductor root
-
-Date: 2026-10-13. Author: `oct12_restricted_conductor_section/residual_norm_identity`.
-
-Status: **DIRECT EXACT DOUBLE-ROOT IDENTITY FOR A SPECIFIED FAMILY;
-INDEPENDENT AUDIT REQUESTED**. The actual-conductor identification is
-inherited from the
-[independent module audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#4-conductor-quadric-module-independent-audit).
-The separate quotient-fiber argument owns the claim that this rational
-family is the surviving regular L1 branch under full inverse support.
-No full common-root incidence exhaustion or global STCI result is claimed.
-All older sources and notes remain unchanged.
+## The regular L1 double conductor root
 
 Use the finite common-root parameters and exact coefficients of the
 [Taylor incidence note](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence):
@@ -44,7 +31,7 @@ does not vanish: on (1),
       =-delta^2 Pc/[3(q-1)(q-2)]!=0,
     Z(q)=q Pc U!=0.                                (3)
 
-Exact substitution into the two frozen coefficient polynomials gives
+Exact substitution into the two exact coefficient polynomials gives
 
     u0=0,
     u1=(q-2)^4 Pc^12/[9q^8(q-1)^8]!=0.              (4)
@@ -66,40 +53,12 @@ every regular L1 case also requires the separately justified quotient-
 fiber necessity of (1), including its degree-drop case; that proof is
 not replaced by this computation.
 
-The [three-check source](../computations/verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2)
-reads only the frozen u0,u1 polynomial artifacts and verifies both
-identities (4) and the exact fiber-rank expression (3). It does not replay
-the fifteen-check determinant source, the endpoint proof or the complete
-Taylor expansion. Its
-[20261013T142957009441Z captured run](../validation/2026-10-13-nonendpoint-regular-l1-taylor-branch/20261013T142957009441Z/execution-record.json)
-has three supporting checks, a completion marker, exit zero and empty
-stderr. Source SHA-256 is
-`b223eb5e4e063bbbe3273ac4b82a2e98317412b5c92149fa692218180e217074`.
 
-The earlier exploratory source evaluated u1,u2,u3,u7. It found (4),
-and merely found the remaining displayed coefficients to be linear in
-a after the same branch substitution. They are unnecessary for the
-double-root obstruction and are retained as exploratory continuation
-artifacts. That execution is not a parameter-space exhaustion.
+<a id="2026-10-13-session-nonendpoint-single-root-quotient-fibers"></a>
 
+## The two quotient fibers and the diagonal exception
 
----
-
-## 2026-10-13-session-nonendpoint-single-root-quotient-fibers
-
-# Actual quotient fibers separate the two first Taylor factors
-
-Date: 2026-10-13. Author: `oct12_restricted_conductor_section`.
-
-Status: **EXACT QUOTIENT IDENTITIES AND A STRUCTURAL NECESSARY BRANCH
-REDUCTION; INDEPENDENT AUDIT REQUESTED**. This note uses the actual
-nonendpoint genus-one quintic A4 model and the
-[audited conductor theorem](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#4-conductor-quadric-module-independent-audit).
-It does not assert parameter-space exhaustion, a first-normal bound on
-higher contact, a global quintic exclusion, or a universal STCI result.
-All earlier frozen sources, notes and canonical records are unchanged.
-
-## 1. Hypotheses and inherited actual fiber system
+### 1. Hypotheses and inherited actual fiber system
 
 Work over an algebraically closed field of characteristic zero. Retain
 `delta!=0`, the actual center-avoidance condition and finite birational
@@ -145,7 +104,7 @@ The intrinsic A4 target `q=0`, target infinity and the entire `Z(q)=0`
 locus remain outside (1); they are not removed by saturation or declared
 empty. The denominator-free original fiber equations govern them.
 
-## 2. A linear/quadratic quotient and its normalized common-root norm
+### 2. A linear/quadratic quotient and its normalized common-root norm
 
 Write
 
@@ -203,7 +162,7 @@ are
 This does not prohibit doubled or tripled source fibers supported on c.
 It only excludes the alternative actual point outside c.
 
-## 3. Solving the allowed diagonal exception without losing P6=0
+### 3. Solving the allowed diagonal exception without losing P6=0
 
 Set
 
@@ -262,7 +221,7 @@ If J vanishes or further common roots occur, an allowed contribution
 elsewhere remains possible and this support-concentration exclusion
 does not apply.
 
-## 4. L2 is a different, diagonal Jacobian factor
+### 4. L2 is a different, diagonal Jacobian factor
 
 With G,J fixed at Gs,Js for the projection under consideration, take
 partial derivatives in the variable target p, not in the parameter q.
@@ -288,75 +247,21 @@ L2 governs this diagonal wedge through (11). Their roles are different.
 Vanishing of the wedge is not claimed to bound a later contact order
 or to classify the whole remaining fiber. On the sole-common-root,
 `J!=0` support problem, removal of regular L1 leaves `L2=0` with all
-seven exact Taylor vanishing conditions still required. That incidence
-is open.
+seven exact Taylor vanishing conditions still required. The reviewed geometric bridge at the end of this chapter excludes its regular L1!=0, L2=0, qZ(q)!=0 sole-root sublocus; it does not solve the entire incidence.
 
 At `q=1`, the separate Taylor identity `F'(1)=-delta^7` already gives
-an exact simple root without requiring (1). At `q=2`, the regular L1
-quotient exception is impossible by S, but the L2 branch remains.
+an exact simple root without requiring (1). At `q=2`, the regular L1 quotient exception is impossible by S; the L2 branch is covered by the exact two-embedding field calculation in the reviewed bridge.
 When `Pc=0`, L1 is nonzero but `Z(q)=0`; (2)--(11) are not used to
 replace the denominator-free fiber equations on that stratum. The
 other `Z(q)=0` component `U=0`, intrinsic A4 point and target infinity
-likewise remain separately recorded. These open cases, J=0 and higher
-homogeneous gcd degree prevent a whole-locus conclusion.
-
-## 5. Evidence and continuation bindings
-
-The [eleven-check source](../computations/verify_session_nonendpoint_single_root_quotient_2026_10_13.m2)
-has SHA-256
-`52a9c7d479505b7d92e5aeb52e939cf2d6c88049b138eee96ec1651159bd1133`.
-It loads the frozen actual conductor polynomial, constructs the
-target-fiber pair and proves (2)--(4), (6)--(8), (11), as well as the
-literal first Taylor factorization. Its
-[20261013T142805543474Z captured execution](../validation/2026-10-13-nonendpoint-single-root-quotient/20261013T142805543474Z/execution-record.json)
-has eleven supporting passes, a completion marker, exit zero and empty
-stderr. Captured stdout SHA-256 is
-`3b1174f808e02d235b6a14b7e0b2f82e9a4f6b1f257e33adab97d8177c485a68`.
-It performs rational identities on the explicitly retained unit charts;
-it contains no Gröbner parameter elimination or numerical sampling.
-
-The exploratory predecessor has two source-version captures: the first
-`20261013T142200484073Z` passed one identity before the protected M2 name
-`poly` stopped execution; the renamed `quotientRing` version
-`20261013T142216997848Z` passed four assertions and printed formulas.
-Both source snapshots and raw outputs are retained in the same
-validation lineage. The later eleven-check source is separate. The
-fifteen-check norm, audited determinant and earlier endpoint sources
-were not replayed or edited.
-
-The branch necessity proved here binds the separate three-check
-double-root source SHA-256
-`b223eb5e4e063bbbe3273ac4b82a2e98317412b5c92149fa692218180e217074`,
-its [20261013T142957009441Z execution](../validation/2026-10-13-nonendpoint-regular-l1-taylor-branch/20261013T142957009441Z/execution-record.json),
-and owner note SHA-256
-`01e8314753a1e3e058427d0d474a307c150153170862c74021193d2ca4151a03`.
-That source proves (10) directly from frozen coefficient artifacts.
-
-The highest-value continuation is the remaining regular L2 incidence:
-reduce the next actual Taylor coefficients modulo its compact quadratic
-in kappa while retaining coefficient drops, actual center admissibility,
-the homogeneous sole-root condition and q=1,2 boundaries. No first-jet
-argument should replace the actual higher coefficients. The Z=0 and
-multi-root/J=0 support incidences require their own original fiber data.
+likewise retain their separate exact fiber equations. The Z=0 boundary, J=0 and higher homogeneous gcd degree prevent a whole-locus conclusion.
 
 
----
+<a id="2026-10-13-session-nonendpoint-single-root-taylor-incidence"></a>
 
-## 2026-10-13-session-nonendpoint-single-root-taylor-incidence
+## All Taylor coefficients and the target-zero stratum
 
-# A finite common-root Taylor incidence and a simple-root exclusion
-
-Date: 2026-10-13; computation began 2026-10-12.
-Author: `oct12_restricted_conductor_section/residual_norm_identity`.
-
-Status: **DIRECT EXACT COEFFICIENT REDUCTION; INDEPENDENT AUDIT REQUESTED**.
-The geometric use below depends on the
-[audited actual conductor quadric](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#4-conductor-quadric-module-independent-audit).
-This is a necessary incidence, not an exhaustion, a sufficient condition,
-or an all-quintic theorem. Delta remains a genuine parameter. Older norm,
-determinant, endpoint, captured and canonical records are unchanged.
-
-## 1. Exact finite common-root parameters
+### 1. Exact finite common-root parameters
 
 Use `B=b-a`, `G=g-3b+2a`, `J=d-2g+2b-a`, with `delta!=0`,
 in characteristic zero. The conormal polynomials in the target coordinate
@@ -398,9 +303,9 @@ The exceptional strata `Pq=0` and `U=0` are explicitly retained. On
 fiber equation on the diagonal is `qT^2=0`; the doubled source fiber
 is allowed by full inverse support. It is not removed by saturation.
 
-## 2. All eight exact Taylor coefficients and the seven necessary equations
+### 2. All eight exact Taylor coefficients and the seven necessary equations
 
-Let `F(p)` be the frozen primitive conductor polynomial of degree at most
+Let `F(p)` be the exact primitive conductor polynomial of degree at most
 eight, defined by the compact norm identity and identified with the
 actual conductor restriction by the separate module audit. Write
 
@@ -417,7 +322,7 @@ where the compact, complete definition of the eight polynomials is
     u_i=sum_(n=i+1)^8 binomial(n,i+1)q^(n-i-1)
                          f_n(delta,a,B,Gs,Js), i=0,...,7.  (4)
 
-The captured checker verifies the automatic factor and the reconstruction
+The exact checker verifies the automatic factor and the reconstruction
 by all eight extracted coefficients. Expanded polynomial artifacts
 `u0,...,u7` are preserved with individual hashes in the successful
 [coefficient capture](../validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/coefficient-artifacts.json).
@@ -443,7 +348,7 @@ or parameter-space exhaustion of (5) is asserted here. The upper
 coefficients u7,u6,u5 have no generic nonconstant factor in the initial
 exact factor output; that observation supplies no exclusion on its own.
 
-## 3. A compact first-coefficient factorization
+### 3. A compact first-coefficient factorization
 
 The first of (5) has a much smaller structural expression:
 
@@ -486,7 +391,7 @@ in the supplemental capture. In grouped form it is
                 +(36delta^3+396delta^2+504delta)kappa
                 -(144delta+252)kappa^2.             (8)
 
-## 4. The target-z=0 common-root stratum has a simple conductor zero
+### 4. The target-z=0 common-root stratum has a simple conductor zero
 
 At `q=1`, equations (3) and (6) give the universal exact identities
 
@@ -505,35 +410,139 @@ eight. This excludes the stated single-root subfamily in every mate
 degree. It does not exclude the same q=1 incidence with another common
 root or with an allowed A4 contribution when J=0.
 
-## 5. Evidence inventory and failure shields
 
-There are two separate source lineages; neither is a global incidence
-solver or an independent proof of the conductor module theorem.
+## Exact support and characteristic scope
 
-The [eight-check source](../computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2)
-has final SHA-256 `b5bd8a304dbc5acc6767e364088e25deac1af89d78766f38263c6bb8441dfbc1`.
-Its captured [20261013T142033115594Z execution](../validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/execution-record.json)
-passed eight supporting identities plus a completion marker, exit zero,
-empty stderr. The earlier 20261012T213559186745Z execution passed only
-the first two identities before M2 rejected `sum` on a Sequence; its
-actual failed source and raw outputs are retained. Converting the
-sequence to a list repaired the interface. A separate exploratory
-20261012T213307390552Z capture expanded and factored all coefficients
-successfully but did not contain the eight-check assertions.
+The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2](../computations/verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2), [verify_session_nonendpoint_single_root_quotient_2026_10_13.m2](../computations/verify_session_nonendpoint_single_root_quotient_2026_10_13.m2), [verify_session_nonendpoint_single_root_taylor_2026_10_12.m2](../computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2), [verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2](../computations/verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2). No inherited computation was rerun for this consolidation.
 
-The [four-check compact-factor source](../computations/verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2)
-has final SHA-256 `7ee03582fa3836ae08ed3020e4b21f31b77e641c4e210a0307353853d34f01fb`.
-Its captured [20261013T142344895262Z execution](../validation/2026-10-13-nonendpoint-single-root-first-coefficient/20261013T142344895262Z/execution-record.json)
-passed four identities plus a completion marker, exit zero, empty stderr.
-The earlier 20261013T142251479590Z source lacked parentheses around
-the multiline L2 expression. M2 completed the first-line assignment
-and evaluated the later lines separately, causing the first assertion
-to fail. That source and raw failure remain captured. A diagnostic
-execution printed the missing lower coefficients; its retained source
-is debugging history, with no original raw-output disk certificate.
-Parenthesizing the complete expression repaired this parse error.
+These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
 
-The endpoint and fifteen-check norm proofs were not replayed. No
-parameter-stratum exhaustion, global nonendpoint exclusion, upper degree
-bound, first-normal bound on higher contact, or universal STCI claim
-is drawn from these coefficient checks.
+
+## Reviewed geometric bridges for the regular sole-root branches
+
+In the following inherited bridge notation, \(d=\delta\) is the nonzero modulus (not the fourth lift parameter), \(k=\kappa\), and \(f_i=[t^i]F(q+t)\). Thus \(f_1=u_0\), \(f_2=u_1\), and generally \(f_i=u_{i-1}\). The full regular-L2 source uses this local notation; the preceding sections retain the four lift parameters \(a,b,g,d\) and write the modulus as \(\delta\).
+
+
+The preceding direct exact coefficient reductions do not solve a full parameter incidence. The following independent geometric arguments supply the additional full-support implications on the stated regular sole-root charts; other L2, Z=0, multi-root and Jbar-zero situations retain their explicit boundaries.
+
+## 7. Regular L2: geometric elimination cover and retained exceptional loci
+
+The owner L2 theorem asserts that, on the accepted finite common-root
+incidence and regular chart `qZ(q)!=0`, with `L1!=0,L2=0`, the actual
+Taylor coefficients f2,f3,f4,f5 cannot all vanish. Here
+
+    Pc=q^2-6q+6, U=q(k-d)-d^2,
+    D=2d(q-1)+q(q-2), E=d^2+d(3q-4)+q(q-2),
+    Z(q)=q Pc U.
+
+The exact coefficient identity
+`partial_a f2=-(dq/2)L1 partial_k L2 (mod L2)` justifies solving for a
+only where the L2 root is simple and L1 is nonzero. No original fiber
+leading coefficient or unstated center parameter is divided out.
+
+The finite cover is complete. q=1 is impossible because L2=d^5. q=2 is
+handled by its two-embedding quadratic-field cover. Away from q=1,2,
+the D=0 boundary makes L2 genuinely linear in k and is handled separately.
+On D!=0, a discriminant-zero root has the displayed L1=0 value and lies
+outside the new L1!=0 theorem. The remaining points have the algebraic
+coordinate m in [the complete owner cover equations](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-13-generalization-quintic-l2). Both signs are covered because
+the inverse formula determines m from the actual k; no chosen square-root
+branch is lost. All rational-cover denominators are units under d,q,Pc,
+q-1,q-2,D nonzero and m^2!=3.
+
+The audit initially flagged the extra polynomial H removed from the f3
+numerator. The owner now records the exact identity
+
+    L1=-3m(q-2)Pc^2 H/
+      [q^2(q-1)(m^2-3)^2(qm+3q-6)].
+
+Consequently m and H are units on the retained L1!=0 chart. This repairs
+the proof gap that would arise from removing H without this identity.
+The three normalizations of f3,f4,f5 therefore preserve every candidate.
+A common finite m root forces both fixed-degree resultants R34,R35 to
+vanish. This implication is valid even when their m-leading degrees drop;
+no converse resultant implication is being used.
+
+The completed literal original-resultant witness combines R34,R35 to
+`q^53(q-2)^44 Pc^69`, a unit on this chart. The completed D=0 witness
+combines the original f3,f4 numerators to q^4. On D=0 the displayed a
+coefficient can vanish only when L1 does, by the same derivative identity;
+its additional quartic V is therefore not a missing a-solve stratum.
+At q=2 the owner gives an original five-generator witness, over the exact
+field QQ(mu), mu^2=3, for f2,f3,f4,f5 together with
+`1-z*d*(d+2mu/3)`. Both embeddings apply to the characteristic-zero
+algebraically closed ground field, so the two L2 roots are retained.
+The inverse equation imposes precisely the stated d,L1 units.
+
+The exact original-generator witnesses are retained in the [complete regular-L2 proof](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-13-generalization-quintic-l2). Its inputs, targets and coefficient columns are necessary support; a recorded gcd or saturated ideal printout alone is insufficient. The inherited independent review inspected their construction without presenting that as a fresh execution.
+
+**Audit conclusion: the local regular-L2 theorem and its all-mate
+single-root consequence are proved by the displayed cover and completed
+literal owner certificates, within their precise scope.** The latter
+consequence additionally needs Jbar nonzero and q to be the sole common
+homogeneous conormal root. Then full support concentrates the actual
+nonzero degree-eight binary section at q, forcing order eight, while
+nonvanishing of at least one of f2 through f5 gives order at most five.
+The regular-L1 geometric bridge is reviewed explicitly in section 8.
+
+This does not prove an order bound on Z=0, target infinity, q=0, Jbar=0,
+or the excluded L1 branch. It does not exclude several support points
+sharing conductor degree eight. All those distinctions survive handoff.
+
+The independent audit additionally verifies nine small rational-cover
+identities directly, without loading F or an inherited source. They
+include the compact discriminant, the cover equation and inverse, the
+L1/H identity, the D factor, and the D=0 solve. On D=0 the exact relation
+is `L1=-q(q-2)V/[8(q-1)]`, confirming directly that V=0 is the already
+excluded L1=0 boundary. The original full L2 discriminant at q=2 is
+48d^6; the normalized quadratic after removing 2d has discriminant 12d^4.
+Either is nonzero for d nonzero. This clarifies an exponent slip in the
+owner note without changing its conclusion. The [small rational-cover identity source](../validation/2026-10-14-quintic-independent-audit/l2-cover-algebra.m2) supplies the exact cover controls. The full original-generator Bezout witnesses remain in the linked owner proof; this small check does not replace them.
+
+## 8. Independent review of the existing regular-L1 geometric bridge
+
+The quotient-fiber identities above combine with the following finite-point reconstruction to prove the regular-L1 support implication. The exact coefficient check and double-root identity are inherited evidence, not fresh computations.
+
+On `qZ(q)!=0`, the actual finite normalization-point reconstruction in
+the accepted fiber model applies to common quotient roots. Put
+`rho=d/q`. After removing the diagonal factors, the exact linear and
+quadratic quotients are L and Q, with normalized quotient norm
+
+    OffNorm=d^2 q^5 U^2 L1.
+
+When Aq!=0, L is a genuine linear polynomial. On L1=0 its unique finite
+root also solves Q. When Aq=0, the accepted cubic's quadratic coefficient
+is `-q[3d^2q(2-q)]^2`, nonzero on this chart. Thus Q after diagonal
+division is a genuine linear polynomial. Its leading coefficient is
+nonzero, and OffNorm=0 forces the constant L to vanish identically; Q
+still has a finite common root. This retains the leading drop rather
+than mistaking a fixed-degree resultant factor Aq for a point.
+
+Full inverse support forces every such root to equal rho; an off-diagonal
+root reconstructs an actual normalization point outside c. It follows
+that `L(rho)=Q(rho)=0`. A doubled or tripled fiber supported at rho is
+allowed at this stage and is not excluded by saturation.
+
+The exact equation `L(rho)=dq*S=0` excludes q=1,2 and gives
+`k=d+d^2(2q-3)/[3(q-1)(q-2)]`. The exact Q(rho) equation then forces
+
+    d=Pc(q-2)/[q(q-1)].
+
+That last equation is used even when `P6=q^2-3q+3` vanishes and Aq=0.
+The proof does not divide by P6, so this degree-drop component is retained.
+The actual-section identity on these precise parameters is
+
+    F(q+t)=f2*t^2+terms of degree at least three,
+    f2=(q-2)^4 Pc^12/[9q^8(q-1)^8] != 0.
+
+All factors in this expression are units under the stated chart and the
+just-derived exclusions q=1,2. If Jbar!=0 and q is the sole common
+homogeneous conormal root, the accepted support bridge requires the
+nonzero degree-eight conductor form to be concentrated at q, hence to
+have order eight. Its actual order two contradicts that requirement.
+
+**Audit conclusion: the regular-L1 all-mate exclusion is now independently
+accepted in exactly this sole-root, Jbar-nonzero, qZ-nonzero scope.** This
+supplies the previously pending geometric premise needed for section 7's
+combined regular sole-root theorem. No such conclusion is extended to
+Z=0, other conormal roots, or an allowed A4 contribution when Jbar=0.

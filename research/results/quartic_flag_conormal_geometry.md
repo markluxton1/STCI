@@ -8,16 +8,16 @@ scope:
   curve: "fixed marked rational quartic C0"
   hypotheses:
     - "The marked missing-middle-coefficient pairing and its incidence flag"
-statement: "The marked incidence is a smooth complete flag surface; degree-two divisor addition is finite flat of degree six; its conormal, contact, and dual geometry have the structures detailed below."
+statement: "The marked incidence is a smooth complete flag threefold; degree-two divisor addition is finite flat of degree six; its conormal, contact, and dual geometry have the structures detailed below."
 dependencies:
   - STCI-R-0020
 evidence:
-  - "research/notes/2026-10-24-quartic-flag-duality-synthesis.md"
-  - "research/notes/2026-10-24-quartic-flag-incidence.md"
+  - "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
+  - "research/supplements/QUARTIC_CONORMAL_AND_CONTACT.md"
   - "research/computations/quartic_flag_incidence_2026_10_24.json"
 independent_audits:
-  - "research/notes/2026-10-24-quartic-flag-duality-independent-audit.md"
-accepted_in: "research/PROMOTION_ADJUDICATION_CR15-20_2026-10-26.md"
+  - "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
+accepted_in: "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -55,6 +55,6 @@ A unified geometric model for marked factorization, conormal contacts, and duali
 ## Limitations
 Do not identify the conormal normalization with C0 inside its containing quadric, or infer an STCI obstruction from these incidence statements.
 
-## Permanent evidence navigation
+## Current proof
 
-The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/01-problem-and-curve.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
+[Divisor flags, secants and bitangent correspondences](../supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md), [Marked conormal normalization and higher contact](../supplements/QUARTIC_CONORMAL_AND_CONTACT.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

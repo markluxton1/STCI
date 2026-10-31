@@ -14,10 +14,10 @@ dependencies:
   - STCI-R-0002
   - STCI-R-0003
 evidence:
-  - "research/notes/2026-10-19-singleton-projection-investigation.md"
+  - "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
 independent_audits:
-  - "research/notes/2026-10-19-singleton-plane-projection-independent-audit.md"
-accepted_in: "research/RECONCILIATION_2026-10-21.md"
+  - "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
+accepted_in: "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -40,7 +40,7 @@ The specified birational open family gives finite normalizations P2 -> integral 
 
 The audit reconstructs basepoint freedom, finiteness, birationality, exact inverse support, the all-degree derivative contradiction, and the broader two-fixed-coordinate boundary case. The obstruction detects a first-order nilpotent conductor term invisible in reduced residue data. The general question STCI-Q-0001 remains open.
 
-Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above. Scope acceptance for this promotion is documented in [the reconciliation decision](../RECONCILIATION_2026-10-21.md); that decision does not replace the source proof.
+Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above.
 
 ## Limitations
 
@@ -48,6 +48,6 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - For nonbirational parameter values the image does not give an additional degree-sixteen normalization.
 - Reduced inverse support alone does not imply conductor descent.
 
-## Permanent evidence navigation
+## Current mathematical evidence
 
-The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/04-carriers.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

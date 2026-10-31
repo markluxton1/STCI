@@ -1,215 +1,73 @@
-# Normalization, conductor descent, and projection of singular carriers
+# Normalization, conductor descent, and projection geometry
 
-This dossier consolidates the **fixed-carrier** and **Cartier singleton-lift** questions for the rational quartic
+For the fixed embedded characteristic-zero quartic, a proposed normalization model, an actual projection, and a descending hypersurface section are three different objects. This account separates their tests and the related quintic and conditional sextic applications. [Canonical result records](../results/INDEX.md) determine theorem scope; the detailed proof homes below retain conditional and unpromoted mathematics without promoting it.
+
+## Fixed-carrier existence and the shared descent mechanism
+
+Let X be an integral Cohen–Macaulay projective surface, nu:S→X its finite normalization, L ample, and H=nu*L. Use the **entire** reduced inverse support W of C. Isolated points outside its curve components already forbid a mate. Otherwise, with W=⋃Gamma_i, the class relations form
+
+    Lambda=ker[Z^(s+1)→Cl\(S\)], (n_i,b)↦Σn_i[Gamma_i]-b[H].
+
+The [full proof of R-0003](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#4-an-exact-fixed-carrier-criterion-including-thick-support) associates to each relation its actual unit class at every generic conductor curve away from C. A mate exists exactly when a relation with every n_i>0 has torsion full-conductor class. Positivity enters the conductor over C after a sufficiently large power; purity of nu_*O_S/O_X extends **full** generic membership globally. An ambient hypersurface equation then lifts from the hypersurface sequence. This works in arbitrary characteristic and does not assume that reduced C defines an APic class in a generically singular carrier.
+
+The [local algebra](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md) proves the underlying mechanism and its limitations. Membership is in the fiber-product conductor ring, not merely a tensor equalizer. In characteristic zero, nilpotent logarithmic defects must vanish; the reduced phase can then have finite order. If each reduced upstairs algebra is a single field, its extension degree bounds a sufficient exponent. Split phases such as (1,zeta) have unbounded least orders even with two branches. A nonunit can behave differently; powers of t on a cusp enter its conductor. None of these statements computes an actual phase image.
+
+The relation cone offers both obstruction and construction. Its Hilbert basis has a full-support member sum exactly when the union of basis supports covers all inverse curves; an individual basis member can miss branches. Products from distinct global divisor directions can cancel opposite logarithmic defects, whereas powers along one fixed divisor ray cannot. See [the constructive cone application](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#constructive-use-of-the-descent-lattice).
+
+## Necessary Cartier singleton models and actual projection tests
+
+The [complete proof of R-0002](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#cartier-singleton-models-the-complete-proof) assumes an **actual mate**, full singleton inverse support c≅C, and Cartier c on normal S. Smooth Cartier c forces S regular along c; the mate makes c ample. Surface classification, adjunction and the Cartier restriction sequence make |c| a minimal-degree embedding. For rational C of degree d, c²=d²/deg X; the possibilities are plane, smooth scroll, or rational-normal cone models with the integral polarizations in R-0002.
+
+For the fixed quartic, after [R-0001](../results/quartic_carrier_exclusion.md), the higher-degree necessary models are
+
+| Carrier degree | S | c and H |
+| --- | --- | --- |
+| 8 | smooth quadric | c=(1,1), H=(2,2) |
+| 8 | quadric cone | smooth Cartier hyperplane conic c, H=2c |
+| 16 | plane | line c, H=O(4) |
+
+A listed model is not an actual carrier or a mate. Four sections must define a basepoint-free finite birational map to an integral hypersurface, have **full** inverse support c without isolated extras, and pass full conductor descent. Non-Cartier, multiple, and nonisomorphic inverse lifts are outside this classification.
+
+The [explicit projection proofs](../supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md) expose different failures. The plane map [s⁴:s³t:st³+z⁴:t⁴+s³z] is an actual finite degree-sixteen normalization with full inverse support z=0, but every positive mate degree is excluded by a polynomial derivative identity. The general two-fixed-coordinate sublane has the same obstruction. Its generic conductor residue is already trivial, while a nonzero first nilpotent jet survives every power. By contrast, the two actual smooth-quadric families have isolated inverse points, so fail before unit descent. The corrected quadric audit retains seven forced endpoint extras in the kappa family and the exact four-or-five extra points in the companion family. Neither argument exhausts the complete projection space.
+
+The [twisted-cubic corrected-square benchmark](../supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md) shows that characteristic-zero singular-carrier torsion can produce an actual homogeneous pair for a different curve. The abstract nodal pinching counterexample shows why local phase torsion alone can destroy the marked full-support requirement. These constructive and negative controls explain the missing geometry rather than presuming nonexistence for the quartic.
+
+## Projection phases, effective scope, and geometric scaling
+
+[R-0004](../results/projection_phase_reduction.md) works in a specified finite-type family of admissible Cartier-singleton projections. After stratification and a finite cover, full conductor descent is a torus torsion-phase test. Its proof keeps nilpotent equations, generic conductor components and excluded specialization boundaries. The actual phase images of the three quartic models remain uncomputed. Their on-C thresholds are 5,5,13; with phase order E, every positive multiple of E at least the relevant threshold is a mate degree, with any additional degrees confined to smaller multiples.
+
+The [torsion and rational-phase proofs](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md) distinguish a finite torsion-coset envelope from a constructible mate locus. For an explicitly presented rational constructible phase image W=⋃(Y_i−B_i), the effective method partitions supports into vanishing blocks, applies Mann's ratio bound P\(S\)=∏_{prime≤S}prime, and solves binomial systems by Smith normal form. With maximal translated support degree d and support size S in dimension D, isolated torsion orders are at most P\(S\)d^D; this is a bound, not a divisibility assertion. A common annihilating exponent may use P\(S\)lcm(1,...,d^D). Each coset must still be tested against the removed boundaries B_i. Positive-dimensional retained torsion cosets have unbounded orders. The [raw-input corollary](../supplements/EFFECTIVE_PROJECTION_PHASE_DECISION.md) first constructs actual admissible conductor/phase data; its termination theorem is not an executed fixed-model calculation.
+
+
+## Five-coordinate geometry of the phase
+
+For an admissible fixed-\(C_0\) Cartier-singleton projection \(S\to X\subset\mathbf P^3\), adjoining the primitive section \(Q\) to the four projection sections gives a finite image \(Y\subset\mathbf P^4\), with coordinates \([U_0:U_1:U_2:U_3:Q]\). Projection from the last-coordinate point is finite birational onto \(X\). The hyperplane \(Q=0\) pulls back to \(2c\) or \(4c\) in the three normalized models and has reduced support \(C_0\).
+
+For \(\zeta\in k^\times\), let \(T_\zeta\) scale only the fifth coordinate. If two conductor branches have identical \(U_i\) coordinates and primitive-section ratio \(\zeta\), their images lie in \(Y\cap T_\zeta\(Y\)\). A descending mate power requires the relevant constant ratios to be roots of unity **and** requires full nilpotent conductor descent. This is a geometric reformulation of the phase obstruction, not an exclusion. The hyperplane curve \(Q=0\) is common to these intersections for every \(\zeta\); a naive intersection-degree argument must first remove this forced component before counting additional branch curves. The fixed-degree affine split-conductor example below shows why phase orders cannot be bounded from finite presentation or smooth singleton inverse support alone. Any useful global bound must invoke the actual projective polarization, contact divisor, or differential/conductor budget. [Original five-coordinate formulation](../supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-ray-and-split-phase-model).
+
+
+## Actual projection coefficient spaces
+
+For the three primitive Cartier singleton models (smooth quadric, quadric cone, plane), the restriction kernels of the full section spaces to the fixed quartic have dimensions 4, 4, 10. Choosing lifts of the four fixed coordinate sections is an affine graph space of dimensions **16, 16, 40**, respectively, before equivalences. Basepoint freeness gives finiteness by ampleness, but birationality and **full inverse support** are additional conditions. For the graded section ring (B=\bigoplus_{b\ge0}H^0(S,bH)) and the four-section subring \(R\), the primitive ray section \(Q\) has a degree-\(b\) mate precisely when \(Q^b\in R_b\), with the prescribed normalization/support hypotheses. Source: [current proof](../supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-ray-and-split-phase-model).
+
+
+## Fixed-degree affine control with unbounded phase
+
+Let \(B=k[u,v]\), \(\lambda=\alpha+\beta\), \(\mu=\alpha\beta\), \(y=v^2-\lambda uv\), (h=y+\mu u^2=\(v-\alpha u\)\(v-\beta u\)), \(z=vh\), and \(A=k[u,y,z]=k[u,y]\oplus h k[u,y]v\). The carrier relation is \(z^2-\lambda uhz-yh^2=0\); the **entire conductor** is (hB). The quotients are \(A/hB=k[u]\) and (B/hB=k[u,v]/(\(v-\alpha u\)\(v-\beta u\))). For \(Q=v^q\), \(Q^n\in A\) exactly when \(\alpha^{qn}=\beta^{qn}\). Choosing \(\alpha/\beta\) of order \(N\) coprime to \(q\) forces least descent exponent \(N\). The inverse support of the indicated affine downstairs line is the smooth line \(v=0\). This disproves any algebra-only universal bound on phase order, **not** a projective fixed-\(C_0\) bound. Same source.
+
+
+## Opposite-ruling pairing and the sparse-family boundary
+
+On the smooth quadric with diagonal \(c\), the specified pairing ((x,0)\leftrightarrow(0,ax)), \(a\ne0,-1\), forces phase (a^{-2}) and permits the **full form within this pairing**
 \[
-C_0=\{[s^4:s^3t:st^3:t^4]\}\subset\mathbf P^3.
+U(x,y)=W_0+\frac{ax+y}{a+1}W_1+
+(a^2x^2+y^2-(a^2+1)xy)D+
+xy\bigl(xE+y(W_2-E)\bigr)+x^2y^2W_3,
 \]
-It is an explanatory investigation, **not a new theorem authority**. Exact scopes and proofs remain in the linked canonical records. This first batch directly compares R-0002, R-0003, R-0004, R-0017, R-0034–R-0036 and Q-0001; additional historical sources remain to be integrated.
+where \(D,E\in k^4\) are arbitrary. The sparse choice \(D=W_2,E=uW_2\) is finite but has extra inverse points mapping to ([0:0:0:1]): (\(\infty,-a^2/u\)) when \(u\ne0\), and ((-1/(1-u),\infty)) when \(u\ne1\). The boundary coefficient pairs of the full form are (a^2D+yE+y^2W_3) and (D+x(W_2-E)+x^2W_3), which can avoid these particular sparse-family defects. Thus only the **sparse family** is excluded. Sources: [current proof](../supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom), [current proof](../supplements/CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-quadric-opposite-ruling-phase-family-failure).
 
-## 1. Two logically different problems
 
-Fix an integral hypersurface \(X\subset\mathbf P^3\) containing \(C\), its finite normalization \(\nu:S\to X\), and \(H=\nu^*\mathcal O_X(1)\).
-
-**Fixed carrier:** Does there exist a homogeneous form \(G\) whose restriction to \(X\) has zero support precisely \(C\)? This is a problem of descending an upstairs section through the *actual conductor*, not merely finding a divisor class on \(S\).
-
-**Varying carrier:** Which normalizations \((S,H)\), inverse curves, and four-dimensional linear systems can actually produce such an \(X\)? Classification of numerical models is only necessary; it does not construct a projection, establish full inverse support, or solve conductor descent.
-
-The distinction is decisive: a formally possible \(bH\sim\sum n_i\Gamma_i\) need not arise from a section of \(\mathcal O_X(b)\).
-
-## 2. Full inverse support and the fixed-carrier criterion (R-0003)
-
-Let \(X\) be integral Cohen–Macaulay projective, \(L\) ample, \(S\) its finite normalization, \(H=\nu^*L\), and \(W=(\nu^{-1}C)_{\mathrm{red}}\). An isolated inverse-image point outside the curve components of \(W\) already prevents a section with zero support exactly \(C\): its pullback would have a zero at an isolated point, whereas a nonzero Cartier section on the normal surface has pure codimension-one zero support.
-
-Assume instead \(W=\Gamma_1\cup\cdots\cup\Gamma_s\), with no such isolated points. The candidate divisor classes form
-\[
-\Lambda=\ker\bigl[\mathbf Z^{s+1}\longrightarrow\mathrm{Cl}(S)\bigr],
-\quad
-(n_1,\ldots,n_s,b)\mapsto\sum n_i[\Gamma_i]-b[H].
-\]
-A lattice point determines a rational upstairs section with prescribed divisor. At each generic conductor curve away from \(C\), descent is controlled by the **full unit quotient** \(B_\eta^*/A_\eta^*\), not merely its reduced residue-field quotient. Write \(\Lambda_{\mathrm{desc}}\) for the kernel of the conductor-unit map after quotienting its target by torsion.
-
-**Established fixed-carrier criterion (R-0003).** A positive power of \(L\) has a section with zero support exactly \(C\) if and only if \(\Lambda_{\mathrm{desc}}\) contains a vector with every \(n_i>0\). For a hypersurface of \(\mathbf P^3\), such sections lift to homogeneous forms.
-
-**Why sufficiency is nontrivial.** The lattice relation constructs the upstairs divisor; torsion of off-\(C\) conductor classes allows a common power to descend there. Positivity along every inverse branch allows a further power to enter the actual conductor along \(C\). The normality/depth hypotheses are then used to pass from generic conductor control to global descent. Omitting either the nilpotent conductor units or the full inverse support breaks this argument.
-
-In the singleton, generically regular case set \(a=H^2\), \(c=H\cdot\Gamma\), \(g=\gcd(a,c)\). If \(t\) is the order of \((a/g)[\Gamma]-(c/g)[H]\) and \(E\) the full conductor-unit order of the primitive upstairs section, a mate exists exactly when both orders are finite; its degrees are positive multiples of \(tEc/g\). This formula is **not** available without the singleton and generic-regularity hypotheses.
-
-[Canonical R-0003](../results/fixed_carrier_conductor_criterion.md) · [source proof](../notes/2026-10-13-generalization-conductor-theorem.md)
-
-## 3. Cartier singleton classification: necessity, not existence (R-0002)
-
-Suppose characteristic zero, \(C\subset\mathbf P^3\) is smooth rational of degree \(d\), an **actual** STCI mate exists on integral \(X\) of degree \(a\), and the full reduced inverse support is a single smooth curve \(c\) mapping isomorphically to \(C\). Require \(c\) Cartier on \(S\). The mate yields \(mc\sim bH\), so \(c\) is ample and
-\[
-c^2=d^2/a.
-\]
-Regularity along the Cartier smooth curve, adjunction, surface classification, and the Cartier restriction sequence give \(h^0(S,\mathcal O_S(c))=c^2+2\) and a basepoint-free system. Thus \(|c|\) identifies \(S\) with a normal minimal-degree surface. The possibilities are:
-
-| Normalization and inverse curve | Polarization \(H\) | Degree \(a\) |
-|---|---|---|
-| \(\mathbf P^2\), line | \(\mathcal O(d)\) | \(d^2\) |
-| \(\mathbf P^2\), conic (\(d\) even) | \(\mathcal O(d/2)\) | \(d^2/4\) |
-| Smooth scroll of degree \(n\ge2\), hyperplane section, \(n\mid d\) | \((d/n)c\) | \(d^2/n\) |
-| Rational-normal cone of degree \(n\ge2\), smooth Cartier hyperplane section, \(n\mid d\) | \((d/n)c\) | \(d^2/n\) |
-
-For \(d=4\), the integral-quartic exclusion R-0001 removes the degree-four cases. Three **necessary** higher-degree possibilities survive: a degree-eight smooth quadric \((c,H)=((1,1),(2,2))\); a degree-eight quadric cone with \(H=2c\); and a degree-sixteen plane with \(c\) a line, \(H=\mathcal O(4)\). None is thereby shown realizable.
-
-Non-Cartier inverse curves, multiple inverse branches, and higher-degree maps \(c\to C\) are not classified by this theorem.
-
-[Canonical R-0002](../results/cartier_singleton_lift.md) · [open Q-0001](../questions/cartier_projection_models.md)
-
-## 4. Projection admissibility and full conductor phase (R-0004)
-
-A four-section subsystem of \(H^0(S,H)\) must first be basepoint-free and induce a **finite birational** map to an integral hypersurface. Next the full reduced inverse support of \(C\) must be precisely \(c\), with no isolated extra points. Only then is the fixed-carrier conductor question applicable.
-
-In characteristic zero, for a fixed normal \(S\), smooth ample Cartier \(c\), a section \(Q\in H^0(S,H)\) with \(\mathrm{div}(Q)=mc\), and a finite-type family of four-section projections restricting to the fixed embedded curve, R-0004 gives a finite stratification and finite surjective cover \(Z\to T_0\) with a phase morphism
-\[
-z:Z\to(\mathbf G_m)^D.
-\]
-An admissible carrier has a mate precisely when its **full-conductor** phase tuple is torsion. Finite Artinian calculations keep nilpotent conductor equations; flattening and monic normalization equations prevent loss of generic conductor components on specialization. The torsion image has a finite torsion-coset envelope, but the mate locus need not be constructible.
-
-For the three quartic singleton families, the on-curve conductor thresholds are respectively \(M=5,5,13\). If the phase order is \(E\), every positive multiple of \(E\) at least \(M\) is a mate degree; any additional mate degrees must be smaller multiples. The actual admissible phase images and torsion cosets **have not been computed**. A finite-type reduction is not a completed elimination.
-
-[Canonical R-0004](../results/projection_phase_reduction.md)
-
-## 5. Explicit negative example: degree-sixteen plane projection (R-0017)
-
-Consider the four quartics on \(\mathbf P^2\) with coordinates \([s:t:z]\):
-\[
-[s^4:s^3t:st^3+\alpha z^4:t^4+zP_3(s,t,z)],\qquad \alpha\ne0.
-\]
-For the stated birational open condition (the \(A_3\) or \(C_1\) coefficient of \(P_3\) nonzero), the map is basepoint-free, finite birational onto an integral degree-sixteen surface, and has full reduced inverse support of \(C_0\) exactly \(z=0\).
-
-**Nevertheless, no positive-degree homogeneous mate exists for this family.** The all-degree derivative contradiction detects a first-order nilpotent conductor obstruction invisible in the reduced inverse support. A broader two-fixed-coordinate full-singleton sublane has the same exclusion.
-
-This refutes the implication “singleton reduced inverse support + a suitable upstairs divisor implies a mate.” It does **not** eliminate all degree-sixteen plane projections, much less all Cartier singleton models. The exact derivative calculation and its assumptions remain in the source proof and independent reconstruction.
-
-[Canonical R-0017](../results/singleton_plane_conductor_descent.md) · [underlying calculation](../notes/2026-10-19-singleton-projection-investigation.md)
-
-## 6. Normal carrier indices and socle compatibility (R-0034–R-0036)
-
-These are **different** restrictions from the preceding nonnormal-conductor problem.
-
-**Local Cartier index (R-0034).** For a normal integral carrier, an actual mate with divisor \(nC\), actual local Cartier index \(r\mid n\), \(k=n/r\), and a curvilinear generic transverse complete intersection, the pointwise top ordinary-power socle defects satisfy
-\[
-D_{n,P}=(k-1)A_{F,P}+kD_{r,P},
-\qquad
-2\sum_i\operatorname{length}(T_i)_P=nD_{n,P}.
-\]
-The *actual local Cartier index* cannot be replaced by surface multiplicity. The equations impose compatibility, not an unconditional exclusion.
-
-**Bounded-index exclusion (R-0035).** In characteristic zero, for the fixed \(C_0\), a normal integral hypersurface carrier satisfying the inherited normal-carrier torsion reduction and quadratic-direction obstruction and with every actual on-curve Cartier index at most four cannot admit a mate in any degree. Indices six, twelve and higher, and nonnormal or entirely-thick presentations, are not excluded by this result.
-
-**Pointwise conductor–socle identity (R-0036).** In characteristic zero, for an actual supported complete intersection, integral carrier generically regular along \(C\), full singleton smooth Cartier inverse curve \(c\cong C\), normalization smooth along \(c\), and invertible conductor \(\mathcal O(-B)\) without a \(c\)-component, the transverse differential zero divisor \(A\) and the top socle defect satisfy
-\[
-D_n=(n-1)A-B|_c.
-\]
-This is an equality of actual divisors, not just degrees. It is not established for multiple branches, non-Cartier lifts, singular normalization along \(c\), or a generically singular carrier; its Jacobian proof does not automatically extend to characteristic dividing \(n\).
-
-[Local index R-0034](../results/normal_carrier_index_socle.md) · [bounded index R-0035](../results/normal_carrier_bounded_index_exclusion.md) · [pointwise identity R-0036](../results/pointwise_conductor_socle_defect.md)
-
-## 7. What the methods do and do not prove
-
-- **Numerical equivalence upstairs** gives candidate divisors, not descent.
-- **Reduced conductor residues** can miss nilpotent first-order obstructions; R-0017 provides an actual failure.
-- **Finite-type phase reduction** does not calculate admissible phase images or torsion cosets.
-- **A normal bounded-index exclusion** cannot be extended to all nonnormal carriers or arbitrary indices.
-- **A smooth singleton Cartier lift** is a strong hypothesis, not an automatic consequence of STCI.
-- **Generic formal or function-field equations** are not necessarily global homogeneous equations. The separate finite normal-jet/global-coefficient investigation supplies the appropriate realization tests and counterexamples; its full content belongs in another dossier.
-
-## 8. Concrete frontier
-
-1. For each of the degree-eight smooth quadric, degree-eight cone, and degree-sixteen plane models, parameterize admissible four-section projections; test basepoints, finiteness, birationality, and **full** inverse support before computing phases.
-2. Compute actual conductor algebras (including nilpotent structure) and phase maps on each admissible stratum. Determine whether their images contain torsion points, not just whether the ambient torus does.
-3. Extend the fixed-carrier analysis to non-Cartier inverse curves, multiple branches, and nonisomorphic inverse maps without assuming the singleton lattice formula.
-4. Investigate actual local Cartier indices above four and determine whether the socle identities yield additional exclusions.
-5. Seek explicit cuspidal and ruled-cubic conductor calculations and identify precisely which descent step fails. These historical examples are **not yet source-reconciled in this batch**.
-6. Compare any surviving conductor model against actual global homogeneous section constraints and the separate finite-jet criteria.
-
-## 9. Source-preservation boundary of this batch
-
-**Directly examined:** R-0002, R-0003, R-0004, R-0017, R-0034, R-0035, R-0036, Q-0001, and the current MAP/FRONTIER navigation. Their principal mathematical statements, assumptions, proof mechanisms and counterexample setup are incorporated above; their full source proofs remain linked and should not be deleted.
-
-**Still to compare directly:** the historical Ultra source proofs and audits linked from these records, detailed local conductor calculations (including cuspidal/ruled-cubic examples), relevant scratch scripts, projection and singular-carrier historical investigations, and other mathematical source material not enumerated by Phase 1. No completeness or redundancy certificate is asserted for these sources.
-
-**Deletion policy:** no original mathematical source is removed in this batch. Ordinary correction chronology should not be imported into the final exposition; substantive failed mathematical mechanisms should.
-
-## 10. Source-level expansions: explicit computations and finite reductions
-
-### 10.1 An explicit plane normalization and its polynomial obstruction
-
-The original R-0017 source gives the concrete map
-\[
-f([s:t:z])=[s^4:s^3t:st^3+z^4:t^4+s^3z].
-\]
-On \(s\ne0\), writing \(x=t/s\), \(n=z/s\), the image coordinates are \((x,x^3+n^4,x^4+n)\), so \(x\) and \(n\) are recovered rationally. The map is basepoint-free; since \(f^*\mathcal O(1)=\mathcal O_{\mathbf P^2}(4)\) is ample, it is finite. Its image has degree sixteen and is defined by
-\[
-F=(X_0^3X_3-X_1^4)^4-X_0^{13}(X_0^2X_2-X_1^3)=0.
-\]
-The pullbacks of the two bracketed forms are \(s^{15}z\) and \(s^8z^4\). The inverse image of \(C_0\) has full reduced support \(z=0\), including the boundary \(s=0\).
-
-Suppose a degree-\(b>0\) mate \(G\) existed. Pullback and positivity force \(G(f)=\lambda z^{4b}\), rescaled to \(z^{4b}\). Restriction to \(s=0\), where \([t:z]\mapsto[z^4:t^4]\) is surjective, gives \(G(0,0,Z,T)=Z^b\). Differentiating \(G(f)=z^{4b}\) in \(s\) and then setting \(s=0\) gives
-\[
-0=b\,t^3z^{4b-4},
-\]
-a contradiction in characteristic zero. This is a **global polynomial proof**, not just a generic-point phase argument.
-
-For the eleven-parameter family with \(U_2=st^3+\alpha z^4\), \(U_3=t^4+zP_3\), writing \(P_3=A_3+zB_2+z^2C_1+\delta z^3\), the generic map degree is respectively \(1,2,4\) according as \(A_3\) or \(C_1\) is nonzero; both vanish but \(B_2\ne0\); or all three vanish. This follows from the \(\mu_4\)-action on \(k(x,n)/k(x,n^4)\). Only the first locus gives degree-sixteen plane normalizations. The derivative contradiction persists across the entire family. The broader two-fixed-coordinate exclusion requires literal \(U_0=s^4,U_1=s^3t\) and full inverse support; it is **not** a normal form for all plane projections.
-
-### 10.2 A reusable off-curve differential test
-
-Let \(Q\in H^0(S,H)\) have divisor \(mc\), and suppose \(p\in S\setminus c\) is smooth. If \(v\in\ker(d\nu_p)\) and \(d(Q/\nu^*h)_p(v)\ne0\) for a local downstairs frame \(h\), no positive power of the polarization can descend with zero support precisely \(C\), in characteristic zero. Indeed a putative mate pullback must equal a scalar multiple of \(Q^b\), whereas differentials of downstairs functions annihilate \(\ker d\nu_p\). This detects an **off-curve infinitesimal conductor defect** even when the reduced residue class is trivial.
-
-For the explicit map above, in \(z=1\), \(r=s/z,y=t/z\), take \(p=(0,1)\) and frame \(U_2\). Then \(q=Q/U_2=1/(1+ry^3)\), and \(v=\partial_r+\tfrac14\partial_y\) belongs to \(\ker d\nu_p\) while \(dq_p(v)=-1\).
-
-### 10.3 The finite support-covering criterion
-
-For the full conductor descent lattice \(\Lambda_{\mathrm{desc}}\), the monoid \(\Lambda_{\mathrm{desc}}\cap\mathbf N^{s+1}\) has a finite Hilbert basis. A fully positive vector exists exactly when the supports of the basis elements together cover all inverse branches \(\Gamma_j\); summing a support-covering collection gives a candidate. Equivalently one may test the extreme rays of the rational nonnegative cone. **An individual Hilbert-basis element need not be a mate**: it may omit some branches.
-
-This is an abstract finite reduction, not an effective algorithm until the class group and full conductor-unit relations have been computed. In the singleton generically regular case, every candidate lies on the primitive ray \((a/g,c/g)\). If \(\mathrm{Cl}(S)\) is torsion-free and a mate exists, the primitive upstairs section has degree \(c/g\le c\). For a degree-four curve this gives upstairs base degrees among \(1,2,4\), not a bound on the actual descending mate degree.
-
-### 10.4 The characteristic-zero nilpotent defect
-
-For the actual Artinian conductor extension \(A\subset B\), the relevant obstruction is \(B^*/A^*\). In characteristic zero, after separating reduced residue classes, a nilpotent unit has a logarithm, and its class has finite order only when its logarithmic defect vanishes. Thus torsion of reduced residue phases does **not** imply descent of a chosen power. With several residual branches, relative root-of-unity phases can have unbounded order even for fixed small residual degree (e.g. \((1,\zeta)\) in \(k\times k\) modulo diagonal \(k^*\)). In characteristic \(p\), sufficiently large \(p\)-powers kill nilpotent units; this does not kill non-torsion residual ratios.
-
-### 10.5 Local conductor–Jacobian contact
-
-The source for R-0036 supplies a useful intermediate identity. In completed local coordinates \(C=(y,z)\), \(S=(t,u)\), with \(\nu(t,u)=(t,Y(t,u),Z(t,u))\), let \(h\) generate the invertible conductor. Finite duality and hypersurface residues yield, up to a common unit,
-\[
-F_z\circ\nu=hY_u,\qquad F_y\circ\nu=-hZ_u.
-\]
-Restricting to \(u=0\) gives the **ideal identity**
-\[
-(F_y,F_z)|_c=(h|_c)(Y_u,Z_u)|_c.
-\]
-Consequently, if \(D_F\) is the common-zero divisor of the actual first normal symbol and \(A\) the zero divisor of the transverse differential, then
-\[
-D_F=B|_c+A.
-\]
-This explains why the differential divisor alone does not measure conductor contact. For the three necessary quartic models, the source computes \(B\cdot c=20,20,51\) (smooth quadric, cone, plane respectively), using \(B\sim(a-4)H-K_S\) and adjunction. These are necessary numerical contacts, not existence certificates.
-
-### Source status for this expansion
-
-Directly inspected source proofs: `notes/2026-10-13-generalization-conductor-theorem.md`, `notes/2026-10-19-singleton-projection-investigation.md`, and `notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md`. This expansion preserves their concrete calculations and argument mechanisms. Their independent audit files, other historical conductor examples, and source-complete proof reconciliation remain outstanding. No historical files are deleted.
-
-## 11. Normal-carrier index mechanism (source-level reconstruction)
-
-The full proof of R-0034/R-0035 distinguishes the actual local Cartier index r of C on a normal carrier from both surface multiplicity and tangent-cone data. If the mate multiplicity is n=kr and h locally cuts rC, normality and height-one valuations give (h^k:I)=h^(k-1)(h:I) and Soc(W_n)=h^(k-1)Soc(W_r). The relative complete-intersection Jacobian and Gorenstein duality then yield the pointwise identity D_n,P=(k-1)A_F,P+kD_r,P. For ordinary J-adic torsion layers T_i, the Frobenius pairing also gives 2 sum_i length(T_i)_P=n D_n,P. This latter statement does not erase saturated BF-filtration multiplication defects.
-
-For C0, let a=deg F, b=deg G, n=ab/4 and first free normal quotient O(-ell), ell<=7. The proof computes deg D_n=(n-1)ell-4(a+b)+14 and deg A_F=4a-14+ell. A bound s on every actual on-curve index gives s(ell-16/a)>=4a-14+ell, hence 4a^2-(7s+7)a+16s<=0. This bounds carrier degree in terms of s, not uniformly without an index bound.
-
-For s=4, inherited torsion/index and low-degree results reduce to the minimal pair (a,b)=(6,8), n=12. For an octic, deg(D_n-2A_F)=9ell-78 is negative. For a sextic, 9ell-62 forces ell=7, deg D_n=35, deg A_F=17, and total slack one. The local expression D_n,P-2A_F,P=(k-3)A_F,P+kD_r,P then excludes index-two points and positive primitive socle defects at index-three/four points. The remaining primitive triples glue to an embedded primitive triple with constant first-normal direction O(-7)^2 -> O(-7), contradicting the inherited P-010 quadratic obstruction. Thus R-0035 excludes all normal integral carriers with actual on-curve indices at most four, subject to the explicit inherited results. Index six and twelve (k=2 and 1), higher indices, nonnormal carriers, and entirely thick presentations remain outside this exclusion.
-
-Source: research/notes/2026-10-14-generalization-normal-index-socle-theorem.md. The separate filtered-compatibility proof has not been independently reconstructed in this consolidation pass.
-
-## 12. Audited local first-order obstruction for the plane family
-
-The independent review of R-0017 gives an exact generic conductor-local calculation. In the source chart z=1, write r=s/z, y=t/z. At the generic boundary D=(r=0), the normalization DVR is B=k(y)[r]_(r), with residue E=k(y). For the eleven-parameter family, the target residue field is K=k(g(y)/alpha), where g(y)=y^4+P(0,y,1); the extension E/K has degree four. On the target chart X2 nonzero, the local coordinate functions are a0=r^4/(alpha+r y^3), a1=r^3 y/(alpha+r y^3), and w=(y^4+P(r,y,1))/(alpha+r y^3).
-
-Modulo r^2, any target-local element, including fractions with denominators invertible at the generic boundary, is represented by R(w) for a rational function R. If its residue is constant, injectivity of K into E forces R to be constant, so its first r-coefficient vanishes. In contrast, the candidate ray unit q^b=(alpha+r y^3)^(-b) has expansion alpha^(-b)-b alpha^(-b-1)y^3 r modulo r^2, whose linear coefficient is nonzero in characteristic zero for every b>0. Therefore no power descends even though the reduced residue phase is trivial. This is a concrete counterexample to replacing the full conductor-unit test by reduced residue torsion.
-
-The independent review in research/notes/2026-10-19-singleton-plane-projection-independent-audit.md confirms the explicit map, full inverse support, family birationality criterion, all-degree exclusion, differential-kernel test, local first-order defect, and the literal two-fixed-coordinate sublane. It does not classify arbitrary plane projections or determine the complete conductor phase image.
-
-## 13. Historical cuspidal and ruled-cubic examples
+## Divisor-lattice failure and additive conductor failure
 
 The imported Space Curves III examples illustrate distinct obstructions within the fixed-carrier criterion, and should not be conflated.
 
@@ -218,7 +76,8 @@ The imported Space Curves III examples illustrate distinct obstructions within t
 
 These are historical examples, not new exclusions of unaddressed carrier degrees. Source: research/archive/space-curves-2026-10-19/README.md, section 4, and its linked Space Curves III artifacts and symbolic companion. The imported status is historical/source-reviewed, not independently promoted.
 
-## 14. A stronger but bounded scroll-conductor exclusion
+
+## A rank-two scroll conductor: three distinct algebras
 
 The October 8 adversarial source proves a conditional result for an integral quartic carrier normalized by a smooth rational quartic scroll, generically regular along C0. If the actual conductor center is a smooth twisted cubic Gamma and its upstairs conductor D maps finite flat of rank two to Gamma, there is no mate in any degree. Crucially D need not be reduced.
 
@@ -230,93 +89,28 @@ Finite duality gives the actual upstairs conductor divisor D linearly equivalent
 
 The source also proves that assuming the *entire nonnormal support* is a smooth twisted cubic suffices to recover the conductor hypotheses: the actual conductor center has Hilbert polynomial 3m+1, is pure Cohen-Macaulay and therefore reduced on its smooth degree-three support; upstairs D is finite flat of rank two by torsion-freeness over Gamma and H.D=6. A further applicability argument proves every integral quartic singular along a smooth twisted cubic has this scroll normalization: the space of quartics singular along the cubic is the six-dimensional span of products of its three quadratic generators, and integrality gives a smooth conic in the associated quadratic-map target. The incidence blowup identifies its normalization as a smooth quartic scroll. The source reports independent exact symbolic checks of the derivative matrix and rank. These statements remain scoped to a smooth twisted-cubic singular support; singular or reducible degenerations are not covered. Moreover quartic carriers are already excluded for C0 by R-0001, so this is valuable mechanism and geometry rather than a newly open quartic case.
 
-Source: research/notes/2026-10-08-session-scroll-conductor-adversarial.md and its cited applicability and computation companions. The argument is retained without generalizing its rank-two conductor hypotheses to arbitrary scroll projections.
+Source: [current proof](../supplements/QUARTIC_SCROLL_REDUCED_CONDUCTORS.md) and its cited applicability and computation companions. The argument is retained without generalizing its rank-two conductor hypotheses to arbitrary scroll projections.
 
-## 15. A nonreduced ramification counterexample
+
+## Nonreduced ramification is not determined by full support
 
 The exact local model X: X^2+Y^2(Y+Z^2)=0 has normalization k[w,z] via X=-w^3-wz^2, Y=-w^2-z^2, Z=z. Its actual conductor is YB and its relative differential Fitting ideal is (w,z^2), a length-two ramification scheme. The smooth image curve X=-2Z^3, Y=-2Z^2 has lift c=(w-z), and the full pulled-back curve ideal is (w-z)(w+z,z^2), so the *full reduced inverse support* is c. Nevertheless the ramification scheme is not contained scheme-theoretically in c, since w-z maps to -z modulo (w,z^2).
 
-More generally for c_f=(w-f(z)), h=ord(f) and r=ord(f^2+z^2), the source computes length(R intersect c_f)=min(h,2), with scheme containment exactly when h>=2. Choosing f=iz+z^k gives unbounded conductor contact r=k+1 but ramification intersection length one. The local Jacobian factorization J_X B=(Y) I_R yields first-normal vanishing order s=r+min(h,2). This blocks the unsupported inference from smooth image plus full inverse support to containment of nonreduced ramification. It is a local counterexample, **not** an STCI presentation or a global normalization classification.
+More generally for c_f=(w-f\(z\)), h=ord\(f\) and r=ord(f^2+z^2), the source computes length(R intersect c_f)=min(h,2), with scheme containment exactly when h>=2. Choosing f=iz+z^k gives unbounded conductor contact r=k+1 but ramification intersection length one. The local Jacobian factorization J_X B=\(Y\) I_R yields first-normal vanishing order s=r+min(h,2). This blocks the unsupported inference from smooth image plus full inverse support to containment of nonreduced ramification. It is a local counterexample, **not** an STCI presentation or a global normalization classification.
 
-Source: research/notes/2026-10-07-session-ramification-scheme-counterexample.md, with its exact symbolic verifier. These local distinctions should be preserved in future conductor/ramification arguments.
-
-## 16. Source scope and mathematical boundaries
-
-The historical Space Curves III cuspidal and ruled-cubic artifacts are represented in Section 13; their distinct conductor and divisor-class obstructions have been checked against the primary artifact descriptions. The October 8 smooth twisted-cubic scroll argument is treated in Section 14, with no extension to degenerate conductor centers. The October 21 conditional singular-root work and October 24 ruled-model geometry are cross-referenced in the companion addendum; their spectral-root and intrinsic-geometric arguments remain owned by their respective investigation families. The independently audited plane-normalization example and its family are represented in Sections 5, 10 and 12. These source comparisons are not fresh independent reruns of every inherited theorem. Original mathematical sources remain retained.
-
-## 16A. Entire smooth-scroll conductor exclusion (historical source expansion)
-
-The October 8 scroll-conductor investigation extends beyond the smooth twisted-cubic downstairs conductor treated in Section 14. For an integral quartic carrier whose **finite normalization is a smooth rational quartic scroll** (F0 or F2 with its quartic hyperplane class), the source program classifies actual cubic conductor schemes using the entire conductor, including nonreduced and nongorenstein structures. The combined result excludes a mate supported on the fixed smooth quartic in characteristic zero under these hypotheses, in any mate degree. The proof uses the conductor duality sequence, Hilbert–Burch classification of the cubic conductor, generic Artin-module constraints, and full inverse-fiber conditions; it does not replace actual conductor schemes by reduced support. The independent Artin audit explicitly accepts the nonreduced reductions and supplies a direct completion of the double-line-plus-line case.
-
-Source proof: research/notes/2026-10-08-session-scroll-degenerate-conductor.md and research/notes/2026-10-08-session-scroll-nongorenstein-cubic-classification.md. Independent audit: research/notes/2026-10-08-session-scroll-artin-independent-audit.md. The alternate differential/slice proof in the first source has a separately unpromoted geometric passage and is **not** needed for this source-level synthesis. This is an audited historical claim, not a newly promoted canonical result; its full combined proof should be treated as the authority for any future promotion. It says nothing about singular scroll normalizations or arbitrary nonnormal quartic carriers.
-
-A separate October 12 conductor-phase investigation for the admissible genus-one quintic A4 normalization, with Jbar=0 and coprime conormal cubics, derives an actual phase bound and all-mate exclusion within that restricted Jbar-zero, coprime-cubic stratum. Although the owner note's header says audit pending, the companion independent audit explicitly reports PASS for the all-mate exclusion under its precise geometric hypotheses, including the separately treated ramified-line locus. This does **not** exclude all genus-one quintic carriers, the common-root stratum, or other quintic normalizations. Sources: research/notes/2026-10-12-session-jbar-zero-coprime-conductor-phase-bound.md and research/notes/2026-10-12-session-jbar-zero-conductor-phase-independent-audit.md. This belongs primarily to the low-degree carrier family and is cross-referenced here for coverage.
-
-## 17. Ruled-model and conditional conductor continuation
-
-The companion [Phase 2 addendum](normalization_conductor_phase2_addendum.md) consolidates the paired-secant cubic's finite F1 normalization and double-line conductor, the nonnormal projection cone and its F4 resolution, the four-section quartic's nonreduced conductor, and the reviewed conditional (6,16) singular-root/conductor frontier. Crucially, the October 21 independent continuation audit verifies the previously conditional cubic-model contraction in the exact actual-pair setting and forces a multiple base zero of alpha or a zero of alpha at a spectral-root node. This does not eliminate those exceptional strata or prove an STCI exclusion. The original historical sources remain retained; the separate codex branch is excluded.
+Source: [current proof](../supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd), with its exact symbolic verifier. These local distinctions should be preserved in future conductor/ramification arguments.
 
 
-## 18. Effective conductor phase framework
+## Entire cubic conductor schemes on smooth quartic scrolls
 
-The independently reviewed October 15 torsion-coset theorem constructs a finite-type admissible phase family retaining full nilpotent conductor equations. Mate existence on a carrier is equivalent to an actual torsion phase tuple. Across the family, the retained constructible torsion-coset envelope distinguishes absence of mates, uniformly bounded least mate degrees, and unbounded least mate degrees. A separate independently reviewed rational-phase theorem gives an in-principle terminating decision algorithm using constructible stratification, elimination, Mann partitions, and Smith normal forms. Neither theorem computes the phase images or determines the alternative for the three fixed quartic projection families. Sources: research/notes/2026-10-15-generalization-projection-torsion-coset-reduction.md and research/notes/2026-10-15-generalization-effective-rational-phase-bound.md, with their independent reviews. See phase2_closeout_checks.md for source reconciliation.
+The October 8 scroll-conductor investigation extends beyond the smooth twisted-cubic downstairs conductor treated above. For an integral quartic carrier whose **finite normalization is a smooth rational quartic scroll** (F0 or F2 with its quartic hyperplane class), the source program classifies actual cubic conductor schemes using the entire conductor, including nonreduced and nongorenstein structures. The combined result excludes a mate supported on the fixed smooth quartic in characteristic zero under these hypotheses, in any mate degree. The proof uses the conductor duality sequence, Hilbert–Burch classification of the cubic conductor, generic Artin-module constraints, and full inverse-fiber conditions; it does not replace actual conductor schemes by reduced support. The independent Artin audit explicitly accepts the nonreduced reductions and supplies a direct completion of the double-line-plus-line case.
 
+Source proof: [current proof](../supplements/QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md) and [current proof](../supplements/QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md). Independent audit: [current proof](../supplements/QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md). The alternate differential/slice proof in the first source has a separately unpromoted geometric passage and is **not** needed for this source-level synthesis. This is an audited historical claim, not a newly promoted canonical result; its full combined proof should be treated as the authority for any future promotion. It says nothing about singular scroll normalizations or arbitrary nonnormal quartic carriers.
 
-### 18.1 Five-coordinate scaling: geometric phase formulation and limitation
-
-For an admissible fixed-\(C_0\) Cartier-singleton projection \(S\to X\subset\mathbf P^3\), adjoining the primitive section \(Q\) to the four projection sections gives a finite image \(Y\subset\mathbf P^4\), with coordinates \([U_0:U_1:U_2:U_3:Q]\). Projection from the last-coordinate point is finite birational onto \(X\). The hyperplane \(Q=0\) pulls back to \(2c\) or \(4c\) in the three normalized models and has reduced support \(C_0\).
-
-For \(\zeta\in k^\times\), let \(T_\zeta\) scale only the fifth coordinate. If two conductor branches have identical \(U_i\) coordinates and primitive-section ratio \(\zeta\), their images lie in \(Y\cap T_\zeta(Y)\). A descending mate power requires the relevant constant ratios to be roots of unity **and** requires full nilpotent conductor descent. This is a geometric reformulation of the phase obstruction, not an exclusion. The hyperplane curve \(Q=0\) is common to these intersections for every \(\zeta\); a naive intersection-degree argument must first remove this forced component before counting additional branch curves. The fixed-degree affine split-conductor example of §20.2 shows why phase orders cannot be bounded from finite presentation or smooth singleton inverse support alone. Any useful global bound must invoke the actual projective polarization, contact divisor, or differential/conductor budget. [Original five-coordinate formulation](../notes/2026-10-14-generalization-projection-ray-and-split-phase-model.md).
-
-## 19. Source-coverage certification and retained negative projection examples
-
-The [Phase 2 source-coverage certificate](normalization_conductor_phase2_coverage_certificate.md) maps the identified canonical, historical, and independently reviewed normalization/conductor/projection packages to this dossier or an explicitly assigned neighboring investigation family. Its certification is scoped: it does not assert a complete branch-tree enumeration or independent proof reconstruction of inherited P-010.
-
-Two October 14 projection examples must remain distinct. The split-conductor affine model permits phase orders of arbitrary size but does not produce a global fixed-C0 mate. The opposite-ruling quadric family has branchwise phase a^(-2) of arbitrary order yet always has an additional inverse point outside the diagonal, so it violates full singleton inverse support. Neither example excludes the unrestricted four-section projection family. Sources: research/notes/2026-10-14-generalization-projection-ray-and-split-phase-model.md and research/notes/2026-10-14-quadric-opposite-ruling-phase-family-failure.md (with its coefficient normal form).
+A separate October 12 conductor-phase investigation for the admissible genus-one quintic A4 normalization, with Jbar=0 and coprime conormal cubics, derives an actual phase bound and all-mate exclusion within that restricted Jbar-zero, coprime-cubic stratum. Although the owner note's header says audit pending, the companion independent audit explicitly reports PASS for the all-mate exclusion under its precise geometric hypotheses, including the separately treated ramified-line locus. This does **not** exclude all genus-one quintic carriers, the common-root stratum, or other quintic normalizations. Sources: [current proof](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#6-jbar-zero-coprime-conductor-phase-bound) and [current proof](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#7-jbar-zero-conductor-phase-independent-audit). This belongs primarily to the low-degree carrier family and is cross-referenced here for coverage.
 
 
-## 20. Exact projection and conductor formulas recovered in claim-level reconciliation
-
-This section preserves reusable mathematics recovered in the Phase 2 source reconciliation. It does not supersede the complete proofs in the cited notes or certify all remaining source coverage.
-
-### 20.1 Projection parameter spaces and admissibility
-
-For the three primitive Cartier singleton models (smooth quadric, quadric cone, plane), the restriction kernels of the full section spaces to the fixed quartic have dimensions 4, 4, 10. Choosing lifts of the four fixed coordinate sections is an affine graph space of dimensions **16, 16, 40**, respectively, before equivalences. Basepoint freeness gives finiteness by ampleness, but birationality and **full inverse support** are additional conditions. For the graded section ring (B=\bigoplus_{b\ge0}H^0(S,bH)) and the four-section subring (R), the primitive ray section (Q) has a degree-(b) mate precisely when (Q^b\in R_b), with the prescribed normalization/support hypotheses. Source: `research/notes/2026-10-14-generalization-projection-ray-and-split-phase-model.md`.
-
-### 20.2 An affine conductor with unbounded phase, not a projective STCI construction
-
-Let (B=k[u,v]), (\lambda=\alpha+\beta), (\mu=\alpha\beta), (y=v^2-\lambda uv), (h=y+\mu u^2=(v-\alpha u)(v-\beta u)), (z=vh), and (A=k[u,y,z]=k[u,y]\oplus h k[u,y]v). The carrier relation is (z^2-\lambda uhz-yh^2=0); the **entire conductor** is (hB). The quotients are (A/hB=k[u]) and (B/hB=k[u,v]/((v-\alpha u)(v-\beta u))). For (Q=v^q), (Q^n\in A) exactly when (\alpha^{qn}=\beta^{qn}). Choosing (\alpha/\beta) of order (N) coprime to (q) forces least descent exponent (N). The inverse support of the indicated affine downstairs line is the smooth line (v=0). This disproves any algebra-only universal bound on phase order, **not** a projective fixed-(C_0) bound. Same source.
-
-### 20.3 Opposite-ruling quadric: restricted failure versus full coefficient space
-
-On the smooth quadric with diagonal (c), the specified pairing ((x,0)\leftrightarrow(0,ax)), (a\ne0,-1), forces phase (a^{-2}) and permits the **full form within this pairing**
-[
-U(x,y)=W_0+\frac{ax+y}{a+1}W_1+
-(a^2x^2+y^2-(a^2+1)xy)D+
-xy\bigl(xE+y(W_2-E)\bigr)+x^2y^2W_3,
-]
-where (D,E\in k^4) are arbitrary. The sparse choice (D=W_2,E=uW_2) is finite but has extra inverse points mapping to ([0:0:0:1]): ((\infty,-a^2/u)) when (u\ne0), and ((-1/(1-u),\infty)) when (u\ne1). The boundary coefficient pairs of the full form are (a^2D+yE+y^2W_3) and (D+x(W_2-E)+x^2W_3), which can avoid these particular sparse-family defects. Thus only the **sparse family** is excluded. Sources: `research/notes/2026-10-14-quadric-opposite-ruling-phase-normal-form.md`, `research/notes/2026-10-14-quadric-opposite-ruling-phase-family-failure.md`.
-
-### 20.4 Full conductor contact and the first-symbol correction
-
-Under the generically regular, smooth singleton Cartier-lift hypotheses, finite duality gives the actual upstairs conductor (\mathcal O_S(-B)), with (B\sim(a-4)H-K_S) for a degree-(a) hypersurface. Its weighted contact budget is
-[
-B\cdot c=d(a-4)+c^2-(2g-2).
-]
-For the three fixed quartic models these values are **20, 20, 51**. The *effective divisor* identity along (c) is
-[
-D_F=B|_c+A_{\mathrm{diff}},
-]
-where (D_F) is the entire common-zero divisor of the carrier's first normal symbol and (A_{\mathrm{diff}}) is the normal-differential degeneracy divisor. Neither one alone is the conductor contact. On each reduced off-diagonal pair correspondence, the ratio (p_1^*Q/p_2^*Q) has divisor (m(p_1^*c-p_2^*c)); equality of full contact divisors and root-of-unity constants characterizes **residual** torsion, not full nilpotent descent. Sources: `research/notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md`, `research/notes/2026-10-14-generalization-projection-conductor-contact-budget.md`, and their independent review; `research/notes/2026-10-14-generalization-projection-contact-phase-criterion.md`.
-
-### 20.5 Effective decision scope
-
-The independently reviewed October 16 raw-input corollary starts from explicit rational parameter presentations of one of the **three fixed models**, not an already computed phase image. It algorithmically filters basepoints, extra inverse points, and nonbirational maps, constructs actual conductor module data and a rational phase-image presentation, then applies the accepted torsion decision procedure. This is an **existence/termination result for an algorithm**, not a report that any fixed-model phase image or mate locus has been computed. Source: `research/notes/2026-10-16-generalization-raw-projection-decision-independent-audit.md`.
-
-The ongoing source-level ledgers are `phase2_reconciliation_batch2.md` through `phase2_reconciliation_batch5.md` and `normalization_conductor_phase2_source_reconciliation_batch1.md`. These allocations do not yet establish exhaustive preservation.
-
-
-## 21. Entire-conic quadratic conductor: exact power criterion
+## Entire-conic quadratic conductor: exact power criterion
 
 This is a reusable *actual-conductor algebra* theorem, not a classification of which conic conductor data occur for the fixed curve. For a characteristic-zero degree-four ADE del Pezzo normalization with a two-quadric anticanonical embedding, choose a projection from a point outside the surface. The graded equations can be arranged as
 \[
@@ -326,125 +120,106 @@ where (A,L) are linear and (R_1,R) quadratic in the four target coordinates. Eli
 \[
 F=R^2+ALR-R_1L^2.
 \]
-Under the complete-intersection, finite-birational projection hypotheses, the **entire downstairs conductor scheme** is the plane conic (\Gamma=V(L,R)), not its reduction. It may be smooth, reducible, or a double line. The algebra audit accepts this exact calculation conditionally on the geometric setup; it does not independently establish every claimed anticanonical embedding or fixed-(C_0) spanning application. Sources: `research/notes/2026-10-09-session-genus-one-entire-conductor.md` and `research/notes/2026-10-09-session-genus-one-entire-conductor-algebra-independent-audit.md`.
+Under the complete-intersection, finite-birational projection hypotheses, the **entire downstairs conductor scheme** is the plane conic (\Gamma=V(L,R)), not its reduction. It may be smooth, reducible, or a double line. The algebra audit accepts this exact calculation conditionally on the geometric setup; it does not independently establish every claimed anticanonical embedding or fixed-\(C_0\) spanning application. Sources: `research/notes/2026-10-09-session-genus-one-entire-conductor.md` and [current proof](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd).
 
 Let \(M=\mathcal O_\Gamma(1)\) and suppose the *entire* finite flat quadratic algebra is
 \[
 p_*\mathcal O_D=\mathcal O_\Gamma\oplus M^{-1},\qquad w^2=\delta,
 \]
-with trace involution (\sigma(w)=-w). For a nonzerodivisor section (q=m+w\ell), where (m\in H^0(\Gamma,M^2)), (\ell\in H^0(\Gamma,M)), (\delta\in H^0(\Gamma,M^2)), put
-[
-\mathcal C_{\rm cyc}=\left\{\left(\frac{1+\zeta}{1-\zeta}\right)^2:\ \zeta\text{ a root of unity},\ \zeta\ne\pm1\right\}.
-]
-For a smooth conic or the **entire plane double line**, a positive power of (q) is invariant under (\sigma) if and only if
-[
+with trace involution (\sigma\(w\)=-w). For a nonzerodivisor section \(q=m+w\ell\), where (m\in H^0\(\Gamma,M^2\)), (\ell\in H^0\(\Gamma,M\)), (\delta\in H^0\(\Gamma,M^2\)), put
+\[
+\mathcal C_{\rm cyc}=\left\{\left\(\frac{1+\zeta}{1-\zeta}\right\)^2:\ \zeta\text{ a root of unity},\ \zeta\ne\pm1\right\}.
+\]
+For a smooth conic or the **entire plane double line**, a positive power of \(q\) is invariant under \(\sigma\) if and only if
+\[
 m\ell=0\quad\text{on the entire }\Gamma,
 \qquad\text{or}\qquad
 m^2=\rho\delta\ell^2\quad\text{on the entire }\Gamma
 \quad\text{for some }\rho\in\mathcal C_{\rm cyc}.
-]
-For two distinct lines, impose the corresponding criterion **separately on both components**, with possibly different cyclotomic constants and a common multiple of the resulting power orders. These are equalities of entire schemes, including nilpotents, not equations only on reduced supports. The proof uses (\sigma(q)/q) in generic Artin rings, separability of (T^n-1) in characteristic zero, and injectivity of sections into generic total quotient rings. A split quadratic conductor permits unbounded phase order; this algebraic criterion alone does **not** bound mate degree or exclude the remaining genus-one carrier models. Sources: `research/notes/2026-10-09-session-quadratic-conductor-power-descent.md` and its `2026-10-09-session-quadratic-conductor-power-descent-independent-audit.md`.
+\]
+For two distinct lines, impose the corresponding criterion **separately on both components**, with possibly different cyclotomic constants and a common multiple of the resulting power orders. These are equalities of entire schemes, including nilpotents, not equations only on reduced supports. The proof uses (\sigma\(q\)/q) in generic Artin rings, separability of (T^n-1) in characteristic zero, and injectivity of sections into generic total quotient rings. A split quadratic conductor permits unbounded phase order; this algebraic criterion alone does **not** bound mate degree or exclude the remaining genus-one carrier models. Sources: [current proof](../supplements/QUADRATIC_CONDUCTOR_POWER_DESCENT.md) and its `2026-10-09-session-quadratic-conductor-power-descent-independent-audit.md`.
 
-The companion genus-one weak del Pezzo reduction and D5 root-saturation filter concern which actual normalizations and primitive sections can occur. They are **separate geometric hypotheses**, not consequences of the quadratic-algebra criterion. The explicit four-A1 projections are negative full-inverse-support examples, not an exhaustion of the lattice stratum. See `research/notes/2026-10-09-session-genus-one-delpezzo-reduction.md`, `research/notes/2026-10-09-session-delpezzo-D5-torsion-filter.md`, and `research/notes/2026-10-09-session-singular-delpezzo-four-A1-family.md`.
+The quadratic-algebra proof uses2 invertible to split trace and define the involution. That splitting persists in characteristic p≠2, but the all-positive-power criterion above uses characteristic zero: powers divisible by p can remove nilpotent terms that survive every characteristic-zero power. In characteristic2 even the trace splitting and involution require replacement. No unrestricted positive-characteristic version of this entire-scheme power criterion is asserted.
+
+The companion genus-one weak del Pezzo reduction and D5 root-saturation filter concern which actual normalizations and primitive sections can occur. They are **separate geometric hypotheses**, not consequences of the quadratic-algebra criterion. The explicit four-A1 projections are negative full-inverse-support examples, not an exhaustion of the lattice stratum. See [current proof](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd), [current proof](../supplements/OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-torsion-filtermd), and [current proof](../supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-delpezzo-four-a1-familymd).
 
 
-## 22. Remaining quintic h2 incidence: local ODE versus global parameter cover
 
-The accepted nonendpoint A4 quintic reductions leave a homogeneous gcd-two common-conormal factor (H) and sextic quotient (Q) of the **actual conductor octic**. On a finite inverse-map chart where the cover/cofactor determinants, (delta), and (Delta_1) are units, the accepted coefficient identities imply ((q_5,q_6)=A) in the actual parameter ring. This is an ideal equality even over nonreduced bases. The previously necessary open (D(q_5)\cup D(q_6)) therefore covers this localized chart; it does **not** justify inverting the cover determinants globally.
+## Quintic geometry before the final support incidence
 
-Write (h(z)=z^2+vz+w) and (q(z)=\sum_{i=0}^{6}q_i z^i). The localized cubic-rank incidence is scheme-theoretically equivalent to existence of unique locally glued action witnesses (d,u) satisfying
-[
-h(z)q'(z)=(dz+u)q(z).
-]
-Its eight coefficient equations, with out-of-range (q_i=0), are
-[
-E_i=w(i+1)q_{i+1}+(vi-u)q_i+(i-1-d)q_{i-1}=0,quad i=0,\ldots,7.
-]
-The polynomial ((d-5)(d-6)) and the equation (j(d-6)), where (j=\bar J), belong to the same localized ideal. They retain the degree-five/simple-infinity-root and degree-six/no-infinity-root alternatives; they do not prove the incidence empty. The spectral polynomial is a further *derived* accelerator, not a new restriction on actual projections. Sources: `research/notes/2026-10-15-generalization-quintic-h2-automatic-open-and-ODE.md`, its independent audit, and `research/notes/2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit.md`.
+The [quintic structural proof](../supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md) first isolates its hypotheses: in the specified nonnormal Gorenstein genus-one lane, the normal degree-five anticanonical model has one A4 singularity, a smooth lifted quartic c and a unique line ell with `H=c+ell=5ell` and `5c=4H`. This is not a classification of all quintic carriers. The [intrinsic pair proof](../supplements/DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md) contracts the marked A4 chain to the full plane cluster `(y−x³,x⁴)`, classifies every admissible smooth conic through it, and computes the residual automorphism group as translations. Its proof explains why the extra nonendpoint projection parameter cannot be discarded by scaling.
 
-Crucially, the separately audited **global necessary** monic incidence has **seventeen equations in nine variables** on the original-parameter open (delta EDelta_1\ne0). It retains the inverse-map boundary (Delta K=0). A computation saturating by (Delta K) cannot close this global system. The attempted guarded rational saturation stopped without a characteristic-zero unit-ideal certificate. The later degree-five (j=0) necessary-incidence exclusion is narrower and its linked verifier was not rerun during this reconciliation; the degree-six (j\ne0) branch remains open. Sources: `research/notes/2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence.md`, `research/notes/2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit.md`, `research/notes/2026-10-16-generalization-quintic-h2-global-QQ-prospect-terminal-record.md`, and `research/notes/2026-10-29-quintic-h2-degree-five-incidence-reduction.md`.
+| Actual projection stratum | Retained mechanism and precise remaining boundary |
+| --- | --- |
+| Endpoint a=0 | [Support and excess proof](../supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md) plus [the actual fourth-blowup unit jet](../supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md) exclude every positive mate power in this stratum. The unit jet is an actual-ring obstruction, not only equalizer matching. |
+| Endpoint a≠0 | The residual anticanonical divisor gives target contact11, intrinsic contact4 and excess7. The completed [global inverse-support proof](../supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#2-endpoint-a-nonzero-global-independent-audit) then excludes every such endpoint projection: its actual target septic must be supported at common roots of U,V; each has order≤4, order4 allows no second root, and the three-root family is separately excluded. A degree7 septic cannot have the resulting support. |
+| Nonendpoint reducible residual | The [exhaustive pole filtration](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md) preserves cancellation and repeated-prime strata. The specified partitions 2+2+2, 2+4 and 3+3 are excluded through [actual higher contacts](../supplements/NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md) and [complete cubic-pair scope](../supplements/NONENDPOINT_CUBIC_PAIR_COMPLETION.md), not a generic-root count. |
+| Nonendpoint integral residual | The actual source has arithmetic genus one, including singular affine cubics, and is smooth at its A4 point. Full inverse support excludes a degree-two map, so its image is birational of class (4,2), arithmetic genus three. Its intrinsic c-ideal has length6, including length2 at A4; target contact14 forces excess8. The curve-model quotient length2 cancels in the local contact comparison and gives no upper bound on that excess. This incidence remains open. |
+| Nonendpoint target fibers | The [actual fiber equations](../supplements/NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md) keep finite denominator/rank boundaries, A4 target, infinity and primitive cube-root compatibility. Their equal-lift exclusion does not exhaust every projection. The [single-root incidence](../supplements/NONENDPOINT_SINGLE_ROOT_INCIDENCE.md) preserves separate quotient fibers and singular denominator charts. |
 
-The detailed source allocations and the conditional (6,16)/(2,12) boundary are in `research/synthesis/phase2_reconciliation_batch12.md` and `phase2_reconciliation_batch13.md`. Neither family yields a general fixed-(C_0) STCI exclusion.
+The recurring mechanism is **scheme-theoretic pullback of the marked curve ideal**, followed by exact lengths in actual integral curve rings. Finite birational curve-model defect, conductor contact, differential degeneracy and excess contact are different quantities. Smooth source or image branches can have high mutual contact. The seven- and eight-length budgets by themselves are necessary constraints. The endpoint case has a completed additional actual-fiber and higher-jet exclusion; the integral nonendpoint eight-excess incidence remains open. The entire intrinsic endpoint family is therefore excluded in every mate degree, while the separate nonendpoint modulus is retained. These are the characteristic-zero source results; their A4/del Pezzo classification and coefficient separability have not been asserted in arbitrary characteristic.
 
-## 23. Nonendpoint quintic (h=3) exclusion and (h=2) differential reduction
+## Quintic support: closed h=3 and the remaining h=2 problem
 
 These statements concern **admissible nonendpoint genus-one quintic \(A_4\) projections in characteristic zero**, not all quintic carriers. Let \(H_j\) be the homogeneous gcd of the corrected first conormal cubics, and let \(F_{\rm cond}\) be the **actual homogeneous conductor octic**.
 
-**Complete \(h=3\) lane.** Under the accepted homogeneous gcd-three classification, every admissible projection with \(\deg H_3=3\) is excluded for **all positive mate degrees**. Zero-cubic and proportional boundary charts are included. In the remaining proportional family \(F_{\rm cond}=\mathrm{const}\cdot H_3S_5\). Full inverse support restricts the roots of \(S_5\) to those of \(H_3\). The homogeneous leading-drop analysis excludes infinity support, and the complete alternatives are: three distinct roots, or multiplicity patterns \(5\), \(4+1\), \(3+2\). The last pattern uses the **original six-generator** polynomial row \(M_6\) and an exact identity \(M_6W=(Vc_5)^2\), where the admissible parameter product \(Vc_5\) is nonzero; thus the six equations cannot vanish simultaneously. This closes the entire \(h=3\) lane, not merely a generic chart. [Accepted scoped result](../notes/2026-10-14-generalization-quintic-h3-results-acceptance.md).
+**Complete \(h=3\) lane.** Under the accepted homogeneous gcd-three classification, every admissible projection with \(\deg H_3=3\) is excluded for **all positive mate degrees**. Zero-cubic and proportional boundary charts are included. In the remaining proportional family \(F_{\rm cond}=\mathrm{const}\cdot H_3S_5\). Full inverse support restricts the roots of \(S_5\) to those of \(H_3\). The homogeneous leading-drop analysis excludes infinity support, and the complete alternatives are: three distinct roots, or multiplicity patterns \(5\), \(4+1\), \(3+2\). The last pattern uses the **original six-generator** polynomial row \(M_6\) and an exact identity \(M_6W=(Vc_5)^2\), where the admissible parameter product \(Vc_5\) is nonzero; thus the six equations cannot vanish simultaneously. This closes the entire \(h=3\) lane, not merely a generic chart. [Accepted scoped result](../supplements/QUINTIC_H3_SUPPORT_EXCLUSION.md).
 
 **Differential content of \(h=2\).** For every finite birational ring extension \(A\subset B\) with conductor \(I\), the identity \(I\Omega_{B/A}=0\) follows from \(c\,db=d(cb)-b\,dc\) for \(c\in I\). Along the smooth lifted curve, the relative differentials have the local form \(\Omega_{S/X}\otimes\mathcal O_c\cong\mathcal O_c/(u_1,v_1)\,dT\), where \(u_1,v_1\) are the corrected conormal symbols. Hence their complete homogeneous gcd \(H_2\) divides \(F_{\rm cond}\), including multiplicities and the permitted simple \(A_4\) infinity factor. Write \(F_{\rm cond}=H_2Q_6\), with \(Q_6\) homogeneous sextic. This is **divisibility**, not equality of conductor and first-symbol divisors.
 
 When no extra \(A_4\) support is allowed, the remaining support condition becomes the eigenvector equation
 \[
-D_{H_2}Q_6=\mu Q_6,\qquad D_K=(\partial_tK)\partial_s-(\partial_sK)\partial_t.
+D_{H_2}Q_6=\mu Q_6,\qquad D_K=\(\partial_tK\)\partial_s-\(\partial_sK\)\partial_t.
 \]
 For quadratic \(H_2=as^2+bst+ct^2\), with \(\Delta=b^2-4ac\), the degree-six action has characteristic polynomial
 \[
-\mu(\mu^2-4\Delta)(\mu^2-16\Delta)(\mu^2-36\Delta),
+\mu\(\mu^2-4\Delta\)\(\mu^2-16\Delta\)\(\mu^2-36\Delta\),
 \]
-valid also on the repeated-root boundary. With the allowed \(A_4\) point \(s=0\), retain the homogeneous system \(D_{sH_2}Q_6=L_1Q_6,\ jD_{H_2}Q_6=\mu Q_6\), \(j=\bar J\), rather than discarding \(j=0\). For \(j\ne0\) the support condition is equivalently the covariant identity \(J(\operatorname{Hess}(F_{\rm cond}),Q_6)=0\). These are necessary incidence reductions, **not an \(h=2\) exclusion or conductor-power descent**. The original source flags its later quadratic-algebra norm computation as pending independent review; do not promote that extension here. [Differential proof and incidence](../notes/2026-10-14-generalization-quintic-h2-conductor-quotient.md).
+valid also on the repeated-root boundary. With the allowed \(A_4\) point \(s=0\), retain the homogeneous system \(D_{sH_2}Q_6=L_1Q_6,\ jD_{H_2}Q_6=\mu Q_6\), \(j=\bar J\), rather than discarding \(j=0\). For \(j\ne0\) the support condition is equivalently the covariant identity \(J(\operatorname{Hess}\(F_{\rm cond}\),Q_6)=0\). These are necessary incidence reductions, **not an \(h=2\) exclusion or conductor-power descent**. The original source flags its later quadratic-algebra norm computation as pending independent review; do not promote that extension here. [Differential proof and incidence](../supplements/QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient).
 
-## 23A. Full conductor phases: an exact local-to-family distinction
 
-At a fixed conductor point, the full finite-Artinian inclusion \(A\subset B\) separates a unit into an etale phase and a nilpotent logarithm in characteristic zero. A positive power descends precisely when the nilpotent logarithm already lies downstairs and the reduced etale ratio is torsion. The nilpotent condition cannot be repaired by taking a power. The exact algebraic criterion, including its equalizer formulation, is recorded in [the finite-Artinian phase section](#exact-finite-artinian-phase-descent-and-effective-rational-bound).
-
-For a **family** of projected carriers, this fixed-point criterion must be applied on the admissible parameter locus: basepoint freeness, finite birationality, full inverse support and the complete conductor scheme are prerequisites. A torsion coset in the closure of a phase image need not intersect the constructible admissible image. The family theorem below retains these boundaries and distinguishes bounded isolated torsion phases from unbounded orders along positive-dimensional surviving cosets. The effective order bound later in this file applies only after explicit rational equations for the phase image have been supplied; it is not a uniform bound on arbitrary projection families.
-
-## 24. Torsion-coset envelope for all-power projection families
-
-The phase condition has a stronger **family-wide structural** formulation than a per-carrier root-of-unity test. Fix a normal polarized \(S\), smooth ample Cartier \(c\), and a primitive \(Q\) with \(\operatorname{div}(Q)=mc\). In a finite-type family of four-section projections, retain basepoint freeness, finite birational integral image, and **full reduced inverse support exactly \(c\)**. After a finite locally closed stratification, the complete nilpotent conductor equations define a constructible admissible base \(T_0\), a finite surjective cover \(Z\to T_0\), and a phase map \(z:Z\to\mathbf G_m^D\). A parameter admits some mate power precisely when its fiber has a torsion phase tuple. The construction retains the logarithmic nilpotent defects rather than testing only reduced branch phases.
-
-Laurent's torsion-point theorem gives finitely many torsion cosets \(K_j=\xi_jH_j\) and nonempty relatively open \(V_j\subset K_j\), **contained in the actual constructible phase image** \(W=z(Z)\), such that
-\[
-W(k)\cap\operatorname{Tor}(\mathbf G_m^D)
-=\bigcup_j V_j(k)\cap\operatorname{Tor}(\mathbf G_m^D).
-\]
-Deleting inadmissible boundaries is essential: torsion cosets in the closure of \(W\) need not meet \(W\). There is an exact trichotomy for **least** mate degrees across the fixed family: no surviving coset means no mates; only zero-dimensional cosets give a uniform bound; a surviving positive-dimensional coset gives unbounded least mate degrees as carriers vary. This is not an effective determination of the cosets or a constructibility theorem for the mate locus. [Theorem and proof](../notes/2026-10-15-generalization-projection-torsion-coset-reduction.md).
-
-## 25. Quintic (h=2): compact incidence, ODE, and spectral accelerator
+## Actual h=2 incidence and its linear-system meaning
 
 On the justified remaining nonendpoint \(A_4\) quintic \(h=2\) parameter open, write \(H=t^2+vst+ws^2\), \(Q=\sum_{i=0}^6q_is^{6-i}t^i\), \(j=\bar J\), and \(R=D_HQ\). The accepted closed-lane and intrinsic-contact results give the **unit ideal** \((q_5,q_6)=A\) on the localized candidate ring; this is not permission to invert either coefficient separately. The full quadratic and cubic rank incidence has 77 minors. Its saturation by \((q_5,q_6)\) equals the saturation of **twelve fixed generators**: eleven selected cubic minors and \(jM_{56}\), where \(M_{56}=q_5r_6-q_6r_5\). The identity uses pivot covers, works with nonreduced parameter rings, and does not divide by \(j\). The actual conductor norm product can be appended as a single necessary equation without splitting its factors.
 
 On the same localized scheme, the cubic rank condition is equivalently the existence of uniquely determined, locally gluing witnesses \(d,u\) for
 \[
-h(z)q'(z)=(dz+u)q(z),\quad
+h\(z\)q'\(z\)=(dz+u)q\(z\),\quad
 E_i=w(i+1)q_{i+1}+(vi-u)q_i+(i-1-d)q_{i-1}=0
-\quad(0\le i\le7).
+\quad\(0\le i\le7\).
 \]
 The equations imply **as ideal memberships**, not just at closed points, \((d-5)(d-6)=0\) and \(j(d-6)=0\). The \(d=5\) branch retains simple intrinsic-\(A_4\) infinity contact; \(d=6\) has no infinity root. Neither is discarded.
 
+Geometrically, the ODE measures invariance of the zero divisor of q under the polynomial vector field `h\(z\) d/dz`, with the right-hand affine factor recording the chosen line-bundle lift and infinity weight. At a root x of q of multiplicity m, write `q=(z-x)^m r`, r\(x\)≠0. The leading term of hq′ is `m h\(x\) r\(x\)(z-x)^(m-1)`, whereas `(dz+u)q` has order at least m. In characteristic zero this forces h\(x\)=0. Thus the derivative equation encodes support at the actual root directions, rather than an unrelated coefficient rank. Repeated roots of h and the prescribed infinity support still need their exact coefficient equations; this interpretation does not replace them. In characteristic p a multiplicity divisible by p makes the displayed leading coefficient vanish, so this support argument does not extend without a separability or multiplicity hypothesis.
+
 There is a single derived spectral polynomial on this entire scheme. Put \(\Delta=v^2-4w\), \(\eta=dv-2u\),
 \[
-P_6(X)=X(X^2-4\Delta)(X^2-16\Delta)(X^2-36\Delta),\qquad
-P_5(X)=(X^2-\Delta)(X^2-9\Delta)(X^2-25\Delta).
+P_6\(X\)=X\(X^2-4\Delta\)\(X^2-16\Delta\)\(X^2-36\Delta\),\qquad
+P_5\(X\)=\(X^2-\Delta\)\(X^2-9\Delta\)\(X^2-25\Delta\).
 \]
-Then \((d-5)P_6(\eta)+(6-d)P_5(\eta)\) belongs to the same ODE ideal. The proof uses the two complementary idempotents \(d-5\) and \(6-d\) and Cayley–Hamilton on the sixth and fifth symmetric powers, without radicalizing, inverting a discriminant, or choosing roots. This is a computational compression, **not a unit-ideal certificate**. The subsequent whole-\(h=2\) global saturation prospect stopped at its memory guard and supplied no mathematical emptiness result; that resource-limit history is not part of the theorem. [Twelve generators](../notes/2026-10-15-generalization-quintic-h2-twelve-generator-support-system.md), [ODE equivalence](../notes/2026-10-15-generalization-quintic-h2-automatic-open-and-ODE.md), [spectral identity](../notes/2026-10-15-generalization-quintic-h2-unified-spectral-accelerator.md).
+Then \((d-5)P_6\(\eta\)+(6-d)P_5\(\eta\)\) belongs to the same ODE ideal. The proof uses the two complementary idempotents \(d-5\) and \(6-d\) and Cayley–Hamilton on the sixth and fifth symmetric powers, without radicalizing, inverting a discriminant, or choosing roots. This is a computational compression, **not a unit-ideal certificate**. The subsequent whole-\(h=2\) global saturation prospect stopped at its memory guard and supplied no mathematical emptiness result; that resource-limit history is not part of the theorem. [Twelve generators](../supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit), [ODE equivalence](../supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-automatic-open-ode-independent-audit), [spectral identity](../supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit).
 
-## 26. Single-field conductor power compression: exact scope
 
-A useful conditional complement to the split-phase analysis is a **single-residual-field compression theorem**. Let \(A\hookrightarrow B\) be a finite inclusion of characteristic-zero Artinian **local** rings, with \(K=A_{\rm red}\) containing all roots of unity and \(E=B_{\rm red}\) a field of degree \(r\) over \(K\). If \(u\in B^\times\) has \(u^n\in A\), then already \(u^m\in A\), where \(m=[K(\bar u):K]\le r\) and \(m\mid n\). The proof uses the cyclic Galois orbit of \(\bar u\) and unique Hensel lifting of the simple root of \(V^{n/m}-u^n\). Crucially this proves membership in the **full nonreduced ring**, with no bound on nilpotent length.
+The **global** monic necessary incidence has seventeen equations in nine variables on the original-parameter open `delta E Delta1!=0`. It retains the inverse-map boundary `Delta K=0`. Saturating by `Delta K` treats only a smaller chart and cannot settle the global incidence. The [global monic proof](../supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence) states this boundary exactly. The [degree-five j=0 reduction](../supplements/QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md) remains unresolved: both proposed exclusions mistake a fixed simple A4 zero at source infinity for one at source zero, so they do not justify their pure-power specialization. The later verifier additionally divides the unreversed determinant polynomial instead of the actual source conductor. Replaying its resultants cannot repair this reduction gap. The degree-six j!=0 branch and full conductor-power descent remain open. Neither the ODE reduction nor the spectral accelerator resolves them.
 
-For an integral Cohen–Macaulay projective surface with finite normalization, if a fixed primitive section \(Q\) has no conductor-prime zero and every generic upstairs reduced conductor algebra is a **single field** of degree at most \(r\), then existence of any descending power implies descent of \(Q^{\operatorname{lcm}(1,\ldots,r)}\). The depth argument for \(\nu_*\mathcal O_S/\mathcal O_X\) extends generic membership across closed points. On a hypersurface, if \(Q\) has degree \(d\) and its zero support is the full inverse curve, this gives a mate of degree at most \(d\operatorname{lcm}(1,\ldots,r)\), **conditional on existence of some mate power**. The fixed primitive ray is itself a hypothesis, not automatically produced by a general mate.
-
-Split residual algebras invalidate this bound: \(k\hookrightarrow k\times k\), \(u=(1,\zeta)\), has arbitrarily large least exponent as the order of \(\zeta\) varies. The theorem is therefore not a uniform bound on arbitrary conductor phase systems. The source states the proof as a theorem pending independent review, so retain that review qualification rather than promoting it as a new canonical result. [Full argument](../notes/2026-10-13-evening-general-conductor-power-compression.md).
-
-## 27. Intrinsic (A_4) contact bound and a necessary quintic norm
+## Intrinsic A4 contact and the necessary homogeneous norm
 
 In the admissible nonendpoint genus-one quintic \(A_4\) model, write \(j=\bar J\), \(\delta\ne0\), and \(F\) for the **actual primitive conductor octic** in the target coordinate \(p=\delta/r\). On \(j=0\), the exact coefficient identities are
 \[
-F(0)=0,\quad [p]F=-2G(\delta^2+2B+G)(3\delta^2+G)^2,
+F(0)=0,\quad [p]F=-2G\(\delta^2+2B+G\)\(3\delta^2+G\)^2,
 \]
 and, when \(G=-3\delta^2\),
 \[
-[p^2]F=-108\delta^5(\delta^2-B).
+[p^2]F=-108\delta^5\(\delta^2-B\).
 \]
 The accepted \(G=j=0\) mate exclusion and full target-fiber criterion show that any remaining \(j=0\) mate candidate has \(G\ne0\) and \(\delta^2+2B+G\ne0\). Thus its intrinsic \(A_4\) conductor contact is **exactly one or two**, not arbitrarily large. The contact-two case occurs on \(G=-3\delta^2\) with \(B\ne\delta^2\).
 
-For the homogeneous \(h=2\) factorization \(F_{\rm src}=H_2Q_6\), the first-symbol factor \(H_2\) cannot contain the \(A_4\) point on a surviving candidate. If \(\operatorname{Res}(H_2,Q_6)\ne0\) when \(j=0\), all sextic roots would have to lie at the \(A_4\) point, forcing conductor contact six and contradicting the bound. Therefore **every remaining \(h=2\) mate candidate**, for either value of \(j\), satisfies \(\operatorname{Res}(H_2,Q_6)=0\). This is a necessary homogeneous norm equation, not an emptiness proof; the repeated-root and infinity charts remain included. [Intrinsic coefficient and support proof](../notes/2026-10-14-generalization-quintic-intrinsic-a4-contact-bound.md).
+For the homogeneous \(h=2\) factorization \(F_{\rm src}=H_2Q_6\), the first-symbol factor \(H_2\) cannot contain the \(A_4\) point on a surviving candidate. If \(\operatorname{Res}(H_2,Q_6)\ne0\) when \(j=0\), all sextic roots would have to lie at the \(A_4\) point, forcing conductor contact six and contradicting the bound. Therefore **every remaining \(h=2\) mate candidate**, for either value of \(j\), satisfies \(\operatorname{Res}(H_2,Q_6)=0\). This is a necessary homogeneous norm equation, not an emptiness proof; the repeated-root and infinity charts remain included. [Intrinsic coefficient and support proof](../supplements/QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-intrinsic-a4-contact-bound).
 
-## 28. Exact conductor–Jacobian divisor and weighted contact budget
 
-For a finite normalization \(\nu:S\to X=(F=0)\subset\mathbf P^3\) with \(X\) integral, a smooth curve \(C\) whose **full reduced inverse image** is one smooth Cartier \(c\cong C\), \(S\) regular along \(c\), and \(X\) regular at the generic point of \(C\), finite duality identifies the actual upstairs conductor as \(\mathcal O_S(-B)=\omega_S\otimes\nu^*\omega_X^{-1}\) near \(c\). Let \(A\) be the full common-zero divisor of the normal differential of \(\nu\) along \(c\), and \(D_F\) the common-zero divisor of the **actual first normal symbol** of \(F\). The residue/Jacobian identity yields the equality of effective divisors, with multiplicities,
+## Full conductor contact, its differential, and its weighted budget
+
+For a finite normalization \(\nu:S\to X=\(F=0\)\subset\mathbf P^3\) with \(X\) integral, a smooth curve \(C\) whose **full reduced inverse image** is one smooth Cartier \(c\cong C\), \(S\) regular along \(c\), and \(X\) regular at the generic point of \(C\), finite duality identifies the actual upstairs conductor as \(\mathcal O_S(-B)=\omega_S\otimes\nu^*\omega_X^{-1}\) near \(c\). Let \(A\) be the full common-zero divisor of the normal differential of \(\nu\) along \(c\), and \(D_F\) the common-zero divisor of the **actual first normal symbol** of \(F\). The residue/Jacobian identity yields the equality of effective divisors, with multiplicities,
 \[
 D_F=B|_c+A.
 \]
@@ -454,10 +229,41 @@ If \(X\) has degree \(a\), \(C\) degree \(d\) and genus \(g\), and \(k=c^2\), ad
 \[
 N=B\cdot c=d(a-4)+k-(2g-2).
 \]
-Writing \(B=\sum m_iD_i\), ampleness of \(c\) gives \(\sum m_i(D_i\cdot c)=N\), bounding prime conductor components, multiplicities and total branch contact. For each downstairs conductor curve, let \(d_\Delta\le a\) be the total generic reduced normalization degree. The **ordered off-diagonal pair correspondence**, including conjugate pairs on one prime, has total weighted first-projection contact bounded by \((a-1)N\). The three fixed-\(C_0\) singleton models give \((a,N,(a-1)N)=(8,20,140)\) for both quadric normalizations and \((16,51,765)\) for the plane normalization. These are finite integer-contact budgets, **not** bounds on scalar phase orders or nilpotent logarithmic defects. The global conductor need not be Cartier, only Cartier near \(c\); singular or non-Cartier lifts and generically nonregular carriers are outside the stated bridge. An independent review **passed under the stated Gorenstein, smooth Cartier-lift, full-support and generic-regularity hypotheses**; applications to a globally non-Gorenstein normalization require retaining the original local-versus-global distinction. [Independent review](../notes/2026-10-14-generalization-projection-conductor-budget-independent-review.md). [Jacobian identity](../notes/2026-10-14-generalization-projection-conductor-jacobian-bridge.md), [contact and pair budgets](../notes/2026-10-14-generalization-projection-conductor-contact-budget.md).
+Writing \(B=\sum m_iD_i\), ampleness of \(c\) gives \(\sum m_i\(D_i\cdot c\)=N\), bounding prime conductor components, multiplicities and total branch contact. For each downstairs conductor curve, let \(d_\Delta\le a\) be the total generic reduced normalization degree. The **ordered off-diagonal pair correspondence**, including conjugate pairs on one prime, has total weighted first-projection contact bounded by \((a-1)N\). The three fixed-\(C_0\) singleton models give \((a,N,(a-1)N)=(8,20,140)\) for both quadric normalizations and \((16,51,765)\) for the plane normalization. These are finite integer-contact budgets, **not** bounds on scalar phase orders or nilpotent logarithmic defects. The global conductor need not be Cartier, only Cartier near \(c\); singular or non-Cartier lifts and generically nonregular carriers are outside the stated bridge. An independent review **passed under the stated Gorenstein, smooth Cartier-lift, full-support and generic-regularity hypotheses**; applications to a globally non-Gorenstein normalization require retaining the original local-versus-global distinction. [Independent review](../supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-conductor-budget-independent-review). [Jacobian identity](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#local-residue-identity-and-global-contact), [contact and pair budgets](../supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-conductor-contact-budget).
 
-## Exact finite-Artinian phase descent and effective rational bound
 
-For an injective inclusion of finite-dimensional commutative algebras `A subset B` over a characteristic-zero field F, write their canonical etale/nilpotent decompositions `A=K+N_A`, `B=E+N_B`. Every unit `u in B*` has a unique expression `u=v*exp(w)` with `v in E*`, `w in N_B`. Put `D=E tensor_K E` and `rho=(v tensor 1)/(1 tensor v)`. Then **some positive power of u lies in A if and only if** `w in N_A` and `rho` is torsion in `D*`; the least such exponent is `ord(rho)`. This is the exact full-Artinian criterion, including nilpotent layers; reduced phase alone is insufficient. The proof uses the etale equalizer `K={e in E:e tensor 1=1 tensor e}` and characteristic-zero logarithm. The [source](../notes/2026-10-14-generalization-projection-finite-phase-space.md) further gives a conditional finite-type phase cover from bounded rational multiplication matrices, with parameter stratification and actual conductor tests. It does **not** compute mate existence for the fixed projection families.
+## Minimum actual carriers and Cartier-index compression
 
-For an explicitly presented rational constructible phase image `W=union_i(Y_i minus B_i)` in `G_m^D`, the [effective source](../notes/2026-10-15-generalization-effective-rational-phase-bound.md) enumerates torsion cosets by partitioning polynomial supports into vanishing blocks, applying Mann's root-of-unity ratio bound `P(S)=product(primes<=S)`, and solving the resulting binomial systems by Smith normal form. If d is the maximal translated support total degree and S the maximal support size, every **isolated torsion point** has order at most `P(S)*d^D`. This is a numerical upper bound, **not** a divisibility assertion. A common annihilating exponent may use `P(S)*lcm(1,...,d^D)`. For every resulting torsion coset K, one must still test `K subset B_i` and retain only `K minus B_i`; ignoring constructible boundaries can give false existence. Positive-dimensional retained torsion cosets contain torsion points of unbounded order. This is an effective procedure **once the phase image equations are supplied**, not an executed calculation for the three fixed-C projection families.
+The [canonical compression proof](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#canonical-compression-on-a-minimum-actual-carrier) chooses a carrier of minimum degree **among carriers that occur in an actual defining pair**. In characteristic zero, for a generically regular carrier and local Cartier exponent e, Picard torsion-freeness compresses its mate to eC~nH. For the fixed quartic, n=4e/a≥a and e≥a²/4; a genuinely minimum sextic carrier would require 3|e and e≥9. Choosing instead a minimum-degree surface merely containing C would invalidate the argument: the smooth quadric contains C but is not a possible sole-support carrier in characteristic zero.
+
+This mechanism can be used constructively as a lower-complexity target or obstructively as a local-index constraint. The proof uses no genus calculation; its degree-d formulation is in the same mathematical home. Generic singularity along C and characteristic-p Picard behavior remain separate boundaries.
+
+## Normal indices and the exact socle bridge
+
+[R-0034](../results/normal_carrier_index_socle.md) uses actual local Cartier index r, not surface multiplicity. For an actual mate multiplicity n=kr, the pointwise socle relation is D_n=(k−1)A_F+kD_r, with ordinary normal-layer torsion satisfying 2Σlength\(T_i\)=nD_n. [R-0035](../results/normal_carrier_bounded_index_exclusion.md) uses its inherited normal-carrier and quadratic-direction hypotheses to exclude the regime where all actual on-curve indices are at most four; it does not treat arbitrary higher indices or nonnormal carriers.
+
+[R-0036](../results/pointwise_conductor_socle_defect.md), for an already existing supported pair with its smooth singleton Cartier lift and invertible conductor, gives D_n=(n−1)A−B|c as an equality of actual divisors. It implies coefficientwise inequalities, not just a degree bound. It is not a substitute for full conductor-unit membership, and it has no established branchwise extension by summing over multiple inverse curves. See [the exact interface](carrier_conductor_socle_interfaces.md).
+
+A separate [normal-carrier divisor reformulation](../supplements/NORMAL_CARRIER_DIVISOR_GEOMETRY.md) preserves the source's proposed equivalence between a Q-Cartier Hodge equality and an actual positive divisor relation, together with its suggested local-socle certificate. That source strengthening remains explicitly pending independent mathematical audit; relocating its full proof does not promote it or replace the stated inputs of R-0034/R-0035.
+
+## Conditional sextic applications and the remaining implication
+
+The [conditional sextic treatment](normalization_conductor_phase2_addendum.md) retains the actual rank-22 global source, all q³ lift freedom, constant-rank cubic correction map, the quadric-cycle norm proof including collision and branch multiplicities, free-orbit unit certificate, remaining two-node conic and zero-defect pencils, degree-52 exceptional locus, and the singular-trisecant/nonnormal alternative. [Endpoint-four actual sextics](../supplements/ENDPOINT_FOUR_ACTUAL_SEXTICS.md) provide complete second-symbol lifts and a single-carrier necessary jet exclusion, not a construction or exhaustion of the family.
+
+The common mechanism is a global section whose admissible local class must lift through an actual source module and then descend through an actual conductor. Divisor classes, reduced phases, first symbols and formal roots each forget different information. Their comparison can guide constructions and exclusions only after establishing a common actual carrier or pair. No all-carrier coverage theorem, full h=2 incidence solution, or unrestricted characteristic-zero STCI conclusion follows.
+
+## Characteristic range of the mechanisms
+
+| Mechanism | What extends, and what fails |
+| --- | --- |
+| Full conductor fiber product, pure generic-to-global descent, fixed-carrier relation cone | Characteristic independent under the stated finiteness, depth and support hypotheses. |
+| Nilpotent unit-power rigidity | In characteristic zero, a nonzero logarithmic defect survives every power. In characteristic p, a sufficiently large p-power kills a finite nilpotent defect; it leaves non-torsion residue phases untouched. |
+| Single-field extension-degree compression | The proved form uses characteristic zero and all roots of unity in the residue field. It is not a theorem for arbitrary Q-algebras or arbitrary inseparable residue extensions. |
+| Plane differential exclusion | The identity forces b=0 in the field. It excludes every b>0 in characteristic zero; in characteristic p it only excludes b not divisible by p. A p-power can evade the differential test. |
+| Minimal-degree Cartier singleton classification | The retained proof uses characteristic-zero surface classification. No unrestricted positive-characteristic extension is asserted. |
+| Conductor–socle Jacobian comparison | The pointwise proof extends when the Jacobian factor n is invertible, with the same geometric hypotheses and actual socle input; in characteristic dividing n the Jacobian may vanish although the socle does not. |
+| Conditional sextic global-symbol algebra | An exact rational calculation extends only after its denominators and necessary rank minors remain invertible. The characteristic-zero Milnor/Hodge surface contradiction is a separate input and cannot be transported just from a matrix rank. |
+
+For this fixed embedding, every positive characteristic admits an actual STCI with a quartic carrier; the [complete characteristic-specific construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) proves this directly. Thus the characteristic-zero quartic-carrier exclusion and the nilpotent power obstruction must not be stated without their characteristic range. Positive-characteristic witnesses at each finite level do not supply one characteristic-zero or infinite-formal descending power.
+
+For a prescribed degree rather than eventual powers, [sections and modules through normalization](../supplements/NORMALIZATION_SECTION_AND_MODULE_DESCENT.md) proves the exact fiber-product and module-factorization criterion, including full inverse support, all branch degrees, integral singular curves and the normalized-blowup support test. The supported-conductor power argument there is a distinct direct proof.

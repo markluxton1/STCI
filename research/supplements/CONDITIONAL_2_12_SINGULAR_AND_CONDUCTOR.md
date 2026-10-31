@@ -4,7 +4,7 @@
 
 The [two-node torsion calculation](#2026-10-20-conditional-2-12-singular-continuation) and [subsequent singular continuation](#2026-10-21-conditional-2-12-singular-continuation2) analyze branch identifications. The [cubic-image/conductor interface](#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface) and [conductor ramification](#2026-10-21-conditional-2-12-conductor-ramification) add global compatibility conditions, with an [independent chart review](#2026-10-21-conditional-2-12-conductor-and-chart-independent-review).
 
-The [symbol-map and sextic realization dossier](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-elimination) supplies the equation-level inputs; the [strict-surface continuation](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-bound-continuation) imposes further conditions. The torsion and conductor tests are necessary compatibility constraints in the stated conditional geometry; they are not an unconditional exclusion of the (2,12) degree pair.
+The [symbol-map and sextic realization dossier](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-elimination) supplies the equation-level inputs; the [strict-surface continuation](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#nonnormal-conductor-budget-and-local-escape-models) imposes further conditions. The torsion and conductor tests are necessary compatibility constraints in the stated conditional geometry; they are not an unconditional exclusion of the (2,12) degree pair.
 
 Preserve the exact two-node factors, torsion scheme, diagonal-slice countercheck, and chart-independence qualifications below.
 
@@ -34,7 +34,7 @@ and its `diagonal_arithmetic` worker, with verdict PASS.
 Retain precisely the characteristic-zero curve, actual-CI, full generic
 coprime `(2,12)` initial ideal and saturated movement-two relation
 hypotheses in
-[the singular-root bridge note](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
+[the singular-root bridge note](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md).
 The current task investigates the necessary structured incidence, not
 unrestricted homogeneous equations. The inherited universal first
 incidence and complete second test are the promoted
@@ -274,8 +274,7 @@ Date: 2026-10-21. Author: `singular_gluing` continuation worker.
 Status: **new exact reductions and scoped exact exclusions; not
 canonical promotion**. The cubic-defect identities, generic line/conic
 decomposition and original-coordinate normalizations were independently
-reviewed PASS by `two_node_torsion_audit` before that worker exhausted
-its runtime allowance. The new completed line-component and boundary
+reviewed by `two_node_torsion_audit`. The new completed line-component and boundary
 CAS exclusions are submitted to `certificate_audit` for independent
 review. An interrupted conic computation gives no exclusion or survival
 certificate.
@@ -292,7 +291,7 @@ relation of movement two. The promoted inputs are
 and the universal first/second operators in
 [R-0007](../results/quadratic_root_obstruction_model.md).
 The finite singular-root bridge remains the reviewed proposal in
-[the singular-root note](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
+[the singular-root note](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md).
 
 This continuation additionally uses the independently reviewed
 **actual-pair** norm identity from
@@ -670,10 +669,7 @@ unit ideals, not on the interrupted trial or an equation count.
 
 # The cubic image and the anticanonical conductor interface
 
-Date: 2026-10-21. Status: **new exact computation and proposed geometric
-interface; independent review requested**. This note concerns the fixed
-curve C0 and the conditional pair (2,12;6,16;epsilon2). It does not
-claim emptiness or existence. No canonical record is changed.
+Status: **independently reviewed conditional proof in the actual-pair scope**. The fixed curve is C0, and the antecedent is an actual sole-support degree-(6,16) pair with full generic initial CI (2,12) and actual saturated movement-two first relation. The proof does not assert that this antecedent is realized, nor emptiness of the remaining incidence; no canonical promotion is made.
 
 ## 1. Explicit cubic image
 
@@ -809,17 +805,9 @@ two. It does not yet classify all possible nonreduced conductor
 components. In particular a necessary low-order root incidence does
 not supply an actual integral surface T or its conductor.
 
-## 5. Audit boundary
+## Reviewed actual-pair scope
 
-The M2 calculation proves the exact ideal, resolution, degree, and
-projective smoothness assertions, not a global pair. Independent
-review is requested for the graph/blowup identification, use of the
-lower-carrier exclusion for integrality, finite-duality global
-identification, and the generic-multiplicity-one component lemma.
-All conclusions retain the exact conditional-pair scope.
-
-
----
+The seven cubic coordinates, five quadrics, graph/base-ideal blowup construction and full conductor duality above were independently reconstructed in the actual sole-support (6,16), full generic (2,12), saturated movement-two setting. The [stronger conductor continuation](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2) retains the critical-value unit argument, monic local normalization, component-genus refinement and explicit rejection of the nonfinite nodal model. The argument does not assert that an abstract low-order incidence point supplies an actual global pair, nor does it close the remaining exceptional strata.
 
 ## 2026-10-21-conditional-2-12-conductor-ramification
 
@@ -827,24 +815,19 @@ All conclusions retain the exact conditional-pair scope.
 
 Date: 2026-10-21. Author: `conductor_budget` worker.
 
-Status: **new conditional proposal; independent audit requested**. The local
-normal-form and conductor computations below are exact. The global exclusion
-uses an explicitly stated anticanonical contraction hypothesis in section 3;
-that hypothesis is an **unresolved dependency in this note**. No canonical
-result record is changed. No global pair, emptiness certificate, or general
-nonnormal-surface bound is claimed.
+Status: **reviewed conditional conductor and ramification argument**. The anticanonical contraction hypothesis used below is established for the actual-pair scope in the preceding cubic-model proof and the stronger continuation. The local monic normalization and critical-value argument retain their explicit hypotheses. The nodal nonfinite attempted normalization is rejected as explained in section7. No global pair, full incidence-emptiness certificate or general nonnormal-surface bound is claimed.
 
 ## 1. Exact scope and source boundary
 
 Use the same actual-pair hypotheses as the reviewed but unpromoted
-[surface-bound proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-surface-bound): an actual
+[surface-bound proposal](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus): an actual
 homogeneous supported pair of degrees `(6,16)`, full generic coprime initial CI
 of degrees `(2,12)`, and actual saturated movement-two first relation, over an
 algebraically closed field of characteristic zero. The promoted inputs are
 [R-0010](../results/saturated_first_relation_normal_flatness.md) and
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md); the finite
 singular-root bridge remains the reviewed, unpromoted dependency in
-[the singular-gluing proposal](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-20-conditional-2-12-singular-gluingmd).
+[the singular-gluing proposal](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md).
 
 Put `B=Bl_C0(P3)`, `L=3H-E`, and `Q'=2H-E=L-H`. The strict sextic is
 `D in |2L|`, and `K_D=Q'|D`. In this note **D is assumed integral**. At a root
@@ -1144,17 +1127,11 @@ multiplier is the simple zero `alpha=z`. The surface is nonnormal along
 
     W: w=0, z=t^3,
 
-which leaves `E`. Its normalization is obtained with
+which leaves E. The attempted parametrization
 
-    y=w/(z-t^3),       z*(y^2-1)=-t^4.
+    y=w/(z-t^3), z*(y²−1)=−t^4
 
-The conductor has `z=t^3`, and therefore `y^2=1-t`. It has two smooth local
-branches at `t=0`, so the delta-two cusp obstruction does not apply. The
-normalization has `A3` singularities at `y=+1` and `y=-1` over that point.
-This is a LOCAL caution only. It is not a sextic with global
-`k`-coefficients, does not assert any first/second/spectral incidence point,
-and provides no degree-twelve standard-basis certificate or supported
-complete intersection.
+is not finite at the origin: its fiber there contains the affine y-line. It therefore supplies neither the finite normalization nor a conductor or normalization-singularity calculation. The valid content is the displayed local surface equation and its nonnormal curve; it is not an actual globally allowed sextic or a supported pair. A monic integral extension candidate, whose normality and exact conductor are still to be verified, is retained in the stronger continuation.
 
 Repeated zeros of `alpha` are likewise genuinely unresolved. A gap-ten
 term alone does not force transverse singularity `z^m+t^10` along a
@@ -1163,23 +1140,9 @@ double transverse singularity along `z=t=0`, with conductor cost two,
 rather than the cost ten of `p*z^2+t^10`. A conductor-degree budget by
 itself does not exclude these strata.
 
-## 8. Evidence and next interface
+## Remaining actual-equation incidence
 
-The finite-duality, genus, and formal-normal-form arguments in this file
-are new proposals. The geometric contraction and section-descent bridge
-in section 3 is explicitly unresolved here. A separate independent audit
-is requested before these conclusions are used in an actual-pair
-exclusion. No existing normal-surface proof, accepted incidence proof,
-canonical result metadata, or historical record has been edited.
-
-The new target is the precise residual condition (14), retaining the
-forced norm multiplier, all first and second obstruction equations, the
-full spectral gluing, and actual global coefficient lifting conditions.
-Neither a finite computation nor the local examples in section 7 prove
-that residual condition realizable.
-
-
----
+The actual anticanonical contraction and reviewed monic ramification exclusion do not settle the multiple-base-zero or nodal-contact strata. Retain the forced norm multiplier, all first and second ambient equations, full spectral gluing and actual homogeneous coefficient lifting. None of the local escape models constructs a point of that full incidence, a degree-twelve standard basis, or a proper degree-sixteen mate.
 
 ## 2026-10-21-conditional-2-12-conductor-and-chart-independent-review
 
@@ -1194,145 +1157,6 @@ unsaved worker conclusions. All actual-pair implications retain the
 fixed `C0`, characteristic zero, degrees `(6,16)`, FULL generic coprime
 ordinary initial CI `(2,12)`, ACTUAL saturated movement-two first
 relation, and sole reduced support `C0`.
-
-## 1. The explicit cubic contraction
-
-The reviewed source is
-[the cubic-image and conductor-interface note](#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface).
-The new verifier was run directly:
-
-    /opt/homebrew/bin/M2 --script research/computations/conditional_2_12_cubic_image_2026_10_21.m2
-
-It terminated successfully, checking the five substituted quadratic
-relations, dimension four, degree five, projective smoothness, and
-resolution ranks `(1,5,5,1)` with shifts `(0,2,3,5)`. These are new
-computations, not inherited theorem verifiers. The resolution gives
-an arithmetically Cohen--Macaulay type-one ring and canonical sheaf
-`O_V(-2)`. Connectedness follows from `H0(O_V)=k`; with smoothness
-this gives the required geometric integrality. The off-quadric first
-four cubic coordinates recover the original point of `P3`, so the
-map is birational onto the integral threefold cut out by those five
-equations. No classification of a Fano threefold is needed.
-
-The seven degree-three generators give the relative Rees embedding
-
-    Bl_C0(P3) -> P3 x P6.
-
-The inverse projection from the cubic image has base ideal
-`(y0,y1,y2,y3)`. Its scheme of zeros is the smooth conic
-`y4*y6-y5^2=0`, so the graph closure is the blowup of that conic.
-The image of the original blowup is a closed integral graph with the
-same dense open and is exactly that graph closure, scheme-theoretically.
-The exceptional divisor is `Q'=2H-E=L-H`; the inverse sections are
-the common strict-quadric factor times the four original coordinates,
-which have no common zero. **PASS for the graph and blowup bridge.**
-
-Every displayed basis element of `H0(I_C0^2(6))` is a product of two
-of the seven cubics. Thus every source sextic descends to a quadric
-section `T` on `V`, and its transformed divisor is `phi^*T`.
-The five quadratic relations are exactly the kernel dimension
-`28-23=5`. The actual-pair quadric-factor exclusion makes `Q'`
-absent from that pullback; equivalently `T` does not contain the
-conic center. Therefore the pullback is also the strict transform.
-
-The actual integrality deduction uses the literal Consequences in
-[R-0001](../results/quartic_carrier_exclusion.md): its audited factor
-reduction combines plane, quadric, cubic and quartic exclusions.
-Every irreducible factor of `F6` must contain `C0`, and must itself
-have the other equation as a mate. Each consequently has degree at
-least five. A sextic has only one such factor, with multiplicity one.
-Hence `F6`, its strict transform and the descended `T` are integral.
-This is a valid use of the canonical scope, including reducible
-presentations. It is not an assertion of integrality for arbitrary
-members of the 23-dimensional source.
-
-## 2. Canonical ideal and conductor-component genus
-
-Let `nu:Y->T` normalize an actual integral quadric section. The
-normal surface `Y` is Cohen--Macaulay. Finite duality, together with
-the adjunction `omega_T=O_T`, identifies
-
-    omega_Y = Hom_T(nu_*O_Y,O_T) = I_conductor
-
-as fractional ideals in the common rational function field. The
-last equality follows by the multiplier characterization of the
-conductor and does not assert that `Y` is Gorenstein.
-
-For the full conductor scheme `Delta`, the exact sequence
-`0 -> omega_Y -> O_Y -> O_Delta -> 0` gives depth one for the
-nonempty quotient; thus `Delta` is pure Cohen--Macaulay of dimension
-one. Since `End(omega_Y)=O_Y` on the normal surface, applying
-`Hom(-,omega_Y)` gives
-
-    omega_Delta = Ext1(O_Delta,omega_Y)=O_Delta.
-
-The map `omega_Y -> End(omega_Y)` in this calculation is the
-inclusion of the conductor ideal, so the cokernel is precisely
-`O_Delta`. This checks the global identification, not merely its
-codimension-one restriction. **PASS without a Cartier conductor or
-Gorenstein normalization assumption.**
-
-For an integral reduced component `R` of generic conductor
-multiplicity one, finite same-dimensional duality gives
-`omega_R=Hom_Delta(O_R,omega_Delta)`. Its composition into `O_R`
-is generically nonzero because the generic local ring of `Delta`
-along `R` is its residue field. Torsion-freeness of `omega_R`
-makes the map injective, with finite-length cokernel. Consequently
-`2p_a(R)-2<=0`. Other conductor components may carry nilpotents;
-none of those steps assumes they are reduced. **PASS for the
-arithmetic-genus-at-most-one component lemma.**
-
-## 3. Ramified simple base multiplier: local and global audit
-
-The reviewed saved source is
-[the conductor-ramification note](#2026-10-21-conditional-2-12-conductor-ramification).
-At a smooth ramified root point over a simple base zero, its
-Weierstrass and parameter-Morse steps preserve the exceptional
-parameter `t` and give
-
-    F'=x^2-B(w,t),
-    B=(s-t^5 sqrt(u))*(s+t^5 sqrt(u)),
-    s(w,0)=w^2/2,       u a unit.
-
-The two factors have degree two in `w` in Weierstrass form and
-have no common factor. Nonnormality therefore forces one factor
-to be `unit*d^2`, with `d=w-phi(t)`. The other cannot also be a
-square: its restriction to `d=0` has odd `t`-valuation five.
-It is reduced, so the double cover `y^2=B_+` is normal and is
-the full normalization of the original ring. The inclusions are
-
-    R+d R y subset R+R y,        R=k[[w,t]].
-
-An element of the smaller ring is a conductor element precisely
-when multiplication by `y` remains in that ring; this forces its
-even coefficient as well as its odd coefficient to be divisible
-by `d`. Thus the conductor is exactly `d*(R+R y)`. Its curve germ
-is `y^2=t^5*unit`, reduced and irreducible with delta invariant
-two and generic conductor multiplicity one. These computations
-are exact and retain the full conductor scheme.
-
-If its global conductor curve is not contracted by `phi`, it maps
-finite birationally to a conductor curve on the normalization of
-`T`: it meets the open where `phi` is an isomorphism. Arithmetic
-genus can only increase under the resulting finite birational
-image. The genus-two cusp therefore contradicts section 2.
-
-If the nonnormal curve is a contracted ruling `W`, its normal
-bundle is `O_W + O_W(-1)` and `D|W=O_W`. Since the equation
-vanishes to order at least two on `W`, its quadratic normal form
-has discriminant in `H0(P1,O(2))`. The local model has quadratic
-form `x^2-t^5*unit*d^2`, so the same nonzero discriminant has
-order five at that point. Unit changes of normal frame preserve
-this order, contradicting total degree two. A curve contained in
-`D intersect Q'` is a residual ruling and is covered by this case.
-
-The explicit cubic contraction and actual integrality in section 1
-supply all the formerly unresolved global bridges in the saved
-ramification note. **PASS for exclusion of a nonnormal curve
-through a smooth ramified root over a simple BASE multiplier
-zero.** Unramified simple zeros are already isolated `A9` points.
-This result does not dispose of repeated base multiplier zeros
-or multiplier zeros at root nodes.
 
 ## 4. Tiny free-orbit unit certificate and its exact coverage
 

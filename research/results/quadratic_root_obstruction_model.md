@@ -15,14 +15,14 @@ dependencies:
   - STCI-R-0005
   - STCI-R-0006
 evidence:
-  - "research/notes/2026-10-14-generalization-quadratic-root-universal-incidence.md"
-  - "research/notes/2026-10-14-generalization-quadratic-root-second-obstruction.md"
-  - "research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md"
+  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
+  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
+  - "research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md"
 independent_audits:
-  - "research/notes/2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit.md"
-  - "research/notes/2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit.md"
-  - "research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md"
-accepted_in: "research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md"
+  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
+  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
+  - "research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md"
+accepted_in: "research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -59,12 +59,12 @@ The second obstruction is a necessary condition for actual supported complete in
 
 ## Proofs and independent reviews
 
-- [Universal first incidence](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quadratic-root-universal-incidence.md) and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit.md).
-- [Actual second obstruction](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quadratic-root-second-obstruction.md) and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit.md).
-- [Global second-dual compression](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression.md) and [independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit.md).
+- [Universal first incidence](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd) and [independent audit](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit).
+- [Actual second obstruction](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-quadratic-root-second-obstruction) and [independent audit](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit).
+- [Global second-dual compression](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression) and [independent audit](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit).
 
-These are accepted proof and audit links on the preserved Ultra branch, not newly rerun computations.
+These links identify the retained current proof and independent reconstruction; the computations were not rerun in this consolidation.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original evidence identities and theorem scope remain unchanged.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

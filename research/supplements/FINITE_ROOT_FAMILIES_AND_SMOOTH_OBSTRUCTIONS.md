@@ -4,9 +4,9 @@ Permanent complete mathematical dossier with hypotheses, proofs, characteristic 
 
 ---
 
-## 2026-10-15-generalization-intrinsic-finite-root-family
+<a id="2026-10-15-generalization-intrinsic-finite-root-family"></a>
 
-# Intrinsic finite root families without a split normal bundle
+## Intrinsic finite root families without a split normal bundle
 
 Date: 2026-10-15; completed 2026-10-16. Author: `intrinsic_root_finite_family`.
 Status: **NEW STRUCTURAL GENERALIZATION; targeted independent review passes**.
@@ -20,7 +20,7 @@ proves the new relative cohomology and bounded-family input and the new
 intersection identities. It replays no accepted computation or geometric
 algebraization proof.
 
-## 1. An intrinsic finite-family theorem
+### 1. An intrinsic finite-family theorem
 
 Work over an algebraically closed field `k` of characteristic zero.
 Let `X` be a fixed smooth threefold, let `E subset X` be an effective
@@ -78,7 +78,7 @@ Nothing in the theorem asserts algebraization or emptiness of the
 stable scheme. No splitting of a normal bundle, rational base curve,
 product presentation of `E`, or chosen root equation is assumed.
 
-## 2. The new relative vanishing and base-change proof
+### 2. The new relative vanishing and base-change proof
 
 The actual relative correction line bundle is
 
@@ -140,7 +140,7 @@ reducible or nonreduced curve has `H0=0` is being used. Smoothness and
 geometric connectedness of the root fibers are essential to this
 particular intrinsic numerical argument.
 
-## 3. Why the accepted ideal tower now applies
+### 3. Why the accepted ideal tower now applies
 
 The relative Cartier condition ensures that the root equation remains
 regular after any `T -> S`. This is the universal base-change property
@@ -180,7 +180,7 @@ classes are therefore independent, so `E` is smooth along that root.
 This also supplies the smooth transverse local setting whenever the
 formal-branch theorem is subsequently applied.
 
-## 4. A genuine bounded parameter space, with its boundary retained
+### 4. A genuine bounded parameter space, with its boundary retained
 
 The theorem starts with a finite-type family; fixed integers `g,A,nu`
 on an arbitrary ambient divisor are not asserted by themselves to
@@ -240,7 +240,7 @@ surface. The line-bundle degree argument supplies the explicit
 numerical stratification instead. Varying over infinitely many
 Hilbert polynomials does not give one finite-type family or one `N`.
 
-## 5. Arbitrary actual normal bundles in a space-curve blowup
+### 5. Arbitrary actual normal bundles in a space-curve blowup
 
 Let `C subset P3` be any fixed smooth connected curve, of degree `e`
 and genus `gamma`, and put
@@ -326,7 +326,7 @@ flat family over `S` and the flat degree-`r` fiber maps. This is a
 bounded-family assertion for fixed actual `C` and fixed numerical
 root class, not for unbounded root order or varying embeddings.
 
-## 6. Geometric emptiness produces a finite obstruction order
+### 6. Geometric emptiness produces a finite obstruction order
 
 Continue with (9)--(11), a fixed finite-type family as above, and the
 uniqueness condition (1). A compatible formal Cartier root gives the
@@ -386,7 +386,7 @@ any independently justified numerical incompatibility with (18).
 The plane inequality (19) belongs specifically to the space-curve
 blowup application.
 
-## 7. Conditional consequence for an actual complete intersection
+### 7. Conditional consequence for an actual complete intersection
 
 This step still requires a **valid actual-CI-to-root bridge** in its
 precise stated scope. If the bridge supplies a root in this family,
@@ -419,15 +419,13 @@ Singular or nonreduced roots are outside the negative-degree argument
 proved here. The hypotheses do not assert that every actual normal
 bundle splits, that every smooth root satisfies (1) or (17), or that
 every numerical class satisfies (20). No cutoff value is computed.
-The universal STCI problem and unrestricted `C0` remain open. No
-canonical index, commit, or memory was changed by this note.
-
+The universal STCI problem and unrestricted `C0` remain open.
 
 ---
 
-## 2026-10-15-generalization-intrinsic-finite-root-family-independent-audit
+<a id="2026-10-15-generalization-intrinsic-finite-root-family-independent-audit"></a>
 
-# Independent audit: intrinsic finite root families and nonsplit ruled numerics
+## Independent audit: intrinsic finite root families and nonsplit ruled numerics
 
 Date: 2026-10-15. Reviewed: 2026-10-16.
 Reviewer: `relative_scope_audit`.
@@ -443,7 +441,7 @@ checks their new relative hypotheses and numerical inputs; it does not
 replay those accepted proofs or any accepted computation. No CAS or
 accepted verifier was run.
 
-## 1. Relative negativity really yields a vector bundle over a nonreduced base
+### 1. Relative negativity really yields a vector bundle over a nonreduced base
 
 Write `q:mathcal Z -> S` for the proper smooth family with geometrically
 connected one-dimensional fibers, and put
@@ -493,7 +491,7 @@ Properness here is a property of `q`; the parameter scheme need not be
 proper. No global projectivity of the original intrinsic `X` is used
 for this part of the statement.
 
-## 2. The Cartier hypotheses supply the accepted lifting machinery
+### 2. The Cartier hypotheses supply the accepted lifting machinery
 
 The root is an effective Cartier divisor and its quotient is flat over
 `S`. It therefore remains Cartier after arbitrary base change, by
@@ -529,7 +527,7 @@ cutoff, no inference from one adjacent equality, no algebraization
 claim from the tower alone, and no assertion of flatness of an infinite
 inverse-limit module.
 
-## 3. The Hilbert construction is a bounded family with its scheme structure
+### 3. The Hilbert construction is a bounded family with its scheme structure
 
 For projective `E`, a chosen polarization and one Hilbert polynomial
 give a projective finite-type Hilbert scheme with a flat universal
@@ -572,7 +570,7 @@ the needed fixed-invariant families. An infinite union over Hilbert
 polynomials supplies no single finite-type parameter scheme or uniform
 stabilization integer.
 
-## 4. The nonsplit blowup identities have consistent signs
+### 4. The nonsplit blowup identities have consistent signs
 
 Let `n=deg N_(C/P3)=4e+2gamma-2`. With the explicit line convention
 `E=P_lines(N)` and `eta=c1 O_E(E)`, one has
@@ -624,7 +622,7 @@ also valid: `mathcal Z -> C x S` is proper with finite geometric fibers,
 thus finite; flatness follows from `S`-flatness and the fiberwise flatness
 criterion. Its rank is the fixed degree `r`.
 
-## 5. Numerical incompatibility implies an empty stable scheme and finite order
+### 5. Numerical incompatibility implies an empty stable scheme and finite order
 
 For a smooth formal root in the blowup, the accepted transverse-branch
 construction has normal degree `nu` and hyperplane degree `h=er`.
@@ -655,7 +653,7 @@ scheme-theoretic stabilization then gives one finite empty stage for
 the chosen whole family. No explicit value for that stage has been
 deduced from the numerical argument.
 
-## 6. The actual-CI application keeps its bridge condition and strict indexing
+### 6. The actual-CI application keeps its bridge condition and strict indexing
 
 This audit accepts the actual-CI bridge only when its full independent
 hypotheses hold. If it supplies the strict local ideal
@@ -671,21 +669,19 @@ intersection. Singular and nonreduced roots remain outside this
 intrinsic negative-degree proof. The unrestricted characteristic-zero
 `C0` question and the universal STCI question remain open.
 
-The review produced only this audit file. It changed no accepted
-verifier, canonical record, index, commit, or memory.
 
 
 ---
 
-## 2026-10-15-generalization-smooth-root-formal-nonexistence
+<a id="2026-10-15-generalization-smooth-root-formal-nonexistence"></a>
 
-# Positive-normal algebraization excludes every smooth movement-two formal root
+## Positive-normal algebraization excludes every smooth movement-two formal root
 
 Date: 2026-10-15. Author: `formal_algebraization_route`.
 Status: **GEOMETRIC THEOREM; independently audited in characteristic zero**.
 Accepted conormal, blowup, actual-CI bridge, and formal-root functor statements
 are inputs. No accepted computation or proof was rerun. A distinct worker
-reviewed the [branch-normalization and ruled-surface intersection steps](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd),
+reviewed the [branch-normalization and ruled-surface intersection steps](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd),
 and the [full independent audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
 passes Sections 1--8, including the general criterion and finite-stage/gap
 consequences. Section 9 preserves an ineffective finite-jet attempt.
@@ -694,7 +690,7 @@ also passes the formal geometric theorem and finite smooth-root cutoff
 in Section 10 over arbitrary algebraically closed fields, retaining the
 explicit normal-bundle hypothesis and the actual-CI bridge boundary.
 
-## 1. The result concerns all normal orders together
+### 1. The result concerns all normal orders together
 
 Let `C` be a smooth rational curve of degree `e>=4` in `P3` over an
 algebraically closed field of characteristic zero. Assume its normal bundle
@@ -728,7 +724,7 @@ all other algebraic branches and all other exceptional intersection
 components, and bounds the degree of the algebraic closure anyway. It does
 not assume that a formal line bundle comes from `Pic(B)`.
 
-## 2. A reusable numerical criterion
+### 2. A reusable numerical criterion
 
 The same argument gives a criterion beyond movement degree two. Let `C`
 be a smooth rational curve as above, of degree `e` with balanced normal
@@ -778,7 +774,7 @@ a structural bound in `r`, rather than a list of root-degree profiles.
 The criterion is sufficient; no assertion is made on parameters that fail
 it. Singular, nonreduced, or disconnected roots require separate arguments.
 
-## 3. The compatible Cartier ideal defines a smooth formal surface
+### 3. The compatible Cartier ideal defines a smooth formal surface
 
 Write `E_m=V(I_E^(m+1))`. The exact functor used here is the one in the
 [uniform formal-root tower note](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-finite-determinacy):
@@ -803,7 +799,7 @@ The first quantity in (1) is positive, so (4) is ample. This step only
 uses the embedded Cartier ideal and smoothness of the full root divisor;
 no choice of a global defining function is made.
 
-## 4. Algebraize the branch and preserve it under normalization
+### 4. Algebraize the branch and preserve it under normalization
 
 Bost's geometric formal algebraicity theorem, derived there from
 Hartshorne's formal-function theorem, in [*Algebraic leaves of algebraic
@@ -856,7 +852,7 @@ The latter equality uses the actual degree-`r` map `Z->C` and the degree
 `e` hyperplane bundle on `C`. Other branches or conductor components do
 not alter (5) or (6).
 
-## 5. High self-intersection forces a ruled-surface degree bound
+### 5. High self-intersection forces a ruled-surface degree bound
 
 By (1) and (5), [Hartshorne, *Curves with high self-intersection on algebraic
 surfaces*, Theorem 4.1, p. 122](https://www.numdam.org/item/PMIHES_1969__36__111_0.pdf)
@@ -904,7 +900,7 @@ then `D^2=0`, contradicting (8) and `d>0`. Thus `a>=1`. From (7),
 Together with (8), this proves (2). It did not require full descent of the
 formal divisor or its line bundle to `B`.
 
-## 6. Plane sections give the opposing degree bound
+### 6. Plane sections give the opposing degree bound
 
 Let `m` be the generic multiplicity of the integral surface `S` along
 `C`. Its strict transform is `W`. The actual intersection divisor
@@ -935,7 +931,7 @@ Equivalently, blow up these plane points with their actual multiplicities
 is nonnegative. This proves the same bound without a local singularity
 classification.
 
-## 7. Apply the criterion to every smooth movement-two root
+### 7. Apply the criterion to every smooth movement-two root
 
 Take `epsilon=2`, `lambda=2e-1`, `e>=4`, and `r>=2`. Then
 
@@ -969,7 +965,7 @@ For `C0` and `r=2`, the numerical chain is
 There is no such integral surface, even allowing all additional
 algebraic branches or exceptional components.
 
-## 8. Finite towers and the boundary of the conclusion
+### 8. Finite towers and the boundary of the conclusion
 
 The accepted uniform tower proves uniqueness and gives descending closed
 schemes `K_m` on a fixed finite-type coefficient open. On its smooth
@@ -992,9 +988,8 @@ or nonreduced root divisors, unsaturated first relations, joint leading
 base points, or other movement degrees automatically.
 
 The universal STCI question and unrestricted `C0` problem remain open.
-No commit, accepted verifier replay, or memory write was performed.
 
-## 9. Failure shield for an attempted effective finite-jet bound
+### 9. Failure shield for an attempted effective finite-jet bound
 
 A Hilbert-section count on a finite primitive root multiple `V_k` may
 produce an actual surface containing `V_k`. This alone does not supply
@@ -1021,7 +1016,7 @@ effective factorization theorem with the necessary global unit and line
 bundle data. Neither is established here. The Hilbert count therefore
 does not turn the existential finite cutoff into a claimed explicit one.
 
-## 10. Characteristic scope: a separately recorded extension
+### 10. Characteristic scope: a separately recorded extension
 
 **Extension independently audited.** The geometric theorem and
 the numerical criterion in this note also apply over an algebraically
@@ -1075,12 +1070,11 @@ not extend its generic separability step. The finite-gap bound in a
 different characteristic is conditional on a valid actual bridge giving
 the local ideal `(h,u^(s-r))`, with every other bridge hypothesis retained.
 
-
 ---
 
-## 2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit
+<a id="2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit"></a>
 
-# Independent audit of smooth-root formal nonexistence
+## Independent audit of smooth-root formal nonexistence
 
 Date: 2026-10-15. Author: `new_logarithmic_review`.
 
@@ -1102,12 +1096,12 @@ during review. This audit inspected the primary algebraicity and
 high-self-intersection sources. Accepted root-functor, finite-tower,
 actual-CI bridge, and prior CAS/class computations are premises and were
 not replayed. The existing
-[focused branch/ruled review](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd)
+[focused branch/ruled review](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd)
 is an input; the additional work here checks the algebraicity hypotheses,
 global branch selection, multiplicity/genus passage, all-r numerical
 scope, and the finite-cutoff conclusion.
 
-## 1. Exact formal object and the whole smooth root
+### 1. Exact formal object and the whole smooth root
 
 Throughout, C is a smooth rational curve embedded in P3 over an
 algebraically closed field k of characteristic zero. Its balanced normal
@@ -1160,7 +1154,7 @@ The normal line of Z in this formal surface is
 Under nu>4g+5 it is ample, since an invertible sheaf on a smooth proper
 curve is ample exactly when its degree is positive.
 
-## 2. Primary algebraicity theorem: all hypotheses match
+### 2. Primary algebraicity theorem: all hypotheses match
 
 [Bost, Theorem 3.5 and Corollary 3.8, printed pp. 187--188](https://www.numdam.org/article/PMIHES_2001__93__161_0.pdf#page=27)
 apply here with quasiprojective ambient variety, smooth connected
@@ -1182,7 +1176,7 @@ The directly verified attribution is Bost's geometric algebraicity
 theorem, obtained there from Hartshorne's formal-function results.
 The proof does not depend on a broader historical attribution.
 
-## 3. Why the selected branch glues on the normalization
+### 3. Why the selected branch glues on the normalization
 
 The focused review establishes the local normalization/completion
 mechanism. Here its input follows from the primary algebraicity
@@ -1225,7 +1219,7 @@ The same smooth curve Z in T then has
 This is the normal-bundle degree of the selected algebraic branch,
 unchanged by resolution away from Z.
 
-## 4. Ruled model and numerical degree: correct for general g,nu,h
+### 4. Ruled model and numerical degree: correct for general g,nu,h
 
 The exact primary theorem is
 [Hartshorne, Theorem 4.1, printed p. 122, with the definition on p. 111](https://www.numdam.org/item/PMIHES_1969__36__111_0.pdf#page=13).
@@ -1266,7 +1260,7 @@ The maximum exists because nu>0. If nu>=h, the successive difference
 2h-nu*(2a+1) is negative for every a>=1, so M=2h-nu. These conclusions
 do not require descending the formal divisor or its line bundle to B.
 
-## 5. Other branches do not weaken the actual multiplicity bound
+### 5. Other branches do not weaken the actual multiplicity bound
 
 Let m be the generic I_C-adic order of the equation of S. The strict
 transform W is an effective Cartier divisor distinct from E. Its
@@ -1291,7 +1285,7 @@ Extra branches can contribute additional copies of Z or additional
 effective components. They cannot subtract its degree. No equality
 W|E=Z or equality m=r has been assumed.
 
-## 6. General planes, integral sections, and the genus inequality
+### 6. General planes, integral sections, and the genus inequality
 
 Choose a plane P general in the full dual projective space. Bertini
 irreducibility applies to the integral surface S, even if S is
@@ -1325,7 +1319,7 @@ An integral proper curve has nonnegative arithmetic genus. Hence
 This is an independent proof of the lower bound, with arbitrary
 higher contacts and all plane-curve branch types retained.
 
-## 7. Movement two: every r>=2 contradicts (D)--(F)
+### 7. Movement two: every r>=2 contradicts (D)--(F)
 
 For epsilon=2 and lambda=2e-1,
 
@@ -1347,7 +1341,7 @@ This contradiction proves the main theorem for every normal order r
 in one argument. For e=4,r=2 it specializes to the impossible pair
 d<=4 and (d-1)(d-2)>=8, as claimed.
 
-## 8. General numerical criterion and its finite-r corollary
+### 8. General numerical criterion and its finite-r corollary
 
 The criterion (D)--(F) passes whenever the smooth rational-base setup,
 smooth connected finite root, and nu>4g+5 all hold. For the actual
@@ -1370,7 +1364,7 @@ or about singular/nonreduced/disconnected roots. The formula for g
 here uses the rational base. It is not asserted for an arbitrary curve
 with a balanced normal bundle.
 
-## 9. Uniform finite empty stage and the exact actual-CI gap bound
+### 9. Uniform finite empty stage and the exact actual-CI gap bound
 
 Fix the actual embedding C subset P3 and r. On the accepted coefficient
 open U for (epsilon,r)=(2,r), lambda=2e-1>=7>3epsilon. The
@@ -1411,7 +1405,7 @@ already fixes this indexing and all-order compatibility; those proofs
 were not replayed. Finite-gap actual pairs can introduce their second
 relation before the empty stage, so (I) is not their exclusion.
 
-## Disposition and remaining scope
+### Disposition and remaining scope
 
 The main theorem, the generalized criterion, equation (3a)/(G), and the
 finite-cutoff/gap consequences (H)--(I) pass this audit. The owner
@@ -1426,15 +1420,11 @@ nonreduced roots, coefficient base points, unsaturated first relations,
 or actual complete intersections outside the accepted bridge. It does
 not settle the unrestricted C0 or universal STCI problem.
 
-No accepted verifier, first/second class computation, or CAS elimination
-was replayed. No commit or memory write was performed.
-
-
 ---
 
-## 2026-10-15-generalization-smooth-root-characteristic-scope-addendum
+<a id="2026-10-15-generalization-smooth-root-characteristic-scope-addendum"></a>
 
-# Characteristic-only addendum for the smooth-root theorem
+## Characteristic-only addendum for the smooth-root theorem
 
 Date: 2026-10-15. Reviewer: `new_logarithmic_review`.
 
@@ -1452,7 +1442,7 @@ is a premise; its arguments and accepted computations were not replayed.
 No characteristic-zero logarithmic argument, P010 calculation, or
 normal-bundle splitting of the literal repository curve is imported.
 
-## 1. The geometric inputs permit arbitrary algebraically closed k
+### 1. The geometric inputs permit arbitrary algebraically closed k
 
 - [Bost, geometric Theorem 3.5 and Corollary 3.8](https://www.numdam.org/article/PMIHES_2001__93__161_0.pdf#page=27)
   are stated over a field k without a characteristic restriction.
@@ -1482,7 +1472,7 @@ formal surface is smooth because the **full** root divisor is smooth;
 no nonvanishing fiber derivative or separability of its projection
 is needed for this step.
 
-## 2. Embedded hyperplanes avoid the inseparable-linear-system issue
+### 2. Embedded hyperplanes avoid the inseparable-linear-system issue
 
 For an integral S in P3 over algebraically closed k of any
 characteristic, [Stacks, Lemma 37.32.3](https://stacks.math.columbia.edu/tag/0G4C)
@@ -1513,7 +1503,7 @@ genus then give the accepted lower bound in every characteristic.
 No separable Puiseux expansion or ordinary-singularity assumption
 enters that calculation.
 
-## 3. Characteristic-free formal theorem and finite cutoff
+### 3. Characteristic-free formal theorem and finite cutoff
 
 The main formal theorem therefore holds over arbitrary algebraically
 closed k: for a smooth rational C of degree e>=4 with the **explicit**
@@ -1548,7 +1538,7 @@ tower with the formal theorem gives a finite N with
 as a scheme. The cutoff is existential and is not uniform as r or
 the actual embedding varies.
 
-## 4. Positive-characteristic actual-CI consequence is conditional
+### 4. Positive-characteristic actual-CI consequence is conditional
 
 The existing
 [actual-CI bridge audit](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-bridge-independent-audit)
@@ -1576,17 +1566,13 @@ bridge, nor that they are excluded. A separate bridge extension may
 use additional hypotheses or a direct local proof; it is outside
 this characteristic-only review.
 
-No accepted verifier, CAS calculation, first/second class computation,
-commit, or memory write was performed. Singular or nonreduced roots,
-unbalanced normal bundles, and unrestricted STCI remain outside this
-conclusion.
-
+Singular or nonreduced roots, unbalanced normal bundles, and unrestricted STCI remain outside this conclusion.
 
 ---
 
-## 2026-10-15-generalization-movement-one-formal-roots-independent-audit
+<a id="2026-10-15-generalization-movement-one-formal-roots-independent-audit"></a>
 
-# Independent targeted audit: movement-one formal roots
+## Independent targeted audit: movement-one formal roots
 
 Date: 2026-10-15. Reviewer: `g3_branch_uniqueness`.
 
@@ -1623,3 +1609,117 @@ Under `N_C=O_P1(2e-1)^2`, its two coefficients are sections of `O_P1(1)`. A simu
 Conversely, if a quadric contains `C` and is smooth along it, these two coefficients have no simultaneous zero. Two such degree-one sections are linearly independent, and their fiberwise linear zero locus is the smooth graph of a degree-one map `P1 -> P1`, of class `(1,1)`. The strict transform gives its compatible Cartier ideals on every exceptional neighborhood. Thus the converse supplies exactly the roots claimed in Section 5.
 
 The degree boundaries are correctly retained: the `r>=2` exclusion assumes `e>=3`, whereas the `r=1` classification assumes `e>=4`. No conclusion for the omitted degree-three, order-one case is inferred. This audit does not import finite-jet rigidity for `C0`, enlarge the actual-CI bridge, or establish any finite cutoff.
+
+---
+
+<a id="source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd"></a>
+
+## Smooth formal branch and the ruled-model degree bound
+
+Date: 2026-10-15.
+
+Status: independent conceptual review of the normalization and intersection-theoretic steps in the proposed no-infinite-lift argument. This note assumes the stated algebraization-as-a-branch theorem applies; it does not re-prove that theorem, establish existence of an all-orders Cartier lift, or promote the resulting exclusion to an accepted repository theorem.
+
+### Input and purpose
+
+Let `B = Bl_C(P^3)` for the smooth rational quartic `C`, let `E = P^1 x P^1`, and let `Z` be a smooth curve of class `(2,2)` on `E`. Thus `Z` has genus one. Assume an all-orders lift yields a smooth formal surface `V` along `Z`, transverse to `E`, with
+
+`N_{Z/V} = O_Z(7,-1)`, of degree `12`.
+
+Assume moreover that `V` is a formal branch of an actual integral surface `W` in `B`. The original concern was whether the entire completion of `W` must equal this branch. The degree-bound argument reviewed below does not need that assertion. Other formal branches, or other curves of `W cap E`, may remain.
+
+### 1. Normalization preserves the chosen smooth branch
+
+The precise local input is that, at each closed point `z` of `Z`, the induced maximal-ideal completion of `V` is a regular two-dimensional minimal branch of `O_{W,z}^`. This is the meaning of "formal branch" needed here; a merely generically finite formal map into `W` would require a separate argument.
+
+Surfaces of finite type over a field are excellent, and their normalization is finite. For an excellent reduced local ring, normalization and completion identify the completed local factors of the normalization with the normalizations of the completed branches. The chosen branch is regular, hence normal already. Its normalization factor therefore coincides with it. In particular the selected point of the normalization of `W` has regular completion, hence is a regular point.
+
+The global formal branch makes these local choices compatible. Equivalently, each local integral element of the normalization maps into the regular formal branch because the latter is integrally closed in its fraction field. This gives a morphism from `V` to `W^nu`; reducing modulo the ideal of `Z` gives a section `Z -> W^nu` over `Z`. Its image `Z'` is isomorphic to `Z`, the normalization is smooth along `Z'`, and its formal completion along `Z'` is the chosen `V`.
+
+Reference for the normalization/completion mechanism: Stacks Project, [Branches of the completion, Section 15.110](https://stacks.math.columbia.edu/tag/0C27), especially the proof of Lemma 15.110.8. It decomposes the completed normalization into completed local normal factors and identifies their minimal branches. One should check this exact local branch hypothesis when inserting the algebraization theorem into the final proof.
+
+Resolve the normalization with centers outside its regular neighborhood of `Z'`. This yields a smooth projective surface `T` containing the same curve `Z'`, with unchanged formal neighborhood. Write `Z` again for this curve. Consequently
+
+`Z^2_T = 12`.
+
+Let `H` denote the pullback of a hyperplane under `T -> W -> B -> P^3`. It is nef. Since `H|E = O_E(4,0)` and `Z = (2,2)`,
+
+`H.Z = 8`.
+
+The surface `W` is not `E` because the selected branch is transverse to `E`. Thus its image in `P^3` is a surface, and the map is birational onto that image. If its degree is `d`, the projection formula gives
+
+`H^2 = d > 0`.
+
+Surface resolution references: Stacks Project, [Resolution, Section 54.14](https://stacks.math.columbia.edu/tag/0BGJ). Resolution can preserve a prescribed regular open set. Since the starting normalization is projective, the resulting smooth proper surface is projective.
+
+### 2. Hartshorne's theorem supplies a ruled model near the curve
+
+Hartshorne's Theorem 4.1 applies because
+
+`Z^2 = 12 > 4 g(Z) + 5 = 9`.
+
+It gives a geometrically ruled surface `R -> Z` and a section `Z_0` such that `(T,Z)` and `(R,Z_0)` are equivalent. "Equivalent" is defined in the paper as a birational map inducing the identity on the curve and an isomorphism on open neighborhoods of it. In particular
+
+`Z_0^2 = 12`.
+
+Primary reference: R. Hartshorne, *Curves with high self-intersection on algebraic surfaces*, Publ. Math. IHES 36 (1969), 111--125, [Theorem 4.1, printed p. 122; definition on printed p. 111](https://www.numdam.org/item/PMIHES_1969__36__111_0.pdf).
+
+### 3. The square comparison is valid
+
+Resolve the birational map into a common smooth surface
+
+`q: U -> T`, `p: U -> R`.
+
+Because the birational equivalence is an isomorphism near the curves, this can be done with all point-blowup centers outside those neighborhoods. Put `L = q^*H` and `D = p_*L`. Choose an actual Cartier divisor representing `L` before pushing forward; `R` is smooth, so its pushforward is Cartier. Equivalently this construction is well-defined on numerical divisor classes.
+
+For a single point blowup `b: X' -> X`, any divisor class `A'` has a unique expression
+
+`A' = b^*A + c E_b`,
+
+where `A=b_*A'`; orthogonality and `E_b^2=-1` imply
+
+`(A')^2 = A^2 - c^2`.
+
+Iterating through `p`, using total-transform exceptional classes if desired, gives
+
+`H^2 = L^2 = D^2 - sum_i c_i^2 <= D^2`.
+
+No sign assertion for the coefficients `c_i`, and no nefness assertion for `D`, is required for this inequality. The neighborhoods of `Z` are unchanged, so
+
+`D.Z_0 = L.Z = H.Z = 8`.
+
+Also `D` is nef: for any integral curve `Gamma` on `R`, its total transform `p^*Gamma` is effective, hence
+
+`D.Gamma = L.p^*Gamma >= 0`.
+
+Here `L` is nef because it is a pullback of `H`.
+
+The point-blowup factorization used above is standard for proper birational morphisms between smooth surfaces; see Stacks Project, [Lemma 54.17.1](https://stacks.math.columbia.edu/tag/0C5Q).
+
+### 4. The numerical bound
+
+Write the numerical class of `D` on the ruled surface as
+
+`D == a Z_0 + b f`,
+
+where `f` is a fiber. Here `a=D.f` is an integer. Nefness gives `a>=0`; if `a=0`, then `D^2=0`, contradicting `D^2>=H^2>0`. Hence `a>=1`. From `Z_0^2=12`, `Z_0.f=1`, and `f^2=0`,
+
+`8 = D.Z_0 = 12a+b`,
+
+and therefore
+
+`D^2 = 12a^2+2ab = 16a-12a^2`.
+
+For integral `a>=1`, this expression is at most `4` (its value at `a=1`); for `a>=2` it is negative and hence impossible here. Thus in fact `a=1`, `D^2=4`, and
+
+`d = H^2 <= 4`.
+
+This establishes the contested square comparison and degree estimate, under the stated local branch input. It does not assert that `W` has only one branch along `Z`.
+
+### 5. Connection to the proposed contradiction
+
+The remaining elementary geometric implication is that the strict transform `W` has generic multiplicity `m>=2` along `C`: the effective divisor `W|E` contains the entire integral `(2,2)` curve `Z`, whose degree over `C` is two. For a general fiber of `E -> C`, the degree of `W|E` is precisely `m`, so `m>=2` even if extra components exist.
+
+Consequently a general plane section of the integral image surface of degree `d<=4` is an integral plane curve singular at the four distinct points where the plane meets `C`. Each such singularity has delta invariant at least one. This contradicts the arithmetic-genus bound `(d-1)(d-2)/2<=3`.
+
+To use this as a finished exclusion, the parent proof should explicitly state the algebraization theorem's exact branch conclusion and the generic-plane-section/Bertini hypotheses. The normalization and ruled-model square comparison themselves do not require G3 in `B`, G3 in `W`, or exclusion of extra formal branches.

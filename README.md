@@ -1,30 +1,27 @@
-# Set-Theoretic Complete Intersections of Space Curves
+# The fixed rational quartic and two global equations
 
-This repository studies the projective set-theoretic complete-intersection problem for integral curves in $\mathbf P^3$ over an algebraically closed field: when can a curve $C$ be written set-theoretically as
+For the embedded curve
 \[
-C=V_+(F,G)
+C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3,
 \]
-for two homogeneous forms?
+can two homogeneous surfaces have reduced intersection exactly \(C_0\)?
+Over an algebraically closed field of characteristic zero, **this remains open**.
+In **every positive characteristic**, the fixed curve is an STCI using a
+quartic carrier. The contrast is part of the problem, not an exception to hide.
 
-A principal characteristic-zero test case is the smooth rational quartic
-\[
-C_0=[s^4:s^3t:st^3:t^4]\subset \mathbf P^3.
-\]
-The repository does **not** currently prove that this curve is or is not a set-theoretic complete intersection.
+Start with the [approaches and reading routes](research/INDEX.md). The
+[mechanism map](research/MAP.md) connects proofs across approaches, while the
+[open interfaces](research/FRONTIER.md) identify exact missing implications.
+For a promoted claim, consult its [result record](research/results/INDEX.md)
+and direct proof; source-reviewed and conditional mathematics also has a place
+in the account without being silently promoted.
 
-## Start here
+The repository includes existence constructions, carrier exclusions,
+infinitesimal geometry, residual intersections, descent and gluing, arithmetic
+comparisons, and useful counterexamples. Studying a proper intersection
+containing \(C_0\), with residual components allowed, is often informative.
+The STCI question requires those residual components to disappear.
 
-- [Research navigation](research/INDEX.md) — compact map of records, evidence, and history.
-- [Artifact policy](research/ARTIFACT_POLICY.md) — retention and handling of research artifacts.
-- [Canonical research state](research/STATE.md) — what is currently proved, exactly reduced, conditional, superseded, or open.
-- [Current frontier](research/FRONTIER.md) — the active open problems and recommended research directions.
-- [Open-problem topics](research/open/README.md) — durable topic pages for active work.
-- [Certificate map](research/certificates/README.md) — exact computations indexed by mathematical scope.
-- [Literature ledger](research/LITERATURE_LEDGER.md) — checked external results and source scope.
-- [2026-10-06 audited snapshot](research/archive/reports/AUDITED_STATE_2026-10-06.md) — dated provenance for the consolidation from which the durable state was initialized.
-
-## Repository convention
-
-The durable reading path is `STATE.md` followed by `FRONTIER.md`. Dated notes, handoffs, reports, computation outputs, and scratch work are supporting evidence or provenance and may contain frontier language that has since been superseded. A statement should not be treated as current merely because it appears in a historical note.
-
-The bulk branch consolidation is complete. Original research files and conflicting historical versions have been preserved; see the [archive guide](research/archive/README.md) for provenance and reading rules. Cleanup of validation snapshots is deliberately conservative to protect reproducibility.
+[Authority and scope](research/AUTHORITY.md) govern mathematical claims.
+[Artifact retention](research/ARTIFACT_POLICY.md) keeps useful mathematics and
+necessary exact support; development chronology is available in Git.

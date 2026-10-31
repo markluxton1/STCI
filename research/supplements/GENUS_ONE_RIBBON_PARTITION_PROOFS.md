@@ -6,7 +6,6 @@ The [ribbon conormal-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md) and [uni
 
 ---
 
-
 Permanent detailed mathematical record, including all proofs, calculations, counterexamples and explicit unresolved conditions.
 
 # Complete exclusion of contact partitions [4], [3,1], and [2,2]
@@ -343,12 +342,6 @@ both augmented-system exclusions, complete remaining affine solution
 families, both actual singular lines, and the entire-conductor
 trace/norm certificate. They are exact identities supporting the
 preceding proofs; a `PASS` does not replace their geometric reasoning.
-
-The independent helper `single_triple_root_linear_check` supplied the
-[4] and [3,1] algebra before hitting the account usage limit; it did not
-save a finished note. This owner reconstructed all its formulas, kept
-the omitted `E2` coefficient, and verified them in the durable source
-above. No helper-final success or unsaved assertion is used as proof.
 
 The exact bounded task is complete: **[4], [3,1], and [2,2] all excluded
 under the stated accepted inputs**. The next reviewing step is an

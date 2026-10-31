@@ -15,12 +15,11 @@ statement: "The complete linear system |c| identifies S with a normal minimal-de
 dependencies:
   - STCI-R-0001
 evidence:
-  - "research/notes/2026-10-14-generalization-cartier-lift-minimal-degree.md"
-  - "research/notes/2026-10-13-generalization-global-carrier-framework.md"
+  - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
 independent_audits:
-  - "research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
-  - "research/notes/2026-10-13-generalization-smooth-normalization-independent-audit.md"
-accepted_in: "research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
+  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
+  - "research/supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md"
+accepted_in: "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -67,17 +66,17 @@ For \(C_0=[s^4:s^3t:st^3:t^4]\), the accepted all-integral-quartic exclusion [ST
 
 ## Evidence and verification
 
-- [Original singular-normalization theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-cartier-lift-minimal-degree.md)
-- [Independent new-scope audit: PASS](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md)
-- [Earlier smooth-normalization framework](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-global-carrier-framework.md)
-- [Earlier independent smooth-normalization audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-smooth-normalization-independent-audit.md)
+- [Original singular-normalization theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
+- [Independent new-scope audit: PASS](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit)
+- [Earlier smooth-normalization framework](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
+- [Earlier independent smooth-normalization audit](../supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
 
-These links preserve evidence on the Ultra branch; this promotion does not merge or edit the underlying proof notes.
+These links identify the current scope-preserving proof homes. Their inherited independent review covers the original mathematical statements; replacement review covers their consolidation.
 
 ## Limitations
 
 The actual projection parameters, complete inverse support, and full conductor descent for the three fixed-\(C_0\) models **remain unresolved**. The classification does not establish existence of a mate on any listed carrier. The unrestricted STCI problem for \(C_0\) remains open.
 
-## Permanent evidence navigation
+## Current mathematical evidence
 
-Historical `research/notes/` identifiers in the metadata are preserved for provenance. The permanent [subject synthesis](../synthesis/04-carriers.md) provides navigation to the mathematical arguments and their detailed supplements. This addition does not change any theorem or audit claim.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

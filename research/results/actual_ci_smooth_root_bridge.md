@@ -16,11 +16,11 @@ statement: "The actual intersection of the two strict divisors is a primitive el
 dependencies:
   - STCI-R-0005
 evidence:
-  - "research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md"
+  - "research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md"
 independent_audits:
-  - "research/notes/2026-10-15-generalization-inseparable-root-blowup-local-algebra-review.md"
-  - "research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md"
-accepted_in: "research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md"
+  - "research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md"
+  - "research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md"
+accepted_in: "research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -55,12 +55,12 @@ For the balanced rational-space-curve movement-two smooth-root setting of [STCI-
 
 ## Evidence
 
-- [Actual-CI bridge theorem](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md)
-- [Independent generic local-algebra review](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-local-algebra-review.md)
-- [Independent full-scope audit (PASS)](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md)
+- [Actual-CI bridge theorem](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge)
+- [Independent generic local-algebra review](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-local-algebra-review)
+- [Independent full-scope audit (PASS)](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit)
 
 The characteristic-zero predecessor and characteristic-free formal-tower addendum are cited and treated as inherited premises in these notes.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original evidence identities and theorem scope remain unchanged.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

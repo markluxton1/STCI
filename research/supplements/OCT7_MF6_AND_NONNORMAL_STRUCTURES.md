@@ -1,12 +1,12 @@
-# Historical mathematical source compilation
+# Primitive and defective triple carriers
 
 Full original mathematical text retained below. Original hypotheses, failures, qualifications and unresolved cases retain their source status; this compilation is not an independent correctness audit.
 
 ---
 
-## Source: 2026-10-07-session-mf6-e1-d1-endpoints.md
+<a id="source-2026-10-07-session-mf6-e1-d1-endpointsmd"></a>
 
-# Six e=1 degree-one endpoint triples: complete fibers and mate obstruction
+## Six e=1 degree-one endpoint triples: complete fibers and mate obstruction
 
 Date: 2026-10-07. Fixed C0, algebraically closed characteristic-zero field.
 Status: **PROVED BOUNDED ENDPOINT EXCLUSION, EXACTLY AND INDEPENDENTLY
@@ -22,7 +22,7 @@ The six directions are the entire `a0=0` or `b1=0` boundary of the
 degree-one killing determinant, after removing the primitive class-zero
 locus. The principal direction locus `a0*b1!=0` remains open.
 
-## 1. Actual defective triples and complete quartic spaces
+### 1. Actual defective triples and complete quartic spaces
 
 Put `q_r=12r^2+4r+3`. The finite-endpoint directions are
 
@@ -92,7 +92,7 @@ It cannot occur in a pair with sole reduced support the integral,
 nonplanar C0: a mate either shares the plane or cuts a nonempty curve
 on it. This excludes those two endpoint directions for every mate degree.
 
-## 2. Exact cubic excess: already enough for MF6
+### 2. Exact cubic excess: already enough for MF6
 
 For a defective triple h is divisible by delta. Write `h=delta*S` and
 
@@ -121,7 +121,7 @@ Thus these unique endpoint quartics have total `d3=4`, while MF6 type
 orbits in that type independently of the further mate obstruction.
 The value d3=4 alone would not exclude every larger mate degree.
 
-## 3. Stronger all-degree obstruction for the unique F_R carriers
+### 3. Stronger all-degree obstruction for the unique F_R carriers
 
 Set `kappa=r+1/2,a=kappa+1`; then
 `3*kappa^2-2*kappa+1=0`. The unique right carrier is
@@ -192,7 +192,7 @@ primitive audit, applying the conjugation of Q(kappa) gives the
 contradiction `(1/3)^n=1`, since kappa has norm 1/3 and n>0.
 Thus neither F_R carrier admits a mate of any positive degree.
 
-## 4. Transfer to the two F_L carriers
+### 4. Transfer to the two F_L carriers
 
 Let `r*=-r-1/3` be the conjugate root. Coordinate reversal
 `x0<->x3,x1<->x2` carries `F_R(r*)` to `R1(r)+x3*D`, where
@@ -207,7 +207,7 @@ C0, so the no-mate statement transfers to both F_L carriers. This
 proves the **all-degree exclusion of all six degree-one endpoint
 orbits**, with exactly the stated fixed-C0, e=1,d2=1 boundary scope.
 
-## 5. Evidence and unresolved boundary
+### 5. Evidence and unresolved boundary
 
 The exact independent source is
 [`verify_mf6_e1_d1_endpoints.py`](../computations/verify_mf6_e1_d1_endpoints.py).
@@ -233,9 +233,9 @@ those loci, arbitrary quartics, or unrestricted STCI follows here.
 
 ---
 
-## Source: 2026-10-07-session-mf6-e1-defective-structural.md
+<a id="source-2026-10-07-session-mf6-e1-defective-structuralmd"></a>
 
-# Structural continuation for the defective e=1 MF6 triples
+## Structural continuation for the defective e=1 MF6 triples
 
 Date: 2026-10-07. Fixed C0, characteristic zero. Status: **PROVED
 NECESSARY REDUCTIONS; REMAINING INCIDENCE OPEN**. This follows the
@@ -247,7 +247,7 @@ The subsequent bounded endpoint work is now proved in
 all six degree-one endpoint orbits in section 4 admit no mate, for any
 mate degree. The principal direction locus and type (2,2) remain open.
 
-## 1. Intrinsic module and the correct twist of the cubic residue
+### 1. Intrinsic module and the correct twist of the cubic residue
 
 Retain `L=O(-6)`, `M=O(-8)`. At a point of the canonical triple with
 positive second defect, choose a DVR R and regular normal parameters
@@ -316,7 +316,7 @@ e=0,d2=4,d3=5 branch, (2) becomes
 annihilator certificate. This is a consistency check, not the proof of
 the new sequence.
 
-## 2. Exact annihilator sizes for the two remaining MF6 types
+### 2. Exact annihilator sizes for the two remaining MF6 types
 
 For `(d2,d3)=(1,3)`, the class c is in H1(O(-8)). Write it as
 `sum(c_i*z^-i,i=1,...,7)`. A nonzero quadratic section
@@ -345,7 +345,7 @@ A determinant alone would be weaker and inappropriate. Conditions
 does not establish quartic containment, finite-flat higher layers, a
 sextic mate, or STCI.
 
-## 3. The preceding defective-triple incidence is much smaller
+### 3. The preceding defective-triple incidence is much smaller
 
 For the quotient direction `A=a0+a1*z,B=b0+b1*z`, let c1,c2,c3 be
 the three quadratic cocycle coordinates already independently derived:
@@ -398,7 +398,7 @@ direction orbits of the preceding audit can be removed from these
 defective incidences. Together with the quartic-specific uniform
 bound `d2<=3`, this applies to all mate degrees in the e=1 lane.
 
-## 4. Six complete boundary triples for d2=1
+### 4. Six complete boundary triples for d2=1
 
 The two boundaries of (6) can be retained as six finite test fibers.
 
@@ -425,7 +425,7 @@ note reconstructs their complete quartic fibers and proves the six
 bounded exclusions. The principal `a0*b1!=0` portion of the sextic
 remains unsolved.
 
-## 5. Continuation-ready next calculation
+### 5. Continuation-ready next calculation
 
 The highest-value next step is the intrinsic class in (2), calculated
 on the actual triple incidence (5) or (7), with delta/gamma flatness
@@ -446,9 +446,9 @@ unrestricted char-zero status of C0 remain open.
 
 ---
 
-## Source: 2026-10-07-session-mf6-e1-independent-audit.md
+<a id="source-2026-10-07-session-mf6-e1-independent-auditmd"></a>
 
-# Independent audit and all-degree exclusion of primitive e=1 quartic triples
+## Independent audit and all-degree exclusion of primitive e=1 quartic triples
 
 Date: 2026-10-07. Fixed
 `C0=[s^4:s^3t:st^3:t^4]` over an algebraically closed field of
@@ -462,7 +462,7 @@ obstruction. This note does not assert that C0 is not
 STCI, and it does not cover `D2>0`, `e=0`, `e=2`, carriers of higher
 degree, or the branch with both equations thick along the curve.
 
-## 1. Verdict and dependencies
+### 1. Verdict and dependencies
 
 The proposed exclusion of MF6 type `e=1,(d2,d3)=(0,4)` passes. Its
 complete primitive-direction classification and every quartic pencil
@@ -478,7 +478,7 @@ quartic/quasiprimitive inputs:
 The earlier inputs are the balanced conormal bundle `O(-7)^2`, the
 quartic generic-order-one theorem P-011, and the directly audited BF
 filtration/duality in
-[`2026-10-06-session-uniform-audit.md`](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-uniform-audit),
+[`2026-10-06-session-uniform-audit.md`](ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-session-uniform-audit),
 sections 2--4. P-011 and the balanced conormal theorem are not reproved
 here. The **quartic-specific** all-degree bound `d3<=5` is proved again
 in section 6; the bound 17 for arbitrary defining degrees is a different
@@ -496,7 +496,7 @@ the conjugate coordinate reversal. The accompanying JSON records the
 source hash and scope. These exact checks support the proof below;
 script agreement alone is not its proof.
 
-## 2. Every basepoint-free primitive triple direction
+### 2. Every basepoint-free primitive triple direction
 
 Let `L=O(-6)` and `M=O(-8)` be the quotient and kernel of the balanced
 conormal. Write the quotient direction in the first moving frame as
@@ -566,7 +566,7 @@ change of the split conormal frame or PGL2 change of support is assumed.
 Since `H0(Hom(M,L^2))=H0(O(-4))=0`, a primitive embedded triple in a
 specified direction, when it exists, is unique.
 
-## 3. Exact third-piece lattice, including a singular carrier point
+### 3. Exact third-piece lattice, including a singular carrier point
 
 At a point of C0 choose an ambient lifted support parameter and complete
 over `R=k[[t]]`, with fraction field K. The hypothetical CI algebra B is
@@ -602,7 +602,7 @@ Thus in each regular chart
 nonzero member of each two-dimensional pencil below. The quadric-factor
 orbit is handled separately, including its order-two quartics.
 
-## 4. Complete ambient pencils and their polar bounds
+### 4. Complete ambient pencils and their polar bounds
 
 In the principal direction the Bezout pair is `s=4/3,t=1/6`, and
 `gamma=192z+96`. The complete degree-four matrix on all 35 ambient
@@ -675,7 +675,7 @@ omitted. All primitive directions therefore either have an inadmissible
 quadric factor or satisfy `d3>=5`. This already excludes MF6 type
 `(d2,d3)=(0,4)`.
 
-## 5. New normalization obstruction to all four surviving pure members
+### 5. New normalization obstruction to all four surviving pure members
 
 The only algebraic pencil members whose bound does not exceed five are
 R0 and R1 themselves. Set
@@ -738,7 +738,7 @@ C0 is invariant under this reversal. The same obstruction therefore
 excludes both R1 members as well. This is a fixed-carrier obstruction;
 it is not a statement about all quartics or all curves.
 
-## 6. Uniform conclusion and the corrected three-degree corollary
+### 6. Uniform conclusion and the corrected three-degree corollary
 
 For a quartic pair, BF gives generic length b, top index `s=b-1`, and
 at e=1 the exact top degree
@@ -765,12 +765,12 @@ The shorthand `d3<=b-4` is false at b=6 and must not replace this table.
 Each correct bound is below five. No assertion about positive D2 follows
 from these arguments: the primitive triple is the essential hypothesis.
 
-## 7. Reproduction and boundaries
+### 7. Reproduction and boundaries
 
 Run:
 
-    PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python research/computations/audit_mf6_e1_primitive_2026_10_07.py
-    PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python research/computations/verify_mf6_e1_primitive_type04.py
+    PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_mf6_e1_primitive_2026_10_07.py
+    PYTHONDONTWRITEBYTECODE=1 python3 research/computations/verify_mf6_e1_primitive_type04.py
 
 The second source passed on 2026-10-07 in this audit. Its imported
 `verify_mf6_defect12` module also prints earlier e=0 results; those
@@ -788,9 +788,9 @@ equations used here. This record preserves that open boundary.
 
 ---
 
-## Source: 2026-10-07-session-mf6-e1-progress.md
+<a id="source-2026-10-07-session-mf6-e1-progressmd"></a>
 
-# MF6 e=1 primitive-triple frontier
+## MF6 e=1 primitive-triple frontier
 
 Date: 2026-10-07. Fixed C0, characteristic zero. **Status: structural
 reconstruction and exact exploratory quartic data; no full e=1 exclusion
@@ -864,7 +864,7 @@ fibers. The MF6 type `(d2,d3)=(0,4)` permits cubic poles of total degree
 four. Both moving support charts must be included. The types `(1,3)`
 and `(2,2)` still require defect-killed triple incidence and are open.
 
-## Complete classification without relying on the saturation output
+### Complete classification without relying on the saturation output
 
 Here is a direct case argument for completeness. Write
 `p=a0*b1`, and retain `d!=0`.
@@ -898,7 +898,7 @@ b1/lambda. Taking lambda=1/a0 gives the specified representative. On
 the boundary the ratio r=a1/b0 is unchanged by that torus, so its three
 roots are retained individually.
 
-## Complete generic-orbit pencil and all cubic poles
+### Complete generic-orbit pencil and all cubic poles
 
 At `A=1+z,B=-2-8z` the constant Bezout pair is
 `s=4/3,t=1/6`. The complete coefficient matrix obtained by substituting
@@ -963,7 +963,7 @@ The second numerator is a unit at w=0, so infinity adds three exact pole
 units and `deg D3=6`. The generic orbit therefore satisfies
 `deg D3>=6` for every nonzero quartic containing its primitive triple.
 
-## The quadric-factor orbit
+### The quadric-factor orbit
 
 At r=-1/2 the full coefficient matrix has rank eight, and its
 complete kernel is `q*H0(P3,O(2))`, dimension ten. This also contains
@@ -976,7 +976,7 @@ that class, which is impossible. This is the retained unique-quadric
 obstruction, applied to a factor rather than only to a degree-two
 carrier.
 
-## The two algebraic direction orbits
+### The two algebraic direction orbits
 
 Let `q_r=12r^2+4r+3=0`; its roots are nonzero and distinct in
 characteristic zero. They are two conjugate directions, not identified
@@ -1019,7 +1019,7 @@ The scalar `16r/27+4/9` is a unit modulo q_r, so infinity contributes
 exactly five pole units. Thus every member of either algebraic direction
 orbit satisfies `deg D3>=5`.
 
-## Result, precise scope, and current audit status
+### Result, precise scope, and current audit status
 
 Together the four complete primitive direction orbits either force an
 inadmissible unique-quadric factor or have `deg D3>=5`. Therefore the
@@ -1051,9 +1051,9 @@ transition must not be transferred verbatim.
 
 ---
 
-## Source: 2026-10-07-session-nonnormal-mf6-independent-audit.md
+<a id="source-2026-10-07-session-nonnormal-mf6-independent-auditmd"></a>
 
-# Independent arbitrary-degree exclusion for four MF6 boundary carriers
+## Independent arbitrary-degree exclusion for four MF6 boundary carriers
 
 Date: 2026-10-07. Status: **PROVED under the displayed coefficient and
 characteristic hypotheses; independent algebraic audit**. This is a
@@ -1070,7 +1070,7 @@ Neither b nor a vanishes. The two choices of b, and their coordinate
 reversals, give the four carriers audited here. This note audits the
 obstruction independently of the jet classification that produced them.
 
-## 1. Finite birational normalization on the affine chart
+### 1. Finite birational normalization on the affine chart
 
 On x3=1 put v=x2 and define a homomorphism into B=k[u,v] by
 
@@ -1097,7 +1097,7 @@ and hence belongs to B. Consequently B is exactly the normalization of
 A. The argument uses a genuine finite normalization, rather than an
 unverified parametrization.
 
-## 2. The full inverse image of C0
+### 2. The full inverse image of C0
 
 On this chart I(C0)=(x1-v^3,x0-v^4). Write
 
@@ -1115,7 +1115,7 @@ this affine chart is the diagonal u=v. No isolated point or additional
 curve has been dropped. The diagonal maps isomorphically to C0 here:
 its coordinates are (v^4,v^3,v).
 
-## 3. A mate would violate equality on a normalization fiber
+### 3. A mate would violate equality on a normalization fiber
 
 Suppose a homogeneous surface G of any positive degree is an STCI mate
 for F0 and C0. Its affine restriction pulls back to a nonzero polynomial
@@ -1142,7 +1142,7 @@ algebraically closed field is assumed.
 Thus F0(b) admits no mate of any degree. This is stronger than the
 degree-six cubic-defect obstruction for these particular carriers.
 
-## 4. The other two carriers and exact verification
+### 4. The other two carriers and exact verification
 
 The displayed second pencil member is
 
@@ -1168,9 +1168,9 @@ alpha beta!=0, or a different nonnormal carrier on C0.
 
 ---
 
-## Source: 2026-10-07-session-nonnormal-structural-progress.md
+<a id="source-2026-10-07-session-nonnormal-structural-progressmd"></a>
 
-# Nonnormal quartic carriers: smooth-locus reduction and ordinary projections
+## Nonnormal quartic carriers: smooth-locus reduction and ordinary projections
 
 Date: 2026-10-07. Status: **PROVED lemmas and conditional exclusions;
 classification scope and surviving singular strata retained**. The
@@ -1184,7 +1184,7 @@ includes the displayed MF6 carriers in the
 [separate arbitrary-degree audit](#source-2026-10-07-session-nonnormal-mf6-independent-auditmd).
 Write nu:S->X for its finite normalization and H=nu*O_X(1).
 
-## 1. Full support makes the lifted curve an embedded copy of C
+### 1. Full support makes the lifted curve an embedded copy of C
 
 Over the generic point of C the normalization is an isomorphism.
 Consequently the full inverse image has exactly one curve component c,
@@ -1195,7 +1195,7 @@ inside its function field is that coordinate ring itself.
 
 If a mate G exists, its nonzero pullback is an effective Cartier divisor
 whose full support is (nu^{-1}(C))_red. The
-[full-support argument](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-conductor-support) excludes
+[full-support argument](NORMALIZATION_SECTION_AND_MODULE_DESCENT.md#prescribed-degree-full-support-and-the-conductor-square) excludes
 isolated inverse-image points. Therefore this entire support is c.
 Every fiber above C has exactly one point, and nu|c is an isomorphism.
 
@@ -1207,7 +1207,7 @@ Thus b c is Cartier and linearly equivalent to bH as a Weil divisor.
 This conclusion retains the support and finite-map hypotheses; it does
 not assume all nonnormal carriers have a unique curve above C.
 
-## 2. Smoothness is needed only along c
+### 2. Smoothness is needed only along c
 
 **Lemma.** If c lies entirely in the smooth locus of S, existence of a
 mate forces the normalization's hyperplane sectional genus to be zero.
@@ -1241,7 +1241,7 @@ Cartierness of c at the ADE points is made. Strict transforms of the
 smooth curve stay isomorphic to C: the point-center ideals restrict to
 nonzero invertible ideals on C during a resolution.
 
-## 3. Source-scoped quartic classes
+### 3. Source-scoped quartic classes
 
 [Ducat, Quartic surfaces up to volume preserving equivalence (2024),
 Proposition 3.3 and Table 3](https://d-nb.info/1317691679/34), pp.12-13,
@@ -1271,7 +1271,7 @@ An ADE singularity of S lying on its conductor is not an ADE local
 hypersurface point of X; Jaffe's first-normal orders for X cannot be
 assigned to it merely from the normalization graph.
 
-## 4. Ordinary pinches force transverse conductor passage
+### 4. Ordinary pinches force transverse conductor passage
 
 In the ordinary pinch model the normalization is
 
@@ -1301,7 +1301,7 @@ If those points are ordinary pinches, section 4 requires six distinct
 pinches and gives a contradiction. Thus this ordinary projected-scroll
 subclass has no mate of any degree.
 
-## 5. Ordinary projected Veronese surfaces
+### 5. Ordinary projected Veronese surfaces
 
 Suppose S=P2, H=O(2), and the normalization map is given by four
 basepoint-free quadrics q0,...,q3. Assume its conductor is a reduced
@@ -1356,7 +1356,7 @@ zero it is the zero form. Thus the explicit Roman carrier has no mate
 for a smooth rational quartic, independently of the general resolution
 calculation.
 
-## 6. Why nodal conductor degenerations remain
+### 6. Why nodal conductor degenerations remain
 
 At a degenerate pinch the normalization can be smooth with coordinates
 (w,z) and map

@@ -15,11 +15,11 @@ dependencies:
   - STCI-R-0034
   - STCI-R-0001
 evidence:
-  - research/notes/2026-10-14-generalization-normal-index-socle-theorem.md
-  - research/notes/2026-10-14-generalization-normal-carrier-torsion.md
+  - research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md
+  - research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md
 independent_audits:
-  - research/notes/2026-10-14-generalization-index12-filtered-compatibility.md
-accepted_in: research/HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md
+  - research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md
+accepted_in: "research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -41,10 +41,9 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../notes/2026-10-14-generalization-normal-index-socle-theorem.md)
-- [Source proof](../notes/2026-10-14-generalization-normal-carrier-torsion.md)
-- [Independent audit](../notes/2026-10-14-generalization-index12-filtered-compatibility.md)
-- [Claim-level acceptance](../HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md)
+- [Source proof](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem)
+- [Source proof](../supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-torsion)
+- [Independent audit](../supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-index12-filtered-compatibility)
 
 ## Dependencies and limitations
 
@@ -52,6 +51,6 @@ Canonical dependencies: STCI-R-0034, STCI-R-0001. Additional inherited premises 
 - Indices six, twelve and higher are not excluded
 - No conclusion for nonnormal or entirely-thick presentations
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/04-carriers.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

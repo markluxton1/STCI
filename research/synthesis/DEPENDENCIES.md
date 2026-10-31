@@ -1,140 +1,39 @@
-# Dependency and interface map
+# Proved implications and missing bridges
 
-**Varying-lift qualification.** A compatible quadratic symbol determines a sextic only modulo \(\eta q^3\). Since \(q^3\) has normal order three, the correct existence test for some sextic lift is \(h+\eta(q^3)_3=f(\ell u+mv)\). The correction map alone has rank sixteen; the augmented map including \(\eta\) has rank sixteen or seventeen depending on whether \((q^3)_3\) lies in its image. Consequently a fixed-lift cubic failure does not, without checking this extra direction, exclude every lift of the same symbol. The reported \(-384\) pairing must be checked against \((q^3)_3\) before it is used as a varying-lift obstruction. See [the precise correction](normalization_conductor_phase2_addendum.md#varying-the-sextic-lift-the-missing-q3-direction).
+This is short dependency navigation, not a new theorem or a compulsory research
+program. Read each linked statement's exact hypotheses and characteristic.
+The [mechanism map](../MAP.md) handles conceptual connections and the
+[frontier](../FRONTIER.md) owns open questions.
 
-
-## Principal research routes — explicit missing arrows
-
-The following are **programs**, not chains of proved implications. Each arrow requires an independently established bridge involving actual global homogeneous equations.
-
-| Route | Available starting point | Missing implication | Required deliverable |
-| --- | --- | --- | --- |
-| Global determinant | Conditional lower-layer/socle and embedded one-step tests | Admissible lower embedding and extension data -> actual equation modules -> **proper decomposable** determinant-zero pair | Prove existence or uniform nonexistence of such a pair in the relevant source spaces; do not infer decomposability from a nonzero kernel |
-| Uniform residual jets | R-0019 and R-0023–R-0025, fixed examples and fixed-carrier bounds | Fixed-carrier jet restrictions -> control over all relevant carriers and exceptional strata | A uniform positive residual-degree bound for actual proper homogeneous pairs |
-| Conductor descent | R-0002–R-0004, R-0017, R-0034–R-0036 | Necessary normalization models -> actual higher-degree carriers -> full conductor and descent of sections | Computed admissible families and full conductor-unit descent, including non-Cartier/multiple-branch limitations |
-
-A necessary condition is not sufficient; a conditional reduction is not an unconditional theorem; computational certificates cover only their stated inputs. Valuations, characteristic specialization and marked contact geometry supply potential interfaces but no established universal arrow to STCI nonexistence.
-
-
-This map records **logical dependence** separately from **conceptual contact**. For exact hypotheses and audit links, consult the individual result records.
-
-## Canonical scope checks for the three routes
-
-- **Determinant and conormal:** [R-0032](../results/full_conormal_socle_budget.md) is a necessary filtration/socle identity for an actual supported complete intersection, subject to its degree-bound hypothesis; it does not construct the next embedded layer. [R-0030](../results/local_filtration_comparison_defect.md) is local and does not decide whether punctual defects occur under sole reduced support. The reviewed one-step determinant criterion remains source-level, not promoted.
-- **Residual and low-degree:** [R-0001](../results/quartic_carrier_exclusion.md) excludes integral quartic carriers for the fixed embedding and all mate degrees. [R-0022](../results/quartic_44_filtered_exclusion.md) is an independent narrower (4,4) exclusion with inherited filtration prerequisites. Neither gives a uniform higher-degree residual bound.
-- **Carrier and conductor:** [R-0035](../results/normal_carrier_bounded_index_exclusion.md) applies to normal integral carriers only with actual local Cartier indices at most four and inherited torsion/direction inputs. [R-0036](../results/pointwise_conductor_socle_defect.md) requires a single smooth Cartier inverse branch and additional normalization/conductor hypotheses. Neither covers arbitrary higher-index, nonnormal or multiple-branch carriers.
-
-## Cross-route nonimplications that constrain a proof
-
-The three routes have a common final requirement—**an actual proper homogeneous pair**—but their intermediate invariants do not determine one another.
-
-- A full generic initial ideal determines the transverse length, but does not determine the punctual comparison defect of the filtered equation module or whether its generators lift to prescribed-degree global homogeneous forms. See [normal filtrations](normal_filtration_boundary_obstructions.md#full-initial-ideals-and-the-filtered-equation-module).
-- A local embedded one-step extension or vanishing obstruction does not imply that two compatible ambient forms exist; the image of the global jet source and the proper decomposable locus are additional constraints. See [Chapter 3](03-infinitesimal-geometry.md).
-- A positive upstairs divisor relation on a normalization does not imply descent through the full conductor; conversely, the pointwise socle/conductor formula R-0036 presupposes an actual supported pair and its restrictive smooth singleton hypotheses. See [carrier/socle interface](carrier_conductor_socle_interfaces.md#how-the-divisor-identity-interacts-with-descent).
-- A vertical exceptional cycle or punctual initial-ideal defect does not imply positive residual projective degree. A residual bound requires an upper bound on generic transverse length for actual pairs, as in the scoped R-0025 calculation.
-
-These are failures of proposed implication, not new nonexistence theorems. Any future proof connecting routes must supply a map between the corresponding actual objects and verify its hypotheses.
-
-## Conductor descent: exact versus effective steps
-
-The full conductor criterion R-0003 is an exact fixed-carrier equivalence, but it is not yet an effective uniform classification. The missing sequence is: specify an actual admissible carrier family; compute its entire inverse support and finite conductor algebra; obtain the **constructible** phase image including nilpotent conditions; and decide whether that image contains a torsion phase. The [phase reduction](normalization_conductor_projection.md#24-torsion-coset-envelope-for-all-power-projection-families) is conditional on those family inputs. An effective isolated-point order bound cannot be invoked before the image equations are known and does not cover positive-dimensional torsion cosets.
-
-The [single-field compression](normalization_conductor_projection.md#26-single-field-conductor-power-compression-exact-scope) is a narrower source-level statement; it fails for split conductor residue algebras and does not substitute for the full family computation. The [pointwise socle identity](../results/pointwise_conductor_socle_defect.md) is a necessary condition on an already supported pair under different, restrictive hypotheses, not a method of computing conductor phase images.
-
-## Global source completeness is not the missing jet arrow
-
-For \(d\ge3m\), the fixed-curve ideal-power theorem gives \(H^0(I_C^m(d))=(I_C^m)_d\) and \(H^1(I_C^m(d))=0\). This identifies the domain of the actual homogeneous source map. It does **not** imply surjectivity of the next normal-symbol restriction \(H^0(I_C^m(d))\to H^0(\operatorname{Sym}^m N_C^\vee(d))\), nor compatibility of independently chosen successive symbols. The [formal-normal source treatment](formal-normal-intersection.md#12a-the-difference-between-source-completeness-and-symbol-surjectivity) keeps those maps distinct.
-
-Thus the missing global-source arrow in the determinant and residual-jet routes is a concrete image and proper-pair computation, not merely a presentation of the ambient ideal-power space. For the conditional (6,16) lane, the known sextic-symbol map has rank 22 from a 23-dimensional source into 33 coefficients; this is an explicit instance of the distinction, not a universal rank formula.
-
-## The (6,16) source-to-jet dependency, with a failed implication
-
-The degree-six order-two source has dimension 23 and maps with rank 22 to 33 quadratic-symbol coefficients. Its eleven image equations are necessary for a moving root times multiplier to arise from a global sextic. The next cubic correction is multiplication by the nonzero root on sixteen correction coefficients, injective into forty cubic coefficients. Thus cubic compatibility is vanishing in a twenty-four-dimensional quotient, equivalently the undivided equations \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\). See [the coefficient derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
-
-A specified smooth torsion-two seed passes all eleven first-symbol equations but has a nonzero fixed-lift cubic pairing \(-384\) and separately fails the second obstruction. The pairing alone does not exclude every sextic lift, since \(q^3\) can alter the cubic jet. Therefore leading-symbol membership does **not** force compatibility of a chosen higher lift. The remaining nonlinear incidence must impose all twenty-five second-obstruction pairings and full-root spectral torsion, including singular-root and multiplier-zero loci. There are no rank-drop strata for the cubic multiplication map itself.
-
-Even a point passing these necessary conditions does not supply a proper degree-sixteen mate. Emptiness would exclude only the scoped saturated movement-two (6,16) locus, not every characteristic-zero STCI pair.
-
-## The elementary numerical gate before global-source tests
-
-For a proper pair with sole reduced support the fixed degree-four curve, \(de=4m\) for the generic transverse length \(m\). Equivalently \(4/\gcd(4,d)\mid e\). This necessary gate removes degree pairs but does not provide an equation or control residual cycles; for a proper pair with residual degree \(r\), the equality is instead \(de=4m+r\). The characteristic-zero carrier exclusions and the higher-jet/source tests are independent, stronger requirements.
-
-## A scoped full-lift exclusion already available
-
-The [free cube-orbit chart certificate](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) explicitly retains the \(\eta q^3\) sextic freedom. Its full cubic equations and unit identity prove the specified noncollision, nonendpoint cube-norm chart empty. This is stronger than the fixed-seed \(-384\) pairing, but it relies on the chart hypotheses; transferring it to actual supported pairs requires the separate quadric-cycle norm necessity bridge. Collision and endpoint cases remain unresolved by this certificate.
-
-## The two-node reduction has scoped closed and open branches
-
-The [two-node continuation](normalization_conductor_phase2_addendum.md#two-node-root-strata-exact-exclusions-and-retained-pencils) excludes the generic nonzero-defect line and the nonzero-defect \(B/C\) boundaries under forced-norm and actual-pair hypotheses. The generic conic is unresolved. The zero-defect locus has the exact global sextic form \(H_1H_2+\eta q^3\), with \(\eta\ne0\) required for sole support by cubic carrier exclusion. None of these calculations removes the need for the norm bridge, full second obstruction, actual mate and support tests.
-
-## Geometric condition after global realization
-
-The reviewed strict-sextic argument forces a nonreduced multiplier divisor on the full root for an actual supported conditional (6,16) pair. Its degree-52 discriminant-resultant condition is distinct from the first-symbol and cubic source tests. It cannot be imposed on a bare root incidence point without the actual-pair and saturated-relation hypotheses, and its exceptional zero locus has not been excluded.
-
-## The conditional singular-curve branch
-
-The [geometric continuation](normalization_conductor_phase2_addendum.md#singular-curves-on-the-strict-sextic-two-conditional-alternatives) proves, under local normality near multiplier zeros, that a singular curve on the strict sextic must be a trisecant ruling line through one ordinary root node. The other alternative is nonnormality at a multiplier zero. The identity \(16d-2e=10n\) is sensitive to additional exceptional contacts; \(e=n\) is not valid in general. This branch classification depends on actual supported equations, not just the finite root incidence.
-
-## Positive-characteristic existence versus degree minimization
-
-P-008 constructs explicit defining pairs for the fixed monomial quartic; P-012 proves the broader existence theorem for all smooth rational quartics in positive characteristic via cuspidal projection, radicial normalization and Frobenius descent. Its degree pair \((3,4p)\) is an **upper bound**, not a minimum. Special \((3,4)\) in characteristic three and \((4,4)\) in characteristic two concern the fixed model. Characteristic-five degree-product minimality remains a separate question. See [Chapter 1](01-problem-and-curve.md#12b-positive-characteristic-presentations-fixed-model-versus-all-rational-quartics).
-
-## Frobenius-binomial construction: a solved restricted minimum
-
-The [fixed-quartic calculation](01-problem-and-curve.md#12c-exact-frobenius-binomial-criterion-for-a-quartic-first-carrier) proves the exact criterion for pairs \(x_1^4-x_0^3x_3\) and \(x_2^{p^r}-x_0^a x_1^b x_3^c\): the nonnegative exponent solution exists iff some \(b\le p^r/3\) satisfies \(b\equiv3p^r\pmod4\). Frobenius and the \(x_0=0\) boundary prove sole reduced support. Characteristic five first qualifies at \(p^r=25\), not \(5\). This is a restricted family-minimum theorem, not a lower bound for arbitrary STCI pairs.
-
-## Binomial ansatz: complete reduced-support classification
-
-For the quartic first equation \(x_1^4-x_0^3x_3\) and exponent-compatible second binomial of degree \(n\), the [component theorem](01-problem-and-curve.md#12d-necessity-of-the-frobenius-exponent-and-all-reduced-components) gives exactly \(m\) reduced quartic components when \(n=p^r m\) with \(p\nmid m\). Frobenius power is therefore necessary and sufficient for sole support **inside this family**. Characteristic zero yields \(n\) components and has no admissible \(n=1\) exponent choice. The argument says nothing about general defining pairs.
-
-## Established dependencies
-
-The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
-
-- **Low-degree and quartic carrier exclusions** -> [STCI-R-0001](../results/quartic_carrier_exclusion.md) plus audited factor reduction -> hypothetical defining degrees at least five.
-- [STCI-R-0002](../results/cartier_singleton_lift.md) -> [STCI-Q-0001](../questions/cartier_projection_models.md) (restricted candidate normalization models -> unresolved actual projections and conductor descent).
-- [STCI-R-0003](../results/fixed_carrier_conductor_criterion.md) -> [STCI-R-0004](../results/projection_phase_reduction.md) (full-conductor descent framework -> fixed-family phase/torsion reduction).
-- [STCI-R-0005](../results/smooth_root_formal_obstruction.md) + [STCI-R-0006](../results/actual_ci_smooth_root_bridge.md) -> conditional consequences for actual complete intersections. The bridge hypotheses are essential.
-- [STCI-R-0007](../results/quadratic_root_obstruction_model.md) + [STCI-R-0006](../results/actual_ci_smooth_root_bridge.md) -> conditional actual-CI application of the computed obstruction classes.
-- [STCI-R-0008](../results/spectral_root_picard_criterion.md) -> existence criterion for graded second relations, **not** automatic ambient lifting.
-- [STCI-R-0009](../results/moving_purepower_boundary.md) -> forced second-relation degeneration, **not** unrestricted impossibility.
-
-## Conceptual connections, not proved implications
-
-- Common normal factor / exceptional curve <-> spectral root scheme / graded relations.
-- Successive blowups and Rees valuations <-> excess intersection and jet-discrepancy data.
-- Carrier normalization and conductor <-> global constraints on the same pair of equations.
-- Local cohomology and primitive thickenings <-> ambient jet-condition dependence.
-
-These arrows are **research interfaces**, not established theorem dependencies. In particular, the common-factor and blowup material needs source-by-source audit before promotion.
-
-
-## Marked geometry: proved results versus missing implications
-
-The flag-incidence theorem [R-0026](../results/quartic_flag_conormal_geometry.md) supplies the marked conormal and contact geometry used by the dual singular-scheme theorem [R-0027](../results/quartic_dual_singular_scheme.md). This is a stated canonical dependency. The ruled projection models [R-0028](../results/quartic_ruled_projection_geometry.md) and arithmetic four-section family [R-0029](../results/quartic_arithmetic_ruled_models.md) are separately scoped constructions; R-0029 uses the prescribed degeneration of R-0021.
-
-There is **no proved implication** from these contact or dual singularity schemes to a common singular point of arbitrary STCI equations on C. Nor does the projected conductor model imply descent for every carrier. The proposed arrows from actual normal initial ideals to contact flags, and from contact flags to global conductor obstructions, remain research questions.
-
-The October 27 one-step source supplies a different conditional bridge: for a fixed embedded lower thickening and actual proper equations of degree product (n+1)deg(C), determinant zero in its torsion-free equation module is equivalent to sole reduced support. This source-level criterion is not a promoted universal existence theorem; it requires a suitable lower thickening and proper decomposable kernel point.
-
-## Cross-family proof obligations
-
-These are the concrete proof obligations at the interfaces. They are **not** additional established arrows.
-
-| Proposed implication | What must be supplied | Failure mode already seen |
+| Proved implication | Required premises | Scope boundary |
 | --- | --- | --- |
-| Weighted normal data -> residual support | Full cancellation-stable initial ideal, integral specializations, proper global pair, projective cycle comparison | Scalar valuations and vertical exceptional support alone are insufficient |
-| Saturated lower layers -> actual embedded thickening | Fixed lower embedding, extension class, allowable repair divisor and surjective equation-module quotient | Abstract graded layers can fail to lift |
-| Embedded thickening -> two hypersurfaces | Actual source maps in both degrees, decomposable determinant-zero point, properness and degree exhaustion | A nonempty formal or linear kernel need not contain a proper decomposable pair |
-| Characteristic-two construction -> characteristic-zero construction | A specified flat embedded deformation with controlled generic reduced support and base | The mu4 family is flat but has extra generic components |
-| Ruled/dual contact -> carrier exclusion | An intrinsic map from actual equations to contact data and a full conductor descent calculation | Reduced endpoint or divisor-class information misses embedded corrections |
-| Fixed-carrier jet bound -> unrestricted exclusion | A family covering all carriers under consideration and its exceptional rank-drop strata | A single fixed sextic only excludes its own mate family |
+| Integral low-degree carrier exclusions + factor reduction → both defining degrees at least five | Fixed embedding, characteristic zero | [Quartic carrier proof](quartic_carrier_proof.md); false as a characteristic-free conclusion |
+| Rank-four Gorenstein transverse algebra and symbol pencil → local surface germs → exceptional rank contradiction | Hypothetical supported quartic pair, saturated Gorenstein structure, separable symbol pencil, characteristic-zero global bound | [Quartic pair](quartic_pair_obstruction.md); independent of the full carrier theorem |
+| Quintic symbol data + ADE surface + integral divisor relation → even-node contradiction | Exact reduced-symbol and generic-curvilinear hypotheses | [Quintic–octic proof](quintic_octic_surface_constraints.md); rank alone does not finish it |
+| Actual normalized section + full conductor compatibility → descended section | Specified carrier and full inverse support, including nilpotent conductor data | [Fixed-carrier criterion](../results/fixed_carrier_conductor_criterion.md); no universal carrier classification |
+| Saturated actual first relation + full generic binary CI → normal flatness and arithmetic restrictions | Exact orders and generation assumptions | [Filtrations](normal_filtration_boundary_obstructions.md); other initial patterns remain outside |
+| Proper actual pair + generic length → exact residual degree | Complete-intersection purity and degree | [Two surfaces](02-two-surfaces.md), [finite jets](finite_normal_jets.md); an exceptional vertical component is not a residual curve |
+| Frobenius-compatible exponents → actual quartic-carrier STCI | Fixed monomial curve, positive characteristic | [Construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md); does not supply characteristic-zero equations |
 
-The exact determinant test in the reviewed October 27 one-step source is unusually strong **after** fixing the lower embedding and assuming a proper degree-compatible pair. It does not construct the lower embedding or prove that a proper determinant-zero pair exists. This should be the default separation when moving from local structure to a claimed STCI conclusion.
+## Connections requiring an additional theorem
 
-## Epistemic guardrails
+- A saturated graded root or a formal lift does not provide global homogeneous
+  generators. Actual source images and their common higher-lift freedom matter.
+- A local equation-module comparison defect is not identified with a global
+  jet-rank defect or a conductor gluing defect.
+- A normalized Cartier class relation does not determine full inverse support
+  or descent through a nonreduced conductor.
+- Componentwise polarization does not imply node gluing, and gluing does not
+  by itself establish the actual projection's determinant/support condition.
+- Locally CI affine endpoint contractions do not imply a homogeneous
+  presentation of the chosen projective thickening.
+- Partial residual absorption does not give an iteration preserving all the
+  hypotheses of the next step.
+- A computation on one carrier or a finite source chart does not quantify over
+  every higher-degree pair.
 
-- Do not replace exact hypotheses by a generic phrase such as “smooth root” or “normal carrier.”
-- Do not conflate a formal lifting obstruction with an obstruction to every actual pair.
-- Do not treat quartic ancestor-incidence problems as surviving quartic-mate cases.
-- Do not infer global STCI nonexistence from a finite-dimensional conditional model.
+Each failure is documented through an explicit control or exact missing map
+in its [mathematical home](../INDEX.md). Neither analogy nor equivalence closes
+an implication. Existence and obstruction use the same compatibility tests:
+a construction must pass them, while a nonexistence proof must establish a
+failure over its entire claimed class.

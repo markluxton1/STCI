@@ -18,7 +18,8 @@ for some \(b>0\). A sufficiently high power of its canonical section descends th
 
 The criterion is carrier-specific.
 
-## Provenance
+## Proof and characteristic range
 
-- \`../notes/2026-10-06-session-conductor-support.md\`
-- companion exact example: \`../computations/verify_general_conductor_power.py\`
+The [full fixed-carrier theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#4-an-exact-fixed-carrier-criterion-including-thick-support) proves this support-contained corollary in arbitrary characteristic. Every branch over C has positive vanishing order, so a sufficiently large power enters the full conductor over C; there are no off-C unit phases. Purity then gives global descent. This does not remove the need to produce the actual upstairs divisor and polarization relation.
+
+The [local conductor algebra](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md) explains the characteristic-zero versus Frobenius distinction when off-C unit phases are present.

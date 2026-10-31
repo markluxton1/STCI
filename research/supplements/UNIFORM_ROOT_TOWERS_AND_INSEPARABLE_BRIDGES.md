@@ -4,16 +4,16 @@ Permanent mathematical dossier preserving complete arguments, assumptions, chara
 
 ---
 
-## 2026-10-15-generalization-uniform-root-tower-finite-determinacy
+<a id="2026-10-15-generalization-uniform-root-tower-finite-determinacy"></a>
 
-# A fixed finite-type root family has a finite formal-obstruction frontier
+## A fixed finite-type root family has a finite formal-obstruction frontier
 
 Date: 2026-10-15. Author: `universal_root_obstruction`.
 Status: **NEW GENERAL STRUCTURAL THEOREM; independent conceptual and
 cohomological reviews passed**. Accepted first/second root-curve
 obstructions and their audits are premises. No accepted verifier is rerun.
 
-## 1. General statement
+### 1. General statement
 
 Let `C=P1` be a smooth curve in a smooth threefold with balanced conormal
 
@@ -73,7 +73,7 @@ It neither algebraizes the formal ideal nor realizes it by projective
 hypersurfaces. The theorem does not assert that the stable scheme is
 empty or nonempty.
 
-## 2. All-order negativity is independent of the first normal order
+### 2. All-order negativity is independent of the first normal order
 
 Let `pi:Z->P1` be the finite flat root projection. The accepted divisor
 sequence gives, for every `m>=1`,
@@ -144,7 +144,7 @@ sequence gives `deg N=4e-2`, and the two equal splitting degrees are
 It controls every first normal order `r` at once for each fixed movement
 degree satisfying (12).
 
-## 3. Relative cohomology retains every parameter scheme structure
+### 3. Relative cohomology retains every parameter scheme structure
 
 Let `Z_univ` be the universal root divisor in `E x U`. Its divisor line
 bundle is
@@ -179,7 +179,7 @@ In the alternative convention used by the first/second notes, put
 Then `V_m=Q_m tensor O_U(1)`. The two descriptions have the same coefficient
 line factor; no scale dependence of the universal equation is lost.
 
-## 4. Local equations explain the obstruction functor and the unit gauge
+### 4. Local equations explain the obstruction functor and the unit gauge
 
 Set `E_m=V(I_E^(m+1))`, so `E_0=E`. The closed immersion
 `E_(m-1) -> E_m` is square-zero: the quotient of structure sheaves
@@ -219,7 +219,7 @@ scheme `Km` inside `K(m-1)`, and it has its universal compatible ideal.
 This proves (2) and the claimed canonical obstruction sections without
 introducing new correction parameters at later orders.
 
-## 5. Noetherian stabilization is scheme-theoretic
+### 5. Noetherian stabilization is scheme-theoretic
 
 Each `Km` is closed in the fixed noetherian scheme `U`. Let `I_m` be its
 coherent ideal sheaf in `U`. Then
@@ -247,7 +247,7 @@ space; noetherianity then bounds the order at which genuinely new
 conditions can occur. Without a fixed finite-type space of all surviving
 choices, noetherianity alone would not give this conclusion.
 
-## 6. The actual-CI consequence is a bounded-gap alternative
+### 6. The actual-CI consequence is a bounded-gap alternative
 
 Assume an actual-CI-to-root-curve bridge with all its stated hypotheses,
 and suppose the generic normal initial regular sequence has degrees
@@ -286,7 +286,7 @@ The spectral Picard descent condition is a separate requirement on a
 later second quotient relation. Formal first-principal compatibility
 neither supplies that second relation nor constructs two projective
 equations with the required support. The universal STCI problem and
-unrestricted `C0` remain open. No commit or memory update was made.
+unrestricted `C0` remain open.
 
 Independent reviews of the new theorem are recorded in
 [the all-order cohomology audit](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit)
@@ -295,12 +295,11 @@ The latter includes arbitrary nonreduced parameter bases, equation units,
 scheme-theoretic stabilization, and the regular locally principal formal
 inverse limit. Neither review asserts algebraization.
 
-
 ---
 
-## 2026-10-15-generalization-uniform-root-tower-functor-independent-audit
+<a id="2026-10-15-generalization-uniform-root-tower-functor-independent-audit"></a>
 
-# Independent conceptual audit of the finite formal-obstruction frontier
+## Independent conceptual audit of the finite formal-obstruction frontier
 
 Date: 2026-10-15. Reviewer: `new_blowup_bridge_review`.
 Status: **PASS WITH THE PRECISE EMBEDDED-CARTIER FUNCTOR BELOW**.
@@ -318,7 +317,7 @@ supplies the stated vanishing, ranks, and coefficient twists. This note
 checks the conceptual bridge from those bundles to the asserted scheme
 and formal lifting functor.
 
-## 1. The functor must parametrize embedded ideals
+### 1. The functor must parametrize embedded ideals
 
 Use the proposal's fixed ambient formal neighborhood of the effective
 Cartier divisor `E`, with `J=I_E/I_E^2`, and put
@@ -361,7 +360,7 @@ They are `T`-flat, so the finite filtered quotient is `T`-flat. This
 argument includes nonreduced parameter bases and nonreduced root
 divisors. It does not infer regularity from closed-point behavior alone.
 
-## 2. The relative cohomology assertion is strong enough
+### 2. The relative cohomology assertion is strong enough
 
 Let `p:Z_univ -> U` be the proper universal root family. Include the
 coefficient-space line factor in the actual correction sheaf:
@@ -397,7 +396,7 @@ Thus the all-order vanishing is genuinely relative. Pointwise
 `H0=0`, without (1) or an equivalent base-change proof, would not by
 itself justify the scheme-valued uniqueness needed below.
 
-## 3. Square-zero lifting has the asserted obstruction and no unit moduli
+### 3. Square-zero lifting has the asserted obstruction and no unit moduli
 
 Fix a lift on `E_(m-1) x T`. On a suitable cover, lift one local equation
 to `E_m x T`; Section 1 proves it remains regular. Transition units of
@@ -435,7 +434,7 @@ a canonical section of `V_m|T`. It is natural under base change, not
 merely a list of values at geometric points. Its scheme-theoretic zero
 locus detects vanishing on nilpotent parameter directions as well.
 
-## 4. Induction gives closed scheme representability
+### 4. Induction gives closed scheme representability
 
 Start with `K_0=U` and its universal root ideal. Suppose `K_(m-1)`
 represents the lower ideal-lifting functor and carries its universal
@@ -462,7 +461,7 @@ they do not change the new-layer coefficient sheaf (2). This is an
 embedded Cartier-ideal tower, before an independent second relation
 changes the actual-CI problem.
 
-## 5. Noetherian stabilization is sufficient, with the stated limitation
+### 5. Noetherian stabilization is sufficient, with the stated limitation
 
 The closed subschemes `K_m` all lie in the one fixed noetherian,
 quasi-compact coefficient open `U`. Their ideal sheaves form an
@@ -485,7 +484,7 @@ that those stages are already stable; a later obstruction can still
 impose new conditions. No computable value or uniform numerical bound
 for `N` follows from the ranks alone.
 
-## 6. The stable scheme represents formal Cartier ideals
+### 6. The stable scheme represents formal Cartier ideals
 
 Let `K_infinity=K_N`. Its universal ideals at all orders form a
 compatible system. To check that their inverse limit is a formal
@@ -520,7 +519,7 @@ statement concerns compatible Cartier ideals on the adic formal
 neighborhood; it makes no extra claim about flatness of an infinite
 inverse-limit module over an arbitrary nonnoetherian base.
 
-## 7. The actual-CI consequence retains its strict indexing
+### 7. The actual-CI consequence retains its strict indexing
 
 Use the accepted bridge only within its stated hypotheses, in
 particular the smooth actual root and jointly generating leading
@@ -544,7 +543,7 @@ descent, its extension, and projective realization remain separate.
 The tower is defined on the full basepoint-free root open, while this
 application uses the smooth-root part where the actual bridge applies.
 
-## Disposition
+### Disposition
 
 The new tower and finite formal-obstruction frontier pass this
 conceptual review under the precise embedded-Cartier formulation.
@@ -558,12 +557,11 @@ No value for `N`, equations of the stable locus, algebraization,
 emptiness, or unrestricted STCI conclusion is proved. The universal
 STCI question and unrestricted characteristic-zero `C0` remain open.
 
-
 ---
 
-## 2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit
+<a id="2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit"></a>
 
-# Independent audit: cohomology for the uniform root-lifting tower
+## Independent audit: cohomology for the uniform root-lifting tower
 
 Date: 2026-10-15. Reviewer: `tower_finite_audit`, with a separate
 `square_zero_cartier` subreview of the equation-unit issue.
@@ -578,7 +576,7 @@ Reviewed proposal:
 The accepted first and second obstruction calculations are premises;
 this review concerns the new all-order structural input.
 
-## 1. The precise general setting
+### 1. The precise general setting
 
 Let the ground field be fixed, let
 
@@ -610,7 +608,7 @@ This is the correct sheaf for differences of embedded Cartier ideal
 lifts from `V(I_E^k)` to `V(I_E^(k+1))`. It concerns ideals, rather
 than chosen local generators of those ideals.
 
-## 2. Uniform H0 vanishing includes every nonreduced root
+### 2. Uniform H0 vanishing includes every nonreduced root
 
 Write `pi:Z -> P1_base`. For `n=r+k`, restriction of the divisor
 sequence and pushforward in the fiber direction gives
@@ -651,7 +649,7 @@ sharpness claim is made.
 For `(r,epsilon,lambda)=(2,2,7)`, (4) gives rank two and degree
 `2k+2`. The upper bound (5) is `4-5k`, as proposed.
 
-## 3. The H1 rank formula is correct, including boundary values
+### 3. The H1 rank formula is correct, including boundary values
 
 The divisor sequence for (2) is
 
@@ -686,7 +684,7 @@ This obtains both the stated rank and the injectivity required for
 the quotient construction. It does not infer injectivity from a
 generic rank computation.
 
-## 4. Universal coefficient twists and arbitrary base change
+### 4. Universal coefficient twists and arbitrary base change
 
 Let `q:mathcal Z -> U` be the universal root family, and write
 `H=O_U(1)`. The universal equation cuts out a divisor with ideal
@@ -734,7 +732,7 @@ and formation of these sheaves commutes with arbitrary base change.
 This avoids relying on a false general principle that constant fiber
 dimensions by themselves always suffice over a nonreduced base.
 
-## 5. What the cohomology permits in the deformation argument
+### 5. What the cohomology permits in the deformation argument
 
 For clarity, a direct local check of the relevant equation gauges is
 as follows. Let `A' -> A` be one ambient square-zero step with kernel
@@ -761,7 +759,7 @@ embedded ideal lift over every parameter base. This is exactly the
 cohomological package needed for the separate conceptual review; it
 does not identify local generator choices as canonical equations.
 
-## 6. Finite determinacy and the relation-gap consequence: scope
+### 6. Finite determinacy and the relation-gap consequence: scope
 
 If the relative lifting construction produces closed subschemes
 
@@ -801,14 +799,13 @@ bridge requires it. Allowing nonreduced roots in the cohomology and
 universal tower does not extend that bridge to nonreduced roots.
 There is no algebraization claim, no asserted value of `N`, no proof
 that the stabilized locus is empty, and no unrestricted STCI
-conclusion. No commit or memory update was made.
-
+conclusion.
 
 ---
 
-## 2026-10-15-generalization-inseparable-root-blowup-bridge
+<a id="2026-10-15-generalization-inseparable-root-blowup-bridge"></a>
 
-# The actual-CI blowup bridge does not require separable root fields
+## The actual-CI blowup bridge does not require separable root fields
 
 Date: 2026-10-15. Author: `formal_algebraization_route`.
 Status: **ARBITRARY-CHARACTERISTIC BRIDGE; independent review passed** in
@@ -820,7 +817,7 @@ root-splitting step with uncompleted local algebra over `K=k(C)`.
 No accepted certificate, computation, or characteristic-zero proof was
 replayed.
 
-## 1. Literal hypotheses and conclusion
+### 1. Literal hypotheses and conclusion
 
 Let `k` be an algebraically closed field of any characteristic, `X` a
 smooth threefold, and `C subset X` a smooth connected curve. Let the
@@ -860,7 +857,7 @@ embedded Cartier lift of `Z` on `V(I_E^ell)` and hence at every stage
 No separability of `Z->C`, tame ramification, or invertibility of `r`,
 `s`, or `ell` in the field is assumed.
 
-## 2. The generic standard basis exists before completion
+### 2. The generic standard basis exists before completion
 
 Set `A=O_(X,eta_C)`, a two-dimensional regular local ring, with maximal
 ideal `m=I_C A` and residue field `K=k(C)`. Its associated graded ring
@@ -905,7 +902,7 @@ not the strict transform of the supported intersection `Y`. Saturating
 the eventual ideal `(p,u^ell)` by `u` would give the unit ideal and
 destroy this object entirely; no such saturation is performed.
 
-## 3. The generic root prime may be inseparable
+### 3. The generic root prime may be inseparable
 
 Let `xi` be the generic point of a component of `Z`. Every component is
 horizontal over `C`: a line subbundle gives a nonzero binary polynomial
@@ -973,7 +970,7 @@ linear `u` term cannot be canceled by a `p`-th power of an element in
 `(u)`. Thus the stronger split `K`-algebra claim genuinely fails even
 though the local ideal and transverse length theorem hold.
 
-## 4. Actual support and every closed point are retained
+### 4. Actual support and every closed point are retained
 
 The characteristic-free support argument uses the original strict
 equations. Their restrictions to `E` are `a f_r,b f_r`, and the actual
@@ -1010,7 +1007,7 @@ smooth points at which the root projection is purely inseparable.
 For example `v^p-t` has vanishing fiber derivative but nonzero full
 differential `-dt`; the latter is what this proof uses.
 
-## 5. Conormal splitting and compatible actual lifts
+### 5. Conormal splitting and compatible actual lifts
 
 Locally (1) with `ell>=2` shows that the first normal symbols of the
 two equations span precisely the conormal line generated by `h`.
@@ -1035,7 +1032,7 @@ quotient ideal is generated by `h`, which is a nonzerodivisor since
 embedded ideal extending `I_(Z/E)`. This proves (2), with all equation
 units and all points retained.
 
-## 6. Consequence for the characteristic-free smooth-root cutoff
+### 6. Consequence for the characteristic-free smooth-root cutoff
 
 The [characteristic-scope addendum](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 already proves the formal smooth movement-two nonexistence theorem
@@ -1061,12 +1058,11 @@ or the absence of the full ordinary initial complete-intersection
 hypothesis. Those are substantive retained boundaries. The universal
 STCI and unrestricted `C0` problems remain open.
 
-
 ---
 
-## 2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit
+<a id="2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit"></a>
 
-# Independent audit of the inseparable-root actual-CI bridge
+## Independent audit of the inseparable-root actual-CI bridge
 
 Date: 2026-10-15. Reviewer: `new_logarithmic_review`.
 
@@ -1088,7 +1084,7 @@ audit checks their use in the global extension, the new wild family,
 and the obstruction/lift consequences. No accepted computation,
 characteristic-zero proof, CAS calculation, or verifier was replayed.
 
-## 1. The scope that must survive the extension
+### 1. The scope that must survive the extension
 
 Let k be algebraically closed of any characteristic, X a smooth
 threefold, and C a smooth connected curve. The actual complete
@@ -1110,7 +1106,7 @@ fiber components, nonreduced roots, and noncoprime next relations have
 not been removed by saturation or admitted by the new characteristic
 scope. Components of the smooth Z can be handled separately.
 
-## 2. The new generic replacement uses the actual local ideal
+### 2. The new generic replacement uses the actual local ideal
 
 At eta_C, A=O_(X,eta_C) is a regular local ring of dimension two,
 with maximal ideal m and residue field K=k(C). Its associated graded
@@ -1156,7 +1152,7 @@ u. Hence the length is ell. This is length at the actual prime with
 residue field K', not a count of geometric roots or an assertion of
 a K-compatible truncated coefficient-field model.
 
-## 3. The actual global hypotheses give the local form everywhere
+### 3. The actual global hypotheses give the local form everywhere
 
 On E, the two original strict equations restrict to a f_r,b f_r.
 The actual coefficient pair has no common zero, so this common zero
@@ -1191,7 +1187,7 @@ field is needed. The new inseparable generic calculation is therefore
 sufficient to carry the global primitive structure across all closed
 points, including purely inseparable projection points.
 
-## 4. Conormal splitting and actual lifts are intrinsic
+### 4. Conormal splitting and actual lifts are intrinsic
 
 Let J=I_(Z/B). Since ell>=2, the image of I_Y' in J/J^2 is locally
 the line generated by [h]; u^ell maps to zero. These lines glue as
@@ -1224,7 +1220,7 @@ quotient of I_Y'. With E_m=V(I_E^(m+1)), the range supplied is
 No lift at the next stage is asserted. The condition ell>=2 is
 substantive for the splitting and first-obstruction statement.
 
-## 5. The wild family and the coefficient-field warning both pass
+### 5. The wild family and the coefficient-field warning both pass
 
 In characteristic p>0, put C=(x,y) in A3_(t,x,y), and choose
 
@@ -1269,7 +1265,7 @@ K-map. The example does not contradict Cohen coefficient fields.
 Its base curve is affine, and it is not an example of an infinite
 projective movement-two formal root excluded by the accepted theorem.
 
-## 6. Consequence and acceptance boundary
+### 6. Consequence and acceptance boundary
 
 Under the accepted characteristic-free smooth-root formal theorem and
 tower, fix a balanced smooth rational embedding in P3 of degree e>=4
@@ -1293,15 +1289,11 @@ literal C0 in an exceptional characteristic, cover defective or
 nonreduced roots, or remove the full generic initial-ideal hypothesis.
 No universal STCI or unrestricted C0 conclusion is drawn.
 
-No commit, memory write, accepted verifier replay, or CAS computation
-was performed.
-
-
 ---
 
-## 2026-10-15-generalization-inseparable-root-blowup-local-algebra-review
+<a id="2026-10-15-generalization-inseparable-root-blowup-local-algebra-review"></a>
 
-# Local-algebra review of the inseparable-root blowup repair
+## Local-algebra review of the inseparable-root blowup repair
 
 Date: 2026-10-15. Reviewer: `inseparable_blowup_bridge`.
 Status: **PASS for the new generic standard-basis, actual divided-ideal,
@@ -1313,7 +1305,7 @@ certificate, or certify the separate formal nonexistence theorem.
 Reviewed source:
 [the inseparable-root bridge owner note](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge).
 
-## 1. The generator change is valid in the uncompleted ring
+### 1. The generator change is valid in the uncompleted ring
 
 Use the owner's notation
 
@@ -1354,7 +1346,7 @@ unit of `A`, so `M in GL_2(A)`. This is the unit condition needed on
 the blowup; equality of abstract initial ideals alone is not being
 used as an unsupported change of strict-transform equations.
 
-## 2. The common division exponent retains the actual intersection
+### 2. The common division exponent retains the actual intersection
 
 Blowup commutes with localization at `eta_C`. On a chart of
 `Bl_m Spec A` with exceptional equation `u`, the pullback of `M`
@@ -1377,7 +1369,7 @@ that open set is empty. In particular, saturating the divided ideal
 by `u` would destroy the supported strict intersection. No such
 saturation occurs in the owner argument.
 
-## 3. The generic local length needs a reduced prime, not separability
+### 3. The generic local length needs a reduced prime, not separability
 
 Let `xi` be the generic point of a component of the actual smooth
 root divisor. All these components dominate `C`: the actual
@@ -1425,7 +1417,7 @@ needed. The owner's explicit refusal to assert a `K`-compatible
 isomorphism with `K'[[u]]/(u^ell)` is necessary: an inseparable
 root deformation need not admit that extra structure.
 
-## 4. Scope of this review and the retained support boundary
+### 4. Scope of this review and the retained support boundary
 
 The new generic calculation is valid in every characteristic.
 Its root-prime length step needs only reducedness of the generic

@@ -20,7 +20,7 @@ were left untouched.
 
 Hypotheses throughout: an algebraically closed field of characteristic
 zero; the genus-one normalization S and smooth lifted quartic c in
-[the frozen quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
+[the frozen quintic frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
 with its independently checked
 [A4 and unique-line reductions](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit).
 Thus S is a normal degree-five anticanonical del Pezzo surface, its only
@@ -263,14 +263,7 @@ formula. Source SHA256:
 
     e710635b396707a6414fb142472db1ead3b17cfd06c1cb1ee18c4f64318108f2
 
-The successful execution is
-[attempt 05](../validation/2026-10-11-quintic-a4-pair-classification/attempt-05/execution-record.json).
-Attempts 01--04 are retained in the same validation folder, including
-their source snapshots and raw streams. They failed from Macaulay2
-namespace collisions (`hh`, then `roots`), rather than mathematical
-assertion failures. Attempt 02 changed a suspected name without curing
-the collision; the full history is not hidden. Source snapshots are
-copies and are not counted as independent certificates.
+The retained exact source supplies the lattice, conic, automorphism and center identities. Macaulay2 namespace failures contributed no mathematical argument.
 
 The exhaustion argument is the written contraction proof in section 1,
 not the fifteen symbolic checks. The quintic STCI question remains
@@ -413,10 +406,14 @@ has a polynomial inverse, and the equation becomes
 
     uv+a^5=0.
 
+The polynomial uv+a^5 is primitive and irreducible as a polynomial linear in v over k[a,u], since gcd(u,a^5)=1. Thus the containing affine chart is integral, as required in the density argument.
+
 This is an exact affine coordinate-ring isomorphism, hence also an
 isomorphism of completed local rings. In characteristic zero its only
 singular point is a=u=v=0. The image has exactly one A4 singularity,
-at P0. The four explicit (-2) curves above give its minimal resolution;
+at P0. The affine hypersurface is Cohen–Macaulay, hence S2, and is regular away from its single closed singular point, hence R1; it is therefore normal. The [exact local-chart checker](../computations/verify_session_dp5_a4_local_chart_2026_10_11.m2) retains the polynomial identities, while the written density proof below supplies actual-image identification independently of a global-kernel computation.
+
+The four explicit (-2) curves above give its minimal resolution;
 crepancy follows from K_M=-L and K_S=-H. In particular the full
 anticanonical model, its normality and its singularity are checked
 directly, without assuming them from the name "del Pezzo".
@@ -429,6 +426,33 @@ The delegated exact computation obtains its ideal
 
 whose radical is (Z1,Z2,Z3,Z4,Z5). The nonreduced Jacobian scheme is
 retained; its degree is not a count of four singular points.
+
+Put d=Z4 and e=Z5 in the Z0=1 chart. The polynomial inverse of the triangular change is c=u+a², b=v−au−2a³. The following direct density argument also identifies the actual image chart without relying on an elimination-kernel calculation.
+
+### Actual image closure without an elimination-kernel assumption
+
+The preceding computation could otherwise only describe a proposed
+containing scheme. Here density identifies it with the actual image.
+
+On the nonempty open subset `e != 0` of the integral five-quadric chart,
+take source coordinates `y=1`, `x=d/e`, `z=b/e`. The first two relations
+give `a=b d/e`, `c=d^2/e`. The remaining relations give
+
+```
+e^2=b^2 e-d^3,
+z^2-x^3=1/e.
+```
+
+Therefore the source parametrization, divided by its nonzero Z0, is
+exactly `[1:a:b:c:d:e]`. Thus the entire open subset `e != 0` is in the
+parametric image. It is nonempty, for example at
+`(a,b,c,d,e)=(0,1,0,0,1)`, and hence dense in the integral chart.
+
+All five quadrics vanish on S, so its chart is contained in this
+five-quadric chart. Conversely the dense open subset just exhibited lies
+in S. Since S is the reduced image closure, its chart is the entire
+integral five-quadric chart scheme. This proves the asserted actual
+chart identification without appealing to an unverified global kernel.
 
 ## 5. The smooth quartic and tangent line
 

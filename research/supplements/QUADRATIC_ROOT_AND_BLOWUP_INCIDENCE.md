@@ -1,22 +1,30 @@
 # quadratic root and blowup incidence
 
-Permanent subject dossier retaining complete mathematical source arguments, their hypotheses, corrections, counterexamples and unresolved scope.
+The proof units below retain their exact hypotheses, counterexamples and unresolved interfaces. They distinguish abstract graded data, embedded lifts and actual equations.
+
+- [The second ambient obstruction is nonzero on the smooth torsion-two seed](#2026-10-14-generalization-quadratic-root-second-obstruction)
+- [Independent review of the actual second obstruction at the smooth seed](#2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit)
+- [Independent review of the universal quadratic incidence and smooth seed](#2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit)
+- [Saturated first relations turn an actual CI into a primitive root-curve multiple](#2026-10-14-generalization-blowup-root-curve-primitive-bridge)
+- [Independent audit of the actual-CI blowup/root-curve bridge](#2026-10-14-generalization-blowup-root-curve-bridge-independent-audit)
+- [Independent audit: Cartier rational lifts on normalizations of arbitrary degree](#2026-10-14-generalization-cartier-lift-independent-audit)
+- [Universal quadratic root incidence and a smooth torsion-compatible zero](#source-2026-10-14-generalization-quadratic-root-universal-incidencemd)
 
 ---
 
-## 2026-10-14-generalization-quadratic-root-second-obstruction
+<a id="2026-10-14-generalization-quadratic-root-second-obstruction"></a>
 
-# The second ambient obstruction is nonzero on the smooth torsion-two seed
+## The second ambient obstruction is nonzero on the smooth torsion-two seed
 
 Date: 2026-10-14. Author: `universal_root_obstruction`.
-Status: **NEW EXACT ACTUAL-CHART CALCULATION; independent review in progress**.
+Status: **Exact actual-chart calculation, independently reviewed below** in [the sparse second-obstruction reconstruction](#2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit).
 The accepted embedded chart is an input. The accepted spectral obstruction
 interpretation is an input. This note computes one new higher class,
 without retesting accepted chart or conormal statements.
 
-## 1. The hierarchy detects geometry that both first tests permit
+### 1. The hierarchy detects geometry that both first tests permit
 
-The [universal quadratic incidence note](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd)
+The [universal quadratic incidence note](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd)
 constructs the actual first obstruction scheme `K`, proves it is smooth
 of dimension four at the seed
 
@@ -38,7 +46,7 @@ problem. It becomes a necessary condition for actual supported complete
 intersections only within a proved actual-CI-to-root-curve bridge and its
 hypotheses. No unrestricted actual CI or STCI conclusion is asserted.
 
-## 2. Retain the full chart, base motion, and equation unit
+### 2. Retain the full chart, base motion, and equation unit
 
 Use the accepted exact normal chart, with
 
@@ -92,7 +100,7 @@ the first local correction. Unknown second unit coefficients multiply
 second actual class is exactly the Laurent projection of (2), modulo
 those multiples and coboundaries.
 
-## 3. One sparse Serre-dual pairing proves nonvanishing
+### 3. One sparse Serre-dual pairing proves nonvanishing
 
 The second target is
 
@@ -135,7 +143,7 @@ Hence the actual second ambient class is nonzero. The complete rational
 matrix calculation independently records multiplication rank `39` and
 augmented rank `40`; the sparse identity (3)--(4) is already a proof.
 
-## 4. This is a universal higher-obstruction mechanism on K
+### 4. This is a universal higher-obstruction mechanism on K
 
 The seed calculation has a family-level consequence; it need not lead
 to a list of further seeds. On the basepoint-free universal first
@@ -180,7 +188,7 @@ adds a genuine obstruction after both the first class and Picard torsion
 have passed. No additional seed or carrier-degree enumeration is needed
 for that conclusion.
 
-## 5. Exact artifacts and boundaries
+### 5. Exact artifacts and boundaries
 
 - [Standard-library exact verifier](../computations/generalization_quadratic_root_seed_second_obstruction.py).
 - [Full rational output and sparse dual certificate](../computations/generalization_quadratic_root_seed_second_obstruction.json).
@@ -195,15 +203,13 @@ The seed has not been lifted through second exceptional order, so it
 supplies no formal or projective CI construction. The result excludes
 this first-relation seed from a first-principal-ideal lift through normal
 degree four when `s>4`; it does not exclude every smooth root divisor,
-every torsion order, or unrestricted `C0`. No commit or memory update
-was made.
-
+every torsion order, or unrestricted `C0`.
 
 ---
 
-## 2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit
+<a id="2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit"></a>
 
-# Independent review of the actual second obstruction at the smooth seed
+## Independent review of the actual second obstruction at the smooth seed
 
 Date: 2026-10-14. Author: `geometric_locus`.
 
@@ -225,7 +231,7 @@ The nonzero scalar below was derived independently by hand from the full
 chart. It does not rely on the parent script's row reduction or on its
 larger dual certificate.
 
-## 1. The cubic patch and equation unit are consistent
+### 1. The cubic patch and equation unit are consistent
 
 Use the accepted exact chart
 
@@ -279,7 +285,7 @@ is precisely a multiple of `f0` in the quotient target. No additional
 `L1^2 f0` term is forced: the free second coefficient belongs to the unit
 `1+L1+L2`, and would absorb such a reparameterization of the unit.
 
-## 2. Independent sparse quartic calculation
+### 2. Independent sparse quartic calculation
 
 Only the coefficients of `u^3v` and `uv^3` at powers `z^-3` and `z^-1`
 are needed. Write `Uj=[u']_j`. The first two layers are
@@ -326,7 +332,7 @@ R4: uv^3          37/8-(-5/8+33/8)=9/8          -3/32.
 This derives all four coefficients in the main note directly from the
 full chart and the first patch data.
 
-## 3. The scalar is a valid quotient obstruction
+### 3. The scalar is a valid quotient obstruction
 
 The second target is the Cech quotient
 
@@ -357,7 +363,7 @@ below; adjoining a single vector with this nonzero pairing therefore
 raises the rank to forty. A full row reduction is not needed for this
 conclusion.
 
-## 4. The stated family consequence is valid
+### 4. The stated family consequence is valid
 
 On the entire basepoint-free open, the possible difference between two
 first Cartier lifts is a section of `O_Z(-5,3)`. The first review proved
@@ -407,14 +413,11 @@ was proved. The result leaves higher zero loci, their intersections
 with torsion strata, later ambient extensions, and actual polynomial
 realization unresolved.
 
-No commit or memory update was made.
-
-
 ---
 
-## 2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit
+<a id="2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit"></a>
 
-# Independent review of the universal quadratic incidence and smooth seed
+## Independent review of the universal quadratic incidence and smooth seed
 
 Date: 2026-10-14. Author: `geometric_locus`.
 
@@ -434,7 +437,7 @@ The explicit seed identity was first derived by hand. Two standard-library
 `fractions.Fraction` calculations independently verified the reduced
 differential below and the main note's full Jacobian minor `-405`.
 
-## 1. Universal matrix and constant rank
+### 1. Universal matrix and constant rank
 
 For `f=a u^2+b uv+c v^2`, multiplication by a correction `A u+B v`
 has coefficient vector
@@ -477,7 +480,7 @@ uniquely for `h`, and the remaining four equations are the components of
 the rank-four quotient obstruction. This is a scheme statement, not only
 an equality of sets.
 
-## 2. Exact seed identity and geometric smoothness
+### 2. Exact seed identity and geometric smoothness
 
 Put
 
@@ -509,7 +512,7 @@ Thus the first ambient obstruction does vanish on a smooth `(2,2)`
 root curve. A proposed universal smooth-root exclusion at this order
 would be false.
 
-## 3. Independent differential calculation
+### 3. Independent differential calculation
 
 The dual of the target Cech space consists of four polynomials
 `q0,...,q3` of degree at most three, paired by taking the `z^-1`
@@ -563,7 +566,7 @@ compatibility scheme at `[f0]`. Smoothness of the root curve is open,
 so the compatible smooth-root locus has this positive local dimension.
 This does not say that the ruling difference is torsion throughout it.
 
-## 4. The seed's ruling difference has exact order two
+### 4. The seed's ruling difference has exact order two
 
 Write `A=O_Z(1,0)`, `B=O_Z(0,1)`, and `eta=B tensor A^-1`.
 On any smooth basepoint-free diagonal root curve
@@ -592,7 +595,7 @@ and spectral torsion coexist at this exact seed. Actual second ambient
 compatibility, later lifts, polynomial realization, and support remain
 separate questions.
 
-## 5. Optional diagonal-slice classification
+### 5. Optional diagonal-slice classification
 
 This section is an additional exact lemma, not needed for the preceding
 review or the next obstruction calculation. Work geometrically over an
@@ -653,14 +656,11 @@ curve has one of these three normal forms:
 
 The two signs of `t` are identified by `lambda=-1`.
 
-No commit or memory update was made.
-
-
 ---
 
-## 2026-10-14-generalization-blowup-root-curve-primitive-bridge
+<a id="2026-10-14-generalization-blowup-root-curve-primitive-bridge"></a>
 
-# Saturated first relations turn an actual CI into a primitive root-curve multiple
+## Saturated first relations turn an actual CI into a primitive root-curve multiple
 
 Date: 2026-10-14. Author: root. Status: **WRITTEN GEOMETRIC THEOREM;
 independently audited under the stated hypotheses**. The
@@ -671,7 +671,7 @@ already reviewed ambient obstruction class are premises. This note
 supplies a bridge from an actual supported complete intersection to
 that obstruction. It does not assert that the obstruction is nonzero.
 
-## 1. Hypotheses
+### 1. Hypotheses
 
 Let C be a smooth curve in a smooth threefold X over an algebraically
 closed field of characteristic zero. Let Y=(F,G) be an actual complete
@@ -700,7 +700,7 @@ strict-transform Cartier divisors. Their local equations are obtained
 by dividing the pullbacks of F,G by the r-th power of an exceptional
 equation. Write Y'=D_F intersect D_G.
 
-## 2. The strict intersection has support exactly Z
+### 2. The strict intersection has support exactly Z
 
 Off E the blowup is an isomorphism and the original intersection has
 no point off C. Hence Y' is supported on E. On E the two transformed
@@ -737,7 +737,7 @@ generic algebra of Y' along each component of Z is curvilinear of
 length k. This calculation uses the full generic initial regular
 sequence, not merely two chosen original normal orders.
 
-## 3. The first normal layer is a line bundle everywhere
+### 3. The first normal layer is a line bundle everywhere
 
 The conormal sequence for Z subset E subset B is
 
@@ -776,7 +776,7 @@ without a point-supported torsion term. This conclusion would be
 false if joint leading base points had been removed instead of
 retained.
 
-## 4. The entire strict intersection is primitive
+### 4. The entire strict intersection is primitive
 
 The preferred proof is local on the smooth strict surface and works
 before completion. At a point p of Z, choose one transformed equation
@@ -814,7 +814,7 @@ K from Section 3, and its surviving conormal is O_Z(-E). This is
 stronger than generic curvilinearity or a numerical socle match.
 No socle-degree enumeration is needed to obtain primitivity here.
 
-## 5. Consequence for the ambient root-curve obstruction
+### 5. Consequence for the ambient root-curve obstruction
 
 Let J_E=O_E(-E). The square-zero first neighborhood of E has the
 reviewed class
@@ -864,7 +864,7 @@ both hypersurface degrees. This is the appropriate shared next
 problem, rather than enumerating the numerical profiles of the
 abstract elliptic graded families.
 
-## 6. Boundaries and audit disposition
+### 6. Boundaries and audit disposition
 
 The theorem leaves nonzero first-relation defects, singular or
 nonreduced root divisors, noncoprime next relations and k=1 outside
@@ -888,12 +888,11 @@ spectral criterion, normal bundle, ambient chart and earlier carrier
 exclusions were not reverified.
 The universal STCI question and unrestricted C0 remain open.
 
-
 ---
 
-## 2026-10-14-generalization-blowup-root-curve-bridge-independent-audit
+<a id="2026-10-14-generalization-blowup-root-curve-bridge-independent-audit"></a>
 
-# Independent audit of the actual-CI blowup/root-curve bridge
+## Independent audit of the actual-CI blowup/root-curve bridge
 
 Date: 2026-10-14. Status: **NEW GEOMETRIC BRIDGE PASSES UNDER ITS
 LITERAL HYPOTHESES**. Reviewer: independent bridge-review worker, with
@@ -911,7 +910,7 @@ are premises. Their spectral descent criterion, ambient extension class,
 and cohomology targets were not reaudited. No previous CAS or carrier
 certificate was replayed.
 
-## 1. Precise conclusion and hypotheses
+### 1. Precise conclusion and hypotheses
 
 Let `C` be a smooth curve in a smooth threefold `X` in characteristic
 zero. Work on a connected component of `C` when necessary. Let an actual
@@ -950,7 +949,7 @@ intersections. It makes no claim that the hypotheses exhaust all STCI
 presentations, and it makes no claim that the fixed ambient obstruction
 has a nonzero value.
 
-## 2. Support, vertical fibers, and purity
+### 2. Support, vertical fibers, and purity
 
 Locally write the exceptional equation as `u`. Because each chosen
 equation has normal order `r`, its strict transform is obtained by
@@ -971,7 +970,7 @@ form a regular sequence. Their intersection is a one-dimensional
 Cohen--Macaulay scheme with no embedded or isolated component. No
 component or closed point has been discarded in this argument.
 
-## 3. Generic transverse multiplicity really is `s-r`
+### 3. Generic transverse multiplicity really is `s-r`
 
 Let `K` be the function field of `C`, and complete the generic normal
 local ring to `K[[x,y]]`. Choose a lift `H` in the actual ideal whose
@@ -1010,7 +1009,7 @@ Two arbitrary selected orders would not justify (3) or (4). The full
 generic initial complete-intersection hypothesis is doing substantive
 work here.
 
-## 4. Direct local proof of primitivity everywhere
+### 4. Direct local proof of primitivity everywhere
 
 There is a shorter proof than the completion argument in the reviewed
 source, and it proves a useful additional local normal form. Fix
@@ -1058,7 +1057,7 @@ direct proof (6) avoids those auxiliary finiteness and nilpotence steps.
 For readability, its coefficient field should be denoted `Bbbk` rather
 than `k`, since `k` already denotes the multiplicity.
 
-## 5. Conormal splitting, including ramification points
+### 5. Conormal splitting, including ramification points
 
 For an independent check of the source's conormal argument, put
 
@@ -1100,7 +1099,7 @@ example, at a smooth ramification point the root equation may be
 `df=dt-2v dv` does not. Using only the fiber derivative would invalidate
 this argument.
 
-## 6. Actual exceptional lifts and the obstruction implication
+### 6. Actual exceptional lifts and the obstruction implication
 
 The local form (6) also globalizes the higher-order interpretation.
 Writing `E_k=V(I_E^k)`, one has `I_E^k subset I_(Y')`, and
@@ -1138,7 +1137,7 @@ not merely the dimension of its cohomology target. An opposite Cech
 extension convention can negate its representative and has no effect
 on the vanishing assertion.
 
-## 7. Nonzero first-relation defects must retain their base points
+### 7. Nonzero first-relation defects must retain their base points
 
 The hypotheses cannot be replaced by saturation of a defective first
 relation. The following family exhibits the precise failure without
@@ -1177,7 +1176,7 @@ base point cannot be deleted or cured by replacing `t O_C f_r` with its
 saturation. This family is outside the reviewed theorem and does not
 contradict it.
 
-## Audit disposition
+### Audit disposition
 
 The generic blowup length, exact support/no-vertical-component claim,
 global first-layer splitting, entire embedded primitivity, and necessity
@@ -1191,26 +1190,25 @@ and gap one. The value of the fixed ambient obstruction remains a
 separate new problem. The universal STCI question and unrestricted
 characteristic-zero `C0` remain open.
 
-
 ---
 
-## 2026-10-14-generalization-cartier-lift-independent-audit
+<a id="2026-10-14-generalization-cartier-lift-independent-audit"></a>
 
-# Independent audit: Cartier rational lifts on normalizations of arbitrary degree
+## Independent audit: Cartier rational lifts on normalizations of arbitrary degree
 
 Date: 2026-10-14, America/New_York. Auditor: `frontier_reconcile`.
 Status: **PASS FOR THE NEW SINGULAR-NORMALIZATION EXTENSION UNDER ITS
 EXPLICIT CARTIER, SINGLETON AND DEGREE-ONE LIFT HYPOTHESES**.
 
 Source audited:
-[Cartier-lift minimal-degree theorem](OCT14_CARTIER_LIFTS_AND_MOVING_RELATIONS.md#source-2026-10-14-generalization-cartier-lift-minimal-degreemd),
+[Cartier-lift minimal-degree theorem](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md),
 SHA-256 `0a120c0caf2847b38c749fd47adddc0896a864c1b44e1646225889b34f7055ba`.
 The [smooth-normalization theorem](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
 is an accepted premise and was not rechecked. This audit concerns only the
 new singular scope, cone polarization and added consequences. No inherited
 verifier, mathematical source or remote branch was reread to reconfirm it.
 
-## 1. Exact theorem and new scope
+### 1. Exact theorem and new scope
 
 Over an algebraically closed field of characteristic zero, let a smooth
 rational curve C of degree d have an actual mate on an integral degree-a
@@ -1238,7 +1236,7 @@ conductor descent remain conditions, so none of these entries asserts an
 existing mate. Non-Cartier lifts and multiple or nonisomorphic inverse
 curves remain outside the theorem.
 
-## 2. Independent review of the extra singular argument
+### 2. Independent review of the extra singular argument
 
 At a closed point of c, let R be the normal surface local ring and f a
 local Cartier equation. Since `R/(f)` is the regular one-dimensional
@@ -1304,7 +1302,7 @@ map to a normal target is an isomorphism. The surface classification
 therefore supplies the plane, Veronese, smooth scroll or rational-normal
 cone; in dimension two there is no additional singular family.
 
-## 3. Cone Picard computation and integral polarization
+### 3. Cone Picard computation and integral polarization
 
 For the degree-n rational-normal cone with n>=2, its minimal resolution
 is F_n. Write its exceptional negative section E and fiber f, with
@@ -1346,7 +1344,7 @@ a=4 and is removed by the accepted theorem. The former has a=8 and
 is the quadric cone with H=2c. Together with the two accepted smooth
 higher targets this gives the complete three-entry list.
 
-## 4. Additional degree-free corollary: downstairs Cartier rational curves
+### 4. Additional degree-free corollary: downstairs Cartier rational curves
 
 The source's normal-carrier consequence is correct. In fact its scope
 can be strengthened without using the characteristic-zero classification.
@@ -1411,7 +1409,7 @@ proof. A nonnormal carrier may still have a Cartier lift upstairs while
 C is non-Cartier downstairs; complete conductor descent remains the
 obstruction in that case.
 
-## 5. Review boundaries and continuation
+### 5. Review boundaries and continuation
 
 The extension changes the support lane from smooth S to normal S with
 Cartier c. It does not classify the non-Cartier singularities, bound their
@@ -1434,3 +1432,225 @@ local regularity, resolution/Leray and cone Picard arguments and the
 displayed additional adjunction proof. The previously accepted smooth
 proof and all-quartic result retain their original provenance. Neither a
 universal STCI theorem nor an unrestricted counterexample is claimed.
+
+---
+
+<a id="source-2026-10-14-generalization-quadratic-root-universal-incidencemd"></a>
+
+## Universal quadratic root incidence and a smooth torsion-compatible zero
+
+Date: 2026-10-14. Author: `universal_root_obstruction`.
+Status: **Exact reduction and explicit geometric boundary, independently reviewed** in [the universal-incidence reconstruction](#2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit). The accepted spectral root-curve theorem and its
+independent audit, together with the accepted actual chart operator,
+are premises. No accepted chart or conormal audit is repeated.
+
+### 1. One matrix covers every moving quadratic relation of movement two
+
+Work in characteristic zero with the actual balanced conormal of `C0`.
+Write
+
+    f=a(z)u²+b(z)uv+c(z)v²,
+    a=a0+a1 z+a2 z², b=b0+b1 z+b2 z², c=c0+c1 z+c2 z².
+
+The coefficients are homogeneous degree-two sections on the base. Let
+`U` be the open subset of `P8` where `a,b,c` have no common base zero.
+The root divisor `Z=(f=0)` is then finite flat of degree two over the
+base, including when it is singular or nonreduced.
+
+The accepted first ambient class is the image of
+
+    d_f=pr[Du f_u+Dv f_v+alpha f_z]
+
+in `coker A_f`, where `pr` retains the Laurent powers `z^-4,...,z^-1`,
+and
+
+    Du=−(5/2)z^-4 u²−3z^-3 uv−(3/8)z^-2 v²,
+    Dv=3z^-5 u²−z^-4 uv−(9/4)z^-3 v²,
+    alpha=z^-3 u+(1/2)z^-2 v.
+
+Use the source basis `z^-6,...,z^-1` first times `u`, then times `v`.
+Use the target basis `z^-4,...,z^-1` first times `u³`, then times `u²v`,
+then times `uv²`, then times `v³`. For `p=p0+p1 z+p2 z²`, set
+
+```
+         [ p2 p1 p0  0  0  0 ]
+T(p)  =  [  0 p2 p1 p0  0  0 ].
+         [  0  0 p2 p1 p0  0 ]
+         [  0  0  0 p2 p1 p0 ]
+```
+
+Then the exact `16 by 12` multiplication matrix is
+
+```
+          [ T(a)   0    ]
+A_f   =   [ T(b)  T(a)  ].
+          [ T(c)  T(b)  ]
+          [  0    T(c)  ]
+```
+
+In the same target basis, the sixteen entries of `d_f` are
+
+```
+−5a0+3b1
+−4a1+3b2
+−3a2
+0
+
+6c1−(7/2)b0
+6c2−(5/2)b1−6a0
+−(3/2)b2−(11/2)a1
+−5a2
+
+−2c0
+−c1−(21/4)b0
+−(19/4)b1−(3/4)a0
+−(17/4)b2−(3/4)a1
+
+0
+−(9/2)c0
+−4c1−(3/8)b0
+−(7/2)c2−(3/8)b1.
+```
+
+These formulas are obtained by applying the accepted derivation once and
+collecting its Cech powers. They retain the base derivative `alpha f_z`.
+The discarded multiple of `f` from the line-bundle transition lies in
+the image of `A_f` and therefore does not affect this quotient class.
+
+The matrix `A_f` is injective throughout `U`. Indeed
+`pi_*O_Z(3)` is a globally generated rank-two bundle of degree four:
+its defining exact sequence is
+
+    0 -> O(-2)² -> O⁴ -> pi_*O_Z(3) -> 0.
+
+Its two splitting degrees are nonnegative and sum to four. After
+base twist by `O(-5)` neither summand has a section. Consequently
+`H0(Z,O_Z(-5,3))=0`, and the divisor sequence gives injectivity of
+`H1(O(-7,1)) -> H1(O(-5,3))` even without smoothness.
+
+Thus the single universal compatibility scheme is
+
+    K={ [f] in U : rank[A_f | d_f]=12 },
+
+with scheme structure defined by the `13 by 13` minors of that one
+`16 by 13` matrix. Equivalently it is the incidence
+
+    A_f h=d_f,       h in k^12.
+
+Over `U` the vector `h` is unique whenever it exists, so the latter
+incidence is the graph of the zero scheme of the rank-four quotient
+obstruction. This is independent of both projective hypersurface
+degrees and any later second-relation degree.
+
+### 2. The smooth-root locus of K is nonempty
+
+Take
+
+    f0=(z²+4)u²+(z²−8)v².
+
+Its first ambient obstruction vanishes. An exact preimage is
+
+    h0=(−3z^-4−8z^-6)u+(−(1/8)z^-1−(9/2)z^-3)v.
+
+Writing `D=Du partial_u+Dv partial_v+alpha partial_z`, a direct identity is
+
+```
+D(f0)−f0*h0
+ =32z^-6 u³
+  +((1/8)z−48z^-5)u²v
+  +(−3/4−64z^-6)uv²
+  +(1/8)z v³.
+```
+
+Every remaining Laurent power is outside `z^-4,...,z^-1`, proving
+`A_f0 h0=d_f0` with the actual accepted ambient operator.
+
+The binary coefficient polynomials `z²+4` and `z²−8` have two simple
+roots each, have no common root, and are both nonzero at infinity in
+the homogeneous base presentation. Thus the degree-two cover of the
+base is branched at four distinct points; its `(2,2)` root divisor is
+smooth and connected of genus one. This is a characteristic-zero
+statement, so the displayed nonzero constants cause no exceptional
+characteristic issue.
+
+This example disproves the possible broad assertion that the actual
+first ambient class is nonzero on every smooth `(2,2)` root divisor.
+It supplies compatibility through the first exceptional order only.
+
+### 3. Smooth compatibility has positive local dimension
+
+The equations `A_f h-d_f=0` have sixteen components in nine affine
+coefficient variables and twelve correction variables. At `(f0,h0)`
+their Jacobian has rank sixteen. In the variable order
+
+    a0,a1,a2,b0,b1,b2,c0,c1,c2,h0,...,h11,
+
+where the twelve `h` coordinates follow the source basis in Section 1,
+the minor on zero-based columns
+
+    0,1,2,3,4,5,6,7,9,10,11,12,13,14,15,16
+
+has determinant exactly `−405`. The companion standard-library Python
+script records the full rational Jacobian and verifies this determinant
+by exact rational elimination.
+
+The affine incidence is therefore smooth of dimension `21−16=5` at
+this point. Since the correction vector is unique and scaling the
+nonzero equation `f` gives a free scalar direction, the projective
+compatibility scheme `K` is smooth of dimension four at `[f0]`. Being
+a smooth root divisor is an open condition. Hence `K` contains a
+nonempty four-dimensional local family of smooth root divisors. This
+is stronger than an isolated compatibility sample; it does not assert
+that ruling-difference torsion holds throughout that local family.
+
+### 4. The explicit zero also passes the spectral torsion condition
+
+On `Z0=(f0=0)`, put
+
+    A=O_Z0(1,0),    B=O_Z0(0,1),    eta=B tensor A^-1.
+
+Then `eta` has exact order two. One elementary divisor proof uses
+`c(z)=z²−8`, considered as a section of `A²`. At a zero of `u` on
+`Z0`, both `a(z)` and `v` are units, and the equation
+
+    c(z)v²=−a(z)u²
+
+shows that the zero divisor of `c(z)` is twice the zero divisor of
+`u`. There are no other zeros. Consequently `A²≅B²`.
+If `A≅B`, their two complete degree-two systems would differ by an
+automorphism of `P1`, forcing the image in `P1 x P1` to be a graph.
+Its actual smooth `(2,2)` image excludes this. Thus `eta` is nontrivial
+and has order two.
+
+The accepted spectral criterion consequently permits a coprime second
+quotient relation in every even degree `s>2`. In particular it permits
+`s=8` and `s=12`, the two second degrees appearing in the accepted
+scalar numerical boundary. The second relation remains a quotient
+relation with its nonsplit extension; no global second polynomial
+line has been constructed.
+
+Thus the actual first ambient compatibility and the exact spectral
+torsion descent condition coexist. Their conjunction alone does not
+exclude this geometry. Higher actual ambient obstruction classes,
+and eventual realization by projective equations with the required
+support, remain unresolved.
+
+### 5. Reproducible evidence and scope
+
+The exact matrix, Cech bases, explicit preimage, and Jacobian certificate
+are recorded in
+
+- [the standard-library verifier](../computations/generalization_quadratic_root_curve_universal_incidence.py),
+- [its exact JSON output](../computations/generalization_quadratic_root_curve_universal_incidence.json).
+
+Run with `python3 research/computations/generalization_quadratic_root_curve_universal_incidence.py`.
+No SymPy, parameter sampling, Groebner basis, or generic-rank inference is
+used. The matrix identity and one nonzero Jacobian determinant are exact
+certificates. The spectral theorem/audit and accepted chart operator were
+used as premises; they were not re-audited.
+
+The newly proposed actual-CI-to-root-curve bridge is separate. Once that
+bridge passes independent review, `K` is a necessary incidence for its
+stated lane. Nothing here promotes that bridge's hypotheses to a theorem
+about every complete intersection. The universal STCI problem and
+unrestricted `C0` remain open.

@@ -79,7 +79,9 @@ for F in basis:
         f22*V1**2+2*f23*V1*W1+f33*W1**2)
     J1.append(j1)
     J2.append(sp.factor(sp.cancel(Delta*j2)))
-assert all(sp.denom(q)==1 for q in J2)
+# Clearing Delta removes every parameter denominator.  Rational constants
+# such as 1/8 remain valid coefficients in the exact polynomial ring over QQ.
+assert all(sp.expand(sp.Poly(q,x,a,b,d,z,domain=sp.QQ).as_expr()-q)==0 for q in J2)
 
 # Both jet polynomials have degree <=14, so the full matrix is 30 x 18.
 M1=sp.Matrix([[q.coeff(z,k) for q in J1] for k in range(15)])

@@ -2,167 +2,12 @@
 
 ## Integration guide: the actual open and the differential equations
 
-This dossier studies the quintic h=2 incidence scheme on the stated nonvanishing open, including the reduction to a shared logarithmic ODE and its coefficient equations. The [spectral and generator dossier](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md) reorganizes these same equations to expose linear-algebra structure; that is a computational acceleration, not an independent proof of global support exclusion. The [degree-five incidence frontier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md) tests an additional candidate exclusion whose exact resultants still require independent rerun. Preserve the open-set assumptions and the separate audit of the ODE equivalence.
+This dossier studies the quintic h=2 incidence scheme on the stated nonvanishing open, including the reduction to a shared logarithmic ODE and its coefficient equations. The [spectral and generator dossier](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md) reorganizes these same equations to expose linear-algebra structure; that is a computational acceleration, not an independent proof of global support exclusion. The [degree-five incidence frontier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md) records a degree-five branch that remains unresolved: the proposed exclusion confuses the reciprocal determinant coordinate with the actual source coordinate and does not justify its pure-power reduction. Replaying those resultants alone cannot settle the branch. Preserve the open-set assumptions and the separate audit of the ODE equivalence.
 
 ---
 
 
 Permanent mathematical dossier retaining full computations, coefficient systems, corrected formulas, proof scope and unresolved cases. Source labels below organize mathematics, not provenance authority.
-
----
-
-## 2026-10-15-generalization-quintic-h2-automatic-open-and-ODE
-
-# The Delta1 open removes qhigh saturation and gives eight linear action equations
-
-Date: 2026-10-15. Owner: `quintic_shared_incidence/support_structural`.
-Status: **PASS [INDEPENDENT AUDIT](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-automatic-open-ode-independent-audit)
-for automatic qhigh, the equivalent ODE incidence scheme, and both
-derived accelerator equations on the declared localized domain.**
-The accepted eleven-generator presentation, intrinsic A4 coefficients,
-the new all-remaining-mate Delta1 open, and the exact captured scalar
-binding are premises. No accepted verifier or actual coefficient
-construction is replayed. There is no incidence-emptiness assertion.
-
-## 1. The coefficient ideal (q5,q6) is already the unit ideal
-
-Let A be the actual finite h=2 inverse-map parameter ring after the
-declared localizations: delta, the cover determinant, cofactor
-determinant, recorded denominator/content scalars, and Delta1 are
-units. Delta1 nonzero is a globally necessary condition for all
-remaining mate candidates under the accepted closures and SUP
-consequences. The other listed localizations specify the declared
-finite inverse-map chart; in particular its nonzero cover determinant
-is not a globally necessary condition on all remaining mates.
-The new [eleven-generator unit audit](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eleven-generator-unit-independent-audit)
-justifies the Delta1 localization and exact relation q6=unit*j.
-
-First use the actual unscaled monic factorization Fsrc=H*Qactual,
-H=t^2+vst+ws^2. Put
-
-    S=G+3delta^2,        L=G+delta^2+2B,        A1=Delta1.
-
-The accepted exact A4 formulas imply polynomial identities of the form
-
-    A1=G*S*L+j*Psi,
-    Qactual5=-2*S*A1+j*T.                                (1)
-
-The second follows without computing another conductor coefficient:
-the coefficient of t^7 in Fsrc is the coefficient F1 of p in the
-target polynomial, while F0=-3j*A1 and
-Qactual5=F1-v*F0. Modulo j the accepted F1 identity is
--2G*L*S^2=-2S*A1. Hence the displayed polynomial T exists in the
-localized parameter ring. The first identity is simply the accepted
-literal expression for Delta1 separated into its j-independent part.
-
-Equations (1) give the explicit ideal membership
-
-    A1^2+(G*L/2)*Qactual5
-      =j*[Psi*A1+(G*L/2)*T].                            (2)
-
-Since A1 is a unit, (j,Qactual5) is the unit ideal. The captured
-sextic differs from Qactual by a common unit kappa in this ring,
-and its top coefficient is q6=-3*kappa*A1*j. Consequently
-
-    (q5,q6)=(Qactual5,j)=A.                              (3)
-
-This is an exact ideal equality, valid over nonreduced parameter
-bases. It neither divides by j nor uses a field-valued contradiction.
-Thus the qhigh saturation is redundant after the one declared domain
-localization. In particular the accepted eleven-generator support
-ideal equals the full shared rank ideal there, without a second
-saturation by (q5,q6). No condition G+3delta^2 nonzero is imposed
-globally; that factor was used only inside the polynomial identity.
-
-## 2. Replace expanded cubic minors by a first-order polynomial ODE
-
-On the finite monic chart s=1, write
-
-    h(z)=z^2+v*z+w,       q(z)=sum_(i=0)^6 q_i*z^i.
-
-The entire cubic rank condition is equivalent, on the same localized
-domain, to the existence of two scalars d,u such that
-
-    h(z)*q'(z)=(d*z+u)*q(z).                             (4)
-
-Indeed the cubic Hamiltonian action is
-
-    D_(sH)Q|_(s=1)=6h'*q-3h*q'.
-
-Saying this is a linear polynomial times q is equivalent to (4),
-by an invertible affine linear change of the two witness scalars.
-The first two columns sQ,tQ have rank two because (q5,q6)=A;
-locally one of the fixed pivot determinants from the accepted
-twelve-generator reduction is a unit. Hence the witness scalars
-are unique on each pivot open and glue. Introducing d,u therefore
-gives an equivalent incidence scheme, rather than an uncontrolled
-projection or a sufficient-only condition.
-
-The eight coefficient equations of (4) are
-
-    E_i=w(i+1)q_(i+1)+(vi-u)q_i+(i-1-d)q_(i-1)=0,
-    i=0,...,7,                                            (5)
-
-where out-of-range coefficients vanish. They are linear in the
-captured q_i and in each new action witness. After substituting the
-actual coefficient map they avoid products of three long coefficient
-polynomials, which produced the degree-52 cubic minors. There are
-two extra variables, so a faster global computation is a prospect,
-not a claim made by the reduction.
-
-## 3. Two useful low-degree consequences belong to the same ideal
-
-The top two equations are
-
-    E7=(6-d)q6,
-    E6=(5-d)q5+(6v-u)q6.
-
-For P=(d-5)(d-6), exact polynomial identities give
-
-    P*q5=(6-d)E6-(6v-u)E7,
-    P*q6=-(d-5)E7.                                      (6)
-
-Because (q5,q6)=A, (6) proves P belongs to the ODE ideal. It can
-be appended as a derived low-degree equation without changing the
-localized scheme. Similarly q6=unit*j makes E7 equivalent, up to
-a unit and sign, to
-
-    j*(d-6)=0.                                          (7)
-
-Neither equation is used to split the computation. The one ODE
-system keeps both intrinsic A4 contact alternatives: d=6 when the
-sextic has no infinity root, and d=5 when it has the allowed simple
-infinity root. No finite-root partition is selected or enumerated.
-
-For comparison with the previous quadratic action, the exact identity
-
-    D_H Q|_(s=1)
-      =[(12-2d)z+6v-2u]*q-2*[h*q'-(dz+u)q]
-
-shows directly why (7) retains the former first-rank equations.
-The previously captured norm product may still be appended as one
-necessary constraint, with no factor branching. It is not required
-to justify the scheme equivalence of (4) and the cubic rank ideal.
-
-## 4. New supporting arithmetic and remaining obligation
-
-The new [universal identity source](../computations/generalization_quintic_h2_localized_ode_2026_10_15.m2)
-checks (2) formally from (1), all eight coefficient formulas (5),
-both top-degree identities (6), and the two Hamiltonian action
-identities. It uses independent coefficient symbols and never
-substitutes or reconstructs the actual conductor map. Its
-[captured execution](../validation/2026-10-15-quintic-h2-localized-ode/attempt-01/execution-record.json)
-records source and output. This source verifies the new displayed
-polynomial identities; the localization and scheme statements have
-the written proofs above.
-
-The next computation can therefore use either the eleven selected
-cubic generators or the eight low-degree ODE equations with their
-two witness variables, under a single declared domain saturation.
-The new degree polynomial and retained-j equation are available as
-derived accelerators. Neither presentation supplies a unit-ideal
-certificate, full inverse support, or nonlinear conductor descent.
-
 
 ---
 
@@ -179,8 +24,7 @@ both proposed accelerator equations belong to the same localized
 ideal.** The statements hold over nonreduced parameter bases as well
 as at geometric points.
 
-The reviewed proposal is
-[the automatic-open and ODE note](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-automatic-open-and-ode).
+The full automatic-open and ODE proof is consolidated below.
 All previous accepted h2 factor, reciprocal-coordinate, A4, closed-lane
 and eleven-generator results are premises. No accepted verifier or
 actual coefficient construction was replayed. This audit checks only
@@ -193,7 +37,7 @@ characteristic-zero ground field, localized at the previously declared
 factors: delta, the cover determinant, the cofactor determinant,
 recorded denominator/content scalars and Delta1. These are the
 original inverse-map conditions together with the newly justified
-necessary Delta1 open. No division by j=Jbar is made.
+necessary Delta1 open. No division by j=Jbar is made. The cover determinant is a condition for this inverse-map chart, not a globally necessary condition on every remaining mate; its vanishing boundary remains in the separate global monic system below.
 
 Use the actual monic factorization
 
@@ -318,6 +162,8 @@ q6=eta*j with eta a unit likewise gives
 
     j*(d-6)=-eta^(-1)*E7.                             (10)
 
+At geometric points, d=6 denotes a degree-six sextic without an infinity root, while d=5 denotes degree five with the allowed simple infinity root at the prescribed A4 point. This interpretation does not split the global computation into separately assumed branches.
+
 Both proposed accelerators may therefore be appended without
 changing the localized ideal or scheme. They are retained as
 equations in one system; no decomposition by values of d or j is
@@ -352,18 +198,7 @@ scheme presentation on the stated actual localized domain.
 
 ## 6. New arithmetic evidence and limitations
 
-The new
-[universal source](../computations/generalization_quintic_h2_localized_ode_2026_10_15.m2)
-and its
-[passing attempt-01 record](../validation/2026-10-15-quintic-h2-localized-ode/attempt-01/execution-record.json)
-were read. The source checks the membership identity (4) using
-independent symbols, all eight coefficients (8), both identities
-(9), and the two Hamiltonian action identities. Its exit code is
-zero, stderr is empty, and stdout records all stated groups passing.
-It does not substitute or reconstruct the actual conductor map.
-The localization, captured-q5 identification and gluing arguments
-are the written proofs above, rather than consequences of a finite
-sample or CAS rank experiment.
+The [universal source](../computations/generalization_quintic_h2_localized_ode_2026_10_15.m2) checks membership identity (4) using independent symbols, all eight coefficients (8), both identities (9) and the two Hamiltonian action identities. It does not substitute or reconstruct the actual conductor map. Localization, captured-q5 identification and gluing require the written proofs above, not a finite sample or rank experiment.
 
 All original actual-map unit and projection hypotheses remain in
 force. In a polynomial computation they can be enforced by one
@@ -549,33 +384,16 @@ unit and the equation degrees. The degrees are
 3,3,3,3,13,13,14,13,12,11,10,9,8,7,2,2,8.
 ```
 
-Its mathematical assembly and both assertions passed, but its final
-informational equation-count print failed. Those complete coefficient
-outputs are preserved in attempt02. The initial protected-variable
-failure and the first postprocessing path mismatch also remain separate.
-The [completion script](../computations/generalization_quintic_h2_global_monic_ode_completion_2026_10_15.py)
-reuses the written outputs, verifies exact concatenation of the four
-groups into seventeen entries, verifies the seven-entry Q vector, and
-binds every input by SHA256. It does not reread the primitive polynomial
-or reconstruct the model. Its final
-[completion record](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-04-completion/execution-record.json)
-has exit zero and empty stderr. No Groebner basis, saturation, resultant
-or emptiness search was launched for this global input.
+The [completion script](../computations/generalization_quintic_h2_global_monic_ode_completion_2026_10_15.py) reuses the complete saved coefficient outputs, verifies their concatenation into seventeen entries and the seven-entry Q vector, and binds every input by SHA256. It neither rereads the primitive polynomial nor reconstructs the model. No Gröbner basis, saturation, resultant or emptiness conclusion follows from assembling this input.
 
-The currently runnable/loadable
-[input file](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
-reads that completed saved model over QQ and exposes
-`h2GlobalRing`, `h2GlobalEquations`, `h2GlobalIdeal`, and
-`h2GlobalDomainUnit`. Its separate
-[load-only record](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-05-load-only/execution-record.json)
-has exit zero, empty stderr and both model-input hashes. It verifies
-the seventeen-entry matrix in the nine-variable ring and constructs
-the unsaturated ideal only. It does not execute the domain localization
-or any Groebner computation. The load process exited normally and was
-reaped; no global-model CAS process remains live.
+The [input file](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2) reads the completed model over QQ and exposes `h2GlobalRing`, `h2GlobalEquations`, `h2GlobalIdeal` and `h2GlobalDomainUnit`. It checks the seventeen-entry matrix in the nine-variable ring and constructs the unsaturated ideal only; it does not execute domain localization or a Gröbner computation.
 
 The outstanding shared h2 task can therefore be stated globally: prove
 this one incidence empty after (4), or describe its actual admissible
 survivors and test the full fibers and conductor. A finite inverse-map
 calculation may be useful, but its `Delta*K!=0` conclusion must not be
 reported as closure of this global seventeen-equation problem.
+
+## The bounded global calculation did not close the incidence
+
+The [global QQ driver](../computations/generalization_quintic_h2_global_QQ_saturation_2026_10_16.m2) loads the accepted seventeen-equation, nine-variable input and attempts only saturation by the original domain δEΔ1. It introduces no cover discriminant, K, coefficient or j inverse and does not reconstruct the actual octic. The recorded bounded attempt was interrupted and produced no saturated ideal or original-generator unit certificate. Its process-control review is not mathematical evidence of emptiness. Even a later unit-ideal output would require an exact certificate in the declared original generators and complete boundary coverage.

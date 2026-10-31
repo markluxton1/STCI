@@ -1,24 +1,29 @@
 # Normal quartic carriers
 
-**Current status:** Integral quartic STCI-mate cases for the fixed rational quartic C0 in characteristic zero are **closed** by [STCI-R-0001](quartic_carrier_exclusion.md). This page preserves an earlier partial normal-carrier classification; its remaining cases are historical classification gaps, not surviving quartic STCI-mate cases.
+For the fixed monomial quartic \(C_0\) and its projective equivalents in
+characteristic zero, every normal integral quartic carrier is excluded
+against mates of arbitrary positive degree by [R-0001](quartic_carrier_exclusion.md).
+The [current full normal proof](../synthesis/quartic_carrier_proof.md#3-normal-quartics-exceptional-correction-and-actual-ideal-vanishing)
+contains the exceptional passage and correction argument, denominator
+compression, irreducible harmonic bound, exact reduced/tree reductions,
+and TypeD pulled-maximal-ideal contradiction. The exact computations
+remain explicit dependencies; they eliminate necessary supersets rather
+than classify realized surfaces.
 
-Let \(S\) be a normal integral quartic carrier for a smooth rational quartic \(C\) in characteristic zero.
+Some earlier reductions had broader curve hypotheses: Jaffe's rational-
+singularity quartic theorem concerns smooth curves on such carriers;
+positive-genus ruled carriers cannot contain **any** rational degree-four
+curve; the denominator theorem applies conditionally on a whole rational
+resolution. Their proofs and limits are retained in
+[NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS](../supplements/NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS.md)
+and [normal compression and jets](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md).
+Those broader preliminary statements do not generalize the final fixed-
+\(C_0\) exclusion to every rational quartic embedding.
 
-The established reductions are:
-
-1. Jaffe's theorem excludes quartic carriers having only rational singularities.
-2. The positive-genus ruled/cone cases in the normal quartic classification cannot contain a rational curve of degree four.
-3. Therefore any survivor has rational minimal resolution, a nonrational singularity, and Picard number at most \(13\).
-4. The curve \(C\) must pass through a nonrational singularity; avoiding the nonrational exceptional locus contradicts the ADE intersection budget.
-5. The simple-elliptic case is excluded.
-6. For the remaining rational-resolution Ishii–Nakayama B1/B2/B3/D cases, denominator compression and determinant estimates give a finite mate-degree bound, but not an exclusion.
-
-In this historical partial analysis, the unclassified normal cases had reducible, singular, or nonreduced exceptional anticanonical divisor. The later all-integral-quartic theorem excludes them as STCI-mate carriers for fixed C0.
-
-## Provenance
-
-- \`../notes/2026-10-05-normal-quartic-carriers.md\`
-- \`../notes/2026-10-06-normal-rational-carrier-compression.md\`
-- \`../notes/2026-10-06-normal-bound-independent-audit.md\`
-
-Active continuation: \`../open/normal_quartic_remaining.md\`.
+The old B1/B2/B3/D open labels are superseded for fixed-C0 mate existence.
+Useful alternative Green-function/Schur-boundary investigations remain
+conditional at their own terminal-response hypothesis; they are not gaps
+in the accepted full normal proof. The unrestricted higher-degree STCI
+question remains open. Positive-characteristic quartic-carrier examples
+and the exact failure of the characteristic-zero arguments are described
+in the [characteristic boundary](../synthesis/quartic_carrier_proof.md#8-what-changes-in-positive-characteristic).

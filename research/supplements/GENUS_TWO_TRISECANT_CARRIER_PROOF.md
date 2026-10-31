@@ -1,18 +1,14 @@
-# Genus-two trisecant quartic carriers
+# Trisecant carrier ideals and the reduced-discriminant obstruction
 
-Complete mathematical treatment, including conditional restrictions and surviving boundary cases.
-
-# Genus-two trisecant carriers and the reduced-discriminant obstruction
-
-Date: 2026-10-10. Owner: `trisecant_quartic_geometry`.
-
-Status: **PROVED HERE** for the line classification and carrier ideal in
-sections 1--2; an independent exact audit is being preserved separately.
-Sections 3--5 are a **CONDITIONAL PROOF FOR AUDIT**: they use the pending
-actual ambient-line-blowup realization of the genus-two adjoint model.
-They do not close the nonreduced-discriminant stratum, the endpoint
-trisecant stratum, the genus-two lane, or the unrestricted STCI problem.
-No canonical frontier record is changed by this note.
+The line classification and complete carrier-ideal calculation are
+unconditional for the fixed characteristic-zero curve. The subsequent
+nonzero-discriminant obstruction uses the
+[actual normal ambient model](GENUS_TWO_AMBIENT_CONIC_MODEL_PROOF.md), now
+proved independently. It is a narrower useful proof: the
+[full nonendpoint](GENUS_TWO_NONENDPOINT_PROOF.md) and
+[endpoint](GENUS_TWO_ENDPOINT_PROOF.md) arguments handle its repeated-
+discriminant and endpoint boundaries. Those are not open quartic-mate
+cases after the complete theorem.
 
 Work over an algebraically closed field of characteristic zero, with
 
@@ -27,30 +23,69 @@ exceptional `Z`. In the lambda-one stratum, `C#^2=1`, `f.C#=1`, and
 `K.Z=1`. Conditional on the actual blowup realization, the planes through
 the conductor line give `f`, so `length(C0 cap Gamma)=4-f.C#=3`.
 
-## 1. There are exactly two ambient types of trisecant line
+## 1. All trisecant lines, their actual intersection schemes, and field orbits
 
-Any line whose scheme-theoretic intersection with C0 has length at least
-three lies on q: the nonzero restriction of a quadric to a line has zero
-scheme of length two. The quadric is smooth. In Segre coordinates,
+The parametrization \(\nu:\mathbf P^1\to C_0\) is an isomorphism: its inverse coordinates on \(x_0\ne0\) and \(x_3\ne0\) are respectively \(t/s=x_1/x_0\) and \(s/t=x_2/x_3\). The curve lies on the smooth quadric
 
-    (x0,x1,x2,x3) = (uv,uy,xv,xy),
-    C0: (u:x)=(s^3:t^3), (v:y)=(s:t).
+\[
+Q=V(x_0x_3-x_1x_2).
+\]
 
-The ruling with fixed `(v:y)` meets C0 in length one. The other ruling is
+Let \(L\) be an ambient line and \(Z=C_0\cap L\), with its actual scheme structure. If \(q|_L\), where \(q=x_0x_3-x_1x_2\), is nonzero, its zero scheme on \(L\simeq\mathbf P^1\) has length two. Since \(q\) vanishes on \(C_0\), the scheme \(Z\) is a closed subscheme of that length-two zero scheme. Hence \(\operatorname{length}Z\ge3\) forces \(q|_L=0\), so \(L\subset Q\). This implication applies to repeated intersections as well as reduced ones.
 
-    Gamma_a = (x2-a x0, x3-a x1),     a in k,
-    Gamma_infinity = (x0,x1).
+Under the Segre identification
 
-On C0 its common factor is `t^3-a s^3`. For `a` nonzero this gives three
-distinct points. For `a=0` and infinity it gives a single point with
-triple contact. Diagonal reparametrization of C0 takes `a` to `r^3 a`;
-over the algebraically closed field all nonzero finite values are
-equivalent to one. Reversal interchanges zero and infinity. Thus the
-literal ambient line types are `Gamma_1` and `Gamma_0`.
+\[
+([u_0:u_1],[v_0:v_1])\longmapsto
+[u_0v_0:u_0v_1:u_1v_0:u_1v_1],
+\]
 
-The algebraically closed hypothesis matters here. Over an arbitrary
-characteristic-zero field diagonal scaling need not identify all
-nonzero values, because the needed cube root may not exist.
+the curve is \([s:t]\mapsto([s^3:t^3],[s:t])\). Every line on \(Q\) fixes one factor. Indeed, if rank-one matrices \(u\otimes v\) and \(u'\otimes v'\) span a line of rank-one matrices, the determinant of their linear combinations forces \((u\wedge u')(v\wedge v')=0\). Thus one factor is fixed.
+
+Fixing the first factor at \([1:a]\) gives
+
+\[
+\Gamma_a=V(x_2-a x_0,x_3-a x_1),\qquad
+\Gamma_\infty=V(x_0,x_1).
+\]
+
+The pulled-back generators for finite \(a\) are \(s(t^3-a s^3)\) and \(t(t^3-a s^3)\). Since \(s,t\) locally generate the unit ideal on \(\mathbf P^1\), the pulled-back ideal sheaf is exactly \((t^3-a s^3)\). Thus \(C_0\cap\Gamma_a\) has length exactly three. At infinity the corresponding ideal sheaf is \((s^3)\).
+
+Fixing the second factor at \([1:b]\) instead gives
+
+\[
+\Lambda_b=V(x_1-b x_0,x_3-b x_2).
+\]
+
+Its pulled-back ideal sheaf is \((t-bs)\), since its generators are \(s^3(t-bs)\) and \(t^3(t-bs)\). Thus its intersection has length one; the endpoint \(\Lambda_\infty=V(x_0,x_2)\) likewise has ideal sheaf \((s)\) and length one. This exhausts all lines on \(Q\), proving the claimed classification and the exact length-three assertion.
+
+### 1.1. Endpoint contacts and equivalence
+
+In characteristic zero, for \(a\ne0,\infty\), the divisor \(V(t^3-a s^3)\) is geometrically reduced. The endpoint divisors are
+
+\[
+C_0\cap\Gamma_0=3[1:0:0:0],\qquad
+C_0\cap\Gamma_\infty=3[0:0:0:1].
+\]
+
+Consequently there is no double-point-plus-simple-point trisecant stratum.
+
+The ambient projectivity \(T_r=\operatorname{diag}(1,r,r^3,r^4)\) preserves \(C_0\) and sends \(\Gamma_a\) to \(\Gamma_{r^3a}\). Algebraic closure supplies \(r^3=b/a\) for any nonzero \(a,b\). Coordinate reversal \([x_0:x_1:x_2:x_3]\mapsto[x_3:x_2:x_1:x_0]\) also preserves \(C_0\), sends \(a\mapsto1/a\), and exchanges the endpoints. There are therefore exactly two geometric orbits in characteristic zero: nonendpoint lines and endpoint lines. Their intersection schemes distinguish them.
+
+### 1.2. Precise arbitrary-field caveat
+
+Over any characteristic-zero field \(k\), the classification still holds for \(k\)-defined lines, with \(a\in\mathbf P^1(k)\); nonendpoint intersection schemes have degree three and are geometrically reduced but their points need not be individually \(k\)-rational. For \(a,b\in k^\times\), ambient equivalence over \(k\) is exactly
+
+\[
+\Gamma_a\sim_k\Gamma_b
+\quad\Longleftrightarrow\quad
+b/a\in(k^\times)^3\ \text{or}\ ab\in(k^\times)^3.
+\]
+
+For necessity, \(Q\) is the unique quadric through \(C_0\): the ten quadratic monomial products restrict to nine distinct binary monomials, with only the duplicate \(x_0x_3=x_1x_2\). Any ambient stabilizer preserves \(Q\). It cannot exchange the two ruling families because the two projections of \(C_0\) have degrees three and one. Its product action \((\phi,\psi)\) satisfies \(\phi\circ f=f\circ\psi\) for \(f(z)=z^3\). The ramification locus of \(f\) is exactly \(\{0,\infty\}\), so \(\psi\) preserves that pair, hence \(\psi(z)=rz\) or \(r/z\) with \(r\in k^\times\). Thus its action on \(a\) is \(r^3a\) or \(r^3/a\). The explicit diagonal and reversal transformations prove sufficiency. For example, \(\Gamma_1\) and \(\Gamma_2\) are inequivalent over \(\mathbf Q\), but equivalent over \(\overline{\mathbf Q}\).
+
+The quadric/ruling length classification does not require characteristic zero. In characteristic three, however, the nonendpoint degree-three divisors are inseparable, so the reducedness and two-orbit conclusions above must not be transferred there.
+
 
 ## 2. The entire carrier ideal has three cubic generators
 
@@ -85,6 +120,23 @@ is three, exactly the first infinitesimal neighborhood `(z,w)^2`.
 This is compatible with a surface having multiplicity two along the
 line; it is not a claim that `(z,w)^2` has generic length two.
 
+Here is the complete independent Hilbert--Burch argument for equality,
+including specializations of a. Put E=(qz,qw,T_a) and K=I(C0) intersect
+(z,w)^2 in R=k[u,v,z,w]. The quadric q is irreducible and does not
+divide T_a: at w=0 they specialize to -vz and z^2(z+au), the latter
+not divisible by v. Thus E has height two, and the displayed minors
+give the exact resolution
+
+    0 -> R(-4) direct_sum R(-5) -> R(-3)^3 -> E -> 0.
+
+Its quotient is unmixed of dimension two, with Hilbert numerator
+1-3t^3+t^4+t^5 and degree seven. The evident containment E subset K
+and the intersection-of-ideals sequence show that R/K also has degree
+4+3=7: the curve and doubled line meet only in a finite projective scheme.
+Thus K/E has dimension at most one. As a submodule of the unmixed R/E
+it must vanish, proving E=K uniformly in a; this does not infer
+special-fiber ideal-intersection commutation from a generic sample.
+
 Consequently every quartic through C0 and double along Gamma is
 
     F = q Q + T_a L0,
@@ -93,6 +145,11 @@ Consequently every quartic through C0 and double along Gamma is
 The quartic space is the direct sum of a seven-dimensional space
 `q (z,w)_2` and the four-dimensional space `T_a R_1`, hence has dimension
 eleven. The sum is direct because T_a is not divisible by q.
+Explicitly the first space uses
+`Q in <uz,uw,vz,vw,z^2,zw,w^2>`, the degree-two part of the line ideal,
+not just the degree-two part of its square. If qQ=T_a*l with l linear,
+primality of q forces q to divide l, hence both sides are zero. Thus
+the seven-plus-four dimension remains exact at a=0 as well.
 On q its entire divisor is
 
     div(F|q) = C0 + 2 Gamma + (q cap {L0=0}).
@@ -245,12 +302,33 @@ Thus, conditional on the actual normal-blowup realization and the
 scheme/discriminant interface above, the generic-trisecant lambda-one
 mate branch with `Delta != 0` is excluded.
 
-## 6. Deliberate surviving boundary
+The full positive inverse-chain formula, with the positive contact sign retained, is
+\[
+(A_n^{-1})_{ij}=\frac{\min(i,j)(n+1-\max(i,j))}{n+1},
+\qquad A_n(z_1,\ldots,z_n)^t=e_1+(\epsilon_1,\ldots,\epsilon_n)^t.
+\]
+An absent arm is encoded by length zero and contributes zero; it has no
+valid contact index. The central equation is a separate geometric
+hypothesis, not a consequence of solving the arms. No integrality or
+effectivity of the rational coefficients is required for the strict
+finite-arm contradiction. The graph is also automatically negative
+definite: eliminating its negative arm blocks leaves central Schur
+complement \(-3+\sum n/(n+1)<-1\). This sign is consistent with the
+surface application, though negative definiteness is not needed for the
+coefficient-one contradiction itself.
 
-This argument leaves `kappa=0`, hence `Delta identically zero`, open.
+## 6. What this particular discriminant argument does not treat
+
+This argument does not treat `kappa=0`, hence `Delta identically zero`.
 The residual exceptional curve may then be nonreduced; node and
 endpoint-chain arguments cannot be imported to that boundary. The
-two endpoint trisecant lines likewise remain open here. At `a=0`,
+two endpoint trisecant lines are likewise outside this particular argument. At `a=0`,
 the sole discriminant vanishing condition is `a0=0`, which forces a
 factor `v^2` but does not give three distinct contact roots. The
 lambda-zero bisecant branch is not addressed by this note.
+
+The three-distinct-contact split uses invertibility of three. In
+characteristic three the ruling map on C0 is inseparable and all its
+fibers are triple contacts. The ideal calculation retains its algebraic
+meaning; the characteristic-zero branch and differential arguments do
+not follow merely from that ideal.

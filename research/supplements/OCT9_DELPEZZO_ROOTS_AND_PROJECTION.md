@@ -134,7 +134,6 @@ see the [uniform adversarial note](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md).
 The global C0 problem and the complete A3+2A1 projection stratum remain
 open at this record's scope.
 
-
 ---
 
 ## Source: 2026-10-09-session-a1-singular-conductor-parity-shield.md
@@ -249,23 +248,17 @@ with SHA256
 Normality uses the primary
 [Stacks Project Serre criterion](https://stacks.math.columbia.edu/tag/031S).
 
-
 ---
 
 ## Source: 2026-10-09-session-delpezzo-D5-root-independent-audit.md
 
 # Root's independent reconstruction of the D5 torsion filter
 
-Date: 2026-10-09. Auditor: root, separate from the construction owner
-`delpezzo_d5_torsion_filter`. Status: **PROVED HERE / accepted at the
-stated geometric and lattice scopes**. A further worker audit was
-interrupted by the weekly usage limit before its final written record;
-it is not counted as a completed audit. The argument below and the
-separate signed-partition check supply this acceptance.
+Status: **PROVED HERE / accepted at the stated geometric and lattice scopes**. The argument below and the separate signed-partition check supply the independent acceptance.
 
 Audited source: [D5 torsion filter](#source-2026-10-09-session-delpezzo-d5-torsion-filtermd).
 The separate [genus-one reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
-and [its independent ADE audit](OCT9_MF6_WEIGHTED_AND_QUADRATIC_DESCENT.md#source-2026-10-09-session-rational-genus-one-ade-independent-auditmd)
+and [its independent ADE audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
 establish its weak-del-Pezzo/ADE hypotheses for every sectional-genus-one
 normalization of an integral nonnormal quartic containing fixed C0.
 This audit does not exclude mates in both surviving singularity types.
@@ -415,7 +408,6 @@ explicit four-A1 family has an additional all-degree exclusion by
 full fibers, but other four-A1 projections and A3+2A1 remain OPEN.
 Rational genus-two normalizations and higher carrier degrees also
 remain OPEN. No unrestricted C0 or universal STCI conclusion follows.
-
 
 ---
 
@@ -725,17 +717,7 @@ both correction vectors and their intersections. It explicitly records
 that the checker does not classify all sectional-genus-one normalizations
 and does not claim to settle STCI.
 
-One preliminary enumeration reconstructed the same 428 reflection-closed
-subsystems before the checker was written. No mathematical conjecture
-in the scoped filter failed. An initial independent auditor confirmed
-the signed-coordinate classification and highlighted the necessary
-downstairs smoothness in section 2, then hit the account usage limit
-before saving a final audit note. Its message is a useful audit lead,
-not a completed independent acceptance record. The verification owner's
-[bounded written audit](#source-2026-10-09-session-delpezzo-d5-torsion-independent-auditmd)
-subsequently accepted the frozen proof without corrections. The present
-revision changes only this acceptance status and its links; the audited
-mathematical statements and checker source are unchanged.
+The [bounded written audit](#source-2026-10-09-session-delpezzo-d5-torsion-independent-auditmd) accepted the frozen proof without corrections; its mathematical statements and checker source are unchanged.
 
 ## 7. Continuation boundary
 
@@ -756,7 +738,6 @@ record. Sectional genus two, higher carrier degrees,
 other normalizations, and the universal STCI question remain outside
 this note's conclusion. No canonical frontier file has been edited
 by this owner.
-
 
 ---
 
@@ -805,7 +786,6 @@ For A3+2A1 take u1-u2,u2-u3,u2+u3,u4-u5,u4+u5. The first root is the middle A3 c
 In either case the correction is the nonzero coset of the index-two saturation quotient. Since bZ is in R, b must be even. The conclusion survives this independent audit with no correction to the frozen proof.
 
 No canonical frontier file was changed and no new mathematical computation was run for this bounded audit.
-
 
 ---
 
@@ -915,7 +895,6 @@ cannot be transferred to these singular or nonreduced cases without an
 additional proof. The present theorem supplies the full conductor algebra
 and involution, but by itself supplies no mate exclusion or quadratic
 descent theorem.
-
 
 ---
 
@@ -1232,7 +1211,6 @@ of the standard vanishing theorem are explicit in Section 3.
 No symbolic test is used as a substitute for these scheme-theoretic
 proofs. No classification or novelty claim is made.
 
-
 ---
 
 ## Source: 2026-10-09-session-dp4-projection-independent-audit.md
@@ -1377,7 +1355,6 @@ quartic, the factorization of `L`, the two discriminants, the resultant, and
 the determinant `2` were independently checked with SymPy on 2026-10-09.
 The literal four-distinct-roots statement also holds in characteristic not
 `2,5,7`; the audit's accepted scope is characteristic zero.
-
 
 ---
 

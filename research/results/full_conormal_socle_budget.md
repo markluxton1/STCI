@@ -12,10 +12,10 @@ scope:
 statement: "The full socle and conormal filtration identity n(lambda*d-L)=lambda*(n*d-2*M)+2*Delta holds, including intermediate torsion."
 dependencies: []
 evidence:
-  - research/notes/2026-10-13-evening-entirely-thick-rees-progress.md
+  - research/supplements/SOCLE_AND_LOEWY_BOUNDS.md
 independent_audits:
-  - research/notes/2026-10-13-generalization-socle-independent-audit.md
-accepted_in: research/HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md
+  - research/supplements/SOCLE_AND_LOEWY_BOUNDS.md
+accepted_in: "research/supplements/SOCLE_AND_LOEWY_BOUNDS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -31,8 +31,8 @@ Let C have degree e and genus g, and let Y=V(F_a,G_b) be an actual complete inte
 
 The actual socle is omega_C tensor O_C(4-a-b). In particular lambda*d>=L. Equality gives globally Gorenstein graded self-duality; identifying a constant algebra requires the additional balanced rational hypothesis.
 
-The [original proof](../notes/2026-10-13-evening-entirely-thick-rees-progress.md), [independent audit](../notes/2026-10-13-generalization-socle-independent-audit.md), and [acceptance decision](../HISTORICAL_STRUCTURAL_ADJUDICATION_2026-10-26.md) delimit the claim. No general STCI exclusion follows.
+The [original proof](../supplements/SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-evening-entirely-thick-rees-progressmd), [independent audit](../supplements/SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-generalization-socle-independent-auditmd) delimit the claim. No general STCI exclusion follows.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

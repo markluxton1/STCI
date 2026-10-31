@@ -13,11 +13,11 @@ scope:
 statement: "No such smooth movement-two root Z has an all-orders embedded Cartier lift in the exceptional formal completion."
 dependencies: []
 evidence:
-  - "research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md"
-  - "research/notes/2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md"
+  - "research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md"
+  - "research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md"
 independent_audits:
-  - "research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md"
-accepted_in: "research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md"
+  - "research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md"
+accepted_in: "research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -52,16 +52,16 @@ The contradiction in the (2,r) case proves the theorem.
 
 For the fixed characteristic-zero C0, this excludes an **infinite compatible formal lift** of every smooth movement-two root, uniformly over first normal orders r>=2. The accepted finite-tower argument implies that, for each fixed r, some finite stage already has no such smooth lifts; it does **not** provide an explicit stage.
 
-This does **not** by itself exclude an actual STCI with that initial root. To transfer it to actual intersections requires the independently audited actual-CI blowup bridge, including its saturated first relation, joint generation of leading sections, full generic initial regular sequence, a gap of at least two, and a smooth full root. See [bridge proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge.md) and [independent bridge audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit.md).
+This does **not** by itself exclude an actual STCI with that initial root. To transfer it to actual intersections requires the independently audited actual-CI blowup bridge, including its saturated first relation, joint generation of leading sections, full generic initial regular sequence, a gap of at least two, and a smooth full root. See [bridge proof](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge) and [independent bridge audit](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit).
 
 ## Evidence
 
-- [Formal-root theorem and general numerical criterion](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence.md)
-- [Independent formal-root audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit.md)
-- [Characteristic-scope addendum](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-15-generalization-smooth-root-characteristic-scope-addendum.md)
+- [Formal-root theorem and general numerical criterion](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence)
+- [Independent formal-root audit](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
+- [Characteristic-scope addendum](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 
 No component proof is rerun in this promotion; the theorem and audit are preserved on the Ultra branch.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original evidence identities and theorem scope remain unchanged.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

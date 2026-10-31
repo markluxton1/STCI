@@ -9,7 +9,7 @@ this verifies availability, not the validity of a historical branch URL.
 from pathlib import Path
 import re
 import sys
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 try:
     import yaml
 except ImportError:
@@ -36,10 +36,10 @@ def check_source(value, record, field):
         if not match:
             warnings.append(f"{record}: external/unrecognized source {value}")
             return
-        target = ROOT / match.group(1)
+        target = ROOT / unquote(match.group(1))
         warnings.append(f"{record}: historical-branch URL should be stabilized: {value}")
     else:
-        target = ROOT / value
+        target = ROOT / unquote(urlparse(value).path)
     if not target.is_file():
         errors.append(f"{record}: missing {field} target {value}")
 

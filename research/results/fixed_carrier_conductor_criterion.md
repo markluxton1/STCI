@@ -12,16 +12,19 @@ scope:
 statement: "An STCI mate on a fixed hypersurface exists exactly when the full conductor descent lattice contains a fully positive vector."
 dependencies: []
 evidence:
-  - "research/notes/2026-10-13-generalization-conductor-theorem.md"
-independent_audits: []
-accepted_in: "research/AUDITED_STATE_2026-10-14.md"
+  - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
+  - "research/supplements/CONDUCTOR_DESCENT_ALGEBRA.md"
+independent_audits:
+  - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
+  - "research/supplements/CONDUCTOR_DESCENT_ALGEBRA.md"
+accepted_in: "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
 limitations:
   - "Only a fixed-carrier theorem; not a global carrier classification."
   - "Abstract finite reduction is not an effective algorithm for arbitrary surfaces."
-  - "Independent reviewers are reported in the proof note, but no separate audit artifact is identified."
+  - "Historical promotion did not identify a separate independent-audit artifact; the current full proof has since received identified independent reconstruction."
 ---
 
 # Fixed-carrier conductor descent
@@ -51,12 +54,14 @@ For a singleton branch when X is generically regular along C, set a=H^2, c=H.Gam
 
 ## Evidence
 
-[Original theorem and recorded independent audits](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-13-generalization-conductor-theorem.md).
+[Original theorem and recorded independent audits](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md).
 
 [Accepted October 14 state, Section 2](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/AUDITED_STATE_2026-10-14.md).
 
-The source proof is preserved on the Ultra branch; no new independent proof or unrestricted STCI conclusion is asserted here.
+The complete source proof and its independent mathematical reconstructions survive in the current proof homes; no unrestricted STCI conclusion follows.
 
-## Permanent evidence navigation
+## Current mathematical evidence
 
-The `research/notes/` metadata records historical provenance identifiers, not current-tree files. For the retained mathematical argument, conditional hypotheses, and source-supplement routes, consult [the consolidated subject chapter](../synthesis/04-carriers.md). The original evidence identities and theorem scope remain unchanged.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
+
+The original promotion reported reviewers within its source but did not identify a separate audit artifact. The current fixed-carrier lattice proof and its local algebra were independently reconstructed during consolidation at the full displayed scope; the linked consolidation-review sections provide the current review evidence, without asserting that the previously missing artifact existed.

@@ -1,23 +1,31 @@
-# normal carrier symbolic torsion
+# Normal carriers: class-group torsion, symbolic triples and local indices
 
 ## Integration guide: class-group torsion, index bounds, and the mate problem
 
 The [carrier torsion investigation](#2026-10-14-generalization-normal-carrier-torsion) distinguishes Cartier and Weil divisor information on possibly singular normal surfaces. The [symbolic-triple certificate](#2026-10-14-generalization-normal-carrier-symbolic-triple-certificate) adds a specific primitive structure and first torsion divisor; its [comparison audit](#2026-10-14-generalization-symbolic-triple-torsion-comparison-audit) tracks the cases of different Cartier indices and the scope of strengthened bounds.
 
-The related [normal-index and socle dossier](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-general-scope) records inequalities that do not presuppose a second equation. The [Rees cycle dossier](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-rees-residual-investigation) makes clear why a global degree budget alone does not control every filtered defect.
+The related [normal-index and socle dossier](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-general-scope) records inequalities that do not presuppose a second equation. The [Rees cycle dossier](../synthesis/rees_and_vertical_controls.md) makes clear why a global degree budget alone does not control every filtered defect.
+
+The three proof responsibilities are separate. Global Pic/Cl detection
+identifies torsion orders through actual local indices using a connected
+cyclic cover. The symbolic-triple arguments compare a pure symbolic
+quotient with actual Cartier multiples, without assuming that quotient is
+a complete intersection. The ordinary-lattice and filtered-compatibility
+arguments use free layers and Frobenius duality on the actual local CI
+algebras; their pointwise costs feed the bounded-index exclusions. These
+full arguments are retained in their respective sections, rather than
+replaced by the neighboring normal-index budget.
 
 A normal carrier's symbolic divisor data is **not** by itself a construction of a set-theoretic complete intersection. The local index, actual homogeneous lifting, and residual-support questions remain distinct.
 
 ---
 
-
 Permanent mathematical dossier. Complete source arguments are preserved with their precise hypotheses, conditional scope, calculations, failed approaches, and unresolved boundaries. This grouping does not promote claims to canonical results.
 
 ---
 
-## 2026-10-14-generalization-normal-carrier-torsion
-
-# Normal carriers: global torsion is exactly the local index obstruction
+<a id="2026-10-14-generalization-normal-carrier-torsion"></a>
+## Normal carriers: global torsion is exactly the local index obstruction
 
 Date: 2026-10-14. Author: `conductor_general`.
 Status: **NEW PROVED STRUCTURAL RESULTS AND CONDITIONAL ALL-DEGREE
@@ -26,11 +34,11 @@ EXCLUSIONS; independent new-proof audits recorded below.**
 Accepted input, not recomputed: the fixed characteristic-zero curve
 `C0=[s^4:s^3t:st^3:t^4]` has no integral carrier of degree at most four
 with a mate of any positive degree. The
-[Cartier-ray theorem](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-13-generalization-conductor-theoremmd)
+[Cartier-ray theorem](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
 is also an accepted input for this continuation. No claim is made
 that all normal carrier classes have now been excluded.
 
-## 1. Immediate torsion-free class-group exclusion
+### 1. Immediate torsion-free class-group exclusion
 
 Let `X subset P^3` be a normal integral surface of degree `a`, containing
 `C0`, over an algebraically closed characteristic-zero field. Put
@@ -78,7 +86,7 @@ t >= 2 if g=1;  t >= 3 if g=2;  t >= 5 if g=4.
 These are exclusions based on an existing hypothetical mate, not a
 claim that a torsion class exists on arbitrary normal hypersurfaces.
 
-## 2. A self-contained rational-ample local detection theorem
+### 2. A self-contained rational-ample local detection theorem
 
 **Theorem.** Let `X` be a normal integral projective surface over an
 algebraically closed field of characteristic zero. Let `C subset X`
@@ -98,7 +106,7 @@ The hypothesis on `C` is satisfied by a mate: if `div(G)=m C` on a
 projective hypersurface, then `O_X(m C)=O_X(b)` is ample. No claim
 that reduced `C` itself is Cartier is used.
 
-### Proof by a connected cyclic cover
+#### Proof by a connected cyclic cover
 
 First suppose a torsion class `T` is Cartier at every point of `C`,
 and let its exact order be `t>1`. Choose a representing Weil divisor
@@ -157,7 +165,7 @@ the Picard group of a hypersurface, or smoothness of `Y`. In positive
 characteristic the same proof applies to torsion of order prime to
 the characteristic. No assertion about wild `p`-torsion follows.
 
-## 3. Exact index formula on every normal `C0` carrier
+### 3. Exact index formula on every normal `C0` carrier
 
 Assume a mate on a normal degree-`a` carrier exists. For
 `P in C0 intersect Sing(X)`, put
@@ -198,7 +206,7 @@ indices alone do **not** prove that `Delta_0` is globally torsion:
 its residual Cartier class can still have infinite order. One must
 not invert this implication without a separate global relation.
 
-## 4. Cartier-index integrality and new all-degree exclusions
+### 4. Cartier-index integrality and new all-degree exclusions
 
 The global Cartier index of `C0` is exactly `R`: a Weil divisor on
 a normal surface is Cartier if and only if it is Cartier at every
@@ -222,7 +230,7 @@ This is separate from the torsion order `t` of `Delta_0`: the global
 Cartier index of the curve is `R`, whereas `t=R/gcd(R,mu)`. Keeping
 those two integers distinct avoids a false divisibility claim.
 
-### Index-dividing-degree exclusion
+#### Index-dividing-degree exclusion
 
 If every local Cartier index of `C0` divides the carrier degree
 `a`, then `R|a=g mu`, hence
@@ -240,7 +248,7 @@ local Cartier indices of `C0` divide its degree.**
 It suffices that the actual indices divide `a`; the full local
 class groups need not be finite or have exponent dividing `a`.
 
-### Ordinary nodes along `C0`
+#### Ordinary nodes along `C0`
 
 At an ordinary double point in characteristic zero, the completed
 surface local ring is `k[[x,y,z]]/(xy-z^2)`, whose class group is
@@ -274,7 +282,7 @@ Its normal surface singularities away from `C0` remain unrestricted.
 This is a new structural closure; it is not a rerun of an old
 degree-by-degree nodal certificate.
 
-### A bounded-index carrier class
+#### A bounded-index carrier class
 
 More generally, if all local indices divide a fixed integer `L`,
 then under a mate
@@ -347,7 +355,7 @@ Use its detailed subsections: the introductory Section 4 summary
 contains parity and `E6/E7` assignment errors which the detailed
 subsections correct.
 
-### General integral curves, not just the rational quartic
+#### General integral curves, not just the rational quartic
 
 The hypersurface Picard route in section 5 removes the rationality
 hypothesis from the index formulas. Let `C` be **any integral**
@@ -383,7 +391,7 @@ not impose or prove such an index bound for unrestricted carriers;
 it identifies precisely the new geometric invariant whose control
 would turn the normal branch into a finite carrier problem.
 
-## 5. Primary literature and the Pic/Cl distinction
+### 5. Primary literature and the Pic/Cl distinction
 
 The exact literature input inspected for projective hypersurfaces is
 SGA 2, Expose XII, Corollary 3.5, printed page 120, PDF page 128 in
@@ -430,7 +438,7 @@ This is a failure shield for the blanket assertion that normal
 hypersurface class groups have no torsion. It does not supply a
 counterexample to the accepted `C0` exclusions.
 
-## 6. What the cyclic cover does and does not control
+### 6. What the cyclic cover does and does not control
 
 For a hypothetical `Delta_0` of exact order `t`, its cyclic cover is
 quasi-etale, connected and must fail to be etale somewhere on `C0`.
@@ -469,7 +477,7 @@ map `x=u^r,y=v^r,z=uv` from the smooth plane by
 of exact order `r`. Its indices are arbitrarily large. This is a
 local failure shield, not a constructed global `C0` carrier.
 
-## 7. Audit record and successor target
+### 7. Audit record and successor target
 
 The new rational-ample local detection proof was independently
 reconstructed by `cyclic_cover_structure`, including Kummer
@@ -483,7 +491,7 @@ arithmetic script ran successfully and checked precisely the rows
 displayed above. These audits concern new deductions, not a rerun
 of accepted low-degree exclusions. The auxiliary proof records are
 [normal cyclic-cover torsion detection](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-normal-cyclic-cover-torsion-detection)
-and [primary Picard/local-torsion inputs](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd).
+and [primary Picard/local-torsion inputs](NORMAL_INDEX_SOCLE_AND_TORSION.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd).
 
 The remaining normal-carrier target is now sharp: show that the
 specific class `Delta_0` cannot be torsion with the required local
@@ -502,12 +510,10 @@ carrier's Picard group alone are insufficient. All nonnormal and
 entirely thick carrier lanes retain their separate conductor and
 branch-lattice issues.
 
-
 ---
 
-## 2026-10-14-generalization-normal-carrier-symbolic-triple-certificate
-
-# A symbolic-triple defect certificate for unrestricted normal carriers
+<a id="2026-10-14-generalization-normal-carrier-symbolic-triple-certificate"></a>
+## A symbolic-triple defect certificate for unrestricted normal carriers
 
 Date: 2026-10-14. Author: `socle_audit`.
 Status: **PROVED NEW NECESSARY CARRIER-WIDE CERTIFICATE AND STRONGER
@@ -523,7 +529,7 @@ normal layer; the already verified C0 apolar kernels and their absence
 of degree-zero/one annihilators; and N_C0^* = O(-7)^2. No old symbolic
 calculation or accepted nonvanishing statement is rerun.
 
-## 1. Carrier data and an intrinsic normalized budget
+### 1. Carrier data and an intrinsic normalized budget
 
 Let X = V(F_a) be a normal integral carrier of C0 in characteristic zero,
 and suppose a mate G_b exists. Put n = ab/4. The generic CI algebra is
@@ -562,7 +568,7 @@ This is one simultaneous weighted budget. It neither replaces all
 indices by their maximum nor treats distinct singular points as
 independent hypothetical presentations.
 
-## 2. Cartier multiples of length two or three are automatically primitive
+### 2. Cartier multiples of length two or three are automatically primitive
 
 There is a new useful general fact. A one-dimensional CI supported on
 a smooth curve, finite free of generic rank r <= 3 over R = k[[t]],
@@ -586,7 +592,7 @@ the reduced-curve conventions. Thus positive primitive-index defects
 can occur only at actual indices at least four. This fact uses lengths
 and a relative algebra argument, not a list of Hilbert profiles.
 
-## 3. The global symbolic triple and its first torsion divisor
+### 3. The global symbolic triple and its first torsion divisor
 
 Suppose ell = 7. The saturated carrier direction is then constant:
 the quotient O(-7)^2 -> O(-7) has constant coefficients. Let m be its
@@ -625,7 +631,7 @@ needed for the local W_r Frobenius identity used below, not for the
 first-relation obstruction. In particular the symbolic triple at an
 index-two point is generally not a complete intersection.
 
-## 4. Exact index-two periodicity and comparison at higher indices
+### 4. Exact index-two periodicity and comparison at higher indices
 
 At an index-two point choose h with divisor 2C. Normal divisorial
 valuations give the exact symbolic periodicity
@@ -677,7 +683,7 @@ geometrically: if all the W_r were primitive, the symbolic triple would
 be primitive everywhere by saturation, with constant first direction,
 contradicting the accepted quadratic obstruction.
 
-## 5. Weighted and parity-sensitive forms
+### 5. Weighted and parity-sensitive forms
 
 The accepted pointwise Frobenius identity gives
 
@@ -712,7 +718,7 @@ each r_P and its full D_P^(r), including high D_n corrections at fixed
 index. The actual positive term cannot be manufactured by tangent-only
 multiplicity reasoning.
 
-## 6. A stronger all-carrier-degree index bound
+### 6. A stronger all-carrier-degree index bound
 
 Let s >= 3 be a bound on every actual on-curve local index. For ell=7,
 put A = 4a-7. From (2),
@@ -753,7 +759,7 @@ The already accepted s<=4 closure is not reverified here. Equations
 (16)--(17) are new structural consequences for larger index classes,
 and do not themselves exclude unbounded indices.
 
-## 7. Apolar support constraints, not only a scalar payment
+### 7. Apolar support constraints, not only a scalar payment
 
 The actual divisor E must satisfy (6), not merely have degree at least
 two. The accepted apolar kernel description therefore also gives:
@@ -772,7 +778,7 @@ must pay at three distinct curve points; an endpoint model requires
 the appropriate doubled point. These are necessary support constraints,
 not existence claims for their embedded higher lifts.
 
-## 8. Scope and independent review
+### 8. Scope and independent review
 
 The exact normalized budget (2) holds in all normal mate-bearing C0
 carriers. The symbolic-triple obstruction needs the constant-direction
@@ -789,13 +795,10 @@ Cartier-multiple argument and the improved scalar inequality. The
 present note supplies the actual proofs; agent agreement is not used
 as a substitute for them.
 
-
-
 ---
 
-## 2026-10-14-generalization-symbolic-triple-torsion-comparison-audit
-
-# Symbolic triple torsion comparison: independent structural audit
+<a id="2026-10-14-generalization-symbolic-triple-torsion-comparison-audit"></a>
+## Symbolic triple torsion comparison: independent structural audit
 
 Date: 2026-10-14. Worker: `socle_audit/higher_moments`.
 Status: **PROVED NEW COMPARISON AND ARITHMETIC CONSEQUENCE, CONDITIONAL
@@ -822,7 +825,7 @@ first-layer relation line has the common saturated F_1 direction;
 in the constant-direction branch ell=7 it is
 `K_1=O(-7)(-E)`. None of these statements requires Z_3 to be lci.
 
-## 1. Comparison at r>=3
+### 1. Comparison at r>=3
 
 The valuation description of the symbolic power gives
 `(h) subset I_C^(3)` when r>=3, and hence a quotient `W_r -> Z_3`.
@@ -850,7 +853,7 @@ The perfect Frobenius pairing is used on the actual complete
 intersection W_r. It is never used on Z_3. Thus no hidden lci or
 Gorenstein assumption on the symbolic triple enters (1).
 
-## 2. Comparison at r=2 and r=1
+### 2. Comparison at r=2 and r=1
 
 For r=2, normality and the height-one valuation description give
 
@@ -884,7 +887,7 @@ Summing (1)--(2), the accepted fixed-direction obstruction gives
     2 <= deg E
       <= sum_(r=2) A_F,P + (1/2) sum_(r>=3) r D_r,P.       (3)
 
-## 3. Positive defects and parity
+### 3. Positive defects and parity
 
 If there are no index-two points, (3) forces at least one positive
 `D_r,P` with r>=3. The pointwise Frobenius identity implies
@@ -904,7 +907,7 @@ bounded uniformly by
 With no r>=3 available, (3) already contradicts the absence of
 index two. The weaker universal estimate from (4) is `1/s`.
 
-## 4. A one-unit improvement of the normal index bound
+### 4. A one-unit improvement of the normal index bound
 
 Let `A=sum_P A_F,P`, `A_2=sum_(r=2) A_F,P`, and retain the accepted
 identity
@@ -943,7 +946,7 @@ For s>=2 the left side in (7) is smaller by `(s-2)a`, so this implies
 covered by the accepted bounded-index exclusion, and is not inferred
 from the new constant-direction argument.
 
-## 5. Scope
+### 5. Scope
 
 The comparison applies to a pure symbolic triple even if it has
 special-point non-lci structure. It uses the actual local index and
@@ -952,12 +955,10 @@ index lcm does not replace those data. This is a stronger necessary
 index/degree inequality, not an exclusion of unrestricted normal
 carriers, nonnormal carriers, or all STCI presentations of C0.
 
-
 ---
 
-## 2026-10-14-generalization-curvilinear-torsion-and-index12
-
-# Curvilinear ordinary normal layers and local index compatibility
+<a id="2026-10-14-generalization-curvilinear-torsion-and-index12"></a>
+## Curvilinear ordinary normal layers and local index compatibility
 
 Date: 2026-10-14. Root continuation from the `socle_audit` worker's
 index-twelve program. This precursor's new proofs are now independently
@@ -971,7 +972,7 @@ superseded by those two accepted records. The unrestricted problem and
 actual index-six/twelve strata remain open. Accepted inputs were not
 recomputed.
 
-## 1. A theorem for the ordinary nilradical filtration
+### 1. A theorem for the ordinary nilradical filtration
 
 Let Y be a complete-intersection thickening of a smooth curve C, with
 generic transverse algebra curvilinear of length n>=2. Put
@@ -1027,7 +1028,7 @@ Thus first-layer torsion alone supplies a lower bound on the top-socle
 defect. This equality does not assume globally primitive structure,
 a global retraction to C, or a torsion-free first layer.
 
-## 2. A pointwise strengthening by a Frobenius lattice
+### 2. A pointwise strengthening by a Frobenius lattice
 
 The preceding torsion identity holds at each point, with D's actual
 local multiplicity, not only after summing over C. Complete at a point
@@ -1077,7 +1078,7 @@ In particular n odd forces every D_P even. This proof retains all
 jets and all local lattice changes. It does not identify a surface
 class order with the ramification of a normalized inverse curve.
 
-## 3. The forced length-twelve pair
+### 3. The forced length-twelve pair
 
 The accepted bounded-index normal-carrier theorem reduces all C0
 carriers whose local indices divide12 to the unordered pair(6,8).
@@ -1104,7 +1105,7 @@ are
 These are consequences of one full filtered-algebra theorem, not
 independent profile enumeration or assertions of existence.
 
-## 4. Local class index controls poles in the first-symbol ratio
+### 4. Local class index controls poles in the first-symbol ratio
 
 Let F define the normal carrier, and let a point P on C have local
 Cartier index r_P dividing n. If r_P<n, choose a regular local
@@ -1154,7 +1155,7 @@ survive with `deg P>=2` on a normal sextic carrier or `deg P>=10`
 on a normal octic, all supported at genuine local index12 points.
 This is necessary pole accounting, not an exclusion of that stratum.
 
-## 5. Global cancellation without dropping simultaneous singularities
+### 5. Global cancellation without dropping simultaneous singularities
 
 When all local indices are less than12, the ratio is a global
 section of `O_C(b-a)`. For a normal octic with a sextic mate,
@@ -1179,12 +1180,10 @@ the mixed order-one/thick pair, or the unrestricted STCI problem
 is established here. An independent review should check the
 pointwise Frobenius-lattice argument before canonical promotion.
 
-
 ---
 
-## 2026-10-14-generalization-index12-filtered-compatibility
-
-# Full filtered compatibility with local Cartier indices
+<a id="2026-10-14-generalization-index12-filtered-compatibility"></a>
+## Full filtered compatibility with local Cartier indices
 
 Date: 2026-10-14. Author: `socle_audit`, including an independent
 reconstruction of the root's new Jacobian/index argument.
@@ -1198,7 +1197,7 @@ for every constant first direction. Those inputs were not reverified.
 Only the new filtered/index compatibility and its consequences are
 proved and audited here. No canonical-state file is edited.
 
-## 1. Ordinary free layers are powers, even in the presence of torsion
+### 1. Ordinary free layers are powers, even in the presence of torsion
 
 Let Y be a complete-intersection thickening of a smooth integral curve C,
 whose generic transverse algebra is curvilinear of length n >= 2. Put
@@ -1238,7 +1237,7 @@ ordinary Euler-characteristic budget, together with (1), yields
 No primitive hypothesis on Y, torsion-free layer hypothesis, or global
 retraction to C is used.
 
-## 2. The Frobenius identity is pointwise
+### 2. The Frobenius identity is pointwise
 
 Complete at P in C and choose a lift t of its curve parameter. The
 local algebra A of Y is finite free of rank n over R = k[[t]]. Indeed
@@ -1276,7 +1275,7 @@ The independent reconstruction checks both the strict filtration and
 the socle identification; no trace pairing on a nonreduced algebra is
 mistaken for a perfect pairing.
 
-## 3. The local normal-index theorem
+### 3. The local normal-index theorem
 
 Work in the complete regular ambient ring
 
@@ -1310,7 +1309,7 @@ compatibility theorem is
 
 Its proof retains the full embedded algebra, not only the tangent cone.
 
-### 3.1 Normality gives the colon comparison
+#### 3.1 Normality gives the colon comparison
 
 For the ideal I in S,
 
@@ -1338,7 +1337,7 @@ z^(n-1) = h^(k-1) w^(k-1) z^(r-1) and (9)
 
     D_n,P = D_r,P + (k-1)v.                   (10)
 
-### 3.2 The relative Jacobian is an actual socle generator
+#### 3.2 The relative Jacobian is an actual socle generator
 
 The key standard input is the formal Artinian CI Jacobian theorem:
 over a field of characteristic zero, the determinant of the defining
@@ -1367,7 +1366,7 @@ dual algebra. Consequently j_r generates the actual R-socle by
 Nakayama. This is the needed global-over-R justification; being a
 generic socle generator alone would not suffice.
 
-### 3.3 Differentiation identifies the extra defect
+#### 3.3 Differentiation identifies the extra defect
 
 In S the exact identity z^r = h w holds. Lift it to T, differentiate
 with respect to z,y, wedge with dF, and reduce modulo (F,h). The term
@@ -1395,7 +1394,7 @@ The class index r does not bound A_F,P or D_r,P. For example index-four
 D_n singularities may have large higher corrections. Formula (7)
 charges those corrections rather than suppressing them.
 
-## 4. A pointwise index bound gives a linear carrier-degree bound
+### 4. A pointwise index bound gives a linear carrier-degree bound
 
 For C0 let F have degree a, let the mate have degree b, and put
 n = ab/4. A normal carrier makes the generic CI algebra curvilinear.
@@ -1451,7 +1450,7 @@ with zero numerator and denominator are outside the non-Cartier
 application. The characteristic-zero Jacobian hypothesis remains in
 force.
 
-## 5. Closing the entire actual-index-at-most-four class
+### 5. Closing the entire actual-index-at-most-four class
 
 Apply the accepted index12 reduction: a minimal mate yields the same
 unordered pair (6,8), length12. The other defining surface is not
@@ -1491,7 +1490,7 @@ vanishing order one. Simultaneous index-four points are all retained;
 their total first-symbol vanishing order is sixteen. No classification
 or independent bound on their higher local jets has been used.
 
-## 6. Primitive symbolic triple contradiction
+### 6. Primitive symbolic triple contradiction
 
 For each index-three/four point, (5) applied to W_r and (17) give zero
 ordinary layer torsion. The R[z]/(z^r) lattice is therefore the entire
@@ -1534,7 +1533,7 @@ index bounds. Singularities away from C0 are irrelevant. No normality
 of the other defining hypersurface, primitive initial presentation, or
 D_n complexity bound is required.
 
-## 7. What survives
+### 7. What survives
 
 The complete class with indices dividing12 still permits actual
 index-six or index-twelve points. Those points have k=2 or k=1 in
@@ -1555,7 +1554,7 @@ simultaneous support points. They do not claim that any remaining
 system lifts to a global pair or that C0 is non-STCI. The unrestricted
 normal, nonnormal, and entirely thick branches remain open.
 
-## 8. Audit provenance
+### 8. Audit provenance
 
 The ordinary free-layer theorem was first proposed by `socle_audit`
 and independently reconstructed by the root and the
@@ -1569,5 +1568,4 @@ and the saturation identifying symbolic triples.
 The primary Jacobian theorem was inspected for this new bridge; no
 previously accepted repository calculation was rerun. Parallel agent
 agreement is not the proof: Sections 1--6 contain the actual arguments.
-No memory file was used for this continuation.
 

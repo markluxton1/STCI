@@ -4,9 +4,9 @@ Complete mathematical dossier preserving proofs, counterexamples, assumptions, c
 
 ---
 
-## 2026-10-19-first-relation-defect-investigation
+<a id="2026-10-19-first-relation-defect-investigation"></a>
 
-# First-relation defects and the effective resultant budget
+## First-relation defects and the effective resultant budget
 
 Date: 2026-10-19.
 Author: `saturation_defects` research worker.
@@ -14,7 +14,7 @@ Status: **provisional structural theorem package; independent audit PASS**.
 Independent reconstruction: [defect audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-independent-audit).
 No canonical result is edited or promoted.
 
-## 1. Scope, dependencies, and proposed contribution
+### 1. Scope, dependencies, and proposed contribution
 
 Let `C` be a smooth connected projective curve in a smooth threefold `X`
 over an algebraically closed field of characteristic zero. Let `Y` be an
@@ -54,7 +54,7 @@ Gorenstein Hilbert-function drop input is explicitly identified there.
 
 The elementary torsion upper bound in section 3 below is inherited in
 substance from section 9 of
-[the generator-filtration audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd).
+[the generator-filtration audit](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd).
 The proposed new contribution is its combination with exact saturated
 duality and the quotient resultant, including the formula
 
@@ -64,7 +64,7 @@ This package remains conditional on the full generic initial CI. It
 does not cover non-CI generic initial ideals, residual reduced
 components, or arbitrary STCI presentations.
 
-## 2. Saturated layers retain exact Gorenstein duality
+### 2. Saturated layers retain exact Gorenstein duality
 
 Let `P_i` be the saturation of `J^i` in `O_Y`, and set
 
@@ -89,7 +89,7 @@ finite-support torsion for `i<=r`, so
 The last displayed equality includes `j=r-1`: the quotient is
 `P_(r-1)/P_r=J^(r-1)/J^r`. It does not assume that `L_r` is torsion free.
 
-## 3. Early ordinary torsion and generation defects
+### 3. Early ordinary torsion and generation defects
 
 For every `j>=r-1`, put
 
@@ -138,7 +138,7 @@ In particular `c_r=0`, and summing (3)--(5) gives
 
 These inequalities hold stalkwise as well as after summing lengths.
 
-## 4. Exact socle and second-relation identities
+### 4. Exact socle and second-relation identities
 
 Let
 
@@ -174,7 +174,7 @@ The rational expressions in (7)--(8) must be integers in any actual
 example; they are consequences of bundle identities, not extra
 hypotheses.
 
-## 5. The effective resultant divisor
+### 5. The effective resultant divisor
 
 Locally choose a binary form generating `R` and a polynomial lift of
 the quotient line `T` in degree `s`. The homogeneous resultant is
@@ -222,7 +222,7 @@ of STCI-R-0010. Generation of `B` in degree one gives
 `P_i=J^i+P_(i+1)`; descending induction yields `P_i=J^i` for all `i`.
 In particular a nonzero first-relation defect forces `c_(s-1)>0`.
 
-## 6. Full-root formulation and a general nonreduced-root payment
+### 6. Full-root formulation and a general nonreduced-root payment
 
 Specialize to `C=P1` and balanced `E=H^-1 tensor V`, where
 `lambda=deg H` and `dim V=2`. Write
@@ -292,7 +292,7 @@ equation (7) becomes
 The scalar equation is a consequence of the full bundle model. It
 does not substitute for the resultant divisor or ambient lifting.
 
-## 7. Stronger payment for a moving pure power
+### 7. Stronger payment for a moving pure power
 
 Suppose now `R=(H^-1 tensor M)^r`, with `M` a moving line subbundle
 of the constant `V` and `deg M=-e<0`. Thus `epsilon=r e`. The accepted
@@ -327,9 +327,9 @@ These conditions quantify the first-relation nonsaturation required
 to survive the moving-power obstruction. They do not establish that
 such a defect pattern can be lifted to an actual global CI.
 
-## 8. Two auxiliary scope results
+### 8. Two auxiliary scope results
 
-### Automatic normal flatness for gaps at most two
+#### Automatic normal flatness for gaps at most two
 
 For a local transverse special fiber, let `q` be its first ideal
 order. Purity gives `I_Y subset I_C^r`, so `q>=r`. A planar Artinian
@@ -347,7 +347,7 @@ The same reasoning covers `r=s`. Genuine first-relation defects in
 the full generic CI lane can therefore occur only when `s-r>=3`.
 For C0 this is a scoped structural fact, not a new STCI conclusion.
 
-### The gap-three boundary is sharp for local lci families
+#### The gap-three boundary is sharp for local lci families
 
 An independent exact example from the `defect_local_models` worker is
 
@@ -400,7 +400,7 @@ the generic Hilbert function is `(1,2,2,2,2,1)`.
 These are direct exact module calculations for this local example;
 they do not assert a general pointwise version of (9).
 
-### A broader elementary local family
+#### A broader elementary local family
 
 An elementary counterexample family, supplied independently by the
 `defect_local_models` worker, is
@@ -426,7 +426,7 @@ existence example, not a global C0 construction. It shows that actual
 lci Gorensteinness and a generic full CI do not force first-relation
 saturation in general.
 
-## 9. Review and frontier impact
+### 9. Review and frontier impact
 
 The proposed exact identities are (7), (8), and (9). The main new
 geometric constraints are (13)--(18): repeated moving roots require
@@ -447,9 +447,9 @@ initial CI, actual lci, and unique-support hypotheses remain explicit.
 
 ---
 
-## 2026-10-19-first-relation-defect-independent-audit
+<a id="2026-10-19-first-relation-defect-independent-audit"></a>
 
-# Independent audit: first-relation defects and the effective resultant budget
+## Independent audit: first-relation defects and the effective resultant budget
 
 Date: 2026-10-19.
 Reviewer: `saturation_defects/defect_formula_audit`.
@@ -458,7 +458,7 @@ Status: **PASS within the exact hypotheses. Reviewed proposal, not a promoted re
 Proposal audited: [first-relation defect investigation](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-investigation).
 No accepted proof, inherited computation, or canonical result record was modified or rerun.
 
-## 1. Exact scope and authority
+### 1. Exact scope and authority
 
 The setting is an actual locally complete-intersection thickening `Y` of a smooth connected projective curve `C` in a smooth threefold, over an algebraically closed field of characteristic zero, with **unique reduced support** `Y_red=C`. Write `J=I_C O_Y`, `E=N_C^*`, and assume the **full** generic ordinary initial algebra is the coprime binary CI of degrees `2<=r<s`.
 
@@ -470,7 +470,7 @@ The local exact-order normal-flatness theorem used for the support statement and
 
 The doubled-positive-divisor lemma is accepted evidence for promoted [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md). The apolar pure-power calculation is accepted evidence for promoted [STCI-R-0009](../results/moving_purepower_boundary.md). The general defect package and its new numerical consequences remain proposals.
 
-## 2. Early saturation and the actual maps
+### 2. Early saturation and the actual maps
 
 Set `P_i=saturation(J^i in O_Y)` and `B_i=P_i/P_(i+1)`. Accepted saturated duality gives bundles `B_i`, the socle line `S=B_d`, `d=r+s-2`, and perfect pairings `B_i tensor B_(d-i)->S`.
 
@@ -495,7 +495,7 @@ The primitive relation maps to zero in `B_r` because its image is generically ze
 
 These map assertions pass. In particular, using `c_s` for the **cokernel** length, rather than for a rank-one kernel or its degree, is necessary for the signs below.
 
-## 3. The sharper first-defect upper budget
+### 3. The sharper first-defect upper budget
 
 Write `d_i=length(P_i/J^i)` and let `c_i` denote the generation-cokernel length. The ordinary-to-saturated exact comparison yields
 
@@ -513,7 +513,7 @@ For `g=s-r`, this independently gives
 
 Every step is a statement of finite module lengths at a stalk. The inequality therefore holds both pointwise and after summation. No pointwise resultant-divisor identity is being deduced from it.
 
-## 4. Independent reconstruction of the degree identities
+### 4. Independent reconstruction of the degree identities
 
 Put `h=deg E`, `a=deg R`, `ell=deg S`, and `c=c_(s-1)`. The exact symmetric-power quotient gives
 
@@ -548,7 +548,7 @@ This proves all three central identities and the advertised upper bound
 
 Only a total-degree identity is asserted. Although determinant sequences also identify the underlying resultant line with a line formed from cokernel divisors, that alone would not identify its particular section with a canonical divisor section. This audit does **not** claim a pointwise equality `Delta=(r-1)C_(s-1)-r C_s`.
 
-## 5. Support and the zero-generation-defect implication
+### 5. Support and the zero-generation-defect implication
 
 At a point outside `Supp D`, there is an actual order-`r` relation with nonzero special symbol. The reviewed local exact-order theorem therefore makes the entire ordinary normal cone a CI of degrees `(r,s)` in a neighborhood of that point. Its quotient resultant is a unit. Thus `Supp Delta subset Supp D`; the separate local theorem is an explicit dependency.
 
@@ -556,7 +556,7 @@ There is also a useful global consequence. If `c_(s-1)=0`, effectiveness gives `
 
 This last statement is global and projective. No local vanishing conclusion was inferred merely from a local value of `c_(s-1)` and the global degree formula.
 
-## 6. General nonreduced-root payment
+### 6. General nonreduced-root payment
 
 Now restrict to the rational base with balanced conormal, exactly as in the proposal. The full finite-flat root divisor `Z` has class `(epsilon,r)` and retains all multiplicities. The quotient inclusion is adjoint to a section
 
@@ -581,7 +581,7 @@ A repeated constant component has `a_i=0`, hence `n<=0` by nonnegativity of `rho
 
 The result constrains repeated components of the **total root divisor**. It does not exclude a reduced total root with nonreduced special fibers.
 
-## 7. Pure-power strengthening
+### 7. Pure-power strengthening
 
 For `R=(H^-1 M)^r` and `deg M=-e<0`, the accepted characteristic-zero apolar formula makes `A_s` a constant rank-`r` bundle tensored with a line of degree `-s lambda+(g+1)e`. A nonzero map from the kernel line `T` to this bundle gives
 
@@ -596,7 +596,7 @@ This is also consistent with the exact divisor identity for a pure power: locall
 
 The inequalities `c>=r e` and, when its denominator is nonzero, `delta>=r e/binom(g,2)` follow. They are necessary conditions; no ambient construction or unrestricted STCI exclusion follows.
 
-## 8. Small gaps, the local example, and one qualification
+### 8. Small gaps, the local example, and one qualification
 
 Let `q` be the first ideal order of any transverse planar special fiber. Purity gives `q>=r`. The accepted drop-at-most-one theorem, starting with `1,2,...,q`, forces a tail of total size at least `q(q-1)/2`; hence every such fiber has length at least `q^2`. Its length is the generic length `rs`, so
 
@@ -640,7 +640,7 @@ Thus `B_3` has basis `xy,y^3` and its ordinary-symbol image is generated by `txy
 
 The initial audit requested one denominator qualification: `r e/binom(g,2)` is undefined at `g=1`. The proposal now explicitly restricts that quotient inequality to `g>=2` and treats `g=1` by the contradiction `c=0` against the pure-power lower bound. This presentation issue has been fixed; no unresolved qualification remains.
 
-## 9. Verdict and retained frontier
+### 9. Verdict and retained frontier
 
 The exact kernel/saturation maps, sharper upper budget, corrected socle identity, second quotient-line degree, effective resultant degree, full-root payment, pure-power strengthening, small-gap consequence, and exact gap-three filtration example pass independent reconstruction. The denominator qualification identified during review has been incorporated in the proposal.
 
@@ -649,16 +649,16 @@ The note still concerns actual lci thickenings with unique smooth support and a 
 
 ---
 
-## 2026-10-19-spectral-nonreduced-root-obstruction
+<a id="2026-10-19-spectral-nonreduced-root-obstruction"></a>
 
-# A doubled-divisor obstruction to nonreduced moving spectral roots
+## A doubled-divisor obstruction to nonreduced moving spectral roots
 
 Date: 2026-10-19. Author: primary research agent.
 Status: **independently reviewed proposal; audit PASS**. The review
 reconstructed the full argument and component corollaries. This file
 does not promote a canonical result.
 
-## 1. Exact question, accepted inputs, and scope
+### 1. Exact question, accepted inputs, and scope
 
 Work over an algebraically closed field `k` of characteristic zero. Write
 `S=P1_base x P1_direction`, with projections `p,q`, and use
@@ -685,7 +685,7 @@ The primary STCI application has `C=C0`, `N_C=O(7)^2`. The proof below
 concerns the spectral ruled surface and does not use an assertion about
 the actual ambient formal neighborhood or arbitrary defining surfaces.
 
-## 2. Differential restriction lemma
+### 2. Differential restriction lemma
 
 **Lemma 1.** Let `X` be a smooth scheme over a field, `D` an effective
 Cartier divisor, and `L` a line bundle. If `L|2D` is trivial, then the
@@ -711,7 +711,7 @@ or reduced. Square.
 The use of **ambient** differentials restricted to `D`, rather than
 `Omega_D`, is essential. Triviality only on `D` would not prove the lemma.
 
-## 3. Picard injectivity on a doubled ample divisor
+### 3. Picard injectivity on a doubled ample divisor
 
 **Theorem 2.** Let `D subset S=P1 x P1` be an effective Cartier divisor of
 bidegree `(a,b)` with `a,b>0`, over characteristic zero. Then
@@ -748,7 +748,7 @@ sign. Characteristic zero implies `u=v=0` as integers. Square.
 This is a restriction theorem for line bundles on `S`. It is not an
 assertion that all line bundles on `2D` come from `S`.
 
-## 4. Nonreduced moving roots cannot have spectral descent
+### 4. Nonreduced moving roots cannot have spectral descent
 
 **Theorem 3.** Let `Z subset S` be an effective Cartier divisor, finite
 flat over `P1_base`, of bidegree `(epsilon,r)` with `epsilon>0`.
@@ -793,7 +793,7 @@ This includes repeated irreducible multisections, not only powers of
 linear binary forms. It works uniformly in `epsilon,r,s`, and uses no
 smoothness or irreducibility assumption on the root.
 
-## 5. Reduced roots: a component bound and the movement-two boundary
+### 5. Reduced roots: a component bound and the movement-two boundary
 
 The same proof records more than reducedness. Put
 
@@ -823,7 +823,7 @@ second alternative have intersection length `r`; their intersections
 and the full gluing data still enter the Picard descent test. No
 torsion computation or ambient liftability is claimed for this locus.
 
-## 6. Limits and precise STCI consequence
+### 6. Limits and precise STCI consequence
 
 Theorem 3 eliminates **generic repeated factors** in a moving spectral
 root whenever the uniform second-quotient-relation hypotheses hold.
@@ -842,7 +842,7 @@ degeneration, nonsaturation, and additional initial generators remain
 possible. No common singular point of the original surfaces is
 assumed or deduced.
 
-The separate [actual filtered-algebra bridge](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge)
+The separate [actual filtered-algebra bridge](SATURATED_DUALITY_AND_MOVING_POWERS.md#projective-normal-flatness-by-duality-and-resultants)
 proves that an actual lci thickening with a saturated actual first
 relation and full generic binary CI initial ideal satisfies precisely
 the uniform graded hypotheses used here. Combining the two arguments
@@ -853,9 +853,9 @@ two-generator initial-ideal pattern remain essential hypotheses.
 If `epsilon=0`, the root is constant and may be nonreduced; the positivity
 step above fails as it must. In positive characteristic, the final
 Chern-class argument detects the integer bidegrees only modulo the
-characteristic. No positive-characteristic exclusion is asserted.
+characteristic. No unrestricted positive-characteristic exclusion is asserted; the [prime-to-characteristic extension](#prime-to-characteristic-spectral-descent-excludes-repeated-moving-components) below retainsp∤s and the same full finite-flat moving-root hypotheses.
 
-## 7. Evidence, review, and continuation
+### 7. Evidence, review, and continuation
 
 The proofs above are conceptual; no finite parameter scan is used.
 The standard Hodge Chern class via `dlog` and its Cech representative
@@ -883,9 +883,9 @@ of rational components, without discarding ramification or gluing.
 
 ---
 
-## 2026-10-19-spectral-nonreduced-root-independent-audit
+<a id="2026-10-19-spectral-nonreduced-root-independent-audit"></a>
 
-# Independent audit: double-divisor Picard detection and nonreduced moving roots
+## Independent audit: double-divisor Picard detection and nonreduced moving roots
 
 Date: 2026-10-19. Reviewer: `spectral_nilpotent_audit`, independently
 reconstructing the proposal received from the parent investigation.
@@ -898,7 +898,7 @@ Status: **PASS as a new, scope-limited mathematical argument.** This audit
 is evidence for a proposal; it does not promote a canonical result or edit
 an accepted result. No inherited theorem or certificate was rerun.
 
-## 1. Exact claims reviewed and authority used
+### 1. Exact claims reviewed and authority used
 
 The auxiliary claim is over a field `k` of characteristic zero. Put
 `S=P1_k x P1_k`. Let `D` be an effective Cartier divisor of bidegree
@@ -932,7 +932,7 @@ I also read [STCI-R-0009](../results/moving_purepower_boundary.md) and its
 second-relation audit for the comparison in Section 5. Those accepted
 claims were treated as premises rather than independently re-proved.
 
-## 2. Independent proof of the double-divisor claim
+### 2. Independent proof of the double-divisor claim
 
 Write `Omega=Omega^1_(S/k)` and let `L=O_S(u,v)`.
 
@@ -1000,7 +1000,7 @@ and [the field-base Kunneth formula](https://stacks.math.columbia.edu/tag/0BEC)
 were checked. The needed calculation and ideal-square argument are
 given explicitly above; no external nonreduced-root exclusion was used.
 
-## 3. Scheme-theoretic audit of the spectral consequence
+### 3. Scheme-theoretic audit of the spectral consequence
 
 Set `L=O_S(-n,s)`. R-0008 gives `L|_Z=O_Z`.
 
@@ -1065,7 +1065,7 @@ The proof actually needs only `s>0` and a descent
 `O_Z(0,s)=pi^*O(n)` with `epsilon>0`; the stronger `s>r>=2` is retained
 because it is the accepted second-relation interface being applied.
 
-## 4. Audit of the component bound and movement-two additions
+### 4. Audit of the component bound and movement-two additions
 
 I independently checked Section 5 of the written proposal, after the
 double-divisor argument and its consequences had been reconstructed.
@@ -1123,7 +1123,7 @@ The source's characteristic-zero restriction is also correct. The
 explicit diagonal counterexample in the next section remains valid and
 explains why this scope cannot be broadened by the displayed proof.
 
-## 5. Adversarial checks and indispensable hypotheses
+### 5. Adversarial checks and indispensable hypotheses
 
 1. **Triviality on the reduced support is insufficient.** On the diagonal
    `D` of class `(1,1)`, `O_S(-1,1)|_D` is trivial, but (A) proves its
@@ -1161,7 +1161,7 @@ explains why this scope cannot be broadened by the displayed proof.
    It does not imply the hypotheses of the smooth-root actual-CI bridge
    STCI-R-0006.
 
-## 6. Novelty, exact frontier impact, and verdict
+### 6. Novelty, exact frontier impact, and verdict
 
 Within the relevant canonical records and their linked evidence, R-0009
 excludes everywhere-coprime second relations when the full root is a
@@ -1204,676 +1204,10 @@ repository action.
 
 ---
 
-## 2026-10-19-saturated-first-relation-spectral-bridge
+### Prime-to-characteristic spectral descent excludes repeated moving components
 
-# A saturated first relation forces normal flatness: resultant and spectral bridges
+This is a source-level extension independently reconstructed during consolidation; canonical R-0011 retains its characteristic-zero statement. Let k be algebraically closed of characteristicp>0, and let Z be a finite-flat full Cartier divisor of class(epsilon,r) in P1_base×P1_direction, with epsilon>0. Suppose O_Z(0,s)=pi*O(n), s>0, and **p does not divide s**. Then Z is reduced.
 
-Date: 2026-10-19.
-Status: **PROPOSAL WITH INDEPENDENT REVIEW PASS; not promoted.**
-Independent audit: [filtered-bridge review](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit).
-Authors: root and filtered-algebra workers; independent filtered-bridge
-reviewer. No canonical record is edited or promoted.
+The doubled-divisor proof above remains valid through its cohomological injectivity: for D of strictly positive bidegrees, H1(Ω¹(-D))=0 by the two ruling summands and Künneth. If O(u,v) is trivial on2D, its logarithmic Chern class vanishes on D; injectivity then forces its ambient class to vanish. In characteristicp this says p divides bothu andv, rather than u=v=0 as integers. For a component D_i of Z, the degree relation from descent is s*a_i=n*b_i. Finite flatness gives b_i>0, and s*epsilon=n*r gives n>0, hence a_i>0. A repeated component would contain its full double2D_i; applying the lemma to O(-n,s) would force p|s, contradiction. A Cartier divisor on the smooth surface has no embedded components, so multiplicity one of every prime component implies reducedness of Z.
 
-The main general theorem in section 8 removes the balanced-conormal assumption
-from the bridge. Sections 1--7 retain the explicit spectral interpretation
-in the split case. The proofs are compatible and use the same saturated
-duality lemma.
-
-## 1. Precise split-case claim
-
-Let `C` be a smooth connected projective curve over an algebraically
-closed field of characteristic zero, embedded in a smooth threefold
-`X`. Assume
-
-    E=N_(C/X)^*=H^(-1) tensor V,       dim_k V=2.
-
-Let `Y` be an actual locally complete-intersection thickening with
-`Y_red=C`, and put `J=I_C O_Y`. Suppose the FULL generic ordinary
-initial ideal is a coprime binary complete intersection
-
-    gr_(J_eta)(O_(Y,eta))=k(C)[x,y]/(f_r,g_s),
-    2 <= r < s,                         gcd(f_r,g_s)=1.   (1)
-
-Let `R=H^(-r) tensor M` be its ACTUAL first relation sheaf,
-
-    R=ker(Sym^r E -> J^r/J^(r+1)),
-
-and assume `R` is a line SUBBUNDLE of `Sym^r E`. Equivalently the
-coefficient inclusion
-
-    M subset Sym^r(V) tensor O_C
-
-is saturated and is nonzero in every fiber. Write
-
-    lambda=deg H,     epsilon=-deg M,     d=r+s-2.
-
-The first coefficient form defines the FULL root scheme
-
-    Z subset C x P(V^*),       pi:Z->C.
-
-It is finite flat of degree `r`; it may be singular, reducible, or
-nonreduced.
-
-**Proposed conclusions.**
-
-1. The first saturated relation forces an everywhere-coprime second
-   quotient relation of degree `s` on this FULL root scheme.
-2. More precisely there is a line bundle `T` on `C` such that
-
-       O_Z(s) = pi^*(H^s tensor T),
-       deg T=-s*lambda+s*epsilon/r.                     (2)
-
-   Thus the spectral Picard criterion of STCI-R-0008 is a necessary
-   condition for the ACTUAL generic-CI thickening under these hypotheses.
-3. Every ordinary `J`-adic layer is locally free on `C`; every fiber of
-   the ordinary associated graded algebra is a binary graded complete
-   intersection of degrees `(r,s)`.
-
-Conclusion 3 is a further rigidity argument after the core spectral
-bridge. Its proof uses a nonsplit second-generator extension correctly;
-no global second polynomial line is assumed.
-
-For `C0` one has `C=P1`, `H=O(7)`. This theorem would bridge a much
-broader first-root class than STCI-R-0006, while still requiring the FULL
-generic initial ideal (1) and a saturated ACTUAL first relation. It does
-not cover arbitrary actual STCI equations.
-
-## 2. Dependencies and exact authority boundary
-
-The spectral interpretation for abstract graded second quotient
-relations is promoted as [STCI-R-0008](../results/spectral_root_picard_criterion.md).
-Its proof and nonsplit-generator warning are in
-[the original spectral note](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations)
-and [its independent audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
-That promoted theorem alone does not provide an actual-CI bridge.
-
-The new saturated-duality lemma, including its proof from actual
-Gorenstein MCM duality, is in section 3 of
-[the simultaneous pure-power proposal](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
-The use below does not depend on pure-power, movement, or apolarity:
-only the symmetric generic Hilbert function in (1) is used for perfect
-saturated pairings. The actual socle line and local MCM duality are
-accepted in [the socle audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd).
-
-All new assertions here remain unpromoted proposals. The linked independent
-written review records PASS under the stated hypotheses. No accepted
-computation is rerun.
-
-## 3. Saturated filtration and exact early layers
-
-Let `P_i` be the saturation of `J^i` in `O_Y`, and let
-
-    B_i=P_i/P_(i+1),       S=Ann_Y(J).
-
-Purity gives `J^(d+1)=0` globally. The saturation lemma gives vector
-bundles `B_i`, a multiplicative saturated filtration, and perfect
-actual multiplication pairings
-
-    B_i tensor B_(d-i) -> S,
-    B_(d-i)=B_i^* tensor S.                              (3)
-
-For `j<r`, the actual initial relation kernel `K_j` is zero because it
-is a rank-zero subsheaf of a vector bundle. For `r<=j<s`, one has
-
-    R tensor Sym^(j-r)E subset K_j.
-
-This product is a saturated subbundle of `Sym^j E`: in every fiber,
-multiplication by the nonzero binary form `f_r` is injective with the
-same rank. The generic rank of `K_j` is exactly that of this subbundle
-by (1). The quotient between them is therefore zero. Hence
-
-    K_j=R tensor Sym^(j-r)E,                 r<=j<s.     (4)
-
-All ordinary layers through degree `s-1` are consequently vector bundles,
-and successive extension gives
-
-    P_i=J^i for i<=s.                                   (5)
-
-Set, for `j>=r-1`,
-
-    Q_j=Sym^j V/(M tensor Sym^(j-r)V),
-
-where the denominator is zero at `j=r-1`. These are vector bundles with
-
-    rank Q_j=r,       deg Q_j=(j-r+1)*epsilon.
-
-For `r-1<=j<s`, equations (4)--(5) identify
-
-    B_j=H^(-j) tensor Q_j.                              (6)
-
-## 4. Duality fixes the socle degree and second quotient degree
-
-Pair `B_(r-1)=H^(-(r-1)) tensor Sym^(r-1)V` with `B_(s-1)` in (3).
-Taking degrees and using (6) gives
-
-    deg S=-d*lambda+(s-r)*epsilon/r.                    (7)
-
-Now `P_s=J^s` implies a SURJECTION
-
-    A_s := Sym^s E/(R tensor Sym^(s-r)E) -> B_s.         (8)
-
-The source is `H^(-s) tensor Q_s`, rank `r`, and the target, by (3), is
-
-    B_s=H^(r-2) tensor S tensor (Sym^(r-2)V)^*,
-
-rank `r-1`. The kernel `T` of (8) is a line subbundle. Degree subtraction
-using (7) gives
-
-    deg T=-s*lambda+s*epsilon/r.                        (9)
-
-In particular the displayed rational quantities must be integral in
-any actual example. This is a consequence, not an extra assumption.
-
-## 5. The full root section has degree zero and no zeros
-
-For `s>=r-1`, restriction to the root divisor gives
-
-    Q_s = pi_* O_Z(s),
-    A_s = H^(-s) tensor pi_* O_Z(s).                     (10)
-
-Indeed the restriction sequence on `C x P1` has kernel
-`M tensor O_(P1)(s-r)` and has vanishing relative first cohomology in
-this range. It holds for the FULL Cartier root, including nilpotents.
-
-By finite adjunction, the inclusion `T -> A_s` corresponds to a section
-
-    sigma of L_Z := O_Z(s) tensor pi^*(H^(-s) tensor T^(-1)). (11)
-
-At the generic point of `C`, its image is the unique second quotient
-relation supplied by the full initial ideal in (1). Coprimality there
-means that `sigma` is a UNIT on the entire generic root algebra. This
-retains its nilpotents and each of its generic components.
-
-The scheme `Z` is an effective Cartier divisor in the smooth surface
-`C x P1`, hence is a pure Cohen--Macaulay curve. It is finite flat over
-`C` and has no vertical associated points. A section that is a unit at
-all generic points is therefore a nonzerodivisor and yields
-
-    0 -> O_Z -> L_Z -> D_sigma -> 0,
-
-where `D_sigma` has finite length. The coefficient root class gives
-
-    deg O_Z(1)=epsilon,
-    deg pi^*A=r deg A
-
-for every line bundle `A` on `C`, with degrees and lengths computed on
-the full root scheme. Therefore (9) gives
-
-    deg L_Z=s*epsilon+r(-s*lambda-deg T)=0.
-
-By the exact sequence, this degree is `length D_sigma`. Thus the
-cokernel is zero and `sigma` is nowhere zero, including on nonreduced
-or singular fibers. It trivializes `L_Z`, proving (2).
-
-Consequently `T` is everywhere coprime to the first quotient relation.
-No finite-support degeneration divisor survives. The degree-zero
-argument, rather than generic coprimality alone, removes that divisor.
-
-## 6. Further rigidity: recovering the full ordinary graded algebra
-
-Let `K'_s` be the kernel of `Sym^s E -> B_s`. Its quotient by first
-relation multiples is exactly `T`. Define the graded algebra
-
-    D = Sym(E)/(ideal generated by R and K'_s).
-
-Locally lift `T` to a second polynomial generator; different lifts
-differ by a multiple of the first relation. Section 5 makes the two
-local generators a regular sequence of degrees `(r,s)` in EVERY fiber.
-Thus `D` is a finite locally free graded CI family. This construction
-uses the generator extension, which need not split globally.
-
-Both `R` and `K'_s` vanish in the multiplicative saturated graded algebra
-`B=direct_sum B_i`, so there is a natural algebra morphism
-
-    D -> B.                                             (12)
-
-It is an isomorphism at the generic point and both sides have the same
-graded ranks. The graded CI socle line is
-
-    D_d=R tensor T tensor det(E)^(-1).
-
-This determinant formula is invariant under changing the local second
-generator by a multiple of the first; it does not assume a split
-generator extension. Equations (7) and (9) give
-
-    deg D_d=deg S=deg B_d.
-
-The top component of (12) is generically nonzero. A nonzero map between
-line bundles of equal degree on a smooth projective connected curve
-is an isomorphism. Therefore the top map is an isomorphism everywhere.
-
-At a closed point of `C`, suppose an element of `D_i` maps to zero in
-`B_i`. Perfect fiberwise Gorenstein multiplication in `D` pairs it with
-an element of `D_(d-i)` to a nonzero element of `D_d`, unless it was zero
-already. The latter nonzero top element cannot map to zero because the
-top map is an isomorphism. This contradiction proves that each
-`D_i -> B_i` is fiberwise injective. Equal ranks now give an isomorphism
-of every graded bundle.
-
-Hence `B` is generated in degree one. In particular `J^i -> B_i` is
-surjective for every `i`, or
-
-    P_i=J^i+P_(i+1).
-
-Descending induction from `P_(d+1)=0` gives `P_i=J^i` for all `i`. Thus
-all ordinary layers are bundles and every ordinary graded fiber is the
-binary CI just constructed. This proves conclusion 3 without an
-external Hilbert-function classification.
-
-## 7. Scope and frontier consequences
-
-The proof turns the spectral criterion from an abstract graded test
-into a necessary test for actual lci thickenings satisfying (1) and a
-saturated first relation. It retains all singularities, repeated roots,
-nilpotents, and fibers of the first root. It does not use smoothness or
-separability of `Z`, or joint generation by chosen original equations.
-
-Any independent theorem excluding spectral descent on a given root
-class can therefore be combined with this bridge, but must be cited
-with its exact additional hypotheses. In particular, exclusion of
-moving nonreduced roots is a separate proposed contribution; it is not
-silently part of STCI-R-0008.
-
-Nonsaturated first relations, generic initial ideals with more than two
-minimal generators, and intersections with residual curve components
-remain outside the theorem. No unrestricted characteristic-zero STCI
-conclusion follows.
-
-Independent review should check especially the saturation equality (4),
-the actual surjection (8), generic UNIT rather than merely generically
-nonzero in (11), degree on the full nonreduced root, the nonsplit graded
-CI construction in section 6, and its top pairing argument.
-
-
-## 8. Main generalization: arbitrary conormal via a degree-zero resultant
-
-The balanced splitting of `E` is unnecessary for the actual normal-flatness
-bridge. This section is an independently reviewed proposal within the
-same proof package; its characteristic-zero scope suffices here.
-
-**General theorem proposed.** Let `C` be a smooth connected projective
-curve in a smooth threefold, and let `Y` be an actual lci thickening
-with `Y_red=C`. Let `E=N_(C/X)^*` be ANY rank-two conormal bundle.
-Suppose the full generic initial ideal is the coprime binary CI
-`(f_r,g_s)`, with `2<=r<s`, and the ACTUAL first relation sheaf
-
-    R=ker(Sym^r E -> J^r/J^(r+1))
-
-is a line subbundle of `Sym^r E`. Then EVERY ordinary `J`-adic layer is
-locally free on `C`, and every fiber of the full ordinary associated
-graded algebra is a binary graded complete intersection of degrees
-`(r,s)`.
-
-Set
-
-    h=deg E,      a=deg R,      d=r+s-2.
-
-The same saturation argument as sections 3--4 gives perfect pairings
-`B_i tensor B_(d-i) -> S`, and exact early layers
-
-    B_j=Sym^j E,                                  j<r,
-    B_j=Sym^j E/(R tensor Sym^(j-r)E),             r<=j<s,
-    P_i=J^i,                                     i<=s.   (13)
-
-The product `R tensor Sym^(j-r)E` is a subbundle because every fiber
-first form is nonzero; no splitting of `E` is used. For `j>=r-1` the
-quotient bundle `A_j` by first-relation multiples has rank `r` and
-
-    deg A_j=[r*j-r*(r-1)/2]*h-(j-r+1)*a.                (14)
-
-This follows by subtracting the degrees in its defining exact sequence,
-using `deg Sym^j E=j(j+1)h/2`.
-
-Pair the exact early layers `B_(r-1)` and `B_(s-1)`. Their degrees in
-(14) give
-
-    ell := deg S=(s-1)*h-((s-r)/r)*a.                   (15)
-
-As before, `P_s=J^s` gives a surjection `A_s -> B_s`, where
-
-    B_s=(Sym^(r-2)E)^* tensor S.
-
-Its kernel `T` is a line subbundle and degree subtraction gives
-
-    t := deg T=s*h-(s/r)*a.                            (16)
-
-Now work locally on `C` and choose a frame of `E`, a generator `f_r`
-of `R`, and a polynomial lift `g_s` of the quotient generator `T`.
-The homogeneous binary resultant `Res(f_r,g_s)` is unchanged by replacing
-`g_s` with `g_s+f_r*h_(s-r)`. Thus it is well-defined for the second
-QUOTIENT relation and does not require a global second polynomial line.
-
-Under rescaling the first and second relation generators, the resultant
-scales with exponents `s` and `r`. Under a change of normal basis, the
-homogeneous resultant has the determinant weight `rs`. Hence the local
-resultants glue to a section of the intrinsic line bundle
-
-    L_Res=(det E)^(rs) tensor R^(-s) tensor T^(-r).     (17)
-
-These weights can also be checked directly by viewing the resultant as
-the determinant of the homogeneous Sylvester multiplication map; the
-identity under `g_s -> g_s+f_r*h_(s-r)` is a polynomial identity and
-retains repeated roots and all coefficient specializations.
-
-Equations (16)--(17) give
-
-    deg L_Res=rs*h-s*a-r*t=0.
-
-The FULL generic initial CI hypothesis makes the generic resultant
-nonzero. A nonzero section of a degree-zero line bundle on a smooth
-projective connected curve has no zeros. Thus the resultant is nowhere
-zero, so the two quotient relations are coprime in EVERY fiber.
-
-Define the graded CI family `D` from the first relation and the full
-preimage `K'_s` of `T` in `Sym^s E`, as in section 6. Its local regular
-sequence generators need not split globally. There is a natural map
-`D -> B`; both sides have the same generic graded ranks. Its top line is
-
-    D_d=R tensor T tensor (det E)^(-1),
-
-and, by (15)--(16),
-
-    deg D_d=a+t-h=ell=deg S.
-
-The generic top map is nonzero and is therefore an isomorphism everywhere.
-Perfect graded multiplication in EVERY fiber of `D` then forces every
-map `D_i -> B_i` to be fiberwise injective, hence an isomorphism. Exactly
-as in section 6, generation of `B` in degree one gives
-`P_i=J^i+P_(i+1)`; descending induction yields `P_i=J^i` for every `i`.
-This proves the general theorem.
-
-The resultant proof requires no Hilbert-function classification,
-apolarity, balanced splitting, smoothness of the root, or global
-retraction. Its key global input is the projectivity of `C`, which
-turns a generic nonzero degree-zero resultant section into an everywhere
-nonzero section. A separate local extremal-Hilbert-function proof,
-with its explicit classical drop-theorem dependency, is preserved in
-[the independent local normal-flatness proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness).
-That independent route also handles the equal-degree case under its
-stated exact-order hypothesis; this section only claims `r<s`.
-
-For balanced split `E`, the resultant conclusion recovers the full-root
-spectral descent in section 5. Combined with any correctly scoped
-nonreduced-root Picard obstruction, it applies that obstruction to actual
-lci thickenings satisfying the stated saturated-first and full-generic-CI
-hypotheses. All remaining assumptions continue to be essential boundaries;
-no unrestricted STCI exclusion is claimed.
-
-
----
-
-## 2026-10-19-numerical-first-root-independent-audit
-
-# Independent audit: homogeneous generator rigidity and movement-one/two arithmetic
-
-Date: 2026-10-19.
-Reviewer: independent numerical/global-interface worker.
-Status: **PASS under the hypotheses stated below; new unpromoted result package**.
-No canonical record is edited or promoted by this audit.
-
-## 1. Claim reviewed and authority boundary
-
-This audit independently reconstructs sections 3--6 and the smooth-root
-application in section 8 of
-[the global CI proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-global-ci-filtration-investigation).
-It does not merely check the output of the proposing worker's search.
-The general fixed-movement finiteness assertion in its section 7 is assigned
-to a separate reviewer and is not included in this review decision.
-
-Work over an algebraically closed field of characteristic zero with
-
-    C=C0=[s^4:s^3t:st^3:t^4] in P3,
-    N_C^*=O_P1(-7)^2.
-
-Assume an actual homogeneous complete intersection
-
-    Y=V(F_a,G_b),  Y_red=C,
-
-whose FULL generic ordinary initial ideal is a coprime binary complete
-intersection of degrees `2<=r<s`. Assume its actual degree-r relation kernel
-
-    R=ker(Sym^r N_C^* -> J^r/J^(r+1)),  J=I_C O_Y,
-
-is a line subbundle. Write `R=O(-7r-epsilon)`, with `epsilon>=0`.
-The conclusions reviewed are that both original homogeneous equations have
-generic normal order r, that epsilon=1 is impossible, and that epsilon=2
-leaves exactly six possible numerical rows.
-
-The inherited inputs are:
-
-- Promoted [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md):
-  all ordinary normal layers are locally free and every full graded fiber
-  is a binary CI of degrees `(r,s)`. Its preserved
-  [proof](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge), sections
-  3--6, identifies the second quotient relation as a line bundle T of degree
-  `-7s+s*epsilon/r`. This uses the FULL generic CI hypothesis and the actual
-  first relation subbundle. These inherited results are used as accepted
-  premises, rather than re-audited here.
-- The reviewed
-  [generator-filtration proof](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd),
-  sections 1--4: for the entire initial ideal, not just two chosen symbols,
-  `gr_F(Q/IQ)=K/(S_+K)`. This is accepted evidence, but has no separate
-  promoted result ID. The present audit checks the new use of that interface.
-- Promoted [STCI-R-0001](../results/quartic_carrier_exclusion.md) records the
-  separately audited factor-reduction consequence. The unique quadric cannot
-  divide either equation in an STCI presentation. The exact restriction
-  argument yielding degree at least three times normal order is also in
-  the accepted [thick audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit),
-  first section. There is no separate promoted record for that numerical
-  restriction. The elementary argument is included below.
-
-Normal flatness and the generator filtration are separate interfaces. The
-new result does not assert that all actual STCI presentations satisfy the
-R0010 hypotheses. The first relation being merely saturated after discarding
-a coefficient divisor would not suffice.
-
-## 2. Reconstruction of the actual generator sequence
-
-Put `I=I_C`, `Q=I_Y`, `S=Sym(N_C^*)`, and `K=in_I(Q)`. R0010 implies that
-the full K is locally generated by a regular sequence of degrees r,s.
-Indeed its homogeneous kernels are bundles; local lifts of the two fiber
-generators generate K near a base point by relative graded Nakayama. Their
-fiberwise coprimality gives a regular sequence. Thus the hypotheses of the
-generator-filtration proof really do hold after applying R0010.
-
-The two nonzero pieces of the minimal initial-relation bundle
-`K/(S_+K)` are R in degree r and T in degree s. Consequently the canonical
-filtration on the actual generator bundle gives
-
-    0 -> T -> Q/IQ -> R -> 0.                         (A1)
-
-For the actual homogeneous CI presentation,
-
-    Q/IQ = O_C(-a) + O_C(-b) = O_P1(-4a) + O_P1(-4b).
-
-This follows by right-exact restriction of the Koszul presentation: its
-preceding map has coefficients F,G, which vanish on C. No vanishing of an
-unmentioned Tor group is required. The order-r quotient in (A1) is exactly
-the degree-r initial-symbol map on the classes of the original F and G.
-
-It is essential here that (A1) is the filtered actual generator bundle. It
-does not identify a global second polynomial relation in `Sym^s(N_C^*)`,
-and does not produce a homogeneous ambient equation of normal order s.
-
-Set
-
-    A=7r+epsilon,      B=7s-s*epsilon/r.
-
-The degree computation in the accepted R0010 evidence gives
-`R=O(-A)`, `T=O(-B)`, with A,B integers. Alternatively the degree of the
-nowhere-zero graded resultant gives the same formula: its line bundle is
-`(det N_C^*)^(rs) R^(-s) T^(-r)`, of degree zero. Its invariance on adding
-a first-relation multiple to the second relation avoids any splitting
-assumption.
-
-Generic transverse length of the full initial CI is rs, so the degree of
-the actual projective CI and determinants in (A1) give
-
-    ab=4rs,
-    4(a+b)=A+B=7(r+s)-epsilon*(s-r)/r.                (A2)
-
-The length computation uses support exactly C. If residual curves are
-allowed, its equality `ab=4rs` cannot be retained.
-
-## 3. Nonsplitting and the orders of the original equations
-
-If (A1) split, uniqueness of splitting type on P1 would imply
-
-    {4a,4b}={A,B}.
-
-Therefore
-
-    16ab=A*B=rs*(49-(epsilon/r)^2)<=49rs,
-
-whereas (A2) gives `16ab=64rs`. Since r,s are positive, this is impossible.
-This argument also works when epsilon=0, and does not require first knowing
-which line bundle is the more negative one.
-
-Write the quotient map in (A1) as `(alpha,beta)`. Its entries are sections
-of `O(4a-A)` and `O(4b-A)` without a common zero. If either entry were zero,
-the other would be nowhere zero, providing a right inverse and splitting
-the sequence. A nonzero degree-zero entry would also split it. Hence both
-entries are nonzero of positive degree. Their identification with the
-original degree-r symbols proves:
-
-    ord_C(F)=ord_C(G)=r generically,
-    their degree-r symbols jointly generate R at every point.
-
-In particular
-
-    A<4a,4b<B,       0<=epsilon<7r.                   (A3)
-
-This deduction was tested against the tempting countercase of one original
-equation having order s: that would make one order-r quotient entry zero,
-which forces the already excluded splitting. It also retains special
-points at which one original coefficient vanishes; the two cannot vanish
-there simultaneously. No claim is made that either coefficient is
-individually nowhere zero.
-
-## 4. The quadric bound, including reducible equations
-
-Let `q=0` be the smooth unique quadric Q containing C, where C has class
-`(1,3)`. If q divides F, STCI support would require the nonzero divisor
-`G|Q` of class `(b,b)` to have support C. Such a divisor would have to be
-a positive integral multiple of `(1,3)`, impossible for b>0. If `G|Q=0`
-instead, Q is a common surface component. Thus q cannot divide F, and
-symmetrically cannot divide G. This direct argument uses only the STCI
-support condition and works for reducible or nonreduced F,G.
-
-Since F has generic ambient order r, its nonzero restriction to Q vanishes
-along C at least r times. The remaining effective divisor has class
-`(a-r,a-3r)`. Effectivity on P1 x P1 forces `a>=3r`; likewise `b>=3r`.
-The residual divisor can contain further copies of C, so no equality of
-ambient and restricted normal orders is assumed.
-
-## 5. An independent exhaustive arithmetic reduction
-
-Assume `a<=b` and put `t=s/r>1`. From `ab=4tr^2` and `a,b>=3r`,
-
-    t>=9/4,
-    a+b<=3r+4tr/3.                                  (A4)
-
-For the second inequality, `x+ab/x` decreases on
-`3r<=x<=sqrt(ab)`. Combining it with the sum in (A2) gives
-
-    (5r-3epsilon)*t<=15r-3epsilon.                   (A5)
-
-Also B integral requires `r | epsilon*s`.
-
-For epsilon=1 this makes t an integer. Hence (A4) gives t>=3. Since r>=2,
-
-    t<=3+6/(5r-3)<4.
-
-Thus t=3, but (A2) gives `a+b=7r-1/2`, impossible. This proves the
-all-degree movement-one exclusion under precisely the stated hypotheses.
-
-For epsilon=2 put `k=2s/r`, a positive integer. Then
-
-    k>=5,
-    (5r-6)*k<=30r-12,
-    k<=6+24/(5r-6)<=12,
-    s=kr/2,
-    a+b=(14r+7rk-2k+4)/8,
-    ab=2kr^2.                                       (A6)
-
-The following cases exhaust every integer k from 5 through 12.
-
-| k | restrictions and exact outcome |
-|---:|:---|
-| 5 | The discriminant is `(-159r^2-588r+36)/64<0` for every r>=2. No rows. |
-| 6 | `a+b=7r-1`, `ab=12r^2`. The factorization below gives exactly r=14,15,20. |
-| 7 | (A6) forces r<=6; s integral forces r even. For r=2,4 the sum is not integral; r=6 gives `(a,b)=(18,28)`, s=21. |
-| 8 | (A6) forces r<=3. Only r=2 has integral sum, giving `(a,b)=(8,8)`, s=8. |
-| 9 | (A6) forces r=2, whose sum is 35/2. No rows. |
-| 10 | (A6) forces r=2; the required sum is 19 and product is 80, so the discriminant is 41, not a square. No rows. |
-| 11 | (A6) forces r=2, whose sum is 41/2. No rows. |
-| 12 | (A6) forces r=2, giving `(a,b)=(6,16)`, s=12. |
-
-For k=6, the discriminant is
-
-    d^2=(r-7)^2-48.
-
-For `2<=r<=13` it is negative. For r>=14,
-
-    (r-7-d)*(r-7+d)=48.
-
-Both factors are positive and have the same parity. The only ordered
-pairs with first factor at most the second are `(2,24)`, `(4,12)`, `(6,8)`.
-They give respectively `(r;a,b)=(20;64,75),(15;50,54),(14;48,49)`.
-Thus the unbounded-r stratum is closed by a finite divisor proof.
-
-The exhaustive surviving list, with a<=b, is exactly
-
-    (r,s;a,b) = (2,8;8,8), (2,12;6,16), (6,21;18,28),
-                (14,42;48,49), (15,45;50,54), (20,60;64,75).
-
-The proposing note uses a slightly sharper AM--GM bound to shorten its
-small-r table. Its argument and table were also checked against (A6);
-they have the same exhaustive outcome. An independent exact `Fraction`
-and `isqrt` cross-check for 2<=r<=100 returned this list. That bounded
-cross-check is not the exhaustion proof; (A6) and the divisor argument are.
-
-## 6. Limits and the smooth-root application
-
-Every surviving row satisfies the strict inequalities (A3). In fact each
-admits the required abstract bundle sequence: if
-`u=4a-A>0`, `v=4b-A>0`, take quotient entries `x^u,y^v` on P1. They have
-no common zero, and the kernel has degree `A-4a-4b=-B`. Thus the bundle
-sequence alone has no further contradiction on these rows. Such sequences
-are not ambient formal structures or STCI constructions.
-
-The proposed application to
-[STCI-R-0006](../results/actual_ci_smooth_root_bridge.md) is sound. The
-AM--GM inequality from (A2) gives
-
-    7(1+t)>=16 sqrt(t),
-    t>1  ==>  t>=(79+16 sqrt(15))/49>23/8.
-
-Therefore `s-r>=4` when r>=2, more than its required gap of two. The new
-generator rigidity supplies exactly the original-equation order and
-joint-generation hypotheses in R0006. If the FULL root is smooth, that
-promoted theorem applies and produces its finite primitive thickening.
-It does not provide an all-orders Cartier lift. The known nonexplicit
-finite empty-stage bound does not by itself eliminate any of the six
-finite gaps.
-
-For epsilon=2, promoted R0011 additionally makes the total root reduced.
-It may still be singular or, for even r, the union of two distinct
-`(1,r/2)` components. Neither this audit nor the proposed arithmetic
-argument silently replaces it by a smooth integral root.
-
-**Review outcome:** PASS for the actual-generator sequence, nonsplitting,
-original-generator order rigidity, the uniform epsilon=1 exclusion, the
-exhaustive six epsilon=2 numerical rows, and the stated conditional
-smooth-root application. These are audited new consequences in the
-R0010 saturated/full-generic-CI class, not promoted results and not an
-unrestricted STCI theorem. Nonsaturated first relations, full generic
-initial ideals that are not binary CIs, and residual curve components
-remain outside the argument.
-
-## Closing arithmetic correction
-
-The root investigator independently recomputed the k=10 row during package
-assembly and corrected its arithmetic: r=2 requires sum 19, product 80, and
-discriminant 41. The originally written root pair 5,16 had the wrong sum.
-The row remains excluded and the exhaustive six-row outcome is unchanged.
+The prime-to-p condition cannot be removed from this proof. On the diagonal D, A=O(-1,1) is trivial on D. Adjusted transition units are1+h withh∈I_D; in characteristicp, (1+h)^p=1 moduloI_D². Thus A^p=O(-p,p) is trivial on2D, providing an actual nonreduced root with descent of the pth direction power. This is a full nilpotent Picard phenomenon, not merely a numerical degree coincidence. The criterion is compatible with [positive-characteristic quartic-carrier STCI constructions](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).

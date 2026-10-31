@@ -1,241 +1,129 @@
-# Exact computation checks
+# Exact mathematical computations
 
-## October 24 intrinsic quartic geometry checks and figures
+Begin with the [mathematical approaches](../synthesis/README.md) and the
+[canonical result](../results/INDEX.md) or focused proof named below.
+The proof explains the object being computed, the hypotheses, and the
+implication supplied by its output. A script name, successful run, or recorded
+rank does not by itself establish those bridges.
 
-The [special-lines validation](../validation/2026-10-24-special-lines-planes/README.md), [quartic geometry validation](../validation/quartic-geometry-2026-10-24/README.md), and [figure guide](../figures/quartic-geometry-2026-10-24/README.md) document exact checks, projection and symmetric-square figures, and reproducibility. See `verify_special_lines_planes_2026_10_24.py`, `verify_quartic_automorphisms_bitangents_2026_10_24.py`, and `draw_quartic_geometry_2026_10_24.py`. These supplement the provisional proofs, not canonical promotions.
+Run the commands from the repository root. Python programs use either the
+standard library or SymPy; the explicit SymPy requirement is **1.14.0** for the
+checks that specify it. Macaulay2 programs use `M2 --script`. The independent
+R-0025 matrix builder also requires a C++ compiler. Read a program's header
+before running it: some programs regenerate saved mathematical data, and
+some are bounded exploratory models rather than certificate checkers.
 
-## October 24 Delta marked-embedding checks
+## Mathematical entry points
 
-The [report](../notes/2026-10-24-delta-embedding-geometry-report.md) and [validation record](../validation/delta-embedding-2026-10-24/README.md) preserve two Macaulay2 scripts: [conormal annihilator](verify_delta_conormal_annihilator_2026_10_24.m2) and [Rees equation module](verify_delta_rees_equation_module_2026_10_24.m2). Finite checks do not prove global realization or STCI consequences. This is archived provisional research, not an active assignment.
+| Mathematical question | Proof and computation | Exact scope |
+|---|---|---|
+| The curve, conormal geometry, and positive-characteristic constructions | [Curve geometry](../synthesis/01-problem-and-curve.md), [positive-characteristic proofs](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md); `verify_c0.py`, `verify_normal_bundle.py`, `verify_positive_quartic_descent.py`, `verify_fixed_quartic_mate_degrees.py` | The stated parametrizations, transitions and identities. The all-degree construction and optimality arguments are in the proofs, not inferred from a finite prime scan. |
+| Quartic carrier mechanisms | [Quartic carrier proof](../synthesis/quartic_carrier_proof.md); primitive obstruction/factor programs, normal-carrier programs and genus-one/genus-two exact checks linked there | Complete arguments require the classification/coverage and descent steps in their proof homes. A determinant or denominator compression alone is not a carrier exclusion. |
+| The separate filtered quartic-pair calculation | [Quartic-pair account](../synthesis/quartic_pair_obstruction.md), [R-0022](../results/quartic_44_filtered_exclusion.md); `verify_44_quartic_symbol_comparison_2026_10_23.py`, `verify_44_filtered_contact_2026_10_23.py`, `audit_44_filtered_contact_2026_10_23.py` | Actual quartic source maps and the stated filtered-contact cases; inherited primitive-direction coverage remains a separate mathematical input. |
+| Filtrations, cancellation, and marked embedding | [Filtration account](../synthesis/normal_filtration_boundary_obstructions.md); `verify_ideal_filtration_*.py`, `verify_delta_conormal_annihilator_2026_10_24.m2`, `verify_delta_rees_equation_module_2026_10_24.m2`, `verify_delta_singular_families_2026_10_24.m2` | Explicit identities, counterexamples and displayed Rees/initial ideals. Finite samples do not establish global equation realization or a general STCI consequence. |
+| Prescribed characteristic-two arithmetic lifting | [Arithmetic lifting](../supplements/Z4_LIFTING_AND_DEFORMATION.md), [R-0012](../results/prescribed_z4_arithmetic_nonlifting.md); four Z4 primary/audit programs and `verify_z4_raw_source_decomposition.py` | The prescribed embedded structure and its integral congruence. Raw-source decomposition checks the corrected residues; it is not universal characteristic-zero nonlifting. |
+| Local-cohomology tensor and actual family certificates | [Local-cohomology proof homes](../supplements/LOCAL_COHOMOLOGY_CONORMAL_GEOMETRY.md); `session-localcoh-origin-generic-dual.py`, `verify_session_localcoh_q*_dual_2026_10_07.py`, `evening_localcoh_family2_exception_fields_2026_10_13.py`, boundary certificate programs | The named actual top/seed families, complete affine lower-lift fibers and full tensor identities. A zero of an older denominator is not an existence witness. |
+| Degree-fifteen exceptional factor | [Exact dual proof](../supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md); `general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py` | The saved normalized dual annihilates all 18 original-tensor columns modulo the entire degree-15 polynomial and has target coordinate 72 equal to1, for every affine lower lift. |
+| Explicit residual curves and fixed-boundary smoothing | [Residual examples](../synthesis/explicit_quartic_residuals.md), [smoothing proof](../synthesis/fixed_boundary_smoothing.md); exact residual/line M2 programs and `verify_ci_fixed_boundary_node_smoothing_2026_10_25.py` | The displayed quartic pairs, geometric smoothness/connectedness, and five independent node parameters in the specified fixed-boundary family. |
+| Fixed sextic, degree-sixteen mates | [R-0025 full proof](../results/ci_fixed_sextic_jet_rigidity.md); `endpoint4_fixed_m2_2026_10_25.m2`, `endpoint4_fixed_jet_independent_2026_10_26.py` | One carrier and one mate degree. The 23-dimensional normal quotient, 969 constant coefficients, 286 carrier multiples, good samples and rank 683 are all needed. |
+| Finite generic jets at fixed degrees | [Finite-jet theorem](../synthesis/finite_normal_jets.md); `finite_normal_jet_certificate.m2` | The general iff criterion has a mathematical Nakayama/degree proof, valid for singular integral curves and weighted reducible curves in arbitrary characteristic. The program supplies examples and source-coefficient controls, not that general proof or an all-degree solver. |
+| Residual constructions and equation spaces | [Actual global models](../synthesis/residual_global_models.md), [reverse liaison](../synthesis/residual_liaison.md); `verify_normal_jet_freedom_2026_10_28.py`, `verify_containing_pair_boundary_degrees_2026_10_27.py`, `verify_residual_liaison_resolution_2026_10_28.m2` | Finite checks corroborate the all-degree sheaf/cohomology/linkage proofs. Exporting an incidence system is not solving it. |
+| Projection and elliptic gluing | [Projection proof](../synthesis/projection_and_elliptic_gluing.md); focused `projection_*.m2` programs and `projection_palindromic_picard.py` | Exact incidence, local contact, inverse-image and Picard gates for the stated targets. The compact programs have no dependency on historical validation snapshots. |
+| Mixed contact and additional sextic ranks | [Mixed-sextic contact](../supplements/MIXED_SEXTIC_CONTACT.md); primary/independent `stci_mixed_contact_2026_10_29.m2`, `stci_search_sextic_jets_2026_10_28.py` | Uniform polynomial matrix arguments and named finite sextic-source ranks are distinct. The latter imports the retained R-0025 arithmetic implementation. |
+| Root pencils and collision scales | [Geometric pencil](../synthesis/root_pencil_geometry.md), [arithmetic collision](../synthesis/arithmetic_root_collision.md); root-pencil, eight-component and root-collision verifiers | Displayed actual families, contact/conductor controls and residue-sensitive valuation calculations; no invariant of every containing pair is asserted. |
 
-## October 23–24 ideal-filtration and singular-locus checks
+The focused proof homes identify further companion programs where they supply
+an independent construction, a separate argument, or necessary exact support.
+This table is an entry route, not a proposed all-program execution suite.
 
-The [scoped reconciliation](../RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md) and its [October 23](../validation/ideal-filtrations-2026-10-23/README.md) and [October 24](../validation/delta-singular-locus-2026-10-24/README.md) validation records document the new checks. The scripts `verify_ideal_filtration_counterexamples_2026_10_23.py`, `verify_ideal_filtration_completeness_2026_10_23.py`, `verify_ideal_filtration_quartic_lifting_2026_10_23.py`, `verify_delta_singular_identities_2026_10_24.py`, and `verify_delta_singular_families_2026_10_24.m2` test local identities, quartic transitions, and sampled Rees initial ideals. Their source-branch runs are recorded, not freshly replayed by the reconciliation. General theorems and global STCI implications do not follow from the finite samples alone.
+## Checking important saved certificates
 
-## October 23 (4,4) characteristic comparison and filtered proof proposal
-
-The [research note](../notes/2026-10-23-quartic-characteristic-conormal.md)
-and [companion proof proposal](../notes/2026-10-23-quartic-44-filtered-proof-proposal.md)
-state the mathematical scope and inherited premises. These computations do
-not reprove the complete quartic-carrier theorem or promote a canonical result.
-
-- `verify_44_mu4_family_2026_10_23.m2` checks the integral normal expansion,
-  characteristic-two ideal, and characteristic-zero decomposition into four
-  quartics, including endpoint contact.
-- `verify_44_quartic_symbol_comparison_2026_10_23.py` uses only standard Python
-  to compare the complete degree-four first-symbol maps over the rationals
-  and characteristic two; their rank is seventeen and kernel is `k*q^2`.
-- `verify_44_filtered_contact_2026_10_23.py` uses SymPy to reconstruct the new
-  degree-three-defect contact spaces from all 35 quartic monomials and check
-  cubic-contact determinants. Primitive-direction completeness is an explicit
-  inherited accepted input, not a fresh classification certified by this script.
-
-Commands, PASS logs, and validation boundaries are in
-[`44-conormal-2026-10-23`](../validation/44-conormal-2026-10-23/README.md).
-
-The original verification scripts in this directory, together with the dated
-2026-10-05 companions and the preserved mixed-degree script under
-`../scratch/degree6`, use exact symbolic arithmetic in SymPy or Macaulay2;
-the Python checks do not use floating point calculations.
-
-- `verify_c0.py` checks the parametrization ideal, the characteristic 2 and 3
-  radical pairs, the uniform positive-characteristic family in characteristics
-  2, 3, 5, and 7, coordinate saturations, and wrong-characteristic controls.
-- `verify_normal_bundle.py` checks the two-chart conormal transition, its
-  extension class, an independent Jacobian-syzygy determinant, and the local
-  characteristic-3 primitive triple.
-- `verify_primitive_obstruction.py` checks the quadratic transition jet used
-  in the Banica--Forster obstruction calculation.
-- `verify_all_quartic_primitive_obstruction.py` checks the marked
-  degree-three-map normal form, the six homogeneous obstruction coordinates,
-  and the non-incidence identities that eliminate primitive triples for every
-  characteristic-zero smooth rational quartic.
-- `verify_positive_quartic_descent.py` checks the cusp semigroup lemma,
-  representative Frobenius-descent supports, and the exceptional
-  characteristic-3 normalization identities used in P-012.
-- `verify_degree6.py` checks the degree-six symbolic square, its five
-  residual classes on the quadric, the cubic symbolic-power boundary, an
-  integral sextic singular exactly along the curve, and the first-normal
-  discriminant/resultant calculations.
-- `verify_chow_form.py` checks a compact 10-term Pluecker-coordinate formula
-  for the Chow form of \(C_0\) against the exact 64-term binary resultant of
-  two hyperplane pullbacks. It also verifies Pluecker degree four and
-  coefficient bidegree \((4,4)\).
-- `verify_typeb45_endpoint_certificate.py` checks the terminal rational
-  identity at the proposed dense type-B survivor and the exact Bezout
-  certificate excluding the proposed boundary survivor.  Its scope is
-  intentionally narrower than the mathematical proof: it does not derive the
-  transition recursion, justify Cech reductions, or prove chart exhaustion.
-- `verify_chow_pencil_45.py` checks the exact dimensions and bases of the
-  restricted carrier spaces excluded by one Schubert-line pencil, including
-  the stronger 13-dimensional quartic and 28-dimensional quintic spaces.  It
-  also checks the Chow restriction, coefficientwise resultant orders, and an
-  explicit irreducible-quartic pair that passes this pencil but fails the
-  reversed pencil.  It does not certify the full Grassmannian identity.
-- `verify_typeb45_boundary.py` independently reproduces the full moving-frame
-  obstruction on the \(b_0=0\) type-B boundary, including all six Cech
-  coordinates and the characteristic-zero unit certificate.  It takes the
-  lower Bănică--Forster delta/gamma chart data as input and does not cover the
-  distinct rank-zero corner \(a_0=b_1=0\).
-- `verify_typeb45_corner.py` checks the full moving-coordinate
-  second-order coefficient, the three rank-zero parameters, and a bounded
-  gamma-gluing calculation at the formerly missed corner.  Its final
-  length-four statement counts a displayed monomial basis rather than
-  deriving a Gröbner basis; the exhaustive proof uses
-  \(H^0(O_{\mathbf P^1}(-3))=0\) and the elementary quotient
-  \(k[m,\ell]/(m^2,m\ell,\ell^3)\).
-- `verify_localcoh_degree4_counterexample.py` checks membership in
-  \(I_{C_0}\), the nonconstant proportional first-symbol rows, the two exact
-  polynomial identities, and generic coprimality over \(\mathbb Q(\lambda)\).
-  It does not construct or assert a common local-cohomology ancestor.
-- `verify_localcoh_degree4_allstage_certificate.py` checks P-043's two sparse
-  coefficient functionals for stages \(N=2,\ldots,8\): annihilation of all
-  correction and boundary spaces, target value \(-1\), and exact compatibility
-  with multiplication by \(qB\).  The written proof is uniform in \(N\); this
-  finite exact check does not classify other degree-four pairs.
-- `verify_split22_boundary_survivor.py` checks the content-free
-  \(d=1,[2,2]\) two-ramified-root first-normal survivor, including both factor
-  evaluations and all eleven sextic normal-image equations.  It does not
-  construct an ambient integral sextic or a mate.
-- `verify_general_conductor_power.py` checks the exact normalization,
-  conductor, pinch, and ordinary-power identities used in the literature
-  refresh. It is an algebraic example, not an STCI theorem.
-- `verify_localcoh_finite_principal_parts.m2` computes the first five
-  principal-part dimensions for the quartic and checks the stage-4 injection
-  and socle-multiplier statement in Macaulay2.
-- `verify_localcoh_quartic_ratio_t_slice.py` checks the all-stage coefficient
-  functionals excluding the ratio-t and ratio-t^3 slices, including their
-  boundary specializations.
-- `verify_mixed46_regular.py` checks the exact regular degree-(4,6) local
-  equations used to exclude the pure constant directions.
-- `verify_quadric_powers.m2` checks symbolic-power equals ordinary-power
-  formulas for the monomial and nonmonomial integral divisors used as a
-  special-case laboratory.
-- `verify_residual_cycle.py` checks 81 exact residual-cycle lattice instances
-  and the A <= D_{m-1} bound used in the mixed-(4,6) analysis.
-- `verify_split22_boundary_lift.py` checks the fixed split-[2,2] ambient
-  lift, node/A1 collisions, and the Mumford branch-intersection counts.
-- `verify_typea45.py` independently reconstructs the type-A (4,5) parameter
-  charts and terminal obstruction.
-- `verify_typeb45_dense.py` independently rederives the dense type-B
-  elimination boundaries and terminal obstruction.
-
-- `../scratch/degree6/verify_mixed45_reduction.py` checks the quartic and
-  quintic first-normal maps for the \((4,5)\) problem, the two allowed gcd
-  strata, and, after assuming the regular-ratio missing-section normalization,
-  exact augmented-minor exclusions for three carrier families. It does not
-  prove that the ratio is regular or cover the newly separated pole strata.
-  Its SHA-256 at handoff is
-  `862ec150664459fc94187164bcaa1d25e87c5f815e589fff1608a28efc6a89d5`.
-
-The dated exploratory sources under `../scratch` are retained separately:
-`explore_mixed46_e0.py`, `mixed46/local_lattice.py`, and
-`primitive47/obstruction.py` support the corresponding notes but are not
-standalone theorem certificates.
-
-Run them with a Python environment containing SymPy:
+The degree-15 check uses only standard Python for the exact saved certificate:
 
 ```sh
-python3 research/computations/verify_c0.py
-python3 research/computations/verify_normal_bundle.py
-python3 research/computations/verify_primitive_obstruction.py
-python3 research/computations/verify_all_quartic_primitive_obstruction.py
-python3 research/computations/verify_positive_quartic_descent.py
-python3 research/computations/verify_degree6.py
-python3 research/computations/verify_chow_form.py
-python3 research/computations/verify_typeb45_endpoint_certificate.py
-python3 research/computations/verify_chow_pencil_45.py
-python3 research/computations/verify_typeb45_boundary.py
-python3 research/computations/verify_typeb45_corner.py
-python3 research/computations/verify_localcoh_degree4_counterexample.py
-python3 research/computations/verify_localcoh_degree4_allstage_certificate.py
-python3 research/computations/verify_split22_boundary_survivor.py
-python3 research/scratch/degree6/verify_mixed45_reduction.py
-
-# Dated 2026-10-05 companions
-python3 research/computations/verify_general_conductor_power.py
-python3 research/computations/verify_localcoh_quartic_ratio_t_slice.py
-python3 research/computations/verify_mixed46_regular.py
-python3 research/computations/verify_residual_cycle.py
-python3 research/computations/verify_split22_boundary_lift.py
-python3 research/computations/verify_typea45.py
-python3 research/computations/verify_typeb45_dense.py
-# The two .m2 files use Macaulay2 rather than Python.
-/opt/homebrew/bin/M2 --script research/computations/verify_localcoh_finite_principal_parts.m2
-/opt/homebrew/bin/M2 --script research/computations/verify_quadric_powers.m2
+python3 -B research/computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py --verify --stem general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06
 ```
 
-On 2026-09-30 all 15 original script executions passed sequentially under the temporary environment
-`/private/tmp/stci-cas-venv/bin/python`. On 2026-10-05 the original suite and
-the dated Python companions passed with `PYTHONDONTWRITEBYTECODE=1`; the dated
-Macaulay2 companions passed with `/opt/homebrew/bin/M2 --script`. Both the system Python and the bundled
-workspace Python failed before running any assertion because SymPy was not
-installed. The proofs recorded in `../RESEARCH_RECORD.md` do not rely on the
-continued existence of that temporary environment.
+Its default stem is an earlier construction attempt, so the explicit
+`--stem` matters. `--verify` checks the saved polynomial dual and its actual
+tensor identities; omit it only when intentionally regenerating a certificate.
 
-## Full four-parameter e=2 obstruction data (2026-10-05)
+The fixed-sextic independent builder reconstructs its finite matrix and
+checks every known carrier multiple:
 
-- `e2_full4_obstruction_2026-10-05.txt` is the durable exact computation dump for
-  the four-parameter (e=2) cubic obstruction, with strong cross-checks.
-  It records the resultant (Delta), all five exact obstruction numerators
-  (G_1,ldots,G_5), the raw mismatch denominator
-  (32z^{25}Delta^3), exact divisibility of the five raw numerators by
-  (Delta^2), and the exact (b=0) specialization check against the
-  independently audited three-parameter calculation. It is formula data, not
-  by itself a proof that the parameter cross-section exhausts the geometric
-  problem; that symmetry argument and the scope warnings are in
-  `../notes/2026-10-05-e2-full-obstruction.md`.
+```sh
+python3 -B research/computations/endpoint4_fixed_jet_independent_2026_10_26.py
+```
 
+Its [saved output](endpoint4_fixed_jet_independent_2026_10_26.json) records the
+prime, good samples, rank, kernel dimension and matrix hash. The full result
+record explains the rank sandwich and nonsplit-node argument and identifies
+the actual inherited CI replay. The command here does not assert a new run.
 
-### P-044 survivor cubic certificate (2026-10-05)
+The fixed-boundary smoothing check reconstructs the actual quartic source,
+its gradient node functional and all five tangent witnesses:
 
-- \`verify_p044_survivor_cubic.py\` is a compact independent certificate for
-  P-045. It checks the displayed Bezout identity, reconstructs the canonical
-  moving-coordinate primitive triple for the explicit P-044 survivor, verifies
-  exactly that \(H_x\) vanishes modulo \(\epsilon^3\), and checks that the
-  seven displayed cubic coefficients reconstruct \(H_x\). It deliberately
-  does not recompute or classify the full P-044 obstruction zero locus.
+```sh
+python3 -B research/computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py
+```
 
-Run with:
+The [saved witness JSON](ci_fixed_boundary_node_smoothing_2026_10_25.json)
+contains the global monomial basis, exact rational perturbations, pivots and
+ranks. The formal/étale-local smoothing interpretation additionally uses the
+node-family argument in its proof home.
 
-\`\`\`sh
-python3 research/computations/verify_p044_survivor_cubic.py
-\`\`\`
+## Mathematical inputs are not disposable logs
 
+Keep a check's actual dependency closure. In particular:
 
-## 2026-10-06 audited consolidation certificates
+- Local-cohomology checks read `localcoh-incidence-tensor.txt`,
+  `localcoh-incidence-bases.txt`, `localcoh-symbol-top.json`, actual family
+  seed JSONs, dual coefficient files and saved exact certificates. Some
+  verifiers also bind small evaluation files by hash. Restore or deliberately
+  repair those bindings before removing an input.
+- The degree-15 certificate additionally binds selected construction
+  files under `../validation/2026-10-14-localcoh-degree15-attempt06/`.
+  The final dual proves the identity without rebuilding an inverse, but the
+  current hash-input contract still has to be satisfied.
+- Quintic and nonendpoint programs read actual coefficient data under
+  `../validation/`: the primitive diagonal polynomial, Taylor coefficient
+  arrays, corrected H2 quotient/norm inputs, and H3 coefficient/remainder
+  and Bézout data. That directory is not uniformly execution history.
+- Preserve the distinct H3 multiplicity-four, support32 and divisibility
+  identities with their original generators, exponents and chart units.
+  One `support32-witness.txt.gz` archive suffices for the identical support32
+  witness; a different Bézout matrix is a different proof step.
+- The dx1 exact saturation audit reads its compact polynomial certificate,
+  full e2 obstruction formulas and the isolated equation input named in
+  its source. A successful status message does not replace these inputs.
+- Genus-one repeated-partition identities have their usable M2 source at
+  `../validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2`.
+  A nested replay snapshot is unnecessary once its actual source is restored.
 
-The authoritative current status is `../AUDITED_STATE_2026-10-06.md`. The consolidation branch intentionally omits exploratory scratch and known-faulty historical certificates. The following promoted checks accompany the audited results:
+The H2 Horner exporter `generalization_quintic_h2_horner_input_2026_10_15.c`
+requires assertions enabled: required parsing and I/O operations occur inside
+`assert` expressions. The recorded build did not define `NDEBUG`. A future
+`-DNDEBUG` build must first move those operations into explicitly checked
+calls; otherwise it skips required work as well as checks.
 
-- `verify_primitive_quadruple_universal.py` — universal fourth-obstruction zero-locus certificates for the primitive e=2 analysis.
-- `verify_primitive_quartic_factor_audit.py` — independent reconstruction of the quartic symbol/contact calculation and factorization theorem.
-- `verify_primitive_triple_parity.py` — exact parity-family triple/fourth-layer checks; scoped only to that family.
-- `verify_normal_quartic_simple_elliptic.py` — numerical verification for the simple-elliptic normal-quartic exclusion.
-- `verify_normal_rational_carrier_compression.py` — determinant/denominator bounds for the remaining rational-resolution normal quartics.
-- `verify_mf6_defect12.py` and `verify_mf6_type3.py` — audited multiplicity-six defect and type-3 calculations.
-- `verify_localcoh_direction_image.py`, `verify_localcoh_pure_direction_audit.py`, `verify_localcoh_constant_direction_apolar.py`, and `verify_localcoh_generic_length_model.py` — retained local-cohomology direction/subfamily checks.
-- `localcoh-incidence-2026-10-06.py` with its JSON certificate and `localcoh-incidence-parity-dual-2026-10-06.py` with its JSON certificate — exact tensor/dual incidence data.
-- `verify_split4_nonramified.py`, `verify_split22_chart_audit.py`, and `verify_split22_finite_reduction.py` — split-carrier reductions; these do not assert a global exclusion.
-- `verify_dx1_a_half_boundary.py` and `verify_dx1_p044_residual.py` — dx=1 boundary/residual calculations. The formerly open residual saturation gap is closed by `session_dx1_saturation_2026_10_06.m2` and its recorded output, with the compact colon certificate and `verify_session_dx1_independent_2026_10_06.py` providing companion checks. Together these certify that the basepoint-free residual P-044 locus on the dx=1 slice is empty outside P-045; this is a slice classification, not a global P-044 theorem.
+A `.txt`, `.json` or compressed file can be the mathematical witness itself.
+Conversely, a rank summary, process record, hash inventory or repeated PASS
+output may add no argument once the exact proof and adequate checking inputs
+survive. Follow the [artifact policy](../ARTIFACT_POLICY.md) and inspect the
+content and consumers before changing support.
 
-Do **not** use `localcoh-symbol-paritycheck.m2` or `localcoh-symbol-seedcheck.m2` as theorem certificates; their quartic-basis construction was faulty and they are intentionally absent from the consolidation diff.
+## Structural checks
 
-The older scratch references below are historical instructions from earlier research phases. They are not part of the 2026-10-06 promoted certificate set.
+The repository's existing validators check records and navigation, not
+mathematical correctness:
 
-## Prescribed characteristic-two Z4 lifting checks (2026-10-20)
+```sh
+python3 -B research/computations/validate_records.py
+python3 -B research/computations/validate_result_records.py
+python3 -B scripts/check_markdown_links.py --anchors
+```
 
-The [focused report](../notes/2026-10-20-z4-characteristic-zero-lifting-report.md) records the reviewed scope and proofs separately from its exact computations.
-
-- `verify_z4_local_structure_2026_10_20.m2` checks the homogeneous ideals, saturation, full characteristic-two multiplication and cubic normal transitions.
-- `verify_z4_global_quartics_2026_10_20.m2` covers all 35 global quartic coefficients and the explicit ribbon control lift.
-- `verify_z4_quartic_obstruction_2026_10_20.py` derives the full integral cocycle.
-- `audit_z4_lift_2026_10_20.m2` independently reconstructs it over ZZ and checks the universal congruence over ZZ/4.
-
-These checks address the prescribed embedded Z4 and its integral lifting obstruction, not every characteristic-zero multiple structure or the unrestricted STCI question. See the report for commands and limitations.
-
-
-## Canonical scope pointers (2026-10-21 reconciliation)
-
-- [STCI-R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) uses the four Z4 scripts listed above; preserved verification logs are in `../validation/z4-lift-2026-10-20/`. The proofs of flat-CI persistence and forced triple are mathematical, not CAS certifications.
-- [STCI-R-0014](../results/movement_two_six_rows.md) and [STCI-R-0015](../results/fixed_small_movement_finiteness.md) use `global_ci_small_movement_divisor_audit.py` for exact necessary arithmetic candidates; the exhaustive divisor argument is in the cited proof/audit notes.
-- [STCI-R-0016](../results/nonsaturated_first_relation_resultant.md) and [STCI-R-0019](../results/quasiprimitive_residual_cycles.md) are proof/audit-based results, not assertions of completed global elimination computations.
+`validate_result_records.py` requires PyYAML. Verification status belongs
+with the mathematical statement: distinguish a proof, a saved exact witness,
+a source inspection and an actual rerun. None implies an unrestricted STCI
+answer or an unperformed computation.

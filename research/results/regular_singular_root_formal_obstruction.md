@@ -13,11 +13,11 @@ statement: "No such all-orders formal Cartier lift exists. In particular, any su
 dependencies:
   - STCI-R-0005
 evidence:
-  - "research/notes/2026-10-19-singular-root-investigation.md"
+  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
 independent_audits:
-  - "research/notes/2026-10-19-regular-singular-root-smoothing-audit.md"
-  - "research/notes/2026-10-19-regular-reducible-root-independent-audit.md"
-accepted_in: "research/RECONCILIATION_2026-10-21.md"
+  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+accepted_in: "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -40,7 +40,7 @@ No such all-orders formal Cartier lift exists. In particular, any surviving all-
 
 The audit verifies p_*O_Z(7,-1)=O_P1(5)^r, generation and H1 vanishing, algebraization of an lci center, normalization preserving the formal regular branch, smoothing inside a smooth projective surface, and the contradictory ruled-model and plane-section numerical bounds. It explicitly checks use of singular-lci deformation references.
 
-Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above. Scope acceptance for this promotion is documented in [the reconciliation decision](../RECONCILIATION_2026-10-21.md); that decision does not replace the source proof.
+Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above.
 
 ## Limitations
 
@@ -48,6 +48,6 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - No exclusion of singular formal surfaces, finite lifts, or arbitrary actual STCI equations is obtained.
 - The suggested degree-e generalization is not part of this promotion.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-Historical `research/notes/` identifiers in the metadata are preserved for provenance. The permanent [subject synthesis](../synthesis/03-infinitesimal-geometry.md) provides navigation to the mathematical arguments and their detailed supplements. This addition does not change any theorem or audit claim.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

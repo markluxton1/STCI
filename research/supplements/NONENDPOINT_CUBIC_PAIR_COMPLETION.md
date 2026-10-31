@@ -1,40 +1,14 @@
-# Nonendpoint cubic-pair completion and scope
+# Nonendpoint residual cubic pairs: complete contact and coefficient proof
 
-## Integration guide: completed cubic-pair lane and its scope
+Fix the embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), an algebraically closed characteristic-zero field, and the accepted anticanonical degree-five A4 pair \((S,c)\). Retain arbitrary \(\delta\ne0\), the four lift parameters \(a,b,g,d\), and an actual line center disjoint from \(S\), giving a finite birational projection \(\nu:S\to X\) onto an integral quintic. The restriction \(c\to C_0\) is an isomorphism. A hypothetical mate forces **full** reduced inverse support \((\nu^{-1}C_0)_{red}=c\), denoted SUP; it excludes isolated extra inverse points as well as extra curves. The proofs below concern this exact family, not every quintic carrier. The intrinsic pair is proved in [the A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md); actual projection coordinates and every target boundary are in [the target-fiber chapter](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md).
 
-The independent audit excludes the **residual 3+3 cubic-pair partition within the accepted nonendpoint genus-one quintic A4 normalization family**, including its specified doubled-root and homogeneous-gcd cases. This is not a universal exclusion of all nonendpoint quintic carriers or all mates. Compare [the quintic carrier conormal/factor analysis](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md) and [the A4 conductor/sextic incidence dossier](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md) for upstream conditions and other residual partitions. Retain the full gcd casework and the independent audit as evidence for this bounded result.
+<a id="2026-10-13-session-nonendpoint-cubic-pair-full-independent-audit"></a>
+<a id="2026-10-13-session-cubic-pair-theorem-scope-qualification"></a>
+<a id="1-nonendpoint-cubic-pair-contact-reduction"></a>
 
----
+## The full 3+3 no-mate theorem
 
-
-Complete subject-grouped mathematical arguments, including exact hypotheses, coefficient certificates, homogeneous gcd cases and theorem-scope qualifications.
-
----
-
-## 2026-10-13-session-nonendpoint-cubic-pair-full-independent-audit
-
-# Independent full audit: the nonendpoint residual cubic-pair lane has no mate
-
-Date: 2026-10-13. Auditor: `oct12_type1_two_family_audit`.
-
-Status: **PASS, WITH THE EXPLICIT SCOPE QUALIFICATION IN SECTION 1.** The
-entire residual partition 3+3 in the accepted nonendpoint genus-one quintic
-A4 normalization family is excluded in every mate degree, including a
-doubled residual cubic. Full inverse support itself is excluded by the
-contact-classification argument only on Jbar!=0. This does not close the
-integral residual lane, other quintic normalizations, higher-degree carriers,
-unrestricted C0, or the universal STCI problem.
-
-The frozen [owner proof](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#1-nonendpoint-cubic-pair-contact-reduction)
-was read at SHA-256
-`7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a`.
-The [cubic-contact companion](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#2-nonendpoint-cubic-contact-symbolics)
-has SHA `0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c`;
-the [sparse-heptic companion](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-12-session-sparse-heptic-cubic-pair-classificationmd)
-has SHA `58ceb45611e48755169b78fc9a3b8d666853c705f1d2281a8f6a80a489a96bc8`.
-No owner, companion, canonical, old seal-bound file or Git state was edited.
-
-## 1. Correct theorem, actual setting and retained exceptions
+### 1. Correct theorem, actual setting and retained exceptions
 
 Work over an algebraically closed field of characteristic zero, for the fixed
 C0 and the accepted degree-five A4 normalization pair. Retain delta!=0 and
@@ -52,16 +26,6 @@ with equation t+m r+n=0, and maps isomorphically to a smooth Q-curve of class
 is permitted. The line-cover and ruling-degree-drop alternatives are already
 excluded in that upstream proof, rather than discarded by selecting a minor.
 
-The frozen owner's section 7 has a stronger formulation than its proof:
-it asserts failure of SUP on the entire lane. On Jbar=0, however,
-A=-3delta^2 forces G=-3delta^2, the entire-line rank-one stratum. The accepted
-[pole/line audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit)
-excludes all mates there by the actual candidate-power obstruction; that
-does not itself establish failure of SUP. I identified this distinction;
-the owner withdrew the stronger assertion in the separate
-[scope qualification](NONENDPOINT_CUBIC_PAIR_COMPLETION.md#2026-10-13-session-cubic-pair-theorem-scope-qualification),
-SHA `0dce1ea4cee349a6a4520285a56152c6243c1ffaf6cb4d7607e6c1c253c59d7b`.
-
 The precise conclusions accepted here are:
 
 * If Jbar!=0, no such projection satisfies SUP, including distinct or doubled
@@ -70,7 +34,7 @@ The precise conclusions accepted here are:
   failure of SUP is not claimed.
 * Thus the entire residual 3+3 lane has no mate in any degree.
 
-## 2. Actual contact at infinity and the complete heptic
+### 2. Actual contact at infinity and the complete heptic
 
 On a source cubic put T=r^2-mr-n. Its four actual coordinate sections are
 cubic polynomials with leading coefficient -1, so their homogeneous values
@@ -139,7 +103,7 @@ intrinsic total length is three, whereas C0.(2,1)=7. The contact classification
 below uses the entire target intersection divisor to control the four
 excess lengths, rather than a bound from tangent data.
 
-## 3. Complete homogeneous classification, including all endpoints
+### 3. Complete homogeneous classification, including all endpoints
 
 A (2,1) target curve has equation P2(U,V)W0+Q2(U,V)W1. Restricting to
 C0, where the Segre coordinates are (1:z^3) and (1:z), gives the binary
@@ -188,148 +152,172 @@ The independently verified invariant equations are
 
 with s=1+h and p=uv. These necessary equations retain all algebraic branches.
 
-## 4. Actual source coefficient comparison and all six pair contradictions
+### Actual coefficient matching closes the classification
 
-I delegated a separate narrow algebra reconstruction and then read and
-reconstructed its written argument, rather than treating the worker's
-agreement as proof. The frozen
-[coefficient subaudit](NONENDPOINT_CUBIC_PAIR_COMPLETION.md#2026-10-13-session-nonendpoint-cubic-pair-coefficient-independent-subaudit)
-has SHA `8dc9ca3c3623a42023ed8acee208dc1b8272b3942e91c68d4b43d6994d72c316`.
-Its conditional geometric hypotheses are supplied by Sections 1–3 here.
+The full primitive factor formulas, all coefficient equations and the six pair contradictions are proved below. They retain coincident factors and both signs of every algebraic branch. They contradict each possible pair on Jbar!=0. On Jbar=0 the separate entire-line all-power argument closes the no-mate theorem without asserting failure of SUP.
 
-Put S=s1+s2, Sprod=s1s2, P=p1+p2, Pprod=p1p2,
-Cross=s1p2+s2p1, and x=B/delta^2. Matching the actual F with
+<a id="2-nonendpoint-cubic-contact-symbolics"></a>
 
-    -3delta^2(t+delta s1r-delta^2p1)(t+delta s2r-delta^2p2)
+## Actual primitive Segre factors and complete matching equations
 
-first gives a=-3delta^2 Pprod and
-G=3delta^2(S-1)-6x delta^2+3delta. After those substitutions define
+### 1. Actual restriction and complete cubic-divisor equations
 
-    Q2=delta(Sprod+x^2-xS)-x+1,
-    Q0=delta(x-Sprod+1/3-P+3Pprod)-1,
-    Q1=delta(x+9Pprod-3Cross)-1.
+Consider a prime cubic with affine equation t+m r+n=0. Its normalization is
+P1 with affine coordinate r. Put
 
-The exact full residual difference is
+    T_c=r^2-m r-n.
 
-    3delta^3 Q2 r^2+3delta^3(Q0+Q2)t+delta^4 Q1r.
+The four actual projected sections restrict to cubic polynomials f_i:
 
-The original coefficients are therefore zero only if Q2=Q0=Q1=0.
-Since Q1-Q0=delta E, the necessary condition is
+    f0=-r^3+(m^2+m+a)r^2+[n(2m+1)-a m]r+n^2-a n,
+    f1=-r^3+(m^2+m-delta m+b)r^2
+             +[n(2m+1-delta)-b m]r+n^2-b n,
+    f2=-r^3+(m^2+m-3delta m+3delta^2+g)r^2
+             +[n(2m+1-3delta)-delta^3-g m]r+n^2-g n,
+    f3=-r^3+(m^2+m-4delta m+6delta^2+d)r^2
+             +[n(2m+1-4delta)-4delta^3-d m]r+n^2-d n+delta^4.
 
-    E=Sprod-3Cross+P+6Pprod-1/3=0.
+Let
 
-Only the known nonzero delta is divided out. No difference between factors,
-roots or field branches is inverted. The complete extra coefficient equation
-is retained in the companion/subaudit; it is unnecessary for an exclusion
-because this one necessary condition already fails.
+    A=a+d-b-g, Bprod=ad-bg,
+    C=(4a-3b-g)delta-3delta^3-A,
+    E=Bprod+delta^4,
+    P2=Bprod+(6a-3b)delta^2+3delta^3,
+    L=(-4a+b)delta^3-delta^4, N=a delta^4.
 
-The six invariant type pairs reduce E respectively to
+The exact restricted quadric is
 
-    15/15: 2/147-h1h2/2;
-    15/24: (1-3h2^2-21h1h2)/42;
-    15/33: (2/7)(p2-1/3);
-    24/24: [(1-3h1^2)(1-3h2^2)-12h1h2]/24;
-    24/33: (3h1^2-1)(1-3p2)/6;
-    33/33: (2/3)(1-3p1)(1-3p2).
+    f0 f3-f1 f2=T_c F(r,-m r-n),
+    F=A t^2+(C r+E)t+(-3delta^2-A)r^3+P2 r^2+L r+N.
 
-None can vanish under its field equations. The mixed 15/24 case forces
-e=h2^2=1/663, contradicting 63e^2-30e-1=0. In 24/24, distinct e-roots
-give sum 10/21 and product -1/63, contradicting the squared equality;
-equal e-roots give e=1/12 or e=-1/3, both excluded. These arguments retain
-both signs and all coincident values. The other four pair contradictions
-are the direct nonzero rational values in the subaudit. The fresh algebra
-checker additionally verifies six unit ideals and explicit diagonal tests
-for types 15,24,33. Thus a doubled residual cubic is included, and common
-contact points between distinct components are never removed by saturation.
+For the 3+3 residual partition A=-3delta^2. The cubic divides F exactly if
 
-This contradicts the actual necessary coefficient equation for every
-possible pair when Jbar!=0. Combining with the independent entire-line
-all-power obstruction when Jbar=0 proves the stated entire-lane no-mate
-theorem, with the scope qualification from Section 1.
+    D2=-3delta^2 m^2-C m+P2=0,
+    D1=-6delta^2 m n-C n-E m+L=0,
+    D0=-3delta^2 n^2-E n+N=0.                         (1)
 
-## 5. Independent executions, bindings and failure history
+These are complete conditions for this factor. They do not divide by n,
+m, a root difference, or a discriminant. The other factor is
 
-The fresh [binary/contact checker](../validation/2026-10-13-cubic-pair-full-independent-audit/verify_binary_contact.m2)
-has SHA `11fa7ca6e9c22936226d82da22daf70ea55da7f381e7f4ea12a9a1e41360adbf`.
-Its [one captured execution](../validation/2026-10-13-cubic-pair-full-independent-audit/attempt-01/execution-record.json)
-passed 30 distinct conditions, exited zero and had empty stderr. Stdout
-SHA is `0f03e86091a50cbcd6e1fd260b65590a7f4f94c326b9a46834e1506c6d7828ca`.
-There was no failed development execution in this new binary lineage.
+    t+m' r+n', m'=C/A-m, n'=E/A-n.
 
-The separate fresh
-[coefficient checker](../computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2),
-SHA `a067b9847fc4150a302aa229e6a626ecf78480a66cebfd776da525e347477e7a`,
-passed 38 distinct conditions in its final capture. Its three development
-versions retain one protected-name setup failure and two successful versions
-with 29 and 38 conditions. The independent sources are two checker lineages,
-not four independent proofs. The coefficient subaudit includes the direct
-written six-pair contradictions; the original sparse companion additionally
-preserves literal original-generator Bezout certificates and their products.
+Consequently the conditions retain the doubled cubic m'=m,n'=n.
 
-I freshly verified all 56 files in the owner's assembly manifest against
-their recorded digests, and all 18 bindings in the coefficient subaudit
-manifest. The [input inspection](../validation/2026-10-13-cubic-pair-full-independent-audit/input-binding-inspection.json)
-records the owner comparison separately from mathematical acceptance.
-The owner's two checker lineages preserve twelve executions, six failed and
-six successful, including all wrong coefficient interfaces and protected
-names. Successful scratch replays are not independent lineages. No historical
-mathematical verifier was rerun for this audit.
+### 2. Actual linear/quadratic factorization on the class (2,1) image
 
-The stronger frozen SUP theorem is corrected by the separately bound owner
-qualification; it is not silently interpreted as a proven result. The entire
-all-mate theorem needs no further algebraic or geometric repair within its
-stated scope.
+Assume the actual projected cubic is a basepoint-free image of class (2,1),
+as required by the cycle and fiber arguments in the residual-factor note.
+On the Segre quadric the matrix [[f0,f1],[f2,f3]] has rank one. A primitive
+factorization therefore has the form
 
+    (f0,f1,f2,f3)=(L0 Q0,L0 Q1,L1 Q0,L1 Q1),
 
----
+where the L_i are homogeneous linear forms and the Q_i are homogeneous
+quadratic forms. The two pairs have no common zero. Since every f_i has
+leading coefficient -1, the affine factors can be normalized so that
+both L_i have leading coefficient 1 and both Q_i have leading coefficient -1.
+Thus L1-L0 is a constant. It must be nonzero: otherwise the first Segre
+coordinate would be constant and the image would not have class (2,1).
 
-## 2026-10-13-session-nonendpoint-cubic-pair-coefficient-independent-subaudit
+Define
 
-# Cubic residual pairs: independent coefficient and six-pair algebra subaudit
+    B=b-a, G=g-3b+2a, Jbar=d-2g+2b-a,
+    kappa=a-g+3delta m-3delta^2.
 
-Date: 2026-10-13. Auditor: `pair_coefficient_audit`, child of
-`oct12_type1_two_family_audit`.
+The constant L1-L0 is exactly kappa, obtained by comparing the r^2 term
+of f2-f0. In particular kappa!=0 on this class (2,1) locus. The factors are
+explicit:
 
-Status: **INDEPENDENT ALGEBRA SUBAUDIT PASS.** The actual residual
-coefficient comparison and all six invariant pair contradictions are
-reconstructed below. This is conditional on the parent's separate audit
-that the geometric support requirement and complete homogeneous contact
-classification give the three supplied invariant types. This note does
-not independently establish that geometric/classification bridge and does
-not by itself accept an entire quintic-lane theorem.
+    Q0=-r^2+q r+w,
+    q=-(3delta n+delta^3+(g-a)m)/kappa,
+    w=-(g-a)n/kappa,
+    D=Q1-Q0=(delta^2/kappa)[3(m-delta)r+delta^2+3n],
+    u=m^2+m+a-q,
+    L0=r-u, L1=r-u+kappa.                             (2)
 
-Work over an algebraically closed field of characteristic zero. Retain
-`delta!=0`. No coefficient equation below divides by a difference of
-cubic factors, a difference of field roots, or a minor. In particular,
-coinciding cubic factors remain in scope.
+These formulas come from Q0=(f2-f0)/kappa and
+Q1=(f3-f1)/kappa, followed by the r^2 coefficient of f0=L0 Q0.
+They are justified by the primitive factorization, rather than by an
+unchecked division of a specialized polynomial.
 
-## 1. Exact audited inputs and scope
+The first equation of (1) gives the useful exact identity
 
-The relevant portion of the owner's
-[cubic-pair note](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#1-nonendpoint-cubic-pair-contact-reduction)
-is Sections 4–6. Its digest at this audit is
+    kappa(B-delta m)-3delta^2(m-delta)=D2.             (3)
 
-    7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a
+Hence the linear coefficient of D is B-delta m on the actual divisor
+locus. No conclusion is asserted for kappa=0 beyond its incompatibility
+with the stated class (2,1) assumption.
 
-The complete actual coefficients and the extra matching equation are in
-Sections 1 and 4 of the
-[cubic-contact companion](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#2-nonendpoint-cubic-contact-symbolics),
-digest
+### 3. Degree-seven contact and the exact quartic excess factor
 
-    0b85a793349a0a35c6b9f1b3ea0a677d90d2076d14f2f28257ab5b86c1b1fb4c
+The fixed curve C0 on the Segre quadric has equation
 
-The actual ambient residual polynomial is taken from Section 1 of the
-[residual-factor note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md),
-digest
+    L1 Q0^3-L0 Q1^3=0.
 
-    d0efa3d74b5b8b59f9f5790b7323404765793905e3553b4e84f5ef865597fc44
+Pulling it back to this cubic gives the binary form of degree seven
 
-No input, owner, canonical, frozen record, or Git state was modified.
-Input snapshots, input digest bindings, all three new checker execution
-versions, and their raw streams are retained in the
-[new validation directory](../validation/2026-10-13-cubic-pair-coefficient-subaudit/input-bindings.json).
+    K=L1 Q0^3-L0 Q1^3
+      =kappa Q0^3-L0 D(3Q0^2+3Q0 D+D^2).             (4)
 
-## 2. Direct reconstruction from the actual residual polynomial
+The r^7 coefficient cancels. Its r^6 coefficient is
+
+    -kappa-3(B-delta m)=-Jbar,                       (5)
+
+since A=G+Jbar=-3delta^2. Therefore the contact at the parameter infinity
+is exactly one whenever Jbar!=0. This is the actual full contact form,
+not a bound obtained from a first conormal symbol.
+
+There is scheme-theoretic division by T_c, including a repeated root.
+The actual cubic equations of C0 pull back as
+
+    f0^2 f2-f1^3=L0^2 K,
+    f2^3-f1 f3^2=L1^2 K.
+
+Before restriction they are multiples of the actual affine equation T of
+c. Thus both displayed polynomials are divisible by T_c. Since
+L1-L0=kappa!=0, gcd(L0,L1)=1, and the divisibility at each irreducible
+factor of T_c forces T_c|K with its full multiplicity. Write
+
+    K=T_c H.                                       (6)
+
+On Jbar!=0 the polynomial H has degree exactly four and leading
+coefficient -Jbar. Full inverse support forces every root of H to be a
+root of T_c: the cubic intersects c only at the finite T_c roots and
+the shared infinity point, while (5) already accounts for exactly the
+single contact at infinity. All endpoints, including a root r=0 or
+r=delta, are retained by the polynomial formulation.
+
+If T_c has distinct roots alpha,beta, full inverse support therefore
+requires
+
+    K=-Jbar(r-alpha)^N(r-beta)^P,
+    N+P=6, N>=1, P>=1.
+
+If T_c=(r-alpha)^2, it requires
+
+    K=-Jbar(r-alpha)^6, H=-Jbar(r-alpha)^4.
+
+These are necessary contact profiles, not realizations or exclusions.
+
+For a fully explicit coefficient division, write K=sum(k_i r^i,i=0..6).
+The coefficients of H from r^4 through r^0 are
+
+    h4=k6,
+    h3=k5+m k6,
+    h2=k4+m k5+(m^2+n)k6,
+    h1=k3+m k4+(m^2+n)k5+(m^3+2mn)k6,
+    h0=k2+m k3+(m^2+n)k4+(m^3+2mn)k5
+                              +(m^4+3m^2 n+n^2)k6.
+
+The supporting checker verifies this division with the two exact
+remainder expressions; their vanishing on the actual class (2,1)
+divisor follows from the preceding coprime-factor proof.
+
+<a id="2026-10-13-session-nonendpoint-cubic-pair-coefficient-independent-subaudit"></a>
+
+## Exact coefficient reconstruction and the six pair contradictions
+
+### 2. Direct reconstruction from the actual residual polynomial
 
 To avoid the distinct uses of B and J in older notes, use
 
@@ -404,7 +392,13 @@ This coefficient must be retained for sufficiency; PAIR alone is only
 necessary. The exclusion below only needs that necessary equation to
 fail. We impose no inverse on the coefficient of x in the extra equation.
 
-## 3. The supplied root rows give the stated invariant equations
+The equivalent inverse-separation expression is zeta=1/delta with
+
+    zeta=x+9Pprod-3Cross=x-Sprod+1/3-P+3Pprod.
+
+Together with PAIR, the retained extra coefficient equation, the a,G formulas and delta!=0, these are complete matching conditions. The coefficient of x in the extra equation is never divided out.
+
+### 3. The supplied root rows give the stated invariant equations
 
 I reconstructed the `u,v` to `s,p,h` conversion directly, where
 `s=u+v`, `p=u*v`, `h=s-1`.
@@ -427,7 +421,7 @@ claim here that the rows exhaust homogeneous contact profiles. Exhaustion,
 endpoint treatment, ruling-factor removal and the geometric support
 bridge belong to the parent's independent audit.
 
-## 4. Complete six-pair contradictions, including diagonal pairs
+### 4. Complete six-pair contradictions, including diagonal pairs
 
 For each type the polynomial PAIR is symmetric in the two cubics. The
 three types therefore have exactly six unordered pairings. Direct
@@ -478,86 +472,12 @@ No part of this reasoning divides by `h1-h2`, `e1-e2`, or a
 cubic-factor difference. A repeated cubic is an explicit diagonal pair
 within the 15 / 15, 24 / 24 or 33 / 33 case and is excluded.
 
-## 5. New exact supporting execution and preserved failures
 
-The fresh independently written
-[checker](../computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2)
-has SHA-256
+<a id="2026-10-13-session-nonendpoint-homogeneous-gcd-rank-and-cover-independent-audit"></a>
 
-    a067b9847fc4150a302aa229e6a626ecf78480a66cebfd776da525e347477e7a
+## Full homogeneous gcd rank and parameter cover
 
-The final
-[execution record](../validation/2026-10-13-cubic-pair-coefficient-subaudit/attempt-03/execution-record.json)
-records exit zero, **38 supporting PASS conditions**, and empty stderr.
-The stdout digest is
-
-    b7ffd2871d4f666ae094d73579c5c29a4660938f6b6e8114a616e96e8e0832fb
-
-The terminal `FINAL PASS 38` summary is additional to, and not counted
-among, the 38 supporting conditions. The checks verify ten residual
-identities, three additional matching identities, six invariant
-transformations, six exact pairing expressions, six unit ideals, three
-explicit diagonal unit ideals, and four arithmetic contradiction values.
-The six unit ideals are in a rational polynomial ring with the original
-type field equations and Epair. Thus they independently confirm the
-written contradictions over every algebraically closed field extension
-of QQ. They are not finite-field samples or a generic-rank calculation.
-The explicit algebraic proof in Section 4 is the certificate independent
-of the ideal-equality interface; this source does not print literal
-Bézout multipliers for its unit ideals.
-
-There are three captured source versions in this new checker lineage:
-
-| Version | Outcome |
-| --- | --- |
-| attempt-01 | Setup failure assigning the protected M2 identifier `check`; zero supporting conditions. |
-| attempt-02 | All 29 initial conditions passed, exit zero and empty stderr. It has the full coefficient and six-pair checks but predates the extra equation and invariant-conversion checks. |
-| attempt-03 | All 38 final conditions passed, exit zero and empty stderr. |
-
-The first setup failure is retained with its exact source and raw
-streams. No mathematical assertion failed in this lineage. Before the
-second run, protected/common identifiers were replaced by task-specific
-names and residual coefficients were checked directly, avoiding the
-known multivariate coefficient-extraction interface pitfall. This note
-is one independent algebra subaudit, not three independent audits.
-
-## 6. Conditional conclusion and remaining obligations
-
-The coefficient-comparison and six-pair algebra in Sections 4–6 of the
-owner note are correct. Every pair drawn from the three supplied contact
-types fails the necessary actual PAIR condition, including doubled
-cubic factors. Subject to the parent's independent verification that
-all SUP cubic images lie among those types, this establishes the claimed
-cubic-pair exclusion for all mate degrees in this fixed characteristic-zero
-normalization family.
-
-This narrow subaudit does not assert closure of the integral residual,
-other quintic carriers, higher carriers, unrestricted C0, or the universal
-projective-curve STCI problem. All remain outside its scope.
-
-
----
-
-## 2026-10-13-session-nonendpoint-homogeneous-gcd-rank-and-cover-independent-audit
-
-# Nonendpoint conormal cubics: homogeneous gcd rank and complete degree-two cover
-
-Date: 2026-10-13. Independent agent audit.
-
-Status: **PROVED ALGEBRAIC CLASSIFICATION** of the actual homogeneous
-common-factor degree-two and degree-three loci. This is a classification
-of the corrected first-symbol cubics, not of admissible projection
-centers, embedded higher contacts, full conductor descent or STCI mates.
-The genus-one quintic A4 lane and the unrestricted problem remain open
-on their unexcluded strata. Canonical files, old notes and seals are not
-edited by this audit.
-
-The literal input is [the October 12 conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction),
-SHA-256 `3576392d41d4f64db506291f7cd0609a6930a80296eeedd7c9ccdfa92352c3f5`.
-The finite/infinite systems below were reconstructed from those literal
-cubics independently of the owner's coefficient inversion.
-
-## 1. Correct normalization and special zero cubics
+### 1. Correct normalization and special zero cubics
 
 Work over an algebraically closed field of characteristic zero, with
 `delta != 0`. Put `z=r/delta`. The correctly scaled polynomials are
@@ -597,7 +517,7 @@ scaling and consequently gave the wrong sign for the zero-P stratum.
 Those substitutions were explicitly discarded. The formulas here are
 checked directly against the literal original polynomials.
 
-## 2. Exact homogeneous Bezout and syzygy criteria
+### 2. Exact homogeneous Bezout and syzygy criteria
 
 Let
 
@@ -676,7 +596,7 @@ Consequently any nonzero column of a rank-one B recovers H projectively.
 For example `P=uv^2,J=v^3` retains the double common root at infinity:
 its Bezout matrix is diagonal with entries `(0,0,1)`.
 
-## 3. Finite monic quadratic common factor
+### 3. Finite monic quadratic common factor
 
 Let `H=z^2+v*z+w`, and write
 
@@ -748,7 +668,7 @@ When this holds there is one free cofactor coefficient. Again retain
 `A*D-B*C != 0` for exactly h=2. The requirement `delta!=0` also removes
 `rho=1/2`; no additional unstated root condition is introduced.
 
-## 4. Common quadratic containing infinity
+### 4. Common quadratic containing infinity
 
 A common factor with infinity once is `H=v*(u-rho*v)`. Then the
 affine cubics have leading coefficients zero, so
@@ -783,7 +703,7 @@ The finite monic cover, infinity-once cover, and impossible double
 infinity case exhaust all projective quadratic factors, including
 repeated factors. No actual projection admissibility is asserted.
 
-## 5. Complete proportional locus, including the zero cubics
+### 5. Complete proportional locus, including the zero cubics
 
 For `P!=0`, homogeneous gcd degree three is exactly `J=kappa*P` for
 a scalar kappa. Comparing the literal corrected coefficients gives
@@ -805,78 +725,9 @@ The separate zero-P stratum in section 1 supplies the missing
 projective-ratio chart. Thus no zero polynomial or proportional pair
 is silently removed from the full h>=2 classification.
 
-## 6. Exact supporting evidence and limits
 
-The [homogeneous-rank source](../computations/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2),
-SHA-256 `5bbecf46250b07936299b6db1851e4b0cd27bd16cbb605ae238536f655f73df9`,
-passes **twelve exact identities**: literal scaling, both zero strata,
-the proportional identity, the universal Bezout identity, the Plucker
-identity, common-quadratic column recovery, the linear cofactor syzygy,
-and the infinity example. Its
-[execution history](../validation/2026-10-13-nonendpoint-homogeneous-gcd-rank/execution-record.json)
-contains two failed attempts followed by the passing third attempt.
-Both failures occurred only at the final matrix equality: specialization
-retains the graded-map labels of the original Bezout matrix. Comparing
-its entries repairs the assertion without changing the mathematics.
-The intermediate diagnostic source and output are preserved separately.
+## Exact support and characteristic scope
 
-The [cover-audit source](../computations/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2),
-SHA-256 `440ef6585b0879d51eb0c9898e6052666d4866e2971476350959f31b3ed95f98`,
-passes **seven exact identities** for the determinant, exceptional
-augmented minor, repeated-factor rank and compatibility, and the
-infinity matrix and particular solution. Its
-[execution history](../validation/2026-10-13-nonendpoint-h2-cover-audit/execution-record.json)
-retains the first failed graded-matrix equality and the repaired passing
-entry comparison. These are two source lineages, not counts of
-independent geometric certificates for the same STCI assertion.
+The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_binary_contact.m2](../validation/2026-10-13-cubic-pair-full-independent-audit/verify_binary_contact.m2), [verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2](../computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2), [verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2](../computations/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2), [verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2](../computations/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2). No inherited computation was rerun for this consolidation.
 
-The homogeneous gcd/rank proof and exact linear-system compatibility
-arguments are written proofs. The checks support their displayed
-identities; they do not identify first-normal roots with full defect
-divisors, bound later contact lengths, or establish conductor-power
-descent. In particular the h=1 stratum is outside the degree-two cover,
-and the surviving h=2/h=3 parameters still require the actual residual
-support, admissibility, higher jets and conductor analysis.
-
-
----
-
-## 2026-10-13-session-cubic-pair-theorem-scope-qualification
-
-# Scope qualification for the nonendpoint cubic-pair exclusion
-
-Date: 2026-10-13. Author: `oct12_cubic_pair_support`.
-
-Status: **OWNER CORRECTION OF A STRONGER STATEMENT; ALL-MATE EXCLUSION
-UNCHANGED, INDEPENDENT AUDIT PENDING**. This is a separate qualification;
-the frozen owner proof and its binding package are preserved unchanged.
-
-The [frozen cubic-pair proof](NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md#1-nonendpoint-cubic-pair-contact-reduction),
-SHA-256 `7276aa227795695682684f4e1468a45d07c4513eb5a8465190966274d4464f2a`,
-has an overly strong formulation in section 7: it says that no admissible
-nonendpoint projection with residual partition 3+3 satisfies full inverse
-support SUP, without restricting `Jbar=d-2g+2b-a`.
-
-The exact proven statements are:
-
-1. On `Jbar!=0`, the full-contact/classification/pair argument proves that
-   SUP fails. This part includes distinct source cubic factors and a
-   doubled cubic, all target endpoints, and every contact profile.
-2. On `Jbar=0`, the equation `A=G+Jbar=-3delta^2` forces
-   `G=-3delta^2`, hence the entire-line rank-one conditions. The accepted
-   [pole/line audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit)
-   proves that no positive power of the actual candidate section can
-   descend as a mate. That is an all-mate obstruction; it does not itself
-   prove failure of SUP.
-
-Therefore the correct unconditional theorem is: **no admissible
-nonendpoint genus-one quintic A4 carrier with residual partition 3+3 can
-participate in a set-theoretic complete intersection of fixed C0 in any
-mate degree**. The unconditional SUP-exclusion claim in the frozen
-section 7 is withdrawn. No independent `Jbar=0` support contradiction is
-claimed here.
-
-The independent auditor identified this distinction, and the owner and
-root agreed with it before acceptance. The geometric all-mate theorem,
-all complete heptic calculations, the finite classification, and the
-six pair contradictions are unaffected. No frozen file was edited.
+These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).

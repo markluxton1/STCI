@@ -8,7 +8,7 @@ For primitive or quasiprimitive filtrations of C, study the successive ambient-s
 
 ## Established framework and location
 
-The definitions of target shortfall and maximal-rank defect, the conormal comparison divisor R, the dimensions of the first quartic source, and the finite second-jet evaluation on 2R are now summarized in [order-one structure](../results/order_one.md). The full original calculations remain in the [October 6 jet-discrepancy framework](../notes/2026-10-06-order-one-jet-discrepancy-framework.md) and [e=1 rebuild](../notes/2026-10-07-e1-jet-rebuild.md). The separate [quartic jet geometry](../results/jet_geometry.md) records the e=2 geometric interpretation.
+The definitions of target shortfall and maximal-rank defect, the conormal comparison divisor R, the dimensions of the first quartic source, and the finite second-jet evaluation on 2R are now summarized in [order-one structure](../results/order_one.md). The full original calculations remain in the [October 6 jet-discrepancy framework](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-order-one-jet-discrepancy-framework) and [e=1 rebuild](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild). The separate [quartic jet geometry](../results/jet_geometry.md) records the e=2 geometric interpretation.
 
 The accepted [quartic-carrier exclusion](../results/quartic_carrier_exclusion.md) supersedes every historical question asking whether a quartic carrier can have an STCI mate, including the e=0 and e=1 order-one cases. Those old cases are not the current existence frontier. Their intermediate rank calculations and exceptional strata remain useful as models, not as open quartic-mate obligations.
 

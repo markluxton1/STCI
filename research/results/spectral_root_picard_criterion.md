@@ -13,10 +13,10 @@ scope:
 statement: "A degree-s second quotient relation coprime in every fiber exists iff the direction line bundle O_Z(s) descends from the base along the full finite flat root scheme Z, including nilpotents."
 dependencies: []
 evidence:
-  - "research/notes/2026-10-14-generalization-spectral-root-curve-relations.md"
+  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
 independent_audits:
-  - "research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md"
-accepted_in: "research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md"
+  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
+accepted_in: "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -59,11 +59,11 @@ The spectral criterion covers singular and nonreduced root schemes; [STCI-R-0005
 
 ## Evidence
 
-- [Original spectral root-curve proof](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-spectral-root-curve-relations.md).
-- [Independent spectral audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-spectral-root-curve-independent-audit.md).
+- [Original spectral root-curve proof](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations).
+- [Independent spectral audit](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
 
-The proofs and audit remain preserved on the Ultra branch; no new proof or ambient existence claim is asserted.
+The current full proof and its independently reconstructed scope are linked above; no ambient existence claim is asserted.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-Historical `research/notes/` identifiers in the metadata are preserved for provenance. The permanent [subject synthesis](../synthesis/03-infinitesimal-geometry.md) provides navigation to the mathematical arguments and their detailed supplements. This addition does not change any theorem or audit claim.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

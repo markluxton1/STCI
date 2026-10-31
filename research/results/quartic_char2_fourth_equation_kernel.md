@@ -14,11 +14,11 @@ dependencies:
   - STCI-R-0021
   - STCI-R-0030
 evidence:
-  - "research/notes/2026-10-23-ideal-filtrations-independent-investigation.md"
-  - "research/validation/ideal-filtrations-2026-10-23/README.md"
+  - "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
+  - "research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py"
 independent_audits:
-  - "research/notes/2026-10-23-ideal-filtrations-independent-review.md"
-accepted_in: "research/notes/2026-10-23-ideal-filtrations-independent-review.md"
+  - "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
+accepted_in: "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -50,6 +50,6 @@ The order-four initial generator is intrinsic to the filtered equation module in
 ## Limitations
 No general theorem for arbitrary characteristic-two pairs or characteristic-zero lifts. Nonlinear overlap terms still matter for reconstructing the full embedded intersection.
 
-## Permanent evidence navigation
+## Current proof
 
-The `research/notes/` metadata above preserves historical provenance identifiers, not live paths on this branch. For the retained mathematical argument, hypotheses, and links into detailed supplements, follow [the consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md). The original source identifiers are retained for audit provenance; this navigation link does not change the theorem's scope or status.
+[IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

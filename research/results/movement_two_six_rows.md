@@ -17,11 +17,11 @@ dependencies:
   - STCI-R-0011
   - STCI-R-0013
 evidence:
-  - "research/notes/2026-10-19-global-ci-filtration-investigation.md"
+  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
 independent_audits:
-  - "research/notes/2026-10-19-numerical-first-root-independent-audit.md"
-  - "research/notes/2026-10-19-global-ci-filtration-independent-audit.md"
-accepted_in: "research/RECONCILIATION_2026-10-21.md"
+  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+accepted_in: "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -75,7 +75,7 @@ arbitrary STCI presentation to this class is known here.
 
 The audit verifies global degree and first-blowup inequalities and a complete signed-divisor/discriminant argument; the exact Python arithmetic verifier cross-checks the finite candidate list but is not used in place of an exhaustion proof.
 
-Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above. Scope acceptance for this promotion is documented in [the reconciliation decision](../RECONCILIATION_2026-10-21.md); that decision does not replace the source proof.
+Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above.
 
 ## Limitations
 
@@ -83,6 +83,6 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Picard descent, singular full roots, formal lifting, and actual homogeneous equations remain untested for the rows.
 - STCI-R-0011 ensures reduction of moving full roots only under its own Picard-descent interface.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata preserves original provenance identifiers rather than live branch paths. The [consolidated subject chapter](../synthesis/03-infinitesimal-geometry.md) provides a current entry point to the mathematical argument and its retained detailed supplements. This route does not alter the record's hypotheses, proof status, or historical audit identity.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

@@ -1,12 +1,12 @@
-# Foundational research frontier, literature, and incidence
+# Quadric powers, normal directions and incidence controls
 
 Consolidated research material, including open questions and source assessments; no automatic theorem promotion.
 
 ---
 
-## 2026-10-05-foundational-frontier-audit
+<a id="2026-10-05-foundational-frontier-audit"></a>
 
-# Independent foundational audit and strategic boundaries
+## Independent foundational audit and strategic boundaries
 
 Date: 2026-10-05. Scope: P-029, P-035, the uniform smooth-quadric power
 algebra, and the positive-characteristic constructions P-012/P-014/P-028.
@@ -15,7 +15,7 @@ problem. The dedicated positive-characteristic audit and fixed-carrier
 refinement are recorded separately in
 `2026-10-05-positive-quartic-carrier-optimality.md`.
 
-## Audit outcomes
+### Audit outcomes
 
 | Claim | Outcome | Essential boundary |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ refinement are recorded separately in
 | P-028, explicit quartic cone | Verified and sharpened | A new exact mate-degree minimum is available on this fixed carrier; it is a carrier-specific result. |
 | Broad ACM literature assertion | Source scope unresolved | The original source inspected proves the monomial ACM class. A broad modern survey statement does not reconstruct that broader original proof. |
 
-## 1. P-029: the complement morphism equivalence survives audit
+### 1. P-029: the complement morphism equivalence survives audit
 
 Let C be an integral projective curve, U=P3 minus C, and let
 f:U -> P1 be nonconstant. Since P3 and U are regular and the omitted subset
@@ -55,7 +55,7 @@ the existence of a map automatic: regular functions on U are only constants,
 and a nonconstant map to P1 has precisely the original homogeneous base-locus
 problem.
 
-## 2. P-035: the homogeneous primary/Gorenstein criterion survives audit
+### 2. P-035: the homogeneous primary/Gorenstein criterion survives audit
 
 Suppose F,G cut out C set-theoretically in projective space. Their common
 factor is impossible, so J=(F,G) is a homogeneous height-two complete
@@ -81,7 +81,7 @@ property. Merely producing a transverse Gorenstein algebra or a
 subcanonical multiple structure leaves the global cohomology condition
 unresolved.
 
-## 3. The smooth-quadric ordinary/symbolic power theorem survives audit
+### 3. The smooth-quadric ordinary/symbolic power theorem survives audit
 
 Let Q be a smooth quadric and C an integral Cartier divisor of type (a,b),
 1<=a<=b. Write I for the saturated homogeneous prime ideal. Smoothness of C
@@ -121,7 +121,7 @@ Indeed the checked C0 power quotients remain non-Cohen--Macaulay. Nor does
 finite generation of the symbolic Rees algebra invoke the dimension-three
 local Cowsik result in the dimension-four homogeneous coordinate ring.
 
-## 4. P-012/P-014: positive-characteristic hinge audit
+### 4. P-012/P-014: positive-characteristic hinge audit
 
 The dedicated worker audited P-012 and P-014 without changing their proofs;
 the parent then reread both complete arguments. No gap was found.
@@ -160,13 +160,9 @@ relation cuts the binary section space by codimension one; the degree-piece
 dimension verifies sufficiency, and it excludes exponents three and six
 while allowing nine. The minima are carrier-specific.
 
-The existing positive-quartic descent verifier passed freshly under
-`/private/tmp/stci-cas-venv/bin/python`. The standard system and bundled
-Python environments lack SymPy, so they cannot run this verifier. None of
-the arguments imports a degree bound uniform in characteristic, and no
-characteristic-zero specialization is implied.
+The positive-quartic descent verifier uses SymPy. None of the arguments imports a degree bound uniform in characteristic, and no characteristic-zero specialization is implied.
 
-## 5. Source audit: the broad ACM assertion should remain qualified
+### 5. Source audit: the broad ACM assertion should remain qualified
 
 The author's uploaded original Robbiano--Valla article
 *On set-theoretic complete intersections in the projective space* (1983),
@@ -196,7 +192,7 @@ notes returned an internal browsing error, so this audit does not claim a
 fresh full-text verification of those notes. The repository's previous
 dated verification remains separate evidence.
 
-## 6. Exact fixed-carrier improvement and continuation recommendation
+### 6. Exact fixed-carrier improvement and continuation recommendation
 
 For P-028's quartic cone, the dedicated audit derives the full allowable
 mate-degree set in characteristic p, with the resulting minimum:
@@ -239,17 +235,17 @@ uniform obstruction.
 
 ---
 
-## 2026-10-05-literature-new-routes
+<a id="2026-10-05-literature-new-routes"></a>
 
-# Literature refresh and a uniform quadric-curve power algebra
+## Literature refresh and a uniform quadric-curve power algebra
 
 Date: 2026-10-05. This note is independent of the shared ledgers. It records
 source scopes, a newly reconstructed uniform lemma, reproducible checks, and
 the limits of the resulting route. No unrestricted STCI conclusion is claimed.
 
-## 1. Literature status and genuinely stronger existing exclusions
+### 1. Literature status and genuinely stronger existing exclusions
 
-### General problem and the Macaulay quartic
+#### General problem and the Macaulay quartic
 
 The checked primary sources still retain the general connected/integral
 projective-space-curve problem and the characteristic-zero Macaulay quartic
@@ -264,7 +260,7 @@ coregularity criteria:
 A search on 2026-10-05 found no subsequent unrestricted resolution. This is
 a dated search conclusion, not a proof of absence of unindexed work.
 
-### Mandal--Zinna: version and affine scope checked again
+#### Mandal--Zinna: version and affine scope checked again
 
 <https://arxiv.org/abs/2511.07589> still lists only v1, submitted 2025-11-10,
 and no journal reference. Its abstract asserts a broad theorem for lci
@@ -277,7 +273,7 @@ ring-level variant assumes freeness of stably free rank-three modules.
 Neither theorem controls projective infinity, and the homogeneous coordinate
 ring has dimension four. No projective transfer is inferred.
 
-### Thoma's ONE-binomial-carrier theorem
+#### Thoma's ONE-binomial-carrier theorem
 
 A stronger classical exclusion than the ledger's two-binomial-equation
 warning is available. Apostolos Thoma, *Monomial Space Curves in P3_k as
@@ -301,7 +297,7 @@ not remain a two-generated complete intersection; extra initial generators
 and/or common factors of the two initial forms can appear. Properness of a
 Hilbert scheme does not make its complete-intersection locus proper.
 
-### The broad ACM assertion deserves source-level qualification
+#### The broad ACM assertion deserves source-level qualification
 
 Clare D'Cruz, arXiv:2003.09101v1, Theorem 2.7 literally states the broad ACM
 space-curve assertion used by the repository:
@@ -317,7 +313,7 @@ lane. The safe record is that a modern survey states it, while the original
 monomial source chain is narrower. None of the mathematics below uses the
 broad assertion.
 
-### A recent discrepancy invariant does not solve this support problem
+#### A recent discrepancy invariant does not solve this support problem
 
 Bengus-Lasnier--Rangachev, *The Complete Intersection Discrepancy of a Curve I:
 Numerical Invariants*, arXiv:2504.09362v1:
@@ -331,7 +327,7 @@ be imported as an obstruction to STCI support without a new nonreduced
 extension. The existing formulas are useful for residual curves, not an
 unconditional way around the thick-carrier frontier.
 
-## 2. Uniform theorem for integral curves on a smooth quadric
+### 2. Uniform theorem for integral curves on a smooth quadric
 
 **PROVED HERE; independent adversarial proof audit completed.** No novelty
 claim is made. The monomial special case is classical in Morales--Simis
@@ -350,7 +346,7 @@ Rees algebra. Smoothness of C is unnecessary: an integral divisor on the
 smooth surface Q is Cartier, and its embedding in P3 is locally a complete
 intersection away from the affine-cone vertex.
 
-### Proof with the lifting step made explicit
+#### Proof with the lifting step made explicit
 
 Write script-I for the ideal sheaf of C. For every m and d there is a sheaf
 exact sequence
@@ -395,7 +391,7 @@ I-primary, and localization at I gives the symbolic-power equality.
 The ruling-line case (a=0 or b=0) is separately a two-linear-form complete
 intersection and also has the equality. The proof above is for a,b>0.
 
-### Literature connection
+#### Literature connection
 
 Morales--Simis, *Symbolic powers of monomial curves in P3 lying on a quadric
 surface*, Communications in Algebra 20 (1992), 1109--1121,
@@ -409,9 +405,9 @@ The exact uniform scope of the 1992 proof was not read in full, so this note
 labels its general statement as proved by the displayed argument, with
 classical overlap explicitly acknowledged.
 
-## 3. Consequences usable at arbitrary normal order
+### 3. Consequences usable at arbitrary normal order
 
-### Exact carrier lower bound and recursive spanning
+#### Exact carrier lower bound and recursive spanning
 
 If F vanishes to normal order at least m along C and is not divisible by q,
 then deg F >= bm. At equality, F restricted to Q is a linear combination of
@@ -425,7 +421,7 @@ The theorem says nothing about termination of the infinitely-near common
 zero set of a pair. In particular, it does not repair a tangent-only blowup
 recurrence. Positive-characteristic pairs remain mandatory controls.
 
-### Exact Hilbert function
+#### Exact Hilbert function
 
 Surjectivity in (1) gives, with binomial and product terms interpreted as zero
 when their required degrees are negative,
@@ -444,7 +440,7 @@ The first non-q-divisible degree is 3m, and the corresponding quotient has
 dimension 2m+1. In particular m=2 gives the known 23-dimensional sextic
 space, with 18-dimensional q-divisible kernel and five-dimensional quotient.
 
-## 4. Exact computation and reproducibility
+### 4. Exact computation and reproducibility
 
 The companion M2 script `research/computations/verify_quadric_powers.m2` checks C0 powers
 m=1,...,6 over QQ and the formula (4) over a range of degrees. It also checks
@@ -462,7 +458,7 @@ projective STCI theorem: the local Cowsik dimension-three result changes its
 equation count in dimension four, and stronger CM-symbolic-power criteria
 need additional hypotheses that these powers fail.
 
-## 5. Research reassessment
+### 5. Research reassessment
 
 The new structural information removes one source of uncertainty from
 arbitrary-order normal calculations and can reduce high-order carrier spaces
@@ -476,9 +472,9 @@ reduced-discrepancy invariant to settle the problem.
 
 ---
 
-## 2026-10-06-localcoh-incidence
+<a id="2026-10-06-localcoh-incidence"></a>
 
-# Exact finite quartic incidence specification and recovered direction certificate
+## Exact finite quartic incidence specification and recovered direction certificate
 
 Date: 2026-10-06. Status: **EXACT COMPUTATION / FIXED-DIRECTION EXCLUSION**.
 The full quartic incidence remains unresolved here. A later same-day certificate
@@ -487,7 +483,7 @@ family; see `2026-10-06-localcoh-parity-dual.md`. This note concerns the
 characteristic-zero monomial quartic C0 and the targets u,v in the existing
 local-cohomology frontier. No universal STCI assertion follows.
 
-## 1. Reproduced coordinates
+### 1. Reproduced coordinates
 
 For S=QQ[x,y,z,w], put q=xw-yz, A=x²z-y³, B=xz²-y²w,
 C=yw²-z³ and I=(q,A,B,C). The existing finite-principal-part argument reduces
@@ -516,7 +512,7 @@ The last two columns are precisely the standard vectors e72,e73, using
 zero-based row indices. These coordinate conventions are checked by the
 Oct6 Python verifier.
 
-## 2. The complete finite incidence, including its open rank conditions
+### 2. The complete finite incidence, including its open rank conditions
 
 For a=(a0,...,a29), define the74×18 linear matrix
 
@@ -558,7 +554,7 @@ so this specification is naturally projective in the ancestor. Every
 solution is ambient-coprime by the separately established low-degree
 ancestor exclusion; coprimality is not assumed in the matrix encoding.
 
-## 3. Recovered polynomial dual for a surviving pure-top direction
+### 3. Recovered polynomial dual for a surviving pure-top direction
 
 Use the balanced normal frame and divided-power top-symbol coordinates
 c_i[t^j] with i=0,...,3 and j=0,...,7. The checked top map M has shape32×30,
@@ -616,7 +612,7 @@ The original discovery used two small one-target Groebner computations,
 which returned the unit ideal. The saved dual is a directly checkable
 certificate of that result.
 
-## 4. Audit boundary and unfinished attempts
+### 4. Audit boundary and unfinished attempts
 
 The saved scripts `localcoh-symbol-paritycheck.m2` and
 `localcoh-symbol-seedcheck.m2` used `basis(4,I)` and then multiplied its first

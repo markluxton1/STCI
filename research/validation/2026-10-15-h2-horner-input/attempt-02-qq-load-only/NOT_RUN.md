@@ -1,1 +1,0 @@
-This directory was reserved by the first runner invocation. No Macaulay2 process was started: attempt-01-exact-export failed while parsing the trailing newline of its first input. The repaired successful QQ load-only run is attempt-04-qq-load-only.

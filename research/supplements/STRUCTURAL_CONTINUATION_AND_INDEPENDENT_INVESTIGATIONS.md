@@ -1,12 +1,12 @@
-# structural continuation and independent investigations
+# Actual source incidence and monic differential reductions
 
 Complete mathematical dossier preserving the actual investigations, calculations, exact conditions, negative results, and unresolved boundaries. Administrative commentary is retained pending editorial consolidation, not treated as proof authority.
 
 ---
 
-## 2026-10-19-independent-investigation-report
+<a id="2026-10-19-independent-investigation-report"></a>
 
-# Independent investigation: saturated normal cones, moving roots, and exceptional cycles
+## Independent investigation: saturated normal cones, moving roots, and exceptional cycles
 
 Date: 2026-10-19. Starting branch: `main`.
 Research branch: `codex/normal-cone-rigidity-2026-10-19`.
@@ -15,9 +15,9 @@ Research branch: `codex/normal-cone-rigidity-2026-10-19`.
 canonical promotions. The unrestricted characteristic-zero STCI problem
 for `C0=[s^4:s^3t:st^3:t^4]` remains open.
 
-## A. Main findings
+### A. Main findings
 
-### A1. A global normal-flatness theorem for actual lci thickenings
+#### A1. A global normal-flatness theorem for actual lci thickenings
 
 Let `C` be a smooth connected projective curve in a smooth threefold,
 `Y` an actual lci thickening with `Y_red=C`, `J=I_C O_Y`, and
@@ -63,7 +63,7 @@ graded map an isomorphism. Degree-one generation finally gives
 `P_i=J^i` for all `i`. This removes the possible later ordinary-layer
 torsion rather than assuming it away.
 
-Source: [general theorem and proof, Section 8](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-saturated-first-relation-spectral-bridge).
+Source: [general theorem and proof, Section 8](SATURATED_DUALITY_AND_MOVING_POWERS.md#projective-normal-flatness-by-duality-and-resultants).
 The same note proves the balanced full-root spectral bridge and retains
 the nonsplit second-generator extension.
 Independent reconstruction: [filtered bridge audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit).
@@ -81,7 +81,7 @@ rank. Its [source](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generi
 record the additional classical dependency. It supplies independent
 support for A1 rather than a finite check of the resultant proof.
 
-### A2. Moving nonreduced full roots are excluded in that actual class
+#### A2. Moving nonreduced full roots are excluded in that actual class
 
 Over characteristic zero, let `Z subset P1_base x P1_direction` be a
 finite-flat Cartier root divisor of class `(epsilon,r)`, `epsilon>0`.
@@ -121,7 +121,7 @@ Independent reconstruction: [spectral audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.m
 A shorter general-base argument for moving pure powers is preserved
 in [the pure-power note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
 
-### A3. Exact exceptional-cycle balance and new support restrictions
+#### A3. Exact exceptional-cycle balance and new support restrictions
 
 In the broader proper-intersection setting for `C0`, write
 
@@ -162,10 +162,10 @@ If no residual component lies on the unique quadric, its coefficient
 improves from five to one. These are necessary inequalities, not a
 residual-existence theorem.
 
-Source: [cycle balance, slope refinement, and examples](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-exceptional-cycle-balance-and-vertical-counterexamples).
-Independent reconstruction: [cycle audit, including slope addendum](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-exceptional-cycle-and-vertical-family-independent-audit).
+Source: [cycle balance, slope refinement, and examples](../synthesis/blowup_residual_geometry.md).
+Independent reconstruction: [cycle audit, including slope addendum](../synthesis/blowup_residual_geometry.md).
 
-### A4. Counterexamples and actual higher-degree carriers
+#### A4. Counterexamples and actual higher-degree carriers
 
 The local family
 
@@ -190,10 +190,10 @@ computed exactly; at parameter `gamma=1` it is the diagonal plus
 exactly five isolated points. These families do not exhaust the
 degree-eight projection model.
 
-Source: [actual degree-eight families](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-quadric-antidiagonal-fourfold-line-proposal).
-Independent reconstruction: [carrier audit](PROJECTION_SINGLETON_AND_ANTIDIAGONAL.md#2026-10-19-quadric-antidiagonal-fourfold-line-independent-audit).
+Source: [actual degree-eight families](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
+Independent reconstruction: [carrier audit](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
 
-## B. Dependencies, authority, and precise frontier change
+### B. Dependencies, authority, and precise frontier change
 
 The investigation used the promoted records
 [STCI-R-0001](../results/quartic_carrier_exclusion.md),
@@ -204,7 +204,7 @@ within their stated scopes. The fixed normal bundle is the
 characteristic-zero `N_C0=O(7)^2`. No quartic proof was rerun.
 
 For the numerical `d/p,e/q>=3` input, the exact inherited proof is
-the [entirely-thick independent audit](OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit).
+the [entirely-thick independent audit](../synthesis/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction).
 The legacy [entirely-thick topic](../results/entirely_thick.md) is
 navigation, not an ID-bearing promoted theorem. This metadata authority
 gap is recorded explicitly; no stronger universal claim is inferred.
@@ -228,7 +228,7 @@ It is also a reviewed but unpromoted proposal. The projective theorem
 has the self-contained resultant/duality proof and does not depend on
 this additional classical bound or on the local route's broader scope.
 
-## C. Most promising connection
+### C. Most promising connection
 
 Gorenstein duality controls a finite-support defect that previously
 separated generic formal algebra from the full spectral curve. The
@@ -242,7 +242,7 @@ and vertical-cycle information. Its counterexamples show why the
 uniformity proof must use the full algebra and projectivity, rather
 than interpreting vertical degeneration as a residual component.
 
-## D. Remaining obstacles
+### D. Remaining obstacles
 
 1. **Nonsaturated first relation.** Determine the torsion and its
    duality constraints when the first actual kernel is not a
@@ -268,7 +268,7 @@ than interpreting vertical degeneration as a residual component.
 
 No shared singular point of arbitrary defining surfaces is assumed.
 
-## E. Recommended continuation and evidence checks
+### E. Recommended continuation and evidence checks
 
 First study the torsion of the earliest nonsaturated relation and how
 its length changes the degree-zero resultant calculation. A useful
@@ -285,15 +285,7 @@ class. The chosen-symbol slope theorem gives a separate way to select
 surviving normalized-degree regions without conflating the two root
 objects.
 
-All principal results have full proof text and separate review evidence;
-there is no uncompleted elimination computation underlying the reported
-claims. Closing verification checked all 13 new notes and 70 local
-Markdown links, with all targets present.
-`python3 research/computations/validate_records.py` checked 10 canonical
-records with zero errors. `git diff --cached --check` passed after a
-whitespace-only correction to one audit. These are repository integrity
-checks; mathematical validity rests on the proofs and independent
-reconstructions, including a separate adversarial review of A1.
+All principal results have full proof text and separate review evidence; there is no uncompleted elimination computation underlying the reported claims. Mathematical validity rests on those proofs and independent reconstructions, including the separate adversarial review of A1.
 
 The package is committed on
 [the research branch](https://github.com/markluxton1/STCI/tree/codex/normal-cone-rigidity-2026-10-19).
@@ -301,17 +293,14 @@ The exact closing commit is identified in the investigation message.
 Standard external inputs, with direct primary links, are identified in
 the respective source and audit notes.
 
-
 ---
 
-## 2026-10-16-session-structural-continuation
+<a id="2026-10-16-session-structural-continuation"></a>
 
-# October 16 structural continuation and successor entry
+## October 16 structural continuation and successor entry
 
 The universal integral-curve STCI question and unrestricted characteristic-zero
-`C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. This record supplements
-[the current audited frontier](../AUDITED_STATE_2026-10-14.md) and
-[the successor handoff](../SUCCESSOR_HANDOFF_2026-10-14.md). The October 13
+`C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. The October 13
 all-branch reconstruction remains an accepted premise; no branch-source
 or accepted mathematical verifier was replayed in this continuation.
 
@@ -320,7 +309,7 @@ The current externally observed checkpoint is
 `2026-10-15 afternoon limit reached`. The primary agent did not create
 that commit. This continuation has further working-tree changes.
 
-## 1. The strongest structural generalization
+### 1. The strongest structural generalization
 
 The new [intrinsic finite-root-family theorem](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family)
 and [independent new-scope audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family-independent-audit)
@@ -364,7 +353,7 @@ for e>=3; for r=1,e>=4, their all-orders lifts are exactly containing
 quadric germs smooth along C. The broader inequalities, rather than
 separate carrier degrees, are the continuing geometric mechanism.
 
-## 2. Characteristic and actual-CI bridge
+### 2. Characteristic and actual-CI bridge
 
 The [formal characteristic addendum](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 accepts the balanced-rational formal theorem and finite tower in every
@@ -382,7 +371,7 @@ within the literal saturated-line, joint-leading-generation, full
 generic-initial-CI and smooth-full-root hypotheses. No assertion about
 literal C0 splitting in bad characteristics is inserted.
 
-## 3. Arithmetic reduction of all mate powers
+### 3. Arithmetic reduction of all mate powers
 
 The [effective rational phase theorem](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound)
 and [arithmetic review](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound-independent-review)
@@ -400,7 +389,7 @@ branch choices. A stronger corollary starts from finite rational
 section/module data for these three fixed models and constructs the
 actual phase image by a terminating algebraic procedure; the written
 review contains its scope addendum. A fresh
-[October 16 raw-input scope audit](OCT15_20_PROJECTION_ROOT_AND_SURFACE_FRONTIERS.md#source-2026-10-16-generalization-raw-projection-decision-independent-auditmd)
+[October 16 raw-input scope audit](EFFECTIVE_PROJECTION_PHASE_DECISION.md#reviewed-claim-and-input)
 now passes the final admissibility and generic-freeness formulation.
 The precise finite rational input is one of the three fixed source
 rings with H,c,Q, four polynomial parameter sections with their prescribed
@@ -413,7 +402,7 @@ No actual phase image, Mann partition list, or family decision has been
 computed. Neither practical complexity nor a numerical C0 bound follows
 from the existence of the algorithm.
 
-## 4. The dedicated quintic target
+### 4. The dedicated quintic target
 
 Accepted shared reductions now include the global remaining-mate
 Delta1 unit, exact q6-to-j scalar binding, eleven-generator reduction,
@@ -443,46 +432,15 @@ normalizations and retained h1 singular/intrinsic/common-root scope
 remain separate obligations. A whole-h2 unit-ideal certificate would
 not by itself prove a whole-quintic theorem.
 
-## 5. Computation and continuation state
+### 5. Computation and continuation state
 
-- The [global quadratic-root second model](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
-  and [complete model audit](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit)
-  replace the full rank-sixteen second obstruction by twenty-five
-  complete scalar pairings, without coefficient charts or thirty-nine
-  new quartic unit variables. The homogeneous branch discriminant
-  retains infinity. Its input is complete, not an emptiness result.
-- Its one M2 launch failed in supervisor RSS monitoring. The child CPU
-  limit was set; wall/RSS supervision did not complete. PID32960 was
-  subsequently confirmed absent, its original exit code was not
-  recovered, and no GB completion marker exists. Do not infer N<=5.
-- Quintic ODE attempt07 and spectral attempt08 both reached the GB/
-  domain-saturation stage and ended at their 45-second limits, with
-  exit -15, their PIDs reaped, and no ideal result. They are not live.
-- Global monic h2 input completion is preserved separately from failed
-  assembly/printing interfaces. Its fresh load-only attempt05 exited
-  zero with empty stderr, PID38681 reaped. This was no saturation run.
-- The new [whole-h2 global QQ attempt06](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/execution-record.json)
-  reached saturation and stopped at its polled 1536-MiB RSS threshold,
-  after 58.564 seconds and 118.528 process CPU seconds. Actual exit -15,
-  PID39519 reaped, private group absent. It supplied neither a completed
-  ideal nor a unit certificate. The memory guard's own-child preflight
-  and frozen source review passed before launch; no `/bin/ps` monitor
-  was used. This is separate from the earlier failed inverse-chart
-  attempt06 and from the quadratic-root supervisor failure.
-- All twenty-two finite family-two exception-root closures and the
-  accepted large quintic witnesses remain premises; none was replayed.
-
-The [proof-record index](../validation/2026-10-15-structural-acceptance/index.json)
-separates accepted scopes, pending scopes and terminal computations.
-Hashes and link checks are document-integrity evidence, not proof.
-The full research goal remains active.
-
+The complete global quadratic-root second model uses twenty-five scalar pairings and retains the homogeneous branch discriminant, including infinity. Its completeness is not an emptiness result. The bounded quintic ODE, spectral and global QQ saturation attempts did not complete an ideal computation or unit certificate. The twenty-two finite family-two exception-root closures and accepted large quintic witnesses remain separate premises.
 
 ---
 
-## 2026-10-16-generalization-quintic-h2-global-QQ-prospect-terminal-record
+<a id="2026-10-16-generalization-quintic-h2-global-qq-prospect-terminal-record"></a>
 
-# Terminal record: one whole-h2 global QQ saturation prospect
+## Terminal record: one whole-h2 global QQ saturation prospect
 
 The one authorized global prospect ended without a mathematical result.
 It loaded the accepted seventeen-equation, nine-variable input over
@@ -491,59 +449,7 @@ when the M2 process exceeded the sampled memory threshold. This is
 bounded computation evidence; it does not prove that the incidence is
 empty or nonempty. There is no unit-ideal output or certificate.
 
-The authoritative data are the
-[execution record](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/execution-record.json),
-[fresh preflight record](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/preflight-record.json),
-[last sampled metrics](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/live-metrics.json),
-and [last stage](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/stage.txt).
-
-## Actual execution and cleanup
-
-| Field | Recorded value |
-| --- | --- |
-| M2 PID and private process group | `39519` |
-| Supervising tool session | `82234`, subsequently closed |
-| M2 start UTC | `2026-10-16T11:35:33.981234+00:00` |
-| M2 terminal UTC | `2026-10-16T11:36:32.545921+00:00` |
-| Wall time | `58.564014667` seconds |
-| CPU time | `118.528412` seconds |
-| Actual M2 exit | `-15` (SIGTERM) |
-| Stop reason | `polled-memory-stop-threshold` |
-| Peak resident bytes | `1611595776` |
-| Peak physical-footprint bytes | `1597376144` |
-| Memory stop threshold | `1610612736` bytes (1536 MiB) |
-| Last stage | `before-global-QQ-saturation-by-delta-E-Delta1-only` |
-| Cleanup | `SIGTERM-private-group`, then `private-group-absent` |
-| Caught or cleanup exception | Both `null` |
-
-The private process group was terminated and the M2 child reaped. The
-owner subsequently resumed tool session `82234`; the supervisor returned
-exit zero and the terminal text
-`TERMINAL interrupted polled-memory-stop-threshold exit -15`.
-The supervisor exit zero records successful handling of the bounded
-interruption. It is not an M2 success code. There is no live execution
-handle from this prospect and no restart was made.
-
-The configured wall threshold was 120 seconds, with cleanup grace; the
-OS CPU soft and hard limits were both 120 seconds. The memory guard
-sampled `max(resident,physical-footprint)` for the M2 PID every 0.25
-seconds. It is a polled stop threshold, not a hard aggregate or virtual
-memory bound. A fresh own-child preflight passed before the M2 process
-was launched, including inherited CPU-limit verification, memory
-monitoring, and private-group termination/reaping.
-
-## Exact source, input and output binding
-
-The
-[frozen M2 driver](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/source.m2)
-has SHA256
-`c6d6fceaeb16182a226373dfc19efe3d8816d0cc4797e7186f26bd038051735b`.
-The
-[frozen runner](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/runner.py)
-has SHA256
-`e47317ab64eeb5968aba839880955a54ba55396ae7358dcb0b5f8718a2f6be04`.
-These are the independently reviewed hashes in the
-[prelaunch source record](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/prelaunch-source-review.json).
+### Exact source, input and output binding
 
 The loader hash was checked against the accepted load-only execution
 record. The exact seventeen-generator data have SHA256
@@ -569,15 +475,7 @@ The precise geometric scope is the accepted
 and its
 [independent audit](#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
 
-The 193-byte
-[stdout](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/stdout.txt)
-contains only the loader's confirmation of the exact saved input. Its
-line `No GB/saturation executed` describes the load-only library stage;
-the driver's later stage marker records entry into the new saturation.
-The
-[stderr](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-06-global-QQ-saturation/stderr.txt)
-is empty. Neither `saturated-ideal.txt` nor `is-unit.txt` exists, and no
-`saturation-complete` marker was reached.
+No `saturated-ideal.txt`, `is-unit.txt` or saturation-completion marker was produced. Entering the saturation stage is not a completed computation or a unit certificate.
 
 The generic earlier bounded driver was not used for this prospect. Its
 exact checkpoint bytes are retained as
@@ -592,12 +490,11 @@ The global h2 incidence remains an accepted necessary target whose
 emptiness has not been decided. No additional CAS run is part of this
 record.
 
-
 ---
 
-## 2026-10-16-generalization-quintic-h2-global-monic-ODE-independent-audit
+<a id="2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit"></a>
 
-# Independent audit: one global monic h2 ODE incidence
+## Independent audit: one global monic h2 ODE incidence
 
 Date: 2026-10-16.
 
@@ -617,7 +514,7 @@ This audit uses written coefficient calculations and read-only
 source/artifact/hash inspection. No CAS was run during completion
 of this audit, and no model assembly or elimination was repeated.
 
-## 1. Monic coverage and exact homogeneous gcd degree
+### 1. Monic coverage and exact homogeneous gcd degree
 
 For any remaining actual h2 mate candidate, a common factor at source
 infinity would force G=j=0 by the accepted leading-coefficient
@@ -662,7 +559,7 @@ includes affine degree drops of either cubic. A zero cubic or a
 proportional cofactor pair instead has E=0 and is correctly outside
 the exact-h2 domain.
 
-## 2. Fixed-degree octic reversal and monic division
+### 2. Fixed-degree octic reversal and monic division
 
 For the accepted actual Fdet(p,1)=sum_(i=0)^8 f_i*p^i, reciprocal
 source coordinates give Fsrc(1,x)=sum f_i*x^(8-i). Put q7=q8=0
@@ -691,7 +588,7 @@ eight reversal and degree six quotient retain all coefficient drops
 and the source point at infinity. In particular q6=f0 and
 q5=f1-v*q6 have the intended A4 interpretation.
 
-## 3. The new global domain does not invert Delta or K
+### 3. The new global domain does not invert Delta or K
 
 The domain is exactly
 
@@ -724,7 +621,7 @@ apply unchanged to this original-parameter ring before any rational
 inverse of the four cover equations. Their earlier actual use on a
 smaller inverse-map chart does not limit this algebraic transfer.
 
-## 4. The seventeen-equation system and its precise meaning
+### 4. The seventeen-equation system and its precise meaning
 
 Using eta=dv-2u, the eight ODE coefficients are exactly
 
@@ -755,19 +652,9 @@ avoidance or all original fiber conditions, and it does not establish
 full inverse support or nonlinear conductor descent. An algebraic
 survivor is therefore not automatically a projection or a mate.
 
-## 5. Source, failure lineage and completed-output bindings
+### 5. Source, failure lineage and completed-output bindings
 
-I read the current and frozen
-[assembly source](../computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2),
-the attempt-02 record and streams, the
-[completion source](../computations/generalization_quintic_h2_global_monic_ode_completion_2026_10_15.py),
-and the
-[attempt-04 completion record](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-04-completion/execution-record.json).
-The assembly source uses the literal accepted octic, the reversed
-coefficients and recurrence above, the four cover equations, (2),
-the eight ODE equations, the three accelerators and precisely (4).
-It writes all groups and seven q_i, asserts (2) and (3), then writes
-the degree list before the final informational print.
+The [assembly source](../computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2) and [completion source](../computations/generalization_quintic_h2_global_monic_ode_completion_2026_10_15.py) use the literal accepted octic, reversed coefficients, recurrence, four cover equations, eight ODE equations and three accelerators. The assembly writes all groups and seven q_i and asserts (2) and (3); the completion retains precisely (4).
 
 The attempt-02 process exits one: its error is at that final
 equation-count print, after stdout records the quotient/remainder
@@ -804,14 +691,7 @@ Groebner basis or saturation operation. The domain polynomial is
 loaded as data for a future localization; the load-only script does
 not itself localize or prove the domain nonempty.
 
-I also read the
-[attempt-05 load-only record](../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-05-load-only/execution-record.json),
-its input-binding metadata and streams. The record has exit zero
-and empty stderr. A read-only check confirmed the current and frozen
-input-source hashes, both current completed-data hashes, and both
-output-stream hashes against that record. This successful load is
-distinct from attempt-02's failed final print and attempt-04's
-successful non-CAS completion. No CAS was invoked by this audit.
+Loading the completed input checks its ring and equation presentation. It is distinct from assembling the coefficients and supplies no saturation or elimination result.
 
 The one global future target is therefore the saved seventeen-equation
 incidence localized at (4). No Gröbner basis, saturation, resultant

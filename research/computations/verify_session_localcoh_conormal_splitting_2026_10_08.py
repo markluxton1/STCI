@@ -14,7 +14,7 @@ import json
 
 HERE = Path(__file__).resolve().parent
 RECORD = HERE/'session_localcoh_conormal_hankel_2026_10_07.json'
-NOTE = HERE.parent/'notes/2026-10-07-session-localcoh-conormal-splitting.md'
+NOTE = HERE.parent/'supplements/LOCAL_COHOMOLOGY_CONORMAL_GEOMETRY.md'
 
 
 def add(a, b):

@@ -13,12 +13,11 @@ scope:
 statement: "All ordinary J-adic layers J^i/J^(i+1) are locally free on C and every graded fiber is a binary complete intersection of degrees (r,s)."
 dependencies: []
 evidence:
-  - "research/notes/2026-10-19-saturated-first-relation-spectral-bridge.md"
-  - "research/notes/2026-10-19-filtered-saturated-duality-moving-purepower-bridge.md"
+  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
 independent_audits:
-  - "research/notes/2026-10-19-normal-flatness-adversarial-audit.md"
-  - "research/notes/2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit.md"
-accepted_in: "research/notes/2026-10-19-normal-flatness-adversarial-audit.md"
+  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+accepted_in: "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -42,6 +41,6 @@ This strengthens the actual-CI bridge beyond smooth roots and balanced conormal 
 
 For the fixed rational quartic C0, when E=O(-7)^2 and the first root is moving, the uniform graded second quotient relation satisfies the hypotheses of STCI-R-0011. Therefore the **full** moving first root is reduced. This is conditional on the hypotheses above and does not constrain arbitrary STCI presentations.
 
-## Permanent evidence navigation
+## Current proof navigation
 
-The `research/notes/` metadata values preserve original source identities. The migrated mathematical argument, its conditional hypotheses, and an independent audit are accessible in [normal flatness and filtered complete intersections](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md). Consult that supplement and [Chapter 3](../synthesis/03-infinitesimal-geometry.md) rather than treating the retired paths as live files.
+The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

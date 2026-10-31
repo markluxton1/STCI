@@ -37,7 +37,7 @@ For multiple inverse branches, non-Cartier inverse curves, or singular normaliza
 
 ## Power descent and the split-conductor boundary
 
-The full-conductor condition can be decomposed locally in characteristic zero: a nilpotent logarithmic defect must vanish **before** taking powers, whereas the reduced etale phase may become trivial after a power. This explains why reduced double-locus matching is insufficient. In a single residual-field extension, a conditional compression argument can bound the necessary power by the residual degree; in a split conductor algebra, phases such as \((1,\zeta)\) have arbitrarily large least order as \(\zeta\) varies. See [the finite-Artinian and single-field treatments](normalization_conductor_projection.md#exact-finite-artinian-phase-descent-and-effective-rational-bound).
+The full-conductor condition can be decomposed locally in characteristic zero: a nilpotent logarithmic defect must vanish **before** taking powers, whereas the reduced etale phase may become trivial after a power. This explains why reduced double-locus matching is insufficient. In a single residual-field extension, a conditional compression argument can bound the necessary power by the residual degree; in a split conductor algebra, phases such as \((1,\zeta)\) have arbitrarily large least order as \(\zeta\) varies. See [the finite-Artinian and single-field treatments](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md).
 
 This distinction matters to the fixed-carrier criterion R-0003: a positive divisor-class relation does not bound the mate degree without control of the **actual** conductor phases. A finite-type torsion-coset reduction is available under its stated projection-family assumptions, but it does not identify the admissible cosets for the fixed quartic. These are conductor obstructions, not consequences of the local socle identity R-0036.
 
@@ -48,4 +48,4 @@ This distinction matters to the fixed-carrier criterion R-0003: a positive divis
 - Investigate higher actual Cartier indices outside R-0035, especially six and twelve.
 - Compare with [normal-filtration defects](normal_filtration_boundary_obstructions.md) only through a common actual supported pair; do not identify conductor and initial-equation defects by analogy.
 
-This chapter supplements, rather than replaces, the existing carrier chapter. No proofs, audits or historical source files are changed.
+The [full conductor algebra](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md) and [fixed-carrier lattice proof](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md) own the descent statements. This interface records only their application to an actual socle and its precise missing generalization.

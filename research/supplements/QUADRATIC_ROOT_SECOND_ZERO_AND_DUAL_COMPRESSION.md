@@ -4,9 +4,9 @@ Permanent mathematical dossier preserving complete arguments, assumptions, chara
 
 ---
 
-## 2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry
+<a id="2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry"></a>
 
-# Torsion divisors and the second zero locus on quadratic root compatibility
+## Torsion divisors and the second zero locus on quadratic root compatibility
 
 Date: 2026-10-15. Author: `geometric_locus`.
 
@@ -18,7 +18,7 @@ Picard-theoretic description of the torsion loci and a dimension bound
 on one specified torsion branch of the second zero locus. No additional
 seed or coefficient profile is computed.
 
-## 1. Setup and scope
+### 1. Setup and scope
 
 Let `U_sm` be the open subset of `P8` parametrizing smooth divisors
 
@@ -50,7 +50,7 @@ of dimension at most three. The question here is what torsion adds.
 Any application to the first-principal-ideal CI lane keeps the accepted
 restriction `s>4` and the hypotheses of the actual-CI-to-root-curve bridge.
 
-## 2. The ruling involutions encode the Picard torsion exactly
+### 2. The ruling involutions encode the Picard torsion exactly
 
 Let `i_A` and `i_B` be the deck involutions of the two degree-two
 projections of the elliptic curve `Z`. Choose an origin temporarily and
@@ -105,7 +105,7 @@ compatibility component, a fixed torsion divisor either contains the
 component or cuts a divisor (possibly empty). Further dimension drops
 need further evidence.
 
-## 3. Exact order two is a coefficient determinant
+### 3. Exact order two is a coefficient determinant
 
 Write
 
@@ -156,7 +156,7 @@ smooth root open. It is smooth there because all of its matrices have
 rank exactly two. This provides a concrete equation for the relevant
 Picard divisor, independently of any second-obstruction computation.
 
-## 4. The first compatibility component meets this divisor transversely
+### 4. The first compatibility component meets this divisor transversely
 
 At the accepted seed,
 
@@ -195,7 +195,7 @@ neighborhood of `[f0]`. Let `D` denote the reduced irreducible component
 of `C intersect T[2]` through that point; this component is unique at
 the seed and has dimension three.
 
-## 5. A proved bound on the torsion-two part of the second zero locus
+### 5. A proved bound on the torsion-two part of the second zero locus
 
 The accepted scalar pairing for the canonical second section gives
 `sigma2(f0)!=0`. Therefore `sigma2|D` is not identically zero. Its zero
@@ -234,14 +234,12 @@ to projective equations.
 
 Independent review is recorded in
 [the structural torsion audit](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit).
-No commit or memory update was made.
-
 
 ---
 
-## 2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit
+<a id="2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit"></a>
 
-# Independent review of torsion geometry on the second zero locus
+## Independent review of torsion geometry on the second zero locus
 
 Date: 2026-10-15. Reviewer: `universal_root_obstruction`.
 Status: **PASS for the stated structural Picard, determinant, and
@@ -253,7 +251,7 @@ new seed was evaluated.
 Reviewed proof:
 [torsion divisors and the second zero locus](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry).
 
-## 1. Intrinsic torsion and its ambient divisors
+### 1. Intrinsic torsion and its ambient divisors
 
 For a smooth `(2,2)` curve, both ruling systems have degree two. With an
 origin on its elliptic normalization, the deck involution of a divisor
@@ -282,7 +280,7 @@ are open and closed within the fixed `n`-torsion condition, explaining
 the stated equality of local germs at the order-two seed for each fixed
 even `n`.
 
-## 2. The cubic determinant is exactly the order-two locus
+### 2. The cubic determinant is exactly the order-two locus
 
 The equivalence `eta^2=1 <=> det M=0` is correct on the smooth root open.
 If `eta^2=1`, the first ruling deck involution preserves the second
@@ -310,7 +308,7 @@ All determinant-zero matrices on this open have rank exactly two.
 The determinant hypersurface is smooth at every rank-two matrix, so
 the proposal's global smooth-divisor statement on this open is justified.
 
-## 3. The dimension drop is proved on the named component
+### 3. The dimension drop is proved on the named component
 
 At the accepted seed, the determinant differential is `12 delta b1`.
 The variation `delta b1=1, delta c0=4` is killed by the accepted first
@@ -336,14 +334,11 @@ and twelve. It does not bound the entire torsion union, prove emptiness
 of the second zero locus, or supply an actual CI. The proposal preserves
 all those boundaries, as well as `s>4` in its stated CI application.
 
-No commit or memory update was made.
-
-
 ---
 
-## 2026-10-15-generalization-quadratic-root-global-second-dual-compression
+<a id="2026-10-15-generalization-quadratic-root-global-second-dual-compression"></a>
 
-# A chart-free complete 25-pairing test for the universal second obstruction
+## A chart-free complete 25-pairing test for the universal second obstruction
 
 Date: 2026-10-15. Author: `universal_root_obstruction`.
 Status: **NEW GLOBAL REDUCTION; independent review passed.** Accepted
@@ -353,7 +348,7 @@ compresses the entire second obstruction into one polynomial family with
 no coefficient chart, then exports a single bounded-elimination input.
 It does not yet assert that the second zero scheme is empty.
 
-## 1. The global dual presentation removes 39 unit variables
+### 1. The global dual presentation removes 39 unit variables
 
 Let `f=a(z)u²+b(z)uv+c(z)v²` have base degree two. Throughout this
 section assume only that its three homogeneous base coefficients have
@@ -441,7 +436,7 @@ coefficient degree four of the scalar pairings. On the affine coefficient
 cone the representatives are exactly (4); the cubic coefficient degree
 of the Plucker vectors is a twist, not a denominator.
 
-## 2. A single actual-chart model supplies R4 universally
+### 2. A single actual-chart model supplies R4 universally
 
 The accepted full embedded transition is used as input:
 
@@ -500,7 +495,7 @@ coefficients of `f` and degree at most two in `h`. There is one affine
 model for the full coefficient cone. Scale of `f` is harmless on the
 smooth open and need not be normalized by a coefficient chart.
 
-## 3. The smooth open is one homogeneous binary-quartic discriminant
+### 3. The smooth open is one homogeneous binary-quartic discriminant
 
 Put
 
@@ -542,7 +537,7 @@ union missing coefficient charts. Proving it is the unit ideal would
 prove `K2` empty on the entire smooth `(2,2)` family. Failure to finish
 an elimination proves nothing about emptiness.
 
-## 4. Exact export and one bounded prospect
+### 4. Exact export and one bounded prospect
 
 The new standard-library sparse generator is
 [global second-model generator](../computations/generalization_quadratic_root_global_second_model.py).
@@ -569,28 +564,19 @@ supervisor failed. Captured stdout contains `MODEL_READY`, but no
 `GB_COMPLETE` or unit-ideal marker. Thus the run supplies no elimination
 result and no mathematical conclusion.
 
-The input, exact source/supervisor snapshots, hashes, captured logs, and
-terminal PID check are in
-[the execution record](../validation/2026-10-15-quadratic-root-global-second/attempt-01-QQ-full-smooth-family/execution-record.json).
-The future supervisor now checks monitor availability before launching
-any child and stops safely if monitoring later fails; it was not rerun.
-The quintic owner received confirmation that this process was absent
-before using the next heavy computation window. No extra coefficient
-chart, seed, profile, or second global launch was opened.
+The bounded global-second launch did not produce a completed Gröbner basis or an emptiness certificate. Its supervisor failure supplies no mathematical restriction on the allowed degree.
 
 The accepted all-orders formal nonexistence theorem proves an existential
 empty stage on the smooth family. This compression does not supply a
 value of that stage. In particular no `N<=5`, all-smooth second
 nonvanishing, actual-CI exclusion, or unrestricted STCI conclusion is
 claimed until an exact global certificate or a new geometric proof exists.
-No commit or memory update was made.
-
 
 ---
 
-## 2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit
+<a id="2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit"></a>
 
-# Independent audit of the twenty-five global second-obstruction tests
+## Independent audit of the twenty-five global second-obstruction tests
 
 Date: 2026-10-15. Author: `geometric_locus`.
 
@@ -607,7 +593,7 @@ The final companion note and
 were read after this mathematical audit was drafted. Their algorithm
 was compared with the proof; no old verifier, seed test, or CAS was run.
 
-## 1. The correct dual bundle on the whole basepoint-free locus
+### 1. The correct dual bundle on the whole basepoint-free locus
 
 Fix a homogeneous basepoint-free triple `a,b,c` of degree two on `P1`.
 Let `f=a u^2+b uv+c v^2` and consider
@@ -639,7 +625,7 @@ Thus the full sixteen-dimensional dual obstruction space is
 of `z^-1` in `sum q_i r_i`. There are no binomial factors in these
 formulas for the specified coefficient bases.
 
-## 2. Rank-two duality supplies a global generating presentation
+### 2. Rank-two duality supplies a global generating presentation
 
 For a rank-two bundle, the exterior pairing gives a canonical
 isomorphism
@@ -666,7 +652,7 @@ localization, or denominator is used. It therefore includes splitting
 jumps, repeated direction factors, singular roots, and nonreduced
 roots, subject only to the basepoint-free hypothesis.
 
-## 3. The signed complementary minors give those five generators
+### 3. The signed complementary minors give those five generators
 
 Index rows and columns of a skew five-by-five matrix `K` by
 `0,...,4`. For `i<j`, put
@@ -703,7 +689,7 @@ Homogeneously, `z^k` means the basis
 `Z1^k Z0^(4-k)` of `H0(O(4))`; consequently the construction includes
 base infinity.
 
-## 4. Exact equivalence with the second class and parameter degrees
+### 4. Exact equivalence with the second class and parameter degrees
 
 Let `R4=sum r_i(z)u^(4-i)v^i` be the actual second discrepancy after
 retaining the accepted first cubic correction and equation unit.
@@ -749,7 +735,7 @@ note's `25 H^-4 -> V2^*`. This is the same as the earlier
 denominator. In particular the scalar tests have coefficient degree
 four, as required.
 
-## 5. The homogeneous quartic discriminant detects smoothness
+### 5. The homogeneous quartic discriminant detects smoothness
 
 Let
 
@@ -799,7 +785,7 @@ use the correct binary-quartic normalization for
 `d0Y^4+d1XY^3+d2X^2Y^2+d3X^3Y+d4X^4`. They do not require
 `d4!=0`. In particular a simple root at infinity is retained.
 
-## 6. The universal model algorithm matches the geometric construction
+### 6. The universal model algorithm matches the geometric construction
 
 The new generator was inspected without executing it. Its coefficient
 ring uses exact rational sparse polynomials; its normal monomials are
@@ -846,7 +832,7 @@ smooth open. No coefficient chart is omitted. This verifies the
 algorithmic model underlying the proposed single global elimination;
 it does not evaluate that elimination.
 
-## 7. Scope
+### 7. Scope
 
 The twenty-five equations are a globally valid replacement of the
 second quotient-membership test, not a proof of emptiness. The
@@ -854,5 +840,3 @@ accepted formal nonexistence theorem supplies an existential finite
 empty stage; it does not imply that this second stage is empty.
 Any effective elimination must still retain the homogeneous smooth
 open and the actual first cubic patches and equation units.
-
-No commit or memory update was made.

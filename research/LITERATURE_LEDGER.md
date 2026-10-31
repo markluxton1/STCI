@@ -1,10 +1,12 @@
 # STCI Literature Ledger
 
-Checked through: 2026-09-30
+Broad search assessed through 2026-09-30; selected primary-source mechanisms and inherited October 13 corrections rechecked/integrated on 2026-10-31. These are bounded checks, not a claim of exhaustive coverage.
 
 This ledger records the scope actually used in the research report. A source is
 not listed as settling more than its hypotheses permit. “No later resolution
 found” is a documented search result, not a proof that no unindexed work exists.
+
+The [affine/projective scope account](supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md) retains the exact lci-cone criterion, tensor-quotient proof failure, real-sphere CI counterexample, fixed-quadric Picard control, SCIP distinction, and failed unique-prime inference. They have distinct field and quantifier scopes; none settles the projective algebraically closed STCI problem.
 
 ## Current status and general bounds
 
@@ -53,17 +55,13 @@ sequences,” arXiv:1907.05472.
 - Verified scope: gives a local-cohomological characterization and necessary
   conditions; the abstract explicitly calls the question whether every
   connected curve in projective three-space is an STCI still open.
-- Exact algebraic criterion used here: for a height-two ideal in a
-  four-dimensional regular local/graded setting, arithmetic rank two is
-  characterized by a coregular sequence of length two, equivalently codepth two
-  in the relevant \(H_I^2\) module. Ordinary vanishing of \(H_I^{>2}\) is not
-  enough.
+- Exact criterion (Theorem 3.1): for an **A-regular sequence** f_1,...,f_r in I, equality of radicals is equivalent to coregularity on H_I^r(A) and H_I^i(A)=0 for i>r. The standard graded convention requires homogeneous elements. For a connected space curve the relevant test concerns a homogeneous pair on H_I^2(S), not ordinary higher vanishing alone.
+- Proposition 5.2 and Example 5.3(c) explicitly treat the fixed quartic: the smooth quadric and cuspidal cubic are individually coregular, but their pair retains a double line. Corollary 4.6 supplies graded quasi-cyclicity as a necessary condition. The [global equation account](synthesis/global_equations_and_constructions.md#homogeneous-local-cohomology-and-the-second-equation) records the exact use.
 
 ### Hassanzadeh, 2024--2025
 
 S. Hamid Hassanzadeh, “Set-Theoretically Perfect Ideals and Residual
-Intersections,” arXiv:2409.05705, revised 2025; to appear in the *Journal of
-the London Mathematical Society*.
+Intersections,” arXiv:2409.05705, revised 2025; published in *Journal of the London Mathematical Society* 111(3) (2025), e70108, DOI [10.1112/jlms.70108](https://doi.org/10.1112/jlms.70108).
 
 - Source: <https://arxiv.org/abs/2409.05705>
 - Verified scope: proves perfect subideals with the same radical for residual
@@ -99,7 +97,8 @@ A modern survey (D'Cruz, Theorem 2.7) states that arithmetically Cohen--Macaulay
 - Lorenzo Robbiano and Giuseppe Valla, “Some curves in \(\mathbf P^3\) are
   set-theoretic complete intersections,” LNM 997 (1983), 391--399:
   <https://doi.org/10.1007/BFb0061654>
-- Scope qualification, strengthened by the 2026-10-05/06 audit: the inspected Robbiano--Valla 1983 article fixes a monomial curve before its ACM proposition. That inspected argument supports the ACM monomial class. The LNM chapter and the other original cited proof were not recovered in full. The modern broad statement is evidence of its assertion, not an independently reconstructed proof for arbitrary ACM curves. See `notes/2026-10-05-foundational-frontier-audit.md`.
+- Exact checked primary scope: the [official chapter preview](https://page-one.springer.com/pdf/preview/10.1007/BFb0061654), printed pp.391–392, identifies §2 and Corollary2.3 as the positive result for **ACM monomial** space curves in every characteristic. This does not establish an arbitrary-ACM theorem. D'Cruz's [Theorem2.7](https://arxiv.org/html/2003.09101v1) states the broader assertion and also cites Stückrad–Vogel, *On the number of equations defining an algebraic set of zeros in n-space*, Teubner-Texte48 (1982), pp.88–107; that original text was inaccessible in the bounded audit. [Thoma1993](https://archive.mpim-bonn.mpg.de/948/1/preprint_1993_86.pdf), introduction p.2, likewise mentions ACM curves broadly inside a monomial discussion. The broad assertion remains a source-coverage gap, not a refuted theorem or independently reconstructed proof.
+
 - Relevance: smooth rational quartics are not linearly normal and hence not
   ACM, so this broad positive theorem stops exactly before the smallest open
   smooth case.
@@ -131,7 +130,7 @@ Spaces,” LNM 1092 (1984), 1--28.
   of Fundamental Research Lectures on Mathematics and Physics 62,
   Springer/TIFR, 1979.
 - TIFR text:
-  <https://mathweb.tifr.res.in/sites/default/files/publications/ln/tifr62.pdf>
+  <https://mathweb.tifr.res.in/Documents/Publications/Lectures/tifr62.pdf>
 - Verified scope:
   1. an lci curve in affine three-space is a set-theoretic complete
      intersection;
@@ -157,25 +156,23 @@ DOI 10.1016/j.jalgebra.2025.10.042.
 - It is an affine, conditional theorem. It neither controls the hyperplane at
   infinity nor splits a projective Ferrand bundle.
 
-### Mandal--Zinna, 2025 preprint
+### Mandal--Zinna, 2025 preprint: claim with invalid displayed proof
 
-Lisa Mandal and Md. Ali Zinna, “On set-theoretic complete intersections for
-smooth curves in three-dimensional affine schemes,” arXiv:2511.07589
-(submitted November 2025).
+Lisa Mandal and Md. Ali Zinna, “On set-theoretic complete intersections for smooth curves in three-dimensional affine schemes,” [arXiv:2511.07589v1](https://arxiv.org/html/2511.07589v1), submitted 10 November 2025. The inspected record still exposes v1; an unchanged abstract is not a repaired proof.
 
-- Source: <https://arxiv.org/abs/2511.07589>
-- Verified abstract theorem: every height-two local-complete-intersection ideal
-  in a commutative noetherian ring of dimension three is a set-theoretic
-  complete intersection.  The same preprint also gives a four-dimensional
-  affine result over an algebraic closure of a finite field and a stronger
-  complete-intersection conclusion under trivial conormal bundle.
-- This is stronger and more general on the affine three-dimensional side than
-  the separately published conditional theorem above.  It still does not
-  apply to the homogeneous coordinate ring \(k[x_0,x_1,x_2,x_3]\), which has
-  dimension four, and it supplies no compatibility at the hyperplane at
-  infinity.  P-007 records the missing projective boundary condition exactly.
-- The broad statement is an unrefereed arXiv v1 as of the search cutoff and
-  must not be conflated with the authors' narrower peer-reviewed 2026 theorem.
+The abstract claims arbitrary dimension-three Noetherian affine lci curves are STCI, with a four-dimensional finite-field-closure analogue. These broad claims are **not imported as established theorems**. In Theorem 4.2 Step 3, the displayed splitting substitutes J/(c) for the tensor quotient J/cJ. The exact audit is elementary: in A=k[x,y,z], take J=(x,y), c=x and the resolution t↦(−yt,xt), (a,b)↦ax+by. Over B=A/(x), the proposed last term J/(x) produces middle kernel B(1,0), preceding image yB(1,0), and nonzero homology B/(y). If the notation means J/xJ instead, the nonzero class of x is killed by y, refuting rank-one local freeness. Neither reading repairs the step.
+
+The [existing exact proof audit and real-sphere counterexample](supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md#exact-audit-of-arxiv251107589v1-step-3) retain the full reasoning. The real example refutes the arbitrary-Noetherian-ring CI assertion; it does not refute every field-restricted STCI claim or furnish a projective algebraically closed counterexample. Keep these failed broad arguments distinct from the narrower published conditional theorems.
+
+### Additional affine papers: verified scope versus discovery lead
+
+- Mandal–Zinna, *Set-theoretic complete intersection for smooth surfaces in a smooth affine algebra*, J. Algebra 693 (2026), 36–53, [publisher](https://www.sciencedirect.com/science/article/abs/pii/S0021869326000165), DOI 10.1016/j.jalgebra.2025.12.026: the inherited primary-abstract check retains the smooth affine Fpbar ambient, trivial conormal and torsion Grothendieck-class hypotheses. Missing rendered dimensions were not inferred.
+- Lisa Mandal, *Set theoretic complete intersection of ideals in a Laurent polynomial ring*, Communications in Algebra 54(11) (2026), 3565–3573, [publisher](https://www.tandfonline.com/doi/abs/10.1080/00927872.2025.2604611): the inherited publisher-abstract check requires a dimension-n affine Fpbar algebra, n≥3, an lci height-n ideal in A[T,T^-1], free conormal and torsion Grothendieck class. It does not close the projective gap.
+- **Discovery lead only:** Mandal–Zinna, *On the minimal number of generators of local complete intersection ideals in affine four-folds*, J. Pure Appl. Algebra 230(11) (2026), 108384, [DOI](https://doi.org/10.1016/j.jpaa.2026.108384). The inherited October 13 search recovered metadata but not primary theorem/proof text. No theorem from it is relied upon here.
+
+### A failed negative-resolution claim
+
+Erdoğdu, [*Radically finite rings and space curves*, arXiv:2209.04489](https://arxiv.org/abs/2209.04489), cannot be used as a resolution. The [existing exact countercheck](supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md#the-failed-unique-prime-inference-in-arxiv220904489v1) isolates the proof's inference from a unique maximal ideal to a unique prime. In R=k[x,y]_(x,y), A=R[T], g=y+(1−y)T, the prime (x,g) has quotient k[y]_(y) and is strictly smaller than the unique maximal ideal (x,y,T) above it. This is an audit of that inference, not a projective counterexample.
 
 ## Chow forms and global determinant representations
 
@@ -191,7 +188,7 @@ Exterior Syzygies,” arXiv:math/0111040 (2001).
 - Use here: for two forms on the universal line, the twisted pushed-forward
   Koszul complex is the square Sylvester bundle map, whose determinant is the
   binary resultant and hence the Chow form of the complete-intersection cycle.
-  The pure-power criterion in P-033 is the resulting specialized corollary.
+  The pure-power criterion in P-033 is the resulting specialized corollary, under the no-common-factor/proper-CI hypothesis. Purity makes its top-dimensional-cycle identity a sole-support test; an arbitrary nonpure scheme can carry additional lower-dimensional support invisible to its Chow form.
 - Scope qualification: this is a classical cycle-level reformulation and
   computational certificate. It neither constructs a defining pair nor proves
   that one exists for any unresolved curve.
@@ -365,6 +362,8 @@ angewandte Mathematik* 464 (1995), 1--46.
   control it in the presence of common singularities rather than merely
   repeat the blowups.
 
+- Separate all-degree **cone-carrier** scope: Jaffe's [author paper introduction](https://arxiv.org/html/alg-geom/9410008) reports the prior characteristic-zero result d≤g+3 for a smooth curve cut out by a reduced irreducible cone and another reduced irreducible surface. For (d,g)=(4,0) this excludes that chosen type of carrier in every degree. The original paper is *Space curves which are the intersection of a cone with another surface*, Duke Math.J.57 (1988), 859–876, [DOI](https://doi.org/10.1215/S0012-7094-88-05738-9). Its original proof was inaccessible in the bounded audit: this is a primary author-reported theorem, not a freshly reconstructed proof or a theorem about all higher-degree surfaces.
+
 ## The smooth rational quartic and its known exclusions
 
 ### Craighero, 1981
@@ -461,6 +460,12 @@ Michael Hellus and Reinhold Hübl, “A result on Macaulay's curve,”
   curve, followed by explicit Frobenius descent. Thus Moh's stated projection
   criterion does not directly supply P-012.
 
+### Barile--Morales--Thoma: a direct construction for the fixed family
+
+Margherita Barile, Marcel Morales and Apostolos Thoma, *Set-theoretic complete intersections on binomials*, Proc. AMS 130 (2002), 1893–1903, [publisher DOI](https://doi.org/10.1090/S0002-9939-01-06289-X); [inspected primary-article PDF](https://scispace.com/pdf/set-theoretic-complete-intersections-on-binomials-3eapbpony9.pdf).
+
+Theorem 5 characterizes toric binomial STCI in characteristic p by complete p-gluing. Theorem 4 says characteristic-zero binomial STCI forces ideal-theoretic CI. Section 3 Example 1 explicitly handles {(d,0),(d−1,1),(1,d−1),(0,d)}. For C0, d=4; choose p^e>5 and write p^e=3a+4b with a,b≥0. Its construction specializes to the homogeneous pair x_2^4−x_1^3x_4 and x_3^(p^e)−x_1^b x_2^a x_4^(2a+3b). Their radical is the cone ideal in characteristic p, hence their projective support is C0. Frobenius is essential. The characteristic-zero binomial-only exclusion supplies no arbitrary-form obstruction. This full-proof check avoids treating the inaccessible Moh article as newly verified beyond its abstract.
+
 ### Cowsik--Nori is affine
 
 R. C. Cowsik and M. V. Nori, “Affine curves in characteristic \(p\) are set
@@ -484,9 +489,7 @@ Anargyros Katsabekis and Apostolos Thoma, “Radical splittings of toric ideals,
 *Journal of Algebraic Combinatorics* 64 (2026), article 42.
 
 - DOI: <https://doi.org/10.1007/s10801-026-01593-w>
-- Verified scope: concerns toric/binomial radical splittings and binomial
-  arithmetic rank. It does not decide whether the characteristic-zero ideal of
-  \(C_0\) is the radical of two arbitrary forms.
+- Verified source-specific scope: §4, Remarks 4.7, treats symmetric projective monomial curves with a+b=d and gcd(a,b,d)=1. Its radical splitting number is 2 in positive characteristic and 3 in characteristic zero; fixed C0 has (a,b,d)=(1,3,4). This concerns **binomial** arithmetic rank and does not decide two arbitrary forms.
 
 ## Cohomological background
 
@@ -541,4 +544,8 @@ Accordingly, future work should describe the general philosophy of dependent inf
 
 ## October 21 accepted-interface references
 
-The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
+The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](results/regular_singular_root_formal_obstruction.md). This ledger entry records dependencies, not an independent new literature theorem.
+
+## General constructive mechanisms checked in the synthesis
+
+The [global-equation chapter](synthesis/global_equations_and_constructions.md), [finite-pullback proof](synthesis/finite_pullback_and_matrix_obstructions.md), and [foliation/affine account](synthesis/foliation_and_affine_degree_mechanisms.md) state exact hypotheses alongside their uses. In particular: Poonen Theorem 2.2 extends sufficiently highly polarized maps from a fixed closed subscheme with target dimension at least ambient dimension, without sole-inverse-support control; Amerik–Kuznetsova Theorem 2 concerns degree-greater-than-one maps between projective bundles over a simply connected complex projective base with H1(B,L)=0 for every line bundle; Forster–Wolffhardt Theorem 1.5 is affine and preserves a zero scheme in the dual bundle, not a split target. The normalized foliation formulas retain the finite non-Kupka/component hypotheses and the unit-times-exact condition. None supplies unrestricted equations or a universal obstruction for C0.

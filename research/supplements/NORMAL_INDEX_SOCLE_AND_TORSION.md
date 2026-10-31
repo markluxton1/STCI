@@ -15,9 +15,9 @@ Permanent mathematical dossier. Complete source arguments are preserved with the
 
 ---
 
-## 2026-10-14-generalization-normal-index-general-scope
+<a id="2026-10-14-generalization-normal-index-general-scope"></a>
 
-# An intrinsic normal divisor and index thresholds for smooth curves
+## An intrinsic normal divisor and index thresholds for smooth curves
 
 Date: 2026-10-14. Author: `normal_index_general_scope`.
 Status: **PROVED NEW STRUCTURAL THEOREMS; independently reviewed in
@@ -33,7 +33,7 @@ uniform index thresholds for arbitrary smooth and balanced rational
 curves. It does not resolve the universal STCI problem or unrestricted
 characteristic-zero C0.
 
-## 1. The comparison exists before a mate does
+### 1. The comparison exists before a mate does
 
 Let X be a smooth projective threefold over an algebraically closed
 field of characteristic zero, let S be a normal integral Cartier
@@ -95,7 +95,7 @@ C, since A_P>=1 there. Thus C^2<=ell<=eta, with the first inequality
 strict when S is singular at an on-curve point. Under a mate, a
 genuinely non-Cartier carrier therefore has e^2/a<eta.
 
-### Construction and divisor
+#### Construction and divisor
 
 Let I be the ideal of C on S. Normality and the Cartierness of R C
 give a canonical inclusion of the ordinary into the divisorial power,
@@ -138,7 +138,7 @@ zero ordinary nilradical. In that case B is defined by the saturated
 carrier symbol above, rather than by J/J^2 of W_1; B=M^(-1), A=E=0,
 and (3) has the same interpretation.
 
-## 2. A mate adds a numerical ray, not another power problem
+### 2. A mate adds a numerical ray, not another power problem
 
 Specialize to X=P^3, put e=deg C, g=g(C), and let a=deg S. If a mate
 of degree b exists, its divisor on S is n C with
@@ -169,7 +169,7 @@ should be retained rather than reduced to a degree count. It imposes
 no extra unproved global torsion factor; it follows from the Cartier
 divisor R C itself.
 
-## 3. General normal-bundle and pointwise-index bounds
+### 3. General normal-bundle and pointwise-index bounds
 
 Let eta be any upper bound for the degrees of line subbundles of N.
 Since B^* is such a line subbundle, ell<=eta. One can use the maximum
@@ -206,7 +206,7 @@ Thus the result is useful for unbalanced as well as balanced curves;
 the balanced hypothesis is needed only for the stronger uniform
 threshold below.
 
-## 4. A uniform threshold for balanced rational curves
+### 4. A uniform threshold for balanced rational curves
 
 **Theorem.** Let C be a smooth rational degree-e curve in P^3,
 e>=3, with N=O(2e-1)^2. Every normal carrier admitting a mate has
@@ -229,11 +229,11 @@ difference between the sides of (10) is
 It is therefore negative throughout 1<=s<=e-2. This proves s>=e-1
 in one argument for every e, independently of both defining degrees.
 
-### The exact threshold is structurally rigid
+#### The exact threshold is structurally rigid
 
 If all actual indices are at most e-1, set s=e-1 in (9):
 
-    e[a-(e-1)](a-e) <= 0.
+    e[a-(e-1)] (a-e) <= 0.
 
 Since a is integral, a=e-1 or a=e. At either endpoint all inequalities
 are equalities. Therefore
@@ -288,7 +288,7 @@ double, so the triple strengthening does not apply. For C0, this
 general threshold is compatible with the stronger newly accepted
 actual-index-at-most-four exclusion; it does not replace that result.
 
-## 5. Distribution constraints retain more than a maximum
+### 5. Distribution constraints retain more than a maximum
 
 Let
 
@@ -337,7 +337,7 @@ each contributes at least 1/s to the reciprocal budget. This controls
 the number only after an actual index bound is supplied; it imposes
 no independent bound on an unrestricted normal carrier.
 
-## 6. Characteristic and remaining scope
+### 6. Characteristic and remaining scope
 
 All preceding theorems hold in characteristic zero. They also extend
 to characteristic p provided every actual on-curve local index r_P
@@ -371,9 +371,9 @@ accepted C0 computations.
 
 ---
 
-## 2026-10-14-generalization-normal-index-socle-theorem
+<a id="2026-10-14-generalization-normal-index-socle-theorem"></a>
 
-# Normal carriers: local power-socle compatibility and uniform exclusion
+## Normal carriers: local power-socle compatibility and uniform exclusion
 
 Date: 2026-10-14. Status: **PROVED, WITH A SEPARATE INDEPENDENT NEW-PROOF
 AUDIT**. This is the current theorem statement and integration record.
@@ -384,7 +384,7 @@ records the route to this theorem. Previously accepted socle duality,
 normal-carrier torsion/index arithmetic, C0 normal splitting, low-degree
 carrier exclusions and P-010 were used as premises and were not rerun.
 
-## 1. The local theorem
+### 1. The local theorem
 
 Let C be a smooth curve on a normal integral hypersurface F in a smooth
 threefold over an algebraically closed field of characteristic zero.
@@ -431,7 +431,7 @@ Characteristic zero is sufficient for all local lengths; a proposed
 positive-characteristic extension must retain the prime-to-characteristic
 length condition rather than using a possibly zero Jacobian.
 
-## 2. Ordinary free powers and a pointwise torsion identity
+### 2. Ordinary free powers and a pointwise torsion identity
 
 For any curvilinear complete-intersection thickening Y of generic
 length n, put J=I_C O_Y and let T_i be the torsion of J^i/J^(i+1).
@@ -452,7 +452,7 @@ n D_n,P on the powers of z. The change of lattice doubles the index,
 proving (2). This is an ordinary J-adic statement; it does not set the
 multiplication defects of a saturated BF filtration to zero.
 
-## 3. A bound on every normal carrier degree from its actual local indices
+### 3. A bound on every normal carrier degree from its actual local indices
 
 For C0=[s^4:s^3t:st^3:t^4] write a=deg F, b=deg G, n=ab/4 and
 B=O_P1(-ell). The accepted conormal splitting gives ell<=7. Socle
@@ -494,7 +494,7 @@ in the non-Cartier case with positive denominator. The precise edge
 conditions and monotonicity proof are in the independent audit. No
 uniform bound on actual local curve indices is supplied by this theorem.
 
-## 4. All normal C0 carriers with actual indices at most four are excluded
+### 4. All normal C0 carriers with actual indices at most four are excluded
 
 Assume every on-curve index is at most four. Their common exponent is
 at most twelve. The accepted normal torsion/index reduction leaves only
@@ -537,7 +537,7 @@ A1,A2,A3 along C0 using their accepted curve-index bounds. Other
 singularities of actual curve index at most four are covered as well.
 Singularities away from C0 impose no extra hypothesis.
 
-## 5. Remaining obligations
+### 5. Remaining obligations
 
 The class whose indices merely divide twelve still permits actual
 index-six and index-twelve points. They have k=2 and k=1 respectively
@@ -556,9 +556,9 @@ a degree-by-degree verification or a global exhaustion theorem.
 
 ---
 
-## 2026-10-14-generalization-normal-index-general-scope-independent-audit
+<a id="2026-10-14-generalization-normal-index-general-scope-independent-audit"></a>
 
-# Independent audit of the general normal-index consequences
+## Independent audit of the general normal-index consequences
 
 Date: 2026-10-14. Author: `normal_general_threshold_audit`.
 Status: **PROVED NEW CONSEQUENCES, WITH THE SCOPE BELOW.** This review
@@ -569,7 +569,7 @@ obstruction, or any CAS computation. The new work checked here is the
 degree-independent inequality, its integer and equality consequences,
 the tame-characteristic scope, and the intrinsic version without a mate.
 
-## 1. The scalar inequality does not need a denominator assumption
+### 1. The scalar inequality does not need a denominator assumption
 
 Let a smooth curve C of degree e and genus g lie on a normal integral
 degree-a hypersurface F in P3. Suppose a degree-b mate cuts nC on F,
@@ -614,7 +614,7 @@ normality, actual finite local Cartier indices, smooth support, and
 line-subbundle bound are substantive hypotheses. It makes no assertion
 for a nonnormal carrier or an entirely thick rank-two generic algebra.
 
-## 2. Balanced rational curves: the smallest possible index
+### 2. Balanced rational curves: the smallest possible index
 
 Suppose C is rational, e>=3, and N_C=O_P1(lambda)^2 with lambda=2e-1.
 Then eta=lambda and nu=2lambda. Formula (1) becomes
@@ -666,7 +666,7 @@ be a singular exception. Thus every singular point on C has actual
 index exactly e-1, rather than merely an index dividing e-1. Such
 points exist: at a=e-1 or e, deg A=ea-lambda is positive for e>=3.
 
-## 3. The equality case yields a primitive triple only for e>=4
+### 3. The equality case yields a primitive triple only for e>=4
 
 At a singular point, (3) and the accepted pointwise torsion identity
 imply that its primitive-index complete intersection W_(r_P) has no
@@ -700,7 +700,7 @@ e=3 the equality case supplies only a primitive double, so the same
 triple conclusion is unavailable. The C0 constant-direction obstruction
 is an accepted characteristic-zero input and has not been replayed.
 
-## 4. Tame positive characteristic needs r_P invertible, not n
+### 4. Tame positive characteristic needs r_P invertible, not n
 
 The local theorem and its consequences above extend to characteristic
 p>0 if p divides none of the actual indices r_P along C. The two
@@ -722,7 +722,7 @@ prime to the global mate length n. No wild-index extension is asserted.
 Any characteristic-p use of Section 3 must separately supply its
 constant-direction primitive-triple obstruction in that characteristic.
 
-## 5. Intrinsic divisor identity without assuming a mate
+### 5. Intrinsic divisor identity without assuming a mate
 
 Let C instead be any smooth Q-Cartier curve on a normal degree-a
 hypersurface F. Put R=lcm_P r_P, so RC is an effective Cartier divisor
@@ -788,7 +788,7 @@ For a mate, numerical equivalence nC=bH gives C^2=e^2/a; equation (6)
 then recovers (1). This provides a structural Q-Cartier normal-carrier
 constraint before one chooses a mate degree.
 
-## 6. Audit conclusion and limits
+### 6. Audit conclusion and limits
 
 The general inequality, index threshold, exact equality consequences,
 conditional primitive-triple obstruction, tame extension, and
@@ -800,7 +800,7 @@ the explicit surviving-line convention when R=1. None of these results
 bounds actual indices for arbitrary normal carriers, handles wild
 indices, or excludes all balanced rational curves from being STCI.
 
-## 7. Addendum: direct construction on a smooth projective threefold
+### 7. Addendum: direct construction on a smooth projective threefold
 
 After this audit was drafted, the
 [owner note](#2026-10-14-generalization-normal-index-general-scope)
@@ -855,7 +855,7 @@ identity 2 sum_i length(T_i)_P=r_P D_(r_P),P makes every primitive
 defect even when its actual index is odd. These conclusions use the
 full local defects and keep all singular support points.
 
-## 8. Characteristic-zero equality gives an actual minimal primitive CI
+### 8. Characteristic-zero equality gives an actual minimal primitive CI
 
 The additional equality consequence also passes review. Work in
 characteristic zero and in the balanced rational threshold case
@@ -914,21 +914,21 @@ torsion factor.
 
 ---
 
-## 2026-10-14-generalization-transverse-differential-socle-bound
+<a id="2026-10-14-generalization-transverse-differential-socle-bound"></a>
 
-# A full first-layer and socle bound for transverse ramification
+## A full first-layer and socle bound for transverse ramification
 
 Date: 2026-10-14. Owner: `global_structure`. Status: **NEW WRITTEN
 PROOF; independent review requested**. The accepted normal bundle of
 fixed C0 and accepted carrier exclusions are premises, with no reruns.
 This note studies new restrictions on the three Cartier-lift models
-from the [accepted classification](OCT13_CONDUCTOR_REES_AND_GENERAL_FRAMEWORK.md#source-2026-10-14-generalization-cartier-lift-independent-auditmd).
+from the [accepted classification](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit).
 The full socle line is the previously reviewed duality interface in the
-[conormal-socle budget audit](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-socle-independent-auditmd);
+[conormal-socle budget audit](SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-generalization-socle-independent-auditmd);
 the new ingredient here is the actual first-layer identification from
 the normalization differential and its ramification divisor.
 
-## 1. Exact hypotheses and statement
+### 1. Exact hypotheses and statement
 
 Let `C subset P3` be smooth integral of degree `d` and genus `g` over
 an algebraically closed field. Let `F,G` have degrees `a,b`, no common
@@ -973,7 +973,7 @@ No primitive multiple-curve hypothesis, finite-flat retraction onto
 first-layer torsion is used. The generic regularity of `X` and the
 actual singleton Cartier lift are essential hypotheses.
 
-## 2. Identification of the full first layer
+### 2. Identification of the full first layer
 
 Because `C` is a smooth codimension-two immersion,
 
@@ -1008,7 +1008,7 @@ its generic subspace. Hence that kernel is precisely `B^perp`, and
 its quotient is `B^*`. This proves (1), using the full actual first
 layer rather than a chosen first-jet parameterization.
 
-## 3. Why the top multiplication is global
+### 3. Why the top multiplication is global
 
 The complete intersection `Z` is a pure one-dimensional Cohen--Macaulay
 Gorenstein scheme. Its structure sheaf has no submodule supported at
@@ -1036,7 +1036,7 @@ It is nonzero generically because the generic algebra is curvilinear.
 It is therefore an injection of line bundles. This step does not
 replace the full nilpotent structure by a first-jet model.
 
-## 4. The actual Gorenstein socle and the inequality
+### 4. The actual Gorenstein socle and the inequality
 
 The socle sheaf is
 
@@ -1062,7 +1062,7 @@ The socle is identified on the entire curve. Neither a top graded
 piece with a discarded closed-point defect nor a pointwise generic
 length calculation is substituted for it.
 
-## 5. All-mate consequences on fixed C0 models
+### 5. All-mate consequences on fixed C0 models
 
 For the accepted `C0`, `d=4,g=0,N_C=O(7)^2`. A saturated line
 `B=O(k+deg A)` inside this bundle has degree at most seven. Therefore
@@ -1102,7 +1102,7 @@ ramification divisor degree. This interpretation is conditional on
 that actual duality/divisor identification; the proof of (2) did not
 assume it.
 
-## 6. Preserved boundaries
+### 6. Preserved boundaries
 
 If both ambient generators have generic normal order at least two,
 the transverse algebra need not be curvilinear and the generic first
@@ -1119,9 +1119,9 @@ necessary common-root bounds in the remaining Cartier-lift models.
 
 ---
 
-## 2026-10-14-generalization-transverse-socle-independent-audit
+<a id="2026-10-14-generalization-transverse-socle-independent-audit"></a>
 
-# Independent review: the actual transverse first layer and global socle
+## Independent review: the actual transverse first layer and global socle
 
 Date: 2026-10-14. Reviewer: root. Status: **PROVED under the owner's
 explicit hypotheses, in every characteristic**. The reviewed source is
@@ -1181,367 +1181,365 @@ and is not used to prove the inequality.
 
 ---
 
-## 2026-10-14-generalization-pointwise-conductor-socle-independent-audit
-
-# Exact pointwise conductor contact and the top-socle defect
-
-Date: 2026-10-14. Status: **NEW POINTWISE STRENGTHENING PROVED UNDER
-THE STATED CHARACTERISTIC-ZERO HYPOTHESES**. Independent review of the
-proposed argument, with separate checks of actual-socle specialization
-and the divisor comparison. This note supplies a new proof and scope
-record; no old computation, carrier exclusion, or accepted proof was
-replayed.
-
-Accepted inputs are the
-[transverse first-layer/socle theorem and independent review](#2026-10-14-generalization-transverse-socle-independent-audit)
-and the actual conductor residue identities in the
-[conductor--Jacobian bridge](OCT14_QUINTIC_ROOT_AND_NORMAL_CARRIER_REVISIONS.md#source-2026-10-14-generalization-projection-conductor-jacobian-bridgemd).
-The standard characteristic-zero Artin complete-intersection theorem
-that the Jacobian determinant generates its socle is also an input.
-The new steps below justify its use for the **actual relative socle at
-every point**, the injection into the normalized thickening, and the
-resulting exact divisor comparison.
-
-## 1. Statement and definition of the defect
-
-Let `M` be a smooth threefold over an algebraically closed field of
-characteristic zero, and let `C` be a smooth curve. Suppose
-
-```
-Y=(F,G),               Supp(Y)_red=C,
-```
-
-is an actual complete intersection. Assume the integral carrier
-`X=(F=0)` is regular at the generic point of `C`. Let `nu:S -> X` be
-its finite normalization. Require that the full reduced inverse support
-of `C` is a singleton smooth Cartier curve `c`, mapped isomorphically
-to `C`, and that `S` is smooth along `c`.
-
-Let the actual conductor near `c` be the invertible ideal
-
-```
-conductor O_S=O_S(-B),
-```
-
-where `B` is effective and has no component `c`. Let `A` be the full
-zero divisor, with common-zero multiplicities, of
-
-```
-alpha:O_c(c) -> N_(C/M).
-```
-
-Write `nu*G=unit*u^n` locally along `c`, where `u=0` defines `c` and
-`n>=2`. Thus the actual generic normal algebra is curvilinear of
-length `n`. Put `J=I_C O_Y` and `Soc(Y)=Ann_(O_Y)(J)`. The accepted
-socle theorem identifies this as an invertible sheaf on `C`; purity
-gives `J^n=0`, and `J^(n-1)` is an invertible subsheaf. Define its
-actual top-power/socle defect divisor `D_n` by
-
-```
-J^(n-1)=Soc(Y)(-D_n).                                 (1)
-```
-
-Equivalently this is the defect of the multiplication map from
-`L^(tensor(n-1))` to the full actual socle, where
-`L=(J/J^2)_tf=O_c(-c)(-A)`. Multiplication onto `J^(n-1)` is surjective:
-it is generated by products of `n-1` elements of `J`; terms from `J^2`
-change such a product by `J^n=0`, and torsion in a first-layer input
-maps to zero in the torsion-free target. Consequently no extra defect
-is inserted between this multiplication image and the actual top
-ordinary power.
-
-**Theorem.** There is an equality of actual divisors on `c=C`:
-
-```
-D_n=(n-1)A-B|c.                                       (2)
-```
-
-In particular, for every closed point `P`,
-
-```
-(n-1)A_P >= (B|c)_P.                                 (3)
-```
-
-This is stronger than an equality of degrees or divisor classes. No
-primitive multiple-curve hypothesis, absence of first-layer torsion,
-or global retraction onto `C` is assumed.
-
-## 2. The actual CI embeds in the normalized thickening
-
-Fix a closed point `P` of `C` and its unique inverse point on `c`.
-Choose completed ambient coordinates `(t,y,z)` with `C=(y,z)` and
-`t|C` a uniformizer. The pullback of `t`, together with a local
-equation `u` of `c`, gives regular parameters on `S`. Thus
-
-```
-R=Bbbk[[t]],
-Lambda=R[[y,z]]/(F,G),
-nu(t,u)=(t,Y(t,u),Z(t,u)),          Y,Z in (u).
-```
-
-The full inverse-support hypothesis makes
-
-```
-g=nu*G=gamma(t,u)u^n,              gamma a unit.       (4)
-```
-
-Indeed the regular local surface ring is factorial, and `c` is the
-only prime in the support of the pullback mate. Generic carrier
-regularity identifies its multiplicity with the actual generic
-complete-intersection length `n`.
+<a id="source-2026-10-14-generalization-ribbon-independent-reviewmd"></a>
 
-The finite map induces
-
-```
-Lambda -> T=R[[u]]/(u^n).                             (5)
-```
-
-This map is injective. Its kernel vanishes at the generic point of
-`C`, where normalization is an isomorphism. It therefore has finite
-support. But `Lambda` is a pure one-dimensional complete intersection
-and has no nonzero finite-length submodule. Equivalently, `Lambda`
-is finite free over `R`: support on `C` gives finiteness, and the
-parameter `t` is a nonzerodivisor by Cohen--Macaulay purity. Its rank
-is `n`. The target is also free of rank `n`, so (5) is generically an
-isomorphism with a finite-length cokernel.
-
-That cokernel is retained. The proof does not replace the actual
-complete intersection by the normalized thickening.
-
-## 3. The relative Jacobian generates the actual socle
-
-Let
-
-```
-j=F_y G_z-F_z G_y,
-Sigma=Ann_Lambda((y,z)Lambda).
-```
-
-The generic Artin complete-intersection Jacobian theorem puts `j` in
-the socle after inverting `t`. Since `Lambda` is `R`-torsion free,
-the equalities `yj=zj=0` then hold in `Lambda` itself. Hence `j in Sigma`.
-
-The relative socle `Sigma` is a free rank-one `R`-module. Its rank is
-one generically, and it is an `R`-submodule of the finite free module
-`Lambda`. It is also saturated in `Lambda`: if `t a in Sigma`, then
-`t ya=t za=0`, so torsion freeness gives `ya=za=0`. It follows that
-
-```
-Sigma/t Sigma -> Lambda/t Lambda
-```
-
-is injective. The special fiber
-
-```
-Lambda/t Lambda
- = Bbbk[[y,z]]/(F(0,y,z),G(0,y,z))
-```
-
-is an Artin complete intersection of length `n`, because `Lambda`
-is free of rank `n`. The image of `j` is precisely its Jacobian
-determinant and is a nonzero socle generator in characteristic zero.
-Thus `j` is nonzero in `Sigma/t Sigma`, and Nakayama gives
-
-```
-Sigma=R j.                                           (6)
-```
-
-This proves the actual generator statement at the closed point. It
-does not assume in advance that taking socles commutes with base
-change. In particular, no hidden nonunit specialization factor is
-allowed in (6).
-
-## 4. Exact images of the socle and top ordinary power
-
-Let `h` be a local generator of the actual conductor. The accepted
-residue identities give a single unit `epsilon` with
-
-```
-F_y composed with nu = -epsilon h Z_u,
-F_z composed with nu =  epsilon h Y_u.                (7)
-```
-
-Since the ambient coordinate `t` pulls back to the chosen parameter
-`t`, the chain rule and (4) give
-
-```
-j composed with nu
- = -epsilon h (Z_u(G_z composed with nu)
-                        +Y_u(G_y composed with nu))
- = -epsilon h partial_u(g)
- = -epsilon h (n gamma u^(n-1)+gamma_u u^n).
-```
-
-In `T`, this is
-
-```
-j composed with nu
- = -n epsilon(t,0) gamma(t,0) h(t,0) u^(n-1).          (8)
-```
-
-The coefficient other than `h(t,0)` is a unit. Therefore (6) yields
-the exact image
-
-```
-im(Sigma)=h(t,0)R u^(n-1).                            (9)
-```
-
-Write
-
-```
-a=A_P=min(ord_t Y_u(t,0),ord_t Z_u(t,0)),
-b=(B|c)_P=ord_t h(t,0).
-```
-
-The second order is finite because the conductor has no component
-`c`. Write `Y=u a_1(t)+O(u^2)`, `Z=u a_2(t)+O(u^2)`. Every product
-of `n-1` elements of the actual ideal `J=(y,z)Lambda` maps to
-`u^(n-1)` times a coefficient in `(a_1,a_2)^(n-1)`; all higher
-`u` terms vanish. Conversely the monomials in `y,z`, with arbitrary
-coefficients from `R`, realize that whole coefficient ideal. Hence
-
-```
-im(J^(n-1))
- = (Y_u(t,0),Z_u(t,0))^(n-1) R u^(n-1)
- = t^((n-1)a)R u^(n-1).                              (10)
-```
-
-The injection (5) shows in particular that `J^n=0` and that its actual
-top power is exactly the lattice in (10). Comparing (9) and (10)
-gives
-
-```
-length_R(Sigma/J^(n-1))=(n-1)a-b >=0.                 (11)
-```
-
-By definition, this length is `D_(n,P)`. Equality (2) follows point by
-point; faithful flatness of completion recovers the original local
-divisor multiplicities.
-
-This computation also confirms the suggested generator comparison:
-after a local invertible linear change of the ambient normal coordinates,
-one normal function `w` has
-`nu*w=t^a unit*u+O(u^2)` and maps to a generator of the torsion-free
-first layer. Then `w^(n-1)/j` has order exactly `(n-1)a-b`. Formula
-(10) avoids choosing `w` and retains the entire actual top ideal.
-
-## 5. Consequences across all mate powers
-
-For a fixed carrier and its fixed normalization data, (3) supplies
-necessary conditions in every mate multiplicity at once:
-
-- `Supp(B|c) subset Supp(A)`. A conductor contact with `A_P=0` excludes
-  every mate satisfying these hypotheses, regardless of its degree.
-- At each point with `A_P>0`,
-  `n>=1+ceil((B|c)_P/A_P)`.
-  Their maximum is a simultaneous necessary lower bound for `n`.
-- The entire actual defect is determined by the same divisor formula
-  for every permitted mate multiplicity. No closed-point correction
-  or higher-jet defect has been omitted from `D_n`.
-
-Taking degrees recovers the accepted conductor-contact inequality.
-In projective space, the accepted adjunction expression
-`B.c=d(a-4)+c^2-(2g-2)` identifies it with the earlier transverse
-socle bound. That numerical consequence is used as a consistency
-check, not as a substitute for the new pointwise proof.
-
-The pointwise necessary conditions neither bound mate multiplicity
-above nor settle the residual phase/torsion conditions for conductor
-descent. Vanishing of the displayed defect does not by itself supply
-a projective mate.
-
-## 6. Exact colength in the thickening on the carrier normalization
-
-There is a further pointwise consequence using the accepted ordinary
-[Frobenius/free-powers lattice identity](#2026-10-14-generalization-normal-index-socle-theorem),
-Section 2. Keep the local notation above and choose `w in J` mapping to
-a generator of the torsion-free first layer, so
-
-```
-nu*w=t^a q(t)u+O(u^2),                 q(t) a unit.
-```
-
-The ordinary free-powers lattice is
-`Lambda_0=R[w] subset Lambda`, isomorphic to `R[v]/(v^n)`, with basis
-`1,w,...,w^(n-1)`. The accepted lattice identity is
-
-```
-length_R(Lambda/Lambda_0)=n D_(n,P)/2.                 (12)
-```
-
-Relative to this basis and `1,u,...,u^(n-1)` of `T`, the inclusion
-`Lambda_0 -> T` is triangular, with diagonal
-
-```
-1, t^a q, (t^a q)^2, ..., (t^a q)^(n-1).
-```
-
-Consequently its determinant has valuation `n(n-1)a/2`; the higher
-coefficients of `nu*w` make no contribution. The actual inclusions
-`Lambda_0 subset Lambda subset T` give the exact sequence
-
-```
-0 -> Lambda/Lambda_0 -> T/Lambda_0 -> T/Lambda -> 0.
-```
-
-Subtracting lengths and applying (2) yields the new exact formula
-
-```
-length_R(T/Lambda)
- = n((n-1)a-D_(n,P))/2
- = n(B|c)_P/2.                                       (13)
-```
-
-Thus if `delta_n` is the effective divisor recording these local
-colengths, one has
-
-```
-2 delta_n=n B|c.                                     (14)
-```
-
-In particular, **odd `n` forces every coefficient of `B|c` to be
-even**. This is a necessary condition on every actual CI in this
-lane; arbitrary normalized support or a graded construction alone
-does not supply the lattice inclusions used in the proof.
-
-Here `T=O_S/(nu*G)` locally is the **normalized thickening**, meaning
-the pullback thickening on the normalization of the carrier `X`.
-It is not asserted to be a normalization of the nonreduced scheme
-`Y`. Formula (13) measures the finite colength of the actual CI
-inside this specified pullback thickening.
-
-Finally the accepted
-[length-two/three primitive theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-symbolic-triple-certificate),
-Section 2, gives `D_n=0` for `n in {2,3}`. Hence in these two lengths
-the pointwise divisor relation specializes to
-
-```
-B|c=(n-1)A.                                         (15)
-```
-
-These are consequences of accepted lattice and small-rank premises;
-neither earlier proof was rerun.
-
-## 7. Scope and audit disposition
-
-The proposed identity passes under all the explicit hypotheses. The
-two potentially delicate bridges both pass: purity gives the
-injection into `T`, and saturation plus the Artin-fiber Jacobian
-theorem gives the actual relative-socle generator at every point.
-Finite colength of `Lambda` in `T` contributes no additional term
-to (2).
-
-Characteristic zero is substantive for this proof: the factor `n`
-in (8) and nonvanishing of the Artin Jacobian must be retained. The
-same argument works when the characteristic does not divide `n`;
-there is no claim here in characteristic dividing `n`. For example,
-`F=y,G=z^p` in characteristic `p` has a nonzero socle but zero
-Jacobian. Generic carrier regularity, singleton degree-one inverse
-support, the Cartier lift, smoothness of the normalization along the
-lift, and the actual supported complete intersection are also
-substantive hypotheses. No extension to several inverse branches,
-non-Cartier lifts, singular normalization along the lift, or entirely
-thick carriers is inferred.
-
-The universal STCI question and unrestricted characteristic-zero
-`C0` remain open.
+## Independent written review of the symbolic-ribbon generalization
+
+Date: 2026-10-14. Reviewer: `global_structure`, distinct from the author
+`ribbon_general`. Status: **NEW CONDITIONAL THEOREM REVIEWED; root
+acceptance remains separate**. This is mathematical review of a new
+written proof. No accepted repository statement or verifier was rerun.
+
+The reviewed source is
+[the symbolic-ribbon criterion](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-ribbon-numerical-criterionmd).
+I independently reconstructed its sheaf arguments, multiplication maps,
+Euler identity and all displayed numerical specializations. The theorem
+is sound under its stated normality, smooth curve, actual Cartier
+relation, finite normalized-carrier map and degree-one-lift hypotheses.
+Its conormal inequality additionally requires the stated generically
+nonzero first-layer map; the valuation version instead measures its
+first surviving layer.
+
+### 1. What makes the symbolic double an entire ribbon
+
+On a normal surface every divisorial ideal `I_i=O(-ic)` is reflexive
+and has depth two at closed points. The quotient of `I_i` by
+`I_(i+1)` has depth at least one by the depth lemma. The quotient is
+annihilated by the reduced curve ideal `I_1`, has generic rank one
+on `c`, and has no finite-point torsion. Because `c` is smooth it is
+therefore a line bundle `E_i`, including at singular points of the
+ambient normal surface.
+
+The defining valuation inequalities prove `I_1^2 subset I_2` and
+`sqrt(I_2)=I_1`. Hence `O/I_2` has square-zero nilideal `E_1` and
+is Cohen--Macaulay of generic length two. This is the entire symbolic
+ribbon; no Cartierness of `2c` has entered. The corresponding assertion
+for ordinary ideal squares would not follow from this proof.
+
+### 2. Multiplication and the actual Cartier relation
+
+Products of representatives descend to
+
+    E_i tensor E_j -> E_(i+j)
+
+because changing a representative introduces a product in
+`I_(i+j+1)`. This is an `O_c`-linear map, generically an isomorphism,
+and therefore an injection of line bundles. Its zero divisor is
+effective. Associativity verifies the coefficientwise defect
+inequality in the author's note.
+
+If `rc~bH` is Cartier, the equality of divisorial sheaves is
+
+    I_(i+r)=I_i tensor O(-rc).
+
+It gives `E_r=O_c(-bH)` and the stated periodicity. Multiplying a
+layer until its index is a multiple of `r` gives
+
+    deg E_j <= -j d^2/a,
+
+since `rd=ba`. This is independent of whether any ambient first
+normal direction survives.
+
+### 3. The Euler identity and conormal bounds
+
+The hyperplane Euler difference computes
+
+    chi(O_S(mH))=(a/2)m^2-(kappa/2)m+chi(O_S).
+
+For the carrier application a general Cartier hyperplane section
+avoids the isolated normal-surface singularities. The arithmetic
+Euler difference also works without requiring its geometric
+smoothness. Subtracting the value at `m=-b` from that at zero and
+using the symbolic filtration yields
+
+    sum_(i=0)^(r-1) deg E_i
+      =-(ab^2+b kappa)/2-r(1-g).
+
+Thus the arbitrary surface Euler constant cancels. The inequality
+`deg E_i>=i ell`, for `ell=deg E_1`, gives exactly the author's
+bound for `r>=2`. For `r=2` no higher multiplication defect remains,
+so the bound is an equality.
+
+A generically nonzero map `N_C*->E_1` gives a generically injective
+dual map `E_1^{-1}->N_C`. Saturating this line can only increase
+its degree. Therefore `ell>=-M` whenever `M` bounds all line
+subbundle degrees of `N_C`. The larger splitting degree supplies
+the exact `M` on `P1`; semistability supplies the separate claimed
+slope bound on an arbitrary smooth curve.
+
+The valuation refinement is also valid globally. If `q` is the
+minimum generic valuation of the pulled-back ambient curve ideal,
+that ideal lies in `I_q` by its defining valuation, and its square
+lies in `I_(2q) subset I_(q+1)`. Passing to `E_q` therefore gives
+a map from the ambient conormal bundle. It is generically nonzero
+by the definition of `q`, so the periodicity and saturation argument
+give `q d^2<=a M`. This does not manufacture singleton support or
+an isomorphic lift; those remain assumptions.
+
+### 4. Numerical scope and one corrected sentence
+
+Substitution of `M=2d-1,g=0,kappa=2pi-a-2` gives
+
+    r[d^2-a(2d-1)]+2d(pi-1)+a(d+1)<=0.
+
+At `a=d` it reduces to `2pi<=(r-1)(d-1)`. At `r=2,a=d`, the
+nilbundle has degree exactly `-d-2pi`. This proves the all-degree
+balanced-rational Cartier-double obstruction `2pi>d-1`, conditional
+on the actual double relation and nonzero first conormal map.
+
+The accepted quintic input gives only `ell<=-7/2`, hence
+`-7<=ell<=-4`; the new criterion does not exclude it. The existing
+quartic bisection instance is used as an accepted specialization,
+not reverified.
+
+During review I found one overbroad monotonicity sentence: increasing
+`r` need not weaken the Euler bound merely because `pi>=g` when
+`a` and `d` differ. The author corrected this before finalization.
+Writing the upper bound as
+
+    -A-(A+B)/(r-1),
+    A=d^2/a, B=d kappa/a+2(1-g),
+
+shows that enlargement weakens it precisely when `A+B>=0`.
+For `a=d` this sign is `2(pi-g)`. No theorem conclusion depended
+on the former broad sentence.
+
+This review accepts the stated conditional inequalities and ribbon
+construction. It supplies no global Cartier-index bound, no
+classification of the multiplication defects, no exclusion for
+multiple normalization primes, and no unrestricted STCI resolution.
+
+
+---
+
+<a id="source-2026-10-14-normal-carrier-picard-local-torsion-primarymd"></a>
+
+## Normal carrier Picard and local torsion: primary sources and new index audit
+
+Date: 2026-10-14. Owner: `normal_torsion_primary`, child of `conductor_general`.
+
+Scope: integral normal hypersurface surface `X` in projective three-space over an algebraically closed characteristic-zero field. The smooth rational quartic `C0` is fixed. Previously accepted exclusions of all mates of degree at most four are premises; no inherited verification was rerun. This note records new source checks and new numerical deductions only.
+
+### 1. Picard torsion vanishes; Weil class torsion need not vanish
+
+**KNOWN, primary theorem.** [Grothendieck, SGA 2, Expose XII, Corollary 3.5](https://wstein.org/sga/circle/SGA2.pdf), printed p.120, PDF page 128: for a projective scheme `V`, an ample invertible sheaf, and a regular section with zero scheme `Z`, the map of etale fundamental groups is surjective when the ambient depth at closed points is at least two. With depth at least three at closed points of `Z`, and purity at closed points outside `Z`, it is an isomorphism. Regular local rings give the required purity.
+
+Apply this with `V=P3`, the ample sheaf `O(a)`, and the equation of `X`. The ambient local rings have depth three and are regular everywhere. Thus `pi_1^et(X)=pi_1^et(P3)=1`. The triviality for projective space can also be obtained by repeated applications of the same corollary starting with `P1`, whose connected finite etale covers are trivial by Riemann-Hurwitz.
+
+**PROVED consequence.** [Stacks Project, Kummer theory, Lemma 59.28.1](https://stacks.math.columbia.edu/tag/03PK) applies to every positive integer in characteristic zero. Since the only global units on integral proper `X` are constants and the field is algebraically closed, Kummer gives
+
+`Pic(X)[n] = H^1_et(X,mu_n) = Hom_cont(pi_1^et(X),mu_n) = 0`.
+
+Therefore `Pic(X)` is torsion-free. This statement does **not** imply that `Cl(X)` is torsion-free.
+
+**KNOWN, primary local-global sequence.** [Hartshorne--Polini, Divisors Class Groups of Singular Surfaces, Proposition 2.2(c)](https://arxiv.org/pdf/1301.3222), pp.2--3, gives the sequence of Picard, almost Picard, and local almost Picard groups. For a normal surface it specializes to
+
+`0 -> Pic(X) -> Cl(X) -> direct_sum_{P in Sing(X)} Cl(O_X,P)`.
+
+Exactness at `Cl(X)` is the required assertion; no surjectivity onto the direct sum is assumed. Picard torsion-freeness implies that localization is injective on the torsion subgroup of `Cl(X)`.
+
+### 2. Exact local-index formula for the normal quartic carrier
+
+Write `a=deg X`, `g=gcd(a,4)`, `mu=a/g`, `v=4/g`, and
+
+`Delta0 = mu[C0] - v[H]`.
+
+Assume `Delta0` has finite order `t`; this is the accepted normal-carrier mate criterion. The accepted exact progression of mate degrees gives `b_min=v*t`.
+
+**PROVED HERE.** Let `r_P` be the algebraic local Cartier index of `C0` at `P in C0 intersect Sing(X)`. These indices are finite: the torsion relation makes `t*mu*C0` Cartier. Off `C0`, the local class of `Delta0` is zero. At a point on `C0` its local class is `mu[C0]_P`, hence its order is `r_P/gcd(r_P,mu)`. Injectivity of localization on global torsion gives
+
+`t = lcm_P (r_P/gcd(r_P,mu))`.
+
+Set `R=lcm_P r_P`, using `R=1` for the empty set. For each prime `ell`, the valuation on the preceding least common multiple is
+
+`max_P max(v_ell(r_P)-v_ell(mu),0) = max(v_ell(R)-v_ell(mu),0)`.
+
+Consequently
+
+`t = R/gcd(R,mu)` and `b_min = (4/g)*R/gcd(R,a/g)`.
+
+If `R` divides `a=g*mu`, the valuation formula gives `t` dividing `g`, so `b_min<=4`. The accepted low-degree exclusions therefore imply:
+
+**Every normal carrier admitting a mate must have at least one singular point on `C0` whose local Cartier index does not divide the carrier degree.**
+
+The special case `C0` disjoint from `Sing(X)` has `R=t=1` and is excluded. The same conclusion follows directly because then `C0` is Cartier everywhere, so `Delta0` is a torsion element of `Pic(X)` and must vanish.
+
+### 3. Ordinary nodes and bounded local exponents
+
+**KNOWN, primary local class computations.** [Brevik--Nollet, Local Picard Groups, Sections 4.1.1--4.1.3](https://arxiv.org/pdf/1110.1867), pp.8--9, give the completed rational-double-point class groups:
+
+| Type | Completed local class group | Exponent |
+|---|---|---|
+| `A_n` | `Z/(n+1)` | `n+1` |
+| `D_n`, `n` odd | `Z/4` | `4` |
+| `D_n`, `n` even | `(Z/2)^2` | `2` |
+| `E_6` | `Z/3` | `3` |
+| `E_7` | `Z/2` | `2` |
+| `E_8` | `0` | `1` |
+
+Their Proposition 2.4 uses the injective map from the algebraic local class group to the completed class group. Its injectivity follows by faithful flat descent: if the completed rank-one reflexive module is free, the original module is free. In this normal excellent setting completion preserves the relevant rank-one reflexive module.
+
+Source caution: the introductory summary at the beginning of their Section 4 reverses some `D_n` parity and `E_6/E_7` assignments. The detailed subsections and the introduction's explicit `D_n` discussion agree with the table above; use those precise locations.
+
+**PROVED HERE, node corollary.** At an ordinary node, completion has exponent two, so `r_P` divides two. A smooth curve through a singular surface point cannot be Cartier: if its local ideal is `(f)`, the one-dimensional quotient is regular, giving embedding dimension of the surface local ring at most two, hence regularity. Thus a node on `C0` has `r_P=2`.
+
+If all singularities on `C0` are ordinary nodes, `R` is one or two. For even `a`, `R` divides `a`; all these carriers are excluded. For odd `a`, the torsion formula alone requires a node on `C0`, and then `g=1`, `mu=a` odd, `R=t=2`, and `b_min=8`. The stronger Cartier-intersection constraint in Section 6 also excludes this odd-degree possibility. Thus the final result excludes all normal carriers with only ordinary nodes on `C0`, in every carrier degree covered by the accepted low-degree-carrier exclusions.
+
+More generally, if every on-curve local class group has exponent dividing `L`, then `R` divides `L` and
+
+`t divides L/gcd(L,mu)`, so `b_min <= (4/g)*L/gcd(L,a/g)`.
+
+All new formulas and both node parity consequences passed an independent symbolic argument supplied to `conductor_general`. Algebraic local indices, not an unsupported equality between algebraic and analytic class groups, are used throughout.
+
+### 4. Failure shield: normal hypersurface class groups can have torsion
+
+**KNOWN construction plus explicit consequence.** [Elsenhans--Jahnel, Kummer Surfaces and the Computation of the Picard Group, Sections 4.2--4.3](https://arxiv.org/pdf/1109.4346), pp.6--7, describe a Kummer quartic `Q` with sixteen ordinary nodes, its abelian double cover, and the divisibility of the exceptional sum on the resolution `S`:
+
+`2 alpha = E_1+...+E_16` in `Pic(S)`.
+
+The exceptional curves are linearly independent over the rationals, as their intersection matrix is diagonal with entries `-2`. Under `Pic(S)=Cl(S) -> Cl(Q)`, the class of `alpha` has order two: its double is exceptionally supported, while `alpha` cannot be an integral combination of the `E_i`. Thus a normal quartic hypersurface has nonzero torsion in its Weil class group, although its Picard group is torsion-free.
+
+This example defeats any unrestricted claim that normal projective hypersurfaces in `P3` have torsion-free `Cl`. It supplies no normal carrier for `C0` satisfying the required torsion relation; that is a separate problem.
+
+### 5. Precise cyclic-cover source and its scope
+
+[Ambro, Cyclic Covers and Toroidal Embeddings, Section 4, Lemmas 4.1--4.2](https://arxiv.org/pdf/1310.3951), pp.25--26, prove that a torsion Weil divisor of exact order `t`, with `t` prime to the characteristic, gives an irreducible normal cyclic cover of degree `t` by adjoining the root of a principal representative of `tD`. Lemma 3.5, p.22, gives the codimension-one ramification index `t/gcd(t,ord_E(phi))`; the proof of Lemma 3.6, p.23, gives etaleness on the regular locus when `D` is integral. Hence the torsion cover is quasi-etale, rather than necessarily etale at singular points.
+
+Source caution: Theorem 0.1(a)'s introductory phrase about the entire etale locus, if read literally for non-Cartier integral `D`, is overbroad and conflicts with the stated flatness criterion. The precise later lemmas and the local Cartier argument are sufficient here. Do not use that introductory phrase to erase singular-point ramification.
+
+No statement about the fundamental group of `X_reg` being trivial has been obtained or assumed. The Kummer example proves that such a general assertion is false. No universal bound on `t` across unbounded carrier degree is claimed.
+
+### 6. New integral Cartier-intersection constraint and finite index families
+
+Added on 2026-10-14 after the preceding source work. This is a new independent audit of the root's suggested strengthening, not a replay of an inherited computation.
+
+**PROVED HERE.** Under the mate relation, `C0` is Q-Cartier. By the definition of each algebraic local index, `R*C0` is Cartier at every singular point on `C0`. It is automatically Cartier at regular points and, as a divisor, is zero locally outside `C0`. Therefore `R*C0` is globally Cartier.
+
+If a mate gives `m*C0 ~ b*H`, intersection with `H` gives `4m=ab`, so `b/m=4/a`. The rational self-intersection is consequently
+
+`C0^2 = (b/m)(H.C0) = 16/a`.
+
+Equivalently, one can avoid treating the Q-Cartier self-intersection as a separate definition: restrict the line-bundle relation for `m*R*C0 ~ b*R*H` to `C0`, then take integer degrees and divide by `m`. Since `H|C0` has degree four, this gives
+
+`deg(O_X(R*C0)|C0) = 4bR/m = 16R/a`.
+
+The left side is the degree of an actual invertible sheaf on the smooth projective curve. It is an integer, hence
+
+`a divides 16R`.
+
+This argument would also work for an integral projective curve of degree `d`, giving `a divides d^2 R`, whenever the mate relation and actual local Cartier indices exist.
+
+**PROVED finite arithmetic consequences.** Assume the accepted exclusion of normal carrier degrees at most four, so a surviving carrier has `a>=5`. If every local index divides a fixed integer `L`, enumerate only
+
+`R|L`, `a|16R`, `g=gcd(a,4)`, `t=R/gcd(R,a/g)`, `b_min=(4/g)*t>4`.
+
+An elementary integer divisor enumeration gives:
+
+| Local index bound | Surviving `(a,R,t,b_min)` |
+|---|---|
+| `L=2` | none |
+| `L=3` | none |
+| `L=4` | none |
+| `L=6` | none |
+| `L=12` | `(6,12,4,8)` and `(8,12,6,6)` |
+
+For `L=12`, the proper-divisor values `R=1,2,3,4,6` are already excluded by the preceding rows. For `R=12`, the carrier degrees to inspect are the divisors of `192` at least five: `6,8,12,16,24,32,48,64,96,192`. Substitution in the exact torsion formula leaves precisely `6` and `8`; the degree `12` case has mate degree four and the remaining cases have smaller mates. The enumeration was also checked with a short Python integer-divisor loop; this is elementary arithmetic verification, not a new CAS certificate or a rerun of an old verifier.
+
+**Final node conclusion.** On-curve ordinary nodes give `R<=2`, so `a|32`. No odd carrier degree at least five divides `32`; the even degrees have already been excluded by `b_min<=4`. Hence all normal `C0` carriers whose on-curve singularities are ordinary nodes are excluded, assuming the accepted carrier-degree-at-most-four exclusions. Singularities away from `C0` are unrestricted in this statement.
+
+The two `L=12` rows are only necessary arithmetic survivors. No existence statement, classification of actual on-curve ADE configurations, or global normal-carrier resolution follows from this table alone.
+
+
+---
+
+<a id="source-2026-10-14-generalization-normal-carrier-torsion-filtermd"></a>
+
+## All-degree torsion filter for normal carriers of fixed C0
+
+Date: 2026-10-14. Owner: `global_structure`. Status: **NEW DIRECT
+COROLLARY OF ACCEPTED PREMISES; independent review requested**.
+No earlier verifier or proof was rerun.
+
+### 1. Exact divisor-class criterion
+
+Let `X subset P3` be a normal integral surface of degree `a` containing
+the fixed smooth rational quartic `C0`, over an algebraically closed
+field of characteristic zero. Let `H=O_X(1)` and let `c` be the
+smooth Weil prime `C0` on `X`. Put
+
+    h=gcd(a,4),    u=a/h,    v=4/h,
+    Delta=u c-v H in Cl(X).
+
+If a degree-`b` mate exists, its Cartier divisor is `m c` and
+intersection with `H` gives `4m=ab`. Hence `m=u k,b=v k` and
+
+    k Delta=0.
+
+Conversely, if `Delta` is torsion of order `t`, its class relation
+`t u c~t v H` supplies a global section of `O_X(tv)` with divisor
+exactly `tu c`. Normality means no conductor descent remains. The
+hypersurface restriction sequence lifts this section to an ambient
+form of degree `tv`, giving a mate. Every normalized mate section is
+unique up to scalar at its degree, because its specified divisor is
+fixed and `X` is proper integral.
+
+Therefore the complete normal-carrier criterion is:
+
+    a mate exists iff Delta is torsion;
+    if it does, its minimum mate degree is b_min=t*4/gcd(a,4).  (1)
+
+This statement uses normality, not smoothness or Cartierness of `c`.
+It covers arbitrary singularities and arbitrary carrier degree.
+
+### 2. The accepted low-degree theorem forces nonzero torsion
+
+The accepted fixed-C0 plane/quadric/cubic/quartic exclusions prohibit
+any ambient mate of degree at most four, regardless of the other
+carrier degree. If `Delta=0`, the converse construction above gives
+a mate of degree `v`, which is one, two, or four. This is impossible.
+
+Consequently every surviving normal carrier with a mate has
+
+    Delta nonzero torsion,   t*v>=5.                         (2)
+
+In particular **every normal carrier with torsion-free `Cl(X)` is
+excluded for fixed C0 in every mate degree and every carrier degree**.
+More generally, any normal carrier whose torsion subgroup does not
+contain the required nonzero class order is excluded.
+
+The congruence cases are:
+
+| Carrier degree | `v` | Necessary class order and smallest possible mate degree |
+|---|---:|---|
+| `a` odd | 4 | `t>=2`, `b_min>=8` |
+| `a=2 mod 4` | 2 | `t>=3`, `b_min>=6` |
+| `a=0 mod 4` | 1 | `t>=5`, `b_min>=5` |
+
+These are exact necessary class-order restrictions, not a theorem
+that the indicated classes occur or that their divisor is the fixed
+embedded curve.
+
+### 3. Resolution formulation and a coverage warning
+
+For a smooth projective resolution `M->X`, the class group can be
+computed as the Picard group modulo the classes of exceptional primes.
+The relevant torsion is therefore controlled by nonprimitive embeddings
+of the exceptional lattice and, where present, Picard torsion.
+Knowing that `Pic(M)` is torsion-free does not by itself show that
+`Cl(X)` is torsion-free: a quotient by a nonprimitive exceptional
+subgroup can acquire torsion. One must use the actual saturated
+exceptional lattice, not silently discard this quotient torsion.
+
+The accepted quartic/quintic lattice arguments already preserve this
+distinction in their respective finite ADE types. The present result
+does not classify exceptional lattices at arbitrary carrier degree.
+It proves an all-degree exclusion for the torsion-free class-group
+lane and leaves the required nonzero torsion classes as an explicit
+global obstruction to be studied.
+
+The Cartier-lift classification gives a different all-degree boundary:
+a smooth rational degree-`d>=3` curve with a mate on a normal carrier
+must be non-Cartier somewhere. The present torsion filter additionally
+requires the particular primitive degree-zero divisor class `Delta`
+to be nonzero torsion for fixed C0. Neither condition supplies a
+uniform bound on all normal carriers.

@@ -12,14 +12,11 @@ statement: "The dual discriminant has the stated scheme-theoretic intersection i
 dependencies:
   - STCI-R-0026
 evidence:
-  - "research/notes/2026-10-24-quartic-dual-intersections.md"
-  - "research/notes/2026-10-24-quartic-dual-singular-scheme.md"
+  - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
   - "research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2"
-  - "research/computations/quartic_dual_singular_scheme_2026_10_24_m2.txt"
 independent_audits:
-  - "research/notes/2026-10-24-quartic-flag-duality-independent-audit.md"
-  - "research/PROMOTION_ADJUDICATION_CR44-46_2026-10-26.md"
-accepted_in: "research/PROMOTION_ADJUDICATION_CR44-46_2026-10-26.md"
+  - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
+accepted_in: "research/supplements/QUARTIC_DUAL_SCHEMES.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -54,6 +51,6 @@ Distinguishes the unmixed singular cycle from its two embedded endpoint contribu
 ## Limitations
 No global STCI obstruction and no claim about other dual varieties.
 
-## Permanent evidence navigation
+## Current proof
 
-The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/05-exclusions.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
+[Dual discriminant: intersections, singular cycle and endpoint socles](../supplements/QUARTIC_DUAL_SCHEMES.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

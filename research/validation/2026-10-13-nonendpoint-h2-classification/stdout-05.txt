@@ -1,6 +1,0 @@
-PASS 1: literal normalized P, with every delta factor retained
-PASS 2: literal normalized J, with every delta factor retained
-PASS 3: four complete affine coefficient constraints
-PASS 4: zero-cubic boundary signs, not part of exact h2
-PASS 5: exact finite-H coefficient matrix
-PASS 6: determinant separates repeated H and exceptional conic

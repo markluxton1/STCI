@@ -1,16 +1,16 @@
-# Phase 2 addendum: ruled normalizations and conditional conductor boundaries
+# Ruled normalizations and the conditional sextic lifting problem
 
 ## Paired-secant cubic
 
 The finite normalization of the cubic x0*x2^2=x1^2*x3 is F1, with hyperplane class E+2f. On x0=1 its local ring inclusion is k[r,rw,w^2] inside k[r,w]. The upstairs conductor is (r); the downstairs conductor is the reduced double-line ideal (x1,x2). The conductor section maps two-to-one to the line, branched at the endpoints. The strict quartic lift has class 2E+2f, but the full inverse ideal is (w-r^2)(r,w), with an embedded length-one defect at each endpoint. The same F1 is the smooth cubic scroll S(1,2) in P4, projected from the omitted middle coordinate. On the smooth quadric the cubic cuts C0 plus the two limiting tangent trisecants. In characteristic two the conductor cover is inseparable and the scroll is a tangent developable.
 
-Sources: research/notes/2026-10-24-cubic-scroll-normalization.md and research/notes/2026-10-24-p4-ruled-models-independent-audit.md. Independently reviewed provisional geometry, not a new STCI result.
+Sources: [current proof](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-normalization) and [current proof](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md). Independently reviewed provisional geometry, not a new STCI result.
 
 ## Projection cone and four-section quartic
 
 The projected cone over C0 has ring k[s^4,s^3t,st^3,t^4], missing the integral element s^2t^2. Its normalization is the complete fourth Veronese cone, with conductor supported at the vertex and an upstairs dual-number quotient. The correct factorization is F4 contracting the negative section to the normal cone, followed by finite normalization of the projected cone. F4 itself is not finite over the projected cone. The related four-section quartic has conductor (x0,x1)^2 downstairs; its transverse ring is k[v^3,v^4,b] inside k[v,b], with conductor v^6. Full inverse ideals can have embedded endpoint corrections of colength six.
 
-Sources: research/notes/2026-10-24-p4-ruled-surfaces-synthesis.md and its independent audit. Elementary transformations and mu4 arithmetic remain in the ruled-geometry family.
+Sources: [current proof](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md) and its independent audit. Elementary transformations and mu4 arithmetic remain in the ruled-geometry family.
 
 ## Conditional (6,16) singular-root interface
 
@@ -18,7 +18,7 @@ The October 20 proposal assumes an actual supported (6,16) pair, full generic co
 
 The October 21 conductor-budget proposal originally depended on an anticanonical contraction hypothesis. The independent continuation audit subsequently VERIFIED that hypothesis in the precise actual-pair setting: a cubic-image model V is a smooth integral threefold with canonical bundle O(-2), and the strict sextic descends to an integral anticanonical surface T. Finite duality and the local monic double-cover normalization then exclude singular-curve contacts at ramified simple base zeros. Combined with the separate nodal analysis, the reviewed result gives a sharp NECESSARY alternative for any actual pair: the multiplier alpha has a multiple base zero, or alpha vanishes at a node of the full root. For a smooth full root the necessary discriminant equation is Disc_8(Ncomp(tau))=0, of degree 28 in the root coefficients. These exceptional strata have not been eliminated; no complete exclusion follows. A different proposed nodal normalization obtained by dividing by a nonunit was rejected as nonfinite. Its suggested integral replacement is not yet certified normal or equipped with an exact conductor.
 
-Sources: research/notes/2026-10-20-conditional-2-12-singular-gluing.md and research/notes/2026-10-21-conditional-2-12-conductor-ramification.md. Conditional cross-family work, not promoted.
+Sources: [current proof](../supplements/SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md) and [current proof](../supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification). Conditional cross-family work, not promoted.
 
 ## Seven-cubic contraction and five-quadric anticanonical model
 
@@ -38,7 +38,7 @@ The homogeneous ring has free resolution of ranks \((1,5,5,1)\), shifts \((0,2,3
 
 Every sextic in \(H^0(I_{C_0}^2(6))\) is a quadratic expression in these seven cubics and descends to \(T\in|\mathcal O_V(2)|\), with \(\omega_T=\mathcal O_T\). **For an actual supported pair** the low-degree carrier exclusion forces the sextic, its strict transform, and \(T\) to be integral, and the quadric cannot be a component. Finite duality for the normalization \(Y\to T\) identifies \(\omega_Y\) with its full conductor ideal, and the resulting conductor curve \(\Delta\) satisfies \(\omega_\Delta=\mathcal O_\Delta\), even if the conductor is nonreduced or \(Y\) is not Gorenstein. A generically reduced irreducible conductor component of multiplicity one must have arithmetic genus at most one. This global restriction drives the reviewed exclusion of ramified contacts over **simple** zeros of the multiplier \(\alpha\). It does not exclude repeated zeros or nodal root contacts where \(\alpha\) vanishes.
 
-The exact cubic model, graph identification, conductor duality, and simple-zero exclusion received an independent **PASS under the conditional actual-pair hypotheses**. A different nodal example's purported finite normalization by dividing by a nonunit was explicitly **rejected** and is not used. No unconditional \((6,16)\) or STCI exclusion follows. [Cubic image and conductor construction](../notes/2026-10-21-conditional-2-12-cubic-image-and-conductor-interface.md); [independent review and rejected nodal claim](../notes/2026-10-21-conditional-2-12-surface-audit-cont2.md).
+The exact cubic model, graph identification, conductor duality, and simple-zero exclusion received an independent **PASS under the conditional actual-pair hypotheses**. A different nodal example's purported finite normalization by dividing by a nonunit was explicitly **rejected** and is not used. No unconditional \((6,16)\) or STCI exclusion follows. [Cubic image and conductor construction](../supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface); [independent review and rejected nodal claim](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2).
 
 ## Exact global sextic-symbol restriction in the conditional (6,16) lane
 
@@ -64,7 +64,7 @@ The next necessary global lifting equation compares the **actual cubic jet** of 
 \]
 This is a finite 40-coefficient condition, distinct from the first and second local ambient classes and from the full spectral torsion criterion. The smooth torsion-two seed \(f_0=(z^2+4)u^2+(z^2-8)v^2\) admits a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying the eleven equations, but it **fails** the cubic comparison (an exact annihilating pairing is \(-384\)) and already fails the independently accepted second obstruction. This is a seed exclusion, not emptiness of the combined incidence.
 
-The reviewed singular-root bridge uses the actual transformed ideal \((p,t^{10})\) and proves necessity of the ambient classes even for singular reduced roots, under the stated actual-pair hypotheses. The remaining structured scheme also retains all twenty-five second-obstruction pairings and full-scheme spectral torsion (including nodal gluing); its emptiness, nonemptiness, and realization by a globally supported pair are **unresolved**. The independent audit passed the exact symbol map and conditional necessity reductions, without promoting a general STCI exclusion. [Symbol map and cubic comparison](../notes/2026-10-20-conditional-2-12-symbol-map.md); [global incidence](../notes/2026-10-20-conditional-2-12-global-realization-incidence.md); [independent audit](../notes/2026-10-20-conditional-2-12-incidence-audit.md).
+The reviewed singular-root bridge uses the actual transformed ideal \((p,t^{10})\) and proves necessity of the ambient classes even for singular reduced roots, under the stated actual-pair hypotheses. The remaining structured scheme also retains all twenty-five second-obstruction pairings and full-scheme spectral torsion (including nodal gluing); its emptiness, nonemptiness, and realization by a globally supported pair are **unresolved**. The independent audit passed the exact symbol map and conditional necessity reductions, without promoting a general STCI exclusion. [Symbol map and cubic comparison](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map); [global incidence](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-global-realization-incidence); [independent audit](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-incidence-audit).
 
 ## The finite source incidence and its constant-rank cubic obstruction
 
@@ -115,7 +115,7 @@ The coefficient equations become \(h_i+\eta\tau_i=(a\ell,\ b\ell+am,\ c\ell+bm)_
 
 ## Existing full-lift exclusion on the free cube-orbit chart
 
-The historical [free cube-orbit global sextic calculation](https://github.com/markluxton1/STCI/blob/main/research/notes/2026-10-21-cont2-free-orbit-global-sextic-exclusion.md) already includes the previously omitted \(\eta q^3\) freedom. It concerns a **restricted chart**, not all quadratic roots: the multiplier is the canonical cube norm of the quadric-line restriction, both endpoint coefficients are nonzero, and no two roots lie in the same primitive-cube orbit. The application to actual supported pairs additionally depends on the separate quadric-cycle norm necessity bridge.
+The historical [free cube-orbit global sextic calculation](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-cont2-free-orbit-global-sextic-exclusion) already includes the previously omitted \(\eta q^3\) freedom. It concerns a **restricted chart**, not all quadratic roots: the multiplier is the canonical cube norm of the quadric-line restriction, both endpoint coefficients are nonzero, and no two roots lie in the same primitive-cube orbit. The application to actual supported pairs additionally depends on the separate quadric-cycle norm necessity bridge.
 
 After the first ambient equations and the chart normalization, its candidate scheme is
 \[
@@ -136,11 +136,11 @@ Their difference \(E_4-6E_8=18h-324h^3\) eliminates \(\eta\), and the exact poly
 \]
 Thus the **entire stated free-orbit chart is empty**, even allowing the sextic lift to vary by \(q^3\). The historical note records independent rational-arithmetic verification. This is a stronger scoped exclusion than a single failed seed, but it does **not** decide the endpoint strata, orbit collisions, or unrestricted movement-two incidence. The retained collision-boundary computation uses multiplication by \(\alpha\) in \(k[z]/(D)\) and cannot be replaced by cancellation of \(\alpha\).
 
-The correction to the previous synthesis is therefore twofold: the fixed-lift \(-384\) pairing alone must not be overinterpreted, **and** a pre-existing exact full-lift certificate already resolves the separate free-orbit subfamily. Future work should concentrate on the uncovered strata rather than repeat this chart's elimination.
+The general warning about testing only one lift remains essential. For the saved smooth seed, however, the exact coefficient row also annihilates the q³ direction, as shown below; its −384 pairing therefore already excludes all lifts. Independently, the full-lift unit certificate resolves the separate free-orbit subfamily. Neither calculation exhausts the uncovered strata.
 
 ## Two-node root strata: exact exclusions and retained pencils
 
-The historical [forced-norm two-node continuation](https://github.com/markluxton1/STCI/blob/main/research/notes/2026-10-21-conditional-2-12-singular-continuation2.md) gives more than an unclassified singular-root boundary. Under its stated actual-pair, saturated movement-two, forced-norm and two-node hypotheses, it computes the nonzero cubic-defect locus. The generic component decomposes into a line and a conic. The **entire generic line component** is excluded by exact first-incidence plus spectral-torsion unit calculations for \(w=1\) and the primitive cube-root branches. The nonzero-defect \(B=0\) and \(C=0\) boundaries are also excluded, the latter by the actual involution \(x_0\leftrightarrow x_3,\ x_1\leftrightarrow x_2\). These are scoped coefficient-scheme exclusions, not an unrestricted characteristic-zero theorem.
+The historical [forced-norm two-node continuation](../supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-singular-continuation2) gives more than an unclassified singular-root boundary. Under its stated actual-pair, saturated movement-two, forced-norm and two-node hypotheses, it computes the nonzero cubic-defect locus. The generic component decomposes into a line and a conic. The **entire generic line component** is excluded by exact first-incidence plus spectral-torsion unit calculations for \(w=1\) and the primitive cube-root branches. The nonzero-defect \(B=0\) and \(C=0\) boundaries are also excluded, the latter by the actual involution \(x_0\leftrightarrow x_3,\ x_1\leftrightarrow x_2\). These are scoped coefficient-scheme exclusions, not an unrestricted characteristic-zero theorem.
 
 The surviving nonzero-defect locus from that calculation is the generic conic
 \[
@@ -157,9 +157,183 @@ where the global cubics \(H_i\) have the prescribed first symbols. For an actual
 
 The two-node continuation identifies the complete twenty-five second pairings, spectral torsion, and actual cubic-jet matching as the next tests for these retained strata. Its original note records the independent-review status and exact computational artifacts; this synthesis does not promote unreviewed component calculations beyond their stated scope.
 
+## Actual quadric-cycle norm bridge
+
+The preceding root and symbol data acquire a stronger necessary multiplier only from an **actual** degree-(6,16) pair with sole reduced support, full generic coprime ordinary initial CI (2,12), and actual saturated movement-two first relation. Let `B=Bl_C(P3)`, `E` its exceptional divisor, and use the reviewed transformed ideal `(p,t^10)` at every full-root point. Let `Q=(q=0)`, `q=x0x3-x1x2`, identify `C~(1,3)` on Q, and write `pi3:C→P1_ruling`, `z→z^3`. The quadric direction is `q1=u+zv/2`; for `f=a u²+buv+c v²`, put `tau=f(-z/2,1)`. This is a homogeneous quartic. The argument below explains why its **actual residual cycle**, rather than merely its generic symbol, forces the complementary norm multiplier. It preserves the independently reviewed source proof.
+
+### The quadric direction is not a root component
+
+An actual supported pair cannot have `Q` as a component of `F6`.
+Otherwise `G16|Q` is a nonzero effective Cartier divisor with sole
+reduced support `C0`: `G` cannot contain `Q`, since the global pair
+has no common hypersurface factor. Such a divisor would be `m*C0`,
+whereas its class is `(16,16)` and `C0` has class `(1,3)`. No
+integer `m` gives these two classes.
+
+Consequently `tau` is not identically zero. Indeed if `tau=0`,
+then the restriction `F6|Q` has order at least three on `C0`.
+The remainder would have class
+
+    (6,6)-3(1,3)=(3,-3),
+
+which is not effective on the smooth quadric. Hence `F6|Q` would
+vanish identically, forcing the already excluded quadric factor.
+
+Thus an actual global pair satisfies the additional open condition
+
+    q1 does not divide f,             tau != 0.
+
+This removes a permitted reduced two-component spectral stratum.
+Whether an earlier global lifting test already removes it is a
+separate implication, not assumed here.
+
+### Residual quadric divisors and the exact contact scheme
+
+The restrictions are
+
+    div(F6|Q)=2C0+R,      R of class (4,0),
+    div(G16|Q)=2C0+T,     T of class (14,10).
+
+Both multiplicities along `C0` are exactly two, since their generic
+symbols restrict to nonzero multiples of `tau`. The residual
+divisor `R` is a sum of ruling fibers, with their actual positive
+multiplicities. The divisors `R,T` have no common component and no
+common point outside `C0`, by sole reduced support of the original
+pair. In particular
+
+    R.T=40.
+
+The strict transform `Q'` is isomorphic to `Q`: blowing up a
+Cartier divisor `C0` on the smooth quadric does not change that
+surface. Under this isomorphism, `E|Q'=C0`, and restriction of the
+common order-two transforms gives precisely the divisors `R,T`.
+
+At a point of the full root meeting the quadric direction section,
+restrict the actual transformed ideal `(p,t^10)` to `Q'`. Since
+`tau` is nonzero, `(p,t)` on the smooth surface `Q'` has finite
+colength, equal to the root/quadric-direction intersection
+multiplicity `nu` there. The regular-sequence filtration gives
+
+    length O_(Q',x)/(p,t^10)
+      =10*length O_(Q',x)/(p,t)=10*nu.                    (1)
+
+This does not require `p=0` to be smooth. Away from the full root,
+the transformed ideal is the unit ideal near `E`, so there are no
+other residual intersection points on `C0`.
+
+Summing (1) gives exactly
+
+    R.T=10*(Z . Q_direction)=10*4=40.                    (2)
+
+Thus the elementary quadric degree budget saturates; it gives no
+numerical contradiction. It also identifies all contacts and their
+scheme lengths rather than treating a vertical exceptional curve
+as a residual component downstairs.
+
+### The forced norm, with collision and ramification multiplicities
+
+The local formula implies more than the total equality (2). Write
+`R=sum m_y L_y` as a divisor of ruling fibers. Since `T.L_y=10`,
+and `T` has no component `L_y`, restriction to that fiber gives
+
+    10*m_y
+       =sum_(x in C0 intersect L_y) i_x(R,T)
+       =10*sum_(x in pi3^-1(y)) ord_x(tau).
+
+Hence the actual divisors satisfy
+
+    R=pi3_* div(tau).                                    (3)
+
+On the affine quadric chart the equation of `C0` is `v=b-z^3`,
+and `F6|Q=v^2 R4(b)`. Comparing its second symbol with `alpha*f`
+gives `alpha(z)*tau(z)=R4(z^3)`. Together with (3), this yields
+
+    div(alpha)=pi3^* pi3_* div(tau)-div(tau).              (4)
+
+Thus the actual degree-eight multiplier is uniquely determined
+projectively by `tau`, including branch points and repeated roots.
+If `zeta` is a primitive cube root of unity, an explicit formula is
+
+    alpha(z) proportional to tau(zeta*z)*tau(zeta^2*z).    (5)
+
+Formula (5) is a polynomial construction; there is no division by
+`alpha` or by a function vanishing on `C0`. If
+`tau=sum_(j=0)^4 t_j z^j`, the coefficient of `z^m` in the right
+side is
+
+    sum_(2j=m) t_j^2
+      +sum_(j<k, j+k=m) e_(j,k)*t_j*t_k,
+
+where `e_(j,k)=2` if `j=k mod 3`, and `e_(j,k)=-1` otherwise.
+So the same map is defined over QQ without adjoining `zeta`.
+Its homogeneous version is nowhere zero for every nonzero `tau`.
+
+Explicitly the coefficient vector is
+
+    A0=t0^2,
+    A1=-t0*t1,
+    A2=t1^2-t0*t2,
+    A3=2*t0*t3-t1*t2,
+    A4=t2^2-t0*t4-t1*t3,
+    A5=2*t1*t4-t2*t3,
+    A6=t3^2-t2*t4,
+    A7=-t3*t4,
+    A8=t4^2,
+
+where
+
+    t0=c0,
+    t1=c1-b0/2,
+    t2=c2-b1/2+a0/4,
+    t3=-b2/2+a1/4,
+    t4=a2/4.
+
+One may impose `alpha_i*A_j-alpha_j*A_i=0` for all `i<j`, with
+`alpha!=0` and `tau!=0`, or eliminate the projective multiplier by
+substituting `[alpha_0:...:alpha_8]=[A0:...:A8]`. The latter makes
+the eleven global-symbol equations homogeneous cubics in the nine
+coefficients of `f`; it does not alter the actual root coordinates
+or erase any norm ramification stratum.
+
+All ramification multiplicities are retained in this argument.
+At zero or infinity the map `pi3` has ramification index three:
+if `tau` has order `m` there, its norm divisor has order `m`, its
+pulled-back norm has order `3m`, and (4) gives order `2m` for
+`alpha`. In an unramified orbit, with orders `m_0,m_1,m_2` for
+`tau`, (4) gives orders `m_1+m_2,m_2+m_0,m_0+m_1` for `alpha`.
+Thus repeated roots, collisions within an orbit and the two branch
+fibers are covered without a genericity exception.
+
+This supplies an exact additional necessary global-pair condition
+on the low-order scheme: impose the projective equality in (5),
+or substitute its quadratic coefficient vector for `alpha`, on
+the open `tau!=0`. When the four roots of `tau` lie in distinct
+unramified `pi3` fibers, the sextic symbol restriction on Q already
+forces this multiplier. On collision and branch strata that
+restriction can leave other choices; (3)-(5) retain the one forced
+by the ACTUAL supported pair and its gap-ten contact ideal. No
+claim that this condition is new on every component of the earlier
+incidence is made.
+
+As a consistency check, at the saved smooth seed
+
+    tau=z^4/4+2z^2-8,
+
+the coefficient vector in (5), multiplied by 16, is
+
+    z^8-8z^6+96z^4+256z^2+1024,
+
+the previously computed projective multiplier. This algebraic
+identity does not make that already obstructed seed a survivor.
+
+
 ## Geometric exceptional locus for actual pairs
 
-The October 21 independently reviewed geometric argument gives a necessary condition beyond the sextic symbol incidence. Under actual sole support and the saturated movement-two hypotheses, the full-root multiplier divisor cannot be reduced. For a normal strict sextic, local singularities force total Milnor number at least 144, whereas the global resolution argument bounds it by 50. The nodal extension uses the ample strict mate to eliminate nonnormal singular curves when the divisor is reduced. Hence candidates must lie on the explicit degree-52 discriminant-resultant exceptional locus. This does not prove the exceptional locus empty. See the historical geometric-audit-and-exceptional-locus note for the proof and its dependencies.
+The October 21 independently reviewed geometric argument gives a necessary condition beyond the sextic symbol incidence. Under actual sole support and the saturated movement-two hypotheses, the full-root multiplier divisor cannot be reduced. For a normal strict sextic, local singularities force total Milnor number at least 144, whereas the global resolution argument bounds it by 50. The nodal extension uses the ample strict mate to eliminate nonnormal singular curves when the divisor is reduced. Hence candidates must lie on the explicit degree-52 discriminant-resultant exceptional locus
+\[
+\operatorname{Disc}_8(N_{\rm comp}(\tau))\,\operatorname{Res}_{8,4}(N_{\rm comp}(\tau),\Delta)=0,\qquad\Delta=b^2-4ac.
+\]
+The degrees in the original root coefficients are 28 and 24. The earlier degree-64 condition also included `Disc_4(Delta)`; the reviewed nodal extension removes that factor, since singular roots with a reduced multiplier divisor have already been excluded. Every homogeneous infinity root remains included. This does not prove the exceptional locus empty. See the historical geometric-audit-and-exceptional-locus note for the proof and its dependencies.
 
 ## Singular curves on the strict sextic: two conditional alternatives
 
@@ -171,13 +345,29 @@ If \(\Sigma\) is not contained in the strict quadric \(Q'\sim2H-E\), effectivity
 
 The intersection of the strict sextic with \(Q'\) has ruling class \((4,0)\). Consequently \(\Sigma\) must be a trisecant ruling line, with \(d=1\), \(e=3\), \(n=1\), meeting the full root at one ordinary node in the quadric direction. Its multiplicity in the sextic-quadric intersection is at least two. The forced norm then requires additional multiplier multiplicities along its ruling orbit. The line is not an endpoint branch fiber.
 
-Accordingly, a remaining actual pair under these hypotheses must exhibit **either** nonnormality at a multiplier-zero root point **or** this precise singular trisecant ruling line. This is a conditional classification, not an exclusion. See the [reviewed source](https://github.com/markluxton1/STCI/blob/main/research/notes/2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus.md), section 7.
+Accordingly, a remaining actual pair under these hypotheses must exhibit **either** nonnormality at a multiplier-zero root point **or** this precise singular trisecant ruling line. This is a conditional classification, not an exclusion. See the [reviewed source](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), section 7.
 
-## Exact failed seed and the remaining incidence
+## Exact failed seed: the row also kills the free lift
 
-The smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven quadratic-symbol image equations. This is a positive first-stage realization result for that seed, not a full ambient lift. For a fixed chosen sextic lift, the next cubic comparison has recorded annihilating pairing \(-384\). This alone does **not** rule out another lift differing by \(\eta q^3\); the pairing must also be evaluated on that cubic direction. The seed independently fails the accepted second obstruction, under its stated hypotheses.
+The smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven quadratic-symbol image equations. Its compatible first cubic correction is
+\[
+G_0=(z/8)u^2v-(3/4)uv^2+(z/8)v^3.
+\]
+Use target coordinates \(P_0,\ldots,P_{10},Q_0,\ldots,Q_{10},R_0,\ldots,R_{10}\), followed by \(T_{i,j}\), the coefficient of \(z^ju^{3-i}v^i\). The source's exact annihilating row is
+\[
+\begin{aligned}
+&P_4+64P_8-192P_{10}+Q_5-16Q_7\\
+&+3T_{0,0}-12T_{0,2}+48T_{0,4}-192T_{0,6}+768T_{0,8}\\
+&-2T_{1,1}+8T_{1,3}-32T_{1,5}+128T_{1,7}-512T_{1,9}.
+\end{aligned}
+\]
+It annihilates all 23 actual global sextic source columns and all sixteen correction columns, whereas its pairing with \((\alpha_0f_0,\alpha_0G_0)\) is −384. In particular, the free cubic direction is
+\[
+\tau=(u+zv/2)^3,
+\]
+and its row pairing is \(3-2(3/2)=0\). Thus the exact certificate excludes **every** global sextic lift for this fixed seed, including arbitrary additions of q³. It is not merely a test of one chosen lift. The independent consolidation review checked the saved exact source matrices as well as this coefficient calculation.
 
-The fixed-lift calculation shows that first-symbol membership does not force compatibility of that chosen lift. It is not, by itself, a counterexample to the existence of *some* compatible sextic lift with the same symbol. It does not show the entire incidence empty. The remaining problem must keep the full scheme of singular roots, all twenty-five second-obstruction pairings, and the cubic-jet equations simultaneously. Any argument that divides by \(\alpha\) must first isolate its zero locus, where the compatibility problem changes. The explicit seed and its scope are in [the symbol-map source](../notes/2026-10-20-conditional-2-12-symbol-map.md).
+The source system has 39 unknowns (23 actual sextic coefficients and sixteen correction coefficients), coefficient rank 39 and augmented rank 40. The row above is the small adequate support; the full source matrices retain the coordinate identification. The seed also fails the separately accepted second obstruction, but that independent exclusion is not needed for this cubic certificate. No emptiness result for the full parameter incidence follows: singular roots, all twenty-five second-obstruction pairings, spectral gluing, and the global mate problem remain.
 
 ## What the conditional (6,16) computation actually tests
 
@@ -191,14 +381,14 @@ These conditions sit at different logical levels: (i) root and formal normal alg
 
 The seven-cubic contraction supplies an exact anticanonical surface model **assuming an actual supported pair**. Its duality calculation constrains the conductor of that model, and the simple-zero argument eliminates a specified ramification stratum. This is logically different from the full-conductor descent test for an independently chosen normalization and a proposed mate: in the sextic argument the pair is an antecedent, whereas in the projection program its existence is the conclusion sought.
 
-The eleven linear equations defining the global sextic-symbol image likewise impose necessary realization conditions without selecting a proper degree-sixteen mate. The remaining multiple-base-zero and nodal-contact loci therefore require direct treatment; neither the cubic-image duality nor the symbol rank closes them. For the general descent framework and the role of nilpotent conductor phases, see [Chapter 4](04-carriers.md#42-the-full-conductor-descent-criterion) and [the projection phase synthesis](normalization_conductor_projection.md#23a-full-conductor-phases-an-exact-local-to-family-distinction).
+The eleven linear equations defining the global sextic-symbol image likewise impose necessary realization conditions without selecting a proper degree-sixteen mate. The remaining multiple-base-zero and nodal-contact loci therefore require direct treatment; neither the cubic-image duality nor the symbol rank closes them. For the general descent framework and the role of nilpotent conductor phases, see [Chapter 4](04-carriers.md#42-the-full-conductor-descent-criterion) and [the projection phase synthesis](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md).
 
 ## Remaining boundaries
 
-No arbitrary projection classification, full conductor phase image, higher-index exclusion, global spectral realization, or unrestricted characteristic-zero STCI theorem follows. The separate codex/intersections-containing-quartic-2026-10-27 branch remains excluded. Original mathematical sources are retained.
+No arbitrary projection classification, full conductor phase image, higher-index exclusion, global spectral realization, or unrestricted characteristic-zero STCI theorem follows. The broader source branches are integrated by subject elsewhere; the restrictions here remain conditional and do not claim that every carrier falls in this lane.
 
 
-Source for this correction and stronger reviewed result: research/notes/2026-10-21-conditional-2-12-surface-audit-cont2.md, sections 2-6. Its independent review reports PASS for the cubic-model interface, full conductor duality, and ramified simple-base-zero exclusion, while expressly rejecting the defective nodal normalization. The finite singular-root bridge remains reviewed but unpromoted.
+Source for the stronger reviewed result: [the actual-pair cubic-model and conductor argument](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2), sections 2–6. Its independent review reports PASS for the cubic-model interface, full conductor duality, and ramified simple-base-zero exclusion, while expressly rejecting the defective nodal normalization. The finite singular-root bridge remains reviewed but unpromoted.
 
 
 ### Geometric scope of movement two
@@ -206,3 +396,25 @@ Source for this correction and stronger reviewed result: research/notes/2026-10-
 The canonical reduction STCI-R-0014 identifies movement epsilon with the degree of the coefficient map from C to the projective space of binary degree-r forms. Its first normal-root divisor has bidegree (epsilon,r) on P1_base x P1_direction. In the conditional (6,16) setting, r=2 and epsilon=2, so the full first root is a divisor of bidegree (2,2). Saturation means the coefficient map has no base points; it does not exclude root collisions or ensure coprimality of specialized initial forms. Generic binary-CI coprimality and saturation are separate assumptions. The six numerical rows, including (r,s;a,b)=(2,12;6,16), are necessary candidates only under the complete hypotheses of STCI-R-0013 and STCI-R-0014; they are not a classification of arbitrary STCI presentations.
 
 Canonical source: research/results/movement_two_six_rows.md (STCI-R-0014), geometric clarification in commit ccc9c3965e1645ed2569405e0194e31edb38e9d0. This cross-reference does not promote the conditional singular-root arguments.
+
+## The common lifting mechanism
+
+For the exact linear-algebra statement separating a fixed symbol from its affine lift fiber, see [global lifting interfaces](global_lifting_interfaces.md). Here the symbol map has domain dimension 23, image rank 22, and kernel kq³. The cubic correction map μ_f has constant rank 16 for f≠0. Its actual obstruction is therefore the cubic target modulo `im μ_f + k(q³)_3`, of dimension 24 or 23 according to the stated bounded-polynomial divisibility test. This calculation measures the obstruction to meeting the chosen cubic correction space with an **actual global sextic fiber**; it is not a dimension count proving the nonlinear incidence empty. Higher ambient classes, spectral gluing, a proper degree-sixteen mate, and sole support remain separate.
+
+## Endpoint-four: the finite actual-equation question
+
+On the retained integral nodal endpoint-four chart, normalize a0=1 using the actual ambient torus and its square-root cover as proved in [endpoint-four actual sextics](../supplements/ENDPOINT_FOUR_ACTUAL_SEXTICS.md). The root coefficients become
+\[
+a=1+2b_2z+z^2,\quad b=(\rho+1)z/2+b_2z^2,\quad c=\rho z^2/4,\qquad \rho^{12}=1,\quad\rho\ne1.
+\]
+Every target second symbol z^8f has the actual sextic family displayed in that proof, with the full free q³ coefficient. For each nontrivial twelfth root, over its exact cyclotomic field and retaining the nodal and finite-ruling opens, the remaining question is whether some actual global degree-sixteen form has remainder after division by F6 vanishing through normal degree eleven, with a coprime degree-twelve term.
+
+The coefficients of that mate remain global constants. The actual first-relation multiplier must be nonzero at the endpoint where z^8 vanishes, and the two multipliers must generate the saturated relation line everywhere. These are open and generation conditions on the finite incidence, not consequences of its low-order equations. Both node branches and their gluing modulus rho must be kept. Assuming a regular formal surface would fall into the already excluded scope of R-0018 and would remove the intended singular problem.
+
+The fixed-carrier certificate for the selected rho=−1, b2=0, q³-coefficient=1 excludes only that particular member. The whole endpoint-four family, the distinct tau=z³(1+z) endpoint chart, and nonzero-endpoint orbit collisions remain open. A completed unit ideal or exact obstruction for one retained open would close that chart alone.
+
+## Characteristic range of this conditional lane
+
+The retained lane, its six-row reduction and spectral gluing inputs are characteristic-zero statements. Some proof components are algebraic in wider ranges, but they do not transfer that full hypothesis package. The regular-sequence formula `length A/(p,t^10)=10 length A/(p,t)` and the injectivity of multiplication by nonzero f are characteristic independent when their stated rings, parameters and nonzero conditions exist. The displayed balanced coordinates and source matrices use denominators, notably2; reduction modulo a prime also requires the asserted ranks and kernel to survive. The free cube-orbit treatment uses a separable cubic ruling action and primitive cube roots, so its stated chart is not transported to characteristic3.
+
+The nonzero rational seed pairing −384 is an obstruction over Q; it gives no such contradiction after reduction at primes dividing that value, and any other-prime application must still verify the actual source and inherited hypotheses. The global Milnor/Hodge surface bound is separately characteristic zero. No positive-characteristic exclusion follows by reducing that numerical argument or the degree52 equation. This is compatible with the [actual quartic-carrier construction in every positive characteristic](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) for the fixed embedding.

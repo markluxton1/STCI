@@ -10,7 +10,7 @@ Provisional / exact reduction / conditional / proposed theorem.
 List stable result IDs, source paths, computation commands and expected outputs.
 
 ## Independent audit
-The reviewer must independently reconstruct the argument, not merely endorse the proposing agent. Actively test counterexamples, omitted cases, hidden assumptions, dependency status and exact scope. In particular, distinguish generic statements over k(C) from claims at every point of C, and formal/local constructions from global projective existence. Record reviewer, tested hypotheses, failures, evidence paths, and outcome. Preserve rejected approaches with the specific defect identified. Do not mark accepted before independent review; computations and finite reductions are not automatically proofs of global claims.
+The reviewer must independently reconstruct the argument, not merely endorse the proposing agent. Actively test counterexamples, omitted cases, hidden assumptions, dependency status and exact scope. In particular, distinguish generic statements over k(C) from claims at every point of C, and formal/local constructions from global projective existence. Record the reviewed claim and outcome concisely alongside its mathematical home. Retain informative counterexamples and failed mechanisms through their mathematical content; separate audit narratives are optional. Do not mark accepted before independent review; computations and finite reductions are not automatically proofs of global claims.
 
 ## Frontier impact
 State exactly what closes, remains open, or changes; distinguish a reduction from a completed calculation.

@@ -1,23 +1,10 @@
-# genus two marking and section pause audit
+# Genus-two ruled, plane, and proximity markings
 
-## Dependency guide: audited markings versus unfinished section exclusion
-
-Sections 1–4 provide bounded marking and section-model checks under the accepted genus-two adjoint/conic-pencil inputs. The **noncrepant section exclusion is explicitly unfinished**; its graph and proximity conditions are continuation work, not a proved obstruction. Compare [the conductor/double-cover proof](GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md) for normalization inputs and the [even-fiber](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md) and [three-center](GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md) exclusions for independent bisection restrictions. Preserve the rejected shortcuts and unfinished case analysis below.
-
----
-
-
-Permanent detailed mathematical record, including all proofs, calculations, counterexamples and explicit unresolved conditions.
-
-# October 10 genus-two marking audit and section-case continuation record
-
-Date: 2026-10-10. Auditor: `genus_two_adjoint_audit`. Status:
-**PROVED HERE for the marking arguments in sections 1--4;
-the full noncrepant section exclusion remains OPEN.** This note
-records the requested bounded audit of sections 3, 6 and 8 of
-[the genus-two owner reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd),
-then preserves the unfinished graph work for continuation. No
-canonical frontier file was edited.
+These independently accepted markings retain the actual centers and
+embedded-curve hypotheses. They do not assert that every abstract root
+configuration is realized. The full fixed-C0 quartic-mate problem is
+closed by [the complete carrier proof](../synthesis/quartic_carrier_proof.md);
+the bounded marking and counterexamples below are its reusable geometry.
 
 The prior [adjoint audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-independent-auditmd)
 and [exceptional/mate-strata audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
@@ -171,7 +158,7 @@ fiber makes that fiber's strict transform a null (-2)-curve
 which still meets E. This invalid inference was considered as
 an informal lead and rejected before promotion.
 
-## 5. Current plane/proximity work and its stronger local condition
+## 5. Plane proximity and the stronger local condition
 
 A bounded child audit checks the marked-prime list separately.
 Nefness gives each simple center at most one directly proximate
@@ -203,7 +190,7 @@ with e0-e_i-e_j present still requires separate coverage,
 including its possible unique satellite and the entire
 connected fiber containing the contact vertical line.
 
-## 6. Rejected shortcuts that must survive continuation
+## 6. Counterexamples to shortcuts
 
 * Counting only the centers after a proper line leaves its
   cluster does not count all null root vertices. A cluster with
@@ -226,15 +213,15 @@ connected fiber containing the contact vertical line.
 * q=4 is not a genus-two identity without lambda=0. The general
   identity q+lambda=4 retains both lambda=0 and lambda=1.
 
-## 7. Frozen boundary for the pause
+## 7. Scope
 
-The ruled, D8 and plane markings in sections 1--3 pass this
-independent audit. The F3-preserving-section observation in
-section 4 is also proved with its stated limitations. The
-marked-prime and local-cycle work makes the remaining section
-case finite in its combinatorial inputs, but a complete
-classification and local-descent exhaustion has not been
-proved here. Both (0,4) and (1,3) remain in the frontier until
-separate accepted exclusions justify changing that statement.
-The entire conductor and any proposed genus-one closure are
-separate audits and are not duplicated in this note.
+The ruled marking, D8 lattice, plane marking, optional F3 model, and
+proximity restrictions are the conclusions proved here. The
+[free-chain proof](GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md) excludes
+the absent-E0 case, and the actual ambient-conductor proofs close its
+remaining trisecant possibilities. None of these class lists alone
+asserts prime effectivity or solves normalization descent for another
+carrier. Their algebraic intersection calculations retain their meaning
+in other characteristics when the actual rational marked model is given;
+no positive-characteristic existence/exclusion is inferred from the
+lattice alone.

@@ -4,21 +4,19 @@
 
 The [one-step boundary obstruction](#2026-10-27-one-step-boundary-obstruction) treats extensions in the **actual equation module**, not arbitrary formal transverse sections. Its independent audit keeps the Gorenstein final-step restrictions and the precise converse separate. The accompanying fixed-boundary smoothing audit concerns a different deformation problem and must not be read as a universal STCI obstruction.
 
-Compare [global repair and weighted initials](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#boundary-repair-global-lifting): a repair divisor is useful only when the required correction belongs to the image of the global homogeneous source. [Intrinsic valuations](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-coefficient-valuationsmd) supplies normal/coefficent valuation distinctions but not the missing global lift. [Rees and residual cycles](REES_RESIDUAL_AND_EXCEPTIONAL_CYCLES.md#2026-10-19-rees-residual-investigation) supplies cycle budgets but cannot substitute for this module-level test.
+Compare [global repair and weighted initials](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#boundary-repair-global-lifting): a repair divisor is useful only when the required correction belongs to the image of the global homogeneous source. [Intrinsic valuations](../synthesis/coefficient_valuations.md) supplies normal/coefficent valuation distinctions but not the missing global lift. [Rees and residual cycles](../synthesis/rees_and_vertical_controls.md) supplies cycle budgets but cannot substitute for this module-level test.
 
 **Logical boundary:** one-step obstruction, final socle obstruction, and global residual-support exclusion are three different assertions. Retain the separate hypotheses and counterexamples in their source sections.
 
 ---
 
-
 Full historical mathematics retained, including independently reviewed limits, with no theorem promotion.
-
 
 ---
 
-## 2026-10-27-one-step-boundary-obstruction
+<a id="2026-10-27-one-step-boundary-obstruction"></a>
 
-# One-step boundary repair and the final Gorenstein obstruction
+## One-step boundary repair and the final Gorenstein obstruction
 
 Date: 2026-10-27. Status: new research deduction, with
 [independent audit](#2026-10-27-one-step-boundary-obstruction-audit).
@@ -26,7 +24,7 @@ No canonical promotion, unrestricted STCI exclusion, or literature novelty
 claim is made. The argument treats whole classes of embedded multiple
 curves; no sampled pair is used.
 
-## 1. Scope and the actual equation module
+### 1. Scope and the actual equation module
 
 Let C be a smooth connected projective curve over an algebraically closed
 field, regularly embedded in a smooth threefold X. Let I=I_C and E=I/I^2.
@@ -62,10 +60,10 @@ for the extension class of (1). This class depends on the actual embedded
 lower thickening, rather than only the degrees of its normal layers.
 The triple version of this equation-module construction is inherited
 reviewed evidence in the
-[intrinsic cubic-contact note](INTRINSIC_VALUATIONS_AND_CONTACT_GEOMETRY.md#2026-10-23-intrinsic-cubic-contact-constructionmd).
+[intrinsic cubic-contact note](../synthesis/quartic_pair_obstruction.md).
 The argument here uses the power-relation line for arbitrary n.
 
-## 2. Exact one-step repair theorem
+### 2. Exact one-step repair theorem
 
 Fix an effective divisor D and the proposed next saturated layer
 
@@ -126,7 +124,7 @@ The lower embedding, its A_Y and its e_Y must be varied together in a
 family; one cannot vary the boundary while freezing unrelated obstruction
 data from a different lower scheme.
 
-## 3. Applying the socle budget
+### 3. Applying the socle budget
 
 Suppose Y occurs as a saturated truncation of a solely supported,
 generically curvilinear Gorenstein multiple curve Z_full of length m.
@@ -152,7 +150,7 @@ satisfy its prescribed linear system and all paired-layer constraints.
 Passing a relaxed pole test is not sufficient for a Gorenstein or CI
 extension.
 
-## 4. The final Gorenstein step has no extra repair allowance
+### 4. The final Gorenstein step has no extra repair allowance
 
 **Corollary (necessary splitting).** Let Z_full be as in section 3 with
 m>=3, and let P_i be its saturated normal ideals. Take
@@ -205,7 +203,7 @@ This is a class-wide obstruction on embedded lower thickenings. It
 does not state the converse: splitting M_Y need not yield a Gorenstein
 completion, and gives no two global carrier equations on its own.
 
-### Full one-step Gorenstein criterion for a fixed lower Y
+#### Full one-step Gorenstein criterion for a fixed lower Y
 
 The missing converse has an exact additional condition. Let W_i be the
 saturated normal layers of Y, 0<=i<n, with W_i=L^i(D_i). Ambient
@@ -242,7 +240,7 @@ criterion. It does not produce two global homogeneous equations of
 specified degrees. The numerical divisor equalities alone are insufficient:
 the extension class e_Y is part of the actual embedded data.
 
-## 5. An exact universal contact test for the actual global source
+### 5. An exact universal contact test for the actual global source
 
 Keep the fixed embedded lower thickening Y of length n>=2. Let C have
 degree d, choose a,b with ab=(n+1)d, and take actual forms
@@ -303,7 +301,7 @@ This argument gives its determinant/degree-exhaustion meaning for every
 curvilinear lower length n; it does not replay the accepted quartic
 classification or prove its nonvanishing by formal target degree.
 
-### Uniformly small target for the fixed rational quartic
+#### Uniformly small target for the fixed rational quartic
 
 Before testing a prospective degree-(a,b) completion, its penultimate Y
 must satisfy the top-line adjunction requirement
@@ -340,7 +338,7 @@ large improper locus, a failure of the lower admissibility conditions,
 or a genuinely small source. No generic codimension estimate for that
 improper locus is asserted here.
 
-### Exact fixed-surface criterion when the top layer has no source sections
+#### Exact fixed-surface criterion when the top layer has no source sections
 
 Assume Y satisfies the full Gorenstein-completion criterion (3a), and
 the top line Ubar_Y is identified with T=omega_C tensor O_C(4-a-b).
@@ -425,7 +423,7 @@ dimensional completion torsor forces failure of the global source test.
 On P1, (4c) is simply deg Ubar_Y<deg V_Y. It is a useful preliminary
 filter; it is not sufficient for a CI realization.
 
-## 6. A separate budget on the actual two-equation module
+### 6. A separate budget on the actual two-equation module
 
 Now assume Z_full=V(F_a,G_b) is a proper CI with sole support C and
 generic transverse length m>=2. For its ideal J_full put
@@ -484,7 +482,7 @@ is not settled by this theorem. The exact spectral comparison and its
 promotion limits remain those of the
 [October 24 continuation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation).
 
-## 7. What has been gained and what remains
+### 7. What has been gained and what remains
 
 The proposed boundary-repair comparison is now proved for the specific
 one-step obstruction e_Y in (1). The final Gorenstein step sharpens it
@@ -510,7 +508,7 @@ The source-sensitive jet images and finite fixed-degree endpoint remain
 those in the preceding repair note. No whole admissible family has
 been proved to have e_Y nonzero here, so no new STCI exclusion follows.
 
-## 8. Literature and provenance boundary
+### 8. Literature and provenance boundary
 
 The perfect-pairing characterization of Gorenstein multiple structures
 belongs to the established theory. The inspected primary source
@@ -524,20 +522,18 @@ The source and its four pages were inspected on October 27; no broader
 literature-exhaustion claim is made. Accepted source-level filtration
 inputs and promoted result scopes are retained rather than re-certified.
 
-
-
 ---
 
-## 2026-10-27-one-step-boundary-obstruction-audit
+<a id="2026-10-27-one-step-boundary-obstruction-audit"></a>
 
-# Independent audit: one-step boundary and final Gorenstein obstruction
+## Independent audit: one-step boundary and final Gorenstein obstruction
 
 Date: 2026-10-27. Reviewer: independent `equation_budget_audit` agent.
 Status: mathematical reconstruction of the [source note](#2026-10-27-one-step-boundary-obstruction),
 not canonical promotion. No new unrestricted STCI exclusion or realization
 of an unclassified family is certified.
 
-## Scope and method
+### Scope and method
 
 The reviewer read research/INDEX.md first, then the minimal spectral and
 first-normal premises. The source's final saved text was read, including
@@ -556,7 +552,7 @@ new equation-module constructions, extension argument, converse,
 source criterion, and coefficientwise divisor comparison. No isolated
 example or finite sample was used to infer a family statement.
 
-## 1. The equation module and its power line
+### 1. The equation module and its power line
 
 For J=I_Y, M=(J/IJ)/torsion is a rank-two vector bundle on C: the
 generic ideal is a curvilinear two-generator complete intersection,
@@ -573,7 +569,7 @@ sequence (1) and actual inclusion divisor A_Y.
 This construction retains the embedded ideal. It is not determined
 solely by the ranks and degrees of the ordinary normal layers.
 
-## 2. One-step extensions and their exact obstruction
+### 2. One-step extensions and their exact obstruction
 
 An extension by the O_C-line T=L^n(D), killed by I, induces a map
 J/IJ -> T. Its torsion-free target makes it factor through M. Extending
@@ -602,7 +598,7 @@ L^n -> T. This verifies the exact converse stated in section 2.
 Surjectivity is automatic when D=A_Y; otherwise it is an additional
 condition at the finite vanishing divisor of Ubar -> T.
 
-## 3. The final Gorenstein step and the full converse
+### 3. The final Gorenstein step and the full converse
 
 For a genuine final Gorenstein completion, the map q:M -> T is
 generically injective on Ubar. Multiplying ambient representatives of
@@ -645,7 +641,7 @@ the top ideal is contained in K^2, so passing to the penultimate level
 does not add first-order relations. The equality of the two first-symbol
 divisors is therefore justified in this scope.
 
-## 4. Exact actual-source determinant and its limits
+### 4. Exact actual-source determinant and its limits
 
 At eta_C, J has two minimal generators and M_eta=J_eta/m J_eta.
 The determinant of two actual carrier sections is nonzero exactly when
@@ -668,7 +664,7 @@ nonempty when dim P>=r, and has dimension at least dim P-r. A closed
 improper locus of larger codimension cannot contain it. The source
 makes no unjustified general estimate of that improper locus.
 
-## 5. Small target and the essential automatic-vanishing refinement
+### 5. Small target and the essential automatic-vanishing refinement
 
 On the top-adjunction-admissible locus, det M=Ubar tensor R(-B_Y)
 and Ubar=omega_C O_C(4-a-b) give exactly
@@ -703,7 +699,7 @@ submodule of a pure CI structure sheaf and is zero. Thus the schemes
 are equal. This does not classify all admissible Y or supply a proper
 pair in an unclassified family.
 
-### Final source refinements: socle quotients, curvilinearity, and rigidity
+#### Final source refinements: socle quotients, curvilinearity, and rigidity
 
 The final saved source contains three further consequences, which the
 reviewer independently checked. They do not require a sampled example.
@@ -744,7 +740,7 @@ rigidity condition, and the source does not assert sufficiency.
 
 All three final refinements pass audit with their stated hypotheses.
 
-## 6. Actual equation-module and spectral divisor accounts
+### 6. Actual equation-module and spectral divisor accounts
 
 For an actual CI of generic curvilinear length m, purity gives
 I^m subset J_full and I^(m+1) subset IJ_full. The same power-line
@@ -777,7 +773,7 @@ The 2 D_soc bound does not apply to raw initial-equation torsion
 without subtracting Delta. The source preserves the unresolved
 punctual-Delta question and does not claim to settle it.
 
-## Outcome
+### Outcome
 
 **PASS for the inspected source, including the automatic-source refinement.**
 No substantive correction is required. The explicit one-step lifting
@@ -792,22 +788,20 @@ All new claims remain reviewed provisional research evidence. The
 audit does not promote a canonical result or reopen an accepted
 exclusion. No inherited certificate or proof was replayed.
 
-
-
 ---
 
-## 2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit
+<a id="2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit"></a>
 
-# Independent final audit of node smoothing at fixed boundary
+## Independent final audit of node smoothing at fixed boundary
 
 Date: 2026-10-26. Reviewer: independent cycle-notebook audit agent.
 Status: exact tangent calculation and local deformation interpretation
 reviewed; no canonical promotion.
 
 This finishes review of the existing
-[fixed-boundary node-smoothing calculation](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothingmd).
+[fixed-boundary node-smoothing calculation](../synthesis/fixed_boundary_smoothing.md).
 The underlying line-plus-degree-eleven curve has its separate
-[geometric audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-line-degeneration-auditmd).
+[geometric audit](../synthesis/explicit_quartic_residuals.md).
 No new investigation is started here.
 
 **Outcome.** The ranks \(19,5,24\) are correct for the actual global quartic
@@ -819,7 +813,7 @@ attachment divisor on the marked \(C\) exactly fixed. This is a local formal
 existence statement, with the local algebraic interpretation in section 4;
 it is not a displayed polynomial path or an all-pairs result.
 
-## 1. Independent reconstruction from the global source
+### 1. Independent reconstruction from the global source
 
 The reviewer rebuilt the calculation in a separate standard-library Python
 program. It enumerates the thirty-five degree-four monomials, groups them
@@ -876,10 +870,10 @@ checked against the combined matrix. Its
 [JSON evidence](../computations/ci_fixed_boundary_node_smoothing_2026_10_25.json)
 preserves their thirty-six source coefficients and exact images.
 The separate
-[independent reconstruction audit](CI_CYCLE_AUDITS_AND_BOUNDARY_SMOOTHING.md#2026-10-25-ci-cycle-fixed-boundary-node-smoothing-auditmd)
+[independent reconstruction audit](../synthesis/fixed_boundary_smoothing.md)
 records another reconstruction and the same quotient calculation.
 
-## 2. Why the five-dimensional functional is the node map
+### 2. Why the five-dimensional functional is the node map
 
 The two relevant normal derivatives along the line are
 \[
@@ -908,7 +902,7 @@ Selecting just one labelled geometric node can require a splitting field;
 surjectivity over the rational étale algebra is the appropriate rational
 statement.
 
-## 3. The Grassmannian quotient does not change the conclusion
+### 3. The Grassmannian quotient does not change the conclusion
 
 The ordered source has dimension thirty-six. Its four-dimensional
 infinitesimal change-of-basis space consists of
@@ -933,7 +927,7 @@ This explicitly checks the distinction between zero affine derivative and
 zero projective boundary derivative. Neither an extra node direction nor a
 lost node direction comes from scaling the two equations.
 
-## 4. The formal conclusion and its additional hypotheses
+### 4. The formal conclusion and its additional hypotheses
 
 The proper-pencil parameter space is smooth of dimension thirty-two.
 Surjective \(d\beta\) makes its boundary fiber smooth locally at the checked
@@ -983,7 +977,7 @@ changes along \(f+th,g+tk\). Correcting higher coefficients or producing a
 specific polynomial/rational path is an additional construction, expressly
 not supplied by this result.
 
-## 5. Final scope and completion
+### 5. Final scope and completion
 
 The local inference applies to the checked pencil and its marked boundary
 fiber. It does not classify the entire fiber, determine all global topology
@@ -994,16 +988,13 @@ subfamily remains a different deliverable.
 
 The exact ranks, rational witnesses, quotient dimensions, and formal
 fixed-boundary conclusion pass final independent review. No remaining defect
-was found in the current calculation. No new experiment, commit, canonical
-promotion, or push was undertaken by this reviewer.
-
-
+was found in the current calculation.
 
 ---
 
-## 2026-10-26-endpoint4-nonsplit-node-scope-audit
+<a id="2026-10-26-endpoint4-nonsplit-node-scope-audit"></a>
 
-# Scope audit: the selected endpoint-four carrier has a nonsplit generic node
+## Scope audit: the selected endpoint-four carrier has a nonsplit generic node
 
 Date: 2026-10-26. Reviewer: `pencil_geometry`, independently reconstructing
 the local-to-global implication. **Completed fixed-carrier scope bridge,
@@ -1012,7 +1003,7 @@ promoted.** The local node lemma and the modular-to-characteristic-zero
 argument are distinct from the finite rank computations. This final audit
 starts no new computation or research lane.
 
-## Validated jet-kernel input and independent finite evidence
+### Validated jet-kernel input and independent finite evidence
 
 The selected rational sextic is
 \[
@@ -1098,7 +1089,7 @@ the constant field. Extending the function field to its algebraic closure
 would lose precisely the Galois constraint used below and is not the
 allowed global coefficient operation.
 
-## The nonsplit-node lemma, with finite-length hypotheses
+### The nonsplit-node lemma, with finite-length hypotheses
 
 Suppose \(G\in\mathfrak m\) and \(A/(F_*,G)\) has finite length. Then there
 is an integer \(n\ge1\) such that
@@ -1156,7 +1147,7 @@ Galois-conjugate branches, finite intersection length, both branch orders,
 and membership for the *whole formal ideal*. It does not infer a complete
 initial ideal from the two individual leading symbols.
 
-## Consequence for every proper degree-sixteen mate on this selected carrier
+### Consequence for every proper degree-sixteen mate on this selected carrier
 
 Let \(G\) be any homogeneous degree-sixteen form over \(k\) such that
 \(W=V(F_*,G)\) is a proper complete intersection and contains the fixed

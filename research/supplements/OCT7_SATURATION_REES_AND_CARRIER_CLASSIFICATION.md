@@ -239,16 +239,15 @@ The classified basepoint-free family is exactly P-045. Its independently audited
 
 The primary rerunnable record is
 [`audit_dx1_saturation_2026_10_07.py`](../computations/audit_dx1_saturation_2026_10_07.py). It reconstructs every quotient from source, checks all source identities and independent multiplier expansions, writes the compact standalone
-[`verify_dx1_saturation_2026_10_07.m2`](../computations/verify_dx1_saturation_2026_10_07.m2), and saves inspectable
-[`dx1_saturation_audit_2026_10_07.json`](../computations/dx1_saturation_audit_2026_10_07.json) and
-[`verify_dx1_saturation_2026_10_07.out`](../computations/verify_dx1_saturation_2026_10_07.out).
+[`verify_dx1_saturation_2026_10_07.m2`](../computations/verify_dx1_saturation_2026_10_07.m2), and saves the exact
+[`dx1_saturation_audit_2026_10_07.json`](../computations/dx1_saturation_audit_2026_10_07.json).
 
 Rerun from the repository root:
 
 ```sh
-PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python research/computations/audit_dx1_saturation_2026_10_07.py
+PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_dx1_saturation_2026_10_07.py
 /opt/homebrew/bin/M2 --script research/computations/verify_dx1_saturation_2026_10_07.m2
-PYTHONDONTWRITEBYTECODE=1 /private/tmp/stci-cas-venv/bin/python research/computations/verify_session_dx1_independent_2026_10_06.py
+PYTHONDONTWRITEBYTECODE=1 python3 research/computations/verify_session_dx1_independent_2026_10_06.py
 ```
 
 All three pass. A direct large-ideal SymPy Groebner attempt was interrupted after slow progress; no result from that attempt is asserted. Exact polynomial multiplication and the small-ideal reductions provide its independent replacement.
@@ -761,353 +760,15 @@ Read the final **Repair of the fixed-ruling STCI implication** section rather th
 
 ## 2026-10-07-entirely-thick-rees-valuation-framework
 
-# Entirely-thick branch: generic cluster and Rees-valuation framework
 
-Date: 2026-10-07  
-Status: **PROVED structural reformulation / OPEN global obstruction program**
-
-## 1. Starting point
-
-Starting remote \`main\`: \`7662a2ebb1dd561c1fb5e3c8958799b37d962c41\`.
-
-For degrees \(a,b\) and exact generic normal orders \(p,q\ge2\), the audited necessary conditions are
-\[
-ab\ge4pq,\qquad 7ab+28pq\ge16(aq+bp),\qquad a\ge3p,\quad b\ge3q.
-\]
-Writing \(\alpha=a/p,\beta=b/q\), the \((3,3)\) boundary is impossible and the \((3,4)\) boundary forces the first exceptional intersection into constant sections.
-
-The local family
-\[
-f=y^2+x^{2n+1},\qquad g=y^2+2x^{2n+1}
-\]
-shows that fixed first normal forms do not bound transverse intersection length.
-
-## 2. Literature boundary
-
-The required higher-contact language is classical on a transverse smooth surface.
-
-- Noether's intersection formula expresses local intersection multiplicity as a sum of products of multiplicities over common infinitely-near points.
-- Zariski-Lipman/cluster theory packages infinitely-near points using proximity relations and complete ideals in two-dimensional regular local rings.
-- Rees valuations are the intrinsic divisorial valuations of the normalized blowup of an ideal and control its integral-closure filtration.
-- Hilbert-Samuel multiplicity is invariant under integral closure. For a parameter ideal \(J=(f,g)\) in a two-dimensional regular local ring, \(e(J)=\ell(R/J)\).
-- Segre numbers/classes and distinguished varieties give higher-dimensional blowup invariants for arbitrary ideals.
-- Jaffe's iterated-curve-blowup method is directly relevant to STCI, but its strongest finite-list theorem assumes the two surfaces have no common singular point; the entirely-thick branch lies outside that hypothesis.
-
-References checked include Casas-Alvero, *Singularities of Plane Curves*; Huneke-Swanson, *Integral Closure of Ideals, Rings, and Modules*; Gaffney-Gassler on Segre numbers; and Jaffe (1995).
-
-Thus the generic transverse invariant below is standard mathematics applied to this STCI setup, not a novelty claim.
-
-## 3. Generic transverse cluster theorem
-
-Let \(\eta\) be the generic point of \(C\), and set
-\[
-R=\mathcal O_{\mathbf P^3,\eta},\qquad K=\kappa(\eta)=k(C),\qquad \mathfrak m=I_CR.
-\]
-Then \(R\) is a two-dimensional regular local ring. Let \(f,g\in R\) be the images of the defining forms and \(J=(f,g)\).
-
-### Proposition 3.1 — generic intersection multiplicity
-
-Under the STCI support hypothesis,
-\[
-\ell_R(R/J)=\frac{ab}{4}.
-\]
-
-Indeed, the two projective surfaces have no common surface component, so their proper intersection cycle has degree \(ab\). Its reduced support is exactly the irreducible degree-four curve \(C\), hence the fundamental cycle is \(m[C]\), where \(m=\ell_R(R/J)\). Taking degrees gives \(ab=4m\).
-
-### Proposition 3.2 — Noether decomposition
-
-The orders at the origin are \(m_0(f)=p\) and \(m_0(g)=q\). After a finite extension of \(K\), resolve the pair of plane-curve germs by successive point blowups. Noether's formula gives
-\[
-\frac{ab}{4}
-=
-pq+\sum_{P\succ0}[\kappa(P):K]\,m_P(f)m_P(g).
-\tag{N}
-\]
-Therefore
-\[
-v:=\frac{ab}{4}-pq
-=
-\sum_{P\succ0}[\kappa(P):K]\,m_P(f)m_P(g).
-\tag{E}
-\]
-
-Thus the second coordinate \(v\) of the audited first exceptional bidegree is exactly the total generic higher-contact budget.
-
-### Corollary 3.3 — fixed-data finiteness
-
-For fixed \((a,b,p,q)\), the number of common infinitely-near points after the origin is at most
-\[
-E=\frac{ab}{4}-pq,
-\]
-after passage to an algebraic closure and ignoring multiplicity. Hence the generic common cluster has bounded depth and bounded total number of vertices.
-
-### Limitation 3.4 — normalized ratios do not suffice
-
-Since
-\[
-E=pq\left(\frac{\alpha\beta}{4}-1\right),
-\]
-fixing only \((\alpha,\beta)\) does not bound cluster size independently of \(p,q\). At \((3,4)\),
-\[
-E=2pq.
-\]
-
-## 4. Correct higher-order objects
-
-### Pair-sensitive object
-
-Retain the common infinitely-near cluster with proximity relations, residue degrees, and the two multiplicity labels \(m_P(f),m_P(g)\). This distinguishes pairs with the same first tangent forms but different higher contact and directly refines the first exceptional cycle.
-
-### Intrinsic ideal object
-
-The normalized blowup of \(J=(f,g)\) and its Rees valuations give a canonical ideal-theoretic invariant. The integral-closure class determines \(e(J)\), hence the total transverse multiplicity \(ab/4\). It is, however, coarser than the labelled pair-cluster when the two distinguished generators must be tracked separately.
-
-Recommendation: use Rees valuations as the intrinsic ideal-theoretic carrier, but use the labelled cluster (or a mixed refinement) for generator-sensitive inequalities.
-
-## 5. Counterexample family
-
-For
-\[
-f=y^2+x^N,\qquad g=y^2+2x^N,
-\]
-one has
-\[
-J=(f,g)=(y^2,x^N),\qquad \ell(R/J)=2N.
-\]
-The first tangent forms are always \(y^2\), but the integral-closure/Newton/Rees data changes with \(N\). After the first blowup the remaining Noether budget is
-\[
-2N-4,
-\]
-matching the transformed local calculation in the audited thick note.
-
-## 6. Relation to the global exceptional bidegree
-
-The first blowup gives
-\[
-(u,v)=
-\left(
-\frac{7ab}{4}+7pq-4(aq+bp),
-\frac{ab}{4}-pq
-\right).
-\]
-Equation (E) identifies \(v\) with the generic higher-contact sum. The coordinate \(u\) records global information not visible on one generic transverse slice.
-
-This motivates a relative weighted cluster over \(C\): horizontal centers on successive blowups, equipped with degrees over \(C\), proximity relations, and the two vanishing orders.
-
-## 7. Boundary \((3,4)\)
-
-At \(a=3p,b=4q\),
-\[
-(u,v)=(0,2pq).
-\]
-The audited first-blowup argument shows that the support of the exceptional intersection is a union of constant sections, and the quadric residual divisor \(R_F\in|O_Q(2p,0)|\) has at most \(\min(p,q)\) distinct ruling roots.
-
-The natural next problem is therefore to classify the descendants of these constant sections under successive blowups. A naive monotonicity assertion for \(u\) should not be assumed; this is tested in the continuation note.
-
-## 8. Proved conclusions and limitations
-
-**PROVED**
-
-1. The generic transverse multiplicity is \(ab/4\).
-2. The first-blowup excess \(v=ab/4-pq\) equals the total higher Noether contact budget.
-3. Fixed \((a,b,p,q)\) gives finite generic cluster complexity.
-4. Rees/integral-closure data distinguishes the fixed-first-symbol counterexample family.
-5. Normalized ratios alone do not give uniform cluster-size bounds through this scalar budget.
-
-**NOT PROVED**
-
-1. No new normalized open region is excluded.
-2. No uniform bound independent of \(p,q\) is known.
-3. No monotonicity of horizontal twisting under successive blowups is established.
-4. Rees valuations alone have not been shown to retain all generator-sensitive STCI data.
-5. Persistent generic valuation centers have not yet been shown to force an extra projective common curve.
-
+The complete mathematical statement and proof are consolidated in [the focused proof home](../synthesis/rees_and_vertical_controls.md). The hypotheses, divisor/cycle distinction, and independent review scope are retained there; this source block adds no distinct argument.
 
 ---
 
 ## 2026-10-07-entirely-thick-relative-blowup-budget
 
-# Entirely-thick branch: relative blowup budget on the \((3,4)\) boundary
 
-Date: 2026-10-07  
-Status: **PROVED recursion and finiteness / OPEN rigidity step**
-
-This note continues \`2026-10-07-entirely-thick-rees-valuation-framework.md\`.
-
-## 1. Blowup recursion along a horizontal common center
-
-Let \(Y\) be a smooth threefold and let \(D,D'\) be effective Cartier divisors with proper one-dimensional intersection. Let \(Z\subset Y\) be a smooth curve contained in both divisors. Write
-\[
-r=\operatorname{ord}_Z(D),\qquad s=\operatorname{ord}_Z(D').
-\]
-Blow up \(Z\):
-\[
-\pi:Y_1=\operatorname{Bl}_Z(Y)\to Y
-\]
-with exceptional divisor \(E\). The strict transforms satisfy
-\[
-\widetilde D=\pi^*D-rE,\qquad
-\widetilde D'=\pi^*D'-sE.
-\]
-
-### Proposition 1.1 — cycle recursion
-
-In \(A_1(Y)\),
-\[
-\pi_*\bigl([\widetilde D]\cdot[\widetilde D']\bigr)
-=
-[D]\cdot[D']-rs[Z].
-\tag{R}
-\]
-
-**Proof.**
-Expand
-\[
-(\pi^*D-rE)(\pi^*D'-sE).
-\]
-For a blowup along a codimension-two smooth center,
-\[
-\pi_*E=0,\qquad \pi_*(E^2)=-[Z].
-\]
-The two mixed terms therefore push forward to zero and the \(rsE^2\) term pushes forward to \(-rs[Z]\).
-
-This is the relative threefold analogue of the first step in Noether's plane-curve formula.
-
-## 2. Recursion with a finite cover of the parent center
-
-Suppose a later smooth horizontal center \(Z'\) maps finitely onto an earlier center \(Z\) with degree \(d\). If the current strict transforms have orders \(r',s'\) along \(Z'\), then after blowing up \(Z'\) its contribution pushed all the way down to \(Z\) is
-\[
-d\,r's'[Z].
-\tag{R_d}
-\]
-
-Thus every common horizontal descendant consumes a positive integer amount of the coefficient of its ancestral horizontal component.
-
-## 3. Application to the \((3,4)\) boundary
-
-For \(a=3p,b=4q\), the first blowup \(B=\operatorname{Bl}_C\mathbf P^3\) has exceptional intersection cycle
-\[
-W=D\cdot D'=\sum_{j=1}^r c_jT_j,
-\]
-where the \(T_j\) are distinct constant sections and
-\[
-r\le\min(p,q),\qquad c_j\ge1,\qquad \sum_j c_j=2pq.
-\tag{B}
-\]
-
-Fix one \(T_j\). Blow up every horizontal common center above \(T_j\) until the strict transforms no longer meet generically above it. Iterating Proposition 1.1 gives a sectionwise relative Noether identity
-\[
-c_j
-=
-\sum_{\nu\in\mathcal T_j}
-d_\nu r_\nu s_\nu,
-\tag{SN}
-\]
-provided the terminal intersection has no horizontal component above \(T_j\). Here:
-
-- \(\mathcal T_j\) is the finite tree of horizontal common centers above \(T_j\);
-- \(d_\nu\) is the degree of the center over its parent/ancestral section as measured after pushdown;
-- \(r_\nu,s_\nu\) are the two vanishing orders along that center.
-
-If a horizontal component survives indefinitely, the pair has a persistent divisorial valuation/common formal branch; converting that persistence into an actual projective common curve is a separate algebraization problem and is not asserted here.
-
-### Corollary 3.1 — relative horizontal finiteness
-
-For every terminating tree,
-\[
-\#\mathcal T_j\le c_j,
-\qquad
-\sum_j\#\mathcal T_j\le2pq.
-\]
-More generally, the total degree-weighted number of centers is bounded by \(2pq\).
-
-Thus the \((3,4)\) boundary has a finite relative horizontal cluster for fixed \(p,q\), not merely a finite cluster on one generic transverse slice.
-
-## 4. Why the proposed \(u\)-monotonicity is not justified
-
-The first exceptional bidegree is \((u,v)=(0,2pq)\). It is tempting to regard \(u\) as a nonnegative energy that later horizontal twisting must increase. Proposition 1.1 shows that this is not automatic.
-
-A blowup of a constant section removes \(rs[T_j]\) from the pushforward intersection cycle. New intersection curves may live on the new exceptional ruled surface. Their geometry can twist relative to \(T_j\) while their pushforward remains a multiple of the same class \([T_j]\). Therefore the original \(u=0\) records the support/class of the first-stage cycle but does not by itself constrain all later ruled-surface bidegrees.
-
-So the candidate implication
-
-\[
-u=0\Longrightarrow\text{all later horizontal centers are constant/untwisted}
-\]
-
-is **not proved and should not be used**. A new invariant is needed if later twisting is to be controlled.
-
-This is compatible with Jaffe's warning that iterated-blowup type sequences require extra control in the presence of common singularities.
-
-## 5. Refined invariant suggested by the recursion
-
-The natural object is now a **decorated relative cluster**
-\[
-\mathscr C(F,G/C)
-\]
-whose vertices are horizontal common centers on successive blowups and whose decorations include
-
-\[
-(d_\nu,r_\nu,s_\nu,N_{Z_\nu/Y_\nu},\text{proximity data}).
-\]
-
-The first three entries control the intersection budget. The normal bundle of the center in the current threefold controls the geometry of the next exceptional ruled surface:
-\[
-E_{\nu+1}=\mathbf P(N_{Z_\nu/Y_\nu}).
-\]
-
-This is the missing global datum that the generic Rees valuations over \(k(C)\) do not see.
-
-## 6. Relation to the quadric repeated-root constraint
-
-At the \((3,4)\) boundary the audited argument also gives
-\[
-R_F\in H^0(Q,O_Q(2p,0))
-\]
-with at most \(r\le\min(p,q)\) distinct ruling roots. Each root corresponds to the intersection of a first-stage constant section \(T_j\) with the quadric-direction section \(S_Q\).
-
-Hence the \(2p\) root multiplicity is distributed among at most \(\min(p,q)\) sectionwise cluster budgets \(c_j\), whose total is \(2pq\).
-
-The next useful inequality must relate:
-
-1. the root multiplicity \(M_j\) of \(R_F\) at the point corresponding to \(T_j\);
-2. the coefficient \(c_j\) of \(T_j\) in \(W\);
-3. the first blowup orders \(r_j,s_j\) of \(D,D'\) along \(T_j\);
-4. the normal bundle \(N_{T_j/B}\).
-
-A lower bound of the form
-\[
-c_j\ge \Phi(M_j,p,q)
-\]
-strong enough that
-\[
-\sum_j\Phi(M_j,p,q)>2pq
-\]
-would exclude the boundary. No such bound is currently proved.
-
-## 7. Immediate next calculation
-
-Compute \(N_{T/B}\) for a constant section \(T\subset E\simeq\mathbf P^1\times\mathbf P^1\subset B\), and then compute the divisor classes cut on
-\[
-E_T=\mathbf P(N_{T/B})
-\]
-by the strict transforms after blowing up \(T\).
-
-This is concrete because:
-
-- \(N_{T/E}\) is determined by the self-intersection of the constant section in \(E\);
-- \(N_{E/B}|_T=O_E(E)|_T\) is known from
-  \[
-  E|_E=O_E(7,-1);
-  \]
-- the extension
-  \[
-  0\to N_{T/E}\to N_{T/B}\to N_{E/B}|_T\to0
-  \]
-  can therefore be analyzed explicitly on \(T\simeq\mathbf P^1\).
-
-That calculation should determine whether the next exceptional ruled surface has enough positivity/negativity to force a new inequality connecting \(c_j\) to the repeated-root multiplicity.
-
+The complete mathematical statement and proof are consolidated in [the focused proof home](../synthesis/rees_and_vertical_controls.md). The hypotheses, divisor/cycle distinction, and independent review scope are retained there; this source block adds no distinct argument.
 
 ---
 
@@ -1141,13 +802,15 @@ The following are accepted on the current record.
 
 For the four rational types the source gives
 [
-(ho(M),-E^2)=(12,2),(11,1),(11,1),(13,3)
+(
+ho(M),-E^2)=(12,2),(11,1),(11,1),(13,3)
 ]
 for B1, B2, B3, D respectively.
 
 ## B. Source check
 
-Ishii--Nakayama, *Classification of normal quartic surfaces with irrational singularities*, JMSJ 56 (2004), 941--965, is stronger for the present problem than the repository's coarse ((ho,-E^2)) summary.
+Ishii--Nakayama, *Classification of normal quartic surfaces with irrational singularities*, JMSJ 56 (2004), 941--965, is stronger for the present problem than the repository's coarse ((
+ho,-E^2)) summary.
 
 The paper classifies via a basic triplet ((M,D,E)), with (D) the pullback of a general hyperplane and (E) an effective exceptional anticanonical divisor. Its Main Theorem says the examples in section 2 exhaust the normal quartics with irrational singularities.
 
@@ -1280,7 +943,8 @@ Do **not** begin with a free enumeration of negative-definite graphs.
 3. If Type D survives, impose the mate divisor directly on the separated plane model; this should be substantially smaller than searching mate forms in (mathbb P^3).
 4. Treat B1 next through its explicit double-cover equation. B2/B3 should remain behind these because their source models are less immediately rigid.
 
-The key conceptual change is that Ishii--Nakayama supplies **birational models with explicit separation data**, not merely four values of ((ho,-E^2)). The remaining classification should exploit those models before lattice enumeration.
+The key conceptual change is that Ishii--Nakayama supplies **birational models with explicit separation data**, not merely four values of ((
+ho,-E^2)). The remaining classification should exploit those models before lattice enumeration.
 
 
 ## H. Type D separation arithmetic: a rigid multiplicity sequence
@@ -2063,185 +1727,3 @@ Thus the general-point Type D exclusion is now conditional on one finite boundar
 
 
 ---
-
-## 2026-10-07-rational-quartic-power-saturation
-
-# Powers of the rational quartic ideal: saturation from degree 3m
-
-Date: 2026-10-07
-Status: PROVED
-
-Let C be the smooth rational quartic in P3, Q its unique smooth quadric, and I its homogeneous ideal / ideal sheaf as context dictates. On Q, C has class (1,3).
-
-The homogeneous ideal is generated by Q in degree 2 and three cubics. Modulo Q, the cubic generators span H^0(Q,O_Q(2,0)) after factoring the equation h of C on Q.
-
-## Theorem
-
-For every m>=0 and every d>=3m,
-\[
-H^0(P^3,\mathcal I_C^m(d))=(I_C^m)_d.
-\]
-Moreover
-\[
-H^1(P^3,\mathcal I_C^m(d))=0
-\]
-for every d>=3m.
-
-Equivalently, the saturation/symbolic defect
-\[
-I_C^{(m)}/I_C^m
-\]
-has no graded component in degree >=3m.
-
-## 1. Exact sequence through the quadric
-
-Because C is Cartier on Q and locally I_C=(Q,h), for every m>=1 there is an exact sequence
-\[
-0\to\mathcal I_C^{m-1}(-2)
-\xrightarrow{\cdot Q}
-\mathcal I_C^m
-\to O_Q(-mC)\to0.
-\]
-After twisting by d:
-\[
-0\to\mathcal I_C^{m-1}(d-2)
-\to\mathcal I_C^m(d)
-\to O_Q(d-m,d-3m)\to0.                 (*)
-\]
-
-The kernel statement also follows from the previously proved sheaf colon identity
-\[
-(\mathcal I_C^m:Q)=\mathcal I_C^{m-1}.
-\]
-
-## 2. H1 vanishing
-
-Assume d>=3m. Then
-\[
-d-m>=2m>=0,\qquad d-3m>=0,
-\]
-so
-\[
-H^1(Q,O_Q(d-m,d-3m))=0.
-\]
-
-Also
-\[
-d-2 >= 3m-2 = 3(m-1)+1 >=3(m-1).
-\]
-Induction on m, starting from m=0, therefore gives
-\[
-H^1(P^3,\mathcal I_C^{m-1}(d-2))=0.
-\]
-The long exact sequence of (*) yields
-\[
-H^1(P^3,\mathcal I_C^m(d))=0.
-\]
-
-Thus restriction in (*) is surjective on H0.
-
-## 3. Ordinary powers already surject onto the quadric quotient
-
-Write e=d-3m>=0. The quotient is
-\[
-O_Q(2m+e,e).
-\]
-
-Products of m cubic equations of C restrict, after factoring h^m, onto
-\[
-H^0(Q,O_Q(2m,0)),
-\]
-because Sym^m H^0(P1,O(2)) -> H^0(P1,O(2m)) is surjective.
-
-Multiply these products by arbitrary ambient forms of degree e. The restriction
-\[
-H^0(P^3,O(e))\to H^0(Q,O_Q(e,e))
-\]
-is surjective, and multiplication
-\[
-H^0(O_Q(2m,0))\otimes H^0(O_Q(e,e))
-\to H^0(O_Q(2m+e,e))
-\]
-is surjective.
-
-Hence the ordinary homogeneous power (I_C^m)_d already maps onto the full right-hand H0 term of (*).
-
-## 4. Induction for saturation
-
-Take any
-\[
-F\in H^0(\mathcal I_C^m(d)).
-\]
-Choose
-\[
-F_0\in(I_C^m)_d
-\]
-with the same restriction to the quotient O_Q(d-m,d-3m). Then
-\[
-F-F_0=QK
-\]
-with
-\[
-K\in H^0(\mathcal I_C^{m-1}(d-2)).
-\]
-
-Since d-2>=3(m-1), induction gives
-\[
-K\in(I_C^{m-1})_{d-2}.
-\]
-Therefore
-\[
-QK\in(I_C^m)_d,
-\]
-and hence F lies in the ordinary power.
-
-This proves the theorem.
-
-## 5. Boundary colon recursion
-
-Set m=p-1. Since
-\[
-3p-2=3m+1>=3m,
-\]
-the theorem gives
-\[
-H^0(\mathcal I^{p-1}(3p-2))
-=(I^{p-1})_{3p-2}.
-\]
-
-Combining this with the sheaf colon identity proves the homogeneous degree-specific colon identity
-\[
-\boxed{(I^p:Q)_{3p-2}=(I^{p-1})_{3p-2}.}
-\]
-
-Consequently
-\[
-(I^p)_{3p}\cap(Q)
-=
-Q\,(I^{p-1})_{3p-2}.
-\]
-
-## 6. Exact recursive description of degree-3p carriers
-
-The previous quotient calculation gives
-\[
-(I^p)_{3p}/Q(I^{p-1})_{3p-2}
-\simeq H^0(Q,O_Q(2p,0)).
-\]
-
-Thus every degree-3p carrier of order at least p can be written
-\[
-F=F_{\rm cub}+QK,
-\]
-where F_cub is a linear combination of products of p cubic equations of C and
-\[
-K\in(I^{p-1})_{3p-2}.
-\]
-
-For an equality-boundary STCI pair, the image of F_cub modulo Q is further constrained to a binary form of degree 2p with at most min(p,q) distinct roots.
-
-## 7. Strategic meaning
-
-The entire degree-3p F-carrier space is now recursively understood at the level of ordinary powers. There is no hidden symbolic/saturation correction at or above degree 3p.
-
-This does not classify singularities or normalization of F, because the kernel Q(I^{p-1})_{3p-2} remains large. But it removes the previously open Rees/saturation ambiguity and gives an exact algebraic parameterization suitable for singularity or mate-compatibility analysis.

@@ -1,12 +1,12 @@
-# Local cohomology contact, parity, and MF6 type geometry
+# Ambient contact, parity and multiplicity-six reduction
 
 Topical preservation of source mathematics, including qualifications and independent audits. No theorem promotion.
 
 ---
 
-## 2026-10-06-localcoh-mixed-contact-pole
+<a id="2026-10-06-localcoh-mixed-contact-pole"></a>
 
-# A coprime mixed constant-direction contact pair fails the target equations
+## A coprime mixed constant-direction contact pair fails the target equations
 
 Date: 2026-10-06. Status: **PROVED / EXACT COMPUTATION** for the explicit
 quartic pair only. The finite all-stage reduction depends on the existing
@@ -61,16 +61,16 @@ target-specific highest ancestor coefficient still has forbidden poles.
 
 ---
 
-## 2026-10-06-localcoh-parity-dual
+<a id="2026-10-06-localcoh-parity-dual"></a>
 
-# A corrected polynomial-dual exclusion for the normalized parity family
+## A corrected polynomial-dual exclusion for the normalized parity family
 
 Date: 2026-10-06. Status: **PROVED BY AN EXACT POLYNOMIAL IDENTITY** over QQ,
 hence over every characteristic-zero extension. This is a family exclusion
 inside the finite quartic local-cohomology problem for C0. It does not
 resolve the full quartic incidence or the general projective STCI question.
 
-## The family and statement
+### The family and statement
 
 In the balanced normal frame, take the degree2 normal-dual direction
 
@@ -106,7 +106,7 @@ root. Separate one-target Groebner runs in the companion research lane
 returned the unit ideal for both targets, but that additional v assertion
 is not needed for this certificate.
 
-## Exact certificate and verification
+### Exact certificate and verification
 
 The complete polynomial coefficients are saved in
 `../computations/localcoh-incidence-parity-dual-2026-10-06.json`. There are24
@@ -134,7 +134,7 @@ This is a small polynomial module calculation, rather than the unfinished
 66-variable full bilinear Groebner attempt. The independent Python identity
 check is the mathematical certificate.
 
-## Extension to the nondegenerate unnormalized parity family
+### Extension to the nondegenerate unnormalized parity family
 
 The curve has the ambient torus automorphism
 
@@ -160,7 +160,7 @@ scalings. Therefore the normalized identity excludes the whole primitive
 parity family with a0 a2 b1≠0. Cases with a0 a2=0 require separate handling
 and are not obtained by this normalization argument.
 
-## Audit provenance and limits
+### Audit provenance and limits
 
 The earlier saved parity monomial-functional script used only the first row
 of `basis(4,I)` as if it were the quartic basis. In Macaulay2 that row records
@@ -180,9 +180,9 @@ incidence remain separate research tasks.
 
 ---
 
-## 2026-10-06-mf6-type3-independent-audit
+<a id="2026-10-06-mf6-type3-independent-audit"></a>
 
-# Independent audit of the MF6 degree-three nonregular exclusion
+## Independent audit of the MF6 degree-three nonregular exclusion
 
 Date: 2026-10-06. One bounded audit of
 `2026-10-05-mf6-further-audit.md` and
@@ -196,7 +196,7 @@ No mathematical gap was found in the cubic-pole argument. Its conclusion is
 that the first-normal ratio must be regular; it does not exclude existence
 of the remaining regular member or an STCI representation in other types.
 
-## 1. Why the DVR computation uses the actual quotient
+### 1. Why the DVR computation uses the actual quotient
 
 At a support point, choose a lifted support parameter t and complete.
 The ambient ring is k[[t,m,y]], where y maps to a generator of E1 and
@@ -246,7 +246,7 @@ sampling result. Changing to another regular ambient normal frame would
 change the displayed f2,f3 but not the resulting canonical defect divisor.
 The computation uses the stated local frames on each chart throughout.
 
-## 2. Exhaustion of the triple and quartic parameter spaces
+### 2. Exhaustion of the triple and quartic parameter spaces
 
 For degree three, I independently recomputed the killing-matrix nullspaces
 from the quadratic cocycle already derived by the defect12 verifier.
@@ -272,11 +272,11 @@ while changing the cubic coefficient.
 
 The verifier was rerun successfully with
 
-    /private/tmp/stci-cas-venv/bin/python research/computations/verify_mf6_type3.py
+    python3 research/computations/verify_mf6_type3.py
 
 It also reruns the complete degree-one and degree-two exclusions.
 
-## 3. Independent extraction of the cubic coefficients
+### 3. Independent extraction of the cubic coefficients
 
 I checked the formal-root coefficients using a different extraction from
 the expanded quartic. Express a local jet in m,y as
@@ -302,7 +302,7 @@ The generic quartic coefficient h is nonzero for every nonzero pencil
 member. Thus its formal root is forced in the actual generic sextuple,
 and the local lemma applies to the canonical quotient B/N4.
 
-## 4. The resultant and every exceptional cancellation
+### 4. The resultant and every exceptional cancellation
 
 The exact resultant is
 
@@ -330,7 +330,7 @@ At the extra quadratic parameter values the resultant is nonzero, so
 the repeated roots retain their full pole multiplicities. All pencil
 members with beta!=0 therefore fail the required deg D3=6.
 
-## 5. Direct infinity check for the remaining member
+### 5. Direct infinity check for the remaining member
 
 For beta=0 the finite-chart root has
 
@@ -367,7 +367,7 @@ MF6 now gives A=3D2=H. The pole divisor of the first-normal quotient is
 H-A, so it is zero. This establishes the claimed nonregular-branch
 exclusion. The argument still permits the beta=0 regular member.
 
-## 6. Scope and the retained degree-five caveat
+### 6. Scope and the retained degree-five caveat
 
 The completed further-audit note correctly retains the degree-five pure
 triple family
@@ -392,9 +392,9 @@ essential at every stage.
 
 ---
 
-## 2026-10-06-mf6-type4-incidence
+<a id="2026-10-06-mf6-type4-incidence"></a>
 
-# Remaining e=0 type (d2,d3)=(4,5): exact triple/quartic incidence
+## Remaining e=0 type (d2,d3)=(4,5): exact triple/quartic incidence
 
 Date: 2026-10-06. Characteristic zero; monomial quartic C0. Status:
 **proved parameter reduction; exact exploratory quartic and cubic data;
@@ -403,7 +403,7 @@ is claimed. The established low-defect and type-three exclusions are in
 `2026-10-05-mf6-further-audit.md`, independently audited in
 `2026-10-06-mf6-type3-independent-audit.md`.
 
-## Every possible degree-four triple
+### Every possible degree-four triple
 
 The two pure constant quotient directions fail flatness for d2=4: their
 killing section has an additional degree-two factor common to delta and
@@ -433,7 +433,7 @@ every point `(A,B)` gives a flat embedded triple. Its D2 divisor is the
 degree-four zero divisor of delta and has no infinity component. This
 exhausts the triple parameter space rather than selecting a generic chart.
 
-## Complete quartic equation and its cubic-pole constraint
+### Complete quartic equation and its cubic-pole constraint
 
 Let `F=sum c_i F_i` range over the complete eight-dimensional quartic
 space with first normal form `h(U+V)`; the basis is derived from the
@@ -488,7 +488,7 @@ parameters lie in a proper algebraic exceptional locus. Additional exact
 sample parameters also have gcd one but do not constitute a universal
 exclusion.
 
-## Continuation and failed computational shortcuts
+### Continuation and failed computational shortcuts
 
 The required next calculation is the rank-drop boundary together with
 the subresultant conditions `deg gcd(S,T)>=deg S-1`, followed by the direct
@@ -498,7 +498,7 @@ can hide an infinity pole.
 
 Run
 
-    /private/tmp/stci-cas-venv/bin/python research/scratch/explore_mf6_type4.py
+    python3 research/scratch/explore_mf6_type4.py
 
 to reconstruct the exact generic incidence. The optional `--resultant`
 attempt computes `Res_z(S,T)` as a polynomial in A,B; it may be expensive

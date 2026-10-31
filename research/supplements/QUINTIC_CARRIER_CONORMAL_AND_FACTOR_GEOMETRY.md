@@ -61,6 +61,19 @@ The quartic normalization double-ribbon construction therefore cannot be
 copied literally to degree five. Added resolution exceptional curves have
 H-degree zero and do not repair the equation `8=5m`.
 
+### Direct quintic normalization and global source constraints
+
+The quintic carrier is regular at the generic point of C0. Otherwise restriction to the unique smooth quadric, where C0 has class(1,3), would contain twice C0 and leave residual class(3,−1), which is not effective. The quintic equation would have the quadric as a factor, contradicting integrality. This uses the saturated sheaf square, not an unsaturated ordinary ideal square.
+
+Under a mate, full inverse support is the unique degree-one lift c≅C0. Its pullback divisor satisfies
+
+    H²=5, H.c=4, b=4k, div(nu*G)=5k c~4k H,
+    c_num=(4/5)H, c_num²=16/5.
+
+Consequently c cannot be Cartier; a smooth normalization, or a lift avoiding its singular locus, is excluded in this lane. Any Cartier multiple r c requires5|r. These are normalization-index constraints, not conductor sufficiency.
+
+The actual global quintic source has dimension dim I_C0(5)=35: sums of five weights from{0,1,3,4} cover0,...,20, proving surjective restriction of quintics to the binary degree-twenty space. The accepted first-normal map has image H0(O(13))² and kernel q I_C0(3), dimension7. These dimensions are not a parameter exhaustion or an all-power descent test.
+
 ## 2. A ribbon obstruction that survives singularities, and its limit
 
 Suppose more generally that a normal surface S carries an actual effective
@@ -78,7 +91,7 @@ point, the pullback of I_C induces a generically nonzero map
 
 Therefore `deg J>=-7`; for `deg J<-7` the Hom space is zero. Global
 immersion of R is unnecessary. This is the direct proof used in the
-accepted [quartic weighted-ribbon audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-weighted-ribbon-conormal-independent-auditmd).
+accepted [quartic weighted-ribbon audit](GENUS_TWO_BISECTION_PROOF.md).
 
 If S is Gorenstein in a neighborhood of R, Cartier adjunction and ribbon
 duality give
@@ -98,7 +111,7 @@ The ribbon and generic conormal deductions above are written out directly.
 
 ## 3. Multiplicity ten without global primitivity or a regular ratio
 
-The separately delegated [multiplicity-ten filtration audit](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
+The separately delegated [multiplicity-ten filtration audit](MULTIPLICITY_MIXED46_AND_MF6.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
 supplies a direct finite-flat Frobenius proof, read and checked by this
 auditor. A hypothetical CI(5,8) is generically curvilinear by Section 1.
 Its saturated graded pieces E_i are line bundles, even at nonprimitive
@@ -189,12 +202,11 @@ The standard ruled intersection calculation gives
     5=(2g-2)a^2+(7-2pi)a+sum m_i(a-m_i),
     0<=m_i<=a,
 
-with integer m_i supplied by the successive blowups. For pi<=2 its
+with integer m_i supplied by the successive blowups. Each intermediate polarization is nef, and the positive full fiber cycle through a blowup center has total degree a; hence 0≤m_i≤a, including infinitely near centers. For pi<=2 its
 right-hand side is at least 3a>=12, impossible. For pi=3 only g=1 and
 a=4 or5 remain. At a=4 the sum must equal one, whereas each summand is
 0,3 or4. At a=5 the sum vanishes, so every m_i is 0 or5. The L-degree of
-every fiber component, computed using total transforms and proximity,
-is then a multiple of five; it cannot equal four. Hence M is rational
+every fiber component is then a multiple of five: a strict component loses an integer multiple of m_i at each blowup, while a new exceptional component has degree m_i. Starting from fiber degree5, induction preserves divisibility, so no fiber component has degree4. Hence M is rational
 throughout pi<=3. This is a geometric reduction, not a carrier exclusion.
 
 ## 6. Sectional genus one forces a single A4 normalization
@@ -327,6 +339,8 @@ normal quartic, and ell is its tangent line at that point. This audit
 does not infer a classification of all projections, uniqueness of the
 carrier equation, or any power-descent obstruction from the tangent line.
 
+The unique line satisfies5ell~H, by subtracting5c~4H from5(c+ell)~5H. If h is the section with divisor c+ell and u has divisor5ell, then Q=h^5/u is a regular section of4H with divisor5c. This is an actual intrinsic section identity, not a claim that either h,u or Q descends to the chosen four-coordinate projection. With a fixed marked center in the span of c, four lifts differ by the one-dimensional restriction kernel; the [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md) retains the additional nonendpoint marking parameter and prevents treating the endpoint four-parameter subfamily as all projections.
+
 ## 9. The sectional-genus-zero exclusion also passes
 
 Section 5 already proves rationality at pi=0. Restriction to a smooth
@@ -379,8 +393,8 @@ normalization and endpoint-projection hypotheses below. This is not a
 quintic-carrier exclusion. No frozen note, canonical record or existing
 integrity seal is edited by this audit.
 
-The owner source is the [endpoint quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#4-quintic-endpoint-quadric-factor-reduction).
-The geometric inputs are the [quintic structural frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd),
+The owner source is the [endpoint quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit).
+The geometric inputs are the [quintic structural frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
 its [independent conormal/del Pezzo audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
 and the [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
@@ -628,6 +642,10 @@ at common roots of W and U. This is a necessary support condition, not a
 bound on the order of the excess at a common root, a first-normal proof of
 higher contact behavior, or a parameter exhaustion.
 
+Since a!=0, U has degree three, so at most three finite points can carry the excess. In particular, coprime U,V exclude a mate under the full-support hypothesis in this endpoint a!=0 lane. Seven is a total scheme length, so comparing it with three distinct points is not a contradiction. Repeated roots, singular D, tangential intersection and higher projection terms remain relevant.
+
+The divisibility used in the exact local length argument comes from the actual morphism c→C0, not from equality of reduced support. For example, t=z² and phi=z in k[[z]] have identical zero support, but phi is not divisible by t. This control explains why the scheme-theoretic ideal containment is an essential step.
+
 ## 8. Exact evidence and remaining boundary
 
 The delegated standard-library [sparse-polynomial checker](../validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py)
@@ -635,13 +653,8 @@ supplies seven exact identities over `Z[r,T,a,b,g,d]`: q=hK, both first-normal
 coefficients, W=K|c, W=V-rU, the full cubic residual factor and its relation
 to the normalized quadric residual numerator. Its source SHA-256 is
 `871099f080b3a69c58f15e6a6bd6a9475fd5cdfbba03008482ff7f23070de8ec`.
-The actual [execution record](../validation/2026-10-11-quintic-endpoint-factor-audit/execution-record.json)
-binds source, command, stdout and stderr; the observed run returned zero
-with seven passing checks. This auditor read the entire checker and its
-raw output. It is one original polynomial checker execution, not a
-Macaulay2 run or a duplicate verifier count.
 
-The delegated [algebra/contact audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#3-quintic-endpoint-factor-contact-independent-audit)
+The delegated [algebra/contact audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit)
 independently reconstructed both length exact sequences and the projective
 scaling calculation. Its final SHA-256 is
 `f4e86e9c5e0b88e1bfb9d145e72e5226f884184463abee9928cbdda3bb37cca6`.
@@ -660,349 +673,6 @@ nonendpoint projection-center parameter, other normalization genera, normal
 quintics and the unrestricted fixed-C0 and universal STCI questions retain
 their separate status. No higher-degree result is inferred from the completed
 quartic-carrier theorem.
-
-
----
-
-## 3. quintic endpoint factor contact independent audit
-
-# Endpoint quintic factor and seven-contact excess: independent audit
-
-Date: 2026-10-11. Auditor: `oct11_quartic_assembly_audit/degree_factor_audit`.
-Status: **EXACT POLYNOMIAL CHECKS AND DIRECT LENGTH-PROOF AUDIT**.
-The separately delegated `finite_curve_length_lemma` reconstructed both
-local exact sequences without using the author's proof as a premise.
-This note changes no frozen note or canonical frontier file.
-
-Scope: the explicit endpoint projection in the
-[factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#4-quintic-endpoint-quadric-factor-reduction),
-with center disjoint from S and coefficient a!=0. The
-[explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
-and [intrinsic-pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
-provide the actual degree-five A4 model and the endpoint-versus-nonendpoint
-projection distinction. This audit does not extend the endpoint equations
-to nonendpoint projection centers, does not treat a=0, and gives no
-upper bound for an excess-contact order.
-
-## 1. Actual quadric factor and projective normalization
-
-Use the six actual anticanonical coordinates in the stated affine chart:
-
-    U0=1, U1=r, U2=r^2,
-    U3=r^3-rT, U4=r^4-(2r^2+r)T+T^2, h=T.
-
-For the four projection sections
-
-    X0=U0+aT, X1=U1+bT, X2=U3+gT, X3=U4+dT,
-
-direct expansion in Z[r,T,a,b,g,d] gives
-
-    X0*X3-X1*X2=T*K,
-    K=aU4-bU3-U2-(1+g)U1+dU0+(1+ad-bg)T.
-
-This proves the displayed actual-section identity, including its T^2
-and T^3 terms. On c, the pullback X0 is one, so X0=1+aT is a unit
-in a neighborhood of each finite contact. The genuine projective
-affine coordinates there are X1/X0,X2/X0,X3/X0; omitting this
-division would generally produce wrong first-normal coefficients.
-
-After clearing the unit denominators, the cubic and quartic residuals
-are
-
-    (X2/X0)-(X1/X0)^3 = A_pull/X0^3,
-    (X3/X0)-(X1/X0)^4 = quartic_pull/X0^4,
-    A_pull=X0^2*X2-X1^3,
-    quartic_pull=X0^3*X3-X1^4.
-
-Their coefficients of T are exactly
-
-    U(r)=g-r-3br^2+2ar^3,
-    V(r)=d-r-2r^2-4br^3+3ar^4.
-
-The projective normalization contributes no further factor to these
-first coefficients because the residual constant terms vanish and
-X0|c=1. Their full first-normal rank condition is therefore U=V=0.
-
-The additional exact identities are
-
-    W(r):=K(r,0)=ar^4-br^3-r^2-(1+g)r+d=V-rU,
-    A_pull=T*(U+T*P1+T^2*P2),
-    P1=a^2r^3+2a(g-r)-3rb^2,
-    P2=a^2(g-r)-b^3.
-
-They retain the actual transverse variable T. No replacement of
-higher contact by first-normal vanishing is made.
-
-## 2. Residual curves and genus comparison
-
-The author's a!=0 hypothesis makes D_K avoid the sole A4 point,
-because K restricts there to aU4. The root lattice is the full
-orthogonal A4 in the unimodular plane-blowup Picard lattice; quotienting
-gives Cl(S)=Z[ell], with H=5ell. A prime avoiding A4 is Cartier, and
-the local class of ell has order five, so its positive H-degree is
-a positive multiple of five. Since H.D_K=5, the Cartier divisor
-D_K is a single prime with multiplicity one. Thus D_K is an
-integral CM curve, possibly singular, and Cartier adjunction gives
-arithmetic genus one.
-
-The projection is finite and birational on S. On D_K its degree
-divides five. The only alternative to degree one would give a line
-image. The restriction kernel of H0(S,H) onto D_K is the single
-span of K; hence the four projection sections retain rank at least
-three, excluding a line image. Thus D_K->R is finite birational.
-
-On Q the three distinct integral curves C0, pi(ell), R have total
-degree 4+1+5=10. They exhaust the quintic section of Q with
-multiplicity one. The line pi(ell) is the endpoint ruling, so the
-residual class is (3,2), and its arithmetic genus is two. Consequently
-
-    0 -> O_R -> pi_*O_D_K -> F -> 0
-
-has finite cokernel of length one. This comparison remains valid for
-singular D_K or R. None of these statements calls D_K a normalization.
-
-## 3. Finite birational pullback preserves the local contact length
-
-Let q be a point of R intersect C0. Set
-
-    A=O_R,q, B=(pi_*O_D_K)_q, F=B/A.
-
-The local Cartier equation phi of C0 on smooth Q is a nonzero element
-on the distinct integral curve R. It is a nonzerodivisor on A and B.
-Multiplication by phi in the exact sequence above gives
-
-    0 -> ker(phi:F->F) -> A/(phi) -> B/(phi)
-       -> coker(phi:F->F) -> 0.
-
-Every endomorphism of a finite-length module has kernel and cokernel
-of equal length. Therefore
-
-    length A/(phi) = length B/(phi)
-      = sum_(p over q) length O_D_K,p/(pi*phi).
-
-The last equality has no residue-degree weights because k is
-algebraically closed. It does not require either curve to be smooth.
-
-**Wording clarification to the source.** Phi is a nonzerodivisor
-on the two curve rings, not on the finite cokernel F. A nonunit
-cannot act injectively on a nonzero finite-length module. The proof
-correctly permits phi to kill part or all of F; kernel and cokernel
-then cancel exactly. This clarification does not change the conclusion.
-
-## 4. Scheme divisibility, nonnegative excess, and the exact total seven
-
-Under the full inverse-support condition, every point above R intersect
-C0 lies in D_K intersect c. Near such a point S is smooth, since
-D_K avoids A4, and c has a local Cartier equation t.
-
-Lift phi from Q to a local regular ambient function on P3, and pull
-it back to S. The actual morphism c->C0 makes the pullback vanish
-scheme-theoretically on c. It therefore belongs to I_c=(t), and
-restriction to D_K gives
-
-    pi*phi=t*v in B_p=O_D_K,p.
-
-Different ambient lifts differ by a multiple of the quadric equation,
-whose pullback vanishes on D_K, so the restricted function is well
-defined. The actual morphism supplies ideal containment; full reduced
-support alone would not. For example t=z^2 and phi=z have identical
-zero support in k[[z]], but phi is not divisible by t.
-
-The ring B_p is a one-dimensional domain. The three elements t,v,tv
-are nonzero, and the supported quotients have finite length. Cancellation
-proves exactness of
-
-    0 -> B_p/(v) --times t--> B_p/(tv) -> B_p/(t) -> 0.
-
-Thus each local excess
-
-    length B_p/(pi*phi)-length B_p/(t)=length B_p/(v)
-
-is nonnegative. Full inverse support ensures that every zero of the
-pulled equation, including every zero of v, is among D_K intersect c.
-Summing over all contacts and using section 3 gives
-
-    sum contact lengths = R.C0=11,
-    sum actual c-intersection lengths = D_K.c=4,
-    sum excess lengths = 7.
-
-This proves the claimed necessary reduction even with singular
-residual curves. The finite cokernel's length one does not bound
-the excess, and the result is not yet a contradiction.
-
-## 5. A bounded first-normal consequence, without a jet-order bound
-
-All D_K intersect c points are in the finite r-chart because D_K
-avoids the A4 point, which is the sole point at infinity of c.
-On Q in X0!=0 a local equation of C0 is
-
-    (X2/X0)-(X1/X0)^3.
-
-Section 1 therefore identifies v, up to a unit, with
-U+T*P1+T^2*P2 on D_K. If U(r_p)!=0 then v is a unit and
-the local excess is zero. A point with positive excess consequently
-has W(r_p)=U(r_p)=V(r_p)=0. Since a!=0, U is a degree-three
-polynomial, so at most three finite points can carry the excess.
-In particular coprime U,V exclude a mate under the full-support
-hypothesis in this endpoint a!=0 lane.
-
-This does not bound the excess at a common root. Repeated roots,
-singular D_K, tangential intersection with c and higher terms of
-the actual projection remain relevant. A seven-versus-three point
-count would be invalid: seven counts length, not distinct points.
-
-## 6. Execution evidence
-
-The independent standard-library
-[source](../validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py)
-passes seven exact sparse-polynomial identities over
-Z[r,T,a,b,g,d]. Its SHA-256 is
-`871099f080b3a69c58f15e6a6bd6a9475fd5cdfbba03008482ff7f23070de8ec`.
-The actual exit-zero execution, command, interpreter path, elapsed
-time and raw stream hashes are preserved in the
-[execution record](../validation/2026-10-11-quintic-endpoint-factor-audit/execution-record.json).
-The recording wrapper is not an additional mathematical verifier.
-The ring-length proofs above, rather than these polynomial checks,
-supply the contact-length quantifiers.
-
-
----
-
-## 4. quintic endpoint quadric factor reduction
-
-# Endpoint quintic projections: quadric factor and residual genus-one curve
-
-Date: 2026-10-11. Author: root.
-
-Status: **DIRECT STRUCTURAL REDUCTION, pending separate proof audit**.
-This note concerns only the endpoint placement of the A4 point on fixed
-characteristic-zero C0. It neither excludes the whole endpoint family
-nor treats the additional nonendpoint projection-center parameter.
-The frozen [quintic frontier](OCT11_12_QUINTIC_NONENDPOINT_AND_FILTRATIONS.md#source-2026-10-11-session-quintic-structural-frontiermd)
-supplies the normal degree-five del Pezzo, single A4 point, smooth c,
-unique line ell, and the actual relations H~c+ell~5ell, 5c~4H.
-The explicit model below must be covered by the separately developed
-intrinsic pair/projection classification before it is used globally.
-
-## 1. Explicit affine model and endpoint projection
-
-On the open set u!=0 of the anticanonical normalization S, put
-
-    U0=1, U1=r, U2=r^2,
-    U3=r^3-rT,
-    U4=r^4-(2r^2+r)T+T^2, h=T.
-
-The smooth lifted curve is c:T=0. The unique line ell is at infinity;
-the full anticanonical coordinates on it have only U3,U4 nonzero,
-with the A4 point equal to [U3:U4]=[0:1]. The endpoint projection is
-
-    X0=U0+a h, X1=U1+b h,
-    X2=U3+g h, X3=U4+d h.
-
-Assume its center misses S. Ampleness makes the map finite. Its image
-has degree five: the map degree divides H^2=5; degree five would give
-a plane image, contrary to the four independent sections. It is thus
-finite birational onto an integral quintic hypersurface X.
-
-The image of ell is the ruling line X0=X1=0 on the smooth quadric
-q=X0 X3-X1 X2. It is the tangent line at the endpoint of C0 and has
-class (1,0) if C0 has class (1,3).
-
-## 2. The pulled-back quadric factors into two anticanonical sections
-
-An exact expansion gives
-
-    pi*q = h K,
-    K=a U4-b U3-U2-(1+g)U1+d U0+(1+ad-bg)h.
-
-This is an equality of actual sections of 2H, not only divisor classes.
-Equivalently, the vanishing of q on both c and ell implies division
-by the actual Cartier hyperplane divisor c+ell; normality makes the
-quotient a regular section of H.
-
-This argument is special to endpoint placement. At a nonendpoint of
-C0 its tangent line is not contained in the unique quadric, so division
-by h cannot be imported into that lane.
-
-## 3. When a!=0, the residual divisor is integral and avoids A4
-
-Let D_K=V_S(K). At the A4 point K=a U4, so a!=0 makes D_K avoid
-the only singular point of S.
-
-In the plane-blowup marking, Pic(M) is unimodular of rank five and
-the exceptional roots form the saturated orthogonal A4 lattice of H.
-Consequently Cl(S) is free of rank one, generated by ell, and Pic(S)
-maps to the subgroup generated by H=5ell. An effective prime avoiding
-the A4 point is Cartier everywhere and has degree a positive multiple
-of five. Since H.D_K=5, D_K has exactly one prime with multiplicity
-one. Thus it is integral and reduced. Cartier adjunction gives
-
-    p_a(D_K)=1+(H.(H+K_S))/2=1.
-
-The induced map D_K->R=pi(D_K) is finite and birational. Its degree
-divides five. If its degree were five, R would be a line. But the
-restriction kernel H0(S,H)->H0(D_K,H) is precisely the one-dimensional
-space generated by K, so the four projection sections retain rank at
-least three. Their image cannot be a line.
-
-## 4. The image has type (3,2) and normalization difference one
-
-The quadric section X intersect Q contains C0, pi(ell), and R, three
-distinct integral curves of degrees four, one, and five. These already
-account for its entire degree ten, so its divisor on Q is their sum,
-with multiplicity one. Therefore
-
-    [R]=(5,5)-(1,3)-(1,0)=(3,2), p_a(R)=2.
-
-The finite birational map of integral CM curves D_K->R has a finite
-length cokernel in
-
-    0 -> O_R -> pi_*O_(D_K) -> F -> 0.
-
-The two arithmetic genera give length(F)=1. This conclusion is
-unaffected by possible singularities of D_K or R. It is not a claim
-that either curve is smooth.
-
-## 5. A mate would require seven excess contact lengths
-
-Under a hypothetical mate, the full reduced inverse image of C0 is c.
-Thus every point of R intersect C0 must lift into D_K intersect c;
-in particular R cannot meet C0 at the endpoint, since D_K avoids A4.
-On the quadric and on S respectively,
-
-    R.C0=(3,2).(1,3)=11,
-    D_K.c=H.c=4.
-
-The local equation of C0 on smooth Q pulls back on D_K to a function
-vanishing on the actual intersection with c. It is a nonzerodivisor
-on both integral curve rings. Multiplication by that function on the
-finite-length cokernel may have a kernel; its kernel and cokernel have
-equal length and cancel in the exact comparison. Hence the local
-intersection lengths on R equal the lengths of the pulled functions
-on D_K. Full inverse support would therefore require a total excess
-of exactly seven above the actual four intersection lengths with c.
-
-This is a necessary contact reduction, not yet a contradiction.
-Tangential gluing through a singular projected surface can raise the
-image contact even when R itself is smooth. The length-one quotient
-of D_K->R does not alone bound that increase. First-normal common
-zeros likewise do not by themselves bound higher contact orders.
-An actual filtered/jet argument for this explicit projection remains
-necessary.
-
-## 6. Independent algebraic checks that remain bounded
-
-The factor in Section 2 can be verified by polynomial expansion without
-Gröbner elimination. On c in the X0-chart the two first-normal residuals
-for the target cubic and quartic parametrization are
-
-    U(r)=g-r-3br^2+2ar^3,
-    V(r)=d-r-2r^2-4br^3+3ar^4.
-
-Their common roots are projection-ramification points at finite r.
-They do not classify the full inverse-image scheme or all conductor
-jets. None of the computations in this note is a universal STCI
-certificate, and no mathematical execution count is claimed here.
 
 
 ---

@@ -12,12 +12,12 @@ statement: "The fixed-boundary Grassmannian fiber is smooth of dimension 14 and 
 dependencies:
   - STCI-R-0023
 evidence:
-  - "research/notes/2026-10-25-ci-cycle-fixed-boundary-node-smoothing.md"
+  - "research/synthesis/fixed_boundary_smoothing.md"
   - "research/computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py"
   - "research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json"
 independent_audits:
-  - "research/notes/2026-10-25-ci-cycle-fixed-boundary-node-smoothing-audit.md"
-accepted_in: "research/PROMOTION_ADJUDICATION_CR06-08_CR12-14_2026-10-26.md"
+  - "research/synthesis/fixed_boundary_smoothing.md"
+accepted_in: "research/results/ci_quartic_fixed_boundary_smoothing.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -40,7 +40,7 @@ Exact rational matrices from global quartic equations yield ranks (19,5,24) and 
 R-0023 supplies the residual geometry and five nodes.
 
 ## Evidence and verification
-The independent audit reconstructs the matrices and checks the formal-local interpretation. Saved Python verifier and JSON give reproducible witnesses. No fresh execution in this promotion turn.
+The independent audit reconstructs the matrices and checks the formal-local interpretation. Saved Python verifier and JSON give reproducible witnesses. The inherited exact verifier was not rerun in this consolidation.
 
 ## Consequences
 Residual nodes can be smoothed independently with the attachment divisor exactly fixed, locally.
@@ -48,6 +48,6 @@ Residual nodes can be smoothed independently with the attachment divisor exactly
 ## Limitations
 No explicit polynomial or rational coefficient arc, nor universal theorem for all quartic pairs.
 
-## Permanent evidence navigation
+## Current proof home
 
-The `research/notes/` metadata retains original provenance identifiers, not current-tree paths. For mathematical exposition and the linked detailed source supplements, consult [the consolidated subject chapter](../synthesis/05-exclusions.md). Historical identifiers remain unchanged; the theorem's hypotheses and status are not expanded.
+The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/fixed_boundary_smoothing.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new inherited CAS execution was required.
