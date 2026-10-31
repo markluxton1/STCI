@@ -38,6 +38,12 @@ The following distinctions prevent recurring false identifications in the histor
 
 These distinctions also explain why polarity on \(Q\) does not provide a canonical marked identification \(\mathcal N\simeq Q\): the polar line of a tangent line is not generally a ruling of \(Q\). See the preserved calculations in [quartic projection and special geometry](../supplements/QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md) and [quartic duality and flags](../supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md). The comparison is geometric background, **not** a theorem about arbitrary defining surface pairs.
 
+## 1.2A Marked contact cycles and what they count
+
+The osculating-plane family has contact divisor \(3\Delta+\Gamma_\iota\) on \(C\times C\), where \(\iota(u)=-u\). The bitangent family has contact divisor \(2\Gamma_{c_+}+2\Gamma_{c_-}\), with the two ratio correspondences given in characteristic zero by \(c_\pm=-2\pm\sqrt3\). These are universal **marked plane-section cycles**, not zero schemes of arbitrary defining equations. At the two fixed points of \(\iota\), the osculating plane has fourth-order rather than separated triple-plus-simple contact.
+
+The distinction matters for global intersection arguments: multiplying the universal plane contact divisor by the degree of a chosen plane family is legitimate only after that family and its pullback multiplicities have been specified. It does not turn the two marked endpoints into compulsory singularities of both carriers. The flag and dual records [R-0026](../results/quartic_flag_conormal_geometry.md) and [R-0027](../results/quartic_dual_singular_scheme.md) retain the nonreduced contact and embedded endpoint structure; [Chapter 4](04-carriers.md) explains the additional conductor conditions required to descend a divisor from a carrier normalization.
+
 ## 1.3 Dual invariants and the scheme-theoretic intersection
 
 Write dual coordinates \([A:B:C:D]\) for the plane whose restriction to the parametrized curve is \(As^4+Bs^3t+Cst^3+Dt^4\). Put
