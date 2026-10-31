@@ -67,6 +67,12 @@ The conditional movement-two (6,16) calculation supplies a particularly sharp ne
 
 This failure is not the local comparison defect \(\Delta_n\) of R-0030, not a nonsaturated first relation, and not a residual curve. It is an obstruction at the next global-source compatibility stage for a specified seed. A uniform theorem would need to handle the whole root/multiplier incidence, including singular roots and multiplier zeros.
 
+## Rank-stratified realization rather than generic elimination
+
+The global sextic quadratic-symbol image is an exact linear subspace, but its next cubic compatibility equation depends on the chosen root and multiplier. Solving that equation on the generic full-rank open and dividing by a parameter cannot decide the exceptional rank-drop or multiplier-zero strata. The correct incidence retains the full coefficient scheme, imposes augmented-minor solvability on each rank stratum, and then intersects with the independently necessary second-obstruction and full-root torsion conditions. See [the finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation).
+
+This procedure does not identify the local comparison module \(\Delta_n\), nor does it assert that the necessary incidence has a point. It specifies how to avoid losing legitimate exceptional candidates while testing **actual** homogeneous source realization.
+
 ## The global-source gap
 
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
