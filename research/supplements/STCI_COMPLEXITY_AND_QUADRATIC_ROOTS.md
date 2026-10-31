@@ -18,6 +18,13 @@ the exclusion to every smooth root with a pure square direction and reduces
 all remaining torsion-two cases to one chart using actual ambient symmetries.
 It also excludes the complete linear rank-drop boundary after the second
 lift and proves a scalar-selection bound on its finite first-stage algebra.
+The [ideal-sheaf continuation](IDEAL_SHEAF_SPECTRAL_SEQUENCES_AND_GLOBAL_JETS.md)
+identifies a separate finite linear compatibility problem: actual global
+equation jets. It proves an order-\(d\) global-extension cutoff for degree
+\(d\) on this quartic and computes the exact sextic cutoff as order five.
+Its filtered Cech sequence locates the eleven missing quadratic symbols
+in a rank-11 third differential; this does not identify that differential
+with either root-lifting obstruction.
 
 ## 1. Fixing the computational questions
 
