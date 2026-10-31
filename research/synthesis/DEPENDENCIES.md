@@ -62,6 +62,12 @@ The (6,16) global-source route has moved beyond a dimension heuristic: its first
 
 Its logical endpoint is limited. Emptiness would exclude the specified saturated movement-two locus; nonemptiness would provide candidates, not a supported complete intersection. Any inference to all characteristic-zero STCI pairs requires a separate exhaustion of nonsaturated, higher-movement and other carrier cases.
 
+## Rank-stratified cubic correction as an exact intermediate arrow
+
+The conditional sextic cubic comparison is a 40-coefficient linear system in at most sixteen correction coefficients. Once its matrix \(A(t)\) and target \(b(t)\) are constructed from actual jets, the next arrow is exact: on \(\operatorname{rank}A=r\), a correction exists if and only if \(\operatorname{rank}[A\mid b]=r\). This requires the augmented (r+1)-minors **and** the locally closed rank-r conditions on A; a generic solution or closure of the projection is not equivalent. See [the determinantal construction](normalization_conductor_phase2_addendum.md#determinantal-elimination-without-generic-division).
+
+Even a solved correction incidence would still be a necessary-source condition. It does not imply the twenty-five second-obstruction pairings, full-root torsion, a compatible degree-sixteen mate, or projective support exhaustion.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
