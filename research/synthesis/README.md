@@ -56,6 +56,10 @@ The six chapters are the main reading route. The four supplements below have **d
 
 For the carrier route, start with [Chapter 4](04-carriers.md) for the exact fixed-carrier criterion, then [carrier/conductor/socle interfaces](carrier_conductor_socle_interfaces.md) for the restricted pointwise identity. The long [projection synthesis](normalization_conductor_projection.md) retains distinct exact calculations: full quadratic conductor power descent, finite-Artinian nilpotent and etale phases, torsion-coset families, and the conditional single-field power bound. They are not interchangeable hypotheses or an executed exclusion of the three remaining Cartier singleton models.
 
+## Ambient source completeness versus normal-jet realization
+
+The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-the-exact-ideal-power-theorem-contributes) supplies all homogeneous sections of \(I_C^m(d)\) in the stable range \(d\ge3m\). [Chapter 2](02-two-surfaces.md#27a-exact-ordinary-power-source-in-the-stable-degree-range) and [Chapter 3](03-infinitesimal-geometry.md) distinguish that source description from the image of normal-symbol and finite-jet maps. The distinction is necessary for both the global determinant and uniform residual-degree programs; it is not an additional STCI exclusion.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
