@@ -58,7 +58,7 @@ For the carrier route, start with [Chapter 4](04-carriers.md) for the exact fixe
 
 ## Ambient source completeness versus normal-jet realization
 
-The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-the-exact-ideal-power-theorem-contributes) supplies all homogeneous sections of \(I_C^m(d)\) in the stable range \(d\ge3m\). [Chapter 2](02-two-surfaces.md#27a-exact-ordinary-power-source-in-the-stable-degree-range) and [Chapter 3](03-infinitesimal-geometry.md) distinguish that source description from the image of normal-symbol and finite-jet maps. The distinction is necessary for both the global determinant and uniform residual-degree programs; it is not an additional STCI exclusion.
+The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-the-exact-ideal-power-theorem-contributes) supplies all homogeneous sections of \(I_C^m(d)\) in the stable range \(d\ge3m\). [Chapter 2](02-two-surfaces.md#27a-ambient-ideal-powers-and-normal-symbols) and [Chapter 3](03-infinitesimal-geometry.md) distinguish that source description from the image of normal-symbol and finite-jet maps. The distinction is necessary for both the global determinant and uniform residual-degree programs; it is not an additional STCI exclusion.
 
 ## A concrete successive-jet failure
 
@@ -66,7 +66,7 @@ The [conditional (6,16) calculation](normalization_conductor_phase2_addendum.md#
 
 ## The finite (6,16) incidence, not just the failed seed
 
-The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction) connects the explicit eleven first-symbol equations to the constant-rank cubic-jet quotient obstruction, the second-obstruction pairings and full-root torsion. The [frontier](06-frontier.md#611c-a-finite-616-incidence-with-an-exact-cubic-quotient) states the bounded elimination task and its limited exclusion scope. The known failed smooth seed is one point rejected by this system, not a proof of global emptiness.
+The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction) connects the explicit eleven first-symbol equations to the constant-rank cubic-jet quotient obstruction, the second-obstruction pairings and full-root torsion. The [frontier](06-frontier.md#611c-the-finite-616-incidence-after-the-cubic-simplification) states the bounded elimination task and its limited exclusion scope. The known failed smooth seed is one point rejected by this system, not a proof of global emptiness.
 
 ## Direct cubic coefficient equations
 
