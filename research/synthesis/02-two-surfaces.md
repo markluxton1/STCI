@@ -50,6 +50,10 @@ The initial forms share the factor \(u\), while \((F,G)=(u,v^N)\) has length \(N
 
 The global question is therefore not merely whether common directions exist, but what **geometric and line-bundle constraints** prevent their excess contact from being absorbed indefinitely without producing an additional component of \(V(F,G)\).
 
+## 2.3A The exact divisibility condition when residual degree vanishes
+
+For a proper intersection of degrees \(d,e\) whose only one-dimensional support is the degree-four curve \(C\), Bézout gives \(de=4m\), where \(m\) is the generic length along \(C\). Hence \(4/\gcd(4,d)\) divides \(e\). If a residual curve is present, the correct cycle equality is \(de=4m+\deg R\), and the divisibility conclusion need not hold. This separates a necessary numerical condition for an STCI candidate from a generic-length bound used to prove residual support.
+
 ## 2.4 Global numerical constraints
 
 The audited entirely-thick analysis records, for generic orders \(r,s\ge2\), the necessary inequalities
