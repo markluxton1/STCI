@@ -32,6 +32,12 @@ For a proper degree-(d,e) pair containing C, let m be the length of its generic 
 
 A punctual defect in the filtered equation-module comparison is a different issue: it concerns how generic initial relations extend over closed points of C. The [filtration synthesis](normal_filtration_boundary_obstructions.md#full-initial-ideals-and-the-filtered-equation-module) explains why neither such a defect nor a vertical exceptional cycle automatically supplies a positive-degree residual curve. The selected sextic calculation [R-0025](../results/ci_fixed_sextic_jet_rigidity.md) avoids this inference: it bounds m using the actual global mate source and then applies degree exhaustion. A uniform residual theorem would need a comparable bound over every admissible carrier and exceptional stratum, not only the tested sextic.
 
+## 3B. Exact fixed-degree endpoint and what a jet computation certifies
+
+Fix positive degrees d,e and a proper pair containing C. If sole reduced support is possible, M=de/4 is an integer. At the generic point of C, let R_eta be the two-dimensional regular local ring with maximal ideal m_eta. For J=(F,G)R_eta, the equality length(R_eta/J)=M is equivalent to length(R_eta/(J+m_eta^(M+1)))=M: the Artinian local algebra of length M has nilpotent maximal ideal of exponent at most M, and conversely the truncated quotient cannot have length M while the untruncated quotient has greater length without contradicting the filtration length bound. The source-level endpoint calculation is in [the boundary supplement](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md).
+
+This is a finite-length **test for a specified pair**, not a uniform jet-rank theorem. The relevant candidate jets must lie in the images of actual degree-d and degree-e homogeneous sections; arbitrary compatible-looking graded symbols need not lift. Properness and the absence of common surface factors must also be checked before applying the projective cycle identity. For a fixed carrier family, a uniform bound m <= M-1 on all actual proper mates would imply deg(R)>=4. The fixed-sextic R-0025 is one scoped instance of this strategy, not a bound on all carriers.
+
 ## 4. The missing bridge
 
 The natural desired theorem would connect a **generator-independent normal invariant** (full initial ideal, Rees data, or saturated flag) to a **positive residual degree** for actual global equations. Current evidence does not supply that implication in general. In particular:
