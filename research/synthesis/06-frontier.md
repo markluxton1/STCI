@@ -121,6 +121,10 @@ The [current frontier](../FRONTIER.md) takes precedence over the ordering of thi
 The jet-dependence, root-obstruction, and Cartier-projection problems in Sections 6.1–6.6 remain bounded alternative projects. Choose them by mathematical leverage and check whether later scoped results already settle the proposed subcase. Promote claims only under the [authority policy](../AUTHORITY.md), with exact hypotheses and independent audit.
 
 
+## 6.8A Degree divisibility is a filter, not a carrier exclusion
+
+For a proper sole-support pair of degrees \(d,e\), the generic multiplicity satisfies \(4m=de\). Thus \(e\) must be divisible by \(4/\gcd(4,d)\): by four for odd \(d\), by two for \(d\equiv2\pmod4\), and without an extra divisibility condition when \(4\mid d\). This eliminates some degree pairs numerically, but does not exclude any remaining carrier family. In particular it cannot replace the global equation-source, properness or residual-length arguments.
+
 ## 6.9 Residual-intersection deliverables
 
 Two research routes remain distinct. First, extend the fixed-sextic jet-kernel theorem R-0025 to a geometrically defined family of carriers and mates, including the exceptional rank-drop strata. A uniform upper bound on generic multiplicity strictly below de/4 would imply positive residual degree via the projective cycle formula. One selected sextic does not establish such a uniform bound.
