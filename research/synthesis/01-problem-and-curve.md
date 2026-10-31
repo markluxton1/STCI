@@ -104,6 +104,22 @@ for exponent-compatible binomials of this precise shape. This is a complete **re
 
 The same calculation works over characteristic zero with \(m=n\), so no positive exponent \(n>1\) in this binomial family gives sole support there. In characteristic zero the \(n=1\) exponent congruence has no nonnegative solution (\(b\le0\) but \(b\equiv3\bmod4\)); hence the family produces **no characteristic-zero STCI at all**. This conclusion is limited to the displayed binomial ansatz.
 
+## 1.2E Generic multiplicities and contacts among binomial components
+
+The component classification above also determines the **fundamental one-cycle**, not just the reduced support. For \(n=p^r m\), \(p\nmid m\), the local complete intersection on \(x_0=1\) is
+\[
+(x_3-x_1^4,\ (x_2^m-x_1^{3m})^{p^r}).
+\]
+At the generic point of each \(C_\zeta\), the other \(m-1\) factors are units; the generic transverse length is exactly \(p^r\). Consequently, as an effective cycle,
+\[
+[V(F,G)]=p^r\sum_{\zeta^m=1}[C_\zeta].
+\]
+Each component has degree four, so the cycle degree is \(4p^rm=4n=\deg F\deg G\), as Bézout requires. In characteristic zero take \(p^r=1,m=n\).
+
+The distinct components meet **only at the two endpoints**, and their intersection lengths there are unequal. Near \(p_0=[1:0:0:0]\), use \(t=x_1/x_0\); the branches are \((x_1,x_2,x_3)=(t,\zeta t^3,t^4)\). For \(\zeta\ne\xi\), their scheme-theoretic intersection has length three, because their defining ideals together impose \(t^3=0\). Near \(p_\infty=[0:0:0:1]\), use \(v=s/t\); the branches are \((x_0,x_1,x_2)=(v^4,v^3,\zeta v)\), and the corresponding intersection length is one. Thus the pairwise local contact budget is \(3p_0+p_\infty\), of total length four.
+
+This explains why generic multiplicity and endpoint contact must be kept distinct: the cycle degree accounts for the complete intersection, but the nonreduced structure and intersections at the endpoints are not determined by that degree alone. The calculation is specific to this binomial family and does not imply a general rule for all STCI thickenings.
+
 ## 1.3 Dual invariants and the scheme-theoretic intersection
 
 Write dual coordinates \([A:B:C:D]\) for the plane whose restriction to the parametrized curve is \(As^4+Bs^3t+Cst^3+Dt^4\). Put
