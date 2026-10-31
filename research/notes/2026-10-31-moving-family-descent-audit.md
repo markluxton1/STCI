@@ -191,3 +191,85 @@ moving family has, or cannot have, the required global homogeneous
 generators follows. The unrestricted characteristic-zero STCI problem
 remains open. No canonical result or navigation state is promoted by
 this audit.
+
+## 6. Bounded extension: actual affine equations and their homogenizations
+
+Additional review scope: the subsequently appended proposal §6 only,
+including its affine lemma and the statement quantified over every pair
+generating either fixed affine ideal of `Z_m`. **The mathematical claim
+is supported, with no unresolved correction.** The proof owner corrected
+the Forster locator to **§IV, proof of Theorem 4.3, printed pp. 20–21**
+and renumbered the concluding impact section §7; both changes were
+verified in the reviewed state. Neither changes the mathematical claim.
+
+For a closed lci curve `X⊂A³_k` with `X_red≅A¹_k`, the nilradical of its
+affine coordinate ring is nilpotent. At each square-zero step, the kernel
+of the map of unit sheaves is the additive quasi-coherent nilpotent
+ideal. Its first and second cohomology vanish on the affine scheme.
+Consequently reduction induces `Pic(X)≅Pic(A¹_k)=0`; this argument does
+not require characteristic zero or that `X` itself be reduced. In
+particular, the determinant of its normal bundle is trivial.
+
+For `R=k[x,y,z]` and `I=I_X`, the codimension-two Koszul calculation
+identifies `Ext²_R(R/I,R)` with that determinant, as an `R/I`-module.
+The long exact Ext sequence gives
+`Ext¹_R(I,R)≅Ext²_R(R/I,R)`. Choose the extension corresponding to a
+global generator of this trivial rank-one module. Locally at a point of
+`X`, take a regular sequence `(f,g)` generating its ideal. The reference
+Koszul extension has free middle term and represents `1` in the local
+Ext module. Every generator differs from it by a unit modulo `(f,g)`,
+which lifts to a unit in the local ring; its extension therefore again
+has free middle term. Outside `X`, the ideal is the unit module and the
+extension splits. Thus its middle module is projective of rank two.
+Quillen–Suslin makes it free over `R`, giving two global generators of
+the **entire ideal** `I`. A two-generated height-two ideal in this
+regular ring is a regular sequence. This proves exactly the stated
+scheme-CI lemma, rather than only a set-theoretic conclusion.
+
+The precise Serre-extension inputs were checked in
+[Schnell, Lemma 1, equation (6), and §3](https://www.math.stonybrook.edu/~cschnell/pdf/notes/serre.pdf):
+the determinant identification, passage to a global extension, and
+local freeness where the corresponding determinant section generates.
+[Forster, §IV, proof of Theorem 4.3](https://www.math.lmu.de/~forster/eprints/Compl_inter.pdf)
+explicitly uses Quillen–Suslin freeness for a locally free module on
+affine space and lists the original Quillen and Suslin papers as
+references [28] and [34]. Its §V treats different set-theoretic
+complete-intersection statements; those are not used to strengthen the
+present lemma. No generator bound or explicit pair is furnished here.
+
+Removing `x0=0` or `x3=0` from `Z_m` gives a closed lci subscheme of
+the corresponding affine three-space, with reduction an affine line.
+The lemma therefore applies to both exact affine thick-scheme ideals
+for every `m≥2`.
+
+Now fix either chart and **any** pair `(f,g)` generating that affine
+ideal. Write `H` for the omitted hyperplane coordinate and `f^h,g^h`
+for ordinary homogenizations. Each is individually indivisible by `H`.
+A different common homogeneous factor would dehomogenize to a
+nonconstant common factor of `f,g`, contradicting height two. Their
+intersection is thus a proper, pure projective CI curve `Y`; it
+contains the scheme closure `Z_m` and equals it on the chart.
+
+If `Y` had no other curve support, its Cohen–Macaulay purity would make
+`H` a nonzerodivisor: its sole minimal support `C` is not contained in
+`H`. Hence `Y` would already be saturated with respect to `H`, and
+would equal the scheme closure `Z_m`. The reviewed §5 contradiction
+excludes that possibility. Some additional curve support therefore
+exists, wholly inside `H`.
+
+The support of a projective CI curve is connected. Here this also
+follows directly from the two-equation Koszul resolution, which gives
+`H⁰(O_Y)=k` using the vanishing of intermediate cohomology of line
+bundles on `P³`. Thus the residual union meets `C`; their only possible
+meeting point is the single omitted endpoint `C∩H`. This asserts
+attachment of the residual union, not that every individual residual
+component must meet that endpoint directly.
+
+Geometrically the affine schemes admit genuine global affine equation
+pairs, but homogenizing any such pair introduces curve support at the
+missing boundary. The exact projective thickening has no compatible
+homogeneous pair. This all-presentations conclusion applies only to
+these fixed affine `Z_m` ideals; it imposes no universal conclusion on
+affine set-theoretic presentations of the reduced quartic or on an
+arbitrary hypothetical STCI thickening. No canonical promotion or
+unrestricted STCI conclusion follows from this extension.

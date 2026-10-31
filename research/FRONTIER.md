@@ -48,6 +48,16 @@ fails the global homogeneous two-equation condition. Both results have
 independent audits; they direct any continuation toward that global
 condition, rather than further local-Gorenstein or punctual-type lists.
 
+The subsequent affine check shows that both entire affine pieces of
+that control already admit two polynomial generators. The
+[multiple-quadric matrix test](notes/2026-10-31-simultaneous-equation-geometry.md)
+also rejects an automatic factorization of determinant-q^N matrices
+into determinant-q factors, even with the nonfree locus at the two
+marked endpoints. Both are reviewed provisional limitations on proposed
+global bridges. Any matrix approach must retain its distinguished
+column with common zero set exactly C, rather than generic rank or
+determinant alone.
+
 The open target is a global compatibility constraint or construction for
 arbitrary higher supported structures. The affine endpoint multiplicity
 criterion and finite-cover nilpotence criterion are exact formulations,

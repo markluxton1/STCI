@@ -440,6 +440,75 @@ constraint on that module or constructs the required two sections.
 The already established globally glued fixed-twist formal-pair criterion
 remains an available route; no new algebraization gap is asserted.
 
+## Eighth integration: affine generators and the global matrix obstruction
+
+The next two fresh `gpt-6-astra/ultra` assignments retained the actual
+global equation module: one tested endpoint interpolation and Serre
+bundles, the other the restricted Koszul complex and matrices on
+multiple quadrics. The first produced no new uniform implication and
+stopped without a new note. Its proposed projected-ribbon diagnostic
+was also stopped: its initially claimed CI Hilbert-polynomial match
+was incorrect (degree eight, genus five is not the (2,4) CI polynomial),
+and developing another ribbon variant would not improve the existing
+controls. No conclusion uses that abandoned claim.
+
+The [moving-family note, §6](2026-10-31-moving-family-descent.md)
+now includes a separately reviewed classical affine strengthening.
+Every lci thick curve in A3 whose reduction is A1 is an actual scheme
+CI: affine nilpotent invariance makes its determinant conormal trivial,
+the affine Serre extension gives a rank-two projective module, and
+Quillen–Suslin makes that module free. Thus both entire affine pieces
+of every Z_m in the moving control have genuine two-polynomial
+presentations. Every generating pair for either fixed affine ideal,
+when ordinarily homogenized, acquires a residual curve in the omitted
+plane, attaching as a union at the omitted endpoint. Otherwise purity
+would identify the resulting projective CI with the already excluded
+scheme Z_m. This quantifies over presentations of those fixed thick
+schemes, not over every affine STCI presentation of the reduced C.
+The existing `gpt-6.1-sol/high` reviewer checked this coherent extension;
+its source-locator and section-number corrections were applied.
+
+The multiple-quadric route does retain global equations: an actual pair
+gives q^N=AF+BG and hence a two-by-two matrix with first column (F,G)
+and determinant q^N. The proposed simplification to successive
+determinant-q factors is false. The
+[short geometric counterexample](2026-10-31-simultaneous-equation-geometry.md)
+and [independent audit](2026-10-31-simultaneous-equation-geometry-audit.md)
+use
+\[
+M=\begin{pmatrix}
+x_1^2&x_1x_2+q\\ x_1x_2-q&x_2^2
+\end{pmatrix},\qquad\det M=q^2.
+\]
+On Q its rank-zero scheme is the square of the ideal of the two
+marked endpoints. Each determinant-q factor would have rank one
+everywhere on smooth Q, so their composition would vanish along the
+zero divisor of a map of line bundles. It cannot have only those
+isolated rank-zero points. This excludes factorization even through
+an arbitrary rank-two intermediate bundle. A fresh
+`gpt-6.1-sol/medium` reviewer reconstructed this bounded geometric proof
+and its exact cokernel layers; no material correction was required.
+
+The cokernel is globally ACM and generically rank one on 2Q, but
+its natural q-image is I_T(-1), with a punctual defect at T={p0,p∞}.
+Thus the ACM total object need not have line-bundle or ACM layers on Q.
+Even placing the defect at the two marked points does not restore the
+proposed factorization. The example's first column defines two lines,
+however, so it does not satisfy the actual STCI column-support condition.
+No obstruction to matrices satisfying that stronger condition has been
+proved. The preceding Koszul degree/socle calculations only reproduced
+existing budgets and were not retained as new theorems.
+
+These tests leave the global equation condition intact. Homogeneous
+endpoint interpolation must use the actual frame x3=v t^4, including
+the factor v^(−n) in degree n, and the actual local parameter z=τu/v;
+freezing these nonlinear data would change the problem. Serre
+construction alone returns a bundle whose required splitting remains
+unproved. The next substantial investigation needs a uniform argument
+for the actual homogeneous pair or its distinguished column, or a
+construction of that pair. Neither another local-type list nor a
+classification of arbitrary matrix factorizations is adopted as an agenda.
+
 ## State at this integration checkpoint
 
 The retained proof notes and independent audits preserve the actual

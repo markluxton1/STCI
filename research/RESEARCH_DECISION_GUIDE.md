@@ -10,6 +10,11 @@ CI endpoint contractions can coexist. Its projective image fails the global
 two-equation condition. A further punctual-family investigation therefore
 needs an explicit connection to that global condition; refining local
 Gorensteinness or movement alone would not overcome this tested limitation.
+Its affine pieces already have actual two-polynomial presentations.
+Likewise a [matrix with determinant q^N](notes/2026-10-31-simultaneous-equation-geometry.md)
+need not split into simple-quadric factors, even with punctual defects
+at the marked endpoints. Retain the actual homogeneous generators and
+their common support when using either formulation.
 
 For an actual source investigation, retain the earlier [STCI equation search](STCI_SEARCH.md) discipline: generate a plausible source, test it exactly, diagnose failure, and revise the source. Prefer work that either constructs equations, rules out an explicitly quantified source, or identifies its next unresolved condition; explain how the result affects the full question. Compare positive and negative evidence. Large parameter spaces, sophisticated local data and positive residual bounds do not independently answer the search question. The characteristic-p lane must distinguish fixed-carrier bounds from an all-pairs minimum; the freedom lane must retain actual global source images and common factors.
 
