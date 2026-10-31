@@ -160,6 +160,24 @@ Next: [carrier normalization and conductor](04-carriers.md), which imposes a dif
 
 ## 3.12 Boundary repair versus embedded lifting
 
+For a **specified** obstruction \(o\in H^1(C,V)\) in a vector bundle \(V\) on a smooth curve, and an effective divisor \(D\), the exact sequence
+\[
+0\longrightarrow V\longrightarrow V(D)\longrightarrow V(D)/V\longrightarrow0
+\]
+shows that \(o\) dies in \(H^1(C,V(D))\) exactly when it lies in the image of the connecting map \(H^0(C,V(D)/V)\to H^1(C,V)\). By Serre duality this is equivalent to \(o\) annihilating \(H^0(C,V^\vee\otimes\omega_C(-D))\). This is a **principal-parts repair test for the specified class**, not a construction of an arbitrary embedded thickening.
+
+On \(C=\mathbf P^1\), take \(V=\mathcal O(-r)\), \(r\ge2\), and \(n=r-2\). A divisor \(D\) of degree \(B\) corresponds to a nonzero \(h\in H^0(\mathcal O(B))\) up to scalar. The class \(o\) is reparable by **some** such divisor exactly when the catalecticant map
+\[
+H^0(\mathcal O(B))\longrightarrow H^0(\mathcal O(n-B))^\vee,\qquad
+h\longmapsto (q\mapsto\langle o,hq\rangle)
+\]
+has a nonzero kernel. If \(B\ge\lfloor r/2\rfloor\), a kernel exists by dimension for every class, but this only allows an *arbitrarily chosen* divisor. For a direct sum of obstruction lines the **same** \(h\) must repair all components, so their catalecticant maps must be stacked. The [boundary supplement](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) gives the complete calculation and the unproved comparison with the ambient lifting complex.
+
+The [one-step package](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) is more restrictive: it fixes an embedded lower thickening, its equation module and permissible socle boundary. One must establish that the geometric boundary actually induces the proposed modification of the **correct obstruction bundle**, rather than applying an arbitrary twist to an unrelated cohomology class. Vanishing, the final Gorenstein pairing and the existence of two **proper decomposable** elements in actual homogeneous source spaces are distinct tests. A nonzero linear kernel need not meet the decomposable locus.
+
+The [Delta-embedding package](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md) addresses a different local comparison defect. It is not interchangeable with the repair divisor, with the saturated first-relation defect or with a residual projective curve. The supported punctual-defect question remains open under [R-0030](../results/local_filtration_comparison_defect.md).
+## 3.12 Boundary repair versus embedded lifting
+
 A useful provisional calculation starts with a *specified* obstruction (o\in H^1(C,V)) for a vector bundle \(V\) on a smooth curve and an effective divisor \(D\). The exact sequence
 \[
 0\longrightarrow V\longrightarrow V\(D\)\longrightarrow V\(D\)/V\longrightarrow0
