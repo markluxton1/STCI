@@ -2,7 +2,22 @@
 
 ## Research activity status — October 31, 2026
 
-The latest [polarization-root deductions](notes/2026-10-31-polarization-root-budget.md)
+The latest [marked absorption construction](notes/2026-10-31-marked-absorption-deformations.md)
+is independently reviewed provisional work. A general marked-embedding
+lemma gives actual fixed-C0 families realizing every given ribbon with
+conormal O_P1(-d), 0<=d<=6, and sufficiently high-degree proper pairs
+that absorb a second quartic into it. The full central C0-primary scheme
+is the prescribed ribbon. The method transfers four units of residual
+degree; it supplies no supported endpoint or automatic iteration.
+At any hypothetical supported CI its sufficient vanishing criterion
+fails, by an exact positive obstruction-space dimension, without implying
+that a particular obstruction class is nonzero. The
+[assessment, §14](notes/2026-10-31-unrestricted-strategy-assessment.md#14-prescribed-ribbon-absorption-and-the-limit-of-automatic-embedding-lifts)
+records the independent correction that enabled the construction and the
+redundancy of the checked ambient Hilbert-scheme nef inequalities. No
+canonical record or unrestricted mathematical status changes.
+
+The preceding [polarization-root deductions](notes/2026-10-31-polarization-root-budget.md)
 are independently reviewed provisional all-pair constraints, with no
 unrestricted exclusion or construction. The full root algebra is finite,
 Cohen–Macaulay and Gorenstein over the hypothetical CI ring; its reduced

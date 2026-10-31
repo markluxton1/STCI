@@ -44,6 +44,16 @@ converting them into a residual-degree bound or an absorption construction
 still requires actual contact and attachment information. Both contributions
 are independently reviewed provisional work, with no new campaign selected.
 
+The [marked embedding construction](notes/2026-10-31-marked-absorption-deformations.md)
+adds an actual positive operation: a general vanishing criterion lifts
+deformations while fixing the embedded C0. It realizes prescribed ribbons
+in the stated conormal range as limits of C0 and a second quartic, and
+large twists supply proper two-equation families absorbing that quartic.
+The same sufficient criterion has a positive obstruction space at every
+hypothetical supported CI, so it gives no automatic endpoint or iteration.
+This is reviewed provisional evidence for controlled partial absorption,
+with the full-question implications in the [assessment, §14](notes/2026-10-31-unrestricted-strategy-assessment.md#14-prescribed-ribbon-absorption-and-the-limit-of-automatic-embedding-lifts).
+
 The [paired-cover construction](notes/2026-10-31-paired-elliptic-construction.md)
 subsequently supplies actual odd-spin elliptic target data with compatible
 component polarizations. Its node-gluing ratios are values of a degree-three

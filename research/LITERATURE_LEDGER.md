@@ -567,6 +567,25 @@ and the associated ruling-fiber degeneration are retained as an STCI-specific ge
 
 Accordingly, future work should describe the general philosophy of dependent infinitesimal/jet conditions as standard background and reserve any novelty language for precisely stated STCI-specific lemmas after a dedicated literature check.
 
+The October 31 [marked absorption construction](notes/2026-10-31-marked-absorption-deformations.md)
+uses [Drézet's full-text Proposition 3.2.6 and Theorem 3.2.7(ii)](https://arxiv.org/html/1409.4175v3#S3.SS2):
+a given complex ribbon with conormal the ideal of a reduced divisor admits
+a global maximal reducible deformation. The broader nonzero-section
+condition gives the local statement in part (i), not the global conclusion
+used here. The construction's fixed embedding is supplied separately by
+the marked morphism-lifting argument; its two homogeneous equations are
+supplied by sufficiently large twists. Neither is asserted to be a
+conclusion of Drézet's theorem itself.
+
+The accompanying [selection assessment, §14](notes/2026-10-31-unrestricted-strategy-assessment.md#14-prescribed-ribbon-absorption-and-the-limit-of-automatic-embedding-lifts)
+checks [Arcara–Bertram–Coskun–Huizenga, Theorem 2.4, Proposition 3.1 and Corollary 3.2](https://arxiv.org/pdf/1203.0316).
+Their ambient Picard/Plücker/nef-cone theorem for the Hilbert scheme of
+points on P2 restricts to the existing movement degree on the actual
+fixed-support family. This restriction is the present inference, not an
+STCI theorem in that paper; it supplies no additional ambient nef
+inequality here. The [separate audit](notes/2026-10-31-marked-absorption-deformations-audit.md)
+records these source scopes and the constructive correction.
+
 
 ## October 21 accepted-interface references
 

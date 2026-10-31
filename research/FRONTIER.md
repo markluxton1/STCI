@@ -2,28 +2,39 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: arbitrary-pair roots and normal-contact budgets
+## Current checkpoint: prescribed ribbon absorption by marked embedding lifts
+
+The [marked absorption construction](notes/2026-10-31-marked-absorption-deformations.md)
+is complete and independently reviewed, with provisional status. A general
+marked morphism-lifting lemma turns Drézet's ribbon deformation into an
+embedded family fixing C0. Every given embedded ribbon with conormal
+O_P1(-d), 0<=d<=6, is attained. At sufficiently large fixed equation
+degrees, actual proper pairs absorb a second quartic into that prescribed
+ribbon, transferring four units of residual degree onto C0. This
+strengthens control of the existing partial-absorption operation; it
+does not produce a supported endpoint.
+
+The same note computes the marked lifting obstruction-space dimension
+at every hypothetical supported CI: `19+ab(3(a+b-4)/2-4)>0`. Thus the
+automatic vanishing criterion cannot reach an endpoint. Nonzero space
+does not mean a nonzero obstruction class. The
+[assessment, §14](notes/2026-10-31-unrestricted-strategy-assessment.md#14-prescribed-ribbon-absorption-and-the-limit-of-automatic-embedding-lifts)
+also shows that standard ambient punctual-Hilbert nef inequalities repeat
+the known movement degree. Stop both bare positivity and automatic
+iteration here; a continuation needs specified deformation directions
+and actual equation/obstruction control. No d=7 classification or new
+technical campaign is assigned. The unrestricted question remains open.
+
+## Completed source and mechanism tests
 
 The [polarization-root investigation](notes/2026-10-31-polarization-root-budget.md)
 and [normal-order extraction, §§8–9](notes/2026-10-28-residual-degree-blowup-bounds.md)
-are complete and independently reviewed, with provisional status. The
-first gives an all-pair root-algebra structure and reduced-section bounds,
-but no theorem converting the cone-vertex defect into residual degree.
-The second extracts a uniform requirement from the inherited graph bound:
-at least 65.2 percent of a hypothetical STCI's generic multiplicity must
-remain as horizontal exceptional contact after the first blowup. The
-pointwise normal divisors and genus identities are retrieved evidence,
-with the full residual scheme and attachment retained.
-
+remain reviewed provisional inputs. The root package has no established
+conversion of its cone-vertex defect into residual degree. The inherited
+graph bound requires at least 65.2 percent of a hypothetical STCI's
+generic multiplicity to survive as contact after the first blowup.
 The [assessment, §§12–13](notes/2026-10-31-unrestricted-strategy-assessment.md#12-arbitrary-pair-roots-and-the-limits-of-a-residual-budget-interpretation)
-compares the constructive and exclusion implications. Stop the bare root
-mechanism and first-graph arithmetic here; no cover, local-type or
-numerical enumeration is assigned. A further round needs a specified new
-comparison controlling actual higher contact/attachment or a global
-construction creating it. Naming the missing implication alone does not
-select a method. The unrestricted characteristic-zero question remains open.
-
-## Completed source and mechanism tests
+retains their interpretation and stopping conditions.
 
 The earlier [finite-pullback theorem](notes/2026-10-31-finite-pullback-lifting.md)
 excludes every finite endomorphism of P3 whose inverse image of a twisted

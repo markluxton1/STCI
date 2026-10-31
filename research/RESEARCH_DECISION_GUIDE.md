@@ -72,6 +72,16 @@ The [October 28 construction picture](notes/2026-10-28-containing-intersections-
 
 The [residual-degree bounds](notes/2026-10-28-residual-degree-synthesis.md) provide quantitative selection criteria. Specify which independent input is controlled: marked attachment, numerical self-intersection and its gap, exact normal orders/root slopes, or full-attachment cohomology. Compute the resulting floor and its equality mechanism before choosing an example. A zero bound identifies missing geometry; it does not prove an endpoint exists. A positive bound on a specified carrier or root configuration does not cover arbitrary pairs. The Fano graph supplies no automatic additional nef direction, so any stronger use of its conductor must identify extra geometric input explicitly.
 
+Do not reject an abstract deformation theorem solely because it does not
+state preservation of the required projective embedding. Check whether a
+marked map-lifting argument supplies that step, then separately retain the
+actual equations and residual support. The [prescribed-ribbon construction](notes/2026-10-31-marked-absorption-deformations.md)
+does this in a proved range. Its automatic vanishing criterion fails at
+every hypothetical supported CI, so further progress requires control of
+actual obstruction classes; a nonzero obstruction space is not a failed
+deformation. High twists enabling partial absorption do not by themselves
+improve the absorbed fraction or produce a sole-support endpoint.
+
 ## Essential conclusions: read first
 
 | Importance | What is established | Authority | Consequence |
