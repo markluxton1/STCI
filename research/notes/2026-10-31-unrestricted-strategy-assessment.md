@@ -1278,3 +1278,97 @@ literature-ledger summaries, and the two linked October 27 scope
 clarifications. The Temkin–Tyomkin theorem-number attribution was checked
 by the primary-source scout, not separately rechecked by the challenge
 reviewer. This is a reviewed selection assessment, not a promoted result.
+
+## 17. A concrete elementary modification and the end of its bounded test
+
+The next selection compared liaison/elementary modifications with
+mixed-characteristic lifting. Fresh `gpt-6-astra/xhigh` workers handled
+the two source checks. A fresh `gpt-6.1-sol/high` reviewer challenged their
+nonselection recommendations and found a concrete construction input.
+Another fresh reviewer at the same setting challenged that candidate
+before its bounded test, then independently reconstructed the proof.
+
+### Construction input, result, and geometric extraction
+
+The [quadric modification](2026-10-31-quadric-modification.md) constructs
+an actual rank-two bundle E with c1=10,c2=28 inside O(6)². The section
+defining 2C on Q lifts to E, and its complete lift space gives
+
+    F=c0²+qH4,   G=c2²+qK4,
+
+with both quartic corrections arbitrary. A section of E supported on C
+would have cycle 7C; its image would be an actual CI with cycle 9C.
+This supplied a precise existence test. Requiring a completed supported
+section before selection would have discarded a legitimate construction
+source. The existing fixed mixed-weight carrier and common-boundary
+exclusions do not cover this full space.
+
+The reported first-cancellation test now closes the entire source.
+Cancellation beyond multiplicity two requires H|C=s^12T4 and
+K|C=t^12T4. For nonzero T4, the next normal correction must supply
+4s^11t^11, while all available corrections lie in
+
+    s^12 H0(O_P1(10)) + t^12 H0(O_P1(10)) ⊂ H0(O_P1(22)).
+
+The required section has order eleven at both marked endpoints; each
+allowed summand has order at least twelve at one endpoint. Its middle
+coefficient cannot be supplied. The generic multiplicity is exactly
+three and residual degree is 24. If T4=0, both generic normal orders are
+two, and the inherited actual-cycle inequality gives residual degree
+at least four. Failed first cancellation gives multiplicity two.
+Thus every proper pair in the whole source has residual degree at least
+four. The [audit](2026-10-31-quadric-modification-audit.md) records the
+exhaustive alternatives and independently checked hypotheses.
+
+This adds a positive global bundle construction and a proved limitation
+of its full section space. Its reusable geometric content is the
+comparison between a required normal correction and the restriction
+image of actual ambient sections; the endpoint degree gap makes this
+test decisive. It is not an exclusion of arbitrary sextic pairs or an
+all-degree elementary-modification theorem. No larger-power sequence is
+selected. Such a continuation would require a new mechanism, not the
+mere existence of adjacent cases.
+
+### Arithmetic comparison and precise stopping conditions
+
+The arithmetic check retrieved the existing [full coefficient incidence,
+§2](2026-10-28-stci-search-logic-audit.md), rather than creating a duplicate
+Hilbert-scheme reformulation. For a known characteristic-p point z of
+that finite-type proper supported-pair incidence, a characteristic-zero
+DVR trait through z, allowing residue extension and ramification, exists
+exactly when p is not nilpotent in its local ring. This is the standard
+closure-to-trait application of [Stacks, Lemma 32.15.1](https://stacks.math.columbia.edu/tag/0CM1),
+not a new operation or a computed horizontal component. A compatible
+global embedded flat system over one complete mixed-characteristic DVR,
+retaining the support ideal containments and CI presentation, algebraizes
+by [Stacks, Lemma 76.43.1](https://stacks.math.columbia.edu/tag/0A00).
+The compatible supported lifts themselves remain missing.
+
+An unramified W2 failure does not exclude ramified lifts: x²=p has a
+ramified lift of x=0 but none over Z/p². The
+[higher-degree (16,p) examples](2026-10-29-arithmetic-beyond-binomial.md)
+therefore remain unresolved under simultaneous deformation of both
+equations; their fixed-carrier jet obstruction cannot be substituted for
+a statement about the full incidence. The checked
+[Granger–Schulze deformation theorem](https://arxiv.org/html/1804.01316)
+works with analytic curve germs and equicharacteristic semigroup control,
+and supplies no projective mixed-characteristic support mechanism here.
+
+**Recommendation:** close the proved quadric source test and retain the
+arithmetic horizontal-component question as an unselected interface.
+Reopen arithmetic work for an actual support-preserving lifting operation
+or a structural calculation on the full simultaneous-pair incidence;
+do not freeze the known carrier or start prime enumeration. One successful
+lift or geometric source can settle existence. Excluding chosen sources
+or special-fiber points cannot settle nonexistence without an exhaustive
+reduction. The construction and its source exclusion have independent
+proof review; the arithmetic scope statements have independent strategy
+review and no claimed new calculation. All bounded assignments are
+complete, and unrestricted characteristic-zero STCI remains open.
+
+Final assessment review: **PASS** by
+`modification_lifting_strategy_review`, reusing the separate
+`quadric_modification_gate_review` proof audit for the completed source
+test. The reviewed final wording retains all correction quartics,
+the positive bundle construction, the ramification qualifications and
+the absence of an automatic next-degree campaign.

@@ -2,7 +2,19 @@
 
 ## Research activity status — October 31, 2026
 
-The latest [marked absorption construction](notes/2026-10-31-marked-absorption-deformations.md)
+The [quadric modification result](notes/2026-10-31-quadric-modification.md)
+is independently reviewed provisional work. For every proper pair
+F=c0²+qH4, G=c2²+qK4 with arbitrary quartic corrections, residual degree
+is at least four. A global normal-correction degree gap proves exact
+generic multiplicity three when the common first parameter T4 is
+nonzero; the inherited blowup bound handles T4=0. The result closes the
+actual elementary-modification source constructed in that note, not
+all sextic pairs or all modifications. Its [audit](notes/2026-10-31-quadric-modification-audit.md)
+and [strategy assessment, §17](notes/2026-10-31-unrestricted-strategy-assessment.md#17-a-concrete-elementary-modification-and-the-end-of-its-bounded-test)
+preserve proof scope and stopping conditions. No canonical result or
+unrestricted mathematical status changes.
+
+The [marked absorption construction](notes/2026-10-31-marked-absorption-deformations.md)
 is independently reviewed provisional work. A general marked-embedding
 lemma gives actual fixed-C0 families realizing every given ribbon with
 conormal O_P1(-d), 0<=d<=6, and sufficiently high-degree proper pairs

@@ -16,6 +16,15 @@ a geometric prerequisite for a future balanced elliptic construction,
 not a classification of all targets or arbitrary STCI pairs. No carrier,
 mate or unrestricted exclusion is claimed.
 
+The later [quadric elementary modification](notes/2026-10-31-quadric-modification.md)
+gives an actual split-middle bundle construction and tests every quartic
+correction in its sextic lift space. A global two-endpoint normal-correction
+gap, together with the inherited blowup inequality, proves a positive
+residual-degree floor throughout that source. It is independently reviewed
+provisional work; it does not exclude arbitrary sextic pairs. The
+[selection and stopping assessment, §17](notes/2026-10-31-unrestricted-strategy-assessment.md#17-a-concrete-elementary-modification-and-the-end-of-its-bounded-test)
+retains the genuine constructive input and stops automatic degree expansion.
+
 The [subsequent mechanism comparison](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils)
 checks birational transport, complement pencils and homogeneous bundle
 amplification. It separates preservation of transverse thickness, an

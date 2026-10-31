@@ -2,7 +2,21 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: absorption constructions and obstruction tests
+## Current checkpoint: a concrete modification test and its global obstruction
+
+The [quadric elementary-modification test](notes/2026-10-31-quadric-modification.md)
+is complete and independently reviewed. It constructs the actual bundle
+and full sextic lift space F=c0²+qH4, G=c2²+qK4, then proves every proper
+pair in that source has residual degree at least four. For nonzero first
+cancellation parameter T4, an unavailable global normal correction forces
+generic multiplicity exactly three; the zero-T4 branch is excluded by the
+inherited blowup inequality. The [assessment, §17](notes/2026-10-31-unrestricted-strategy-assessment.md#17-a-concrete-elementary-modification-and-the-end-of-its-bounded-test)
+records the positive construction input, its precise failure and the
+unresolved arithmetic lifting comparison. No larger-power sequence or
+prime enumeration is selected. This source exclusion leaves arbitrary
+sextic pairs and unrestricted characteristic-zero STCI open.
+
+## Preceding absorption constructions and obstruction tests
 
 The [marked absorption construction](notes/2026-10-31-marked-absorption-deformations.md)
 is complete and independently reviewed, with provisional status. A general
