@@ -190,24 +190,19 @@ Cartier hypothesis.
 
 ## 5. Low sectional genus: the ruled argument audited
 
-For pi<=3, a minimal resolution sigma:M->S has nef and big
-L=sigma^*H, with `K_M.L=2pi-7<0`. Thus M has Kodaira dimension minus
-infinity and is rational or ruled. Suppose its minimal ruled model has
-base genus g>=1. The smooth lifted P1 curve c# maps constantly to that
-base, so it is a fiber component. If a is the total L-degree of a fiber,
-then `a>=L.c#=4`.
+Under the established normalization and actual rational-lift hypotheses above, a minimal resolution \(\sigma:M\to S\) has nef and big \(L=\sigma^*H\), with
+\[
+ L^2=5,\qquad K_ML=2\pi-7,\qquad L\widetilde c=4.
+\]
+The [characteristic-free ruled-surface criterion and integral gap](../synthesis/ruled_surface_degree_criterion.md) give a common proof of rationality for \(\pi\le3\).
 
-The standard ruled intersection calculation gives
+For \(\pi\le2\), \(A=-K_ML=7-2\pi\ge3\), so \(A\cdot4>5\). At \(\pi=3\), the ordinary strict inequality fails, but
+\[
+ 0<5-1\cdot4=1<4-1.
+\]
+This is the forbidden positive integral gap on a nonrational ruled birational class. The gap proof uses the actual fiber and integer blowup multiplicities, including infinitely near centers; it supplies the divisibility argument when the correction sum is zero.
 
-    5=(2g-2)a^2+(7-2pi)a+sum m_i(a-m_i),
-    0<=m_i<=a,
-
-with integer m_i supplied by the successive blowups. Each intermediate polarization is nef, and the positive full fiber cycle through a blowup center has total degree a; hence 0≤m_i≤a, including infinitely near centers. For pi<=2 its
-right-hand side is at least 3a>=12, impossible. For pi=3 only g=1 and
-a=4 or5 remain. At a=4 the sum must equal one, whereas each summand is
-0,3 or4. At a=5 the sum vanishes, so every m_i is 0 or5. The L-degree of
-every fiber component is then a multiple of five: a strict component loses an integer multiple of m_i at each blowup, while a new exceptional component has degree m_i. Starting from fiber degree5, induction preserves divisibility, so no fiber component has degree4. Hence M is rational
-throughout pi<=3. This is a geometric reduction, not a carrier exclusion.
+Thus \(M\) is rational throughout \(\pi\le3\). This is the existing geometric reduction in a general form, not a carrier exclusion. The common surface criterion works in every characteristic once these actual lift and numerical inputs are established. The other quintic arguments retain their own characteristic and normalization hypotheses.
 
 ## 6. Sectional genus one forces a single A4 normalization
 

@@ -43,6 +43,8 @@ The full initial ideal is itself not determined by the two displayed leading for
 
 The comparison defect Delta_n is supported only where both carrier hypersurfaces are singular along C. Thus smoothness of either carrier along C forces its vanishing there; simultaneous singularity is necessary, not sufficient, for a nonzero punctual defect. Whether a nonzero punctual comparison defect occurs for an actual proper pair with sole reduced support C remains open. The characteristic-two quartic example illustrates the distinction: its fourth initial equation arises by cancellation, but its comparison defect vanishes [R-0031](../results/quartic_char2_fourth_equation_kernel.md).
 
+A [finite-flat supported length-five control](comparison_defect_specialization.md) has zero relative comparison defect but a nonzero defect on its actual closed transverse fiber. Its coefficient-specialized relative normal algebra has length eight while the actual closed algebra has length five. Thus an exceptional-slice calculation does not detect the punctual relative defect without a base-change argument. Its ordinary projective closure has cycle \(5L+2D\), where \(D\) is a residual conic; this does not settle the fixed-quartic sole-support question.
+
 Neither Delta_n nor cancellation is the saturated first-relation resultant defect of [R-0016](../results/nonsaturated_first_relation_resultant.md), the quasiprimitive residual-cycle divisor of [R-0019](../results/quasiprimitive_residual_cycles.md), or the rank shortfall of a global jet map. Identifying any two requires an additional comparison argument.
 
 ## A common-divisor test for cohomological boundary repair
@@ -61,7 +63,7 @@ For the conditional movement-two (6,16) lane, the degree-six quadratic-symbol ma
 
 For a nonzero quadratic root \(f=au^2+buv+cv^2\), cubic compatibility has the undivided equations \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), where \(\deg\ell,\deg m\le7\). Multiplication by \(f\) is injective, with a sixteen-dimensional correction image in forty cubic coefficients and a twenty-four-dimensional quotient. Singular roots, multiplier zeros, the twenty-five second-obstruction pairings and full-root torsion remain separate constraints. See [the explicit source and coefficient calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
 
-These global realization tests neither compute the punctual filtered equation-module defect nor produce a proper mate. The selected fixed-lift cubic failure is not an exclusion of every sextic over the same symbol; the independently established second ambient obstruction excludes that root under its bridge hypotheses. Neither test excludes the full (6,16) incidence.
+These global realization tests neither compute the punctual filtered equation-module defect nor produce a proper mate. For the specified seed, the kernel-direction check upgrades the cubic failure to an exclusion of every sextic lift with that symbol. The independently established second ambient obstruction excludes that root under its own bridge hypotheses. Neither test excludes the full (6,16) incidence.
 
 ## The global-source gap
 

@@ -52,8 +52,7 @@ is the affine-target class
 \]
 Here \(\alpha G_0\) is the prescribed cubic target; subtracting it
 turns the lifting equation into the linear membership test of the lemma.
-Its dimension is 24 or 23 according as the extra direction is contained in the
-multiplication image or not. These are the actual maps of the
+Its dimension is 23 on the actual-pair-admissible open \(f(-z/2,1)\not\equiv0\). The only projective root where it is 24 in this bounded coefficient model is \([f]=[(u+zv/2)^2]\), outside that necessary open. The [varying-source proof](rank_strata_and_sextic_lifts.md) classifies this rank drop and proves that a compatible actual sextic is unique once the root, multiplier and cubic target are fixed. These are the actual maps of the
 [conditional sextic calculation](normalization_conductor_phase2_addendum.md),
 not dimensions inferred from an abstract conormal bundle.
 

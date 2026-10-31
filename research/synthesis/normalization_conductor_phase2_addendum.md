@@ -111,6 +111,9 @@ Equivalently, the correct varying-lift map is
 \]
 It has rank sixteen if \(\tau\in\operatorname{im}\mu_f\), and rank seventeen otherwise. Thus the **varying-lift** obstruction has codimension twenty-four or twenty-three, respectively. The earlier constant-rank assertion applies only to the correction submap \(\mu_f\), not to \(\widetilde\mu_f\). On the generic fiber over \(k(z)\), if \(q_1\) is the nonzero linear normal symbol of \(q\), then \(\tau=q_1^3\); for a quadratic \(f\), the necessary generic condition for \(\tau\in f\cdot k(z)[u,v]_1\) is that \(f\) be proportional to \(q_1^2\). This generic divisibility alone is not sufficient for membership in the bounded polynomial correction space \(W_7^2\).
 
+In the stated bounded coefficient model this question is now settled exactly: the [rank-drop classification](rank_strata_and_sextic_lifts.md#5-exact-sextic-rank-drop-locus) proves that the enlarged map has rank sixteen only at the single projective root \([f]=[(u+zv/2)^2]\), and rank seventeen elsewhere. The necessary actual-pair open \(f(-z/2,1)\not\equiv0\) excludes that point. Thus the varying-lift cubic quotient has rank twenty-three throughout that admissible open, and cubic compatibility determines a unique actual sextic. This classifies a linear ambiguity; it does not compute the remaining nonlinear incidence or supply a mate.
+
+
 The coefficient equations become \(h_i+\eta\tau_i=(a\ell,\ b\ell+am,\ c\ell+bm)_i\), with the fourth coefficient \(cm\). They remain division-free. Any claim that a seed fails the cubic comparison must specify whether the test allowed the \(q^3\) direction; a fixed-lift failure alone does not exclude all sextics with the same quadratic symbol. The independently computed second obstruction is unaffected by this logical distinction, subject to its original hypotheses.
 
 ## Existing full-lift exclusion on the free cube-orbit chart
@@ -399,7 +402,7 @@ Canonical source: research/results/movement_two_six_rows.md (STCI-R-0014), geome
 
 ## The common lifting mechanism
 
-For the exact linear-algebra statement separating a fixed symbol from its affine lift fiber, see [global lifting interfaces](global_lifting_interfaces.md). Here the symbol map has domain dimension 23, image rank 22, and kernel kq³. The cubic correction map μ_f has constant rank 16 for f≠0. Its actual obstruction is therefore the cubic target modulo `im μ_f + k(q³)_3`, of dimension 24 or 23 according to the stated bounded-polynomial divisibility test. This calculation measures the obstruction to meeting the chosen cubic correction space with an **actual global sextic fiber**; it is not a dimension count proving the nonlinear incidence empty. Higher ambient classes, spectral gluing, a proper degree-sixteen mate, and sole support remain separate.
+For the exact linear-algebra statement separating a fixed symbol from its affine lift fiber, see [global lifting interfaces](global_lifting_interfaces.md). Here the symbol map has domain dimension 23, image rank 22, and kernel kq³. The cubic correction map μ_f has constant rank 16 for f≠0. Its actual obstruction is therefore the cubic target modulo `im μ_f + k(q³)_3`, of dimension 23 on the actual-pair-admissible open, with the single rank-drop root classified in [varying actual-source lifts](rank_strata_and_sextic_lifts.md). This calculation measures the obstruction to meeting the chosen cubic correction space with an **actual global sextic fiber**; it is not a dimension count proving the nonlinear incidence empty. Higher ambient classes, spectral gluing, a proper degree-sixteen mate, and sole support remain separate.
 
 ## Endpoint-four: the finite actual-equation question
 

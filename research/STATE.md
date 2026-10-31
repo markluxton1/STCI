@@ -13,9 +13,7 @@ consolidation alone does not promote them.
   Together with the lower-degree and factor arguments, both defining degrees
   of a hypothetical characteristic-zero STCI are at least five.
 - [R-0022](results/quartic_44_filtered_exclusion.md) excludes a quartic pair
-  independently. Its two mechanisms are actual filtered contact and the
-  local-singularity/global-surface contradiction. Direct blowups give a
-  classification-free presentation of the second, retaining a global bound.
+  independently. Its mechanisms are actual filtered contact, the local-singularity/global-surface contradiction, and the [intrinsic fourth-extension obstruction](synthesis/intrinsic_fourth_extension.md). Direct blowups remove local singularity classification from the surface presentation. The new embedded-neighborhood proof instead computes the contact-extension class and uses no global surface bound; its scope remains the fixed characteristic-zero quartic pair.
 - In every characteristic \(p>0\), the same fixed curve has an STCI
   presentation with a quartic carrier. [Explicit constructions and fixed-carrier
   degree restrictions](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md)
@@ -41,6 +39,8 @@ excludes the subclass with the specified generic curvilinear algebra, reduced
 full quintic first-symbol divisor and globally ADE quintic. Its integral Picard
 and double-cover step goes beyond its rank count. The full \((5,8)\) problem
 remains open.
+
+The [ruled-surface criterion](synthesis/ruled_surface_degree_criterion.md) now includes a sharp characteristic-free genus inequality and an integral degree-gap refinement. It unifies the low-sectional-genus quartic and quintic rationality reductions and gives a conditional degree-ten rationality application; it is not a new STCI exclusion. The [sextic source-rank analysis](synthesis/rank_strata_and_sextic_lifts.md) determines the single rank-drop root and proves uniqueness of compatible low-order actual sextic lifts on the necessary root open, without deciding the remaining nonlinear incidence.
 
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.

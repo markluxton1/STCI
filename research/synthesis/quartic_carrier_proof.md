@@ -97,44 +97,15 @@ correction alone does not measure that vanishing.
 
 ## 2. Why a nonnormal normalization is rational
 
-The following useful strengthening isolates the part independent of any
-mate or special projection.
+The following intrinsic criterion is independent of a mate or special projection, and holds over an algebraically closed field of **any characteristic**.
 
-**Ruled-surface criterion.** Let \(M\) be a smooth projective surface in
-characteristic zero, and \(L\) a nef divisor of positive square \(d\),
-with \(K_ML=2\pi-2-d<0\). Suppose \(M\) contains a rational curve of
-\(L\)-degree \(\delta\). If
+**Ruled-surface degree criterion.** Let \(M\) be smooth projective, \(L\) nef Cartier, \(d=L^2>0\), and \(A=-K_ML>0\). If an integral rational curve has positive \(L\)-degree \(\delta\) and \(A\delta>d\), then \(M\) is rational. More precisely, on a nonrational surface the ruled base has genus \(g\ge1\), and
 \[
-\delta(d+2-2\pi)>d,                                  \tag{3}
+ d\ge A\delta+(2g-2)\delta^2.
 \]
-then \(M\) is rational.
+The [complete intrinsic proof and sharpness examples](ruled_surface_degree_criterion.md) use smooth minimal ruledness and actual ruling fibers on a common resolution. They justify the bound at infinitely near centers and exclude inseparable maps from a rational curve to a positive-genus base. They do not require Kawamata--Viehweg vanishing or classification of the nonnegative Kodaira-dimension cases.
 
-**Proof.** The negative intersection excludes effective positive powers
-of \(K_M\), so the surface classification makes \(M\) rational or
-birationally ruled. If the minimal ruling has base genus \(g\ge1\),
-write its nef pushdown as \(L_0=aC_0+bf\), with \(C_0^2=-e\), and
-use total-transform exceptional classes for all point blowups:
-\[
-L=\tau^*L_0-\sum m_iE_i,
-\quad d=a(2b-ae)-\sum m_i^2,
-\quad 2\pi-2-d=a(2g-2+e)-2b+\sum m_i.
-\]
-Nefness descends at every blowdown. At each center a component of the
-actual ruling fiber has \(L\)-degree at most \(a\); its strict transform
-remains nef against the next pushdown. Thus \(0\le m_i\le a\), including
-infinitely near centers. Eliminating \(b\) gives
-\[
-d=(2g-2)a^2+(d+2-2\pi)a+\sum m_i(a-m_i).
-\]
-The last sum is nonnegative. Any rational curve maps constantly to the
-positive-genus base, so its degree is at most the degree \(a\) of an
-entire fiber. Hence \(d\ge(d+2-2\pi)a\ge(d+2-2\pi)\delta\),
-contradicting (3). \(\square\)
-
-For a nonnormal quartic, \(d=\delta=4\) and \(\pi\le2\), so (3)
-always holds. The normalization is rational **before** a mate is assumed.
-It does not apply to normal quartics: their \(\pi=3\) makes its key
-coefficient zero. This explains one necessary boundary in the proof.
+Here \(A=d+2-2\pi\). For a nonnormal quartic, \(d=\delta=4\) and \(\pi\le2\), so \(A\delta>d\). The normalization is rational **before** a mate is assumed. For a normal quartic \(\pi=3\), the key coefficient is zero and this criterion does not apply. The intrinsic criterion extends in characteristic; the rest of the carrier exclusion retains its own hypotheses.
 
 Two cohomological refinements of the original special-case proof are
 also useful. Kawamata--Viehweg vanishing and duality give
@@ -679,7 +650,7 @@ control in **every** positive characteristic.
 | Mechanism | What carries over | What the characteristic-zero proof still needs |
 |---|---|---|
 | Plane-section defect, full inverse support, smooth passage | The genus inequality, purity, normalization over a smooth curve, uniformizer argument and divisor-degree equality work in any characteristic under the stated integral/smooth hypotheses. | These reductions alone give no contradiction; they hold for positive-characteristic examples too. |
-| Ruled intersection identity | Once a smooth ruled model and nef pushdowns are given, the total-transform calculation and \(0\le m_i\le a\) use only intersection theory. | The rationality criterion above invokes the characteristic-zero surface classification; no broader classification theorem is imported silently. |
+| Ruled-surface degree criterion | The [intrinsic rationality criterion and sharp genus inequality](ruled_surface_degree_criterion.md) hold in every algebraically closed characteristic, using smooth minimal ruledness and actual fiber components, including infinitely near centers. | This extends the criterion only. A carrier application must establish its numerical inputs; cohomological refinements and the rest of the quartic exclusion retain separate characteristic hypotheses. |
 | Numerical pullback and actual ideal vanishing | On an available smooth resolution of a normal surface, the negative matrix and principalized-ideal argument retain their algebraic meaning. | A Cartier index does not control its correction. The classification, first-normal budgets and small-mate exclusions used to finish the normal-quartic case have separate characteristic hypotheses. |
 | Rational-resolution compression | Numerical-to-linear equivalence on smooth rational surfaces and ambient hypersurface section lifting do not require characteristic zero. | Compression can produce an allowed positive-characteristic mate; the normal scan's low-degree exclusion inputs cannot simply be reused there. |
 | Ribbon and normal-map bound | A pure CM double with smooth reduction is a ribbon in every characteristic; its nilideal degree and the Hom calculation remain valid whenever their global inputs hold. | The fixed conormal computation uses determinant eight. It yields \(\mathcal O(-7)^2\) for \(p\ne2\); characteristic two has \(\mathcal O(-6)\oplus\mathcal O(-8)\), so the \(\mathcal O(-8)\) contradiction fails there. Neither splitting proves that the genus-two Cartier double exists for an arbitrary carrier. |
@@ -718,3 +689,5 @@ genus-one repeated-partition Macaulay2 proof source was restored from its
 exact replay snapshot with identical SHA-256 bytes; no fresh execution
 of that inherited certificate is claimed. No theorem promotion or
 unrestricted STCI conclusion is made by the consolidation.
+
+The strengthened ruled-surface criterion has an independently reviewed characteristic-free proof in its [own mathematical home](ruled_surface_degree_criterion.md). The characteristic-zero carrier conclusion is unchanged.

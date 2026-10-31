@@ -9,11 +9,12 @@ scope:
   hypotheses:
     - "Algebraically closed field of characteristic zero"
     - "Integral or, more generally, coprime quartic defining equations F,G with reduced intersection C0"
-statement: "No two quartic forms F,G satisfy V(F,G)_red=C0. The filtered-contact and surface proofs do not invoke the all-degree quartic-carrier exclusion STCI-R-0001."
+statement: "No two quartic forms F,G satisfy V(F,G)_red=C0. The filtered-contact, surface, and embedded-neighborhood proofs do not invoke the all-degree quartic-carrier exclusion STCI-R-0001."
 dependencies:
   - "STCI-R-0020"
 evidence:
   - "research/synthesis/quartic_pair_obstruction.md"
+  - "research/synthesis/intrinsic_fourth_extension.md"
   - "research/computations/verify_44_filtered_contact_2026_10_23.py"
   - "research/computations/audit_mf6_e1_primitive_2026_10_07.py"
 independent_audits:
@@ -51,4 +52,4 @@ The theorem's accepted scope and prior independent reviews of the filtered-conta
 
 ## Consequences and limitations
 
-This is a bounded obstruction to a \((4,4)\) pair, useful for understanding actual-source lifting and global exceptional-rank budgets. It does not replace R-0001's arbitrary-mate-degree quartic-carrier theorem or resolve unrestricted characteristic-zero STCI. The chapter's proposed proof confined to embedded neighborhoods and actual source spaces, avoiding both classification of triple directions and a global surface bound, remains incomplete.
+This is a bounded obstruction to a \((4,4)\) pair, useful for understanding actual-source lifting and global exceptional-rank budgets. It does not replace R-0001's arbitrary-mate-degree quartic-carrier theorem or resolve unrestricted characteristic-zero STCI. The [independently reconstructed fourth-extension proof](../synthesis/intrinsic_fourth_extension.md) now supplies an embedded-neighborhood argument. It classifies the two allowed saturated quadruple types through their contact-extension classes, leaving only 4C on Q; elementary quadric restriction then rules out a proper quartic pair. This alternative uses exact transition calculations but no source-pencil orbit list or global surface bound. The stronger intermediate classification is retained as reviewed provisional mathematics; no new canonical result ID is promoted.

@@ -61,3 +61,5 @@ Does not promote the characteristic-two O(-24) global identification or the filt
 ## Current proof navigation
 
 The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+
+The [supported length-five specialization control](../synthesis/comparison_defect_specialization.md) computes zero relative comparison defect and nonzero actual closed-fiber comparison defect. It shows why exceptional transverse slices do not by themselves establish a punctual relative defect. This reviewed provisional example does not change the canonical theorem or settle its remaining sole-support existence question.
