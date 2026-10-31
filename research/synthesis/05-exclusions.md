@@ -58,6 +58,10 @@ for **every** hypothetical two-equation presentation, including reducible or non
 
 This is a lower bound on the **total degrees** of the equations, not a classification of higher-degree integral carriers. One may reduce to integral factors for exclusion arguments, but should not silently assume that a chosen minimal pair is integral without recording the reduction.
 
+## Positive characteristic is an existence theorem, not a minimality claim
+
+For the fixed monomial quartic, P-008 gives a characteristic-three \((3,4)\) pair and a characteristic-two \((4,4)\) pair, together with a uniform \((3,4p)\) construction. P-012 proves the \((3,4p)\) existence bound for **every** smooth rational quartic in characteristic \(p>0\), by cuspidal projection and Frobenius descent through a finite radicial normalization. These statements are distinct from the characteristic-zero carrier exclusions. None establishes that \((3,4p)\) is degree-minimal, or that the special smaller pairs exist for every rational quartic. See [Chapter 1](01-problem-and-curve.md#12b-positive-characteristic-presentations-fixed-model-versus-all-rational-quartics).
+
 ## 5.4 A useful degree-five consequence
 
 If an integral quintic carrier \(X\) had a mate \(G\) of degree \(e\), Bézout along \(C_0\) would give generic intersection length
