@@ -66,7 +66,7 @@ The [conditional (6,16) calculation](normalization_conductor_phase2_addendum.md#
 
 ## The finite (6,16) incidence, not just the failed seed
 
-The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) connects the explicit eleven first-symbol equations to the constant-rank cubic-jet quotient obstruction, the second-obstruction pairings and full-root torsion. The [frontier](06-frontier.md#611e-a-finite-incidence-with-explicit-rank-strata) states the bounded elimination task and its limited exclusion scope. The known failed smooth seed is one point rejected by this system, not a proof of global emptiness.
+The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction) connects the explicit eleven first-symbol equations to the constant-rank cubic-jet quotient obstruction, the second-obstruction pairings and full-root torsion. The [frontier](06-frontier.md#611c-a-finite-616-incidence-with-an-exact-cubic-quotient) states the bounded elimination task and its limited exclusion scope. The known failed smooth seed is one point rejected by this system, not a proof of global emptiness.
 
 ## How the integrated arguments fit together
 
