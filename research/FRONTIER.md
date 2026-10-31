@@ -2,7 +2,7 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: prescribed ribbon absorption by marked embedding lifts
+## Current checkpoint: absorption constructions and obstruction tests
 
 The [marked absorption construction](notes/2026-10-31-marked-absorption-deformations.md)
 is complete and independently reviewed, with provisional status. A general
@@ -24,6 +24,18 @@ the known movement degree. Stop both bare positivity and automatic
 iteration here; a continuation needs specified deformation directions
 and actual equation/obstruction control. No d=7 classification or new
 technical campaign is assigned. The unrestricted question remains open.
+
+The subsequent [obstruction selection, §15](notes/2026-10-31-unrestricted-strategy-assessment.md#15-obstruction-detectors-global-coefficient-costs-and-compatibility)
+is complete and independently reviewed. Its [uniform vanishing proof](notes/2026-10-31-marked-absorption-deformations.md#6-supported-semiregularity-also-has-zero-target-for-smooth-projective-curves)
+shows that the particular supported semiregularity target is zero for
+every smooth projective curve in projective space, independently of its
+thickening. This supplies no cancellation or nonvanishing of marked
+embedding classes. The checked key-polynomial and function-field height
+theorems likewise supply no arbitrary-pair global coefficient-cost
+comparison. Stop those bare applications; a different marked detector
+or a relation with independently controlled divisor support would be
+additional input. The user's curve/surface/ambient compatibility picture
+clarifies the scopes of these findings without prescribing a new agenda.
 
 ## Completed source and mechanism tests
 

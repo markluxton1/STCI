@@ -434,3 +434,129 @@ nef-class calculation. No material finding remains unresolved within
 those reviewed scopes.
 No numerical campaign, new local-model classification, or canonical
 promotion accompanies this proposal.
+
+## 6. Supported semiregularity also has zero target for smooth projective curves
+
+This continuation tests an actual proposed way to control the obstruction
+classes left open in §4. The recommendation and bounded test were reported
+before verification. The conclusion is a uniform limitation of a specified
+detector, not an obstruction to STCI and not a new classification.
+
+**Claim.** Let \(C\subset X=\mathbf P^n_k\), \(n\ge2\), be a smooth
+projective curve over an algebraically closed field. It need not be
+rational or nondegenerate. Then
+
+\[
+\boxed{H_C^n(X,\Omega_X^{n-2})=0,\qquad
+\mathbb H_C^{2n-2}(X,\Omega_X^{<n-1})=0.}                     \tag{8}
+\]
+
+The truncated de Rham complex in (8) has terms \(\Omega_X^p\) in degrees
+\(0\le p\le n-2\). The vanishing itself is valid in every
+characteristic. Its application to the cited semiregularity theorem
+uses that theorem's characteristic-zero hypotheses.
+
+**Proof.** Put \(I=I_C\) and \(C_m=V(I^m)\). For a locally free E,
+the supported-cohomology formula and coherent Serre duality give
+
+\[
+H_C^q(X,E)=\varinjlim_m\operatorname{Ext}_X^q(O_{C_m},E),
+\qquad
+\operatorname{Ext}_X^q(O_{C_m},E)
+\simeq H^{n-q}(C_m,E^\vee\otimes\omega_X|_{C_m})^\vee.
+\tag{9}
+\]
+
+These are **global** Ext groups. The first equality is the coherent
+supported-cohomology formula on the noetherian scheme X, obtained from
+quasi-coherent resolutions for the I-power-torsion functor and global
+sections. This is not an assertion about arbitrary O-module sheaves.
+The second equality uses coherent Serre
+duality and a locally free twist, not local freeness of \(O_{C_m}\).
+See [supported cohomology](https://stacks.math.columbia.edu/tag/0A39)
+and [coherent Serre duality](https://stacks.math.columbia.edu/tag/0FVZ).
+In particular the groups in (9) vanish for \(q>n\).
+
+For \(E=\Omega_X^{n-2}\), exterior-power duality identifies
+\(E^\vee\otimes\omega_X\) with \(\Omega_X^2\). The possible top
+Ext group is therefore dual to \(H^0(C_m,\Omega_X^2|_{C_m})\).
+The regular embedding C supplies the filtration
+
+\[
+I^r/I^{r+1}=\operatorname{Sym}^r N_{C/X}^\vee.
+\]
+
+Conormal and Euler sequences give locally split bundle injections
+
+\[
+N_{C/X}^\vee\hookrightarrow\Omega_X^1|_C
+\hookrightarrow O_C(-1)^{\oplus(n+1)}.
+\]
+
+Taking symmetric and exterior powers, and tensoring, consequently yields
+
+\[
+\Omega_X^2|_C\otimes\operatorname{Sym}^rN_{C/X}^\vee
+\hookrightarrow O_C(-r-2)^{\oplus M_r}
+\tag{10}
+\]
+
+for some finite \(M_r\). Local splitting justifies these injections in
+all characteristics. Each line bundle on the right has negative degree
+on every component of C. Hence every graded layer has no global sections.
+The finite filtration of \(O_{C_m}\) gives
+
+\[
+H^0(C_m,\Omega_X^2|_{C_m})=0
+\quad\text{for every }m.
+\]
+
+Equation (9) now proves the first vanishing in (8). For the second, use
+the supported hypercohomology spectral sequence
+
+\[
+E_1^{p,q}=H_C^q(X,\Omega_X^p)
+\Longrightarrow\mathbb H_C^{p+q}(X,\Omega_X^{<n-1}).
+\]
+
+On the diagonal \(p+q=2n-2\), every term has \(q>n\), except
+\(p=n-2,q=n\). All vanish by the preceding argument. The spectral
+sequence is taken for sheaves of k-vector spaces: the de Rham differential
+is k-linear and need not be O-linear. At \(n=2\) the truncated complex
+is just O, and the same proof applies.
+
+**The detector actually considered.** For a codimension-\(p\) lci
+subscheme realized as the regular zero locus of a section of a rank-p
+vector bundle on a Zariski open neighborhood, [Iacono–Manetti, Theorem 11.1 and its proof, pp. 27–28](https://arxiv.org/pdf/1112.0425)
+annihilate embedded Hilbert obstructions already in
+\(\mathbb H_Z^{2p}(X,\Omega_X^{<p})\), before mapping to ordinary
+ambient cohomology. For a thickening Z of C, \(p=n-1\), and support
+cohomology depends only on the closed topological support. Thus both
+that target and its untruncated precursor
+\(H_Z^{p+1}(X,\Omega_X^{p-1})\) are precisely the zero groups in (8).
+In P3 this includes \(\mathbb H_C^4(P^3,[O\to\Omega^1])\).
+
+The initial literature selection correctly noted the stronger supported
+map but left its target unresolved. Formula (8) closes that particular
+remaining possibility. It does not claim that every relative or marked
+obstruction complex has a zero target. Ordinary ambient trace targets
+in [Pridham's extension, Corollary 2.22 and Remarks 2.27–2.29](https://webhomes.maths.ed.ac.uk/~jpridham/semireg2.pdf)
+also vanish on P3: \(H^{q+2}(P^3,\Omega^q)=0\) for the relevant q.
+
+**Geometric content and strategy.** Every finite normal neighborhood of
+any smooth projective curve has no sections of the restricted ambient
+two-form bundle: the candidate sections in each normal order inject into
+negative line bundles. Duality therefore removes this supported
+semiregularity detector independently of thickness, genus and equation
+degrees. The calculation cannot distinguish a successful supported pair
+from an unsuccessful one. In particular it supplies neither cancellation
+nor nonvanishing of the actual marked map-lifting classes in §4.
+
+Stop this semiregularity application, including this specific supported
+refinement. A different marked comparison would need a different target
+or additional pair data; its existence is not established here. The
+prescribed-ribbon construction in §3 and the open unrestricted STCI
+status are unchanged. This is an application of standard duality and
+normal-filtration methods, with no claim of publication novelty. The
+[audit continuation](2026-10-31-marked-absorption-deformations-audit.md)
+records independent reconstruction of this generalization.

@@ -1073,3 +1073,100 @@ The unrestricted characteristic-zero question remains open. The
 [independent audit](2026-10-31-marked-absorption-deformations-audit.md)
 records the source scopes, marked lift, actual-pair application, endpoint
 calculation and the corrected strategy rationale; no canonical promotion.
+
+## 15. Obstruction detectors, global coefficient costs, and compatibility
+
+The user's subsequent geometric description distinguishes an abstract P1,
+its containment in surfaces, compatible embeddings of those surfaces in
+P3, and the requirement that their full images intersect only along C.
+These are useful distinctions in what a result actually establishes,
+not a compulsory sequence of investigations. The preceding construction
+retains the embedded ribbon and actual surfaces containing it; the
+remaining residual shows exactly which compatibility it does not supply.
+
+Two fresh `gpt-6-astra/xhigh` workers checked mechanisms aimed at the
+remaining obstruction classes and repeated normal contact. A fresh
+`gpt-6.1-sol/high` reviewer challenged both selections. No local-type,
+degree or valuation-chamber enumeration was started.
+
+### Semiregularity: the supported target also vanishes
+
+[Iacono–Manetti](https://arxiv.org/pdf/1112.0425), under their regular-zero-locus
+setup, annihilate actual embedded Hilbert obstructions under the semiregularity map, with a
+stronger supported target in the proof of Theorem 11.1. The ordinary
+ambient target \(H^3(P^3,\Omega^1)\) is zero. The perfect-complex and
+proper-morphism extensions in [Pridham](https://webhomes.maths.ed.ac.uk/~jpridham/semireg2.pdf)
+have the same limitation for their ordinary ambient trace components.
+This says nothing by itself about the values of the original classes.
+
+The supported refinement was initially left open. A subsequently
+reported bounded test proves a stronger uniform statement in
+[the marked-deformation note, §6](2026-10-31-marked-absorption-deformations.md#6-supported-semiregularity-also-has-zero-target-for-smooth-projective-curves):
+for every smooth projective curve \(C\subset P^n\), \(n\ge2\),
+
+\[
+H_C^n(P^n,\Omega^{n-2})=
+\mathbb H_C^{2n-2}(P^n,\Omega^{<n-1})=0.
+\]
+
+The normal filtration makes every candidate ambient two-form section
+on every finite neighborhood of C negative; coherent duality proves the
+displayed vanishings. No rationality, balanced-normal-bundle or equation
+hypothesis is needed. The vanishing holds in every characteristic;
+the cited obstruction-annihilation theorem retains its characteristic-zero
+scope. All thickenings have the same support groups.
+
+Thus this **particular supported detector**, as well as the ambient one,
+supplies no extra restriction or construction. It does not make every
+possible marked obstruction comparison vacuous. Embedded deformations
+of an existing global CI, even while retaining fixed C, are already
+unobstructed by lifting its equations. Realizing an independently
+prescribed abstract marked deformation is a different relative problem.
+Neither that equation freedom nor the zero semiregularity target cancels
+the marked classes automatically.
+
+### Valuation completeness is not a global pole estimate
+
+[Herrera Govantes–Mahboub–Olalla–Spivakovsky, Theorem 6.2 and Remark 3.34](https://arxiv.org/pdf/1406.0657)
+provide complete key-polynomial expansions for a fixed valuation. Their
+coefficients range over the valued field, and integral rescaling at one
+place can introduce poles elsewhere. The theorem's ordinal bound on the
+sequence is not a simultaneous divisor-height bound in terms of the
+original homogeneous degrees a,b.
+
+[Corvaja–Zannier, Theorems 1.1 and 1.1*](https://www.numdam.org/article/BSMF_2011__139_4_437_0.pdf)
+do give independent global information for an actual reduced-curve
+relation \(z=1+u+v\): they bound distinct zeros outside S and, with
+controlled support, bound height. S contains both zeros and poles of u,v.
+The theorem has independent and multiplicatively dependent branches;
+independence is not an absolute prerequisite. A small controlled ratio
+of boundary complexity to height is one sufficient way to obtain a
+strong bound, while absolute support bounds can also be useful.
+
+No checked theorem supplies such coefficient/support control for an
+arbitrary pair's successive normal cancellations. Enlarging S to include
+all newly introduced zeros and poles records their cost but does not bound
+it. Nor are the counted points automatically residual curves downstairs:
+a separate geometric comparison with actual normal contact or residual
+support is required. The [earlier direct-coordinate test, §2B](#b-two-marked-fibers-and-function-field-abc)
+and the October 21/26 normal-lattice and genus accounts already identify
+these missing inputs. Changing from coordinate functions to cancellation
+coefficients does not supply them.
+
+**Recommendation and stopping conditions:** retain the positive prescribed
+absorption result, and stop these bare semiregularity and valuation-height
+applications. Do not use the nonzero marked obstruction space as a
+contradiction, or replace actual obstruction classes by their traces.
+Reopen only for a specified relative detector with information beyond the
+zero targets, or an actual coefficient relation with independent support
+control and a proved normal-contact/residual consequence. Such a mechanism
+may be unproved when selected for a bounded test; merely naming the missing
+comparison is not a method. No replacement technical campaign is selected
+by this assessment. The unrestricted characteristic-zero STCI question
+remains open.
+
+The [audit continuation](2026-10-31-marked-absorption-deformations-audit.md)
+covers the general supported-vanishing proof, source scopes, the dependent
+height branch and these stopping decisions. The initial suggestion that
+the specified supported target might remain useful is superseded by the
+proved vanishing; other relative or marked complexes remain unexamined.

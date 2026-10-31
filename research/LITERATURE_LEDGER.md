@@ -586,6 +586,24 @@ STCI theorem in that paper; it supplies no additional ambient nef
 inequality here. The [separate audit](notes/2026-10-31-marked-absorption-deformations-audit.md)
 records these source scopes and the constructive correction.
 
+The subsequent [obstruction assessment, §15](notes/2026-10-31-unrestricted-strategy-assessment.md#15-obstruction-detectors-global-coefficient-costs-and-compatibility)
+checks [Iacono–Manetti, Theorem 11.1 and proof](https://arxiv.org/pdf/1112.0425)
+and [Pridham, Corollary 2.22 and Remarks 2.27–2.29](https://webhomes.maths.ed.ac.uk/~jpridham/semireg2.pdf).
+Iacono–Manetti prove annihilation already in a supported target; the
+[normal-filtration/duality deduction](notes/2026-10-31-marked-absorption-deformations.md#6-supported-semiregularity-also-has-zero-target-for-smooth-projective-curves)
+shows that this particular target is itself zero for every smooth
+projective curve in projective space. This application does not assert
+anything about the values of actual marked embedding obstructions.
+
+The same assessment checks [Herrera Govantes–Mahboub–Olalla–Spivakovsky,
+Theorem 6.2 and Remark 3.34](https://arxiv.org/pdf/1406.0657) and
+[Corvaja–Zannier, Theorems 1.1 and 1.1*](https://www.numdam.org/article/BSMF_2011__139_4_437_0.pdf).
+Valuation completeness supplies no simultaneous coefficient-pole bound
+in the original equation degrees. The height theorem has both independent
+and dependent branches and can use absolute support bounds as well as
+comparative support/height estimates. Neither checked theorem supplies
+the actual-pair relation and geometric residual comparison required here.
+
 
 ## October 21 accepted-interface references
 

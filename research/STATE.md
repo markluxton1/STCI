@@ -17,6 +17,17 @@ records the independent correction that enabled the construction and the
 redundancy of the checked ambient Hilbert-scheme nef inequalities. No
 canonical record or unrestricted mathematical status changes.
 
+The follow-up [supported semiregularity calculation](notes/2026-10-31-marked-absorption-deformations.md#6-supported-semiregularity-also-has-zero-target-for-smooth-projective-curves)
+is independently reviewed provisional work. It proves the specific
+supported target vanishes for every smooth projective curve in Pn,
+in every characteristic, by conormal filtration and coherent duality.
+Its application to the cited semiregularity theorem retains that theorem's
+characteristic-zero scope. This is a limitation of an obstruction detector,
+not a conclusion about actual marked obstruction classes or STCI.
+The [assessment, §15](notes/2026-10-31-unrestricted-strategy-assessment.md#15-obstruction-detectors-global-coefficient-costs-and-compatibility)
+also records the exact global coefficient/support input still missing
+from the checked valuation and height estimates. No canonical status changes.
+
 The preceding [polarization-root deductions](notes/2026-10-31-polarization-root-budget.md)
 are independently reviewed provisional all-pair constraints, with no
 unrestricted exclusion or construction. The full root algebra is finite,

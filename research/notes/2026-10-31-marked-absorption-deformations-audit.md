@@ -234,3 +234,138 @@ The positive marked construction supports correcting the earlier
 blanket stop on abstract deformation. Neither disposition settles the
 unrestricted characteristic-zero STCI question, and no canonical
 record is promoted by this audit.
+
+## 7. October 31 continuation: supported targets and coefficient-height selection
+
+**Reviewed state.** This fresh independent continuation covers the source's
+§6, equations (8)–(10), and the strategy assessment's §15, as read in the
+working tree on 2026-10-31. The source's §§1–5 and assessment §14 retain
+their earlier review scope. The fingerprints in §1 describe those earlier
+text boundaries at the earlier review time; the assessment has now gained
+§15 after its formerly final §14. No new fingerprint or promotion record
+is required to identify the present bounded addition. The reviewer read
+INDEX and MAP, reconstructed the new proof, checked the cited primary
+literature, and wrote only this continuation. No nested delegation,
+classification, example campaign, or computation was used.
+
+**Uniform vanishing: PASS.** For a smooth projective curve
+\(C\subset X=\mathbf P^n_k\), \(n\ge2\), the proof establishes both
+\(H_C^n(X,\Omega_X^{n-2})=0\) and
+\(\mathbb H_C^{2n-2}(X,\Omega_X^{<n-1})=0\). Rationality,
+nondegeneracy, a normal-bundle splitting, and defining equations are not
+needed. The algebraically closed field may have any characteristic.
+
+The supported-cohomology colimit in (9) uses global Ext on the noetherian
+scheme with coherent coefficients. Coherent Serre duality, with the
+locally free twist moved across Ext, gives
+\[
+\operatorname{Ext}_X^q(O_{C_m},E)
+=H^{n-q}(C_m,E^\vee\otimes\omega_X|_{C_m})^\vee.
+\]
+In particular, global Ext vanishes for \(q>n\); no assumption that
+\(O_{C_m}\) is locally free is being made. The relevant duality is
+[Stacks 0FVZ](https://stacks.math.columbia.edu/tag/0FVZ), rather than
+a formula restricted to locally free first arguments.
+
+For \(E=\Omega_X^{n-2}\), its top Ext is dual to
+\(H^0(C_m,\Omega_X^2|_{C_m})\). The regular immersion identifies the
+normal graded pieces with \(\operatorname{Sym}^rN_{C/X}^\vee\).
+The conormal and restricted Euler injections are locally split bundle
+injections, so their symmetric powers, exterior powers and tensor
+products remain injections even in positive characteristic. Each
+resulting graded piece injects into a finite sum of
+\(O_C(-r-2)\). Negative degree on every component kills its sections,
+and the finite filtration kills sections on every \(C_m\). Thus each
+individual top Ext vanishes before taking a colimit.
+
+For the supported hypercohomology spectral sequence, total degree
+\(2n-2\) with \(0\le p\le n-2\) has only one possible term with
+\(q\le n\): \(p=n-2,q=n\). It too vanishes. The spectral sequence
+is valid for the complex of sheaves of k-vector spaces; O-linearity of
+the de Rham differential is not required. At \(n=2\), the complex is
+just O and the same argument works. Smooth projective curves with
+several connected components cause no exception, since negativity is
+componentwise. The proof does not extend by assertion to nonproper
+curves, singular reduced supports, or arbitrary relative complexes.
+
+**Semiregularity application and actual classes: PASS.**
+[Iacono–Manetti, Theorem 11.1 and proof, printed pp. 27–28](https://arxiv.org/pdf/1112.0425)
+annihilate embedded Hilbert obstructions already in the supported
+truncated-de-Rham target. Support depends on the closed topological
+subset, as in [Stacks 0A39](https://stacks.math.columbia.edu/tag/0A39).
+For any thickening with reduced support C and codimension \(p=n-1\),
+both that target and its untruncated supported precursor are exactly
+the two zero groups proved here. In P3 the stronger target is
+\(\mathbb H_C^4(P^3,[O\to\Omega^1])=0\). This supersedes the initial
+reviewer's suggestion that this particular supported target could still
+be useful. The semiregularity application retains the cited theorem's
+characteristic-zero and extendable-normal-bundle setup; a global CI
+meets that setup.
+
+[Pridham, Corollary 2.22 and Remarks 2.27–2.29](https://webhomes.maths.ed.ac.uk/~jpridham/semireg2.pdf)
+gives broader obstruction comparisons for perfect complexes and proper
+morphisms, but the ordinary ambient components
+\(H^{q+2}(P^3,\Omega^q)\) are all zero. Neither a zero target nor the
+annihilation theorem proves that an original obstruction class is zero
+or nonzero. Embedded deformations of an existing global CI containing
+fixed C are unobstructed by lifting the two equations: ACM gives
+\(H^1(\mathcal I_Z(a))=H^1(\mathcal I_Z(b))=0\), generators lift
+globally, and fixed containment lets them lift in the fixed spaces
+\(H^0(\mathcal I_C(a))\) and \(H^0(\mathcal I_C(b))\). This does
+not prove that an independently prescribed abstract marked family is
+induced by those equation deformations. The nonzero space in source
+§4 remains distinct from a nonzero class and from an actual endpoint
+construction.
+
+**Valuation and height scopes: PASS with the distinctions stated in §15.**
+[Herrera Govantes–Mahboub–Olalla–Spivakovsky, Theorem 6.2 and Remark 3.34](https://arxiv.org/pdf/1406.0657)
+concern completeness for a simple transcendental extension of valued
+fields with rank-one base valuation: coefficients in K are allowed,
+and each polynomial's value is attained by a suitable
+truncated valuation. The order-type bound does not bound divisors of
+coefficients at all places of C in terms of a,b. Integrality at one
+place does not supply simultaneous global integrality or a homogeneous
+degree bound. No such bound for the present actual-pair problem was
+found in the checked statement.
+
+[Corvaja–Zannier, Theorems 1.1 and 1.1*](https://www.numdam.org/article/BSMF_2011__139_4_437_0.pdf)
+apply to S-units u,v, not both constant, on a smooth complete
+characteristic-zero curve, with \(z=1+u+v\ne0,1,u,v\). S contains
+both zeros and poles of u,v. The independent branch counts distinct
+zeros of z outside S with lower bound
+\(\widetilde H-15\chi-6(H^*)^{2/3}\chi^{1/3}\), where
+\(\chi=2g-2+|S|\) and \(H^*=\widetilde H+\chi+|S|\).
+The dependent branch for primitive \(u^r=\lambda v^s\) instead gives
+\(\widetilde H(1-1/\max(|r|,|s|))-15\chi\). Thus independence is
+not an absolute gate. Theorem 1.1* also permits height control from
+absolute bounds on total support and \(\chi\); a small controlled
+ratio \(\chi/\widetilde H\) is only one sufficient mechanism.
+These refinements do not produce the actual normal-coefficient
+relation, control its introduced divisors, or identify its zeros with
+residual degree. The source's power-structured applications do not
+establish such a reduction for arbitrary defining pairs.
+
+**Geometric meaning and disposition.** The new proof removes this
+supported detector because every finite normal neighborhood has no
+ambient two-form sections, not because a marked deformation has been
+shown to lift or fail. The valuation and height sources measure local
+contact or globally controlled function divisors; neither identifies
+those divisors automatically with an extra curve downstairs. The
+assessment correctly treats the user's compatibility distinctions as
+interpretive layers, without imposing a new sequence of models to
+classify. Retain the actual prescribed-ribbon absorption operation;
+stop the specified zero-target detector and the bare height application.
+Reopen for a bounded proposed mechanism carrying additional information
+and its missing comparison, rather than require a theorem to be proved
+before it may be tested. No replacement campaign or canonical promotion
+follows. Actual marked classes, an STCI endpoint, and the unrestricted
+characteristic-zero question remain open.
+
+Final artifact check confirmed the producer's precision corrections:
+the colimit explanation is restricted to coherent coefficients on the
+noetherian scheme, assessment §15 explicitly says smooth projective
+curve, and the Iacono–Manetti attribution states the regular-section
+setup on an open neighborhood. No unresolved material finding remains
+in this continuation's scope. The working-tree whitespace check passed;
+no computational or canonical-record check was needed for these prose
+and proof additions.

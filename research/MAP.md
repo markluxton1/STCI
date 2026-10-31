@@ -53,6 +53,11 @@ The same sufficient criterion has a positive obstruction space at every
 hypothetical supported CI, so it gives no automatic endpoint or iteration.
 This is reviewed provisional evidence for controlled partial absorption,
 with the full-question implications in the [assessment, §14](notes/2026-10-31-unrestricted-strategy-assessment.md#14-prescribed-ribbon-absorption-and-the-limit-of-automatic-embedding-lifts).
+Its [supported-semiregularity continuation, §6](notes/2026-10-31-marked-absorption-deformations.md#6-supported-semiregularity-also-has-zero-target-for-smooth-projective-curves)
+proves the specified target is zero for every smooth projective curve in
+projective space. The [subsequent assessment, §15](notes/2026-10-31-unrestricted-strategy-assessment.md#15-obstruction-detectors-global-coefficient-costs-and-compatibility)
+separates this unavailable detector from actual marked classes and from
+the missing global support estimates for valuation coefficients.
 
 The [paired-cover construction](notes/2026-10-31-paired-elliptic-construction.md)
 subsequently supplies actual odd-spin elliptic target data with compatible
