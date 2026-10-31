@@ -163,11 +163,9 @@ The sextic example suggests a precise algebraic distinction. First solve the **i
 
 The second ambient obstruction and the spectral torsion of the full root are additional tests, not interchangeable replacements for the cubic comparison. In particular, a smooth-root example failing the cubic comparison gives a point outside the higher-jet incidence, but says nothing about the singular-root components. This is a scheme-level formulation of the next finite computation, not a claim that it has been carried out.
 
-## 3.10E The augmented-rank test for the cubic correction
+## 3.10E Constant-rank cubic correction
 
-For the conditional (6,16) cubic correction, choose bases so that the 40 coefficient identities become \(A(t)x=b(t)\), with sixteen possible coefficients from two polynomials of degree at most seven. On each rank-r stratum of \(A(t)\), compatibility is exactly the vanishing of the (r+1)-minors of \([A(t)\mid b(t)]\). The rank stratum itself requires vanishing of the (r+1)-minors of A **and** a nonzero r-minor, treated on its principal opens. The zero-rank case requires b=0. See [the explicit elimination prescription](normalization_conductor_phase2_addendum.md#determinantal-elimination-without-generic-division).
-
-This rank-by-rank criterion prevents two mistakes: substituting a generic inverse on a locus where it does not exist, and treating the closure of a projected incidence as though every boundary point were realized. The coefficient matrix has not been stratified in the repository, and no emptiness claim follows from this formulation.
+The displayed correction map multiplies a linear normal form by the nonzero quadratic root. Polynomial multiplication is injective, giving rank sixteen in the forty-dimensional cubic target. Its cokernel has dimension twenty-four. The earlier proposal to stratify the correction matrix by rank was unnecessary; exceptional roots and multipliers remain relevant to the other incidence equations.
 
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
