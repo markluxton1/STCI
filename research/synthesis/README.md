@@ -60,6 +60,10 @@ For the carrier route, start with [Chapter 4](04-carriers.md) for the exact fixe
 
 The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-the-exact-ideal-power-theorem-contributes) supplies all homogeneous sections of \(I_C^m(d)\) in the stable range \(d\ge3m\). [Chapter 2](02-two-surfaces.md#27a-exact-ordinary-power-source-in-the-stable-degree-range) and [Chapter 3](03-infinitesimal-geometry.md) distinguish that source description from the image of normal-symbol and finite-jet maps. The distinction is necessary for both the global determinant and uniform residual-degree programs; it is not an additional STCI exclusion.
 
+## A concrete successive-jet failure
+
+The [conditional (6,16) calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence) contains a useful worked negative example: a smooth quadratic root and multiplier satisfy the eleven **actual** leading-symbol equations but fail the next cubic-jet comparison by an exact nonzero pairing. This distinguishes a complete first-symbol source calculation from a successful higher-order global lift without claiming an exclusion of the entire family.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
