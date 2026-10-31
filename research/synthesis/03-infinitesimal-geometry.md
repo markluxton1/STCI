@@ -161,7 +161,7 @@ This is an explicit **failed implication**, not merely a warning about dimension
 
 For the conditional (6,16) quadratic root, the correction term is \(f(\ell u+mv)\), where \(\deg\ell,\deg m\le7\). Multiplication by nonzero \(f\) is injective, so the sixteen correction coefficients map with constant rank sixteen into forty cubic coefficients. The next-jet obstruction is the class of \((F_c)_3-\alpha G_0\) in the twenty-four-dimensional quotient. The eleven leading-symbol equations are a prior condition; the twenty-five second-obstruction pairings and full-root torsion are further independent tests. Singular roots and multiplier zeros affect those tests, not the rank of multiplication by \(f\). The explicit smooth seed fails the quotient condition with pairing \(-384\), excluding that seed only. See [the conditional calculation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction).
 
-## 3.10E Coefficient form and uniqueness of the cubic correction
+## 3.10F Coefficient form and uniqueness of the cubic correction
 
 The cubic compatibility can be checked without choosing a quotient basis. If \(f=au^2+buv+cv^2\) and the prescribed cubic difference has coefficients \((h_0,h_1,h_2,h_3)\), the equations are \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\), with \(\deg\ell,\deg m\le7\). For nonzero \(f\), multiplication is injective, so a compatible correction is unique. The [coefficient derivation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) avoids division by root coefficients and remains valid at singular roots.
 
