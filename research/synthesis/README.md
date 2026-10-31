@@ -64,6 +64,10 @@ The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-th
 
 The [conditional (6,16) calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence) contains a useful worked negative example: a smooth quadratic root and multiplier satisfy the eleven **actual** leading-symbol equations but fail the next cubic-jet comparison by an exact nonzero pairing. This distinguishes a complete first-symbol source calculation from a successful higher-order global lift without claiming an exclusion of the entire family.
 
+## The finite (6,16) incidence, not just the failed seed
+
+The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) connects the explicit eleven first-symbol equations to the cubic-jet linear system, its rank-drop strata, the second-obstruction pairings and full-root torsion. The [frontier](06-frontier.md#611e-a-finite-incidence-with-explicit-rank-strata) states the bounded elimination task and its limited exclusion scope. The known failed smooth seed is one point rejected by this system, not a proof of global emptiness.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
