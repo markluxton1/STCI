@@ -128,6 +128,20 @@ that middle coefficient is \(C^2-1/4\), up to the nonzero scalar
 normalizing the quartic. Thus an admissible order-two tuple must in
 particular have \(C^2\ne1/4\).
 
+This condition has a direct geometric meaning: the four marked image
+points on \(C_0\) must **span \(\mathbf P^3\)**. A hyperplane restricts
+to a binary quartic in
+\(\langle s^4,s^3t,st^3,t^4\rangle\), exactly the quartics with zero
+\(s^2t^2\) coefficient. For four distinct points, such a section vanishes
+on all of them precisely when their images are coplanar.
+On the target quadric this plane cuts a \((1,1)\) conic; in the
+irreducible case it identifies the two ruling parameters by a Möbius
+map. The extension proof says that this correspondence would make the
+two degree-two source pencils coincide on the elliptic residual,
+destroying its actual \((2,2)\) embedding. The
+[geometric review](2026-10-30-stci-game-geometry-review.md) reconstructs
+the intrinsic interpretation and its exact scope.
+
 ## 4. A literal target equation for the remaining incidence
 
 An equation of \(C'\) is

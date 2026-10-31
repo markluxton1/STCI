@@ -45,7 +45,41 @@ verification. A non-existence win needs a separately audited argument
 covering all actual pairs. Local, generic, fixed-carrier and
 normalization hypotheses cannot silently become universal.
 
-## 2. What the current results change
+## 2. Geometric meaning is part of every move and review
+
+Each side must identify the actual scheme, divisor, morphism, linear
+system, attachment, or deformation it is studying. A calculation must
+explain what its kernel, rank, discriminant, degree or parameter condition
+measures about that object. Each result must then change the geometric
+picture of a possible STCI, rather than merely add an algebraic exclusion.
+The referee independently checks that interpretation.
+
+For example:
+
+- The line obstruction is an attachment graph on a normalization.
+  Restricting a hypothetical mate to actual lines forces branch
+  multiplicities incompatible with its global hyperplane degree.
+- The fixed-quadric residual is a base curve that every allowed
+  higher-order correction vanishes on. Large fibers of the lifting map
+  therefore cannot move that part of the intersection.
+- The missing-middle-coefficient elliptic support theorem excludes
+  **coplanar marked four-point divisors on \(C_0\)**. The coefficient
+  condition is a coordinate expression for that intrinsic failure of
+  projective position, and the proof uses incompatible degree-two pencils.
+- An arithmetic jet gap is a failure of functions on the normalization
+  to descend through a thickened conductor boundary. Frobenius changes
+  which jets survive; its effect is more than a divisibility pattern.
+- A jet-matrix kernel measures an actual global linear system with
+  prescribed contact. Its rank alone does not explain why contact fails.
+  The search should seek the curve, divisor, gluing condition or other
+  geometry responsible, as the later line argument did for the seed.
+
+If the geometry is not understood, state the exact algebraic fact and the
+missing geometric question. Do not manufacture an interpretation.
+Neither a compelling picture nor an exact finite certificate replaces
+the remaining global implication.
+
+## 3. What the current results change
 
 | Evidence | Existence response | Independent obstruction program | General-question limit |
 | --- | --- | --- | --- |
@@ -64,7 +98,7 @@ missing implication, or change the next decisive test. A theorem's
 number of parameters or all-degree wording is not a measure of universal
 coverage by itself.
 
-## 3. First exchange: actual lifting freedom and its global boundary
+## 4. First exchange: actual lifting freedom and its global boundary
 
 The independently assigned advocates were interrupted by an account
 usage limit before completing their first exchange. The following
@@ -126,7 +160,7 @@ occupies a fraction tending to one in its individual source, yet
 retains an unavoidable global residual. Neither conclusion is generic
 existence or universal non-existence.
 
-## 4. Current independent research obligations
+## 5. Current independent research obligations
 
 The existence side should return an actual revised global family and
 its full endpoint test, or a construction from a different geometry.
@@ -153,3 +187,10 @@ The referee should record which moves survive and update the common
 state. No strategy note or uncompleted computation is promoted into a
 canonical result. The unfinished projection calculation remains an
 explicit live subproblem; the game is not restricted to it.
+
+The [geometric review](notes/2026-10-30-stci-game-geometry-review.md)
+tracks the geometric meaning of current computations and the gaps in
+those interpretations. In particular it identifies the coplanar
+four-point obstruction, explains how repeated or axis roots alter the
+attachment geometry, and distinguishes the arithmetic conductor jet
+from reduced residue data.

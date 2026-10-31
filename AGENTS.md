@@ -12,6 +12,7 @@ Read [research/INDEX.md](research/INDEX.md) first; for mathematical orientation 
 8. New results enter as proposals with evidence and independent review status; promote them only through a reviewed change to canonical result/question records.
 
 For substantial work, report: precise claim used, assumptions, supporting path(s), unresolved dependencies, and whether the claim is promoted or provisional. Do not equate a computational reduction with a completed computation.
+For every new calculation, result, example, or review, extract its geometric content: identify the actual scheme, divisor, morphism, linear system, attachment, or deformation being measured; explain what the output means geometrically; and state how it changes the general STCI question. If the geometric interpretation is unresolved, name the missing interpretation instead of inventing one. Numerical ranks, dimensions, and certificates must not stand in for this explanation.
 New research contributions should follow [the proposal and audit checklist](research/CONTRIBUTING_AGENT.md). Canonical metadata can be checked with `python3 research/computations/validate_records.py`.
 
 ## Navigation maintenance contract
