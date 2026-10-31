@@ -68,6 +68,10 @@ The [conditional (6,16) calculation](normalization_conductor_phase2_addendum.md#
 
 The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction) connects the explicit eleven first-symbol equations to the constant-rank cubic-jet quotient obstruction, the second-obstruction pairings and full-root torsion. The [frontier](06-frontier.md#611c-a-finite-616-incidence-with-an-exact-cubic-quotient) states the bounded elimination task and its limited exclusion scope. The known failed smooth seed is one point rejected by this system, not a proof of global emptiness.
 
+## Direct cubic coefficient equations
+
+The conditional [sextic calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) now gives four polynomial equations for the unique possible cubic correction, without dividing by root coefficients. This refines the finite (6,16) necessary-condition incidence while preserving singular roots and multiplier-zero cases.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
