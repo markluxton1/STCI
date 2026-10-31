@@ -157,7 +157,7 @@ In the same (6,16) lane, the smooth quadratic root \(f_0=(z^2+4)u^2+(z^2-8)v^2\)
 
 This is an explicit **failed implication**, not merely a warning about dimensions: global first-symbol realizability does not ensure higher-jet compatibility. The counterexample excludes the specified seed, not every smooth quadratic root or the full (6,16) family.
 
-## 3.10D Rank-stratified higher-jet compatibility
+## 3.10D Higher-jet compatibility with a constant-rank correction
 
 The sextic example suggests a precise algebraic distinction. First solve the **image** problem for the quadratic symbol, using the eleven equations of the rank-22 map. Next treat the cubic-jet equation as a linear system whose coefficients depend on the root and multiplier. On a fixed rank stratum, solvability is the vanishing of the appropriate augmented minors; on rank-drop loci one must recompute the rank and cannot reuse a generic inverse. The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) keeps these exceptional points.
 
