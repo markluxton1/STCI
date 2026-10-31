@@ -32,6 +32,12 @@ The three routes have a common final requirement—**an actual proper homogeneou
 
 These are failures of proposed implication, not new nonexistence theorems. Any future proof connecting routes must supply a map between the corresponding actual objects and verify its hypotheses.
 
+## Conductor descent: exact versus effective steps
+
+The full conductor criterion R-0003 is an exact fixed-carrier equivalence, but it is not yet an effective uniform classification. The missing sequence is: specify an actual admissible carrier family; compute its entire inverse support and finite conductor algebra; obtain the **constructible** phase image including nilpotent conditions; and decide whether that image contains a torsion phase. The [phase reduction](normalization_conductor_projection.md#24-torsion-coset-envelope-for-all-power-projection-families) is conditional on those family inputs. An effective isolated-point order bound cannot be invoked before the image equations are known and does not cover positive-dimensional torsion cosets.
+
+The [single-field compression](normalization_conductor_projection.md#26-single-field-conductor-power-compression-exact-scope) is a narrower source-level statement; it fails for split conductor residue algebras and does not substitute for the full family computation. The [pointwise socle identity](../results/pointwise_conductor_socle_defect.md) is a necessary condition on an already supported pair under different, restrictive hypotheses, not a method of computing conductor phase images.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
