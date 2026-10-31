@@ -30,6 +30,17 @@ transform/monad constructions. The two conductor modules have no
 supplied comparison; the constructed sheaf and its flat deformations
 do not yield a split rank-two target. No new experiment is selected.
 
+The subsequent [norm/postulation checkpoint, §28](notes/2026-10-31-unrestricted-strategy-assessment.md#28-low-degree-norms-strengthen-the-boundary-requirement-for-every-pair)
+completes one independently challenged uniform deduction for arbitrary
+pairs: the actual conductor boundary has no equation below
+q=ceil(alpha/2)-1, and its length is at least
+alpha+beta-3+2[binom(q+2,3)-q] for 5<=alpha<=beta. The added term
+grows cubically in the smaller degree. Proof and artifact reviews
+pass; the result remains provisional. This selection stops without
+an upper bound, construction or next technical experiment. Reopening
+needs an actual construction to test or a specified geometric
+comparison constraining this same boundary, not endpoint enumeration.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)
@@ -82,9 +93,10 @@ The unrestricted characteristic-zero STCI question remains open.
 
 The [quadratic-cover continuation](notes/2026-10-31-quadratic-cover-boundary.md)
 and its independent audit are complete. For every hypothetical supported
-CI of degrees alpha,beta, the total endpoint conductor length is at
-least alpha+beta-3; the stronger retained condition concerns restrictions
-of ambient forms in complementary degrees. The proof keeps potentially
+CI of degrees alpha,beta, the original endpoint conductor length bound
+is alpha+beta-3; the stronger retained condition concerns restrictions
+of ambient forms in complementary degrees. The norm strengthening
+reported in §28 above adds low-degree ambient postulation. The proof keeps potentially
 non-Gorenstein, non-ACM branches and works in every characteristic other
 than two. No independent estimate contradicts this requirement or
 forces a residual curve.

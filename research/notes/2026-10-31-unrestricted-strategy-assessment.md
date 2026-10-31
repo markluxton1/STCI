@@ -2322,3 +2322,90 @@ fbad7b8b4e708edb8b94c7d1e2be2237a20f8ff7b14f858ee42c1f07125cd24f.
 Its concurrent files were preserved without editing or staging them.
 All selection assignments are complete. Unrestricted characteristic-zero
 STCI remains open; no next technical round has begun.
+
+## 28. Low-degree norms strengthen the boundary requirement for every pair
+
+This continuation supplied a concrete all-pair input to the existing
+quadratic-boundary inequality. It did not choose a new carrier family.
+For any hypothetical pair of defining degrees
+\(5\le\alpha\le\beta\), set
+\[
+e=\alpha+\beta-4,\qquad
+q=\left\lceil\frac{\alpha}{2}\right\rceil-1.
+\]
+Retain the actual full primary lift \(A\subset B=A+Az\) and its
+conductor boundary \(\Delta\), of length \(\delta\). The
+[consolidated proof, §3a](2026-10-31-quadratic-cover-boundary.md#3a-the-quadratic-norm-forces-additional-conductor-postulation)
+now gives
+\[
+H_\Delta(n)=\binom{n+3}{3}\quad(0\le n<q),
+\]
+and the stronger necessary bound
+\[
+\boxed{\quad
+\delta\ge\alpha+\beta-3+
+2\left[\binom{q+2}{3}-q\right].
+\quad}
+\]
+For every surviving characteristic-zero pair, q is at least two,
+so the displayed scalar bound strictly strengthens the old
+\(\delta\ge\alpha+\beta-3\).
+
+**New input and geometry.** A homogeneous conductor element h of
+degree d makes hz descend to an ambient polynomial P of degree d+1.
+Its norm \(P^2-(2bc-ad)h^2\) is a nonzero equation of the actual
+complete intersection, of degree 2d+2. The nonsquareness used here
+is in the fraction field of the ambient polynomial ring; h may be
+nilpotent on the intersection. Since there is no nonzero equation
+below degree \(\alpha\), no conductor equation can have degree
+below q.
+
+Thus the finite boundary, despite its two-point reduced support,
+cannot lie on any ambient hypersurface of degree below q. Its full
+infinitesimal structure retains all ambient restrictions in that
+range. The existing canonical injection forces later postulation
+as well. Combining these facts at \(n=q-1\) gives the displayed
+length bound. The additional term grows cubically in the smaller
+defining degree, but remains a lower requirement.
+
+This norm is a new explicit all-pair application of a mechanism
+previously used to close particular projection/linkage sources.
+The scalar estimate uses the earlier canonical inequality; it is
+not a second independent duality budget. Kreuzer's canonical-module
+literature remains the checked background, with no use of a stronger
+maximal-degree Cayley–Bacharach assertion. No optimality or
+literature-priority claim is made.
+
+The proof separates two reusable statements: a norm-based
+initial-degree bound for quadratic-generated graded extensions,
+and a purely graded postulation estimate. Their precise hypotheses
+are retained in the source. No assertion that arbitrary curves
+admit this cover is made. The algebra itself is not a new
+characteristic-zero-specific mechanism; the low-carrier premise
+for C0 is the characteristic-zero input.
+
+**Existence versus nonexistence.** An actual candidate with too little
+conductor postulation is ruled out by this condition, which also
+specifies more of what a successful construction must supply. There
+is no upper bound on the available conductor length contradicting it.
+The result neither produces a residual curve nor proves a positive
+residual-degree floor, and does not favor nonexistence of STCI.
+
+**Selection, review and stopping.** A fresh gpt-6-astra/xhigh scout
+checked the relevant sources and proposed the bounded extraction;
+a separate fresh gpt-6-astra/xhigh reviewer challenged its all-pair
+scope and approved only this uniform proof. The parent reported
+the recommendation and stopping condition before proceeding.
+The scout's coherent context was reused for the derivation, and a
+fresh gpt-6.1-sol/high reviewer independently reconstructed the
+argument and checked the written source. The
+[audit appendix](2026-10-31-quadratic-cover-boundary-audit.md)
+records the actual review state and fingerprint.
+
+Stop after this bound. Do not start degree grids, endpoint-scheme
+classifications or a search for an unspecified upper bound. A next
+test needs an actual construction to check against the requirement
+or a new geometric comparison that constrains this same boundary.
+No further technical experiment is selected. All three assignments
+are complete; no nested delegation or numerical experiments occurred.
+The result remains provisional and unrestricted STCI remains open.

@@ -62,14 +62,18 @@ is independently reviewed provisional evidence for arbitrary supported
 CI pairs of degrees alpha,beta. The full primary lift has a locally
 Gorenstein conductor boundary downstairs and its prescribed quadratic
 pullback upstairs. Graded duality forces boundary length at least
-alpha+beta-3, without assuming the branch ACM or Gorenstein. A local
-control shows those extra hypotheses cannot be inserted automatically.
+alpha+beta-3, without assuming the branch ACM or Gorenstein. The new
+norm input strengthens this to alpha+beta-3+2[binom(q+2,3)-q], where
+q=ceil(alpha/2)-1 and 5<=alpha<=beta: the actual boundary lies on no
+ambient hypersurface of degree below q. A local control shows the
+extra branch hypotheses cannot be inserted automatically.
 The converse pure conjugate-union construction descends automatically;
-an AG union would produce a CI image. The bound also holds in odd
-characteristic and supplies no residual-degree contradiction. The
-[assessment, §21](notes/2026-10-31-unrestricted-strategy-assessment.md#21-an-arbitrary-pair-boundary-bound-and-automatic-conjugate-descent)
-stops this bounded round without a new classification or a change to
-the unrestricted open status. No canonical promotion.
+an AG union would produce a CI image. The separated-cover and graded
+arguments also hold in odd characteristic; the low-carrier premise
+here is the characteristic-zero one. There is no residual-degree
+contradiction. The [assessment, §28](notes/2026-10-31-unrestricted-strategy-assessment.md#28-low-degree-norms-strengthen-the-boundary-requirement-for-every-pair)
+closes this uniform extraction without selecting a classification or
+changing the unrestricted open status. No canonical promotion.
 
 The [projected power-source theorem](notes/2026-10-31-ambient-transport-and-projection.md)
 is independently reviewed provisional work. For every positive u,v,

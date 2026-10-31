@@ -199,6 +199,117 @@ Thus (7) also applies in odd characteristic and contains no mechanism
 specific to characteristic zero. In characteristic two this cover
 does not separate the branches, so its application here is unavailable.
 
+### 3a. The quadratic norm forces additional conductor postulation
+
+The actual ambient equation degrees give another input to (7a).
+Order the defining degrees as \(5\le\alpha\le\beta\); the lower bound
+five uses the accepted characteristic-zero low-carrier exclusions and
+factor reduction, including
+[STCI-R-0001](../results/quartic_carrier_exclusion.md).
+Put
+\[
+q=\left\lceil\frac{\alpha}{2}\right\rceil-1,\qquad
+L_q=\binom{q+2}{3}.
+\]
+Let \(J_\Delta\subset S\) be the inverse image of \(\mathfrak c\)
+under \(S\to A\), so \(T=S/J_\Delta\). The earlier vanishing
+\(H^0_{\mathfrak m}(T)=0\) makes this the saturated ideal of the
+actual projective boundary.
+
+**Theorem.** Every hypothetical pair in this note satisfies
+\[
+(J_\Delta)_d=0\quad(0\le d<q),                                    \tag{7b}
+\]
+and
+\[
+\boxed{\quad
+\delta\ge\alpha+\beta-3+
+2\left[\binom{q+2}{3}-q\right].
+\quad}                                                           \tag{7c}
+\]
+This strengthens (7), uniformly in both degrees and without a
+carrier-normality, generic-normal-order or local-type hypothesis.
+It is a new consequence of (7a) and the norm input below, not a
+second independent duality budget. No optimality claim is made.
+
+Take \(0\ne h\in(J_\Delta)_d\), with \(d<q\). Since \(d<\alpha\),
+h has a nonzero class in A. Conductor membership means that
+\(hz\in A_{d+1}\). Choose a homogeneous polynomial
+\(P\in S_{d+1}\) representing it. In B,
+\[
+P^2-rh^2=0,\qquad r=2bc-ad.
+\]
+The injection \(A\hookrightarrow B\) implies
+\[
+P^2-rh^2\in(F_\alpha,G_\beta).
+\]
+This is a nonzero polynomial. Otherwise \(r=(P/h)^2\) in
+\(\operatorname{Frac}S\), whereas the irreducible quadratic r has
+odd valuation at its prime divisor and is not a rational square.
+The argument divides only in the fraction field of the polynomial
+ring S; h may be nilpotent in A. The fact that r becomes a square
+on the reduced curve is irrelevant to this nonvanishing.
+
+Its degree is \(2d+2\le2q<\alpha\), contradicting the least degree
+of a nonzero element of \((F_\alpha,G_\beta)\). This proves (7b).
+All representatives were taken in the actual graded rings. No
+replacement of B by a full section ring was made.
+
+Consequently
+\[
+H_\Delta(n)=\binom{n+3}{3}\quad(0\le n<q),\qquad
+H_\Delta(q-1)=L_q.
+\]
+Reduce T by a regular general linear form. Its h-vector has
+\(h_i=\binom{i+2}{2}\) for \(i<q\), and the earlier canonical
+injection gives \(s\ge e=\alpha+\beta-4\). Since there are no
+internal zeros, \(h_i\ge1\) for \(q\le i\le e\). Also
+\(e-q\ge q-1\), because \(\beta\ge\alpha\ge5\). Therefore
+\[
+H_\Delta(e-q)\ge L_q+e-2q+1.
+\]
+Apply (7a) at \(n=q-1\):
+\[
+\delta\ge H_\Delta(q-1)+H_\Delta(e-q)
+       \ge2L_q+e-2q+1,
+\]
+which is (7c). This uses neither symmetry of the h-vector nor an
+arithmetically Gorenstein boundary.
+
+Two reusable ingredients are separated by this proof. The norm
+argument works for a homogeneous inclusion \(A\hookrightarrow B\)
+with \(B=A+Aw\), \(\deg w=1\), and \(w^2=r\), whenever r is a
+quadratic polynomial nonsquare in \(\operatorname{Frac}S\).
+The ideal defining A need only have no nonzero form below degree
+\(\alpha\) for (7b). To obtain (7c), retain finite birationality on
+the full generic algebras, saturation, local CM and finite projective quotient-support
+hypotheses stated above, with A a complete intersection. Separately,
+any one-dimensional standard graded CM quotient of S with
+\(J_{<q}=0\), \(s\ge e\), and (7a) satisfies the same scalar
+bound when \(q\ge1\) and \(e\ge2q-1\). These algebraic deductions
+are characteristic free under their explicit hypotheses; applying
+this particular separated cover still requires characteristic
+different from two, and the low-degree premise used here is the
+characteristic-zero one.
+
+Geometrically, the actual conductor boundary of \(W\to Y\) cannot
+lie scheme-theoretically on an ambient hypersurface of degree below
+q. Such an equation would allow its multiple of the omitted
+coordinate to descend and create a forbidden low-degree equation
+of Y. Although the reduced boundary has only the two marked
+points, its full infinitesimal structure must impose independent
+conditions on all these low-degree ambient forms. Canonical
+duality then requires complementary later postulation. This adds
+a term growing cubically with the smaller defining degree to the
+boundary-length requirement. It is not a bound on distinct points,
+an upper bound on conductor capacity, or a positive residual degree.
+
+The canonical Hilbert-function input remains the direct proof of
+(7a) and the already checked Kreuzer comparison. The elementary
+norm specialization is a new explicit repository consequence;
+no literature priority or exhaustive literature-search claim is made.
+The companion audit records its separate independent reconstruction.
+
 ## 4. Why the extracted branch need not be Gorenstein
 
 One exact local control suffices to test that possible shortcut; no
@@ -304,6 +415,12 @@ that forces residual degree to be positive. For existence, (9) shows
 exactly why one embedded AG union would suffice, but the reviewed
 literature has supplied no new operation producing one. These are
 different missing inputs, not evidence favoring nonexistence.
+
+The strengthened bound (7c) uses actual ambient low-degree information
+and applies to every hypothetical pair. It can reject a proposed
+embedded construction with insufficient conductor postulation. No
+incompatible upper bound has been obtained for it either; it does not
+select an endpoint or degree classification.
 
 Do not launch endpoint-type, boundary-length, multiplicity or degree
 classification from this note. Reopen for a specified geometric

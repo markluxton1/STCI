@@ -685,6 +685,16 @@ when the specified faithful canonical element is in the initial degree.
 The proof and characteristic extension are direct reviewed deductions;
 no literature-novelty claim is made.
 
+The later §3a adds an elementary norm argument: a degree-d conductor
+element would yield a nonzero equation of degree 2d+2 in the actual CI
+ideal. Combining the resulting initial-degree restriction with the
+reviewed canonical inequality gives a stronger all-pair length bound,
+with an additional term cubic in the smaller defining degree.
+This is a direct repository deduction, not a new conclusion attributed
+to Kreuzer or a second independent duality budget. The bounded primary
+comparison was revisited before this test; no optimality or exhaustive
+literature-search claim is made.
+
 [Manolache, Theorem 2.10 and Remark 2.12](https://imar.ro/journals/Revue_Mathematique/pdfs/2007/4/manolache.pdf)
 require supplied embedded linkage extensions;
 [Hartshorne, Proposition 3.1](https://arxiv.org/pdf/math/0301163)

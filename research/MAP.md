@@ -88,10 +88,14 @@ second inequality. No finite-chain or higher-degree search is selected.
 
 The [arbitrary-pair quadratic continuation](notes/2026-10-31-quadratic-cover-boundary.md)
 retains the full endpoint conductor of every hypothetical supported CI.
-Its canonical grading forces boundary length at least the sum of the
-two equation degrees minus three, and a stronger restriction-function
-inequality. This works in every characteristic other than two, with
-no incompatible upper bound or residual-degree comparison. Conversely,
+Its canonical grading forces a complementary-degree restriction-function
+inequality. The ambient norm also forbids conductor equations below
+q=ceil(alpha/2)-1, where alpha is the smaller defining degree. For the
+surviving characteristic-zero pairs this strengthens the length bound
+to alpha+beta-3+2[binom(q+2,3)-q]. The separated-cover argument works
+in odd characteristic as well; alpha>=5 uses the characteristic-zero
+carrier exclusions. No incompatible upper bound or residual-degree
+comparison is supplied. Conversely,
 a pure branch's conjugate union descends automatically, so constructing
 an AG union would suffice. Non-Gorenstein branches remain possible;
 no new embedded operation or endpoint classification is selected.

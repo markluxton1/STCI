@@ -249,3 +249,92 @@ present result. Without such input, another attachment identity,
 unrelated local type or reformulation of the equations should end the
 test rather than expand its cases. The lack of a current comparison
 or operation supplies no evidence favoring nonexistence.
+
+## Independent review of the norm and postulation strengthening
+
+Date: 2026-10-31. The new source §3a, equations (7b)–(7c), its
+generalization and corresponding §6 limitation received a separate
+bounded proof review by /root/norm_postulation_independent_review
+(fresh gpt-6.1-sol/high, read-only, no nested delegation).
+**PASS**, including a check of the written artifact. The final reviewed
+source SHA256 is
+
+    5e2944549af7a3579cf8fc0ff687344b6e82db814b4429b9b8464f79f543ff4f
+
+The only clarification after the first artifact check made finite
+birationality explicitly apply to the full generic algebras. The
+reviewer confirmed that wording and this final fingerprint. Earlier
+reviews above retain their original scopes and fingerprints; the new
+review does not silently re-certify or promote the entire note.
+
+### Independently checked argument
+
+For \(5\le\alpha\le\beta\), put
+\(q=\lceil\alpha/2\rceil-1\) and \(e=\alpha+\beta-4\).
+The checked deduction uses the actual graded injection \(A\subset B\)
+and module equality \(B=A+Az\). A nonzero homogeneous polynomial
+\(h\in(J_\Delta)_d\), \(d<q\), has a nonzero class in A and makes hz
+an element of \(A_{d+1}\). It therefore has an actual polynomial
+representative P. The norm \(P^2-(2bc-ad)h^2\) lies in the CI ideal.
+It is nonzero because \(2bc-ad\) is nonsquare in the fraction field
+of S, and its degree satisfies \(2d+2\le2q<\alpha\). This contradicts
+the initial degree of that ideal.
+
+The argument remains valid if the class of h is nilpotent on the
+full intersection: division occurs in \(\operatorname{Frac}S\),
+not in A. No lifting from an arbitrary sheaf section and no replacement
+of the coordinate ring by its full section ring is used.
+
+Consequently \(H_\Delta(q-1)=\binom{q+2}{3}\). The previously reviewed
+canonical injection gives \(s\ge e\); the standard graded Artinian
+reduction has no internal zero. Thus
+\[
+H_\Delta(e-q)\ge\binom{q+2}{3}+e-2q+1.
+\]
+Applying (7a) at \(n=q-1\) proves
+\[
+\delta\ge\alpha+\beta-3+
+2\left[\binom{q+2}{3}-q\right].
+\]
+The reviewer checked the degree cutoff in both parities, the range
+\(e-q\ge q-1\), twists and inequality directions, and the absence of
+an h-vector symmetry or arithmetically Gorenstein boundary assumption.
+The generalizations keep the exact norm, module-generation, saturation,
+finite birationality and local CM hypotheses needed for their respective
+conclusions. Characteristic-zero enters this application through the
+accepted low-carrier premise; the algebraic lemmas themselves retain
+their stated characteristic-free scope.
+
+### Literature, geometry and strategy disposition
+
+The primary Kreuzer comparison above was revisited during selection.
+The new norm deduction is proved directly; it is not attributed to
+Kreuzer's theorem, and it uses no stronger maximal-degree
+Cayley–Bacharach claim. No priority or optimality assertion is made.
+
+Geometrically the full conductor boundary lies on no ambient
+hypersurface of degree below q. Its two-point reduced support therefore
+conceals substantial infinitesimal postulation, and the earlier
+canonical grading requires complementary later postulation. The
+new lower length term grows cubically with the smaller defining degree.
+It measures neither distinct points nor a residual curve.
+
+Selection was independently challenged before the proof was pursued:
+/root/conductor_norm_selection (fresh gpt-6-astra/xhigh) supplied the
+bounded proposal and then the derivation in the same coherent context;
+/root/conductor_postulation_strategy_challenge (separate fresh
+gpt-6-astra/xhigh) recommended only the uniform extraction followed by
+closure. The parent reported that recommendation before the test.
+The latter reviewer then checked the actual
+[assessment §28](2026-10-31-unrestricted-strategy-assessment.md#28-low-degree-norms-strengthen-the-boundary-requirement-for-every-pair)
+and source §3a against this final fingerprint: **PASS for strategy and
+claim scope**, with no material correction and no duplicate proof audit.
+
+The condition can reject an actual candidate whose conductor is too
+small. There is still no conflicting upper bound, construction or
+positive residual-degree floor. This round stops after preserving the
+bound; no degree grid, endpoint classification or unspecified upper-bound
+search is selected. Reopening needs an actual construction to test or a
+new geometric comparison constraining this same boundary. All three
+assignments are complete, with no numerical experiments. The result is
+independently reviewed provisional work; unrestricted STCI remains open.
