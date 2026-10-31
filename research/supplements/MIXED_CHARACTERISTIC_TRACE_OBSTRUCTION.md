@@ -167,6 +167,56 @@ Taking \(n=2\) gives a degree-\((8,p)\) special pair covered by
 both lifting statements, with neither equation of degree four.
 An arbitrary deformation need not retain its special quartic factor.
 
+## A ramified pair that passes the first trace and retains residual support
+
+The quadratic vanishing order in (2) is attained even by variations that
+contain the fixed curve. Write \(Z=x_3\), \(q=XY-x_0Z\), and
+consider the integral degree-\((7,8)\) family
+\[
+ F=X^7-x_0^5YZ+u\,q x_0X^4,\qquad
+ G=(Y^4-x_0Z^3)^2+v\,q ZY^5.
+\]
+Both equations contain \(C_0\). The perturbation weights are eight and
+23, against special weights seven and 24; the two coefficient characters
+are opposite. The leading forms in \(X,Y\) remain \(X^7,Y^8\), so
+the pair is proper and its quotient is free of rank 56 over the base
+polynomial ring, for every \(u,v\).
+
+Modulo \((x_0^2,Z^2)\), the equations become
+\(X^7+u x_0X^5Y\) and \(Y^8+v ZXY^6\). Multiplication by
+\(XY\) has a diagonal contribution \(uv x_0Z\) on exactly the
+three basis elements \(X^6Y^6,X^5Y^7,X^6Y^7\). Thus
+\(c=3uv\) integrally. The two pure base-square trace coefficients
+vanish: setting either base coordinate to zero makes \(X\) or \(Y\)
+nilpotent over a domain. Consequently
+\[
+ \operatorname{Tr}(q)=(3uv-56)x_0Z.
+\]
+Over the ramified DVR \(\mathbb Z_7[\pi]/(\pi^2-7)\), choose
+\(u=\pi,\ v=(8/3)\pi\). The special fiber is the supported
+degree-\((7,8)\) pair above and the **entire first trace vanishes**.
+
+Its characteristic-zero generic fiber nevertheless has a residual curve.
+For any nonzero \(u,v\) in characteristic zero, on \(x_0=1,X\ne0\)
+put \(Y=X^3y,Z=X^4z,w=uX,t=uv\). Away from
+\(yz(y-z)(yz-1)=0\), the first equation eliminates
+\(w=(yz-1)/(y-z)\); the second is exactly
+\[
+ H(y,z)=(yz-1)(y^4-z^3)^2+tzy^5(y-z)^2=0.
+\]
+This is nonconstant and has none of \(y,z,y-z,yz-1\) as a factor:
+evaluate at the corresponding divisors, using \(t\ne0\). Thus its
+zero set has a curve in that open. Recovering \(X=w/u\) maps it to
+an actual residual curve, with \(q=X^4(y-z)\ne0\).
+
+Independent reconstruction checked the integral diagonal calculation,
+properness, elimination and nonempty residual support. This control
+saturates the valuation bound for the first trace, but is **not** a
+supported mixed-characteristic lift. Higher nilpotence/support equations
+are essential even at the minimum permitted ramification.
+
+## Remaining characteristic-zero question
+
 The obstruction measures how a characteristic-zero presentation would
 have to leave the torus-symmetric locus. It does not prove that a ramified
 lift exists when (1) permits it. Conversely, the absence of an unramified
