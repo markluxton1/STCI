@@ -75,6 +75,10 @@ The reviewed strict-sextic argument forces a nonreduced multiplier divisor on th
 
 The [geometric continuation](normalization_conductor_phase2_addendum.md#singular-curves-on-the-strict-sextic-two-conditional-alternatives) proves, under local normality near multiplier zeros, that a singular curve on the strict sextic must be a trisecant ruling line through one ordinary root node. The other alternative is nonnormality at a multiplier zero. The identity \(16d-2e=10n\) is sensitive to additional exceptional contacts; \(e=n\) is not valid in general. This branch classification depends on actual supported equations, not just the finite root incidence.
 
+## Positive-characteristic existence versus degree minimization
+
+P-008 constructs explicit defining pairs for the fixed monomial quartic; P-012 proves the broader existence theorem for all smooth rational quartics in positive characteristic via cuspidal projection, radicial normalization and Frobenius descent. Its degree pair \((3,4p)\) is an **upper bound**, not a minimum. Special \((3,4)\) in characteristic three and \((4,4)\) in characteristic two concern the fixed model. Characteristic-five degree-product minimality remains a separate question. See [Chapter 1](01-problem-and-curve.md#12b-positive-characteristic-presentations-fixed-model-versus-all-rational-quartics).
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
