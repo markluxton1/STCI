@@ -44,6 +44,12 @@ For \(d\ge3m\), the fixed-curve ideal-power theorem gives \(H^0(I_C^m(d))=(I_C^m
 
 Thus the missing global-source arrow in the determinant and residual-jet routes is a concrete image and proper-pair computation, not merely a presentation of the ambient ideal-power space. For the conditional (6,16) lane, the known sextic-symbol map has rank 22 from a 23-dimensional source into 33 coefficients; this is an explicit instance of the distinction, not a universal rank formula.
 
+## The degree-six source calculation as a precise test case
+
+The movement-two (6,16) program provides a rare fully computed **first** global-source arrow: degree-six order-two carriers map from a 23-dimensional source to a 33-dimensional quadratic-symbol target with rank 22, kernel the cube of the containing quadric, and eleven independent image equations. The [conditional calculation](normalization_conductor_phase2_addendum.md) gives the actual basis and bilinear constraints after writing the symbol as alpha times a moving quadratic root.
+
+The missing arrow starts *after* that rank computation. The next cubic jet must lift compatibly, the degree-sixteen mate must come from its own homogeneous source, and the resulting pair must be proper with the required transverse length. The conductor calculation for this lane presupposes such a pair and only constrains its remaining contact strata. Thus a rank-22 image is genuine mathematical progress but neither an existence theorem nor an exclusion.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
