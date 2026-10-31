@@ -159,6 +159,12 @@ The degree-six quadratic-symbol map has rank 22 from a 23-dimensional source int
 
 The next finite task is to solve the joint incidence of the eleven symbol equations, the cubic quotient obstruction, all twenty-five second-obstruction pairings, and full-scheme spectral torsion. Singular-root and multiplier-zero strata must be retained, but the cubic multiplication map has no rank-drop strata. Emptiness would exclude only the specified saturated movement-two (6,16) locus; nonemptiness would still require a proper degree-sixteen mate and support exhaustion. See [the conditional source calculation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction).
 
+## 6.11D The finite cubic calculation now has four explicit equations
+
+The 24-dimensional cubic quotient obstruction in the conditional (6,16) lane can be tested directly by four polynomial coefficient identities for the two correction polynomials. They are valid without division by root coefficients, including on singular-root loci, and have at most one solution for each nonzero root and prescribed cubic difference. See [the exact equations](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
+
+The remaining finite task is to solve these identities jointly with the eleven leading-symbol equations, all twenty-five second-obstruction pairings, and full-root spectral torsion. Uniqueness of the correction is not uniqueness of the root/multiplier parameters and does not construct a mate.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
