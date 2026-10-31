@@ -66,7 +66,11 @@ m=\frac{5e}{4}.
 \]
 Hence \(4\mid e\). Since degrees at most four are already excluded, the **first numerically possible mate degree is eight**. This is only divisibility and lower-degree bookkeeping: it neither constructs nor excludes a \((5,8)\) pair.
 
-The same principle applies to other degrees: \(4\mid de\) is necessary for the fixed degree-four curve, but generally far from sufficient.
+More generally, for a proper pair with sole one-dimensional support \(C_0\), the cycle equality \(de[C_{\mathrm{line}}]=m[C_0]\) gives \(de=4m\). Thus the precise divisibility condition for a fixed first degree \(d\) is
+\[
+\frac{4}{\gcd(4,d)}\mid e.
+\]
+If \(d\) is odd, \(4\mid e\); if \(d\equiv2\pmod4\), \(2\mid e\); and if \(4\mid d\), this calculation alone imposes no divisibility on \(e\). These are necessary numerical restrictions for **sole-support proper pairs**, not sufficient conditions or universal restrictions on pairs with residual curves. In characteristic zero the separate exclusion theorem still forces both degrees to be at least five.
 
 ## 5.5 Scope of older partial quartic arguments
 
