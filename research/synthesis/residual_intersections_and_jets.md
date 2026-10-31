@@ -105,6 +105,12 @@ The conditional sextic cubic-jet equation is a parameter-dependent linear system
 
 These source constraints alone do not force a residual curve. A residual-degree theorem still requires a uniform upper bound on generic transverse length for actual proper pairs, including exceptional strata.
 
+## 7E. Exact augmented-rank criterion for the cubic jet
+
+The conditional (6,16) cubic-jet comparison is a system of 40 coefficient equations in at most sixteen correction coefficients. Writing it as \(A(t)x=b(t)\), the rank-r stratum of A admits a correction precisely where every (r+1)-minor of the augmented matrix vanishes. One must impose the rank-r condition on A itself, including a nonzero r-minor, rather than solve only on a generic maximal-rank open. The [determinantal prescription](normalization_conductor_phase2_addendum.md#determinantal-elimination-without-generic-division) gives the exact formulation.
+
+This is a finite **source-realization** test. The projected solvability locus may be merely constructible, and its closure can add spurious boundary candidates. Even exact elimination of this system does not replace the generic transverse-length bound needed to force residual degree.
+
 ## 8. Fixed boundary versus residual removal
 
 The fixed-boundary deformation theorem R-0024 is more precise than the phrase "the nodes smooth." For its specified quartic pencil, the 36-dimensional ordered source has boundary, node and combined tangent ranks 19, 5 and 24. On the Grassmannian, the projective boundary rank is 18, and the fixed-boundary fiber is smooth of dimension 14. After etale localization at the five labeled nodes its formal local ring has five independent smoothing coordinates and nine further parameters.
