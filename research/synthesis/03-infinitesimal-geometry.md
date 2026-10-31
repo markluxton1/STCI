@@ -157,13 +157,9 @@ In the same (6,16) lane, the smooth quadratic root \(f_0=(z^2+4)u^2+(z^2-8)v^2\)
 
 This is an explicit **failed implication**, not merely a warning about dimensions: global first-symbol realizability does not ensure higher-jet compatibility. The counterexample excludes the specified seed, not every smooth quadratic root or the full (6,16) family.
 
-## 3.10D Higher-jet compatibility with a constant-rank correction
+## 3.10D The cubic quotient obstruction and remaining incidence
 
-The eleven equations of the rank-22 quadratic-symbol map are the first realization test. For a nonzero root, the subsequent cubic correction is multiplication by that root, an injective map from sixteen correction coefficients into forty cubic coefficients. Its obstruction is a class in the twenty-four-dimensional quotient. The second ambient obstruction and full-root spectral torsion are additional conditions, and singular roots or multiplier zeros must remain in their own incidence strata. The failed smooth seed excludes only that seed.
-
-## 3.10E Constant-rank cubic correction
-
-The displayed correction map multiplies a linear normal form by the nonzero quadratic root. Polynomial multiplication is injective, giving rank sixteen in the forty-dimensional cubic target. Its cokernel has dimension twenty-four. The earlier proposal to stratify the correction matrix by rank was unnecessary; exceptional roots and multipliers remain relevant to the other incidence equations.
+For the conditional (6,16) quadratic root, the correction term is \(f(\ell u+mv)\), where \(\deg\ell,\deg m\le7\). Multiplication by nonzero \(f\) is injective, so the sixteen correction coefficients map with constant rank sixteen into forty cubic coefficients. The next-jet obstruction is the class of \((F_c)_3-\alpha G_0\) in the twenty-four-dimensional quotient. The eleven leading-symbol equations are a prior condition; the twenty-five second-obstruction pairings and full-root torsion are further independent tests. Singular roots and multiplier zeros affect those tests, not the rank of multiplication by \(f\). The explicit smooth seed fails the quotient condition with pairing \(-384\), excluding that seed only. See [the conditional calculation](normalization_conductor_phase2_addendum.md#constant-rank-cubic-correction-and-the-exact-quotient-obstruction).
 
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
