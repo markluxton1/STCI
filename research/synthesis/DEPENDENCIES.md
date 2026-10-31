@@ -52,6 +52,10 @@ A specified smooth torsion-two seed passes all eleven first-symbol equations but
 
 Even a point passing these necessary conditions does not supply a proper degree-sixteen mate. Emptiness would exclude only the scoped saturated movement-two (6,16) locus, not every characteristic-zero STCI pair.
 
+## The elementary numerical gate before global-source tests
+
+For a proper pair with sole reduced support the fixed degree-four curve, \(de=4m\) for the generic transverse length \(m\). Equivalently \(4/\gcd(4,d)\mid e\). This necessary gate removes degree pairs but does not provide an equation or control residual cycles; for a proper pair with residual degree \(r\), the equality is instead \(de=4m+r\). The characteristic-zero carrier exclusions and the higher-jet/source tests are independent, stronger requirements.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
