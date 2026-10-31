@@ -182,6 +182,10 @@ The October 21 geometric exceptional-locus calculation proves, under the actual 
 
 The reviewed [strict-sextic singular-curve argument](normalization_conductor_phase2_addendum.md#singular-curves-on-the-strict-sextic-two-conditional-alternatives) reduces a remaining actual-pair singular curve, under normality near multiplier-zero root points, to a trisecant ruling line meeting one ordinary root node. Its numerical identity is \(16d-2e=10n\), with \(n\le2\) and \(e\) retaining all exceptional contacts, not just nodal contacts. The alternative is nonnormality at a multiplier zero. These are specific geometric/conductor targets; neither is currently excluded.
 
+## 6.11I Positive-characteristic degree optimization is a separate problem
+
+P-012 already proves every smooth rational quartic is STCI in characteristic \(p>0\), with degrees \((3,4p)\). P-008 provides a direct fixed-monomial construction, improved to \((3,4)\) in characteristic three and \((4,4)\) in characteristic two. The remaining question about smallest degree products, including characteristic five, is **not** settled by these existence results. Keep fixed-model minimization separate from the universal theorem, and from characteristic-zero exclusion arguments. See [Chapter 1](01-problem-and-curve.md#12b-positive-characteristic-presentations-fixed-model-versus-all-rational-quartics).
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
