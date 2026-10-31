@@ -32,6 +32,18 @@ target curve. The general lifting lemma retains those exact hypotheses.
 The exclusion also holds in characteristic two where C0 is STCI, so it
 does not cover arbitrary defining pairs.
 
+The [arbitrary-pair root package](notes/2026-10-31-polarization-root-budget.md)
+retains the full nilpotent scheme: its root algebra is Gorenstein, while
+its reduced section series and cone-vertex defect need not disappear.
+No comparison from that defect to residual degree is established. The
+[normal-contact extraction, §§8–9](notes/2026-10-28-residual-degree-blowup-bounds.md)
+instead uses the inherited actual-cycle inequality to require at least
+65.2 percent of a supported pair's generic multiplicity after the first
+blowup. Normal-order saturation divisors enter the genus budget, but
+converting them into a residual-degree bound or an absorption construction
+still requires actual contact and attachment information. Both contributions
+are independently reviewed provisional work, with no new campaign selected.
+
 The [paired-cover construction](notes/2026-10-31-paired-elliptic-construction.md)
 subsequently supplies actual odd-spin elliptic target data with compatible
 component polarizations. Its node-gluing ratios are values of a degree-three

@@ -2,7 +2,22 @@
 
 ## Research activity status — October 31, 2026
 
-The latest [finite-pullback deduction](notes/2026-10-31-finite-pullback-lifting.md)
+The latest [polarization-root deductions](notes/2026-10-31-polarization-root-budget.md)
+are independently reviewed provisional all-pair constraints, with no
+unrestricted exclusion or construction. The full root algebra is finite,
+Cohen–Macaulay and Gorenstein over the hypothetical CI ring; its reduced
+section images are constrained, while its fixed cone-vertex defect has
+no established comparison with residual degree. The
+[normal-contact extraction, §§8–9](notes/2026-10-28-residual-degree-blowup-bounds.md)
+is independently reviewed: the inherited graph inequality forces at least
+65.2 percent of a supported pair's generic multiplicity to survive as
+contact after the first blowup. This is an all-degree necessary condition,
+not a positive residual theorem. Its normal-divisor/genus interpretation
+reuses earlier reviewed evidence. The [assessment, §§12–13](notes/2026-10-31-unrestricted-strategy-assessment.md#12-arbitrary-pair-roots-and-the-limits-of-a-residual-budget-interpretation)
+records both gains, their limits and stopping decisions. No canonical
+record or unrestricted mathematical status changes.
+
+The earlier [finite-pullback deduction](notes/2026-10-31-finite-pullback-lifting.md)
 is independently reviewed and provisional. It excludes every finite
 endomorphism whose inverse image of a twisted cubic has reduced support
 C0, in characteristic different from three, by a general polarization-root

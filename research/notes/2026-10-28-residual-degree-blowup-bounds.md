@@ -3,7 +3,7 @@
 Date: 2026-10-28. Author: `blowup_linear_systems` research agent.
 Status: **independently reviewed provisional consolidation and geometric
 interpretations**; see the [separate audit](2026-10-28-residual-degree-blowup-audit.md),
-including its order-one addendum. The basic inequalities were already proved
+including its order-one and October 31 normal-contact addenda. The basic inequalities were already proved
 and independently reviewed on October 19. They are not new results of this
 pass, and neither they nor the present interpretation is a canonical
 unrestricted residual-positivity theorem.
@@ -379,3 +379,142 @@ This corollary makes one part of the needed slope data directly
 computable from actual homogeneous coefficients. It neither supplies an
 automatic positive numerator for all carriers nor replaces the remaining
 higher-normal and full-primary geometry.
+
+## 8. October 31 extraction: a uniform amount of contact survives the first blowup
+
+This is a corollary of (1), not a new independent inequality. Keep the
+arbitrary actual-pair hypotheses of §1, and set
+
+\[
+p=\frac{rs}{ab},\qquad \theta=\frac{\delta}{ab}.
+\]
+
+The local intersection formula gives \(rs\le m\), hence
+\(p\le(1-\theta)/4\). AM–GM in (1) gives the degree-independent
+necessary condition
+
+\[
+\boxed{5\theta\ge32\sqrt p-7-28p.}\tag{12}
+\]
+
+The original K bound retains the asymmetry of as and br and is at least
+as strong. A positive right side of (12) forces a positive residual
+fraction for that actual pair; nonpositive values give no such conclusion.
+
+If the pair is an STCI, then \(\theta=0\), \(m=ab/4\), and
+\(0\le\sqrt p\le1/2\). The inequality
+\(32\sqrt p-7-28p\le0\) consequently forces
+\(\sqrt p\le(8-\sqrt{15})/14\); its other root exceeds 1/2. Thus
+
+\[
+\boxed{
+\frac{rs}{m}\le\frac{79-16\sqrt{15}}{49},\qquad
+\frac{m-rs}{m}\ge\frac{16\sqrt{15}-30}{49}
+\simeq0.6524027.
+}\tag{13}
+\]
+
+Here \(m-rs=n\) is the degree over C of the actual horizontal
+exceptional intersection cycle from §2. It measures the generic contact
+remaining after the first blowup, including its scheme multiplicities.
+It is not the degree of R or the number of distinct normal directions.
+Consequently every hypothetical supported pair must concentrate over
+65.2 percent of its generic intersection multiplicity in this remaining
+contact. Coprime generic leading symbols cannot supply such a pair.
+The conclusion is uniform in both degrees and imposes no normality,
+integrality, saturation or ordinary-initial-CI assumption.
+
+The reciprocal constant \((79+16\sqrt{15})/49\) already occurs in
+the [October 19 filtration investigation, §4](2026-10-19-global-ci-filtration-investigation.md)
+and [October 20 report](2026-10-20-normal-filtration-research-report.md).
+There it bounds a ratio of relation orders under additional saturated
+generic-CI hypotheses. Those relation orders must not be identified with
+the chosen-equation orders here. No novelty claim is made for the
+constant. The useful extraction is the all-pair geometric interpretation
+and its asymptotic search consequence.
+
+**Existence and nonexistence:** a construction must create this much
+remaining contact and still realize two global equations with no residual
+support. For nonexistence, (13) supplies no upper bound contradicting that
+requirement. Repeating first-blowup nef calculations cannot improve it
+without new data, by §3. A further direction needs a mechanism controlling
+actual higher contact, its movement and attachment, or constructing it
+globally; a list of local contact types alone does not do so.
+
+## 9. Pointwise normal divisors and the genus budget: the precise interface
+
+The user's pointwise normal-order picture has two useful intrinsic forms.
+For a chosen equation of exact generic order r, its first nonzero symbol is
+
+\[
+\sigma_r(F)\in H^0\bigl(C,\operatorname{Sym}^r N_C^*\otimes O_C(a)\bigr).
+\]
+
+Saturating its rank-one image gives a line subbundle; the section in that
+line bundle has an effective zero divisor D. Away from D its binary form
+defines higher normal directions, with multiplicities, in each fiber of
+\(E=\mathbf P(N_C)\). D records the common coefficient zeros and the
+corresponding vertical part of the symbol divisor. A nowhere-zero symbol
+has D=0. An identically zero symbol instead requires passage to a higher
+generic order; its zero scheme is all of C and is not an effective Cartier
+divisor. Fiberwise vanishing at p means
+\(F\in\mathfrak m_p I_C^r+I_C^{r+1}\), and need not mean
+\(F\in I_C^{r+1}\) in the stalk. A chosen transverse-slice order is
+additional information.
+
+For all normal orders simultaneously, use the **full** initial ideal of
+the actual C-primary scheme W, including relations produced by cancelling
+the two equations. Set
+
+\[
+Q_j=I_C^jO_W/I_C^{j+1}O_W,\quad
+T_j=\operatorname{tors}_C Q_j,\quad
+H_j=\ker(\operatorname{Sym}^j N_C^*\longrightarrow Q_j).
+\]
+
+Then \(T_j=H_j^{\rm sat}/H_j\) and the effective divisor
+\(B_j=\sum_p\ell(T_{j,p})[p]\) measures failure of saturation in
+order j. This divisor exists even when several independent relations
+occur in that order. If \(H_j=0\), the defect divisor B_j is zero;
+this is a statement about a saturation defect, distinct from assigning a
+Cartier zero divisor to an identically zero section.
+The full-initial-ideal and saturation construction works for any smooth
+support curve, independently of the quartic's balanced normal bundle.
+These are retrieved statements from the independently audited
+[October 26 normal-filtration note, §§2–4](2026-10-26-normal-torsion-spectral-genus-budget.md),
+not new results of this extraction.
+
+Writing \(h_j=\operatorname{rank}(Q_j/T_j)\), the finite filtration on
+the rational curve gives the exact identities
+
+\[
+m=\sum_j h_j,\qquad
+\chi(O_W)=\sum_j\bigl(h_j+\deg(Q_j/T_j)+\ell T_j\bigr).
+\tag{14}
+\]
+
+For a smooth support of genus g, replace each h_j in the Euler formula
+by \((1-g)h_j\); the degree of W is \((\deg C)\sum h_j\).
+This generalization is already part of the retrieved formula.
+For an actual primary decomposition \(Y=W\cup V\), with V retaining
+the full residual scheme and \(D_{\rm att}=W\cap V\) finite,
+
+\[
+\chi(O_Y)=\chi(O_W)+\chi(O_V)-\ell(D_{\rm att}).\tag{15}
+\]
+
+The left side is \(-ab(a+b-4)/2\). Thus normal layers and their point
+defects participate in the complete-intersection arithmetic-genus budget,
+whereas \(ab=4m+\delta\) is its degree budget. Torsion contributes to
+the constant term, not directly to residual degree. A comparison between
+filtrations must also avoid counting both torsion and its equivalent
+saturated-divisor description twice; the retrieved note proves their
+equality under its curvilinear hypotheses. The actual residual scheme
+and attachment in (15) cannot be replaced by the reduced curve alone.
+
+This makes the spectral-sequence/normal-filtration connection concrete,
+but an Euler-characteristic identity alone does not bound the permitted
+concentration on C or prove that R survives. The new all-pair extraction
+(13) says how much generic contact a supported endpoint requires. It does
+not supply the remaining comparison between that contact, the divisors
+B_j, full attachment, and homogeneous equation realization.

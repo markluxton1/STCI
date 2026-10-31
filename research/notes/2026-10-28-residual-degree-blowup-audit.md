@@ -236,3 +236,66 @@ An exact smaller self-intersection can supply stronger information,
 so the source properly recommends combining bounds. The corollary
 does not make the numerator automatically positive for all actual
 carriers and does not settle the unrestricted endpoint.
+
+## 7. October 31 addendum: surviving contact and the normal-filtration interface
+
+Date: 2026-10-31. Reviewer: independent `normal_order_budget_review`
+agent. **PASS for the source's subsequently appended §§8–9**, within
+their explicit necessary-condition and interpretation scopes. This
+review checked the actual appended text against the inherited identities
+above, the balanced conormal record R-0020, and the independently audited
+[October 26 normal-filtration note, §§2–4](2026-10-26-normal-torsion-spectral-genus-budget.md).
+No canonical promotion, unrestricted exclusion, inherited proof replay,
+CAS calculation or new local-type campaign was performed.
+
+For the actual proper pairs of source §1, local intersection multiplicity
+gives rs<=m, including for reducible equations and powers. Set
+p=rs/(ab) and theta=delta/(ab). AM–GM gives
+K/(ab)>=32*sqrt(p)-7-28p, so the inherited 5delta>=K proves (12).
+At theta=0, x=sqrt(p) lies in [0,1/2]. The other root of
+32x-7-28x² is greater than 1/2, leaving
+x<=(8-sqrt(15))/14. Multiplying its square by four gives exactly
+the two fractions in (13), including the stated 0.6524027 lower
+fraction for (m-rs)/m. The original asymmetric K estimate retains
+more information. The older reciprocal constant occurs under different
+relation-order hypotheses in October 19 §4; the source correctly avoids
+identifying those orders or asserting novelty.
+
+The geometric interpretation is correct: n=m-rs is the degree over C
+of the actual horizontal exceptional intersection cycle, with its
+intersection multiplicities. It is neither residual degree downstairs
+nor a count of distinct normal directions. Thus (13) constrains where
+a hypothetical supported pair must concentrate multiplicity; it does
+not force a residual curve.
+
+For a nonzero generic normal symbol, saturating its rank-one image
+gives the intrinsic coefficient-zero divisor D. An identically zero
+symbol instead calls for higher generic order and has no ordinary
+Cartier zero divisor at that level. Fiberwise vanishing at p is only
+membership in m_p I_C^r+I_C^(r+1), as the source states, rather than
+membership in I_C^(r+1) in the stalk. The higher slice order needs a
+chosen transverse slice. These qualifications prevent coefficient
+vanishing from being mistaken for a higher generic order.
+
+For the full C-primary scheme W, Sym^j(N_C^*) surjects onto Q_j.
+Therefore tors_C(Q_j)=H_j^sat/H_j, and B_j records the lengths of
+that saturation defect. In particular H_j=0 gives B_j=0; this has
+no conflict with the separate statement about an identically zero
+section. Pair cancellations require the full initial ideal. Additivity
+of Euler characteristic for the finite filtration and Riemann–Roch
+on C=P1 give (14), with sum h_j=m. The primary-decomposition exact
+sequence gives (15); its residual V must retain its actual scheme
+structure and finite attachment. The proper-pair Koszul resolution
+gives chi(O_Y)=-ab(a+b-4)/2. All signs and rank terms are correct.
+Ordinary torsion and the equivalent saturated-divisor budget must not
+be counted twice; that equivalence retains the cited curvilinear scope.
+
+The stopping recommendation withstands review. Retain (13) as a uniform
+requirement on an existence construction. Bare first-graph arithmetic
+and a list of local contact types supply no contradiction or global
+equations. Reopening needs a specified additional geometric control
+of surviving contact or attachment, or an actual global construction
+mechanism. Naming the missing contact-control theorem is not itself a
+selected method. This bounded verification is complete; no further
+campaign is selected and the unrestricted characteristic-zero question
+remains open.

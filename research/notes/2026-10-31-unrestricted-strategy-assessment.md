@@ -810,3 +810,141 @@ support. No material correction remains. Ferrand's proof and the monad
 literature were not independently re-audited by this reviewer. Both source
 workers and the reviewer completed their bounded tasks. No numerical
 computation or canonical promotion was performed.
+
+## 12. Arbitrary-pair roots and the limits of a residual-budget interpretation
+
+The user's subsequent clarification reiterates the purpose of the earlier
+normal, jet, spectral-sequence and asymptotic work: start with actual proper
+intersections containing C, compare multiplicity and singular/attachment
+behavior with the global budgets, and investigate both absorption of R
+onto C and a positive lower bound on R. Those are useful broader questions.
+A local defect is not automatically a residual cost, and a numerical
+budget need not be strict. The root mechanism below was assessed against
+that distinction rather than adopted as a new compulsory lane.
+
+The [all-pair root investigation](2026-10-31-polarization-root-budget.md)
+extends the previous Picard argument to any hypothetical supported CI Z.
+Its polarization H has a unique fourth-root isomorphism class L, with
+`L|C=O_P1(1)`. The full, possibly Z-graded section algebra A is finite
+over its fourth Veronese `B=S/(F,G)`, is Cohen–Macaulay, and has
+`omega_A=A(4(a+b-4))`. The proof uses saturated section modules and the
+explicit finite-group trace pairing, not a normal-domain extension theorem.
+
+Its reduction has normalization k[s,t] with finite vertex defect D.
+The invariant part of D consists exactly of the missing degree-four
+coordinate s²t². Multiplication further forces the image of H0(L) on C
+to be zero or one of the two marked coordinate lines, and the image of
+H0(L²) to have dimension at most one. These are constraints on lifted
+linear series; no nonzero section is forced. They do not contradict the
+known first-neighborhood obstruction or produce a new defining pair.
+
+The existing twisted-cubic (2,3) CI supplies a decisive scope control.
+Its canonical ribbon has a unique cubic polarization root M with
+`h0(M)=0` and `h0(M²)=1`. Its root algebra is Gorenstein with nonnormal
+reduction, whose normalization defect is supported in degrees one and
+two. Thus even global CI duality does not force root sections or normal
+reduction. Its invariant defect is zero: this control does not construct
+the quartic's nonzero invariant defect or settle its realizability.
+
+**Relation to the residual budget:** D is a defect at the affine cone
+vertex. Degree by degree it is the image of the obstruction map into
+`H1(J tensor L^n)`, so it records section extension through nilpotents.
+It is not a term in `ab=4m+deg R`. For the C-primary component of a
+proper intersection with R present, the full section ring need not equal
+the embedded coordinate ring, and the inherited CI adjunction twist is
+not automatic. A comparison with actual attachment/duality data is needed
+before this package can bound R or guide an absorption construction.
+No such comparison has been obtained in this test. The R=0 control shows
+why a generic claim that every vertex defect spills into R would be false,
+while leaving the quartic-specific invariant defect unresolved.
+
+**Recommendation and stopping conditions:** preserve the structural
+package and stop the bare root mechanism. No cover, semigroup or ribbon
+classification is assigned. Reopen only for a specified theorem constraining
+the invariant defect together with its nilpotent extension, an actual
+construction of the required two-relation Veronese, or a justified comparison
+with the residual attachment budget. Merely naming one of these missing
+conditions is not a selected method. A concrete unproved mechanism can
+be tested, but stop when it only recovers root existence, Gorensteinness,
+the fixed missing coordinate or a known section obstruction. Existence
+remains live; no unrestricted exclusion or positive residual floor follows.
+
+A fresh `gpt-6.1-sol/high` reviewer independently checked the deductions
+and control, repaired the trace-extension justification, and caught an
+incorrect affinization description: the affine reduced root model retains
+D, whereas affinizing its puncture removes D. The preserved note now
+distinguishes these operations. The [completed artifact audit](2026-10-31-polarization-root-budget-audit.md)
+covers the corrected statement, its boundary-map interpretation, and this
+recommendation; no material finding remains unresolved within that scope.
+The source/retrieval workers completed their bounded assignments; no
+numerical computation or canonical promotion was performed.
+
+## 13. Normal-order extraction and a uniform contact requirement
+
+The user's pointwise normal-order proposal leads back to an existing
+intrinsic construction, not a need for new local classifications. The
+[October 26 filtration note](2026-10-26-normal-torsion-spectral-genus-budget.md)
+already associates a saturation-defect divisor to every degree of the
+full initial ideal. Its ordinary torsion and saturated-divisor accounts
+are equivalent under the stated curvilinear hypotheses. They must not
+be counted as separate costs. For a single generically nonzero symbol,
+the common coefficient zeros also define a divisor; an identically zero
+symbol calls for a higher generic order, rather than a Cartier zero divisor.
+Fiberwise coefficient vanishing and stalk normal order remain distinct.
+
+The [new extraction, §§8–9](2026-10-28-residual-degree-blowup-bounds.md)
+places these divisors beside the full-primary genus and attachment
+identities and draws a degree-independent consequence of the **inherited**
+actual-pair graph inequality. If a supported pair has generic multiplicity
+m and exact chosen-equation orders r,s, then
+
+\[
+\frac{m-rs}{m}\ge\frac{16\sqrt{15}-30}{49}\simeq0.6524027.
+\]
+
+The numerator is the horizontal exceptional contact remaining after the
+first blowup. Thus a successful construction needs substantial repeated
+normal contact; a transverse initial intersection cannot suffice. The
+constant's reciprocal appeared earlier for a different conditional
+relation-order ratio. The contribution here is its uniform actual-pair
+interpretation, not a new basic inequality or a publication-novel constant.
+For a general proper pair, the same extraction gives a residual-fraction
+bound when its stated right side is positive.
+
+**Effect on strategy:** this supplies concrete asymptotic search guidance
+of the kind the user intended. It also identifies a limitation: the
+degree budget sees generic contact, while point defects and attachment
+enter the constant term of the Hilbert polynomial. The full normal
+filtration and actual residual scheme are needed to compare those budgets.
+Neither an Euler-characteristic identity nor the first graph's nef cone
+supplies a universal upper limit on the surviving contact. The preceding
+root-algebra defect likewise has no established conversion into residual
+degree. These approaches now have useful objects and necessary conditions,
+but no additional strictness theorem or global equation construction.
+
+**Recommendation before another round:** retain the contact fraction and
+intrinsic divisors as filters and measurements for an actual global
+construction or a proposed all-pair comparison. Do not initiate another
+local-type enumeration, a first-blowup numerical sweep, or a sequence of
+root-algebra examples. Existence remains live: a specified mechanism that
+creates the required contact and absorbs the full residual is worth a
+bounded test even before its success is known. Nonexistence requires an
+additional uniform restriction on actual pairs; a restricted obstruction
+without an exhaustive reduction cannot supply it. No such new mechanism
+is selected by this extraction alone.
+
+**Stopping conditions:** stop a follow-up if it only recomputes the
+inherited graph bound, renames a saturation defect, writes an equivalent
+genus/attachment identity, or realizes formal contact without a specified
+global lifting argument. Reopen for a concrete new geometric comparison
+or construction and identify its first falsifiable implication before
+assigning work. This is a continuing selection rule, not a requirement to
+prove a conjectured mechanism before investigating it. The unrestricted
+characteristic-zero STCI question remains open.
+
+A fresh `gpt-6.1-sol/high` reviewer independently checked the numerical
+extraction, normal-symbol distinctions and genus scope, and challenged
+the stopping recommendation. Its artifact-review addendum is linked in
+the [existing graph audit](2026-10-28-residual-degree-blowup-audit.md).
+This bounded review reuses the previously reviewed graph theorem and
+filtration identities; it does not rerun them or promote any result.

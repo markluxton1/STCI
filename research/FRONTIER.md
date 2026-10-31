@@ -2,9 +2,30 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: finite-pullback source closed by a lifting theorem
+## Current checkpoint: arbitrary-pair roots and normal-contact budgets
 
-The [finite-pullback theorem](notes/2026-10-31-finite-pullback-lifting.md)
+The [polarization-root investigation](notes/2026-10-31-polarization-root-budget.md)
+and [normal-order extraction, §§8–9](notes/2026-10-28-residual-degree-blowup-bounds.md)
+are complete and independently reviewed, with provisional status. The
+first gives an all-pair root-algebra structure and reduced-section bounds,
+but no theorem converting the cone-vertex defect into residual degree.
+The second extracts a uniform requirement from the inherited graph bound:
+at least 65.2 percent of a hypothetical STCI's generic multiplicity must
+remain as horizontal exceptional contact after the first blowup. The
+pointwise normal divisors and genus identities are retrieved evidence,
+with the full residual scheme and attachment retained.
+
+The [assessment, §§12–13](notes/2026-10-31-unrestricted-strategy-assessment.md#12-arbitrary-pair-roots-and-the-limits-of-a-residual-budget-interpretation)
+compares the constructive and exclusion implications. Stop the bare root
+mechanism and first-graph arithmetic here; no cover, local-type or
+numerical enumeration is assigned. A further round needs a specified new
+comparison controlling actual higher contact/attachment or a global
+construction creating it. Naming the missing implication alone does not
+select a method. The unrestricted characteristic-zero question remains open.
+
+## Completed source and mechanism tests
+
+The earlier [finite-pullback theorem](notes/2026-10-31-finite-pullback-lifting.md)
 excludes every finite endomorphism of P3 whose inverse image of a twisted
 cubic has reduced support C0, in characteristic different from three.
 The proof uses the full thickening's polarization root, section lifting
