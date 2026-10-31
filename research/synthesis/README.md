@@ -64,6 +64,10 @@ The [formal-normal ideal-power theorem](formal-normal-intersection.md#12-what-th
 
 The [detailed source calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) computes eleven actual sextic leading-symbol equations and gives a division-free four-equation test for the unique possible cubic correction. The correction map has constant rank sixteen and a twenty-four-dimensional quotient obstruction. A specified smooth seed passes the leading-symbol equations but fails the cubic comparison by an exact nonzero pairing. The [frontier](06-frontier.md#611c-the-finite-616-incidence-after-the-cubic-simplification) describes the remaining joint incidence with second obstructions and full-root torsion. Neither the failed seed nor the source calculation excludes the entire family.
 
+## Numerical screening before a source computation
+
+For a proper pair with sole support the degree-four curve, \(4\mid de\), equivalently \(4/\gcd(4,d)\mid e\). This is only a necessary degree filter; if a residual curve exists, \(de=4m+\deg R\). See [the exclusion chapter](05-exclusions.md#54-a-useful-degree-five-consequence) and [Chapter 2](02-two-surfaces.md#23a-the-exact-divisibility-condition-when-residual-degree-vanishes).
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
