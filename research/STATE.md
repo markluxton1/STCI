@@ -2,6 +2,12 @@
 
 **Current reading route:** [canonical results](results/INDEX.md) govern precise statements; [mathematical synthesis](synthesis/README.md) explains the integrated work; [dependencies](synthesis/DEPENDENCIES.md) distinguish proved implications from open bridges; [frontier](FRONTIER.md) identifies current research programs. Dated activity sections below are historical snapshots. The unrestricted characteristic-zero STCI question remains open.
 
+## Positive-characteristic existence and a fully classified binomial test family
+
+The original accepted P-008 and P-012 proofs in [the research record](RESEARCH_RECORD.md) establish positive-characteristic existence: for the fixed monomial quartic there are explicit \((3,4)\) and \((4,4)\) pairs in characteristics three and two, respectively; every smooth nondegenerate rational quartic over an algebraically closed field of characteristic \(p>0\) has a \((3,4p)\) presentation. These are existence statements, not degree-minimality theorems.
+
+The [integrated binomial calculation](synthesis/01-problem-and-curve.md#12d-necessity-of-the-frobenius-exponent-and-all-reduced-components) further classifies the restricted family \(F=x_1^4-x_0^3x_3\), \(G=x_2^n-x_0^ax_1^bx_3^c\) with exponent-compatible nonnegative \(a,b,c\): in characteristic \(p\), \(n=p^rm\), \(p\nmid m\), the reduced intersection has exactly \(m\) quartic components, each with generic multiplicity \(p^r\); distinct components meet at the endpoints with lengths three and one. Thus sole support occurs precisely when \(n\) is a \(p\)-power. Characteristic five first admits \(n=25\) **inside this family**. These new synthesis calculations have not been separately promoted to canonical result records; the unrestricted characteristic-zero STCI question remains open.
+
 ## Research activity snapshot — October 27, 2026
 
 The October 24 intrinsic-geometry interlude is a preserved historical phase, not an accurate description of all subsequent activity. Research has since resumed on complete-intersection cycles, normal filtrations, weighted initial ideals, and boundary obstructions. The October 26–27 notes linked in [research navigation](INDEX.md) are **provisional evidence**, not automatically promoted theorems. The unrestricted characteristic-zero STCI question remains open. See [current frontier](FRONTIER.md) and [authority rules](AUTHORITY.md).
