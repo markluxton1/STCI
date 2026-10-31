@@ -71,6 +71,10 @@ This failure is not the local comparison defect \(\Delta_n\) of R-0030, not a no
 
 The quadratic-symbol image for sextics is a proper rank-22 subspace of a 33-dimensional target. For a nonzero quadratic root, the next cubic correction map is injective with sixteen source coefficients and forty target coefficients; the obstruction lies in a twenty-four-dimensional quotient. This replaces the previously proposed correction-matrix rank stratification. The full-root torsion, multiplier-zero and singular-root loci, second-obstruction pairings, and actual mate realization remain separate tests. None of these global-source conditions identifies the punctual local comparison module.
 
+## The cubic quotient has a coefficient presentation
+
+The 24-dimensional cubic quotient obstruction has a direct presentation: for \(f=au^2+buv+cv^2\), require \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\) with two degree-at-most-seven correction polynomials. Injectivity for \(f\ne0\) gives uniqueness of any solution, while the undivided equations remain meaningful at singular roots. See [the coefficient-level calculation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination). These global jet conditions do not compute the local filtered equation-module defect.
+
 ## The global-source gap
 
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
