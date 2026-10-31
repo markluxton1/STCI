@@ -113,6 +113,12 @@ The proper synthesis is therefore:
 Next: [the surviving frontier](06-frontier.md); [logical dependency map](DEPENDENCIES.md).
 
 
+## 5.7A Characteristic change is not a counterexample to the exclusion
+
+The integral quartic pair \(x_1^4-x_0^3x_3\), \(x_2^4-x_0x_3^3\) has sole reduced support on the fixed quartic in characteristic two but additional reduced components in characteristic zero [R-0021](../results/quartic_mu4_degeneration.md). Its special-fiber fourth initial equation is cancellation-generated, with zero local equation-module comparison defect [R-0031](../results/quartic_char2_fourth_equation_kernel.md). The prescribed embedded lift obstruction [R-0012](../results/quartic_z4_lift_obstruction.md) has narrower hypotheses than a claim about arbitrary lifts or arbitrary quartic pairs.
+
+Thus neither the existence of a special-characteristic STCI nor flatness of the displayed integral pair contradicts the characteristic-zero carrier exclusion. The relevant invariant is the actual generic support of the pair, not only the Hilbert polynomial or its special normal symbols.
+
 ## 5.8 The (4,4) laboratory is not a surviving STCI degree case
 
 For two quartic equations, Bézout gives total cycle degree sixteen. If the generic multiplicity along the degree-four curve is \(m_C=3\), the residual cycle has degree (16-12=4). The reviewed explicit constructions and their audits in [multiplicity and genus budgets](../supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md) exhibit a genuine residual quartic and study moving \(A_2\) singularities of pencil members. This is valuable information about residual geometry, not a counterexample to R-0001.
