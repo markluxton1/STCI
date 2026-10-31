@@ -2,7 +2,31 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current exploratory focus: an adversarial search for actual STCI equations
+## Current exploratory focus: geometric compatibility for arbitrary pairs
+
+The [October 30 research integration](notes/2026-10-30-four-streams-integration.md)
+records the current user-directed priority: geometric arguments advancing
+the unrestricted characteristic-zero question, informed by literature and
+the historical equation search. The two hyperosculating planes and Q are
+simultaneous test surfaces for arbitrary defining equations. Their full
+restriction schemes leave transverse thickness undetermined; the plane
+pencil and multiplication by q retain the missing normal action. A first
+trace shortcut has an explicit counterexample. These independently reviewed
+proposals give no unrestricted existence or nonexistence theorem.
+
+The open target is a global compatibility constraint or construction for
+arbitrary higher supported structures. The affine endpoint multiplicity
+criterion and finite-cover nilpotence criterion are exact formulations,
+not completed obstructions. Further case lists or higher-moment scans need
+a uniform geometric principle before substantial effort is allocated.
+Alternative directions remain available; neither formulation is a
+compulsory agenda.
+
+## Earlier equation-search agenda and unresolved tests
+
+The following paragraphs preserve the preceding search's source choices
+and next tests. Their current/next language describes that stage, rather
+than overriding the current selection criterion above.
 
 The user-directed question is **“If C were a STCI, how would we find it?”** The [adversarial research game](STCI_GAME.md) now makes both programs explicit: the existence side develops actual constructions, while the non-existence side independently seeks the largest excluded classes and the general principles behind results and examples. Both may use all research and pursue side questions; refuting the current construction is only one part of the obstruction program. The [search record](STCI_SEARCH.md) retains equation sources, exact tests and evidence. Every result must update the common understanding of the unrestricted question.
 

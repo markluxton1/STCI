@@ -214,18 +214,66 @@ valuation direction. A strict endpoint inequality for **every** affine
 supported pair would prove nonexistence; one equality pair would prove
 existence. Neither has been obtained.
 
+## Fourth integration: the two planes and Q as simultaneous test surfaces
+
+The user clarified that the two hyperosculating planes should constrain
+the actual defining surfaces together with Q, rather than serve only as
+an affine cover. The [fixed-surface investigation](2026-10-30-fixed-surface-configuration.md)
+and [independent audit](2026-10-30-fixed-surface-configuration-audit.md)
+retain that full configuration. A fresh `gpt-6-astra/ultra` researcher
+developed it; a separate `gpt-6.1-sol/high` reviewer reconstructed the
+proofs. Both assignments ended at the stated mathematical stopping point.
+
+Three conclusions change the next test:
+
+1. For every r>=2, the proper pairs
+   `(c0^r,c2^r)` and `(c0^r,c2^r+q*x0^(3r-3)*x3)` have identical
+   actual equations on `D=Q union V(x0) union V(x3)`, including overlaps,
+   yet generic thickness r^2 and r along C. For even r their degree
+   products also satisfy the necessary divisibility by four. Thus the
+   full fixed-surface schemes do not determine transverse thickness.
+   This does not say that those fixed data have any STCI lift.
+2. Every proper containing pair satisfying the two endpoint-plane
+   conditions gives the finite flat projection `[x0:x3]`, of degree ab,
+   with module `E = direct sum O(-i-j)` for 0<=i<a and 0<=j<b.
+   Multiplication by q is a map `N:E -> E(2)`. The quadric intersection
+   is its cokernel; under the common-Q-support condition, STCI is exactly
+   nilpotence of N. This is a standard criterion applied to the entire
+   pair, with no degree or carrier restriction. The algebra multiplication
+   and its realization by the actual equations remain essential.
+3. A tempting first-trace obstruction fails. The explicit proper pair
+   `F=x1^4-x0^3*x3+q*x1*x2`,
+   `G=x2^4-x0*x3^3+2*q*x1*x2` satisfies all three boundary-support
+   conditions and has identically zero trace(q), but at x3/x0=1 its
+   characteristic polynomial is `(T^4-T^2+T)^4` and trace(q^2)=8.
+   Its residual sheets cancel in the first trace. The general first
+   trace depends only on the two layers below the leading fiber forms,
+   as proved by deformation and the Jacobian-weighted residue identity
+   of [Cattani–Dickenstein–Sturmfels](https://arxiv.org/abs/alg-geom/9404011).
+
+The last example tests an unrestricted proposed implication; it is not
+another quartic exclusion. No higher-moment parameter scan is initiated.
+The simultaneous fixed surfaces remain useful because they identify the
+actual normal action that a complete compatibility argument must control.
+Nilpotence is an exact formulation, not a new obstruction by itself.
+
 ## State at this integration checkpoint
 
-The four retained proof notes and four independent audits preserve the
-actual progress and failures. Retired duplicate arguments generated no
-additional retained proof notes. Main and the consolidated branch have not
-been modified. The research branch contains these proposals and a short
-index link; no result has been promoted.
+The retained proof notes and independent audits preserve the actual
+progress and failures. Retired duplicate arguments generated no additional
+retained proof notes. Main and the consolidated branch have not been
+modified. The research branch contains these proposals and navigation
+updates; no result has been promoted.
 
 The characteristic-zero STCI objective remains unresolved and active. The
-next substantive investigation is simultaneous endpoint compatibility of
-arbitrary **higher** affine supported structures, retaining full nonlinear
-transitions and the actual fixed ambient twists. Further work should aim
-for an all-pairs inequality or an actual equality construction. Repeating
-the reduced determinant obstruction, a fixed-carrier calculation, or a
-first-normal valuation calculation would not complete that task.
+remaining geometric target is simultaneous compatibility of arbitrary
+**higher** supported structures with both endpoint planes and Q, retaining
+full nonlinear transitions, normal multiplication and the actual ambient
+twists. The affine endpoint criterion asks for a strict multiplicity
+inequality for every affine supported pair, or one equality construction;
+the finite-cover criterion asks whether an actual homogeneous pair can
+realize the required nilpotent algebra. Neither bridge is proved.
+Repeating the reduced determinant obstruction, extending a fixed-carrier
+calculation, or testing successively more trace moments without a uniform
+principle would not complete that task. Literature and existing evidence
+must be checked before selecting the next substantial direction.
