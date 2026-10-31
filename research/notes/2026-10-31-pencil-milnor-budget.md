@@ -4,6 +4,11 @@ Date: 2026-10-31. Status: independently reviewed provisional deduction;
 proof, strategy challenge and written-preservation reviews pass. No canonical
 promotion or unrestricted STCI exclusion is asserted.
 
+**Subsequent comparison:** §6 proves that a stronger universal local
+inequality already implies the displayed polar bound for C0. The
+global proof and special-point identity remain valid; the inequality
+adds no transverse restriction for this quartic.
+
 ## 1. Statement and relation to arbitrary defining pairs
 
 Let C be a smooth connected curve of degree d and genus g in P3
@@ -161,11 +166,12 @@ The leading coefficient in (8) is the asymptotic total of these
 nonnegative special-point defects. Pairwise contact supplies m,
 while the embedded curve contributes its normal degree.
 
-This is a necessary condition on every supported construction,
-and is new to the inspected project record. No claim of priority
-in the literature, or independence from every earlier normal-budget
-inequality, is made. In particular, no comparison identifies mu
-with the repository's first normal orders or higher contact.
+This necessary condition was new to the inspected project record
+at extraction, without a claim of literature priority or logical
+independence from earlier budgets. The subsequent §6 identifies
+its exact transverse cluster meaning and proves that it adds no
+restriction for C0. Comparison with the full global normal-layer
+degrees and torsion remains separate.
 
 The inequality does not force a contradiction. Base length alone
 does not force mu close to m: in the local parameter ideal
@@ -205,3 +211,148 @@ the final reviewer reused that independent evidence. Earlier
 assessment and unrelated ledger/frontier content were outside
 the written review. All bounded assignments are complete, and
 their contexts are retired from further research.
+
+## 6. Cluster interpretation and a stronger local bound
+
+This continuation assesses the actual force of (1), rather than
+classifying transverse types. Independent proof, strategy and
+written-preservation reviews pass at provisional scope.
+
+Work at the geometric generic point of C, after completion and
+extension of k(C) to its algebraic closure. Let I=(P,Q) be the
+resulting parameter ideal in a two-dimensional regular local ring R,
+and let J be its integral closure. Then
+\[
+m=\ell(R/I)=e(I)=e(J).
+\]
+Principalize by point blowups, and write n_p for the positive
+base-cluster multiplicities, including the origin. If b is the
+number of geometric branches of a general pencil member, then
+\[
+m=\sum_p n_p^2,\qquad
+\mu=\sum_p n_p(n_p-1)-b+1,\qquad
+T:=m+1-\mu=\sum_p n_p+b.                              \tag{9}
+\]
+Here m is the multiplicity of J, not its colength:
+the latter is sum binomial(n_p+1,2).
+[D'Cruz, Theorem 1.2](https://arxiv.org/pdf/math/0603211)
+states the residue-weighted Hoskin–Deligne formula.
+[Bondil, Proposition 2.2, formula (3), Lemma 3.4 and Remark 4.2](https://arxiv.org/pdf/math/0304040)
+give the general-element and reduction comparison. They justify
+using a general member of the actual two-section pencil, without
+replacing it by an unrelated complete linear system.
+
+There is an intrinsic formulation on the same resolution:
+\[
+I\mathcal O_X=\mathcal O_X(-Z),\quad
+Z=\sum_i\rho_iE_i,\quad E_{\rm red}=\sum_iE_i,\quad
+\varepsilon_i=-Z\cdot E_i\ge0.
+\]
+Nonnegativity holds because the resolved pencil generates
+O_X(-Z). Its restriction to E_i has degree epsilon_i when
+nonconstant; these are the dicritical components. A general
+member meets them in b=sum epsilon_i transverse points.
+With K=K_{X/R} and A_i=1+coeff_Ei(K), intersection gives
+\[
+\boxed{\quad
+m=-Z^2=\sum_i\varepsilon_i\rho_i,\qquad
+T=-Z\cdot(K+E_{\rm red})=\sum_i\varepsilon_iA_i.
+\quad}                                                \tag{10}
+\]
+Indeed, -Z.K=sum n_p and -Z.E_red=b, equivalently Bondil's
+Milnor formula gives the second equality directly. T measures
+log discrepancies weighted by the degrees of the maps from
+exceptional divisors to the pencil. It is not a residual degree.
+
+If c=lct(I), the log-resolution formula and (10) imply
+\[
+c=\min_i{A_i\over\rho_i}\le {T\over m}.
+\]
+The minimum retains divisors with epsilon_i=0; they can compute
+the threshold even though they do not contribute to (10).
+[de Fernex–Ein–Mustaţă, Theorems 0.1 and 1.2](https://arxiv.org/pdf/math/0205171)
+give mc^2>=4 in this smooth two-dimensional local setting.
+Their treatment includes generic points, completion and
+residue-field extension. Consequently
+\[
+\boxed{\quad 4\le mc^2\le T^2/m,\qquad
+T=m+1-\mu\ge2\sqrt m.\quad}                            \tag{11}
+\]
+This is a universal local statement, independent of a projective
+curve or the existence of global equations.
+For an arbitrary primary ideal the same statement uses m=e(I)
+and a general two-generator reduction, not m=length(R/I).
+
+For geometric interpretation in the point cluster, the proximity
+excess is epsilon_p=n_p-sum_{q proximate to p} n_q.
+A nonorigin point is free if proximate to one predecessor and
+satellite if proximate to two. Thus
+\[
+b=n_0-\sum_{\text{satellite }p}n_p,\qquad
+T=2n_0+\sum_{\substack{p\ne0\\p\ {\rm free}}}n_p.
+\tag{12}
+\]
+Satellite multiplicities still affect m and mu; they cancel in
+this expression for T. Without geometric generic base change,
+the sums require the corresponding residue degrees. Variation
+and ramification of these centers over C are additional global
+data, not terms silently included in this generic formula.
+The discriminant multiplicity of the transverse finite map
+(P,Q) is mu+m-1=2m-T, not T; see Bondil, Lemma 4.1 and
+Corollary 4.4.
+
+For the projective setup, (11) gives T>=2D/sqrt(d).
+It already implies (1) whenever
+\[
+\deg N_C\le2d^{3/2}.                                  \tag{13}
+\]
+For C0, 14<16, so T>=D is strictly stronger than T>=7D/8.
+The polar inequality therefore supplies no additional restriction
+on hypothetical supported quartic pencils.
+
+There is an immediate comparison with the inherited global graph
+bound. Choose two general members, both of order q=n_0. Their
+contact surviving the first blowup is
+\[
+m-q^2=\sum_{p\ne0}n_p^2.
+\]
+The [existing bound, §8](2026-10-28-residual-degree-blowup-bounds.md#8-october-31-extraction-a-uniform-amount-of-contact-survives-the-first-blowup)
+requires this to be at least 0.6524027... times m for a supported
+quartic pair. It constrains a quadratic cluster total, whereas
+T is a linear total. Neither formula identifies T with the
+global normal-filtration degrees or point torsion.
+
+For completeness, equality in (11) forces J to be a power of
+the maximal ideal by de Fernex–Ein–Mustaţă, Theorem 1.4.
+For C0 it would give q=D/2 and m=q^2, contradicting the
+inherited graph bound. Hence a hypothetical supported quartic
+pencil has T>D, and T>=D+1 since D is even. This strictness is
+a combination with the already known global result; it is
+not an independent new obstruction.
+
+The continuing strategy decision is to stop this Milnor-budget
+lane. Preserve the transverse valuation interpretation and the
+valid global special-point identity, but do not use the weaker
+polar inequality to motivate a local classification. Further
+progress needs control of actual homogeneous realization or of
+global cluster/branch variation beyond these generic formulas.
+
+**Independent continuation review.** Reviewer
+milnor_local_force_review, fresh gpt-6.1-sol/high, independently
+reconstructed the identities, threshold comparison, field scope,
+proximity formulas and strict inherited-graph corollary. It also
+checked the local realization sources and the stopping decision.
+The final written review covered §6, the new top/§4 qualifications,
+assessment §37 and §36's scope correction, and matching navigation
+and ledger changes. No material correction was required.
+
+Reviewed states before review metadata:
+
+    This note: 70b2940c21a2be77255b257731e81b8cbf6f6b7b7219c1ebf7c91942c58d313f
+    Assessment: 1f9c64f315ab202b0b44d4a2cf82ae0d0f32be93d82e3562bb903044524dc396
+    Ledger: 731b87dea0c892c2677c7ba7bc5477294ced0588896c2c0b5a9e2993119e28fe
+
+The cluster scout used fresh gpt-6-astra/xhigh and the constructive
+applicability scout fresh gpt-6.1-sol/high. All three bounded
+assignments are complete and their contexts retired. No nested
+delegation, computation campaign or canonical promotion occurred.

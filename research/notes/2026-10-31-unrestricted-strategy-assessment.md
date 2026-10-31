@@ -3495,6 +3495,9 @@ support-preserving torus limits. It yielded one new all-pair
 necessary inequality, rather than another singularity classification.
 The [pencil proof](2026-10-31-pencil-milnor-budget.md) is provisional;
 independent proof challenge and written-preservation review pass.
+The subsequent §37 comparison shows that its inequality is already
+implied by a stronger local bound for C0. This section records the
+initial extraction, not an additional surviving quartic constraint.
 
 **New geometric implication.** For any smooth connected support C
 of degree d and genus g, equalize a hypothetical defining pair to
@@ -3577,3 +3580,89 @@ or computation campaign occurred. The final written review found
 no material correction; [source §5](2026-10-31-pencil-milnor-budget.md#5-independent-review)
 preserves its exact states and scope. The assignments are complete
 and their contexts retired. No canonical status change follows.
+
+## 37. The Milnor inequality is locally automatic for C0
+
+The next comparison resolves the previously explicit uncertainty
+about the force of §36. The global polar proof is valid, but its
+inequality adds no transverse restriction for the quartic. The
+[pencil-note §6](2026-10-31-pencil-milnor-budget.md#6-cluster-interpretation-and-a-stronger-local-bound)
+preserves the exact local geometry and proof.
+
+At the geometric generic point of C, let I=(P,Q) be the parameter
+ideal and principalize it as I O_X=O_X(-Z), with
+Z=sum rho_i E_i. Put epsilon_i=-Z.E_i>=0 and let A_i be the
+log discrepancy. The original pencil gives the morphism on this
+resolution; epsilon_i is its degree on a dicritical divisor.
+For T=m+1-mu, the exact identities are
+\[
+m=\sum_i\varepsilon_i\rho_i,\qquad
+T=\sum_i\varepsilon_iA_i.
+\]
+Thus T/m is a weighted average of discrepancy/order ratios,
+at least the log canonical threshold c. Combining this with
+the published local inequality mc^2>=4 gives
+\[
+T\ge2\sqrt m.
+\]
+For C0 this is T>=D, stronger than the global bound T>=7D/8.
+The same redundancy holds whenever deg N_C<=2d^(3/2).
+This comparison is uniform; it does not enumerate valuations.
+
+The base-cluster formulas also make the user's normal-direction
+picture precise: m=sum n_p^2, while
+T=sum n_p+b=2n_0+sum of n_p at nonorigin free points.
+Here b counts geometric branches. Satellite multiplicities cancel
+in this last linear expression, although they still contribute
+to contact. Residue degrees are retained by geometric generic
+base change. The existing first-blowup bound controls instead
+the quadratic total sum_{p!=0} n_p^2. Combining that inherited
+bound with the equality case of the local theorem gives T>D,
+or T>=D+1 for a hypothetical quartic pencil. This is an existing
+global restriction combined with local theory, not extra force
+from the polar argument.
+
+**Constructive input exists locally.**
+[Lipman–Watanabe, Theorem 1.1 and Corollary 1.1.2](https://www.math.purdue.edu/~jlipman/papers/2dmult.pdf)
+construct complete transverse ideals from antinef exceptional
+divisors. [Verma, Theorem 2.1 and Corollary 2.2](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/94C4B0C472F46CD24566F28AD01D4FB0/S0027763000003044a.pdf/joint_reductions_of_complete_ideals.pdf)
+supplies local two-element reductions. These preserve the integral
+closure and multiplicity, not an arbitrarily specified full
+parameter algebra.
+
+Campillo–Greuel–Lossen provide equisingular parametrization/equation
+deformations with actual algebraic representatives; see
+[Theorems 2.7 and 2.10](https://arxiv.org/pdf/math/0511407) and
+[Theorem 4.2, Remark 4.3(4)](https://arxiv.org/pdf/math/0701002).
+Their local constructive content must not be dismissed as only
+formal. It supplies no homogeneous degree-D sections along the
+fixed embedded quartic or control of their common zeros elsewhere.
+Two separate local realizations also need not form the required
+global pencil.
+
+After global principalization of a proposed ideal K, the needed
+operation would produce a basepoint-free pencil in
+pi*O_P3(D) tensor O_X(-E), while retaining the selected transverse
+reduction. Relative local generation does not do this. Increasing
+D alone changes D^2=4m, so generation by many sections at large
+twist is no automatic support-preserving two-section construction.
+No such global operation is supplied by the checked sources.
+
+**Recommendation.** Stop the Milnor-budget lane with its corrected
+scope and retain its exact special-point identity and valuation
+interpretation. Do not classify clusters to pursue an inequality
+already true locally. A new selection needs an actual global
+construction, or control of cluster and branch variation over C
+that constrains the homogeneous equations beyond these generic
+formulas. Both existence and nonexistence remain open.
+
+The cluster comparison used a fresh gpt-6-astra/xhigh context;
+the constructive applicability check and separate independent
+proof/strategy review used fresh gpt-6.1-sol/high. The reviewer
+reconstructed the local formula, inequality, proximity identities
+and strictness corollary. No nested delegation, valuation sweep
+or code execution was used. Written-preservation review passes;
+[source §6](2026-10-31-pencil-milnor-budget.md#6-cluster-interpretation-and-a-stronger-local-bound)
+records the exact reviewed states and scope. All three bounded
+assignments are complete and their contexts retired. These
+deductions remain provisional; no canonical status changes.

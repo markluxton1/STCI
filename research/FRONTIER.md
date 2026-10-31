@@ -158,14 +158,16 @@ route supplies an upper contact capacity or new global equations,
 and no further classification is selected.
 
 The [pencil-union checkpoint, §36](notes/2026-10-31-unrestricted-strategy-assessment.md#36-pencil-unions-give-a-normal-degree-milnor-bound-orbit-closure-supplies-no-presentation)
-extracts a necessary generic transverse Milnor bound for every
-supported pair, after degree equalization. Its general smooth-curve
-form uses the degree of the normal bundle; all special-point
-vanishing cycles are retained. Proof and written-preservation reviews
-pass at provisional scope. No conflicting universal lower
-bound or equation construction is supplied. Torus/Hilbert closure
-and GIT do not provide preservation of the required presentation,
-and no further classification is selected.
+gives a valid general smooth-curve Milnor inequality and special-point
+identity. Its [local comparison, §37](notes/2026-10-31-unrestricted-strategy-assessment.md#37-the-milnor-inequality-is-locally-automatic-for-c0)
+now proves that a stronger universal local bound already implies
+the inequality for C0. The exact cluster/dicritical interpretation
+is retained; the polar bound supplies no extra quartic constraint.
+Local transverse equations and algebraic equisingular deformations
+are constructible, but the checked sources do not produce the fixed
+homogeneous pencil. Proof and written-preservation reviews pass
+at provisional scope. Torus/GIT closure also fails to preserve the required
+presentation, and no further classification is selected.
 
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 

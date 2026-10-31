@@ -1092,7 +1092,35 @@ use the following primary statements at their exact scopes:
   linear systems with common hypersurface factors.
 
 These sources yield the preserved all-pair Milnor inequality.
-No torus-boundary or singularity classification is selected.
+The subsequent comparison below shows that it is already implied
+by a stronger local bound for C0. No torus-boundary or singularity
+classification is selected.
+
+## Milnor numbers, dicritical degrees and local realization
+
+[Pencil-note §6](notes/2026-10-31-pencil-milnor-budget.md#6-cluster-interpretation-and-a-stronger-local-bound)
+and [assessment §37](notes/2026-10-31-unrestricted-strategy-assessment.md#37-the-milnor-inequality-is-locally-automatic-for-c0)
+resolve the force of the preceding bound.
+
+- [Bondil, Proposition 2.2, formula (3), Lemma 3.4 and Remark 4.2](https://arxiv.org/pdf/math/0304040)
+  identify general elements of the actual reduction pencil and
+  their resolution-theoretic Milnor number. Lemma 4.1 and
+  Corollary 4.4 give discriminant multiplicity mu+m-1, not m+1-mu.
+- [D'Cruz, Theorem 1.2](https://arxiv.org/pdf/math/0603211)
+  states the residue-weighted Hoskin–Deligne colength formula.
+  The parameter-ideal length is the complete ideal's multiplicity,
+  sum n_p^2, rather than its colength.
+- [de Fernex–Ein–Mustaţă, Theorems 0.1, 1.2 and 1.4](https://arxiv.org/pdf/math/0205171)
+  give the local threshold/multiplicity inequality and equality
+  case. Combined with the dicritical-degree identity for m+1-mu,
+  they yield m+1-mu>=2sqrt(m), stronger than the polar bound for C0.
+- [Lipman–Watanabe, Theorem 1.1 and Corollary 1.1.2](https://www.math.purdue.edu/~jlipman/papers/2dmult.pdf)
+  and [Verma, Theorem 2.1 and Corollary 2.2](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/94C4B0C472F46CD24566F28AD01D4FB0/S0027763000003044a.pdf/joint_reductions_of_complete_ideals.pdf)
+  construct complete local ideals and two-element reductions.
+  [Campillo–Greuel–Lossen, Theorems 2.7 and 2.10](https://arxiv.org/pdf/math/0511407)
+  and [Theorem 4.2, Remark 4.3(4)](https://arxiv.org/pdf/math/0701002)
+  provide local equisingular deformations and algebraic representatives.
+  None supplies the fixed-polarization global two-section pencil.
 
 ## October 21 accepted-interface references
 
