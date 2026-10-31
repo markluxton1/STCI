@@ -25,6 +25,16 @@ provisional work; it does not exclude arbitrary sextic pairs. The
 [selection and stopping assessment, §17](notes/2026-10-31-unrestricted-strategy-assessment.md#17-a-concrete-elementary-modification-and-the-end-of-its-bounded-test)
 retains the genuine constructive input and stops automatic degree expansion.
 
+Its [intrinsic continuation](notes/2026-10-31-punctual-quadric-lifting.md)
+constructs an explicit cohomological comparison with the Picard obstruction
+on the doubled quadric. It also computes Pic(nQ) uniformly in all
+characteristics and constructs arbitrary ruling-class MCM extensions
+free away from one prescribed point. This prevents a bare Picard
+imbalance from serving as an unrestricted obstruction once nonfree
+defects are retained; the actual homogeneous presentation and equation
+column still impose unexamined conditions. The work is independently
+reviewed and provisional, with no canonical promotion.
+
 The [subsequent mechanism comparison](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils)
 checks birational transport, complement pencils and homogeneous bundle
 amplification. It separates preservation of transverse thickness, an

@@ -1372,3 +1372,77 @@ Final assessment review: **PASS** by
 test. The reviewed final wording retains all correction quartics,
 the positive bundle construction, the ramification qualifications and
 the absence of an automatic next-degree campaign.
+
+## 18. Intrinsic normal obstruction, finite-thickening Picard groups, and punctual extension
+
+The next selection asked whether the preceding global correction gap
+could constrain arbitrary defining pairs. A fresh `gpt-6-astra/xhigh`
+worker checked the intrinsic Picard/Atiyah interpretation and the
+existing multiple-quadric matrix counterexample. A fresh
+`gpt-6.1-sol/high` reviewer independently reconstructed the resulting
+uniform theorem and its characteristic comparison. A separate
+`gpt-6-luna/high` retrieval worker checked only the status and scopes of
+the six untracked quintic/nonnormal notes in the shared checkout; their
+different carrier sources were not incorporated or modified.
+
+The [new note](2026-10-31-punctual-quadric-lifting.md) and its
+[audit](2026-10-31-punctual-quadric-lifting-audit.md) establish three
+connected statements, by standard lifting methods with explicit proofs:
+
+1. For every finite n≥2, Pic(nQ)→Pic(Q) is injective. Its
+   characteristic-zero image is exactly the diagonal. In characteristic
+   p>0, the image consists of O_Q(a,b) with p^e dividing a−b, where p^e
+   is the least p-power at least n. Frobenius supplies the extensions
+   through that order; a nonzero Frobenius image of the first Čech
+   obstruction prevents the next order. This is one uniform statement,
+   not a prime or thickness enumeration.
+2. In every characteristic, every ruling class on Q admits a rank-one
+   MCM extension to every finite nQ that is invertible away from any
+   one prescribed point. Coherent extension and double dual supply
+   the actual sheaf. A class outside the Picard image forces a nonfree
+   point there. The statement bounds the support by one point, not its
+   scheme length, number of generators or other defect cost.
+3. The sextic normal-correction quotient maps explicitly through its
+   Koszul boundary and the adjunction boundary for C⊂Q to H2(K_Q).
+   Its class 4s^11t^11 maps to ±4γ, agreeing up to fixed sign with
+   the obstruction to lifting O_Q(2,6). This proves a comparison of
+   the displayed classes; it does not identify the two realization
+   problems or supply an arbitrary-pair comparison theorem.
+
+The relevant literature input is the [square-zero Picard sequence](https://stacks.math.columbia.edu/tag/0C6Q)
+and the [Atiyah/conormal obstruction interpretation, Proposition 2.10](https://arxiv.org/pdf/1007.1671).
+The direct Čech computation supplies the arbitrary-characteristic
+normalization. The punctured cohomology calculation, coherent extension
+and local depth argument are written out in the source; no blanket
+normal-surface reflexivity claim is applied to a nonreduced scheme.
+
+**What this changes.** The preceding source exclusion has an explicit
+intrinsic interpretation. Its straightforward extension using only
+Picard imbalance is now known to be inadequate: one point on C can
+support a nonfree MCM extension with any prescribed ruling imbalance.
+This is positive geometric flexibility, not evidence that the STCI
+equations exist. It also does not invalidate the possible use of a
+quantitative bound on the amount of defect allowed by those equations.
+
+For an actual supported pair, the known identity q^N=AF+BG supplies
+a two-by-two homogeneous presentation with determinant q^N, retaining
+the actual equation column. The [earlier matrix example](2026-10-31-simultaneous-equation-geometry.md)
+already shows why its layers need not be line bundles. The present
+uniform extension has arbitrary reduced ruling class and a prescribed
+single nonfree point, but supplies neither that example's global ACM
+two-generator presentation nor the required equation column supported
+exactly on C. These are the substantive remaining conditions. The
+global extensions for different n are not asserted compatible, despite
+compatible line bundles on the punctured thickenings.
+
+**Recommendation and stopping conditions:** stop the bare Picard
+nonlifting argument here. A justified continuation needs a specified
+consequence of the actual presentation/normal action/column that bounds
+or constructs its permitted defect. Merely locating defects on C, or at
+the marked endpoints, is insufficient; merely calling an MCM sheaf ACM
+would be a substantive error. No classification of sheaves or local
+defect types is selected. From the existence side the theorem supplies
+flexible local Cohen–Macaulay objects; from the nonexistence side it
+locates the missing global presentation constraint. Neither establishes
+an unrestricted conclusion. The independently reviewed work remains
+provisional, with no canonical promotion.

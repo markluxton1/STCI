@@ -2,7 +2,22 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: a concrete modification test and its global obstruction
+## Current checkpoint: global normal corrections and punctual extension
+
+The [multiple-quadric lifting theorem](notes/2026-10-31-punctual-quadric-lifting.md)
+is complete and independently reviewed provisional work. It computes
+Pic(nQ) in every characteristic and constructs a rank-one MCM extension
+of every ruling class, invertible away from any one prescribed point,
+for every finite n. Its Koszul-and-adjunction map identifies the displayed
+sextic normal-correction class with the corresponding Picard obstruction,
+up to fixed sign. The [assessment, §18](notes/2026-10-31-unrestricted-strategy-assessment.md#18-intrinsic-normal-obstruction-finite-thickening-picard-groups-and-punctual-extension)
+stops bare Picard nonlifting: a continuation needs constraints on the
+amount of defect allowed by the actual homogeneous presentation and
+equation column. The theorem gives neither global ACM behavior nor such
+a column, and does not bound defect length. No sheaf classification is
+selected; unrestricted characteristic-zero STCI remains open.
+
+## Completed concrete modification test
 
 The [quadric elementary-modification test](notes/2026-10-31-quadric-modification.md)
 is complete and independently reviewed. It constructs the actual bundle

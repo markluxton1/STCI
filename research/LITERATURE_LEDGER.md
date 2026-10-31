@@ -615,6 +615,21 @@ comparative support/height estimates. Neither checked theorem supplies
 the actual-pair relation and geometric residual comparison required here.
 
 
+## Picard lifting on multiple quadrics
+
+The October 31 [multiple-quadric lifting deduction](notes/2026-10-31-punctual-quadric-lifting.md)
+uses [Stacks, Lemma 37.4.1](https://stacks.math.columbia.edu/tag/0C6Q)
+for square-zero Picard obstructions and
+[Arinkin–Căldăraru, Proposition 2.10](https://arxiv.org/pdf/1007.1671)
+for the Atiyah/conormal interpretation. Its explicit Čech calculation
+and Frobenius argument prove the stated arbitrary-characteristic Picard
+image rather than transferring a characteristic-zero theorem. The
+punctual MCM extension uses coherent extension
+([Stacks, §28.23](https://stacks.math.columbia.edu/tag/01PD)) and the
+[depth lemma](https://stacks.math.columbia.edu/tag/00LX). These are
+standard tools applied in the independently audited note, not a claim
+of a newly published theorem or of global ACM/two-generator realizability.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.

@@ -2,6 +2,18 @@
 
 ## Research activity status — October 31, 2026
 
+The [multiple-quadric lifting theorem](notes/2026-10-31-punctual-quadric-lifting.md)
+is independently reviewed provisional work. For every finite n≥2 it
+computes the Picard restriction image: diagonal in characteristic zero,
+and p^e dividing the ruling-degree difference in characteristic p, for
+the least p^e≥n. Every ruling class nevertheless has a rank-one MCM
+extension invertible away from any prescribed point. The defect amount,
+global ACM property and actual two-equation presentation remain
+uncontrolled. An explicit comparison maps the prior sextic correction
+class to its Picard obstruction. The [audit](notes/2026-10-31-punctual-quadric-lifting-audit.md)
+and [assessment, §18](notes/2026-10-31-unrestricted-strategy-assessment.md#18-intrinsic-normal-obstruction-finite-thickening-picard-groups-and-punctual-extension)
+retain these distinctions. No canonical or unrestricted status changes.
+
 The [quadric modification result](notes/2026-10-31-quadric-modification.md)
 is independently reviewed provisional work. For every proper pair
 F=c0²+qH4, G=c2²+qK4 with arbitrary quartic corrections, residual degree

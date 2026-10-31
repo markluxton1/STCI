@@ -229,6 +229,12 @@ marked endpoint cannot supply the required section with order eleven at
 both. This is a two-endpoint degree constraint on actual normal
 corrections, with no need to classify zeros of T.
 
+The subsequent [Picard-lifting note, §5](2026-10-31-punctual-quadric-lifting.md#5-an-explicit-comparison-with-the-sextic-normal-correction)
+constructs a Koszul-and-adjunction comparison carrying this class to
+the nonzero Picard obstruction of O_Q(2,6), up to a fixed sign.
+It identifies these displayed classes without equating their two
+realization problems or changing the scope of the proposition here.
+
 ## 5. The zero-T branch and the uniform residual floor
 
 If T=0, then H,K vanish along C. Both equations have exact generic normal
