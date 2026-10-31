@@ -38,6 +38,12 @@ The full conductor criterion R-0003 is an exact fixed-carrier equivalence, but i
 
 The [single-field compression](normalization_conductor_projection.md#26-single-field-conductor-power-compression-exact-scope) is a narrower source-level statement; it fails for split conductor residue algebras and does not substitute for the full family computation. The [pointwise socle identity](../results/pointwise_conductor_socle_defect.md) is a necessary condition on an already supported pair under different, restrictive hypotheses, not a method of computing conductor phase images.
 
+## Global source completeness is not the missing jet arrow
+
+For \(d\ge3m\), the fixed-curve ideal-power theorem gives \(H^0(I_C^m(d))=(I_C^m)_d\) and \(H^1(I_C^m(d))=0\). This identifies the domain of the actual homogeneous source map. It does **not** imply surjectivity of the next normal-symbol restriction \(H^0(I_C^m(d))\to H^0(\operatorname{Sym}^m N_C^\vee(d))\), nor compatibility of independently chosen successive symbols. The [formal-normal source treatment](formal-normal-intersection.md#12a-the-difference-between-source-completeness-and-symbol-surjectivity) keeps those maps distinct.
+
+Thus the missing global-source arrow in the determinant and residual-jet routes is a concrete image and proper-pair computation, not merely a presentation of the ambient ideal-power space. For the conditional (6,16) lane, the known sextic-symbol map has rank 22 from a 23-dimensional source into 33 coefficients; this is an explicit instance of the distinction, not a universal rank formula.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
