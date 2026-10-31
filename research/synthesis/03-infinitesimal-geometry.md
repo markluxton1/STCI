@@ -157,6 +157,12 @@ In the same (6,16) lane, the smooth quadratic root \(f_0=(z^2+4)u^2+(z^2-8)v^2\)
 
 This is an explicit **failed implication**, not merely a warning about dimensions: global first-symbol realizability does not ensure higher-jet compatibility. The counterexample excludes the specified seed, not every smooth quadratic root or the full (6,16) family.
 
+## 3.10D Rank-stratified higher-jet compatibility
+
+The sextic example suggests a precise algebraic distinction. First solve the **image** problem for the quadratic symbol, using the eleven equations of the rank-22 map. Next treat the cubic-jet equation as a linear system whose coefficients depend on the root and multiplier. On a fixed rank stratum, solvability is the vanishing of the appropriate augmented minors; on rank-drop loci one must recompute the rank and cannot reuse a generic inverse. The [conditional incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) keeps these exceptional points.
+
+The second ambient obstruction and the spectral torsion of the full root are additional tests, not interchangeable replacements for the cubic comparison. In particular, a smooth-root example failing the cubic comparison gives a point outside the higher-jet incidence, but says nothing about the singular-root components. This is a scheme-level formulation of the next finite computation, not a claim that it has been carried out.
+
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
 The [October 27 one-step investigation](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
