@@ -4,6 +4,9 @@ The unrestricted characteristic-zero question for the fixed rational quartic \(C
 
 This chapter collects **candidate mathematical deliverables**, not a current priority ranking. The [canonical frontier](../FRONTIER.md) currently organizes work around the global determinant, uniform residual-jet, and conductor-descent routes; the older jet, root, and carrier tasks below remain available alternatives. The ordering of sections is expository, not a research directive.
 
+**Varying-lift qualification.** A compatible quadratic symbol determines a sextic only modulo \(\eta q^3\). Since \(q^3\) has normal order three, the correct existence test for some sextic lift is \(h+\eta(q^3)_3=f(\ell u+mv)\). The correction map alone has rank sixteen; the augmented map including \(\eta\) has rank sixteen or seventeen depending on whether \((q^3)_3\) lies in its image. Consequently a fixed-lift cubic failure does not, without checking this extra direction, exclude every lift of the same symbol. The reported \(-384\) pairing must be checked against \((q^3)_3\) before it is used as a varying-lift obstruction. See [the precise correction](normalization_conductor_phase2_addendum.md#varying-the-sextic-lift-the-missing-q3-direction).
+
+
 ## Choosing the next theorem without restarting case enumeration
 
 The research directions below are alternatives, not a request to run every one. A bounded next investigation should specify four things *before* computation: (i) the invariant family or moduli stratum being tested; (ii) the actual global source spaces or embedded lower structures in scope; (iii) the exact theorem that would follow from a successful computation; and (iv) the exceptional locus left if the generic calculation succeeds.
