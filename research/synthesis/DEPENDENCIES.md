@@ -79,6 +79,10 @@ The [geometric continuation](normalization_conductor_phase2_addendum.md#singular
 
 P-008 constructs explicit defining pairs for the fixed monomial quartic; P-012 proves the broader existence theorem for all smooth rational quartics in positive characteristic via cuspidal projection, radicial normalization and Frobenius descent. Its degree pair \((3,4p)\) is an **upper bound**, not a minimum. Special \((3,4)\) in characteristic three and \((4,4)\) in characteristic two concern the fixed model. Characteristic-five degree-product minimality remains a separate question. See [Chapter 1](01-problem-and-curve.md#12b-positive-characteristic-presentations-fixed-model-versus-all-rational-quartics).
 
+## Frobenius-binomial construction: a solved restricted minimum
+
+The [fixed-quartic calculation](01-problem-and-curve.md#12c-exact-frobenius-binomial-criterion-for-a-quartic-first-carrier) proves the exact criterion for pairs \(x_1^4-x_0^3x_3\) and \(x_2^{p^r}-x_0^a x_1^b x_3^c\): the nonnegative exponent solution exists iff some \(b\le p^r/3\) satisfies \(b\equiv3p^r\pmod4\). Frobenius and the \(x_0=0\) boundary prove sole reduced support. Characteristic five first qualifies at \(p^r=25\), not \(5\). This is a restricted family-minimum theorem, not a lower bound for arbitrary STCI pairs.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
