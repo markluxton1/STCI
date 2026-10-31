@@ -62,11 +62,9 @@ The (6,16) global-source route has moved beyond a dimension heuristic: its first
 
 Its logical endpoint is limited. Emptiness would exclude the specified saturated movement-two locus; nonemptiness would provide candidates, not a supported complete intersection. Any inference to all characteristic-zero STCI pairs requires a separate exhaustion of nonsaturated, higher-movement and other carrier cases.
 
-## Rank-stratified cubic correction as an exact intermediate arrow
+## The cubic correction arrow has constant rank
 
-The conditional sextic cubic comparison is a 40-coefficient linear system in at most sixteen correction coefficients. Once its matrix \(A(t)\) and target \(b(t)\) are constructed from actual jets, the next arrow is exact: on \(\operatorname{rank}A=r\), a correction exists if and only if \(\operatorname{rank}[A\mid b]=r\). This requires the augmented (r+1)-minors **and** the locally closed rank-r conditions on A; a generic solution or closure of the projection is not equivalent. See [the determinantal construction](normalization_conductor_phase2_addendum.md#determinantal-elimination-without-generic-division).
-
-Even a solved correction incidence would still be a necessary-source condition. It does not imply the twenty-five second-obstruction pairings, full-root torsion, a compatible degree-sixteen mate, or projective support exhaustion.
+The displayed (6,16) cubic correction is multiplication by the nonzero quadratic root \(f\) on the sixteen-dimensional space of degree-at-most-seven linear normal forms. It is injective, with a twenty-four-dimensional cokernel in the forty-dimensional cubic target. Thus the necessary cubic-jet condition is a quotient-class vanishing, not an unresolved rank-drop stratification of this map. This supersedes the more general augmented-rank prescription previously proposed for this particular arrow. Singular-root and multiplier-zero loci still require treatment in the other incidence conditions.
 
 ## Established dependencies
 
