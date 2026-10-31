@@ -10,6 +10,8 @@ The normal cone, the full I-initial ideal (including cancellation-generated equa
 
 This note's distinct purpose is to develop the **valuation and specialization research interface**, which is still provisional.
 
+The global numerical filter is independent of the formal initial ideal: if the pair is proper with sole reduced support \(C\), then \(4/\gcd(4,d)\mid e\) by Bézout. If residual degree is nonzero, this divisibility need not hold. Neither the formal local length nor the valuation polygon by itself proves the residual degree is zero.
+
 ## 2. Generic formal algebra and specialization
 
 At \(\eta=\eta_{C_0}\), the completed transverse regular local ring is (noncanonically) \(K[[u,v]]\), \(K=k(C_0)\simeq k(t)\). The ideal \(J_\eta\) is \((f,g)\), and, since the surfaces have no common component, its colength is \(m\). If \(r=\operatorname{ord}_\eta(f)\), \(s=\operatorname{ord}_\eta(g)\), then \(m\ge rs\), with equality precisely when their initial binary forms are coprime over \(\overline K\); see [Chapter 2](02-two-surfaces.md). Common first factors encode generic normal directions, not global factors of \(F,G\).
