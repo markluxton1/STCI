@@ -544,11 +544,15 @@ It produced a [canonical nodal-curve extension criterion](2026-10-31-elliptic-ca
 for the elliptic construction source, including normal quadric cones.
 The competing duality specialization retains a canonical lattice and
 endpoint defect data but currently gives no new controllable global
-restriction. The proposed next experiment tests the existing palindromic
-target's component polarization, intrinsic gluing and contact conditions,
-stopping at its first failed gate. The target has not been replayed or
-tested in this selection round, and no admissible carrier or mate is
-claimed. The assessment owns the comparison and its independent review.
+restriction. The selected [fixed palindromic-target experiment](2026-10-31-palindromic-polarization-spin.md)
+has now completed: independent exact replay passes, and its first component
+Picard gate fails. The missing polarization is a nontrivial two-torsion
+bundle, identified with the odd-ramification cover's even theta
+characteristic. The result and its general spin interpretation have a
+fresh independent audit. Residue gluing, source contact and mate descent
+were not run, in accordance with the stopping rule. No further target or
+cover enumeration is assigned. The assessment §7 records the extraction
+for both existence and nonexistence and the remaining general gap.
 
 ## State at this integration checkpoint
 

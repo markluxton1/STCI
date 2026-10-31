@@ -1,0 +1,65 @@
+{
+  "python": "3.15.2",
+  "sympy": "1.14.0",
+  "field": "Q(eta), eta^2=-4/5; either conjugate gives the same verdict",
+  "target_replay": "PASS for the fixed target and normalized boundary/support facts",
+  "component_picard_gate": "FAIL: H^0(E,L^2(-Z))=0",
+  "marked_y_mod_R": "27*eta*t**3/5 + 27*eta*t/5 + 27*t**2/5 + 27/5",
+  "basis": [
+    "1",
+    "A",
+    "A^2",
+    "Y"
+  ],
+  "quotient_basis": [
+    "1",
+    "t",
+    "t^2",
+    "t^3"
+  ],
+  "evaluation_matrix": [
+    [
+      "1",
+      "0",
+      "4/5",
+      "27/5"
+    ],
+    [
+      "0",
+      "0",
+      "9*eta/5",
+      "27*eta/5"
+    ],
+    [
+      "0",
+      "0",
+      "-9/5",
+      "27/5"
+    ],
+    [
+      "0",
+      "1",
+      "-eta/5",
+      "27*eta/5"
+    ]
+  ],
+  "determinant": "486*eta/25",
+  "later_gates": "NOT RUN: residue gluing, section extension, contact, mate descent",
+  "exact_checks_passed": [
+    "four distinct nonendpoint marks",
+    "primitive target equation of full bidegree (6,2)",
+    "discriminant = -3 S^2 D",
+    "smooth elliptic normalization from separable quartic D",
+    "restriction to the target quartic equals R(t)^5",
+    "exactly four smooth normalized inverse points",
+    "B-boundary factorizations",
+    "ordinary B-boundary points are simple",
+    "two branches at each doubled B-boundary root are simple",
+    "A-boundary is simple and disjoint from B-boundary",
+    "marked normalization denominator is invertible",
+    "marked Y coordinate has the stated exact modular formula",
+    "marked points lie on the elliptic normalization",
+    "Picard evaluation determinant equals 486 eta / 25",
+    "Picard evaluation determinant is nonzero"
+  ]
+}

@@ -383,7 +383,8 @@ actual-twist line calibration. The optional paper-specific pairing
 discussion was not audited and is not a premise of the allocation.
 The resulting diagnostic is independently checked within that boundary.
 
-**Current recommendation:** execute the one fixed palindromic-target test
+**Recommendation at this checkpoint, subsequently executed in §7:** run
+the one fixed palindromic-target test
 in the stated order: independent target replay and normalized support;
 component Picard equality; residue gluing; unique-section recovery and
 nonzero contact determinant. Stop this candidate at its first failed gate
@@ -393,7 +394,52 @@ is the next separate question. Failure is not authorization to enumerate
 further targets. No reduction of arbitrary STCI pairs to this construction
 is asserted or needed for a successful existence example.
 
-Both producers and the reviewer have completed their bounded assignments.
-This recommendation is reported before the technical experiment starts.
-No candidate gate has been run, no carrier or mate is established, and
-all new mathematical contributions remain reviewed provisional results.
+Both producers and the reviewer completed their bounded assignments, and
+this recommendation was reported before the technical experiment started.
+At that checkpoint no candidate gate had been run and no carrier or mate
+was established. All contributions remained reviewed provisional results.
+
+## 7. Fixed-target test completed: polarization fails, with a spin interpretation
+
+The [fixed-target calculation and geometric extraction](2026-10-31-palindromic-polarization-spin.md)
+complete the selected experiment. The exact target replay passes: the
+elliptic normalization, four normalized contact points, and reduced
+disjoint ruling boundaries are verified. The component Picard test fails:
+`H0(E,L^2(-Z))=0`. The restriction matrix in the proof has determinant
+`486 eta/25 != 0`, with eta^2=-4/5. Thus these four marked points do not
+form a hyperplane section in the elliptic embedding by |2L|. The candidate
+stops here; residue gluing, section recovery, contact and mate descent
+were deliberately not run.
+
+The useful generalization concerns the complete balanced contact data,
+not another parameter slice. For any smooth elliptic target with the
+specified disjoint boundaries and full `(5^4)` fiber, Riemann--Hurwitz and
+that fiber give `O_E(2Z)=L^4`. The remaining defect
+`delta=L^2 tensor O_E(-Z)` is two-torsion. It is exactly the theta
+characteristic induced by the odd-ramification map `f=B^3/A`. Component
+polarization requires trivial/odd spin; this fixed target has
+nontrivial/even spin. The proof checks the primary odd-ramification
+construction rather than transferring a cover-counting theorem.
+
+**Effect on the full question:** the result identifies a global line-bundle
+obstruction invisible to degrees and contact counts. It explains why the
+old successful target incidence does not furnish either the specified
+smooth source or its cone alternative. The canonical-extension criterion
+remains a sufficient construction tool. No theorem says that every target
+with this passport has even spin, and no reduction of arbitrary STCI pairs
+to such elliptic covers is known. Odd spin would pass only this component
+gate, leaving node gluing and the contact condition. Existence remains live.
+
+**Disposition:** close this fixed target and do not assign another support
+or cover enumeration. A future balanced elliptic construction would need a
+mechanism producing the required spin together with the actual functions
+A,B; merely selecting another branch partition does not supply that input.
+No new technical continuation is selected at this checkpoint. A uniform
+nonexistence use would need an additional arbitrary-pair implication, while
+an existence use needs one source satisfying the remaining sufficient
+conditions. Neither is currently established by the spin calculation.
+
+Independent review of the proof, replay coverage, spin interpretation and
+stopping decision is recorded with the result. The broader goal remains
+active and unresolved; this is a completed bounded experiment, not a
+resolution of unrestricted STCI.

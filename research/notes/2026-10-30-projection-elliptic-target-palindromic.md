@@ -1,12 +1,18 @@
 # A primitive balanced elliptic target curve that fails global extension
 
 October 30, 2026. Investigator: elliptic_target_incidence/balanced_palindromic.
-Status: **exact constructed target incidence with a reviewed global
-extension obstruction**. The explicit target calculation has not received
-a separate independent computational replay. The global obstruction is
+Status: **exact constructed target incidence with reviewed extension
+obstructions**. The [October 31 independent replay and Picard test](2026-10-31-palindromic-polarization-spin.md)
+now verify the fixed target and show that its required component polarization
+fails through a nontrivial two-torsion spin defect. The original smooth-source obstruction is
 the [support theorem](2026-10-30-projection-elliptic-target-incidence.md),
 whose [independent audit](2026-10-30-projection-elliptic-target-incidence-audit.md)
 reconstructs the marked-source argument. No canonical record is changed.
+
+The later Picard failure also stops the proposed cone construction before
+node gluing or source contact. The original Macaulay2 script and output
+are preserved; the independent replay uses exact SymPy arithmetic and
+has its own [review](2026-10-31-palindromic-polarization-spin-audit.md).
 
 This example is a useful positive intermediate construction with a precise
 negative global conclusion. It shows that the correct genus, four

@@ -9,10 +9,12 @@ This is a **conceptual navigation map**, not a new proof, a chronological record
 Its subsequent [canonical-extension proposal](notes/2026-10-31-elliptic-canonical-extension.md)
 reconstructs a smooth or cone quadric from the marked elliptic/rational
 nodal union, with explicit polarization, residue and contact conditions
-sufficient for an admissible carrier. The fixed target proposed for testing
-those conditions is unevaluated; no carrier, mate or unrestricted exclusion
-is claimed. This is a construction interface, not a classification of all
-STCI pairs.
+sufficient for an admissible carrier. The [fixed-target test](notes/2026-10-31-palindromic-polarization-spin.md)
+now passes target replay but fails component polarization: the residual
+two-torsion class is the induced even theta characteristic. This supplies
+a geometric prerequisite for a future balanced elliptic construction,
+not a classification of all targets or arbitrary STCI pairs. No carrier,
+mate or unrestricted exclusion is claimed.
 
 The [subsequent search continuation](notes/2026-10-29-search-continuation.md) gives a uniform mixed-weight \((6,6)\) exclusion and an attained arithmetic degree-growth bound on a specified non-binomial source. Its marked-quadric projection calculation is partial: the remaining admissible and descent loci are explicitly open. These are reviewed provisional contributions, not additions to the canonical result list.
 

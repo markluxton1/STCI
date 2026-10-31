@@ -7,6 +7,12 @@ This note supplies a sufficient global source-extension mechanism. It does
 not supply an admissible carrier, a mate, a new exclusion, or a canonical
 promotion.
 
+**Subsequent fixed-target disposition:** the
+[palindromic target test](2026-10-31-palindromic-polarization-spin.md) now
+passes its exact target replay but fails the first component-polarization
+gate. Its proposed cone construction is therefore stopped before residues
+or contact. The general conditional criterion below is unchanged.
+
 ## 1. Input and the new geometric object
 
 Work over an algebraically closed field of characteristic zero. Keep the
@@ -314,10 +320,10 @@ residues in (5), and, if they match, recover its unique cone sections by
 Stop this candidate if (9) fails, the residue class is nontrivial, or the
 residual linear form fails (8). If all gates pass, the theorem produces an actual admissible
 degree-eight cone carrier, and the next genuinely new question is its
-full conductor/mate descent. The component-polarization, residue, and
-determinant gates for this candidate are all unevaluated in this note;
-in particular its canonical quadric is not unconditionally asserted to
-be a cone.
+full conductor/mate descent. These were unevaluated gates when this
+criterion was proposed. The [subsequent test](2026-10-31-palindromic-polarization-spin.md)
+finds that (9) fails. Accordingly the conditional cone inference is not
+applicable to this target; its residue and determinant gates were not run.
 
 ## 7. Primary sources, scope checks, and limits
 
@@ -377,8 +383,8 @@ component/gluing distinction, residue formula, unique extension, and the
 full admissibility implication. It also independently supports the proposed
 single fixed-target experiment and its stopping conditions.
 
-No candidate computation was run. In particular, the palindromic target's
-replay, component Picard equality, residue matching, and determinant gate
-remain unperformed. The review establishes the conditional criterion,
-not an actual carrier or mate. No literature-priority claim or canonical
-promotion is made.
+That criterion review ran no candidate computation and established no
+actual carrier or mate. The later fixed-target replay and failed Picard
+gate have their own [result and review](2026-10-31-palindromic-polarization-spin.md);
+residue matching and the determinant gate remain unperformed. No
+literature-priority claim or canonical promotion is made.

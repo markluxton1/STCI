@@ -2,7 +2,7 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current allocation: a bounded construction test after mechanism comparison
+## Current checkpoint: fixed target stopped at polarization
 
 The [unrestricted strategy assessment](notes/2026-10-31-unrestricted-strategy-assessment.md)
 closes the distinguished-column and two-marked-fiber ramification tests.
@@ -15,14 +15,22 @@ It includes the quadric cone, rather than treating failure of a smooth
 source as a complete construction failure. The alternative duality
 mechanism currently adds no controllable quartic-specific restriction.
 
-The proposed next experiment is the existing palindromic elliptic target:
-replay its exact construction, test component Picard compatibility, then
-the residue and contact gates if the preceding gates pass. No gate has
-been evaluated in this selection round and no carrier or mate is claimed.
-The fixed target's first failure stops this experiment; success would
-give a degree-eight carrier before its separate full mate-descent test.
-The recommendation and independent review are recorded in the assessment;
-the technical experiment has not begun.
+The [fixed palindromic-target test](notes/2026-10-31-palindromic-polarization-spin.md)
+is now complete and independently reviewed. Its exact target replay passes,
+but its first component Picard gate fails. The defect is a nontrivial
+two-torsion line bundle, identified with the even theta characteristic
+induced by the odd-ramification cover. Under the stated complete balanced
+passport, a compatible component polarization would have trivial/odd spin.
+No theorem forces even spin on every such target, and no arbitrary-pair
+reduction to these covers is known.
+
+The fixed target is stopped; residue gluing, source contact, carrier
+construction and mate descent were not run. No further target or cover
+enumeration is assigned. Reopening this constructive source would need
+a mechanism controlling the required spin and actual functions, with the
+other gluing and contact conditions retained. The assessment §7 records
+the extraction, independent challenge and stopping decision. The full
+characteristic-zero question remains open.
 The [decision guide](RESEARCH_DECISION_GUIDE.md#continuing-extraction-and-strategy-assessment)
 now makes extraction, useful generalization and independently challenged
 strategy assessment a continuing part of the process. C being a STCI
