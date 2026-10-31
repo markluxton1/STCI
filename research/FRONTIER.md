@@ -147,6 +147,16 @@ rank-two transition and filtered-symbol gaps remain. Proof and
 preservation reviews pass at provisional scope; no new
 classification is selected.
 
+The [genus and normalized-blowup checkpoint, §35](notes/2026-10-31-unrestricted-strategy-assessment.md#35-general-genus-bounds-and-normalized-blowup-positivity-leave-the-ambient-problem-open)
+finds strict room in the sharp general locally CM genus bound.
+For every proper CI, the normalized blowup distributes each component's
+generic length among exceptional multiplicities and finite covering
+degrees. Its identity already implies the checked positivity bounds,
+including their residual-intersection refinement. Independent proof,
+strategy challenge and written-preservation reviews pass. Neither
+route supplies an upper contact capacity or new global equations,
+and no further classification is selected.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

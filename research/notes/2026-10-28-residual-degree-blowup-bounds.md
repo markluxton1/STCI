@@ -518,3 +518,114 @@ concentration on C or prove that R survives. The new all-pair extraction
 (13) says how much generic contact a supported endpoint requires. It does
 not supply the remaining comparison between that contact, the divisors
 B_j, full attachment, and homogeneous equation realization.
+
+## 10. Normalizing the blowup of the full CI preserves its component multiplicities
+
+October 31 extraction; independently reviewed provisional result.
+[Proof and written-preservation review](2026-10-28-residual-degree-blowup-audit.md#8-october-31-addendum-normalized-ci-ideal-blowups-and-genus-selection)
+pass within the stated scope. This section
+concerns the blowup of the **actual CI ideal**, rather than the first
+blowup of its reduced support used in §§1–9. It works in every
+characteristic and allows a residual curve.
+
+Let \(Y=V(F_a,G_b)\subset\mathbf P^3\) be any proper complete
+intersection over an algebraically closed field, and write
+\[
+[Y]=\sum_j m_j[C_j]
+\]
+for its irreducible reduced components and generic lengths. Put
+\(B=\operatorname{Bl}_Y\mathbf P^3\), with exceptional Cartier
+divisor E, and let \(\nu:\overline B\to B\) be its normalization.
+This normalization is finite because B is of finite type over a field.
+Write
+\[
+\nu^*E=\sum_i\rho_iD_i,\qquad \rho_i>0.
+\]
+Every D_i maps onto an irreducible component E_j of \(E_{\rm red}\).
+Its center in P3 is C_j, never an isolated point. If
+\(f_i=[k(D_i):k(E_j)]\) for this finite map, then
+\[
+\boxed{\quad
+\sum_{i:\,\nu(D_i)=E_j}\rho_i f_i=m_j
+\quad\text{for every }j.
+\quad}                                                     \tag{16}
+\]
+The degrees include any inseparable part.
+
+**Proof.** The regular immersion gives
+\[
+E=\operatorname{Proj}_Y\operatorname{Sym}(\mathcal I_Y/\mathcal I_Y^2).
+\]
+Thus E is a projective-line bundle over the full nonreduced Y.
+Each E_j is the corresponding projective-line bundle over C_j,
+and its coefficient in [E] is m_j. Locally this is just
+preservation of the generic Artinian length after a purely
+transcendental residue-field extension. No smoothness of C_j
+is needed. A finite morphism preserves the dimension of each
+closed integral subvariety, so a divisor D_i cannot map into
+a fiber or a point of E. Finally the projection formula for
+the exceptional Cartier divisor and the finite birational
+normalization gives
+\[
+\nu_*[\nu^*E]=[E].
+\]
+Comparing coefficients proves (16). The regular-embedding
+description is recalled in [Aluffi, §2.2](https://www.math.fsu.edu/~aluffi/archive/paper569.old.pdf).
+The same proof applies to an lci curve in any smooth
+threefold of finite type over a field. \(\square\)
+
+Consequently,
+\[
+\sum_i\rho_i f_i\deg C_{j(i)}=ab.                         \tag{17}
+\]
+For a distinguished component C0, the genuine residual degree is
+\[
+\deg R=\sum_{j(i)\ne C_0}\rho_i f_i\deg C_{j(i)}.
+\tag{18}
+\]
+These are the existing component degrees expressed on the
+normalized blowup, not new lower bounds. Further log resolutions
+can introduce divisors centered at points. Equation (16) does
+not forbid those valuations or remove punctual defects; it
+distinguishes them from the divisors of this normalized blowup
+and from residual components downstairs.
+
+### 10.1 The published exceptional-coefficient bound is redundant here
+
+Over \(\mathbf C\), [Ein–Lazarsfeld, Proposition 3.1](https://arxiv.org/pdf/math/9810004)
+applies to an ideal J with \(J\otimes L\) globally generated and
+L nef on a smooth projective variety. In dimension three it gives
+\(\sum_i\rho_i\deg_L C_{j(i)}\le L^3\), retaining repeated centers.
+For \(J=\mathcal I_Y\), \(a\le b\), take \(L=\mathcal O(b)\).
+The stronger elementary inequality is already
+\[
+\sum_i\rho_i\deg_L C_{j(i)}
+\le b\sum_i\rho_i f_i\deg C_{j(i)}
+=ab^2\le b^3.                                           \tag{19}
+\]
+Thus the redundancy holds for every proper pair, before imposing
+sole support. In the STCI case (16) reads
+\(\sum_i\rho_i f_i=ab/4\); the published bound only gives
+\(\sum_i\rho_i\le b^2/4\).
+
+Their Remark 3.2 subtracts the number \(\mu\) of common points
+outside Y of three general sections of \(\mathcal I_Y(b)\).
+Here \(\mu=b(b-a)^2\). For b>a, write these sections as
+\(A_\ell F+\lambda_\ell G\); eliminating G twice gives two
+general degree-(b-a) equations, and the remaining equation
+has degree b. Their complete intersection avoids Y and has
+the displayed degree. For a=b the section space is a pencil,
+so \(\mu=0\). The improved right side is therefore
+\[
+b^3-\mu=ab(2b-a)\ge ab^2,
+\]
+still weaker than (19). This \(\mu\) counts a different
+three-section intersection; it is not the original residual R.
+
+Geometrically, normalization distributes each full CI component's
+transverse length among exceptional multiplicities and finite
+covering degrees. The checked positivity theorem bounds a sum
+that is already controlled by that distribution. It supplies
+neither an upper limit on later contact nor a positive residual
+degree, and does not strengthen the surviving-contact estimate
+in §8. No valuation-tree classification follows.

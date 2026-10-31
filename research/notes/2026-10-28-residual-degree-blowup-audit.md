@@ -299,3 +299,60 @@ mechanism. Naming the missing contact-control theorem is not itself a
 selected method. This bounded verification is complete; no further
 campaign is selected and the unrestricted characteristic-zero question
 remains open.
+
+## 8. October 31 addendum: normalized CI-ideal blowups and genus selection
+
+Independent reviewer: genus_blowup_strategy_challenge, fresh
+gpt-6.1-sol/high context. **PASS** for source §10, strategy-assessment
+§35 and their ledger/frontier preservation. Earlier sections were
+not reopened. The mathematical review reconstructed the proof and
+challenged the stopping decision against the stronger immediately
+available positivity bound; the subsequent written check found no
+material scope or transcription error.
+
+For a proper CI curve Y, the regular immersion identifies the
+exceptional divisor with the projective-line bundle over the full
+nonreduced Y. Its component coefficient is the corresponding
+generic length m_j; this is preserved under a transcendental
+residue-field extension. Finite normalization maps each divisor
+onto a whole exceptional component, never merely a fiber or point.
+The Cartier-divisor pushforward therefore gives
+sum rho_i f_i=m_j componentwise, using total finite degrees.
+The argument works for lci curves in smooth threefolds of finite
+type over a field, in every characteristic.
+
+Degree weighting recovers ab and the full residual-cycle degree,
+not just reduced support. Further log-resolution point divisors
+are outside this normalized-blowup statement. The proof agrees
+with [Stacks 42.59.11](https://stacks.math.columbia.edu/tag/0FVA)
+and [42.18.1](https://stacks.math.columbia.edu/tag/02RS).
+
+Ein–Lazarsfeld Proposition 3.1 is weaker than the component identity
+for every proper CI pair. Their Remark 3.2 also supplies no improvement:
+eliminating the G coefficient in three general degree-b sections
+gives mu=b(b-a)^2, so b^3-mu=ab(2b-a)>=ab^2. The a=b pencil case
+has mu=0. This three-section count is not the original residual.
+
+The independently expanded genus gap and its positivity are correct.
+The least containing-surface degree belongs to Y, not its reduction.
+The sharpness theorem has the stated characteristic-zero range and
+does not prescribe C0 support or AG structure. The threshold and
+mixed-multiplicity applications only recover m>=q^2; they do not
+bound later contact. Thus the recommendation to stop these mechanisms
+preserves both the possibility of STCI and future support-sensitive
+theorems. No local classification or new computation was performed.
+
+Reviewed SHA256 states, before review metadata and the suggested
+explicit exponent notation:
+
+    Source §10 file: 0cfb9027a8abf120f5556bbdbd9c9d9185cf916b3f5938ca9f865cd3a64bef1b
+    Assessment file: 5f89a7252a0bcc95ea7f6255d21bc3eee2dd5b7f3e462106db5f9d2c6418a2dc
+    Literature ledger: 456ed503ec002a08e6c9921ee2e97c9daa218bb3244394a46d7dbe53286f0d75
+    Frontier: d96487bbc5f902b29e73731de77bf2e485a8c067a84d807d8976b5e3ad5ca925
+
+The preservation review covered the new sections/entries only.
+The parent replaced ambiguous prose powers with explicit formulas
+and updated status links after PASS. The reviewer made no edits,
+performed no nested delegation and is retired from further research.
+These are independently checked provisional deductions, not a
+canonical promotion or resolution of the unrestricted question.

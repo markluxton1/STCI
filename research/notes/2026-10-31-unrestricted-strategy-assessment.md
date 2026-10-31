@@ -3376,3 +3376,114 @@ identifies the proof state and exact review boundary. No
 computation, nested delegation or canonical promotion occurred.
 All three assignments are complete and their contexts are
 retired from further research.
+
+## 35. General genus bounds and normalized-blowup positivity leave the ambient problem open
+
+This bounded comparison asks whether the full multiple curve's genus,
+or positivity on the blowup of its actual ideal, supplies the missing
+upper capacity for concentration on C0. The sources apply to the full
+scheme, but the checked bounds accept every surviving degree pair.
+The new geometric extraction is a componentwise multiplicity identity.
+Its proof, stopping recommendation and written preservation have
+passed independent review within their provisional scope.
+
+**The general nonreduced genus bound has strict room.**
+Let Y be a hypothetical CI of type (a,b), with 5<=a<=b, supported
+on C0. Its degree is D=ab and its least containing-surface degree
+is s=a. This s belongs to Y, not to its reduced quartic, which
+lies on a quadric. [Beorchia–Lella–Schlesinger, Theorem 1.1](https://arxiv.org/pdf/1806.08731)
+recalls the bound, valid for every locally Cohen–Macaulay space
+curve when D>=2s+1,
+\[
+p_a(Y)\le B(D,s)=\binom{D-s}{2}-\binom{s-1}{3}.
+\]
+It makes no primitive or normal-flatness assumption. For a CI,
+\[
+B(ab,a)-\left(1+\frac{ab(a+b-4)}2\right)
+=\frac{a(a-1)}6(3b^2-9b-a+8)>0,
+\]
+because the last factor is at least (3a-4)(a-2)>0.
+Thus it excludes no surviving pair, even before additional
+support conditions are considered.
+
+The literature has advanced beyond the conjectural sharpness
+statement in the 2018 paper: [Sammartano–Schlesinger, Theorem 1.1](https://arxiv.org/pdf/2501.00809)
+proves sharpness throughout D>=2s+1 (and D=s), in characteristic
+zero. Its multiple-line and biliaison constructions do not impose
+fixed C0 support or the required arithmetic Gorenstein structure.
+Consequently no bound using only D and s in the full locally CM
+class can close this gap. A support-sensitive theorem remains
+possible. A test depending only on the usual CI Hilbert series,
+resolution or canonical twist also accepts ordinary smooth CIs
+of the same type; the marked support must enter essentially.
+
+**The normalized blowup accounts exactly for every component.**
+The [blowup-note §10](2026-10-28-residual-degree-blowup-bounds.md#10-normalizing-the-blowup-of-the-full-ci-preserves-its-component-multiplicities)
+proves, for every proper CI in P3 in every characteristic,
+\[
+[Y]=\sum_jm_j[C_j],\qquad
+\nu^*E=\sum_i\rho_iD_i,\qquad
+\sum_{i\ {\rm over}\ C_j}\rho_i[k(D_i):k(E_j)]=m_j.
+\]
+Here E is the exceptional divisor of the actual CI-ideal blowup,
+E_j its reduced component over C_j, and nu its finite normalization.
+The proof uses the projective-line bundle over full Y, not just its
+reduction. It also applies to lci curves in any smooth threefold.
+Every normalized Rees divisor is centered on an actual curve
+component; point-centered divisors on further resolutions are a
+different issue. The weighted sums recover ab and the exact full
+residual-cycle degree. They do not create or force residual support.
+
+For L=O(b), [Ein–Lazarsfeld, Proposition 3.1](https://arxiv.org/pdf/math/9810004)
+bounds the unweighted center sum by \(b^3\). The component identity
+already bounds it by \(ab^2\). The reviewer also checked their
+Remark 3.2: its subtracted intersection number is \(b(b-a)^2\),
+leaving \(ab(2b-a)\ge ab^2\). This stronger published version
+therefore adds no constraint either. These are bounds for every
+proper pair, with or without residual components.
+
+At the generic point of C, put m=length(O_Y), q=min(ord F,ord G)
+and c=lct(I_Y). [de Fernex–Ein–Mustaţă, Theorem 0.1](https://arxiv.org/pdf/math/0205171)
+gives c>=2/sqrt(m), while the first exceptional divisor gives
+c<=2/q. Even [Demailly–Hiệp, Theorem 1.5](https://arxiv.org/pdf/1201.4086),
+over the complex analytic transverse surface, gives only m>=q squared
+after comparison. [Kaveh–Khovanskii, Theorem 9.1](https://arxiv.org/pdf/1310.7979),
+applied to the two primary ideals I_Y and the maximal ideal, gives
+the same inequality. It cannot be applied as stated to the two
+individual principal ideals. These bounds are weaker than the
+existing m>=ord(F)ord(G), so none controls later surviving contact.
+
+**Recommendation and stopping conditions.**
+Stop both mechanisms at these deductions. No genus-type, valuation
+tree, threshold or degree classification is selected. Reopening
+requires a specified input that uses the fixed embedded support:
+an upper bound on the allowed full normal/contact budget, a
+comparison forcing a positive genuine residual degree, or an
+operation producing compatible global equations. Naming such a
+missing theorem alone does not justify another technical round.
+
+This leaves existence and nonexistence live. An actual construction
+needs only one successful pair; exclusion needs an implication valid
+for every pair or an exhaustive reduction. The separately owned
+marked carrier construction in §34 retains a concrete inverse-support
+test, and is not extended or reclassified here. The present result
+clarifies the passage from local multiplicity to ambient intersection
+geometry without settling it. The unrestricted characteristic-zero
+question remains open.
+
+**Independent review.** The genus selection used a fresh
+gpt-6-astra/xhigh context for the nonreduced bound and current
+sharpness theorem. The birational applicability selection used
+fresh gpt-6.1-sol/high, as did the independent challenger. The latter
+reconstructed the componentwise proof, its residual-inclusive
+generalization and the polynomial gap, and checked the immediately
+available stronger positivity bound before endorsing the stop.
+No nested delegation or numerical search was used. These bounded
+assignments are complete; their contexts are retired from further
+research. All new deductions remain provisional.
+
+The final written-preservation review found no material error.
+The parent adopted its suggested explicit exponent notation.
+The [blowup audit, §8](2026-10-28-residual-degree-blowup-audit.md#8-october-31-addendum-normalized-ci-ideal-blowups-and-genus-selection)
+records the exact pre-metadata states and scope. No canonical
+promotion or unrestricted status change follows.

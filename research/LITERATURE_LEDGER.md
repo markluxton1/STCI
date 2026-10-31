@@ -1015,6 +1015,34 @@ record the bounded checks and their geometric limits.
 
 No stable-K1, local-algebra or operator classification is selected.
 
+## Full nonreduced genus and normalized CI-ideal blowups
+
+[Assessment §35](notes/2026-10-31-unrestricted-strategy-assessment.md#35-general-genus-bounds-and-normalized-blowup-positivity-leave-the-ambient-problem-open)
+and [blowup-note §10](notes/2026-10-28-residual-degree-blowup-bounds.md#10-normalizing-the-blowup-of-the-full-ci-preserves-its-component-multiplicities)
+record the exact applications and stopping decision.
+
+- [Beorchia–Lella–Schlesinger, Theorem 1.1](https://arxiv.org/pdf/1806.08731)
+  states the general locally CM genus bound, including nonreduced curves.
+  [Sammartano–Schlesinger, Theorem 1.1](https://arxiv.org/pdf/2501.00809)
+  now proves sharpness in the full D>=2s+1 range needed here, in
+  characteristic zero. The bound strictly exceeds every surviving
+  CI genus; the sharpness constructions do not prescribe C0 support.
+- [Stacks, 42.59.11](https://stacks.math.columbia.edu/tag/0FVA) gives
+  the exceptional projective bundle for a regular immersion;
+  [42.18.1](https://stacks.math.columbia.edu/tag/02RS) gives the
+  principal-divisor pushforward. Together they prove the elementary
+  componentwise multiplicity identity on the finite normalization.
+- [Ein–Lazarsfeld, Proposition 3.1 and Remark 3.2](https://arxiv.org/pdf/math/9810004)
+  give exceptional-coefficient bounds. Both are weaker than this
+  identity for a proper CI pair, even when residual support is present.
+- [de Fernex–Ein–Mustaţă, Theorem 0.1](https://arxiv.org/pdf/math/0205171),
+  [Demailly–Hiệp, Theorem 1.5](https://arxiv.org/pdf/1201.4086), and
+  [Kaveh–Khovanskii, Theorem 9.1](https://arxiv.org/pdf/1310.7979)
+  recover only the elementary lower multiplicity bound when compared
+  with the first blowup. None supplies the missing upper capacity.
+
+No classification or computational sweep follows from these checks.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
