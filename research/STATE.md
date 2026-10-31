@@ -2,6 +2,19 @@
 
 ## Research activity status — October 31, 2026
 
+The [algebraic complement comparison](notes/2026-10-31-algebraic-complement-obstructions.md)
+is independently reviewed provisional work. For every smooth
+connected curve of degree d over an algebraically closed field of
+characteristic different from two, the twisted Chow–Witt CH2 of
+its complement is Z/d for every twist. Thus the characteristic
+Euler class of O(a) plus O(b) vanishes exactly when d divides ab;
+its necessary virtual K-class equality has the same condition.
+These are not sufficient for actual algebraic sections. The
+[assessment, §24](notes/2026-10-31-unrestricted-strategy-assessment.md#24-the-primary-algebraic-euler-detector-also-sees-only-degree)
+closes these detectors and the checked analytic theorem applications,
+without claiming all motivic information exhausted or changing the
+unrestricted STCI status. No next experiment or canonical promotion.
+
 The [complement-section theorem](notes/2026-10-31-complement-sections-and-topology.md)
 is independently reviewed provisional work over C. For every smooth
 connected degree-d space curve and any topological rank-two complex

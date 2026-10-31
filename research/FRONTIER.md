@@ -2,7 +2,19 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: continuous sections settled, algebraic realization open
+## Current complement checkpoint: characteristic classes settled, realization open
+
+The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)
+is complete and independently reviewed. The twisted Chow–Witt
+characteristic Euler class and ordinary virtual K-class condition
+also reduce exactly to degree divisibility, uniformly for smooth
+connected space curves. The refined comparison uses a nonaffine
+proof and holds in every characteristic other than two. The
+[assessment, §24](notes/2026-10-31-unrestricted-strategy-assessment.md#24-the-primary-algebraic-euler-detector-also-sees-only-degree)
+stops this primary detector and the checked analytic theorem
+applications. It selects no secondary motivic or degree campaign;
+reopening needs actual realization/descent or a specified further
+obstruction with an implication for arbitrary pairs.
 
 The [complement-section comparison](notes/2026-10-31-complement-sections-and-topology.md)
 is complete and independently reviewed. For any smooth connected complex
@@ -13,8 +25,8 @@ the actual homogeneous equations; a successful algebraic extension on
 the complement is necessarily nonsplit. Affine splitting and an affine
 replacement do not automatically supply the missing sections or descent.
 
-The [assessment, §23](notes/2026-10-31-unrestricted-strategy-assessment.md#23-the-continuous-section-problem-is-solvable-algebraic-realization-remains)
-selects no further classical obstruction calculation or plane-conductor
+The preceding [assessment, §23](notes/2026-10-31-unrestricted-strategy-assessment.md#23-the-continuous-section-problem-is-solvable-algebraic-realization-remains)
+selected no further classical obstruction calculation or plane-conductor
 classification. Its separate normalization check retains full gluing and
 four-coordinate requirements; a degree bound limits only designs using
 one ambient projective symmetry. Reopening needs an actual realization

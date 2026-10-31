@@ -741,6 +741,32 @@ or the required four marked sections. The bounded symmetry limitation
 in assessment §23 is a direct degree argument, not a general theorem
 excluding plane normalizations.
 
+## Algebraic complement classes and non-Stein realization boundaries
+
+The [algebraic complement note](notes/2026-10-31-algebraic-complement-obstructions.md) uses
+[Asok–Fasel, Proposition 5.1 and proof of Proposition 5.2](https://arxiv.org/pdf/1204.0770)
+for fundamental-ideal sheaves and the Bloch–Ogus edges. It replaces
+the proof's final affine vanishing step by an explicit purity
+calculation for P3 minus C; it does not cite the affine conclusion
+as a theorem about this U. The resulting uniform twisted Chow–Witt
+comparison is an independently reviewed deduction, with no novelty
+claim. [Comparing Euler classes, §§2–3 and 5.4](https://arxiv.org/pdf/1306.5250)
+supplies the twisted characteristic class and its ordinary Chern
+image. [Milne, Theorems 16.1 and 24.1, Remark 24.2](https://www.jmilne.org/math/CourseNotes/LEC.pdf)
+supplies purity and trace-normalized Gysin conventions.
+
+[Stopar, Corollary 8.2](https://arxiv.org/pdf/1305.4256) retains
+a 1-convex source, which this U cannot have.
+[Fornæss–Sibony–Wold, Theorems 1.6–1.8](https://arxiv.org/pdf/1105.5408)
+counts positive Levi eigenvalues: the complement has two with
+corners, while its line-bundle extension theorem requires three
+in dimension three and does not supply the desired section.
+[Forstnerič, Theorem 1.1 and Proposition 1.2](https://arxiv.org/pdf/math/0110201)
+makes the complement a subelliptic target for Stein sources,
+not a Stein source for sections over the complement. No checked
+realization theorem supplies the missing algebraic equations;
+this is a bounded search conclusion, not a no-go theorem.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.

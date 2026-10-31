@@ -1947,3 +1947,85 @@ holomorphic/algebraic predicates; the plane review verifies the
 separate symmetry bound and its limited constructive implication.
 The audit preserves distinct scopes and the source fingerprint.
 All four bounded assignments are complete. No canonical promotion.
+
+## 24. The primary algebraic Euler detector also sees only degree
+
+This continuation asked whether the preceding continuous section could
+be realized by an available analytic or algebraic construction, and
+whether a refined algebraic characteristic class retains information
+that the classical test lost. The two literature scouts had fresh
+contexts: gpt-6-astra/xhigh for analytic realization and
+gpt-6.1-sol/high for algebraic extensions and Euler classes. A fresh
+gpt-6-astra/xhigh reviewer independently challenged the proposed
+selection and reconstructed the proof. No nested delegation was used.
+
+Before writing the new proof, the parent reported the reviewer's
+recommended bounded test and stopping condition: compute the twisted
+Chow–Witt comparison uniformly; close this detector if it repeats
+degree divisibility, or identify its actual extra necessary condition
+if it does not. No local classification or secondary tower was selected.
+The [source](2026-10-31-algebraic-complement-obstructions.md) and
+[audit](2026-10-31-algebraic-complement-obstructions-audit.md) preserve
+the completed result and actual-state review.
+
+**Genuine gain and generalization.** For every smooth connected degree-d
+curve C in P3 over an algebraically closed field of characteristic
+different from two, and every line bundle L on its complement U,
+the forgetful map from twisted Chow–Witt CH2(U,L) to ordinary CH2(U)
+is an isomorphism, with target Z/d. Consequently the characteristic
+Euler class of any rank-two bundle vanishes exactly when its ordinary
+c2 does. For O(a) plus O(b), this is exactly d dividing ab.
+
+The proof uses the nonaffine-valid Bloch–Ogus argument and computes
+the required étale vanishings directly by purity. It does not apply
+an affine splitting theorem to U. The two top cohomology groups vanish
+because a point on C pushes forward to a degree-one point of P3.
+Rationality and the special quartic embedding play no role.
+Ordinary algebraic K0 gives the same conclusion for the necessary
+virtual extension equality. Geometrically these invariants forget
+the actual equations and their common-zero support; even the quadratic
+cycle refinement does not recover that information in this degree.
+
+**What the realization literature actually added.** Stopar supplies a
+genuine Oka principle beyond Stein bases, but its 1-convex source
+hypothesis fails on U. The q-convex-with-corners result supplies two
+positive Levi directions, short of its line-bundle extension theorem's
+three-direction requirement in dimension three; extending a line bundle
+would still not supply our section. Subellipticity of U as a target
+does not make it a suitable source for the section theorem. These are
+precise failures of the checked implications, not an analytic no-go theorem.
+
+**Existence and nonexistence.** Every Bézout-admissible pair for C0 passes
+the ordinary Chow, virtual K-class and twisted Euler conditions as well
+as the full continuous test. This provides neither new equations nor
+a contradiction, and gives no basis for preferring nonexistence. It
+does eliminate these proposed detectors as a source of a stronger
+all-pair necessary condition. The immediate nonplanar (1,d) control
+also proves that passing them is insufficient for actual section
+realization at a specified degree pair.
+
+An abstract extension class still supplies an unspecified middle
+bundle. Requiring that bundle to be O(a) plus O(b), with its actual
+injection, reformulates the global equation problem until a construction
+forces the identification. Testing the reflexive extension of a
+separately supplied class is a verification method, not a source of
+such classes. Raising a successful pair to equal degree is likewise
+not an independent asymptotic existence mechanism.
+
+**Recommendation and stopping.** Close this primary Euler calculation
+uniformly, and stop the checked analytic theorem applications at their
+failed hypotheses. Do not move automatically to higher motivic stages,
+more positive twists, local extension types, or degree enumeration.
+The complement route remains available only with an actual strict
+realization/descent operation or a specified further algebraic
+obstruction whose evaluation has a precise implication for arbitrary
+pairs. No next technical experiment is selected here.
+
+This conclusion fits the user's compatibility hierarchy: satisfying
+cycle, bundle and homotopy data does not supply surfaces embedded
+together in P3 with their entire intersection supported on C.
+It also preserves the opposite possibility: a construction controlling
+that last step in one source would suffice for existence, even without
+classifying all sources. The scoped independent review passed; all
+three assignments are complete. No canonical promotion, and the
+unrestricted characteristic-zero STCI question remains open.

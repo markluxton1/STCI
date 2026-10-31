@@ -44,6 +44,16 @@ This closes the two bounded tests and shows why a numerical class
 change alone is insufficient. The next global comparison or constructive
 operation remains unspecified; no classification is selected.
 
+The [algebraic complement comparison](notes/2026-10-31-algebraic-complement-obstructions.md)
+shows that twisted Chow–Witt CH2 on the complement of any smooth
+connected degree-d space curve is Z/d, for every line-bundle twist,
+over algebraically closed fields of characteristic different from
+two. The characteristic Euler and virtual K-class conditions add
+nothing to degree divisibility. This is independently reviewed
+provisional work; it does not supply algebraic sections or exhaust
+higher motivic information. Checked non-Stein realization theorems
+miss their source hypotheses. No further experiment is selected.
+
 The [complement-section theorem](notes/2026-10-31-complement-sections-and-topology.md)
 applies to every smooth connected complex space curve of degree d:
 O(a) plus O(b) on its complement has a continuous nowhere-zero section
