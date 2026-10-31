@@ -26,6 +26,12 @@ family calculations.
 
 ## 1. The question and the search cycle
 
+**Package status, October 31:** the [closeout report](notes/2026-10-31-stci-package-closeout.md)
+supplies final independent audits, geometric consequences, exact unfinished
+equations and validation. The search cycles below are preserved evidence;
+this closeout starts no new one. All new claims remain reviewed provisional,
+and the unrestricted characteristic-zero question remains open.
+
 Generate actual global equations or a parametrized carrier with an exact
 global section test. Test properness, contact and support. Record the
 first reason for failure, change the source or constraints in response,
@@ -267,7 +273,7 @@ changes the rank of an auxiliary quadric from five to three. It is a
 specific place to investigate exceptional contact; its surviving kernel
 has not been identified with actual normalization sections or a mate.
 
-## 6. The next iteration
+## 6. The October 28 next iteration — historical
 
 1. Use the exact freedom formula to build genuine global sources, eliminate
    forced quadric factors, and impose shared normal roots or extremal-weight
@@ -288,6 +294,10 @@ The next deliverable should be an actual defining pair, an exact empty
 specified parameter locus, or a smaller surviving locus with the first
 unresolved equation identified. A new geometric invariant earns further
 work here by helping produce or reject those equations.
+
+This dated agenda is superseded as an assignment by the final closeout
+in Section 9. In particular the later all-degree line and ordinary-root
+obstructions remove mate searches on their excluded carrier loci.
 
 ## 7. First continuation and its remaining projection endpoint
 
@@ -356,3 +366,65 @@ than wait for the next construction to refute. The current
 tests why large global higher-order lifting freedom can preserve a fixed
 residual, and identifies a global row-operation restriction to compare
 with formal cancellation.
+
+## 9. October 31 closeout: final claims and exact remaining tests
+
+The [final obstruction audit](notes/2026-10-31-stci-closeout-obstruction-audit.md)
+gives PASS to the actual-quadric-residual theorem for every \(a\ge3m\).
+With a full reduced irreducible horizontal normal root and the literal
+ordinary residual/attachment hypotheses, a mate would force
+\[
+ab=4mr,\qquad b(2a-4m)=r(4a-6m),
+\]
+contradicting \(2a^2-7am+8m^2>0\). The actual residual restriction is
+surjective; actual-symbol basepoint freedom, characteristic-zero Bertini,
+connectedness and local jets prove that a nonempty dense open of every
+full \(H^0(\mathcal I_C^m(a))\) is excluded in every mate degree. The
+special complement remains open. On the ordinary reduced horizontal
+component locus, the mate-weighted slope must be \(7-16m/a\).
+
+The [elliptic double-lift audit](notes/2026-10-31-stci-closeout-existence-audit.md)
+accepts the order-four torsion construction and the actual finite
+birational degree-eight fixed member. Its affine \(Q_0=1\) inverse
+length 24 is projective extra inverse length 12; that isolated support
+excludes the fixed carrier in every mate degree. The normal-order-two
+symbol has vertical degree twelve and saturated horizontal class
+\((6,2)\) with elliptic normalization. Scheme-theoretic containment of
+the extra scheme's image in the vertical divisor is verified; equality
+or multiplicity one is not. This special normal data lies outside the
+ordinary theorem. The ambient deck action \(\mu\mapsto-1/\mu\) does
+not preserve every source member, so the old degree-one inverse symmetry
+exclusion does not apply automatically.
+
+The full five-parameter family is not excluded. Its first unresolved
+condition is the fiberwise unit-ideal test
+\[
+(Q_1+\mu Q_0,Q_0-1,I_C(V_j+\rho_jQ_0))=(1),
+\]
+retaining smoothness, basepoint freedom and birationality. The audit
+specifies its coefficient ring, all inverse equations and saturations.
+If a stratum survives, test \(Q_0^b\in\langle U^\alpha\rangle\)
+with all matrix rank strata retained. The degree-five filter applies
+only where the actual quadratic normal form is verified irreducible.
+Degree-six and degree-eight matrices are specified, not executed.
+
+The [projection closeout audit](notes/2026-10-31-stci-closeout-projection-audit.md)
+accepts the completed degree-ten resultant/number-field classification
+and independently controls the explicit elliptic target survivor.
+That survivor fails actual marked-source extension: its four marked
+points on \(C_0\) are coplanar, forcing incompatible degree-two source
+pencils. The degree-twelve nonzero-middle discriminant chart stopped
+before its final saturation marker. The primitive elliptic target locus
+for other supports/contact partitions and the complete order-one
+projection locus remain unfinished, with literal ideals, discriminants,
+excluded boundaries and first missing conditions in the audit.
+
+The revised constructive strategy is to solve full inverse support on
+the actual special source before testing descent. The independent
+obstruction strategy is to extend actual divisor/attachment balance to
+the special vertical, repeated, low-slope and nonordinary loci. Neither
+is an assignment to start during this closeout. The
+[geometric review](notes/2026-10-31-stci-closeout-geometric-review.md)
+separates target incidence, actual source extension, full inverse support
+and full-conductor/power descent. None of those implications may be
+replaced by a dimension count, saturated symbol alone or finite reduction.

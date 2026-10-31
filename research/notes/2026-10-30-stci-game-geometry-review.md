@@ -265,6 +265,14 @@ the ordinary attachment assumptions must fail.
 
 ## 6. A broader residual-curve principle to test
 
+**Closeout status, October 31:** the [separate all-degree audit](2026-10-31-stci-closeout-obstruction-audit.md)
+now supplies a final PASS, including actual restriction surjectivity,
+the basepoint-free symbol argument, connectedness, local jets and
+normalization attachments. The pending-review wording below preserves
+this review's earlier scope. The theorem remains restricted to its
+literal ordinary locus; its dense-open assertion is not all-carrier
+coverage.
+
 The following is a proposal, not included in the preceding PASS.
 For degree \(a\ge3m\), replace the ruling lines by the whole actual
 residual curve

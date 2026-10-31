@@ -7,6 +7,12 @@ No existence theorem, family-wide exclusion, or canonical promotion is
 claimed. The fixed characteristic-zero question for
 \(C_0=[s^4:s^3t:st^3:t^4]\) remains open.
 
+**October 31 final review:** the [independent closeout audit](2026-10-31-stci-closeout-existence-audit.md)
+records final claim-level verdicts for this fixed member, its global
+sections and normal geometry, and the uncomputed five-parameter support
+locus. The earlier request for review is now resolved at that literal
+scope. No increase in mate degree can repair the rejected fixed carrier.
+
 This is the existence side's response to the
 [shared game ledger](../STCI_GAME.md). The aim is an actual global
 construction that escapes the hypotheses of the latest obstructions,

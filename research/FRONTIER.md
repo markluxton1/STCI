@@ -1,8 +1,19 @@
-# Research frontier — current navigation (October 30, 2026)
+# Research frontier — current navigation (October 31, 2026)
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current exploratory focus: an adversarial search for actual STCI equations
+## Package closeout and genuinely unresolved interfaces
+
+The [October 31 closeout](notes/2026-10-31-stci-package-closeout.md) gives final audited statuses and exact continuation specifications. This package is closed; the list below records mathematical gaps, without starting another research assignment. All new results remain reviewed provisional and the unrestricted characteristic-zero question is open.
+
+1. **Elliptic double-lift support, then descent:** in its literal five-parameter family, determine the parameter strata where \((Q_1+\mu Q_0,Q_0-1,I_{C_0}(U))\) is the unit ideal on every geometric fiber, retaining smoothness, basepoint freedom and birationality; only then test \(Q_0^b\in\langle U^\alpha\rangle\). The fixed member is excluded in every mate degree. The degree-five filter requires verified irreducibility of the actual quadratic normal form.
+2. **Primitive elliptic projection and source extension:** classify the remaining four-point target incidence and construct its marked source pencils and sections. The balanced degree-ten chart is excluded; the degree-twelve chart is unfinished. Coplanar four-point supports are excluded uniformly, including the explicit elliptic target example.
+3. **Order-one marked projections:** solve the literal full inverse-support incidence in the sixteen-parameter marked source, then test descent on any admissible strata. No complete output exists.
+4. **Coverage of the special carrier complement:** extend the actual test-curve/divisor balance to low-slope components, vertical or repeated first-normal data and nonordinary attachments. The all-degree ordinary theorem excludes a nonempty dense open in every \(H^0(\mathcal I_C^m(a))\), \(a\ge3m\); it gives no universal exclusion of the special complement.
+
+The [common game ledger](STCI_GAME.md), [search synthesis](STCI_SEARCH.md), and four independent closeout reviews linked in the report explain how these gaps differ. Existing line, fixed-quadric and arithmetic obstructions remain reusable scoped inputs. Repeating mate searches on already excluded carriers, or treating a completed reduction as an executed computation, is not a remaining task.
+
+## October 30 search framing — historical context
 
 The user-directed question is **“If C were a STCI, how would we find it?”** The [adversarial research game](STCI_GAME.md) now makes both programs explicit: the existence side develops actual constructions, while the non-existence side independently seeks the largest excluded classes and the general principles behind results and examples. Both may use all research and pursue side questions; refuting the current construction is only one part of the obstruction program. The [search record](STCI_SEARCH.md) retains equation sources, exact tests and evidence. Every result must update the common understanding of the unrestricted question.
 

@@ -1,0 +1,10 @@
+Captured successful M2 output, copied verbatim from the tool result without rerunning.
+The script was passed to M2 --script /dev/stdin by subprocess.run with timeout=60.
+The wrapper reported exit 0. No timeout occurred.
+
+(RESULTANT_FACTOR_DEGREES, {1, 2, 2, 3, 12, 14, 0})
+(FIELD_FACTOR_DEGREE, 2, GCD_DEGREE_SEQUENCE, {10, 1, 0}, ODD_DEGREE, 8)
+(FIELD_FACTOR_DEGREE, 3, GCD_DEGREE_SEQUENCE, {10, 1, 0}, ODD_DEGREE, 8)
+(FIELD_FACTOR_DEGREE, 12, GCD_DEGREE_SEQUENCE, {10, 1, 0}, ODD_DEGREE, 8)
+(FIELD_FACTOR_DEGREE, 14, GCD_DEGREE_SEQUENCE, {10, 1, 0}, ODD_DEGREE, 8)
+INDEPENDENT_GCD_LAYER_CONTROL_COMPLETE

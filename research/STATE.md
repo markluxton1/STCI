@@ -1,6 +1,14 @@
 # Canonical research state
 
-## Research activity status — October 30, 2026
+## Research activity status — package closed out October 31, 2026
+
+The [package closeout](notes/2026-10-31-stci-package-closeout.md) is the consolidated status and audit report. The all-degree-margin actual-quadric-residual obstruction has a final independent PASS under its ordinary horizontal-root, actual residual and attachment hypotheses, including a nonempty dense open subset of every full source \(H^0(\mathcal I_C^m(a))\), \(a\ge3m\). This is a generic carrier exclusion in every mate degree, not an exclusion of all carriers. The component-slope balance retains the same ordinary hypotheses.
+
+The elliptic double-lift has a completed independently audited degree-eight finite birational fixed member, rejected in every mate degree by a projective isolated inverse scheme of length twelve. Its degree-twelve vertical first-symbol defect and elliptic saturated horizontal root are verified for that member; neither excludes the full five-parameter family. The balanced projection degree-ten resultant/number-field chart now has an independent final review. The degree-twelve discriminant chart stopped unfinished. The coplanar four-point extension obstruction and its explicit elliptic target survivor retain their separate, scoped meanings. See the closeout for continuation-ready equations and audits.
+
+All new contributions remain **reviewed provisional**, with no canonical promotion. The unrestricted characteristic-zero STCI question remains **open**. The ledger and search record now close this package rather than prescribe another cycle of investigations. The dated activity below is retained context.
+
+### October 27–30 research context
 
 The current user-directed program asks [how we would find actual STCI equations if they exist](STCI_SEARCH.md). New provisional work makes the all-pairs characteristic-p minimum-degree implication precise, computes exact global equation freedom and forced factors, and records completed candidate tests with their search updates. Independent audits and computation evidence are linked from that record. The unrestricted characteristic-zero question remains **open**; no canonical result or mathematical status is changed. The residual-inclusive constructions below are retained inputs and historical research context, rather than the current leading assignment.
 

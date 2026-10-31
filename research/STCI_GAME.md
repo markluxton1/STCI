@@ -13,6 +13,12 @@ is a set-theoretic complete intersection over an algebraically closed
 characteristic-zero field. **Open.** The source/evidence directory is
 [STCI_SEARCH.md](STCI_SEARCH.md).
 
+**Closed out October 31:** the [consolidated report](notes/2026-10-31-stci-package-closeout.md)
+records final independent verdicts, geometric meaning and exact unfinished
+endpoints. This ledger preserves the completed exchange and surviving
+interfaces; it does not initiate another open-ended cycle. All new
+mathematics remains reviewed provisional.
+
 ## 1. Each side has an independent research program
 
 The existence side seeks actual homogeneous equations with proper
@@ -88,6 +94,8 @@ the remaining global implication.
 | [All-degree mixed-seed line obstruction](notes/2026-10-30-mixed-weight-line-obstruction.md) | Increasing the mate degree on this seed cannot help | Reuse actual curve attachment and divisor-degree balance on other carriers | Other sextic families are not excluded |
 | [Uniform weighted-subalgebra theorem](notes/2026-10-30-weighted-subalgebra-line-obstruction.md) | Enter repeated/axis binary boundaries or leave the constant-coefficient \(k[q,c_0,c_2]\) source | Enlarge the incidence principle; attack the degenerate boundary independently | This source has asymptotically vanishing relative dimension in the full fixed-order space |
 | [Quadric-boundary theorem and global row filter](notes/2026-10-30-stci-game-quadric-boundary.md), independently audited | Change the common cubic boundary or use corrections that can change its restriction on \(Q\) | Extend the fixed-residual principle beyond this large family; test global polynomial cancellation independently of the opponent's proposal | The family has asymptotically full relative dimension in its fixed-order source but is not exhaustive; its residual floor is not universal |
+| [All-degree actual-residual obstruction](notes/2026-10-30-stci-game-obstruction.md), [final independent audit](notes/2026-10-31-stci-closeout-obstruction-audit.md) | Seek a special normal-cover or attachment locus; increasing degree alone does not help a carrier in the ordinary open class | Actual \(T\subset Q\) supplies a second degree equation incompatible with a single ordinary inverse curve; component slopes give a necessary balance on the reduced horizontal locus | Excludes a nonempty dense open in every full \(V_{a,m}\), \(a\ge3m\), in all mate degrees; special vertical/repeated/low-slope/nonordinary loci remain |
+| [Elliptic degree-two inverse construction](notes/2026-10-30-stci-game-existence.md), [final independent audit](notes/2026-10-31-stci-closeout-existence-audit.md) | Preserve \(\Gamma\sim H\), absorb extra inverse support in the actual five parameters, then test a descending power | The fixed finite birational member has isolated inverse length twelve and is excluded in every mate degree; a uniform family obstruction is not proved | Degree-twelve vertical first-symbol defect changes the ordinary balance; numerical compatibility upstairs is not full support or descent |
 | [Projection boundary exclusion](notes/2026-10-29-projection-m2-boundary.md), [smooth residual conditions](notes/2026-10-30-projection-order-two-survivor.md), [global extension obstruction](notes/2026-10-30-projection-elliptic-target-incidence.md) | A primitive elliptic target must also extend to the actual marked source; use nonzero middle support coefficient | Solve the remaining primitive elliptic and order-one incidence, or derive a stronger extension principle | The full sixteen-parameter admissible and descent loci remain uncomputed; other normalization models remain separate |
 | [Arithmetic higher-jet gap](notes/2026-10-29-arithmetic-beyond-binomial.md), attained by explicit two-non-binomial \((16,p)\) pairs | Fixed-degree persistence in infinitely many primes would matter; degree-\(p\) constructions do not provide it | Extend the jet mechanism beyond the specified 23-parameter source, or find another uniform all-pairs mechanism | The restricted minimum \(p\) does not bound the all-pairs \(\delta(p)\) below |
 | [Residual constructions](notes/2026-10-28-containing-intersections-synthesis.md) and [quantitative bounds](notes/2026-10-28-residual-degree-synthesis.md) | Test whether actual linked families and attachment flexibility can absorb residual support while retaining equations | Identify which bounds are strictly positive on the proposed global family and which equality mechanisms survive | Flexible attachment is not increasing thickness; conditional positive bounds are not universal |
@@ -100,11 +108,11 @@ coverage by itself.
 
 ## 4. First exchange: actual lifting freedom and its global boundary
 
-The independently assigned advocates were interrupted by an account
-usage limit before completing their first exchange. The following
-opening moves are therefore **root-drafted strategies**, not attributed
-team conclusions. The obstruction theorem has now received a separate
-independent audit; the revised existence construction remains a proposal. The
+The first opening moves below were root-drafted when the original
+advocates were interrupted. Their saved evidence and subsequent
+independent reviews now determine their final statuses. The
+fixed-quadric obstruction is reviewed; E2 remains a source proposal, and
+the actual E3 exchange is closed out in Section 5. The
 [quadric-boundary note](notes/2026-10-30-stci-game-quadric-boundary.md)
 contains the literal coefficient spaces, proposed proofs and limits.
 
@@ -160,37 +168,68 @@ occupies a fraction tending to one in its individual source, yet
 retains an unavoidable global residual. Neither conclusion is generic
 existence or universal non-existence.
 
-## 5. Current independent research obligations
+## 5. Completed E3/N3 exchange and the surviving challenge
 
-The existence side should return an actual revised global family and
-its full endpoint test, or a construction from a different geometry.
-It is free to challenge an obstruction by finding a case outside its
-hypotheses or an actual counterexample.
+**Independent obstruction N3 — final scoped PASS.** For exact normal
+order \(m\) and \(a\ge3m\), the actual quadric residual is
+\(T\sim(a-m,a-3m)\). A reduced irreducible horizontal full normal root,
+reduced transverse \(T\cap C\), and simple regular attachments give
+one inverse curve \(\Gamma\to C\) of degree \(m\). A mate would force
+\(bH\sim r\Gamma\), hence
+\[
+ab=4mr,\qquad b(2a-4m)=r(4a-6m).
+\]
+These require \(2a^2-7am+8m^2=0\), whereas that quadratic is positive.
+The [final audit](notes/2026-10-31-stci-closeout-obstruction-audit.md)
+checks that the hypotheses hold on a nonempty dense open of every full
+actual source, without assuming full symbol surjectivity. On the
+ordinary reducible-horizontal locus the mate-weighted slope must be
+\(7-16m/a\), so at least one component has slope at most that value.
+This independently broadens the non-existence program beyond E1/E2.
 
-The non-existence side should return both its strongest enlargement
-theorem and its critique of the current construction. Useful programs
-include extending the test-curve degree balance, resolving repeated or
-axis-root boundaries, controlling global row cancellation, and
-enlarging arithmetic jet gaps. The opponent's proposal does not set
-the allowed scope of this work.
+**Existence E3 — actual source, failed fixed member.** The
+[elliptic double-lift](notes/2026-10-30-stci-game-existence.md) uses
+\(E:y^2=x^3-x\), order-four torsion \(T=(i,1-i)\), and four actual
+quadratic sections on a smooth quadric \(S_\mu\). Its marked elliptic
+curve \(\Gamma\sim H=(2,2)\) maps with degree two to \(C_0\).
+The saved fixed member \((\mu,\rho)=(2,0)\) is basepoint free and finite
+birational onto a degree-eight surface. It fails: the affine
+\(Q_0=1\) inverse scheme has length 24, giving projective isolated
+inverse length 12. Those isolated points exclude every mate degree.
 
-One reusable principle is to find actual curves on a carrier whose
-attachments to the inverse branches are known. A hypothetical mate
-must satisfy their divisor-degree equations as well as the hyperplane
-degree equation. An inconsistency excludes the entire carrier family.
-The work is to construct those curves and prove their attachments
-uniformly; a generic normal symbol alone does not supply them. This is
-a concrete use of the broader fixed-carrier divisor framework, not a
-claim that the abstract framework has already been computed everywhere.
+The same fixed image has normal order two, vertical first-symbol
+degree twelve, and saturated horizontal class \((6,2)\) with elliptic
+normalization. Its horizontal slope \(6/2=3\) equals
+\(7-16m/a\) at \((a,m)=(8,2)\). This is an actual special-boundary
+escape from the ordinary hypotheses, not an STCI construction.
+The extra inverse scheme maps scheme-theoretically into the vertical
+divisor; no equality, reducedness or multiplicity-one claim follows.
 
-The referee should record which moves survive and update the common
-state. No strategy note or uncompleted computation is promoted into a
-canonical result. The unfinished projection calculation remains an
-explicit live subproblem; the game is not restricted to it.
+**Adversarial verdict.** N3 does not exclude E3's full five-parameter
+source. E3 accepts the fixed-member failure and the need to absorb its
+extra inverse support while preserving the actual map, then achieve
+descent. The old degree-one inverse involution exclusion does not
+automatically apply: the elliptic deck action sends
+\(\mu\mapsto-1/\mu\), so it need not preserve the source surface.
+The degree-five mate filter applies only where the actual quadratic
+first normal form is verified irreducible. No higher mate search on
+the failed fixed carrier remains justified.
 
-The [geometric review](notes/2026-10-30-stci-game-geometry-review.md)
-tracks the geometric meaning of current computations and the gaps in
-those interpretations. In particular it identifies the coplanar
-four-point obstruction, explains how repeated or axis roots alter the
-attachment geometry, and distinguishes the arithmetic conductor jet
-from reduced residue data.
+The [projection closeout audit](notes/2026-10-31-stci-closeout-projection-audit.md)
+separately accepts the degree-ten resultant/number-field classification
+and preserves the explicit elliptic target that fails marked source
+extension. The degree-twelve chart has no completed certificate. The
+remaining primitive elliptic and order-one incidences are specified,
+not computed.
+
+## 6. Final interfaces, not new assignments
+
+The [closeout report](notes/2026-10-31-stci-package-closeout.md) ranks
+four unresolved interfaces and gives the exact next equations: full
+inverse support then power descent in E3; primitive elliptic target
+incidence then source extension; order-one marked projections; and
+coverage of vertical/repeated/low-slope/nonordinary carrier loci.
+The [independent geometric closeout review](notes/2026-10-31-stci-closeout-geometric-review.md)
+checks the distinctions between these gates. No finite computation,
+generic exclusion or numerical divisor compatibility closes the
+unrestricted characteristic-zero question.

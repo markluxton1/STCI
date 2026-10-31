@@ -205,7 +205,8 @@ and [its saved output](../computations/stci_projection_elliptic_target_boundary_
 The affine square-factor degree-three chart has now been completed by
 a separate exact resultant and number-field calculation, rather than
 by the unfinished multivariate saturation. This computational conclusion
-still awaits independent review. The degree-twelve and degree-eleven
+has now received a [final independent closeout review](2026-10-31-stci-closeout-projection-audit.md).
+The degree-twelve and degree-eleven
 leading coefficients first force
 \[
 b=-3a^2/4,\qquad c=(7a^4+40)/(20a),\qquad a\ne0,

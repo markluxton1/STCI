@@ -7,6 +7,13 @@ independent geometric review**. No canonical result or question changes.
 The purpose is both to enlarge exclusions independently of the opponent's
 current proposal and to test that proposal accurately.
 
+**October 31 final review:** the [independent closeout audit](2026-10-31-stci-closeout-obstruction-audit.md)
+gives PASS to §§2–4 for every \(a\ge3m\), including the full-source
+dense-open assertion and the ordinary component-slope condition. The
+literal full-root, actual-residual and attachment hypotheses are retained.
+The opening pending-review label records the proposal stage; the current
+status is reviewed provisional, without canonical promotion.
+
 The curve is \(C=C_0=[s^4:s^3t:st^3:t^4]\) over an algebraically closed
 characteristic-zero field. Write \(Q=(q=0)\),
 \(q=x_0x_3-x_1x_2\), and

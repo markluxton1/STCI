@@ -8,6 +8,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Start here
 
+- [October 31 package closeout](notes/2026-10-31-stci-package-closeout.md) — final independent audit verdicts, geometric synthesis, completed versus stopped computations, and exact remaining interfaces; reviewed provisional work, with the unrestricted question still open
 - [The STCI existence and non-existence research game](STCI_GAME.md) — current adversarial method: both sides develop independent research programs, construction and exclusion moves update a common claim ledger, and every result is assessed for its effect on the unrestricted question
 - [Geometric interpretation and review](notes/2026-10-30-stci-game-geometry-review.md) — what the current ranks, coefficients, covers, attachment counts and torsion conditions mean geometrically, and which global implications remain unproved
 - [If C were a STCI, how would we find its equations?](STCI_SEARCH.md) — current user-directed search: actual candidates, exact tests, diagnosed failures and revised sources; characteristic-p minimum degrees, global freedom, and completed projection/sextic attempts, with provisional proofs and independent audits
