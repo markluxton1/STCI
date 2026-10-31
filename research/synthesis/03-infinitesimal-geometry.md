@@ -151,6 +151,12 @@ The conditional movement-two (6,16) investigation computes the first nontrivial 
 
 For a moving quadratic root f with symbol multiplier alpha, these equations become eleven bilinear conditions on f and alpha. They are necessary before considering the next cubic jet; in particular alpha must not be inverted at its zeros. The subsequent cubic-jet compatibility is a separate finite 40-coefficient equation, and its solvability does not construct a proper mate of degree sixteen. This is a concrete instance where complete knowledge of the ambient ideal-power space does **not** make its leading-symbol map surjective.
 
+## 3.10C A first-symbol success that fails the next jet
+
+In the same (6,16) lane, the smooth quadratic root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) admits a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) in the computed quadratic-symbol image. Nevertheless the required cubic-jet comparison has a nonzero exact annihilating pairing \(-384\). The seed therefore fails the next necessary lifting condition even after passing all eleven first-symbol equations; it also fails the separate second obstruction. The [conditional calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence) records the scope.
+
+This is an explicit **failed implication**, not merely a warning about dimensions: global first-symbol realizability does not ensure higher-jet compatibility. The counterexample excludes the specified seed, not every smooth quadratic root or the full (6,16) family.
+
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
 The [October 27 one-step investigation](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
