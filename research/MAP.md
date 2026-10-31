@@ -30,6 +30,14 @@ map at four distinct points and cannot all agree. This separates a genuine
 construction of the target data from the remaining global extension; the
 candidate stops there, with no carrier, mate or unrestricted exclusion.
 
+The [foliation/affine comparison](notes/2026-10-31-foliation-affine-selection.md)
+retains arbitrary pairs. The normalized pencil's transverse two-form can
+vanish everywhere on C while its localized residue is nonzero. The affine
+projection separates generic projective loss from loss along the special
+target axis; finiteness controls only the latter. These are compatibility
+conditions and limits of the checked methods, with no new experiment
+selected and no unrestricted exclusion.
+
 The [subsequent search continuation](notes/2026-10-29-search-continuation.md) gives a uniform mixed-weight \((6,6)\) exclusion and an attained arithmetic degree-growth bound on a specified non-binomial source. Its marked-quadric projection calculation is partial: the remaining admissible and descent loci are explicitly open. These are reviewed provisional contributions, not additions to the canonical result list.
 
 For the fixed rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), is \(C_0\) a set-theoretic complete intersection of two surfaces in characteristic zero? **Open.** For a proper intersection \(Y=V(F_a,G_b)\) containing \(C_0\), the cycle can be studied as \([Y]=m[C_0]+R\), with \(ab=4m+\deg R\). Study residual components, attachment/gluing and constructive specialization in their own right; \(R=0\) is a possible endpoint rather than an assumed impossibility. The [October 27 integrated vision](notes/2026-10-27-containing-intersections-research-vision.md) links reviewed provisional deductions and concrete next experiments without promoting them. Do not infer a residual curve downstairs from exceptional vertical cycles.

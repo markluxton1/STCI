@@ -2,9 +2,19 @@
 
 ## Research activity status — October 31, 2026
 
+The latest [arbitrary-pair mechanism selection](notes/2026-10-31-foliation-affine-selection.md)
+is independently reviewed and provisional. It extracts a normalized-foliation dichotomy and an exact residue in the
+factor-free branch, together with two separate affine boundary losses.
+Neither the foliation theorems nor the checked affine degree estimates
+currently force a contradiction or supply a construction. The
+[assessment, §10](notes/2026-10-31-unrestricted-strategy-assessment.md#10-arbitrary-pair-selection-foliation-and-affine-boundary-losses)
+stops these bare applications and specifies substantive reopening inputs.
+No next technical campaign is selected; the unrestricted question and all
+canonical mathematical statuses remain unchanged.
+
 The current user-directed program prioritizes geometric progress on the unrestricted question, keeping existence and nonexistence live. The [October 31 strategy assessment](notes/2026-10-31-unrestricted-strategy-assessment.md) now records an independently reviewed [paired elliptic construction](notes/2026-10-31-paired-elliptic-construction.md): actual ruling functions, odd spin and component polarization are achieved, but its node-gluing class is nontrivial by a degree-three versus four-point comparison. The candidate stops there; later source/contact/mate gates were not run. This preserves the sufficient [canonical-extension criterion](notes/2026-10-31-elliptic-canonical-extension.md) and distinguishes the new positive input from the earlier [failed spin target](notes/2026-10-31-palindromic-polarization-spin.md). No new target is assigned. The continuing [strategy process](RESEARCH_DECISION_GUIDE.md#continuing-extraction-and-strategy-assessment) preserves scope, review status and stopping conditions. No canonical mathematical status changes.
 
-The subsequent [mechanism comparison, §8](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils) is independently reviewed. Birational transport needs transverse thickness and exceptional corrections; the complement-pencil formulation is equivalent to STCI; a published projective-bundle theorem restricts uniform homogeneous amplification of nonsplit bundles. No new technical experiment follows from these bare mechanisms, and no unrestricted exclusion is claimed.
+The earlier [mechanism comparison, §8](notes/2026-10-31-unrestricted-strategy-assessment.md#8-subsequent-selection-birational-transport-and-complement-pencils) is independently reviewed. Birational transport needs transverse thickness and exceptional corrections; the complement-pencil formulation is equivalent to STCI; a published projective-bundle theorem restricts uniform homogeneous amplification of nonsplit bundles. No new technical experiment follows from these bare mechanisms, and no unrestricted exclusion is claimed.
 
 The [October 30–31 integration](notes/2026-10-30-four-streams-integration.md) records the literature check, independently reviewed proposals, counterexamples to proposed bridges, and unresolved global compatibility conditions. Its recent continuations retain the full tropical conductor boundary, an all-multiplicity moving control with actual affine CI presentations, and a geometric counterexample to splitting multiple-quadric matrices into simple-quadric factors. These tests leave the actual global two-equation condition unresolved. The two hyperosculating planes and Q are retained together as test surfaces. The unrestricted characteristic-zero question remains **open**; no canonical result or mathematical status is changed.
 

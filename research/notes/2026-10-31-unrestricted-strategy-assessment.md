@@ -659,3 +659,69 @@ retrieval located existing net/projection evidence and did not reopen any
 closed quartic carrier. The constructive producer and independent reviewer
 completed their tasks. The contributions remain reviewed provisional;
 unrestricted characteristic-zero STCI remains open.
+
+## 10. Arbitrary-pair selection: foliation and affine boundary losses
+
+Two fresh, bounded literature investigations returned to arbitrary pairs
+after the target construction in §9. Their
+[deductions and source hypotheses](2026-10-31-foliation-affine-selection.md)
+are preserved together. They do not select another technical campaign.
+
+The normalized rational-pencil foliation has C in its singular locus.
+Its transverse two-form either vanishes along all C or defines a finite
+non-Kupka divisor of degree `4e-14`, where O(e) is its normal determinant.
+The latter alternative extends the smooth-component line-bundle argument
+past intersections with other singular components, but supplies no bound
+in the first alternative. When the raw form has no divisorial factor,
+all C is non-Kupka and its Baum–Bott residue is exactly `(a+b)^2/4`:
+off-C singular curves have zero residue because the actual form there is
+a unit times an exact differential. The nonzero residue and pointwise
+vanishing are compatible. This is information about the full transverse
+singularity, not a contradiction on the reduced curve.
+
+The affine investigation separates the residual-degree budget as
+`ab-4m=(ab-mu)+(mu-4m)`, using the generic degree mu of `(f,g,ell)`.
+The two terms distinguish generic loss at infinity from sheets escaping
+when the target approaches the distinguished axis. The same argument
+gives `dm <= mu <= ab` for a curve of degree d, so it is not a
+quartic-specific characteristic-zero obstruction. The original reduced
+affine equations already give a finite map of degree four with ab=6:
+finiteness removes one gap while leaving the residual boundary line.
+Jelonek's nonproperness bound and Mondal's semidegree equality criterion
+do not force either gap positive or construct simultaneous equality.
+Vénéreau's derivative estimates need subalgebra input that ambient ideal
+containment does not provide.
+
+These are useful deductions and scope corrections, not another excluded
+class of STCI pairs. Compared with §9, the positive target construction
+achieved actual geometric data but stopped at one independent gluing
+condition; the present arbitrary-pair tests reach all pairs but currently
+give compatible conditions. Neither breadth without a new implication nor
+a succession of narrow failures should dictate the next allocation.
+
+**Recommendation:** stop the bare applications just tested. No next
+technical experiment is selected at this checkpoint. A proposed restart
+should identify new input controlling an actual normalized residue, a
+strict boundary-loss comparison, or a construction attaining compatibility
+in the fixed projective embedding. These are directions for specifying a
+test, not claims that such a mechanism has been found. An unproved
+mechanism is eligible for exploration when its premise and informative
+outcomes are concrete; a proof of success is not required beforehand.
+
+**Stopping conditions:** first test the proposed mechanism's essential
+input. Stop or redirect if the foliation theorem requires an unavailable
+Kupka/component condition, if a derivative estimate needs unsupported
+subalgebra membership, if a finite map leaves its projective degree loss
+uncontrolled, or if the output merely recovers the existing degree budget.
+Do not append local singularity classifications, affine coordinate-pair
+lists or adjacent target repairs. For existence, one actual construction
+can suffice; for nonexistence, any restricted conclusion still needs a
+justified route to arbitrary pairs. C being STCI remains a live possibility.
+
+The fresh [independent audit](2026-10-31-foliation-affine-selection-audit.md)
+reconstructs the deductions and challenges this allocation. It added the
+exact finite-map control, checked the primary source hypotheses and
+confirmed that an informative unproved mechanism remains eligible for
+exploration. No unresolved material correction remains. The two producers
+and reviewer completed their bounded tasks. No canonical status is changed,
+and no new technical round has begun.

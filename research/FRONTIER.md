@@ -2,7 +2,19 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Current checkpoint: paired construction stopped at node gluing
+## Current checkpoint: arbitrary-pair mechanisms assessed; no next experiment selected
+
+The [foliation and affine-degree selection](notes/2026-10-31-foliation-affine-selection.md)
+is complete and independently reviewed. It returns to arbitrary defining
+pairs and extracts a normalized-foliation
+dichotomy, an exact residue when the differential has no divisorial factor,
+and the decomposition of affine boundary loss into two nonnegative terms.
+The primary literature supplies no new strict inequality or construction
+from these inputs. These applications stop here; this does not exhaust
+foliation or valuation geometry. The [assessment, §10](notes/2026-10-31-unrestricted-strategy-assessment.md#10-arbitrary-pair-selection-foliation-and-affine-boundary-losses)
+compares the new deductions with the preceding constructive work and
+states the missing input and stopping conditions for a justified restart.
+No local-type list, affine-pair classification or new target is assigned.
 
 The [paired elliptic construction](notes/2026-10-31-paired-elliptic-construction.md)
 is complete and independently reviewed. A rational-map base change gives
