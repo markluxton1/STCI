@@ -263,11 +263,141 @@ characteristic-zero trait reducing to the prescribed
 These are growing necessary bounds for **liftability in this specified
 family**, not for every positive-characteristic STCI presentation of \(C\).
 
+## A sufficient approximation radius at arbitrary ramification
+
+The same extraction has a conditional extension without a bound on \(E\).
+Keep an actual supported trait, \(n=p^e\), and \(\delta=eE\).
+Suppose there is a curve-containing ambient degree-\(b\) lift \(H\)
+of \(H_0\) whose image in the normal block satisfies
+\[
+ H\in I_C^rB+\pi^sB,
+ \qquad s>\frac{E}{p-1}. \tag{6}
+\]
+Then \(cG=H_\infty^n+FL\) for a scalar unit \(c\) and an
+ambient degree-\(b\) form \(H_\infty\) containing the fixed curve.
+
+Indeed, write \(H=v^rU+\pi^sA\). The gap
+\((k-1)s-Ev_p(k)>0\) for every \(k\ge2\) starts the global
+congruence at precision \(\delta+s\). At every subsequent stage
+\(j\ge\delta+s\), the correction to \(H\) has valuation
+\(j-\delta\ge s\). The strict gap, divided-error order and exact
+global correction space therefore persist, and the coefficient sequence
+converges as before.
+
+Condition (6) is independent of the normal generator: \((v)\) is
+the image of the fixed curve ideal. It is equivalent to saying that
+\((F,H)\), with the **same lifted first equation**, is already a
+strong lower-multiplicity pair over \(R/\pi^s\). To see this, the
+old equation on the formal carrier generates \((v^{nr})\), so its
+contribution can be absorbed into \(v^r\). Thus \(H\) is a unit
+times \(v^r\) modulo \(\pi^s\); conversely, strong containment
+and the special order \(r\) force that form. The usual primary
+membership argument globalizes the generic containment.
+
+For the prescribed powered-quartic family, any remaining trait must
+therefore fail this approximation condition for **every** eligible
+degree-four lift. Ramified base change is not a way to obtain (6): for a
+fixed \(H\), it multiplies both the achieved approximation order and
+\(E\) by the same factor. Producing a better ambient \(H\) would
+be additional geometric input. This radius criterion is a conditional
+bridge to extraction, not a construction of that input.
+
+## Root specialization and the remaining endpoint defects
+
+There is also an all-ramification geometric criterion. Keep an actual
+supported trait with special pair \((F_0,H_0^n)\), and write
+\(X=V(F)\) and \(Z_0=V_{X_0}(H_0)\). No normality assumption
+on the carrier is added. On \(X_K\), let \(D_K\) be the pure
+\(r\)-fold structure on \(C_K\): its ideal is the contraction
+of \((v^r)\) from the smooth generic point of the curve. This is
+a coherent primary ideal. Let \(D\subset X\) be its schematic
+closure. Its quotient has no \(R\)-torsion, hence is flat, and its
+underlying support is the fixed \(C_R\).
+
+At the generic point of \(C_0\), the relative carrier is smooth and
+the curve is Cartier. The root closure therefore has ideal \((v^r)\).
+Thus \(D_0\) and \(Z_0\) agree generically. Purity of the complete
+intersection \(Z_0\) gives
+\(I_{D_0}\subset I_{Z_0}\): the image of the first ideal in
+\(\mathcal O_{Z_0}\) vanishes generically and so vanishes everywhere.
+Consequently there is an exact sequence
+\[
+ \boxed{0\longrightarrow T\longrightarrow\mathcal O_{D_0}
+ \longrightarrow\mathcal O_{Z_0}\longrightarrow0,
+ \qquad T=I_{Z_0}/I_{D_0},\quad\dim\operatorname{Supp}T\le0.} \tag{7}
+\]
+The zero-dimensional sheaf \(T\) is precisely the embedded-point
+part of this special fiber. Unlike \(Z_0\), \(D_0\) is not
+assumed pure. At every point where \(X_0\) is smooth along the
+curve, the same relative Cartier argument gives the local root ideal
+\(I_{C_R}^r\), so \(T\) vanishes there.
+
+If \(T=0\), then \(D_0=Z_0\) is Cartier on \(X_0\).
+Flatness of \(D\) and \(X\) lifts Cartierness to a neighborhood
+of the special fiber. The remaining non-Cartier locus is closed in the
+proper \(X/R\); if nonempty its image would meet the closed point
+of \(\operatorname{Spec}R\). Hence \(D\) is Cartier everywhere.
+
+This Cartier extension forces an actual degree-\(b\) equation.
+Indeed, set
+\[
+ M=\mathcal O_X(D)\otimes\mathcal O_X(-b).
+\]
+Its special restriction is trivial, and the hypersurface sequence gives
+\(H^1(X_0,\mathcal O_{X_0})=0\). The
+[Picard exact sequence for square-zero thickenings](https://stacks.math.columbia.edu/tag/0C6Q)
+therefore makes every map
+\(\operatorname{Pic}(X_{N+1})\to\operatorname{Pic}(X_N)\)
+injective. All restrictions of \(M\) are trivial. Since
+\(H^0(X_N,\mathcal O_{X_N})=R/\pi^N\), their trivializations
+can be made compatible. Proper formal full faithfulness over the complete
+base gives \(M\simeq\mathcal O_X\).
+[Grothendieck existence and full faithfulness](https://stacks.math.columbia.edu/tag/088C).
+
+The canonical section of \(D\) is now a section of
+\(\mathcal O_X(b)\). It lifts to an ambient form \(H\), because
+\(H^1(\mathbf P^3_R,\mathcal O(b-a))=0\). Its zero scheme
+on \(X\) is \(D\), so \((F_K,H_K)\) is a supported
+degree-\((a,b)\) pair. The section also vanishes on the fixed
+\(C_R\), since it does so generically and \(\mathcal O_{C_R}\)
+is flat. This implication holds for every ramification index and every
+\(n\); no division by \(p\) occurs.
+
+For the prescribed powered-quartic family, the quartic exclusion thus
+forces \(T\ne0\). The carrier \(F_p\) is smooth along \(C\)
+away from its two parameter endpoints \(p_0,p_\infty\). Every
+still-possible actual trait must therefore satisfy
+\[
+ \boxed{0<\operatorname{length}T,
+ \qquad\operatorname{Supp}T\subset\{p_0,p_\infty\}.} \tag{8}
+\]
+Lengths here include residue-field degrees if the residue field is not
+algebraically closed. Flat projectivity and (7) also give the exact genus
+deficit
+\[
+ \boxed{p_a(D_K)=1+2p^2-\operatorname{length}T,} \tag{9}
+\]
+since the base \((p,4)\) complete intersection has arithmetic genus
+\(1+2p^2\).
+
+Thus the remaining issue is a nonzero endpoint defect in specialization
+of the lower root, rather than an unaccounted deformation of a line bundle
+already defined on \(X\). The powered equation supplies a Cartier
+multiple; it does not make its lower root Cartier or its specialization
+pure. Equations (8)–(9) neither exclude that defect nor construct a trait
+realizing it. They connect the arithmetic question to the
+[endpoint and saturation interfaces](../synthesis/fixed_surface_and_endpoint_algebras.md)
+without identifying distinct defect modules from those interfaces.
+
 Independent reconstruction checked both directions of the finite-precision
 equivalence, global membership over Artin bases, scalar normalization and
 containment-preserving coefficient lifts, the new lower-multiplicity pair,
 the explicit family's exact global nilpotence index, the ramification gap,
-and the boundary counterexample. Finite-level heights here refer to strong
+the boundary counterexample, and the invariant approximation-radius criterion.
+Two further reconstructions checked the root closure, its embedded-point
+specialization sequence, Cartier extension, Picard rigidity and the endpoint
+genus deficit, without assuming normality or pure special root fibers.
+Finite-level heights here refer to strong
 nilpotence, not merely to points of an incidence defined by field-valued
 rank conditions. Every actual supported DVR trait has the requisite strong
 nilpotence, so the resulting trait obstructions do apply.

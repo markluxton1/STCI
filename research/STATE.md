@@ -112,6 +112,12 @@ Any remaining supported characteristic-zero trait must satisfy
 These are bounds on liftability within the specified family. No supported
 trait at the remaining ramification indices or unrestricted degree bound
 has been established.
+The same proof home gives an all-ramification geometric restriction: the
+flat closure of the generic multiplicity-\(p\) root must acquire a
+nonzero embedded-point defect supported at one or both endpoints of \(C_0\).
+Its absence would force a relative Cartier root and an ambient quartic
+mate by Picard rigidity. The defect has an exact arithmetic-genus formula;
+neither its impossibility nor a trait realizing it has been established.
 
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.

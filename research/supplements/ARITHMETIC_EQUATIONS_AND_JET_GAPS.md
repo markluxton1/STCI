@@ -235,6 +235,16 @@ is a strong-support statement, not an identification of infinitesimal rank
 conditions with support. An actual trait would have absolute ramification
 index at least \(p-1\); its existence at those indices remains open.
 
+There is a further [root-specialization restriction](FROBENIUS_POWER_LIFTING_PRECISION.md#root-specialization-and-the-remaining-endpoint-defects)
+at every ramification index. Close the generic multiplicity-\(p\)
+root on the lifted degree-\(p\) carrier. Its special fiber must
+have a nonzero embedded-point defect over the base \((p,4)\)
+complete intersection, supported at the two endpoints of \(C\).
+If the defect vanished, flat Cartier extension and hypersurface Picard
+rigidity would supply a characteristic-zero quartic mate. This is a
+necessary defect condition on a hypothetical actual trait, not a proof
+that such a defect or trait exists.
+
 The remaining arithmetic input is a support-preserving lifting operation
 or a structural calculation on this full simultaneous-pair incidence.
 One horizontal component would establish characteristic-zero existence;
