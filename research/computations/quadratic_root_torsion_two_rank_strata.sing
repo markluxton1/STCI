@@ -1,0 +1,58 @@
+// Exact base rank-drop and consistency calculation for the finite T[2] chart.
+// C2=1, C(z)=C0+C1*z+z^2. A0,A1,A2 remain free in the linear system.
+// M and rhs come from quadratic_root_torsion_two_model.py finite-chart
+// equations first[2:4], with convention M*(A0,A1,A2)^t=rhs.
+// The open excludes k=0 (handled by the complementary direction chart),
+// k=1 (coincident directions), and a repeated root of C.
+// This only analyzes the last two linear first-obstruction equations.
+// It does not impose the first two quadratic equations or the second obstruction.
+// Run with: Singular -q research/computations/quadratic_root_torsion_two_rank_strata.sing
+ring R=0,(C0,C1,k,iv),dp;
+option(redSB);
+
+poly m00=(9*C1-10*k-8)/4;
+poly m01=(9*C0-6*C1*k-12*C1+28*k+8)/4;
+poly m02=-(C0*k+8*C0-10*C1*k-8*C1+36*k)/2;
+poly m10=(9*C0-8*C1*k-10*C1+32*k+4)/4;
+poly m11=-(2*C0*k+7*C0-12*C1*k-6*C1+36*k)/2;
+poly m12=4*C0*k+5*C0-18*C1*k;
+poly r0=-3*(-C1+2*k)*(C0-C1*k+2*k^2)/2;
+poly r1=-3*(-C0+2*C1*k)*(C0-2*C1*k+8*k^2)/4;
+
+// All six 2x2 minors of [M | rhs] vanish exactly when its row rank is <=1.
+poly d01=m00*m11-m01*m10;
+poly d02=m00*m12-m02*m10;
+poly d03=m00*r1-r0*m10;
+poly d12=m01*m12-m02*m11;
+poly d13=m01*r1-r0*m11;
+poly d23=m02*r1-r0*m12;
+poly openPoly=k*(k-1)*(C1^2-4*C0);
+
+ideal rankdrop=d01,d02,d03,d12,d13,d23,iv*openPoly-1;
+print("RANKDROP_START");
+ideal G=std(rankdrop);
+print("RANKDROP_DONE");
+print(dim(G));
+print(vdim(G));
+
+// On this open the coefficient matrix M itself never has rank zero.
+// On the rank-drop locus, augmented rank <=1 is therefore equivalent to
+// consistency of M*A=rhs (rank(M)=1 there).
+ideal zeroM=m00,m01,m02,m10,m11,m12,iv*openPoly-1;
+print("RANKZERO_START");
+ideal G0=std(zeroM);
+print("RANKZERO_DONE");
+print(dim(G0));
+print(vdim(G0));
+
+// The direction parameter generates the length-19 base algebra: its minimal
+// polynomial also has degree 19 and is squarefree. Thus the base is reduced.
+ideal Ek=eliminate(G,iv*C0*C1);
+print("DIRECTION_POLYNOMIAL_DEGREE_AND_SQUAREFREE_GCD");
+print(deg(Ek[1]));
+print(gcd(Ek[1],diff(Ek[1],k)));
+print(factorize(Ek[1]));
+ideal iOpposite=G,k+1;
+print("K_MINUS_ONE_BASE");
+print(std(iOpposite));
+quit;
