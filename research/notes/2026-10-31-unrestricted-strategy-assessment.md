@@ -2949,3 +2949,160 @@ The assessment fingerprint precedes this review record; subsequent
 changes only record the review state. All three assignments are
 complete and no new task is assigned to these contexts.
 No canonical promotion or unrestricted STCI conclusion follows.
+
+## 32. Residual maps retain the equations; the nonnormal quintic exclusion expands
+
+This checkpoint reassesses the unrestricted characteristic-zero
+question using the once-linked curve of an arbitrary defining pair
+and the completed parallel quintic theorem. It selects neither a
+Buchsbaum classification nor the next quintic singularity stratum.
+The fresh independent challenge supports preserving the exact
+geometric dictionary and a rational-curve generalization, without
+a further technical experiment.
+
+**The all-pair residual interface is already developed.**
+Let \(Y=V(F_a,G_b)\), \(A=a+b\), and
+\(I_D=(F_a,G_b):I_{C_0}\). The
+[reviewed residual construction](2026-10-28-residual-liaison-construction.md)
+already proves, for every proper pair with \(a,b\ge4\),
+\[
+\deg D=ab-4,\qquad
+p_a(D)=\frac{(A-4)(ab-8)}2,\qquad
+M_D=k(5-A).
+\]
+The last module has its unique nonzero degree at \(A-5\).
+For a hypothetical supported CI, the generic transverse algebra
+of D is the Artinian Gorenstein algebra of Y modulo its socle:
+\([D]=(ab/4-1)[C_0]\). D is then a supported multiple curve,
+not a residual component outside C0.
+
+The existing source also gives the full minimal resolution,
+low-degree equation recovery, flat colon families through
+multiplicity changes, and applicable ambient-Hilbert-scheme
+unobstructedness. Recognizing a diameter-one Rao module adds
+none of these results anew. Smoothness of the ambient Hilbert
+scheme does not establish existence of its required fixed-support
+and fixed-partner locus.
+
+**The retained geometric extraction identifies the actual maps.**
+The added [bundle interpretation in §4](2026-10-28-residual-liaison-construction.md#october-31-geometric-extraction-a-fixed-bundle-still-retains-the-equations)
+writes the existing resolution using
+\(\mathcal E=T_{\mathbf P^3}(-2)\oplus\mathcal O(-1)\):
+\[
+0\to\mathcal E\xrightarrow{\Phi}
+\mathcal O(b-3)\oplus\mathcal O(a-3)\oplus\mathcal O^3
+\to\mathcal I_D(A-3)\to0.
+\]
+Its fixed three-row block has kernel \(\mathcal O(-3)\) off C0.
+The two remaining rows restricted to that kernel are exactly
+\(G_b,F_a\), up to sign and order. Hence full fiber rank off C0
+is equivalent to absence of common zeros there. Mere sheaf
+injectivity is already true for every proper pair and does not
+exclude residual curves.
+
+The [recovery generalization, §2.2](2026-10-28-residual-liaison-construction.md#22-equation-recovery-for-every-smooth-rational-space-curve)
+holds for every smooth rational embedded curve C of degree d,
+in every characteristic:
+\[
+(I_D)_n=(I_Y)_n\quad(n\le a+b-4).
+\]
+Indeed \(H^0(\omega_C(t))=H^0(\mathcal O_{\mathbf P^1}(dt-2))=0\)
+for \(t\le0\), and the CI ideal has no first cohomology.
+When \(a,b\ge4\), this recovers both equations and the marked
+partner. This generalizes equation recovery, not the quartic's
+specific Rao module, resolution or family claims.
+
+**The literature provides constructions, but does not impose this support.**
+[Nagel, Theorem 1.2, Corollary 5.4 and Remark 5.5(ii)](https://arxiv.org/pdf/math/0212217)
+does supply locally free presentations and a bundle-section
+interpretation for arithmetically Buchsbaum schemes. Its output
+does not prescribe the radical and marked linked partner.
+[Kleppe, §2.1 and Theorem 5.10](https://arxiv.org/pdf/1111.7020)
+gives the Rao/Koszul presentation and component/generization
+information through Betti data; those deformations can change
+the support and required low-degree equations.
+[Hartshorne, Theorem 2.4(b)](https://arxiv.org/pdf/math/0302078)
+gives a descending elementary biliaison for a nonminimal member
+of its class. The descending divisor and partner need not retain
+this support or linkage flag. Reversing that operation still
+requires actual divisors and maps with the desired common zero set.
+The checked theorems therefore do not select a new supported
+construction, although their constructive content is genuine.
+
+**The quintic completion is a substantive class exclusion.**
+At source commit fd9e628, the
+[completed parallel theorem](2026-10-31-quintic-gorenstein-normalization-exclusion.md)
+excludes every integral nonnormal quintic with Gorenstein
+normalization as a defining carrier for C0, for every positive
+mate degree and every full conductor scheme. Its integrated
+review is recorded in source §6. This assessment reuses that
+reviewed provisional evidence; it does not re-audit the proof
+or rerun the first-jet certificate.
+
+Compared with §27, the added cases include reducible conductors
+with all multiplicities and the remaining conductor supported on
+one line with multiplicity five. In this actual source, the root
+divisor denominator forces conductor components through the marked
+non-Cartier point. Its quadratic conductor algebra, contact
+constraint and purity turn supported power descent into descent
+of the forbidden quartic root. The single-line case uses its
+actual canonical-module type and A4 contact.
+
+The reusable method combines divisor-denominator incidence,
+local conductor action and global purity. Arbitrary carriers do
+not come with these same divisor, incidence or quadratic-algebra
+data. The theorem leaves normal quintics and non-Gorenstein
+normalizations outside its scope, as well as other degrees.
+The earlier all-degree differential trichotomy remains unchanged:
+generic singularity along C0, a singularity of the normalization
+on its inverse curve, or singular full-conductor contact can
+supply the surviving defects. It gives no opposing upper budget.
+
+**Comparative recommendation and stopping conditions.**
+For existence, a supported residual with the actual fixed block
+and required fiber rank would work; the new presentation does not
+construct it. For nonexistence, the fixed module or bundle alone
+does not obstruct those maps. Likewise the completed quintic
+theorem excludes a larger source without reducing arbitrary
+pairs to that source.
+
+This checkpoint selects no Betti-tuple, liaison-chain,
+next-quintic-stratum or local-conductor classification. Reopen for
+an actual operation controlling the marked partner and common
+zero set, or a defined comparison of the actual conductor objects
+that imposes a new all-pair constraint. Stop if the proposed
+operation forgets that incidence, substitutes sheaf injectivity
+for fiber rank, or only re-encodes the two original equations.
+Unrestricted STCI existence remains live.
+
+The residual scout /root/universal_residual_liaison_selection
+used a fresh gpt-6-astra/xhigh context. The bounded carrier-impact
+assessment /root/quintic_completion_global_assessment used
+gpt-6.1-sol/high and reused recorded proof-review evidence.
+The fresh independent challenger
+/root/residual_and_carrier_strategy_challenge used
+gpt-6.1-sol/high, checked the primary theorem statements,
+reconstructed the bundle and rational-curve deductions, and
+corrected the sheaf/fiber injectivity distinction before reliance.
+No nested delegation or new computation was performed.
+
+**Final written-artifact review: scoped PASS.**
+The independent reviewer checked both source additions, this
+assessment and the ledger entry, finding no mathematical
+correction necessary. It inspected source SHA256
+
+    067684ab756489a0a620f34027bec07823c309ecbe63023bf8a452f752e0fd48
+
+and assessment SHA256
+
+    0d6615a28e746abf8d6a7135adf271a0444bc5dfad4df66fc85d2c237a89f734
+
+The parent then corrected a duplicate equation label in the source
+to (2d), clarified that this checkpoint's nonselection does not
+override separately owned parallel work, and added review records.
+No mathematical claim changed. The source audit identifies the
+resulting source fingerprint and the exact editorial difference.
+All three bounded assignments are complete. The carrier proof
+review is reused at its recorded scope, not represented as a
+new independent proof audit. No canonical promotion or
+unrestricted STCI conclusion follows.

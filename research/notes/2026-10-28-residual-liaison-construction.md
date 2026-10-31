@@ -186,7 +186,33 @@ degree decreases. Extracting the **full** \(C\)-primary component is a
 different operation and need not commute with specialization. Its
 nonflatness does not obstruct the flat family (2b).
 
+### 2.2. Equation recovery for every smooth rational space curve
+
+The recovery argument of §2 has the following useful general scope,
+extracted on October 31 and reviewed separately in the linked audit.
+For **any smooth rational embedded curve** \(C'\subset\mathbf P^3\)
+of degree \(d>0\), in any characteristic, let
+\(Y'=V(F_a,G_b)\) be a proper complete intersection containing it
+and \(D'\) its linked residual. Then
+\[
+(I_{D'})_n=(I_{Y'})_n\qquad(n\le a+b-4).
+\tag{2d}
+\]
+Indeed the linkage quotient is \(\omega_{C'}(4-a-b)\), and
+\[
+H^0(\omega_{C'}(t))
+=H^0(\mathbf P^1,\mathcal O(dt-2))=0\qquad(t\le0).
+\]
+The same Koszul vanishing proves (2d). If \(a,b\ge4\), these
+pieces recover the two-generated ideal of Y', and double colon
+recovers the embedded marked partner C'. No quartic normal-bundle
+splitting or one-dimensional Rao hypothesis enters this argument.
+The quartic resolution and the relative-family claims elsewhere
+in this note are not generalized by (2d).
+
 ## 3. The minimal resolution in every such bidegree
+
+Return to the fixed quartic C and its explicit resolution.
 
 Write \(S=k[x_0,x_1,x_2,x_3]\). The linked ideal has the minimal resolution
 
@@ -276,6 +302,51 @@ The [saved PASS output](../computations/residual_liaison_resolution_2026_10_28.t
 records the new run, including the residual degrees and genera.
 
 ## 4. Literature gives a precise deformation interpretation
+
+### October 31 geometric extraction: a fixed bundle still retains the equations
+
+The matrices in §3 give a useful bundle interpretation. Put
+\[
+\mathcal E=T_{\mathbf P^3}(-2)\oplus\mathcal O(-1).
+\]
+Twist (4) by one and quotient out the first column of N. Its four
+nonzero entries are independent coordinate linear forms, so the
+Euler sequence identifies this quotient with \(\mathcal E\).
+The second column then gives the exact sequence
+\[
+0\to\mathcal O(-3)\xrightarrow{u}\mathcal E
+\xrightarrow{B}\mathcal O^3\to\omega_C(1)\to0.
+\tag{4a}
+\]
+Here the final term is understood as a sheaf on \(\mathbf P^3\).
+Likewise, sheafifying (3) and twisting by \(A-3\) gives
+\[
+0\to\mathcal E\xrightarrow{\Phi}
+\mathcal O(b-3)\oplus\mathcal O(a-3)\oplus\mathcal O^3
+\to\mathcal I_D(A-3)\to0.
+\tag{4b}
+\]
+In the mapping-cone construction, its three-row block is B.
+The two added rows restricted along u are the original forms
+\(G_b,F_a\), up to order and sign.
+
+Off C, B is surjective with kernel \(\mathcal O(-3)\).
+Thus \(\Phi\) is **fiberwise injective off C** exactly when
+\(F_a,G_b\) have no common zero there. Equivalently its rank-one
+cokernel is locally free off C. A sheaf monomorphism alone is
+insufficient: (4b) is already a sheaf injection for every proper
+pair, including those with residual curves outside C.
+
+This isolates the global compatibility condition in actual bundle
+maps. The fixed bundle and canonical-module block retain the
+marked curve, but requiring the added rows to have the desired
+degeneracy locus is still the original support problem. It gives
+no construction or new obstruction by itself; no map or Betti
+classification is selected. The later
+[strategy assessment §32](2026-10-31-unrestricted-strategy-assessment.md#32-residual-maps-retain-the-equations-the-nonnormal-quintic-exclusion-expands)
+records the literature comparison and stopping decision.
+
+### The earlier deformation-theoretic application
 
 A focused primary-source search on 2026-10-28 located Jan Oddvar Kleppe,
 [*The Hilbert scheme of space curves of small diameter* (2006)](https://www.numdam.org/article/AIF_2006__56_5_1297_0.pdf).

@@ -116,6 +116,15 @@ construction criteria, without constraining arbitrary STCI pairs in
 the same way. The affine-fiber and finite-chamber shortcuts close;
 no new classification or technical experiment is selected.
 
+The [residual-map and carrier-scope assessment, §32](notes/2026-10-31-unrestricted-strategy-assessment.md#32-residual-maps-retain-the-equations-the-nonnormal-quintic-exclusion-expands)
+reuses the all-pair once-linked resolution and extends equation recovery
+to every smooth rational space curve in the stated degree range.
+Its fixed bundle map retains the original off-curve common-zero
+condition through fiber rank. The completed nonnormal quintic theorem
+is integrated at its exact Gorenstein-normalization scope. This
+checkpoint selects no additional Betti, liaison-chain or quintic-stratum
+classification; separately owned carrier work remains recorded above.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

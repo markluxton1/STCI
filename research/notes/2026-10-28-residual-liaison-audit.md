@@ -132,3 +132,38 @@ multiplicity-jump locus is smooth or nonempty, that primary extraction is
 flat, or that sole support is possible or impossible. A general curve with
 the same Hilbert polynomial or Rao module need not have the required low
 equations. These limitations are essential and retained.
+
+## October 31 addendum: rational recovery and the fixed bundle map
+
+The new source §2.2 and the geometric extraction at the beginning
+of §4 received separate independent reconstruction and written
+review by /root/residual_and_carrier_strategy_challenge,
+using a fresh gpt-6.1-sol/high context. Its disposition is
+**scoped PASS**, without rerunning inherited certificates.
+
+The reviewer checked recovery for every smooth rational space
+curve in every characteristic, including the vanishing and the
+role of \(a,b\ge4\). It did not extend the quartic Rao module,
+resolution or Artinian-family assertions to those other curves.
+For the fixed quartic it checked the Euler-sequence quotient,
+the fixed canonical-module block and the two row restrictions.
+The required condition is fiberwise injectivity off C, not the
+sheaf monomorphism already present for arbitrary proper pairs.
+Thus the bundle description retains the original equation
+problem and supplies no unsupported rank-avoidance conclusion.
+
+The reviewed source SHA256 was
+
+    067684ab756489a0a620f34027bec07823c309ecbe63023bf8a452f752e0fd48
+
+After review, the parent changed only the duplicated equation
+label (2a) in §2.2 and its two references to the unused label
+(2d). The mathematical text is unchanged. The resulting source
+SHA256 is
+
+    0324bf451d0edeca547b1f43854c2be66279b2e7dd07b78abdc4348343c77696
+
+The accompanying source comparison and stopping decision are
+recorded in [assessment §32](2026-10-31-unrestricted-strategy-assessment.md#32-residual-maps-retain-the-equations-the-nonnormal-quintic-exclusion-expands).
+The original audit remains the evidence for the inherited
+statements; this addendum is not a whole-note proof rerun.
