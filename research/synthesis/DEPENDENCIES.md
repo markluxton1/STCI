@@ -71,6 +71,10 @@ The [two-node continuation](normalization_conductor_phase2_addendum.md#two-node-
 
 The reviewed strict-sextic argument forces a nonreduced multiplier divisor on the full root for an actual supported conditional (6,16) pair. Its degree-52 discriminant-resultant condition is distinct from the first-symbol and cubic source tests. It cannot be imposed on a bare root incidence point without the actual-pair and saturated-relation hypotheses, and its exceptional zero locus has not been excluded.
 
+## The conditional singular-curve branch
+
+The [geometric continuation](normalization_conductor_phase2_addendum.md#singular-curves-on-the-strict-sextic-two-conditional-alternatives) proves, under local normality near multiplier zeros, that a singular curve on the strict sextic must be a trisecant ruling line through one ordinary root node. The other alternative is nonnormality at a multiplier zero. The identity \(16d-2e=10n\) is sensitive to additional exceptional contacts; \(e=n\) is not valid in general. This branch classification depends on actual supported equations, not just the finite root incidence.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
