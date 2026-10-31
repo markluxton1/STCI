@@ -147,6 +147,12 @@ The [boundary and lifting supplement](../supplements/NORMAL_BOUNDARY_WEIGHTED_IN
 
 A genuine uniform exclusion would need to control this endpoint across all carriers and rank-drop strata in the target degree range. A finite computation of one normal-jet source can establish a scoped residual bound but not automatically the all-degree statement.
 
+## 6.11B Stable-degree sources as a finite testing domain
+
+The source-level ideal-power theorem gives an exact description of \(H^0(I_C^m(d))\) when \(d\ge3m\), with an explicit recursion at \(d=3m\). This supplies a complete finite-dimensional ambient parameter space for order-\(m\) carriers, but not automatic surjectivity to the degree-\(m\) conormal symbols or independence of higher jets. A useful bounded deliverable is the **image** of the actual symbol/jet restriction map on a specified carrier stratum, together with all rank-drop components and the resulting bound on generic transverse length.
+
+The [formal-normal synthesis](formal-normal-intersection.md#12a-the-difference-between-source-completeness-and-symbol-surjectivity) explains the distinction. A uniform residual theorem still needs coverage of all admissible carriers in its quantified degree range; the stable-degree source description alone does not supply it.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
