@@ -100,7 +100,7 @@ When saturation fails, [R-0016](../results/nonsaturated_first_relation_resultant
 
 1. For a candidate actual pair with \(\sqrt J=I_C\), compute the full local initial ideal and the R-0030 comparison at every exceptional point; decide whether a nonzero punctual defect is compatible with sole support.
 2. In a surviving saturated-root family, check full fiberwise coprimality, the actual generator hypotheses, and successive embedded lifting separately; calculate the remaining zero locus rather than extrapolating from one obstructed seed.
-3. For a fixed lower thickening, compute the extension class and permitted repair divisor described in [the provisional one-step note](../notes/2026-10-27-one-step-boundary-obstruction.md), then impose the actual global degree-\(d\) source image. A vanishing extension class alone does not supply two defining equations.
+3. For a fixed lower thickening, compute the extension class and permitted repair divisor described in [the provisional one-step note](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md), then impose the actual global degree-\(d\) source image. A vanishing extension class alone does not supply two defining equations.
 
 These tests are complementary rather than a mandated sequence. For detailed boundary-repair and punctual-defect discussion, continue to [the filtration supplement](normal_filtration_boundary_obstructions.md).
 
@@ -135,7 +135,7 @@ These results separate four questions: conormal splitting, full initial equation
 
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
-The [October 27 one-step investigation](../notes/2026-10-27-one-step-boundary-obstruction.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
+The [October 27 one-step investigation](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
 
     0 -> Ubar_Y -> M_Y -> V_Y -> 0,
 
