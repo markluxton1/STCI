@@ -250,6 +250,18 @@ Exterior Syzygies,” arXiv:math/0111040 (2001).
 - Scope qualification: this is a classical cycle-level reformulation and
   computational certificate. It neither constructs a defining pair nor proves
   that one exists for any unresolved curve.
+- October 31 closeout check: Proposition 1.3 reconstructs from the
+  full Chow complex; Theorem 1.4 retains only the associated cycle
+  in its determinant. Theorem 0.2, Theorem 4.3 and Proposition 4.4
+  supply Ulrich determinant representations. On C0, O_P1(3)
+  gives a 4-by-4 linear Pluecker matrix; direct sums give every
+  positive Chow power. These represent sheaves on reduced C0.
+  They do not supply the exact symmetric-power bundle types in
+  P-033. The [closeout assessment, §38](notes/2026-10-31-unrestricted-strategy-assessment.md#38-closeout-exact-chow-bundle-types-and-exceptional-cover-limits)
+  preserves an unaudited elementary Hom calculation: every map
+  of those exact types already comes from two global forms.
+  There is no extra multiplication-block lifting condition once
+  those types and the desired determinant have been achieved.
 
 ## Conductor descent and codimension-two Gorenstein criteria
 

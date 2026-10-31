@@ -3666,3 +3666,108 @@ or code execution was used. Written-preservation review passes;
 records the exact reviewed states and scope. All three bounded
 assignments are complete and their contexts retired. These
 deductions remain provisional; no canonical status changes.
+
+## 38. Closeout: exact Chow bundle types and exceptional-cover limits
+
+The user stopped further research and requested a commit because of
+remaining credits. This section preserves the two bounded selection
+checks already in progress. It selects no new technical round.
+The unrestricted characteristic-zero question remains open.
+
+**Chow representations.** The inherited P-033 criterion is exact:
+the universal-line resultant of a proper pair is a pure power of
+the Chow form exactly when its reduced support is C. The checked
+[Eisenbud–Schreyer source](https://arxiv.org/pdf/math/0111040),
+Proposition 1.3 and Theorem 1.4, distinguishes recovery from the
+full Chow complex from the determinant's cycle information.
+Its Theorem 0.2 and curve constructions in Theorem 4.3 and
+Proposition 4.4 already give a linear determinant for C0:
+O_P1(3), twisted by O_C(-1)=O_P1(-4), is acyclic. Direct sums
+give determinants for every positive Chow power. These represent
+sheaves on reduced C0, not the required embedded CI thickening.
+
+There is a useful correction to the initial selection brief:
+once the exact P-033 bundle types are fixed, there is no further
+independent multiplication-block or global-section lifting condition.
+For G=Gr(2,V), dim V>=3, with tautological S, the proposed elementary
+identity is
+\[
+\operatorname{Hom}_G(\operatorname{Sym}^rS^\vee,
+                     \operatorname{Sym}^sS^\vee)
+ =H^0(\mathbf P(V),O(s-r)),\qquad r,s\ge0,               \tag{38.1}
+\]
+where the map for s>=r is multiplication by the restriction of
+the global form; the right side is zero for s<r.
+
+Here is the preserved proof, over an algebraically closed field
+in any characteristic. On the point-line incidence variety, write
+pi for projection to G and q for projection to P(V). Evaluation
+gives pi*Sym^r S^vee -> q*O(r). On a fiber of q, isomorphic to
+P^(dim V-2), pi*S^vee splits as O plus O(1), with evaluation
+onto O. Its symmetric-power evaluation kernel is the sum of
+O(j), 1<=j<=r. A proposed map followed by target evaluation
+annihilates this kernel, since there are no maps O(j)->O on
+these positive-dimensional projective fibers. It therefore
+factors through q*O(r)->q*O(s). Because q_*O=O, the factor is a
+global degree-(s-r) form. Evaluation at all points of each line
+then identifies the original map with multiplication.
+
+Consequently every global map
+\[
+\operatorname{Sym}^{b-1}S^\vee\oplus
+\operatorname{Sym}^{a-1}S^\vee
+\longrightarrow\operatorname{Sym}^{a+b-1}S^\vee
+\]
+is uniquely the P-033 map of two global forms of degrees a,b.
+The exact bundle types themselves retain the ambient equations.
+The supplied Ulrich determinants use different bundles; their
+existence does not construct a map of these prescribed types.
+Thus this clarification sharpens the missing input but remains
+an equivalent formulation, with no new STCI construction or
+exclusion. The Hom argument was checked by the lead and the
+selection worker; it has **not received a separate independent
+proof audit** and is preserved as an unpromoted proposal.
+
+**Normalized exceptional covers.** The already reviewed
+[line-supported pencil example](2026-10-30-four-streams-pencil.md)
+allows ramified covers of arbitrarily large genus in the
+normalization of its exceptional divisor. Thus rational support
+does not imply rational, unramified, or bounded-genus exceptional
+covers. Generic ruledness likewise does not establish an
+everywhere smooth P1-bundle model. Applying smooth-model
+good-reduction or isotriviality conclusions would require that
+extra hypothesis; singular fibers cannot simply be counted as
+residual components downstairs. This bounded selection has not
+supplied an ambient comparison controlling those degenerations.
+No new theorem about all normalized exceptional surfaces is claimed.
+
+More precisely, [Petsche–Szpiro–Tepper, Theorem 1](https://arxiv.org/pdf/0806.1364)
+concerns projective-space endomorphisms with potential good
+reduction at every place. [Silverman, Theorem 1.1](https://arxiv.org/pdf/math/9609212)
+uses moduli under simultaneous source-target conjugacy. A cover
+of the fixed pencil line is not automatically such a globally
+modeled dynamical system: source-coordinate changes alone are
+not conjugacy. The selection worker checked these hypotheses;
+this closeout preserves that source-applicability finding without
+a separate independent review.
+
+**Recommendation and stopping conditions.** Stop both selections.
+For existence, reopen the Chow formulation only with an operation
+producing the exact bundle map and preserving its Chow-power
+determinant, or another actual homogeneous-pair construction.
+For nonexistence, require a new restriction on every such map,
+or an ambient constraint on exceptional-cover degeneration that
+cannot already be accommodated by supported intersections.
+A forced bad fiber, arbitrary determinantal representation,
+or classification of further local examples does not meet this
+condition. These are reopening criteria, not approved new work.
+
+The Chow selection used a fresh gpt-6.1-sol/high context; the
+exceptional-cover selection used a fresh gpt-6-astra/xhigh context.
+Both bounded assignments are complete and their contexts retired.
+No nested delegation, new computation, or classification was run.
+The user's closeout instruction ends research before a fresh
+independent strategy challenge or proof audit of this section.
+Its selection findings and proposed Hom lemma therefore retain
+that explicit review limitation; earlier reviewed results,
+including the §37 correction, keep their recorded review status.

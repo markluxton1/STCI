@@ -169,6 +169,18 @@ homogeneous pencil. Proof and written-preservation reviews pass
 at provisional scope. Torus/GIT closure also fails to preserve the required
 presentation, and no further classification is selected.
 
+## User-requested closeout of this research stream
+
+The [user-requested closeout, §38](notes/2026-10-31-unrestricted-strategy-assessment.md#38-closeout-exact-chow-bundle-types-and-exceptional-cover-limits)
+stops the subsequent Chow and exceptional-cover selection checks.
+Arbitrary Chow-power matrices already exist; the prescribed bundle
+types retain the two global equations. The elementary Hom clarification
+is preserved without a separate independent audit. Ramified
+exceptional covers and singular ruling fibers do not themselves
+force residual curves. No next technical round was selected;
+this research stream is paused at the user's request. This does
+not change the separately tracked carrier investigation above.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)
