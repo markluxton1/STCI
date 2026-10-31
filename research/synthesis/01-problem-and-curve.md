@@ -10,6 +10,8 @@ The curve has degree four, genus zero, and unique smooth containing quadric \(Q=
 
 For a proper intersection of degrees \(d,e\) supported set-theoretically on \(C_0\), Bézout gives generic intersection length \(de/4\). More generally, when other curves occur, the cycle is \([V(F,G)]=m[C_0]+R\) and \(de=4m+\deg R\); thus \(m\) need not equal \(de/4\). If \(r,s\) are generic normal orders, their initial forms govern the first blowup but **do not in general determine** the full intersection multiplicity. See [Chapter 2](02-two-surfaces.md) and [residual intersections](residual_intersections_and_jets.md).
 
+The sole-support cycle equality also imposes the elementary degree filter \(4/\gcd(4,d)\mid e\). It applies to unequal degrees and does not follow for a proper pair with residual degree. This arithmetic condition is weaker than the characteristic-zero carrier exclusions.
+
 **Established boundary:** integral quartic carriers have no mate in characteristic zero, [STCI-R-0001](../results/quartic_carrier_exclusion.md). Together with separately audited lower-degree and factor arguments, hypothetical defining degrees are at least five. The unrestricted STCI question is still open.
 
 
