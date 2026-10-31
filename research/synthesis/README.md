@@ -71,6 +71,10 @@ The [detailed source calculation](normalization_conductor_phase2_addendum.md#coe
 
 For a proper pair with sole support the degree-four curve, \(4\mid de\), equivalently \(4/\gcd(4,d)\mid e\). This is only a necessary degree filter; if a residual curve exists, \(de=4m+\deg R\). See [the exclusion chapter](05-exclusions.md#54-a-useful-degree-five-consequence) and [Chapter 2](02-two-surfaces.md#23a-the-exact-divisibility-condition-when-residual-degree-vanishes).
 
+## The previously completed free-orbit calculation
+
+The [conditional sextic synthesis](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) now recovers a historical exact unit certificate excluding the entire specified free cube-orbit chart **with** the \(q^3\) lift freedom. This does not settle endpoint, orbit-collision or other root configurations. The earlier single-seed \(-384\) pairing must not be treated as the full-lift certificate.
+
 ## How the integrated arguments fit together
 
 The six chapters now cover the six major investigation families without treating them as one proof. The following table identifies the *missing implication* at each interface, so a new calculation can be placed by mathematical purpose rather than by date.
