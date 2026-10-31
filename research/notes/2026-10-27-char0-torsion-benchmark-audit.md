@@ -106,6 +106,13 @@ locus only at pinch points. Example 7.12 constructs twisted cubics on a
 ruled cubic with 2C a complete intersection. These results already record
 the needed ramification qualification; it is not a new exclusion here.
 
+Scope clarification from the [independently reviewed October 31 selection,
+§16](2026-10-31-unrestricted-strategy-assessment.md#16-pinching-abstract-supported-sections-and-the-marked-projective-image):
+this STCI application assumes C meets the singular locus only finitely,
+as in Proposition 7.1 and Corollary 7.2. Proposition 7.3 requires the
+nonzero torsion local APic class. No exclusion of C contained in the
+conductor, or of its multiple generic inverse branches, follows.
+
 ## 4. Use in the characteristic-conductor lane
 
 The useful positive contrast is a **corrected global pure power** on a

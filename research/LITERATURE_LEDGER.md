@@ -237,6 +237,16 @@ Mathématique de France* 131 (2003), no. 4, 553--585.
   the classical descent mechanism used in P-032.  The full, possibly
   nonreduced conductor schemes are required; normalized divisor support alone
   does not imply descent.
+- The [October 31 pinching selection, §16](notes/2026-10-31-unrestricted-strategy-assessment.md#16-pinching-abstract-supported-sections-and-the-marked-projective-image)
+  checks Theorems 2.2(iv), 5.4 and §6: line-bundle gluing and scheme
+  pushout existence do not supply projectivity or a prescribed P3 embedding.
+  Compatible ample polarization supplies projectivity; when all pinching
+  lies over the desired support, a positive upstairs section descends after
+  a conductor-vanishing power. This last statement is an elementary
+  application, independently reviewed there, not a new literature theorem.
+  Temkin–Tyomkin's [author version](https://arxiv.org/pdf/1305.6014), Theorem
+  6.2.1(ii)(b) and Corollary 6.3.3, extends pushout/sheaf descent to
+  algebraic spaces; it does not provide the missing marked four-section map.
 
 ### Serre and Burch
 

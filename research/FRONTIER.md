@@ -37,6 +37,16 @@ or a relation with independently controlled divisor support would be
 additional input. The user's curve/surface/ambient compatibility picture
 clarifies the scopes of these findings without prescribing a new agenda.
 
+The [pinching selection, §16](notes/2026-10-31-unrestricted-strategy-assessment.md#16-pinching-abstract-supported-sections-and-the-marked-projective-image)
+is also complete and independently reviewed. Pinching entirely over the
+intended curve can construct an abstract surface and supported section:
+a positive upstairs section descends after a power vanishes on the full
+pinching scheme. The missing datum is its marked realization in P3,
+either directly or through a finite birational image with verified
+additional conductor descent. No concrete candidate was supplied by the
+checked sources, so no branch/degree classification or technical campaign
+is assigned. This retains a positive construction source, not an exclusion.
+
 ## Completed source and mechanism tests
 
 The [polarization-root investigation](notes/2026-10-31-polarization-root-budget.md)

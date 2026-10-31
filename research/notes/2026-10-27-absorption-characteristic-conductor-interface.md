@@ -227,6 +227,13 @@ boundaries matter here:
   at singular points of a smooth supported curve; for ordinary surfaces
   the intersection with the singular locus occurs only at pinch points.
 
+Scope clarification, independently checked in the [October 31 selection,
+§16](2026-10-31-unrestricted-strategy-assessment.md#16-pinching-abstract-supported-sections-and-the-marked-projective-image):
+the last STCI application retains Proposition 7.1's hypothesis that C
+meets the singular locus only finitely. Proposition 7.3 itself assumes
+a nonzero torsion local APic class. It does not exclude multiple generic
+inverse branches when C is contained in the conductor.
+
 An elementary pinching control explains the last issue. Normalize
 X=(a nodal rational curve) times P1 by S=P1 times P1, identifying two
 disjoint ruling fibers pointwise. If an ample smooth Cartier curve c in

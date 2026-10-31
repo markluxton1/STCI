@@ -1170,3 +1170,111 @@ covers the general supported-vanishing proof, source scopes, the dependent
 height branch and these stopping decisions. The initial suggestion that
 the specified supported target might remain useful is superseded by the
 proved vanishing; other relative or marked complexes remain unexamined.
+
+## 16. Pinching, abstract supported sections, and the marked projective image
+
+This selection returns to existence, allowing several inverse branches or
+a cover of C0 on a carrier's normalization. The positive full-conductor
+relation cone is already part of [R-0003](../results/fixed_carrier_conductor_criterion.md).
+Cancellation between different divisor directions, including cancellation
+of characteristic-zero logarithmic defects, is explicitly recorded in
+[the October 27 conductor interface, §4](2026-10-27-absorption-characteristic-conductor-interface.md#4-a-different-positive-characteristic-replacement-cancel-defects).
+It is not a new mechanism supplied by this selection. The singleton
+classification [R-0002](../results/cartier_singleton_lift.md) does not cover
+these inverse images.
+
+### What pinching really supplies
+
+[Ferrand, Theorems 2.2(iv), 5.4 and §6](https://www.numdam.org/article/BSMF_2003__131_4_553_0.pdf)
+supplies scheme pushouts under the stated affine-neighborhood hypotheses
+and gluing of invertible sheaves. Projective inputs alone do not ensure
+projectivity: §6.2 gives a proper nonprojective pinch. A compatible ample
+polarization, descending along the finite surjection, removes that issue.
+The [Temkin–Tyomkin generalization](https://arxiv.org/pdf/1305.6014), Theorem
+6.2.1(ii)(b) and Corollary 6.3.3 in the author version, strengthens pushout
+existence and flat-module descent, not the prescribed ambient embedding.
+
+There is a useful positive sufficiency statement. Take a polarized
+Ferrand pushout S of an integral normal projective surface T along a closed scheme
+D mapping finitely onto E. Assume T→S is finite surjective,
+E has reduced support C≅P1, the full reduced inverse image of C is
+Γ=⋃Γ_i=supp(D), and an invertible sheaf L on S pulls back to H on T.
+Suppose a section q of H^b has divisor Σn_iΓ_i, with every n_i>0.
+Then some q^N lies in I_D H^(bN): locally its equation is in the radical
+of I_D, and a finite cover gives a common exponent. The compatible pair
+(q^N,0 on E) descends to a section of L^(bN) whose zero support is exactly
+C, since this can be checked after the finite surjection. There is no
+off-C conductor condition in this setup.
+
+Thus pinching is a genuine operation constructing abstract surfaces and
+supported sections; it is not merely the fixed-carrier criterion restated.
+The preceding deduction is the elementary supported-pinching instance
+of that criterion, not a new theorem or an actual C0 construction in P3.
+It retains the full scheme D, not just its reduced curve.
+
+### The unresolved realization, with two possible routes
+
+Write g:D→E and let M=L|E, with gluing α:H|D≅g* M. The actual degree-one
+sections are the equalizer
+
+    H0(S,L) = ker[H0(T,H) ⊕ H0(E,M) → H0(D,g* M)],
+    (u,v) ↦ α(u|D) − g*v.
+
+To embed this S itself in P3, four compatible sections must separate the
+whole scheme and restrict on C to the marked span
+⟨s^4,s^3t,st^3,t^4⟩. In particular L|C must be O_P1(4).
+Taking a high tensor power to obtain an embedding into some projective
+space does not retain this marked polarization. If S itself were an
+integral hypersurface of degree at least two with L=O_S(1), the hypersurface
+sequence gives h0(S,L)=4. This is an inexpensive necessary check for that
+realization; it is not an obstruction to all projections or all carriers.
+
+Alternatively, a four-section series can give a finite birational P3
+image X different from the designed pushout S. This remains a possible
+construction. One must then check the full inverse support over C0 and
+descent through the actual, possibly larger conductor of T→X. The section
+already descending to S need not descend to X. Insisting that the original
+pushout embed would prematurely discard this alternative.
+
+[Hartshorne–Polini, Propositions 7.1–7.3 and Corollary 7.4](https://arxiv.org/html/1301.3222#S7)
+do not exclude the remaining multibranch setup. Their STCI-to-local-APic
+argument assumes the smooth curve meets the singular locus only finitely;
+it cannot be applied when C is contained in the conductor. The abbreviated
+singleton-fiber language in the October 27 notes must be read with this
+hypothesis. No broader exclusion is inferred here.
+
+### Recommendation, stopping conditions, and independent review
+
+Do not start a pinching-type, covering-degree or conductor-phase
+classification from these general theorems alone. The selection found
+no concrete marked four-section construction to test. Reopen for specified
+pinching/projection data with a plausible mechanism for the prescribed
+series and either direct embedding or descent through its actual image.
+Success need not be proved before selecting a bounded experiment. Its
+questions should be whether those sections give the required image,
+whether full inverse support is retained, and whether the supported
+section descends there. Stop a chosen experiment when its mechanism fails;
+do not automatically enumerate adjacent degrees or local types.
+
+From the existence side, one successful candidate can settle STCI and
+the supported-pinching operation remains available. From the nonexistence
+side, failure of a pinching model excludes only that source, without an
+exhaustive reduction of arbitrary defining pairs. No new arbitrary-pair
+constraint, carrier, mate or canonical promotion is claimed by this pass.
+
+Two fresh workers performed bounded read-only selection: an
+`gpt-6-astra/xhigh` construction scout and a `gpt-6.1-sol/high` primary-source
+scout. A separate fresh `gpt-6.1-sol/high` reviewer independently challenged
+the recommendation and checked the supported-power descent argument.
+The review corrected two overly restrictive readings: pinching supplies
+real abstract constructive input, and direct closed immersion of the
+designed pinch is sufficient rather than necessary. The recommendation
+above incorporates both corrections. All three assignments stop here;
+no further technical campaign is selected. The unrestricted
+characteristic-zero STCI question remains open.
+
+Final wording review: **PASS** for this section, its FRONTIER and
+literature-ledger summaries, and the two linked October 27 scope
+clarifications. The Temkin–Tyomkin theorem-number attribution was checked
+by the primary-source scout, not separately rechecked by the challenge
+reviewer. This is a reviewed selection assessment, not a promoted result.
