@@ -101,7 +101,7 @@ This is evidence that successive jet conditions are genuinely coupled. It is **n
 
 ## 7D. Exceptional sextic incidence loci are not correction-rank drops
 
-The conditional sextic cubic-jet equation is a parameter-dependent linear system in correction coefficients. A generic solution does not control its rank-drop locus. Solvability must be checked separately on each matrix-rank stratum using augmented minors. The [finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) retains these loci alongside the first-symbol image equations.
+The conditional sextic cubic-jet equation is a parameter-dependent linear system in correction coefficients. For a nonzero root the correction map is injective and has constant rank sixteen. Compatibility is vanishing in its twenty-four-dimensional cokernel. The [finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) retains these loci alongside the first-symbol image equations.
 
 These source constraints alone do not force a residual curve. A residual-degree theorem still requires a uniform upper bound on generic transverse length for actual proper pairs, including exceptional strata.
 
