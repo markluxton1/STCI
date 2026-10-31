@@ -153,17 +153,11 @@ The source-level ideal-power theorem gives an exact description of \(H^0(I_C^m(d
 
 The [formal-normal synthesis](formal-normal-intersection.md#12a-the-difference-between-source-completeness-and-symbol-surjectivity) explains the distinction. A uniform residual theorem still needs coverage of all admissible carriers in its quantified degree range; the stable-degree source description alone does not supply it.
 
-## 6.11C A finite (6,16) incidence with an exact cubic quotient
+## 6.11C The finite (6,16) incidence after the cubic simplification
 
-The degree-six quadratic-symbol map has rank 22 from a 23-dimensional source into 33 coefficients, with eleven independent image equations. For a nonzero moving quadratic root, the next cubic correction is multiplication by the root on sixteen coefficients; it has constant rank sixteen in forty cubic coefficients, leaving a twenty-four-dimensional quotient obstruction. The smooth torsion-two seed with its unique first-symbol multiplier fails that obstruction by the exact pairing \(-384\). This excludes the seed, not the family.
+The degree-six quadratic-symbol map has rank 22 from a 23-dimensional source into 33 coefficients, yielding eleven image equations. The next cubic correction is multiplication by a nonzero quadratic root on sixteen coefficients; it is injective, with a twenty-four-dimensional quotient obstruction in forty cubic coefficients. Equivalently, the four polynomial identities \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\) provide a division-free membership test. The known smooth torsion-two seed passes the first test but fails the second by pairing \(-384\).
 
-The next finite task is to solve the joint incidence of the eleven symbol equations, the cubic quotient obstruction, all twenty-five second-obstruction pairings, and full-scheme spectral torsion. Singular-root and multiplier-zero strata must be retained, but the cubic multiplication map has no rank-drop strata. Emptiness would exclude only the specified saturated movement-two (6,16) locus; nonemptiness would still require a proper degree-sixteen mate and support exhaustion. See [the conditional source calculation](normalization_conductor_phase2_addendum.md#the-finite-source-incidence-and-its-constant-rank-cubic-obstruction).
-
-## 6.11G The finite cubic calculation now has four explicit equations
-
-The 24-dimensional cubic quotient obstruction in the conditional (6,16) lane can be tested directly by four polynomial coefficient identities for the two correction polynomials. They are valid without division by root coefficients, including on singular-root loci, and have at most one solution for each nonzero root and prescribed cubic difference. See [the exact equations](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
-
-The remaining finite task is to solve these identities jointly with the eleven leading-symbol equations, all twenty-five second-obstruction pairings, and full-root spectral torsion. Uniqueness of the correction is not uniqueness of the root/multiplier parameters and does not construct a mate.
+The remaining finite task is to solve these equations together with all twenty-five second-obstruction pairings and full-root spectral torsion, retaining singular roots and multiplier-zero strata. A proof of emptiness would exclude only the specified saturated movement-two (6,16) locus; a surviving point would still require a proper mate and support exhaustion. See [the explicit coefficient formulation](normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
 
 ## 6.12 Global source and embedded lifting tests
 
