@@ -59,6 +59,15 @@ do not yet supply the needed embedded construction or a new all-pair
 constraint. This strand stops without a prime, endpoint or presentation
 classification; its exact reopening conditions are retained in §30.
 
+The [Cox-fiber and ordinary-power checkpoint, §31](notes/2026-10-31-unrestricted-strategy-assessment.md#31-the-exact-cox-fiber-closes-a-reduction-shortcut-not-the-stci-question)
+identifies a quadric-cone Rees fiber, excluding two-generated reductions
+of every ordinary or symbolic power. Its general quadric cohomology
+formula gives 2r−1 missing ambient sections on the r-th ordinary
+thickening of C0 at twist 3r−2. These explain limits of specific
+construction criteria, without constraining arbitrary STCI pairs in
+the same way. The affine-fiber and finite-chamber shortcuts close;
+no new classification or technical experiment is selected.
+
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 
 The [algebraic continuation](notes/2026-10-31-algebraic-complement-obstructions.md)

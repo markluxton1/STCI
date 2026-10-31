@@ -2805,3 +2805,147 @@ this was not a new SGA or whole-repository audit. The parent separately
 corrected and checked the two internal anchors and opening field
 wording excluded from the review disposition. Subsequent changes
 to this section only record this review state.
+
+## 31. The exact Cox fiber closes a reduction shortcut, not the STCI question
+
+This bounded selection concerns the fixed C0 over an algebraically
+closed field of characteristic zero. Two fresh scouts checked
+affine-fibration and ambient Cox/principalization mechanisms.
+Independent challenge recommended one short uniform extraction,
+reported before preservation, and no further technical experiment.
+
+**Actual gain and inherited input.**
+The [new compact deduction](2026-10-31-cox-fiber-and-power-defects.md)
+uses the published Cox presentation for the exact quartic blowup.
+The ordinary Rees special fiber at the affine-cone vertex is
+\[
+\mathcal F(I_{C_0})=k[Q,U,V,W]/(UW+V^2).
+\]
+The special-fiber algebra has dimension three; its projective
+spectrum is a two-dimensional quadric cone. Every power therefore
+has analytic spread three, excluding
+a two-generated reduction of any ordinary or symbolic power.
+A hypothetical STCI pair need not be such a reduction.
+
+All-power saturation and symbolic-equals-ordinary were already
+proved in the [October 5 quadric theorem](2026-10-05-literature-new-routes.md#2-uniform-theorem-for-integral-curves-on-a-smooth-quadric);
+the weaker October 7 bound is not the full existing result.
+The extraction does not rebrand this inherited theorem as new.
+The same elementary quadric sequence now makes the global section
+defect explicit:
+\[
+h^1(\mathcal I_{C_0}^r(3r-2))=2r-1\quad(r\ge1).
+\]
+For any integral type-(a,b) curve on a smooth quadric, with
+\(1\le a\le b,\ b\ge3\), the corresponding value at degree
+\(br-2\) is \(\max\{(b-a)r-1,0\}\), in every characteristic.
+These are missing ambient sections on the ordinary codimension-two
+thickening, not on the Cartier multiple inside the quadric.
+This explains the already recorded failure of the eventual-CM
+hypothesis in symbolic-Rees construction criteria. It does not
+transfer the defect to arbitrary supported CI structures.
+
+**Affine morphisms do not supply an independent fibration input.**
+The [existing complement-pencil argument, §8](#8-subsequent-selection-birational-transport-and-complement-pencils)
+already proves that STCI is equivalent to a nonconstant
+\(f:\mathbf P^3\setminus C_0\to\mathbf P^1\), and every such
+morphism is affine. Its fibers are complements of C0 in the pencil hypersurfaces,
+with no implied affine-plane or ruled structure.
+
+[Dubouloz–Kishimoto, Theorem 6](https://arxiv.org/pdf/1408.1328)
+requires negative logarithmic Kodaira dimension of the general
+smooth geometrically connected affine surface fibers; its printed
+field hypothesis includes infinite transcendence degree over Q.
+Its output also shrinks the base and makes a finite étale base
+change. It neither constructs f nor establishes the missing
+fiber hypothesis.
+[Gurjar–Masuda–Miyanishi, Theorem 2.8](https://sci-tech.ksc.kwansei.ac.jp/~kayo/cmn/papers/lnd_def_final_02.pdf)
+requires every closed fiber of the given smooth affine morphism
+to be an affine plane. Generic smoothness does not give that.
+[Dinh–Jelonek, Theorem 3.4](https://d-nb.info/1185855084/34)
+removes stratified generalized critical values, including
+asymptotic critical values; ignoring degeneration at infinity
+would unjustifiably turn the pencil into a global topological
+bundle. The missing boundary behavior is the issue to control.
+
+**Finite ambient chambers do not principalize arbitrary pencils.**
+[Hu–Keel, Propositions 1.11 and 2.9](https://arxiv.org/pdf/math/0004017)
+controls complete linear systems and rational contractions on a
+Mori dream space. The rational-contraction condition cannot be
+assumed for a selected pencil: its resolution can extract divisors
+mapping dominantly to the parameter line.
+[Wlodarczyk, Theorem 1.0.1](https://www.math.purdue.edu/~wlodarcz/singularities/Resolution.pdf)
+principalizes each specified ideal, without a uniform estimate
+charging all later contact against the original projective degrees.
+
+One uniform geometric control makes the distinction concrete.
+For every \(N\ge2\), the same-degree pair in \(\mathbf P^3\)
+\[
+X^N,\qquad XZ^{N-1}+Y^N
+\]
+has sole reduced support the line \(L=V(X,Y)\). On \(Z=1\)
+at its generic point, put \(u=X,\ v=Y,\ w=u+v^N\). Its ideal is
+\[
+(u^N,u+v^N)=(w,v^{N^2}).
+\]
+Successive ordinary blowups in a generic transverse surface
+must retain the valuation \(\nu(w)=N^2,\ \nu(v)=1\), and
+\(\nu(u)=N\). Thus the fixed Mori dream blowup of the reduced
+line does not provide a fixed finite modification principalizing
+all these pencils. All this contact remains over the line;
+there is no residual curve downstairs.
+
+This control disproves a bound based only on the fixed support
+or finite ambient chamber list. It does not disprove a bound
+depending on the actual degrees, nor construct a pair for C0.
+The desired new theorem would have to account for those degrees
+and the global coefficients sustaining the additional centers.
+
+**Comparative decision and stopping.**
+The exact Cox ring is useful available global input. Its finite
+generation, the automatic affineness of a complement pencil,
+and per-ideal principalization do not themselves supply a
+construction or an unrestricted obstruction. Asking for a
+relative algebra is also not a construction unless it is
+identified with this exact complement.
+
+For existence, an independently supplied map or embedded
+operation remains sufficient to select a test. For nonexistence,
+the next comparison must constrain the selected pair's additional
+centers or full fiber boundary together with their global degree
+cost, beyond the inherited first-blowup inequality. The current
+results supply neither a positive residual-degree floor nor a
+reduction of arbitrary pairs to powers of I. No chamber, affine-
+fiber, power or normal-form classification is selected.
+
+The scouts /root/affine_fibration_global_selection and
+/root/formal_ambient_contraction_selection used fresh
+gpt-6-astra/xhigh contexts. The independent reviewer
+/root/ambient_fibration_strategy_challenge used gpt-6.1-sol/high,
+checked the primary hypotheses, reconstructed the Cox
+specialization and equalized-pencil control, and then proved
+the cohomology formula independently. The printed
+codimension-(d-1) scope of the symbolic-Rees theorem and the
+local-only conclusion of Cowsik's criterion were corrected
+before reliance. No nested delegation or computation was run.
+
+**Final written-artifact review: scoped PASS.**
+The reviewer checked the proof note, this section and the new
+literature-ledger entry. One dimension ambiguity was corrected:
+the special-fiber algebra has dimension three and its Proj is
+two-dimensional. The actual fiber description was also clarified.
+The reviewer then verified the corrected states at SHA256
+
+    7b6c7a7fd8115efb67819cf3dd6cc2f561883d9799593058c4423afa8c33874b
+    research/notes/2026-10-31-cox-fiber-and-power-defects.md
+
+    a9a9a10be67c3f56f10a989ebafd94ac0b3600b2408295690d8fd7e14850f6d6
+    research/notes/2026-10-31-unrestricted-strategy-assessment.md
+
+The proof, characteristic-free cohomology generalization, source
+qualifications, cone-vertex interpretation, inherited-versus-extracted
+status and stopping decision pass within their stated scopes.
+The assessment fingerprint precedes this review record; subsequent
+changes only record the review state. All three assignments are
+complete and no new task is assigned to these contexts.
+No canonical promotion or unrestricted STCI conclusion follows.

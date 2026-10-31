@@ -902,6 +902,33 @@ fixed quartic, not a rejection of residual methods or of the
 paper's existence results. No prime or presentation search is
 selected from these sources.
 
+## Exact quartic Cox fiber and the limits of fibration criteria
+
+[The Cox-fiber deduction](notes/2026-10-31-cox-fiber-and-power-defects.md)
+uses [Derenthal–Hausen–Heim–Keicher–Laface, Theorem 4.5(22)](https://arxiv.org/html/1409.0799v3#S4).
+Although the table marks a representative, Case X22 specifies
+exactly C0. All nine relations give the quadric-cone Rees special
+fiber and analytic spread three. All-power saturation is inherited
+from the October 5 quadric theorem, not a new result.
+[D'Cruz–Mandal–Verma, Theorems 1.1–1.2 and 2.3](https://arxiv.org/pdf/2210.05886)
+retains the local equation count, height-(d-1) hypothesis, and
+eventual-CM condition, respectively. The new explicit cohomology
+formula explains why the last condition fails for these powers.
+
+[Assessment §31](notes/2026-10-31-unrestricted-strategy-assessment.md#31-the-exact-cox-fiber-closes-a-reduction-shortcut-not-the-stci-question)
+also checks [Hu–Keel, Propositions 1.11 and 2.9](https://arxiv.org/pdf/math/0004017)
+and [Wlodarczyk, Theorem 1.0.1](https://www.math.purdue.edu/~wlodarcz/singularities/Resolution.pdf):
+ambient chambers and per-ideal termination do not supply the
+missing degree-sensitive estimate for a selected pencil.
+[Dubouloz–Kishimoto, Theorem 6](https://arxiv.org/pdf/1408.1328)
+needs negative log Kodaira dimension of general affine fibers;
+[Gurjar–Masuda–Miyanishi, Theorem 2.8](https://sci-tech.ksc.kwansei.ac.jp/~kayo/cmn/papers/lnd_def_final_02.pdf)
+needs affine-plane fibers; and
+[Dinh–Jelonek, Theorem 3.4](https://d-nb.info/1185855084/34)
+retains generalized critical values at infinity. None supplies
+a morphism from the exact quartic complement or removes its
+unknown boundary behavior. These checks select no classification.
+
 ## October 21 accepted-interface references
 
 The conditional regular-surface obstruction [STCI-R-0018](results/regular_singular_root_formal_obstruction.md) uses Bost, *Algebraic leaves of algebraic foliations over number fields*, Corollary 3.8, for algebraization with a proper connected lci scheme of definition; Hartshorne, *Lectures on Deformation Theory*, Theorems 6.3 and 9.3, for deformations of singular lci Cartier curves; and the established ruled-surface argument used by STCI-R-0005. These citations and their precise singular-center applicability were checked in [the dedicated audit](notes/2026-10-19-regular-singular-root-smoothing-audit.md). This ledger entry records dependencies, not an independent new literature theorem.
