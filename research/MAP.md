@@ -4,7 +4,7 @@ This is a **conceptual navigation map**, not a new proof, a chronological record
 
 ## The central question and boundary
 
-**Current research framing:** the [geometric research integration](notes/2026-10-30-four-streams-integration.md) prioritizes literature-informed arguments for arbitrary defining pairs, including simultaneous fixed-surface restrictions, the reviewed Jacobian/contact identity, and the tropical model's endpoint normal maps. The earlier [existence and non-existence research game](STCI_GAME.md) and [equation search](STCI_SEARCH.md) retain independent programs, actual source spaces, exact tests and useful failures. These guide research selection, not theorem authority or the open status below.
+**Current research framing:** the [unrestricted strategy assessment](notes/2026-10-31-unrestricted-strategy-assessment.md) evaluates what the [geometric research integration](notes/2026-10-30-four-streams-integration.md) has added before another research round. Each result should yield geometric understanding, useful generalizations and an assessment of both existence and nonexistence. The earlier [research game](STCI_GAME.md) and [equation search](STCI_SEARCH.md) retain actual source spaces, exact tests and useful failures. These guide research selection, not theorem authority or the open status below.
 
 The [subsequent search continuation](notes/2026-10-29-search-continuation.md) gives a uniform mixed-weight \((6,6)\) exclusion and an attained arithmetic degree-growth bound on a specified non-binomial source. Its marked-quadric projection calculation is partial: the remaining admissible and descent loci are explicitly open. These are reviewed provisional contributions, not additions to the canonical result list.
 

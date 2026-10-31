@@ -509,6 +509,35 @@ for the actual homogeneous pair or its distinguished column, or a
 construction of that pair. Neither another local-type list nor a
 classification of arbitrary matrix factorizations is adopted as an agenda.
 
+## 9. Closeout and continuing strategy assessment
+
+At the user's request, the two bounded investigations following §8 ended
+before any further research round. The
+[unrestricted strategy assessment](2026-10-31-unrestricted-strategy-assessment.md)
+preserves their findings: the distinguished-column matrix is the embedded
+ideal of a generalized divisor on NQ, without an automatic invertibility
+claim; direct two-marked-fiber abc loses transverse information, with the
+missing ramification budget made explicit. The short elementary arguments
+received a bounded independent check; the assessment identifies the source
+applications that did not receive a full independent mathematical audit.
+
+A fresh strategy reviewer challenged the allocation and corrected a bias
+against special-family constructions: one such success can settle existence,
+whereas a special-family exclusion needs a further reduction to settle
+nonexistence. The assessment compares genuine new constraints, exact
+reformulations, failed shortcuts and constructive flexibility. No specific
+technical campaign is selected. It recommends a bounded comparison of
+concrete mechanisms, with explicit new inputs and stopping conditions,
+after the recommendation has been reported.
+
+The [decision guide](../RESEARCH_DECISION_GUIDE.md#continuing-extraction-and-strategy-assessment)
+now makes result extraction, useful generalization and strategic review
+continuing parts of the research process. Every result should teach us
+about the larger problem; a quick contradiction is not the required output.
+Existence remains a live possibility, and new examples should answer a
+named question before more cases are assigned. Both producers and the
+fresh reviewer completed their assignments without starting another round.
+
 ## State at this integration checkpoint
 
 The retained proof notes and independent audits preserve the actual
@@ -518,20 +547,11 @@ modified. The research branch contains these proposals and navigation
 updates; no result has been promoted.
 
 The characteristic-zero STCI objective remains unresolved and active. The
-remaining geometric target is simultaneous compatibility of arbitrary
-**higher** supported structures with both endpoint planes and Q, retaining
-full nonlinear transitions, normal multiplication and the actual ambient
-twists. The affine endpoint criterion asks for a strict multiplicity
-inequality for every affine supported pair, or one equality construction;
-the finite-cover criterion asks whether an actual homogeneous pair can
-realize the required nilpotent algebra. The new contact identity adds an
-actual equation constraint, and the full tropical family adds strict
-movement and an all-presentations barrier upstairs. These still leave
-the global homogeneous image condition unresolved. The full conductor
-pairing retains endpoint descent, while the all-multiplicity moving
-control proves that local CI/Gorenstein compatibility cannot alone close
-that gap.
-Repeating the reduced determinant obstruction, extending a fixed-carrier
-calculation, or testing successively more trace moments without a uniform
-principle would not complete that task. Literature and existing evidence
-must be checked before selecting the next substantial direction.
+contact identity, strict movement of the full tropical family, and exact
+affine, conductor and finite-cover formulations are available inputs. They
+do not yet supply an incompatible global constraint or an actual supported
+pair. Local flexibility and the existing exact projection sources remain
+constructive evidence to understand, with their precise limits retained.
+The current allocation and stopping conditions are those in §9 and the
+linked assessment; earlier suggestions in this record are not automatic
+continuations. Main and the consolidated branch remain untouched.

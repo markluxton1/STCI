@@ -4,6 +4,46 @@ This is a **navigation and prioritization guide**, not a new theorem, proof audi
 
 Prefer geometric arguments with an explicit path to the unrestricted STCI question. Check literature and the existing evidence before selecting a direction, and do not let successive family exclusions replace the full target. The [October 30 integration](notes/2026-10-30-four-streams-integration.md) illustrates this rule through arbitrary-pair criteria and counterexamples to proposed universal implications. Its finite-cover and affine-endpoint formulations are available tools, not prescribed methods or established obstructions.
 
+## Continuing extraction and strategy assessment
+
+Every result, including a failed construction, flexibility example or
+counterexample to a proposed lemma, should change our understanding of the
+larger problem. Extract its geometric mechanism, exact scope and review
+status; ask which hypotheses are essential, what useful generalization is
+supported or worth testing, and what it teaches both a construction program
+and a nonexistence program. Separate proved generalizations from proposed
+ones. Do not require each result to yield a contradiction. C may be a STCI,
+and evidence of flexibility or a workable construction mechanism matters.
+
+At each substantive integration point, and before allocating another
+substantial research round, reassess the strategy against the unrestricted
+characteristic-zero question. Use the current integration record rather
+than creating a separate tracking system. State:
+
+- What was actually added beyond inherited results, and which global
+  implications remain missing.
+- Which particular mechanisms failed, which routes merely reformulate the
+  global equation problem, and which broader methods remain available.
+- How existence and nonexistence directions compare. One special-family
+  construction can settle existence; excluding that family needs a further
+  exhaustive reduction to settle nonexistence.
+- The precise next geometric question or construction, the new input being
+  tested, what either outcome would teach, and when to stop or redirect it.
+
+Have a fresh independent reviewer challenge consequential next allocations
+against the relevant evidence, including whether negative controls have
+biased selection against existence. Record and adjudicate material findings,
+then report the recommendation and stopping conditions before the next
+round. This is a continuing mathematical decision, not a new audit packet
+for every small calculation. Exploration may test a specific unproved
+mechanism; it need not already possess a theorem. A classification or local
+example needs a named general question or constructive purpose, and should
+stop expanding once that question has been answered. The
+[October 31 assessment](notes/2026-10-31-unrestricted-strategy-assessment.md)
+records the first application of this standing process.
+
+## Available geometric inputs
+
 The [all-multiplicity moving control](notes/2026-10-31-moving-family-descent.md)
 shows that positive tropical movement, curvilinear fibers and both locally
 CI endpoint contractions can coexist. Its projective image fails the global

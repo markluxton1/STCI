@@ -8,6 +8,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Start here
 
+- [Unrestricted strategy assessment (October 31)](notes/2026-10-31-unrestricted-strategy-assessment.md) — closes the two bounded investigations, separates new constraints from reformulations and failed shortcuts, compares existence with nonexistence, and records the next-allocation recommendation and stopping conditions; linked to the continuing assessment process in the decision guide
 - [Geometric investigation of arbitrary defining pairs (October 30–31)](notes/2026-10-30-four-streams-integration.md) — literature-informed research and independent audits: torus limits, infinitesimal lifting, affine endpoints, fixed-surface restrictions, the actual Jacobian/contact identity, and full tropical thickenings with necessary movement, conductor boundary schemes and an all-multiplicity moving control; reviewed provisional contributions, with unrestricted characteristic-zero STCI still open
 - [The STCI existence and non-existence research game](STCI_GAME.md) — current adversarial method: both sides develop independent research programs, construction and exclusion moves update a common claim ledger, and every result is assessed for its effect on the unrestricted question
 - [Geometric interpretation and review](notes/2026-10-30-stci-game-geometry-review.md) — what the current ranks, coefficients, covers, attachment counts and torsion conditions mean geometrically, and which global implications remain unproved
