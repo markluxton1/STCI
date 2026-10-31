@@ -111,6 +111,12 @@ The latter implies the pointwise necessary inequality \((n-1)\operatorname{ord}_
 
 The marked cubic and ruled normalizations illustrate why the distinction matters: reduced inverse support, finite normalization, resolution, and scheme-theoretic conductor are different objects. There is no established extension of the singleton divisor identity to multiple inverse branches or non-Cartier inverse curves by summing branchwise formulas.
 
+## 4.7B Full Artinian phases and bounded-power exceptions
+
+For a finite inclusion of characteristic-zero conductor algebras, descent of a power has two distinct parts: the nilpotent logarithm must already descend, while the reduced etale ratio must be torsion. The [finite-Artinian phase treatment](normalization_conductor_projection.md#exact-finite-artinian-phase-descent-and-effective-rational-bound) makes the test exact. It explains why agreement on the reduced conductor cannot replace full scheme-theoretic gluing.
+
+The [torsion-coset family reduction](normalization_conductor_projection.md#24-torsion-coset-envelope-for-all-power-projection-families) is conditional on a specified admissible projection family and its constructible phase image. Isolated surviving torsion phases have bounded orders once the image is explicitly controlled; positive-dimensional surviving torsion cosets can have unbounded least orders across carriers. A different [single-field compression theorem](normalization_conductor_projection.md#26-single-field-conductor-power-compression-exact-scope) is source-level and conditional on a single residual field at every generic conductor point. Split residual algebras defeat its bound. Neither statement computes the missing conductor phases for the three Cartier singleton models.
+
 ## 4.8 What this chapter does and does not establish
 
 The newer [carrier/conductor/socle interface](carrier_conductor_socle_interfaces.md) adds **scoped** results not covered by the original normalization classification: actual local Cartier-index and socle constraints on normal carriers (R-0034 and R-0035), a pointwise conductor-to-top-socle divisor identity under smooth singleton hypotheses (R-0036), and exclusion of specified plane-projection families (R-0017). These do **not** close the remaining Cartier singleton models or establish a universal conductor-to-normal-filtration comparison.
