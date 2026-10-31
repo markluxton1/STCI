@@ -20,6 +20,10 @@ pairs below when the power is prime to \(p\). It uses full nilpotence
 and global primary-ideal membership, beyond the trace argument here.
 General eigen special fibers are still subject only to the stated trace
 restriction unless another result applies.
+The [Frobenius-power extension](FROBENIUS_POWER_LIFTING_PRECISION.md)
+also excludes unramified lifts of the prescribed \(p\)-divisible powers,
+gives their exact strong Witt precision, and requires ramification index
+at least \(p-1\) for any remaining supported trait.
 
 ## The valuation obstruction
 

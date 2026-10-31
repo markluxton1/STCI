@@ -24,6 +24,7 @@ locator is [results/INDEX.md](results/INDEX.md).
 | Integral embedded obstruction classes | [Arithmetic lifting and defect twists](supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md) | Primitive-stage, defect-twisted and derivation-gluing classes distinguish prescribed embedded lifts from arbitrary characteristic-zero equations |
 | Simultaneous mixed-characteristic deformation | [Integral trace and ramification](supplements/MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md), [full pair incidence](supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#mixed-characteristic-lifting-on-the-full-incidence) | The mixed trace coefficient vanishes quadratically in coefficients breaking special-fiber torus symmetry, obstructing unramified supported lifts and bounding ramification; arbitrary horizontal components remain unresolved |
 | Full nilpotence and extraction of powers | [Prime-to-p extraction](supplements/PRIME_TO_P_POWER_EXTRACTION.md) | The monogenic generic algebra and primary global equation ideal lift an actual polynomial root modulo the first equation; prescribed prime-to-p powered quartics admit no supported mixed-characteristic trait, while pure p-powers remain |
+| Frobenius powers and finite lifting precision | [Witt precision and ramification](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md) | Raising to a p-power shifts exact strong Witt precision by its exponent; powered quartic traits require absolute ramification at least p−1, where a nonlinear term defeats the strict Newton estimate |
 
 ## Compatibility as an optional viewpoint
 

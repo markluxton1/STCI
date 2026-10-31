@@ -12,6 +12,10 @@ is prime to the residue characteristic.
 provisional theorem. No canonical promotion or unrestricted
 characteristic-zero conclusion.
 
+The [Frobenius-power extension](FROBENIUS_POWER_LIFTING_PRECISION.md)
+quantifies finite unramified precision and extracts powers divisible by
+\(p\) when the absolute ramification index is below \(p-1\).
+
 ## Extraction theorem
 
 Let \(R\) be a complete mixed-characteristic DVR, with uniformizer
@@ -216,6 +220,13 @@ degree-\(4p^e\) equation, not a quartic; it does not exclude that case.
 The failure to invert \(p\) is the exact remaining limitation of this
 root mechanism.
 
+The subsequent [precision and ramification theorem](FROBENIUS_POWER_LIFTING_PRECISION.md)
+shows that the maximum unramified strong precision for
+\((F_p,H_4^n)\) is \(1+v_p(n)\). Any still-possible actual trait
+through a \(p\)-divisible powered point must have
+\(v_\pi(p)\ge p-1\). Thus the remaining pure-power problem is an
+arbitrary-ramification question beyond that bound, not an unramified lift.
+
 Other special pairs, including the non-eigen degree-\((16,p)\) source,
 are outside this prescribed-power conclusion. No coverage theorem puts
 every hypothetical characteristic-zero presentation in this family, and
@@ -226,5 +237,5 @@ order to homogeneous polynomial membership, the actual-trait nilpotence,
 generic normal-coordinate elimination, the divided-power induction, lifting
 within the integral curve ideal, and the arbitrary-ramification scope.
 The generalized correction space is a sum, not necessarily a direct sum;
-uniqueness of the corrections is not used. The pure \(p\)-power case
-and arbitrary special presentations remain open.
+uniqueness of the corrections is not used. Pure \(p\)-powers at the
+remaining ramification indices and arbitrary special presentations remain open.

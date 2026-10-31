@@ -29,6 +29,12 @@ goes further for the prescribed powered-quartic points: every prime-to-\(p\)
 power can be extracted from an actual supported trait, excluding those
 points from horizontal components even after ramification. Pure \(p\)-powers
 and other special presentations remain unresolved.
+For the powered-quartic family, the
+[Frobenius-power precision theorem](FROBENIUS_POWER_LIFTING_PRECISION.md)
+further gives exact maximum unramified strong precision \(1+v_p(n)\)
+and the necessary absolute ramification bound \(v_\pi(p)\ge p-1\)
+for any remaining actual trait. Other special presentations are not covered
+by these family-specific bounds.
 
 ## Bounded degree and characteristic-zero existence
 
@@ -221,6 +227,13 @@ would yield a quartic mate on its characteristic-zero generic fiber.
 Thus these points satisfy \(p\in\sqrt{0}\) in their local incidence
 rings. This allows arbitrary deformations of both equations and arbitrary
 ramification. It does not calculate the whole degree-\((p,4n)\) locus.
+
+For \(p\mid n\), the [precision theorem](FROBENIUS_POWER_LIFTING_PRECISION.md)
+excludes unramified lifts past \(W_{1+v_p(n)}\), even when both
+equations vary. The naive powered equations attain that precision. This
+is a strong-support statement, not an identification of infinitesimal rank
+conditions with support. An actual trait would have absolute ramification
+index at least \(p-1\); its existence at those indices remains open.
 
 The remaining arithmetic input is a support-preserving lifting operation
 or a structural calculation on this full simultaneous-pair incidence.

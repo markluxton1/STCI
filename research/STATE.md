@@ -102,6 +102,17 @@ For \(n=p^e n_0\), only the prime-to-\(p\) factor \(n_0\)
 is removed; the pure \(p\)-power and arbitrary-presentation cases remain
 open. This is not unrestricted degree growth.
 
+For that same powered-quartic family, the
+[reviewed Frobenius-power theorem](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md)
+gives exact maximum unramified strong precision \(1+v_p(n)\), allowing
+both defining equations to vary. The naive integral forms attain the bound;
+their next Artin level has strictly larger curve-ideal nilpotence index.
+Any remaining supported characteristic-zero trait must satisfy
+\(p\mid n\), \(\deg G\ge4p\), and \(v_\pi(p)\ge p-1\).
+These are bounds on liftability within the specified family. No supported
+trait at the remaining ramification indices or unrestricted degree bound
+has been established.
+
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.
 A source-reviewed result need not have a promoted ID. Characteristic extensions
