@@ -139,6 +139,12 @@ Finally [R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) excludes a *
 These results separate four questions: conormal splitting, full initial equations, global reduced support, and arithmetic deformation of a prescribed embedded scheme. None may be substituted for another.
 
 
+## 3.10A Characteristic-two cancellation versus embedded lifting
+
+The prescribed pair \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\) gives an exact arithmetic comparison, not a deformation-invariant STCI certificate. In characteristic two the generic initial equations first share a normal factor; cancellation supplies a fourth-order initial equation and generic transverse length four. The local filtered comparison defect nevertheless vanishes. In characteristic zero the same integral pair has additional reduced components, so the special-fiber support cannot be transported by flatness alone. See [R-0021](../results/quartic_mu4_degeneration.md) and [R-0031](../results/quartic_char2_fourth_equation_kernel.md).
+
+The conormal splitting change [R-0020](../results/quartic_char2_conormal_splitting.md) and the prescribed embedded nonlifting result [R-0012](../results/quartic_z4_lift_obstruction.md) address different objects. The latter excludes the specified supported embedded lift over its stated two-adic bases, **not** the displayed integral family (whose generic support is larger), nor every characteristic-zero pair. This example tests three separate interfaces: full initial ideals, integral embedded liftability, and generic support.
+
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
 The [October 27 one-step investigation](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
