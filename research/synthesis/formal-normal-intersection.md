@@ -122,6 +122,16 @@ At d=3p it gives a recursive description of *all* order-at-least-p carriers: the
 
 This closes an ambient-source completeness question for these degrees, but not the STCI problem. It does not constrain singularities of an arbitrary carrier in the space, the generic initial ideal of a mate, or the absence of residual support. The distinction is important: a complete parameterization of a vector space is not a classification of the geometry of its members.
 
+## 12A. The difference between source completeness and symbol surjectivity
+
+The ideal-power theorem identifies every actual ambient section of \(I_C^m(d)\) with an ordinary degree-\(d\) product expression for \(d\ge3m\). Its next restriction map
+\[
+H^0(I_C^m(d))\longrightarrow H^0(C,\operatorname{Sym}^m(I_C/I_C^2)(d))
+\]
+can nevertheless have a proper image. The source theorem controls its **domain**, not its rank or cokernel. A higher-order jet from the same global equation must also satisfy compatibility with the lower orders; arbitrary choices in distinct graded pieces need not glue.
+
+This explains why a complete degree-\(3m\) recursion is useful for finite experiments but is not a global STCI obstruction. It supplies a finite ambient parameter space; one still needs a uniform transverse-length or conductor argument on the proper-pair locus. The [global-source section](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) records the exact image-as-kernel formulation using the connecting map to \(H^1(I_C^{m+1}(d))\).
+
 ## 13. A single local-to-global test protocol
 
 For an actual proper pair F,G, begin with its generic colength and full I-initial ideal over K, then compute the horizontal exceptional directions. At each special point, record the conormal frame transition and the *integral* weighted-initial lattice, including cancellation-generated relations and any torsion. If a curvilinear saturated flag is available, apply the scoped residual-zero-cycle formulas; otherwise record precisely why the hypotheses fail. Next test whether the candidate local jets lie in the image of the global degree-d and degree-e equation spaces, using the exact power theorem when its degree range applies. Finally compute the projective residual cycle, not just the exceptional support.
