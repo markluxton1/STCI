@@ -67,6 +67,10 @@ The [free cube-orbit chart certificate](normalization_conductor_phase2_addendum.
 
 The [two-node continuation](normalization_conductor_phase2_addendum.md#two-node-root-strata-exact-exclusions-and-retained-pencils) excludes the generic nonzero-defect line and the nonzero-defect \(B/C\) boundaries under forced-norm and actual-pair hypotheses. The generic conic is unresolved. The zero-defect locus has the exact global sextic form \(H_1H_2+\eta q^3\), with \(\eta\ne0\) required for sole support by cubic carrier exclusion. None of these calculations removes the need for the norm bridge, full second obstruction, actual mate and support tests.
 
+## Geometric condition after global realization
+
+The reviewed strict-sextic argument forces a nonreduced multiplier divisor on the full root for an actual supported conditional (6,16) pair. Its degree-52 discriminant-resultant condition is distinct from the first-symbol and cubic source tests. It cannot be imposed on a bare root incidence point without the actual-pair and saturated-relation hypotheses, and its exceptional zero locus has not been excluded.
+
 ## Established dependencies
 
 The historical jet rank-defect calculation in [order-one structure](../results/order_one.md) is a concrete example of global-section restriction failure. It is conceptually related to, but not proved equivalent to, the R-0030 local equation-module comparison defect or the saturated-layer divisors in R-0016/R-0019. These are **conceptual contacts**, not established implication arrows.
