@@ -105,11 +105,9 @@ The conditional sextic cubic-jet equation is a parameter-dependent linear system
 
 These source constraints alone do not force a residual curve. A residual-degree theorem still requires a uniform upper bound on generic transverse length for actual proper pairs, including exceptional strata.
 
-## 7E. Exact augmented-rank criterion for the cubic jet
+## 7E. Constant-rank correction and residual scope
 
-The conditional (6,16) cubic-jet comparison is a system of 40 coefficient equations in at most sixteen correction coefficients. Writing it as \(A(t)x=b(t)\), the rank-r stratum of A admits a correction precisely where every (r+1)-minor of the augmented matrix vanishes. One must impose the rank-r condition on A itself, including a nonzero r-minor, rather than solve only on a generic maximal-rank open. The [determinantal prescription](normalization_conductor_phase2_addendum.md#determinantal-elimination-without-generic-division) gives the exact formulation.
-
-This is a finite **source-realization** test. The projected solvability locus may be merely constructible, and its closure can add spurious boundary candidates. Even exact elimination of this system does not replace the generic transverse-length bound needed to force residual degree.
+For the displayed conditional sextic cubic comparison, multiplication by a nonzero quadratic root sends the sixteen coefficients of \(\ell u+mv\) injectively into forty cubic coefficients. The quotient obstruction therefore has dimension twenty-four. The earlier generic augmented-rank formulation was valid linear algebra but its proposed rank-drop analysis is unnecessary for this particular multiplication map. Root singularities and multiplier zeros still matter to other equations. A vanishing cubic obstruction does not itself bound transverse length or remove a residual curve.
 
 ## 8. Fixed boundary versus residual removal
 
