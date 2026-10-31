@@ -12,6 +12,19 @@ promoted quartic exclusion, proves unconditional growth of mate degrees
 over every quartic carrier. Neither establishes unrestricted degree growth
 without the characteristic-zero nonexistence hypothesis.
 
+The characteristic comparison has a broader purpose than degree estimates.
+Degree growth tests nonexistence across all presentations; a horizontal
+component of a fixed-degree incidence would instead construct a
+characteristic-zero presentation. Local lifting obstructions distinguish
+particular special fibers, and Frobenius/conductor calculations identify
+which infinitesimal gluing conditions disappear in characteristic \(p\).
+These are different routes to the characteristic-zero question.
+The [mixed-characteristic trace obstruction](MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md)
+now constrains simultaneous deformations of both equations near the
+torus-homogeneous locus: it excludes unramified good reduction when
+\(v_p(ab)=1\) and gives a necessary valuation bound for ramified lifts.
+It does not calculate every horizontal component.
+
 ## Bounded degree and characteristic-zero existence
 
 ## 1. The exact characteristic limit that would settle the question
@@ -187,6 +200,14 @@ full incidence. The [Granger–Schulze construction](https://arxiv.org/abs/1804.
 concerns deformations of monomial space-curve singularities; its analytic,
 equicharacteristic semigroup setting supplies no support-preserving
 projective mixed-characteristic lift here.
+
+For the separate torus-homogeneous special-fiber locus, the
+[reviewed integral trace calculation](MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md)
+does allow arbitrary simultaneous deformations of both equations. If
+\(r\ge1\) is the least valuation of their normalized non-eigen
+coefficients, every actual mixed-characteristic supported lift satisfies
+\(e\,v_p(ab)\ge2r\), where \(e=v_\pi(p)\). This is a necessary
+condition on a trait, not a proof that the condition produces one.
 
 The remaining arithmetic input is a support-preserving lifting operation
 or a structural calculation on this full simultaneous-pair incidence.

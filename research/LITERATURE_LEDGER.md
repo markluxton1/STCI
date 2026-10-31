@@ -442,6 +442,22 @@ Michael Hellus and Reinhold Hübl, “A result on Macaulay's curve,”
 
 ## Positive characteristic
 
+### Limits of a prime-to-p multiplicity argument
+
+A bounded October 31 check found no verified theorem deriving linear
+normality, subcanonicality or an embedded mixed-characteristic lift from
+\(p\nmid m_C\) alone. Bădescu–Valla,
+[Theorem 2.7(iv),(v)](https://arxiv.org/abs/0910.3847), excludes
+prime-to-\(p\) torsion in the relevant Picard cokernel for an STCI
+of dimension **at least two**; it does not apply to this curve.
+Beorchia–Ellia, [Theorem 5](https://seminariomatematico.polito.it/rendiconti/cartaceo/48-4/553.pdf),
+concerns characteristic-zero smooth **subcanonical, self-linked** curves.
+The complete-intersection multiple scheme being subcanonical does not
+establish that hypothesis for its reduced support. Jaffe's no-common-
+singular-point carrier hypothesis likewise does not follow from
+prime-to-\(p\) multiplicity. These are application limits of the
+checked results, not a proof that no stronger theorem exists.
+
 ### Hartshorne and Moh
 
 - Robin Hartshorne, “Complete intersections in characteristic \(p>0\),”

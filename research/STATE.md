@@ -57,6 +57,10 @@ pencil carrier has only ADE singularities, the
 [reviewed ADE reduction](supplements/SEXTIC_ADE_REDUCTION.md) leaves only
 \(L=\mathcal O(-6),D_2=0\), with a primitive saturated triple in one
 of three retained ambient torus orbits.
+Their full sextic spaces now have dimension 27 in each orbit, with seven
+directions beyond quartic-source multiples by quadrics. The first necessary
+higher-contact determinant is explicit; the remaining contact equations
+and proper sole support have not been decided.
 That case and the non-ADE divisor/lift problem remain open; these
 provisional deductions do not exclude the degree pair.
 
@@ -75,6 +79,16 @@ it gives the unconditional all-quartic mate-degree bound
 These extensions are independently reviewed provisional deductions.
 A growing unrestricted lower bound remains equivalent to characteristic-zero
 nonexistence; the quantitative growth consequence retains that hypothesis.
+
+The [mixed-characteristic trace extension](supplements/MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md)
+constrains arbitrary deformations of both equations from a special pair of
+torus eigenforms. For a supported characteristic-zero generic fiber it gives
+\(e\,v_p(ab)\ge2r\), where \(r\) is the least valuation of the
+normalized coefficients breaking the symmetry. Thus \(v_p(ab)=1\)
+excludes unramified good reduction at that special pair. With generic
+curvilinearity and the stated strong support containment, it also excludes
+a lift over \(W_2\). These reviewed provisional statements do not
+exclude ramified traits or calculate the full horizontal incidence.
 
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.

@@ -28,6 +28,15 @@ are excluded. For a transfer, identify the precise use of separability,
 invertible integers, Frobenius, duality, or a global surface bound. An algebraic
 formula can extend even when the argument using it does not.
 
+Use characteristic \(p\) and mixed characteristic to inform both sides
+of the characteristic-zero problem. Unrestricted degree growth would prove
+nonexistence; a horizontal component or compatible supported lift would
+prove existence. Frobenius, conductor defects and local lifting obstructions
+can isolate the mechanism even without either global conclusion. For a
+\(p\)-adic test, distinguish unramified from ramified lifts, a selected
+special fiber from all possible presentations, and uniform ideal containment
+from topological support on infinitesimal reductions.
+
 For a claim, retrieve its exact statement and proof, then its necessary
 computation. Reuse review of unchanged inputs. Independently review material
 new deductions, changed proofs and consequential preservation decisions.

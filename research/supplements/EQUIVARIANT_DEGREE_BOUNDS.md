@@ -16,6 +16,13 @@ and give a residual-support control for the next weight case.
 These are not unrestricted STCI bounds. No claim of priority over the
 literature is made.
 
+The [mixed-characteristic extension](MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md)
+uses the integral trace coefficient near a pair of eigenforms. It constrains
+arbitrary simultaneous deformations of both equations, including a
+ramification bound and a strong-support \(W_2\) obstruction. Its
+special-fiber hypotheses and lifting conclusions differ from the
+field-valued degree bounds here.
+
 ## The bound and its exact large-prime minimum
 
 Suppose \(F,G\) are homogeneous of positive degrees \(a,b\), and

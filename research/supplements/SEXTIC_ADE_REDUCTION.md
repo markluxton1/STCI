@@ -168,6 +168,67 @@ two roots of \(12r^2+4r+3=0\) remain.
 
 Independent reuse review checked the classification's complete curve-only
 scope, the actual torus action, frame convention, unique triple, and
-quadric restriction. These three orbits classify the remaining triples;
-their degree-six equation spaces, higher extensions and sole-support
-conditions have not been computed or excluded here.
+quadric restriction. These three orbits classify the remaining triples.
+Their full degree-six equation spaces and first further contact condition
+are computed below; higher extensions and sole support remain unresolved.
+
+## Full sextic spaces and the first further contact equation
+
+The [exact source-space computation](../computations/audit_sextic_triple_spaces_2026_10_31.py)
+uses all ambient monomials and the accepted triple substitution
+\[
+ U=Ay-T_0\gamma y^2,\qquad V=By+S_0\gamma y^2,
+ \qquad AS_0+BT_0=1.
+\]
+For the principal orbit,
+\((S_0,T_0,\gamma)=(4/3,1/6,96+192z)\); for the algebraic
+orbits, \((S_0,T_0,\gamma)=(0,1,0)\).
+Vanishing of every coefficient of \(y^0,y^1,y^2\) is exactly
+containment of the triple. Its purity makes the dense affine calculation
+sufficient for a global section: no nonzero image section can be supported
+only at infinity.
+
+| Exact quantity in characteristic zero | Principal orbit | Either algebraic orbit |
+| --- | ---: | ---: |
+| Dimension of containing quartics | 2 | 2 |
+| Dimension of containing quintics | 11 | 11 |
+| Dimension of containing sextics | 27 | 27 |
+| Span of quartic-source multiples by quadrics | 20 | 20 |
+| Additional sextic directions modulo that span | 7 | 7 |
+| Rank of the first-normal map \(h\) | 17 | 17 |
+| Rank of the cubic-contact map \(\Theta\) | 18 | 12 |
+| Rank of the joint map \((h,\Theta)\) | 23 | 24 |
+
+To define the last maps, use the linear coordinates
+\(U=T_0m+Ay,\ V=-S_0m+By\). The relevant terms of a containing
+sextic are
+\[
+ F=h_Fm+\gamma h_Fy^2+E_Fmy+K_Fy^3+\cdots,
+ \qquad \Theta_F=\gamma E_F-K_F.
+\]
+The omitted terms do not affect the cubic coefficient after eliminating
+\(m\), whose order along the triple is two. With
+\(q'=m+\gamma y^2\), the expansion begins
+\(F=h_Fq'-\Theta_Fy^3+\cdots\). If \(h_F\ne0\) generically,
+eliminating \(q'\) from \(F,G\) leaves cubic coefficient
+\[
+ \frac{h_G\Theta_F-h_F\Theta_G}{h_F}.
+\]
+Thus a generically curvilinear supported sextic pair necessarily satisfies
+\[
+ \boxed{h_G\Theta_F-h_F\Theta_G\equiv0.}
+\]
+Otherwise its generic transverse length is three, instead of nine.
+At least one first-normal coefficient is nonzero in the length-nine
+curvilinear setting. The next coefficients through order eight must also
+vanish; those conditions and properness have not been solved here.
+
+The script uses exact rational arithmetic and
+\(\mathbb Q(\sqrt{-2})\). Conjugation transports the complete algebraic
+source and contact matrices to the other root, preserving the ranks.
+An independent review reconstructed the substitution, global-source
+coverage and contact sign, ran the exact calculation, and added a direct
+rank-and-containment check for all twenty quartic-times-quadric products.
+Run `PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple_spaces_2026_10_31.py`.
+This completes the stated linear calculation and first necessary contact
+test; it does not exclude the remaining sextic pairs.
