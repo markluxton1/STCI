@@ -54,6 +54,33 @@ The stronger P-012 construction applies to **every smooth nondegenerate rational
 
 The characteristic-three monomial \((3,4)\) example is a special improvement over the general \((3,12)\) bound. Likewise, characteristic-two \((4,4)\) is special to the fixed model in this argument. Do not infer the same smaller degrees for arbitrary rational quartics, and do not transfer these positive-characteristic constructions to characteristic zero. Detailed original proofs: P-008 and P-012 in [RESEARCH_RECORD](../RESEARCH_RECORD.md).
 
+## 1.2C Exact Frobenius-binomial criterion for a quartic first carrier
+
+Let \(k\) be algebraically closed of characteristic \(p>0\), \(n=p^r\), and fix
+\[
+F=x_1^4-x_0^3x_3,\qquad
+G=x_2^n-x_0^a x_1^b x_3^c.
+\]
+The second monomial has the same restriction as \(x_2^n\) on \(C_0=[s^4:s^3t:st^3:t^4]\) exactly when
+\[
+4a+3b=n,\qquad b+4c=3n.
+\]
+Thus \(a=(n-3b)/4,\ c=(3n-b)/4\), with \(a,b,c\) nonnegative integers. Equivalently, it suffices to choose
+\[
+0\le b\le\lfloor n/3\rfloor,\qquad b\equiv3n\pmod4.
+\]
+These conditions also imply \(a+b+c=n\), so \(G\) is homogeneous of degree \(n\).
+
+**Claim (within this binomial family).** Every such choice gives \(\sqrt{(F,G)}=I_{C_0}\). On \(x_0=1\), the first equation gives \(x_3=x_1^4\), and the second becomes \(x_2^n=x_1^{3n}\). Since \(n\) is a power of the characteristic, this is \((x_2-x_1^3)^n=0\), so the reduced affine zero set is the parametrized quartic. On \(x_0=0\), \(F\) forces \(x_1=0\), and \(G\) forces \(x_2=0\), leaving only the endpoint \([0:0:0:1]\). The two forms have no extra projective component.
+
+For odd \(n\), the smallest nonnegative admissible residue is \(b=1\) when \(n\equiv3\pmod4\), and \(b=3\) when \(n\equiv1\pmod4\). Hence every odd prime \(p\equiv3\pmod4\) works already with \(n=p\). For \(p\equiv1\pmod4\), \(n=p\) works exactly when \(p\ge9\), i.e. for primes \(p\ge13\); the exceptional prime \(p=5\) first works at \(n=25\). For \(p=2\), \(n=4\) gives \(b=0,a=1,c=3\). In particular the characteristic-five choice \(n=25,b=3,a=4,c=18\) gives
+\[
+G=x_2^{25}-x_0^4x_1^3x_3^{18},
+\]
+and characteristic seven gives \(n=7,b=1,a=1,c=5\).
+
+The statement that \(p=5\) requires \(r\ge2\) is **minimality only inside the displayed quartic-plus-Frobenius-binomial family**, not among all homogeneous defining pairs. Likewise, this does not supersede the uniform cubic construction or the special characteristic-three cubic/quartic pair.
+
 ## 1.3 Dual invariants and the scheme-theoretic intersection
 
 Write dual coordinates \([A:B:C:D]\) for the plane whose restriction to the parametrized curve is \(As^4+Bs^3t+Cst^3+Dt^4\). Put
