@@ -99,6 +99,12 @@ The conditional (6,16) study has a smooth torsion-two root whose multiplier sati
 
 This is evidence that successive jet conditions are genuinely coupled. It is **not** a residual-degree bound for every mate to that carrier, nor an exclusion of all (6,16) pairs. The remaining exceptional root and multiplier strata must be treated before converting source restrictions into a uniform transverse-length estimate.
 
+## 7D. Rank-drop loci in the sextic incidence
+
+The conditional sextic cubic-jet equation is a parameter-dependent linear system in correction coefficients. A generic solution does not control its rank-drop locus. Solvability must be checked separately on each matrix-rank stratum using augmented minors. The [finite incidence formulation](normalization_conductor_phase2_addendum.md#a-scheme-level-incidence-formulation) retains these loci alongside the first-symbol image equations.
+
+These source constraints alone do not force a residual curve. A residual-degree theorem still requires a uniform upper bound on generic transverse length for actual proper pairs, including exceptional strata.
+
 ## 8. Fixed boundary versus residual removal
 
 The fixed-boundary deformation theorem R-0024 is more precise than the phrase "the nodes smooth." For its specified quartic pencil, the 36-dimensional ordered source has boundary, node and combined tangent ranks 19, 5 and 24. On the Grassmannian, the projective boundary rank is 18, and the fixed-boundary fiber is smooth of dimension 14. After etale localization at the five labeled nodes its formal local ring has five independent smoothing coordinates and nine further parameters.
