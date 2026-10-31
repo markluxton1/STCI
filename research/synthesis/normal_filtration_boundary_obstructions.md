@@ -61,6 +61,12 @@ The movement-two (6,16) lane provides an exact model of the global-source obstru
 
 A putative quadratic root f and multiplier alpha must satisfy those equations **together**; arbitrary choices of f and alpha need not lift to a sextic. At the next normal order, a further cubic-jet equation must be imposed on a lift, and changing the sextic by the kernel generator does not change its quadratic symbol. This is an actual rank calculation, not a general theorem about every degree or a proof of a (6,16) STCI. It also does not determine the punctual equation-module comparison defect, which belongs to a different filtration.
 
+## A witnessed failure of successive-jet realization
+
+The conditional movement-two (6,16) calculation supplies a particularly sharp negative example. A specified smooth torsion-two quadratic root has a unique projective multiplier meeting all eleven equations of the actual sextic quadratic-symbol image. Its next cubic comparison has exact nonzero annihilating pairing \(-384\), and the seed separately fails the second obstruction. Thus even **membership in the true global leading-symbol image** need not extend to a compatible next jet. See [the computed seed](normalization_conductor_phase2_addendum.md#exact-failed-seed-and-the-remaining-incidence).
+
+This failure is not the local comparison defect \(\Delta_n\) of R-0030, not a nonsaturated first relation, and not a residual curve. It is an obstruction at the next global-source compatibility stage for a specified seed. A uniform theorem would need to handle the whole root/multiplier incidence, including singular roots and multiplier zeros.
+
 ## The global-source gap
 
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
