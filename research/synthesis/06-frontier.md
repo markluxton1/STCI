@@ -139,6 +139,14 @@ The exact ideal-power theorem gives complete global equation spaces in degrees d
 
 The prescribed characteristic-two quartic complete intersection has a proved nonlifting obstruction over the two specified unramified mixed-characteristic bases. This does not exclude unrelated characteristic-zero equations. A meaningful extension would classify which invariants of a supported thickening persist under flat specialization, with the exact special embedded scheme and generic reduced support specified. The characteristic-dependent conormal extension, cancellation-generated initial equations, and arithmetic obstruction must be checked separately. See Chapter 3 and canonical results R-0012, R-0020, R-0021, and R-0031.
 
+## 6.11A A finite-degree residual test distinct from a uniform exclusion
+
+For a fixed degree pair (d,e), the target generic transverse length under sole reduced support is M=de/4; if de is not divisible by four, sole support is already impossible by the cycle identity. For an actual proper pair, its generic transverse local algebra has length m and the residual cycle has degree de-4m. Thus the exact fixed-degree endpoint is to rule out m=M for **every** actual proper pair in the chosen degree and carrier family. A computation at a single carrier only excludes that carrier's mate locus.
+
+The [boundary and lifting supplement](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) gives a finite truncation criterion at the generic transverse local ring: m=M is equivalent to length of the quotient by (F,G,m_eta^(M+1)) being M. The truncation is a length test, not a replacement for global properness, nor a uniform degree bound. The global-source spaces must still be the images of actual homogeneous forms in the normal jets, not arbitrary sections of graded normal bundles. See [residual intersections](residual_intersections_and_jets.md#3a-generic-length-residual-degree-and-the-role-of-full-initial-equations) for the relation to the fixed-sextic example R-0025.
+
+A genuine uniform exclusion would need to control this endpoint across all carriers and rank-drop strata in the target degree range. A finite computation of one normal-jet source can establish a scoped residual bound but not automatically the all-degree statement.
+
 ## 6.12 Global source and embedded lifting tests
 
 The reviewed October 27 one-step source separates the extension class of a fixed embedded lower thickening from the actual homogeneous equations. A proposed next saturated layer must first satisfy its power-relation divisor inequality and the pushed-forward extension-class vanishing test; surjectivity of the extension map is a separate condition. At the final Gorenstein step the source requires the lower equation-module extension to split, with the socle divisor already fully allocated.
