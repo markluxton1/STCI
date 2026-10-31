@@ -8,6 +8,8 @@ For two surfaces meeting properly and containing the fixed quartic C, write the 
 
 The results below concern **specific residual cycles, deformation families, and global jet sources**. None makes a vertical exceptional component into a positive-degree residual curve or proves that every pair has residual support.
 
+For sole-support pairs, \(4\mid de\), equivalently \(4/\gcd(4,d)\mid e\). A positive residual degree changes the equation to \(de=4m+\deg R\), so the divisibility filter is **not** a necessary condition for arbitrary proper intersections containing \(C\). This distinction is useful when interpreting a fixed-carrier jet bound: a residual curve is not a contradiction to Bézout.
+
 ## 2. Four distinct results and their scopes
 
 **A. Residual cycles from a saturated quasiprimitive flag.** [R-0019](../results/quasiprimitive_residual_cycles.md) gives a torsion-length identity and a proper residual zero-cycle formula under finite-flat curvilinear and saturated-order-flag assumptions, plus a smooth auxiliary surface with a nonzero generic first class and proper residual intersection. It also bounds the first-normal divisor by the top defect under its additional primitive-horizontal-kernel hypothesis. These are *length cycles and divisor inequalities*, not scheme/ideal equalities. Do not apply them to an unsaturated associated graded or an improper residual intersection.
