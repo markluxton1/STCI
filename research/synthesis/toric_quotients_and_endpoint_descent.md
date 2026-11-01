@@ -1,4 +1,4 @@
-# Finite toric quotients and endpoint descent
+# Orbit-closure families, endpoint gluing, and projective equations
 
 Fix an algebraically closed field \(k\), the embedding
 \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), and the coordinate weights
@@ -22,7 +22,21 @@ are a source reformulation and degree-exhaustion test, not a new unrestricted
 STCI obstruction. Exact finite calculations are retained in the
 [quotient and residual verifier](../computations/verify_toric_quotients_and_residual_limits.py).
 
-## The scheme image of a finite transverse quotient
+## Geometry of a finite family of orbit closures
+
+The dense coordinate torus of \(\mathbf P^3\) carries the one-dimensional
+subtorus \(T\) whose orbit closure through \((1,1,1,1)\) is \(C\).
+The quotient of the dense torus by \(T\) is a two-dimensional torus.
+A finite subscheme of that quotient therefore describes a finite,
+possibly nonreduced, family of quartic orbits. The geometric question is
+not merely how many orbits occur: it is how their closures assemble into
+one projective scheme at the two common fixed endpoints.
+
+The natural construction is the **scheme-theoretic image** of the family
+of parametrized orbit closures. It retains nilpotent directions, and
+unlike a reduced union it has a well-defined finite modification. The
+coordinate kernel below constructs that image, rather than defining a
+new kind of quotient intrinsically.
 
 Let
 \[
@@ -86,7 +100,19 @@ The rings in (4) are finite torsion-free modules over \(k[r]\) and
 pure dimension one, including at the endpoints. This excludes embedded
 endpoint points as well as extra boundary components.
 
-## Endpoint lattices, degree and Hilbert polynomial
+## The two endpoints as a finite gluing defect
+
+Away from the two fixed endpoints the finite parametrization is an
+isomorphism. All failure of the orbit-family modification to be an
+isomorphism is consequently concentrated at those endpoints. This is
+the geometric reason that **two finite-length defects** control the
+difference between the Hilbert polynomial of the source family and
+that of its projective image.
+
+These defects are cokernel lengths of the structure-sheaf inclusion,
+not automatically conductor lengths, and not degrees of residual curves.
+The following completed algebras are concrete presentations of that
+finite gluing problem.
 
 Completing (4) at their endpoints gives the exact image algebras
 \[
@@ -142,7 +168,14 @@ In particular \(\deg Z_B=4n\) and
 The defects measure functions lost when endpoint fibers are contracted;
 they do not measure residual curves.
 
-## An exact equation test, and its numerical shadow
+## When does the compactified family have two global equations?
+
+The finite orbit family and its endpoint gluing determine a projective
+curve scheme. Whether it is a complete intersection is a separate
+**global presentation** question. In codimension two, the combination
+of a proper pair of containing hypersurfaces and degree exhaustion
+answers this question exactly. The genus equality obtained from endpoint
+defects is only a necessary numerical shadow of this presentation test.
 
 For positive integers \(a,b\), the following criterion is exact:
 \[
@@ -188,7 +221,16 @@ Its converse has not been asserted: the actual gcd-one equation pair remains
 necessary. Numerically compatible endpoint defects do not establish ACMness,
 Gorensteinness, or two homogeneous generators.
 
-## The fourth-root benchmark and what its conductor means
+## The fourth-root family: four branches versus one thick branch
+
+The quartic benchmark has a uniform geometric interpretation: four
+transverse quotient points in characteristic zero give four quartic
+branches meeting at the two fixed endpoints, while in characteristic
+two their quotient becomes one nonreduced point and the projective
+image becomes a thickening of \(C\). The endpoint modification persists
+in both settings, but the conductor of a **nonreduced modification**
+must not be confused with the normalization conductor of the reduced
+curve. The calculations below make that distinction exact.
 
 Take \(B=k[u]/(u^4-1)\), \(v=1\), so \(n=4\). The prescribed equations
 \[
@@ -223,7 +265,14 @@ whose normalization has defect zero and conductor equal to its full ring
 The [valuation fan](endpoint_valuations.md) continues to own the distinct
 contact and initial-polynomial descriptions.
 
-## The abstract algebra does not determine the image
+## Why the embedded quotient matters more than its abstract algebra
+
+Two isomorphic finite parameter schemes can have different projective
+images: the chosen map into the quotient torus determines how orbit
+branches meet and which functions descend at infinity. The following
+comparison is a geometric counterexample to classifying the image by
+the abstract quotient algebra alone. Its determinants certify the
+different endpoint gluing.
 
 In characteristic zero compare two embeddings of the abstract algebra
 \(k^4\). The roots-of-unity embedding just used has genus thirty-three.
@@ -283,7 +332,15 @@ the endpoint is not Gorenstein and cannot be a local complete intersection.
 The collision retains sole reduced support \(C\), but it does not retain
 the required local algebra of a CI.
 
-## A flat collision of images, with the marked curve retained
+## Colliding orbit families inside the Hilbert scheme
+
+Collision of transverse quotient points does not by itself produce a
+flat family of their projective images: endpoint gluing can jump.
+Here the endpoint lattices stay locally free with constant defect,
+which supplies the missing flatness argument. Thus this example is
+best understood as a **Hilbert-scheme degeneration of compactified orbit
+families**, with the marked quartic retained, rather than simply a
+specialization of four roots.
 
 The preceding nilpotent image is an actual flat limit of four-component
 images of genus twenty-eight. In characteristic zero use
@@ -323,7 +380,14 @@ already gives actual partial CI coalescence, including a doubled marked
 component; the novelty claimed here is only the explicit contrasting
 constant-quotient collision and its endpoint calculation.
 
-## The same nilpotent embedding in small characteristics
+## Characteristic changes the endpoint gluing
+
+The underlying length-four local quotient can be written in the same
+way in different characteristics. Its projective image nevertheless
+changes because the power maps defining the two endpoint embeddings
+have characteristic-dependent linear relations. The comparison is
+therefore about **embedded multiple curves and their gluing**, not
+merely about whether roots become inseparable.
 
 Form the image separately over each algebraically closed field using
 \(B=k[\epsilon]/(\epsilon^4)\), \(u=1+\epsilon\), \(v=1\).
@@ -344,7 +408,16 @@ fields; no commutation of scheme image with reduction of a characteristic-zero
 model is claimed. The variation illustrates why the full embedded quotient,
 not just its length, matters in arithmetic comparison.
 
-## Binomial quotients and the moving-family boundary
+## From constant orbit families to genuinely moving transverse structure
+
+Binomial equations provide a transparent class of finite transverse
+schemes, but their abstract Smith invariants do not determine the
+projective image. More importantly, a hypothetical supported complete
+intersection need not arise from a **constant** finite quotient.
+The full transverse structure can vary along \(C\), and its endpoint
+descent must then be studied together with that movement. The lattice
+calculation below identifies the tractable constant case and the
+precise boundary of its applicability.
 
 For a compatible rank-two lattice of binomial relations
 \(u^{\ell_1}v^{\ell_2}=c_\ell\), algebraic closedness permits rescaling
