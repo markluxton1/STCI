@@ -101,14 +101,33 @@ conductor. A new comparison must construct its map and preserve its hypotheses.
 
 ## Torus symmetry as an organizing method
 
+**Necessary invariant-limit principle.** If a degree-(a,b) complete
+intersection has reduced support exactly C0, then the full flat limit of its
+ideal under the one-parameter torus action is a T-invariant scheme with
+reduced support exactly C0 and the same complete-intersection Hilbert
+polynomial. Indeed, for some N its ideal lies between I_C0^N and I_C0;
+these torus-stable containments persist in the full flat limit, so the
+support cannot acquire residual curves or disappear. This is a necessary
+condition for *every* hypothetical supported STCI, not merely for
+T-invariant defining equations.
+
 The [full flat-limit account](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope)
-separates three facts: every supported pair has invariant reduced support;
-its full torus limits retain that support and Hilbert polynomial; an invariant
-CI ideal is itself excluded in characteristic zero. The useful proposed
-direction is therefore to study invariant boundary ideals together with
-deformations preserving support that can recover CI or ACM structure. The
-general member must be allowed to break symmetry. Limiting two individual
-forms discards relations and can leave a common surface factor.
+also explains the essential qualification: the invariant limit need not
+remain a complete intersection, or even admit two generators. Therefore
+excluding invariant **pairs of equations** with sole support is not enough.
+A potentially sufficient obstruction would exclude *all* T-invariant
+sole-supported ideals of the required Hilbert polynomial that arise as
+full flat limits of degree-(a,b) complete intersections. Equivalently,
+one can investigate the intersection of the torus-fixed Hilbert locus
+with the closure of the supported complete-intersection locus, retaining
+the marked support condition in the degeneration. A fixed-locus
+classification alone is not an obstruction without the deformation or
+coverage step.
+
+The proposed direction is to study invariant boundary ideals together
+with deformations preserving support that can recover CI or ACM structure.
+The general member must be allowed to break symmetry. Limiting two
+individual forms discards relations and can leave a common surface factor.
 
 For a specified finite embedded quotient, the
 [endpoint-descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
