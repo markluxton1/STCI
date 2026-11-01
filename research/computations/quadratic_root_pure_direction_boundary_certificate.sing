@@ -1,0 +1,25 @@
+// Compact exact QQ certificate for f=A(u+v)^2+C v^2, A2=1,C2=0.
+// First equations and S=s2x0 come from quadratic_root_torsion_two_model.py.
+// See synthesis/quadratic_root_torsion_two_lifting.md for full model and coverage.
+// Smoothness implies C1!=0. The first linear equations then force:
+// A0=(3*x^2-16*x+22)/2, C0=(10-3*x)*y, x=A1,y=C1.
+ring R=0,(x,y),dp;
+poly aa=(3*x^2-16*x+22)/2;
+poly cc=(10-3*x)*y;
+poly f1=(3/2)*aa*x-3*aa-(3/2)*x^2+6*x-2*y-6;
+poly f2=(3/4)*aa^2-3*aa*x+6*aa+3*x^2-3*x*y-12*x-cc+18*y;
+poly f3=(-3/2)*x*y-cc/2+5*y;
+poly f4=-2*aa*y-x*cc+6*x*y+4*cc-18*y;
+poly Y=3*(x-2)*(3*x^2-18*x+26)/8;
+poly S=(563624/135)*cc*y+(59591605/54)*y^2-(20469592/45)*cc-(434673083/180)*y;
+poly P=9*x^4-72*x^3+196*x^2-208*x+4;
+poly Q=3381744*x^4-336284457*x^3+2543733416*x^2-6776894138*x+7031271104;
+poly check1=f1+2*(y-Y);
+poly check2=subst(f2,y,Y)-(3/16)*P;
+poly check3=subst(S,y,Y)+(1/240)*Y*Q;
+if(check1!=0 || check2!=0 || check3!=0 || f3!=0 || f4!=0){print("FAIL_SOURCE_SUBSTITUTIONS");quit;}
+poly U=(80865783487934655581/625659673101107732100)*x^3+(-123662603029504889027963/10010554769617723713600)*x^2+(46475394627475137215927/938489509651661598150)*x+(-3412880943207077037979/48127667161623671700);
+poly V=(-1147797588291977/3336851589872574571200)*x^3+(148349686796263/104276612183517955350)*x^2+(-31336736633846197/15015832154426585570400)*x+(6332264326238/156414918275276933025);
+if(U*P+V*Q!=1){print("FAIL_BEZOUT_IDENTITY");quit;}
+print("PASS: exact source substitutions and U*P+V*Q=1 over QQ");
+quit;

@@ -15,6 +15,16 @@ and [R-0007](../results/quadratic_root_obstruction_model.md) supply the
 identification with the actual ambient obstruction. The geometric proof
 itself uses the spectral curve and its ruling line bundles.
 
+The [general pushforward theorem](spectral_pushforward_powers.md#1-the-pushforward-of-every-power)
+owns the intrinsic full proof for every integer power on a genus-one double
+cover, in every characteristic. Its coefficient determinants for n>=2,
+[kernel constructions](spectral_pushforward_powers.md#3-recovering-a-positive-graded-object-from-the-kernel),
+[full-root boundary classification](spectral_pushforward_boundary.md), and
+[determinant schemes](spectral_determinant_schemes.md) are separately reviewed
+provisional extensions. This chapter owns their n=4 application to the
+actual characteristic-zero second-obstruction model. No all-n ambient
+obstruction model is inferred.
+
 ## The spectral curve and the actual dual bundle
 
 In the fixed embedded normal coordinates for
@@ -77,47 +87,17 @@ W\simeq
 Thus the jump occurs at exact torsion order two or four; order one is
 absent because \(\eta\) is nontrivial.
 
-**Proof.** Push the divisor sequence
-\[
-0\longrightarrow\mathcal O(-2,2)
-\xrightarrow{\ f\ }\mathcal O(0,4)
-\longrightarrow\mathcal O_Z(0,4)\longrightarrow0
-\]
-to the base. The higher direct images of the first two terms vanish,
-since their restrictions to a direction fiber have degrees two and four.
-The resulting sequence is
-\[
-0\longrightarrow\mathcal O(-2)^{\oplus3}
-\longrightarrow\mathcal O^{\oplus5}
-\longrightarrow E:=\pi_*B^{\otimes4}\longrightarrow0.
-\tag{3}
-\]
-The first map is \(T_f^{\mathsf t}\), so dualizing (1) gives
-\(E\simeq W^*\). Rank-two duality and \(\det W=\mathcal O(-6)\)
-also give \(E\simeq W(6)\). In particular, \(E\) is globally generated,
-has rank two and degree six. Splitting on \(\mathbf P^1\) writes
-\[
-E\simeq\mathcal O(e_1)\oplus\mathcal O(e_2),\qquad
-e_i\ge0,\qquad e_1+e_2=6.
-\]
-Projection formula identifies
-\[
-H^0(E(-4))=H^0(Z,B^{\otimes4}\otimes A^{-4})
-          =H^0(Z,\eta^{\otimes4}).
-\tag{4}
-\]
-A nonzero section of a degree-zero line bundle on an integral projective
-curve has no zeros and trivializes that bundle. Hence the dimension in
-(4) is one exactly when \(\eta^{\otimes4}\) is trivial, and zero
-otherwise. Similarly,
-\[
-H^0(E(-5))=H^0(Z,B^{\otimes4}\otimes A^{-5})=0,
-\]
-because the line bundle on the right has degree \(-2\). Thus both
-\(e_i\le4\). Together with their sum, this leaves only the unordered
-pairs \((3,3)\) and \((2,4)\). Their values of \(h^0(E(-4))\) are
-respectively zero and one, so (4) distinguishes them. Dualizing gives
-(2). ∎
+**Proof by specialization of the general theorem.** The
+[all-power pushforward proof](spectral_pushforward_powers.md#1-the-pushforward-of-every-power)
+with n=4 gives
+
+    E_4=pi_*B^4 = O(3)^2 or O(2)+O(4),
+
+according as eta^4 is nontrivial or trivial. Its divisor-sequence presentation
+is dual to (1), hence E_4=W^*. This proves (2) by duality. Rank-two duality
+also gives E_4=W(6), since det W=O(-6). The geometric splitting is thus the
+n=4 case of one general proof; the actual H0(W(10)) obstruction identification
+remains the separate ambient input stated above.
 
 ## A coefficient rank detector and a constant-dimensional space
 
@@ -141,8 +121,11 @@ makes zero off \(T[4]\) and one-dimensional on \(T[4]\). Therefore
 \tag{6}
 \]
 In particular \(\det B_f=0\) detects \(T[4]\) set-theoretically on the
-smooth locus. This makes no claim about determinant multiplicities or
-its zero locus at singular roots.
+smooth locus. This fiberwise argument alone makes no claim about determinant multiplicities
+or its zero locus at singular roots. The [scheme theorem](spectral_determinant_schemes.md)
+identifies its closed subscheme on the smooth open, including nonreduced
+parameter directions; the [boundary classification](spectral_pushforward_boundary.md)
+keeps singular and nonreduced roots separate.
 
 The syzygies have two degree-three minimal generators off \(T[4]\),
 and generators of degrees two and four on \(T[4]\). Twisting to the
@@ -203,7 +186,8 @@ surfaces, properness or sole support.
 **Review and scope.** The splitting, the \(15\times15\) rank detector and
 the local sixteen-test counts were reconstructed in the source's
 independent `report_math_review`, and remain reviewed provisional results.
-This chapter retains their characteristic-zero scope; it adds no
-positive-characteristic extension or new cover theorem. No diagonal,
+This chapter retains the actual obstruction's characteristic-zero scope. The
+linked intrinsic all-power theorem has its own characteristic-free proof;
+it does not extend that ambient operator or the actual-CI bridge. No diagonal,
 pure-direction or subsequent boundary exclusion is part of this result,
 and no mathematical computation was run for this extraction.

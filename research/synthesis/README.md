@@ -18,9 +18,13 @@ constructions. The account does not require every useful result to decide STCI.
 Full mathematical homes are chosen by responsibility rather than chronology:
 [global equations](global_equations_and_constructions.md),
 [quartic carriers](quartic_carrier_proof.md),
-[the two quartic-pair proof mechanisms](quartic_pair_obstruction.md),
-[conditional quintic–octic geometry](quintic_octic_surface_constraints.md),
+[the three quartic-pair proof mechanisms](quartic_pair_obstruction.md),
+[quintic–octic ADE geometry](quintic_octic_surface_constraints.md),
+[Gorenstein-normalized quintics](quintic_gorenstein_normalizations.md),
+[general conductor contact](carrier_conductor_differential_comparison.md),
 [normal filtrations](normal_filtration_boundary_obstructions.md),
+[actual global jets](global_equation_jets.md),
+[spectral powers and graded families](spectral_pushforward_powers.md),
 [residual geometry](residual_intersections_and_jets.md),
 [elliptic gluing](projection_and_elliptic_gluing.md),
 [marked absorption](marked_deformation_and_absorption.md), and

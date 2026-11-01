@@ -17,6 +17,14 @@ bounds, not a newly computed invariant. No monotonicity in a or b is assumed.
 A new attainable multiplicity or an actual residual transfer can be useful even
 when \(\rho\) is not determined or the residual remains positive.
 
+Further comparisons use the [actual complete-intersection blowup](blowup_residual_geometry.md),
+the [Cox special fiber and ordinary-power section defects](cox_fiber_and_power_defects.md),
+and [genus and threshold limits](genus_and_threshold_limits.md). Each distinguishes
+invariants of the full thickening from those of its reduced curve. The
+[pencil Milnor identity](pencil_milnor_budget.md) supplies a general comparison;
+its quartic inequality follows from stronger local bounds and adds no independent
+quartic obstruction.
+
 ## 2.1 Generic length and common normal directions
 
 At \(\eta_C\) the ambient local ring is regular of dimension two, with

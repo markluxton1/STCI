@@ -590,3 +590,62 @@ their mathematical homes:
 These entries reuse the scoped primary checks recorded with the selected
 contributions and their independent reviews. They do not certify unchecked
 extensions or assert literature novelty.
+
+
+## Source comparisons for carrier gluing, global jets and spectral realization
+
+The following homes retain the checked primary statements, complete repository
+deductions and their application boundaries. This integration reuses the scoped
+source reviews; it is not a new exhaustive literature search or a novelty claim.
+
+- [Carrier conductor contact](synthesis/carrier_conductor_differential_comparison.md)
+  uses finite duality near the inverse curve and the actual transverse
+  differential. [Singular-gluing controls](synthesis/square_descent_and_singular_gluing.md)
+  show why the full conductor and smoothness hypotheses matter; trace and power
+  arguments retain their characteristic restrictions.
+- [Quintic–octic cover geometry](synthesis/quintic_octic_ade_cover_and_triple.md)
+  retains the exact Jaffe-type local defect formulas and the canonical-cover
+  inequality hypotheses. Repeated symbols are covered by the complete proof;
+  a rank budget alone does not establish the exclusion.
+- [Global equation jets](synthesis/global_equation_jets.md) applies the filtered
+  complex spectral sequence to actual source images. The general finite
+  homogeneous realization argument uses the stated formal-rational-function
+  theorem; its existential conclusion is distinct from the explicit
+  quadric-flag bound and from a uniform effective witness-degree bound.
+- [Spectral powers](synthesis/spectral_pushforward_powers.md) uses splitting on
+  the projective line and genus-one cohomology. The
+  [determinant-scheme argument](synthesis/spectral_determinant_schemes.md) keeps
+  relative Picard torsion, fixed-curve torsion multiplicities and total-space
+  smoothness separate. Its graded family is not an ambient realization theorem.
+- [Cox fibers and ordinary powers](synthesis/cox_fiber_and_power_defects.md)
+  uses the specified Cox presentation and distinguishes saturation and ambient
+  section defects from reduction-number conclusions. The
+  [genus and threshold comparisons](synthesis/genus_and_threshold_limits.md)
+  apply least-containing-degree bounds to the full complete intersection and
+  retain the local positivity hypotheses.
+- [Supported pencils](synthesis/pencil_milnor_budget.md) keeps the polar/Euler
+  identity, special-point Milnor defects, and complete-ideal/local-threshold
+  comparisons. For the fixed quartic, the resulting global inequality is
+  implied by the local bounds; the identity is not a new independent exclusion.
+- [Bounded characteristic transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md)
+  uses an effective arithmetic Nullstellensatz with its explicit encoding and
+  height conditions. Quartic-carrier growth is unconditional; all-pair growth
+  still assumes characteristic-zero nonexistence.
+- [Finite maps](synthesis/global_equations_and_constructions.md),
+  [supported flat closure and cover moduli](synthesis/fixed_surface_and_endpoint_algebras.md),
+  and [smooth-cone quantization](synthesis/contact_jacobians_and_hamiltonian_actions.md)
+  retain the limits of extension, stable patching, moduli properness and supported
+  characteristic-class results. Flat closure does not preserve every Gorenstein,
+  splitting or presentation property; quantization does not supply the required
+  filtered ambient equations.
+
+
+The [exact Chow bundle account](synthesis/chow_bundle_maps.md) retains the
+independently reviewed incidence-variety Hom proof in every characteristic,
+and distinguishes Eisenbud–Schreyer's linear Chow determinants from the
+prescribed Sylvester bundle types. The
+[exceptional-cover controls](synthesis/section_defects_and_exceptional_cover_controls.md#smooth-models-and-dynamical-source-hypotheses)
+retain the everywhere-potential-good-reduction and simultaneous-conjugacy
+hypotheses of Petsche–Szpiro–Tepper and Silverman. Their final source review
+closed the earlier audit gap; neither comparison provides an unrestricted
+STCI construction or obstruction.

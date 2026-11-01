@@ -14,17 +14,17 @@ failure can identify a feature to change without deciding other sources.
 
 | Mechanism | Full mathematical home | What crosses topics, and what does not |
 | --- | --- | --- |
-| Actual lifting through a fixed symbol | [Global lifting interfaces](synthesis/global_lifting_interfaces.md), [rank strata and unique sextic lifts](synthesis/rank_strata_and_sextic_lifts.md) | All allowed higher lifts enter the obstruction quotient; a successful linear lift still needs properness and support |
+| Actual lifting through a fixed symbol | [Global lifting interfaces](synthesis/global_lifting_interfaces.md), [intrinsic octic/sextic comparison](synthesis/actual_octic_root_lift_comparison.md), [rank strata and unique sextic lifts](synthesis/rank_strata_and_sextic_lifts.md) | Quotient by every allowed ambient correction; the small sextic map and octic flexibility measure actual source images, while root-lift existence, joint generation and support remain separate |
 | Saturation and perfect multiplication | [Normal filtrations](synthesis/normal_filtration_boundary_obstructions.md), [comparison and specialization](synthesis/comparison_defect_specialization.md), [quartic-pair local algebra](synthesis/quartic_pair_obstruction.md), [intrinsic fourth extensions](synthesis/intrinsic_fourth_extension.md) | Generic algebra plus integral lattices yields special-point divisors; distinct module defects are not identified without a map |
-| Full conductor descent | [Conductor algebra](supplements/CONDUCTOR_DESCENT_ALGEBRA.md), [fixed carriers](supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md), [graded quadratic boundary](synthesis/quadratic_covers_and_conductor_descent.md) | Normalized sections must glue through the full finite algebra; actual norms constrain boundary postulation, while canonical endomorphisms retain section completion and embedded action as separate data |
+| Full conductor descent | [Conductor algebra](supplements/CONDUCTOR_DESCENT_ALGEBRA.md), [root and component defects](synthesis/root_descent_and_conductor_defects.md), [square descent and singular gluing](synthesis/square_descent_and_singular_gluing.md), [graded quadratic boundary](synthesis/quadratic_covers_and_conductor_descent.md) | Normalized sections must glue through the full finite algebra; smooth-contact differential bounds and singular-gluing controls explain which hypotheses cannot be discarded |
 | Polarization and gluing | [Elliptic projection](synthesis/projection_and_elliptic_gluing.md), [finite pullbacks](synthesis/finite_pullback_and_matrix_obstructions.md) | Component line-bundle restrictions, node identifications and actual ambient sections are separate tests |
-| Local singularities versus global surface geometry | [Quartic pair](synthesis/quartic_pair_obstruction.md), [quintic–octic constraints](synthesis/quintic_octic_surface_constraints.md) | Moving-symbol germs produce exceptional curves; the quintic argument additionally needs an integral Picard relation and an even-node cover |
+| Local singularities versus global surface geometry | [Quartic pair](synthesis/quartic_pair_obstruction.md), [quintic–octic constraints](synthesis/quintic_octic_surface_constraints.md), [ADE cover and symbolic triple](synthesis/quintic_octic_ade_cover_and_triple.md) | Integral divisor relations and cover geometry strengthen rank budgets; the globally ADE (5,8) exclusion includes repeated symbols, while non-ADE carriers remain outside |
 | Numerical versus ideal pullback | [Numerical surface pullback](synthesis/numerical_surface_pullback.md), [ruled-surface degree criterion](synthesis/ruled_surface_degree_criterion.md), [normal-carrier Hodge criterion](supplements/NORMAL_CARRIER_DIVISOR_GEOMETRY.md) | The effective difference measures exceptional ideal vanishing; the normal hypersurface equality criterion has its own Q-Cartier and characteristic hypotheses; Cartier index alone does not bound the correction |
 | Degree exhaustion and residual attachment | [Residual geometry](synthesis/residual_intersections_and_jets.md), [finite normal jets](synthesis/finite_normal_jets.md) | Properness and generic length turn a local bound into a projective residual degree; vertical exceptional support alone is insufficient |
 | Deformation and realization | [Marked absorption](synthesis/marked_deformation_and_absorption.md) | Lifting a quotient, a marked embedding and actual equation coefficients are distinct tasks; partial residual transfer need not iterate |
-| Duality and global presentation | [Contact and descent](synthesis/contact_duality_and_global_descent.md), [endpoint algebras](synthesis/fixed_surface_and_endpoint_algebras.md) | The full algebra/dualizing module retains data absent from reduced support or traces; two affine presentations need not glue homogeneously |
+| Duality and global presentation | [Contact and descent](synthesis/contact_duality_and_global_descent.md), [endpoint algebras](synthesis/fixed_surface_and_endpoint_algebras.md), [exact Chow bundle maps](synthesis/chow_bundle_maps.md) | Full algebras retain data absent from reduced support or traces; the prescribed Chow bundle types already encode global equations, while arbitrary determinantal types do not |
 | Frobenius versus characteristic-zero rigidity | [Positive-characteristic equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [arithmetic gaps](supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md) | Frobenius can remove nilpotent descent obstructions; flat arithmetic deformation does not preserve sole reduced support |
-| Integral embedded obstruction classes | [Arithmetic lifting and defect twists](supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md) | Primitive-stage, defect-twisted and derivation-gluing classes distinguish prescribed embedded lifts from arbitrary characteristic-zero equations |
+| Integral embedded obstruction classes | [Arithmetic lifting and defect twists](supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md), [power extraction](supplements/PRIME_TO_P_POWER_EXTRACTION.md), [Frobenius precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md) | Prescribed embedded lifting, actual supported traits and finite Witt precision have different hypotheses; none excludes unrelated characteristic-zero presentations |
 | Torsion classes and geometric constructions | [Elliptic double inverse](synthesis/elliptic_double_inverse_construction.md), [sextic cyclic cover](supplements/SEXTIC_PAIR_REDUCTION.md) | Torsion supplies actual sections or a normalized cover in the stated settings; full inverse support, polarization and local class compatibility remain separate realization conditions |
 
 ## Additional comparisons with actual realization
@@ -46,14 +46,17 @@ The [projected-source calculation](synthesis/projected_thickening_section_defect
 | [One extra homogeneous module generator](synthesis/quadratic_covers_and_conductor_descent.md#11-a-common-graded-mechanism-one-extra-homogeneous-module-generator) | Canonical-module inequalities for finite birational graded extensions of Gorenstein curve rings; a module-generator hypothesis is stronger than algebra generation |
 | [Quadratic norm and postulation](synthesis/quadratic_covers_and_conductor_descent.md#81-ambient-quadratic-norms-force-conductor-postulation) | Converts actual conductor membership into an ambient polynomial relation, then a Hilbert-function bound; the separated-cover application has additional characteristic hypotheses |
 | [Projection section defects](synthesis/projected_thickening_section_defects.md) | A parameter-sequence and Jacobian-socle mechanism for finite projection of nonreduced schemes; the generalized version may change the reduced curve |
-| [Spectral four-torsion and syzygy splitting](synthesis/spectral_torsion_and_syzygy_splitting.md) | On a smooth (2,2) root, the ruling-difference line bundle determines the splitting of the fourth-power pushforward and the minimal syzygy degrees; it does not make the actual embedded operator invariant under arbitrary changes of direction |
+| [Spectral powers](synthesis/spectral_pushforward_powers.md), [boundary](synthesis/spectral_pushforward_boundary.md) and [determinant schemes](synthesis/spectral_determinant_schemes.md) | General genus-one degree-two pushforwards and smooth (2,2) coefficient determinants detect Picard torsion; singular/nonreduced roots need their own controls, and actual ambient operators retain the fixed embedding |
+| [Global equation jets](synthesis/global_equation_jets.md) | An intrinsic filtration records successive source-image deficits; finite realization has a general existential theorem and an explicit quadric-flag bound, not a universal effective stopping rule from a rank plateau |
+| [Carrier conductor–differential comparison](synthesis/carrier_conductor_differential_comparison.md) | Full conductor contact versus the actual normal differential constrains smooth normalization/smooth conductor regimes; singular contacts and generically singular carriers require different arguments |
+| [Pencil Milnor identity](synthesis/pencil_milnor_budget.md) | A general degree/genus/polar identity retains special-point defects; for C0 its inequality already follows from stronger local geometry, so it is not an independent obstruction |
 | [Ruled-surface criterion](synthesis/ruled_surface_degree_criterion.md) and [numerical pullback](synthesis/numerical_surface_pullback.md) | Degree/genus and ideal-versus-numerical pullback comparisons under their own geometric hypotheses; the quartic and quintic uses are applications |
 
-Conductor–differential comparisons, extending the [fourth-power pushforward](synthesis/spectral_torsion_and_syzygy_splitting.md)
-to other powers, and more general tame covers are additional directions. Only a statement
-with its governing proof is an available lemma; a promising extension is still a
-proposed bridge. In particular the surface-normalization conductor is not the
-conductor of the quadratic separation of a nonreduced intersection.
+The [tame projection-section result](supplements/TAME_PROJECTION_SECTIONS.md)
+retains the actual unramified module and pole bound. Extending it to other covers
+needs new hypotheses and proof. Likewise, the surface-normalization conductor
+is not the conductor of the quadratic separation of a nonreduced intersection;
+their bounds cannot be combined without a map.
 
 ## Compatibility as an optional viewpoint
 
@@ -75,6 +78,25 @@ show that some apparently restrictive compatibility conditions can coexist.
 In the stated separated quadratic cover, the [canonical conductor sequence](synthesis/quadratic_covers_and_conductor_descent.md) already determines the [Rao dimensions](synthesis/supported_linkage_operations.md#1-rao-dimensions-repeat-the-canonical-boundary-inequality). Comparing those dimensions repeats one budget. The boundary's embedded multiplication and actual defining-equation restrictions retain additional information; the extremal residual-line argument uses precisely that extra information. An embedded AG conjugate union descends automatically, so constructing the union with its required support and polarization is the unresolved constructive step.
 
 The [intrinsic fourth-extension proof](synthesis/intrinsic_fourth_extension.md) and [unique sextic lift](synthesis/rank_strata_and_sextic_lifts.md) connect embedded data to actual equations in two different covered settings. They explain useful rigidity after the relevant hypotheses are established; neither reduces arbitrary higher-degree thickenings to these settings. The [punctual cohomological comparison](synthesis/punctual_quadric_extensions.md#5-an-explicit-characteristic-zero-comparison-with-the-sextic-normal-correction) is a stated map for the specified source, not an identification of general deformation problems or of the R-0030 comparison defect.
+
+## What the combined realization tests distinguish
+
+The [order-three family](synthesis/order_three_roots_and_sextic_lifts.md)
+supplies positive graded and first embedded lifts, while the
+[actual equation comparison](synthesis/actual_octic_root_lift_comparison.md)
+can eliminate every sextic lift at a point or leave a substantial octic
+space. Its proper residual pair demonstrates that first compatibility and
+actual equations can coexist with a positive residual cycle. This connects
+the local and global questions without identifying them.
+
+The successful [quintic cover argument](synthesis/quintic_octic_ade_cover_and_triple.md)
+uses both controlled resolution invariants and the location of an embedded
+defect. The [normal sextic cyclic cover](supplements/SEXTIC_PAIR_REDUCTION.md)
+retains unresolved singularity corrections, so its normal-cover invariants
+cannot simply enter the same smooth-surface inequality. Spectral Picard
+torsion, carrier Weil-class torsion and the
+[arithmetic endpoint defect](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md)
+are different objects; no general comparison map identifies them.
 
 ## Proved arrows and proposed bridges
 

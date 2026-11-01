@@ -310,6 +310,12 @@ generating pair.
 
 ### P-033: the global Chow-resultant certificate
 
+The [exact Grassmannian Hom theorem](chow_bundle_maps.md) proves that
+every map between the prescribed bundles below already comes from two
+ambient equations. Arbitrary Chow-power determinants use different bundles;
+there is no separate multiplication-block lifting condition after the exact
+bundle types have been imposed.
+
 Let \(\mathbb G=\operatorname{Gr}(2,4)\) be the Grassmannian of lines in
 \(\mathbf P^3\), with tautological rank-two bundle \(\mathcal S\).  For forms
 \(F,G\) of positive degrees \(a,b\), restrict them to the universal line.
@@ -499,6 +505,88 @@ Szpiro, [Chapter IV §3, Theorems 1–3, printed pp.71–73](https://mathweb.tif
 For conductor descent, the full square and compatible sections are developed in the [carrier/conductor account](carrier_conductor_socle_interfaces.md). Ferrand, [Theorem 2.2](https://www.numdam.org/article/BSMF_2003__131_4_553_0.pdf), patches flat/projective modules over A=(A/c)×_(A'/c)A' for finite normalization A⊂A' and conductor c. The exact sequence 0→A→A'⊕A/c→A'/c→0, tensorized by a line bundle, identifies the actual compatibility test. Reduced conductor support or a divisor class upstairs does not replace it.
 
 Eisenbud–Schreyer, [Theorem 1.4](https://arxiv.org/pdf/math/0111040), identifies the determinant divisor of a Chow complex with the Chow divisor of its associated cycle. The universal-line Sylvester construction above is its specialization to a proper pair. Hilbert–Burch gives the codimension-two Gorenstein implication above. These classical inputs construct exact recognition interfaces; they do not supply the missing pair.
+
+## Finite ambient maps and reduced inverse images
+
+There is a characteristic-free dictionary between projective STCIs and
+finite maps. For a supported pair of degrees \(a,b\), put \(D=ab\). Then
+\[
+\Phi=[F^b:G^a:x_0^D:x_3^D]:\mathbf P^3\longrightarrow\mathbf P^3
+\tag{FM}
+\]
+is a finite surjective morphism. Indeed, a basepoint would lie on
+\(V(F,G)_{\mathrm{red}}=C_0\), where \(x_0,x_3\) have no common zero.
+The pullback of \(O(1)\) is the ample line bundle \(O(D)\); a curve in a
+fiber would have degree zero against this bundle, a contradiction.
+Properness and zero-dimensional fibers give finiteness, and its image
+has dimension three, hence is the whole target. For the target line
+\(\ell=V(y_0,y_1)\),
+\[
+\Phi^{-1}(\ell)=V(F^b,G^a),\qquad
+\Phi^{-1}(\ell)_{\mathrm{red}}=C_0.
+\]
+Conversely the two pullback equations of a line under a finite
+endomorphism form a proper intersection with that reduced inverse
+image. One may instead use \(D=\operatorname{lcm}(a,b)\) and powers
+\(D/a,D/b\). Equalization preserves sole support, although its powers
+change the thick scheme and its multiplicity.
+
+More generally, a nonempty pure codimension-\(r\) closed subset
+\(X\subsetneq\mathbf P^n\) is an STCI if and only if it is the reduced
+inverse image of a codimension-\(r\) linear space under a finite
+endomorphism. To prove the forward direction, equalize the degrees of
+its \(r\) equations to \(D\), choose \(n+1-r\) linear forms whose common
+\(\mathbf P^{r-1}\) misses \(X\), and append their \(D\)-th powers.
+A generic such linear space misses \(X\) by the dimension inequality.
+The preceding basepoint and ampleness argument proves finiteness.
+Conversely, pullback gives \(r\) forms with common zero set of codimension
+\(r\), since the finite map preserves the dimension of this inverse
+image. In the Cohen–Macaulay polynomial ring these forms are a regular
+sequence. This proves the dictionary without a characteristic assumption.
+
+For (FM), the restricted map is
+\([s:t]\mapsto[s^{4D}:t^{4D}]\), of degree \(4D\), with target a line.
+It does not assert total invariance \(\Phi^{-1}(C_0)=C_0\), or provide
+iteration on the same embedded curve. The two added coordinates complete
+an existing supported pair to a finite map; they do not remove residual
+support from an arbitrary containing pair.
+
+### Ramification of the completed map
+
+In characteristic zero, factoring the four power derivatives by rows
+and expanding along the \(x_0,x_3\) rows gives
+\[
+\det(d\Phi)=\pm abD^2F^{b-1}G^{a-1}x_0^{D-1}x_3^{D-1}
+\bigl(F_{x_1}G_{x_2}-F_{x_2}G_{x_1}\bigr).
+\tag{FJ}
+\]
+Its total degree is \(4D-4\). Removing the added power ramification
+leaves the factor of degree \(a+b-2\). On \(x_0\ne0\), the base parameter
+of the original pencil is \(x_3/x_0\), so this factor is precisely its
+relative Jacobian, up to the invertible chart factor. It generates the
+[different of the full finite CI pencil](contact_jacobians_and_hamiltonian_actions.md#the-six-ambient-minors-different-and-contact-identity),
+including its transverse nilpotents. Thus the completed ambient
+ramification recovers existing geometric data, rather than an independent
+capacity bound. The characteristic-zero ramification comparison is
+separate from the characteristic-free finite-map dictionary.
+
+The checked finite-map sources have corresponding realization boundaries.
+[Chinburg–Moret-Bailly–Pappas–Taylor, Definition 1.1 and Theorem 1.2](https://arxiv.org/pdf/1201.0678)
+complete already supplied ample sections while preserving their zero
+supports, so the pair remains input here.
+[Poonen, Theorem 2.2](https://math.mit.edu/~poonen/papers/selfmap.pdf)
+extends suitably polarized maps to projective space, but extending a
+map from \(C_0\) to a line gives containment in its inverse image, without
+sole inverse support. [Jamet, Proposition 1.1 and §1.3](https://arxiv.org/pdf/math/0103202)
+concerns the full inverse scheme; its section-lifting assertions do not
+pass automatically to that scheme's reduction. The iteration used under
+[Luo–Meng's total-invariance hypothesis](https://arxiv.org/pdf/2610.10103)
+requires \(f^{-1}(V)=V\), absent from (FM). That hypothesis and its use
+were checked, rather than the full preprint. These limits leave other
+finite-map constructions available. In particular the
+[twisted-cubic finite-pullback exclusion](finite_pullback_and_matrix_obstructions.md)
+has different polarization and correction-space assumptions and is not
+an exclusion of this line-target dictionary.
 
 ## Constructive transport and its limits
 
@@ -705,6 +793,61 @@ conductor data. Over a nonclosed field, descent of geometric STCI to two
 ground-field equations is a separate arithmetic question. These are scope
 boundaries and questions, with no assertion that the corresponding extensions
 have been established.
+
+## Flat limits, generator conditions and affine source scope
+
+The weighted torus preserving \(C_0\) acts by
+\((x_0,x_1,x_2,x_3)\mapsto(x_0,tx_1,t^3x_2,t^4x_3)\).
+For a supported scheme \(Y\), choose \(N\) with
+\(I_{C_0}^N\subset I_Y\subset I_{C_0}\). Both containments hold for every
+torus translate. Properness of the projective Hilbert scheme gives its
+flat limits; the closed incidence conditions
+\(C_0\subset Y_t\subset V(I_{C_0}^N)\) persist there. Thus the limits
+retain support and Hilbert polynomial. The
+[full torus-modification account](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
+retains additional endpoint and presentation data. AG structure and a
+two-equation presentation still require separate control at a flat limit.
+[Bertone–Cioffi–Orth–Seiler, Corollaries 5.5 and 6.18](https://www.mathematik.uni-kassel.de/~seiler/Papers/PDF/Loci.pdf)
+give open AG and strict-CI loci and constructive recognition algorithms.
+Openness does not preserve these conditions at a flat boundary. Applying
+the algorithms constructively here still requires an actual boundary
+ideal and a support-constrained deformation with the needed generators.
+[Hattori–Zanardini, Theorem A.1](https://ems.press/content/serial-article-files/50397)
+passes from Chow stability of an already proper equal-degree CI to
+stability of its generating system. It supplies no converse preservation;
+their Corollary 4.5 gives stable systems with a common hypersurface factor.
+Thus stability alone does not even ensure proper intersection. A fixed
+Chow cycle also omits the embedded nilpotent algebra. These checked
+applications retain their source's characteristic-zero setting and do
+not exclude a support-preserving construction with controlled equations.
+
+A separate affine proof correction is already covered by the
+[exact Mandal–Zinna audit](../supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md#exact-audit-of-arxiv251107589v1-step-3)
+and its stronger, independently proved real-sphere counterexample.
+In arXiv:2511.07589v1, Theorem 4.2 Step 3, tensoring the Serre sequence
+ends in \(J/cJ\), rather than the image ideal \(J/(c)\). For \(c\in J\)
+there is a further exact sequence
+\[
+0\longrightarrow(c)/cJ\longrightarrow J/cJ
+\longrightarrow J/(c)\longrightarrow0.
+\]
+If \(c\) is a nonzerodivisor, its omitted term is \(A/J\), by multiplication
+by \(c\). The linked audit gives the full explicit witness
+\(J=(x,y),c=x\), including the failed middle exactness, in every
+characteristic. There is also a distinct global-generation control:
+\(x(1-x),y\) give a basis of \(J/J^2\), but their zero set has the extra
+line \(x=1,y=0\). A conormal basis only gives the required local
+information at primes containing \(J\). This latter example does not
+refute invertibility of the image ideal; the tensor/kernel identification
+is the proof failure. The stronger preprint claims are not imported as
+patching theorems. Its narrower published conditional results, the
+classical affine-space theorem and the actual affine quartic equations
+retain their separate scopes. No new counterexample to projective STCI
+over an algebraically closed field follows.
+
+The finite-map, flat-boundary and affine-source additions retain their
+recorded scoped source reviews. Independent mathematical and preservation
+review accepted this consolidation transfer within its stated scopes; no canonical result is promoted.
 
 ## Primary complement obstructions and actual sections
 

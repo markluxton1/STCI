@@ -55,6 +55,26 @@ quartic. All minima here allow finite extensions of \(\mathbb F_p\);
 failure to find rational coefficient pairs over \(\mathbb F_p\) is not
 geometric emptiness.
 
+## Quantitative transfer and covered degree bounds
+
+The [effective characteristic-transfer proof](EFFECTIVE_CHARACTERISTIC_TRANSFER.md)
+gives an explicit constant \(B_D\): if \(p>\exp(B_D)\), a supported
+pair of degrees at most \(D\) in characteristic \(p\) would give a
+characteristic-zero pair with the same ordered degrees. The resulting
+unrestricted growth rate is conditional on characteristic-zero
+nonexistence. In contrast, its growing mate-degree bound over **all
+quartic carriers** is unconditional, using the accepted
+characteristic-zero quartic exclusion. It remains a bound for that
+carrier class, rather than the unrestricted \(\delta(p)\).
+
+The [torus-weight proof](EQUIVARIANT_DEGREE_BOUNDS.md) extends the sharp
+large-prime lower bound from one binomial equation to one
+weight-homogeneous equation with an arbitrary mate, and to pairs with at
+most two weights per equation. It also constrains the extreme components
+of arbitrary pairs when the degree product is prime to \(p\). The
+three/two-weight residual example there explains why controlling a common
+extreme locus does not control zeros created by cancellation outside it.
+
 ## The full simultaneous equation incidence
 
 The parametrization defines a closed copy of \(\mathbf P^1_{\mathbb Z}\) in
@@ -184,6 +204,57 @@ One horizontal component would establish characteristic-zero existence;
 excluding selected special-fiber points or fixed carriers would not
 establish nonexistence without an exhaustive reduction. No such
 horizontal-component calculation or compatible lifting system is claimed.
+
+For a special pair of torus eigenforms, the
+[integral mixed-characteristic trace calculation](MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md)
+forces \(ab\in J_R^2\), where \(J_R\) measures the coefficients breaking
+the symmetry. It imposes a ramification/valuation restriction; its
+ramified zero-trace example still has a residual curve. Its stronger
+\(W_2\) nonlifting conclusion requires \(p\ge7\), \(v_p(ab)=1\),
+generic curvilinearity and the displayed uniform ideal containments. Formal nilpotence alone does not justify the
+same trace argument over a nonreduced base.
+
+An actual supported trait supplies more structure. The
+[prime-to-\(p\) power-extraction theorem](PRIME_TO_P_POWER_EXTRACTION.md)
+recovers a lower-degree equation from a prescribed powered special fiber.
+Applied to the known \((p,4n)\) special pairs with \(p\nmid n\), it
+excludes supported lifts at **every** ramification index. This is a
+theorem about specified points of the full incidence, not a coverage
+theorem for arbitrary characteristic-zero pairs.
+
+For the prescribed \((F_p,H_4^n)\) family with \(p\ge7\), the
+[Frobenius-power precision theorem](FROBENIUS_POWER_LIFTING_PRECISION.md)
+gives exact maximum unramified **strong** precision \(1+v_p(n)\).
+The naive powered equations attain that level. The finite-level statement
+requires flat complete intersections and the displayed uniform
+curve-ideal containments, not merely topological support or field-valued
+rank equations. For any still-possible actual supported trait, the theorem
+also gives
+\[
+p\mid n,\qquad \deg G=4n\ge4p,\qquad v_\pi(p)\ge p-1.
+\]
+Existence or exclusion at those ramification indices remains unresolved.
+These are growing bounds for liftability in this specified family; they
+are not bounds for arbitrary STCI presentations. The non-eigen
+\((16,p)\) source remains outside both extraction results.
+
+There is a further [root-specialization restriction](FROBENIUS_POWER_LIFTING_PRECISION.md#root-specialization-and-the-remaining-endpoint-defects)
+at every ramification index. Close the generic multiplicity-\(p\)
+root on the lifted degree-\(p\) carrier. Its special fiber must
+have a nonzero embedded-point defect over the base \((p,4)\)
+complete intersection, supported at the two endpoints of \(C\).
+If the defect vanished, flat Cartier extension and hypersurface Picard
+rigidity would supply a characteristic-zero quartic mate. This is a
+necessary defect condition on a hypothetical actual trait, not a proof
+that such a defect or trait exists.
+
+In characteristic zero or odd characteristic, the
+[canonical projection section](TAME_PROJECTION_SECTIONS.md) exists away from the pencil's branch points and has pole order at most
+\(m-1\), where \(m=ab/4\). The local complete-intersection control
+attains that bound in the stated characteristics. A meromorphic section
+with a module pole bound need not extend to a regular algebra retraction;
+it supplies no automatic global lift or identification with a
+normal-filtration defect.
 
 ## One binomial equation, with an arbitrary mate
 

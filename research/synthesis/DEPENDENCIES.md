@@ -9,11 +9,15 @@ The [mechanism map](../MAP.md) handles conceptual connections and the
 | --- | --- | --- |
 | Integral low-degree carrier exclusions + factor reduction → both defining degrees at least five | Fixed embedding, characteristic zero | [Quartic carrier proof](quartic_carrier_proof.md); false as a characteristic-free conclusion |
 | Rank-four Gorenstein transverse algebra and symbol pencil → local surface germs → exceptional rank contradiction | Hypothetical supported quartic pair, saturated Gorenstein structure, separable symbol pencil, characteristic-zero global bound | [Quartic pair](quartic_pair_obstruction.md); independent of the full carrier theorem |
-| Quintic symbol data + ADE surface + integral divisor relation → even-node contradiction | Exact reduced-symbol and generic-curvilinear hypotheses | [Quintic–octic proof](quintic_octic_surface_constraints.md); rank alone does not finish it |
+| Proper supported (5,8) pair + globally ADE quintic → contradiction | Fixed C0, characteristic zero; no reduced-symbol assumption | [Cover and symbolic-triple proof](quintic_octic_ade_cover_and_triple.md); [earlier reduced-symbol even-node proof](quintic_octic_surface_constraints.md) remains a separate argument |
+| Nonnormal quintic + Gorenstein normalization + sole-supported mate → contradiction | Integral carrier, fixed C0, characteristic zero; any mate degree | [Full conductor proof](quintic_gorenstein_normalizations.md); normal quintics and non-Gorenstein normalizations are outside |
 | Actual normalized section + full conductor compatibility → descended section | Specified carrier and full inverse support, including nilpotent conductor data | [Fixed-carrier criterion](../results/fixed_carrier_conductor_criterion.md); no universal carrier classification |
 | Saturated actual first relation + full generic binary CI → normal flatness and arithmetic restrictions | Exact orders and generation assumptions | [Filtrations](normal_filtration_boundary_obstructions.md); other initial patterns remain outside |
 | Proper actual pair + generic length → exact residual degree | Complete-intersection purity and degree | [Two surfaces](02-two-surfaces.md), [finite jets](finite_normal_jets.md); an exceptional vertical component is not a residual curve |
 | Frobenius-compatible exponents → actual quartic-carrier STCI | Fixed monomial curve, positive characteristic | [Construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md); does not supply characteristic-zero equations |
+| Exact prescribed Chow bundle map → unique ambient pair | Algebraically closed field, any characteristic; dim V≥3 and nonnegative symmetric powers | [Full Hom identity](chow_bundle_maps.md); existence with the required determinant remains to be proved |
+| Picard torsion → spectral determinant vanishing and a graded CI family | Full smooth-root, parameter-line and characteristic hypotheses | [Determinant schemes](spectral_determinant_schemes.md); the actual homogeneous source operator is an additional condition |
+| Actual embedded jet filtration → finite homogeneous realization | Fixed smooth embedded curve and degree; explicit bound uses the stated quadric flag | [Global jets](global_equation_jets.md); neither a rank plateau nor graded pieces alone establish realization |
 
 ## Connections requiring an additional theorem
 

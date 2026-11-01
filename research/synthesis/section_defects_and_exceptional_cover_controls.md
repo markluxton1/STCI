@@ -239,6 +239,30 @@ ratio \([F_a:G_b]\) takes values in that projective bundle, not a fixed
 pencil line. Taking powers to equalize the degrees changes the full ideal
 and its blowup and cannot identify these exceptional constructions.
 
+## Smooth models and dynamical source hypotheses
+
+The full-ideal line-supported examples above already allow ramified
+exceptional covers of arbitrarily large genus. Rational support therefore
+does not force rational or unramified normalized covers. Generic ruledness
+does not supply an everywhere smooth \(\mathbf P^1\)-bundle model, and
+singular fibers cannot be counted as additional support curves downstairs.
+
+The checked dynamical sources require more structure.
+[Petsche–Szpiro–Tepper, Theorem 1](https://arxiv.org/pdf/0806.1364)
+concerns projective-space endomorphisms with potential good reduction at
+every place. [Silverman, Theorem 1.1](https://arxiv.org/pdf/math/9609212)
+uses moduli under simultaneous source-target conjugacy. A cover of the fixed
+pencil line is not automatically such a dynamical system; changes of source
+coordinates alone are not conjugacy. Even a smooth ruled model would not
+by itself provide the dynamical morphism and reduction data required by
+these theorems. The missing operation would have to connect actual ambient
+equations with those extra conditions or constrain exceptional degeneration
+in a way not already allowed by the supported controls.
+
+These application limits received independent review at source checkpoint
+`57fb49b`, including the existing line-supported example. They introduce no
+new universal theorem about normalized exceptional surfaces.
+
 ## Characteristic boundaries of these controls
 
 The graph-cocycle identification, ideal containment through full limits,

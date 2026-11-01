@@ -9,6 +9,13 @@ obstruction mechanisms. In every characteristic \(p>0\), the same fixed
 curve **is** an STCI using a quartic carrier; see the
 [explicit construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
 
+Two reviewed provisional results sharpen degree-five scope. An integral
+[nonnormal quintic with Gorenstein normalization](quintic_gorenstein_normalizations.md)
+has no mate in any degree. A proper sole-supported degree-(5,8) pair cannot
+have a [globally ADE quintic](quintic_octic_surface_constraints.md), even with
+repeated first symbols. Normal quintics with worse singularities and nonnormal
+quintics with non-Gorenstein normalization are not excluded by these theorems.
+
 ## 5.1 The precise degree-four theorem and its proof mechanisms
 
 Fix an algebraically closed characteristic-zero field and
@@ -127,14 +134,16 @@ numerical class compatibility, and one fixed-carrier exclusion do not
 establish that missing implication. See [the frontier](06-frontier.md) and
 [dependency map](DEPENDENCIES.md).
 
-## 5.8 Three presentations of the quartic-pair obstruction
+## 5.8 Three mechanisms for the quartic-pair obstruction
 
 The [quartic-pair chapter](quartic_pair_obstruction.md) owns the full bounded proof of [R-0022](../results/quartic_44_filtered_exclusion.md), independently of R-0001. It begins with the hypothetical pair, derives its two allowed Gorenstein filtration types, and exposes the different proof mechanisms before the calculations.
 
+- The **intrinsic fourth-extension proof** classifies the two allowed saturated types using the embedded triple's contact-extension class. Its only surviving quadruple is 4C on the containing quadric, which cannot belong to a proper quartic pair. This completed proof uses neither ambient quartic source matrices nor a global surface bound.
 - The **filtered-contact proof** exhausts the actual quartic source spaces through the allowed triples. Every nonfactored pencil has a nonzero cubic-contact determinant, forcing generic transverse length three rather than four. Its finite source matrices and exact computational support remain explicit dependencies.
 - The **surface proof** derives moving singularities and defect singularities from the rank-four local algebra. Their exceptional curves have rank at least twenty-one, incompatible with a resolved quartic's characteristic-zero surface bound. The K3 presentation uses the rational-double-point literature.
-- The **direct-blowup presentation** constructs those exceptional chains and proves crepancy explicitly, then derives the global bound from Noether's formula and Hodge decomposition. It removes surface-singularity classification from the proof, while retaining global surface geometry.
 
-The completed direct-blowup argument does not complete the proposed proof using only embedded neighborhoods and actual equation spaces. The latter still needs a nonvanishing theorem for the actual-source determinant without enumerating triple directions or invoking the global surface bound. Its determinant target, the primitive branch's normal-bundle condition, and counterexamples to degree-only arguments are given in [the same chapter](quartic_pair_obstruction.md#6-what-a-neighborhood-only-proof-still-needs).
+The **direct-blowup presentation of the surface proof** constructs those exceptional chains and proves crepancy explicitly, then derives the global bound from Noether's formula and Hodge decomposition. It removes surface-singularity classification from the proof, while retaining global surface geometry.
+
+The [completed intrinsic argument](intrinsic_fourth_extension.md) supplies the neighborhood-only mechanism for the two allowed quartic types. The [general contact-module criterion](quartic_pair_obstruction.md#6-what-a-neighborhood-only-proof-still-needs), determinant target and counterexamples remain useful beyond this application; a nonvanishing or realization theorem for arbitrary higher-length types does not follow.
 
 A proper quartic intersection can contain the fixed curve with multiplicity three and a genuine residual quartic. The chapter includes an explicit pair and explains why its eight moving exponent-three germs fit the surface budget. Thus this is also a laboratory for intersections with residual support. The characteristic-two sole-support quartic pair is a separate existence construction; the relevant conormal geometry, separability and surface bound change with characteristic.

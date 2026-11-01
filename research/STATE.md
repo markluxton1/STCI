@@ -39,11 +39,28 @@ and [full contact/endpoint models](synthesis/contact_duality_and_global_descent.
 They support constructive and obstructive investigations without resolving the
 unrestricted question.
 
-The [conditional quintic–octic theorem](synthesis/quintic_octic_surface_constraints.md)
-excludes the subclass with the specified generic curvilinear algebra, reduced
-full quintic first-symbol divisor and globally ADE quintic. Its integral Picard
-and double-cover step goes beyond its rank count. The full \((5,8)\) problem
-remains open.
+The [quintic–octic theorem](synthesis/quintic_octic_surface_constraints.md)
+excludes a proper sole-supported degree-(5,8) pair whose quintic has only
+rational double points everywhere, including away from C0. Reducedness of
+the first-symbol divisor is no longer assumed. The full cover and symbolic-triple
+proof includes repeated symbols; the earlier reduced-symbol even-node proof
+remains a separate useful argument. The full (5,8) problem remains open.
+
+The [nonnormal quintic theorem](synthesis/quintic_gorenstein_normalizations.md)
+excludes every mate degree for an integral nonnormal quintic with Gorenstein
+normalization. It treats integral, reducible and nonreduced conductors. Normal
+quintics and non-Gorenstein normalizations are outside it; the
+[toric source calculation](synthesis/quintic_non_gorenstein_toric_sources.md)
+retains actual models and projection constraints for the latter. Its
+[complete center calculation](synthesis/quintic_toric_center_incidence.md)
+excludes the one-infinity boundary and all but the specified M incidence
+in the finite chart. Emptiness of that remaining locus is unproved, and a
+survivor would still need actual power descent. The general
+[conductor–differential theorem](synthesis/carrier_conductor_differential_comparison.md)
+forces a normalization singularity on the inverse curve or a singular full
+conductor contact for a generically regular integral carrier of degree at least
+five admitting a sole-supported mate. Its local singular-gluing controls explain
+the smoothness boundary.
 
 The [ruled-surface criterion](synthesis/ruled_surface_degree_criterion.md) now includes a sharp characteristic-free genus inequality and an integral degree-gap refinement. It unifies the low-sectional-genus quartic and quintic rationality reductions and gives a conditional degree-ten rationality application; it is not a new STCI exclusion. The [sextic source-rank analysis](synthesis/rank_strata_and_sextic_lifts.md) determines the single rank-drop root and proves uniqueness of compatible low-order actual sextic lifts on the necessary root open, without deciding the remaining nonlinear incidence.
 
@@ -77,20 +94,70 @@ necessary invariants of its normal cyclic cover. It also excludes a reduced
 common first-normal divisor while retaining local nonreduced controls. The
 remaining global sextic realization problem is open; the cover's invariants are
 not those of an assumed smooth resolution, and no contradictory upper irregularity
-bound is known.
+bound is known. The [ADE refinement](supplements/SEXTIC_ADE_REDUCTION.md)
+leaves three primitive-triple orbits under its global ADE pencil hypothesis.
+The actual 27-dimensional sextic source and its first contact equation are
+computed; higher contact, properness and sole support still need proof.
 
 The [polarized retraction obstruction](synthesis/contact_jacobians_and_hamiltonian_actions.md#a-pencil-compatible-polarized-retraction-cannot-extend-globally)
 is a characteristic-free section-count result, with a separate punctured-cover
 application when two is invertible. It describes a restriction on how the
 multiple structure can sit over the reduced curve, not an STCI exclusion.
 
-The [spectral four-torsion theorem](synthesis/spectral_torsion_and_syzygy_splitting.md)
-interprets a syzygy splitting jump through the ruling-difference line bundle on
-a smooth (2,2) curve. The minimal generator degrees change from (3,3) to (2,4)
-while the dual obstruction dimension remains sixteen. This selected
-characteristic-zero theorem is independently reviewed provisional geometry;
-the broader all-power pushforward extension and the source checkpoint's later
-bounded exclusion calculations are not imported by this statement.
+The [spectral power theorem](synthesis/spectral_pushforward_powers.md) now
+contains the general genus-one pushforward lemma and all-power smooth (2,2)
+coefficient maps. Its [determinant scheme](synthesis/spectral_determinant_schemes.md)
+is the relevant relative Picard torsion scheme and supports universal graded
+complete-intersection families, including over nonreduced bases. The
+[fourth-power application](synthesis/spectral_torsion_and_syzygy_splitting.md)
+retains its sixteen-dimensional obstruction target and actual fixed-coordinate
+operator. Graded existence does not imply actual equations: an explicit
+order-three example fails the first ambient operator. The
+[torsion-two calculations](synthesis/quadratic_root_torsion_two_lifting.md)
+exclude the covered pure-direction and linear-rank-drop boundaries; the
+remaining rank-two charts and global realization are unresolved.
+
+The [order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md)
+covers the full smooth torsion locus in fixed ruling frames. Its completed
+affine four-parameter slice has 24 smooth first-compatible geometric points:
+22 fail the actual sextic-symbol test, and two fail the complete cubic lift.
+This excludes that slice, not the full seven-dimensional family. The
+[actual source comparison](synthesis/actual_octic_root_lift_comparison.md)
+gives a sextic map with source dimension at most three and target dimension
+eleven. On exact-order-three roots, later sextic membership is automatic
+if compatible primitive root lifts exist; those lifts are still an obligation.
+The same account constructs a proper (8,8) pair with generic length eight
+along C0 and residual curve-cycle degree 32, an actual containing intersection
+which does not have sole support.
+
+The [global jet account](synthesis/global_equation_jets.md) gives an intrinsic
+source-deficit filtration, a general finite homogeneous realization theorem,
+an explicit quadric-flag cutoff, and the exact sextic minimum cutoff of order
+five. Its octic correction recursion retains the actual allowed source images.
+[Bounded certificates](synthesis/bounded_equation_certificates.md) distinguish
+verification of an actual fixed-degree pair from finding a pair or proving an
+effective all-degree witness bound. The
+[pencil Milnor bound](synthesis/pencil_milnor_budget.md) remains a useful general
+identity, but for the fixed quartic it follows from stronger local geometry.
+
+[Effective characteristic transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md)
+gives an unconditional growing lower bound for quartic-carrier mate degrees;
+growth for all defining pairs is conditional on characteristic-zero nonexistence.
+[Trace](supplements/MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md),
+[prime-to-p extraction](supplements/PRIME_TO_P_POWER_EXTRACTION.md) and
+[Frobenius precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md) constrain
+prescribed supported lifts and actual traits with their stated precision and
+ramification hypotheses. They do not obstruct unrelated characteristic-zero
+presentations. The prescribed powered-quartic specialization additionally
+forces positive lower-root defect at both endpoints in any hypothetical
+supported trait. Compatibility of that defect with the actual
+complete-intersection algebra is unresolved.
+
+The [Grassmannian Hom identity](synthesis/chow_bundle_maps.md) shows in every
+characteristic that a map of the prescribed Sylvester bundle types already
+is a pair of ambient equations. The missing datum is such a map with the
+required determinant. Arbitrary Chow-power determinants use other bundle
+types; they do not furnish that datum.
 
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.

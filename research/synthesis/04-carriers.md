@@ -13,6 +13,17 @@ characterizes mate existence: the integral curve must be Q-Cartier and satisfy
 from the stronger formula for the least mate degree. Realizing this equality
 on an actual higher-degree carrier of \(C_0\) remains a geometric question.
 
+The [general conductor–differential comparison](carrier_conductor_differential_comparison.md)
+constrains smooth normalization and smooth full conductor contacts, with
+[singular-gluing controls](square_descent_and_singular_gluing.md) explaining its
+boundary. The [normalization-index and power-descent account](normalization_indices_and_power_descent.md)
+retains actual affine and projective supported constructions beyond C0.
+For fixed C0 in characteristic zero, the [Gorenstein-normalized nonnormal
+quintic theorem](quintic_gorenstein_normalizations.md) excludes all mate degrees;
+[non-Gorenstein toric sources](quintic_non_gorenstein_toric_sources.md) retain
+actual marked models and an open projection problem. These statements do not
+classify arbitrary higher-degree carriers.
+
 ## 4.1 Passing to the normalization
 
 Let \(\nu:S\to X\) be the finite normalization, and put

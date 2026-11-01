@@ -364,6 +364,100 @@ trace and realization arguments and accepted their precise characteristic,
 section-generation and algebra-duality boundaries. No new cover is constructed
 by that review.
 
+## Supported flat closure and full cover moduli
+
+### An embedded punctured family has a unique supported flat closure
+
+The following operation works in every characteristic. Let
+\(M=V(x_0,x_3)\), \(P=\operatorname{Bl}_M\mathbf P^3\), and
+\(p:P\to B=\mathbf P^1\) be its plane-bundle morphism. The strict transform
+\(C\) of \(C_0\) misses the exceptional divisor, since \(C_0\cap M\) is
+empty, and is finite over \(B\). Let \(B^\circ\subset B\) be any nonempty
+open subset. Suppose an actual embedded scheme
+\[
+Y^\circ\subset P|_{B^\circ}
+\]
+is finite flat over \(B^\circ\), with reduced support
+\(C|_{B^\circ}\). Its scheme-theoretic closure \(\overline Y\subset P\)
+is the unique embedded \(B\)-flat extension. It is finite flat of the
+same degree, has support \(C\), and descends to an embedded locally
+Cohen–Macaulay thickening of \(C_0\) in \(\mathbf P^3\).
+
+**Proof.** The support of scheme closure is the topological closure of
+\(C|_{B^\circ}\), hence \(C\); see
+[Stacks, Lemma 29.6.3](https://stacks.math.columbia.edu/tag/01R5).
+The proper map \(\overline Y\to B\) has finite fibers, so it is finite
+([Stacks, Lemma 37.44.1](https://stacks.math.columbia.edu/tag/02LS)).
+At an omitted point of \(B\), choose a uniformizer \(t\). The closure
+ideal is the kernel of restriction to \(Y^\circ\), where \(t\) is a unit.
+If \(th\) restricts to zero, so does \(h\); the ideal is therefore
+\(t\)-saturated. Thus multiplication by \(t\) on \(O_{\overline Y}\)
+is injective. Its finite module over the DVR is torsion-free, hence
+free ([Stacks, Lemma 15.22.10](https://stacks.math.columbia.edu/tag/0539)).
+This proves flatness; connectedness of \(B\) makes its rank the given
+degree. Any other flat embedded extension has the same saturated ideal:
+a function vanishing after inverting \(t\) vanishes in its torsion-free
+quotient. This proves uniqueness. The support misses the exceptional
+divisor, so \(\overline Y\) lies in the locus isomorphic to
+\(\mathbf P^3\setminus M\). Its image is proper and hence closed in
+\(\mathbf P^3\). Finally a base uniformizer is a nonzerodivisor at every
+closed point of this finite flat curve, so its local rings of dimension
+one have depth one and are Cohen–Macaulay. ∎
+
+The same proof works for any projective curve disjoint from the axis of
+a finite linear pencil. It uses an actual embedded family, without
+monomial parametrization, two distinguished fibers or a specified
+transverse cycle. This is a positive way to extend supported multiple
+structures. It does not preserve Gorenstein endpoint fibers, a prescribed
+splitting of \(p_*O_{\overline Y}\), algebra-linear canonical duality, or
+a global two-generator ideal. Closing the embedded scheme saturates
+away components that homogenizing chosen equations may add at infinity;
+its resulting ideal need not remain two-generated. Consequently support
+alone cannot force a residual-at-infinity phenomenon. Any such
+restriction must retain the additional equation or section-ring data.
+
+### Algebra-law and punctual-CI families retain flexibility
+
+For these literature comparisons retain the characteristic-zero setting
+of the reviewed source applications. The actual CI pencil has the
+nontrivial module bundle (7), rather than a global ordered module basis.
+[Poonen, Proposition 1.1 and §2](https://arxiv.org/pdf/math/0608491)
+parameterizes globally based algebra laws by an affine scheme. The law
+on (7) instead uses its frame bundle equivariantly, or a map to the
+quotient stack. It is not a map from the proper base \(B\) to that affine
+based-algebra scheme. Proper-to-affine constancy therefore supplies no
+contradiction.
+
+Nor must every complete family of punctual CIs meet the non-CI boundary.
+[Benoist, Theorem 0.8, Corollary 0.10 and Proposition 3.23](https://arxiv.org/pdf/1212.4862v2)
+construct complete curves in the homogeneous binary-CI locus for unequal
+degrees. These give subschemes of the affine plane supported at its
+origin. Remark 3.24 supplies rational examples for consecutive unequal
+degrees; Remark 3.25 does not claim them for every pair. The equal-degree
+locus is affine. Thus a blanket forced-boundary premise would already
+fail for these punctual-CI families. Their flexibility is useful in
+constructing multiple structures, without prescribing the embedded
+quartic's actual normal symbols and global equations.
+
+The compactification theorems retain different hypotheses.
+[Deopurkar, Definition 3.3(2) and Theorem 3.8](https://ananddeopurkar.org/papers/CompHurwitz.pdf)
+requires a generically étale cover on every target component. The full
+hypothetical \(Y\) is generically nonreduced with degenerate trace
+discriminant, so its proper Hurwitz branch morphism does not apply.
+[Lieblich, Proposition 2.1.5](https://arxiv.org/pdf/math/0603034)
+represents coherent algebra laws, while the properness in Theorems
+1.3–1.4 concerns branchvarieties with geometrically reduced source
+fibers (Definition 1.1). Representing the algebra problem does not
+supply this properness for the full multiple curve.
+
+These closure and moduli statements preserve their scoped independent
+source review. Independent mathematical and preservation review accepted
+this transfer within its stated scopes. The [finite ambient-map dictionary](global_equations_and_constructions.md#finite-ambient-maps-and-reduced-inverse-images)
+is another exact reformulation with its own realization conditions.
+Neither its completed ramification nor abstract cover moduli imposes an
+extra residual bound here. An actual supported closure with controlled
+global ideal remains a meaningful construction target.
+
 ## 5. The quadric section is a cokernel; sole support requires nilpotence
 
 Because \(\mathcal O_Y(1)=\pi^*\mathcal O_{\mathbf P^1}(1)\), multiplication
@@ -800,6 +894,39 @@ v'=\frac{zD^2-(z^3+v)^3}{D^3}.                \tag{3}
 \]
 
 These identities hold on the actual ambient overlap. Replacing \(D\) by \(z^4\) or retaining only their linear terms records a normal symbol, not an actual transition of equations. In particular the base-coordinate change itself has normal corrections.
+
+### Stable patching presupposes an actual invertible transition
+
+On this same overlap the ambient ring is
+\(R=k[z,y,D,D^{-1}]\). Bass–Heller–Swan,
+[Theorems 1–2, pp.62–63](https://numdam.org/item/PMIHES_1964__22__61_0.pdf),
+and polynomial homotopy invariance give
+\[
+K_1(R)=K_1(k[z,y])\oplus K_0(k[z,y])
+      =k^\times\oplus\mathbf Z.
+\]
+The units \(cD^n\) represent both summands, so determinant detects the
+whole stable class. For an already constructed \(M\in GL_2(R)\), diagonal
+correction of its determinant leaves a stably elementary matrix. This
+calculation works over every field. It does not construct \(M\), factor
+it in rank two, preserve a chosen section, or control homogeneous degrees.
+The preceding full reduced-ideal example proves exactly why equality of
+the ideals supplies no such matrix: its conormal determinant restricts to
+\(-z^{-14}\), whereas ambient units restrict to \(cz^{4n}\). The stable
+calculation cannot even start from those equal ideals. A different thick
+structure can have different determinant data.
+
+[Keshari–Tikader, Theorem 1.2](https://arxiv.org/pdf/2307.02441)
+lifts a prescribed conormal orientation to the same full affine ideal
+under its monic-localized lifting hypotheses. In the intended rank-two
+application over a dimension-two coefficient ring, its required bound
+\(2n\ge d+3\) fails: \(4<5\). Corollary 2.10 also requires two comaximal
+elements in one affine ring, unlike \(x_0,x_3\) in the homogeneous
+coordinate ring. These theorems do not supply the weighted projective
+transition. The actual two-chart criterion above explains why a
+section-preserving transition with its degree control would suffice.
+This scoped source application is preserved without asserting an
+unstable patching obstruction for arbitrary higher thickenings.
 
 ## 4. What endpoint orders omit, and the exact stopping point
 

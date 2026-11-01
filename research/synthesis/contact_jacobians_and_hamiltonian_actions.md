@@ -361,3 +361,145 @@ of extending the punctured pencil geometry. None supplies an arbitrary
 unpolarized splitting or a contradiction for every homogeneous pair; the
 remaining task is an actual supported construction or an obstruction with
 the necessary global coverage.
+
+
+## Smooth-cone quantizations and supported characteristic classes
+
+The following positive construction does not assume a supported pair.
+Work in characteristic zero with
+\(Y=\widehat C_0\setminus\{0\}\subset U=\mathbf A^4\setminus\{0\}\)
+and the constant symplectic form above. Its smooth support is Lagrangian.
+For the constant Moyal quantization \(O_\hbar\) on \(U\), **every line
+bundle \(L\) on \(Y\) admits a complete flat module quantization reducing
+to \(i_*L\)**.
+
+### The truncated Atiyah and period conditions both vanish
+
+The punctured cone is the complement of the zero section in
+\(O_{\mathbf P^1}(-4)\). Picard localization for that zero section gives
+\[
+\operatorname{Pic}(Y)=\operatorname{Pic}(\mathbf P^1)/\langle O(-4)\rangle
+=\mathbf Z/4.
+\]
+The additive Atiyah–Chern classes of both \(L\) and \(K_Y\) consequently
+vanish in the truncated de Rham group
+\(\mathbb H^2(Y,\Omega_Y^{\ge1})\), a characteristic-zero vector space:
+these classes are additive under tensor product and their line bundles
+are torsion. This step uses the truncated group, rather than merely
+ordinary de Rham cohomology.
+
+The constant Moyal product has a global splitting as a formal module,
+a symmetric second product coefficient, and zero overlap derivations.
+Its cocycle in
+[Baranovsky–Ginzburg–Kaledin–Pecharich, Remark 5.3.4](https://arxiv.org/pdf/1403.3493)
+therefore represents
+\(\operatorname{At}(O_\hbar,Y)=0\) in that same truncated group.
+Moreover it restricts from affine symplectic four-space, whose
+\(H^2_{\mathrm{dR}}\) is zero, so its higher period classes vanish.
+The two conditions of their Theorem 1.1.4 are thus satisfied:
+\[
+c_1(L)-\tfrac12c_1(K_Y)=\operatorname{At}(O_\hbar,Y)=0,
+\qquad i^*\omega_j=0\quad(j\ge2).
+\tag{Q}
+\]
+The theorem gives the asserted complete flat module. The explicit Moyal
+cocycle check is necessary: vanishing in ordinary de Rham cohomology
+would not alone prove the first equality in its truncated group.
+
+This construction extends to the punctured cone of any smooth rational
+Legendrian curve of positive hyperplane degree \(e\) in this constant
+symplectic four-space: the same Picard group is \(\mathbf Z/e\), and the
+same two checks prove (Q). It provides smooth line-bundle quantizations,
+without an equivariant structure, a filtered Weyl module, or an extension
+across the cone vertex. In particular it does not quantize the structure
+sheaf of an arbitrary thick intersection: its reduced ideal acts
+nontrivially on that quotient, whereas it annihilates \(i_*L\).
+Thus the smooth half-canonical and period conditions are available
+geometric compatibility, rather than an obstruction to the desired
+multiple structures. No characteristic-\(p\) quantization assertion is
+being made here.
+
+### Rational support cohomology, including the vertex
+
+Now work over \(\mathbf C\), and let
+\(V=\widehat C_0\subset\mathbf A^4\) include its vertex. Its link is the
+circle bundle of Euler number \(-4\) over \(S^2\). The Gysin sequence
+gives homology \(H_0=H_3=\mathbf Z\), \(H_1=\mathbf Z/4\), and
+\(H_2=0\). The one-point compactification of the affine cone is the
+suspension of this link. Reduced homology of that suspension computes
+Borel–Moore homology of \(V\), and duality in the oriented real
+8-dimensional ambient space gives
+\[
+H_j^{\mathrm{BM}}(V,\mathbf Q)=
+\begin{cases}\mathbf Q&j=4,\\0&j\ne4,\end{cases}
+\qquad
+H^r_V(\mathbf A^4,\mathbf Q)=
+\begin{cases}\mathbf Q&r=4,\\0&r\ne4.\end{cases}
+\tag{SC}
+\]
+Integrally there is also
+\[
+H_2^{\mathrm{BM}}(V,\mathbf Z)=\mathbf Z/4,
+\qquad H^6_V(\mathbf A^4,\mathbf Z)=\mathbf Z/4.
+\]
+Consequently every coherent sheaf supported on \(V\) has rational
+supported de Rham Chern character concentrated in degree four,
+independently of any quantization. For a supported CI quotient the
+surviving codimension-two cycle class is \(m[V]\), with \(m=ab/4\).
+This includes the vertex and does not identify a vertex contribution
+with a projective residual curve. For the cone over any smooth rational
+curve of positive degree \(e\) in \(\mathbf P^3\), the same calculation
+holds, with integral torsion \(\mathbf Z/e\). No Lagrangian hypothesis
+is needed for (SC).
+
+[Baranovsky–Ginzburg, ZAG Handbook, Theorem 11.1, pp.41–44](https://api.pageplace.de/preview/DT0400.9781040378878_A50830332/preview-9781040378878_A50830332.pdf)
+announces a supported trace-density vanishing statement for general
+coherent modules assuming flat quantizability; the chapter refers the
+full proof to a work listed as in preparation. In this dimension its
+conclusion is the rational concentration (SC). That concentration is
+already automatic here, even granting the theorem and the missing
+quantizability premise. The elementary support-cohomology calculation
+uses neither that announcement nor quantization. Integral, unstable and
+equivariant refinements are not exhausted by this rational calculation.
+
+### The full-module and principal-symbol realization conditions
+
+The checked neighboring theorems do not supply the missing full quotient.
+[Baranovsky–Ginzburg–Pecharich, Theorem 7 and Corollary 13](https://arxiv.org/pdf/0909.5520)
+concern bundles on smooth coisotropic supports.
+[Garay–van Straten, Theorem 1](https://arxiv.org/pdf/0802.1647)
+requires a commuting integrable system and a torsion-free obstruction
+module; the twisted-cubic control above proves that an involutive thick
+ideal need not have commuting homogeneous generators.
+[Baranovsky–Huey, §§1.1–2 and 7](https://arxiv.org/pdf/2607.12910)
+extends existing finite-order quantizations of bundles locally free on
+the symplectic ambient variety. Its morphism-lifting argument does not
+give a quantized Koszul complex with flat supported cokernel.
+
+Even a formal quantization of the quotient would still require
+an equivariant/algebraization construction before yielding a
+Bernstein-filtered Weyl module. Setting the formal parameter to one
+is not generally defined. Stafford's two-generator theorem, in the
+constructive treatment of
+[Leykin, Theorems 3 and 6 and §§4–5](https://arxiv.org/pdf/math/0204303),
+does not ensure that two chosen principal symbols generate the
+associated graded ideal or cut out its characteristic support.
+For a direct control in the characteristic-zero Weyl algebra \(A_2\),
+\[
+I=A_2\partial_1+A_2\partial_2=A_2P+A_2Q,
+\qquad P=\partial_1,\quad Q=x_1\partial_1+\partial_2.
+\]
+Indeed \(Q-x_1P=\partial_2\). Under the Bernstein filtration,
+\(\operatorname{gr}I=(\xi_1,\xi_2)\) by the usual ordered monomial basis,
+but the displayed leading symbols generate
+\((\xi_1,x_1\xi_1)=(\xi_1)\), with strictly larger zero support.
+Cancellation recovers the missing symbol. This is a presentation
+limitation, fully consistent with the operator two-generator theorem.
+
+The smooth quantization, support-cohomology and symbol controls retain
+their scoped independent source review. Independent mathematical and
+preservation review accepted this transfer within its stated scopes.
+Together they identify positive smooth compatibility
+and the further full-module, polarization and filtered-presentation data
+needed by a construction, without a new unrestricted degree exclusion,
+residual floor or conjectural bridge promoted to a theorem.

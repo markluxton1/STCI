@@ -7,6 +7,11 @@ Suppose an arbitrary proper pair \(Z=V(F_6,G_6)\) has reduced support
 prescribed first symbol. The following reduction covers every such pair;
 it does not exclude all of them.
 
+The separate [ADE carrier reduction](SEXTIC_ADE_REDUCTION.md) proves that,
+in characteristic zero, a general pencil carrier with only rational double
+points forces \(L=\mathcal O(-6)\) and \(D_2=0\). The non-ADE
+case and that remaining primitive-triple case are open.
+
 ## Why every pair is generically curvilinear
 
 Put \(q=x_0x_3-x_1x_2\). The containing smooth quadric \(Q=V(q)\)
@@ -65,25 +70,6 @@ rows for the **ordinary** nilradical filtration:
 | \(\mathcal O(-6)\) | 7 | 63 |
 | \(\mathcal O(-7)\) | 11 | 99 |
 
-The last row has the additional necessary restriction
-\[
- \boxed{l=7\quad\Longrightarrow\quad 1\le\deg A\le5.}
-\]
-Indeed if \(A=D_2=0\), multiplication \(L^{\otimes2}\to E_2\)
-is an isomorphism everywhere. In the quotient by the saturated third
-ideal \(P_3\), a local lift \(v\) of a generator of \(L\) then gives
-the basis \(1,v,v^2\) over a completed curve parameter ring, with
-\(v^3=0\). Thus \(\mathcal O_Z/P_3\) is an embedded primitive triple,
-including at defective points of the original length-nine structure.
-For \(l=7\), the fixed-curve
-[P-010 cocycle](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
-excludes this triple in characteristic zero and every \(p>3\): its
-\(-3/8\) coefficient, and the missing quotient line's \(3z^{-5}\)
-class, remain nonzero. The upper bound follows from \(2A\le T\).
-Independent reconstruction verified the saturated-quotient argument and
-the exact positive-characteristic scope of the existing cocycle. No
-reducedness of a defect divisor is needed for this restriction.
-
 More precisely, if \(B_j\) is the divisor of local torsion lengths in
 \(J^j/J^{j+1}\), where \(J\) is the nilradical of \(\mathcal O_Z\),
 then \(\sum_j B_j=9T\) as effective divisors. The support
@@ -105,6 +91,124 @@ was performed. These three rows do not classify actual embedded structures:
 divisor realizability, homogeneous equation lifts and sole support still
 have to be established or excluded. In particular the unrestricted
 \((6,6)\) question remains open.
+
+## The constant-direction triple and its actual defects
+
+The \(L=\mathcal O(-7)\) row has the additional necessary restriction
+\[
+ \boxed{l=7\quad\Longrightarrow\quad 2\le\deg A\le5.}
+\]
+Indeed if \(A=D_2=0\), multiplication \(L^{\otimes2}\to E_2\)
+is an isomorphism everywhere. In the quotient by the saturated third
+ideal \(P_3\), a local lift \(v\) of a generator of \(L\) then gives
+the basis \(1,v,v^2\) over a completed curve parameter ring, with
+\(v^3=0\). Thus \(\mathcal O_Z/P_3\) is an embedded primitive triple,
+including at defective points of the original length-nine structure.
+For \(l=7\), the fixed-curve
+[P-010 cocycle](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md)
+excludes this triple in characteristic zero and every \(p>3\): its
+\(-3/8\) coefficient, and the missing quotient line's \(3z^{-5}\)
+class, remain nonzero. The upper bound follows from \(2A\le T\).
+Independent reconstruction verified the saturated-quotient argument and
+the exact positive-characteristic scope of the existing cocycle. No
+reducedness of a defect divisor is needed for this restriction.
+
+The improvement from nonzero \(A\) to \(\deg A\ge2\), and precise
+small-degree support conditions, reuse the
+[constant-direction apolar calculation](LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#constant-directions-require-a-prescribed-common-scalar-divisor).
+Here its defect is exactly \(A=D_2\). To see this, in the saturated
+triple put \(N=P_1/P_3\) and \(Q=P_2/P_3\). Then
+\[
+ N/Q=L,\qquad Q=L^2(A),\qquad NQ=0.
+\]
+Thus \(N^2\) is the image of \(L^2\to Q\), and
+\(\operatorname{tors}(N/N^2)=Q/N^2\) has divisor \(A\). This
+identifies the first ordinary torsion of the triple with the second
+saturated multiplication defect of the length-nine structure. It assumes
+neither that the triple is a complete intersection nor that it is primitive.
+
+When \(l=7\), the saturated direction is constant. In the balanced
+frame write its kernel line \(m=u+\theta v\), with
+\(z=x_1/x_0\) on the curve. The necessary pole-annihilation condition is
+\[
+ h_A h_\theta=0\quad\text{in }H^1(\mathcal O(\deg A-7)),\qquad
+ h_\theta=3\left(\theta^3z^{-5}-\frac12\theta^2z^{-4}
+                 +\frac14\theta z^{-3}-\frac18z^{-2}\right),
+\]
+where \(h_A\) is a binary form defining \(A\). The missing direction
+\(m=v\) has class \(3z^{-5}\). The accepted matrices have no
+degree-one annihilator. Combining their kernels with the actual-pole
+argument below gives the following restrictions, where \(p_0,p_\infty\)
+are the two fixed parameter endpoints:
+
+| Degree and direction | Necessary divisor \(A\) |
+|---|---|
+| Degree two, \(\theta=0\) | \(2p_0\) |
+| Degree two, missing direction \(m=v\) | \(2p_\infty\) |
+| Degree three, \(\theta\ne0\) | \(p_0+p_\infty+p_\theta\), with \(z(p_\theta)=-2\theta\) |
+| Degree three or four, either axis direction | Impossible for an actual defect divisor |
+| Degree five, \(\theta=0\) | The annihilator condition holds and \(2p_0\nleq A\) |
+| Degree five, missing direction \(m=v\) | The annihilator condition holds and \(2p_\infty\nleq A\) |
+
+No degree-two divisor is possible in a mixed direction. In that direction
+the three degree-three points are distinct. These are necessary support
+conditions, not global sextic realizability claims.
+
+The [symbolic-triple certificate](NORMAL_CARRIER_SYMBOLIC_TORSION.md#a-symbolic-triple-defect-certificate-for-unrestricted-normal-carriers)
+already proves this pole argument for pure triples with these first two
+relation sheaves. The saturated quotient here has the same sheaves. In
+characteristic zero it is also \(\mathcal O_S/\mathcal O_S(-3C_0)\)
+on a normal pencil carrier, by the divisorial-layer identification below.
+The direct triple argument does not need that carrier interpretation.
+After removing the nonzero scalar three, the degree-one matrix has fixed
+minor \(-1/64\), the mixed degree-two matrix has minor
+\(-\theta^4/32\), and the degree-three kernel uses only powers of two
+in denominators. Together with the already valid fixed-curve transition
+formula, this extends the same restrictions to every \(p\ge7\).
+Independent reconstruction checked the defect identification, reuse of the
+pure-triple pole condition, kernels and characteristic extension. The
+existing [exact verifier](../computations/verify_localcoh_constant_direction_apolar.py)
+is supporting evidence for the unchanged matrices; no rerun is needed
+for the displayed minor and kernel argument.
+
+The distinction between an allowed pole bound and the **actual** defect
+strengthens the axis rows. Work locally over \(R=k[[t]]\), in normal
+coordinates \(m,v\) adapted to the first direction. Generically the
+triple ideal is \((m-\beta v^2,v^3)\). Purity makes the actual ideal
+its contraction from the generic fiber. If
+\(\beta=t^{-e}\gamma\), with \(e>0\) and \(\gamma\in R^\times\),
+that contraction is
+\[
+ (t^em-\gamma v^2,mv,m^2,v^3).
+\]
+Its image algebra has basis \(1,v,t^{-e}v^2\). Thus the actual second
+defect coefficient is precisely \(e\), the pole order of \(\beta\).
+If \(\beta\) is regular the coefficient is zero. Extra common vanishing
+in a chosen relation disappears on contraction and cannot add a defect.
+
+For the finite axis, a correction with poles bounded by \(2p_0\)
+already exists. If \(2p_0\le A\) and \(\deg A\le5\), it is also
+admissible with bound \(A\). Any two such corrections differ by
+\(H^0(\mathcal O(A-7))=0\). Therefore the actual correction still has
+pole divisor exactly \(2p_0\), and \(A=2p_0\). The missing axis has
+the identical argument with \(p_\infty\). The axis annihilator kernels
+in degrees three and four all contain the corresponding doubled endpoint,
+so neither degree can occur as an actual defect.
+
+Degree five has a genuine triple-level escape. For the finite axis,
+annihilation in \(H^1(\mathcal O(-2))\) requires only \(d_1=0\)
+for \(h_A(z)=\sum_{i=0}^5d_i z^i\). Thus \(A=5p_\infty\), whose
+affine defining form is constant, is allowed and does not contain
+\(2p_0\). With the \(\mathcal O(-7)\) transition, corrections
+\(\beta_0=0,\ \beta_\infty=(3/8)z^5\) have exact pole divisor
+\(5p_\infty\); contracting their generic triple ideals gives a pure
+embedded triple with that defect. This constructs a triple, without a
+claim that it extends to a sextic pair.
+
+Independent reconstruction accepted the actual-pole identification and
+uniqueness argument and checked the degree-five escape. These statements
+hold in characteristic zero and \(p\ge7\); they do not rely on a
+positive-characteristic normal-pencil or surface classification theorem.
 
 ## A normal pencil carrier in characteristic zero
 

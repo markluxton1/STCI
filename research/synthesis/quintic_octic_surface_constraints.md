@@ -4,22 +4,32 @@ Fix an algebraically closed field of characteristic zero and the embedded curve
 \[
 C=C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3.
 \]
-Suppose a proper complete intersection \(Y=V(F_5,G_8)\) has sole reduced support \(C\) and generic curvilinear transverse algebra of length ten. Under these hypotheses, **the following two additional conditions cannot both hold**:
+For a proper complete intersection \(Y=V(F_5,G_8)\) with sole reduced support C, the quintic **cannot have only rational double points everywhere**. This includes possible singularities away from C. The theorem assumes neither reducedness of the full quintic first-symbol divisor nor reducedness of the common first-symbol divisor, and imposes no singularity hypothesis on the octic. Its full proof is in [the quasi-étale cover and symbolic-triple account](quintic_octic_ade_cover_and_triple.md).
 
-1. The full first-symbol zero divisor of the quintic on \(C\) is reduced.
-2. The quintic has only rational double points everywhere, including away from \(C\).
+This chapter retains the fixed-singularity geometry, actual local and residual controls, and the earlier independent proof under the additional hypothesis that the full quintic first-symbol divisor is reduced. In that proof, local normal defects give eight budgets; the quintic rank bound leaves \(4A_1+9A_4\), and the actual octic divisor relation makes the four nodes an even set in the integral Picard group. A branched double cover and Noether’s inequality exclude that configuration. Rank alone does not finish that argument. The stronger proof uses a quasi-étale cover, its canonical map, and the location of the symbolic triple’s quadratic defect.
 
-This is independently reviewed provisional mathematics, not a new canonical promotion. It does not exclude the full degree pair \((5,8)\) or resolve characteristic-zero STCI. In particular, a reduced common first-symbol divisor does not imply that the full quintic divisor is reduced.
-
-The proof has two stages. Local normal defects give eight possible singularity budgets; a quintic's exceptional-rank bound leaves \(4A_1+9A_4\). The actual octic divisor relation then makes the four node curves an **even set in the integral Picard group**. A double cover and Noether's inequality eliminate that configuration. Rank alone does not finish the argument.
+Both are independently reviewed provisional mathematics, and separate preservation review has accepted the stronger proof’s integration. Neither proves a full degree-\((5,8)\) exclusion or resolves unrestricted characteristic-zero STCI. A quintic with a non-ADE singularity remains outside the combined theorem.
 
 As in the [quartic-pair chapter](quartic_pair_obstruction.md), write \(\mathcal O(j)\) for degree \(j\) on \(C\simeq\mathbf P^1\), so ambient \(\mathcal O_C(a)=\mathcal O(4a)\).
+
+The combined degree-five boundary uses two distinct theorems:
+
+| Quintic carrier | Current conclusion for a proper sole-supported (5,8) pair |
+| --- | --- |
+| Normal, globally ADE | Excluded by the cover and symbolic-triple proof here |
+| Normal, with a non-ADE singularity | Open under these results, including when that singularity lies away from C |
+| Nonnormal, Gorenstein normalization | Excluded for every mate degree by the [full conductor theorem](quintic_gorenstein_normalizations.md) |
+| Nonnormal, non-Gorenstein normalization | Open in general; [toric center geometry](quintic_toric_center_incidence.md) gives a bounded actual-source test |
+
+The Gorenstein hypothesis concerns the normalization, not merely the
+hypersurface. An ADE normalization does not turn a nonnormal carrier into
+an instance of the normal-carrier theorem.
 
 ## 1. Filtration data and the three numerical rows
 
 The inputs are [R-0001](../results/quartic_carrier_exclusion.md) and its factor/lower-degree reduction, [R-0020](../results/quartic_conormal_characteristic_jump.md), and the ordinary curvilinear-layer and socle identities of [R-0034](../results/normal_carrier_index_socle.md). The [ordinary-layer/lattice proof](../supplements/CURVILINEAR_GENUS_AND_DEFECTS.md#normal-torsion-spectral-genus-budget) identifies torsion-free ordinary layers with powers of the first quotient and proves the pointwise socle/torsion relation. This is ordinary normal-layer torsion, not the filtered-equation comparison invariant of R-0030.
 
-Bézout gives transverse length \(m=40/4=10\), and complete-intersection adjunction gives \(\omega_Y=\mathcal O_Y(9)\), \(p_a(Y)=181\). Generic curvilinearity is an additional hypothesis, retained throughout. Write \(K=I_C\mathcal O_Y\),
+Bézout gives transverse length \(m=40/4=10\), and complete-intersection adjunction gives \(\omega_Y=\mathcal O_Y(9)\), \(p_a(Y)=181\). The quintic is integral by the accepted factor reduction and has a nonzero first normal symbol by §2, so it is smooth at the generic point of C. Its equation supplies one ambient normal parameter there; the generic length-ten transverse algebra is therefore curvilinear. Thus no additional generic-curvilinearity hypothesis is needed for the actual supported pair. The following identities still concern that specific generic algebra, rather than arbitrary length-ten plane algebras. Write \(K=I_C\mathcal O_Y\),
 \(T_i=\operatorname{tors}(K^i/K^{i+1})\), and
 \(L=(K/K^2)/T_1=\mathcal O(-q)\). Since \(E=N_C^*=\mathcal O(-7)^2\) surjects onto \(L\), one has \(q\le7\). The torsion-free ordinary layers are \(L^i\), \(0\le i\le9\). Euler-characteristic additivity gives \(-180=10-45q+\tau\), while the top saturated socle is \(\omega_C\otimes(\omega_Y|_C)^{-1}=\mathcal O(-38)\). Its inclusion of \(L^9=\mathcal O(-9q)\) defines the effective socle divisor. Together with pointwise Gorenstein duality these give
 
@@ -45,6 +55,16 @@ Both F and every \(S_H=G+FH\), \(H\in H^0(\mathcal O_{\mathbf P^3}(3))\),
 are integral: the factor reduction above would require each factor to have
 degree at least five, impossible for two factors of either degree five or
 eight. Also \((F,S_H)=(F,G)\), so the whole scheme, not just its cycle, is fixed.
+
+The actual octic system also has a symmetry restriction, independent of
+its ADE status. For the fixed weights \((0,1,3,4)\), neither F nor any
+member \(G+FH\) can be weight-homogeneous. The
+[equivariant theorem](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md)
+excludes a characteristic-zero supported pair whenever one equation is
+weight-homogeneous, with arbitrary mate. Here \((F,G+FH)=(F,G)\), while
+properness prevents a zero member, so that theorem applies to every member
+of this system. This reviewed consequence also constrains the non-ADE
+boundary; it does not reduce arbitrary pairs to invariant ones.
 
 The quintic has a nonzero first normal symbol. Indeed let
 \(Q=x_0x_3-x_1x_2\). If a quintic vanishes to normal order at least two
@@ -431,12 +451,14 @@ degree bounds alone do not supply the missing ADE hypothesis; residual
 exclusion remains an essential extra condition.
 
 
-## 8. Connection to the quartic-pair obstruction and the remaining boundary
+## 8. How the two quintic proofs strengthen the shared surface mechanism
 
-Both investigations begin with actual homogeneous equations, a saturated normal direction, and first-symbol divisors. A simple moving first-symbol zero in a primitive multiplicity-\(m\) locus gives the local surface germ \(xt+y^m\), hence an \(A_{m-1}\) chain. That local mechanism is shared; the global conclusions depend on the carrier degree, defect models and actual equation system.
+Both investigations begin with actual homogeneous equations, a saturated normal direction and first-symbol divisors. A simple moving first-symbol zero in a primitive multiplicity-\(m\) locus gives the surface germ \(xt+y^m\), hence an \(A_{m-1}\) chain. That local mechanism is shared; the global conclusions depend on the carrier degree, defect models and actual equation system.
 
-For the [quartic pair](quartic_pair_obstruction.md), rank-four Gorenstein algebra classifies every fixed defect and forces exceptional rank at least twenty-one on a crepant resolution with trivial canonical bundle. The surface rank bound itself is contradictory. For the quintic–octic pair, reduced common divisor gives local length-ten models, but the general octic's weighted singularity inequality discards none of the eight rows. The quintic rank bound applies only after the full quintic symbol is reduced and all its singularities are rational double points. It leaves rank forty, which fits within forty-four. The new decisive information is the **actual Cartier linear equivalence** \(10C\sim8H\): it gives integral Picard parity, a connected cover, and a different global surface inequality. A numerical root-lattice relation alone would not justify the cover.
+For the [quartic pair](quartic_pair_obstruction.md), rank-four Gorenstein algebra classifies every fixed defect and forces exceptional rank at least twenty-one on a crepant resolution with trivial canonical bundle. The surface rank bound itself is contradictory. For the quintic–octic pair, reduced common divisor gives the local length-ten models in §3, but the general octic’s weighted ADE inequality discards none of the eight rows. The explicit quintic rank computation in §4 requires the full quintic symbol to be reduced, as well as a globally ADE quintic. It leaves rank forty, which fits within forty-four. The decisive extra information is the **actual Cartier linear equivalence** \(10C\sim8H\): it supplies integral Picard parity and an even-node cover. A numerical root-lattice relation alone would not justify that cover. The general even-node budget in §4.3 remains useful independently of this degree pair.
 
-The unresolved boundaries are exact. The full quintic first-symbol divisor may have repeated zeros, even when the common divisor \(B\) is reduced. The quintic may also have singularities outside the rational-double-point class, possibly off \(C\). Nothing above excludes those cases or produces a construction there. The residual-support example in §7 has generic multiplicity five and residual degree twenty; it does not realize a length-ten defect or a sole-supported pair. The normal-layer torsion budget is not by itself a bound on singularity type.
+The [stronger globally ADE proof](quintic_octic_ade_cover_and_triple.md) retains the same Cartier relation but uses the nontrivial two-torsion Weil class \(5C-4H\). Its quasi-étale cover has \(K^2=10\), and the actual invariant canonical sections give a bound stronger than Noether alone. Exhaustive ADE bookkeeping leaves four rows, including repeated first-symbol zeros. The actual symbolic triple then has a saturated quadratic defect of degree zero, one or two; the degree-two survivor is supported at two distinct points, whereas the constant-direction embedded transition forces a double marked endpoint. This additional argument removes the reduced-symbol assumption without claiming that all degree-two triples are impossible.
 
-The complete proof above consolidates reviewed provisional source mathematics and its corrected arithmetic. Independent consolidation review accepted the preserved conditional exclusion, the local-model and residual-control scopes, the exhaustive arithmetic, and the generalized even-node budget (12). The latter follows by retaining the node count in the same cover proof; it is not a new canonical promotion. No computer search or new computational certificate is needed: the eight rows follow from the displayed interval, and the explicit polynomial identities provide the controls. The full \((5,8)\) problem and unrestricted characteristic-zero STCI remain open.
+The remaining boundary is exact: the quintic must have a non-ADE singularity somewhere, possibly off C. Merely imposing ADE along C is insufficient for either global surface argument. Repeated quintic first-symbol zeros no longer form a separate escape when the quintic is globally ADE. Nonnormal quintics and normal quintics with worse singularities are outside this theorem; the [residual-support control](#7-a-proper-homogeneous-residual-support-control) has generic multiplicity five and residual degree twenty, so it supplies neither a length-ten example nor a sole-supported pair. Ordinary-layer torsion is not by itself a bound on singularity type.
+
+The earlier conditional proof, its corrected eight-row arithmetic, the local-model and residual-control scopes, and the generalized even-node budget (12) retain their independent consolidation review. The new companion preserves the separately reviewed full ADE proof and its audit’s additional controls; separate preservation review has accepted this stronger integration. No computer search or new computational certificate is needed. Both accounts remain provisional evidence, with no canonical promotion or unrestricted STCI conclusion.

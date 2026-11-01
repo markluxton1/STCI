@@ -13,15 +13,14 @@ short of sole support, and a general lemma may matter for other curves. Failure
 of a specified source describes what a different realization must change; it
 does not accumulate into an exhaustive classification without a coverage proof.
 
-## Investigations continuing at this pass's checkpoint
+## Selection boundary
 
-At the October 31 integration checkpoint, investigations continue in their
-existing worktrees: characteristic-degree bounds and sextic defect geometry;
-quadratic-root/syzygy realization; nonnormal-carrier conductor geometry; and
-global construction mechanisms. Their owners retain their bounded assignments.
-This framing revision does not redirect or stop them. Only the explicitly
-selected committed contributions enter this maintained account; later working
-results need their own committed source and applicable review.
+The completed contributions below leave several different realization
+questions. The recommendations select bounded next tests from those actual
+inputs; they do not assign a new research round or treat one source as
+exhaustive. Their exact committed scope is recorded in the integration commit.
+The [selection guide](RESEARCH_DECISION_GUIDE.md) explains what the combined
+results change and how to choose between constructive and obstructive aims.
 
 ## Broader interfaces
 
@@ -38,10 +37,13 @@ results need their own committed source and applicable review.
 | Sole-support sextic pairs and their cyclic cover | [Sextic profiles and normal cover](supplements/SEXTIC_PAIR_REDUCTION.md) | The three divisor profiles, nonreduced common symbol, index-nine point and cover invariants constrain realization; no incompatible upper irregularity bound or global construction is known |
 | Uniform residual control | [Attachment/capacity and finite jets](synthesis/residual_intersections_and_jets.md) | Prove a positive residual bound on a covered global family including exceptional strata, or construct pairs reaching zero; one carrier certificate is not uniform |
 | Residual absorption and modifications | [Marked ribbon construction](synthesis/marked_deformation_and_absorption.md), [actual quadric modification](synthesis/quadric_modification_and_global_corrections.md) | Iterate an actual transfer while preserving the marked embedding, equation lifts and properness; the specified quadric modification's complete lift space has positive residual degree, while general modification sources remain open |
-| Normal surface geometry | [Quartic proof](synthesis/quartic_carrier_proof.md), [conditional (5,8)](synthesis/quintic_octic_surface_constraints.md) | Control higher-degree singularities and integral divisor relations outside the reduced-symbol/ADE hypotheses; local Cartier index alone does not control correction terms |
+| Normal surface geometry | [Quintic–octic ADE theorem](synthesis/quintic_octic_surface_constraints.md), [sextic ADE reduction](supplements/SEXTIC_ADE_REDUCTION.md) | Non-ADE quintics remain outside the (5,8) exclusion; the sextic pencil still needs actual source compatibility and higher contact after its primitive-triple reduction |
+| Nonnormal carrier geometry | [Gorenstein-normalized quintics](synthesis/quintic_gorenstein_normalizations.md), [remaining toric center incidence](synthesis/quintic_toric_center_incidence.md), [conductor differential](synthesis/carrier_conductor_differential_comparison.md) | Decide full inverse support on the remaining M locus before testing actual power descent; singular local gluing alone does not realize the projective carrier |
+| Spectral graded families and ambient equations | [Order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md), [actual source quotient](synthesis/actual_octic_root_lift_comparison.md), [torsion-two charts](synthesis/quadratic_root_torsion_two_lifting.md) | The completed 24-point affine slice has no compatible sextic; test the full root incidence with its rank boundaries and all corrections. Positive octic constructions remain useful for containing intersections |
+| Finite jets and equation search | [Intrinsic global jets](synthesis/global_equation_jets.md), [bounded certificates](synthesis/bounded_equation_certificates.md) | Use actual source-image filtrations and full nonlinear corrections; existential finite realization is distinct from a uniform effective witness-degree bound |
 | Contact and tropical descent | [Full transverse families](synthesis/contact_duality_and_global_descent.md) | Convert the actual Jacobian/contact or global-presentation constraints into an incompatible global equation condition; positive movement and locally CI endpoints alone are compatible |
 | Marked dual/ruled geometry | [Fixed geometry](synthesis/01-problem-and-curve.md) | Construct a proved map from actual equation/conductor data to marked contact schemes, retaining nilpotents and endpoint corrections |
-| Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [arithmetic gaps](supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md) | Separate all-positive-characteristic existence from minimum degree products and from support-preserving characteristic-zero lifting; prescribed nonlifting does not exclude unrelated presentations |
+| Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [effective transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md), [Frobenius precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md) | Every positive characteristic has quartic-carrier equations; all-pair degree growth remains conditional, and prescribed-lift precision or ramification restrictions do not exclude unrelated presentations |
 
 For a hypothetical characteristic-zero sole-support pair of degrees
 \(5\le a\le b\), let \(\delta\) be the length of its finite quadratic
@@ -86,7 +88,60 @@ another equivalent condition alone is not a completed advance.
 
 The [projected-section obstruction](synthesis/projected_thickening_section_defects.md) closes power and homogeneous binary-mixture repairs of its stated source at the weaker downstairs ACM gate. Its missing ambient section is useful information about projection of nonreduced schemes. A different source must change that section-image mechanism; increasing the powers in the covered characteristic range does not do so. This does not identify source/image torsion with the relative comparison defect below. Constructing an actual ACM thickening downstairs remains distinct from constructing an ACM scheme on the covering quadric.
 
-## Concrete candidates
+## Recommended next bounded tests
+
+If choosing one next carrier test, use the **remaining toric M incidence**.
+It is the smallest explicitly isolated unresolved locus in an actual global
+source after the reviewed exclusions. This is a judgment about a useful
+bounded contribution, not evidence that toric sources are exhaustive or
+that the remaining calculation is easy.
+
+1. **Decide the remaining toric full-inverse-support incidence.** Use the
+   [final center proof](synthesis/quintic_toric_center_incidence.md), retaining
+   `M=0`, `Delta*K0*d*N*U0*V1*V2!=0` and `W | h*W'`, together with every
+   projection-admissibility condition. The three possible multiplicity
+   patterns are `5+0`, `4+1` and `3+2`. The earlier four-curve condition is
+   superseded by the exclusions of U0, V1 and V2. Stop at one exact admissible
+   center, a coverage-certified exclusion of this remaining locus, or a precise
+   unresolved representation. Only a support-positive survivor warrants the
+   separate ambient power-descent test; q squared is the degree-(5,8) target,
+   not proof of descent of all powers. A negative answer closes this toric
+   source, not every non-Gorenstein normalization.
+2. **Use the elliptic family's fiberwise support test as the independent
+   constructive alternative.** The [five-parameter construction](synthesis/elliptic_double_inverse_construction.md)
+   already supplies actual global sections. Preserve smoothness, basepoint
+   freedom, finite birationality, boundary fibers and all off-curve inverse
+   points. Stop at an exact admissible fiber, a covered family exclusion,
+   or a named remaining locus. Total-parameter saturation or generic failure
+   is not the fiberwise condition. Full conductor descent remains a separate
+   step even for a support-positive carrier.
+3. **For the equation-source direction, use the intrinsic sextic map on a
+   justified cover of the full order-three family.** The
+   [fixed-frame parameterization](synthesis/order_three_roots_and_sextic_lifts.md)
+   and [comparison map](synthesis/actual_octic_root_lift_comparison.md) reduce
+   first-compatible actual sextics to a map from a space of dimension at most
+   three to an eleven-dimensional quotient. Retain K1, all rank strata, the
+   quadric-cube correction and actual source images. Stop at a compatible
+   nonzero sextic with its next root-lifting obligation identified, a covered
+   component exclusion, or a precise missing boundary. The completed affine
+   slice needs no further audit or mate search. Even a full smooth-root
+   exclusion would remain within the stated saturated/movement-two bridge.
+
+For the broader containing-intersection problem, a smaller positive alternative
+is to apply the octic quotient to the known first-compatible roots: compute
+actual multiplier kernels and their common-zero divisors, then construct proper
+pairs and determine generic contact and residual cycles where joint generation
+holds. This is a separate constructive objective, not an order-three octic
+STCI claim. The current proper (8,8) example is a control and starting object.
+
+The arithmetic mechanism offers another precise question: can its required
+positive endpoint root defect occur in the actual complete-intersection,
+annihilator, linkage and duality data? A useful comparison must add information
+beyond the genus identity. The prescribed `p=7,n=7,E=6` finite diagnostic
+should follow such a comparison, not substitute for it. Its result would
+remain about that prescribed family of lifts.
+
+## Other independent candidates
 
 These are alternatives with different payoffs. A task can test an unproved
 mechanism when its input, question and stopping outcomes are explicit. None is
@@ -109,7 +164,10 @@ an instruction to interrupt an already running investigation.
    including \(K_Y^2=72\) and profile-dependent Euler characteristic and lower
    irregularity bounds. Recomputing these is not the next test. Investigate an
    additional compatibility with the index-nine local classes, polarization and
-   three defect profiles, or construct such data. Stop at a new comparison,
+   three defect profiles, or construct such data. Under the additional general-pencil
+   ADE hypothesis, use the [three surviving primitive-triple orbits](supplements/SEXTIC_ADE_REDUCTION.md)
+   and the computed actual sextic source and first contact equation; higher
+   contact and support are still open. Stop at a new comparison,
    actual model, or an identified missing hypothesis. Distinguish the normal
    covering surface from a resolution; smooth-surface inequalities require their
    own hypotheses. No contradictory upper bound is currently proved.
@@ -138,15 +196,22 @@ an instruction to interrupt an already running investigation.
 | [Fixed elliptic octic member](synthesis/elliptic_double_inverse_construction.md) | Change the carrier parameters and pass full inverse support; changing only its mate degree cannot remove extra inverse points |
 | [Balanced degree-ten and palindromic target charts](synthesis/projection_and_elliptic_gluing.md) | The unfinished degree-twelve chart, a different contact distribution or a different source extension; target incidence alone is insufficient |
 | [Extremal conductor boundary](synthesis/quadratic_covers_and_conductor_descent.md#12-embedded-curve-exclusion-of-the-minimal-boundary) | New information about embedded postulation or multiplication; adjacent-length enumeration alone supplies no upper capacity bound |
+| [Gorenstein-normalized nonnormal quintics](synthesis/quintic_gorenstein_normalizations.md) | A non-Gorenstein source or a genuinely different carrier regime; increasing mate degree does not reopen this class |
+| [Globally ADE quintics in degree (5,8)](synthesis/quintic_octic_surface_constraints.md) | A non-ADE singularity or a different degree pair; repeated first symbols are already covered |
+| [Quartic Milnor budget comparison](synthesis/pencil_milnor_budget.md) | Additional information beyond the local multiplicity and complete-ideal bounds; the existing global inequality is not an independent quartic obstruction |
+| [Order-three affine four-parameter slice](synthesis/order_three_roots_and_sextic_lifts.md) | A justified part of the full parameter locus or a different construction objective; all 24 geometric points already fail the actual sextic tests |
+| [Exact Chow bundle reformulation](synthesis/chow_bundle_maps.md) | An operation producing the prescribed map with the required determinant, or a new restriction on every such map; arbitrary Chow-power determinants do not supply it |
 
 ## Questions still needing a workable entry point
 
 The surviving universe remains wider than these tests: higher-index and non-Cartier carriers, multiple-branch inverse support, nonsaturated and extra-generator normal patterns, common generic singularities, non-Gorenstein separated branches, and rank-zero matrix transitions are not exhausted. Neither recent success nor an equivalent reformulation makes one program compulsory.
 
 Promising broader questions include realizing singular conductor gluing compatible
-with an actual projection, extending the [spectral fourth-power splitting theorem](synthesis/spectral_torsion_and_syzygy_splitting.md)
-to other powers, and extending tame projection-section
-arguments to other covers. These need precise source and comparison hypotheses.
+with an actual projection, passing from the [spectral graded families](synthesis/spectral_determinant_schemes.md)
+to actual ambient equations, and extending [tame projection sections](supplements/TAME_PROJECTION_SECTIONS.md)
+to other covers. All-power spectral splitting is already in the maintained
+account; its ambient realization is the remaining bridge. These questions need
+precise source and comparison hypotheses.
 The surface-normalization conductor and the separated quadratic-cover conductor
 are different objects; their bounds cannot be combined without a proved map.
 A proposed generalization remains a question until its proof and review are
