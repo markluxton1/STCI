@@ -35,6 +35,9 @@ the [mechanism map](MAP.md); for exact current claims use the
   normality, saturation, properness and global-source assumptions.
 - **A missing implication:** frontier → owning mathematical home and controls.
 - **A shared mechanism:** map → full lemma owner; other topics link its application.
+- **Fixed-degree complexity and branch connections:** [the complexity-lane
+  assessment](supplements/COMPLEXITY_LANE_SYNTHESIS.md) separates actual source
+  realization, root lifting, proper intersections and support exhaustion.
 
 The [six short orientation chapters](synthesis/README.md) introduce the account.
 The proof homes they link contain full arguments, including informative failed

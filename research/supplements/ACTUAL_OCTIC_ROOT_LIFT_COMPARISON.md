@@ -315,6 +315,54 @@ This supplies no root lift: the existence of \(\Sigma_j\) has its own
 obstructions, including R-0007's nonzero second class at the seed. The
 degree budget cannot be used to declare that tower unobstructed.
 
+### The first sextic comparison and the order-three consequence
+
+The same restriction construction has a smaller degree-six form. Keep a
+smooth root in \(K_1\), its unique \(\Sigma_1\), and the multiplier space
+\(H_f\) of (9). Let \(V_6(f)\) be the actual sextics with quadratic symbol
+in \(H_f f\). The complete source gives
+\[
+0\longrightarrow kq^3\longrightarrow V_6(f)
+\longrightarrow H_f\longrightarrow0,
+\qquad \dim H_f\le3.
+\]
+First restriction has target
+\(T_f^{(6)}=H^0(\Sigma,\mathcal O_\Sigma(3,3))\), of dimension twelve.
+The residue of \(q^3\) is \(\ell^3|_\Sigma\ne0\): the smooth integral
+\((2,2)\) curve is not a component of \(V(\ell)\). Consequently there is
+a canonical linear map
+\[
+\kappa_f^{(6)}:H_f\longrightarrow
+T_f^{(6)}/k(\ell^3|_\Sigma),\qquad
+\dim\bigl(T_f^{(6)}/k\ell^3\bigr)=11.                 \tag{16}
+\]
+Choose any actual sextic lifting the symbol \(\alpha f\), restrict to
+\(\Sigma_1\), and take its residue modulo \(k\ell^3\). Two choices
+differ by \(q^3\), so the class is independent of that choice. It vanishes
+exactly when an actual sextic with that symbol vanishes on \(\Sigma_1\).
+That sextic is unique for each \(\alpha\), since the residue of \(q^3\)
+is nonzero. In particular the first-compatible actual sextic space maps
+isomorphically onto \(\ker\kappa_f^{(6)}\); a nonzero vector has exact
+normal order two. No multiplier is divided out at its zeros.
+
+This is an intrinsic quotient of the complete quadratic-and-cubic source
+incidence, not a newly implemented small matrix solver. In a family the
+source \(H_f\) can jump, so (16) is a fiberwise statement until suitable
+rank strata and base change are established.
+
+If additionally \(\eta\) has exact order three, then
+\(H^0(\Sigma,\eta^4)=0\). Every later target in (15) has negative degree.
+Thus, for **any supplied compatible primitive root tower**, a sextic that
+passes (16) vanishes on every subsequent supplied lift. This removes later
+equation-membership tests; it does not construct those root lifts, remove
+\(K_2\), or supply a mate. The order-three branch comparison and its
+precise numerical scope are recorded in the
+[cross-branch synthesis](COMPLEXITY_LANE_SYNTHESIS.md).
+
+These two deductions were added in the cross-branch review after checkpoint
+`2875622`. Their independent review status is recorded in that synthesis;
+the original calculator and its review below are unchanged.
+
 ## 6. Computational meaning and evidence
 
 For a fixed first-compatible smooth root, (5) replaces a comparison with

@@ -6,6 +6,12 @@ mathematical gaps, not an ordered agenda; [selection criteria](RESEARCH_DECISION
 help choose a bounded investigation. Exact established statements are in the
 [result records](results/INDEX.md) and their proof homes.
 
+The [complexity-lane assessment](supplements/COMPLEXITY_LANE_SYNTHESIS.md)
+compares fixed committed branch snapshots and recommends a small intrinsic
+actual-sextic comparison on the smooth order-three root locus. It records
+that lane's next test and its coverage limits, not a replacement for the
+broader interfaces below or a new canonical result.
+
 | Interface | Available result or construction | Missing implication or bounded test |
 | --- | --- | --- |
 | Actual global pairs | [Exact source spaces](supplements/ACTUAL_EQUATION_SPACES.md), [Chow/complement equivalents](synthesis/global_equations_and_constructions.md) | Produce a proper pair with exhausted cycle, or prove an incompatibility covering every relevant source; dimension and equivalent formulation alone do neither |

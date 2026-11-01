@@ -12,6 +12,10 @@ and [finite global jets](IDEAL_SHEAF_SPECTRAL_SEQUENCES_AND_GLOBAL_JETS.md).
 The numerical quartic results remain useful examples; their coordinate
 presentations are not the intended general objects.
 
+The [cross-branch synthesis](COMPLEXITY_LANE_SYNTHESIS.md) places these results
+against the committed spectral, arithmetic, carrier and projection work and
+records the recommended actual-source continuation.
+
 ## 1. Intrinsic to which data?
 
 STCI is a question about an embedding, so removing all embedding data would
