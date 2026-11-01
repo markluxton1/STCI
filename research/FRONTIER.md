@@ -74,6 +74,17 @@ criterion tests an **actual** pair; a uniform theorem needs quantified source
 coverage. Full initial ideals must include cancellation-generated relations.
 Exceptional vertical curves do not automatically supply \(R\ne0\).
 
+The [homogeneous-descent and cancellation report](synthesis/torus_homogeneous_descent.md)
+settles the clean first-cancellation cycle formula, including full-ideal
+equality. A hypothetical quartic pair must have a noncoprime first
+nonzero cancellation in both directions; higher parameter divisions and
+their actual homogeneous generators are the remaining descent interface.
+An induction on the degree product ab needs a proved decrease on these
+exceptional loci. A sole-supported line control instead increases the
+minimum proper-pair product in its limit. The report's counterexample to
+descent uses a rank-two torus and reducible support; it does not decide
+the one-parameter integral-curve question.
+
 A leading symbol, an abstract graded Picard relation, an all-orders formal
 lift, and a global homogeneous equation are different realizations. In a
 fixed symbol fiber, all allowed lifts enter the obstruction quotient; the

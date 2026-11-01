@@ -101,6 +101,14 @@ conductor. A new comparison must construct its map and preserve its hypotheses.
 
 ## Torus symmetry as an organizing method
 
+The [homogeneous-descent report](synthesis/torus_homogeneous_descent.md)
+separates loss of two-generation from the existence of an eigenform pair
+with the same radical. Its clean cancellation theorem leaves the
+noncoprime higher-cancellation loci as the relevant exceptional test;
+strict descent in ab is not automatic. The higher-rank counterexample
+and the supported line example are controls with explicit scope, not a
+resolution of the quartic one-parameter conjecture.
+
 The [surface-pair VGIT construction](synthesis/vgit_surface_pairs_and_full_limits.md)
 has an all-degree scope: actual supported pairs lie in the semistable locus
 of the centered Chow linearization, and are stable in characteristic zero,

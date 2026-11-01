@@ -483,6 +483,23 @@ Apostolos Thoma, “Ideal theoretic complete intersections in
   intersection case. This excludes two binomials for \(C_0\), not two arbitrary
   forms.
 
+### Thoma, 1989 binomial-carrier paper and 1991 bihomogeneous theorem
+
+The distinct [1989 paper, pp.55–61](https://doi.org/10.1090/S0002-9939-1989-0976361-7),
+Lemma 2.2 and Theorem 3.1, has its checked one-carrier hypotheses and
+proof discussion in the [descent report](synthesis/torus_homogeneous_descent.md#11-exact-literature-boundary).
+
+Thoma, *On set theoretic complete intersections in P_k^3*, Manuscripta
+Math. 70 (1991), 261–266,
+[DOI](https://doi.org/10.1007/BF02568376), Theorem 2.5 excludes an STCI
+with one bihomogeneous carrier for the smooth monomial curve of degree
+d>3 over an algebraically closed characteristic-zero field. The supplied
+full primary PDF was inspected, including the grading on p.262 and
+the theorem on p.266. For C0 its grading is exactly ordinary degree
+plus weights (0,1,3,4). The [descent report](synthesis/torus_homogeneous_descent.md)
+records the application and why the one-carrier lemma does not descend
+an arbitrary mixed-weight pair. No unrestricted STCI exclusion follows.
+
 ### Hellus--Hübl, 2016
 
 Michael Hellus and Reinhold Hübl, “A result on Macaulay's curve,”

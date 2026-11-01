@@ -115,6 +115,15 @@ supported CI whose full invariant limit loses its CI structure. Classification
 of the relevant invariant limits and recovery of CI or ACM structure in
 deformations preserving support remain open.
 
+The reviewed provisional [homogeneous-descent report](synthesis/torus_homogeneous_descent.md)
+proves the residual-cycle formula when the first cancellation is coprime
+to the common leading factor, and identifies the exact degree-product
+and integral-support hypotheses for descent. A hypothetical quartic pair
+must evade this clean case in both directions. A supported line control
+loses two-generation and acquires an embedded point; a rank-two torus
+counterexample disproves a broader descent assertion. Neither resolves
+the specified one-parameter quartic conjecture or promotes a canonical result.
+
 The reviewed provisional [surface-pair VGIT framework](synthesis/vgit_surface_pairs_and_full_limits.md)
 now gives an all-degree necessary condition: every actual supported pair
 is semistable for the centered Chow linearization, and stable in
