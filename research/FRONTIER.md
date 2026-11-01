@@ -93,9 +93,7 @@ The [projected-section obstruction](synthesis/projected_thickening_section_defec
 
 The [comparative assessment](RESEARCH_DECISION_GUIDE.md#recommended-allocation-and-stopping-outcomes)
 favors octic multiplier geometry for bounded positive constructions and the
-ADE (6,6) contact problem for a covered degree sector. Torus limits offer a
-method for organizing the (6,6) or ACM target once a useful boundary and its
-deformation problem are represented. These are proposed choices, not new
+ADE (6,6) contact problem for a covered degree sector. Torus limits offer a strong organizing lens for the (6,6) or ACM target: consider attracting loci of full invariant limits and test the generator behavior of moving ideals. This need not precede independent local arguments. These are proposed choices, not new
 assignments or mathematical status changes. The toric and elliptic sources
 retain their value as bounded carrier investigations.
 
@@ -117,10 +115,9 @@ retain their value as bounded carrier investigations.
    proper pair of generic length nine (which exhausts degree 36), or a
    precise missing representation. This covers the ADE general-pencil
    sector only. The non-ADE singularity/cover question remains below.
-3. **Represent a torus-invariant boundary and its supported deformation problem.**
+3. **Consider invariant-limit strata and moving-ideal two-generation.**
    Use the [full-limit formulation](synthesis/global_equations_and_constructions.md#proposed-test-supported-deformations-of-an-invariant-boundary-ideal).
-   For a chosen CI degree pair or ACM Hilbert polynomial, select an actual
-   invariant ideal and retain its full relations, possible embedded points,
+   For a chosen CI degree pair or ACM Hilbert polynomial, consider the bounded supported Hilbert locus and its full invariant-limit attracting sets. Test actual moving-ideal generators on these loci; a selected fixed ideal and its supported deformation problem remain valid local probes. Retain full relations, possible embedded points,
    and incidence \(C_0\subset Y\subset V(I_{C_0}^N)\). Existing invariant
    quadric multiples supply controls or exploratory ACM candidates, not a
    demonstrated supported (6,6) boundary. The
@@ -128,8 +125,7 @@ retain their value as bounded carrier investigations.
    has the (6,6) Hilbert series and is a demonstrated limit of a CI with
    residual curves; its support is not C0, so it is a generator/flatness
    control rather than a candidate in this supported incidence.
-   A first task may stop at a usable deformation
-   representation or the precise reason it is unavailable. A subsequent
+   A first task may stop at a useful stratification or a usable local deformation representation, or identify precisely why either is unavailable. A subsequent
    test seeks an actual supported CI/ACM deformation or an exclusion of the
    declared boundary family. The general fiber may break symmetry; invariant
    CI ideals themselves are excluded in characteristic zero. Tangent weights,
