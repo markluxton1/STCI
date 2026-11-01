@@ -102,17 +102,32 @@ conductor. A new comparison must construct its map and preserve its hypotheses.
 ## Torus symmetry as an organizing method
 
 The [surface-pair VGIT construction](synthesis/vgit_surface_pairs_and_full_limits.md)
-offers a concrete extension: partition all sextic pencils by their extremal
-Plucker weights, then retain their full intersections on the graph over the
-Hilbert scheme. An intrinsic primary-ideal argument puts every actual supported
-degree-(a,b) CI in the fixed neighborhood H_(ab/4), hence H_9 for sextics.
-This removes the unspecified-neighborhood issue for fixed-degree CI candidates,
-while the supported graph fibers and full-ideal strata still require coverage.
-Use the preserving torus for the fixed curve; an SL4 VGIT problem instead needs
-a moving marked curve. Keep the strata upstairs to study subsequent T-limits.
-Pair and Hilbert polarizations can differ at common-factor boundaries, as the
-exact residual control demonstrates. These are proposed unpromoted deductions,
-not a direction compulsory for the independent construction or obstruction work.
+has an all-degree scope: actual supported pairs lie in the semistable locus
+of the centered Chow linearization, and are stable in characteristic zero,
+while the [closed multiplicity filtration](synthesis/residual_cycles_and_chow_incidence.md)
+organizes all proper intersections m[C_0]+R. For equal degrees this necessary
+condition is ell<=0<=u, strict in characteristic zero; no sweep of the other
+character chambers is required
+to cover supported pairs. The entire fixed-degree supported pair/pencil
+incidence lies in one affine resultant chart. Retain full Hilbert ideals
+and Chow cycles on the graph. In characteristic zero its top Chow fiber is supported on C_0 by
+connectedness, and its intersection with the open type-(a,b) CI locus is
+the exact existence incidence. At the full prescribed polynomial the CI
+condition is a degree-a equation plus no fixed surface in degree b, replacing
+a separate higher-degree generator search. None of these incidence loci
+has been decided, and unbounded degrees remain a separate coverage issue.
+
+An intrinsic primary-ideal argument puts every actual supported degree-(a,b)
+CI in H_(ab/4), hence H_9 for sextics and their full supported limits.
+Reduced [invariant residual arrangements](synthesis/torus_residual_arrangements_and_absorption.md)
+have a uniform orbit-curve classification, including the middle line linked
+through residual chains. The invariant quartic family permits cycle-level
+absorption; actual embedded equations require additional realization.
+Use the preserving torus for the fixed curve; an SL4 VGIT problem instead
+needs a moving marked curve. Keep strata upstairs for subsequent T-limits.
+Pair and Hilbert polarizations can differ at common-factor boundaries.
+These are reviewed provisional deductions and an optional organizing method
+for the independent construction and obstruction work.
 
 **Necessary invariant-limit principle.** If a degree-(a,b) complete
 intersection has reduced support exactly C0, then the full flat limit of its
@@ -167,10 +182,11 @@ weight decomposition; no finite fixed-locus classification, tractable
 supported deformation space or general recovery theorem is currently supplied.
 The explicit ACM three-generator limit has the (6,6) Hilbert series but retains
 boundary curves; it is not a sole-support boundary ideal.
-Before assigning
-a substantial calculation, select an actual invariant ideal, check its target
-Hilbert polynomial and support incidence, and identify the full deformation
-and generator conditions. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
+Before assigning a substantial calculation, identify the covered family of
+actual pairs or full graph points, its residual-degree question, and how
+the result changes the top-cycle CI incidence. A specified invariant ideal
+with checked polynomial and support is a useful local probe, not a required
+first step. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
 are actual non-ACM controls, not demonstrated limits of the desired CI type.
 Their failure to be ACM does not alone exclude an ACM general fiber.
 Retain embedded points if present; a pure hull changes the boundary object.
@@ -199,7 +215,7 @@ stopping outcomes.
 | Construct containing intersections | Exact octic multiplier kernels and fixed divisors at known first-compatible roots; joint generation activates the existing proper-pair construction | The generic construction already gives length eight and residual degree 32; higher contact is a new condition, and sole support needs length sixteen |
 | Decide a covered part of (6,6) | Full higher-contact incidence in all three surviving ADE primitive-triple orbits, retaining the actual 27-dimensional sources | A sector theorem requires the ADE general-pencil hypothesis and complete orbit coverage; the unrestricted sextic singularity/cover compatibility remains open |
 | Decide descent for an embedded finite quotient family | Full endpoint image lattices and actual degree spaces from the constant-quotient criterion; test properness and image base change | Exact for the specified image. Extending to a hypothetical characteristic-zero sextic CI needs a moving rank-nine family, not only collisions of abstract quotient points |
-| Organize supported CI/ACM deformations by symmetry | Full opposite-limit attracting strata on a bounded supported Hilbert locus, or a specified invariant boundary ideal with verified full relations and supported deformations | Test two-generation of moving ideals; fixed eigenform pairs and tangent directions alone do not decide it. Any exhaustive claim requires coverage |
+| Organize CI and residual arrangements by symmetry | Closed Chow-multiplicity loci of all proper pairs and their full graph, restricted to the centered semistable locus for actual supported pairs | At the exact CI polynomial test a degree-a equation and absence of a fixed degree-b surface on the top Chow fiber. Use both full limits and residual chains; cycle absorption alone does not give embedded equations. Any exhaustive claim requires coverage |
 | Construct a homogeneous ACM thickening downstairs | An actual ideal or new projection source that changes the known missing-section mechanism; allow more than two generators | Independent value even without AG/CI; ACM upstairs does not imply ACM after projection |
 | Resolve the conditional order-three equation family | The intrinsic sextic map over a justified cover or component of the full fixed-frame root locus, retaining all rank strata and corrections | This belongs to the conditional (6,16) bridge, not the (6,6) reduction; later root lifts, mate and support remain obligations |
 | Finish a constructed carrier family | Remaining toric M incidence with a resource bound, or the elliptic family's fiberwise full-inverse-support test | A negative result closes the covered source; a support-positive survivor still needs actual descent |

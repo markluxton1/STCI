@@ -27,7 +27,7 @@ results change and how to choose between constructive and obstructive aims.
 | Interface | Available result or construction | Missing implication or bounded test |
 | --- | --- | --- |
 | Actual global pairs | [Exact source spaces](supplements/ACTUAL_EQUATION_SPACES.md), [Chow/complement equivalents](synthesis/global_equations_and_constructions.md) | Produce a proper pair with exhausted cycle, or prove an incompatibility covering every relevant source; dimension and equivalent formulation alone do neither |
-| Torus limits, VGIT and supported deformations | [Full invariant limits](synthesis/global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit), [surface-pair VGIT and graph](synthesis/vgit_surface_pairs_and_full_limits.md), [explicit residual controls](synthesis/toric_sextic_residuals_and_limits.md) | Coarse weight blocks cover all sextic pencils; the proposed intrinsic H_9 bound covers actual supported sextic CIs. Refine their full-limit graph by both endpoint pencils, common factors and generators, then determine supported incidence. The sharp eigenform bound eight and the residual degree-ten-generator example do not classify those graph fibers |
+| Torus limits, VGIT and supported deformations | [Surface-pair VGIT](synthesis/vgit_surface_pairs_and_full_limits.md), [Chow filtration and generator incidence](synthesis/residual_cycles_and_chow_incidence.md), [invariant residual arrangements](synthesis/torus_residual_arrangements_and_absorption.md) | In every degree, supported pairs lie in the centered Chow semistable locus. Determine whether the full graph's top Chow fiber meets the open type-(a,b) CI locus, using the exact-polynomial fixed-surface criterion. Orbit curves and residual chains describe reduced limits; scheme structures, actual incidence and unbounded-degree coverage remain open |
 | Embedded lower thickenings | [One-step and filtration tests](synthesis/03-infinitesimal-geometry.md) | Determine a proper decomposable determinant-zero point in the actual equation spaces across a justified family of lower embeddings |
 | General roots and initial ideals | [Root and normal-filtration tools](synthesis/normal_filtration_boundary_obstructions.md) | Handle singular/nonreduced roots, nonsaturation, extra generators, noncoprime next relations and failure of joint generation; no arbitrary entirely-thick→movement-two reduction is known |
 | Punctual comparison defects | [R-0030](results/local_filtration_comparison_defect.md), [supported specialization control](synthesis/comparison_defect_specialization.md) | Decide nonzero relative defect under sole support and generically vanishing comparison defect; a nonzero exceptional-fiber defect need not be a relative defect, and residual-support controls do not answer existence |
@@ -117,13 +117,25 @@ retain their value as bounded carrier investigations.
    sector only. The non-ADE singularity/cover question remains below.
 3. **Consider surface-pair VGIT, opposite full limits and moving-ideal two-generation.**
    The [VGIT graph construction](synthesis/vgit_surface_pairs_and_full_limits.md)
-   gives a complete coarse weight partition of sextic pencils and an intrinsic
-   H_9 bound for every actual supported sextic CI. Refine by the gcds of both
-   limiting pencils and by graph-fiber multiplication and generator data;
-   the numerical partition alone does not describe the full ideals. Keep
-   unquotiented loci for the subsequent T-action. The graph has an ample
-   two-polarization VGIT problem comparing pair and Hilbert data; its supported
-   strata and actual wall fan remain a concrete next calculation.
+   and [Chow multiplicity filtration](synthesis/residual_cycles_and_chow_incidence.md)
+   apply to every fixed degree pair. All actual supported pairs are
+   semistable for the centered Chow linearization, and stable in
+   characteristic zero, so sweeping other characters is unnecessary for
+   supported coverage. Study all containing
+   intersections m[C_0]+R, allowing residual multiplicity to transfer to C_0.
+   The fixed-degree supported pair/pencil locus is affine in one resultant
+   chart. In characteristic zero, the full CI graph's top Chow fiber has
+   Hilbert coordinates with reduced support C_0 at geometric points.
+   The decisive condition is whether its Hilbert coordinate meets
+   the open type-(a,b) CI locus: at the full prescribed polynomial, a
+   degree-a equation and no fixed degree-b surface are exactly that test.
+   Its Hilbert projection then consists precisely of actual supported CIs.
+   Keep unquotiented loci and both full T-limits. Their [invariant curve
+   arrangements](synthesis/torus_residual_arrangements_and_absorption.md)
+   can include L12 joined through residual chains. Full-support invariant
+   quartics move to C_0 at cycle level, but lifting that motion to the
+   embedded polynomial and global equations is unresolved. Neither direct
+   endpoint attachment nor rigidity follows just from T-fixedness.
    Use the [full-limit formulation](synthesis/global_equations_and_constructions.md#proposed-test-supported-deformations-of-an-invariant-boundary-ideal).
    For a chosen CI degree pair or ACM Hilbert polynomial, consider the bounded supported Hilbert locus and its full invariant-limit attracting sets. Test actual moving-ideal generators on these loci; a selected fixed ideal and its supported deformation problem remain valid local probes. Retain full relations, possible embedded points,
    and incidence \(C_0\subset Y\subset V(I_{C_0}^N)\). Existing invariant

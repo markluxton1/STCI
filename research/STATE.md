@@ -115,14 +115,33 @@ supported CI whose full invariant limit loses its CI structure. Classification
 of the relevant invariant limits and recovery of CI or ACM structure in
 deformations preserving support remain open.
 
-The proposed [surface-pair VGIT framework](synthesis/vgit_surface_pairs_and_full_limits.md)
-adds an intrinsic fixed-degree neighborhood lemma: an actual sole-supported
-degree-(a,b) CI is I_C0-primary and contains \(I_{C_0}^{ab/4}\), so H_9 covers
-every supported sextic CI and its full limits. It also gives the complete coarse
-extremal-Plucker-weight partition of Gr(2,I_C0(6)) and an exact Hilbert-weight
-correction on an existing residual example. These are unpromoted deductions;
-the graph's supported strata, refined walls and full limiting ideals remain
-unclassified. No supported CI or unrestricted exclusion is constructed.
+The reviewed provisional [surface-pair VGIT framework](synthesis/vgit_surface_pairs_and_full_limits.md)
+now gives an all-degree necessary condition: every actual supported pair
+is semistable for the centered Chow linearization, and stable in
+characteristic zero or characteristic p not dividing ab. For equal degrees
+its Plucker interval then contains zero strictly. For any integral marked
+curve, the entire fixed-degree supported ordered-pair or equal-degree
+pencil incidence is affine. The [Chow filtration](synthesis/residual_cycles_and_chow_incidence.md)
+organizes every proper containing pair by closed conditions m_C>=r.
+At the exact CI Hilbert polynomial, a degree-a equation and absence of a
+fixed surface in degree b are equivalent to being an actual type-(a,b) CI.
+In characteristic zero, connectedness makes every Hilbert coordinate of
+the top Chow fiber of the full CI graph supported on C_0; its intersection
+with the open CI locus is the exact existence incidence. Embedded points,
+primarity and the power bound remain distinct. An actual supported pair
+is primary and contains \(I_{C_0}^{ab/4}\), so H_9 still covers supported
+sextic approximants and their full limits. The sextic weight partition and
+boundary-character calculation remain bounded controls. These deductions
+are not canonically promoted and decide neither this incidence nor
+unbounded-degree existence or exclusion.
+
+The reviewed provisional [invariant residual arrangement argument](synthesis/torus_residual_arrangements_and_absorption.md)
+classifies reduced invariant curve supports in every characteristic.
+All meet an endpoint of C_0 except L12, which can occur through connected
+residual chains; a proper invariant (3,4) CI exhibits that exception.
+The full-support invariant quartics form a two-dimensional family and can
+move to C_0 at cycle level. This proves no lifting to a prescribed embedded
+CI family and supplies no iteration to sole support.
 
 The provisional [constant-quotient descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
 recovers the saturated orbit-family image from the embedded algebra and tests

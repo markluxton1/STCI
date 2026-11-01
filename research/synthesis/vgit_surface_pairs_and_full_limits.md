@@ -1,17 +1,22 @@
-# VGIT of surface pencils and full intersection limits
+# VGIT of surface pairs, residual cycles, and full intersection limits
 
-**Status:** proposed geometric framework and exact bounded deductions, with
-independent review recorded below; not promoted to canonical results. Fix
+**Status:** reviewed provisional geometric framework, all-degree deductions
+and bounded controls; independent review is recorded below. No canonical
+result is promoted. Fix
 \(C=C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3_k\), ordinarily in
 characteristic zero, and \(S=k[x_0,x_1,x_2,x_3]\), \(I=I_C\).
 The power-containment lemma below works in every characteristic. The question
 includes **all proper containing intersections**, with cycle
 \([Y]=m[C]+R\), before imposing sole support.
 
-The contribution is an intrinsic boundedness proof, a geometric graph
-construction relating equation VGIT to full ideals, and a necessary exact
-weight calculation on an existing residual example. It replaces no existing
-calculation or canonical theorem. The
+The general organizing objects are the [closed residual-degree filtration
+and exact generator incidence](residual_cycles_and_chow_incidence.md) and
+the [invariant residual arrangements](torus_residual_arrangements_and_absorption.md).
+The all-degree semistability argument below restricts every actual supported
+pair to a single natural torus linearization. The intrinsic boundedness proof
+and the graph then retain its full embedded limits. The sextic weight counts
+and residual examples are bounded controls; they do not select the scope of
+the problem or introduce a canonical theorem. The
 [opposite-limit framework](torus_attracting_strata_and_generator_incidence.md)
 still owns the general moving-ideal generator question.
 
@@ -75,9 +80,10 @@ chosen T are distinct decompositions.
 
 ## 2. A uniform neighborhood for actual supported complete intersections
 
-**Intrinsic lemma.** Suppose \(J=(F_a,G_b)\) is a proper homogeneous complete
-intersection with reduced projective support exactly the integral quartic C.
-Then 4 divides ab. Set m=ab/4. In every characteristic,
+**Intrinsic lemma.** More generally, let C be any integral curve of degree
+delta in projective three-space, and suppose \(J=(F_a,G_b)\) is a proper
+homogeneous complete intersection with reduced projective support exactly C.
+Then delta divides ab. Set m=ab/delta. In every characteristic,
 \[
  I^{(m)}\subset J,\qquad\text{hence}\qquad I^m\subset J\subset I.       \tag{1}
 \]
@@ -89,7 +95,7 @@ with saturation, gives \(\sqrt J=I\) for the affine homogeneous ideals as
 well. Its only associated prime is I, so J is I-primary. The degree formula
 for the fundamental cycle is
 \[
- ab=\deg(S/J)=4\operatorname{length}_{S_I}(S_I/J_I)=4m.
+ ab=\deg(S/J)=\delta\operatorname{length}_{S_I}(S_I/J_I)=\delta m.
 \]
 In an Artin local ring of length m, the m-th power of its maximal ideal is
 zero: any equality of two successive powers forces that power to vanish by
@@ -98,14 +104,16 @@ Consequently \(I^mS_I\subset J_I\). Primary contraction gives
 \(J_I\cap S=J\), proving (1). No claim about singularity or normality of
 the surfaces, separability, or a transverse normal form was used.
 
-For each fixed (a,b), every actual supported complete intersection and all
-its full T-limits therefore lie in the **single closed supported locus**
+Whenever T preserves C, as for our fixed quartic, for each fixed (a,b)
+every actual supported complete intersection and all its full T-limits
+therefore lie in the **single closed supported locus**
 \[
 H_m=\{[Z]\in\operatorname{Hilb}^{P_{a,b}}:
        \mathcal I_C^m\subset\mathcal I_Z\subset\mathcal I_C\}.
 \]
 These are closed flag/Quot incidence conditions, so H_m is projective and
-T-stable. The two containments persist in its flat limits. For (6,6),
+T-stable. The two containments persist in its flat limits. For the fixed
+quartic delta=4; in particular, for (6,6),
 \[
 m=9,\qquad P_{6,6}(n)=36n-144.
 \]
@@ -115,6 +123,102 @@ its fixed components, or its attracting loci. It gives no single N for all
 degree pairs, and makes no assertion that every ideal with the same Hilbert
 polynomial is primary or lies in this neighborhood. The general bounded
 framework permits other ideals and should retain that distinction.
+
+## The Chow linearization covers supported pairs in every degree
+
+**Theorem.** Use the centered SL4 lift with ring weights (-2,-1,1,2)
+and its natural linearizations. In every characteristic, every proper
+degree-(a,b) pair with reduced support C_0 is T-semistable at character
+zero on \(\mathbf P(I_a)\times\mathbf P(I_b)\) for
+\(\mathcal O(b,a)\). For a=b=d, every such pencil is semistable for the
+Plucker polarization. In the extremal-weight convention of section 3,
+\[
+ \ell(W)\le 0\le u(W).                                             \tag{B}
+\]
+
+**Proof.** Write \(E_e=H^0(\operatorname{Gr}(2,4),O(e))\) and
+\(Q=\operatorname{Ch}_{C_0}\in E_4\). Its line is T-invariant.
+Coordinate reversal \(\iota=(03)(12)\) preserves C_0 by interchanging
+s and t, belongs to SL4, and conjugates the centered torus to its inverse.
+It also preserves the Q-line. Thus the character q of Q satisfies
+q=-q in \(X^*(T)=\mathbf Z\), so q=0. This remains true in characteristic
+two: the character lattice, rather than the ground field, is being used.
+
+The [universal-line resultant](residual_cycles_and_chow_incidence.md#1-the-proper-pair-chow-morphism)
+is an equivariant polynomial map
+\(R:I_a\times I_b\to E_{ab}\), homogeneous of degrees (b,a).
+The natural determinant target has no extra ambient character: the identity
+\(\det\operatorname{Sym}^n\mathcal S^\vee
+=(\det\mathcal S^\vee)^{n(n+1)/2}\) gives exponent ab for the Sylvester
+target minus its sources. For a supported pair, 4 divides ab and
+\(R_{F,G}=cQ^{ab/4}\), with c nonzero. Choose a weight-zero functional
+\(L:E_{ab}\to k\) nonzero on this Chow power. The section L(R) of
+\(\mathcal O(b,a)\) is invariant and nonzero at the pair. It proves
+semistability for that ample linearization.
+
+For equal degrees, a change of pencil basis by a matrix A gives
+\(R_{A(F,G)}=\det(A)^dR_{F,G}\). This polynomial identity follows from
+diagonal changes, shears and interchange of the two binary forms, so holds
+over every field. Consequently R descends on the whole Grassmannian as a
+section of \(E_{d^2}\otimes(\det\mathcal W^\vee)^d
+=E_{d^2}\otimes O_{X_d}(d)\), where \(\mathcal W\) is its tautological
+two-plane bundle. L(R) is an invariant section of that positive Plucker
+power. The torus criterion gives (B). QED.
+
+This covers **all degrees and all actual supported pairs**, with no
+eigenform, carrier or transverse-quotient hypothesis. It removes wholly
+one-sided centered weight blocks from the supported proper-pair search.
+Semistability is not a sufficient support condition; residual pairs can be
+semistable too. The character-zero locus already covers the supported
+search, so a sweep of every VGIT chamber is unnecessary for that coverage.
+Other characters can still organize residual intersections. Character zero
+refers to the specified centered lift; an uncentered lift translates the
+linearization character.
+
+The assertion concerns the moving proper pair. Its limiting equation pencil
+can be improper and unstable: the resultant section vanishes at the
+common-factor boundary even when the full Hilbert limit stays supported.
+Thus (B) does not require each fixed endpoint pencil to have weight zero.
+Graph limits remain essential.
+
+**Strictness using the reviewed eigenform theorem.** In characteristic
+zero, every actual supported ordered pair is T-stable for O(b,a), and
+every actual supported equal-degree pencil satisfies
+\[
+ \ell(W)<0<u(W).                                                   \tag{B'}
+\]
+The same conclusions hold in characteristic p when p does not divide ab
+(d squared for equal-degree pencils). These strengthened statements use
+the independently reviewed provisional
+[eigenform obstruction](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md#the-bound-and-its-exact-large-prime-minimum)
+in addition to the intrinsic Chow argument.
+
+To prove the ordered-pair statement, let alpha and beta be the minimum
+centered weights of F and G. The minimum O(b,a) state weight is
+b alpha+a beta. If it is zero, the rescaled equation vectors
+\(t^{-\alpha}\lambda(t)F\) and \(t^{-\beta}\lambda(t)G\) have nonzero
+limits F_min and G_min, each an eigenform. Their **full** resultant is
+\[
+ t^{-(b\alpha+a\beta)}\lambda(t)R_{F,G}=R_{F,G}=cQ^{ab/4}.
+\]
+It remains nonzero at the limit, so the limiting eigenform pair is
+proper and supported on C_0. This contradicts the cited theorem in
+characteristic zero or p not dividing ab. The maximum-weight equality
+is excluded by the inverse torus. Thus both inequalities are strict;
+the stabilizer is finite, giving stability for the one-dimensional torus.
+For pencils, if ell=0 the affine Plucker cone has a nonzero weight-zero
+limit. The degree-d resultant section on that cone keeps its same nonzero
+invariant value, giving the same contradiction; u=0 is handled oppositely.
+No extension of the section to the whole exterior-power vector space is
+needed. When p divides ab, the eigenform theorem does not yield this
+strictness claim.
+
+There is also a useful global simplification for a fixed degree pair:
+the entire supported proper-pair locus, or supported proper-pencil locus
+in equal degree, is [closed in one affine resultant chart](residual_cycles_and_chow_incidence.md#a-single-affine-chart-for-the-whole-supported-pair-locus).
+For C_0 that chart is T-invariant. This removes improper pairs from the
+working chart; it does not compactify the locus or decide nonemptiness.
+The arbitrary-degree invariant boundary still belongs to the full graph.
 
 ## 3. Complete coarse VGIT data for sextic pencils
 
@@ -158,14 +262,16 @@ Hence \(\dim V_6=59\) and \(\dim X_6=114\). The actual Plucker weights
 fill 7,...,41, or **-17,...,17 in centered coordinates**. This follows
 by taking sums of two weights, allowing repetition only when that weight
 space has dimension at least two. Every such weight is realized by an
-eigenvector two-plane, so these are the ambient character walls, with 34
+eigenvector two-plane, so these are the ambient candidate character walls, with 34
 open chambers between successive weights. Properness and support may remove
 wall loci. Outside [-17,17] the ambient semistable locus is empty.
 There are at most \(35\cdot36/2=630\) extremal-weight blocks,
 including potentially empty blocks; they are not 630 classified geometric
 families of intersections. One representative theta per chamber and wall
 covers the effective character interval, and their semistable loci together
-cover X_6.
+cover X_6. For actual supported pencils, the all-degree theorem above
+already restricts the search to blocks with ell<=0<=u. The remaining
+characters need not be swept to obtain supported-pair coverage.
 
 The [exact certificate](../computations/verify_vgit_surface_pairs.py)
 enumerates these weights. The geometric reason for the kernel calculation
@@ -196,6 +302,14 @@ into equality of these homogeneous ideals. Therefore an extra-generator
 limit lies over the common-factor boundary of X_d. The gcd degree is a
 useful first refinement, but it does not determine J_0 or its support.
 
+The same argument gives a stronger intrinsic test on the whole Hilbert
+scheme with the exact polynomial P_{a,b}: a proper prescribed-degree pair
+inside a saturated J already generates J. Equivalently, for a<=b it is
+enough that J_a be nonzero and the degree-b equation system have no fixed
+hypersurface component. The [general proof](residual_cycles_and_chow_incidence.md#3-exact-generator-incidence-at-the-complete-intersection-polynomial)
+replaces a separate higher-degree generator calculation on this locus.
+Existence of two independent equations with a common factor is insufficient.
+
 For the sole-support sector take the closure of the graph over
 \(U_d\cap f^{-1}(H_{d^2/4})\) inside \(X_d\times H_{d^2/4}\), when
 4 divides d^2. Call this \(\Gamma_d^{\mathrm{supp}}\). This choice keeps
@@ -209,7 +323,8 @@ full limit would itself be an invariant CI with eigenform generators.
 This observation inherits that theorem's authority and does not exclude
 the moving pencil.
 
-Let L_n be a sufficiently high Hilbert Plucker polarization. On Gamma use
+Fix one sufficiently high Hilbert embedding degree n for the entire
+projective graph, and let L_n be its Hilbert Plucker polarization. On Gamma use
 \[
 A=\pi_X^*\mathcal O_{X_d}(1),\qquad B=\pi_H^*L_n,
 \qquad A^r\otimes B^s\quad(r,s>0),
@@ -386,27 +501,35 @@ variables. The higher-dimensional questions are explicitly separated.
 It supersedes [the 2012 preprint](https://arxiv.org/abs/1212.4862); do not
 silently import the old preprint's broad framing as a completed P3 program.
 
-A next bounded study can now start from geometric strata rather than
-selected smoothings:
+A continuation aimed at the general problem can use the following objects
+for **any degree pair**, keeping sextics as controls rather than a reduction:
 
-1. On X_6 use the complete extremal-weight partition, then refine by the
-   gcds of **both** limiting pencils. For the supported characteristic-zero
-   sector these gcds must be nonconstant by the scoped eigenform theorem.
-2. Above a chosen boundary locus, describe the graph fiber using the
-   multiplication maps \(W\otimes S_{n-6}\to S_n\), their rank drops,
-   cancellation relations, and the full saturated limiting ideal. The
-   degree-ten example supplies an exact residual control for this step.
-3. Intersect with the supported graph in X_6 times H_9, retaining both
-   endpoints and full relations. Determine actual graph-fiber incidence;
-   a formal determinantal rank condition without its realizations does not
-   finish this calculation.
-4. On the resulting loci test the moving ideal's generator module
-   \(J/S_+J\). An actual sole-supported proper sextic pencil would already
-   generate a CI; an abstract supported Hilbert point still needs that
-   generation incidence. Compare normal and endpoint invariants only through
-   stated maps, and retain embedded structure instead of taking a pure hull.
+1. Organize all proper containing pairs by the closed Chow-divisibility
+   filtration \(m_C\ge r\). For supported pairs use the single affine
+   resultant chart and the centered character-zero locus, stable in
+   characteristic zero; other characters may help study
+   residual geometry without being needed for supported coverage.
+2. Retain equations, full Hilbert ideals and Chow cycles on the
+   [triple graph](residual_cycles_and_chow_incidence.md#4-full-graph-limits-and-the-top-cycle-fiber).
+   Both full T-limits exist. Their reduced curve components have the
+   [orbit-closure classification](torus_residual_arrangements_and_absorption.md#2-all-invariant-irreducible-curves-are-explicit-orbit-closures),
+   including the possible middle coordinate line linked through residual
+   chains. Classify nonreduced structures only with their full relations.
+3. In the top Chow fiber, connectedness forces the Hilbert coordinate
+   to have reduced support C in characteristic zero. The decisive
+   incidence is whether it meets the open type-(a,b) CI locus. Test a
+   degree-a section and absence of a fixed surface in degree b; the full
+   prescribed Hilbert polynomial then supplies ideal equality.
+4. Distinguish residual-cycle motion from embedded, fixed-polynomial
+   deformation and actual equations. Invariant full-support quartics
+   move to C at cycle level, but that does not lift the whole intersection.
+   A stratum exclusion requires coverage of its moving ideals; an
+   unrestricted exclusion still needs coverage over unbounded degrees.
 
-Completed here: an intrinsic fixed-degree neighborhood bound, a complete
+Completed here and in the two linked proof homes: an all-degree centered
+semistability condition, a closed residual-degree filtration, exact
+two-degree generator incidence, a general invariant-support classification
+and its attachment counterexample, an intrinsic fixed-degree bound, a complete
 coarse torus-VGIT partition of the pencil space, a graph comparison, an
 exact nonzero boundary-character correction, and a one-parameter residual
 family requiring opposite-limit refinements within one coarse block.
@@ -439,3 +562,16 @@ from the syzygies, and reran both verifiers. The mathematical reviewer also
 recomputed (9) independently. Neither review asserts literature priority,
 canonical promotion, or supported-stratum classification. No canonical
 result or question record is changed by this proposal.
+
+A further independent reconstruction on 2026-11-01 accepted the centered
+semistability theorem in every characteristic, including the integral
+GL2 covariance, the specified SL4 lift, and the weight-zero Chow line.
+It also reviewed the general-degree primary-power statement and the two
+new linked geometric proof homes. The character-zero assertion concerns
+proper moving pairs, not their potentially improper equation endpoints.
+A bounded independent reconstruction additionally accepted the affine
+resultant chart and the strict-stability corollary in characteristic zero
+or p not dividing ab. The strict corollary uses the full resultant at
+the endpoint and inherits the eigenform theorem's reviewed provisional
+authority; no sufficient support criterion is asserted. These contributions
+remain reviewed provisional deductions without canonical promotion.
