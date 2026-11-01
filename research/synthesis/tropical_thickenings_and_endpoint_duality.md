@@ -64,6 +64,14 @@ embedding results ([Tevelev](https://arxiv.org/pdf/math/0412329),
 [Luxton–Qu, Theorems 1.4–1.5](https://arxiv.org/pdf/0902.2009)) do not assert
 preservation of two global equations for nonreduced thickenings under (1).
 
+For a finite constant embedded quotient, the
+[orbit-family image calculation](toric_quotients_and_endpoint_descent.md)
+recovers the saturated homogeneous ideal, both endpoint lattices and the exact
+prescribed-degree source test. Its length-four comparison distinguishes
+characteristic-zero root collision from reduction of the prescribed quartic
+CI. The present chapter retains ownership of the entire, possibly moving
+finite modification of an arbitrary supported pair.
+
 ## The entire finite modification
 
 Suppose \(Z=V(F_a,G_b)\) is a proper homogeneous CI with sole reduced

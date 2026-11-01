@@ -101,19 +101,60 @@ conductor. A new comparison must construct its map and preserve its hypotheses.
 
 ## Torus symmetry as an organizing method
 
+**Necessary invariant-limit principle.** If a degree-(a,b) complete
+intersection has reduced support exactly C0, then the full flat limit of its
+ideal under the one-parameter torus action is a T-invariant scheme with
+reduced support exactly C0 and the same complete-intersection Hilbert
+polynomial. Indeed, for some N its ideal lies between I_C0^N and I_C0;
+these torus-stable containments persist in the full flat limit, so the
+support cannot acquire residual curves or disappear. This is a necessary
+condition for *every* hypothetical supported STCI, not merely for
+T-invariant defining equations.
+
 The [full flat-limit account](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope)
-separates three facts: every supported pair has invariant reduced support;
-its full torus limits retain that support and Hilbert polynomial; an invariant
-CI ideal is itself excluded in characteristic zero. The useful proposed
-direction is therefore to study invariant boundary ideals together with
-deformations preserving support that can recover CI or ACM structure. The
-general member must be allowed to break symmetry. Limiting two individual
-forms discards relations and can leave a common surface factor.
+also explains the essential qualification: the invariant limit need not
+remain a complete intersection, or even admit two generators. Therefore
+excluding invariant **pairs of equations** with sole support is not enough.
+A potentially sufficient obstruction would exclude *all* T-invariant
+sole-supported ideals of the required Hilbert polynomial that arise as
+full flat limits of degree-(a,b) complete intersections. Equivalently,
+one can investigate the intersection of the torus-fixed Hilbert locus
+with the closure of the supported complete-intersection locus, retaining
+the marked support condition in the degeneration. A fixed-locus
+classification alone is not an obstruction without the deformation or
+coverage step.
+
+The proposed direction is to study invariant boundary ideals together
+with deformations preserving support that can recover CI or ACM structure.
+The general member must be allowed to break symmetry. Limiting two
+individual forms discards relations and can leave a common surface factor.
+
+For a specified finite embedded quotient, the
+[endpoint-descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
+recovers its actual homogeneous source spaces by finite weightwise linear
+algebra. A proper pair in the prescribed degrees, together with degree
+exhaustion, decides that image. The length-four comparison shows why the
+embedding and the full infinity algebra matter: the same nilpotent quotient
+type yields different postulation in characteristic zero, two and three.
+This is a useful bounded realization task, not a reduction of arbitrary
+characteristic-zero pairs to a constant quotient.
+
+The [explicit sextic configurations](synthesis/toric_sextic_residuals_and_limits.md)
+now supply exact controls for splitting, absorption and loss of CI generators.
+The sharp quotient-length bound is eight for proper eigenform sextics in every
+characteristic. A length-nine sole-support search must therefore change the
+eigenform hypotheses; the existing all-pair conormal reduction still needs
+moving embedded data and actual source lifts. Recomputing the 23-dimensional
+double source in quotient coordinates adds an interpretation, not a second
+obstruction.
 
 This can organize either a fixed-degree CI question such as (6,6), or the
 independent downstairs ACM objective. Its value is a structured boundary and
 weight decomposition; no finite fixed-locus classification, tractable
-deformation space or recovery theorem is currently supplied. Before assigning
+supported deformation space or general recovery theorem is currently supplied.
+The explicit ACM three-generator limit has the (6,6) Hilbert series but retains
+boundary curves; it is not a sole-support boundary ideal.
+Before assigning
 a substantial calculation, select an actual invariant ideal, check its target
 Hilbert polynomial and support incidence, and identify the full deformation
 and generator conditions. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
@@ -144,6 +185,7 @@ stopping outcomes.
 | --- | --- | --- |
 | Construct containing intersections | Exact octic multiplier kernels and fixed divisors at known first-compatible roots; joint generation activates the existing proper-pair construction | The generic construction already gives length eight and residual degree 32; higher contact is a new condition, and sole support needs length sixteen |
 | Decide a covered part of (6,6) | Full higher-contact incidence in all three surviving ADE primitive-triple orbits, retaining the actual 27-dimensional sources | A sector theorem requires the ADE general-pencil hypothesis and complete orbit coverage; the unrestricted sextic singularity/cover compatibility remains open |
+| Decide descent for an embedded finite quotient family | Full endpoint image lattices and actual degree spaces from the constant-quotient criterion; test properness and image base change | Exact for the specified image. Extending to a hypothetical characteristic-zero sextic CI needs a moving rank-nine family, not only collisions of abstract quotient points |
 | Organize supported CI/ACM deformations by symmetry | An actual invariant boundary ideal with the required Hilbert polynomial, full relations and explicit deformations preserving support | Not ready for a broad fixed-locus search merely from torus symmetry; tangent directions alone do not give actual deformations |
 | Construct a homogeneous ACM thickening downstairs | An actual ideal or new projection source that changes the known missing-section mechanism; allow more than two generators | Independent value even without AG/CI; ACM upstairs does not imply ACM after projection |
 | Resolve the conditional order-three equation family | The intrinsic sextic map over a justified cover or component of the full fixed-frame root locus, retaining all rank strata and corrections | This belongs to the conditional (6,16) bridge, not the (6,6) reduction; later root lifts, mate and support remain obligations |

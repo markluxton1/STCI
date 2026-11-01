@@ -113,8 +113,27 @@ provisional facts distinguish invariant reduced support, an invariant full
 ideal, and the two separately limiting equations. They do not exclude a
 supported CI whose full invariant limit loses its CI structure. Classification
 of the relevant invariant limits and recovery of CI or ACM structure in
-deformations preserving support remain open; no such deformation is supplied
-by this strategy assessment.
+deformations preserving support remain open.
+
+The provisional [constant-quotient descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
+recovers the saturated orbit-family image from the embedded algebra and tests
+prescribed CI degrees by actual homogeneous source spaces and properness.
+The same abstract algebra need not have the same projective image. The
+specified length-four nilpotent embedding has infinity indices 13, 15 and 18
+in characteristic zero, three and two, respectively; only the characteristic-two
+image is the prescribed quartic CI. Its flat characteristic-zero collision has
+genus 28 and is not that genus-33 CI family.
+
+The provisional [sextic configurations and full limits](synthesis/toric_sextic_residuals_and_limits.md)
+give a sharp quotient-length bound of eight for every proper pair of eigenform
+sextics, in every characteristic, hence boundary cycle degree at least four.
+Explicit mixed-weight proper intersections exhibit residual splitting,
+absorption into C0 and a saturated ACM torus limit with a necessary degree-ten
+generator. These examples have residual support; they provide no sole-support
+CI deformation or unrestricted sextic exclusion. Recovering the known
+23-dimensional double source in quotient coordinates is a reformulation, while
+the length-nine conormal and divisor restrictions still need full embedded
+multiplication and moving-family data. No canonical result is promoted here.
 
 The [spectral power theorem](synthesis/spectral_pushforward_powers.md) now
 contains the general genus-one pushforward lemma and all-power smooth (2,2)

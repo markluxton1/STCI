@@ -1,0 +1,32 @@
+name: Toric quotient and residual-limit verification
+
+on:
+  pull_request:
+    paths:
+      - "research/synthesis/toric_quotients_and_endpoint_descent.md"
+      - "research/synthesis/toric_sextic_residuals_and_limits.md"
+      - "research/computations/verify_toric_quotients_and_residual_limits.py"
+      - ".github/workflows/toric-quotient-validation.yml"
+  push:
+    branches: [main]
+    paths:
+      - "research/synthesis/toric_quotients_and_endpoint_descent.md"
+      - "research/synthesis/toric_sextic_residuals_and_limits.md"
+      - "research/computations/verify_toric_quotients_and_residual_limits.py"
+      - ".github/workflows/toric-quotient-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check finite algebras, source ranks and explicit identities
+        run: python3 -B research/computations/verify_toric_quotients_and_residual_limits.py

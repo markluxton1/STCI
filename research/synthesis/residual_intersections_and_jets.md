@@ -116,6 +116,15 @@ local generators are weaker data.
 
 ## Root configurations, conductor, and characteristic
 
+The provisional [toric sextic configurations](toric_sextic_residuals_and_limits.md)
+give eigenform intersections with eight or six quotient length units and
+explicit boundary cycles, a sharp length-eight bound for all eigenform sextic
+pairs in every characteristic, and mixed-weight splitting and absorption
+families. Their full three-generator limit remains ACM with the CI Hilbert
+series, but has a necessary degree-ten equation and residual boundary curves.
+These are actual curve configurations downstairs; they are not exceptional
+vertical components or a sole-support deformation.
+
 The [root-pencil account](root_pencil_geometry.md) supplies a continuous
 four-sheet family with fixed \(9p_0+9p_\infty\) marked boundary, varying
 elliptic branch modulus, a double-marked-component member, residual-root
@@ -124,6 +133,12 @@ conductor/generalized-Jacobian calculation, a larger-delta eight-component
 control, balanced-boundary interpretation and two-scale mixed-characteristic
 collision tree. These are explicit laboratories, not invariants of every
 pair.
+
+The [embedded quotient comparison](toric_quotients_and_endpoint_descent.md)
+separates abstract finite algebras from their projective images. Its flat
+characteristic-zero four-root collision has genus 28, whereas the prescribed
+characteristic-two quartic CI has genus 33. Its actual endpoint lattices explain
+the difference without forbidding characteristic-zero nonreduced quotients.
 
 The degree, length, linkage and finite-scheme attachment mechanisms have
 characteristic-free forms with their stated hypotheses. The balanced-normal
