@@ -27,7 +27,7 @@ results change and how to choose between constructive and obstructive aims.
 | Interface | Available result or construction | Missing implication or bounded test |
 | --- | --- | --- |
 | Actual global pairs | [Exact source spaces](supplements/ACTUAL_EQUATION_SPACES.md), [Chow/complement equivalents](synthesis/global_equations_and_constructions.md) | Produce a proper pair with exhausted cycle, or prove an incompatibility covering every relevant source; dimension and equivalent formulation alone do neither |
-| Torus limits and supported deformations | [Full invariant limits](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope), [weight restrictions](supplements/EQUIVARIANT_DEGREE_BOUNDS.md) | Full limits preserve C0 and Hilbert polynomial but can lose CI/AG structure; choose an actual invariant boundary and test deformations preserving support that recover generators. Fixed-locus coverage and the required deformation remain unproved |
+| Torus limits and supported deformations | [Full invariant limits](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope), [explicit residual controls](synthesis/toric_sextic_residuals_and_limits.md) | The sharp eigenform sextic quotient bound is eight; a residual full limit needs a degree-ten generator. For sole support, choose an actual I_C-primary boundary and test supported deformations recovering generators; the residual examples do not supply that incidence or fixed-locus coverage |
 | Embedded lower thickenings | [One-step and filtration tests](synthesis/03-infinitesimal-geometry.md) | Determine a proper decomposable determinant-zero point in the actual equation spaces across a justified family of lower embeddings |
 | General roots and initial ideals | [Root and normal-filtration tools](synthesis/normal_filtration_boundary_obstructions.md) | Handle singular/nonreduced roots, nonsaturation, extra generators, noncoprime next relations and failure of joint generation; no arbitrary entirely-thick→movement-two reduction is known |
 | Punctual comparison defects | [R-0030](results/local_filtration_comparison_defect.md), [supported specialization control](synthesis/comparison_defect_specialization.md) | Decide nonzero relative defect under sole support and generically vanishing comparison defect; a nonzero exceptional-fiber defect need not be a relative defect, and residual-support controls do not answer existence |
@@ -42,9 +42,9 @@ results change and how to choose between constructive and obstructive aims.
 | Nonnormal carrier geometry | [Gorenstein-normalized quintics](synthesis/quintic_gorenstein_normalizations.md), [remaining toric center incidence](synthesis/quintic_toric_center_incidence.md), [conductor differential](synthesis/carrier_conductor_differential_comparison.md) | Decide full inverse support on the remaining M locus before testing actual power descent; singular local gluing alone does not realize the projective carrier |
 | Spectral graded families and ambient equations | [Order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md), [actual source quotient](synthesis/actual_octic_root_lift_comparison.md), [torsion-two charts](synthesis/quadratic_root_torsion_two_lifting.md) | The completed 24-point affine slice has no compatible sextic; test the full root incidence with its rank boundaries and all corrections. Positive octic constructions remain useful for containing intersections |
 | Finite jets and equation search | [Intrinsic global jets](synthesis/global_equation_jets.md), [bounded certificates](synthesis/bounded_equation_certificates.md) | Use actual source-image filtrations and full nonlinear corrections; existential finite realization is distinct from a uniform effective witness-degree bound |
-| Contact and tropical descent | [Full transverse families](synthesis/contact_duality_and_global_descent.md) | Convert the actual Jacobian/contact or global-presentation constraints into an incompatible global equation condition; positive movement and locally CI endpoints alone are compatible |
+| Contact and tropical descent | [Full transverse families](synthesis/contact_duality_and_global_descent.md), [embedded quotient descent](synthesis/toric_quotients_and_endpoint_descent.md) | A specified constant quotient has an exact homogeneous source test. Extend the actual endpoint and source calculations to a moving rank-nine family satisfying a sextic divisor profile; positive movement and locally CI endpoints alone remain compatible |
 | Marked dual/ruled geometry | [Fixed geometry](synthesis/01-problem-and-curve.md) | Construct a proved map from actual equation/conductor data to marked contact schemes, retaining nilpotents and endpoint corrections |
-| Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [effective transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md), [Frobenius precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md) | Every positive characteristic has quartic-carrier equations; all-pair degree growth remains conditional, and prescribed-lift precision or ramification restrictions do not exclude unrelated presentations |
+| Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [endpoint image comparison](synthesis/toric_quotients_and_endpoint_descent.md), [effective transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md) | Analyze the integral image and base-change defect in a declared embedded quotient family; quotient flatness alone does not give flat projective images. All-pair degree growth remains conditional, and fixed-carrier or prescribed-lift restrictions do not exclude unrelated presentations |
 
 For a hypothetical characteristic-zero sole-support pair of degrees
 \(5\le a\le b\), let \(\delta\) be the length of its finite quadratic
@@ -123,7 +123,12 @@ retain their value as bounded carrier investigations.
    invariant ideal and retain its full relations, possible embedded points,
    and incidence \(C_0\subset Y\subset V(I_{C_0}^N)\). Existing invariant
    quadric multiples supply controls or exploratory ACM candidates, not a
-   demonstrated (6,6) boundary. A first task may stop at a usable deformation
+   demonstrated supported (6,6) boundary. The
+   [explicit three-generator limit](synthesis/toric_sextic_residuals_and_limits.md)
+   has the (6,6) Hilbert series and is a demonstrated limit of a CI with
+   residual curves; its support is not C0, so it is a generator/flatness
+   control rather than a candidate in this supported incidence.
+   A first task may stop at a usable deformation
    representation or the precise reason it is unavailable. A subsequent
    test seeks an actual supported CI/ACM deformation or an exclusion of the
    declared boundary family. The general fiber may break symmetry; invariant

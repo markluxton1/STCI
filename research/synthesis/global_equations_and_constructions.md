@@ -834,6 +834,13 @@ therefore concerns loss of two generators, not a necessary loss of support
 by the full Hilbert limit. Neither Cohen--Macaulayness nor AG structure is
 assumed at the fixed boundary.
 
+The provisional [sextic residual examples](toric_sextic_residuals_and_limits.md)
+make this generator distinction explicit: a proper (6,6) CI has full toric
+limit with minimal generator degrees 6,6,10 and the same Hilbert series.
+That limit is saturated and ACM. Both it and the original CI retain residual
+curves, so this example supplies a full-ideal control without producing a
+boundary in the sole-support incidence used here.
+
 The
 [full torus-modification account](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
 retains additional endpoint algebras, their finite defects and presentation
@@ -841,6 +848,13 @@ data. Its positive-movement and global-presentation barriers remain useful
 controls: local equations or an abstract transverse algebra do not supply
 the required homogeneous equations after contraction. They do not exclude
 all support-preserving deformations of a fixed boundary ideal.
+
+For a specified constant embedded quotient, the
+[orbit-family criterion](toric_quotients_and_endpoint_descent.md) instead
+recovers its saturated image and its actual degree spaces directly. Properness
+and degree exhaustion give an exact CI test for that image. This does not
+replace the moving finite family of a hypothetical characteristic-zero
+sole-support pair.
 
 ### Proposed test: supported deformations of an invariant boundary ideal
 
