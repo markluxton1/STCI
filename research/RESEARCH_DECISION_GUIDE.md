@@ -40,7 +40,12 @@ mechanism; it need not already possess a theorem. A classification or local
 example needs a named general question or constructive purpose, and should
 stop expanding once that question has been answered. The
 [October 31 assessment](notes/2026-10-31-unrestricted-strategy-assessment.md)
-records the first application of this standing process.
+records the first application of this standing process. The later
+[nonnormal-carrier cross-branch closeout](notes/2026-10-31-nonnormal-carrier-cross-branch-assessment.md)
+applies it to committed arithmetic, spectral, actual-octic and elliptic
+construction evidence. It recommends a bounded remaining support test
+before broadening through an already constructed higher-degree source;
+this is a scoped recommendation, not an exclusive research agenda.
 
 The user's curve/surface/ambient compatibility picture is a useful
 interpretive check: say whether a result concerns the abstract marked

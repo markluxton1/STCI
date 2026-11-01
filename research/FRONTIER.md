@@ -2,7 +2,7 @@
 
 This document tracks **active investigations and open mathematical interfaces**, not theorem authority or a mandated research program. Established statements and their limitations belong in [STATE.md](STATE.md) and [canonical results](results/INDEX.md); criteria for selecting work belong in [RESEARCH_DECISION_GUIDE.md](RESEARCH_DECISION_GUIDE.md). Dated investigations below are retained as historical evidence, not automatically active assignments.
 
-## Parallel investigation: nonnormal carriers and full conductor descent
+## Nonnormal-carrier closeout and recommended continuation
 
 The [nonnormal-carrier continuation](notes/2026-10-31-nonnormal-carrier-descent.md)
 tests both construction and obstruction mechanisms. Its reviewed local
@@ -41,13 +41,23 @@ primary-source hypotheses and produced an [actual genus-two toric
 normalization](notes/2026-10-31-quintic-genus-two-toric-source.md), with
 non-Gorenstein singularities, the marked quartic and an actual quartic
 root upstairs. Its first projection gives C0 but fails through five
-extra inverse points. The next bounded test varies the relative
-projection center on this same source and curve, retaining exceptional
-center loci and the curve endpoints. The independently reviewed toric
-polygon and marked-curve arguments show that this test covers every
-toric quintic normalization of a hypothetical mate. It tests whether
-gluing can remove the precise failure of the first model; a general
-center failure alone is not a complete exclusion.
+extra inverse points. The [reviewed center continuation](notes/2026-10-31-quintic-toric-center-incidence.md)
+now excludes the entire one-infinity boundary, generic finite centers,
+and three exceptional finite curves. Only the explicit M=0 incidence
+with its stated open conditions and root-support test remains unresolved.
+The interrupted multivariate computation did not classify it. The
+independently reviewed polygon and marked-curve arguments make completion
+of this test sufficient to decide full inverse support across every toric
+quintic normalization of a hypothetical mate; support alone is not descent.
+
+This investigation is closed out at that boundary. The
+[cross-branch assessment](notes/2026-10-31-nonnormal-carrier-cross-branch-assessment.md)
+recommends one bounded completion of M, then broadening to the already
+constructed elliptic double-inverse family on a smooth quadric with
+an octic image. That source lies outside the quintic and generically
+regular singleton hypotheses. These are reviewed recommendations, not
+newly launched assignments; the actual octic pair with residual degree
+32 supplies a separate geometric control, not an absorption operation.
 
 The general fiber-degree comparison in that note gives `a<=dr` under
 an actual mate and a resolved-normalization fibration of degree r<d.

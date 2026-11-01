@@ -32,8 +32,15 @@ The [genus-two continuation](notes/2026-10-31-quintic-genus-two-toric-source.md)
 constructs an actual non-Gorenstein toric normalization with the marked
 quartic and a section whose divisor is five times that curve. One finite
 quintic projection maps it exactly to C0 but has five extra inverse
-points, excluding every mate on that projected carrier. Other relative
-centers remain open. The same note proves the general necessary bound
+points, excluding every mate on that projected carrier. The
+[center continuation](notes/2026-10-31-quintic-toric-center-incidence.md)
+now excludes all one-infinity centers, generic finite centers and three
+exceptional finite curves; the explicit M=0 support incidence remains
+open. Its pending specialization review is complete, but its interrupted
+final computation proves no emptiness or finiteness. The
+[cross-branch closeout](notes/2026-10-31-nonnormal-carrier-cross-branch-assessment.md)
+records the geometric implications and recommended next work.
+The same source note proves the general necessary bound
 `a<=dr` when a resolved normalization is fibered by curves of hyperplane
 degree r<d; for C0 and conic fibers this excludes carrier degree at
 least nine. These are independently reviewed provisional findings.

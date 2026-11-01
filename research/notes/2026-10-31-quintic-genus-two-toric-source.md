@@ -3,8 +3,9 @@
 Date: 2026-10-31. Status: **independently reviewed provisional structural
 restriction, exhaustive toric-source reduction and fixed-projection exclusion**. Work over
 an algebraically closed field of characteristic zero, with
-`C0=[u^4:u^3v:uv^3:v^4]`. The relative-center continuation in §7 remains
-an investigation, not an excluded family. No canonical promotion is made.
+`C0=[u^4:u^3v:uv^3:v^4]`. The relative-center continuation in §7 is
+closed out with a reviewed partial exclusion and one explicit unresolved
+locus, not an excluded toric family. No canonical promotion is made.
 
 ## 1. Why this source remains relevant
 
@@ -281,13 +282,18 @@ not all projections of X or all genus-two carriers.
 
 ## 7. Bounded continuation and independent evidence
 
-The remaining test on this source varies the projection center while
-requiring the image of the marked rational normal quartic to remain
+The [center continuation](2026-10-31-quintic-toric-center-incidence.md)
+varies the projection center while requiring the marked image to remain
 projectively equivalent to fixed C0. Sections 4.1–4.2 show that this
-covers every toric quintic normalization of a hypothetical mate.
-It must retain exceptional
-center loci and both endpoints of c. The calculation (8) does not
-establish a generic or universal center exclusion.
+covers every toric quintic normalization of a hypothetical mate. It
+excludes the full one-infinity boundary, generic finite centers and
+three exceptional curves, retaining endpoints and parameter poles.
+Its remaining M=0 root-support incidence is unresolved; the interrupted
+calculation gives no finiteness or emptiness result. The
+[cross-branch closeout](2026-10-31-nonnormal-carrier-cross-branch-assessment.md)
+records what this teaches the larger question and recommends the next
+bounded test. The fixed example (8) by itself proves only its original
+single-projection exclusion.
 
 The literature crosswalk was checked independently by
 `/root/nonnormal_existing_evidence` against the primary article's

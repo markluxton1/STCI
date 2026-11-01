@@ -1,5 +1,7 @@
 # Exact computation checks
 
+The [October 31 toric-center closeout](../notes/2026-10-31-quintic-toric-center-incidence.md) owns `quintic_toric_finite_centers.py`, its retained JSON input, `quintic_toric_boundary_centers.py`, `quintic_toric_exception_centers.py` and the independent `quintic_toric_exception_audit.py`. These preserve partial full-inverse-support exclusions and specialization coverage; the remaining M locus is not computed.
+
 ## October 24 intrinsic quartic geometry checks and figures
 
 The [special-lines validation](../validation/2026-10-24-special-lines-planes/README.md), [quartic geometry validation](../validation/quartic-geometry-2026-10-24/README.md), and [figure guide](../figures/quartic-geometry-2026-10-24/README.md) document exact checks, projection and symmetric-square figures, and reproducibility. See `verify_special_lines_planes_2026_10_24.py`, `verify_quartic_automorphisms_bitangents_2026_10_24.py`, and `draw_quartic_geometry_2026_10_24.py`. These supplement the provisional proofs, not canonical promotions.

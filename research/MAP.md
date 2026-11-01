@@ -231,8 +231,13 @@ Non-Gorenstein normalizations remain outside the quintic theorem.
 The [genus-two continuation](notes/2026-10-31-quintic-genus-two-toric-source.md)
 supplies an actual non-Gorenstein toric source, marked rational normal
 quartic and quartic root. A finite projection giving C0 fails through
-five extra inverse points; the remaining relative-center test retains
-the actual source and curve. Its general fiber-degree comparison
+five extra inverse points. The [center continuation](notes/2026-10-31-quintic-toric-center-incidence.md)
+closes the one-infinity boundary and three exceptional finite curves,
+leaving the explicit M support incidence. The
+[cross-branch assessment](notes/2026-10-31-nonnormal-carrier-cross-branch-assessment.md)
+connects this to actual equation sources and the elliptic double-inverse
+construction without identifying their different defect modules.
+Its general fiber-degree comparison
 `a<=dr` also excludes conic-fiber normalization models for C0 in carrier
 degrees at least nine, under its stated actual-mate hypotheses.
 The [all-degree contact bound](notes/2026-10-31-carrier-conductor-differential-bound.md)
