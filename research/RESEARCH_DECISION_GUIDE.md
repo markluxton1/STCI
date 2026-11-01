@@ -212,3 +212,9 @@ proved or missing arrows. A useful new contribution changes a source, a
 compatibility map, a coverage statement or a constructive outcome. It should
 update the owning proof and the relevant frontier together; another chronological
 assessment is not needed merely because a branch has ended.
+
+## Review standard: invariant-limit stratification first
+
+For each fixed degree pair, use full T-invariant flat limits to organize the bounded supported Hilbert locus into attracting sets, then test **two-generation of moving ideals on each set**. The fixed ideal need not be a complete intersection. Distinguish the full-ideal limit, eigenform pairs, and I-adic initial ideals. Analyze graded minimal generators and the actual homogeneous equation incidence, including relations and scheme-theoretic equality. Tangent weights and smoothing of selected fixed points are auxiliary tools rather than the primary classification. Any claim of exhaustive strata must prove coverage and handle the chosen bound N; do not infer unrestricted exclusion from a bounded calculation.
+
+This supersedes the emphasis above on selecting a single invariant boundary ideal as the default first step. Existing degree-sector, quotient, carrier and positive-characteristic projects remain useful as sources of geometric strata, controls, and equations; no theorem status changes.
