@@ -101,6 +101,19 @@ conductor. A new comparison must construct its map and preserve its hypotheses.
 
 ## Torus symmetry as an organizing method
 
+The [surface-pair VGIT construction](synthesis/vgit_surface_pairs_and_full_limits.md)
+offers a concrete extension: partition all sextic pencils by their extremal
+Plucker weights, then retain their full intersections on the graph over the
+Hilbert scheme. An intrinsic primary-ideal argument puts every actual supported
+degree-(a,b) CI in the fixed neighborhood H_(ab/4), hence H_9 for sextics.
+This removes the unspecified-neighborhood issue for fixed-degree CI candidates,
+while the supported graph fibers and full-ideal strata still require coverage.
+Use the preserving torus for the fixed curve; an SL4 VGIT problem instead needs
+a moving marked curve. Keep the strata upstairs to study subsequent T-limits.
+Pair and Hilbert polarizations can differ at common-factor boundaries, as the
+exact residual control demonstrates. These are proposed unpromoted deductions,
+not a direction compulsory for the independent construction or obstruction work.
+
 **Necessary invariant-limit principle.** If a degree-(a,b) complete
 intersection has reduced support exactly C0, then the full flat limit of its
 ideal under the one-parameter torus action is a T-invariant scheme with
@@ -111,7 +124,7 @@ support cannot acquire residual curves or disappear. This is a necessary
 condition for *every* hypothetical supported STCI, not merely for
 T-invariant defining equations.
 
-The [full flat-limit account](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope)
+The [full flat-limit account](synthesis/global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit)
 also explains the essential qualification: the invariant limit need not
 remain a complete intersection, or even admit two generators. Therefore
 excluding invariant **pairs of equations** with sole support is not enough.

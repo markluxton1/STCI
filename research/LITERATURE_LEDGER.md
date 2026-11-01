@@ -1,12 +1,66 @@
 # STCI Literature Ledger
 
-Broad search assessed through 2026-09-30; selected primary-source mechanisms and inherited October 13 corrections rechecked/integrated on 2026-10-31. These are bounded checks, not a claim of exhaustive coverage.
+Broad search assessed through 2026-09-30; selected primary-source mechanisms and inherited October 13 corrections rechecked/integrated on 2026-10-31. A bounded VGIT and surface-pair literature check was added on 2026-11-01. These are bounded checks, not a claim of exhaustive coverage.
 
 This ledger records the scope actually used in the research report. A source is
 not listed as settling more than its hypotheses permit. “No later resolution
 found” is a documented search result, not a proof that no unindexed work exists.
 
 The [affine/projective scope account](supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md) retains the exact lci-cone criterion, tensor-quotient proof failure, real-sphere CI counterexample, fixed-quadric Picard control, SCIP distinction, and failed unique-prime inference. They have distinct field and quantifier scopes; none settles the projective algebraically closed STCI problem.
+
+## VGIT, surface-pair parameters and full intersection limits
+
+This bounded primary-source check supports the proposed
+[surface-pair VGIT framework](synthesis/vgit_surface_pairs_and_full_limits.md).
+It does not supply a classification for the fixed quartic.
+
+### Dolgachev--Hu and Thaddeus
+
+- Igor Dolgachev and Yi Hu, [*Variation of Geometric Invariant Theory
+  Quotients*](https://www.numdam.org/item/PMIHES_1998__87__5_0.pdf),
+  IHES 87 (1998), 5--51, section 1.1.5: torus semistability is the
+  state-convex-hull condition. For the one-dimensional preserving torus,
+  character variation gives interval walls on a chosen projective embedding.
+  This does not identify full intersection ideals or supported strata.
+- Michael Thaddeus, [*Geometric invariant theory and
+  flips*](https://arxiv.org/abs/alg-geom/9405004), JAMS 9 (1996), 691--723:
+  quotient variation and flip descriptions under the stated hypotheses.
+  No flip or smooth attracting-cell theorem is imported for our graph.
+
+### Casalaina-Martin--Jensen--Laza, 2014
+
+[*Log canonical models and variation of GIT for genus 4 canonical
+curves*](https://www.ms.uky.edu/~dhje223/Published_Papers/Genus4.pdf),
+JAG 23 (2014), 727--764.
+
+- Checked sections 1.1--1.4, Proposition 1.8 and section 6: a quadric--cubic
+  projective-bundle parameter space is compared with Hilbert models on a
+  common modification. Pullback polarizations are computed; nonample
+  numerical stability requires separate justification.
+- Transferable mechanism: compare the equation and full-intersection
+  polarizations on a graph or modification before identifying their weights.
+  Their SL4 stability classification concerns genus-four (2,3) intersections,
+  not sextic thickenings or pairs through a fixed C0. SL4 does not act on
+  the fixed-C0 equation spaces; a moving marked-curve incidence is a different
+  valid ambient problem.
+
+### Benoist, 2026, and the superseded 2012 preprint
+
+[*The resultant divisor is negative*](https://arxiv.org/html/2601.11474v1),
+arXiv:2601.11474, supersedes
+[*On the birational geometry of the parameter space for codimension 2
+complete intersections*](https://arxiv.org/abs/1212.4862).
+
+- Checked sections 1.1--1.3 and 4: quotient the higher equation by multiples
+  of the lower one, analyze common-factor strata, and compare with a
+  multigraded Hilbert compactification. The completed MMP is for polynomials
+  in two variables. Section 1.6 explicitly separates higher-dimensional
+  questions; it supplies no completed P3 wall classification here.
+- For fixed C0, the analogous unequal-degree fiber is
+  I_C0(b)/(F*S_(b-a)); all ambient multipliers occur. Equal-degree pairs use
+  a Grassmannian of pencils. These parameter-space applications are
+  reconstructed in the local framework; they are not fixed-C0 theorems
+  asserted by Benoist.
 
 ## Current status and general bounds
 

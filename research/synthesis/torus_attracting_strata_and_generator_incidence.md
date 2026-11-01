@@ -2,6 +2,15 @@
 
 **Status:** geometric research formulation, not a classification or STCI exclusion. This develops the [Hilbert-boundary framework](geometric_integration_and_hilbert_boundary.md) while retaining the option of independent geometric constructions.
 
+The [surface-pair VGIT and graph construction](vgit_surface_pairs_and_full_limits.md)
+adds a complete coarse weight partition on the pencil space and a comparison
+with full intersection limits. Its intrinsic primary-power lemma gives
+N=ab/4 for every actual sole-supported degree-(a,b) CI, in every characteristic;
+thus H_9 covers all actual supported sextic CIs and their full limits. This
+does not classify arbitrary supported Hilbert ideals or their attracting loci.
+The contribution remains unpromoted, with its proofs, certificate and review
+at that mathematical home.
+
 ## Invariant limits stratify moving ideals
 
 Fix the rational quartic C in projective three-space with ideal sheaf I, degrees (a,b), and the Hilbert polynomial P of a proper complete intersection of those degrees. For a fixed positive integer N, consider the closed supported Hilbert locus H_N of ideal sheaves J with I^N contained in J contained in I and Hilbert polynomial P. These inclusions force reduced support C. The torus with coordinate weights (0,1,3,4) preserves H_N.
@@ -24,7 +33,7 @@ The research question is to describe, for each geometrically meaningful directio
 
 For (6,6), the target polynomial is P(n)=36n-144, with degree 36, arithmetic genus 145, and generic length nine along C for a sole-supported proper intersection. The [sextic examples](toric_sextic_residuals_and_limits.md) give eigenform-pair residual bounds and controls on full limits; examples retaining residual boundary curves lie outside H_N even if their total Hilbert polynomial is P.
 
-A substantive next result would exhibit and verify a sole-supported invariant ideal J_0 of this polynomial, describe the attracting families in both directions, and decide the two-sextic incidence on that family. An exclusion on one direction-specific attracting set is not a global exclusion without coverage of all relevant invariant limits and bounds N. The comparison with the characteristic-two (4,4) example must retain its characteristic and lifting qualifications.
+A substantive next result would exhibit and verify a sole-supported invariant ideal J_0 of this polynomial, describe the attracting families in both directions, and decide the two-sextic incidence on that family. An exclusion on one direction-specific attracting set is not a global exclusion without coverage of all relevant invariant limits. For actual supported sextic CIs the linked primary-power lemma supplies N=9; classifying the relevant full limits and their moving incidence is still open. The comparison with the characteristic-two (4,4) example must retain its characteristic and lifting qualifications.
 
 ## Open geometric interfaces
 
@@ -84,8 +93,9 @@ normal and quotient geometry, and compute the generator incidence on
 the resulting nonempty intersections. The existing sextic residual
 examples are controls for the full-limit calculation but cannot be
 mistaken for points of H_N when residual curves survive. Exhaustive
-conclusions require a bound and coverage theorem; the pair refinement
-does not remove that obligation.
+conclusions require full-ideal and incidence coverage; the pair refinement
+does not supply it. The linked N=9 bound already supplies neighborhood
+coverage for actual supported sextic CIs.
 
 ## Comparison with the moving transverse quotient
 

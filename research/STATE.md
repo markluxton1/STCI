@@ -104,7 +104,7 @@ is a characteristic-free section-count result, with a separate punctured-cover
 application when two is invertible. It describes a restriction on how the
 multiple structure can sit over the reduced curve, not an STCI exclusion.
 
-The [full torus-limit argument](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope)
+The [full torus-limit argument](synthesis/global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit)
 preserves reduced support C0 and Hilbert polynomial through the containments
 \(I_{C_0}^N\subset I_Z\subset I_{C_0}\). In characteristic zero, an invariant
 homogeneous CI ideal would admit weight-homogeneous generators and is excluded
@@ -114,6 +114,15 @@ ideal, and the two separately limiting equations. They do not exclude a
 supported CI whose full invariant limit loses its CI structure. Classification
 of the relevant invariant limits and recovery of CI or ACM structure in
 deformations preserving support remain open.
+
+The proposed [surface-pair VGIT framework](synthesis/vgit_surface_pairs_and_full_limits.md)
+adds an intrinsic fixed-degree neighborhood lemma: an actual sole-supported
+degree-(a,b) CI is I_C0-primary and contains \(I_{C_0}^{ab/4}\), so H_9 covers
+every supported sextic CI and its full limits. It also gives the complete coarse
+extremal-Plucker-weight partition of Gr(2,I_C0(6)) and an exact Hilbert-weight
+correction on an existing residual example. These are unpromoted deductions;
+the graph's supported strata, refined walls and full limiting ideals remain
+unclassified. No supported CI or unrestricted exclusion is constructed.
 
 The provisional [constant-quotient descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
 recovers the saturated orbit-family image from the embedded algebra and tests
