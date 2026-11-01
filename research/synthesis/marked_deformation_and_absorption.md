@@ -14,6 +14,27 @@ the rational-curve extension, and the characteristic statements. Canonical
 inputs are cited at their exact uses. No computation is needed for these
 proofs.
 
+## Geometric orientation: incidence, specialization, and the marked curve
+
+The organizing object is the incidence space of complete intersections
+together with an embedded multiple structure on the fixed curve C.
+Residual absorption is specialization of cycles within a flat family:
+the total intersection degree stays fixed, while multiplicity along C
+increases and the residual cycle loses degree.
+
+Three geometric questions must be distinguished. Can a lower multiple
+structure move in a bounded neighborhood of C? Can an abstract family
+be embedded while C stays marked? Can actual global hypersurfaces of
+prescribed degrees contain that moving structure? These are different
+deformation problems, with different obstructions. In particular, the
+full primary component need not vary flatly during absorption; a
+persistent lower thickening is often the appropriate marked witness.
+
+The torus preserving C acts on these incidence spaces. Its fixed
+Hilbert limits can organize possible boundaries, but they need not
+remain complete intersections. Weight decompositions can refine
+deformation calculations without replacing the global equation test.
+
 ## 1. Three different deformation problems
 
 A proposal to absorb residual curves can involve three distinct objects:
@@ -73,7 +94,15 @@ In particular the non-lci example there has a **unit** torsion-free
 determinant and nevertheless real attachment of length two. A deformation
 must retain the full equation module; a determinant alone is insufficient.
 
-## 2. Actual absorption on a Cartier carrier
+## 2. Absorption as specialization in a linear system on a carrier
+
+The basic geometric operation is a pencil of Cartier divisors on a
+surface containing C. At a special parameter, its order along C
+increases, so the residual divisor acquires a multiple of C.
+The positivity hypotheses below make this a construction by actual
+homogeneous hypersurfaces, rather than only a formal specialization.
+
+
 
 The essential positive operation is interpolation between sections with
 different orders along one fixed divisor. The quartic is only needed to
@@ -224,7 +253,16 @@ not the positive class relation (9). For nonnormal carriers the correct
 replacement includes full-conductor descent, addressed in the
 [normalization and conductor chapter](normalization_conductor_projection.md).
 
-## 3. Characteristic and descent: finite repair is not an infinite lift
+## 3. Characteristic and Cartier descent through finite modifications
+
+On a singular carrier, reaching sole support requires the appropriate
+multiple of C to descend as a Cartier divisor. The conductor records
+a finite gluing problem on the modification; its principal-unit
+obstruction behaves differently in characteristic zero and positive
+characteristic. Solving a finite-level descent problem is not the same
+as producing one compatible solution at every level.
+
+
 
 Here is a local control for all orders, independent of the quartic.
 Let \(B=K[[z]]\), \(A_N=K+z^NB\), \(N\ge2\), and \(u=1+z\). Its
@@ -277,7 +315,17 @@ global divisor directions. Neither mechanism supplies a quartic carrier
 here. The [nodal pinching control](../supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md#nodal-pinching-can-destroy-the-marked-support-requirement)
 shows why local phase choices must also preserve the marked inverse support.
 
-## 4. Moving a lower thickening with actual homogeneous equations
+## 4. The marked Quot space and its equation incidence
+
+An embedded lower thickening is a point of a marked Quot space of a
+bounded infinitesimal neighborhood of C. Containing hypersurfaces
+are additional incidence data over that space. Deforming the
+thickening and lifting its defining global sections are therefore
+separate steps. The tangent and connecting maps below quantify
+this distinction; neither first-order compatibility nor abstract
+deformability automatically supplies a supported complete intersection.
+
+
 
 Let \(X=\mathbf P^3\), and let \(T\subset X\) be a pure CM thickening
 with support \(C\), ideal \(J\subset I=I_C\), and generic length \(m\).
@@ -423,7 +471,15 @@ first coordinate of (12) obstructs. This exact control refutes the
 inference that integrable thickening motion automatically carries the
 chosen-degree equations with it.
 
-## 5. Extending an abstract deformation with the embedded quartic fixed
+## 5. Embedding abstract deformations with the quartic marked
+
+An abstract ribbon family does not come with a deformation of its
+map into projective space. The geometric issue is extending the
+embedding while fixing its restriction to C. The obstruction
+calculation below concerns that marked map problem; it does not
+establish that the embedded family has two global equations.
+
+
 
 ### 5.1. A marked embedding criterion with algebraization
 
@@ -686,7 +742,7 @@ of degrees \((4,N)\), with \(N=p^e>5\), have the positive obstruction-space
 dimension \(19+4N(3N/2-4)\) and nevertheless exist. They are a direct
 control of why a nonzero space is not a nonzero obstruction class.
 
-## 7. Constructive reach and the missing iteration
+## 7. Partial absorption and the missing passage to sole support
 
 Two genuine positive operations survive: arbitrary finite order increases
 on specified normal carriers after sufficiently large twists, and
@@ -909,7 +965,7 @@ characteristic-zero hypotheses, with no blanket extension to characteristic
 \(p\) asserted.
 
 
-## 10. A full elementary-modification source with a global endpoint gap
+## 10. Elementary modifications and the projective endpoint-gluing gap
 
 The [quadric elementary modification](quadric_modification_and_global_corrections.md)
 constructs an actual rank-two bundle with \(c_1=10,c_2=28\), and its
