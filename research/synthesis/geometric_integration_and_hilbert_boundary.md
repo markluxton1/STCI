@@ -37,7 +37,7 @@ A proposed global obstruction must bridge the third and fourth spaces, not simpl
 
 ## Recommended next geometric experiment
 
-**Primary target: the supported Hilbert boundary for a fixed degree pair.** For a chosen \((a,b)\), first fix the complete-intersection Hilbert polynomial and a bounded neighborhood \(I^N\subset J\subset I\). For a fixed integer N, the bounded supported Hilbert locus defined by I^N ⊂ J ⊂ I and the prescribed Hilbert polynomial is closed in the Hilbert scheme (equivalently realized through the corresponding Quot construction). Because the torus preserves C and its ideal powers, this bounded locus is torus-stable, and full-ideal torus limits remain in it. The unrestricted exact-support locus need not be closed. For a supported complete intersection of degrees (a,b), the finite-length generic structure and its global scheme-theoretic support give some exponent N with I^N ⊂ J; uniformity across a chosen family must be established before applying this bounded argument. Study its torus-fixed points together with the deformation directions that could smooth a fixed ideal back to an actual two-generated CI while retaining support.
+**One useful local experiment: the supported Hilbert boundary for a fixed degree pair.** For a chosen \((a,b)\), first fix the complete-intersection Hilbert polynomial and a bounded neighborhood \(I^N\subset J\subset I\). For a fixed integer N, the bounded supported Hilbert locus defined by I^N ⊂ J ⊂ I and the prescribed Hilbert polynomial is closed in the Hilbert scheme (equivalently realized through the corresponding Quot construction). Because the torus preserves C and its ideal powers, this bounded locus is torus-stable, and full-ideal torus limits remain in it. The unrestricted exact-support locus need not be closed. For a supported complete intersection of degrees (a,b), the finite-length generic structure and its global scheme-theoretic support give some exponent N with I^N ⊂ J; uniformity across a chosen family must be established before applying this bounded argument. Prefer organizing the moving ideals by both opposite full-ideal limits and testing two-generation on their attracting intersections. Studying deformations of a selected fixed ideal remains a useful local method, not the default classification.
 
 A practical staged test is:
 
@@ -59,7 +59,7 @@ Three potential sources of future confusion merit ongoing checks:
 2. Quot, Hilbert and actual-source incidence should be related by explicitly constructed morphisms; no automatic equivalence or smoothness assertion should be inferred from the conceptual diagrams.
 3. A constant transverse quotient, a fixed root/jet model, and a global supported complete intersection occupy successively broader or different parameter spaces. Each exclusion must state exactly which space it covers.
 
-The most useful next deliverable is a **single degree-pair pilot study** with a bounded supported Hilbert locus and a full-ideal torus degeneration, rather than another unrestricted collection of eigenform examples.
+A bounded degree-pair study of full-ideal attracting strata and moving-ideal generators is one useful next mathematical test, not a required new research lane. The [attracting-strata synthesis](torus_attracting_strata_and_generator_incidence.md) states the two-direction refinement and its limitations.
 
 ## Updated organizing principle: strongly consider invariant-limit strata and two-generation
 
