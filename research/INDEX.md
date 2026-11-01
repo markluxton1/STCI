@@ -14,6 +14,10 @@ the [mechanism map](MAP.md); for exact current claims use the
 
 ## Choose by the mathematical question
 
+For the current cross-branch interpretation and bounded next-step recommendations,
+see [characteristic comparison and actual realization](synthesis/characteristic_comparison_and_realization.md).
+It distinguishes the inspected branch checkpoints from results integrated here.
+
 | Question or approach | Mathematical entry | Reach and missing step |
 | --- | --- | --- |
 | What would two global equations amount to? | [Global equations, Chow forms, complements and bundles](synthesis/global_equations_and_constructions.md) | Exact equivalents and constructions; an equivalent test still needs a pair or an obstruction covering every pair |

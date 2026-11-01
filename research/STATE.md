@@ -127,3 +127,6 @@ in the mathematical homes do not silently broaden older canonical records.
 The [frontier](FRONTIER.md) gives concrete missing implications; the
 [mechanism map](MAP.md) locates tools. Historical priorities and execution
 chronology are not part of mathematical status.
+The [characteristic-comparison assessment](synthesis/characteristic_comparison_and_realization.md)
+records how the inspected committed branches inform this lane and which
+tests are recommended next. It does not promote or merge their additional results.

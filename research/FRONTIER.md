@@ -25,6 +25,13 @@ help choose a bounded investigation. Exact established statements are in the
 
 ## Tests that distinguish a new implication from a repeated computation
 
+The [cross-branch assessment](synthesis/characteristic_comparison_and_realization.md#recommended-next-work)
+recommends first comparing the actual arithmetic lower-root defect with
+duality and linkage, seeking a condition beyond its existing genus identity.
+The alternative is the complete actual-sextic comparison on a specified
+part of the order-three parameterization. These are proposed bounded tests;
+the reviewed parity slice and prime-to-p powered-quartic exclusions stay closed.
+
 For a proper degree-\((a,b)\) pair containing \(C_0\),
 \([V(F,G)]=m[C_0]+R\) and \(ab=4m+\deg R\). The exact finite-length
 criterion tests an **actual** pair; a uniform theorem needs quantified source

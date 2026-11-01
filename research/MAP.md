@@ -49,3 +49,8 @@ and their premises. The [frontier](FRONTIER.md) owns the remaining questions.
 Do not silently turn a conceptual resemblance into a dependency—for example,
 no general theorem identifies an initial-module defect with a conductor defect,
 a node-gluing class, or a residual projective curve.
+
+The [cross-branch comparison](synthesis/characteristic_comparison_and_realization.md)
+applies this distinction to arithmetic root specialization, derived-duality
+endpoint defects and spectral torsion. Their common need for actual equations
+does not identify their underlying modules or transfer their hypotheses.

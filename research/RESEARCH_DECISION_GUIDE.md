@@ -37,6 +37,13 @@ can isolate the mechanism even without either global conclusion. For a
 special fiber from all possible presentations, and uniform ideal containment
 from topological support on infinitesimal reductions.
 
+The [cross-branch assessment](synthesis/characteristic_comparison_and_realization.md)
+recommends an actual lower-root specialization comparison before further
+arithmetic power searches, with an actual-source realization test as an
+alternative. A bridge between lanes must identify its objects and maps:
+Picard torsion, root-extension obstructions and endpoint conductor or
+specialization defects are not interchangeable invariants.
+
 For a claim, retrieve its exact statement and proof, then its necessary
 computation. Reuse review of unchanged inputs. Independently review material
 new deductions, changed proofs and consequential preservation decisions.
