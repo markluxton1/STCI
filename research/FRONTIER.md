@@ -179,17 +179,26 @@ homogeneous pencil. Proof and written-preservation reviews pass
 at provisional scope. Torus/GIT closure also fails to preserve the required
 presentation, and no further classification is selected.
 
-## User-requested closeout of this research stream
+## Cross-branch assessment and closeout of this research stream
 
 The [user-requested closeout, §38](notes/2026-10-31-unrestricted-strategy-assessment.md#38-closeout-exact-chow-bundle-types-and-exceptional-cover-limits)
 stops the subsequent Chow and exceptional-cover selection checks.
 Arbitrary Chow-power matrices already exist; the prescribed bundle
 types retain the two global equations. The elementary Hom clarification
-is preserved without a separate independent audit. Ramified
+and source-applicability findings now pass a separate independent audit.
+Ramified
 exceptional covers and singular ruling fibers do not themselves
-force residual curves. No next technical round was selected;
-this research stream is paused at the user's request. This does
-not change the separately tracked carrier investigation above.
+force residual curves.
+
+The [cross-branch follow-up](notes/2026-10-31-cross-branch-strategy-closeout.md)
+compares the committed spectral, actual-octic, arithmetic, elliptic
+and consolidation evidence. It recommends a bounded return to the
+existing five-parameter elliptic family's full inverse-support test,
+with a separately remaining descent condition. The competing toric
+projection source remains separately owned. A fresh independent
+challenge supports that limited recommendation and its stopping
+conditions; no new technical round has begun. The general goal
+remains paused while this requested assessment is committed.
 
 ## Preceding complement checkpoint: characteristic classes settled, realization open
 

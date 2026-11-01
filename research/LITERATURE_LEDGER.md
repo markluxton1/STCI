@@ -258,10 +258,13 @@ Exterior Syzygies,” arXiv:math/0111040 (2001).
   positive Chow power. These represent sheaves on reduced C0.
   They do not supply the exact symmetric-power bundle types in
   P-033. The [closeout assessment, §38](notes/2026-10-31-unrestricted-strategy-assessment.md#38-closeout-exact-chow-bundle-types-and-exceptional-cover-limits)
-  preserves an unaudited elementary Hom calculation: every map
+  preserves an independently reviewed elementary Hom calculation: every map
   of those exact types already comes from two global forms.
   There is no extra multiplication-block lifting condition once
   those types and the desired determinant have been achieved.
+  The follow-up audit at source commit 7530d05 independently
+  reconstructed this calculation and checked the cited primary
+  statements; it supplies no new existence or exclusion theorem.
 
 ## Conductor descent and codimension-two Gorenstein criteria
 

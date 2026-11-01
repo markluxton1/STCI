@@ -8,6 +8,7 @@ This page is a **directory**, not an independent source of mathematical claims.
 
 ## Start here
 
+- [Cross-branch assessment and closeout (October 31)](notes/2026-10-31-cross-branch-strategy-closeout.md) — fixed branch evidence, completed Chow-map audit, geometric gains and non-equivalent defects; independently challenged recommendation to test full inverse support in the existing elliptic family, with explicit stopping conditions and no new technical round
 - [Nonnormal-carrier closeout and cross-branch assessment](notes/2026-10-31-nonnormal-carrier-cross-branch-assessment.md) — reviewed scope comparison, one remaining toric-center support locus, and recommended continuation through the actual elliptic double-inverse family; no new campaign or canonical promotion
 
 - [Nonnormal carriers and actual power descent](notes/2026-10-31-nonnormal-carrier-descent.md) — reviewed local/projective constructions and [all-mate exclusion of nonnormal quintics with Gorenstein normalization](notes/2026-10-31-quintic-gorenstein-normalization-exclusion.md), including every conductor scheme; the [all-degree differential bound](notes/2026-10-31-carrier-conductor-differential-bound.md) requires singular normalization or conductor contacts on any generically regular carrier of degree at least five; [componentwise root defects and positive controls](notes/2026-10-31-componentwise-conductor-root-defect.md)

@@ -3725,8 +3725,9 @@ existence does not construct a map of these prescribed types.
 Thus this clarification sharpens the missing input but remains
 an equivalent formulation, with no new STCI construction or
 exclusion. The Hom argument was checked by the lead and the
-selection worker; it has **not received a separate independent
-proof audit** and is preserved as an unpromoted proposal.
+selection worker. At the initial credit-limited closeout it had
+not received a separate independent proof audit. The follow-up
+audit below now closes that gap; it remains unpromoted.
 
 **Normalized exceptional covers.** The already reviewed
 [line-supported pencil example](2026-10-30-four-streams-pencil.md)
@@ -3766,8 +3767,48 @@ The Chow selection used a fresh gpt-6.1-sol/high context; the
 exceptional-cover selection used a fresh gpt-6-astra/xhigh context.
 Both bounded assignments are complete and their contexts retired.
 No nested delegation, new computation, or classification was run.
-The user's closeout instruction ends research before a fresh
+The initial closeout instruction ended research before a fresh
 independent strategy challenge or proof audit of this section.
-Its selection findings and proposed Hom lemma therefore retain
-that explicit review limitation; earlier reviewed results,
+That historical limitation is superseded only to the extent of
+the follow-up review recorded next. Earlier reviewed results,
 including the §37 correction, keep their recorded review status.
+
+### Follow-up independent review after usage reset
+
+Reviewer /root/closeout_chow_independent_review, in a fresh
+gpt-6.1-sol/high context, independently reconstructed the
+mathematical and source claims of §38 at commit 7530d05.
+The bounded audit **passes with no material correction**.
+It checked the split tautological sequence on each point-fiber,
+the vanishing from every positive summand, global factorization,
+descent by q_*O=O and recovery by evaluation on each line.
+This proves (38.1) in the full stated characteristic and
+dimension range and its exact P-033 consequence.
+
+The reviewer separately checked the primary Ulrich statements:
+their matrices have bundles O_G(-1)^(4m) -> O_G^(4m), unlike
+the prescribed P-033 types. It also checked the everywhere
+potential-good-reduction and simultaneous-conjugacy hypotheses
+of the dynamical sources, and the inherited line-supported
+exceptional-cover counterexample. A smooth ruled model alone
+would still not supply the requisite dynamical morphism and
+reduction data. These source-applicability conclusions pass.
+No inherited computation was rerun, no new direction was
+launched, and no canonical result was promoted.
+
+## 39. Cross-branch closeout after usage reset
+
+The [cross-branch assessment](2026-10-31-cross-branch-strategy-closeout.md)
+compares fixed committed states of the consolidation, containing-
+intersections, spectral, octic-root and arithmetic branches.
+It closes §38's independent-review gap and distinguishes the
+new positive root families, actual proper octic intersections,
+and supported-lifting defects from unrestricted conclusions.
+
+The recommendation is a bounded return to the existing elliptic
+family's full inverse-support question, retaining its separate
+power-descent gap and the competing toric projection source.
+A fresh independent challenge supports that limited allocation;
+it does not establish that this source is best or exhaustive.
+The report states positive, negative and unfinished stopping
+conditions. No new technical round has begun.

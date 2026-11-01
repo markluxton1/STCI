@@ -6,6 +6,13 @@ This is a **conceptual navigation map**, not a new proof, a chronological record
 
 **Current research framing:** the [unrestricted strategy assessment](notes/2026-10-31-unrestricted-strategy-assessment.md) evaluates what the [geometric research integration](notes/2026-10-30-four-streams-integration.md) has added before another research round. Each result should yield geometric understanding, useful generalizations and an assessment of both existence and nonexistence. The earlier [research game](STCI_GAME.md) and [equation search](STCI_SEARCH.md) retain actual source spaces, exact tests and useful failures. These guide research selection, not theorem authority or the open status below.
 
+The [cross-branch closeout](notes/2026-10-31-cross-branch-strategy-closeout.md)
+connects actual source lifting, root families, proper residual intersections
+and arithmetic specialization at fixed committed states. It distinguishes
+their proved shared lifting operation from unproved identifications of
+defect modules, and records a challenged construction recommendation.
+It does not promote branch results or begin another technical round.
+
 Its subsequent [canonical-extension proposal](notes/2026-10-31-elliptic-canonical-extension.md)
 reconstructs a smooth or cone quadric from the marked elliptic/rational
 nodal union, with explicit polarization, residue and contact conditions
