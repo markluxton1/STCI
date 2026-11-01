@@ -538,6 +538,49 @@ identifying these root classes with the filtered-Čech differentials, or with
 either Koszul spectral sequence, has been established. The finite-source
 calculation instead supplies a rigorously separate compatibility filter.
 
+## Intrinsic Künneth and torus-weight decomposition of the sextic and octic deficits
+
+*(Authored by Gemini on `evaluate_toric_integration_stci`; independently reviewed by Gemini subagent and verified in [`verify_toric_jet_deficits_and_unequal_vgit.py`](../computations/verify_toric_jet_deficits_and_unequal_vgit.py).)*
+
+The \(11\)-dimensional sextic quadratic-symbol deficit \(\operatorname{coker}(\sigma_{6,2})\) and the \(26\)-dimensional octic cubic-symbol deficit admit an intrinsic, characteristic-free geometric proof via the quadric conormal flag \(C_0 \subset Q = V(q) \subset \mathbf P^3\) and decompose into multiplicity-free (or multiplicity-\(\le 2\)) weight blocks under the curve's preserving \(\mathbf G_m\)-action \(T\) (centered weights \((-2,-1,1,2)\)).
+
+### 1. Intrinsic Künneth splitting \(\operatorname{coker}(\sigma_{6,2}) \cong H^1(Q, \mathcal O_Q(2,-2)) \oplus H^1(Q, \mathcal O_Q(3,-3))\)
+
+Let \(L = (\mathcal I_Q/\mathcal I_Q^2)|_{C_0} \cong \mathcal O_{\mathbf P^1}(-8)\) (trivialized in degree \(2\) by \(\ell = \sigma_{2,1}(q)\) of centered weight \(0\)) and \(M_Q = \mathcal I_{C_0/Q}/\mathcal I_{C_0/Q}^2 \cong \mathcal O_Q(-1,-3)|_{C_0} \cong \mathcal O_{\mathbf P^1}(-6)\). Since \(H^1(C_0, E(4)) = 0\) and \(H^1(\mathbf P^3, \mathcal I_{C_0}(4)) = 0\) in every characteristic, the actual equation filtration \(0 \to V_4 \xrightarrow{\cdot q} V_{6,2} \to H^0(Q, \mathcal O_Q(4,0)) \to 0\) (after quotienting out \(\ker \sigma_{4,1} = V_{4,2} = k\cdot q^2\) and \(\ker \sigma_{6,2} = V_{6,3} = k\cdot q^3\)) maps injectively into the symbol filtration:
+\[
+\begin{array}{ccccccccc}
+0 & \longrightarrow & V_4 / (k \cdot q^2) & \xrightarrow{\;\cdot q\;} & V_{6,2} / (k \cdot q^3) & \longrightarrow & H^0\bigl(Q, \mathcal O_Q(4, 0)\bigr) & \longrightarrow & 0 \\
+& & \downarrow \sigma_{4,1} \;(17\hookrightarrow 20) & & \downarrow \sigma_{6,2} \;(22\hookrightarrow 33) & & \downarrow \mathrm{res}_{C_0} \;(5\hookrightarrow 13) & & \\
+0 & \longrightarrow & H^0(C_0, E(4)) & \xrightarrow{\;\cdot \ell\;} & H^0(C_0, \operatorname{Sym}^2 E(6)) & \longrightarrow & H^0(C_0, M_Q^{\otimes 2}(6)) & \longrightarrow & 0
+\end{array}
+\tag{16}
+\]
+By the snake lemma:
+- From \(0 \to \mathcal I_{C_0}^2(4) \to \mathcal I_{C_0}(4) \to E(4) \to 0\) and \(0 \to \mathcal I_{C_0}(2) \xrightarrow{\cdot q} \mathcal I_{C_0}^2(4) \to \mathcal O_Q(2,-2) \to 0\), we have \(\operatorname{coker}(\sigma_{4,1}) \cong H^1(\mathbf P^3, \mathcal I_{C_0}^2(4)) \cong H^1(Q, \mathcal O_Q(2,-2))\), which by Künneth has dimension \(3 \cdot 1 = 3\) and centered \(T\)-weights **\(\{-3, 0, +3\}\)** (multiplicity \(1\) each).
+- From \(0 \to \mathcal O_Q(3,-3) \to \mathcal O_Q(4,0) \xrightarrow{\mathrm{res}_{C_0}} M_Q^{\otimes 2}(6) \cong \mathcal O_{\mathbf P^1}(12) \to 0\) on \(Q\), we have \(\operatorname{coker}(\mathrm{res}_{C_0}) \cong H^1(Q, \mathcal O_Q(3,-3))\), which by Künneth has dimension \(4 \cdot 2 = 8\) and centered \(T\)-weights **\(\{-5, -4, -2, -1, +1, +2, +4, +5\}\)** (the \(8\) non-multiples of \(3\) in \([-6, 6]\), multiplicity \(1\) each).
+
+Because the centered weight supports \(\{-3, 0, +3\}\) and \(\{-5, -4, -2, -1, +1, +2, +4, +5\}\) are disjoint, the snake-lemma exact sequence splits canonically as a \(T\)-module in every characteristic:
+\[
+  \operatorname{coker}(\sigma_{6,2}) \cong H^1\bigl(Q, \mathcal O_Q(2, -2)\bigr) \oplus H^1\bigl(Q, \mathcal O_Q(3, -3)\bigr) \cong \bigoplus_{w=-5}^{5} k_{[w]}. \tag{17}
+\]
+Thus the \(11\) missing sextic quadratic-symbol equations are **multiplicity-free under \(T\)**, with exact dimension \(1\) in each of the \(11\) centered weights \(w \in [-5, 5]\):
+- \(H^0(C_0, \operatorname{Sym}^2 E(6))\) (\(\dim = 33\)) is supported on \(w \in [-6, 6]\) with profile \((1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1)\),
+- \(\operatorname{im}(\sigma_{6,2}) \cong V_{6,2}/(k\cdot q^3)\) (\(\dim = 22\)) is supported on \(w \in [-6, 6]\) with profile \((1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1)\).
+
+Similarly, in the octic cubic-symbol sequence (15), the \(15\)-dimensional quotient \(H^0(C_0, M_Q^{\otimes 3}(8)) = H^0(C_0, \mathcal O_{\mathbf P^1}(14))\) is multiplicity-free on centered weights \(w \in [-7, 7]\). Combining this with (17) shows that the \(26\)-dimensional octic cubic-symbol deficit \(H^0(\operatorname{Sym}^3 E(8)) / (\ell \cdot \operatorname{im}\sigma_{6,2})\) is supported on centered weights \(w \in [-7, 7]\) with profile \((1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1)\) (\(\dim = 2\) for \(|w| \le 5\) and \(\dim = 1\) for \(|w| \in \{6, 7\}\)).
+
+### 2. Unequal-degree and octic VGIT parameter spaces for \((5, 8)\), \((6, 16)\), and \((8, 8)\)
+
+Combining the [surface-pair VGIT framework](vgit_surface_pairs_and_full_limits.md) with the intrinsic primary-power containment \(I_{C_0}^{ab/4} \subset J \subset I_{C_0}\) gives exact parameter-space dimensions, fiber ranks, and \(T\)-weight ranges for the remaining unequal-degree and octic frontier rows:
+
+| Degree pair \((a, b)\) | Intrinsic Hilbert locus \(H_{ab/4}\) | Surface-pair parameter space | Base / fiber dimensions | Centered \(T\)-weight / Plücker range |
+| :---: | :---: | :--- | :--- | :--- |
+| \((5, 8)\) | \(H_{10}\) (\(m = 10\)) | Projective bundle \(\mathbf P(E) \to \mathbf P(V_5)\), fiber \(\mathbf P(V_8 / F_5 S_3)\) | \(\dim V_5 = 35\), \(\operatorname{rk} E = 132 - 20 = 112\), \(\dim \mathbf P(E) = 145\) | Base \(V_5\): \([-7, 7]\); \(V_8\): \([-13, 13]\) |
+| \((6, 16)\) | \(H_{24}\) (\(m = 24\)) | Projective bundle \(\mathbf P(E) \to \mathbf P(V_6)\), fiber \(\mathbf P(V_{16} / F_6 S_{10})\) | \(\dim V_6 = 59\), \(\operatorname{rk} E = 904 - 286 = 618\), \(\dim \mathbf P(E) = 675\) | Base \(V_6\): \([-9, 9]\); \(V_{16}\): \([-29, 29]\) |
+| \((8, 8)\) | \(H_{16}\) (\(m = 16\)) | Equal-degree \(X_8 = \operatorname{Gr}(2, V_8)\) and double-octic \(X_{8,2} = \operatorname{Gr}(2, V_{8,2})\) | \(\dim V_8 = 132\) (\(\dim X_8 = 260\)); \(\dim V_{8,2} = 80\) (\(\dim X_{8,2} = 156\)) | \(X_8\): \(51\) Plücker weights \([-25, 25]\); \(X_{8,2}\): \(39\) Plücker weights \([-19, 19]\) |
+
+Over any \(T\)-eigenform \(F_a \in V_a[w_a]\), the quotient fiber \(E_{[F_a]} = V_b / (F_a S_{b-a})\) is \(T\)-graded with \(\dim E_{[F_a]}[w] = \dim V_b[w] - \dim S_{b-a}[w - w_a] \ge 0\).
+
 ## Evidence and computation boundary
 
 The frozen source's `global_jet_bound_review` independently reconstructed the
