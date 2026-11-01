@@ -525,7 +525,10 @@ adds a root-algebra/contact-budget checkpoint without changing those
 dependencies or resolving this degree pair.
 
 This note and audit, and the subsequent ADE continuation and its audit,
-are local uncommitted evidence with one short INDEX entry. No checkout,
-merge, cherry-pick, or canonical promotion was performed.
-Integration into the later research branch must preserve its newer navigation
-and append this scoped result; the older INDEX file must not replace it.
+were initially saved as local uncommitted evidence. All four were subsequently
+preserved byte-for-byte in commit `fd9e628` on the characteristic-zero research
+branch. The [lane closeout](2026-10-31-quintic-octic-closeout-and-interfaces.md)
+records their committed preservation, the broader carrier boundary and the
+separate cleanup integration state. No canonical promotion is asserted.
+Integration must preserve the receiving branch's newer navigation; the older
+INDEX file must not replace it.
