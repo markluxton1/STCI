@@ -37,7 +37,7 @@ A proposed global obstruction must bridge the third and fourth spaces, not simpl
 
 ## Recommended next geometric experiment
 
-**Primary target: the supported Hilbert boundary for a fixed degree pair.** For a chosen \((a,b)\), first fix the complete-intersection Hilbert polynomial and a bounded neighborhood \(I^N\subset J\subset I\). The supported Hilbert locus is closed under full torus limits. Study its torus-fixed points together with the deformation directions that could smooth a fixed ideal back to an actual two-generated CI while retaining support.
+**Primary target: the supported Hilbert boundary for a fixed degree pair.** For a chosen \((a,b)\), first fix the complete-intersection Hilbert polynomial and a bounded neighborhood \(I^N\subset J\subset I\). For a fixed integer N, the bounded supported Hilbert locus defined by I^N ⊂ J ⊂ I and the prescribed Hilbert polynomial is closed in the Hilbert scheme (equivalently realized through the corresponding Quot construction). Because the torus preserves C and its ideal powers, this bounded locus is torus-stable, and full-ideal torus limits remain in it. The unrestricted exact-support locus need not be closed. For a supported complete intersection of degrees (a,b), the finite-length generic structure and its global scheme-theoretic support give some exponent N with I^N ⊂ J; uniformity across a chosen family must be established before applying this bounded argument. Study its torus-fixed points together with the deformation directions that could smooth a fixed ideal back to an actual two-generated CI while retaining support.
 
 A practical staged test is:
 
@@ -47,7 +47,7 @@ A practical staged test is:
 4. For a conditional sextic source lane, use the proven rank-stratum incidence and all pivot opens as an exact finite subproblem, without identifying that lane with arbitrary sextic pairs.
 5. Track genus/Hilbert polynomial and the full equation module throughout; do not replace the flat limit by its pure hull or discard embedded endpoint structure.
 
-**Secondary target:** on the blowup of \(C\), interpret the full normal initial ideal as a subscheme of the normal cone and compare its deformation theory with the marked Quot incidence. The exceptional ruled surface records leading contact but not the full higher-order relations. An explicit comparison map, including its kernel and cokernel, would be a meaningful bridge between the normal-filtration and Hilbert-boundary programs.
+**Secondary target:** on the blowup of \(C\), interpret the full I-adic associated graded quotient gr_I(O/J) = gr_I(O)/in_I(J) as a subscheme of the normal cone and compare its deformation theory with the marked Quot incidence. Its projectivization on the exceptional ruled surface records projective normal directions, but can discard zero-section-supported information and does not retain all higher-order relations. An explicit comparison map, including its kernel and cokernel, would be a meaningful bridge between the normal-filtration and Hilbert-boundary programs.
 
 ## Editorial findings and remaining checks
 
