@@ -796,17 +796,83 @@ have been established.
 
 ## Flat limits, generator conditions and affine source scope
 
-The weighted torus preserving \(C_0\) acts by
-\((x_0,x_1,x_2,x_3)\mapsto(x_0,tx_1,t^3x_2,t^4x_3)\).
+### Invariant support and the full torus limit
+
+Fix \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\) over an
+algebraically closed field of characteristic zero, and put \(P=I_{C_0}\).
+The torus \(T=\mathbf G_m\) acts by
+\((x_0,x_1,x_2,x_3)\mapsto(x_0,tx_1,t^3x_2,t^4x_3)\); its dense orbit
+on \(C_0\) is the curve's subtorus in the projective dense torus.
+Every hypothetical sole-support pair therefore has a \(T\)-invariant
+radical. This does not make its thickening ideal \(J=(F,G)\) invariant.
+If that homogeneous CI ideal were invariant, its minimal generators could
+be chosen as weight eigenforms, as proved in the
+[constant-family argument](tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
+The [weight theorem](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md#the-bound-and-its-exact-large-prime-minimum)
+excludes even one weight-homogeneous carrier with an arbitrary mate in
+characteristic zero. Thus invariant reduced support is automatic, whereas
+an invariant supported CI ideal is excluded. This distinction leaves a
+useful degeneration question rather than a reduction to invariant pairs.
+
 For a supported scheme \(Y\), choose \(N\) with
-\(I_{C_0}^N\subset I_Y\subset I_{C_0}\). Both containments hold for every
-torus translate. Properness of the projective Hilbert scheme gives its
-flat limits; the closed incidence conditions
-\(C_0\subset Y_t\subset V(I_{C_0}^N)\) persist there. Thus the limits
-retain support and Hilbert polynomial. The
+\(P^N\subset I_Y\subset P\). Both containments hold for every torus
+translate. Properness of the projective Hilbert scheme gives its full flat
+limits, which are \(T\)-fixed; the closed incidence conditions
+\(C_0\subset Y_t\subset V(P^N)\) persist there. Thus the full limits
+retain support and Hilbert polynomial. They can acquire embedded structure
+on \(C_0\); do not replace them by their pure hulls or reduced schemes
+when asking about deformation back to the original CI.
+
+The full limit ideal is different from the ideal of the two extreme forms
+of \(F,G\). The
+[extreme-component theorem](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md#extreme-components-of-arbitrary-presentations)
+forces those displayed pairs to have common surface factors in this
+characteristic-zero setting. Additional initial generators from all
+relations retain the full ideal's support and Hilbert data. The
+[degeneration boundary](../supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#why-degeneration-does-not-cover-every-pair)
+therefore concerns loss of two generators, not a necessary loss of support
+by the full Hilbert limit. Neither Cohen--Macaulayness nor AG structure is
+assumed at the fixed boundary.
+
+The
 [full torus-modification account](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
-retains additional endpoint and presentation data. AG structure and a
-two-equation presentation still require separate control at a flat limit.
+retains additional endpoint algebras, their finite defects and presentation
+data. Its positive-movement and global-presentation barriers remain useful
+controls: local equations or an abstract transverse algebra do not supply
+the required homogeneous equations after contraction. They do not exclude
+all support-preserving deformations of a fixed boundary ideal.
+
+### Proposed test: supported deformations of an invariant boundary ideal
+
+**Proposed research direction; not a solved deformation problem.** Fix
+degrees \((a,b)\), the CI Hilbert polynomial they determine, and an integer
+\(N\). Work in the closed Hilbert incidence
+\(C_0\subset Y\subset V(P^N)\) with that polynomial. Starting from an
+actual \(T\)-fixed ideal in this incidence, ask whether a flat deformation
+inside the incidence reaches a homogeneous AG, equivalently codimension-two
+CI, ideal. The [primary/Gorenstein criterion](../supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md#2-p-035-the-homogeneous-primarygorenstein-criterion-survives-audit)
+states the precise homogeneous condition; if the prescribed degrees matter,
+the actual minimal generators must also have degrees \((a,b)\).
+
+This is a bounded interface with two different possible aims. Realizing the
+boundary ideal as the full initial ideal, or torus-orbit limit, of a supported
+CI is stronger than finding an arbitrary supported flat deformation to a
+CI. The latter is already constructively useful: its general fiber would
+give actual equations without a prescribed orbit history. Neither aim is
+settled by the existence of invariant supported schemes. No finiteness of
+the fixed locus, classification of its ideals, or smoothing theorem is
+assumed. A fixed \(N\) covers only the declared incidence; a claim about
+all pairs needs a justified power bound or an explicit coverage argument.
+
+A useful first task needs an actual boundary ideal with its complete
+generators and embedded structure, then actual deformation maps preserving
+the containments and Hilbert polynomial. Tangent weights can suggest
+directions but do not integrate them, preserve support to all orders, or
+prove entry into the CI locus. Stop at an exact supported CI deformation,
+a covered exclusion of a specified boundary family, or an identified
+missing deformation or generator condition. A calculation at one fixed
+ideal does not exclude other fixed ideals or components.
+
 [Bertone–Cioffi–Orth–Seiler, Corollaries 5.5 and 6.18](https://www.mathematik.uni-kassel.de/~seiler/Papers/PDF/Loci.pdf)
 give open AG and strict-CI loci and constructive recognition algorithms.
 Openness does not preserve these conditions at a flat boundary. Applying
@@ -845,9 +911,17 @@ classical affine-space theorem and the actual affine quartic equations
 retain their separate scopes. No new counterexample to projective STCI
 over an algebraically closed field follows.
 
-The finite-map, flat-boundary and affine-source additions retain their
-recorded scoped source reviews. Independent mathematical and preservation
-review accepted this consolidation transfer within its stated scopes; no canonical result is promoted.
+The pre-existing finite-map, flat-boundary and affine-source statements
+retain their recorded scoped source reviews and consolidation review.
+The supported-deformation formulation above is a proposed investigation,
+not a new theorem or a completed boundary calculation; no canonical result
+is promoted.
+Independent scope review on October 31, 2026 accepted this expanded exposition
+and its linked strategy/navigation changes against the existing proof owners.
+It checked support versus ideal invariance, full limits versus extreme forms,
+retained embedded data, fixed-family coverage and the unresolved deformation
+and generator conditions. No material finding remained; no new mathematical
+computation or deformation-existence claim was part of that review.
 
 ## Primary complement obstructions and actual sections
 

@@ -104,6 +104,18 @@ is a characteristic-free section-count result, with a separate punctured-cover
 application when two is invertible. It describes a restriction on how the
 multiple structure can sit over the reduced curve, not an STCI exclusion.
 
+The [full torus-limit argument](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope)
+preserves reduced support C0 and Hilbert polynomial through the containments
+\(I_{C_0}^N\subset I_Z\subset I_{C_0}\). In characteristic zero, an invariant
+homogeneous CI ideal would admit weight-homogeneous generators and is excluded
+by the [weight theorem](supplements/EQUIVARIANT_DEGREE_BOUNDS.md). These reviewed
+provisional facts distinguish invariant reduced support, an invariant full
+ideal, and the two separately limiting equations. They do not exclude a
+supported CI whose full invariant limit loses its CI structure. Classification
+of the relevant invariant limits and recovery of CI or ACM structure in
+deformations preserving support remain open; no such deformation is supplied
+by this strategy assessment.
+
 The [spectral power theorem](synthesis/spectral_pushforward_powers.md) now
 contains the general genus-one pushforward lemma and all-power smooth (2,2)
 coefficient maps. Its [determinant scheme](synthesis/spectral_determinant_schemes.md)

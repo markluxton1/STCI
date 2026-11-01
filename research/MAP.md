@@ -22,6 +22,7 @@ failure can identify a feature to change without deciding other sources.
 | Numerical versus ideal pullback | [Numerical surface pullback](synthesis/numerical_surface_pullback.md), [ruled-surface degree criterion](synthesis/ruled_surface_degree_criterion.md), [normal-carrier Hodge criterion](supplements/NORMAL_CARRIER_DIVISOR_GEOMETRY.md) | The effective difference measures exceptional ideal vanishing; the normal hypersurface equality criterion has its own Q-Cartier and characteristic hypotheses; Cartier index alone does not bound the correction |
 | Degree exhaustion and residual attachment | [Residual geometry](synthesis/residual_intersections_and_jets.md), [finite normal jets](synthesis/finite_normal_jets.md) | Properness and generic length turn a local bound into a projective residual degree; vertical exceptional support alone is insufficient |
 | Deformation and realization | [Marked absorption](synthesis/marked_deformation_and_absorption.md) | Lifting a quotient, a marked embedding and actual equation coefficients are distinct tasks; partial residual transfer need not iterate |
+| Torus limits and deformations preserving support | [Full flat limits](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope), [weight theorem](supplements/EQUIVARIANT_DEGREE_BOUNDS.md), [full tropical modification](synthesis/tropical_thickenings_and_endpoint_duality.md) | The invariant radical and full limit preserve C0; an invariant CI ideal is excluded in characteristic zero. Extra initial generators and possible embedded points belong to the boundary object. Recovery of CI or ACM structure is an open deformation question |
 | Duality and global presentation | [Contact and descent](synthesis/contact_duality_and_global_descent.md), [endpoint algebras](synthesis/fixed_surface_and_endpoint_algebras.md), [exact Chow bundle maps](synthesis/chow_bundle_maps.md) | Full algebras retain data absent from reduced support or traces; the prescribed Chow bundle types already encode global equations, while arbitrary determinantal types do not |
 | Frobenius versus characteristic-zero rigidity | [Positive-characteristic equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [arithmetic gaps](supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md) | Frobenius can remove nilpotent descent obstructions; flat arithmetic deformation does not preserve sole reduced support |
 | Integral embedded obstruction classes | [Arithmetic lifting and defect twists](supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md), [power extraction](supplements/PRIME_TO_P_POWER_EXTRACTION.md), [Frobenius precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md) | Prescribed embedded lifting, actual supported traits and finite Witt precision have different hypotheses; none excludes unrelated characteristic-zero presentations |
@@ -99,6 +100,14 @@ torsion, carrier Weil-class torsion and the
 are different objects; no general comparison map identifies them.
 
 ## Proved arrows and proposed bridges
+
+Torus symmetry can organize the (6,6) or downstairs ACM investigation through
+invariant boundary ideals and deformations preserving support. It supplies no
+finite classification of those ideals or theorem recovering their generators.
+The [selection guide](RESEARCH_DECISION_GUIDE.md#torus-symmetry-as-an-organizing-method)
+compares this proposed method with the direct actual-equation sources. Varying
+the projection-center orbit is a different question: it changes the embedded
+reduced curve, whereas these torus limits keep C0 fixed.
 
 The [short dependency map](synthesis/DEPENDENCIES.md) identifies proved arrows
 and their premises. The [frontier](FRONTIER.md) owns the remaining questions.

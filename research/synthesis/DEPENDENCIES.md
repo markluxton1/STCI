@@ -14,6 +14,7 @@ The [mechanism map](../MAP.md) handles conceptual connections and the
 | Actual normalized section + full conductor compatibility → descended section | Specified carrier and full inverse support, including nilpotent conductor data | [Fixed-carrier criterion](../results/fixed_carrier_conductor_criterion.md); no universal carrier classification |
 | Saturated actual first relation + full generic binary CI → normal flatness and arithmetic restrictions | Exact orders and generation assumptions | [Filtrations](normal_filtration_boundary_obstructions.md); other initial patterns remain outside |
 | Proper actual pair + generic length → exact residual degree | Complete-intersection purity and degree | [Two surfaces](02-two-surfaces.md), [finite jets](finite_normal_jets.md); an exceptional vertical component is not a residual curve |
+| Torus translates of a supported thickening → invariant full flat limits with the same support and Hilbert polynomial | Fixed C0, full Hilbert limit, closed incidence between C0 and a fixed power neighborhood | [Flat-limit argument](global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope); CI/AG structure need not survive, and limiting two forms is not the full ideal |
 | Frobenius-compatible exponents → actual quartic-carrier STCI | Fixed monomial curve, positive characteristic | [Construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md); does not supply characteristic-zero equations |
 | Exact prescribed Chow bundle map → unique ambient pair | Algebraically closed field, any characteristic; dim V≥3 and nonnegative symmetric powers | [Full Hom identity](chow_bundle_maps.md); existence with the required determinant remains to be proved |
 | Picard torsion → spectral determinant vanishing and a graded CI family | Full smooth-root, parameter-line and characteristic hypotheses | [Determinant schemes](spectral_determinant_schemes.md); the actual homogeneous source operator is an additional condition |
@@ -33,6 +34,10 @@ The [mechanism map](../MAP.md) handles conceptual connections and the
   presentation of the chosen projective thickening.
 - Partial residual absorption does not give an iteration preserving all the
   hypotheses of the next step.
+- An invariant supported ideal with the right Hilbert polynomial need not
+  deform to a CI while preserving support. Torus weight decompositions of
+  tangent spaces do not establish integration or recovery of two generators;
+  a chosen boundary family also needs coverage before supporting an exclusion.
 - A computation on one carrier or a finite source chart does not quantify over
   every higher-degree pair.
 

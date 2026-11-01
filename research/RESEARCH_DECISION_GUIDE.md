@@ -99,24 +99,64 @@ defect in prescribed supported lifts; no theorem yet identifies it with a
 spectral Picard class, a carrier Weil class or the surface-normalization
 conductor. A new comparison must construct its map and preserve its hypotheses.
 
+## Torus symmetry as an organizing method
+
+The [full flat-limit account](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope)
+separates three facts: every supported pair has invariant reduced support;
+its full torus limits retain that support and Hilbert polynomial; an invariant
+CI ideal is itself excluded in characteristic zero. The useful proposed
+direction is therefore to study invariant boundary ideals together with
+deformations preserving support that can recover CI or ACM structure. The
+general member must be allowed to break symmetry. Limiting two individual
+forms discards relations and can leave a common surface factor.
+
+This can organize either a fixed-degree CI question such as (6,6), or the
+independent downstairs ACM objective. Its value is a structured boundary and
+weight decomposition; no finite fixed-locus classification, tractable
+deformation space or recovery theorem is currently supplied. Before assigning
+a substantial calculation, select an actual invariant ideal, check its target
+Hilbert polynomial and support incidence, and identify the full deformation
+and generator conditions. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
+are actual non-ACM controls, not demonstrated limits of the desired CI type.
+Their failure to be ACM does not alone exclude an ACM general fiber.
+Retain embedded points if present; a pure hull changes the boundary object.
+
+A successful supported deformation constructs a new ideal even if it is not
+an inverse of a torus-orbit degeneration. An obstruction at one chosen boundary
+ideal excludes only the declared deformation family. A negative reduction of
+all degree-(a,b) pairs needs coverage of their possible invariant limits and
+their deformations; a fixed power neighborhood must also have that coverage.
+Thus this is a proposed organizing method, not a replacement for already
+available actual equation spaces or a completed reduction to invariant CIs.
+
 ## Recommended allocation and stopping outcomes
 
-For the next carrier pass, prefer the remaining **toric M incidence**, with
-an explicit resource bound and the exact support criterion. It is a narrow
-remaining locus of a constructed source. The five-parameter elliptic family's
-fiberwise inverse-support test is a valuable independent alternative. The
-[frontier](FRONTIER.md#recommended-next-bounded-tests) gives the retained opens,
-limitations and stopping outcomes. This ranking is a judgment about bounded
-progress, not a theorem that one source is best; either negative result would
-still leave other carrier classes open.
+For complementary bounded work, prefer **octic multiplier geometry** for
+positive containing intersections and **higher contact in the three ADE
+(6,6) triple orbits** for a covered degree sector. This is a strategy judgment,
+not an assignment, an assertion of computational ease or a prediction about
+unrestricted STCI. The torus method can sharpen either the (6,6) or ACM target
+once a useful boundary ideal and deformation representation are specified.
+The [frontier](FRONTIER.md#recommended-next-bounded-tests) gives exact tests and
+stopping outcomes.
 
-For the equation-source lane, pursue the **full-parameter actual sextic
-incidence** using the small intrinsic map, with a proved parameter cover or
-component question before more slicing. If the objective is constructive
-geometry of intersections containing C0, instead use **actual octic
-constructions** from known first-compatible roots, retaining the common-zero
-and joint-generation tests and measuring the resulting residual cycles.
-Neither aim should be judged solely by whether it immediately decides STCI.
+| Objective | Best available entry and next information | Scope or readiness limit |
+| --- | --- | --- |
+| Construct containing intersections | Exact octic multiplier kernels and fixed divisors at known first-compatible roots; joint generation activates the existing proper-pair construction | The generic construction already gives length eight and residual degree 32; higher contact is a new condition, and sole support needs length sixteen |
+| Decide a covered part of (6,6) | Full higher-contact incidence in all three surviving ADE primitive-triple orbits, retaining the actual 27-dimensional sources | A sector theorem requires the ADE general-pencil hypothesis and complete orbit coverage; the unrestricted sextic singularity/cover compatibility remains open |
+| Organize supported CI/ACM deformations by symmetry | An actual invariant boundary ideal with the required Hilbert polynomial, full relations and explicit deformations preserving support | Not ready for a broad fixed-locus search merely from torus symmetry; tangent directions alone do not give actual deformations |
+| Construct a homogeneous ACM thickening downstairs | An actual ideal or new projection source that changes the known missing-section mechanism; allow more than two generators | Independent value even without AG/CI; ACM upstairs does not imply ACM after projection |
+| Resolve the conditional order-three equation family | The intrinsic sextic map over a justified cover or component of the full fixed-frame root locus, retaining all rank strata and corrections | This belongs to the conditional (6,16) bridge, not the (6,6) reduction; later root lifts, mate and support remain obligations |
+| Finish a constructed carrier family | Remaining toric M incidence with a resource bound, or the elliptic family's fiberwise full-inverse-support test | A negative result closes the covered source; a support-positive survivor still needs actual descent |
+| Learn which obstruction depends on the embedding | Transport one specified marked structure and its corrected equation map along smooth projection centers leaving the C0 orbit | Exploratory: the relative source is missing. The existing center moduli are not such a family, and changing C0 is distinct from torus translation |
+
+The toric M locus remains a good closeout choice when finishing that actual
+carrier class is the objective. Its small remaining description alone is not
+a reason to rank it above a positive construction or a covered degree sector.
+The normal sextic cyclic cover offers a broader structural question: compare
+its required index-nine local class and embedded defects with actual global
+singularity and polarization data. Recomputing its known invariants, or
+treating the normal cover as a smooth resolution, supplies no new restriction.
 
 The arithmetic next test should seek an actual algebraic compatibility
 condition on its endpoint defect beyond the genus budget. More finite
