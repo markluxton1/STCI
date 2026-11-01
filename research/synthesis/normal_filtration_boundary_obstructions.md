@@ -2,7 +2,39 @@
 
 **Status:** thematic synthesis, not theorem authority or a new audit. This document connects accepted local results with provisional global-lifting arguments. Exact hypotheses and proofs remain in the linked sources.
 
-## Distinguish three levels
+## Geometric orientation: successive neighborhoods of the curve
+
+The primary geometric object is an embedded multiple structure supported on
+the fixed rational quartic \(C\), not a list of coefficients in normal
+coordinates. Blowing up \(C\) in \(\mathbf P^3\) exposes the normal
+directions on the exceptional ruled surface
+\(E=\mathbf P(N_{C/\mathbf P^3})\). A surface's first nonzero normal
+symbol cuts a divisor on \(E\); common components and special fibers
+encode shared normal directions and concentration of contact. This is
+the geometric setting for the normal-order and common-factor tests below.
+
+Successive thickening layers ask a different question: whether a specified
+embedded multiple curve extends by one more layer. The associated conormal
+modules, multiplication maps and extension classes measure compatibility
+of those successive neighborhoods. An endpoint divisor may allow a
+cohomological obstruction class to be repaired, but this does not by
+itself realize the repaired structure by homogeneous equations.
+
+Finally, an actual pair of hypersurfaces imposes **global source
+conditions** beyond either exceptional-divisor geometry or abstract
+thickening theory. Its full filtered equation module can contain
+relations invisible in its initial normal forms. These three levels
+(geometric contact, embedded extension, and global equation realization)
+organize the results that follow. Their comparison maps, where not
+proved, remain research questions rather than implicit identifications.
+
+For torus limits the same objects carry weight decompositions. These
+weights can refine the possible normal layers and extension maps, but
+the deformation back to a non-invariant complete intersection may use
+nonzero-weight directions. Thus a fixed-point calculation is a
+necessary boundary test, not a restriction to invariant generators.
+
+## Three levels of the geometric obstruction problem
 
 For a smooth curve C with ideal I and an actual two-equation regular-sequence ideal J=(F,G) contained in I:
 
@@ -31,7 +63,7 @@ The [one-step note](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md), wit
 
 For the final Gorenstein step (generic length at least three), that note argues that no additional divisor allowance remains: the relevant extension class must vanish, and perfect top-layer multiplication is also required. **These claims remain provisional and scoped.** They do not give a general ambient obstruction comparison, a global STCI exclusion, or a converse from splitting to two global equations.
 
-## Full initial ideals and the filtered equation module
+## From exceptional normal divisors to the full filtered equation module
 
 For a regular codimension-two embedding C in a smooth threefold, let I be its ideal and J=(F,G) a proper complete-intersection ideal contained in I. Set S=gr_I(O_X)=Sym(I/I²), H=in_I(J), and Q_n=H_n/(S_+ H)_n. The actual equation module J/IJ carries its induced I-filtration. The canonical comparison has an exact sequence
 
@@ -47,7 +79,7 @@ A [finite-flat supported length-five control](comparison_defect_specialization.m
 
 Neither Delta_n nor cancellation is the saturated first-relation resultant defect of [R-0016](../results/nonsaturated_first_relation_resultant.md), the quasiprimitive residual-cycle divisor of [R-0019](../results/quasiprimitive_residual_cycles.md), or the rank shortfall of a global jet map. Identifying any two requires an additional comparison argument.
 
-## A common-divisor test for cohomological boundary repair
+## Endpoint divisors as geometric repairs of extension classes
 
 For a fixed obstruction \(o\in H^1(\mathbf P^1,\mathcal O(-r))\), \(r\ge2\), and an effective divisor of degree \(B\), write \(n=r-2\). Serre duality identifies the obstruction with a functional on \(H^0(\mathcal O(n))\). If the divisor is cut out by \(h\in H^0(\mathcal O(B))\), then the obstruction dies after twisting by that divisor precisely when
 \[
@@ -65,7 +97,7 @@ For a nonzero quadratic root \(f=au^2+buv+cv^2\), cubic compatibility has the un
 
 These global realization tests neither compute the punctual filtered equation-module defect nor produce a proper mate. For the specified seed, the kernel-direction check upgrades the cubic failure to an exclusion of every sextic lift with that symbol. The independently established second ambient obstruction excludes that root under its own bridge hypotheses. Neither test excludes the full (6,16) incidence.
 
-## The global-source gap
+## The gap between embedded multiple curves and global hypersurfaces
 
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
 
@@ -141,7 +173,7 @@ The [October 5 mixed-six calculation](../supplements/MULTIPLICITY_MIXED46_AND_MF
 
 For degree pair `(4,6)`, the seven necessary numerical types are `e=0: (d2,d3)=(1,8),(2,7),(3,6),(4,5)` and `e=1: (0,4),(1,3),(2,2)`. Their coarse nonregular pole lengths reduce to `e=0: p=1,2,3,4` and `e=1: p=4,5,6`. This is a restriction on possible strata, not a realization or an STCI exclusion. The [regular-ratio proof](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mixed46-regular) separately excludes only the two pure constant horizontal directions when `e=0` and the quotient ratio is globally regular. Its quadric-residual and cubic-jet argument does not treat mixed directions, e=1, or nonregular pairs. The [earlier rank-six audit](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-further-audit) records the saturated-lattice hypotheses and the remaining `(4,5)` defect case.
 
-## Integrated thickening and realization problem
+## The geometric realization problem for successive thickenings
 
 The characteristic-zero conormal bundle of the fixed quartic is balanced, whereas the characteristic-two splitting changes [R-0020](../results/quartic_conormal_characteristic_jump.md). The prescribed characteristic-two fourth-equation kernel [R-0031](../results/quartic_char2_fourth_equation_kernel.md) makes a key distinction concrete: cancellation-generated higher initials cannot be discarded merely because two low-order symbols appear dependent. The prescribed \(\mu_4\) degeneration [R-0021](../results/quartic_mu4_degeneration.md) likewise warns that flat arithmetic specialization need not preserve reduced support. Neither example proves a universal characteristic-zero obstruction.
 
