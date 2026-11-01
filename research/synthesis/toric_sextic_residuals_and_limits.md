@@ -1,4 +1,4 @@
-# Toric sextic intersections, residual cycles and full limits
+# Invariant sextic geometry: orbit closures, residual boundaries, and Hilbert limits
 
 **Status and scope.** This is a provisional mathematical proof home for
 explicit proper sextic intersections and their torus limits, over an
@@ -35,7 +35,19 @@ is supporting evidence; the proofs below specify what its identities
 measure and do not treat a successful run as a substitute for family
 coverage or saturation.
 
-## 1. Finite torus quotients and projective multiplicity
+## 1. Orbit families and the residual boundary
+
+A \(T\)-invariant curve meeting the dense coordinate torus is an orbit
+closure, and a finite quotient of that torus records a finite family
+of such closures with generic multiplicities. The **projective boundary**
+is a different geometric object: coordinate lines or other invariant
+curves can occur there without appearing in the finite quotient.
+
+For a proper sextic intersection the total degree is 36. Each
+quartic orbit closure consumes four units of degree per unit of
+generic multiplicity. The difference between 36 and that moving
+degree is the boundary cycle. This explains the degree accounting
+before any primary decomposition is performed.
 
 On the dense coordinate torus use
 \[
@@ -182,7 +194,21 @@ All generators of (3), (8), and (12) are eigenforms. Their full weight
 initial ideals equal the ideals themselves; no generator information is
 lost in taking these particular limits.
 
-## 2. A sharp residual bound for eigenform sextic pairs
+## 2. Fixed-point incidence forces residual boundary for eigenpairs
+
+The geometric obstruction is an incidence constraint among invariant
+curves and the coordinate fixed points. If nine quartic orbit closures
+exhausted a sextic complete intersection, there would be no boundary
+curve. In particular, the intersection would miss the two fixed points
+\(e_1,e_2\), which lie on none of those quartics. Avoiding each fixed
+point forces a pure-power term in one of the equations. The resulting
+two torus characters then force a coordinate line into both surfaces,
+contradicting the assumed absence of boundary components.
+
+The following proof expresses this incidence argument through integer
+weights. Its scope is **eigenform pairs**; it does not exclude arbitrary
+supported sextic complete intersections or their invariant full flat
+limits.
 
 **Proposed theorem.** For any proper pair of sextic eigenforms over an
 algebraically closed field of any characteristic, let \(n\) be the
@@ -219,7 +245,15 @@ weights incompatible with avoiding the remaining coordinate line.
 The argument supplies a residual floor on this actual eigenpair source;
 it does not provide an ambient all-pair residual bound.
 
-## 3. Mixed equations with residual curves avoiding both endpoints
+## 3. Residual curves move before they acquire boundary support
+
+Residual curves of an arbitrary intersection need not be invariant.
+A torus degeneration of the **whole intersection scheme** can send
+those curves to invariant boundary cycles, even when the original
+residual curves avoid the fixed endpoints. The ruled-quadric
+description makes this movement visible as degeneration of divisors
+on \(Q\). The explicit equations below are certificates for that
+geometric specialization, not a classification of all residual curves.
 
 On \(Q\) use (15), with the action \(b\mapsto\lambda^3b\),
 \(d\mapsto\lambda d\). Define quartics
@@ -269,7 +303,7 @@ is a one-dimensional Cohen–Macaulay local ring, \(q\) is a parameter
 and a nonzerodivisor, and its three successive quotients have equal
 length. Thus (20) is a scheme calculation, not an inference from degrees.
 
-### 3.1 The full limit records escaping residual curves
+### 3.1 Specializing divisors, not attracting individual points
 
 Use maximal weight for the \(\lambda\to0\) initial convention. A full
 one-parameter ideal for (17) is
@@ -304,7 +338,7 @@ curves missed both endpoints. Point attraction alone cannot describe a
 flat limit of projective curves: dimensions and Hilbert polynomials
 force the full divisors appearing in (23).
 
-### 3.2 Actual absorption of a residual quartic
+### 3.2 Absorption changes the decomposition into marked and residual cycles
 
 There is also a proper flat family
 \[
@@ -332,7 +366,17 @@ limit is \(3C\); after specialization this term belongs to the marked
 multiplicity of \(C\), rather than to the residual cycle. The example
 leaves the twelvefold line and proves no iteration to sole support.
 
-## 4. A full sextic limit which is not a complete intersection
+## 4. The Hilbert-scheme limit remembers relations between equations
+
+The torus acts on the Hilbert scheme of curves with the complete-
+intersection Hilbert polynomial. Taking a limit there means
+specializing the **saturated ideal and all its relations**, not
+independently taking extreme terms of two chosen equations.
+Consequently a flat limit of a complete intersection can have more
+than two minimal generators, even while its Hilbert polynomial stays
+unchanged. The following determinantal family exhibits this
+phenomenon explicitly; its degree-ten generator is the algebraic
+trace of a relation that survives the limit.
 
 Extra initial generators can occur in higher degree as well. Put
 \[
@@ -380,7 +424,7 @@ read from (28) at \(h=0\), and its Hilbert numerator is nevertheless
 The limit retains the complete-intersection Hilbert series, without
 retaining two generators. Raw initial forms do not capture (29).
 
-### 4.1 Original and special residual cycles
+### 4.1 How the boundary cycle changes in the full limit
 
 The original cycle of (26) is
 \[
@@ -429,7 +473,7 @@ Both (26) and (29) restrict on the dense torus to the reduced curve
 It misses boundary degree 32, and it cannot distinguish the cycles
 (31) and (33), much less their full ideals.
 
-## 5. Orbit closures are curves, not point-attraction data
+## 5. The geometry of invariant curve strata
 
 A reduced irreducible invariant curve meeting the dense coordinate torus
 is a single orbit closure and hence a quartic of the form (2). More
@@ -456,7 +500,21 @@ become unions of coordinate lines. Taking limits of individual points
 records attraction to fixed points; it does not compute these flat
 curve limits or their multiplicities.
 
-## 6. Bridge to actual sextic sources and the sole-support problem
+## 6. From invariant examples to the supported-CI Hilbert locus
+
+The correct ambient question is not whether the original two sextics
+can be chosen as eigenforms. Every hypothetical sole-supported
+complete intersection has a \(T\)-fixed **full flat limit** with the
+same Hilbert polynomial and sole reduced support \(C\), but that
+limit need not be generated by two equations. The examples in this
+chapter mostly have residual curves, so they demonstrate mechanisms
+rather than supply a candidate sole-supported fixed point.
+
+To turn the invariant viewpoint into an obstruction, one must
+understand which fixed supported ideals lie in the closure of the
+supported complete-intersection locus. Actual sextic source spaces
+and conormal restrictions are essential inputs to that question,
+not optional coordinate refinements.
 
 The unrestricted characteristic-zero STCI question remains open. These
 examples concern actual proper intersections containing \(C\), including
@@ -527,7 +585,15 @@ Endpoint lattice orders, quotient lengths, full projective ideals and
 conormal extension classes retain different information. No comparison
 proved here identifies them or excludes all mixed sextic pairs.
 
-## 7. Parameter-space strata with a stated ambient space
+## 7. Parameter spaces: pencils, fixed loci, and deformation strata
+
+A Grassmannian of equation pencils and a Hilbert scheme of their
+intersection schemes answer different geometric questions. The former
+retains a chosen two-dimensional space of equations; the latter
+retains the full ideal through degeneration. The dimension counts
+below locate specific linear conditions on pencils, but do not
+compute codimensions of arbitrary Hilbert-scheme boundary strata
+or of all increased-multiplicity loci.
 
 For equal degrees the symmetric space of pencils is
 \(\operatorname{Gr}(2,H^0(\mathcal I_C(d)))\). Since the embedded quartic
