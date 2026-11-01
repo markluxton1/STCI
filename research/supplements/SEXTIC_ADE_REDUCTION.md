@@ -232,3 +232,78 @@ rank-and-containment check for all twenty quartic-times-quadric products.
 Run `PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple_spaces_2026_10_31.py`.
 This completes the stated linear calculation and first necessary contact
 test; it does not exclude the remaining sextic pairs.
+
+## Intrinsic double-sextic kernel, torus weight grading, and VGIT Plücker contact map
+
+*(Authored by Gemini on `evaluate_toric_integration_stci`; independently reviewed and verified by Gemini subagent and [`verify_sextic_triple_toric_vgit.py`](../computations/verify_sextic_triple_toric_vgit.py).)*
+
+The numerical invariants in the table above admit an intrinsic geometric and torus-equivariant explanation that connects the three \(\mathcal O(-6)\) primitive triples directly to the double-sextic source space \(V_{6,2} = H^0(\mathcal I_{C_0}^2(6))\) (\(\dim = 23\)) and to the surface-pair VGIT Grassmannian \(X_6 = \operatorname{Gr}(2, V_6)\).
+
+### 1. Intrinsic identification of \(\ker(h)\) and the \(23\) vs. \(24\) joint-rank split
+
+Let \(I_{\mathrm{triple}} \subset I_{C_0}\) be any of the three surviving \(\mathcal O(-6)\) primitive triple ideals, and write \(V_{\mathrm{triple},d} = H^0(\mathcal I_{\mathrm{triple}}(d))\). Along \(C_0\) in the dense affine chart \(x_0 = 1\), \(I_{C_0} = (m, y)\) and \(I_{\mathrm{triple}} = (q', y^3)\) where \(q' = m + \gamma(z) y^2 \equiv m \pmod{I_{C_0}^2}\).
+
+- **Intrinsic Double-Sextic Kernel Lemma:** Sheaf-theoretically, \((\mathcal I_{\mathrm{triple}} + \mathcal I_{C_0}^2)/\mathcal I_{C_0}^2 = \mathcal I_{\mathrm{rib}}/\mathcal I_{C_0}^2 \cong M = \mathcal O_{\mathbf P^1}(-8)\). Twisting by \(\mathcal O_{\mathbf P^3}(6)|_{C_0} = \mathcal O_{\mathbf P^1}(24)\) gives the exact sequence
+  \[
+    0 \longrightarrow \mathcal I_{\mathrm{triple}}(6) \cap \mathcal I_{C_0}^2(6) \longrightarrow \mathcal I_{\mathrm{triple}}(6) \xrightarrow{\;h\;} M(6) \cong \mathcal O_{\mathbf P^1}(16) \longrightarrow 0.
+  \]
+  In the chart \(x_0 = 1\), any \(F \in V_{\mathrm{triple},6}\) satisfies \(F \equiv h_F(z) m \pmod{I_{C_0}^2}\), so by purity of \(\mathcal I_{C_0}^2\):
+  \[
+    \ker\bigl(h: V_{\mathrm{triple},6} \to k[z]_{\le 16}\bigr) = V_{\mathrm{triple},6} \cap V_{6,2} = H^0\bigl(\mathcal I_{\mathrm{triple}}(6) \cap \mathcal I_{C_0}^2(6)\bigr).
+  \]
+  For all three orbits, \(h: V_{\mathrm{triple},6} \to k[z]_{\le 16}\) is surjective of rank \(17\), and the double-sextic intersection \(\ker(h) = V_{\mathrm{triple},6} \cap V_{6,2}\) has dimension \(27 - 17 = 10\).
+- **Canonical fourth-order contact on \(\ker(h)\) and the quadric-tangency hyperplane:** Locally, \(\mathcal I_{\mathrm{triple}} \cap \mathcal I_{C_0}^2 = ((q')^2, q'y, y^3) = \mathcal I_{C_0}\cdot \mathcal I_{\mathrm{rib}}\) and \(\mathcal I_{C_0}\cdot \mathcal I_{\mathrm{triple}} = ((q')^2, q'y, y^4)\), with canonical quotient
+  \[
+    \frac{\mathcal I_{\mathrm{triple}} \cap \mathcal I_{C_0}^2}{\mathcal I_{C_0} \cdot \mathcal I_{\mathrm{triple}}} \cong L^{\otimes 3} = \mathcal O_{\mathbf P^1}(-18), \qquad L^{\otimes 3}(6) \cong \mathcal O_{\mathbf P^1}(6).
+  \]
+  Thus on \(\ker(h) = V_{\mathrm{triple},6} \cap V_{6,2}\), the cubic-contact map \(\Theta|_{\ker(h)}: \ker(h) \to H^0(L^{\otimes 3}(6)) \cong k[z]_{\le 6}\) (\(\dim = 7\)) is canonically defined with kernel \(\ker(h, \Theta) = H^0(\mathcal I_{C_0}\cdot \mathcal I_{\mathrm{triple}}(6))\), and
+  \[
+    \operatorname{rank}(h, \Theta) = \operatorname{rank}(h) + \operatorname{rank}\bigl(\Theta|_{\ker(h)}\bigr) = 17 + \operatorname{rank}\bigl(\Theta|_{\ker(h)}\bigr).
+  \]
+  Along the triple locus \(q' = 0\), the quadric \(q = U + \tfrac{1}{2} z V\) and transverse coordinate \(V = -S_0 m + B(z)y\) restrict to
+  \[
+    q \equiv \mu(z) y - \nu(z) y^2 \pmod{q'}, \quad V \equiv B(z)y + S_0\gamma(z)y^2 \pmod{q'},
+  \]
+  where \(\mu(z) := A(z) + \tfrac{1}{2} z B(z)\) and \(\nu(z) := (T_0 - \tfrac{1}{2} z S_0)\gamma(z)\). Via \(0 \to q\cdot H^0(\mathcal I_{C_0}(4)) \to V_{6,2} \to H^0(\mathcal O_Q(0,4)) \to 0\), every \(F \in V_{6,2}\) restricts on \(Q = \{q=0\}\) (where \(x_2/x_0 = z^3 + V\)) to \(P(z^3+V)V^2 = \alpha_0(z)V^2 + \beta_0(z)V^3 + O(V^4)\) for \(P(w) \in k[w]_{\le 4}\), so \(\alpha_0(z) = P(z^3)\) and \(\beta_0(z) = P'(z^3)\) satisfy the chain-rule identity \(\alpha_0'(z) = 3 z^2 \beta_0(z)\). Expanding \(F \equiv \alpha_2(z)q^2 + \alpha_1(z)qV + \alpha_0(z)V^2 + \beta_3(z)q^3 + \beta_2(z)q^2 V + \beta_1(z)q V^2 + \beta_0(z)V^3 \pmod{I_{C_0}^4}\), vanishing of the \(y^2\) coefficient modulo \(q'\) is \(\alpha_2\mu^2 + \alpha_1 B\mu + \alpha_0 B^2 \equiv 0\). At any root \(z_0\) of \(\mu(z_0) = 0\) with \(B(z_0) \ne 0\), this forces \(\alpha_0(z_0) = 0\) and \(\alpha_1(z_0) = -B(z_0)\frac{\alpha_0'(z_0)}{\mu'(z_0)} = -B(z_0)\frac{3 z_0^2}{\mu'(z_0)}\beta_0(z_0)\), leaving only the \(\alpha_1(z_0)qV + \beta_0(z_0)V^3\) contributions to \(y^3\) modulo \(q'\):
+  \[
+    -\Theta_F(z_0) = B(z_0)^2\left(\frac{3 z_0^2 \nu(z_0)}{\mu'(z_0)} + B(z_0)\right)\beta_0(z_0).
+  \]
+  1. For the two **algebraic orbits** \((A,B) = (rz, 1)\) (\(12r^2+4r+3=0\)), \(\mu(z) = (r + \tfrac{1}{2})z\) has no roots in \(k^\times\) and \(\gamma(z) \equiv 0\). Consequently, \(\Theta|_{\ker(h)}: \ker(h) \to k[z]_{\le 6}\) is **surjective of rank \(7\)**, yielding \(\operatorname{rank}(h, \Theta) = 17 + 7 = 24\) and \(\dim \ker(h, \Theta) = 10 - 7 = 3\).
+  2. For the **principal orbit** \((A,B) = (1+z, -2-8z)\), \(\mu(z) = 1 - 4z^2 = (1-2z)(1+2z)\) vanishes at \(z_0 = -1/2\) and \(z_0 = +1/2\). At \(z_0 = -1/2\), \(\nu(-1/2) = 0\) and \(B(-1/2) = 2 \ne 0\), so \(-\Theta_F(-1/2) = 8\beta_0(-1/2)\) does not vanish identically. At **\(z_0 = +1/2\)**, \(\mu'(1/2) = -4\), \(\nu(1/2) = -32\), and \(B(1/2) = -6\), so
+     \[
+       \frac{3(1/2)^2 \nu(1/2)}{\mu'(1/2)} + B(1/2) = \frac{(3/4)(-32)}{-4} - 6 = 6 - 6 = 0 \implies \Theta_F(1/2) = 0 \quad \forall\, F \in \ker(h).
+     \]
+     Thus \(\operatorname{im}(\Theta|_{\ker(h)}) = \{p \in k[z]_{\le 6} : p(1/2) = 0\}\) has codimension \(1\) (**rank \(6\)**), explaining why \(\operatorname{rank}(h, \Theta) = 17 + 6 = 23\) and \(\dim \ker(h, \Theta) = 10 - 6 = 4\).
+- **Universal containment of \(q \cdot V_{\mathrm{triple},4}\) in \(\ker(h, \Theta)\):** Since \(q \in H^0(\mathcal I_{C_0}(2))\) and \(V_{\mathrm{triple},4} = H^0(\mathcal I_{\mathrm{triple}}(4))\), their product \(q \cdot V_{\mathrm{triple},4}\) (\(2\)-dimensional) lies in \(H^0(\mathcal I_{C_0}\cdot \mathcal I_{\mathrm{triple}}(6)) = \ker(h, \Theta)\) for all three orbits.
+
+### 2. Torus weight decomposition of the \(T\)-invariant algebraic orbits
+
+Under the centered \(\mathbf G_m\)-weights \(\operatorname{wt}(x_0, x_1, x_2, x_3) = (-2, -1, 1, 2)\) (uncentered \((0, 1, 3, 4)\)), the affine substitution \(x_0 = 1, x_1 = z, x_2 = z^3 + y, x_3 = z^4 + (r + \tfrac{3}{2})zy + m\) for the algebraic orbits \((A,B) = (rz, 1)\) is strictly homogeneous of uncentered weights \(\operatorname{wt}(z, y, m) = (1, 3, 4)\). Therefore \(I_{\mathrm{alg}}\) is **\(T\)-invariant**, and its source spaces decompose into centered \(T\)-weight subspaces:
+
+- **Degree \(4\) (\(\dim V_{\mathrm{alg},4} = 2\)):** Centered weights \(\{-4, +4\}\) (each \(1\)-dimensional), spanned explicitly by
+  \[
+    Q_- = (1 - \sqrt{-2}) x_0^2 q - x_1(x_0^2 x_2 - x_1^3), \qquad Q_+ = (1 + \sqrt{-2}) x_3^2 q - x_2(x_1 x_3^2 - x_2^3).
+  \]
+  Since \((1 - \sqrt{-2})(r + \tfrac{1}{2}) = 1\) for \(r = (-1 + 2\sqrt{-2})/6\), in the chart \(x_0 = 1\) the quartic \(Q_-\) satisfies the exact identity \(Q_-(1, z, z^3+y, z^4+(r+3/2)zy+m) = (1 - \sqrt{-2})m\) with zero pure-\(y\) tail to all orders.
+- **Degree \(5\) (\(\dim V_{\mathrm{alg},5} = 11\)):** Centered weights \(\{-6, -5, -3, -2, -1, 0, 1, 2, 3, 5, 6\}\), each of dimension \(1\).
+- **Degree \(6\) (\(\dim V_{\mathrm{alg},6} = 27\)):** Centered weights \(w \in [-8, 8]\) with symmetric profile
+  \[
+    \dim V_{\mathrm{alg},6}[w] = (1, 1, 1, 1, 2, 2, 2, 2, 3, 2, 2, 2, 2, 1, 1, 1, 1) \quad (w = -8, \dots, 8).
+  \]
+  For any \(F \in V_{\mathrm{alg},6}[w]\), \(h_F(z) = \alpha_F z^{w+8}\) (\(\deg_z h_F = w + 8 \in \{0, \dots, 16\}\)) and \(\Theta_F(z) = -K_F(z) = \beta_F z^{w+3}\) (\(\deg_z \Theta_F = w + 3 \in \{0, \dots, 11\}\) for \(w \ge -3\), and \(\Theta_F \equiv 0\) for \(w \in \{-8, -7, -6, -5, -4\}\)).
+- **Endpoint proportionality at \(p_\infty\) and the \(3\)-dimensional joint kernel:** For \(w \in \{4, 5, 6, 7, 8\}\), \(V_{\mathrm{alg},6}[w]\) is spanned modulo \(\ker(h, \Theta)\) by \(M_{w-4} Q_+\) where \(M_{w-4}\) is a monomial quadric of centered weight \(w-4\) restricting to \(z^w\) on \(C_0\). Because \(Q_+ \in (m, y^3)\) has no \(y^1, y^2\) terms, multiplying by \(M_{w-4}\) scales both \(h_{Q_+}\) and \(\Theta_{Q_+}\) by \(z^{w-4}\), locking the top \(5\) coefficients of \(\Theta_F\) to the top \(5\) coefficients of \(h_F\):
+  \[
+    [\Theta_F]_d = \lambda_0 \, [h_F]_{d+5} \quad \text{for } d \in \{7, 8, 9, 10, 11\}, \qquad \lambda_0 = \frac{28 + 16\sqrt{-2}}{81}.
+  \]
+  The \(10\)-dimensional double-sextic subspace \(\ker(h) = V_{\mathrm{alg},6} \cap V_{6,2}\) is supported in weights \(w \in [-4, 4]\) with profile \((1, 1, 1, 1, 2, 1, 1, 1, 1)\), and the \(3\)-dimensional joint kernel \(\ker(h, \Theta)\) is supported in weights \(\{-4, 0, +4\}\) (spanned by \(q Q_-\) in weight \(-4\), \(q Q_+\) in weight \(+4\), and a unique weight-\(0\) generator).
+
+### 3. Surface-pair VGIT Plücker cubic-contact map \(\Omega_3\)
+
+On the sub-Grassmannian \(\operatorname{Gr}(2, V_{\mathrm{triple},6}) \subset X_6 = \operatorname{Gr}(2, 59)\), the necessary cubic-contact equation \(h_G \Theta_F - h_F \Theta_G \equiv 0\) is the restriction of the intrinsic bundle map
+\[
+  \Omega_3: \bigwedge^2 V_{\mathrm{triple},6} \longrightarrow H^0\bigl(M(6) \otimes L^{\otimes 3}(6)\bigr) = H^0\bigl(\mathcal O_{\mathbf P^1}(22)\bigr) \cong k[z]_{\le 22}, \qquad F \wedge G \longmapsto h_F(z) \Theta_G(z) - h_G(z) \Theta_F(z).
+\]
+- **Cancellation of degrees \(23 \dots 27\) and uniform rank \(23\):** Because \(h_G F - h_F G\) defines a global section of \(M(6) \otimes (\mathcal I_{\mathrm{triple}} \cap \mathcal I_{C_0}^2)(6)\) across \(C_0 \cong \mathbf P^1\), its image in \(M(6) \otimes L^{\otimes 3}(6) \cong \mathcal O_{\mathbf P^1}(22)\) automatically has degree \(\le 22\) in \(z\), explaining why all terms of degree \(> 22\) in \(h_F \Theta_G - h_G \Theta_F\) cancel identically. For **all three orbits** (both principal and algebraic), \(\Omega_3: \bigwedge^2 V_{\mathrm{triple},6} \to k[z]_{\le 22}\) is **surjective of exact rank \(23\)**, cutting out a linear subspace \(\ker(\Omega_3) \subset \bigwedge^2 V_{\mathrm{triple},6}\) of dimension \(\binom{27}{2} - 23 = 351 - 23 = 328\).
+- **Diagonal Plücker weight decomposition on the algebraic orbits:** On \(\bigwedge^2 V_{\mathrm{alg},6}\), the centered Plücker weights \(W = w_1 + w_2\) span the \(31\) integers \([-15, 15]\). For \(F \in V_{\mathrm{alg},6}[w_1]\) and \(G \in V_{\mathrm{alg},6}[w_2]\), \(\Omega_3(F \wedge G)\) is a scalar multiple of \(z^{W+11}\). Thus \(\Omega_3\) decomposes diagonally into \(31\) Plücker weight blocks:
+  - \(23\) blocks of **rank \(1\)** for \(W \in [-11, 11]\) (mapping onto \(k \cdot z^{W+11}\) for \(W + 11 \in \{0, \dots, 22\}\)), and
+  - \(8\) **zero blocks** for \(W \in [-15, -12] \cup [12, 15]\) (where either both \(w_i \le -4\) so \(\Theta = 0\) at \(p_0\), or both \(w_i \ge 4\) so \(\Theta = \lambda_0 z^{-5} h_{\ge 12}\) cancels at \(p_\infty\)).
