@@ -1,13 +1,13 @@
 # Order-three roots: a geometric parameterization and actual sextic lifting
 
-**Status.** Sections 1--4 are independently reviewed provisional mathematics.
-The final continuation lead is explicitly unreviewed.
+**Status.** Independently reviewed provisional mathematics, including the
+completed four-parameter calculation in section 5.
 All statements here are in characteristic zero. The spectral parameterization
 concerns smooth (2,2) curves with their two fixed ruling coordinates. The
 embedded calculation concerns only
 \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), in the accepted balanced
-normal frame. It covers a specified two-parameter slice, not every order-three
-root and not arbitrary pairs of surfaces. No canonical result is promoted.
+normal frame. It covers a specified four-parameter slice, including its
+two-parameter parity subfamily, not every order-three root or arbitrary pairs. No canonical result is promoted.
 
 The [all-power theorem](spectral_pushforward_powers.md) supplies the spectral
 splitting and graded constructions; its [scheme continuation](spectral_determinant_schemes.md)
@@ -288,14 +288,136 @@ made about roots outside the slice, singular roots, nonsaturated patterns,
 other generator patterns, or arbitrary pairs. These tests also do not
 produce a degree-sixteen mate or decide properness or residual support.
 
-A useful next calculation varies the full syzygy parameters while retaining
-the actual operator and all source corrections. An intermediate selected
-slice is \(q=(1,z,Az+B,Cz+D)\); it restores the two mixed coefficients
-omitted in (3), without claiming that base or direction automorphisms preserve
-the embedding. A positive point should be followed through the actual source
-incidence, while a finite exclusion needs its own boundary coverage.
-Independently, the parameterization (2) can describe graded (2,3), (2,6)
-and (2,12) families without requiring a global STCI application.
+Section 5 closes the larger selected slice \(q=(1,z,Az+B,Cz+D)\),
+including its omitted parameter boundaries. Further selected slices would
+still leave most of (2) uncovered. The [cross-lane assessment](spectral_realization_and_research_direction.md)
+therefore recommends actual octic constructions on first-compatible roots
+and, separately, a full-parameter sextic incidence. Independently, (2)
+describes graded (2,3), (2,6) and (2,12) families without requiring a
+global STCI application.
+
+## 5. Completion of the four-parameter slice
+
+Restore the mixed coefficients and write
+\[
+q=(1,z,Az+B,Cz+D),\quad
+\begin{aligned}
+a&=(C-A^2)z^2+(D-2AB)z-B^2,\\
+b&=Az^2+(B-C)z-D,\\
+c&=Az+B-z^2.
+\end{aligned}                                                 \tag{11}
+\]
+This is an affine four-dimensional slice of the seven-dimensional space (2),
+not a normal form modulo allowed ambient symmetries.
+
+**Claim.** On the smooth-root open of (11), exactly twenty-four geometric
+points pass the first embedded test. Six are the parity points above;
+eighteen have \(A\ne0\). None has an actual compatible sextic: twenty-two
+fail the symbol test, and the two rational parity points fail cubic lifting.
+This is a statement about geometric points; no intersection multiplicity
+or scheme length is asserted.
+
+Put
+\[
+r=(0,c^2,-bc,b^2-ac)-z^3q.
+\]
+Every entry of \(r\) has degree at most three, and \(q\wedge r\) again
+equals the six Plucker coordinates in section 2. Thus
+\(q,zq,z^2q,r\) give the complete first-obstruction dual basis on the
+smooth open. Denote their pairings with the accepted \(d_f\) by
+\(F_0,F_1,F_2,F_3\). In particular
+\[
+\begin{aligned}
+8F_0={}&18AB^2+16AB+6AC-12A-9BD+6CD-16D,\\
+8F_1={}&16A^2+10AD+6B^3+10B^2+2BC-20B-4C+3D^2-48,\\
+4F_2={}&20AB+36A+(3B-2)D.
+\end{aligned}                                                 \tag{12}
+\]
+The [exact verifier](../computations/order_three_four_parameter_slice.py)
+derives all four pairings directly from the accepted operator, including
+\(F_3\), and checks the following elimination identities.
+
+For \(A\ne0\), \(F_2=0\) excludes \(B=2/3\) and forces
+\(D=D_B=-4A(5B+9)/(3B-2)\). Set
+\[
+\begin{aligned}
+N&=9B^3+32B^2+96B+100,& Q&=93B^2+431B+584,\\
+H&=60B^3+333B^2+718B+556,& C_B&=N/(17B+38),\\
+X&=-\frac{(B-2)(3B-2)^2H}{4(17B+38)Q}.&&
+\end{aligned}
+\]
+Then
+\[
+F_0|_{D=D_B}=\frac{3A(N-(17B+38)C)}{4(3B-2)},\qquad
+F_1|_{D=D_B,C=C_B}=\frac{Q(A^2-X)}{(3B-2)^2}.                 \tag{13}
+\]
+At \(B=-38/17\), \(N=-271284/4913\ne0\), so the next division
+loses no solution. At \(Q=0\), the remaining numerator cannot vanish,
+because \(\gcd(Q,(B-2)(3B-2)^2H)=1\). Hence (13) forces
+\(C=C_B\) and \(A^2=X\), with all denominators nonzero.
+
+Define
+```
+P9(B) = 15849 B^9 + 144531 B^8 + 341525 B^7 - 1138436 B^6
+        - 8388388 B^5 - 16074040 B^4 + 8264096 B^3
+        + 80572544 B^2 + 119321280 B + 58870912.
+```
+The final residue becomes
+\[
+F_3|_{D=D_B,C=C_B,A^2=X}
+ =\frac{3P_9(B)}{8(17B+38)^2Q}.                              \tag{14}
+\]
+Exact gcds show that \(P_9\) is squarefree and is coprime to
+\((B-2)(3B-2)(17B+38)QH\). Its nine distinct roots therefore give
+exactly eighteen points, two nonzero square roots of \(X\) at each.
+Conversely (13)--(14) and \(F_2=0\) verify all four equations at each point.
+They give distinct projective roots: the fixed coefficient \(c_2=-1\)
+fixes the scalar, while \(c_0=B,c_1=A\) distinguish the points.
+
+The branch \(A=0,D\ne0\) gives \(B=2/3,C=11/3\) from
+\(F_2,F_0\), after which
+\[
+F_1=(27D^2-584)/72,\qquad F_3=(21D^2+244)/24.
+\]
+Their numerators are coprime, so this branch is empty. The remaining
+\(A=D=0\) branch is exactly the already reviewed parity slice.
+
+For smoothness, the direction discriminant \(\Delta=b^2-4ac\) satisfies
+\[
+\operatorname{disc}_z\Delta=-256\mathcal U^3\mathcal V,
+\]
+where
+\[
+\begin{aligned}
+\mathcal U={}&A^3D-A^2BC+3ABD-ACD+B^3-2B^2C+BC^2-D^2,\\
+\mathcal V={}&27A^3D-27A^2BC+81ABD-27ACD
+              -81B^2C+18BC^2-C^3-27D^2.
+\end{aligned}
+\]
+After the substitutions above, these are rational functions of \(B\).
+Their numerators and denominators are coprime to \(P_9\), as are those
+of the leading coefficient \(4C_B-3X\). Thus every one of the eighteen
+points has four distinct finite branch points and no missing infinity
+case. A common base zero of \(a,b,c\) would give a repeated discriminant
+zero; none occurs. The resulting finite flat double cover is smooth.
+The parameterization in section 1 then gives exact order three.
+
+Finally form the same multiplier matrix \(JA(f)\) used in section 3.
+Take its nine-row minor on rows \(0,1,2,3,4,5,6,8,10\). The verifier
+computes this determinant in
+\[
+\mathbf Q(B)[A]/(A^2-X),\qquad C=C_B,\ D=D_B,
+\]
+using division-free characteristic-polynomial arithmetic, without assuming
+this quadratic algebra is a field. The determinant is independent of \(A\),
+with a degree-32 numerator and denominator \((17B+38)^6Q^5\). Both are
+coprime to \(P_9\). Thus the minor is nonzero at **all eighteen** points,
+so no nonzero sextic multiplier exists there. The old six-point certificates
+complete the stated twenty-two symbol failures and two cubic failures.
+
+The interrupted investigation is therefore closed at its declared first-lift
+and actual-sextic level. No cubic calculation is needed for the eighteen new
+points, and no second-root obstruction or degree-sixteen mate is computed.
 
 ## Evidence and independent review
 
@@ -328,30 +450,21 @@ reused; checking their matrices here does not rederive that coverage. The
 canonical status of R-0006, R-0007 and the numerical restrictions is unchanged,
 and this contribution itself remains provisional rather than promoted.
 
-## Unreviewed continuation lead at closeout
+For section 5, `review_order_three_slice` independently reconstructed all four
+residues from the ambient vector field, solved the elimination, checked every
+affine denominator stratum and base infinity, and reviewed the written
+twenty-four-point claim and new checker. The review passed without a material
+correction. It also recomputed the decisive source minor by signed subset
+expansion over \(\mathbf F_{65521}[B]/(P_9)[A]/(A^2-X)\), independent
+of the producer's characteristic-polynomial arithmetic. All denominators
+were units and the determinant was a unit, corroborating the exact rational
+gcd certificate. This does not assert coverage of the projective closure of
+the selected affine slice or a scheme-theoretic intersection length.
 
-Diagnostic exact elimination in the larger selected slice
-\(q=(1,z,Az+B,Cz+D)\), restricted to \(A\ne0\), produced the
-following candidate description. This has not received independent review
-or been incorporated into the retained verifier; it is a restart point,
-not an additional established family theorem.
-
-```
-P9(B) = 15849 B^9 + 144531 B^8 + 341525 B^7 - 1138436 B^6
-        - 8388388 B^5 - 16074040 B^4 + 8264096 B^3
-        + 80572544 B^2 + 119321280 B + 58870912.
-
-P9(B) = 0,
-A^2 = -(B-2)(3B-2)^2(60B^3+333B^2+718B+556)
-      / [4(17B+38)(93B^2+431B+584)],
-C = (9B^3+32B^2+96B+100)/(17B+38),
-D = -4A(5B+9)/(3B-2).
-```
-
-The diagnostic reported squarefreeness, coprimality with the displayed
-denominators and the numerator of \(A^2\), and nonvanishing branch
-discriminants, suggesting eighteen further smooth first-compatible points.
-These reports are unreviewed. Completing the selected slice requires
-checking the first-equation derivation, every denominator boundary and
-the \(A=0,D\ne0\) branch, then testing the complete actual sextic source.
-No larger-slice realization or exclusion is included in sections 1--4.
+The lead and reviewer executed `order_three_four_parameter_slice.py` with
+SymPy 1.14.0 successfully. The lead also reran `order_three_sextic_slice.py`;
+all parity certificates passed. The temporary interpreter was recreated with
+the existing pinned dependency after the earlier temporary environment had
+expired; no repository dependency was added. Canonical-record validation,
+local Markdown links including anchors, and whitespace checks passed at
+closeout. No second-root or mate computation is reported.

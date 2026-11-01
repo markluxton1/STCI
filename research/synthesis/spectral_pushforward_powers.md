@@ -274,8 +274,9 @@ The new construction ends at an abstract graded family. The next embedded
 question is which of these families admit successive lifts in the actual
 neighborhood of C0, with the fixed conormal embedding and all allowed higher
 corrections retained. The [varying-root continuation](order_three_roots_and_sextic_lifts.md)
-parameterizes the full smooth order-three locus and finds six first-compatible
-roots on a selected slice; all six fail the actual sextic source. The remaining
+parameterizes the full smooth order-three locus and finds twenty-four
+first-compatible roots on a covered four-parameter slice; all fail the actual
+sextic source. The remaining
 question concerns the other roots, with the projective numerical
 scope in section 6 kept separate from graded or finite-neighborhood existence.
 The inherited actual n=4 obstruction model keeps all hypotheses stated in

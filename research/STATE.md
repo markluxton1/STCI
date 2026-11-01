@@ -111,12 +111,20 @@ total parameter-space multiplicities. In characteristic zero the
 fails the first ambient lift by an exact three-term certificate. The
 [order-three continuation](synthesis/order_three_roots_and_sextic_lifts.md)
 parameterizes the entire smooth order-three locus by an open of P7. In a
-specified two-parameter slice, exactly six smooth roots pass the first embedded
-test: four permit no actual sextic symbol and two permit symbols but fail
+specified four-parameter slice, exactly twenty-four smooth roots pass the first
+embedded test: twenty-two permit no actual sextic symbol and two permit symbols but fail
 complete cubic lifting. This is a covered slice calculation; the remaining
 order-three locus is not excluded. Under the full saturated movement-two hypotheses,
 R-0014 and exact order three retain only (2,12;6,16) as a projective numerical
 target; this does not negate abstract (2,6) graded existence.
+
+The [cross-lane assessment](synthesis/spectral_realization_and_research_direction.md)
+uses a separately reviewed octic source checkpoint to give positive
+first-compatible individual octic lifts for these roots, without asserting
+joint generation or a new pair. It also separates higher root existence
+from conditional sextic equation membership. The actual residual-pair
+example belongs to that other committed source; no canonical statement or
+unrestricted STCI status changes through this assessment.
 
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.

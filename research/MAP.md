@@ -52,7 +52,7 @@ The [projected-source calculation](synthesis/projected_thickening_section_defect
 Conductor–differential comparisons and more general tame covers remain additional
 directions. For the spectral construction, the next questions concern determinant
 schemes at singular roots and realization of varying graded families in the
-actual embedded neighborhood. The [order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md) identifies the full smooth torsion locus with an open of P7; a selected slice supplies six first-compatible roots, with separate symbol and cubic failures in the actual sextic source. The full parameter space remains open for embedded realization. Only a statement
+actual embedded neighborhood. The [order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md) identifies the full smooth torsion locus with an open of P7; a covered four-parameter slice supplies twenty-four first-compatible roots, with separate symbol and cubic failures in the actual sextic source. The full parameter space remains open for embedded realization. Only a statement
 with its governing proof is an available lemma; a promising extension is still a
 proposed bridge. In particular the surface-normalization conductor is not the
 conductor of the quadratic separation of a nonreduced intersection.
@@ -73,6 +73,15 @@ has a residual curve. Conversely, useful positive-characteristic constructions
 show that some apparently restrictive compatibility conditions can coexist.
 
 ## Connections that change the next question
+
+The [spectral/source comparison](synthesis/spectral_realization_and_research_direction.md#3-a-proved-connection-to-actual-octic-equations)
+uses the supplied first Cartier root lift to define an intrinsic residue of
+actual homogeneous equations. It links this lane to proper octic residual
+pairs, while retaining joint multiplier generation as a separate test. For
+sextics with exact-order-three root, higher equation membership is automatic
+when compatible higher root lifts exist; their existence remains a different
+obstruction problem. The comparison is defined on the first-compatible
+root locus, not on every spectral torsion point.
 
 In the stated separated quadratic cover, the [canonical conductor sequence](synthesis/quadratic_covers_and_conductor_descent.md) already determines the [Rao dimensions](synthesis/supported_linkage_operations.md#1-rao-dimensions-repeat-the-canonical-boundary-inequality). Comparing those dimensions repeats one budget. The boundary's embedded multiplication and actual defining-equation restrictions retain additional information; the extremal residual-line argument uses precisely that extra information. An embedded AG conjugate union descends automatically, so constructing the union with its required support and polarization is the unresolved constructive step.
 

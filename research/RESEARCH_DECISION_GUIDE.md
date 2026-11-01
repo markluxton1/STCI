@@ -47,6 +47,13 @@ applies to the inputs considered then; it does not prohibit later proposals.
 Revisit a closed family only when the new question changes an actual hypothesis,
 source, boundary calculation or coverage claim.
 
+The [spectral cross-lane assessment](synthesis/spectral_realization_and_research_direction.md#6-recommended-next-work-in-order)
+applies these criteria to a completed slice calculation: prioritize actual
+octic constructions on first-compatible roots, and keep full-parameter
+sextic incidence as a separate conditional sole-support question. Its fixed
+branch evidence and unreviewed toric lead have different authority. These
+are bounded recommendations, not a replacement for the wider approach list.
+
 For a claim, retrieve its exact statement and proof, then its necessary
 computation. Reuse review of unchanged inputs. Independently review material
 new deductions, changed proofs and consequential preservation decisions.
