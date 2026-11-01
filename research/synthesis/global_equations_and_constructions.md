@@ -6,6 +6,33 @@ The common global requirement is an **actual supported pair**. Local regular emb
 
 The [fixed-surface and endpoint algebra](fixed_surface_and_endpoint_algebras.md) preserves the full simultaneous-surface counterexamples, trace tests, two-chart descent and one-endpoint detector. The [finite-pullback and matrix account](finite_pullback_and_matrix_obstructions.md) proves a polarization-lifting obstruction for a specific constructive source and the failure of a universal simple-quadric factorization. The [foliation and affine-degree account](foliation_and_affine_degree_mechanisms.md) retains the normalized foliation alternatives and the two distinct losses at infinity. Imported October 30–31 deductions received independent hand review in their source states; they remain reviewed provisional mathematics. Their review limitations are preserved with each mechanism.
 
+## Geometric orientation: the locus of globally presented multiple curves
+
+The central question is whether a multiple structure supported on C
+admits a presentation by two actual projective hypersurfaces. This
+can be viewed from several geometric directions, each retaining
+different information:
+
+* On the complement U of C, a supported pair is a base-point-free
+  pencil of a positive line bundle. Its graph compactifies as the
+  blowup of the complete-intersection ideal.
+* On a containing surface, the question becomes whether an effective
+  multiple of C is a hyperplane-section divisor. Cartier and
+  conductor descent determine when that divisor is globally defined.
+* In the Hilbert scheme, supported complete intersections form an
+  incidence locus inside the space of multiple structures on C.
+  The full torus limit remains supported but need not retain two
+  minimal generators.
+* On the Grassmannian of lines, the Chow form detects the resulting
+  fundamental cycle. It does not detect embedded endpoint algebra
+  or supply the two equations.
+
+These viewpoints are complementary, not equivalent substitutes for
+the missing equations. The results below distinguish exact global
+criteria, necessary numerical shadows, and sufficient construction
+mechanisms. Their coordinate formulas are certificates for these
+geometric statements.
+
 ## Characteristic boundaries
 
 The fixed curve is smooth in every characteristic: on x0≠0 its parameter is x1/x0, and on x3≠0 it is x2/x3. The unrestricted characteristic-zero problem differs sharply from positive characteristic, where the fixed embedding has a quartic-carrier STCI in **every** prime characteristic; the complete construction and its exact carrier-degree conclusions belong to the [positive-characteristic construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-a-quartic-carrier).
@@ -22,7 +49,17 @@ The fixed curve is smooth in every characteristic: on x0≠0 its parameter is x1
 
 These scopes do not extend the characteristic-zero quartic-carrier exclusion to positive characteristic. In characteristic p, Frobenius changes the construction and descent problem: (1+j)^(p^e)=1 once j^(p^e)=0, so a nilpotent-unit obstruction to taking a required power can disappear. Conversely prime-to-p root rigidity survives under its exact hypotheses in the [finite-pullback proof](finite_pullback_and_matrix_obstructions.md#polarization-and-section-lifting).
 
-## Rational quartic geometry and elementary carrier obstructions
+## The quartic on its unique quadric: divisor classes and carrier geometry
+
+The unique containing quadric is the simplest carrier on which C
+becomes a Cartier divisor. Its two rulings expose the asymmetry
+between the class of C and the class of a hypersurface section.
+This geometry simultaneously explains the three-equation
+presentation and why the quadric cannot serve as one of two
+set-theoretic defining equations. The smooth-carrier obstruction
+extends the same divisor-class viewpoint beyond the quadric.
+
+
 
 ### P-002: characteristic-free geometry of a smooth rational quartic
 
@@ -147,7 +184,16 @@ Its discriminant is \(-60\), a contradiction. Thus each defining hypersurface
 is singular at at least one point of \(C\). This does not say that it is
 singular at the generic point.
 
-## Affine equations and the projective boundary
+## Compactifying affine pencils: the boundary at infinity
+
+An affine complete-intersection description need not compactify
+to a supported projective complete intersection. The missing
+geometric datum is the divisor cut out at infinity: common
+leading factors create additional boundary curves. The
+coprimality test below is an exact boundary criterion, not
+merely a convenient homogenization calculation.
+
+
 
 ### P-007: an exact affine-to-projective boundary criterion
 
@@ -243,7 +289,17 @@ must therefore be indecomposable in this case, and any STCI presentation must
 have generic multiplicity at least three.
 
 
-## Complement pencils and positive line bundles
+## The complement morphism and its graph blowup
+
+Removing C turns a supported pair into a base-point-free
+pencil and hence a morphism to the projective line. Conversely,
+the positivity and extension properties of the complement
+recover global homogeneous equations. The graph blowup is
+the natural geometric compactification of this morphism.
+This equivalence captures existence exactly but does not
+itself construct the required pencil.
+
+
 
 ### P-029: complement morphisms and two-generated positive line bundles
 
@@ -306,7 +362,18 @@ Rees description can acquire an extraneous component.  The reformulation is
 exact, but by itself it does not construct the morphism or a two-section
 generating pair.
 
-## Chow determinant and the sole-support certificate
+## The Chow form as a global cycle detector
+
+The Grassmannian of lines supplies a coordinate-free
+description of the fundamental cycle of a complete
+intersection. Restricting the two hypersurfaces to its
+universal line produces a resultant section; its divisor
+records the components with multiplicity. This detects
+sole support globally while forgetting the special-point
+scheme structure, so it is a certificate rather than a
+construction of supported equations.
+
+
 
 ### P-033: the global Chow-resultant certificate
 
@@ -409,7 +476,16 @@ chosen first-normal frame.  Mathematically it is the classical Chow form of a
 complete-intersection cycle, hence a reformulation and certificate rather
 than a new existence theorem.
 
-## Ordinary K-theory and its precise limitation
+## Why ordinary K-theory sees only degree divisibility
+
+The complement also carries a K-theoretic shadow of a
+base-point-free pencil. In this case that shadow reduces
+to the Bezout divisibility condition. The calculation
+below is useful for identifying the precise limit of
+coarse invariants: it cannot distinguish the multiple
+structures or endpoint gluing needed for an STCI.
+
+
 
 ### P-034: ordinary K-theory retains only the Bezout divisibility
 
@@ -794,7 +870,19 @@ ground-field equations is a separate arithmetic question. These are scope
 boundaries and questions, with no assertion that the corresponding extensions
 have been established.
 
-## Flat limits, generator conditions and affine source scope
+## The supported Hilbert locus and its full torus boundary
+
+The Hilbert scheme retains the whole ideal of an
+intersection under degeneration, including syzygies and
+additional initial generators. A torus-fixed limit of a
+supported complete intersection is therefore a necessary
+boundary object, but it need not remain a complete
+intersection. The correct geometric test is whether such
+a fixed supported point lies in the closure of the
+supported complete-intersection locus, not whether two
+eigenforms alone cut it out.
+
+
 
 ### Invariant support and the full torus limit
 
