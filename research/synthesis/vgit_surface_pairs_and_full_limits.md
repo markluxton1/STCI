@@ -415,6 +415,76 @@ supported graph strata, their full fixed-ideal classification or fibers, the
 refined wall fan, or any supported CI existence/exclusion. The unrestricted
 characteristic-zero STCI question remains open.
 
+## 7. Common-factor rank-drop law, prime-ideal boundary dichotomy, and the double-sextic sub-Grassmannian
+
+*(Authored by Gemini on `evaluate_toric_integration_stci`; independently reviewed by Gemini subagent and verified in `verify_vgit_surface_pairs.py`.)*
+
+We now execute steps 1 and 2 of the bounded program above by establishing the exact multiplication-map rank drop across the common-factor boundary \(\Delta_d^{\mathrm{cf}} = X_d \setminus U_d\), classifying the boundary dichotomy forced by \(J_0 \subset I_C\) on \(\Gamma_6^{\mathrm{supp}}\), and determining the intrinsic \(T\)-weight structure of the double-surface spaces \(V_{d,2} = H^0(\mathcal I_C^2(d))\) and the double-sextic sub-Grassmannian \(\operatorname{Gr}(2, V_{6,2}) \subset X_6\).
+
+### 7.1 Universal rank-drop and degreewise cancellation-degree lemma on \(\Gamma_d\)
+
+Stratify the non-proper boundary \(\Delta_d^{\mathrm{cf}} = X_d \setminus U_d\) by the common-factor degree \(e = \deg \gcd(W_0) \in \{1, \dots, d-1\}\):
+\[
+  \Delta_d^{\mathrm{cf}}(e) := \bigl\{[W_0] \in X_d : \deg \gcd(W_0) = e\bigr\}.
+\]
+Every \(W_0 \in \Delta_d^{\mathrm{cf}}(e)\) factors uniquely up to scalars as \(W_0 = D_e \cdot W'_{d-e}\), where \(D_e = \gcd(W_0) \in S_e\) and \(W'_{d-e} = \langle A_{d-e}, B_{d-e} \rangle \in \operatorname{Gr}(2, S_{d-e})\) is a coprime pencil (\(\gcd(A_{d-e}, B_{d-e}) = 1\)).
+
+**Lemma (Common-factor rank drop and first degreewise cancellation degree).** Let \([W_0] \in \Delta_d^{\mathrm{cf}}(e)\) with \(1 \le e \le d-1\), and let \(H_{\mathrm{CI}(d,d)}(n) = 2 N_{n-d} - N_{n-2d}\) be the Hilbert function of a proper \((d,d)\) complete intersection in \(\mathbf P^3\).
+1. *(Exact syzygy and rank drop in all characteristics:)* Because \(A_{d-e}, B_{d-e}\) form a regular sequence in \(S\), the kernel of the multiplication map \(\mu_n(W_0): W_0 \otimes S_{n-d} \to S_n\) is a free \(S\)-module of rank \(1\) generated in degree \(2d - e\) by the cancelled Koszul syzygy \((B_{d-e}, -A_{d-e})\). Hence for every \(n \ge 0\),
+   \[
+     \dim(W_0)_n = 2 N_{n-d} - N_{n - 2d + e}, \qquad
+     \Delta\operatorname{rank}_n(e) := H_{\mathrm{CI}(d,d)}(n) - \dim(W_0)_n = N_{n - 2d + e} - N_{n - 2d}. \tag{10}
+   \]
+2. *(Degreewise Grassmannian limit and cancellation class:)* For any one-parameter family \(W_\tau \in U_d\) converging to \((W_0, J_0) \in \Gamma_d\), let \(L_n := \lim_{\tau\to 0} (W_\tau)_n \in \operatorname{Gr}(H_{\mathrm{CI}(d,d)}(n), S_n)\) be the degreewise limit subspace. Since \((W_0)_n \subset L_n \subset (J_0)_n\):
+   - For all \(n < 2d - e\), \(\dim(W_0)_n = 2 N_{n-d} = \dim L_n\), so \(L_n = (W_0)_n\).
+   - At \(n = 2d - e\), \(\dim L_{2d-e} - \dim(W_0)_{2d-e} = N_0 - N_{-e} = 1\), so \(L_{2d-e}\) contains a unique projective cancellation line \([G_{2d-e}] \in \mathbf P\bigl(S_{2d-e}/(W_0)_{2d-e}\bigr)\). If \(W_\tau = \langle D_e A_{d-e} + \tau^k \tilde F_d + O(\tau^{k+1}),\, D_e B_{d-e} + \tau^k \tilde G_d + O(\tau^{k+1})\rangle\) with \(B_{d-e}\tilde F_d - A_{d-e}\tilde G_d \notin (W_0)_{2d-e}\), then \(G_{2d-e} = B_{d-e}\tilde F_d - A_{d-e}\tilde G_d\) spans \(L_{2d-e}/(W_0)_{2d-e}\).
+   - Because \(J_0\) is the saturation of \(L = \bigoplus_{n\ge 0} L_n\), \(\dim\bigl((J_0)_n/(W_0)_n\bigr) \ge N_{n-2d+e} - N_{n-2d}\) for all \(n \ge 0\), with equality for all \(n \gg 0\) (and equality for all \(n \ge 0\) whenever \(J_0\) is arithmetically Cohen–Macaulay, in which case the first extra minimal generator of \(J_0\) modulo \((W_0)\) occurs in degree **\(2d - e\)**).
+
+Formula (10) explains conceptually why the residual control (4) (where \(W_- = \langle q^3, b_4 q\rangle\) has \(\gcd(W_-) = q\) of degree \(e = 2\)) acquires its extra minimal generator in degree \(2\cdot 6 - 2 = 10\) with character discrepancy proportional to \(N_{n-10} - N_{n-12}\) in (6).
+
+### 7.2 Prime-ideal dichotomy on the supported graph boundary \(\Gamma_6^{\mathrm{supp}}\)
+
+Suppose \((W_0, J_0) \in \Gamma_6^{\mathrm{supp}} \subset X_6 \times H_9\) lies over \(\Delta_6^{\mathrm{cf}}(e)\) (\(1 \le e \le 5\)), and write \(W_0 = D_e \cdot \langle A_{6-e}, B_{6-e}\rangle\) with \(\gcd(A_{6-e}, B_{6-e}) = 1\). Because \(D_e \cdot (A_{6-e}, B_{6-e}) = (W_0) \subset J_0 \subset I_C\) and \(I_C\) is a **prime ideal**, every such boundary pencil falls into one of two geometric types:
+
+1. **Carrier-factor boundary (\(D_e \in V_e = H^0(\mathcal I_C(e))\), \(e \in \{2, 3, 4, 5\}\)):**
+   Since \(V_1 = 0\), a common factor vanishing on \(C\) must have degree \(e \in \{2, 3, 4, 5\}\), with first degreewise cancellation degree \(12 - e \in \{10, 9, 8, 7\}\). The centered \(T\)-weight profiles of the carrier-factor spaces \(V_e\) (\(e = 2, 3, 4, 5\)) are:
+
+   | Degree \(e\) | \(\dim V_e\) | Centered weight range | Centered weight profile of \(V_e\) | First cancellation degree \(12 - e\) |
+   | :---: | :---: | :---: | :--- | :---: |
+   | \(2\) | \(1\) | \(0 \dots 0\) | \([1]\) (spanned by \(q\)) | \(10\) |
+   | \(3\) | \(7\) | \(-3 \dots 3\) | \([1, 1, 1, 1, 1, 1, 1]\) | \(9\) |
+   | \(4\) | \(18\) | \(-5 \dots 5\) | \([1, 2, 1, 2, 2, 2, 2, 2, 1, 2, 1]\) | \(8\) |
+   | \(5\) | \(35\) | \(-7 \dots 7\) | \([1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 1]\) | \(7\) |
+
+   In particular, for \(e = 2\), \(D_2 = q\) has centered weight \(0\), so the carrier-factor stratum \(q \cdot \operatorname{Gr}(2, S_4)_{\mathrm{prop}} \subset \Delta_6^{\mathrm{cf}}(2)\) has dimension \(2(35 - 2) = 66\) and centered Plücker weights in \([-15, 15]\) (since \(S_4[\pm 8]\) are \(1\)-dimensional).
+
+2. **Coprime-carrier-pencil boundary (\(D_e \notin I_C\) and \(\langle A_{6-e}, B_{6-e}\rangle \in U_{6-e} \subset \operatorname{Gr}(2, V_{6-e})\), \(e \in \{1, 2, 3\}\)):**
+   If \(D_e \notin I_C\), primality of \(I_C\) forces both \(A_{6-e}\) and \(B_{6-e}\) into \(V_{6-e} = H^0(\mathcal I_C(6-e))\), so \(\langle A_{6-e}, B_{6-e}\rangle \in U_{6-e}\) is a proper complete-intersection pencil of degree \((6-e, 6-e)\) containing \(C\). Because \(V_1 = 0\) and \(\dim V_2 = 1\) (\(\operatorname{Gr}(2, V_2) = \emptyset\)), this type is **impossible for \(e \in \{4, 5\}\)**: it can occur only for \(e \in \{1, 2, 3\}\) (\(6 - e \in \{5, 4, 3\}\)). Furthermore, at any \(T\)-fixed point \((W_0, J_0)\) of this type in characteristic zero, \(\langle A_{6-e}, B_{6-e}\rangle \in U_{6-e}^T\) is a \(T\)-invariant proper complete intersection containing \(C\); by the eigenform theorem ([R-0001](../results/R-0001-global-splitting-obstruction-for-the-model-rational-quartic.md)), \(V(A_{6-e}, B_{6-e})\) cannot be sole-supported on \(C\), so it has a non-empty residual curve \(R' \not\subset C\) of degree \((6-e)^2 - 4m'\), and the extra generators of \(J_0\) modulo \((W_0)\) must vanish on \(C\) while cutting out \(I_C\)-primary support by eliminating \(R'\).
+
+### 7.3 Intrinsic quadric-restriction sequence for \(V_{d,2}\) and the double-sextic sub-Grassmannian \(\operatorname{Gr}(2, V_{6,2})\)
+
+Let \(V_{d,2} = H^0(\mathbf P^3, \mathcal I_C^2(d))\) be the space of degree-\(d\) surfaces singular along \(C\). Because \(C \subset Q = V(q)\) is a smooth divisor of bidegree \((1, 3)\) on the smooth quadric \(Q \cong \mathbf P^1 \times \mathbf P^1\) and \(q\) is part of a regular system of parameters along \(C\), \(\mathcal I_C^2 / (q \cdot \mathcal I_C) \cong \mathcal I_{C/Q}^2 \cong \mathcal O_Q(-2, -6)\). Twisting by \(\mathcal O_{\mathbf P^3}(d)\) gives the exact sequence of sheaves
+\[
+  0 \longrightarrow \mathcal I_C(d-2) \xrightarrow{\;\cdot q\;} \mathcal I_C^2(d) \longrightarrow \mathcal O_Q(d-2,\, d-6) \longrightarrow 0. \tag{11}
+\]
+
+**Proposition (Intrinsic structure and \(T\)-weight profile of \(V_{d,2}\) for \(d \ge 4\)).** In every characteristic, \(H^1(\mathbf P^3, \mathcal I_C(d-2)) = 0\) for all \(d \ge 4\), so (11) induces a \(T\)-equivariant short exact sequence of global sections:
+\[
+  0 \longrightarrow V_{d-2} \xrightarrow{\;\cdot q\;} V_{d,2} \longrightarrow H^0\bigl(Q,\, \mathcal O_Q(d-2,\, d-6)\bigr) \longrightarrow 0 \qquad (\forall\, d \ge 4). \tag{12}
+\]
+Consequently:
+1. For \(d = 4\) and \(d = 5\), \(H^0(Q, \mathcal O_Q(d-2, d-6)) = 0\), so \(V_{4,2} = q \cdot V_2 = k \cdot q^2\) (\(\dim = 1\), centered weight \(0\)) and \(V_{5,2} = q \cdot V_3\) (\(\dim = 7\), centered weights \(-3 \dots 3\) of multiplicity \(1\)): **every quartic or quintic singular along \(C\) is divisible by \(q\)**.
+2. For all \(d \ge 5\), \(H^1(Q, \mathcal O_Q(d-2, d-6)) = 0\) as well, so \(H^1(\mathbf P^3, \mathcal I_C^2(d)) = 0\), the conormal evaluation \(V_d \to H^0((\mathcal I_C/\mathcal I_C^2)(d))\) is surjective in every weight, and for each centered weight \(w \in [-2d, 2d]\):
+   \[
+     \dim V_{d,2}[w] = \max\bigl(0,\, \dim S_d[w] - 3\bigr) \qquad (\forall\, d \ge 5). \tag{13}
+   \]
+3. For **\(d = 6\)**, \(\dim V_{6,2} = \dim V_4 + \dim H^0(\mathcal O_Q(4, 0)) = 18 + 5 = 23\), supported on the \(13\) centered weights \(-6 \dots 6\) with symmetric profile
+   \[
+     \dim V_{6,2}[w] = (1, 1, 2, 2, 2, 2, 3, 2, 2, 2, 2, 1, 1) \qquad (w = -6, \dots, 6).
+   \]
+   On the double-sextic sub-Grassmannian \(X_{6,2} := \operatorname{Gr}(2, V_{6,2}) \subset X_6\) (\(\dim X_{6,2} = 42\)), the exterior square \(\bigwedge^2 V_{6,2}\) has dimension \(\binom{23}{2} = 253\) and its centered Plücker weights fill the \(23\) integers **\(-11, \dots, 11\)** (with \(22\) open chambers and at most \(23 \cdot 24 / 2 = 276\) extremal-weight blocks).
+4. For **\(d = 8\)**, \(\dim V_{8,2} = \dim V_6 + \dim H^0(\mathcal O_Q(6, 2)) = 59 + 21 = 80\), supported on the \(21\) centered weights \(-10 \dots 10\) with \(\dim V_{8,2}[w] = \dim S_8[w] - 3\).
+
 ## Evidence and independent review
 
 The written arguments prove the primary-power and proper-limit lemmas.
