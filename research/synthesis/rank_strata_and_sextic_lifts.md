@@ -1,9 +1,31 @@
-# Varying actual-source lifts: rank strata, a unique sextic lift, and a finite open-chart certificate
+# Geometric incidence and degeneracy loci for actual sextic lifts
 
 **Status:** independently reviewed provisional mathematical contribution; no canonical result is promoted. The general statements are proved below by linear algebra over rings. The sextic application inherits the reviewed characteristic-zero source and coefficient identifications in [the conditional sextic calculation](normalization_conductor_phase2_addendum.md); those computations were not rerun.
 
 The curve in the application is the fixed embedding
 \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\) over an algebraically closed field of characteristic zero. The relevant carrier lane is the conditional degree-(6,16), full generic coprime normal CI-(2,12), actual saturated movement-two first-relation lane. These hypotheses do not classify arbitrary pairs. Properness and sole support are separate from every finite lifting test below.
+
+## Geometric orientation: the space of equations over the space of roots
+
+The geometric object is an incidence scheme over a parameter space of
+possible normal roots and auxiliary data. Its points are not arbitrary
+normal coefficients: they represent actual homogeneous sections
+satisfying prescribed compatibility conditions. A bundle map records
+these conditions, and a target section records the requested lift.
+
+Where the map has constant rank in the scheme-theoretic determinantal
+sense, its cokernel is a vector bundle. The obstruction is then a
+section of that bundle, and the solvable locus is its zero scheme.
+This is the intrinsic content of the matrix calculations. Rank-drop
+loci are geometric degeneracy loci, not exceptional rows to discard.
+
+For the retained sextic model, the admissible root open avoids the
+single rank-drop root. The resulting injective map gives uniqueness
+of a compatible actual sextic whenever one exists. This is a
+statement about the low-order incidence, not existence of a degree-
+sixteen mate or sole support. The finite pivot calculations later
+provide exact local certificates for this geometric zero-locus
+problem; they are not its conceptual definition.
 
 ## 1. What is already covered, and the added contribution
 
@@ -11,7 +33,18 @@ The curve in the application is the fixed embedding
 
 The useful additions here are: an exact bundle/functor formulation, including nonreduced-base safeguards; an exact description of the rank-drop root in the stated sextic coefficient model; the consequent uniqueness of the compatible actual sextic throughout the actual-pair-admissible root open; and an explicit pivot-residual/unit-ideal completion test that eliminates all cubic lift/correction variables without dropping an open boundary.
 
-## 2. The family theorem, with the necessary base assumptions
+## 2. A bundle-map incidence theorem on determinantal strata
+
+A lifting problem in a family is naturally an affine incidence
+scheme inside the total space of a vector bundle. On each
+scheme-theoretic constant-rank stratum, its image and cokernel
+become bundles and the obstruction is a well-defined section.
+The zero scheme controls local solvability; when the kernel is
+nonzero, the space of lifts is a torsor rather than a canonically
+chosen lift. The ring-level proof below is what makes this
+geometric formulation valid even over nonreduced parameter bases.
+
+
 
 Let \(B\) be a scheme and let \(V,U,S,T\) be finite locally free \(\mathcal O_B\)-modules. Let
 \[
@@ -47,7 +80,16 @@ If \(\sigma\) is locally split of constant rank, one can first restrict to \(s\i
 \]
 provided the combined correction map \(U\oplus K\to T\) has its own locally split constant rank. Formula (1) works without making either of these preliminary choices and remains valid when the ranks change.
 
-## 3. Generic and special solvability do not substitute for each other
+## 3. Why degeneracy boundaries cannot be inferred from generic fibers
+
+Solvability is closed *within* a locally split rank stratum, but
+need not be closed across rank jumps. A generic solution can
+escape to infinity in the affine lift bundle, and a special
+fiber can gain new solutions. These elementary examples explain
+why a geometric argument must retain every determinantal
+boundary rather than extrapolate from the generic root.
+
+
 
 These examples concern actual linear incidence over \(\mathbf A^1_x\), not a failure of nonlinear geometry.
 
@@ -57,7 +99,18 @@ These examples concern actual linear incidence over \(\mathbf A^1_x\), not a fai
 
 On an irreducible reduced constant-rank stratum the solvability locus is closed. A generic solution then forces the obstruction section to vanish on that whole stratum, and every geometric point is solvable there. A generic exclusion says only that its closed zero locus is proper, and does not establish emptiness. Passing between different rank strata remains a separate task. Compactifying lift variables projectively also does not repair the first example: the homogenized limit has homogenizing coordinate zero, so it does not give a lift in the original affine problem.
 
-## 4. Intrinsic actual-source incidence and source rank jumps
+## 4. Global equation spaces, evaluation, and jumping kernels
+
+The natural source is the space of actual homogeneous equations
+through the embedded curve, not a freely chosen collection of
+normal jets. In families, evaluation on a finite neighborhood
+produces a morphism of bundles when cohomology and base change
+justify it. If source dimensions jump, the correct incidence
+retains ambient coefficients and imposes their containment
+equations, rather than replacing them by a prematurely formed
+kernel bundle.
+
+
 
 The invariant object is the incidence of **actual homogeneous sections**, not independently selected normal coefficients. For a fixed embedded curve and fixed \((d,r)\), take the entire accepted source
 \[
@@ -81,7 +134,18 @@ Then (1)–(3) apply to the stacked map; the actual fiber source can jump withou
 
 The 33-plus-40 sextic coefficient target below is the **accepted coordinate jet model**. Its 40 cubic coefficients should not be silently identified with an intrinsic \(H^0(\operatorname{Sym}^3N_C^\vee(6))\): they record the chosen affine normal expansions and their allowed correction model. The actual source-to-coefficient map and the validity of that model are inherited inputs. Basis-free incidence does not prove unestablished comparison or gluing maps.
 
-## 5. Exact sextic rank-drop locus
+## 5. The exceptional root as a degeneracy locus
+
+The sextic correction map has a simple geometric exceptional
+configuration: the quadratic normal root becomes the square
+of the distinguished linear direction. Exactly there the cubic
+direction supplied by the quadric cube lies in the correction
+image. The resulting rank drop is a geometric alignment of
+normal directions, not an accidental matrix cancellation.
+The following calculation proves that this is the only
+rank-drop point in the stated coefficient model.
+
+
 
 Retain the characteristic-zero balanced coordinates of the addendum. Set
 \[
@@ -115,7 +179,16 @@ This means a nonzero quartic section, not that it is nonzero at every base point
 
 The rank-drop point in (8) fails (9). Therefore \(B_f\) has full column rank seventeen on **all** of the actual-pair-admissible open (9), including singular roots, collisions, multiplier zeros, and endpoint strata that satisfy the other retained hypotheses. The broader open \([f]\ne[q_1^2]\) also has rank seventeen. Removing (8) does not remove every root divisible by \(q_1\), whereas (9) does; the actual-pair open is the justified smaller domain.
 
-## 6. Unique compatible actual sextic on that open
+## 6. The obstruction-bundle zero locus and uniqueness of a lift
+
+On the admissible root open the full actual-source map is
+injective. Its cokernel bundle carries the obstruction section,
+whose zero scheme is precisely the compatible low-order
+incidence. Injectivity means that a successful lift is unique
+and varies regularly, not that the zero scheme is nonempty
+or has its expected codimension.
+
+
 
 Let \(V=H^0(\mathcal I_C^2(6))\), with accepted dimension 23, second-symbol map \(\rho_2:V\to S_2\) of rank 22, \(\dim S_2=33\), and kernel \(kq^3\). Let \(\tau_3:V\to T_9\) be the accepted linear cubic-coefficient map, so \(\tau_3(q^3)=\theta\). For root/multiplier/cubic-target data, write the target as \((\alpha f,\alpha G_0)\) in this model. Use the complete block map
 \[
@@ -136,7 +209,17 @@ The cokernel now has rank 23. Once (11) is solvable, all seventeen unknowns are 
 
 The number 34 is eleven symbol conditions plus a rank-23 cubic quotient. It does **not** assert that thirty-four scalar equations cut the nonlinear root parameter space in expected codimension, or that those equations are independent as functions of root parameters. The low-order incidence is closed relative to its stated open/bundle base. Its closure in the full root space, other spectral/root incidences, and the full actual-pair image need not be the same closed set.
 
-## 7. A finite completion test on each retained open
+## 7. Pivot charts as local equations for the geometric zero locus
+
+A nonzero maximal minor trivializes the image subbundle.
+The remaining equations are local defining equations of the
+cokernel-section zero locus. Covering all pivot opens gives
+a finite exact test on the declared parameter domain; using
+only a convenient minor risks discarding legitimate boundary
+solutions. The residual polynomials below are computational
+certificates for this bundle-theoretic statement.
+
+
 
 This is an exact route to completing a specified low-order coefficient chart; it is not a report that a pending chart calculation was performed.
 
