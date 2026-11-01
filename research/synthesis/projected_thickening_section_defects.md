@@ -285,6 +285,29 @@ Reduction of a power or binary-mixture source to D induces a map from its source
 
 For an arbitrary hypothetical supported CI, its primary lift need not have this two-equation presentation or be ACM. Moreover its downstairs coordinate ring A is CM, so the exact sequence \(0\to A\to B\to B/A\to0\), with \(H^0_{\mathfrak m}(B)=0\), forces \(H^0_{\mathfrak m}(B/A)=0\). Requesting a nonzero class in that group states a contradiction target; it does not independently produce such a class. The family theorem supplies no all-pair persistence map, no upper conductor-boundary budget, and no positive residual-degree estimate.
 
+## Torus-equivariant grading of the quadratic cover, missing sections, and conductor norm
+
+*(Authored by Gemini on `evaluate_toric_integration_stci`; independently reviewed by Gemini subagent and verified in [`verify_toric_conductor_and_endpoint_defects.py`](../computations/verify_toric_conductor_and_endpoint_defects.py).)*
+
+Under the curve's preserving \(\mathbf G_m\)-action \(T\) with centered weights \(\operatorname{wt}(a, b, c, d) = (-2, -1, 1, 2)\) (uncentered \((0, 1, 3, 4)\)), the branch quadric \(r = 2bc - ad\) has centered weight \(0\) (uncentered weight \(4\)). Assigning \(z\) **centered weight \(0\)** (uncentered weight \(2\), matching \(z = s^2 t^2\) on the rational normal quartic \(D \subset \mathbf P^4\)) makes \(E = S[z]/(z^2 - r)\), the finite double cover \(\pi: Q_3 = \operatorname{Proj} E \to \mathbf P^3\), and the involution \(\sigma(z) = -z\) **strictly \(T\)-equivariant** in every characteristic:
+
+1. **\(T\)-weight structure of the power source and missing Rao classes:**
+   In \(E = S[z]/(z^2 - r)\), the upstairs complete-intersection generators \(f = b^2 - az\) and \(g = c^2 - dz\) are \(T\)-eigenforms of centered weights \(-2\) and \(+2\), respectively. For \(f^u = P_u + Q_u z\) and \(g^v = R_v + T_v z\) (\(Q_u = a q_u, T_v = d t_v\)):
+   - \(P_u, Q_u\) have centered weight \(-2u\), and \(q_u\) has centered weight \(-2(u - 1)\);
+   - \(R_v, T_v\) have centered weight \(+2v\), and \(t_v\) has centered weight \(+2(v - 1)\);
+   - The Jacobian-socle polynomial \(H_{uv} = q_u t_v\) (of degree \(2u + 2v - 4\)) and the missing ambient section \(H_{uv} z \in (B_{uv}/A_{uv})_{2u+2v-3}\) are **\(T\)-eigenforms of centered weight \(2(v - u)\)** (centered weight \(0\) in the symmetric case \(u = v\)).
+   Because the basis \(1, b, c, bc\) of \(\bar S / (\bar X, \bar Y) = k[b, c]/(b^2, c^2)\) has degrees \((0, 1, 1, 2)\) and centered weights \((0, -1, +1, 0)\), the \(4\)-dimensional injected irrelevant-torsion / Rao submodule in \(H^1(\mathbf P^3, \mathcal I_{Y_{uv}}(*))\) decomposes into exact \(T\)-weight lines:
+   - Degree \(e = 2u + 2v - 3\) (\(\dim \ge 1\), spanned by \(H_{uv} z\)): centered weight **\(2(v - u)\)**;
+   - Degree \(e + 1 = 2u + 2v - 2\) (\(\dim \ge 2\), spanned by \(b H_{uv} z, c H_{uv} z\)): centered weights **\(2(v - u) - 1\) and \(2(v - u) + 1\)**;
+   - Degree \(e + 2 = 2u + 2v - 1\) (\(\dim \ge 1\), spanned by \(bc H_{uv} z\)): centered weight **\(2(v - u)\)**.
+   For the reduced curve (\(u = v = 1\)), \(B_D / A_{C_0} = k(-1)_{[0]}\) is spanned by \(z\) in degree \(1\) and centered weight \(0\).
+
+2. **\(T\)-graded conductor boundary and ambient quadratic norm:**
+   In the [separated quadratic-cover conductor setting](quadratic_covers_and_conductor_descent.md#81-ambient-quadratic-norms-force-conductor-postulation) (\(\operatorname{char} k \ne 2\)), for any \(T\)-invariant thickening \(J_0 \subset I_{C_0}\), the conductor ideal \(J_\Delta = \{h \in S : h z \in A\}\) and boundary quotient \(T_\Delta = S / J_\Delta\) are \(T\)-graded. Because \(\operatorname{wt}(z) = \operatorname{wt}(r) = 0\), any homogeneous weight vector \(h \in (J_\Delta)_d[w]\) lifts \(h z \in A_{d+1}[w]\) to \(P \in S_{d+1}[w]\) of the **same centered weight \(w\)**, and its ambient quadratic norm
+   \[
+     P^2 - r h^2 \in (J_0)_{2d+2}[2w]
+   \]
+   lies in degree \(2d + 2\) and even centered weight \(2w\). On the frontier degree rows \((6,6)\), \((5,8)\), \((8,8)\), and \((6,16)\) (with \(q = \lceil \alpha/2\rceil - 1\)), the postulation bound \(\delta \ge \alpha + \beta - 3 + 2\bigl[\binom{q+2}{3} - q\bigr]\) gives \(\delta \ge 13, 14, 27, 23\), respectively.
 
 ## Independent reconstruction and scope
 

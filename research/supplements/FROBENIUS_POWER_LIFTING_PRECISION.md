@@ -389,6 +389,35 @@ realizing it. They connect the arithmetic question to the
 [endpoint and saturation interfaces](../synthesis/fixed_surface_and_endpoint_algebras.md)
 without identifying distinct defect modules from those interfaces.
 
+## Torus-eigenform structure, \(\mu_p^{(1)}\)-orbit splitting in characteristic zero, and endpoint \(T\)-grading
+
+*(Authored by Gemini on `evaluate_toric_integration_stci`; independently reviewed by Gemini subagent and verified in [`verify_toric_conductor_and_endpoint_defects.py`](../computations/verify_toric_conductor_and_endpoint_defects.py).)*
+
+The prescribed powered-quartic family \((F_p, H_4^n)\) (\(p \ge 7\), \(3b + 4c = p\), \(a = p - b - c \ge 0\)) interacts directly with both the curve-preserving torus \(T = \mathbf G_m\) (centered weights \((-2,-1,1,2)\), uncentered \((0,1,3,4)\)) and the full ambient diagonal torus \(T_{\mathrm{amb}} = \mathbf G_m^3 \subset \operatorname{PGL}_4\):
+
+1. **Binomial \(T\)-eigenform weights and VGIT locus:**
+   Because \(3b + 4c = p\) and \(4a + b = 3p\), the carrier \(F_p = x_1^p - x_0^a x_2^b x_3^c\) is a binomial \(T\)-eigenform of degree \(p\), uncentered weight \(p\), and **centered weight \(-p\)**; the quartic mate \(H_4 = x_2^4 - x_0 x_3^3\) is a binomial \(T\)-eigenform of degree \(4\), uncentered weight \(12\), and **centered weight \(+4\)** (so \(H_4^n\) has centered weight \(+4n\)). Over \(\overline{\mathbf F}_p\), the special complete intersection \(J_0 = (F_p, H_4^n)\) is a \(T\)-fixed point in the unequal-degree VGIT bundle over \(\mathbf P(V_p)\) and lies in the intrinsic primary-power locus \(H_{pn}\) (\(I_C^{pn} \subset J_0 \subset I_C\)).
+
+2. **Ambient \(\mu_p^{(1)}\)-symmetry and characteristic-zero vs. characteristic-\(p\) cycle decomposition:**
+   Inside the ambient torus \(T_{\mathrm{amb}}\), consider the finite subgroup scheme
+   \[
+     \mu_p^{(1)} := \bigl\{[1 : \zeta : 1 : 1] : \zeta^p = 1\bigr\} \subset T_{\mathrm{amb}}, \qquad T \cap \mu_p^{(1)} = \{1\}.
+   \]
+   Because \(x_1\) enters \(F_p\) only through \(x_1^p\) and does not enter \(H_4\), the equations \(F_p\) and \(H_4\) are pointwise invariant under \(\mu_p^{(1)}\) over \(\mathbf Z\), and \(\mu_p^{(1)}\) commutes with the curve stabilizer \(T\):
+   - **In characteristic zero:** \(\mu_p^{(1)}(\overline{\mathbf Q}) \cong \mathbf Z / p\mathbf Z\) is étale of order \(p\), and on the open chart \(x_0 = 1\) the equations \(x_2^4 = x_3^3\) (\((x_2,x_3) = (\tau^3,\tau^4)\)) and \(x_1^p = x_2^b x_3^c = \tau^{3b+4c} = \tau^p\) split \(V(F_p, H_4)\) into the \(p\) distinct \(T\)-invariant smooth rational quartics
+     \[
+       C^{(k)} := \bigl\{[s^4 : \zeta_p^k s^3 t : s t^3 : t^4]\bigr\} = [1 : \zeta_p^k : 1 : 1] \cdot C_0 \qquad (k = 0, 1, \dots, p-1),
+     \]
+     giving the exact cycle decomposition \([V(F_p, H_4)] = [C_0] + \sum_{k=1}^{p-1} [C^{(k)}]\) (generic multiplicity \(1\) along \(C_0\) and residual degree \(4(p-1)\)). All \(p\) branches pass through the two \(T\)-fixed endpoints \(p_0 = [1:0:0:0]\) and \(p_\infty = [0:0:0:1]\).
+   - **In characteristic \(p\):** The group scheme \(\mu_p^{(1)} = \operatorname{Spec} k[\zeta]/(\zeta^p - 1)\) is connected and infinitesimal of length \(p\), so the \(p\) translates \(C^{(k)}\) coalesce scheme-theoretically into the sole-supported multiplicity-\(p\) intersection \(V(F_p, H_4)\) along \(C_0\).
+
+3. **Endpoint \(T\)-grading of the specialization root defect \(T = I_{Z_0}/I_{D_0}\):**
+   Because \(Z_0 = V_{X_0}(H_4)\) is \(T\)-invariant with singular locus along \(C_0\) restricted to \(\{p_0, p_\infty\}\), for any \(T\)-equivariant DVR trait specializing to \((F_p, H_4^n)\), the root closure \(D \subset X\) and its special fiber \(D_0\) are \(T\)-stable, and the zero-dimensional specialization defect module in (7)–(9) decomposes into opposite \(T\)-graded local endpoint modules:
+   \[
+     T = I_{Z_0}/I_{D_0} = T_{p_0} \oplus T_{p_\infty}, \qquad \operatorname{length} T_{p_0} + \operatorname{length} T_{p_\infty} = 1 + 2p^2 - p_a(D_K) > 0,
+   \]
+   parallel to the two local endpoint conductor quotients at \(p_0\) and \(p_\infty\) in the [tropical endpoint modification framework](../synthesis/tropical_thickenings_and_endpoint_duality.md).
+
 Independent reconstruction checked both directions of the finite-precision
 equivalence, global membership over Artin bases, scalar normalization and
 containment-preserving coefficient lifts, the new lower-multiplicity pair,
