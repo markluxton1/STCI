@@ -24,24 +24,12 @@ New research contributions should follow [the proposal and audit checklist](rese
 
 - `research/MAP.md` is a conceptual topic and interface map, not a formal dependency graph or new source of theorem authority. Maintain links to canonical records as new results are promoted; prefer mathematical consolidation to chronological accumulation.
 
-## Bounded integration while research continues
+## Standing integration and geometric-proof policy
 
-Use `restructure/mathematical-consolidation` as the integration branch for this
-cleanup. Define each pass by exact committed sources and selected mathematical
-contributions; record that scope and exclusions in the integration commit or PR.
-Assign one writer to each destination proof home and reconcile INDEX, MAP, STATE,
-FRONTIER and the selection guide together. Do not import competing source
-navigation or create another intake registry.
+Integrate only specified, committed mathematical contributions, preserving their exact hypotheses, proof status, counterexamples, and dependencies. Coordinate changes to INDEX, MAP, STATE, FRONTIER, AUTHORITY, and the decision guide when their navigation or status is affected. Do not establish a standing integration branch, intake registry, or compulsory worktree workflow. Independent review is required for consequential new arguments and changes of theorem scope; editorial changes do not promote provisional mathematics.
 
-Investigation owners retain control of their worktrees and can continue after
-committing a coherent checkpoint with its necessary support and review status.
-Preserve valuable untracked work in the checkpoint; naming a branch alone does
-not preserve it. Integrate fixed committed inputs selectively, without rebasing,
-renaming or deleting active investigators' files. A pass ends when its declared
-inputs are faithfully incorporated and reviewed, even if later research exists.
+**Prefer intrinsic and geometric proofs over calculations whenever possible.** Seek arguments through the embedded geometry, normal and conormal structures, intersection theory, finite modifications, deformation theory, or moduli interpretation before presenting a coordinate computation as the proof. A conceptual introduction to a calculation is not a replacement proof. When computation remains necessary, state the invariant geometric assertion it establishes, explain why the computation covers the claimed scope, and retain the smallest independently checkable certificate. Do not weaken a rigorous result to force a geometric narrative.
 
-Review preservation separately from new mathematical deductions. Reuse applicable
-review of unchanged arguments; changes in proof or scope need their own review.
-Integration does not promote a provisional result. Retire a source worktree only
-after its owner has finished or handed off and its remaining committed and
-uncommitted contributions and computational consumers have been reconciled.
+**Use torus symmetry systematically, but preserve the full object.** For each relevant research lane, ask what the full flat T-limit of an actual intersection, embedded scheme, or carrier retains; distinguish this from initial forms of two equations and from the normal-cone initial ideal. Record the invariant Hilbert polynomial, support, embedded/endpoint structure, and possible new generators. Identify whether the lane's claim covers arbitrary pairs, invariant pairs, constant transverse quotient families, or a specified degeneration. A fixed-point classification cannot exclude general supported complete intersections without a justified supported-deformation or coverage theorem.
+
+For each substantive revision, distinguish (i) an intrinsic proof replacing a calculation, (ii) a geometric reduction with a necessary calculation, and (iii) a computational result awaiting conceptual explanation. Audit the theorem's characteristic and degree hypotheses, and do not promote a new implication solely because a geometric interpretation is available.
