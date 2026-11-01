@@ -41,9 +41,9 @@ No new theorem or canonical status is asserted.
 The two attracting decompositions admit a common refinement. For fixed
 T-invariant ideals J_+, J_- in H_N, define the **opposite-limit
 intersection**
-[
-A(J_+,J_-)=A_+(J_+)cap A_-(J_-).
-]
+\[
+A(J_+,J_-)=A_+(J_+)\cap A_-(J_-).
+\]
 This is the locus of moving ideals with the *specified pair* of full flat
 limits. Its two-generator subset is
 [
@@ -86,3 +86,50 @@ examples are controls for the full-limit calculation but cannot be
 mistaken for points of H_N when residual curves survive. Exhaustive
 conclusions require a bound and coverage theorem; the pair refinement
 does not remove that obligation.
+
+## Comparison with the moving transverse quotient
+
+The opposite-limit labels should be compared with the **entire moving
+transverse quotient**, not only the finite algebra obtained from a
+constant quotient of the dense torus. For an actual sole-supported
+intersection, the finite modification over the parameter curve carries
+generic transverse length m=ab/4 and a possibly positive degree e.
+Its endpoint image lattices measure how the modification descends to
+the projective embedded scheme. The precise construction and
+characteristic scope belong to
+[the tropical modification theorem](tropical_thickenings_and_endpoint_duality.md)
+and [the endpoint-descent account](toric_quotients_and_endpoint_descent.md).
+
+For (6,6), the established necessary numerical relation in that model
+is delta_0+delta_infinity=e+153, with e positive in characteristic zero
+and in the stated prime-to-degree range. This equation constrains
+the *total* endpoint defect of one actual embedded quotient. It is
+not a formula for the difference between the two torus limits, nor
+does it determine either full limit ideal. In particular, one must
+not identify the two geometric endpoints of a single orbit closure
+with the t→0 and t→infinity limits in the Hilbert scheme.
+
+A precise comparison problem for a pair (J_+,J_-) is therefore:
+
+1. Start with a single supported moving ideal J and its entire
+   finite modification; retain the base-dependent transverse algebra,
+   its endpoint image lattices, and the actual homogeneous equation
+   module.
+2. Compute both flat limits of the **full ideal** J, and ask which
+   pieces of the quotient/endpoint data specialize functorially.
+   Establish a comparison morphism or a specialization statement
+   before equating defects or ranks across these objects.
+3. On the common opposite-limit attracting locus, test the graded
+   minimal-generator condition. A numerical endpoint budget alone
+   cannot certify or exclude two-generation.
+4. Only after establishing a comparison may one ask whether paired
+   endpoint profiles impose a new compatibility restriction beyond
+   the individual Hilbert-polynomial and defect budgets.
+
+This is a concrete **missing bridge**, not a proved identification.
+It keeps two different notions of endpoint separate and leaves room
+for moving, noncurvilinear and characteristic-dependent quotient
+families. A useful first test is a known proper sextic residual family
+where both full limits can be calculated, explicitly labeled as a
+control outside the sole-supported locus whenever residual support
+persists.
