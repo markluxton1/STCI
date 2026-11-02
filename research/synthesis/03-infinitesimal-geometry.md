@@ -63,7 +63,7 @@ These arrows express missing implications, not new nonexistence theorems.
 
 ### Initial generators versus the actual equation module
 
-The full initial ideal of an actual pair may have cancellation-generated generators beyond the two first normal forms. Its minimal graded generator module can also differ from the associated graded of the actual equation module J/IJ. The canonical comparison and its kernel are established in [R-0030](../results/local_filtration_comparison_defect.md), with a concrete local example in [the filtration synthesis](normal_filtration_boundary_obstructions.md#full-initial-ideals-and-the-filtered-equation-module).
+The full initial ideal of an actual pair may have cancellation-generated generators beyond the two first normal forms. Its minimal graded generator module can also differ from the associated graded of the actual equation module J/IJ. The canonical comparison and its kernel are established in [R-0030](../results/local_filtration_comparison_defect.md), with a concrete local example in [the filtration synthesis](normal_filtration_boundary_obstructions.md#from-exceptional-normal-divisors-to-the-full-filtered-equation-module).
 
 The comparison defect is supported where both carrier surfaces are singular along C. Whether it can be nonzero for a proper pair with sole reduced support C is unresolved. This distinction does not remove the actual-generator hypotheses of the complete-intersection bridge below.
 

@@ -56,7 +56,7 @@ For a singleton branch when X is generically regular along C, set a=H^2, c=H.Gam
 
 [Original theorem and recorded independent audits](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md).
 
-[Accepted October 14 state, Section 2](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/AUDITED_STATE_2026-10-14.md).
+[Accepted October 14 state, Section 2](https://github.com/markluxton1/STCI/blob/0b18029d3372b5cc91f5637965e4217e0967e735/research/AUDITED_STATE_2026-10-14.md).
 
 The complete source proof and its independent mathematical reconstructions survive in the current proof homes; no unrestricted STCI conclusion follows.
 

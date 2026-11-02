@@ -287,8 +287,8 @@ objects.
 
 All principal results have full proof text and separate review evidence; there is no uncompleted elimination computation underlying the reported claims. Mathematical validity rests on those proofs and independent reconstructions, including the separate adversarial review of A1.
 
-The package is committed on
-[the research branch](https://github.com/markluxton1/STCI/tree/codex/normal-cone-rigidity-2026-10-19).
+The package is recorded at
+[the research commit](https://github.com/markluxton1/STCI/tree/6be25be178b1e34e1209172f92dee6816e7aa87b).
 The exact closing commit is identified in the investigation message.
 Standard external inputs, with direct primary links, are identified in
 the respective source and audit notes.

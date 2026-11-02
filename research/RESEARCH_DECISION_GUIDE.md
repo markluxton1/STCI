@@ -111,7 +111,7 @@ support cannot acquire residual curves or disappear. This is a necessary
 condition for *every* hypothetical supported STCI, not merely for
 T-invariant defining equations.
 
-The [full flat-limit account](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope)
+The [full flat-limit account](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary)
 also explains the essential qualification: the invariant limit need not
 remain a complete intersection, or even admit two generators. Therefore
 excluding invariant **pairs of equations** with sole support is not enough.

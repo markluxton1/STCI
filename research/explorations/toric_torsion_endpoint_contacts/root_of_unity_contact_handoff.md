@@ -1,4 +1,4 @@
-# Toric carriers, transverse torsion, and involution
+# Root-of-unity arrangements and contact filtrations
 
 **Status:** Exploratory source document; not canonical theorem authority.
 **Date:** 2026-11-02

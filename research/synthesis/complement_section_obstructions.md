@@ -12,7 +12,7 @@ claims and proofs recorded here; no canonical STCI promotion follows.
 For the fixed characteristic-zero quartic
 \(C_0=[s^4:s^3t:st^3:t^4]\), the unrestricted STCI question remains open.
 The exact complement-pencil equivalence and its graph construction belong
-to [global equations](global_equations_and_constructions.md#complement-pencils-and-positive-line-bundles).
+to [global equations](global_equations_and_constructions.md#the-complement-morphism-and-its-graph-blowup).
 This chapter determines what the classical section test and the ordinary
 and primary quadratic characteristic classes can decide.
 
@@ -141,7 +141,7 @@ pair.
 
 The integral algebraic K-theory calculation is already proved, in the
 more general integral-curve setting, in
-[the ordinary K-theory account](global_equations_and_constructions.md#ordinary-k-theory-and-its-precise-limitation).
+[the ordinary K-theory account](global_equations_and_constructions.md#why-ordinary-k-theory-sees-only-degree-divisibility).
 With \(t=1-[\mathcal O(-1)]\), its conclusion is
 \[
  K_0(U)=\mathbf Z[t]/(t^3,d t^2).

@@ -104,7 +104,7 @@ is a characteristic-free section-count result, with a separate punctured-cover
 application when two is invertible. It describes a restriction on how the
 multiple structure can sit over the reduced curve, not an STCI exclusion.
 
-The [full torus-limit argument](synthesis/global_equations_and_constructions.md#flat-limits-generator-conditions-and-affine-source-scope)
+The [full torus-limit argument](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary)
 preserves reduced support C0 and Hilbert polynomial through the containments
 \(I_{C_0}^N\subset I_Z\subset I_{C_0}\). In characteristic zero, an invariant
 homogeneous CI ideal would admit weight-homogeneous generators and is excluded

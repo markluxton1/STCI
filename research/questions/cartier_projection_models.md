@@ -7,7 +7,7 @@ applicable_results:
   - STCI-R-0002
   - STCI-R-0004
 evidence:
-  - "https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
+  - "https://github.com/markluxton1/STCI/blob/a69956b9a4d4c0c1a7a5c23ce6442885e6fcef2d/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
 ---
 
 # Projection and conductor descent for the three Cartier singleton models
@@ -18,4 +18,4 @@ The remaining necessary work includes admissible four-coordinate projections, fu
 
 [STCI-R-0004](../results/projection_phase_reduction.md) reduces these admissible families to constructible phase images and torsion-coset questions, but does not compute those images or cosets.
 
-**Status:** OPEN. Evidence: [October 14 independent audit](https://github.com/markluxton1/STCI/blob/research/ultra-resume-2026-10-06/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md). This record does not claim that the theoretical decision procedures described in later Ultra continuation notes have been executed on these families.
+**Status:** OPEN. Evidence: [October 14 independent audit](https://github.com/markluxton1/STCI/blob/a69956b9a4d4c0c1a7a5c23ce6442885e6fcef2d/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md). This record does not claim that the theoretical decision procedures described in later Ultra continuation notes have been executed on these families.
