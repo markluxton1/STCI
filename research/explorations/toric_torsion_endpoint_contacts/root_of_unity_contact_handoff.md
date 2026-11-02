@@ -1,3 +1,17 @@
+# Toric carriers, transverse torsion, and involution
+
+**Status:** Exploratory source document; not canonical theorem authority.
+**Date:** 2026-11-02
+**Source:** ChatGPT mathematical exploration.
+**Consolidated account:** [Toric torsion and endpoint contacts](../../synthesis/toric_torsion_and_endpoint_contacts.md)
+
+This document preserves the original exploration, including
+intermediate arguments and unverified proposals. Consult the
+consolidated account and canonical result records before
+relying on a mathematical claim.
+
+---
+
 Root-of-Unity Arrangements, Contact Filtrations, and Torus Degenerations
 
 Mathematical synthesis for the STCI project
