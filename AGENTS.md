@@ -36,3 +36,23 @@ For each substantive revision, distinguish (i) an intrinsic proof replacing a ca
 
 
 **Strongly consider invariant-limit stratification.** For a fixed degree pair and bounded supported Hilbert locus, consider organizing ideals by their full T-invariant flat limit (attracting strata, with any required refinements). Where useful, on each attracting locus ask where the *moving ideal* has two homogeneous generators of the prescribed degrees. Do not require its fixed limit to be two-generated, and do not make tangent-space smoothing of selected fixed points the default research question. Examine graded minimal-generator modules, multiplication maps, and actual equation incidence; verify scheme-theoretic generation, not just two independent sections. State the boundedness, coverage and characteristic qualifications of any resulting stratification. This is a preferred lens, not a prerequisite for independent geometric arguments.
+
+## Four-object infrastructure during coexistence
+
+For new object authoring use [MODEL.md](research/MODEL.md), its four templates,
+and the generated [catalog](research/CATALOG.md). The current authority policy,
+existing records, and their evidence remain authoritative throughout the pilot;
+metadata validation does not certify mathematics or promote inherited claims.
+Every Result states its exact mathematics, hypotheses, quantifiers, and
+limitations in its own document. A separately located Argument must contain
+the actual complete proof. Keep alternative proof routes and their joint
+premises distinct, and record whether acceptance is inherited or reconstructed.
+
+Run `python3 -m unittest discover -s tests -v`,
+`python3 scripts/research.py validate`, and
+`python3 scripts/research.py catalog --check` after structural changes;
+`catalog` explicitly regenerates the view. Every enforced mechanical rule needs
+positive and deliberately invalid fixtures. Add no mathematical migration or
+computation reorganization to the infrastructure PR. Keep infrastructure and
+pilot PRs separate and unmerged into `main` until independent mathematical
+review, retrieval/reuse evaluation, and explicit user approval.

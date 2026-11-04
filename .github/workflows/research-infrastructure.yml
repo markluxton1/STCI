@@ -1,0 +1,44 @@
+name: Research object infrastructure
+
+on:
+  pull_request:
+    paths:
+      - "research/**"
+      - "scripts/research.py"
+      - "scripts/check_markdown_links.py"
+      - "scripts/requirements-research.txt"
+      - "scripts/templates/**"
+      - "tests/**"
+      - "AGENTS.md"
+      - ".github/workflows/research-infrastructure.yml"
+  push:
+    branches: [main]
+    paths:
+      - "research/**"
+      - "scripts/research.py"
+      - "scripts/check_markdown_links.py"
+      - "scripts/requirements-research.txt"
+      - "scripts/templates/**"
+      - "tests/**"
+      - "AGENTS.md"
+      - ".github/workflows/research-infrastructure.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structural-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install -r scripts/requirements-research.txt
+      - name: Positive and deliberately invalid infrastructure fixtures
+        run: python3 -m unittest discover -s tests -v
+      - name: Validate legacy and new object structure
+        run: python3 scripts/research.py validate
+      - name: Check deterministic catalog
+        run: python3 scripts/research.py catalog --check
