@@ -27,6 +27,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python3 -m pip install -r scripts/requirements-research.txt
       - name: Check exact arithmetic scripts and canonical metadata
         run: |
           set -euo pipefail

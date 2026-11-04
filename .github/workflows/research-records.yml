@@ -27,8 +27,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: python3 -m pip install -r scripts/requirements-research.txt
       - run: python3 research/computations/validate_records.py
-      - run: python3 -m pip install PyYAML
       - run: python3 research/computations/validate_result_records.py
 
   replay-r0025:

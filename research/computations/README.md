@@ -130,7 +130,9 @@ python3 -B research/computations/validate_result_records.py
 python3 -B scripts/check_markdown_links.py --anchors
 ```
 
-`validate_result_records.py` requires PyYAML. Verification status belongs
+Both record commands require the pinned PyYAML dependency in
+`scripts/requirements-research.txt`; `validate_records.py` is the compatibility
+entry point for the shared legacy/new-schema engine. Verification status belongs
 with the mathematical statement: distinguish a proof, a saved exact witness,
 a source inspection and an actual rerun. None implies an unrestricted STCI
 answer or an unperformed computation.
