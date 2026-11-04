@@ -194,9 +194,11 @@ not impose ordinary acyclicity on new alternative proof routes. Untyped
 expositions stay reachable through existing navigation; being in a directory
 does not promote them.
 
-The old validators and scientific CI jobs remain unchanged during this phase.
-Remove duplicate schema engines only after equivalent compatibility coverage
-has been demonstrated and the transition is reviewed. Scientific verifier
+The old `validate_records.py` command delegates to the shared engine, so valid
+typed records, quoted YAML keys, and aliases have a single interpretation.
+The existing indexed-result validator and scientific CI checks remain in place.
+Retire the indexed-result checker only after the transition is reviewed.
+Scientific verifier
 controls belong to the pilot or migration batch taking ownership of each
 verifier; a substantial scientific change is separately reviewed. Do not claim
 new negative-control coverage for an inherited check before it exists and passes.

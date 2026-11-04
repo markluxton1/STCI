@@ -128,25 +128,31 @@ class ResearchTests(unittest.TestCase):
 
     def test_legacy_validator_coexists_with_typed_records_and_keeps_legacy_checks(self):
         legacy = self.legacy()
-        legacy["dependencies"] = ["STCI-R-0001"]
+        legacy["dependencies"] = ["typed-result-alias"]
         legacy_path = self.root / "research/results/legacy.md"
         legacy_body = "---\n" + yaml.safe_dump(legacy) + "---\n# Legacy\n"
         legacy_path.write_text(legacy_body)
-        self.put(record())
+        self.put(record(aliases={"typed-result-alias": "#statement"}))
         status, output = self.run_stdlib_validator()
         self.assertEqual(0, status, output)
-        self.assertIn("Checked 1 canonical records; 0 error(s)", output)
+        self.assertIn("Checked 1 legacy canonical records; 0 error(s)", output)
+
+        # YAML permits quoted keys; detection must use the same YAML parser.
+        typed_path = self.root / "research/results/STCI-R-0001.md"
+        typed_original = typed_path.read_text()
+        typed_path.write_text(typed_original.replace("type: result", '"type": result'))
+        status, output = self.run_stdlib_validator()
+        self.assertEqual(0, status, output)
+        typed_path.write_text(typed_original)
 
         legacy["dependencies"] = ["STCI-R-9999"]
         legacy_path.write_text("---\n" + yaml.safe_dump(legacy) + "---\n# Legacy\n")
         status, output = self.run_stdlib_validator()
         self.assertNotEqual(0, status)
         self.assertIn("unknown dependencies ID STCI-R-9999", output)
-        legacy["dependencies"] = ["STCI-R-0001"]
+        legacy["dependencies"] = ["typed-result-alias"]
         legacy_path.write_text("---\n" + yaml.safe_dump(legacy) + "---\n# Legacy\n")
 
-        typed_path = self.root / "research/results/STCI-R-0001.md"
-        typed_original = typed_path.read_text()
         typed_path.write_text(typed_original.replace("type: result", "type: mystery"))
         status, output = self.run_stdlib_validator()
         self.assertNotEqual(0, status)
@@ -157,7 +163,7 @@ class ResearchTests(unittest.TestCase):
         legacy_path.write_text(legacy_path.read_text().replace("status: proved", "status: established"))
         status, output = self.run_stdlib_validator()
         self.assertNotEqual(0, status)
-        self.assertIn("invalid status", output)
+        self.assertIn("invalid legacy status", output)
 
     def test_all_types_and_open_question_in_completed_investigation(self):
         for kind in DIRECTORIES:
