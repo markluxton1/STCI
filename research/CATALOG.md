@@ -45,6 +45,49 @@ Legacy statuses and authority are inherited; they are not new-schema establishme
 | [STCI-R-0034](results/normal_carrier_index_socle.md) | Normal-carrier local Cartier-index and socle compatibility | legacy proved (inherited) | inherited legacy authority |
 | [STCI-R-0035](results/normal_carrier_bounded_index_exclusion.md) | Bounded-index normal-carrier exclusion for C0 | legacy proved (inherited) | inherited legacy authority |
 | [STCI-R-0036](results/pointwise_conductor_socle_defect.md) | Pointwise conductor contact and top-socle defect | legacy proved (inherited) | inherited legacy authority |
+| [STCI-R-0037](results/supported_hilbert_full_limits.md) | Bounded supported Hilbert loci and both full torus limits | provisional | [scope](results/supported_hilbert_full_limits.md#scope) |
+| [STCI-R-0038](results/torus_eigenvector_generator_lifting.md) | Equivariant lifting of graded minimal ideal generators | provisional | [scope](results/torus_eigenvector_generator_lifting.md#scope) |
+| [STCI-R-0039](results/moving_ideal_generator_criterion.md) | Minimal-generator criterion for moving height-two ideals | provisional | [scope](results/moving_ideal_generator_criterion.md#scope) |
+| [STCI-R-0040](results/invariant_supported_ci_exclusion.md) | Trace restriction on invariant supported complete-intersection ideals | provisional | [scope](results/invariant_supported_ci_exclusion.md#scope) |
+| [STCI-R-0041](results/prime_element_colon_identity.md) | Prime-element colon identity and its exact sequence | provisional | [scope](results/prime_element_colon_identity.md#scope) |
+| [STCI-R-0042](results/eigenform_trace_obstruction.md) | Trace obstruction for a supported pair with one eigenform | provisional | [scope](results/eigenform_trace_obstruction.md#scope) |
+| [STCI-R-0043](results/sextic_eigenpair_quotient_bound.md) | Sharp quotient length eight for proper sextic eigenpairs | provisional | [scope](results/sextic_eigenpair_quotient_bound.md#scope) |
+| [STCI-R-0044](results/local_residual_multiplicity.md) | Surface-power multiplicities and two local binomial certificates | provisional | [scope](results/local_residual_multiplicity.md#scope) |
+| [STCI-R-0045](results/colon_divisor_cycle.md) | Colon exact sequence for a surface-supported divisor cycle | provisional | [scope](results/colon_divisor_cycle.md#scope) |
+| [STCI-R-0046](results/sextic_three_generator_full_limit.md) | A saturated ACM full torus limit with generator degrees six six ten | provisional | [scope](results/sextic_three_generator_full_limit.md#scope) |
+| [STCI-R-0047](results/sextic_eigenpair_residual_controls.md) | Eigenpair controls with inseparable quotients and boundary lines | provisional | [scope](results/sextic_eigenpair_residual_controls.md#scope) |
+| [STCI-R-0048](results/moving_sextic_residual_limit.md) | Endpoint-avoiding residual curves with a full boundary limit | provisional | [scope](results/moving_sextic_residual_limit.md#scope) |
+| [STCI-R-0049](results/sextic_residual_absorption.md) | Residual multiplicity transfers onto the marked quartic in a flat family | provisional | [scope](results/sextic_residual_absorption.md#scope) |
+| [STCI-R-0050](results/torus_orbit_curve_degree.md) | Primitive orbit degrees and finite transverse quotient multiplicities | provisional | [scope](results/torus_orbit_curve_degree.md#scope) |
+| [STCI-R-0051](results/constant_embedded_orbit_image.md) | Finite embedded transverse quotients give pure orbit-image curves | provisional | [scope](results/constant_embedded_orbit_image.md#scope) |
+| [STCI-R-0052](results/orbit_image_endpoint_polynomial.md) | Endpoint lattices determine the Hilbert polynomial of a constant orbit image | provisional | [scope](results/orbit_image_endpoint_polynomial.md#scope) |
+| [STCI-R-0053](results/constant_quotient_equation_criterion.md) | Actual coefficient kernels and the exact complete-intersection test for a constant quotient | provisional | [scope](results/constant_quotient_equation_criterion.md#scope) |
+| [STCI-R-0054](results/embedded_quotient_endpoint_counterexamples.md) | Embedded quotient coordinates change endpoint genus and local Gorensteinness | provisional | [scope](results/embedded_quotient_endpoint_counterexamples.md#scope) |
+| [STCI-R-0055](results/flat_collision_of_orbit_images.md) | A flat genus-twenty-eight collision of compactified orbit families | provisional | [scope](results/flat_collision_of_orbit_images.md#scope) |
+| [STCI-R-0056](results/pure_curve_degree_exhaustion.md) | A closed subscheme exhausting the degree of a pure curve equals that curve | provisional | [scope](results/pure_curve_degree_exhaustion.md#scope) |
+
+## Arguments
+
+| ID | Title | Status | Scope / authority |
+| --- | --- | --- | --- |
+| [STCI-A-0001](arguments/torus_hilbert_boundary.md) | Supported Hilbert boundaries and generation of moving ideals | complete | [scope](arguments/torus_hilbert_boundary.md#scope) |
+| [STCI-A-0002](arguments/torus_sextic_residuals.md) | Sextic orbit quotients, residual curves, and full torus limits | complete | [scope](arguments/torus_sextic_residuals.md#scope) |
+| [STCI-A-0003](arguments/torus_embedded_quotients.md) | Constant embedded orbit families, endpoint descent, and actual equations | complete | [scope](arguments/torus_embedded_quotients.md#scope) |
+
+## Frameworks
+
+| ID | Title | Status | Scope / authority |
+| --- | --- | --- | --- |
+| [STCI-F-0001](frameworks/torus_supported_boundaries.md) | Full torus boundaries and equations of moving supported ideals | in_use | [scope](frameworks/torus_supported_boundaries.md#scope) |
+| [STCI-F-0002](frameworks/embedded_torus_quotients.md) | Embedded torus quotients and projective endpoint descent | in_use | [scope](frameworks/embedded_torus_quotients.md#scope) |
+
+## Investigations
+
+| ID | Title | Status | Scope / authority |
+| --- | --- | --- | --- |
+| [STCI-I-0001](investigations/supported-generator-incidence/index.md) | Two-equation incidence on bounded supported attracting families | planned | [scope](investigations/supported-generator-incidence/index.md#scope) |
+| [STCI-I-0002](investigations/quotient-hilbert-comparison/index.md) | Specialization between moving transverse quotients and full Hilbert limits | planned | [scope](investigations/quotient-hilbert-comparison/index.md#scope) |
+| [STCI-I-0003](investigations/torus-residual-controls/index.md) | Exact finite controls for embedded quotients and sextic residual limits | complete | [scope](investigations/torus-residual-controls/index.md#scope) |
 
 ## Legacy questions (coexistence)
 
@@ -76,12 +119,51 @@ Legacy statuses and authority are inherited; they are not new-schema establishme
 - STCI-R-0031: inherited references (dependencies) [STCI-R-0020, STCI-R-0021, STCI-R-0030]; no synthesized accepted route.
 - STCI-R-0033: inherited references (dependencies) [STCI-R-0032]; no synthesized accepted route.
 - STCI-R-0035: inherited references (dependencies) [STCI-R-0034, STCI-R-0001]; no synthesized accepted route.
+- STCI-R-0037: projective-supported-incidence; joint premises []; proof `research/arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits`; review accepted, reconstructed at `#review`.
+- STCI-R-0038: weight-decomposition-and-graded-nakayama; joint premises []; proof `research/arguments/torus_hilbert_boundary.md#equivariant-minimal-generator-lifting`; review accepted, reconstructed at `#review`.
+- STCI-R-0039: graded-generation-and-height-two; joint premises []; proof `research/arguments/torus_hilbert_boundary.md#the-moving-ideal-generator-test`; review accepted, reconstructed at `#review`.
+- STCI-R-0040: invariant-generator-lifting-and-trace; joint premises [STCI-R-0038, STCI-R-0042]; proof `research/arguments/torus_hilbert_boundary.md#invariant-supported-complete-intersections`; review accepted, reconstructed at `#review`.
+- STCI-R-0041: prime-cancellation; joint premises []; proof `#proof`; review accepted, reconstructed at `#review`.
+- STCI-R-0042: finite-free trace and graded-domain reduction; joint premises []; proof `research/arguments/torus_sextic_residuals.md#trace-obstruction-for-supported-pairs`; review accepted, reconstructed at `#review`.
+- STCI-R-0043: fixed-point incidence and degree exhaustion; joint premises [STCI-R-0047, STCI-R-0050]; proof `research/arguments/torus_sextic_residuals.md#the-sharp-sextic-eigenpair-bound`; review accepted, reconstructed at `#review`.
+- STCI-R-0044: parameter filtration and exact local reductions; joint premises []; proof `research/arguments/torus_sextic_residuals.md#local-multiplicity-and-binomial-certificates`; review accepted, reconstructed at `#review`.
+- STCI-R-0045: prime cancellation and generic lengths; joint premises [STCI-R-0044]; proof `research/arguments/torus_sextic_residuals.md#a-colon-formula-for-divisor-cycles`; review accepted, reconstructed at `#review`.
+- STCI-R-0046: Hilbert-Burch family and colon cycle; joint premises [STCI-R-0045]; proof `research/arguments/torus_sextic_residuals.md#the-saturated-three-generator-full-limit`; review accepted, reconstructed at `#review`.
+- STCI-R-0047: torus quotient and local boundary multiplicities; joint premises [STCI-R-0044, STCI-R-0050]; proof `research/arguments/torus_sextic_residuals.md#eigenpair-residual-controls`; review accepted, reconstructed at `#review`.
+- STCI-R-0048: quadric divisors and flat complete-intersection family; joint premises [STCI-R-0044]; proof `research/arguments/torus_sextic_residuals.md#moving-residual-curves-and-their-full-limit`; review accepted, reconstructed at `#review`.
+- STCI-R-0049: graph divisor specialization on the smooth quadric; joint premises [STCI-R-0044]; proof `research/arguments/torus_sextic_residuals.md#residual-absorption-in-a-proper-flat-family`; review accepted, reconstructed at `#review`.
+- STCI-R-0050: primitive monomial parametrization and generic localization; joint premises []; proof `research/arguments/torus_sextic_residuals.md#orbit-curves-and-finite-quotient-degree`; review accepted, reconstructed at `#review`.
+- STCI-R-0051: scheme image and finite charts; joint premises []; proof `research/arguments/torus_embedded_quotients.md#finite-image-and-purity`; review accepted, reconstructed at `#review`.
+- STCI-R-0052: finite modification exact sequence; joint premises [STCI-R-0051]; proof `research/arguments/torus_embedded_quotients.md#endpoint-defects-and-hilbert-polynomial`; review accepted, reconstructed at `#review`.
+- STCI-R-0053: actual source spaces and degree exhaustion; joint premises [STCI-R-0051, STCI-R-0052, STCI-R-0056]; proof `research/arguments/torus_embedded_quotients.md#actual-equations-and-the-ci-criterion`; review accepted, reconstructed at `#review`.
+- STCI-R-0054: exact endpoint lattices and coefficient identities; joint premises [STCI-R-0051, STCI-R-0052, STCI-R-0053]; proof `research/arguments/torus_embedded_quotients.md#endpoint-examples`; review accepted, reconstructed at `#review`.
+- STCI-R-0055: relative endpoint lattices and image base change; joint premises [STCI-R-0051, STCI-R-0052, STCI-R-0054]; proof `research/arguments/torus_embedded_quotients.md#a-flat-collision-of-the-genus-twenty-eight-images`; review accepted, reconstructed at `#review`.
+- STCI-R-0056: generic lengths and absence of finite-support submodules; joint premises []; proof `research/arguments/torus_embedded_quotients.md#pure-curve-degree-exhaustion`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
+- [STCI-I-0003] — informs → [STCI-F-0001, STCI-F-0002]; [explanation owned by STCI-I-0003](investigations/torus-residual-controls/index.md#findings).
+- [STCI-R-0043, STCI-R-0046] — limits → [STCI-F-0001]; [explanation owned by STCI-F-0001](frameworks/torus_supported_boundaries.md#controls).
+- [STCI-R-0054] — limits → [STCI-F-0002]; [explanation owned by STCI-F-0002](frameworks/embedded_torus_quotients.md#embedded-controls).
+- [STCI-F-0001] — motivates → [STCI-I-0001]; [explanation owned by STCI-I-0001](investigations/supported-generator-incidence/index.md#purpose).
+- [STCI-F-0001, STCI-F-0002] — motivates → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#purpose).
+- [STCI-F-0001, STCI-F-0002] — motivates → [STCI-I-0003]; [explanation owned by STCI-I-0003](investigations/torus-residual-controls/index.md#purpose).
+- [STCI-R-0037, STCI-R-0039, STCI-R-0040] — uses → [STCI-F-0001]; [explanation owned by STCI-F-0001](frameworks/torus_supported_boundaries.md#available-results).
+- [STCI-R-0037, STCI-R-0039, STCI-R-0046] — uses → [STCI-I-0001]; [explanation owned by STCI-I-0001](investigations/supported-generator-incidence/index.md#inputs).
+- [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] — uses → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#inputs).
+- [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] — uses → [STCI-I-0003]; [explanation owned by STCI-I-0003](investigations/torus-residual-controls/index.md#method).
+- [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] — uses → [STCI-F-0002]; [explanation owned by STCI-F-0002](frameworks/embedded_torus_quotients.md#available-results).
 
 ## Object backlinks
 
+- STCI-A-0001: proof owner for STCI-R-0037 (projective-supported-incidence); proof owner for STCI-R-0038 (weight-decomposition-and-graded-nakayama); proof owner for STCI-R-0039 (graded-generation-and-height-two); proof owner for STCI-R-0040 (invariant-generator-lifting-and-trace).
+- STCI-A-0002: proof owner for STCI-R-0042 (finite-free trace and graded-domain reduction); proof owner for STCI-R-0043 (fixed-point incidence and degree exhaustion); proof owner for STCI-R-0044 (parameter filtration and exact local reductions); proof owner for STCI-R-0045 (prime cancellation and generic lengths); proof owner for STCI-R-0046 (Hilbert-Burch family and colon cycle); proof owner for STCI-R-0047 (torus quotient and local boundary multiplicities); proof owner for STCI-R-0048 (quadric divisors and flat complete-intersection family); proof owner for STCI-R-0049 (graph divisor specialization on the smooth quadric); proof owner for STCI-R-0050 (primitive monomial parametrization and generic localization).
+- STCI-A-0003: proof owner for STCI-R-0051 (scheme image and finite charts); proof owner for STCI-R-0052 (finite modification exact sequence); proof owner for STCI-R-0053 (actual source spaces and degree exhaustion); proof owner for STCI-R-0054 (exact endpoint lattices and coefficient identities); proof owner for STCI-R-0055 (relative endpoint lattices and image base change); proof owner for STCI-R-0056 (generic lengths and absence of finite-support submodules).
+- STCI-F-0001: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001).
+- STCI-F-0002: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
+- STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
+- STCI-I-0002: motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-I-0003: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003).
 - STCI-Q-0001: no declared backlinks.
 - STCI-R-0001: inherited reference from STCI-Q-0001 (applicable_results group [STCI-R-0001, STCI-R-0002, STCI-R-0004]); inherited reference from STCI-R-0002 (dependencies group [STCI-R-0001]); inherited reference from STCI-R-0013 (dependencies group [STCI-R-0001, STCI-R-0010]); inherited reference from STCI-R-0014 (dependencies group [STCI-R-0001, STCI-R-0008, STCI-R-0010, STCI-R-0011, STCI-R-0013]); inherited reference from STCI-R-0035 (dependencies group [STCI-R-0034, STCI-R-0001]).
 - STCI-R-0002: inherited reference from STCI-Q-0001 (applicable_results group [STCI-R-0001, STCI-R-0002, STCI-R-0004]); inherited reference from STCI-R-0004 (dependencies group [STCI-R-0002, STCI-R-0003]); inherited reference from STCI-R-0017 (dependencies group [STCI-R-0002, STCI-R-0003]).
@@ -119,3 +201,23 @@ Legacy statuses and authority are inherited; they are not new-schema establishme
 - STCI-R-0034: inherited reference from STCI-R-0035 (dependencies group [STCI-R-0034, STCI-R-0001]).
 - STCI-R-0035: no declared backlinks.
 - STCI-R-0036: no declared backlinks.
+- STCI-R-0037: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-R-0038: premise of STCI-R-0040 (invariant-generator-lifting-and-trace).
+- STCI-R-0039: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-R-0040: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001).
+- STCI-R-0041: no declared backlinks.
+- STCI-R-0042: premise of STCI-R-0040 (invariant-generator-lifting-and-trace).
+- STCI-R-0043: limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001).
+- STCI-R-0044: premise of STCI-R-0045 (prime cancellation and generic lengths); premise of STCI-R-0047 (torus quotient and local boundary multiplicities); premise of STCI-R-0048 (quadric divisors and flat complete-intersection family); premise of STCI-R-0049 (graph divisor specialization on the smooth quadric); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003).
+- STCI-R-0045: premise of STCI-R-0046 (Hilbert-Burch family and colon cycle).
+- STCI-R-0046: limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003).
+- STCI-R-0047: premise of STCI-R-0043 (fixed-point incidence and degree exhaustion).
+- STCI-R-0048: no declared backlinks.
+- STCI-R-0049: no declared backlinks.
+- STCI-R-0050: premise of STCI-R-0043 (fixed-point incidence and degree exhaustion); premise of STCI-R-0047 (torus quotient and local boundary multiplicities).
+- STCI-R-0051: premise of STCI-R-0052 (finite modification exact sequence); premise of STCI-R-0053 (actual source spaces and degree exhaustion); premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); premise of STCI-R-0055 (relative endpoint lattices and image base change); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
+- STCI-R-0052: premise of STCI-R-0053 (actual source spaces and degree exhaustion); premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); premise of STCI-R-0055 (relative endpoint lattices and image base change); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
+- STCI-R-0053: premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
+- STCI-R-0054: limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); premise of STCI-R-0055 (relative endpoint lattices and image base change); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003).
+- STCI-R-0055: no declared backlinks.
+- STCI-R-0056: premise of STCI-R-0053 (actual source spaces and degree exhaustion); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).

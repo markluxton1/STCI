@@ -6,6 +6,13 @@ own promoted statements and exact hypotheses. The linked mathematical proof
 homes also retain reviewed provisional results and conditional reductions;
 consolidation alone does not promote them.
 
+The [four-object torus pilot](frameworks/torus_supported_boundaries.md) now
+provides complete independently reviewed reconstructions of supported Hilbert
+limits, eigenform and residual controls, and
+[constant embedded quotient descent](frameworks/embedded_torus_quotients.md).
+Its cataloged Results remain provisional. This changes retrieval and proof
+exposition, not the promoted boundaries or the open STCI status below.
+
 The maintained account also describes proper intersections containing C0,
 their multiplicities and residual cycles, supported multiple structures, and
 normalization, projection and deformation constructions. These are mathematical

@@ -1,5 +1,10 @@
 # Result and question record specification (v1 proposal)
 
+This is the legacy untyped record format. New typed four-object records use
+[MODEL.md](MODEL.md), including separate alternative proof routes and explicit
+inherited/reconstructed review. Compatibility checks preserve existing records;
+neither schema establishes mathematical correctness or promotes a claim.
+
 This specification applies to **future promoted records**. Existing topic syntheses and proof notes are not required to conform until individually migrated. No records are promoted by this specification.
 
 ## Result format

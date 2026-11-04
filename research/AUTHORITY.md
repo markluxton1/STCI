@@ -16,6 +16,15 @@ This policy defines the current consolidated authority model. It does not retroa
 
 ## Promotion and supersession
 
+The [four-object pilot](MODEL.md) also stores typed provisional Results in
+`research/results/`. Location, catalog inclusion, and acceptance of an
+independently reconstructed proof do not themselves promote a statement.
+The existing promoted records retain their authority; the new torus records
+retain `status: provisional`. Their exact statements, proof routes, and review
+scope are inspectable without being counted as new canonical promotions.
+The [legacy schema](RESULT_SCHEMA.md) governs untyped records; MODEL specifies
+typed records and distinguishes inherited from reconstructed acceptance.
+
 - Promote **claims**, not entire branches or documents. Check scope against the exact source proof and independent audit; preserve the characteristic, curve, degrees, normality, Cartier, genericity, and other hypotheses.
 - Give each result a stable ID. Prefer one statement per record, or separate independently usable lemmas into distinct records. Keep legacy IDs as aliases rather than silently renumbering them.
 - Require a recorded review decision, explicit evidence paths, dependencies, and limitations. A newer timestamp, broader title, or stronger-looking summary does not establish a stronger theorem.

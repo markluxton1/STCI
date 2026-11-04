@@ -351,7 +351,7 @@ its own scope and independent review.
 | [Embedded quotients and endpoint descent](synthesis/toric_quotients_and_endpoint_descent.md) | Bounded auxiliary criterion and application, retaining actual source spaces and constant embedded-family hypotheses |
 | [Weight restrictions](supplements/EQUIVARIANT_DEGREE_BOUNDS.md) | Required invariant-generator/one-eigenform dependence, with its characteristic and trace hypotheses intact |
 | [Entire finite modification and movement](synthesis/tropical_thickenings_and_endpoint_duality.md) | Only the comparison investigation's necessary statements and their proof closure; no wholesale migration of unrelated material |
-| [Exact finite identity verifier](computations/verify_toric_quotients_and_residual_limits.py) | Identify precisely which finite identities support which claims; keep exploration in Investigations and essential certificates with their Results |
+| [Exact finite identity verifier](investigations/torus-residual-controls/verify.py) | Identify precisely which finite identities support which claims; keep exploration in Investigations and essential certificates with their Results |
 | [Characteristic controls R-0020](results/quartic_conormal_characteristic_jump.md), [R-0021](results/quartic_mu4_degeneration.md) | Link existing scoped results; follow the required proof dependence without reopening unrelated closed cases |
 
 This is a proposed content boundary, not a predetermined file count. Follow a

@@ -101,6 +101,24 @@ conductor. A new comparison must construct its map and preserve its hypotheses.
 
 ## Torus symmetry as an organizing method
 
+Use the [supported-boundary framework](frameworks/torus_supported_boundaries.md)
+when a declared moving family has accessible full ideals and equation maps.
+Use the [embedded-quotient framework](frameworks/embedded_torus_quotients.md)
+for specified finite images, endpoint descent, and source-space tests. The
+reusable [purity lemma](results/pure_curve_degree_exhaustion.md) explains the
+extra hypothesis that turns inclusion plus degree exhaustion into equality;
+the [generator criterion](results/moving_ideal_generator_criterion.md) explains
+why two independent sections are insufficient. These reviewed provisional
+inputs support bounded investigations and require their literal hypotheses.
+
+Choose a next test by what it can change: an actual supported two-generator
+point gives a construction; emptiness on a declared family limits that family;
+a specialization map can connect two previously separate data sets. Repeating
+an eigenpair exclusion or a numerical endpoint budget supplies no all-family
+coverage. The pilot's
+[Investigation records](investigations/README.md) state stopping points and
+remaining dependencies explicitly.
+
 **Necessary invariant-limit principle.** If a degree-(a,b) complete
 intersection has reduced support exactly C0, then the full flat limit of its
 ideal under the one-parameter torus action is a T-invariant scheme with

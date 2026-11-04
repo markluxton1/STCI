@@ -1,5 +1,10 @@
 # Canonical results and topic navigation
 
+For the [reviewed provisional torus pilot](../frameworks/torus_supported_boundaries.md),
+use the [generated catalog](../CATALOG.md) and its complete proof routes.
+Those typed records retain provisional status; the promoted collection below
+and its authority have not been enlarged by this reconstruction.
+
 For mathematical exposition see the [consolidated synthesis](../synthesis/README.md); for logical gaps and research routes see the [dependency map](../synthesis/DEPENDENCIES.md) and [current frontier](../FRONTIER.md). Neither changes the scope or status of these result records.
 
 **Current authority:** the thirty-six ID-bearing STCI-R-0001 through STCI-R-0036 files below are promoted, scope-limited result records. Their YAML front matter, stated hypotheses, and linked review evidence determine their claims. The six topic syntheses listed afterward provide navigation; they do not broaden those statements. See the [authority policy](../AUTHORITY.md).

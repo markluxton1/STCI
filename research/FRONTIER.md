@@ -13,6 +13,15 @@ short of sole support, and a general lemma may matter for other curves. Failure
 of a specified source describes what a different realization must change; it
 does not accumulate into an exhaustive classification without a coverage proof.
 
+The torus pilot gives two concrete Investigation entrypoints:
+[two-equation incidence on a declared supported family](investigations/supported-generator-incidence/index.md)
+and [comparison of moving quotients with full limits](investigations/quotient-hilbert-comparison/index.md).
+Both remain unperformed research tasks. The
+[finite residual controls](investigations/torus-residual-controls/index.md)
+are complete within their explicit computational scope and resolve neither
+question. Their Frameworks explain the selection criteria without assigning
+this lane priority over independent constructions or obstructions.
+
 ## Selection boundary
 
 The completed contributions below leave several different realization

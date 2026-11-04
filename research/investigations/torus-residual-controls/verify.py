@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Verify finite algebra and explicit polynomial certificates used in the toric quotient and residual-limit notes.
+"""Verify finite algebra and explicit polynomial certificates cited by
+STCI-A-0002 (../../arguments/torus_sextic_residuals.md) and STCI-A-0003
+(../../arguments/torus_embedded_quotients.md).
 
 This checks only the displayed finite computations and identities. It is not a
-general classification, a Groebner-basis exhaustion, or a proof of any geometric
-descent, flatness, or primary-decomposition assertion. Geometric arguments are
-in ../synthesis/toric_quotients_and_endpoint_descent.md and
-../synthesis/toric_sextic_residuals_and_limits.md.
+general classification, a Groebner-basis exhaustion, or a proof of geometric
+descent, flatness, or primary-decomposition assertions.
 """
 
 from fractions import Fraction

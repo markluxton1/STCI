@@ -22,6 +22,16 @@ the [mechanism map](MAP.md); for exact current claims use the
 
 ## Choose by the mathematical question
 
+For the four-object torus pilot, enter through
+[full supported boundaries](frameworks/torus_supported_boundaries.md) or
+[embedded quotient descent](frameworks/embedded_torus_quotients.md).
+Their linked Results have independently reconstructed proofs and retain
+provisional status. The [catalog](CATALOG.md) exposes reusable lemmas and proof
+routes; the existing promoted records and their authority remain unchanged.
+Concrete next questions are
+[moving-ideal generator incidence](investigations/supported-generator-incidence/index.md)
+and [quotient-to-Hilbert comparison](investigations/quotient-hilbert-comparison/index.md).
+
 | Question or approach | Mathematical entry | Reach and missing step |
 | --- | --- | --- |
 | Which multiplicities and residual cycles occur? | [Two surfaces and actual cycles](synthesis/02-two-surfaces.md), [residual geometry and jets](synthesis/residual_intersections_and_jets.md) | Actual constructions and bounds on specified families; no universal residual floor or monotonicity in the equation degrees is assumed |
