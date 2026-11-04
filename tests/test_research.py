@@ -4,6 +4,8 @@ Every repository here is synthetic. Passing these tests checks declared
 structure, never the truth or completeness of a mathematical proof.
 """
 import copy
+import contextlib
+import io
 import importlib.util
 from pathlib import Path
 import subprocess
@@ -111,6 +113,51 @@ class ResearchTests(unittest.TestCase):
         errors = self.errors()
         self.assertTrue(errors, "Invalid synthetic repository was accepted")
         self.assertTrue(all(isinstance(e, str) and e.strip() for e in errors), errors)
+
+    def run_stdlib_validator(self):
+        path = ROOT / "research/computations/validate_records.py"
+        validator_spec = importlib.util.spec_from_file_location("legacy_record_validator", path)
+        validator = importlib.util.module_from_spec(validator_spec)
+        validator_spec.loader.exec_module(validator)
+        validator.ROOT = self.root
+        validator.RECORDS = [self.root / "research/results", self.root / "research/questions"]
+        output = io.StringIO()
+        with contextlib.redirect_stdout(output):
+            status = validator.main()
+        return status, output.getvalue()
+
+    def test_legacy_validator_coexists_with_typed_records_and_keeps_legacy_checks(self):
+        legacy = self.legacy()
+        legacy["dependencies"] = ["STCI-R-0001"]
+        legacy_path = self.root / "research/results/legacy.md"
+        legacy_body = "---\n" + yaml.safe_dump(legacy) + "---\n# Legacy\n"
+        legacy_path.write_text(legacy_body)
+        self.put(record())
+        status, output = self.run_stdlib_validator()
+        self.assertEqual(0, status, output)
+        self.assertIn("Checked 1 canonical records; 0 error(s)", output)
+
+        legacy["dependencies"] = ["STCI-R-9999"]
+        legacy_path.write_text("---\n" + yaml.safe_dump(legacy) + "---\n# Legacy\n")
+        status, output = self.run_stdlib_validator()
+        self.assertNotEqual(0, status)
+        self.assertIn("unknown dependencies ID STCI-R-9999", output)
+        legacy["dependencies"] = ["STCI-R-0001"]
+        legacy_path.write_text("---\n" + yaml.safe_dump(legacy) + "---\n# Legacy\n")
+
+        typed_path = self.root / "research/results/STCI-R-0001.md"
+        typed_original = typed_path.read_text()
+        typed_path.write_text(typed_original.replace("type: result", "type: mystery"))
+        status, output = self.run_stdlib_validator()
+        self.assertNotEqual(0, status)
+        self.assertIn("unknown type", output)
+        typed_path.write_text(typed_original)
+
+        # Untyped records still use the original legacy status and kind rules.
+        legacy_path.write_text(legacy_path.read_text().replace("status: proved", "status: established"))
+        status, output = self.run_stdlib_validator()
+        self.assertNotEqual(0, status)
+        self.assertIn("invalid status", output)
 
     def test_all_types_and_open_question_in_completed_investigation(self):
         for kind in DIRECTORIES:

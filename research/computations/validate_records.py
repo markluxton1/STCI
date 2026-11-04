@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Validate canonical STCI result/question metadata without external packages."""
+"""Validate legacy metadata; delegate typed records to the four-object validator.
+
+Legacy-only validation uses the standard library. Mixed repositories require
+the pinned dependency in scripts/requirements-research.txt.
+"""
 import pathlib
 import re
 import sys
@@ -34,8 +38,17 @@ def main():
     errors = []
     records = {}
     paths = [p for d in RECORDS for p in d.glob("*.md") if metadata(p) is not None]
+    typed_paths = []
+    typed_ids = set()
     for path in paths:
         data = metadata(path)
+        if "type" in data:
+            # The four-object validator owns typed records, including their
+            # coexistence with legacy records and their exact schema.
+            typed_paths.append(path)
+            if isinstance(data.get("id"), str):
+                typed_ids.add(data["id"])
+            continue
         rid = data.get("id")
         if not rid or not re.fullmatch(r"STCI-[RQ]-\d{4}", rid):
             errors.append(f"{path}: missing/invalid ID")
@@ -59,7 +72,7 @@ def main():
             if isinstance(value, str):
                 value = [] if value == "[]" else [value]
             for target in value:
-                if target not in records:
+                if target not in records and target not in typed_ids:
                     errors.append(f"{path}: unknown {field} ID {target}")
         for field in ("evidence", "independent_audits"):
             value = data.get(field, [])
@@ -70,6 +83,15 @@ def main():
                     continue  # Remote branch evidence is not validated here.
                 if target and not (ROOT / unquote(urlsplit(target).path)).exists():
                     errors.append(f"{path}: missing {field} path {target}")
+    if typed_paths:
+        # Import lazily so this legacy stdlib entry point remains dependency
+        # free when the repository contains legacy records only.
+        sys.path.insert(0, str(ROOT))
+        try:
+            from scripts.research import Repository
+            errors.extend(Repository(ROOT).validate())
+        except (ImportError, SystemExit) as exc:
+            errors.append(f"typed record validation unavailable: {exc}")
     for error in errors:
         print("ERROR:", error)
     print(f"Checked {len(records)} canonical records; {len(errors)} error(s)")
