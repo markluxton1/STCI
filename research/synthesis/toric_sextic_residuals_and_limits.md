@@ -30,7 +30,7 @@ degree alone never identifies its scheme structure or residual ideal.
 The [torus quotient and endpoint companion](toric_quotients_and_endpoint_descent.md)
 owns the general product and endpoint-descent discussion. This home keeps
 actual projective equations, cycles and full flat ideals. The joint
-[exact verifier](../computations/verify_toric_quotients_and_residual_limits.py)
+[exact verifier](../investigations/torus-residual-controls/verify.py)
 is supporting evidence; the proofs below specify what its identities
 measure and do not treat a successful run as a substitute for family
 coverage or saturation.

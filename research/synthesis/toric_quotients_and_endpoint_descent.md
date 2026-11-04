@@ -20,7 +20,7 @@ owns the moving-family theorem, and [endpoint valuation fans](endpoint_valuation
 owns the benchmark's contact and cancellation analysis. The calculations here
 are a source reformulation and degree-exhaustion test, not a new unrestricted
 STCI obstruction. Exact finite calculations are retained in the
-[quotient and residual verifier](../computations/verify_toric_quotients_and_residual_limits.py).
+[quotient and residual verifier](../investigations/torus-residual-controls/verify.py).
 
 ## Geometry of a finite family of orbit closures
 
