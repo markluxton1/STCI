@@ -1,10 +1,10 @@
 # Global equations, pencils, and constructive mechanisms
 
-Fix C0=[s^4:s^3t:st^3:t^4] in projective three-space over an algebraically closed field. Characteristic zero is the unrestricted research question; characteristic-free assertions are identified below. This chapter consolidates mathematical proofs rather than chronological priorities. The replacement proofs and their characteristic boundaries received independent preservation and mathematical review on 2026-10-31; provisional claims remain provisional. It does not promote a canonical result or settle existence. The elementary P-labels identify inherited proofs; canonical result records remain the authority for promoted claims.
+Fix C0=[s^4:s^3t:st^3:t^4] in projective three-space over an algebraically closed field. Characteristic zero is the unrestricted research question; characteristic-free assertions are identified below. This chapter consolidates mathematical proofs rather than chronological priorities. The replacement proofs and their characteristic boundaries received independent preservation and mathematical review on 2026-10-31; claims retain the review scopes stated here. The elementary P-labels identify inherited proofs; each claim is used with its stated hypotheses and linked proof.
 
 The common global requirement is an **actual supported pair**. Local regular embeddings, normalized sections, first normal symbols, affine equations, a bundle section, a cycle identity, or a numerical class can each retain only part of that requirement. The useful comparison is the precise implication each supports, including mechanisms that could construct equations.
 
-The [fixed-surface and endpoint algebra](fixed_surface_and_endpoint_algebras.md) preserves the full simultaneous-surface counterexamples, trace tests, two-chart descent and one-endpoint detector. The [finite-pullback and matrix account](finite_pullback_and_matrix_obstructions.md) proves a polarization-lifting obstruction for a specific constructive source and the failure of a universal simple-quadric factorization. The [foliation and affine-degree account](foliation_and_affine_degree_mechanisms.md) retains the normalized foliation alternatives and the two distinct losses at infinity. Imported October 30–31 deductions received independent hand review in their source states; they remain reviewed provisional mathematics. Their review limitations are preserved with each mechanism.
+The [fixed-surface and endpoint algebra](fixed_surface_and_endpoint_algebras.md) preserves the full simultaneous-surface counterexamples, trace tests, two-chart descent and one-endpoint detector. The [finite-pullback and matrix account](finite_pullback_and_matrix_obstructions.md) proves a polarization-lifting obstruction for a specific constructive source and the failure of a universal simple-quadric factorization. The [foliation and affine-degree account](foliation_and_affine_degree_mechanisms.md) retains the normalized foliation alternatives and the two distinct losses at infinity. Imported October 30–31 deductions received independent hand review in their source states; they remain reviewed mathematics. Their review limitations are preserved with each mechanism.
 
 ## Geometric orientation: the locus of globally presented multiple curves
 
@@ -922,7 +922,7 @@ therefore concerns loss of two generators, not a necessary loss of support
 by the full Hilbert limit. Neither Cohen--Macaulayness nor AG structure is
 assumed at the fixed boundary.
 
-The provisional [sextic residual examples](toric_sextic_residuals_and_limits.md)
+The [sextic residual examples](toric_sextic_residuals_and_limits.md)
 make this generator distinction explicit: a proper (6,6) CI has full toric
 limit with minimal generator degrees 6,6,10 and the same Hilbert series.
 That limit is saturated and ACM. Both it and the original CI retain residual
@@ -1016,8 +1016,7 @@ over an algebraically closed field follows.
 The pre-existing finite-map, flat-boundary and affine-source statements
 retain their recorded scoped source reviews and consolidation review.
 The supported-deformation formulation above is a proposed investigation,
-not a new theorem or a completed boundary calculation; no canonical result
-is promoted.
+not a new theorem or a completed boundary calculation.
 Independent scope review on October 31, 2026 accepted this expanded exposition
 and its linked strategy/navigation changes against the existing proof owners.
 It checked support versus ideal invariance, full limits versus extreme forms,

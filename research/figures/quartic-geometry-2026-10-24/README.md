@@ -1,8 +1,7 @@
 # Rational quartic geometry figures
 
-Date: 2026-10-24. These are illustrations accompanying the provisional
-research investigation, not independent mathematical evidence or canonical
-results.
+Date: 2026-10-24. These figures illustrate the geometry studied in the
+accompanying research.
 
 - [`projection-center.svg`](projection-center.svg) and
   [`projection-center.png`](projection-center.png): a structural schematic

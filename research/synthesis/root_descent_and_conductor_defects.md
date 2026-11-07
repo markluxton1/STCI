@@ -1,8 +1,7 @@
 # Root descent and defects on full conductor schemes
 
-**Scope and status.** Independently reviewed provisional sheaf identities,
-local-to-global arguments and a specified projection witness; no canonical
-promotion. Root adjoining can leave a punctual normalization defect even
+**Scope and status.** Independently reviewed sheaf identities,
+local-to-global arguments and a specified projection witness. Root adjoining can leave a punctual normalization defect even
 when an actual power descends. On a reducible conductor it can also leave
 a one-dimensional defect. The formulas below retain that distinction and
 the actual conductor's scheme structure.

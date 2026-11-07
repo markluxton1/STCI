@@ -208,9 +208,9 @@ The general deformation framework and its review are in
 [the laboratory](residual_global_models.md) and
 [the exploration audit](explicit_quartic_residuals.md).
 
-The canonical input [R0021](../results/quartic_mu4_degeneration.md)
+[R0021](../results/quartic_mu4_degeneration.md)
 concerns the original prescribed \((F,G)\) family, not (1). All new finite
-scheme computations here remain provisional research evidence.
+scheme computations here remain research evidence.
 
 ## 2. Exact residual decomposition at (1,1)
 

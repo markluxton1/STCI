@@ -1,6 +1,6 @@
 # Reverse linkage, equations, and the residual deformation space
 
-Fix C=C0 in characteristic zero, a<=b and a,b>=4. Let Y=V(F_a,G_b) be a proper actual pair and D=Y:C its once-linked curve. It may still contain C. Its cycle is (m-1)[C]+R; its degree ab-4 is distinct from genuine residual degree ab-4m. All statements below are reviewed provisional deductions, not new canonical promotion.
+Fix C=C0 in characteristic zero, a<=b and a,b>=4. Let Y=V(F_a,G_b) be a proper actual pair and D=Y:C its once-linked curve. It may still contain C. Its cycle is (m-1)[C]+R; its degree ab-4 is distinct from genuine residual degree ab-4m. All statements below are reviewed deductions.
 
 ## Reverse linkage recovers equations and controls deformation space
 

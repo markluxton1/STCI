@@ -1,6 +1,6 @@
 # October 9 historical mathematics
 
-Full original source text preserved. Hypotheses, counterexamples, unsuccessful arguments, and open questions retain their source status; no new independent audit or theorem promotion.
+This compilation retains the mathematical hypotheses, counterexamples, unsuccessful arguments, and open questions. This compilation supplies no new independent audit.
 
 ---
 
@@ -1116,7 +1116,7 @@ full inverse-image support, and descent of sections to the original
 quartic remain separate obligations.
 
 No exhaustive genus-two mate exclusion, no conductor purity theorem,
-and no universal STCI conclusion is claimed. No canonical frontier
+and no universal STCI conclusion is claimed. No frontier
 file has been edited by this owner.
 
 
@@ -1130,7 +1130,7 @@ Date: 2026-10-09. Auditor: `genus_two_adjoint_audit`. Status:
 **PROVED HERE / independently accepted as a structural reduction**.
 This note audits the proposed genus-two reduction of
 `delpezzo_d5_torsion_filter`. It does not classify every singular
-normalization or exclude mates in this lane. No canonical frontier
+normalization or exclude mates in this lane. No frontier
 file was edited.
 
 Work over an algebraically closed field of characteristic zero. Let
@@ -1511,7 +1511,7 @@ is the explicit generic-point argument in Step 4.
 Date: 2026-10-09. Auditor: `genus_two_adjoint_audit`. Status:
 **PROVED HERE / independently accepted as bounded structural
 reductions**. This extends the [independent adjoint audit](#source-2026-10-09-session-genus-two-adjoint-independent-auditmd).
-No canonical frontier file was edited. The genus-two mate problem
+No frontier file was edited. The genus-two mate problem
 remains open.
 
 Keep the characteristic-zero hypotheses and notation of that audit.
@@ -1671,7 +1671,7 @@ excludes this section stratum.
 The auditor initially sent an unsaved informal proposal that
 started from Z^2=-4 in all genus-two cases. The owner and root
 immediately identified the omitted K.Z term. That proposal was
-retracted before any record promotion. The two-stratum identity
+retracted. The two-stratum identity
 above is the corrected accepted assertion; this audit preserves
 the surviving noncrepant section case explicitly.
 

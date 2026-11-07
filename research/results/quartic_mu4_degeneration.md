@@ -2,7 +2,6 @@
 id: STCI-R-0021
 title: "Four-component mu4 degeneration of the explicit quartic intersection"
 kind: theorem
-status: proved
 scope:
   characteristic: "0 and 2"
   curve: "fixed C0 and the prescribed equations F=x1^4-x0^3*x3, G=x2^4-x0*x3^3"
@@ -15,7 +14,6 @@ evidence:
   - "research/computations/verify_44_mu4_family_2026_10_23.m2"
 independent_audits:
   - "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
-accepted_in: "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []

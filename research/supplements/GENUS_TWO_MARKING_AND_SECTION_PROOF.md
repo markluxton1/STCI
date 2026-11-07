@@ -156,7 +156,7 @@ all vertical null curves simply because the blowup centers
 avoid it. For example, blowing up two points away from E on one
 fiber makes that fiber's strict transform a null (-2)-curve
 which still meets E. This invalid inference was considered as
-an informal lead and rejected before promotion.
+an informal lead and rejected before relying on the claim.
 
 ## 5. Plane proximity and the stronger local condition
 
@@ -209,7 +209,7 @@ connected fiber containing the contact vertical line.
   Therefore treating every such graph as a three-arm star
   centered at the (-3)-prime misses an allowed proximity
   pattern. The earlier star-response bound was only conditional
-  and was not promoted.
+  and was not accepted.
 * q=4 is not a genus-two identity without lambda=0. The general
   identity q+lambda=4 retains both lambda=0 and lambda=1.
 

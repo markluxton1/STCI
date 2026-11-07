@@ -9,12 +9,11 @@ showing why several proposed shortcuts do not answer that question.
 For an intersection containing residual curves, the sole-support conclusions
 below require separate justification on its primary part.
 
-**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed provisional deductions, with no canonical promotion; no computation or inherited certificate rerun was needed.
+**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed deductions; no computation or inherited certificate rerun was needed.
 
 All deductions in the four linked proof chapters retain **independently
-reviewed provisional** status. Their source proofs and corrections were
-reviewed on the source branch; consolidation does not promote them to
-canonical results. Canonical inputs, including the conormal splitting and
+reviewed** status. Their source proofs and corrections were
+reviewed on the source branch. Inputs, including the conormal splitting and
 full-socle formula, remain governed by their result records. Every displayed
 calculation below has a complete algebraic proof in its owning chapter;
 no recorded rank or unperformed computation substitutes for one.

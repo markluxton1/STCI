@@ -11,8 +11,7 @@ Complete mathematical dossier preserving the actual investigations, calculations
 Date: 2026-10-19. Starting branch: `main`.
 Research branch: `codex/normal-cone-rigidity-2026-10-19`.
 
-**Status:** new research proposals with separate independent audits, not
-canonical promotions. The unrestricted characteristic-zero STCI problem
+**Status:** research with separate independent audits. The unrestricted characteristic-zero STCI problem
 for `C0=[s^4:s^3t:st^3:t^4]` remains open.
 
 ### A. Main findings
@@ -193,9 +192,9 @@ degree-eight projection model.
 Source: [actual degree-eight families](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
 Independent reconstruction: [carrier audit](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
 
-### B. Dependencies, authority, and precise frontier change
+### B. Dependencies and remaining cases
 
-The investigation used the promoted records
+The investigation used the records
 [STCI-R-0001](../results/quartic_carrier_exclusion.md),
 [STCI-R-0008](../results/spectral_root_picard_criterion.md),
 [STCI-R-0009](../results/moving_purepower_boundary.md), and
@@ -205,10 +204,9 @@ characteristic-zero `N_C0=O(7)^2`. No quartic proof was rerun.
 
 For the numerical `d/p,e/q>=3` input, the exact inherited proof is
 the [entirely-thick independent audit](../synthesis/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction).
-The legacy [entirely-thick topic](../results/entirely_thick.md) is
-navigation, not an ID-bearing promoted theorem. This metadata authority
-gap is recorded explicitly; no stronger universal claim is inferred.
-The STCI factor reduction and low-degree exclusion have promoted support
+The [entirely-thick topic](../results/entirely_thick.md) gives the
+notation and context for that numerical restriction.
+The STCI factor reduction and low-degree exclusion have support
 in R-0001 and its linked audit.
 
 The genuinely new bridge is A1, proved in the source and independently
@@ -217,14 +215,13 @@ later special-point normal-layer degeneration within its exact
 saturated-first/generic-CI class. A2 then excludes all moving
 nonreduced full roots within that actual class. A3 supplies additional
 support-sensitive restrictions without requiring that first relation
-to be a saturated line. No canonical result, question, state, or
-frontier record was edited or promoted.
+to be a saturated line.
 
 An independent local Hilbert-function argument is preserved in
 [the local normal-flatness proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness).
 It has its own classical dependency and a separate
 [independent audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit).
-It is also a reviewed but unpromoted proposal. The projective theorem
+It is also a reviewed proposal. The projective theorem
 has the self-contained resultant/duality proof and does not depend on
 this additional classical bound or on the local route's broader scope.
 
@@ -547,8 +544,8 @@ are exactly
 
 The two explicit equations r0=r1=0 are retained. The accepted
 geometric factor theorem supplies them for every actual h2
-projection; this assembly does not promote that theorem to an
-unproved divisibility assertion over an arbitrary nonreduced
+projection; this assembly does not extend that theorem to a
+divisibility assertion over an arbitrary nonreduced
 conormal-cover base. After the equations are imposed, (3) is an
 exact ring identity on the incidence.
 

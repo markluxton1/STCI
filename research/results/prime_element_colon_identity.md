@@ -2,7 +2,6 @@
 id: STCI-R-0041
 type: result
 title: Prime-element colon identity and its exact sequence
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -71,7 +70,7 @@ This is a local length statement, with no projective saturation conclusion.
 The cancellation step requires the stated primality and nondivisibility;
 an arbitrary common initial factor does not suffice. No saturation, purity,
 absence of embedded points, deformation, or global two-equation realization
-follows from this identity alone. The Result remains provisional.
+follows from this identity alone.
 
 ## Review
 
@@ -80,5 +79,4 @@ the exact sequence, and the formal local application in every characteristic.
 It checked the precise primality and cancellation steps and independently
 counted the eleven surviving monomials in the example. This acceptance covers
 the explicit scope extension; it is distinct from the source's polynomial-ring
-review. No saturation or global realization assertion was accepted, and status
-remains provisional.
+review. No saturation or global realization assertion was accepted, and the reviewed scope does not include saturation or global realization.

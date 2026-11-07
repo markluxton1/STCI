@@ -3,12 +3,12 @@
 This is a concrete positive rank-two bundle construction followed by a
 complete exclusion of the supported-section target in one prescribed lift
 space. The characteristic-zero
-source and audit are reviewed provisional mathematics at `c1339ed`; the
+source and audit are reviewed mathematics at `c1339ed`; the
 proof below incorporates the audit’s full Chern/cycle and endpoint-quotient
 arguments. Its bounded odd-characteristic extension uses the already
 reviewed odd-characteristic residual inequality. Independent consolidation
 review accepted the complete proof, source preservation and that extension.
-No canonical promotion or unrestricted STCI conclusion is claimed.
+No unrestricted STCI conclusion is claimed.
 
 ## 1. The actual construction source and its purpose
 

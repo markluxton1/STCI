@@ -25,9 +25,9 @@ the [mechanism map](MAP.md); for exact current claims use the
 For the four-object torus pilot, enter through
 [full supported boundaries](frameworks/torus_supported_boundaries.md) or
 [embedded quotient descent](frameworks/embedded_torus_quotients.md).
-Their linked Results have independently reconstructed proofs and retain
-provisional status. The [catalog](CATALOG.md) exposes reusable lemmas and proof
-routes; the existing promoted records and their authority remain unchanged.
+Their linked Results have independently reconstructed proofs with scoped
+reviews. The [catalog](CATALOG.md) exposes reusable lemmas and their actual
+proof routes; every statement is assessed through its mathematics and evidence.
 Concrete next questions are
 [moving-ideal generator incidence](investigations/supported-generator-incidence/index.md)
 and [quotient-to-Hilbert comparison](investigations/quotient-hilbert-comparison/index.md).
@@ -36,7 +36,7 @@ and [quotient-to-Hilbert comparison](investigations/quotient-hilbert-comparison/
 | --- | --- | --- |
 | Which multiplicities and residual cycles occur? | [Two surfaces and actual cycles](synthesis/02-two-surfaces.md), [residual geometry and jets](synthesis/residual_intersections_and_jets.md) | Actual constructions and bounds on specified families; no universal residual floor or monotonicity in the equation degrees is assumed |
 | What would two global equations amount to? | [Global equations, Chow forms, complements and bundles](synthesis/global_equations_and_constructions.md), [exact Chow bundle maps](synthesis/chow_bundle_maps.md), [section obstructions](synthesis/complement_section_obstructions.md) | Exact equivalents and constructions; an equivalent test still needs a pair or an obstruction covering every pair |
-| Can the curve's torus symmetry organize the search? | [Full flat limits and supported deformations](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary), [explicit sextic residuals and limits](synthesis/toric_sextic_residuals_and_limits.md), [weight restrictions](supplements/EQUIVARIANT_DEGREE_BOUNDS.md) | Full limits retain Hilbert data but can need extra generators. The provisional sharp quotient-length bound is eight for eigenform sextics, in every characteristic; mixed-weight and supported deformation questions remain distinct |
+| Can the curve's torus symmetry organize the search? | [Full flat limits and supported deformations](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary), [explicit sextic residuals and limits](synthesis/toric_sextic_residuals_and_limits.md), [weight restrictions](supplements/EQUIVARIANT_DEGREE_BOUNDS.md) | Full limits retain Hilbert data but can need extra generators. The sharp quotient-length bound is eight for eigenform sextics, in every characteristic; mixed-weight and supported deformation questions remain distinct |
 | What does a finite torus quotient descend to? | [Embedded quotients and endpoint descent](synthesis/toric_quotients_and_endpoint_descent.md), [full finite modification](synthesis/tropical_thickenings_and_endpoint_duality.md), [toric torsion and endpoint contacts](synthesis/toric_torsion_and_endpoint_contacts.md) | A prescribed-degree test recovers actual homogeneous source spaces; isomorphic abstract algebras can have different images. A constant quotient does not replace the moving embedded family required for a characteristic-zero sole-support CI |
 | Can an ACM thickening be constructed downstairs? | [Projected section defects](synthesis/projected_thickening_section_defects.md), [supported sources upstairs](synthesis/supported_linkage_operations.md) | ACM on the quadric threefold need not survive projection to P3; the stated power and binary-mixture images fail when the degree product is nonzero, while other actual sources remain open |
 | Which low-degree carriers cannot admit sole-support mates? | [Quartic carriers](synthesis/quartic_carrier_proof.md), [Gorenstein-normalized nonnormal quintics](synthesis/quintic_gorenstein_normalizations.md), [quintic–octic ADE constraint](synthesis/quintic_octic_surface_constraints.md) | Fixed embedding, characteristic zero; the quintic carrier theorem excludes every mate degree under its normalization hypothesis, while the ADE theorem concerns degree (5,8) |
@@ -63,8 +63,8 @@ and [quotient-to-Hilbert comparison](investigations/quotient-hilbert-comparison/
 
 The [six short orientation chapters](synthesis/README.md) introduce the account.
 The proof homes they link contain full arguments, including informative failed
-constructions and generalizations. [State](STATE.md) distinguishes promoted
-results from reviewed provisional contributions. [Literature](LITERATURE_LEDGER.md)
+constructions and generalizations. [State](STATE.md) summarizes mathematical statements, their review scopes,
+and open questions. [Literature](LITERATURE_LEDGER.md)
 records checked external statements and application limits; the relevant
 literature also appears in the mathematics itself.
 

@@ -1,12 +1,12 @@
 # Root-of-unity arrangements and contact filtrations
 
-**Status:** Exploratory source document; not canonical theorem authority.
+**Status:** Exploratory source document; not theorem authority.
 **Date:** 2026-11-02
 **Source:** ChatGPT mathematical exploration.
 **Consolidated account:** [Toric torsion and endpoint contacts](../../synthesis/toric_torsion_and_endpoint_contacts.md)
 
 This is a restored and corrected edition of an exploratory source, not a
-verbatim transcript or a promoted result. The [received version](https://github.com/markluxton1/STCI/blob/b647c18cffa39a0897acd1d989ee779dd0e0b650/research/explorations/toric_torsion_endpoint_contacts/root_of_unity_contact_handoff.md)
+verbatim transcript or a result. The [received version](https://github.com/markluxton1/STCI/blob/b647c18cffa39a0897acd1d989ee779dd0e0b650/research/explorations/toric_torsion_endpoint_contacts/root_of_unity_contact_handoff.md)
 already contained stripped delimiters and missing mathematical symbols; the
 saved earlier versions contain the same damage. Coordinates, maps and other
 recoverable formulas below have been reconstructed from the fixed embedding,
@@ -28,8 +28,7 @@ The mathematical discussion and useful failed proposals are retained, with
 corrections identified explicitly. Historical research suggestions do not
 override [repository governance](../../../AGENTS.md). Consult the
 [consolidated account](../../synthesis/toric_torsion_and_endpoint_contacts.md)
-and its current proof links before relying on a claim. No theorem is promoted
-by this restoration.
+and its current proof links before relying on a claim.
 
 ---
 
@@ -659,7 +658,7 @@ arrangement is a control, not a supported boundary candidate merely because
 it is invariant. Additional endpoint comparisons may be useful without
 claiming a classification or coverage theorem.
 
-## 12. Established conclusions and open questions
+## 12. Conclusions and open questions
 
 Established
 

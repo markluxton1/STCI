@@ -68,6 +68,6 @@ grad=[mod2(s.diff(R,X),X0,X1,X2,X3) for X in [X0,X1,X2,X3]]
 check('characteristic_two_cubic_gauss_line', grad==[X2**2,0,0,X1**2], grad)
 
 out=Path(sys.argv[1]) if len(sys.argv)>1 else Path(__file__).with_name('quartic_flag_incidence_2026_10_24.json')
-payload={'scope':'New residual-pair flag identities for the fixed quartic; no canonical promotion', 'sympy':s.__version__, 'checks':checks, 'passed':all(c['passed'] for c in checks)}
+payload={'scope':'Residual-pair flag identities for the fixed quartic', 'sympy':s.__version__, 'checks':checks, 'passed':all(c['passed'] for c in checks)}
 out.write_text(json.dumps(payload,indent=2)+'\n')
 print(f'{len(checks)} exact checks passed; wrote {out}')

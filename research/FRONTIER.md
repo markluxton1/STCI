@@ -3,7 +3,7 @@
 The characteristic-zero STCI question for the fixed \(C_0\) is open.
 Existence and nonexistence remain possible. This page records concrete
 mathematical gaps, constructions and possible investigations, not an ordered agenda; [selection criteria](RESEARCH_DECISION_GUIDE.md)
-help choose a bounded investigation. Exact established statements are in the
+help choose a bounded investigation. Exact statements and proofs are in the
 [result records](results/INDEX.md) and their proof homes.
 
 The broader problem is to describe proper intersections containing C0, their

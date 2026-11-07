@@ -2,7 +2,6 @@
 id: STCI-R-0053
 type: result
 title: Actual coefficient kernels and the exact complete-intersection test for a constant quotient
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -84,9 +83,7 @@ supported intersection or every full torus-limit ideal.
 
 ## Review
 
-Source provenance: the source reports independently reviewed provisional
-proper-pair and equation-space arguments. That source review is separate
-from the present reconstruction decision.
+The source has a separate review of its proper-pair and equation-space arguments; that review is distinct from the reconstruction decision recorded here.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted the exact R-0053 route after reconstructing
@@ -94,6 +91,4 @@ the actual coefficient kernels in every characteristic, the gcd-one
 regular-sequence condition, and the degree-exhaustion argument with its
 finite-support kernel eliminated by purity. The necessary endpoint budget
 and its nonsufficiency were checked. No blocker was found within the
-specified constant-quotient scope. This is reconstructed acceptance; the
-Result remains provisional and the proper-pair search is not completed
-by the criterion itself.
+specified constant-quotient scope. The reconstruction review accepts this route within its stated scope. The criterion itself does not complete the proper-pair search.

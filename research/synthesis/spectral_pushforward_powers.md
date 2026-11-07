@@ -1,7 +1,6 @@
 # Spectral powers, syzygy determinants and graded constructions
 
-**Status.** Independently reviewed provisional mathematics. No canonical
-result is promoted. The statements below concern actual spectral curves and
+**Status.** Independently reviewed mathematics. The statements below concern actual spectral curves and
 abstract graded algebras. They do not construct two ambient equations for C0.
 
 The [fourth-power account](spectral_torsion_and_syzygy_splitting.md) gives the

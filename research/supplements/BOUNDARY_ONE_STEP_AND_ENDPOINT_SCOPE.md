@@ -10,7 +10,7 @@ Compare [global repair and weighted initials](NORMAL_BOUNDARY_WEIGHTED_INITIALS_
 
 ---
 
-Full historical mathematics retained, including independently reviewed limits, with no theorem promotion.
+Full historical mathematics retained, including independently reviewed limits.
 
 ---
 
@@ -20,7 +20,7 @@ Full historical mathematics retained, including independently reviewed limits, w
 
 Date: 2026-10-27. Status: new research deduction, with
 [independent audit](#2026-10-27-one-step-boundary-obstruction-audit).
-No canonical promotion, unrestricted STCI exclusion, or literature novelty
+No unrestricted STCI exclusion or literature novelty
 claim is made. The argument treats whole classes of embedded multiple
 curves; no sampled pair is used.
 
@@ -460,12 +460,11 @@ Writing G_r=F^r/F^(r+1), telescoping gives
 
     sum_(r=2)^(m-1) div(G_r)=D_soc+B_full<=2 D_soc.      (6)
 
-The inequality uses the first-normal bound in promoted
-[R0019](../results/quasiprimitive_residual_cycles.md), in its specified
+The inequality uses the first-normal bound in [R0019](../results/quasiprimitive_residual_cycles.md), in its specified
 finite-flat/saturated scope. This is an equation-module cost, distinct
 from the structure-sheaf torsion (m/2)D_soc.
 
-For the reviewed provisional spectral comparison, write
+For the reviewed spectral comparison, write
 
     Q=in_I(J_full)/S_+ in_I(J_full),
     0 -> Delta_r -> Q_r -> G_r -> 0.
@@ -479,7 +478,7 @@ Hence (6) is NOT a bound on all raw initial-equation torsion unless
 Delta=0. Higher spectral cancellations must be retained. The existence
 of nonzero punctual Delta under sole support and generic defect zero
 is not settled by this theorem. The exact spectral comparison and its
-promotion limits remain those of the
+scope limits remain those of the
 [October 24 continuation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation).
 
 ### 7. What has been gained and what remains
@@ -520,7 +519,7 @@ actual-source determinant arguments used here are proved in this note.
 No claim is made that these reformulations are new in the literature.
 The source and its four pages were inspected on October 27; no broader
 literature-exhaustion claim is made. Accepted source-level filtration
-inputs and promoted result scopes are retained rather than re-certified.
+inputs and result scopes are retained rather than re-certified.
 
 ---
 
@@ -530,7 +529,7 @@ inputs and promoted result scopes are retained rather than re-certified.
 
 Date: 2026-10-27. Reviewer: independent `equation_budget_audit` agent.
 Status: mathematical reconstruction of the [source note](#2026-10-27-one-step-boundary-obstruction),
-not canonical promotion. No new unrestricted STCI exclusion or realization
+No new unrestricted STCI exclusion or realization
 of an unclassified family is certified.
 
 ### Scope and method
@@ -546,7 +545,7 @@ lower thickening Y with sole support C and generic curvilinear length
 n>=2. The arguments are characteristic independent except for the
 explicit characteristic-zero conormal description of C0.
 
-Accepted saturated pairings and the promoted first-normal bound R0019
+Accepted saturated pairings and the first-normal bound R0019
 are premises, not rerun proofs. The reviewer independently checked the
 new equation-module constructions, extension argument, converse,
 source criterion, and coefficientwise divisor comparison. No isolated
@@ -784,9 +783,8 @@ The source does not prove that the admissible lower-embedding family
 has a proper source point or that its fixed-surface condition always
 fails. Those remain the global classification question.
 
-All new claims remain reviewed provisional research evidence. The
-audit does not promote a canonical result or reopen an accepted
-exclusion. No inherited certificate or proof was replayed.
+All new claims remain reviewed research evidence. The
+audit does not reopen an accepted exclusion. No inherited certificate or proof was replayed.
 
 ---
 
@@ -796,7 +794,7 @@ exclusion. No inherited certificate or proof was replayed.
 
 Date: 2026-10-26. Reviewer: independent cycle-notebook audit agent.
 Status: exact tangent calculation and local deformation interpretation
-reviewed; no canonical promotion.
+reviewed.
 
 This finishes review of the existing
 [fixed-boundary node-smoothing calculation](../synthesis/fixed_boundary_smoothing.md).
@@ -998,8 +996,7 @@ was found in the current calculation.
 
 Date: 2026-10-26. Reviewer: `pencil_geometry`, independently reconstructing
 the local-to-global implication. **Completed fixed-carrier scope bridge,
-with two exact finite certificates; provisional research, not canonically
-promoted.** The local node lemma and the modular-to-characteristic-zero
+with two exact finite certificates; research.** The local node lemma and the modular-to-characteristic-zero
 argument are distinct from the finite rank computations. This final audit
 starts no new computation or research lane.
 
@@ -1182,6 +1179,5 @@ and the validated fixed-carrier jet kernel suffice for (4). The
 conclusion covers one selected sextic and degree-sixteen mates only.
 The rest of the endpoint-four family and unrestricted STCI questions remain unchanged.
 The bound is not claimed to be attained. The completed finite test and
-this independently reconstructed scope bridge do not promote the selected
-carrier conclusion to a canonical record or exclude any larger family.
+this independently reconstructed scope bridge do not exclude any larger family.
 

@@ -1,24 +1,24 @@
-# Mathematical status
+# Mathematical statements and open questions
 
 For the fixed embedded rational quartic \(C_0\), unrestricted STCI existence
 in characteristic zero remains **open**. The [result records](results/INDEX.md)
-own promoted statements and exact hypotheses. The linked mathematical proof
-homes also retain reviewed provisional results and conditional reductions;
-consolidation alone does not promote them.
+state exact hypotheses and point to proofs and scoped reviews. The linked
+mathematical homes also retain conditional reductions and explicit open steps;
+organization supplies no additional mathematical justification.
 
 The [four-object torus pilot](frameworks/torus_supported_boundaries.md) now
 provides complete independently reviewed reconstructions of supported Hilbert
 limits, eigenform and residual controls, and
 [constant embedded quotient descent](frameworks/embedded_torus_quotients.md).
-Its cataloged Results remain provisional. This changes retrieval and proof
-exposition, not the promoted boundaries or the open STCI status below.
+Its Results record the scope of each accepted proof review. The reconstructed
+expositions preserve the exact boundaries and the open STCI question below.
 
 The maintained account also describes proper intersections containing C0,
 their multiplicities and residual cycles, supported multiple structures, and
 normalization, projection and deformation constructions. These are mathematical
 outcomes in their own right; unrestricted non-STCI is not a presumed conclusion.
 
-## Established boundaries
+## Exclusions and constructions
 
 - [R-0001](results/quartic_carrier_exclusion.md) excludes every integral
   quartic carrier with any mate for this embedding in characteristic zero.
@@ -116,13 +116,13 @@ preserves reduced support C0 and Hilbert polynomial through the containments
 \(I_{C_0}^N\subset I_Z\subset I_{C_0}\). In characteristic zero, an invariant
 homogeneous CI ideal would admit weight-homogeneous generators and is excluded
 by the [weight theorem](supplements/EQUIVARIANT_DEGREE_BOUNDS.md). These reviewed
-provisional facts distinguish invariant reduced support, an invariant full
+statements distinguish invariant reduced support, an invariant full
 ideal, and the two separately limiting equations. They do not exclude a
 supported CI whose full invariant limit loses its CI structure. Classification
 of the relevant invariant limits and recovery of CI or ACM structure in
 deformations preserving support remain open.
 
-The provisional [constant-quotient descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
+The [constant-quotient descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
 recovers the saturated orbit-family image from the embedded algebra and tests
 prescribed CI degrees by actual homogeneous source spaces and properness.
 The same abstract algebra need not have the same projective image. The
@@ -131,7 +131,7 @@ in characteristic zero, three and two, respectively; only the characteristic-two
 image is the prescribed quartic CI. Its flat characteristic-zero collision has
 genus 28 and is not that genus-33 CI family.
 
-The provisional [sextic configurations and full limits](synthesis/toric_sextic_residuals_and_limits.md)
+The [sextic configurations and full limits](synthesis/toric_sextic_residuals_and_limits.md)
 give a sharp quotient-length bound of eight for every proper pair of eigenform
 sextics, in every characteristic, hence boundary cycle degree at least four.
 Explicit mixed-weight proper intersections exhibit residual splitting,
@@ -140,7 +140,7 @@ generator. These examples have residual support; they provide no sole-support
 CI deformation or unrestricted sextic exclusion. Recovering the known
 23-dimensional double source in quotient coordinates is a reformulation, while
 the length-nine conormal and divisor restrictions still need full embedded
-multiplication and moving-family data. No canonical result is promoted here.
+multiplication and moving-family data.
 
 The [spectral power theorem](synthesis/spectral_pushforward_powers.md) now
 contains the general genus-one pushforward lemma and all-power smooth (2,2)
@@ -199,8 +199,9 @@ types; they do not furnish that datum.
 
 A proof or certificate may be accepted while an application remains conditional.
 An exact reduction may be proved while its finite computation remains unexecuted.
-A source-reviewed result need not have a promoted ID. Characteristic extensions
-in the mathematical homes do not silently broaden older canonical records.
+Review scope is checked against the exact statement and proof. A
+characteristic extension requires an argument covering that range; it does not
+follow from an organizational change.
 
 The [frontier](FRONTIER.md) gives concrete missing implications; the
 [mechanism map](MAP.md) locates tools. Historical priorities and execution

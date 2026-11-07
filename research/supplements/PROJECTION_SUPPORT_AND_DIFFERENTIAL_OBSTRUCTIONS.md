@@ -2,7 +2,7 @@
 
 Work over an algebraically closed characteristic-zero field with the fixed embedded curve `C0=[s^4:s^3t:st^3:t^4]`. The examples below separate two independent failure mechanisms in the necessary Cartier singleton models of [R-0002](../results/cartier_singleton_lift.md): actual full inverse support can pass while infinitesimal descent fails; another actual projection can fail because of isolated inverse points. Neither family exhausts its normalization model.
 
-The plane result and its broader two-fixed-coordinate sublane are [R-0017](../results/singleton_plane_conductor_descent.md). The quadric families have completed independent source reconstruction but remain unpromoted. The exposition integrates the original proofs and the audit's unique denominator and extra-corner corrections. No symbolic computation is a premise.
+The plane result and its broader two-fixed-coordinate sublane are [R-0017](../results/singleton_plane_conductor_descent.md). The quadric families have completed independent source reconstruction and retain their stated review scopes. The exposition integrates the original proofs and the audit's unique denominator and extra-corner corrections. No symbolic computation is a premise.
 
 ## Plane normalization: actual support but no descending power
 
@@ -480,8 +480,7 @@ completed, reviewed all-degree exclusions within their stated parameter
 sets. They neither exhaust the sixteen-parameter smooth-quadric family
 nor decide either other model in STCI-R-0002. No surviving full-support
 conductor phase image is computed. STCI-Q-0001 and the unrestricted
-characteristic-zero question remain open. Canonical promotion, if any,
-requires its own recorded scope-preserving change.
+characteristic-zero question remain open.
 
 
 ## Characteristic boundary

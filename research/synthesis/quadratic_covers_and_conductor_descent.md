@@ -1,6 +1,6 @@
 # Quadratic covers, projected thickenings and conductor descent
 
-**Scope and status.** Independently reviewed provisional mathematics; no canonical promotion. Fix the smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field. Characteristic zero is the default; every positive-characteristic statement below identifies its extra hypotheses. Characteristic-zero STCI remains open.
+**Scope and status.** Independently reviewed mathematics. Fix the smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field. Characteristic zero is the default; every positive-characteristic statement below identifies its extra hypotheses. Characteristic-zero STCI remains open.
 
 This chapter asks which multiple structures and intersections with this
 support can arise from actual homogeneous equations, and what projection
@@ -564,7 +564,7 @@ does not separate the branches, so its application here is unavailable.
 
 ## 8.1. Ambient quadratic norms force conductor postulation
 
-**Independently reviewed provisional theorem.** The actual ambient equation
+**Independently reviewed theorem.** The actual ambient equation
 degrees add a norm constraint to the canonical Hilbert-function inequality
 (7a). This uses the separated quadratic extension of §§6–8.
 Order the defining degrees as \(5\le\alpha\le\beta\); the lower bound
@@ -676,7 +676,7 @@ norm specialization is a new explicit repository consequence;
 no literature priority or exhaustive literature-search claim is made.
 The frozen source and its companion audit record a separate independent
 reconstruction of this norm and postulation deduction. The current chapter
-retains that reviewed provisional scope; no canonical promotion follows.
+retains that reviewed scope.
 
 The distinction from the general theorem in §11 is essential. Its
 canonical injection and Hilbert inequality allow any positive degree of
@@ -847,7 +847,7 @@ The common theorem describes the boundary of an extra polarized section. In the 
 
 ## 12. Embedded-curve exclusion of the minimal boundary
 
-**Independently reviewed provisional refinement.** Reuse the graded conductor theorem in §11. The argument below adds an embedding constraint; it does not change that theorem's hypotheses or establish an unrestricted STCI obstruction.
+**Independently reviewed refinement.** Reuse the graded conductor theorem in §11. The argument below adds an embedding constraint; it does not change that theorem's hypotheses or establish an unrestricted STCI obstruction.
 
 Let \(S=k[x_0,x_1,x_2,x_3]\), let \(Y=\operatorname{Proj}A\), where \(A=S/(F_a,G_b)\) is a proper complete-intersection curve of positive surface degrees \(a,b\), and suppose \(Y_{\mathrm{red}}=C\) is an irreducible curve which is not a line. Suppose \(A\subset B\) satisfies all hypotheses of the graded conductor theorem, with \(B=A+Aw\) as an **A-module** and \(\deg w=d>0\). Set \(T=A/\mathfrak c\), \(\Delta=\operatorname{Proj}T\), and \(\delta=\deg\Delta\). If
 
@@ -871,7 +871,7 @@ As a standard graded quotient of S, T therefore has two independent linear equat
 
 Both F and G vanish on \(\Delta\), since T is a quotient of A. Their restrictions to L thus belong to that principal ideal. Their degrees a and b are strictly less than \(\delta_0\), so both restrictions are zero. Hence \(L\subset Y\). This contradicts \(Y_{\mathrm{red}}=C\), because an irreducible curve different from L cannot contain L. Equality is impossible, and integrality of \(\delta\) proves the bound. \(\square\)
 
-For the separated quadratic lift of any hypothetical supported pair on the fixed quartic C0 in characteristic zero, d=1. The previously established low-degree exclusions give \(\min(a,b)\ge4\) (indeed the promoted carrier theorem gives the stronger \(\min(a,b)\ge5\)). Therefore
+For the separated quadratic lift of any hypothetical supported pair on the fixed quartic C0 in characteristic zero, d=1. The previously established low-degree exclusions give \(\min(a,b)\ge4\) (indeed the carrier theorem gives the stronger \(\min(a,b)\ge5\)). Therefore
 
 \[
 \boxed{\delta\ge a+b-2.}
@@ -883,7 +883,7 @@ Here the extremal case would create an actual line in the complete intersection 
 
 ## 13. Canonical conductor, section completion and embedded action
 
-**Independently reviewed provisional deductions.** Keep the actual graded
+**Independently reviewed deductions.** Keep the actual graded
 rings of the hypothetical supported pair in §§6–8, in the stated
 characteristic-zero setting. This argument identifies additional structure
 on the same embedded branch; it does not produce a new ACM embedding.
@@ -1005,6 +1005,6 @@ presuming either existence or nonexistence of a supported pair.
 
 Independent reconstruction checked the projected-source and arbitrary-pair distinction, full primary extraction, conductor and attachment formulas, characteristic bounds, and conjugate descent. The degree-d theorem was proved again with full finite-birational, module-generation, CM and support hypotheses, including the nonreduced setting, exact shifts and Hilbert inequalities. No incompatible upper boundary bound, AG conjugate union, or unrestricted STCI conclusion follows.
 
-The separately reviewed norm/postulation theorem is retained with its full actual-ring proof, including nilpotent h, nonsquare polynomial norm, parity cutoff, and characteristic boundaries. The conductor-endomorphism application retains its scoped source review: it identifies section completion and the actual quadratic graph presentation, without an embedded ACM repair or a new exclusion. These additions do not re-certify unrelated source material or promote a canonical result.
+The separately reviewed norm/postulation theorem is retained with its full actual-ring proof, including nilpotent h, nonsquare polynomial norm, parity cutoff, and characteristic boundaries. The conductor-endomorphism application retains its scoped source review: it identifies section completion and the actual quadratic graph presentation, without an embedded ACM repair or a new exclusion. These additions do not re-certify unrelated source material.
 
 The inherited mathematical inputs retain the scope and review evidence of their linked owners. No inherited CAS campaign was broadly rerun, and the unrestricted characteristic-zero STCI question remains open.

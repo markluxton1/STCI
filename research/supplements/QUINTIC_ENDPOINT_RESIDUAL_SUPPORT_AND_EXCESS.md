@@ -281,7 +281,7 @@ The global audit passes. Its acceptance covers only `a != 0` in the intrinsic
 endpoint genus-one A4 lane. The two `a=0` subfamilies require their separate
 support and jet arguments; the nonendpoint lane retains its extra modulus.
 Other quintic normalizations, higher carriers and the universal STCI problem
-remain open. This audit edits no prior frozen proof, canonical record or
+remain open. This audit edits no prior frozen proof, record or
 existing evidence seal.
 
 
@@ -295,7 +295,7 @@ Status: **DIRECT COMPLETE PROOF AUDIT PASS for the displayed affine family**.
 The applicability to the entire intrinsic endpoint lane uses the separately
 recorded A4 pair and projection-center classification. This note does not
 exclude a!=0, a=b=0, nonendpoint projections, other quintic normalizations
-or the unrestricted STCI problem. No frozen source, canonical record or
+or the unrestricted STCI problem. No frozen source, record or
 integrity seal is edited.
 
 The [explicit model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
@@ -580,7 +580,7 @@ snapshots of either source are copies, not additional implementations.
 
 Date: 2026-10-11. Author: `oct11_endpoint_a_nonzero_support/a_nonzero_local_excess`.
 Status: **DIRECT LOCAL-INTERSECTION PROOF WITH EXACT ALGEBRAIC CERTIFICATES;
-pending independent audit**. This note changes no canonical or frozen record.
+pending independent audit**. This note changes no frozen record.
 It proves the displayed endpoint a!=0 full-support condition impossible when
 U and W have at most two distinct common roots. It does not by itself treat
 the three-common-root stratum or nonendpoint projection centers.

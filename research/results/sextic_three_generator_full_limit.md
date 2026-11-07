@@ -2,7 +2,6 @@
 id: STCI-R-0046
 type: result
 title: A saturated ACM full torus limit with generator degrees six six ten
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -141,5 +140,4 @@ Those identity checks support the geometric reduction with necessary
 exact algebra; they do not replace its flatness or saturation argument.
 The residual-degree-32 example remains outside sole support.
 
-The Result remains provisional; independent acceptance of this
-reconstructed route does not promote its status or the source's labels.
+Independent reconstruction review accepts this route within its stated scope.

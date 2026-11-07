@@ -593,7 +593,7 @@ quadratic coefficients
 satisfy all eleven P-022 image equations.  This is an exact, content-free
 first-normal survivor, not an ambient integral sextic or an STCI pair.  It
 shows why the \([2,2]\) boundary must remain in the search.  Unsaved
-higher-jet samples are not promoted beyond computational evidence.
+higher-jet samples supply only computational evidence.
 
 
 
@@ -703,5 +703,4 @@ The [full two totally ramified-root reduction](SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.m
 
 Independent review reconstructed all preserved P019/P020/P022/P023/P027/P030/P041/P042 arguments, source coverage and characteristic boundaries, including the entire-conductor qualification for global invariants. The separate full two-ramified-root reduction was also independently reconstructed and accepted. The bounded proof clarifications in this account
 were checked against the original arguments; no material preservation finding
-remains. This reviewed consolidation does not promote additional canonical
-results or extend the claims beyond their stated hypotheses.
+remains. The claims retain their stated hypotheses.

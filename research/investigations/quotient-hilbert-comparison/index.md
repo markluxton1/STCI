@@ -55,7 +55,7 @@ tests its actual generators. The constant-quotient construction,
 comparisons, not coverage of every moving family.
 
 The broader [entire finite-modification argument](../../synthesis/tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
-remains a reviewed provisional source outside this reconstructed proof closure.
+remains a source argument with its own review history, outside this reconstructed proof closure.
 For its actual supported CI and notation it gives a rank-\(m\) quotient bundle
 \(\mathcal B\), degree \(e\ge0\), and endpoint defects satisfying
 \[

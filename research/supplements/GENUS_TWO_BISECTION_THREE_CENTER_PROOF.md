@@ -15,7 +15,7 @@ Date: 2026-10-10. Author: `k3_fiber_enumeration`, independently
 assigned by `bisection_local_fibers`. Status: **PROVED HERE,
 conditional on the accepted second-pencil reduction and the smooth
 embedded lift; awaiting the parent's separate adversarial audit**.
-No canonical frontier file was edited.
+No frontier file was edited.
 
 This note excludes a fiber with blowup count `k_t=3`. It includes
 nonreduced fibers and preexisting ADE exceptional components. It does

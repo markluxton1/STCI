@@ -21,7 +21,7 @@ Permanent mathematical dossier. The (2,12) setting and every other hypothesis re
 
 Date: 2026-10-20. Author: `singular_gluing` continuation worker.
 Status: **new proposal; exact reduction and scoped exclusion**. No
-canonical record or inherited proof is changed. The factor-matrix and
+record or inherited proof is changed. The factor-matrix and
 torsion-scheme calculation below was independently reconstructed by
 `two_node_torsion_audit`, with an additional factorization check by its
 `factor_check` worker. The diagonal ambient exclusion, its exact
@@ -37,8 +37,7 @@ hypotheses in
 [the singular-root bridge note](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md).
 The current task investigates the necessary structured incidence, not
 unrestricted homogeneous equations. The inherited universal first
-incidence and complete second test are the promoted
-[STCI-R-0007](../results/quadratic_root_obstruction_model.md), and the
+incidence and complete second test are stated in [STCI-R-0007](../results/quadratic_root_obstruction_model.md), and the
 finite singular bridge remains a reviewed proposal in the linked note.
 
 The source generator for these new calculations is
@@ -270,8 +269,7 @@ computational chart.
 # Conditional (2,12;6,16;2): forced-norm two-node reductions and exclusions
 
 Date: 2026-10-21. Author: `singular_gluing` continuation worker.
-Status: **new exact reductions and scoped exact exclusions; not
-canonical promotion**. The cubic-defect identities, generic line/conic
+Status: **new exact reductions and scoped exact exclusions**. The cubic-defect identities, generic line/conic
 decomposition and original-coordinate normalizations were independently
 reviewed by `two_node_torsion_audit`. The new completed line-component and boundary
 CAS exclusions are submitted to `certificate_audit` for independent
@@ -284,7 +282,7 @@ Retain characteristic zero, the fixed
 `C0=[s^4:s^3t:st^3:t^4]`, an actual homogeneous pair of degrees
 `6,16` with sole reduced support `C0`, FULL generic ordinary initial
 ideal a coprime binary CI `(2,12)`, and the ACTUAL saturated first
-relation of movement two. The promoted inputs are
+relation of movement two. The inputs are
 [R-0010](../results/saturated_first_relation_normal_flatness.md),
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md),
 and the universal first/second operators in
@@ -669,7 +667,7 @@ unit ideals, not on the interrupted trial or an equation count.
 
 # The cubic image and the anticanonical conductor interface
 
-Status: **independently reviewed conditional proof in the actual-pair scope**. The fixed curve is C0, and the antecedent is an actual sole-support degree-(6,16) pair with full generic initial CI (2,12) and actual saturated movement-two first relation. The proof does not assert that this antecedent is realized, nor emptiness of the remaining incidence; no canonical promotion is made.
+Status: **independently reviewed conditional proof in the actual-pair scope**. The fixed curve is C0, and the antecedent is an actual sole-support degree-(6,16) pair with full generic initial CI (2,12) and actual saturated movement-two first relation. The proof does not assert that this antecedent is realized, nor emptiness of the remaining incidence.
 
 ## 1. Explicit cubic image
 
@@ -819,14 +817,14 @@ Status: **reviewed conditional conductor and ramification argument**. The antica
 
 ## 1. Exact scope and source boundary
 
-Use the same actual-pair hypotheses as the reviewed but unpromoted
+Use the same actual-pair hypotheses as the reviewed
 [surface-bound proposal](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus): an actual
 homogeneous supported pair of degrees `(6,16)`, full generic coprime initial CI
 of degrees `(2,12)`, and actual saturated movement-two first relation, over an
-algebraically closed field of characteristic zero. The promoted inputs are
+algebraically closed field of characteristic zero. The inputs are
 [R-0010](../results/saturated_first_relation_normal_flatness.md) and
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md); the finite
-singular-root bridge remains the reviewed, unpromoted dependency in
+singular-root bridge remains the reviewed dependency in
 [the singular-gluing proposal](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md).
 
 Put `B=Bl_C0(P3)`, `L=3H-E`, and `Q'=2H-E=L-H`. The strict sextic is
@@ -1151,7 +1149,7 @@ The actual anticanonical contraction and reviewed monic ramification exclusion d
 Date: 2026-10-21. Reviewer: `incidence_audit` worker.
 
 Status: **PASS for the scoped bridges and chart exclusions described
-below; no canonical promotion and no full conditional emptiness claim.**
+below; no full conditional emptiness claim.**
 This review uses saved source notes and executable certificates, not
 unsaved worker conclusions. All actual-pair implications retain the
 fixed `C0`, characteristic zero, degrees `(6,16)`, FULL generic coprime
@@ -1214,7 +1212,7 @@ Coverage was audited separately:
   Hence pivot-rank-drop points on this free-orbit chart are
   included.
 
-An old unpromoted October 20 printed Schur matrix omitted the
+An old October 20 printed Schur matrix omitted the
 term `-d1*d3` in its middle diagonal entry. The October 21
 exporters used for these certificates contain that term. The
 old printed formula must not be used to redefine this chart.

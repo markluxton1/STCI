@@ -14,7 +14,6 @@ assertion that either phase image has been computed for the fixed quartic.
 **Review.** The scoped contact, budget and split-control arguments have
 inherited independent source review. The later audited family theorem replaces
 the preliminary finite-phase construction, including its specialization repair.
-This consolidation does not promote a result or settle unrestricted STCI.
 Independent replacement review accepted the corrected proof preservation,
 controls, constants, and scope. No material finding remains.
 

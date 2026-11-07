@@ -13,7 +13,7 @@ uses this reduction with those accepted partition proofs.
 Date: 2026-10-10. Auditor: `oct10_genus_one_interfaces`.
 Status: **PROVED HERE / interfaces accepted**, conditional only on the
 separately assigned complete exclusions of contact partitions `[4]`,
-`[3,1]`, and `[2,2]`. No canonical file is edited. This is an audit of
+`[3,1]`, and `[2,2]`. This is an audit of
 the hypotheses and quantifiers linking the accepted component results;
 it does not substitute agreement between agents for any component proof.
 
@@ -341,7 +341,7 @@ formula retains all schemes until a particular surviving pencil
 itself forces a smooth conic, if that is used by its final proof.
 
 At this note's writing the **interfaces are accepted**, while
-promotion of the entire genus-one no-mate theorem remains conditional
+the entire genus-one no-mate theorem remains conditional
 on the separately audited remaining-partition coverage. This is a
 logical dependency boundary, not an identified gap in the application
 of the accepted rationality, ADE, D5, anticanonical, conductor, ribbon,

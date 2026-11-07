@@ -2,7 +2,6 @@
 id: STCI-R-0051
 type: result
 title: Finite embedded transverse quotients give pure orbit-image curves
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -88,13 +87,10 @@ Cohen--Macaulay or a complete intersection.
 
 ## Review
 
-Source provenance: the retained chapter reports independent provisional
-review of its image and endpoint arguments. This source review remains
-distinct from reconstruction acceptance.
+The retained chapter has a separate review of its image and endpoint arguments, distinct from the reconstruction acceptance recorded here.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted the exact R-0051 route after independently
 reconstructing the scheme image, saturation, finite charts, support and
 Cohen--Macaulay purity arguments. No blocker was found within the stated
-constant embedded-quotient scope. This is reconstructed acceptance, not
-a promotion: the Result remains provisional.
+constant embedded-quotient scope. The reconstruction review accepts this route within its stated scope.

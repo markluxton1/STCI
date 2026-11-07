@@ -3,7 +3,7 @@
 Work with the fixed embedded rational quartic \(C=C_0\), over an
 algebraically closed characteristic-zero field unless a local or cohomological
 statement explicitly allows arbitrary characteristic. This account consolidates
-reviewed provisional mathematics without canonical promotion. Its purpose is
+reviewed mathematics. Its purpose is
 to keep existence constructions visible together with necessary conditions.
 The [capacity chapter](residual_capacity_and_constructions.md) distinguishes
 marked and full-primary attachment; [residual intersections](residual_intersections_and_jets.md)
@@ -179,7 +179,7 @@ determinant. When the determinant is nonzero, \(D\) does not contain \(C\)
 as a component and this is a finite effective divisor. The determinant-zero
 locus requires higher-order data; it is outside the domain of (2).
 
-**Proposition, provisional.** For every \(a,b\ge4\), \(\beta_{a,b}\) is
+**Proposition.** For every \(a,b\ge4\), \(\beta_{a,b}\) is
 dominant and has surjective differential at the following explicit proper
 pair:
 

@@ -5,7 +5,7 @@ Requires SymPy. Default output is the adjacent JSON evidence file; pass
 --output to use another destination. This verifies explicit polynomial
 and ideal identities only. Global reducedness, normalization, completeness,
 and geometric interpretation are proved in the accompanying note.
-No inherited STCI result is rerun or promoted.
+No inherited STCI result is rerun.
 """
 from __future__ import annotations
 
@@ -95,7 +95,6 @@ def main() -> None:
            sp.factor(K.subs(quadric_trace)) == 2*u**6)
 
     result = {"scope": "fixed marked rational quartic, characteristic zero",
-              "status": "exact symbolic evidence for provisional research",
               "sympy_version": sp.__version__, "checks": checks,
               "count": len(checks), "all_pass": True}
     args.output.write_text(json.dumps(result, indent=2)+"\n")

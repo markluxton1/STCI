@@ -20,7 +20,7 @@ A normal carrier's symbolic divisor data is **not** by itself a construction of 
 
 ---
 
-Permanent mathematical dossier. Complete source arguments are preserved with their precise hypotheses, conditional scope, calculations, failed approaches, and unresolved boundaries. This grouping does not promote claims to canonical results.
+Permanent mathematical dossier. Complete source arguments are preserved with their precise hypotheses, conditional scope, calculations, failed approaches, and unresolved boundaries.
 
 ---
 
@@ -802,7 +802,7 @@ as a substitute for them.
 
 Date: 2026-10-14. Worker: `socle_audit/higher_moments`.
 Status: **PROVED NEW COMPARISON AND ARITHMETIC CONSEQUENCE, CONDITIONAL
-ONLY ON THE EXPLICIT ACCEPTED INPUTS BELOW.** No canonical file edited.
+ONLY ON THE EXPLICIT ACCEPTED INPUTS BELOW.**
 
 Accepted inputs, not reverified: the fixed C0 normal/conormal coefficients;
 the ordinary curvilinear CI free-layer and pointwise Frobenius theorem;
@@ -1178,7 +1178,7 @@ with the actual higher local ideals, especially the index-three
 and index-four contributions. No exclusion of the positive rows,
 the mixed order-one/thick pair, or the unrestricted STCI problem
 is established here. An independent review should check the
-pointwise Frobenius-lattice argument before canonical promotion.
+pointwise Frobenius-lattice argument before relying on the conclusion.
 
 ---
 
@@ -1195,7 +1195,7 @@ duality/budget, the splitting N_C0^* = O(-7)^2, the exclusion of integral
 carriers of degree at most four, and P-010's nonzero quadratic obstruction
 for every constant first direction. Those inputs were not reverified.
 Only the new filtered/index compatibility and its consequences are
-proved and audited here. No canonical-state file is edited.
+proved and audited here. No state file is edited.
 
 ### 1. Ordinary free layers are powers, even in the presence of torsion
 

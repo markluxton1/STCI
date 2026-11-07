@@ -280,7 +280,7 @@ def main() -> None:
         "scope": "Exact polynomial and linear-algebra checks for the fixed rational quartic in characteristic zero, with three explicitly labelled characteristic-two reductions.",
         "limitations": [
             "The notes supply the geometric classification and completeness proofs.",
-            "A passing identity verifier does not certify mathematical novelty, canonical promotion, or an STCI exclusion.",
+            "A passing identity verifier does not certify mathematical novelty or an STCI exclusion.",
             "No inherited normal-bundle or carrier-exclusion computation is rerun.",
             "The rank-three catalecticant tests the supplied center; the proof that every secant has rank at most two is in the note.",
             "The stabilizer identities are checked; the full stabilizer identification requires the characteristic-zero argument in the note.",

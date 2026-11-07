@@ -1,6 +1,6 @@
 # Embedded primitive towers: gluing, arithmetic variation, and actual pairs
 
-An abstract rational curve or its normal bundle does not determine the obstruction to extending an embedded ribbon. This chapter owns the full primitive-stage extension, the comparison under quadratic gluing changes, the marked divided leading-class theorem, and explicit counterexamples showing why the full neighborhood and integral lift are essential. It then records what an actual supported complete intersection does and does not supply. These are independently reviewed provisional results, not new canonical promotions.
+An abstract rational curve or its normal bundle does not determine the obstruction to extending an embedded ribbon. This chapter owns the full primitive-stage extension, the comparison under quadratic gluing changes, the marked divided leading-class theorem, and explicit counterexamples showing why the full neighborhood and integral lift are essential. It then records what an actual supported complete intersection does and does not supply. These are independently reviewed results.
 
 The embedded ribbon-to-triple extension is proved in [higher embedded structures](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction). The exact arithmetic example is [R-0012's nonlifting proof](Z4_LIFTING_AND_DEFORMATION.md). The full extension—not any chosen quadratic summand—has invariant meaning. Standard square-zero derivations and cotangent-complex deformation theory contextualize the construction, but do not identify it with a Frobenius-lifting or Witt-vector obstruction. Abstract primitive-multiple-curve results likewise do not by themselves solve fixed-ambient compatibility over a mixed-characteristic DVR.
 
@@ -657,7 +657,7 @@ an explicit Čech coboundary in the stated Laurent trivializations, so the two c
 
 ## Consequences for actual characteristic-zero pairs
 
-## 1. Exact setup, inherited claims, and authority
+## 1. Exact setup and inputs
 
 Unless a statement specifies otherwise, k is an algebraically closed field of characteristic zero,
 
@@ -682,7 +682,7 @@ The following are inherited premises, rather than computations repeated in this 
   \tag{1}
   \]
 
-  Its Yoneda class o_X(q) in H¹(M dual tensor L²) vanishes precisely when the fixed embedded ribbon admits an ambient embedded primitive triple. This is independently audited evidence, not a new promoted canonical record. The distinction matters: the ambient triple need not be contained in a given Z.
+  Its Yoneda class o_X(q) in H¹(M dual tensor L²) vanishes precisely when the fixed embedded ribbon admits an ambient embedded primitive triple. This is independently audited evidence. The distinction matters: the ambient triple need not be contained in a given Z.
 * The [persistent independent audit](#relative-ext-construction-in-the-marked-quartic-problem) proves the fixed marked integral first-order calculation and its precise relative meaning. In particular, every admissible integral quotient reducing to the specified q0 has a middle obstruction coefficient 2 modulo 4. This additional relative conclusion is audited evidence, rather than a broader restatement of R0012.
 
 The [existing literature assessment](#the-missing-arithmetic-comparison) has been consulted. Its distinction between abstract multiple curves and fixed-ambient embedded extension is retained. No claim of priority over the multiple-curve literature is made for the elementary consequences proved here. The reports and the present proofs establish the stated scope; a familiar analogy with abstract extension or divided Frobenius is not being used as a theorem.
@@ -954,7 +954,7 @@ Extracting a degree-16 intermediate structure would avoid that particular degree
 
 Suppose a hypothetical characteristic-zero pair admits a model over R=Z_(2) or Z_2, in the fixed relative quartic embedding, such that the total support is C_R, the family is flat, its first-normal image is a line subbundle at every point of C_R, its generic multiplicity is at least three, and its induced quotient reduces to the distinguished q0 of the marked arithmetic problem. Then this model cannot exist.
 
-Indeed Proposition B gives a relative primitive triple. Its canonical extension (1) must split over R. The audited full admissible-quotient calculation gives middle coefficient 2 modulo 4 for every integral quotient reducing to q0, contradicting such a splitting. This rules out a particular kind of *good marked reduction*, for any multiplicity at least three. It does not assert that a hypothetical characteristic-zero STCI must possess such a model. For a total special fiber equal to prescribed Z4, the independently stronger full nonlifting statement is precisely the promoted R0012, with its two-DVR limitation.
+Indeed Proposition B gives a relative primitive triple. Its canonical extension (1) must split over R. The audited full admissible-quotient calculation gives middle coefficient 2 modulo 4 for every integral quotient reducing to q0, contradicting such a splitting. This rules out a particular kind of *good marked reduction*, for any multiplicity at least three. It does not assert that a hypothetical characteristic-zero STCI must possess such a model. For a total special fiber equal to prescribed Z4, the independently stronger full nonlifting statement is precisely the R0012, with its two-DVR limitation.
 
 Flatness cannot be omitted in descent arguments. Over a DVR, generic containments extend to the total scheme when the target quotients O_Z and O_C are torsionfree, but quotient flatness is what also identifies the base-changed ideal with the actual special-fiber ideal via Tor vanishing. An ideal itself is torsionfree without its quotient being flat: (2x,x²) in Z_2[x] is an elementary counterexample.
 

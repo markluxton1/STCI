@@ -1,10 +1,10 @@
 # Singular spectral roots and the boundary of the torsion detector
 
-**Status.** Independently reviewed provisional extension on
+**Status.** Independently reviewed extension on
 `codex/spectral-realization-2026-10-31`, based on consolidation `fd50fb6`. This is
 an intrinsic classification of pushforward bundles for full basepoint-free
 (2,2) root schemes, in every characteristic. It does not extend the actual
-smooth-root-to-CI bridge to singular roots or promote a canonical result.
+smooth-root-to-CI bridge to singular roots.
 The [power theorem and coefficient maps](spectral_pushforward_powers.md)
 provide the notation and smooth case.
 
@@ -186,4 +186,4 @@ the determinant with the relative Picard torsion scheme and constructs a
 universal graded family there. Scheme structure along singular roots,
 including the unbalanced stratum, remains open here. The existing
 normal-source, actual-neighborhood and
-projective-support hypotheses remain separate; no canonical result is promoted.
+projective-support hypotheses remain separate.

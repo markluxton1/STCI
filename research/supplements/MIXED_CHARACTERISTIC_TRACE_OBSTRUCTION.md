@@ -10,7 +10,7 @@ equation. This note studies simultaneous deformations of a pair whose
 equations may lose this symmetry.
 
 **Status, October 31, 2026:** independently reconstructed, reviewed
-provisional deductions; no canonical promotion. These constrain lifts of
+deductions. These constrain lifts of
 specified special fibers. They do not exclude arbitrary characteristic-zero
 STCIs or prove that every characteristic-zero pair specializes to this locus.
 

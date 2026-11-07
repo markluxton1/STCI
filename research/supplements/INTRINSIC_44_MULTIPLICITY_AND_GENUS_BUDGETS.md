@@ -7,7 +7,7 @@ The historical material contains several arguments with different inputs and dif
 | Route | Retained location | What it supplies | Limitation |
 | --- | --- | --- | --- |
 | Filtered quartic-contact calculation | [Filtered proposal and independent audit](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) | A classification- and calculation-dependent route through the two saturated numerical types and actual cubic-contact constraints | Its computational exhaustiveness and inherited hypotheses remain attached to the original audit; this synopsis is not an independent rerun |
-| First-symbol pencil and surface singularities | [Intrinsic K3 proposal](../synthesis/quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction) and [audit](../synthesis/quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction) | A different route from the defect algebra and first-symbol divisor to moving singularities and an exceptional-rank contradiction | Characteristic-zero and K3-specific; preserve as historical reviewed evidence, not a newly promoted result |
+| First-symbol pencil and surface singularities | [Intrinsic K3 proposal](../synthesis/quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction) and [audit](../synthesis/quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction) | A different route from the defect algebra and first-symbol divisor to moving singularities and an exceptional-rank contradiction | Characteristic-zero and K3-specific; preserve as historical reviewed evidence, not a new result |
 | Explicit local multiplication and defect types | [Intrinsic quadruple local algebra](../synthesis/quartic_pair_obstruction.md) | The local normal form and identification of the fixed divisor, with coefficient-function qualifications | Local algebra does not by itself prove global realizability or a global STCI exclusion |
 | Genus and torsion budgets | [Degeneration genus budgets](#44-degeneration-genus-budgets) and [normal torsion spectral budget](CURVILINEAR_GENUS_AND_DEFECTS.md#normal-torsion-spectral-genus-budget) | Numerical bookkeeping, boundary divisors, and explicit reduced/nonreduced comparison examples | Necessary conditions and examples are not sufficient to exclude all pairs |
 
@@ -18,7 +18,7 @@ The historical material contains several arguments with different inputs and dif
 ---
 
 
-Permanent subject consolidation. All source mathematical detail retained with its original conditional and audited status; no new theorem promotion.
+Permanent subject consolidation. All source mathematical detail retained with its original conditional and audited status.
 
 
 ---
@@ -31,11 +31,11 @@ Permanent subject consolidation. All source mathematical detail retained with it
 
 # Independent audit: what multiplicity at least three forces in (4,4)
 
-Date: 2026-10-26. Reviewer: independent `triple_classification` agent. Reviewed document: [multiplicity-three deductions](#44-multiplicity-three-forces). **Outcome: the stated deductions pass independent reconstruction at their stated scopes. No canonical promotion.**
+Date: 2026-10-26. Reviewer: independent `triple_classification` agent. Reviewed document: [multiplicity-three deductions](#44-multiplicity-three-forces). **Outcome: the stated deductions pass independent reconstruction at their stated scopes.**
 
 ## Scope and accepted premises
 
-The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal promoted statements of [R0001](../results/quartic_carrier_exclusion.md), [R0020](../results/quartic_conormal_characteristic_jump.md), and [R0022](../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](#44-degeneration-genus-budgets) and the accepted source-level conjugate pencil in the [filtered proof](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) were consulted at their recorded scope.
+The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal statements of [R0001](../results/quartic_carrier_exclusion.md), [R0020](../results/quartic_conormal_characteristic_jump.md), and [R0022](../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](#44-degeneration-genus-budgets) and the accepted source-level conjugate pencil in the [filtered proof](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) were consulted at their recorded scope.
 
 The reviewer independently derived the conjugate example's factorization and branch geometry before reading the new verifier. The [new script](../computations/verify_44_triple_residual_example_2026_10_26.py) was inspected as finite polynomial evidence. Its successful execution is recorded separately in the linked validation directory; the audit does not equate execution with a global proof.
 
@@ -83,7 +83,7 @@ For the stated saturated triple filtration, summing Euler characteristics of \(\
 
 ## Review decision
 
-No substantive mathematical correction is required. The attained maximum, forced residual degree, integral-pencil deduction using R0001, moving singularity divisor, general moving A2 structure, and explicit example all reconstruct at the stated hypotheses. The note explicitly leaves the classification of all degree-four residual schemes open. The verifier establishes only its listed finite identities; global properness, purity, liaison, and singularity interpretation are supplied by the arguments above. No canonical result or question is created or promoted.
+No substantive mathematical correction is required. The attained maximum, forced residual degree, integral-pencil deduction using R0001, moving singularity divisor, general moving A2 structure, and explicit example all reconstruct at the stated hypotheses. The note explicitly leaves the classification of all degree-four residual schemes open. The verifier establishes only its listed finite identities; global properness, purity, liaison, and singularity interpretation are supplied by the arguments above.
 
 
 
@@ -93,7 +93,7 @@ No substantive mathematical correction is required. The attained maximum, forced
 
 # What multiplicity at least three forces in a (4,4) intersection
 
-Date: 2026-10-26. Status: new deductions and explicit residual calculation, independently reviewed in the [audit](#44-multiplicity-three-forces-audit); no canonical promotion.
+Date: 2026-10-26. Status: new deductions and explicit residual calculation, independently reviewed in the [audit](#44-multiplicity-three-forces-audit).
 
 ## 1. Exact question, inputs, and answer
 
@@ -111,7 +111,7 @@ and let \(W=V(F,G)\) be a proper complete intersection of two quartics containin
 
 This closes the multiplicity/residual-existence question in degree (4,4): the maximum multiplicity is three, it is attained, and at that maximum the residual degree is exactly four. It does not classify every possible degree-four residual scheme.
 
-Promoted premises, used without rerunning their proofs:
+Premises, used without rerunning their proofs:
 
 - [R0022](../results/quartic_44_filtered_exclusion.md): no proper quartic pair has sole reduced support this C in characteristic zero.
 - [R0001](../results/quartic_carrier_exclusion.md): no integral quartic carrier through this C admits any homogeneous mate with sole support C.
@@ -140,7 +140,7 @@ If a quartic member H were reducible, C would therefore lie on an integral cubic
 \[
 m_C(A,G)=3.
 \]
-If G is integral, the proper intersection \(V(A,G)\) has degree twelve and already contains the degree-twelve cycle 3C. Purity gives sole support C, contradicting R0001 with G as the integral quartic carrier and A as its mate. This uses the literal promoted statement of R0001, rather than assuming R0022 covers degrees (3,4).
+If G is integral, the proper intersection \(V(A,G)\) has degree twelve and already contains the degree-twelve cycle 3C. Purity gives sole support C, contradicting R0001 with G as the integral quartic carrier and A as its mate. This uses the literal statement of R0001, rather than assuming R0022 covers degrees (3,4).
 
 If G is reducible, the quadratic case is already excluded, so its carrying factor is an integral cubic B and its remaining factor is a plane. Properness excludes A=B; Bézout gives degree nine for \(V(A,B)\), which cannot contain 3C of degree twelve. This also contradicts m=3. Therefore
 \[
@@ -272,7 +272,7 @@ The forced residual cycle has degree four, but the present argument does not pro
 
 ## 8. Review and frontier impact
 
-The independent review reconstructs the new deductions, checks the explicit global example, and retains the stated accepted premises. The new verifier proves its listed finite polynomial identities only. Canonical exclusions remain premises and are not retested. No canonical record, proof, or unrestricted STCI status changes. The new conclusion is the attained maximum three, the forced residual degree four, and the singularity structure of the entire integral pencil at that maximum.
+The independent review reconstructs the new deductions, checks the explicit global example, and retains the stated accepted premises. The new verifier proves its listed finite polynomial identities only. The exclusions remain premises and are not retested. No record, proof, or unrestricted STCI status changes. The new conclusion is the attained maximum three, the forced residual degree four, and the singularity structure of the entire integral pencil at that maximum.
 
 ## 9. An independent route to the multiplicity-four bound
 
@@ -286,7 +286,7 @@ The [complete rank-four surface proof](../synthesis/quartic_pair_obstruction.md#
 
 # Degenerating a (4,4) curve: cycles, gluing, and nilpotent genus
 
-Date: 2026-10-26. Status: exploratory synthesis and new elementary deductions; independent review is recorded in the [audit](#44-degeneration-genus-budgets-audit). No canonical promotion.
+Date: 2026-10-26. Status: exploratory synthesis and new elementary deductions; independent review is recorded in the [audit](#44-degeneration-genus-budgets-audit).
 
 ## 1. Question and scope
 
@@ -298,7 +298,7 @@ The field is algebraically closed of characteristic zero; statements about ordin
 
 Completion of this move means deriving the genus and componentwise boundary constraints, giving actual smoothable examples at several extremes, and isolating the additional information needed when a component acquires multiplicity. It does not mean classifying all degree partitions or all embedded limits.
 
-Promoted inputs are [R0021](../results/quartic_mu4_degeneration.md), for the prescribed four-quartic configuration, and the precise scope of [R0022](../results/quartic_44_filtered_exclusion.md), for the already established fixed-curve (4,4) exclusion. Neither exclusion proof is rerun. The [previous cycle notebook](../synthesis/root_pencil_geometry.md) and [conductor/topology note](../synthesis/root_pencil_geometry.md), with their linked audits, supply reviewed but unpromoted geometry. The smooth-carrier dichotomy in section 7 is a new elementary deduction, independently reconstructed during this move.
+inputs are [R0021](../results/quartic_mu4_degeneration.md), for the prescribed four-quartic configuration, and the precise scope of [R0022](../results/quartic_44_filtered_exclusion.md), for the already established fixed-curve (4,4) exclusion. Neither exclusion proof is rerun. The [previous cycle notebook](../synthesis/root_pencil_geometry.md) and [conductor/topology note](../synthesis/root_pencil_geometry.md), with their linked audits, supply reviewed geometry. The smooth-carrier dichotomy in section 7 is a new elementary deduction, independently reconstructed during this move.
 
 ## 2. What is conserved
 
@@ -387,14 +387,14 @@ Keep F a product of four general planes but choose G a general smooth quartic su
 
 ### Retaining the fixed rational quartic
 
-The reviewed provisional notebook supplies a general member
+The reviewed notebook supplies a general member
 \[
 W=C\cup D,\qquad \deg D=12,\quad g(D)=16,
 \quad\operatorname{length}(C\cap D)=18,
 \]
 with D smooth and eighteen ordinary attachments. The allocation is \((16,17,0)\).
 
-At the promoted prescribed pair
+At the prescribed pair
 \[
 F=x_1^4-x_0^3x_3,\qquad G=x_2^4-x_0x_3^3,
 \]
@@ -447,7 +447,7 @@ Its reduced topology is a sphere, while the twisted nilpotent layers account for
 
 Even a pure multiplicity-four degree-four support occurs in characteristic zero: \(V(L^4,G_4)\) has cycle \(4[D]\) when \(D=V(L,G_4)\) is a smooth plane quartic. Its four layers \(\mathcal O_D(-j)\), \(0\le j\le3\), have polynomials \(4n-4j-2\), whose sum is again \(16n-32\).
 
-These examples show that fixed Hilbert polynomial, arithmetic genus, subcanonical duality, and smoothability permit pure multiple cycles, including rational support. The excluded fixed cycle \(4[C]\) needs the actual rational-quartic embedding; its exclusion is the scope of promoted R0022, not a consequence of the general topology budget.
+These examples show that fixed Hilbert polynomial, arithmetic genus, subcanonical duality, and smoothability permit pure multiple cycles, including rational support. The excluded fixed cycle \(4[C]\) needs the actual rational-quartic embedding; its exclusion is the scope of R0022, not a consequence of the general topology budget.
 
 ## 7. A sharper marked-curve deduction when a carrier is smooth along C
 
@@ -503,7 +503,7 @@ Products of d general planes on each side yield \(d^2\) lines with \(d^2(d-1)\) 
 
 The most useful classification data therefore consist of component degrees and multiplicities, normalization genera, incidence and branch contacts, componentwise conductor divisors in the reduced case, and nilpotent filtrations in the nonreduced case. Numerical conditions are necessary; an actual pair of global forms remains an additional realization requirement.
 
-For the fixed quartic, the new smooth-carrier dichotomy isolates a precise difficult stratum: multiplicity at least three requires that every pencil member be singular somewhere on C. It does not assert a common singular point for all members, and does not classify that stratum. In higher degrees, studying \(H^0(\mathcal I_C^2(d))\) on a smooth carrier is a concrete continuation of the same question. No unrestricted STCI conclusion or new canonical record is claimed.
+For the fixed quartic, the new smooth-carrier dichotomy isolates a precise difficult stratum: multiplicity at least three requires that every pencil member be singular somewhere on C. It does not assert a common singular point for all members, and does not classify that stratum. In higher degrees, studying \(H^0(\mathcal I_C^2(d))\) on a smooth carrier is a concrete continuation of the same question. No unrestricted STCI conclusion or new record is claimed.
 
 ## 9. Evidence and review boundary
 
@@ -517,7 +517,7 @@ All new product examples, genus allocations, nilpotent calculations, and the smo
 
 # Independent audit: (4,4) degeneration and genus budgets
 
-Date: 2026-10-26. Reviewer: independent `genus_topology` agent. Reviewed document: [degeneration and genus budgets](#44-degeneration-genus-budgets). **Outcome: the stated elementary deductions pass independent reconstruction at the scopes below. This is an evidence audit, with no canonical promotion.**
+Date: 2026-10-26. Reviewer: independent `genus_topology` agent. Reviewed document: [degeneration and genus budgets](#44-degeneration-genus-budgets). **Outcome: the stated elementary deductions pass independent reconstruction at the scopes below. This is an evidence audit.**
 
 ## Scope and inputs
 
@@ -525,7 +525,7 @@ The ambient space is projective three-space over an algebraically closed field o
 \[
 C=[s^4:s^3t:st^3:t^4].
 \]
-The reviewer read the research index, the reviewed note, promoted records [R0021](../results/quartic_mu4_degeneration.md) and [R0022](../results/quartic_44_filtered_exclusion.md), and the relevant [conductor/topology evidence](../synthesis/root_pencil_geometry.md). The prescribed four-quartic decomposition and the fixed-curve exclusion were retained at their recorded scope; their inherited proofs and certificates were not rerun. The earlier generic smooth residual and eight-component competitor remain reviewed, unpromoted inputs with the provenance stated in the main note.
+The reviewer read the research index, the reviewed note, records [R0021](../results/quartic_mu4_degeneration.md) and [R0022](../results/quartic_44_filtered_exclusion.md), and the relevant [conductor/topology evidence](../synthesis/root_pencil_geometry.md). The prescribed four-quartic decomposition and the fixed-curve exclusion were retained at their recorded scope; their inherited proofs and certificates were not rerun. The earlier generic smooth residual and eight-component competitor remain reviewed inputs with the provenance stated in the main note.
 
 ## Reconstruction of the scheme and reduced-curve budgets
 
@@ -579,7 +579,7 @@ Finally, adjunction on the smooth quartic gives \(C^2=-2\), and \(C'=2H-C\) give
 
 ## Review decision and limitations
 
-No substantive mathematical correction was required. Componentwise normalization notation was suggested for clarity in section 5. All new elementary claims reconstructed above are independently reviewed evidence. The inherited reviewed inputs retain their pre-existing status. This audit proves neither a classification of possible embedded limits nor realization of arbitrary numerical data, and it supplies no unrestricted STCI conclusion. No canonical result or question is created or promoted.
+No substantive mathematical correction was required. Componentwise normalization notation was suggested for clarity in section 5. All new elementary claims reconstructed above are independently reviewed evidence. The inherited reviewed inputs retain their pre-existing status. This audit proves neither a classification of possible embedded limits nor realization of arbitrary numerical data, and it supplies no unrestricted STCI conclusion.
 
 
 

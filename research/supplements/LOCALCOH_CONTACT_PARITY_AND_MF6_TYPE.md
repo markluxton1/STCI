@@ -1,6 +1,6 @@
 # Ambient contact, parity and multiplicity-six reduction
 
-Topical preservation of source mathematics, including qualifications and independent audits. No theorem promotion.
+Topical preservation of source mathematics, including qualifications and independent audits.
 
 ---
 
@@ -379,7 +379,7 @@ If d0!=0, there is no common zero: at a finite common zero one would
 have r=delta=0, implying d0=0, while gamma_V is a nonzero constant on
 the other chart. In particular d0=1,r=0 is flat and the explicitly
 recorded quartic -2x0^3x3+3x0^2x1x2-x1^4 passes its triple condition.
-Thus the note does not accidentally promote the degree-three and
+Thus the note does not extend the degree-three and
 degree-four endpoint-flatness failures to a blanket pure-direction
 exclusion.
 

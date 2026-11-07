@@ -1,6 +1,6 @@
 # Historical mathematical source compilation
 
-Full original mathematical text retained below. Original hypotheses, failures, qualifications and unresolved cases retain their source status; this compilation is not an independent correctness audit.
+This compilation retains the mathematical hypotheses, failed arguments, qualifications, and unresolved cases. It supplies no new independent audit.
 
 ---
 
@@ -372,7 +372,7 @@ A vanishing result proving this quotient zero for all m would close the colon re
 
 # Entirely-thick boundary: thickened-fiber jet calculation
 
-Date: 2026-10-07  
+Date: 2026-10-07
 Status: **PROVED restriction-rank formula / OPEN STCI jet-incidence condition**
 
 Let \(Q=P^1_x\times P^1_y\). The residual mate is
@@ -496,7 +496,7 @@ This should determine whether the successive mate jets must have zeros supported
 
 # Entirely-thick boundary: local test of the thickened-fiber jet hypothesis
 
-Date: 2026-10-07  
+Date: 2026-10-07
 Status: **NEGATIVE RESULT — reduced STCI support does not constrain higher mate jets**
 
 This note tests the open question at the end of \`2026-10-07-thickened-fiber-jets.md\`.
@@ -619,7 +619,7 @@ certificate-producing agents. Scope: characteristic zero, the fixed curve
 `C0=[s^4:s^3t:st^3:t^4]`, primitive degree-two normal-dual direction,
 pure cubic top coefficient `h=t`, and the **first** rational endpoint
 family in the audited classification. No pre-existing dual, coefficient
-certificate, checker, or canonical research record was edited for this
+certificate, checker, or research record was edited for this
 audit.
 
 ## 1. Verdict

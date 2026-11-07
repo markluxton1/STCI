@@ -2,7 +2,6 @@
 id: STCI-R-0020
 title: "Characteristic-dependent conormal splitting of the fixed rational quartic"
 kind: theorem
-status: proved
 scope:
   characteristic: "0 and 2 (more generally characteristic not 2 versus 2)"
   curve: "fixed C0=[s^4:s^3t:st^3:t^4]"
@@ -15,7 +14,6 @@ evidence:
   - "research/computations/verify_normal_bundle.py"
 independent_audits:
   - "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
-accepted_in: "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []

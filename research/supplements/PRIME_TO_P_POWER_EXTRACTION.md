@@ -9,7 +9,7 @@ ramified lifts of the known powered-quartic special pairs when the power
 is prime to the residue characteristic.
 
 **Status, October 31, 2026:** independently reconstructed, reviewed
-provisional theorem. No canonical promotion or unrestricted
+proposed theorem. No unrestricted
 characteristic-zero conclusion.
 
 The [Frobenius-power extension](FROBENIUS_POWER_LIFTING_PRECISION.md)
@@ -196,7 +196,7 @@ Hence the extraction theorem applies to every pair
 
 A supported mixed-characteristic lift would therefore supply a
 characteristic-zero pair with a quartic equation. The
-[promoted quartic-carrier exclusion](../results/quartic_carrier_exclusion.md)
+[quartic-carrier exclusion](../results/quartic_carrier_exclusion.md)
 and its lower-degree/factor reduction exclude this. Thus
 \[
  \boxed{(F_0,H_0^n)\text{ has no supported mixed-characteristic lift

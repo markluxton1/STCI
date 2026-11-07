@@ -254,7 +254,7 @@ argument remain valid; the claimed four-orbit conclusion does not follow
 from this failed proof. A separate simultaneous-two-target repair is
 now saved and independently accepted as
 [`2026-10-07-session-localcoh-e1-simultaneous.md`](#e1-simultaneous).
-No canonical record should promote the exclusion from the failed text
+The failed text does not establish the exclusion
 retained here; use that corrected two-target proof instead.
 
 ---

@@ -1,6 +1,6 @@
 # Formal normal geometry of intersections containing the rational quartic
 
-**Status:** provisional research framework; not a canonical result or proof.
+**Status:** research framework; open questions are stated below.
 **Scope:** fixed rational quartic in characteristic zero. Read [authority policy](../AUTHORITY.md) and [current frontier](../FRONTIER.md) before using claims.
 
 ## Fixed setup
@@ -65,8 +65,8 @@ The key question is whether these methods yield structural criteria for allowabl
 ## Research discipline
 
 - Keep C fixed unless a general statement is cheaper or materially clarifies the argument.
-- Distinguish established repository theorems from this provisional formulation and from new conjectures.
+- Identify the proved inputs and state their hypotheses alongside any conjectural extension.
 - Prioritize geometric proofs, invariant constructions and necessary/sufficient criteria over computational case studies.
 - Use the multiplicity-two situation as a test case, without assuming arbitrary local orders are compatible with multiplicity two.
 - Do not use an unverified general assertion that two STCI defining surfaces share a singular point on C.
-- Do not reopen excluded integral quartic carriers as live STCI candidates; see the accepted canonical results and their precise hypotheses.
+- Do not reopen excluded integral quartic carriers as live STCI candidates; see the accepted results and their precise hypotheses.

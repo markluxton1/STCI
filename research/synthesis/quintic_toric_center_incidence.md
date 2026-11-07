@@ -1,6 +1,6 @@
 # Toric quintic centers: full inverse support and the remaining incidence
 
-Status: **independently reviewed provisional partial exclusion**, with
+Status: **independently reviewed partial exclusion**, with
 an unfinished final parameter locus. Fix the embedded rational quartic
 `C0=[u^4:u^3v:uv^3:v^4]` over an algebraically closed field of characteristic
 zero. This closes out the calculation already in progress; it does not
@@ -219,21 +219,21 @@ The proof and five exact support files are selectively preserved from commit
 `61290bdf906aa419c9542732f32fdcc34ba338a1`. The finite chart, boundary,
 three exceptional curves and specialization audit keep their original formulas
 and characteristic-zero hypotheses. This integration makes no new mathematical
-deduction and no canonical promotion. Independent preservation and scope
+deduction. Independent preservation and scope
 review passed without a material finding, by direct comparison to the fixed
 source and all five exact support files. This review made no fresh CAS replay;
 the unchanged source arguments retain the reviews described below.
 
 The independent source implementation review checked the finite chart and
 corrected one-infinity calculation and executed them with Python 3.15.2 /
-SymPy 1.14.0, exit zero. The finite canonical copy differed only in execution
+SymPy 1.14.0, exit zero. The retained finite copy differed only in execution
 metadata and removal of an unused no-op; the boundary copy was byte-identical
 to that reviewed version. The support lemma (2) separately received mathematical
 reconstruction. A fresh independent closeout review reconstructed the final
 written §§1–4, including the K=0 points, universal residual-factor identities,
 parameter coverage, denominator and leading-coefficient specializations, endpoints
 and exact remaining multiplicity patterns. It found no material correction.
-That reviewer executed the canonical three-curve program and retained independent
+That reviewer executed the retained three-curve program and retained independent
 specialization audit with Python 3.15.2 / SymPy 1.14.0, both exit zero; the
 latter ended in PASS. No M-locus calculation was performed or certified.
 

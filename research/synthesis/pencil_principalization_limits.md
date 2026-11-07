@@ -5,7 +5,7 @@ systems and rational contractions. A chosen two-section pencil may
 need additional exceptional divisors. Affineness of a complement
 pencil likewise does not identify its surface fibers with affine
 planes or ruled surfaces. The following exact control and theorem
-comparisons are reviewed provisional mathematics.
+comparisons are reviewed mathematics.
 
 ## Same support and equal degrees allow unbounded later contact
 

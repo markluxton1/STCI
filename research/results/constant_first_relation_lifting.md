@@ -2,7 +2,6 @@
 id: STCI-R-0033
 title: "Constant first-relation quadratic lifting obstruction"
 kind: theorem
-status: proved
 scope:
   characteristic: "characteristic zero; factor multiplicity nonzero in arbitrary characteristic"
   curve: "smooth rational curve with balanced conormal bundle"
@@ -16,7 +15,6 @@ evidence:
   - research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md
 independent_audits:
   - research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md
-accepted_in: "research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -42,10 +40,10 @@ Required hypotheses:
 
 ## Dependencies and limitations
 
-Canonical dependencies: STCI-R-0032. Additional inherited premises are in the proof and audit.
+Dependencies: STCI-R-0032. Additional inherited premises are in the proof and audit.
 - Uses inherited P-010 direction classes for the C0 consequence
 - Does not exclude moving first relations, extra next-order relations, or positive-defect models
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

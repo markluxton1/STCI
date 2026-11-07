@@ -23,7 +23,7 @@ Preserve distinct alternative proofs and state where each uses computation.
 ## Conclusion
 
 State exactly what the reasoning establishes and where any missing bridge begins.
-Completing an exposition does not promote its Results.
+Each Result records the scope of its actual proof review.
 
 ## Review
 

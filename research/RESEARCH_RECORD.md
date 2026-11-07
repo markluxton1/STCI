@@ -1,8 +1,8 @@
 # Auxiliary proposition locator
 
 The P-labels identify propositions used by the proofs. Follow each link to its
-mathematical owner; the [canonical records](results/INDEX.md) separately govern
-promoted scope. The central problem is the fixed embedded quartic in
+mathematical owner; the [Result records](results/INDEX.md) state precise
+hypotheses and review scope. The central problem is the fixed embedded quartic in
 characteristic zero. Broader curve classes are stated explicitly in their
 [global geometric context](synthesis/global_equations_and_constructions.md).
 
@@ -148,7 +148,7 @@ The full arithmetically Gorenstein primary-thickening equivalence is in the [glo
 
 The following homes retain the full later arguments and their useful
 counterexamples. They state their own hypotheses and characteristic boundaries;
-they are not new canonical promotions.
+consult their exact statements, proofs, and scoped reviews.
 
 - [Chow-pencil multiplicity tests](supplements/CHOW_PENCIL_MULTIPLICITY_TESTS.md)
   give the exact source spaces, resultant/corank family exclusions and the

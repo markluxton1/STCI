@@ -7,11 +7,9 @@ families in which \(m\) increases and residual degree moves onto the fixed
 embedded curve. Such partial absorption occurs in characteristic zero.
 The unrestricted question whether \(R\) can vanish remains open.
 
-These are independently reviewed provisional deductions, not promoted
-canonical results. Consolidation review reconstructed the proofs, the
+These are independently reviewed deductions. Consolidation review reconstructed the proofs, the
 normal-carrier endpoint criterion, the explicit ribbon-quotient boundary,
-the rational-curve extension, and the characteristic statements. Canonical
-inputs are cited at their exact uses. No computation is needed for these
+the rational-curve extension, and the characteristic statements. Inputs are cited at their exact uses. No computation is needed for these
 proofs.
 
 ## Geometric orientation: incidence, specialization, and the marked curve
@@ -811,7 +809,7 @@ itself does not? The following uniform vanishing closes one specified
 supported detector. It does not compute a marked obstruction class.
 This addition preserves the independently reviewed continuation through
 `427f3d4`; its complete proof and primary-source applications also passed
-independent consolidation review. No canonical promotion is claimed.
+independent consolidation review.
 
 ### 9.1. A characteristic-free supported vanishing
 

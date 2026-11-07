@@ -2,7 +2,7 @@
 
 This is the mathematical owner for the full conormal/socle budget R-0032 and its stronger reflection and higher-moment consequences. It retains the complete actual-layer argument, the independent socle/equality-duality reconstruction, the characteristic-free codimension-two Hilbert-drop proof and sharpness examples. A scalar budget is necessary data for an actual supported Gorenstein thickening; it neither realizes a homogeneous equation pair nor proves a general STCI obstruction.
 
-The proof mechanisms are complementary. Duality compares complementary normal layers through the actual socle line and charges torsion defects. Reflection controls increasing odd centered moments and their equality criterion, beyond the final length. The codimension-two Hilbert-drop argument uses the Jordan structure of an annihilator, so it can control specialization without a characteristic-zero representation-theoretic argument. Exact canonical scope remains in [R-0032](../results/full_conormal_socle_budget.md).
+The proof mechanisms are complementary. Duality compares complementary normal layers through the actual socle line and charges torsion defects. Reflection controls increasing odd centered moments and their equality criterion, beyond the final length. The codimension-two Hilbert-drop argument uses the Jordan structure of an annihilator, so it can control specialization without a characteristic-zero representation-theoretic argument. The exact statement is in [R-0032](../results/full_conormal_socle_budget.md).
 
 ---
 
@@ -369,7 +369,7 @@ only on the stated smooth-support hypotheses and, when used, the slope
 bound (S). This is an independent review of the new mathematics in
 `2026-10-13-evening-entirely-thick-rees-progress.md`. Previously accepted
 quartic, blowup, saturation, and higher-jet results were taken as inputs;
-none of their computations was rerun. No canonical-state file is edited.
+none of their computations was rerun. No state file is edited.
 
 ## 1. Audit verdict and scope
 

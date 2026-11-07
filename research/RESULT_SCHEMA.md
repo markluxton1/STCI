@@ -1,47 +1,31 @@
-# Result and question record specification (v1 proposal)
+# Result record formats
 
-This is the legacy untyped record format. New typed four-object records use
-[MODEL.md](MODEL.md), including separate alternative proof routes and explicit
-inherited/reconstructed review. Compatibility checks preserve existing records;
-neither schema establishes mathematical correctness or promotes a claim.
+[MODEL.md](MODEL.md) specifies the four research objects and the current proof
+route format. Results have no overall status or authority classification.
+Their exact statements, actual proofs, prerequisites, and scoped reviews are
+the relevant information. Question and activity states describe open work,
+not a rank among mathematical claims.
 
-This specification applies to **future promoted records**. Existing topic syntheses and proof notes are not required to conform until individually migrated. No records are promoted by this specification.
+## Existing untyped records
 
-## Result format
+Existing Result identifiers and mathematical content remain usable. Their
+fields describe the statement, scope, kind, evidence, independent review
+sources, dependencies, aliases, corrections, and limitations. Removed
+administrative classifications are not retained in another field or displayed
+as source information.
 
-One Markdown file per independently retrievable claim, with YAML front matter:
+An existing record can document explicit proof routes using the same review
+structure as any other Result. Merely listing evidence paths does not create
+an accepted route. A proof route can use a recorded source review or an
+independent reconstruction, stating the exact scope checked. No record format
+confers mathematical precedence.
 
-```yaml
----
-id: STCI-R-0001
-title: Short descriptive theorem name
-kind: theorem                  # theorem | lemma | reduction | certificate
-status: proved                # proved | exact_reduction | conditional | needs_audit | disputed | superseded
-scope:
-  characteristic: "0"
-  curve: "fixed C0 only"
-  hypotheses:
-    - "List all additional assumptions explicitly"
-statement: "Exact statement, or a precise pointer to the statement below"
-dependencies: []              # stable result IDs; empty if none
-evidence:
-  - "research/notes/path-to-proof.md"
-independent_audits: []
-accepted_in: null              # evidence path, if formally accepted
-legacy_ids: []                 # e.g. P-044; never silently reuse
-supersedes: []
-superseded_by: []
-limitations:
-  - "What this does not establish"
----
-```
+## Structural checks
 
-The body should contain **Statement**, **Hypotheses and quantifiers**, **Proof outline**, **Dependencies**, **Evidence and verification**, **Consequences**, and **Limitations**. Paths in metadata are repository-root-relative when the evidence exists on the canonical branch. Evidence preserved only on another branch may instead use a full GitHub source URL, ideally a commit-pinned permalink; the record must disclose that location and any remaining source-migration work. Stable IDs must be unique; filenames may change while IDs persist. A `needs_audit` or `disputed` record must never be indexed as an accepted theorem.
-
-## Question format
-
-Question records use `STCI-Q-####` IDs, `status: open | conditional | resolved | superseded`, an exact question, links to applicable result IDs, missing implications, and supporting evidence. Distinguish an unresolved calculation within a proved decision procedure from an unresolved theorem.
-
-## Validation contract (not yet automated)
-
-Before promotion, verify: unique IDs; valid statuses and kinds; every dependency ID exists; every referenced path exists; no supersession cycles; every `proved` claim has evidence and recorded acceptance/review; no contradiction between a question's resolved status and its linked results. An index entry must link to a real file. A sample record is illustrative, **not** a project claim.
+The shared validator checks identifiers, aliases, locations and sections,
+required fields, typed research relationships, and declared proof routes.
+Accepted routes need noncircular accepted prerequisites; pending or disputed
+routes cannot ground them. Alternative routes remain distinct. Actual proof
+correctness, review sufficiency, and scope coverage require substantive review.
+Both compatibility commands invoke this same engine. An identifier locates a
+statement; it is not a certificate of truth.

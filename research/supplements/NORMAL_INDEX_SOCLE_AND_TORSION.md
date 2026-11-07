@@ -11,7 +11,7 @@ Preserve the equality-case, characteristic, and pointwise-index qualifications i
 ---
 
 
-Permanent mathematical dossier. Complete source arguments are preserved with their precise hypotheses, conditional scope, calculations, failed approaches, and unresolved boundaries. This grouping does not promote claims to canonical results.
+Permanent mathematical dossier. Complete source arguments are preserved with their precise hypotheses, conditional scope, calculations, failed approaches, and unresolved boundaries.
 
 ---
 

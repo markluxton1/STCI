@@ -1,5 +1,5 @@
--- New exact dimensions for the candidate-search restart, not a replay of
--- a canonical exclusion.  Run from the repository root with:
+-- Exact source-space dimensions for the candidate search.
+-- Run from the repository root with:
 -- M2 --script research/computations/stci_search_freedom_2026_10_28.m2
 -- The ideal sheaf power is computed by homogeneous saturation, not by
 -- silently identifying symbolic and unsaturated homogeneous powers.

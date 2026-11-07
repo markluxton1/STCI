@@ -30,14 +30,12 @@ R-0052, [actual equation criterion](../results/constant_quotient_equation_criter
 R-0053, [embedded counterexamples](../results/embedded_quotient_endpoint_counterexamples.md)
 R-0054, [flat collision](../results/flat_collision_of_orbit_images.md) R-0055,
 and [pure-curve degree exhaustion](../results/pure_curve_degree_exhaustion.md)
-R-0056. All six remain provisional; their reconstructed proof routes have received
-independent substantive acceptance as recorded in Review.
+R-0056. Independent substantive review accepts the six reconstructed proof routes within their stated scopes, as recorded in Review.
 The general degree-exhaustion section works over any field.
 
 The reconstruction preserves the mathematics of
 [constant quotient descent](../synthesis/toric_quotients_and_endpoint_descent.md).
-Its independent provisional source review is provenance, not acceptance of
-these rewritten proofs. Intrinsic finite-map geometry and purity prove the
+A separate review of the source is distinct from acceptance of these reconstructed proofs. Intrinsic finite-map geometry and purity prove the
 general construction. The examples additionally require the explicit finite
 coefficient identities displayed below.
 
@@ -542,10 +540,7 @@ conclusion is obtained.
 
 ## Review
 
-Source provenance: the retained chapter reports independent provisional
-review of its image, proper-pair, endpoint and collision arguments, with
-finite arithmetic checked separately. That source review is distinct
-from acceptance of the reconstructed proofs.
+The retained chapter received a separate review of its image, proper-pair, endpoint and collision arguments; finite arithmetic was checked separately. That review is distinct from acceptance of the reconstructed proofs.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted this Argument and the exact R-0051--R-0056
@@ -566,5 +561,4 @@ binomial Smith-normal-form section, was checked.
 This decision has basis reconstructed and accepts only those exact
 scopes. The moving-modification positivity theorem and the separate
 legacy R-0021 proof were outside review. No global STCI conclusion or
-endpoint/opposite-limit comparison was accepted. All six Results retain
-provisional status; review acceptance is not promotion.
+endpoint/opposite-limit comparison was accepted. The six Result reviews cover only their stated scopes; the moving-modification positivity theorem and legacy R-0021 proof were outside review.

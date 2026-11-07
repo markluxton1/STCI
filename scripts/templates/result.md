@@ -2,7 +2,6 @@
 id: STCI-R-0000
 type: result
 title: Replace with a precise mathematical title
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -46,4 +45,5 @@ State what remains unresolved and which hypotheses cannot be discarded.
 Pending. Distinguish inherited source review from independent reconstruction,
 identify the exact route and scope checked, what was read or executed, and any
 qualifications. An accepted route also declares `basis: inherited` or
-`basis: reconstructed`; acceptance is not mathematical promotion.
+`basis: reconstructed`. Route review records what was checked; structural
+validation does not certify the mathematics.

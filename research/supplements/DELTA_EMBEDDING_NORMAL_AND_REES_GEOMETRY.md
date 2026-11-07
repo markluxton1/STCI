@@ -1,6 +1,6 @@
 # The equation filtration, conormal torsion and specialization
 
-For a smooth codimension-two curve C in a smooth threefold, retain the marked pair C subset Z=V(f,g), permitting residual components. The [canonical local comparison R-0030](../results/local_filtration_comparison_defect.md) distinguishes minimal full initial equations from the filtered module of actual equations. This supplement owns the additional normal-Koszul, annihilator, extended-Rees and transverse-specialization proofs. They retain their inherited independently reconstructed source-level status; consolidation does not promote them or assert a global STCI obstruction.
+For a smooth codimension-two curve C in a smooth threefold, retain the marked pair C subset Z=V(f,g), permitting residual components. The [local comparison R-0030](../results/local_filtration_comparison_defect.md) distinguishes minimal full initial equations from the filtered module of actual equations. This supplement owns the additional normal-Koszul, annihilator, extended-Rees and transverse-specialization proofs. They retain their inherited independently reconstructed source-level status; consolidation does not assert a global STCI obstruction.
 
 The organization follows the mechanisms: first the exact comparison and higher cancellation, then the scheme supporting the defect, then its realization as deformation torsion, and finally the separate problem of slicing along the marked curve. All example families and necessary local hypotheses survive. The removed reports repeated these proofs; their substantive corrections are incorporated in the statements below.
 
@@ -15,7 +15,7 @@ R=\mathcal O_{P,p},\quad I=I_C=(x,y),\quad B=R/I,
 \]
 where \(f,g\) form a regular sequence. Distinct integral hypersurfaces give this situation; several algebraic results below have weaker hypotheses, stated in their individual notes. No rational-quartic classification, sole-support theorem, or STCI exclusion is a premise.
 
-The [comparison construction](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) and [normal-Koszul continuation](#delta-singular-locus-continuation) include canonical comparison evidence and reviewed source-level continuations. Their exact claims are retained as premises, without replaying inherited certificates. In particular,
+The [comparison construction](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) and [normal-Koszul continuation](#delta-singular-locus-continuation) include comparison proof and reviewed source-level continuations. Their exact claims are retained as premises, without replaying inherited certificates. In particular,
 \[
 S=\operatorname{gr}_I R=\operatorname{Sym}_B E,\quad E=I/I^2,
 \quad H=\operatorname{in}_I J,\quad T=\operatorname{in}_I(IJ),
@@ -30,7 +30,7 @@ D=J/IJ,\quad F^nD=((J\cap I^n)+IJ)/IJ,
 \]
 All initial ideals are **full** initial ideals. A list of carrier symbols cannot replace \(H\) or \(T\).
 
-The comparison result is canonical in R-0030; the further mechanisms below retain their independently reconstructed source-level scope.
+The comparison result is stated in R-0030; the further mechanisms below retain their independently reconstructed source-level scope.
 
 ## 2. Retain the entire embedding and its maps
 
@@ -62,7 +62,7 @@ The full quotient \(R/J\), its multiplication, and its Rees algebra retain the e
 
 ## The singular-locus defect: normal Koszul differentials, degrees, and length
 
-Date: 2026-10-24. Status: **proved arguments and parameter families, independently reconstructed within this investigation; research proposal, not canonical promotion**.
+Date: 2026-10-24. Status: **proved arguments and parameter families, independently reconstructed within this investigation; research proposal**.
 
 This continues the [independent filtration investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), especially its question about
 \(\Delta=\operatorname{in}_I(IJ)/(S_+\operatorname{in}_I(J))\) at simultaneous singular points. The predecessor's quotient comparison and smooth-carrier support proposition are used as reviewed premises rather than reproved.
@@ -410,7 +410,7 @@ The literature already studies the generic tangent-cone generator and cancellati
 
 ## A scheme-theoretic annihilator for the filtration defect
 
-Date: 2026-10-24. Status: **proved proposal, independently reconstructed by agent review; not a promoted canonical result**.
+Date: 2026-10-24. Status: **proof independently reconstructed by agent review**.
 
 Scope: a regular codimension-two embedding \(C\hookrightarrow P\), locally with ideal \(I=(x,y)\), and any coherent ideal \(J\subset I\). For the intended application \(P\) is a smooth threefold, \(C\) is smooth, and \(J=(f,g)\) defines \(Z=X\cap Y\). Neither \(J\) being a complete intersection nor \(Z_{\mathrm{red}}=C\) is needed for the annihilator theorem. Additional components are allowed. The theorem concerns the marked embedding, without a classification of those components.
 
@@ -529,7 +529,7 @@ For \(r>1\), the reduced ideal \((t)\) does not annihilate \(\Delta\). The full 
 
 ## Delta as the specialization of equation-module torsion
 
-Date: 2026-10-24. Status: **proved local arguments independently reconstructed by agent review; provisional research evidence, not a promoted result**.
+Date: 2026-10-24. Status: **proved local arguments independently reconstructed by agent review**.
 
 This note continues the [merged ideal-filtration investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) and [normal-Koszul continuation](#delta-singular-locus-continuation). It studies the marked embedding \(C\subset Z=X\cap Y\), without imposing \(Z_{\mathrm{red}}=C\). All claims below concern the marked embedding and its deformation; residual components are permitted.
 
@@ -547,7 +547,7 @@ Q=H/S_+H,\qquad
 \]
 Set \(I^n=R\) and \(F^nD=D\) for \(n\le0\). The local algebra below does not require smoothness or a complete-intersection hypothesis. For the geometric application, \(R\) is the local ring of a smooth ambient threefold, \(I=I_C\) for a smooth marked curve, and \(J=(f,g)\subset I\) is a regular-sequence ideal. Then \(D\) is locally free of rank two on \(C\).
 
-The inherited comparison \(0\to\Delta_n\to Q_n\to\operatorname{gr}_F^nD\to0\) is used within its reviewed scope. Its predecessor remains research evidence, not an ID-bearing canonical result. The present note does not use any rational-quartic classification or STCI exclusion. No novelty claim is made for extended Rees modules, conormal specialization, or parameter-torsion removal.
+The inherited comparison \(0\to\Delta_n\to Q_n\to\operatorname{gr}_F^nD\to0\) is used within its reviewed scope. Its predecessor has the proof and review scope stated there. The present note does not use any rational-quartic classification or STCI exclusion. No novelty claim is made for extended Rees modules, conormal specialization, or parameter-torsion removal.
 
 For terminology, the [Stacks normal-cone construction](https://stacks.math.columbia.edu/tag/062Z) defines the normal cone from the full ideal-power algebra, and [conormal functoriality](https://stacks.math.columbia.edu/tag/01R1) supplies the inclusion-induced maps. The statements below are proved directly.
 
@@ -764,13 +764,13 @@ The annihilator also controls persistence: since a*Delta=0 and Delta=E/uE, one h
 
 ## Delta, normal-cone regularity, and the labelled carrier square
 
-Date: 2026-10-24. Status: **provisional research with an independent agent reconstruction; no canonical promotion**.
+Date: 2026-10-24. Status: **research with an independent agent reconstruction**.
 
 ### Scope and retained inputs
 
 Let \(p\) be a closed point of a smooth integral curve \(C\) in a smooth threefold \(P\), over a field of arbitrary characteristic. Put \(R=\mathcal O_{P,p}\), \(B=\mathcal O_{C,p}\), \(I=I_C\), and \(J=(f,g)\subset I\), where \(f,g\) form a regular sequence. The labelled principal ideals \(A=(f), B_Y=(g)\) are retained; the letter \(B\) denotes the curve ring, not the second carrier ideal. There is **no assumption** that \(\sqrt J=I\). All statements concern the marked embedding, not classification of any additional components. The examples are local algebraic examples, not constructions for the fixed projective rational quartic.
 
-Use the reviewed but unpromoted comparison from [the merged investigation, section 4](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd):
+Use the reviewed comparison from [the merged investigation, section 4](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd):
 \[
 S=\operatorname{gr}_I R=\operatorname{Sym}_B(I/I^2),\quad
 H=\operatorname{in}_I J,\quad Q=H/S_+H,\quad D=J/IJ\simeq B^2,
@@ -877,13 +877,13 @@ The full embedding framework now separates three questions: whether degeneration
 
 The most useful next local question is how the nonsaturated stages \(F^nD\) interact with the algebra filtration of \(\mathcal O_Z\), especially when \(\Delta\) vanishes. A second question is to identify global bundle/extension data obstructing locally adapted normal equations from coming from the original global carriers. Neither question is resolved by the local criteria here.
 
-Independent audit: agent `geometry_maps/audit_cone_criterion` independently reconstructed all four equivalences, the labelled-square criterion, both elementary examples, and the distinction between regular cone embedding and flatness over \(C\). It specifically checked the homogeneous local Nakayama step and flagged the essential height-two input. This is an agent proof audit, not external acceptance. No new finite computation is needed for the general proofs; the supported quadruple is inherited evidence, not a newly replayed calculation. No canonical result/question record or accepted proof is changed.
+Independent audit: agent `geometry_maps/audit_cone_criterion` independently reconstructed all four equivalences, the labelled-square criterion, both elementary examples, and the distinction between regular cone embedding and flatness over \(C\). It specifically checked the homogeneous local Nakayama step and flagged the essential height-two input. This is an agent proof audit, not external acceptance. No new finite computation is needed for the general proofs; the supported quadruple is inherited evidence, not a newly replayed calculation. No result/question record or accepted proof is changed.
 
 <a id="delta-base-change-proposal"></a>
 
 ## Delta, transverse specialization, and normal flatness
 
-Date: 2026-10-24. Status: **proved local algebra with independent agent reconstruction; provisional research evidence, not canonical promotion**.
+Date: 2026-10-24. Status: **proved local algebra with independent agent reconstruction; research evidence**.
 
 This develops a distinction needed in the broader marked-embedding problem: vanishing of the ideal-filtration defect is different from compatibility of the normal cone with a transverse slice. No hypothesis that the reduced support of the intersection equals the marked curve is imposed.
 
@@ -900,7 +900,7 @@ A=\operatorname{gr}_K M=S/H,\quad
 \mathcal D=J/IJ,\quad G=\operatorname{gr}_F\mathcal D=H/T,
 \quad Q=H/S_+H,\quad\Delta=T/S_+H.
 \]
-The exact comparison `0 -> Delta -> Q -> G -> 0` and the smooth-carrier vanishing statement are retained reviewed premises from the [original investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd). Their authority remains provisional; this note does not promote them. The [continuation](#delta-singular-locus-continuation), sections 5 and 7, supplies the inherited punctual family and supported quadruple used below. Their previously reviewed computations are not rerun here.
+The exact comparison `0 -> Delta -> Q -> G -> 0` and the smooth-carrier vanishing statement are retained reviewed premises from the [original investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd). The statements retain the review scopes stated here. The [continuation](#delta-singular-locus-continuation), sections 5 and 7, supplies the inherited punctual family and supported quadruple used below. Their previously reviewed computations are not rerun here.
 
 The parameter lift is additional data for an actual transverse slice. The cone `Spec_C A` is intrinsic to `C subset Z`; the transverse slice `M/tM` need not be independent of that lift. All assertions comparing with the slice use the specified `B`-algebra structure.
 
@@ -1124,9 +1124,9 @@ The exact equation-module comparison, normal-Koszul filtration, conormal-entry a
 
 <a id="source-2026-10-26-filtration-local-proof-auditmd"></a>
 
-## Local filtration audit and promotion boundary — 2026-10-26
+## Local filtration audit and scope boundary — 2026-10-26
 
-Status: mathematical review of local statements, not an independent executable replay, not a global sheafification certification, and not a new canonical theorem. Sources: RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md and the October 23–24 investigation and independent review notes.
+Status: mathematical review of local statements, not an independent executable replay, not a global sheafification certification, and not a new theorem. Sources: RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md and the October 23–24 investigation and independent review notes.
 
 ### 1. Exact comparison from ideals
 
@@ -1154,8 +1154,8 @@ The October 24 punctual family has Delta concentrated in one degree with arbitra
 
 ### 6. Still unverified
 
-The characteristic-two quartic claim ker(D -> I/I^2) is isomorphic to O(-24) and to Q_4 relies on global chart frames and transitions; it is supported by the prior independent audit, but has not been rechecked in this turn. The normal-Koszul spectral sequence requires its filtered-complex indexing, convergence and incoming-differential identifications to be retained exactly as in the source; no simplified global spectral-sequence theorem is promoted here. The case radical(J)=I with generic Delta=0 and nonzero isolated Delta remains open.
+The characteristic-two quartic claim ker(D -> I/I^2) is isomorphic to O(-24) and to Q_4 relies on global chart frames and transitions; it is supported by the prior independent audit, but has not been rechecked in this turn. The normal-Koszul spectral sequence requires its filtered-complex indexing, convergence and incoming-differential identifications to be retained exactly as in the source; no simplified global spectral-sequence theorem is proved here. The case radical(J)=I with generic Delta=0 and nonzero isolated Delta remains open.
 
 ### Decision
 
-The local exact comparison, generic excess, torsion criterion and support containment have independently reviewed proofs and are suitable for a *separately scoped local-algebra* result after schema/path validation. Do not promote CR-13's global O(-24) assertion or infer a general supported-defect vanishing theorem from this note. This review does not perform a fresh executable replay.
+The local exact comparison, generic excess, torsion criterion and support containment have independently reviewed proofs and are suitable for a *separately scoped local-algebra* result after schema/path validation. Do not infer CR-13's global O(-24) assertion or a general supported-defect vanishing theorem from this note. This review does not perform a fresh executable replay.

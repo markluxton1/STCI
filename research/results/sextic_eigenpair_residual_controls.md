@@ -2,7 +2,6 @@
 id: STCI-R-0047
 type: result
 title: Eigenpair controls with inseparable quotients and boundary lines
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -114,5 +113,4 @@ quadric-divisor control. The source's distinct examples and qualifications
 are preserved. Acceptance does not classify all finite algebras or
 invariant ideals.
 
-The Result remains provisional; independent acceptance of this
-reconstructed route does not promote its status or the source's labels.
+Independent reconstruction review accepts this route within its stated scope.

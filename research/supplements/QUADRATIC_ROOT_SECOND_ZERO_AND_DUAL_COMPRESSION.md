@@ -1,6 +1,6 @@
 # quadratic root second zero and dual compression
 
-Permanent mathematical dossier preserving complete arguments, assumptions, characteristic boundaries, counterexamples and unresolved claims. No new theorem promotion is implied.
+Permanent mathematical dossier preserving complete arguments, assumptions, characteristic boundaries, counterexamples and unresolved claims.
 
 ---
 

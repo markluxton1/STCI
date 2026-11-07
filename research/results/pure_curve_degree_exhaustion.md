@@ -2,7 +2,6 @@
 id: STCI-R-0056
 type: result
 title: A closed subscheme exhausting the degree of a pure curve equals that curve
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -58,14 +57,11 @@ existence of two independent sections.
 
 ## Review
 
-Source provenance: the source's specific use of degree exhaustion was
-reviewed provisionally. Extraction into a general lemma did not itself
-supply acceptance.
+The source review addressed its specific use of degree exhaustion. Extracting the general lemma required a separate reconstruction review.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted the exact R-0056 route after reconstructing
 generic-length degree additivity, the finite-support remainder and its
 elimination by purity, and the regular-sequence and saturation application
 to a gcd-one homogeneous pair. Actual containment and purity are retained
-as essential hypotheses. No blocker was found. This is reconstructed
-acceptance; the independently reusable Result remains provisional.
+as essential hypotheses. No blocker was found. The reconstruction review accepts this independently reusable lemma within its stated scope.

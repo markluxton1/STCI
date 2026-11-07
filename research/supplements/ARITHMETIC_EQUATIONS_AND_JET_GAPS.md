@@ -1,6 +1,6 @@
 # Arithmetic degree bounds, missing jets, and actual non-binomial equations
 
-The embedded curve is the fixed integral model \(C_0=[s^4:s^3t:st^3:t^4]\). All defining forms have actual scalar coefficients over the algebraically closed field in question. The arithmetic reduction and restricted constructions below have inherited independent review; they remain unpromoted. Their minima range over specified carriers or sources, not every homogeneous pair.
+The embedded curve is the fixed integral model \(C_0=[s^4:s^3t:st^3:t^4]\). All defining forms have actual scalar coefficients over the algebraically closed field in question. The arithmetic reduction and restricted constructions below have inherited independent review. Their minima range over specified carriers or sources, not every homogeneous pair.
 
 ## Bounded degree and characteristic-zero existence
 
@@ -260,7 +260,7 @@ normal-filtration defect.
 
 ## 3. A broader exact bound: every pair with a binomial equation
 
-**Reviewed provisional proposition.** Let \(k\) be algebraically closed of
+**Reviewed proposition.** Let \(k\) be algebraically closed of
 characteristic \(p>0\). If \(C_0\) is the sole reduced support of a
 degree-\((a,b)\) pair and at least one defining equation is a binomial,
 then

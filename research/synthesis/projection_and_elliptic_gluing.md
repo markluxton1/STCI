@@ -26,8 +26,8 @@ exist. The plane and other cone cases are not classified below.
 
 **Review status.** The determinant, boundary, interpolation, nodal-extension,
 spin, and paired-cover arguments have independent source review, reused here
-for their unchanged mathematical content. They remain **reviewed provisional
-mathematics**, not promoted canonical results. The finite special-target
+for their unchanged mathematical content. They remain **reviewed
+mathematics**. The finite special-target
 calculation and balanced discriminant calculations are identified separately
 in section 5. The balanced degree-ten chart now has independent exact review;
 the degree-twelve chart remains unfinished. The local contact-six example has
@@ -751,7 +751,7 @@ nondegenerate exceptional factor of degrees \(2,3,12,14\), successive
 derivative-gcd degrees are \((10,1,0)\): one double root and eight simple
 roots, hence odd part degree eight and genus three. Away from the resultant
 locus the degree-ten discriminant is squarefree and gives genus four.
-This is **independently reviewed provisional exclusion of that exact chart**,
+This is **independently reviewed exclusion of that exact chart**,
 not an exclusion of all balanced contacts or primitive elliptic targets.
 
 Reciprocal support supplies a useful smaller coefficient model, without

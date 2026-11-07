@@ -1,6 +1,6 @@
 # Exact Chow bundle maps and ambient equations
 
-This is reviewed provisional mathematics for an algebraically closed field
+This is reviewed mathematics for an algebraically closed field
 of any characteristic. It clarifies the prescribed bundle types in the
 [global Chow-resultant criterion](global_equations_and_constructions.md#p-033-the-global-chow-resultant-certificate).
 It gives neither a new supported pair nor an exclusion of all such pairs.
@@ -70,4 +70,4 @@ The elementary Hom proof, exact bundle consequence and primary-source
 applications received independent review in the final source checkpoint
 `57fb49bc41a40a0eca766f6640a49b36e97ef078`. That follow-up closes the earlier
 source's audit gap. The present consolidation retains their full scope;
-canonical result records are unchanged.
+result records are unchanged.

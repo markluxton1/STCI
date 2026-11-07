@@ -1,8 +1,8 @@
 # Square descent, conductor contact and singular gluing
 
-**Scope and status.** Independently reviewed provisional local theorems and
+**Scope and status.** Independently reviewed local theorems and
 actual constructions over an algebraically closed field of characteristic
-zero; no canonical promotion. Local supported intersections are useful
+zero. Local supported intersections are useful
 realizations in their own right. They must still meet the fixed embedding,
 polarization and section-image conditions to become a projective application.
 

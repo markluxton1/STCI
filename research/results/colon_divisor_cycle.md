@@ -2,7 +2,6 @@
 id: STCI-R-0045
 type: result
 title: Colon exact sequence for a surface-supported divisor cycle
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -84,5 +83,4 @@ smoothness hypothesis, including the specialization used in R-0046.
 Acceptance concerns a cycle formula, without inferring saturation or
 endpoint structure for arbitrary such ideals.
 
-The Result remains provisional; independent acceptance of this
-reconstructed route does not promote its status or the source's labels.
+Independent reconstruction review accepts this route within its stated scope.

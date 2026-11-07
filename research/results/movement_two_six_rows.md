@@ -2,7 +2,6 @@
 id: STCI-R-0014
 title: "Six necessary movement-two numerical rows"
 kind: reduction
-status: exact_reduction
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "fixed C0 in P3"
@@ -21,7 +20,6 @@ evidence:
 independent_audits:
   - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
   - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-accepted_in: "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -85,4 +83,4 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

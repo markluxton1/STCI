@@ -1,6 +1,6 @@
 # Prescribed carrier singularities and class-cancelling residuals
 
-The fixed curve is C=C0. Work in characteristic zero; the very-general class-group statement is over the complex numbers. These are reviewed provisional constructions, not canonical promotions or an STCI construction. Notation and the attachment identity are in [the attachment chapter](residual_capacity_and_constructions.md), and the quantitative normal correction is in [normalization capacity](normalization_residual_capacity.md).
+The fixed curve is C=C0. Work in characteristic zero; the very-general class-group statement is over the complex numbers. These are reviewed constructions; they do not supply an STCI construction. Notation and the attachment identity are in [the attachment chapter](residual_capacity_and_constructions.md), and the quantitative normal correction is in [normalization capacity](normalization_residual_capacity.md).
 
 ## Prescribed singularities and actual class-cancelling residuals
 

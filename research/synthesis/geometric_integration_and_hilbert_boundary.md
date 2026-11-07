@@ -1,6 +1,6 @@
 # Geometric integration of six synthesis chapters
 
-**Status:** editorial cross-document map and research agenda, not theorem authority. This note compares the six revised synthesis chapters as they stand on main on 2026-11-01. No new theorem or implication is asserted. Canonical result records and the scoped proofs in the linked chapters retain authority.
+**Status:** editorial cross-document map and research agenda, not theorem authority. This note compares the six revised synthesis chapters as they stand on main on 2026-11-01. No new theorem or implication is asserted. Result records and the scoped proofs in the linked chapters retain authority.
 
 ## One geometric problem, several moduli problems
 

@@ -2,7 +2,6 @@
 id: STCI-R-0002
 title: Minimal-degree normalization for a Cartier singleton lift
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "smooth rational curve C in P3 of degree d"
@@ -19,7 +18,6 @@ evidence:
 independent_audits:
   - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
   - "research/supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md"
-accepted_in: "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -56,7 +54,7 @@ Because \(c\) is Cartier and smooth, the normal surface \(S\) is regular along \
 
 ## Consequences for the fixed C0
 
-For \(C_0=[s^4:s^3t:st^3:t^4]\), the accepted all-integral-quartic exclusion [STCI-R-0001](quartic_carrier_exclusion.md) removes the degree-four entries. Exactly three **higher-degree necessary models within these hypotheses** remain:
+For \(C_0=[s^4:s^3t:st^3:t^4]\), the all-integral-quartic exclusion [STCI-R-0001](quartic_carrier_exclusion.md) removes the degree-four entries. Exactly three **higher-degree necessary models within these hypotheses** remain:
 
 | Carrier degree | Normalization \(S\) | Lift and polarization |
 | --- | --- | --- |
@@ -71,7 +69,7 @@ For \(C_0=[s^4:s^3t:st^3:t^4]\), the accepted all-integral-quartic exclusion [ST
 - [Earlier smooth-normalization framework](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
 - [Earlier independent smooth-normalization audit](../supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
 
-These links identify the current scope-preserving proof homes. Their inherited independent review covers the original mathematical statements; replacement review covers their consolidation.
+These links identify the current scope-preserving proof homes. Their independent review covers the original mathematical statements; replacement review covers their consolidation.
 
 ## Limitations
 
@@ -79,4 +77,4 @@ The actual projection parameters, complete inverse support, and full conductor d
 
 ## Current mathematical evidence
 
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not imply an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

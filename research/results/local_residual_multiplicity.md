@@ -2,7 +2,6 @@
 id: STCI-R-0044
 type: result
 title: Surface-power multiplicities and two local binomial certificates
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -81,5 +80,4 @@ unit-factor argument and finite free basis. The proof is a geometric
 reduction with necessary exact local algebra, not a blanket intrinsic
 replacement. Acceptance is within the stated local hypotheses.
 
-The Result remains provisional; independent acceptance of this
-reconstructed route does not promote its status or the source's labels.
+Independent reconstruction review accepts this route within its stated scope.

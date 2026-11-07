@@ -29,9 +29,7 @@ does not determine this image. Keep every characteristic restriction of an
 example or descent assertion.
 
 This strategy gives exact tests and counterexamples for specified images.
-Extending it to moving transverse quotients requires additional geometry. The
-new Result records remain provisional, even when their reconstructions have
-independent acceptance.
+Extending it to moving transverse quotients requires additional geometry. The reconstruction reviews accept the exact scopes stated in the Result records.
 
 ## Available results
 
@@ -62,7 +60,7 @@ collision with verified relative image lattices; constancy of one numerical
 defect is not its flatness proof.
 
 The positive-characteristic prescribed quartic control
-[R-0021](../results/quartic_mu4_degeneration.md) retains its own canonical
+[R-0021](../results/quartic_mu4_degeneration.md) retains its own stated
 scope. Its characteristic-two sole support is not a characteristic-zero
 supported deformation. Neither an abstract quotient nor its reduced support
 provides actual global equations after projective contraction.
@@ -76,7 +74,7 @@ embedded quotient; the whole moving finite modification is the relevant
 comparison object. The existing
 [finite-modification proof](../synthesis/tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
 and [strict-movement argument](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier)
-remain reviewed provisional sources outside the reconstructed constant-family
+remain source arguments outside the reconstructed constant-family
 proof closure. Their endpoint budget is a constraint on one moving object,
 not a formula for the difference of its two Hilbert limits.
 

@@ -1,9 +1,8 @@
 # Actual octics, lifted roots, and a small intrinsic comparison
 
-Independently source-reviewed provisional deductions and exact calculations,
+Independently source-reviewed deductions and exact calculations,
 consolidated from frozen commit
-`a9209551f93a3ad3794645bce0af2f5ddcdafbaa` without a new computation or
-canonical promotion. Sections 1–5 and the octic calculator were reviewed at
+`a9209551f93a3ad3794645bce0af2f5ddcdafbaa` without a new computation. Sections 1–5 and the octic calculator were reviewed at
 `28756229308313912eb5e98ab2b21c08d828f78c`; the added degree-six comparison
 and conditional order-three consequence have the separate review scope stated
 below. All source images here are images of actual homogeneous equations,
@@ -446,5 +445,5 @@ space is not evidence that those requirements can be met.
   expansion was a separate review check, not an execution mode of this
   calculator.
 - No new global root-locus elimination or sole-support search was run. No
-  canonical metadata or priorities changed. The computation is a fixed
+  metadata or priorities changed. The computation is a fixed
   laboratory for the general comparison, not an asymptotic complexity family.

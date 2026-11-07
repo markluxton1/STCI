@@ -4,10 +4,9 @@ The fixed curve is \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), with
 marked endpoints \(p_0,p_\infty\). The constructions in the first two
 sections work over any algebraically closed field. Strict movement holds
 in characteristic zero and in characteristic \(p>0\) when \(p\nmid ab\).
-All deductions here retain their independently reviewed
-**provisional** status; they do not settle the STCI problem.
+All deductions here have the independent review described below; they do not settle the STCI problem.
 
-**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed provisional deductions, with no canonical promotion; no computation or inherited certificate rerun was needed.
+**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed deductions; no computation or inherited certificate rerun was needed.
 
 ## A reduced tropical model and the exact normal map
 

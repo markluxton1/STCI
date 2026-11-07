@@ -2,7 +2,6 @@
 id: STCI-R-0025
 title: "Fixed sextic jet rigidity and residual-degree obstruction"
 kind: theorem
-status: proved
 scope:
   characteristic: "0"
   curve: "fixed C0"
@@ -18,13 +17,12 @@ evidence:
   - "research/computations/endpoint4_fixed_jet_independent_2026_10_26.json"
 independent_audits:
   - "research/results/ci_fixed_sextic_jet_rigidity.md"
-accepted_in: "research/results/ci_fixed_sextic_jet_rigidity.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
 limitations:
   - "Only one selected sextic and degree-sixteen mates"
-  - "Saved certificates source-inspected at promotion; independent normal-division replay passed in GitHub Actions run 40434021004 (2026-10-26). Macaulay2 was not rerun in that workflow."
+  - "Saved certificates were source-inspected; independent normal-division replay passed in GitHub Actions run 40434021004 (2026-10-26). Macaulay2 was not rerun in that workflow."
   - "Bound not claimed sharp"
 ---
 # Fixed sextic jet rigidity
@@ -129,12 +127,12 @@ rank 683, nullity 286, all-multiples annihilation, and exact SHA-256 match
 `a3e546424d11200e1d8075c7f9d5d342787bd925a303901bd2b33b2661f56445`.
 Its output was uploaded as a workflow artifact. The Macaulay2 implementation
 was not rerun there, and there is no separately archived nonzero maximal minor.
-This consolidation transfers the proof bridge and that actual replay status;
+This consolidation transfers the proof bridge and records that replay;
 it performs no new inherited computation.
 
 ## Characteristic boundary of the argument
 
-The canonical statement above is in characteristic zero. The local nonsplit-node
+The statement above is in characteristic zero. The local nonsplit-node
 lemma works in every characteristic different from two, provided its separable
 quadratic and finite-length hypotheses hold. For this carrier, the class
 \(1+z^2\) is nonsquare over \(k(z)\) in every odd characteristic, since
@@ -147,7 +145,7 @@ There is a concrete additional scoped deduction from the retained certificate:
 samples are good, and its rank 683 together with the 286 global carrier
 multiples proves the kernel identity directly there. The separable-node
 argument then gives \(m_C\le22\) and residual degree at least eight, exactly
-as above. Independent consolidation review accepted this extension as a separate scoped deduction; it does not extend the canonical theorem to all odd primes. More
+as above. Independent consolidation review accepted this extension as a separate scoped deduction; it does not extend the theorem to all odd primes. More
 generally a nonzero rational maximal minor gives the same result away from
 finitely many primes after spreading out, but no complete exceptional-prime
 list is certified here.
@@ -165,4 +163,4 @@ No general sextic or unrestricted STCI theorem.
 
 ## Review state
 
-The inherited exact computation and local-length bridge remain within the selected-carrier/degree scope. Their full mathematical bridge and actual independent CI replay are retained directly above. Independent consolidation review accepted the transferred proof bridge, its actual-source/specialization interpretation, the characteristic-65521 consequence and the cofinite-prime existence statement. The new deductions remain separately identified; the canonical characteristic-zero scope is unchanged. No fresh inherited CAS execution was performed.
+The exact computation and local-length bridge remain within the selected-carrier/degree scope. Their full mathematical bridge and actual independent CI replay are retained directly above. Independent consolidation review accepted the transferred proof bridge, its actual-source/specialization interpretation, the characteristic-65521 consequence and the cofinite-prime existence statement. The new deductions remain separately identified; the characteristic-zero scope is unchanged. No fresh CAS execution was performed.

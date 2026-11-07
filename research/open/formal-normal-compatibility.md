@@ -1,6 +1,6 @@
 # Formal normal geometry: research questions and proof obligations
 
-**Status:** provisional questions, not promoted canonical question records.
+**Status:** open questions.
 **Starting point:** [formal normal geometry](../frameworks/formal-normal-geometry.md); follow [authority policy](../AUTHORITY.md) and [frontier](../FRONTIER.md).
 
 ## Central problem: simultaneous realization
@@ -37,7 +37,7 @@ For generic intersection length two, seek a theorem describing possible local co
 
 ## Required proof discipline
 
-For each proposed result: state hypotheses, precise conclusion, proof or counterexample, dependence on existing canonical results, and what remains open. Search the repository and literature before claiming novelty. The unrestricted characteristic-zero STCI question remains open in the repository's authority model. The assertion that every STCI pair has a common singular point on C is not available as a general premise without an audited proof. Existing integral-quartic-carrier exclusions are not to be reopened as live cases.
+For each proposed result: state hypotheses, precise conclusion, proof or counterexample, dependence on existing results, and what remains open. Search the repository and literature before claiming novelty. The unrestricted characteristic-zero STCI question remains open in the repository's authority model. The assertion that every STCI pair has a common singular point on C is not available as a general premise without an audited proof. Existing integral-quartic-carrier exclusions are not to be reopened as live cases.
 
 ## Success criterion
 

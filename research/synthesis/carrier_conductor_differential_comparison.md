@@ -1,8 +1,7 @@
 # Carrier conductor contact and the actual transverse differential
 
-**Scope and status.** Independently reviewed provisional comparison, with
-an application to the fixed characteristic-zero quartic; no canonical
-promotion. The theorem concerns actual supported pairs on generically
+**Scope and status.** Independently reviewed comparison, with
+an application to the fixed characteristic-zero quartic. The theorem concerns actual supported pairs on generically
 regular integral carriers. It describes the gluing regimes left available
 for realizing such intersections, not a presumption of nonexistence.
 
@@ -86,7 +85,7 @@ Cartier canonical divisor on X is being assumed.
 
 ## The actual differential has a smaller zero divisor
 
-The promoted conormal splitting
+The conormal splitting
 [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md)
 gives `N^*_(C0/P3)=O_P1(-7)^2`. The actual normalization morphism,
 followed by the inclusion of S in P3, induces

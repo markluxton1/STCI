@@ -4,7 +4,7 @@ Over an algebraically closed field of characteristic zero, an integral
 nonnormal quintic containing the fixed embedded
 C0=[s^4:s^3t:st^3:t^4] has no sole-supported mate of any positive degree
 if its normalization is Gorenstein. This is independently reviewed
-provisional mathematics, without canonical promotion. Normal quintics
+mathematics. Normal quintics
 and non-Gorenstein normalizations are outside the theorem.
 
 The proof retains all conductor multiplicities. An integral conductor
@@ -28,7 +28,7 @@ H for the anticanonical hyperplane bundle. There is an actual section
     q in H0(X,4H),   div(q)=5c,   5c~4H.
 
 Every mate pulls back to a scalar multiple of q^N, N>=2. The
-promoted [quartic-carrier exclusion](../results/quartic_carrier_exclusion.md)
+[quartic-carrier exclusion](../results/quartic_carrier_exclusion.md)
 prohibits descent of q itself. The full conductor upstairs is a
 Cartier divisor D~2H, with D.c=8. Its downstairs scheme Gamma is
 CM of degree five and arithmetic genus two, and
@@ -435,7 +435,7 @@ the generalized triple-fiber application and the order-five quotient-cover
 ending. The first-jet and vertex-contact code had independent
 implementation review and successful exact execution in the frozen source.
 Their unchanged code is retained; this transfer performs no new execution.
-This integration has independent mathematical preservation and scope review; its conclusions remain provisional, without canonical promotion.
+This integration has independent mathematical preservation and scope review; its conclusions retain the review scopes stated here.
 
 This theorem is stated in characteristic zero. The quadratic trace and
 reflection arguments require two invertible; the root-rigidity arguments

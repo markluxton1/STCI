@@ -1,6 +1,6 @@
 # Polarization lifting and multiple-quadric matrix defects
 
-Two independently reviewed provisional mechanisms are proved here in full. The first excludes a specified sufficient construction in every degree; the second refutes a universal factorization shortcut. Neither is a reduction of arbitrary STCI pairs or a canonical promotion. Source audits reconstructed the full inverse-image scheme, prime-to-characteristic Picard argument, section-lifting proof and rational-normal generalization; and independently reconstructed the arbitrary-intermediate-bundle matrix proof and all cokernel layers. The characteristic and scheme hypotheses below are essential.
+Two independently reviewed mechanisms are proved here in full. The first excludes a specified sufficient construction in every degree; the second refutes a universal factorization shortcut. Neither is a reduction of arbitrary STCI pairs. Source audits reconstructed the full inverse-image scheme, prime-to-characteristic Picard argument, section-lifting proof and rational-normal generalization; and independently reconstructed the arbitrary-intermediate-bundle matrix proof and all cokernel layers. The characteristic and scheme hypotheses below are essential.
 
 ## Polarization and section lifting
 

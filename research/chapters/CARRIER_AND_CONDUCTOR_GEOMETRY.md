@@ -172,13 +172,13 @@ The older [irreducible-residual endpoint note](QUARTIC_CARRIER_TECHNICAL_PROOFS.
 
 ### Immediate proof-integration order
 
-First, write the short intrinsic arguments directly into the chapter and check their hypotheses. Second, prepare one quartic-carrier technical appendix organized by the six lanes, with links to original exact proofs. Third, compare each historical source against the appendix claim by claim and record any genuinely unique content. Only then consider retiring duplicated narrative files; preserve the canonical R-0001 theorem and independent audits throughout.
+First, write the short intrinsic arguments directly into the chapter and check their hypotheses. Second, prepare one quartic-carrier technical appendix organized by the six lanes, with links to original exact proofs. Third, compare each historical source against the appendix claim by claim and record any genuinely unique content. Only then consider retiring duplicated narrative files; preserve the R-0001 theorem and independent audits throughout.
 
 ## Editorial and verification status
 
 **Critical review, pass 1:** checked all 16 relative Markdown links against the complete working-branch Git tree: all resolve. Corrected a material overgeneralization in Section 1: the coefficient of the singleton lift in the pulled-back mate divisor is \(n=b\deg X/\deg C\), and equals the mate degree only for quartic carriers of the degree-four curve. Also made explicit why a proper STCI pair has no common surface component. The rest of the chapter has been compared at the statement/scope level with R-0001, R-0002, R-0003, R-0004, R-0017, R-0034 and R-0035; this is **not** an independent audit of the original proofs.
 
-This is the **first permanent-chapter draft**. It integrates accepted statements and the geometric reasons for their scope, while linking rather than duplicating long source proofs. It has not been independently proof-audited; it is **not yet a replacement for canonical R-records or their underlying evidence**. Before retiring historical files, each six-lane proof and each conductor/index lemma must be compared for unique content, and the chapter's references and hypotheses checked line by line.
+This is the **first permanent-chapter draft**. It integrates accepted statements and the geometric reasons for their scope, while linking rather than duplicating long source proofs. It has not been independently proof-audited; it is **not yet a replacement for result records or their underlying evidence**. Before retiring historical files, each six-lane proof and each conductor/index lemma must be compared for unique content, and the chapter's references and hypotheses checked line by line.
 
 ## 9. Generic nonimmersion and four MF6 boundary carriers
 
@@ -190,7 +190,7 @@ The [ordinary pinch and nodal conductor analysis](../supplements/OCT7_MF6_AND_NO
 
 These arguments are incorporated as source-preservation statements, not independently certified new theorems. The Veronese Jordan classification and Mumford numerical-pullback proof still need detailed integration.
 
-## 10. Numerical self-intersection versus normal degree: provisional
+## 10. Numerical self-intersection versus normal degree
 
 The [numerical pullback proof](../synthesis/numerical_surface_pullback.md) establishes the exact nonnegative difference between the normal degree and numerical self-intersection for an integral carrier regular generically along the smooth curve. Its conormal identification and exceptional-matrix argument have been independently reviewed. The split-sextic application retains its separate numerical antecedents, and the identically-zero polynomial branch remains separate.
 

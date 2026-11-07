@@ -1,5 +1,5 @@
 {
-  "scope": "New residual-pair flag identities for the fixed quartic; no canonical promotion",
+  "scope": "Residual-pair flag identities for the fixed quartic",
   "sympy": "1.14.0",
   "checks": [
     {

@@ -2,7 +2,6 @@
 id: STCI-R-0052
 type: result
 title: Endpoint lattices determine the Hilbert polynomial of a constant orbit image
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -73,13 +72,10 @@ polynomial identity does not supply global generators.
 ## Review
 
 Source provenance: the retained chapter reports independently reviewed
-provisional endpoint arguments. This does not substitute for the separate
-reconstruction review.
+endpoint arguments. This does not substitute for the separate reconstruction review.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted the exact R-0052 route after independently
 reconstructing the endpoint image algebras, finite-cokernel exact sequence,
 polarization pullback and Hilbert polynomial calculation in the stated
-characteristics. No blocker was found. This is reconstructed acceptance;
-the Result remains provisional. No comparison with opposite Hilbert-limit
-directions was included or inferred.
+characteristics. No blocker was found. The reconstruction review accepts this route within its stated scope. No comparison with opposite Hilbert-limit directions was included or inferred.

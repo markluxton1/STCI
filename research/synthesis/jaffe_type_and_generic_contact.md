@@ -6,7 +6,7 @@ Jaffe's Part III convention takes surfaces reduced and irreducible. Keep this co
 
 ## 1. Exact definition of Jaffe's type
 
-### Established: surface-curve pair hypothesis
+### Surface-curve pair hypothesis
 
 Jaffe's convention (Section 1, arXiv PDF pp. 6--8) makes \((S,C)\) a
 surface-curve pair only when \(C\) is regular and \(C\not\subset
@@ -15,7 +15,7 @@ both \(A_{\mathfrak p}\) and \(A/\mathfrak p\) are regular.  Thus \(S\) is
 smooth at the generic point of \(C\), although it may be singular at finitely many
 closed points of \(C\).
 
-### Established: definition
+### Definition
 
 Let \(\pi:\widetilde S\to S\) be the blowup along \(C\), let
 \(\widetilde C\) be its distinguished section over \(C\), and let
@@ -37,7 +37,7 @@ iteration of the introduction and Section 10, the cycle
 \(S_i\cap E_i\) consists of the distinguished section \(C_i\) plus vertical
 rulings over closed singular points, whose total multiplicity is \(p_i(S,C)\).
 
-### Established warning: the entries need not decrease
+### The entries need not decrease
 
 Remark 2.2, p. 9 explicitly says that monotonicity
 \(p_i\geq p_{i+1}\) is unknown even for rather natural classes and gives a later
@@ -91,7 +91,7 @@ smooth-branch contact chain can globalize.
 
 ### 3.1 No common singular points: exact type and degree/depth bounds
 
-**Established (Theorem 10.1, "I", p. 40).**  If \(C=S\cap T\)
+**Theorem 10.1 ("I", p. 40).**  If \(C=S\cap T\)
 set-theoretically, \(C\) is smooth of degree \(d\) and genus \(g\), the
 surface degrees are \(s,t\), and
 \(\operatorname{Sing}S\cap\operatorname{Sing}T=\varnothing\), then, for
@@ -104,7 +104,7 @@ The definition and Section 10 construction keep the generic-order-one condition 
 background; in applications Jaffe may replace one equation by a same-degree linear
 combination to achieve it.
 
-**Established (Theorem 13.1, "X", pp. 49--50).**  If in addition \(C\)
+**Theorem 13.1 ("X", pp. 49--50).**  If in addition \(C\)
 is not a scheme-theoretic complete intersection, then
 \[
  s,t<2d^4.
@@ -126,7 +126,7 @@ the common-singularity hypothesis is removed.
 
 ### 3.2 Common closed singularities allowed, but not generic thick contact
 
-**Established (Theorem 10.3, "II", p. 41).**  Assume only that both surfaces
+**Theorem 10.3 ("II", p. 41).**  Assume only that both surfaces
 are generically smooth along \(C\).  For every \(1\leq k\leq n-1\),
 \[
  \sum_{i=1}^{k-1}2^{k-i-1}(n-i+1)p_i+(n-k)p_k
@@ -139,7 +139,7 @@ not bound \(n\) or \(h\) without an independent upper bound on the type.
 
 ### 3.3 Rational singularities: weighted lower bounds and finite complexity
 
-**Established locally (Proposition 6.5, pp. 26--27).**  For a rational double
+**Local formula (Proposition 6.5, pp. 26--27).**  For a rational double
 point surface-curve pair,
 \[
  \sum_{k\geq1}\frac{p_k}{k(k+1)}\geq\Delta(S,C),              \tag{J-\Delta}
@@ -147,7 +147,7 @@ point surface-curve pair,
 where \(\Delta\) is the resolution-theoretic correction
 \(C^2-\widetilde C^2\).
 
-**Established globally (Theorem 11.1, "III", p. 42).**  Over \(\mathbf C\),
+**Global formula (Theorem 11.1, "III", p. 42).**  Over \(\mathbf C\),
 if \(S\) has rational singularities and the other defining surface is generically
 smooth along \(C\), then
 \[
@@ -157,7 +157,7 @@ smooth along \(C\), then
 Remark 11.2 says Jaffe cannot in general replace the infinite sum by the first
 \(n-1\) terms; he can do so after excluding odd \(D_{r,r}\) configurations.
 
-**Established local length information (Propositions 5.2 and 5.6, pp. 18--23).**
+**Local length information (Propositions 5.2 and 5.6, pp. 18--23).**
 Jaffe computes every rational-double-point type explicitly.  Except for odd
 \(D_{r,r}\), he proves
 \[
@@ -171,7 +171,7 @@ The exception is substantial: for odd \(r\),
 \]
 which has length \(r\) although its Cartier order is \(4\).
 
-**Established surface-complexity bound (Lemma 11.3, p. 42).**  If a degree-
+**Surface-complexity bound (Lemma 11.3, p. 42).**  If a degree-
 \(s\) complex surface has rational singularities and its minimal resolution has
 \(N\) exceptional curves, then
 \[
@@ -192,7 +192,7 @@ singularities, no common singular points, and generic normal order one.
 
 ### 3.4 Normal-bundle upper bound
 
-**Established (Proposition 11.6, p. 44).**  Let \(N_C\) be the normal bundle
+**Proposition 11.6 (p. 44).**  Let \(N_C\) be the normal bundle
 of \(C\subset\mathbf P^3\), let \(\ell\) be the maximum degree of a line
 subbundle of \(N_C\), and put
 \[
@@ -218,13 +218,13 @@ surfaces are generically smooth along \(C\).  Jaffe's overlap then gives
 
 Therefore:
 
-- **Established non-subsumption statement.**  Jaffe does not define
+- Jaffe does not define
   \(\tau_S(C)\), prove the component-exclusion lemma, or state this family-level
   threshold bound.
 - **Interpretation.**  Once those new surface ingredients are supplied, the
   \(p=q=1\) specialization needs no new contact-tree inequality: it follows from
   Jaffe's exact chain length and Bézout.
-- **Established scope gain of the current theorem.**  The inequality
+- The inequality
   \(m\leq(h+1)pq\) and its threshold consequence continue to make sense when
   \(p,q>1\) and the tangent cones branch.  That is exactly the regime omitted by
   Jaffe's iteration.
@@ -237,7 +237,7 @@ presentation, not a strengthening of Jaffe inside his original stratum.
 
 ## 5. Why arbitrary thick pairs are outside Jaffe's machine
 
-### Established hypothesis failure
+### Generic smoothness fails for thick equations
 
 If a homogeneous equation has generic normal order \(p\geq2\) along \(C\),
 then \(C\subset\operatorname{Sing}V(F)\).  Such a hypersurface does not form a
@@ -249,7 +249,7 @@ Jaffe surface-curve pair.  Section 10 explicitly assumes
 Moreover, Part III's surfaces are reduced and irreducible, so power-derived
 nonreduced equations are excluded even before this generic-smoothness condition.
 
-### Established proof failure
+### Divisor transforms for thick equations
 
 The formulas in Section 10 use
 \[
@@ -286,5 +286,5 @@ Jaffe explicitly states that Theorems I and II do not depend on characteristic; 
 Fresh primary inspection during consolidation checked the definition, the generic-order-one iteration, Theorems10.1,10.3,13.1 and Proposition11.6. The retained earlier bounded audit had inspected the full primary PDF and TeX, including the other displayed ADE results. Its negative search is not a theorem excluding later work or de-powering methods by other authors. No arbitrary thick pair, order-minimal thick presentation, or branched proximity-tree upper bound is obtained from these formulas. A useful future bridge would combine horizontal higher-jet data with vertical Jaffe-type corrections only where that branch has become generically smooth.
 
 Independent consolidation review accepted this preservation and the exact
-scope/characteristic dictionary. No new canonical theorem, arbitrary-thick
+scope/characteristic dictionary. No new theorem, arbitrary-thick
 upper bound, or claim of literature novelty is asserted.

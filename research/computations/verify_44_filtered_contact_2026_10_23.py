@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Provisional exact e=0 part of a shorter characteristic-zero (4,4) exclusion.
+"""Exact e=0 part of a shorter characteristic-zero (4,4) exclusion.
 
 Independent inputs, stated rather than tested: balanced conormal O(-7)^2,
 finite-flat quasiprimitive/BF filtration and Gorenstein duality.  This code

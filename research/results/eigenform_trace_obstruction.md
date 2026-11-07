@@ -2,7 +2,6 @@
 id: STCI-R-0042
 type: result
 title: Trace obstruction for a supported pair with one eigenform
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -83,5 +82,4 @@ with an arbitrary mate. The factor qualification and characteristic-two
 limitation were retained. Acceptance concerns the stated source
 hypotheses; no arbitrary-pair reduction is claimed.
 
-The Result remains provisional; independent acceptance of this
-reconstructed route does not promote its status or the source's labels.
+Independent reconstruction review accepts this route within its stated scope.

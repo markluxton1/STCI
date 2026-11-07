@@ -2,7 +2,6 @@
 id: STCI-R-0034
 title: "Normal-carrier local Cartier-index and socle compatibility"
 kind: theorem
-status: proved
 scope:
   characteristic: "characteristic zero"
   curve: "smooth curve on a normal integral carrier surface"
@@ -16,7 +15,6 @@ evidence:
   - research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md
 independent_audits:
   - research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md
-accepted_in: "research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -49,4 +47,4 @@ Inherited premises are described in the proof and audit.
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

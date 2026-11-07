@@ -47,7 +47,7 @@ configurations and the surviving `[4]` families are outside this theorem.
 Run with `python3` in this checkout. The full
 certificate passed on 2026-10-06. The new normal-sheaf argument is in
 [numerical pullback and the normal line](../synthesis/numerical_surface_pullback.md); root independently audited that proof.
-The complete proof, exact source coverage and retained computational dependencies were independently reconstructed and accepted in this consolidation; no new canonical promotion is made.
+The complete proof, exact source coverage and retained computational dependencies were independently reconstructed and accepted in this consolidation.
 
 ## Exact local state and the global Jacobian zero divisor
 

@@ -1,6 +1,6 @@
 # Conductor, transverse differential, and the actual top socle
 
-The first part proves the full ideal-level conductor–Jacobian identity near a smooth Cartier inverse curve. The second gives the exact pointwise top-socle identity [R-0036](../results/pointwise_conductor_socle_defect.md), its normalized-thickening colength, and parity consequence. These are different implications from [fixed-carrier descent](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md): the second part starts with an **already existing actual supported pair**, rather than constructing its mate. The source proofs and independent reconstructions are combined without a new promotion.
+The first part proves the full ideal-level conductor–Jacobian identity near a smooth Cartier inverse curve. The second gives the exact pointwise top-socle identity [R-0036](../results/pointwise_conductor_socle_defect.md), its normalized-thickening colength, and parity consequence. These are different implications from [fixed-carrier descent](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md): the second part starts with an **already existing actual supported pair**, rather than constructing its mate. The source proofs and independent reconstructions are combined.
 
 The normal-index Frobenius/free-power identity is owned by [normal-index and socle theory](NORMAL_INDEX_SOCLE_AND_TORSION.md). The comparison below invokes that identity only for its stated ordinary-power lattice, preserving its separation from saturated Bănică–Forster defects.
 

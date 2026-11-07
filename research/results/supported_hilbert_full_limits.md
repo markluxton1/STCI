@@ -2,7 +2,6 @@
 id: STCI-R-0037
 type: result
 title: Bounded supported Hilbert loci and both full torus limits
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -111,8 +110,7 @@ structure. The reviewer reconstructed the proof, compared the declared
 sources, and found no blocking mathematical correction or lost
 contribution. No mathematical computation was needed. Acceptance gives
 no uniform \(N\), classification, nonempty incidence, numerical
-generator cutoff, or quotient-comparison theorem. The Result remains
-provisional; review acceptance is not promotion.
+generator cutoff, or quotient-comparison theorem. The reconstruction review accepts this proof within its stated scope.
 
 Separately, the source's October 31, 2026 scope review accepted the
 distinctions between support invariance and ideal invariance, full limits

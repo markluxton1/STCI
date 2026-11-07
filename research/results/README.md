@@ -1,6 +1,6 @@
-# Established results by topic
+# Mathematical reading routes by topic
 
-This directory is the durable topic-level layer beneath [../STATE.md](../STATE.md). These files synthesize established mathematics; chronological notes remain the detailed proof/audit provenance.
+These topic pages summarize mathematics described in [STATE.md](../STATE.md) and link to exact statements, full proofs, and scoped reviews.
 
 - [Order-one structure](order_one.md)
 - [Primitive e=2 quartic results](quartic_e2.md)
@@ -9,4 +9,4 @@ This directory is the durable topic-level layer beneath [../STATE.md](../STATE.m
 - [Entirely-thick numerical restrictions](entirely_thick.md)
 - [Quartic jet geometry](jet_geometry.md)
 
-Canonical status and scope are controlled by the promoted [result records](INDEX.md), under the [authority policy](../AUTHORITY.md). `STATE.md` and these topic syntheses are navigation summaries, not independent theorem authority. If summaries conflict, check the exact canonical record and its cited evidence; report unresolved discrepancies.
+Use the [Result records](INDEX.md), actual proofs, and [scoped review evidence](../AUTHORITY.md) to assess a claim. Topic summaries supply no extra justification. If summaries conflict, compare the exact hypotheses and arguments and report unresolved discrepancies.

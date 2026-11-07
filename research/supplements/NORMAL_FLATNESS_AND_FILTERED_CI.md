@@ -2,7 +2,7 @@
 
 The first theorem propagates a full generic binary-CI Hilbert function through every point of an actual lci thickening. The second part uses actual global homogeneous equations to impose additional arithmetic restrictions. These conclusions have separate hypotheses: normal flatness alone does not supply an actual pair or exclude every STCI.
 
-The canonical records are [R-0010](../results/saturated_first_relation_normal_flatness.md) and [R-0013–R-0015](../results/saturated_actual_generator_movement.md). This consolidation retains their inherited scope. The source-level local variant below also treats r=s with an exact-special-order hypothesis; that broader variant is not silently promoted through R-0010.
+The records are [R-0010](../results/saturated_first_relation_normal_flatness.md) and [R-0013–R-0015](../results/saturated_actual_generator_movement.md). This consolidation retains their inherited scope. The source-level local variant below also treats r=s with an exact-special-order hypothesis; that broader variant is not part of R-0010.
 
 <a id="2026-10-19-filtered-generic-ci-normal-flatness"></a>
 <a id="2026-10-19-filtered-local-normal-flatness-independent-audit"></a>
@@ -316,7 +316,7 @@ ordinary initial ideal is a coprime binary complete intersection of degrees
 R=\ker(\operatorname{Sym}^r N_C^*\longrightarrow J^r/J^{r+1})
 \]
 is a line subbundle. These are exactly the substantive additional hypotheses
-of promoted STCI-R-0010. Write
+of STCI-R-0010. Write
 
 \[
 N_C^*=\mathcal O_{\mathbf P^1}(-7)^{\oplus2},\qquad
@@ -325,7 +325,7 @@ R=\mathcal O_{\mathbf P^1}(-7r-\epsilon),\quad\epsilon\ge0.
 Thus the full first root has class \((\epsilon,r)\) in
 \(\mathbf P^1_{\rm base}\times\mathbf P^1_{\rm dir}\).
 
-The following conclusions are canonically recorded in characteristic zero (R-0013–R-0015). The proof below also gives their source-level extension to characteristic different from two, independently reconstructed during consolidation. No canonical metadata is enlarged here.
+The following conclusions are recorded in characteristic zero (R-0013–R-0015). The proof below also gives their source-level extension to characteristic different from two, independently reconstructed during consolidation. No metadata is enlarged here.
 
 The conclusions are:
 
@@ -377,14 +377,14 @@ nor intersections with residual curve components are covered.
 - The general generator-filtration lemma is proved independently in
   [the generator-filtration audit](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd),
   sections 1--4. It is a reviewed supporting source, not a separate
-  promoted result record. Its general statement applies to a full
+  result record. Its general statement applies to a full
   locally CI initial ideal; the application below is enabled by R0010.
   The minimal argument needed here is recorded in section 3, so that
   this additional interface can be independently assessed.
 - The no-quadric-factor assertion is characteristic free and does not require the quartic-carrier exclusion. If q divides F, then V(q,G) must have support C. If q also divides G the pair is improper. Otherwise G|Q is a nonzero divisor of class (b,b) supported only on C of class (1,3), so (b,b)=n(1,3) for some n>0, impossible. This applies even to reducible/nonreduced F or G. It yields a,b>=3r after the actual-order conclusion. The characteristic-zero R-0001 is compatible with this elementary argument but is not its necessary premise.
 
-The new claims in this note remain unpromoted proposals. Independent
-reconstruction passed in [the core audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#abstract-bundle-realizations-of-the-six-rows)
+Independent
+reconstruction of the new claims in this note passed in [the core audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#abstract-bundle-realizations-of-the-six-rows)
 and [the fixed-movement audit](#2026-10-19-global-ci-filtration-independent-audit).
 
 ## 3. The actual generator sequence and why it cannot split
@@ -678,7 +678,7 @@ equation order and joint-generation hypotheses in
 satisfies the ancillary equation hypotheses of that bridge. The bridge
 then supplies its stated finite primitive thickness on the root.
 
-For epsilon=2, promoted R0011 restricts the total root to be reduced;
+For epsilon=2, R0011 restricts the total root to be reduced;
 its possibilities remain an integral (2,r) divisor or, for even r,
 two distinct (1,r/2) components. Smoothness is an additional restriction.
 The six numerical rows include possible singular and reducible roots
@@ -710,7 +710,7 @@ because its kernel degree is P−4a−4b=−Q0. These are actual abstract bundle
 
 ## Characteristic scope
 
-The local Hilbert-envelope/DVR theorem above is valid over an algebraically closed field in every characteristic. The [codimension-two drop proof](SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-generalization-higher-moment-and-loewy-boundsmd) uses one y-Jordan block in Ann(x), restriction to a general linear form and Gorenstein duality; it requires no characteristic-dependent division. The proof then uses only purity and DVR module structure, including r=s. The separate projective resultant proof likewise uses integral identities and arbitrary conormal. These are explicit source-level extensions; canonical R-0010 keeps its recorded scope.
+The local Hilbert-envelope/DVR theorem above is valid over an algebraically closed field in every characteristic. The [codimension-two drop proof](SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-generalization-higher-moment-and-loewy-boundsmd) uses one y-Jordan block in Ann(x), restriction to a general linear form and Gorenstein duality; it requires no characteristic-dependent division. The proof then uses only purity and DVR module structure, including r=s. The separate projective resultant proof likewise uses integral identities and arbitrary conormal. These are explicit source-level extensions; R-0010 keeps its recorded scope.
 
 For C0, the actual-generator and arithmetic proofs need balanced conormal O(-7)^2, which holds in characteristic different from2, together with the characteristic-free no-quadric-factor argument above. The generator filtration, determinant equations, nonsplitting inequality and all integer arithmetic are characteristic independent. Therefore movement-one exclusion, the six movement-two necessary rows and fixed-movement1–8 finiteness extend under the **same** r>=2, saturated actual first-relation/full generic-CI/actual homogeneous sole-support hypotheses to every p≠2. This does not extend the separate characteristic-zero repeated-root theorem or section8's reduced-root consequences. In characteristic2 the balanced model changes.
 

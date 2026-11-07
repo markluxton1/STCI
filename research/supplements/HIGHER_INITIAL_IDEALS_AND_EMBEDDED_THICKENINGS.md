@@ -17,9 +17,9 @@ Complete mathematical arguments and exploratory boundaries preserved. Conditiona
 
 ## 2026-10-21-higher-initial-ideals-valuations
 
-# Higher initial ideals and transverse valuations — provisional research note (2026-10-21)
+# Higher initial ideals and transverse valuations — research note (2026-10-21)
 
-Status: PROPOSAL; no independent review. Branch only; no canonical promotion.
+Status: PROPOSAL; no independent review. Branch only.
 
 ## Setup
 Let I be the homogeneous ideal of C0 in S and J=(F,G). The global gr_I(S)=⊕ I^n/I^{n+1} has two gradings: homogeneous polynomial degree and filtration degree. Its sheafification along C0 is Sym(I_C/I_C²), but global sections of the latter need not be obtained from individual global graded pieces without saturation. At η_C, completion gives K[[x,y]] with K=k(C0), and gr_m=K[X,Y]. The full initial ideal in_m(JR) includes leading forms of every combination AF+BG; it is generally larger than (in F,in G). Generic localization can lose special-point torsion/degeneration.
@@ -48,7 +48,7 @@ The degree-d normal symbol of F of I-order r is a section of Sym^r(N_C^∨)⊗O_
 
 Related notes: [residual-cycle and wedge distinctions](../synthesis/residual_contact_cycles.md#wedge-degeneracy-distinguishes-neither-thickness-nor-residual-contact); [special-fiber length and standard bases](../synthesis/valuations_and_residual_contact.md#valuative-standard-bases-and-special-length-jumps); [orders, Hilbert filtration, and duality](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-21-equality-orders-filtration-dualitymd).
 
-## Canonical scope references
+## Conormal splitting and quartic family references
 
 - [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md): audited characteristic-dependent conormal splitting; the balanced formula above applies when the characteristic is not two.
 - [STCI-R-0021](../results/quartic_mu4_degeneration.md): audited global behavior of the prescribed quartic pair, including its four characteristic-zero components and characteristic-two support.
@@ -69,7 +69,7 @@ This note does not claim the generic local data determine global radical equalit
 
 # The embedded ribbon-to-triple obstruction
 
-The mathematical owner here is the corrected ideal-sheaf proof, independently reconstructed in the retained source audit. It replaces the provisional difference-of-lifts argument. The construction is characteristic free and fixes the embedded ribbon and its quotient throughout; the explicit quartic Laurent coefficient remains an inherited audited calculation. This is source-level reviewed mathematics, with no new result promotion.
+The mathematical owner here is the corrected ideal-sheaf proof, independently reconstructed in the retained source audit. It replaces the flawed difference-of-lifts argument. The construction is characteristic free and fixes the embedded ribbon and its quotient throughout; the explicit quartic Laurent coefficient remains an inherited audited calculation. This is source-level reviewed mathematics.
 
 ## The canonical embedded extension
 
@@ -95,7 +95,7 @@ This holds in arbitrary characteristic, including mixed-characteristic DVRs; smo
 ```
 The last isomorphism is canonical for a line quotient, with no need to invert 2. The quotient `J₂/I²=M`. These identify the kernel and cokernel of (*).
 
-2. Since `I J₂ ⊂ K`, multiplication by `I` kills `J₂/K`. Thus (*) is genuinely an exact sequence of O_C-modules, not a spurious O_C-module structure on `I/I³`. This repairs the central gap in the provisional proof.
+2. Since `I J₂ ⊂ K`, multiplication by `I` kills `J₂/K`. Thus (*) is genuinely an exact sequence of O_C-modules, not a spurious O_C-module structure on `I/I³`. This repairs the central gap in the earlier proof.
 
 3. For any admissible `J₃`, `I J₃ ⊂ J₃`, `I³ ⊂ J₃`, and the local normal form implies that the image of `J₃` in `E` is `M` and its intersection with `I²` modulo `I³` is `ME`. Therefore `K ⊂ J₃` and `J₃/K -> M` is an isomorphism: its inverse is a splitting of (*).
 
@@ -136,7 +136,7 @@ On the two standard affine charts, H¹(O(-4)) has Laurent representatives u^-1,u
 
 ## Why the common comparison object matters
 
-The statement that one can subtract arbitrary lifts of M *inside I/I³* as O_C-linear maps is not justified: I/I³ has no canonical O_C-module structure. Also the expression I²/(I³+IJ) is circular unless J is fixed and it does not by itself define a common comparison object for varying J. The common object is instead **J₂/(I J₂+I³)**. It is annihilated by I, so the difference construction and its additive law are literal O_C-module statements. The original numerical calculation survives; the original general proof should not be promoted verbatim.
+The statement that one can subtract arbitrary lifts of M *inside I/I³* as O_C-linear maps is not justified: I/I³ has no canonical O_C-module structure. Also the expression I²/(I³+IJ) is circular unless J is fixed and it does not by itself define a common comparison object for varying J. The common object is instead **J₂/(I J₂+I³)**. It is annihilated by I, so the difference construction and its additive law are literal O_C-module statements. The original numerical calculation survives; the original general proof contains the gap described above.
 
 ## A coordinate change as an explicit control
 
@@ -370,4 +370,4 @@ The filtered-Koszul coprime theorem and the corrected embedded extension 0→L²
 
 ### The fixed-quartic primitive-triple boundary in characteristic2
 
-The invalidity of the balanced coordinate formulas at2 does not leave this particular type undecided. R0020 gives N_C0^*=O(-8)⊕O(-6). There is no surjection to O(-7): a homomorphism from O(-6) vanishes because H0(O(-1))=0, while every homomorphism O(-8)→O(-7) is a section of O(1) and vanishes somewhere. Thus no embedded primitive triple of typeO(-7) exists on fixedC0 in characteristic2 already at the conormal quotient stage. The length-three lci/adjunction argument above works in every characteristic and would force this type for a supported(3,4) pair, so that pair is excluded in characteristic2. Together with the displayed nonzero P010 class for p>3 and the characteristic-zero calculation, the fixed-C0(3,4) obstruction has exactly characteristic3 as its positive-characteristic escape; there the explicit primitive presentation exists. This is an independently reconstructed source-level extension, not a new canonical promotion. No assertion about every smooth rational quartic in characteristic2 follows from the fixedC0 splitting alone.
+The invalidity of the balanced coordinate formulas at2 does not leave this particular type undecided. R0020 gives N_C0^*=O(-8)⊕O(-6). There is no surjection to O(-7): a homomorphism from O(-6) vanishes because H0(O(-1))=0, while every homomorphism O(-8)→O(-7) is a section of O(1) and vanishes somewhere. Thus no embedded primitive triple of typeO(-7) exists on fixedC0 in characteristic2 already at the conormal quotient stage. The length-three lci/adjunction argument above works in every characteristic and would force this type for a supported(3,4) pair, so that pair is excluded in characteristic2. Together with the displayed nonzero P010 class for p>3 and the characteristic-zero calculation, the fixed-C0(3,4) obstruction has exactly characteristic3 as its positive-characteristic escape; there the explicit primitive presentation exists. This is an independently reconstructed source-level extension. No assertion about every smooth rational quartic in characteristic2 follows from the fixedC0 splitting alone.

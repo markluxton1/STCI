@@ -1,6 +1,6 @@
 # Principal triple incidence, normalization and conductor boundaries
 
-Full original source text is preserved below, including calculations, qualifications, counterexamples, and unresolved questions. This compilation does not independently audit or promote claims.
+Full original source text is preserved below, including calculations, qualifications, counterexamples, and unresolved questions. This compilation does not independently audit claims.
 
 ---
 
@@ -13,7 +13,7 @@ Date: 2026-10-08. Fixed curve
 field. This note complements the
 [independent open-chart rank proof](#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd).
 It uses actual complete quartic spaces at every exceptional frame, rather
-than specializing a generic nullspace basis. No canonical records were
+than specializing a generic nullspace basis. No records were
 edited. The unrestricted C0 and universal STCI problems remain open.
 
 **PROVED, conditional on the accepted ancestor reduction and P-037:**
@@ -1124,7 +1124,7 @@ This independently agrees with the separate [normal-global audit](#source-2026-1
 
 For an integral quartic with smooth rational quartic-scroll normalization, any mate of the fixed smooth rational quartic C0 must therefore leave the normalization generically immersive along every actual conductor prime. The generic Artin classification or geometric transverse branch classification still has to establish which conductor possibilities have that property; the obstruction alone is not a closure of that carrier class.
 
-No canonical frontier file was changed by this audit.
+No frontier file was changed by this audit.
 
 ---
 
@@ -1355,7 +1355,7 @@ Date: 2026-10-08. Fixed `C0=[s^4:s^3t:st^3:t^4]`, characteristic zero.
 Scope: the principal `a0*b1!=0` direction lane for a genuine second defect
 of degree one, in the accepted canonical-triple reduction for common
 quartic ancestors. This audit combines the complete open-frame proof
-with fresh all-35-column boundary calculations. No canonical frontier
+with fresh all-35-column boundary calculations. No frontier
 file is edited.
 
 **ACCEPTED, with the recorded antecedents:** no quartic common ancestor

@@ -8,7 +8,7 @@ Finite-level statements impose the **strong** support containment below;
 topological support on an Artin base is insufficient.
 
 **Status, October 31, 2026:** independently reconstructed, reviewed
-provisional results. No canonical promotion or unrestricted STCI conclusion.
+results. No unrestricted STCI conclusion is asserted.
 
 ## Strong lifts and the exact unramified precision shift
 

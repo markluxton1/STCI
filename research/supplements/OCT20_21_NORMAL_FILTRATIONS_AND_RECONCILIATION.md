@@ -1,6 +1,6 @@
 # Actual normal equations, filtration duality and characteristic benchmarks
 
-Complete source texts below, retaining mathematical arguments, hypotheses, counterexamples, corrections and unresolved cases. No new independent audit or theorem promotion.
+Complete source texts below, retaining mathematical arguments, hypotheses, counterexamples, corrections and unresolved cases. This compilation supplies no new independent audit.
 
 ---
 
@@ -12,11 +12,11 @@ Investigation begun 2026-10-19; closing report 2026-10-20.
 Starting main commit: `84dacd99c54915b1bbb224bb01565f01716445de`.
 Research branch: `codex/normal-filtration-results-2026-10-19`.
 
-**Status: new mathematical proposals with recorded independent review,
-not canonical promotions. The unrestricted characteristic-zero STCI
-question for the fixed rational quartic remains open.**
+**Review: the mathematical proposals have recorded independent review.**
+The unrestricted characteristic-zero STCI
+question for the fixed rational quartic remains open.
 
-### 1. Exact scope and inherited authority
+### 1. Exact scope and inputs
 
 Throughout the principal applications, the field is algebraically closed
 of characteristic zero and
@@ -27,8 +27,7 @@ C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3,
 \]
 
 The investigation followed the repository retrieval protocol and read
-the provisional formal-normal synthesis. Promoted
-[STCI-R-0001](../results/quartic_carrier_exclusion.md),
+the formal-normal synthesis. [STCI-R-0001](../results/quartic_carrier_exclusion.md),
 [STCI-R-0008](../results/spectral_root_picard_criterion.md),
 [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md), and
 [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md)
@@ -45,9 +44,9 @@ when the first relation is nonsaturated.
 
 The generator-filtration interface, local planar Hilbert-function
 lemma, and first-blowup balance have independently reviewed source
-evidence but no separate promoted result ID. The source notes and
-audits below state these authority gaps and reconstruct each new use.
-No canonical result, question, state, or frontier record is modified.
+evidence. The source notes and
+audits below state the exact hypotheses and reconstruct each new use.
+No result, question, state, or frontier record is modified.
 
 ### 2. Main finding A: actual homogeneous generators force small-movement rigidity
 
@@ -503,7 +502,7 @@ outside the stated results.
 ## Exact local and global structure of the prescribed characteristic-two Z4
 
 Status: independently reconstructed computation and proof contribution for the
-2026-10-20 lifting investigation; not a promoted canonical result. No accepted
+2026-10-20 lifting investigation; with its proof and review scope stated below. No accepted
 normal-bundle computation is rederived here. This note concerns only
 
 \[
@@ -763,7 +762,7 @@ obstruction is a separate contribution to the main lifting report.
 
 ## Diagnostic: failed reconstructed-versus-exported FIRST residual comparison
 
-Date: 2026-10-21. Status: **diagnostic only; no repaired certificate and no theorem promotion**.
+Date: 2026-10-21. Status: **diagnostic only; no repaired certificate**.
 
 A failed reconstructed audit reported an M2 assertion failure at line 23 of its generated script. Line 22 asserts that rows 0–3 and 12–15 of the reconstructed universal FIRST operator vanish; line 23 compares rows 4–11 with the saved eight-polynomial export from `conditional_2_12_singular_continuation_2026_10_21_line_component_w1.m2`.
 
@@ -783,7 +782,7 @@ Next checks: independently derive the original factor-to-coefficient map, check 
 
 ## Equality de=4m: generic orders, Hilbert filtration, duality
 
-Status: WORKING NOTE; mathematical statements separated from proposed directions. No canonical promotion. Characteristic zero unless otherwise indicated.
+Status: WORKING NOTE; mathematical statements separated from proposed directions. Characteristic zero unless otherwise indicated.
 
 Setup: C=[s^4:s^3t:st^3:t^4] smooth rational quartic, F,G homogeneous degrees d,e with no common surface component, C contained in their intersection. r=ord_C(F), s=ord_C(G), m=length at generic point of C. If de=4m, the entire reduced intersection is C by the residual-cycle proposition.
 
@@ -807,7 +806,7 @@ Z is Gorenstein and ω_Z=O_Z(d+e-4). Generic local algebra A=O_{Z,η_C} is an Ar
 
 F=x1^4-x0³x3, G=x2^4-x0x3³. On x0=1, local coordinates t=x1,u=x2-t³,v=x3-t⁴ yield (v,(t³+u)^4-t¹²). In char 0 generic m=1, hence residual degree 12. In char 2 generic m=4, hence de=4m and reduced support exactly C. In char 2 first symbols of both equations are proportional (r=s=1 generically); this shows that r=s=1 does not imply m=1.
 
-### Canonical scope references
+### Conormal splitting and quartic family references
 
 - [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md) proves the characteristic-dependent conormal splitting used in the degree bound.
 - [STCI-R-0021](../results/quartic_mu4_degeneration.md) establishes the global characteristic benchmark for the specified quartic pair.
@@ -860,11 +859,11 @@ These checks validate the two logical interfaces but do not independently re-run
 
 ## Independent audit: intrinsic embedded ribbon-to-triple obstruction (2026-10-21)
 
-Status: **independent mathematical audit; verdict B (correct after replacing the flawed difference argument by a canonical module extension)**. Research branch only; no canonical promotion.
+Status: **independent mathematical audit; verdict B (correct after replacing the flawed difference argument by a canonical module extension)**. Research branch only.
 
 ### Scope and source provenance
 
-Read `AGENTS.md`, `research/INDEX.md`, `research/AUTHORITY.md`, `research/CONTRIBUTING_AGENT.md`, the provisional theorem on `research/intrinsic-ribbon-triple-2026-10-21`, the literature report on `research/z4-intrinsic-obstruction-literature-2026-10-21`, and the five 2026-10-20 lifting reports on `main`. This audit proves the *general embedded torsor theorem* independently; it does not rerun the previously audited Laurent arithmetic. The explicit quartic coefficient is imported as an independently audited prior calculation, not a fresh computation.
+Read `AGENTS.md`, `research/INDEX.md`, `research/AUTHORITY.md`, `research/CONTRIBUTING_AGENT.md`, the proposed theorem on `research/intrinsic-ribbon-triple-2026-10-21`, the literature report on `research/z4-intrinsic-obstruction-literature-2026-10-21`, and the five 2026-10-20 lifting reports on `main`. This audit proves the *general embedded torsor theorem* independently; it does not rerun the previously audited Laurent arithmetic. The explicit quartic coefficient is imported as an independently audited prior calculation, not a fresh computation.
 
 ### Verdict B and corrected theorem
 
@@ -890,7 +889,7 @@ This holds in arbitrary characteristic, including mixed-characteristic DVRs; smo
 ```
 The last isomorphism is canonical for a line quotient, with no need to invert 2. The quotient `J₂/I²=M`. These identify the kernel and cokernel of (*).
 
-2. Since `I J₂ ⊂ K`, multiplication by `I` kills `J₂/K`. Thus (*) is genuinely an exact sequence of O_C-modules, not a spurious O_C-module structure on `I/I³`. This repairs the central gap in the provisional proof.
+2. Since `I J₂ ⊂ K`, multiplication by `I` kills `J₂/K`. Thus (*) is genuinely an exact sequence of O_C-modules, not a spurious O_C-module structure on `I/I³`. This repairs the central gap in the earlier proof.
 
 3. For any admissible `J₃`, `I J₃ ⊂ J₃`, `I³ ⊂ J₃`, and the local normal form implies that the image of `J₃` in `E` is `M` and its intersection with `I²` modulo `I³` is `ME`. Therefore `K ⊂ J₃` and `J₃/K -> M` is an isomorphism: its inverse is a splitting of (*).
 
@@ -929,9 +928,9 @@ H = M^∨ ⊗ L² = O(-4).
 ```
 On the two standard affine charts, H¹(O(-4)) has Laurent representatives u^-1,u^-2,u^-3. The earlier independently audited raw ambient calculation yields the transition defect `K(u)` and for the distinguished quotient `[-6u^-2]`. The current theorem proves **why** the difference of local kernel equations represents the intrinsic Yoneda extension class: each local equation defines a splitting of (*), and their normalized differences are precisely its Čech connecting cocycle. This identifies the type and intrinsic meaning of the previously audited numerical class; it is not a new re-expansion or a re-verification of the sign conventions. The earlier lifting audit establishes the middle coefficient is 2 mod 4 for all specified admissible quotients over Z_(2) and Z_2. No claim for arbitrary ramified DVRs follows.
 
-### Explicit defect in the provisional proof
+### Explicit defect in the earlier proof
 
-The statement that one can subtract arbitrary lifts of M *inside I/I³* as O_C-linear maps is not justified: I/I³ has no canonical O_C-module structure. Also the expression I²/(I³+IJ) is circular unless J is fixed and it does not by itself define a common comparison object for varying J. The common object is instead **J₂/(I J₂+I³)**. It is annihilated by I, so the difference construction and its additive law are literal O_C-module statements. The original numerical calculation survives; the original general proof should not be promoted verbatim.
+The statement that one can subtract arbitrary lifts of M *inside I/I³* as O_C-linear maps is not justified: I/I³ has no canonical O_C-module structure. Also the expression I²/(I³+IJ) is circular unless J is fixed and it does not by itself define a common comparison object for varying J. The common object is instead **J₂/(I J₂+I³)**. It is annihilated by I, so the difference construction and its additive law are literal O_C-module statements. The original numerical calculation survives; the original general proof contains the gap described above.
 
 ### Audit status and handoff
 
@@ -944,7 +943,7 @@ The statement that one can subtract arbitrary lifts of M *inside I/I³* as O_C-l
 
 ## Investigation 4: universal divided-power arithmetic and geometric limits (preliminary)
 
-**Status:** preliminary mathematical analysis from the 2026-10-21 conversation. Not independently audited, not promoted, and not a canonical divided-Frobenius identification.
+**Status:** preliminary mathematical analysis from the 2026-10-21 conversation. Not independently audited, and does not prove a canonical divided-Frobenius identification.
 
 ### 1. Arithmetic theorem
 

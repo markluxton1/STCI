@@ -1,6 +1,6 @@
 # Cross-chapter mathematical consistency audit — 2026-10-17
 
-**Scope:** Chapters 1–6, the dependency map, and promoted result summaries in `research/STATE.md`. This is an editorial and logical cross-check, **not** an independent reproof of the nine promoted results. Detailed source-proof verification remains in the linked acceptance notes and audits.
+**Scope:** Chapters 1–6, the dependency map, and result summaries in `research/STATE.md`. This is an editorial and logical cross-check, **not** an independent reproof of the nine results. Detailed source-proof verification remains in the linked acceptance notes and audits.
 
 ## Findings
 
@@ -21,7 +21,7 @@
 
 ## Priority correction
 
-Use explicit notation \(r_F,r_G\) when discussing the generic orders of the *displayed equations* and \(\rho,\sigma\) when discussing the degrees of the **minimal full initial-ideal generators**. These numbers can differ: for example, \((u^2,u^2+v^3)=(u^2,v^3)\) has displayed orders \((2,2)\), but initial-ideal generator degrees \((2,3)\). The formal bridge theorem itself retains the notation \(r,s\) in its canonical source; the synthesis should translate it, not rewrite the theorem.
+Use explicit notation \(r_F,r_G\) when discussing the generic orders of the *displayed equations* and \(\rho,\sigma\) when discussing the degrees of the **minimal full initial-ideal generators**. These numbers can differ: for example, \((u^2,u^2+v^3)=(u^2,v^3)\) has displayed orders \((2,2)\), but initial-ideal generator degrees \((2,3)\). The formal bridge theorem itself retains the notation \(r,s\) in its proof; the synthesis should translate it, not rewrite the theorem.
 
 ## Audit limitations and follow-up
 

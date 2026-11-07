@@ -165,7 +165,7 @@ def main():
             print("filtration",[(a["normal_cutoff"],a["rank_lower_bound"])
                                  for a in filtration],flush=True)
             destination=Path(__file__).with_suffix(".json")
-            destination.write_text(json.dumps({"status":"provisional exact rank certificates",
+            destination.write_text(json.dumps({
                 "script_sha256":hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                 "arithmetic_helper_sha256":hashlib.sha256(Path(__file__).with_name(
                     "endpoint4_fixed_jet_independent_2026_10_26.py").read_bytes()).hexdigest(),

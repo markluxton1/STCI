@@ -2,7 +2,6 @@
 id: STCI-R-0040
 type: result
 title: Trace restriction on invariant supported complete-intersection ideals
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -86,4 +85,4 @@ degrees under character lifting, generation of the same height-two ideal,
 actual sole support, and the precise characteristic conclusion of R-0042.
 No computation was needed. The decision supplies no reduction from radical
 invariance or an arbitrary pair to an invariant ideal. The source retains its
-own review scope, and this Result remains provisional.
+own review scope; the reconstructed acceptance covers only the stated composite route.

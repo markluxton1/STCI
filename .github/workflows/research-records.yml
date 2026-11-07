@@ -1,4 +1,4 @@
-name: Canonical research records
+name: Research records
 on:
   pull_request:
     paths:
@@ -28,8 +28,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 -m pip install -r scripts/requirements-research.txt
-      - run: python3 research/computations/validate_records.py
-      - run: python3 research/computations/validate_result_records.py
+      - run: python3 scripts/research.py validate
 
   replay-r0025:
     runs-on: ubuntu-latest

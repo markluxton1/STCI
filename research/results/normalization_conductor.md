@@ -1,7 +1,5 @@
 # Normalization and conductor support
 
-Canonical status: **PROVED under stated hypotheses**
-
 Let \(X\) be an integral hypersurface carrier, \(\nu:S\to X\) its finite normalization, and
 \[
 W=(\nu^{-1}(C))_{\mathrm{red}}

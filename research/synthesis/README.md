@@ -37,8 +37,8 @@ The [characteristic constructions](../supplements/POSITIVE_CHARACTERISTIC_CONSTR
 are a proof home, not merely a contrast in an introduction.
 
 A full proof has one owner. Other chapters explain its application and link it.
-Canonical result records preserve promoted scope; reviewed provisional results,
-conditional mechanisms and counterexamples remain useful without new IDs.
+Result records state exact mathematics and scoped proof reviews. Conditional
+mechanisms and counterexamples retain their full mathematical value.
 The [dependency map](DEPENDENCIES.md) states proved implications separately
 from proposed bridges. Necessary exact computations remain attached to the
 arguments that use them; a historical execution log has no independent role.

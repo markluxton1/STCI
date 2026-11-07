@@ -1,6 +1,6 @@
 # Historical mathematical source compilation
 
-Full original mathematical text retained below. Original hypotheses, failures, qualifications and unresolved cases retain their source status; this compilation is not an independent correctness audit.
+This compilation retains the mathematical hypotheses, failed arguments, qualifications, and unresolved cases. It supplies no new independent audit.
 
 ---
 
@@ -13,7 +13,7 @@ Status: LITERATURE CONNECTION + EXACT REFORMULATION TARGET / NO NEW EXCLUSION YE
 
 ## 1. Audit of the existing conductor theorem
 
-The canonical normalization/conductor result says the following for an integral carrier X with finite normalization nu:S->X and full reduced inverse image
+The normalization/conductor theorem says the following for an integral carrier X with finite normalization nu:S->X and full reduced inverse image
     W=(nu^{-1}(C))_red.
 
 If C has an STCI mate on X, then W must support an effective Cartier divisor on S. If all nonnormality of X is supported on C, then existence of some mate is equivalent to existence of such an effective Cartier divisor A with
@@ -477,7 +477,7 @@ Status: EXACT LOCAL NECESSARY CONDITION / NO GLOBAL EXCLUSION
 
 ## 1. Why no carrier-specific APic computation was made
 
-The current canonical frontier does not contain a surviving explicit integral nonnormal carrier with normalization data sufficient for a Pic/APic lattice computation.
+The current frontier does not contain a surviving explicit integral nonnormal carrier with normalization data sufficient for a Pic/APic lattice computation.
 
 The retained cubic pinch-surface normalization is a control example already excluded because the full inverse image of C contains an isolated point. The normal quartic B1/B2/B3/D frontier has trivial normalization and is a different problem.
 

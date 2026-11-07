@@ -6,8 +6,8 @@ The statements below concern arbitrary such curves. The topological
 and holomorphic assertions require \(k=\mathbf C\); Chow–Witt assertions
 require algebraically closed \(k\) of characteristic different from two.
 The remaining algebraic assertions hold over any algebraically closed
-field. These are provisional mathematical deductions, with the precise
-claims and proofs recorded here; no canonical STCI promotion follows.
+field. These are mathematical deductions, with the precise
+claims and proofs recorded here.
 
 For the fixed characteristic-zero quartic
 \(C_0=[s^4:s^3t:st^3:t^4]\), the unrestricted STCI question remains open.

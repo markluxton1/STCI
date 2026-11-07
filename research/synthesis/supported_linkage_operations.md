@@ -19,7 +19,7 @@ generators, hence a regular sequence. An ACM quotient need not have type
 one and its ideal can have more than two minimal generators. An ACM
 curve on \(Q_3\) therefore supplies useful input, with its actual projection
 and coordinate image still to be checked. The deductions here are reviewed
-provisional construction controls, not a canonical STCI result. The
+construction controls, not an STCI conclusion. The
 unrestricted characteristic-zero question remains open.
 
 The [quadratic-cover account](quadratic_covers_and_conductor_descent.md)
@@ -591,5 +591,4 @@ liaison source, exact support and Rao sequence, invariant-quartic gate,
 corrected CDH hypotheses, BPW radical/height scope, and preservation of the
 existing proofs, with no unresolved material finding. Primary inspection checked HMN Definition2.1/Lemma2.2/Example5.5,
 CDH Proposition3.4 and BPW Theorems5.1–5.2 for the exact applications above.
-No new CAS execution, general operation classification, or canonical
-promotion is claimed.
+No new CAS execution or general operation classification is claimed.

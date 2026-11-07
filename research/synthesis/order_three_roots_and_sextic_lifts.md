@@ -1,13 +1,13 @@
 # Order-three roots: a geometric parameterization and actual sextic lifting
 
-**Status.** Independently reviewed provisional mathematics, including the
+**Status.** Independently reviewed mathematics, including the
 completed four-parameter calculation in section 5.
 All statements here are in characteristic zero. The spectral parameterization
 concerns smooth (2,2) curves with their two fixed ruling coordinates. The
 embedded calculation concerns only
 \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), in the accepted balanced
 normal frame. It covers a specified four-parameter slice, including its
-two-parameter parity subfamily, not every order-three root or arbitrary pairs. No canonical result is promoted.
+two-parameter parity subfamily, not every order-three root or arbitrary pairs.
 
 The [all-power theorem](spectral_pushforward_powers.md) supplies the spectral
 splitting and graded constructions; its [scheme continuation](spectral_determinant_schemes.md)
@@ -447,8 +447,8 @@ the two nonzero all-lifts pairings displayed above.
 
 The existing sources' geometric identifications and full-source coverage are
 reused; checking their matrices here does not rederive that coverage. The
-canonical status of R-0006, R-0007 and the numerical restrictions is unchanged,
-and this contribution itself remains provisional rather than promoted.
+status of R-0006, R-0007 and the numerical restrictions is unchanged,
+and this contribution itself retains the review scope stated here.
 
 For section 5, `review_order_three_slice` independently reconstructed all four
 residues from the ambient vector field, solved the elimination, checked every
@@ -465,6 +465,6 @@ The lead and reviewer executed `order_three_four_parameter_slice.py` with
 SymPy 1.14.0 successfully. The lead also reran `order_three_sextic_slice.py`;
 all parity certificates passed. The temporary interpreter was recreated with
 the existing pinned dependency after the earlier temporary environment had
-expired; no repository dependency was added. Canonical-record validation,
+expired; no repository dependency was added. Record validation,
 local Markdown links including anchors, and whitespace checks passed at
 closeout. No second-root or mate computation is reported.

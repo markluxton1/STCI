@@ -2,7 +2,6 @@
 id: STCI-R-0038
 type: result
 title: Equivariant lifting of graded minimal ideal generators
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -78,10 +77,7 @@ The reviewer reconstructed the proof, compared the declared source,
 and found no blocking mathematical correction or lost contribution.
 No mathematical computation was needed. This acceptance concerns an
 already invariant ideal, not invariant support or the behavior of a
-moving ideal's limit. The Result remains provisional.
+moving ideal's limit. The reconstruction review accepts this proof within its stated scope.
 
-Separately, the source retains its October 31, 2026 independently
-reviewed provisional status, including its characteristic extensions.
-That inherited source review is distinct from the reconstruction
-decision above. The composite trace corollary STCI-R-0040 has a separate
+Separately, the source review of the characteristic extensions is distinct from the reconstruction decision above. The composite trace corollary STCI-R-0040 has a separate
 reconstruction decision recorded in its own Result.

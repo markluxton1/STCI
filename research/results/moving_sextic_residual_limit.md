@@ -2,7 +2,6 @@
 id: STCI-R-0048
 type: result
 title: Endpoint-avoiding residual curves with a full boundary limit
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -100,5 +99,4 @@ The argument is a geometric reduction with necessary exact identities,
 and its characteristic-zero attachment qualification remains explicit.
 Acceptance concerns this residual family, not sole-supported intersections.
 
-The Result remains provisional; independent acceptance of this
-reconstructed route does not promote its status or the source's labels.
+Independent reconstruction review accepts this route within its stated scope.

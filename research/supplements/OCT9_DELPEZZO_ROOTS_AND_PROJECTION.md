@@ -1,6 +1,6 @@
 # October 9 historical mathematics
 
-Full original source text preserved. Hypotheses, counterexamples, unsuccessful arguments, and open questions retain their source status; no new independent audit or theorem promotion.
+This compilation retains the mathematical hypotheses, counterexamples, unsuccessful arguments, and open questions. This compilation supplies no new independent audit.
 
 ---
 
@@ -13,7 +13,7 @@ Status: **PROVED HERE for the displayed family**, characteristic zero.
 Every member below is an integral quartic containing fixed C0 with
 normalization singularity type A3+2A1, and admits no mate of any degree.
 The family does not exhaust every pair or middle-coordinate projection
-in this ADE stratum. No canonical frontier file is edited.
+in this ADE stratum. No frontier file is edited.
 
 ## 1. The normal anticanonical model
 
@@ -726,7 +726,7 @@ now supplies those hypotheses for rational genus-one quartic normalizations
 containing C0; combining the two theorems is justified by that separate
 record. Sectional genus two, higher carrier degrees,
 other normalizations, and the universal STCI question remain outside
-this note's conclusion. No canonical frontier file has been edited
+this note's conclusion. No frontier file has been edited
 by this owner.
 
 ---
@@ -775,7 +775,7 @@ For A3+2A1 take u1-u2,u2-u3,u2+u3,u4-u5,u4+u5. The first root is the middle A3 c
 
 In either case the correction is the nonzero coset of the index-two saturation quotient. Since bZ is in R, b must be even. The conclusion survives this independent audit with no correction to the frozen proof.
 
-No canonical frontier file was changed and no new mathematical computation was run for this bounded audit.
+No frontier file was changed and no new mathematical computation was run for this bounded audit.
 
 ---
 
@@ -786,7 +786,6 @@ No canonical frontier file was changed and no new mathematical computation was r
 **Accepted as a conditional structural theorem in characteristic zero.**
 The audited proof is
 [2026-10-09-session-delpezzo-entire-conductor.md](#source-2026-10-09-session-delpezzo-entire-conductormd).
-No canonical files were edited and no additional agents were used.
 
 The hypotheses are a finite normalization `nu:S -> X` of an integral quartic
 surface in `P3`, with `S` a rational normal degree-four del Pezzo surface
@@ -898,8 +897,7 @@ Date: 2026-10-09. Author: `singular_local_lift`, for
 Status: **PROVED HERE, independently audited**, under the hypotheses in Section 1. This note
 concerns the actual conductor schemes, including reducible and
 nonreduced cases. It does not assume the upstairs conductor is smooth
-or avoids the normalization singularities. No canonical files are
-edited, and no mate or universal STCI conclusion follows from this
+or avoids the normalization singularities. No mate or universal STCI conclusion follows from this
 structural reduction alone.
 
 ## 1. Hypotheses and conclusions
@@ -1360,8 +1358,7 @@ one integral quartic containing the fixed C0 and proves its finite
 birational normalization has four isolated singularities on the lifted
 curve. It also excludes every mate for this particular carrier by an
 explicit fiber obstruction. The singular-normalization frontier as a
-whole and the universal STCI problem remain open. No canonical files
-are edited by this note.
+whole and the universal STCI problem remain open.
 
 ## 1. The normal degree-four del Pezzo surface
 

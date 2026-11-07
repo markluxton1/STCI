@@ -2,7 +2,6 @@
 id: STCI-R-0054
 type: result
 title: Embedded quotient coordinates change endpoint genus and local Gorensteinness
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -98,9 +97,7 @@ formation have separate quantifiers.
 
 ## Review
 
-Source provenance: the source reports independent provisional review,
-including its characteristic-three calculation, with finite arithmetic
-checked separately. The legacy R-0021 keeps its own scope and review.
+The source has a separate review, including its characteristic-three calculation; finite arithmetic was checked separately. The legacy R-0021 keeps its own scope and review.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted the exact R-0054 route after reconstructing
@@ -108,6 +105,4 @@ the endpoint lattices, conductor proof, type-two local algebra and
 fixed-field characteristic distinctions. The reviewer independently
 recomputed the evaluation determinant 1505/7962624, coefficient determinant
 36, truncated nilpotent identity, and characteristic-two and
-characteristic-three reductions. No blocker was found. This is
-reconstructed acceptance and the Result remains provisional. Integral
-flatness and the separate legacy R-0021 proof were outside this review.
+characteristic-three reductions. No blocker was found. Reconstruction acceptance is limited to the stated characteristic cases. Integral flatness and the separate legacy R-0021 proof were outside this review.

@@ -2,7 +2,6 @@
 id: STCI-R-0039
 type: result
 title: Minimal-generator criterion for moving height-two ideals
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -99,10 +98,9 @@ reconstructed the proof, compared the declared source, and found no
 blocking mathematical correction or lost contribution. No mathematical
 computation was needed. No numerical cutoff, nonempty incidence,
 attracting-locus classification, or coverage theorem was accepted.
-Status remains provisional.
+The review covers only the stated criterion and matrix tests.
 
-The source labels itself a geometric research formulation and asserts
-no classification or new canonical theorem. Its framing is distinct
+The source frames this as a geometric research formulation. It asserts no classification. This framing is distinct
 from the independent acceptance of this algebraic route; the surrounding
 attracting-locus questions remain open. This acceptance does not cover
 the composite trace corollary STCI-R-0040, whose separate reconstruction

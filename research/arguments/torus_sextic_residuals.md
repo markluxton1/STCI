@@ -43,8 +43,7 @@ a complete intersection. The statements proved here are
 [R-0047](../results/sextic_eigenpair_residual_controls.md),
 [R-0048](../results/moving_sextic_residual_limit.md),
 [R-0049](../results/sextic_residual_absorption.md), and
-[R-0050](../results/torus_orbit_curve_degree.md). Their status remains
-provisional. Characteristic-zero sole support, arbitrary mixed-weight
+[R-0050](../results/torus_orbit_curve_degree.md). These nine proof routes have independent acceptance within their stated scopes. Characteristic-zero sole support, arbitrary mixed-weight
 sextic pairs, and the supported Hilbert locus are not classified here.
 
 ## Orbit curves and finite quotient degree
@@ -817,8 +816,5 @@ The geometric arguments use necessary exact algebra; the identity
 checks do not independently prove flatness, saturation, or coverage.
 No blanket classification as an intrinsic replacement proof is made.
 
-All nine Results remain provisional despite acceptance of these
-reconstructed routes. This decision neither promotes the source labels
-nor proves a deformation preserving sole support or an unrestricted
-characteristic-zero STCI theorem. The Argument's complete status
-records its finished exposition, not promotion.
+Independent acceptance covers the nine reconstructed routes within their stated scopes. It neither proves a deformation preserving sole support nor establishes an unrestricted characteristic-zero STCI theorem. The Argument's complete status
+records the completed exposition.

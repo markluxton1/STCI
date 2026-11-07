@@ -1,8 +1,8 @@
-# Open-question locator (navigation, not promoted question records)
+# Open-question locator
 
-This is a concise entry point to unresolved implications. It does **not** promote new canonical STCI-Q records or assert that the listed conditions exhaust the unrestricted STCI problem. For exact theorem hypotheses use [results/INDEX.md](../results/INDEX.md); for thematic connections use [MAP.md](../MAP.md).
+This is a concise entry point to unresolved implications. The listed conditions do not exhaust the unrestricted STCI problem. For exact statements and proof reviews use [results/INDEX.md](../results/INDEX.md); for thematic connections use [MAP.md](../MAP.md).
 
-| Interface | Established starting points | Missing implication / completion target |
+| Interface | Mathematical inputs | Missing implication / completion target |
 |---|---|---|
 | Supported punctual comparison defect | [R-0030](../results/local_filtration_comparison_defect.md); [normal-filtration synthesis](../synthesis/normal_filtration_boundary_obstructions.md) | Under literal sole reduced support and generically zero comparison defect, prove punctual defect impossible or construct an actual supported example. Residual-support examples do not suffice. |
 | Actual higher-degree Cartier projection phases | [Q-0001](cartier_projection_models.md), [R-0002](../results/cartier_singleton_lift.md), [R-0004](../results/projection_phase_reduction.md), [R-0017](../results/singleton_plane_conductor_descent.md) | For a surviving specified family, compute admissible phase images, full inverse support and conductor descent; do not treat the singleton classification as exhaustive. |
@@ -10,4 +10,4 @@ This is a concise entry point to unresolved implications. It does **not** promot
 | Residual cycles versus local defects | [R-0019](../results/quasiprimitive_residual_cycles.md), [R-0023](../results/ci_quartic_explicit_residual_geometry.md), [R-0030](../results/local_filtration_comparison_defect.md) | Prove a comparison under explicit finite-flat/curvilinear assumptions or find a counterexample; exceptional vertical cycles alone do not imply residual curves downstairs. |
 | Beyond bounded-index normal carriers | [R-0034](../results/normal_carrier_index_socle.md), [R-0035](../results/normal_carrier_bounded_index_exclusion.md), [R-0036](../results/pointwise_conductor_socle_defect.md) | Identify what can be concluded for higher local index, nonnormal carriers, or cases outside singleton Cartier/conductor hypotheses. |
 
-These are **candidate research questions**, not a ranked agenda. Promote a stable question record only when its exact formulation, applicable hypotheses and non-implications have been checked.
+These are concrete research questions, not a ranked agenda. State the exact formulation, applicable hypotheses, and missing implication when developing one into an Investigation.

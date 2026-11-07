@@ -2,7 +2,6 @@
 id: STCI-R-0050
 type: result
 title: Primitive orbit degrees and finite transverse quotient multiplicities
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -92,5 +91,4 @@ its inseparable-degree qualification, the dense-torus product, finiteness
 from properness, and generic local multiplicities. Acceptance makes no
 inference from quotient data alone to boundary or endpoint geometry.
 
-The Result remains provisional; independent acceptance of this
-reconstructed route does not promote its status or the source's labels.
+Independent reconstruction review accepts this route within its stated scope.

@@ -56,7 +56,7 @@ computation. Reuse review of unchanged inputs. Independently review material
 new deductions, changed proofs and consequential preservation decisions.
 Retain useful mathematics and compact support, not a new administrative
 hierarchy. Follow [authority](AUTHORITY.md) and [contribution](CONTRIBUTING_AGENT.md)
-rules for status and promotion.
+rules for scoped proof review and evidence.
 
 
 ## What the combined work changes
@@ -108,7 +108,7 @@ for specified finite images, endpoint descent, and source-space tests. The
 reusable [purity lemma](results/pure_curve_degree_exhaustion.md) explains the
 extra hypothesis that turns inclusion plus degree exhaustion into equality;
 the [generator criterion](results/moving_ideal_generator_criterion.md) explains
-why two independent sections are insufficient. These reviewed provisional
+why two independent sections are insufficient. These independently reviewed
 inputs support bounded investigations and require their literal hypotheses.
 
 Choose a next test by what it can change: an actual supported two-generator

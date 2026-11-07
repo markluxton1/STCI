@@ -4,12 +4,12 @@ Let \(k\) be algebraically closed of characteristic zero, let
 \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), and suppose that
 \(Z=V(F_a,G_b)\) is a proper homogeneous CI with \(Z_{\rm red}=C\).
 Write \(H=\mathcal O_Z(1)\), \(c=a+b-4\), and \(J=\ker(\mathcal O_Z\to\mathcal O_C)\).
-These independently reviewed **provisional** deductions apply to every
+These independently reviewed deductions apply to every
 such pair. They constrain a hypothetical pair without excluding or
 constructing one. The exact issue is extension of the missing coordinate
 through nilpotent structure, not the abstract rationality of the support.
 
-**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed provisional deductions, with no canonical promotion; no computation or inherited certificate rerun was needed.
+**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed deductions; no computation or inherited certificate rerun was needed.
 
 ## A unique ample root, without a pencil
 

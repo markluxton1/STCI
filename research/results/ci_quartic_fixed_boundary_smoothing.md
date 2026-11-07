@@ -2,7 +2,6 @@
 id: STCI-R-0024
 title: "Independent residual-node smoothing at fixed boundary"
 kind: theorem
-status: proved
 scope:
   characteristic: "0"
   curve: "fixed C0"
@@ -17,7 +16,6 @@ evidence:
   - "research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json"
 independent_audits:
   - "research/synthesis/fixed_boundary_smoothing.md"
-accepted_in: "research/results/ci_quartic_fixed_boundary_smoothing.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -50,4 +48,4 @@ No explicit polynomial or rational coefficient arc, nor universal theorem for al
 
 ## Current proof home
 
-The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/fixed_boundary_smoothing.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new inherited CAS execution was required.
+The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/fixed_boundary_smoothing.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.

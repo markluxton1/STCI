@@ -31,9 +31,7 @@ generator criteria work in every characteristic, while the invariant-CI
 obstruction has a different characteristic boundary.
 
 This strategy studies actual intersections and their embedded multiple
-structures. It can inform construction or obstruction independently. The
-cataloged pilot Results are reviewed provisional mathematics; their review
-does not promote them or resolve unrestricted STCI.
+structures. It can inform construction or obstruction independently. The listed Results have independent reviews of the exact scopes stated in each record. These reviews do not resolve unrestricted STCI.
 
 ## Available results
 

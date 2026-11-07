@@ -1,6 +1,6 @@
 # A sharp ruled-surface degree criterion in every characteristic
 
-**Status:** independently reviewed mathematical contribution; no new canonical result is promoted.
+**Status:** independently reviewed mathematical contribution.
 
 Let \(k\) be an algebraically closed field of arbitrary characteristic.
 Let \(M\) be a smooth projective surface and \(L\) a nef Cartier divisor

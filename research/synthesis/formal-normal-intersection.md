@@ -1,6 +1,6 @@
-# Formal normal geometry and residual intersections: provisional research interface
+# Formal normal geometry and residual intersections: research interface
 
-**Status:** exploratory synthesis, not a theorem or a change to canonical authority. This note supplements [Chapter 2](02-two-surfaces.md), [Chapter 3](03-infinitesimal-geometry.md), and the [dependency map](DEPENDENCIES.md). For precise claims use [canonical results](../results/INDEX.md) and [authority rules](../AUTHORITY.md).
+**Status:** exploratory synthesis, not a theorem or a change to authority. This note supplements [Chapter 2](02-two-surfaces.md), [Chapter 3](03-infinitesimal-geometry.md), and the [dependency map](DEPENDENCIES.md). For precise claims use [results](../results/INDEX.md) and [authority rules](../AUTHORITY.md).
 
 ## 1. Setup and objects (see the primary treatments)
 
@@ -8,7 +8,7 @@ For the fixed characteristic-zero rational quartic, begin with a proper intersec
 
 The normal cone, the full I-initial ideal (including cancellation-generated equations), and the strict-transform intersection on the blowup are **three different constructions**. Their precise definitions and the limitations on comparing them are in [Chapter 2](02-two-surfaces.md), [Chapter 3](03-infinitesimal-geometry.md), and [Normal-filtration defects](normal_filtration_boundary_obstructions.md). No identification between these objects is assumed here.
 
-This note's distinct purpose is to develop the **valuation and specialization research interface**, which is still provisional.
+This note's distinct purpose is to develop the **valuation and specialization research interface**, whose open questions are stated below.
 
 The global numerical filter is independent of the formal initial ideal: if the pair is proper with sole reduced support \(C\), then \(4/\gcd(4,d)\mid e\) by Bézout. If residual degree is nonzero, this divisibility need not hold. Neither the formal local length nor the valuation polygon by itself proves the residual degree is zero.
 
@@ -36,7 +36,7 @@ The support of the comparison defect lies where both carriers are singular along
 
 Weighted valuations require the integral coefficient lattice at each point, not only the generic algebra. In the family (x²,y²+t^r x), the integral weighted initial ideals distinguish the boundary exponent r; after inverting t, the generic length remains four. The Smith-form determinant index of a normal-degree relation matrix records torsion missed by entry valuations alone. The calculation and frame-change limitations are in [Weighted initials and normal boundary](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#weighted-initials-normal-boundary). These invariants can constrain special-point behavior but do not alone imply a global residual curve.
 
-## 4. Where this fits among established results
+## 4. How the comparison lemmas fit together
 
 For the scoped root, graded-relation and actual-CI bridge theorems R-0005–R-0009, use [Chapter 3](03-infinitesimal-geometry.md). For local initial-ideal comparison and saturation, use [Normal-filtration defects](normal_filtration_boundary_obstructions.md). For proper residual cycles, examples and global jet obstructions, use [Residual intersections and jets](residual_intersections_and_jets.md). For fixed-carrier normalization and conductor descent, use [Chapter 4](04-carriers.md) and [Carrier/socle interfaces](carrier_conductor_socle_interfaces.md). The quartic-carrier exclusion [R-0001](../results/quartic_carrier_exclusion.md) remains closed.
 
@@ -147,7 +147,7 @@ This explains why a complete degree-\(3m\) recursion is useful for finite experi
 
 For an actual proper pair F,G, begin with its generic colength and full I-initial ideal over K, then compute the horizontal exceptional directions. At each special point, record the conormal frame transition and the *integral* weighted-initial lattice, including cancellation-generated relations and any torsion. If a curvilinear saturated flag is available, apply the scoped residual-zero-cycle formulas; otherwise record precisely why the hypotheses fail. Next test whether the candidate local jets lie in the image of the global degree-d and degree-e equation spaces, using the exact power theorem when its degree range applies. Finally compute the projective residual cycle, not just the exceptional support.
 
-A negative computation should identify which step fails and whether the failure is stable across a whole parameter family. This protocol is provisional: it does not assert that passing every finite test yields global equations or that failure of an isolated test excludes all STCI pairs.
+A negative computation should identify which step fails and whether the failure is stable across a whole parameter family. This protocol does not assert that passing every finite test yields global equations or that failure of an isolated test excludes all STCI pairs.
 
 ## 14. Why marked trisecant and ruling tests did not force a contradiction
 
@@ -161,7 +161,7 @@ The [coefficient-valuation study](coefficient_valuations.md) distinguishes the i
 
 The same study gives a warning from the prescribed mu4 family: even knowing scalar values of an ideal for all selected weights does not in general recover transverse length. Cancellation, residue classes, and higher initials matter. Consequently the useful object is a filtered ideal or an initial algebra together with its integral model and frame transitions, not a numerical valuation score.
 
-This is a provisional methodological distinction, not an assertion that a canonical valuation invariant already decides residual support.
+This is a methodological distinction, not an assertion that a canonical valuation invariant already decides residual support.
 
 ## 16. Family-level failure analysis
 

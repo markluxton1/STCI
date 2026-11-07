@@ -2,7 +2,6 @@
 id: STCI-R-0055
 type: result
 title: A flat genus-twenty-eight collision of compactified orbit families
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -73,15 +72,11 @@ torus Hilbert limits.
 
 ## Review
 
-Source provenance: the retained source reports provisional independent
-review of its collision argument. The explicit relative closure
-justification here was reviewed separately.
+The source has a separate review of its collision argument. The explicit relative closure justification here was also reviewed.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted the exact R-0055 route after reconstructing
 relative weighted algebra closure, flat endpoint cokernels, image base
 change and the constant Hilbert polynomial. The weighted closure argument
 was checked also on semisimple fibers; the coefficient determinant was
-independently recomputed. No blocker was found within this characteristic-
-zero family. This is reconstructed acceptance; the Result remains
-provisional and does not assert a deformation of the fourth-root CI.
+independently recomputed. No blocker was found within this characteristic-zero family. The reconstruction review accepts this route within its stated scope. It does not assert a deformation of the fourth-root CI.

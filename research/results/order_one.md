@@ -1,8 +1,6 @@
 # Order-one structure
 
-Canonical status: **PROVED under the stated characteristic-zero rational-quartic/BF hypotheses**
-
-Let \(C\subset\mathbf P^3\) be a smooth nondegenerate rational quartic and suppose an STCI pair has at least one equation of generic normal order one along \(C\). The generic transverse algebra is curvilinear and the saturated multiple structure is quasiprimitive. Write
+Over an algebraically closed field of characteristic zero, let \(C\subset\mathbf P^3\) be a smooth nondegenerate rational quartic and suppose an STCI pair has at least one equation of generic normal order one along \(C\). The generic transverse algebra is curvilinear and the saturated multiple structure is quasiprimitive. Write the saturated Bănică–Forster layers as
 \[
 E_i=L^i(D_i),\qquad L=O_{\mathbf P^1}(e-7).
 \]
@@ -20,15 +18,11 @@ If \(F_a\) is the equation with nonzero generic first-normal symbol, the numeric
 
 These statements do not apply to the entirely-thick branch.
 
-## Provenance
+## Proof sources and open questions
 
-Primary proof record:
-- \`../supplements/OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-uniform-order-one-frontier\`
-- \`../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit\`
-- \`../notes/2026-10-05-mumford-normal-bound.md\`
-- \`../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-primitive-quadruple-audit\`
+The [order-one degree argument](../supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-uniform-order-one-frontier) uses [saturated duality](../supplements/CURVILINEAR_GENUS_AND_DEFECTS.md#2-direct-proof-of-the-saturated-duality-and-effective-defects) and the [numerical normal-sheaf inequality](../synthesis/numerical_surface_pullback.md). See also the [multiplicity-six pairing calculation](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit) and [primitive-fourth calculation](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-primitive-quadruple-universal).
 
-Current frontier: \`../open/jet_condition_framework.md\` and \`../open/mf6.md\`.
+Open questions concern [jet discrepancies](../open/jet_condition_framework.md) and [multiplicity six](../open/mf6.md).
 
 ## Historical jet-discrepancy comparison (scope-limited)
 

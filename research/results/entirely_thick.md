@@ -1,7 +1,5 @@
 # Entirely-thick numerical restrictions
 
-Canonical status: **PROVED necessary conditions; general branch remains open**
-
 Let two defining surfaces of degrees \(a,b\) have exact generic normal orders \(p,q\) along a smooth rational quartic \(C\), with \(p,q\ge2\). On the blowup of \(\mathbf P^3\) along \(C\), effectivity of the proper intersection cycle on the exceptional \(\mathbf P^1\times\mathbf P^1\) gives
 \[
 ab\ge4pq,
@@ -22,8 +20,6 @@ Thus \((\alpha,\beta)=(3,3)\) is impossible. On the equality boundary \((3,4)\),
 
 These restrictions do not exclude the entirely-thick branch. Fixed first tangent forms can support arbitrarily high transverse contact, so a successful continuation needs higher valuation/Rees data.
 
-## Provenance
+## Proof and remaining question
 
-- \`../supplements/OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-session-thick-independent-audit\`
-
-Active continuation: \`../open/entirely_thick.md\`.
+See the [exceptional-cycle proof](../synthesis/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction) and the [entirely-thick research question](../open/entirely_thick.md).

@@ -1,8 +1,8 @@
 # Spectral determinant schemes and universal graded families
 
-**Status.** Independently reviewed provisional extension of the
+**Status.** Independently reviewed extension of the
 [power theorem](spectral_pushforward_powers.md).
-The base checkpoint is `c491ec2`. No canonical promotion or actual embedded
+The base checkpoint is `c491ec2`. No actual embedded
 realization is asserted. Throughout k is algebraically closed, in any
 characteristic, and n>=2.
 
@@ -169,8 +169,7 @@ maps consequently split locally in each degree, showing that the
 graded pieces are locally free, also over nonreduced parameter bases.
 They vanish above degree n, and their total rank is 2n.
 
-This is the parameter-family form of the promoted
-[R-0008 quotient-ideal construction](../results/spectral_root_picard_criterion.md).
+This is the parameter-family form of the [R-0008 quotient-ideal construction](../results/spectral_root_picard_criterion.md).
 It is compatible with base change. The kernel line avoids a global choice
 of eigenvector; forgetting that line would discard gluing data. The
 construction takes place on the normal-bundle model and does not identify
@@ -197,4 +196,4 @@ boundary, and a classification of total torsion-divisor geometry when p|n
 remain beyond the present results. Actual embedded lifting is a separate
 problem; the [fixed order-three example](spectral_pushforward_powers.md#6-testing-this-example-in-the-actual-embedding)
 already fails its first ambient test despite lying on this positive graded
-family. No canonical promotion or projective realization follows.
+family. No projective realization follows.

@@ -2,7 +2,7 @@
 
 The first part gives one complete proof of projective normal flatness through saturated Gorenstein duality and a degree-zero resultant, including its balanced spectral interpretation and pure-power corollary. The local Hilbert-envelope proof has its own owner in [Normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md). The second part concerns a different object: all-orders embedded formal surfaces along reduced movement-two roots.
 
-[R-0010](../results/saturated_first_relation_normal_flatness.md) governs the canonical saturated-first-relation result. The arbitrary-conormal and characteristic-free extension is retained as an independently reconstructed source-level theorem; this editorial consolidation does not enlarge the canonical record. [R-0018](../results/regular_singular_root_formal_obstruction.md) governs the regular-formal-surface exclusion. Neither result supplies a theorem for arbitrary actual equations.
+[R-0010](../results/saturated_first_relation_normal_flatness.md) governs the saturated-first-relation result. The arbitrary-conormal and characteristic-free extension is retained as an independently reconstructed source-level theorem; this editorial consolidation does not enlarge the record. [R-0018](../results/regular_singular_root_formal_obstruction.md) governs the regular-formal-surface exclusion. Neither result supplies a theorem for arbitrary actual equations.
 
 <a id="2026-10-19-filtered-saturated-duality-moving-purepower-bridge"></a>
 <a id="2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit"></a>
@@ -43,7 +43,7 @@ on `C` satisfies
     O_Z(s)=pi^*N.                                       (3)
 
 Thus an everywhere-coprime second **quotient** relation exists in the
-sense of promoted [STCI-R-0008](../results/spectral_root_picard_criterion.md).
+sense of [STCI-R-0008](../results/spectral_root_picard_criterion.md).
 This is an implication from actual filtered geometry to the accepted
 spectral criterion; it does not claim to lift an arbitrary abstract
 graded family back to an actual thickening.
@@ -482,11 +482,11 @@ and it does not assume everywhere coprimality in advance.
 
 Date: 2026-10-19. Author: `singular_roots` research agent.
 
-Status: the regular-formal-surface statement is promoted in [R-0018](../results/regular_singular_root_formal_obstruction.md); its additional observations retain source-level scope.
+Status: the regular-formal-surface statement is stated in [R-0018](../results/regular_singular_root_formal_obstruction.md); its additional observations retain source-level scope.
 The separate audits are
 [the smoothing audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#source-2026-10-19-regular-singular-root-smoothing-auditmd) and
 [the equal-slope two-component audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#source-2026-10-19-regular-reducible-root-independent-auditmd).
-This note does not promote a canonical result, alter an accepted theorem, or
+This note does not
 settle the singular-formal-surface case.
 
 ## 1. Exact scope and accepted premises
@@ -808,7 +808,6 @@ numerically equivalent curve on `T`.
 The linked independent audits both record PASS for the fixed-C0
 conditional statements. The degree-e observation in Section 9 remains
 separately scoped and is not included in the reported fixed-C0 theorem.
-No canonical record is edited or promoted by this note.
 
 ## Characteristic scope of descent, duality and formal lifting
 
@@ -828,8 +827,8 @@ intersection-length, completion-transitivity, and companion-containment
 steps were separately checked by `regular_reducible_audit/local_check`.
 
 Status: **PASS for the precise conditional nonexistence statement below.**
-This is an independent review note, not a promoted result record. No accepted
-mathematics or canonical metadata is changed. In particular, this note does not
+This is an independent review note, not a result record. No accepted
+mathematics or metadata is changed. In particular, this note does not
 apply the smooth-root statement STCI-R-0005 to a singular root.
 
 ## 1. Exact statement and inputs
@@ -1039,7 +1038,7 @@ nonreduced roots, or any actual complete intersection without a separate
 bridge to this exact formal-lift setting. In particular it supplies no
 unrestricted characteristic-zero STCI conclusion.
 
-Authority status remains **reviewed proposal/evidence, not promoted**.
+Independent review has the scope stated above.
 No new computation is needed for the argument, and no finite checks or
 load-only CAS tests are offered as a substitute for the geometric proof.
 
@@ -1057,7 +1056,7 @@ The new smoothing step is valid. It closes the reduced singular-root case
 only when the resulting formal surface is regular at every point of the
 whole root. The argument does not establish that an arbitrary all-orders
 Cartier lift, or an arbitrary actual complete intersection, has this
-regularity property. No canonical result has been changed by this audit.
+regularity property. No result has been changed by this audit.
 
 ## 1. Exact scope and authority
 
@@ -1074,7 +1073,7 @@ Let `r>=2`, and let `Z` be a **reduced effective Cartier divisor** of class
 `Z` on every exceptional neighborhood define a formal surface `Vhat` that
 is **regular along all of `Z`**. Then such a lift does not exist.
 
-The promoted input [STCI-R-0005](../results/smooth_root_formal_obstruction.md)
+The input [STCI-R-0005](../results/smooth_root_formal_obstruction.md)
 concerns a smooth full root; its [accepted independent audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
 supplies the algebraic branch, ruled-model degree, and plane-section
 arguments used as premises here. This review checks their new interface
@@ -1294,6 +1293,6 @@ The reviewer independently reconstructed the normalization and smoothing
 interfaces and both cohomology calculations. A separate subreviewer,
 `smoothing_check`, checked the Hilbert universal-family argument and the
 primary deformation, relative Cartier, and semicontinuity references.
-No exact-CAS calculation, inherited proof rerun, canonical promotion,
+No exact-CAS calculation, inherited proof rerun,
 or git operation was used. The regularity boundary is unresolved by
-this argument and must survive any later result promotion.
+this argument and remains a limitation of the argument.

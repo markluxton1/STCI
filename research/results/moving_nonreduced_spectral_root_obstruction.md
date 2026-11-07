@@ -2,7 +2,6 @@
 id: STCI-R-0011
 title: Moving nonreduced spectral roots obstruct Picard descent
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "rational base P1 with full finite-flat root divisor in P1 x P1"
@@ -16,7 +15,6 @@ evidence:
   - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
 independent_audits:
   - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
-accepted_in: "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -39,4 +37,4 @@ STCI-R-0008 provides the abstract graded Picard-descent interface. STCI-R-0010 s
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

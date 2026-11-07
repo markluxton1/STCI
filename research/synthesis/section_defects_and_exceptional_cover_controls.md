@@ -1,12 +1,12 @@
 # Section defects and exceptional-cover controls
 
 These two mechanisms test proposed implications in the global STCI
-problem. Both are independently reviewed **provisional** results; neither
+problem. Both are independently reviewed results; neither
 is an exclusion or construction for arbitrary homogeneous pairs on the
 fixed quartic. Each retains an exact geometric object that scalar
 normal-degree or genus data would lose.
 
-**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed provisional deductions, with no canonical promotion; no computation or inherited certificate rerun was needed.
+**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed this replacement and its explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed deductions; no computation or inherited certificate rerun was needed.
 
 ## The specified missing coordinate and the graph-normal extension
 
@@ -14,7 +14,7 @@ Work in characteristic zero with
 \(C=[s^4:s^3t:st^3:t^4]\subset P=\mathbf P^3\), \(I=\mathcal I_C\),
 \(H=\mathcal O_P(1)\), \(E=I/I^2=\mathcal O_{\mathbf P^1}(-7)^2\), and
 \(X=V(I^2)\), the first ordinary infinitesimal neighborhood. The balanced
-conormal is the promoted input [R-0020](../results/quartic_conormal_characteristic_jump.md).
+conormal is the input [R-0020](../results/quartic_conormal_characteristic_jump.md).
 Let \(e=s^2t^2\in H^0(C,H|_C)\), the omitted fifth coordinate of the
 rational normal quartic
 

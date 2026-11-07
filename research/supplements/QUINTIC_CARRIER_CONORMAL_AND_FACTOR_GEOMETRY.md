@@ -7,7 +7,7 @@ The conormal, factorization, residual-divisor, and low-pole-space analyses impos
 ---
 
 
-Permanent mathematical supplement. The following five complete analyses retain their exact hypotheses, arguments, computations, limitations and corrections. Their constituent proofs are organized by subject rather than by chronological authority; no conditional result is promoted by inclusion.
+Permanent mathematical supplement. The following five complete analyses retain their exact hypotheses, arguments, computations, limitations and corrections. Their constituent proofs are organized by subject rather than by chronological authority.
 
 ---
 
@@ -19,7 +19,7 @@ Date: 2026-10-11. Author: `quintic_conormal_audit`, delegated by
 `oct11_quintic_structural_frontier`.
 
 Status: **DIRECT PROOF AUDIT; NECESSARY STRUCTURAL REDUCTIONS**. No
-quintic-carrier exclusion is claimed. No canonical frontier file was edited.
+quintic-carrier exclusion is claimed. No frontier file was edited.
 The scope is the fixed smooth curve
 
     C=C0=[s^4:s^3t:st^3:t^4] in P3,
@@ -385,7 +385,7 @@ outside any claimed exclusion here.
 Date: 2026-10-11. Auditor: `oct11_quartic_assembly_audit`.
 Status: **DIRECT STRUCTURAL REDUCTION ACCEPTED**, under the actual
 normalization and endpoint-projection hypotheses below. This is not a
-quintic-carrier exclusion. No frozen note, canonical record or existing
+quintic-carrier exclusion. No frozen note, record or existing
 integrity seal is edited by this audit.
 
 The owner source is the [endpoint quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit).

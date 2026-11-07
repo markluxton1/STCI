@@ -365,15 +365,14 @@ blocking mathematical correction was found. These are intrinsic
 geometric and algebraic proofs; no mathematical computation or
 coordinate certificate was needed. Acceptance supplies no uniform
 \(N\), classification, nonempty incidence, numerical cutoff, or
-quotient comparison. All Result statuses remain provisional.
+quotient comparison. Each Result review is limited to its stated proof scope.
 
 The additional section "Invariant supported complete intersections" and its
 composite route for STCI-R-0040 received separate independent reconstruction
 review after the trace proof R-0042 was reviewed. That decision checked the
 unchanged ideal and ordinary degrees, properness, sole support, and the exact
 characteristic conclusion. It uses no computation and supplies no arbitrary-pair
-reduction. The Argument is complete as an exposition; all Results remain
-provisional.
+reduction. The Argument is complete as an exposition.
 
 Source support for the direct sections is the
 [Hilbert-boundary account](../synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
@@ -381,10 +380,7 @@ the
 [attracting-locus formulation](../synthesis/torus_attracting_strata_and_generator_incidence.md),
 and the eigenvector-lifting paragraph of
 [positive movement](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
-The first source records an October 31 scope review, and the third
-records an independent provisional review of its proof and
-characteristic extensions. Those inherited decisions do not accept
-this reconstruction. The first source's surrounding trace obstruction
+The first source records an October 31 scope review, and the third records a separate review of its proof and characteristic extensions. Those reviews are distinct from this reconstruction review. The first source's surrounding trace obstruction
 has characteristic-zero framing; the bounded geometric proof here
 works in every characteristic, with that scope explicitly included
 in the reconstruction review. The attracting-locus source is a research formulation, so

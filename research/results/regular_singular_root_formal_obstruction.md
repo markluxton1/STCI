@@ -2,7 +2,6 @@
 id: STCI-R-0018
 title: "Regular formal surfaces cannot lift reduced movement-two singular roots"
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "fixed C0 and exceptional surface of its blowup"
@@ -17,14 +16,13 @@ evidence:
 independent_audits:
   - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
   - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
-accepted_in: "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
 limitations:
   - "Regularity of the entire formal lifted surface is essential, not automatic from Cartier lifting."
   - "No exclusion of singular formal surfaces, finite lifts, or arbitrary actual STCI equations is obtained."
-  - "The suggested degree-e generalization is not part of this promotion."
+  - "The suggested degree-e generalization is not included in this result."
 ---
 
 # Regular formal surfaces cannot lift reduced movement-two singular roots
@@ -46,8 +44,8 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 
 - Regularity of the entire formal lifted surface is essential, not automatic from Cartier lifting.
 - No exclusion of singular formal surfaces, finite lifts, or arbitrary actual STCI equations is obtained.
-- The suggested degree-e generalization is not part of this promotion.
+- The suggested degree-e generalization is not included in this result.
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

@@ -73,7 +73,7 @@ e1/z}
 ]
 off the reduced curve. Freezing (w=1/z) destroys higher-order information contributing to the obstruction. Calculations using a frozen opposite-chart coordinate must not be reused unless separately corrected.
 
-Several exploratory slice/factorization claims from the research conversation were discarded during this audit and are not promoted here.
+Several exploratory slice/factorization claims from the research conversation were discarded during this audit and are not used here.
 
 ## 4. Three-parameter b=0 family — PROVED
 
@@ -511,7 +511,7 @@ Using generic pivot columns (0,1,2,3,4,5,6,8,10,13,14,16) and coefficient rows 0
 
 Hence on D(d(b+2)Delta) one has the explicit rational kernel parametrization N=(-P^(-1)Q; I_6), after ordering pivot and free columns, and reduced obstruction R=M^(2)N.
 
-The symbolic entries of R have not yet been promoted to durable formula data. The next calculation should fraction-free reduce this R, factor its entries/minors, and seek a small rank certificate.
+The symbolic entries of R have not yet been recorded as durable formulas. The next calculation should fraction-free reduce this R, factor its entries/minors, and seek a small rank certificate.
 
 ## P-045 is a lower first-order rank stratum
 
@@ -538,7 +538,7 @@ Durable verifier: research/computations/verify_e2_quartic_incidence.py.
 - Global quartic-incidence classification: **OPEN**.
 - Elimination of the full e=2 branch: **OPEN**.
 
-No theorem-level claim is promoted here.
+
 
 
 ## 7. Sharpening on the dx=1 test bed

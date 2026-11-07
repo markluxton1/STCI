@@ -1,6 +1,6 @@
 # first relation and spectral roots
 
-Complete mathematical dossier preserving proofs, counterexamples, assumptions, conditional claims and unresolved questions. Source headings below organize the arguments, without promoting results to canonical authority.
+Complete mathematical dossier preserving proofs, counterexamples, assumptions, conditional claims and unresolved questions. Source headings below organize the arguments, with their proof and review scopes stated below.
 
 ---
 
@@ -10,9 +10,8 @@ Complete mathematical dossier preserving proofs, counterexamples, assumptions, c
 
 Date: 2026-10-19.
 Author: `saturation_defects` research worker.
-Status: **provisional structural theorem package; independent audit PASS**.
+Status: **structural theorem package; independent audit PASS**.
 Independent reconstruction: [defect audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-independent-audit).
-No canonical result is edited or promoted.
 
 ### 1. Scope, dependencies, and proposed contribution
 
@@ -49,7 +48,7 @@ The local exact-order normal-flatness lemma is independently reviewed
 supporting evidence in
 [the local theorem](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness)
 and [its audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit);
-it is not itself a separate promoted result. Its codimension-two
+it is not itself a separate result. Its codimension-two
 Gorenstein Hilbert-function drop input is explicitly identified there.
 
 The elementary torsion upper bound in section 3 below is inherited in
@@ -441,7 +440,7 @@ quotient relation, all resultant weights and signs, full-root
 nonzerodivisor behavior, and the implication from a zero-degree
 component section to triviality on its double. Its denominator
 qualification at `g=1` has been incorporated in (18). The local example
-must not be promoted to global projective existence. The full generic
+does not imply global projective existence. The full generic
 initial CI, actual lci, and unique-support hypotheses remain explicit.
 
 
@@ -453,22 +452,22 @@ initial CI, actual lci, and unique-support hypotheses remain explicit.
 
 Date: 2026-10-19.
 Reviewer: `saturation_defects/defect_formula_audit`.
-Status: **PASS within the exact hypotheses. Reviewed proposal, not a promoted result.**
+Status: **PASS within the exact hypotheses. Review scope is stated below.**
 
 Proposal audited: [first-relation defect investigation](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-investigation).
-No accepted proof, inherited computation, or canonical result record was modified or rerun.
+No accepted proof, inherited computation, or result record was modified or rerun.
 
 ### 1. Exact scope and authority
 
 The setting is an actual locally complete-intersection thickening `Y` of a smooth connected projective curve `C` in a smooth threefold, over an algebraically closed field of characteristic zero, with **unique reduced support** `Y_red=C`. Write `J=I_C O_Y`, `E=N_C^*`, and assume the **full** generic ordinary initial algebra is the coprime binary CI of degrees `2<=r<s`.
 
-The primitive saturation `R` of the actual first relation `K_r` is a line subbundle, but the actual kernel is allowed to be `K_r=R(-D)` for a nonzero effective divisor `D`. This allowance is essential: it prevents direct application of promoted [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) to the entire curve.
+The primitive saturation `R` of the actual first relation `K_r` is a line subbundle, but the actual kernel is allowed to be `K_r=R(-D)` for a nonzero effective divisor `D`. This allowance is essential: it prevents direct application of [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) to the entire curve.
 
 The accepted saturated-duality input is the construction and proof in [the filtered-duality note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge), section 3, as independently checked in [its audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit), section 2. That lemma does not require a saturated first relation. It uses actual Gorenstein CM duality, purity, unique support, and generic graded Gorenstein symmetry.
 
-The local exact-order normal-flatness theorem used for the support statement and small-gap conclusion is [the reviewed local theorem](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness), with [its separate independent audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit). It remains supporting evidence rather than a separately promoted result record. The new note identifies this authority distinction correctly. Its classical planar Gorenstein Hilbert-function drop input is accepted as stated there; this audit does not re-prove an inherited theorem.
+The local exact-order normal-flatness theorem used for the support statement and small-gap conclusion is [the reviewed local theorem](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness), with [its separate independent audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit). Its classical planar Gorenstein Hilbert-function drop input is accepted as stated there; this audit does not re-prove an inherited theorem.
 
-The doubled-positive-divisor lemma is accepted evidence for promoted [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md). The apolar pure-power calculation is accepted evidence for promoted [STCI-R-0009](../results/moving_purepower_boundary.md). The general defect package and its new numerical consequences remain proposals.
+The doubled-positive-divisor lemma is accepted evidence for [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md). The apolar pure-power calculation is accepted evidence for [STCI-R-0009](../results/moving_purepower_boundary.md). The general defect package and its new numerical consequences remain proposals.
 
 ### 2. Early saturation and the actual maps
 
@@ -644,7 +643,7 @@ The initial audit requested one denominator qualification: `r e/binom(g,2)` is u
 
 The exact kernel/saturation maps, sharper upper budget, corrected socle identity, second quotient-line degree, effective resultant degree, full-root payment, pure-power strengthening, small-gap consequence, and exact gap-three filtration example pass independent reconstruction. The denominator qualification identified during review has been incorporated in the proposal.
 
-The note still concerns actual lci thickenings with unique smooth support and a **full generic coprime binary CI** initial algebra. Generic initial ideals with additional generators, intersections with residual reduced components, reduced-root ambient lifting, and global realization of defective models are not settled. No finite computation, local example, vertical exceptional feature, or new necessary inequality is equated with a global existence or nonexistence theorem. The package remains a reviewed proposal pending the repository's canonical promotion procedure.
+The note still concerns actual lci thickenings with unique smooth support and a **full generic coprime binary CI** initial algebra. Generic initial ideals with additional generators, intersections with residual reduced components, reduced-root ambient lifting, and global realization of defective models are not settled. No finite computation, local example, vertical exceptional feature, or new necessary inequality is equated with a global existence or nonexistence theorem. The package has the review scope stated above.
 
 
 ---
@@ -655,8 +654,7 @@ The note still concerns actual lci thickenings with unique smooth support and a 
 
 Date: 2026-10-19. Author: primary research agent.
 Status: **independently reviewed proposal; audit PASS**. The review
-reconstructed the full argument and component corollaries. This file
-does not promote a canonical result.
+reconstructed the full argument and component corollaries.
 
 ### 1. Exact question, accepted inputs, and scope
 
@@ -871,8 +869,7 @@ STCI application was previously established.
 Independent reconstruction and failure tests are recorded in
 [the separate audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-independent-audit).
 The review outcome is PASS, including the component bound and the
-movement-two dichotomy. This remains an unpromoted research proposal;
-canonical promotion is a separate repository action.
+movement-two dichotomy. The proof and review scopes are stated above
 
 The most valuable next bridge is to derive uniformity, or a sufficiently
 controlled replacement for it, from the actual filtered Gorenstein
@@ -895,7 +892,7 @@ including its component arithmetic, movement-two dichotomy, and integral
 `(1,k)` component assertion.
 
 Status: **PASS as a new, scope-limited mathematical argument.** This audit
-is evidence for a proposal; it does not promote a canonical result or edit
+is evidence for a proposal; it does not alter
 an accepted result. No inherited theorem or certificate was rerun.
 
 ### 1. Exact claims reviewed and authority used
@@ -925,7 +922,7 @@ second relation to
     O_Z(0,s) = pi^*O_P1(n) = O_Z(n,0)
 
 for an integer `n`. Its criterion includes nilpotents and does not require
-a global second polynomial line. I read the canonical R-0008 record and
+a global second polynomial line. I read the R-0008 record and
 its preserved independent spectral audit before using this premise.
 
 I also read [STCI-R-0009](../results/moving_purepower_boundary.md) and its
@@ -1163,7 +1160,7 @@ explains why this scope cannot be broadened by the displayed proof.
 
 ### 6. Novelty, exact frontier impact, and verdict
 
-Within the relevant canonical records and their linked evidence, R-0009
+Within the relevant records and their linked evidence, R-0009
 excludes everywhere-coprime second relations when the full root is a
 pure multiple of one moving graph. The new consequence (B) includes
 that rational-base case and additionally treats mixed roots with at
@@ -1179,11 +1176,9 @@ quantifies the actual degeneration divisor and defect cost, while the
 present argument proves neither of those assertions.
 
 No claim of priority in the external mathematical literature is made.
-The new claim should enter as a reviewed proposal with this audit as
-evidence. It is not currently a promoted result merely because this
-audit passes.
+This audit independently checks the new claim within its stated scope.
 
-If promoted, the precise change to the rational-base R-0008 frontier is:
+The precise implication for the rational-base R-0008 frontier is:
 for `epsilon>0`, the full root underlying an everywhere-coprime graded
 two-relation pattern must be reduced. Nonreduced full roots under that
 interface are closed by this argument. Reduced singular roots, actual
@@ -1198,15 +1193,14 @@ pass independent mathematical reconstruction against the written source.
 All scheme inclusions, cohomology vanishings, characteristic assumptions,
 and component-degree implications have explicit proofs above. No
 unresolved computational step or mathematical dependency remains within
-the stated graded scope; canonical promotion remains a separate reviewed
-repository action.
+the stated graded scope.
 
 
 ---
 
 ### Prime-to-characteristic spectral descent excludes repeated moving components
 
-This is a source-level extension independently reconstructed during consolidation; canonical R-0011 retains its characteristic-zero statement. Let k be algebraically closed of characteristicp>0, and let Z be a finite-flat full Cartier divisor of class(epsilon,r) in P1_base×P1_direction, with epsilon>0. Suppose O_Z(0,s)=pi*O(n), s>0, and **p does not divide s**. Then Z is reduced.
+This is a source-level extension independently reconstructed during consolidation; R-0011 retains its characteristic-zero statement. Let k be algebraically closed of characteristicp>0, and let Z be a finite-flat full Cartier divisor of class(epsilon,r) in P1_base×P1_direction, with epsilon>0. Suppose O_Z(0,s)=pi*O(n), s>0, and **p does not divide s**. Then Z is reduced.
 
 The doubled-divisor proof above remains valid through its cohomological injectivity: for D of strictly positive bidegrees, H1(Ω¹(-D))=0 by the two ruling summands and Künneth. If O(u,v) is trivial on2D, its logarithmic Chern class vanishes on D; injectivity then forces its ambient class to vanish. In characteristicp this says p divides bothu andv, rather than u=v=0 as integers. For a component D_i of Z, the degree relation from descent is s*a_i=n*b_i. Finite flatness gives b_i>0, and s*epsilon=n*r gives n>0, hence a_i>0. A repeated component would contain its full double2D_i; applying the lemma to O(-n,s) would force p|s, contradiction. A Cartier divisor on the smooth surface has no embedded components, so multiplicity one of every prime component implies reducedness of Z.
 

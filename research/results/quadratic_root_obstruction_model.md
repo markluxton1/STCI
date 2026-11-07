@@ -2,13 +2,12 @@
 id: STCI-R-0007
 title: Universal first and second ambient obstructions for quadratic movement-two roots
 kind: reduction
-status: proved
 scope:
   characteristic: "characteristic zero"
   curve: "fixed monomial rational quartic C0 in P3"
   hypotheses:
     - "Basepoint-free binary quadratic root f=a(z)u^2+b(z)uv+c(z)v^2, with a,b,c quadratic on the base"
-    - "Actual embedded blowup chart and first normal relation operator from the accepted root framework"
+    - "Actual embedded blowup chart and first normal relation operator from the root framework"
     - "Second-class actual-CI application additionally requires the STCI-R-0006 bridge and next relation degree s>4"
 statement: "The first obstruction is a universal 16-by-13 rank incidence on P8, and the second obstruction has a complete chart-free test by 25 scalar pairings. The second class is nonzero at an explicit smooth first-compatible torsion-two seed."
 dependencies:
@@ -22,7 +21,6 @@ independent_audits:
   - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
   - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
   - "research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md"
-accepted_in: "research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,7 +35,7 @@ limitations:
 
 ## First compatibility scheme
 
-For the fixed C0 in characteristic zero, write the moving first normal relation as f=a(z)u^2+b(z)uv+c(z)v^2 with base-quadratic a,b,c and no common base zero. This gives a basepoint-free open U in P8. The accepted first ambient obstruction is the cokernel class of the actual chart operator. It vanishes precisely on the universal 16-by-13 rank incidence formed by the 16-by-12 multiplication matrix A_f and the 16-vector d_f. The multiplication matrix is injective on all U, including singular and nonreduced root divisors.
+For the fixed C0 in characteristic zero, write the moving first normal relation as f=a(z)u^2+b(z)uv+c(z)v^2 with base-quadratic a,b,c and no common base zero. This gives a basepoint-free open U in P8. The first ambient obstruction is the cokernel class of the actual chart operator. It vanishes precisely on the universal 16-by-13 rank incidence formed by the 16-by-12 multiplication matrix A_f and the 16-vector d_f. The multiplication matrix is injective on all U, including singular and nonreduced root divisors.
 
 An explicit smooth seed is f=(z^2+4)u^2+(z^2-8)v^2. It lies on a smooth four-dimensional component of the first compatibility scheme, and its smooth genus-one root has ruling-difference class of exact order two. Hence neither the first ambient class nor the spectral torsion test alone excludes the seed.
 
@@ -45,7 +43,7 @@ An explicit smooth seed is f=(z^2+4)u^2+(z^2-8)v^2. It lies on a smooth four-dim
 
 The compatible first principal relation is unique. Its next actual ambient obstruction is a canonical class in a rank-sixteen bundle on the first compatibility scheme. At the smooth seed, an independently checked sparse Serre-dual pairing equals 1/8, so the second obstruction is **nonzero**. Consequently the generic point of the four-dimensional first-compatible component through the seed fails the second lift. This does not establish that the entire second zero scheme is empty.
 
-The accepted global dual compression replaces the sixteen obstruction coordinates by twenty-five exact scalar pairings, valid across the entire basepoint-free family without choosing coefficient charts or invertible minors. Its rank-two bundle W is the kernel of the surjection
+The global dual compression replaces the sixteen obstruction coordinates by twenty-five exact scalar pairings, valid across the entire basepoint-free family without choosing coefficient charts or invertible minors. Its rank-two bundle W is the kernel of the surjection
 
     O_P1^5 -> O_P1(2)^3
 
@@ -67,4 +65,4 @@ These links identify the retained current proof and independent reconstruction; 
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

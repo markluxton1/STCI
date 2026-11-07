@@ -2,7 +2,6 @@
 id: STCI-R-0032
 title: Full conormal filtration and socle budget
 kind: theorem
-status: proved
 scope:
   characteristic: "any characteristic with valid conormal quotient degree bounds"
   curve: "smooth integral curve C in P3"
@@ -15,7 +14,6 @@ evidence:
   - research/supplements/SOCLE_AND_LOEWY_BOUNDS.md
 independent_audits:
   - research/supplements/SOCLE_AND_LOEWY_BOUNDS.md
-accepted_in: "research/supplements/SOCLE_AND_LOEWY_BOUNDS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -35,4 +33,4 @@ The [original proof](../supplements/SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

@@ -1,6 +1,6 @@
 # uniform root towers and inseparable bridges
 
-Permanent mathematical dossier preserving complete arguments, assumptions, characteristic boundaries, counterexamples and unresolved claims. No new theorem promotion is implied.
+Permanent mathematical dossier preserving complete arguments, assumptions, characteristic boundaries, counterexamples and unresolved claims.
 
 ---
 
@@ -1437,5 +1437,4 @@ actual root divisor. No defective point or vertical exceptional
 fiber is discarded in passing to the generic local calculation.
 
 There is no new gap in Sections 2--3 under the stated hypotheses.
-This review does not promote the independent global scope audit
-or a new canonical acceptance record on its own.
+The independent global scope audit remains separate from this review.

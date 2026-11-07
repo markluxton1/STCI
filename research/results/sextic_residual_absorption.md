@@ -2,7 +2,6 @@
 id: STCI-R-0049
 type: result
 title: Residual multiplicity transfers onto the marked quartic in a flat family
-status: provisional
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -80,5 +79,4 @@ with specialization. A separate sparse-polynomial implementation over
 the integers checked the absorption factorization. The surviving
 twelvefold line and lack of an iteration to sole support remain limitations.
 
-The Result remains provisional; independent acceptance of this
-reconstructed route does not promote its status or the source's labels.
+Independent reconstruction review accepts this route within its stated scope.

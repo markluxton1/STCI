@@ -1,9 +1,8 @@
 # Full-ideal Rees data and vertical degeneration controls
 
-These independently reconstructed provisional statements distinguish the
+These independently reconstructed statements distinguish the
 normalized blowup of the **full lci ideal** from intersections of chosen
-strict transforms on the blowup of the reduced marked curve. No canonical
-promotion or unrestricted residual theorem is asserted. The graph cycle
+strict transforms on the blowup of the reduced marked curve. No unrestricted residual theorem is asserted. The graph cycle
 and support-sensitive numerical bounds are proved in [the two-blowup account](blowup_residual_geometry.md).
 
 

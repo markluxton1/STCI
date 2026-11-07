@@ -1,6 +1,6 @@
 # Punctual extensions and actual equation columns on multiple quadrics
 
-**Scope and status.** Independently reviewed provisional mathematics; no canonical promotion. Let \(Q=V(q)\subset\mathbf P^3\) be a smooth split quadric and \(X_n=V(q^n)\). The finite-order Picard and punctual-extension theorems below hold over an algebraically closed field in every characteristic. The actual-pair dictionary and operation controls below also hold in every characteristic for \(C=C_0\) of class \((1,3)\). No statement settles characteristic-zero STCI. The [multiple-quadric matrix account](finite_pullback_and_matrix_obstructions.md#double-quadric-matrices-and-punctual-defects) already owns the explicit ACM endpoint matrix and its nonfactorization proof; here it is used only as a control.
+**Scope and status.** Independently reviewed mathematics. Let \(Q=V(q)\subset\mathbf P^3\) be a smooth split quadric and \(X_n=V(q^n)\). The finite-order Picard and punctual-extension theorems below hold over an algebraically closed field in every characteristic. The actual-pair dictionary and operation controls below also hold in every characteristic for \(C=C_0\) of class \((1,3)\). No statement settles characteristic-zero STCI. The [multiple-quadric matrix account](finite_pullback_and_matrix_obstructions.md#double-quadric-matrices-and-punctual-defects) already owns the explicit ACM endpoint matrix and its nonfactorization proof; here it is used only as a control.
 
 ## 1. Precise statements
 
