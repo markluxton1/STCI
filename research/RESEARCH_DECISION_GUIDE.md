@@ -99,6 +99,14 @@ defect in prescribed supported lifts; no theorem yet identifies it with a
 spectral Picard class, a carrier Weil class or the surface-normalization
 conductor. A new comparison must construct its map and preserve its hypotheses.
 
+When using the [prescribed quartic family](results/quartic_mu4_degeneration.md)
+as a specialization control, track both the residual curves of the generic
+fiber and the new order-four relation in the special fiber's normal initial
+ideal. An argument that requires base change for the normal graded pieces
+must check it separately from flatness of the projective family. The
+[integral chart calculation](results/quartic_normal_initial_base_change.md)
+exhibits the precise failure to test for.
+
 ## Torus symmetry as an organizing method
 
 Use the [supported-boundary framework](frameworks/torus_supported_boundaries.md)

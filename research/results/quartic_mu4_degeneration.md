@@ -1,48 +1,72 @@
 ---
 id: STCI-R-0021
-title: "Four-component mu4 degeneration of the explicit quartic intersection"
-kind: theorem
-scope:
-  characteristic: "0 and 2"
-  curve: "fixed C0 and the prescribed equations F=x1^4-x0^3*x3, G=x2^4-x0*x3^3"
-  hypotheses:
-    - "Geometric fibers; characteristic-zero statement after adjoining fourth roots of unity"
-statement: "The complete intersection is flat over Z; away from endpoints it is G_m times mu_4. In characteristic zero it is the reduced union of four degree-four curves, whereas in characteristic two its reduced support is C0 with generic transverse length four."
-dependencies: []
-evidence:
-  - "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
-  - "research/computations/verify_44_mu4_family_2026_10_23.m2"
-independent_audits:
-  - "research/supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md"
-legacy_ids: []
-supersedes: []
-superseded_by: []
-limitations:
-  - "Specific equations only; not a universal classification of characteristic-two STCI equations."
+type: result
+title: Four-component mu4 degeneration of the explicit quartic intersection
+scope: "#scope"
+statement: "#statement"
+proofs:
+  - name: monic flatness and two-chart scheme decomposition
+    at: "research/arguments/quartic_specialization_and_symbols.md#1-what-actually-coalesces"
+    using: []
+    review:
+      state: accepted
+      basis: reconstructed
+      at: "#review"
 ---
 # Four-component mu4 degeneration
 
+## Scope
+
+Fix \(C=C_0=[s^4:s^3t:st^3:t^4]\) and the two integral equations
+\[
+F=x_1^4-x_0^3x_3,\qquad G=x_2^4-x_0x_3^3.
+\]
+The family is over \(\mathbf Z\) and the fiber statements concern
+geometric fibers in characteristics zero and two.
+
 ## Statement
-For F=x1⁴−x0³x3 and G=x2⁴−x0x3³, the projective intersection is flat over Z. On the dense torus it is G_m×mu_4. Over an algebraically closed characteristic-zero field its four distinct components are C_zeta=[s⁴:s³t:zeta st³:t⁴], zeta⁴=1, meeting at the two endpoints. In characteristic two the reduced support is exactly C0, and the generic transverse algebra is k(C0)[Y]/(Y⁴).
 
-## Hypotheses and quantifiers
-This is the behavior of this prescribed pair, not every (4,4) pair.
+The projective intersection \(D=V(F,G)\) is flat over \(\mathbf Z\), with
+complete-intersection fibers. On \(x_0\ne0\), in coordinates
+\[
+u=x_1/x_0,\qquad X=x_3/x_0-u^4,\qquad Y=x_2/x_0-u^3,
+\]
+its chart ideal is \((X,P)\) for
+\[
+P=Y^4+4u^3Y^3+6u^6Y^2+4u^9Y.
+\]
+On \(u\ne0\) this is \(\mathbf G_m\times\mu_4\), with
+\(z=1+Y/u^3\), \(z^4=1\) and \(C\) given by \(z=1\).
 
-## Proof outline
-The homogeneous quotient is free over Z[x0,x3] on monomials x1^a x2^b (0≤a,b<4). On x0=1, eliminating X=x3−u⁴ leaves P(Y)=(u³+Y)⁴−u¹². Substitution Y=u³(z−1) gives u¹²(z⁴−1). The second endpoint chart and complete-intersection purity establish the global support claims.
+In characteristic zero the fiber is the reduced scheme union of the four
+curves \(C_\zeta=[s^4:s^3t:\zeta st^3:t^4]\) for \(\zeta^4=1\). They meet
+only at \(p_0=[1:0:0:0]\) and \(p_\infty=[0:0:0:1]\). Each pair has
+intersection multiplicity three at each endpoint. Each endpoint of the union
+has delta invariant eighteen, so the union has arithmetic genus thirty-three.
+Relative to \(C=C_1\), the sum of contacts of the three residual quartics
+with \(C\) is \(9p_0+9p_\infty\).
 
-## Dependencies
-No quartic-carrier nonexistence theorem is used.
-
-## Evidence and verification
-The Macaulay2 certificate and independent audit are linked above. Clean [GitHub Actions run 39972680627](https://github.com/markluxton1/STCI/actions/runs/39972680627) passed the Macaulay2 job.
-
-## Consequences
-The four characteristic-zero components coalesce into a single nonreduced support in characteristic two; the full initial ideal acquires the order-four generator.
+In characteristic two the chart ideal is \((X,Y^4)\). On \(x_3\ne0\), with
+\(c=x_2/x_3\), \(A=x_0/x_3-c^4\) and \(B=x_1/x_3-c^3\), it is
+\((A,B^4)\). The two charts cover the fiber. Its reduced support is \(C\),
+and its generic transverse algebra is \(k(C)[Y]/(Y^4)\).
 
 ## Limitations
-This does not imply arbitrary characteristic-zero quartic pairs have four components.
 
-## Current proof
+The four components and their contacts concern the prescribed equations.
+The [arithmetic ruled four-section](quartic_arithmetic_ruled_models.md)
+has its own normalization and endpoint intersection lengths.
 
-[Conormal splitting, mu4 specialization and actual quartic symbols](../supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+## Review
+
+The Phase 5 independent reviewer accepted the route for the prescribed
+equations. The reviewer checked flatness of the monic projective family,
+purity of the complete-intersection fibers, both endpoint charts, the
+geometric decomposition and contact and delta calculations in
+characteristic zero, and the characteristic-two ideals. The Macaulay2
+replay also passed, including the split ideal over \(\mathbf Q(i)\).
+
+The October 23 audit checked the monic flatness argument, the decomposition,
+contact and delta calculations, and the local characteristic-two ideal.
+It inspected the family certificate and its recorded successful execution
+without rerunning that script during the audit. [Source review](../arguments/quartic_specialization_and_symbols.md#source-review-and-verification)

@@ -9,6 +9,9 @@ For full exposition see the [reading routes](../synthesis/README.md); for
 missing implications see the [mechanism map](../MAP.md) and
 [open questions](../FRONTIER.md).
 
+- **[STCI-R-0059 — Normal-order reduction for quartic pairs](quartic_pair_normal_order_reduction.md)**
+- **[STCI-R-0058 — Actual first and second quartic symbol spaces](quartic_actual_symbols.md)**
+- **[STCI-R-0057 — Full normal initial ideals and base change of the prescribed quartic pair](quartic_normal_initial_base_change.md)**
 - **[STCI-R-0036 — Pointwise conductor and top-socle defect (conditional)](pointwise_conductor_socle_defect.md)**
 - **[STCI-R-0035 — Bounded-index normal-carrier exclusion for C0 (conditional)](normal_carrier_bounded_index_exclusion.md)**
 - **[STCI-R-0034 — Local Cartier-index and socle compatibility (conditional)](normal_carrier_index_socle.md)**

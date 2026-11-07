@@ -325,7 +325,7 @@ The known characteristic-two (4,4) equations have the stronger actual
 chart descriptions (X,Y^4) and (A,B^4), covering C. They give no boundary
 torsion, L=O(-6), and D_soc=0. These are properties of the equations and
 their gluing, not splitting alone; see the
-[characteristic note](CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md).
+[normal initial ideals of the prescribed pair](../results/quartic_normal_initial_base_change.md).
 
 As a diagnostic of (3), a hypothetical characteristic-zero curvilinear
 (4,4) thickening would have m=4 and p_a=33, so
@@ -432,8 +432,8 @@ already contains a conditional effective resultant budget.
 A decisive control is the primitive divisor 4C on the smooth quadric.
 In characteristic zero it has L=O(-6), the required degree sixteen,
 genus thirty-three, saturated layers, and perfect pairings, but is not
-a (4,4) complete intersection. See the inherited
-[characteristic note, section 6](CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md).
+a (4,4) complete intersection. See the
+[Cartier quadruple control](../arguments/quartic_specialization_and_symbols.md#6-what-the-symmetric-algebra-does-and-does-not-explain).
 This shows exactly why matching the normal algebra and genus does not
 settle homogeneous realization. Progress requires an additional bound
 or incompatibility involving the actual carrier-section maps, their

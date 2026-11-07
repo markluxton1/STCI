@@ -1,6 +1,6 @@
 -- New exact computations for the explicit F,G family only.
 -- No inherited quartic exclusion or lifting proof is rerun.
--- Run: /opt/homebrew/bin/M2 --script research/computations/verify_44_mu4_family_2026_10_23.m2
+-- Run: /opt/homebrew/bin/M2 --script research/investigations/quartic-specialization-controls/verify_44_mu4_family_2026_10_23.m2
 
 R = ZZ[u,X,Y];
 F = -X;

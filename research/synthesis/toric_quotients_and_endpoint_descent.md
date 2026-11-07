@@ -238,7 +238,7 @@ belong to \(K\), have gcd one, and exhaust degree sixteen. Thus (10)
 identifies their scheme with \(Z_B\). The statement and its full
 integral flatness and support proof are
 [R-0021](../results/quartic_mu4_degeneration.md) and
-[its proof home](../supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md#1-what-actually-coalesces).
+[its proof home](../arguments/quartic_specialization_and_symbols.md#1-what-actually-coalesces).
 
 At zero, \(v=1\) makes the weight-four generator redundant. A DVR basis is
 \(1,r^3u,r^6u^2,r^9u^3\), so \(\delta_0=18\). At infinity,
