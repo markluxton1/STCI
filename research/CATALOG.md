@@ -38,8 +38,8 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0027](results/quartic_dual_singular_scheme.md) | Dual discriminant intersections and singular scheme of the marked quartic | evidence: [research/supplements/QUARTIC_DUAL_SCHEMES.md](../research/supplements/QUARTIC_DUAL_SCHEMES.md); evidence: [research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2](../research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2); independent_audits: [research/supplements/QUARTIC_DUAL_SCHEMES.md](../research/supplements/QUARTIC_DUAL_SCHEMES.md); no recorded proof route | untyped record |
 | [STCI-R-0028](results/quartic_ruled_projection_geometry.md) | Ruled projection and normalization models | evidence: [research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md](../research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md); evidence: [research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md](../research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md); evidence: [research/computations/verify_p4_ruled_surfaces_2026_10_24.py](../research/computations/verify_p4_ruled_surfaces_2026_10_24.py); independent_audits: [research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md](../research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md); independent_audits: [research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md](../research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md); no recorded proof route | untyped record |
 | [STCI-R-0029](results/quartic_arithmetic_ruled_models.md) | Arithmetic ruled four-section family | evidence: [research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md](../research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md); independent_audits: [research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md](../research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md); no recorded proof route | untyped record |
-| [STCI-R-0030](results/local_filtration_comparison_defect.md) | Local filtered-equation comparison and punctual defect criterion | evidence: [research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md](../research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md); evidence: [research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md](../research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md); evidence: [research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md](../research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md); independent_audits: [research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md](../research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md); independent_audits: [research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md](../research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md); no recorded proof route | untyped record |
-| [STCI-R-0031](results/quartic_char2_fourth_equation_kernel.md) | Characteristic-two fourth normal equation and canonical kernel identification | evidence: [research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md](../research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md); evidence: [research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py](../research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py); independent_audits: [research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md](../research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md); no recorded proof route | untyped record |
+| [STCI-R-0030](results/local_filtration_comparison_defect.md) | Local filtered-equation comparison and punctual defect criterion | initial ideals, the DVR length identity, and smooth-carrier straightening: accepted | [scope](results/local_filtration_comparison_defect.md#scope) |
+| [STCI-R-0031](results/quartic_char2_fourth_equation_kernel.md) | Characteristic-two fourth normal equation and canonical kernel identification | two-chart fourth-order lifts and filtered comparison: accepted | [scope](results/quartic_char2_fourth_equation_kernel.md#scope) |
 | [STCI-R-0032](results/full_conormal_socle_budget.md) | Full conormal filtration and socle budget | evidence: [research/supplements/SOCLE_AND_LOEWY_BOUNDS.md](../research/supplements/SOCLE_AND_LOEWY_BOUNDS.md); independent_audits: [research/supplements/SOCLE_AND_LOEWY_BOUNDS.md](../research/supplements/SOCLE_AND_LOEWY_BOUNDS.md); no recorded proof route | untyped record |
 | [STCI-R-0033](results/constant_first_relation_lifting.md) | Constant first-relation quadratic lifting obstruction | evidence: [research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md](../research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md); independent_audits: [research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md](../research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md); no recorded proof route | untyped record |
 | [STCI-R-0034](results/normal_carrier_index_socle.md) | Normal-carrier local Cartier-index and socle compatibility | evidence: [research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md](../research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md); independent_audits: [research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md](../research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md); no recorded proof route | untyped record |
@@ -68,6 +68,8 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0057](results/quartic_normal_initial_base_change.md) | Full normal initial ideals and failure of base change for the prescribed quartic pair | filtered elimination and the initial term of a principal ideal: accepted | [scope](results/quartic_normal_initial_base_change.md#scope) |
 | [STCI-R-0058](results/quartic_actual_symbols.md) | Actual first and second normal symbols of quartics through the fixed curve | residual restriction through the unique quadric: accepted | [scope](results/quartic_actual_symbols.md#scope) |
 | [STCI-R-0059](results/quartic_pair_normal_order_reduction.md) | Normal-order reduction for proper quartic pairs through the fixed curve | quadric residual class and generic length exhaust the degree: accepted | [scope](results/quartic_pair_normal_order_reduction.md#scope) |
+| [STCI-R-0060](results/initial_equation_cancellation_counterexample.md) | A degree-four initial equation invisible in the filtered equation module | length-five algebra and explicit cancellation: accepted | [scope](results/initial_equation_cancellation_counterexample.md#scope) |
+| [STCI-R-0061](results/restricted_normal_diagram_counterexample.md) | Identical graded embedding diagrams after restriction to the reduced curve | local binomial calculation: accepted | [scope](results/restricted_normal_diagram_counterexample.md#scope) |
 
 ## Arguments
 
@@ -77,6 +79,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-A-0002](arguments/torus_sextic_residuals.md) | Sextic orbit quotients, residual curves, and full torus limits | complete | [scope](arguments/torus_sextic_residuals.md#scope) |
 | [STCI-A-0003](arguments/torus_embedded_quotients.md) | Constant embedded orbit families, endpoint descent, and actual equations | complete | [scope](arguments/torus_embedded_quotients.md#scope) |
 | [STCI-A-0004](arguments/quartic_specialization_and_symbols.md) | Conormal splitting, mu4 specialization and actual quartic symbols | complete | [scope](arguments/quartic_specialization_and_symbols.md#scope) |
+| [STCI-A-0005](arguments/filtered_equation_comparison.md) | Filtered equations and the information lost by normal grading | complete | [scope](arguments/filtered_equation_comparison.md#scope) |
 
 ## Frameworks
 
@@ -123,7 +126,8 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0026: recorded references (dependencies) [STCI-R-0020]; no synthesized accepted route.
 - STCI-R-0027: recorded references (dependencies) [STCI-R-0026]; no synthesized accepted route.
 - STCI-R-0029: recorded references (dependencies) [STCI-R-0021]; no synthesized accepted route.
-- STCI-R-0031: recorded references (dependencies) [STCI-R-0020, STCI-R-0021, STCI-R-0030]; no synthesized accepted route.
+- STCI-R-0030: initial ideals, the DVR length identity, and smooth-carrier straightening; joint premises []; proof `research/arguments/filtered_equation_comparison.md#local-comparison-and-the-punctual-defect`; review accepted, reconstructed at `#review`.
+- STCI-R-0031: two-chart fourth-order lifts and filtered comparison; joint premises [STCI-R-0020, STCI-R-0057, STCI-R-0030]; proof `#proof`; review accepted, reconstructed at `#review`.
 - STCI-R-0033: recorded references (dependencies) [STCI-R-0032]; no synthesized accepted route.
 - STCI-R-0035: recorded references (dependencies) [STCI-R-0034, STCI-R-0001]; no synthesized accepted route.
 - STCI-R-0037: projective-supported-incidence; joint premises []; proof `research/arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits`; review accepted, reconstructed at `#review`.
@@ -149,6 +153,8 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0057: filtered elimination and the initial term of a principal ideal; joint premises [STCI-R-0021]; proof `research/arguments/quartic_specialization_and_symbols.md#2-the-full-initial-ideal-explains-the-multiplicity-change`; review accepted, reconstructed at `#review`.
 - STCI-R-0058: residual restriction through the unique quadric; joint premises [STCI-R-0020]; proof `research/arguments/quartic_specialization_and_symbols.md#4-which-symmetric-algebra-sections-come-from-quartics`; review accepted, reconstructed at `#review`.
 - STCI-R-0059: quadric residual class and generic length exhaust the degree; joint premises [STCI-R-0058]; proof `research/arguments/quartic_specialization_and_symbols.md#5-a-uniform-reduction-of-all-44-candidates`; review accepted, reconstructed at `#review`.
+- STCI-R-0060: length-five algebra and explicit cancellation; joint premises [STCI-R-0030]; proof `research/arguments/filtered_equation_comparison.md#a-minimal-initial-equation-erased-by-the-comparison`; review accepted, reconstructed at `#review`.
+- STCI-R-0061: local binomial calculation; joint premises []; proof `#proof`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -171,6 +177,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-A-0002: proof owner for STCI-R-0042 (finite-free trace and graded-domain reduction); proof owner for STCI-R-0043 (fixed-point incidence and degree exhaustion); proof owner for STCI-R-0044 (parameter filtration and exact local reductions); proof owner for STCI-R-0045 (prime cancellation and generic lengths); proof owner for STCI-R-0046 (Hilbert-Burch family and colon cycle); proof owner for STCI-R-0047 (torus quotient and local boundary multiplicities); proof owner for STCI-R-0048 (quadric divisors and flat complete-intersection family); proof owner for STCI-R-0049 (graph divisor specialization on the smooth quadric); proof owner for STCI-R-0050 (primitive monomial parametrization and generic localization).
 - STCI-A-0003: proof owner for STCI-R-0051 (scheme image and finite charts); proof owner for STCI-R-0052 (finite modification exact sequence); proof owner for STCI-R-0053 (actual source spaces and degree exhaustion); proof owner for STCI-R-0054 (exact endpoint lattices and coefficient identities); proof owner for STCI-R-0055 (relative endpoint lattices and image base change); proof owner for STCI-R-0056 (generic lengths and absence of finite-support submodules).
 - STCI-A-0004: proof owner for STCI-R-0020 (two-chart quadric conormal transition); proof owner for STCI-R-0021 (monic flatness and two-chart scheme decomposition); proof owner for STCI-R-0057 (filtered elimination and the initial term of a principal ideal); proof owner for STCI-R-0058 (residual restriction through the unique quadric); proof owner for STCI-R-0059 (quadric residual class and generic length exhaust the degree).
+- STCI-A-0005: proof owner for STCI-R-0030 (initial ideals, the DVR length identity, and smooth-carrier straightening); proof owner for STCI-R-0060 (length-five algebra and explicit cancellation).
 - STCI-F-0001: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001).
 - STCI-F-0002: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0002] → [STCI-I-0004] (owner STCI-I-0004); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
@@ -197,8 +204,8 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0017: no declared backlinks.
 - STCI-R-0018: no declared backlinks.
 - STCI-R-0019: no declared backlinks.
-- STCI-R-0020: premise of STCI-R-0058 (residual restriction through the unique quadric); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]); recorded reference from STCI-R-0031 (dependencies group [STCI-R-0020, STCI-R-0021, STCI-R-0030]).
-- STCI-R-0021: premise of STCI-R-0057 (filtered elimination and the initial term of a principal ideal); recorded reference from STCI-R-0023 (dependencies group [STCI-R-0021]); recorded reference from STCI-R-0029 (dependencies group [STCI-R-0021]); recorded reference from STCI-R-0031 (dependencies group [STCI-R-0020, STCI-R-0021, STCI-R-0030]).
+- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
+- STCI-R-0021: premise of STCI-R-0057 (filtered elimination and the initial term of a principal ideal); recorded reference from STCI-R-0023 (dependencies group [STCI-R-0021]); recorded reference from STCI-R-0029 (dependencies group [STCI-R-0021]).
 - STCI-R-0022: no declared backlinks.
 - STCI-R-0023: recorded reference from STCI-R-0024 (dependencies group [STCI-R-0023]).
 - STCI-R-0024: no declared backlinks.
@@ -207,7 +214,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0027: no declared backlinks.
 - STCI-R-0028: no declared backlinks.
 - STCI-R-0029: no declared backlinks.
-- STCI-R-0030: recorded reference from STCI-R-0031 (dependencies group [STCI-R-0020, STCI-R-0021, STCI-R-0030]).
+- STCI-R-0030: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0060 (length-five algebra and explicit cancellation).
 - STCI-R-0031: no declared backlinks.
 - STCI-R-0032: recorded reference from STCI-R-0033 (dependencies group [STCI-R-0032]).
 - STCI-R-0033: no declared backlinks.
@@ -234,6 +241,8 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0054: limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); premise of STCI-R-0055 (relative endpoint lattices and image base change); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003).
 - STCI-R-0055: no declared backlinks.
 - STCI-R-0056: premise of STCI-R-0053 (actual source spaces and degree exhaustion); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
-- STCI-R-0057: no declared backlinks.
+- STCI-R-0057: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison).
 - STCI-R-0058: premise of STCI-R-0059 (quadric residual class and generic length exhaust the degree).
 - STCI-R-0059: no declared backlinks.
+- STCI-R-0060: no declared backlinks.
+- STCI-R-0061: no declared backlinks.

@@ -39,6 +39,14 @@ the [conormal splitting](results/quartic_conormal_characteristic_jump.md), the
 The full argument separates flatness of the intersection, specialization of
 its normal associated graded, and realization by global quartic equations.
 
+For the comparison between full initial equations and actual filtered
+equations, start with [R-0030](results/local_filtration_comparison_defect.md)
+and the [comparison argument](arguments/filtered_equation_comparison.md).
+The local controls separate a [lost minimal equation](results/initial_equation_cancellation_counterexample.md)
+from [loss of the embedded algebra](results/restricted_normal_diagram_counterexample.md).
+The [prescribed characteristic-two pair](results/quartic_char2_fourth_equation_kernel.md)
+gives an exact chartwise lift that survives the comparison.
+
 | Question or approach | Mathematical entry | Reach and missing step |
 | --- | --- | --- |
 | Which multiplicities and residual cycles occur? | [Two surfaces and actual cycles](synthesis/02-two-surfaces.md), [residual geometry and jets](synthesis/residual_intersections_and_jets.md) | Actual constructions and bounds on specified families; no universal residual floor or monotonicity in the equation degrees is assumed |

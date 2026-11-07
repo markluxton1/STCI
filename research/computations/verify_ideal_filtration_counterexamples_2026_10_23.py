@@ -242,7 +242,7 @@ def main():
     print("PASS: associative quotient algebra with basis 1,x,y,y^2,y^3")
     print(f"PASS: dimensions of I-adic powers = {dimensions}")
     print(f"PASS: associated-graded Hilbert function = {hilbert_function}")
-    print("PASS: H=(X^2,XY,Y^4), Q_4=Q, but gr_4(J/IJ)=0")
+    print("PASS: H=(X^2,XY,Y^4), Q_4=Delta_4, gr_4(J/IJ)=0")
     print("PASS: Y^4 lies in in_I(IJ) and not in S_+ in_I(J)")
     print("Boundary: finite exact checks support the accompanying local proof;")
     print("they do not certify a general theorem or a global STCI conclusion.")

@@ -37,12 +37,24 @@ outcomes in their own right; unrestricted non-STCI is not a presumed conclusion.
   [normal initial ideals](results/quartic_normal_initial_base_change.md)
   show that reduction mod two adds the fourth-order relation to the associated
   graded of the fiber, even though the full projective family is flat.
+  In that characteristic-two fiber the [compatible corrected lifts](results/quartic_char2_fourth_equation_kernel.md)
+  identify the fourth minimal initial equation canonically with the first
+  conormal kernel \(\mathcal O_{\mathbf P^1}(-24)\).
 - The [full-conductor criterion](results/fixed_carrier_conductor_criterion.md)
   is a fixed-carrier equivalence. Necessary normalization models and structured
   phase reductions do not constitute computed existence or exclusion for all
   higher-degree carriers.
 
 ## Reviewed contributions with bounded scope
+
+The [local filtered-equation comparison](results/local_filtration_comparison_defect.md)
+identifies the defect of \(Q_n\to\operatorname{gr}_F^n(J/I_CJ)\). Under generic
+vanishing, its punctual length is the difference between the two torsion
+lengths. Its support lies where both carriers are singular under the stated
+smooth ambient and curve hypotheses. The
+[local counterexamples](arguments/filtered_equation_comparison.md#conclusion)
+exhibit a positive generic defect and, separately, nonisomorphic intersection
+algebras with identical graded diagrams after restriction to the curve.
 
 The current proof homes make the scope explicit: saturation and actual-source
 conditions for [filtrations](synthesis/03-infinitesimal-geometry.md);
