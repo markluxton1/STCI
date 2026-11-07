@@ -61,9 +61,13 @@ defect is not its flatness proof.
 
 The positive-characteristic prescribed quartic control
 [R-0021](../results/quartic_mu4_degeneration.md) retains its own stated
-scope. Its characteristic-two sole support is not a characteristic-zero
-supported deformation. Neither an abstract quotient nor its reduced support
-provides actual global equations after projective contraction.
+scope. Its flat integral model has three residual quartics on the geometric
+generic fiber. The [normal filtration calculation](../results/quartic_normal_initial_base_change.md)
+exhibits failure of associated-graded base change, a different operation from
+base change of the projective image. The [finite specialization checks](../investigations/quartic-specialization-controls/index.md)
+replay identities for this pair and the fixed quartic's degree-four symbols.
+Actual equation recovery after projective contraction still requires the
+embedded quotient and the homogeneous source test.
 
 ## Bridges
 

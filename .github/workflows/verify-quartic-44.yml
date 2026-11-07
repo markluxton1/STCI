@@ -3,6 +3,11 @@ on:
   pull_request:
     paths:
       - 'research/computations/**'
+      - 'research/investigations/quartic-specialization-controls/**'
+      - 'research/arguments/quartic_specialization_and_symbols.md'
+      - 'research/results/quartic_normal_initial_base_change.md'
+      - 'research/results/quartic_actual_symbols.md'
+      - 'research/results/quartic_pair_normal_order_reduction.md'
       - 'research/synthesis/quartic_pair_obstruction.md'
       - 'research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md'
       - 'research/results/quartic_44_filtered_exclusion.md'
@@ -19,8 +24,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install 'sympy==1.14.0'
-      - name: Verify quartic symbols
-        run: python research/computations/verify_44_quartic_symbol_comparison_2026_10_23.py
+      - name: Replay quartic Python verifiers and false controls
+        run: python -m unittest discover -s research/investigations/quartic-specialization-controls -k _python -v
       - name: Verify filtered contact
         run: python research/computations/verify_44_filtered_contact_2026_10_23.py
       - name: Independently audit contact
@@ -36,9 +41,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Install Macaulay2
         run: |
           sudo apt-get update
           sudo apt-get install -y macaulay2
-      - name: Verify mu4 degeneration
-        run: M2 --script research/computations/verify_44_mu4_family_2026_10_23.m2
+      - name: Replay quartic Macaulay2 verifiers and false controls
+        run: python3 -m unittest discover -s research/investigations/quartic-specialization-controls -k _m2 -v

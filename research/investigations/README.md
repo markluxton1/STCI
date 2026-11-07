@@ -8,5 +8,6 @@ findings. The pilot distinguishes planned
 [supported generation](supported-generator-incidence/index.md) and
 [quotient comparison](quotient-hilbert-comparison/index.md) from the completed
 [finite residual controls](torus-residual-controls/index.md). The latter owns
-its verifier and deliberately false controls. Other computations retain their
-existing ownership until their own reviewed migration.
+its verifier and deliberately false controls. The
+[quartic specialization controls](quartic-specialization-controls/index.md)
+replay exact chart, homogeneous syzygy, and source-space calculations.

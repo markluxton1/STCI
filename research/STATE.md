@@ -30,6 +30,13 @@ outcomes in their own right; unrestricted non-STCI is not a presumed conclusion.
   presentation with a quartic carrier. [Explicit constructions and fixed-carrier
   degree restrictions](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md)
   explain why the characteristic-zero exclusion cannot be transferred wholesale.
+- In the [prescribed flat \((4,4)\) family](results/quartic_mu4_degeneration.md),
+  the characteristic-zero geometric fiber consists of four quartics with
+  pairwise contact three at each endpoint. In characteristic two they coalesce
+  to a structure of generic transverse length four on \(C_0\). The
+  [normal initial ideals](results/quartic_normal_initial_base_change.md)
+  show that reduction mod two adds the fourth-order relation to the associated
+  graded of the fiber, even though the full projective family is flat.
 - The [full-conductor criterion](results/fixed_carrier_conductor_criterion.md)
   is a fixed-carrier equivalence. Necessary normalization models and structured
   phase reductions do not constitute computed existence or exclusion for all

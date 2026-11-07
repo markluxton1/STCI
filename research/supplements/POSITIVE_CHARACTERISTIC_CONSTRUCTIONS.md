@@ -1,6 +1,6 @@
 # Fixed-quartic positive-characteristic constructions and exact degree sets
 
-This chapter owns the exact constructions and arbitrary-mate degree classification for the fixed embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), including the full exponent-compatible two-binomial component calculation. The [family-wide cubic construction](RATIONAL_QUARTICS_IN_POSITIVE_CHARACTERISTIC.md) applies to every smooth nondegenerate rational quartic and has different quantifiers. The [conormal and specialization proof](CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md) owns the normal-bundle jump, prescribed \(\mu_4\) intersection and actual quartic symbols. These are inherited reviewed proofs. The characteristic-free geometric foundation is [here](../synthesis/global_equations_and_constructions.md).
+This chapter owns the exact constructions and arbitrary-mate degree classification for the fixed embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), including the full exponent-compatible two-binomial component calculation. The [family-wide cubic construction](RATIONAL_QUARTICS_IN_POSITIVE_CHARACTERISTIC.md) applies to every smooth nondegenerate rational quartic and has different quantifiers. The [quartic specialization argument](../arguments/quartic_specialization_and_symbols.md) proves the normal-bundle jump, prescribed \(\mu_4\) intersection and actual quartic symbols. The characteristic-free geometric foundation is [here](../synthesis/global_equations_and_constructions.md).
 
 The explicit binomial Frobenius construction for the fixed curve has direct primary-literature support in Barile–Morales–Thoma, *Set-theoretic complete intersections on binomials*, Theorem 5 and §3 Example 1, specialized to \(d=4\). Their characteristic-zero binomial statement does not address arbitrary pairs of forms. The linked repository argument for all smooth rational quartics has broader curve scope than that particular example; no novelty claim is inferred from the bounded literature check. [Publisher article](https://doi.org/10.1090/S0002-9939-01-06289-X).
 
@@ -106,7 +106,7 @@ pair
 
 ## Conormal transition and the characteristic-three primitive triple
 
-The [complete transition proof](CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md) gives N=O(7)² for characteristic different from two and O(6)⊕O(8) in characteristic two. It also identifies the special characteristic-three (3,4) presentation as a globally primitive triple with graded pieces O,O(-7),O(-14).
+The [conormal Result](../results/quartic_conormal_characteristic_jump.md) gives N=O(7)² for characteristic different from two and O(6)⊕O(8) in characteristic two. Its transition also identifies the characteristic-three (3,4) presentation as a globally primitive triple with graded pieces O,O(-7),O(-14). [Primitive triple proof](../arguments/quartic_specialization_and_symbols.md#characteristic-three-primitive-triple)
 
 ## Every smooth rational quartic, constructibility and cusp minima
 
@@ -335,7 +335,7 @@ shared origin, and homogeneous Nullstellensatz applies.
 
 ## The prescribed mu4 intersection and actual quartic symbols
 
-The [complete degeneration and symbol proof](CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md#the-prescribed-mu4-intersection-and-actual-quartic-symbols) establishes the flat integral model, four components and3/3 endpoint contact in characteristic zero, characteristic-two sole support, full initial ideals and their failure of base change, and the exact actual quartic-symbol image.
+The [prescribed family](../results/quartic_mu4_degeneration.md) is flat over \(\mathbf Z\), with four geometric components and pairwise contact three at each endpoint in characteristic zero, and sole support in characteristic two. The [full normal initial ideals](../results/quartic_normal_initial_base_change.md) record the failure of associated-graded base change. The [actual quartic symbols](../results/quartic_actual_symbols.md) identify the sections realized by global quartics.
 
 ## Exact two-binomial reduced support and endpoint contacts
 

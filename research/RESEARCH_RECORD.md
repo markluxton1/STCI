@@ -38,7 +38,8 @@ Full proof: [the current mathematical home](supplements/POSITIVE_CHARACTERISTIC_
 
 ### P-009: characteristic jump in the normal bundle of \(C_0\)
 
-Full proof: [the current mathematical home](supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md).
+The [conormal Result](results/quartic_conormal_characteristic_jump.md) gives
+the transition proof and points to the homogeneous characteristic-zero proof.
 
 ### P-010: a second-neighborhood obstruction for the monomial quartic
 

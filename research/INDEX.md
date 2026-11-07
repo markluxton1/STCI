@@ -32,6 +32,13 @@ Concrete next questions are
 [moving-ideal generator incidence](investigations/supported-generator-incidence/index.md)
 and [quotient-to-Hilbert comparison](investigations/quotient-hilbert-comparison/index.md).
 
+For characteristic-sensitive normal geometry of the fixed quartic, start with
+the [conormal splitting](results/quartic_conormal_characteristic_jump.md), the
+[flat prescribed \(\mu_4\) family](results/quartic_mu4_degeneration.md), or the
+[actual degree-four symbols](results/quartic_actual_symbols.md).
+The full argument separates flatness of the intersection, specialization of
+its normal associated graded, and realization by global quartic equations.
+
 | Question or approach | Mathematical entry | Reach and missing step |
 | --- | --- | --- |
 | Which multiplicities and residual cycles occur? | [Two surfaces and actual cycles](synthesis/02-two-surfaces.md), [residual geometry and jets](synthesis/residual_intersections_and_jets.md) | Actual constructions and bounds on specified families; no universal residual floor or monotonicity in the equation degrees is assumed |

@@ -474,7 +474,7 @@ Completeness of this package is built in because a nonzero fiber includes the or
 
 Every \(\mathcal O(n)\) here means \(\mathcal O_{\mathbf P^1}(n)\); ambient \(\mathcal O_P(d)|_C=\mathcal O(4d)\). The curve is \([s:t]\mapsto[s^4:s^3t:st^3:t^4]\) and the equations are \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\).
 
-[R0020](../results/quartic_conormal_characteristic_jump.md) and [R0021](../results/quartic_mu4_degeneration.md) cover the splitting and explicit degeneration. Their [geometry/symbol audit](CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md#the-prescribed-mu4-intersection-and-actual-quartic-symbols) was consulted. The chart calculations below independently reconstruct the requested formulas and lifting compatibility; unrelated accepted exclusions are not rerun.
+[R0020](../results/quartic_conormal_characteristic_jump.md) and [R0021](../results/quartic_mu4_degeneration.md) cover the splitting and explicit degeneration. The [prescribed family argument](../arguments/quartic_specialization_and_symbols.md#the-prescribed-mu4-intersection-and-actual-quartic-symbols) retains the scope of the geometry/symbol audit consulted here. The chart calculations below independently reconstruct the requested formulas and lifting compatibility; unrelated accepted exclusions are not rerun.
 
 ### 7.1 Exact equations and overlap
 
