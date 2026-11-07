@@ -1,6 +1,6 @@
 # Actual supported pairs and the full singular-root bridge
 
-This is the full source proof of the conditional actual-pair bridge for degree(6,16), generic ordinary initial CI(2,12), and a saturated movement-two first relation, including finite cancellation and full nodal gluing. It is reviewed but unpromoted mathematics, not existence of such a pair or emptiness of its incidence. The source proof's characteristic-zero and actual/global hypotheses are retained. The [conditional sextic exposition](../synthesis/normalization_conductor_phase2_addendum.md) applies it without replacing the full root by its normalization.
+This is the full source proof of the conditional actual-pair bridge for degree(6,16), generic ordinary initial CI(2,12), and a saturated movement-two first relation, including finite cancellation and full nodal gluing. It is reviewed mathematics, not existence of such a pair or emptiness of its incidence. The source proof's characteristic-zero and actual/global hypotheses are retained. The [conditional sextic exposition](../synthesis/normalization_conductor_phase2_addendum.md) applies it without replacing the full root by its normalization.
 
 ## 1. Exact scope and authority
 
@@ -26,7 +26,7 @@ The full root `Z=(f)` is a Cartier divisor of class `(2,2)` in
 Here bidegrees list the base ruling first. Interchanging both signs in
 `L` changes none of its triviality or torsion conditions.
 
-Inherited promoted premises, used with their literal hypotheses:
+Inherited premises, used with their literal hypotheses:
 
 * [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md):
   the actual ordinary normal algebra is a locally free CI family with
@@ -43,18 +43,16 @@ Inherited promoted premises, used with their literal hypotheses:
 * [STCI-R-0007](../results/quadratic_root_obstruction_model.md): the
   universal first incidence and the complete twenty-five-pairing
   second test are valid on the full basepoint-free quadratic family,
-  including singular roots. The promoted actual-CI interface there
+  including singular roots. The actual-CI interface there
   invokes the smooth-root bridge R-0006. Section 2 supplies a new
   finite bridge to justify necessity at singular roots in this exact
   normal-flat setting.
 
 The indexed [STCI-R-0006](../results/actual_ci_smooth_root_bridge.md)
-and its source proof expressly assume a smooth full root. No previously
-promoted finite singular-root bridge was found. The October 19
+and its source proof expressly assume a smooth full root. No finite singular-root bridge was found in the cited results. The October 19
 normal-flatness results do not, by their statement alone, assert
-embedded Cartier lifting on singular roots. This is the authority gap
-addressed by the proof below; it is not resolved by silently broadening
-R-0006.
+embedded Cartier lifting on singular roots. The proof below addresses that
+missing implication under the hypotheses stated here.
 
 ## 2. Finite bridge without smoothness of the root
 
@@ -338,7 +336,7 @@ closed points.
 One must first impose reduced equal-slope roots. For unbalanced
 reducible curves a section may be supported on a positive-degree
 component, and `det T_12=0` alone need not mean triviality. The
-promoted component theorem provides precisely the needed
+component theorem provides precisely the needed
 restriction; it must not be dropped from the incidence.
 
 ## 8. What this reduction does and does not settle
@@ -390,7 +388,7 @@ the torsion determinant argument, and reported PASS. Its substantive
 scope correction was to put the global cubic matching (8) before
 the abstract third Cartier obstruction as the first unresolved
 global lifting condition. This section records that correction.
-Canonical promotion is not part of this contribution.
+
 
 ## Preservation review
 

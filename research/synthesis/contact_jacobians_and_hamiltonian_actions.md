@@ -8,14 +8,14 @@ algebraically closed of characteristic zero,
 \(p_0=[1:0:0:0]\), and \(p_\infty=[0:0:0:1]\).
 Here \(\mathcal O_C(r)\) means degree \(r\) on \(C\simeq\mathbf P^1\);
 an ambient twist by one has degree four. These are independently reviewed
-**provisional** deductions, not promoted results. The Jacobian and
+deductions. The Jacobian and
 Hamiltonian arguments apply to arbitrary supported pairs without assuming
 a smooth carrier, normal flatness, saturation of a first normal relation,
 or a retraction onto \(C\). The pencil also has a polarized retraction
 obstruction proved below. These statements retain actual embedded
 geometry; realizing compatible global equations remains a separate problem.
 
-**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed the Jacobian and Hamiltonian deductions and their explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed provisional deductions, with no canonical promotion; no computation or inherited certificate rerun was needed.
+**Review status (2026-10-31).** Independent mathematical and preservation review reconstructed the Jacobian and Hamiltonian deductions and their explicit characteristic extensions. The varying-Hilbert-function local control, degree-four defect notation, and ribbon section calculation were checked in their corrected homes. No material finding remains unresolved within the stated scopes. These remain reviewed deductions; no computation or inherited certificate rerun was needed.
 
 ## The actual socle and a projection-change lemma
 
@@ -221,7 +221,7 @@ endpoint classification or STCI contradiction. In particular, the
 section argument remains consistent with the supported complete
 intersections in positive characteristic. The corollary and its general
 polarized form carry a separate inherited scoped independent review;
-they remain provisional.
+they retain the review scopes stated here.
 
 ## Hamiltonian actions in the entirely thick branch
 
@@ -502,4 +502,4 @@ preservation review accepted this transfer within its stated scopes.
 Together they identify positive smooth compatibility
 and the further full-module, polarization and filtered-presentation data
 needed by a construction, without a new unrestricted degree exclusion,
-residual floor or conjectural bridge promoted to a theorem.
+proved residual floor or conjectural bridge.

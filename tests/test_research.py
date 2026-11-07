@@ -71,9 +71,9 @@ def route(using=(), state="accepted"):
 
 def record(kind="result", number=1, **changes):
     data = {"id": f"STCI-{PREFIXES[kind]}-{number:04d}", "type": kind,
-            "title": "Synthetic " + kind, "status": {
-                "result": "established", "argument": "complete",
-                "framework": "in_use", "investigation": "complete"}[kind], "scope": "#scope"}
+            "title": "Synthetic " + kind, "scope": "#scope"}
+    if kind != "result":
+        data["status"] = {"argument": "complete", "framework": "in_use", "investigation": "complete"}[kind]
     data.update({"result": {"statement": "#statement", "proofs": [route()]},
                  "argument": {"conclusion": "#conclusion"},
                  "framework": {"bridges": "#bridges"},
@@ -114,13 +114,12 @@ class ResearchTests(unittest.TestCase):
         self.assertTrue(errors, "Invalid synthetic repository was accepted")
         self.assertTrue(all(isinstance(e, str) and e.strip() for e in errors), errors)
 
-    def run_stdlib_validator(self):
-        path = ROOT / "research/computations/validate_records.py"
+    def run_stdlib_validator(self, command="validate_records.py"):
+        path = ROOT / "research/computations" / command
         validator_spec = importlib.util.spec_from_file_location("legacy_record_validator", path)
         validator = importlib.util.module_from_spec(validator_spec)
         validator_spec.loader.exec_module(validator)
         validator.ROOT = self.root
-        validator.RECORDS = [self.root / "research/results", self.root / "research/questions"]
         output = io.StringIO()
         with contextlib.redirect_stdout(output):
             status = validator.main()
@@ -135,7 +134,7 @@ class ResearchTests(unittest.TestCase):
         self.put(record(aliases={"typed-result-alias": "#statement"}))
         status, output = self.run_stdlib_validator()
         self.assertEqual(0, status, output)
-        self.assertIn("Checked 1 legacy canonical records; 0 error(s)", output)
+        self.assertIn("Checked 2 research records; 0 error(s)", output)
 
         # YAML permits quoted keys; detection must use the same YAML parser.
         typed_path = self.root / "research/results/STCI-R-0001.md"
@@ -159,11 +158,11 @@ class ResearchTests(unittest.TestCase):
         self.assertIn("unknown type", output)
         typed_path.write_text(typed_original)
 
-        # Untyped records still use the original legacy status and kind rules.
-        legacy_path.write_text(legacy_path.read_text().replace("status: proved", "status: established"))
+        # Untyped Results reject an overall status just as typed Results do.
+        legacy_path.write_text(legacy_path.read_text().replace("kind: theorem", "kind: theorem\nstatus: proved"))
         status, output = self.run_stdlib_validator()
         self.assertNotEqual(0, status)
-        self.assertIn("invalid legacy status", output)
+        self.assertIn("unknown field status", output)
 
     def test_all_types_and_open_question_in_completed_investigation(self):
         for kind in DIRECTORIES:
@@ -174,7 +173,95 @@ class ResearchTests(unittest.TestCase):
             self.put(data)
         self.valid()
 
-    def test_authoring_templates_instantiate_without_promoting_claims(self):
+    def test_both_compatibility_commands_share_dynamic_validation(self):
+        self.legacy()
+        self.put(record())
+        before = self.snapshot()
+        for command in ("validate_records.py", "validate_result_records.py"):
+            with self.subTest(command=command):
+                status, output = self.run_stdlib_validator(command)
+                self.assertEqual(0, status, output)
+                self.assertIn("Checked 2 research records; 0 error(s)", output)
+        self.assertEqual(before, self.snapshot())
+        self.put(record(status="established"))
+        for command in ("validate_records.py", "validate_result_records.py"):
+            with self.subTest(command=command):
+                status, output = self.run_stdlib_validator(command)
+                self.assertNotEqual(0, status)
+                self.assertIn("unknown field status", output)
+
+    def test_result_output_shows_scoped_route_review(self):
+        self.legacy()
+        data = record()
+        self.put(data)
+        self.valid()
+        repo = research.Repository(self.root)
+        shown = repo.show(data["id"])
+        catalog = repo.catalog()
+        for output in (shown, catalog):
+            self.assertIn("local: accepted", output)
+            self.assertNotIn("noncircular grounding:", output)
+            for forbidden in ("established", "provisional", "promoted", "canonical", "authority"):
+                self.assertNotIn(forbidden, output.lower())
+        self.assertNotIn("Status:", shown)
+        untyped = repo.show("STCI-R-0090")
+        self.assertIn("independent_audits: research/legacy.md", untyped)
+        self.assertNotIn("accepted_in", untyped)
+        self.assertIn("[research/legacy.md](../research/legacy.md)", catalog)
+        self.assertNotIn("status", untyped.lower())
+        self.assertNotIn("source label", catalog.lower())
+        for state in (None, "provisional", "established", "disputed", "superseded"):
+            self.put(record(status=state))
+            self.assertTrue(any("unknown field status" in error for error in self.errors()))
+        self.put(record())
+        data = self.legacy()
+        for state in (None, "proved", "conditional", "needs_audit", "superseded"):
+            data["status"] = state
+            self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(data) + "---\n# Untyped\n")
+            self.assertTrue(any("unknown field status" in error for error in self.errors()))
+        for key in ("source_status", "source_classification"):
+            with self.subTest(field=key):
+                self.legacy()
+                self.put(record(**{key: "proved"}))
+                self.assertTrue(any(f"unknown field {key}" in error for error in self.errors()))
+                self.put(record())
+                data = {**self.legacy(), key: "proved"}
+                self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(data) + "---\n# Untyped\n")
+                self.assertTrue(any(f"unknown field {key}" in error for error in self.errors()))
+
+    def test_untyped_review_passage_links_preserve_encoded_paths_and_fragments(self):
+        data = self.legacy()
+        self.write("research/review # source(1).md", "# Review\nThe exact reviewed passage.\n")
+        source = "research/review%20%23%20source%281%29.md#review"
+        data["evidence"] = [source]
+        data["independent_audits"] = [source]
+        self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(data) + "---\n# Untyped\n")
+        self.valid()
+        catalog = self.write("research/CATALOG.md", research.Repository(self.root).catalog())
+        self.assertIn("../research/review%20%23%20source%281%29.md#review", catalog.read_text())
+        with patch.object(research.links, "ROOT", self.root):
+            self.assertEqual([], research.links.check_file(catalog, True))
+
+    def test_activity_status_vocabularies_remain_unchanged(self):
+        self.put(record("framework", relations=[self.relation("motivates", ["STCI-F-0001"], ["STCI-I-0001"])]))
+        self.put(record("investigation"))
+        for kind, states in research.STATUSES.items():
+            for state in states:
+                with self.subTest(kind=kind, state=state):
+                    data = record(kind, status=state)
+                    if kind == "framework":
+                        data["relations"] = [self.relation("motivates", ["STCI-F-0001"], ["STCI-I-0001"])]
+                    self.put(data)
+                    self.valid()
+            data = record(kind, status="invalid-activity")
+            self.put(data)
+            self.invalid()
+            data["status"] = next(iter(states))
+            if kind == "framework":
+                data["relations"] = [self.relation("motivates", ["STCI-F-0001"], ["STCI-I-0001"])]
+            self.put(data)
+
+    def test_authoring_templates_instantiate_with_pending_reviews(self):
         for kind, directory in DIRECTORIES.items():
             with self.subTest(kind=kind):
                 source = (ROOT / "scripts/templates" / f"{kind}.md").read_text(encoding="utf-8")
@@ -184,11 +271,13 @@ class ResearchTests(unittest.TestCase):
                 front, body = source[4:].split("\n---\n", 1)
                 data = yaml.safe_load(front)
                 self.assertEqual(kind, data["type"])
-                self.assertEqual({"result": "provisional", "argument": "draft", "framework": "proposed",
-                                  "investigation": "planned"}[kind], data["status"])
                 if kind == "result":
+                    self.assertNotIn("status", data)
                     self.assertTrue(data["proofs"])
                     self.assertTrue(all(p["review"]["state"] == "pending" for p in data["proofs"]))
+                else:
+                    self.assertEqual({"argument": "draft", "framework": "proposed",
+                                      "investigation": "planned"}[kind], data["status"])
                 default = f"research/{directory}/synthetic-template"
                 target = default + "/index.md" if kind == "investigation" else default + ".md"
                 self.write(target, source)
@@ -202,10 +291,10 @@ class ResearchTests(unittest.TestCase):
         good = record()
         self.put(good)
         self.valid()
-        mutations = [(field, None) for field in ("id", "type", "title", "status", "scope", "statement", "proofs")]
+        mutations = [(field, None) for field in ("id", "type", "title", "scope", "statement", "proofs")]
         mutations += [("id", "STCI-R-nope"), ("type", "question"), ("status", "proved"),
                       ("title", []), ("scope", {}), ("scope", "#absent"),
-                      ("statement", 7), ("proofs", {}), ("proofs", [])]
+                      ("statement", 7), ("proofs", {}), ("proofs", None)]
         for field, value in mutations:
             with self.subTest(field=field, value=value):
                 bad = copy.deepcopy(good)
@@ -286,9 +375,8 @@ class ResearchTests(unittest.TestCase):
                 path.unlink()
                 for p in (self.root / "research/frameworks").glob("*.md"):
                     p.unlink()
-        for state in ("provisional", "disputed"):
-            self.put(record(status=state, proofs=[]))
-            self.valid()
+        self.put(record(proofs=[]))
+        self.valid()
         for kind in ("argument", "framework"):
             path = self.put(record(kind, status="established"))
             self.invalid()
@@ -365,11 +453,14 @@ class ResearchTests(unittest.TestCase):
         self.put(data)
         self.invalid()
 
-    def test_unaccepted_or_malformed_route_cannot_establish_result(self):
+    def test_unreviewed_proposals_and_malformed_routes(self):
         self.put(record())
         self.valid()
-        for proofs in ([route(state="pending")], [route(state="disputed")], ["not a route"],
-                       [{**route(), "using": {"STCI-R-0001": True}}]):
+        for proofs in ([], [route(state="pending")], [route(state="disputed")]):
+            with self.subTest(proofs=proofs):
+                self.put(record(proofs=proofs))
+                self.valid()
+        for proofs in (["not a route"], [{**route(), "using": {"STCI-R-0001": True}}]):
             with self.subTest(proofs=proofs):
                 self.put(record(proofs=proofs))
                 self.invalid()
@@ -411,10 +502,11 @@ class ResearchTests(unittest.TestCase):
                 self.assertNotIn("Traceback", result.stdout + result.stderr)
 
     def test_supersession_requires_scope_bridge_and_result_targets(self):
-        self.put(record(number=1, status="superseded"))
+        self.put(record(number=1))
         replacement = record(number=2, supersedes=["STCI-R-0001"])
         bridge = BODY + "\n## Supersession\nThe synthetic replacement preserves the original scope and corrects the stated conclusion.\n"
         self.put(replacement, body=bridge)
+        self.put(record(number=3, proofs=[route(["STCI-R-0001"])]))
         self.valid()
         self.put(replacement)
         self.invalid()
@@ -424,7 +516,7 @@ class ResearchTests(unittest.TestCase):
                 self.put(record(number=2, supersedes=targets), body=bridge)
                 self.invalid()
         self.put(replacement, body=bridge)
-        self.put(record(number=1, status="superseded", supersedes=["STCI-R-0002"]), body=bridge)
+        self.put(record(number=1, supersedes=["STCI-R-0002"]), body=bridge)
         self.invalid()
 
     def test_path_containment_decoding_and_symlinks(self):
@@ -482,8 +574,8 @@ class ResearchTests(unittest.TestCase):
                 bad["proofs"][0]["using"] = premises
                 self.put(bad)
                 self.invalid()
-        for state in ("provisional", "disputed", "superseded"):
-            self.put(record(number=2, status=state))
+        for proofs in ([], [route(state="pending")], [route(state="disputed")]):
+            self.put(record(number=2, proofs=proofs))
             self.put(consumer)
             self.invalid()
         self.put(record(number=2))
@@ -499,6 +591,14 @@ class ResearchTests(unittest.TestCase):
         self.put(record(number=1))
         self.put(consumer)
         self.valid()  # An unchecked alternative does not invalidate the accepted route.
+        self.put(record(number=2, proofs=[route(state="pending")]))
+        consumer["proofs"][1] = {**route(), "name": "independent"}
+        self.put(consumer)
+        self.assertTrue(any("accepted route 'local' lacks noncircular accepted prerequisites" in error
+                            for error in self.errors()))
+        consumer["proofs"][0]["review"]["state"] = "pending"
+        self.put(consumer)
+        self.valid()
 
     def test_research_relations_cycles_groups_ownership_and_motivation(self):
         motivation = self.relation("motivates", ["STCI-F-0001", "STCI-F-0002"], ["STCI-I-0001"])
@@ -559,39 +659,136 @@ class ResearchTests(unittest.TestCase):
         self.put(record(proofs=[route(["STCI-R-0002", "premise-alias"])]))
         self.invalid()
 
-    def legacy(self, status="proved"):
-        data = {"id": "STCI-R-0090", "title": "Legacy conditional fact", "kind": "theorem", "status": status,
+    def legacy(self):
+        data = {"id": "STCI-R-0090", "title": "Legacy conditional fact", "kind": "theorem",
                 "scope": {"characteristic": "zero", "curve": "fixed smooth curve", "hypotheses": ["The stated assumption"]},
                 "statement": "Original statement.", "limitations": ["Only the specified setting"],
-                "evidence": ["research/legacy.md"], "accepted_in": "research/legacy.md", "dependencies": [],
+                "evidence": ["research/legacy.md"], "dependencies": [],
                 "independent_audits": ["research/legacy.md"], "legacy_ids": [], "supersedes": [], "superseded_by": []}
         self.write("research/legacy.md", "# Legacy evidence\nOriginal source review.\n")
         self.write("research/results/INDEX.md", "# Results\n[STCI-R-0090](legacy.md)\n")
         self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(data) + "---\n# Legacy\n")
         return data
 
-    def test_legacy_union_original_status_alias_and_no_implicit_promotion(self):
+    def test_untyped_union_source_passages_and_no_synthesized_route(self):
         self.legacy()
         self.put(record("framework", aliases={"STCI-Q-0010": "#question"}, relations=[self.relation("limits", ["STCI-R-0090"], ["STCI-F-0001"]) ]))
         self.valid()
         before = (self.root / "research/results/legacy.md").read_bytes()
         shown = research.Repository(self.root).show("STCI-R-0090")
-        self.assertIn("proved", shown)
+        self.assertIn("Recorded independent_audits: ['research/legacy.md']", shown)
         self.assertIn("STCI-Q-0010", research.Repository(self.root).show("STCI-Q-0010"))
         self.assertEqual(before, (self.root / "research/results/legacy.md").read_bytes())
         self.put(record(proofs=[route(["STCI-R-0090"])]))
         self.invalid()
-        self.put(record(status="provisional", proofs=[route(["STCI-R-0090"]) ]))
+        self.put(record(proofs=[route(["STCI-R-0090"], state="pending")]))
         self.valid()
         self.put(record(number=90))
         self.invalid()
+
+    def test_explicit_reviewed_routes_ground_across_both_result_formats(self):
+        untyped = self.legacy()
+        path = self.root / "research/results/legacy.md"
+
+        def write_untyped():
+            path.write_text("---\n" + yaml.safe_dump(untyped) + "---\n" + BODY)
+
+        untyped["proofs"] = [route()]
+        write_untyped()
+        self.put(record(proofs=[route([untyped["id"]])]))
+        self.valid()
+        repo = research.Repository(self.root)
+        shown = repo.show(untyped["id"])
+        self.assertIn("local: accepted", shown)
+        self.assertIn("Premise of STCI-R-0001", shown)
+        self.assertIn("STCI-R-0090: local; joint premises []", repo.catalog())
+        for proofs in (None, [], [route(state="pending")], [route(state="disputed")]):
+            with self.subTest(untyped_proofs=proofs):
+                if proofs is None:
+                    untyped.pop("proofs", None)
+                else:
+                    untyped["proofs"] = proofs
+                write_untyped()
+                self.invalid()  # Evidence/audit lists do not create an accepted route.
+
+        self.put(record())
+        untyped["proofs"] = [route(["STCI-R-0001"])]
+        write_untyped()
+        self.valid()
+        self.assertIn("Premise of STCI-R-0090", research.Repository(self.root).show("STCI-R-0001"))
+        for state in ("pending", "disputed"):
+            self.put(record(proofs=[route(state=state)]))
+            self.invalid()
+        self.put(record(proofs=[route([untyped["id"]])]))
+        self.invalid()  # A cross-format cycle cannot ground itself.
+        untyped["proofs"].append({**route(), "name": "independent"})
+        write_untyped()
+        self.valid()
+
+    def test_untyped_explicit_routes_use_same_proof_and_review_checks(self):
+        untyped = self.legacy()
+        path = self.root / "research/results/legacy.md"
+
+        def put_untyped(proofs):
+            untyped["proofs"] = proofs
+            path.write_text("---\n" + yaml.safe_dump(untyped) + "---\n" + BODY)
+
+        self.put(record("argument"))
+        proof = route()
+        proof["at"] = "research/arguments/STCI-A-0001.md#proof"
+        put_untyped([proof])
+        self.valid()
+        self.assertIn("Owns proof for STCI-R-0090", research.Repository(self.root).show("STCI-A-0001"))
+        for proofs in ({}, ["not a route"], [route([untyped["id"]])],
+                       [{**proof, "at": "#absent"}], [{**proof, "review": {"state": "accepted", "at": "#review"}}]):
+            with self.subTest(proofs=proofs):
+                put_untyped(proofs)
+                self.invalid()
+        put_untyped([proof])
+        untyped["accepted_in"] = "research/legacy.md"
+        path.write_text("---\n" + yaml.safe_dump(untyped) + "---\n" + BODY)
+        self.assertTrue(any("unknown field accepted_in" in error for error in self.errors()))
+
+    def test_reviewed_proof_in_existing_untyped_exposition_grounds_consumer(self):
+        untyped = self.legacy()
+        proof = route()
+        proof["at"] = "research/synthesis/source.md#proof"
+        untyped["proofs"] = [proof]
+        self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(untyped) + "---\n" + BODY)
+        source = self.write("research/synthesis/source.md", "# Existing mathematical exposition\n\n## Proof\nComplete synthetic argument for the exact stated scope.\n")
+        consumer = record(proofs=[route([untyped["id"]])])
+        self.put(consumer)
+        self.valid()
+        self.assertIn("local: accepted", research.Repository(self.root).show(consumer["id"]))
+        for location in ("research/synthesis/missing.md#proof", "research/synthesis/source.md#absent",
+                         "research/synthesis/source.md", "https://example.invalid/proof.md#proof"):
+            with self.subTest(location=location):
+                untyped["proofs"][0]["at"] = location
+                self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(untyped) + "---\n" + BODY)
+                self.invalid()
+        untyped["proofs"][0]["at"] = "research/synthesis/source.md#proof"
+        self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(untyped) + "---\n" + BODY)
+        source.write_text("# Exposition\n\n## Proof\n\n## Scope\nSpecified family.\n")
+        self.invalid()
+        source.write_text("# Exposition\n\n## Proof\nComplete synthetic argument.\n")
+        self.valid()
+
+        for kind, fragment in (("result", "#proof"), ("framework", "#bridges"), ("investigation", "#findings")):
+            with self.subTest(typed_owner=kind):
+                owner = record(kind, number=2)
+                owner_path = self.put(owner)
+                if kind == "investigation":
+                    self.put(record("framework", number=2, relations=[self.relation("motivates", ["STCI-F-0002"], ["STCI-I-0002"])]))
+                untyped["proofs"][0]["at"] = owner_path.relative_to(self.root).as_posix() + fragment
+                self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(untyped) + "---\n" + BODY)
+                self.assertTrue(any("proof at cannot use another typed" in error for error in self.errors()))
 
     def test_malformed_legacy_indexed_records_do_not_disappear(self):
         self.legacy()
         self.valid()
         path = self.root / "research/results/legacy.md"
         original = path.read_text()
-        for bad in (original.replace("kind: theorem", "kind: banana"), original.replace("status: proved", "status: established"),
+        for bad in (original.replace("kind: theorem", "kind: banana"), original.replace("kind: theorem", "kind: theorem\nstatus: proved"),
                     "---\nid: [unterminated\n---\n", "# No metadata\n"):
             with self.subTest(bad=bad[:70]):
                 path.write_text(bad)
@@ -647,19 +844,19 @@ class ResearchTests(unittest.TestCase):
         index.write_text(valid_index)
         self.valid()
 
-    def test_legacy_whole_document_aliases_resolve_without_promotion(self):
+    def test_legacy_whole_document_aliases_resolve_without_synthesized_routes(self):
         legacy = self.legacy()
         legacy["legacy_ids"] = ["inherited-old-id"]
         path = self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(legacy) + "---\n# Legacy\n")
-        self.put(record(status="provisional", proofs=[route(["inherited-old-id"])]))
+        self.put(record(proofs=[route(["inherited-old-id"], state="pending")]))
         self.valid()
         shown = research.Repository(self.root).show("inherited-old-id")
         self.assertIn("STCI-R-0090", shown)
-        self.assertIn("inherited", shown.lower())
+        self.assertIn("whole untyped document", shown.lower())
         self.assertIn("research/results/legacy.md", shown)
         self.assertNotIn("research/results/legacy.md#", shown)
         self.assertFalse(any(line.startswith("Proof ") for line in shown.splitlines()))
-        self.put(record(status="established", proofs=[route(["inherited-old-id"])]))
+        self.put(record(proofs=[route(["inherited-old-id"])]))
         self.invalid()
         self.put(record())
         for aliases in (["STCI-R-0001"], ["STCI-R-0090"]):
@@ -678,7 +875,7 @@ class ResearchTests(unittest.TestCase):
         self.write("research/results/INDEX.md", "# Results\n[STCI-R-0090](legacy.md)\n[STCI-R-0092](second.md)\n")
         self.invalid()
 
-    def test_legacy_dependencies_reject_direct_and_mutual_cycles(self):
+    def test_untyped_reference_cycles_are_navigation_and_only_proof_routes_ground(self):
         legacy = self.legacy()
         second = copy.deepcopy(legacy)
         second["id"] = "STCI-R-0092"
@@ -690,7 +887,17 @@ class ResearchTests(unittest.TestCase):
             with self.subTest(premises=premises):
                 legacy["dependencies"] = premises
                 self.write("research/results/legacy.md", "---\n" + yaml.safe_dump(legacy) + "---\n# Legacy\n")
-                self.invalid()
+                self.valid()
+        self.assertIn("recorded references (dependencies)", research.Repository(self.root).catalog())
+        legacy["proofs"] = [route([second["id"]])]
+        second["proofs"] = [route([legacy["id"]])]
+        for data, filename in ((legacy, "legacy.md"), (second, "second.md")):
+            self.write("research/results/" + filename, "---\n" + yaml.safe_dump(data) + "---\n" + BODY)
+        self.invalid()  # Accepted routes cannot ground one another circularly.
+        second["proofs"].append({**route(), "name": "independent"})
+        self.write("research/results/second.md", "---\n" + yaml.safe_dump(second) + "---\n" + BODY)
+        self.valid()
+        self.assertIn("local: accepted", research.Repository(self.root).show(legacy["id"]))
 
     def test_catalog_links_encode_legal_filenames_and_detect_missing_targets(self):
         target = self.put(record(), path="research/results/local # proof(1).md")
@@ -723,7 +930,7 @@ class ResearchTests(unittest.TestCase):
                 for consumer in ("STCI-R-0090", "STCI-Q-0001"):
                     inherited = [line for line in shown.splitlines() if consumer in line]
                     self.assertTrue(inherited, shown)
-                    self.assertTrue(all("inherited" in line.lower() for line in inherited), inherited)
+                    self.assertTrue(all("recorded" in line.lower() for line in inherited), inherited)
         unrelated = repo.show("STCI-R-0003")
         self.assertNotIn("STCI-R-0090", unrelated)
         self.assertNotIn("STCI-Q-0001", unrelated)
@@ -731,14 +938,14 @@ class ResearchTests(unittest.TestCase):
         self.assertIn(str(legacy["dependencies"]), old_shown)
         self.assertFalse(any(line.startswith("Proof ") for line in old_shown.splitlines()))
         catalog = repo.catalog()
-        self.assertIn("## Legacy questions (coexistence)", catalog)
+        self.assertIn("## Untyped questions", catalog)
         self.assertIn("[old-premise → STCI-R-0001, STCI-R-0002]", catalog)
         backlinks = catalog.split("## Object backlinks", 1)[1]
         for target in ("STCI-R-0001", "STCI-R-0002"):
             line = next(line for line in backlinks.splitlines() if line.startswith(f"- {target}:"))
             self.assertIn("STCI-R-0090", line)
             self.assertIn("STCI-Q-0001", line)
-            self.assertIn("inherited", line.lower())
+            self.assertIn("recorded", line.lower())
         line = next(line for line in backlinks.splitlines() if line.startswith("- STCI-R-0003:"))
         self.assertNotIn("STCI-R-0090", line)
         self.assertNotIn("STCI-Q-0001", line)

@@ -1,6 +1,6 @@
 # Smooth rational quartics in positive characteristic: cuspidal projection and descent
 
-Let the ground field be algebraically closed of characteristic p>0. This chapter owns the full family-wide construction for every smooth nondegenerate rational quartic, fixed-degree constructibility, and exact mate degrees on the standard and nonclassical cusp carriers. It is not restricted to the monomial embedding; nor does it give global minimum defining degrees. The characteristic-free geometry is proved in [the foundations](../synthesis/global_equations_and_constructions.md); the smaller fixed-model quartic-carrier constructions are in [their own proof home](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md). These are inherited reviewed proofs with no new canonical promotion.
+Let the ground field be algebraically closed of characteristic p>0. This chapter owns the full family-wide construction for every smooth nondegenerate rational quartic, fixed-degree constructibility, and exact mate degrees on the standard and nonclassical cusp carriers. It is not restricted to the monomial embedding; nor does it give global minimum defining degrees. The characteristic-free geometry is proved in [the foundations](../synthesis/global_equations_and_constructions.md); the smaller fixed-model quartic-carrier constructions are in [their own proof home](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md). These are inherited reviewed proofs.
 
 ## Universal rational-quartic construction (P-012): every smooth rational quartic is an STCI in positive characteristic
 

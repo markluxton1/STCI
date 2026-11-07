@@ -2,7 +2,6 @@
 id: STCI-R-0036
 title: "Pointwise conductor contact and top-socle defect"
 kind: theorem
-status: proved
 scope:
   characteristic: "characteristic zero"
   curve: "smooth curve in a smooth threefold"
@@ -17,7 +16,6 @@ evidence:
 independent_audits:
   - "research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md"
   - "research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md"
-accepted_in: "research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -53,4 +51,4 @@ Inherited premises are described in the proof and audit.
 
 ## Current mathematical evidence
 
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not imply an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

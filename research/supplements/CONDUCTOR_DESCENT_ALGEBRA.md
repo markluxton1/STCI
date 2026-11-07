@@ -1,6 +1,6 @@
 # Full conductor membership, unit powers, and pure descent
 
-These algebraic mechanisms apply beyond the fixed quartic. They consolidate the independently reconstructed power-descent argument, including the counterexamples that limit tensor, reduced, and numerical substitutes. They are source-reviewed mathematics; no new canonical promotion is made here. Applications must establish the actual conductor rings and the purity hypothesis.
+These algebraic mechanisms apply beyond the fixed quartic. They consolidate the independently reconstructed power-descent argument, including the counterexamples that limit tensor, reduced, and numerical substitutes. They are source-reviewed mathematics. Applications must establish the actual conductor rings and the purity hypothesis.
 
 The relevant geometric object is the finite pinching square of a normalization, rather than only its reduced double curve. [Stacks, §15.5](https://stacks.math.columbia.edu/tag/08KG) gives the ring fiber-product construction and its localization. The proofs below establish the particular membership and power assertions directly. The literature statement does not supply STCI existence.
 

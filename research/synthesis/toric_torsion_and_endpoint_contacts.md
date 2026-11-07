@@ -1,6 +1,6 @@
 # Toric torsion, opposite carriers, and endpoint contact filtrations
 
-**Status:** Provisional mathematical synthesis; not a promoted result.
+**Scope:** synthesis of exploratory mathematical work; review scopes are stated below.
 
 **Scope:** The fixed rational quartic
 \[
@@ -266,7 +266,7 @@ covered by the
 in characteristic zero, one weight-homogeneous equation cannot have an
 arbitrary sole-support mate. An invariant integral hypersurface has a
 weight-homogeneous defining equation. That theorem is independently
-reviewed provisional work, not a canonical promotion. The surviving
+reviewed work. The surviving
 general question concerns unrestricted moving ideals and their actual
 homogeneous equations, rather than a new proof of this invariant-carrier
 exclusion.
@@ -295,14 +295,14 @@ The following distinctions must be maintained throughout subsequent work:
 
 ## 10. Status and integration
 
-This document is a provisional synthesis of exploratory mathematical work.
+This document is a synthesis of exploratory mathematical work.
 The November 2, 2026 correction reconciles the source explorations with
 their linked current proofs, restores the exponent and notation errors,
 and specifies the embedded-jet convention and characteristic-zero scope.
 
-Its explicit formulas and calculations should be independently checked against the source explorations and existing canonical records before any new result is promoted.
+Its explicit formulas and calculations should be independently checked against the source explorations and existing records before relying on them.
 
-It introduces no new canonical theorem, changes no STCI status, and establishes no new compulsory research direction.
+It introduces no new theorem, changes no STCI status, and establishes no new compulsory research direction.
 
 ## 11. Source explorations
 
@@ -310,8 +310,8 @@ It introduces no new canonical theorem, changes no STCI status, and establishes 
 - [Root-of-unity arrangements and contact filtrations](../explorations/toric_torsion_endpoint_contacts/root_of_unity_contact_handoff.md)
 
 These are restored exploratory source documents, not verbatim transcripts
-or canonical result records. Their correction notices identify reconstructed
+or result records. Their correction notices identify reconstructed
 notation and superseded research suggestions.
 The synthesis organizes their mathematical content and identifies
 connections with existing work. New claims require independent review
-before promotion.
+before relying on the claim.

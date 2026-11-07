@@ -1,10 +1,10 @@
 # Invariant sextic geometry: orbit closures, residual boundaries, and Hilbert limits
 
-**Status and scope.** This is a provisional mathematical proof home for
+**Status and scope.** This is a mathematical proof home for
 explicit proper sextic intersections and their torus limits, over an
 algebraically closed field \(k\). Independent review reconstructed the new
 examples, residual bound and full-limit proofs in this written text;
-they remain provisional and no canonical result is promoted. The inherited actual-source and
+they retain the review scopes stated here. The inherited actual-source and
 sole-support sextic results are cited with their existing status in the
 last section. All displayed cycle calculations are characteristic free
 unless a narrower hypothesis is stated.
@@ -30,7 +30,7 @@ degree alone never identifies its scheme structure or residual ideal.
 The [torus quotient and endpoint companion](toric_quotients_and_endpoint_descent.md)
 owns the general product and endpoint-descent discussion. This home keeps
 actual projective equations, cycles and full flat ideals. The joint
-[exact verifier](../computations/verify_toric_quotients_and_residual_limits.py)
+[exact verifier](../investigations/torus-residual-controls/verify.py)
 is supporting evidence; the proofs below specify what its identities
 measure and do not treat a successful run as a substitute for family
 coverage or saturation.
@@ -566,7 +566,7 @@ retains the additional cubic matching conditions and its own reviewed
 characteristic-zero hypotheses.
 
 Second, the existing [sole-support sextic reduction](../supplements/SEXTIC_PAIR_REDUCTION.md)
-is independently reviewed provisional evidence in characteristic zero or
+is independently reviewed evidence in characteristic zero or
 \(p\ge7\). For **every** proper \((6,6)\) pair with reduced support
 \(C\), its proof obtains generic curvilinear length nine and the full
 necessary divisor profiles. Neither statement is reproved here or
@@ -628,5 +628,4 @@ the full-family saturation and determinantal limit, and both derivations
 of the special cycle multiplicities. The finite verifier checks the
 stated arithmetic and polynomial identities separately. The inherited source-space,
 sole-support reduction and conormal results retain their linked review
-and canonical status. This text introduces no canonical promotion and
-no new all-pair STCI conclusion.
+and status. This text introduces no new all-pair STCI conclusion.

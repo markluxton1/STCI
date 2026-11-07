@@ -2,7 +2,6 @@
 id: STCI-R-0023
 title: "Explicit quartic residual geometry"
 kind: theorem
-status: proved
 scope:
   characteristic: "0"
   curve: "fixed C0"
@@ -15,7 +14,6 @@ evidence:
   - "research/synthesis/explicit_quartic_residuals.md"
 independent_audits:
   - "research/synthesis/explicit_quartic_residuals.md"
-accepted_in: "research/results/ci_quartic_explicit_residual_geometry.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -49,4 +47,4 @@ No universal statement about quartic pairs or STCI.
 
 ## Current proof home
 
-The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/explicit_quartic_residuals.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new inherited CAS execution was required.
+The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/explicit_quartic_residuals.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.

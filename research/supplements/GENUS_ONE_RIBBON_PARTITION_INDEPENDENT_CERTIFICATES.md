@@ -17,7 +17,7 @@ This independently accepts the complete coverage in
 [the owner's repeated-partition proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md).
 No parameter, endpoint, direction chart, invisible quadric coefficient, or
 positive mate exponent remains uncovered within these three partitions.
-This note changes no canonical state or acceptance file.
+This note changes no state or acceptance file.
 
 The independent exact companion is
 [countercheck.m2](../validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2).
@@ -61,7 +61,7 @@ upstream inputs are:
 
 The implication of these inputs from all genus-one carriers, the separate
 `[2,1,1]` proof, and the preceding exclusion of squarefree `L_C` are outside
-this audit. They must be accepted separately before promoting a complete
+this audit. They must be accepted separately before concluding a complete
 genus-one theorem. Within the three named partitions, the inputs suffice,
 and the following coverage is complete. In particular, no stronger
 multiplicity divisibility of `D_Q1` by `L_C` is assumed.
@@ -286,6 +286,6 @@ The final command was
 
 The independent checker verifies the 29 exact conditions used above. Its passing status does not itself prove upstream geometric hypotheses or settle the unrestricted STCI question.
 
-The assigned audit is complete. Promotion of all genus-one quartic
+The assigned audit is complete. A complete exclusion of all genus-one quartic
 carriers still requires the separate upstream/interface and `[2,1,1]`
-audit; this note makes no canonical promotion.
+audit.

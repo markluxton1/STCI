@@ -15,7 +15,7 @@ Date: 2026-10-09. Author: `normal_global_adversarial`.
 Status: **PROVED HERE as necessary conditions**, assuming the separately
 accepted degree-four ADE del Pezzo normalization and D5 torsion reduction.
 This note does not exhaust the remaining projection parameters or exclude
-every genus-one carrier. No canonical frontier file is edited.
+every genus-one carrier. No frontier file is edited.
 
 ## 1. Binding the complete embedding to the actual C0
 

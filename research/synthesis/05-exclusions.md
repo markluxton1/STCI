@@ -9,7 +9,7 @@ obstruction mechanisms. In every characteristic \(p>0\), the same fixed
 curve **is** an STCI using a quartic carrier; see the
 [explicit construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
 
-Two reviewed provisional results sharpen degree-five scope. An integral
+Two reviewed results sharpen degree-five scope. An integral
 [nonnormal quintic with Gorenstein normalization](quintic_gorenstein_normalizations.md)
 has no mate in any degree. A proper sole-supported degree-(5,8) pair cannot
 have a [globally ADE quintic](quintic_octic_surface_constraints.md), even with

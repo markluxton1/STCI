@@ -2,7 +2,6 @@
 id: STCI-R-0009
 title: Moving pure-power relation tower and unavoidable second-relation degeneration
 kind: theorem
-status: proved
 scope:
   characteristic: "zero"
   curve: "smooth curve in a smooth threefold with balanced split conormal"
@@ -20,7 +19,6 @@ evidence:
 independent_audits:
   - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
   - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
-accepted_in: "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -63,4 +61,4 @@ The divisor D records actual special-point degeneration, including failures of s
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

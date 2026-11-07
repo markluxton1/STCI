@@ -2,7 +2,6 @@
 id: STCI-R-0035
 title: "Bounded-index normal-carrier exclusion for C0"
 kind: theorem
-status: proved
 scope:
   characteristic: "characteristic zero"
   curve: "fixed rational quartic C0 in P3"
@@ -19,7 +18,6 @@ evidence:
   - research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md
 independent_audits:
   - research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md
-accepted_in: "research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -47,10 +45,10 @@ Required hypotheses:
 
 ## Dependencies and limitations
 
-Canonical dependencies: STCI-R-0034, STCI-R-0001. Additional inherited premises are in the proof and audit.
+Dependencies: STCI-R-0034, STCI-R-0001. Additional inherited premises are in the proof and audit.
 - Indices six, twelve and higher are not excluded
 - No conclusion for nonnormal or entirely-thick presentations
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

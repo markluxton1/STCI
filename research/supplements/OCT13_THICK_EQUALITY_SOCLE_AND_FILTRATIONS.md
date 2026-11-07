@@ -1,6 +1,6 @@
 # Symbolic ribbons, valuation bounds and normalization controls
 
-Complete source text preserved below, including explicit hypotheses, calculations, counterexamples and unresolved issues. Compilation is not independent correctness audit or theorem promotion.
+Complete source text preserved below, including explicit hypotheses, calculations, counterexamples and unresolved issues. Compilation is not an independent correctness audit.
 
 ---
 
@@ -615,7 +615,7 @@ Owner source read:
 SHA-256 `38bff3c497b1c0f8310a623e36c0fd5d6ded0517fc6903115b4321f5672d5848`.
 The acceptance here is for section 3 and the finite fixed-C0 classification
 in section 4. The later power-compression consequences have their separate
-new-theorem dependency and are not promoted by this audit.
+new-theorem dependency and are not established by this audit.
 
 ### 1. The exact accepted theorem
 

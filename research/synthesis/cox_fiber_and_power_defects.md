@@ -4,7 +4,7 @@ The cone-vertex fiber obstructs two-generated reductions of ideal powers;
 it does not obstruct two homogeneous equations with the same radical.
 The section-defect formula below explains why ordinary ambient powers
 fail the eventual Cohen–Macaulay hypothesis of a symbolic-Rees criterion.
-These independently reviewed deductions remain provisional.
+These independently reviewed deductions retain the review scopes stated here.
 
 ## 1. Exact input and what is inherited
 

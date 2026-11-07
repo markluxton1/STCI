@@ -1,6 +1,6 @@
 # Primitive and defective triple carriers
 
-Full original mathematical text retained below. Original hypotheses, failures, qualifications and unresolved cases retain their source status; this compilation is not an independent correctness audit.
+This compilation retains the mathematical hypotheses, failed arguments, qualifications, and unresolved cases. It supplies no new independent audit.
 
 ---
 
@@ -1173,7 +1173,7 @@ alpha beta!=0, or a different nonnormal carrier on C0.
 
 Date: 2026-10-07. Status: **PROVED lemmas and conditional exclusions;
 classification scope and surviving singular strata retained**. The
-unrestricted nonnormal-quartic lane remains open. No canonical frontier
+unrestricted nonnormal-quartic lane remains open. No frontier
 file is edited by this note.
 
 Throughout the proved lemmas, k is algebraically closed of characteristic
@@ -1261,7 +1261,7 @@ q=4 and q=2. The B3 normalizations are quartic rational scrolls; B4 uses
 P2 polarized by O(2). The source theorem assumes semi-log-canonical
 singularities over C; it is not an exhaustive theorem for arbitrary
 nonnormal quartics. The original Urabe DOI/Project Euclid endpoints were
-not readable in this audit, so broader classification is not promoted.
+not readable in this audit, so broader classification was not checked.
 
 Two tempting transfers are invalid without further proof. A section of
 a smaller degree on S need not descend through the conductor to X, so

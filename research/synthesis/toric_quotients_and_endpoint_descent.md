@@ -8,19 +8,17 @@ produces an actual projective curve scheme, with its nilpotents retained.
 It need not produce a complete intersection. Its two endpoint lattices
 measure exactly what the finite parametrization adds to that image.
 
-**Status and scope.** The prescribed quartic pair is the promoted
-[R-0021](../results/quartic_mu4_degeneration.md). The constant-quotient
-formulation and examples below are provisional deductions: independent
+**Status and scope.** The prescribed quartic pair is described in [R-0021](../results/quartic_mu4_degeneration.md). The constant-quotient
+formulation and examples below are deductions: independent
 review reconstructed the written image, endpoint, proper-pair and flat-collision
 arguments, including the characteristic-three calculation. The finite
-determinant and index computations were checked separately. This does not
-promote these deductions.
+determinant and index computations were checked separately.
 The [full tropical modification](tropical_thickenings_and_endpoint_duality.md)
 owns the moving-family theorem, and [endpoint valuation fans](endpoint_valuations.md)
 owns the benchmark's contact and cancellation analysis. The calculations here
 are a source reformulation and degree-exhaustion test, not a new unrestricted
 STCI obstruction. Exact finite calculations are retained in the
-[quotient and residual verifier](../computations/verify_toric_quotients_and_residual_limits.py).
+[quotient and residual verifier](../investigations/torus-residual-controls/verify.py).
 
 ## Geometry of a finite family of orbit closures
 
@@ -237,11 +235,10 @@ Take \(B=k[u]/(u^4-1)\), \(v=1\), so \(n=4\). The prescribed equations
  F=x_1^4-x_0^3x_3,\qquad G=x_2^4-x_0x_3^3
 \]
 belong to \(K\), have gcd one, and exhaust degree sixteen. Thus (10)
-identifies their scheme with \(Z_B\). The promoted statement and its full
+identifies their scheme with \(Z_B\). The statement and its full
 integral flatness and support proof are
 [R-0021](../results/quartic_mu4_degeneration.md) and
 [its proof home](../supplements/CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md#1-what-actually-coalesces).
-That argument is used here without changing its authority or scope.
 
 At zero, \(v=1\) makes the weight-four generator redundant. A DVR basis is
 \(1,r^3u,r^6u^2,r^9u^3\), so \(\delta_0=18\). At infinity,

@@ -1,6 +1,6 @@
 # October 9 historical mathematics
 
-Full original source text preserved. Hypotheses, counterexamples, unsuccessful arguments, and open questions retain their source status; no new independent audit or theorem promotion.
+This compilation retains the mathematical hypotheses, counterexamples, unsuccessful arguments, and open questions. This compilation supplies no new independent audit.
 
 ---
 
@@ -8,7 +8,7 @@ Full original source text preserved. Hypotheses, counterexamples, unsuccessful a
 
 # Independent audit of the projected four-A1 family
 
-Date: 2026-10-09. Auditor: `family2_quadratic_independent_audit`, independent of the construction owner. This bounded audit used no child agents and edited no original source or canonical frontier document.
+Date: 2026-10-09. Auditor: `family2_quadratic_independent_audit`, independent of the construction owner. This bounded audit used no child agents and edited no original source or frontier document.
 
 ## Verdict and exact scope
 
@@ -416,7 +416,7 @@ obtained by another construction at those degenerations is made.
 Other four-A1 projections, the A3+2A1 torsion configuration, other
 genus-one singular normalizations, and genus-two normalizations still
 require a structural argument or an exhaustive correctly scoped
-classification. No canonical frontier file has been edited by this
+classification. No frontier file has been edited by this
 owner note.
 
 

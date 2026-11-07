@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact identities supporting the provisional special-lines/planes note.
+"""Exact identities supporting the special-lines/planes note.
 
 Requires SymPy; e.g. /tmp/stci-z4-env/bin/python <this file>.
 These checks supplement the geometric proofs. They neither construct an STCI

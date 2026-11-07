@@ -1,10 +1,8 @@
 # Quartic jet geometry
 
-Canonical status: **structural lemmas proved; general framework open**
-
 Let \(Q\cong\mathbf P^1\times\mathbf P^1\) be the unique smooth quadric containing the rational quartic \(C\). Comparing the conormal sequence from \(Q\) with a primitive double produces a degree-three divisor \(R\) on \(C\) measuring where the primitive conormal direction agrees with the quadric direction.
 
-The established structural facts include:
+The quartic jet geometry includes the following facts.
 
 - the codimension-three first-normal extension condition has an intrinsic cohomological description on \(Q\);
 - the primitive conormal kernel is an elementary modification of the quadric conormal direction at \(R\);
@@ -12,15 +10,9 @@ The established structural facts include:
 - the P-045 rank jump corresponds geometrically to \(R\) being a ruling-fiber divisor;
 - after quotienting the universal quadric-square direction, the essential second-order target is supported on the doubled divisor \(2R\).
 
-These facts motivate the jet-condition/discrepancy framework: expected condition counts are insufficient unless one understands when successive containment conditions become dependent.
+These facts motivate the [jet-discrepancy question](../open/jet_condition_framework.md). The dependence of successive containment conditions remains open in the broader settings described there.
 
 The older side-thread statement that \((4,7),e=2\) remained open is superseded by the quartic factorization result.
-
-## Provenance
-
-- \`../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-quartic-jet-geometry-structural-supplement\`
-
-Active continuation: \`../open/jet_condition_framework.md\`.
 
 ## Scope reconciliation (October 2026 consolidation)
 

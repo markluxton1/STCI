@@ -1,6 +1,6 @@
 # A quasi-étale cover and symbolic triple exclude globally ADE quintics
 
-This is the full stronger degree-\((5,8)\) argument for the fixed embedded quartic. Its frozen source at `8e9a87a` and independent source audit accept the theorem as reviewed provisional mathematics. This consolidation retains the full proof and the audit’s distinct cover and numerical controls; independent preservation/integration review has accepted this replacement. No canonical promotion is made. The [surface-constraints account](quintic_octic_surface_constraints.md) retains the first-symbol geometry, the independent reduced-symbol/even-node proof, and the actual residual controls.
+This is the full stronger degree-\((5,8)\) argument for the fixed embedded quartic. Its frozen source at `8e9a87a` and independent source audit accept the theorem as reviewed mathematics. This consolidation retains the full proof and the audit’s distinct cover and numerical controls; independent preservation/integration review has accepted this replacement. The [surface-constraints account](quintic_octic_surface_constraints.md) retains the first-symbol geometry, the independent reduced-symbol/even-node proof, and the actual residual controls.
 
 ## 1. Exact statement and proof inputs
 
@@ -30,8 +30,7 @@ We use the following inputs at their stated scopes:
   [the full embedded-triple calculation](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-further-audit).
   Its embedded-triple calculation is independent of the final carrier degree.
   Section 6 below extends that calculation to this application; it does not
-  import the later quartic-membership argument. The promoted
-  [R-0033](../results/constant_first_relation_lifting.md) alone does not exclude
+  import the later quartic-membership argument. [R-0033](../results/constant_first_relation_lifting.md) alone does not exclude
   positive-defect triples.
 - Jaffe, [*Applications of iterated curve blowup to set theoretic complete
   intersections in P3*](https://arxiv.org/pdf/alg-geom/9410008), Theorem 4.1
@@ -366,4 +365,4 @@ The [fixed-singularity account](quintic_octic_surface_constraints.md) preserves 
 
 The proof uses R-0001 and its factor/lower-degree reduction, R-0020, the shared ordinary-layer/genus identities, Jaffe’s exhaustive ADE smooth-curve-pair data, Debarre’s birational canonical-map inequality, and the exact constant-direction moving-coordinate cocycle. The source audit independently reconstructed the cover’s connectedness and normality, all local cover types, rank domination, four-row arithmetic, symbolic-triple lattice and killing matrices. Its additional Noether-only numerical control is retained in §3. No new executable computation is needed. The inherited [degree-one/two triple checker](../computations/verify_mf6_defect12.py) supports the unchanged moving-chart calculation; no inherited certificate was rerun. The written determinants and local image algebra give the proof’s finite calculations.
 
-The frozen source proof and audit are independently reviewed provisional evidence. Separate preservation/integration review has accepted this replacement, with no material finding. Neither that review nor consolidation promotes a canonical result.
+The frozen source proof and audit are independently reviewed evidence. Separate preservation/integration review has accepted this replacement, with no material finding.

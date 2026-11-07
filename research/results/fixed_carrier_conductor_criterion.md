@@ -2,7 +2,6 @@
 id: STCI-R-0003
 title: Fixed-carrier conductor descent criterion
 kind: theorem
-status: proved
 scope:
   characteristic: "any algebraically closed field"
   curve: "integral curve on a fixed integral Cohen-Macaulay projective surface"
@@ -17,14 +16,13 @@ evidence:
 independent_audits:
   - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
   - "research/supplements/CONDUCTOR_DESCENT_ALGEBRA.md"
-accepted_in: "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
 limitations:
   - "Only a fixed-carrier theorem; not a global carrier classification."
   - "Abstract finite reduction is not an effective algorithm for arbitrary surfaces."
-  - "Historical promotion did not identify a separate independent-audit artifact; the current full proof has since received identified independent reconstruction."
+  - "The source does not identify a separate independent-audit artifact; the current full proof has since received identified independent reconstruction."
 ---
 
 # Fixed-carrier conductor descent
@@ -56,12 +54,12 @@ For a singleton branch when X is generically regular along C, set a=H^2, c=H.Gam
 
 [Original theorem and recorded independent audits](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md).
 
-[Accepted October 14 state, Section 2](https://github.com/markluxton1/STCI/blob/0b18029d3372b5cc91f5637965e4217e0967e735/research/AUDITED_STATE_2026-10-14.md).
+[October 14 state, Section 2](https://github.com/markluxton1/STCI/blob/0b18029d3372b5cc91f5637965e4217e0967e735/research/AUDITED_STATE_2026-10-14.md).
 
 The complete source proof and its independent mathematical reconstructions survive in the current proof homes; no unrestricted STCI conclusion follows.
 
 ## Current mathematical evidence
 
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not imply an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
 
-The original promotion reported reviewers within its source but did not identify a separate audit artifact. The current fixed-carrier lattice proof and its local algebra were independently reconstructed during consolidation at the full displayed scope; the linked consolidation-review sections provide the current review evidence, without asserting that the previously missing artifact existed.
+The original source reports reviewers but does not identify a separate audit artifact. The current fixed-carrier lattice proof and its local algebra were independently reconstructed during consolidation at the full displayed scope; the linked consolidation-review sections provide the current review evidence, without asserting that the previously missing artifact existed.

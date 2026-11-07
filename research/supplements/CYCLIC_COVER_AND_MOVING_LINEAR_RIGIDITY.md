@@ -466,7 +466,7 @@ cannot bound the local Cartier index.
 - The new formula is degree independent and exact. It gives a structural
   obstruction to a proposed global argument, not a negative STCI theorem.
 
-No canonical research record or other agent's file was edited. The
+No research record or other agent's file was edited. The
 independent example audit is the companion note linked at the beginning.
 
 
@@ -1985,6 +1985,6 @@ The new coefficient equations, their complete case split, the frame
 identification, the pure-power splitting at every step, and the finite
 principal-relation lifting argument have been independently derived. The
 accepted chart transition and accepted quadric equation
-were used without re-verification. No new finite test is promoted to a
+were used without re-verification. No new finite test establishes a
 proof of global existence. The next unresolved calculation is the
 cubic compatibility of the obstruction-zero moving linear relations.

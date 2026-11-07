@@ -1,4 +1,4 @@
--- New finite algebra controls for the provisional 2026-10-28 liaison note.
+-- Finite algebra controls for the 2026-10-28 liaison note.
 -- Does not assert smooth residuals or lifting of finite-field examples.
 -- The all-degree proof is in the note, not inferred from these samples.
 R=QQ[x0,x1,x2,x3];

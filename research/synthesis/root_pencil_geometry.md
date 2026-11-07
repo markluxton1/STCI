@@ -1,6 +1,6 @@
 # Root pencils, conductor geometry, and arithmetic collision
 
-These are reviewed provisional calculations for the displayed actual four-sheet pencil, not an invariant or classification of arbitrary intersections. The fixed quartic is marked throughout. Distinct roots, geometric boundaries, residual degree and generic thickness are tracked separately.
+These are reviewed calculations for the displayed actual four-sheet pencil, not an invariant or classification of arbitrary intersections. The fixed quartic is marked throughout. Distinct roots, geometric boundaries, residual degree and generic thickness are tracked separately.
 
 
 Put
@@ -458,7 +458,7 @@ Another useful invariance check is \(V(F^r,G^s)\): its fundamental cycle is \(rs
 
 ## 12. Characteristic two: residual mass becomes transverse thickness
 
-The promoted result [STCI-R-0021](../results/quartic_mu4_degeneration.md) gives a flat integral model of \(Z\). Away from the endpoints it is
+The result [STCI-R-0021](../results/quartic_mu4_degeneration.md) gives a flat integral model of \(Z\). Away from the endpoints it is
 \[
 \mathbf G_m\times\mu_4.
 \]

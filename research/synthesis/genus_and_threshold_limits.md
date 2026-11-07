@@ -5,7 +5,7 @@ surviving characteristic-zero degree pair on the fixed quartic. Local
 threshold and mixed-multiplicity bounds recover the first normal-order
 inequality. Neither comparison bounds the later contact needed to force
 a genuine residual component. These independently reviewed deductions
-are provisional; they change no canonical STCI status.
+are deductions under the stated hypotheses; they change no STCI status.
 
 ## The least containing surface belongs to the full scheme
 

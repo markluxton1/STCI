@@ -493,7 +493,7 @@ boundary identities for the synthesis. It does not rerun inherited group, conorm
 or secant proofs. Its output is
 [recorded separately](../computations/quartic_flag_incidence_2026_10_24.json).
 The intrinsic arguments above establish globality and completeness;
-finite symbolic checks alone do not do so. No new canonical record or
+finite symbolic checks alone do not do so. No new
 frontier exclusion is proposed. The smooth flag identification and these
 maps answer the fixed-embedding questions in this note; varying the
 projection center or classifying analytic singularities of the secant

@@ -1,6 +1,6 @@
 # Two blowups, actual residual cycles, and supporting nef bounds
 
-Fix C=C0 over an algebraically closed characteristic-zero field. The seven cubics give the established graph B=Bl_C(P3)=Bl_Gamma(V5), where Gamma is a smooth conic. This underlying birational model is verified in [Cheltsov–Przyjalkowski–Shramov, Lemma 6.13](https://arxiv.org/html/1809.09223v1#S6.L13). The explicit cubic-image construction and its exact certificate are retained in the conditional sextic geometric account; the model itself does not require a (6,16) pair. The deductions below are reviewed provisional, not promoted canonical results.
+Fix C=C0 over an algebraically closed characteristic-zero field. The seven cubics give the established graph B=Bl_C(P3)=Bl_Gamma(V5), where Gamma is a smooth conic. This underlying birational model is verified in [Cheltsov–Przyjalkowski–Shramov, Lemma 6.13](https://arxiv.org/html/1809.09223v1#S6.L13). The explicit cubic-image construction and its exact certificate are retained in the conditional sextic geometric account; the model itself does not require a (6,16) pair. The deductions below have independent review.
 
 ## The two blowups and their actual global section dictionary
 
@@ -108,7 +108,7 @@ is particularly useful. Set
 \Sigma=V\cap V(y_0y_3-y_1y_2)\subset\mathbf P^6.
 \]
 
-**Provisional proposition.** \(\Sigma\) is an integral nonnormal
+**Proposition.** \(\Sigma\) is an integral nonnormal
 anticanonical surface on \(V\). Its normalization is the finite birational
 map
 

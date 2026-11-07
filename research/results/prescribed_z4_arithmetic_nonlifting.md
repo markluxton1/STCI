@@ -2,7 +2,6 @@
 id: STCI-R-0012
 title: "Prescribed characteristic-two Z4 has no flat embedded lift over Z_(2) or Z_2"
 kind: theorem
-status: proved
 scope:
   characteristic: "special fiber F2; bases Z_(2) and Z_2"
   curve: "fixed relative rational quartic [s^4:s^3t:st^3:t^4] in P3_R"
@@ -16,7 +15,6 @@ evidence:
   - "research/supplements/Z4_LIFTING_AND_DEFORMATION.md"
 independent_audits:
   - "research/supplements/Z4_LIFTING_AND_DEFORMATION.md"
-accepted_in: "research/supplements/Z4_LIFTING_AND_DEFORMATION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []

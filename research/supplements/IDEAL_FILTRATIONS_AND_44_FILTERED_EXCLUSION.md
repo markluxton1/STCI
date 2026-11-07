@@ -20,11 +20,11 @@ Full mathematical investigations retained by subject. Proposals, independent rev
 
 # Independent investigation: ideal filtrations and the nine-embedding diagram
 
-Date: 2026-10-23. Status: **research proposal and independent assessment; not a promoted canonical result**.
+Date: 2026-10-23. Status: **research proposal and independent assessment**.
 
 Scope: distinct integral hypersurfaces \(X,Y\subset P=\mathbf P^3_k\), their scheme intersection \(Z\), and a specified reduced closed subscheme \(C\subset Z\). Distinguish \(C=Z_{\mathrm{red}}\) from a marked component \(C\subsetneq Z_{\mathrm{red}}\). Statements identifying \(\operatorname{Sym}(I/I^2)\) with \(\operatorname{gr}_I\mathcal O_P\) additionally assume \(C\hookrightarrow P\) regular. The explicit marked rational quartic is smooth. Local counterexamples are local examples, not global constructions for that fixed projective quartic.
 
-The original request specified no repository edits. The subsequent instruction, “pls save your work in a branch,” authorizes this report and its evidence on a separate branch. No accepted proof, canonical result, or canonical question is changed.
+The original request specified no repository edits. The subsequent instruction, “pls save your work in a branch,” authorizes this report and its evidence on a separate branch. No accepted proof, result, or question is changed.
 
 ## 1. Verdict and scope corrections
 
@@ -295,7 +295,7 @@ The defect \(\Delta_n\) measures minimal initial equations created by combinatio
 
 There is a useful general explanation for the favorable quartic calculation.
 
-**Proposition (new assessment, independently reviewed; not canonically promoted).** Let \(C\) be a smooth curve of codimension two in a smooth equicharacteristic ambient threefold. Let \(J=(f,g)\subset I_C\) be a two-generator regular-sequence ideal. At any \(p\in C\) where at least one carrier has a nonzero fiber conormal symbol, \(\Delta_p=0\). Equivalently in this smooth setting, either carrier being smooth at \(p\) suffices. Consequently
+**Proposition (new assessment, independently reviewed).** Let \(C\) be a smooth curve of codimension two in a smooth equicharacteristic ambient threefold. Let \(J=(f,g)\subset I_C\) be a two-generator regular-sequence ideal. At any \(p\in C\) where at least one carrier has a nonzero fiber conormal symbol, \(\Delta_p=0\). Equivalently in this smooth setting, either carrier being smooth at \(p\) suffices. Consequently
 \[
 \operatorname{Supp}\Delta\subset
 C\cap\operatorname{Sing}X\cap\operatorname{Sing}Y.
@@ -474,7 +474,7 @@ Completeness of this package is built in because a nonzero fiber includes the or
 
 Every \(\mathcal O(n)\) here means \(\mathcal O_{\mathbf P^1}(n)\); ambient \(\mathcal O_P(d)|_C=\mathcal O(4d)\). The curve is \([s:t]\mapsto[s^4:s^3t:st^3:t^4]\) and the equations are \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\).
 
-The currently promoted [R0020](../results/quartic_conormal_characteristic_jump.md) and [R0021](../results/quartic_mu4_degeneration.md) cover the splitting and explicit degeneration. Their [geometry/symbol audit](CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md#the-prescribed-mu4-intersection-and-actual-quartic-symbols) was consulted. The chart calculations below independently reconstruct the requested formulas and lifting compatibility; unrelated accepted exclusions are not rerun.
+[R0020](../results/quartic_conormal_characteristic_jump.md) and [R0021](../results/quartic_mu4_degeneration.md) cover the splitting and explicit degeneration. Their [geometry/symbol audit](CONORMAL_SPECIALIZATION_AND_QUARTIC_SYMBOLS.md#the-prescribed-mu4-intersection-and-actual-quartic-symbols) was consulted. The chart calculations below independently reconstruct the requested formulas and lifting compatibility; unrelated accepted exclusions are not rerun.
 
 ### 7.1 Exact equations and overlap
 
@@ -683,16 +683,16 @@ The direction is worthwhile as rigorous organizational and computational languag
 
 ## 10. Evidence, authority, and review boundary
 
-Retrieval followed research/INDEX.md to the smallest relevant canonical records, with research/AUTHORITY.md and research/CONTRIBUTING_AGENT.md governing status.
+Retrieval followed research/INDEX.md to the smallest relevant records, with research/AUTHORITY.md and research/CONTRIBUTING_AGENT.md governing status.
 
-| Promoted input | Exact claim used | Scope retained |
+| input | Exact claim used | Scope retained |
 |---|---|---|
 | [R0020](../results/quartic_conormal_characteristic_jump.md) | Conormal splitting | Fixed embedding; characteristic not two versus two |
 | [R0021](../results/quartic_mu4_degeneration.md) | Explicit reduced/nonreduced degeneration | Prescribed equations; geometric components over splitting field |
 
-Both were reconstructed at the chart level requested by this audit. No broader STCI exclusion, arithmetic nonlifting theorem, or canonical promotion is inferred. The older explanatory note's provisional wording is historical; the current result records establish the present promoted scopes.
+Both were reconstructed at the chart level requested by this audit. No broader STCI exclusion or arithmetic nonlifting theorem is inferred. The current result records establish the present scopes.
 
-The general identities, comparison direction, counterexamples, completeness distinctions, and recommendation are the assessment here. Independent workers separately reconstructed the lifting algebra, quartic charts, completeness examples, and derived diagrams. The accompanying review record states what was checked and corrected. Review within this investigation is not canonical acceptance.
+The general identities, comparison direction, counterexamples, completeness distinctions, and recommendation are the assessment here. Independent workers separately reconstructed the lifting algebra, quartic charts, completeness examples, and derived diagrams. The accompanying review record states what was checked and corrected. Review within this investigation is not external acceptance.
 
 See the [independent proof review](#2026-10-23-ideal-filtrations-independent-reviewmd) and the exact arithmetic programs linked below.
 
@@ -712,7 +712,7 @@ Date: 2026-10-23.
 
 Target: [independent investigation](#2026-10-23-ideal-filtrations-independent-investigationmd).
 
-Status: **independent mathematical review completed within the scopes below; proposal only, no canonical promotion**. The reviewers are independent agents in this investigation, not human referees or external acceptance authorities. A PASS means that the stated derivation was independently checked within its assigned scope. It is not evidence that a computation by itself proves the mathematics.
+Status: **independent mathematical review completed within the scopes below; proposal only**. The reviewers are independent agents in this investigation, not human referees or external acceptance authorities. A PASS means that the stated derivation was independently checked within its assigned scope. It is not evidence that a computation by itself proves the mathematics.
 
 ## Review assignments and findings
 
@@ -799,7 +799,7 @@ H=(X,a_0Y^m),\qquad
 \]
 The coefficient \(a_0\) may vanish at the closed point; it only needs to be nonzero in the domain \(D_0\). The proof uses additive \(y\)-order, not invertibility of \(a_0\). Flatness preserves the defining finite intersections and faithful flatness descends each vanishing defect piece.
 
-This is a support containment, not equality. Both carriers being singular does not force a nonzero defect. Generic smoothness only confines the defect to special points; it does not settle those points. The proposition is independently reviewed new material in this proposal and is not a promoted result.
+This is a support containment, not equality. Both carriers being singular does not force a nonzero defect. Generic smoothness only confines the defect to special points; it does not settle those points. The proposition is independently reviewed new material in this proposal .
 
 ## Corrections made before saving the final package
 
@@ -811,7 +811,7 @@ This is a support containment, not equality. Both carriers being singular does n
 
 ## Evidence and limits
 
-The scripts verify finite local identities and algebra models. The proof audit separately checks the general algebra, gluing, and scope arguments. No unrestricted characteristic-zero STCI theorem, new global pair, or novelty claim is certified. Canonical result and question records remain unchanged.
+The scripts verify finite local identities and algebra models. The proof audit separately checks the general algebra, gluing, and scope arguments. No unrestricted characteristic-zero STCI theorem, new global pair, or novelty claim is certified. Result and question records remain unchanged.
 
 
 

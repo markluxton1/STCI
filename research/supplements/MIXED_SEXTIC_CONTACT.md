@@ -1,6 +1,6 @@
 # Exact degree-six branch contact on a mixed-weight sextic
 
-Over an algebraically closed characteristic-zero field, this is the full actual degree-six mate calculation for \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). Its independent computation and the mathematical rank-to-kernel argument are retained. The stronger [test-curve theorem](CARRIER_TEST_CURVES.md) excludes every mate degree on the same source; the calculation here additionally proves integrality, the individual branch-order bound, and a quantitative residual floor for proper sextic pairs. These are useful distinct conclusions, and remain unpromoted research results.
+Over an algebraically closed characteristic-zero field, this is the full actual degree-six mate calculation for \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). Its independent computation and the mathematical rank-to-kernel argument are retained. The stronger [test-curve theorem](CARRIER_TEST_CURVES.md) excludes every mate degree on the same source; the calculation here additionally proves integrality, the individual branch-order bound, and a quantitative residual floor for proper sextic pairs. These are useful distinct conclusions.
 
 ## Exact family and bounded endpoint
 

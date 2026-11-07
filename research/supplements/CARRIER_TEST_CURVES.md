@@ -2,7 +2,7 @@
 
 Fix \(C=C_0=[s^4:s^3t:st^3:t^4]\) over an algebraically closed field; the ordinary full-source theorems use characteristic zero, while the weighted-subalgebra theorem below explicitly allows every odd characteristic. Throughout, a mate means an actual homogeneous form of positive degree with sole reduced intersection support \(C\). The arguments compare the divisor of its pullback with restrictions to actual projective curves. A curve on the exceptional divisor alone is not a test curve downstairs.
 
-The weighted-subalgebra and critical-degree arguments have inherited independent review. The all-degree residual-curve extension below has a full proof and exact hypotheses. Its historical source review covered the critical-degree case; the present independent consolidation review also reconstructed the all-degree elimination, actual open-locus construction and slope refinement. None is a canonical promotion or an unrestricted STCI theorem.
+The weighted-subalgebra and critical-degree arguments have inherited independent review. The all-degree residual-curve extension below has a full proof and exact hypotheses. Its historical source review covered the critical-degree case; the present independent consolidation review also reconstructed the all-degree elimination, actual open-locus construction and slope refinement. These are not unrestricted STCI theorems.
 
 ## The reusable degree mechanism
 
@@ -404,7 +404,7 @@ The preceding hypotheses hold on a nonempty Zariski-open subset of
 every \(V_{a,m}\), \(a\ge3m\). This is a statement about the full actual
 global source, not merely the small subalgebra \(k[q,c_0,c_2]\).
 
-The promoted [normal-bundle splitting R-0020](../results/quartic_conormal_characteristic_jump.md)
+The [normal-bundle splitting R-0020](../results/quartic_conormal_characteristic_jump.md)
 gives \(\mathcal I_C/\mathcal I_C^2=\mathcal O(-7)^2\).
 On the normal-direction surface
 \[

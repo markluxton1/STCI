@@ -1,8 +1,6 @@
 # Primitive e=2 quartic results
 
-Canonical status: **PROVED for the fixed monomial quartic in the stated \((4,7)\) and \((4,8)\) branches; all quartic carriers subsequently excluded by R-0001**
-
-For
+In characteristic zero, for
 \[
 C_0=[s^4:s^3t:st^3:t^4]
 \]
@@ -30,8 +28,9 @@ The [universal primitive-fourth proof and independent contact calculation](../su
 retain the obstruction zero locus, every parameter chart and cubic-times-
 linear quartic kernel. The [earlier incidence and surviving-family analysis](../supplements/E2_PRIMITIVE_QUARTIC_INCIDENCE.md)
 retains the false universal-exclusion counterexample and the distinct
-primitive-septuple consequences. These mechanisms are not discarded by
-the later all-degree quartic-carrier theorem.
+primitive-septuple consequences. The separate
+[quartic-carrier theorem](quartic_carrier_exclusion.md) excludes every mate
+degree for integral quartic carriers of this fixed curve in characteristic zero.
 
 The [certificate map](../certificates/README.md) locates the universal
 quadruple, quartic-factor and parity sources. The repaired boundary

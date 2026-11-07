@@ -16,7 +16,7 @@ Status: **PROVED HERE under the accepted hypotheses below**, with a separate
 local-algebra/conormal audit by `local_double_structure_check`. This is an
 independent bounded audit of the proposed ribbon reduction. It does not
 exclude all genus-one normalizations or resolve the unrestricted STCI problem.
-No canonical state or acceptance file is changed by this note.
+No state or acceptance file is changed by this note.
 
 ## 1. Inputs and conclusion
 

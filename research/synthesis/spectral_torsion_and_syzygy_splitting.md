@@ -9,7 +9,7 @@ attempt to exclude actual complete intersections.
 
 Work over an algebraically closed field \(k\) of characteristic zero.
 The splitting and rank classification below are independently reviewed
-source-level results, still provisional and not canonically promoted.
+results with the independent review described below.
 The accepted [global dual compression](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
 and [R-0007](../results/quadratic_root_obstruction_model.md) supply the
 identification with the actual ambient obstruction. The geometric proof
@@ -21,7 +21,7 @@ cover, in every characteristic. Its coefficient determinants for n>=2,
 [kernel constructions](spectral_pushforward_powers.md#3-recovering-a-positive-graded-object-from-the-kernel),
 [full-root boundary classification](spectral_pushforward_boundary.md), and
 [determinant schemes](spectral_determinant_schemes.md) are separately reviewed
-provisional extensions. This chapter owns their n=4 application to the
+extensions. This chapter owns their n=4 application to the
 actual characteristic-zero second-obstruction model. No all-n ambient
 obstruction model is inferred.
 
@@ -185,7 +185,7 @@ surfaces, properness or sole support.
 
 **Review and scope.** The splitting, the \(15\times15\) rank detector and
 the local sixteen-test counts were reconstructed in the source's
-independent `report_math_review`, and remain reviewed provisional results.
+independent `report_math_review`, and remain reviewed results.
 This chapter retains the actual obstruction's characteristic-zero scope. The
 linked intrinsic all-power theorem has its own characteristic-free proof;
 it does not extend that ambient operator or the actual-CI bridge. No diagonal,

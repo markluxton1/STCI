@@ -1,6 +1,6 @@
 # Quadric powers, normal directions and incidence controls
 
-Consolidated research material, including open questions and source assessments; no automatic theorem promotion.
+Consolidated research material, including open questions and source assessments.
 
 ---
 
@@ -291,7 +291,7 @@ its institutional record is
 The official AMS PDF returned HTTP 403 through the browsing tool, so the
 original author-uploaded theorem is the checked full-text evidence.
 
-A useful limitation: torus degeneration does not promote this theorem to
+A useful limitation: torus degeneration does not extend this theorem to
 arbitrary carriers. A flat limit of a complete-intersection thickening need
 not remain a two-generated complete intersection; extra initial generators
 and/or common factors of the two initial forms can appear. Properness of a

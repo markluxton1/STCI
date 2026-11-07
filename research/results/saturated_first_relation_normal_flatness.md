@@ -2,7 +2,6 @@
 id: STCI-R-0010
 title: Saturated first relation forces ordinary normal flatness
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "smooth connected projective curve regularly embedded in a smooth threefold"
@@ -17,7 +16,6 @@ evidence:
 independent_audits:
   - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
   - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
-accepted_in: "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -43,4 +41,4 @@ For the fixed rational quartic C0, when E=O(-7)^2 and the first root is moving, 
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

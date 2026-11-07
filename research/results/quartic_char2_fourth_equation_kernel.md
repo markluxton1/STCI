@@ -2,7 +2,6 @@
 id: STCI-R-0031
 title: "Characteristic-two fourth normal equation and canonical kernel identification"
 kind: theorem
-status: proved
 scope:
   characteristic: "2"
   curve: "fixed rational quartic C0"
@@ -18,7 +17,6 @@ evidence:
   - "research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py"
 independent_audits:
   - "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
-accepted_in: "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -42,7 +40,7 @@ On the first chart the full ideal is (v,u^4), with initial ideal (V,U^4); on the
 R-0020 supplies the characteristic-dependent conormal geometry, R-0021 the fixed degeneration, and R-0030 the exact comparison.
 
 ## Evidence and verification
-The October 23 independent quartic audit explicitly checked both chart expansions, kernel frames, corrected lifts, fourth-order identification and transition compatibility. Its Python validation is saved. This promotion re-inspected the stated chart identities and audit but did not execute the scripts again.
+The October 23 independent quartic audit explicitly checked both chart expansions, kernel frames, corrected lifts, fourth-order identification and transition compatibility. Its Python validation is saved. During consolidation, the stated chart identities and audit were re-inspected; the scripts were not executed again.
 
 ## Consequences
 The order-four initial generator is intrinsic to the filtered equation module in this special characteristic-two pair.

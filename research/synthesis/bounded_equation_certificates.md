@@ -100,7 +100,7 @@ actual embedded normal coordinates. The first root is
     f=a(z)u^2+b(z)uv+c(z)v^2,
 
 with a,b,c homogeneous base quadratics without a common base zero. Their
-projective coefficients form U in P8. The canonical
+projective coefficients form U in P8.
 [R-0007](../results/quadratic_root_obstruction_model.md) supplies an everywhere
 injective 16-by-12 matrix A_f and vector d_f, both linear in f, and
 

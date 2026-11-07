@@ -1,6 +1,6 @@
 # Local-cohomology direction spaces and apolarity
 
-Consolidated mathematical source material. Original claims, calculations, and qualifications are preserved; audits are not automatically promoted to theorems.
+Consolidated mathematical source material. Original claims, calculations, and qualifications are preserved; audits have the review scopes stated below.
 
 ---
 

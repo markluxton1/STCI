@@ -1,87 +1,81 @@
-# Four research objects: authoring and structural rules
+# Four research objects and their proof reviews
 
-## Coexistence and authority
-
-This specification implements the approved reconstruction architecture. The
-existing [authority policy](AUTHORITY.md), [result records](results/INDEX.md),
-and their evidence remain authoritative during the pilot. This infrastructure
-does not migrate mathematics, establish claims, or change inherited statuses.
-The temporary [architecture proposal](RECONSTRUCTION_PROPOSAL.md) remains on the
-stacked branches until integration is approved; it is not a permanent archive.
+## Mathematical content
 
 A **Result** is an independently reusable statement, construction, counterexample,
-or reduction. Its own document must state the exact mathematics, hypotheses,
-quantifiers, and limitations. A complete proof may be in a precisely identified
-Argument section. That section must contain the actual proof; a chain of
-references or proof outlines is insufficient.
+or reduction. Its own document contains the exact statement, hypotheses,
+quantifiers, and limitations. Its complete proof is in that document or a
+precisely identified Argument section containing the actual reasoning.
+Existing mathematical expositions can supply such proof sections while the
+repository is reconstructed; re-encoding a file is not a mathematical step.
 
-An **Argument** is a coherent exposition combining results and explaining their
-geometry, with complete reasoning and a precise stopping point. A **Framework**
-explains how mathematics could advance an STCI question or a substantive related
-geometric question, including missing bridges, known failures, and coverage
-obligations. An **Investigation** is a concrete activity motivated by one or more
-Frameworks, with a precise question, method, findings, and unresolved work.
-Finishing an activity does not imply answering its question.
+An **Argument** gives a coherent complete development combining Results and
+explaining their geometry. A **Framework** describes a strategy, actual inputs,
+missing bridges, controls, and coverage obligations for an STCI or related
+geometric question. An **Investigation** is a concrete motivated activity with
+a question, method, findings, and unresolved work. Completing an activity does
+not imply answering its motivating question.
 
-Preserve independently useful intermediate lemmas, alternative proofs, negative
-findings, and counterexamples. Prefer intrinsic geometric proofs; when a
-calculation remains necessary, explain its invariant assertion and why its
-source and cases cover the claim. Exploratory code and useful data belong to
-their Investigation. Only the smallest essential exact proof support belongs
-beside a Result in an optional `<claim>.support/` directory. Attachments and
-computations are not additional research object types.
+Preserve independently useful lemmas, complete proofs, alternative arguments,
+constructions, counterexamples, and exact hypotheses. Prefer intrinsic geometry;
+when calculation remains necessary, explain its invariant assertion and coverage.
+Exploratory code belongs to its Investigation. A Result keeps only the smallest
+essential exact support in an optional `<claim>.support/` directory. Computations
+and attachments are not additional research object types.
 
-Statements and proofs govern mathematical meaning. Metadata checks structural
-consistency, not mathematical truth, exhaustive coverage, completeness of
-premises, or correctness of a review decision. Do not promote a claim merely
-because an old document says `proved` or `established`. Preserve inherited
-conclusions and review scope while distinguishing them from independently
-reconstructed proofs. A reviewed provisional claim can remain provisional.
+## Evidence and review
 
-## Files and minimal metadata
+Results have no overall status or authority classification. The information
+that matters is the statement, actual proof routes, their prerequisites, and
+what each review checked. Record accepted, pending, or disputed review on the
+precise route. No extra acceptance step follows an accepted proof review.
+Repository integration approval is a separate project decision.
 
-Use these locations; filenames describe mathematics rather than chronology:
+An accepted route needs an actual decision passage describing its checked
+scope, what was read or executed, and qualifications. Source review and
+independent reconstruction may be recorded factually; neither introduces a
+second rank among Results. A reviewed conditional theorem stays conditional.
+An unperformed calculation or a missing realization remains an explicit gap.
+Do not infer acceptance from a file's name, identifier, location, or history.
 
-| Type | Location | Status values | Required local section pointers |
+Metadata checks declared structure, not mathematical truth, completeness of
+premises, review sufficiency, reviewer independence, or exhaustive coverage.
+Consequential arguments need substantive independent reconstruction, with
+counterexamples and omitted hypotheses actively tested. Use the
+[evidence rules](AUTHORITY.md) and [contribution instructions](CONTRIBUTING_AGENT.md).
+
+## Files and fields
+
+| Object | Location | Required mathematical section pointers | Work-state field |
 | --- | --- | --- | --- |
-| `result` | `research/results/<claim>.md` | `provisional`, `established`, `disputed`, `superseded` | `scope`, `statement`; a nonempty Limitations section |
-| `argument` | `research/arguments/<development>.md` | `draft`, `complete` | `scope`, `conclusion` |
-| `framework` | `research/frameworks/<strategy>.md` | `proposed`, `in_use`, `retired` | `scope`, `bridges` |
-| `investigation` | `research/investigations/<activity>/index.md` | `planned`, `active`, `complete`, `inactive` | `scope`, `question`, `findings` |
+| Result | `research/results/<claim>.md` | `scope`, `statement`; nonempty Limitations section | None |
+| Argument | `research/arguments/<development>.md` | `scope`, `conclusion` | `draft` or `complete` |
+| Framework | `research/frameworks/<strategy>.md` | `scope`, `bridges` | `proposed`, `in_use`, or `retired` |
+| Investigation | `research/investigations/<activity>/index.md` | `scope`, `question`, `findings` | `planned`, `active`, `complete`, or `inactive` |
 
-All objects have YAML front matter with `id`, `type`, `title`, `status`, and
-`scope`. Section pointers such as `scope: "#scope"` refer to nonempty sections
-in that same document. Put the full hypotheses and quantifiers in Scope and
-the full claim in Statement; a pointer is not permission to move those elsewhere.
-Optional `aliases` and `relations` are omitted when unnecessary. Unknown fields
-are rejected to catch misspellings. Authoring templates are available for
-[Results](../scripts/templates/result.md),
-[Arguments](../scripts/templates/argument.md),
-[Frameworks](../scripts/templates/framework.md), and
-[Investigations](../scripts/templates/investigation.md). Templates are not claims.
+Typed objects have `id`, `type`, `title`, and `scope`. Results additionally have
+`statement` and `proofs`; the other objects have a `status` describing only the
+work state shown above. Unknown fields are rejected. Section pointers such as
+`scope: "#scope"` address nonempty sections of the owning document. Put the
+actual mathematics in those sections; a link elsewhere is not the statement.
 
 Use stable `STCI-R-####`, `STCI-A-####`, `STCI-F-####`, and `STCI-I-####` IDs.
-Keep existing R IDs when their statements are reconstructed. Allocate IDs on
-the working branch and resolve collisions before merge; no registry is needed.
-An optional alias map preserves former identifiers as precise local sections:
+Keep identifiers when files move; resolve branch collisions before integration.
+No allocation registry is needed. Optional `aliases` map former identifiers to
+local sections, for example `STCI-Q-0001: "#question"`. Aliases must be unique
+against all live IDs and other aliases. Questions live in Frameworks or
+Investigations; existing question records retain their exact formulations until
+reviewed relocation. A claimed answer requires its precise mathematical scope.
 
-```yaml
-aliases:
-  STCI-Q-0001: "#question"
-```
+Templates: [Result](../scripts/templates/result.md),
+[Argument](../scripts/templates/argument.md),
+[Framework](../scripts/templates/framework.md), and
+[Investigation](../scripts/templates/investigation.md). Template prose is not a
+project claim.
 
-Questions are sections of Frameworks or Investigations. Existing legacy Q
-records remain intact until a reviewed migration preserves their exact question
-and assigns an alias. An alias cannot collide with a live ID or another alias.
-An answering Result and a scope explanation are needed to claim resolution;
-an Investigation's `complete` status does not make that claim.
+## Proof routes
 
-## Proof routes and establishment
-
-Results also have `statement` and `proofs`. Each proof route contains `name`,
-`at`, `using`, and `review`. `using` lists jointly required cataloged Results;
-separate routes are alternatives. Standard external mathematics is stated and
-cited in the proof; it need not be cataloged simply to enlarge the graph.
+Each Result route has `name`, `at`, `using`, and `review`:
 
 ```yaml
 proofs:
@@ -93,44 +87,43 @@ proofs:
       at: "#review"
 ```
 
-`at` identifies the complete proof in this Result or a new-schema Argument,
-using a local fragment or a repository-root-relative Markdown path and fragment.
-External links, including branch URLs, cannot satisfy this requirement. Review
-passages may be in local Markdown and must identify the actual scope reviewed,
-what was read or executed, and qualifications. `review.state` is `pending`,
-`accepted`, or `disputed`. An accepted review must explicitly declare
-`basis: inherited` or `basis: reconstructed`; either value requires the actual
-decision passage. This extra field distinguishes preservation of source review
-from independent reconstruction without an audit registry. Neither value proves
-that the reviewer was independent: that is checked in substantive review.
+`at` identifies an actual complete proof in the Result, an Argument, or an
+existing mathematical exposition. It must be a local Markdown path and section,
+not an external URL or a chain of proof outlines. Known Framework or Investigation
+objects cannot substitute for a proof home. `using` lists the jointly required
+Result premises; separate route entries are alternatives. Standard external
+mathematics is stated and cited in the proof without mandatory local records.
 
-An established Result must have an accepted noncircular route grounded in
-established premises. The structural rule admits only new-schema Results with
-`status: established`: begin with accepted routes having no cataloged premises,
-then admit a Result if one accepted route has every premise already admitted.
-Provisional, disputed, and superseded Results cannot enter this set even if
-their retained review is accepted. A direct self-premise is invalid. An accepted
-acyclic alternative may ground a Result even when a different route participates
-in a cycle. Empty `proofs` is allowed only for provisional or disputed proposals.
+`review.state` is `pending`, `accepted`, or `disputed`. An accepted review also
+has `basis: inherited` or `basis: reconstructed`, describing whether the recorded
+review comes from the actual source proof or the current independent
+reconstruction. Both require a precise decision passage and its literal scope.
+The basis field records what was reviewed; it confers no separate authority.
+An empty `proofs` list means no proof route has yet been recorded.
 
-The legacy adapter preserves original statuses; it does not synthesize accepted
-proof routes or convert old `proved` labels into new-schema establishment.
-Legacy IDs resolve for research relationships and provisional proof work.
-An established new-schema route cannot be grounded solely through an unmigrated
-legacy record. Such a premise needs an explicitly reconstructed Result and
-accepted route, preserving its inherited conclusion and actual review scope.
-This is a structural coexistence boundary, not a withdrawal of legacy authority.
+Each accepted route must have noncircular accepted prerequisites. The checker
+starts with accepted routes having no cataloged premises and repeatedly adds
+conclusions whose accepted routes have every premise in that set. It checks
+every accepted route's premises against the final set. An independent accepted
+alternative can ground a premise that would otherwise depend on a cycle.
+A direct self-premise is invalid. Catalog and lookup display each route's review.
 
-A conditional theorem states its assumptions literally. An unproved antecedent
-is not an established premise in `using`. A reduction retains its unfinished
-calculation or realization task; it does not become existence or nonexistence.
-An optional Result `supersedes` list requires an explicit Supersession section
-explaining the corrected statement or scope bridge. Inverse links are derived;
-supersession cycles are invalid.
+An existing untyped Result may document routes with exactly this structure;
+its explicit accepted routes can ground other Results. Evidence lists alone
+do not synthesize review decisions. Older administrative fields are removed,
+not copied into source-information fields. Older flat dependency lists remain
+references, not newly inferred joint proof routes; navigation cycles do not
+establish circular mathematical reasoning.
+
+Optional `supersedes` records a precise correction or replacement. State the
+scope bridge or corrected assertion in a Supersession section. Its graph must
+have no replacement cycles. A valid proof is assessed on its own mathematics;
+replacement information is not a rank or automatic rejection of its conclusion.
 
 ## Research relationships
 
-Store a relationship once, in an incident object, with an explanatory section:
+A relationship is stored once in an incident object, with an explanatory local
+section and nonempty, nonduplicated endpoint groups:
 
 ```yaml
 relations:
@@ -140,71 +133,42 @@ relations:
     at: "#purpose"
 ```
 
-`from` and `to` are nonempty lists without repeated endpoints. A grouped edge
-describes one joint relationship, not pairwise mathematical implications.
-`at` is a nonempty section of the owning document. Every Investigation must be
-motivated by at least one Framework; the relation may be owned by either endpoint.
-
-| Kind | Source types → target types | Meaning |
+| Kind | Source types to target types | Meaning |
 | --- | --- | --- |
-| `uses` | Results/Arguments → Arguments/Frameworks/Investigations | Mathematical inputs or applications |
-| `motivates` | Frameworks → Investigations | Why the activity is worth undertaking |
-| `produces` | Investigations → Results/Arguments | Actual outputs, with their own status |
-| `informs` | Investigations/Results/Arguments → Frameworks | Findings that change or clarify strategy |
-| `limits` | Results → Frameworks/Investigations | Exact scope ruled out by a failure or counterexample |
+| `uses` | Results/Arguments to Arguments/Frameworks/Investigations | Inputs or applications |
+| `motivates` | Frameworks to Investigations | Why the activity is useful |
+| `produces` | Investigations to Results/Arguments | Actual mathematical outputs |
+| `informs` | Investigations/Results/Arguments to Frameworks | Findings that change strategy |
+| `limits` | Results to Frameworks/Investigations | Exact restrictions from a failure or counterexample |
 
-The graph is derived from these local declarations and each proof route's joint
-premises, conclusion, and proof location. It is a navigational model, not an
-additional authority. Research cycles are legitimate: a Framework can motivate
-an Investigation which informs it. A Result's reference to its proof in an
-Argument is ownership, not a mathematical self-premise. Keep these relationships
-separate from proof grounding.
+Every Investigation has at least one Framework motivation. A grouped edge is
+one joint relationship, not all pairwise implications. Research cycles are
+legitimate. The derived graph helps retrieval; actual proofs establish the
+mathematical implications. Proof ownership is not itself a premise.
 
-## Paths, discovery, and legacy coexistence
+## Discovery, paths, and compatibility
 
-Metadata paths are repository-root-relative; `#fragment` means the current
+Metadata paths are repository-root-relative; `#fragment` addresses the current
 document. Reject external schemes, absolute paths, queries, missing files or
-fragments, `..` path segments, and symlinks escaping the repository. Ordinary
-body links can use parent-relative paths that stay inside the repository.
-Required sections must contain text. Explicit proof-support links and images in
-new-schema documents are checked for local availability; presence of a linked
-certificate or diagram does not validate it.
-Literature URLs remain citations and are not fetched by deterministic checks.
+sections, `..` metadata segments, and escaping symlinks. Ordinary body links
+can use parent-relative paths inside the repository. Explicit support files
+and images are checked for availability; existence does not verify their content.
+External literature citations are not fetched by deterministic validation.
 
-The tool discovers object files independently of the generated catalog. Any
-metadata-bearing file in an object location must parse; a missing or malformed
-header cannot silently drop an object from the catalog. New Argument files and
-Investigation entrypoints require metadata. README and INDEX navigation files
-are not objects. Legacy topic prose is recognized from non-ID entries in the
-existing result index. The one untyped pre-existing framework,
-`research/frameworks/formal-normal-geometry.md`, is a temporary explicit prose
-exception, not an automatic Framework record; adding metadata ends the exception.
-Other untyped Framework files must supply metadata. No migration manifest is
-maintained. Remove the exception when that prose is reconstructed.
+Discover objects independently of the generated catalog. Malformed metadata
+must fail rather than silently remove a record from discovery. README and INDEX
+files are navigation, not objects. Untyped topic prose is recognized from
+non-ID entries in the existing result index. The single pre-existing untyped
+framework is a temporary serialization exception; adding metadata ends it.
+Neither exception gives mathematical precedence. No migration manifest is kept.
 
-Legacy R/Q records retain their IDs, statements, status vocabulary, and source
-fields. The adapter validates their original schema and result-index consistency
-without hardcoding the present record count, resolves references against the
-legacy/new union, and labels their authority as inherited. Historical external
-evidence remains disclosed and is not certified remotely. A new alias cannot
-mask a still-live legacy ID or an inherited `legacy_ids` alias. Legacy aliases
-resolve to their owning documents without fabricated section pointers. Preserve
-the original dependency-cycle rejection on the legacy-only subgraph; it does
-not impose ordinary acyclicity on new alternative proof routes. Untyped
-expositions stay reachable through existing navigation; being in a directory
-does not promote them.
+Untyped Results retain exact statements, kinds, scope, evidence, review source
+paths, aliases, references, corrections, and limitations. Their removed
+classification fields are not retained elsewhere. Both compatibility validator
+commands invoke the shared engine. The same route, identity, and path rules
+apply to every serialization, without a fixed-size special collection.
 
-The old `validate_records.py` command delegates to the shared engine, so valid
-typed records, quoted YAML keys, and aliases have a single interpretation.
-The existing indexed-result validator and scientific CI checks remain in place.
-Retire the indexed-result checker only after the transition is reviewed.
-Scientific verifier
-controls belong to the pilot or migration batch taking ownership of each
-verifier; a substantial scientific change is separately reviewed. Do not claim
-new negative-control coverage for an inherited check before it exists and passes.
-Every retained check needs such coverage before final reconstruction completion.
-
-## Commands, tests, and review
+## Commands and integration
 
 Use Python 3.12 or later and the pinned dependency:
 
@@ -218,28 +182,24 @@ python3 scripts/research.py show STCI-R-0022
 python3 scripts/check_markdown_links.py --anchors
 ```
 
-`catalog` explicitly rebuilds [CATALOG.md](CATALOG.md). Validation, `show`, and
-`catalog --check` do not write files. `--root /path/to/repository` before the
-subcommand selects a repository for temporary fixtures or another checkout.
-The catalog contains no timestamps; sorting and grouped relationships are
-deterministic. It is the only generated research view. Human reading routes and
-the mechanism map continue to explain the mathematics.
+`catalog` rebuilds [CATALOG.md](CATALOG.md); validation, lookup, and freshness
+checking do not write files. `--root /path/to/repository` before the subcommand
+selects another checkout or a temporary fixture. The generated view contains
+no timestamps and displays actual route reviews and activity states. It is the
+only generated research artifact.
 
-Every enforced mechanical rule needs positive and deliberately invalid tests.
-Temporary miniature repositories exercise malformed metadata, joint and
-alternative proof routes, forbidden grounding, identities and aliases, path
-containment, legacy compatibility, research cycles, and catalog determinism.
-These fixtures are synthetic examples, never fabricated project results.
+Every enforced mechanical rule needs a positive and deliberately invalid test.
+Temporary miniature repositories exercise malformed fields, accepted and
+unreviewed premises, alternative routes, circular justification, identities,
+aliases, paths, compatibility, research cycles, and deterministic generation.
+Scientific controls belong to their owning Investigation or Result support;
+a passing execution supplies no coverage theorem.
 
-Before presenting infrastructure, an independent nonauthor reviews the code,
-tests, parsing and grounding behavior, coexistence, determinism, and authoring
-overhead. Consequential mathematical reconstruction additionally requires a
-reviewer who reconstructs the underlying proofs and checks preservation of
-intermediate results, counterexamples, hypotheses, and exact support. Automated
-checks cannot replace that work or the separate retrieval/reuse evaluation.
-
-Keep this infrastructure and the torus pilot in separate, reviewable stacked
-PRs. Do not merge either into `main` before the pilot's independent mathematical
-review, retrieval/reuse evaluation, and explicit user approval. Phase 2 changes
-no mathematics or computation ownership. Record unresolved pilot tasks precisely;
-solving them is not a prerequisite for reconstructing the existing cluster.
+Independent infrastructure review checks parsing, validation, tests, determinism,
+and authoring burden. Independent mathematical review reconstructs consequential
+proofs and checks preservation of hypotheses, intermediate results, counterexamples,
+and necessary support. Retrieval/reuse evaluation is separate from both.
+Keep the reconstruction PRs stacked and unmerged into main until the requested
+review and explicit integration approval. Continue wider mathematical migration
+only at the agreed user decision point. These project approvals are not
+additional mathematical acceptance states.

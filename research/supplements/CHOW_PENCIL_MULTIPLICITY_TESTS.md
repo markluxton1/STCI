@@ -171,5 +171,4 @@ failure.  Passing one pencil is only necessary; this is a family exclusion, whil
 Independent review reconstructed the preserved arguments, source coverage and
 characteristic boundaries. The bounded proof clarifications in this account
 were checked against the original arguments; no material preservation finding
-remains. This reviewed consolidation does not promote additional canonical
-results or extend the claims beyond their stated hypotheses.
+remains. The claims retain their stated hypotheses.

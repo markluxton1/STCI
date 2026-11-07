@@ -684,10 +684,10 @@ before targeted execution and both passed: the \(a=-1/2\) boundary proof
 now states its \(x\ne0\) localization, and the quartic-incidence proof
 correctly tests polynomial membership over \(\mathbf Q\) while allowing
 rational constants. Neither generic rank controls nor these bounded
-checks are promoted to a larger classification. The final successful
+checks establish a larger classification. The final successful
 genus-one repeated-partition Macaulay2 proof source was restored from its
 exact replay snapshot with identical SHA-256 bytes; no fresh execution
-of that inherited certificate is claimed. No theorem promotion or
+of that inherited certificate is claimed. No
 unrestricted STCI conclusion is made by the consolidation.
 
 The strengthened ruled-surface criterion has an independently reviewed characteristic-free proof in its [own mathematical home](ruled_surface_degree_criterion.md). The characteristic-zero carrier conclusion is unchanged.

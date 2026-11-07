@@ -7,7 +7,7 @@ The central issue is global: **does a divisor supported over \(C\) on the normal
 **Scope boundary.** The [bounded-index normal-carrier exclusion, R-0035](../results/normal_carrier_bounded_index_exclusion.md), assumes local Cartier indices at most four and inherited normal-carrier inputs. The [pointwise conductor/socle identity, R-0036](../results/pointwise_conductor_socle_defect.md), requires a single smooth Cartier inverse branch, smooth normalization along it, and an invertible conductor without that branch as a component. Neither is an unrestricted carrier classification.
 
 For a specified normal hypersurface in characteristic zero, a separately
-[reviewed provisional Hodge criterion](../supplements/NORMAL_CARRIER_DIVISOR_GEOMETRY.md)
+[reviewed Hodge criterion](../supplements/NORMAL_CARRIER_DIVISOR_GEOMETRY.md)
 characterizes mate existence: the integral curve must be Q-Cartier and satisfy
 \(C^2=(\deg C)^2/\deg X\). Its proof distinguishes existence of some mate
 from the stronger formula for the least mate degree. Realizing this equality
@@ -51,7 +51,7 @@ The accepted [fixed-carrier theorem, STCI-R-0003](../results/fixed_carrier_condu
 \]
 A relation produces an upstairs rational section with the prescribed divisor. Along conductor components away from \(C\), its **full conductor-unit classes** determine whether some positive power descends. Denote by \(\Lambda_{\mathrm{desc}}\) the sublattice whose off-\(C\) unit classes are torsion in the appropriate full conductor quotients.
 
-**Established criterion:** a positive power of the polarization has a section vanishing set-theoretically exactly on \(C\) if and only if \(\Lambda_{\mathrm{desc}}\) contains a vector with every \(n_i>0\). For a hypersurface carrier in \(\mathbf P^3\), such a section lifts to an ambient homogeneous mate.
+**Fixed-carrier criterion.** A positive power of the polarization has a section vanishing set-theoretically exactly on \(C\) if and only if \(\Lambda_{\mathrm{desc}}\) contains a vector with every \(n_i>0\). For a hypersurface carrier in \(\mathbf P^3\), such a section lifts to an ambient homogeneous mate.
 
 The conductor condition is not merely matching values on the reduced double locus. Nilpotent structure may impose further gluing conditions. In characteristic zero, residual torsion of reduced phases alone does not eliminate these nilpotent defects.
 
@@ -110,7 +110,7 @@ These approaches study the same hypothetical pair \((F,G)\), but retain differen
 | Higher transverse contact and successive transforms | Gluing through the full conductor |
 | Degeneration of graded second relations | Failure of a global section to descend |
 
-There is a plausible research interface: exceptional directions and their special-point degenerations may reflect branches or conductor behavior of a chosen carrier. But **no general identification of these structures has been proved in the canonical records**. The first task is to formulate an exact comparison for a specified carrier and its normalization, not to assume that the two obstruction theories coincide.
+There is a plausible research interface: exceptional directions and their special-point degenerations may reflect branches or conductor behavior of a chosen carrier. But **no general identification of these structures has been proved in the records**. The first task is to formulate an exact comparison for a specified carrier and its normalization, not to assume that the two obstruction theories coincide.
 
 
 ## 4.7 Ruled normalizations and conductor: a marked test family
@@ -147,11 +147,11 @@ The newer [carrier/conductor/socle interface](carrier_conductor_socle_interfaces
 
 
 
-**Established:** the fixed-carrier conductor criterion; the restricted Cartier singleton-lift classification; and the fixed-family torsion-coset reduction, each under its precise hypotheses.
+The proofs give the fixed-carrier conductor criterion, the restricted Cartier singleton-lift classification, and the fixed-family torsion-coset reduction under their respective hypotheses.
 
 **Open:** computation of the actual projection phase images and conductor descent for the three models, and treatment of non-Cartier, multiple-branch, or higher-degree inverse lifts.
 
-**Provisional:** a direct geometric bridge between the common-normal-factor curve of Chapters 2–3 and the normalization/conductor data of an arbitrary carrier.
+**Open comparison:** a direct geometric bridge between the common-normal-factor curve of Chapters 2–3 and the normalization/conductor data of an arbitrary carrier.
 
 Next: [how the exclusion results assemble](05-exclusions.md), followed by the [surviving frontier](06-frontier.md).
 

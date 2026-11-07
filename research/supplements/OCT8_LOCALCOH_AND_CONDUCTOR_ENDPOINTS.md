@@ -12,7 +12,7 @@ Date: 2026-10-08. Status: **PROVED conditional structural exclusion**,
 independently audited from the proposed conductor argument. The result
 uses the actual entire conductor scheme, a smooth twisted-cubic
 downstairs conductor, and a finite flat cover of rank two. It is not a
-classification of all nonnormal quartic carriers. No canonical frontier
+classification of all nonnormal quartic carriers. No frontier
 file is edited here, and no novelty claim is made.
 
 The initial assigned target was an integral reduced upstairs conductor.
@@ -492,7 +492,7 @@ alternative transversal-plane delta argument is retained as a proposed
 secondary route; it is not needed for the accepted theorem. The
 independent Artin audit, differential audit, the
 [complete independent scroll audit](QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md)
-and root verification supply the promoted scope. No broad classification of all nonnormal quartic
+and root verification supply the scope. No broad classification of all nonnormal quartic
 surfaces is inferred from the classification of these ACM cubics.
 
 ### 6. Exact second-family closure and actual-tensor binding

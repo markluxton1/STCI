@@ -6,7 +6,7 @@ Full historical mathematical content retained with original scope and limitation
 
 # Actual sextics on the retained endpoint-four chart
 
-Started 2026-10-25; completed 2026-10-26. Status: exact new linear realization, independently reproduced fixed-carrier jet certificate, and independently audited local scope bridge; no canonical promotion.
+Started 2026-10-25; completed 2026-10-26. Status: exact new linear realization, independently reproduced fixed-carrier jet certificate, and independently audited local scope bridge.
 
 ## Scope and accepted inputs
 
@@ -30,7 +30,7 @@ Its normalization is \(4f(-z/2,1)=z^4\). On the retained integral-nodal open its
 \rho=2b_1/a_0-1,\qquad \rho^{12}=1,\quad\rho\ne1.
 \]
 
-The root and torsion reductions are reviewed, unpromoted evidence. They are not an emptiness result. The [saved sextic symbol computation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
+The root and torsion reductions are reviewed evidence. They are not an emptiness result. The [saved sextic symbol computation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
 
 The exact balanced normal frame is
 
@@ -215,6 +215,6 @@ Independent `endpoint4_formula_audit` reconstructed the second symbol, torus nor
 
 The fixed-carrier wrapper saves a [PASS metadata record](../computations/endpoint4_fixed_m2_2026_10_25.json) and [complete M2 output](../computations/endpoint4_fixed_m2_2026_10_25.txt), including source hashes, all sample ranks, the actual degree-six carrier vector, the 969 exponent-column order, and all 286 known-multiple checks. A preliminary M2 implementation failed those checks because an unparenthesized multiline assignment omitted the last two carrier terms. That failure was diagnosed and corrected before the final PASS. Ambient reconstruction and explicit annihilation checks now prevent that mistake from being hidden by the reported rank.
 
-The [independent normal-division script](../computations/endpoint4_fixed_jet_independent_2026_10_26.py) uses recursive normal-degree division in a fixed 23-element basis, followed by separate modular elimination, rather than the M2 quotient Gröbner basis. Its [JSON record](../computations/endpoint4_fixed_jet_independent_2026_10_26.json) independently reports rank 683 and annihilation of all 286 actual multiples at every sample. The nonsplit-node implication is reviewed in the linked scope audit. No canonical result is changed here.
+The [independent normal-division script](../computations/endpoint4_fixed_jet_independent_2026_10_26.py) uses recursive normal-degree division in a fixed 23-element basis, followed by separate modular elimination, rather than the M2 quotient Gröbner basis. Its [JSON record](../computations/endpoint4_fixed_jet_independent_2026_10_26.json) independently reports rank 683 and annihilation of all 286 actual multiples at every sample. The nonsplit-node implication is reviewed in the linked scope audit. No result is changed here.
 
 The independent replay uses Python's standard library and a C++17 compiler, selecting clang++ or g++ from the environment. Its temporary rank executable is built outside the repository and removed after the run. Macaulay2 provides the other implementation.

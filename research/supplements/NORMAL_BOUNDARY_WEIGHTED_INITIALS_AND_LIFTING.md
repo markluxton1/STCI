@@ -11,7 +11,7 @@ For a genuine surface pair, the allowable sections come from the homogeneous equ
 ---
 
 
-Permanent subject consolidation. All source mathematical detail retained with its original conditional and audited status; no new theorem promotion.
+Permanent subject consolidation. All source mathematical detail retained with its original conditional and audited status.
 
 
 ---
@@ -20,9 +20,9 @@ Permanent subject consolidation. All source mathematical detail retained with it
 
 ## Can the boundary repair the actual global lifting obstruction?
 
-Date: 2026-10-26. Status: provisional structural continuation, with
+Date: 2026-10-26. Status: structural continuation, with
 [independent review](#boundary-repair-global-lifting-audit).
-No canonical promotion, new exclusion, or homogeneous realization is claimed.
+No new exclusion or homogeneous realization is claimed.
 No isolated example or sampled pair is used.
 
 Continuation, October 27: the
@@ -161,7 +161,7 @@ equations and actual global source may still fail.
 
 Neither ordinary torsion T_n nor spectral comparison Delta is to be
 identified with a pole allowance without proving this bridge. The
-existing promoted [R0016](../results/nonsaturated_first_relation_resultant.md)
+existing [R0016](../results/nonsaturated_first_relation_resultant.md)
 and [R0019](../results/quasiprimitive_residual_cycles.md) already give
 specific conditional divisor comparisons. They are precedents with their
 own hypotheses, not authority for the proposed general comparison above.
@@ -257,9 +257,9 @@ persists on a stated family. No new isolated example is needed here.
 
 ## Weighted initial ideals over the coefficient curve
 
-Date: 2026-10-26. Status: provisional continuation, with
+Date: 2026-10-26. Status: continuation, with
 [independent review](#weighted-initials-normal-boundary-audit).
-No canonical promotion or STCI exclusion is claimed.
+No STCI exclusion is claimed.
 
 ### Question and inherited scope
 
@@ -273,7 +273,7 @@ The [October 23 coefficient-valuation note](../synthesis/coefficient_valuations.
 and its [review](../synthesis/coefficient_valuations.md)
 already establish the Gauss construction, formal-series domain restriction,
 coordinate dependence, and scalar-value limitation in their stated scope.
-Those reviewed provisional constructions are premises, not replay tasks.
+Those reviewed constructions are premises, not replay tasks.
 This continuation links them to the
 [normal torsion/genus account](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md).
 
@@ -728,7 +728,7 @@ Here \(T\) remains noninvertible in the integral graded coefficient ring. The th
 Date: 2026-10-26. Reviewer: independent `valuation_budget` agent.
 Status: independent reconstruction of the [companion continuation](#weighted-initials-normal-boundary).
 Outcome: **PASS within the stated domains and hypotheses**. This is reviewed
-provisional evidence, not canonical promotion, a global realization, or an
+evidence, not a global realization or an
 STCI exclusion.
 
 ### Scope and method
@@ -838,7 +838,7 @@ remain necessary for global realization.
 
 No substantive correction to the inspected continuation is required.
 The all-weights chamber proof and the Smith-minor bridge are independently
-reconstructed here. No canonical result record is changed or promoted.
+reconstructed here.
 
 ### 5. Additional independent review of intrinsic symbols and weighted flags
 
@@ -920,8 +920,7 @@ remain independent of these coordinate presentations.
 
 **Addendum outcome:** PASS after the coefficient-ring qualification above;
 no further mathematical correction is required. The findings remain
-reviewed provisional evidence, with no new global realization, exclusion,
-or canonical result promotion.
+reviewed evidence, with no new global realization or exclusion.
 
 ### 6. Lattice formulation: independent verification and scope
 

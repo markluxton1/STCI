@@ -4,7 +4,7 @@ Let \(R=\mathbf Z_{(2)}\) or \(\mathbf Z_2\), with fraction field \(K\), and fix
 \[
 Z_4=V(x_1^4-x_0^3x_3,\ x_2^4-x_0x_3^3)\subset\mathbf P^3_{\mathbf F_2}.
 \]
-The promoted [R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) states that no flat embedded family with this special fiber has generic reduced support \(C_K\). The proof has two essential parts: every hypothetical flat deformation supplies a canonical primitive triple; the exhaustive integral triple obstruction is nonzero. Neither part uses the characteristic-zero quartic-carrier theorem.
+[R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) states that no flat embedded family with this special fiber has generic reduced support \(C_K\). The proof has two essential parts: every hypothetical flat deformation supplies a canonical primitive triple; the exhaustive integral triple obstruction is nonzero. Neither part uses the characteristic-zero quartic-carrier theorem.
 
 The exact special filtered algebra, the deformation reduction and the complete integral cocycle are given below. Their independent source reconstruction agreed with the separately assembled integer calculation; the consolidation changes exposition, not this theorem's hypotheses. The marked arithmetic theorem does not extend to arbitrary ramified DVRs or arbitrary characteristic-zero thickenings. The [intrinsic mechanism](Z4_INTRINSIC_ARITHMETIC_MECHANISM.md) separates reusable extension theory from those scope limits.
 

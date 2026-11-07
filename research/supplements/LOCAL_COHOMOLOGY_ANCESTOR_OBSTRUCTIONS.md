@@ -263,7 +263,7 @@ At stage \(R_N=S/(q^N,B^N)\), the classes
 
 A common ancestor can be replaced by its homogeneous component of degree
 \(-7\).  The diagonal stages \((q^N,B^N)\) are cofinal in the usual two-index
-Čech direct system, so after promotion to a common diagonal stage \(N\) it
+Čech direct system, so after passage to a common diagonal stage \(N\) it
 would be
 represented by \(h\in S_{5N-7}\) and would give
 
@@ -426,5 +426,4 @@ A failed modular correction experiment in a finite primary model is not a charac
 Independent review reconstructed the preserved arguments, source coverage and
 characteristic boundaries. The bounded proof clarifications in this account
 were checked against the original arguments; no material preservation finding
-remains. This reviewed consolidation does not promote additional canonical
-results or extend the claims beyond their stated hypotheses.
+remains. The claims retain their stated hypotheses.

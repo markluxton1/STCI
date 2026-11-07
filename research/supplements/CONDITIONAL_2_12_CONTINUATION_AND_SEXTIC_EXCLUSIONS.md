@@ -104,7 +104,7 @@ Date: 2026-10-21. Author: `incidence_audit` worker.
 Status: **independent review PASS for the normal-strict-sextic
 exclusion; ampleness and nodal scope extension independently
 reviewed PASS by `surface_bound`, with separate root reconstruction.**
-No canonical record is edited. The configuration remains unresolved
+No record is edited. The configuration remains unresolved
 on the explicit degree-52 exceptional locus in section 6. Sections
 3--4 retain the weaker smooth-root step from which it was derived.
 
@@ -117,11 +117,11 @@ coprime ordinary initial CI `(2,12)`, and ACTUAL saturated
 movement-two first relation. Let `B=Bl_C(P3)`, let `E` be the
 exceptional divisor, and put `H=pi^*O(1)`.
 
-The promoted inputs are
+The inputs are
 [R-0010](../results/saturated_first_relation_normal_flatness.md) and
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md).
 The finite singular-root bridge is a separately reviewed but
-unpromoted dependency in
+dependency in
 [the October 20 singular-root note](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md).
 It gives common order-two transforms with local ideal `(p,t^10)`
 at every full root point. The full root `Z=(f)` is reduced of class
@@ -462,7 +462,7 @@ Morse argument, unique transverse node branch, and divisor
 identity `16d-2e=10e`, and reported PASS. The root agent separately
 checked the same argument, including smoothness outside `Z` on
 simple multiplier fibers. These are review records for a new
-conditional proposal, not canonical promotion.
+conditional proposal.
 
 ## 7. Where a remaining singular curve must meet the root
 
@@ -531,7 +531,7 @@ Date: 2026-10-21. Reviewer: `surface_bound`.
 Status: **independent review PASS for the cubic-model interface and the
 ramified simple-multiplier exclusion; one incorrect normalization claim
 in the separate nodal example is explicitly rejected below**. All results
-are reviewed proposals rather than promoted records. No actual pair or
+are reviewed proposals rather than records. No actual pair or
 full emptiness result is asserted.
 
 ## 1. Scope and reviewed files
@@ -548,7 +548,7 @@ relation. The reviewed inputs are:
   [the surface continuation](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#nonnormal-conductor-budget-and-local-escape-models).
 
 The singular-root finite bridge remains an explicit reviewed but
-unpromoted dependency. The canonical lower-carrier input was read in
+dependency. The lower-carrier input was read in
 [R-0001](../results/quartic_carrier_exclusion.md), including its
 **Consequences** paragraph, which expressly includes the earlier
 plane/quadric/cubic exclusions and factor reduction. No inherited
@@ -693,7 +693,7 @@ stratum survives the conductor test.
 # Free cube-orbit endpoint chart: exact global sextic exclusion
 
 Date: 2026-10-21, continuation 2. Status: **new exact conditional
-exclusion, independently checked; not promoted to a canonical result**.
+exclusion, independently checked**.
 
 Work over an algebraically closed field of characteristic zero with
 `C0=[s^4:s^3t:st^3:t^4]`, the accepted balanced conormal frame, and the
@@ -714,7 +714,7 @@ sextic obstruction. It needs neither a global mate nor a degree-twelve
 standard-basis construction, because the required sextic already fails.
 Applying the conclusion to actual supported complete intersections also
 uses the separately proposed quadric-cycle norm argument. That scope
-bridge is a dependency; this note does not promote it by implication.
+bridge is a dependency.
 
 ## Inputs and evidence
 

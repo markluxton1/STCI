@@ -3,7 +3,7 @@
 The characteristic-zero STCI question for the fixed \(C_0\) is open.
 Existence and nonexistence remain possible. This page records concrete
 mathematical gaps, constructions and possible investigations, not an ordered agenda; [selection criteria](RESEARCH_DECISION_GUIDE.md)
-help choose a bounded investigation. Exact established statements are in the
+help choose a bounded investigation. Exact statements and proofs are in the
 [result records](results/INDEX.md) and their proof homes.
 
 The broader problem is to describe proper intersections containing C0, their
@@ -12,6 +12,15 @@ equations, and supported ACM or AG structures. A useful construction may stop
 short of sole support, and a general lemma may matter for other curves. Failure
 of a specified source describes what a different realization must change; it
 does not accumulate into an exhaustive classification without a coverage proof.
+
+The torus pilot gives two concrete Investigation entrypoints:
+[two-equation incidence on a declared supported family](investigations/supported-generator-incidence/index.md)
+and [comparison of moving quotients with full limits](investigations/quotient-hilbert-comparison/index.md).
+Both remain unperformed research tasks. The
+[finite residual controls](investigations/torus-residual-controls/index.md)
+are complete within their explicit computational scope and resolve neither
+question. Their Frameworks explain the selection criteria without assigning
+this lane priority over independent constructions or obstructions.
 
 ## Selection boundary
 

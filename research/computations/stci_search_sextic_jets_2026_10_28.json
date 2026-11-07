@@ -1,5 +1,4 @@
 {
-  "status": "provisional exact rank certificates",
   "script_sha256": "35cf4aacd37a448128a75f8b88229618479b56cea2690a43cce9b6f085fb11a3",
   "arithmetic_helper_sha256": "20c0bae04bfb254da4a13e30391d5a302a43e864379a2cfa21044a841d358465",
   "prime": 65521,

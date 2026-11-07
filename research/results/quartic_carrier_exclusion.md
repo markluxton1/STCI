@@ -2,7 +2,6 @@
 id: STCI-R-0001
 title: Complete exclusion of integral quartic carriers of the fixed rational quartic
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed fields of characteristic zero"
   curve: "C0 = [s^4:s^3t:st^3:t^4] in P3, and its projective equivalents"
@@ -20,7 +19,6 @@ evidence:
   - "research/supplements/GENUS_TWO_ENDPOINT_LOCAL_CORRECTIONS.md"
 independent_audits:
   - "research/synthesis/quartic_carrier_proof.md#9-review-state"
-accepted_in: "research/synthesis/quartic_carrier_proof.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -58,7 +56,7 @@ quartic-pair theorem.
 The current proof links every specialized full argument and necessary exact
 computation, and records the scope of reused independent review. The
 original accepted assembly dates from October11; consolidation changes its
-proof organization, not its quantifiers or theorem status.
+proof organization, not its quantifiers or mathematical conclusions.
 
 ## Consequences and boundaries
 

@@ -547,8 +547,7 @@ its movement to the exact global budget.
   `generalization_moving_first_relation_operator.py` with its JSON
   output. No uniform moving-relation exclusion is claimed.
 - Independent review requested from the agent auditing the socle
-  theorem; the result of that review must be recorded before promoting
-  (10) to the canonical audited state.
+  theorem; the independent review of (10) remains pending.
 
 ---
 
@@ -1388,7 +1387,7 @@ audits only the new relation-lifting and factor-extraction argument in
 `2026-10-13-generalization-thick-equality-geometry.md`, plus the new
 first-relation defect extension proposed by `thick_extension`.
 Previously verified direction coefficients and their nonvanishing are
-not recomputed. No canonical-state file is edited.
+not recomputed. No state file is edited.
 
 ## 1. Verdict
 

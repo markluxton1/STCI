@@ -1,6 +1,6 @@
 # Full formal geometry, fixed twists, and finite jets
 
-Fix the embedded C=C0 over an algebraically closed field. Let Y be an actual proper pair of degrees a,b, with [Y]=m[C]+R. These are reviewed provisional deductions and standard formal-Lefschetz applications, not an STCI existence result. The full completed ideal, its generic transverse algebra, and two globally glued fixed-twist equations contain different information.
+Fix the embedded C=C0 over an algebraically closed field. Let Y be an actual proper pair of degrees a,b, with [Y]=m[C]+R. These are reviewed deductions and standard formal-Lefschetz applications, not an STCI existence result. The full completed ideal, its generic transverse algebra, and two globally glued fixed-twist equations contain different information.
 
 ## What full formal geometry detects and extends
 

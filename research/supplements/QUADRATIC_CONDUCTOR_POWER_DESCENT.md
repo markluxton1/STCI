@@ -250,8 +250,8 @@ criterion. For example the double-line example m=epsilon, ell=1,
 delta=1 has a rank-one pair (m^2,delta ell^2)=(0,1), while the
 product m ell is nonzero and q has no invariant positive power.
 The proportionality constant zero is outside Cycl. This distinction
-prevents promotion of a finite necessary determinantal locus into
-a sufficient descent condition.
+prevents inferring a sufficient descent condition
+from a finite necessary determinantal locus.
 
 ## 6. The abstract unbounded-order example is valid
 

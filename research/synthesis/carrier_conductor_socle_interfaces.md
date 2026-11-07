@@ -1,6 +1,6 @@
 # Carrier descent and socle interfaces
 
-**Status:** thematic navigation, not new theorem authority. Read [carrier geometry](04-carriers.md) for the normalization and conductor framework. The canonical records determine all hypotheses.
+**Status:** thematic navigation, not new theorem authority. Read [carrier geometry](04-carriers.md) for the normalization and conductor framework. The records determine all hypotheses.
 
 ## Distinct obstruction mechanisms
 

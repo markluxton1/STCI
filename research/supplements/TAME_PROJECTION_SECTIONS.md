@@ -1,7 +1,7 @@
 # Canonical projection sections and their endpoint poles
 
-**Status, October 31, 2026: independently reviewed provisional theorem and
-local control; not promoted.** Over an algebraically closed field, fix
+**Status, October 31, 2026: independently reviewed theorem and
+local control.** Over an algebraically closed field, fix
 \(C=[s^4:s^3t:st^3:t^4]\), and let \(Z=V(F_a,G_b)\) be a proper
 homogeneous complete intersection with \(Z_{\mathrm{red}}=C\). Write
 \(m=ab/4\). This note applies in characteristic zero or odd characteristic;

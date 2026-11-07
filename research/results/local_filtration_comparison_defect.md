@@ -2,7 +2,6 @@
 id: STCI-R-0030
 title: "Local filtered-equation comparison and punctual defect criterion"
 kind: theorem
-status: proved
 scope:
   characteristic: "arbitrary where the stated regular local hypotheses hold"
   curve: "smooth codimension-two curve in smooth threefold"
@@ -18,14 +17,13 @@ evidence:
 independent_audits:
   - "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
   - "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
-accepted_in: "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
 limitations:
   - "Local statements only; no global quartic twisting assertion"
   - "No existence or impossibility theorem for punctual defects under radical(J)=I"
-  - "No new executable replay in this promotion"
+  - "No new executable replay during consolidation"
 ---
 # Local filtered-equation comparison
 
@@ -47,19 +45,19 @@ The exact sequence is an algebraic initial-ideal identity. The generator-excess 
 Take initial symbols of J, IJ, and the intrinsic filtered equation module. The quotient identities give the exact sequence. At the generic transverse point, J/IJ has dimension two, so summing its graded dimensions gives the generator excess. Over a DVR the surjective comparison induces an isomorphism on equal-rank torsion-free quotients, yielding the length identity. At a smooth carrier, straighten its equation to one normal parameter; the completed-local standard-basis calculation gives in(IJ)=S_+in(J), and faithful flatness descends the vanishing.
 
 ## Dependencies
-No canonical result dependency; original reviewed local algebra is cited as evidence.
+No result dependency; original reviewed local algebra is cited as evidence.
 
 ## Evidence and verification
-The October 23 and 24 independent mathematical reviews checked the exact comparison, local support calculation, and torsion formula. The October 26 note independently checks the elementary quotient and DVR arguments. Saved validation scripts were not rerun in this promotion.
+The October 23 and 24 independent mathematical reviews checked the exact comparison, local support calculation, and torsion formula. The October 26 note independently checks the elementary quotient and DVR arguments. Saved validation scripts were not rerun during consolidation.
 
 ## Consequences
 Separates generic extra initial generators from isolated torsion cancellations, and gives a necessary simultaneous-singularity condition for punctual defect.
 
 ## Limitations
-Does not promote the characteristic-two O(-24) global identification or the filtered normal-Koszul spectral sequence. Does not decide whether a nonzero punctual defect exists under radical(J)=I and generic Delta=0. Counterexamples with residual support do not settle that question.
+Does not prove the characteristic-two O(-24) global identification or the filtered normal-Koszul spectral sequence. Does not decide whether a nonzero punctual defect exists under radical(J)=I and generic Delta=0. Counterexamples with residual support do not settle that question.
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
 
-The [supported length-five specialization control](../synthesis/comparison_defect_specialization.md) computes zero relative comparison defect and nonzero actual closed-fiber comparison defect. It shows why exceptional transverse slices do not by themselves establish a punctual relative defect. This reviewed provisional example does not change the canonical theorem or settle its remaining sole-support existence question.
+The [supported length-five specialization control](../synthesis/comparison_defect_specialization.md) computes zero relative comparison defect and nonzero actual closed-fiber comparison defect. It shows why exceptional transverse slices do not by themselves establish a punctual relative defect. This reviewed example does not change the theorem or settle its remaining sole-support existence question.

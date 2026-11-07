@@ -6,7 +6,7 @@ Status: **STRUCTURAL RESEARCH QUESTION — quartic-carrier subcases superseded**
 
 For primitive or quasiprimitive filtrations of C, study the successive ambient-section restriction maps, their maximal-rank defects, and the special-point divisors modifying their targets. The numerical condition budget alone does not control dependence among jet conditions.
 
-## Established framework and location
+## Jet discrepancy and its proof sources
 
 The definitions of target shortfall and maximal-rank defect, the conormal comparison divisor R, the dimensions of the first quartic source, and the finite second-jet evaluation on 2R are now summarized in [order-one structure](../results/order_one.md). The full original calculations remain in the [October 6 jet-discrepancy framework](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-order-one-jet-discrepancy-framework) and [e=1 rebuild](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild). The separate [quartic jet geometry](../results/jet_geometry.md) records the e=2 geometric interpretation.
 

@@ -2,7 +2,6 @@
 id: STCI-R-0029
 title: "Arithmetic ruled four-section family"
 kind: theorem
-status: proved
 scope:
   characteristic: "mixed over Z localized at 2"
   curve: "fixed prescribed quartic family"
@@ -15,7 +14,6 @@ evidence:
   - "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
 independent_audits:
   - "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
-accepted_in: "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -42,7 +40,7 @@ Graded normalization, conductor calculations, Cartier finite flatness, root-valu
 R-0021 records the related projective complete-intersection degeneration; its flatness is not inferred from the Cartier divisor alone.
 
 ## Evidence and verification
-Written calculations and independent arithmetic audit, without a fresh execution in this promotion.
+Written calculations and independent arithmetic audit, without a fresh execution during consolidation.
 
 ## Consequences
 Distinguishes specialization of a finite flat divisor, normalization of the total space, and normalization of a special fiber.

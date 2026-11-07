@@ -34,7 +34,7 @@ A substantive next result would exhibit and verify a sole-supported invariant id
 - Compare both opposite limits of each moving ideal and their endpoint behavior; neither direction may be silently discarded.
 - Prove coverage before transferring a stratum-specific conclusion to all supported complete intersections.
 
-No new theorem or canonical status is asserted.
+No new theorem or status is asserted.
 
 ## Opposite-limit pairs as a refined geometric decomposition
 

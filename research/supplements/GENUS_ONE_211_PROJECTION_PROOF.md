@@ -9,7 +9,7 @@ Status: **PROVED HERE under the accepted genus-one ribbon-net reduction**.
 This rules out the entire binary-quartic multiplicity partition [2,1,1]
 for a hypothetical genus-one quartic mate, in characteristic zero.
 It does not yet exclude the partitions [4], [3,1], or [2,2].
-No canonical frontier file is edited.
+No frontier file is edited.
 
 Inputs are the [independent ribbon-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md)
 and the [uniform actual-coordinate fiber conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md).

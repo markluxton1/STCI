@@ -1,6 +1,6 @@
 # Residual capacity on normalizations
 
-For an actual proper pair on the fixed quartic, write [Y]=m[C]+R and delta=deg R=ab-4m. This chapter contains reviewed provisional necessary inequalities, not a new canonical promotion. Its input is the nef line bundle obtained by principalizing the actual marked ideal. Marked attachment and full attachment belong to [the attachment chapter](residual_capacity_and_constructions.md).
+For an actual proper pair on the fixed quartic, write [Y]=m[C]+R and delta=deg R=ab-4m. This chapter contains reviewed necessary inequalities. Its input is the nef line bundle obtained by principalizing the actual marked ideal. Marked attachment and full attachment belong to [the attachment chapter](residual_capacity_and_constructions.md).
 
 ## 4. A uniform residual floor when a carrier is smooth along C
 
@@ -594,7 +594,7 @@ be the degree of the common-zero divisor of the first-normal section of
 \(F\) on \(C\). This is the finite singularity divisor of the actual
 equation along \(C\), counted with its first-symbol vanishing orders.
 
-In the promoted characteristic-zero splitting
+In the characteristic-zero splitting
 \(N^*_{C/\mathbf P^3}=O_{\mathbf P^1}(-7)^2\), the two coefficient
 sections have degree \(4a-7\). Thus \(d_F\) can be obtained by taking
 their binary-form gcd; it is independent of a constant change of balanced

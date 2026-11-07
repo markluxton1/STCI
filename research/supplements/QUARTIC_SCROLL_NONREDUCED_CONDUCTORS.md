@@ -345,8 +345,7 @@ nonreduced base Artin ring.
 ## 6. A conditional transverse-plane explanation
 
 This alternate transverse-plane proof is retained as an independent
-research route, with its geometric slice passage still explicitly
-unpromoted. The exact Artin proof in
+research route, with its geometric slice passage conditional on the slice hypotheses below. The exact Artin proof in
 [nongorenstein cubic classification](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md#4-the-whole-nongorenstein-cubic-schemes)
 and its [independent audit](#2-the-remaining-nongorenstein-schemes)
 avoid this passage. The
@@ -469,5 +468,4 @@ therefore do not contradict the actual fixed-C0 quartic-carrier STCI
 constructions in every positive characteristic. No generic module is
 substituted for the entire conductor at a bad point. The full accepted proofs, explicit countercontrols and distinct conditional
 transverse-plane route were independently compared with the retired sources
-and accepted for consolidation. The slice passage remains explicitly
-unpromoted; no CAS rerun or wider exclusion is claimed.
+and accepted for consolidation. The slice passage retains those conditional hypotheses; no CAS rerun or wider exclusion is claimed.

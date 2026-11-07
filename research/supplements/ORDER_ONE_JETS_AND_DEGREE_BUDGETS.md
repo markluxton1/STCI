@@ -228,7 +228,7 @@ Two controls are directly compatible with the e=2 top degree:
 
 In each case d_(b-1)=b-7 and the uniform early bounds are satisfied.
 Thus even finite-flat, two-normal-generator, local CI and Gorenstein
-duality do not promote the primitive exclusion to every b. These are
+duality do not extend the primitive exclusion to every b. These are
 local numerical controls, not projectively embedded multiple curves
 on C0 and not STCI counterexamples or constructions. They establish
 the insufficiency of the proposed numerical inference.

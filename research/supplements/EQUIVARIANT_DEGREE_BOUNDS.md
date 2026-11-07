@@ -7,8 +7,7 @@ algebraically closed. Besides ordinary degree, give the coordinates weights
 it is bihomogeneous for the parametrization grading
 \((4,0),(3,1),(1,3),(0,4)\).
 
-**Status, October 31, 2026:** independently reviewed provisional theorem;
-not promoted to a canonical result. This extends the [one-binomial bound](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#one-binomial-equation-with-an-arbitrary-mate)
+**Review, October 31, 2026:** independently reviewed theorem. This extends the [one-binomial bound](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#one-binomial-equation-with-an-arbitrary-mate)
 to one weight-homogeneous equation, with an arbitrary mate. Later sections
 constrain the extreme components of every pair with \(p\nmid ab\),
 prove the sharp linear bound when each equation has at most two weights,
@@ -197,7 +196,7 @@ a substitute for its all-degree or all-prime quantifiers.
 
 ## Extreme components of arbitrary presentations
 
-**Independently reviewed provisional extension.** This section adapts
+**Independently reviewed extension.** This section adapts
 [Hellus–Hübl, Theorem 1.2](https://arxiv.org/pdf/1312.7661), replacing its
 characteristic-zero exclusion of a bihomogeneous supported pair by the
 trace theorem above. No literature-priority claim is made.
@@ -388,5 +387,4 @@ Here the constant generator change exposes the eigen equation \(F-G=q^3\),
 so the earlier trace theorem also detects the failure of sole support.
 Independent reconstruction checked the Segre factorization, triple and
 pair supports, properness, degree and weight constraints, residual cycle
-and extra point. The control is reviewed provisional evidence, not a
-canonical promotion.
+and extra point. The control has the independent review described above.

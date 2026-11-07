@@ -275,7 +275,7 @@ the parameter \(\mathbf P^1\), the data are
 | Embedding | Normal bundle |
 |---|---|
 | \(C_4\subset\mathbf P^4\), or its strict transform in \(B\) | \(\mathcal O(6)^3\) |
-| \(C\subset H\) | \(\mathcal O(7)^2\), retained promoted premise R0020 |
+| \(C\subset H\) | \(\mathcal O(7)^2\), retained premise R0020 |
 | \(C\subset\mathbf P^4\), or its strict transform in \(B\) | \(\mathcal O(7)^2\oplus\mathcal O(4)\) |
 | Either curve in \(T\) | \(\mathcal O(4)\) |
 | \(C\subset Q\) | \(\mathcal O(6)\) |

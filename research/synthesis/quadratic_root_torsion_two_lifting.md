@@ -17,12 +17,12 @@ open. The [spectral splitting proof](spectral_torsion_and_syzygy_splitting.md)
 owns the general four-torsion/syzygy classification; it does not make the
 embedded operator invariant under arbitrary changes of normal direction.
 
-The results here are independently reviewed provisional deductions and exact
+The results here are independently reviewed deductions and exact
 calculations. They exclude every smooth first-compatible diagonal root,
 every smooth torsion-two root with a pure square direction, and the complete
 exceptional rank-drop fibers in the remaining mixed chart. The three
 rank-two pivot charts remain unresolved over Q. These are necessary local
-compatibility tests, not a complete STCI criterion or a canonical promotion.
+compatibility tests, not a complete STCI criterion.
 
 The actual transition and complete `FIRST` and `R4` representatives are the
 inherited [global second model](../computations/generalization_quadratic_root_global_second_model.py).
@@ -350,7 +350,7 @@ all of the torsion-two problem.
 
 ## Relation to the actual bounded degree rows
 
-The promoted [R-0014 six-row reduction](../results/movement_two_six_rows.md)
+The [R-0014 six-row reduction](../results/movement_two_six_rows.md)
 already bounds the actual degrees in the relevant restricted global class.
 Under [R-0013](../results/saturated_actual_generator_movement.md)—actual
 homogeneous sole support on C0, saturated first relation, and a full generic

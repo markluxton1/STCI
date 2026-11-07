@@ -2,9 +2,9 @@
 """Exact certificate for q=(1,z,Az+B,Cz+D), characteristic zero.
 
 Run with SymPy 1.14.0. Reuses the accepted first ambient operator, the
-complete actual sextic symbol source, and the reviewed parity-slice checker.
-No source footer is executed and no artifacts are generated. Conclusions
-remain provisional; the owning synthesis note records independent review.
+complete actual sextic symbol source, and the parity-slice checker.
+No source footer is executed and no artifacts are generated. The exact
+calculation and its scope are stated in the owning synthesis note.
 """
 import json
 

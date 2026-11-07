@@ -1,6 +1,6 @@
 # Historical mathematical investigations
 
-Full original mathematical text follows. Preserve source-level evidence status, counterexamples, corrections and unresolved boundaries; no independent re-audit or result promotion.
+Full original mathematical text follows. Preserve source-level evidence status, counterexamples, corrections and unresolved boundaries. This compilation supplies no new independent audit.
 
 ---
 
@@ -12,8 +12,8 @@ Date: 2026-10-10 local time; written at 2026-10-11T01:17 UTC.
 Auditor: `bisection_local_fibers`. Status of Sections 1--4:
 **PROVED HERE / independent audit passed**, conditional on the explicitly
 accepted second-pencil and smooth-embedded-lift reductions. Section 5 is a
-separate structural proposal requiring its own audit. No canonical file
-is edited, and this note asserts no universal STCI theorem.
+separate structural proposal requiring its own audit. The review covers the
+stated bisection case.
 
 Audited source:
 [three-blowup fiber exclusion](GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md),
@@ -163,8 +163,8 @@ with two rational components, its pulled-back divisor cannot be the
 single irreducible genus-one curve just obtained. This would exclude
 `[1,1,1,1]` and complete an alternative structural bisection exclusion.
 The discriminant-to-entire-conductor identification, and any possible
-horizontal contraction, should be checked explicitly before promoting
-this section. A separate global Cartier-double-ribbon obstruction is
+horizontal contraction, should be checked explicitly before relying on
+this argument. A separate global Cartier-double-ribbon obstruction is
 currently under independent audit and may supersede this longer route.
 
 ## 6. Independent check of the proposed ribbon alternative
@@ -212,7 +212,7 @@ separate adversarial check by `fiber_weight_parity_audit` of Sections
 5--7. Status: **PROVED HERE, conditional on the accepted genus-two
 mate reduction**. This is a structural reduction; it does not exclude
 the entire bisection stratum or resolve the genus-two mate problem.
-No canonical frontier file was edited by this auditor.
+No frontier file was edited by this auditor.
 
 ## 1. Exact hypotheses and notation
 
@@ -464,7 +464,7 @@ have to be imposed. The lambda-one section lane is unchanged.
 
 Date: 2026-10-10. Auditor: degree-one-anticanonical counteraudit agent.
 Status: **PROVED HERE / accepted bounded structural classification**.
-No canonical frontier file or computation script was edited. This note
+No frontier file or computation script was edited. This note
 does not exclude the lambda-one stratum or assert that any listed
 configuration is realized by an actual quartic normalization or mate.
 

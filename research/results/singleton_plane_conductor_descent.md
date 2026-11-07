@@ -2,7 +2,6 @@
 id: STCI-R-0017
 title: "Degree-sixteen singleton plane projection family without mates"
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "fixed C0 in P3"
@@ -17,7 +16,6 @@ evidence:
   - "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
 independent_audits:
   - "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
-accepted_in: "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -50,4 +48,4 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 
 ## Current mathematical evidence
 
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not imply an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

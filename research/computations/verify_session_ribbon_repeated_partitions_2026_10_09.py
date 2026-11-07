@@ -214,7 +214,7 @@ result = {
     },
     "two_point_certificate": {"minimal_polynomial": str(p_two_points), "trace_square_over_norm": "16*a+6", "linear_coefficient": 16},
     "elapsed_seconds": time.perf_counter()-START,
-    "does_not_claim": "The universal STCI problem, arbitrary higher carrier degree, or a root canonical promotion.",
+    "does_not_claim": "The universal STCI problem or arbitrary higher carrier degree.",
 }
 OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 OUTPUT.write_text(json.dumps(result, indent=2)+"\n")

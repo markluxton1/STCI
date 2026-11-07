@@ -1651,6 +1651,6 @@ used as premises; they were not re-audited.
 
 The newly proposed actual-CI-to-root-curve bridge is separate. Once that
 bridge passes independent review, `K` is a necessary incidence for its
-stated lane. Nothing here promotes that bridge's hypotheses to a theorem
-about every complete intersection. The universal STCI problem and
+stated lane. The bridge's hypotheses do not hold by assumption for
+every complete intersection. The universal STCI problem and
 unrestricted `C0` remain open.

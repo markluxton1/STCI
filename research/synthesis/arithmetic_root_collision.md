@@ -1,6 +1,6 @@
 # Arithmetic root collision in the quartic pencil
 
-Retain the actual pencil F=x1^4-x0^3*x3, G_a=x2^4-a*x1*x2*x3^2+(a-1)*x0*x3^3, with the marked root lambda=1. Work over a complete rank-one valued field of characteristic zero and residue characteristic two, extending its valuation to algebraic roots when needed. This exact local computation is reviewed provisional evidence, not a characteristic-zero nonexistence theorem or a characteristic-p support construction.
+Retain the actual pencil F=x1^4-x0^3*x3, G_a=x2^4-a*x1*x2*x3^2+(a-1)*x0*x3^3, with the marked root lambda=1. Work over a complete rank-one valued field of characteristic zero and residue characteristic two, extending its valuation to algebraic roots when needed. This exact local computation is reviewed evidence, not a characteristic-zero nonexistence theorem or a characteristic-p support construction.
 
 ## Two mixed-characteristic scales and the root collision tree
 

@@ -1,7 +1,7 @@
 # Normalization indices and actual power descent
 
-**Scope and status.** Independently reviewed provisional results and constructions,
-retained from the fixed source cutoff `8e9a87a`; no canonical promotion. Work
+**Scope and status.** Independently reviewed results and constructions,
+retained from the fixed source cutoff `8e9a87a`. Work
 over an algebraically closed characteristic-zero field. The normalization
 index and the failure of a section to descend are separate data. The actual
 affine and projective pairs below realize arbitrary index and power descent;

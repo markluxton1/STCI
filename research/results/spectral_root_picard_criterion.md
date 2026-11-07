@@ -2,7 +2,6 @@
 id: STCI-R-0008
 title: Spectral root-curve Picard criterion for a graded second relation
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field"
   curve: "smooth projective curve with split rank-two conormal E=H^-1 tensor V"
@@ -16,7 +15,6 @@ evidence:
   - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
 independent_audits:
   - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
-accepted_in: "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -66,4 +64,4 @@ The current full proof and its independently reconstructed scope are linked abov
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

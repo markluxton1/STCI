@@ -1,6 +1,6 @@
 # Normal filtrations and boundary obstructions
 
-**Status:** thematic synthesis, not theorem authority or a new audit. This document connects accepted local results with provisional global-lifting arguments. Exact hypotheses and proofs remain in the linked sources.
+**Status:** thematic synthesis, not theorem authority or a new audit. This document connects accepted local results with global-lifting arguments with the review scopes stated in their sources. Exact hypotheses and proofs remain in the linked sources.
 
 ## Geometric orientation: successive neighborhoods of the curve
 
@@ -53,15 +53,15 @@ These are not interchangeable. In particular, a punctual initial-ideal defect do
 - [R-0032](../results/full_conormal_socle_budget.md): conormal and socle budget for actual supported complete intersections, with its degree-bound assumptions.
 - [R-0033](../results/constant_first_relation_lifting.md): lifting obstruction for particular constant-first-relation models, not all moving relations.
 
-The [normal torsion and genus note](../supplements/CURVILINEAR_GENUS_AND_DEFECTS.md#normal-torsion-spectral-genus-budget) compares ordinary graded torsion and saturated-layer divisors in the generically curvilinear supported setting. They measure the same genus contribution and must not be counted twice. Further spectral claims in that note remain provisional beyond promoted record scopes.
+The [normal torsion and genus note](../supplements/CURVILINEAR_GENUS_AND_DEFECTS.md#normal-torsion-spectral-genus-budget) compares ordinary graded torsion and saturated-layer divisors in the generically curvilinear supported setting. They measure the same genus contribution and must not be counted twice. Further spectral claims in that note have the proof and review scopes stated there.
 
-## Provisional boundary-repair and one-step arguments
+## Boundary-repair and one-step arguments
 
 The [boundary-repair note](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) supplies a principal-parts test for an identified linear obstruction in H^1(C,V): the class dies under V to V(D) exactly when its image in H^1(C,V(D)) is zero. On P1 this admits a common-divisor multiplication-kernel test. Repair by an arbitrary divisor of a given degree does not imply a prescribed geometric repair or actual homogeneous realization.
 
 The [one-step note](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md), with [independent audit](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction-audit), constructs an extension class for a fixed lower embedded Cohen-Macaulay thickening with generically curvilinear normal algebra. The existing power-relation divisor consumes part of the next permitted divisor; the remaining allowance, together with vanishing of the pushed-forward extension class and surjectivity, governs its specified one-step extension.
 
-For the final Gorenstein step (generic length at least three), that note argues that no additional divisor allowance remains: the relevant extension class must vanish, and perfect top-layer multiplication is also required. **These claims remain provisional and scoped.** They do not give a general ambient obstruction comparison, a global STCI exclusion, or a converse from splitting to two global equations.
+For the final Gorenstein step (generic length at least three), that note argues that no additional divisor allowance remains: the relevant extension class must vanish, and perfect top-layer multiplication is also required. **These claims retain their stated scopes.** They do not give a general ambient obstruction comparison, a global STCI exclusion, or a converse from splitting to two global equations.
 
 ## From exceptional normal divisors to the full filtered equation module
 
@@ -125,7 +125,7 @@ The [corrected simultaneous-target bridge](../supplements/OCT7_NORMAL_RAMIFICATI
 
 The [six defective e=1,d2=1 endpoints](../supplements/OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d1-endpoint-ancestorsmd) are excluded as *ancestors*: four have a one-dimensional complete ambient quartic space, incompatible with two independent target images; two have a common cubic factor and reduce to degree-one multipliers, excluded by P-037. This does not rule out an arbitrary higher-degree mate for a remaining unique quartic carrier. Likewise the [principal open-chart rank result](../supplements/OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd) gives dimension one for the complete quartic space on its specified open, not an all-mate carrier exclusion; boundary charts require their separate proofs.
 
-The remaining defective ancestor strata and other directions must be checked with their actual extension classes and target images. None of these conditional exclusions should be promoted to a universal STCI theorem by dropping their antecedents.
+The remaining defective ancestor strata and other directions must be checked with their actual extension classes and target images. None of these conditional exclusions can imply a universal STCI theorem by dropping their antecedents.
 
 ## Two additional October 8 ancestor exclusions
 
@@ -181,7 +181,7 @@ The [weighted-initial note](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND
 
 ### A finite, checkable continuation
 
-Choose a specific surviving pair of degrees at least five, or a specified lower embedded thickening. Record (i) its generic transverse algebra and **full** initial ideal; (ii) the saturation and exceptional-point defect of each conormal layer; (iii) the exact obstruction class and allowed boundary divisor for the next lift; and (iv) the image of actual global homogeneous sections in the required jets. At each step distinguish failure of a necessary condition from failure to construct a solution. Finally check properness and actual residual support independently. The provisional [boundary repair](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) and [one-step completion](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) analyses provide scoped tools, not a theorem that this procedure always decides STCI.
+Choose a specific surviving pair of degrees at least five, or a specified lower embedded thickening. Record (i) its generic transverse algebra and **full** initial ideal; (ii) the saturation and exceptional-point defect of each conormal layer; (iii) the exact obstruction class and allowed boundary divisor for the next lift; and (iv) the image of actual global homogeneous sections in the required jets. At each step distinguish failure of a necessary condition from failure to construct a solution. Finally check properness and actual residual support independently. The [boundary repair](../supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) and [one-step completion](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) analyses provide scoped tools, not a theorem that this procedure always decides STCI.
 
 **Remaining mathematical gap:** there is no established general implication from a generic or graded root configuration and its local repair data to a pair of global equations with sole reduced support. Conversely, there is no established theorem excluding all such configurations when first relations are nonsaturated or the comparison defect is punctual.
 

@@ -4,7 +4,7 @@ Fix the embedded curve \(C=C_0=[s^4:s^3t:st^3:t^4]\), over an algebraically clos
 \[
 V_{d,m}=H^0(\mathbf P^3,\mathcal I^m(d)),\qquad A_m(d)=\dim V_{d,m}.
 \]
-Powers are ideal sheaf powers, equivalently saturated homogeneous powers; they are not silently replaced by unsaturated polynomial ideal powers. The dimension and fixed-factor calculations below are characteristic free. Balanced normal-symbol statements and search applications use characteristic zero and [R-0020](../results/quartic_conormal_characteristic_jump.md). These deductions have inherited independent review and remain unpromoted.
+Powers are ideal sheaf powers, equivalently saturated homogeneous powers; they are not silently replaced by unsaturated polynomial ideal powers. The dimension and fixed-factor calculations below are characteristic free. Balanced normal-symbol statements and search applications use characteristic zero and [R-0020](../results/quartic_conormal_characteristic_jump.md). These deductions have inherited independent review.
 
 The [geometric foundations](../synthesis/global_equations_and_constructions.md) prove that \(C\) has class \((1,3)\) on the unique smooth quadric \(Q\). This flag controls actual equations, including terms that first normal symbols do not see.
 

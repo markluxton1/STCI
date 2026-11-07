@@ -1,6 +1,5 @@
 {
   "scope": "fixed marked rational quartic, characteristic zero",
-  "status": "exact symbolic evidence for provisional research",
   "sympy_version": "1.14.0",
   "checks": [
     {

@@ -1,6 +1,6 @@
 # Sextic pairs: nonreduced defects and the normal index-nine case
 
-This is an independently reviewed provisional application to the fixed
+This is an independently reviewed application to the fixed
 \(C_0=[s^4:s^3t:st^3:t^4]\), in characteristic zero or \(p\ge7\).
 Suppose an arbitrary proper pair \(Z=V(F_6,G_6)\) has reduced support
 \(C_0\). Neither equation is assumed integral, normal, or to have a
@@ -238,8 +238,7 @@ On either normal sextic \(S\), the mate cuts the Cartier divisor
 Every actual on-curve local Cartier index therefore divides nine. Its
 possibilities are \(1,3,9\), and at least one is nine: otherwise
 [R-0035](../results/normal_carrier_bounded_index_exclusion.md) would exclude
-this normal integral carrier with its actual supported mate. That promoted
-theorem requires no ADE hypothesis; its stated characteristic-zero scope is
+this normal integral carrier with its actual supported mate. That theorem requires no ADE hypothesis; its stated characteristic-zero scope is
 retained here.
 
 There is also a concrete torsion class to retain:
@@ -349,7 +348,7 @@ Independent reconstruction accepted the divisorial-layer identification,
 both Euler computations, exact normalized-cover eigensheaves, canonical
 pullback and irregularity bound. It covered arbitrary normal singularities
 and retained the distinction between \(Y\) and a resolution. This is
-reviewed provisional necessary evidence, not an exclusion of the cover.
+reviewed necessary evidence, not an exclusion of the cover.
 
 ## The common first-normal divisor must be nonreduced
 

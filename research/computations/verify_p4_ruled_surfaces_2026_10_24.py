@@ -7,7 +7,7 @@ Run with a Python having SymPy installed, for example
 This checks coordinate identities and finite ideal computations. Normality,
 finiteness, completeness of singular loci, and independent mathematical
 review are supplied by the accompanying notes, not certified by this file.
-It does not replay inherited STCI proofs or promote a canonical result.
+It does not replay inherited STCI proofs.
 """
 
 from __future__ import annotations
@@ -185,7 +185,7 @@ def main() -> None:
 
     report = {
         "status": "PASS",
-        "scope": "new coordinate identities and finite ideal checks; provisional research evidence only",
+        "scope": "new coordinate identities and finite ideal checks",
         "sympy_version": sp.__version__,
         "check_count": len(CHECKS),
         "checks": CHECKS,

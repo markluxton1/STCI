@@ -5,14 +5,18 @@ on:
     paths:
       - "research/synthesis/toric_quotients_and_endpoint_descent.md"
       - "research/synthesis/toric_sextic_residuals_and_limits.md"
-      - "research/computations/verify_toric_quotients_and_residual_limits.py"
+      - "research/arguments/torus_*.md"
+      - "research/results/*.md"
+      - "research/investigations/torus-residual-controls/**"
       - ".github/workflows/toric-quotient-validation.yml"
   push:
     branches: [main]
     paths:
       - "research/synthesis/toric_quotients_and_endpoint_descent.md"
       - "research/synthesis/toric_sextic_residuals_and_limits.md"
-      - "research/computations/verify_toric_quotients_and_residual_limits.py"
+      - "research/arguments/torus_*.md"
+      - "research/results/*.md"
+      - "research/investigations/torus-residual-controls/**"
       - ".github/workflows/toric-quotient-validation.yml"
   workflow_dispatch:
 
@@ -29,4 +33,6 @@ jobs:
         with:
           python-version: "3.12"
       - name: Check finite algebras, source ranks and explicit identities
-        run: python3 -B research/computations/verify_toric_quotients_and_residual_limits.py
+        run: python3 -B research/investigations/torus-residual-controls/verify.py
+      - name: Reject deliberately altered finite data
+        run: python3 -B -m unittest discover -s research/investigations/torus-residual-controls -p 'test_*.py' -v

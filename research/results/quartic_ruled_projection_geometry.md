@@ -2,7 +2,6 @@
 id: STCI-R-0028
 title: "Ruled projection and normalization models"
 kind: theorem
-status: proved
 scope:
   characteristic: "0"
   curve: "fixed marked rational quartic"
@@ -17,7 +16,6 @@ evidence:
 independent_audits:
   - "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
   - "research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md"
-accepted_in: "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,7 +35,7 @@ The specific center, scroll and ordered endpoint marking in the cited audits.
 Projective bundle formulas, finite normalization and conductor calculations, local intersection rings, and tracked elementary transforms establish the statements.
 
 ## Dependencies
-No other canonical theorem is required; marked setup agrees with R-0026.
+No other theorem is required; marked setup agrees with R-0026.
 
 ## Evidence and verification
 Documentary independent audits and saved exact symbolic evidence. No fresh script execution.

@@ -2,8 +2,8 @@
 """Validate research metadata, generate its locator, and resolve stable identifiers.
 
 This checks declared structure, local support and grounding, never mathematical
-truth, premise completeness or review sufficiency. Legacy authority is inherited;
-it is not converted into accepted reconstructed proof routes.
+truth, premise completeness or review sufficiency. Untyped records preserve
+source passages without synthesizing accepted proof routes.
 """
 from __future__ import annotations
 
@@ -47,7 +47,6 @@ IMAGE = re.compile(r"!\[[^\]]*\]\((<[^>]+>|[^\s)]+)(?:\s+[\"'][^)]*[\"'])?\)")
 ID = re.compile(r"STCI-([RAFIQ])-\d{4}\Z")
 TYPES = {"result": "R", "argument": "A", "framework": "F", "investigation": "I"}
 STATUSES = {
-    "result": {"provisional", "established", "disputed", "superseded"},
     "argument": {"draft", "complete"},
     "framework": {"proposed", "in_use", "retired"},
     "investigation": {"planned", "active", "complete", "inactive"},
@@ -61,10 +60,9 @@ RELATIONS = {
     "informs": ({"investigation", "result", "argument"}, {"framework"}),
     "limits": ({"result"}, {"framework", "investigation"}),
 }
-LEGACY_RESULT_STATUSES = {"proved", "exact_reduction", "conditional", "needs_audit", "disputed", "superseded"}
 LEGACY_QUESTION_STATUSES = {"open", "conditional", "resolved", "superseded"}
 LEGACY_FIELDS = {"id", "title", "kind", "status", "scope", "statement", "dependencies", "evidence",
-                 "independent_audits", "accepted_in", "legacy_ids", "supersedes", "superseded_by",
+                 "independent_audits", "legacy_ids", "supersedes", "superseded_by",
                  "limitations", "applicable_results"}
 
 
@@ -316,15 +314,16 @@ class Repository:
 
     def legacy(self, record):
         path, data = record.path, record.data
-        required = (LEGACY_FIELDS - {"applicable_results"}) if record.type == "result" else {"id", "title", "status", "applicable_results", "evidence"}
-        self.shape(data, required, LEGACY_FIELDS, path, "legacy record")
+        allowed = (LEGACY_FIELDS - {"status"}) | {"proofs"} if record.type == "result" else LEGACY_FIELDS
+        required = (allowed - {"applicable_results", "proofs"}) if record.type == "result" else {"id", "title", "status", "applicable_results", "evidence"}
+        self.shape(data, required, allowed, path, "untyped record")
         if not isinstance(data.get("title"), str) or not data.get("title", "").strip():
             self.error(path, "legacy title must be nonempty")
         expected = "results" if record.type == "result" else "questions"
         if path.parent != self.root / "research" / expected:
             self.error(path, "legacy ID/location mismatch")
-        if not isinstance(data.get("status"), str) or data.get("status") not in (LEGACY_RESULT_STATUSES if record.type == "result" else LEGACY_QUESTION_STATUSES):
-            self.error(path, "invalid legacy status")
+        if record.type == "question" and (not isinstance(data.get("status"), str) or data.get("status") not in LEGACY_QUESTION_STATUSES):
+            self.error(path, "invalid question status")
         if record.type == "result":
             for key in ("scope", "statement", "kind", "limitations"):
                 if key not in data:
@@ -343,16 +342,14 @@ class Repository:
             if not isinstance(data.get("statement"), str) or not data.get("statement", "").strip():
                 self.error(path, "legacy statement must be nonempty text")
             self.strings(data.get("limitations"), path, "legacy limitations")
-            if data.get("status") == "proved" and (not data.get("evidence") or not data.get("accepted_in")):
-                self.error(path, "proved legacy claim missing evidence or acceptance")
+            if "proofs" in data:
+                self.proofs(record)
         for key in ("dependencies", "applicable_results", "supersedes", "superseded_by"):
             for rid in self.strings(data.get(key, []), path, f"legacy {key}"):
                 self.resolve(rid, path, key, {"result"})
         for key in ("evidence", "independent_audits"):
             for raw in self.strings(data.get(key, []), path, f"legacy {key}", unique=False):
                 self.location(raw, path, key, remote=True)
-        if data.get("accepted_in") is not None:
-            self.location(data["accepted_in"], path, "accepted_in", remote=True)
         self.strings(data.get("legacy_ids", []), path, "legacy_ids")
 
     def object(self, record):
@@ -360,7 +357,9 @@ class Repository:
         if not isinstance(kind, str) or kind not in TYPES:
             self.error(path, f"unknown type {kind}")
             return
-        required = {"id", "type", "title", "status", "scope"} | (EXTRA[kind] - {"supersedes"})
+        required = {"id", "type", "title", "scope"} | (EXTRA[kind] - {"supersedes"})
+        if kind != "result":
+            required.add("status")
         self.shape(data, required, {"aliases", "relations", "supersedes"} | EXTRA[kind], path, "record")
         if kind != "result" and "supersedes" in data:
             self.error(path, "supersedes is only allowed on Results")
@@ -372,7 +371,7 @@ class Repository:
             self.error(path, "type/location mismatch")
         if not isinstance(data.get("title"), str) or not data.get("title", "").strip():
             self.error(path, "title must be nonempty text")
-        if not isinstance(data.get("status"), str) or data.get("status") not in STATUSES[kind]:
+        if kind != "result" and (not isinstance(data.get("status"), str) or data.get("status") not in STATUSES[kind]):
             self.error(path, f"invalid {kind} status")
         for key in ["scope"] + sorted(EXTRA[kind] - {"proofs", "supersedes"}):
             self.location(data.get(key), path, key, fragment=True, own=True)
@@ -393,8 +392,6 @@ class Repository:
         if not isinstance(routes, list):
             self.error(path, "proofs must be a list")
             return
-        if not routes and data.get("status") not in ("provisional", "disputed"):
-            self.error(path, "Result requires a proof route")
         names = set()
         for route in routes:
             if not self.shape(route, {"name", "at", "using", "review"}, set(), path, "proof"):
@@ -409,8 +406,8 @@ class Repository:
             target = self.location(route.get("at"), path, "proof at", fragment=True)
             if target:
                 owners = [r for r in self.records.values() if r.path.resolve() == target]
-                if target != path.resolve() and not any(not r.legacy and r.data.get("type") == "argument" for r in owners):
-                    self.error(path, "proof at must address its own Result or a new-schema Argument section")
+                if target != path.resolve() and any(not r.legacy and r.data.get("type") != "argument" for r in owners):
+                    self.error(path, "proof at cannot use another typed Result, Framework, or Investigation as its proof owner")
             premises = []
             for rid in self.strings(route.get("using"), path, "proof using"):
                 premise = self.resolve(rid, path, "proof using", {"result"})
@@ -532,62 +529,36 @@ class Repository:
             if not record.legacy and record.data.get("type") == "investigation" and record.id not in motivated:
                 self.error(record.path, "Investigation requires a Framework motivates relation")
         self.grounding()
-        self._legacy_dependency_cycles()
         self.supersession()
         return sorted(set(self.errors))
 
     def grounding(self):
-        established = {r.id for r in self.records.values() if not r.legacy and r.data.get("type") == "result" and r.data.get("status") == "established"}
-        admitted = set()
-        while True:
-            added = set()
-            for rid in established - admitted:
-                for route in self.records[rid].data.get("proofs", []) if isinstance(self.records[rid].data.get("proofs"), list) else []:
-                    if not isinstance(route, dict) or not isinstance(route.get("review"), dict) or route["review"].get("state") != "accepted":
-                        continue
-                    using = route.get("using")
-                    if not isinstance(using, list) or any(not isinstance(x, str) for x in using):
-                        continue
-                    premises = [self.records.get(x) or (self.aliases[x][0] if x in self.aliases else None) for x in using]
-                    if all(p and p.id in admitted for p in premises):
-                        added.add(rid)
-                        break
-            if not added:
-                break
-            admitted.update(added)
-        for rid in sorted(established - admitted):
-            self.error(self.records[rid].path, "established Result lacks an accepted route grounded in new-schema established Results")
-
-    def _legacy_dependency_cycles(self):
-        # The old flat dependency contract applies only to unmigrated Results.
-        # New alternative proof routes use grounding(), never this flat graph.
-        edges = {}
+        accepted = []
         for record in self.records.values():
-            if not record.legacy or record.type != "result":
+            routes = record.data.get("proofs", [])
+            if record.type != "result" or not isinstance(routes, list):
                 continue
-            dependencies = record.data.get("dependencies", [])
-            targets = []
-            for identifier in dependencies if isinstance(dependencies, list) else []:
-                if not isinstance(identifier, str):
+            for route in routes:
+                if not isinstance(route, dict):
                     continue
-                target = self.records.get(identifier) or (self.aliases[identifier][0] if identifier in self.aliases else None)
-                if target and target.legacy and target.type == "result":
-                    targets.append(target.id)
-            edges[record.id] = targets
-        done, active = set(), set()
-        def visit(identifier):
-            if identifier in active:
-                self.error(self.records[identifier].path, f"legacy dependency cycle involving {identifier}")
-                return
-            if identifier in done:
-                return
-            active.add(identifier)
-            for target in edges[identifier]:
-                visit(target)
-            active.remove(identifier)
-            done.add(identifier)
-        for identifier in sorted(edges):
-            visit(identifier)
+                review = route.get("review")
+                if not isinstance(review, dict) or review.get("state") != "accepted":
+                    continue
+                using = route.get("using")
+                if not isinstance(using, list) or any(not isinstance(rid, str) for rid in using):
+                    continue
+                premises = {self.aliases[rid][0].id if rid in self.aliases else rid for rid in using}
+                accepted.append((record, route.get("name"), premises))
+
+        grounded = set()
+        while True:
+            ready = {record.id for record, _, premises in accepted if premises <= grounded}
+            if ready == grounded:
+                break
+            grounded = ready
+        for record, name, premises in accepted:
+            if not premises <= grounded:
+                self.error(record.path, f"accepted route {name!r} lacks noncircular accepted prerequisites")
 
     def supersession(self):
         edges = {}
@@ -652,22 +623,22 @@ class Repository:
 
     def catalog(self):
         self.checked()
-        lines = ["# Research catalog", "", "Generated by `python3 scripts/research.py catalog`; edit the owning records.", "", "This locator checks declared structure, not mathematical truth or review sufficiency.", "Legacy statuses and authority are inherited; they are not new-schema establishment.", ""]
+        lines = ["# Research catalog", "", "Generated by `python3 scripts/research.py catalog`; edit the owning records.", "", "This locator checks declared structure, not mathematical truth or review sufficiency.", "Untyped source passages do not synthesize proof-route reviews.", ""]
         for kind in ("result", "argument", "framework", "investigation", "question"):
             records = [r for r in self.records.values() if r.type == kind]
             if not records:
                 continue
-            heading = "Legacy questions (coexistence)" if kind == "question" else f"{kind.title()}s"
-            lines += [f"## {heading}", "", "| ID | Title | Status | Scope / authority |", "| --- | --- | --- | --- |"]
+            heading = "Untyped questions" if kind == "question" else f"{kind.title()}s"
+            lines += [f"## {heading}", "", "| ID | Title | Review / activity | Scope / format |", "| --- | --- | --- | --- |"]
             for r in sorted(records, key=lambda x: x.id):
-                scope = "inherited legacy authority" if r.legacy else f"[scope]({self.url(r, r.data['scope'])})"
-                status = f"legacy {r.data['status']} (inherited)" if r.legacy else r.data["status"]
-                lines.append(f"| [{r.id}]({self.url(r)}) | {self.text(r.data['title'])} | {status} | {scope} |")
+                scope = "untyped record" if r.legacy else f"[scope]({self.url(r, r.data['scope'])})"
+                review = self.review_summary(r, catalog=True)
+                lines.append(f"| [{r.id}]({self.url(r)}) | {self.text(r.data['title'])} | {self.text(review)} | {scope} |")
             lines.append("")
         if self.aliases:
             lines += ["## Aliases", ""]
             for alias, (r, fragment) in sorted(self.aliases.items()):
-                inherited = " (inherited alias to the whole legacy document)" if r.legacy else ""
+                inherited = " (alias to the whole untyped document)" if r.legacy else ""
                 lines.append(f"- `{alias}` → [{r.id}]({self.url(r, fragment)}){inherited}")
             lines.append("")
         lines += ["## Proof routes and backlinks", ""]
@@ -675,8 +646,7 @@ class Repository:
             if r.legacy:
                 for owner, field, _, group in self._legacy_reference_groups():
                     if owner.id == r.id:
-                        lines.append(f"- {r.id}: inherited references ({field}) [{group}]; no synthesized accepted route.")
-                continue
+                        lines.append(f"- {r.id}: recorded references ({field}) [{group}]; no synthesized accepted route.")
             for route in r.data.get("proofs", []):
                 review = route["review"]
                 basis = f", {review['basis']}" if "basis" in review else ""
@@ -687,11 +657,9 @@ class Repository:
             lines.append(f"- [{', '.join(relation['from'])}] — {relation['kind']} → [{', '.join(relation['to'])}]; [explanation owned by {owner.id}]({self.url(owner, relation['at'])}).")
         lines += ["", "## Object backlinks", ""]
         for r in sorted(self.records.values(), key=lambda x: x.id):
-            incoming = [f"inherited reference from {owner.id} ({field} group [{group}])"
+            incoming = [f"recorded reference from {owner.id} ({field} group [{group}])"
                         for owner, field, targets, group in self._legacy_reference_groups() if r.id in targets]
             for conclusion in self.records.values():
-                if conclusion.legacy:
-                    continue
                 for route in conclusion.data.get("proofs", []):
                     resolved = [self.records.get(x) or (self.aliases[x][0] if x in self.aliases else None) for x in route["using"]]
                     if r in resolved:
@@ -707,32 +675,55 @@ class Repository:
             lines.append(f"- {r.id}: {'; '.join(sorted(set(incoming))) if incoming else 'no declared backlinks' }.")
         return "\n".join(lines).rstrip() + "\n"
 
+    def review_summary(self, record, catalog=False):
+        summaries = []
+        if record.legacy and record.type == "result":
+            passages = []
+            for field in ("evidence", "independent_audits"):
+                values = record.data.get(field, [])
+                values = values if isinstance(values, list) else [values] if values else []
+                for value in values:
+                    if catalog:
+                        source = urlsplit(value)
+                        target = value if source.scheme else "../" + quote(unquote(source.path), safe="/")
+                        if not source.scheme and source.fragment:
+                            target += "#" + quote(unquote(source.fragment), safe="-._~")
+                        passages.append(f"{field}: [{value}]({target})")
+                    else:
+                        passages.append(f"{field}: {value}")
+            summaries.extend(passages)
+        if record.type != "result":
+            return record.data["status"]
+        routes = record.data.get("proofs", [])
+        summaries.extend(f"{route['name']}: {route['review']['state']}" for route in routes)
+        if not routes:
+            summaries.append("no recorded proof route")
+        return "; ".join(summaries)
+
     def show(self, identifier):
         self.checked()
         r = self.records.get(identifier) or (self.aliases[identifier][0] if identifier in self.aliases else None)
         if r is None:
             raise ValueError(f"Unknown research ID or alias: {identifier}")
-        lines = [f"{r.id} — {r.data['title']}", f"Type: {'legacy ' if r.legacy else ''}{r.type}", f"Status: {r.data['status']}{' (inherited authority; no reconstructed establishment)' if r.legacy else ''}", f"Location: {self.url(r, catalog=False)}"]
+        lines = [f"{r.id} — {r.data['title']}", f"Type: {r.type}", f"Format: {'untyped record' if r.legacy else 'typed record'}", f"Review / activity: {self.review_summary(r)}", f"Location: {self.url(r, catalog=False)}"]
         if identifier in self.aliases:
-            destination = "whole legacy document (inherited alias)" if r.legacy else self.aliases[identifier][1]
+            destination = "whole untyped document" if r.legacy else self.aliases[identifier][1]
             lines.append(f"Alias {identifier}: {destination}")
         if not r.legacy:
             lines.append(f"Scope: {r.data['scope']}")
         for route in r.data.get("proofs", []):
             lines.append(f"Proof {route['name']}: {route['at']}; joint using [{', '.join(route['using'])}]; review {route['review']}")
         if r.legacy:
-            for key in ("dependencies", "applicable_results", "evidence", "independent_audits", "accepted_in"):
+            for key in ("dependencies", "applicable_results", "evidence", "independent_audits"):
                 if key in r.data:
-                    lines.append(f"Inherited {key}: {r.data[key]}")
+                    lines.append(f"Recorded {key}: {r.data[key]}")
         for owner, field, targets, group in self._legacy_reference_groups():
             if r.id in targets:
-                lines.append(f"Inherited reference from {owner.id}: {field} group [{group}] (navigation only; no synthesized proof route)")
+                lines.append(f"Recorded reference from {owner.id}: {field} group [{group}] (navigation only; no synthesized proof route)")
         for owner, relation in sorted(self.relations, key=lambda x: (x[1]["kind"], x[0].id)):
             if r.id in relation["from"] + relation["to"]:
                 lines.append(f"{relation['kind']}: [{', '.join(relation['from'])}] → [{', '.join(relation['to'])}] at {self.url(owner, relation['at'], catalog=False)}")
         for other in sorted(self.records.values(), key=lambda x: x.id):
-            if other.legacy:
-                continue
             for route in other.data.get("proofs", []):
                 premises = [self.records.get(x) or (self.aliases[x][0] if x in self.aliases else None) for x in route["using"]]
                 if any(p and p.id == r.id for p in premises):

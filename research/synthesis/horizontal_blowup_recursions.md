@@ -5,7 +5,7 @@ and let an actual proper pair F_a,G_b have sole reduced support C. Write
 p,q for its generic normal orders and m=ab/d for its transverse length.
 The general [contact-depth theorem](generic_contact_depth.md) retains the
 whole common infinitely-near tree. Here a much narrower path has additional
-global line-bundle data. These are provisional deductions, not an unrestricted
+global line-bundle data. These are deductions, not an unrestricted
 STCI obstruction.
 
 ## A single common section and the second resultant
@@ -221,8 +221,8 @@ degrees and no automatic homogeneous realization of a local path.
 Independent consolidation review accepted the resultant transition calculation,
 the finite-flat generic-to-fiberwise bridge, the effective-divisor variant,
 the bundle recurrences, the higher-jet counterexample and the simpler
-all-characteristic quartic depth exclusion. These are reviewed provisional
-mathematical statements without a new canonical ID. A ramified multisection
+all-characteristic quartic depth exclusion. These are reviewed
+mathematical statements without a new ID. A ramified multisection
 formula, a general higher-depth upper bound and actual global realization of
 a surviving contact path remain outside this account. No computation is
 required for these proofs and none was rerun.

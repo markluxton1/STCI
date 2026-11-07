@@ -1618,7 +1618,7 @@ The degree boundaries are correctly retained: the `r>=2` exclusion assumes `e>=3
 
 Date: 2026-10-15.
 
-Status: independent conceptual review of the normalization and intersection-theoretic steps in the proposed no-infinite-lift argument. This note assumes the stated algebraization-as-a-branch theorem applies; it does not re-prove that theorem, establish existence of an all-orders Cartier lift, or promote the resulting exclusion to an accepted repository theorem.
+Status: independent conceptual review of the normalization and intersection-theoretic steps in the proposed no-infinite-lift argument. This note assumes the stated algebraization-as-a-branch theorem applies; it does not re-prove that theorem, establish existence of an all-orders Cartier lift, or independently establish the resulting exclusion.
 
 ### Input and purpose
 

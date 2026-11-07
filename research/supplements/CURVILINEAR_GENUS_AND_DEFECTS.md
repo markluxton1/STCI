@@ -212,7 +212,7 @@ retains information the total Hilbert polynomial forgets. The existing
 saturated Gorenstein pairing gives the more refined relations
 D_i+D_(m-1-i)=D_soc; these are inherited in the precise quasiprimitive
 scope used by [R0022](../results/quartic_44_filtered_exclusion.md), rather
-than a newly promoted general theorem here.
+than a general theorem here.
 
 ## 6. What the spectral sequence adds, and what it does not
 
@@ -223,7 +223,7 @@ D_eq=J/IJ=O_C(-a) direct_sum O_C(-b). Set
     G_n=gr_F^n D_eq,
     Delta_n=in_I(IJ)_n/(S_+H)_n.
 
-The reviewed provisional framework establishes the intrinsic exact sequences
+The reviewed framework establishes the intrinsic exact sequences
 
     0 -> Delta_n -> Q_n -> G_n -> 0.                    (10)
 
@@ -243,7 +243,7 @@ They are not an extra independent genus term in (1) or (3).
 The precise reviewed source is the
 [October 24 continuation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation),
 with its [independent review](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-review).
-Its canonical promotion and global sheaf/descent gates remain those in
+Its global sheaf/descent gates remain those in
 the [reconciliation](../results/local_filtration_comparison_defect.md).
 The local spectral-sequence statement and the intrinsic sheaf comparison
 (10) suffice for the distinctions made here. A new global spectral
@@ -310,8 +310,7 @@ the actual flat fiber. Flatness over D and normal flatness are different.
 
 ## 8. The fixed rational quartic and the characteristic distinction
 
-For C=C0, O_C(1)=O_P1(4), g=0. The promoted
-[R0020](../results/quartic_conormal_characteristic_jump.md) gives
+For C=C0, O_C(1)=O_P1(4), g=0. [R0020](../results/quartic_conormal_characteristic_jump.md) gives
 
     E=O(-7)^2 in characteristic different from 2,
     E=O(-8) direct_sum O(-6) in characteristic 2.
@@ -427,7 +426,7 @@ separate bound on that payment would be necessary for a new exclusion.
 The strong one-line formulas also do not cover the generic binary
 (2,12) initial algebra in the scoped degree-(6,16) realization lane.
 For that setting one must retain the higher-rank layers from (1), and
-the promoted [R0016](../results/nonsaturated_first_relation_resultant.md)
+the [R0016](../results/nonsaturated_first_relation_resultant.md)
 already contains a conditional effective resultant budget.
 
 A decisive control is the primitive divisor 4C on the smooth quadric.

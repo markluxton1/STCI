@@ -6,7 +6,7 @@ the normal degree and the generic transverse Milnor number. For the
 fixed rational quartic, a stronger universal local inequality already
 implies it. The global special-point identity remains useful, but it
 supplies no additional quartic obstruction. These independently
-reviewed deductions remain provisional; the characteristic-zero
+reviewed deductions retain the review scopes stated here; the characteristic-zero
 existence question is unchanged.
 
 ## 1. Statement and relation to arbitrary defining pairs
@@ -352,4 +352,4 @@ by their [separate construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUC
 The global proof and local continuation each have independent source
 proof and written-preservation reviews. This consolidation retains
 the general normal-degree theorem, the stronger local comparison and
-their exact limits. No computation or canonical promotion is used.
+their exact limits. No computation is used.

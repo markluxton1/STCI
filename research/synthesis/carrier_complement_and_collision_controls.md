@@ -261,7 +261,7 @@ polynomial.
 **Review state.** The smooth-cubic proof had a separate mathematical
 reconstruction in its source. The nodal enumeration and the collision
 retain their explicitly bounded source evidence and limitations; no
-fresh execution or promotion is claimed by transferring them. The
+fresh execution is claimed by transferring them. The
 coordinate correction is incorporated into (11) and the source-script
 consumer. Independent consolidation review must compare these proof
 homes with their proposed archived-source removals.

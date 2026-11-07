@@ -2,7 +2,7 @@
 
 For an actual proper pair containing the fixed quartic, generic transverse
 length, exceptional contact, and residual support are different objects.
-This account preserves independently reviewed provisional arguments, not an
+This account preserves independently reviewed arguments, not an
 unrestricted exclusion. The finite-degree actual-source criterion is proved
 in [finite normal jets](finite_normal_jets.md); the [generic-depth theorem](generic_contact_depth.md)
 adds power-invariant necessary conditions. Scalar values of arbitrary ideals

@@ -18,8 +18,7 @@ def main():
     errors = repository.validate()
     for error in errors:
         print("ERROR:", error)
-    legacy_count = sum(record.legacy for record in repository.records.values())
-    print(f"Checked {legacy_count} legacy canonical records; {len(errors)} error(s)")
+    print(f"Checked {len(repository.records)} research records; {len(errors)} error(s)")
     return int(bool(errors))
 
 

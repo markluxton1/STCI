@@ -17,7 +17,7 @@ evidence is the [discussion reconciliation](QUARTIC_CONORMAL_AND_CONTACT.md),
 [dual-incidence derivation](QUARTIC_DUAL_SCHEMES.md),
 [geometry audit](QUARTIC_DUAL_SCHEMES.md), and
 [symmetric-square note](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md#quartic-symmetric-square-bitangents).
-Their status remains provisional. The promoted input
+Their status retains the review scope stated here. The input
 [STCI-R-0020](../results/quartic_conormal_characteristic_jump.md) is used
 only for its stated splitting
 \(E=N^*_{C/\mathbf P^3}=\mathcal O(-7)^2\) when 2 is invertible,
@@ -557,7 +557,7 @@ incidence problems and their different scheme lengths are consistent.
 
 ## Characteristic reach and mathematical status
 
-The residual-pair flag equation is defined over the integers and remains a smooth threefold in characteristic two. The characteristic-zero product construction here divides by two; in characteristic two the conormal surface is \(\mathbf F_2\) and its map to the reduced dual is inseparable, so it is not that dual's normalization. Ordinary derivatives in the third/fourth contact calculations must not replace Hasse jets in small characteristic. The exact equalizer of residual swap remains meaningful scheme-theoretically and becomes a double line in characteristic two; [the flag proof](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md) treats that degeneration. The canonical scope is [R-0026](../results/quartic_flag_conormal_geometry.md); the identities are marked-incidence geometry, not an STCI exclusion.
+The residual-pair flag equation is defined over the integers and remains a smooth threefold in characteristic two. The characteristic-zero product construction here divides by two; in characteristic two the conormal surface is \(\mathbf F_2\) and its map to the reduced dual is inseparable, so it is not that dual's normalization. Ordinary derivatives in the third/fourth contact calculations must not replace Hasse jets in small characteristic. The exact equalizer of residual swap remains meaningful scheme-theoretically and becomes a double line in characteristic two; [the flag proof](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md) treats that degeneration. The exact statement is in [R-0026](../results/quartic_flag_conormal_geometry.md); the identities are marked-incidence geometry, not an STCI exclusion.
 
 
 ## Equal endpoint lengths do not identify two contact schemes

@@ -1,6 +1,6 @@
 # Coefficient valuations and intrinsic blowup flags
 
-Fix the smooth embedded C=C0, K=k(C)=k(z), and a chosen generic completion K[[U,V]]. Valuations are trivial on the algebraically closed constant field. The coefficient embedding and normal frame are choices; the blowup flag is intrinsic. These independently reviewed provisional local constructions do not determine arbitrary ideal colength or supply homogeneous equations.
+Fix the smooth embedded C=C0, K=k(C)=k(z), and a chosen generic completion K[[U,V]]. Valuations are trivial on the algebraically closed constant field. The coefficient embedding and normal frame are choices; the blowup flag is intrinsic. These independently reviewed local constructions do not determine arbitrary ideal colength or supply homogeneous equations.
 
 ## Coefficient valuations, valid domains, and intrinsic blowup flags
 

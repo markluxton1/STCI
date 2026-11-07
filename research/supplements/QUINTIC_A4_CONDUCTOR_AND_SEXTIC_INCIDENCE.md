@@ -13,7 +13,7 @@ supplies the degree-two conormal stratum used below.
 This chapter proves the homogeneous differential factor, logarithmic
 support criteria, actual sextic incidence, intrinsic A4 contact bounds,
 and regular-L2 all-mate consequence. These are independently reviewed
-provisional reductions and scoped exclusions. The distinct finite-chart
+reductions and scoped exclusions. The distinct finite-chart
 quadratic norm calculation retains its captured-arithmetic status and
 review boundary. Support of an octic, actual full inverse support, and
 nonlinear conductor power descent remain separate conditions; the
@@ -470,7 +470,7 @@ minors vanish. But D_H F=mu F for H=a s^2+b st+c t^2 forces
 
 Every coefficient of H is then in (epsilon), so no such H defines an
 R-valued point of the projective quadratic space. This example forbids
-promoting the field-valued determinantal criterion to a witness-lifting
+extending the field-valued determinantal criterion to a witness-lifting
 statement over arbitrary bases. It does not by itself show that the
 determinantal ideal is nonradical.
 

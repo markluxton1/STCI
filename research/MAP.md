@@ -2,7 +2,7 @@
 
 The [approach index](INDEX.md) organizes questions. This page connects their
 mechanisms. A shared idea is not a theorem dependency: each application must
-satisfy the hypotheses of its full statement. The complete promoted claim
+satisfy the hypotheses of its full statement. The Result
 locator is [results/INDEX.md](results/INDEX.md).
 
 Read a mechanism both as a constraint and as information about realization:
@@ -11,6 +11,19 @@ objects it describes. The fixed STCI problem is one application. A source's
 failure can identify a feature to change without deciding other sources.
 
 ## Reusable mechanisms and their owners
+
+The structured torus pilot has complete proof routes in
+[Hilbert boundaries](arguments/torus_hilbert_boundary.md),
+[sextic residuals and full limits](arguments/torus_sextic_residuals.md), and
+[embedded quotient descent](arguments/torus_embedded_quotients.md).
+Its Result records identify the exact proof and review scope. In particular, the
+[general prime-element colon identity](results/prime_element_colon_identity.md),
+[homogeneous divisor-cycle lemma](results/colon_divisor_cycle.md), and
+[pure-curve degree-exhaustion lemma](results/pure_curve_degree_exhaustion.md)
+can be retrieved independently of the examples in which they are used.
+The [supported-boundary framework](frameworks/torus_supported_boundaries.md)
+and [embedded-quotient framework](frameworks/embedded_torus_quotients.md)
+state which connections are proved applications and which require a new map.
 
 | Mechanism | Full mathematical home | What crosses topics, and what does not |
 | --- | --- | --- |

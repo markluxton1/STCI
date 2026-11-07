@@ -204,7 +204,7 @@ result = {
     "all_affine_root_systems": STRATA,
     "independent_conductor_slice": {"equation": str(p), "trace_square_over_norm": str(ratio), "nonzero_linear_coefficient": 72},
     "elapsed_seconds": time.perf_counter()-START,
-    "does_not_claim": "Upstream ribbon/D5 completeness, the [2,1,1] partition, all genus-one promotion by itself, higher carrier degrees, or the universal STCI problem.",
+    "does_not_claim": "Upstream ribbon/D5 completeness, the [2,1,1] partition, a complete genus-one quartic-carrier exclusion, higher carrier degrees, or the universal STCI problem.",
 }
 (SOURCE.parent/"result.json").write_text(json.dumps(result, indent=2)+"\n")
 print(json.dumps({"status": result["status"], "checked_conditions": len(CHECKS), "elapsed_seconds": result["elapsed_seconds"], "source_sha256": result["source_sha256"], "result": str(SOURCE.parent/"result.json")}, indent=2))

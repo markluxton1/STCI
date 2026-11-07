@@ -9,8 +9,7 @@ One explicit projection is excluded by its entire inverse scheme.
 The [relative-center calculation](quintic_toric_center_incidence.md) excludes
 the full one-infinity boundary, generic finite centers and three exceptional
 curves, leaving one explicit M=0 root-support incidence unresolved.
-These are independently reviewed provisional source claims, without canonical
-promotion. Independent preservation and scope review of the added center
+These are independently reviewed source claims. Independent preservation and scope review of the added center
 integration passed without a material finding; no fresh CAS replay was made.
 
 ## 1. Why this source remains relevant
@@ -326,7 +325,7 @@ preserved from the reviewed source commit identified in its companion;
 independent preservation and scope review of that addition passed without a
 material finding, by direct comparison to the fixed source and its exact
 support files. No fresh CAS replay was made. Its conclusions remain
-provisional, without canonical promotion.
+within the review scope stated above.
 
 The toric semigroup construction, integer polygon data, unimodular
 triangulation, lattice divisor identities and marked determinant-1

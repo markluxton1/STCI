@@ -7,7 +7,7 @@ remains open. Study a general proper pair \(Y=V(F_a,G_b)\) through
 degree; a curve on an exceptional divisor alone cannot. [Chapter 2](02-two-surfaces.md)
 introduces the approaches; this page routes directly to their full proofs.
 
-## Canonical residual statements and their distinct mechanisms
+## Residual statements and their distinct mechanisms
 
 | Statement | Proof home and essential scope | What it does not supply |
 |---|---|---|
@@ -116,7 +116,7 @@ local generators are weaker data.
 
 ## Root configurations, conductor, and characteristic
 
-The provisional [toric sextic configurations](toric_sextic_residuals_and_limits.md)
+The [toric sextic configurations](toric_sextic_residuals_and_limits.md)
 give eigenform intersections with eight or six quotient length units and
 explicit boundary cycles, a sharp length-eight bound for all eigenform sextic
 pairs in every characteristic, and mixed-weight splitting and absorption

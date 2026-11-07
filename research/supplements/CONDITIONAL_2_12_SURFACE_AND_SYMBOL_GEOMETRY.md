@@ -19,9 +19,9 @@ Permanent mathematical dossier. The (2,12) setting and every other hypothesis re
 
 # Conditional (2,12;6,16;2): compact norm-symbol and cubic realization incidence
 
-Date: 2026-10-20. Status: **new exact reduction, provisional pending independent review**. No canonical result is changed. Work is over an algebraically closed characteristic-zero field, with the fixed curve C0 and the full generic ordinary coprime binary-CI initial ideal and actual saturated first relation required in the parent task. A bounded CAS interruption is process evidence only.
+Date: 2026-10-20. Status: **new exact reduction, pending independent review**. No result is changed. Work is over an algebraically closed characteristic-zero field, with the fixed curve C0 and the full generic ordinary coprime binary-CI initial ideal and actual saturated first relation required in the parent task. A bounded CAS interruption is process evidence only.
 
-The source symbol matrix, exact image minor, and cubic layer are the new reviewed proposal in [the earlier global-realization note](#2026-10-20-conditional-2-12-global-realization-incidence). The first-incidence construction is the promoted [STCI-R-0007](../results/quadratic_root_obstruction_model.md), used within its actual-CI interface and the separately reviewed finite singular-root bridge. The source script does not rerun accepted proofs.
+The source symbol matrix, exact image minor, and cubic layer are the new reviewed proposal in [the earlier global-realization note](#2026-10-20-conditional-2-12-global-realization-incidence). The first-incidence construction is the [STCI-R-0007](../results/quadratic_root_obstruction_model.md), used within its actual-CI interface and the separately reviewed finite singular-root bridge. The source script does not rerun accepted proofs.
 
 ## 1. Eight symbol equations are a norm factorization
 
@@ -140,7 +140,7 @@ The precise unresolved computation is the intersection of these compact first/gl
 # Conditional (2,12;6,16;2): global sextic symbols and the exact remaining incidence
 
 Date: 2026-10-20. Status: **new proposal / exact structured reduction**.
-No canonical result is promoted. Independent audit of the new symbol map,
+Independent audit of the new symbol map,
 singular bridge, torsion presentation, and exporter is recorded in
 [the audit](#2026-10-20-conditional-2-12-incidence-audit).
 
@@ -150,7 +150,7 @@ nonemptiness is not certified.** In particular the familiar smooth seed
 does not belong to the full second incidence. No low-order incidence
 point is asserted to be a global pair.
 
-## 1. Scope and inherited authority
+## 1. Scope and inputs
 
 Throughout, `k` is algebraically closed of characteristic zero and
 
@@ -192,7 +192,7 @@ Precisely scoped inherited premises:
   second obstruction test. Their construction is valid for all
   basepoint-free quadratic roots, including singular ones.
 
-The promoted smooth bridge R-0006 does not supply necessity on singular
+The smooth bridge R-0006 does not supply necessity on singular
 roots. The new, separately reviewed finite bridge in
 [the singular-root note, section 2](SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md)
 fills this scope gap only under the actual hypotheses above. No inference
@@ -336,7 +336,7 @@ proof or seed verifier is rerun.
 ## 5. Full spectral torsion, root types, and actual gluing
 
 Set `S=P1_base x P1_direction`, `Z=(f)`, and `L=O_Z(1,-1)`.
-The promoted nonreduced-root obstruction and the component degree of
+The nonreduced-root obstruction and the component degree of
 `L^12=O` restrict Z to a reduced integral `(2,2)` curve or two distinct
 `(1,1)` components. Nonreduced fibers of either degree-two projection
 are allowed; the full curve is reduced.
@@ -525,7 +525,7 @@ Run the three new Python scripts with `python3`; they use only the
 standard library. The structured exporter reconstructs an M2 presentation
 that constructs the equations and reports MODEL_READY; this
 does NOT compute a Groebner basis, determine emptiness, or certify
-realization. Canonical metadata validation is a separate integrity
+realization. Metadata validation is a separate integrity
 check, not a proof of any new mathematical assertion.
 
 
@@ -540,7 +540,7 @@ check, not a proof of any new mathematical assertion.
 Date: 2026-10-20. Reviewer: `incidence_audit` worker, separate from the
 symbol-map and singular-gluing authors.
 
-Status: **PASS for the exact reductions specified below; no promotion,
+Status: **PASS for the exact reductions specified below; no
 emptiness certificate, nonemptiness certificate, or global realization.**
 
 ## 1. Scope and dependencies
@@ -553,7 +553,7 @@ ACTUAL saturated first relation `R=O(-16) -> Sym^2 E`, with
 `(2,2)`. All actual-CI necessity statements also require sole reduced
 support `C0`; residual intersections are outside this bridge.
 
-Promoted inputs are [R-0010](../results/saturated_first_relation_normal_flatness.md),
+inputs are [R-0010](../results/saturated_first_relation_normal_flatness.md),
 [R-0011](../results/moving_nonreduced_spectral_root_obstruction.md),
 [R-0008](../results/spectral_root_picard_criterion.md), and the literal
 universal obstruction model in
@@ -793,7 +793,7 @@ global equations first and does not infer support solely from a
 low-order incidence. No current mathematical defect was found in
 these scoped claims. Final outcome: **PASS for the exact structured
 reduction, proposed singular bridge and first unresolved global
-lift; canonical promotion and a global realization remain outside
+lift; a global realization remains outside
 this review.**
 
 
@@ -804,7 +804,7 @@ this review.**
 # Exact global sextic symbol map in the conditional (2,12;6,16;2) lane
 
 Date: 2026-10-20. Status: **new exact reduction and evidence; independently
-reviewed proposal, no canonical promotion**. See
+reviewed proposal**. See
 [the independent audit](#2026-10-20-conditional-2-12-incidence-audit).
 Work over an algebraically closed field of characteristic
 zero with `C0=[s^4:s^3t:st^3:t^4]`. The intended application assumes the
@@ -813,7 +813,7 @@ full generic ordinary initial ideal is a coprime binary CI of degrees
 one global-symbol restriction and its first subsequent sextic lifting
 condition. It does not prove that the combined root incidence is empty.
 
-## Inputs and authority
+## Inputs and proof scope
 
 The balanced conormal `E=O_P1(-7)^2`, the exact embedded chart, and the
 universal first ambient incidence are used as accepted inputs from
@@ -1051,8 +1051,7 @@ full initial-pair coprimality, or global gcd/Bezout certificate is
 constructed. A nonempty low-order incidence would establish none of
 those facts.
 
-The independent audit passes the specified exact reduction. Canonical
-promotion would require a separate reviewed change to result records.
+The independent audit passes the specified exact reduction.
 
 
 ---
@@ -1064,12 +1063,12 @@ promotion would require a separate reviewed change to result records.
 Date: 2026-10-20. Author: `incidence_audit` worker.
 
 Status: **new conditional proposal; sections 1--4 independently
-reviewed PASS by the `surface_bound` worker; not promoted**.
+reviewed PASS by the `surface_bound` worker**.
 This note concerns only an actual global pair with degrees `6,16`,
 sole reduced support `C0`, FULL generic coprime ordinary initial CI
 `(2,12)`, and ACTUAL saturated movement-two first relation. It does
 not assert such a pair exists or that the structured incidence is
-empty. No accepted computation is rerun, and no canonical record is
+empty. No accepted computation is rerun, and no record is
 edited.
 
 ## 1. Inputs and notation
@@ -1310,6 +1309,5 @@ The review checked equality of the restricted actual ideal on
 `Q'`, regularity from `tau!=0`, exclusion of a component of `T`
 on each ruling fiber, the direct affine comparison
 `F6|Q=v^2 R4(b)`, and the homogeneous/root-of-unity and QQ formulas.
-This is recorded review of the new conditional lemma, not canonical
-promotion or an emptiness certificate. The review also supplied
+This is recorded review of the new conditional lemma; it is not an emptiness certificate. The review also supplied
 the automatic-unit observation for `B` incorporated in section 5.

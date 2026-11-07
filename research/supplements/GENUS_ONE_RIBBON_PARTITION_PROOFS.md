@@ -15,7 +15,7 @@ Status: **PROVED HERE conditional on the accepted genus-one ribbon-net
 and entire-conductor reductions**. This note covers every parameter in
 these three contact partitions, including parameter endpoints, every
 direction-coordinate boundary, and all values of the coefficient invisible
-to the omitted-coordinate derivative. It edits no canonical frontier file.
+to the omitted-coordinate derivative. It edits no frontier file.
 The unrestricted STCI problem is not resolved by this bounded theorem.
 
 The inputs are the
@@ -343,6 +343,6 @@ The exact bounded task is complete: **[4], [3,1], and [2,2] all excluded
 under the stated accepted inputs**. The next reviewing step is an
 independent audit of the exhaustiveness of these three reductions and
 its integration with the separate [2,1,1] proof. This note itself makes
-no canonical promotion and no claim about genus-two normalizations,
+no claim about genus-two normalizations,
 higher quartic ancestors, arbitrary higher carrier degrees, or the
 universal STCI question.

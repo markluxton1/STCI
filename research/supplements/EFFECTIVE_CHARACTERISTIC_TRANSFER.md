@@ -1,10 +1,9 @@
 # Effective transfer of bounded-degree STCI pairs across characteristics
 
-**Status, October 31, 2026: independently reviewed provisional theorem.** This note
+**Status, October 31, 2026: independently reviewed theorem.** This note
 derives a quantitative consequence of the finite rank-incidence construction
 in [the arithmetic degree-bound note](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md).
-It does not resolve the unrestricted characteristic-zero STCI question and
-has not been promoted as a canonical result.
+It does not resolve the unrestricted characteristic-zero STCI question.
 
 Let
 \[
@@ -166,7 +165,7 @@ this explicit conditional rate comes from the sizes of the integral incidence
 equations and the arithmetic Nullstellensatz.
 
 There is also an unconditional, though numerically enormous, constant lower
-bound. The promoted [quartic-carrier exclusion, R-0001](../results/quartic_carrier_exclusion.md)
+bound. The [quartic-carrier exclusion, R-0001](../results/quartic_carrier_exclusion.md)
 and its factor reduction imply that in characteristic zero both degrees of
 any STCI pair for this fixed \(C_0\) must be at least five. The degree identity
 \(4\mid ab\) then excludes \(\max(a,b)\le5\): the only remaining possibility
@@ -187,7 +186,7 @@ global hypothesis.
 
 ## An unconditional growing bound for every quartic carrier
 
-The promoted quartic-carrier theorem does supply the missing
+The quartic-carrier theorem does supply the missing
 characteristic-zero hypothesis when the first equation has degree four.
 Thus the degree-preserving form of (2) already gives an unconditional
 growing lower bound on its mate degree, uniformly over **all** quartic
@@ -254,7 +253,7 @@ The known \((4,p)\) construction gives \(\beta_4(p)\le p\) for
 \(p\ge7\). This all-quartic bound is much weaker than the sharp linear
 bound on weight-homogeneous carriers, but it has broader carrier coverage.
 It does not bound the unrestricted \(\delta(p)\) from below: a minimizing
-pair could have both degrees above four. The consequence remains provisional;
+pair could have both degrees above four. The consequence retains the review scope stated here;
 it does not extend the characteristic-zero geometric case proofs to
 positive characteristic.
 

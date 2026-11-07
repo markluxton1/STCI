@@ -1,6 +1,6 @@
 # Quintic conductor cones, singleton fibers and projection geometry
 
-These are independently reviewed provisional proofs for the actual
+These are independently reviewed proofs for the actual
 admissible nonendpoint degree-five A4 del Pezzo projections in
 characteristic zero, with delta nonzero. They retain the whole
 scheme-theoretic conductor. The
@@ -381,4 +381,4 @@ rank interpretation needs two invertible; the retained projection charts
 and exact nonzero Taylor factors have their own rational denominators.
 Reducing one polynomial identity does not transfer source normality,
 full-support arguments or the resulting carrier exclusion to all primes.
-This integration has independent mathematical preservation and scope review; its conclusions remain provisional, without canonical promotion.
+This integration has independent mathematical preservation and scope review; its conclusions retain the review scopes stated here.

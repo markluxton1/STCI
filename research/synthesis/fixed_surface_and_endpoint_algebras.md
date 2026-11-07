@@ -1,6 +1,6 @@
 # Fixed surfaces, endpoint equations, and the missing normal action
 
-These are full proofs for the fixed quartic C0. The finite-cover and elementary two-chart arguments are characteristic-free; the residue controls and trace criteria have the precise characteristic assumptions below. They are independently reviewed provisional deductions, not promoted results. Independent source review reconstructed the finite-flat algebra, identical-full-restriction examples, trace-residue formula and zero-first-trace counterexample, followed by the two-chart/endpoint and determinant arguments. The elementary deductions require no finite search or inherited certificate rerun. The [global equation account](global_equations_and_constructions.md) supplies the elementary quartic geometry and affine-boundary theorem.
+These are full proofs for the fixed quartic C0. The finite-cover and elementary two-chart arguments are characteristic-free; the residue controls and trace criteria have the precise characteristic assumptions below. They are independently reviewed deductions. Independent source review reconstructed the finite-flat algebra, identical-full-restriction examples, trace-residue formula and zero-first-trace counterexample, followed by the two-chart/endpoint and determinant arguments. The elementary deductions require no finite search or inherited certificate rerun. The [global equation account](global_equations_and_constructions.md) supplies the elementary quartic geometry and affine-boundary theorem.
 
 ## Characteristic scope of the separate tests
 

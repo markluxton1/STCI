@@ -2,7 +2,7 @@
 
 This owner retains the complete numerical classification, corrected moving-coordinate extension calculation, exact type-B Fitting divisor and conditional ambient finite-jet method for a hypothetical degree(4,5) pair on fixed C0 in characteristic zero. The global quartic-carrier theorem R-0001 closes the existence question for this degree pair, but these arguments retain distinct mechanisms for multiple structures, nonflat extension corners and global jet images. They are not reopened as current arbitrary-mate cases.
 
-The numerical classification assumes actual sole support and a generically curvilinear multiplicity-five complete intersection; its two types are necessary, not realizations. The formal proof must retain every chart, epimorphism and finite-flatness condition. The ambient linear method has a separate regular-ratio assumption, explicitly disproved for arbitrary pairs by the local model below. Current canonical authority for arbitrary quartic carriers remains [R-0001](../results/quartic_carrier_exclusion.md).
+The numerical classification assumes actual sole support and a generically curvilinear multiplicity-five complete intersection; its two types are necessary, not realizations. The formal proof must retain every chart, epimorphism and finite-flatness condition. The ambient linear method has a separate regular-ratio assumption, explicitly disproved for arbitrary pairs by the local model below. Current authority for arbitrary quartic carriers remains [R-0001](../results/quartic_carrier_exclusion.md).
 
 
 ## the exact quasiprimitive \((4,5)\) classification

@@ -1,12 +1,12 @@
 # Toric carriers, transverse torsion, and involution
 
-**Status:** Exploratory source document; not canonical theorem authority.
+**Status:** Exploratory source document; not theorem authority.
 **Date:** 2026-11-02
 **Source:** ChatGPT mathematical exploration.
 **Consolidated account:** [Toric torsion and endpoint contacts](../../synthesis/toric_torsion_and_endpoint_contacts.md)
 
 This is a restored and corrected edition of an exploratory source, not a
-verbatim transcript or a promoted result. The [received version](https://github.com/markluxton1/STCI/blob/b647c18cffa39a0897acd1d989ee779dd0e0b650/research/explorations/toric_torsion_endpoint_contacts/toric_involution_handoff.md)
+verbatim transcript or a result. The [received version](https://github.com/markluxton1/STCI/blob/b647c18cffa39a0897acd1d989ee779dd0e0b650/research/explorations/toric_torsion_endpoint_contacts/toric_involution_handoff.md)
 already contained stripped delimiters and missing mathematical symbols; the
 saved earlier versions contain the same damage. Coordinates, maps and other
 recoverable formulas below have been reconstructed from the fixed embedding,
@@ -19,7 +19,7 @@ The missing four-coordinate parametrizations, torus actions, reversal map,
 factorizations, radical equation and character restrictions have been
 reconstructed. Section 11 now separates the binomial semigroup from the
 characteristic-dependent power-descent criterion. Sections 16–20 and the
-continuation prompt distinguish the existing reviewed provisional invariant-
+continuation prompt distinguish the existing reviewed invariant-
 carrier theorem from open comparisons, and replace the incorrect support-
 loss warning by the full-ideal versus two-extreme-forms distinction.
 The characteristic-two fourth-order description is restricted to the ruled
@@ -29,8 +29,7 @@ The mathematical discussion and useful failed proposals are retained, with
 corrections identified explicitly. Historical research suggestions do not
 override [repository governance](../../../AGENTS.md). Consult the
 [consolidated account](../../synthesis/toric_torsion_and_endpoint_contacts.md)
-and its current proof links before relying on a claim. No theorem is promoted
-by this restoration.
+and its current proof links before relying on a claim.
 
 ---
 
@@ -846,7 +845,7 @@ This suggests a possible obstruction principle:
 
 For sufficiently equivariant carriers containing \(C_0\), the mate problem may reduce after normalization to a character or power equation. In characteristic zero, such an equation necessarily creates additional translates/components unless its degree is trivial.
 
-A uniform character-lattice explanation is a research direction. The invariant-carrier exclusion itself already has the reviewed provisional proof cited in Section 16.
+A uniform character-lattice explanation is a research direction. The invariant-carrier exclusion itself already has the reviewed proof cited in Section 16.
 
 ## 16. Equivariant carriers as a tractable subclass
 
@@ -885,8 +884,8 @@ Determine whether a supported mate necessarily becomes a character/power equatio
 The obstruction originally proposed here is already covered by the
 [weight-homogeneous-carrier theorem](../../supplements/EQUIVARIANT_DEGREE_BOUNDS.md#the-bound-and-its-exact-large-prime-minimum):
 in characteristic zero even one weight-homogeneous equation cannot have an
-arbitrary sole-support mate. This is an independently reviewed provisional
-theorem, not a canonical promotion. Classifying these carriers may retain
+arbitrary sole-support mate. This is an independently reviewed
+theorem. Classifying these carriers may retain
 geometric value, but is not an outstanding step in proving that exclusion.
 A hypothetical supported CI ideal therefore cannot itself be invariant;
 its reduced curve remains invariant.
@@ -961,7 +960,7 @@ limits to have two generators.
 ## 18. Historical obstruction proposal and its current disposition
 
 The following was proposed in the exploration. Its exclusion conclusion is
-already covered by the reviewed provisional theorem cited in Section 16;
+already covered by the reviewed theorem cited in Section 16;
 no additional normality or boundary hypothesis is needed for that theorem.
 
 Candidate equivariant obstruction.
@@ -1048,7 +1047,7 @@ A full torus limit preserves support and Hilbert polynomial, but transferring an
 
 Normalization, conductors, Rees valuations and intersection cycles may supply additional constraints beyond the support and Hilbert data already preserved.
 
-The proposed character-lattice comparisons require proof. The existing invariant-carrier exclusion retains its independently reviewed provisional status.
+The proposed character-lattice comparisons require proof. The existing invariant-carrier exclusion retains its independently reviewed status.
 
 ## 20. Historical calculation suggestions and current scope
 

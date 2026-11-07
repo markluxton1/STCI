@@ -11,7 +11,7 @@ This audit accepts the conductor reduction proposed by the root agent. It
 does not exclude mates in the genus-two branch. In particular it proves
 neither that the adjoint pencil descends to the normalization nor that the
 resolution maps to the blowup of the conductor line in the ambient space.
-No canonical frontier file was edited.
+No frontier file was edited.
 
 ## 1. Hypotheses and conclusions
 

@@ -8,8 +8,8 @@ reduced \(C\) instead gives \(D_{\rm red}=Y:C\) with cycle \((m-1)[C]+R\).
 These three curves must be distinguished before using a degree or attachment
 formula.
 
-This chapter consolidates reviewed provisional proofs and counterexamples;
-it promotes no new canonical result. The canonical saturated-flag statement
+This chapter consolidates reviewed proofs and counterexamples;
+The saturated-flag statement
 is [R-0019](../results/quasiprimitive_residual_cycles.md). The fixed-source jet
 statement is [R-0025](../results/ci_fixed_sextic_jet_rigidity.md).
 The [global-model chapter](residual_global_models.md) owns equation spaces,

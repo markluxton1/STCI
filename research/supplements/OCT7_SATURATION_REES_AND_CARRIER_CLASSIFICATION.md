@@ -1,6 +1,6 @@
 # October 7 saturation, Rees valuations, blowup budgets, and rational carriers
 
-Topical preservation of mathematical source material, including counterexamples and original audit qualifications. No theorem promotion.
+Topical preservation of mathematical source material, including counterexamples and original audit qualifications.
 
 ---
 
@@ -290,7 +290,7 @@ The retained [independent full-orbit certificate](../computations/audit_mf6_e1_p
 5. its kernel as actual ambient quartics (F_0,F_1);
 6. the gcd of (F_0,F_1) over (mathbf Q(t)).
 
-The original pending-runtime checkpoint was superseded by the recorded independent execution below. The retained full-orbit audit also reconstructs the boundary directions and their normalizations; its exact scope is stated in [the primitive-triple proof](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md). No new canonical result is promoted here.
+The original pending-runtime checkpoint was superseded by the recorded independent execution below. The retained full-orbit audit also reconstructs the boundary directions and their normalizations; its exact scope is stated in [the primitive-triple proof](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md).
 
 ## Runtime verification and main-component carrier exclusion
 
@@ -766,13 +766,13 @@ The complete mathematical statement and proof are consolidated in [the focused p
 
 # Rational-resolution normal quartic carriers: classification audit and Type D reduction
 
-Date: 2026-10-07  
-Branch: `research/normal-rational-carrier-classification`  
+Date: 2026-10-07
+Branch: `research/normal-rational-carrier-classification`
 Base main: `7662a2ebb1dd561c1fb5e3c8958799b37d962c41`
 
 ## Status
 
-This note does **not** claim a complete exclusion of the rational-resolution normal-quartic branch. It records an audit of the live canonical state and a sharper structural reduction for Type D suggested directly by Ishii--Nakayama's construction.
+This note does **not** claim a complete exclusion of the rational-resolution normal-quartic branch. It records an audit of the live state and a sharper structural reduction for Type D suggested directly by Ishii--Nakayama's construction.
 
 Labels used below: **PROVED**, **EXACT REDUCTION**, **CONDITIONAL**, **OPEN**.
 
@@ -905,7 +905,7 @@ operatorname{rank}(operatorname{res}_4)=12,
 ]
 and an 11-dimensional kernel for the combined coefficient equation before quotienting by equations vanishing identically on the projected cubic. This shows that **containment alone does not immediately eliminate Type D**. The next issue is the smoothness/separation condition on (F_4), followed by the Cartier/mate condition.
 
-This scratch calculation is not yet promoted as a repository certificate.
+This scratch calculation has not been independently certified.
 
 ## E. Type-by-type status after this audit
 
@@ -1439,7 +1439,7 @@ Therefore:
 
 > **PROVED, subject to independent audit of the branch-effective-diagonal lemma.** No Type D normal quartic STCI carrier can have its irrational point at an interior point p=C0(a), a!=0,infinity.
 
-Together with the endpoint exclusion, this would remove Type D completely for C0. Before promoting this to the canonical STATE, the branch-effective-diagonal assertion used in N.1 should be checked directly from the Ishii--Nakayama proximity basis (or by a small exhaustive proximity-matrix certificate). That check is preferable to relying on electrical-network intuition.
+Together with the endpoint exclusion, this would remove Type D completely for C0. The branch-effective-diagonal assertion used in N.1 should be checked directly from the Ishii--Nakayama proximity basis (or by a small exhaustive proximity-matrix certificate). That check is preferable to relying on electrical-network intuition.
 
 ### N.4 Next audit target
 
@@ -1449,7 +1449,7 @@ Build an exact certificate enumerating the admissible separation/proximity matri
 3. the relevant diagonal of A^{-1};
 4. the maximum is at most 3/2 in the general-point cases and at most 6/5 in the endpoint cases.
 
-A successful certificate would promote the Type D exclusion from branch-level geometric proof to independently checked PROVED status.
+A successful certificate would independently check this Type D exclusion.
 
 
 ## O. Audit of the general-point bound: blowup coefficients and a corrected target
@@ -1616,7 +1616,7 @@ Separate the irrational block into:
 
 The marked vertex F lies in T in the only unresolved cases. The desired bound delta_p<2+mu/4 can therefore be proved by eliminating T via continued fractions/Schur complements and checking the finite list of possible cubic boundary types. This is smaller and safer than enumerating arbitrary proximity matrices.
 
-The next calculation should compute the effective conductance from F through T to each original G component for the local multiplicity-three configurations and the 2-to-1 coefficient transition. No canonical-state promotion should occur before that boundary calculation is complete.
+The next calculation should compute the effective conductance from F through T to each original G component for the local multiplicity-three configurations and the 2-to-1 coefficient transition. The boundary calculation remains necessary for this argument.
 
 
 ## Q. Exact elimination of blowup-created (-2)-chains

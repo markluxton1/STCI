@@ -2,7 +2,6 @@
 id: STCI-R-0027
 title: "Dual discriminant intersections and singular scheme of the marked quartic"
 kind: theorem
-status: proved
 scope:
   characteristic: "0"
   curve: "fixed marked rational quartic C0"
@@ -16,7 +15,6 @@ evidence:
   - "research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2"
 independent_audits:
   - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
-accepted_in: "research/supplements/QUARTIC_DUAL_SCHEMES.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -43,7 +41,7 @@ The discriminant identities are polynomial identities. The colon, saturation, as
 R-0026 supplies the marked flag and dual-geometric setup.
 
 ## Evidence and verification
-Independent audit and saved Macaulay2 source and outputs; no fresh execution in this promotion.
+Independent audit and saved Macaulay2 source and outputs; no fresh execution during consolidation.
 
 ## Consequences
 Distinguishes the unmixed singular cycle from its two embedded endpoint contributions.

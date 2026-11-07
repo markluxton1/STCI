@@ -1,4 +1,4 @@
--- Independent reconstruction for the provisional flag/duality package.
+-- Independent reconstruction for the flag/duality package.
 -- Run: M2 --script research/computations/audit_quartic_flag_duality_2026_10_24.m2
 -- No inherited normal-bundle or carrier proofs are rerun.
 S=QQ[A,B,C,D];

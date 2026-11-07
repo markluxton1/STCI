@@ -2,7 +2,6 @@
 id: STCI-R-0026
 title: "Flag incidence and conormal geometry of the marked rational quartic"
 kind: theorem
-status: proved
 scope:
   characteristic: "0, with an explicitly stated characteristic-two fixed-scheme comparison"
   curve: "fixed marked rational quartic C0"
@@ -17,7 +16,6 @@ evidence:
   - "research/computations/quartic_flag_incidence_2026_10_24.json"
 independent_audits:
   - "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
-accepted_in: "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -47,7 +45,7 @@ The pairing matrix has determinant minus one, identifying the incidence with the
 The characteristic-dependent conormal context of R-0020.
 
 ## Evidence and verification
-Independent mathematical audit of CR-15 through CR-20 and CR-42 through CR-43, with retained symbolic certificate. No fresh computation in this promotion.
+Independent mathematical audit of CR-15 through CR-20 and CR-42 through CR-43, with retained symbolic certificate. No fresh computation during consolidation.
 
 ## Consequences
 A unified geometric model for marked factorization, conormal contacts, and duality.

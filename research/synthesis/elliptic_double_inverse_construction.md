@@ -10,7 +10,7 @@ five-parameter support and descent loci remain uncomputed.
 
 The global sections, fixed normalization, inverse-scheme length, normal
 geometry and fixed-member rejection have independent source review. These
-are reviewed provisional statements, not canonical promotion. The exact
+are reviewed statements. The exact
 [Macaulay2 source](../computations/stci_game_existence_2026_10_30.m2) and
 [complete saved output](../computations/stci_game_existence_2026_10_30.txt)
 are retained from commit `b271fc5bf20a6920b1540cabd57f095139d8d7a5`.

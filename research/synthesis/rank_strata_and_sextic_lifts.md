@@ -1,6 +1,6 @@
 # Geometric incidence and degeneracy loci for actual sextic lifts
 
-**Status:** independently reviewed provisional mathematical contribution; no canonical result is promoted. The general statements are proved below by linear algebra over rings. The sextic application inherits the reviewed characteristic-zero source and coefficient identifications in [the conditional sextic calculation](normalization_conductor_phase2_addendum.md); those computations were not rerun.
+**Status:** independently reviewed mathematical contribution. The general statements are proved below by linear algebra over rings. The sextic application inherits the reviewed characteristic-zero source and coefficient identifications in [the conditional sextic calculation](normalization_conductor_phase2_addendum.md); those computations were not rerun.
 
 The curve in the application is the fixed embedding
 \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\) over an algebraically closed field of characteristic zero. The relevant carrier lane is the conditional degree-(6,16), full generic coprime normal CI-(2,12), actual saturated movement-two first-relation lane. These hypotheses do not classify arbitrary pairs. Properness and sole support are separate from every finite lifting test below.

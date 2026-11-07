@@ -1,6 +1,6 @@
 # Historical mathematical investigations
 
-Full original mathematical text follows. Preserve source-level evidence status, counterexamples, corrections and unresolved boundaries; no independent re-audit or result promotion.
+Full original mathematical text follows. Preserve source-level evidence status, counterexamples, corrections and unresolved boundaries. This compilation supplies no new independent audit.
 
 ---
 
@@ -10,7 +10,7 @@ Full original mathematical text follows. Preserve source-level evidence status, 
 
 Date: 2026-10-10. Lane: literature_frontier_refresh.
 Status: **PRIMARY SOURCE SCOPES REFRESHED; bounded literature assessment**.
-No canonical frontier file was edited by this lane.
+No frontier file was edited by this lane.
 
 The controlling records inspected were the current
 [literature ledger](../LITERATURE_LEDGER.md), the
@@ -170,7 +170,7 @@ Status: **PROVED HERE / independent local audit**. This verifies the local
 claim in section 4 of the
 [nonendpoint trisecant obstruction](GENUS_TWO_NONENDPOINT_PROOF.md).
 It does not by itself verify that note's global hypotheses or remaining
-steps. No canonical frontier file is edited.
+steps. No frontier file is edited.
 
 ## 1. Precise statement
 
