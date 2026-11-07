@@ -107,6 +107,16 @@ must check it separately from flatness of the projective family. The
 [integral chart calculation](results/quartic_normal_initial_base_change.md)
 exhibits the precise failure to test for.
 
+When using higher normal equations to recover information about actual
+generators, first form the full initial ideal and then apply the
+[filtered-equation comparison](results/local_filtration_comparison_defect.md).
+Its vanishing identifies graded pieces. The
+[prescribed fourth-order identification](results/quartic_char2_fourth_equation_kernel.md)
+also requires the filtration jumps and compatible chart lifts. The
+[restricted-diagram control](results/restricted_normal_diagram_counterexample.md)
+shows why graded agreement alone is insufficient for a comparison of actual
+embedded algebras.
+
 ## Torus symmetry as an organizing method
 
 Use the [supported-boundary framework](frameworks/torus_supported_boundaries.md)

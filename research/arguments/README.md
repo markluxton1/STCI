@@ -9,6 +9,11 @@ arguments for [supported Hilbert boundaries](torus_hilbert_boundary.md),
 relates the conormal extension, the flat prescribed family, and the actual
 quartic source spaces. Each linked Result
 states its exact mathematics and identifies its actual proof routes and
-scoped reviews. No additional Result classification is required.
+scoped reviews.
+
+The [filtered-equation argument](filtered_equation_comparison.md) relates
+minimal initial equations to the actual equation module, gives the local
+comparison and support proofs, and leads to the restricted graded diagram
+counterexample and the prescribed characteristic-two kernel identification.
 
 For authoring use the [Argument template](../../scripts/templates/argument.md).

@@ -9,6 +9,8 @@ For full exposition see the [reading routes](../synthesis/README.md); for
 missing implications see the [mechanism map](../MAP.md) and
 [open questions](../FRONTIER.md).
 
+- **[STCI-R-0061 — Identical graded embedding diagrams after restriction to the reduced curve](restricted_normal_diagram_counterexample.md)**
+- **[STCI-R-0060 — A degree-four initial equation invisible in the filtered equation module](initial_equation_cancellation_counterexample.md)**
 - **[STCI-R-0059 — Normal-order reduction for quartic pairs](quartic_pair_normal_order_reduction.md)**
 - **[STCI-R-0058 — Actual first and second quartic symbol spaces](quartic_actual_symbols.md)**
 - **[STCI-R-0057 — Full normal initial ideals and base change of the prescribed quartic pair](quartic_normal_initial_base_change.md)**
@@ -17,8 +19,8 @@ missing implications see the [mechanism map](../MAP.md) and
 - **[STCI-R-0034 — Local Cartier-index and socle compatibility (conditional)](normal_carrier_index_socle.md)**
 - **[STCI-R-0033 — Constant first-relation lifting obstruction (conditional)](constant_first_relation_lifting.md)**
 - **[STCI-R-0032 — Full conormal filtration and socle budget (conditional)](full_conormal_socle_budget.md)**
-- **[STCI-R-0031 — Characteristic-two fourth equation and kernel (prescribed pair)](quartic_char2_fourth_equation_kernel.md)**
-- **[STCI-R-0030 — Local filtered-equation comparison and punctual defect criterion (scoped)](local_filtration_comparison_defect.md)**
+- **[STCI-R-0031 — Characteristic-two fourth normal equation and canonical kernel identification](quartic_char2_fourth_equation_kernel.md)**
+- **[STCI-R-0030 — Local filtered-equation comparison and punctual defect criterion](local_filtration_comparison_defect.md)**
 - **[STCI-R-0029 — Arithmetic ruled four-section family (prescribed model)](quartic_arithmetic_ruled_models.md)**
 - **[STCI-R-0028 — Ruled projection and normalization models (marked setup)](quartic_ruled_projection_geometry.md)**
 - **[STCI-R-0027 — Dual discriminant singular scheme (saved-certificate qualified)](quartic_dual_singular_scheme.md)**
