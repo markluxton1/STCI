@@ -89,7 +89,6 @@ class Repository:
         self.errors: list[str] = []
         self.relations: list[tuple[Record, dict]] = []
         self._sections: dict[Path, dict[str, str]] = {}
-        self.grounded: set[str] = set()
 
     def error(self, path, message):
         name = path.relative_to(self.root) if isinstance(path, Path) and path.is_relative_to(self.root) else path
@@ -534,32 +533,32 @@ class Repository:
         return sorted(set(self.errors))
 
     def grounding(self):
-        accepted = {r.id for r in self.records.values()
-                    if r.type == "result"
-                    and isinstance(r.data.get("proofs"), list)
-                    and any(isinstance(route, dict) and isinstance(route.get("review"), dict)
-                            and route["review"].get("state") == "accepted"
-                            for route in r.data["proofs"])}
-        admitted = set()
+        accepted = []
+        for record in self.records.values():
+            routes = record.data.get("proofs", [])
+            if record.type != "result" or not isinstance(routes, list):
+                continue
+            for route in routes:
+                if not isinstance(route, dict):
+                    continue
+                review = route.get("review")
+                if not isinstance(review, dict) or review.get("state") != "accepted":
+                    continue
+                using = route.get("using")
+                if not isinstance(using, list) or any(not isinstance(rid, str) for rid in using):
+                    continue
+                premises = {self.aliases[rid][0].id if rid in self.aliases else rid for rid in using}
+                accepted.append((record, route.get("name"), premises))
+
+        grounded = set()
         while True:
-            added = set()
-            for rid in accepted - admitted:
-                for route in self.records[rid].data.get("proofs", []) if isinstance(self.records[rid].data.get("proofs"), list) else []:
-                    if not isinstance(route, dict) or not isinstance(route.get("review"), dict) or route["review"].get("state") != "accepted":
-                        continue
-                    using = route.get("using")
-                    if not isinstance(using, list) or any(not isinstance(x, str) for x in using):
-                        continue
-                    premises = [self.records.get(x) or (self.aliases[x][0] if x in self.aliases else None) for x in using]
-                    if all(p and p.id in admitted for p in premises):
-                        added.add(rid)
-                        break
-            if not added:
+            ready = {record.id for record, _, premises in accepted if premises <= grounded}
+            if ready == grounded:
                 break
-            admitted.update(added)
-        self.grounded = admitted
-        for rid in sorted(accepted - admitted):
-            self.error(self.records[rid].path, "Result with accepted review lacks an accepted noncircular route grounded in accepted Result routes")
+            grounded = ready
+        for record, name, premises in accepted:
+            if not premises <= grounded:
+                self.error(record.path, f"accepted route {name!r} lacks noncircular accepted prerequisites")
 
     def supersession(self):
         edges = {}
@@ -696,9 +695,9 @@ class Repository:
         if record.type != "result":
             return record.data["status"]
         routes = record.data.get("proofs", [])
-        reviews = "; ".join(f"{route['name']}: {route['review']['state']}" for route in routes) or "no proof routes"
-        grounding = "passed" if record.id in self.grounded else "no accepted route"
-        summaries.append(f"{reviews}; noncircular grounding: {grounding}")
+        summaries.extend(f"{route['name']}: {route['review']['state']}" for route in routes)
+        if not routes:
+            summaries.append("no recorded proof route")
         return "; ".join(summaries)
 
     def show(self, identifier):

@@ -200,7 +200,7 @@ class ResearchTests(unittest.TestCase):
         catalog = repo.catalog()
         for output in (shown, catalog):
             self.assertIn("local: accepted", output)
-            self.assertIn("noncircular grounding: passed", output)
+            self.assertNotIn("noncircular grounding:", output)
             for forbidden in ("established", "provisional", "promoted", "canonical", "authority"):
                 self.assertNotIn(forbidden, output.lower())
         self.assertNotIn("Status:", shown)
@@ -591,6 +591,14 @@ class ResearchTests(unittest.TestCase):
         self.put(record(number=1))
         self.put(consumer)
         self.valid()  # An unchecked alternative does not invalidate the accepted route.
+        self.put(record(number=2, proofs=[route(state="pending")]))
+        consumer["proofs"][1] = {**route(), "name": "independent"}
+        self.put(consumer)
+        self.assertTrue(any("accepted route 'local' lacks noncircular accepted prerequisites" in error
+                            for error in self.errors()))
+        consumer["proofs"][0]["review"]["state"] = "pending"
+        self.put(consumer)
+        self.valid()
 
     def test_research_relations_cycles_groups_ownership_and_motivation(self):
         motivation = self.relation("motivates", ["STCI-F-0001", "STCI-F-0002"], ["STCI-I-0001"])
@@ -691,7 +699,7 @@ class ResearchTests(unittest.TestCase):
         self.valid()
         repo = research.Repository(self.root)
         shown = repo.show(untyped["id"])
-        self.assertIn("local: accepted; noncircular grounding: passed", shown)
+        self.assertIn("local: accepted", shown)
         self.assertIn("Premise of STCI-R-0001", shown)
         self.assertIn("STCI-R-0090: local; joint premises []", repo.catalog())
         for proofs in (None, [], [route(state="pending")], [route(state="disputed")]):
@@ -751,7 +759,7 @@ class ResearchTests(unittest.TestCase):
         consumer = record(proofs=[route([untyped["id"]])])
         self.put(consumer)
         self.valid()
-        self.assertIn("noncircular grounding: passed", research.Repository(self.root).show(consumer["id"]))
+        self.assertIn("local: accepted", research.Repository(self.root).show(consumer["id"]))
         for location in ("research/synthesis/missing.md#proof", "research/synthesis/source.md#absent",
                          "research/synthesis/source.md", "https://example.invalid/proof.md#proof"):
             with self.subTest(location=location):
@@ -889,7 +897,7 @@ class ResearchTests(unittest.TestCase):
         second["proofs"].append({**route(), "name": "independent"})
         self.write("research/results/second.md", "---\n" + yaml.safe_dump(second) + "---\n" + BODY)
         self.valid()
-        self.assertIn("noncircular grounding: passed", research.Repository(self.root).show(legacy["id"]))
+        self.assertIn("local: accepted", research.Repository(self.root).show(legacy["id"]))
 
     def test_catalog_links_encode_legal_filenames_and_detect_missing_targets(self):
         target = self.put(record(), path="research/results/local # proof(1).md")

@@ -101,13 +101,12 @@ reconstruction. Both require a precise decision passage and its literal scope.
 The basis field records what was reviewed; it confers no separate authority.
 An empty `proofs` list means no proof route has yet been recorded.
 
-Every Result declaring an accepted route must have at least one accepted route
-with noncircular accepted prerequisites. The structural fixed-point check begins
-with accepted routes having no cataloged premises, then admits Results whose
-accepted route has every premise already admitted. Pending or disputed routes
-cannot ground a conclusion. A direct self-premise is invalid. An accepted
-independent alternative may ground a Result even if another route participates
-in a cycle. This rule does not use a Result classification or record format.
+Each accepted route must have noncircular accepted prerequisites. The checker
+starts with accepted routes having no cataloged premises and repeatedly adds
+conclusions whose accepted routes have every premise in that set. It checks
+every accepted route's premises against the final set. An independent accepted
+alternative can ground a premise that would otherwise depend on a cycle.
+A direct self-premise is invalid. Catalog and lookup display each route's review.
 
 An existing untyped Result may document routes with exactly this structure;
 its explicit accepted routes can ground other Results. Evidence lists alone
