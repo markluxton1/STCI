@@ -53,7 +53,7 @@ results change and how to choose between constructive and obstructive aims.
 | Nonnormal carrier geometry | [Gorenstein-normalized quintics](synthesis/quintic_gorenstein_normalizations.md), [remaining toric center incidence](synthesis/quintic_toric_center_incidence.md), [conductor differential](synthesis/carrier_conductor_differential_comparison.md) | Decide full inverse support on the remaining M locus before testing actual power descent; singular local gluing alone does not realize the projective carrier |
 | Spectral graded families and ambient equations | [Order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md), [actual source quotient](synthesis/actual_octic_root_lift_comparison.md), [torsion-two charts](synthesis/quadratic_root_torsion_two_lifting.md) | The completed 24-point affine slice has no compatible sextic; test the full root incidence with its rank boundaries and all corrections. Positive octic constructions remain useful for containing intersections |
 | Finite jets and equation search | [Intrinsic global jets](synthesis/global_equation_jets.md), [bounded certificates](synthesis/bounded_equation_certificates.md) | Use actual source-image filtrations and full nonlinear corrections; existential finite realization is distinct from a uniform effective witness-degree bound |
-| Contact and tropical descent | [Full transverse families](synthesis/contact_duality_and_global_descent.md), [embedded quotient descent](arguments/torus_embedded_quotients.md) | A specified constant quotient has an exact homogeneous source test. Extend the actual endpoint and source calculations to a moving rank-nine family satisfying a sextic divisor profile; positive movement and locally CI endpoints alone remain compatible |
+| Contact and tropical descent | [Full transverse families](synthesis/contact_duality_and_global_descent.md), [constant-quotient equation criterion](results/constant_quotient_equation_criterion.md#statement) | Extend the actual endpoint and source calculations to a [moving rank-nine family](investigations/quotient-hilbert-comparison/index.md#inputs) satisfying a sextic divisor profile. Positive movement and locally CI endpoints alone remain compatible |
 | Marked dual/ruled geometry | [Fixed geometry](synthesis/01-problem-and-curve.md) | Construct a proved map from actual equation/conductor data to marked contact schemes, retaining nilpotents and endpoint corrections |
 | Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [endpoint image comparison](arguments/torus_embedded_quotients.md), [effective transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md) | Analyze the integral image and base-change defect in a declared embedded quotient family; quotient flatness alone does not give flat projective images. All-pair degree growth remains conditional, and fixed-carrier or prescribed-lift restrictions do not exclude unrelated presentations |
 
@@ -76,6 +76,23 @@ produce actual ACM schemes upstairs, while their specified failures leave other
 sources and chains open.
 
 The [embedded fourth-extension calculation](synthesis/intrinsic_fourth_extension.md) closes the previously missing neighborhood-only route for the two allowed (4,4) types. It does not supply a general classification of higher-length thickenings or higher-degree actual sources; those remain separate interfaces above.
+
+### Higher-order Rees data for entirely-thick pairs
+
+Consider a hypothetical proper characteristic-zero pair with sole reduced
+support \(C_0\) and both exact generic normal orders \(p,q\ge2\). These orders
+lie outside the [order-one Bănică–Forster bounds](results/order_one.md).
+At or near equality in the [exceptional-cycle bounds](results/entirely_thick.md),
+can a finite invariant of successive transforms and Rees data force a
+residual curve downstairs or rule out the required normalization or
+conductor support?
+
+The [fixed tangent-form examples](synthesis/rees_and_vertical_controls.md#5-counterexample-family)
+have unbounded transverse length. The [affine saturation-defect controls](synthesis/rees_and_vertical_controls.md#5-an-intrinsic-saturation-defect-unbounded-with-fixed-generic-algebra)
+also allow unbounded special-point defects with a fixed generic filtered
+algebra. The open step is to use the higher-order data, including the
+geometry of successive exceptional surfaces, to obtain an additional
+restriction on projective degrees or support.
 
 ### Punctual relative defect under sole support
 

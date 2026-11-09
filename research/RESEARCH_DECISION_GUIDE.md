@@ -199,7 +199,8 @@ now supply exact controls for splitting, absorption and loss of CI generators.
 The sharp quotient-length bound is eight for proper eigenform sextics in every
 characteristic. A length-nine sole-support search must therefore change the
 eigenform hypotheses; the existing all-pair conormal reduction still needs
-moving embedded data and actual source lifts. Recomputing the 23-dimensional
+[moving embedded data](investigations/quotient-hilbert-comparison/index.md#inputs)
+and actual source lifts. Recomputing the 23-dimensional
 double source in quotient coordinates adds an interpretation, not a second
 obstruction.
 

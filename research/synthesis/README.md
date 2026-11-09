@@ -13,7 +13,8 @@ constructions. The account does not require every useful result to decide STCI.
 3. [Embedded thickenings, roots and actual equations](03-infinitesimal-geometry.md)
 4. [Carrier normalization and full conductor descent](04-carriers.md)
 5. [Exclusions and their exact scopes](05-exclusions.md)
-6. [Open interfaces](06-frontier.md)
+
+The [open interfaces](../FRONTIER.md) collect the remaining questions.
 
 Full mathematical homes are chosen by responsibility rather than chronology:
 [global equations](global_equations_and_constructions.md),
@@ -34,7 +35,7 @@ proves the constant-image and endpoint criteria. The
 [sextic residual argument](../arguments/torus_sextic_residuals.md)
 proves the sharp eigenpair bound and the explicit full torus limits.
 The [sextic source spaces and pencil dimensions](toric_sextic_residuals_and_limits.md#6-from-invariant-examples-to-the-supported-ci-hilbert-locus)
-and [moving-quotient comparison](toric_quotients_and_endpoint_descent.md#from-constant-orbit-families-to-genuinely-moving-transverse-structure)
+and [moving-quotient comparison](../investigations/quotient-hilbert-comparison/index.md#inputs)
 retain their separate scopes.
 The [characteristic constructions](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md)
 are a proof home, not merely a contrast in an introduction.

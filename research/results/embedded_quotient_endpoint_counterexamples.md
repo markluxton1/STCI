@@ -77,8 +77,8 @@ characteristic two, where the image is the benchmark CI.
 The complete proof starts with [the benchmark and conductor](../arguments/torus_embedded_quotients.md#the-fourth-root-image-and-its-conductor)
 and continues through [the endpoint counterexamples](../arguments/torus_embedded_quotients.md#embedded-quotients-and-characteristic-dependent-endpoints).
 It gives exact coefficient matrices, truncated-polynomial identities,
-and weighted algebra-closure proofs. The source is
-[the retained quotient chapter](../synthesis/toric_quotients_and_endpoint_descent.md).
+and weighted algebra-closure proofs. The historical source is
+[the original endpoint examples](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#the-fourth-root-family-four-branches-versus-one-thick-branch).
 The quotient_checks function in the
 [existing finite verifier](../investigations/torus-residual-controls/verify.py)
 checks the rational determinants and endpoint indices, without proving

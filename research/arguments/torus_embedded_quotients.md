@@ -33,13 +33,17 @@ and [pure-curve degree exhaustion](../results/pure_curve_degree_exhaustion.md)
 R-0056. Independent substantive review accepts the six reconstructed proof routes within their stated scopes, as recorded in Review.
 The general degree-exhaustion section works over any field.
 
-The reconstruction preserves the mathematics of
-[constant quotient descent](../synthesis/toric_quotients_and_endpoint_descent.md).
-A separate review of the source is distinct from acceptance of these reconstructed proofs. Intrinsic finite-map geometry and purity prove the
-general construction. The examples additionally require the explicit finite
-coefficient identities displayed below.
+Intrinsic finite-map geometry and purity prove the general construction.
+The examples additionally require the explicit finite coefficient identities
+displayed below.
 
 ## Finite image and purity
+
+On the dense coordinate torus, write the points as \([1:r:ur^3:vr^4]\).
+The one-dimensional subtorus scales \(r\) and fixes \(u,v\). Its quotient
+is the two-dimensional torus with coordinates \(u,v\), so \(\operatorname{Spec}B\)
+specifies a possibly nonreduced family of orbits whose closures meet at
+the two fixed endpoints.
 
 Define \(S=k[x_0,x_1,x_2,x_3]\) and
 
@@ -132,8 +136,9 @@ A_\infty=k[[z]][z^3\alpha,z^4\beta]\subset B[[z]].
 
 Brackets mean the finite completed image algebra. At parameter zero
 the image has a single point support, so the parameter-adic completion
-is its endpoint completion. Formula (5) is an actual algebra inclusion,
-not merely its associated graded symbols.
+is its endpoint completion. Formula (5) gives the full algebra inclusion.
+Subtracting a scalar from a coefficient changes its weighted generator
+by an element of the parameter ring, so the image algebra stays the same.
 
 An invertible element of a finite-dimensional \(k\)-algebra has an
 annihilating polynomial with nonzero constant coefficient, so its inverse
@@ -302,6 +307,13 @@ in any characteristic. A nonzero conductor series of order below nine
 could be multiplied by a suitable \(c\in B\) to violate that coefficient
 constraint. Conversely every order at least nine is in the lattice.
 This proves the claimed conductor; replace \(r\) by \(z\) at infinity.
+
+In characteristic zero the source is the disjoint union of the four smooth
+normalizations. The pairwise order-three contacts give a separate geometric
+calculation of the endpoint defects in the
+[prescribed quartic proof](quartic_specialization_and_symbols.md#1-what-actually-coalesces).
+The [endpoint valuation fan](../synthesis/endpoint_valuations.md#endpoint-fans-and-full-residue-data)
+describes the initial polynomials and how the branches separate under blowups.
 
 In characteristic two write \(u=1+\epsilon\), \(\epsilon^4=0\). A
 triangular change gives (12) as
@@ -489,6 +501,9 @@ the image consists of four reduced quartic components. The quotient
 \(\epsilon=0\) gives \(u=v=1\) on every fiber and retains marked \(C_0\).
 This proves R-0055: it is a flat collision of genus-twenty-eight images,
 not a deformation through these images of the genus-thirty-three CI.
+The [quartic root pencil](../synthesis/root_pencil_geometry.md#3-three-ways-the-pencil-leaves-the-open-arrangement)
+gives a separate partial CI collision in characteristic zero, with a doubled
+marked quartic and two residual quartics at the marked collision.
 
 ## Binomial quotient types and their limitation
 
@@ -530,17 +545,17 @@ equation spaces. Its exact prescribed-degree CI test is degree
 exhaustion plus an actual coprime pair. Abstract algebra, sole support,
 endpoint indices and flat collision each omit some of this information.
 
-Nothing here supplies a moving embedded quotient representing an arbitrary
-supported CI, or a comparison between geometric endpoint defects and
-opposite Hilbert-limit directions. The existing
-[entire finite modification and positive-movement theorem](../synthesis/tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
-is a distinct scoped premise when used elsewhere; it is not reconstructed
-or strengthened here. No unrestricted characteristic-zero STCI
-conclusion is obtained.
+The [moving-quotient investigation](../investigations/quotient-hilbert-comparison/index.md#inputs)
+points to the separate proof of the entire finite modification of a proper
+sole-support pair and states its strict-movement hypotheses. The comparison
+between geometric endpoint data and opposite full Hilbert limits remains open.
 
 ## Review
 
-The retained chapter received a separate review of its image, proper-pair, endpoint and collision arguments; finite arithmetic was checked separately. That review is distinct from acceptance of the reconstructed proofs.
+The [original exposition and its source review note](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#orbit-closure-families-endpoint-gluing-and-projective-equations)
+record review of the image, proper-pair, endpoint and collision arguments,
+including the characteristic-three calculation. The finite arithmetic was
+checked separately. This source review predates the reconstruction decision.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted this Argument and the exact R-0051--R-0056
@@ -561,4 +576,4 @@ binomial Smith-normal-form section, was checked.
 This decision has basis reconstructed and accepts only those exact
 scopes. The moving-modification positivity theorem and the separate
 legacy R-0021 proof were outside review. No global STCI conclusion or
-endpoint/opposite-limit comparison was accepted. The six Result reviews cover only their stated scopes; the moving-modification positivity theorem and legacy R-0021 proof were outside review.
+endpoint/opposite-limit comparison was accepted.

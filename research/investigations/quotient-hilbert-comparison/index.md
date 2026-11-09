@@ -55,18 +55,23 @@ tests its actual generators. The constant-quotient construction,
 comparisons, not coverage of every moving family.
 
 The broader [entire finite-modification argument](../../synthesis/tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
-remains a source argument with its own review history, outside this reconstructed proof closure.
-For its actual supported CI and notation it gives a rank-\(m\) quotient bundle
-\(\mathcal B\), degree \(e\ge0\), and endpoint defects satisfying
+has its own scoped review. Starting with a proper homogeneous pair of
+degrees \((a,b)\) with sole reduced support \(C_0\), it takes the full
+closure of the torus restriction. It gives a rank-\(m\) quotient bundle
+\(\mathcal B\), with \(m=ab/4\), degree \(e\ge0\), and endpoint defects
+satisfying
 \[
 \delta_0+\delta_\infty=e+m(2a+2b-7).
 \]
 Its [strict-movement proof](../../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier)
 requires characteristic zero or characteristic \(p>0\) with \(p\nmid ab\).
-For \((6,6)\), the relation is \(\delta_0+\delta_\infty=e+153\)
-with \(e>0\) in that range. This pilot does not independently reconstruct
-the whole finite-modification theorem, so applications must consult that source
-and its hypotheses rather than treat this record as new proof authority.
+For \((6,6)\), the rank is nine and \(\delta_0+\delta_\infty=e+153\),
+with \(e>0\) in that range. A constant quotient has \(e=0\). Conversely,
+if \(e=0\), global generation makes \(\mathcal B\) trivial and its
+multiplication and coordinate sections constant. Movement refers to variation
+of the embedded quotient and allows the abstract algebra to stay isomorphic.
+The finite-modification theorem has a separate proof and review from the
+constant-quotient Results.
 
 ## Method
 
@@ -96,6 +101,14 @@ open. No identification with a reduced normalization conductor, normal-cone
 defect, or residual curve is assumed.
 
 ## Completion and next decisions
+
+A specified constant quotient has an exact prescribed-degree test in R-0053.
+Classifying embedded quotients with prescribed endpoint image algebras is
+a separate problem. For the positive-degree family, recovering two global
+homogeneous generators of its image is a further realization question.
+The [sextic residual configurations](../../arguments/torus_sextic_residuals.md)
+supply quotient calculations on residual curves and a full saturated limit
+as controls outside the sole-support locus.
 
 A useful first completion is a proved comparison on one fully specified family,
 with verified special fibers and actual equation maps, or a counterexample to
