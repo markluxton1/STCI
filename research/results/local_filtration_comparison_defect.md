@@ -72,8 +72,13 @@ fiber conormal symbol at \(p\), equivalently is smooth there, then
 ## Limitations
 
 The support statement gives a necessary condition for a nonzero defect.
+In regular codimension two the
+[conormal entry ideal](conormal_entry_annihilator.md) annihilates the
+defect scheme-theoretically.
 Torsion in \(Q_n\) can survive in \(G_n\), and the length formula uses their
-difference. The local comparison alone gives no global line-bundle
+difference, as illustrated by the
+[supported quadruple](supported_quadruple_equation_filtration.md).
+The local comparison alone gives no global line-bundle
 identification or splitting of the first conormal kernel. The
 [prescribed characteristic-two quartic](quartic_char2_fourth_equation_kernel.md)
 needs the full filtration and compatible chart lifts. The relative

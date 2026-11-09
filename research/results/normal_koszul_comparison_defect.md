@@ -106,7 +106,7 @@ carrier equations. The two constructions have different first pages.
 
 The [degree-four field example](initial_equation_cancellation_counterexample.md)
 attains the transverse lower bound. The
-[punctual family with residual support](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#5-arbitrary-punctual-degree-and-length-with-integral-carriers)
+[punctual family with residual support](punctual_comparison_defect_family.md)
 has degree-three defect over a curve. The comparison concerns local
 equations. A supported, generically defect-free complete intersection
 with a nonzero punctual defect remains an open case here.

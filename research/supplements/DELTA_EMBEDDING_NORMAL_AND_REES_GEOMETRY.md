@@ -1,6 +1,6 @@
 # The equation filtration, conormal torsion and specialization
 
-For a smooth codimension-two curve C in a smooth threefold, retain the marked pair C subset Z=V(f,g), permitting residual components. The [local comparison R-0030](../results/local_filtration_comparison_defect.md) distinguishes minimal full initial equations from the filtered module of actual equations. The [normal Koszul argument](../arguments/normal_koszul_cancellation.md) gives the comparison by cancellation page and the recursive family. This supplement retains the punctual family, annihilator and extended Rees proofs with their respective source reviews. The transverse-specialization proofs are in the [transverse specialization argument](../arguments/transverse_specialization.md).
+For a smooth codimension-two curve C in a smooth threefold, retain the marked pair C subset Z=V(f,g), permitting residual components. The [local comparison R-0030](../results/local_filtration_comparison_defect.md) distinguishes minimal full initial equations from the filtered module of actual equations. The [normal Koszul argument](../arguments/normal_koszul_cancellation.md) gives the comparison by cancellation page and the recursive family. The [punctual comparison argument](../arguments/punctual_comparison_defects.md) gives the conormal-entry annihilator and the two local examples. This supplement retains the extended Rees and normal-cone regularity proofs, with links to the migrated Results and their source reviews. The transverse-specialization proofs are in the [transverse specialization argument](../arguments/transverse_specialization.md).
 
 The organization follows the mechanisms: first the exact comparison and higher cancellation, then the scheme supporting the defect, then its realization as deformation torsion, and finally the separate problem of slicing along the marked curve. All example families and necessary local hypotheses survive. The removed reports repeated these proofs; their substantive corrections are incorporated in the statements below.
 
@@ -62,7 +62,7 @@ The full quotient \(R/J\), its multiplication, and its Rees algebra retain the e
 
 ## The singular-locus defect: normal Koszul differentials, degrees, and length
 
-The October 24 investigation records independent reconstructions of the normal Koszul comparison, the generic count and DVR length criterion, and the punctual and recursive families. The migrated Results record the scope of the [normal Koszul review](../results/normal_koszul_comparison_defect.md#review) and the [recursive-family review](../results/recursive_normal_koszul_cancellation.md#review).
+The October 24 investigation records independent reconstructions of the normal Koszul comparison, the generic count and DVR length criterion, and the punctual and recursive families. The migrated Results record the scope of the [normal Koszul review](../results/normal_koszul_comparison_defect.md#review), the [recursive-family review](../results/recursive_normal_koszul_cancellation.md#review), the [punctual-family review](../results/punctual_comparison_defect_family.md#review), and the separate [supported-quadruple calculation](../results/supported_quadruple_equation_filtration.md#review).
 
 This continues the [independent filtration investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), especially its question about
 \(\Delta=\operatorname{in}_I(IJ)/(S_+\operatorname{in}_I(J))\) at simultaneous singular points. The predecessor's quotient comparison and smooth-carrier support proposition are used as reviewed premises rather than reproved.
@@ -165,74 +165,21 @@ The generic-vanishing hypothesis is essential. Torsion in the filtered equation 
 
 ### 5. Arbitrary punctual degree and length, with integral carriers
 
-Work in characteristic zero. Let \(D=k[[t]]\), \(R=D[[x,y]]\), \(I=(x,y)\). Choose \(r\ge1\), \(m\ge2\), put \(a=t^r\), and define
-\[
-f=ax+x^2+y^m,\qquad
-g=ay+xy+y^m+x^{m+1},
-\]
-\[
-h=xg-yf=xy^m-y^{m+1}+x^{m+2},
-\qquad q=XY^m-Y^{m+1}.
-\tag{11}
-\]
-The same polynomials define integral algebraic hypersurfaces before completion. For \(f\), its quadratic discriminant \(t^{2r}-4y^m\) is squarefree in \(k(t)[y]\), so is not a square in \(k(t,y)\). For \(g\), viewed as a monic polynomial in \(x\), Eisenstein at \(y\) over \(k(t)[y]\) applies: its constant term is \(ay+y^m\), of \(y\)-order one. Gauss's lemma gives irreducibility in \(k[t,x,y]\). Thus the carriers are distinct integral hypersurfaces, and their localized ideal is a regular sequence. Completion preserves the latter assertion.
+[R-0068](../results/punctual_comparison_defect_family.md) states the
+characteristic-zero family and its support and specialization properties.
 
 #### 5.1 Full initial ideal, rather than a chosen-generator approximation
 
-The full initial ideal is
-\[
-\boxed{H=(aX,aY,q).}
-\tag{12}
-\]
-Here is a proof for every \(r,m\). All polynomial syzygies of these three symbols are generated by
-\[
-(Y,-X,0),\qquad (-Y^m,Y^m,a).
-\]
-Indeed reduce \(aXA+aYB+qC=0\) modulo \(a\). The polynomial \(q=Y^m(X-Y)\) is a nonzerodivisor over \((D/a)[X,Y]\): both monic factors \(Y\) and \(X-Y\) are nonzerodivisors. Hence \(C=aC'\), and canceling \(a\) reduces the claim to the syzygies of \(X,Y\).
-
-Both symbol syzygies lift exactly:
-\[
-yf-xg+h=0,\qquad
-(-y^m-x^{m+1})f+y^mg+(a+x)h=0.
-\tag{13}
-\]
-Give \(f,g,h\) weights \(1,1,m+1\). The corrections in (13) have strictly larger weights. The complete filtered syzygy-lifting criterion therefore proves (12). Concretely one corrects the lowest canceled part of any expression using (13), repeatedly raises its weight, and passes to the \(I\)-adically complete limit. This supplies a standard-basis proof for all parameters, independent of the finite samples.
+[Integral carriers, all symbol syzygies, and full initial ideal of \(J\)](../arguments/punctual_comparison_defects.md#integral-carriers-and-the-full-initial-ideal)
 
 #### 5.2 Defect, annihilator, and conormal rank
 
-The conormal map is \(\phi=\operatorname{diag}(a,a)\) over \(D\); it is injective. Thus \(F^2\mathcal D=0\), and every higher \(Q_n\) is defect. Formula (12) gives
-\[
-Q_1\simeq D^2,\qquad
-Q_{m+1}=\Delta_{m+1}\simeq D/(t^r),
-\]
-with all other higher pieces zero. The annihilator is exactly \((a)\): the relation \(aq\in S_+(aX,aY)\) shows one inclusion; the unit coefficients in \(q\) show there is no smaller coefficient annihilator. Also
-\[
-\operatorname{in}_I(IJ)=(aX^2,aXY,aY^2,q).
-\tag{14}
-\]
-The inclusion of \(q\) is already witnessed by \(h=xg-yf\in IJ\). Fullness follows alternatively from \(F^n\mathcal D=0\) for \(n\ge2\).
-
-Therefore every normal degree \(d=m+1\ge3\) and every local length \(r\ge1\) occur independently. The [degree bounds for the normal Koszul comparison](../arguments/normal_koszul_cancellation.md#incoming-images-and-degree-bounds) show that degree three is the smallest possible punctual defect. This contrasts with the transverse-field lower bound four.
+[Full initial ideal of \(IJ\), exact defect, and degree bound](../arguments/punctual_comparison_defects.md#filtered-equation-module-exact-defect-and-degree-bound)
 
 #### 5.3 Actual fibres and residual support
 
-After inverting \(t\), the normal algebra along the marked curve has length one: \(H_{k((t))}=(X,Y)\) and \(\phi\) has rank two. At \(t=0\), the actual fibre has length \(m+2\). To check the latter, eliminate \(x^2=-y^m\). The other equation gives \(xy=-y^m v(y)\) with \(v(0)=1\); if \(m+1\) is odd, first divide by a unit of \(k[[y]]\). Comparing \(x(xy)\) and \(y(x^2)\) yields
-\[
-y^{m+1}(1+y^{m-2}v(y)^2)=0.
-\]
-Its second factor is a unit, of constant \(1\) for \(m>2\), and \(2\) for \(m=2\). Hence \(y^{m+1}=0\), then \(x^3=0\), and \(xy=-y^m\). The quotient has basis \(1,x,y,\ldots,y^m\). Conversely these relations define an associative algebra of that dimension satisfying the equations.
-
-For \(m\ge3\), its full fibre initial ideal is \((X^2,XY,Y^{m+1})\); for \(m=2\), it is instead
-\((X^2+Y^2,XY+Y^2)\), a regular quadratic pair. The actual fibre defect is respectively one-dimensional in degree \(m+1\), or zero when \(m=2\).
-
-In contrast, base-changing the relative normal algebra (12) gives \(k[X,Y]/(q)\), which has infinite length. In the smallest case even defect formation fails to commute with the fibre:
-\[
-\Delta\otimes_Dk=k\text{ in degree }3,\qquad
-\Delta_{\text{actual closed fibre}}=0.
-\tag{15}
-\]
-
-The actual algebra \(R/J\) is finite flat over \(D\), of rank \(m+2\): the finite special fibre gives finiteness by completeness; \(t\) is a parameter on this one-dimensional Cohen–Macaulay complete intersection, hence a nonzerodivisor. But its marked component has generic local length one. There is therefore a genuine residual generic contribution of rank \(m+1\). This is a marked-component example, not a thickening supported only on \(C\). That residual assertion uses the actual finite algebra; it is not an inference from vertical pieces of its normal cone.
+[Actual closed algebra and specialization](../arguments/punctual_comparison_defects.md#actual-closed-algebra-and-specialization) ·
+[Finite flat algebra and genuine residual support](../arguments/punctual_comparison_defects.md#finite-flat-algebra-and-genuine-residual-support)
 
 ### 6. Arbitrarily many generic defects and a prescribed cancellation page
 
@@ -251,29 +198,10 @@ permit residual components.
 
 ### 7. A supported quadruple: torsion in Q is not enough
 
-There is a useful control example with no residual support. Let \(D=k[[t]]\),
-\[
-J=(x^2,y^2+tx)\subset D[[x,y]],\qquad I=(x,y).
-\]
-It can be presented by the two integral polynomial carriers \(y^2+tx\) and \(x^2+y^2+tx\). Both are primitive and linear in \(t\), with coprime coefficient pairs. Both are singular at the origin; at generic \(C\) their first symbols agree and have rank one.
-
-The actual algebra is free of rank four over \(D\), with basis \(1,x,y,xy\), relations \(x^2=0,y^2=-tx\). In particular \(I^4=0\) and its entire reduced support is \(C\).
-
-Its full initial ideal is
-\[
-H=(tX,X^2,XY^2,Y^4).
-\tag{22}
-\]
-This follows directly from the basis: \(K\) is spanned by \(x,y,xy\), \(K^2\) by \(tx,xy\), \(K^3\) by \(txy\), and \(K^4=0\). Thus
-\[
-Q_1=D,\quad Q_2=D/(t),\quad Q_3=D/(t),\quad Q_4=D.
-\]
-In the original generator frames \(e_f,e_g\), its equation filtration is
-\[
-F^2\mathcal D=De_f,\quad F^3\mathcal D=tDe_f,\quad
-F^4\mathcal D=t^2De_f,\quad F^5\mathcal D=0.
-\]
-The comparisons \(Q_n\to G_n\) are isomorphisms. Hence \(\Delta=0\) despite torsion in \(Q_2,Q_3\). All that torsion is retained in \(G_2,G_3\), exactly as required by (10).
+[R-0069](../results/supported_quadruple_equation_filtration.md) states the
+supported quadruple. The [full calculation](../arguments/punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough)
+uses the normal powers in \(R/J\) and \(R/IJ\) to track both torsion
+generators through the comparison.
 
 ### 8. What has been settled, and the remaining question
 
@@ -296,117 +224,25 @@ The literature already studies the generic tangent-cone generator and cancellati
 
 ## A scheme-theoretic annihilator for the filtration defect
 
-Date: 2026-10-24. Status: **proof independently reconstructed by agent review**.
-
-Scope: a regular codimension-two embedding \(C\hookrightarrow P\), locally with ideal \(I=(x,y)\), and any coherent ideal \(J\subset I\). For the intended application \(P\) is a smooth threefold, \(C\) is smooth, and \(J=(f,g)\) defines \(Z=X\cap Y\). Neither \(J\) being a complete intersection nor \(Z_{\mathrm{red}}=C\) is needed for the annihilator theorem. Additional components are allowed. The theorem concerns the marked embedding, without a classification of those components.
+[R-0067](../results/conormal_entry_annihilator.md) gives the general theorem
+and the separate cubic sharpness family. Its [review passage](../results/conormal_entry_annihilator.md#review)
+records the precise October 24 and Phase 5 scopes.
 
 ### 1. Claim and its intrinsic meaning
 
-Use the merged [comparison framework](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), with
-\[
- B=R/I,\quad S=\operatorname{gr}_I R=\operatorname{Sym}_B E,
- \quad E=I/I^2,\quad H=\operatorname{in}_I(J),
-\]
-\[
- Q=H/S_+H,\quad
- \Delta=\operatorname{in}_I(IJ)/S_+H,\quad
- \phi:J/IJ\longrightarrow E.
-\]
-Let \(\mathfrak a\subset B\) be the contraction ideal
-\[
- \mathfrak a=\operatorname{im}
- \bigl(E^\vee\otimes_B(J/IJ)\xrightarrow{1\otimes\phi}
- E^\vee\otimes_B E\xrightarrow{\mathrm{ev}}B\bigr).
-\]
-In local frames it is the ideal of all entries of \(\phi\). Equivalently,
-\[
- \mathfrak a=\operatorname{Fitt}_1
- \bigl(I/(I^2+J)\bigr).
-\]
-The Fitting description uses the rank-two locally free target \(E\), so the subscript is fixed by codimension two.
-
-**Proposition.** In this scope,
-\[
- \boxed{\mathfrak a\Delta=0.}
-\tag{1}
-\]
-Consequently \(\Delta\) is canonically a sheaf on the *scheme* cut out by the entries of the conormal map. This strengthens the inherited set-theoretic containment of support in the simultaneous carrier-singular locus. It is not an equality of supports, and it supplies no converse to vanishing.
-
-For two carriers retain the labelled source lines
-\(M_X=I_X/I_CI_X\), \(M_Y=I_Y/I_CI_Y\) and their maps
-\(\alpha,\beta\) into \(E\). Then \(\mathfrak a\) is the sum of the entry ideals of \(\alpha\) and \(\beta\). This form preserves the whole diagram while showing that the annihilator itself depends only on \(J\subset I\). On a smooth curve in a smooth threefold, a carrier's entries vanish at a point exactly when that carrier is singular there. No claim about reducedness of that singular scheme is made.
+[Entry ideal, scheme structure, and DVR bound](../results/conormal_entry_annihilator.md#statement)
 
 ### 2. Elementary proof
 
-Degree one has \(\Delta_1=0\), because \(IJ\subset I^2\). Fix \(n\ge2\) and a class in \(\Delta_n\), represented by
-\(h\in IJ\cap I^n\). Choose
-\[
- h=xc+yd,\qquad c,d\in I^{n-1}.
-\]
-Since also \(h\in IJ=xJ+yJ\), there are \(u,v\in J\) with \(h=xu+yv\). Exactness of the Koszul complex on the regular sequence \((x,y)\) gives \(w\in R\) with
-\[
- c-u=-yw,\qquad d-v=xw.
-\tag{2}
-\]
-Take any equation \(f\in J\), written \(f=xa'+yb'\). Set
-\(a=a'\bmod I\), \(b=b'\bmod I\), so its first symbol is
-\(f_1=aX+bY\in H_1\), possibly zero. Formula (2) gives the *actual* identity
-\[
- a'd-b'c=a'v-b'u+fw\in J\cap I^{n-1}.
-\tag{3}
-\]
-Write \(c^*,d^*\in S_{n-1}\) for their classes modulo \(I^n\), allowing zero classes when their orders are larger. Taking degree \(n-1\) of (3) gives
-\[
- \ell=ad^*-bc^*\in H_{n-1}.
-\]
-The degree-\(n\) initial class of \(h\) is
-\(h^*=Xc^*+Yd^*\). Hence
-\[
- ah^*=c^*f_1+Y\ell,\qquad
- bh^*=d^*f_1-X\ell.
-\tag{4}
-\]
-Every term on the right belongs to \((S_+H)_n\), since \(n-1\ge1\). Thus \(a,b\) annihilate the class of \(h^*\) in \(Q_n\), and in particular its class in \(\Delta_n\). Varying \(f\) proves (1).
-
-This proof uses the full initial ideal through membership of \(\ell\) in \(H_{n-1}\); it makes no assertion that chosen carrier initials generate \(H\). It also avoids completeness and spectral-sequence convergence assumptions.
-
-At a DVR point where \(\mathfrak a=(t^r)\ne0\), every elementary divisor of every \(\Delta_n\) has exponent at most \(r\). In particular, \(\operatorname{length}_B\Delta_n\le r\,\mu_B(\Delta_n)\). This bounds coefficient thickness, rather than normal degree or generator count. It gives no assertion when \(\mathfrak a=0\).
+[Entrywise annihilation identities](../arguments/punctual_comparison_defects.md#entrywise-annihilation)
 
 ### 3. Koszul interpretation
 
-In the normal Koszul complex \(K_{R/J}(x,y)\), formula (2) says the cycle represented by \((c,d)\) is an actual boundary. The carrier equation supplies the actual cycle \((a',b')\). Their wedge product is zero because the complex has no degree-three term. Its leading expression is exactly (3).
-
-Under the inherited identification \(Q\simeq\operatorname{Tor}_1^S(S/H,B)\), (4) is the entrywise form of that product vanishing. This explains the special role of normal codimension two. The argument presented here does not assert an unchanged statement in higher codimension.
+[Actual Koszul cycles and boundaries](../arguments/punctual_comparison_defects.md#koszul-interpretation-of-the-entry-identities)
 
 ### 4. Sharpness of the scheme structure
 
-Let \(B=k[[t]]\), \(R=B[[x,y]]\), \(I=(x,y)\), choose \(r\ge1\), set \(a=t^r\), and take
-\[
- f=ax+y^2,\qquad g=ay+x^2,\qquad h=xg-yf=x^3-y^3.
-\]
-The algebraic carriers are distinct integral polynomials: \(f\) is primitive and linear in \(x\) over \(k[t,y]\), because \(t^r\) and \(y^2\) are coprime; symmetrically \(g\) is primitive and linear in \(y\) over \(k[t,x]\). Gauss's lemma proves irreducibility. Distinctness then gives the regular-sequence assertion after localization and completion.
-
-Here
-\[
- H=(aX,aY,X^3-Y^3),\qquad
- \operatorname{in}_I(IJ)=(aX^2,aXY,aY^2,X^3-Y^3).
-\tag{5}
-\]
-A standard-basis proof is obtained from the two full symbol syzygies and their exact lifts
-\[
- yf-xg+h=0,\qquad -x^2f+y^2g+ah=0.
-\]
-Modulo \(a\), the monic polynomial \(X^3-Y^3\) is a nonzerodivisor even over the nonreduced coefficient ring \(B/(a)\). Thus the syzygies of the three symbols are generated by
-\((Y,-X,0)\) and \((-X^2,Y^2,a)\). Their exact lifts raise the filtered weight whenever a correction is needed; the usual complete filtered correction argument proves (5). The finite samples below separately check the full Rees-saturated ideals.
-
-The conormal map is \(\operatorname{diag}(a,a)\), so its injectivity gives \(F^2(J/IJ)=0\). Therefore
-\[
- \Delta_3\simeq B/(t^r),\qquad \Delta_n=0\ (n\ne3),
- \qquad\operatorname{Ann}_B\Delta=(t^r)=\mathfrak a.
-\]
-For \(r>1\), the reduced ideal \((t)\) does not annihilate \(\Delta\). The full scheme structure of the conormal entry ideal matters. The example illustrates the sharpness of (1); the theorem itself is not inferred from examples. No sole-support hypothesis or conclusion is attached to this family.
-
-
+[Full cubic initial ideals and equality of annihilators](../arguments/punctual_comparison_defects.md#sharpness-over-a-dvr)
 
 <a id="delta-rees-specialization-proposal"></a>
 <a id="delta-rees-specialization-review"></a>
@@ -543,7 +379,7 @@ Since \(k\) is a field, this is also equivalent to **flatness over the deformati
 \]
 Indeed (10) makes \(\mathscr N\) a submodule of \(D[u,u^{-1}]\), which is torsionfree over the PID \(k[u]\); torsionfree modules over this PID are flat. Conversely a \(k[u]\)-flat module has no \(u\)-torsion. Equivalently, any polynomial torsion in \(\mathscr N\) must already be \(u\)-power torsion, since its localization away from \(u\) is \(D[u,u^{-1}]\).
 
-**This is not a statement of flatness over \(B[u]\).** Filtration pieces on the curve may fail to be saturated even when \(D\) is locally free and \(\Delta=0\). The supported quadruple in the predecessor has precisely this behaviour: its associated filtered pieces retain torsion on the curve. Thus there are separate directions of variation, the deformation parameter and the marked-curve parameter; they must not be merged into a single flatness assertion.
+**This is not a statement of flatness over \(B[u]\).** Filtration pieces on the curve may fail to be saturated even when \(D\) is locally free and \(\Delta=0\). The [supported quadruple](../results/supported_quadruple_equation_filtration.md) has precisely this behaviour: its associated filtered pieces retain torsion on the curve. Thus there are separate directions of variation, the deformation parameter and the marked-curve parameter; they must not be merged into a single flatness assertion.
 
 Likewise \(\Delta=0\) does not imply that the original embedding is determined by its associated graded algebra, or that its normal cone is a complete intersection, or that the carrier normal cones meet scheme-theoretically in that normal cone.
 
@@ -643,7 +479,13 @@ Promising questions are therefore intrinsic and separate:
 No assertion here reconstructs \(Z\) from \(\Delta\), determines unmarked components, or resolves unrestricted STCI. The core advance is an exact intrinsic interpretation of the existing invariant and a finer module that retains deformation duration.
 
 
-The annihilator also controls persistence: since a*Delta=0 and Delta=E/uE, one has a*E subset uE. If u^N E=0 locally, iteration gives a^N E=0. This does not assert aE=0; the full persistence module can require a larger exponent than its special fiber. The exponent is local unless a uniform one has been chosen.
+The [conormal entry ideal](../results/conormal_entry_annihilator.md) also
+bounds persistence. The identities \(\mathfrak a\Delta=0\) and
+\(\Delta=\mathscr E/u\mathscr E\) give
+\(\mathfrak a\mathscr E\subset u\mathscr E\). Where \(u^N\mathscr E=0\),
+iteration gives \(\mathfrak a^N\mathscr E=0\). The persistence module
+can require a larger exponent than its special fiber. This bound is local
+unless \(N\) is uniform.
 
 
 <a id="delta-normal-geometry-proposal"></a>
@@ -748,7 +590,7 @@ S/H\simeq B[X]/(tX)
 \]
 has \(t\)-torsion and is not flat over \(B\). This example is permitted by the marked-embedding scope. No component-classification objective is attached to it.
 
-Second, the inherited supported quadruple
+Second, the [supported quadruple](../results/supported_quadruple_equation_filtration.md)
 \[
 J=(x^2,y^2+tx),\quad
 H=(tX,X^2,XY^2,Y^4)
@@ -776,7 +618,7 @@ computes the specialization kernel of a normal cone. The
 [formal two-equation theorem](../results/normal_flat_comparison_specialization.md)
 uses the two normal algebras for \(J\) and \(IJ\) to specialize the comparison
 of [R-0030](../results/local_filtration_comparison_defect.md).
-The [supported length-four family](#7-a-supported-quadruple-torsion-in-q-is-not-enough)
+The [supported length-four family](../results/supported_quadruple_equation_filtration.md)
 and the [length-five family](../results/supported_length_five_defect_specialization.md)
 separate vanishing of the comparison defect from specialization of the
 normal cone and of the defect itself.

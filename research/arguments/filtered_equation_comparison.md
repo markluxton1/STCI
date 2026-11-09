@@ -233,8 +233,8 @@ The [length-five specialization control](../results/supported_length_five_defect
 has zero relative defect and nonzero actual defect on the transverse
 closed fiber. The [transverse specialization argument](transverse_specialization.md)
 gives the normal-flat comparison theorem. The
-[punctual example with residual support](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#5-arbitrary-punctual-degree-and-length-with-integral-carriers)
-and the [supported torsion control](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#7-a-supported-quadruple-torsion-in-q-is-not-enough)
+[punctual example with residual support](../results/punctual_comparison_defect_family.md)
+and the [supported torsion control](../results/supported_quadruple_equation_filtration.md)
 also remain separate. Existence of a nonzero punctual defect with
 \(\sqrt J=I\) and \(\Delta_\eta=0\) is open in this development.
 

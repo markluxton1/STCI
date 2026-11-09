@@ -96,4 +96,4 @@ The October 24 account records independent local reconstruction of the
 specialization development. The single-degree example uses the \(m=2\)
 case of its characteristic-zero punctual family.
 [Specialization source](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-transverse-specialization-and-normal-flatness) ·
-[Punctual family](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#5-arbitrary-punctual-degree-and-length-with-integral-carriers)
+[Punctual family](punctual_comparison_defect_family.md)

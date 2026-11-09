@@ -66,6 +66,18 @@ characteristic. Integral carriers preserve the calculation along the affine
 part of a marked line. The general identification with the extended Rees
 torsion filtration remains open.
 
+For a regular codimension-two embedding and any coherent \(J\subset I\),
+the [conormal entry ideal](results/conormal_entry_annihilator.md) is
+\(\operatorname{Fitt}_1(I/(I^2+J))\) and annihilates \(\Delta\). Its DVR
+exponent bound is attained by the cubic sharpness family. The
+[characteristic-zero punctual family](results/punctual_comparison_defect_family.md)
+has relative defect \(k[[t]]/(t^r)\) in degree \(m+1\) for \(r\ge1,\ m\ge2\).
+The actual generic fiber has residual rank \(m+1\) in addition to the
+marked rank one. The
+[supported quadruple](results/supported_quadruple_equation_filtration.md)
+has zero relative defect because its two torsion pieces of \(Q\) map
+isomorphically to the corresponding pieces of \(\operatorname{gr}_F(J/IJ)\).
+
 The [transverse specialization test](results/normal_cone_slice_specialization.md)
 computes the kernel in each normal degree from adjacent neighborhood quotients.
 For an intersection algebra \(M\) flat over the DVR \(B\), with marked
