@@ -82,8 +82,8 @@ their precise uses are explained there.
 
 The source is the
 [supported Hilbert-boundary section](../synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
-supplemented by the fixed-\(N\) incidence in
-[attracting strata and generator incidence](../synthesis/torus_attracting_strata_and_generator_incidence.md#invariant-limits-stratify-moving-ideals).
+with the fixed-\(N\) directional formulation in
+[F-0001](../frameworks/torus_supported_boundaries.md#directional-loci).
 
 ## Limitations
 

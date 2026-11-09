@@ -37,7 +37,8 @@ structures. It can inform construction or obstruction independently. The listed 
 
 [R-0037](../results/supported_hilbert_full_limits.md) supplies both full torus
 limits in the same supported incidence, retaining the Hilbert polynomial and
-all embedded structure. Its exponent bound is individual, not uniform.
+the full limit schemes, including any embedded structure. Its exponent bound
+is individual, not uniform.
 [R-0038](../results/torus_eigenvector_generator_lifting.md) lifts minimal
 generators only when the whole homogeneous ideal is invariant.
 [R-0040](../results/invariant_supported_ci_exclusion.md) applies the trace
@@ -58,10 +59,14 @@ For a fixed ideal \(J_0\), let \(A_+(J_0)\) and \(A_-(J_0)\) mean the
 sets of points whose full limits at zero and infinity are respectively
 \(J_0\). For a pair of fixed ideals, study
 \(A_+(J_+)\cap A_-(J_-)\). These are definitions of organizing sets.
-No finite fixed-point list, affine-cell description, local closedness,
-smoothness, or exhaustive stratum classification is asserted. Fixed components
-may have positive dimension. Two one-sided families do not establish that a
-single moving ideal realizes their proposed opposite limits.
+The orbit extension in [A-0001](../arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits)
+puts both limits in the same connected component of \(H_N\) as the moving
+ideal. Common Hilbert data and connected component are necessary for a pair.
+Realizability requires a single ideal in the intersection, even if both
+one-sided sets are nonempty. The opposite limits can have different normal
+and endpoint structures. Fixed components may have positive dimension, so
+one can also ask for incidence over pairs of fixed components. Finiteness,
+local closedness, smoothness, and exhaustive coverage remain open here.
 
 ## Controls
 
@@ -106,7 +111,3 @@ can redirect the family search but cannot close other components. Keep direct
 geometric constructions available when they do not need a fixed-point
 classification. The finite [residual controls](../investigations/torus-residual-controls/index.md)
 check calculations without replacing the realization and coverage arguments.
-
-This consolidates the research formulation in
-[the attracting-locus source](../synthesis/torus_attracting_strata_and_generator_incidence.md)
-and the [supported-boundary source](../synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary).

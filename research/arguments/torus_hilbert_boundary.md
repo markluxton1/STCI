@@ -377,11 +377,13 @@ reduction. The Argument is complete as an exposition.
 Source support for the direct sections is the
 [Hilbert-boundary account](../synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
 the
-[attracting-locus formulation](../synthesis/torus_attracting_strata_and_generator_incidence.md),
+[original attracting-locus formulation](https://github.com/markluxton1/STCI/blob/b3db4bfcc4b70d85a13ff1862b2a81a553f78b39/research/synthesis/torus_attracting_strata_and_generator_incidence.md),
 and the eigenvector-lifting paragraph of
 [positive movement](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
 The first source records an October 31 scope review, and the third records a separate review of its proof and characteristic extensions. Those reviews are distinct from this reconstruction review. The first source's surrounding trace obstruction
 has characteristic-zero framing; the bounded geometric proof here
 works in every characteristic, with that scope explicitly included
-in the reconstruction review. The attracting-locus source is a research formulation, so
-its unsolved classification and deformation questions remain unsolved.
+in the reconstruction review. The research questions of the attracting-locus
+source now live in [F-0001](../frameworks/torus_supported_boundaries.md#directional-loci),
+[I-0001](../investigations/supported-generator-incidence/index.md#question),
+and [I-0002](../investigations/quotient-hilbert-comparison/index.md#question).

@@ -70,10 +70,8 @@ and the justification of the conditional finite cutoff from minimal
 resolution shifts. No finite family computation has been performed or
 is implicitly certified by this criterion.
 
-The source is
-[two-generation on each attracting set](../synthesis/torus_attracting_strata_and_generator_incidence.md#two-generation-on-each-attracting-set)
-and its
-[finite-test discussion](../synthesis/torus_attracting_strata_and_generator_incidence.md#geometric-incidence-and-finite-tests).
+The [bounded incidence investigation](../investigations/supported-generator-incidence/index.md#method)
+applies this test to candidate sextic pencils.
 
 ## Limitations
 
