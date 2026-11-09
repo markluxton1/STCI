@@ -30,7 +30,7 @@ Its normalization is \(4f(-z/2,1)=z^4\). On the retained integral-nodal open its
 \rho=2b_1/a_0-1,\qquad \rho^{12}=1,\quad\rho\ne1.
 \]
 
-The root and torsion reductions are reviewed evidence. They are not an emptiness result. The [saved sextic symbol computation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
+The root and torsion reductions are reviewed evidence. They are not an emptiness result. The [saved sextic symbol computation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
 
 The exact balanced normal frame is
 

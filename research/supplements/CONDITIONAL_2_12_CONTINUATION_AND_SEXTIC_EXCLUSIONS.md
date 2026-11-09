@@ -129,7 +129,7 @@ at every full root point. The full root `Z=(f)` is reduced of class
 
 This review concerns
 [the strict-surface proposal](CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus)
-and [the forced-norm proposal](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-geometric-continuation).
+and [the actual-pair norm proof](../synthesis/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge).
 Inherited chart, normal-flatness and root-obstruction verifiers were
 not rerun. The normal-surface argument below was independently
 reconstructed from its geometric inputs.
@@ -273,12 +273,10 @@ In the fixed original coefficient coordinates put
     tau=(z^2/4)a-(z/2)b+c,
     alpha proportional Ncomp(tau).
 
-The last identity and `tau!=0` are the universal norm lemma of
-the October 20 geometric note. That lemma was independently
-reconstructed and reviewed PASS by the separate `surface_bound`
-worker; its local contact proof, including ramified fibers and
-collision multiplicities, is recorded there. No new self-audit
-status is assigned to that authored lemma here.
+The [actual-pair norm proof](../synthesis/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge)
+establishes the last identity and `tau!=0`, including ramified fibers
+and collision multiplicities. The separate `surface_bound` review
+applies to that local contact argument and its hypotheses.
 
 For a finite flat quadratic root in characteristic zero,
 
@@ -713,8 +711,7 @@ The incidence is empty as a scheme. The argument stops at the cubic
 sextic obstruction. It needs neither a global mate nor a degree-twelve
 standard-basis construction, because the required sextic already fails.
 Applying the conclusion to actual supported complete intersections also
-uses the separately proposed quadric-cycle norm argument. That scope
-bridge is a dependency.
+uses the [quadric-cycle norm argument](../synthesis/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge).
 
 ## Inputs and evidence
 
@@ -724,7 +721,7 @@ saturated-first-relation application uses the hypotheses of
 [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) and
 the separately supplied finite singular-root bridge. The new global
 source map is the previously recorded
-[exact sextic symbol calculation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map).
+[exact sextic symbol calculation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map).
 
 The exact new computations are:
 
