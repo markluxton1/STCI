@@ -69,7 +69,11 @@ This note does not claim the generic local data determine global radical equalit
 
 # The embedded ribbon-to-triple obstruction
 
-The mathematical owner here is the corrected ideal-sheaf proof, independently reconstructed in the retained source audit. It replaces the flawed difference-of-lifts argument. The construction is characteristic free and fixes the embedded ribbon and its quotient throughout; the explicit quartic Laurent coefficient remains an inherited audited calculation. This is source-level reviewed mathematics.
+The characteristic-free ideal-sheaf construction fixes the embedded
+ribbon and its conormal quotient. The [October 21 audit](#independent-audit-and-arithmetic-provenance)
+independently reconstructed this correction of the difference-of-lifts
+argument. The quartic Laurent coefficients come from the separate
+[arithmetic calculation](#quartic-consistency).
 
 ## The canonical embedded extension
 
@@ -99,7 +103,7 @@ The last isomorphism is canonical for a line quotient, with no need to invert 2.
 
 3. For any admissible `J₃`, `I J₃ ⊂ J₃`, `I³ ⊂ J₃`, and the local normal form implies that the image of `J₃` in `E` is `M` and its intersection with `I²` modulo `I³` is `ME`. Therefore `K ⊂ J₃` and `J₃/K -> M` is an isomorphism: its inverse is a splitting of (*).
 
-4. Conversely, a splitting `s:M -> J₂/K` has image an O_C-submodule. Its inverse image `J₃` in `J₂` is an O_X-ideal: multiplying an element of `J₃` by a function in O_X preserves its image modulo K because the action factors through O_C, and `K` is an ideal. It contains K and hence I³, and maps onto M with quadratic intersection ME. Étale/Zariski locally choose adapted generators `x,y` of I, with x mapping to M and y to L. A splitting is generated modulo K by `x-a y²` for some local coefficient a, hence `J₃=(x-a y²,I³)`; the terms x²,xy already belong to the ideal. Since x-a y² is another regular generator of I near C, this is equivalent locally to `(x-a y²,y³)`, a primitive triple with graded pieces O_C,L,L². The construction works over any DVR without division.
+4. Conversely, a splitting `s:M -> J₂/K` has image an O_C-submodule. Its inverse image `J₃` in `J₂` is an O_X-ideal because the action modulo `K` factors through `O_C`. It contains `K` and hence `I³`, and maps onto `M` with quadratic intersection `ME`. Locally choose adapted generators `x,y` of `I`, with `x` mapping to a frame of `M` in `E` and `y` to a frame of `L`. The splitting is generated modulo `K` by `w=x-a y²` for some local coefficient `a`. Since `J₂=(x,y²)=(w,y²)`, the product `I J₂` lies in `(w,I³)`. Thus `J₃=(w,K)=(w,I³)=(w,y³)`, using `I=(w,y)` in the last equality. The quotient has graded pieces `O_C,L,L²` by the linear image `M` and quadratic intersection `ME`. This construction uses no division.
 
 5. Splittings of an exact sequence with locally free quotient M exist locally. The difference of two splittings is a unique O_C-linear map M -> L². This action is free, transitive, additive and restriction-compatible. The construction uses only intrinsic ideals and module operations.
 
@@ -124,7 +128,9 @@ This is exactly the transition for Hom(M,L²): x' has M-frame αx, y' has L-fram
 
 ## Functoriality, base change and dependence
 
-Isomorphisms of embedded triples (X,C,q) carry I,J₂,K and (*) to their counterparts, hence carry the Yoneda class functorially. For a flat base change of the ambient setup, the defining ideals, conormal exact sequence and (*) pull back exactly, and the extension class pulls back naturally. For nonflat base change, the same conclusion holds **if** the regular immersion and the conormal quotient remain compatible, the relevant ideal/product/graded identifications commute with pullback, and the pulled-back sequence remains exact; it is not automatic for arbitrary base change. Natural pullback of the Ext class does not assert that the cohomology base-change map is an isomorphism. The class is determined by the embedded quadratic neighborhood O_X/I³ and q: J₂/K is computed entirely inside that truncation. It need not be determined by the associated graded algebra Sym(E) or by the abstract ribbon alone.
+Isomorphisms of the data `(X,C,q)` carry `I,J₂,K` and (*) to their counterparts. Under flat ambient base change, the defining ideals, conormal quotient and (*) pull back to the corresponding geometric construction, and so does the Yoneda class. For nonflat ambient base change, the pullback of (*) as a module sequence on the new curve remains exact because `M` is locally free. Identifying that sequence with the new geometric extension still requires a compatible regular immersion and conormal quotient, with the relevant ideal, product and graded identifications commuting with pullback. When these identifications hold, the Yoneda class pulls back naturally. An isomorphism on cohomology under base change is a separate question.
+
+The class is determined by the embedded quadratic neighborhood `O_X/I³` and `q`, since that truncation determines `J₂/K`. The associated graded algebra `Sym(E)` and the abstract ribbon can lose this information.
 
 ## Quartic consistency
 
@@ -132,11 +138,25 @@ For the specified relative rational quartic and distinguished quotient `L=O(-6),
 ```
 H = M^∨ ⊗ L² = O(-4).
 ```
-On the two standard affine charts, H¹(O(-4)) has Laurent representatives u^-1,u^-2,u^-3. The earlier independently audited raw ambient calculation yields the transition defect `K(u)` and for the distinguished quotient `[-6u^-2]`. The current theorem proves **why** the difference of local kernel equations represents the intrinsic Yoneda extension class: each local equation defines a splitting of (*), and their normalized differences are precisely its Čech connecting cocycle. This identifies the type and intrinsic meaning of the previously audited numerical class; it is not a new re-expansion or a re-verification of the sign conventions. The earlier lifting audit establishes the middle coefficient is 2 mod 4 for all specified admissible quotients over Z_(2) and Z_2. No claim for arbitrary ramified DVRs follows.
+On the two standard affine charts, H¹(O(-4)) has Laurent representatives u^-1,u^-2,u^-3. The earlier independently audited raw ambient calculation yields the transition defect `K(u)` and for the distinguished quotient `[-6u^-2]`. Each local kernel equation defines a splitting of (*), and their normalized differences give its Čech cocycle. The general theorem identifies this inherited cocycle with the Yoneda extension class. For the specified admissible quotients over Z_(2) and Z_2, the middle coefficient is 2 mod 4. [Full Čech reduction](Z4_LIFTING_AND_DEFORMATION.md#full-cech-reduction), [coefficient verifiers and arithmetic scope](Z4_LIFTING_AND_DEFORMATION.md#exact-computational-support-and-scope).
 
 ## Why the common comparison object matters
 
 The statement that one can subtract arbitrary lifts of M *inside I/I³* as O_C-linear maps is not justified: I/I³ has no canonical O_C-module structure. Also the expression I²/(I³+IJ) is circular unless J is fixed and it does not by itself define a common comparison object for varying J. The common object is instead **J₂/(I J₂+I³)**. It is annihilated by I, so the difference construction and its additive law are literal O_C-module statements. The original numerical calculation survives; the original general proof contains the gap described above.
+
+## Independent audit and arithmetic provenance
+
+The October 21 independent reviewer gave **verdict B** after replacing
+the difference-of-lifts argument by (*). The audit read the original
+proposal, the literature report and the five October 20 lifting
+reports. It reconstructed the general fixed-ambient, fixed-quotient
+torsor, descent and coordinate invariance by ideal and module operations.
+It inherited the Laurent coefficient, sign conventions and mod-four
+reduction from the earlier quartic audits. Those calculations have the
+arithmetic scope stated above. The audit’s handoff permits using the
+corrected class with the fixed-quotient and base-change hypotheses.
+Identification with a divided-Frobenius operation remains open.
+[Original independent audit](https://github.com/markluxton1/STCI/blob/a5ed68f7f11d3b51e5e972a9a4b90e0a3bd7ce5b/research/notes/2026-10-21-intrinsic-ribbon-triple-independent-audit.md).
 
 ## A coordinate change as an explicit control
 
