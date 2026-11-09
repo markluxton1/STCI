@@ -73,6 +73,8 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0062](results/normal_cone_slice_specialization.md) | Degreewise Tor kernel and the all-degree normal-flatness criterion | neighborhood Tor sequences and Artin–Rees: accepted | [scope](results/normal_cone_slice_specialization.md#scope) |
 | [STCI-R-0063](results/normal_flat_comparison_specialization.md) | Normal flatness specializes the full equation comparison for a rank-two complete intersection | two normal cones and the two lowest equation degrees: accepted | [scope](results/normal_flat_comparison_specialization.md#scope) |
 | [STCI-R-0064](results/supported_length_five_defect_specialization.md) | A supported length-five family with a jump in the actual transverse defect | finite free algebra and full equation filtration: accepted | [scope](results/supported_length_five_defect_specialization.md#scope) |
+| [STCI-R-0065](results/normal_koszul_comparison_defect.md) | Normal Koszul differentials and the filtered equation defect | shifted normal Koszul filtration and comparison on representatives: accepted | [scope](results/normal_koszul_comparison_defect.md#scope) |
+| [STCI-R-0066](results/recursive_normal_koszul_cancellation.md) | Recursive transverse complete intersections with prescribed normal Koszul cancellation | full initial ideal, strict shifted resolution, and integral perturbation: accepted | [scope](results/recursive_normal_koszul_cancellation.md#scope) |
 
 ## Arguments
 
@@ -84,6 +86,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-A-0004](arguments/quartic_specialization_and_symbols.md) | Conormal splitting, mu4 specialization and actual quartic symbols | complete | [scope](arguments/quartic_specialization_and_symbols.md#scope) |
 | [STCI-A-0005](arguments/filtered_equation_comparison.md) | Filtered equations and the information lost by normal grading | complete | [scope](arguments/filtered_equation_comparison.md#scope) |
 | [STCI-A-0006](arguments/transverse_specialization.md) | Transverse specialization of normal cones and the filtered equation comparison | complete | [scope](arguments/transverse_specialization.md#scope) |
+| [STCI-A-0009](arguments/normal_koszul_cancellation.md) | Normal Koszul cancellation and the actual equation filtration | complete | [scope](arguments/normal_koszul_cancellation.md#scope) |
 
 ## Frameworks
 
@@ -162,6 +165,8 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0062: neighborhood Tor sequences and Artin–Rees; joint premises []; proof `research/arguments/transverse_specialization.md#normal-cone-specialization`; review accepted, reconstructed at `#review`.
 - STCI-R-0063: two normal cones and the two lowest equation degrees; joint premises [STCI-R-0030, STCI-R-0062]; proof `research/arguments/transverse_specialization.md#comparison-under-normal-flatness`; review accepted, reconstructed at `#review`.
 - STCI-R-0064: finite free algebra and full equation filtration; joint premises [STCI-R-0030]; proof `#proof`; review accepted, reconstructed at `#review`.
+- STCI-R-0065: shifted normal Koszul filtration and comparison on representatives; joint premises [STCI-R-0030]; proof `research/arguments/normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds`; review accepted, reconstructed at `#review`.
+- STCI-R-0066: full initial ideal, strict shifted resolution, and integral perturbation; joint premises [STCI-R-0030, STCI-R-0065]; proof `research/arguments/normal_koszul_cancellation.md#the-recursive-family-and-its-cancellation-page`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -186,6 +191,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-A-0004: proof owner for STCI-R-0020 (two-chart quadric conormal transition); proof owner for STCI-R-0021 (monic flatness and two-chart scheme decomposition); proof owner for STCI-R-0057 (filtered elimination and the initial term of a principal ideal); proof owner for STCI-R-0058 (residual restriction through the unique quadric); proof owner for STCI-R-0059 (quadric residual class and generic length exhaust the degree).
 - STCI-A-0005: proof owner for STCI-R-0030 (initial ideals, the DVR length identity, and smooth-carrier straightening); proof owner for STCI-R-0060 (length-five algebra and explicit cancellation).
 - STCI-A-0006: proof owner for STCI-R-0062 (neighborhood Tor sequences and Artin–Rees); proof owner for STCI-R-0063 (two normal cones and the two lowest equation degrees).
+- STCI-A-0009: proof owner for STCI-R-0065 (shifted normal Koszul filtration and comparison on representatives); proof owner for STCI-R-0066 (full initial ideal, strict shifted resolution, and integral perturbation).
 - STCI-F-0001: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001).
 - STCI-F-0002: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0002] → [STCI-I-0004] (owner STCI-I-0004); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
@@ -222,7 +228,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0027: no declared backlinks.
 - STCI-R-0028: no declared backlinks.
 - STCI-R-0029: no declared backlinks.
-- STCI-R-0030: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0060 (length-five algebra and explicit cancellation); premise of STCI-R-0063 (two normal cones and the two lowest equation degrees); premise of STCI-R-0064 (finite free algebra and full equation filtration).
+- STCI-R-0030: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0060 (length-five algebra and explicit cancellation); premise of STCI-R-0063 (two normal cones and the two lowest equation degrees); premise of STCI-R-0064 (finite free algebra and full equation filtration); premise of STCI-R-0065 (shifted normal Koszul filtration and comparison on representatives); premise of STCI-R-0066 (full initial ideal, strict shifted resolution, and integral perturbation).
 - STCI-R-0031: no declared backlinks.
 - STCI-R-0032: recorded reference from STCI-R-0033 (dependencies group [STCI-R-0032]).
 - STCI-R-0033: no declared backlinks.
@@ -257,3 +263,5 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0062: premise of STCI-R-0063 (two normal cones and the two lowest equation degrees).
 - STCI-R-0063: no declared backlinks.
 - STCI-R-0064: no declared backlinks.
+- STCI-R-0065: premise of STCI-R-0066 (full initial ideal, strict shifted resolution, and integral perturbation).
+- STCI-R-0066: no declared backlinks.

@@ -117,6 +117,14 @@ also requires the filtration jumps and compatible chart lifts. The
 shows why graded agreement alone is insufficient for a comparison of actual
 embedded algebras.
 
+To determine when an initial equation disappears in the comparison, use
+the [incoming normal Koszul differentials](results/normal_koszul_comparison_defect.md)
+on the full normal algebra. The source has homological degree two and the
+normal degree rises by the page number. The
+[recursive family](results/recursive_normal_koszul_cancellation.md)
+tests this calculation at any positive page. Its defect is already
+nonzero at the generic point of the marked line.
+
 For a candidate punctual comparison defect, specify the parameter lift for the
 transverse slice and check the [normal-flat specialization hypotheses](results/normal_flat_comparison_specialization.md).
 When they apply, the actual slice computes the specialization of the relative
