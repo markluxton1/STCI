@@ -1,7 +1,7 @@
 # Formal normal geometry of intersections containing the rational quartic
 
-**Status:** research framework; open questions are stated below.
-**Scope:** fixed rational quartic in characteristic zero. Read [authority policy](../AUTHORITY.md) and [current frontier](../FRONTIER.md) before using claims.
+Use the [evidence and review rules](../MODEL.md#evidence-and-review) and the
+[frontier](../FRONTIER.md) to assess and select the open questions below.
 
 ## Fixed setup
 
@@ -9,7 +9,8 @@ Let k be algebraically closed of characteristic zero and
 \[
 C=\{[s^4:s^3t:st^3:t^4]\}\subset\mathbf P^3_k.
 \]
-We use the established splitting \(N_{C/\mathbf P^3}\simeq\mathcal O_{\mathbf P^1}(7)^{\oplus2}\) without re-proving it.
+Use the [characteristic-zero conormal splitting](../results/quartic_conormal_characteristic_jump.md)
+to obtain \(N_{C/\mathbf P^3}\simeq\mathcal O_{\mathbf P^1}(7)^{\oplus2}\).
 
 Let \(F,G\) define distinct integral surfaces containing \(C\), and set \(Z=V(F,G)\). **Do not assume** \(Z_{\mathrm{red}}=C\). The eventual STCI condition is a constraint to detect, not a standing hypothesis. In particular, a component of \(Z\) different from \(C\) may meet \(C\) at finitely many points, and the formal completion along \(C\) need not record its full global geometry.
 
@@ -34,7 +35,10 @@ T\hookrightarrow X_G\hookrightarrow\mathbf P^3,
 \]
 with the additional equality \(I_T=(F,G)\) when T is meant to be the full intersection scheme.
 
-The filtration and successive exceptional schemes should help detect where compatibility fails: generic formal realizability need not globalize, a thickening supported by either carrier individually need not be cut out by their pair, and exceptional specialization may reveal defects or additional components. Seek structural obstruction and lifting criteria connecting these levels, rather than treating them as independent existence questions.
+Seek a proved obstruction or lifting criterion connecting at least two of
+these levels. Treat the two carriers symmetrically and specify what is
+formal, algebraic, or projective. A useful comparison explains which
+compatibilities the filtration or successive exceptional schemes detect.
 
 ## Three distinct constructions
 
@@ -46,11 +50,22 @@ Write \(J=I_C\subset\mathcal O_{\mathbf P^3}\) and \(I=(F,G)\subset J\). Disting
 
 These are related, but generally not identical. In particular, the intersection on E is described by the leading normal forms of the individual surfaces, while the initial ideal of (F,G) may contain additional initial forms arising from combinations of generators. Saturation and higher relations matter.
 
+Determine the exact ideals, saturations, and maps comparing these
+constructions. Specify which data depend only on the intersection ideal and
+which depend on its chosen generators or carriers. For proved local comparisons
+of full initial ideals and actual equations, see
+[R-0030](../results/local_filtration_comparison_defect.md).
+
 At the generic point \(\eta_C\), after a choice of formal parameters, study \(I\subset K[[X,Y]]\), \(K=k(C)\simeq k(t)\). Orders \(r=\operatorname{ord}_C F\), \(s=\operatorname{ord}_C G\) and the leading forms provide the first layer, not a complete invariant. When \(C\) is an isolated generic component of the intersection, the length \(\ell_{K[[X,Y]]}(K[[X,Y]]/I)\) measures its generic multiplicity. The identity \(de/4\) for this length requires that C be the only one-dimensional component of the global complete intersection; it must not be imposed in the broader setup.
 
 ## Exceptional geometry and components downstairs
 
 Separate horizontal components over C (dominating C) from vertical components over special points of C. Study their scheme structures and behavior under successive blowups. An exceptional component does **not** by itself prove that Z has another component downstairs: it may encode higher contact, a special fiber, or excess intersection. Conversely, if another global component meets C, its formal trace can influence the exceptional scheme. Establish precise implications rather than equating these phenomena.
+
+Generic completion over \(K\) misses distinct residual curves, including
+those meeting \(C\) at special points. Seek necessary or sufficient conditions
+for an additional curve downstairs from the exceptional schemes over all
+points. See the [cycle and visibility analysis](../synthesis/02-two-surfaces.md#25-actual-sources-finite-jets-and-formal-visibility).
 
 The normal cone, strict-transform intersection, and scheme-theoretic total transform should be compared through their defining graded/Rees constructions. Keep track of whether a claimed direction or component is intrinsic to the ideal or depends on the chosen pair of surfaces.
 
@@ -61,12 +76,23 @@ The function field K is not itself a Laurent-series field. A chosen point of C g
 Use weighted initial ideals, valuations and tropical geometry **conceptually** to organize successive normal directions, degenerations and cancellation. Cancellation should be interpreted through intrinsic initial ideals and relations, not reduced to a search through polynomial examples. In particular, the tropicalizations of two principal equations need not determine the tropicalization of their ideal.
 
 The key question is whether these methods yield structural criteria for allowable formal thickenings and their global realizations, and whether specializations along C force additional components or obstructions.
+The [valuation and specialization questions](../synthesis/formal-normal-intersection.md#5-focused-theorem-level-questions-all-open)
+give more specific comparisons.
+
+## Multiplicity two as a test
+
+For generic intersection length two, describe the possible local
+complete-intersection structures and their behavior under blowup, allowing
+residual components in the global intersection. Check compatibility of the
+two generic normal orders with length two. Separate the local conclusions
+from the conditions for an ambient realization and for sole reduced support.
 
 ## Research discipline
 
 - Keep C fixed unless a general statement is cheaper or materially clarifies the argument.
 - Identify the proved inputs and state their hypotheses alongside any conjectural extension.
 - Prioritize geometric proofs, invariant constructions and necessary/sufficient criteria over computational case studies.
-- Use the multiplicity-two situation as a test case, without assuming arbitrary local orders are compatible with multiplicity two.
 - Do not use an unverified general assertion that two STCI defining surfaces share a singular point on C.
-- Do not reopen excluded integral quartic carriers as live STCI candidates; see the accepted results and their precise hypotheses.
+- Check the repository and literature before claiming novelty. For excluded
+  integral quartic carriers in the fixed embedding, use
+  [R-0001](../results/quartic_carrier_exclusion.md).

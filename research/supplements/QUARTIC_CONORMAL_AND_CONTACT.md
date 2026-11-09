@@ -11,9 +11,8 @@ The conormal convention agrees with Tevelev, *Projectively Dual Varieties*, §§
 ## 1. Inputs and conventions
 
 Retrieval began with [INDEX](../INDEX.md), the requested navigation
-summaries, the [authority policy](../AUTHORITY.md), and the
-[contribution checklist](../CONTRIBUTING_AGENT.md). Relevant retained
-evidence is the [discussion reconciliation](QUARTIC_CONORMAL_AND_CONTACT.md),
+summaries, and the [evidence and review rules](../MODEL.md#evidence-and-review).
+Relevant retained evidence is the [discussion reconciliation](QUARTIC_CONORMAL_AND_CONTACT.md),
 [dual-incidence derivation](QUARTIC_DUAL_SCHEMES.md),
 [geometry audit](QUARTIC_DUAL_SCHEMES.md), and
 [symmetric-square note](QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md#quartic-symmetric-square-bitangents).

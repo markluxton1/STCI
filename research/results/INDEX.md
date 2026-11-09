@@ -48,9 +48,9 @@ missing implications.
 - [Entirely-thick presentations](entirely_thick.md)
 - [Jet geometry](jet_geometry.md)
 
-For conflicting claims, compare exact scopes, proofs, and review passages using
-[the evidence rules](../AUTHORITY.md). The topic prose provides reading routes;
-it cannot broaden the statements it cites.
+For conflicting claims, follow the
+[correction and conflict rules](../MODEL.md#corrections-and-conflicting-claims).
+Topic prose provides reading routes within the scope of the cited statements.
 
 ## Evidence locations
 

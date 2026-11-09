@@ -7,7 +7,8 @@ or reduction. Its own document contains the exact statement, hypotheses,
 quantifiers, and limitations. Its complete proof is in that document or a
 precisely identified Argument section containing the actual reasoning.
 Existing mathematical expositions can supply such proof sections while the
-repository is reconstructed; re-encoding a file is not a mathematical step.
+repository is reconstructed. Expository applications and restatements must
+respect the literal scope of the Result.
 
 An **Argument** gives a coherent complete development combining Results and
 explaining their geometry. A **Framework** describes a strategy, actual inputs,
@@ -16,33 +17,85 @@ geometric question. An **Investigation** is a concrete motivated activity with
 a question, method, findings, and unresolved work. Completing an activity does
 not imply answering its motivating question.
 
-Preserve independently useful lemmas, complete proofs, alternative arguments,
-constructions, counterexamples, and exact hypotheses. Prefer intrinsic geometry;
-when calculation remains necessary, explain its invariant assertion and coverage.
-Exploratory code belongs to its Investigation. A Result keeps only the smallest
-essential exact support in an optional `<claim>.support/` directory. Computations
-and attachments are not additional research object types.
+Prefer intrinsic geometry. Distinguish a replacement proof from a geometric
+reduction that still requires algebra or a computation whose mathematical
+role or coverage still needs explanation.
 
 ## Evidence and review
 
-Results have no overall status or authority classification. The information
-that matters is the statement, actual proof routes, their prerequisites, and
-what each review checked. Record accepted, pending, or disputed review on the
-precise route. No extra acceptance step follows an accepted proof review.
-Repository integration approval is a separate project decision.
+Assess each claim by its exact statement, assumptions, proof, and review scope.
+Branch, recency, path, identifier, catalog inclusion, and merge approval
+supply no mathematical justification. STATE, FRONTIER, indexes, and research
+relationships guide retrieval. Their claims depend on the mathematical homes.
+Keep the antecedents of a conditional statement explicit. Distinguish a
+necessary condition, a fixed-carrier conclusion, a finite reduction, an actual
+construction, and an unrestricted theorem.
 
-An accepted route needs an actual decision passage describing its checked
-scope, what was read or executed, and qualifications. Source review and
-independent reconstruction may be recorded factually; neither introduces a
-second rank among Results. A reviewed conditional theorem stays conditional.
-An unperformed calculation or a missing realization remains an explicit gap.
-Do not infer acceptance from a file's name, identifier, location, or history.
+Record accepted, pending, or disputed review on the precise proof route.
+An accepted route needs an actual decision passage giving its checked scope,
+the assumptions used, what was read or executed, and the qualifications.
+Acceptance covers the checked route and requires no further mathematical
+approval. Results have no overall status or authority classification. Describe
+source review and independent reconstruction factually and recover decisions
+from the review passages themselves.
 
-Metadata checks declared structure, not mathematical truth, completeness of
-premises, review sufficiency, reviewer independence, or exhaustive coverage.
-Consequential arguments need substantive independent reconstruction, with
-counterexamples and omitted hypotheses actively tested. Use the
-[evidence rules](AUTHORITY.md) and [contribution instructions](CONTRIBUTING_AGENT.md).
+Independently reconstruct consequential arguments and changes in scope. Test
+omitted cases, hidden hypotheses, counterexamples, dependency scope, and
+characteristic restrictions. Distinguish generic claims from all-point
+assertions, and formal or local existence from realization by global equations.
+The checker verifies declared structure. Mathematical correctness, completeness
+of premises, reviewer independence, review sufficiency, and exhaustive
+coverage require substantive review.
+
+For substantial contributions report the exact claim or question, curve,
+characteristic, hypotheses and quantifiers, proof and evidence paths, review
+scope, remaining dependencies, and any affected Framework or Investigation.
+Keep unperformed calculations and missing realizations explicit. The
+unrestricted characteristic-zero STCI question remains open until resolved by
+an independently reviewed proof.
+
+### Corrections and conflicting claims
+
+Compare the exact scopes, proofs, and reviews of both claims. Report any
+unresolved discrepancy, identify the precise disputed step, and preserve
+useful corrections or counterexamples. Explain the scope bridge before
+replacing one statement with another.
+
+## Exact proof support and retention
+
+Preserve independently useful lemmas, complete proofs, alternative arguments,
+constructions, counterexamples, exact questions, and the smallest adequate
+support. The Result owns its necessary exact support in an optional
+`<claim>.support/` directory. Exploratory code and data belong to the owning
+Investigation. Computations and attachments are support for the four
+research objects.
+
+For an essential computation, link its support from the proof's Evidence
+section. Record the exact inputs, characteristic and source domain, invariant
+assertion and geometric interpretation, coverage argument, usable command and
+environment, and whether the result was inspected or replayed. A saved rank
+still needs a proof of source identification and coverage. Keep a second
+implementation only when it supplies distinct verification or an additional
+argument.
+Keep large generated artifacts out of ordinary Git. An essential external
+artifact needs an accessible location, an integrity identifier, and an exact
+account of the claim that depends on it. A checker, checksum, or regeneration
+recipe requires separate evidence of completed execution.
+
+Before retiring a necessary exact certificate, replace it with a reviewed
+argument or compact exact certificate covering the same surviving claim.
+Review the replacement and removal together. Check content and consumers for
+unique corrections, proof steps, and exact inputs before dropping duplicate
+certificates, logs, diagnostics, repeated PASS output, regenerable bulk
+dumps, chronological handoffs, or migration manifests.
+
+### Historical citations
+
+Keep citations to historical proof and review sources, with their precise
+scope. Cite a retired source at its full Git commit and path. If a source is
+unavailable, check the surviving proof and its necessary evidence before
+reusing the claim. Keep shared Git history and source branches intact during
+working-tree consolidation.
 
 ## Files and fields
 
@@ -64,8 +117,10 @@ Keep identifiers when files move; resolve branch collisions before integration.
 No allocation registry is needed. Optional `aliases` map former identifiers to
 local sections, for example `STCI-Q-0001: "#question"`. Aliases must be unique
 against all live IDs and other aliases. Questions live in Frameworks or
-Investigations; existing question records retain their exact formulations until
-reviewed relocation. A claimed answer requires its precise mathematical scope.
+Investigations in the target structure. During reconstruction, FRONTIER can
+hold unresolved interfaces awaiting a typed owner. Existing question records
+retain their exact formulations until reviewed relocation. A claimed answer
+requires its precise mathematical scope.
 
 Templates: [Result](../scripts/templates/result.md),
 [Argument](../scripts/templates/argument.md),
@@ -101,7 +156,8 @@ reconstruction. Both require a precise decision passage and its literal scope.
 The basis field records what was reviewed; it confers no separate authority.
 An empty `proofs` list means no proof route has yet been recorded.
 
-Each accepted route must have noncircular accepted prerequisites. The checker
+Each accepted route must have noncircular accepted prerequisites. Only
+accepted routes can ground those premises. The checker
 starts with accepted routes having no cataloged premises and repeatedly adds
 conclusions whose accepted routes have every premise in that set. It checks
 every accepted route's premises against the final set. An independent accepted
@@ -153,20 +209,26 @@ document. Reject external schemes, absolute paths, queries, missing files or
 sections, `..` metadata segments, and escaping symlinks. Ordinary body links
 can use parent-relative paths inside the repository. Explicit support files
 and images are checked for availability; existence does not verify their content.
-External literature citations are not fetched by deterministic validation.
+Legacy evidence and audit fields allow external citations. Deterministic
+validation does not fetch them or external literature.
 
 Discover objects independently of the generated catalog. Malformed metadata
 must fail rather than silently remove a record from discovery. README and INDEX
 files are navigation, not objects. Untyped topic prose is recognized from
 non-ID entries in the existing result index. The single pre-existing untyped
 framework is a temporary serialization exception; adding metadata ends it.
-Neither exception gives mathematical precedence. No migration manifest is kept.
+Neither exception gives mathematical precedence. Discovery has no fixed record
+count or migration manifest.
 
 Untyped Results retain exact statements, kinds, scope, evidence, review source
-paths, aliases, references, corrections, and limitations. Their removed
-classification fields are not retained elsewhere. Both compatibility validator
-commands invoke the shared engine. The same route, identity, and path rules
-apply to every serialization, without a fixed-size special collection.
+paths, aliases, references, corrections, and limitations. Keep their ID
+entries and the untyped topic links in [results/INDEX.md](results/INDEX.md)
+for discovery and validation. Preserve the exact formulation of each untyped
+question, including [STCI-Q-0001](questions/cartier_projection_models.md).
+Question and activity states describe open work. The same route, identity, and
+path rules apply to every serialization. The two compatibility commands,
+`research/computations/validate_records.py` and
+`research/computations/validate_result_records.py`, invoke the shared engine.
 
 ## Commands and integration
 
@@ -200,6 +262,7 @@ and authoring burden. Independent mathematical review reconstructs consequential
 proofs and checks preservation of hypotheses, intermediate results, counterexamples,
 and necessary support. Retrieval/reuse evaluation is separate from both.
 Keep the reconstruction PRs stacked and unmerged into main until the requested
-review and explicit integration approval. Continue wider mathematical migration
-only at the agreed user decision point. These project approvals are not
-additional mathematical acceptance states.
+mathematical review, retrieval/reuse evaluation, and explicit integration
+approval. Continue wider mathematical migration only at the agreed user
+decision point. Integration approval is a project decision separate from
+scoped proof review.

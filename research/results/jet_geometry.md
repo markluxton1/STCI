@@ -10,7 +10,8 @@ The quartic jet geometry includes the following facts.
 - the P-045 rank jump corresponds geometrically to \(R\) being a ruling-fiber divisor;
 - after quotienting the universal quadric-square direction, the essential second-order target is supported on the doubled divisor \(2R\).
 
-These facts motivate the [jet-discrepancy question](../open/jet_condition_framework.md). The dependence of successive containment conditions remains open in the broader settings described there.
+These facts motivate the [jet-discrepancy question](../FRONTIER.md#successive-jet-discrepancies-in-actual-equation-spaces)
+for higher-degree carriers and residual intersections.
 
 The older side-thread statement that \((4,7),e=2\) remained open is superseded by the quartic factorization result.
 

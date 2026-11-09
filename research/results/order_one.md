@@ -22,7 +22,8 @@ These statements do not apply to the entirely-thick branch.
 
 The [order-one degree argument](../supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-uniform-order-one-frontier) uses [saturated duality](../supplements/CURVILINEAR_GENUS_AND_DEFECTS.md#2-direct-proof-of-the-saturated-duality-and-effective-defects) and the [numerical normal-sheaf inequality](../synthesis/numerical_surface_pullback.md). See also the [multiplicity-six pairing calculation](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit) and [primitive-fourth calculation](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-primitive-quadruple-universal).
 
-Open questions concern [jet discrepancies](../open/jet_condition_framework.md) and [multiplicity six](../open/mf6.md).
+Open questions concern [jet discrepancies](../FRONTIER.md#successive-jet-discrepancies-in-actual-equation-spaces)
+and [multiplicity-six incidence](../FRONTIER.md#multiplicity-six-incidence-in-actual-jets).
 
 ## Historical jet-discrepancy comparison (scope-limited)
 

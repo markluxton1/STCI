@@ -37,6 +37,7 @@ results change and how to choose between constructive and obstructive aims.
 | --- | --- | --- |
 | Actual global pairs | [Exact source spaces](supplements/ACTUAL_EQUATION_SPACES.md), [Chow/complement equivalents](synthesis/global_equations_and_constructions.md) | Produce a proper pair with exhausted cycle, or prove an incompatibility covering every relevant source; dimension and equivalent formulation alone do neither |
 | Torus limits and supported deformations | [Full invariant limits](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary), [explicit residual controls](arguments/torus_sextic_residuals.md) | The sharp eigenform sextic quotient bound is eight; a residual full limit needs a degree-ten generator. For sole support, consider both full-ideal limits and their attracting loci, then test two-generation on moving ideals; a selected I_C-primary boundary is a useful local probe, not the default classification. Residual examples do not establish supported incidence or coverage |
+| Formal normal realization | [Simultaneous compatibility](frameworks/formal-normal-geometry.md#simultaneous-realization-and-compatibility-problems) | Connect an embedded generic thickening to one ambient scheme and two compatible global carriers. Test equality with their intersection and then sole support |
 | Embedded lower thickenings | [One-step and filtration tests](synthesis/03-infinitesimal-geometry.md) | Determine a proper decomposable determinant-zero point in the actual equation spaces across a justified family of lower embeddings |
 | Normal filtration under specialization | [Prescribed \(\mu_4\) normal initial ideals](results/quartic_normal_initial_base_change.md), [quotient-to-Hilbert investigation](investigations/quotient-hilbert-comparison/index.md) | For a declared moving family, control specialization of the filtered equation data separately from projective flatness. The prescribed family provides an explicit failure of associated-graded base change |
 | General roots and initial ideals | [Root and normal-filtration tools](synthesis/normal_filtration_boundary_obstructions.md) | Handle singular/nonreduced roots, nonsaturation, extra generators, noncoprime next relations and failure of joint generation; no arbitrary entirely-thick→movement-two reduction is known |
@@ -76,6 +77,99 @@ produce actual ACM schemes upstairs, while their specified failures leave other
 sources and chains open.
 
 The [embedded fourth-extension calculation](synthesis/intrinsic_fourth_extension.md) closes the previously missing neighborhood-only route for the two allowed (4,4) types. It does not supply a general classification of higher-length thickenings or higher-degree actual sources; those remain separate interfaces above.
+
+### Successive jet discrepancies in actual equation spaces
+
+For the fixed \(C_0\) in characteristic zero, when do successive normal-jet
+conditions become dependent in primitive or quasiprimitive filtrations?
+Treat actual carriers of degree at least five and residual intersections
+involving a quartic as separate settings. Use the actual global section
+sources and the targets modified by saturated layer divisors. In a specified
+degree and family of lower embeddings, determine an intrinsic rank-defect
+locus for a successive restriction map, including its special strata. Seek
+an explicit relation to the punctual [R-0030 comparison defect](results/local_filtration_comparison_defect.md)
+of the map from the minimal generators of the full normal initial ideal
+to the associated graded of the actual equation module.
+
+A negative expected condition budget leaves the actual ranks to be checked.
+The [order-one calculation](results/order_one.md#historical-jet-discrepancy-comparison-scope-limited)
+defines the discrepancies and links the finite \(2R\) evaluation. The
+[ruling-fiber rank jump](results/jet_geometry.md) concerns \(e=2\).
+The \(e=0,1\) sources have their own calculations, including the
+[comparison-zero direction](supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#comparison-zero-point)
+and the [repaired Cartier intersection argument](supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#repair-of-the-fixed-ruling-stci-implication).
+These are models for the comparison. [R-0001](results/quartic_carrier_exclusion.md)
+closes the integral quartic-carrier mate cases, including the historical
+\(e=0,1\) order-one targets.
+
+### Quartic common ancestors in local cohomology
+
+For the fixed \(C_0\) over an algebraically closed characteristic-zero field,
+can actual quartics \(F,G\in I_4\) and a homogeneous \(\alpha\in M_{-7}\)
+satisfy \(F\alpha=u\), \(G\alpha=v\), where \(M=H_I^2(S)\), \(I=I_{C_0}\),
+\(S=k[x,y,z,w]\), \(u=xz/(qB)\), and \(v=yw/(qB)\), with \(q=xw-yz\)
+and \(B=xz^2-y^2w\)? The [finite order-four reduction](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#uniform-finite-reduction-for-the-remaining-degree-four-locus)
+puts \(\alpha\) in the 30-dimensional space \((0:_M I^4)_{-7}\), with
+principal-part order exactly four. Each quartic source is 18-dimensional.
+The [ruling-ratio slices](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#new-all-stage-exclusion-both-ruling-ratio-slices),
+[two pure constant directions](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#independent-audit-of-pure-constant-quartic-directions),
+[explicit all-stage family](supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md#3-an-integral-coefficient-functional-excludes-the-whole-explicit-family),
+and [normalized parity family](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#a-corrected-polynomial-dual-exclusion-for-the-normalized-parity-family)
+have their own exact exclusions. The [two rational endpoint families](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
+have primitive direction degree two and pure cubic top \(h=t\). Their
+certificates exclude target \(u\) for every admissible direction and affine
+lower correction in those families.
+
+Recast the remaining incidence using [successive jet discrepancies](#successive-jet-discrepancies-in-actual-equation-spaces).
+For the remaining primitive conormal directions of degrees zero, one, and
+two, retain the ambient-coprime quartic lifts. Test the top-symbol lifts
+and both lower multiplication equations in the full finite tensor.
+Non-quasi-cyclicity of the full module needs an argument beyond this fixed
+degree. The quartic-mate theorem concerns sole support, whereas the ancestor
+[generic length calculation](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#2026-10-05-localcoh-generic-length)
+gives a degree-four residual cycle for any such pair.
+
+### Multiplicity-six incidence in actual jets
+
+For a saturated quasiprimitive length-six structure, express the finite
+incidence conditions through successive jet ranks on a declared actual
+source. Test whether the saturated divisors and the higher-jet maps
+together explain the rank strata. The [perfect pairings](supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit)
+use finite-flat Gorenstein duality. The [rank-six Fitting identity](supplements/MULTIPLICITY_MIXED46_AND_MF6.md#1-mf6-including-the-torsion-and-generation-steps)
+also uses generation by the two ambient normal coordinates in the embedded
+lci setting.
+
+For a hypothetical characteristic-zero \((4,b)\) pair with sole support
+\(C_0\) and \(e=0\), the [global bound](supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-further-audit)
+is \(\deg D_2\ge3\). For bidegree \((4,6)\) and \(e=0\), set
+\((d_2,d_3)=(\deg D_2,\deg D_3)\). The [nonregular exclusion](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#independent-audit-of-the-mf6-degree-three-nonregular-exclusion)
+for \((d_2,d_3)=(3,6)\) leaves the regular-ratio case to the general
+[quartic-mate theorem](results/quartic_carrier_exclusion.md). The
+\((d_2,d_3)=(4,5)\) type also has its own
+[complete exceptional-fiber exclusion](supplements/MULTIPLICITY_SIX_QUARTIC_CONTACT.md#4-complete-remaining-exceptional-fiber)
+in bidegree \((4,6)\). These closed mate cases supply saturated filtration
+and actual source tests for the structural comparison.
+
+### Split sextic carriers
+
+Fix \(C_0\) over an algebraically closed field of characteristic zero.
+Consider an integral sextic of exact normal order two whose first exceptional
+divisor is the reduced sum of two distinct integral, content-free sections
+with no vertical component. A hypothetical sole-support mate must pass the
+[split numerical and first-normal reductions](supplements/SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md#p-041-torsion-corrected-sharpening-of-the-surviving-split-sextics).
+Keep the \([4]\) and \([2,2]\) strata separate.
+The [fixed ramified first-normal specimen](supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#proved-the-fixed-p-041-boundary-normal-form-has-no-stci-carrier)
+has an all-mate exclusion from higher jets. In the \(d=1,[2,2]\) family
+with both residual ruling roots totally ramified and the two low evaluation
+zeros at their preimages, the [full higher-jet reduction](supplements/SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.md#result-and-scope)
+leaves a necessary one-parameter line. The
+[bounded next test](supplements/SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.md#surviving-line-and-continuation-requirements)
+is to compute its normalization, conductor and numerical branch
+intersections, including exceptional parameter values. Integrality, mate
+descent and sole support still require separate checks. The
+[nonramified \([4]\) charts](supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#2026-10-05-split4-nonramified)
+and [further \([2,2]\) chart](supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#an-additional-22-chart-for-continuation)
+retain their own higher-order lifting and conductor tests.
 
 ### Higher-order Rees data for entirely-thick pairs
 
@@ -275,7 +369,7 @@ an instruction to interrupt an already running investigation.
 
 | Covered result | What a genuinely new question would change |
 | --- | --- |
-| [Characteristic-zero quartic carriers](synthesis/quartic_carrier_proof.md) | A different characteristic, embedding or geometric application; no new mate search on an excluded fixed carrier |
+| [Characteristic-zero quartic carriers](results/quartic_carrier_exclusion.md), including [normal carriers](results/normal_carriers.md) | A different characteristic, embedding or geometric application; no new mate search on an excluded fixed carrier |
 | [Invariant supported CI ideals in characteristic zero](supplements/EQUIVARIANT_DEGREE_BOUNDS.md) | Study full invariant boundary ideals and deformations that may break symmetry; invariant reduced support alone does not make a CI ideal invariant |
 | [Power and binary-mixture projected sources](synthesis/projected_thickening_section_defects.md) | An actual source or multiplication changing the missing-section mechanism, or the explicitly excluded characteristic-divisibility case |
 | [Specified skew-line residual/Fitting operations](synthesis/supported_linkage_operations.md#classical-residual-operations-on-the-skew-line-link) | A different residual operation with a demonstrated effect on the actual ideal or support |

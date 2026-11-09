@@ -52,11 +52,10 @@ Revisit a closed family only when the new question changes an actual hypothesis,
 source, boundary calculation or coverage claim.
 
 For a claim, retrieve its exact statement and proof, then its necessary
-computation. Reuse review of unchanged inputs. Independently review material
-new deductions, changed proofs and consequential preservation decisions.
-Retain useful mathematics and compact support, not a new administrative
-hierarchy. Follow [authority](AUTHORITY.md) and [contribution](CONTRIBUTING_AGENT.md)
-rules for scoped proof review and evidence.
+computation. Reuse review of unchanged inputs. Follow the
+[scoped review](MODEL.md#evidence-and-review) and
+[exact proof support](MODEL.md#exact-proof-support-and-retention) rules for
+new deductions, changed proofs, and consequential preservation decisions.
 
 
 ## What the combined work changes
