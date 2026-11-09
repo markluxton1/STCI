@@ -37,7 +37,7 @@ The data remain the actual schemes and inclusions
 \[
 C\subset Z\subset X,Y\subset P,
 \]
-including the original Cartesian square \(Z=X\times_PY\), all composites, and both labelled carrier ideals. The nine ideal-power filtrations and seven transitivity sequences are retained as specified in the predecessor, section 2. In particular, on \(C\),
+including the original Cartesian square \(Z=X\times_PY\), all composites, and both labelled carrier ideals. The [complete embedding diagram](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2-the-complete-embedding-and-conormal-diagram) retains the nine ideal-power filtrations and seven transitivity sequences. In particular, on \(C\),
 \[
 M_X=A_X/IA_X,\qquad M_Y=A_Y/IA_Y,
 \qquad D=M_X\oplus M_Y,
@@ -53,155 +53,60 @@ The quotients \(E/\operatorname{im}\alpha\), \(E/\operatorname{im}\beta\), and \
 The full quotient \(R/J\), its multiplication, and its Rees algebra retain the embedded scheme and extension information. The normal algebra \(S/H\), the filtration quotients, or \(\Delta\) alone do not reconstruct that scheme. Changing generators preserves the marked ideal \(J\subset I\), but can change the labelled intermediate hypersurfaces and their comparison maps.
 
 
+## Local comparison and examples
 
 <a id="delta-singular-locus-continuation"></a>
 <a id="delta-singular-locus-review"></a>
+<a id="the-singular-locus-defect-normal-koszul-differentials-degrees-and-length"></a>
+<a id="1-main-advances"></a>
+<a id="2-notation-and-the-intrinsic-comparison"></a>
+<a id="4-generic-generator-counts-and-punctual-length"></a>
+<a id="41-the-exact-generic-count"></a>
+<a id="42-exact-torsion-formula-on-a-smooth-curve"></a>
+
+[R-0030](../results/local_filtration_comparison_defect.md) states the comparison
+in (1), the generic generator count, and the DVR length formula, with the
+scope of the October 24 and 26 reviews. The
+[proof](../arguments/filtered_equation_comparison.md#local-comparison-and-the-punctual-defect)
+also gives the smooth-carrier criterion. The
+[consecutive cancellation argument](../arguments/normal_koszul_cancellation.md#consecutive-cancellations-over-a-transverse-field)
+refines the generic count by page and degree.
 
 <a id="normal-koszul-cancellation-and-the-actual-equation-filtration"></a>
+<a id="3-the-correct-spectral-sequence-for-the-defect"></a>
+<a id="31-a-canonical-tor-description"></a>
+<a id="32-the-target-filtration-is-exactly-the-previous-one"></a>
+<a id="33-the-higher-differentials-recover-the-entire-defect"></a>
+<a id="6-arbitrarily-many-generic-defects-and-a-prescribed-cancellation-page"></a>
+<a id="integral-algebraic-carriers"></a>
 
-## The singular-locus defect: normal Koszul differentials, degrees, and length
+The [normal Koszul argument](../arguments/normal_koszul_cancellation.md)
+gives the incoming differential filtration (R-0065) and the recursive
+family with its prescribed page and integral affine carriers (R-0066).
+For context on generic tangent-cone generators, see
+[Mandal–Rossi](https://arxiv.org/abs/1402.2756).
 
-The October 24 investigation records independent reconstructions of the normal Koszul comparison, the generic count and DVR length criterion, and the punctual and recursive families. The migrated Results record the scope of the [normal Koszul review](../results/normal_koszul_comparison_defect.md#review), the [recursive-family review](../results/recursive_normal_koszul_cancellation.md#review), the [punctual-family review](../results/punctual_comparison_defect_family.md#review), and the separate [supported-quadruple calculation](../results/supported_quadruple_equation_filtration.md#review).
-
-This continues the [independent filtration investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), especially its question about
-\(\Delta=\operatorname{in}_I(IJ)/(S_+\operatorname{in}_I(J))\) at simultaneous singular points. The predecessor's quotient comparison and smooth-carrier support proposition are used as reviewed premises rather than reproved.
-
-Scope: local algebra along a smooth codimension-two marked curve \(C\) in a smooth threefold, with a two-generator regular-sequence ideal \(J\subset I_C\). The entire reduced support may be \(C\), or \(C\) may be a proper marked component. The distinction matters in the examples. No new unrestricted STCI proof or global pair for the fixed rational quartic is asserted.
-
-### 1. Main advances
-
-The [normal Koszul comparison](../arguments/normal_koszul_cancellation.md)
-tracks cancellations on the normal parameters by page. For generator
-excess and lost torsion, see the
-[generic count and DVR length](#4-generic-generator-counts-and-punctual-length).
-The [punctual-defect reading route](../arguments/punctual_comparison_defects.md#statements-and-proofs)
-separates the annihilator, the family with residual support, and the
-supported quadruple.
-
-### 2. Notation and the intrinsic comparison
-
-Use the [local notation and comparison](#1-exact-hypotheses-retained-inputs-and-authority).
-Write \(M=R/J\), \(K=I/J\), and \(A=\operatorname{gr}_K M=S/H\).
-For a regular-sequence \(J=(f,g)\), the equation module \(D\) is free of
-rank two over \(B\). The comparison has \(G_n=H_n/T_n\) and sheafifies
-along the curve. Torsion and rank are over the actual base
-\(B=\mathcal O_C\) unless a transverse field is specified.
-
-### 3. The correct spectral sequence for the defect
-
-[R-0065](../results/normal_koszul_comparison_defect.md) states the comparison,
-its hypotheses, and the filtration of the defect. The complete proof is in
-[the normal Koszul argument](../arguments/normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds).
-
-#### 3.1 A canonical Tor description
-
-[Graded Tor and the normal Koszul shifts](../arguments/normal_koszul_cancellation.md#graded-tor-and-the-shifted-normal-filtration) ·
-[Convergence and the homology filtration](../arguments/normal_koszul_cancellation.md#stabilization-and-the-induced-homology-filtration)
-
-#### 3.2 The target filtration is exactly the previous one
-
-[The R-0030 comparison on representatives](../arguments/normal_koszul_cancellation.md#the-comparison-on-representatives)
-
-#### 3.3 The higher differentials recover the entire defect
-
-[Incoming images and degree bounds](../arguments/normal_koszul_cancellation.md#incoming-images-and-degree-bounds)
-
-### 4. Generic generator counts and punctual length
-
-[R-0030 states the generic generator count and the DVR length formula](../results/local_filtration_comparison_defect.md#statement).
-The [comparison argument](../arguments/filtered_equation_comparison.md#generic-count-and-length-over-a-dvr)
-proves the two claims under their separate hypotheses.
-
-#### 4.1 The exact generic count
-
-The [consecutive cancellation argument](../arguments/normal_koszul_cancellation.md#consecutive-cancellations-over-a-transverse-field)
-refines the count by degree and page, from graded Betti totals
-\((1,h,h-1)\) to \((1,2,1)\), where \(h=\mu(H)\). It also proves the
-degree-four lower bound for a nonzero transverse-field defect.
-
-#### 4.2 Exact torsion formula on a smooth curve
-
-For torsion that survives the comparison and must be subtracted in the
-DVR formula, see the
-[supported quadruple](../results/supported_quadruple_equation_filtration.md).
-
-### 5. Arbitrary punctual degree and length, with integral carriers
-
-[R-0068](../results/punctual_comparison_defect_family.md) states the
-characteristic-zero family and its support and specialization properties.
-
-#### 5.1 Full initial ideal, rather than a chosen-generator approximation
-
-[Integral carriers, all symbol syzygies, and full initial ideal of \(J\)](../arguments/punctual_comparison_defects.md#integral-carriers-and-the-full-initial-ideal)
-
-#### 5.2 Defect, annihilator, and conormal rank
-
-[Full initial ideal of \(IJ\), exact defect, and degree bound](../arguments/punctual_comparison_defects.md#filtered-equation-module-exact-defect-and-degree-bound)
-
-#### 5.3 Actual fibres and residual support
-
-[Actual closed algebra and specialization](../arguments/punctual_comparison_defects.md#actual-closed-algebra-and-specialization) ·
-[Finite flat algebra and genuine residual support](../arguments/punctual_comparison_defects.md#finite-flat-algebra-and-genuine-residual-support)
-
-### 6. Arbitrarily many generic defects and a prescribed cancellation page
-
-[R-0066](../results/recursive_normal_koszul_cancellation.md) states the
-recursive family and its prescribed page. The
-[proof](../arguments/normal_koszul_cancellation.md#the-recursive-family-and-its-cancellation-page)
-computes both full initial ideals and identifies the strict shifted resolution
-with the normal Koszul spectral sequence from the first page onward.
-
-#### Integral algebraic carriers
-
-The [integral perturbations](../arguments/normal_koszul_cancellation.md#integral-carriers-along-the-affine-line)
-preserve the completed ideal along a marked affine line. The
-[projective closures](../arguments/normal_koszul_cancellation.md#projective-scope)
-permit residual components.
-
-### 7. A supported quadruple: torsion in Q is not enough
-
-[R-0069](../results/supported_quadruple_equation_filtration.md) states the
-supported quadruple. The [full calculation](../arguments/punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough)
-uses the normal powers in \(R/J\) and \(R/IJ\) to track both torsion
-generators through the comparison.
-
-### 8. What has been settled, and the remaining question
-
-The positive punctual examples have residual support. The supported quadruple
-has simultaneous singularity and torsion in \(Q\) with zero defect. The
-[punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
-remains open.
-
-The literature already studies the generic tangent-cone generator and cancellation problem; [Mandal–Rossi, The tangent cone of a local ring of codimension 2](https://arxiv.org/abs/1402.2756) is another relevant primary source. No novelty claim is made here. The useful research interface is the precise relative defect, its torsion, and its relation to supported versus residual intersection geometry.
-
-
-
+<a id="5-arbitrary-punctual-degree-and-length-with-integral-carriers"></a>
+<a id="51-full-initial-ideal-rather-than-a-chosen-generator-approximation"></a>
+<a id="52-defect-annihilator-and-conormal-rank"></a>
+<a id="53-actual-fibres-and-residual-support"></a>
+<a id="7-a-supported-quadruple-torsion-in-q-is-not-enough"></a>
+<a id="8-what-has-been-settled-and-the-remaining-question"></a>
 <a id="delta-conormal-annihilator-proposal"></a>
 <a id="delta-annihilator-review"></a>
-
 <a id="scheme-theoretic-annihilation"></a>
+<a id="a-scheme-theoretic-annihilator-for-the-filtration-defect"></a>
+<a id="1-claim-and-its-intrinsic-meaning"></a>
+<a id="2-elementary-proof"></a>
+<a id="3-koszul-interpretation"></a>
+<a id="4-sharpness-of-the-scheme-structure"></a>
 
-## A scheme-theoretic annihilator for the filtration defect
-
-[R-0067](../results/conormal_entry_annihilator.md) gives the general theorem
-and the separate cubic sharpness family. Its [review passage](../results/conormal_entry_annihilator.md#review)
-records the precise October 24 and Phase 5 scopes.
-
-### 1. Claim and its intrinsic meaning
-
-[Entry ideal, scheme structure, and DVR bound](../results/conormal_entry_annihilator.md#statement)
-
-### 2. Elementary proof
-
-[Entrywise annihilation identities](../arguments/punctual_comparison_defects.md#entrywise-annihilation)
-
-### 3. Koszul interpretation
-
-[Actual Koszul cycles and boundaries](../arguments/punctual_comparison_defects.md#koszul-interpretation-of-the-entry-identities)
-
-### 4. Sharpness of the scheme structure
-
-[Full cubic initial ideals and equality of annihilators](../arguments/punctual_comparison_defects.md#sharpness-over-a-dvr)
+The [punctual comparison argument](../arguments/punctual_comparison_defects.md#statements-and-proofs)
+locates the statements, proofs, and scoped reviews of the entry-ideal
+annihilator and cubic sharpness (R-0067), the characteristic-zero punctual
+family with actual residual support (R-0068), and the supported quadruple
+whose torsion survives in \(G\) (R-0069). See the
+[open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
 
 <a id="delta-rees-specialization-proposal"></a>
 <a id="delta-rees-specialization-review"></a>

@@ -187,17 +187,12 @@ Choose a specific surviving pair of degrees at least five, or a specified lower 
 
 ## Local comparison, saturation, and the unresolved singularity interface
 
-The canonical comparison in [R-0030](../results/local_filtration_comparison_defect.md) can be stated without choosing normal coordinates. In a regular local ring along a smooth codimension-two curve, put I=I_C, J=(f,g), S=gr_I(R), H=in_I(J), B=in_I(IJ), and S_+=the positive-degree ideal. Filter the *actual* equation module D=J/IJ by its intersections with powers of I. In each degree n there is an exact sequence
-
-    0 -> Delta_n -> Q_n -> gr_F^n(D) -> 0,
-    Delta_n=B_n/(S_+H)_n,  Q_n=H_n/(S_+H)_n.
-
-This compares three objects that are often conflated: minimal generators of the full initial ideal H, the initial ideal B of IJ, and the filtered images of the two actual equations. At a generic transverse field where J is a parameter ideal, dim Delta=mu(H)-2; hence a two-generator original ideal can have more than two *initial* generators. If Delta vanishes generically, the DVR formula reads
-
-    length(Delta_n)=length(tors Q_n)-length(tors gr_F^n(D)).
-
-The smooth-carrier criterion locates the support of an existing defect.
-See the [sole-support question and controls](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+[R-0030](../results/local_filtration_comparison_defect.md#statement) compares
+minimal equations of the full initial ideal with the filtration of the actual
+equation module. Its [proof](../arguments/filtered_equation_comparison.md#local-comparison-and-the-punctual-defect)
+gives the generic generator count, DVR length formula, and smooth-carrier
+criterion under their respective hypotheses. See the
+[sole-support question and controls](../FRONTIER.md#punctual-relative-defect-under-sole-support).
 
 ### Three distinct exceptional phenomena
 

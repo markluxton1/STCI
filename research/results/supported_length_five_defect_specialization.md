@@ -342,7 +342,7 @@ the multiplication operators and their relations, the normal monomial images
 through degree five, and the local conic identity. The proof gives the full
 filtration calculation and the characteristic range.
 
-The [source review](../synthesis/comparison_defect_specialization.md#independent-review)
+The [source review](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/comparison_defect_specialization.md#independent-review)
 records independent reconstruction of the finite free actual algebra,
 all powers of its normal ideal, the full initial ideal, terminating
 filtered division for the equation module, and the comparison in every

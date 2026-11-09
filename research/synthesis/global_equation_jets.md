@@ -89,11 +89,10 @@ sequence, and different embeddings have different ideal-power filtrations.
 | Cech complex of \((I^r/I^{N+1})(d)\), filtered by normal order | Compatibility of global equation jets of fixed degree | Actual chart transitions, including their higher terms and the degree-\(d\) line-bundle transition |
 | Successive Cartier-root lifting on the blowup | The root obstructions \(K_1,K_2,\ldots\) | Root equation, nonlinear base motion, units, corrections, and the relevant quotient sheaves |
 
-The first two constructions and their distinction are retained in
-[ideal filtrations, section 8](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md)
-and [the normal Tor comparison, section 3](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md).
-The comparison \(0\to\Delta\to Q\to\operatorname{gr}D\to0\) is stated in
-[R-0030](../results/local_filtration_comparison_defect.md); further continuations have the proof and review scopes stated in those supplements.
+The [carrier equation filtration](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#82-filtered-koszul-complexes)
+and the [normal Koszul comparison](../arguments/normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds)
+use different complexes. The exact comparison and its scoped review are
+in [R-0030](../results/local_filtration_comparison_defect.md).
 
 For a regular hypersurface pair, \(\mathcal O_X\otimes^L\mathcal O_Y\)
 already has no higher homology and equals \(\mathcal O_Z\). Its derived
