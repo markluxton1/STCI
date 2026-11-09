@@ -2,7 +2,7 @@
 
 For the fixed characteristic-zero quartic, primitive degree-two normal-dual directions and pure cubic top h=t, both specified rational endpoint families fail target-u quartic-ancestor incidence for every admissible direction and every affine lower correction. This conclusion uses the accepted actual tensor and coordinate interpretation, not arbitrary formal multipliers. It does not cover p(0)=0 boundary families, nonendpoint top zeros or arbitrary-degree mates.
 
-The first family initially has exceptional factors of degrees 2,4,4,13; exact polynomial duals over the full quotient fields close all 23 geometric roots. The second has exceptional degrees 2,2,3,4,15; the quadratic, cubic, quartic and degree-fifteen identities close all 26 geometric roots. In each case the rank-29 top map shows that the affine correction line is the entire lower-lift fiber; all 18 actual multiplier columns are annihilated identically, with target coordinate one. The projective zero-top stratum is a separate inherited boundary, not a missing affine parameter.
+The first family has exceptional factors of degrees 2, 4, 4 and 13. Exact polynomial duals over the full quotient fields close all 23 geometric roots. The second has exceptional degrees 2, 2, 3, 4 and 15, and its exact duals close all 26 geometric roots. In each case the rank-29 top map gives the entire lower-lift fiber as an affine line. A left dual annihilates all 18 actual multiplier columns with nonzero target evaluation, normalized to one on the exceptional factors. The projective zero-top stratum is a separate inherited boundary.
 
 The shared mechanism is a certificate in the cokernel of the actual multiplication morphism. The finite list of exceptional factors is a coverage argument; a normalized left dual at each whole factor closes its full parameter fiber. Generic rank or one successful sample would not establish either assertion.
 
@@ -86,9 +86,23 @@ For rational polynomial matrices B whose seed denominators are constants times p
 
 <a id="source-2026-10-08-session-first-endpoint-completeness-auditmd"></a>
 
-The following complete coverage argument was independently reconstructed against the actual tensor in the inherited source state. Its exact coefficient comparisons are supported by [countercheck.py](../validation/2026-10-08-first-endpoint-audit/countercheck.py), which independently binds all four exceptional-field seeds and affine slopes to the rational family. The source interpretation remains an audited premise.
+### 1. Scope and independent audit decision
 
-## 2. Precisely which parameters are covered
+The October 8, 2026 auditor was independent of the certificate producers.
+The decision was **proved** under the previously audited actual top map,
+coordinate bases and multiplication tensor. For the fixed quartic
+\(C_0=[s^4:s^3t:st^3:t^4]\) over an algebraically closed field of
+characteristic zero, take a primitive degree-two normal-dual direction
+with pure cubic top coefficient `h=t`.
+Every admissible direction of the first rational endpoint family fails
+target-`u` quartic-ancestor incidence for every affine lower correction.
+The generic identity and the four exceptional-field duals cover every
+admissible direction, including all 23 exceptional roots. The earlier
+21-point remainder after Q2 is closed by Q1, Q3 and Q13. Other endpoint
+families, nonendpoint top-zero strata and the unrestricted STCI problem have
+separate scope. [Original audit decision](https://github.com/markluxton1/STCI/blob/b3db4bfcc4b70d85a13ff1862b2a81a553f78b39/research/supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#1-verdict).
+
+### 2. Precisely which parameters are covered
 
 Write the normalized direction as
 
@@ -115,7 +129,8 @@ miss a common root at infinity when a leading coefficient vanishes.
 The existing geometric audit and all exceptional-field checkers use
 the fixed-size homogeneous determinant.
 
-The rational classification covers the normalized finite directions.
+The [rational classification](LOCAL_COHOMOLOGY_CONORMAL_GEOMETRY.md#4-exact-rational-normalization-when-both-endpoint-coordinates-are-nonzero)
+covers the normalized finite directions.
 On `2a1+1!=0` its inverse is
 
 ```text
@@ -150,7 +165,7 @@ belongs to a different stratum; it is not an omitted point of this affine
 fibre. Nonzero scalar multiples of `h=t` are absorbed by ancestor scaling
 as in the geometric classification.
 
-## 3. Exhaustive partition of the generic denominator
+### 3. Exhaustive partition of the generic denominator
 
 The generic certificate uses the cleared ancestor
 
@@ -171,7 +186,7 @@ Q13=729k^13+1620k^12+2889k^11-11268k^10-26574k^9-39642k^8
     -1210068k^2-966908k-379834.
 ```
 
-The new independent countercheck reconstructs this polynomial exactly
+The independent countercheck reconstructs this polynomial exactly
 from `dual_on_u`, verifies its degree is 76, and verifies all 30 cleared
 ancestor coordinates against the rational seed and kernel. It also
 checks every one of the eight distinct displayed factors is squarefree
@@ -195,9 +210,11 @@ ancestor clearing is by a nonzero scalar, this excludes the original
 ancestor as well. Every root that survives chart and primitivity tests
 lies in exactly one of the four exceptional-field loci below.
 
-## 4. Audit of the exceptional-field arithmetic
+### 4. Audit of the exceptional-field arithmetic
 
-The explicit saved duals distinguish the constructions: the [Q1 checker](../computations/verify_session_localcoh_q1_dual_2026_10_07.py), [Q3 checker](../computations/verify_session_localcoh_q3_dual_2026_10_07.py), and [Q13 checker](../computations/verify_session_localcoh_q13_dual_2026_10_07.py) verify lambda-degree bounds 2, 1 and 2 respectively. Each saved vector has 26 nonzero entries; the linear Q3 certificate is a distinct stronger bound within the same exact all-lambda proof.
+The saved Q1, Q3 and Q13 duals have verified lambda-degree bounds 2, 1
+and 2 respectively. Each vector has 26 nonzero entries. The linear Q3
+certificate gives a stronger degree bound within the same all-lambda proof.
 
 The Q1, Q2, Q3, and Q13 default checkers use exact `Fraction` arithmetic
 in `K[lambda]`, with `K=QQ[k]/Qi`, and dictionaries for polynomial powers
@@ -239,7 +256,7 @@ transport through every embedding. A nonzero denominator inverted in
 `lambda`-denominators: the duals are polynomials, with entry 72 exactly
 one, so specialization introduces no exceptional lower-parameter values.
 
-## 5. Actual tensor, full lifts, and direct source binding
+### 5. Actual tensor, full lifts, and direct source binding
 
 The retained tensor has header `30 18 74 542`: thirty ancestor coordinates,
 eighteen actual quartic multiplier coordinates, seventy-four quotient
@@ -275,7 +292,7 @@ default Q1/Q2/Q3 verifiers validate the saved field direction and pure-top
 lift but do not themselves derive every constant seed/direction
 coefficient from the rational first-family expressions. Hash binding
 alone does not establish that derivation. The Q13 default verifier does
-derive those coefficients directly. The new independent countercheck
+derive those coefficients directly. The independent countercheck
 supplies the missing direct comparison for **all four** fields: all
 thirty seed coefficients, all thirty lower slopes, and all six direction
 coefficients match the rational first-family source after exact modular
@@ -283,6 +300,53 @@ reduction. Every rational denominator is checked nonzero and inverted.
 This closes the provenance limitation without editing the existing
 checkers or relying on a fresh regeneration of their inputs.
 
+### 6. Exact inputs and replay
+
+The fixed coordinate inputs are the [multiplication tensor](../computations/localcoh-incidence-tensor.txt),
+[ancestor and multiplier bases](../computations/localcoh-incidence-bases.txt),
+[top map and annihilator](../computations/localcoh-symbol-top.json), and
+[first-family seed and lower kernel](../computations/session-localcoh-origin-family-1-seed.json).
+Each saved dual lists the SHA256 hashes of its bound inputs, including its
+auxiliary generation data.
+
+| Stratum | Exact verification | Saved input |
+| --- | --- | --- |
+| Generic | [Cleared polynomial identity](../computations/session-localcoh-origin-generic-dual.py) | [Cleared dual](../computations/session-localcoh-origin-family-1-polynomial-dual.json) |
+| Q1 | [Field verifier](../computations/verify_session_localcoh_q1_dual_2026_10_07.py) | [Q1 dual](../computations/session_localcoh_q1_dual_audit_2026_10_07.json) |
+| Q2 | [Field verifier](../computations/verify_session_localcoh_q2_dual_2026_10_07.py) | [Q2 dual](../computations/session_localcoh_q2_dual_audit_2026_10_07.json) |
+| Q3 | [Field verifier](../computations/verify_session_localcoh_q3_dual_2026_10_07.py) | [Q3 dual](../computations/session_localcoh_q3_dual_audit_2026_10_07.json) |
+| Q13 | [Field verifier](../computations/verify_session_localcoh_q13_dual_2026_10_07.py) | [Q13 dual](../computations/session_localcoh_q13_dual_audit_2026_10_07.json) |
+
+Run from the repository root with Python 3 and SymPy. The
+[geometric audit](../computations/audit_session_localcoh_endpoint_2026_10_07.py)
+checks the rational inverse, homogeneous resultant and rank-29 lift and
+runs the generic and Q2 verifiers. The next three checks close the
+historical 21-point remainder printed by that audit. Use a disposable
+checkout for the audit and countercheck reports.
+
+```sh
+(
+  set -e
+  export PYTHONDONTWRITEBYTECODE=1
+  python3 research/computations/audit_session_localcoh_endpoint_2026_10_07.py
+  for factor in q1 q3 q13; do
+    python3 "research/computations/verify_session_localcoh_${factor}_dual_2026_10_07.py"
+  done
+  python3 research/validation/2026-10-08-first-endpoint-audit/countercheck.py
+)
+```
+
+The [independent SymPy countercheck](../validation/2026-10-08-first-endpoint-audit/countercheck.py)
+checks the full factor partition, multiplicities, finite reductions, and
+the rational-source coefficients in all four fields. It reads the frozen
+inputs directly without invoking the coefficient verifiers or regenerating
+their inputs. The separate [actual tensor reconstruction](#fresh-reconstruction-of-the-complete-actual-tensor)
+binds the retained tensor to the actual forms and all multiplication
+columns. This shared check can be replayed with Macaulay2.
+
+```sh
+M2 --script research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2
+```
 
 ## Second rational family: cubic and quartic exception strata
 
