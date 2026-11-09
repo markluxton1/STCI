@@ -2,7 +2,7 @@
 
 This chapter explains **four different levels of structure**: generic normal forms, global graded relations, embedded infinitesimal lifts, and actual complete intersections. Moving from one level to the next requires additional hypotheses. See [Chapter 2](02-two-surfaces.md) for the symmetric geometry of the original equations.
 
-**Authority boundary.** The conormal/socle budget [R-0032](../results/full_conormal_socle_budget.md) is necessary for actual supported complete intersections, not sufficient to produce an embedding or equations. The local comparison [R-0030](../results/local_filtration_comparison_defect.md) does not decide punctual defects under sole support. The October 27 embedded one-step criterion is reviewed source-level work.
+**Authority boundary.** The conormal/socle budget [R-0032](../results/full_conormal_socle_budget.md) is necessary for actual supported complete intersections, not sufficient to produce an embedding or equations. For the scope of the local comparison [R-0030](../results/local_filtration_comparison_defect.md), see the [open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support). The October 27 embedded one-step criterion is reviewed source-level work.
 
 **Varying-lift qualification.** A compatible quadratic symbol determines a sextic only modulo \(\eta q^3\). Since \(q^3\) has normal order three, the correct existence test for some sextic lift is \(h+\eta(q^3)_3=f(\ell u+mv)\). The correction map alone has rank sixteen; the augmented map including \(\eta\) has rank sixteen or seventeen depending on whether \((q^3)_3\) lies in its image. Consequently a fixed-lift cubic failure does not, without checking this extra direction, exclude every lift of the same symbol. For the specified smooth seed, that check is complete: the exact row annihilates \((q^3)_3\), so its nonzero \(-384\) pairing excludes every lift of this seed. See [the full coefficient calculation](normalization_conductor_phase2_addendum.md#exact-failed-seed-the-row-also-kills-the-free-lift).
 
@@ -115,7 +115,7 @@ When saturation fails, [R-0016](../results/nonsaturated_first_relation_resultant
 
 ### Concrete remaining tests
 
-1. For a candidate actual pair with \(\sqrt J=I_C\), compute the full local initial ideal and the R-0030 comparison at every exceptional point; decide whether a nonzero punctual defect is compatible with sole support.
+1. For a candidate actual pair with \(\sqrt J=I_C\), compute the full local initial ideal and the R-0030 comparison at every exceptional point. See the [punctual relative-defect question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
 2. In a surviving saturated-root family, check full fiberwise coprimality, the actual generator hypotheses, and successive embedded lifting separately; calculate the remaining zero locus rather than extrapolating from one obstructed seed.
 3. For a fixed lower thickening, compute the extension class and permitted repair divisor described in [the one-step note](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md), then impose the actual global degree-\(d\) source image. A vanishing extension class alone does not supply two defining equations.
 
@@ -154,7 +154,7 @@ These results separate four questions: conormal splitting, full initial equation
 
 The prescribed pair \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\) gives an exact arithmetic comparison, not a deformation-invariant STCI certificate. In characteristic two the generic initial equations first share a normal factor; cancellation supplies a fourth-order initial equation and generic transverse length four. The local filtered comparison defect nevertheless vanishes. In characteristic zero the same integral pair has additional reduced components, so the special-fiber support cannot be transported by flatness alone. See [R-0021](../results/quartic_mu4_degeneration.md) and [R-0031](../results/quartic_char2_fourth_equation_kernel.md).
 
-The conormal splitting change R-0020 (see [results](../results/INDEX.md)) and the prescribed embedded nonlifting result R-0012 (see [results](../results/INDEX.md)) address different objects. The latter excludes the specified supported embedded lift over its stated two-adic bases, **not** the displayed integral family (whose generic support is larger), nor every characteristic-zero pair. This example tests three separate interfaces: full initial ideals, integral embedded liftability, and generic support.
+The conormal splitting change [R-0020](../results/quartic_conormal_characteristic_jump.md) and the prescribed embedded nonlifting result [R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) address different objects. The latter excludes the specified supported embedded lift over its stated two-adic bases, **not** the displayed integral family (whose generic support is larger), nor every characteristic-zero pair. This example tests three separate interfaces: full initial ideals, integral embedded liftability, and generic support.
 
 ## 3.10B An explicit sextic normal-symbol image
 
@@ -218,7 +218,7 @@ has a nonzero kernel. If \(B\ge\lfloor r/2\rfloor\), a kernel exists by dimensio
 
 The [one-step package](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) is more restrictive: it fixes an embedded lower thickening, its equation module and permissible socle boundary. One must establish that the geometric boundary actually induces the proposed modification of the **correct obstruction bundle**, rather than applying an arbitrary twist to an unrelated cohomology class. Vanishing, the final Gorenstein pairing and the existence of two **proper decomposable** elements in actual homogeneous source spaces are distinct tests. A nonzero linear kernel need not meet the decomposable locus.
 
-The [Delta-embedding package](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md) addresses a different local comparison defect. It is not interchangeable with the repair divisor, with the saturated first-relation defect or with a residual projective curve. The supported punctual-defect question remains open under [R-0030](../results/local_filtration_comparison_defect.md).
+The [Delta-embedding package](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md) addresses a different local comparison defect. It is not interchangeable with the repair divisor, with the saturated first-relation defect or with a residual projective curve. See the [open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
 
 ## 3.11 Characteristic is part of the mechanism
 

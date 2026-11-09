@@ -75,9 +75,9 @@ slice initial ideal. The same distinction applies to \(T\).
 The theorem gives no flatness or vanishing claim for \(Q\) or \(\Delta\).
 If \(G\) is flat, every torsion class of \(Q\) lies in \(\Delta\).
 Whether such punctual torsion occurs on the normal-flat locus remains
-open here. The broader question whether a sole-support complete
-intersection with \(\Delta_\eta=0\) can have nonzero punctual relative
-\(\Delta\) also remains open. No identification of the full filtered
+open here. See also the
+[broader sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+No identification of the full filtered
 scheme from its cone or defect and no global quartic realization follows.
 
 ## Review

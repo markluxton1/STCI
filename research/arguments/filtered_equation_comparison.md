@@ -106,7 +106,8 @@ transverse local ring with maximal ideal \(I\). The residue field is
 \(\sum_n\dim G_n=2\). Since \(S\) is a polynomial ring in two normal
 variables over that field, homogeneous Nakayama identifies
 \(\sum_n\dim Q_n\) with the minimal homogeneous generator count \(\mu(H)\).
-Summing the comparison sequence gives \(\dim\Delta=\mu(H)-2\).
+The comparison sequence gives \(\dim\Delta_n=\dim Q_n-\dim G_n\) in each
+degree. Summing gives \(\dim\Delta=\mu(H)-2\).
 
 Now assume \(\Delta_\eta=0\) on a smooth integral curve. At a closed point
 the local ring of the curve is a DVR. The surjection \(Q_n\to G_n\) of
@@ -233,10 +234,10 @@ The [length-five specialization control](../results/supported_length_five_defect
 has zero relative defect and nonzero actual defect on the transverse
 closed fiber. The [transverse specialization argument](transverse_specialization.md)
 gives the normal-flat comparison theorem. The
-[punctual example with residual support](../results/punctual_comparison_defect_family.md)
-and the [supported torsion control](../results/supported_quadruple_equation_filtration.md)
-also remain separate. Existence of a nonzero punctual defect with
-\(\sqrt J=I\) and \(\Delta_\eta=0\) is open in this development.
+[punctual comparison proofs](punctual_comparison_defects.md#statements-and-proofs)
+include examples with residual and sole support. The
+[punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+remains open.
 
 ## Source proofs and review scope
 
@@ -249,10 +250,6 @@ explicit arithmetic and algebra models. Irreducibility and the general
 comparison were checked in the written proofs.
 [October 23 independent review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-reviewmd)
 
-The October 24 continuation gives the generic count and DVR length
-calculation. The October 26 audit separately checked these local arguments
-and delimited the conclusions that follow from them. Its review had no
-fresh executable replay and did not extend to the global characteristic-two
-kernel or the relative normal Koszul spectral sequence.
-[October 24 continuation](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#4-generic-generator-counts-and-punctual-length) ·
-[October 26 audit](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#local-filtration-audit-and-scope-boundary--2026-10-26)
+R-0030 records the [October 24 source and independent review](../results/local_filtration_comparison_defect.md#review)
+of the generic count and DVR length calculation, and the
+[October 26 local audit and its scope](../results/local_filtration_comparison_defect.md#october-26-local-audit).

@@ -1,7 +1,7 @@
 # Auxiliary proposition locator
 
 The P-labels identify propositions used by the proofs. Follow each link to its
-mathematical owner; the [Result records](results/INDEX.md) state precise
+mathematical owner. The [cataloged Results](CATALOG.md) state precise
 hypotheses and review scope. The central problem is the fixed embedded quartic in
 characteristic zero. Broader curve classes are stated explicitly in their
 [global geometric context](synthesis/global_equations_and_constructions.md).

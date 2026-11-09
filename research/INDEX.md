@@ -17,7 +17,7 @@ other curves is worthwhile even when it does not decide STCI.
 
 This index offers approaches before selecting a program. For connections use
 the [mechanism map](MAP.md); for exact current claims use the
-[result records](results/INDEX.md); for concrete unresolved implications use
+[research catalog](CATALOG.md); for concrete unresolved implications use
 [the frontier](FRONTIER.md). None of these navigation pages is an extra theorem.
 
 ## Choose by the mathematical question
@@ -53,16 +53,11 @@ The [recursive transverse complete intersections](results/recursive_normal_koszu
 realize all cancellations on page \(q-2\) for \(q\ge3\). Their integral
 carrier realization concerns the affine part of a marked line.
 
-For coefficient torsion in the comparison, the
-[conormal entry ideal](results/conormal_entry_annihilator.md) annihilates the
-defect scheme-theoretically in regular codimension two. The
-[punctual family with integral carriers](results/punctual_comparison_defect_family.md)
-realizes every degree at least three and every positive DVR length in
-characteristic zero, with actual residual support. In the
-[supported quadruple](results/supported_quadruple_equation_filtration.md),
-the torsion in \(Q\) survives in the filtered equation quotients.
-The [complete argument](arguments/punctual_comparison_defects.md) separates
-the relative comparison, its specialization, and the actual slice.
+For coefficient torsion in the comparison, use the
+[punctual-defect reading route](arguments/punctual_comparison_defects.md#statements-and-proofs)
+to find the annihilator theorem, the residual family, and the supported
+quadruple. For existence under sole support, see the
+[open question](FRONTIER.md#punctual-relative-defect-under-sole-support).
 
 For a specified transverse slice, use the
 [normal-cone specialization test](results/normal_cone_slice_specialization.md)
@@ -71,9 +66,7 @@ intersection, [normal flatness and comparison](results/normal_flat_comparison_sp
 gives the hypotheses for specializing the full equation comparison. The
 [supported length-five family](results/supported_length_five_defect_specialization.md)
 has a free intersection algebra and zero relative defect, but its actual
-closed slice has a degree-four defect. The
-[punctual relative-defect question](FRONTIER.md#broader-interfaces) under sole
-support and generic vanishing remains open.
+closed slice has a degree-four defect.
 
 | Question or approach | Mathematical entry | Reach and missing step |
 | --- | --- | --- |

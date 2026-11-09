@@ -10,4 +10,4 @@ gives the hypotheses under which the two defects agree after specialization.
 
 ## Independent review
 
-Independent reconstruction checked the finite free actual algebra, all powers of its normal ideal, the full initial ideal, terminating filtered division for the equation module, and the comparison in every degree. All identities are integral and require no characteristic exclusions. The closed-fiber mismatch and the doubled residual conic in the intersection of the two ordinarily homogenized cubics were checked separately. The original existence question for a nonzero punctual relative defect under sole support remains open.
+Independent reconstruction checked the finite free actual algebra, all powers of its normal ideal, the full initial ideal, terminating filtered division for the equation module, and the comparison in every degree. All identities are integral and require no characteristic exclusions. The closed-fiber mismatch and the doubled residual conic in the intersection of the two ordinarily homogenized cubics were checked separately. See the [open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).

@@ -1,7 +1,7 @@
 # Exact mathematical computations
 
 Begin with the [mathematical approaches](../synthesis/README.md) and the
-[Result](../results/INDEX.md) or focused proof named below.
+[cataloged Result](../CATALOG.md) or focused proof named below.
 The proof explains the object being computed, the hypotheses, and the
 implication supplied by its output. A script name, successful run, or recorded
 rank does not by itself establish those bridges.

@@ -12,9 +12,8 @@ quartic carrier. The contrast is part of the problem, not an exception to hide.
 Start with the [approaches and reading routes](research/INDEX.md). The
 [mechanism map](research/MAP.md) connects proofs across approaches, while the
 [open interfaces](research/FRONTIER.md) identify exact missing implications.
-For a precise claim, consult its [Result](research/results/INDEX.md), complete
-proof, and scoped review. Conditional statements retain their hypotheses;
-reviews state exactly what was checked.
+Find exact statements and their proof and review routes in the
+[research catalog](research/CATALOG.md).
 
 The repository includes existence constructions, carrier exclusions,
 infinitesimal geometry, residual intersections, descent and gluing, arithmetic

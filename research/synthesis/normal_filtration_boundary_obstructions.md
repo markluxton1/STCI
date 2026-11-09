@@ -49,7 +49,7 @@ These are not interchangeable. In particular, a punctual initial-ideal defect do
 - [R-0010](../results/saturated_first_relation_normal_flatness.md): normal flatness under saturated first-relation and full generic binary-CI assumptions.
 - [R-0016](../results/nonsaturated_first_relation_resultant.md): nonsaturated resultant and defect budget under stated conditions.
 - [R-0019](../results/quasiprimitive_residual_cycles.md): conditional saturated residual-cycle and first-normal restrictions.
-- [R-0030](../results/local_filtration_comparison_defect.md): canonical local exact comparison between initial-equation generators and the filtered actual equation module. With generic defect zero, punctual defect can occur only at simultaneous carrier singularities along C. Its existence under sole support is unresolved.
+- [R-0030](../results/local_filtration_comparison_defect.md): canonical local exact comparison between initial-equation generators and the filtered actual equation module. Under its smooth-carrier hypotheses the defect is supported at simultaneous carrier singularities along C.
 - [R-0032](../results/full_conormal_socle_budget.md): conormal and socle budget for actual supported complete intersections, with its degree-bound assumptions.
 - [R-0033](../results/constant_first_relation_lifting.md): lifting obstruction for particular constant-first-relation models, not all moving relations.
 
@@ -73,7 +73,7 @@ where Delta_n=in_n(IJ)/(S_+ H)_n. In particular, minimal generators of the full 
 
 The full initial ideal is itself not determined by the two displayed leading forms. In the regular transverse local ring, J=(x²,x²+y³)=(x²,y³), so the displayed order-two symbols generate only (X²), whereas the full initial ideal is (X²,Y³), of colength six. The [higher-initial investigation](../supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#explicit-cancellation-examples) gives further local examples and the prescribed characteristic-two quartic computation. None of these local models by itself constructs a global STCI.
 
-The comparison defect Delta_n is supported only where both carrier hypersurfaces are singular along C. Thus smoothness of either carrier along C forces its vanishing there; simultaneous singularity is necessary, not sufficient, for a nonzero punctual defect. Whether a nonzero punctual comparison defect occurs for an actual proper pair with sole reduced support C remains open. The characteristic-two quartic example illustrates the distinction: its fourth initial equation arises by cancellation, but its comparison defect vanishes [R-0031](../results/quartic_char2_fourth_equation_kernel.md).
+Simultaneous carrier singularity is necessary for the comparison defect under the R-0030 hypotheses. The characteristic-two quartic has a fourth initial equation from cancellation and its comparison defect vanishes. [R-0031](../results/quartic_char2_fourth_equation_kernel.md) · [Open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support)
 
 A [finite-flat supported length-five control](../results/supported_length_five_defect_specialization.md) has zero relative comparison defect but a nonzero defect on its actual closed transverse fiber. Its coefficient-specialized relative normal algebra has length eight while the actual closed algebra has length five. An exceptional-slice calculation needs a base-change argument to detect the punctual relative defect. Homogenizing the two equations gives an intersection cycle \(5[L]+2[D]\) with residual conic \(D\). The fixed-quartic sole-support question remains open.
 
@@ -103,7 +103,7 @@ The actual degree-d normal-jet source is the image of global sections of I(d) in
 
 ## Open interfaces
 
-- Decide whether an actual supported pair with generically zero comparison defect can have nonzero punctual defect (R-0030).
+- [Punctual relative defect under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support).
 - Vary lower embeddings, their boundary divisors and extension classes **together**; determine the full vanishing locus rather than only a generic obstruction.
 - Apply global-source and properness tests to a surviving family of actual homogeneous pairs.
 - Construct a justified comparison among the R-0016, R-0019 and R-0030 defects, with all finite-flatness and curvilinearity hypotheses explicit.
@@ -196,7 +196,8 @@ This compares three objects that are often conflated: minimal generators of the 
 
     length(Delta_n)=length(tors Q_n)-length(tors gr_F^n(D)).
 
-Under the stated local hypotheses, Delta vanishes wherever either carrier is smooth on C. Therefore nonzero punctual Delta requires a simultaneous singular point of both carriers; the converse is not asserted, nor is existence under radical(J)=I. This criterion does **not** prove that every supported complete intersection has a common singular point. It only locates a defect *if* that defect exists.
+The smooth-carrier criterion locates the support of an existing defect.
+See the [sole-support question and controls](../FRONTIER.md#punctual-relative-defect-under-sole-support).
 
 ### Three distinct exceptional phenomena
 

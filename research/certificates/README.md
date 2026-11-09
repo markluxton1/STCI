@@ -5,7 +5,7 @@ entry points, checking commands and essential input families. Exact source
 programs and witnesses remain at the paths consumed by their checkers;
 this directory does not duplicate them.
 
-Start from the [Result](../results/INDEX.md) or focused proof to
+Start from the [cataloged Result](../CATALOG.md) or focused proof to
 learn what a certificate establishes. The [fixed-sextic result](../results/ci_fixed_sextic_jet_rigidity.md)
 explains why its sampled matrix proves the global constant-coefficient
 kernel. The [degree15 dual account](../supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)

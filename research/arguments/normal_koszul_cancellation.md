@@ -404,5 +404,5 @@ cancellations with arbitrary prescribed positive page and unbounded rank.
 The [extended Rees torsion comparison](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#7-consequences-limits-and-next-questions)
 still needs a general identification of its \(u\)-power filtration
 with the incoming differential filtration. The
-[punctual relative-defect question](../FRONTIER.md#broader-interfaces)
-under sole support and generic vanishing also remains open.
+[punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+also remains open.

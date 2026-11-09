@@ -691,3 +691,17 @@ of that inherited certificate is claimed. No
 unrestricted STCI conclusion is made by the consolidation.
 
 The strengthened ruled-surface criterion has an independently reviewed characteristic-free proof in its [own mathematical home](ruled_surface_degree_criterion.md). The characteristic-zero carrier conclusion is unchanged.
+
+### Normal-route preservation review
+
+The cleanup reviewer `quartic_review` accepted retiring the historical
+normal-quartic question page. They reconstructed the passage and correction
+budgets, the integral compression equality cases, the reduced-cycle
+pullback defect, and the Type D passage bound from the pulled maximal
+ideal. They replayed the primary reduced and nonreduced graph checks and the
+separate weighted simple-elliptic check. The graph checks concern the
+necessary numerical rows in §3. The separate
+[two-arm Green-function argument](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#q-two-arm-coefficient-one-tails-exact-comparison)
+still requires its terminal diagonal bound. This preservation decision
+uses the inherited classification and low-degree inputs and concerns the
+normal integral quartic route for the fixed \(C_0\) in characteristic zero.
