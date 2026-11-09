@@ -216,51 +216,32 @@ than a general theorem here.
 
 ## 6. What the spectral sequence adds, and what it does not
 
-Put S=Sym E, H=in_I(J) the FULL initial ideal, Q=H/S_+H, and
-D_eq=J/IJ=O_C(-a) direct_sum O_C(-b). Set
-
-    F^n D_eq=((J intersect I^n)+IJ)/IJ,
-    G_n=gr_F^n D_eq,
-    Delta_n=in_I(IJ)_n/(S_+H)_n.
-
-The reviewed framework establishes the intrinsic exact sequences
-
-    0 -> Delta_n -> Q_n -> G_n -> 0.                    (10)
-
-Locally, filter the Koszul complex on NORMAL PARAMETERS x,y in O_Z.
-Its first page and target are
-
-    E_1^(i,n)=Tor_i^S(A,O_C)_n
-       => gr_F^n Tor_i^(O_P3)(O_Z,O_C),
-    d_r:E_r^(i,n) -> E_r^(i-1,n+r).
-
-The targets in homological degrees 0,1,2 are O_C, D_eq, det D_eq.
-The Delta_n are filtered by incoming images from degree two to degree
-one. In particular they constrain whether apparent initial generators
-can reduce to the two actual equations with the required global twists.
-They are not an extra independent genus term in (1) or (3).
-
-The [normal Koszul comparison](../results/normal_koszul_comparison_defect.md)
-links the complete proof and its [scoped review](../results/normal_koszul_comparison_defect.md#review).
-Its global sheaf/descent gates remain those in
-the [reconciliation](../results/local_filtration_comparison_defect.md).
-The local spectral-sequence statement and the intrinsic sheaf comparison
-(10) suffice for the distinctions made here. A new global spectral
-obstruction must verify its own transition maps and actual equation spaces.
+Let \(D_{\mathrm{eq}}=J/IJ=\mathcal O_C(-a)\oplus\mathcal O_C(-b)\)
+and \(G_n=\operatorname{gr}_F^n D_{\mathrm{eq}}\) for the equation
+filtration in [R-0030](../results/local_filtration_comparison_defect.md#statement).
+Write \(Q_n=(H/S_+H)_n\) for the degree-\(n\) module of minimal initial
+equations and \(\Delta_n\) for the kernel of its comparison with \(G_n\).
+The [local normal Koszul argument](../arguments/normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds)
+identifies the successive pieces of \(\Delta_n\) with images of incoming
+differentials.
+The homological targets in degrees zero, one and two are
+\(\mathcal O_C\), \(D_{\mathrm{eq}}\) and \(\det D_{\mathrm{eq}}\), with
+their induced filtrations. This constrains which initial equations survive
+in the filtered equation module with its two global twists. It supplies
+no independent genus term in (1) or (3). A global spectral obstruction
+requires its own transition maps and actual equation spaces.
 
 Since the G_n filter D_eq, they satisfy
 
     sum rank G_n=2,
     sum_n (deg(G_n/tors)+length tors G_n)=-d(a+b).        (11)
 
-This is an equation-module budget, distinct from the structure-sheaf
-budget (1). If Delta is generically zero, locally over a DVR,
-
-    length Delta_n=length tors Q_n-length tors G_n.
-
-Torsion in Q_n need not be canceled by a higher differential. Even the
-unweighted K-theoretic Euler identity of the entire normal Koszul
-spectral sequence is insufficient on its own: lambda_-1(E) and
+This equation-module budget is distinct from the structure-sheaf budget
+(1). Under generic vanishing, the
+[DVR length formula](../arguments/filtered_equation_comparison.md#generic-count-and-length-over-a-dvr)
+subtracts torsion that survives in the filtered equation quotients.
+The unweighted K-theoretic Euler identity of the normal Koszul spectral
+sequence is insufficient on its own because lambda_-1(E) and
 lambda_-1(D_eq) both vanish in K_0 of a smooth curve. The useful content
 retains normal degrees, maps, torsion, and the actual global generators.
 
