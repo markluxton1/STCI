@@ -47,6 +47,17 @@ from [loss of the embedded algebra](results/restricted_normal_diagram_counterexa
 The [prescribed characteristic-two pair](results/quartic_char2_fourth_equation_kernel.md)
 gives an exact chartwise lift that survives the comparison.
 
+For a specified transverse slice, use the
+[normal-cone specialization test](results/normal_cone_slice_specialization.md)
+to check the power quotients over the DVR. For a formal two-equation complete
+intersection, [normal flatness and comparison](results/normal_flat_comparison_specialization.md)
+gives the hypotheses for specializing the full equation comparison. The
+[supported length-five family](results/supported_length_five_defect_specialization.md)
+has a free intersection algebra and zero relative defect, but its actual
+closed slice has a degree-four defect. The
+[punctual relative-defect question](FRONTIER.md#broader-interfaces) under sole
+support and generic vanishing remains open.
+
 | Question or approach | Mathematical entry | Reach and missing step |
 | --- | --- | --- |
 | Which multiplicities and residual cycles occur? | [Two surfaces and actual cycles](synthesis/02-two-surfaces.md), [residual geometry and jets](synthesis/residual_intersections_and_jets.md) | Actual constructions and bounds on specified families; no universal residual floor or monotonicity in the equation degrees is assumed |

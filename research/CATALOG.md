@@ -70,6 +70,9 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0059](results/quartic_pair_normal_order_reduction.md) | Normal-order reduction for proper quartic pairs through the fixed curve | quadric residual class and generic length exhaust the degree: accepted | [scope](results/quartic_pair_normal_order_reduction.md#scope) |
 | [STCI-R-0060](results/initial_equation_cancellation_counterexample.md) | A degree-four initial equation invisible in the filtered equation module | length-five algebra and explicit cancellation: accepted | [scope](results/initial_equation_cancellation_counterexample.md#scope) |
 | [STCI-R-0061](results/restricted_normal_diagram_counterexample.md) | Identical graded embedding diagrams after restriction to the reduced curve | local binomial calculation: accepted | [scope](results/restricted_normal_diagram_counterexample.md#scope) |
+| [STCI-R-0062](results/normal_cone_slice_specialization.md) | Degreewise Tor kernel and the all-degree normal-flatness criterion | neighborhood Tor sequences and Artin–Rees: accepted | [scope](results/normal_cone_slice_specialization.md#scope) |
+| [STCI-R-0063](results/normal_flat_comparison_specialization.md) | Normal flatness specializes the full equation comparison for a rank-two complete intersection | two normal cones and the two lowest equation degrees: accepted | [scope](results/normal_flat_comparison_specialization.md#scope) |
+| [STCI-R-0064](results/supported_length_five_defect_specialization.md) | A supported length-five family with a jump in the actual transverse defect | finite free algebra and full equation filtration: accepted | [scope](results/supported_length_five_defect_specialization.md#scope) |
 
 ## Arguments
 
@@ -80,6 +83,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-A-0003](arguments/torus_embedded_quotients.md) | Constant embedded orbit families, endpoint descent, and actual equations | complete | [scope](arguments/torus_embedded_quotients.md#scope) |
 | [STCI-A-0004](arguments/quartic_specialization_and_symbols.md) | Conormal splitting, mu4 specialization and actual quartic symbols | complete | [scope](arguments/quartic_specialization_and_symbols.md#scope) |
 | [STCI-A-0005](arguments/filtered_equation_comparison.md) | Filtered equations and the information lost by normal grading | complete | [scope](arguments/filtered_equation_comparison.md#scope) |
+| [STCI-A-0006](arguments/transverse_specialization.md) | Transverse specialization of normal cones and the filtered equation comparison | complete | [scope](arguments/transverse_specialization.md#scope) |
 
 ## Frameworks
 
@@ -155,6 +159,9 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0059: quadric residual class and generic length exhaust the degree; joint premises [STCI-R-0058]; proof `research/arguments/quartic_specialization_and_symbols.md#5-a-uniform-reduction-of-all-44-candidates`; review accepted, reconstructed at `#review`.
 - STCI-R-0060: length-five algebra and explicit cancellation; joint premises [STCI-R-0030]; proof `research/arguments/filtered_equation_comparison.md#a-minimal-initial-equation-erased-by-the-comparison`; review accepted, reconstructed at `#review`.
 - STCI-R-0061: local binomial calculation; joint premises []; proof `#proof`; review accepted, reconstructed at `#review`.
+- STCI-R-0062: neighborhood Tor sequences and Artin–Rees; joint premises []; proof `research/arguments/transverse_specialization.md#normal-cone-specialization`; review accepted, reconstructed at `#review`.
+- STCI-R-0063: two normal cones and the two lowest equation degrees; joint premises [STCI-R-0030, STCI-R-0062]; proof `research/arguments/transverse_specialization.md#comparison-under-normal-flatness`; review accepted, reconstructed at `#review`.
+- STCI-R-0064: finite free algebra and full equation filtration; joint premises [STCI-R-0030]; proof `#proof`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -178,6 +185,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-A-0003: proof owner for STCI-R-0051 (scheme image and finite charts); proof owner for STCI-R-0052 (finite modification exact sequence); proof owner for STCI-R-0053 (actual source spaces and degree exhaustion); proof owner for STCI-R-0054 (exact endpoint lattices and coefficient identities); proof owner for STCI-R-0055 (relative endpoint lattices and image base change); proof owner for STCI-R-0056 (generic lengths and absence of finite-support submodules).
 - STCI-A-0004: proof owner for STCI-R-0020 (two-chart quadric conormal transition); proof owner for STCI-R-0021 (monic flatness and two-chart scheme decomposition); proof owner for STCI-R-0057 (filtered elimination and the initial term of a principal ideal); proof owner for STCI-R-0058 (residual restriction through the unique quadric); proof owner for STCI-R-0059 (quadric residual class and generic length exhaust the degree).
 - STCI-A-0005: proof owner for STCI-R-0030 (initial ideals, the DVR length identity, and smooth-carrier straightening); proof owner for STCI-R-0060 (length-five algebra and explicit cancellation).
+- STCI-A-0006: proof owner for STCI-R-0062 (neighborhood Tor sequences and Artin–Rees); proof owner for STCI-R-0063 (two normal cones and the two lowest equation degrees).
 - STCI-F-0001: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001).
 - STCI-F-0002: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0002] → [STCI-I-0004] (owner STCI-I-0004); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
@@ -214,7 +222,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0027: no declared backlinks.
 - STCI-R-0028: no declared backlinks.
 - STCI-R-0029: no declared backlinks.
-- STCI-R-0030: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0060 (length-five algebra and explicit cancellation).
+- STCI-R-0030: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0060 (length-five algebra and explicit cancellation); premise of STCI-R-0063 (two normal cones and the two lowest equation degrees); premise of STCI-R-0064 (finite free algebra and full equation filtration).
 - STCI-R-0031: no declared backlinks.
 - STCI-R-0032: recorded reference from STCI-R-0033 (dependencies group [STCI-R-0032]).
 - STCI-R-0033: no declared backlinks.
@@ -246,3 +254,6 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0059: no declared backlinks.
 - STCI-R-0060: no declared backlinks.
 - STCI-R-0061: no declared backlinks.
+- STCI-R-0062: premise of STCI-R-0063 (two normal cones and the two lowest equation degrees).
+- STCI-R-0063: no declared backlinks.
+- STCI-R-0064: no declared backlinks.

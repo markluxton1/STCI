@@ -229,9 +229,11 @@ also uses the full filtration and the overlap of the actual equation
 frames. In characteristic zero the normal filtration concerns a marked
 component of a residual intersection.
 
-The [length-five specialization control](../synthesis/comparison_defect_specialization.md)
+The [length-five specialization control](../results/supported_length_five_defect_specialization.md)
 has zero relative defect and nonzero actual defect on the transverse
-closed fiber. The [punctual example with residual support](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#5-arbitrary-punctual-degree-and-length-with-integral-carriers)
+closed fiber. The [transverse specialization argument](transverse_specialization.md)
+gives the normal-flat comparison theorem. The
+[punctual example with residual support](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#5-arbitrary-punctual-degree-and-length-with-integral-carriers)
 and the [supported torsion control](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#7-a-supported-quadruple-torsion-in-q-is-not-enough)
 also remain separate. Existence of a nonzero punctual defect with
 \(\sqrt J=I\) and \(\Delta_\eta=0\) is open in this development.
