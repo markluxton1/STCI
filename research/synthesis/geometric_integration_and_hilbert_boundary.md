@@ -59,7 +59,7 @@ Three potential sources of future confusion merit ongoing checks:
 2. Quot, Hilbert and actual-source incidence should be related by explicitly constructed morphisms; no automatic equivalence or smoothness assertion should be inferred from the conceptual diagrams.
 3. A constant transverse quotient, a fixed root/jet model, and a global supported complete intersection occupy successively broader or different parameter spaces. Each exclusion must state exactly which space it covers.
 
-A bounded degree-pair study of full-ideal attracting strata and moving-ideal generators is one useful next mathematical test, not a required new research lane. The [attracting-strata synthesis](torus_attracting_strata_and_generator_incidence.md) states the two-direction refinement and its limitations.
+A bounded degree-pair study of full-ideal attracting strata and moving-ideal generators is one useful next mathematical test. The [supported-boundary framework](../frameworks/torus_supported_boundaries.md#directional-loci) gives the two-direction refinement and its coverage requirements.
 
 ## Updated organizing principle: strongly consider invariant-limit strata and two-generation
 

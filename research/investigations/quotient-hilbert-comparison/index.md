@@ -34,6 +34,8 @@ Starting from one actual moving embedded family, which transverse algebra,
 endpoint image-lattice, and actual homogeneous equation-module data specialize
 to its two full torus limits? Can a proved comparison morphism or specialization
 statement constrain generator incidence on an opposite-limit intersection?
+In particular, can the paired endpoint profiles give a compatibility
+restriction beyond the individual Hilbert-polynomial and defect budgets?
 
 ## Purpose
 
