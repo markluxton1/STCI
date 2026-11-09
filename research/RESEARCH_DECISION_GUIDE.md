@@ -117,6 +117,15 @@ also requires the filtration jumps and compatible chart lifts. The
 shows why graded agreement alone is insufficient for a comparison of actual
 embedded algebras.
 
+For a candidate punctual comparison defect, specify the parameter lift for the
+transverse slice and check the [normal-flat specialization hypotheses](results/normal_flat_comparison_specialization.md).
+When they apply, the actual slice computes the specialization of the relative
+defect. Outside those hypotheses, compute the full relative initial ideals of
+\(J\) and \(IJ\). The [supported length-five control](results/supported_length_five_defect_specialization.md)
+has a nonzero defect on its actual slice even though the relative comparison
+is an isomorphism. The [bounded length-five question](FRONTIER.md#recommended-next-bounded-tests)
+requires a relative counterexample or a proof covering that stratum.
+
 ## Torus symmetry as an organizing method
 
 Use the [supported-boundary framework](frameworks/torus_supported_boundaries.md)

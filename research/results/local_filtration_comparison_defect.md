@@ -84,10 +84,12 @@ Whether \(\Delta\) can be nonzero and punctual with \(\sqrt J=I\) and
 \(\Delta_\eta=0\) remains open here. The
 [degree-four counterexample](initial_equation_cancellation_counterexample.md)
 has nonzero generic defect after adjoining a curve parameter. The
-[supported length-five specialization](../synthesis/comparison_defect_specialization.md)
+[supported length-five specialization](supported_length_five_defect_specialization.md)
 has zero relative defect and nonzero actual defect on the transverse
 closed fiber. The relative DVR criterion alone gives no conclusion about
-the actual comparison after such a base change.
+the actual comparison after such a base change. The separate
+[normal-flat specialization theorem](normal_flat_comparison_specialization.md)
+gives sufficient hypotheses for that identification.
 
 ## Review
 

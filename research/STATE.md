@@ -56,6 +56,19 @@ smooth ambient and curve hypotheses. The
 exhibit a positive generic defect and, separately, nonisomorphic intersection
 algebras with identical graded diagrams after restriction to the curve.
 
+The [transverse specialization test](results/normal_cone_slice_specialization.md)
+computes the kernel in each normal degree from adjacent neighborhood quotients.
+For an intersection algebra \(M\) flat over the DVR \(B\), with marked
+quotient \(M/K=B\), compatibility in every degree is equivalent to normal
+flatness along the marked curve. In the
+[formal two-equation setting](results/normal_flat_comparison_specialization.md),
+normal flatness also gives base change for the comparison defect. In the
+[supported length-five family](results/supported_length_five_defect_specialization.md),
+the actual algebra is finite free, the relative defect is zero, and the
+actual closed-fiber defect is one-dimensional in degree four. Existence of
+a punctual relative defect under sole support and generic vanishing remains
+open.
+
 The current proof homes make the scope explicit: saturation and actual-source
 conditions for [filtrations](synthesis/03-infinitesimal-geometry.md);
 actual examples and family-dependent [residual bounds](synthesis/residual_intersections_and_jets.md);
