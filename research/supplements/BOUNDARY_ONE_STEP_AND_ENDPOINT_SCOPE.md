@@ -475,11 +475,11 @@ Generic curvilinearity gives Delta_eta=0. The torsion comparison yields
       =D_soc+B_full+sum_r div Delta_r.                  (7)
 
 Hence (6) is NOT a bound on all raw initial-equation torsion unless
-Delta=0. Higher spectral cancellations must be retained. The existence
-of nonzero punctual Delta under sole support and generic defect zero
-is not settled by this theorem. The exact spectral comparison and its
-scope limits remain those of the
-[October 24 continuation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation).
+Delta=0. Higher spectral cancellations must be retained. See the
+[normal Koszul comparison](../results/normal_koszul_comparison_defect.md)
+for the spectral argument and the
+[open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+for the remaining existence problem.
 
 ### 7. What has been gained and what remains
 

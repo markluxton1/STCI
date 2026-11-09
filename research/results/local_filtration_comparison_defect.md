@@ -85,8 +85,8 @@ needs the full filtration and compatible chart lifts. The relative
 [normal Koszul construction](normal_koszul_comparison_defect.md)
 has its own proof and indexing.
 
-Whether \(\Delta\) can be nonzero and punctual with \(\sqrt J=I\) and
-\(\Delta_\eta=0\) remains open here. The
+The [punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+remains open. The
 [degree-four counterexample](initial_equation_cancellation_counterexample.md)
 has nonzero generic defect after adjoining a curve parameter. The
 [supported length-five specialization](supported_length_five_defect_specialization.md)
@@ -106,6 +106,12 @@ possibly nonunit leading coefficient and faithful-flat descent. This
 decision covers the local comparison, count, length and support statements
 under their respective hypotheses.
 
+The cleanup preservation reviewer `delta_review` accepted the consolidated
+route in A-0005 after reconstructing the quotient and filtration finiteness,
+the degreewise count for a transverse parameter ideal, the equal-rank DVR
+torsion sequence under generic vanishing, and the smooth-carrier calculation
+with a possibly nonunit coefficient. The decision covers the local route.
+
 The October 23 independent review checked the quotient denominator, the
 direction of comparison, the presentation syzygies and the completed-local
 smooth-carrier calculation. It kept the leading coefficient nonzero in the
@@ -113,10 +119,21 @@ coefficient domain while allowing it to vanish at the closed point.
 [October 23 comparison review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#filtered-equation-module) ·
 [Smooth-carrier review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#additional-smooth-carrier-proposition)
 
-The October 24 continuation supplies the generic generator excess and the
-DVR torsion sequence. The October 26 audit independently checked the local
-quotients, generator count, DVR formula and scope of the support condition.
-It recorded no fresh executable replay and did not check the global quartic
-gluing or the relative spectral sequence in that audit.
-[Generic and DVR arguments](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#4-generic-generator-counts-and-punctual-length) ·
-[October 26 audit and decision](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#local-filtration-audit-and-scope-boundary--2026-10-26)
+The October 24 continuation derives the generic generator excess and the
+DVR torsion sequence. The independent review checks both under their separate
+hypotheses.
+[October 24 continuation](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-continuation.md#L130-L168) ·
+[October 24 review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L38-L44)
+
+### October 26 local audit
+
+The audit checked the initial-ideal quotient comparison, the generic count
+for a transverse parameter ideal, and the DVR torsion sequence and length
+formula under generic vanishing. It used the October 23 completed-local
+straightening to delimit smooth-carrier support containment. It distinguished
+the punctual residual example from the supported quadruple with zero
+defect. Its decision concerned the local statements. The global
+characteristic-two quartic gluing and the relative normal-Koszul spectral
+sequence lay outside this audit's scope. The audit recorded no fresh
+executable replay.
+[Original October 26 audit and decision](https://github.com/markluxton1/STCI/blob/42d7c1bbc0b7670dfb55ce9da208248eb9c10066/research/notes/2026-10-26-filtration-local-proof-audit.md)

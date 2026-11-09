@@ -1,34 +1,18 @@
 # Results and topic navigation
 
-Use the [catalog](../CATALOG.md) for all Results and proof routes, including
-[the torus development](../frameworks/torus_supported_boundaries.md).
-A statement is assessed through its exact hypotheses, actual proof, and what
-its review checked. This list has no additional mathematical precedence.
+Use the [catalog](../CATALOG.md) for the complete Result locator and proof
+routes. This page retains the legacy locators and topic links used by the
+research validator.
 
 For full exposition see the [reading routes](../synthesis/README.md); for
 missing implications see the [mechanism map](../MAP.md) and
 [open questions](../FRONTIER.md).
 
-- **[STCI-R-0069 — A supported quadruple whose equation filtration retains the torsion](supported_quadruple_equation_filtration.md)**
-- **[STCI-R-0068 — Punctual comparison defects of arbitrary degree and length with integral carriers](punctual_comparison_defect_family.md)**
-- **[STCI-R-0067 — The conormal entry ideal annihilates the filtration defect](conormal_entry_annihilator.md)**
-- **[STCI-R-0066 — Recursive transverse complete intersections with prescribed normal Koszul cancellation](recursive_normal_koszul_cancellation.md)**
-- **[STCI-R-0065 — Normal Koszul differentials and the filtered equation defect](normal_koszul_comparison_defect.md)**
-- **[STCI-R-0064 — Supported length-five family with a comparison defect on the closed slice](supported_length_five_defect_specialization.md)**
-- **[STCI-R-0063 — Transverse specialization of filtered equations under normal flatness](normal_flat_comparison_specialization.md)**
-- **[STCI-R-0062 — DVR test for specialization of the normal cone](normal_cone_slice_specialization.md)**
-- **[STCI-R-0061 — Identical graded embedding diagrams after restriction to the reduced curve](restricted_normal_diagram_counterexample.md)**
-- **[STCI-R-0060 — A degree-four initial equation invisible in the filtered equation module](initial_equation_cancellation_counterexample.md)**
-- **[STCI-R-0059 — Normal-order reduction for quartic pairs](quartic_pair_normal_order_reduction.md)**
-- **[STCI-R-0058 — Actual first and second quartic symbol spaces](quartic_actual_symbols.md)**
-- **[STCI-R-0057 — Full normal initial ideals and base change of the prescribed quartic pair](quartic_normal_initial_base_change.md)**
 - **[STCI-R-0036 — Pointwise conductor and top-socle defect (conditional)](pointwise_conductor_socle_defect.md)**
 - **[STCI-R-0035 — Bounded-index normal-carrier exclusion for C0 (conditional)](normal_carrier_bounded_index_exclusion.md)**
 - **[STCI-R-0034 — Local Cartier-index and socle compatibility (conditional)](normal_carrier_index_socle.md)**
 - **[STCI-R-0033 — Constant first-relation lifting obstruction (conditional)](constant_first_relation_lifting.md)**
 - **[STCI-R-0032 — Full conormal filtration and socle budget (conditional)](full_conormal_socle_budget.md)**
-- **[STCI-R-0031 — Characteristic-two fourth normal equation and canonical kernel identification](quartic_char2_fourth_equation_kernel.md)**
-- **[STCI-R-0030 — Local filtered-equation comparison and punctual defect criterion](local_filtration_comparison_defect.md)**
 - **[STCI-R-0029 — Arithmetic ruled four-section family (prescribed model)](quartic_arithmetic_ruled_models.md)**
 - **[STCI-R-0028 — Ruled projection and normalization models (marked setup)](quartic_ruled_projection_geometry.md)**
 - **[STCI-R-0027 — Dual discriminant singular scheme (saved-certificate qualified)](quartic_dual_singular_scheme.md)**
@@ -36,8 +20,6 @@ missing implications see the [mechanism map](../MAP.md) and
 - **[STCI-R-0025 — Fixed sextic jet rigidity (saved-certificate qualified)](ci_fixed_sextic_jet_rigidity.md)**
 - **[STCI-R-0024 — Independent residual-node smoothing at fixed boundary (explicit pencil)](ci_quartic_fixed_boundary_smoothing.md)**
 - **[STCI-R-0023 — Explicit quartic residual geometry (fixed examples)](ci_quartic_explicit_residual_geometry.md)**
-- **[STCI-R-0020 — Characteristic-dependent conormal splitting](quartic_conormal_characteristic_jump.md)**
-- **[STCI-R-0021 — Explicit mu4 degeneration](quartic_mu4_degeneration.md)**
 - **[STCI-R-0022 — Shorter filtered-contact (4,4) exclusion (inherited inputs)](quartic_44_filtered_exclusion.md)**
 - **[STCI-R-0019 — Saturated quasiprimitive residual cycles and first-normal bound (conditional)](quasiprimitive_residual_cycles.md)**
 - **[STCI-R-0018 — Reduced singular movement-two roots: regular-formal-surface obstruction (conditional)](regular_singular_root_formal_obstruction.md)**
@@ -64,7 +46,6 @@ missing implications see the [mechanism map](../MAP.md) and
 - [Normalization and conductor](normalization_conductor.md)
 - [Entirely-thick presentations](entirely_thick.md)
 - [Jet geometry](jet_geometry.md)
-
 
 For conflicting claims, compare exact scopes, proofs, and review passages using
 [the evidence rules](../AUTHORITY.md). The topic prose provides reading routes;

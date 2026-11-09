@@ -94,11 +94,10 @@ component has length one.
 
 ## Limitations
 
-The residual dimension is a property of the actual finite algebra.
-The example has a proper marked component and leaves open the existence
-of a nonzero punctual relative defect with \(\sqrt J=I\) and
-\(\Delta_K=0\). The marked line calculation concerns local equations in
-characteristic zero. It gives no global equations for the fixed quartic.
+The residual dimension is a property of the actual finite algebra, so this
+family lies outside the [sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+The marked line calculation concerns local equations in characteristic zero.
+It gives no global equations for the fixed quartic.
 
 ## Review
 
@@ -113,6 +112,14 @@ They also checked finiteness and freeness of the actual algebra and its
 generic Artinian decomposition. This is a symbolic review of the
 all-parameter proof. The finite replays are recorded separately in A-0010.
 
+The cleanup preservation reviewer `delta_review` accepted retaining this
+route after reconstructing both full relative initials, the actual closed
+calculation for \(m=2\) and \(m\ge3\), and the finite free algebra with
+its marked and residual generic factors. They reran the punctual samples
+in A-0010. The decision concerns the residual family in characteristic
+zero, with the tensor specialization and actual closed defect computed
+separately.
+
 The October 24 independent reconstruction checked all symbol syzygies over
 the nonreduced coefficient quotient, their exact lifts, the conormal rank,
 the separate \(m=2\) closed fiber, and the actual finite-flat rank and
@@ -121,4 +128,4 @@ and a separate finite Rees-saturation check of the punctual family for
 three thickness parameters. The October 26 local audit retained the
 distinction between the residual family and the open sole-support problem.
 [October 24 review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L46) ·
-[October 26 audit](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#local-filtration-audit-and-scope-boundary--2026-10-26)
+[Scope of the October 26 local audit](local_filtration_comparison_defect.md#october-26-local-audit)

@@ -505,7 +505,13 @@ See the [independent proof review](#2026-10-23-ideal-filtrations-independent-rev
 
 Exact finite arithmetic is supplied by the [higher-generator counterexample script](../computations/verify_ideal_filtration_counterexamples_2026_10_23.py), [completeness counterexample script](../computations/verify_ideal_filtration_completeness_2026_10_23.py), and [quartic conormal/lifting identity script](../computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py). They check stated polynomial identities, finite algebra models, and transition formulas. They prove no global projective existence or nonexistence statement and do not replace the general arguments.
 
-The [October 24 singular-locus investigation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation) continues the comparison with generic counts, punctual lengths and parameter families. The [normal Koszul argument](../arguments/normal_koszul_cancellation.md) gives the proof that incoming differentials filter the defect, and the recursive family that realizes the prescribed page.
+The [generic count and DVR length argument](../arguments/filtered_equation_comparison.md#generic-count-and-length-over-a-dvr)
+continues the local comparison. The
+[normal Koszul argument](../arguments/normal_koszul_cancellation.md)
+proves that incoming differentials filter the defect and gives the recursive
+family that realizes the prescribed page. The
+[punctual comparison argument](../arguments/punctual_comparison_defects.md#statements-and-proofs)
+gives the residual and supported examples.
 
 
 

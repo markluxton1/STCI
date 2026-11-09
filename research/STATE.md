@@ -1,7 +1,7 @@
 # Mathematical statements and open questions
 
 For the fixed embedded rational quartic \(C_0\), unrestricted STCI existence
-in characteristic zero remains **open**. The [result records](results/INDEX.md)
+in characteristic zero remains **open**. The [cataloged Results](CATALOG.md)
 state exact hypotheses and point to proofs and scoped reviews. The linked
 mathematical homes also retain conditional reductions and explicit open steps;
 organization supplies no additional mathematical justification.
@@ -66,17 +66,12 @@ characteristic. Integral carriers preserve the calculation along the affine
 part of a marked line. The general identification with the extended Rees
 torsion filtration remains open.
 
-For a regular codimension-two embedding and any coherent \(J\subset I\),
-the [conormal entry ideal](results/conormal_entry_annihilator.md) is
-\(\operatorname{Fitt}_1(I/(I^2+J))\) and annihilates \(\Delta\). Its DVR
-exponent bound is attained by the cubic sharpness family. The
-[characteristic-zero punctual family](results/punctual_comparison_defect_family.md)
-has relative defect \(k[[t]]/(t^r)\) in degree \(m+1\) for \(r\ge1,\ m\ge2\).
-The actual generic fiber has residual rank \(m+1\) in addition to the
-marked rank one. The
-[supported quadruple](results/supported_quadruple_equation_filtration.md)
-has zero relative defect because its two torsion pieces of \(Q\) map
-isomorphically to the corresponding pieces of \(\operatorname{gr}_F(J/IJ)\).
+The [punctual comparison argument](arguments/punctual_comparison_defects.md#statements-and-proofs)
+has independently reviewed routes for the conormal-entry annihilator,
+the positive relative defects with residual support, and the supported
+control with zero relative defect. The
+[sole-support question](FRONTIER.md#punctual-relative-defect-under-sole-support)
+remains open.
 
 The [transverse specialization test](results/normal_cone_slice_specialization.md)
 computes the kernel in each normal degree from adjacent neighborhood quotients.
@@ -87,9 +82,7 @@ flatness along the marked curve. In the
 normal flatness also gives base change for the comparison defect. In the
 [supported length-five family](results/supported_length_five_defect_specialization.md),
 the actual algebra is finite free, the relative defect is zero, and the
-actual closed-fiber defect is one-dimensional in degree four. Existence of
-a punctual relative defect under sole support and generic vanishing remains
-open.
+actual closed-fiber defect is one-dimensional in degree four.
 
 The current proof homes make the scope explicit: saturation and actual-source
 conditions for [filtrations](synthesis/03-infinitesimal-geometry.md);

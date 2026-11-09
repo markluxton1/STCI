@@ -240,9 +240,8 @@ one. In particular they constrain whether apparent initial generators
 can reduce to the two actual equations with the required global twists.
 They are not an extra independent genus term in (1) or (3).
 
-The precise reviewed source is the
-[October 24 continuation](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-continuation),
-with its [independent review](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-singular-locus-review).
+The [normal Koszul comparison](../results/normal_koszul_comparison_defect.md)
+links the complete proof and its [scoped review](../results/normal_koszul_comparison_defect.md#review).
 Its global sheaf/descent gates remain those in
 the [reconciliation](../results/local_filtration_comparison_defect.md).
 The local spectral-sequence statement and the intrinsic sheaf comparison

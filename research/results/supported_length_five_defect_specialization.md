@@ -320,12 +320,11 @@ the generic line multiplicity and removes the component on \(z=0\).
 
 The result gives one supported family in which all relative comparison
 maps are invertible despite a nonzero defect on the actual closed fiber.
-Whether there is a regular-sequence ideal with \(\sqrt J=I\),
-\(\Delta_K=0\) and nonzero punctual relative defect remains open here.
-This includes the narrower question with finite free rank five and the
-specified generic and closed transverse algebras. The example concerns
-a marked line and gives no sole-support projective pair for the fixed
-quartic \(C_0\).
+The [bounded length-five question](../FRONTIER.md#supported-length-five-degeneration)
+fixes the generic and closed transverse algebras within the
+[general sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+The example concerns a marked line. Its projective homogenization has
+the residual conic described above.
 
 ## Review
 
@@ -349,5 +348,3 @@ all powers of its normal ideal, the full initial ideal, terminating
 filtered division for the equation module, and the comparison in every
 degree. It records separate checks of the closed-fiber mismatch and
 the doubled residual conic, with integer identities in all characteristics.
-The review leaves open the existence of a supported family with nonzero
-punctual relative defect.

@@ -1,6 +1,6 @@
 # Normalization, conductor descent, and projection geometry
 
-For the fixed embedded characteristic-zero quartic, a proposed normalization model, an actual projection, and a descending hypersurface section are three different objects. This account separates their tests and the related quintic and conditional sextic applications. [result records](../results/INDEX.md) determine theorem scope; the detailed proof homes below retain conditional mathematics with its stated proof and review scopes.
+For the fixed embedded characteristic-zero quartic, a proposed normalization model, an actual projection, and a descending hypersurface section are three different objects. This account separates their tests and the related quintic and conditional sextic applications. The [cataloged Results](../CATALOG.md) and their proofs retain the exact theorem and review scopes.
 
 ## Fixed-carrier existence and the shared descent mechanism
 

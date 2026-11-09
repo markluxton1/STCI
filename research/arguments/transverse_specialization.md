@@ -428,9 +428,9 @@ normal-flat locus is unresolved here. Away from that locus the two
 Tor kernel profiles provide separate measurements for \(R/J\) and
 \(R/IJ\). The [supported length-five control](../results/supported_length_five_defect_specialization.md)
 shows that a nonzero slice defect can coexist with zero relative
-defect. The existence of a nonzero punctual relative defect for a
-sole-support complete intersection with generically zero defect
-remains open. The cone and equation defect retain specific filtered
+defect. The
+[sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+concerns the relative defect. The cone and equation defect retain specific filtered
 information about the actual embedding. Reconstruction of the full
 embedded scheme or a global homogeneous pair for \(C_0\) requires
 additional data.

@@ -108,8 +108,8 @@ The [degree-four field example](initial_equation_cancellation_counterexample.md)
 attains the transverse lower bound. The
 [punctual family with residual support](punctual_comparison_defect_family.md)
 has degree-three defect over a curve. The comparison concerns local
-equations. A supported, generically defect-free complete intersection
-with a nonzero punctual defect remains an open case here.
+equations. See the
+[open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
 
 ## Review
 
@@ -133,4 +133,4 @@ generic count, torsion criterion and smooth-carrier support. It left the
 spectral-sequence details to the earlier source and recorded no fresh
 executable replay or global sheafification check.
 [October 24 review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L26) ·
-[October 26 audit](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#local-filtration-audit-and-scope-boundary--2026-10-26)
+[Scope of the October 26 local audit](local_filtration_comparison_defect.md#october-26-local-audit)

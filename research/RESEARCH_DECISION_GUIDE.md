@@ -129,16 +129,11 @@ For a candidate punctual comparison defect, specify the parameter lift for the
 transverse slice and check the [normal-flat specialization hypotheses](results/normal_flat_comparison_specialization.md).
 When they apply, the actual slice computes the specialization of the relative
 defect. Outside those hypotheses, compute the full relative initial ideals of
-\(J\) and \(IJ\). In regular codimension two, use the
-[conormal entry ideal](results/conormal_entry_annihilator.md) to bound DVR
-exponents. Under generic vanishing subtract the length of the torsion
-that survives in \(G\), as in the
-[supported quadruple](results/supported_quadruple_equation_filtration.md).
-Check actual support in \(R/J\), as in the
-[punctual family with residual support](results/punctual_comparison_defect_family.md).
-The [supported length-five control](results/supported_length_five_defect_specialization.md)
-has a nonzero defect on its actual slice even though the relative comparison
-is an isomorphism. The [bounded length-five question](FRONTIER.md#recommended-next-bounded-tests)
+\(J\) and \(IJ\). In regular codimension two, use the conormal entry ideal
+to bound DVR exponents. Under generic vanishing subtract the length of
+the torsion that survives in \(G\). Check actual reduced support in \(R/J\).
+See the [punctual comparison proofs and controls](arguments/punctual_comparison_defects.md#statements-and-proofs).
+The [bounded length-five question](FRONTIER.md#supported-length-five-degeneration)
 requires a relative counterexample or a proof covering that stratum.
 
 ## Torus symmetry as an organizing method

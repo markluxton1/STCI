@@ -2,8 +2,6 @@
 
 For a smooth codimension-two curve C in a smooth threefold, retain the marked pair C subset Z=V(f,g), permitting residual components. The [local comparison R-0030](../results/local_filtration_comparison_defect.md) distinguishes minimal full initial equations from the filtered module of actual equations. The [normal Koszul argument](../arguments/normal_koszul_cancellation.md) gives the comparison by cancellation page and the recursive family. The [punctual comparison argument](../arguments/punctual_comparison_defects.md) gives the conormal-entry annihilator and the two local examples. This supplement retains the extended Rees and normal-cone regularity proofs, with links to the migrated Results and their source reviews. The transverse-specialization proofs are in the [transverse specialization argument](../arguments/transverse_specialization.md).
 
-The organization follows the mechanisms: first the exact comparison and higher cancellation, then the scheme supporting the defect, then its realization as deformation torsion, and finally the separate problem of slicing along the marked curve. All example families and necessary local hypotheses survive. The removed reports repeated these proofs; their substantive corrections are incorporated in the statements below.
-
 <a id="delta-embedding-geometry-report"></a>
 
 ## 1. Exact hypotheses, retained inputs, and authority
@@ -15,7 +13,8 @@ R=\mathcal O_{P,p},\quad I=I_C=(x,y),\quad B=R/I,
 \]
 where \(f,g\) form a regular sequence. Distinct integral hypersurfaces give this situation; several algebraic results below have weaker hypotheses, stated in their individual notes. No rational-quartic classification, sole-support theorem, or STCI exclusion is a premise.
 
-The [comparison construction](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) and [normal-Koszul continuation](#delta-singular-locus-continuation) include comparison proof and reviewed source-level continuations. Their exact claims are retained as premises, without replaying inherited certificates. In particular,
+The [local comparison argument](../arguments/filtered_equation_comparison.md#local-comparison-and-the-punctual-defect)
+gives the quotient comparison used below. In particular,
 \[
 S=\operatorname{gr}_I R=\operatorname{Sym}_B E,\quad E=I/I^2,
 \quad H=\operatorname{in}_I J,\quad T=\operatorname{in}_I(IJ),
@@ -71,39 +70,22 @@ Scope: local algebra along a smooth codimension-two marked curve \(C\) in a smoo
 
 ### 1. Main advances
 
-1. The module \(Q\) is canonically a Tor module. A filtered Koszul complex on the **normal parameters**, rather than the carrier equations, identifies \(\Delta\) exactly with accumulated incoming higher differentials.
-2. Over a generic transverse field,
-   \[
-   \dim\Delta=\mu(\operatorname{in}J)-2.
-   \]
-   The degrees and spectral-sequence pages refine this excess count.
-3. If the generic defect vanishes, a punctual defect is precisely the torsion of \(Q\) lost in the comparison with the filtered equation module. A DVR length formula makes this exact.
-4. For every \(d\ge3\) and \(r\ge1\), integral local carriers realize a defect \(k[[t]]/(t^r)\) concentrated in degree \(d\). This example has actual residual support, which is proved separately.
-5. A second family has arbitrarily many generic defect generators and explicitly prescribed cancellation page. It admits integral algebraic carriers.
-6. A supported quadruple has torsion in \(Q\) but zero defect: torsion alone is insufficient. Whether nonzero punctual defect can occur for a supported, generically defect-free complete intersection remains unresolved here.
+The [normal Koszul comparison](../arguments/normal_koszul_cancellation.md)
+tracks cancellations on the normal parameters by page. For generator
+excess and lost torsion, see the
+[generic count and DVR length](#4-generic-generator-counts-and-punctual-length).
+The [punctual-defect reading route](../arguments/punctual_comparison_defects.md#statements-and-proofs)
+separates the annihilator, the family with residual support, and the
+supported quadruple.
 
 ### 2. Notation and the intrinsic comparison
 
-Locally write
-\[
-B=R/I,\quad M=R/J,\quad K=I/J,\quad
-S=\operatorname{gr}_IR,\quad A=\operatorname{gr}_KM=S/H,
-\]
-\[
-H=\operatorname{in}_I(J),\quad T=\operatorname{in}_I(IJ),\quad
-Q=H/S_+H,\quad\Delta=T/S_+H.
-\]
-The equation module \(\mathcal D=J/IJ\) has
-\[
-F^n\mathcal D=((J\cap I^n)+IJ)/IJ.
-\]
-The predecessor proves
-\[
-0\to\Delta_n\to Q_n\to G_n\to0,\qquad
-G_n=\operatorname{gr}_F^n\mathcal D=H_n/T_n.
-\tag{1}
-\]
-For a regular-sequence \(J=(f,g)\), \(\mathcal D\) is free of rank two over \(B\). On a curve these constructions sheafify; all torsion and ranks below are taken over the actual base \(B=\mathcal O_C\), not over a transverse field unless explicitly specified.
+Use the [local notation and comparison](#1-exact-hypotheses-retained-inputs-and-authority).
+Write \(M=R/J\), \(K=I/J\), and \(A=\operatorname{gr}_K M=S/H\).
+For a regular-sequence \(J=(f,g)\), the equation module \(D\) is free of
+rank two over \(B\). The comparison has \(G_n=H_n/T_n\) and sheafifies
+along the curve. Torsion and rank are over the actual base
+\(B=\mathcal O_C\) unless a transverse field is specified.
 
 ### 3. The correct spectral sequence for the defect
 
@@ -126,42 +108,22 @@ its hypotheses, and the filtration of the defect. The complete proof is in
 
 ### 4. Generic generator counts and punctual length
 
+[R-0030 states the generic generator count and the DVR length formula](../results/local_filtration_comparison_defect.md#statement).
+The [comparison argument](../arguments/filtered_equation_comparison.md#generic-count-and-length-over-a-dvr)
+proves the two claims under their separate hypotheses.
+
 #### 4.1 The exact generic count
 
-Let \(R=L[[x,y]]\), \(I=(x,y)\), and let \(J\) be an \(I\)-primary two-generator complete intersection. Write \(h=\mu(H)=\dim_LQ\). Since \(\dim_L\mathcal D=2\), summing (1) proves
-\[
-\boxed{\dim_L\Delta=h-2.}
-\tag{8}
-\]
-Degreewise it is \(\dim_L\Delta_n=\dim_LQ_n-\dim_LG_n\).
-
 The [consecutive cancellation argument](../arguments/normal_koszul_cancellation.md#consecutive-cancellations-over-a-transverse-field)
-refines this count by degree and page, from graded Betti totals
-\((1,h,h-1)\) to \((1,2,1)\), and proves the degree-four lower bound
-for a nonzero transverse-field defect.
+refines the count by degree and page, from graded Betti totals
+\((1,h,h-1)\) to \((1,2,1)\), where \(h=\mu(H)\). It also proves the
+degree-four lower bound for a nonzero transverse-field defect.
 
 #### 4.2 Exact torsion formula on a smooth curve
 
-Suppose \(\Delta\) vanishes generically on an integral smooth curve. Then it is a torsion submodule of \(Q\). In particular
-\[
-Q\text{ torsion free and }\Delta_\eta=0\quad\Longrightarrow\quad\Delta=0.
-\tag{9}
-\]
-
-At a point, let \(B\) be the corresponding DVR. The surjection \(Q_n\to G_n\) has equal generic ranks. On torsion-free quotients it is a surjection between free modules of the same rank, hence an isomorphism. Consequently
-\[
-0\to\Delta_n\to\operatorname{tors}Q_n
-\to\operatorname{tors}G_n\to0,
-\]
-\[
-\boxed{
-\operatorname{length}_B\Delta_n
-=\operatorname{length}_B\operatorname{tors}Q_n
--\operatorname{length}_B\operatorname{tors}G_n.
-}
-\tag{10}
-\]
-The generic-vanishing hypothesis is essential. Torsion in the filtered equation quotients must be subtracted; torsion in \(Q\) alone is not the defect.
+For torsion that survives the comparison and must be subtracted in the
+DVR formula, see the
+[supported quadruple](../results/supported_quadruple_equation_filtration.md).
 
 ### 5. Arbitrary punctual degree and length, with integral carriers
 
@@ -205,13 +167,10 @@ generators through the comparison.
 
 ### 8. What has been settled, and the remaining question
 
-The proposed connection with higher Koszul cancellation now has a theorem, including the actual filtration and pagewise subquotients. Generic defect is exactly generator excess, while punctual defect is a loss of torsion measured by (10). There is no bound on punctual degree or length under the broader marked-component hypotheses, nor on generic defect rank even with integral carriers.
-
-The positive punctual examples have residual support. The supported quadruple proves that simultaneous singularity and torsion in \(Q\) are not sufficient for a defect. This investigation does not yet decide:
-
-> If \(J=(f,g)\) is a complete intersection with \(\sqrt J=I_C\), \(C\) smooth, and \(\Delta_\eta=0\), can \(\Delta\) be nonzero at isolated points? If so, what is its smallest supported example; if not, which duality or support condition forces vanishing?
-
-This is a strictly narrower question than the unrestricted STCI problem. It retains actual support and all local equations. The family in section 5 must not be used as an answer to it.
+The positive punctual examples have residual support. The supported quadruple
+has simultaneous singularity and torsion in \(Q\) with zero defect. The
+[punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+remains open.
 
 The literature already studies the generic tangent-cone generator and cancellation problem; [Mandal–Rossi, The tangent cone of a local ring of codimension 2](https://arxiv.org/abs/1402.2756) is another relevant primary source. No novelty claim is made here. The useful research interface is the precise relative defect, its torsion, and its relation to supported versus residual intersection geometry.
 
@@ -253,7 +212,11 @@ records the precise October 24 and Phase 5 scopes.
 
 Date: 2026-10-24. Status: **proved local arguments independently reconstructed by agent review**.
 
-This note continues the [merged ideal-filtration investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd) and [normal-Koszul continuation](#delta-singular-locus-continuation). It studies the marked embedding \(C\subset Z=X\cap Y\), without imposing \(Z_{\mathrm{red}}=C\). All claims below concern the marked embedding and its deformation; residual components are permitted.
+This note uses the [local comparison](../results/local_filtration_comparison_defect.md)
+for the marked embedding \(C\subset Z=X\cap Y\) and its deformation.
+Residual components are permitted. The
+[normal Koszul argument](../arguments/normal_koszul_cancellation.md)
+gives the separate page filtration.
 
 ### 1. Exact scope and retained dependencies
 
@@ -508,7 +471,11 @@ F^nD=((J\cap I^n)+IJ)/IJ,\quad
 0\longrightarrow\Delta_n\longrightarrow Q_n\longrightarrow G_n\longrightarrow0,
 \qquad G_n=F^nD/F^{n+1}D. \tag{1}
 \]
-The [continuation](#delta-singular-locus-continuation) is the source for the generic generator count and the supported quadruple used below. Those inherited proofs and scripts are not replayed here. The standard definition of regular immersion is recalled in [Stacks, regular immersions](https://stacks.math.columbia.edu/tag/0638).
+The generic generator count and supported quadruple used below are in
+[R-0030](../results/local_filtration_comparison_defect.md) and
+[R-0069](../results/supported_quadruple_equation_filtration.md).
+For the standard definition of regular immersion, see
+[Stacks, regular immersions](https://stacks.math.columbia.edu/tag/0638).
 
 ### 1. Two separate obstructions to regularity of the normal-cone embedding
 
@@ -627,16 +594,21 @@ The October 24 source records an independent agent reconstruction of the
 local specialization development. It uses the October 23
 [comparison and smooth-carrier arguments](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd)
 and the earlier continuation's punctual family and supported quadruple as
-reviewed inputs. The October 26 [local audit](#local-filtration-audit-and-scope-boundary--2026-10-26)
-addresses the underlying comparison, generic count, torsion criterion and
-smooth-carrier support. The Results specify the scope of their separate
-proof reviews.
+reviewed inputs. R-0030 records the
+[October 26 local audit](../results/local_filtration_comparison_defect.md#october-26-local-audit).
+The specialization Results specify the scope of their separate proof reviews.
 
 ### Evidence scope and the remaining geometric bridge
 
 The normal-Koszul edge filtration, generic count, punctual torsion family and recursive cancellation family were independently reconstructed in the inherited source state. The annihilator and full Rees-persistence arguments received separate reconstructions, including the exact entry ideal, all syzygies and the distinction between k[u]-flatness and O_C[u]-flatness. The supported quadruple's full initials were checked against its displayed free base-module basis; sampled Rees computations are supplemental rather than the arbitrary-parameter proof. Exact implementations remain in the [conormal-annihilator checker](../computations/verify_delta_conormal_annihilator_2026_10_24.m2), [Rees equation-module checker](../computations/verify_delta_rees_equation_module_2026_10_24.m2), [singular identity checker](../computations/verify_delta_singular_identities_2026_10_24.py), and [singular-family checker](../computations/verify_delta_singular_families_2026_10_24.m2).
 
-There is no established general sheaf-level identification between the u-power filtration of the persistence module and each page of the incoming normal-Koszul differential filtration. The [extended Rees duration family](#6-the-torsion-duration-refines-delta-an-exact-family) proves its own page/duration match. Over O_C[u] the persistence module need not split into compatible elementary blocks. Nor does local realization supply actual homogeneous equation source lines on P3. In particular the supported, generically defect-free punctual question remains open, as stated with the exact examples above.
+The cleanup reviewer `delta_review` verified preservation of the
+[extended Rees and carrier saturation arguments](#delta-as-the-specialization-of-equation-module-torsion)
+and the [labelled normal-cone arguments](#delta-normal-cone-regularity-and-the-labelled-carrier-square).
+They reran the Rees checker over \(\mathbf Q\) on four duration samples
+and one labelled square. These samples cover those explicit calculations.
+
+There is no established general sheaf-level identification between the u-power filtration of the persistence module and each page of the incoming normal-Koszul differential filtration. The [extended Rees duration family](#6-the-torsion-duration-refines-delta-an-exact-family) proves its own page/duration match. Over O_C[u] the persistence module need not split into compatible elementary blocks. Nor does local realization supply actual homogeneous equation source lines on P3. The [punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support) remains open.
 
 ### Characteristic reach
 
@@ -649,36 +621,7 @@ The exact equation-module comparison, normal-Koszul filtration, conormal-entry a
 
 ## Local filtration audit and scope boundary — 2026-10-26
 
-Status: mathematical review of local statements, not an independent executable replay, not a global sheafification certification, and not a new theorem. Sources: RECONCILIATION_2026-10-24-IDEAL-FILTRATIONS.md and the October 23–24 investigation and independent review notes.
-
-### 1. Exact comparison from ideals
-
-Let R be a noetherian local ring, I an ideal, J subset I, S=gr_I(R), H=in_I(J), B=in_I(IJ), and S_+ its positive part. The inclusion S_+H subset B is immediate by multiplying representatives and taking leading terms, even when cancellations make B larger. The filtration F^n on D=J/IJ is the image of J intersect I^n. Its nth graded quotient is (J intersect I^n)/(J intersect I^(n+1) + IJ intersect I^n). The initial-symbol identification therefore gives gr_F^n D=H_n/B_n. Consequently
-
-0 -> B_n/(S_+H)_n -> H_n/(S_+H)_n -> H_n/B_n -> 0
-
-is exact. In particular the comparison map is a surjection from Q to gr_F D, not the reverse. This argument is local and requires no global splitting.
-
-### 2. Generic generator excess
-
-At the generic point of a smooth curve, suppose R is a regular transverse two-dimensional local ring and J is a two-generator parameter ideal. Then D=J/IJ is a two-dimensional vector space over the residue field. The induced finite filtration is exhaustive and separated; hence dim gr_F D=2. The initial ideal H is a finite-colength homogeneous ideal in a polynomial ring in two variables, and Q=H/S_+H has dimension mu(H). Summing the exact comparison gives dim Delta=mu(H)-2. This does not imply Delta vanishes whenever J is a complete intersection: the initial ideal can need extra generators.
-
-### 3. Punctual torsion criterion
-
-On a smooth curve, suppose the graded comparison is an isomorphism generically. Each Delta_n is torsion. Over a local DVR, Q_n -> G_n is surjective with equal generic rank. The induced map of torsion-free quotients is an isomorphism (the target is free and the source quotient has equal rank), so there is an exact torsion sequence 0 -> Delta_n -> tors(Q_n) -> tors(G_n) -> 0. Length Delta_n equals length tors(Q_n) minus length tors(G_n). Thus torsion in Q is necessary but not sufficient for a punctual defect. If Q is torsion-free, the defect vanishes.
-
-### 4. Smooth-carrier support and its precise logical role
-
-The independent October 23 review reconstructs the completed-local straightening of a smooth carrier and concludes Delta_p=0 wherever at least one carrier has nonzero first normal symbol. Therefore Supp Delta is contained in C intersect Sing(F) intersect Sing(G), under the regular ambient and two-generator CI hypotheses. Containment is not an existence assertion. The argument is local, and no global line-bundle twist is needed for this support inclusion.
-
-### 5. What the examples do and do not show
-
-The October 24 punctual family has Delta concentrated in one degree with arbitrary torsion length, but its actual complete intersection has residual support, so it does not address radical(J)=I. The supported quadruple J=(x^2,y^2+tx) has radical I and torsion in Q, but Delta=0. These are opposite controls, not a solution to the supported punctual-defect question.
-
-### 6. Still unverified
-
-The characteristic-two quartic claim ker(D -> I/I^2) is isomorphic to O(-24) and to Q_4 relies on global chart frames and transitions; it is supported by the prior independent audit, but has not been rechecked in this turn. The normal-Koszul spectral sequence requires its filtered-complex indexing, convergence and incoming-differential identifications to be retained exactly as in the source; no simplified global spectral-sequence theorem is proved here. The case radical(J)=I with generic Delta=0 and nonzero isolated Delta remains open.
-
-### Decision
-
-The local exact comparison, generic excess, torsion criterion and support containment have independently reviewed proofs and are suitable for a *separately scoped local-algebra* result after schema/path validation. Do not infer CR-13's global O(-24) assertion or a general supported-defect vanishing theorem from this note. This review does not perform a fresh executable replay.
+[R-0030 records the audit's scope and links the original decision](../results/local_filtration_comparison_defect.md#october-26-local-audit).
+The [local comparison argument](../arguments/filtered_equation_comparison.md#local-comparison-and-the-punctual-defect)
+gives the proofs of the quotient comparison, generic count, DVR length formula,
+and smooth-carrier vanishing.

@@ -100,6 +100,13 @@ both full initial ideals, and the exact annihilator in every characteristic.
 The review used symbolic arguments. The finite cubic replay is recorded
 separately in A-0010.
 
+The cleanup preservation reviewer `delta_review` accepted retaining this
+route after reconstructing the determinant identities and the Fitting
+presentation, checking the DVR bound including the unit-ideal case, and
+lifting the full cubic symbol syzygies. They reran the three rational
+Rees-saturation samples in A-0010. Equality of annihilators in this route
+concerns the cubic sharpness family.
+
 The October 24 independent review reconstructed the chain-level determinant
 argument and its effect on the full initial-equation quotient. It checked the
 rank-two Fitting presentation, sheafification of the entry ideal, and the
