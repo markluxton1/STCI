@@ -113,7 +113,7 @@ of the addressed determinantal section and completes the construction's proof.
 ## Evidence
 
 Reconstructed from §§4–4.1 of
-[sextic residuals](../synthesis/toric_sextic_residuals_and_limits.md).
+[sextic residuals](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md).
 The finite verifier's matrix-minor, substitution and numerator checks
 are auxiliary identity checks; the written Hilbert–Burch and regularity
 arguments establish the geometric assertions.

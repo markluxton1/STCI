@@ -29,10 +29,13 @@ Full mathematical homes are chosen by responsibility rather than chronology:
 [elliptic gluing](projection_and_elliptic_gluing.md),
 [marked absorption](marked_deformation_and_absorption.md), and
 [contact/endpoint descent](contact_duality_and_global_descent.md).
-The [embedded quotient criterion](toric_quotients_and_endpoint_descent.md)
-and [sextic residual configurations](toric_sextic_residuals_and_limits.md)
-own the constant-algebra image calculation, characteristic-dependent endpoint
-comparison, sharp eigenform bound and explicit full toric limits.
+The [embedded quotient argument](../arguments/torus_embedded_quotients.md)
+proves the constant-image and endpoint criteria. The
+[sextic residual argument](../arguments/torus_sextic_residuals.md)
+proves the sharp eigenpair bound and the explicit full torus limits.
+The [sextic source spaces and pencil dimensions](toric_sextic_residuals_and_limits.md#6-from-invariant-examples-to-the-supported-ci-hilbert-locus)
+and [moving-quotient comparison](toric_quotients_and_endpoint_descent.md#from-constant-orbit-families-to-genuinely-moving-transverse-structure)
+retain their separate scopes.
 The [characteristic constructions](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md)
 are a proof home, not merely a contrast in an introduction.
 

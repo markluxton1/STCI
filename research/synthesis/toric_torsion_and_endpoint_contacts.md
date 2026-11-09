@@ -248,7 +248,7 @@ tests two-generation on moving ideals; their fixed limits need not be
 two-generated.
 
 **Endpoint descent.** The
-[embedded quotient and endpoint account](toric_quotients_and_endpoint_descent.md)
+[embedded quotient and endpoint account](../arguments/torus_embedded_quotients.md)
 retains multiplication, homogeneous source spaces and endpoint lattices.
 Finite transverse characters and jet filtrations provide comparisons in
 the explicit models; abstract quotient type or contact lengths do not

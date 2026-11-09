@@ -751,7 +751,7 @@ associated components by their Cohen–Macaulay proofs.
 ## Evidence and preservation
 
 The source
-[sextic residual proof home](../synthesis/toric_sextic_residuals_and_limits.md)
+[original sextic residual chapter](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md)
 supplies §§1–4.1 and the orbit degree statement in §5. Its §§1.1–1.3
 survive in **Eigenpair residual controls**; §2 in **The sharp sextic
 eigenpair bound**; §§3–3.2 in **Moving residual curves and their full
@@ -774,8 +774,8 @@ geometric assertions. The verifier does not certify saturation, flatness,
 primary decomposition, all-characteristic coverage, or a general
 classification. Those conclusions are proved in the text, without
 depending on sampled finite-field ranks. The inherited source-space
-and sole-support reductions in source §§6–7 retain their existing owners
-and are not reconstructed by this Argument.
+and sole-support reductions in [source §§6–7](../synthesis/toric_sextic_residuals_and_limits.md#6-from-invariant-examples-to-the-supported-ci-hilbert-locus)
+retain their existing proof owners.
 
 ## Conclusion
 

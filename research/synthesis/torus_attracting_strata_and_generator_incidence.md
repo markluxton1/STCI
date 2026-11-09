@@ -22,7 +22,7 @@ The research question is to describe, for each geometrically meaningful directio
 
 ## Sextic pilot and scope
 
-For (6,6), the target polynomial is P(n)=36n-144, with degree 36, arithmetic genus 145, and generic length nine along C for a sole-supported proper intersection. The [sextic examples](toric_sextic_residuals_and_limits.md) give eigenform-pair residual bounds and controls on full limits; examples retaining residual boundary curves lie outside H_N even if their total Hilbert polynomial is P.
+For (6,6), the target polynomial is P(n)=36n-144, with degree 36, arithmetic genus 145, and generic length nine along C for a sole-supported proper intersection. The [sextic examples](../arguments/torus_sextic_residuals.md) give eigenform-pair residual bounds and controls on full limits; examples retaining residual boundary curves lie outside H_N even if their total Hilbert polynomial is P.
 
 A substantive next result would exhibit and verify a sole-supported invariant ideal J_0 of this polynomial, describe the attracting families in both directions, and decide the two-sextic incidence on that family. An exclusion on one direction-specific attracting set is not a global exclusion without coverage of all relevant invariant limits and bounds N. The comparison with the characteristic-two (4,4) example must retain its characteristic and lifting qualifications.
 
@@ -98,7 +98,7 @@ Its endpoint image lattices measure how the modification descends to
 the projective embedded scheme. The precise construction and
 characteristic scope belong to
 [the tropical modification theorem](tropical_thickenings_and_endpoint_duality.md)
-and [the endpoint-descent account](toric_quotients_and_endpoint_descent.md).
+and [the endpoint-descent account](../arguments/torus_embedded_quotients.md).
 
 For (6,6), the established necessary numerical relation in that model
 is delta_0+delta_infinity=e+153, with e positive in characteristic zero

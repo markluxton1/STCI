@@ -64,7 +64,7 @@ embedding results ([Tevelev](https://arxiv.org/pdf/math/0412329),
 preservation of two global equations for nonreduced thickenings under (1).
 
 For a finite constant embedded quotient, the
-[orbit-family image calculation](toric_quotients_and_endpoint_descent.md)
+[orbit-family image calculation](../arguments/torus_embedded_quotients.md)
 recovers the saturated homogeneous ideal, both endpoint lattices and the exact
 prescribed-degree source test. Its length-four comparison distinguishes
 characteristic-zero root collision from reduction of the prescribed quartic

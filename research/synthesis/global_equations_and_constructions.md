@@ -922,7 +922,7 @@ therefore concerns loss of two generators, not a necessary loss of support
 by the full Hilbert limit. Neither Cohen--Macaulayness nor AG structure is
 assumed at the fixed boundary.
 
-The [sextic residual examples](toric_sextic_residuals_and_limits.md)
+The [sextic residual examples](../arguments/torus_sextic_residuals.md)
 make this generator distinction explicit: a proper (6,6) CI has full toric
 limit with minimal generator degrees 6,6,10 and the same Hilbert series.
 That limit is saturated and ACM. Both it and the original CI retain residual
@@ -938,7 +938,7 @@ the required homogeneous equations after contraction. They do not exclude
 all support-preserving deformations of a fixed boundary ideal.
 
 For a specified constant embedded quotient, the
-[orbit-family criterion](toric_quotients_and_endpoint_descent.md) instead
+[orbit-family criterion](../arguments/torus_embedded_quotients.md) instead
 recovers its saturated image and its actual degree spaces directly. Properness
 and degree exhaustion give an exact CI test for that image. This does not
 replace the moving finite family of a hypothetical characteristic-zero

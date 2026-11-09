@@ -78,7 +78,7 @@ and irrelevant saturation by the regular-sequence argument.
 ## Evidence
 
 Reconstructed from §§3–3.1 of
-[sextic residuals](../synthesis/toric_sextic_residuals_and_limits.md).
+[sextic residuals](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md).
 Explicit substitutions certify the divisor factorizations.
 
 ## Limitations

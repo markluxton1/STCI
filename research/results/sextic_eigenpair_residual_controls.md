@@ -92,7 +92,7 @@ calculation on the smooth Segre quadric and R-0044 prove the cycle.
 ## Evidence
 
 These are the three examples in §§1.1–1.3 of
-[sextic residuals](../synthesis/toric_sextic_residuals_and_limits.md).
+[sextic residuals](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md).
 The global equations and local algebra proofs specify their full scope.
 
 ## Limitations

@@ -169,7 +169,7 @@ supported CI whose full invariant limit loses its CI structure. Classification
 of the relevant invariant limits and recovery of CI or ACM structure in
 deformations preserving support remain open.
 
-The [constant-quotient descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
+The [constant-quotient descent criterion](arguments/torus_embedded_quotients.md)
 recovers the saturated orbit-family image from the embedded algebra and tests
 prescribed CI degrees by actual homogeneous source spaces and properness.
 The same abstract algebra need not have the same projective image. The
@@ -178,7 +178,7 @@ in characteristic zero, three and two, respectively; only the characteristic-two
 image is the prescribed quartic CI. Its flat characteristic-zero collision has
 genus 28 and is not that genus-33 CI family.
 
-The [sextic configurations and full limits](synthesis/toric_sextic_residuals_and_limits.md)
+The [sextic configurations and full limits](arguments/torus_sextic_residuals.md)
 give a sharp quotient-length bound of eight for every proper pair of eigenform
 sextics, in every characteristic, hence boundary cycle degree at least four.
 Explicit mixed-weight proper intersections exhibit residual splitting,

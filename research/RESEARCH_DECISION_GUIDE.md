@@ -185,7 +185,7 @@ The general member must be allowed to break symmetry. Limiting two
 individual forms discards relations and can leave a common surface factor.
 
 For a specified finite embedded quotient, the
-[endpoint-descent criterion](synthesis/toric_quotients_and_endpoint_descent.md)
+[endpoint-descent criterion](results/constant_quotient_equation_criterion.md)
 recovers its actual homogeneous source spaces by finite weightwise linear
 algebra. A proper pair in the prescribed degrees, together with degree
 exhaustion, decides that image. The length-four comparison shows why the
@@ -194,7 +194,7 @@ type yields different postulation in characteristic zero, two and three.
 This is a useful bounded realization task, not a reduction of arbitrary
 characteristic-zero pairs to a constant quotient.
 
-The [explicit sextic configurations](synthesis/toric_sextic_residuals_and_limits.md)
+The [explicit sextic configurations](arguments/torus_sextic_residuals.md)
 now supply exact controls for splitting, absorption and loss of CI generators.
 The sharp quotient-length bound is eight for proper eigenform sextics in every
 characteristic. A length-nine sole-support search must therefore change the

@@ -57,7 +57,7 @@ free basis gives the remaining length.
 ## Evidence
 
 The first rule is the multiplicity rule (20) of
-[sextic residuals](../synthesis/toric_sextic_residuals_and_limits.md).
+[sextic residuals](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md).
 The two binomial assertions preserve the local calculations in §§1.1–1.2.
 The length-twelve proof here replaces the source's coprime lowest-form
 calculation by an exact binomial reduction; independent review must
