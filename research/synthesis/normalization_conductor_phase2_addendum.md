@@ -42,29 +42,21 @@ The exact cubic model, graph identification, conductor duality, and simple-zero 
 
 ## Exact global sextic-symbol restriction in the conditional (6,16) lane
 
-For an actual supported \((F_6,G_{16})\) pair with **full fiberwise coprime** generic normal CI \((2,12)\) and an **actual saturated movement-two** first relation, write the basepoint-free quadratic first root \(f=a(z)u^2+b(z)uv+c(z)v^2\) and the degree-six symbol \(\sigma_2(F_6)=\alpha f\), where \(\alpha\in H^0(\mathbf P^1,\mathcal O(8))\) is nonzero. A global sextic does **not** have an arbitrary symbol in \(H^0(\mathcal O(10))^3\). The exact map
-\[
-H^0(I_{C_0}^2(6))\longrightarrow H^0(\operatorname{Sym}^2N_{C_0/\mathbf P^3}^{\vee}(6))
-\]
-has source dimension 23, rank 22, kernel \(kq^3\) (with \(q=x_0x_3-x_1x_2\)), and image cut out by **eleven independent linear equations** in the 33 symbol coefficients \(P_j,Q_j,R_j\). A source basis consists of \(q^2\) times the ten quadrics; \(qA\) times \(x_0,x_1,x_2,x_3\); \(qB\) and \(qD\) times \(x_2,x_3\); and \(A^2,AB,AD,BD,D^2\), with \(A=x_0^2x_2-x_1^3\), \(B=x_0x_2^2-x_1^2x_3\), \(D=x_2^3-x_1x_3^2\). The eleven equations are, in order,
-\[
-\begin{gathered}
-P_9-2Q_{10},\quad Q_0-2R_1,\quad P_0-2Q_1+4R_2,\quad
-3P_1-2Q_2-4R_3,\\
-P_2-2Q_3+4R_4,\quad P_3-2Q_4+4R_5,\quad P_4-4R_6,\quad
-P_5-2Q_6+4R_7,\\
-P_6-2Q_7+4R_8,\quad P_7+2Q_8-12R_9,\quad P_8-2Q_9+4R_{10}.
-\end{gathered}
-\]
-Substituting \(P=\alpha a,Q=\alpha b,R=\alpha c\) gives **eleven bilinear global-symbol equations**. They do not invert \(\alpha\) at its zeros. For fixed compatible \((f,\alpha)\), global sextics with this symbol differ by \(\eta q^3\).
+For the fixed characteristic-zero quartic, the second normal jet map
+from \(H^0(I_{C_0}^2(6))\) has a 23-dimensional source, a rank-22 image
+in a 33-dimensional target and kernel \(kq^3\). The
+[exact map and eleven image equations](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map)
+are computed using the actual global source. On the conditional locus,
+testing \(\alpha f\) in that image fixes the sextic up to addition of
+\(\eta q^3\). The [actual cubic-jet test](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet)
+checks this whole affine line.
 
-The next necessary global lifting equation compares the **actual cubic jet** of such a sextic with the unique first-compatible local cubic correction \(G_0\):
-\[
-(F_c)_3-\alpha G_0=f(\ell(z)u+m(z)v),\qquad \deg\ell,\deg m\le7.
-\]
-This is a finite 40-coefficient condition, distinct from the first and second local ambient classes and from the full spectral torsion criterion. The smooth torsion-two seed \(f_0=(z^2+4)u^2+(z^2-8)v^2\) admits a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying the eleven equations, but it **fails** the cubic comparison (an exact annihilating pairing is \(-384\)) and already fails the independently accepted second obstruction. This is a seed exclusion, not emptiness of the combined incidence.
-
-The reviewed singular-root bridge uses the actual transformed ideal \((p,t^{10})\) and proves necessity of the ambient classes even for singular reduced roots, under the stated actual-pair hypotheses. The remaining structured scheme also retains all twenty-five second-obstruction pairings and full-scheme spectral torsion (including nodal gluing); its emptiness, nonemptiness, and realization by a globally supported pair are **unresolved**. The independent audit passed the exact symbol map and conditional necessity reductions, without establishing a general STCI exclusion. [Symbol map and cubic comparison](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map); [global incidence](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-global-realization-incidence); [independent audit](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-incidence-audit).
+The [structured incidence](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-the-exact-remaining-scheme)
+also imposes both ambient obstruction tests and full spectral torsion,
+including nodal gluing. The [independent audit](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-incidence-audit)
+reviews the exact symbol map and conditional necessity. Realization by a
+proper supported pair still requires the
+[global equation certificate](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#8-what-a-realization-would-have-to-certify).
 
 ## The finite source incidence and its constant-rank cubic obstruction
 
@@ -162,7 +154,32 @@ The two-node continuation identifies the complete twenty-five second pairings, s
 
 ## Actual quadric-cycle norm bridge
 
-The preceding root and symbol data acquire a stronger necessary multiplier only from an **actual** degree-(6,16) pair with sole reduced support, full generic coprime ordinary initial CI (2,12), and actual saturated movement-two first relation. Let `B=Bl_C(P3)`, `E` its exceptional divisor, and use the reviewed transformed ideal `(p,t^10)` at every full-root point. Let `Q=(q=0)`, `q=x0x3-x1x2`, identify `C~(1,3)` on Q, and write `pi3:C→P1_ruling`, `z→z^3`. The quadric direction is `q1=u+zv/2`; for `f=a u²+buv+c v²`, put `tau=f(-z/2,1)`. This is a homogeneous quartic. The argument below explains why its **actual residual cycle**, rather than merely its generic symbol, forces the complementary norm multiplier. It preserves the independently reviewed source proof.
+Let \(k\) be algebraically closed of characteristic zero and fix
+\(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\). Suppose an actual proper
+pair \((F_6,G_{16})\) has sole reduced support \(C_0\), full generic
+ordinary initial ideal a coprime binary complete intersection of degrees
+\((2,12)\), and an actual saturated movement-two first relation.
+[R-0010](../results/saturated_first_relation_normal_flatness.md) supplies
+the coprime fiberwise initial algebra. By
+[R-0011](../results/moving_nonreduced_spectral_root_obstruction.md) and
+component degrees in the spectral descent condition, the full root \(Z\)
+is reduced of class \((2,2)\), integral or a union of two distinct
+\((1,1)\) curves. On \(B=\operatorname{Bl}_{C_0}\mathbf P^3\) with
+exceptional divisor \(E\), the [finite singular-root bridge](../supplements/SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md#2-finite-bridge-without-smoothness-of-the-root)
+gives the actual common order-two transform ideal \((p,t^{10})\) at
+every full-root point. The original degree-two symbols are \(\alpha f\)
+and \(\beta f\) with nonzero multipliers that jointly generate the
+relation line everywhere, and \(\alpha\) has degree eight.
+
+Let \(Q=(q=0)\) for \(q=x_0x_3-x_1x_2\). On this smooth quadric
+\(C_0\) has class \((1,3)\) with first ruling map \(\pi_3:z\mapsto z^3\).
+The quadric direction section of \(E\) has class \((1,1)\) and equation
+\(q_1=u+zv/2=0\) in the balanced frame. For
+\(f=a(z)u^2+b(z)uv+c(z)v^2\), let \(\tau=f(-z/2,1)\), the homogeneous
+quartic cutting out the contact of \(Z\) with that section. Under the
+stated hypotheses, \(\tau\ne0\) and the sextic multiplier is the
+complementary norm of \(\tau\) up to scale, with its full divisor
+\(\pi_3^*\pi_{3*}\operatorname{div}(\tau)-\operatorname{div}(\tau)\).
 
 ### The quadric direction is not a root component
 
@@ -235,15 +252,18 @@ as a residual component downstairs.
 
 ### The forced norm, with collision and ramification multiplicities
 
-The local formula implies more than the total equality (2). Write
-`R=sum m_y L_y` as a divisor of ruling fibers. Since `T.L_y=10`,
-and `T` has no component `L_y`, restriction to that fiber gives
+The local formula implies more than the total equality (2). Each zero
+of `tau` gives a contact point of `R,T`, so its ruling fiber belongs to
+`R`. Write `R=sum m_y L_y` as a divisor of ruling fibers. Since
+`T.L_y=10` and `T` has no component `L_y` for `m_y>0`, restriction to
+each such fiber gives
 
     10*m_y
        =sum_(x in C0 intersect L_y) i_x(R,T)
        =10*sum_(x in pi3^-1(y)) ord_x(tau).
 
-Hence the actual divisors satisfy
+Identifying a sum of ruling fibers with its divisor on the ruling base,
+the actual divisors satisfy
 
     R=pi3_* div(tau).                                    (3)
 
@@ -269,7 +289,8 @@ side is
 
 where `e_(j,k)=2` if `j=k mod 3`, and `e_(j,k)=-1` otherwise.
 So the same map is defined over QQ without adjoining `zeta`.
-Its homogeneous version is nowhere zero for every nonzero `tau`.
+In homogeneous coordinates the product is `tau(s,zeta*t)*tau(s,zeta^2*t)`.
+It is a nonzero section for every nonzero `tau`.
 
 Explicitly the coefficient vector is
 
@@ -329,6 +350,41 @@ the coefficient vector in (5), multiplied by 16, is
 the previously computed projective multiplier. This algebraic
 identity does not make that already obstructed seed a survivor.
 
+### Independent review of the norm argument
+
+The separate `surface_bound` reviewer reported PASS for sections 1–4
+of the October 20 `incidence_audit` argument. The reconstruction checked
+restriction of the actual transformed ideal to \(Q'\), regularity from
+\(\tau\ne0\), the absence of a ruling component in \(T\) shared with
+\(R\), the affine comparison `F6|Q=v^2 R4(b)`, and the homogeneous and
+rational coefficient formulas with collisions and ramification. This
+review concerns the necessary norm condition. It also supplied the unit
+observation used in the separate local surface calculation below.
+[Original argument and scoped review](https://github.com/markluxton1/STCI/blob/a779730c6645e293cc0a501597bd4e09a50b36d6/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-independent-review-of-the-norm-argument).
+
+## Local surface singularities and the remaining scope
+
+For \(H\) the pullback of a hyperplane, the strict sextic has class
+\(D=6H-2E\). A smooth member has \(c_2=28\), \(K^2=-4\) and
+\(\chi(\mathcal O_D)=2\) by Noether’s formula. Near a smooth root point
+where \(\alpha|_Z\) has a simple zero, the strict sextic has equation
+\(Ap+t^{10}B\) with \(A|_Z=\alpha|_Z\) in local frames. Here \(B\) is a
+unit. The other multiplier \(\beta\) is a unit there, so the invertible
+change from the actual generators to \((p,t^{10})\) forces the
+off-diagonal coefficient \(B\) to be a unit. The simple zero makes
+\((A,p,t)\) a system of parameters and the germ is of type \(A_9\).
+The divisor \(\operatorname{div}_Z(\alpha)\) has length sixteen.
+
+For a zero of multiplicity \(m\ge1\), the special model
+\((t+z^m)p+t^{10}\) has type \(A_{10m-1}\). Setting \(x=t+z^m\) and
+absorbing the multiple of \(x\) in \(t^{10}-z^{10m}\) into \(p\) gives
+\(xp'+z^{10m}\). This example alone gives no classification of
+multiple-zero germs. A global exclusion also needs a vanishing-cycle
+bound and control of singular roots and nonnormal strict surfaces,
+including singular curves and exceptional fibers. The reviewed
+[normal-surface and reduced-divisor argument](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus)
+and [nonnormal local models](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#nonnormal-conductor-budget-and-local-escape-models)
+address these questions in their stated scopes.
 
 ## Geometric exceptional locus for actual pairs
 
@@ -336,7 +392,7 @@ The October 21 independently reviewed geometric argument gives a necessary condi
 \[
 \operatorname{Disc}_8(N_{\rm comp}(\tau))\,\operatorname{Res}_{8,4}(N_{\rm comp}(\tau),\Delta)=0,\qquad\Delta=b^2-4ac.
 \]
-The degrees in the original root coefficients are 28 and 24. The earlier degree-64 condition also included `Disc_4(Delta)`; the reviewed nodal extension removes that factor, since singular roots with a reduced multiplier divisor have already been excluded. Every homogeneous infinity root remains included. This does not prove the exceptional locus empty. See the historical geometric-audit-and-exceptional-locus note for the proof and its dependencies.
+The degrees in the original root coefficients are 28 and 24. The earlier degree-64 condition also included `Disc_4(Delta)`; the reviewed nodal extension removes that factor, since singular roots with a reduced multiplier divisor have already been excluded. Every homogeneous infinity root remains included. Whether the exceptional locus contains an actual pair remains open. [Proof and dependencies](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus).
 
 ## Singular curves on the strict sextic: two conditional alternatives
 
@@ -370,7 +426,7 @@ It annihilates all 23 actual global sextic source columns and all sixteen correc
 \]
 and its row pairing is \(3-2(3/2)=0\). Thus the exact certificate excludes **every** global sextic lift for this fixed seed, including arbitrary additions of q³. It is not merely a test of one chosen lift. The independent consolidation review checked the saved exact source matrices as well as this coefficient calculation.
 
-The source system has 39 unknowns (23 actual sextic coefficients and sixteen correction coefficients), coefficient rank 39 and augmented rank 40. The row above is the small adequate support; the full source matrices retain the coordinate identification. The seed also fails the separately accepted second obstruction, but that independent exclusion is not needed for this cubic certificate. No emptiness result for the full parameter incidence follows: singular roots, all twenty-five second-obstruction pairings, spectral gluing, and the global mate problem remain.
+The source system has 39 unknowns (23 actual sextic coefficients and sixteen correction coefficients), coefficient rank 39 and augmented rank 40. The full source matrices identify the coefficient conventions. The seed also fails the separately accepted second obstruction. Singular roots, all twenty-five second-obstruction pairings, spectral gluing, and the global mate problem remain for the full parameter incidence. [Exact inputs and replay](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#9-reproduction-and-verification-limits), [independent linear-algebra review](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-independent-linear-algebra-reconstruction).
 
 ## What the conditional (6,16) computation actually tests
 

@@ -158,9 +158,9 @@ The conormal splitting change [R-0020](../results/quartic_conormal_characteristi
 
 ## 3.10B An explicit sextic normal-symbol image
 
-The conditional movement-two (6,16) investigation computes the first nontrivial global-source map rather than assuming normal-symbol surjectivity. For the fixed characteristic-zero quartic, the map from degree-six forms vanishing to order two to quadratic normal symbols has a 23-dimensional domain, a 22-dimensional image and kernel spanned by the cube of the containing quadric. The target has dimension 33, so its image has codimension eleven. The [conditional incidence calculation](normalization_conductor_phase2_addendum.md) gives an explicit source basis and all eleven independent linear equations.
+For the fixed characteristic-zero quartic, the map from degree-six forms vanishing to order two to quadratic normal symbols has a 23-dimensional domain, a 22-dimensional image and kernel spanned by the cube of the containing quadric. The target has dimension 33, so its image has codimension eleven. The [exact symbol map](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map) gives the source basis and all eleven equations.
 
-For a moving quadratic root f with symbol multiplier alpha, these equations become eleven bilinear conditions on f and alpha. They are necessary before considering the next cubic jet; in particular alpha must not be inverted at its zeros. The subsequent cubic-jet compatibility is a separate finite 40-coefficient equation, and its solvability does not construct a proper mate of degree sixteen. This is a concrete instance where complete knowledge of the ambient ideal-power space does **not** make its leading-symbol map surjective.
+For a moving quadratic root f with symbol multiplier alpha, these equations become eleven bilinear conditions on f and alpha, retaining the zeros of alpha. The [actual cubic-jet test](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet) adds a separate finite condition on all forty cubic coefficients. A compatible sextic still needs a proper degree-sixteen mate and a support certificate.
 
 ## 3.10C A failed seed and an exact cubic correction
 
@@ -172,7 +172,7 @@ The twenty-five second-obstruction pairings, full-root torsion and existence of 
 
 ## 3.10E A full-lift certificate beyond the failed seed
 
-The historical [free cube-orbit calculation](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) includes the free \(\eta q^3\) sextic lift. Its restricted chart reduces to \(p(h)=648h^4+45h^2-4=0\), while two full cubic equations satisfy \(E_4-6E_8=18h-324h^3\) and a polynomial unit certificate. Thus that entire chart is empty even after varying the lift. The endpoint and orbit-collision strata remain unexcluded; application to supported pairs depends on the separately proposed norm necessity bridge.
+The historical [free cube-orbit calculation](normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) includes the free \(\eta q^3\) sextic lift. Its restricted chart reduces to \(p(h)=648h^4+45h^2-4=0\), while two full cubic equations satisfy \(E_4-6E_8=18h-324h^3\) and a polynomial unit certificate. Thus that entire chart is empty even after varying the lift. The endpoint and orbit-collision strata remain open. Application to supported pairs uses the [reviewed quadric-cycle norm proof](normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge).
 
 ## 3.10F Two-node reduction and the surviving sextic pencil
 

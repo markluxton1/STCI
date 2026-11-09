@@ -185,7 +185,7 @@ Effectivity and \(\epsilon\ge0\) leave \((\epsilon,c_8)=(0,10)\) or \((1,3)\). I
 
 Thus its resultant degree is three or one. For \(\delta=1\), the general bound \(c_8\le\binom72\delta\) does not contradict either value. These are necessary arithmetic possibilities, not existence evidence.
 
-**Concrete unresolved actual-source incidence.** Use the actual sextic second-symbol image, already computed with rank 22 and kernel \(kq^3\) in the independently reviewed [sextic symbol map](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-symbol-map). Its symbol calculation is reusable independently of the saturated \((2,12)\) application advertised in that note.
+**Concrete unresolved actual-source incidence.** Use the actual sextic second-symbol image, already computed with rank 22 and kernel \(kq^3\) in the independently reviewed [sextic symbol map](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map). Its symbol calculation is reusable independently of the saturated \((2,12)\) application advertised in that note.
 
 Parameterize a full movement-one quadratic root
 
