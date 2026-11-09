@@ -21,6 +21,5 @@ comparisons, and useful counterexamples. Studying a proper intersection
 containing \(C_0\), with residual components allowed, is often informative.
 The STCI question requires those residual components to disappear.
 
-[Authority and scope](research/AUTHORITY.md) govern mathematical claims.
-[Artifact retention](research/ARTIFACT_POLICY.md) keeps useful mathematics and
-necessary exact support; development chronology is available in Git.
+The research model governs [evidence and scoped review](research/MODEL.md#evidence-and-review)
+and [retention of exact proof support](research/MODEL.md#exact-proof-support-and-retention).

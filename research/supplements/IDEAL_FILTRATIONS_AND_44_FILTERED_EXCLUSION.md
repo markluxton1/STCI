@@ -490,7 +490,8 @@ The direction is worthwhile as rigorous organizational and computational languag
 
 ## 10. Evidence, authority, and review boundary
 
-Retrieval followed research/INDEX.md to the smallest relevant records, with research/AUTHORITY.md and research/CONTRIBUTING_AGENT.md governing status.
+Retrieval followed [INDEX](../INDEX.md) to the smallest relevant records.
+Reuse follows the [rules for evidence and scoped review](../MODEL.md#evidence-and-review).
 
 | input | Exact claim used | Scope retained |
 |---|---|---|

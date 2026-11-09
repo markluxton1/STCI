@@ -116,8 +116,9 @@ calculation; the retained full forms satisfy `Fsrc=(x^2+vPar*x+wPar)*Q`.
 A `.txt`, `.json` or compressed file can be the mathematical witness itself.
 Conversely, a rank summary, process record, hash inventory or repeated PASS
 output may add no argument once the exact proof and adequate checking inputs
-survive. Follow the [artifact policy](../ARTIFACT_POLICY.md) and inspect the
-content and consumers before changing support.
+survive. Follow the
+[exact proof support rules](../MODEL.md#exact-proof-support-and-retention) and
+inspect the content and consumers before changing support.
 
 ## Structural checks
 

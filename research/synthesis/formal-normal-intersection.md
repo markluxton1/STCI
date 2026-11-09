@@ -1,6 +1,9 @@
 # Formal normal geometry and residual intersections: research interface
 
-**Status:** exploratory synthesis, not a theorem or a change to authority. This note supplements [Chapter 2](02-two-surfaces.md), [Chapter 3](03-infinitesimal-geometry.md), and the [dependency map](DEPENDENCIES.md). For precise claims use the [research catalog](../CATALOG.md) and [authority rules](../AUTHORITY.md).
+This exploratory synthesis supplements [Chapter 2](02-two-surfaces.md),
+[Chapter 3](03-infinitesimal-geometry.md), and the [dependency map](DEPENDENCIES.md).
+For precise claims use the [research catalog](../CATALOG.md) and the
+[evidence and review rules](../MODEL.md#evidence-and-review).
 
 ## 1. Setup and objects (see the primary treatments)
 

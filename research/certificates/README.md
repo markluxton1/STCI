@@ -14,8 +14,5 @@ explains its complete polynomial tensor identity. The
 connects exact tangent witnesses to formal and étale-local node parameters.
 These are different mathematical arguments, not interchangeable PASS records.
 
-Retain the smallest adequate exact support together with its generators,
-parameters, characteristic, source space and geometric interpretation.
-Saved rank alone does not supply the source-identification or coverage proof.
-A checker that can reconstruct a witness is not evidence that it completed.
-See the [mathematical artifact policy](../ARTIFACT_POLICY.md).
+For keeping or replacing a certificate, use the
+[exact proof support and retention rules](../MODEL.md#exact-proof-support-and-retention).
