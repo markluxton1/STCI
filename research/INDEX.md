@@ -47,6 +47,12 @@ from [loss of the embedded algebra](results/restricted_normal_diagram_counterexa
 The [prescribed characteristic-two pair](results/quartic_char2_fourth_equation_kernel.md)
 gives an exact chartwise lift that survives the comparison.
 
+To recover the defect by normal degree and cancellation page, use the
+[normal Koszul filtration](results/normal_koszul_comparison_defect.md).
+The [recursive transverse complete intersections](results/recursive_normal_koszul_cancellation.md)
+realize all cancellations on page \(q-2\) for \(q\ge3\). Their integral
+carrier realization concerns the affine part of a marked line.
+
 For a specified transverse slice, use the
 [normal-cone specialization test](results/normal_cone_slice_specialization.md)
 to check the power quotients over the DVR. For a formal two-equation complete

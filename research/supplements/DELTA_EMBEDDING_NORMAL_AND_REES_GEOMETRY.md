@@ -1,6 +1,6 @@
 # The equation filtration, conormal torsion and specialization
 
-For a smooth codimension-two curve C in a smooth threefold, retain the marked pair C subset Z=V(f,g), permitting residual components. The [local comparison R-0030](../results/local_filtration_comparison_defect.md) distinguishes minimal full initial equations from the filtered module of actual equations. This supplement gives the additional normal-Koszul, annihilator and extended-Rees proofs with their respective source reviews. The transverse-specialization proofs are in the [transverse specialization argument](../arguments/transverse_specialization.md).
+For a smooth codimension-two curve C in a smooth threefold, retain the marked pair C subset Z=V(f,g), permitting residual components. The [local comparison R-0030](../results/local_filtration_comparison_defect.md) distinguishes minimal full initial equations from the filtered module of actual equations. The [normal Koszul argument](../arguments/normal_koszul_cancellation.md) gives the comparison by cancellation page and the recursive family. This supplement retains the punctual family, annihilator and extended Rees proofs with their respective source reviews. The transverse-specialization proofs are in the [transverse specialization argument](../arguments/transverse_specialization.md).
 
 The organization follows the mechanisms: first the exact comparison and higher cancellation, then the scheme supporting the defect, then its realization as deformation torsion, and finally the separate problem of slicing along the marked curve. All example families and necessary local hypotheses survive. The removed reports repeated these proofs; their substantive corrections are incorporated in the statements below.
 
@@ -62,7 +62,7 @@ The full quotient \(R/J\), its multiplication, and its Rees algebra retain the e
 
 ## The singular-locus defect: normal Koszul differentials, degrees, and length
 
-Date: 2026-10-24. Status: **proved arguments and parameter families, independently reconstructed within this investigation; research proposal**.
+The October 24 investigation records independent reconstructions of the normal Koszul comparison, the generic count and DVR length criterion, and the punctual and recursive families. The migrated Results record the scope of the [normal Koszul review](../results/normal_koszul_comparison_defect.md#review) and the [recursive-family review](../results/recursive_normal_koszul_cancellation.md#review).
 
 This continues the [independent filtration investigation](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), especially its question about
 \(\Delta=\operatorname{in}_I(IJ)/(S_+\operatorname{in}_I(J))\) at simultaneous singular points. The predecessor's quotient comparison and smooth-carrier support proposition are used as reviewed premises rather than reproved.
@@ -107,87 +107,22 @@ For a regular-sequence \(J=(f,g)\), \(\mathcal D\) is free of rank two over \(B\
 
 ### 3. The correct spectral sequence for the defect
 
+[R-0065](../results/normal_koszul_comparison_defect.md) states the comparison,
+its hypotheses, and the filtration of the defect. The complete proof is in
+[the normal Koszul argument](../arguments/normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds).
+
 #### 3.1 A canonical Tor description
 
-Apply \(-\otimes_SB\) to \(0\to H\to S\to A\to0\). Since
-\(H\otimes_SB=H/S_+H\), \(A\otimes_SB=B\), and \(H\subset S_+\), the resulting sequence gives
-\[
-\boxed{Q\simeq\operatorname{Tor}_1^S(A,B).}
-\tag{2}
-\]
-This assertion needs neither a field base nor regularity of \(J\).
-
-Assume now \(I=(x,y)\) is a regular-sequence ideal. Use
-\[
-\mathscr K_\bullet=K_M(x,y)=M\otimes_RK_R(x,y),
-\qquad
-F^n\mathscr K_i=(K^{n-i})^{\binom2i},
-\tag{3}
-\]
-with \(K^a=M\) for \(a\le0\). Both normal Koszul generators have weight one. The associated graded complex is \(K_A(X,Y)\). Since \(S=B[X,Y]\), it yields
-\[
-E_1^{i,n}=\operatorname{Tor}_i^S(A,B)_n
-\ \Longrightarrow\
-\operatorname{gr}_F^n\operatorname{Tor}_i^R(M,B),
-\qquad
-d_r:E_r^{i,n}\to E_r^{i-1,n+r}.
-\tag{4}
-\]
-
-If \(K\) is nilpotent, this is a finite filtration and convergence is immediate. For the formal marked-component examples below, work in the complete noetherian \(I\)-adic setting with the displayed good filtrations. Convergence for this bounded complex can be seen directly from Artin–Rees: there is a uniform \(c\) such that
-\(d\mathscr K_i\cap F^p\mathscr K_{i-1}\subset d(F^{p-c}\mathscr K_i)\).
-If \(z\in F^p\mathscr K_i\) is an approximate cycle with \(dz\in F^{p+r}\) and \(r>c\), choose \(w\in F^{p+r-c}\) with \(dw=dz\). Then \(z-w\) is an actual cycle with the same leading class as \(z\). The same bound supplies all boundary representatives after a bounded number of pages. Thus the limit is the graded actual homology with its induced filtration. Separatedness follows from the local adic filtration. This argument concerns a bounded finite-module complex with good adic filtrations, not arbitrary unbounded filtrations. See the general [filtered-complex construction](https://stacks.math.columbia.edu/tag/012K).
+[Graded Tor and the normal Koszul shifts](../arguments/normal_koszul_cancellation.md#graded-tor-and-the-shifted-normal-filtration) ·
+[Convergence and the homology filtration](../arguments/normal_koszul_cancellation.md#stabilization-and-the-induced-homology-filtration)
 
 #### 3.2 The target filtration is exactly the previous one
 
-The connecting homomorphism for \(0\to J\to R\to M\to0\) identifies
-\[
-\operatorname{Tor}_1^R(M,B)=J/IJ=\mathcal D.
-\]
-A cycle in (3) is represented by \((a,b)\) with \(ax+by\in J\), and maps to \([ax+by]\in J/IJ\). Changes of lifts alter this by \(IJ\); Koszul boundaries map to zero.
-
-A filtered cycle of degree \(n\) can be represented by \(a,b\in I^{n-1}\), hence maps into \(J\cap I^n\). Conversely any \(j\in J\cap I^n\) has \(j=xa+yb\) with \(a,b\in I^{n-1}\). Thus the induced filtration on Tor is precisely \(F^n\mathcal D\) in (1), not an unspecified filtration supplied by an existence theorem.
-
-For regular \(J=(f,g)\), its carrier Koszul resolution also gives
-\[
-\operatorname{Tor}_0^R(M,B)=B,\quad
-\operatorname{Tor}_1^R(M,B)=\mathcal D,\quad
-\operatorname{Tor}_2^R(M,B)=\bigwedge_B^2\mathcal D.
-\tag{5}
-\]
+[The R-0030 comparison on representatives](../arguments/normal_koszul_cancellation.md#the-comparison-on-representatives)
 
 #### 3.3 The higher differentials recover the entire defect
 
-Here \(E_1^{0,n}=0\) except \(E_1^{0,0}=B\). Thus all outgoing higher differentials from \(E_r^{1,n}\), \(n\ge1\), vanish. It follows that
-\[
-Q_n=E_1^{1,n}\twoheadrightarrow E_2^{1,n}
-\twoheadrightarrow\cdots\twoheadrightarrow E_\infty^{1,n}=G_n.
-\]
-The edge map is exactly (1). Put
-\[
-C_{0,n}=0,\qquad
-C_{r,n}=\ker(Q_n\to E_{r+1}^{1,n}).
-\]
-Then
-\[
-\boxed{
-C_{r,n}/C_{r-1,n}
-\simeq\operatorname{im}
-(d_r:E_r^{2,n-r}\to E_r^{1,n}),
-\qquad C_{\infty,n}=\Delta_n.
-}
-\tag{6}
-\]
-This is a filtration of \(\Delta_n\), not a preferred direct-sum decomposition. It answers the question about higher cancellations precisely.
-
-The source is Tor of the **full** normal initial algebra. It is not necessarily a relation between the two displayed leading carrier equations. The earlier filtered carrier Koszul complex \(K(f,g)\) has a different first page. Confusing those two spectral sequences would identify different invariants.
-
-Since the degree-two normal Koszul term has weight two, only \(1\le r\le n-2\) can contribute to (6). In particular
-\[
-\Delta_1=\Delta_2=0.
-\tag{7}
-\]
-More generally, \(J\subset I^e\) implies \(\Delta_n=0\) for \(n\le e+1\): in degree \(e+1\), the initial piece of \(IJ\) is exactly \(S_1H_e\).
+[Incoming images and degree bounds](../arguments/normal_koszul_cancellation.md#incoming-images-and-degree-bounds)
 
 ### 4. Generic generator counts and punctual length
 
@@ -200,11 +135,10 @@ Let \(R=L[[x,y]]\), \(I=(x,y)\), and let \(J\) be an \(I\)-primary two-generator
 \]
 Degreewise it is \(\dim_L\Delta_n=\dim_LQ_n-\dim_LG_n\).
 
-The minimal graded Hilbert–Burch resolution of the artinian \(L[X,Y]/H\) has total Betti numbers \((1,h,h-1)\). Equations (4)–(6) remove exactly \(h-2\) pairs between homological degrees two and one, leaving \((1,2,1)\). A syzygy in degree \(a\) is paired with an equation in degree \(b>a\), with page \(r=b-a\). The literature calls these **negative consecutive cancellations**, despite the positive increase in internal filtration degree.
-
-This mechanism is established mathematics: [Rossi–Sharifan, Theorem 3.1](https://arxiv.org/abs/0904.1086) and [Sammartano, Theorem 2 and its spectral-sequence proof](https://arxiv.org/abs/1605.05220) treat such cancellations. The relative proof above additionally identifies the actual \(B\)-module filtration needed here. These papers are not being used to replace a module calculation over a curve by field-valued Betti numbers.
-
-For a transverse field complete intersection, a nonzero defect cannot occur below degree four. If one generator has order one, the predecessor's smooth-carrier proposition gives zero defect; otherwise \(J\subset I^2\), and (7) gives vanishing through degree three. The predecessor's degree-four example is therefore sharp.
+The [consecutive cancellation argument](../arguments/normal_koszul_cancellation.md#consecutive-cancellations-over-a-transverse-field)
+refines this count by degree and page, from graded Betti totals
+\((1,h,h-1)\) to \((1,2,1)\), and proves the degree-four lower bound
+for a nonzero transverse-field defect.
 
 #### 4.2 Exact torsion formula on a smooth curve
 
@@ -278,7 +212,7 @@ with all other higher pieces zero. The annihilator is exactly \((a)\): the relat
 \]
 The inclusion of \(q\) is already witnessed by \(h=xg-yf\in IJ\). Fullness follows alternatively from \(F^n\mathcal D=0\) for \(n\ge2\).
 
-Therefore every normal degree \(d=m+1\ge3\) and every local length \(r\ge1\) occur independently. Degree three is the smallest possible punctual defect by (7). This contrasts with the transverse-field lower bound four.
+Therefore every normal degree \(d=m+1\ge3\) and every local length \(r\ge1\) occur independently. The [degree bounds for the normal Koszul comparison](../arguments/normal_koszul_cancellation.md#incoming-images-and-degree-bounds) show that degree three is the smallest possible punctual defect. This contrasts with the transverse-field lower bound four.
 
 #### 5.3 Actual fibres and residual support
 
@@ -302,66 +236,18 @@ The actual algebra \(R/J\) is finite flat over \(D\), of rank \(m+2\): the finit
 
 ### 6. Arbitrarily many generic defects and a prescribed cancellation page
 
-Let \(L\) be any field, \(n\ge2\), \(q\ge3\), \(R=L[[x,y]]\), \(I=(x,y)\). Define
-\[
-D_0=1,\quad D_1=x,\quad D_j=xD_{j-1}-y^qD_{j-2},
-\]
-\[
-J_{n,q}=(D_n,y^qD_{n-1}),\qquad
-h_i=y^{qi}D_{n-i}\quad(0\le i\le n).
-\tag{16}
-\]
-The recurrence gives
-\[
-y^qh_{i-1}-xh_i+h_{i+1}=0,\quad h_{n+1}=0.
-\tag{17}
-\]
-Thus \(h_i\in IJ\) for \(i\ge2\).
-
-Because \(q>2\), \(\operatorname{in}D_j=X^j\) and
-\(\operatorname{in}h_i=X^{n-i}Y^{qi}\). Consequently \((X,Y^q)^n\subset H\). Its colength is \(qn(n+1)/2\).
-
-The monic resultant recurrence gives
-\[
-\operatorname{Res}_x(D_n,D_{n-1})
-=\pm y^{qn(n-1)/2}.
-\]
-It follows inductively by reducing \(D_n\) modulo \(D_{n-1}\), which leaves \(-y^qD_{n-2}\). Taking the resultant with \(y^qD_{n-1}\) adds \(y^{qn}\). As \(D_n\) is monic, this is the determinant of multiplication over \(L[[y]]\), so the quotient length is \(qn(n+1)/2\). Equality of colengths proves the full initial ideal:
-\[
-H=(X,Y^q)^n.
-\tag{18}
-\]
-
-Set \(a_i=n+(q-1)i\). The first two classes \(h_0,h_1\) survive in \(\mathcal D\), in degrees \(a_0,a_1\), while the rest lie in \(IJ\). Equation (1), or the length-two quotient \(\mathcal D\), now gives
-\[
-\boxed{\Delta=\bigoplus_{i=2}^nL(-a_i),\qquad
-\dim_L\Delta=n-1.}
-\tag{19}
-\]
-Both the number and degrees of defect generators are unbounded.
-
-There is an explicit resolution realizing every cancellation. Index generator rows \(0,\ldots,n\) and syzygy columns \(1,\ldots,n\). In column \(i\), put \(y^q\) in row \(i-1\), \(-x\) in row \(i\), and \(1\) in row \(i+1\) if \(i<n\). This is a nonminimal Hilbert–Burch matrix for the redundant list (16). Dropping the units gives the minimal graded matrix of (18), with syzygy degrees \(b_i=a_i+1\). The lifted units have gap
-\[
-a_{i+1}-b_i=q-2.
-\]
-Tensoring the strict filtered resolution with \(L\) leaves only these unit entries. Its Tor spectral sequence has
-\[
-d_{q-2}(u_i)=e_{i+1}\quad(1\le i<n),
-\tag{20}
-\]
-and no other nonzero differential. It removes precisely (19), leaving Tor-one degrees \(a_0,a_1\) and Tor-two degree \(b_n=qn+1\). This is an explicit resolution model of the same filtered Tor comparison; a choice of resolution supplies the displayed bases.
+[R-0066](../results/recursive_normal_koszul_cancellation.md) states the
+recursive family and its prescribed page. The
+[proof](../arguments/normal_koszul_cancellation.md#the-recursive-family-and-its-cancellation-page)
+computes both full initial ideals and identifies the strict shifted resolution
+with the normal Koszul spectral sequence from the first page onward.
 
 #### Integral algebraic carriers
 
-The recursive generators themselves need not be integral equations. There is an explicit upgrade. In affine three-space with marked line \(C=(x,y)=0\), choose \(N\ge qn+1\) and set
-\[
-F=D_n+t\,y^N,\qquad
-G=y^qD_{n-1}+t(x^N+y^N).
-\tag{21}
-\]
-Both are primitive and linear in \(t\), hence irreducible by Gauss's lemma. For the first, \(\gcd(D_n,y)=1\). For the second, over an algebraic closure each factor of \(x^N+y^N\) is a line \(x=\lambda y\), \(\lambda\ne0\); substituting it into \(D_{n-1}\) gives a nonzero lowest term \(\lambda^{n-1}y^{n-1}\). There is no common factor.
-
-Since \(I^{qn}\subset J_{n,q}\) after completion, the perturbations lie in \(IJ_{n,q}\). The new generator-change matrix is the identity modulo \(I\), hence invertible in the completions along the affine line. Thus (18)–(20) remain exact there. Homogenization gives integral projective carriers, with this local defect along the affine part of a line. Residual global components are allowed. This proves unbounded local defects under integral-carrier hypotheses; it is not a construction for the fixed rational quartic.
+The [integral perturbations](../arguments/normal_koszul_cancellation.md#integral-carriers-along-the-affine-line)
+preserve the completed ideal along a marked affine line. The
+[projective closures](../arguments/normal_koszul_cancellation.md#projective-scope)
+permit residual components.
 
 ### 7. A supported quadruple: torsion in Q is not enough
 
@@ -908,7 +794,7 @@ proof reviews.
 
 The normal-Koszul edge filtration, generic count, punctual torsion family and recursive cancellation family were independently reconstructed in the inherited source state. The annihilator and full Rees-persistence arguments received separate reconstructions, including the exact entry ideal, all syzygies and the distinction between k[u]-flatness and O_C[u]-flatness. The supported quadruple's full initials were checked against its displayed free base-module basis; sampled Rees computations are supplemental rather than the arbitrary-parameter proof. Exact implementations remain in the [conormal-annihilator checker](../computations/verify_delta_conormal_annihilator_2026_10_24.m2), [Rees equation-module checker](../computations/verify_delta_rees_equation_module_2026_10_24.m2), [singular identity checker](../computations/verify_delta_singular_identities_2026_10_24.py), and [singular-family checker](../computations/verify_delta_singular_families_2026_10_24.m2).
 
-There is no established general sheaf-level identification between the u-power filtration of the persistence module and each page of the incoming normal-Koszul differential filtration. The explicit family proves its own page/duration match. Over O_C[u] the persistence module need not split into compatible elementary blocks. Nor does local realization supply actual homogeneous equation source lines on P3. In particular the supported, generically defect-free punctual question remains open, as stated with the exact examples above.
+There is no established general sheaf-level identification between the u-power filtration of the persistence module and each page of the incoming normal-Koszul differential filtration. The [extended Rees duration family](#6-the-torsion-duration-refines-delta-an-exact-family) proves its own page/duration match. Over O_C[u] the persistence module need not split into compatible elementary blocks. Nor does local realization supply actual homogeneous equation source lines on P3. In particular the supported, generically defect-free punctual question remains open, as stated with the exact examples above.
 
 ### Characteristic reach
 

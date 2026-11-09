@@ -77,7 +77,7 @@ difference. The local comparison alone gives no global line-bundle
 identification or splitting of the first conormal kernel. The
 [prescribed characteristic-two quartic](quartic_char2_fourth_equation_kernel.md)
 needs the full filtration and compatible chart lifts. The relative
-[normal Koszul construction](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#3-the-correct-spectral-sequence-for-the-defect)
+[normal Koszul construction](normal_koszul_comparison_defect.md)
 has its own proof and indexing.
 
 Whether \(\Delta\) can be nonzero and punctual with \(\sqrt J=I\) and

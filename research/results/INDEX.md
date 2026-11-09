@@ -9,6 +9,8 @@ For full exposition see the [reading routes](../synthesis/README.md); for
 missing implications see the [mechanism map](../MAP.md) and
 [open questions](../FRONTIER.md).
 
+- **[STCI-R-0066 — Recursive transverse complete intersections with prescribed normal Koszul cancellation](recursive_normal_koszul_cancellation.md)**
+- **[STCI-R-0065 — Normal Koszul differentials and the filtered equation defect](normal_koszul_comparison_defect.md)**
 - **[STCI-R-0064 — Supported length-five family with a comparison defect on the closed slice](supported_length_five_defect_specialization.md)**
 - **[STCI-R-0063 — Transverse specialization of filtered equations under normal flatness](normal_flat_comparison_specialization.md)**
 - **[STCI-R-0062 — DVR test for specialization of the normal cone](normal_cone_slice_specialization.md)**

@@ -56,6 +56,16 @@ smooth ambient and curve hypotheses. The
 exhibit a positive generic defect and, separately, nonisomorphic intersection
 algebras with identical graded diagrams after restriction to the curve.
 
+With two regular normal parameters and a nilpotent or complete Noetherian
+adic filtration, the [normal Koszul comparison](results/normal_koszul_comparison_defect.md)
+identifies the edge map with R-0030. Incoming page images give successive
+subquotients of \(\Delta_n\). The
+[recursive family](results/recursive_normal_koszul_cancellation.md) realizes
+\(n-1\) cancellations on page \(q-2\) for \(n\ge2\) and \(q\ge3\), in every
+characteristic. Integral carriers preserve the calculation along the affine
+part of a marked line. The general identification with the extended Rees
+torsion filtration remains open.
+
 The [transverse specialization test](results/normal_cone_slice_specialization.md)
 computes the kernel in each normal degree from adjacent neighborhood quotients.
 For an intersection algebra \(M\) flat over the DVR \(B\), with marked
