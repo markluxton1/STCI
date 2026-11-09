@@ -77,6 +77,23 @@ sources and chains open.
 
 The [embedded fourth-extension calculation](synthesis/intrinsic_fourth_extension.md) closes the previously missing neighborhood-only route for the two allowed (4,4) types. It does not supply a general classification of higher-length thickenings or higher-degree actual sources; those remain separate interfaces above.
 
+### Higher-order Rees data for entirely-thick pairs
+
+Consider a hypothetical proper characteristic-zero pair with sole reduced
+support \(C_0\) and both exact generic normal orders \(p,q\ge2\). These orders
+lie outside the [order-one Bănică–Forster bounds](results/order_one.md).
+At or near equality in the [exceptional-cycle bounds](results/entirely_thick.md),
+can a finite invariant of successive transforms and Rees data force a
+residual curve downstairs or rule out the required normalization or
+conductor support?
+
+The [fixed tangent-form examples](synthesis/rees_and_vertical_controls.md#5-counterexample-family)
+have unbounded transverse length. The [affine saturation-defect controls](synthesis/rees_and_vertical_controls.md#5-an-intrinsic-saturation-defect-unbounded-with-fixed-generic-algebra)
+also allow unbounded special-point defects with a fixed generic filtered
+algebra. The open step is to use the higher-order data, including the
+geometry of successive exceptional surfaces, to obtain an additional
+restriction on projective degrees or support.
+
 ### Punctual relative defect under sole support
 
 For a smooth integral marked curve \(C\) in a smooth threefold, let

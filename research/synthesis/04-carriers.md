@@ -153,7 +153,7 @@ The proofs give the fixed-carrier conductor criterion, the restricted Cartier si
 
 **Open comparison:** a direct geometric bridge between the common-normal-factor curve of Chapters 2–3 and the normalization/conductor data of an arbitrary carrier.
 
-Next: [how the exclusion results assemble](05-exclusions.md), followed by the [surviving frontier](06-frontier.md).
+Continue with [how the exclusion results assemble](05-exclusions.md), then the [open interfaces](../FRONTIER.md).
 
 
 ## 4.9 Constructive torsion and the global realization boundary

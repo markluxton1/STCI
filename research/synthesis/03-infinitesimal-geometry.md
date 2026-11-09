@@ -88,7 +88,7 @@ This produces a **necessary degeneration divisor**, not a contradiction to every
 
 ## 3.7 The other multiple-structure calculations
 
-The older [order-one](../results/order_one.md), [jet geometry](../results/jet_geometry.md), and [entirely-thick](../results/entirely_thick.md) analyses ask how ambient sections lift through successive thickenings and how the relevant restriction maps fail to have expected rank. These provide complementary tools for studying the same local-to-global problem. Their historical quartic-carrier cases are not reopened after [STCI-R-0001](../results/quartic_carrier_exclusion.md).
+The [order-one](../results/order_one.md) and [jet geometry](../results/jet_geometry.md) analyses study how ambient sections lift through successive thickenings and how the restriction maps can fall short. When both normal orders are at least two, the [entirely-thick numerical restrictions](../results/entirely_thick.md) use the exceptional cycle of a proper sole-support pair with balanced normal bundle. The historical quartic-carrier cases are covered by [STCI-R-0001](../results/quartic_carrier_exclusion.md).
 
 ## 3.8 The unresolved interface
 

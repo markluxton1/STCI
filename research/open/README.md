@@ -5,7 +5,7 @@ This directory is the durable topic-level layer beneath [../FRONTIER.md](../FRON
 Current research activity is summarized in [FRONTIER.md](../FRONTIER.md). Topic files record mathematical questions, known leverage, invalid shortcuts, and finite targets; their listing order is not a current research ranking.
 
 - [Jet-condition / discrepancy framework](jet_condition_framework.md) — historical quartic-carrier targets closed; higher-degree jet-dependence question remains open.
-- [Entirely-thick branch](entirely_thick.md) — previously prioritized; still an open structural question.
+- [Entirely-thick branch](../FRONTIER.md#higher-order-rees-data-for-entirely-thick-pairs) — higher-order Rees data and projective support.
 - [Local cohomology](local_cohomology.md) — finite incidence frontier.
 - [MF6](mf6.md) — multiplicity-six structural frontier.
 - [Split carriers](split_carriers.md) — surviving split strata.
