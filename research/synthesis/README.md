@@ -34,7 +34,7 @@ proves the constant-image and endpoint criteria. The
 [sextic residual argument](../arguments/torus_sextic_residuals.md)
 proves the sharp eigenpair bound and the explicit full torus limits.
 The [sextic source spaces and pencil dimensions](toric_sextic_residuals_and_limits.md#6-from-invariant-examples-to-the-supported-ci-hilbert-locus)
-and [moving-quotient comparison](toric_quotients_and_endpoint_descent.md#from-constant-orbit-families-to-genuinely-moving-transverse-structure)
+and [moving-quotient comparison](../investigations/quotient-hilbert-comparison/index.md#inputs)
 retain their separate scopes.
 The [characteristic constructions](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md)
 are a proof home, not merely a contrast in an introduction.

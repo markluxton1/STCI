@@ -58,7 +58,7 @@ P_{Z_B}(d)=4nd+n-\delta_0-\delta_\infty,
 [The complete proof](../arguments/torus_embedded_quotients.md#endpoint-defects-and-hilbert-polynomial)
 constructs conductor tails using positive monomials in the units; it does
 not require a reduced finite scheme or a separable power map. The source
-is [the endpoint gluing calculation](../synthesis/toric_quotients_and_endpoint_descent.md#the-two-endpoints-as-a-finite-gluing-defect).
+is [the original endpoint gluing calculation](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#the-two-endpoints-as-a-finite-gluing-defect).
 
 ## Limitations
 
@@ -71,8 +71,7 @@ polynomial identity does not supply global generators.
 
 ## Review
 
-Source provenance: the retained chapter reports independently reviewed
-endpoint arguments. This does not substitute for the separate reconstruction review.
+The historical source records independent review of its endpoint arguments.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted the exact R-0052 route after independently

@@ -58,7 +58,7 @@ proves lattice closure, flat cokernels, and fiber image compatibility.
 Its infinity closure check is explicit: the unique nonunit product of
 total weight below seven is \(a\cdot a=a^2\) at weight six; all remaining
 products have sufficient weight to reduce in the displayed basis.
-The retained source is [the flat collision section](../synthesis/toric_quotients_and_endpoint_descent.md#colliding-orbit-families-inside-the-hilbert-scheme).
+The historical source is [the original flat collision argument](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#colliding-orbit-families-inside-the-hilbert-scheme).
 
 ## Limitations
 

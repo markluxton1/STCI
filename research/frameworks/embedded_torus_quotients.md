@@ -73,14 +73,11 @@ embedded quotient and the homogeneous source test.
 
 The [comparison investigation](../investigations/quotient-hilbert-comparison/index.md)
 connects this lens to [full supported Hilbert boundaries](torus_supported_boundaries.md).
-A hypothetical characteristic-zero supported CI need not have a constant
-embedded quotient; the whole moving finite modification is the relevant
-comparison object. The existing
-[finite-modification proof](../synthesis/tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
-and [strict-movement argument](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier)
-remain source arguments outside the reconstructed constant-family
-proof closure. Their endpoint budget is a constraint on one moving object,
-not a formula for the difference of its two Hilbert limits.
+For a proper degree-\((a,b)\) pair with sole reduced support \(C_0\), the
+investigation points to the separate finite-modification and strict-movement
+proofs. In characteristic zero or characteristic \(p>0\) with \(p\nmid ab\),
+the embedded quotient has positive degree. Its endpoint budget constrains
+one moving object. Comparison with its two Hilbert limits remains open.
 
 Useful next work would identify an actual specialization map for embedded
 quotients, endpoint lattices, and equation modules. A numerical resemblance

@@ -73,7 +73,7 @@ C_0\subset (Z_B)_{\mathrm{red}}\iff(1,1)\in\operatorname{Supp}B,
 ## Evidence
 
 The complete proof is [the finite-image and purity section](../arguments/torus_embedded_quotients.md#finite-image-and-purity).
-The retained source is [the orbit-family construction](../synthesis/toric_quotients_and_endpoint_descent.md#geometry-of-a-finite-family-of-orbit-closures).
+The historical source is [the original orbit-family construction](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#geometry-of-a-finite-family-of-orbit-closures).
 No finite computation is required for this claim.
 
 ## Limitations
@@ -87,7 +87,7 @@ Cohen--Macaulay or a complete intersection.
 
 ## Review
 
-The retained chapter has a separate review of its image and endpoint arguments, distinct from the reconstruction acceptance recorded here.
+The historical source records a separate review of its image and endpoint arguments.
 
 Independent reconstruction review, 2026-11-04: reviewer
 pilot_review_hilbert accepted the exact R-0051 route after independently
