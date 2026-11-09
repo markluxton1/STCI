@@ -53,6 +53,17 @@ The [recursive transverse complete intersections](results/recursive_normal_koszu
 realize all cancellations on page \(q-2\) for \(q\ge3\). Their integral
 carrier realization concerns the affine part of a marked line.
 
+For coefficient torsion in the comparison, the
+[conormal entry ideal](results/conormal_entry_annihilator.md) annihilates the
+defect scheme-theoretically in regular codimension two. The
+[punctual family with integral carriers](results/punctual_comparison_defect_family.md)
+realizes every degree at least three and every positive DVR length in
+characteristic zero, with actual residual support. In the
+[supported quadruple](results/supported_quadruple_equation_filtration.md),
+the torsion in \(Q\) survives in the filtered equation quotients.
+The [complete argument](arguments/punctual_comparison_defects.md) separates
+the relative comparison, its specialization, and the actual slice.
+
 For a specified transverse slice, use the
 [normal-cone specialization test](results/normal_cone_slice_specialization.md)
 to check the power quotients over the DVR. For a formal two-equation complete

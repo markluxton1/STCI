@@ -97,4 +97,4 @@ The October 24 source records independent reconstruction of its local
 specialization development. It uses the earlier local equation comparison
 and the inherited supported quadruple calculation.
 [Specialization source](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-transverse-specialization-and-normal-flatness) ·
-[Supported quadruple](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#7-a-supported-quadruple-torsion-in-q-is-not-enough)
+[Supported quadruple](supported_quadruple_equation_filtration.md)

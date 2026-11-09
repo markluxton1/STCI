@@ -108,7 +108,7 @@ When \(M/K=B\), one has \(U_1=0\), so \(\gamma_1\) is an isomorphism.
 The relative piece \(A_1\) can still have torsion.
 
 For the \(m=2\) case of the
-[characteristic-zero punctual family](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#53-actual-fibres-and-residual-support),
+[characteristic-zero punctual family](punctual_comparison_defects.md#actual-closed-algebra-and-specialization),
 take \(B=k[[t]]\), \(I=(x,y)\subset R=B[[x,y]]\), \(a=t^r\) with \(r\ge1\),
 and \(J=(ax+x^2+y^2,ay+xy+y^2+x^3)\). The closed slice ideal is
 primary to \((x,y)\). In fact its first symbols \(X^2+Y^2\) and
