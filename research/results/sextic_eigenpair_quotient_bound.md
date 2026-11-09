@@ -64,7 +64,7 @@ R-0047 and the same Argument's eigenpair controls verify attainment.
 ## Evidence
 
 Reconstructed from §2 and the explicit §1.1 example in
-[sextic residuals](../synthesis/toric_sextic_residuals_and_limits.md).
+[sextic residuals](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md).
 The proof is an all-characteristic incidence argument.
 
 ## Limitations

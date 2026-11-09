@@ -45,7 +45,7 @@ then \(Y=V(F,G)\).
 [The proof](../arguments/torus_embedded_quotients.md#pure-curve-degree-exhaustion)
 supplies both steps, including the elimination of a possible finite-support
 kernel. This independently reusable lemma is extracted from the
-[source's proper-pair criterion](../synthesis/toric_quotients_and_endpoint_descent.md#when-does-the-compactified-family-have-two-global-equations).
+[source's proper-pair criterion](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#when-does-the-compactified-family-have-two-global-equations).
 
 ## Limitations
 

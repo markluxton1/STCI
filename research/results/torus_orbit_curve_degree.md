@@ -71,7 +71,7 @@ obtain generic multiplicities.
 ## Evidence
 
 Reconstructed from §§1 and 5 of
-[sextic residuals](../synthesis/toric_sextic_residuals_and_limits.md).
+[sextic residuals](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md).
 The dense quotient calculation is the elementary product calculation,
 not a claim of global endpoint descent.
 

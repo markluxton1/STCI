@@ -68,7 +68,7 @@ the endpoint defects of R-0052 necessarily satisfy
 [The complete proof](../arguments/torus_embedded_quotients.md#actual-equations-and-the-ci-criterion)
 uses distinct binary monomials for distinct integer weights and applies
 the [pure-curve degree-exhaustion lemma](pure_curve_degree_exhaustion.md).
-The source is [the projective equation criterion](../synthesis/toric_quotients_and_endpoint_descent.md#when-does-the-compactified-family-have-two-global-equations).
+The source is [the projective equation criterion](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#when-does-the-compactified-family-have-two-global-equations).
 No finite computation is necessary to establish the criterion.
 
 ## Limitations

@@ -168,56 +168,12 @@ they do not measure residual curves.
 
 ## When does the compactified family have two global equations?
 
-The finite orbit family and its endpoint gluing determine a projective
-curve scheme. Whether it is a complete intersection is a separate
-**global presentation** question. In codimension two, the combination
-of a proper pair of containing hypersurfaces and degree exhaustion
-answers this question exactly. The genus equality obtained from endpoint
-defects is only a necessary numerical shadow of this presentation test.
-
-For positive integers \(a,b\), the following criterion is exact:
-\[
- Z_B\text{ is a scheme CI of type }(a,b)
- \iff ab=4n\text{ and there exist }F\in K_a,G\in K_b
- \text{ with }\gcd(F,G)=1.
- \tag{10}
-\]
-The forward implication is immediate. For the converse, the gcd condition
-makes \(X=V(F,G)\) a pure Cohen--Macaulay complete-intersection curve
-containing \(Z_B\). Its degree equals \(4n\), so the inclusion is an
-equality at every generic point: a positive generic kernel would contribute
-a positive degree. The remaining kernel
-\(\mathcal I_{Z_B}/\mathcal I_X\subset\mathcal O_X\) is supported at
-finitely many points. A pure Cohen--Macaulay curve has no nonzero submodule
-with such support, so the kernel vanishes as a sheaf. The homogeneous
-ideal \((F,G)\) is saturated, as is \(K\), proving \(K=(F,G)\).
-Thus equality of degrees is used together with containment, properness and
-purity; equal degrees alone would not suffice.
-
-The spaces in (10) have a direct finite coefficient description. For each
-monomial \(x^e\) of total degree \(d\), put
-\(w=e_1+3e_2+4e_3\). Its image is
-\(u^{e_2}v^{e_3}s^{4d-w}t^w\). Distinct integer weights have distinct
-binary monomials, even in positive characteristic. Therefore
-\[
- H_{S/K}(d)=\sum_{w=0}^{4d}
- \dim_k\operatorname{span}\{u^{e_2}v^{e_3}: |e|=d,
-                         \ e_1+3e_2+4e_3=w\}.
- \tag{11}
-\]
-Within each weight, the coefficient kernel supplies exactly the corresponding
-part of \(K_d\). This is a finite construction of equation spaces, not a
-proof that their elements contain a proper pair.
-
-If (10) holds, comparing (9) with the CI genus formula yields the necessary
-identity
-\[
- \delta_0+\delta_\infty=n(2a+2b-7).
- \tag{12}
-\]
-Its converse has not been asserted: the actual gcd-one equation pair remains
-necessary. Numerically compatible endpoint defects do not establish ACMness,
-Gorensteinness, or two homogeneous generators.
+[R-0053](../results/constant_quotient_equation_criterion.md#statement)
+gives the exact prescribed-degree criterion for the constant embedded image.
+[A-0003](../arguments/torus_embedded_quotients.md#actual-equations-and-the-ci-criterion)
+computes the actual homogeneous source spaces weight by weight and proves
+the criterion by containment, properness, and degree exhaustion. Its
+endpoint genus equality is necessary for that presentation.
 
 ## The fourth-root family: four branches versus one thick branch
 
@@ -234,7 +190,8 @@ Take \(B=k[u]/(u^4-1)\), \(v=1\), so \(n=4\). The prescribed equations
 \[
  F=x_1^4-x_0^3x_3,\qquad G=x_2^4-x_0x_3^3
 \]
-belong to \(K\), have gcd one, and exhaust degree sixteen. Thus (10)
+belong to \(K\), have gcd one, and exhaust degree sixteen. The
+[prescribed-degree criterion](../results/constant_quotient_equation_criterion.md)
 identifies their scheme with \(Z_B\). The statement and its full
 integral flatness and support proof are
 [R-0021](../results/quartic_mu4_degeneration.md) and
@@ -436,7 +393,7 @@ quotients or homogeneous defining pairs. The original \(u,v\) embeddings
 must still be carried through (5); Smith invariants alone do not recover
 those endpoint algebras.
 
-The [sextic residuals and limits](toric_sextic_residuals_and_limits.md)
+The [sextic residuals and limits](../arguments/torus_sextic_residuals.md)
 apply this language to actual residual curves and to a full saturated limit.
 They do not enlarge the constant-quotient framework to arbitrary supported
 complete intersections. For such an actual pair of degrees \((a,b)\), the
@@ -453,8 +410,9 @@ For sole-support type \((6,6)\), this means rank nine and
 A constant \(B\) has \(e=0\) and therefore cannot represent every such pair.
 
 The remaining interfaces are precise: construct and test actual gcd-one
-pairs in (10) for a declared finite quotient; classify which embedded
-quotients permit the two endpoint descents; or move to the full positive-degree
+pairs using [R-0053](../results/constant_quotient_equation_criterion.md) for a
+declared finite quotient, classify which embedded quotients permit the two
+endpoint descents, or move to the full positive-degree
 quotient family in (19) and recover its two global homogeneous generators.
 The examples show that abstract algebra, total length, endpoint indices and
 flat collision each omit some of that information. No assertion here excludes

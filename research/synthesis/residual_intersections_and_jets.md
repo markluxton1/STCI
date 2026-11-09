@@ -116,7 +116,7 @@ local generators are weaker data.
 
 ## Root configurations, conductor, and characteristic
 
-The [toric sextic configurations](toric_sextic_residuals_and_limits.md)
+The [toric sextic configurations](../arguments/torus_sextic_residuals.md)
 give eigenform intersections with eight or six quotient length units and
 explicit boundary cycles, a sharp length-eight bound for all eigenform sextic
 pairs in every characteristic, and mixed-weight splitting and absorption
@@ -134,7 +134,7 @@ control, balanced-boundary interpretation and two-scale mixed-characteristic
 collision tree. These are explicit laboratories, not invariants of every
 pair.
 
-The [embedded quotient comparison](toric_quotients_and_endpoint_descent.md)
+The [embedded quotient comparison](../arguments/torus_embedded_quotients.md)
 separates abstract finite algebras from their projective images. Its flat
 characteristic-zero four-root collision has genus 28, whereas the prescribed
 characteristic-two quartic CI has genus 33. Its actual endpoint lattices explain

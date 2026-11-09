@@ -58,7 +58,7 @@ of the exact sequence and R-0044 then compute the cycle.
 ## Evidence
 
 This abstracts the explicit colon calculation in §4.1 of
-[sextic residuals](../synthesis/toric_sextic_residuals_and_limits.md).
+[sextic residuals](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md).
 The general prime and smoothness hypotheses are stated explicitly here;
 no symbolic colon routine is used as the proof.
 

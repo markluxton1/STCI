@@ -59,7 +59,7 @@ and saturation.
 ## Evidence
 
 Reconstructed from §3.2 of
-[sextic residuals](../synthesis/toric_sextic_residuals_and_limits.md).
+[sextic residuals](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md).
 No characteristic restriction is needed for the graph or multiplicities.
 
 ## Limitations
