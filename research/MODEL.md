@@ -249,6 +249,11 @@ python3 scripts/check_markdown_links.py --anchors
 and freshness checking do not write files. `route` reads the starting sections
 linked in the [index's lane table](INDEX.md#find-a-statement-proof-or-open-question).
 Read the linked proof when checking a claim's argument or dependencies.
+`route <lane> --compact` lists those locations and relevant headings in the
+starting documents. `section ADDRESS [ADDRESS ...]` reads selected Markdown
+files or anchored sections. It refuses an oversized response before emitting
+source text. Use `--lines FIRST LAST` on a single address to request an inclusive
+range within that file or section. The output marks a partial read explicitly.
 `--root /path/to/repository` before the subcommand
 selects another checkout or a temporary fixture. The generated view contains
 no timestamps and displays actual route reviews and activity states. It is the

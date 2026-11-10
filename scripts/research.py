@@ -64,6 +64,14 @@ LEGACY_QUESTION_STATUSES = {"open", "conditional", "resolved", "superseded"}
 LEGACY_FIELDS = {"id", "title", "kind", "status", "scope", "statement", "dependencies", "evidence",
                  "independent_audits", "legacy_ids", "supersedes", "superseded_by",
                  "limitations", "applicable_results"}
+ROUTE_LINK = re.compile(r"\[([^\]]+)\]\(([^\s)]+)\)")
+OWNER_SECTIONS = (
+    "scope", "statement", "statement-and-hypotheses", "limitations",
+    "consequences-and-boundaries", "proof-outline", "current-proof",
+    "proof-verification-and-acceptance", "evidence", "controls", "inputs",
+    "findings", "completion-and-next-decisions",
+)
+SECTION_CHAR_LIMIT = 12_000
 
 
 @dataclass
@@ -737,7 +745,7 @@ class Repository:
                     lines.append(f"Owns proof for {other.id}: {route['name']} at {route['at']}")
         return "\n".join(lines) + "\n"
 
-    def read_route(self, lane):
+    def route_columns(self, lane):
         index = self.root / "research/INDEX.md"
         if not index.resolve().is_relative_to(self.root):
             raise ValueError("research index resolves outside the repository")
@@ -745,26 +753,94 @@ class Repository:
                         index.read_text(encoding="utf-8"), re.MULTILINE)
         if not row:
             raise ValueError(f"Unknown research lane: {lane}")
-        targets = re.findall(r"\[[^\]]+\]\(([^\s)]+)\)", row[1])
-        if not targets:
+        if not ROUTE_LINK.search(row[1]):
             raise ValueError(f"Research lane has no starting sections: {lane}")
+        return index, row[1], row[2]
+
+    def read_route(self, lane):
+        index, start, follow_up = self.route_columns(lane)
         sections = []
-        for target in targets:
+        for _, target in ROUTE_LINK.findall(start):
             address = f"research/{target}"
             path = self.location(address, index, lane, fragment=True)
             if self.errors:
                 raise ValueError("\n".join(self.errors))
             anchor = unquote(urlsplit(address).fragment)
             sections.append(f"Source: {address}\n\n{self.section_bodies(path, verbatim=True)[anchor]}")
-        sections.append(f"Follow-up links relative to research/INDEX.md\n\n{row[2]}")
+        sections.append(f"Follow-up links relative to research/INDEX.md\n\n{follow_up}")
         return "\n\n".join(sections) + "\n"
+
+    def compact_route(self, lane):
+        index, start, follow_up = self.route_columns(lane)
+        lines = [
+            f"Research lane: {lane}",
+            "Read selected sources with python3 scripts/research.py section ADDRESS [ADDRESS ...].",
+        ]
+        seen = set()
+        owners = {}
+        for heading, column in (("Starting sources", start),
+                                ("Proofs, controls, and open dependencies", follow_up)):
+            lines += ["", heading]
+            for label, target in ROUTE_LINK.findall(column):
+                address = f"research/{target}"
+                path = self.location(address, index, lane, fragment=column == start)
+                if self.errors:
+                    raise ValueError("\n".join(self.errors))
+                lines.append(f"- {label} — {address}")
+                seen.add(address)
+                if column == start:
+                    owners[path] = address.split("#", 1)[0]
+        extra = []
+        for path, owner in owners.items():
+            sections = self.section_bodies(path)
+            for anchor in OWNER_SECTIONS:
+                address = f"{owner}#{anchor}"
+                if address not in seen and sections.get(anchor):
+                    extra.append(f"- {anchor.replace('-', ' ').capitalize()} — {address}")
+        if extra:
+            lines += ["", "Additional owner sections (including evidence and certificate locations)", *extra]
+        return "\n".join(lines) + "\n"
+
+    def read_sections(self, addresses, *, line_range=None, max_chars=SECTION_CHAR_LIMIT):
+        if max_chars < 1:
+            raise ValueError("--max-chars must be positive")
+        if line_range and len(addresses) != 1:
+            raise ValueError("--lines requires exactly one address")
+        sections = []
+        for address in addresses:
+            path = self.location(address, self.root / "research/INDEX.md", "section")
+            if self.errors:
+                raise ValueError("\n".join(self.errors))
+            if not urlsplit(address).path or path.suffix.lower() not in {".md", ".markdown"}:
+                raise ValueError(f"Expected a repository-relative Markdown address: {address}")
+            anchor = unquote(urlsplit(address).fragment)
+            body = (self.section_bodies(path, verbatim=True)[anchor]
+                    if anchor else path.read_text(encoding="utf-8").rstrip("\n"))
+            header = f"Source: {address}"
+            if line_range:
+                first, last = line_range
+                lines = body.splitlines()
+                if not 1 <= first <= last <= len(lines):
+                    raise ValueError(f"--lines must lie within 1–{len(lines)} for {address}")
+                if first != 1 or last != len(lines):
+                    header += f"\nWarning: partial source, showing lines {first}–{last} of {len(lines)}."
+                body = "\n".join(lines[first - 1:last])
+            sections.append(f"{header}\n\n{body}")
+        output = "\n\n".join(sections) + "\n"
+        if len(output) > max_chars:
+            raise ValueError(
+                f"Section output requires {len(output)} characters, exceeding the {max_chars} character limit. "
+                "No source text was emitted. Select fewer addresses, read a range with --lines FIRST LAST, "
+                "or raise --max-chars explicitly."
+            )
+        return output
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ("validate", "catalog", "show", "route"):
+    for name in ("validate", "catalog", "show", "route", "section"):
         command = commands.add_parser(name)
         command.add_argument("--root", type=Path, default=argparse.SUPPRESS)
         if name == "catalog":
@@ -773,6 +849,13 @@ def main(argv=None):
             command.add_argument("identifier")
         elif name == "route":
             command.add_argument("lane")
+            command.add_argument("--compact", action="store_true", help="list source locations without expanding sections")
+        elif name == "section":
+            command.add_argument("addresses", nargs="+", metavar="ADDRESS")
+            command.add_argument("--lines", nargs=2, type=int, metavar=("FIRST", "LAST"),
+                                 help="inclusive one-based range within one source section or file")
+            command.add_argument("--max-chars", type=int, default=SECTION_CHAR_LIMIT,
+                                 help="refuse output above this many characters (default: %(default)s)")
     args = parser.parse_args(argv)
     repository = Repository(args.root)
     try:
@@ -785,7 +868,10 @@ def main(argv=None):
         elif args.command == "show":
             print(repository.show(args.identifier), end="")
         elif args.command == "route":
-            print(repository.read_route(args.lane), end="")
+            route = repository.compact_route if args.compact else repository.read_route
+            print(route(args.lane), end="")
+        elif args.command == "section":
+            print(repository.read_sections(args.addresses, line_range=args.lines, max_chars=args.max_chars), end="")
         else:
             content = repository.catalog()
             target = repository.root / "research/CATALOG.md"
