@@ -434,7 +434,7 @@ This lane is a controlled illustration of the distinction between a root scheme,
 
 The cubic-image and conductor calculation adds a further restriction **conditional on an actual supported pair**: the multiplier has a multiple base zero or vanishes at a node of the full root. The smooth-root discriminant condition and the remaining exceptional strata are necessary tests, not a proof that a proper pair exists or that every (6,16) pair is excluded. In particular, the rejected nonfinite nodal normalization cannot be used to close the nodal stratum.
 
-These conditions sit at different logical levels: (i) root and formal normal algebra; (ii) actual global sextic source; (iii) conductor geometry for a supported pair; and (iv) the still-unresolved exceptional locus. Their conjunction is a candidate-family test, not a universal implication between the global determinant, residual-jet and conductor-descent routes. See [Chapter 3](03-infinitesimal-geometry.md#311-embedded-one-step-lifting-and-the-actual-homogeneous-source) and [dependencies](DEPENDENCIES.md).
+These conditions sit at different logical levels: (i) root and formal normal algebra; (ii) actual global sextic source; (iii) conductor geometry for a supported pair; and (iv) the still-unresolved exceptional locus. Their conjunction is a candidate-family test, not a universal implication between the global determinant, residual-jet and conductor-descent routes. See [Chapter 3](03-infinitesimal-geometry.md#311-embedded-one-step-lifting-and-the-actual-homogeneous-source) and [proved arrows and proposed bridges](../MAP.md#proved-arrows-and-proposed-bridges).
 
 ## Why the conditional sextic conductor does not solve descent
 

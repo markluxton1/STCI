@@ -151,37 +151,18 @@ Choose a next test by what it can change: an actual supported two-generator
 point gives a construction; emptiness on a declared family limits that family;
 a specialization map can connect two previously separate data sets. Repeating
 an eigenpair exclusion or a numerical endpoint budget supplies no all-family
-coverage. The pilot's
-[Investigation records](investigations/README.md) state stopping points and
-remaining dependencies explicitly.
+coverage. The [cataloged Investigations](CATALOG.md#investigations) give the question,
+stopping conditions, and dependencies for each activity.
 
-**Necessary invariant-limit principle.** If a degree-(a,b) complete
-intersection has reduced support exactly C0, then the full flat limit of its
-ideal under the one-parameter torus action is a T-invariant scheme with
-reduced support exactly C0 and the same complete-intersection Hilbert
-polynomial. Indeed, for some N its ideal lies between I_C0^N and I_C0;
-these torus-stable containments persist in the full flat limit, so the
-support cannot acquire residual curves or disappear. This is a necessary
-condition for *every* hypothetical supported STCI, not merely for
-T-invariant defining equations.
-
-The [full flat-limit account](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary)
-also explains the essential qualification: the invariant limit need not
-remain a complete intersection, or even admit two generators. Therefore
-excluding invariant **pairs of equations** with sole support is not enough.
-A potentially sufficient obstruction would exclude *all* T-invariant
-sole-supported ideals of the required Hilbert polynomial that arise as
-full flat limits of degree-(a,b) complete intersections. Equivalently,
-one can investigate the intersection of the torus-fixed Hilbert locus
-with the closure of the supported complete-intersection locus, retaining
-the marked support condition in the degeneration. A fixed-locus
-classification alone is not an obstruction without the deformation or
-coverage step.
-
-The proposed direction is to study invariant boundary ideals together
-with deformations preserving support that can recover CI or ACM structure.
-The general member must be allowed to break symmetry. Limiting two
-individual forms discards relations and can leave a common surface factor.
+Use the [full-limit theorem](results/supported_hilbert_full_limits.md#statement)
+to carry sole support and the complete-intersection Hilbert polynomial to
+both torus limits. Choose an actual degree pair and a family with a justified
+power bound before asking for coverage. A local test may start at a specified
+fixed ideal with the required polynomial and support, compute the embedded
+tangent and obstruction spaces with their torus weights, and then impose the
+actual generator equations on the moving ideal. The
+[full-limit proof](arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits)
+retains the full limit and endpoint structure.
 
 For a specified finite embedded quotient, the
 [endpoint-descent criterion](results/constant_quotient_equation_criterion.md)

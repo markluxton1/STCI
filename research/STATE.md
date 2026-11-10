@@ -6,12 +6,15 @@ state exact hypotheses and point to proofs and scoped reviews. The linked
 mathematical homes also retain conditional reductions and explicit open steps;
 organization supplies no additional mathematical justification.
 
-The [four-object torus pilot](frameworks/torus_supported_boundaries.md) now
-provides complete independently reviewed reconstructions of supported Hilbert
-limits, eigenform and residual controls, and
-[constant embedded quotient descent](frameworks/embedded_torus_quotients.md).
-Its Results record the scope of each accepted proof review. The reconstructed
-expositions preserve the exact boundaries and the open STCI question below.
+The [full torus limits](results/supported_hilbert_full_limits.md#statement)
+retain the support and Hilbert polynomial. The
+[invariant-ideal exclusion](results/invariant_supported_ci_exclusion.md#statement)
+rules out a complete intersection with sole support \(C_0\) in characteristic
+zero when its entire ideal is invariant under the quartic's torus. The
+[sharp eigenpair bound](results/sextic_eigenpair_quotient_bound.md#statement)
+applies to proper sextic eigenform pairs in every characteristic. To test
+two-generation on a moving supported ideal, use the
+[opposite-limit framework](frameworks/torus_supported_boundaries.md).
 
 The maintained account also describes proper intersections containing C0,
 their multiplicities and residual cycles, supported multiple structures, and

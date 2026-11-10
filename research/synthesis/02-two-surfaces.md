@@ -42,10 +42,13 @@ share a factor, actual cancellation and successive transforms determine the
 remaining length. For example \((u,u+v^N)=(u,v^N)\) has length \(N\)
 although its displayed first symbols are unchanged as \(N\) varies.
 
-The full initial **ideal** includes cancellation-generated equations; it
-cannot be replaced by the ideal of the two displayed leading symbols. The
-[filtration account](normal_filtration_boundary_obstructions.md) separates
-that generic issue from a punctual failure of relations to extend along \(C\).
+The full initial **ideal** includes cancellation-generated equations. The
+orders \(r,s\) here refer to the displayed pair. In the
+[complete-intersection bridge](03-infinitesimal-geometry.md#35-the-actual-complete-intersection-bridge)
+the same letters denote the degrees of the minimal generators of the full
+initial ideal. The [filtration account](normal_filtration_boundary_obstructions.md)
+separates generic cancellation from failure of relations to extend at a
+special point of \(C\).
 
 ## 2.2 The common graph and its two contractions
 

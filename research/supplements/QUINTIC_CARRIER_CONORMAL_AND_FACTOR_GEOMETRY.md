@@ -25,9 +25,12 @@ The scope is the fixed smooth curve
     C=C0=[s^4:s^3t:st^3:t^4] in P3,
 
 over an algebraically closed field of characteristic zero. We use the
-accepted conormal calculation `N_C^*=O_P1(-7)^2`, P-005/P-006/P-011/P-015
-in [the research record](../RESEARCH_RECORD.md), and, when explicitly stated,
-the separately audited exclusion of all integral quartic carriers. The
+accepted conormal calculation `N_C^*=O_P1(-7)^2`, the [P-005 smooth-carrier
+obstruction](../synthesis/global_equations_and_constructions.md#p-005-a-smooth-carrier-obstruction),
+the [P-006 formal-normal resultant theorem](../synthesis/formal-normal-intersection.md#p-006),
+the [P-011 normal-order bound](../synthesis/formal-normal-intersection.md#low-degree-surfaces-singular-along-the-whole-quartic),
+and the [P-015 fixed-carrier descent theorem](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#canonical-compression-on-a-minimum-actual-carrier). Where
+explicitly stated, we also use the [integral quartic carrier exclusion](../results/quartic_carrier_exclusion.md). The
 unrestricted C0 and universal STCI questions remain open.
 
 ## 1. Generic order, compressed degree and the missing double divisor

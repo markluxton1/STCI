@@ -1,5 +1,6 @@
 -- Independent Jacobian proof for the fixed monomial smooth rational quartic.
--- This reinforces RESEARCH_RECORD P-009, rather than claiming a new splitting.
+-- This independently checks the characteristic-zero fixed-quartic splitting
+-- of STCI-R-0020 in research/results/quartic_conormal_characteristic_jump.md.
 R = QQ[s,t];
 forms = matrix{{s^4,s^3*t,s*t^3,t^4}};
 J = matrix{{4*s^3,3*s^2*t,t^3,0},{0,s^3,3*s*t^2,4*t^3}};

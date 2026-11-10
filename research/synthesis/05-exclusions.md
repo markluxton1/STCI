@@ -131,8 +131,8 @@ normal coefficient explains why some case distinctions remain necessary.
 The unrestricted problem still needs a construction or obstruction for
 actual homogeneous higher-degree pairs. Formal/local/graded models,
 numerical class compatibility, and one fixed-carrier exclusion do not
-establish that missing implication. See [the frontier](../FRONTIER.md) and
-[dependency map](DEPENDENCIES.md).
+establish that missing implication. See the [frontier](../FRONTIER.md) and
+the [scoped conclusions](../STATE.md#exclusions-and-constructions).
 
 ## 5.8 Three mechanisms for the quartic-pair obstruction
 

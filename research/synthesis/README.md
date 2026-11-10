@@ -43,6 +43,6 @@ are a proof home, not merely a contrast in an introduction.
 A full proof has one owner. Other chapters explain its application and link it.
 Result records state exact mathematics and scoped proof reviews. Conditional
 mechanisms and counterexamples retain their full mathematical value.
-The [dependency map](DEPENDENCIES.md) states proved implications separately
-from proposed bridges. Necessary exact computations remain attached to the
+Use the [mechanism map](../MAP.md) for proof connections and the
+[frontier](../FRONTIER.md) for open comparisons. Necessary exact computations remain attached to the
 arguments that use them; a historical execution log has no independent role.

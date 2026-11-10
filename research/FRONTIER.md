@@ -44,7 +44,7 @@ results change and how to choose between constructive and obstructive aims.
 | Normal Koszul pages and extended Rees torsion | [Incoming differential filtration](results/normal_koszul_comparison_defect.md), [extended Rees persistence](supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#7-consequences-limits-and-next-questions) | Compare the page filtration of \(\Delta\) with the \(u\)-power filtration of equation-module torsion over \(\mathcal O_C[u]\). The explicit Rees duration family proves its own page match. A general sheaf-level identification is open |
 | Punctual comparison defects | [Statements and proofs](arguments/punctual_comparison_defects.md#statements-and-proofs) | [Punctual relative defect under sole support](#punctual-relative-defect-under-sole-support) |
 | Conditional sextic incidence | [Structured incidence](supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-the-exact-remaining-scheme), [forced norm for actual pairs](synthesis/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge), [unique actual lift](synthesis/rank_strata_and_sextic_lifts.md) | Cubic matching determines at most one actual sextic on the necessary root open; resolve the surviving root/target incidence and then a mate and support. Generic-conic, zero-defect pencil and endpoint strata remain; the seed and free cube-orbit chart are already excluded within their exact scopes |
-| Actual carrier families | [Fixed-carrier descent](synthesis/04-carriers.md), [Q-0001](questions/cartier_projection_models.md) | Compute admissible images, full inverse support and complete conductor phase; include non-Cartier/multiple-branch carriers outside singleton classification |
+| Actual carrier families | [Fixed-carrier descent](synthesis/04-carriers.md), [Q-0001](questions/cartier_projection_models.md), [phase reduction](results/projection_phase_reduction.md), [plane conductor test](results/singleton_plane_conductor_descent.md) | Compute admissible images, full inverse support and complete conductor phase; include non-Cartier/multiple-branch carriers outside singleton classification |
 | Elliptic projection | [Canonical gluing](synthesis/projection_and_elliptic_gluing.md) | Pass component polarization, actual node gluing, determinant support and projection admissibility simultaneously; palindromic and paired examples fail at different gates |
 | Elliptic double-inverse construction | [Actual five-parameter source](synthesis/elliptic_double_inverse_construction.md) | Test full inverse support fiberwise while retaining smoothness, basepoint freedom and finite birationality, then test actual section descent; the failed fixed member does not decide the family |
 | Sole-support sextic pairs and their cyclic cover | [Sextic profiles and normal cover](supplements/SEXTIC_PAIR_REDUCTION.md) | The three divisor profiles, nonreduced common symbol, index-nine point and cover invariants constrain realization; no incompatible upper irregularity bound or global construction is known |
@@ -205,6 +205,17 @@ equation quotient. The [degree-four cancellation](results/initial_equation_cance
 fails generic vanishing. For a control with a nonzero actual slice defect
 and zero relative defect, see the
 [bounded length-five test](#supported-length-five-degeneration).
+
+### Comparing the normal cone with marked Quot incidence
+
+For a specified proper pair with intersection ideal \(J\), compare
+\(\operatorname{gr}_{\mathcal I_C}(\mathcal O/J)\) with a marked lower
+thickening in the [Quot incidence for residual absorption](synthesis/marked_deformation_and_absorption.md).
+Projectivizing the full normal cone on the exceptional surface can discard
+zero-section data. The open task is to construct a comparison of the two
+deformation problems with its kernel and cokernel and to specify the normal
+relations that the comparison retains. See the [formal-normal framework](frameworks/formal-normal-geometry.md)
+and the [normal-filtration account](synthesis/normal_filtration_boundary_obstructions.md).
 
 ## Tests that distinguish a new implication from a repeated computation
 
@@ -391,7 +402,24 @@ with an actual projection, passing from the [spectral graded families](synthesis
 to actual ambient equations, and extending [tame projection sections](supplements/TAME_PROJECTION_SECTIONS.md)
 to other covers. All-power spectral splitting is already in the maintained
 account; its ambient realization is the remaining bridge. These questions need
-precise source and comparison hypotheses.
+precise source and comparison hypotheses. Three comparisons narrow the next test.
+
+- For a surviving degree-at-least-five family, link the [normal-flatness](results/saturated_first_relation_normal_flatness.md),
+  [resultant](results/nonsaturated_first_relation_resultant.md),
+  [socle](results/full_conormal_socle_budget.md), and
+  [constant-relation lifting](results/constant_first_relation_lifting.md)
+  tests to actual homogeneous pairs. Check saturation and properness before sole support.
+- For a finite flat or curvilinear family, compare the
+  [filtered equation defect](results/local_filtration_comparison_defect.md)
+  with [quasiprimitive residual cycles](results/quasiprimitive_residual_cycles.md)
+  and the [explicit quartic residual geometry](results/ci_quartic_explicit_residual_geometry.md).
+  Seek a proved comparison or a counterexample under stated hypotheses.
+  An exceptional vertical curve alone gives no residual curve downstairs.
+- Beyond the [bounded-index exclusion](results/normal_carrier_bounded_index_exclusion.md),
+  determine which [index and socle constraints](results/normal_carrier_index_socle.md)
+  and [pointwise conductor defects](results/pointwise_conductor_socle_defect.md)
+  extend to higher index, nonnormal carriers, or inverse support outside the
+  singleton Cartier hypotheses.
 The surface-normalization conductor and the separated quadratic-cover conductor
 are different objects; their bounds cannot be combined without a proved map.
 A proposed generalization remains a question until its proof and review are
