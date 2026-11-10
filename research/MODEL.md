@@ -241,11 +241,15 @@ python3 scripts/research.py validate
 python3 scripts/research.py catalog
 python3 scripts/research.py catalog --check
 python3 scripts/research.py show STCI-R-0022
+python3 scripts/research.py route normal-orders
 python3 scripts/check_markdown_links.py --anchors
 ```
 
-`catalog` rebuilds [CATALOG.md](CATALOG.md); validation, lookup, and freshness
-checking do not write files. `--root /path/to/repository` before the subcommand
+`catalog` rebuilds [CATALOG.md](CATALOG.md). Validation, lookup, route reading,
+and freshness checking do not write files. `route` reads the starting sections
+linked in the [index's lane table](INDEX.md#find-a-statement-proof-or-open-question).
+Read the linked proof when checking a claim's argument or dependencies.
+`--root /path/to/repository` before the subcommand
 selects another checkout or a temporary fixture. The generated view contains
 no timestamps and displays actual route reviews and activity states. It is the
 only generated research artifact.
