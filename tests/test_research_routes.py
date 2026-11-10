@@ -25,6 +25,14 @@ class ResearchRouteTests(unittest.TestCase):
             self.assertIn("### Boundary\n\nBoundary text.", route)
             self.assertIn("[Proof](proof.md#proof)", route)
             self.assertNotIn("Proof text.", route)
+            compact = Repository(root).compact_route("sample")
+            self.assertIn("Start — research/proof.md#scope", compact)
+            self.assertIn("Proof — research/proof.md#proof", compact)
+            self.assertNotIn("Hypothesis.", compact)
+            self.assertNotIn("Proof text.", compact)
+            selected = Repository(root).read_sections(["research/proof.md#proof"])
+            self.assertIn("## Proof\n\nProof text.", selected)
+            self.assertNotIn("Hypothesis.", selected)
             with self.assertRaisesRegex(ValueError, "Unknown research lane"):
                 Repository(root).read_route("absent")
 
@@ -40,3 +48,21 @@ class ResearchRouteTests(unittest.TestCase):
             (research / "proof.md").write_text("## Proof\n\nProof text.\n", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "missing fragment"):
                 Repository(root).read_route("sample")
+            with self.assertRaisesRegex(ValueError, "missing fragment"):
+                Repository(root).compact_route("sample")
+
+    def test_section_ranges_are_disclosed_and_oversized_output_is_refused(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "owner.md").write_text("## Scope\n\nLine one.\nLine two.\n", encoding="utf-8")
+            address = "owner.md#scope"
+            output = Repository(root).read_sections([address], line_range=(3, 3))
+            self.assertIn("Warning: partial source, showing lines 3–3 of 4.", output)
+            self.assertIn("Line one.", output)
+            self.assertNotIn("Line two.", output)
+            with self.assertRaisesRegex(ValueError, "No source text was emitted"):
+                Repository(root).read_sections([address], max_chars=40)
+            with self.assertRaisesRegex(ValueError, "must lie within"):
+                Repository(root).read_sections([address], line_range=(3, 5))
+            with self.assertRaisesRegex(ValueError, "unsafe/nonlocal"):
+                Repository(root).read_sections(["../owner.md#scope"])

@@ -25,6 +25,8 @@ the [mechanism map](MAP.md); for exact current claims use the
 From the repository root, `python3 scripts/research.py route <lane>` prints
 the starting sections in one response with their source paths. Follow the
 last column for full proofs, controls, and open dependencies.
+Add `--compact` for source locations only, then pass selected addresses to
+`python3 scripts/research.py section ADDRESS [ADDRESS ...]`.
 
 | Lane | Starting sections | Proofs, controls, and open dependencies |
 | --- | --- | --- |
