@@ -9,8 +9,8 @@ organization supplies no additional mathematical justification.
 The [full torus limits](results/supported_hilbert_full_limits.md#statement)
 retain the support and Hilbert polynomial. The
 [invariant-ideal exclusion](results/invariant_supported_ci_exclusion.md#statement)
-applies in characteristic zero when the entire ideal is both invariant and a
-complete intersection. The
+rules out a complete intersection with sole support \(C_0\) in characteristic
+zero when its entire ideal is invariant under the quartic's torus. The
 [sharp eigenpair bound](results/sextic_eigenpair_quotient_bound.md#statement)
 applies to proper sextic eigenform pairs in every characteristic. To test
 two-generation on a moving supported ideal, use the
