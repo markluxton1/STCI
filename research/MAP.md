@@ -142,8 +142,8 @@ compares this proposed method with the direct actual-equation sources. Varying
 the projection-center orbit is a different question: it changes the embedded
 reduced curve, whereas these torus limits keep C0 fixed.
 
-The [short dependency map](synthesis/DEPENDENCIES.md) identifies proved arrows
-and their premises. The [frontier](FRONTIER.md) owns the remaining questions.
-Do not silently turn a conceptual resemblance into a dependency—for example,
-no general theorem identifies an initial-module defect with a conductor defect,
-a node-gluing class, or a residual projective curve.
+Use the [scoped conclusions](STATE.md#exclusions-and-constructions) for
+low-degree exclusions and the [frontier](FRONTIER.md) for open comparisons.
+Initial-module defects, conductor defects, node-gluing classes, and residual
+projective curves require a comparison theorem before one can be used to
+compute another.

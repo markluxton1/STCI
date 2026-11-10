@@ -20,53 +20,18 @@ the [mechanism map](MAP.md); for exact current claims use the
 [research catalog](CATALOG.md); for concrete unresolved implications use
 [the frontier](FRONTIER.md). None of these navigation pages is an extra theorem.
 
+## Find a statement, proof, or open question
+
+| To check | Start here |
+| --- | --- |
+| Characteristic-zero status of the fixed \(C_0\) | [Status and degree bounds](STATE.md#exclusions-and-constructions), [integral quartic carriers and factor reduction](results/quartic_carrier_exclusion.md) |
+| Positive-characteristic equations and lifting | [Explicit equations for every \(p>0\)](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [prescribed characteristic-two nonlifting](results/prescribed_z4_arithmetic_nonlifting.md#statement-and-hypotheses), [Frobenius lifting precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md#exact-obstruction-level-for-the-prescribed-quartic-construction), [normal base change for the prescribed \(\mu_4\) family](results/quartic_normal_initial_base_change.md#statement) |
+| Torus obstructions and the moving ideals | [Invariant-ideal exclusion](results/invariant_supported_ci_exclusion.md#statement), [sharp sextic eigenpair bound](results/sextic_eigenpair_quotient_bound.md#statement), [opposite full limits and generation](frameworks/torus_supported_boundaries.md#directional-loci) |
+| Normal order and carrier exclusions | [Displayed orders and full initial generators](synthesis/03-infinitesimal-geometry.md#31-generic-normal-forms-versus-global-relations), [equal-order smooth-root bridge](results/actual_ci_smooth_root_bridge.md#statement), [entirely-thick bounds](results/entirely_thick.md), [carrier exclusions by scope](STATE.md#exclusions-and-constructions) |
+| Unresolved incidence and degeneration | [Open interfaces](FRONTIER.md#broader-interfaces), [moving-ideal generator incidence](investigations/supported-generator-incidence/index.md#question), [quotient-to-Hilbert comparison](investigations/quotient-hilbert-comparison/index.md#question) |
+| Local equation comparison and specialization | [Conormal and actual quartic symbols](arguments/quartic_specialization_and_symbols.md), [filtered equation defect](results/local_filtration_comparison_defect.md), [normal Koszul cancellation](arguments/normal_koszul_cancellation.md), [transverse specialization](arguments/transverse_specialization.md), [punctual defect and support](arguments/punctual_comparison_defects.md#statements-and-proofs) |
+
 ## Choose by the mathematical question
-
-For the four-object torus pilot, enter through
-[full supported boundaries](frameworks/torus_supported_boundaries.md) or
-[embedded quotient descent](frameworks/embedded_torus_quotients.md).
-Their linked Results have independently reconstructed proofs with scoped
-reviews. The [catalog](CATALOG.md) exposes reusable lemmas and their actual
-proof routes; every statement is assessed through its mathematics and evidence.
-Concrete next questions are
-[moving-ideal generator incidence](investigations/supported-generator-incidence/index.md)
-and [quotient-to-Hilbert comparison](investigations/quotient-hilbert-comparison/index.md).
-
-For characteristic-sensitive normal geometry of the fixed quartic, start with
-the [conormal splitting](results/quartic_conormal_characteristic_jump.md), the
-[flat prescribed \(\mu_4\) family](results/quartic_mu4_degeneration.md), or the
-[actual degree-four symbols](results/quartic_actual_symbols.md).
-The full argument separates flatness of the intersection, specialization of
-its normal associated graded, and realization by global quartic equations.
-
-For the comparison between full initial equations and actual filtered
-equations, start with [R-0030](results/local_filtration_comparison_defect.md)
-and the [comparison argument](arguments/filtered_equation_comparison.md).
-The local controls separate a [lost minimal equation](results/initial_equation_cancellation_counterexample.md)
-from [loss of the embedded algebra](results/restricted_normal_diagram_counterexample.md).
-The [prescribed characteristic-two pair](results/quartic_char2_fourth_equation_kernel.md)
-gives an exact chartwise lift that survives the comparison.
-
-To recover the defect by normal degree and cancellation page, use the
-[normal Koszul filtration](results/normal_koszul_comparison_defect.md).
-The [recursive transverse complete intersections](results/recursive_normal_koszul_cancellation.md)
-realize all cancellations on page \(q-2\) for \(q\ge3\). Their integral
-carrier realization concerns the affine part of a marked line.
-
-For coefficient torsion in the comparison, use the
-[punctual-defect reading route](arguments/punctual_comparison_defects.md#statements-and-proofs)
-to find the annihilator theorem, the residual family, and the supported
-quadruple. For existence under sole support, see the
-[open question](FRONTIER.md#punctual-relative-defect-under-sole-support).
-
-For a specified transverse slice, use the
-[normal-cone specialization test](results/normal_cone_slice_specialization.md)
-to check the power quotients over the DVR. For a formal two-equation complete
-intersection, [normal flatness and comparison](results/normal_flat_comparison_specialization.md)
-gives the hypotheses for specializing the full equation comparison. The
-[supported length-five family](results/supported_length_five_defect_specialization.md)
-has a free intersection algebra and zero relative defect, but its actual
-closed slice has a degree-four defect.
 
 | Question or approach | Mathematical entry | Reach and missing step |
 | --- | --- | --- |
@@ -75,7 +40,7 @@ closed slice has a degree-four defect.
 | Can the curve's torus symmetry organize the search? | [Full flat limits and supported deformations](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary), [explicit sextic residuals and limits](arguments/torus_sextic_residuals.md), [weight restrictions](supplements/EQUIVARIANT_DEGREE_BOUNDS.md) | Full limits retain Hilbert data but can need extra generators. The sharp quotient-length bound is eight for eigenform sextics, in every characteristic; mixed-weight and supported deformation questions remain distinct |
 | What does a finite torus quotient descend to? | [Constant-quotient equation criterion](results/constant_quotient_equation_criterion.md#statement), [moving-quotient comparison](investigations/quotient-hilbert-comparison/index.md#inputs), [toric torsion and endpoint contacts](synthesis/toric_torsion_and_endpoint_contacts.md) | The constant case gives exact homogeneous source spaces for a specified embedding. For a characteristic-zero sole-support CI, the entire finite modification gives a positive-degree embedded family. Its comparison with full torus Hilbert limits remains open |
 | Can an ACM thickening be constructed downstairs? | [Projected section defects](synthesis/projected_thickening_section_defects.md), [supported sources upstairs](synthesis/supported_linkage_operations.md) | ACM on the quadric threefold need not survive projection to P3; the stated power and binary-mixture images fail when the degree product is nonzero, while other actual sources remain open |
-| Which low-degree carriers cannot admit sole-support mates? | [Quartic carriers](synthesis/quartic_carrier_proof.md), [Gorenstein-normalized nonnormal quintics](synthesis/quintic_gorenstein_normalizations.md), [quintic–octic ADE constraint](synthesis/quintic_octic_surface_constraints.md) | Fixed embedding, characteristic zero; the quintic carrier theorem excludes every mate degree under its normalization hypothesis, while the ADE theorem concerns degree (5,8) |
+| Which low-degree carriers cannot admit sole-support mates? | [Quartic carriers](synthesis/quartic_carrier_proof.md), [Gorenstein-normalized nonnormal quintics](synthesis/quintic_gorenstein_normalizations.md), [quintic–octic ADE cover and symbolic triple](synthesis/quintic_octic_ade_cover_and_triple.md) | Fixed embedding, characteristic zero; the quintic carrier theorem excludes every mate degree under its normalization hypothesis, while the ADE theorem concerns degree (5,8) |
 | What constrains a conditional (6,16) pair? | [Actual quadric-cycle norm](synthesis/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge), [sextic symbol map](supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map), [actual cubic jet](supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet) | The norm assumes an actual proper sole-support pair with the full generic coprime (2,12) initial ideal and a saturated movement-two first relation. The symbol test leaves an affine line of sextics whose cubic jets still need matching |
 | Why does positive characteristic allow quartic carriers? | [Positive-characteristic constructions](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [arithmetic jet gaps](supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md), [lifting precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md), [toric torsion and endpoint contacts](synthesis/toric_torsion_and_endpoint_contacts.md) | Explicit equations in every p>0; degree transfer, prescribed embedded lifts and ramification have separate quantifiers, and all-pair growth remains conditional |
 | How do full torus limits organize supported ideals and two-generation? | [Opposite attracting loci](frameworks/torus_supported_boundaries.md#directional-loci), [full-limit proof](arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits), [generator incidence](investigations/supported-generator-incidence/index.md#question) | One moving ideal realizes both full limits. Test generation on that moving ideal. The [comparison with the two geometric endpoints of its quotient modification](investigations/quotient-hilbert-comparison/index.md#question) remains open |

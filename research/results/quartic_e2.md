@@ -32,8 +32,9 @@ primitive-septuple consequences. The separate
 [quartic-carrier theorem](quartic_carrier_exclusion.md) excludes every mate
 degree for integral quartic carriers of this fixed curve in characteristic zero.
 
-The [certificate map](../certificates/README.md) locates the universal
-quadruple, quartic-factor and parity sources. The repaired boundary
+The [universal quadruple replays](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#reproduction-and-continuation-evidence)
+and [quartic-factor and incidence evidence](../supplements/E2_PRIMITIVE_QUARTIC_INCIDENCE.md#reproducibility-and-epistemic-status)
+give the exact checks and their scopes. The repaired boundary
 checker now states its actual `x!=0` chart, and the incidence checker
 allows exact rational coefficients after clearing parameter denominators;
 both targeted checks passed after independent code review in this

@@ -749,9 +749,10 @@ assert existence of a global sextuple structure or an STCI pair.
 
 ### 1. What was checked before continuing
 
-The starting data are P-031, P-038, and P-042 in
-`research/RESEARCH_RECORD.md`, and the mixed-(4,6) frontier in
-`research/SUCCESSOR_HANDOFF.md`. A pair supported on the monomial smooth
+The starting data are [P-031](MIXED_DEGREE_NORMAL_FORMS_AND_POLES.md#p-031),
+[P-038](QUASIPRIMITIVE_MULTIPLICITY_FIVE.md#p-038), and
+[P-042](SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md#p-042-the-necessary-multiplicity-six-types-for-a-mixed-46-pair),
+and the [mixed-(4,6) pole and Fitting-divisor analysis](../synthesis/normal_filtration_boundary_obstructions.md#mixed-46-fitting-divisor-and-pole-strata). A pair supported on the monomial smooth
 rational quartic C0 would be a finite-flat quasiprimitive multiplicity-six
 lci. P-042 gives pieces
 
@@ -1335,8 +1336,8 @@ primitive at every point, that the first-normal quotient of the equations
 has regular ratio, or that the ordinary nilradical-power quotients are line
 bundles.
 
-Relevant existing records are P-016 and P-042 in
-[RESEARCH_RECORD](../RESEARCH_RECORD.md),
+Relevant proofs are [P-016](QUASIPRIMITIVE_MULTIPLICITY_FIVE.md#p-016) and
+[P-042](SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md#p-042-the-necessary-multiplicity-six-types-for-a-mixed-46-pair),
 [the local multiplicity-six pairing audit](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit),
 and [the uniform saturated-filtration audit](ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-session-uniform-audit).
 The primary source was freshly opened for this audit:

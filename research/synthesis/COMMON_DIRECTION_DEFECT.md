@@ -50,6 +50,15 @@ For arbitrary actual equations, \(D_{\mathrm{hor}}\) is a useful canonical first
 
 ## Proposed next step (OPEN)
 
-Compare the divisor \(D_{\mathrm{hor}}\), the vertical part \(D_{\mathrm{vert}}\), and residual scheme \(T\) with the *full* initial ideal and its saturation on \(C\). Prove a precise formula, if one exists, for how vertical and residual defects affect the intersection of the original strict-transform divisors. This requires the higher normal terms of \(F,G\): the two first symbols alone cannot determine the exceptional intersection multiplicity.
+Compare \(D_{\mathrm{hor}}\), \(D_{\mathrm{vert}}\), and \(T\) with the full
+initial ideal and its saturation on \(C\). When the full ideal has a saturated
+first line relation, determine when its root divisor equals
+\(D_{\mathrm{hor}}\). A first test uses unequal original orders and a proper
+common factor. Use the higher normal terms of \(F,G\) to control the second
+quotient relation and its special-fiber evaluation divisor and to determine
+how the vertical and residual defects affect the intersection of the
+original strict-transform divisors. For sole support the strict transform
+of the intersection scheme itself is empty, since the scheme is supported
+on the blowup center.
 
 **Scope warning:** the decomposition here is on the ruled surface \(E\), not an asserted decomposition of the threefold intersection \(D_F\cap D_G\), nor a theorem excluding any STCI pair.
