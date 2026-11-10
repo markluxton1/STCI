@@ -12,6 +12,10 @@ failure can identify a feature to change without deciding other sources.
 
 ## Reusable mechanisms and their owners
 
+The [weight, normal, and torus-limit synthesis](synthesis/toric_sextic_residuals_and_limits.md)
+follows the equations from their weight and normal symbols through
+endpoint extension to Hilbert and support constraints.
+
 The structured torus pilot has complete proof routes in
 [Hilbert boundaries](arguments/torus_hilbert_boundary.md),
 [sextic residuals and full limits](arguments/torus_sextic_residuals.md), and

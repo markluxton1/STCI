@@ -774,7 +774,7 @@ geometric assertions. The verifier does not certify saturation, flatness,
 primary decomposition, all-characteristic coverage, or a general
 classification. Those conclusions are proved in the text, without
 depending on sampled finite-field ranks. The inherited source-space
-and sole-support reductions in [source §§6–7](../synthesis/toric_sextic_residuals_and_limits.md#6-from-invariant-examples-to-the-supported-ci-hilbert-locus)
+and sole-support reductions in the [sextic source-space and pencil account](../synthesis/toric_sextic_residuals_and_limits.md#sextic-source-spaces-and-pencils)
 retain their existing proof owners.
 
 ## Conclusion
