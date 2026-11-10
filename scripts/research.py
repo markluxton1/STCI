@@ -88,7 +88,7 @@ class Repository:
         self.aliases: dict[str, tuple[Record, str]] = {}
         self.errors: list[str] = []
         self.relations: list[tuple[Record, dict]] = []
-        self._sections: dict[Path, dict[str, str]] = {}
+        self._sections: dict[tuple[Path, bool], dict[str, str]] = {}
 
     def error(self, path, message):
         name = path.relative_to(self.root) if isinstance(path, Path) and path.is_relative_to(self.root) else path
@@ -114,10 +114,11 @@ class Repository:
             self.error(path, f"{label} has duplicate endpoints/identifiers")
         return value
 
-    def section_bodies(self, path):
-        """Use the checker's heading rules to identify nonempty addressed sections."""
-        if path in self._sections:
-            return self._sections[path]
+    def section_bodies(self, path, *, verbatim=False):
+        """Resolve sections using the checker's heading rules."""
+        key = (path, verbatim)
+        if key in self._sections:
+            return self._sections[key]
         raw_lines = path.read_text(encoding="utf-8").splitlines()
         source = links.visible_lines("\n".join(raw_lines))
         if source and source[0] == "---":
@@ -157,10 +158,13 @@ class Repository:
         bodies = {}
         for anchor, start, level in headings:
             end = next((i for _, i, depth in headings if i > start and depth <= level), len(source))
-            body = [line for line in raw_lines[start + 1:end]
-                    if not re.match(r"^ {0,3}#{1,6}\s|^\s*(?:=+|-+)\s*$", line)]
+            if verbatim:
+                body = raw_lines[start:end]
+            else:
+                body = [line for line in raw_lines[start + 1:end]
+                        if not re.match(r"^ {0,3}#{1,6}\s|^\s*(?:=+|-+)\s*$", line)]
             bodies[anchor] = "\n".join(body).strip()
-        self._sections[path] = bodies
+        self._sections[key] = bodies
         return bodies
 
     def location(self, raw, owner, label, fragment=False, own=False, remote=False):
@@ -733,18 +737,42 @@ class Repository:
                     lines.append(f"Owns proof for {other.id}: {route['name']} at {route['at']}")
         return "\n".join(lines) + "\n"
 
+    def read_route(self, lane):
+        index = self.root / "research/INDEX.md"
+        if not index.resolve().is_relative_to(self.root):
+            raise ValueError("research index resolves outside the repository")
+        row = re.search(rf"^\| `{re.escape(lane)}` \| (.+?) \| (.+?) \|$",
+                        index.read_text(encoding="utf-8"), re.MULTILINE)
+        if not row:
+            raise ValueError(f"Unknown research lane: {lane}")
+        targets = re.findall(r"\[[^\]]+\]\(([^\s)]+)\)", row[1])
+        if not targets:
+            raise ValueError(f"Research lane has no starting sections: {lane}")
+        sections = []
+        for target in targets:
+            address = f"research/{target}"
+            path = self.location(address, index, lane, fragment=True)
+            if self.errors:
+                raise ValueError("\n".join(self.errors))
+            anchor = unquote(urlsplit(address).fragment)
+            sections.append(f"Source: {address}\n\n{self.section_bodies(path, verbatim=True)[anchor]}")
+        sections.append(f"Follow-up links relative to research/INDEX.md\n\n{row[2]}")
+        return "\n\n".join(sections) + "\n"
+
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ("validate", "catalog", "show"):
+    for name in ("validate", "catalog", "show", "route"):
         command = commands.add_parser(name)
         command.add_argument("--root", type=Path, default=argparse.SUPPRESS)
         if name == "catalog":
             command.add_argument("--check", action="store_true")
         elif name == "show":
             command.add_argument("identifier")
+        elif name == "route":
+            command.add_argument("lane")
     args = parser.parse_args(argv)
     repository = Repository(args.root)
     try:
@@ -756,6 +784,8 @@ def main(argv=None):
             print(f"Validated {len(repository.records)} research records (declared structure only).")
         elif args.command == "show":
             print(repository.show(args.identifier), end="")
+        elif args.command == "route":
+            print(repository.read_route(args.lane), end="")
         else:
             content = repository.catalog()
             target = repository.root / "research/CATALOG.md"
