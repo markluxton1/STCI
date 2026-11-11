@@ -476,6 +476,14 @@ in characteristic zero, as specified at its application.
 
 ## The remaining global interface
 
+The [intrinsic endpoint comparison](../results/intrinsic_limits_endpoint_fibers.md)
+identifies the pure parts of the two full Hilbert limits with the constant
+images of the corresponding embedded fibers of \(W\). Its relative-image
+sequence determines both embedded lengths individually. The
+[sextic application](../arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair)
+imposes endpoint contact and degree-six source conditions. The full algebra
+at the opposite endpoint and compatible moving equations remain to be recovered.
+
 For an actual supported CI, (3)–(9) give a finite punctual family (moving
 in characteristic zero or when \(p\nmid ab\)),
 two exact weighted contractions, and compatible conductor pinching algebras.

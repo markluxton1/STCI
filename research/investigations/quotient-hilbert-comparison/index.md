@@ -2,7 +2,7 @@
 id: STCI-I-0002
 type: investigation
 title: Specialization between moving transverse quotients and full Hilbert limits
-status: planned
+status: active
 scope: "#scope"
 question: "#question"
 findings: "#findings"
@@ -12,7 +12,7 @@ relations:
     to: [STCI-I-0002]
     at: "#purpose"
   - kind: uses
-    from: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053]
+    from: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070]
     to: [STCI-I-0002]
     at: "#inputs"
 ---
@@ -96,11 +96,30 @@ not supply a characteristic-zero supported deformation.
 
 ## Findings
 
-No general comparison morphism, specialization theorem, or new generator
-obstruction has been established here. The finite constant-family criteria and
-explicit flat collision are preserved, while the moving-family bridge remains
-open. No identification with a reduced normalization conductor, normal-cone
-defect, or residual curve is assumed.
+[R-0070](../../results/intrinsic_limits_endpoint_fibers.md) now compares each
+full intrinsic limit with the constant image of the corresponding embedded
+endpoint fiber of the moving family. It determines the pure quotient and
+the embedded lengths individually. On the matched endpoint chart the
+embedded module is the parameter-annihilated part of a relative image
+cokernel, giving an exact image-base-change criterion.
+
+For a characteristic-zero sole-support \((6,6)\) CI, each endpoint fiber
+must have total constant-image defect at least \(153\). The
+[weighted-basis and sextic-source proof](../../arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair)
+excludes fibers with fourth power of the maximal ideal zero. For
+curvilinear fibers it imposes high affine-line contact in the transverse
+frames and excludes exact order-eight contact in a frame whose slow
+coordinate is a parameter unless the direction is the containing
+quadric. The latter exclusion uses the actual dimension of the
+degree-six source, beyond the defect inequality.
+
+The full algebra at the opposite endpoint of a limit, its additional
+generators, and the incidence of compatible moving equations remain
+unresolved. Transverse one-parameter subgroups move the marked support
+off the coordinate torus. Their
+[length-two sextic control](../../arguments/torus_sextic_residuals.md#a-transverse-limit-with-generic-length-two)
+has a full CI limit on coordinate lines and residual degree \(28\)
+before specialization.
 
 ## Completion and next decisions
 
@@ -112,8 +131,9 @@ The [sextic residual configurations](../../arguments/torus_sextic_residuals.md)
 supply quotient calculations on residual curves and a full saturated limit
 as controls outside the sole-support locus.
 
-A useful first completion is a proved comparison on one fully specified family,
-with verified special fibers and actual equation maps, or a counterexample to
-an explicitly proposed comparison. Record whether it changes generator
-incidence or merely repeats an existing numerical budget. Extending such an
-answer requires its own family coverage and characteristic argument.
+The next comparison must retain the full opposite-endpoint algebra and
+the degree-wise equation module. The surviving high-contact and
+noncurvilinear endpoint fibers still require an actual source test and
+a compatibility proof for their occurrence in one moving family.
+Realizing or excluding all such families requires its own coverage
+argument. The comparison above leaves that constructive incidence open.

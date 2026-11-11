@@ -748,6 +748,78 @@ local schemes. No endpoint algebra or embedded structure is replaced
 by quotient length. Both original and special schemes have no embedded
 associated components by their Cohen–Macaulay proofs.
 
+## A transverse limit with generic length two
+
+Work in characteristic zero. With \(q=x_0x_3-x_1x_2\) and
+\(A=x_0^2x_2-x_1^3\), consider the sextics
+\[
+F=x_0^4q,\qquad G=x_0^4q+A^2.
+\]
+They form a proper pair because \(A\) is divisible by neither \(x_0\)
+nor \(q\). On \(\Omega\) their ideal is
+\((v-u,(u-1)^2)\). Both displayed equations have the same linear
+normal symbol; subtracting produces the missing square relation.
+The generic length is two, the least possible excess over the
+product of the two orders in this situation. The marked embedded
+quotient is constant with \(u=v=1+\epsilon\), \(\epsilon^2=0\).
+Both \(\alpha\) and \(\beta\) are then \(u^{-1}\), so the pure marked
+image has index \(3\) at each endpoint. These indices apply to the
+degree-eight marked image, whose polynomial is \(8n-4\).
+
+On the smooth quadric \(Q=V(q)\), the divisor of \(A\) is
+\(C+2L_{23}\): on \(x_0\ne0\) it cuts \(C\) once and its boundary
+has just the line \(L_{23}\). The degree is six. The restriction of
+\(A\) to \(x_0=0\) is \(-x_1^3\). Splitting the divisor of \(F\)
+therefore gives
+\[
+[V(F,G)]=2[C]+28[L_{23}].
+\]
+Now pull equations back by \(x_2\mapsto\lambda x_2\). With
+\(q_\lambda=x_0x_3-\lambda x_1x_2\) and
+\(A_\lambda=\lambda x_0^2x_2-x_1^3\), the full family ideal is
+\[
+(x_0^4 q_\lambda,A_\lambda^2),\qquad
+J_0=(x_0^5x_3,x_1^6).
+\]
+Indeed the special generators are coprime. The two normalized
+equations have height two, and adjoining \(\lambda\) gives height
+three. The regular-sequence test gives \(\lambda\)-saturation.
+The full special ideal is a saturated CI with the same Hilbert
+series \((1-z^6)^2/(1-z)^4\) and polynomial \(36n-144\). Its cycle
+is \(6[L_{02}]+30[L_{23}]\), by the two monomial complete
+intersections at the generic points of the lines.
+
+The marked curve on the punctured parameter line is the translate
+with \(u=\lambda^{-1},v=1\). Its full homogeneous initial ideal is
+\[
+K_0=(x_0x_3,x_1^3,x_1^2x_3,x_1x_3^2).
+\]
+These are the minimum-\(x_2\)-weight forms of the quadric and the
+three cubics in \(I_C\). The displayed ideal has Hilbert series
+\((1+2z+2z^2-z^3)/(1-z)^2\), the series of \(C\). To see this,
+count monomials without \(x_3\), then \(x_3,x_1x_3\), then the
+powers \(x_3^j\) for \(j\ge2\), and allow arbitrary powers of
+\(x_2\) in each group. Equality of series proves that this is the
+full initial ideal. The variable \(x_2\) is regular, so the ideal is
+irrelevant-saturated. Its pure quotient has ideal
+\((x_3,x_1^3)\cap(x_0,x_1)\). The class \(x_1x_3\) gives an embedded
+point of length one at \([0:0:1:0]\), since its annihilator is
+\((x_0,x_1,x_3)\). The curve cycle is \(3[L_{02}]+[L_{23}]\).
+After \(\lambda=\eta^3\), the substitutions \(r=\eta R\) and
+\(r=\eta^{-3}R\) in the moving parametrization exhibit the degree-three
+map to \(L_{02}\) and the degree-one map to \(L_{23}\). The embedded
+point is additional Hilbert-scheme data. The full sextic limit
+retains multiplicity along the moved cycle, while the original
+quartic has left its support.
+
+The [exact Macaulay2 replay](../investigations/torus-residual-controls/verify_transverse_limit.m2)
+checks parameter and irrelevant saturation, the two specialized
+ideals, the embedded point, and both Hilbert series over \(\mathbf Q\).
+The monomial and regular-sequence proofs give their geometric
+interpretation. This control has residual degree \(28\) on the
+punctured parameter line. R-0046 remains the separate length-one
+control with residual degree \(32\) and loss of two-generation.
+
 ## Evidence and preservation
 
 The source

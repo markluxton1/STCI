@@ -78,6 +78,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0067](results/conormal_entry_annihilator.md) | The conormal entry ideal annihilates the filtration defect | entrywise Koszul identities and the sharp DVR family: accepted | [scope](results/conormal_entry_annihilator.md#scope) |
 | [STCI-R-0068](results/punctual_comparison_defect_family.md) | Punctual comparison defects of arbitrary degree and length with integral carriers | filtered syzygy lifting and actual fiber calculation: accepted | [scope](results/punctual_comparison_defect_family.md#scope) |
 | [STCI-R-0069](results/supported_quadruple_equation_filtration.md) | A supported quadruple whose equation filtration retains the torsion | free supported algebra and full equation filtration: accepted | [scope](results/supported_quadruple_equation_filtration.md#scope) |
+| [STCI-R-0070](results/intrinsic_limits_endpoint_fibers.md) | Endpoint fibers and embedded points in the intrinsic torus limits | relative-image: accepted | [scope](results/intrinsic_limits_endpoint_fibers.md#scope) |
 
 ## Arguments
 
@@ -104,7 +105,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | ID | Title | Review / activity | Scope / format |
 | --- | --- | --- | --- |
 | [STCI-I-0001](investigations/supported-generator-incidence/index.md) | Two-equation incidence on bounded supported attracting families | planned | [scope](investigations/supported-generator-incidence/index.md#scope) |
-| [STCI-I-0002](investigations/quotient-hilbert-comparison/index.md) | Specialization between moving transverse quotients and full Hilbert limits | planned | [scope](investigations/quotient-hilbert-comparison/index.md#scope) |
+| [STCI-I-0002](investigations/quotient-hilbert-comparison/index.md) | Specialization between moving transverse quotients and full Hilbert limits | active | [scope](investigations/quotient-hilbert-comparison/index.md#scope) |
 | [STCI-I-0003](investigations/torus-residual-controls/index.md) | Exact finite controls for embedded quotients and sextic residual limits | complete | [scope](investigations/torus-residual-controls/index.md#scope) |
 | [STCI-I-0004](investigations/quartic-specialization-controls/index.md) | Finite quartic specialization controls | complete | [scope](investigations/quartic-specialization-controls/index.md#scope) |
 
@@ -174,6 +175,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0067: entrywise Koszul identities and the sharp DVR family; joint premises [STCI-R-0030]; proof `research/arguments/punctual_comparison_defects.md#the-conormal-entry-ideal-annihilates-the-defect`; review accepted, reconstructed at `#review`.
 - STCI-R-0068: filtered syzygy lifting and actual fiber calculation; joint premises [STCI-R-0030, STCI-R-0065]; proof `research/arguments/punctual_comparison_defects.md#arbitrary-punctual-degree-and-length-with-integral-carriers`; review accepted, reconstructed at `#review`.
 - STCI-R-0069: free supported algebra and full equation filtration; joint premises [STCI-R-0030]; proof `research/arguments/punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough`; review accepted, reconstructed at `#review`.
+- STCI-R-0070: relative-image; joint premises [STCI-R-0051, STCI-R-0052]; proof `research/arguments/torus_hilbert_boundary.md#endpoint-fibers-in-the-two-intrinsic-limits`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -186,13 +188,13 @@ Untyped source passages do not synthesize proof-route reviews.
 - [STCI-F-0002] — motivates → [STCI-I-0004]; [explanation owned by STCI-I-0004](investigations/quartic-specialization-controls/index.md#purpose).
 - [STCI-R-0037, STCI-R-0039, STCI-R-0040] — uses → [STCI-F-0001]; [explanation owned by STCI-F-0001](frameworks/torus_supported_boundaries.md#available-results).
 - [STCI-R-0037, STCI-R-0039, STCI-R-0046] — uses → [STCI-I-0001]; [explanation owned by STCI-I-0001](investigations/supported-generator-incidence/index.md#inputs).
-- [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] — uses → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#inputs).
+- [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] — uses → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#inputs).
 - [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] — uses → [STCI-I-0003]; [explanation owned by STCI-I-0003](investigations/torus-residual-controls/index.md#method).
 - [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] — uses → [STCI-F-0002]; [explanation owned by STCI-F-0002](frameworks/embedded_torus_quotients.md#available-results).
 
 ## Object backlinks
 
-- STCI-A-0001: proof owner for STCI-R-0037 (projective-supported-incidence); proof owner for STCI-R-0038 (weight-decomposition-and-graded-nakayama); proof owner for STCI-R-0039 (graded-generation-and-height-two); proof owner for STCI-R-0040 (invariant-generator-lifting-and-trace).
+- STCI-A-0001: proof owner for STCI-R-0037 (projective-supported-incidence); proof owner for STCI-R-0038 (weight-decomposition-and-graded-nakayama); proof owner for STCI-R-0039 (graded-generation-and-height-two); proof owner for STCI-R-0040 (invariant-generator-lifting-and-trace); proof owner for STCI-R-0070 (relative-image).
 - STCI-A-0002: proof owner for STCI-R-0042 (finite-free trace and graded-domain reduction); proof owner for STCI-R-0043 (fixed-point incidence and degree exhaustion); proof owner for STCI-R-0044 (parameter filtration and exact local reductions); proof owner for STCI-R-0045 (prime cancellation and generic lengths); proof owner for STCI-R-0046 (Hilbert-Burch family and colon cycle); proof owner for STCI-R-0047 (torus quotient and local boundary multiplicities); proof owner for STCI-R-0048 (quadric divisors and flat complete-intersection family); proof owner for STCI-R-0049 (graph divisor specialization on the smooth quadric); proof owner for STCI-R-0050 (primitive monomial parametrization and generic localization).
 - STCI-A-0003: proof owner for STCI-R-0051 (scheme image and finite charts); proof owner for STCI-R-0052 (finite modification exact sequence); proof owner for STCI-R-0053 (actual source spaces and degree exhaustion); proof owner for STCI-R-0054 (exact endpoint lattices and coefficient identities); proof owner for STCI-R-0055 (relative endpoint lattices and image base change); proof owner for STCI-R-0056 (generic lengths and absence of finite-support submodules).
 - STCI-A-0004: proof owner for STCI-R-0020 (two-chart quadric conormal transition); proof owner for STCI-R-0021 (monic flatness and two-chart scheme decomposition); proof owner for STCI-R-0057 (filtered elimination and the initial term of a principal ideal); proof owner for STCI-R-0058 (residual restriction through the unique quadric); proof owner for STCI-R-0059 (quadric residual class and generic length exhaust the degree).
@@ -203,7 +205,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-F-0001: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001).
 - STCI-F-0002: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0002] → [STCI-I-0004] (owner STCI-I-0004); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
-- STCI-I-0002: motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-I-0002: motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-I-0003: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003).
 - STCI-I-0004: motivates: [STCI-F-0002] → [STCI-I-0004] (owner STCI-I-0004).
 - STCI-Q-0001: no declared backlinks.
@@ -243,9 +245,9 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0034: recorded reference from STCI-R-0035 (dependencies group [STCI-R-0034, STCI-R-0001]).
 - STCI-R-0035: no declared backlinks.
 - STCI-R-0036: no declared backlinks.
-- STCI-R-0037: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-R-0037: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-R-0038: premise of STCI-R-0040 (invariant-generator-lifting-and-trace).
-- STCI-R-0039: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-R-0039: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-R-0040: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001).
 - STCI-R-0041: no declared backlinks.
 - STCI-R-0042: premise of STCI-R-0040 (invariant-generator-lifting-and-trace).
@@ -257,9 +259,9 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0048: no declared backlinks.
 - STCI-R-0049: no declared backlinks.
 - STCI-R-0050: premise of STCI-R-0043 (fixed-point incidence and degree exhaustion); premise of STCI-R-0047 (torus quotient and local boundary multiplicities).
-- STCI-R-0051: premise of STCI-R-0052 (finite modification exact sequence); premise of STCI-R-0053 (actual source spaces and degree exhaustion); premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); premise of STCI-R-0055 (relative endpoint lattices and image base change); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
-- STCI-R-0052: premise of STCI-R-0053 (actual source spaces and degree exhaustion); premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); premise of STCI-R-0055 (relative endpoint lattices and image base change); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
-- STCI-R-0053: premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
+- STCI-R-0051: premise of STCI-R-0052 (finite modification exact sequence); premise of STCI-R-0053 (actual source spaces and degree exhaustion); premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); premise of STCI-R-0055 (relative endpoint lattices and image base change); premise of STCI-R-0070 (relative-image); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
+- STCI-R-0052: premise of STCI-R-0053 (actual source spaces and degree exhaustion); premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); premise of STCI-R-0055 (relative endpoint lattices and image base change); premise of STCI-R-0070 (relative-image); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
+- STCI-R-0053: premise of STCI-R-0054 (exact endpoint lattices and coefficient identities); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-R-0054: limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); premise of STCI-R-0055 (relative endpoint lattices and image base change); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003).
 - STCI-R-0055: no declared backlinks.
 - STCI-R-0056: premise of STCI-R-0053 (actual source spaces and degree exhaustion); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
@@ -276,3 +278,4 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0067: no declared backlinks.
 - STCI-R-0068: no declared backlinks.
 - STCI-R-0069: no declared backlinks.
+- STCI-R-0070: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002).

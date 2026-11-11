@@ -16,7 +16,8 @@ does not accumulate into an exhaustive classification without a coverage proof.
 The torus pilot gives two concrete Investigation entrypoints:
 [two-equation incidence on a declared supported family](investigations/supported-generator-incidence/index.md)
 and [comparison of moving quotients with full limits](investigations/quotient-hilbert-comparison/index.md).
-Both remain unperformed research tasks. The
+The endpoint comparison now determines pure intrinsic limits and embedded
+lengths, while full equation incidence remains open. The
 [finite residual controls](investigations/torus-residual-controls/index.md)
 are complete within their explicit computational scope and resolve neither
 question. Their Frameworks explain the selection criteria without assigning
@@ -54,7 +55,7 @@ results change and how to choose between constructive and obstructive aims.
 | Nonnormal carrier geometry | [Gorenstein-normalized quintics](synthesis/quintic_gorenstein_normalizations.md), [remaining toric center incidence](synthesis/quintic_toric_center_incidence.md), [conductor differential](synthesis/carrier_conductor_differential_comparison.md) | Decide full inverse support on the remaining M locus before testing actual power descent; singular local gluing alone does not realize the projective carrier |
 | Spectral graded families and ambient equations | [Order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md), [actual source quotient](synthesis/actual_octic_root_lift_comparison.md), [torsion-two charts](synthesis/quadratic_root_torsion_two_lifting.md) | The completed 24-point affine slice has no compatible sextic; test the full root incidence with its rank boundaries and all corrections. Positive octic constructions remain useful for containing intersections |
 | Finite jets and equation search | [Intrinsic global jets](synthesis/global_equation_jets.md), [bounded certificates](synthesis/bounded_equation_certificates.md) | Use actual source-image filtrations and full nonlinear corrections; existential finite realization is distinct from a uniform effective witness-degree bound |
-| Contact and tropical descent | [Full transverse families](synthesis/contact_duality_and_global_descent.md), [constant-quotient equation criterion](results/constant_quotient_equation_criterion.md#statement) | Extend the actual endpoint and source calculations to a [moving rank-nine family](investigations/quotient-hilbert-comparison/index.md#inputs) satisfying a sextic divisor profile. Positive movement and locally CI endpoints alone remain compatible |
+| Contact and tropical descent | [Endpoint-to-limit comparison](results/intrinsic_limits_endpoint_fibers.md), [constant-quotient equation criterion](results/constant_quotient_equation_criterion.md#statement) | Test surviving high-contact or noncurvilinear endpoint fibers against actual sextic sources in one moving rank-nine family satisfying a divisor profile. Recover the full opposite-endpoint algebra and moving generator incidence |
 | Marked dual/ruled geometry | [Fixed geometry](synthesis/01-problem-and-curve.md) | Construct a proved map from actual equation/conductor data to marked contact schemes, retaining nilpotents and endpoint corrections |
 | Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [endpoint image comparison](arguments/torus_embedded_quotients.md), [effective transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md) | Analyze the integral image and base-change defect in a declared embedded quotient family; quotient flatness alone does not give flat projective images. All-pair degree growth remains conditional, and fixed-carrier or prescribed-lift restrictions do not exclude unrelated presentations |
 

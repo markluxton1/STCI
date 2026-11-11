@@ -27,6 +27,9 @@ relations:
 This completed activity checks the displayed finite identities and source
 profiles used in the quotient and sextic accounts. It covers the exact
 rational calculations and explicitly listed prime fields in [verify.py](verify.py).
+The additional [Macaulay2 control](verify_transverse_limit.m2) checks the
+specified length-two sextic pair and the marked curve's full transverse
+limits over \(\mathbf Q\), including parameter and irrelevant saturation.
 It is not an enumeration of arbitrary ideals, a saturation algorithm, a
 primary-decomposition proof, or a supported-family coverage calculation.
 No \(N\)-bounded supported Hilbert incidence is computed here.
@@ -70,12 +73,16 @@ The full proofs in [A-0002](../../arguments/torus_sextic_residuals.md) and
 claims. The local-length reasoning in
 [R-0044](../../results/local_residual_multiplicity.md) explains the invariant
 meaning of multiplicities rather than inferring them from degree sums.
+The additional
+[transverse length-two calculation](../../arguments/torus_sextic_residuals.md#a-transverse-limit-with-generic-length-two)
+has a regular-sequence proof and a full-ideal replay in Macaulay2.
 
 Run the specified normal Python commands, which keep assertions enabled:
 
 ```sh
 python3 -B research/investigations/torus-residual-controls/verify.py
 python3 -B -m unittest discover -s research/investigations/torus-residual-controls -p 'test_*.py' -v
+M2 --script research/investigations/torus-residual-controls/verify_transverse_limit.m2
 ```
 
 ## Findings

@@ -181,8 +181,17 @@ in characteristic zero, three and two, respectively; only the characteristic-two
 image is the prescribed quartic CI. Its flat characteristic-zero collision has
 genus 28 and is not that genus-33 CI family. The
 [moving-quotient investigation](investigations/quotient-hilbert-comparison/index.md#inputs)
-records the separate finite-modification theorem and the open full-limit
-comparison.
+records the finite-modification theorem and the
+[endpoint-to-limit comparison](results/intrinsic_limits_endpoint_fibers.md).
+Each embedded endpoint fiber gives the pure part of one intrinsic limit,
+and its two constant-image indices determine both embedded lengths.
+For a characteristic-zero sole-support sextic pair, each fiber has
+total constant-image defect at least \(153\). The
+[weighted-basis and source tests](arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair)
+give restrictions on both curvilinear and noncurvilinear fibers,
+including exclusion of order-eight affine-line contact off the
+quadric direction when the slow coordinate is a parameter.
+The full opposite-endpoint algebra and moving equation incidence remain open.
 
 The [sextic configurations and full limits](arguments/torus_sextic_residuals.md)
 give a sharp quotient-length bound of eight for every proper pair of eigenform

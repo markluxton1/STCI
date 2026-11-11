@@ -77,12 +77,15 @@ For a proper degree-\((a,b)\) pair with sole reduced support \(C_0\), the
 investigation points to the separate finite-modification and strict-movement
 proofs. In characteristic zero or characteristic \(p>0\) with \(p\nmid ab\),
 the embedded quotient has positive degree. Its endpoint budget constrains
-one moving object. Comparison with its two Hilbert limits remains open.
+one moving object. [R-0070](../results/intrinsic_limits_endpoint_fibers.md)
+determines the pure parts of both intrinsic limits and their two embedded
+lengths from the corresponding endpoint fibers. The full opposite-endpoint
+algebras and moving generator incidence remain open.
 
-Useful next work would identify an actual specialization map for embedded
-quotients, endpoint lattices, and equation modules. A numerical resemblance
-between defects does not supply this map. Any finite prescribed-degree test
-must retain the actual source image and establish properness.
+Use the relative image map in R-0070 when comparing an embedded quotient
+and an intrinsic limit. Recovering the full special equation module
+requires further data. Any finite prescribed-degree test must retain
+the actual source image and establish properness.
 
 ## Research decisions
 

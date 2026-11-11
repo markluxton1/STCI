@@ -121,6 +121,69 @@ normal system over the dense orbit, and the endpoint models require the
 regular parameters and their full transition. The length-seven frame
 cokernel at each endpoint belongs to the ambient normal map \(\Phi\).
 
+### Transport along the two moving directions
+
+Write the action on points as \((r,u,v)\mapsto(\lambda r,\mu u,\nu v)\)
+with \(\lambda,\mu,\nu\in k^*\). The image curve \(gC\) has centered
+normal coordinates \(U_g=u/\mu-1,\ V_g=v/\nu-1\). If a form is written
+on \(x_0=1\) as \(\sum_w r^w f_w(u,v)\), its transported equation
+\(F\circ g^{-1}\) has full expansion
+\[
+\sum_w(\lambda^{-1}r)^w f_w(1+U_g,1+V_g).
+\]
+Thus \(g\) transports the entire normal filtration, including its Rees
+and graded algebras and the finite transverse scheme. In these frames
+the two transverse scalings are translations of the marked section in
+the quotient torus. Expanding in \(u-1,v-1\) instead introduces constant
+terms and can lose containment of the fixed \(C\). At \(p_0\) the regular
+normal parameters for \(gC\) are \(\mu r^3 U_g,\nu r^4 V_g\).
+At \(p_\infty\), center \(\alpha,\beta\) at \(\nu^2/\mu^3,\nu^3/\mu^4\)
+respectively. The corresponding unit multipliers preserve the two
+orders \(3,4\) and their determinant divisor. Equivariance of the
+finite modification carries its algebra and both image inclusions
+along with \(gC\), preserving \(m,h,\delta_0,\delta_\infty\) on the
+parameter torus for a pure supported scheme.
+The auxiliary linear action \((U,V)\mapsto(\mu U,\nu V)\) on a fixed
+punctual plane has its own Hilbert-scheme action. An application to
+projective equations must specify how that action lifts through the
+two endpoint contractions.
+
+For a one-parameter subgroup with nonzero transverse character, the
+limit of the marked curve is disjoint from \(\Omega\). Indeed on
+\(\Omega\) one of \(u,v\) equals a nonzero power of the parameter
+and is required to stay a unit. Its contracted equation has unit
+specialization on this chart. For a sole-supported moving scheme,
+contract the ideals of both the scheme and its marked support from the
+punctured parameter trait. The power containments
+\(\mathcal I_{\mathcal C}^N\subset\mathcal I_{\mathcal Z}
+\subset\mathcal I_{\mathcal C}\) persist by parameter saturation. Hence
+the transverse special scheme is supported on the reduced support of
+the flat limit of the marked curve. Its fundamental cycle is \(m\)
+times the marked limiting cycle by specialization of cycles of flat
+families. Its generic normal length **along the original \(C\)** is
+then zero. The projective Hilbert polynomial stays fixed. The ideal
+and the degrees of its generators still require the full weight limit.
+[Cycle specialization over a DVR](https://stacks.math.columbia.edu/tag/0H4H).
+
+For the reduced parametrization the two moving directions give a
+two-dimensional family of distinct curves through the same endpoints.
+Together with the one-dimensional reparametrization \(r\mapsto\lambda r\)
+they give a three-dimensional family in
+\(\operatorname{Mor}(\mathbf P^1,\mathbf P^3;0\mapsto p_0,\infty\mapsto p_\infty)\).
+Indeed the four coefficients in \([s^4:\lambda s^3t:
+\mu\lambda^3st^3:\nu\lambda^4t^4]\), modulo their common scalar, recover
+the three parameters. This meets the dimension-two hypothesis of the
+two-point bend-and-break theorem for a projective target. It gives a
+connected nonintegral rational cycle of degree four through the two
+points. Stable-map properness compactifies the marked maps with nodal
+domains. These results concern maps from reduced curves, and the
+degree-four break is explicit in the
+[transverse sextic control](../arguments/torus_sextic_residuals.md#a-transverse-limit-with-generic-length-two).
+The map and its cycle contain no data of the finite image cokernel or
+the graded equations of the thickening.
+[Mori's two-point theorem, as stated in Debarre, Proposition 7.3](https://perso.imj-prg.fr/wp-content/uploads/debarre-pub/M2.pdf#page=69) ·
+[Fulton–Pandharipande, §§1, 5–6](https://arxiv.org/pdf/alg-geom/9608011).
+
 ## II. Equations and filtrations
 
 ### Weight components and actual symbols
@@ -160,6 +223,15 @@ corresponding power of \(r\). The symbol of the sum comes from the
 components of minimum normal order. [Normal symbols and actual source images](../arguments/quartic_specialization_and_symbols.md#4-which-symmetric-algebra-sections-come-from-quartics).
 
 ### Excess vanishing and common directions
+
+The full expansion in a chosen formal frame retains every higher
+Taylor coefficient. Nonlinear changes between the two endpoint charts
+mix those coefficients with the lower terms. An intrinsic order-\(j\)
+symbol belongs to \(\operatorname{Sym}^jE\otimes\mathcal O_C(d)\) after
+the preceding classes vanish, or after a specified compatible subtraction
+of their actual lifts. The degree \(4d-7j\) bounds that symbol. Arbitrary
+higher local Taylor coefficients require their chosen frame and lower
+terms.
 
 The coefficient vanishing divisor \(D_f\) of \(f\) has multiplicity at
 \(p\) given by the minimum of the valuations of its coefficients in
@@ -337,6 +409,23 @@ homogeneous lifts require actual source-space membership. [Normal
 cancellation and filtered equation modules](../arguments/normal_koszul_cancellation.md) ·
 [Exact sextic weight cancellation](../arguments/torus_sextic_residuals.md#the-saturated-three-generator-full-limit).
 
+For a fixed homogeneous ideal in \(S\), all diagonal weights are
+organized by its Gröbner fan modulo the ordinary degree direction.
+This applies to the unsaturated full initial ideals. The normal
+filtration is a second Rees construction along the marked immersion.
+Regularity identifies the ambient normal cone with the normal bundle,
+and flat base change preserves the construction. Specialization to a
+closed parameter fiber instead needs the power-quotient test below.
+The Hilbert scheme of points represents finite locally free embedded
+families such as \(W\) in Part IV. The tropical compactification
+theorem, with proper closure and flat multiplication map, applies to
+the reduced torus model there. Formation of the projective image under
+parameter specialization uses the relative lattice in Part IV.
+[Fukuda–Jensen–Thomas, §2](https://arxiv.org/pdf/math/0509544) ·
+[Normal cone and deformation](https://stacks.math.columbia.edu/tag/0FBG) ·
+[Hilbert scheme of points](https://stacks.math.columbia.edu/tag/0B94) ·
+[Tevelev, Definition 1.1](https://arxiv.org/pdf/math/0412329).
+
 ### Opposite saturated Hilbert limits
 
 Let \(h\) be the orbit-family parameter. The normalized substitutions
@@ -499,13 +588,136 @@ constant. The resulting embedded family would have a \(T_C\)-invariant
 scheme image, contradicting the characteristic-zero invariant CI
 exclusion in Part III. Thus \(\deg\mathcal B>0\). The abstract
 transverse algebra can stay isomorphic as its embedding varies.
-The lattice parameter here runs along \(C\). The Hilbert-limit
-parameter in Part III translates \(Y\) in \(\mathbf P^3\). A general
-comparison of the two endpoint lattices with the two full Hilbert
-limits remains open. [Entire finite modification](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification) ·
+The lattice parameter here runs along \(C\). The intrinsic limit
+pulling that parameter toward an endpoint has pure quotient given by
+the constant image of the corresponding embedded fiber. The two
+embedded lengths in the full limit come from the relative image and
+the Hilbert polynomial. For a hypothetical \((6,6)\) pair each
+endpoint fiber must have total constant-image defect at least \(153\)
+and pass the degree-six source test.
+[Endpoint comparison](../results/intrinsic_limits_endpoint_fibers.md) ·
+[Sextic endpoint conditions](../arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair) ·
+[Entire finite modification](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification) ·
 [Moving endpoint lattices](tropical_thickenings_and_endpoint_duality.md#actual-endpoint-lattices-and-the-full-conductor-boundary) ·
 [Strict movement](tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier) ·
-[Open quotient-to-Hilbert comparison](../investigations/quotient-hilbert-comparison/index.md#question).
+[Remaining full-ideal comparison](../investigations/quotient-hilbert-comparison/index.md#question).
+
+### The characteristic-seven control in both endpoint frames
+
+For \(F=x_1^4-x_0^3x_3,\ G=x_2^7-x_0x_1x_3^5\), the quotient on
+\(\Omega/T_C\) is \((v-1,u^7-1)\). The original equations form a
+proper CI in either characteristic and have no coordinate-boundary
+curve, as follows directly on \(x_0=0\) and \(x_3=0\).
+At zero the quotient basis \(1,u,\ldots,u^6\) enters with weights
+\(0,3,\ldots,18\), giving \(D_0=63\).
+At infinity \(\alpha=u^{-3},\beta=u^{-4}\). The smallest values in
+the semigroup generated by \(3,4\) in the seven residue classes modulo
+seven are \(0,8,9,3,4,12,6\), giving \(D_\infty=42\).
+The corresponding monomials in \(u\) form a basis of
+\(k[u]/(u^7-1)\) in every characteristic. The total \(105\) gives
+\(28n+7-105=28n-98\),
+the degree-\((4,7)\) CI polynomial.
+
+In characteristic seven this algebra is \(k[U]/(U^7)\), the family is
+constant, and \(h=0\). The two displayed equations have common linear
+normal symbol \(V\), while their full local ideal contains \(U^7\).
+Thus the normal orders have product one and the normal length is seven.
+In characteristic zero the first symbols are independent, and the
+marked length at each of the seven roots is one. The projective
+intersection has seven distinct quartic components. The Frobenius
+collision changes the embedded algebras and support while preserving
+the same endpoint-index sum and projective CI polynomial. The trace
+obstruction permits \(h=0\) here because seven divides the degree
+product. Its proof concerns the generic multiplicity of the full
+nonreduced algebra and allows the reduced fourfold projection to be
+separable. The actual two global equations hold in both fields.
+[Entire finite modification and characteristic scope](tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier) ·
+[All reduced binomial components](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#12d-necessity-of-the-frobenius-exponent-and-all-reduced-components).
+
+#### Higher jets of the seven branches in characteristic zero
+
+Write \(Z=V(F,G)\) for this pair over the algebraically closed field
+of characteristic zero. Its branches come from the curves
+\[
+C_\zeta=[s^4:s^3t:\zeta st^3:t^4],\qquad \zeta\in\mu_7.
+\]
+At \(p_0\) put \((r,y,w)=(x_1,x_2,x_3)/x_0\). At \(p_\infty\) put
+\((z,b,a)=(x_2,x_1,x_0)/x_3\). The exact graph equations are
+\[
+\begin{array}{c|cc}
+ & \text{order three} & \text{order four}\\ \hline
+p_0 & y=\zeta r^3 & w=r^4\\
+p_\infty & b=\zeta^{-3}z^3 & a=\zeta^{-4}z^4.
+\end{array}
+\]
+The embedded jets of the individual branches agree through order two,
+and every pair separates at order three at both points. In fact
+\(\zeta\mapsto\zeta^{-3}\) permutes \(\mu_7\), so the difference of
+the cubic graph functions generates the pairwise intersection ideal
+\((r^3)\) or \((z^3)\) in the parameter ring. At order four the
+coefficient at \(p_0\) is common to all branches. At \(p_\infty\) the
+quartic coefficient is the inverse of the cubic coefficient and
+supplies a third independent character, alongside \(1\) and the cubic
+coefficient. [Embedded jet convention](toric_torsion_and_endpoint_contacts.md#5-intrinsic-interpretation-by-jet-stabilizers).
+
+The completed rings of the whole intersection are
+\[
+A_0=k[[r,y]]/(y^7-r^{21}),\qquad
+A_\infty=k[[z,a,b]]/(ab-z^7,\ a^3-b^4).
+\]
+At zero this follows by eliminating \(w=r^4\). At infinity the two
+equations give the reductions
+\[
+ab\longmapsto z^7,\qquad a^3\longmapsto b^4,\qquad
+b^5\longmapsto a^2z^7 .
+\]
+The third reduction follows from \(b^5=a^3b=a^2z^7\). Each step
+decreases \(3\deg_a+2\deg_b\) on a monomial and increases its ordinary
+total degree. Thus they give convergent reductions of formal series
+to the span of \(1,b,a,b^2,a^2,b^3,b^4\) over \(k[[z]]\).
+The seven images in the product of the branch rings have distinct
+characters of \(\mu_7\), so the reduced monomials form a free basis.
+At zero the corresponding basis over \(k[[r]]\) is \(1,y,\ldots,y^6\).
+
+Identify the coefficient algebra of the normalization with
+\(B=k[u]/(u^7-1)=k^{\mu_7}\), where \(u(\zeta)=\zeta\). The least
+order \(d_{e,i}\) at which \(u^i\) occurs in the image at endpoint
+\(p_e\) follows from these two bases.
+
+| Endpoint | \(1\) | \(u\) | \(u^2\) | \(u^3\) | \(u^4\) | \(u^5\) | \(u^6\) |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| \(p_0\) | 0 | 3 | 6 | 9 | 12 | 15 | 18 |
+| \(p_\infty\) | 0 | 6 | 12 | 4 | 3 | 9 | 8 |
+
+At each order \(d\) the allowed coefficients are precisely the span
+of the characters with \(d_{e,i}\le d\). This describes the image in
+the product of the normalized branch jets at every order. The
+coefficient of the parameter to power \(d\) can be prescribed
+independently on every branch for \(d\ge18\) at \(p_0\) and \(d\ge12\)
+at \(p_\infty\). The conductors are \(r^{18}B[[r]]\) and
+\(z^{12}B[[z]]\). Indeed, multiplication by a branch idempotent isolates its
+coefficient, and the character expansion
+\(\frac17\sum_{i=0}^6\zeta^{-i}u^i\) of that idempotent uses all
+seven characters. A proper span in the table cannot contain it.
+The sums of the entry orders recover the two normalization defects
+\(63\) and \(42\).
+
+For the ordinary jets of the intersection, use \(A_e/\mathfrak m_e^{n+1}\).
+With bars denoting degree-one classes, the two tangent
+cones are
+\[
+\operatorname{gr}_{\mathfrak m_0} A_0=k[\bar r,\bar y]/(\bar y^7),
+\qquad
+\operatorname{gr}_{\mathfrak m_\infty} A_\infty
+  =k[\bar z,\bar a,\bar b]/(\bar a\bar b,\bar a^3,\bar b^5).
+\]
+The degree-increasing reductions at infinity preserve the lower
+bound on the total degree of any monomial in \(\mathfrak m_\infty^n\).
+The reduced monomials are independent and each lies in the maximal
+ideal power given by its total degree, which proves the second
+tangent-cone presentation. The successive graded dimensions at
+zero are \(1,2,3,4,5,6,7,\ldots\), and at infinity they are
+\(1,3,5,6,7,\ldots\). Both sequences stay at \(7\) once they reach it.
 
 ## V. Global constraints
 
@@ -822,10 +1034,10 @@ specified parameter line. [Quartic root pencil](root_pencil_geometry.md#3-three-
 
 | Part | Established on the stated inputs | Conditional statement or open comparison | Proof homes |
 | --- | --- | --- | --- |
-| I | Balanced conormal, regular transitions and transverse-frame divisor | The divisor measures a map of ambient normal bundles | [Conormal transition](../arguments/quartic_specialization_and_symbols.md#conormal-transition-p-009-characteristic-jump-in-the-normal-bundle-of-c_0), [normal map](tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map) |
+| I | Balanced conormal, transverse transport and frame divisor | A transverse boundary moves the marked support off the coordinate torus | [Conormal transition](../arguments/quartic_specialization_and_symbols.md#conormal-transition-p-009-characteristic-jump-in-the-normal-bundle-of-c_0), [normal map](tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map), [transverse control](../arguments/torus_sextic_residuals.md#a-transverse-limit-with-generic-length-two) |
 | II | Actual normal symbols, binary resultant, full normal cone | The quotient-relation resultant bound uses a full generic binary CI and an actual sole-supported lci thickening | [Global resultant](formal-normal-intersection.md#coprime-first-normal-forms-and-the-global-resultant), [equation comparison](../arguments/filtered_equation_comparison.md), [quotient-relation bound](../results/nonsaturated_first_relation_resultant.md) |
 | III | Full opposite limits and moving-ideal generation | Extreme gcds require a hypothetical sole-support pair. The trace and length-eight restrictions have their stated equivariance hypotheses | [Hellus–Hübl](https://arxiv.org/pdf/1312.7661), [weight restrictions](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md), [full supported limits](../arguments/torus_hilbert_boundary.md), [sextic bound](../arguments/torus_sextic_residuals.md#the-sharp-sextic-eigenpair-bound) |
-| IV | Endpoint lattices, conductor and equation spaces of specified embedded quotients | Strict movement is conditional on an actual sole-support CI. The moving endpoint-to-Hilbert comparison is open | [Constant quotient descent](../arguments/torus_embedded_quotients.md), [moving modification](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification), [open comparison](../investigations/quotient-hilbert-comparison/index.md#question) |
+| IV | Endpoint lattices, conductor, pure intrinsic limits and embedded lengths | Strict movement is conditional on an actual sole-support CI. Full opposite-endpoint algebras and moving equation incidence remain open | [Constant quotient descent](../arguments/torus_embedded_quotients.md), [moving modification](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification), [intrinsic comparison](../arguments/torus_hilbert_boundary.md#endpoint-fibers-in-the-two-intrinsic-limits) |
 | V | CI postulation and degree exhaustion for a pure containing curve | Sole support is tested by the full degree budget, with residual boundary degrees included | [Two surfaces](02-two-surfaces.md), [degree exhaustion](../arguments/torus_embedded_quotients.md#pure-curve-degree-exhaustion), [orbit degrees](../arguments/torus_sextic_residuals.md#orbit-curves-and-finite-quotient-degree) |
 | VI | R-0046 gives a saturated ACM limit with three generators and residual degree \(32\) | Base change for the relative normal cone of a proposed family needs its own hypotheses. Recovery of arbitrary supported CI presentations from opposite limits is open | [R-0046 proof](../arguments/torus_sextic_residuals.md#the-saturated-three-generator-full-limit), [normal-cone criterion](../results/normal_cone_slice_specialization.md), [supported-boundary framework](../frameworks/torus_supported_boundaries.md#directional-loci) |
 

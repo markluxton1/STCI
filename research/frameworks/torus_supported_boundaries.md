@@ -94,6 +94,11 @@ asks for an actual specified supported family and its two-generator locus.
 The [quotient comparison investigation](../investigations/quotient-hilbert-comparison/index.md)
 asks which transverse and endpoint data specialize through an actual map.
 Both must preserve the full embedded object.
+Its [endpoint comparison](../results/intrinsic_limits_endpoint_fibers.md)
+now gives the pure limit and embedded lengths. Use the
+[sextic endpoint conditions](../arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair)
+before assigning a curvilinear or noncurvilinear endpoint fiber to a
+proposed sole-support family.
 
 A construction must verify support, polynomial, and actual homogeneous ideal
 generation. An obstruction must cover its declared family. Extending it to all

@@ -19,10 +19,10 @@ P_{a,b}(n)=abn+\frac{ab(4-a-b)}2.
 \]
 The action is
 \(\lambda(t)[x_0:x_1:x_2:x_3]=[x_0:tx_1:t^3x_2:t^4x_3]\).
-The arguments below work in every characteristic; the graded algebra
+The supported-limit and graded-generator arguments work in every characteristic; the graded algebra
 lemmas are stated over any field with a split torus where required.
 The first three proof sections use no trace obstruction or
-finite-modification theorem. The final invariant-CI corollary additionally
+finite-modification theorem. The invariant-CI corollary additionally
 uses the actual eigenform trace theorem STCI-R-0042.
 
 This Argument supplies complete direct proof routes for
@@ -30,7 +30,7 @@ This Argument supplies complete direct proof routes for
 [STCI-R-0038](../results/torus_eigenvector_generator_lifting.md), and
 [STCI-R-0039](../results/moving_ideal_generator_criterion.md).
 They are separate direct routes, with no circular dependence among
-these Results. The final proof section gives the composite route for
+these Results. The invariant-supported-CI section gives the composite route for
 [STCI-R-0040](../results/invariant_supported_ci_exclusion.md), jointly
 using STCI-R-0038 and
 [STCI-R-0042](../results/eigenform_trace_obstruction.md).
@@ -39,6 +39,11 @@ embedded ideal at its torus boundary, and what must be tested on a
 moving ideal to obtain two actual equations. The attracting-locus
 classification and the existence of a supported CI deformation are not
 proved here.
+
+The endpoint comparison R-0070 applies to any pure curve with reduced
+support \(C\), with its own polynomial and no CI hypothesis. The subsequent
+sextic application uses characteristic zero and the actual degree-six
+equation space.
 
 ## Closed incidence and both full limits
 
@@ -289,11 +294,10 @@ For a fixed \(H_N\), one can label each point set-theoretically by
 its two opposite limits and ask where the moving generator criterion
 holds. No proof here makes those labels into a finite or locally
 closed stratification, realizes any prescribed pair of limits, or
-shows that the two-generator subset is empty or nonempty. Nor is
-there a comparison morphism here from endpoint lattices of a moving
-finite transverse modification to the two opposite Hilbert limits.
-These are separate research interfaces requiring actual families,
-generation, and coverage arguments.
+shows that the two-generator subset is empty or nonempty. The comparison
+below determines the pure parts and embedded lengths of the two limits.
+Recovery of the full ideals and a coverage argument for moving generation
+remain separate problems.
 
 ## Invariant supported complete intersections
 
@@ -335,6 +339,228 @@ their invariance does not contradict a hypothetical moving supported
 CI. The corollary supplies no reduction from arbitrary pairs to
 invariant pairs.
 
+## Endpoint fibers in the two intrinsic limits
+
+Take a pure \(Z\) with \(Z_{\mathrm{red}}=C\) and generic length \(m\).
+Use \(r,u,v\) on \(\Omega\) as in
+[the torus chart](../synthesis/toric_sextic_residuals_and_limits.md#intrinsic-and-transverse-actions).
+Since \((u-1,v-1)^m\) vanishes on the generic normal algebra, it vanishes
+on \(Z\cap\Omega\) by purity. Its full closure \(W\) in
+\(\mathbf P^1_r\times\mathbf G_m^2\) lies in this fixed finite neighborhood.
+On the interior purity gives torsion-freeness over \(k[r,r^{-1}]\), and
+contraction to the endpoint charts gives torsion-freeness there. Thus \(W\)
+is finite flat of rank \(m\). Under the
+[projective parametrization](../synthesis/tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map),
+\(W\to Z\) is proper and quasi-finite, hence finite, with kernel of
+\(\mathcal O_Z\to\rho_*\mathcal O_W\) zero by purity. The pullback of
+\(\mathcal O_Z(1)\) is \(\pi^*\mathcal O_{\mathbf P^1}(4)\). In the notation
+of [R-0070](../results/intrinsic_limits_endpoint_fibers.md), this gives
+
+\[
+P_Z(n)=4mn+m+h-\delta_0-\delta_\infty.
+\]
+
+For the pullback \(r\mapsto\lambda r\), pull \(W\) back by
+\((r,\lambda)\mapsto\lambda r\) on the finite \(r\)-chart. This family is
+finite locally free. On \(\Omega\times\mathbf A^1_\lambda\) it agrees with
+the projective orbit family over \(\lambda\ne0\). Both are the
+\(\lambda\)-torsion-free closure there, so the restriction of the full
+limit \(L_0\) is the constant family of \(B_0\). For the inverse pullback
+use the map \((r,\lambda)\mapsto\tau=\lambda/r\) on \(\Omega\), giving \(B_\infty\).
+Choose \(\mathcal I^N\subset\mathcal I_Z\subset\mathcal I\). The
+intrinsic action preserves \(\mathcal I\), so contraction from the
+punctured parameter trait preserves both containments, as does
+specialization. Thus the support stays \(C\). Schematic
+closure of the common dense open gives \(Y_i\subset L_i\), where \(Y_i\)
+is the pure constant projective image of R-0051. The kernel \(T_i\) of
+\(\mathcal O_{L_i}\to\mathcal O_{Y_i}\) is supported on the endpoints.
+Purity of \(Y_i\) makes this the maximal finite-length subsheaf. By R-0052
+and flatness, its total length is
+
+\[
+\ell(T_i)=D_0(B_i)+D_\infty(B_i)-\delta_0-\delta_\infty+h. \tag{3}
+\]
+
+To recover the two lengths separately, use \(p_0\) for the pullback
+\(r\mapsto\lambda r\). Put \(R=k[\lambda,r]\) and let \(M\) be the finite
+free \(R\)-algebra obtained from \(W\) by the pullback on the finite chart.
+Write \(U=u-1,\ V=v-1\) in it. The image of the affine ambient coordinate
+ring is
+
+\[
+A=R[r^3U,r^4V]\subset M,\qquad N=M/A.
+\]
+
+Over \(\lambda\ne0\), this is the moving affine image because the
+additional powers of \(\lambda\) multiplying the two generators are
+units. The quotient defining \(A\) is \(\lambda\)-torsion-free as a
+submodule of \(M\), so \(A\) is the coordinate algebra of the full orbit
+closure on this chart. The algebra \(M\) is generated as a module by
+the monomials \(U^aV^b\) with \(a+b<m\). Multiplying them by \(r^{4(m-1)}\)
+puts them in \(A\), so \(N\) is finite over \(k[\lambda]\), supported
+over \(r=0\). The sequence after reduction is
+
+\[
+0\to N[\lambda]\longrightarrow A/\lambda A
+ \longrightarrow M/\lambda M\longrightarrow N/\lambda N\to0. \tag{4}
+\]
+
+The image in \(M/\lambda M=B_0[r]\) is the constant-image chart of
+\(Y_0\), so \(N[\lambda]\) is the actual kernel there. The generic
+\(k[\lambda]\)-rank of \(N\) is \(\delta_0\) by rescaling \(r\).
+Its fiber at zero has dimension \(D_0(B_0)\). The free and cyclic
+torsion decomposition over \(k[\lambda]_{(\lambda)}\) gives
+\(\ell(T_{0,p_0})=D_0(B_0)-\delta_0\). Subtracting this length from (3)
+gives \(\ell(T_{0,p_\infty})=D_\infty(B_0)-\delta_\infty+h\).
+
+For the inverse pullback near \(p_\infty\), use the actual projective
+parameter \(z=\tau u/v=x_2/x_3\) and the transverse units
+\(\alpha=v^2/u^3,\ \beta=v^3/u^4\). This invertible change on the
+upstairs chart gives a finite free algebra over \(k[z]\) by the same
+finite-neighborhood and torsion-free argument. Its fiber at \(z=0\)
+equals the fiber at \(\tau=0\), since \(u/v\) is a unit. The action scales
+\(z\) by \(\lambda\) and fixes \(\alpha,\beta\). Repeating (4) with
+\(z^3(\alpha-1),z^4(\beta-1)\) gives \(D_\infty(B_\infty)-\delta_\infty\)
+at \(p_\infty\), and (3) gives \(D_0(B_\infty)-\delta_0+h\) at \(p_0\).
+In particular (4) tests image base change on the chart whose parameter
+is multiplied by \(\lambda\).
+
+For computation over either endpoint DVR with parameter \(z_*\), take
+the column vectors \(e_{ab}(z_*)\) of the local monomials \(U_*^aV_*^b\)
+in a basis of the free algebra. Here \((U_*,V_*)\) is the chart's pair
+of transverse coordinates centered at the support. The local index is
+the valuation of \(\operatorname{Fitt}_0(M/A)\). It is the minimum, over
+all \(m\)-element sets of columns, of
+\(\sum(3a+4b)+\operatorname{ord}_{z_*}\det(e_{ab}(z_*))\), with zero
+minors omitted. The formula follows from the Smith form of the lattice
+generated by the weighted columns. The constant index uses the same
+minimum with only the minors nonzero on the fiber and with no determinant
+valuation. This recovers the inequality at the matched endpoint directly
+and retains information about relations which become dependent there.
+[Fitting ideals and base change](https://stacks.math.columbia.edu/tag/07ZA).
+
+### A finite image with embedded points in the limit
+
+Over characteristic zero take the moving length-three algebra
+\[
+k[r,U,V]/(U^3,V-rU^2),\qquad
+k[\tau,U,V]/(U^2-\tau V,UV,V^2)
+\]
+on the two charts with \(\tau=r^{-1}\). The bases \((1,U,U^2)\) and
+\((1,U,V)\) show freeness and \(h=1\), using \(V=rU^2\) on the overlap.
+Its pure projective image has \((\delta_0,\delta_\infty)=(8,7)\).
+At zero the nonconstant summands are generated by \(r^3U,r^5U^2\).
+At infinity \(U^2=zV\), and \(\alpha-1=-3U+(2+6z)V\),
+\(\beta-1=-4U+(3+10z)V\) form a basis of the nilpotent summand over
+the endpoint DVR. All their products have weight at least six, so
+the index there is \(3+4=7\).
+
+The constant indices are \((D_0,D_\infty)(B_0)=(9,7)\) and
+\((D_0,D_\infty)(B_\infty)=(7,7)\). For \(B_0\), the basis at zero
+uses weights \(3,6\). At infinity the coefficients of \(\alpha-1,\beta-1\)
+in \((U,U^2)\) have determinant \(-6\) and give weights \(3,4\).
+For \(B_\infty\) the maximal ideal is square-zero of dimension two
+and both frames give weights \(3,4\). Thus \(L_0\) has embedded length
+one at each endpoint, whereas \(L_\infty\) is pure. At the matched chart
+of \(L_0\) the image in \(k[\lambda,r,U]/(U^3)\) is
+\[
+k[\lambda,r]\oplus r^3k[\lambda,r]U
+     \oplus(r^6,\lambda r^5)k[\lambda,r]U^2.
+\]
+The class of \(\lambda r^5U^2\) in its fiber is nonzero and killed by \(r\).
+This example uses a pure scheme image and makes no CI hypothesis.
+
+### Necessary endpoint conditions for a sextic pair
+
+Suppose an actual characteristic-zero \((6,6)\) CI has sole reduced
+support \(C\). Then \(m=9\), \(P_Z(n)=36n-144\), and
+\(\delta_0+\delta_\infty=153+h\) with \(h>0\) by the
+[strict movement theorem](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
+By (3) each embedded endpoint fiber \(B\), viewed in both quotient
+frames, must satisfy
+\[
+D_0(B)+D_\infty(B)\ \ge\ 153. \tag{5}
+\]
+In particular its maximal ideal has nonzero fourth power. Otherwise the
+monomials of total degree at most three span in each frame and their
+weights sum to \(70\), giving a total index at most \(140\).
+
+Suppose \(B\) is curvilinear of length nine. In either frame write
+\((x,y)=(u-1,v-1)\) or \((\alpha-1,\beta-1)\), with weights \(3,4\).
+If \(x\) is a parameter, choose \(c\in k\) so that \(y-cx\) has order
+at least two, and write \(j=\operatorname{ord}(y-cx)\), with \(j=9\)
+for the zero element. The nine elements \(x^a(y-cx)^b\) indexed by
+\(a+jb=0,\ldots,8,\ 0\le a<j\), form a basis by their distinct
+orders. Their image weights are at most \(3a+4b\). If \(x\) has zero
+linear term, use \(y\) as parameter, set \(j=\operatorname{ord}x\), and
+use \(y^ax^b\) of weights \(4a+3b\). Summing gives the following upper
+bounds for the index of the indicated frame.
+
+| \(j\) | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| \(x\) a parameter | 76 | 63 | 60 | 64 | 66 | 74 | 88 | 108 |
+| \(x\) of order at least two | 64 | 63 | 66 | 76 | 81 | 94 | 115 | 144 |
+
+If the slower coordinate is a parameter in both frames, (5) forces
+\(j\ge8\) in at least one frame. If the slower coordinate in one frame has
+order \(j\ge2\), the slower coordinate in the other frame has nonzero
+linear coefficient \(2\) in \(y\). For \(j=2\), (5) requires \(j'=9\)
+in that other frame, since \(64+88=152\). For \(j\ge3\), the opposite
+coordinates \((X,Y)\) agree to second order with
+\(((1+y)^2-1,(1+y)^3-1)\), so the opposite order is two and \(j=3,4,5\)
+are excluded. For \(j=6\) the same agreement through order five yields
+a better bound. Put \(d=Y-\tfrac32X\), \(d_3=X^2-\tfrac83d\),
+\(d_4=Xd-\tfrac94d_3\), \(d_5=d^2-\tfrac95d_4\).
+The elements \(1,X,d,d_3,d_4,d_5,d^3,Xd^3,d^4\) have orders \(0\)
+through \(8\) and weights bounded by \(0,3,4,6,7,8,12,15,16\).
+Their sum is \(71\), so \(81+71=152\) also excludes \(j=6\).
+The change of frames is involutive, so these tests apply at either end.
+
+The degree-six equation space gives an additional restriction. Let \(K\)
+be the saturated ideal of the pure constant image of \(B\). The full
+homogeneous initial ideal of a \((6,6)\) pair has two independent sextics,
+by taking the associated graded of its degree-six piece. They survive
+irrelevant saturation and vanish on the pure quotient. Thus
+\(\dim K_6\ge2\). Suppose in a frame with \(x\) a parameter the order
+\(j\) is eight, with \(c\ne1\). By reversal it is enough to use the
+\((u,v)\)-frame. Each weight sextic restricts to \(r^wP(u,v)\) with
+\(\deg P\le6\). If it vanishes on \(B\), substituting \(v=1+cx\),
+\(u=1+x\) gives a polynomial divisible by \(x^8\), hence identically
+zero. The constant image is invariant, so this applies separately to
+every weight component. Therefore every sextic in \(K_6\) is divisible by
+the orbit surface equation
+\[
+H=x_0^3x_3-cx_0^2x_1x_2-(1-c)x_1^4 .
+\]
+It is irreducible for \(c\ne1\) by primitivity and linearity in \(x_3\).
+Its restriction to the embedded family is \(r^4(y-cx)\), of exact
+order eight. A quadric multiplier annihilates that class precisely
+when it vanishes on \(C\). Since \((I_C)_2\) is spanned by the containing
+quadric \(q=x_0x_3-x_1x_2\), this gives \(K_6=kHq\), a contradiction.
+For \(c=1\) the orbit surface is the quadric itself and the same
+argument gives \(K_6=q(I_C)_4\). Thus the order-eight case in a frame
+with \(x\) a parameter can occur only in the quadric direction.
+
+More generally the whole space \(K_6\) of either endpoint image has a
+fixed divisor through \(C\). A coprime pair in \(K_6\) would realize
+the invariant pure image as a CI by degree exhaustion, contradicting
+R-0040. A linear space of forms of dimension at least two over the
+infinite field \(k\) has a coprime pair if its gcd is a unit, by fixing
+one nonzero form and avoiding the finitely many subspaces imposed by
+its irreducible factors. If the gcd \(D\) did not vanish on \(C\),
+it would be regular on the pure image and \(K_6/D\) would still consist
+of equations through that image. A coprime pair there would contain a
+degree-\(36\) curve in a proper intersection of degree
+\((6-\deg D)^2<36\). This proves that \(D\) vanishes on \(C\).
+
+Independent reconstruction checked (5), the two weighted basis bounds,
+the opposite-frame refinements, and the degree-six exclusion for
+\(j=8,\ c\ne1\). These are necessary conditions for each embedded
+endpoint fiber. The all-pair
+[sextic reduction](../supplements/SEXTIC_PAIR_REDUCTION.md#why-every-pair-is-generically-curvilinear)
+gives generic curvilinearity on the curve, so noncurvilinear endpoint
+fibers with nonzero fourth power remain among the possibilities.
+
 ## Conclusion
 
 For each fixed \((a,b),N\), the supported incidence is a closed
@@ -347,8 +573,11 @@ the stated bound. These three direct proofs require no coordinate
 computation. Combining equivariant lifting with the separate trace
 theorem excludes invariant supported CI ideals in characteristic
 zero and forces \(p\mid ab\) in characteristic \(p>0\).
-None of these arguments constructs supported CI equations or decides
-the unrestricted characteristic-zero STCI question.
+For a pure supported scheme the two intrinsic limits have pure quotients
+given by the two embedded endpoint fibers, with explicit embedded lengths.
+This imposes both defect and source-space conditions on a sole-support
+sextic pair. The full opposite-endpoint algebra and moving generator
+incidence remain open.
 
 ## Review
 
