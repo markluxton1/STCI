@@ -151,12 +151,13 @@ its first symbol is a nonzero section
  \cong \mathcal O_{\mathbf P^1}(4a-7r_F)^{\oplus(r_F+1)}.
 \]
 The same holds for \(g\) of order \(r_G\) and ambient degree \(b\).
-The symbol space admits a natural map from the actual homogeneous source
-\(D^j S_d/D^{j+1} S_d\). Its image can be proper, even when the target
-is described by a balanced bundle. For a weight component, the chart
-calculation takes the first nonzero Taylor terms in \(U,V\) of its
-transverse coefficient polynomial, multiplied by the weight power of
-the orbit parameter. [Normal symbols and actual source images](../arguments/quartic_specialization_and_symbols.md#4-which-symmetric-algebra-sections-come-from-quartics).
+The order-\(j\) symbol map embeds the actual homogeneous source
+\(D^j S_d/D^{j+1} S_d\) into the sections of the corresponding bundle.
+Its image can be proper even for a balanced bundle. In the torus chart,
+the symbol of a weight component is the first nonzero Taylor part in
+\(U,V\) of its transverse coefficient polynomial, multiplied by the
+corresponding power of \(r\). The symbol of the sum comes from the
+components of minimum normal order. [Normal symbols and actual source images](../arguments/quartic_specialization_and_symbols.md#4-which-symmetric-algebra-sections-come-from-quartics).
 
 ### Excess vanishing and common directions
 
@@ -189,7 +190,7 @@ calculation](formal-normal-intersection.md#coprime-first-normal-forms-and-the-gl
 
 Further excess divisors can arise from saturation of the **full** normal
 relation modules. For example, in the sole-supported lci setting with
-full generic binary CI initial ideal of degrees \(2\le r<s\), a first
+full generic initial ideal a coprime binary CI of degrees \(2\le r<s\), a first
 relation with image \(L(-D)\) in its saturated line \(L\) has a
 quotient-relation resultant with divisor supported on \(D\).
 This comparison uses the actual relations and their generation
@@ -214,8 +215,11 @@ filtration \(W^\ell S\cap D^j S\) is multiplicative, so
  \ \subset\ S[h^{\pm1},\varepsilon^{\pm1}]
 \]
 is an extended two-parameter Rees algebra, with \(D^j S=S\) for
-\(j\le0\). The weight splitting of \(D^j S\) gives the ambient
-compatibility. Specialization of a mixed ideal or a quotient requires
+\(j\le0\). In normal degree \(j\), a weight-\(i\) element \(f\in D^j S\)
+contributes \(f h^{-i}\varepsilon^{-j}\) and its nonnegative
+\(h\)-multiples. Shifting each weight by \(h^{-i}\) identifies the
+ambient algebra with the extended normal Rees algebra with \(h\)
+adjoined. Specialization of a mixed ideal or a quotient requires
 its own comparison.
 
 For the sheaf \(\mathcal J\) of \(J\), the full normal initial ideal
@@ -227,10 +231,12 @@ Thus the normal cone algebra of \(Y\) along \(C\) is
  =\operatorname{Sym}^\bullet E/H.
 \]
 It includes initials of all local combinations of the two equations.
-The filtered equation module \(\mathcal J/\mathcal I\mathcal J\)
-is a further construction. Its graded generators are obtained from those
-of \(H\) by a canonical surjection whose kernel measures the extra
-initials of \(\mathcal I\mathcal J\). [Filtered equation comparison](../results/local_filtration_comparison_defect.md) ·
+The canonical surjection from \(H/(\operatorname{Sym}^{>0} E)H\)
+onto the associated graded of \(\mathcal J/\mathcal I\mathcal J\)
+uses the images of \(\mathcal J\cap\mathcal I^j\) as filtration steps.
+Its kernel is
+\(\operatorname{in}_{\mathcal I}(\mathcal I\mathcal J)/(\operatorname{Sym}^{>0} E)H\).
+[Filtered equation comparison](../results/local_filtration_comparison_defect.md) ·
 [Normal Koszul cancellation](../arguments/normal_koszul_cancellation.md).
 
 ## III. Extreme weights and full limits
@@ -251,14 +257,14 @@ Both gcds are nonunits and each extreme pair has only height-one
 minimal primes. This is a theorem about displayed components of a
 hypothetical defining pair. [Hellus–Hübl, Theorem 1.2](https://arxiv.org/pdf/1312.7661).
 
-Thoma's bihomogeneous-carrier theorem applies over an algebraically
-closed field of characteristic zero to smooth monomial space curves of
-degree greater than three. It excludes a single bihomogeneous carrier
-with any homogeneous mate. For \(C\) the carrier condition is precisely
-having one weight. The earlier binomial-carrier theorem likewise allows
-an arbitrary homogeneous mate and applies to smooth nondegenerate
-monomial space curves other than the twisted cubic in characteristic
-zero. [Thoma 1991, Theorem 2.5](https://link.springer.com/article/10.1007/BF02568376) ·
+Thoma's characteristic-zero bihomogeneous-carrier theorem concerns
+smooth monomial space curves of degree greater than three. For \(C\)
+the carrier condition is having one weight, and the trace argument
+below verifies the exclusion with an arbitrary homogeneous mate over
+the algebraically closed field \(k\). The earlier binomial-carrier
+theorem likewise allows an arbitrary homogeneous mate and applies to
+smooth nondegenerate monomial space curves other than the twisted cubic
+in characteristic zero. [Thoma 1991](https://link.springer.com/article/10.1007/BF02568376) ·
 [Thoma 1989, Theorem 3.1](https://www.researchgate.net/publication/303334542_Monomial_space_curves_in_as_binomial_set_theoretic_complete_intersections).
 
 Both equations of a hypothetical pair have at least two weights, and
@@ -338,13 +344,15 @@ of the chosen \(F,G\) give equations on \(h\ne0\). Contract their
 translated ideal from \(S[h,h^{-1}]\) to \(S[h]\), equivalently saturate
 the normalized two-equation ideal by \(h\). Dividing lifted syzygies
 by their common power of \(h\) is one way to obtain elements of this
-contraction. The special fiber of the contraction is the full weight
-initial ideal. The saturated ideal of its \(\operatorname{Proj}\) is
-the projective Hilbert limit. The opposite direction gives the other
-limit of the **same** orbit. The homogeneous weight family preserves
-the graded Hilbert function before irrelevant saturation, which can
-change small-degree pieces. The projective flat family preserves the
-Hilbert polynomial. [Full-limit construction and saturation](global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit).
+contraction. Each graded piece of the quotient embeds in its
+localization over \(k[h,h^{-1}]\), where the translated quotient is
+free over the base. The pieces are therefore finite free over \(k[h]\).
+The full weight initial ideal defines the special fiber with the
+original graded Hilbert function. Irrelevant saturation gives the
+ideal of the projective Hilbert limit and can change small-degree
+pieces. Projective flatness preserves the Hilbert polynomial. Applying
+the same construction with the opposite weights gives the other fixed
+limit of the **same** orbit. [Full-limit construction and saturation](global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit).
 
 When the two displayed initials are coprime, the special two-equation
 ideal has height two. The two normalized equations form a regular
@@ -359,8 +367,10 @@ polynomial define a closed projective \(T_C\)-stable incidence. Both
 limits retain these inclusions, sole reduced support and the generic
 length forced by the polynomial. Generation is tested on the moving
 saturated height-two ideal \(J'\) via
-\(J'_d/S_1J'_{d-1}\) in every degree. It is enough to test through
-an independently established regularity bound on \(J'\). The incidence
+\(J'_d/S_1J'_{d-1}\). The ideal defines a CI of type \((a,b)\) exactly
+when these spaces have two basis classes with degrees \(a,b\), counted
+with multiplicity. It is enough to test through an independently
+established regularity bound on \(J'\). The incidence
 allows embedded points, and fixed limits can require extra generators.
 Occurrence of proposed pairs of opposite limits requires a separate
 realization argument. [Supported
@@ -371,9 +381,9 @@ incidence and both limits](../arguments/torus_hilbert_boundary.md#closed-inciden
 
 ### Generic transverse algebra
 
-On \(\Omega\), complete at the generic point of \(C\) using the chart
-coefficient field \(K=k(C)=k(r)\). The actual local ideal gives the
-Artinian complete intersection
+On \(\Omega\), complete the original intersection at the generic point
+of \(C\) using the chart coefficient field \(K=k(C)=k(r)\).
+The actual local ideal gives the Artinian complete intersection
 \[
  A_\eta=K[[U,V]]/(F|_{x_0=1},G|_{x_0=1}),\qquad
  m_C=\dim_K A_\eta.
@@ -425,8 +435,9 @@ zero precisely when distinct labels have the same cube, length three
 otherwise, and length three at infinity. These lengths describe the
 embedded jets of **pairs** of branches. For a union of several
 branches the full lattice records how each new branch meets the
-preceding union. For example, with eight labels the sum of pairwise
-contacts is \(168\), while the total normalization defect is \(136\).
+preceding union. In the full \(\mu_8\) arrangement the pairwise contacts
+over both endpoints sum to \(168\). Its total normalization defect is
+\(136\).
 [Pairwise contact and jet stabilizers](toric_torsion_and_endpoint_contacts.md#4-pairwise-endpoint-contact) ·
 [Genus of the full arrangement](toric_torsion_and_endpoint_contacts.md#6-arithmetic-genus-and-normalization-defects).
 
@@ -440,10 +451,12 @@ is an ideal in both rings. The condition for a local function upstairs
 to descend is that its class in \(\widetilde A/\mathfrak c\) belongs
 to \(A/\mathfrak c\), or equivalently
 \(A=\widetilde A\times_{\widetilde A/\mathfrak c}A/\mathfrak c\).
-This uses the full finite algebras, including nilpotents. The cokernel
-length is a lattice index. The conductor colength has a separate
-comparison under Gorenstein hypotheses, and the finite map is a
-normalization when the upstairs constant quotient is reduced.
+This uses the full finite algebras, including nilpotents. When \(A\)
+is Gorenstein, as it is for a sole-supported complete intersection,
+DVR lattice duality gives \(\ell(A/\mathfrak c)=\delta\) and
+\(\ell(\widetilde A/\mathfrak c)=2\delta\), allowing a non-Gorenstein
+upstairs algebra. For a reduced constant quotient \(B\), the finite
+map \(\nu\) is the normalization.
 [Full conductor boundary](tropical_thickenings_and_endpoint_duality.md#actual-endpoint-lattices-and-the-full-conductor-boundary) ·
 [Fourth-root image and conductor](../arguments/torus_embedded_quotients.md#the-fourth-root-image-and-its-conductor).
 
@@ -456,21 +469,40 @@ of an intersection is a third object, measured by saturation of those
 layers. [Distinct embeddings of the same finite algebra](../arguments/torus_embedded_quotients.md#embedded-quotients-and-characteristic-dependent-endpoints) ·
 [Normal saturation defects](normal_filtration_boundary_obstructions.md).
 
-For a hypothetical sole-support proper pair the finite modification can
-instead be built from the **entire** torus restriction by closure in
-\(\mathbf P^1_r\times\mathbf G_m^2\), with all relations contracted from
-the punctured charts. The resulting scheme is finite flat over
-\(\mathbf P^1_r\) and its algebra bundle \(\mathcal B\) has rank \(m_C\).
-Its finite map to \(Y\) is an isomorphism away from the two endpoints.
-In the completed upstairs algebras the images are again generated
-over the respective DVRs by \(r^3U,r^4V\) and
-\(z^3(\alpha-1),z^4(\beta-1)\).
-The proved strict-movement result gives \(\deg\mathcal B>0\) in
-characteristic zero. It concerns variation of the embedded quotient,
-whose abstract algebra can stay isomorphic. The general comparison of
-these geometric endpoint lattices with the two opposite Hilbert limits
-of the moving ideal remains open. [Entire finite
-modification](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification) ·
+For a proper pair with sole support on \(C\), let \(W\) be the
+scheme-theoretic closure of the **entire** torus restriction in
+\(\mathbf P^1_r\times\mathbf G_m^2\). Its ideal is contracted from
+the punctured charts. In the generic algebra of length \(m_C\),
+the nilpotent ideal \((U,V)\) has \(m_C\)-th power zero. By purity
+this power vanishes on the torus restriction and then on \(W\) by
+contraction. The projection \(\pi:W\to\mathbf P^1_r\) is finite, and
+\(\mathcal B=\pi_*\mathcal O_W\) is a quotient of the constant bundle
+with fiber \(k[U,V]/(U,V)^{m_C}\). Purity gives torsion-freeness on
+the torus and contraction gives it at both endpoints, so \(\mathcal B\)
+is locally free of rank \(m_C\). The projective parametrization extends
+to \(\rho:W\to Y\), whose reduction is an isomorphism onto \(C\).
+Properness and quasi-finiteness make \(\rho\) finite. It is an
+isomorphism off the endpoints, and purity makes
+\(\mathcal O_Y\to\rho_*\mathcal O_W\) injective.
+
+At zero the image lattice is \(k[[r]][r^3U,r^4V]\). At infinity the
+base parameter is \(\tau=r^{-1}\) and the projective parameter is
+\(z=(u/v)\tau\). They define the same adic topology upstairs. A basis
+of the common closed fiber lifts to a basis over \(k[[z]]\) by
+completeness and \(z\)-torsion-freeness. The image lattice there is
+\(k[[z]][z^3(\alpha-1),z^4(\beta-1)]\). These two inclusions give the
+cokernel lengths \(\delta_0,\delta_\infty\) for \(\rho\).
+
+If \(\deg\mathcal B=0\), global generation trivializes \(\mathcal B\).
+Its multiplication and the coordinate sections \(U,V\) would be
+constant. The resulting embedded family would have a \(T_C\)-invariant
+scheme image, contradicting the characteristic-zero invariant CI
+exclusion in Part III. Thus \(\deg\mathcal B>0\). The abstract
+transverse algebra can stay isomorphic as its embedding varies.
+The lattice parameter here runs along \(C\). The Hilbert-limit
+parameter in Part III translates \(Y\) in \(\mathbf P^3\). A general
+comparison of the two endpoint lattices with the two full Hilbert
+limits remains open. [Entire finite modification](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification) ·
 [Moving endpoint lattices](tropical_thickenings_and_endpoint_duality.md#actual-endpoint-lattices-and-the-full-conductor-boundary) ·
 [Strict movement](tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier) ·
 [Open quotient-to-Hilbert comparison](../investigations/quotient-hilbert-comparison/index.md#question).
@@ -488,7 +520,7 @@ For a proper homogeneous pair \((F,G)\), the Koszul resolution gives
 where \(b_3(j)=\binom{j+3}{3}\) for \(j\ge0\), and \(0\) otherwise.
 For large \(d\) this is
 \[
- P_Y(d)=ab,d+\frac{ab(4-a-b)}2,\qquad
+ P_Y(d)=ab\,d+\frac{ab(4-a-b)}2,\qquad
  p_a(Y)=1+\frac{ab(a+b-4)}2.
 \]
 The regular sequence makes \(S/J\) Cohen–Macaulay of dimension two,
@@ -527,15 +559,19 @@ and sole support would give \(m_C=9\) and total endpoint index \(e+153\).
 ### Normal contact and residual cycles
 
 For an actual sole-support pair, suppose the first symbols were
-generically coprime. At each point of \(C\), complete and choose a
-parameter lift for a transverse slice. Sole support and CM purity
-make the completed algebra finite free over the parameter DVR. Its
-slice length is \(r_Fr_G\), so the plane inequality forces the first
-symbols of orders \(r_F,r_G\) to stay coprime on the slice. The
-resultant would be nowhere zero. Its degree from Part II and the
-sole-support degree formula would give
+generically coprime, so \(m_C=r_Fr_G\). At each point of \(C\),
+complete and choose a parameter lift for a transverse slice. Sole
+support makes the completed algebra finite over the parameter DVR,
+and the CM property makes the parameter a nonzerodivisor. The slice
+has length \(m_C\), the rank of that free module. Its two orders are
+at least \(r_F,r_G\) by the global sheaf-power condition. Equality in
+the plane intersection inequality forces both orders to stay
+\(r_F,r_G\) and their symbols to stay coprime. The resultant would be
+nowhere zero. Its degree from Part II and the sole-support degree
+formula would give
 \[
- a/r_F+b/r_G=7/2,qquad (a/r_F)(b/r_G)=4.
+ \frac{a}{r_F}+\frac{b}{r_G}=\frac{7}{2}, \qquad
+ \frac{ab}{r_Fr_G}=4.
 \]
 The sum is at least four by the arithmetic–geometric mean inequality.
 Thus sole support forces common generic normal directions and
@@ -596,7 +632,7 @@ so the ring has depth one. This illustrates the distinction between
 numerical and actual ACM. In Part VI the special fiber is ACM by
 Hilbert–Burch and shares the CI series with its general fiber while
 requiring three generators. [Migliore–Nagel, numerical ACM and the
-Hilbert function](https://www3.nd.edu/~jmiglior/MN11-NumMac.pdf) ·
+Hilbert function](https://arxiv.org/abs/1202.2275) ·
 [Sextic special-fiber resolution](../arguments/torus_sextic_residuals.md#the-saturated-three-generator-full-limit).
 
 ## VI. The filtrations together in the sextic example
@@ -624,13 +660,12 @@ image on the special fiber. The two routes are
 At the bottom, reduction induces a surjection after tensoring with
 the special residue field, because the images of the powers of
 \(\mathcal K\) are the powers of \(\mathcal K_\pm\).
-An isomorphism requires a normal-filtration comparison, for example
-flatness of the power quotients over the parameter DVR. Projective
-flatness gives the top specialization and the Hilbert polynomial.
-The Tor criterion and finite-flat transverse controls explain the
-separate check on the bottom arrow. The comparison diagram also
-leaves room for the endpoint lattice of Part IV, which uses a
-different base parameter on the curve and a finite image construction.
+Flatness of the power quotients over the parameter DVR suffices for
+the bottom map after tensoring to be an isomorphism, by the
+degreewise Tor sequence. The flat projective family gives the
+specialization in the top row and preserves the Hilbert polynomial.
+The endpoint construction in Part IV takes a finite image over a
+parameter on the curve itself.
 [Normal-cone base-change criterion](../results/normal_cone_slice_specialization.md#statement) ·
 [Finite-flat slice with different normal algebras](../results/supported_length_five_defect_specialization.md) ·
 [Geometric endpoints versus opposite Hilbert limits](../investigations/quotient-hilbert-comparison/index.md#method).
@@ -709,7 +744,9 @@ belongs to the residual locus. The sole-support incidence of Part III
 has its own preservation proof and its own moving generator test.
 [Exact endpoint chart ideals and scope of R-0046](../results/sextic_three_generator_full_limit.md#statement).
 
-### Sextic source spaces and pencils
+### Supplementary sextic source spaces and pencils
+
+<a id="sextic-source-spaces-and-pencils"></a>
 
 <a id="6-from-invariant-examples-to-the-supported-ci-hilbert-locus"></a>
 <a id="7-parameter-spaces-pencils-fixed-loci-and-deformation-strata"></a>
