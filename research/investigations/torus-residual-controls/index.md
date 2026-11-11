@@ -30,15 +30,14 @@ rational calculations and explicitly listed prime fields in [verify.py](verify.p
 The additional [Macaulay2 control](verify_transverse_limit.m2) checks the
 specified length-two sextic pair and the marked curve's full transverse
 limits over \(\mathbf Q\), including parameter and irrelevant saturation.
-It is not an enumeration of arbitrary ideals, a saturation algorithm, a
-primary-decomposition proof, or a supported-family coverage calculation.
-No \(N\)-bounded supported Hilbert incidence is computed here.
+The scope of both replays is the listed inputs. Coverage of a supported
+Hilbert incidence requires a separate argument.
 
 ## Question
 
 Do the retained finite algebra, jet, polynomial-minor, and Hilbert checks pass
 on their specified inputs and reject deliberate changes to those data?
-The broader realization and comparison questions belong to
+The remaining equation realization and full limit comparison questions belong to
 [I-0001](../supported-generator-incidence/index.md) and
 [I-0002](../quotient-hilbert-comparison/index.md) and remain open.
 
@@ -77,7 +76,7 @@ The additional
 [transverse length-two calculation](../../arguments/torus_sextic_residuals.md#a-transverse-limit-with-generic-length-two)
 has a regular-sequence proof and a full-ideal replay in Macaulay2.
 
-Run the specified normal Python commands, which keep assertions enabled:
+Run the replays with Python assertions enabled.
 
 ```sh
 python3 -B research/investigations/torus-residual-controls/verify.py

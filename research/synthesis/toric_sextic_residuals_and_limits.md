@@ -626,9 +626,10 @@ In characteristic zero the first symbols are independent, and the
 marked length at each of the seven roots is one. The projective
 intersection has seven distinct quartic components. The Frobenius
 collision changes the embedded algebras and support while preserving
-the same endpoint-index sum and projective CI polynomial. The trace
-obstruction permits \(h=0\) here because seven divides the degree
-product. Its proof concerns the generic multiplicity of the full
+the same endpoint-index sum and projective CI polynomial. In
+characteristic seven, \(h=0\) is compatible with the trace theorem
+because seven divides the degree product. The trace proof concerns
+the generic multiplicity of the full
 nonreduced algebra and allows the reduced fourfold projection to be
 separable. The actual two global equations hold in both fields.
 [Entire finite modification and characteristic scope](tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier) ·

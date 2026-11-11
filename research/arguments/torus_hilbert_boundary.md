@@ -349,10 +349,13 @@ on \(Z\cap\Omega\) by purity. Its full closure \(W\) in
 \(\mathbf P^1_r\times\mathbf G_m^2\) lies in this fixed finite neighborhood.
 On the interior purity gives torsion-freeness over \(k[r,r^{-1}]\), and
 contraction to the endpoint charts gives torsion-freeness there. Thus \(W\)
-is finite flat of rank \(m\). Under the
-[projective parametrization](../synthesis/tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map),
-\(W\to Z\) is proper and quasi-finite, hence finite, with kernel of
-\(\mathcal O_Z\to\rho_*\mathcal O_W\) zero by purity. The pullback of
+is finite flat of rank \(m\). The
+[projective parametrization](../synthesis/tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map)
+factors through \(Z\) because the equations of \(Z\) vanish on the
+schematically dense open of \(W\) over the torus. The map \(\rho:W\to Z\)
+is proper and is an isomorphism on reduced supports, so it is finite.
+The kernel of
+\(\mathcal O_Z\to\rho_*\mathcal O_W\) is zero by purity. The pullback of
 \(\mathcal O_Z(1)\) is \(\pi^*\mathcal O_{\mathbf P^1}(4)\). In the notation
 of [R-0070](../results/intrinsic_limits_endpoint_fibers.md), this gives
 
@@ -391,10 +394,12 @@ ring is
 A=R[r^3U,r^4V]\subset M,\qquad N=M/A.
 \]
 
-Over \(\lambda\ne0\), this is the moving affine image because the
-additional powers of \(\lambda\) multiplying the two generators are
-units. The quotient defining \(A\) is \(\lambda\)-torsion-free as a
-submodule of \(M\), so \(A\) is the coordinate algebra of the full orbit
+Over \(\lambda\ne0\), the substitution \(r'=\lambda r\) identifies this
+with the moving affine image. Its weighted generators differ from the
+original ones by powers of the unit \(\lambda\). The subalgebra \(A\)
+of \(M\) is \(\lambda\)-torsion-free. Thus the kernel of the ambient
+coordinate map to \(A\) is the contraction of its localization at
+\(\lambda\), and \(A\) is the coordinate algebra of the full orbit
 closure on this chart. The algebra \(M\) is generated as a module by
 the monomials \(U^aV^b\) with \(a+b<m\). Multiplying them by \(r^{4(m-1)}\)
 puts them in \(A\), so \(N\) is finite over \(k[\lambda]\), supported
@@ -405,8 +410,10 @@ over \(r=0\). The sequence after reduction is
  \longrightarrow M/\lambda M\longrightarrow N/\lambda N\to0. \tag{4}
 \]
 
-The image in \(M/\lambda M=B_0[r]\) is the constant-image chart of
-\(Y_0\), so \(N[\lambda]\) is the actual kernel there. The generic
+The connecting map takes a class \([b]\in N[\lambda]\) represented
+by \(b\in M\) to \([\lambda b]\in A/\lambda A\). The image in
+\(M/\lambda M=B_0[r]\) is the constant-image chart of \(Y_0\), so
+\(N[\lambda]\) is the actual kernel there. The generic
 \(k[\lambda]\)-rank of \(N\) is \(\delta_0\) by rescaling \(r\).
 Its fiber at zero has dimension \(D_0(B_0)\). The free and cyclic
 torsion decomposition over \(k[\lambda]_{(\lambda)}\) gives
@@ -416,8 +423,12 @@ gives \(\ell(T_{0,p_\infty})=D_\infty(B_0)-\delta_\infty+h\).
 For the inverse pullback near \(p_\infty\), use the actual projective
 parameter \(z=\tau u/v=x_2/x_3\) and the transverse units
 \(\alpha=v^2/u^3,\ \beta=v^3/u^4\). This invertible change on the
-upstairs chart gives a finite free algebra over \(k[z]\) by the same
-finite-neighborhood and torsion-free argument. Its fiber at \(z=0\)
+upstairs chart preserves the ideal of the reduced section, giving
+finiteness over \(k[z]\). For each nonzero polynomial \(P\), the
+difference \(P(z)-P(\tau)\) is nilpotent on \(W\). Since \(P(\tau)\)
+acts injectively, so does \(P(z)\), by taking a power of \(P(\tau)\)
+on any element annihilated by \(P(z)\). The algebra is therefore
+free over \(k[z]\). Its fiber at \(z=0\)
 equals the fiber at \(\tau=0\), since \(u/v\) is a unit. The action scales
 \(z\) by \(\lambda\) and fixes \(\alpha,\beta\). Repeating (4) with
 \(z^3(\alpha-1),z^4(\beta-1)\) gives \(D_\infty(B_\infty)-\delta_\infty\)
@@ -492,8 +503,9 @@ at least two, and write \(j=\operatorname{ord}(y-cx)\), with \(j=9\)
 for the zero element. The nine elements \(x^a(y-cx)^b\) indexed by
 \(a+jb=0,\ldots,8,\ 0\le a<j\), form a basis by their distinct
 orders. Their image weights are at most \(3a+4b\). If \(x\) has zero
-linear term, use \(y\) as parameter, set \(j=\operatorname{ord}x\), and
-use \(y^ax^b\) of weights \(4a+3b\). Summing gives the following upper
+linear term, use \(y\) as parameter, set \(j=\operatorname{ord}x\)
+with \(j=9\) for \(x=0\), and use \(y^ax^b\) of weights \(4a+3b\).
+Summing gives the following upper
 bounds for the index of the indicated frame.
 
 | \(j\) | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
@@ -527,12 +539,13 @@ irrelevant saturation and vanish on the pure quotient. Thus
 \(\deg P\le6\). If it vanishes on \(B\), substituting \(v=1+cx\),
 \(u=1+x\) gives a polynomial divisible by \(x^8\), hence identically
 zero. The constant image is invariant, so this applies separately to
-every weight component. Therefore every sextic in \(K_6\) is divisible by
-the orbit surface equation
+every weight component. For \(c\ne1\), the inverse image of the line
+\(v=1+c(u-1)\) in \(\Omega\) is dense in \(V(H)\), where
 \[
 H=x_0^3x_3-cx_0^2x_1x_2-(1-c)x_1^4 .
 \]
-It is irreducible for \(c\ne1\) by primitivity and linearity in \(x_3\).
+The equation \(H\) is irreducible by primitivity and linearity in
+\(x_3\), so every sextic in \(K_6\) is divisible by \(H\).
 Its restriction to the embedded family is \(r^4(y-cx)\), of exact
 order eight. A quadric multiplier annihilates that class precisely
 when it vanishes on \(C\). Since \((I_C)_2\) is spanned by the containing

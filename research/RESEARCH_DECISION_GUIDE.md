@@ -193,15 +193,6 @@ and actual source lifts. Recomputing the 23-dimensional
 double source in quotient coordinates adds an interpretation, not a second
 obstruction.
 
-This can organize either a fixed-degree CI question such as (6,6), or the
-independent downstairs ACM objective. Its value is a structured boundary and
-weight decomposition; no finite fixed-locus classification, tractable
-supported deformation space or general recovery theorem is currently supplied.
-The explicit ACM three-generator limit has the (6,6) Hilbert series but retains
-boundary curves; it is not a sole-support boundary ideal.
-Before assigning
-a substantial calculation, select an actual invariant ideal, check its target
-Hilbert polynomial and support incidence, and identify the full deformation
 The [endpoint-to-limit comparison](results/intrinsic_limits_endpoint_fibers.md)
 now gives each pure intrinsic limit and both embedded lengths. For a
 sole-support sextic pair, first apply the
@@ -211,7 +202,16 @@ equation-incidence test in one moving family. Transverse translations
 transport the normal algebra over the parameter torus and move the
 support to the coordinate boundary on specialization.
 
-and generator conditions. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
+The torus method can organize a fixed-degree CI question such as (6,6) or the
+independent downstairs ACM objective. Its value is a structured boundary and
+weight decomposition; no finite fixed-locus classification, tractable
+supported deformation space or general recovery theorem is currently supplied.
+The explicit ACM three-generator limit has the (6,6) Hilbert series but retains
+boundary curves; it is not a sole-support boundary ideal.
+
+Before assigning a substantial calculation, select an actual invariant ideal,
+check its target Hilbert polynomial and support incidence, and identify the
+full deformation and generator conditions. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
 are actual non-ACM controls, not demonstrated limits of the desired CI type.
 Their failure to be ACM does not alone exclude an ACM general fiber.
 Retain embedded points if present; a pure hull changes the boundary object.

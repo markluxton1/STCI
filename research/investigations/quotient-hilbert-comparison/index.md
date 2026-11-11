@@ -79,9 +79,11 @@ constant-quotient Results.
 
 Retain the entire scheme-theoretic closure of the torus restriction and both
 endpoint image algebras, including torsion removal and saturation. Compute the
-full ideal limits of the same moving scheme in both directions. Then construct
-the actual maps relating the data and prove what commutes with specialization.
-Only after this can defects or rank changes be compared.
+full ideal limits of the same moving scheme in both directions. Use the
+[relative image sequence](../../arguments/torus_hilbert_boundary.md#endpoint-fibers-in-the-two-intrinsic-limits)
+on the chart whose parameter is multiplied by the degeneration parameter.
+Comparing full algebras and equation modules requires the corresponding
+maps at the opposite endpoint.
 
 The geometric points \(p_0,p_\infty\) on an orbit closure and the two limits
 \(t\to0,\infty\) in a Hilbert scheme play different roles. The displayed

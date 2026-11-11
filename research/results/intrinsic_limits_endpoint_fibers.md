@@ -67,3 +67,11 @@ cokernel, and the opposite-chart change to \(z=\tau u/v\). The reviewer
 derived both endpoint lengths and gave a finite flat length-three example
 where the image fails to commute with specialization. The review covers
 the comparison for pure supported schemes and uses no computation.
+
+A separate nonauthor audit at [274c7e1](https://github.com/markluxton1/STCI/commit/274c7e1111e9f236cbfc1527cdaf15da83bf7445) reconstructed the
+finite image, both specializations and both length formulas from the
+proofs of R-0051 and R-0052 and the relative image inclusion. It
+confirmed this route for pure schemes with reduced support \(C\) in
+arbitrary characteristic. The audit also checked the conditional
+characteristic-zero sextic inequalities, the weighted jet bounds and
+the degree-six source argument in the proof's sextic application.
