@@ -16,7 +16,8 @@ does not accumulate into an exhaustive classification without a coverage proof.
 The torus pilot gives two concrete Investigation entrypoints:
 [two-equation incidence on a declared supported family](investigations/supported-generator-incidence/index.md)
 and [comparison of moving quotients with full limits](investigations/quotient-hilbert-comparison/index.md).
-Both remain unperformed research tasks. The
+The endpoint comparison now determines pure intrinsic limits and embedded
+lengths, while full equation incidence remains open. The
 [finite residual controls](investigations/torus-residual-controls/index.md)
 are complete within their explicit computational scope and resolve neither
 question. Their Frameworks explain the selection criteria without assigning
@@ -54,7 +55,7 @@ results change and how to choose between constructive and obstructive aims.
 | Nonnormal carrier geometry | [Gorenstein-normalized quintics](synthesis/quintic_gorenstein_normalizations.md), [remaining toric center incidence](synthesis/quintic_toric_center_incidence.md), [conductor differential](synthesis/carrier_conductor_differential_comparison.md) | Decide full inverse support on the remaining M locus before testing actual power descent; singular local gluing alone does not realize the projective carrier |
 | Spectral graded families and ambient equations | [Order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md), [actual source quotient](synthesis/actual_octic_root_lift_comparison.md), [torsion-two charts](synthesis/quadratic_root_torsion_two_lifting.md) | The completed 24-point affine slice has no compatible sextic; test the full root incidence with its rank boundaries and all corrections. Positive octic constructions remain useful for containing intersections |
 | Finite jets and equation search | [Intrinsic global jets](synthesis/global_equation_jets.md), [bounded certificates](synthesis/bounded_equation_certificates.md) | Use actual source-image filtrations and full nonlinear corrections; existential finite realization is distinct from a uniform effective witness-degree bound |
-| Contact and tropical descent | [Full transverse families](synthesis/contact_duality_and_global_descent.md), [constant-quotient equation criterion](results/constant_quotient_equation_criterion.md#statement) | Extend the actual endpoint and source calculations to a [moving rank-nine family](investigations/quotient-hilbert-comparison/index.md#inputs) satisfying a sextic divisor profile. Positive movement and locally CI endpoints alone remain compatible |
+| Contact and tropical descent | [Endpoint-to-limit comparison](results/intrinsic_limits_endpoint_fibers.md), [constant-quotient equation criterion](results/constant_quotient_equation_criterion.md#statement) | Test surviving high-contact or noncurvilinear endpoint fibers against actual sextic sources in one moving rank-nine family satisfying a divisor profile. Recover the full opposite-endpoint algebra and moving generator incidence |
 | Marked dual/ruled geometry | [Fixed geometry](synthesis/01-problem-and-curve.md) | Construct a proved map from actual equation/conductor data to marked contact schemes, retaining nilpotents and endpoint corrections |
 | Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [endpoint image comparison](arguments/torus_embedded_quotients.md), [effective transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md) | Analyze the integral image and base-change defect in a declared embedded quotient family; quotient flatness alone does not give flat projective images. All-pair degree growth remains conditional, and fixed-carrier or prescribed-lift restrictions do not exclude unrelated presentations |
 
@@ -111,19 +112,31 @@ satisfy \(F\alpha=u\), \(G\alpha=v\), where \(M=H_I^2(S)\), \(I=I_{C_0}\),
 and \(B=xz^2-y^2w\)? The [finite order-four reduction](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#uniform-finite-reduction-for-the-remaining-degree-four-locus)
 puts \(\alpha\) in the 30-dimensional space \((0:_M I^4)_{-7}\), with
 principal-part order exactly four. Each quartic source is 18-dimensional.
-The [ruling-ratio slices](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#new-all-stage-exclusion-both-ruling-ratio-slices),
-[two pure constant directions](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#independent-audit-of-pure-constant-quartic-directions),
-[explicit all-stage family](supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md#3-an-integral-coefficient-functional-excludes-the-whole-explicit-family),
-and [normalized parity family](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#a-corrected-polynomial-dual-exclusion-for-the-normalized-parity-family)
-have their own exact exclusions. The [two rational endpoint families](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
-have primitive direction degree two and pure cubic top \(h=t\). Their
-certificates exclude target \(u\) for every admissible direction and affine
-lower correction in those families.
+The [finite moment and tensor proof](results/quartic_ancestor_direction_reduction.md)
+now excludes all primitive directions of degrees zero and two, and every
+degree-one direction with a component zero at either toric endpoint.
+It includes every admissible top coefficient and lower correction in
+those strata. Its necessary quadratic moment is
+\(\mu_2((rU-pV)^2)=0\).
 
-Recast the remaining incidence using [successive jet discrepancies](#successive-jet-discrepancies-in-actual-equation-spaces).
-For the remaining primitive conormal directions of degrees zero, one, and
-two, retain the ambient-coprime quartic lifts. Test the top-symbol lifts
-and both lower multiplication equations in the full finite tensor.
+The remaining normal-dual directions normalize to
+\[
+p=1+t,\qquad r=b+ct,\qquad bc(b-c)\ne0,
+\]
+on the line \(b=2\) or the degree-twelve curve
+\(P_{12}(b,c)=0\). The [exact determinant and remaining interface](results/quartic_ancestor_direction_reduction.md#remaining-interface)
+define \(P_{12}\) without a coefficient dump.
+Retain the full top-and-quadratic kernel in
+\((h_0,\ldots,h_4,\ell)\), both actual lower multiplication equations
+in the full 74-row tensor, and ambient coprimality.
+The existing canonical-triple reductions leave \(d_2=2,3,4\) and
+\(d_3=4\) in this degree-one lane.
+
+The [ruling-ratio slices](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#new-all-stage-exclusion-both-ruling-ratio-slices),
+[explicit all-stage family](supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md#3-an-integral-coefficient-functional-excludes-the-whole-explicit-family),
+[normalized parity certificate](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#a-corrected-polynomial-dual-exclusion-for-the-normalized-parity-family)
+and [complete rational endpoint certificates](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
+retain their separate exact proofs and provide controls.
 Non-quasi-cyclicity of the full module needs an argument beyond this fixed
 degree. The quartic-mate theorem concerns sole support, whereas the ancestor
 [generic length calculation](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#2026-10-05-localcoh-generic-length)

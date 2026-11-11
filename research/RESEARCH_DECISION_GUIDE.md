@@ -60,6 +60,15 @@ new deductions, changed proofs, and consequential preservation decisions.
 
 ## What the combined work changes
 
+The fixed characteristic-zero [quartic ancestor incidence](results/quartic_ancestor_direction_reduction.md)
+has been reduced to linear directions \(p=1+t,\ r=b+ct\) on a line
+and a degree-twelve curve. The constant, quadratic and linear endpoint
+strata have exact lift exclusions. The next bounded calculation can
+work on those two interior components, retain every top-and-quadratic
+kernel vector and impose both actual tensor targets. A surviving pair
+would have residual degree four by the existing generic-length theorem.
+Higher multiplier degrees remain a separate full-module investigation.
+
 The strongest shared lesson is that actual source images and full support
 carry information absent from an abstract normal form, a graded algebra or
 a scalar budget. The [spectral construction](synthesis/spectral_determinant_schemes.md)
@@ -184,16 +193,25 @@ and actual source lifts. Recomputing the 23-dimensional
 double source in quotient coordinates adds an interpretation, not a second
 obstruction.
 
-This can organize either a fixed-degree CI question such as (6,6), or the
+The [endpoint-to-limit comparison](results/intrinsic_limits_endpoint_fibers.md)
+now gives each pure intrinsic limit and both embedded lengths. For a
+sole-support sextic pair, first apply the
+[endpoint weighted-basis and degree-six source tests](arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair).
+The surviving high-contact and noncurvilinear fibers require a full
+equation-incidence test in one moving family. Transverse translations
+transport the normal algebra over the parameter torus and move the
+support to the coordinate boundary on specialization.
+
+The torus method can organize a fixed-degree CI question such as (6,6) or the
 independent downstairs ACM objective. Its value is a structured boundary and
 weight decomposition; no finite fixed-locus classification, tractable
 supported deformation space or general recovery theorem is currently supplied.
 The explicit ACM three-generator limit has the (6,6) Hilbert series but retains
 boundary curves; it is not a sole-support boundary ideal.
-Before assigning
-a substantial calculation, select an actual invariant ideal, check its target
-Hilbert polynomial and support incidence, and identify the full deformation
-and generator conditions. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
+
+Before assigning a substantial calculation, select an actual invariant ideal,
+check its target Hilbert polynomial and support incidence, and identify the
+full deformation and generator conditions. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
 are actual non-ACM controls, not demonstrated limits of the desired CI type.
 Their failure to be ACM does not alone exclude an ACM general fiber.
 Retain embedded points if present; a pure hull changes the boundary object.

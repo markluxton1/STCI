@@ -50,6 +50,18 @@ outcomes in their own right; unrestricted non-STCI is not a presumed conclusion.
 
 ## Reviewed contributions with bounded scope
 
+The [quartic ancestor direction reduction](results/quartic_ancestor_direction_reduction.md)
+excludes every constant and quadratic direction and the linear endpoint
+boundary for the two fixed socle targets over characteristic zero.
+It reconstructs the finite top and lower tests in the existing
+30-by-18 source tensor. The remaining degree-one directions normalize
+to \(p=1+t,\ r=b+ct\), with \(bc(b-c)\ne0\), on the line \(b=2\) or
+a degree-twelve curve. Their actual two-target incidence remains open.
+The [frontier](FRONTIER.md#quartic-common-ancestors-in-local-cohomology)
+retains the geometric defect conditions and the degree-four residual
+cycle of any surviving pair. Full-module non-quasi-cyclicity requires
+control of higher multiplier degrees.
+
 The [local filtered-equation comparison](results/local_filtration_comparison_defect.md)
 identifies the defect of \(Q_n\to\operatorname{gr}_F^n(J/I_CJ)\). Under generic
 vanishing, its punctual length is the difference between the two torsion
@@ -181,8 +193,17 @@ in characteristic zero, three and two, respectively; only the characteristic-two
 image is the prescribed quartic CI. Its flat characteristic-zero collision has
 genus 28 and is not that genus-33 CI family. The
 [moving-quotient investigation](investigations/quotient-hilbert-comparison/index.md#inputs)
-records the separate finite-modification theorem and the open full-limit
-comparison.
+records the finite-modification theorem and the
+[endpoint-to-limit comparison](results/intrinsic_limits_endpoint_fibers.md).
+Each embedded endpoint fiber gives the pure part of one intrinsic limit,
+and its two constant-image indices determine both embedded lengths.
+For a characteristic-zero sole-support sextic pair, each fiber has
+total constant-image defect at least \(153\). The
+[weighted-basis and source tests](arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair)
+give restrictions on both curvilinear and noncurvilinear fibers,
+including exclusion of order-eight affine-line contact off the
+quadric direction when the slow coordinate is a parameter.
+The full opposite-endpoint algebra and moving equation incidence remain open.
 
 The [sextic configurations and full limits](arguments/torus_sextic_residuals.md)
 give a sharp quotient-length bound of eight for every proper pair of eigenform
