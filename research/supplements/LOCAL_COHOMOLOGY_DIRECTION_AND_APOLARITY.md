@@ -2,6 +2,12 @@
 
 Consolidated mathematical source material. Original claims, calculations, and qualifications are preserved; audits have the review scopes stated below.
 
+The [current finite continuation](../results/quartic_ancestor_direction_reduction.md)
+excludes all constant and quadratic directions and the linear endpoint
+boundary. It leaves an explicit line and degree-twelve curve of linear
+directions for the two lower target equations. The scoped arguments
+below supply its antecedents and independent controls.
+
 ---
 
 <a id="2026-10-05-localcoh-degree4"></a>

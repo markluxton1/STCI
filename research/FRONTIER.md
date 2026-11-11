@@ -112,19 +112,31 @@ satisfy \(F\alpha=u\), \(G\alpha=v\), where \(M=H_I^2(S)\), \(I=I_{C_0}\),
 and \(B=xz^2-y^2w\)? The [finite order-four reduction](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#uniform-finite-reduction-for-the-remaining-degree-four-locus)
 puts \(\alpha\) in the 30-dimensional space \((0:_M I^4)_{-7}\), with
 principal-part order exactly four. Each quartic source is 18-dimensional.
-The [ruling-ratio slices](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#new-all-stage-exclusion-both-ruling-ratio-slices),
-[two pure constant directions](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#independent-audit-of-pure-constant-quartic-directions),
-[explicit all-stage family](supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md#3-an-integral-coefficient-functional-excludes-the-whole-explicit-family),
-and [normalized parity family](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#a-corrected-polynomial-dual-exclusion-for-the-normalized-parity-family)
-have their own exact exclusions. The [two rational endpoint families](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
-have primitive direction degree two and pure cubic top \(h=t\). Their
-certificates exclude target \(u\) for every admissible direction and affine
-lower correction in those families.
+The [finite moment and tensor proof](results/quartic_ancestor_direction_reduction.md)
+now excludes all primitive directions of degrees zero and two, and every
+degree-one direction with a component zero at either toric endpoint.
+It includes every admissible top coefficient and lower correction in
+those strata. Its necessary quadratic moment is
+\(\mu_2((rU-pV)^2)=0\).
 
-Recast the remaining incidence using [successive jet discrepancies](#successive-jet-discrepancies-in-actual-equation-spaces).
-For the remaining primitive conormal directions of degrees zero, one, and
-two, retain the ambient-coprime quartic lifts. Test the top-symbol lifts
-and both lower multiplication equations in the full finite tensor.
+The remaining normal-dual directions normalize to
+\[
+p=1+t,\qquad r=b+ct,\qquad bc(b-c)\ne0,
+\]
+on the line \(b=2\) or the degree-twelve curve
+\(P_{12}(b,c)=0\). The [exact determinant and remaining interface](results/quartic_ancestor_direction_reduction.md#remaining-interface)
+define \(P_{12}\) without a coefficient dump.
+Retain the full top-and-quadratic kernel in
+\((h_0,\ldots,h_4,\ell)\), both actual lower multiplication equations
+in the full 74-row tensor, and ambient coprimality.
+The existing canonical-triple reductions leave \(d_2=2,3,4\) and
+\(d_3=4\) in this degree-one lane.
+
+The [ruling-ratio slices](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#new-all-stage-exclusion-both-ruling-ratio-slices),
+[explicit all-stage family](supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md#3-an-integral-coefficient-functional-excludes-the-whole-explicit-family),
+[normalized parity certificate](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#a-corrected-polynomial-dual-exclusion-for-the-normalized-parity-family)
+and [complete rational endpoint certificates](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
+retain their separate exact proofs and provide controls.
 Non-quasi-cyclicity of the full module needs an argument beyond this fixed
 degree. The quartic-mate theorem concerns sole support, whereas the ancestor
 [generic length calculation](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#2026-10-05-localcoh-generic-length)

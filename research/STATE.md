@@ -50,6 +50,18 @@ outcomes in their own right; unrestricted non-STCI is not a presumed conclusion.
 
 ## Reviewed contributions with bounded scope
 
+The [quartic ancestor direction reduction](results/quartic_ancestor_direction_reduction.md)
+excludes every constant and quadratic direction and the linear endpoint
+boundary for the two fixed socle targets over characteristic zero.
+It reconstructs the finite top and lower tests in the existing
+30-by-18 source tensor. The remaining degree-one directions normalize
+to \(p=1+t,\ r=b+ct\), with \(bc(b-c)\ne0\), on the line \(b=2\) or
+a degree-twelve curve. Their actual two-target incidence remains open.
+The [frontier](FRONTIER.md#quartic-common-ancestors-in-local-cohomology)
+retains the geometric defect conditions and the degree-four residual
+cycle of any surviving pair. Full-module non-quasi-cyclicity requires
+control of higher multiplier degrees.
+
 The [local filtered-equation comparison](results/local_filtration_comparison_defect.md)
 identifies the defect of \(Q_n\to\operatorname{gr}_F^n(J/I_CJ)\). Under generic
 vanishing, its punctual length is the difference between the two torsion

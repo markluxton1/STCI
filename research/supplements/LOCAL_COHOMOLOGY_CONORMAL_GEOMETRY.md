@@ -2,6 +2,11 @@
 
 This owner connects the actual inverse-system ancestor to its saturated socle and conormal extension. The endpoint direction classification, corner exclusions and local defect models come first; the intrinsic splitting and exact Hankel-rank consequences follow. All target-specific claims retain the fixed characteristic-zero C0 setting and their stated finite-ancestor antecedents. The [complete rational endpoint proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md) owns the generic denominator partitions and every exceptional-field closure, rather than the obsolete21/22-point checkpoints.
 
+The [finite direction reduction](../results/quartic_ancestor_direction_reduction.md)
+now excludes the entire quadratic direction lane and every linear direction
+with an endpoint component zero. The degree-one interior retains the
+canonical-triple defect and quotient conditions developed here.
+
 <a id="2026-10-06-session-localcoh-progress"></a>
 
 ## Endpoint symbols, socle defects and local corner geometry

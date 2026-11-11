@@ -60,6 +60,15 @@ new deductions, changed proofs, and consequential preservation decisions.
 
 ## What the combined work changes
 
+The fixed characteristic-zero [quartic ancestor incidence](results/quartic_ancestor_direction_reduction.md)
+has been reduced to linear directions \(p=1+t,\ r=b+ct\) on a line
+and a degree-twelve curve. The constant, quadratic and linear endpoint
+strata have exact lift exclusions. The next bounded calculation can
+work on those two interior components, retain every top-and-quadratic
+kernel vector and impose both actual tensor targets. A surviving pair
+would have residual degree four by the existing generic-length theorem.
+Higher multiplier degrees remain a separate full-module investigation.
+
 The strongest shared lesson is that actual source images and full support
 carry information absent from an abstract normal form, a graded algebra or
 a scalar budget. The [spectral construction](synthesis/spectral_determinant_schemes.md)

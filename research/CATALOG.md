@@ -79,6 +79,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0068](results/punctual_comparison_defect_family.md) | Punctual comparison defects of arbitrary degree and length with integral carriers | filtered syzygy lifting and actual fiber calculation: accepted | [scope](results/punctual_comparison_defect_family.md#scope) |
 | [STCI-R-0069](results/supported_quadruple_equation_filtration.md) | A supported quadruple whose equation filtration retains the torsion | free supported algebra and full equation filtration: accepted | [scope](results/supported_quadruple_equation_filtration.md#scope) |
 | [STCI-R-0070](results/intrinsic_limits_endpoint_fibers.md) | Endpoint fibers and embedded points in the intrinsic torus limits | relative-image: accepted | [scope](results/intrinsic_limits_endpoint_fibers.md#scope) |
+| [STCI-R-0071](results/quartic_ancestor_direction_reduction.md) | Direction reduction for the fixed quartic common-ancestor incidence | finite moments and actual multiplication: accepted | [scope](results/quartic_ancestor_direction_reduction.md#scope) |
 
 ## Arguments
 
@@ -176,6 +177,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0068: filtered syzygy lifting and actual fiber calculation; joint premises [STCI-R-0030, STCI-R-0065]; proof `research/arguments/punctual_comparison_defects.md#arbitrary-punctual-degree-and-length-with-integral-carriers`; review accepted, reconstructed at `#review`.
 - STCI-R-0069: free supported algebra and full equation filtration; joint premises [STCI-R-0030]; proof `research/arguments/punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough`; review accepted, reconstructed at `#review`.
 - STCI-R-0070: relative-image; joint premises [STCI-R-0051, STCI-R-0052]; proof `research/arguments/torus_hilbert_boundary.md#endpoint-fibers-in-the-two-intrinsic-limits`; review accepted, reconstructed at `#review`.
+- STCI-R-0071: finite moments and actual multiplication; joint premises [STCI-R-0020]; proof `#proof`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -228,7 +230,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0017: no declared backlinks.
 - STCI-R-0018: no declared backlinks.
 - STCI-R-0019: no declared backlinks.
-- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
+- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); premise of STCI-R-0071 (finite moments and actual multiplication); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
 - STCI-R-0021: premise of STCI-R-0057 (filtered elimination and the initial term of a principal ideal); recorded reference from STCI-R-0023 (dependencies group [STCI-R-0021]); recorded reference from STCI-R-0029 (dependencies group [STCI-R-0021]).
 - STCI-R-0022: no declared backlinks.
 - STCI-R-0023: recorded reference from STCI-R-0024 (dependencies group [STCI-R-0023]).
@@ -279,3 +281,4 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0068: no declared backlinks.
 - STCI-R-0069: no declared backlinks.
 - STCI-R-0070: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-R-0071: no declared backlinks.
