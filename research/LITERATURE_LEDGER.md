@@ -8,6 +8,11 @@ found” is a documented search result, not a proof that no unindexed work exist
 
 The [affine/projective scope account](supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md) retains the exact lci-cone criterion, tensor-quotient proof failure, real-sphere CI counterexample, fixed-quadric Picard control, SCIP distinction, and failed unique-prime inference. They have distinct field and quantifier scopes; none settles the projective algebraically closed STCI problem.
 
+The [leading-ideal and normal-symbol lifting audit](supplements/LOCAL_LEADING_IDEALS_AND_GLOBAL_NORMAL_LIFTING.md)
+compares the local Goto–Heinzer–Kim classification and normalized length
+defect with the fixed-degree lifting problems for the quartic. It identifies
+the actual cubic-jet test on the conditional two-node sextic stratum.
+
 ## Current status and general bounds
 
 ### Eisenbud--Harris, 2024
