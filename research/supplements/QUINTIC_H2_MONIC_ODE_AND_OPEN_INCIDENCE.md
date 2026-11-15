@@ -397,3 +397,107 @@ reported as closure of this global seventeen-equation problem.
 ## Required evidence for an exclusion
 
 The global seventeen-equation incidence remains unresolved. An exclusion by saturation must use the original domain δEΔ1, without silently adding a cover discriminant, K, coefficient or j inverse. A unit-ideal output needs an exact identity in the declared original generators and complete coverage of the stated boundary. A bounded attempt or its process-control checks supplies neither.
+
+
+### Archived exact certificate: `research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2`
+
+Original source retained verbatim, with its limitations and original relative-path assumptions.
+
+<details><summary>Original Macaulay2 source</summary>
+
+```macaulay2
+-- NEW denominator-free global monic h2 incidence export; no GB/saturation.
+-- Accepted actual primitive conductor is an input, not reconstructed.
+outDir="research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-02-name-repair";
+save=(label,f)->((outDir|"/"|label|".txt") << toString f << close);
+base=QQ[delta,a,B,G,J,vH2,wH2,h2DGlobal,h2EtaGlobal];
+actual=base[p];
+F=value get "research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt";
+f=apply(toList(0..8),i->lift(coefficient(p^i,F),base));
+q=new MutableList from toList(7:0_base);
+qi=i->if i<0 or i>6 then 0_base else q#i;
+scan(reverse toList(0..6),i->q#i=f#(6-i)-vH2*qi(i+1)-wH2*qi(i+2));
+q=toList q;
+frem={f#8-wH2*qi(0),f#7-vH2*qi(0)-wH2*qi(1)};
+Plead=G; Pconstant=6*B+delta^2-3*delta-vH2*G;
+Jlead=G+2*J; Jconstant=6*B+3*G+5*delta^2-3*delta-vH2*(G+2*J);
+h2CoverEquations={-2*a-wH2*Pconstant,
+       3*a-3*B+2*delta-vH2*Pconstant-wH2*Plead,
+       -a-B-wH2*Jconstant,
+       3*a+3*B+delta-delta^2-vH2*Jconstant-wH2*Jlead};
+cofactorDet=Plead*Jconstant-Pconstant*Jlead;
+assert(cofactorDet==G*(3*G+4*delta^2)-2*J*(6*B+delta^2-3*delta));
+delta1=G*(G+3*delta^2)*(G+delta^2+2*B)+J*((delta^2-5*B)*G-3*B*(delta^2+3*B))-B*J^2;
+domainUnit=delta*cofactorDet*delta1;
+disc=vH2^2-4*wH2;
+ode=apply(toList(0..7),i->2*wH2*(i+1)*qi(i+1)+((2*i-h2DGlobal)*vH2+h2EtaGlobal)*qi(i)+2*(i-1-h2DGlobal)*qi(i-1));
+poly6=h2EtaGlobal*(h2EtaGlobal^2-4*disc)*(h2EtaGlobal^2-16*disc)*(h2EtaGlobal^2-36*disc);
+poly5=(h2EtaGlobal^2-disc)*(h2EtaGlobal^2-9*disc)*(h2EtaGlobal^2-25*disc);
+accelerators={(h2DGlobal-5)*(h2DGlobal-6),J*(h2DGlobal-6),(h2DGlobal-5)*poly6+(6-h2DGlobal)*poly5};
+allEquations=join(h2CoverEquations,frem,ode,accelerators);
+save("h2CoverEquations-four-equations",matrix{h2CoverEquations});
+save("conductor-two-remainders",matrix{frem});
+save("ODE-eight-equations",matrix{ode});
+save("derived-three-accelerators",matrix{accelerators});
+save("global-seventeen-equations",matrix{allEquations});
+save("global-domain-unit",domainUnit);
+save("actual-Q-coefficients",matrix{q});
+scan(toList(0..6),i->save("actual-Q-coefficient-"|toString i,qi(i)));
+-- The following is only the new export's division identity, not a claim
+-- that the two remainders vanish on arbitrary parameter tuples.
+h2SourceRing=base[xH2];
+H=xH2^2+vH2*xH2+wH2;
+Q=sum(toList(0..6),i->sub(qi(i),h2SourceRing)*xH2^i);
+Fsource=sum(toList(0..8),i->sub(f#i,h2SourceRing)*xH2^(8-i));
+assert(Fsource==H*Q+sub(frem#1,h2SourceRing)*xH2+sub(frem#0,h2SourceRing));
+save("equation-degrees",apply(allEquations,g->first degree g));
+print "PASS new monic quotient/remainder export and exact cofactor-determinant formula";
+print("COMPLETE GLOBAL denominator-free monic h2 ODE incidence: "|toString(#allEquations)|" equations, delta*cofactor*Delta1 unit; no h2CoverEquations determinant inverted");
+exit 0;
+```
+</details>
+
+
+### Archived exact certificate: `research/computations/generalization_quintic_h2_localized_ode_2026_10_15.m2`
+
+Original source retained verbatim, with its limitations and original relative-path assumptions.
+
+<details><summary>Original Macaulay2 source</summary>
+
+```macaulay2
+-- NEW universal identities for automatic qhigh and a lower-degree ODE incidence.
+-- Accepted A4 coefficient and actual scalar identities are premises, not rerun.
+outDir="research/validation/2026-10-15-quintic-h2-localized-ode/attempt-01";
+save=(label,f)->((outDir|"/"|label|".txt") << toString f << close);
+A=QQ[gVal,sVal,lVal,jVal,psiVal,tVal];
+deltaOne=gVal*sVal*lVal+jVal*psiVal;
+qFive=-2*sVal*deltaOne+jVal*tVal;
+membershipWitness=psiVal*deltaOne+(gVal*lVal/2)*tVal;
+assert(deltaOne^2+(gVal*lVal/2)*qFive==jVal*membershipWitness);
+save("automatic-qhigh-membership-witness",membershipWitness);
+print "PASS Delta1^2 belongs to ideal(j,Qactual5), with explicit universal identity";
+B=QQ[q0,q1,q2,q3,q4,q5,q6,v,w,d,u];
+qf={q0,q1,q2,q3,q4,q5,q6};
+qi=i->if i<0 or i>6 then 0_B else qf#i;
+polyRing=B[z];
+q=sum(toList(0..6),i->qi(i)*z^i);
+h=z^2+v*z+w;
+ode=h*diff(z,q)-(d*z+u)*q;
+ec=apply(toList(0..7),i->w*(i+1)*qi(i+1)+(v*i-u)*qi(i)+(i-1-d)*qi(i-1));
+assert(ode==sum(toList(0..7),i->ec#i*z^i));
+assert(ec#7==(6-d)*q6);
+assert(ec#6==(5-d)*q5+(6*v-u)*q6);
+dp=(d-5)*(d-6);
+assert(dp*q5==(6-d)*ec#6-(6*v-u)*ec#7);
+assert(dp*q6==-(d-5)*ec#7);
+quadAction=6*diff(z,h)*q-2*h*diff(z,q);
+cubicAction=6*diff(z,h)*q-3*h*diff(z,q);
+assert(quadAction==((12-2*d)*z+6*v-2*u)*q-2*ode);
+assert(cubicAction==((12-3*d)*z+6*v-3*u)*q-3*ode);
+save("eight-universal-ODE-generators",matrix{ec});
+save("derived-degree-polynomial",dp);
+print "PASS all eight ODE coefficients, top-degree identities, and both Hamiltonian action identities";
+print "COMPLETE new universal localized ODE identities; no actual-coefficient elimination";
+exit 0;
+```
+</details>
