@@ -215,21 +215,7 @@ obstruction proved directly, without a graph-table assertion.
 
 ## 7. Conclusion and failure shield
 
-Every possible V-fiber and every allowed three-center history leads
-to a contradiction. Therefore `k_t=3` is impossible in the accepted
-lambda-zero bisection mate reduction. Together with the separate
-[even-count exclusion](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count),
-the only possible blowup-count partition is
+Every permitted fiber and three-center history contradicts the accepted characteristic-zero \(\lambda=0\) bisection mate reduction: \(k_t=3\) is impossible. With the separate [even-count exclusion](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count), only \([1,1,1,1]\) remains.
 
-    [1,1,1,1].
+The nonreduced \(D_5\) near-counterexample has effective correction and \(c\cdot Z_t=3\), but violates the **integral anti-nef uniformizer cycle of contact coefficient one** required by the smooth embedded curve. Rational divisor correction alone would not exclude it. No global quartic-carrier or universal STCI conclusion follows.
 
-The nonreduced `D5` numerical example must remain visible: its
-correction is effective and has `c.Z_t=3`. It fails because the
-smooth embedded curve requires an actual integral anti-nef
-uniformizer cycle of contact coefficient one. Replacing that local
-condition by a mere rational divisor correction would leave the
-example and invalidate the exclusion.
-
-This result is conditional on the accepted characteristic-zero
-second-pencil and smooth-lift reductions. It asserts neither a
-global quartic-carrier exclusion nor a universal STCI theorem.
