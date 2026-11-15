@@ -559,14 +559,7 @@ residual smoothness comes from the separate Jacobian and cohomology checks.
 
 ## Characteristic reach and limitation
 
-These exact rational Jacobian, connectedness and attachment certificates
-prove the stated characteristic-zero examples. No full exceptional-prime list
-or reduction-mod-p smoothness claim is supplied. The different prescribed
-binomial pair has four reduced quartics in characteristic zero and sole
-support in characteristic two; see [R-0021](../../results/quartic_mu4_degeneration.md).
-More generally a [quartic carrier works in every positive characteristic](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).
-The local scheme-union and genus bookkeeping principles are characteristic-free,
-but do not make these particular rational certificates uniform in p.
+The rational Jacobian, connectedness, and attachment certificates establish the stated **characteristic-zero examples**, not a full exceptional-prime list or reduction-mod-\(p\) smoothness. The separate [binomial degeneration](../../results/quartic_mu4_degeneration.md) has four reduced quartics in characteristic zero and sole support in characteristic two; [quartic-carrier constructions](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) exist in every positive characteristic. Scheme-union and genus bookkeeping are characteristic-free, but these certificates are not uniformly valid in \(p\).
 
 ## A reduced eight-component (4,4) competitor
 
