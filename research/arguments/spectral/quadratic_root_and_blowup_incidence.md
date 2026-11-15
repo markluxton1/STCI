@@ -403,23 +403,7 @@ realization unresolved.
 
 ## Independent review of the universal quadratic incidence and smooth seed
 
-Date: 2026-10-14. Author: `geometric_locus`.
-
-Status: **THE NEW UNIVERSAL MATRIX, SMOOTH ZERO, TORSION, AND LOCAL
-DIMENSION CLAIMS PASS INDEPENDENT REVIEW.** The accepted actual first
-ambient derivation is an input. This note does not repeat its chart audit,
-the spectral theorem audit, or the proposed actual-CI-to-root-curve bridge
-audit. No higher ambient lift or actual complete intersection is established.
-
-Reviewed files:
-
-- `2026-10-14-generalization-quadratic-root-universal-incidence.md`;
-- `../computations/generalization_quadratic_root_curve_universal_incidence.py`.
-
-The displayed formulae were checked independently from the accepted operator.
-The explicit seed identity was first derived by hand. Two standard-library
-`fractions.Fraction` calculations independently verified the reduced
-differential below and the main note's full Jacobian minor `-405`.
+The universal matrix, smooth zero, torsion, and local dimension statements were independently checked from the accepted first ambient operator. The seed identity was derived by hand; two independent exact rational computations checked the reduced differential and Jacobian minor \(-405\). The chart, spectral theorem, and actual-CI bridge were not reaudited; no higher lift or actual CI is established.
 
 ### 1. Universal matrix and constant rank
 
