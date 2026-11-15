@@ -506,15 +506,7 @@ The surviving mathematical gaps are the earliest nonsaturated-relation defect, n
 
 ## October 16 structural continuation and successor entry
 
-The universal integral-curve STCI question and unrestricted characteristic-zero
-`C0=[s^4:s^3t:st^3:t^4]` remain **OPEN**. The October 13
-all-branch reconstruction remains an accepted premise; no branch-source
-or accepted mathematical verifier was replayed in this continuation.
-
-The current externally observed checkpoint is
-`bf124f8ab962ef0ed4085397034c50ee8d0d7162`, title
-`2026-10-15 afternoon limit reached`. The primary agent did not create
-that commit. This continuation has further working-tree changes.
+The universal integral-curve STCI question and unrestricted characteristic-zero quartic question remain open. The following theorems and conditional computational models have their own complete proofs and audits; they are not a new global existence or exclusion theorem.
 
 ### 1. Intrinsic finite-root-family theorem
 
