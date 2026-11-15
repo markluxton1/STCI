@@ -1270,15 +1270,7 @@ No universal STCI or unrestricted C0 conclusion is drawn.
 
 ## Local-algebra review of the inseparable-root blowup repair
 
-Date: 2026-10-15. Reviewer: `inseparable_blowup_bridge`.
-Status: **PASS for the new generic standard-basis, actual divided-ideal,
-and root-prime length arguments in Sections 2--3 of the owner note.**
-This is a focused written review of the new characteristic extension;
-it does not reaudit the accepted characteristic-zero bridge, replay a
-certificate, or certify the separate formal nonexistence theorem.
-
-Reviewed source:
-[the inseparable-root bridge owner note](#2026-10-15-generalization-inseparable-root-blowup-bridge).
+Independent written review checked generic standard bases, the **actual divided ideal**, and root-prime length in §§2–3 of [the inseparable-root bridge](#2026-10-15-generalization-inseparable-root-blowup-bridge). It neither reaudited the characteristic-zero bridge nor certified formal nonexistence or replayed a certificate.
 
 ### 1. The generator change is valid in the uncompleted ring
 
