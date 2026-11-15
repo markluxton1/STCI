@@ -13,7 +13,7 @@ when the original equations meet properly. In \(k(C)[[u,v]]\), the pair
 [Chapter 2](../residual-construction/two_surfaces.md#21-generic-length-and-common-normal-directions)
 relates the displayed orders to generic length. For a hypothetical
 sole-support pair on \(C_0\), [P-006](../../arguments/normal-geometry/formal-normal-intersection.md#p-006)
-forces a generic common normal factor. The [actual-CI bridge](#35-the-actual-complete-intersection-bridge)
+forces a generic common normal factor. The [actual-CI bridge](actual_equation_module_and_ci_bridge.md#35-the-actual-complete-intersection-bridge)
 additionally requires equal original orders, an everywhere jointly generated
 saturated line relation, the full coprime binary initial ideal with gap at
 least two, and a smooth full root.
@@ -62,7 +62,7 @@ These examples concern the first symbols on \(E\). They give no
 decomposition of the intersection of the two strict transforms in the
 blown-up threefold.
 
-Under the [equal-order bridge](#35-the-actual-complete-intersection-bridge),
+Under the [equal-order bridge](actual_equation_module_and_ci_bridge.md#35-the-actual-complete-intersection-bridge),
 the two symbols are multiples of one global root form with coefficients
 that jointly generate everywhere. Their common subscheme on \(E\) is
 then exactly the root divisor. Smoothness of this divisor and the
