@@ -1177,20 +1177,7 @@ and is not used to prove the inequality.
 
 ## Independent written review of the symbolic-ribbon generalization
 
-Date: 2026-10-14. Reviewer: `global_structure`, distinct from the author
-`ribbon_general`. Status: **NEW CONDITIONAL THEOREM REVIEWED; root
-acceptance remains separate**. This is mathematical review of a new
-written proof. No accepted repository statement or verifier was rerun.
-
-The reviewed source is
-[the symbolic-ribbon criterion](../normal-geometry/thick_equality_socle.md#source-2026-10-13-generalization-ribbon-numerical-criterionmd).
-I independently reconstructed its sheaf arguments, multiplication maps,
-Euler identity and all displayed numerical specializations. The theorem
-is sound under its stated normality, smooth curve, actual Cartier
-relation, finite normalized-carrier map and degree-one-lift hypotheses.
-Its conormal inequality additionally requires the stated generically
-nonzero first-layer map; the valuation version instead measures its
-first surviving layer.
+The independent written review of the [symbolic-ribbon criterion](../normal-geometry/thick_equality_socle.md#source-2026-10-13-generalization-ribbon-numerical-criterionmd) reconstructed its sheaf arguments, multiplication maps, Euler identity, and numerical specializations. Its conclusion requires normality, a smooth curve, an **actual Cartier relation**, finite normalized-carrier map, and degree-one lift. The conormal inequality also needs a generically nonzero first-layer map; the valuation variant uses its first surviving layer. No inherited verifier was rerun.
 
 ### 1. What makes the symbolic double an entire ribbon
 
