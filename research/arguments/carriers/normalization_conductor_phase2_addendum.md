@@ -486,36 +486,7 @@ Two actual one-parameter degree-eight integral carrier families arise from smoot
 
 ### B. Dependencies and remaining cases
 
-The investigation used the records
-[STCI-R-0001](../../results/quartic_carrier_exclusion.md),
-[STCI-R-0008](../../results/spectral_root_picard_criterion.md),
-[STCI-R-0009](../../results/moving_purepower_boundary.md), and
-[STCI-R-0003](../../results/fixed_carrier_conductor_criterion.md)
-within their stated scopes. The fixed normal bundle is the
-characteristic-zero `N_C0=O(7)^2`. No quartic proof was rerun.
-
-For the numerical `d/p,e/q>=3` input, the exact inherited proof is
-the [entirely-thick independent audit](../normal-geometry/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction).
-The [entirely-thick topic](../../results/entirely_thick.md) gives the
-notation and context for that numerical restriction.
-The STCI factor reduction and low-degree exclusion have support
-in R-0001 and its linked audit.
-
-The genuinely new bridge is A1, proved in the source and independently
-reviewed, rather than an inference from a prior summary. It closes
-later special-point normal-layer degeneration within its exact
-saturated-first/generic-CI class. A2 then excludes all moving
-nonreduced full roots within that actual class. A3 supplies additional
-support-sensitive restrictions without requiring that first relation
-to be a saturated line.
-
-An independent local Hilbert-function argument is preserved in
-[the local normal-flatness proposal](../normal-geometry/normal_flatness_and_filtered_ci.md#2026-10-19-filtered-generic-ci-normal-flatness).
-It has its own classical dependency and a separate
-[independent audit](../normal-geometry/normal_flatness_and_filtered_ci.md#2026-10-19-filtered-local-normal-flatness-independent-audit).
-It is also a reviewed proposal. The projective theorem
-has the self-contained resultant/duality proof and does not depend on
-this additional classical bound or on the local route's broader scope.
+A1 is an actual normal-flatness theorem, not a consequence of generic flatness; the projective duality/resultant proof and independent local Hilbert-function argument have different hypotheses. A2 applies the [Picard criterion](../../results/spectral_root_picard_criterion.md) only after A1's actual graded-CI bridge. A3 concerns common **displayed** roots and uses the inherited entirely-thick bound \(d/p,e/q\ge3\) from [its proof](../normal-geometry/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction). These roots must not be identified with A2's full-root divisor. R-0001 and the [fixed-carrier conductor criterion](../../results/fixed_carrier_conductor_criterion.md) retain their own hypotheses. The separate local flatness route uses an additional classical Gorenstein Hilbert-function bound.
 
 ### C. Most promising connection
 
