@@ -434,9 +434,7 @@ The conditional movement-two root of bidegree \((2,2)\) must pass **distinct** t
 
 ## Why the conditional sextic conductor does not solve descent
 
-The seven-cubic contraction supplies an exact anticanonical surface model **assuming an actual supported pair**. Its duality calculation constrains the conductor of that model, and the simple-zero argument eliminates a specified ramification stratum. This is logically different from the full-conductor descent test for an independently chosen normalization and a proposed mate: in the sextic argument the pair is an antecedent, whereas in the projection program its existence is the conclusion sought.
-
-The eleven linear equations defining the global sextic-symbol image likewise impose necessary realization conditions without selecting a proper degree-sixteen mate. The remaining multiple-base-zero and nodal-contact loci therefore require direct treatment; neither the cubic-image duality nor the symbol rank closes them. For the general descent framework and the role of nilpotent conductor phases, see [Chapter 4](../../frameworks/carrier-normalization/carrier_descent.md#42-the-full-conductor-descent-criterion) and [the projection phase synthesis](conductor_descent_algebra.md).
+The seven-cubic anticanonical model and its conductor duality are derived **from a hypothetical supported pair**. They give necessary conditions on that pair, unlike the independent-normalization conductor-descent program, which asks whether a mate exists. Neither the eleven sextic-symbol conditions nor the ramification exclusion selects a degree-sixteen mate. Multiple-base-zero and nodal-contact loci remain unresolved. See the [full conductor criterion](../../frameworks/carrier-normalization/carrier_descent.md#42-the-full-conductor-descent-criterion) and [descent algebra](conductor_descent_algebra.md).
 
 ## Remaining boundaries
 
