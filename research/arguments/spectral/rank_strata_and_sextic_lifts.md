@@ -612,29 +612,7 @@ on the explicit degree-52 exceptional locus in section 6. Sections
 
 ## 1. Exact scope and reviewed dependencies
 
-The field is algebraically closed of characteristic zero,
-`C=C0=[s^4:s^3t:st^3:t^4]`, and the hypothetical actual homogeneous
-pair has degrees `6,16`, sole reduced support `C`, FULL generic
-coprime ordinary initial CI `(2,12)`, and ACTUAL saturated
-movement-two first relation. Let `B=Bl_C(P3)`, let `E` be the
-exceptional divisor, and put `H=pi^*O(1)`.
-
-The inputs are
-[R-0010](../../results/saturated_first_relation_normal_flatness.md) and
-[R-0011](../../results/moving_nonreduced_spectral_root_obstruction.md).
-The finite singular-root bridge is a separately reviewed but
-dependency in
-[the October 20 singular-root note](singular_root_actual_pair_bridge.md).
-It gives common order-two transforms with local ideal `(p,t^10)`
-at every full root point. The full root `Z=(f)` is reduced of class
-`(2,2)` on `E`, and `Z->C` is finite flat of degree two.
-
-This review concerns
-[the strict-surface proposal](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus)
-and [the actual-pair norm proof](../carriers/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge).
-Inherited chart, normal-flatness and root-obstruction verifiers were
-not rerun. The normal-surface argument below was independently
-reconstructed from its geometric inputs.
+Throughout this geometric audit, the field is algebraically closed of characteristic zero and the **hypothetical actual** pair has degrees \((6,16)\), sole reduced support \(C_0\), full generic coprime ordinary initial CI \((2,12)\), and a saturated movement-two first relation. The blowup is \(B=\operatorname{Bl}_{C_0}\mathbf P^3\), with \(H=\pi^*\mathcal O(1)\) and exceptional \(E\). [R-0010](../../results/saturated_first_relation_normal_flatness.md), [R-0011](../../results/moving_nonreduced_spectral_root_obstruction.md), and the separately reviewed [singular-root actual-pair bridge](singular_root_actual_pair_bridge.md) give a reduced finite-flat full root \(Z\subset E\) of class \((2,2)\), with local strict-transform ideal \((p,t^{10})\) at every root point. The [full norm proof](../carriers/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge) and [original strict-surface proposal](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) supply the separate geometric dependencies. No assertion for an arbitrary presentation or residual intersection follows.
 
 ## 2. Normal strict sextics: independent review PASS
 
