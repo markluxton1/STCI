@@ -1317,3 +1317,18 @@ second-contact condition, the highest coefficient forced by
 and every lower principal part must agree. The explicit mixed pair fails
 that regularity condition, but no exclusion of all mixed constant directions
 is claimed here.
+
+A separate explicit rank-one quartic control, historically checked over
+\(\mathbf Q(\lambda)\), is
+\[
+q=xw-yz,\quad A=x^2z-y^3,\qquad
+F=xA+\lambda y^2q,\quad G=yA+\lambda xzq.
+\]
+Both vanish on the marked quartic, and for \(\lambda\ne0\) their
+first-normal rows on the \(x=1\) chart, using \(A=a,q=b\), are
+\((1,\lambda t^2)\) and \((t,\lambda t^3)\).
+The identities \(xzF-y^2G=A^2\) and
+\(-yF+xG=\lambda Aq\) provide a direct coprimality control.
+This is a **nonconstant proportional first-symbol ratio** example, not
+a common local-cohomology ancestor or an STCI construction. Its historical
+symbolic checker was retired.
