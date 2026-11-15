@@ -1,5 +1,7 @@
 # ADE sextic and quintic pencil reductions
 
+<a id="sextic-pairs-with-an-ade-pencil-carrier"></a>
+
 ## Sextic pairs with an ADE pencil carrier
 
 **Independently reviewed reduction.** Fix \(C_0=[s^4:s^3t:st^3:t^4]\) in characteristic zero.
