@@ -775,9 +775,7 @@ Base main: `7662a2ebb1dd561c1fb5e3c8958799b37d962c41`
 
 ## Status
 
-This note does **not** claim a complete exclusion of the rational-resolution normal-quartic branch. It records an audit of the live state and a sharper structural reduction for Type D suggested directly by Ishii--Nakayama's construction.
-
-Labels used below: **PROVED**, **EXACT REDUCTION**, **CONDITIONAL**, **OPEN**.
+This is a conditional structural reduction for the rational-resolution normal-quartic branch, including Type D from Ishii–Nakayama, **not** its complete exclusion. The proof below distinguishes proved statements, exact reductions, conditional statements, and open cases.
 
 ## A. Audited starting point
 
