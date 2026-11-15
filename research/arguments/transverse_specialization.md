@@ -15,7 +15,7 @@ An actual transverse slice uses a chosen lift \(t\) of a uniformizer
 of the marked curve. The specialization maps below use the resulting
 \(B\)-algebra structure. They are natural for maps of \(B\)-algebras
 taking each filtered ideal into the corresponding filtered ideal. In
-the [marked embedding diagram](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#2-retain-the-entire-embedding-and-its-maps),
+the [marked embedding diagram](../synthesis/rees_and_vertical_controls.md#2-retain-the-entire-embedding-and-its-maps),
 each map uses its own actual ambient quotient and induced ideal-power
 filtration. The carrier ideals and labelled source lines remain part
 of that data.
@@ -437,10 +437,10 @@ additional data.
 
 ## Source review
 
-The October 24 [transverse specialization account](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-transverse-specialization-and-normal-flatness)
+The October 24 [transverse specialization account](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-transverse-specialization-and-normal-flatness)
 records an independent reconstruction of its local proofs. It uses the
 earlier reviewed filtered-equation comparison and two examples from the
-normal-Koszul continuation. Its [evidence scope](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#evidence-scope-and-the-remaining-geometric-bridge)
+normal-Koszul continuation. Its [evidence scope](../synthesis/rees_and_vertical_controls.md#evidence-scope-and-the-remaining-geometric-bridge)
 records the basis check for the supported quadruple and distinguishes
 sampled Rees computations from exact family proofs. The reconstructed
 routes here have their own review passages in R-0062 and R-0063.

@@ -600,8 +600,8 @@ graded algebra and realizing it by two equations of the required degree.
 
 ## Source review and verification
 
-The October 23, 2026 geometry/symbol audit is preserved in Git as
-`d382837:research/notes/2026-10-23-quartic-geometry-symbol-independent-audit.md`.
+The October 23, 2026 geometry/symbol audit is preserved in the
+[independent audit](https://github.com/markluxton1/STCI/blob/d3828371871b3d047360e184f44055fa3a7c5b39/research/notes/2026-10-23-quartic-geometry-symbol-independent-audit.md).
 It independently checked the monic flatness proof, four-component decomposition,
 both endpoint contacts and the delta count, full normal initial ideals,
 base change, the quadric and alternate conormal frames, and the actual
@@ -616,8 +616,7 @@ and the integral 18-column restriction kernel. The script checks the two
 first-symbol matrices and the \(q^2\) kernel coordinates and reports the
 second-symbol target dimensions from the conormal splittings.
 
-The October 23 reconciliation
-(`c7e9f78:research/RECONCILIATION_2026-10-23-44.md`) recorded the
+The [October 23 reconciliation](https://github.com/markluxton1/STCI/blob/c7e9f7893016154f2df1acd79a5d39a036f32865/research/RECONCILIATION_2026-10-23-44.md) recorded the
 scope-limited decisions for R-0020, R-0021 and the separate filtered
 exclusion R-0022. Its [successful CI run](https://github.com/markluxton1/STCI/actions/runs/39972680627)
 included the family and symbol checks and the separate filtered-contact
@@ -626,8 +625,7 @@ exclusion or the arithmetic lifting obstruction.
 
 The [transition verifier](../investigations/quartic-specialization-controls/verify_normal_bundle.py)
 checks the two-chart normal transition, the quadratic Jacobian-syzygy matrix
-and the characteristic-three triple. The October 10 independent audit
-(`8d4ea1a:research/notes/2026-10-10-session-quartic-normal-bundle-independent-audit.md`)
+and the characteristic-three triple. The [October 10 independent audit](https://github.com/markluxton1/STCI/blob/8d4ea1ad5af2b26955571bb668ef1cc4a582fa3d/research/notes/2026-10-10-session-quartic-normal-bundle-independent-audit.md)
 gives the homogeneous Euler/Jacobian argument in characteristic zero and
 records an exact execution of its companion check. Its conditional ribbon
 argument requires the separate geometric hypotheses stated in that audit.

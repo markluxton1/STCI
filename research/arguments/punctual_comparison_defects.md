@@ -481,7 +481,14 @@ with \((X,Y)\). The quotient by the image of \(H\) has basis
 
 ## Finite replays and their coverage
 
-All three replays completed successfully for this batch.
+All three replays completed successfully for the October 24 source batch.
+Run them from the repository root with Python 3 and Macaulay2.
+
+```sh
+python3 -B research/computations/verify_delta_singular_identities_2026_10_24.py
+M2 --script research/computations/verify_delta_singular_families_2026_10_24.m2
+M2 --script research/computations/verify_delta_conormal_annihilator_2026_10_24.m2
+```
 
 The [Python identity replay](../computations/verify_delta_singular_identities_2026_10_24.py)
 expands integer polynomials for 24 punctual samples (\(2\le m\le7\),
@@ -524,5 +531,5 @@ still changes under transverse specialization.
 The [punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
 remains open. The general comparison between the
 [incoming normal Koszul filtration](../results/normal_koszul_comparison_defect.md)
-and the [extended Rees torsion filtration](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#7-consequences-limits-and-next-questions)
+and the [extended Rees torsion filtration](../synthesis/rees_and_vertical_controls.md#evidence-scope-and-the-remaining-geometric-bridge)
 also remains open.

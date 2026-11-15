@@ -11,10 +11,7 @@ statement: "For the selected Fstar, the degree-sixteen order-twelve jet kernel i
 dependencies: []
 evidence:
   - "research/results/ci_fixed_sextic_jet_rigidity.md"
-  - "research/computations/endpoint4_fixed_m2_2026_10_25.m2"
-  - "research/computations/endpoint4_fixed_m2_2026_10_25.json"
-  - "research/computations/endpoint4_fixed_jet_independent_2026_10_26.py"
-  - "research/computations/endpoint4_fixed_jet_independent_2026_10_26.json"
+  - "research/results/ci_fixed_sextic_jet_rigidity.support/verify.py"
 independent_audits:
   - "research/results/ci_fixed_sextic_jet_rigidity.md"
 legacy_ids: []
@@ -76,19 +73,25 @@ the coefficient of \(u^2\) in the carrier is a unit. Reducing modulo
 \[
 1,v,\ldots,v^{11},u,uv,\ldots,uv^{10}.
 \]
-The relation replaces \(u^2\) by its quadratic \(v^2\) term plus terms
-of higher total normal degree. Order these substitutions first by total
-degree and within a degree by the \(u\)-exponent. They terminate after
-truncation, give a free rank-23 quotient, and reduce every actual degree-16
-ambient monomial. This constructs a map from the **969-dimensional constant
+In the basis ordered by increasing total degree and then decreasing
+\(u\)-exponent, the 55 relations obtained by multiplying \(F_*\) by all
+monomials of degree at most nine have distinct pivots with unit coefficients.
+They span all multiples of \(F_*\) at order twelve. The pivot monomials
+are precisely those divisible by \(u^2\), so the 23 remaining monomials
+form a basis over \(B\). Reduction in this basis evaluates every actual
+degree-16 ambient monomial. This constructs a map from the **969-dimensional constant
 coefficient** global source into \(B^{23}\); it does not permit arbitrary
 \(k(z)\)-coefficients on those source monomials.
 
 Evaluate its entries at \(z=1,\ldots,30\) modulo \(65521\). All values
 are good: \(z\) and \(1+z^2\) are nonzero. Stacking the maps gives the
-690-by-969 matrix in the retained exact programs. Its certified rank is 683.
-Therefore some 683-minor is nonzero at a good specialization and the
-characteristic-zero constant-source map has rank at least 683. Conversely
+690-by-969 matrix checked by the replay below. Its certified rank is 683.
+The matrix obtained by evaluating at the same thirty integers in
+characteristic zero has entries in \(\mathbf Z_{(65521)}\). A nonzero
+modular 683-minor lifts to a nonzero minor of that stacked rational
+matrix. Any constant-coefficient vector in the generic jet kernel is
+killed at every good sample, so the characteristic-zero constant-source
+map has rank at least 683. Conversely
 all 286 independent forms \(F_*H_{10}\) vanish **identically** in this
 quotient. Multiplication by nonzero \(F_*\) is injective and
 \(h^0(\mathcal O(10))=\binom{13}{3}=286\); hence the rank is at most
@@ -109,26 +112,35 @@ inferring any residual component from exceptional vertical geometry.
 
 ## Exact evidence and independent verification
 
-The two retained implementations have different quotient constructions:
-[the Macaulay2 source](../computations/endpoint4_fixed_m2_2026_10_25.m2)
-uses quotient-ring coefficients; [the Python/C++ normal-division source](../computations/endpoint4_fixed_jet_independent_2026_10_26.py)
-constructs the carrier independently from its four terms and recursively
-reduces its jets. Both report rank 683 and annihilation of all 286 multiples.
-The M2 source also checks independent rank 286 for the coefficient matrix of
-those multiples in the fixed 969-row ambient monomial order. The saved
-[metadata](../computations/endpoint4_fixed_m2_2026_10_25.json) and
-[independent output](../computations/endpoint4_fixed_jet_independent_2026_10_26.json)
-identify the modulus, sample points, and matrix hash.
+The [normal-division verifier](ci_fixed_sextic_jet_rigidity.support/verify.py) constructs the actual
+four-term carrier and reduces all 969 degree-sixteen monomials at each of
+the thirty good samples in \(\mathbf F_{65521}\). It checks the quadratic
+symbol, annihilation of all 286 carrier multiples, the matrix digest, and
+the exact modular rank. The proof establishes why these samples suffice for
+the full constant-coefficient kernel. Run from the repository root with
+Python 3 and a C++17 compiler (Clang or GCC).
 
-The original source inspection did not execute either program. Subsequently
-GitHub Actions [run 40434021004](https://github.com/markluxton1/STCI/actions/runs/40434021004),
-job `replay-r0025`, freshly reconstructed the matrix by Python/C++, passed
-rank 683, nullity 286, all-multiples annihilation, and exact SHA-256 match
-`a3e546424d11200e1d8075c7f9d5d342787bd925a303901bd2b33b2661f56445`.
-Its output was uploaded as a workflow artifact. The Macaulay2 implementation
-was not rerun there, and there is no separately archived nonzero maximal minor.
-This consolidation transfers the proof bridge and records that replay;
-it performs no new inherited computation.
+```sh
+python3 -B research/results/ci_fixed_sextic_jet_rigidity.support/verify.py
+```
+
+The maintained verifier was replayed during consolidation. It recovered
+rank 683 and nullity 286 and matched SHA-256
+`a3e546424d11200e1d8075c7f9d5d342787bd925a303901bd2b33b2661f56445`
+for the row-major matrix of little-endian unsigned 32-bit entries.
+
+The historical [quotient-ring Macaulay2 certificate](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_m2_2026_10_25.m2),
+[execution metadata](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_m2_2026_10_25.json),
+and [log](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_m2_2026_10_25.txt)
+record rank 683, rank 286 for the ambient coefficient matrix of the known
+multiples, and annihilation of all those multiples. The separate historical
+[normal-division implementation](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_jet_independent_2026_10_26.py)
+and [record](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_jet_independent_2026_10_26.json)
+use the basis reproduced by the maintained verifier. GitHub Actions
+[run 40434021004](https://github.com/markluxton1/STCI/actions/runs/40434021004),
+job `replay-r0025`, reproduced the finite calculation and matrix hash using
+that implementation. The recorded Macaulay2 run supplies a distinct quotient
+construction and was source-inspected during review.
 
 ## Characteristic boundary of the argument
 
@@ -163,4 +175,4 @@ No general sextic or unrestricted STCI theorem.
 
 ## Review state
 
-The exact computation and local-length bridge remain within the selected-carrier/degree scope. Their full mathematical bridge and actual independent CI replay are retained directly above. Independent consolidation review accepted the transferred proof bridge, its actual-source/specialization interpretation, the characteristic-65521 consequence and the cofinite-prime existence statement. The new deductions remain separately identified; the characteristic-zero scope is unchanged. No fresh CAS execution was performed.
+The exact computation and local-length bridge remain within the selected-carrier/degree scope. Their full mathematical bridge and actual independent CI replay are retained directly above. Independent consolidation review accepted the transferred proof bridge, its actual-source/specialization interpretation, the characteristic-65521 consequence and the cofinite-prime existence statement. The new deductions remain separately identified; the characteristic-zero scope is unchanged. The consolidation replay executed the normal-division verifier.

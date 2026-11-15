@@ -372,6 +372,13 @@ at infinity.
 
 ### Finite replays and their coverage
 
+Run the replays from the repository root with Python 3 and Macaulay2.
+
+```sh
+python3 -B research/computations/verify_delta_singular_identities_2026_10_24.py
+M2 --script research/computations/verify_delta_singular_families_2026_10_24.m2
+```
+
 The [singular-identity Python replay](../computations/verify_delta_singular_identities_2026_10_24.py)
 passed on 35 recursive samples (\(2\le n\le8,\ 3\le q\le7\)).
 It checks full integer polynomial expansions, including the Cassini
@@ -401,7 +408,7 @@ retains the actual coefficient modules and the filtration induced
 on \(J/IJ\). The recursive family realizes a single page of incoming
 cancellations with arbitrary prescribed positive page and unbounded rank.
 
-The [extended Rees torsion comparison](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#7-consequences-limits-and-next-questions)
+The [extended Rees torsion comparison](../synthesis/rees_and_vertical_controls.md#evidence-scope-and-the-remaining-geometric-bridge)
 still needs a general identification of its \(u\)-power filtration
 with the incoming differential filtration. The
 [punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)

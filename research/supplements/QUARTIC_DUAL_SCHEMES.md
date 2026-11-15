@@ -25,7 +25,7 @@ Indeed the ruling parametrization \([a:b:zb:z^2a]\) gives Gauss image
 This image is two-dimensional; its closure is the irreducible cubic
 \(V(K)\). Its finite normalization, distinct from its singular projected
 image, is the cubic scroll \(\mathbb F_1\); the
-[Gauss-map investigation](CUBIC_SCROLL_AND_RULED_SURFACES.md)
+[Gauss-map investigation](../synthesis/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual)
 studies that normalization and the resolved Gauss map.
 
 Write \(\Delta\) for the ordinary discriminant of
@@ -236,7 +236,7 @@ R^\vee\cap Q^\vee=V(M,K).
 \]
 Its pullback to the same Segre quadric is the reduced divisor
 \(ab(bc^3+ad^3)=0\): the two endpoint lines and a different smooth
-quartic. The [scroll-duality note](CUBIC_SCROLL_AND_RULED_SURFACES.md)
+quartic. The [scroll-duality note](../synthesis/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual)
 provides its interpretation and the Gauss maps. The minus and plus
 signs in (8) and this last equation cannot be interchanged. In
 particular \(\Gamma_Q\), \(O\), and this third quartic are distinct.
@@ -492,4 +492,4 @@ transverse multiplicities alone.
 
 ## Characteristic reach and mathematical status
 
-The displayed discriminant polynomial identities are integral and may be specialized as identities. Their geometric interpretation as a reduced dual, Euler redundancy of the discriminant in the Jacobian ideal, generic cusp/node structures, and the stated associated-prime/length decomposition are proved in characteristic zero. Coefficients 2 and 3 participate in that proof, so polynomial specialization is not a positive-characteristic duality or singular-scheme theorem. In characteristic two the actual dual of the primal cubic is a line, even though the specialized characteristic-zero cubic equation still defines a surface; [the scroll proof](CUBIC_SCROLL_AND_RULED_SURFACES.md) computes this directly. The exact [Jacobian verifier](../computations/verify_quartic_dual_singular_scheme_2026_10_24.m2) and its saved exact result support [R-0027](../results/quartic_dual_singular_scheme.md). The full local determinantal proof above, not only the successful computation, explains the two endpoint socles.
+The displayed discriminant polynomial identities are integral and may be specialized as identities. Their geometric interpretation as a reduced dual, Euler redundancy of the discriminant in the Jacobian ideal, generic cusp/node structures, and the stated associated-prime/length decomposition are proved in characteristic zero. Coefficients 2 and 3 participate in that proof, so polynomial specialization is not a positive-characteristic duality or singular-scheme theorem. In characteristic two the actual dual of the primal cubic is a line, even though the specialized characteristic-zero cubic equation still defines a surface; [the scroll proof](../synthesis/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual) computes this directly. The exact [Jacobian verifier](../results/quartic_dual_singular_scheme.support/verify.m2) and its saved exact result support [R-0027](../results/quartic_dual_singular_scheme.md). The full local determinantal proof above, not only the successful computation, explains the two endpoint socles.

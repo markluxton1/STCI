@@ -22,7 +22,7 @@ the separate hypotheses given below.
 The two local controls are in characteristic zero. The
 [prescribed quartic application](../results/quartic_char2_fourth_equation_kernel.md)
 uses \(C_0=[s^4:s^3t:st^3:t^4]\) in characteristic two. The
-[marked embedding diagram](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2-the-complete-embedding-and-conormal-diagram)
+[marked embedding diagram](../synthesis/normal_filtration_boundary_obstructions.md#2-the-complete-embedding-and-conormal-diagram)
 specifies the carrier maps and the bases of the nine conormal algebras.
 
 ## Local comparison and the punctual defect
@@ -43,7 +43,7 @@ Writing \(S_+\) for the positive ideal, \(Q_n=H_n/(S_+H)_n\) records minimal
 initial equations in degree \(n\). Over a curve this module can have torsion.
 The first symbols of the two displayed equations can generate only part of
 \(H\), even when the embedding and the intersection are regular.
-The [form-ideal calculation and first-symbol product map](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#3-the-central-normal-cone-sequence)
+The [form-ideal calculation and first-symbol product map](../synthesis/normal_filtration_boundary_obstructions.md#3-the-central-normal-cone-sequence)
 also relate this sequence to the Valabrega–Valla form ring.
 
 Put \(D=J/IJ\) and give it the decreasing filtration
@@ -246,9 +246,16 @@ constant syzygies, comparison direction, and smooth-carrier calculation.
 It checked the five-dimensional model and the first higher Koszul
 differential, as well as the separate nine-object restricted comparison
 and its intrinsic nonisomorphism test. The finite scripts checked the
-explicit arithmetic and algebra models. Irreducibility and the general
-comparison were checked in the written proofs.
-[October 23 independent review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-reviewmd)
+explicit arithmetic and algebra models. The same exact checks can be run with Python 3 from the repository root.
+
+```sh
+python3 -B research/computations/verify_ideal_filtration_counterexamples_2026_10_23.py
+python3 -B research/computations/verify_ideal_filtration_completeness_2026_10_23.py
+python3 -B research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py
+```
+
+Irreducibility and the general comparison were checked in the written proofs.
+[October 23 independent review](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-reviewmd)
 
 R-0030 records the [October 24 source and independent review](../results/local_filtration_comparison_defect.md#review)
 of the generic count and DVR length calculation, and the

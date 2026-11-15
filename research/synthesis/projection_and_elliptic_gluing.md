@@ -178,7 +178,7 @@ R|_{c_\Delta}=(h_3-CD)+(-h_2-CE)t+(C^2-1/4)t^2
 while its normal-ramification scalar quartic is
 \(g(t)=D+Et-4Ct^2-At^3-Bt^4\). These are different quartics.
 The full determinant identity is in
-[the coefficient certificates](../computations/projection_incidence_certificates.m2).
+[the coefficient certificates](https://github.com/markluxton1/STCI/blob/5884d52e5fe0e9fd0885645d277e22c640e00d38/research/computations/projection_incidence_certificates.m2).
 
 For an actual finite birational member with smooth normalization \(S\)
 and degree-eight hypersurface image \(X\), the conductor divisor on \(S\)
@@ -389,7 +389,7 @@ U=(a^2+z^2,ab+z^2,dc+2z^2,d^2+3z^2)                            \tag{8}
 is basepoint free. Off the diagonal scale \(z=1\). From \(U_0=U_1=0\)
 one gets \(a^2=-1,b=a,d=c\), whence \(U_3-U_2=1\).
 Nevertheless its off-diagonal inverse scheme is zero-dimensional of
-length sixteen, by [the exact ideal calculation](../computations/projection_inverse_example.m2)
+length sixteen, by [the exact ideal calculation](https://github.com/markluxton1/STCI/blob/de88ec90e088df05fe4941784ccc4d29ed72de9f/research/computations/projection_inverse_example.m2)
 using all four generators of \(I_{C_0}\). Sixteen is a scheme length,
 not a count of distinct points. The actual finite image has no mate in
 any degree: the pullback zero divisor of a nonzero section on smooth \(S\)
@@ -741,7 +741,7 @@ remaining factor; away from them the degree-ten discriminant is squarefree.
 Hence no elliptic normalization occurs on this degree-ten chart. The
 October 31 independent review reconstructs this calculation with fresh
 coefficient formation, a fresh resultant and a derivative-gcd layer count;
-the [independently executed control](../computations/stci_closeout_degree_ten_independent_2026_10_31.m2)
+the [independently executed control](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_closeout_degree_ten_independent_2026_10_31.m2)
 has [historical execution output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/stci_closeout_degree_ten_independent_2026_10_31.txt).
 The retirement replay reproduced its factor degrees and gcd sequences. The linear factor is \(\lambda\), already excluded, and the
 degree-lowering factor is \(169\lambda^2+280\lambda-800\). At every
@@ -975,7 +975,7 @@ there \(\Delta\) has exact order two and the complementary coefficient
 is a unit, giving two branches with distinct nonzero linear slopes.
 The remaining boundary roots are simple. At \(A=0,\infty\), \(B\)
 is finite nonzero on both normalized branches. The exact independent
-[SymPy verifier](../computations/projection_palindromic_picard.py) checks
+[SymPy verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/projection_palindromic_picard.py) checks
 these assertions and reconstructs the target from \(R^5\).
 
 Nevertheless (12) fails. Let \(H\) be the two infinities of the quartic
@@ -1690,30 +1690,4 @@ print "FULL_DOUBLE_RESIDUAL_STRATUM_EXCLUDED_IN_CHARACTERISTIC_ZERO";
 ```
 </details>
 
-
-## Consolidated historical source: `research/questions/cartier_projection_models.md`
-
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
-
----
-id: STCI-Q-0001
-title: Actual projections and conductor descent for the three Cartier singleton models
-status: open
-applicable_results:
-  - STCI-R-0001
-  - STCI-R-0002
-  - STCI-R-0004
-evidence:
-  - "https://github.com/markluxton1/STCI/blob/a69956b9a4d4c0c1a7a5c23ce6442885e6fcef2d/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md"
----
-
-# Projection and conductor descent for the three Cartier singleton models
-
-**Question.** For the fixed \(C_0\), can any of the three necessary normalization/polarization models in [STCI-R-0002](../results/cartier_singleton_lift.md) occur as an actual integral carrier with **full singleton inverse support** and a set-theoretic mate?
-
-The remaining necessary work includes admissible four-coordinate projections, full inverse-image support, and actual conductor-unit descent. A model's appearance in the classification is **not** an existence result. The question is restricted to the Cartier, singleton, degree-one lift hypotheses; other lifts remain outside this classification.
-
-[STCI-R-0004](../results/projection_phase_reduction.md) reduces these admissible families to constructible phase images and torsion-coset questions, but does not compute those images or cosets.
-
-**Status:** OPEN. Evidence: [October 14 independent audit](https://github.com/markluxton1/STCI/blob/a69956b9a4d4c0c1a7a5c23ce6442885e6fcef2d/research/notes/2026-10-14-generalization-cartier-lift-independent-audit.md). This record does not claim that the theoretical decision procedures described in later Ultra continuation notes have been executed on these families.
-
+The [open Cartier singleton projection question](../questions/cartier_projection_models.md) records the exact support and conductor descent requirements for the three models.

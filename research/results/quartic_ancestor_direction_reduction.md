@@ -30,7 +30,7 @@ u=\frac{xz}{qB},\qquad v=\frac{yw}{qB}.
 The finite statement concerns \(\alpha\in E=(0:_M I^4)_{-7}\) of
 principal-part order four, with pure cubic top, and actual quartics
 \(F,G\in I_4\) satisfying \(F\alpha=u,\ G\alpha=v\).
-The [existing finite reduction](../supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#uniform-finite-reduction-for-the-remaining-degree-four-locus)
+The [existing finite reduction](../synthesis/contact_duality_and_global_descent.md#uniform-finite-reduction-for-the-remaining-degree-four-locus)
 puts every common ancestor with degree-four multipliers into this setting.
 
 On \(x=1\), use the balanced frame
@@ -72,7 +72,7 @@ displayed line and curve as an open problem.
 
 ### The finite top and lower tests
 
-The [finite-bound proof](../supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#a-finite-principal-part-bound-for-quartic-local-cohomology-ancestors)
+The [finite-bound proof](../synthesis/contact_duality_and_global_descent.md#a-finite-principal-part-bound-for-quartic-local-cohomology-ancestors)
 first forces \(F,G\in I_4\) and ambient coprimality. The generic
 intersection length is at most three, using the characteristic-zero
 degree-\((4,4)\) exclusion. Torsion-freeness of finite inverse systems
@@ -81,7 +81,7 @@ globally. The order-three argument excludes the lower-order possibility.
 The balanced normal bundle, supplied by R-0020, gives \(e\le2\).
 These are the antecedents of the all-stage quartic consequence.
 
-The [audited tensor reconstruction](../validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2)
+The [audited tensor reconstruction](../results/quartic_ancestor_direction_reduction.support/actual-tensor-reconstruction.m2)
 identifies \(E\) with a thirty-dimensional space of numerators
 \(H/(q^4B^4)\), \(H\in S_{13}\). It checks the full \(I^4\) annihilation
 condition, injectivity of the Ext-stage map, all eighteen actual quartic
@@ -159,7 +159,7 @@ projected rank at most \(n-2\).
 
 ### Constant directions
 
-The [pure-axis proof](../supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#independent-audit-of-pure-constant-quartic-directions)
+The [pure-axis proof](../synthesis/contact_duality_and_global_descent.md#independent-audit-of-pure-constant-quartic-directions)
 excludes the two axes, including zero-symbol multiplier boundaries.
 For mixed constants the ambient torus acts transitively on directions,
 so normalize \((p,r)=(1,1)\).
@@ -381,15 +381,15 @@ all-stage low-degree theorem. Both nonzero target equations remain.
 
 The [socle-pencil and conormal splitting](../supplements/LOCAL_COHOMOLOGY_CONORMAL_GEOMETRY.md#intrinsic-conormal-splitting-required-by-every-common-quartic-ancestor)
 give \(d_3=4\) in this degree-one lane.
-The [primitive-triple exclusion](../supplements/OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#simultaneous-target-repair-for-primitive-e1-quartic-ancestors)
-and [complete degree-one-defect exclusion](../supplements/OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#1-the-entire-e1d21-common-quartic-ancestor-lane)
+The [primitive-triple exclusion](../synthesis/contact_duality_and_global_descent.md#simultaneous-target-repair-for-primitive-e1-quartic-ancestors)
+and [complete degree-one-defect exclusion](../synthesis/contact_duality_and_global_descent.md#1-the-entire-e1d21-common-quartic-ancestor-lane)
 leave \(d_2=2,3,4\), with their separately excluded algebraic and
 quadric-direction fibres removed. These are geometric conditions to
 retain when resolving the displayed line and curve.
 
 ## Evidence
 
-The only new exact support is
+The finite direction calculation uses
 [the replay verifier](quartic_ancestor_direction_reduction.support/verify.py).
 It reads the existing numerator, top-map, quartic-basis and full-tensor
 files in `research/computations`. It reconstructs quadratic and cubic
@@ -403,11 +403,13 @@ and Macaulay2 1.26.06 on `PATH`,
 
 ```sh
 python3 research/results/quartic_ancestor_direction_reduction.support/verify.py
-M2 --script research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2
-python3 research/computations/verify_localcoh_pure_direction_audit.py
+M2 --script research/results/quartic_ancestor_direction_reduction.support/actual-tensor-reconstruction.m2
+python3 research/results/quartic_ancestor_direction_reduction.support/verify_pure_direction.py
 ```
 
-All three commands were completed on 2026-11-10 with Python 3.12.16,
+All three commands also passed during the repository consolidation with
+Python 3.12, SymPy 1.14.0 and Macaulay2 1.26.06. They were first completed
+for this proof on 2026-11-10 with Python 3.12.16,
 SymPy 1.14.0 and Macaulay2 1.26.06. The original full tensor was
 reconstructed literally. The new calculation uses rational arithmetic,
 complete exact number fields, and one certified modular linear-rank
@@ -446,7 +448,7 @@ The line-and-curve two-target incidence remains unresolved.
 The characteristic, embedding, quartic multiplier degrees and two fixed
 targets are part of every claim. The primitive linear interior incidence
 still needs its full lower multiplication test.
-The [generic length theorem](../supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#2026-10-05-localcoh-generic-length)
+The [generic length theorem](../synthesis/contact_duality_and_global_descent.md#2026-10-05-localcoh-generic-length)
 would give a proper common-ancestor pair generic length three along
 \(C_0\) and residual cycle degree four. Sole-support carrier theorems
 have their own support hypotheses. Non-quasi-cyclicity of the entire

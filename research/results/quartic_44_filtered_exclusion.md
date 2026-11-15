@@ -18,7 +18,7 @@ evidence:
   - "research/computations/audit_mf6_e1_primitive_2026_10_07.py"
 independent_audits:
   - "research/synthesis/quartic_pair_obstruction.md"
-  - "research/computations/audit_44_filtered_contact_2026_10_23.py"
+  - "https://github.com/markluxton1/STCI/blob/f2f5c4dbe5bef0eeb5112d402ffeb513133b43bc/research/computations/audit_44_filtered_contact_2026_10_23.py"
 legacy_ids: []
 supersedes: []
 superseded_by: []

@@ -12,14 +12,14 @@ dependencies:
   - STCI-R-0026
 evidence:
   - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
-  - "research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2"
+  - "research/results/quartic_dual_singular_scheme.support/verify.m2"
 independent_audits:
   - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
 limitations:
-  - "Saved Macaulay2 certificates inspected, not freshly rerun"
+  - "Exact Jacobian replay over QQ in the specified dual coordinates"
   - "Specific marked dual discriminant only"
 ---
 # Dual discriminant and singular scheme
@@ -41,7 +41,12 @@ The discriminant identities are polynomial identities. The colon, saturation, as
 R-0026 supplies the marked flag and dual-geometric setup.
 
 ## Evidence and verification
-Independent audit and saved Macaulay2 source and outputs; no fresh execution during consolidation.
+The [Macaulay2 verifier](quartic_dual_singular_scheme.support/verify.m2) was
+replayed over \(\mathbb Q\) with Macaulay2 1.26.06. It checks saturation,
+the socle colon and syzygies, the primary-component and associated-prime
+identities, the two Hilbert polynomials, and the local endpoint
+Hilbert–Burch calculation. The independent audit explains the geometry and
+the characteristic-zero scope.
 
 ## Consequences
 Distinguishes the unmixed singular cycle from its two embedded endpoint contributions.
