@@ -488,19 +488,9 @@ Two actual one-parameter degree-eight integral carrier families arise from smoot
 
 A1 is an actual normal-flatness theorem, not a consequence of generic flatness; the projective duality/resultant proof and independent local Hilbert-function argument have different hypotheses. A2 applies the [Picard criterion](../../results/spectral_root_picard_criterion.md) only after A1's actual graded-CI bridge. A3 concerns common **displayed** roots and uses the inherited entirely-thick bound \(d/p,e/q\ge3\) from [its proof](../normal-geometry/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction). These roots must not be identified with A2's full-root divisor. R-0001 and the [fixed-carrier conductor criterion](../../results/fixed_carrier_conductor_criterion.md) retain their own hypotheses. The separate local flatness route uses an additional classical Gorenstein Hilbert-function bound.
 
-### C. Most promising connection
+### C. Mechanism
 
-Gorenstein duality controls a finite-support defect that previously
-separated generic formal algebra from the full spectral curve. The
-second quotient relation has a generically nonzero resultant of degree
-zero. This is the mechanism forcing uniformity; generic coprimality
-alone would not suffice. It makes the full Picard obstruction directly
-applicable to an actual intersection in a nontrivial infinite class.
-
-The blowup work complements that bridge by retaining chosen-equation
-and vertical-cycle information. Its counterexamples show why the
-uniformity proof must use the full algebra and projectivity, rather
-than interpreting vertical degeneration as a residual component.
+Gorenstein duality supplies a degree-zero resultant for the second quotient relation, forcing uniform normal layers from the **actual** saturated first relation. Generic coprimality alone does not. The blowup slope inequalities instead retain chosen-generator and vertical-cycle information, as the counterexamples in A4 require.
 
 ### D. Remaining obstacles
 
