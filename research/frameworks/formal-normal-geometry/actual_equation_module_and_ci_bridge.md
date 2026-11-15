@@ -4,26 +4,9 @@
 
 ## 3.4 Why the Picard criterion is not enough
 
-The conormal graded algebra is only the first approximation to the actual infinitesimal neighborhoods. Lifting a root relation requires correcting its equation successively so that it remains compatible with the nonlinear transition functions of the ambient blowup.
+The Picard condition on a full root scheme is a statement about **abstract graded relations**; it does not ensure that the relation lifts through the nonlinear formal neighborhoods or to global equations. Under balanced-normal hypotheses, [R-0005](../../results/smooth_root_formal_obstruction.md) excludes compatible all-order embedded Cartier lifting of a smooth movement-two root of class \((2,r)\), \(r\ge2\). It does not exclude finite lifting, singular or nonreduced roots, or other classes. [R-0007](../../results/quadratic_root_obstruction_model.md) gives the first two ambient tests and a smooth torsion seed that passes the first but fails the second; its full second zero locus remains unknown.
 
-[STCI-R-0005](../../results/smooth_root_formal_obstruction.md) proves that, under its balanced-normal-bundle assumptions, a **smooth movement-two root** of class \((2,r)\), \(r\ge2\), has no compatible embedded Cartier lift through *all* exceptional neighborhoods. This does not rule out finite lifts, singular roots, nonreduced roots, or other root classes.
-
-[STCI-R-0007](../../results/quadratic_root_obstruction_model.md) makes the first two ambient stages explicit in a quadratic movement-two family for the fixed quartic: a first rank-incidence test and a second test expressed by 25 scalar pairings. An explicit smooth spectral-torsion seed passes first compatibility but fails the second ambient test. Thus **spectral torsion does not imply embedded liftability**. The full second zero locus remains uncomputed.
-
-The distinction is:
-\[
-\text{graded second relation}\quad\not\Rightarrow\quad
-\text{embedded formal lift}\quad\not\Rightarrow\quad
-\text{global STCI pair}.
-\]
-These arrows express missing implications, not new nonexistence theorems.
-
-### Initial generators versus the actual equation module
-
-The full initial ideal of an actual pair may have cancellation-generated generators beyond the two first normal forms. Its minimal graded generator module can also differ from the associated graded of the actual equation module J/IJ. The canonical comparison and its kernel are established in [R-0030](../../results/local_filtration_comparison_defect.md), with a concrete local example in [the filtration synthesis](normal_filtration_boundaries.md#from-exceptional-normal-divisors-to-the-full-filtered-equation-module).
-
-The comparison defect is supported where both carrier surfaces are singular along C. Whether it can be nonzero for a proper pair with sole reduced support C is unresolved. This distinction does not remove the actual-generator hypotheses of the complete-intersection bridge below.
-
+A further distinction concerns the **actual equation module**: cancellation can create full-initial-ideal generators beyond the displayed normal symbols, and the associated graded of \(J/IJ\) need not equal the minimal initial-generator module. [R-0030](../../results/local_filtration_comparison_defect.md) identifies the comparison kernel and its support; nonzero defect for a proper sole-support pair remains unresolved. Consequently, neither a graded second relation nor a finite formal lift is by itself a global STCI construction.
 
 ## 3.5 The actual complete-intersection bridge
 
