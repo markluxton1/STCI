@@ -572,20 +572,7 @@ claimed until an exact global certificate or a new geometric proof exists.
 
 ## Independent audit of the twenty-five global second-obstruction tests
 
-Date: 2026-10-15. Author: `geometric_locus`.
-
-Status: **THE GLOBAL COMPRESSION, UNIVERSAL MODEL ALGORITHM, AND
-HOMOGENEOUS SMOOTHNESS CRITERION PASS INDEPENDENT REVIEW.** Accepted first and second obstruction
-constructions are inputs. No accepted seed computation, verifier, or
-profile calculation is repeated. This audit uses bundle duality,
-Laplace identities, and a local double-cover calculation.
-
-Companion note:
-`2026-10-15-generalization-quadratic-root-global-second-dual-compression.md`.
-The final companion note and
-`../computations/generalization_quadratic_root_global_second_model.py`
-were read after this mathematical audit was drafted. Their algorithm
-was compared with the proof; no old verifier, seed test, or CAS was run.
+Independent review accepted the global compression, universal-model algorithm, and homogeneous smoothness criterion, conditional on the previously established first and second obstruction constructions. The proof uses bundle duality, Laplace identities, and a local double-cover calculation. The companion model and Python algorithm were compared after the mathematical review; no inherited seed, profile, verifier, or CAS computation was rerun.
 
 ### 1. The correct dual bundle on the whole basepoint-free locus
 
