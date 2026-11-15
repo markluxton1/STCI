@@ -1,8 +1,8 @@
 # ADE sextic and quintic pencil reductions
 
-# Sextic pairs with an ADE pencil carrier
+## Sextic pairs with an ADE pencil carrier
 
-**Review, October 31, 2026: independently reviewed reduction.** Fix \(C_0=[s^4:s^3t:st^3:t^4]\) in characteristic zero.
+**Independently reviewed reduction.** Fix \(C_0=[s^4:s^3t:st^3:t^4]\) in characteristic zero.
 If a proper supported sextic pair has a general normal pencil carrier
 with only rational double points, its canonical filtration satisfies
 \[
