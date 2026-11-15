@@ -1200,55 +1200,15 @@ a rank-at-most-one point does not establish a mate.
 
 ## 6. First-normal consequences and the defect-chart boundary
 
-Suppose along C the first-normal equation factors as h times a
-nowhere-zero local normal direction. At a point x choose formal
-coordinates (z,y,m) with C=(y,m), z a local parameter on C, and that
-normal direction represented by m. Then
+At a point of \(C=(y,m)\) with local curve parameter \(z\), suppose the first normal equation is \(h(z)m\). Then
+\[
+F=h(z)m+a(z)y^2+b(z)ym+c(z)m^2+O((y,m)^3).
+\]
+The carrier is singular there precisely when \(h=0\). Its Hessian at a zero of \(h\), in coordinates \((z,y,m)\), is
+\[
+\begin{pmatrix}0&0&h'\\0&2a&b\\h'&b&2c\end{pmatrix}.
+\]
+A simple zero gives the nonzero minor \(-(h')^2\), contradicting the rank-at-most-one condition from §5 for a nonnormal carrier with a mate. Thus **\(h\) must have a repeated zero**, invariant under regular normal-frame changes. At such a zero the additional rank condition is \(4ac-b^2=0\). It reduces to \(b=0\) only when an independently established contact identity gives \(a=0\). In particular \(a=\Gamma h/\delta\) cannot be specialized at a zero of \(\delta\) without a completed two-chart identity. A proposed \(\gcd(h,h',b)\) filter must therefore retain all defect points; the homogeneous Hessian-minor test has no such denominator restriction.
 
-    F = h(z)*m + a(z)*y^2 + b(z)*y*m + c(z)*m^2
-        + terms of (y,m)-order at least three.
+These are necessary singularity/contact conditions, not a finite-locus theorem or an exclusion of surviving quartic fibers. The reduced plane-section degree bound does not bound a thick Jacobian scheme. The singleton-fiber Hessian argument uses characteristic-zero formal splitting and actual finite normalization; in positive characteristic its separability and coefficient hypotheses require fresh verification. The [positive-characteristic construction](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) remains valid.
 
-The point is singular precisely when h(x)=0. At such a point the
-Hessian is
-
-    [ 0      0       h'(x) ]
-    [ 0    2a(x)      b(x) ]
-    [ h'(x) b(x)     2c(x) ].
-
-If h has a simple zero, the z,m minor has determinant -h'(x)^2,
-so the rank is at least two. By section 5, a nonnormal carrier with
-a mate must therefore have a **repeated zero of h**. This applies
-in both charts of C; multiplicity is unchanged by a nonvanishing
-change of frame. In the MF6 e=1 quartic lane h is a section of O_C(8),
-but its degree is not needed for the local argument.
-
-At a repeated zero, the remaining rank-at-most-one condition is
-
-    4*a(x)*c(x) - b(x)^2 = 0.
-
-If a contact identity separately gives a(x)=0, this reduces to
-b(x)=0. For example this holds on an ordinary triple chart where
-a is a multiple of h by a regular scalar. A contact expression
-a=Gamma*h/delta does **not** justify that simplification at a zero
-of delta unless the completed two-chart contact identity is also
-checked. Thus a proposed gcd(h,h',b) filter must retain its defect
-points or prove a(x)=0 there. The general homogeneous Hessian-minor
-filter in section 5 has no such frame or denominator boundary.
-
-These lemmas reduce possible mates to a precisely specified
-singularity/contact locus. They do not yet show that the corresponding
-parameter locus is finite, determine it for the unique principal
-quartic family, or exclude its surviving fibers.
-
-
----
-
-
-
-The reduced-support plane-section bound is geometric, not a degree bound
-for the possibly thick Jacobian scheme. The singleton Hessian proof uses
-formal splitting and the actual finite normalization fiber. In positive
-characteristic the stated splitting/separability and coefficient
-invertibility must be checked separately; no all-characteristic quartic
-exclusion follows from these reductions. In every positive characteristic
-the fixed curve has a quartic-carrier STCI construction.
