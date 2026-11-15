@@ -614,46 +614,11 @@ positions. An abstract ADE graph with the right square is insufficient.
 
 ## 7. Exhaustion, useful alternatives, and what remains unproved
 
-Normality and the three nonnormal sectional genera exhaust all integral
-quartics. Equation (10) exhausts genus two, and its actual line positions
-exhaust the section stratum. The genus-one five partitions are exhaustive
-only after the complete embedding and its fixed projection center are
-derived. Thus all mates on every integral quartic are excluded, at exactly
-the accepted scope of R-0001.
+Normal quartics and nonnormal quartics of sectional genera zero, one, and two exhaust the integral degree-four carriers. The genus-two correction identity and actual line positions cover the section stratum; genus-one partition completeness requires the fixed projection center. Hence the accepted R-0001 argument excludes every integral quartic carrier in characteristic zero.
 
-The necessary case distinctions reflect different objects. Numerical
-pullback works on a normal resolution; conductor descent measures gluing
-on the nonnormal carrier; the ribbon obstruction measures a **global
-embedded** normal map; the trisecant argument measures actual branch
-attachments in an ambient blowup. They share (1)--(2) but cannot be
-identified by discarding their extra data. The ruled criterion and the
-ribbon Hom boundary above generalize the common reductions. The
-rank/order inequality unifies irreducible normal exceptional cases, and
-the relative inverse-chain formula unifies both ordinary two-crossing
-trisecant configurations. The doubled-horizontal case remains distinct
-because its cubic normal coefficient, rather than two reduced crossings,
-controls its entire exceptional budget.
+The proof mechanisms are **not interchangeable**: numerical pullback belongs to a normal resolution; full-conductor descent governs nonnormal gluing; the ribbon Hom obstruction is global and embedded; trisecant exclusions use actual ambient blowup attachments. The doubled-horizontal case requires its cubic normal coefficient rather than a reduced two-crossing formula.
 
-Two useful negative controls prevent false simplifications. A smooth
-lift can pass through an \(A_1\) normalization point with full inverse
-support and a local mate; the
-[explicit local counterexample](https://github.com/markluxton1/STCI/blob/a88e52b20b799ead49699a23a1d4691a96f66cf5/research/supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-local-liftmd)
-prevents replacing the singular-normalization analysis by smoothness of
-the curve. Full inverse support also does not imply scheme containment
-in the nonreduced ramification locus; the
-[Fitting counterexample](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd)
-retains the exact failed implication. Similarly a blowup lift in another
-carrier family requires an invertible pulled center ideal and the actual
-ratios of its equation sections; a numerical conic-bundle model alone
-does not provide them.
-
-The independent \((4,4)\) proof, the primitive \(e=2\) factorization,
-the principal MF6 finite candidate locus, and the even/three-center
-bisection proofs remain worthwhile distinct mechanisms. Their old
-quartic-*mate* open labels are superseded by R-0001. The theorem does
-not compute common-quartic ancestor incidence, rule out arbitrary sextic
-mates, or turn a formal/graded normal model into actual homogeneous
-equations.
+Two counterexamples prevent shortcuts: a smooth lifted curve can pass through an \(A_1\) normalization point while retaining a local mate ([local model](https://github.com/markluxton1/STCI/blob/a88e52b20b799ead49699a23a1d4691a96f66cf5/research/supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-local-liftmd)); full inverse support does not imply containment in the nonreduced ramification scheme ([Fitting model](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd)). Numerical conic-bundle data likewise cannot replace invertibility of the pulled center ideal and its section ratios. The independent \((4,4)\), primitive \(e=2\), MF6, and even/three-center mechanisms remain distinct; their obsolete quartic-mate open labels do not. R-0001 does not settle sextic mates, ancestor incidence, or global realization of formal normal models.
 
 ## 8. What changes in positive characteristic
 
