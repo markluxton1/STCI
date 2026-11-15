@@ -84,16 +84,7 @@ is empty, since that scheme is supported on the blowup center.
 
 ## 3.2 Saturating the first relation
 
-The conormal bundle \(N_C^*\) records the transverse linear directions. The associated graded algebra of the ideal of \(C\) has pieces \(\operatorname{Sym}^j N_C^*\). A first global relation may determine a line subsheaf in one symmetric power, but it need not be **saturated** or fiberwise generated. At exceptional points, a generic relation may acquire base points, lose rank, or have extra torsion in its quotient.
-
-When the first degree-\(r\) relation is a saturated line subbundle, its binary form defines a relative degree-\(r\) divisor
-\[
-\pi:\mathcal R\longrightarrow C
-\]
-on the exceptional ruled surface. This is the **full root scheme**: repeated roots and nilpotent structure are retained. It should not be replaced silently by its reduced support. In the balanced split setting \(N_C^*=H^{-1}\otimes V\), the exceptional surface is \(C\times\mathbf P(V^*)\) and the root direction bundle is \(\mathcal O_{\mathcal R}(1)\).
-
-The root scheme here is the divisor of a **single saturated first relation**, not automatically the whole common-direction scheme of two arbitrary equations.
-
+A generic first normal relation need not extend as a saturated, everywhere-generated line subbundle of \(\operatorname{Sym}^rN_C^*\). Its special fibers can acquire base points or quotient torsion. A **saturated** degree-\(r\) relation instead defines a full relative Cartier root divisor \(\mathcal R\to C\) in the exceptional ruled surface, retaining multiplicities and nonreduced fibers. In the balanced split case \(N_C^*=H^{-1}\otimes V\), this surface is \(C\times\mathbf P(V^*)\) and the root direction bundle is \(\mathcal O_{\mathcal R}(1)\). This root divisor is not automatically the common-direction scheme of arbitrary displayed equations. The [Picard criterion](../../results/spectral_root_picard_criterion.md) and [actual-CI bridge](../../results/actual_ci_smooth_root_bridge.md) impose their additional, different hypotheses.
 
 ## 3.3 The second relation lives in a quotient
 
