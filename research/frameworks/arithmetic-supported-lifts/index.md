@@ -43,16 +43,12 @@ approach needs a map to or from the full conductor for a specified normalized
 carrier and a check that the map retains the endpoint algebra. A comparison
 that supplies only the genus identity leaves the compatibility open.
 
-## Bounded work and selection
+## Bounded comparison
 
-No activity has been selected here. A bounded test should fix a powered source
-and the target algebra or sheaf, then stop at a proved comparison, a control
-invalidating it on its declared domain, or the first missing map or descent
-condition. A positive compatibility result gives a test on that source. An
-obstruction closes only the covered traits. Revise the approach when the
-comparison requires changing its carrier or its source. Retire the strategy
-for a source once its supported lifting question is decided under the stated
-trait hypotheses.
+For a prescribed powered source and target algebra or sheaf, a positive
+compatibility result tests only that source; an obstruction excludes only
+the traits covered by its hypotheses. Changing the carrier or source
+requires a separate comparison map and descent conditions.
 
 ## Comparisons with other approaches
 
