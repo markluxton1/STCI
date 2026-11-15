@@ -151,13 +151,13 @@ research/computations/global_ci_small_movement_divisor_audit.py,consolidate-and-
 research/computations/localcoh-e2-incidence-2026-10-06.py,retain,,Local-cohomology investigation; normalized incidence-chart exporter,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/localcoh-incidence-2026-10-06-certificate.json,unexamined,,,,awaiting-merge
 research/computations/localcoh-incidence-2026-10-06.py,retire,,,Pasted text(20261115-021455).txt,recovered
-research/computations/localcoh-incidence-bases.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/localcoh-incidence-bases.txt,retain,,Direct input to retained evening_localcoh_family2_exception_fields_2026_10_13.py (INPUTS); required to reproduce exact verification,source-import-dependency-inspection-2026-11-14,dependency-verified
 research/computations/localcoh-incidence-parity-dual-2026-10-06.json,unexamined,,,,awaiting-merge
 research/computations/localcoh-incidence-parity-dual-2026-10-06.m2,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/localcoh-incidence-parity-dual-2026-10-06.py,retire,,,Pasted text(20261115-021455).txt,recovered
 research/computations/localcoh-incidence-parity-dual-2026-10-06.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/localcoh-incidence-tensor.m2,retain,,Same investigation; actual quartic multiplication tensor,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
-research/computations/localcoh-incidence-tensor.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/localcoh-incidence-tensor.txt,retain,,Direct input to retained evening_localcoh_family2_exception_fields_2026_10_13.py (INPUTS); required to reproduce exact verification,source-import-dependency-inspection-2026-11-14,dependency-verified
 research/computations/localcoh-symbol-numerators.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/localcoh-symbol-top.json,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
 research/computations/localcoh-symbol-top.py,retain,,Same investigation; balanced top-symbol map | Later inspection identified reusable balanced top-symbol map,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-resolved
