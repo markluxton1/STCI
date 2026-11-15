@@ -602,37 +602,9 @@ graded algebra and realizing it by two equations of the required degree.
 
 ## Source review and verification
 
-The October 23, 2026 geometry/symbol audit is preserved in the
-[independent audit](https://github.com/markluxton1/STCI/blob/d3828371871b3d047360e184f44055fa3a7c5b39/research/notes/2026-10-23-quartic-geometry-symbol-independent-audit.md).
-It independently checked the monic flatness proof, four-component decomposition,
-both endpoint contacts and the delta count, full normal initial ideals,
-base change, the quadric and alternate conormal frames, and the actual
-quartic symbol images. It used the previously established balanced splitting
-as a premise. It inspected the
-[Macaulay2 family check](quartic-specialization-controls.support/verify_44_mu4_family_2026_10_23.m2)
-and its successful log without rerunning that script in the audit. It
-constructed and ran the
-[exact symbol comparison](quartic-specialization-controls.support/verify_44_quartic_symbol_comparison_2026_10_23.py)
-over \(\mathbf Q\) and \(\mathbf F_2\) using all 35 quartic monomials
-and the integral 18-column restriction kernel. The script checks the two
-first-symbol matrices and the \(q^2\) kernel coordinates and reports the
-second-symbol target dimensions from the conormal splittings.
+The [independent geometry/symbol audit](https://github.com/markluxton1/STCI/blob/d3828371871b3d047360e184f44055fa3a7c5b39/research/notes/2026-10-23-quartic-geometry-symbol-independent-audit.md) checked monic flatness, four components, endpoint contacts and delta, normal initial ideals, base change, quadric/conormal frames, and actual quartic symbols, taking balanced splitting as an input. It inspected the [family verifier](quartic-specialization-controls.support/verify_44_mu4_family_2026_10_23.m2) without rerunning it, and ran the [symbol comparison](quartic-specialization-controls.support/verify_44_quartic_symbol_comparison_2026_10_23.py) over \(\mathbf Q,\mathbf F_2\) using 35 monomials and the integral 18-column restriction kernel; that check covers first symbols, \(q^2\) kernel coordinates, and second-symbol target dimensions. The [reconciliation](https://github.com/markluxton1/STCI/blob/c7e9f7893016154f2df1acd79a5d39a036f32865/research/RECONCILIATION_2026-10-23-44.md) and [CI run](https://github.com/markluxton1/STCI/actions/runs/39972680627) record scope-limited R-0020–0022 decisions. Neither quartic-carrier exclusion nor arithmetic lifting was reaudited.
 
-The [October 23 reconciliation](https://github.com/markluxton1/STCI/blob/c7e9f7893016154f2df1acd79a5d39a036f32865/research/RECONCILIATION_2026-10-23-44.md) recorded the
-scope-limited decisions for R-0020, R-0021 and the separate filtered
-exclusion R-0022. Its [successful CI run](https://github.com/markluxton1/STCI/actions/runs/39972680627)
-included the family and symbol checks and the separate filtered-contact
-jobs. The geometry/symbol audit did not rerun the inherited quartic-carrier
-exclusion or the arithmetic lifting obstruction.
-
-The [transition verifier](quartic-specialization-controls.support/verify_normal_bundle.py)
-checks the two-chart normal transition, the quadratic Jacobian-syzygy matrix
-and the characteristic-three triple. The [October 10 independent audit](https://github.com/markluxton1/STCI/blob/8d4ea1ad5af2b26955571bb668ef1cc4a582fa3d/research/notes/2026-10-10-session-quartic-normal-bundle-independent-audit.md)
-gives the homogeneous Euler/Jacobian argument in characteristic zero and
-records an exact execution of its companion check. Its conditional ribbon
-argument requires the separate geometric hypotheses stated in that audit.
-The computations corroborate the written proofs here. Current route review is
-recorded with each Result.
+The [normal-transition verifier](quartic-specialization-controls.support/verify_normal_bundle.py) checks the two-chart transition, Jacobian syzygy, and characteristic-three triple. The [independent normal-bundle audit](https://github.com/markluxton1/STCI/blob/8d4ea1ad5af2b26955571bb668ef1cc4a582fa3d/research/notes/2026-10-10-session-quartic-normal-bundle-independent-audit.md) proves the characteristic-zero Euler/Jacobian argument; its ribbon conclusion requires separate geometric hypotheses. Computation corroborates the written proofs.
 
 <a id="finite-quartic-replay-evidence"></a>
 
