@@ -1,768 +1,768 @@
 path,disposition,destination,reason,source_report,review_status
-"research/chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md",unexamined,,,,awaiting-merge
-"research/computations/README.md",unexamined,,,,awaiting-merge
-"research/computations/audit_44_filtered_contact_2026_10_23.py",unexamined,,,,awaiting-merge
-"research/computations/audit_dx1_saturation_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/audit_mf6_e1_primitive_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/audit_quartic_flag_duality_2026_10_24.m2",unexamined,,,,awaiting-merge
-"research/computations/audit_scroll_twisted_cubic_equation_space_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/audit_session_localcoh_endpoint_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/audit_session_mf6_rhalf_conductor_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py",unexamined,,,,awaiting-merge
-"research/computations/audit_session_scroll_gorenstein_generic_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/audit_session_socle_bridge_frames_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/audit_sextic_triple_spaces_2026_10_31.py",unexamined,,,,awaiting-merge
-"research/computations/audit_z4_lift_2026_10_20.m2",unexamined,,,,awaiting-merge
-"research/computations/c4_conormal.py",unexamined,,,,awaiting-merge
-"research/computations/c4_root_collision.py",unexamined,,,,awaiting-merge
-"research/computations/ci_cycle_line_degeneration_2026_10_25.m2",unexamined,,,,awaiting-merge
-"research/computations/ci_cycle_line_degeneration_2026_10_25.py",unexamined,,,,awaiting-merge
-"research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cont2_endpoint_models_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cont2_independent_unit_audit_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_image_2026_10_21.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_20.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21.json",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.json",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_collision.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21_family.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_cubic_reduction_2026_10_21_family.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_elimination_2026_10_20.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_elimination_2026_10_21.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_elimination_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_full_cubic_family_audit_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_nodal_normalization_2026_10_21.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation2_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_primitive.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_w1.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation2_2026_10_21_conic_w1.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation2_2026_10_21_independent_symbol_audit.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation_2026_10_20.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation_2026_10_20_diagonal.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation_2026_10_20_independent_diagonal_audit.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation_2026_10_21.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation_2026_10_21_line_component_primitive.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_singular_continuation_2026_10_21_line_component_w1.m2",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_structured_incidence_2026_10_20.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_symbol_map_2026_10_20.json",unexamined,,,,awaiting-merge
-"research/computations/conditional_2_12_symbol_map_2026_10_20.py",unexamined,,,,awaiting-merge
-"research/computations/derive_normal_quintic_ade_e1_2026_10_13.py",unexamined,,,,awaiting-merge
-"research/computations/derive_session_localcoh_e1_d4_principal_extension_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/derive_session_rnc_ribbon_net_2026_10_09.py",unexamined,,,,awaiting-merge
-"research/computations/draw_quartic_geometry_2026_10_24.py",unexamined,,,,awaiting-merge
-"research/computations/dx1_saturation_audit_2026_10_07.json",unexamined,,,,awaiting-merge
-"research/computations/e2_full4_obstruction_2026-10-05.txt",unexamined,,,,awaiting-merge
-"research/computations/endpoint4_actual_2026_10_25.json",unexamined,,,,awaiting-merge
-"research/computations/endpoint4_actual_2026_10_25.py",unexamined,,,,awaiting-merge
-"research/computations/endpoint4_fixed_jet_independent_2026_10_26.json",unexamined,,,,awaiting-merge
-"research/computations/endpoint4_fixed_jet_independent_2026_10_26.py",unexamined,,,,awaiting-merge
-"research/computations/endpoint4_fixed_m2_2026_10_25.json",unexamined,,,,awaiting-merge
-"research/computations/endpoint4_fixed_m2_2026_10_25.m2",unexamined,,,,awaiting-merge
-"research/computations/endpoint4_fixed_m2_2026_10_25.py",unexamined,,,,awaiting-merge
-"research/computations/endpoint4_fixed_m2_2026_10_25.txt",unexamined,,,,awaiting-merge
-"research/computations/evening-localcoh-family2-cubic-2026-10-13-certificate.json",unexamined,,,,awaiting-merge
-"research/computations/evening-localcoh-family2-cubic-2026-10-13-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening-localcoh-family2-cubic-2026-10-13-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/evening-localcoh-family2-cubic-2026-10-13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening-localcoh-family2-quartic-2026-10-13-certificate.json",unexamined,,,,awaiting-merge
-"research/computations/evening-localcoh-family2-quartic-2026-10-13-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening-localcoh-family2-quartic-2026-10-13-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/evening-localcoh-family2-quartic-2026-10-13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_3_2026_10_13-cleared-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_3_2026_10_13-denominator.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_3_2026_10_13-generic-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_3_2026_10_13-seed.json",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_3_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_3_clearing_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_2026_10_13-certificate.json",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_2026_10_13-cleared-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_2026_10_13-denominator.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_2026_10_13-generic-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_2026_10_13-seed.json",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_clearing_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_eight_2026_10_13-generic-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_eight_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_minus8over3_2026_10_13-generic-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_minus8over3_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_quad_2026_10_13-generic-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_quad_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_zero_2026_10_13-certificate.json",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_zero_2026_10_13-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_zero_2026_10_13-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_4_zero_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_boundary_certificate_2026_10_13.py",unexamined,,,,awaiting-merge
-"research/computations/evening_localcoh_family2_exception_fields_2026_10_13.py",unexamined,,,,awaiting-merge
-"research/computations/explore_ci_contact_deformations_2026_10_25.py",unexamined,,,,awaiting-merge
-"research/computations/explore_ci_residual_pencil_2026_10_25.m2",unexamined,,,,awaiting-merge
-"research/computations/explore_localcoh_direction_contact.py",unexamined,,,,awaiting-merge
-"research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/explore_session_localcoh_e1_d4_quartic_map_2026_10_08.json",unexamined,,,,awaiting-merge
-"research/computations/explore_session_localcoh_e1_d4_quartic_map_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/finite_normal_jet_certificate.m2",unexamined,,,,awaiting-merge
-"research/computations/general-localcoh-degree15-sparse-block-2026-10-14-diagnostic.json",unexamined,,,,awaiting-merge
-"research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt03.m2",unexamined,,,,awaiting-merge
-"research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-certificate.json",unexamined,,,,awaiting-merge
-"research/computations/general_localcoh_degree15_polynomial_scaling_design_2026_10_14.py",unexamined,,,,awaiting-merge
-"research/computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py",unexamined,,,,awaiting-merge
-"research/computations/generalization_moving_first_relation_operator.py",unexamined,,,,awaiting-merge
-"research/computations/generalization_quadratic_root_curve_universal_incidence.json",unexamined,,,,awaiting-merge
-"research/computations/generalization_quadratic_root_curve_universal_incidence.py",unexamined,,,,awaiting-merge
-"research/computations/generalization_quadratic_root_global_second_model.json",unexamined,,,,awaiting-merge
-"research/computations/generalization_quadratic_root_global_second_model.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quadratic_root_global_second_model.py",unexamined,,,,awaiting-merge
-"research/computations/generalization_quadratic_root_seed_second_obstruction.json",unexamined,,,,awaiting-merge
-"research/computations/generalization_quadratic_root_seed_second_obstruction.py",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h2_a4_unit_binding_2026_10_15.c",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h2_localized_ode_2026_10_15.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h2_quotient_norm_2026_10_14.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h2_twelve_generator_syzygies_2026_10_15.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h2_unified_minors_flint_2026_10_15.c",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h2_unified_spectral_accelerator_2026_10_15.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h3_divisibility_certificate.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h3_high_multiplicity.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h3_infinity_support.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h3_multiplicity_witness.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h3_root_support_cover.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h3_support32_witness.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_h3_support_32.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_intrinsic_a4_contact_2026_10_14.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_l2_bezout.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_l2_boundaries.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_l2_cover.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_l2_drops.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_l2_resultants.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt02.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt05.m2",unexamined,,,,awaiting-merge
-"research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt06.m2",unexamined,,,,awaiting-merge
-"research/computations/generate_session_localcoh_q13_module_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/generate_session_localcoh_q1_module_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/generate_session_localcoh_q3_module_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/global_ci_small_movement_divisor_audit.py",unexamined,,,,awaiting-merge
-"research/computations/localcoh-e2-incidence-2026-10-06.py",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-2026-10-06-certificate.json",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-2026-10-06.py",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-bases.txt",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-parity-dual-2026-10-06.json",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-parity-dual-2026-10-06.m2",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-parity-dual-2026-10-06.py",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-parity-dual-2026-10-06.txt",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-tensor.m2",unexamined,,,,awaiting-merge
-"research/computations/localcoh-incidence-tensor.txt",unexamined,,,,awaiting-merge
-"research/computations/localcoh-symbol-numerators.txt",unexamined,,,,awaiting-merge
-"research/computations/localcoh-symbol-top.json",unexamined,,,,awaiting-merge
-"research/computations/localcoh-symbol-top.py",unexamined,,,,awaiting-merge
-"research/computations/moving_linear_cubic_compatibility_2026_10_14.py",unexamined,,,,awaiting-merge
-"research/computations/moving_linear_cubic_independent_audit_2026_10_14.py",unexamined,,,,awaiting-merge
-"research/computations/nodal_cubic_quintic_lattice.py",unexamined,,,,awaiting-merge
-"research/computations/normal_carrier_index_reduction_2026_10_14.py",unexamined,,,,awaiting-merge
-"research/computations/octic_first_root_source.py",unexamined,,,,awaiting-merge
-"research/computations/order_three_four_parameter_slice.py",unexamined,,,,awaiting-merge
-"research/computations/order_three_sextic_slice.py",unexamined,,,,awaiting-merge
-"research/computations/primitive_curvilinear_degree_budget_2026_10_26.py",unexamined,,,,awaiting-merge
-"research/computations/probe_session_nonendpoint_2plus4_families_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/probe_session_nonendpoint_type23_a4_contact_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/probe_session_nonendpoint_type23_full_contact_jets_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/probe_session_nonendpoint_type23_incidence_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/projection_balanced_discriminant.m2",unexamined,,,,awaiting-merge
-"research/computations/projection_elliptic_finite_targets.m2",unexamined,,,,awaiting-merge
-"research/computations/projection_incidence_certificates.m2",unexamined,,,,awaiting-merge
-"research/computations/projection_inverse_example.m2",unexamined,,,,awaiting-merge
-"research/computations/projection_local_contacts.m2",unexamined,,,,awaiting-merge
-"research/computations/projection_palindromic_picard.py",unexamined,,,,awaiting-merge
-"research/computations/quadratic_root_diagonal_certificate.py",unexamined,,,,awaiting-merge
-"research/computations/quadratic_root_pure_direction_boundary_certificate.sing",unexamined,,,,awaiting-merge
-"research/computations/quadratic_root_torsion_two_model.py",unexamined,,,,awaiting-merge
-"research/computations/quadratic_root_torsion_two_rank_strata.sing",unexamined,,,,awaiting-merge
-"research/computations/quartic_flag_incidence_2026_10_24.json",unexamined,,,,awaiting-merge
-"research/computations/quartic_fourth_extension_cocycles.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_a4_conductor_first_jet.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_component_root_witness.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_conductor_cone_identity.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_conductor_singular_incidence.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_conductor_vertex_example.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_genus_two_toric_projection.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_toric_boundary_centers.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_toric_exception_audit.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_toric_exception_centers.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_toric_finite_centers.json",unexamined,,,,awaiting-merge
-"research/computations/quintic_toric_finite_centers.py",unexamined,,,,awaiting-merge
-"research/computations/quintic_vertex_conductor_contact.py",unexamined,,,,awaiting-merge
-"research/computations/requirements-quartic-geometry-2026-10-24.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-corner10-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-corner10.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-corner18-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-corner18.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-corner2-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-corner2.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-corners-certificate.json",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-corners.py",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-boundary.py",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-families.json",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q1-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q1-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q1.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q13-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q13-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q13.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q2-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q2-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q2.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q3-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q3-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-exception-q3.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-generic-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-polynomial-dual.json",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1-seed.json",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-1.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-exception-qminus-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-exception-qminus-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-exception-qminus.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-exception-qplus-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-exception-qplus-evaluations.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-exception-qplus.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-generic-dual.txt",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2-seed.json",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-2.m2",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-family-module.py",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-generic-dual.py",unexamined,,,,awaiting-merge
-"research/computations/session-localcoh-origin-parametrize.py",unexamined,,,,awaiting-merge
-"research/computations/session_dx1_saturation_2026_10_06.m2",unexamined,,,,awaiting-merge
-"research/computations/session_dx1_saturation_certificate_2026_10_06.txt",unexamined,,,,awaiting-merge
-"research/computations/session_dx1_shifted_membership_2026_10_07.txt",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_conormal_hankel_2026_10_07.json",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_conormal_hankel_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_family2_generic_dual_audit_2026_10_08.json",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_family2_qminus_audit_2026_10_08.json",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_family2_qplus_audit_2026_10_08.json",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_q13_dual_audit_2026_10_07.json",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_q1_dual_audit_2026_10_07.json",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_q2_dual_audit_2026_10_07.json",unexamined,,,,awaiting-merge
-"research/computations/session_localcoh_q3_dual_audit_2026_10_07.json",unexamined,,,,awaiting-merge
-"research/computations/session_uniform_e2_hankel.py",unexamined,,,,awaiting-merge
-"research/computations/sextic_global_jet_cech.py",unexamined,,,,awaiting-merge
-"research/computations/stci_arithmetic_beyond_2026_10_29.py",unexamined,,,,awaiting-merge
-"research/computations/stci_closeout_degree_ten_independent_2026_10_31.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_game_existence_2026_10_30.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_game_obstruction_2026_10_30.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_mixed_contact_2026_10_29.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_mixed_contact_audit_2026_10_29.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_mixed_weight_lines_2026_10_30.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_mixed_weight_lines_audit_2026_10_30.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_search_freedom_2026_10_28.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_search_quadric_endpoint_2026_10_28.m2",unexamined,,,,awaiting-merge
-"research/computations/stci_search_sextic_jets_2026_10_28.json",unexamined,,,,awaiting-merge
-"research/computations/stci_search_sextic_jets_2026_10_28.py",unexamined,,,,awaiting-merge
-"research/computations/vahlen_base_locus_discriminant.py",unexamined,,,,awaiting-merge
-"research/computations/vahlen_quintic_exact.py",unexamined,,,,awaiting-merge
-"research/computations/validate_records.py",unexamined,,,,awaiting-merge
-"research/computations/validate_result_records.py",unexamined,,,,awaiting-merge
-"research/computations/verify_44_filtered_contact_2026_10_23.py",unexamined,,,,awaiting-merge
-"research/computations/verify_44_triple_residual_example_2026_10_26.py",unexamined,,,,awaiting-merge
-"research/computations/verify_all_quartic_primitive_obstruction.py",unexamined,,,,awaiting-merge
-"research/computations/verify_attachment_module_nonlci_2026_10_27.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_c0.py",unexamined,,,,awaiting-merge
-"research/computations/verify_chow_form.py",unexamined,,,,awaiting-merge
-"research/computations/verify_chow_pencil_45.py",unexamined,,,,awaiting-merge
-"research/computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_ci_cycle_root_collision_valuations_2026_10_25.py",unexamined,,,,awaiting-merge
-"research/computations/verify_ci_cycle_root_pencil_2026_10_25.py",unexamined,,,,awaiting-merge
-"research/computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py",unexamined,,,,awaiting-merge
-"research/computations/verify_ci_smooth_residual_boundary_2026_10_25.py",unexamined,,,,awaiting-merge
-"research/computations/verify_ci_smooth_residual_example_2026_10_25.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_cubic_scroll_gauss_dual_2026_10_24.py",unexamined,,,,awaiting-merge
-"research/computations/verify_degree6.py",unexamined,,,,awaiting-merge
-"research/computations/verify_delta_conormal_annihilator_2026_10_24.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_delta_rees_equation_module_2026_10_24.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_delta_singular_families_2026_10_24.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_delta_singular_identities_2026_10_24.py",unexamined,,,,awaiting-merge
-"research/computations/verify_dx1_a_half_boundary.py",unexamined,,,,awaiting-merge
-"research/computations/verify_dx1_p044_residual.py",unexamined,,,,awaiting-merge
-"research/computations/verify_dx1_saturation_2026_10_07.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_e1_d2_defect.py",unexamined,,,,awaiting-merge
-"research/computations/verify_e1_triple_obstruction.py",unexamined,,,,awaiting-merge
-"research/computations/verify_e2_quartic_incidence.py",unexamined,,,,awaiting-merge
-"research/computations/verify_general_conductor_power.py",unexamined,,,,awaiting-merge
-"research/computations/verify_ideal_filtration_completeness_2026_10_23.py",unexamined,,,,awaiting-merge
-"research/computations/verify_ideal_filtration_counterexamples_2026_10_23.py",unexamined,,,,awaiting-merge
-"research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_constant_direction_apolar.py",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_degree4_allstage_certificate.py",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_degree4_counterexample.py",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_direction_contact_survivor.py",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_direction_image.py",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_finite_principal_parts.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_generic_length_model.py",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_pure_direction_audit.py",unexamined,,,,awaiting-merge
-"research/computations/verify_localcoh_quartic_ratio_t_slice.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_defect12.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_d1_endpoints.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_infinity.json",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_quadratic.json",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_rational.json",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_defective_structural.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_e1_primitive_type04.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_infinity_universal.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mf6_type3.py",unexamined,,,,awaiting-merge
-"research/computations/verify_mixed46_regular.py",unexamined,,,,awaiting-merge
-"research/computations/verify_normal_quartic_simple_elliptic.py",unexamined,,,,awaiting-merge
-"research/computations/verify_normal_rational_carrier_compression.py",unexamined,,,,awaiting-merge
-"research/computations/verify_p044_survivor_cubic.py",unexamined,,,,awaiting-merge
-"research/computations/verify_p4_ruled_surfaces_2026_10_24.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_p4_ruled_surfaces_2026_10_24.py",unexamined,,,,awaiting-merge
-"research/computations/verify_primitive_obstruction.py",unexamined,,,,awaiting-merge
-"research/computations/verify_primitive_quadruple_universal.py",unexamined,,,,awaiting-merge
-"research/computations/verify_primitive_quartic_factor_audit.py",unexamined,,,,awaiting-merge
-"research/computations/verify_primitive_triple_parity.py",unexamined,,,,awaiting-merge
-"research/computations/verify_quadratic_root_rank_fibers.py",unexamined,,,,awaiting-merge
-"research/computations/verify_quadric_powers.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_quartic_automorphisms_bitangents_2026_10_24.py",unexamined,,,,awaiting-merge
-"research/computations/verify_quartic_dual_intersections_2026_10_24.py",unexamined,,,,awaiting-merge
-"research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_quartic_flag_incidence_2026_10_24.py",unexamined,,,,awaiting-merge
-"research/computations/verify_residual_liaison_resolution_2026_10_28.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_dp5_a4_local_chart_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_dx1_independent_2026_10_06.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_e2_defect_profiles.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_endpoint_local_ade_2026_10_10.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_genus_one_entire_conductor_2026_10_09.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_genus_one_projection_2026_10_09.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_genus_two_double_horizontal_2026_10_10.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_genus_two_line_positions_2026_10_10.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_jbar_zero_phase_audit_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_conormal_splitting_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_e1_simultaneous_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_family2_generic_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_family2_quadratics_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_q13_dual_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_q1_dual_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_q2_dual_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_q3_dual_2026_10_07.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_localcoh_quadric_direction_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_mf6_principal_rzero_normality_2026_10_09.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.json",unexamined,,,,awaiting-merge
-"research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_multiplicity_ten_filtration_2026_10_11.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_a4_cotangent_rank_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_conormal_cubics_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_cubic_contact_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_diagonal_norm_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_h2_classification_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_h3_conductor_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_h3_zero_chart_support_2026_10_13.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_single_root_quotient_2026_10_13.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonendpoint_target_fibers_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonnormal_mf6_fiber_obstruction.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonnormal_structural.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_nonreduced_independent_audit.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_normal_carrier_progress.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_normal_independent_audit.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_normal_nonreduced_trees.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_quadratic_conductor_power_descent_2026_10_09.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_quintic_a4_exact_ideal_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_quintic_a4_pair_classification_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_quintic_endpoint_subresultant_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_quintic_nonendpoint_structure_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_ramification_counterexample.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_ribbon_22_bounded_2026_10_09.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_ribbon_repeated_partitions_2026_10_09.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_scroll_conductor_compression.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_scroll_nongorenstein_cubic_2026_10_08.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_three_common_roots_residual_quartic_2026_10_11.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_session_uniform_bf_profiles.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_veronese_allmate_independent.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_veronese_pencils.py",unexamined,,,,awaiting-merge
-"research/computations/verify_session_veronese_singular_pencil.py",unexamined,,,,awaiting-merge
-"research/computations/verify_special_lines_planes_2026_10_24.py",unexamined,,,,awaiting-merge
-"research/computations/verify_split22_boundary_lift.py",unexamined,,,,awaiting-merge
-"research/computations/verify_split22_boundary_survivor.py",unexamined,,,,awaiting-merge
-"research/computations/verify_split22_chart_audit.py",unexamined,,,,awaiting-merge
-"research/computations/verify_split22_finite_reduction.py",unexamined,,,,awaiting-merge
-"research/computations/verify_split4_nonramified.py",unexamined,,,,awaiting-merge
-"research/computations/verify_stci_search_nodal_m2_2026_10_28.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_typea45.py",unexamined,,,,awaiting-merge
-"research/computations/verify_typeb45_boundary.py",unexamined,,,,awaiting-merge
-"research/computations/verify_typeb45_corner.py",unexamined,,,,awaiting-merge
-"research/computations/verify_typeb45_dense.py",unexamined,,,,awaiting-merge
-"research/computations/verify_typeb45_endpoint_certificate.py",unexamined,,,,awaiting-merge
-"research/computations/verify_z4_general_mechanism_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/computations/verify_z4_global_quartics_2026_10_20.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_z4_local_structure_2026_10_20.m2",unexamined,,,,awaiting-merge
-"research/computations/verify_z4_quartic_obstruction_2026_10_20.py",unexamined,,,,awaiting-merge
-"research/computations/verify_z4_raw_source_decomposition.py",unexamined,,,,awaiting-merge
-"research/computations/verify_z4_stci_consequences_2026_10_21.py",unexamined,,,,awaiting-merge
-"research/questions/cartier_projection_models.md",unexamined,,,,awaiting-merge
-"research/scratch/audit-mf6-e1-principal-raw-minors-2026-10-08.json",unexamined,,,,awaiting-merge
-"research/scratch/degree6/verify_mixed45_reduction.py",unexamined,,,,awaiting-merge
-"research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.json",unexamined,,,,awaiting-merge
-"research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.py",unexamined,,,,awaiting-merge
-"research/scratch/mf6-principal-weighted-kernel-2026-10-08.json",unexamined,,,,awaiting-merge
-"research/scratch/mixed46/local_lattice.py",unexamined,,,,awaiting-merge
-"research/scratch/primitive47/obstruction.py",unexamined,,,,awaiting-merge
-"research/scratch/primitive47universal/general_triple_contact.py",unexamined,,,,awaiting-merge
-"research/scratch/primitive47universal/generate.py",unexamined,,,,awaiting-merge
-"research/scratch/primitive47universal/quartic_contact.json",unexamined,,,,awaiting-merge
-"research/scratch/primitive47universal/quartic_contact.py",unexamined,,,,awaiting-merge
-"research/scratch/session-mf6-e1-principal-contact-2026-10-08.json",unexamined,,,,awaiting-merge
-"research/scratch/session-mf6-e1-principal-minors-2026-10-08.json",unexamined,,,,awaiting-merge
-"research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json",unexamined,,,,awaiting-merge
-"research/supplements/ACTUAL_EQUATION_SPACES.md",unexamined,,,,awaiting-merge
-"research/supplements/ACTUAL_SEXTIC_MATE_CERTIFICATES.md",unexamined,,,,awaiting-merge
-"research/supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md",unexamined,,,,awaiting-merge
-"research/supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md",unexamined,,,,awaiting-merge
-"research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md",unexamined,,,,awaiting-merge
-"research/supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md",unexamined,,,,awaiting-merge
-"research/supplements/CARRIER_TEST_CURVES.md",unexamined,,,,awaiting-merge
-"research/supplements/CHOW_PENCIL_MULTIPLICITY_TESTS.md",unexamined,,,,awaiting-merge
-"research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md",unexamined,,,,awaiting-merge
-"research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md",unexamined,,,,awaiting-merge
-"research/supplements/CONDUCTOR_DESCENT_ALGEBRA.md",unexamined,,,,awaiting-merge
-"research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md",unexamined,,,,awaiting-merge
-"research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md",unexamined,,,,awaiting-merge
-"research/supplements/CURVILINEAR_GENUS_AND_DEFECTS.md",unexamined,,,,awaiting-merge
-"research/supplements/CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md",unexamined,,,,awaiting-merge
-"research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md",unexamined,,,,awaiting-merge
-"research/supplements/DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md",unexamined,,,,awaiting-merge
-"research/supplements/E2_PRIMITIVE_QUARTIC_INCIDENCE.md",unexamined,,,,awaiting-merge
-"research/supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md",unexamined,,,,awaiting-merge
-"research/supplements/ENDPOINT_FOUR_ACTUAL_SEXTICS.md",unexamined,,,,awaiting-merge
-"research/supplements/EQUIVARIANT_DEGREE_BOUNDS.md",unexamined,,,,awaiting-merge
-"research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md",unexamined,,,,awaiting-merge
-"research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md",unexamined,,,,awaiting-merge
-"research/supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md",unexamined,,,,awaiting-merge
-"research/supplements/FROBENIUS_POWER_LIFTING_PRECISION.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_ONE_211_PROJECTION_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_AMBIENT_CONIC_MODEL_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_BISECTION_DESCENT.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_BISECTION_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_ENDPOINT_LOCAL_CORRECTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_ENDPOINT_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_MARKING_AND_SECTION_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_NONENDPOINT_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_TRISECANT_CARRIER_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/GENUS_TWO_WEIGHTED_NORMALIZATION.md",unexamined,,,,awaiting-merge
-"research/supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md",unexamined,,,,awaiting-merge
-"research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md",unexamined,,,,awaiting-merge
-"research/supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md",unexamined,,,,awaiting-merge
-"research/supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md",unexamined,,,,awaiting-merge
-"research/supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/LOCAL_COHOMOLOGY_CONORMAL_GEOMETRY.md",unexamined,,,,awaiting-merge
-"research/supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md",unexamined,,,,awaiting-merge
-"research/supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md",unexamined,,,,awaiting-merge
-"research/supplements/MF6_PRINCIPAL_CANDIDATE_LOCI.md",unexamined,,,,awaiting-merge
-"research/supplements/MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md",unexamined,,,,awaiting-merge
-"research/supplements/MIXED_DEGREE_NORMAL_FORMS_AND_POLES.md",unexamined,,,,awaiting-merge
-"research/supplements/MIXED_SEXTIC_CONTACT.md",unexamined,,,,awaiting-merge
-"research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md",unexamined,,,,awaiting-merge
-"research/supplements/MOVING_POWER_SECOND_RELATION.md",unexamined,,,,awaiting-merge
-"research/supplements/MULTIPLICITY_MIXED46_AND_MF6.md",unexamined,,,,awaiting-merge
-"research/supplements/MULTIPLICITY_SIX_QUARTIC_CONTACT.md",unexamined,,,,awaiting-merge
-"research/supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md",unexamined,,,,awaiting-merge
-"research/supplements/NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md",unexamined,,,,awaiting-merge
-"research/supplements/NONENDPOINT_CUBIC_PAIR_COMPLETION.md",unexamined,,,,awaiting-merge
-"research/supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md",unexamined,,,,awaiting-merge
-"research/supplements/NONENDPOINT_SINGLE_ROOT_INCIDENCE.md",unexamined,,,,awaiting-merge
-"research/supplements/NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md",unexamined,,,,awaiting-merge
-"research/supplements/NORMALIZATION_SECTION_AND_MODULE_DESCENT.md",unexamined,,,,awaiting-merge
-"research/supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md",unexamined,,,,awaiting-merge
-"research/supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md",unexamined,,,,awaiting-merge
-"research/supplements/NORMAL_CARRIER_DIVISOR_GEOMETRY.md",unexamined,,,,awaiting-merge
-"research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md",unexamined,,,,awaiting-merge
-"research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md",unexamined,,,,awaiting-merge
-"research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md",unexamined,,,,awaiting-merge
-"research/supplements/NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT7_MF6_AND_NONNORMAL_STRUCTURES.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md",unexamined,,,,awaiting-merge
-"research/supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md",unexamined,,,,awaiting-merge
-"research/supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md",unexamined,,,,awaiting-merge
-"research/supplements/POLYNOMIAL_DUALS_AND_AFFINE_PENCILS.md",unexamined,,,,awaiting-merge
-"research/supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/PRIME_TO_P_POWER_EXTRACTION.md",unexamined,,,,awaiting-merge
-"research/supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md",unexamined,,,,awaiting-merge
-"research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md",unexamined,,,,awaiting-merge
-"research/supplements/QUADRATIC_CONDUCTOR_POWER_DESCENT.md",unexamined,,,,awaiting-merge
-"research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md",unexamined,,,,awaiting-merge
-"research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_CONORMAL_AND_CONTACT.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_DUAL_SCHEMES.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_PROJECTION_MODULI.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_SCROLL_REDUCED_CONDUCTORS.md",unexamined,,,,awaiting-merge
-"research/supplements/QUARTIC_SINGULAR_SUPPORT_AND_SINGLETON_FIBERS.md",unexamined,,,,awaiting-merge
-"research/supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md",unexamined,,,,awaiting-merge
-"research/supplements/QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md",unexamined,,,,awaiting-merge
-"research/supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md",unexamined,,,,awaiting-merge
-"research/supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md",unexamined,,,,awaiting-merge
-"research/supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md",unexamined,,,,awaiting-merge
-"research/supplements/QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md",unexamined,,,,awaiting-merge
-"research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md",unexamined,,,,awaiting-merge
-"research/supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md",unexamined,,,,awaiting-merge
-"research/supplements/QUINTIC_H3_SUPPORT_EXCLUSION.md",unexamined,,,,awaiting-merge
-"research/supplements/RATIONAL_QUARTICS_IN_POSITIVE_CHARACTERISTIC.md",unexamined,,,,awaiting-merge
-"research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md",unexamined,,,,awaiting-merge
-"research/supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md",unexamined,,,,awaiting-merge
-"research/supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md",unexamined,,,,awaiting-merge
-"research/supplements/SEXTIC_ADE_REDUCTION.md",unexamined,,,,awaiting-merge
-"research/supplements/SEXTIC_PAIR_REDUCTION.md",unexamined,,,,awaiting-merge
-"research/supplements/SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md",unexamined,,,,awaiting-merge
-"research/supplements/SOCLE_AND_LOEWY_BOUNDS.md",unexamined,,,,awaiting-merge
-"research/supplements/SPECIAL_PLANE_AND_LINE_SECTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.md",unexamined,,,,awaiting-merge
-"research/supplements/STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/TAME_PROJECTION_SECTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/THICK_SEXTIC_SOURCE_SPACES.md",unexamined,,,,awaiting-merge
-"research/supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md",unexamined,,,,awaiting-merge
-"research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md",unexamined,,,,awaiting-merge
-"research/supplements/VERONESE_QUARTIC_PROJECTIONS.md",unexamined,,,,awaiting-merge
-"research/supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md",unexamined,,,,awaiting-merge
-"research/supplements/Z4_LIFTING_AND_DEFORMATION.md",unexamined,,,,awaiting-merge
-"research/synthesis/01-problem-and-curve.md",unexamined,,,,awaiting-merge
-"research/synthesis/02-two-surfaces.md",unexamined,,,,awaiting-merge
-"research/synthesis/03-infinitesimal-geometry.md",unexamined,,,,awaiting-merge
-"research/synthesis/04-carriers.md",unexamined,,,,awaiting-merge
-"research/synthesis/05-exclusions.md",unexamined,,,,awaiting-merge
-"research/synthesis/README.md",unexamined,,,,awaiting-merge
-"research/synthesis/actual_octic_root_lift_comparison.md",unexamined,,,,awaiting-merge
-"research/synthesis/arithmetic_root_collision.md",unexamined,,,,awaiting-merge
-"research/synthesis/blowup_residual_geometry.md",unexamined,,,,awaiting-merge
-"research/synthesis/bounded_equation_certificates.md",unexamined,,,,awaiting-merge
-"research/synthesis/carrier_complement_and_collision_controls.md",unexamined,,,,awaiting-merge
-"research/synthesis/carrier_conductor_differential_comparison.md",unexamined,,,,awaiting-merge
-"research/synthesis/chow_bundle_maps.md",unexamined,,,,awaiting-merge
-"research/synthesis/coefficient_valuations.md",unexamined,,,,awaiting-merge
-"research/synthesis/complement_section_obstructions.md",unexamined,,,,awaiting-merge
-"research/synthesis/contact_duality_and_global_descent.md",unexamined,,,,awaiting-merge
-"research/synthesis/contact_jacobians_and_hamiltonian_actions.md",unexamined,,,,awaiting-merge
-"research/synthesis/cox_fiber_and_power_defects.md",unexamined,,,,awaiting-merge
-"research/synthesis/elliptic_double_inverse_construction.md",unexamined,,,,awaiting-merge
-"research/synthesis/endpoint_valuations.md",unexamined,,,,awaiting-merge
-"research/synthesis/explicit_quartic_residuals.md",unexamined,,,,awaiting-merge
-"research/synthesis/finite_normal_jets.md",unexamined,,,,awaiting-merge
-"research/synthesis/finite_pullback_and_matrix_obstructions.md",unexamined,,,,awaiting-merge
-"research/synthesis/fixed_boundary_smoothing.md",unexamined,,,,awaiting-merge
-"research/synthesis/fixed_surface_and_endpoint_algebras.md",unexamined,,,,awaiting-merge
-"research/synthesis/foliation_and_affine_degree_mechanisms.md",unexamined,,,,awaiting-merge
-"research/synthesis/formal-normal-intersection.md",unexamined,,,,awaiting-merge
-"research/synthesis/formal_residual_visibility.md",unexamined,,,,awaiting-merge
-"research/synthesis/generic_contact_depth.md",unexamined,,,,awaiting-merge
-"research/synthesis/genus_and_threshold_limits.md",unexamined,,,,awaiting-merge
-"research/synthesis/global_equation_jets.md",unexamined,,,,awaiting-merge
-"research/synthesis/global_equations_and_constructions.md",unexamined,,,,awaiting-merge
-"research/synthesis/global_lifting_interfaces.md",unexamined,,,,awaiting-merge
-"research/synthesis/horizontal_blowup_recursions.md",unexamined,,,,awaiting-merge
-"research/synthesis/intrinsic_fourth_extension.md",unexamined,,,,awaiting-merge
-"research/synthesis/jaffe_type_and_generic_contact.md",unexamined,,,,awaiting-merge
-"research/synthesis/marked_deformation_and_absorption.md",unexamined,,,,awaiting-merge
-"research/synthesis/normal_carrier_compression.md",unexamined,,,,awaiting-merge
-"research/synthesis/normal_filtration_boundary_obstructions.md",unexamined,,,,awaiting-merge
-"research/synthesis/normalization_conductor_phase2_addendum.md",unexamined,,,,awaiting-merge
-"research/synthesis/normalization_conductor_projection.md",unexamined,,,,awaiting-merge
-"research/synthesis/normalization_indices_and_power_descent.md",unexamined,,,,awaiting-merge
-"research/synthesis/normalization_residual_capacity.md",unexamined,,,,awaiting-merge
-"research/synthesis/numerical_surface_pullback.md",unexamined,,,,awaiting-merge
-"research/synthesis/order_three_roots_and_sextic_lifts.md",unexamined,,,,awaiting-merge
-"research/synthesis/pencil_milnor_budget.md",unexamined,,,,awaiting-merge
-"research/synthesis/pencil_principalization_limits.md",unexamined,,,,awaiting-merge
-"research/synthesis/polarization_roots_and_section_defects.md",unexamined,,,,awaiting-merge
-"research/synthesis/prescribed_singular_carriers.md",unexamined,,,,awaiting-merge
-"research/synthesis/projected_thickening_section_defects.md",unexamined,,,,awaiting-merge
-"research/synthesis/projection_and_elliptic_gluing.md",unexamined,,,,awaiting-merge
-"research/synthesis/punctual_quadric_extensions.md",unexamined,,,,awaiting-merge
-"research/synthesis/quadratic_covers_and_conductor_descent.md",unexamined,,,,awaiting-merge
-"research/synthesis/quadratic_root_torsion_two_lifting.md",unexamined,,,,awaiting-merge
-"research/synthesis/quadric_modification_and_global_corrections.md",unexamined,,,,awaiting-merge
-"research/synthesis/quartic_carrier_proof.md",unexamined,,,,awaiting-merge
-"research/synthesis/quartic_pair_obstruction.md",unexamined,,,,awaiting-merge
-"research/synthesis/quasiprimitive_residual_cycles.md",unexamined,,,,awaiting-merge
-"research/synthesis/quintic_conductor_geometry.md",unexamined,,,,awaiting-merge
-"research/synthesis/quintic_gorenstein_normalizations.md",unexamined,,,,awaiting-merge
-"research/synthesis/quintic_non_gorenstein_toric_sources.md",unexamined,,,,awaiting-merge
-"research/synthesis/quintic_octic_ade_cover_and_triple.md",unexamined,,,,awaiting-merge
-"research/synthesis/quintic_octic_surface_constraints.md",unexamined,,,,awaiting-merge
-"research/synthesis/quintic_toric_center_incidence.md",unexamined,,,,awaiting-merge
-"research/synthesis/rank_strata_and_sextic_lifts.md",unexamined,,,,awaiting-merge
-"research/synthesis/rees_and_vertical_controls.md",unexamined,,,,awaiting-merge
-"research/synthesis/residual_capacity_and_constructions.md",unexamined,,,,awaiting-merge
-"research/synthesis/residual_contact_cycles.md",unexamined,,,,awaiting-merge
-"research/synthesis/residual_global_models.md",unexamined,,,,awaiting-merge
-"research/synthesis/residual_intersections_and_jets.md",unexamined,,,,awaiting-merge
-"research/synthesis/residual_liaison.md",unexamined,,,,awaiting-merge
-"research/synthesis/root_descent_and_conductor_defects.md",unexamined,,,,awaiting-merge
-"research/synthesis/root_pencil_geometry.md",unexamined,,,,awaiting-merge
-"research/synthesis/ruled_surface_degree_criterion.md",unexamined,,,,awaiting-merge
-"research/synthesis/section_defects_and_exceptional_cover_controls.md",unexamined,,,,awaiting-merge
-"research/synthesis/spectral_determinant_schemes.md",unexamined,,,,awaiting-merge
-"research/synthesis/spectral_pushforward_boundary.md",unexamined,,,,awaiting-merge
-"research/synthesis/spectral_pushforward_powers.md",unexamined,,,,awaiting-merge
-"research/synthesis/spectral_torsion_and_syzygy_splitting.md",unexamined,,,,awaiting-merge
-"research/synthesis/square_descent_and_singular_gluing.md",unexamined,,,,awaiting-merge
-"research/synthesis/supported_linkage_operations.md",unexamined,,,,awaiting-merge
-"research/synthesis/toric_sextic_residuals_and_limits.md",unexamined,,,,awaiting-merge
-"research/synthesis/toric_torsion_and_endpoint_contacts.md",unexamined,,,,awaiting-merge
-"research/synthesis/tropical_thickenings_and_endpoint_duality.md",unexamined,,,,awaiting-merge
-"research/synthesis/valuations_and_residual_contact.md",unexamined,,,,awaiting-merge
-"research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-08-family2-quadratic-audit/countercheck.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-08-first-endpoint-audit/countercheck.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-08-principal-e1-d1-audit/coverage-countercheck.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-08-principal-e1-d1-audit/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_all.json",unexamined,,,,awaiting-merge
-"research/validation/2026-10-08-principal-e1-d1-audit/residue-input-comparison.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-09-D5-root-audit/countercheck.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-09-four-A1-family-audit/countercheck.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/bezout-certificates.json",unexamined,,,,awaiting-merge
-"research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/verify_fraction_certificates.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/twenty-one-polynomial-bezout-certificates.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-conormal-independent-audit/verify_conormal.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_L2.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u0.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u1.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u2.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u3.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-nonendpoint-target-fiber-independent-audit/verify_proof_gaps.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-type1-two-family-independent-audit/verify_type1.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-12-type23-six-family-independent-audit/verify_type23.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-cubic-pair-full-independent-audit/verify_binary_contact.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/lambda1-bezout.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/lambda1-compact-denominators.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/lambda1-compact-numerators.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/main-H-coefficients.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/main-S-coefficients.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/probe_lambda1.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/probe_lambda1_compact.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/probe_main.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-h3-proportional/probe_main.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-singular-common-root-charts/explore-pc-resultants.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-singular-common-root-charts/explore-pc.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-u-zero-subaudit/pc-intersection-and-two-root-probe.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-u-zero-subaudit/probe-final.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-evening-u-zero-subaudit/q-two-probe-final.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-remainder.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness-exponent.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-input.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt.gz",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-h3/support32-input.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-h3/support32-witness.txt.gz",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/D0-bezout-pair.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/D0-bezout.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/D0-f3.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/D0-f4.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/R34.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/R35.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/cover-a.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/cover-f2-A.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/cover-f2-C.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/cover-f3-numerator.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/cover-f4-numerator.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/cover-f5-numerator.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/generic-g3.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/generic-g4.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/generic-g5.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/generic-resultant-bezout.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/generic-resultant-pair.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-generalization-quintic-l2/q2-bezout-certificate.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-13-h3-zero-chart-conductor-new/new-exact-support-incidence.json",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01/Delta1-numerator.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01/Jbar-numerator.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01/norm-factor-degree-12.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01/norm-factor-degree-18.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-independent-audit/l2-cover-algebra.m2",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-independent-audit/lambda-binding-audit.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic.py",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-0.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-1.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-2.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-3.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-4.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-5.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-6.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-7.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-8.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/common-coeffContent.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/common-denominator.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-0.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-1.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-2.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-3.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-4.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-5.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-6.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-7.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-8.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-0.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-1.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-2.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-3.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-4.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-5.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-6.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-sextic.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-02-name-repair/global-domain-unit.txt",unexamined,,,,awaiting-merge
-"research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-02-name-repair/global-seventeen-equations.txt",unexamined,,,,awaiting-merge
+research/chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/computations/README.md,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/computations/audit_44_filtered_contact_2026_10_23.py,unexamined,,,,awaiting-merge
+research/computations/audit_dx1_saturation_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/audit_mf6_e1_primitive_2026_10_07.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/audit_quartic_flag_duality_2026_10_24.m2,unexamined,,,,awaiting-merge
+research/computations/audit_scroll_twisted_cubic_equation_space_2026_10_08.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/audit_session_localcoh_endpoint_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/audit_session_mf6_rhalf_conductor_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/audit_session_scroll_gorenstein_generic_2026_10_08.py,consolidate-and-retire,,Length-four Artin-algebra partitions and countermodels to invalid Gorenstein shortcuts; Carrier/conductor investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/audit_session_socle_bridge_frames_2026_10_07.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/audit_sextic_triple_spaces_2026_10_31.py,unexamined,,,,awaiting-merge
+research/computations/audit_z4_lift_2026_10_20.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/c4_conormal.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/computations/c4_root_collision.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/ci_cycle_line_degeneration_2026_10_25.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/ci_cycle_line_degeneration_2026_10_25.py,needs-review,,Explicit ruling-line degeneration identities and boundary conditions; Torus/Hilbert-boundary Argument,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json,unexamined,,,,awaiting-merge
+research/computations/conditional_2_12_cont2_endpoint_models_2026_10_21.py,retain,,Constructs endpoint models incorporating the actual global cubic conditions,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cont2_independent_unit_audit_2026_10_21.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_image_2026_10_21.m2,consolidate-and-retire,,"Cubic-image ideal, degree, resolution, and singular-locus description",Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_reduction_2026_10_20.py,retain,,Constructs the global cubic-obstruction matrix,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_reduction_2026_10_21.json,unexamined,,,,awaiting-merge
+research/computations/conditional_2_12_cubic_reduction_2026_10_21.py,retain,,Constructs the all-strata \\(q\\)-line equations and free-orbit Schur system,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.json,unexamined,,,,awaiting-merge
+research/computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.py,consolidate-and-retire,,Explicit four-candidate reduction and full cubic compatibility conditions,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_collision.py,consolidate-and-retire,,One-pair collision chart and rank-drop boundary,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_reduction_2026_10_21_family.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_cubic_reduction_2026_10_21_family.py,retain,,Parameterizes the free-orbit symbol family,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_elimination_2026_10_20.py,retain,,Constructs the generic \\(\mu_3\\)-orbit coefficient model; also supplies polynomial-arithmetic helpers used by other programs,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_elimination_2026_10_21.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_elimination_2026_10_21.py,retain,,Builds the explicit Schur presentation,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_full_cubic_family_audit_2026_10_21.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_nodal_normalization_2026_10_21.m2,consolidate-and-retire,,Finite normalization of the local nodal family,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation2_2026_10_21.py,retain,,Generates the conic-component continuation model,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_primitive.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_w1.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation2_2026_10_21_conic_w1.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation2_2026_10_21_independent_symbol_audit.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation_2026_10_20.py,retain,,Constructs singular-root factor-coordinate models,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation_2026_10_20_diagonal.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation_2026_10_20_independent_diagonal_audit.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation_2026_10_21.m2,unexamined,,,,awaiting-merge
+research/computations/conditional_2_12_singular_continuation_2026_10_21.py,retain,,Constructs the generic two-node incidence model,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation_2026_10_21_line_component_primitive.m2,consolidate-and-retire,,Primitive cube-root line-component equations,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_singular_continuation_2026_10_21_line_component_w1.m2,consolidate-and-retire,,\\(w=1\\) line-component equations,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_structured_incidence_2026_10_20.py,retain,,Exports the structured candidate and its next lifting conditions,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/conditional_2_12_symbol_map_2026_10_20.json,unexamined,,,,awaiting-merge
+research/computations/conditional_2_12_symbol_map_2026_10_20.py,retain,,Previously retained; exact sextic symbol map,Pasted text(20261115-021215).txt,recovered
+research/computations/derive_normal_quintic_ade_e1_2026_10_13.py,needs-review,,Normal-carrier investigation; necessary ADE census only,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/derive_session_localcoh_e1_d4_principal_extension_2026_10_08.py,needs-review,,Normal-filtration synthesis; moving cubic transition,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/derive_session_rnc_ribbon_net_2026_10_09.py,needs-review,,Actual-coordinate conormal/ribbon-net construction; Existing rational-normal-curve investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/draw_quartic_geometry_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/dx1_saturation_audit_2026_10_07.json,unexamined,,,,awaiting-merge
+research/computations/e2_full4_obstruction_2026-10-05.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/endpoint4_actual_2026_10_25.json,unexamined,,,,awaiting-merge
+research/computations/endpoint4_actual_2026_10_25.py,needs-review,,Four explicit endpoint-four sextic lifts,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/endpoint4_fixed_jet_independent_2026_10_26.json,unexamined,,,,awaiting-merge
+research/computations/endpoint4_fixed_jet_independent_2026_10_26.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/endpoint4_fixed_m2_2026_10_25.json,unexamined,,,,awaiting-merge
+research/computations/endpoint4_fixed_m2_2026_10_25.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/endpoint4_fixed_m2_2026_10_25.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/endpoint4_fixed_m2_2026_10_25.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening-localcoh-family2-cubic-2026-10-13-certificate.json,unexamined,,,,awaiting-merge
+research/computations/evening-localcoh-family2-cubic-2026-10-13-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening-localcoh-family2-cubic-2026-10-13-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening-localcoh-family2-cubic-2026-10-13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening-localcoh-family2-quartic-2026-10-13-certificate.json,unexamined,,,,awaiting-merge
+research/computations/evening-localcoh-family2-quartic-2026-10-13-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening-localcoh-family2-quartic-2026-10-13-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening-localcoh-family2-quartic-2026-10-13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_3_2026_10_13-cleared-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_3_2026_10_13-denominator.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_3_2026_10_13-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_3_2026_10_13-seed.json,unexamined,,,,awaiting-merge
+research/computations/evening_localcoh_boundary_3_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_3_clearing_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_4_2026_10_13-certificate.json,unexamined,,,,awaiting-merge
+research/computations/evening_localcoh_boundary_4_2026_10_13-cleared-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_4_2026_10_13-denominator.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_4_2026_10_13-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_4_2026_10_13-seed.json,unexamined,,,,awaiting-merge
+research/computations/evening_localcoh_boundary_4_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_4_clearing_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_4_eight_2026_10_13-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_4_eight_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_4_minus8over3_2026_10_13-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_4_minus8over3_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_4_quad_2026_10_13-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_4_quad_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_4_zero_2026_10_13-certificate.json,unexamined,,,,awaiting-merge
+research/computations/evening_localcoh_boundary_4_zero_2026_10_13-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_4_zero_2026_10_13-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/evening_localcoh_boundary_4_zero_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/evening_localcoh_boundary_certificate_2026_10_13.py,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/evening_localcoh_family2_exception_fields_2026_10_13.py,unexamined,,,,awaiting-merge
+research/computations/explore_ci_contact_deformations_2026_10_25.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/explore_ci_residual_pencil_2026_10_25.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/explore_localcoh_direction_contact.py,retain,,Constructs the second-contact linear map in a balanced conormal direction; Local-cohomology investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2,consolidate-and-retire,,Rational one-parameter target-septic contact conditions; Quintic-conductor synthesis,Pasted text(20261115-022113).txt,recovered
+research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/explore_session_localcoh_e1_d4_quartic_map_2026_10_08.json,unexamined,,,,awaiting-merge
+research/computations/explore_session_localcoh_e1_d4_quartic_map_2026_10_08.py,retain,,"Constructs full double-quartic maps for the \\(e=1,d_2=4\\) obstruction-zero directions; Normal-filtration synthesis",Pasted text(20261115-022113).txt,recovered
+research/computations/finite_normal_jet_certificate.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/general-localcoh-degree15-sparse-block-2026-10-14-diagnostic.json,unexamined,,,,awaiting-merge
+research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt03.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-certificate.json,unexamined,,,,awaiting-merge
+research/computations/general_localcoh_degree15_polynomial_scaling_design_2026_10_14.py,needs-review,,"Proposed polynomial rescaling scheme, clearly distinguished from a rank certificate; Local-cohomology investigation",Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/generalization_moving_first_relation_operator.py,retain,,Normal-filtration synthesis; moving quadratic relation operator,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/generalization_quadratic_root_curve_universal_incidence.json,unexamined,,,,awaiting-merge
+research/computations/generalization_quadratic_root_curve_universal_incidence.py,retain,,Quadratic-root lifting synthesis; universal Čech incidence,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/generalization_quadratic_root_global_second_model.json,unexamined,,,,awaiting-merge
+research/computations/generalization_quadratic_root_global_second_model.m2,consolidate-and-retire,,Global \\(K_1+K_2\\) dual-compression incidence,Pasted text(20261115-022942).txt,recovered
+research/computations/generalization_quadratic_root_global_second_model.py,unexamined,,,,awaiting-merge
+research/computations/generalization_quadratic_root_seed_second_obstruction.json,unexamined,,,,awaiting-merge
+research/computations/generalization_quadratic_root_seed_second_obstruction.py,retain,,Same synthesis; actual second-order root obstruction,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/generalization_quintic_h2_a4_unit_binding_2026_10_15.c,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2,consolidate-and-retire,,The global monic \\(h=2\\) incidence equations and domain restrictions,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h2_localized_ode_2026_10_15.m2,consolidate-and-retire,,The universal \\(q\_{\mathrm{high}}\\) membership identity and lower-degree ODE,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h2_quotient_norm_2026_10_14.m2,consolidate-and-retire,,Quotient-algebra norm reduction and discriminant factors,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h2_twelve_generator_syzygies_2026_10_15.m2,retain,,Constructs universal syzygies for a shared support system. Same owner,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h2_unified_minors_flint_2026_10_15.c,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h2_unified_spectral_accelerator_2026_10_15.m2,retain,,Constructs a structured action matrix and characteristic-polynomial reduction for the \\(h=2\\) quotient problem. Owner: `research/synthesis/quintic_conductor_geometry.md,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h3_divisibility_certificate.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h3_high_multiplicity.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h3_infinity_support.m2,consolidate-and-retire,,Complete leading-coefficient drop conditions at infinity,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h3_multiplicity_witness.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h3_root_support_cover.m2,consolidate-and-retire,,Structural cover of root-support possibilities,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h3_support32_witness.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_h3_support_32.m2,consolidate-and-retire,,Triple-root/double-root support equations,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_intrinsic_a4_contact_2026_10_14.m2,consolidate-and-retire,,Intrinsic \\(A_4\\) contact coefficient and resulting restriction,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_l2_bezout.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_l2_boundaries.m2,consolidate-and-retire,,\\(q=2\\) and \\(D=0\\) boundary conditions,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_l2_cover.m2,consolidate-and-retire,,Regular-\\(L_2\\) higher-contact equations,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_l2_drops.m2,consolidate-and-retire,,Discriminant and coefficient-drop conditions,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_l2_resultants.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt02.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt05.m2,consolidate-and-retire,,Corrected source-coordinate transformation,Pasted text(20261115-021215).txt,recovered
+research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt06.m2,consolidate-and-retire,,Sextic quotient and reduced Hamiltonian incidence,Pasted text(20261115-021215).txt,recovered
+research/computations/generate_session_localcoh_q13_module_2026_10_07.py,needs-review,,Exact endpoint module construction over a degree-13 number field; local-cohomology investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/generate_session_localcoh_q1_module_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/generate_session_localcoh_q3_module_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/global_ci_small_movement_divisor_audit.py,consolidate-and-retire,,"Complete necessary integer solutions for the specified small-movement range, explicitly excluding geometric existence conclusions; Torus/Hilbert-boundary Argument",Pasted text(20261115-022113).txt,recovered
+research/computations/localcoh-e2-incidence-2026-10-06.py,retain,,Local-cohomology investigation; normalized incidence-chart exporter,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/localcoh-incidence-2026-10-06-certificate.json,unexamined,,,,awaiting-merge
+research/computations/localcoh-incidence-2026-10-06.py,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/localcoh-incidence-bases.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/localcoh-incidence-parity-dual-2026-10-06.json,unexamined,,,,awaiting-merge
+research/computations/localcoh-incidence-parity-dual-2026-10-06.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/localcoh-incidence-parity-dual-2026-10-06.py,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/localcoh-incidence-parity-dual-2026-10-06.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/localcoh-incidence-tensor.m2,retain,,Same investigation; actual quartic multiplication tensor,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/localcoh-incidence-tensor.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/localcoh-symbol-numerators.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/localcoh-symbol-top.json,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/computations/localcoh-symbol-top.py,needs-review,,Same investigation; balanced top-symbol map,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/moving_linear_cubic_compatibility_2026_10_14.py,retain,,Normal-filtration synthesis; cubic obstruction,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/moving_linear_cubic_independent_audit_2026_10_14.py,consolidate-and-retire,,Independently computed cubic Laurent class,Pasted text(20261115-022942).txt,recovered
+research/computations/nodal_cubic_quintic_lattice.py,needs-review,,Finite \\(E_6\\) divisor-class enumeration and the three-disjoint-lines observation; Existing carrier/projection investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/normal_carrier_index_reduction_2026_10_14.py,needs-review,,Integer consequences of the normal-carrier index theorem,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/octic_first_root_source.py,needs-review,,Quadratic-root lifting synthesis; global octic-source filter,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/order_three_four_parameter_slice.py,needs-review,,Order-three/sextic-lifting synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/order_three_sextic_slice.py,needs-review,,Same synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/primitive_curvilinear_degree_budget_2026_10_26.py,consolidate-and-retire,,Necessary primitive degree-budget equation and finite solutions,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/probe_session_nonendpoint_2plus4_families_2026_10_12.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/probe_session_nonendpoint_type23_a4_contact_2026_10_12.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/probe_session_nonendpoint_type23_full_contact_jets_2026_10_12.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/probe_session_nonendpoint_type23_incidence_2026_10_12.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/projection_balanced_discriminant.m2,unexamined,,,,awaiting-merge
+research/computations/projection_elliptic_finite_targets.m2,retain,,,Pasted text(20261115-022942).txt,recovered
+research/computations/projection_incidence_certificates.m2,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/projection_inverse_example.m2,consolidate-and-retire,,Explicit marked-source candidate and its actual failure,Pasted text(20261115-022942).txt,recovered
+research/computations/projection_local_contacts.m2,consolidate-and-retire,,Counterexample to the proposed residual-contact bound; not singleton-admissible,Pasted text(20261115-022942).txt,recovered
+research/computations/projection_palindromic_picard.py,needs-review,,Fixed palindromic target and Picard obstruction gate,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/quadratic_root_diagonal_certificate.py,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/quadratic_root_pure_direction_boundary_certificate.sing,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/quadratic_root_torsion_two_model.py,retain,,Quadratic-root lifting synthesis; Singular incidence generator,Pasted text(20261115-022942).txt,recovered
+research/computations/quadratic_root_torsion_two_rank_strata.sing,retain,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,conflict-resolved
+research/computations/quartic_flag_incidence_2026_10_24.json,unexamined,,,,awaiting-merge
+research/computations/quartic_fourth_extension_cocycles.py,retain,,Intrinsic-fourth-extension synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/quintic_a4_conductor_first_jet.py,unexamined,,,,awaiting-merge
+research/computations/quintic_component_root_witness.py,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/quintic_conductor_cone_identity.py,unexamined,,,,awaiting-merge
+research/computations/quintic_conductor_singular_incidence.py,retain,,Quintic-conductor synthesis; singular-incidence algorithm,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/quintic_conductor_vertex_example.py,consolidate-and-retire,,Singleton length-three fiber with a remaining full-support failure,Pasted text(20261115-022942).txt,recovered
+research/computations/quintic_genus_two_toric_projection.py,consolidate-and-retire,,Explicit toric inverse-support identities,Pasted text(20261115-022942).txt,recovered
+research/computations/quintic_toric_boundary_centers.py,retain,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt; reconciliation-user-message,conflict-resolved
+research/computations/quintic_toric_exception_audit.py,consolidate-and-retire,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,conflict-resolved
+research/computations/quintic_toric_exception_centers.py,consolidate-and-retire,,Exceptional center strata and the explicitly unexcluded locus; Same synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/quintic_toric_finite_centers.json,unexamined,,,,awaiting-merge
+research/computations/quintic_toric_finite_centers.py,retain,,Quintic-conductor synthesis; finite-center gate,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/quintic_vertex_conductor_contact.py,consolidate-and-retire,,Necessary cone-vertex contact family and excluded parameters,Pasted text(20261115-022942).txt,recovered
+research/computations/requirements-quartic-geometry-2026-10-24.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-corner10-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-corner10.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-corner18-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-corner18.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-corner2-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-corner2.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-corners-certificate.json,unexamined,,,,awaiting-merge
+research/computations/session-localcoh-corners.py,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-boundary.py,retain,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-families.json,unexamined,,,,awaiting-merge
+research/computations/session-localcoh-origin-family-1-exception-q1-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-exception-q1-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-exception-q1.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-family-1-exception-q13-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-exception-q13-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-exception-q13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-family-1-exception-q2-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-exception-q2-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-exception-q2.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-family-1-exception-q3-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-exception-q3-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-exception-q3.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-family-1-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-1-polynomial-dual.json,unexamined,,,,awaiting-merge
+research/computations/session-localcoh-origin-family-1-seed.json,unexamined,,,,awaiting-merge
+research/computations/session-localcoh-origin-family-1.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-family-2-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-2-exception-qminus-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-2-exception-qminus-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-2-exception-qminus.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-family-2-exception-qplus-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-2-exception-qplus-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-2-exception-qplus.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-family-2-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session-localcoh-origin-family-2-seed.json,unexamined,,,,awaiting-merge
+research/computations/session-localcoh-origin-family-2.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-family-module.py,retain,,Generic-point module exporter for endpoint families; local-cohomology investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/session-localcoh-origin-generic-dual.py,consolidate-and-retire,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt; reconciliation-user-message,conflict-resolved
+research/computations/session-localcoh-origin-parametrize.py,retain,,Local-cohomology investigation; rational endpoint normalization,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/session_dx1_saturation_2026_10_06.m2,retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/session_dx1_saturation_certificate_2026_10_06.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session_dx1_shifted_membership_2026_10_07.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/computations/session_localcoh_conormal_hankel_2026_10_07.json,unexamined,,,,awaiting-merge
+research/computations/session_localcoh_conormal_hankel_2026_10_07.py,retain,,Constructs conormal cup-product rank matrices; local-cohomology investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/session_localcoh_family2_generic_dual_audit_2026_10_08.json,unexamined,,,,awaiting-merge
+research/computations/session_localcoh_family2_qminus_audit_2026_10_08.json,unexamined,,,,awaiting-merge
+research/computations/session_localcoh_family2_qplus_audit_2026_10_08.json,unexamined,,,,awaiting-merge
+research/computations/session_localcoh_q13_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
+research/computations/session_localcoh_q1_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
+research/computations/session_localcoh_q2_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
+research/computations/session_localcoh_q3_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
+research/computations/session_uniform_e2_hankel.py,needs-review,,,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/sextic_global_jet_cech.py,retain,,Sextic-lifting synthesis; two-chart Čech computation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/stci_arithmetic_beyond_2026_10_29.py,retire,,,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/stci_closeout_degree_ten_independent_2026_10_31.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/stci_game_existence_2026_10_30.m2,consolidate-and-retire,,Elliptic inverse-source example; not an STCI construction,Pasted text(20261115-022942).txt,recovered
+research/computations/stci_game_obstruction_2026_10_30.m2,consolidate-and-retire,,Mixed-weight sextic geometry outside the restricted subalgebra,Pasted text(20261115-022942).txt,recovered
+research/computations/stci_mixed_contact_2026_10_29.m2,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/stci_mixed_contact_audit_2026_10_29.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/stci_mixed_weight_lines_2026_10_30.m2,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/computations/stci_mixed_weight_lines_audit_2026_10_30.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/stci_search_freedom_2026_10_28.m2,retain,,,Pasted text(20261115-022942).txt,recovered
+research/computations/stci_search_quadric_endpoint_2026_10_28.m2,needs-review,,,Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/stci_search_sextic_jets_2026_10_28.json,unexamined,,,,awaiting-merge
+research/computations/stci_search_sextic_jets_2026_10_28.py,retire,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt; reconciliation-user-message,recovered
+research/computations/vahlen_base_locus_discriminant.py,retain,,Projection investigation; cubic base-locus discriminant,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/vahlen_quintic_exact.py,retain,,Same investigation; exact low-degree substitution kernels,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/validate_records.py,retire,,,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/validate_result_records.py,retire,,,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
+research/computations/verify_44_filtered_contact_2026_10_23.py,unexamined,,,,awaiting-merge
+research/computations/verify_44_triple_residual_example_2026_10_26.py,consolidate-and-retire,,"Degree-\\((4,4)\\) triple-curve residual factorization, branches, and endpoint contacts; Torus/sextic-residual Argument",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_all_quartic_primitive_obstruction.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_attachment_module_nonlci_2026_10_27.m2,consolidate-and-retire,,Explicit non-lci primary attachment and Hilbert–Burch presentation; Filtered-equation-comparison Argument,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_c0.py,retain,,Finite-characteristic polynomial and Gröbner-basis utilities for the fixed rational quartic; Quartic specialization computations,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_chow_form.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/verify_chow_pencil_45.py,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2,unexamined,,,,awaiting-merge
+research/computations/verify_ci_cycle_root_collision_valuations_2026_10_25.py,consolidate-and-retire,,"Newton-hull valuation-budget example, without claiming \\(2\\)-adic root classification; Torus/Hilbert-boundary Argument",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_ci_cycle_root_pencil_2026_10_25.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py,retain,,Constructs global quartic tangent maps and the five-node smoothing map; Torus/Hilbert-boundary Argument,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_ci_smooth_residual_boundary_2026_10_25.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_ci_smooth_residual_example_2026_10_25.m2,consolidate-and-retire,,Explicit characteristic-zero pair with smooth residual curve; Torus/Hilbert-boundary Argument,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_cubic_scroll_gauss_dual_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_degree6.py,retain,,Computes degree-six symbolic-square spaces for the rational quartic; Quartic specialization and sextic-lifting synthesis,Pasted text(20261115-021215).txt,recovered
+research/computations/verify_delta_conormal_annihilator_2026_10_24.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_delta_rees_equation_module_2026_10_24.m2,retain,,Computes saturated deformation ideals and their full syzygy modules; Filtered-equation-comparison Argument,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_delta_singular_families_2026_10_24.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_delta_singular_identities_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_dx1_a_half_boundary.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_dx1_p044_residual.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_dx1_saturation_2026_10_07.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_e1_d2_defect.py,consolidate-and-retire,,Determinantal defect-one incidence \\(c_1c_3-c_2^2=0\\) and sample carrier ranks; Normal-filtration synthesis,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_e1_triple_obstruction.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_e2_quartic_incidence.py,retain,,Reconstructs ambient quartic source and first/second jet matrices; Normal-filtration investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_general_conductor_power.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_ideal_filtration_completeness_2026_10_23.py,retain,,Constructs and compares finite-dimensional transverse algebras with identical Hilbert functions; research/arguments/filtered_equation_comparison.md,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_ideal_filtration_counterexamples_2026_10_23.py,consolidate-and-retire,,"Explicit local example showing failure of the proposed initial-ideal product equality, including its five-dimensional quotient algebra; research/arguments/filtered_equation_comparison.md",Pasted text(20261115-021455).txt,recovered
+research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_localcoh_constant_direction_apolar.py,consolidate-and-retire,,Minimum pole-divisor bound for constant-direction triple contact; Local-cohomology investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_localcoh_degree4_allstage_certificate.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_localcoh_degree4_counterexample.py,consolidate-and-retire,,"Coprime quartic family with proportional first symbols and nonconstant ratio; importantly, no assertion of a common local-cohomology ancestor; Existing local-cohomology investigation",Pasted text(20261115-021455).txt,recovered
+research/computations/verify_localcoh_direction_contact_survivor.py,consolidate-and-retire,,"Explicit coprime pair defeating a tangent-contact exclusion, with its limited ancestor calculation; Local-cohomology investigation",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_localcoh_direction_image.py,retain,,Constructs the quartic first-symbol map and direction-rank matrices; Local-cohomology investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_localcoh_finite_principal_parts.m2,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/verify_localcoh_generic_length_model.py,retain,,Implements inverse-system multiplication and annihilator calculations; Local-cohomology investigation,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_localcoh_pure_direction_audit.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_localcoh_quartic_ratio_t_slice.py,retain,,Computes the complete linear ratio-\\(t\\) slice of quartic pairs; Same investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_mf6_defect12.py,retain,,"Constructs moving-chart quadratic cocycles, divisor-clearing matrices, and triple-compatible quartic spaces; Normal-filtration boundary-obstruction synthesis",Pasted text(20261115-021215).txt,recovered
+research/computations/verify_mf6_e1_d1_endpoints.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_infinity.json,unexamined,,,,awaiting-merge
+research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_quadratic.json,unexamined,,,,awaiting-merge
+research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_rational.json,unexamined,,,,awaiting-merge
+research/computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.m2,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py,consolidate-and-retire,,Principal invariant-direction curve equation and its genus-one structural interpretation; Normal-filtration synthesis,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_mf6_e1_defective_structural.py,retain,,"Defective primitive-triple syzygies, cocycle-killing matrices, and sextic specifications; Normal-filtration synthesis",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_mf6_e1_primitive_type04.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_mf6_infinity_universal.py,retain,,Universal second-frame reduction using the full quartic incidence; Same synthesis,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_mf6_type3.py,unexamined,,,,awaiting-merge
+research/computations/verify_mixed46_regular.py,retain,,"Constructs actual quartic normal images for regular \\((4,6)\\) investigations; Sextic-lifting synthesis",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_normal_quartic_simple_elliptic.py,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_normal_rational_carrier_compression.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_p044_survivor_cubic.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_p4_ruled_surfaces_2026_10_24.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_p4_ruled_surfaces_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_primitive_obstruction.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_primitive_quadruple_universal.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/verify_primitive_quartic_factor_audit.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_primitive_triple_parity.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_quadratic_root_rank_fibers.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_quadric_powers.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_quartic_automorphisms_bitangents_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_quartic_dual_intersections_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_quartic_flag_incidence_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_residual_liaison_resolution_2026_10_28.m2,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_dp5_a4_local_chart_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_dx1_independent_2026_10_06.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_e2_defect_profiles.py,retain,,Exhaustive finite enumeration of BF defect profiles subject to specified numerical constraints; Normal-filtration synthesis,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_endpoint_local_ade_2026_10_10.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_genus_one_entire_conductor_2026_10_09.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/verify_session_genus_one_projection_2026_10_09.py,consolidate-and-retire,,Uniform projection identities and the displayed \\(A_3+2A_1\\) family; Projection/elliptic-gluing investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_genus_two_double_horizontal_2026_10_10.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_genus_two_line_positions_2026_10_10.m2,consolidate-and-retire,,Secant and tangent intersection formulas for conductor lines; Quintic-conductor synthesis,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_jbar_zero_phase_audit_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_conormal_splitting_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_e1_simultaneous_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_family2_generic_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_family2_quadratics_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_q13_dual_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_q1_dual_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_q2_dual_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_q3_dual_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_localcoh_quadric_direction_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_mf6_principal_rzero_normality_2026_10_09.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py,consolidate-and-retire,,"Degree-\\((7,7)\\) binary-gradient resultant construction, weighted-degree bound, and explicit statement that the candidate is not an STCI; Normal-filtration synthesis",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.json,unexamined,,,,awaiting-merge
+research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_multiplicity_ten_filtration_2026_10_11.py,consolidate-and-retire,,"Necessary saturated-filtration degree sequences for CI\\((5,8)\\), without geometric realization claims; Normal-filtration synthesis",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_a4_cotangent_rank_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_conormal_cubics_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_cubic_contact_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_diagonal_norm_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_h2_classification_2026_10_13.m2,consolidate-and-retire,,Complete homogeneous quadratic common-factor cover and its restrictions; Quintic-conductor synthesis,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_h3_conductor_2026_10_13.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_h3_zero_chart_support_2026_10_13.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_single_root_quotient_2026_10_13.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonendpoint_target_fibers_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonnormal_mf6_fiber_obstruction.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonnormal_structural.py,consolidate-and-retire,,Ordinary Roman-pinch coordinates and degenerate-pinch countermodel; Carrier/conductor investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_nonreduced_independent_audit.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_normal_carrier_progress.py,retire,,,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_session_normal_independent_audit.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_normal_nonreduced_trees.py,unexamined,,,,awaiting-merge
+research/computations/verify_session_quadratic_conductor_power_descent_2026_10_09.py,consolidate-and-retire,,Nilpotent counterexamples to weakened coefficient conditions; Carrier/conductor investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_quintic_a4_exact_ideal_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_quintic_a4_pair_classification_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_quintic_endpoint_fiber_coefficients_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_quintic_endpoint_subresultant_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_quintic_nonendpoint_structure_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_ramification_counterexample.py,consolidate-and-retire,,Explicit counterexample to scheme-theoretic containment of the ramification locus in a lifted curve; Existing conductor/projection investigation,Pasted text(20261115-021455).txt,recovered
+research/computations/verify_session_ribbon_22_bounded_2026_10_09.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_ribbon_repeated_partitions_2026_10_09.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_scroll_conductor_compression.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_scroll_nongorenstein_cubic_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2,consolidate-and-retire,,Sparse quadric–cubic contact families and exact parameter ideals; Quintic-conductor synthesis,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_three_common_roots_residual_quartic_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_uniform_bf_profiles.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_veronese_allmate_independent.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_veronese_pencils.py,consolidate-and-retire,,"Explicit normal forms, fibers, and conductor jets for Veronese pencils; Carrier/conductor investigation",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_session_veronese_singular_pencil.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_special_lines_planes_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_split22_boundary_lift.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_split22_boundary_survivor.py,consolidate-and-retire,,"Previously missed first-normal split-\\([2,2]\\) boundary and the limitation that it does not construct an STCI; Normal-filtration investigation",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_split22_chart_audit.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_split22_finite_reduction.py,consolidate-and-retire,,Higher-jet finite reduction and surviving \\(h=-1/2\\) line; Same investigation,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_split4_nonramified.py,retain,,"Reusable `image_equations`, `normal_matrix`, and `lift_normal` functions for higher-jet continuation; Normal-filtration investigation",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_stci_search_nodal_m2_2026_10_28.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_typea45.py,consolidate-and-retire,,"Terminal \\(H^1(\mathcal O(-9))\\) obstruction for type-A \\((4,5)\\) quotients; research/supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_typeb45_boundary.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_typeb45_corner.py,consolidate-and-retire,,Rank-zero type-B corner parameters and local flatness obstruction; Same supplement,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_typeb45_dense.py,retain,,"Complete moving-coordinate formal-neighborhood calculation for the dense type-B \\((4,5)\\) chart; research/supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md",Pasted text(20261115-022113).txt,recovered
+research/computations/verify_typeb45_endpoint_certificate.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_z4_general_mechanism_2026_10_21.py,retire,,,Pasted text(20261115-021215).txt,recovered
+research/computations/verify_z4_global_quartics_2026_10_20.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_z4_local_structure_2026_10_20.m2,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_z4_quartic_obstruction_2026_10_20.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_z4_raw_source_decomposition.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/computations/verify_z4_stci_consequences_2026_10_21.py,retire,,,Pasted text(20261115-022113).txt,recovered
+research/questions/cartier_projection_models.md,consolidate-and-retire,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/audit-mf6-e1-principal-raw-minors-2026-10-08.json,retire,,Exclude session-mf6-e1-principal-contact-2026-10-08.json,phase2_rules.json,rule-provisional-dependency-check
+research/scratch/degree6/verify_mixed45_reduction.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.json,retire,,Exclude session-mf6-e1-principal-contact-2026-10-08.json,phase2_rules.json,rule-provisional-dependency-check
+research/scratch/derive-mf6-principal-weighted-kernel-2026-10-08.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/mf6-principal-weighted-kernel-2026-10-08.json,retire,,Exclude session-mf6-e1-principal-contact-2026-10-08.json,phase2_rules.json,rule-provisional-dependency-check
+research/scratch/mixed46/local_lattice.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/primitive47/obstruction.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/primitive47universal/general_triple_contact.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/primitive47universal/generate.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/primitive47universal/quartic_contact.json,retire,,Exclude session-mf6-e1-principal-contact-2026-10-08.json,phase2_rules.json,rule-provisional-dependency-check
+research/scratch/primitive47universal/quartic_contact.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/session-mf6-e1-principal-contact-2026-10-08.json,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
+research/scratch/session-mf6-e1-principal-minors-2026-10-08.json,retire,,Exclude session-mf6-e1-principal-contact-2026-10-08.json,phase2_rules.json,rule-provisional-dependency-check
+research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json,retire,,Exclude session-mf6-e1-principal-contact-2026-10-08.json,phase2_rules.json,rule-provisional-dependency-check
+research/supplements/ACTUAL_EQUATION_SPACES.md,consolidate-and-retire,,research/synthesis/global_equations_and_constructions.md`; saturated homogeneous-power dimensions and fixed-quadric restrictions,Pasted text(20261115-022942).txt,recovered
+research/supplements/ACTUAL_SEXTIC_MATE_CERTIFICATES.md,consolidate-and-retire,,Consolidate and retire; Seven selected fixed-carrier mate calculations; transfer exact scope and residual-line rigidity to sextic-lifting synthesis,Pasted text(20261115-022942).txt,recovered
+research/supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md,consolidate-and-retire,,Global-equations synthesis and characteristic-transfer Argument,Pasted text(20261115-022942).txt,recovered
+research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md,consolidate-and-retire,,Filtered-equation-comparison Argument,Pasted text(20261115-022942).txt,recovered
+research/supplements/CARRIER_TEST_CURVES.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/CHOW_PENCIL_MULTIPLICITY_TESTS.md,consolidate-and-retire,,"Same synthesis; restricted Chow-pencil multiplicity tests, retaining the limitation that one pencil is not exhaustive",Pasted text(20261115-022942).txt,recovered
+research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md,consolidate-and-retire,,Same synthesis; exceptional loci and conditional sextic exclusions,Pasted text(20261115-022942).txt,recovered
+research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md,consolidate-and-retire,,"Same synthesis; node torsion, conductor ramification, and gluing constraints",Pasted text(20261115-022942).txt,recovered
+research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md,consolidate-and-retire,,"research/synthesis/rank_strata_and_sextic_lifts.md`; symbol elimination, structured incidence, and cubic-jet realization gate",Pasted text(20261115-022942).txt,recovered
+research/supplements/CONDUCTOR_DESCENT_ALGEBRA.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/CURVILINEAR_GENUS_AND_DEFECTS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md,consolidate-and-retire,,Normal-filtration synthesis and existing moving-root investigation,Pasted text(20261115-022942).txt,recovered
+research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md,consolidate-and-retire,,Normal-Koszul and punctual-comparison Arguments,Pasted text(20261115-022942).txt,recovered
+research/supplements/DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/E2_PRIMITIVE_QUARTIC_INCIDENCE.md,consolidate-and-retire,,Normal-filtration synthesis,Pasted text(20261115-022942).txt,recovered
+research/supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/ENDPOINT_FOUR_ACTUAL_SEXTICS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/EQUIVARIANT_DEGREE_BOUNDS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md,consolidate-and-retire,,Moving-root investigation and filtered-equation Argument,Pasted text(20261115-022942).txt,recovered
+research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md,consolidate-and-retire,,Existing global-equations and normal-filtration synthesis; remove historical audit narration,Pasted text(20261115-022942).txt,recovered
+research/supplements/FROBENIUS_POWER_LIFTING_PRECISION.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_ONE_211_PROJECTION_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md,consolidate-and-retire,,research/synthesis/quartic_carrier_proof.md`; any mathematical conditions absent from the source partition proof,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_AMBIENT_CONIC_MODEL_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_BISECTION_DESCENT.md,retain,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,recovered
+research/supplements/GENUS_TWO_BISECTION_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_BISECTION_THREE_CENTER_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_ENDPOINT_LOCAL_CORRECTIONS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_ENDPOINT_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_ENTIRE_CONDUCTOR_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_MARKING_AND_SECTION_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_NONENDPOINT_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_TRISECANT_CARRIER_PROOF.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/GENUS_TWO_WEIGHTED_NORMALIZATION.md,retain,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,conflict-resolved
+research/supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md,consolidate-and-retire,,Filtered-equation-comparison Argument,Pasted text(20261115-022942).txt,recovered
+research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md,consolidate-and-retire,,Same Argument; preserve counterexample to the general first-symbol correspondence,Pasted text(20261115-022942).txt,recovered
+research/supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md,consolidate-and-retire,,"Existing normal-filtration and filtered-equation Arguments; preserve the distinct hypotheses of each \\((4,4)\\) route",Pasted text(20261115-022942).txt,recovered
+research/supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md,consolidate-and-retire,,Local-cohomology and normal-filtration investigations; separate mixed-contact survivor from MF6 restrictions,Pasted text(20261115-022942).txt,recovered
+research/supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/LOCAL_COHOMOLOGY_CONORMAL_GEOMETRY.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md,consolidate-and-retire,,Local-cohomology conormal investigation; complete rational endpoint exception-field coverage,Pasted text(20261115-022942).txt,recovered
+research/supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md,consolidate-and-retire,,Same investigation; explicit direction-space and apolarity counterexamples,Pasted text(20261115-022942).txt,recovered
+research/supplements/MF6_PRINCIPAL_CANDIDATE_LOCI.md,consolidate-and-retire,,Normal-filtration synthesis; finite necessary weighted-resultant locus,Pasted text(20261115-022942).txt,recovered
+research/supplements/MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/MIXED_DEGREE_NORMAL_FORMS_AND_POLES.md,consolidate-and-retire,,Filtered-equation Argument; actual generator changes versus rational normal-symbol ratios,Pasted text(20261115-022942).txt,recovered
+research/supplements/MIXED_SEXTIC_CONTACT.md,consolidate-and-retire,,"Torus/sextic-residual Argument; retain integrality, branch-order bounds, and residual floor, not merely the all-degree exclusion",Pasted text(20261115-022942).txt,recovered
+research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md,unexamined,,,,awaiting-merge
+research/supplements/MOVING_POWER_SECOND_RELATION.md,retain,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,recovered
+research/supplements/MULTIPLICITY_MIXED46_AND_MF6.md,consolidate-and-retire,,Normal-filtration synthesis; exact layer lattices and separate regular-ratio restrictions,Pasted text(20261115-022942).txt,recovered
+research/supplements/MULTIPLICITY_SIX_QUARTIC_CONTACT.md,consolidate-and-retire,,Same synthesis; complete specified MF6 contact-family exclusion,Pasted text(20261115-022942).txt,recovered
+research/supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/NONENDPOINT_CUBIC_CONTACT_AND_FAMILIES.md,consolidate-and-retire,,Quintic-conductor synthesis; eight-family classification,Pasted text(20261115-022942).txt,recovered
+research/supplements/NONENDPOINT_CUBIC_PAIR_COMPLETION.md,consolidate-and-retire,,Same synthesis; cubic-pair coefficient completion,Pasted text(20261115-022942).txt,recovered
+research/supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/NONENDPOINT_SINGLE_ROOT_INCIDENCE.md,consolidate-and-retire,,Same synthesis; actual quotient fibers and root incidence,Pasted text(20261115-022942).txt,recovered
+research/supplements/NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md,consolidate-and-retire,,"Same synthesis; full inverse support, including isolated inverse points",Pasted text(20261115-022942).txt,recovered
+research/supplements/NORMALIZATION_SECTION_AND_MODULE_DESCENT.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md,consolidate-and-retire,,Same Argument and torus/Hilbert-boundary Argument,Pasted text(20261115-022942).txt,recovered
+research/supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md,consolidate-and-retire,,Normal-filtration synthesis,Pasted text(20261115-022942).txt,recovered
+research/supplements/NORMAL_CARRIER_DIVISOR_GEOMETRY.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md,consolidate-and-retire,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,recovered
+research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS.md,consolidate-and-retire,,Quartic-carrier synthesis and normal-carrier investigation,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT7_MF6_AND_NONNORMAL_STRUCTURES.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/POLYNOMIAL_DUALS_AND_AFFINE_PENCILS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/PRIME_TO_P_POWER_EXTRACTION.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md,consolidate-and-retire,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,conflict-resolved
+research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md,consolidate-and-retire,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,recovered
+research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUADRATIC_CONDUCTOR_POWER_DESCENT.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_CONORMAL_AND_CONTACT.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_DUAL_SCHEMES.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_PROJECTION_AND_SPECIAL_GEOMETRY.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_PROJECTION_MODULI.md,consolidate-and-retire,,Global-equations synthesis; characteristic-two stabilizer and projection-center distinctions,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md,retain,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,recovered
+research/supplements/QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_SCROLL_REDUCED_CONDUCTORS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUARTIC_SINGULAR_SUPPORT_AND_SINGLETON_FIBERS.md,consolidate-and-retire,,Quartic-carrier synthesis; reduced support versus nonreduced conductor,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md,consolidate-and-retire,,Quintic-conductor synthesis; actual support and sextic-incidence conditions,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md,consolidate-and-retire,,Same synthesis; necessary factorization and low-pole conditions,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md,consolidate-and-retire,,Same synthesis; retain the unresolved \\(j=0\\) branch and the upstream reciprocal-coordinate error,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md,consolidate-and-retire,,Same synthesis; open-domain logarithmic ODE,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md,consolidate-and-retire,,Same synthesis; spectral operators and generator equations,Pasted text(20261115-022942).txt,recovered
+research/supplements/QUINTIC_H3_SUPPORT_EXCLUSION.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/RATIONAL_QUARTICS_IN_POSITIVE_CHARACTERISTIC.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md,consolidate-and-retire,,Filtered-equation-comparison Argument,Pasted text(20261115-022942).txt,recovered
+research/supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md,consolidate-and-retire,,research/synthesis/quasiprimitive_residual_cycles.md`; only material not already present,Pasted text(20261115-022942).txt,recovered
+research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md,consolidate-and-retire,,Normal-filtration synthesis; preserve arbitrary-conormal extension,Pasted text(20261115-022942).txt,recovered
+research/supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md,retain,,Retain; Complete classification of the four genus-zero normalization types and singular-cone exclusion,Pasted text(20261115-022942).txt,recovered
+research/supplements/SEXTIC_ADE_REDUCTION.md,consolidate-and-retire,,Sextic-pair synthesis; retain its additional ADE hypothesis and remaining primitive-triple case,Pasted text(20261115-022942).txt,recovered
+research/supplements/SEXTIC_PAIR_REDUCTION.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/SOCLE_AND_LOEWY_BOUNDS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/SPECIAL_PLANE_AND_LINE_SECTIONS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md,consolidate-and-retire,,Consolidate and retire; Two distinct necessary-restriction problems; distribute to sextic-residual and normal-filtration owners,Pasted text(20261115-022942).txt,recovered
+research/supplements/SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.md,consolidate-and-retire,,Torus/sextic-residual Argument; entire two-ramified family and surviving line,Pasted text(20261115-022942).txt,recovered
+research/supplements/STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/TAME_PROJECTION_SECTIONS.md,retain,,Retain; Finite-flat projection algebra and endpoint-pole theorem in characteristic zero or odd characteristic,Pasted text(20261115-022942).txt,recovered
+research/supplements/THICK_SEXTIC_SOURCE_SPACES.md,consolidate-and-retire,,Sextic-lifting synthesis; 23-dimensional source and distinct thick–thick obstruction,Pasted text(20261115-022942).txt,recovered
+research/supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md,consolidate-and-retire,,Consolidate and retire; Twisted-cubic positive control and abstract pinching negative control; transfer to fixed-carrier descent,Pasted text(20261115-022942).txt,recovered
+research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/VERONESE_QUARTIC_PROJECTIONS.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md,consolidate-and-retire,,Prescribed-Z4 Result and filtered-equation Argument; invariant full extension versus coordinate summands,Pasted text(20261115-022942).txt,recovered
+research/supplements/Z4_LIFTING_AND_DEFORMATION.md,retain,,,Pasted text(20261115-022942).txt,recovered
+research/synthesis/01-problem-and-curve.md,unexamined,,,,awaiting-merge
+research/synthesis/02-two-surfaces.md,unexamined,,,,awaiting-merge
+research/synthesis/03-infinitesimal-geometry.md,unexamined,,,,awaiting-merge
+research/synthesis/04-carriers.md,unexamined,,,,awaiting-merge
+research/synthesis/05-exclusions.md,unexamined,,,,awaiting-merge
+research/synthesis/README.md,unexamined,,,,awaiting-merge
+research/synthesis/actual_octic_root_lift_comparison.md,unexamined,,,,awaiting-merge
+research/synthesis/arithmetic_root_collision.md,unexamined,,,,awaiting-merge
+research/synthesis/blowup_residual_geometry.md,unexamined,,,,awaiting-merge
+research/synthesis/bounded_equation_certificates.md,unexamined,,,,awaiting-merge
+research/synthesis/carrier_complement_and_collision_controls.md,unexamined,,,,awaiting-merge
+research/synthesis/carrier_conductor_differential_comparison.md,unexamined,,,,awaiting-merge
+research/synthesis/chow_bundle_maps.md,unexamined,,,,awaiting-merge
+research/synthesis/coefficient_valuations.md,unexamined,,,,awaiting-merge
+research/synthesis/complement_section_obstructions.md,unexamined,,,,awaiting-merge
+research/synthesis/contact_duality_and_global_descent.md,unexamined,,,,awaiting-merge
+research/synthesis/contact_jacobians_and_hamiltonian_actions.md,unexamined,,,,awaiting-merge
+research/synthesis/cox_fiber_and_power_defects.md,unexamined,,,,awaiting-merge
+research/synthesis/elliptic_double_inverse_construction.md,unexamined,,,,awaiting-merge
+research/synthesis/endpoint_valuations.md,unexamined,,,,awaiting-merge
+research/synthesis/explicit_quartic_residuals.md,unexamined,,,,awaiting-merge
+research/synthesis/finite_normal_jets.md,unexamined,,,,awaiting-merge
+research/synthesis/finite_pullback_and_matrix_obstructions.md,unexamined,,,,awaiting-merge
+research/synthesis/fixed_boundary_smoothing.md,unexamined,,,,awaiting-merge
+research/synthesis/fixed_surface_and_endpoint_algebras.md,unexamined,,,,awaiting-merge
+research/synthesis/foliation_and_affine_degree_mechanisms.md,unexamined,,,,awaiting-merge
+research/synthesis/formal-normal-intersection.md,unexamined,,,,awaiting-merge
+research/synthesis/formal_residual_visibility.md,unexamined,,,,awaiting-merge
+research/synthesis/generic_contact_depth.md,unexamined,,,,awaiting-merge
+research/synthesis/genus_and_threshold_limits.md,unexamined,,,,awaiting-merge
+research/synthesis/global_equation_jets.md,unexamined,,,,awaiting-merge
+research/synthesis/global_equations_and_constructions.md,unexamined,,,,awaiting-merge
+research/synthesis/global_lifting_interfaces.md,unexamined,,,,awaiting-merge
+research/synthesis/horizontal_blowup_recursions.md,unexamined,,,,awaiting-merge
+research/synthesis/intrinsic_fourth_extension.md,unexamined,,,,awaiting-merge
+research/synthesis/jaffe_type_and_generic_contact.md,unexamined,,,,awaiting-merge
+research/synthesis/marked_deformation_and_absorption.md,unexamined,,,,awaiting-merge
+research/synthesis/normal_carrier_compression.md,unexamined,,,,awaiting-merge
+research/synthesis/normal_filtration_boundary_obstructions.md,unexamined,,,,awaiting-merge
+research/synthesis/normalization_conductor_phase2_addendum.md,unexamined,,,,awaiting-merge
+research/synthesis/normalization_conductor_projection.md,unexamined,,,,awaiting-merge
+research/synthesis/normalization_indices_and_power_descent.md,unexamined,,,,awaiting-merge
+research/synthesis/normalization_residual_capacity.md,unexamined,,,,awaiting-merge
+research/synthesis/numerical_surface_pullback.md,unexamined,,,,awaiting-merge
+research/synthesis/order_three_roots_and_sextic_lifts.md,unexamined,,,,awaiting-merge
+research/synthesis/pencil_milnor_budget.md,unexamined,,,,awaiting-merge
+research/synthesis/pencil_principalization_limits.md,unexamined,,,,awaiting-merge
+research/synthesis/polarization_roots_and_section_defects.md,unexamined,,,,awaiting-merge
+research/synthesis/prescribed_singular_carriers.md,unexamined,,,,awaiting-merge
+research/synthesis/projected_thickening_section_defects.md,unexamined,,,,awaiting-merge
+research/synthesis/projection_and_elliptic_gluing.md,unexamined,,,,awaiting-merge
+research/synthesis/punctual_quadric_extensions.md,unexamined,,,,awaiting-merge
+research/synthesis/quadratic_covers_and_conductor_descent.md,unexamined,,,,awaiting-merge
+research/synthesis/quadratic_root_torsion_two_lifting.md,unexamined,,,,awaiting-merge
+research/synthesis/quadric_modification_and_global_corrections.md,unexamined,,,,awaiting-merge
+research/synthesis/quartic_carrier_proof.md,unexamined,,,,awaiting-merge
+research/synthesis/quartic_pair_obstruction.md,unexamined,,,,awaiting-merge
+research/synthesis/quasiprimitive_residual_cycles.md,unexamined,,,,awaiting-merge
+research/synthesis/quintic_conductor_geometry.md,unexamined,,,,awaiting-merge
+research/synthesis/quintic_gorenstein_normalizations.md,unexamined,,,,awaiting-merge
+research/synthesis/quintic_non_gorenstein_toric_sources.md,unexamined,,,,awaiting-merge
+research/synthesis/quintic_octic_ade_cover_and_triple.md,unexamined,,,,awaiting-merge
+research/synthesis/quintic_octic_surface_constraints.md,unexamined,,,,awaiting-merge
+research/synthesis/quintic_toric_center_incidence.md,unexamined,,,,awaiting-merge
+research/synthesis/rank_strata_and_sextic_lifts.md,unexamined,,,,awaiting-merge
+research/synthesis/rees_and_vertical_controls.md,unexamined,,,,awaiting-merge
+research/synthesis/residual_capacity_and_constructions.md,unexamined,,,,awaiting-merge
+research/synthesis/residual_contact_cycles.md,unexamined,,,,awaiting-merge
+research/synthesis/residual_global_models.md,unexamined,,,,awaiting-merge
+research/synthesis/residual_intersections_and_jets.md,unexamined,,,,awaiting-merge
+research/synthesis/residual_liaison.md,unexamined,,,,awaiting-merge
+research/synthesis/root_descent_and_conductor_defects.md,unexamined,,,,awaiting-merge
+research/synthesis/root_pencil_geometry.md,unexamined,,,,awaiting-merge
+research/synthesis/ruled_surface_degree_criterion.md,unexamined,,,,awaiting-merge
+research/synthesis/section_defects_and_exceptional_cover_controls.md,unexamined,,,,awaiting-merge
+research/synthesis/spectral_determinant_schemes.md,unexamined,,,,awaiting-merge
+research/synthesis/spectral_pushforward_boundary.md,unexamined,,,,awaiting-merge
+research/synthesis/spectral_pushforward_powers.md,unexamined,,,,awaiting-merge
+research/synthesis/spectral_torsion_and_syzygy_splitting.md,unexamined,,,,awaiting-merge
+research/synthesis/square_descent_and_singular_gluing.md,unexamined,,,,awaiting-merge
+research/synthesis/supported_linkage_operations.md,unexamined,,,,awaiting-merge
+research/synthesis/toric_sextic_residuals_and_limits.md,unexamined,,,,awaiting-merge
+research/synthesis/toric_torsion_and_endpoint_contacts.md,unexamined,,,,awaiting-merge
+research/synthesis/tropical_thickenings_and_endpoint_duality.md,unexamined,,,,awaiting-merge
+research/synthesis/valuations_and_residual_contact.md,unexamined,,,,awaiting-merge
+research/validation/2026-10-08-family2-quadratic-audit/actual-tensor-reconstruction.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-08-family2-quadratic-audit/countercheck.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-08-first-endpoint-audit/countercheck.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-08-principal-e1-d1-audit/coverage-countercheck.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-08-principal-e1-d1-audit/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_all.json,retire,,Exclude new-exact-support-incidence.json,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-08-principal-e1-d1-audit/residue-input-comparison.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-09-D5-root-audit/countercheck.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-09-four-A1-family-audit/countercheck.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/bezout-certificates.json,retire,,Exclude new-exact-support-incidence.json,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/verify_fraction_certificates.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/twenty-one-polynomial-bezout-certificates.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-12-nonendpoint-conormal-independent-audit/verify_conormal.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_L2.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u0.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u1.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u2.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u3.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-12-nonendpoint-target-fiber-independent-audit/verify_proof_gaps.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-12-type1-two-family-independent-audit/verify_type1.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-12-type23-six-family-independent-audit/verify_type23.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-cubic-pair-full-independent-audit/verify_binary_contact.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-h3-proportional/lambda1-bezout.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-evening-h3-proportional/lambda1-compact-denominators.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-evening-h3-proportional/lambda1-compact-numerators.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-evening-h3-proportional/main-H-coefficients.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-evening-h3-proportional/main-S-coefficients.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-evening-h3-proportional/probe_lambda1.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-h3-proportional/probe_lambda1_compact.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-h3-proportional/probe_main.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-h3-proportional/probe_main.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-singular-common-root-charts/explore-pc-resultants.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-singular-common-root-charts/explore-pc.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-u-zero-subaudit/pc-intersection-and-two-root-probe.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-u-zero-subaudit/probe-final.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-evening-u-zero-subaudit/q-two-probe-final.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-remainder.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness-exponent.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-input.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt.gz,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-h3/support32-input.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-h3/support32-witness.txt.gz,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/D0-bezout-pair.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/D0-bezout.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/D0-f3.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/D0-f4.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/R34.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/R35.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/cover-a.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/cover-f2-A.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/cover-f2-C.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/cover-f3-numerator.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/cover-f4-numerator.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/cover-f5-numerator.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/generic-g3.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/generic-g4.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/generic-g5.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/generic-resultant-bezout.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/generic-resultant-pair.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-generalization-quintic-l2/q2-bezout-certificate.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-13-h3-zero-chart-conductor-new/new-exact-support-incidence.json,unexamined,,,,awaiting-merge
+research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01/Delta1-numerator.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01/Jbar-numerator.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01/norm-factor-degree-12.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-h2-quotient-norm/attempt-01/norm-factor-degree-18.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-14-quintic-independent-audit/l2-cover-algebra.m2,unexamined,,,,awaiting-merge
+research/validation/2026-10-14-quintic-independent-audit/lambda-binding-audit.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic.py,unexamined,,,,awaiting-merge
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-0.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-1.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-2.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-3.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-4.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-5.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-6.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-7.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/F-coefficient-8.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/common-coeffContent.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-02/common-denominator.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-0.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-1.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-2.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-3.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-4.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-5.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-6.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-7.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-05-correct-coordinate/F-source-coefficient-8.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-0.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-1.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-2.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-3.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-4.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-5.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-coefficient-6.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-14-quintic-logarithmic-support/attempt-06-sextic-quotient/Q-sextic.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-02-name-repair/global-domain-unit.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
+research/validation/2026-10-15-quintic-h2-global-monic-ode/attempt-02-name-repair/global-seventeen-equations.txt,retire,,Retain any input required by retained methods,phase2_rules.json,rule-provisional-dependency-check
