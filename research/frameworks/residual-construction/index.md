@@ -23,6 +23,21 @@ attachment, and actual equation mechanisms. They are useful both for
 constructing containing intersections and for proving that a specified
 source always leaves residual degree.
 
+## Mathematical ownership and retrieval
+
+This Framework owns the residual cycle of an **actual proper pair**, its
+generic length, attachment, and deformation or absorption. Start with
+[generic length and common normals](two_surfaces.md#21-generic-length-and-common-normal-directions),
+then [the distinct residual mechanisms](residual_geometry.md#residual-statements-and-their-distinct-mechanisms)
+and [attachment versus global constructions](residual_geometry.md#attachment-and-actual-global-constructions).
+The [formal-normal Framework](../formal-normal-geometry/index.md) owns
+filtered local ideals and simultaneous carrier compatibility; the
+[global-equation Framework](../global-equation-realization/index.md) owns
+actual homogeneous source realization. Neither local contact nor an
+exceptional-divisor curve alone proves projective residual support.
+The [spectral Framework](../spectral-roots/index.md) owns Picard-root input;
+this Framework owns the residual-degree consequences of an actual octic pair.
+
 ## How residual degree can change
 
 The [explicit quartic pairs](../../arguments/residuals/explicit_quartic_residuals.md)
