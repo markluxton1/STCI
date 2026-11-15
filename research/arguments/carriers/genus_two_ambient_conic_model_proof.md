@@ -9,39 +9,15 @@ was superseded by the full independent proof reproduced here.
 
 ## 1. Inputs and exact conclusion
 
-Work over an algebraically closed field of characteristic zero. Let
-`X` be an integral nonnormal quartic surface in `P3`, let `nu:S->X`
-be its finite normalization, and let `sigma:M->S` be its minimal smooth
-resolution. Set `H=nu*O_X(1)` and `L=sigma*H`. Accept the established
-sectional-genus-two inputs:
+Work over algebraically closed characteristic-zero \(k\). Let \(X\subset\mathbf P^3\) be an integral nonnormal quartic, \(\nu:S\to X\) its finite normalization, \(\sigma:M\to S\) its minimal smooth resolution, \(H=\nu^*\mathcal O_X(1)\), and \(L=\sigma^*H\). The accepted genus-two inputs are
+\[
+M\text{ rational},\quad L^2=4,\quad K_M\cdot L=-2,\quad
+f=K_M+L,\quad h^0(f)=2,\quad |f|\text{ complete and basepoint-free},
+\quad f^2=0,\quad L\cdot f=2,
+\]
+with the actual \(|L|\) morphism birational onto \(X\). The [entire-conductor theorem](genus_two_entire_conductor_proof.md) gives a **reduced line** \(\Gamma\), conductor ideal \(\nu_*\omega_S\), \(R\sigma_*\omega_M=\omega_S\), and generic quartic order exactly two along \(\Gamma\). No mate is assumed.
 
-    M rational,     L^2=4,     K_M.L=-2,
-    f=K_M+L,        h0(f)=2,
-    |f| complete and basepoint free,
-    f^2=0,          L.f=2,
-    the actual |L| morphism is birational onto X.
-
-Also accept the independently proved [entire conductor theorem](genus_two_entire_conductor_proof.md):
-the actual conductor `Gamma` is a reduced line, its ideal on `X` is
-`I=nu_*omega_S`, resolution duality gives `R sigma_*omega_M=omega_S`,
-and the generic order of the quartic equation along `Gamma` is exactly
-two.
-These inputs hold in the accepted genus-two normalization lane for a
-quartic containing fixed `C0`; no mate is used in them.
-
-The conclusions are:
-
-* The actual planes-through-line rational map agrees with the complete
-  adjoint pencil and extends everywhere on `M`.
-* The actual morphism `M->X->P3` lifts to `B=Bl_Gamma(P3)`.
-* Its image is the integral strict transform `T` of `X`, of class
-  `4H_B-2E_B`. This `T` is normal Gorenstein with only Du Val
-  singularities, and `M->T` is its crepant resolution.
-* The ruling of `B` restricts to the actual plane-conic family on `T`.
-
-This conclusion concerns `T`. It does not show the original
-normalization `S` is Gorenstein, and does not make its adjoint pencil
-descend through possible horizontal exceptional contractions.
+The actual planes-through-\(\Gamma\) pencil equals the complete adjoint pencil and extends on \(M\). The map lifts to \(B=\operatorname{Bl}_\Gamma\mathbf P^3\), with integral strict-transform image \(T\sim4H_B-2E_B\); \(T\) is normal Gorenstein with Du Val singularities, \(M\to T\) is crepant, and the ruling of \(B\) gives the actual plane-conic family. This concerns **\(T\)**, not Gorensteinness of \(S\) or descent of the adjoint pencil through horizontal contractions.
 
 ## 2. The natural canonical identifications preserve the actual ratios
 
