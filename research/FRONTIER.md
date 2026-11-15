@@ -28,7 +28,7 @@ this lane priority over independent constructions or obstructions.
 The completed contributions below leave several different realization
 questions. The recommendations select bounded next tests from those actual
 inputs; they do not assign a new research round or treat one source as
-exhaustive. Their exact committed scope is recorded in the integration commit.
+exhaustive.
 The [selection guide](RESEARCH_DECISION_GUIDE.md) explains what the combined
 results change and how to choose between constructive and obstructive aims.
 
@@ -57,7 +57,8 @@ results change and how to choose between constructive and obstructive aims.
 | Finite jets and equation search | [Intrinsic global jets](synthesis/global_equation_jets.md), [bounded certificates](synthesis/bounded_equation_certificates.md) | Use actual source-image filtrations and full nonlinear corrections; existential finite realization is distinct from a uniform effective witness-degree bound |
 | Contact and tropical descent | [Endpoint-to-limit comparison](results/intrinsic_limits_endpoint_fibers.md), [constant-quotient equation criterion](results/constant_quotient_equation_criterion.md#statement) | Test surviving high-contact or noncurvilinear endpoint fibers against actual sextic sources in one moving rank-nine family satisfying a divisor profile. Recover the full opposite-endpoint algebra and moving generator incidence |
 | Marked dual/ruled geometry | [Fixed geometry](synthesis/01-problem-and-curve.md) | Construct a proved map from actual equation/conductor data to marked contact schemes, retaining nilpotents and endpoint corrections |
-| Characteristic comparison | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [endpoint image comparison](arguments/torus_embedded_quotients.md), [effective transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md) | Analyze the integral image and base-change defect in a declared embedded quotient family; quotient flatness alone does not give flat projective images. All-pair degree growth remains conditional, and fixed-carrier or prescribed-lift restrictions do not exclude unrelated presentations |
+| Prescribed arithmetic lifts | [Explicit equations](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [root specialization](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md#root-specialization-and-the-remaining-endpoint-defects) | [Compare the lower-root defect with actual intersection data](frameworks/arithmetic_supported_lifts.md#bridges) |
+| Varying pairs across characteristics | [Integral equation incidence](synthesis/arithmetic_root_collision.md#the-full-simultaneous-equation-incidence), [effective transfer](supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md) | Quartic-carrier mate degree growth is unconditional. Growth for unrestricted pairs needs the characteristic-zero nonexistence hypothesis |
 
 For a hypothetical characteristic-zero sole-support pair of degrees
 \(5\le a\le b\), let \(\delta\) be the length of its finite quadratic
@@ -318,12 +319,10 @@ retain their value as bounded carrier investigations.
    is the degree-(5,8) target, not proof of descent of all powers. A negative
    answer closes this toric source, not every non-Gorenstein normalization.
 
-The arithmetic mechanism offers another precise question: can its required
-positive endpoint root defect occur in the actual complete-intersection,
-annihilator, linkage and duality data? A useful comparison must add information
-beyond the genus identity. The prescribed `p=7,n=7,E=6` finite diagnostic
-should follow such a comparison, not substitute for it. Its result would
-remain about that prescribed family of lifts.
+For arithmetic lifts, use the
+[endpoint compatibility test](frameworks/arithmetic_supported_lifts.md#bounded-work-and-selection).
+The prescribed `p=7,n=7,E=6` finite diagnostic can test a comparison once its
+map and relevance to that family are specified.
 
 ## Other independent candidates
 

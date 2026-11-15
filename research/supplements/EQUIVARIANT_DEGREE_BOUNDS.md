@@ -44,7 +44,7 @@ the equations, satisfies
  G\equiv x_2^b\pmod{x_3^2}.
 \tag{J}
 \]
-Indeed the trace proof below uses only these congruences after deriving
+The trace argument uses only these congruences after deriving
 them from the weight condition. This is a separate sufficient hypothesis
 for the obstruction, not an assertion that arbitrary pairs can be put in
 this form.
@@ -65,94 +65,20 @@ degrees is not asserted under this weaker factor hypothesis.
 
 ## Trace proof for two weight-homogeneous equations
 
-Write \(X=x_1,Y=x_2\). The coordinate points
-\(P_1=[0:1:0:0]\) and \(P_2=[0:0:1:0]\) are outside \(C_0\),
-so at each point at least one of \(F,G\) is nonzero. A positive-degree
-weight-homogeneous form cannot be nonzero at both: the pure powers
-\(X^d,Y^d\) have different weights \(d,3d\) as integer characters,
-including in positive characteristic. After exchanging the equations,
-\(F\) contains \(X^a\) and has weight \(a\), while \(G\) contains
-\(Y^b\) and has weight \(3b\). Rescale their pure-power coefficients
-to one.
-
-For a monomial \(x_0^{e_0}X^{e_1}Y^{e_2}x_3^{e_3}\) in \(F\),
-ordinary degree and weight give
-\[
- e_0=2e_2+3e_3.
-\]
-Unless it is \(X^a\), its \(x_0\)-exponent is at least two.
-Similarly, every monomial of \(G\) other than \(Y^b\) has
-\(e_3=3e_0+2e_1\ge2\). Thus
-\[
- F\equiv X^a\pmod{x_0^2},\qquad
- G\equiv Y^b\pmod{x_3^2}.
-\tag{3}
-\]
-
-Put \(A=k[x_0,x_3]\) and \(B=k[x_0,X,Y,x_3]/(F,G)\).
-The pair is proper, hence a regular sequence. Modulo \((x_0,x_3)\),
-\(B\) becomes \(k[X,Y]/(X^a,Y^b)\). The \(ab\) monomials
-\[
- X^iY^j,\qquad0\le i<a,\quad0\le j<b
-\tag{4}
-\]
-therefore generate \(B\) over \(A\), by induction on ordinary degree.
-Their free graded \(A\)-module has Hilbert series
-\[
- \frac{(1-t^a)(1-t^b)}{(1-t)^4},
-\]
-which is also the regular-sequence Hilbert series of \(B\). The surjection
-is an isomorphism. In particular, \(B\) is free of rank \(ab\) over \(A\),
-with basis (4).
-
-Sole support implies that \(q=XY-x_0x_3\) is nilpotent in \(B\).
-Indeed the homogeneous affine cones have the same reduced support,
-including the origin. Multiplication by \(q\) on
-\(B\otimes_A\operatorname{Frac}(A)\) is nilpotent and has trace zero.
-Since \(A\) is a domain, the trace already vanishes in \(A\). Consequently
-\[
- \operatorname{Tr}_{B/A}(XY)=ab\,x_0x_3.
-\tag{5}
-\]
-
-Trace on a finite free module commutes with base change. Set
-\(\overline A=A/(x_0^2,x_3^2)\). By (3),
-\[
- B\otimes_A\overline A
- =\overline A[X,Y]/(X^a,Y^b).
-\]
-Multiplication by \(XY\) in basis (4) has zero diagonal, so its trace
-is zero. Reducing (5) gives \(ab\,x_0x_3=0\) in \(\overline A\).
-But \(x_0x_3\) is a nonzero basis element of \(\overline A\) over \(k\).
-Thus \(ab=0\) in \(k\). This proves the characteristic-zero exclusion
-and \(p\mid ab\) for two weight-homogeneous equations.
+The [reviewed trace argument](../arguments/torus_sextic_residuals.md#trace-obstruction-for-supported-pairs)
+derives (J) from the integer weights and the values at the two coordinate
+points outside \(C_0\). For any supported pair satisfying (J), it computes
+the trace on a finite free \(k[x_0,x_3]\)-algebra and after base change by
+\((x_0^2,x_3^2)\) to obtain \(ab=0\) in \(k\).
 
 ## Reduction from one equation and an arbitrary mate
 
-Suppose only \(F\) is weight-homogeneous. Factor it into irreducibles
-\(F=c\prod H_j^{r_j}\), of degrees \(a_j\). Each factor is
-weight-homogeneous: in the polynomial domain, the difference between the
-largest and smallest occurring weights adds under multiplication.
-Width zero of \(F\) forces width zero for every factor.
-
-Every \(H_j\) contains \(C_0\), and \(V(H_j,G)_{\mathrm{red}}=C_0\).
-To see this, \(H_j\) and \(G\) have no common factor, since \(F,G\)
-have none. Their projective intersection contains a curve and is contained
-in \(C_0\). Irreducibility of \(C_0\) forces equality of support.
-
-In the weight-graded domain \(R=k[x_0,X,Y,x_3]/(H_j)\), write \(g\)
-for the nonzero image of \(G\). Its principal radical is the homogeneous
-ideal of \(C_0\) in \(R\). Every nonzero weight component \(g_w\)
-therefore belongs to \(\sqrt{(g)}\); for some \(N>0\),
-\(g_w^N=g h\) with \(h\ne0\). Additivity of widths in this graded
-domain shows that \(g\) has width zero. Taking the corresponding
-ordinary-degree-\(b\) weight component \(G_j\) of \(G\), we have
-\[
- (H_j,G_j)=(H_j,G).
-\]
-The trace proof applies to \(H_j,G_j\). In characteristic zero this
-is impossible; in characteristic \(p>0\), \(p\mid a_jb\) for every
-\(j\). Summing with the multiplicities \(r_j\) yields \(p\mid ab\).
+The [same proof](../arguments/torus_sextic_residuals.md#trace-obstruction-for-supported-pairs)
+reduces the mate modulo each irreducible eigenform factor. Additivity of
+weight widths in the graded domain shows that one weight component of the
+mate gives the same ideal modulo that factor. Summing the trace identities
+over the factors with their multiplicities gives \(ab=0\) for the original
+pair when a whole equation is weight-homogeneous.
 
 ## Scope and literature
 
@@ -161,9 +87,8 @@ already part of the Thoma and Hellus–Hübl theory. See
 [Hellus–Hübl, *A result on Macaulay's curve*, introduction and Theorem 1.2](https://arxiv.org/pdf/1312.7661),
 and the characteristic-zero application in
 [tropical thickenings](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
-The proof above directly retains the characteristic-dependent scalar
-\(ab\); it does not import their characteristic-zero theorem into
-positive characteristic.
+The finite-free trace calculation gives the scalar identity \(ab=0\)
+over the ground field, including in positive characteristic.
 
 The [general finite-algebra trace formula](../synthesis/fixed_surface_and_endpoint_algebras.md#7-the-first-trace-depends-only-on-two-lower-fiber-degree-layers)
 already describes the first trace from the two lowest base-degree
@@ -189,7 +114,10 @@ the arbitrary mate in a graded domain, the finite free basis and Hilbert
 series, nilpotent trace over the fraction field, trace base change, the
 characteristic-two limitation, and the actual \((4,p)\) attainment.
 The same reviewer checked the extension (J), confirming that no weight
-hypothesis is used after the two congruences.
+hypothesis is used after the two congruences. The original proof and review
+appear in the [historical supplement](https://github.com/markluxton1/STCI/blob/acb91bc24fd7b16c2473b6fed6920ac58e13659f/research/supplements/EQUIVARIANT_DEGREE_BOUNDS.md#independent-review).
+The later independent reconstruction covers the trace and arbitrary-mate
+proof, with its exact scope recorded in [R-0042](../results/eigenform_trace_obstruction.md#review).
 The review does not certify literature priority or any unrestricted
 lower bound. The proof is mathematical; no finite computation is used as
 a substitute for its all-degree or all-prime quantifiers.
@@ -199,7 +127,7 @@ a substitute for its all-degree or all-prime quantifiers.
 **Independently reviewed extension.** This section adapts
 [Hellus–Hübl, Theorem 1.2](https://arxiv.org/pdf/1312.7661), replacing its
 characteristic-zero exclusion of a bihomogeneous supported pair by the
-trace theorem above. No literature-priority claim is made.
+trace bound (1). No literature-priority claim is made.
 
 Let \(F,G\in R=k[x_0,x_1,x_2,x_3]\) have ordinary degrees \(a,b>0\),
 with \(\sqrt{(F,G)}=P=I_{C_0}\). Suppose \(\operatorname{char}k=p>0\)

@@ -146,83 +146,25 @@ requires a relative counterexample or a proof covering that stratum.
 
 ## Torus symmetry as an organizing method
 
-Use the [supported-boundary framework](frameworks/torus_supported_boundaries.md)
-when a declared moving family has accessible full ideals and equation maps.
-Use the [embedded-quotient framework](frameworks/embedded_torus_quotients.md)
-for specified finite images, endpoint descent, and source-space tests. The
-reusable [purity lemma](results/pure_curve_degree_exhaustion.md) explains the
-extra hypothesis that turns inclusion plus degree exhaustion into equality;
-the [generator criterion](results/moving_ideal_generator_criterion.md) explains
-why two independent sections are insufficient. These independently reviewed
-inputs support bounded investigations and require their literal hypotheses.
+Select the [supported-boundary framework](frameworks/torus_supported_boundaries.md#research-decisions)
+when a fixed-degree CI or a downstairs ACM target has an accessible full
+boundary ideal and moving equation maps. Use the
+[embedded-quotient framework](frameworks/embedded_torus_quotients.md#research-decisions)
+when an actual finite embedded quotient supplies endpoint and source-space
+data. Each Framework owns its controls, open comparisons, coverage
+requirements, and routes to bounded investigations.
 
-Choose a next test by what it can change: an actual supported two-generator
-point gives a construction; emptiness on a declared family limits that family;
-a specialization map can connect two previously separate data sets. Repeating
-an eigenpair exclusion or a numerical endpoint budget supplies no all-family
-coverage. The [cataloged Investigations](CATALOG.md#investigations) give the question,
-stopping conditions, and dependencies for each activity.
+For a sole-support sextic family, first test the
+[endpoint weighted bases and degree-six sources](arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair).
+Then ask whether a surviving family admits the full moving generator
+calculation. The same 23-dimensional double source in quotient coordinates
+gives a geometric interpretation of an existing equation space. A separate
+obstruction needs additional information about the actual family.
 
-Use the [full-limit theorem](results/supported_hilbert_full_limits.md#statement)
-to carry sole support and the complete-intersection Hilbert polynomial to
-both torus limits. Choose an actual degree pair and a family with a justified
-power bound before asking for coverage. A local test may start at a specified
-fixed ideal with the required polynomial and support, compute the embedded
-tangent and obstruction spaces with their torus weights, and then impose the
-actual generator equations on the moving ideal. The
-[full-limit proof](arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits)
-retains the full limit and endpoint structure.
-
-For a specified finite embedded quotient, the
-[endpoint-descent criterion](results/constant_quotient_equation_criterion.md)
-recovers its actual homogeneous source spaces by finite weightwise linear
-algebra. A proper pair in the prescribed degrees, together with degree
-exhaustion, decides that image. The length-four comparison shows why the
-embedding and the full infinity algebra matter: the same nilpotent quotient
-type yields different postulation in characteristic zero, two and three.
-This is a useful bounded realization task, not a reduction of arbitrary
-characteristic-zero pairs to a constant quotient.
-
-The [explicit sextic configurations](arguments/torus_sextic_residuals.md)
-now supply exact controls for splitting, absorption and loss of CI generators.
-The sharp quotient-length bound is eight for proper eigenform sextics in every
-characteristic. A length-nine sole-support search must therefore change the
-eigenform hypotheses; the existing all-pair conormal reduction still needs
-[moving embedded data](investigations/quotient-hilbert-comparison/index.md#inputs)
-and actual source lifts. Recomputing the 23-dimensional
-double source in quotient coordinates adds an interpretation, not a second
-obstruction.
-
-The [endpoint-to-limit comparison](results/intrinsic_limits_endpoint_fibers.md)
-now gives each pure intrinsic limit and both embedded lengths. For a
-sole-support sextic pair, first apply the
-[endpoint weighted-basis and degree-six source tests](arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair).
-The surviving high-contact and noncurvilinear fibers require a full
-equation-incidence test in one moving family. Transverse translations
-transport the normal algebra over the parameter torus and move the
-support to the coordinate boundary on specialization.
-
-The torus method can organize a fixed-degree CI question such as (6,6) or the
-independent downstairs ACM objective. Its value is a structured boundary and
-weight decomposition; no finite fixed-locus classification, tractable
-supported deformation space or general recovery theorem is currently supplied.
-The explicit ACM three-generator limit has the (6,6) Hilbert series but retains
-boundary curves; it is not a sole-support boundary ideal.
-
-Before assigning a substantial calculation, select an actual invariant ideal,
-check its target Hilbert polynomial and support incidence, and identify the
-full deformation and generator conditions. Existing [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
-are actual non-ACM controls, not demonstrated limits of the desired CI type.
-Their failure to be ACM does not alone exclude an ACM general fiber.
-Retain embedded points if present; a pure hull changes the boundary object.
-
-A successful supported deformation constructs a new ideal even if it is not
-an inverse of a torus-orbit degeneration. An obstruction at one chosen boundary
-ideal excludes only the declared deformation family. A negative reduction of
-all degree-(a,b) pairs needs coverage of their possible invariant limits and
-their deformations; a fixed power neighborhood must also have that coverage.
-Thus this is a proposed organizing method, not a replacement for already
-available actual equation spaces or a completed reduction to invariant CIs.
+The [invariant quadric multiples](synthesis/section_defects_and_exceptional_cover_controls.md#gorenstein-multiples-still-need-higher-twist-information)
+give actual non-ACM controls. To assign one a role in a smoothing problem,
+first check its full ideal, support and Hilbert polynomial. The deformation
+must integrate any tangent data and preserve support to all orders.
 
 ## Recommended allocation and stopping outcomes
 
@@ -254,11 +196,7 @@ its required index-nine local class and embedded defects with actual global
 singularity and polarization data. Recomputing its known invariants, or
 treating the normal cover as a smooth resolution, supplies no new restriction.
 
-The arithmetic next test should seek an actual algebraic compatibility
-condition on its endpoint defect beyond the genus budget. More finite
-precision by powering, or an unrelated normal-form analogy, does not supply
-that condition. A fixed small-characteristic experiment becomes useful after
-its relation to this concrete defect is stated.
+For arithmetic lifts, use the [bounded endpoint comparison](frameworks/arithmetic_supported_lifts.md#bounded-work-and-selection). Select a finite test once the link between its data and the specialization kernel is specified.
 
 The consolidation lane's contribution is to keep these interfaces navigable:
 one full owner per reusable proof, exact computational consumers, and explicit
@@ -266,9 +204,3 @@ proved or missing arrows. A useful new contribution changes a source, a
 compatibility map, a coverage statement or a constructive outcome. It should
 update the owning proof and the relevant frontier together; another chronological
 assessment is not needed merely because a branch has ended.
-
-## Review standard: strongly consider invariant-limit stratification
-
-For each fixed degree pair, strongly consider using full T-invariant flat limits to organize the bounded supported Hilbert locus into attracting sets, and, where useful, test **two-generation of moving ideals on each set**. The fixed ideal need not be a complete intersection. Distinguish the full-ideal limit, eigenform pairs, and I-adic initial ideals. Analyze graded minimal generators and the actual homogeneous equation incidence, including relations and scheme-theoretic equality. Tangent weights and smoothing of selected fixed points are auxiliary tools rather than the primary classification. Any claim of exhaustive strata must prove coverage and handle the chosen bound N; do not infer unrestricted exclusion from a bounded calculation.
-
-This replaces selecting a single invariant boundary ideal as the default first step, without requiring exhaustive stratification before local geometric work. Existing degree-sector, quotient, carrier and positive-characteristic projects remain useful as sources of geometric strata, controls, and equations; no theorem status changes.

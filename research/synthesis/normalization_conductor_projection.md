@@ -4,11 +4,7 @@ For the fixed embedded characteristic-zero quartic, a proposed normalization mod
 
 ## Fixed-carrier existence and the shared descent mechanism
 
-Let X be an integral Cohen–Macaulay projective surface, nu:S→X its finite normalization, L ample, and H=nu*L. Use the **entire** reduced inverse support W of C. Isolated points outside its curve components already forbid a mate. Otherwise, with W=⋃Gamma_i, the class relations form
-
-    Lambda=ker[Z^(s+1)→Cl\(S\)], (n_i,b)↦Σn_i[Gamma_i]-b[H].
-
-The [full proof of R-0003](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#4-an-exact-fixed-carrier-criterion-including-thick-support) associates to each relation its actual unit class at every generic conductor curve away from C. A mate exists exactly when a relation with every n_i>0 has torsion full-conductor class. Positivity enters the conductor over C after a sufficiently large power; purity of nu_*O_S/O_X extends **full** generic membership globally. An ambient hypersurface equation then lifts from the hypersurface sequence. This works in arbitrary characteristic and does not assume that reduced C defines an APic class in a generically singular carrier.
+The [carrier chapter](04-carriers.md#42-the-full-conductor-descent-criterion) introduces the relation lattice and the full conductor test. The [proof of R-0003](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#4-an-exact-fixed-carrier-criterion-including-thick-support) applies in arbitrary characteristic to integral Cohen–Macaulay projective surfaces with finite normalization and ample polarization, including generically singular carriers where the reduced marked curve need not define an APic class.
 
 The [local algebra](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md) proves the underlying mechanism and its limitations. Membership is in the fiber-product conductor ring, not merely a tensor equalizer. In characteristic zero, nilpotent logarithmic defects must vanish; the reduced phase can then have finite order. If each reduced upstairs algebra is a single field, its extension degree bounds a sufficient exponent. Split phases such as (1,zeta) have unbounded least orders even with two branches. A nonunit can behave differently; powers of t on a cusp enter its conductor. None of these statements computes an actual phase image.
 
@@ -16,17 +12,7 @@ The relation cone offers both obstruction and construction. Its Hilbert basis ha
 
 ## Necessary Cartier singleton models and actual projection tests
 
-The [complete proof of R-0002](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#cartier-singleton-models-the-complete-proof) assumes an **actual mate**, full singleton inverse support c≅C, and Cartier c on normal S. Smooth Cartier c forces S regular along c; the mate makes c ample. Surface classification, adjunction and the Cartier restriction sequence make |c| a minimal-degree embedding. For rational C of degree d, c²=d²/deg X; the possibilities are plane, smooth scroll, or rational-normal cone models with the integral polarizations in R-0002.
-
-For the fixed quartic, after [R-0001](../results/quartic_carrier_exclusion.md), the higher-degree necessary models are
-
-| Carrier degree | S | c and H |
-| --- | --- | --- |
-| 8 | smooth quadric | c=(1,1), H=(2,2) |
-| 8 | quadric cone | smooth Cartier hyperplane conic c, H=2c |
-| 16 | plane | line c, H=O(4) |
-
-A listed model is not an actual carrier or a mate. Four sections must define a basepoint-free finite birational map to an integral hypersurface, have **full** inverse support c without isolated extras, and pass full conductor descent. Non-Cartier, multiple, and nonisomorphic inverse lifts are outside this classification.
+In characteristic zero, assuming an actual mate and an isomorphic Cartier singleton inverse curve \(c\), [R-0002](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#cartier-singleton-models-the-complete-proof) gives \(c^2=d^2/\deg X\) for a rational curve of degree \(d\) and classifies the normalized models and integral polarizations. After the [characteristic-zero quartic-carrier exclusion, R-0001](../results/quartic_carrier_exclusion.md), the [carrier chapter](04-carriers.md#43-the-special-case-of-one-cartier-inverse-curve) lists the surviving degrees \(8,8,16\) and [the tests for actual projections](04-carriers.md#44-why-projections-are-the-next-problem).
 
 The [explicit projection proofs](carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions) expose different failures. The plane map [s⁴:s³t:st³+z⁴:t⁴+s³z] is an actual finite degree-sixteen normalization with full inverse support z=0, but every positive mate degree is excluded by a polynomial derivative identity. The general two-fixed-coordinate sublane has the same obstruction. Its generic conductor residue is already trivial, while a nonzero first nilpotent jet survives every power. By contrast, the two actual smooth-quadric families have isolated inverse points, so fail before unit descent. The corrected quadric audit retains seven forced endpoint extras in the kappa family and the exact four-or-five extra points in the companion family. Neither argument exhausts the complete projection space.
 

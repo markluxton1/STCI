@@ -260,10 +260,12 @@ growth for all defining pairs is conditional on characteristic-zero nonexistence
 [Frobenius precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md) constrain
 prescribed supported lifts and actual traits with their stated precision and
 ramification hypotheses. They do not obstruct unrelated characteristic-zero
-presentations. The prescribed powered-quartic specialization additionally
-forces positive lower-root defect at both endpoints in any hypothetical
-supported trait. Compatibility of that defect with the actual
-complete-intersection algebra is unresolved.
+presentations. In the prescribed powered-quartic specialization for \(p\ge7\), any
+hypothetical supported trait in the
+[root specialization theorem](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md#root-specialization-and-the-remaining-endpoint-defects)
+has a nonzero lower-root defect supported on the set of the two marked
+endpoints. [Compatibility with the actual complete-intersection algebra](frameworks/arithmetic_supported_lifts.md#bridges)
+remains unresolved.
 
 The [Grassmannian Hom identity](synthesis/chow_bundle_maps.md) shows in every
 characteristic that a map of the prescribed Sylvester bundle types already

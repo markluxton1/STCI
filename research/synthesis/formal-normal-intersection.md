@@ -139,7 +139,7 @@ Let Q≅P1×P1 be a split smooth quadric over a field and C an integral Cartier 
 
     H^0(P3,I_C^m(d))=(I^m)_d,   I^m=(I^m)^sat=I^(m).   (P)
 
-For b>=2, one additionally has H^1(P3,I_C^m(d))=0 whenever d>=bm. For the rational quartic (a,b)=(1,3), this gives H1 vanishing from d=3m but ordinary/symbolic equality in every degree. Smoothness of C is not needed for this integral Cartier-divisor theorem. The complete inherited proof and classical monomial overlap are in [the uniform quadric proof](global_equations_and_constructions.md#2-uniform-theorem-for-integral-curves-on-a-smooth-quadric). This consolidation recovers that stronger existing scope; it does not claim a new theorem or novelty.
+For b>=2, one additionally has H^1(P3,I_C^m(d))=0 whenever d>=bm. For the rational quartic (a,b)=(1,3), this gives H1 vanishing from d=3m but ordinary/symbolic equality in every degree. Smoothness of C is not needed for this integral Cartier-divisor theorem. The [uniform theorem statement and literature comparison](global_equations_and_constructions.md#2-uniform-theorem-for-integral-curves-on-a-smooth-quadric) records the classical monomial overlap and the provenance of the proof below.
 
 Locally C is cut out by Q and a local Cartier equation h on Q, so these
 two classes form a basis of the conormal module. The associated graded of
@@ -384,7 +384,7 @@ below degree six.
 
 The [higher-initial investigation](#2026-10-21-higher-initial-ideals-valuations) records how cancellations between leading normal forms create higher initial generators; the explicit examples must be retained because they rule out replacing the full initial ideal with just the first symbols. The [embedded ribbon/triple obstruction](#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction) concerns a different global extension and gluing problem, with its own Čech and coordinate-invariance hypotheses.
 
-Compare the [full ideal-filtration diagram](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), the [valuation length counterexample](../synthesis/coefficient_valuations.md), and the [boundary equation-module test](toric_torsion_and_endpoint_contacts.md#2026-10-27-one-step-boundary-obstruction). The common obstruction to an overly simple approach is loss of higher-order or gluing information, **not** a theorem that any given local thickening fails globally.
+Compare the [full ideal-filtration diagram](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), the [valuation length counterexample](../synthesis/coefficient_valuations.md), and the [boundary equation-module test](../arguments/one_step_boundary_repair.md#2026-10-27-one-step-boundary-obstruction). The common obstruction to an overly simple approach is loss of higher-order or gluing information, **not** a theorem that any given local thickening fails globally.
 
 The original coprime theorem, examples, and unreviewed status remain intact below.
 

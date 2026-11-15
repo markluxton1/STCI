@@ -1,3 +1,11 @@
+---
+id: STCI-F-0003
+type: framework
+title: Formal normal geometry of intersections containing the rational quartic
+status: in_use
+scope: "#fixed-setup"
+bridges: "#simultaneous-realization-and-compatibility-problems"
+---
 # Formal normal geometry of intersections containing the rational quartic
 
 Use the [evidence and review rules](../MODEL.md#evidence-and-review) and the

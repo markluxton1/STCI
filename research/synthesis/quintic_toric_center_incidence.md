@@ -509,11 +509,7 @@ Work over an algebraically closed field of characteristic zero. Retain
 `delta!=0`, the actual center-avoidance condition and finite birational
 projection hypotheses of the audited model. Let `q!=0` be a finite
 common conormal root, and impose the complete solutions `G=Gs,J=Js`
-from the [Taylor incidence note](#2026-10-13-session-nonendpoint-single-root-taylor-incidence):
-
-    Gs=-(6B+delta^2-3delta)q-(3a-3B+2delta)q^2+2aq^3,
-    2Js=-Gs(1+3q)-(6B+5delta^2-3delta)q
-        -(3a+3B+delta-delta^2)q^2+(a+B)q^3.
+from [equation (1) of the Taylor incidence](#1-exact-finite-common-root-parameters).
 
 These equations alone allow repeated and additional common roots. A
 sole-common-root hypothesis is imposed explicitly only for the final

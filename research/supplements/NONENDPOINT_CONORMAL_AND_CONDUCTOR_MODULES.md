@@ -428,48 +428,18 @@ the characteristic-zero scalar three. Its five-quadratic determinant
 therefore covers the whole displayed parameter family, subject to
 center avoidance.
 
-The conductor does not contain c, independently of any mate or full
-inverse-support assumption. Indeed the smooth target quadric containing
-C0 has C0 of class (1,3), and the integral quintic restricts to a nonzero
-section of class (5,5). Multiplicity at least two along C0 would leave
-an effective divisor of negative second bidegree. The multiplicity is
-therefore exactly one. At the generic point of C0, the regular local
-ring of P3 has parameters q for the quadric and u for C0 within it.
-F modulo q has u-order one, so F does not belong to the square of the
-maximal ideal. The quintic local ring is regular there, and normalization
-is an isomorphism. Hence its conductor cannot contain c.
+The [complete restricted-octic calculation](#5-explicit-nonendpoint-coordinates-and-the-restricted-binary-octic)
+proves generic regularity along C0 independently of any mate or full
+inverse-support assumption. The restriction is a nonzero homogeneous
+octic, so affine degree loss records contact at target infinity.
 
-The nonzero restriction of the conductor section is consequently a
-homogeneous degree-eight binary form. Affine degree loss records a
-root at target infinity, not the disappearance of an intersection.
-The change r=delta*Q/P is invertible on the binary parameter line,
-so it preserves every repeated common root of the homogeneous
-conormal pair and correctly exchanges source r=0 with target Q=0.
-
-Under a hypothetical mate, full inverse support makes the finite
-normalization algebra local over every target point of C0. At a
-smooth-source point with at least one conormal symbol nonzero, its
-cotangent map is surjective. The two finite Nakayama steps in the
-accepted conormal/conductor audit then give an exact local ring
-isomorphism. At A4, the full three-dimensional cotangent determinant
-is -3delta^3*Jbar, so the same conclusion holds if Jbar!=0. Both
-single-preimage finiteness and the entire singular cotangent space
-are retained.
-
-Therefore the support of the restricted conductor form Fdet is contained
-in the homogeneous gcd H of the transformed conormal cubics, together
-with P=0 when Jbar=0. For a degree-eight binary form this support
-inclusion is equivalent to
-
-    Fdet divides (H*P^epsilon)^8,
-    epsilon=1 if Jbar=0, and zero otherwise.
-
-The exponent eight bounds each root exponent by the total degree of
-Fdet. It does not equate conductor multiplicity with first-normal
-multiplicity. The owner's finite incidence in H,A_P,A_J,K therefore
-preserves every possible multiplicity distribution, including a single
-root of order eight. The h0=epsilon=0 case is empty; all other displayed
-degrees are nonnegative. This remains only a necessary incidence.
+The [finite incidence proof](#6-a-finite-necessary-incidence-retaining-arbitrary-conductor-multiplicities)
+retains the invertible binary change r=delta*Q/P and the single-preimage
+hypothesis for the two finite Nakayama steps. At A4 the full
+three-dimensional cotangent determinant is -3delta^3*Jbar. The
+incidence is necessary and allows every conductor multiplicity
+distribution on the permitted support, including a single root of
+order eight.
 
 ### 7. Compact norm: the apparent leading factor and every degree drop
 

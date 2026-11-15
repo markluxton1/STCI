@@ -872,108 +872,59 @@ have been established.
 
 ## The supported Hilbert locus and its full torus boundary
 
-The Hilbert scheme retains the whole ideal of an
-intersection under degeneration, including syzygies and
-additional initial generators. A torus-fixed limit of a
-supported complete intersection is therefore a necessary
-boundary object, but it need not remain a complete
-intersection. The correct geometric test is whether such
-a fixed supported point lies in the closure of the
-supported complete-intersection locus, not whether two
-eigenforms alone cut it out.
-
-
+The [Hilbert-boundary argument](../arguments/torus_hilbert_boundary.md) gives
+the full flat limits of a supported scheme. The
+[supported-boundary framework](../frameworks/torus_supported_boundaries.md#directional-loci)
+uses those limits to organize the search for moving ideals with two homogeneous generators.
 
 ### Invariant support and the full torus limit
 
-Fix \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\) over an
-algebraically closed field of characteristic zero, and put \(P=I_{C_0}\).
-The torus \(T=\mathbf G_m\) acts by
-\((x_0,x_1,x_2,x_3)\mapsto(x_0,tx_1,t^3x_2,t^4x_3)\); its dense orbit
-on \(C_0\) is the curve's subtorus in the projective dense torus.
-Every hypothetical sole-support pair therefore has a \(T\)-invariant
-radical. This does not make its thickening ideal \(J=(F,G)\) invariant.
-If that homogeneous CI ideal were invariant, its minimal generators could
-be chosen as weight eigenforms, as proved in the
-[constant-family argument](tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
-The [weight theorem](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md#the-bound-and-its-exact-large-prime-minimum)
+The [closed incidence and full-limit proof](../arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits)
+fixes the embedded quartic \(C_0\), the action of weights \((0,1,3,4)\), a
+Hilbert polynomial and a power bound \(\mathcal I_{C_0}^N\). It keeps both
+full limits in the same supported incidence, with any embedded structure.
+In characteristic zero the [invariant-ideal exclusion](../results/invariant_supported_ci_exclusion.md)
+applies when the whole CI ideal is invariant. Every supported ideal already
+has invariant radical. The
+[weight restriction](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md#the-bound-and-its-exact-large-prime-minimum)
 excludes even one weight-homogeneous carrier with an arbitrary mate in
-characteristic zero. Thus invariant reduced support is automatic, whereas
-an invariant supported CI ideal is excluded. This distinction leaves a
-useful degeneration question rather than a reduction to invariant pairs.
-
-For a supported scheme \(Y\), choose \(N\) with
-\(P^N\subset I_Y\subset P\). Both containments hold for every torus
-translate. Properness of the projective Hilbert scheme gives its full flat
-limits, which are \(T\)-fixed; the closed incidence conditions
-\(C_0\subset Y_t\subset V(P^N)\) persist there. Thus the full limits
-retain support and Hilbert polynomial. They can acquire embedded structure
-on \(C_0\); do not replace them by their pure hulls or reduced schemes
-when asking about deformation back to the original CI.
-
-The full limit ideal is different from the ideal of the two extreme forms
-of \(F,G\). The
+characteristic zero. In this setting the
 [extreme-component theorem](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md#extreme-components-of-arbitrary-presentations)
-forces those displayed pairs to have common surface factors in this
-characteristic-zero setting. Additional initial generators from all
-relations retain the full ideal's support and Hilbert data. The
-[degeneration boundary](arithmetic_root_collision.md#why-degeneration-does-not-cover-every-pair)
-therefore concerns loss of two generators, not a necessary loss of support
-by the full Hilbert limit. Neither Cohen--Macaulayness nor AG structure is
-assumed at the fixed boundary.
+forces a common surface factor in each displayed pair of extreme forms.
+The full limit retains the additional initial generators from the relations
+among the actual equations.
 
-The [sextic residual examples](../arguments/torus_sextic_residuals.md)
-make this generator distinction explicit: a proper (6,6) CI has full toric
-limit with minimal generator degrees 6,6,10 and the same Hilbert series.
-That limit is saturated and ACM. Both it and the original CI retain residual
-curves, so this example supplies a full-ideal control without producing a
-boundary in the sole-support incidence used here.
+The [sextic residual example](../results/sextic_three_generator_full_limit.md)
+has a proper \((6,6)\) CI whose full limit is saturated and ACM, with
+generator degrees \(6,6,10\) and the same Hilbert series. Both fibers retain
+residual curves of degree \(32\), so the example lies outside the sole-support
+incidence. The general full-limit argument assumes neither ACM nor AG
+structure at the boundary.
 
-The
-[full torus-modification account](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
-retains additional endpoint algebras, their finite defects and presentation
-data. Its positive-movement and global-presentation barriers remain useful
-controls: local equations or an abstract transverse algebra do not supply
-the required homogeneous equations after contraction. They do not exclude
-all support-preserving deformations of a fixed boundary ideal.
-
-For a specified constant embedded quotient, the
-[orbit-family criterion](../arguments/torus_embedded_quotients.md) instead
-recovers its saturated image and its actual degree spaces directly. Properness
-and degree exhaustion give an exact CI test for that image. This does not
-replace the moving finite family of a hypothetical characteristic-zero
-sole-support pair.
+The [finite torus modification](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
+retains endpoint algebras and defects as part of the presentation. For a
+specified constant embedded quotient, the
+[orbit-family criterion](../arguments/torus_embedded_quotients.md) recovers the
+saturated image and its actual degree spaces, where properness and degree
+exhaustion test for a CI. The moving quotient of a hypothetical
+characteristic-zero supported pair requires its own comparison.
 
 ### Proposed test: supported deformations of an invariant boundary ideal
 
-**Proposed research direction; not a solved deformation problem.** Fix
-degrees \((a,b)\), the CI Hilbert polynomial they determine, and an integer
-\(N\). Work in the closed Hilbert incidence
-\(C_0\subset Y\subset V(P^N)\) with that polynomial. Starting from an
-actual \(T\)-fixed ideal in this incidence, ask whether a flat deformation
-inside the incidence reaches a homogeneous AG, equivalently codimension-two
-CI, ideal. The [primary/Gorenstein criterion](#2-p-035-the-homogeneous-primarygorenstein-criterion-survives-audit)
-states the precise homogeneous condition; if the prescribed degrees matter,
-the actual minimal generators must also have degrees \((a,b)\).
-
-This is a bounded interface with two different possible aims. Realizing the
-boundary ideal as the full initial ideal, or torus-orbit limit, of a supported
-CI is stronger than finding an arbitrary supported flat deformation to a
-CI. The latter is already constructively useful: its general fiber would
-give actual equations without a prescribed orbit history. Neither aim is
-settled by the existence of invariant supported schemes. No finiteness of
-the fixed locus, classification of its ideals, or smoothing theorem is
-assumed. A fixed \(N\) covers only the declared incidence; a claim about
-all pairs needs a justified power bound or an explicit coverage argument.
-
-A useful first task needs an actual boundary ideal with its complete
-generators and embedded structure, then actual deformation maps preserving
-the containments and Hilbert polynomial. Tangent weights can suggest
-directions but do not integrate them, preserve support to all orders, or
-prove entry into the CI locus. Stop at an exact supported CI deformation,
-a covered exclusion of a specified boundary family, or an identified
-missing deformation or generator condition. A calculation at one fixed
-ideal does not exclude other fixed ideals or components.
+For fixed \((a,b)\) and \(N\), the
+[supported generator investigation](../investigations/supported-generator-incidence/index.md#question)
+asks whether a deformation with the CI Hilbert polynomial and
+\(C_0\subset Y\subset V(\mathcal I_{C_0}^N)\) reaches a
+[homogeneous AG and thus codimension-two CI ideal](#p-035-arithmetically-gorenstein-thickening-criterion).
+To recover \((a,b)\), test the actual generator degrees on the moving ideal.
+An arbitrary supported flat deformation to a CI gives actual equations.
+Realizing a prescribed fixed ideal as its full torus limit requires the
+additional orbit condition. The
+[framework](../frameworks/torus_supported_boundaries.md#bridges) gives the
+coverage requirements, including power and regularity bounds, and the
+[moving-ideal criterion](../arguments/torus_hilbert_boundary.md#the-moving-ideal-generator-test)
+specifies the multiplication maps to test. A calculation at a single fixed
+ideal covers only the family it controls.
 
 [Bertone–Cioffi–Orth–Seiler, Corollaries 5.5 and 6.18](https://www.mathematik.uni-kassel.de/~seiler/Papers/PDF/Loci.pdf)
 give open AG and strict-CI loci and constructive recognition algorithms.
@@ -986,8 +937,8 @@ stability of its generating system. It supplies no converse preservation;
 their Corollary 4.5 gives stable systems with a common hypersurface factor.
 Thus stability alone does not even ensure proper intersection. A fixed
 Chow cycle also omits the embedded nilpotent algebra. These checked
-applications retain their source's characteristic-zero setting and do
-not exclude a support-preserving construction with controlled equations.
+applications retain their source's characteristic-zero setting and
+do not exclude a support-preserving construction with controlled equations.
 
 A separate affine proof correction is already covered by the
 [exact Mandal–Zinna audit](#exact-audit-of-arxiv251107589v1-step-3)
@@ -1365,98 +1316,46 @@ refinement are recorded separately in
 
 ### 1. P-029: the complement morphism equivalence survives audit
 
-Let C be an integral projective curve, U=P3 minus C, and let
-f:U -> P1 be nonconstant. Since P3 and U are regular and the omitted subset
-has codimension two, divisor localization identifies Pic(U) with Z,
-generated by O_U(1). Hence f*O(1)=O_U(d). The two coordinate sections cannot
-exist if d<0 and are constants if d=0: Hartogs extension gives
-H0(U,O_U(d))=H0(P3,O(d)) for every d. Thus d>0.
-
-The two coordinate sections extend to homogeneous forms F,G of degree d.
-Their common zero set is contained in C. A common irreducible factor would
-give a hypersurface inside C, so none exists. Consequently (F,G) has height
-two and is a regular sequence. Its projective zero scheme is nonempty and
-purely one-dimensional. An integral curve has no proper closed
-one-dimensional subset, so the support is C.
-
-In the converse direction one first gives an STCI pair equal degrees by
-powers. A constant [F:G] would force proportional forms and a hypersurface
-support, impossible. The resulting base ideal is a complete-intersection
-ideal and is of linear type. Its Rees graph therefore has exactly the
-bihomogeneous equation uG-vF=0, without an extra component.
-
-No missing assumption was found. The integrality of C is used in the final
-support argument; an extension to reducible curves would have to ensure
-that no component of C is omitted. The criterion is exact but does not make
-the existence of a map automatic: regular functions on U are only constants,
-and a nonconstant map to P1 has precisely the original homogeneous base-locus
-problem.
+The October 5 audit verified [P-029 and its Rees graph calculation](#p-029-complement-morphisms-and-two-generated-positive-line-bundles).
+It checked the codimension-two class group and section extension, the
+positivity of the degree of a nonconstant morphism and the height-two
+argument. Integrality is used in the final support argument. For a
+reducible curve, one would also need to show that the base locus meets
+every component in dimension one. Regular functions on the complement are
+constant. The morphism to \(\mathbf P^1\) requires a generating pencil and
+recovers the original homogeneous base-locus condition. For the equal-degree
+regular-sequence presentation, linear type gives the single graph equation
+\(uG-vF=0\).
 
 ### 2. P-035: the homogeneous primary/Gorenstein criterion survives audit
 
-Suppose F,G cut out C set-theoretically in projective space. Their common
-factor is impossible, so J=(F,G) is a homogeneous height-two complete
-intersection. There is no extra cone component supported only at the vertex:
-the radical of J is the affine-cone prime P=I_C, since the vertex is already
-in that cone. A complete intersection is unmixed. With its sole minimal
-prime P it is therefore P-primary, and S/J is graded Gorenstein.
+The October 5 audit verified the
+[primary and graded Gorenstein criterion](#p-035-arithmetically-gorenstein-thickening-criterion).
+The vertex already belongs to the affine cone, and unmixedness of the
+complete intersection then gives a primary ideal. The audit checked the
+type calculation by dualizing the minimal Hilbert–Burch resolution.
+The last free module has rank \(\mu(J)-1\), which gives the number of
+minimal canonical-module generators.
 
-Conversely, if a homogeneous P-primary height-two ideal J has graded
-Gorenstein quotient, it is perfect of grade two. A minimal Hilbert--Burch
-resolution has ranks (mu(J)-1, mu(J), 1). The Cohen--Macaulay type is
-mu(J)-1, because the last differential is minimal and dualizing the
-resolution produces that number of minimal canonical-module generators.
-Type one forces mu(J)=2. The two homogeneous generators form a regular
-sequence and have radical P.
-
-This proof does not conflate a locally Gorenstein multiple curve with an
-arithmetically Gorenstein curve. For an lci projective thickening X, the
-useful equivalent formulation is to demand both an isomorphism
-omega_X=O_X(t) and vanishing of its full Rao module
-H1(P3,I_X(n)) for every n. That conjunction gives the graded Gorenstein
-property. Merely producing a transverse Gorenstein algebra or a
-subcanonical multiple structure leaves the global cohomology condition
-unresolved.
+For an lci projective thickening \(X\), the equivalent condition combines
+\(\omega_X\simeq\mathcal O_X(t)\) with \(H^1(\mathbf P^3,\mathcal I_X(n))=0\)
+for every \(n\). A transverse Gorenstein algebra or a subcanonical
+multiple structure leaves the Rao module to be checked.
 
 ### 3. The smooth-quadric ordinary/symbolic power theorem survives audit
 
-Let Q be a smooth quadric and C an integral Cartier divisor of type (a,b),
-1<=a<=b. Write I for the saturated homogeneous prime ideal. Smoothness of C
-is not needed, because (q,t) is still a local regular sequence in P3 whenever
-t cuts out C on the smooth Q. For sheaf powers one has
+The October 5 audit verified the [smooth-quadric power proof](formal-normal-intersection.md#12-ordinary-ideal-powers-on-a-smooth-quadric-complete-proof)
+for integral Cartier divisors of positive bidegrees, including singular
+curves. It checked the local colon identity, ordinary homogeneous lifting
+by binary monomial products in every characteristic, and exclusion of an
+embedded vertex prime by saturation.
 
-    0 -> I_sheaf^(m-1)(d-2) --q--> I_sheaf^m(d)
-      -> O_Q(d-am,d-bm) -> 0.
-
-The local colon identity and reduction modulo q justify both sides of this
-sequence. In degree b the quotient sections lift to b-a+1 ambient forms
-T_i because H1(P3,O(b-2))=0. Their m-fold products span
-H0(Q,O(m(b-a),0)) in every characteristic: use a monomial basis, with no
-binomial-coefficient division. For d>=bm, multiply them by ambient
-degree-(d-bm) forms, which surject to O_Q(d-bm,d-bm). For d<bm the
-quotient has no sections. Thus every quotient section lifts in the ORDINARY
-power I^m. Induction after subtracting such a lift proves
-
-    (I^m)_d = H0(P3,I_sheaf^m(d))
-
-for every integer d, hence saturation of every power.
-
-Off the cone vertex the prime is a complete-intersection prime in a regular
-ring. Its associated graded algebra is polynomial over its domain quotient,
-so these local powers have no embedded primes. The only remaining possible
-embedded prime is the irrelevant maximal ideal, excluded by saturation.
-Consequently each I^m is I-primary and equals I^(m).
-
-The verifier `computations/verify_quadric_powers.m2` passed freshly under
-`/opt/homebrew/bin/M2 --script`, checking C0 through m=6 and two other
-quadric divisor examples through m=4. These computations corroborate the
-uniform proof; they are not its induction.
-
-This removes hidden symbolic generators from arbitrary-order calculations
-for C0, but does not turn a primary ideal into a two-generated ideal.
-Indeed the checked C0 power quotients remain non-Cohen--Macaulay. Nor does
-finite generation of the symbolic Rees algebra invoke the dimension-three
-local Cowsik result in the dimension-four homogeneous coordinate ring.
+The verifier `computations/verify_quadric_powers.m2` passed under
+`/opt/homebrew/bin/M2 --script`, checking \(C_0\) through \(m=6\) and two
+other quadric divisors through \(m=4\). The finite checks corroborate the
+uniform proof. The checked \(C_0\) power quotients remain non-Cohen–Macaulay.
+The dimension-three local Cowsik criterion has different hypotheses from
+those for the dimension-four homogeneous coordinate ring.
 
 ### 4. P-012/P-014: positive-characteristic hinge audit
 
@@ -1685,48 +1584,20 @@ intersection away from the affine-cone vertex.
 
 #### Proof with the lifting step made explicit
 
-Write script-I for the ideal sheaf of C. For every m and d there is a sheaf
-exact sequence
+The [complete proof](formal-normal-intersection.md#12-ordinary-ideal-powers-on-a-smooth-quadric-complete-proof)
+establishes the colon identity locally and proves that the restriction
+sequence
 
     0 -> script-I^(m-1)(d-2) --q--> script-I^m(d)
-      -> O_Q(d-am,d-bm) -> 0.                         (1)
+      -> O_Q(d-am,d-bm) -> 0                         (1)
 
-At a point of C choose local equations (q,t), where t defines C in Q.
-The identities `(q,t)^m:q=(q,t)^(m-1)` and
-`(q,t)^m mod q=(t^m)` prove (1), including its kernel. Away from C the same
-sequence is immediate.
-
-At m=1,d=b, the quotient is O_Q(b-a,0). Since H1(P3,O(b-2))=0,
-degree-b forms in I lift its full section space. Choose lifts
-T_0,...,T_(b-a) of a monomial basis of H0(O_Q(b-a,0)).
-Their m-fold products span H0(O_Q(m(b-a),0)) in every characteristic.
-There is no division by a characteristic-dependent binomial coefficient.
-
-For d<bm the right-hand term of (1) has no global sections. For d>=bm put
-n=d-bm. Ambient degree-n forms surject onto H0(O_Q(n,n)), and monomial
-multiplication gives the surjection
-
-    H0(O_Q(m(b-a),0)) tensor H0(O_Q(n,n))
-        -> H0(O_Q(d-am,d-bm)).                         (2)
-
-Consequently every section of the quotient in (1) has an explicit lift in
-the ORDINARY power I^m. This matters: sheaf exactness alone would not prove
-surjectivity on global sections.
-
-Inductively suppose all sections of script-I^(m-1)(d-2) lie in the ordinary
-power. Subtract the lift just constructed from a section of script-I^m(d).
-The difference is q times a section of the preceding sheaf power, hence
-belongs to I^m. Starting with m=0 proves
-H0(script-I^m(d))=(I^m)_d in every degree, which is precisely saturation.
-
-Off the cone vertex, I is a prime lci ideal. Its associated graded ring is
-locally a polynomial algebra over the domain S/I, so its powers are locally
-I-primary. All possible embedded associated primes are therefore supported
-at the vertex. Saturation excludes that associated prime. Thus I^m is
-I-primary, and localization at I gives the symbolic-power equality.
-
-The ruling-line case (a=0 or b=0) is separately a two-linear-form complete
-intersection and also has the equality. The proof above is for a,b>0.
+is surjective on global sections by lifts in the ordinary power \(I^m\).
+For \(d\ge bm\) these lifts use products of degree-\(b\) equations
+\(T_0,\ldots,T_{b-a}\) of \(C\) and ambient degree-\((d-bm)\) forms.
+The \(T_i\) lift a basis of \(H^0(Q,\mathcal O_Q(b-a,0))\) multiplied by
+the Cartier section defining \(C\). For \(d<bm\) the quotient has
+no sections. The ruling-line case has the same ordinary and symbolic
+power equality because its ideal is generated by two linear forms.
 
 #### Literature connection
 
@@ -1739,7 +1610,7 @@ normal torsion-freeness for a monomial curve on xy-wz:
 The author publication list verifies the earlier paper:
 <https://www-fourier.univ-grenoble-alpes.fr/~morales/publications-web-Marcel-Morales2014.pdf>.
 The exact uniform scope of the 1992 proof was not read in full, so this note
-labels its general statement as proved by the displayed argument, with
+labels its general statement as proved by the linked argument, with
 classical overlap explicitly acknowledged.
 
 ### 3. Consequences usable at arbitrary normal order
@@ -1782,8 +1653,7 @@ space, with 18-dimensional q-divisible kernel and five-dimensional quotient.
 The companion M2 script `research/computations/verify_quadric_powers.m2` checks C0 powers
 m=1,...,6 over QQ and the formula (4) over a range of degrees. It also checks
 the analogous (1,4) monomial quintic and a nonmonomial (2,4) quadric divisor.
-The finite computations are consistency checks; the theorem is the argument
-above, rather than an extrapolation from those checks.
+The finite computations check consistency with the linked proof.
 
 For C0 the observed Betti totals of S/I^m are
 

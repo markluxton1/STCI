@@ -93,6 +93,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-A-0006](arguments/transverse_specialization.md) | Transverse specialization of normal cones and the filtered equation comparison | complete | [scope](arguments/transverse_specialization.md#scope) |
 | [STCI-A-0009](arguments/normal_koszul_cancellation.md) | Normal Koszul cancellation and the actual equation filtration | complete | [scope](arguments/normal_koszul_cancellation.md#scope) |
 | [STCI-A-0010](arguments/punctual_comparison_defects.md) | Conormal entry annihilation and punctual comparison defects | complete | [scope](arguments/punctual_comparison_defects.md#scope) |
+| [STCI-A-0011](arguments/one_step_boundary_repair.md) | One-step boundary repair in the actual equation module | complete | [scope](arguments/one_step_boundary_repair.md#scope) |
 
 ## Frameworks
 
@@ -100,6 +101,8 @@ Untyped source passages do not synthesize proof-route reviews.
 | --- | --- | --- | --- |
 | [STCI-F-0001](frameworks/torus_supported_boundaries.md) | Full torus boundaries and equations of moving supported ideals | in_use | [scope](frameworks/torus_supported_boundaries.md#scope) |
 | [STCI-F-0002](frameworks/embedded_torus_quotients.md) | Embedded torus quotients and projective endpoint descent | in_use | [scope](frameworks/embedded_torus_quotients.md#scope) |
+| [STCI-F-0003](frameworks/formal-normal-geometry.md) | Formal normal geometry of intersections containing the rational quartic | in_use | [scope](frameworks/formal-normal-geometry.md#fixed-setup) |
+| [STCI-F-0004](frameworks/arithmetic_supported_lifts.md) | Arithmetic lifting of prescribed supported intersections | proposed | [scope](frameworks/arithmetic_supported_lifts.md#scope) |
 
 ## Investigations
 
@@ -204,8 +207,11 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-A-0006: proof owner for STCI-R-0062 (neighborhood Tor sequences and Artin–Rees); proof owner for STCI-R-0063 (two normal cones and the two lowest equation degrees).
 - STCI-A-0009: proof owner for STCI-R-0065 (shifted normal Koszul filtration and comparison on representatives); proof owner for STCI-R-0066 (full initial ideal, strict shifted resolution, and integral perturbation).
 - STCI-A-0010: proof owner for STCI-R-0067 (entrywise Koszul identities and the sharp DVR family); proof owner for STCI-R-0068 (filtered syzygy lifting and actual fiber calculation); proof owner for STCI-R-0069 (free supported algebra and full equation filtration).
+- STCI-A-0011: no declared backlinks.
 - STCI-F-0001: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040] → [STCI-F-0001] (owner STCI-F-0001).
 - STCI-F-0002: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); motivates: [STCI-F-0002] → [STCI-I-0004] (owner STCI-I-0004); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056] → [STCI-F-0002] (owner STCI-F-0002).
+- STCI-F-0003: no declared backlinks.
+- STCI-F-0004: no declared backlinks.
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
 - STCI-I-0002: motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-I-0003: informs: [STCI-I-0003] → [STCI-F-0001, STCI-F-0002] (owner STCI-I-0003); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0003] (owner STCI-I-0003); uses: [STCI-R-0044, STCI-R-0046, STCI-R-0052, STCI-R-0054] → [STCI-I-0003] (owner STCI-I-0003).

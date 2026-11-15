@@ -127,8 +127,8 @@ defect. The [normal sextic cyclic cover](supplements/SEXTIC_PAIR_REDUCTION.md)
 retains unresolved singularity corrections, so its normal-cover invariants
 cannot simply enter the same smooth-surface inequality. Spectral Picard
 torsion, carrier Weil-class torsion and the
-[arithmetic endpoint defect](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md)
-are different objects; no general comparison map identifies them.
+[arithmetic endpoint defect](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md#root-specialization-and-the-remaining-endpoint-defects)
+are different objects; the [arithmetic Framework](frameworks/arithmetic_supported_lifts.md#bridges) locates the missing comparison.
 
 ## Proved arrows and proposed bridges
 
