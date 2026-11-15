@@ -34,74 +34,23 @@ of \(x_2,x_3\) instead. [Dense orbit coordinates and finite images](../../argume
 
 ### Endpoint transitions and determinant
 
-On \(x_0\ne0\) take the regular normal parameters
+On \(x_0\ne0\), regular normal parameters are \(a_0=x_2/x_0-r^3=r^3U\), \(b_0=x_3/x_0-r^4=r^4V\). On \(x_3\ne0\), set \(z=x_2/x_3\), \(a_\infty=x_1/x_3-z^3\), \(b_\infty=x_0/x_3-z^4\). The conormal transition is
 \[
- a_0=x_2/x_0-r^3=r^3U,\qquad b_0=x_3/x_0-r^4=r^4V.
+\binom{a_\infty}{b_\infty}=
+\begin{pmatrix}-3r^{-6}&2r^{-7}\\-4r^{-7}&3r^{-8}\end{pmatrix}
+\binom{a_0}{b_0},\qquad\det=-r^{-14}.
 \]
-On \(x_3\ne0\) take \(z=x_2/x_3\),
-\(a_\infty=x_1/x_3-z^3\), \(b_\infty=x_0/x_3-z^4\).
-On the overlap inside \(\Omega\) the full changes of coordinates are
-\[
- z=(u/v)r^{-1},\quad \alpha=v^2/u^3,\quad\beta=v^3/u^4,
- \qquad (a_\infty,b_\infty)=(z^3(\alpha-1),z^4(\beta-1)).
-\]
-In the conormal sheaf \(E=\mathcal I/\mathcal I^2=N_C^\vee\) this gives
-\[
- \binom{a_\infty}{b_\infty}
- =
- \begin{pmatrix}-3r^{-6}&2r^{-7}\\-4r^{-7}&3r^{-8}\end{pmatrix}
- \binom{a_0}{b_0},
- \qquad \det=-r^{-14}.
-\]
-For the containing quadric \(q=x_0x_3-x_1x_2\), the conormal sequence
-has subline \(\mathcal O_{\mathbf P^1}(-8)\) and quotient
-\(\mathcal O_{\mathbf P^1}(-6)\). Its class is represented by
-\(-2r^{-1}\) in \(H^1(\mathcal O_{\mathbf P^1}(-2))\) in the frames of
-the transition proof. For example, the conormal frame
-\((b_0-\tfrac32ra_0,a_0)\) on the first chart becomes a frame on the
-entire opposite chart after multiplying both entries by \(r^{-7}\).
-Thus \(N_C\cong\mathcal O_{\mathbf P^1}(7)^{\oplus2}\). The extension
-class is essential to this splitting calculation. [Conormal transition
-and characteristic dependence](../../arguments/quartic_specialization_and_symbols.md#conormal-transition-p-009-characteristic-jump-in-the-normal-bundle-of-c_0).
+The quadric-conormal extension class is \(-2r^{-1}\in H^1(\mathcal O(-2))\); in characteristic zero this yields \(N_C=\mathcal O(7)^2\). Its characteristic-two jump is proved in the [conormal transition argument](../../arguments/quartic_specialization_and_symbols.md#conormal-transition-p-009-characteristic-jump-in-the-normal-bundle-of-c_0).
 
-For the determinant divisor, let \(\Phi:\mathcal O_C^2\to N_C\) be
-the normal components of the global infinitesimal scalings of \(x_2,x_1\)
-in that order. Evaluate the two vector fields on the regular normal
-parameters above. At zero the column values are \((r^3,0)\) and
-\((-3r^3,-4r^4)\). At infinity, scaling \(x_2\) scales \(z\) and acts
-on \(\alpha,\beta\) with exponents \(-3,-4\), while scaling \(x_1\)
-fixes \(z\) and scales \(\alpha\) alone. The matrices are
+For the two infinitesimal transverse scalings (of \(x_2,x_1\)), the normal-component map \(\Phi:\mathcal O_C^2\to N_C\) has endpoint matrices
 \[
- \Phi_0=
- \begin{pmatrix}r^3&0\\0&r^4\end{pmatrix}
- \begin{pmatrix}1&-3\\0&-4\end{pmatrix},
- \qquad
- \Phi_\infty=
- \begin{pmatrix}z^3&0\\0&z^4\end{pmatrix}
- \begin{pmatrix}-3&1\\-4&0\end{pmatrix}.
+\Phi_0=\operatorname{diag}(r^3,r^4)
+\begin{pmatrix}1&-3\\0&-4\end{pmatrix},\qquad
+\Phi_\infty=\operatorname{diag}(z^3,z^4)
+\begin{pmatrix}-3&1\\-4&0\end{pmatrix}.
 \]
-Their determinants are \(-4r^7\) and \(4z^7\) in the corresponding
-normal frames. Each constant matrix is invertible, so the invariant
-factors at each endpoint have orders \(3,4\). On the overlap
-\((-r^{-14})(-4r^7)=4z^7\), as required by the normal-component
-transition. The map is an isomorphism on \(C\cap\Omega\). Consequently
-\[
- \operatorname{div}(\det\Phi)=7p_0+7p_\infty
-\]
-as the zero divisor of a section of \(\det N_C\). Its degree agrees with
-\(\deg\det N_C=14\). The compactification using independent \(u,v\)
-directions gives the same divisor via its own differential. [Exact
-normal map in the chart torus](../../arguments/torus/tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map).
-
-The failure of the generic coordinates to extend is visible already in
-\(E\otimes k(C)\). At zero they divide \(a_0,b_0\) by \(r^3,r^4\).
-At infinity the two regular parameters divide by \(z^3,z^4\) to give
-\(\alpha-1,\beta-1\), which are related to \(U,V\) by an invertible
-constant matrix to first order. Both \(U,V\) have poles in that regular
-conormal frame as well. Thus the generic coordinates give a formal
-normal system over the dense orbit, and the endpoint models require the
-regular parameters and their full transition. The length-seven frame
-cokernel at each endpoint belongs to the ambient normal map \(\Phi\).
+Thus in characteristic zero its determinants are \(-4r^7\), \(4z^7\); the invariant-factor orders are \((3,4)\) at both endpoints, and
+\(\operatorname{div}(\det\Phi)=7p_0+7p_\infty\). This is the ambient normal-map degeneracy, not an intrinsic failure of the generic formal coordinates. The [exact chart-torus normal map](../../arguments/torus/tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map) gives the independent coordinate model. The dense-torus variables \(U,V\) divide the regular endpoint parameters by powers of \(r\) or \(z\), so endpoint formal equations must use these regular frames and their transitions.
 
 ### Transport along the two moving directions
 
