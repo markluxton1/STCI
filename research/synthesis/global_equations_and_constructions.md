@@ -1027,3 +1027,11 @@ computation or deformation-existence claim was part of that review.
 ## Primary complement obstructions and actual sections
 
 The [complete section-obstruction account](complement_section_obstructions.md) proves the continuous rank-two criterion on the complement of any smooth connected complex space curve and the twisted Chow-Witt comparison over an algebraically closed field of characteristic different from two. For the positive split bundles relevant to equations, the checked primary classes impose only degree divisibility. Hartogs identifies actual algebraic or holomorphic sections with homogeneous pairs, while the nonplanar low-degree control shows that the primary conditions do not realize them. The complement is nonaffine, so affine splitting and representability results do not close that gap.
+
+## Historical mixed-weight sextic negative control (exact identities)
+
+This is a finite geometric control, not an unrestricted STCI obstruction. In the affine normal coordinates `c_0=-u`, `c_2=(t^3+u)^3-t(t^4+tu+q)^2`, set `f=c_0^2+c_2^2+q c_0`. Its quadratic normal form is
+\[
+4t^{10}q^2-(4t^{11}+1)qu+(1+t^{12})u^2.
+\]
+The discriminant is `1+8t^11-16t^10`, of degree eleven, and `gcd(4t^11+1,t^12+1)=1`. Thus the generic quadratic normal cover is nonsplit in this example. On the quadric `q=0`, after writing `w=t^3+u`, the restriction factors as `(w-t^3)^2(w^4+1)`; the residual ruling lines `w^4=-1` are generically smooth because the `w`-derivative there is `4w^3(w-t^3)^2`. The elementary numerical identity `2*3^2-7*3+8=5` is only a degree-gap check. None of these identities produces a supported pair.

@@ -1048,3 +1048,15 @@ for [length-eight and length-six quotient schemes](../arguments/torus_sextic_res
 and [residual absorption](../arguments/torus_sextic_residuals.md#residual-absorption-in-a-proper-flat-family).
 The [historical source review](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md#L625-L631)
 records the scope of the original residual and full-limit checks.
+
+## Mixed-weight sextic: exact quadric restriction and four residual lines
+
+For `c_0=t^3-w`, `c_2=w^3-t(tw+q)^2`, and `f=h q^3+c_2^2-c_0^2`, the restriction to the containing quadric is
+\[
+f|_{q=0}=(w-t^3)^2(w^4-1).
+\]
+Consequently the residual ruling lines are `w^4=1`; along each such line `c_2=-w^2 c_0`. The quadratic normal initial form at the marked curve, in `w=t^3+u`, is
+\[
+4t^{10}q^2-4t^{11}qu+(t^{12}-1)u^2,
+\]
+whose discriminant is `16t^{10}`. This is a split normal node over the function field, in contrast to the nonsplit control in the global-equations chapter. The derivative of the quadric restriction at `w=1` equals `4(1-t^3)^2`, proving generic smoothness of that residual line away from its contact points. These are exact restrictions and attachment identities, not a classification of all sextic carriers or an STCI construction.
