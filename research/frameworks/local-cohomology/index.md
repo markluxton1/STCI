@@ -32,6 +32,21 @@ and ambient coprimality. The
 normalization, the exact remaining conditions, and the independent
 all-stage and endpoint controls.
 
+## Mathematical ownership and retrieval
+
+This Framework owns the **simultaneous-ancestor question in**
+\(H_I^2(S)\), rather than existence of an embedded multiple curve.
+The [conormal interpretation](../../arguments/local-cohomology/local_cohomology_conormal_geometry.md)
+explains principal parts; the [finite direction reduction](../../results/quartic_ancestor_direction_reduction.md)
+is the established fixed-quartic restriction; the
+[remaining two-target equations](open_quartic_ancestors.md)
+are unresolved. The [polynomial-dual argument](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md)
+and [all-stage obstructions](../../arguments/local-cohomology/local_cohomology_ancestor_obstructions.md)
+cover specified families, not all multipliers. Compare
+[formal normal geometry](../formal-normal-geometry/index.md) only through
+its shared normal filtration, and [residual construction](../residual-construction/index.md)
+when interpreting the residual degree of an actual pair.
+
 ## Bridges
 
 Work on the two surviving interior components in the actual equation
