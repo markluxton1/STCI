@@ -49,31 +49,13 @@ Since \(L_C\) has zero middle coefficient while \(A_C-2z_c\) has middle coeffici
 
 ## 15. Genus-two conductor-line positions on the fixed quartic
 
-Under the accepted genus-two blowup and mate-stratum hypotheses, if \(\Gamma=V(t_0,t_1)\) is the conductor line and \(f\) is the basepoint-free adjoint pencil, then \(t_i=g s_i\) with \(\operatorname{div}(g)=D_M\sim-K_M\). Consequently the scheme-theoretic intersection length is
+Under the accepted genus-two blowup and mate-stratum hypotheses, the conductor line \(\Gamma=V(t_0,t_1)\) and basepoint-free adjoint pencil satisfy \(t_i=g s_i\), with \(\operatorname{div}(g)=D_M\sim-K_M\). Hence the **scheme-theoretic** contact length is
 \[
 \tau=\operatorname{length}(C\cap\Gamma)=D_M\cdot c^\#=4-f\cdot c^\#.
 \]
-The two strata give \(\tau=2\) for \(\lambda=0\) and \(\tau=3\) for \(\lambda=1\), including nonreduced contact.
+It is two in the \(\lambda=0\) stratum and three in the \(\lambda=1\) stratum, including nonreduced contact. The unique quadric \(q=x_0x_3-x_1x_2\) contains every length-three secant line. In characteristic zero, trisecant contact is either three distinct points or a triple endpoint, never \([2,1]\); no line meets \(C\) in length four. The [complete line classification, field-orbit distinctions, and exact carrier ideal](../../arguments/carriers/genus_two_trisecant_carrier_proof.md#1-all-trisecant-lines-their-actual-intersection-schemes-and-field-orbits) and the [ordinary bisecant and tangent equations](../../arguments/carriers/genus_two_trisecant_carrier_proof.md#13-ordinary-bisecants-tangent-contact-and-explicit-line-equations) are authoritative.
 
-The unique quadric \(q=x_0x_3-x_1x_2\) restricts to degree two on any line. Thus a line meeting \(C\) in length at least three lies on \(q\), and the complete trisecant family is
-\[
-\Gamma_\kappa: x_2-\kappa x_0=x_3-\kappa x_1=0\quad(\kappa\in k),\qquad
-\Gamma_\infty: x_0=x_1=0.
-\]
-Their common restriction divisor has degree three: three distinct points for \(\kappa\ne0,\infty\), and a triple endpoint for \(\kappa=0,\infty\). No trisecant has contact partition \([2,1]\); no line meets \(C\) in length four.
-
-For \(P(a)=[1:a:a^3:a^4]\), the secant through distinct finite \(a,b\) lies on \(q\) precisely when \(a^2+ab+b^2=0\), equivalently \(a^3=b^3\). Otherwise it is an ordinary bisecant. At finite \(a\), \(q(\ell P(a)+mP'(a))=-3a^2m^2\), so its tangent has length two for \(a\ne0\), but the endpoint tangent is a trisecant. Ordinary bisecants through infinity are included. Explicit line equations for finite \(a,b\) are
-\[
-\begin{aligned}
-T_0&=x_2-(a^2+ab+b^2)x_1+ab(a+b)x_0,\\
-T_1&=x_3-(a+b)(a^2+b^2)x_1+ab(a^2+ab+b^2)x_0.
-\end{aligned}
-\]
-After removing the common factor \((t-as)(t-bs)\), their restrictions are \(s(t+(a+b)s)\) and \(t^2+(a+b)st+(a^2+ab+b^2)s^2\). For a secant through infinity, \(T_0=x_1-ax_0\), \(T_1=x_2-a^3x_0\), with residual quadrics \(s^2\) and \(t^2+ast+a^2s^2\). The exact executable identity check is [verify_session_genus_two_line_positions_2026_10_10.m2](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_two_line_positions_2026_10_10.m2).
-
-A useful limitation: three intersections of \(C\) with \(\Gamma\) do **not** automatically produce three branch points of the residual degree-two conductor cover. Horizontal components can be connected to the strict curve by ADE chains and contracted, identifying points downstairs. The separate all-length chain arguments must be used instead of naive branch counting. Also, the adjoint pencil argument gives \(h^0(M,-K_M)=1\), not \(h^0(M,-nK_M)=1\) for every \(n\); the mate correction may have fractional coefficients.
-
-
+Three intersections of \(C\) with \(\Gamma\) do **not** imply three branch points of the residual conductor double cover: horizontal components can meet the strict curve through ADE chains and be contracted, identifying points downstairs. The all-length chain argument remains necessary. Also the adjoint-pencil argument yields \(h^0(M,-K_M)=1\), **not** \(h^0(M,-nK_M)=1\) for all \(n\); the mate correction may have fractional coefficients.
 
 ## 16. Bisection fiber counts: integral descent and the three-center obstruction
 
