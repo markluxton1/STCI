@@ -790,15 +790,7 @@ constraint before one chooses a mate degree.
 
 ### 6. Audit conclusion and limits
 
-The general inequality, index threshold, exact equality consequences,
-conditional primitive-triple obstruction, tame extension, and
-intrinsic line-bundle identity all pass this independent scope review.
-The relevant qualifications are e>=4 for the triple conclusion, an
-actual embedded-triple obstruction rather than a numerical substitute,
-tameness of every actual local index in positive characteristic, and
-the explicit surviving-line convention when R=1. None of these results
-bounds actual indices for arbitrary normal carriers, handles wild
-indices, or excludes all balanced rational curves from being STCI.
+The general inequality, index threshold, equality consequences, conditional primitive-triple obstruction, tame extension, and line-bundle identity were independently checked. The triple conclusion needs \(e\ge4\) and an **actual embedded-triple obstruction**; positive-characteristic indices must be tame, and \(R=1\) uses the stated surviving-line convention. These results neither bound arbitrary normal-carrier indices nor handle wild indices or exclude all balanced rational curves.
 
 ### 7. Addendum: direct construction on a smooth projective threefold
 
