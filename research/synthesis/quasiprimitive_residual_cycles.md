@@ -164,3 +164,13 @@ common part of two vertical divisors and may have smaller degree.
 
 
 ---
+
+## Exact non-lci attachment control (historical checker retired)
+
+This local counterexample is over `k[t,x,y]` in **every characteristic**, and is not claimed to arise from homogeneous equations on the fixed quartic. Let `I=(x,y)`, `L=(x^2,xy+t y^2)`, `J=L+(y^3)`, and `K=(x+t y,t^2)`. The historical exact ideal computation establishes `saturate(L,(t))=J`, `L:J=K`, and `J intersect K=L`. A Hilbert–Burch matrix for `J` is
+```
+H = [ y        0
+     -x+t*y  -y^2
+     -t^2     x+t*y ].
+```
+Its maximal minors generate `J` and `gens(J)*H=0`. Restricting `H` to `k[t]=k[t,x,y]/I` leaves only the entry `-t^2` in its third row, first column. After adjoining the two actual equation columns, the resulting attachment module is `k[t]/(t^2)`, with zeroth Fitting ideal `(t^2)`; likewise `(K+I)/I=(t^2)`, giving actual residual intersection length two. This exhibits torsion attachment not captured by the determinant of the torsion-free source, and does not assert that the primary attachment is lci. The exact matrix identities, not the Macaulay2 implementation, are the retained certificate.
