@@ -690,3 +690,13 @@ in the genus bounds remain necessary in every characteristic.
 [Benguş-Lasnier–Gaffney–Rangachev, Theorem 3.1](https://arxiv.org/html/2310.16558v4) applies to a flat embedded complex-analytic curve family X over a smooth base, contained in a flat Gorenstein curve family Y, with no embedded point at the origin and with X a union of full induced components in every fiber. It proves fiberwise residual specialization and flat finite attachment, hence locally constant attachment length. Its ambient reduced-equisingularity discussion does not restrict that full-component flatness theorem to reduced X. The primary theorem and its full-primary-decomposition proof were freshly checked here.
 
 This does not authorize arbitrary full-primary extraction in a changing CI family: if multiplicity along C increases, the degree of the full primary component increases and it cannot be a projective flat family with fixed Hilbert polynomial. A flat lower witness can instead cease to be a full component at the special fiber, failing the theorem's component hypothesis. The once-link family in [reverse liaison](residual_liaison.md) is a different flat object. Neither a reduced-support Milnor invariant nor the constant full-attachment conclusion may be substituted after these hypotheses fail.
+
+## Exact finite arithmetic filter for small movement divisors
+
+For each integer `epsilon` from 1 through 8, the historical arithmetic enumeration considers integer tuples `(r,s,a,b)` satisfying
+\[
+r\ge2,\quad s>r,\quad 3r\le a\le b,\quad ab=4rs,\quad
+r\mid\epsilon s,\quad
+4r(a+b)=7r(r+s)-\epsilon(s-r).
+\]
+It uses the proved cutoff `5r <= 3 epsilon (2 epsilon+1)` for the small-order regime, and the forced tail `s=3r` beyond that cutoff. For small `r`, write `c=7r-epsilon`, `N=4r^2(15r^2+epsilon^2)` and enumerate **signed** divisor pairs `uv=N`; candidate degrees are `a=(u+16r^2)/c`, `b=(v+16r^2)/c`, retained only when integral and satisfying all original equations. For the large-order tail, odd epsilon gives no integral solutions; for even `epsilon=2h`, signed divisor pairs of `48h^2` yield the remaining finite candidates after integrality and original-equation checks. This is a complete **necessary integer enumeration only for epsilon=1,...,8**. It does not test Picard descent, ambient equation lifting, or geometric existence.
