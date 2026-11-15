@@ -210,26 +210,7 @@ complete-intersection thickening.
 
 ## 6. Provenance and audit status
 
-Accepted inputs:
-
-- [Normal-layer and socle budget](../normal-geometry/socle_and_loewy_bounds.md#source-2026-10-13-evening-entirely-thick-rees-progressmd).
-- [Movement-gap cost audit](#source-2026-10-14-generalization-moving-relation-gap-cost-independent-auditmd).
-
-New structural input:
-
-- [Moving-power quotient and obstruction tower](moving_power_and_spectral_roots.md#2026-10-14-generalization-moving-power-obstruction-tower).
-- [Independent tower audit](moving_power_and_spectral_roots.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
-
-The independently reconstructed proof retained here establishes the second-relation evaluation, exact torsion-inclusive degree
-identity and the combined defect bound under their stated hypotheses.
-The full written proofs, rather than agreement alone, establish these claims.
-
-The first-relation tower and the new payment address different stages:
-movement can eliminate first-relation cohomology obstructions, while
-the next coprime relation must then degenerate somewhere. The remaining
-research question is whether the exact global socle identity and the
-later relation filtration force a contradiction after retaining all
-such degeneration divisors.
+Inputs are the [normal-layer/socle budget](../normal-geometry/socle_and_loewy_bounds.md#source-2026-10-13-evening-entirely-thick-rees-progressmd), [movement-gap audit](#source-2026-10-14-generalization-moving-relation-gap-cost-independent-auditmd), [moving-power tower](moving_power_and_spectral_roots.md#2026-10-14-generalization-moving-power-obstruction-tower), and [independent tower review](moving_power_and_spectral_roots.md#2026-10-14-generalization-moving-purepower-tower-independent-audit). The proof here establishes second-relation evaluation, torsion-inclusive degree identity, and combined defect bound under their hypotheses. Movement can clear first-relation cohomology obstructions while the next coprime relation degenerates; whether the global socle identity and later relation filtration rule out all degeneration divisors remains open.
 
 ---
 
