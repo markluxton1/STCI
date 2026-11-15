@@ -38,5 +38,5 @@ The [two-node continuation](../../arguments/carriers/normalization_conductor_pha
 
 ## 3.10G Actual-pair geometric obstruction
 
-The reviewed geometric continuation of the conditional (6,16) investigation forces a nonreduced full-root multiplier divisor for an actual supported pair with the stated saturated movement-two bridge. The normal strict-sextic singularity budget gives 144 versus at most 50; ampleness of the strict mate extends the restriction to nodal roots. The resulting degree-52 exceptional locus is necessary, not sufficient, and is not a condition on arbitrary abstract root incidence points.
+Under the conditional \((6,16)\) saturated movement-two bridge, the [geometric continuation](../../arguments/carriers/normalization_conductor_phase2_addendum.md#geometric-exceptional-locus-for-actual-pairs) forces a nonreduced full-root multiplier divisor for any actual supported pair. The normal strict-sextic singularity budget is \(144\) versus at most \(50\), and ampleness extends the argument to nodal roots. The degree-52 exceptional locus is **necessary, not sufficient**; the statement does not apply to arbitrary abstract root-incidence configurations.
 
