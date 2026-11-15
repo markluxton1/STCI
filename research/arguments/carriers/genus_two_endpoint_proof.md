@@ -456,6 +456,10 @@ Full original mathematical text follows. Preserve source-level evidence status, 
 
 ## Source: 2026-10-10-session-genus-two-bisection-local-fibers-independent-audit.md
 
+# Genus-two bisection local fibers: independent verification
+
+Sections 1–4 independently verify the [three-blowup fiber exclusion](genus_two_bisection_three_center_proof.md), conditional on the second-pencil and smooth embedded-lift reductions. Section 5 is a **proposed global route**, not a proved exclusion. No new CAS verification is asserted.
+
 # Genus-two bisection local fibers: independent audit and remaining structural route
 
 Date: 2026-10-10 local time; written at 2026-10-11T01:17 UTC.
@@ -633,6 +637,10 @@ separate full auditor and is not asserted by this local-fiber record.
 ---
 
 ## Source: 2026-10-10-session-genus-two-bisection-second-pencil-independent-audit.md
+
+# Genus-two bisection double cover and fiber weights
+
+The independently checked second-pencil and fiber-weight reductions below are conditional on the accepted genus-two mate reduction. They do not exclude the entire bisection stratum. Fiber multiplicities and surviving partitions remain explicit.
 
 # Independent audit: the genus-two bisection double cover and its fiber weights
 
@@ -872,6 +880,10 @@ A reduced nodal fiber \(A+B\) on \(V\), with \((-1)\)-components, can be blown u
 ---
 
 ## Source: 2026-10-10-session-genus-two-lambda-one-marked-prime-audit.md
+
+# Exceptional prime classes in the lambda-one plane marking
+
+The bounded classification below is conditional; it neither proves the existence of any listed quartic normalization nor excludes the lambda-one stratum.
 
 # Bounded audit: exceptional prime classes in the lambda-one plane marking
 
