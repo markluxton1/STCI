@@ -37,8 +37,7 @@ the full initial ideal. The [normal-filtration account](normal_filtration_bounda
 covers the separate comparison of initial equations with the filtered actual
 equation module.
 
-The earlier source audit records the distinction between the two arguments
-and the scope of its historical lookup. [October 17 source audit](https://github.com/markluxton1/STCI/blob/af116e79e7dfee77d92e00d429faa304f411fad9/research/synthesis/COMMON_FACTOR_SOURCE_AUDIT.md)
+For the source comparison and its limits, see the [common-factor source audit](https://github.com/markluxton1/STCI/blob/af116e79e7dfee77d92e00d429faa304f411fad9/research/synthesis/COMMON_FACTOR_SOURCE_AUDIT.md).
 
 ### Horizontal common divisors and special-fiber defects
 
