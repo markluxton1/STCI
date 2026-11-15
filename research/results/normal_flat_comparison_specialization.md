@@ -96,5 +96,5 @@ applies to the chosen transverse slice in the formal two-equation setting.
 The October 24 source records independent reconstruction of its local
 specialization development. It uses the earlier local equation comparison
 and the inherited supported quadruple calculation.
-[Specialization source](../supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-transverse-specialization-and-normal-flatness) ·
+[Specialization source](../synthesis/rees_and_vertical_controls.md#delta-transverse-specialization-and-normal-flatness) ·
 [Supported quadruple](supported_quadruple_equation_filtration.md)

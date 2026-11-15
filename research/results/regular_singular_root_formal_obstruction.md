@@ -12,10 +12,10 @@ statement: "No such all-orders formal Cartier lift exists. In particular, any su
 dependencies:
   - STCI-R-0005
 evidence:
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 independent_audits:
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
+  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 legacy_ids: []
 supersedes: []
 superseded_by: []

@@ -116,8 +116,8 @@ The October 23 independent review checked the quotient denominator, the
 direction of comparison, the presentation syzygies and the completed-local
 smooth-carrier calculation. It kept the leading coefficient nonzero in the
 coefficient domain while allowing it to vanish at the closed point.
-[October 23 comparison review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#filtered-equation-module) ·
-[Smooth-carrier review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#additional-smooth-carrier-proposition)
+[October 23 comparison review](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#filtered-equation-module) ·
+[Smooth-carrier review](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#additional-smooth-carrier-proposition)
 
 The October 24 continuation derives the generic generator excess and the
 DVR torsion sequence. The independent review checks both under their separate

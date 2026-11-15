@@ -14,13 +14,13 @@ dependencies:
   - STCI-R-0005
   - STCI-R-0006
 evidence:
-  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
-  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
-  - "research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md"
+  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
+  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
+  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-second-zero-and-dual-compression"
 independent_audits:
-  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
-  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
-  - "research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md"
+  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
+  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
+  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-second-zero-and-dual-compression"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -57,9 +57,9 @@ The second obstruction is a necessary condition for actual supported complete in
 
 ## Proofs and independent reviews
 
-- [Universal first incidence](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd) and [independent audit](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit).
-- [Actual second obstruction](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-quadratic-root-second-obstruction) and [independent audit](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit).
-- [Global second-dual compression](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression) and [independent audit](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit).
+- [Universal first incidence](../synthesis/quadratic_root_torsion_two_lifting.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd) and [independent audit](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit).
+- [Actual second obstruction](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-quadratic-root-second-obstruction) and [independent audit](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit).
+- [Global second-dual compression](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression) and [independent audit](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit).
 
 These links identify the retained current proof and independent reconstruction; the computations were not rerun in this consolidation.
 

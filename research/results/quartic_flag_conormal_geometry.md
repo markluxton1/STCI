@@ -13,7 +13,7 @@ dependencies:
 evidence:
   - "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
   - "research/supplements/QUARTIC_CONORMAL_AND_CONTACT.md"
-  - "research/computations/quartic_flag_incidence_2026_10_24.json"
+  - "https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/computations/quartic_flag_incidence_2026_10_24.json"
 independent_audits:
   - "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
 legacy_ids: []

@@ -8,7 +8,7 @@
 |---|---|---|
 | Normal quartic | Reduced and nonreduced exceptional graphs; normal-sheaf bounds; final passage coefficients | [normal global audit](../synthesis/quartic_carrier_proof.md#3-normal-quartics-exceptional-correction-and-actual-ideal-vanishing), [nonreduced audit](../synthesis/quartic_carrier_proof.md#34-nonreduced-support-trees-and-the-actual-maximal-ideal) |
 | Genus zero | Vanishing and four minimal-degree models; cone ruling and local-unit obstruction; complete scroll/Veronese cases | [genus-zero audit](../supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md) |
-| Genus one | ADE degree-four del Pezzo; \(D_5\) lattice saturation; full conductor; ribbon-net and five partitions | [genus-one interface audit](../synthesis/quartic_carrier_proof.md#genus-one-interface-review), [repeated-partition audit](../supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md#dependency-guide-independent-certificate-versus-source-proof) |
+| Genus one | ADE degree-four del Pezzo; \(D_5\) lattice saturation; full conductor; ribbon-net and five partitions | [genus-one interface audit](../synthesis/quartic_carrier_proof.md#genus-one-interface-review), [repeated-partition audit](../supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md#dependency-guide-independent-certificate-versus-source-proof) |
 | Genus two, bisection | Second-pencil integral correction, Cartier double, nilideal and global conormal map | [bisection audit](../supplements/GENUS_TWO_BISECTION_PROOF.md) |
 | Genus two, nonendpoint | Complete effective-divisor split; all-length chain formula | [nonendpoint audit](../supplements/GENUS_TWO_NONENDPOINT_PROOF.md) |
 | Genus two, endpoint | Full quartic ideal identity; coefficient-zero cases, local A/D types, doubled-horizontal ADE roots | [endpoint full audit](../supplements/GENUS_TWO_ENDPOINT_PROOF.md) |
@@ -25,7 +25,7 @@ The Cartier double \(2c\) is a \((2,2,2)\) complete intersection in \(\mathbf P^
 \[
 M(d)=\begin{pmatrix}d_0&d_1&d_2\\d_1&d_2+d_3&d_4\\d_2&d_4&d_5\end{pmatrix}.
 \]
-The off-conic condition \(\eta_1^2\ne\eta_0\eta_2\) is necessary for the surface to remain an integral two-quadric intersection. The derivative binary quartic then has exactly the partitions \([1,1,1,1]\), \([2,1,1]\), \([2,2]\), \([3,1]\), \([4]\). The first two are excluded by the fixed-center argument; the other three by universal ideal calculations. In particular, the invisible \(d_2\)-coefficient and all kernel-direction boundaries must be retained. The [independent repeated-partition audit](../supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md#dependency-guide-independent-certificate-versus-source-proof) contains the actual ideal certificates and successful Macaulay2 check, not just sample pencils.
+The off-conic condition \(\eta_1^2\ne\eta_0\eta_2\) is necessary for the surface to remain an integral two-quadric intersection. The derivative binary quartic then has exactly the partitions \([1,1,1,1]\), \([2,1,1]\), \([2,2]\), \([3,1]\), \([4]\). The first two are excluded by the fixed-center argument; the other three by universal ideal calculations. In particular, the invisible \(d_2\)-coefficient and all kernel-direction boundaries must be retained. The [independent repeated-partition audit](../supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md#dependency-guide-independent-certificate-versus-source-proof) contains the actual ideal certificates and successful Macaulay2 check, not just sample pencils.
 
 ### Entire genus-one conductor: proof by graded modules
 
@@ -50,13 +50,13 @@ Moreover, \((L,R)B=(L)\), so the entire upstairs conductor has coordinate ring
 \[
 B/(L)=C_\Gamma[z]/(z^2-Az-R_1).
 \]
-It is free of rank two over \(C_\Gamma\), including over doubled or reducible conics. The trace-zero generator \(w=z-A/2\) satisfies \(w^2=A^2/4+R_1\). This derivation, including the sign in \(Rz=AR-LR_1\), is independently checked in the [algebra audit](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd). The [original conductor proof](https://github.com/markluxton1/STCI/blob/93e9ed279535ff0bd2a21855b5757e9bd04127db/research/notes/2026-10-09-session-genus-one-entire-conductor.md) also gives the six exact fixed-curve quadrics and their coefficient restrictions, which remain necessary for the root-partition arguments.
+It is free of rank two over \(C_\Gamma\), including over doubled or reducible conics. The trace-zero generator \(w=z-A/2\) satisfies \(w^2=A^2/4+R_1\). This derivation, including the sign in \(Rz=AR-LR_1\), is independently checked in the [algebra audit](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd). The [original conductor proof](https://github.com/markluxton1/STCI/blob/93e9ed279535ff0bd2a21855b5757e9bd04127db/research/notes/2026-10-09-session-genus-one-entire-conductor.md) also gives the six exact fixed-curve quadrics and their coefficient restrictions, which remain necessary for the root-partition arguments.
 
 ### Ribbon-net completeness and repeated-root certificates
 
 The ribbon-net calculation is intrinsic, rather than a choice of a convenient normal direction. For the rational normal quartic \(c\subset\mathbf P^4\), the six quadratic generators \(E_0,\ldots,E_5\) have conormal classes satisfying three relations on an affine parameter chart. A homomorphism \(I_c/I_c^2\to\mathcal O_c(-6)\) sends these six quadrics to binary quadratics. The relations force all six images to depend on exactly three scalars \((A,B,C)\); the [direct conormal proof](../supplements/GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md) checks both parameter charts and gives \(I_c/I_c^2\simeq\mathcal O(-6)^3\). Every nonzero direction defines an everywhere-surjective quotient. Its projective orbit is determined by \(\Delta=B^2-AC\). If \(\Delta=0\), the common net base locus contains a cubic surface (a cone over a twisted cubic), so no two quadrics in that net define the required integral quartic. Thus only \(\Delta\ne0\) remains.
 
-The [repeated-partition audit](../supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md#dependency-guide-independent-certificate-versus-source-proof) uses only parameter scalings and reversal, which **preserve the actual projection center**; arbitrary \(\mathrm{PGL}_2\) changes would not justify the reduction. Its exhaustive normal forms include \([4]\) at an endpoint, the endpoint and nonendpoint \([3,1]\) alternatives, and the nonendpoint \([2,2]\) form \(L_c=(U^2+UV-V^2/2)^2\).
+The [repeated-partition audit](../supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md#dependency-guide-independent-certificate-versus-source-proof) uses only parameter scalings and reversal, which **preserve the actual projection center**; arbitrary \(\mathrm{PGL}_2\) changes would not justify the reduction. Its exhaustive normal forms include \([4]\) at an endpoint, the endpoint and nonendpoint \([3,1]\) alternatives, and the nonendpoint \([2,2]\) form \(L_c=(U^2+UV-V^2/2)^2\).
 
 For the nonendpoint \([3,1]\) branch the exact determinant is \(-k(k^2+9)\). The independent ideal equality reduces all candidate coefficients to \(k=0\), \(\eta=(1,-1/2,1)\), and a one-parameter pencil equivalent to
 \[
@@ -106,7 +106,7 @@ whose symmetric-matrix determinant is \(243/128\). In the entire quadratic condu
 \[
 T=Q+\sigma(Q)=2q+A\ell,\qquad N=Q\sigma(Q)=q^2+Aq\ell-R_1\ell^2.
 \]
-Reducing \(T^2,N\) modulo \(R_c\) with lexicographic order \(y,v,w\), the coefficients of \(yv^3,yv^2w\) are respectively \((114,336)\) and \((1,4)\); their minor is \(120\ne0\). Thus \(T^2/N\) is nonconstant. If \(Q^n\) descended for any positive \(n\), the generic ratio \(r=\sigma(Q)/Q\) would satisfy \(r^n=1\), making \(T^2/N=2+r+r^{-1}\) constant (also in the split or nonreduced quadratic cases in characteristic zero). Contradiction. This is a fixed-pencil all-power obstruction, not a classification of all \([2,2]\) pencils. The executable calculation is [verify_session_ribbon_22_bounded_2026_10_09.py](../computations/verify_session_ribbon_22_bounded_2026_10_09.py); the broader partition coverage is supplied separately by the repeated-partition audit.
+Reducing \(T^2,N\) modulo \(R_c\) with lexicographic order \(y,v,w\), the coefficients of \(yv^3,yv^2w\) are respectively \((114,336)\) and \((1,4)\); their minor is \(120\ne0\). Thus \(T^2/N\) is nonconstant. If \(Q^n\) descended for any positive \(n\), the generic ratio \(r=\sigma(Q)/Q\) would satisfy \(r^n=1\), making \(T^2/N=2+r+r^{-1}\) constant (also in the split or nonreduced quadratic cases in characteristic zero). Contradiction. This is a fixed-pencil all-power obstruction, not a classification of all \([2,2]\) pencils. The executable calculation is [verify_session_ribbon_22_bounded_2026_10_09.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_ribbon_22_bounded_2026_10_09.py); the broader partition coverage is supplied separately by the repeated-partition audit.
 
 ## 3. Nonendpoint trisecant: exact all-length contradiction
 
@@ -239,7 +239,7 @@ With \(z_c=U^2V^2\), restriction to the curve yields \(R_C=-z_cL_C\) and \((R_1)
 \[
 \operatorname{Supp}\operatorname{div}(L_C)\subseteq\operatorname{Supp}\operatorname{div}(A_C-2z_c).
 \]
-Since \(L_C\) has zero middle coefficient while \(A_C-2z_c\) has middle coefficient \(-2\), a squarefree \(L_C\) is impossible. This is a necessary support condition, not an assertion that all repeated-root strata are excluded by the same argument. The exact symbolic companion is [verify_session_genus_one_entire_conductor_2026_10_09.py](../computations/verify_session_genus_one_entire_conductor_2026_10_09.py).
+Since \(L_C\) has zero middle coefficient while \(A_C-2z_c\) has middle coefficient \(-2\), a squarefree \(L_C\) is impossible. This is a necessary support condition, not an assertion that all repeated-root strata are excluded by the same argument. The exact symbolic companion is [verify_session_genus_one_entire_conductor_2026_10_09.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_genus_one_entire_conductor_2026_10_09.py).
 
 ## 15. Genus-two conductor-line positions on the fixed quartic
 
@@ -263,7 +263,7 @@ T_0&=x_2-(a^2+ab+b^2)x_1+ab(a+b)x_0,\\
 T_1&=x_3-(a+b)(a^2+b^2)x_1+ab(a^2+ab+b^2)x_0.
 \end{aligned}
 \]
-After removing the common factor \((t-as)(t-bs)\), their restrictions are \(s(t+(a+b)s)\) and \(t^2+(a+b)st+(a^2+ab+b^2)s^2\). For a secant through infinity, \(T_0=x_1-ax_0\), \(T_1=x_2-a^3x_0\), with residual quadrics \(s^2\) and \(t^2+ast+a^2s^2\). The exact executable identity check is [verify_session_genus_two_line_positions_2026_10_10.m2](../computations/verify_session_genus_two_line_positions_2026_10_10.m2).
+After removing the common factor \((t-as)(t-bs)\), their restrictions are \(s(t+(a+b)s)\) and \(t^2+(a+b)st+(a^2+ab+b^2)s^2\). For a secant through infinity, \(T_0=x_1-ax_0\), \(T_1=x_2-a^3x_0\), with residual quadrics \(s^2\) and \(t^2+ast+a^2s^2\). The exact executable identity check is [verify_session_genus_two_line_positions_2026_10_10.m2](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_two_line_positions_2026_10_10.m2).
 
 A useful limitation: three intersections of \(C\) with \(\Gamma\) do **not** automatically produce three branch points of the residual degree-two conductor cover. Horizontal components can be connected to the strict curve by ADE chains and contracted, identifying points downstairs. The separate all-length chain arguments must be used instead of naive branch counting. Also, the adjoint pencil argument gives \(h^0(M,-K_M)=1\), not \(h^0(M,-nK_M)=1\) for every \(n\); the mate correction may have fractional coefficients.
 

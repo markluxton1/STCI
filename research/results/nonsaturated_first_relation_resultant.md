@@ -14,13 +14,13 @@ dependencies:
   - STCI-R-0010
   - STCI-R-0011
 evidence:
-  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
+  - "research/synthesis/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
   - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 independent_audits:
-  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
+  - "research/synthesis/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
   - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 legacy_ids: []
 supersedes: []
 superseded_by: []

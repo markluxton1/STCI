@@ -36,22 +36,22 @@ results change and how to choose between constructive and obstructive aims.
 
 | Interface | Available result or construction | Missing implication or bounded test |
 | --- | --- | --- |
-| Actual global pairs | [Exact source spaces](supplements/ACTUAL_EQUATION_SPACES.md), [Chow/complement equivalents](synthesis/global_equations_and_constructions.md) | Produce a proper pair with exhausted cycle, or prove an incompatibility covering every relevant source; dimension and equivalent formulation alone do neither |
+| Actual global pairs | [Exact source spaces](synthesis/global_equation_jets.md#exact-homogeneous-equation-spaces-and-fixed-quadric-restrictions), [Chow/complement equivalents](synthesis/global_equations_and_constructions.md) | Produce a proper pair with exhausted cycle, or prove an incompatibility covering every relevant source; dimension and equivalent formulation alone do neither |
 | Torus limits and supported deformations | [Full invariant limits](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary), [explicit residual controls](arguments/torus_sextic_residuals.md) | The sharp eigenform sextic quotient bound is eight; a residual full limit needs a degree-ten generator. For sole support, consider both full-ideal limits and their attracting loci, then test two-generation on moving ideals; a selected I_C-primary boundary is a useful local probe, not the default classification. Residual examples do not establish supported incidence or coverage |
 | Formal normal realization | [Simultaneous compatibility](frameworks/formal-normal-geometry.md#simultaneous-realization-and-compatibility-problems) | Connect an embedded generic thickening to one ambient scheme and two compatible global carriers. Test equality with their intersection and then sole support |
 | Embedded lower thickenings | [One-step and filtration tests](synthesis/03-infinitesimal-geometry.md) | Determine a proper decomposable determinant-zero point in the actual equation spaces across a justified family of lower embeddings |
 | Normal filtration under specialization | [Prescribed \(\mu_4\) normal initial ideals](results/quartic_normal_initial_base_change.md), [quotient-to-Hilbert investigation](investigations/quotient-hilbert-comparison/index.md) | For a declared moving family, control specialization of the filtered equation data separately from projective flatness. The prescribed family provides an explicit failure of associated-graded base change |
 | General roots and initial ideals | [Root and normal-filtration tools](synthesis/normal_filtration_boundary_obstructions.md) | Handle singular/nonreduced roots, nonsaturation, extra generators, noncoprime next relations and failure of joint generation; no arbitrary entirely-thick→movement-two reduction is known |
-| Normal Koszul pages and extended Rees torsion | [Incoming differential filtration](results/normal_koszul_comparison_defect.md), [extended Rees persistence](supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#7-consequences-limits-and-next-questions) | Compare the page filtration of \(\Delta\) with the \(u\)-power filtration of equation-module torsion over \(\mathcal O_C[u]\). The explicit Rees duration family proves its own page match. A general sheaf-level identification is open |
+| Normal Koszul pages and extended Rees torsion | [Incoming differential filtration](results/normal_koszul_comparison_defect.md), [extended Rees persistence](synthesis/rees_and_vertical_controls.md#7-consequences-limits-and-next-questions) | Compare the page filtration of \(\Delta\) with the \(u\)-power filtration of equation-module torsion over \(\mathcal O_C[u]\). The explicit Rees duration family proves its own page match. A general sheaf-level identification is open |
 | Punctual comparison defects | [Statements and proofs](arguments/punctual_comparison_defects.md#statements-and-proofs) | [Punctual relative defect under sole support](#punctual-relative-defect-under-sole-support) |
-| Conditional sextic incidence | [Structured incidence](supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-the-exact-remaining-scheme), [forced norm for actual pairs](synthesis/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge), [unique actual lift](synthesis/rank_strata_and_sextic_lifts.md) | Cubic matching determines at most one actual sextic on the necessary root open; resolve the surviving root/target incidence and then a mate and support. Generic-conic, zero-defect pencil and endpoint strata remain; the seed and free cube-orbit chart are already excluded within their exact scopes |
+| Conditional sextic incidence | [Structured incidence](synthesis/rank_strata_and_sextic_lifts.md#6-the-exact-remaining-scheme), [forced norm for actual pairs](synthesis/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge), [unique actual lift](synthesis/rank_strata_and_sextic_lifts.md) | Cubic matching determines at most one actual sextic on the necessary root open; resolve the surviving root/target incidence and then a mate and support. Generic-conic, zero-defect pencil and endpoint strata remain; the seed and free cube-orbit chart are already excluded within their exact scopes |
 | Actual carrier families | [Fixed-carrier descent](synthesis/04-carriers.md), [Q-0001](questions/cartier_projection_models.md), [phase reduction](results/projection_phase_reduction.md), [plane conductor test](results/singleton_plane_conductor_descent.md) | Compute admissible images, full inverse support and complete conductor phase; include non-Cartier/multiple-branch carriers outside singleton classification |
 | Elliptic projection | [Canonical gluing](synthesis/projection_and_elliptic_gluing.md) | Pass component polarization, actual node gluing, determinant support and projection admissibility simultaneously; palindromic and paired examples fail at different gates |
 | Elliptic double-inverse construction | [Actual five-parameter source](synthesis/elliptic_double_inverse_construction.md) | Test full inverse support fiberwise while retaining smoothness, basepoint freedom and finite birationality, then test actual section descent; the failed fixed member does not decide the family |
 | Sole-support sextic pairs and their cyclic cover | [Sextic profiles and normal cover](supplements/SEXTIC_PAIR_REDUCTION.md) | The three divisor profiles, nonreduced common symbol, index-nine point and cover invariants constrain realization; no incompatible upper irregularity bound or global construction is known |
 | Uniform residual control | [Attachment/capacity and finite jets](synthesis/residual_intersections_and_jets.md) | Prove a positive residual bound on a covered global family including exceptional strata, or construct pairs reaching zero; one carrier certificate is not uniform |
 | Residual absorption and modifications | [Marked ribbon construction](synthesis/marked_deformation_and_absorption.md), [actual quadric modification](synthesis/quadric_modification_and_global_corrections.md) | Iterate an actual transfer while preserving the marked embedding, equation lifts and properness; the specified quadric modification's complete lift space has positive residual degree, while general modification sources remain open |
-| Normal surface geometry | [Quintic–octic ADE theorem](synthesis/quintic_octic_surface_constraints.md), [sextic ADE reduction](supplements/SEXTIC_ADE_REDUCTION.md) | Non-ADE quintics remain outside the (5,8) exclusion; the sextic pencil still needs actual source compatibility and higher contact after its primitive-triple reduction |
+| Normal surface geometry | [Quintic–octic ADE theorem](synthesis/quintic_octic_surface_constraints.md), [sextic ADE reduction](synthesis/quintic_octic_ade_cover_and_triple.md#sextic-pairs-with-an-ade-pencil-carrier) | Non-ADE quintics remain outside the (5,8) exclusion; the sextic pencil still needs actual source compatibility and higher contact after its primitive-triple reduction |
 | Nonnormal carrier geometry | [Gorenstein-normalized quintics](synthesis/quintic_gorenstein_normalizations.md), [remaining toric center incidence](synthesis/quintic_toric_center_incidence.md), [conductor differential](synthesis/carrier_conductor_differential_comparison.md) | Decide full inverse support on the remaining M locus before testing actual power descent; singular local gluing alone does not realize the projective carrier |
 | Spectral graded families and ambient equations | [Order-three parameterization](synthesis/order_three_roots_and_sextic_lifts.md), [actual source quotient](synthesis/actual_octic_root_lift_comparison.md), [torsion-two charts](synthesis/quadratic_root_torsion_two_lifting.md) | The completed 24-point affine slice has no compatible sextic; test the full root incidence with its rank boundaries and all corrections. Positive octic constructions remain useful for containing intersections |
 | Finite jets and equation search | [Intrinsic global jets](synthesis/global_equation_jets.md), [bounded certificates](synthesis/bounded_equation_certificates.md) | Use actual source-image filtrations and full nonlinear corrections; existential finite realization is distinct from a uniform effective witness-degree bound |
@@ -97,8 +97,8 @@ The [order-one calculation](results/order_one.md#historical-jet-discrepancy-comp
 defines the discrepancies and links the finite \(2R\) evaluation. The
 [ruling-fiber rank jump](results/jet_geometry.md) concerns \(e=2\).
 The \(e=0,1\) sources have their own calculations, including the
-[comparison-zero direction](supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#comparison-zero-point)
-and the [repaired Cartier intersection argument](supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#repair-of-the-fixed-ruling-stci-implication).
+[comparison-zero direction](synthesis/rees_and_vertical_controls.md#comparison-zero-point)
+and the [repaired Cartier intersection argument](synthesis/rees_and_vertical_controls.md#repair-of-the-fixed-ruling-stci-implication).
 These are models for the comparison. [R-0001](results/quartic_carrier_exclusion.md)
 closes the integral quartic-carrier mate cases, including the historical
 \(e=0,1\) order-one targets.
@@ -109,7 +109,7 @@ For the fixed \(C_0\) over an algebraically closed characteristic-zero field,
 can actual quartics \(F,G\in I_4\) and a homogeneous \(\alpha\in M_{-7}\)
 satisfy \(F\alpha=u\), \(G\alpha=v\), where \(M=H_I^2(S)\), \(I=I_{C_0}\),
 \(S=k[x,y,z,w]\), \(u=xz/(qB)\), and \(v=yw/(qB)\), with \(q=xw-yz\)
-and \(B=xz^2-y^2w\)? The [finite order-four reduction](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#uniform-finite-reduction-for-the-remaining-degree-four-locus)
+and \(B=xz^2-y^2w\)? The [finite order-four reduction](synthesis/contact_duality_and_global_descent.md#uniform-finite-reduction-for-the-remaining-degree-four-locus)
 puts \(\alpha\) in the 30-dimensional space \((0:_M I^4)_{-7}\), with
 principal-part order exactly four. Each quartic source is 18-dimensional.
 The [finite moment and tensor proof](results/quartic_ancestor_direction_reduction.md)
@@ -132,14 +132,14 @@ in the full 74-row tensor, and ambient coprimality.
 The existing canonical-triple reductions leave \(d_2=2,3,4\) and
 \(d_3=4\) in this degree-one lane.
 
-The [ruling-ratio slices](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#new-all-stage-exclusion-both-ruling-ratio-slices),
+The [ruling-ratio slices](synthesis/contact_duality_and_global_descent.md#new-all-stage-exclusion-both-ruling-ratio-slices),
 [explicit all-stage family](supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md#3-an-integral-coefficient-functional-excludes-the-whole-explicit-family),
-[normalized parity certificate](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#a-corrected-polynomial-dual-exclusion-for-the-normalized-parity-family)
-and [complete rational endpoint certificates](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
+[normalized parity certificate](synthesis/contact_duality_and_global_descent.md#a-corrected-polynomial-dual-exclusion-for-the-normalized-parity-family)
+and [complete rational endpoint certificates](synthesis/contact_duality_and_global_descent.md#complete-rational-endpoint-ancestor-exclusions)
 retain their separate exact proofs and provide controls.
 Non-quasi-cyclicity of the full module needs an argument beyond this fixed
 degree. The quartic-mate theorem concerns sole support, whereas the ancestor
-[generic length calculation](supplements/LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md#2026-10-05-localcoh-generic-length)
+[generic length calculation](synthesis/contact_duality_and_global_descent.md#2026-10-05-localcoh-generic-length)
 gives a degree-four residual cycle for any such pair.
 
 ### Multiplicity-six incidence in actual jets
@@ -147,19 +147,19 @@ gives a degree-four residual cycle for any such pair.
 For a saturated quasiprimitive length-six structure, express the finite
 incidence conditions through successive jet ranks on a declared actual
 source. Test whether the saturated divisors and the higher-jet maps
-together explain the rank strata. The [perfect pairings](supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit)
-use finite-flat Gorenstein duality. The [rank-six Fitting identity](supplements/MULTIPLICITY_MIXED46_AND_MF6.md#1-mf6-including-the-torsion-and-generation-steps)
+together explain the rank strata. The [perfect pairings](synthesis/quasiprimitive_residual_cycles.md#2026-10-05-mf6-pairing-audit)
+use finite-flat Gorenstein duality. The [rank-six Fitting identity](synthesis/quasiprimitive_residual_cycles.md#1-mf6-including-the-torsion-and-generation-steps)
 also uses generation by the two ambient normal coordinates in the embedded
 lci setting.
 
 For a hypothetical characteristic-zero \((4,b)\) pair with sole support
-\(C_0\) and \(e=0\), the [global bound](supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-further-audit)
+\(C_0\) and \(e=0\), the [global bound](synthesis/quasiprimitive_residual_cycles.md#2026-10-05-mf6-further-audit)
 is \(\deg D_2\ge3\). For bidegree \((4,6)\) and \(e=0\), set
-\((d_2,d_3)=(\deg D_2,\deg D_3)\). The [nonregular exclusion](supplements/LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#independent-audit-of-the-mf6-degree-three-nonregular-exclusion)
+\((d_2,d_3)=(\deg D_2,\deg D_3)\). The [nonregular exclusion](synthesis/contact_duality_and_global_descent.md#independent-audit-of-the-mf6-degree-three-nonregular-exclusion)
 for \((d_2,d_3)=(3,6)\) leaves the regular-ratio case to the general
 [quartic-mate theorem](results/quartic_carrier_exclusion.md). The
 \((d_2,d_3)=(4,5)\) type also has its own
-[complete exceptional-fiber exclusion](supplements/MULTIPLICITY_SIX_QUARTIC_CONTACT.md#4-complete-remaining-exceptional-fiber)
+[complete exceptional-fiber exclusion](synthesis/quasiprimitive_residual_cycles.md#4-complete-remaining-exceptional-fiber)
 in bidegree \((4,6)\). These closed mate cases supply saturated filtration
 and actual source tests for the structural comparison.
 
@@ -169,14 +169,14 @@ Fix \(C_0\) over an algebraically closed field of characteristic zero.
 Consider an integral sextic of exact normal order two whose first exceptional
 divisor is the reduced sum of two distinct integral, content-free sections
 with no vertical component. A hypothetical sole-support mate must pass the
-[split numerical and first-normal reductions](supplements/SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md#p-041-torsion-corrected-sharpening-of-the-surviving-split-sextics).
+[split numerical and first-normal reductions](synthesis/toric_sextic_residuals_and_limits.md#p-041-torsion-corrected-sharpening-of-the-surviving-split-sextics).
 Keep the \([4]\) and \([2,2]\) strata separate.
-The [fixed ramified first-normal specimen](supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#proved-the-fixed-p-041-boundary-normal-form-has-no-stci-carrier)
+The [fixed ramified first-normal specimen](synthesis/quasiprimitive_residual_cycles.md#proved-the-fixed-p-041-boundary-normal-form-has-no-stci-carrier)
 has an all-mate exclusion from higher jets. In the \(d=1,[2,2]\) family
 with both residual ruling roots totally ramified and the two low evaluation
-zeros at their preimages, the [full higher-jet reduction](supplements/SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.md#result-and-scope)
+zeros at their preimages, the [full higher-jet reduction](synthesis/toric_sextic_residuals_and_limits.md#result-and-scope)
 leaves a necessary one-parameter line. The
-[bounded next test](supplements/SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.md#surviving-line-and-continuation-requirements)
+[bounded next test](synthesis/toric_sextic_residuals_and_limits.md#surviving-line-and-continuation-requirements)
 is to compute its normalization, conductor and numerical branch
 intersections, including exceptional parameter values. Integrality, mate
 descent and sole support still require separate checks. The
@@ -271,7 +271,7 @@ retain their value as bounded carrier investigations.
    that case; do not re-prove it root by root. Higher contact is a separate
    question, and sole support for (8,8) would require length sixteen.
 2. **Decide higher contact in the three surviving ADE (6,6) triple orbits.**
-   Use the [complete triple classification and actual sextic spaces](supplements/SEXTIC_ADE_REDUCTION.md#three-remaining-primitive-triple-orbits),
+   Use the [complete triple classification and actual sextic spaces](synthesis/quintic_octic_ade_cover_and_triple.md#three-remaining-primitive-triple-orbits),
    retaining all 27 dimensions, including the seven directions beyond
    quartic-source multiples. The first contact equation is known; higher
    coefficients through order eight and properness remain. Stop at an
@@ -350,7 +350,7 @@ an instruction to interrupt an already running investigation.
    irregularity bounds. Recomputing these is not the next test. Investigate an
    additional compatibility with the index-nine local classes, polarization and
    three defect profiles, or construct such data. Under the additional general-pencil
-   ADE hypothesis, use the [three surviving primitive-triple orbits](supplements/SEXTIC_ADE_REDUCTION.md)
+   ADE hypothesis, use the [three surviving primitive-triple orbits](synthesis/quintic_octic_ade_cover_and_triple.md#sextic-pairs-with-an-ade-pencil-carrier)
    and the computed actual sextic source and first contact equation; higher
    contact and support are still open. Stop at a new comparison,
    actual model, or an identified missing hypothesis. Distinguish the normal
@@ -376,7 +376,7 @@ an instruction to interrupt an already running investigation.
 5. <a id="supported-length-five-degeneration"></a> **Decide relative defect in a fixed supported length-five degeneration stratum.** Over \(A=k[[t]]\), take \(I=(x,y)\) and regular-sequence ideals \(J\subset A[[x,y]]\) with quotient free of rank five, \(\sqrt J=I\), generic algebra \(k((t))[y]/(y^5)\), and closed algebra \(k[x,y]/(x^2+y^3,xy)\). Can the R-0030 relative comparison defect be nonzero? The [current control](results/supported_length_five_defect_specialization.md) has zero relative defect despite nonzero closed-fiber defect. Use the full relative initial ideal and \(\operatorname{in}_I(IJ)\). Stop at one verified relative counterexample or a coverage theorem for this exact stratum. Sample computations leave the rest of the stratum open. This is a local structural question.
 
 6. **Track one actual equation obstruction as the quartic embedding varies.**
-   The [projection-center moduli](supplements/QUARTIC_PROJECTION_MODULI.md)
+   The [projection-center moduli](synthesis/quartic_carrier_proof.md#projection-center-moduli-and-the-exact-characteristic-two-comparison)
    identify C0's special orbit among smooth projected quartics. Choose a
    characteristic-zero one-parameter family leaving that orbit while retaining
    smooth embeddings, and first construct a relative marked source for one

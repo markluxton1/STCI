@@ -15,9 +15,9 @@ dependencies:
   - STCI-R-0001
 evidence:
   - research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md
-  - research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md
+  - research/synthesis/normalization_indices_and_power_descent.md#normal-carriers-class-group-torsion-symbolic-triples-and-local-indices
 independent_audits:
-  - research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md
+  - research/synthesis/normalization_indices_and_power_descent.md#normal-carriers-class-group-torsion-symbolic-triples-and-local-indices
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -40,8 +40,8 @@ Required hypotheses:
 ## Proof and verification
 
 - [Source proof](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem)
-- [Source proof](../supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-torsion)
-- [Independent audit](../supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-index12-filtered-compatibility)
+- [Source proof](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-normal-carrier-torsion)
+- [Independent audit](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-index12-filtered-compatibility)
 
 ## Dependencies and limitations
 

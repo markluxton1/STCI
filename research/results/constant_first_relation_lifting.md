@@ -12,9 +12,9 @@ statement: "Every linear factor direction m of f with multiplicity nonzero in th
 dependencies: 
   - STCI-R-0032
 evidence:
-  - research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md
+  - research/synthesis/global_lifting_interfaces.md#actual-generator-filtrations-and-the-cost-of-lifting-a-relation
 independent_audits:
-  - research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md
+  - research/synthesis/global_lifting_interfaces.md#actual-generator-filtrations-and-the-cost-of-lifting-a-relation
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -35,8 +35,8 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-geometrymd)
-- [Independent audit](../supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd)
+- [Source proof](../synthesis/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-equality-geometrymd)
+- [Independent audit](../synthesis/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd)
 
 ## Dependencies and limitations
 

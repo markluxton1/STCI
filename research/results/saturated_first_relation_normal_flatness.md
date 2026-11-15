@@ -12,10 +12,10 @@ scope:
 statement: "All ordinary J-adic layers J^i/J^(i+1) are locally free on C and every graded fiber is a binary complete intersection of degrees (r,s)."
 dependencies: []
 evidence:
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 independent_audits:
   - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 legacy_ids: []
 supersedes: []
 superseded_by: []

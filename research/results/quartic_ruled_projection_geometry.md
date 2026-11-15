@@ -11,11 +11,11 @@ statement: "The prescribed cone and projected cubic have the finite normalizatio
 dependencies: []
 evidence:
   - "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
-  - "research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md"
-  - "research/computations/verify_p4_ruled_surfaces_2026_10_24.py"
+  - "research/synthesis/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual"
+  - "https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_p4_ruled_surfaces_2026_10_24.py"
 independent_audits:
   - "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
-  - "research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md"
+  - "research/synthesis/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -48,4 +48,4 @@ No universal projected-scroll classification or STCI exclusion.
 
 ## Current proof
 
-[Quartic cones, graph sections and marked ruled models](../supplements/QUARTIC_CONES_AND_RULED_MODELS.md), [Paired-secant cubic: normalization, conductor and Gauss dual](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+[Quartic cones, graph sections and marked ruled models](../supplements/QUARTIC_CONES_AND_RULED_MODELS.md), [Paired-secant cubic: normalization, conductor and Gauss dual](../synthesis/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

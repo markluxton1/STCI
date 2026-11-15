@@ -67,5 +67,5 @@ coefficients in \(I\), the independence of the two quadratic symbols and
 the indicated filtered Koszul differential. The arithmetic check covers the
 explicit identity, algebra model and filtration dimensions. The written
 proof gives irreducibility and the reasoning that the initial ideal is full.
-[October 23 review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#higher-generator-counterexample) ·
+[October 23 review](../synthesis/normal_filtration_boundary_obstructions.md#higher-generator-counterexample) ·
 [Finite arithmetic check](../computations/verify_ideal_filtration_counterexamples_2026_10_23.py)

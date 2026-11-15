@@ -163,7 +163,7 @@ necessary invariants of its normal cyclic cover. It also excludes a reduced
 common first-normal divisor while retaining local nonreduced controls. The
 remaining global sextic realization problem is open; the cover's invariants are
 not those of an assumed smooth resolution, and no contradictory upper irregularity
-bound is known. The [ADE refinement](supplements/SEXTIC_ADE_REDUCTION.md)
+bound is known. The [ADE refinement](synthesis/quintic_octic_ade_cover_and_triple.md#sextic-pairs-with-an-ade-pencil-carrier)
 leaves three primitive-triple orbits under its global ADE pencil hypothesis.
 The actual 27-dimensional sextic source and its first contact equation are
 computed; higher contact, properness and sole support still need proof.

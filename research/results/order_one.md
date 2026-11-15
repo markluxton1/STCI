@@ -20,7 +20,7 @@ These statements do not apply to the entirely-thick branch.
 
 ## Proof sources and open questions
 
-The [order-one degree argument](../supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-uniform-order-one-frontier) uses [saturated duality](../supplements/CURVILINEAR_GENUS_AND_DEFECTS.md#2-direct-proof-of-the-saturated-duality-and-effective-defects) and the [numerical normal-sheaf inequality](../synthesis/numerical_surface_pullback.md). See also the [multiplicity-six pairing calculation](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit) and [primitive-fourth calculation](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-primitive-quadruple-universal).
+The [order-one degree argument](https://github.com/markluxton1/STCI/blob/d158a740d2449c458867ccbc5e3b2ee2c4bec2f4/research/supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-uniform-order-one-frontier) uses [saturated duality](../supplements/CURVILINEAR_GENUS_AND_DEFECTS.md#2-direct-proof-of-the-saturated-duality-and-effective-defects) and the [numerical normal-sheaf inequality](../synthesis/numerical_surface_pullback.md). See also the [multiplicity-six pairing calculation](../synthesis/quasiprimitive_residual_cycles.md#2026-10-05-mf6-pairing-audit) and [primitive-fourth calculation](../synthesis/normal_carrier_compression.md#2026-10-06-primitive-quadruple-universal).
 
 Open questions concern [jet discrepancies](../FRONTIER.md#successive-jet-discrepancies-in-actual-equation-spaces)
 and [multiplicity-six incidence](../FRONTIER.md#multiplicity-six-incidence-in-actual-jets).
@@ -35,4 +35,4 @@ The first quartic-source space K_R=H^0(Q,I_{R/Q}(1,3)) has dimension 7-e+epsilon
 
 The comparison-zero e=1 direction is excluded from the divisor-R formulation and is analyzed separately in the later e=1 rebuild. That rebuild also corrects an invalid inference that any mate meeting a fixed ruling line creates support outside C; the repaired argument uses intersection multiplicity on a smooth carrier. None of these calculations settles unrestricted characteristic-zero STCI.
 
-Sources: [October 6 jet-discrepancy framework](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-order-one-jet-discrepancy-framework) and [October 7 e=1 rebuild](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild). Preserve the original proofs and certificates pending claim-level audit.
+Sources: [October 6 jet-discrepancy framework](../synthesis/normal_carrier_compression.md#2026-10-06-order-one-jet-discrepancy-framework) and [October 7 e=1 rebuild](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild). Preserve the original proofs and certificates pending claim-level audit.

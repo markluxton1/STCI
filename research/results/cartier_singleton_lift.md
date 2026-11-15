@@ -16,8 +16,8 @@ dependencies:
 evidence:
   - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
 independent_audits:
-  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
-  - "research/supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md"
+  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
+  - "research/synthesis/normal_filtration_boundary_obstructions.md#symbolic-ribbons-valuation-bounds-and-normalization-controls"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -65,9 +65,9 @@ For \(C_0=[s^4:s^3t:st^3:t^4]\), the all-integral-quartic exclusion [STCI-R-0001
 ## Evidence and verification
 
 - [Original singular-normalization theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
-- [Independent new-scope audit: PASS](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit)
+- [Independent new-scope audit: PASS](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-cartier-lift-independent-audit)
 - [Earlier smooth-normalization framework](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
-- [Earlier independent smooth-normalization audit](../supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
+- [Earlier independent smooth-normalization audit](../synthesis/normal_filtration_boundary_obstructions.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
 
 These links identify the current scope-preserving proof homes. Their independent review covers the original mathematical statements; replacement review covers their consolidation.
 

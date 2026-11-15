@@ -12,9 +12,9 @@ scope:
 statement: "With A the transverse differential zero divisor and J^(n-1)=Soc(Y)(-D_n), equality of actual divisors holds: D_n=(n-1)A-B|c."
 dependencies: []
 evidence:
-  - "research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md"
+  - "research/synthesis/carrier_conductor_differential_comparison.md#conductor-transverse-differential-and-the-actual-top-socle"
 independent_audits:
-  - "research/supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md"
+  - "research/synthesis/carrier_conductor_differential_comparison.md#conductor-transverse-differential-and-the-actual-top-socle"
   - "research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md"
 legacy_ids: []
 supersedes: []
@@ -37,11 +37,11 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#exact-top-socle-divisor-for-an-actual-pair)
-- [Source proof](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#local-residue-identity-and-global-contact)
-- [Independent audit](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#exact-top-socle-divisor-for-an-actual-pair)
+- [Source proof](../synthesis/carrier_conductor_differential_comparison.md#exact-top-socle-divisor-for-an-actual-pair)
+- [Source proof](../synthesis/carrier_conductor_differential_comparison.md#local-residue-identity-and-global-contact)
+- [Independent audit](../synthesis/carrier_conductor_differential_comparison.md#exact-top-socle-divisor-for-an-actual-pair)
 - [Independent audit](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-transverse-socle-independent-audit)
-- [Claim-level acceptance](../supplements/CONDUCTOR_JACOBIAN_AND_SOCLE.md#consolidation-review)
+- [Claim-level acceptance](../synthesis/carrier_conductor_differential_comparison.md#consolidation-review)
 
 ## Dependencies and limitations
 

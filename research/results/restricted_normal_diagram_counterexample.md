@@ -216,12 +216,12 @@ strict triples and the square-zero distinction. The review checked
 recovery of the embedded ideal from the original degree-zero map.
 All seven finite arithmetic checks passed on replay.
 
-The [October 23 completeness review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#completeness-counterexample)
+The [October 23 completeness review](../synthesis/normal_filtration_boundary_obstructions.md#completeness-counterexample)
 checked the two local integral-hypersurface presentations, the common
 normal graded algebra, all nine restricted graded objects, the intrinsic
 nonisomorphism, and the distinction from the full diagram retaining
 the original bases and ambient maps. The
-[review assignments](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#review-assignments-and-findings)
+[review assignments](../synthesis/normal_filtration_boundary_obstructions.md#review-assignments-and-findings)
 also record separate checks of the general embedding bases and higher
 graded maps in the source investigation.
 

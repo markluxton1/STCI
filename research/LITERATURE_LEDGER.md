@@ -6,7 +6,7 @@ This ledger records the scope actually used in the research report. A source is
 not listed as settling more than its hypotheses permit. “No later resolution
 found” is a documented search result, not a proof that no unindexed work exists.
 
-The [affine/projective scope account](supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md) retains the exact lci-cone criterion, tensor-quotient proof failure, real-sphere CI counterexample, fixed-quadric Picard control, SCIP distinction, and failed unique-prime inference. They have distinct field and quantifier scopes; none settles the projective algebraically closed STCI problem.
+The [affine/projective scope account](synthesis/global_equations_and_constructions.md#affineprojective-scope-and-explicit-literature-counterchecks) retains the exact lci-cone criterion, tensor-quotient proof failure, real-sphere CI counterexample, fixed-quadric Picard control, SCIP distinction, and failed unique-prime inference. They have distinct field and quantifier scopes; none settles the projective algebraically closed STCI problem.
 
 ## Current status and general bounds
 
@@ -162,7 +162,7 @@ Lisa Mandal and Md. Ali Zinna, “On set-theoretic complete intersections for sm
 
 The abstract claims arbitrary dimension-three Noetherian affine lci curves are STCI, with a four-dimensional finite-field-closure analogue. The stated proof does not justify these broad claims. In Theorem 4.2 Step 3, the displayed splitting substitutes J/(c) for the tensor quotient J/cJ. The exact audit is elementary: in A=k[x,y,z], take J=(x,y), c=x and the resolution t↦(−yt,xt), (a,b)↦ax+by. Over B=A/(x), the proposed last term J/(x) produces middle kernel B(1,0), preceding image yB(1,0), and nonzero homology B/(y). If the notation means J/xJ instead, the nonzero class of x is killed by y, refuting rank-one local freeness. Neither reading repairs the step.
 
-The [existing exact proof audit and real-sphere counterexample](supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md#exact-audit-of-arxiv251107589v1-step-3) retain the full reasoning. The real example refutes the arbitrary-Noetherian-ring CI assertion; it does not refute every field-restricted STCI claim or furnish a projective algebraically closed counterexample. Keep these failed broad arguments distinct from the narrower published conditional theorems.
+The [existing exact proof audit and real-sphere counterexample](synthesis/global_equations_and_constructions.md#exact-audit-of-arxiv251107589v1-step-3) retain the full reasoning. The real example refutes the arbitrary-Noetherian-ring CI assertion; it does not refute every field-restricted STCI claim or furnish a projective algebraically closed counterexample. Keep these failed broad arguments distinct from the narrower published conditional theorems.
 
 ### Additional affine papers: verified scope versus discovery lead
 
@@ -172,7 +172,7 @@ The [existing exact proof audit and real-sphere counterexample](supplements/AFFI
 
 ### A failed negative-resolution claim
 
-Erdoğdu, [*Radically finite rings and space curves*, arXiv:2209.04489](https://arxiv.org/abs/2209.04489), cannot be used as a resolution. The [existing exact countercheck](supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md#the-failed-unique-prime-inference-in-arxiv220904489v1) isolates the proof's inference from a unique maximal ideal to a unique prime. In R=k[x,y]_(x,y), A=R[T], g=y+(1−y)T, the prime (x,g) has quotient k[y]_(y) and is strictly smaller than the unique maximal ideal (x,y,T) above it. This is an audit of that inference, not a projective counterexample.
+Erdoğdu, [*Radically finite rings and space curves*, arXiv:2209.04489](https://arxiv.org/abs/2209.04489), cannot be used as a resolution. The [existing exact countercheck](synthesis/global_equations_and_constructions.md#the-failed-unique-prime-inference-in-arxiv220904489v1) isolates the proof's inference from a unique maximal ideal to a unique prime. In R=k[x,y]_(x,y), A=R[T], g=y+(1−y)T, the prime (x,g) has quotient k[y]_(y) and is strictly smaller than the unique maximal ideal (x,y,T) above it. This is an audit of that inference, not a projective counterexample.
 
 ## Chow forms and global determinant representations
 

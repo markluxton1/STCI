@@ -181,13 +181,13 @@ map sends the fourth-order symbols to the matching kernel frames. The
 review also checked the support, length and nonlinear overlap in the two
 actual chart algebras.
 
-The [October 23 independent review](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#quartic-kernel-and-global-compatibility)
+The [October 23 independent review](../synthesis/normal_filtration_boundary_obstructions.md#quartic-kernel-and-global-compatibility)
 checked the overlap determinant, the balanced characteristic-zero frames,
 both conormal matrices and the characteristic-zero cokernel lengths.
 For characteristic two it checked the kernel and fourth-generator
 transitions, the exact corrected lifts, the filtration jumps and the
 invertibility of the canonical comparison in degree four. The
-[source argument](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#7-explicit-rational-quartic-audit)
+[source argument](../synthesis/normal_filtration_boundary_obstructions.md#7-explicit-rational-quartic-audit)
 keeps the characteristic-zero calculation separate from the conclusion here.
 
 The [October 23 Python certificate](../computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py)

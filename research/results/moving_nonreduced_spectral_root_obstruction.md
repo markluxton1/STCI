@@ -12,9 +12,9 @@ statement: "The full root divisor Z is reduced; each irreducible component has b
 dependencies:
   - STCI-R-0008
 evidence:
-  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
+  - "research/synthesis/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
 independent_audits:
-  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
+  - "research/synthesis/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
 legacy_ids: []
 supersedes: []
 superseded_by: []

@@ -16,8 +16,8 @@ singularity quartic theorem concerns smooth curves on such carriers;
 positive-genus ruled carriers cannot contain **any** rational degree-four
 curve; the denominator theorem applies conditionally on a whole rational
 resolution. Their proofs and limits are retained in
-[NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS](../supplements/NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS.md)
-and [normal compression and jets](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md).
+[NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS](../synthesis/normal_carrier_compression.md#normal-singularities-primitive-cubic-carriers-and-ancestor-charts)
+and [normal compression and jets](../synthesis/normal_carrier_compression.md#primitive-quartic-structures-extension-contact-and-factorization).
 Those broader preliminary statements do not generalize the final fixed-
 \(C_0\) exclusion to every rational quartic embedding.
 
@@ -28,8 +28,8 @@ and the [historical note at commit 2e29ee4](https://github.com/markluxton1/STCI/
 For reuse on other carriers, see the hypotheses of [global denominator compression](../synthesis/normal_carrier_compression.md#1-global-denominator-compression)
 and the [index-two counterexample to a bound on numerical correction](../synthesis/numerical_surface_pullback.md#cartier-index-does-not-bound-the-numerical-correction).
 
-The [weighted simple-elliptic proof](../supplements/NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS.md#4-a-smooth-elliptic-exceptional-curve)
-covers the smooth elliptic exceptional curve separately. The [Type D Green-function argument](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#q-two-arm-coefficient-one-tails-exact-comparison)
+The [weighted simple-elliptic proof](../synthesis/normal_carrier_compression.md#4-a-smooth-elliptic-exceptional-curve)
+covers the smooth elliptic exceptional curve separately. The [Type D Green-function argument](../synthesis/rees_and_vertical_controls.md#q-two-arm-coefficient-one-tails-exact-comparison)
 requires the terminal effective diagonal bound \(d_{\mathrm{eff}}\ge3\)
 in its two-arm reduction (D25). The full normal proof
 closes Type D via the pulled maximal ideal, with its [preservation review](../synthesis/quartic_carrier_proof.md#normal-route-preservation-review)

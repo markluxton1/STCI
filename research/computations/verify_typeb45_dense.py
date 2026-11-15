@@ -5,7 +5,9 @@ Exact characteristic-zero computation, independently reconstructed on
 2026-10-05.  This derives all moving-coordinate jets, killing sections,
 Cech corrections, elimination, epimorphism failures, and the terminal class.
 It covers b0*b1 != 0, normalized to b0=b1=1.  The other quotient charts are
-covered by verify_typeb45_boundary.py, verify_typeb45_corner.py and reversal.
+covered by the archived boundary and corner verifiers and by reversal. The
+boundary transition and rank-zero corner sections of the supplement cited
+below give the archived sources and their geometric scopes.
 The geometric inputs are P-025 and the Type A quotient and extension
 calculation in research/supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md.
 The polynomial identities are inputs to the flatness and cohomology arguments.
