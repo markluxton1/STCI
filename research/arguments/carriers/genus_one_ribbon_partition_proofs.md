@@ -582,30 +582,7 @@ all of `[2,2]` is excluded.
 No even-valuation assertion at surface singularities, reduced-only
 conductor replacement, or isolated differential rank-drop claim is used.
 
-## 7. Computation record and failures
+## 7. Verification boundary
 
-The initial proposed Python countercheck could not import SymPy from the
-historical CAS virtual environment. Read-only checks also found no SymPy
-in Homebrew Python 3.12/3.14 or the bundled Codex Python. No dependency was
-installed. The import-failed proposed source is retained as `countercheck.py`;
-it is not claimed as a passing certificate.
+The independent Macaulay2 reconstruction checks 29 exact conditions, including universal ideal equalities and singular-line tests. Earlier Python verification did not run because SymPy was unavailable; two preliminary M2 scripts failed for a protected variable name and an unparenthesized substitution, not a failed mathematical assertion. The final passing checker was research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2. Its result verifies the stated partition calculations **conditional on** the upstream genus-one projection and conductor inputs. It is not a separate proof of the \([2,1,1]\) case or of unrestricted STCI.
 
-The M2 reconstruction had two scaffolding failures: the first used the
-protected name `check`; the second needed parentheses around a `sub(...)`
-call before exponentiation. Neither failure contradicted a mathematical
-assertion. The second run had already verified the two full universal
-ideal equalities and all singular-line checks before the parser failure.
-Both failed source versions and the observed errors are retained in the
-isolated audit directory. The namespace version was mechanically
-reconstructed from the preserved parser-failed version, and is labeled
-as such rather than as a source snapshot made before that run.
-
-The final command was
-
-    /opt/homebrew/bin/M2 --script research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2
-
-The independent checker verifies the 29 exact conditions used above. Its passing status does not itself prove upstream geometric hypotheses or settle the unrestricted STCI question.
-
-The assigned audit is complete. A complete exclusion of all genus-one quartic
-carriers still requires the separate upstream/interface and `[2,1,1]`
-audit.
