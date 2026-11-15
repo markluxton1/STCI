@@ -438,17 +438,11 @@ The seven-cubic anticanonical model and its conductor duality are derived **from
 
 ## Remaining boundaries
 
-No arbitrary projection classification, full conductor phase image, higher-index exclusion, global spectral realization, or unrestricted characteristic-zero STCI theorem follows. The broader source branches are integrated by subject elsewhere; the restrictions here remain conditional and do not claim that every carrier falls in this lane.
-
-
-Source for the stronger reviewed result: [the actual-pair cubic-model and conductor argument](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2), sections 2–6. Its independent review reports PASS for the cubic-model interface, full conductor duality, and ramified simple-base-zero exclusion, while expressly rejecting the defective nodal normalization. The finite singular-root bridge remains reviewed.
-
+The conditional calculations do not classify arbitrary projections, all conductor phases, higher indices, or unrestricted characteristic-zero STCI pairs. The independently reviewed cubic-model and conductor argument excludes ramified simple-base zeros but **not** the nodal locus; its rejected nonfinite normalization cannot be reused as a proof. [Original detailed argument](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2).
 
 ### Geometric scope of movement two
 
-The canonical reduction STCI-R-0014 identifies movement epsilon with the degree of the coefficient map from C to the projective space of binary degree-r forms. Its first normal-root divisor has bidegree (epsilon,r) on P1_base x P1_direction. In the conditional (6,16) setting, r=2 and epsilon=2, so the full first root is a divisor of bidegree (2,2). Saturation means the coefficient map has no base points; it does not exclude root collisions or ensure coprimality of specialized initial forms. Generic binary-CI coprimality and saturation are separate assumptions. The six numerical rows, including (r,s;a,b)=(2,12;6,16), are necessary candidates only under the complete hypotheses of STCI-R-0013 and STCI-R-0014; they are not a classification of arbitrary STCI presentations.
-
-Source: research/results/movement_two_six_rows.md (STCI-R-0014), geometric clarification in commit ccc9c3965e1645ed2569405e0194e31edb38e9d0.
+Under the hypotheses of [R-0014](../../results/movement_two_six_rows.md), movement \(\varepsilon\) is the degree of the coefficient map \(C\to\mathbf P(\operatorname{Sym}^r k^2)\); its full root has bidegree \((\varepsilon,r)\). For \((6,16)\), \((\varepsilon,r)=(2,2)\). Saturation means no coefficient-map base points, **not** smooth roots or fiberwise coprimality. The six numerical rows of R-0013/R-0014 are conditional necessary candidates, not an arbitrary-presentation classification.
 
 ## The common lifting mechanism
 
