@@ -301,21 +301,7 @@ inverse limit. Neither review asserts algebraization.
 
 ## Independent conceptual audit of the finite formal-obstruction frontier
 
-Date: 2026-10-15. Reviewer: `new_blowup_bridge_review`.
-Status: **PASS WITH THE PRECISE EMBEDDED-CARTIER FUNCTOR BELOW**.
-This review concerns only the new relative representability,
-nonreduced-base, gluing, and noetherian stabilization arguments. The
-accepted actual chart, first and second obstruction constructions and
-their audits, and actual-CI bridge are premises and were not rechecked.
-No old verifier or degree enumeration was run.
-
-Reviewed proposal:
-[uniform root-tower finite determinacy](#2026-10-15-generalization-uniform-root-tower-finite-determinacy).
-The separate
-[all-order cohomology audit](#2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit)
-supplies the stated vanishing, ranks, and coefficient twists. This note
-checks the conceptual bridge from those bundles to the asserted scheme
-and formal lifting functor.
+Independent review accepted relative representability, nonreduced-base gluing, and Noetherian stabilization for the **precise embedded-Cartier functor** defined below. The actual chart, first/second obstruction constructions, and actual-CI bridge are premises, not reaudited; no verifier or degree enumeration was run. See [finite determinacy](#2026-10-15-generalization-uniform-root-tower-finite-determinacy) and the separate [all-order cohomology audit](#2026-10-15-generalization-uniform-root-tower-cohomology-independent-audit) for vanishing, ranks, and coefficient twists.
 
 ### 1. The functor must parametrize embedded ideals
 
