@@ -579,3 +579,32 @@ must still be checked before transferring the full construction. None of
 these multiplicity-one results excludes the [positive-characteristic
 quartic-carrier STCI](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier),
 whose generic multiplicity is higher.
+
+## Two retired exact computational examples
+
+**An explicit smooth residual in (4,4).** Over `QQ[x0,x1,x2,x3]`, set
+```
+q=x0*x3-x1*x2; L=x1^3-x0^2*x2; R=x2^3-x1*x3^2;
+F=x1^4-x0^3*x3+q*(x0^2+x1^2+x2^2+x3^2+x0*x2+2*x1*x3)+2*x0*L;
+G=x2^4-x0*x3^3+q*(2*x0^2+3*x1^2+5*x2^2+7*x3^2
+                    +x0*x1+x0*x3+x1*x2+3*x2*x3)+3*x3*R.
+```
+The historical exact Macaulay2 check finds a proper `(4,4)` intersection with `I_D=(F,G):I_C` saturated, `degree(D)=12`, Hilbert polynomial `12n-15` (genus 16), `(F,G)=I_C intersect I_D`, empty projective singular scheme for `D`, and 18 reduced transverse attachment points avoiding both distinguished endpoints. It checks `H0(O_D)=QQ` and uses smoothness/base change to conclude geometric integrality. This is a **single exact benchmark**, not a proof of the general-pair theorem, which is established separately above.
+
+**Sparse heptic contact and six pair certificates.** For a binary heptic
+`h(z)=(z-1)(uz+1-u)^N(vz+1-v)^(6-N)`, with `N=1,2,3`, let `h_i` be its coefficients. The sparse constraints are `h_2=h_5=0`; the two binary quadratics are `P_2=h_6 X^2+h_3 XY+h_0Y^2` and `Q_2=h_7X^2+h_4XY+h_1Y^2`. Saturating by `(u-v)Res(P_2,Q_2)` gives the following exact zero-dimensional ideals, of lengths 2,4,4 respectively:
+```
+N=1: (21v^2-21v+5, u-11v+5)
+N=2: (63v^4-126v^3+111v^2-48v+8,
+      u-42v^3+63v^2-42v+10)
+N=3: (7v^4-14v^3+12v^2-5v+1, u+v-1).
+```
+The sixfold single-root case `h=(z-1)(uz+1-u)^6` has sparse ideal `(u(u-1))`; after saturation by the binary resultant it is empty. In symmetric invariants `s=u+v, p=uv, h=s-1`, the three candidate types satisfy
+```
+Type 1: h^2=12/7, p=8/21+h/2;
+Type 2: 63h^4-30h^2-1=0, p=5/12+h/2-h^2/4;
+Type 3: h=0, 7p^2-5p+1=0.
+```
+For two candidate factors, the necessary matching expression is
+`E=s1*s2-3*s1*p2-3*s2*p1+p1+p2+6*p1*p2-1/3`.
+The historical computation reduced `E` on each of the six unordered type pairs and produced polynomial Bézout unit certificates for adjoining `E=0`. Thus none of those six candidate-type pairings satisfies this matching equation. This is a **conditional sparse heptic coefficient obstruction**, not an unrestricted quintic or STCI exclusion. Its exact ideals, saturation conditions and matching polynomial are retained without the implementation-specific certificates.
