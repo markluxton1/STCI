@@ -55,29 +55,9 @@ It is free of rank two over \(C_\Gamma\), including over doubled or reducible co
 
 ### Ribbon-net completeness and repeated-root certificates
 
-The ribbon-net calculation is intrinsic, rather than a choice of a convenient normal direction. For the rational normal quartic \(c\subset\mathbf P^4\), the six quadratic generators \(E_0,\ldots,E_5\) have conormal classes satisfying three relations on an affine parameter chart. A homomorphism \(I_c/I_c^2\to\mathcal O_c(-6)\) sends these six quadrics to binary quadratics. The relations force all six images to depend on exactly three scalars \((A,B,C)\); the [direct conormal proof](../../arguments/carriers/genus_one_ribbon_conormal_net_proof.md) checks both parameter charts and gives \(I_c/I_c^2\simeq\mathcal O(-6)^3\). Every nonzero direction defines an everywhere-surjective quotient. Its projective orbit is determined by \(\Delta=B^2-AC\). If \(\Delta=0\), the common net base locus contains a cubic surface (a cone over a twisted cubic), so no two quadrics in that net define the required integral quartic. Thus only \(\Delta\ne0\) remains.
+The [conormal-net proof](../../arguments/carriers/genus_one_ribbon_conormal_net_proof.md) establishes \(I_c/I_c^2\simeq\mathcal O_c(-6)^3\) and the complete three-parameter quotient net. Its discriminant-zero orbit has a cubic common base locus, so only \(\Delta=B^2-AC\ne0\) can give the required integral surface.
 
-The [repeated-partition audit](../../arguments/carriers/genus_one_ribbon_partition_proofs.md#dependency-guide-independent-certificate-versus-source-proof) uses only parameter scalings and reversal, which **preserve the actual projection center**; arbitrary \(\mathrm{PGL}_2\) changes would not justify the reduction. Its exhaustive normal forms include \([4]\) at an endpoint, the endpoint and nonendpoint \([3,1]\) alternatives, and the nonendpoint \([2,2]\) form \(L_c=(U^2+UV-V^2/2)^2\).
-
-For the nonendpoint \([3,1]\) branch the exact determinant is \(-k(k^2+9)\). The independent ideal equality reduces all candidate coefficients to \(k=0\), \(\eta=(1,-1/2,1)\), and a one-parameter pencil equivalent to
-\[
-T=E_0-E_2+E_3+E_5=(Y_0-Y_2)(Y_2-Y_4)-(Y_1-Y_3)^2.
-\]
-Its gradient vanishes on the line \(Y_0=Y_2=Y_4,\ Y_1=Y_3\), contradicting normality of the required del Pezzo surface. The two \(k^2=-9\) roots are excluded by the **ideal equality**, not by an arbitrary selection of a preferred kernel chart.
-
-For \([2,2]\), the determinant is \(-(2k+1)(2k^2-k+8)/4\). The complete ideal equality eliminates the quadratic-factor roots and leaves, after changing pencil generators,
-\[
-Q_1=2E_1+E_3-E_4,\quad
-Q_2=E_0-2E_1-E_2/2+E_4+E_5/4,\quad
-\eta=(1,0,2).
-\]
-The missing kernel-coordinate boundary \(\eta_1=0\) is precisely the surviving case, so it must not be discarded. The independent conductor calculation has a smooth integral conic and quadratic trace \(T\), norm \(N\) of the Cartier-double section \(Q=E_3\). On the slice \(x_1=0,x_3=1,x_2=t\), its two points satisfy \(18t^2-1=0\), while
-\[
-T^2/N=22+72t
-\]
-takes two different values. If any positive power \(Q^n\) descended, the ratio of its two conjugates would be a root of unity and \(T^2/N\) would be constant. Thus **no positive power descends**, without a finite bound on \(n\). The original audit retains the exact ideals and Macaulay2 evidence; the displayed reductions do not replace that certificate.
-
-**Retention assessment:** the ribbon-net independent audit is the source of the two-chart conormal calculation and orbit classification; the repeated-partition independent audit is the source of the universal ideal equalities and unbounded-power obstruction. Both remain essential verification records, even though their principal mathematical deductions are now represented here. The separate owner proofs should be compared against these exact certificates for unique computational or geometric material before any retirement decision.
+The [complete repeated-partition proof](../../arguments/carriers/genus_one_ribbon_partition_proofs.md) covers \([4]\), \([3,1]\), and \([2,2]\), including all kernel-direction and center-preserving coordinate boundaries. For nonendpoint \([3,1]\), determinant \(-k(k^2+9)\) and the full ideal equality leave a pencil singular along a line; the roots \(k^2=-9\) are excluded by ideal equality, not chart selection. For \([2,2]\), determinant \(-(2k+1)(2k^2-k+8)/4\) and the full ideal equality leave the exceptional direction \(\eta=(1,0,2)\). Its conductor trace–norm obstruction excludes descent of **every** positive power, not merely a bounded list. The exact pencil, coefficient identities, and certificates remain in that Argument. The omitted-middle projection center is fixed throughout; arbitrary \(\mathrm{PGL}_2\) changes are not permitted.
 
 ### Endpoint [4] derivative partition: direct line-singularity argument
 
