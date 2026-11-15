@@ -1136,32 +1136,9 @@ intersection formulas has multiplicity one. A horizontal section
 also meets at most one component of any given f-fiber, at a smooth
 point of that fiber, since its total fiber intersection is one.
 
-## 7. Caveats, useful counterexamples to shortcuts, and freeze boundary
+## 7. Caveats and invalid shortcuts
 
-The formula subtracting all descendants is false. In a free chain
-p_b proximate to p_a, p_c proximate only to p_b, the final strict
-transform of the a-exceptional has class e_a-e_b, not e_a-e_b-e_c.
-At the allowed satellite pattern j proximate to 0 and i, the classes
-are e0-e_i-e_j and e_i-e_j, with intersection zero; coefficient two
-at e_j in either individual prime would be incorrect. These are
-local blowup illustrations of the formulas, not claimed realized
-quartic configurations.
+Subtracting **all** descendants from an exceptional class is false: for a free chain \(p_b\succ p_a,\ p_c\succ p_b\), the final \(a\)-prime is \(e_a-e_b\), not \(e_a-e_b-e_c\). For a satellite \(j\) proximate to \(0,i\), the strict primes \(e_0-e_i-e_j\) and \(e_i-e_j\) have intersection zero; neither carries coefficient two at \(e_j\). Degree-zero primes need not satisfy the nonnegative \(b_a\) condition, and \(h\cdot E\le1\) cannot follow from numerical \(c^\#=h\) without the actual smooth embedded curve and isomorphism hypotheses.
 
-Applying nonnegative b_a to degree-zero primes would likewise be
-incorrect. Applying h.E<=1 using only numerical equivalence c#=h,
-without the smooth embedded curve and isomorphism hypotheses, would
-also be unjustified. Those geometric hypotheses are essential to
-section 5.
+The arithmetic class list, proper double center, proximity budget, at-most-one-satellite bound, and graph restrictions are conditional necessary results. The local blowup examples are not globally realized quartic configurations. Effectivity, incidence, full graph realization, conductor descent, and existence/exclusion of a mate are not proved here. No \(\lambda=1\) exclusion is claimed.
 
-The class list, proper-double-center conclusion, proximity budget,
-at-most-one-satellite restriction, and graph restrictions are accepted.
-The arithmetic class list was independently checked by a second
-bounded audit. Agreement is provenance; the proofs are the explicit
-intersection and multiplicity arguments above. Actual incidence,
-prime effectivity, full graph realization, normalization/conductor
-descent, and existence or exclusion of a mate remain separate work.
-No lambda-one exclusion is claimed. This note is frozen for the
-requested pause closure after its content and hash are reported.
-
-
----
