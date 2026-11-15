@@ -31,6 +31,21 @@ example or descent assertion.
 This strategy gives exact tests and counterexamples for specified images.
 Extending it to moving transverse quotients requires additional geometry. The reconstruction reviews accept the exact scopes stated in the Result records.
 
+## Mathematical ownership and retrieval
+
+This Framework owns the passage from an **embedded finite torus quotient** to
+its projective image and endpoint contraction, not the classification of
+all full-ideal torus limits. For constant images, use the
+[complete quotient proof](../../arguments/torus_embedded_quotients.md)
+and the [endpoint image theorem](../../results/orbit_image_endpoint_polynomial.md).
+For moving families, the [intrinsic endpoint-fiber comparison](../../results/intrinsic_limits_endpoint_fibers.md)
+has a narrower pure-part and embedded-length conclusion; the
+[full supported-boundary Framework](../torus-supported-boundaries/index.md)
+owns opposite limits of the complete ideal. The
+[moving comparison Investigation](../../investigations/quotient-hilbert-comparison/index.md)
+owns the unresolved comparison. For the separate contact, polarization,
+and conductor constraints, use [contact and global descent](contact_and_global_descent.md#the-approaches-and-their-exact-reach).
+
 ## Available results
 
 [R-0051](../../results/constant_embedded_orbit_image.md) constructs the finite
