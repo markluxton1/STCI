@@ -276,17 +276,5 @@ multiplicity at special points has not been excluded.
 
 ## 8. Audit boundary and continuation
 
-Every step of the requested entire-conductor reduction passes. The
-argument covers all rational genus-two normalization models with the
-stated quartic polarization, including non-Gorenstein normalizations,
-nonreduced upstairs conductors, and special conductor fibers.
+The entire-conductor reduction includes non-Gorenstein normalizations, nonreduced upstairs conductors, and special fibers under its rational genus-two/quartic-polarization hypotheses. It does **not** identify the pencil of planes through \(\Gamma\) with the adjoint pencil or prove extension on the chosen resolution. Normality of the strict transform in \(\operatorname{Bl}_\Gamma\mathbf P^3\) requires that identification or another proof. The genus-two mate and unrestricted STCI questions remain open.
 
-The next geometric obligation is still open: identify the rational
-map from the planes through `Gamma` with the accepted adjoint pencil
-and prove that it extends on the chosen resolution. The assertion
-that the strict transform in `Bl_Gamma(P3)` is normal requires that
-identification or another complete proof. Neither assertion follows
-solely from the reduced-line conductor or its double-cover algebra.
-
-The genus-two mate strata, the unrestricted fixed-`C0` question, and
-the universal STCI question remain **OPEN**.
