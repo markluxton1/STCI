@@ -824,32 +824,9 @@ control with residual degree \(32\) and loss of two-generation.
 
 ## Evidence and preservation
 
-The source
-[original sextic residual chapter](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md)
-supplies §§1–4.1 and the orbit degree statement in §5. Its §§1.1–1.3
-survive in **Eigenpair residual controls**; §2 in **The sharp sextic
-eigenpair bound**; §§3–3.2 in **Moving residual curves and their full
-limit** and **Residual absorption in a proper flat family**; §§4–4.1
-in the last two mathematical sections. The multiplicity and colon
-arguments have separate reusable Results. The trace proof and its
-congruence/factor qualifications come from the first four substantive
-sections of
-[weight restrictions](torus/equivariant_degree_bounds.md).
-The later extreme-component/two-weight results, sharp large-prime
-attainment, and three/two-weight cancellation control remain in that
-source; they are not premises silently imported here.
+The [original residual chapter](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md) supplies §§1–4.1 and the orbit-degree statement. Multiplicity and colon arguments have separate Results; the trace congruence/factor proof is in [weight restrictions](torus/equivariant_degree_bounds.md). Later extreme-component, large-prime attainment, and cancellation investigations remain separate and are **not** imported as premises.
 
-The exact verifier
-[finite polynomial identities](torus-sextic-controls.support/verify.py)
-checks Segre substitutions, the generator-change identity, matrix minors,
-the cancellation relation, Hilbert-numerator arithmetic and degree sums.
-The proofs above show why those identities establish their claimed
-geometric assertions. The verifier does not certify saturation, flatness,
-primary decomposition, all-characteristic coverage, or a general
-classification. Those conclusions are proved in the text, without
-depending on sampled finite-field ranks. The inherited source-space
-and sole-support reductions in the [sextic source-space and pencil account](../frameworks/torus-supported-boundaries/weights_and_limits.md#sextic-source-spaces-and-pencils)
-retain their existing proof owners.
+The [exact polynomial verifier](torus-sextic-controls.support/verify.py) checks Segre substitutions, generator changes, minors, cancellation, Hilbert numerators, and degree sums. It does **not** establish saturation, flatness, primary decomposition, all-characteristic coverage, or classification; the geometric proofs supply the claimed conclusions. Inherited source-space/sole-support arguments retain their owners in [sextic source spaces](../frameworks/torus-supported-boundaries/weights_and_limits.md#sextic-source-spaces-and-pencils).
 
 ## Conclusion
 
