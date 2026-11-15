@@ -31,20 +31,20 @@ example or descent assertion.
 This strategy gives exact tests and counterexamples for specified images.
 Extending it to moving transverse quotients requires additional geometry. The reconstruction reviews accept the exact scopes stated in the Result records.
 
-## Mathematical ownership and retrieval
+## Mathematical scope and interfaces
 
-This Framework owns the passage from an **embedded finite torus quotient** to
-its projective image and endpoint contraction, not the classification of
-all full-ideal torus limits. For constant images, use the
-[complete quotient proof](../../arguments/torus_embedded_quotients.md)
-and the [endpoint image theorem](../../results/orbit_image_endpoint_polynomial.md).
-For moving families, the [intrinsic endpoint-fiber comparison](../../results/intrinsic_limits_endpoint_fibers.md)
-has a narrower pure-part and embedded-length conclusion; the
-[full supported-boundary Framework](../torus-supported-boundaries/index.md)
-owns opposite limits of the complete ideal. The
-[moving comparison Investigation](../../investigations/quotient-hilbert-comparison/index.md)
-owns the unresolved comparison. For the separate contact, polarization,
-and conductor constraints, use [contact and global descent](contact_and_global_descent.md#the-approaches-and-their-exact-reach).
+This approach studies **embedded finite torus quotient images**, their
+projective endpoint contractions, contact geometry, and comparisons with
+moving torus degenerations. The [complete quotient proof](../../arguments/torus_embedded_quotients.md)
+and [endpoint image theorem](../../results/orbit_image_endpoint_polynomial.md)
+give constant-image controls. The [intrinsic endpoint-fiber comparison](../../results/intrinsic_limits_endpoint_fibers.md)
+determines pure parts and embedded lengths under its hypotheses, but does not
+resolve the full moving-family comparison in the
+[Investigation](../../investigations/quotient-hilbert-comparison/index.md).
+The [supported-boundary approach](../torus-supported-boundaries/index.md)
+provides complementary full-ideal and opposite-limit techniques; neither
+approach excludes studying the other's degenerations. Contact, polarization,
+and conductor constraints meet in [contact and global descent](contact_and_global_descent.md#the-approaches-and-their-exact-reach).
 
 ## Available results
 
