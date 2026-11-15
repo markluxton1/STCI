@@ -352,15 +352,7 @@ identity does not make that already obstructed seed a survivor.
 
 ### Independent review of the norm argument
 
-The separate `surface_bound` reviewer reported PASS for sections 1–4
-of the October 20 `incidence_audit` argument. The reconstruction checked
-restriction of the actual transformed ideal to \(Q'\), regularity from
-\(\tau\ne0\), the absence of a ruling component in \(T\) shared with
-\(R\), the affine comparison `F6|Q=v^2 R4(b)`, and the homogeneous and
-rational coefficient formulas with collisions and ramification. This
-review concerns the necessary norm condition. It also supplied the unit
-observation used in the separate local surface calculation below.
-[Original argument and scoped review](https://github.com/markluxton1/STCI/blob/a779730c6645e293cc0a501597bd4e09a50b36d6/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-independent-review-of-the-norm-argument).
+The independently checked [norm argument](https://github.com/markluxton1/STCI/blob/a779730c6645e293cc0a501597bd4e09a50b36d6/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-independent-review-of-the-norm-argument) verifies the actual strict-ideal restriction to \(Q'\), regularity from \(\tau\ne0\), no ruling component shared by \(T\) and \(R\), \(F_6|_Q=v^2R_4(b)\), and homogeneous/rational formulas even at collisions and ramification. This is a **necessary** norm condition, not mate existence; its unit observation is used in the local surface calculation.
 
 ## Local surface singularities and the remaining scope
 
