@@ -1755,10 +1755,5 @@ any surviving model has all higher obstructions zero.
 
 ## 8. Boundary of the result
 
-The proof controls a fixed first relation and the actual next normal
-layer. It fails if a new independent relation already appears at degree
-r+1, or if the first relation varies in projective direction along C.
-Those failures are concrete continuation strata, not silently excluded
-cases. Positive defects can also clear the cohomological class as in
-(F). The current results do not rule out those strata or resolve C0's
-STCI status.
+The fixed-first-relation argument controls the next actual normal layer. A new independent relation in degree \(r+1\), a moving projective direction of the first relation, or positive defects clearing the cohomological class are separate surviving strata. They are not excluded, and the fixed-curve STCI question remains open.
+
