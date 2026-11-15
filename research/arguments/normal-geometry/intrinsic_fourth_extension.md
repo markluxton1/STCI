@@ -185,14 +185,13 @@ Thus the only possible split direction has \(a_0=b_1=0\), \(a_1=-b_0/2\). It is 
 
 ## 5. The embedded-neighborhood proof and its scope
 
-The allowed Gorenstein quadruple must therefore be \(4C\subset Q\). Every quartic containing this scheme is divisible by \(q\), since on \(Q\)
+The admissible Gorenstein quadruple is \(4C\subset Q\). Every quartic containing it is divisible by \(q\), since
 \[
-H^0(\mathcal O_Q(4,4)\otimes\mathcal I_{4C/Q})
-=H^0(\mathcal O_Q(0,-8))=0.
+H^0(\mathcal O_Q(4,4)\otimes\mathcal I_{4C/Q})=H^0(\mathcal O_Q(0,-8))=0.
 \]
-Hence two such quartics cannot intersect properly. This supplies an embedded-neighborhood proof of the `(4,4)` exclusion with only the elementary quadric restriction at the final source step. It does not use the global surface rank bound, an all-degree carrier theorem, or a claim that first symbols exhaust all quartic source sections. It does not address arbitrary higher-degree STCI pairs.
+Two such quartics cannot intersect properly, proving the embedded-neighborhood \((4,4)\) exclusion. This uses neither the global surface-rank bound nor an all-degree carrier theorem, and does not assert that first symbols exhaust quartic sources or exclude higher-degree pairs.
 
-The [exact universal cocycle derivation](../../computations/quartic_fourth_extension_cocycles.py) works directly in the truncated algebra \(k(z,\mathrm{parameters})[y]/(y^4)\) using the rational ambient chart definitions. It reconstructs the defective class, both kernel transitions and the three primitive coefficients independently of equations (2)--(3). The displayed formulas and hand elimination establish the full parameter claim; numerical samples are not used for exhaustion.
+The [exact universal cocycle derivation](../../computations/quartic_fourth_extension_cocycles.py) works in \(k(z,\mathrm{parameters})[y]/(y^4)\), reconstructing the defective class, kernel transitions, and three primitive coefficients independently of (2)–(3). The formulas and hand elimination, not numerical sampling, prove parameter exhaustion.
 
 ## Independent reconstruction
 
