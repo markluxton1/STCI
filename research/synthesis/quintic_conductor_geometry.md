@@ -23,6 +23,12 @@ The exposition separates four logically different tasks:
 
 The historical proof texts below are arranged by mathematical dependency, not by date. Their equations, proof steps, explicit counterexamples, exceptional loci, and qualifications remain in place. The standalone certificate transcriptions are preserved as archival evidence; no archived computation is represented as rerun. The headings identifying their former supplement paths are retained as stable link destinations.
 
+## Characteristic scope shared by the nonendpoint exclusions
+
+These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+
+The exact hypotheses and exceptions of each exclusion remain in its proof; this common restriction does not extend any theorem beyond its stated admissible nonendpoint family.
+
 ## 1. Exact source and conclusions
 
 Use the accepted degree-five normal anticanonical surface in P5 and
@@ -2595,7 +2601,7 @@ r=0 branch. With a=0 there is no off-c affine endpoint point.
 
 The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py](../computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py), [verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2](../computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2), [verify_fraction_certificates.py](../validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/verify_fraction_certificates.py), [verify_session_nonendpoint_target_fibers_2026_10_12.m2](../computations/verify_session_nonendpoint_target_fibers_2026_10_12.m2), [verify_proof_gaps.m2](../validation/2026-10-12-nonendpoint-target-fiber-independent-audit/verify_proof_gaps.m2). No inherited computation was rerun for this consolidation.
 
-These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+The characteristic and admissibility restrictions are those in [Characteristic scope shared by the nonendpoint exclusions](#characteristic-scope-shared-by-the-nonendpoint-exclusions); the independent calculations and exceptional cases above remain part of this proof.
 
 
 
@@ -2952,7 +2958,7 @@ entire 2+4 residual partition in this nonendpoint normalization family.
 
 The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_cubic_contact_2026_10_12.m2](../computations/verify_session_nonendpoint_cubic_contact_2026_10_12.m2), [verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2](../computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2), [probe_session_nonendpoint_2plus4_families_2026_10_12.m2](../computations/probe_session_nonendpoint_2plus4_families_2026_10_12.m2), [probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2](../computations/probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2), [probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2](../computations/probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2), [verify_type1.m2](../validation/2026-10-12-type1-two-family-independent-audit/verify_type1.m2), [probe_session_nonendpoint_type23_incidence_2026_10_12.m2](../computations/probe_session_nonendpoint_type23_incidence_2026_10_12.m2), [probe_session_nonendpoint_type23_full_contact_jets_2026_10_12.m2](../computations/probe_session_nonendpoint_type23_full_contact_jets_2026_10_12.m2), [probe_session_nonendpoint_type23_a4_contact_2026_10_12.m2](../computations/probe_session_nonendpoint_type23_a4_contact_2026_10_12.m2), [verify_type23.m2](../validation/2026-10-12-type23-six-family-independent-audit/verify_type23.m2). No inherited computation was rerun for this consolidation.
 
-These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+The characteristic and admissibility restrictions are those in [Characteristic scope shared by the nonendpoint exclusions](#characteristic-scope-shared-by-the-nonendpoint-exclusions); the independent calculations and exceptional cases above remain part of this proof.
 
 
 
@@ -3693,7 +3699,7 @@ is silently removed from the full h>=2 classification.
 
 The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_binary_contact.m2](../validation/2026-10-13-cubic-pair-full-independent-audit/verify_binary_contact.m2), [verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2](../computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2), [verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2](../computations/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2), [verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2](../computations/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2). No inherited computation was rerun for this consolidation.
 
-These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+The characteristic and admissibility restrictions are those in [Characteristic scope shared by the nonendpoint exclusions](#characteristic-scope-shared-by-the-nonendpoint-exclusions); the independent calculations and exceptional cases above remain part of this proof.
 
 
 
