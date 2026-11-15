@@ -52,11 +52,7 @@ raw initial generators.
 
 ## One-step boundary repair and the final Gorenstein obstruction
 
-Date: 2026-10-27. Status: new research deduction, with
-[independent audit](#2026-10-27-one-step-boundary-obstruction-audit).
-No unrestricted STCI exclusion or literature novelty
-claim is made. The argument treats whole classes of embedded multiple
-curves; no sampled pair is used.
+The argument treats whole classes of embedded multiple curves, not a sampled pair. It makes no unrestricted STCI exclusion or literature novelty claim; the [independent audit](#2026-10-27-one-step-boundary-obstruction-audit) records its review scope.
 
 ### 1. Scope and the actual equation module
 
