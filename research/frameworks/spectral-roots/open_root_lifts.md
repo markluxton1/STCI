@@ -7,11 +7,10 @@ The
 and [comparison map](../../arguments/spectral/actual_octic_root_lift_comparison.md) reduce
 first-compatible actual sextics to a map from a space of dimension at most
 three to an eleven-dimensional quotient. Retain K1, all rank strata, the
-quadric-cube correction and actual source images. Stop at a compatible
-nonzero sextic with its next root-lifting obligation identified, a covered
-component exclusion, or a precise missing boundary. The completed affine
-slice needs no further audit or mate search. Even a full smooth-root
-exclusion would remain within the stated saturated/movement-two bridge.
+quadric-cube correction and actual source images. A compatible
+nonzero sextic still has a further root-lifting obligation. Even a full
+smooth-root exclusion would remain within the stated saturated/movement-two
+bridge.
 This is distinct from the [ADE (6,6) sector](../carrier-normalization/open_carrier_cases.md#higher-contact-in-the-ade-66-triple-orbits); arbitrary ruling
 frame changes are not ambient symmetries of the fixed C0.
 
