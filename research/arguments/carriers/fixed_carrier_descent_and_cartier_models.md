@@ -687,4 +687,5 @@ In the smooth quadric and plane Cartier models, the primitive section Q has degr
 
 ## Consolidation review
 
-Independent consolidation review reconstructed the fixed-carrier sufficiency, full-support cone test, primitive torsion orders, minimal-degree and cone-polarization proof, minimum-actual-carrier compression and its degree-d extension, singleton index/canonical divisibilities, on-curve ADE correction, low-field consequences, and stated characteristic boundaries. It accepted these at their displayed hypotheses after correcting semilocal DVR wording and localizing crepancy to the ADE points along c. This preserves the mathematical statements and review scope.
+Independent reconstruction checked fixed-carrier sufficiency, full-support cone tests, primitive torsion orders, minimal-degree and cone-polarization arguments, actual-carrier compression and its degree-\(d\) extension, singleton index/canonical divisibilities, on-curve ADE correction, low-field consequences, and characteristic bounds. The accepted scope uses **semilocal DVR** terminology and restricts crepancy to ADE points along \(c\).
+
