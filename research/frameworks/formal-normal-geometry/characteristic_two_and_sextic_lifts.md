@@ -20,10 +20,7 @@ The prescribed characteristic-two pair has full initial ideal \((X,Y^4)\), vanis
 
 ## 3.10B An explicit sextic normal-symbol image
 
-For the fixed characteristic-zero quartic, the map from degree-six forms vanishing to order two to quadratic normal symbols has a 23-dimensional domain, a 22-dimensional image and kernel spanned by the cube of the containing quadric. The target has dimension 33, so its image has codimension eleven. The [exact symbol map](../../arguments/spectral/rank_strata_and_sextic_lifts.md#2-the-exact-global-k-linear-symbol-map) gives the source basis and all eleven equations.
-
-For a moving quadratic root f with symbol multiplier alpha, these equations become eleven bilinear conditions on f and alpha, retaining the zeros of alpha. The [actual cubic-jet test](../../arguments/spectral/rank_strata_and_sextic_lifts.md#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet) adds a separate finite condition on all forty cubic coefficients. A compatible sextic still needs a proper degree-sixteen mate and a support certificate.
-
+In characteristic zero the actual degree-six order-two source has dimension \(23\), symbol image dimension \(22\), and kernel \(kq^3\), inside a \(33\)-dimensional target. Thus eleven independent leading-symbol conditions remain. For a moving quadratic root \(f\) and multiplier \(\alpha\), they are **bilinear** conditions retaining the zeros of \(\alpha\). The [exact symbol map and equations](../../arguments/spectral/rank_strata_and_sextic_lifts.md#2-the-exact-global-k-linear-symbol-map) give the complete linear calculation. The [cubic-jet gate](../../arguments/spectral/rank_strata_and_sextic_lifts.md#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet) is additional; neither test constructs a degree-sixteen mate or certifies sole support.
 
 ## 3.10C A failed seed and an exact cubic correction
 
