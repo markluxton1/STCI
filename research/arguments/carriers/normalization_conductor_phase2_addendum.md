@@ -532,21 +532,7 @@ If incompatible, the stable scheme is empty and some finite uniform stage \(N\) 
 
 ### 2. Characteristic and actual-CI bridge
 
-The [formal characteristic addendum](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
-accepts the balanced-rational formal theorem and finite tower in every
-algebraically closed characteristic, with its explicit normal-bundle
-and smooth-root hypotheses.
-
-The [inseparable-root actual-CI bridge](../spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge)
-now also has a [full independent new-scope PASS](../spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit).
-It uses the actual root prime over `k(C)` and an uncompleted standard
-basis, retaining inseparable residue fields. The original strict-divisor
-intersection is locally `(h,u^(s-r))`, without saturation or removal
-of a vertical component. Its Cartier-root stages are precisely those
-with `m<s-r`. Thus the same gap bound applies in every characteristic
-within the literal saturated-line, joint-leading-generation, full
-generic-initial-CI and smooth-full-root hypotheses. No assertion about
-literal C0 splitting in bad characteristics is inserted.
+The [formal characteristic theorem](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum) extends the balanced-rational smooth-root tower to every algebraically closed characteristic **under its stated normal-bundle and smoothness assumptions**. The [inseparable-root actual-CI bridge](../spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge) uses the actual root prime over \(k(C)\), retaining inseparable residue extensions, and an uncompleted standard basis. The strict-divisor intersection is locally \((h,u^{s-r})\), with Cartier stages precisely \(m<s-r\), without saturation away from vertical components. Its gap bound requires the saturated relation line, joint leading generation, full generic initial CI, and smooth full root. It does not assert literal splitting of \(C_0\) in bad characteristics.
 
 ### 3. Arithmetic reduction of all mate powers
 
