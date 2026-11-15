@@ -256,7 +256,7 @@ On the actual-pair-admissible root open, cubic actual-source matching has a **un
 
 ## Independent review
 
-The independent reconstruction verified determinantal and nonreduced-base strata, bounded-polynomial rank drops, the cubic layer of \(q^3\), actual-pair admissibility, full-column-rank uniqueness of the regular lift, and the pivot-residual test. Inherited source computations were **not** rerun. No nonlinear chart emptiness, degree-sixteen mate, properness, or sole-support result follows.
+Independent reconstruction checked determinantal and nonreduced-base strata, bounded-polynomial rank drops, the \(q^3\) cubic layer, actual-pair admissibility, uniqueness of regular lifts under full column rank, and the pivot-residual test. Inherited computations were not rerun. Nonlinear-chart emptiness, a degree-sixteen mate, properness, and sole support remain unproved.
 
 ## Consolidated historical supplement: `research/supplements/ACTUAL_SEXTIC_MATE_CERTIFICATES.md`
 
