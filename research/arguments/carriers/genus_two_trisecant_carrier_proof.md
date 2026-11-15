@@ -87,6 +87,17 @@ For necessity, \(Q\) is the unique quadric through \(C_0\): the ten quadratic mo
 The quadric/ruling length classification does not require characteristic zero. In characteristic three, however, the nonendpoint degree-three divisors are inseparable, so the reducedness and two-orbit conclusions above must not be transferred there.
 
 
+### 1.3. Ordinary bisecants, tangent contact, and explicit line equations
+
+For \(P(a)=[1:a:a^3:a^4]\), the secant through distinct finite \(a,b\) lies on \(q\) precisely when \(a^2+ab+b^2=0\), equivalently \(a^3=b^3\). Otherwise it is an ordinary bisecant. At finite \(a\), \(q(\ell P(a)+mP'(a))=-3a^2m^2\), so its tangent has length two for \(a\ne0\), but the endpoint tangent is a trisecant. Ordinary bisecants through infinity are included. Explicit line equations for finite \(a,b\) are
+\[
+\begin{aligned}
+T_0&=x_2-(a^2+ab+b^2)x_1+ab(a+b)x_0,\\
+T_1&=x_3-(a+b)(a^2+b^2)x_1+ab(a^2+ab+b^2)x_0.
+\end{aligned}
+\]
+After removing the common factor \((t-as)(t-bs)\), their restrictions are \(s(t+(a+b)s)\) and \(t^2+(a+b)st+(a^2+ab+b^2)s^2\). For a secant through infinity, \(T_0=x_1-ax_0\), \(T_1=x_2-a^3x_0\), with residual quadrics \(s^2\) and \(t^2+ast+a^2s^2\). The exact executable identity check is [verify_session_genus_two_line_positions_2026_10_10.m2](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_two_line_positions_2026_10_10.m2).
+
 ## 2. The entire carrier ideal has three cubic generators
 
 For finite `a` set
