@@ -1431,5 +1431,5 @@ normal, nonnormal, and entirely thick branches remain open.
 
 ### 8. Audit provenance
 
-The independent reconstruction checked base change of the socle, the normal-domain colon argument, the shared free normal generator, symbolic-triple saturation, and the pointwise Frobenius/Jacobian index bridge. The primary Jacobian theorem was checked; inherited calculations were not rerun. **Sections 1–6, not agent agreement, supply the proofs.**
+Independent reconstruction checked socle base change, the normal-domain colon argument, shared free normal generator, symbolic-triple saturation, and the Frobenius/Jacobian index bridge. The primary Jacobian theorem was checked; inherited computations were not rerun. Sections 1–6 supply the proofs.
 
