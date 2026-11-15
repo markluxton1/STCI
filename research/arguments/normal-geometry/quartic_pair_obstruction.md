@@ -456,7 +456,7 @@ For the stated saturated triple filtration, summing Euler characteristics of \(\
 
 ## Review decision
 
-The attained maximum, forced residual degree, integral-pencil deduction using R-0001, moving singularity divisor, general moving \(A_2\) structure, and explicit example were independently reconstructed under their stated hypotheses. The degree-four residual-scheme classification remains open. The verifier checks finite identities; properness, purity, liaison, and singularity interpretation are proved separately above.
+Independent reconstruction checked the attained maximum three, forced residual degree four, integral-pencil deduction using R-0001, moving singularity divisor, general moving \(A_2\) structure, and explicit example. The verifier checks finite identities; properness, purity, liaison, and singularity interpretation are proved above. Classification of degree-four residual schemes remains open.
 
 ---
 
