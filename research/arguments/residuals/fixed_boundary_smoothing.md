@@ -186,10 +186,4 @@ The next focused experiment is to lift one tangent witness through higher orders
 
 ## Characteristic reach and limitation
 
-The node-family/formal-coordinate mechanism works for split ordinary nodes
-in any characteristic when its flatness and independent-differential hypotheses
-hold. The displayed global rational matrices establish those hypotheses only
-in the certified characteristic-zero source; they do not assert all-prime
-rank or the same nodal geometry after reduction. In particular this local
-smoothing theorem supplies no obstruction to [quartic-carrier supported pairs
-in positive characteristic](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).
+The node-family/formal-coordinate mechanism works for split ordinary nodes in any characteristic **provided flatness and independent differentials hold**. The displayed global rational matrices establish these only for the certified characteristic-zero source; they do not give all-prime ranks or nodal reduction. Thus the local smoothing theorem does not obstruct [positive-characteristic quartic-carrier pairs](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).
