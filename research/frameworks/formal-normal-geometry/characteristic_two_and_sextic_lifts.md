@@ -22,10 +22,7 @@ These results separate four questions: conormal splitting, full initial equation
 
 ## 3.10A Characteristic-two cancellation versus embedded lifting
 
-The prescribed pair \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\) gives an exact arithmetic comparison, not a deformation-invariant STCI certificate. In characteristic two the generic initial equations first share a normal factor; cancellation supplies a fourth-order initial equation and generic transverse length four. The local filtered comparison defect nevertheless vanishes. In characteristic zero the same integral pair has additional reduced components, so the special-fiber support cannot be transported by flatness alone. See [R-0021](../../results/quartic_mu4_degeneration.md) and [R-0031](../../results/quartic_char2_fourth_equation_kernel.md).
-
-The conormal splitting change [R-0020](../../results/quartic_conormal_characteristic_jump.md) and the prescribed embedded nonlifting result [R-0012](../../results/prescribed_z4_arithmetic_nonlifting.md) address different objects. The latter excludes the specified supported embedded lift over its stated two-adic bases, **not** the displayed integral family (whose generic support is larger), nor every characteristic-zero pair. This example tests three separate interfaces: full initial ideals, integral embedded liftability, and generic support.
-
+The prescribed characteristic-two pair has full initial ideal \((X,Y^4)\), vanishing local comparison defect, and sole reduced support \(C\), whereas its integral characteristic-zero generic fiber has four reduced components. These facts concern different notions of lifting: [R-0021](../../results/quartic_mu4_degeneration.md) and [R-0031](../../results/quartic_char2_fourth_equation_kernel.md) describe the actual family and filtered kernel; [R-0012](../../results/prescribed_z4_arithmetic_nonlifting.md) excludes the specified embedded lift **with sole generic support** over its stated two-adic bases. The characteristic jump [R-0020](../../results/quartic_conormal_characteristic_jump.md) does not turn this into a universal nonlifting theorem.
 
 ## 3.10B An explicit sextic normal-symbol image
 
