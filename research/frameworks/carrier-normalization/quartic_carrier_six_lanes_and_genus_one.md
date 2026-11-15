@@ -65,21 +65,5 @@ In characteristic zero the derivative quartic in this branch lacks a \(U^2V^2\) 
 
 ### Explicit trace–norm certificate for the surviving displayed [2,2] pencil
 
-For the displayed pencil in Section 2, set \(Q=E_3\) and write \(Q=\ell z+q\) on the normalized surface. In retained coordinates \((x,y,v,w)\), the full conductor is \(\Gamma=V(L,R)\), with
-\[
-\begin{aligned}
-A&=-2y+v,& R_1&=2xv+yv-yw,\\
-L&=x+2y-v+w/4,& R&=-y^2-2xv-(xw-yv)/2+yw-v^2/4,\\
-\ell&=2y-v,&q&=-2xv+yw.
-\end{aligned}
-\]
-Eliminating \(x=-2y+v-w/4\) gives the smooth conic
-\[
-R_c=-y^2+\tfrac92yv+2yw-\tfrac94v^2+\tfrac18w^2=0,
-\]
-whose symmetric-matrix determinant is \(243/128\). In the entire quadratic conductor algebra \(z^2-Az-R_1=0\), the conjugation is \(\sigma(z)=A-z\), and
-\[
-T=Q+\sigma(Q)=2q+A\ell,\qquad N=Q\sigma(Q)=q^2+Aq\ell-R_1\ell^2.
-\]
-Reducing \(T^2,N\) modulo \(R_c\) with lexicographic order \(y,v,w\), the coefficients of \(yv^3,yv^2w\) are respectively \((114,336)\) and \((1,4)\); their minor is \(120\ne0\). Thus \(T^2/N\) is nonconstant. If \(Q^n\) descended for any positive \(n\), the generic ratio \(r=\sigma(Q)/Q\) would satisfy \(r^n=1\), making \(T^2/N=2+r+r^{-1}\) constant (also in the split or nonreduced quadratic cases in characteristic zero). Contradiction. This is a fixed-pencil all-power obstruction, not a classification of all \([2,2]\) pencils. The executable calculation is [verify_session_ribbon_22_bounded_2026_10_09.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_ribbon_22_bounded_2026_10_09.py); the broader partition coverage is supplied separately by the repeated-partition audit.
+For the unique surviving displayed \([2,2]\) pencil, the [complete calculation](../../arguments/carriers/genus_one_ribbon_partition_proofs.md#5-the-sole-22-pencil-has-no-descending-power) works in the entire quadratic conductor algebra, including its trace and norm. Its conic is smooth (matrix determinant \(243/128\)); the reduced trace-square and norm have coefficient minor \(120\ne0\). Equivalently, on a two-point slice \(18t^2-1=0\), the ratio \(T^2/N=22+72t\) is nonconstant. If \(Q^n\) descended for any \(n>0\), the conjugate ratio \(r\) would satisfy \(r^n=1\), forcing \(T^2/N=2+r+r^{-1}\) to be constant. The proof is for this fixed pencil; exhaustive \([2,2]\) coverage uses the preceding ideal classification.
 
