@@ -958,8 +958,7 @@ Finally, adjunction on the smooth quartic gives \(C^2=-2\), and \(C'=2H-C\) give
 
 ## Review decision and limitations
 
-No substantive mathematical correction was required. Componentwise normalization notation was suggested for clarity in section 5. All new elementary claims reconstructed above are independently reviewed evidence. The inherited reviewed inputs retain their pre-existing status. This audit proves neither a classification of possible embedded limits nor realization of arbitrary numerical data, and it supplies no unrestricted STCI conclusion.
-
-
+The elementary claims were independently reconstructed; inherited inputs were not rerun. The argument neither classifies embedded limits nor realizes arbitrary numerical data, and gives no unrestricted STCI conclusion.
 
 ---
+
