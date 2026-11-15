@@ -54,64 +54,12 @@ Thus in characteristic zero its determinants are \(-4r^7\), \(4z^7\); the invari
 
 ### Transport along the two moving directions
 
-Write the action on points as \((r,u,v)\mapsto(\lambda r,\mu u,\nu v)\)
-with \(\lambda,\mu,\nu\in k^*\). The image curve \(gC\) has centered
-normal coordinates \(U_g=u/\mu-1,\ V_g=v/\nu-1\). If a form is written
-on \(x_0=1\) as \(\sum_w r^w f_w(u,v)\), its transported equation
-\(F\circ g^{-1}\) has full expansion
+For the torus action \((r,u,v)\mapsto(\lambda r,\mu u,\nu v)\), center the normal coordinates on the **moving** curve \(gC\):
 \[
-\sum_w(\lambda^{-1}r)^w f_w(1+U_g,1+V_g).
+U_g=u/\mu-1,\qquad V_g=v/\nu-1.
 \]
-Thus \(g\) transports the entire normal filtration, including its Rees
-and graded algebras and the finite transverse scheme. In these frames
-the two transverse scalings are translations of the marked section in
-the quotient torus. Expanding in \(u-1,v-1\) instead introduces constant
-terms and can lose containment of the fixed \(C\). At \(p_0\) the regular
-normal parameters for \(gC\) are \(\mu r^3 U_g,\nu r^4 V_g\).
-At \(p_\infty\), center \(\alpha,\beta\) at \(\nu^2/\mu^3,\nu^3/\mu^4\)
-respectively. The corresponding unit multipliers preserve the two
-orders \(3,4\) and their determinant divisor. Equivariance of the
-finite modification carries its algebra and both image inclusions
-along with \(gC\), preserving \(m,h,\delta_0,\delta_\infty\) on the
-parameter torus for a pure supported scheme.
-The auxiliary linear action \((U,V)\mapsto(\mu U,\nu V)\) on a fixed
-punctual plane has its own Hilbert-scheme action. An application to
-projective equations must specify how that action lifts through the
-two endpoint contractions.
+The full transported equation is \(\sum_w(\lambda^{-1}r)^w f_w(1+U_g,1+V_g)\). Thus transport preserves the normal filtration, Rees algebra, graded algebra, and finite transverse scheme. Expansion about the old fixed curve instead can introduce constant terms and falsely lose containment. At the endpoints the regular normal frames acquire the unit multipliers \(\mu,\nu\) and the corresponding transformed \(\alpha,\beta\) centers, preserving invariant-factor orders \((3,4)\) and determinant divisor \(7p_0+7p_\infty\). For pure supported schemes, equivariance preserves the finite-modification invariants \(m,h,\delta_0,\delta_\infty\) along the parameter torus. A separate auxiliary linear action on a fixed punctual plane does **not** automatically lift through endpoint contractions.
 
-For a one-parameter subgroup with nonzero transverse character, the
-limit of the marked curve is disjoint from \(\Omega\). Indeed on
-\(\Omega\) one of \(u,v\) equals a nonzero power of the parameter
-and is required to stay a unit. Its contracted equation has unit
-specialization on this chart. For a sole-supported moving scheme,
-contract the ideals of both the scheme and its marked support from the
-punctured parameter trait. The power containments
-\(\mathcal I_{\mathcal C}^N\subset\mathcal I_{\mathcal Z}
-\subset\mathcal I_{\mathcal C}\) persist by parameter saturation. Hence
-the transverse special scheme is supported on the reduced support of
-the flat limit of the marked curve. Its fundamental cycle is \(m\)
-times the marked limiting cycle by specialization of cycles of flat
-families. Its generic normal length **along the original \(C\)** is
-then zero. The projective Hilbert polynomial stays fixed. The ideal
-and the degrees of its generators still require the full weight limit.
-[Cycle specialization over a DVR](https://stacks.math.columbia.edu/tag/0H4H).
+For a one-parameter subgroup with nonzero transverse character, the marked limit curve misses the dense coordinate torus. For a sole-supported moving scheme, parameter-saturated containments \(\mathcal I_{\mathcal C}^N\subset\mathcal I_{\mathcal Z}\subset\mathcal I_{\mathcal C}\) preserve support on the limiting marked curve; specialization of cycles gives \(m\) times its limit cycle, while the Hilbert polynomial remains fixed. The original curve's dense-torus normal length becomes zero. Neither the full limit ideal nor minimal generator degrees follow without the full weight calculation. [Cycle specialization](https://stacks.math.columbia.edu/tag/0H4H) · [full-limit proof](../../arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits).
 
-For the reduced parametrization the two moving directions give a
-two-dimensional family of distinct curves through the same endpoints.
-Together with the one-dimensional reparametrization \(r\mapsto\lambda r\)
-they give a three-dimensional family in
-\(\operatorname{Mor}(\mathbf P^1,\mathbf P^3;0\mapsto p_0,\infty\mapsto p_\infty)\).
-Indeed the four coefficients in \([s^4:\lambda s^3t:
-\mu\lambda^3st^3:\nu\lambda^4t^4]\), modulo their common scalar, recover
-the three parameters. This meets the dimension-two hypothesis of the
-two-point bend-and-break theorem for a projective target. It gives a
-connected nonintegral rational cycle of degree four through the two
-points. Stable-map properness compactifies the marked maps with nodal
-domains. These results concern maps from reduced curves, and the
-degree-four break is explicit in the
-[transverse sextic control](../../arguments/torus_sextic_residuals.md#a-transverse-limit-with-generic-length-two).
-The map and its cycle contain no data of the finite image cokernel or
-the graded equations of the thickening.
-[Mori's two-point theorem, as stated in Debarre, Proposition 7.3](https://perso.imj-prg.fr/wp-content/uploads/debarre-pub/M2.pdf#page=69) ·
-[Fulton–Pandharipande, §§1, 5–6](https://arxiv.org/pdf/alg-geom/9608011).
-
+The two transverse directions, together with intrinsic reparametrization, form a three-dimensional family of maps \(\mathbf P^1\to\mathbf P^3\) fixing the two endpoints. Two-point bend-and-break therefore produces a connected reducible rational degree-four cycle, and stable-map properness compactifies the family. This concerns **reduced maps**, not the finite image cokernel or equations of a thickening. [Two-point bend-and-break](https://perso.imj-prg.fr/wp-content/uploads/debarre-pub/M2.pdf#page=69) · [stable maps](https://arxiv.org/pdf/alg-geom/9608011) · [explicit transverse example](../../arguments/torus_sextic_residuals.md#a-transverse-limit-with-generic-length-two).
