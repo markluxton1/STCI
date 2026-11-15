@@ -737,24 +737,5 @@ survivor is therefore not automatically a projection or a mate.
 
 ### 5. Exact model and checking boundary
 
-The [assembly source](https://github.com/markluxton1/STCI/blob/add6e1664e6d9db84e67fb0276a318a804b3d2f8/research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2) derives the model from the literal accepted octic, reversed coefficients, recurrence, four cover equations, eight ODE equations and three accelerators. Its polynomial assertions check the cofactor and quotient/remainder identities. The retained seventeen-equation row and original domain polynomial supply precisely the incidence (4); grouped and individual coefficient exports are redundant representations.
+The [assembly source](https://github.com/markluxton1/STCI/blob/add6e1664e6d9db84e67fb0276a318a804b3d2f8/research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2) verifies the reversed octic, four cover equations, eight ODE equations, and three accelerators. The [load-only model](https://github.com/markluxton1/STCI/blob/bb5b1d5348097028738db196c262fe44b81b69ca/research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2) reads the seventeen equations and original domain polynomial over \(\mathbf Q\), checks their ring and shapes, and exposes the ideal and domain unit. It does **not** perform Gröbner elimination, saturation, localization, or a nonemptiness test. The pending global saturation must invert only \(\delta E\Delta_1\); restricting to the additional \(\Delta K\ne0\) chart would lose the repeated-root/cover boundary. Neither a quintic nor unrestricted STCI conclusion follows.
 
-The new currently runnable
-[load-only input](https://github.com/markluxton1/STCI/blob/bb5b1d5348097028738db196c262fe44b81b69ca/research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
-reads the completed seventeen-equation row and domain polynomial
-over QQ in the stated nine-variable order. It asserts the ring,
-matrix shape and nonzero domain polynomial, and retains the objects
-h2GlobalRing, h2GlobalEquations, h2GlobalIdeal and
-h2GlobalDomainUnit. It constructs no coefficient map and calls no
-Groebner basis or saturation operation. The domain polynomial is
-loaded as data for a future localization; the load-only script does
-not itself localize or prove the domain nonempty.
-
-Loading the completed input checks its ring and equation presentation. It is distinct from assembling the coefficients and supplies no saturation or elimination result.
-
-The one global future target is therefore the saved seventeen-equation
-incidence localized at (4). No Gröbner basis, saturation, resultant
-or emptiness computation for this global model is certified here.
-A result restricted to Delta*K nonzero cannot close this larger
-incidence. The unrestricted quintic and STCI questions remain outside
-the conclusion of this audit.
