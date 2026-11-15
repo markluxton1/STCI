@@ -624,22 +624,7 @@ saturation in general.
 
 ### 9. Review and frontier impact
 
-The proposed exact identities are (7), (8), and (9). The main new
-geometric constraints are (13)--(18): repeated moving roots require
-an effective resultant divisor, and actual saturated-duality
-generation defects determine its total degree. The ordinary first
-defect only provides an upper budget; the inequalities do not decide
-whether the remaining models exist.
-
-The linked independent review passed reconstruction of the actual kernel of `L_j -> B_j`,
-the equality of the saturation in (2), the degree-s kernel as a
-quotient relation, all resultant weights and signs, full-root
-nonzerodivisor behavior, and the implication from a zero-degree
-component section to triviality on its double. Its denominator
-qualification at `g=1` has been incorporated in (18). The local example
-does not imply global projective existence. The full generic
-initial CI, actual lci, and unique-support hypotheses remain explicit.
-
+Identities (7)–(9) and constraints (13)–(18) give an effective resultant divisor for repeated moving roots, with degree controlled by **actual saturated-duality generation defects**; the ordinary first defect is only an upper budget. Independent review checked the kernel \(L_j\to B_j\), saturation (2), degree-\(s\) quotient relation, resultant signs and weights, full-root nonzerodivisors, and the degree-zero component criterion. The \(g=1\) denominator qualification is in (18). Generic initial CI, actual lci, and sole support remain hypotheses; the local example does not prove global existence.
 
 ---
 
