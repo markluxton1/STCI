@@ -516,49 +516,19 @@ The current externally observed checkpoint is
 `2026-10-15 afternoon limit reached`. The primary agent did not create
 that commit. This continuation has further working-tree changes.
 
-### 1. The strongest structural generalization
+### 1. Intrinsic finite-root-family theorem
 
-The new [intrinsic finite-root-family theorem](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-intrinsic-finite-root-family)
-and [independent new-scope audit](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-intrinsic-finite-root-family-independent-audit)
-remove the rational-base and split-normal-bundle hypotheses from a fixed
-bounded smooth-root family. If `A=Z^2_E`, `nu=E.Z`, and
-`nu>max(A,0)`, all successive correction lines have negative degree
-`A-m nu`. Relative cohomology gives obstruction bundles of rank
-`g_Z-1-A+m nu`, compatibly with arbitrary parameter base change, including
-nilpotent directions. The embedded-Cartier ideals are unique whenever
-they exist, so their closed obstruction schemes remain in one fixed
-finite-type space and eventually stabilize as schemes.
+The [complete theorem and proof](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-intrinsic-finite-root-family) remove rational-base and split-normal hypotheses for a bounded family of **smooth connected** roots. For \(A=Z_E^2\), \(\nu=E\cdot Z\), \(\nu>\max(A,0)\), correction lines have degrees \(A-m\nu<0\), and relative obstruction bundles have rank \(g_Z-1-A+m\nu\), compatible with nilpotent base change. Embedded Cartier ideals, when they exist, are unique; the descending closed obstruction schemes in one finite-type Hilbert open stabilize.
 
-For the actual blowup of **any** fixed smooth space curve of degree e
-and genus gamma, the actual exceptional ruled surface obeys
-
-```
-A=(4e+2gamma-2)r^2-2r nu,
-A=2g_Z-2+4er-2nu.
-```
-
-Fixed `(r,nu)` fixes numerical class and Hilbert polynomial. One smooth
-Cartier Hilbert open therefore contains all smooth connected roots of
-that class. If `nu>4g_Z+5`, a hypothetical infinite lift also requires
-a positive integer d satisfying
-
-```
-d<=max_(a>=1 integer)(2aer-nu a^2),
-(d-1)(d-2)>=e r(r-1).
-```
-
-Incompatibility makes the stable scheme empty, and gives a finite
-uniform empty stage N over the whole fixed family. Under a valid
-actual-CI bridge, `s-r<=N`. The theorem does not compute N, bound all
-numerical classes, or treat singular/nonreduced roots. Its new intrinsic
-proof and audit state characteristic-zero scope.
-
-This contains the preceding balanced-rational movement-two result:
-for e>=4 and every r>=2, all smooth roots of class `(2,r)` have no
-infinite formal lift. Movement-one roots of order r>=2 are also excluded
-for e>=3; for r=1,e>=4, their all-orders lifts are exactly containing
-quadric germs smooth along C. The broader inequalities, rather than
-separate carrier degrees, are the continuing geometric mechanism.
+For the blowup of a smooth degree-\(e\), genus-\(\gamma\) space curve,
+\[
+A=(4e+2\gamma-2)r^2-2r\nu=2g_Z-2+4er-2\nu.
+\]
+Fixed \((r,\nu)\) fixes the Hilbert polynomial. If \(\nu>4g_Z+5\), an infinite lift requires some positive integer \(d\) satisfying
+\[
+d\le\max_{a\ge1}(2aer-\nu a^2),\qquad (d-1)(d-2)\ge er(r-1).
+\]
+If incompatible, the stable scheme is empty and some finite uniform stage \(N\) is empty; an **actual-CI bridge** then gives \(s-r\le N\). This does not compute \(N\), classify all classes, or treat singular roots. In particular, smooth \((2,r)\) roots have no infinite formal lift for \(e\ge4,r\ge2\); movement-one roots with \(r\ge2,e\ge3\) are excluded, while for \(r=1,e\ge4\) all-order lifts are precisely containing quadric germs smooth along \(C\).
 
 ### 2. Characteristic and actual-CI bridge
 
