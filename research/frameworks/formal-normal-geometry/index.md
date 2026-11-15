@@ -130,3 +130,15 @@ cone to its marked incidence problem is still needed.
 - [Embedded one-step lifts and arithmetic boundaries](embedded_one_step_lifts_and_arithmetic_boundaries.md)
 
 The first saturated normal relation, subsequent quotient relations, actual homogeneous equation sources, and embedded arithmetic lifting are distinct requirements. The [original section addresses](from_symbols_to_equations.md) remain navigable.
+
+
+### Normal filtrations and exceptional boundaries
+
+- [Normal neighborhoods and boundary repair mechanisms](normal_neighborhoods_and_boundary_repairs.md)
+- [Filtered equation modules and sextic source obstructions](filtered_equation_module_and_sextic_obstruction.md)
+- [Quartic ancestor restrictions and endpoint exclusions](quartic_ancestor_and_endpoint_exclusions.md)
+- [Mixed-degree Fitting strata and thickening realization](mixed_degree_fitting_and_realization.md)
+- [Socle budgets, source modules, and arithmetic comparisons](socle_budgets_and_arithmetic_comparisons.md)
+- [Filtration calculations and exact computational sources](filtration_computational_sources.md)
+
+These developments distinguish successive neighborhoods, the full filtered equation module, fixed ancestor and endpoint restrictions, and actual global realization. [Original section addresses](normal_filtration_boundaries.md) remain available.
