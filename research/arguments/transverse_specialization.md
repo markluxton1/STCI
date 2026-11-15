@@ -437,10 +437,5 @@ additional data.
 
 ## Source review
 
-The October 24 [transverse specialization account](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-transverse-specialization-and-normal-flatness)
-records an independent reconstruction of its local proofs. It uses the
-earlier reviewed filtered-equation comparison and two examples from the
-normal-Koszul continuation. Its [evidence scope](normal-geometry/rees_equation_persistence.md#evidence-scope-and-the-remaining-geometric-bridge)
-records the basis check for the supported quadruple and distinguishes
-sampled Rees computations from exact family proofs. The reconstructed
-routes here have their own review passages in R-0062 and R-0063.
+The [independent transverse-specialization reconstruction](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-transverse-specialization-and-normal-flatness) uses the previously reviewed filtered comparison and normal-Koszul examples. Its [evidence boundary](normal-geometry/rees_equation_persistence.md#evidence-scope-and-the-remaining-geometric-bridge) distinguishes the supported-quadruple basis check and sampled Rees calculations from exact family proofs. R-0062 and R-0063 retain their separate review scopes.
+
