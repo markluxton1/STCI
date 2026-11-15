@@ -17,7 +17,7 @@ research/computations/c4_conormal.py,retain,,Previously reported explicit decisi
 research/computations/c4_root_collision.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/ci_cycle_line_degeneration_2026_10_25.m2,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/ci_cycle_line_degeneration_2026_10_25.py,consolidate-and-retire,,Explicit ruling-line degeneration identities and boundary conditions; Torus/Hilbert-boundary Argument | Earlier explicit mathematical content: ruling-line degeneration identities,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-resolved
-research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json,unexamined,,,,awaiting-merge
+research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json,retain,,Exact quartic pencil tangent-map and node-smoothing matrices; mathematical input to retained construction,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/conditional_2_12_cont2_endpoint_models_2026_10_21.py,retain,,Constructs endpoint models incorporating the actual global cubic conditions,Pasted text(20261115-021215).txt,recovered
 research/computations/conditional_2_12_cont2_independent_unit_audit_2026_10_21.py,retire,,,Pasted text(20261115-021215).txt,recovered
 research/computations/conditional_2_12_cubic_image_2026_10_21.m2,consolidate-and-retire,,"Cubic-image ideal, degree, resolution, and singular-locus description",Pasted text(20261115-021215).txt,recovered
@@ -56,21 +56,21 @@ research/computations/derive_normal_quintic_ade_e1_2026_10_13.py,consolidate-and
 research/computations/derive_session_localcoh_e1_d4_principal_extension_2026_10_08.py,consolidate-and-retire,,Normal-filtration synthesis; moving cubic transition | Earlier intrinsic extension coordinate and defect dependence,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-resolved
 research/computations/derive_session_rnc_ribbon_net_2026_10_09.py,consolidate-and-retire,,Actual-coordinate conormal/ribbon-net construction; Existing rational-normal-curve investigation | Earlier actual-coordinate ribbon-net construction,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-resolved
 research/computations/draw_quartic_geometry_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
-research/computations/dx1_saturation_audit_2026_10_07.json,unexamined,,,,awaiting-merge
+research/computations/dx1_saturation_audit_2026_10_07.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/e2_full4_obstruction_2026-10-05.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/endpoint4_actual_2026_10_25.json,retain,,Saved exact realization output; includes matrix input SHA and explicit endpoint-four solutions,source-content-inspection-2026-11-14,classified
 research/computations/endpoint4_actual_2026_10_25.py,retain,,Four explicit endpoint-four sextic lifts | Earlier retained actual sextic-symbol solver; saved input dependency,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-resolved
-research/computations/endpoint4_fixed_jet_independent_2026_10_26.json,unexamined,,,,awaiting-merge
+research/computations/endpoint4_fixed_jet_independent_2026_10_26.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/endpoint4_fixed_jet_independent_2026_10_26.py,retire,,,Pasted text(20261115-022113).txt,recovered
-research/computations/endpoint4_fixed_m2_2026_10_25.json,unexamined,,,,awaiting-merge
+research/computations/endpoint4_fixed_m2_2026_10_25.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/endpoint4_fixed_m2_2026_10_25.m2,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/endpoint4_fixed_m2_2026_10_25.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/endpoint4_fixed_m2_2026_10_25.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
-research/computations/evening-localcoh-family2-cubic-2026-10-13-certificate.json,unexamined,,,,awaiting-merge
+research/computations/evening-localcoh-family2-cubic-2026-10-13-certificate.json,retain,,Direct certificate input of retained exact number-field verifier; deleting breaks verifier,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/evening-localcoh-family2-cubic-2026-10-13-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening-localcoh-family2-cubic-2026-10-13-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening-localcoh-family2-cubic-2026-10-13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
-research/computations/evening-localcoh-family2-quartic-2026-10-13-certificate.json,unexamined,,,,awaiting-merge
+research/computations/evening-localcoh-family2-quartic-2026-10-13-certificate.json,retain,,Direct certificate input of retained exact number-field verifier; deleting breaks verifier,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/evening-localcoh-family2-quartic-2026-10-13-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening-localcoh-family2-quartic-2026-10-13-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening-localcoh-family2-quartic-2026-10-13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
@@ -80,7 +80,7 @@ research/computations/evening_localcoh_boundary_3_2026_10_13-generic-dual.txt,re
 research/computations/evening_localcoh_boundary_3_2026_10_13-seed.json,retain,,Exact rational parameter/seed data for reproducible local-cohomology boundary calculations,source-content-inspection-2026-11-14,classified
 research/computations/evening_localcoh_boundary_3_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/evening_localcoh_boundary_3_clearing_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
-research/computations/evening_localcoh_boundary_4_2026_10_13-certificate.json,unexamined,,,,awaiting-merge
+research/computations/evening_localcoh_boundary_4_2026_10_13-certificate.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/evening_localcoh_boundary_4_2026_10_13-cleared-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening_localcoh_boundary_4_2026_10_13-denominator.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening_localcoh_boundary_4_2026_10_13-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
@@ -93,7 +93,7 @@ research/computations/evening_localcoh_boundary_4_minus8over3_2026_10_13-generic
 research/computations/evening_localcoh_boundary_4_minus8over3_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/evening_localcoh_boundary_4_quad_2026_10_13-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening_localcoh_boundary_4_quad_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
-research/computations/evening_localcoh_boundary_4_zero_2026_10_13-certificate.json,unexamined,,,,awaiting-merge
+research/computations/evening_localcoh_boundary_4_zero_2026_10_13-certificate.json,retain,,Direct certificate input of retained exact number-field verifier; deleting breaks verifier,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/evening_localcoh_boundary_4_zero_2026_10_13-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening_localcoh_boundary_4_zero_2026_10_13-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/evening_localcoh_boundary_4_zero_2026_10_13.m2,retire,,,Pasted text(20261115-022942).txt,recovered
@@ -104,12 +104,12 @@ research/computations/explore_ci_residual_pencil_2026_10_25.m2,retire,,,Pasted t
 research/computations/explore_localcoh_direction_contact.py,retain,,Constructs the second-contact linear map in a balanced conormal direction; Local-cohomology investigation,Pasted text(20261115-022113).txt,recovered
 research/computations/explore_session_endpoint_a_nonzero_multiplicity_2026_10_11.m2,consolidate-and-retire,,Rational one-parameter target-septic contact conditions; Quintic-conductor synthesis,Pasted text(20261115-022113).txt,recovered
 research/computations/explore_session_endpoint_a_nonzero_support_2026_10_11.m2,retire,,,Pasted text(20261115-022113).txt,recovered
-research/computations/explore_session_localcoh_e1_d4_quartic_map_2026_10_08.json,unexamined,,,,awaiting-merge
+research/computations/explore_session_localcoh_e1_d4_quartic_map_2026_10_08.json,retain,,Explicit ambient quartic-map equations and cases; reusable mathematical computation,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/explore_session_localcoh_e1_d4_quartic_map_2026_10_08.py,retain,,"Constructs full double-quartic maps for the \\(e=1,d_2=4\\) obstruction-zero directions; Normal-filtration synthesis",Pasted text(20261115-022113).txt,recovered
 research/computations/finite_normal_jet_certificate.m2,retire,,,Pasted text(20261115-022113).txt,recovered
-research/computations/general-localcoh-degree15-sparse-block-2026-10-14-diagnostic.json,unexamined,,,,awaiting-merge
+research/computations/general-localcoh-degree15-sparse-block-2026-10-14-diagnostic.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt03.m2,retire,,,Pasted text(20261115-022942).txt,recovered
-research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-certificate.json,unexamined,,,,awaiting-merge
+research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-certificate.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/general_localcoh_degree15_polynomial_scaling_design_2026_10_14.py,consolidate-and-retire,,"Proposed polynomial rescaling scheme, clearly distinguished from a rank certificate; Local-cohomology investigation | Earlier proposed rescaling scheme is distinct from rank certificate",Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-resolved
 research/computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/generalization_moving_first_relation_operator.py,retain,,Normal-filtration synthesis; moving quadratic relation operator,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
@@ -149,10 +149,10 @@ research/computations/generate_session_localcoh_q1_module_2026_10_07.py,retire,,
 research/computations/generate_session_localcoh_q3_module_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/global_ci_small_movement_divisor_audit.py,consolidate-and-retire,,"Complete necessary integer solutions for the specified small-movement range, explicitly excluding geometric existence conclusions; Torus/Hilbert-boundary Argument",Pasted text(20261115-022113).txt,recovered
 research/computations/localcoh-e2-incidence-2026-10-06.py,retain,,Local-cohomology investigation; normalized incidence-chart exporter,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
-research/computations/localcoh-incidence-2026-10-06-certificate.json,unexamined,,,,awaiting-merge
+research/computations/localcoh-incidence-2026-10-06-certificate.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/localcoh-incidence-2026-10-06.py,retire,,,Pasted text(20261115-021455).txt,recovered
 research/computations/localcoh-incidence-bases.txt,retain,,Direct input to retained evening_localcoh_family2_exception_fields_2026_10_13.py (INPUTS); required to reproduce exact verification,source-import-dependency-inspection-2026-11-14,dependency-verified
-research/computations/localcoh-incidence-parity-dual-2026-10-06.json,unexamined,,,,awaiting-merge
+research/computations/localcoh-incidence-parity-dual-2026-10-06.json,retain,,Explicit uniform polynomial dual identities and scope; reusable mathematical data,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/localcoh-incidence-parity-dual-2026-10-06.m2,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/localcoh-incidence-parity-dual-2026-10-06.py,retire,,,Pasted text(20261115-021455).txt,recovered
 research/computations/localcoh-incidence-parity-dual-2026-10-06.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
@@ -185,7 +185,7 @@ research/computations/quadratic_root_diagonal_certificate.py,retire,,,Pasted tex
 research/computations/quadratic_root_pure_direction_boundary_certificate.sing,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/quadratic_root_torsion_two_model.py,retain,,Quadratic-root lifting synthesis; Singular incidence generator,Pasted text(20261115-022942).txt,recovered
 research/computations/quadratic_root_torsion_two_rank_strata.sing,retain,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-022942).txt; reconciliation-user-message,conflict-resolved
-research/computations/quartic_flag_incidence_2026_10_24.json,unexamined,,,,awaiting-merge
+research/computations/quartic_flag_incidence_2026_10_24.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/quartic_fourth_extension_cocycles.py,retain,,Intrinsic-fourth-extension synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/quintic_a4_conductor_first_jet.py,retain,,Reusable symbolic first-jet computation importing quintic_conductor_cone_identity.py,source-content-inspection-2026-11-14,classified
 research/computations/quintic_component_root_witness.py,retire,,,Pasted text(20261115-022942).txt,recovered
@@ -206,7 +206,7 @@ research/computations/session-localcoh-corner18-dual.txt,retire,,Input dependenc
 research/computations/session-localcoh-corner18.m2,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/session-localcoh-corner2-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/session-localcoh-corner2.m2,retire,,,Pasted text(20261115-022942).txt,recovered
-research/computations/session-localcoh-corners-certificate.json,unexamined,,,,awaiting-merge
+research/computations/session-localcoh-corners-certificate.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/session-localcoh-corners.py,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/session-localcoh-origin-boundary.py,retain,,,Pasted text(20261115-022942).txt,recovered
 research/computations/session-localcoh-origin-families.json,retain,,Parameter families emitted by retained session-localcoh-origin-parametrize.py; stores explicit symbolic formulas,source-content-inspection-2026-11-14,classified
@@ -223,7 +223,7 @@ research/computations/session-localcoh-origin-family-1-exception-q3-dual.txt,ret
 research/computations/session-localcoh-origin-family-1-exception-q3-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/session-localcoh-origin-family-1-exception-q3.m2,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/session-localcoh-origin-family-1-generic-dual.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
-research/computations/session-localcoh-origin-family-1-polynomial-dual.json,unexamined,,,,awaiting-merge
+research/computations/session-localcoh-origin-family-1-polynomial-dual.json,retain,,Explicit large polynomial dual used to reconstruct family exclusion,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/session-localcoh-origin-family-1-seed.json,retain,,Explicit origin-family seed data for local-cohomology computation,source-content-inspection-2026-11-14,classified
 research/computations/session-localcoh-origin-family-1.m2,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/session-localcoh-origin-family-2-evaluations.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
@@ -244,13 +244,13 @@ research/computations/session_dx1_saturation_certificate_2026_10_06.txt,retire,,
 research/computations/session_dx1_shifted_membership_2026_10_07.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/session_localcoh_conormal_hankel_2026_10_07.json,consolidate-and-retire,,Exact conormal splitting/Hankel rank structural reduction; unique statements to existing local-cohomology synthesis,source-content-inspection-2026-11-14,classified
 research/computations/session_localcoh_conormal_hankel_2026_10_07.py,retain,,Constructs conormal cup-product rank matrices; local-cohomology investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
-research/computations/session_localcoh_family2_generic_dual_audit_2026_10_08.json,unexamined,,,,awaiting-merge
-research/computations/session_localcoh_family2_qminus_audit_2026_10_08.json,unexamined,,,,awaiting-merge
-research/computations/session_localcoh_family2_qplus_audit_2026_10_08.json,unexamined,,,,awaiting-merge
-research/computations/session_localcoh_q13_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
-research/computations/session_localcoh_q1_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
-research/computations/session_localcoh_q2_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
-research/computations/session_localcoh_q3_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
+research/computations/session_localcoh_family2_generic_dual_audit_2026_10_08.json,retain,,Explicit generic polynomial dual and exceptional factors for family2,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
+research/computations/session_localcoh_family2_qminus_audit_2026_10_08.json,retain,,Exact quadratic-field dual identities and parameters,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
+research/computations/session_localcoh_family2_qplus_audit_2026_10_08.json,retain,,Exact quadratic-field dual identities and parameters,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
+research/computations/session_localcoh_q13_dual_audit_2026_10_07.json,retain,,Exact degree-13 field dual and direction data,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
+research/computations/session_localcoh_q1_dual_audit_2026_10_07.json,retain,,Exact degree-4 field dual and direction data,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
+research/computations/session_localcoh_q2_dual_audit_2026_10_07.json,retain,,Exact quadratic-field dual and direction data,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
+research/computations/session_localcoh_q3_dual_audit_2026_10_07.json,retain,,Exact degree-4 field dual and direction data,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/session_uniform_e2_hankel.py,retire,,Earlier bounded E2 Hankel specialization; no reusable method established,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-resolved
 research/computations/sextic_global_jet_cech.py,retain,,Sextic-lifting synthesis; two-chart Čech computation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/stci_arithmetic_beyond_2026_10_29.py,retire,,,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
@@ -263,7 +263,7 @@ research/computations/stci_mixed_weight_lines_2026_10_30.m2,consolidate-and-reti
 research/computations/stci_mixed_weight_lines_audit_2026_10_30.m2,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/stci_search_freedom_2026_10_28.m2,retain,,,Pasted text(20261115-022942).txt,recovered
 research/computations/stci_search_quadric_endpoint_2026_10_28.m2,retire,,First recorded decision is retire; later entry supplies no new rationale,Pasted text(20261115-022942).txt,conflict-resolved
-research/computations/stci_search_sextic_jets_2026_10_28.json,unexamined,,,,awaiting-merge
+research/computations/stci_search_sextic_jets_2026_10_28.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/stci_search_sextic_jets_2026_10_28.py,retire,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt; reconciliation-user-message,recovered
 research/computations/vahlen_base_locus_discriminant.py,retain,,Projection investigation; cubic base-locus discriminant,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/vahlen_quintic_exact.py,retain,,Same investigation; exact low-degree substitution kernels,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
@@ -310,9 +310,9 @@ research/computations/verify_localcoh_quartic_ratio_t_slice.py,retain,,Computes 
 research/computations/verify_mf6_defect12.py,retain,,"Constructs moving-chart quadratic cocycles, divisor-clearing matrices, and triple-compatible quartic spaces; Normal-filtration boundary-obstruction synthesis",Pasted text(20261115-021215).txt,recovered
 research/computations/verify_mf6_e1_d1_endpoints.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
-research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_infinity.json,unexamined,,,,awaiting-merge
-research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_quadratic.json,unexamined,,,,awaiting-merge
-research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_rational.json,unexamined,,,,awaiting-merge
+research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_infinity.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
+research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_quadratic.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
+research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_rational.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.m2,retire,,,Pasted text(20261115-021455).txt,recovered
 research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py,consolidate-and-retire,,Principal invariant-direction curve equation and its genus-one structural interpretation; Normal-filtration synthesis,Pasted text(20261115-022113).txt,recovered
@@ -364,7 +364,7 @@ research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py,retire
 research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/verify_session_mf6_principal_rzero_normality_2026_10_09.m2,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py,consolidate-and-retire,,"Degree-\\((7,7)\\) binary-gradient resultant construction, weighted-degree bound, and explicit statement that the candidate is not an STCI; Normal-filtration synthesis",Pasted text(20261115-022113).txt,recovered
-research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.json,unexamined,,,,awaiting-merge
+research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.json,retire,,Generated audit or verification output; not required as permanent proof evidence; source method and mathematical conclusions preserved separately,phase2-source-inspection-2026-11-14,classified-provisional-dependency-check
 research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/verify_session_multiplicity_ten_filtration_2026_10_11.py,consolidate-and-retire,,"Necessary saturated-filtration degree sequences for CI\\((5,8)\\), without geometric realization claims; Normal-filtration synthesis",Pasted text(20261115-022113).txt,recovered
 research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2,retire,,,Pasted text(20261115-022113).txt,recovered
