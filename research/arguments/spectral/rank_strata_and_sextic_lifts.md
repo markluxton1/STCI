@@ -1014,23 +1014,7 @@ full emptiness result is asserted.
 
 ## 1. Scope and reviewed files
 
-The exact actual-pair scope is `C0`, algebraically closed characteristic
-zero, degrees `(6,16)`, sole reduced support `C0`, FULL generic coprime
-ordinary initial CI `(2,12)`, and ACTUAL saturated movement-two first
-relation. The reviewed inputs are:
-
-* [the cubic-image and conductor interface](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface);
-* [the conductor-ramification proposal](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification), sections 1--6;
-* [the normality and ampleness audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus),
-  whose nodal extension was independently reconstructed in
-  [the surface continuation](#nonnormal-conductor-budget-and-local-escape-models).
-
-The singular-root finite bridge remains an explicit reviewed but
-dependency. The lower-carrier input was read in
-[R-0001](../../results/quartic_carrier_exclusion.md), including its
-**Consequences** paragraph, which expressly includes the earlier
-plane/quadric/cubic exclusions and factor reduction. No inherited
-carrier proof was rerun.
+This continuation uses the same characteristic-zero **actual supported \((6,16)\)**, saturated movement-two, full generic \((2,12)\) CI hypotheses as [the geometric audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus). The additional inputs are the [cubic-image/conductor interface](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface), [ramification argument](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification), and [normality/nodal extension](#nonnormal-conductor-budget-and-local-escape-models). The singular-root finite bridge is a separate necessary dependency, not a consequence of smooth-root theory. The low-degree carrier and factor exclusions come from [R-0001](../../results/quartic_carrier_exclusion.md), not this conditional calculation.
 
 ## 3. Full conductor duality and component genus: independent review PASS
 
