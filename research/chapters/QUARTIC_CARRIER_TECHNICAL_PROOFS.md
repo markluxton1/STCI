@@ -276,7 +276,40 @@ Z_t=\tfrac{k_t}{2}F_t-R_t,\qquad c\cdot Z_t=k_t,\qquad \sum_t k_t=4.
 \]
 Every positive component of \(Z\) is a vertical exceptional \((-2)\)-curve. Positivity of intersections and \((c+Z)\cdot E=0\) show that its positive support contains **whole connected exceptional graphs**, not arbitrary subgraphs.
 
-**Even-count exclusion (proved under these inputs).** If \(k_t>0\) is even, \(Z_t\) is an integral divisor. Over a singular point \(p\) in its support, \(N=\mathcal O_M(c+Z_p)\) has degree zero on every exceptional component. Rationality of the singularity and the line-bundle descent theorem imply \(N=\sigma^*P\) for an invertible \(P\) near \(p\). On the punctured neighborhood \(P\) agrees with the reflexive divisorial sheaf \(\mathcal O_S(c_S)\), hence the two agree everywhere. The embedded smooth \(c_S\) is thus Cartier at \(p\). But a smooth Cartier curve through a surface point forces that surface point regular, contradicting the nonempty exceptional fiber. Therefore no positive even \(k_t\) occurs; the partitions \([4]\), \([2,2]\), and \([2,1,1]\) are excluded. This is stronger than a mere local class-group torsion argument; the **rational-singularity descent hypothesis** is essential. [Detailed integral descent proof](../supplements/GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md).
+### Bisection with an even fiber count
+
+If \(k_t>0\) is even, \(Z_t\) is an effective integral divisor. The equality
+\(c\cdot Z_t=k_t>0\) puts a point of the strict curve on its positive support.
+Let \(p\) be the image of a contacted graph. Support closure means that
+the whole exceptional fiber over \(p\) has its integral correction
+\(Z_p\) in one full \(f\)-fiber. Thus the line bundle
+\(N=\mathcal O_M(c+Z_p)\) has degree zero on every exceptional component
+over \(p\).
+
+Apply [Kollár, Chapter 2, Proposition 76(1), PDF pp. 35–36](https://web.math.princeton.edu/~kollar/book/chap2.pdf).
+The conductor argument establishes rationality of the singularities of
+\(S\). The resolution is log minimal with zero boundary since adjunction
+gives \(K_M\cdot E=-2-E^2\ge0\) on every exceptional \((-2)\)- or
+\((-3)\)-curve. A log resolution refinement preserves degree zero on
+every exceptional component, including the newly created ones. The descent
+theorem gives \(N=\sigma^*P\) for an invertible \(P\) near \(p\); it does
+not require \(K_S\) to be Cartier or \(\mathbf Q\)-Cartier. Away from
+\(p\), \(P\) agrees with \(\mathcal O_S(c_S)\), so reflexivity on the
+normal surface identifies the sheaves at \(p\) too.
+
+The actual smooth embedded \(c_S\) is therefore Cartier at \(p\).
+If \(g\) is its local equation and \(u\) lifts a generator of the maximal
+ideal on \(c_S\), then \((g,u)\) generates the surface maximal ideal by
+Nakayama. This forces regularity, contradicting the singular point on the
+minimal resolution. The counts allow reducible and nonreduced fibers and
+infinitely near centers. The excluded partitions are \([4]\), \([2,2]\)
+and \([2,1,1]\), leaving \([3,1]\) and \([1,1,1,1]\) in this argument.
+
+The separate parity auditor checked Proposition 76, support closure, the
+entire local correction, reflexive extension to the actual curve and
+the regular-local-ring contradiction. Acceptance covers every positive even
+count under the characteristic-zero second-pencil and smooth-lift
+hypotheses. [Proof and independent decision in the historical source](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md#6-consequences-and-surviving-scope).
 
 **Three-center exclusion (conditional on the same geometric inputs; source originally awaited a separate parent audit).** The nef-anticanonical rational pencil on \(V\) has three possible entire-fiber types: an irreducible smooth component of square zero; a reduced chain with two \((-1)\) ends; or a nonreduced tree with one multiplicity-two \((-1)\) component, two multiplicity-one leaves, and a possibly empty multiplicity-two tail. A blowup of an old \((-2)\) component is forbidden by nefness. For \(k_t=3\), every old \((-1)\) must be hit exactly once, an old square-zero component exactly twice, and a positive-coefficient new exceptional component must finish with square \(-2\). At each new center,
 \[
@@ -337,17 +370,97 @@ There is also a necessary **ramification countershield**: an isolated rank-one d
 
 ## 19. Genus-two marked section case
 
-### Full free-chain proof for the \(B\)-absent marked case
+### Free-chain proof when the marked prime is absent
 
-When \(B=e_0-e_i-e_j\) is absent, all eight blowup centers form free chains; there is no satellite. A horizontal proper line has four centers on its strict transform. Once a chain leaves that line, it cannot return to it, because the next center is at a different point of the exceptional divisor.
+Assume that the horizontal prime \(B=e_0-e_i-e_j\) of plane degree zero
+is absent. In the plane marking below there is one double center \(p_0\)
+and eight simple centers. For the strict exceptional curve
+\(D_i=e_i-\sum_{j\succ i}e_j\), nefness gives
+\(L\cdot D_i=m_i-\sum_{j\succ i}m_j\ge0\), where \(j\succ i\)
+denotes a proximate center, \(m_0=2\) and \(m_i=1\) for \(i>0\).
+Each simple center has at most one proximate child. The double center
+must be proper and can have at most one proximate child, since two would
+produce \(B\). A satellite would require two proximate children at the
+older of its two exceptional curves. The clusters are therefore free
+chains. A simple cluster with \(N\) centers has null prefix
+\(A_{N-1}\), ending at the last center of positive \(L\)-degree.
+The chain rooted at \(p_0\) cannot meet a horizontal proper line, which
+avoids \(p_0\).
 
-For a single horizontal line \(H\), let a chain contain \(s\) centers on the line and \(t\) centers off it. The whole \(A_{s+t-1}\) chain attaches at its \(s\)-th vertex. Eliminating the negative Cartan intersection matrix contributes \(st/(s+t)\) to the correction at \(H\). Since the horizontal coefficient is one, the contributions must sum to two. The constraints \(\sum s\le4\), \(\sum t\le4\) and Cauchy force equality: all four on-line and four off-line centers participate, with \(s=t\) in each cluster. For an integral anti-nef local uniformizer cycle \(Y\) with \(Y_H=1\), discrete concavity along the chain forces its neighboring coefficient at \(H\) to be at least \(\min(s,t)\). Summing gives at least four neighbors, whereas \(Y\cdot H\le0\) permits at most three. Contradiction.
+Smooth embedded descent permits at most one \(h\)-positive prime per
+connected exceptional graph. The \(h\)-positive exceptional primes
+are proper lines. A horizontal one passes through four simple centers
+and a vertical one passes through \(p_0\) and two simple centers.
+Once a free chain leaves a line it cannot return, since the next center
+lies at a different point of the previous exceptional divisor.
 
-For two horizontal lines, their strict transforms meet at exactly one shared simple center. They account for seven centers, leaving one outside their union. The common free chain follows at most one of the lines: leaving that line would connect the entire null prefix to both positive-horizontal-degree primes, violating the connected-exceptional-graph constraint. It ends on the line, giving an endpoint \(A_k\) arm to the other line, \(k\le3\). The outside center supplies at most one additional arm, of contribution \(s/(s+1)\), \(s\le3\). If the two arms are split between the lines, their total horizontal correction is at most \(8/9\). If both lie on the same line, it is at most one. The required equality \(K\cdot Z=1\) forces the latter bound to be attained, with \(k=s=3\).
+At a singular point on the smooth downstairs curve, choose a local
+function on \(S\) restricting to a uniformizer on that curve. The
+exceptional part \(Y\) of its full pullback has positive integral
+coefficients. The proper part has nonnegative intersection with every
+exceptional prime, so \(Y\) is anti-nef. The unique transverse contact
+has coefficient one, since the pullback has order one on the strict
+curve. When a contacted \((-3)\)-curve \(H\) meets the \(s\)-th vertex
+of an \(A_{s+t-1}\) chain, write its chain coefficients as \(y_j\),
+with \(y_0=y_{s+t}=0\). The differences
+\(d_j=y_j-y_{j-1}\) are nonincreasing and have a drop of at least one
+at \(s\). Since they are integral, either \(d_s\ge1\) or
+\(d_{s+1}\le-1\), so \(y_s\ge\min(s,t)\). At \(H\), the sum of
+neighbor coefficients must be at most three.
 
-In that equality configuration all eight centers lie in two clusters rooted at \(P,Q\) on the same horizontal line; the first-child directions are the two horizontal lines. A vertical exceptional proper line would pass through the original point \(p_0\) and two simple centers. It cannot contain both \(P,Q\), whose joining line is horizontal and misses \(p_0\); at either root its direction is different from the first child's horizontal direction, so it cannot contain a later center. Thus no vertical proper exceptional line exists. The two horizontal lines are the only positive-\(h\)-degree exceptional primes, and their coefficients sum to one. This yields \(h\cdot Z=1\), contradicting \(h\cdot Z=3\). The \(B\)-absent case is excluded. The \(B\)-present satellite patterns are **not** excluded by this proof.
+For a single horizontal line \(H\), a chain of \(s\) centers on it
+followed by \(t>0\) centers off it contributes \(st/(s+t)\) to the
+Schur complement at \(H\); for \(t=0\) the terminal curve has
+positive \(L\)-degree and the cluster contributes no arm. The unique
+horizontal line has coefficient one in \(Z\). Its equation
+\(Z\cdot H=-1\) and the homogeneous chain equations require the
+contributions to sum to two. For the attached clusters
+\(A=\sum s\le4\) and \(T=\sum t\le4\).
+Cauchy gives \(\sum st/(s+t)\le AT/(A+T)\le2\), with equality only
+when \(A=T=4\) and each \(s=t\). The integer chain test then requires
+a sum of neighboring coefficients at least four, contradicting three.
 
-: established constraints versus surviving graphs
+Two disjoint horizontal proper lines on the resolution share exactly one
+simple plane center and together use seven of the eight simple centers.
+The shared cluster follows at most one line, say \(H_1\). It cannot leave
+that line, since the resulting null chain would connect both
+\(h\)-positive lines in one exceptional graph. Hence its null prefix is an
+endpoint \(A_k\) arm on \(H_2\), with \(k\le3\). The one center
+outside the lines can create at most one additional endpoint \(A_s\) arm,
+\(s\le3\), with the sharper restriction \(s\le3-k\) if the arm is on
+\(H_1\). It cannot attach in the shared cluster. The two contributions
+are at most \(3/4\) each. The sum of the two horizontal coefficients
+\(1/(3-d_i)\), where \(d_i\) is the sum of arms on that line, is at most
+\(8/9\) when the arms are split and at most one when they are on the
+same line. The required \(K_M\cdot Z=1\) forces the latter bound to
+be attained, with \(k=s=3\).
+
+The equality configuration uses two clusters. The shared root follows
+\(H_1\) for three more centers. A second root on \(H_2\) follows that
+line for two more centers and takes the only center off both lines.
+A vertical exceptional line through \(p_0\) cannot contain both
+roots, whose joining line is \(H_2\), and cannot contain later centers
+at either root because its direction differs from that of the first
+child. There is no vertical exceptional proper line. The two horizontal
+lines therefore give \(h\cdot Z=1\), contrary to \(h\cdot Z=3\).
+
+Two preliminary bounds fail. Four consecutive on-line centers followed
+by four off-line centers give an \(A_7\) arm attached at its middle,
+not a four-vertex bound. Its rational coefficient at \(H\) can be
+one, but the integral anti-nef cycle requires a neighboring coefficient
+of at least four. In the two-line case a shared root followed by three
+centers on \(H_1\) gives an \(A_3\) arm on \(H_2\), allowing coefficient
+\(4/9\) there and \(1/3\) on the isolated line, so the proposed individual
+bound \(2/5\) fails. A second \(A_3\) arm can arise from the remaining
+off-line center; the proposed total bound \(19/21\) misses this case.
+
+Independent review accepted both line cases under the characteristic-zero
+marked section and smooth descent hypotheses with \(B\) absent. The
+integer recurrences and intersection inequalities alone remain available
+when those geometric inputs are established in another characteristic.
+[Original free-chain proof and negative controls](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md).
+
+### Marked constraints and the case with the horizontal prime
 
 For the genus-two section stratum \(\lambda=1\), the plane marking gives
 \[
@@ -356,4 +469,4 @@ f=h-e_0,\quad Z=L-h=3h-2e_0-\sum_{i=1}^8e_i,
 \]
 with \(Z\) effective, exceptional, \(K\cdot Z=1\), and \(Z^2=-3\). The vertical root lattice is \(D_8\). The marked blowup clusters and proximity relations are part of the geometry: they cannot be replaced by an arbitrary abstract ADE graph. A candidate horizontal degree-zero exceptional prime is \(B=e_0-e_i-e_j\); when it is present, a satellite can attach it to an **internal** vertex of an \(A\)-chain. A blanket three-arm-star classification is therefore false.
 
-Under the additional assumption that \(B\) is **absent**, the free-chain and line-budget analysis excludes the section case. The proof first requires an **integral anti-nef cycle** with contact coefficient one at the unique contacted exceptional prime; rational correction coefficients alone do not suffice. The possible horizontal proper lines through the first center have tightly constrained center incidence. The one-line case fails the integral contact and coefficient budget. In the two-line equality case the two horizontal lines each contain the required marked centers, but no vertical proper exceptional line can supply the missing \(h\)-degree: the total horizontal coefficient gives \(h\cdot Z=1\), contrary to \(h\cdot Z=3\). This two-line conclusion was independently accepted. Consequently any surviving \(\lambda=1\) configuration must contain \(B\). The free-child and one-satellite graphs with \(B\) present remain a separate boundary; neither a reduced-conductor shortcut nor the invalid universal star bound excludes them. [Marked-model derivation](../supplements/GENUS_TWO_MARKING_AND_SECTION_PROOF.md), [line-budget calculation](../supplements/GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md), [independent bounded conclusion](../supplements/GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md).
+Under the additional assumption that \(B\) is **absent**, the free-chain and line-budget analysis excludes the section case. The proof first requires an **integral anti-nef cycle** with contact coefficient one at the unique contacted exceptional prime; rational correction coefficients alone do not suffice. The possible horizontal proper lines through the first center have tightly constrained center incidence. The one-line case fails the integral contact and coefficient budget. In the two-line equality case the two horizontal lines each contain the required marked centers, but no vertical proper exceptional line can supply the missing \(h\)-degree: the total horizontal coefficient gives \(h\cdot Z=1\), contrary to \(h\cdot Z=3\). This two-line conclusion was independently accepted. Consequently any surviving \(\lambda=1\) configuration must contain \(B\). The free-child and one-satellite graphs with \(B\) present remain a separate boundary; neither a reduced-conductor shortcut nor the invalid universal star bound excludes them. [Marked-model derivation](../supplements/GENUS_TWO_MARKING_AND_SECTION_PROOF.md).

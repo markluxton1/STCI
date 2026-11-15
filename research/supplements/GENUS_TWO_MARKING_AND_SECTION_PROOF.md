@@ -217,7 +217,7 @@ connected fiber containing the contact vertical line.
 
 The ruled marking, D8 lattice, plane marking, optional F3 model, and
 proximity restrictions are the conclusions proved here. The
-[free-chain proof](GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md) excludes
+[free-chain proof](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#free-chain-proof-when-the-marked-prime-is-absent) excludes
 the absent-E0 case, and the actual ambient-conductor proofs close its
 remaining trisecant possibilities. None of these class lists alone
 asserts prime effectivity or solves normalization descent for another

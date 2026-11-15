@@ -43,7 +43,7 @@ whose coefficient at that contact is one.
 
 The three-blowup note is accepted at exactly this scope: **every fiber
 with k_t=3 is impossible**. Combining it with the independently checked
-[even-count exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md)
+[even-count exclusion](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#bisection-with-an-even-fiber-count)
 leaves only `[1,1,1,1]`. This conclusion does not yet use conductor power
 descent, the splitting of the conductor, or the fixed embedding of C0.
 

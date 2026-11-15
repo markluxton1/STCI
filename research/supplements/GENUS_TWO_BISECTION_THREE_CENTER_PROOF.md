@@ -2,7 +2,7 @@
 
 ## Dependency guide: odd fiber obstruction and surviving cases
 
-This conditional argument excludes a **three-blowup fiber** by analyzing irreducible, reduced, and nonreduced fiber graphs, including the stated near-counterexample. It complements rather than duplicates [the even-fiber exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md). Both require the second-pencil reduction and the smooth embedded lift; this proof also records that the parent's adversarial audit was pending. The surviving four-single-blowup partition and other global mate questions remain open here.
+This conditional argument excludes a **three-blowup fiber** by analyzing irreducible, reduced, and nonreduced fiber graphs, including the stated near-counterexample. It complements rather than duplicates [the even-fiber exclusion](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#bisection-with-an-even-fiber-count). Both require the second-pencil reduction and the smooth embedded lift; this proof also records that the parent's adversarial audit was pending. The surviving four-single-blowup partition and other global mate questions remain open here.
 
 ---
 
@@ -221,7 +221,7 @@ obstruction proved directly, without a graph-table assertion.
 Every possible V-fiber and every allowed three-center history leads
 to a contradiction. Therefore `k_t=3` is impossible in the accepted
 lambda-zero bisection mate reduction. Together with the separate
-[even-count exclusion](GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md),
+[even-count exclusion](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md#bisection-with-an-even-fiber-count),
 the only possible blowup-count partition is
 
     [1,1,1,1].
