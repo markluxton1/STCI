@@ -1,6 +1,6 @@
 # Quartic-carrier exclusion: technical proof mechanisms
 
-**Scope.** The fixed rational quartic is \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field of characteristic zero. This appendix supports the [carrier and conductor chapter](CARRIER_AND_CONDUCTOR_GEOMETRY.md) and the [R-0001 theorem](../results/quartic_carrier_exclusion.md). It is **not** an independent rerun of the full theorem. Original detailed proofs and audits remain authoritative for steps not reproduced below.
+**Scope.** The fixed rational quartic is \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field of characteristic zero. This appendix supports the [carrier and conductor chapter](../synthesis/04-carriers.md) and the [quartic-carrier exclusion](../results/quartic_carrier_exclusion.md). The linked proofs and scoped audits supply the steps beyond the arguments developed here.
 
 ## 1. What the six lanes actually need
 
@@ -8,7 +8,7 @@
 |---|---|---|
 | Normal quartic | Reduced and nonreduced exceptional graphs; normal-sheaf bounds; final passage coefficients | [normal global audit](../synthesis/quartic_carrier_proof.md#3-normal-quartics-exceptional-correction-and-actual-ideal-vanishing), [nonreduced audit](../synthesis/quartic_carrier_proof.md#34-nonreduced-support-trees-and-the-actual-maximal-ideal) |
 | Genus zero | Vanishing and four minimal-degree models; cone ruling and local-unit obstruction; complete scroll/Veronese cases | [genus-zero audit](../supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md) |
-| Genus one | ADE degree-four del Pezzo; \(D_5\) lattice saturation; full conductor; ribbon-net and five partitions | [genus-one interface audit](../supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd), [repeated-partition audit](../supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md#dependency-guide-independent-certificate-versus-source-proof) |
+| Genus one | ADE degree-four del Pezzo; \(D_5\) lattice saturation; full conductor; ribbon-net and five partitions | [genus-one interface audit](../synthesis/quartic_carrier_proof.md#genus-one-interface-review), [repeated-partition audit](../supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md#dependency-guide-independent-certificate-versus-source-proof) |
 | Genus two, bisection | Second-pencil integral correction, Cartier double, nilideal and global conormal map | [bisection audit](../supplements/GENUS_TWO_BISECTION_PROOF.md) |
 | Genus two, nonendpoint | Complete effective-divisor split; all-length chain formula | [nonendpoint audit](../supplements/GENUS_TWO_NONENDPOINT_PROOF.md) |
 | Genus two, endpoint | Full quartic ideal identity; coefficient-zero cases, local A/D types, doubled-horizontal ADE roots | [endpoint full audit](../supplements/GENUS_TWO_ENDPOINT_PROOF.md) |
@@ -50,7 +50,7 @@ Moreover, \((L,R)B=(L)\), so the entire upstairs conductor has coordinate ring
 \[
 B/(L)=C_\Gamma[z]/(z^2-Az-R_1).
 \]
-It is free of rank two over \(C_\Gamma\), including over doubled or reducible conics. The trace-zero generator \(w=z-A/2\) satisfies \(w^2=A^2/4+R_1\). This derivation, including the sign in \(Rz=AR-LR_1\), is independently checked in the [algebra audit](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd). The [owner proof](QUARTIC_CARRIER_TECHNICAL_PROOFS.md) also gives the six exact fixed-curve quadrics and their coefficient restrictions, which remain necessary for the root-partition arguments.
+It is free of rank two over \(C_\Gamma\), including over doubled or reducible conics. The trace-zero generator \(w=z-A/2\) satisfies \(w^2=A^2/4+R_1\). This derivation, including the sign in \(Rz=AR-LR_1\), is independently checked in the [algebra audit](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd). The [original conductor proof](https://github.com/markluxton1/STCI/blob/93e9ed279535ff0bd2a21855b5757e9bd04127db/research/notes/2026-10-09-session-genus-one-entire-conductor.md) also gives the six exact fixed-curve quadrics and their coefficient restrictions, which remain necessary for the root-partition arguments.
 
 ### Ribbon-net completeness and repeated-root certificates
 
@@ -149,9 +149,9 @@ The correction equation with \(z_B=1\) requires total block contribution three. 
 
 The following comparison is based on reading the original notes, not just their titles or status labels. It determines **mathematical redundancy**, not yet safe file deletion.
 
-**Earlier endpoint irreducible-residual note.** The [conditional irreducible-conic proof](QUARTIC_CARRIER_TECHNICAL_PROOFS.md) assumes \(D_T=B_T+R\) with \(R\) irreducible of class \((1,2)\). It identifies the endpoint blowup chart \(a=r,b=r,y=r^3\), writes \(aR(a,b)+yH=0\), and uses the cubic contact to force \(R(r,r)\) to vanish to order at least two. The graph \(a=\phi(b)\) then has \(\phi(0)=0,\phi'(0)=1\), so the degree-two map \(R\to\Gamma\) is unramified at the endpoint. Its two transverse crossings yield the same all-length inequality reproduced in Section 3. The later [full endpoint reduction](../supplements/GENUS_TWO_ENDPOINT_PROOF.md) and [coverage audit](../supplements/GENUS_TWO_ENDPOINT_PROOF.md) handle **all** residual types. The earlier note's distinct value is the short geometric derivation of the irreducible graph's transverse crossings. This derivation is not yet reproduced in full in the permanent exposition; **retain the note pending extraction**. Its conditional theorem is subsumed, but that alone is not a reason to delete its proof.
+**Earlier endpoint irreducible-residual note.** The [conditional irreducible-conic proof](https://github.com/markluxton1/STCI/blob/41c48d13819c318b70a51eebf1478b5b7916c925/research/notes/2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md) assumes the normal Gorenstein ambient blowup model, the accepted horizontal correction data, and an irreducible residual of class \( (1,2) \). The [extracted argument](#endpoint-irreducible-graph-extracted-geometric-argument) gives its transverse crossings. The [full endpoint proof](../supplements/GENUS_TWO_ENDPOINT_PROOF.md) handles all residual types.
 
-**Earlier bisection quadratic-descent note.** The [quadratic compression proof](QUARTIC_CARRIER_TECHNICAL_PROOFS.md) derives \(2Z=\sum_t k_tF_t-2R\) from four blowups (including infinitely near centers), so \(2c\sim2H\). It then studies the entire conductor sequence
+**Earlier bisection quadratic-descent note.** The [quadratic compression proof](../supplements/GENUS_TWO_BISECTION_DESCENT.md#1-the-extra-quadratic-section-and-its-entire-conductor-restriction) derives \(2Z=\sum_t k_tF_t-2R\) from four blowups (including infinitely near centers), so \(2c\sim2H\). It then studies the entire conductor sequence
 \[
 0\to\mathcal O_X\to\nu_*\mathcal O_S\to\mathcal O_\Gamma(-2)\to0
 \]
@@ -161,8 +161,6 @@ and its rank-two algebra \(p_*\mathcal O_D=\mathcal O_\Gamma\oplus\mathcal O_\Ga
 \]
 These are exact **conductor-power** constraints, not merely a weaker statement that the bisection lane is impossible. The later [global conormal proof](../supplements/GENUS_TWO_BISECTION_PROOF.md) excludes the lane more efficiently but does not make the root-of-unity and split-conductor calculations mathematically empty. They are reusable for other normalization/descent problems. **Retain these calculations as a separate conditional lemma**; the source's formerly open possibilities are superseded by the conormal contradiction.
 
-The two sources therefore have different retention status: the endpoint note is a **candidate for retirement after its geometric graph argument is extracted**, whereas the bisection note contains **independent conductor algebra worth retaining** even though its mate-existence motivation has closed.
-
 ### Endpoint irreducible graph: extracted geometric argument
 
 The earlier conditional endpoint note's distinct geometric step can be recorded precisely. In the blowup chart \(x_0=1\), set \(a=x_1/x_0\), \(y=x_2/x_0\), \(x_3/x_0=yb\). The strict transform of \(C\), parametrized by \(r=t/s\), is
@@ -171,7 +169,7 @@ a=r,\qquad b=r,\qquad y=r^3.
 \]
 For an irreducible residual \(R\) of class \((1,2)\), the transformed surface has local equation \(aR(a,b)+yH(a,b,y)=0\). Restriction to \(C\) forces \(R(r,r)\) to vanish to order at least two. Since an irreducible \((1,2)\) curve is a graph \(a=\phi(b)\) and cannot contain the ruling fiber \(b=0\), it follows that \(\phi(0)=0\) and \(\phi'(0)=1\). The degree-two map \(R\to\Gamma\) is therefore unramified over the endpoint, with two distinct inverse points (the second possibly in the opposite chart). Both intersections with \(B=\{a=0\}\) are transverse. This supplies the geometric input for the all-length chain calculation in Section 3.
 
-This extraction captures the earlier note's mathematical argument and its precise **irreducible-residual** hypothesis; the later full endpoint proof remains necessary for reducible and doubled residuals. The original conditional note (now retired; its conditional argument is preserved in this section) has been retired from this branch after its conditional argument was incorporated here. The retained full endpoint audit remains necessary.
+The calculation supplies the crossings for the irreducible-residual case. The [full endpoint proof](../supplements/GENUS_TWO_ENDPOINT_PROOF.md) treats reducible and doubled residuals.
 
 ## 6. Source evidence and editorial disposition
 
@@ -203,7 +201,7 @@ For the cone, the minimal resolution F4 has negative section E and polarization 
 
 For a hypothetical genus-one mate the normalized anticanonical surface is a degree-four ADE del Pezzo, represented by a normal intersection of two quadrics in P4 with the fixed rational normal quartic c. Its actual Cartier double is a pure CM ribbon, with nilideal O(-6); the conormal quotient `I_c/I_c² -> O(-6)` is specified by a nonzero triple eta. The complete net of ambient quadrics is the kernel of the rank-three matrix `M(d)=[[d0,d1,d2],[d1,d2+d3,d4],[d2,d4,d5]]` acting on eta. The original surface pencil lies in this full net, so no direction or pencil is discarded by this passage. The discriminant-zero direction has a cubic common base locus and cannot yield the required integral surface.
 
-The omitted-coordinate derivative map on the six-dimensional quadric space is `D_d=d0 U^4-d1 U³V-2d3 U²V²-d4 UV³+d5 V⁴`. Its one-dimensional kernel is generated by E2, and E2 lies in no allowed net. Thus the two surface quadrics have independent derivative quartics. Their first chosen derivative L_C can have only the five multiplicity partitions `[1,1,1,1]`, `[2,1,1]`, `[2,2]`, `[3,1]`, `[4]`. The squarefree partition contradicts derivative independence and the singleton-support requirement. For `[2,1,1]`, the direction charts and reversal cover all eta, including eta=(0,1,0); the only potential common-basepoint locus is eta=(1,u,u²/4), u nonzero. After center-preserving normalization, its cubic derivative map has only one double fiber, and the forced L_C has an additional fourth zero outside the permitted fiber. The other three partitions are handled by the repeated-partition audit, including the derivative-invisible E2 coefficient. These are exact **fixed-projection** statements, not a classification under arbitrary parameter changes. [Genus-one interface audit](../supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd).
+The omitted-coordinate derivative map on the six-dimensional quadric space is `D_d=d0 U^4-d1 U³V-2d3 U²V²-d4 UV³+d5 V⁴`. Its one-dimensional kernel is generated by E2, and E2 lies in no allowed net. Thus the two surface quadrics have independent derivative quartics. Their first chosen derivative L_C can have only the five multiplicity partitions `[1,1,1,1]`, `[2,1,1]`, `[2,2]`, `[3,1]`, `[4]`. The squarefree partition contradicts derivative independence and the singleton-support requirement. For `[2,1,1]`, the direction charts and reversal cover all eta, including eta=(0,1,0); the only potential common-basepoint locus is eta=(1,u,u²/4), u nonzero. After center-preserving normalization, its cubic derivative map has only one double fiber, and the forced L_C has an additional fourth zero outside the permitted fiber. The other three partitions are handled by the repeated-partition audit, including the derivative-invisible E2 coefficient. These are exact **fixed-projection** statements, not a classification under arbitrary parameter changes. [Genus-one interface audit](../synthesis/quartic_carrier_proof.md#genus-one-interface-review).
 
 ## 12. Nonrational normalization is impossible without a mate hypothesis
 

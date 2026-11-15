@@ -10,8 +10,8 @@ arguments do not exclude arbitrary quintic normalizations or the
 unrestricted STCI problem.
 
 The global proof uses the full target-septic
-[higher-contact calculation](QUINTIC_ENDPOINT_TARGET_CONTACT.md) and the
-[three-root residual quartic](QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md). The
+[higher-contact calculation](#endpoint-septic-independent-two-common-root-contact-audit) and the
+[three-root residual quartic](#three-common-root-family-independent-residual-quartic-support-exclusion). The
 source-parameter intersection-length argument at the end is a distinct
 geometric control; a first-normal contact count alone would not suffice.
 
@@ -25,11 +25,11 @@ remains within that scope. This is not an exclusion of nonendpoint
 projections, all quintic carriers, or unrestricted STCI presentations.
 
 The target-variable proof of contact order is the full
-[two-common-root calculation](QUINTIC_ENDPOINT_TARGET_CONTACT.md). The
+[two-common-root calculation](#endpoint-septic-independent-two-common-root-contact-audit). The
 [direct source-parameter excess proof](#6-quintic-endpoint-a-nonzero-local-excess-bound)
 gives a second route through actual intersection lengths; the global
 argument below does not require its geometric length identification.
-The [original-variable residual quartic](QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md)
+The [original-variable residual quartic](#three-common-root-family-independent-residual-quartic-support-exclusion)
 and [shifted certificate](#5-endpoint-three-common-roots-shifted-replay)
 retain their two exact computational implementations.
 
@@ -210,7 +210,7 @@ Order at least three therefore forces exactly
 
 The final coefficients c3,c4 and their explicit numerator polynomials are
 displayed in the
-[independent target-contact audit](QUINTIC_ENDPOINT_TARGET_CONTACT.md#4-exact-coprimality-checks-and-maximum-contact-order).
+[independent target-contact audit](#4-exact-coprimality-checks-and-maximum-contact-order).
 I inspected that proof and its source. It derives the coefficients from E
 itself and proves the exact polynomial gcd statements
 
@@ -246,7 +246,7 @@ There are four possible counts of distinct common roots of U,V:
 
 In the final case `Cb=-3b^3(2b+3)/4`, so `b != -3/2`. Write E=US.
 The residual S has degree exactly four throughout this locus. The
-[original-variable audit](QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md#3-two-incompatible-necessary-resultants)
+[original-variable audit](#3-two-incompatible-necessary-resultants)
 and its independent
 [shifted-variable certificate](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md#5-endpoint-three-common-roots-shifted-replay)
 give exact incompatible resultants: if every root of S were a root of U,
@@ -565,7 +565,7 @@ the shifted quartic, both resultant identities and their coprimality.
 The final three-common-root construction uses `QQ[b][x]`, retaining the full x-coefficient polynomials. In contrast, `coefficient(x^k,f)` in flat `QQ[b,x]` discards terms with positive powers of b. The final nine conditions include the exact nonzero resultant constants.
 
 The separate
-[residual-quartic independent audit](QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md#3-two-incompatible-necessary-resultants)
+[residual-quartic independent audit](#3-two-incompatible-necessary-resultants)
 works directly in the original variable `z` and obtains the same parameter
 factors, with its own captured eight-assertion source. The two sources are
 independent implementations of this algebraic certificate; execution
@@ -790,3 +790,319 @@ Earlier scratch resultant and parameter scripts are exploratory leads,
 not additional accepted theorem certificates. The source's exact identities
 and Bezout certificates support the algebraic calculations; the preceding
 local determinant and support arguments supply the geometric quantifiers.
+
+## Endpoint septic: independent two-common-root contact audit
+
+Status: **PROVED conditional univariate support exclusion, characteristic zero.**
+The proof below verifies the target-septic contact calculation directly. Its
+geometric application requires the parent's separately audited assertion that
+full inverse support forces all roots of this target septic to be common roots
+of `U,V`. This note does not assert that global reduction independently.
+
+### 1. Data and precisely stated conclusion
+
+Work over an algebraically closed field of characteristic zero. Put
+
+\[
+\begin{aligned}
+U&=2az^3-3bz^2-z+g,&V&=3az^4-4bz^3-2z^2-z+d,\\
+A&=az-b,&H&=az^3+z-g-1,\\
+J&=AV-(Az-1)U,&E&=J^2-(3zA-1)HJ+AUH^2,\\
+C_b&=a^2g-ab-b^3.
+\end{aligned}
+\]
+
+Assume `a C_b != 0`. Exact expansion gives degree seven in `z`, with leading
+coefficient `a C_b`. Suppose additionally that the endpoint projection has no
+point off the lifted curve mapping into the affine target curve. Then:
+
+* At every common root of `U,V`, the multiplicity as a root of `E` is at most
+  four.
+* A common root with multiplicity four as a root of `E` is the only common
+  root of `U,V`; moreover `U/(z-rho),V/(z-rho)` have no common root, even at
+  `rho` itself.
+* Consequently, if `U,V` have exactly two distinct common roots, every one of
+  them has `E`-multiplicity at most three. Their total multiplicity is at most
+  six, so the degree-seven `E` cannot have all its roots supported there.
+
+No squarefreeness assumption is used. In particular, a repeated common root
+does not evade the conclusion.
+
+### 2. Common-root parameters and the exceptional H=0 fiber
+
+At a common root `rho` set `w=a rho-b` and `q=w rho`. Solving the two
+common-root equations gives
+
+\[
+b=a\rho-w,\quad g=a\rho^3-3w\rho^2+\rho,\quad
+d=a\rho^4-4w\rho^3+2\rho^2+\rho.
+\]
+
+The exact carrier identity is
+
+\[
+C_b=w\bigl(a(1-3q)+w^2\bigr).
+\]
+
+Thus `w != 0`; this covers, and excludes on the present locus, the possible
+exception `k=b-a rho=0` in the opposite sign convention.
+
+Writing `c_j` for the coefficient of `(z-rho)^j` in `E`, exact expansion gives
+
+\[
+H(\rho)=3w\rho^2-1,\qquad
+c_1=-H(\rho)\bigl(6q^2-6q+1+3wq\bigr).
+\]
+
+The factor `H(rho)` must not simply be divided away. At the fixed target
+parameter `z=rho`, the two residual affine fiber equations are
+
+\[
+\begin{aligned}
+F&=wT(-1+3q+w^2T),\\
+G&=T\{6q^2-4q-w+1+(4\rho w^3-2w^2)T+w^4T^2\}.
+\end{aligned}
+\]
+
+If `q != 1/3`, put `T_0=(1-3q)/w^2`. It is nonzero and
+
+\[
+F(T_0)=0,\qquad G(T_0)=T_0 wH(\rho),\qquad
+1+aT_0=C_b/w^3\ne0.
+\]
+
+Thus `H(rho)=0` with `q != 1/3` yields an actual off-curve point in the affine
+chart, contrary to the stated no-extra-support hypothesis. This does not
+confuse a vanishing affine denominator with an actual fiber.
+
+The remaining exceptional case `H(rho)=0,q=1/3` forces
+`rho=1,w=1/3`. Exact expansion then gives `c_2=1/9`, independently of `a`.
+Since `c_1=0`, its `E`-multiplicity is exactly two.
+
+### 3. Parameterization of contact order at least two
+
+It remains to consider `H(rho) != 0`. If `c_1 != 0`, the multiplicity is one.
+Otherwise put `D=6q^2-6q+1`; the equation `c_1=0` gives
+
+\[
+w=-D/(3q),\qquad \rho=q/w.
+\]
+
+Both `q` and `D` are nonzero: `q=0` would leave the defining equation equal to
+one, while `D=0` would force `w=0`. Further,
+
+\[
+H(\rho)=-\frac{(3q-1)(3q^2+3q-1)}D.
+\]
+
+Therefore `q != 1/3` and `3q^2+3q-1 != 0` on this branch. The exceptional
+zeros of these factors have already been handled in Section 2.
+
+Here `c_2` is affine linear in `a`, with slope
+
+\[
+-\frac{3q(3q-1)^2(3q^2+3q-1)}{D^2},
+\]
+
+which is nonzero on the branch. Consequently `c_2=0` forces exactly
+
+\[
+a=-\frac{D^2(54q^4-72q^3+15q^2-3q+1)}{27q^3(3q-1)^2}.
+\]
+
+There is no unexamined zero of the coefficient of `a` in this step.
+
+### 4. Exact coprimality checks and maximum contact order
+
+After substituting this value of `a`, let
+
+\[
+\begin{aligned}
+N_9={}&8748q^9-20412q^8+18954q^7-8262q^6+1458q^5\\
+&-252q^4+180q^3-66q^2+12q-1,\\
+N_{11}={}&17496q^{11}-46656q^{10}+39366q^9-16848q^8\\
+&+12123q^7-12231q^6+8316q^5-2934q^4+612q^3\\
+&-129q^2+25q-2.
+\end{aligned}
+\]
+
+The actual next coefficients are
+
+\[
+c_3=-\frac{(3q^2+3q-1)DN_9}{81q^4(3q-1)^3},\qquad
+c_4=-\frac{D^2N_{11}}{81q^4(3q-1)^3}.
+\]
+
+The exact gcd of their numerators is a nonzero rational multiple of `D`.
+Since `D != 0`, these coefficients cannot both vanish. Every common root
+therefore has multiplicity at most four in `E`.
+
+The quotient polynomials used in this determinant are explicitly
+
+```
+U/(z-rho)=2a(z²+rho z+rho²)-3b(z+rho)-1,
+V/(z-rho)=3a(z³+rho z²+rho²z+rho³)
+             -4b(z²+rho z+rho²)-2(z+rho)-1.
+```
+
+Their degrees remain exactly two and three since `a != 0`.
+
+Let
+
+\[
+R_{\mathrm{other}}=\operatorname{Res}_z
+\bigl(U/(z-\rho),V/(z-\rho)\bigr)
+\]
+
+after the same substitutions. A separate exact Sylvester determinant gives
+the gcd of the numerator of `R_other` with the numerator of `c_3` as again a
+nonzero rational multiple of `D`. All denominators in this calculation are
+products of nonzero rational numbers, powers of `q` and powers of `3q-1`.
+Thus `c_3=0` forces `R_other != 0`. This includes the possibility that the
+quotients both vanish at `rho`: such a repeated common root would also force
+the resultant to vanish.
+
+Multiplicity four requires `c_1=c_2=c_3=0`. It therefore forces no second
+common root. If there are two distinct common roots, both multiplicities are
+at most three, and their sum is less than the degree seven of `E`.
+
+### Exact support and scope
+
+This is the conditional target-variable argument, not the independent proof of
+the global inverse-support reduction. Its geometric hypothesis is supplied by
+[the complete endpoint support proof](#2-endpoint-a-nonzero-global-independent-audit).
+The retained exact source is
+[two-root-contact-target.m2](../validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2).
+It checks the septic leading coefficient, common-root substitution, exceptional
+fiber, higher coefficients and both polynomial gcd conclusions. This relocation
+introduces no fresh computation or broader characteristic claim.
+
+Historical source for this relocated section. [Source at the reconstruction baseline](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/QUINTIC_ENDPOINT_TARGET_CONTACT.md).
+
+## Three-common-root family: independent residual-quartic support exclusion
+
+Status: **PROVED (univariate algebra, characteristic zero).** No geometric
+exclusion is asserted in this note. The proof handles every parameter in the
+specified family with the stated carrier coefficient nonzero; it has no finite
+exception set on that locus.
+
+### 1. Corrected parameter family
+
+Let the field be algebraically closed of characteristic zero and let `b != 0`.
+The condition that the cubic `U` divide the quartic `V` fixes
+
+\[
+a=\frac32b^2,\qquad
+g=\frac1{9b}-\frac23,\qquad
+d=\frac1{54b^2}-\frac1{9b}.
+\]
+
+The initially transmitted negative sign `a=-3b^2/2` is incompatible with
+`U | V`. Indeed the exact remainder for that negative sign is
+
+\[
+V\bmod U=-z^2-\frac{z}{3b}+\frac{1-6b}{27b^2}.
+\]
+
+For the corrected positive sign the quotient is
+
+\[
+V=\left(\frac32z+\frac1{6b}\right)U.
+\]
+
+Use the definitions from the parent calculation:
+
+\[
+\begin{aligned}
+U&=2az^3-3bz^2-z+g,&
+V&=3az^4-4bz^3-2z^2-z+d,\\
+A&=az-b,&h&=az^3+z-g-1,\\
+J&=AV-(Az-1)U,&
+E&=J^2-(3zA-1)hJ+AUh^2.
+\end{aligned}
+\]
+
+Since `U | V`, also `U | J` and `U | E`. Write `S=E/U`. The carrier
+coefficient in the task is
+
+\[
+C_b=a^2g-ab-b^3=-\frac34b^3(2b+3).
+\]
+
+Thus its nonzero locus is exactly `b != 0,-3/2`.
+
+### 2. The exact quartic
+
+An exact expansion gives `S=-T/(432b)`, where
+
+\[
+\begin{aligned}
+T={}&(324b^5+486b^4)z^4-(54b^4+405b^3)z^3\\
+&+(270b^3+81b^2)z^2-(72b^3+132b^2+36b)z\\
+&+48b^2+352b+12.
+\end{aligned}
+\]
+
+In particular the leading coefficient of `S` is `C_b/2`; hence `S` has degree
+exactly four for every allowed specialization. The degree of `U` is exactly
+three because its leading coefficient is `3b^2`.
+
+### 3. Two incompatible necessary resultants
+
+Define
+
+\[
+R=(12b^2+116b+3)(72b^4+252b^3+1126b^2+513b+54)
+\]
+
+and
+
+\[
+\begin{aligned}
+D={}&(2b+3)(2b^2+9b+15)^2\\
+&\quad\cdot(9216b^6-208896b^5-2002096b^4-2800992b^3\\
+&\hspace{52mm}-117672b^2+72b+45).
+\end{aligned}
+\]
+
+The exact resultant identities are
+
+\[
+\operatorname{Res}_z(U,S)=-\frac{3b^5}{2048}R,
+\qquad
+\operatorname{Res}_z(S,S')=\frac{b^9}{8388608}D.
+\]
+
+Exact Euclidean polynomial arithmetic verifies
+
+\[
+\gcd_{\mathbf Q[b]}(R,D)=1.
+\]
+
+Now suppose every root of `S` were a root of `U`. The quartic `S` has at least
+one root, so `U` and `S` would have a common root. Also a quartic whose distinct
+roots lie among the at most three distinct roots of a cubic necessarily has a
+repeated root. Therefore both displayed resultants would vanish. Since `b`
+is nonzero, this would require `R(b)=D(b)=0`, contradicting their exact
+coprimality. The argument works without assuming that `U` is squarefree.
+
+Consequently, for **every** allowed `b`, the support of `S` is not contained in
+the support of `U`. There are no exceptional parameters on `C_b != 0`.
+
+### 4. Scope and evidence
+
+The result excludes the univariate support condition in the corrected
+`U | V` family. It does not on its own classify the other common-root strata,
+prove that the displayed polynomial is the required global conductor
+obstruction, or exclude a geometric STCI presentation. Those interpretations
+remain the parent's responsibility.
+
+The final source is
+[verify_session_three_common_roots_residual_quartic_2026_10_11.m2](../computations/verify_session_three_common_roots_residual_quartic_2026_10_11.m2),
+SHA-256 `e0762fcc2c959cbf32b87de10ced160b7913b0da5d0de6875917a9a97632727b`.
+Its **eight exact assertions passed** in a captured execution. They verify
+both divisibilities, exact quotient, carrier coefficient, quartic leading
+coefficient, both resultant formulas and the coprimality. The negative-sign
+remainder is also printed.
+
+Historical source for this relocated section. [Source at the reconstruction baseline](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/QUINTIC_ENDPOINT_THREE_ROOT_QUARTIC.md).

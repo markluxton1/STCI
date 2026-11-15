@@ -31,7 +31,7 @@ additionally requires equal original orders, an everywhere jointly generated
 saturated line relation, the full coprime binary initial ideal with gap at
 least two, and a smooth full root.
 
-The [common-direction comparison](COMMON_DIRECTION_DEFECT.md#proposed-next-step-open)
+The [unequal-order comparison](#unequal-orders-and-the-quotient-relation)
 asks when the horizontal common divisor gives the saturated first relation of
 the full initial ideal. The [normal-filtration account](normal_filtration_boundary_obstructions.md)
 covers the separate comparison of initial equations with the filtered actual
@@ -39,6 +39,61 @@ equation module.
 
 The earlier source audit records the distinction between the two arguments
 and the scope of its historical lookup. [October 17 source audit](https://github.com/markluxton1/STCI/blob/af116e79e7dfee77d92e00d429faa304f411fad9/research/synthesis/COMMON_FACTOR_SOURCE_AUDIT.md)
+
+### Horizontal common divisors and special-fiber defects
+
+Let \(C\) be a smooth integral projective curve and \(\pi:E=\mathbf P_C(N)\to C\)
+a ruled surface. Take nonzero sections \(a,b\) of invertible sheaves on \(E\).
+For an actual pair, these can be the leading normal forms, obtained by
+restricting the individually divided strict-transform equations to \(E\).
+Write \(D=D_{\mathrm{hor}}+D_{\mathrm{vert}}\) for the divisorial gcd of
+their zero divisors. The coefficient of each prime divisor in \(D\) is the
+minimum of its coefficients in the two zero divisors. The horizontal
+components dominate \(C\), and the vertical components are fibers.
+
+If \(D_{\mathrm{hor}}\ne 0\), it is finite flat over \(C\), of degree equal
+to the degree of the gcd of the two generic binary forms. Indeed,
+\(D_{\mathrm{hor}}\) is an effective Cartier divisor on the smooth surface.
+No fiber contains a curve of this divisor, as such a curve would be the
+entire irreducible fiber. Thus the projective map to \(C\) is quasifinite and
+hence finite. The Cartier divisor is Cohen–Macaulay and pure of dimension
+one. With no vertical associated prime, a uniformizer of the base DVR is
+a nonzerodivisor, so the finite module is flat. This gives the flat closure
+of the full generic common divisor, with its multiplicities.
+
+Divide out the canonical equation of \(D\). The resulting sections
+\(a',b'\) have no common prime divisor, so \(T=V(a',b')\) is either empty
+or zero-dimensional. Locally, the common ideal before division is
+\(h(a',b')\) for an equation \(h\) of \(D\). The generic gcd therefore
+misses both \(D_{\mathrm{vert}}\) and \(T\).
+
+For example, on a ruled chart with base parameter \(t\) and fiber coordinate
+\(z\), the pair \(a=tz, b=t(z+t)\) has common vertical divisor \(t=0\)
+and a residual point at \(t=z=0\). Its generic gcd is trivial. In
+characteristic different from two, \(a=z(z-t), b=z(z+t)\) gives the flat
+horizontal section \(z=0\) and a residual point at \(t=z=0\).
+These examples concern the first symbols on \(E\). They give no
+decomposition of the intersection of the two strict transforms in the
+blown-up threefold.
+
+Under the [equal-order bridge](#35-the-actual-complete-intersection-bridge),
+the two symbols are multiples of one global root form with coefficients
+that jointly generate everywhere. Their common subscheme on \(E\) is
+then exactly the root divisor. Smoothness of this divisor and the
+full-initial-ideal hypotheses still require separate verification.
+
+### Unequal orders and the quotient relation
+
+When the full initial ideal has a saturated first line relation, determine
+when its root divisor equals \(D_{\mathrm{hor}}\). An open first test is a
+pair with unequal original normal orders and a proper common factor. Use
+higher normal terms to control the second quotient relation, its
+special-fiber evaluation divisor, and how \(D_{\mathrm{vert}}\) and \(T\)
+affect the intersection of the individually divided strict transforms.
+For sole support the strict transform of the original intersection scheme
+is empty, since that scheme is supported on the blowup center.
+
+[Historical source](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/synthesis/COMMON_DIRECTION_DEFECT.md).
 
 ## 3.2 Saturating the first relation
 

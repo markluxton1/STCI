@@ -179,23 +179,42 @@ with `E_B=(r=0)` and actual branches `(u,r)`, `(v,r)`. Its equation is
 
     F=uv+r h(u,v,r).
 
-The separately delegated
-[relative formal Morse and specified-branch audit](OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-relative-morse-conductor-branches-independent-auditmd),
-SHA-256 `a88aacc867f2cfae9e77ee8e54e88875b395f6446935dfc24f8ad540008e5153`,
-proves directly that formal coordinates preserving `r` give
+The relative formal splitting works over the completed local ring
+of the algebraically closed characteristic-zero field used here.
+Starting with `F=xy+g(r)+r^N H(x,y,r)` and `N=1`, write
+`H=a(r)+xA+yB`. The coordinate change
+`X=x+r^N B, Y=y+r^N A` is invertible with `r` fixed. It replaces
+the error by `-r^(2N)AB` and adds `r^N a(r)` to `g(r)`.
+The changes converge in the `r`-adic topology, yielding
+`F=xy+g(r)` with the original branch ideals `(u,r)=(x,r)` and
+`(v,r)=(y,r)`. If the surface is singular, the Du Val hypothesis
+forces `g` to be nonzero with order `m>=2`. Unit rescaling gives
+`xy=r^m` and preserves those ideals.
 
-    F=xy+g(r),       (u,r)=(x,r),       (v,r)=(y,r).
+On the standard toric resolution of `xy=r^m`, the charts indexed by
+`i=0,...,m-1` have
 
-If singular, `g` has finite order at least two. A harmless unit
-rescaling gives `xy=r^(n+1)` and preserves these actual branch
-ideals. The explicit resolution charts in that audit show that the
-two specified branches meet the opposite endpoints of the exceptional
-A_n chain, transversely. For A1 they meet its sole exceptional curve
-at distinct points. This is consistent with the primary normal forms
-in [Reid's Du Val notes, Table 1 and section 2.2](https://mreid.warwick.ac.uk/surf/more/DuVal.pdf),
-which this audit also read directly. The local argument is algebraic
-over every algebraically closed characteristic-zero field, using
-completed local rings; it does not require the field to be C.
+    x = a_i^(i+1) b_i^i,     y = a_i^(m-i-1) b_i^(m-i),     r = a_i b_i,
+    a_(i+1) = 1/b_i,        b_(i+1) = a_i b_i^2.
+
+They are the regular subdivision in the quotient lattice
+`Z^2+(1/m)(1,-1)Z` by the rays `(j/m,1-j/m)` for `0<=j<=m`.
+The common support gives properness, adjacent rays give smooth charts,
+and the transitions give a chain of `m-1` exceptional (-2)-curves.
+The residue canonical form `(dx/x) wedge dr` pulls back to
+`da_i wedge db_i`, so the resolution is minimal crepant. The strict
+transform of `(y,r)` is `b_0=0` at the first end, and that of
+`(x,r)` is `a_(m-1)=0` at the last end. Both intersections are
+transverse. For `m=2` their chart origins are distinct points of the
+same exceptional curve.
+
+The 2026-10-10 review by `relative_morse_axis_audit` independently
+accepted the specified-branch assertion for every chain length. Its
+scope is this local calculation. It checked the normal forms against
+[Reid's Du Val notes](https://mreid.warwick.ac.uk/surf/more/DuVal.pdf)
+and retained the unit rescaling after the parameter-preserving
+splitting. [Independent local audit](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-relative-morse-conductor-branches-independent-auditmd),
+SHA-256 `a88aacc867f2cfae9e77ee8e54e88875b395f6446935dfc24f8ad540008e5153`.
 
 Hence the sigma-fiber containing `B` consists of the (-3) curve `B`
 and at most two A-chains attached at endpoints. No finite chain-length

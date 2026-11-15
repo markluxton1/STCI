@@ -42,6 +42,14 @@ and hence
 \]
 This is **necessary**. A class-group relation alone is not sufficient, because a rational section on \(S\) need not descend through the nonnormal locus of \(X\).
 
+When \(W\) is a single curve \(c\) mapping isomorphically to \(C\),
+the pulled-back divisor is \(nc\sim bH\). Intersecting with \(H\)
+gives \(n\deg C=b\deg X\), since \(H\cdot c=\deg C\) and
+\(H^2=\deg X\). For a quartic carrier of the fixed quartic this gives
+\(n=b\). The curve \(c\) can be non-Cartier even though \(nc\) is Cartier.
+The [statement-level review](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/chapters/CARRIER_AND_CONDUCTOR_GEOMETRY.md#editorial-and-verification-status)
+records the correction to the divisor coefficient.
+
 ## 4.2 The full-conductor descent criterion
 
 The accepted [fixed-carrier theorem, STCI-R-0003](../results/fixed_carrier_conductor_criterion.md), works for an integral Cohen–Macaulay projective surface with finite normalization and ample polarization. First, an isolated inverse-image point outside the curve components obstructs a mate. In the remaining case define the relation lattice
@@ -127,7 +135,7 @@ A reusable projection test should therefore compute, in order: the finite normal
 
 The exact fixed-carrier descent criterion [R-0003](../results/fixed_carrier_conductor_criterion.md) and the pointwise divisor identity [R-0036](../results/pointwise_conductor_socle_defect.md) address different stages. R-0003 tests whether an upstairs divisor relation supported on the **entire inverse support** descends through the full conductor (possibly after taking a positive power). R-0036 starts with an **already existing actual supported pair**, and only under its smooth single-Cartier-branch and invertible-conductor assumptions identifies the top socle defect as \(D_n=(n-1)A-B|_c\).
 
-The latter implies the pointwise necessary inequality \((n-1)\operatorname{ord}_p(A)\ge\operatorname{ord}_p(B|_c)\). It is not a substitute for full conductor-unit torsion or nilpotent gluing. Nor does a positive class-group relation establish the existence of the actual pair required to invoke R-0036. The [carrier–socle interface](carrier_conductor_socle_interfaces.md#how-the-divisor-identity-interacts-with-descent) spells out this logical separation.
+The latter implies the pointwise necessary inequality \((n-1)\operatorname{ord}_p(A)\ge\operatorname{ord}_p(B|_c)\). It is not a substitute for full conductor-unit torsion or nilpotent gluing. Nor does a positive class-group relation establish the existence of the actual pair required to invoke R-0036.
 
 The marked cubic and ruled normalizations illustrate why the distinction matters: reduced inverse support, finite normalization, resolution, and scheme-theoretic conductor are different objects. There is no established extension of the singleton divisor identity to multiple inverse branches or non-Cartier inverse curves by summing branchwise formulas.
 
@@ -143,11 +151,33 @@ In the conditional (6,16) movement-two setting, a reviewed geometric argument is
 
 ## 4.8 What this chapter does and does not establish
 
-The newer [carrier/conductor/socle interface](carrier_conductor_socle_interfaces.md) adds **scoped** results not covered by the original normalization classification: actual local Cartier-index and socle constraints on normal carriers (R-0034 and R-0035), a pointwise conductor-to-top-socle divisor identity under smooth singleton hypotheses (R-0036), and exclusion of specified plane-projection families (R-0017). These do **not** close the remaining Cartier singleton models or establish a universal conductor-to-normal-filtration comparison.
+For a normal carrier, the [index and socle comparison](normalization_conductor_projection.md#normal-indices-and-the-exact-socle-bridge)
+uses actual local Cartier indices. Investigate indices six and twelve outside
+the [bounded-index exclusion](../results/normal_carrier_bounded_index_exclusion.md).
+A separate test is to compute the pointwise socle divisor for an actual
+supported pair satisfying [R-0036](../results/pointwise_conductor_socle_defect.md).
+Comparing conductor and normal-filtration defects requires a common actual
+pair and a proof of the comparison.
 
-
+[Historical interface](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/synthesis/carrier_conductor_socle_interfaces.md).
 
 The proofs give the fixed-carrier conductor criterion, the restricted Cartier singleton-lift classification, and the fixed-family torsion-coset reduction under their respective hypotheses.
+
+The quartic cases supply several fixed-geometry tests. The
+[generic nonimmersion-prime audit](../supplements/OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-nonimmersion-prime-independent-auditmd)
+uses a finite birational map from a smooth projective surface, an immersed
+\(c\sim H\), and a pulled-back mate equal to a scalar times the \(n\)th
+power of its defining section with \(n\) invertible. It proves generic
+immersion on every distinct integral curve \(E\) with \(H\cdot E>0\).
+The [four MF6 boundary carriers](../supplements/OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-mf6-independent-auditmd)
+give fixed characteristic-zero all-degree obstructions from a duplicated
+normalization fiber. The [ordinary-pinch and nodal-conductor analysis](../supplements/OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd)
+gives separate contact bounds and a high-contact local control. For genus-two
+trisecants, the [exact carrier ideal](../supplements/GENUS_TWO_TRISECANT_CARRIER_PROOF.md)
+gives an eleven-dimensional quartic space and retains the residual conic.
+The same proof's nonzero-discriminant obstruction uses the actual normal
+ambient blowup and its conductor identification. The [technical appendix](../chapters/QUARTIC_CARRIER_TECHNICAL_PROOFS.md)
+contains the quartic case arguments and links to independent audits.
 
 **Open:** computation of the actual projection phase images and conductor descent for the three models, and treatment of non-Cartier, multiple-branch, or higher-degree inverse lifts.
 

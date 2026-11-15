@@ -338,6 +338,14 @@ surfaces,” *Transactions of the AMS* 367 (2015), 6357--6385.
 - Escape hatch: the criterion does not apply when the carrier is singular along
   the whole curve, exactly the “thick” regime retained in this report.
 
+The October 10 literature audit identifies Examples 6.10 and 7.16 for
+the smooth nine-point plane model and its STCI curves, and Remarks 2.5
+and 3.2 for the conductor quotient in the singular-normalization case.
+The latter uses classes in APic downstairs with Cartier pullback upstairs.
+Example 7.13 and Remark 7.14 exhibit a ruled cubic with root-of-unity orders
+of arbitrary size. This mechanism supplies no bounded mate-order search.
+[Dated primary-source assessment](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-primary-literature-frontier-refreshmd).
+
 ### Jaffe
 
 David B. Jaffe, “Applications of iterated curve blow-up to set theoretic
@@ -362,7 +370,24 @@ angewandte Mathematik* 464 (1995), 1--46.
   control it in the presence of common singularities rather than merely
   repeat the blowups.
 
+- Theorem 11.11 treats a quartic with rational singularities and a smooth
+  curve cut out set-theoretically by an arbitrary mate. It forces linear
+  normality. The displayed result is over `C`; the introduction states
+  characteristic-zero scope. Replacing the mate by `g+fh` in the proof
+  avoids a generic-smoothness hypothesis on the original mate. Rational
+  singularities of the finite normalization alone do not give this
+  hypothesis on the quartic carrier. [Dated theorem scope check](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-primary-literature-frontier-refreshmd).
+
 - Separate all-degree **cone-carrier** scope: Jaffe's [author paper introduction](https://arxiv.org/html/alg-geom/9410008) reports the prior characteristic-zero result d≤g+3 for a smooth curve cut out by a reduced irreducible cone and another reduced irreducible surface. For (d,g)=(4,0) this excludes that chosen type of carrier in every degree. The original paper is *Space curves which are the intersection of a cone with another surface*, Duke Math.J.57 (1988), 859–876, [DOI](https://doi.org/10.1215/S0012-7094-88-05738-9). Its original proof was inaccessible in the bounded audit: this is a primary author-reported theorem, not a freshly reconstructed proof or a theorem about all higher-degree surfaces.
+
+### Ronconi, 1985
+
+The [1985 paper](https://www.numdam.org/item/RSMUP_1985__74__23_0.pdf),
+p. 23, shows that each complex quartic monoid singular in codimension one
+has some curve that fails to be STCI on that prescribed monoid. The theorem
+does not identify that curve with the fixed quartic. The October 10 audit
+read the summary and introduction. It could not access the full 1984
+predecessor paper. [Dated primary-source assessment](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_TRISECANTS_NORMAL_BUNDLE_AND_RIBBONS.md#source-2026-10-10-session-primary-literature-frontier-refreshmd).
 
 ## The smooth rational quartic and its known exclusions
 

@@ -160,12 +160,23 @@ rank-one projection point.
 
 ## 5. Evidence and continuation scope
 
-The [independent exact checker](../computations/verify_session_genus_one_projection_2026_10_09.py)
-verifies the actual net basis, its omitted-coordinate coefficients and
-derivatives, the divided cubic, both cross-product equations, the double
-fiber, the remainder matrix, its unique kernel, and the final four-root
-factorization. These exact identities support the displayed representations;
-the geometric fiber argument above supplies the parameter coverage.
+The independent [Macaulay2 companion](../computations/verify_session_genus_one_211_interfaces_2026_10_10.m2)
+checks 42 exact identities over `QQ`: the net minors and basis kernels,
+derivative injectivity, the simple basepoint and its division, cross
+products, the exact remainder matrix and rank-two witness, its kernel,
+and the final four-root factorization with distinct extra image. The
+2026-10-10 interface audit recorded use of Macaulay2 1.26.06. The
+geometric fiber argument above supplies coverage over every
+algebraically closed characteristic-zero field.
+
+The audit corrected the earlier attribution of the divided cubic and
+its ensuing identities to
+[`verify_session_genus_one_projection_2026_10_09.py`](../computations/verify_session_genus_one_projection_2026_10_09.py).
+That script checks the uniform projection and a displayed A3+2A1
+family, while
+[`derive_session_rnc_ribbon_net_2026_10_09.py`](../computations/derive_session_rnc_ribbon_net_2026_10_09.py)
+checks the net basis, derivatives and common-basepoint gcd. The recorded
+older Python passes cover those assertions. [Evidence correction and independent checks](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd).
 
 Combined with the uniform necessary repeated-root condition, a remaining
 hypothetical genus-one mate must have conductor-contact partition [4],

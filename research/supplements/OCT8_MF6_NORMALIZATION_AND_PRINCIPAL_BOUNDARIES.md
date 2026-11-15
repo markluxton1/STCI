@@ -53,7 +53,7 @@ equation is
 Its geometrically integral genus-one normalization and explicit
 Weierstrass model `YE^2=XE^3+96XE-448` are checked in the
 [curve source](../computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py)
-and the [checkpoint](MF6_PRINCIPAL_DIRECTION_CURVE.md). The corrected
+and the [checkpoint](MF6_PRINCIPAL_CANDIDATE_LOCI.md#the-principal-direction-sextic-has-an-elliptic-normalization). The corrected
 fiber is H(p,-1/2)=8p(p+2)^2.
 
 Set

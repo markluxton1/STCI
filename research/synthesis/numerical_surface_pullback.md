@@ -131,7 +131,7 @@ scheme-theoretic multiplicity, not distinct normalization points. Two plane
 curves \(y=0\) and \(y=x^N\) already have one intersection point of length
 \(N\). Likewise, a nonzero transverse differential does not by itself produce
 a second distinct normalization sheet. The [full conductor and inverse-support
-criterion](carrier_conductor_socle_interfaces.md) requires the actual finite
+criterion](04-carriers.md#42-the-full-conductor-descent-criterion) requires the actual finite
 algebra and full inverse fiber, including nonreduced structure.
 
 Generic curvilinearity supplies no automatic compatible primitive stage on the

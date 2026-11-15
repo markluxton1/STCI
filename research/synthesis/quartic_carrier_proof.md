@@ -440,6 +440,20 @@ remain necessary exact support. General \(\mathrm{PGL}_2\) moves the
 projection center and cannot be substituted for its center-preserving
 orbit calculation.
 
+### Genus-one interface review
+
+On 2026-10-10, `oct10_genus_one_interfaces` independently checked that
+every hypothetical integral sectional-genus-one quartic carrier and
+mate for the fixed curve enter the fixed-center partition calculation
+above. The audit read the component proofs, checked the primary
+anticanonical model statements, and traced the full inverse-support,
+ADE and lattice reduction, actual Cartier double, entire conductor,
+and exhaustive direction and contact partitions. It accepted the
+interfaces conditional on the independently handled exclusions of
+`[4]`, `[3,1]` and `[2,2]`; their proofs and separate exact checks
+are linked above. The review imposed no mate-degree bound, normal-order
+assumption, or conductor reducedness. [Independent interface audit](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd).
+
 ## 6. Sectional genus two: conic geometry and the two correction strata
 
 The [adjoint proof](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd)
