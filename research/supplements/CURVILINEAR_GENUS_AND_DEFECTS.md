@@ -391,9 +391,9 @@ most 220 in this branch. These are NOT fifteen unresolved geometric
 candidates: some already lie in established excluded scopes, and every
 row still needs actual homogeneous equations and higher-neighborhood
 compatibility. No novelty claim or comprehensive literature comparison
-is made. The exact divisor enumeration is reproducible with
-
-    python3 research/computations/primitive_curvilinear_degree_budget_2026_10_26.py
+is made. The exact divisor enumeration was historically checked by a Python script, now
+retired; the displayed factorization and finite divisor-pair argument give
+the mathematical reduction without requiring that historical script.
 
 The formula does not extend this degree bound to nonprimitive cases.
 Allowing D_soc with degree delta changes (12) to
@@ -505,4 +505,4 @@ both equations have generic normal order at least two.
 
 ## Review scope and computational support
 
-The ordinary-layer Euler-characteristic sign, saturated lattice comparison, pointwise Gram-determinant formula and supported boundary model were independently reconstructed in the inherited source state. The counterexample above verifies the missing Gorenstein condition. The perfect saturated multiplication argument is a different direct proof of the self-dual flag used by the degree restrictions. The finite primitive-degree reduction is exhausted by the displayed positive-divisor factorization, with the strict positivity argument; [its exact divisor enumerator](../computations/primitive_curvilinear_degree_budget_2026_10_26.py) is corroboration, not a bounded-search replacement for that proof. The independent arithmetic audit explicitly retained the(17,220) row and the requirement4|ab. No corresponding finite bound on an unbounded socle divisor is asserted. The [positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) is compatible with these conditional structural identities.
+The ordinary-layer Euler-characteristic sign, saturated lattice comparison, pointwise Gram-determinant formula and supported boundary model were independently reconstructed in the inherited source state. The counterexample above verifies the missing Gorenstein condition. The perfect saturated multiplication argument is a different direct proof of the self-dual flag used by the degree restrictions. The finite primitive-degree reduction is exhausted by the displayed positive-divisor factorization, with the strict positivity argument; its historical exact divisor enumeration was corroboration, not a bounded-search replacement for that proof. The independent arithmetic audit explicitly retained the(17,220) row and the requirement4|ab. No corresponding finite bound on an unbounded socle divisor is asserted. The [positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) is compatible with these conditional structural identities.
