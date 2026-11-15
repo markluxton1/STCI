@@ -755,9 +755,7 @@ The universal STCI question and unrestricted characteristic-zero
 
 ## Consolidation review
 
-Independent consolidation review reconstructed the residue ideal identity, actual-CI injection into the pullback thickening, closed-fiber Jacobian socle generation, exact pointwise divisor, colength and parity consequences. It accepted the stated geometric and characteristic hypotheses, with the prime-to-n Artin-fiber input checked in the primary Eisenbud–Ulrich theorem. The ordinary-power lattice premise remains owned by the linked normal-index theorem; no saturated-filtration equivalence is asserted.
-
-
+Independent reconstruction checked the residue-ideal identity, actual-CI injection into the pullback thickening, closed-fiber Jacobian socle generation, pointwise divisor, colength, and parity conclusions. The prime-to-\(n\) Artin-fiber hypothesis was checked against Eisenbud–Ulrich. The ordinary-power lattice input belongs to the linked normal-index theorem; **no** saturated-filtration equivalence is asserted.
 
 ## Consolidated historical supplement: `research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md`
 
