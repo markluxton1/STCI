@@ -55,65 +55,18 @@ Both fibers have residual degree \(32\), but the plane cubic \(V(x_2,x_0x_3^2-x_
 ### Supplementary sextic source spaces and pencils
 
 <a id="sextic-source-spaces-and-pencils"></a>
-
 <a id="6-from-invariant-examples-to-the-supported-ci-hilbert-locus"></a>
 <a id="7-parameter-spaces-pencils-fixed-loci-and-deformation-strata"></a>
 
-The normal-order and moving-generator tests use different source
-spaces. For a degree-six form, write its 84 ambient monomials in the
-torus chart as \(r^w u^i v^j\) with coefficients \(c_{w,i,j}\).
-Membership in \(H^0(\mathcal I^2(6))\) is equivalent, separately
-at each weight, to
+The actual degree-six order-two source \(H^0(\mathcal I_C^2(6))\) is **23-dimensional**, with torus-weight dimensions \((1,1,2,2,2,2,3,2,2,2,2,1,1)\) in weights \(6,\ldots,18\). Its monomial coefficients \(c_{w,i,j}\) satisfy, separately at each weight,
 \[
- \sum_{i,j}c_{w,i,j}=0,\qquad
- \sum_{i,j}i c_{w,i,j}=0,\qquad
- \sum_{i,j}j c_{w,i,j}=0.
+\sum c_{w,i,j}=\sum i\,c_{w,i,j}=\sum j\,c_{w,i,j}=0.
 \]
-These are the value and two first normal coefficients at \((1,1)\).
-The local-freeness argument of Part II gives the global sheaf-power
-condition. The weight dimensions in weights six through eighteen
-are \((1,1,2,2,2,2,3,2,2,2,2,1,1)\), summing to \(23\).
-[Characteristic-free actual sextic sources](../../arguments/equations/global_equation_jets.md#exact-global-freedom) ·
-[Exact coefficient verifier](../../arguments/torus-sextic-controls.support/verify.py).
+These are the value and two first normal coefficients; the [global equation-jet proof](../../arguments/equations/global_equation_jets.md#exact-global-freedom) establishes the global sheaf-power condition. On the containing quadric \(Q\), the double-sextic restriction is \((bc^3-ad^3)^2\) times a section of \(\mathcal O_Q(4,0)\). This source calculation is distinct from the [actual cubic matching problem](../../arguments/spectral/rank_strata_and_sextic_lifts.md) and the [sole-support sextic reduction](../../arguments/carriers/sextic_pair_reduction.md), which in characteristic zero or \(p\ge7\) requires generic curvilinear length nine under its hypotheses.
 
-With \(D_3=x_2^3-x_1x_3^2\), the dense-torus expressions for
-\((q,A,B_3,D_3)\) from the quartic ideal are
-\[
-(r^4(v-u),\ r^3(u-1),\ r^6(u^2-v),\ r^9(u^3-v^2)).
-\]
-On \(Q\) one has \(u=v\), and every degree-six double section
-restricts to \(r^6(u-1)^2R(r^3u)\) with \(\deg R\le4\). In Segre
-coordinates \(x=(ac,ad,bc,bd)\) this is \((bc^3-ad^3)^2\) times
-a section of \(\mathcal O_Q(4,0)\). Cubic matching for higher lifts
-uses the actual equation source. A separate reviewed reduction,
-in characteristic zero or \(p\ge7\), proves that every proper
-sole-support \((6,6)\) pair would have generic curvilinear length
-nine and would satisfy the necessary divisor profiles in that proof.
-The reduction uses the quadric restriction, the balanced normal
-bundle and actual saturated duality. [Actual cubic
-matching](../../arguments/spectral/rank_strata_and_sextic_lifts.md) ·
-[Sole-support sextic reduction](../../arguments/carriers/sextic_pair_reduction.md).
+The degree-six equation space vanishing on \(C\) has dimension \(59\), so sextic pencils form \(\operatorname{Gr}(2,59)\), dimension \(114\). Pencils entirely of double sextics form \(\operatorname{Gr}(2,23)\), dimension \(42\), codimension \(72\). The analogous quartic equation space has dimension \(18\), and quartic pencils have dimension \(32\). This codimension describes a **constant-pencil** condition, not arbitrary dependence of normal symbols over \(k(C)\). Actual sole support and generation require the [moving-ideal criterion](../../results/moving_ideal_generator_criterion.md).
 
-For equal degrees the equation pencils live in
-\(\operatorname{Gr}(2,H^0(\mathcal I(d)))\). The reduced quartic has
-Hilbert function \(4d+1\) for \(d\ge2\), giving source dimensions
-\(18\) for \(d=4\) and \(59\) for \(d=6\). The corresponding
-pencil dimensions are \(32\) and \(114\). Pencils consisting entirely
-of double sextics form \(\operatorname{Gr}(2,23)\), of dimension \(42\)
-and codimension \(72\) in the sextic pencil space. Dependence of two
-normal symbols over \(k(C)\) can occur without a constant combination
-in the double-sextic source, so the codimension measures this pencil
-condition. Generation on the Hilbert locus still uses the full ideal.
-[Normal source spaces](../../arguments/equations/global_equation_jets.md#exact-global-freedom) ·
-[Moving generator criterion](../../results/moving_ideal_generator_criterion.md#statement).
-
-The quartic root pencil illustrates another difference between parameter
-spaces. For \(z^4-\eta z+\eta-1\) the discriminant in characteristic
-zero is \((\eta-4)^2(-27\eta^2+40\eta-16)\). It detects collisions of
-roots. At \(\eta=1\) a separable root reaches zero and leaves the quotient
-torus. This and the boundary at \(\eta=\infty\) are separate events from
-the marked and residual collisions. These calculations describe the
-specified parameter line. [Quartic root pencil](../../arguments/torus/root_pencil_geometry.md#3-three-ways-the-pencil-leaves-the-open-arrangement).
+The quartic root pencil \(z^4-\eta z+\eta-1\) has characteristic-zero discriminant \((\eta-4)^2(-27\eta^2+40\eta-16)\). At \(\eta=1\), a separable root exits the quotient torus at zero; the \(\eta=\infty\) boundary and collisions of marked and residual points are different events. These are calculations for this parameter line, not a general root-space classification. [Root-pencil proof](../../arguments/torus/root_pencil_geometry.md#3-three-ways-the-pencil-leaves-the-open-arrangement).
 
 ### Source map and scope
 
