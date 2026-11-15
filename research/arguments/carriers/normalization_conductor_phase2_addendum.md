@@ -536,34 +536,9 @@ The [formal characteristic theorem](../spectral/finite_root_families_and_smooth_
 
 ### 3. Arithmetic reduction of all mate powers
 
-The [effective rational phase theorem](projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-effective-rational-phase-bound)
-and [arithmetic review](projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-effective-rational-phase-bound-independent-review)
-are accepted. For an explicit rational constructible phase image,
-Mann's theorem, finite cyclotomic calculations and Smith normal form
-give a finite exact coset/boundary certificate. It decides torsion
-existence, detects unbounded least mate degrees through a surviving
-positive-dimensional coset, and bounds phase orders by `P(S)d^D` if
-only isolated cosets survive. The three fixed projection models have
-on-C thresholds 5,5,13, so the corresponding least-degree bounds are
-that phase bound plus 4 or 12.
+The [effective rational phase theorem](projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-effective-rational-phase-bound) uses Mann's theorem, cyclotomic computations, and Smith normal form to produce a finite exact coset/boundary certificate for an **explicit rational constructible phase image**. It decides torsion existence and detects unbounded least mate degrees via positive-dimensional torsion cosets; with only isolated cosets, phase orders are bounded by \(P(S)d^D\). The three fixed projection models have on-\(C\) thresholds \(5,5,13\), giving degree bounds with additions \(4\) or \(12\).
 
-The whole fixed normalization families stay over Q, retaining all
-branch choices. A stronger corollary starts from finite rational
-section/module data for these three fixed models and constructs the
-actual phase image by a terminating algebraic procedure; the written
-review contains its scope addendum. A fresh
-[October 16 raw-input scope audit](projection_torsion_and_rational_phase_bounds.md#reviewed-claim-and-input)
-now passes the final admissibility and generic-freeness formulation.
-The precise finite rational input is one of the three fixed source
-rings with H,c,Q, four polynomial parameter sections with their prescribed
-C0 restrictions, and finite constructible parameter conditions. The
-terminating algorithm decides whether any actual carrier in that input
-family has any mate, and whether its least mate degrees are unbounded
-or admit a computable uniform bound. It does not require an oracle for
-unspecified class groups or arbitrary coefficient fields.
-No actual phase image, Mann partition list, or family decision has been
-computed. Neither practical complexity nor a numerical C0 bound follows
-from the existence of the algorithm.
+A terminating procedure also constructs the phase image from finite rational section/module data for those three fixed models, including prescribed \(C_0\) restrictions and constructible parameter conditions, without an arbitrary class-group oracle. It decides existence and boundedness **within those input families**, not arbitrary carriers. No explicit phase image, Mann partition, family decision, practical complexity estimate, or numerical uniform \(C_0\) bound has been obtained. [Raw-input audit](projection_torsion_and_rational_phase_bounds.md#reviewed-claim-and-input).
 
 ### 4. The dedicated quintic target
 
