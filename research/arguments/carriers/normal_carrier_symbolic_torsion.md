@@ -784,20 +784,7 @@ not existence claims for their embedded higher lifts.
 
 ### 8. Scope and independent review
 
-The exact normalized budget (2) holds in all normal mate-bearing C0
-carriers. The symbolic-triple obstruction needs the constant-direction
-branch ell=7; the final scalar bound applies also to ell<=6 because
-the previous index inequality is stronger there. Nonconstant directions,
-large enough pole divisors, index-two contributions, and positive
-higher-index defects remain legitimate continuation strata.
-
-The quotient-of-relation-modules comparison and the coefficient-six
-arithmetic were independently reviewed by `higher_moments` in
-`2026-10-14-generalization-symbolic-triple-torsion-comparison-audit.md`.
-The root independently reconstructed the length-two/three primitive
-Cartier-multiple argument and the improved scalar inequality. The
-present note supplies the actual proofs; agent agreement is not used
-as a substitute for them.
+The normalized budget (2) holds for normal mate-bearing \(C_0\) carriers. The symbolic-triple obstruction requires the constant-direction \(\ell=7\) branch; the scalar bound also covers \(\ell\le6\) by the stronger prior index inequality. Nonconstant directions, larger pole divisors, index-two terms, and positive higher-index defects remain open. Independent checks covered relation-module quotients, coefficient-six arithmetic, and primitive Cartier multiples of lengths two and three; the proofs are given here.
 
 ---
 
