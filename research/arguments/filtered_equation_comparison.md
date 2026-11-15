@@ -241,12 +241,7 @@ remains open.
 
 ## Source proofs and review scope
 
-The October 23 independent review reconstructed the filtered denominator,
-constant syzygies, comparison direction, and smooth-carrier calculation.
-It checked the five-dimensional model and the first higher Koszul
-differential, as well as the separate nine-object restricted comparison
-and its intrinsic nonisomorphism test. The finite scripts checked the
-explicit arithmetic and algebra models. The same exact checks can be run with Python 3 from the repository root.
+Independent review reconstructed the filtered denominator, constant syzygies, comparison direction, smooth-carrier model, first higher Koszul differential, and nine-object restricted comparison with its intrinsic nonisomorphism test. The exact Python 3 checks are:
 
 ```sh
 python3 -B research/computations/verify_ideal_filtration_counterexamples_2026_10_23.py
@@ -254,9 +249,5 @@ python3 -B research/computations/verify_ideal_filtration_completeness_2026_10_23
 python3 -B research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py
 ```
 
-Irreducibility and the general comparison were checked in the written proofs.
-[October 23 independent review](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-reviewmd)
+Irreducibility and the general comparison are established in the written proofs. See the [independent review](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-reviewmd) and [R-0030 review](../results/local_filtration_comparison_defect.md#review), including its [local audit](../results/local_filtration_comparison_defect.md#october-26-local-audit).
 
-R-0030 records the [October 24 source and independent review](../results/local_filtration_comparison_defect.md#review)
-of the generic count and DVR length calculation, and the
-[October 26 local audit and its scope](../results/local_filtration_comparison_defect.md#october-26-local-audit).
