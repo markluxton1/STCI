@@ -24,28 +24,11 @@ The [ambient conic-model proof](../../arguments/carriers/genus_two_ambient_conic
 
 ## 14. Exact conductor coordinates and fixed-curve fiber condition
 
-For the genus-one projection of Section 2, the fixed rational normal quartic in retained coordinates \((x_0,x_1,x_2,x_3)\) and omitted coordinate \(z\) is \([U^4:U^3V:UV^3:V^4:U^2V^2]\). Write the six defining quadrics as
-\[
-\begin{aligned}
-E_0&=x_0z-x_1^2,&E_1&=x_0x_2-x_1z,&E_2&=x_0x_3-x_1x_2,\\
-E_3&=x_1x_2-z^2,&E_4&=x_1x_3-zx_2,&E_5&=zx_3-x_2^2.
-\end{aligned}
-\]
-For a normalized pair \(Q_1=-E_3-aE_0-bE_1-cE_2-dE_4-eE_5\), \(Q_2=fE_0+gE_1+hE_2+iE_4+jE_5\), the entire conductor algebra from Section 2 has coefficients
-\[
-\begin{aligned}
-A&=ax_0-bx_1-dx_2+ex_3,\\
-R_1&=x_1x_2-ax_1^2+bx_0x_2+c(x_0x_3-x_1x_2)+dx_1x_3-ex_2^2,\\
-L&=fx_0-gx_1-ix_2+jx_3,\\
-R&=-fx_1^2+gx_0x_2+h(x_0x_3-x_1x_2)+ix_1x_3-jx_2^2.
-\end{aligned}
-\]
-With \(z_c=U^2V^2\), restriction to the curve yields \(R_C=-z_cL_C\) and \((R_1)_C=z_c^2-A_Cz_c\). Over a zero of \(L_C\), the two possible omitted coordinates are \(z_c\) and \(A_C-z_c\). The singleton full-inverse-support condition therefore forces
+For the genus-one projection, the six rational-normal-quartic quadrics and normalized pair of equations give the entire conductor coefficients \(A,R_1,L,R\). On the fixed curve, the omitted coordinate \(z_c=U^2V^2\) satisfies \(R_C=-z_cL_C\) and \((R_1)_C=z_c^2-A_Cz_c\). Singleton full-inverse support therefore requires
 \[
 \operatorname{Supp}\operatorname{div}(L_C)\subseteq\operatorname{Supp}\operatorname{div}(A_C-2z_c).
 \]
-Since \(L_C\) has zero middle coefficient while \(A_C-2z_c\) has middle coefficient \(-2\), a squarefree \(L_C\) is impossible. This is a necessary support condition, not an assertion that all repeated-root strata are excluded by the same argument. The exact symbolic companion is [verify_session_genus_one_entire_conductor_2026_10_09.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_genus_one_entire_conductor_2026_10_09.py).
-
+Because \(L_C\) has zero middle coefficient and \(A_C-2z_c\) has middle coefficient \(-2\), squarefree \(L_C\) is impossible. **This is necessary, not a complete repeated-root exclusion.** The [exact six quadrics, conductor coefficient formulas, and fiber-condition proof](../../arguments/carriers/genus_one_uniform_projection_analysis.md#7-exact-conductor-coordinates-and-fixed-curve-fiber-condition) are maintained in the focused Argument.
 
 ## 15. Genus-two conductor-line positions on the fixed quartic
 
