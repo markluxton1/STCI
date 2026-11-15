@@ -984,11 +984,7 @@ the argument.
 
 ## Characteristic boundary
 
-The 23-dimensional double-sextic source and its five-dimensional quadric quotient use the characteristic-free smooth-quadric sheaf-power theorem and binary monomial multiplication; no division by a factorial is used. The explicit F_* Jacobian/radical example retains its certified characteristic-zero scope. The thick–thick intersection proof uses the displayed balanced-normal exceptional product and quadric-direction graph; its conclusion has that hypothesis, which fails for fixed C0 in characteristic2. A negative section on the resulting Hirzebruch surface prevents this argument from extending unchanged. The [every-positive-characteristic quartic-carrier construction](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) is a separate global construction, not supplied by the characteristic2 failure model.
-
-
-
----
+The 23-dimensional double-sextic source and five-dimensional quadric quotient use characteristic-free smooth-quadric sheaf powers and binary monomial multiplication, without factorial division. The \(F_*\) Jacobian/radical example is certified only in characteristic zero. The thick–thick proof uses the balanced-normal exceptional product and quadric-direction graph, **not** available for this \(C_0\) in characteristic two; a negative Hirzebruch section blocks the same argument. The [positive-characteristic quartic-carrier construction](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) is independent.
 
 ## Exact homogeneous equation spaces and fixed-quadric restrictions
 
