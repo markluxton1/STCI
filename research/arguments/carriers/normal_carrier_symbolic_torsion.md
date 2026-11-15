@@ -1471,15 +1471,5 @@ normal, nonnormal, and entirely thick branches remain open.
 
 ### 8. Audit provenance
 
-The ordinary free-layer theorem was first proposed by `socle_audit`
-and independently reconstructed by the root and the
-`index12_multiplication` worker. The root then proposed the pointwise
-Frobenius identity, the local Jacobian/index formula, and the resulting
-symbolic-triple contradiction. This note independently reconstructs
-all of those new steps, explicitly checking the socle's base change,
-the normal-domain colon argument, the shared free normal generator,
-and the saturation identifying symbolic triples.
+The independent reconstruction checked base change of the socle, the normal-domain colon argument, the shared free normal generator, symbolic-triple saturation, and the pointwise Frobenius/Jacobian index bridge. The primary Jacobian theorem was checked; inherited calculations were not rerun. **Sections 1–6, not agent agreement, supply the proofs.**
 
-The primary Jacobian theorem was inspected for this new bridge; no
-previously accepted repository calculation was rerun. Parallel agent
-agreement is not the proof: Sections 1--6 contain the actual arguments.
