@@ -25,7 +25,7 @@ The historical proof texts below are arranged by mathematical dependency, not by
 
 ## Characteristic scope shared by the nonendpoint exclusions
 
-These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
 
 The exact hypotheses and exceptions of each exclusion remain in its proof; this common restriction does not extend any theorem beyond its stated admissible nonendpoint family.
 
@@ -942,7 +942,7 @@ Original mathematical content and its qualifications are retained verbatim. Rela
 
 ## Integration guide: carrier structure is not mate existence
 
-The conormal, factorization, residual-divisor, and low-pole-space analyses impose **necessary restrictions on a quintic carrier**. They do not automatically produce or exclude a homogeneous mate. The [endpoint jet/power-descent proofs](QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md), [endpoint residual-support calculations](QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md), and [intrinsic A4 conductor/sextic incidence](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md) test additional compatibility conditions. The normalization, factorization, and mate-existence steps have distinct hypotheses; retain their separate computations and counterexamples.
+The conormal, factorization, residual-divisor, and low-pole-space analyses impose **necessary restrictions on a quintic carrier**. They do not automatically produce or exclude a homogeneous mate. The [endpoint jet/power-descent proofs](../supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md), [endpoint residual-support calculations](../supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md), and [intrinsic A4 conductor/sextic incidence](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md) test additional compatibility conditions. The normalization, factorization, and mate-existence steps have distinct hypotheses; retain their separate computations and counterexamples.
 
 ---
 
@@ -969,7 +969,7 @@ accepted conormal calculation `N_C^*=O_P1(-7)^2`, the [P-005 smooth-carrier
 obstruction](../synthesis/global_equations_and_constructions.md#p-005-a-smooth-carrier-obstruction),
 the [P-006 formal-normal resultant theorem](../synthesis/formal-normal-intersection.md#p-006),
 the [P-011 normal-order bound](../synthesis/formal-normal-intersection.md#low-degree-surfaces-singular-along-the-whole-quartic),
-and the [P-015 fixed-carrier descent theorem](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#canonical-compression-on-a-minimum-actual-carrier). Where
+and the [P-015 fixed-carrier descent theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#canonical-compression-on-a-minimum-actual-carrier). Where
 explicitly stated, we also use the [integral quartic carrier exclusion](../results/quartic_carrier_exclusion.md). The
 unrestricted C0 and universal STCI questions remain open.
 
@@ -1034,7 +1034,7 @@ point, the pullback of I_C induces a generically nonzero map
 
 Therefore `deg J>=-7`; for `deg J<-7` the Hom space is zero. Global
 immersion of R is unnecessary. This is the direct proof used in the
-accepted [quartic weighted-ribbon audit](GENUS_TWO_BISECTION_PROOF.md).
+accepted [quartic weighted-ribbon audit](../supplements/GENUS_TWO_BISECTION_PROOF.md).
 
 If S is Gorenstein in a neighborhood of R, Cartier adjunction and ribbon
 duality give
@@ -1302,7 +1302,7 @@ so neither case permits this smooth quartic. The cone therefore cannot
 contain the lift even before assuming a mate. This proves the pi=0
 quintic-carrier exclusion in every mate degree, using the standard
 minimal-degree classification already audited in the
-[quartic genus-zero record](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md).
+[quartic genus-zero record](../supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md).
 
 ## 10. Continuation boundary
 
@@ -1812,7 +1812,7 @@ The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-ze
 ### 1. Actual pair, modulus and convenient lift parameters
 
 Use the actual sections and chart in the
-[pole-filtration and line-jet note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit),
+[pole-filtration and line-jet note](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit),
 with delta!=0 over an algebraically closed field of characteristic zero.
 The accepted normalization pair and its complete open S minus ell=A2(r,T)
 are supplied by the [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
@@ -2165,7 +2165,7 @@ arithmetic using Python's standard library. It performs no `eval`, uses
 no CAS dependency, and does not replay the fifteen-check M2 source.
 
 The following geometric consequence depends on the separate
-[restricted-conductor determinant argument](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#2-nonendpoint-restricted-conductor-determinant).
+[restricted-conductor determinant argument](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#2-nonendpoint-restricted-conductor-determinant).
 Its independent mathematical audit is ongoing at this note's freeze.
 Once that argument identifies `F` with a unit multiple of the actual
 degree-eight conductor restriction, its zero at target infinity has
@@ -2542,7 +2542,7 @@ Original mathematical content and its qualifications are retained verbatim. Rela
 
 # Nonendpoint conic-plus-quartic residuals: all eight families
 
-The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-zero restriction are fixed in [Mathematical organization and scope](#mathematical-organization-and-scope). The intrinsic pair is established in the [A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md), and the actual projection and boundary equations appear in [Complete actual target-fiber equations](#complete-actual-target-fiber-equations). The [residual divisor proof](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md) gives eight necessary 2+4 families. The two Type 1 branches and six Type 2/3 branches below are excluded by full curve ideals and actual higher jets. The separate [3+3 cubic-pair proof](#the-full-33-no-mate-theorem) owns the heptic classification and coefficient matching; it is not inferred from these conic-plus-quartic calculations.
+The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-zero restriction are fixed in [Mathematical organization and scope](#mathematical-organization-and-scope). The intrinsic pair is established in the [A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md), and the actual projection and boundary equations appear in [Complete actual target-fiber equations](#complete-actual-target-fiber-equations). The [residual divisor proof](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md) gives eight necessary 2+4 families. The two Type 1 branches and six Type 2/3 branches below are excluded by full curve ideals and actual higher jets. The separate [3+3 cubic-pair proof](#the-full-33-no-mate-theorem) owns the heptic classification and coefficient matching; it is not inferred from these conic-plus-quartic calculations.
 
 <a id="3-nonendpoint-type1-two-family-exclusion"></a>
 <a id="4-nonendpoint-type1-two-family-independent-audit"></a>
@@ -2627,13 +2627,13 @@ would have to be six.
 
 ### 4. Every possible place of excess is retained
 
-The corrected [conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction),
+The corrected [conormal reduction](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction),
 and reconstructed its P,J from the unexpanded quotient-differentiation
 expressions using the actual four T derivatives. At each finite point of
 c, including r=0 in the opposite frame, a nonzero P or J gives cotangent
 surjectivity. Under (SUP), the fiber has one point and equal residue field.
 The finite local algebra lemma in the
-[all-mate conormal/conductor audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit),
+[all-mate conormal/conductor audit](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit),
 then gives equality of local surface rings. Such points contribute exactly
 zero excess; this is stronger than a first-normal estimate.
 
@@ -2779,7 +2779,7 @@ two common finite points for a fixed parameter.
 At a finite c point with P or J nonzero, the actual target cotangent map is
 surjective, including r=0 in the reversed frame. Under (SUP) the fiber is a
 single point with equal residue field. The finite local Nakayama argument
-in the [conormal/conductor audit](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit)
+in the [conormal/conductor audit](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit)
 makes the surface projection a local isomorphism. The actual reduced curve
 ideals then agree, so such a point contributes zero excess. First symbols
 are used here to prove a local ring equality, not to bound later contact.
@@ -2917,7 +2917,7 @@ complete inverse-support condition SUP, including no isolated extra point.
 
 Use B=b-a, G=g-3b+2a, Jbar=d-2g+2b-a, so A=a+d-b-g=G+Jbar. The 3+3
 partition lies on A=-3delta^2. The upstream
-[residual audit](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-nonendpoint-residual-factor-and-genus-independent-audit),
+[residual audit](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-nonendpoint-residual-factor-and-genus-independent-audit),
 SHA `db72f936486253cf91e82645de9c3b6b23562dac9da49eee6ee31f0cb94b5322`,
 proves under SUP that every prime cubic is a smooth rational normal cubic
 with equation t+m r+n=0, and maps isomorphically to a smooth Q-curve of class
