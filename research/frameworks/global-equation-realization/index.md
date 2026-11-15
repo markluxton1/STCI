@@ -16,6 +16,20 @@ The fundamental object is the labelled map
 \(\mathcal O_{\mathbf P^3}(-a)\oplus\mathcal O_{\mathbf P^3}(-b)\to I_{C_0}\)
 whose components are the equations. Its image must define a proper complete intersection and have no residual support if the goal is STCI. The [Sylvester Hom identity](../../arguments/equations/chow_bundle_maps.md#the-prescribed-sylvester-bundles-already-retain-the-equations) recovers forms directly from a map of the prescribed bundles; the required nonzero Chow-power determinant is still an existence condition. The [complement calculation](../../arguments/equations/complement_section_obstructions.md) distinguishes the checked continuous and primary algebraic conditions from actual homogeneous section realization. The [Chow/bundle and complement criteria](../../arguments/equations/global_equations_and_constructions.md#geometric-orientation-the-locus-of-globally-presented-multiple-curves) are equivalent formulations or necessary shadows only when their stated hypotheses hold; a cycle identity or a section on the complement does not by itself provide homogeneous lifts with the required base locus.
 
+## Mathematical ownership and retrieval
+
+This Framework owns the **last global realization step**: recovering actual
+homogeneous forms from proposed jets, bundle maps, local structures, or
+normalized carriers, and checking their full base locus. For actual
+normal-order source maps use [global equation jets](../../arguments/equations/global_equation_jets.md);
+for prescribed Sylvester maps use [the Hom identity](../../arguments/equations/chow_bundle_maps.md#the-prescribed-sylvester-bundles-already-retain-the-equations).
+[Formal normal geometry](../formal-normal-geometry/index.md) owns the local
+filtered compatibility problem; [carrier normalization](../carrier-normalization/index.md)
+owns full inverse support and conductor descent; [residual construction](../residual-construction/index.md)
+owns residual cycles of proper pairs. These inputs do not by themselves
+supply global equations. The [projection and liaison interface](projection_and_liaison.md)
+separately tracks supported ACM sources and their section defects.
+
 ## Available mathematics and controls
 
 - Actual source spaces at fixed degree and normal order and their successive lifting quotients are computed in [global equation jets](../../arguments/equations/global_equation_jets.md). They show why independently selected sections of \(\mathrm{Sym}^r(I/I^2)\) need not come from equations. Finite compatible-jet existence is not an effective bound on all degrees: no general all-degree cutoff is established from a rank plateau or a finite truncation.
