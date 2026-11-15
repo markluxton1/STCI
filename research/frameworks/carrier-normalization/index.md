@@ -142,3 +142,15 @@ See the [independent review](https://github.com/markluxton1/STCI/blob/a69956b9a4
 Use the shared accounts of [carrier surfaces and divisor classes](../../literature/README.md#carrier-surfaces-divisor-classes-and-blowups)
 and [known exclusions for the smooth rational quartic](../../literature/README.md#the-smooth-rational-quartic-and-its-known-exclusions)
 for exact external hypotheses and source boundaries.
+
+
+### Quartic-carrier proof interfaces by mechanism
+
+- [Quartic carrier lanes and genus-one algebra](quartic_carrier_six_lanes_and_genus_one.md)
+- [Trisecant contradictions and alternative proof routes](quartic_carrier_trisecant_and_proof_routes.md)
+- [Veronese projections and genus-zero normalization](quartic_carrier_veronese_and_genus_zero.md)
+- [Genus-one ribbon nets and normalization restrictions](quartic_carrier_genus_one_and_ribbon_nets.md)
+- [Genus-two bisections and conductor geometry](quartic_carrier_genus_two_conductor.md)
+- [Trisecant carrier ideals and discriminant boundary](quartic_carrier_trisecant_discriminant.md)
+
+These are distinct proof mechanisms, not interchangeable exclusions. The [original technical section addresses](quartic_proof_interfaces.md) remain available for older citations; consult the focused developments for their exact hypotheses and full arguments.
