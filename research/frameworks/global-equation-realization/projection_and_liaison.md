@@ -4,16 +4,13 @@
 
 This target
 is weaker than AG, which in codimension two would give a complete intersection.
-Generic type two is allowed at the ACM stage. Start from an actual ideal or
-finite-projection source and determine the image's section module; do not
-transfer ACMness from the covering quadric. An exact supported ACM ideal,
-a diagnosed failure of the chosen source, or a concrete missing realization
-map is an interpretable outcome. The existing [section-defect theorem](../../arguments/linkage/projected_thickening_section_defects.md)
+Generic type two is allowed at the ACM stage. An actual ideal or finite-projection source requires a computation of the
+image's section module: ACMness does not transfer from the covering quadric. The existing [section-defect theorem](../../arguments/linkage/projected_thickening_section_defects.md)
 and [liaison constructions](../../arguments/linkage/supported_linkage_operations.md) specify
 what the covered sources accomplish and where they fail.
 [Deformation through full torus limits](../torus-supported-boundaries/index.md) gives a second way to organize this objective;
 allow more than two generators and do not require the invariant special
-fiber itself to be ACM. A projection source must change the already
+fiber itself to be ACM. A projection source must avoid the already
 excluded missing-section mechanism.
 
 ## Embedded conductor and ambient equations
