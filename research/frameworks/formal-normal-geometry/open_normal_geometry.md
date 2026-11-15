@@ -4,11 +4,10 @@
 
 For the fixed \(C_0\) in characteristic zero, when do successive normal-jet
 conditions become dependent in primitive or quasiprimitive filtrations?
-Treat actual carriers of degree at least five and residual intersections
-involving a quartic as separate settings. Use the actual global section
-sources and the targets modified by saturated layer divisors. In a specified
-degree and family of lower embeddings, determine an intrinsic rank-defect
-locus for a successive restriction map, including its special strata. Seek
+Actual carriers of degree at least five and residual intersections
+involving a quartic are separate settings. The rank-defect locus in a specified
+degree and family of lower embeddings depends on actual global section
+sources and targets modified by saturated layer divisors for a successive restriction map, including its special strata. Seek
 an explicit relation to the punctual [R-0030 comparison defect](../../results/local_filtration_comparison_defect.md)
 of the map from the minimal generators of the full normal initial ideal
 to the associated graded of the actual equation module.
@@ -95,7 +94,7 @@ and the [normal-filtration account](normal_filtration_boundaries.md).
 
 <a id="supported-length-five-degeneration"></a>
 
-Over \(A=k[[t]]\), take \(I=(x,y)\) and regular-sequence ideals \(J\subset A[[x,y]]\) with quotient free of rank five, \(\sqrt J=I\), generic algebra \(k((t))[y]/(y^5)\), and closed algebra \(k[x,y]/(x^2+y^3,xy)\). Can the R-0030 relative comparison defect be nonzero? The [current control](../../results/supported_length_five_defect_specialization.md) has zero relative defect despite nonzero closed-fiber defect. Use the full relative initial ideal and \(\operatorname{in}_I(IJ)\). Stop at one verified relative counterexample or a coverage theorem for this exact stratum. Sample computations leave the rest of the stratum open. This is a local structural question.
+Over \(A=k[[t]]\), take \(I=(x,y)\) and regular-sequence ideals \(J\subset A[[x,y]]\) with quotient free of rank five, \(\sqrt J=I\), generic algebra \(k((t))[y]/(y^5)\), and closed algebra \(k[x,y]/(x^2+y^3,xy)\). Can the R-0030 relative comparison defect be nonzero? The [current control](../../results/supported_length_five_defect_specialization.md) has zero relative defect despite nonzero closed-fiber defect. Use the full relative initial ideal and \(\operatorname{in}_I(IJ)\). Sample computations leave the rest of this stratum open. This is a local structural question.
 
 ## Normal Koszul pages and extended Rees torsion
 
