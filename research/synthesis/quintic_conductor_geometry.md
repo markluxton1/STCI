@@ -942,7 +942,7 @@ Original mathematical content and its qualifications are retained verbatim. Rela
 
 ## Integration guide: carrier structure is not mate existence
 
-The conormal, factorization, residual-divisor, and low-pole-space analyses impose **necessary restrictions on a quintic carrier**. They do not automatically produce or exclude a homogeneous mate. The [endpoint jet/power-descent proofs](../supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md), [endpoint residual-support calculations](../supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md), and [intrinsic A4 conductor/sextic incidence](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md) test additional compatibility conditions. The normalization, factorization, and mate-existence steps have distinct hypotheses; retain their separate computations and counterexamples.
+The conormal, factorization, residual-divisor, and low-pole-space analyses impose **necessary restrictions on a quintic carrier**. They do not automatically produce or exclude a homogeneous mate. The [endpoint jet/power-descent proofs](../supplements/QUINTIC_ENDPOINT_JETS_AND_POWER_DESCENT.md), [endpoint residual-support calculations](../supplements/QUINTIC_ENDPOINT_RESIDUAL_SUPPORT_AND_EXCESS.md), and [intrinsic A4 conductor/sextic incidence](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsquintic_a4_conductor_and_sextic_incidencemd) test additional compatibility conditions. The normalization, factorization, and mate-existence steps have distinct hypotheses; retain their separate computations and counterexamples.
 
 ---
 
@@ -1277,7 +1277,7 @@ normal quartic, and ell is its tangent line at that point. This audit
 does not infer a classification of all projections, uniqueness of the
 carrier equation, or any power-descent obstruction from the tangent line.
 
-The unique line satisfies5ell~H, by subtracting5c~4H from5(c+ell)~5H. If h is the section with divisor c+ell and u has divisor5ell, then Q=h^5/u is a regular section of4H with divisor5c. This is an actual intrinsic section identity, not a claim that either h,u or Q descends to the chosen four-coordinate projection. With a fixed marked center in the span of c, four lifts differ by the one-dimensional restriction kernel; the [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md) retains the additional nonendpoint marking parameter and prevents treating the endpoint four-parameter subfamily as all projections.
+The unique line satisfies5ell~H, by subtracting5c~4H from5(c+ell)~5H. If h is the section with divisor c+ell and u has divisor5ell, then Q=h^5/u is a regular section of4H with divisor5c. This is an actual intrinsic section identity, not a claim that either h,u or Q descends to the chosen four-coordinate projection. With a fixed marked center in the span of c, four lifts differ by the one-dimensional restriction kernel; the [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd) retains the additional nonendpoint marking parameter and prevents treating the endpoint four-parameter subfamily as all projections.
 
 ## 9. The sectional-genus-zero exclusion also passes
 
@@ -1334,8 +1334,8 @@ integrity seal is edited by this audit.
 The owner source is the [endpoint quadric-factor reduction](#2-quintic-endpoint-factor-independent-audit).
 The geometric inputs are the [quintic structural frontier](#1-quintic-conormal-and-delpezzo-audit),
 its [independent conormal/del Pezzo audit](#1-quintic-conormal-and-delpezzo-audit),
-and the [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
-The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
+and the [explicit model audit](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd).
+The [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd)
 separately records the required distinction between endpoint and nonendpoint
 projection centers. The present statement applies to the displayed endpoint
 projection; it does not replace that distinction by a four-parameter global
@@ -1630,10 +1630,10 @@ family or bound higher contact multiplicities.
 Work over an algebraically closed field of characteristic zero. The normal
 anticanonical degree-five surface S, its unique line ell, the complete smooth
 quartic c, and the plane model are those of the
-[intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
+[intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd).
 In particular H is ample, `H~5ell`, `c~4ell`, and the actual section U0 of H has
 divisor 5ell. The
-[explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
+[explicit-model audit](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd)
 verifies the global model and its chart `U0!=0`.
 
 ## 1. The entire reflexive section filtration
@@ -1802,7 +1802,7 @@ Original mathematical content and its qualifications are retained verbatim. Rela
 
 # Nonendpoint actual target fibers and full inverse support
 
-The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-zero restriction are fixed in [Mathematical organization and scope](#mathematical-organization-and-scope). The intrinsic pair is established in the [A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md), and the actual projection and boundary equations appear in [Complete actual target-fiber equations](#complete-actual-target-fiber-equations). This chapter owns the literal target-fiber equations, denominator-free rank alternatives, all target endpoints, and the G=J=0 and equal-lift full-support exclusions. A resultant zero alone never replaces the actual off-c equations.
+The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-zero restriction are fixed in [Mathematical organization and scope](#mathematical-organization-and-scope). The intrinsic pair is established in the [A4 model](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd), and the actual projection and boundary equations appear in [Complete actual target-fiber equations](#complete-actual-target-fiber-equations). This chapter owns the literal target-fiber equations, denominator-free rank alternatives, all target endpoints, and the G=J=0 and equal-lift full-support exclusions. A resultant zero alone never replaces the actual off-c equations.
 
 <a id="4-nonendpoint-target-fiber-reduction-and-bounded-exclusions"></a>
 <a id="5-nonendpoint-target-fiber-independent-proof-audit"></a>
@@ -1815,8 +1815,8 @@ Use the actual sections and chart in the
 [pole-filtration and line-jet note](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit),
 with delta!=0 over an algebraically closed field of characteristic zero.
 The accepted normalization pair and its complete open S minus ell=A2(r,T)
-are supplied by the [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
-and [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
+are supplied by the [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd)
+and [explicit model audit](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd).
 Assume the projection center avoids S whenever using an actual finite
 normalization projection. Delta is retained as a modulus throughout.
 
@@ -2542,7 +2542,7 @@ Original mathematical content and its qualifications are retained verbatim. Rela
 
 # Nonendpoint conic-plus-quartic residuals: all eight families
 
-The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-zero restriction are fixed in [Mathematical organization and scope](#mathematical-organization-and-scope). The intrinsic pair is established in the [A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md), and the actual projection and boundary equations appear in [Complete actual target-fiber equations](#complete-actual-target-fiber-equations). The [residual divisor proof](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md) gives eight necessary 2+4 families. The two Type 1 branches and six Type 2/3 branches below are excluded by full curve ideals and actual higher jets. The separate [3+3 cubic-pair proof](#the-full-33-no-mate-theorem) owns the heptic classification and coefficient matching; it is not inferred from these conic-plus-quartic calculations.
+The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-zero restriction are fixed in [Mathematical organization and scope](#mathematical-organization-and-scope). The intrinsic pair is established in the [A4 model](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd), and the actual projection and boundary equations appear in [Complete actual target-fiber equations](#complete-actual-target-fiber-equations). The [residual divisor proof](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md) gives eight necessary 2+4 families. The two Type 1 branches and six Type 2/3 branches below are excluded by full curve ideals and actual higher jets. The separate [3+3 cubic-pair proof](#the-full-33-no-mate-theorem) owns the heptic classification and coefficient matching; it is not inferred from these conic-plus-quartic calculations.
 
 <a id="3-nonendpoint-type1-two-family-exclusion"></a>
 <a id="4-nonendpoint-type1-two-family-independent-audit"></a>
@@ -2899,7 +2899,7 @@ Original mathematical content and its qualifications are retained verbatim. Rela
 
 # Nonendpoint residual cubic pairs: complete contact and coefficient proof
 
-The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-zero restriction are fixed in [Mathematical organization and scope](#mathematical-organization-and-scope). The intrinsic pair is established in the [A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md), and the actual projection and boundary equations appear in [Complete actual target-fiber equations](#complete-actual-target-fiber-equations).
+The common nonendpoint hypotheses, the meaning of SUP, and the characteristic-zero restriction are fixed in [Mathematical organization and scope](#mathematical-organization-and-scope). The intrinsic pair is established in the [A4 model](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd), and the actual projection and boundary equations appear in [Complete actual target-fiber equations](#complete-actual-target-fiber-equations).
 
 <a id="2026-10-13-session-nonendpoint-cubic-pair-full-independent-audit"></a>
 <a id="2026-10-13-session-cubic-pair-theorem-scope-qualification"></a>
