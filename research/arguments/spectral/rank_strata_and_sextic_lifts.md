@@ -252,7 +252,7 @@ The representation of \(G_0\), the twenty-five second-obstruction pairings, full
 
 ## 8. Disposition and remaining work
 
-The new scoped conclusion is that cubic actual-source realization in this sextic model has a unique actual lift on the actual-pair-admissible root open, rather than a surviving free \(q^3\) parameter after cubic matching. It gives a smaller finite completion problem for retained collision, node, and endpoint opens once their target/gluing data are genuinely supplied. It does not close any such open by calculation, construct a degree-sixteen mate, prove properness or sole support, or resolve the unrestricted characteristic-zero STCI question.
+On the actual-pair-admissible root open, cubic actual-source matching has a **unique** regular lift, not a free \(q^3\) parameter. Collision, node, and endpoint opens still need their own target/gluing data and finite completion tests. No degree-sixteen mate, properness, sole support, or unrestricted characteristic-zero STCI conclusion follows.
 
 ## Independent review
 
