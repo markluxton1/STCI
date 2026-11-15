@@ -30,8 +30,8 @@ The characteristic is part of each application; the geometric boundary and
 generator criteria work in every characteristic, while the invariant-CI
 obstruction has a different characteristic boundary.
 
-This strategy studies actual intersections and their embedded multiple
-structures. It can inform construction or obstruction independently. The listed Results have independent reviews of the exact scopes stated in each record. These reviews do not resolve unrestricted STCI.
+The boundary results constrain actual supported intersections but do not
+resolve unrestricted STCI.
 
 ## Available results
 
@@ -107,15 +107,12 @@ limits and power bounds; extending it to all degrees is a further problem.
 Finding an arbitrary supported flat deformation to a CI is already useful;
 realizing a prescribed torus boundary as an orbit limit is a stronger task.
 
-## Research decisions
+## Coverage boundaries
 
-Pursue a family when its full ideals and actual multiplication maps are
-accessible. A failure of eigenform equations suggests changing the moving
-equations, not rejecting all attracting families. A failure at one fixed ideal
-can redirect the family search but cannot close other components. Keep direct
-geometric constructions available when they do not need a fixed-point
-classification. The finite [residual controls](../../arguments/torus_sextic_residuals.md#finite-replay-evidence)
-check calculations without replacing the realization and coverage arguments.
+Failure of eigenform equations does not exclude other moving equations or
+attracting families; failure at one fixed ideal does not exclude other
+components. The [finite residual controls](../../arguments/torus_sextic_residuals.md#finite-replay-evidence)
+check calculations but do not prove realization or coverage.
 
 ## Weight geometry and moving families
 
