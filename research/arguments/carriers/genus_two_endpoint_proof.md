@@ -474,28 +474,7 @@ audit; no CAS execution or new symbolic-check count is claimed.
 
 ## 1. Precise input and verdict
 
-Use the characteristic-zero notation of the
-[second-pencil audit](#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd).
-There is a smooth weak degree-four del Pezzo surface V, with connected
-rational pencils f and c satisfying `-K_V=f+c` and `f.c=2`. The smooth
-minimal resolution M is obtained from V by four point blowups disjoint
-from the actual smooth curve c, including every infinitely near center.
-For a hypothetical lambda-zero mate,
-
-    Z_t=(k_t/2)F_t-R_t,
-
-is an actual equality of rational divisors, with full scheme-theoretic
-fiber multiplicities. The positive support of Z consists of
-sigma-exceptional vertical (-2)-curves. A contacted exceptional graph
-has only one transverse c-contact, and the actual pullback of a local
-uniformizer supplies a positive integral anti-nef exceptional cycle
-whose coefficient at that contact is one.
-
-The three-blowup note is accepted at exactly this scope: **every fiber
-with k_t=3 is impossible**. Combining it with the independently checked
-[even-count exclusion](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count)
-leaves only `[1,1,1,1]`. This conclusion does not yet use conductor power
-descent, the splitting of the conductor, or the fixed embedding of C0.
+In characteristic zero, the [second-pencil hypotheses](#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd) give a smooth weak degree-four del Pezzo \(V\), connected rational pencils \(f,c\), \(-K_V=f+c\), \(f\cdot c=2\), and \(M\to V\) consisting of four blowups disjoint from the smooth embedded \(c\), including infinitely near centers. For a hypothetical \(\lambda=0\) mate, \(Z_t=(k_t/2)F_t-R_t\) is an **actual rational-divisor equality** with full fiber multiplicities. Its positive support consists of vertical exceptional \((-2)\)-curves; a contacted graph has one transverse \(c\)-contact, with positive integral anti-nef uniformizer cycle having coefficient one there. The separate three-blowup theorem excludes every \(k_t=3\) fiber; the [even-count exclusion](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count) then leaves \([1,1,1,1]\). This does **not** use conductor power descent or prove a mate exclusion.
 
 ## 2. The fiber list includes all multiplicities
 
