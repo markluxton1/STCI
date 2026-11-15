@@ -483,36 +483,9 @@ local failure shield, not a constructed global `C0` carrier.
 
 ### 7. Audit record and successor target
 
-The new rational-ample local detection proof was independently
-reconstructed by `cyclic_cover_structure`, including Kummer
-connectedness, etaleness near Cartier points, and ample-divisor
-connectedness on a normal surface. `normal_torsion_primary`
-independently inspected the exact SGA 2 hypersurface theorem and
-the local class-group route, and audited the local-index and nodal
-arithmetic corollaries. It also independently audited
-`a|16R` and the full bounded-index divisor table. The new elementary
-arithmetic script ran successfully and checked precisely the rows
-displayed above. These audits concern new deductions, not a rerun
-of accepted low-degree exclusions. The auxiliary proof records are
-[normal cyclic-cover torsion detection](../spectral/spectral_pushforward_powers.md#2026-10-14-normal-cyclic-cover-torsion-detection)
-and [primary Picard/local-torsion inputs](normal_index_socle_and_torsion.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd).
+Independent reconstruction checked Kummer connectedness, étaleness near Cartier points, ample-divisor connectedness, SGA 2 local class-group inputs, nodal/index arithmetic, and the bounded-index divisor table. The [cyclic-cover argument](../spectral/spectral_pushforward_powers.md#2026-10-14-normal-cyclic-cover-torsion-detection) and [Picard/local-torsion inputs](normal_index_socle_and_torsion.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd) retain the proofs. Accepted low-degree exclusions were not rerun.
 
-The remaining normal-carrier target is now sharp: show that the
-specific class `Delta_0` cannot be torsion with the required local
-indices, or exclude the resulting finite cyclic cover geometry.
-The nodal class is now closed across all degrees. More broadly,
-on-curve local index exponents dividing `2,3,4,6` are closed, and
-exponent 12 leaves only the unordered defining pair `(6,8)`, with
-generic intersection length 12. The next exact target in this class
-is compatibility of that full local length with the actual index
-three/four contributions at the singular points; no primitive-pair
-assumption may be imposed, and higher jets must be retained when a
-`D_n` curve has index four but large singularity corrections. For
-general normal carriers, one needs actual Cartier indices of the
-smooth curve at the singular points it meets; multiplicity and the
-carrier's Picard group alone are insufficient. All nonnormal and
-entirely thick carrier lanes retain their separate conductor and
-branch-lattice issues.
+The unresolved target is whether the specific class \`Delta_0\` can have the required torsion and local indices, or whether its finite cyclic cover can exist. Nodal classes are excluded in every degree; local exponents dividing \(2,3,4,6\) are excluded, while exponent \(12\) leaves only \((6,8)\) with generic intersection length \(12\). That case requires compatibility with actual index-three/four contributions at singular points, without assuming a primitive pair or discarding higher jets. General normal carriers require actual Cartier indices at points of \(C_0\); nonnormal and entirely thick carriers have separate conductor and branch-lattice questions.
 
 ---
 
