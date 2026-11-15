@@ -549,18 +549,7 @@ STCI question and unrestricted characteristic-zero `C0` remain open.
 
 ## Independent audit: cohomology for the uniform root-lifting tower
 
-Date: 2026-10-15. Reviewer: `tower_finite_audit`, with a separate
-`square_zero_cartier` subreview of the equation-unit issue.
-Status: **PASS for the stated cohomology, coefficient twists, and
-conditional relation-gap consequence**. The finite-determinacy theorem
-also requires the relative embedded-Cartier lifting argument, assigned
-to a separate conceptual reviewer. No accepted chart computation,
-first-incidence verifier, or second-obstruction verifier was rerun.
-
-Reviewed proposal:
-[uniform root-tower finite determinacy](#2026-10-15-generalization-uniform-root-tower-finite-determinacy).
-The accepted first and second obstruction calculations are premises;
-this review concerns the new all-order structural input.
+Independent review checked the all-order cohomology, coefficient twists, and **conditional** relation-gap consequence, including a separate square-zero Cartier equation-unit check. Finite determinacy additionally needs the relative embedded-Cartier representability argument. Accepted charts and first/second obstruction verifiers were not rerun; see [finite determinacy](#2026-10-15-generalization-uniform-root-tower-finite-determinacy).
 
 ### 1. The precise general setting
 
