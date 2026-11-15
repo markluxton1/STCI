@@ -446,7 +446,7 @@ Under the hypotheses of [R-0014](../../results/movement_two_six_rows.md), moveme
 
 ## The common lifting mechanism
 
-For the exact linear-algebra statement separating a fixed symbol from its affine lift fiber, see [global lifting interfaces](../equations/global_lifting_interfaces.md). Here the symbol map has domain dimension 23, image rank 22, and kernel kq³. The cubic correction map μ_f has constant rank 16 for f≠0. Its actual obstruction is therefore the cubic target modulo `im μ_f + k(q³)_3`, of dimension 23 on the actual-pair-admissible open, with the single rank-drop root classified in [varying actual-source lifts](../spectral/rank_strata_and_sextic_lifts.md). This calculation measures the obstruction to meeting the chosen cubic correction space with an **actual global sextic fiber**; it is not a dimension count proving the nonlinear incidence empty. Higher ambient classes, spectral gluing, a proper degree-sixteen mate, and sole support remain separate.
+For the [actual affine lift fiber](../equations/global_lifting_interfaces.md), the sextic symbol map has source dimension 23, rank 22, and kernel \(kq^3\). For \(f\ne0\), the cubic correction map \(\mu_f\) has rank 16. The obstruction quotient by \(\operatorname{im}\mu_f+k(q^3)_3\) has dimension 23 on the admissible open, with its exceptional rank-drop root treated in [the spectral proof](../spectral/rank_strata_and_sextic_lifts.md). This is an actual-source cubic obstruction, not an emptiness proof or a degree-sixteen mate.
 
 ## Endpoint-four: the finite actual-equation question
 
