@@ -594,38 +594,7 @@ incidence remain open.
 
 ## Review
 
-Independent reconstruction review accepted the mathematics of
-STCI-R-0037--STCI-R-0039 and their three direct proof sections above
-within their exact stated scopes. The reviewer reconstructed
-scheme-theoretic incidence via relative generation and base change,
-proper full limits in all characteristics, individual nilpotence and
-generic length with embedded boundary, split-torus character lifting
-and degree induction, and the height-two generator criterion with its
-conditional module-regularity cutoff and correct fiber hypotheses.
-The declared sources were compared and no lost contribution or
-blocking mathematical correction was found. These are intrinsic
-geometric and algebraic proofs; no mathematical computation or
-coordinate certificate was needed. Acceptance supplies no uniform
-\(N\), classification, nonempty incidence, numerical cutoff, or
-quotient comparison. Each Result review is limited to its stated proof scope.
+Independent reconstruction accepted STCI-R-0037–0039 under their stated hypotheses: relative generation and base change, full Hilbert limits in all characteristics, nilpotence and generic length with embedded boundary, split-torus character lifting, and the height-two generator criterion with its module-regularity and fiber qualifications. It supplies **no** uniform \(N\), numerical cutoff, classification, nonempty incidence, or quotient comparison. A separate review accepted invariant-supported-CI route R-0040 after trace result R-0042; it is not an arbitrary-pair reduction.
 
-The additional section "Invariant supported complete intersections" and its
-composite route for STCI-R-0040 received separate independent reconstruction
-review after the trace proof R-0042 was reviewed. That decision checked the
-unchanged ideal and ordinary degrees, properness, sole support, and the exact
-characteristic conclusion. It uses no computation and supplies no arbitrary-pair
-reduction. The Argument is complete as an exposition.
+The original [Hilbert-boundary exposition](equations/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary), [attracting-locus formulation](https://github.com/markluxton1/STCI/blob/b3db4bfcc4b70d85a13ff1862b2a81a553f78b39/research/synthesis/torus_attracting_strata_and_generator_incidence.md), and [positive-movement proof](torus/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier) remain distinct sources. Open questions live in [F-0001](../frameworks/torus-supported-boundaries/index.md#directional-loci), [I-0001](../investigations/supported-generator-incidence/index.md#question), and [I-0002](../investigations/quotient-hilbert-comparison/index.md#question).
 
-Source support for the direct sections is the
-[Hilbert-boundary account](equations/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
-the
-[original attracting-locus formulation](https://github.com/markluxton1/STCI/blob/b3db4bfcc4b70d85a13ff1862b2a81a553f78b39/research/synthesis/torus_attracting_strata_and_generator_incidence.md),
-and the eigenvector-lifting paragraph of
-[positive movement](torus/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
-The first source records an October 31 scope review, and the third records a separate review of its proof and characteristic extensions. Those reviews are distinct from this reconstruction review. The first source's surrounding trace obstruction
-has characteristic-zero framing; the bounded geometric proof here
-works in every characteristic, with that scope explicitly included
-in the reconstruction review. The research questions of the attracting-locus
-source now live in [F-0001](../frameworks/torus-supported-boundaries/index.md#directional-loci),
-[I-0001](../investigations/supported-generator-incidence/index.md#question),
-and [I-0002](../investigations/quotient-hilbert-comparison/index.md#question).
