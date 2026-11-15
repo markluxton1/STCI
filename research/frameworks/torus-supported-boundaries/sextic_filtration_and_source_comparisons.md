@@ -41,32 +41,16 @@ parameter on the curve itself.
 
 <a id="4-the-hilbert-scheme-limit-remembers-relations-between-equations"></a>
 
-For the proper \((6,6)\) example R-0046, write the moving ideal as
-\((q^3+h^5a_6,b_4q)\) with \(a_6=x_0^2x_3(x_0^2x_2-x_1^3)\) and
-\(b_4=x_0^3x_2\). The two original displayed maximal-weight initials
-coincide. After the first equation cancellation, a lifted syzygy divided
-by \(h^5\) yields \(a_6b_4\). The Hilbert–Burch proof gives the entire
-flat, contracted family, with full saturated special ideal
+The proper \((6,6)\) example [R-0046](../../results/sextic_three_generator_full_limit.md) demonstrates why the full saturated Hilbert limit cannot be reconstructed from the two displayed weight initials. After cancellation and syzygy lifting, its special ideal is
 \[
- J_+=(q^3,b_4q,a_6b_4).
+J_+=(q^3,b_4q,a_6b_4),\qquad
+a_6=x_0^2x_3(x_0^2x_2-x_1^3),\quad b_4=x_0^3x_2.
 \]
-It is ACM with minimal generators of degrees \(6,6,10\) and syzygies of
-degrees \(10,12\). The degree-ten terms cancel in the Hilbert series, so
-both fibers have the CI Hilbert polynomial \(36d-144\).
-[Full family, flatness, saturation and resolution](../../arguments/torus_sextic_residuals.md#the-saturated-three-generator-full-limit).
+It is ACM, with generator degrees \(6,6,10\), syzygy degrees \(10,12\), and the preserved complete-intersection Hilbert polynomial \(36d-144\). The [full proof](../../arguments/torus_sextic_residuals.md#the-saturated-three-generator-full-limit) establishes the flat contracted family, saturation, and resolution. The example has residual support: it is **not** a sole-support sextic pair.
 
 <a id="41-how-the-boundary-cycle-changes-in-the-full-limit"></a>
 
-On the coordinate torus, both fibers reduce to \((q,x_0^2x_2-x_1^3)\) and
-the transverse quotient is \(k\). The projective residual has degree
-\(32\) in both fibers, and its cycle changes when the irreducible plane
-cubic \(T=V(x_2,x_0x_3^2-x_1^3)\) specializes to the coordinate-line
-cycle \([L_{13}]+2[L_{01}]\). Neither fiber has embedded associated
-components. The explicit chart ideals show the endpoint scheme change
-before and after specialization. The sole-support incidence in Part III
-uses a separate preservation argument and moving generator test.
-[Exact cycles and both chart ideals](../../arguments/torus_sextic_residuals.md#cycles-and-endpoint-schemes-of-the-three-generator-limit) ·
-[Scope of R-0046](../../results/sextic_three_generator_full_limit.md#statement).
+Both fibers have residual degree \(32\), but the plane cubic \(V(x_2,x_0x_3^2-x_1^3)\) specializes to the cycle \([L_{13}]+2[L_{01}]\). Neither fiber has embedded associated components. The [exact cycle and endpoint-scheme proof](../../arguments/torus_sextic_residuals.md#cycles-and-endpoint-schemes-of-the-three-generator-limit) retains the local charts and multiplicities; the generic torus quotient is \(k\). This residual-cycle change is distinct from the separate sole-support incidence argument.
 
 ### Supplementary sextic source spaces and pencils
 
