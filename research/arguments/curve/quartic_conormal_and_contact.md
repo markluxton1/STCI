@@ -556,8 +556,7 @@ incidence problems and their different scheme lengths are consistent.
 
 ## Characteristic reach and mathematical status
 
-The residual-pair flag equation is defined over the integers and remains a smooth threefold in characteristic two. The characteristic-zero product construction here divides by two; in characteristic two the conormal surface is \(\mathbf F_2\) and its map to the reduced dual is inseparable, so it is not that dual's normalization. Ordinary derivatives in the third/fourth contact calculations must not replace Hasse jets in small characteristic. The exact equalizer of residual swap remains meaningful scheme-theoretically and becomes a double line in characteristic two; [the flag proof](quartic_dual_flags_and_bitangents.md) treats that degeneration. The exact statement is in [R-0026](../../results/quartic_flag_conormal_geometry.md); the identities are marked-incidence geometry, not an STCI exclusion.
-
+The integral residual-pair flag equation remains a smooth threefold in characteristic two. The characteristic-zero product model divides by \(2\); in characteristic two the conormal surface is \(\mathbf F_2\) and maps **inseparably** to the reduced dual, not as its normalization. Small-characteristic third/fourth contact requires Hasse jets, not ordinary derivatives. The residual-swap equalizer remains scheme-theoretic and becomes a double line in characteristic two; see [the flag proof](quartic_dual_flags_and_bitangents.md) and [R-0026](../../results/quartic_flag_conormal_geometry.md). This is marked-incidence geometry, not an STCI exclusion.
 
 ## Equal endpoint lengths do not identify two contact schemes
 
