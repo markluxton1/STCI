@@ -1372,18 +1372,7 @@ relation before the empty stage, so (I) is not their exclusion.
 
 ### Disposition and remaining scope
 
-The main theorem, the generalized criterion, equation (3a)/(G), and the
-finite-cutoff/gap consequences (H)--(I) pass this audit. The owner
-incorporated the smooth-root connectedness, whole-curve normalization,
-and direct plane-adjunction clarifications during review. These clarify
-existing valid steps rather than repair a counterexample.
-
-This result excludes infinite embedded smooth movement-two formal
-first-principal-ideal lifts. It gives neither an explicit N nor a claim
-that K_1 or K_2 is empty. It does not apply automatically to singular or
-nonreduced roots, coefficient base points, unsaturated first relations,
-or actual complete intersections outside the accepted bridge. It does
-not settle the unrestricted C0 or universal STCI problem.
+The theorem, generalized criterion, (3a)/(G), and finite-cutoff/gap consequences (H)–(I) passed review after clarifying smooth-root connectedness, whole-curve normalization, and plane adjunction. They exclude infinite embedded smooth movement-two formal first-principal-ideal lifts, **not** finite stages \(K_1,K_2\) or all actual CIs. No explicit cutoff \(N\) is obtained. Singular/nonreduced roots, coefficient base points, unsaturated first relations, and CIs outside the accepted bridge remain unaddressed; unrestricted STCI remains open.
 
 ---
 
