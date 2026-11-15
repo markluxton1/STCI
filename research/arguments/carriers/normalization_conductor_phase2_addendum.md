@@ -408,25 +408,13 @@ Accordingly, a remaining actual pair under these hypotheses must exhibit **eithe
 
 ## Exact failed seed: the row also kills the free lift
 
-The smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven quadratic-symbol image equations. Its compatible first cubic correction is
+For the smooth torsion-two seed
 \[
-G_0=(z/8)u^2v-(3/4)uv^2+(z/8)v^3.
+f_0=(z^2+4)u^2+(z^2-8)v^2,\quad
+\alpha_0=z^8-8z^6+96z^4+256z^2+1024,
+\quad G_0=(z/8)u^2v-\tfrac34uv^2+(z/8)v^3,
 \]
-Use target coordinates \(P_0,\ldots,P_{10},Q_0,\ldots,Q_{10},R_0,\ldots,R_{10}\), followed by \(T_{i,j}\), the coefficient of \(z^ju^{3-i}v^i\). The source's exact annihilating row is
-\[
-\begin{aligned}
-&P_4+64P_8-192P_{10}+Q_5-16Q_7\\
-&+3T_{0,0}-12T_{0,2}+48T_{0,4}-192T_{0,6}+768T_{0,8}\\
-&-2T_{1,1}+8T_{1,3}-32T_{1,5}+128T_{1,7}-512T_{1,9}.
-\end{aligned}
-\]
-It annihilates all 23 actual global sextic source columns and all sixteen correction columns, whereas its pairing with \((\alpha_0f_0,\alpha_0G_0)\) is −384. In particular, the free cubic direction is
-\[
-\tau=(u+zv/2)^3,
-\]
-and its row pairing is \(3-2(3/2)=0\). Thus the exact certificate excludes **every** global sextic lift for this fixed seed, including arbitrary additions of q³. It is not merely a test of one chosen lift. The independent consolidation review checked the saved exact source matrices as well as this coefficient calculation.
-
-The source system has 39 unknowns (23 actual sextic coefficients and sixteen correction coefficients), coefficient rank 39 and augmented rank 40. The full source matrices identify the coefficient conventions. The seed also fails the separately accepted second obstruction. Singular roots, all twenty-five second-obstruction pairings, spectral gluing, and the global mate problem remain for the full parameter incidence. [Exact inputs and replay](../spectral/rank_strata_and_sextic_lifts.md#9-reproduction-and-verification-limits), [independent linear-algebra review](../spectral/rank_strata_and_sextic_lifts.md#2-independent-linear-algebra-reconstruction).
+the multiplier \(\alpha_0\) is the unique projective solution of all eleven global quadratic-symbol equations. The [exact source and independent linear-algebra reconstruction](../spectral/rank_strata_and_sextic_lifts.md#2-independent-linear-algebra-reconstruction) give an annihilating row of the 23 global sextic columns and 16 correction columns, pairing to \(-384\) with \((\alpha_0f_0,\alpha_0G_0)\). The row also annihilates the free \(q^3\) cubic direction \((u+zv/2)^3\). Hence the 39-column coefficient system has rank 39 and augmented rank 40: **no global sextic lift exists for this seed, even after adding \(q^3\)**. The seed independently fails the second obstruction. This does not eliminate other roots, singular-root strata, or the global mate incidence. [Exact reproduction boundary](../spectral/rank_strata_and_sextic_lifts.md#9-reproduction-and-verification-limits).
 
 ## What the conditional (6,16) computation actually tests
 
