@@ -485,24 +485,9 @@ swap and the osculating action, even though they commute.
 
 ## 9. Verification and remaining review boundary
 
-The companion
-[scoped verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_quartic_flag_incidence_2026_10_24.py)
-checks only the new bilinear, resultant/Jacobian, quadruple-root fiber,
-contact, and group formulas, and explicitly labelled characteristic-two
-boundary identities for the synthesis. It does not rerun inherited group, conormal,
-or secant proofs. Its output is
-[recorded separately](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/computations/quartic_flag_incidence_2026_10_24.json).
-The intrinsic arguments above establish globality and completeness;
-finite symbolic checks alone do not do so. No new
-frontier exclusion is proposed. The smooth flag identification and these
-maps answer the fixed-embedding questions in this note; varying the
-projection center or classifying analytic singularities of the secant
-image are outside its claims.
-
-
+The [scoped verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_quartic_flag_incidence_2026_10_24.py) checks the new bilinear, resultant/Jacobian, quadruple-root, contact, group, and characteristic-two boundary identities; its [output](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/computations/quartic_flag_incidence_2026_10_24.json) is separate. It does not rerun inherited conormal, secant, or group proofs. Globality and completeness follow from the geometric arguments above, not finite checks. No STCI exclusion is claimed; varying projection centers and analytic secant-image singularities are outside scope.
 
 ---
-
 
 <a id="quartic-symmetric-square-bitangents"></a>
 
