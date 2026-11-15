@@ -494,29 +494,7 @@ Gorenstein duality supplies a degree-zero resultant for the second quotient rela
 
 ### D. Remaining obstacles
 
-1. **Nonsaturated first relation.** Determine the torsion and its
-   duality constraints when the first actual kernel is not a
-   subbundle. The exact early-layer identification used in A1 then
-   fails. The local proposal preserves an explicit nonsaturated
-   counterexample; saturation cannot simply be dropped.
-2. **Non-CI generic tangent algebra.** An actual transverse Artin CI
-   can have an ordinary initial ideal with three or more generators.
-   Its generic graded algebra need not be Gorenstein. The complementary
-   saturated-power duality in A1 then has no established symmetric
-   index formula.
-3. **Reduced roots and ambient lifting.** A1 provides graded/spectral
-   uniformity; it does not supply arbitrary embedded Cartier lifts of
-   a singular root in the actual blowup. Integral singular roots and
-   distinct-component roots require actual ambient obstruction data.
-4. **Exceptional support distribution.** The class `(A,B)` and its
-   slope budget do not determine higher contact along each direction.
-   A further global constraint on multiplicities is still missing.
-5. **Full-support normalization families.** The explicit degree-eight
-   exclusions have isolated inverse points. They do not compute phase
-   images for projections that actually satisfy the required full
-   singleton inverse support, or address all higher carriers.
-
-No shared singular point of arbitrary defining surfaces is assumed.
+The theorem does not cover a nonsaturated first relation (its torsion disrupts early-layer identification), a non-CI generic initial ideal (no established graded-Gorenstein symmetry), or ambient lifting and gluing of reduced singular roots. The exceptional cycle class does not determine directional higher contact. The degree-eight carrier examples have extra inverse points and do not address full-singleton-support projections. **No common singular point of arbitrary defining surfaces is assumed.**
 
 ### E. Recommended continuation and evidence checks
 
