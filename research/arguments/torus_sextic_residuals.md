@@ -868,30 +868,7 @@ question remains open.
 
 ## Review
 
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-on November 4, 2026 accepted all nine reconstructed proof routes,
-R-0042 through R-0050, within their stated hypotheses. The reviewer
-reconstructed the trace obstruction and arbitrary-mate reduction,
-integer-character quotient bound, local filtration and unit-factor
-length certificates, colon sequence, graph and divisor arguments,
-determinantal full-family proof, saturation, cycles and endpoint schemes.
-A separate sparse-polynomial implementation over the integers checked
-the generator change, three maximal minors, cancellation relation,
-Segre restrictions of a6 and b4, moving/absorption/special divisor
-factorizations, and original-cycle restrictions.
-
-This independent review accepted preservation of the core source
-§§1–4.1 controls and the primitive orbit-degree statement. The source's
-§§6–7 inherited investigations and the weight supplement's later
-attainment, extreme-component, and cancellation results remain outside
-this reconstructed proof closure. Review findings about the moved
-verifier link and R-0043's explicit sharpness premise were corrected.
-The geometric arguments use necessary exact algebra; the identity
-checks do not independently prove flatness, saturation, or coverage.
-No blanket classification as an intrinsic replacement proof is made.
-
-Independent acceptance covers the nine reconstructed routes within their stated scopes. It neither proves a deformation preserving sole support nor establishes an unrestricted characteristic-zero STCI theorem. The Argument's complete status
-records the completed exposition.
+Independent reconstruction accepted routes R-0042–R-0050 under their hypotheses: trace and arbitrary-mate reductions, integer-character quotient bound, local filtration/unit-factor lengths, colon sequence, graph/divisor arguments, full-family determinants, saturation, cycles, and endpoint schemes. Separate integer sparse-polynomial checks covered generator changes, three maximal minors, cancellation, Segre restrictions of \(a_6,b_4\), and moving/absorption/special-divisor factorizations. The source's core §§1–4.1 and primitive orbit-degree statement were preserved. Later attainment, extreme-component, and cancellation investigations are outside this proof closure. Finite identities alone do **not** prove flatness, saturation, or exhaustive coverage; no supported deformation or unrestricted characteristic-zero STCI follows.
 
 <a id="finite-replay-evidence"></a>
 
