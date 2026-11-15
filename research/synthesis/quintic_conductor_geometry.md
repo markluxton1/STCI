@@ -2192,7 +2192,7 @@ statement.
 
 Work over an algebraically closed field of characteristic zero. Use the
 actual intrinsic pair and nonendpoint sections in the
-[target-fiber reduction](#consolidated-historical-supplement-researchsupplementsnonendpoint_target_fibers_and_supportmd),
+[target-fiber reduction](#complete-actual-target-fiber-equations),
 Sections 1--3. That note is frozen during its separate audit; this is a
 new continuation beyond its explicitly open G=J=0 lead.
 
