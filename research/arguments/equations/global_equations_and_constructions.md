@@ -1111,732 +1111,161 @@ print "EXISTENCE_SOURCE_FIXED_INPUT_AND_NORMAL_GEOMETRY_EXACT_CHECKS_PASS";
 
 ## Consolidated historical supplement: `research/supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md`
 
+**Complete development: [extracted_affine_projective_and_literature_limits.md](extracted_affine_projective_and_literature_limits.md).** Original headings retained below for inbound-reference compatibility; the full mathematics is in the linked Argument.
+
 # Affine/projective scope and explicit literature counterchecks
 
-These proofs separate homogeneous projective equations from affine equations, a line-bundle condition on the curve from a divisor-class condition on a carrier, and an embedded lifting problem from a splitting claim. They preserve useful mathematical counterexamples from a bounded literature assessment. The precise preprint audit concerns **arXiv:2511.07589v1**, Theorem 4.2 Step 3 and the unrestricted Theorem 4.4 as formulated in that version; it is not a claim about an uninspected later revision. No counterexample below is asserted to settle projective STCI over an algebraically closed field.
-
-The established affine lci and projective bundle-section constructions, with theorem-level primary sources, are integrated in [the global-equations account](global_equations_and_constructions.md). The fixed quartic has an [explicit quartic-carrier construction in every positive characteristic](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier); that fact needs no unverified transfer from a broad affine theorem.
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ## What the positive-characteristic literature actually supplies
 
-Moh's [official abstract](https://doi.org/10.1090/S0002-9939-1985-0784166-1) states affirmative results for projective monomial curves in positive characteristic and, separately, for a curve admitting a birational linear plane projection with center **disjoint from the curve** and only cusps in its image. The bounded source assessment verified the publisher's indexed abstract, not the full proof, a theorem number or a generalized meaning of cusp. In particular it supplied no theorem asserting that every projective curve admits such a projection. The internal cuspidal projection in [the rational-quartic construction](../arithmetic/rational_quartics_in_positive_characteristic.md) is instead justified by its own full proof.
-
-The earlier Barile–Morales–Thoma [2000 publisher abstract](https://doi.org/10.1006/jabr.1999.8195) states a constructive positive-characteristic STCI theorem for simplicial affine or projective toric varieties **with full parametrization**. Neither hypothesis may be discarded; the abstract-level assessment did not verify the detailed definition needed for a new application. The direct fixed-quartic application in [the construction chapter](../arithmetic/positive_characteristic_constructions.md) uses the independently verified 2002 article instead.
- The same 2000 abstract separately reports weaker almost-STCI results in arbitrary characteristic; those statements are not converted here into STCI assertions or results for arbitrary projective curves.
-
-Published Mandal–Zinna papers and the audited preprint have distinct scopes. The [J. Algebra 690 (2026), 101–113 abstract](https://doi.org/10.1016/j.jalgebra.2025.10.042) concerns affine threefolds over characteristic-zero C1 fields, with trivial conormal and a torsion Grothendieck-class hypothesis. The separate [J. Algebra 693 (2026), 36–53 abstract](https://doi.org/10.1016/j.jalgebra.2025.12.026) concerns a conditional smooth-affine-surface result over the algebraic closure of a finite field, again with trivial conormal and a torsion Grothendieck-class hypothesis. These abstract-level scope assessments do not establish any projective transfer. The counterchecks below address specific displayed claims and proof steps of arXiv:2511.07589v1; they do not conflate those claims with either published conditional theorem.
-
-Cowsik–Nori, *Affine curves in characteristic p are set theoretic complete intersections*, Invent. Math. 45 (1978), 111–114, is the classical affine statement: a pure affine curve in affine n-space in positive characteristic is set-theoretically cut out by n−1 equations. The inherited assessment verified the [publisher record](https://doi.org/10.1007/BF01390268); it did not inspect the full proof. This recorded affine scope is not a projective or homogeneous-cone theorem. Applying an affine-surface lci theorem to the two-dimensional cone over a projective curve requires lci at the cone vertex, which is exactly the failure isolated by the next proof. A same-support affine pair also need not be homogeneous or have the required support at infinity. A search that fails to locate a universal projective theorem is not itself proof of its absence.
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ## The lci affine-surface theorem and its missing cone hypothesis
 
-Das, *On a conjecture of Murthy*, Adv. Math. 331 (2018), 326–338, [Theorem 4.2 in the author manuscript](https://oldweb.isical.ac.in/~mrinal/Murthy_CI_v2.pdf), proves that a height-\(d-2\) locally complete-intersection ideal in \(\overline{\mathbf F}_p[X_1,\ldots,X_d]\), \(d\ge4\), is an STCI. Theorem 4.1 first constructs a same-support lci thickening with free conormal; at \(d=4\) the proof produces a rank-two projective module and uses Quillen–Suslin to make it free. The primary statement and this proof structure were checked in the inherited source assessment. This is an affine-space theorem with an lci hypothesis, not an assertion for arbitrary projective curves or arbitrary singular cones. [Publisher record](https://doi.org/10.1016/j.aim.2018.04.012).
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ## Exact obstruction to applying affine surface theorems to the cone
 
-This is proved here and needs no literature extension.
-
-Let `S=k[x0,x1,x2,x3]`, let `m=(x0,x1,x2,x3)`, and let `I` be the homogeneous prime ideal of an integral projective curve. If `I_m` is lci, it has two minimal generators because its height is two in the regular local ring `S_m`. The minimal number of generators equals
-
-`dim_k(I/mI)`.
-
-This is also the number of minimal homogeneous generators of `I`. Hence `I` has two homogeneous generators, so the projective curve is already a scheme-theoretic complete intersection. Thus the affine cone of every projective curve that is not a scheme-theoretic CI fails the lci hypothesis at the vertex. Smoothness of the projective curve does not fix this failure. For example, the twisted cubic is smooth, but its cone ideal has three quadratic minimal generators.
-
-Even an affine same-support pair need not be homogeneous. A further argument is required to supply two homogeneous equations or to control the hyperplane at infinity.
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ## Exact audit of arXiv:2511.07589v1, Step 3
 
-The source location is Theorem 4.2, Step 3, displayed sequence following equation (1); in the browser HTML it is lines 343--350. The problem is the substitution of `J/(c)` for the actual tensor quotient `J/cJ`.
-
-Test the claimed operation on a complete intersection, over any field:
-
-```
-A = k[x,y,z],       J = (x,y),       c = x,
-P = A^2,
-f(1) = (-y,x),      g(a,b) = ax+by.
-```
-
-The sequence `0 -> A -> P -> J -> 0` is exact. Put `B=A/(x)=k[y,z]`. The preprint's proposed sequence with last term `J/(x)` becomes
-
-```
-B -> B^2 -> (y) -> 0,
-t |-> (-yt,0),       (a,b) |-> by.
-```
-
-Its middle kernel is `B(1,0)`, while the preceding image is `yB(1,0)`. The middle homology is `B/(y)`, which is nonzero. Therefore that displayed sequence is not exact, even for this simplest CI ideal.
-
-The actual tensor quotient has an extra torsion summand:
-
-`J/xJ = (x,y)/(x^2,xy)`,
-
-and the class of `x` is nonzero but annihilated by `y`. The natural quotient from `J/xJ` to `J/(x)` kills this summand. If the paper's notation `J/(c)` were instead interpreted as `J/cJ`, its assertion that this module is locally free of rank one would fail in the same example. Neither interpretation repairs the splitting step.
-
-This is an exact algebraic countercheck of the proof, not an argument from parallel agreement or from the theorem's surprising breadth.
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ## Independent refutation of the unrestricted CI claim
 
-This elementary example is proved here; it is outside the user's algebraically closed-field setting and is used solely to test the preprint's explicit *arbitrary Noetherian ring* claim.
-
-Let
-
-`A = R[x,y,z]/(x^2+y^2+z^2-1)` and `I=(x,y,z-1)`.
-
-The algebra is a smooth two-dimensional real affine algebra, and `I` is the maximal ideal at the north pole. It is lci of height two. In `I/I^2`, the sphere equation gives `2(z-1)=0`, so `I/I^2` has basis the classes of `x,y` and is free of rank two over `A/I=R`.
-
-Suppose `I=(f,g)`. On the real sphere `S^2`, the smooth map `F=(f,g):S^2 -> R^2` then has exactly one zero, the north pole. Since the two generators give a basis of `I/I^2`, its derivative at this zero is invertible, so the local winding number is `+1` or `-1`.
-
-Here is a direct contradiction without invoking an Euler-class computation. On `R^2 \ {0}`, the form
-
-`alpha = (u dv-v du)/(u^2+v^2)`
-
-is closed. Remove a small disk around the north pole from `S^2`; `F^*alpha` is a smooth closed form on the remaining compact surface. Stokes's theorem forces its integral on the boundary to be zero. The invertible derivative forces that same integral to be `+2*pi` or `-2*pi`. Thus `I` cannot have two generators. It is lci with free conormal but is not a CI.
-
-This disproves the preprint's unrestricted Theorem 4.4. It does not give a counterexample to projective STCI over an algebraically closed field.
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ## Why finite-field torsion does not settle the projective problem
 
-Hartshorne--Polini, *Divisor class groups of singular surfaces*, [primary arXiv full text](https://arxiv.org/html/1301.3222), Proposition 7.1: if a curve meets the singular locus of its carrier surface only finitely, it is STCI on that surface precisely when `r[C]=m[H]` in `APic(X)` for positive integers `r,m`.
-
-An elementary fixed-carrier counterexample to an overbroad torsion inference is a ruling line `L` on a smooth quadric `Q=P^1 x P^1`, over `Fpbar` or any algebraically closed field. Here `Pic^0(Q)=0`, `Pic(Q)=Z^2`, `[H]=(1,1)`, and `[L]=(1,0)`. There are no positive `r,m` with `r(1,0)=m(1,1)`. Thus `L` is not STCI on this chosen quadric, despite complete torsion of `Pic^0(Q)`. Of course the line is STCI in the ambient `P^3` using two planes. The example isolates the gap: finding a suitable carrier with the required full divisor-class relation remains additional work.
-
-Kollar--Lieblich--Olsson--Sawin, *The Zariski topology, linear systems, and algebraic varieties*, [authors' book PDF](https://williamsawin.com/ReconstructionBook.pdf), Definition 7.1.1 and Theorem 7.1.10, prove that over a locally finite perfect field every irreducible curve has SCIP. In that terminology SCIP means that every finite closed subset of the curve can be obtained by intersecting the curve with an ambient effective divisor. It does not mean that the curve is the intersection of two ambient surfaces. The finite-field torsion used there concerns line bundles on the curve and cutting finite subsets. This theorem therefore supplies no hidden affirmative answer to the user's projective space-curve problem.
-
-
-The tensor-quotient countercheck is an exact algebraic calculation in every characteristic. The real-sphere counterexample uses real topology and tests only the arbitrary-Noetherian-ring CI assertion. The fixed-quadric Picard obstruction holds over every algebraically closed field. These scopes remain distinct from each other and from the open fixed-quartic characteristic-zero question.
-
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ## The failed unique-prime inference in arXiv:2209.04489v1
 
-Vahap Erdoğdu, *Radically finite rings and space curves*,
-<https://arxiv.org/abs/2209.04489>, v1 submitted 2022-09-09, has no later version
-in the inspected arXiv history. Its abstract and Corollary 4.4 assert that space
-curves are not always STCI. The full proof is directly accessible at
-<https://arxiv.org/html/2209.04489>, section 4, Theorem 4.3 and Corollary 4.4.
-The corollary concerns the affine polynomial ring in three variables; it is not
-an explicit integral projective-curve construction.
-
-The theorem's argument first establishes a unique maximal ideal above an ideal
-generated by two elements, then tries to establish that it is the unique
-**prime** ideal above that ideal. The decisive inference is that a contraction
-which is a G-ideal makes the prime above it maximal. The G-ideal condition gives
-the existence of a maximal ideal with that contraction; it does not identify
-every prime above the contraction with that maximal ideal.
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ### An elementary counterexample to that exact inference — PROVED HERE
 
-Let k be any field and
-
-\[
-R=k[x,y]_{(x,y)},\qquad A=R[T].
-\]
-
-Then R is a finite-character UFD of dimension two: it is local, with unique
-maximal ideal M=(x,y). In the displayed construction in the proof choose
-
-\[
-\Pi_1=x,\quad \Pi_2=y,\quad z=1-y,\quad f=T,
-\quad g=y+(1-y)T.
-\]
-
-These choices satisfy every relation used there, including \(\Pi_2+z=1\).
-The element 1-y is a unit of R. Consequently
-
-\[
-P^*=(x,g)\subset A
-\]
-
-is prime, because elimination of T gives
-
-\[
-A/P^*\simeq R/(x)\simeq k[y]_{(y)},\qquad
-T\longmapsto-\frac{y}{1-y}.
-\]
-
-It has height two. It is properly contained in the height-three maximal ideal
-
-\[
-M^*=(x,y,T).
-\]
-
-For example y is nonzero in the displayed quotient, so y is not in P*. Since
-P* is already prime,
-
-\[
-\sqrt{(\Pi_1,g)}=P^*\ne M^*.
-\]
-
-At the same time the quotient is local, so M* **is** its unique maximal ideal;
-the paper's intermediate statement about the intersection of maximal ideals
-holds in this example. This isolates the exact failure: a unique maximal ideal
-does not make the smaller defining prime maximal. No appeal to computation is
-needed.
-
-The contraction \(P^*\cap R=(x)\) also satisfies the existential property of a
-G-ideal used in the paper: the distinct maximal ideal
-\((x,yT-1)\) of A contracts to (x), with quotient k(y). That existence does not
-change the nonmaximal prime P* above the same contraction.
-
-**Scope.** This disproves a particular implication in the proof, so the
-negative-resolution corollary is unsupported by that proof. It does not prove
-that every affine space curve is STCI, or that the theorem's whole statement is
-false under every possible interpretation of “radically finite.” Searches did
-not find a correction or a refereed replacement proof.
-
-
+[Full mathematical section](extracted_affine_projective_and_literature_limits.md).
 
 ## Consolidated historical supplement: `research/supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md`
 
+**Complete development: [extracted_foundational_frontier_and_incidence.md](extracted_foundational_frontier_and_incidence.md).** Original headings retained below for inbound-reference compatibility; the full mathematics is in the linked Argument.
+
 # Quadric powers, normal directions and incidence controls
 
-Consolidated research material, including open questions and source assessments.
-
----
-
-<a id="2026-10-05-foundational-frontier-audit"></a>
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ## Independent foundational audit and strategic boundaries
 
-Date: 2026-10-05. Scope: P-029, P-035, the uniform smooth-quadric power
-algebra, and the positive-characteristic constructions P-012/P-014/P-028.
-This is an independent proof audit; it does not resolve the unrestricted STCI
-problem. The dedicated positive-characteristic audit and fixed-carrier
-refinement are recorded separately in
-`2026-10-05-positive-quartic-carrier-optimality.md`.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### Audit outcomes
 
-| Claim | Outcome | Essential boundary |
-| --- | --- | --- |
-| P-029, complement morphism | Verified | The complement has codimension two, and the curve is integral; a nonconstant map really has positive pullback degree. |
-| P-035, graded Gorenstein thickening | Verified | Graded Gorenstein includes Cohen--Macaulayness; local Gorensteinness alone is insufficient. |
-| Smooth-quadric power equality | Verified | The explicit multiplication/lifting argument is necessary; sheaf exactness alone would not establish saturation. |
-| P-012/P-014, positive characteristic | No mathematical gap found in dedicated independent audit | Covers smooth rational quartics and the specified cuspidal carriers, rather than arbitrary projective curves. |
-| P-028, explicit quartic cone | Verified and sharpened | A new exact mate-degree minimum is available on this fixed carrier; it is a carrier-specific result. |
-| Broad ACM literature assertion | Source scope unresolved | The original source inspected proves the monomial ACM class. A broad modern survey statement does not reconstruct that broader original proof. |
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 1. P-029: the complement morphism equivalence survives audit
 
-The October 5 audit verified [P-029 and its Rees graph calculation](#p-029-complement-morphisms-and-two-generated-positive-line-bundles).
-It checked the codimension-two class group and section extension, the
-positivity of the degree of a nonconstant morphism and the height-two
-argument. Integrality is used in the final support argument. For a
-reducible curve, one would also need to show that the base locus meets
-every component in dimension one. Regular functions on the complement are
-constant. The morphism to \(\mathbf P^1\) requires a generating pencil and
-recovers the original homogeneous base-locus condition. For the equal-degree
-regular-sequence presentation, linear type gives the single graph equation
-\(uG-vF=0\).
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 2. P-035: the homogeneous primary/Gorenstein criterion survives audit
 
-The October 5 audit verified the
-[primary and graded Gorenstein criterion](#p-035-arithmetically-gorenstein-thickening-criterion).
-The vertex already belongs to the affine cone, and unmixedness of the
-complete intersection then gives a primary ideal. The audit checked the
-type calculation by dualizing the minimal Hilbert–Burch resolution.
-The last free module has rank \(\mu(J)-1\), which gives the number of
-minimal canonical-module generators.
-
-For an lci projective thickening \(X\), the equivalent condition combines
-\(\omega_X\simeq\mathcal O_X(t)\) with \(H^1(\mathbf P^3,\mathcal I_X(n))=0\)
-for every \(n\). A transverse Gorenstein algebra or a subcanonical
-multiple structure leaves the Rao module to be checked.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 3. The smooth-quadric ordinary/symbolic power theorem survives audit
 
-The October 5 audit verified the [smooth-quadric power proof](../normal-geometry/formal-normal-intersection.md#12-ordinary-ideal-powers-on-a-smooth-quadric-complete-proof)
-for integral Cartier divisors of positive bidegrees, including singular
-curves. It checked the local colon identity, ordinary homogeneous lifting
-by binary monomial products in every characteristic, and exclusion of an
-embedded vertex prime by saturation.
-
-The verifier `computations/verify_quadric_powers.m2` passed under
-`/opt/homebrew/bin/M2 --script`, checking \(C_0\) through \(m=6\) and two
-other quadric divisors through \(m=4\). The finite checks corroborate the
-uniform proof. The checked \(C_0\) power quotients remain non-Cohen–Macaulay.
-The dimension-three local Cowsik criterion has different hypotheses from
-those for the dimension-four homogeneous coordinate ring.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 4. P-012/P-014: positive-characteristic hinge audit
 
-The dedicated worker audited P-012 and P-014 without changing their proofs;
-the parent then reread both complete arguments. No gap was found.
-
-For P-012, separable degree-three ruling maps have different of degree four
-by Riemann--Hurwitz, including wild characteristic two. A ramified fiber
-therefore has shape 2R+P or 3R. Inseparable degree three can occur only in
-characteristic three and supplies 3R directly. The projection center removes
-exactly one base point: smooth immersion supplies a hyperplane vanishing to
-order one there, and hyperplanes separate every other point from the center.
-The residual linear system is consequently basepoint-free of degree three.
-Its image is not a line, so its map to a plane cubic is birational.
-
-The singleton nonimmersive fiber over R was checked separately in both
-ramification cases. For triple contact, the local coefficient v2 is in the
-span of v1, which makes the projected derivative vanish in every
-characteristic. The plane cubic's total delta-invariant is one, so this
-unibranch singularity uses the whole singularity budget. The characteristic
-three alpha term in the cusp normal form is essential; for 3 nonzero the
-coordinate substitution removes it, including in characteristic two.
-
-The weighted cubic-cone normalization is finite and birational with singleton
-geometric fibers, hence a universal homeomorphism. Since h(P) is nonzero,
-the graph equation lz-h is irreducible. Its weighted closure includes exactly
-the vertex over the projection center. All binary coefficients of its
-3p-th power descend in the standard cusp case, because the only missing
-binary exponent is one and every exponent is divisible by p. In the
-nonclassical characteristic-three case, the explicit s9,t9 identities give
-the needed descent. These checks yield the homogeneous degree-(3,4p) pair.
-
-P-014's repaired three-case necessity argument was also checked: when l is a
-multiple of t, smooth immersion forces the st3 coefficient of h to be
-nonzero. It is the z^(N-1) coefficient that exposes the missing semigroup
-monomial in that case. In the nonclassical cusp, the single top-coefficient
-relation cuts the binary section space by codimension one; the degree-piece
-dimension verifies sufficiency, and it excludes exponents three and six
-while allowing nine. The minima are carrier-specific.
-
-The positive-quartic descent verifier uses SymPy. None of the arguments imports a degree bound uniform in characteristic, and no characteristic-zero specialization is implied.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 5. Source audit: the broad ACM assertion should remain qualified
 
-The author's uploaded original Robbiano--Valla article
-*On set-theoretic complete intersections in the projective space* (1983),
-DOI [10.1007/BF02924906](https://doi.org/10.1007/BF02924906), was inspected at
-[the author full text](https://www.researchgate.net/publication/225984491_On_set-theoretic_complete_intersections_in_the_projective_space).
-Its introduction distinguishes positive-characteristic monomial curves
-from characteristic-zero monomial projectively Cohen--Macaulay curves.
-Section 4 fixes a monomial parametrization before Proposition 2 asserts the
-ACM-to-STCI implication. Thus that proposition cannot be quoted for an
-arbitrary ACM space curve.
-
-[D'Cruz's Theorem 2.7](https://arxiv.org/html/2003.09101v1) does literally
-state the broader implication and cites Robbiano--Valla and
-Stueckrad--Vogel. The full original LNM 997 chapter and the cited
-Stueckrad--Vogel proof were not recovered. This audit therefore does not
-claim the broad assertion false. It does establish that the main report's
-unqualified attribution is stronger than the original proof inspected here.
-Until the missing original proof scope is checked, use the modern statement
-with an explicit source qualification, or restrict the proved positive class
-to ACM monomial space curves. No result in this audit depends on the broader
-assertion.
-
-The current-open-status source
-[Hartshorne--Polini](https://arxiv.org/html/1907.05472v1) was checked freshly
-and retains the general question. A retrieval attempt for the 2026 Murayama
-notes returned an internal browsing error, so this audit does not claim a
-fresh full-text verification of those notes. The repository's previous
-dated verification remains separate evidence.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 6. Exact fixed-carrier improvement and continuation recommendation
 
-For P-028's quartic cone, the dedicated audit derives the full allowable
-mate-degree set in characteristic p, with the resulting minimum:
-
-    p=2: 4 divides N, minimum 4;
-    p=3: 3 divides N, minimum 3;
-    p=5: 25 divides N, minimum 25;
-    p>=7: p divides N, minimum p;
-    characteristic zero: no mate.
-
-The proof uses the finite birational weighted normalization
-
-    P(1,1,4) -> V(x0*x3^3-x2^4),
-    [s:t:z] -> [s^4:z:s*t^3:t^4].
-
-C0 pulls back to the single Cartier curve z-s^3*t=0. A degree-N mate must
-pull back to a scalar multiple of (z-s^3*t)^N. Lucas's theorem singles out
-the coefficient indexed by p^(v_p(N)); its membership in the normalization
-subring is equivalent to p^(v_p(N)) belonging to the semigroup <3,4>.
-The separate note supplies the complete proof and exact small-prime controls.
-This is an internal proof, with no novelty claim; the characteristic-zero
-carrier exclusion also overlaps Thoma's broader one-binomial-carrier
-theorem.
-
-An adversarial second proof audit checked the weighted normalization in
-all characteristics, the implication from projective support to the single
-affine polynomial factor, the nonzero coefficient of z^(N-r), and both
-directions of the semigroup criterion. It found no gap. In particular,
-arbitrary non-binomial mates are covered by the pullback argument.
-
-The most useful broad organizing condition remains P-035: every proposed
-local structure must eventually supply global ACMness and homogeneous
-Gorensteinness. For the rational quartic, use the verified arbitrary-order
-quadric power algebra to parameterize equations, while retaining all higher
-jets and vertical defects. Leading forms, a finite pole-stratum list, or a
-local Gorenstein fiber cannot supply that final global test. The new fixed
-cone result is a rigorous positive-characteristic control for any proposed
-uniform obstruction.
-
-
----
-
-<a id="2026-10-05-literature-new-routes"></a>
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ## Literature refresh and a uniform quadric-curve power algebra
 
-Date: 2026-10-05. This note is independent of the shared ledgers. It records
-source scopes, a newly reconstructed uniform lemma, reproducible checks, and
-the limits of the resulting route. No unrestricted STCI conclusion is claimed.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 1. Literature status and genuinely stronger existing exclusions
 
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
+
 #### General problem and the Macaulay quartic
 
-The checked primary sources still retain the general connected/integral
-projective-space-curve problem and the characteristic-zero Macaulay quartic
-as open. In particular, Takumi Murayama's 2026 MA665 notes explicitly retain
-the Macaulay curve as an open example:
-<https://www.math.purdue.edu/~murayama/ma665.pdf>.
-The intended parametrization is the usual quartic; the repeated final `s^4`
-in the displayed four-dimensional linear system is a typographical error.
-The 2019 Hartshorne--Polini primary paper remains useful for its actual
-coregularity criteria:
-<https://arxiv.org/html/1907.05472v1>.
-A search on 2026-10-05 found no subsequent unrestricted resolution. This is
-a dated search conclusion, not a proof of absence of unindexed work.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 #### Mandal--Zinna: version and affine scope checked again
 
-<https://arxiv.org/abs/2511.07589> still lists only v1, submitted 2025-11-10,
-and no journal reference. Its abstract asserts a broad theorem for lci
-height-two ideals in rings of dimension three. It is distinct from the
-published conditional theorem in Journal of Algebra 690 (2026), 101--113,
-DOI <https://doi.org/10.1016/j.jalgebra.2025.10.042>.
-The published result requires an affine algebra over a characteristic-zero
-C1 field, free conormal module, and torsion Grothendieck-group class; its
-ring-level variant assumes freeness of stably free rank-three modules.
-Neither theorem controls projective infinity, and the homogeneous coordinate
-ring has dimension four. No projective transfer is inferred.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 #### Thoma's ONE-binomial-carrier theorem
 
-A stronger classical exclusion than the ledger's two-binomial-equation
-warning is available. Apostolos Thoma, *Monomial Space Curves in P3_k as
-Binomial Set Theoretic Complete Intersections*, Proceedings AMS 107 (1989),
-55--61, DOI <https://doi.org/10.1090/S0002-9939-1989-0976361-7>, Theorem 3.1,
-proves in characteristic zero that a smooth monomial space curve other than
-the twisted cubic cannot be an STCI on any binomial carrier. Here the mate
-is allowed to be an arbitrary homogeneous polynomial. Thus BOTH carriers of
-any characteristic-zero pair for C0 must be nonbinomial.
-
-The original article, uploaded by its author, was checked at
-<https://www.researchgate.net/publication/303334542_Monomial_space_curves_in_as_binomial_set_theoretic_complete_intersections>;
-its institutional record is
-<https://olympias.lib.uoi.gr/jspui/handle/123456789/13047>.
-The official AMS PDF returned HTTP 403 through the browsing tool, so the
-original author-uploaded theorem is the checked full-text evidence.
-
-A useful limitation: torus degeneration does not extend this theorem to
-arbitrary carriers. A flat limit of a complete-intersection thickening need
-not remain a two-generated complete intersection; extra initial generators
-and/or common factors of the two initial forms can appear. Properness of a
-Hilbert scheme does not make its complete-intersection locus proper.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 #### The broad ACM assertion deserves source-level qualification
 
-Clare D'Cruz, arXiv:2003.09101v1, Theorem 2.7 literally states the broad ACM
-space-curve assertion used by the repository:
-<https://arxiv.org/html/2003.09101v1>.
-Thoma's 1993 primary preprint also lists the assertion, but in a discussion
-restricted to monomial curves:
-<https://archive.mpim-bonn.mpg.de/948/1/preprint_1993_86.pdf>.
-The original Robbiano--Valla chapter was not accessible in full through the
-publisher. Thoma's 1989 original introduction explicitly attributes to them
-ACM **monomial** space curves. These facts do not disprove the broader
-statement, but the original-proof scope has not been reconstructed in this
-lane. The safe record is that a modern survey states it, while the original
-monomial source chain is narrower. None of the mathematics below uses the
-broad assertion.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 #### A recent discrepancy invariant does not solve this support problem
 
-Bengus-Lasnier--Rangachev, *The Complete Intersection Discrepancy of a Curve I:
-Numerical Invariants*, arXiv:2504.09362v1:
-<https://arxiv.org/html/2504.09362v1>.
-Its residual-intersection formulas assume a containing complete intersection
-Z that agrees with X at the generic points of X. That hypothesis is exactly
-what fails for a nontrivial STCI thickening. For smooth C the local intrinsic
-discrepancy vanishes already, while a nonreduced CI supported on C may still
-have arbitrary generic multiplicity. Therefore the new invariant should not
-be imported as an obstruction to STCI support without a new nonreduced
-extension. The existing formulas are useful for residual curves, not an
-unconditional way around the thick-carrier frontier.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 2. Uniform theorem for integral curves on a smooth quadric
 
-**PROVED HERE; independent adversarial proof audit completed.** No novelty
-claim is made. The monomial special case is classical in Morales--Simis
-(1992), and the uniform geometric argument below is particularly convenient
-for nonmonomial and singular integral curves.
-
-Let k be algebraically closed, of arbitrary characteristic. Let
-Q = V_+(q) be a smooth quadric in P3, identified with P1 x P1, and let C be an
-integral divisor of class (a,b), with 1 <= a <= b. Let I be its saturated
-homogeneous prime ideal. Then, for every m >= 1,
-
-    I^m = (I^m)^sat = I^(m).
-
-In particular the symbolic Rees algebra is the ordinary, finitely generated
-Rees algebra. Smoothness of C is unnecessary: an integral divisor on the
-smooth surface Q is Cartier, and its embedding in P3 is locally a complete
-intersection away from the affine-cone vertex.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 #### Proof with the lifting step made explicit
 
-The [complete proof](../normal-geometry/formal-normal-intersection.md#12-ordinary-ideal-powers-on-a-smooth-quadric-complete-proof)
-establishes the colon identity locally and proves that the restriction
-sequence
-
-    0 -> script-I^(m-1)(d-2) --q--> script-I^m(d)
-      -> O_Q(d-am,d-bm) -> 0                         (1)
-
-is surjective on global sections by lifts in the ordinary power \(I^m\).
-For \(d\ge bm\) these lifts use products of degree-\(b\) equations
-\(T_0,\ldots,T_{b-a}\) of \(C\) and ambient degree-\((d-bm)\) forms.
-The \(T_i\) lift a basis of \(H^0(Q,\mathcal O_Q(b-a,0))\) multiplied by
-the Cartier section defining \(C\). For \(d<bm\) the quotient has
-no sections. The ruling-line case has the same ordinary and symbolic
-power equality because its ideal is generated by two linear forms.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 #### Literature connection
 
-Morales--Simis, *Symbolic powers of monomial curves in P3 lying on a quadric
-surface*, Communications in Algebra 20 (1992), 1109--1121,
-DOI <https://doi.org/10.1080/00927879208824394>, treats the monomial quadric
-case. A later original article explicitly recalls its Proposition 2.3 as
-normal torsion-freeness for a monomial curve on xy-wz:
-<https://citeseerx.ist.psu.edu/document?doi=7e63dd655dbc886de78bc22d6d0b3229da3ec6f0&repid=rep1&type=pdf>.
-The author publication list verifies the earlier paper:
-<https://www-fourier.univ-grenoble-alpes.fr/~morales/publications-web-Marcel-Morales2014.pdf>.
-The exact uniform scope of the 1992 proof was not read in full, so this note
-labels its general statement as proved by the linked argument, with
-classical overlap explicitly acknowledged.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 3. Consequences usable at arbitrary normal order
 
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
+
 #### Exact carrier lower bound and recursive spanning
 
-If F vanishes to normal order at least m along C and is not divisible by q,
-then deg F >= bm. At equality, F restricted to Q is a linear combination of
-m-fold products of the chosen T_i, modulo q I^(m-1).
-Every form of arbitrary normal order is described recursively by these
-products and q times the preceding power. For the rational quartic a=1,b=3,
-this extends the repository's degree-six symbolic-square picture uniformly
-to every normal order; there are no additional hidden symbolic generators.
-
-The theorem says nothing about termination of the infinitely-near common
-zero set of a pair. In particular, it does not repair a tangent-only blowup
-recurrence. Positive-characteristic pairs remain mandatory controls.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 #### Exact Hilbert function
 
-Surjectivity in (1) gives, with binomial and product terms interpreted as zero
-when their required degrees are negative,
-
-    dim (I^m)_d = binom(d-2m+3,3)
-       + sum(j=1..m) h0(O_Q(d-2m+(2-a)j,
-                           d-2m+(2-b)j)).             (3)
-
-For C0 this becomes
-
-    dim (I^m)_d = binom(d-2m+3,3)
-       + sum(1<=j<=m, 2m+j<=d)
-           (d-2m+j+1)(d-2m-j+1).                    (4)
-
-The first non-q-divisible degree is 3m, and the corresponding quotient has
-dimension 2m+1. In particular m=2 gives the known 23-dimensional sextic
-space, with 18-dimensional q-divisible kernel and five-dimensional quotient.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 4. Exact computation and reproducibility
 
-The companion M2 script `research/computations/verify_quadric_powers.m2` checks C0 powers
-m=1,...,6 over QQ and the formula (4) over a range of degrees. It also checks
-the analogous (1,4) monomial quintic and a nonmonomial (2,4) quadric divisor.
-The finite computations check consistency with the linked proof.
-
-For C0 the observed Betti totals of S/I^m are
-
-    (1, (m+1)^2, 2m(m+1), m^2).
-
-Thus ordinary and symbolic powers coincide while the quotients remain
-non-Cohen--Macaulay. Finite generation alone cannot invoke a height-two
-projective STCI theorem: the local Cowsik dimension-three result changes its
-equation count in dimension four, and stronger CM-symbolic-power criteria
-need additional hypotheses that these powers fail.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 5. Research reassessment
 
-The new structural information removes one source of uncertainty from
-arbitrary-order normal calculations and can reduce high-order carrier spaces
-to concrete q/product data. It is a useful uniform algebra, not a global
-obstruction. The strongest additional literature restriction is that both
-carriers for C0 must be nonbinomial in characteristic zero. A new investigation
-should use these facts to formulate pair-dependent higher-jet or valuation
-conditions, rather than expect finite generation, a torus limit, or a
-reduced-discrepancy invariant to settle the problem.
-
-
----
-
-<a id="2026-10-06-localcoh-incidence"></a>
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ## Exact finite quartic incidence specification and recovered direction certificate
 
-Date: 2026-10-06. Status: **EXACT COMPUTATION / FIXED-DIRECTION EXCLUSION**.
-The full quartic incidence remains unresolved here. A later same-day certificate
-extends the fixed-direction result below to the entire normalized parity
-family; see `2026-10-06-localcoh-parity-dual.md`. This note concerns the
-characteristic-zero monomial quartic C0 and the targets u,v in the existing
-local-cohomology frontier. No universal STCI assertion follows.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 1. Reproduced coordinates
 
-For S=QQ[x,y,z,w], put q=xw-yz, A=x²z-y³, B=xz²-y²w,
-C=yw²-z³ and I=(q,A,B,C). The existing finite-principal-part argument reduces
-quartic ancestors to E4[-7], where E4=Ext²(S/I⁴,S), of dimension30. The exact
-injection into Ext²(S/(q⁴,B⁴),S) represents these sections by 30 homogeneous
-degree13 numerators, modulo (q⁴,B⁴).
-
-The script `../computations/localcoh-incidence-tensor.m2` was rerun on Oct6.
-Both previously saved outputs regenerated byte-identically:
-
-- `localcoh-incidence-tensor.txt`: SHA256
-  `05702619ef67a6fed4420e24a5530eccb18e4700d8e1f1ba5cae89b7899cc60b`.
-- `localcoh-incidence-bases.txt`: SHA256
-  `ee3e320f240b77c370ad21704c97aeec12b619f55c6ad8aff829aef9235d8dcc`.
-
-The quartic basis has18 elements. Its products with the30 ancestors span the
-entire74-dimensional E3[-3] piece. Appending the two target numerators
-xz(qB)³ and yw(qB)³ does not enlarge that span. These are exact rational rank
-computations, not samples.
-
-A degree17 remainder in the fixed quotient initially gives277 occurring
-ambient monomials. Exact row-space compression gives74 equations and a
-74×542 rational matrix R. Its first540 columns are products. Column18i+j
-is the product of ancestor i with quartic j, for i=0,...,29 and j=0,...,17.
-The last two columns are precisely the standard vectors e72,e73, using
-zero-based row indices. These coordinate conventions are checked by the
-Oct6 Python verifier.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 2. The complete finite incidence, including its open rank conditions
 
-For a=(a0,...,a29), define the74×18 linear matrix
-
-    L(a)[r,j] = sum_i R[r,18i+j] ai.
-
-The complete finite quartic problem is exactly the affine incidence
-
-    L(a) f = e72,     L(a) g = e73,
-
-in30 ancestor coordinates and two18-coordinate multiplier vectors. This is
-148 bilinear equations in66 variables, including two nonzero constant
-right sides. Consequently a=0 is automatically excluded; no extra
-saturation is needed merely to remove the zero ancestor. The basis of E4
-already imposes the I⁴-annihilator/support condition, unlike searching all
-of the diagonal Cech quotient.
-
-Write N(a) for the first72 rows of L(a), and P(a) for its final two rows.
-Existence of f,g is equivalent to
-
-    P(a): ker N(a) -> QQ² being surjective,
-
-or, equivalently,
-
-    rank L(a) = rank N(a) + 2.
-
-Thus rank N(a)≤16 is necessary. The exact projective constructible locus in
-P29 is the union of the strata r=0,...,16 with
-
-    rank N(a)=r,     rank L(a)=r+2.
-
-Each stratum requires all (r+1)-minors of N to vanish, some r-minor of N
-nonzero, and some (r+2)-minor of L nonzero. For r=0 the nonzero0-minor
-condition is vacuous. Discarding these open conditions produces a larger
-closed locus and cannot by itself settle incidence. In particular, a
-vanishing-minor computation on N alone is not a full incidence exclusion.
-
-Scaling a by a nonzero scalar is absorbed by reciprocal scaling of f,g,
-so this specification is naturally projective in the ancestor. Every
-solution is ambient-coprime by the separately established low-degree
-ancestor exclusion; coprimality is not assumed in the matrix encoding.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 3. Recovered polynomial dual for a surviving pure-top direction
 
-Use the balanced normal frame and divided-power top-symbol coordinates
-c_i[t^j] with i=0,...,3 and j=0,...,7. The checked top map M has shape32×30,
-rank29 and a one-dimensional kernel, represented by
-
-    k4=1/4,   k13=-3/4,   k18=1,
-
-with all other k_i zero. These are zero-based coordinates.
-
-Consider the primitive degree2 normal-dual direction
-
-    nu=(1+t²,-2t),
-
-whose homogeneous pair (s²+t²,-2st) is coprime. Its pure cubic symbol with
-coefficient h=1 is in the top image. Its coefficient h=t is outside the
-image: the augmented top matrix has rank30. Hence this direction admits
-exactly a one-dimensional nonzero top-coefficient space. Normalize that
-coefficient to1. Every ancestor with this top symbol is then
-
-    a(c)=a*+c k,
-
-where the nonzero entries of a* are
-
-    a0=8/3, a3=-4/3, a8=12, a9=-8, a14=8/3,
-    a17=8/3, a27=12, a28=2, a29=1.
-
-Let L0=L(a*) and L1=L(k). The recovered rational vectors n0,n1 of length74
-are stored in `localcoh-incidence-2026-10-06-certificate.json`. They satisfy
-
-    n0^T L0 = 0,
-    n0^T L1 + n1^T L0 = 0,
-    n1^T L1 = 0,
-
-and
-
-    n0^T e72=1, n1^T e72=0,
-    n0^T e73=8/11, n1^T e73=0.
-
-Thus n(c)=n0+c n1 satisfies, identically over QQ[c],
-
-    n(c)^T L(a(c))=0,
-    n(c)^T e72=1,    n(c)^T e73=8/11.
-
-Neither target lies in the quartic multiplication image for any value of c,
-even over an algebraic closure. This excludes every quartic multiplier for
-this entire ancestor line. A nonzero scalar multiple of the top symbol
-reduces to the same line by scaling the ancestor and multipliers, so the
-exclusion holds for all nonzero top coefficients for this fixed direction.
-
-The verifier `../computations/localcoh-incidence-2026-10-06.py` checks these
-identities using Python's standard library and exact rational arithmetic;
-it needs no Groebner computation. It also checks hashes, basis-coordinate
-agreement with the top map, the unique top line, and the two target columns.
-The original discovery used two small one-target Groebner computations,
-which returned the unit ideal. The saved dual is a directly checkable
-certificate of that result.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
 ### 4. Audit boundary and unfinished attempts
 
-A tempting incorrect multiplication test uses `basis(4,I)` and multiplies its first row alone by ancestor numerators. Macaulay2 represents this basis in the
-four ideal-generator coordinates: the first row contains coefficient
-polynomials, not the actual quartic forms. Correct forms require summing
-all four generator products. The incorrect products have degrees14 or15,
-so their degree17 target coefficient functionals vanish vacuously. Such coefficient tests do not establish full-family multiplication exclusions. The tensor exporter audited here uses the correct
-sum over all four generators. A corrected full-family test belongs to a
-separate computation and is not inferred from the fixed-direction result.
+[Full mathematical section](extracted_foundational_frontier_and_incidence.md).
 
-An exploratory full148-equation/66-variable Groebner attempt had produced
-no certificate or usable ideal result. It was interrupted during the Oct6
-bounded recovery. No mathematical conclusion is drawn from that attempt.
-
-Continuation should work from the exact tensor and the rank-stratum
-specification, together with verified top-direction classifications. The
-present certificate settles one non-ruling degree2 direction; it does not
-settle all degree0,1,2 directions or the full quartic locus.
-
-Validation: Macaulay2 1.26.06 reran the tensor exporter successfully;
-standard-library Python reran the Oct6 certificate verifier successfully.
