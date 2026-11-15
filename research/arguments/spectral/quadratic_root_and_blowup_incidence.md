@@ -213,25 +213,7 @@ every torsion order, or unrestricted `C0`.
 
 ## Independent review of the actual second obstruction at the smooth seed
 
-Date: 2026-10-14. Author: `geometric_locus`.
-
-Status: **THE NEW SECOND CLASS, SPARSE NONZERO PAIRING, AND STATED
-FAMILY CONSEQUENCE PASS INDEPENDENT REVIEW.** The full embedded chart is
-accepted input. No accepted chart or spectral theorem audit is repeated.
-The calculation concerns the first principal relation through normal
-degree four, so its stated CI application requires `s>4` and a proved
-actual-CI-to-root-curve bridge with the relevant hypotheses.
-
-Reviewed files:
-
-- `2026-10-14-generalization-quadratic-root-second-obstruction.md`;
-- `../computations/generalization_quadratic_root_seed_second_obstruction.py`;
-- the accepted exact chart as recorded in
-  `../computations/generalization_moving_first_relation_operator.py`.
-
-The nonzero scalar below was derived independently by hand from the full
-chart. It does not rely on the parent script's row reduction or on its
-larger dual certificate.
+The second obstruction class, sparse nonzero pairing, and family consequence were independently reconstructed from the accepted full embedded chart. The scalar was derived by hand, not inferred from a script's row reduction. The first principal relation is controlled through normal degree four; the CI application requires \(s>4\) and a separately proved actual-CI-to-root-curve bridge. No higher ambient lift or actual CI follows.
 
 ### 1. The cubic patch and equation unit are consistent
 
