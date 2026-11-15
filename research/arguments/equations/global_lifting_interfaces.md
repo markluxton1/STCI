@@ -121,15 +121,7 @@ The shared use of exceptional curves does not make these the same obstruction.
 
 ## Review status
 
-The elementary fixed-symbol lemma, its fixed-data restrictions, the actual
-sextic source/kernel application and the seed witness annihilation were
-independently reconstructed and accepted in this consolidation (GPT-6.1 Sol,
-high effort). The vector-space lemma is characteristic-free; the stated sextic
-computation uses its characteristic-zero coefficients and hypotheses. Applications use the hypotheses
-and evidence of their linked owners. The compatibility comparisons are an
-organizational synthesis, not additional theorem dependencies or a resolution
-of the characteristic-zero STCI problem.
-
+The fixed-symbol lemma, its fixed-data restrictions, actual sextic source/kernel application, and seed annihilation were independently reconstructed. The vector-space lemma is characteristic-free; the sextic computation uses characteristic-zero coefficients. Linked applications retain their own hypotheses. The comparison is organizational, not a new theorem or an STCI solution.
 
 ## Consolidated historical source: `research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md`
 
