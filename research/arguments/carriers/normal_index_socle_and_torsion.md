@@ -560,14 +560,7 @@ a degree-by-degree verification or a global exhaustion theorem.
 
 ## Independent audit of the general normal-index consequences
 
-Date: 2026-10-14. Author: `normal_general_threshold_audit`.
-Status: **PROVED NEW CONSEQUENCES, WITH THE SCOPE BELOW.** This review
-uses the accepted [local power-socle and ordinary-layer
-theorem](normal_carrier_symbolic_torsion.md#2026-10-14-generalization-index12-filtered-compatibility)
-as a premise. It does not rerun that proof, any accepted curve
-obstruction, or any CAS computation. The new work checked here is the
-degree-independent inequality, its integer and equality consequences,
-the tame-characteristic scope, and the intrinsic version without a mate.
+Independent reconstruction checked the degree-independent inequality, integer and equality cases, tame-characteristic scope, and intrinsic no-mate version, taking the [local power-socle theorem](normal_carrier_symbolic_torsion.md#2026-10-14-generalization-index12-filtered-compatibility) as a premise. It did not rerun the local theorem, curve obstructions, or computational certificates.
 
 ### 1. The scalar inequality does not need a denominator assumption
 
