@@ -4,7 +4,7 @@ on:
     paths:
       - 'research/computations/verify_44_filtered_contact_2026_10_23.py'
       - 'research/computations/audit_mf6_e1_primitive_2026_10_07.py'
-      - 'research/investigations/quartic-specialization-controls/**'
+      - 'research/arguments/quartic-specialization-controls.support/**'
       - 'research/arguments/quartic_specialization_and_symbols.md'
       - 'research/results/quartic_normal_initial_base_change.md'
       - 'research/results/quartic_actual_symbols.md'
@@ -25,7 +25,7 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install 'sympy==1.14.0'
       - name: Replay quartic Python verifiers and false controls
-        run: python -m unittest discover -s research/investigations/quartic-specialization-controls -k _python -v
+        run: python -m unittest discover -s research/arguments/quartic-specialization-controls.support -k _python -v
       - name: Verify filtered contact
         run: python research/computations/verify_44_filtered_contact_2026_10_23.py
       - name: Verify inherited e1 classification
@@ -45,4 +45,4 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y macaulay2
       - name: Replay quartic Macaulay2 verifiers and false controls
-        run: python3 -m unittest discover -s research/investigations/quartic-specialization-controls -k _m2 -v
+        run: python3 -m unittest discover -s research/arguments/quartic-specialization-controls.support -k _m2 -v
