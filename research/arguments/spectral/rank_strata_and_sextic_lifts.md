@@ -1577,51 +1577,13 @@ point is asserted to be a global pair.
 
 ## 1. Scope and inputs
 
-Throughout, `k` is algebraically closed of characteristic zero and
+Work over algebraically closed characteristic-zero \(k\), with \(C_0=[s^4:s^3t:st^3:t^4]\), \(N_{C_0/\mathbf P^3}^\vee=\mathcal O(-7)^2\), and conditional row \((r,s;a,b;\varepsilon)=(2,12;6,16;2)\). The **hypothetical actual** supported pair has a full generic coprime initial CI \((2,12)\) and saturated relation
+\[
+R=\mathcal O(-16)\hookrightarrow\operatorname{Sym}^2N^\vee=\mathcal O(-14)^3,\quad f=a(z)u^2+b(z)uv+c(z)v^2,
+\]
+with basepoint-free quadratic coefficients. The sextic symbol is \(\alpha f\), \(0\ne\alpha\in H^0(\mathcal O(8))\); the degree-sixteen symbol is \(\beta f\), \(\beta\in H^0(\mathcal O(48))\). **Joint generation of \((\alpha,\beta)\) is an actual-pair condition, not imposed by the low-order incidence.**
 
-    C0=[s^4:s^3t:st^3:t^4] in P3,
-    E=N*_(C0/P3)=O_P1(-7)^2,
-    (r,s;a,b;epsilon)=(2,12;6,16;2).
-
-The conditional global object being tested is an actual proper pair
-`F6,G16` with reduced intersection support exactly `C0`, FULL generic
-ordinary initial ideal a coprime binary complete intersection of degrees
-`(2,12)`, and ACTUAL degree-two relation kernel a saturated line
-subbundle. The first relation is
-
-    R=O(-16) -> Sym^2 E=O(-14)^3,
-    f=a(z)u^2+b(z)uv+c(z)v^2,
-    a=a0+a1*z+a2*z^2, similarly b,c.
-
-The three homogeneous base quadratics have no common zero. The degree-six
-symbol is necessarily `alpha*f`, with `alpha in H0(O(8))`, nonzero.
-The degree-sixteen symbol is `beta*f`, `beta in H0(O(48))`, and in an
-actual pair `(alpha,beta)` jointly generate at every point. The low-order
-scheme below has no variable beta and does not assert that joint
-generation has been realized.
-
-Precisely scoped inherited premises:
-
-* [STCI-R-0010](../../results/saturated_first_relation_normal_flatness.md)
-  gives normal flatness and a coprime `(2,12)` graded CI in every fiber
-  under the actual supported-pair hypotheses above.
-* [STCI-R-0008](../../results/spectral_root_picard_criterion.md) makes the
-  graded second quotient relation equivalent to the full-scheme spectral
-  descent condition. Here it is `O_Z(1,-1)^12=O_Z` for the full `(2,2)`
-  root `Z`.
-* [STCI-R-0011](../../results/moving_nonreduced_spectral_root_obstruction.md)
-  excludes nonreduced moving full roots in characteristic zero; component
-  degrees in the descent identity also force equal component slopes.
-* [STCI-R-0007](../../results/quadratic_root_obstruction_model.md) supplies
-  the exact universal first incidence and complete twenty-five-pairing
-  second obstruction test. Their construction is valid for all
-  basepoint-free quadratic roots, including singular ones.
-
-The smooth bridge R-0006 does not supply necessity on singular
-roots. The new, separately reviewed finite bridge in
-[the singular-root note, section 2](singular_root_actual_pair_bridge.md)
-fills this scope gap only under the actual hypotheses above. No inference
-for residual intersections or arbitrary STCI presentations is made.
+[R-0010](../../results/saturated_first_relation_normal_flatness.md) gives actual normal flatness, [R-0008](../../results/spectral_root_picard_criterion.md) gives \(\mathcal O_Z(1,-1)^{12}\cong\mathcal O_Z\) for the full root, [R-0011](../../results/moving_nonreduced_spectral_root_obstruction.md) excludes moving nonreduced full roots, and [R-0007](../../results/quadratic_root_obstruction_model.md) gives the complete 25-pairing second obstruction including singular roots. The [separately reviewed singular-root bridge](singular_root_actual_pair_bridge.md) is essential: smooth-root R-0006 alone is insufficient. None applies without its actual-CI hypotheses.
 
 ## 2. The exact global k-linear symbol map
 
