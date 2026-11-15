@@ -622,28 +622,20 @@ Two counterexamples prevent shortcuts: a smooth lifted curve can pass through an
 
 ## 8. What changes in positive characteristic
 
-These boundaries concern each argument, not merely its theorem label.
-The construction linked at the start supplies an actual quartic-carrier
-control in **every** positive characteristic.
+The [positive-characteristic construction](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) gives an actual quartic carrier in **every** positive characteristic. The characteristic-zero exclusion cannot be transported wholesale:
 
-| Mechanism | What carries over | What the characteristic-zero proof still needs |
-|---|---|---|
-| Plane-section defect, full inverse support, smooth passage | The genus inequality, purity, normalization over a smooth curve, uniformizer argument and divisor-degree equality work in any characteristic under the stated integral/smooth hypotheses. | These reductions alone give no contradiction; they hold for positive-characteristic examples too. |
-| Ruled-surface degree criterion | The [intrinsic rationality criterion and sharp genus inequality](ruled_surface_degree_criterion.md) hold in every algebraically closed characteristic, using smooth minimal ruledness and actual fiber components, including infinitely near centers. | This extends the criterion only. A carrier application must establish its numerical inputs; cohomological refinements and the rest of the quartic exclusion retain separate characteristic hypotheses. |
-| Numerical pullback and actual ideal vanishing | On an available smooth resolution of a normal surface, the negative matrix and principalized-ideal argument retain their algebraic meaning. | A Cartier index does not control its correction. The classification, first-normal budgets and small-mate exclusions used to finish the normal-quartic case have separate characteristic hypotheses. |
-| Rational-resolution compression | Numerical-to-linear equivalence on smooth rational surfaces and ambient hypersurface section lifting do not require characteristic zero. | Compression can produce an allowed positive-characteristic mate; the normal scan's low-degree exclusion inputs cannot simply be reused there. |
-| Ribbon and normal-map bound | A pure CM double with smooth reduction is a ribbon in every characteristic; its nilideal degree and the Hom calculation remain valid whenever their global inputs hold. | The fixed conormal computation uses determinant eight. It yields \(\mathcal O(-7)^2\) for \(p\ne2\); characteristic two has \(\mathcal O(-6)\oplus\mathcal O(-8)\), so the \(\mathcal O(-8)\) contradiction fails there. Neither splitting proves that the genus-two Cartier double exists for an arbitrary carrier. |
-| Generic differential and conductor-power descent | Differentiating \(u f^b\) gives the same formula when \(b\) is nonzero in the field. | Cancellation at a conductor meeting uses that scalar. In characteristic \(p\mid b\) it vanishes. Frobenius also kills nilpotent conductor obstructions, whereas in characteristic zero the nilpotent unit group is additive and has no nonzero finite-order element. |
-| Degree-two trace, involution and local Morse splitting | The quadratic trace decompositions, formal square roots of units, and parameter-preserving splitting work with the required invertibility of two and separability. | They are not proofs in characteristic two. Rationality, cohomology, actual ambient-model and branch hypotheses also need proof in a new characteristic. |
-| Fixed-embedding trisecants | The equation \(t^3-as^3\) and the carrier-ideal calculation retain their algebraic meaning. | The three-distinct-contact case needs \(3\ne0\). In characteristic three the ruling map on \(C\) is inseparable and every fiber is a triple contact; the nonendpoint support/branch-value proof cannot be imported there. |
-| Global quartic surface bound | Direct blowup charts can often be read whenever their coefficients and two remain invertible. | The characteristic-zero \(h^{1,1}\)/Picard bound in the separate \((4,4)\) surface proof is not a positive-characteristic bound; local equations alone do not transport that global contradiction. |
+| Mechanism | Characteristic scope and missing input |
+|---|---|
+| Smooth passage, full inverse support, plane-section genus | Valid under the stated integral/smooth hypotheses in any characteristic, but not contradictory alone. |
+| Ruled degree criterion | [Intrinsic criterion](ruled_surface_degree_criterion.md) is characteristic-free; each carrier still needs its numerical hypotheses. |
+| Normal resolution and compression | Negative intersection and rational-surface linear equivalence retain their meaning on available resolutions; classification, actual ideal budgets, and low-degree exclusions do not automatically transfer. |
+| Ribbon and global Hom obstruction | Pure CM doubles are ribbons in any characteristic. Here \(N_C^\vee=\mathcal O(-7)^2\) for \(p\ne2\), but \(\mathcal O(-6)\oplus\mathcal O(-8)\) for \(p=2\). Neither splitting guarantees the requisite genus-two Cartier double for arbitrary carriers. |
+| Conductor differentiation and power descent | The factor \(b\) in \(d(uf^b)\) can vanish for \(p\mid b\); Frobenius can annihilate nilpotent descent obstructions. |
+| Quadratic trace and local Morse splitting | Require \(2\) invertible, separability, and the relevant ambient hypotheses. |
+| Fixed trisecant geometry | The three distinct contacts of \(t^3-as^3\) require \(p\ne3\); characteristic three gives inseparable triple contact. |
+| Global \((4,4)\) bound | The characteristic-zero Hodge/Picard bound is not a positive-characteristic exclusion. |
 
-In particular the odd-characteristic balanced conormal bundle does not
-exclude the known positive-characteristic STCI. The missing implication
-would be that every such pair produces the particular genus-two Cartier
-double with its nonzero global normal map; the proof never establishes
-that. The quartic-carrier construction instead uses a conductor descent
-power divisible by the characteristic.
+Even in odd characteristic, the balanced conormal splitting does not exclude the known STCI: the missing implication is that an arbitrary supported pair supplies the **particular** genus-two Cartier double with a nonzero global normal map. The positive-characteristic construction instead uses conductor descent powers divisible by the characteristic.
 
 ## 9. Verification boundaries
 
