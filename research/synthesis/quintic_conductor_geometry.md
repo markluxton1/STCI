@@ -2472,129 +2472,59 @@ Consequently every off-c inverse point above C0 occurs in A2(r,T) with
 T!=0. All subsequent affine equations retain the full off-c source
 support once this boundary argument has been supplied.
 
-### 3. Finite targets: exact equations and the regular-chart scope
+### 3. Independent checks on the finite-fiber reduction
 
-For finite target z, put p=1-z. The point of C0 is
-lambda*(1,z,z^3,z^4), with lambda!=0. The three triangular combinations
-of X0,...,X3 used to define F1,F2,F3 are invertible after X0 is specified.
-Thus F1=F2=F3=0 together with X0=lambda is the exact fiber system.
-If the reconstructed lambda were zero, all four sections would vanish;
-center avoidance excludes that possibility.
+The exact equations and all rank alternatives are stated and proved in
+[Complete actual target-fiber equations](#complete-actual-target-fiber-equations),
+§§3–6. The independent projective-coverage audit verifies the same
+elimination without dropping the quadratic term in X0 or assuming generic
+linear rank. For finite z, p=1-z, the target is
+lambda*(1,z,z^3,z^4), lambda!=0. The triangular combinations defining
+F1,F2,F3 are invertible after X0 is specified. Hence F1=F2=F3=0
+and X0=lambda are the *actual* fiber equations; a reconstructed
+lambda=0 would be a base point, excluded by center avoidance.
 
-For p!=0, eliminating lambda yields exactly
+The audit separately checked the coefficient [r^3]C3=p*A^2, which was
+not established by the original identity checker. This retains the A=0
+degree-drop locus. A projective resultant of A2 and C3 cannot treat a
+common homogeneous root at infinity as an affine off-c inverse point.
+The reduction remains restricted to pZ!=0; Z=0 is controlled by the
+denominator-free equations. The independent rank-one check covers the
+primitive cube roots z^2+z+1=0 and the allowable doubled T=0 fiber,
+exactly as in [the complete rank-one analysis](#6-all-rank-one-compatible-fibers-for-p0).
 
-    H12*T+R2=0, H13*T+R3=0, J0=0.
+### 4. Independent checks at z=1 and target infinity
 
-This elimination divides only by the explicitly nonzero p. It neither
-removes T^2 from X0 nor assumes a generic linear rank. On the further
-open pZ!=0, the two equations F2,F3 have invertible coefficient matrix
-in (T,lambda), and Cramer's rule gives the owner's T=-N/Z and
-lambda=M/(p^2 Z). F1 becomes the displayed A2 residual after removing
-the c factor pr-delta.
+The complete equations, the J=0 specialization, and the Delta1
+resultant are in [the z=1 proof](#7-the-intrinsic-a4-target-z1-ie-p0).
+The independent check confirms that P1,Q1 have fixed leading
+coefficients J,3J when J!=0, so no projective degree-drop root is
+mistaken for an affine point. In particular Delta1!=0 merely avoids
+this obstruction; it is **not** a sufficient full-support condition.
+The J=0 branch is handled directly by D0=delta^2/2+B, and is not
+obtained by specializing the J!=0 resultant.
 
-The normalization polynomial Psi has degree at most four in r and
-is exactly divisible by pr-delta. Its quotient C3 has degree at most
-three, with cubic coefficient p*A^2. This coefficient statement was
-not asserted by the owner's final identity checker and is checked by
-the independent source linked below. It allows A=0; no degree-drop
-locus is removed.
+At target infinity the full calculation and B=0 alternatives are in
+[the endpoint-fiber proof](#8-the-target-endpoint-zinfinity). The
+independent check adds the explicit projective tests
 
-For r!=delta/p on pZ!=0, A2=C3=0 reconstructs a point of the exact
-fiber. If T=0, the known embedding c->C0 would force r=delta/p;
-if lambda=0, the point would be a base point. Both alternatives are
-excluded under the stated conditions. Conversely every off-c point
-on this chart satisfies this quadratic/cubic system. The conclusion
-is an exact reduction on the stated open, not a full parameter
-exclusion. Z=0 remains governed by the denominator-free system.
+    Qinf(0)=-delta^2*B,
+    Pinf(-B/delta)=-B^3/delta,
+    [r^2]Pinf=-delta^2.
 
-Any future projective resultant of the degree-two/degree-three pair
-must separately handle their shared leading-coefficient degeneration
-A=0: a common homogeneous root at infinity does not by itself produce
-an affine off-c point. The owner currently makes no such resultant
-claim.
-
-### 4. Rank-one compatibility includes the primitive cube roots
-
-If H12=H13=0, compatibility requires R2=R3=0. For p!=0, delta!=0,
-the factorization of R2 exhausts the alternatives. The root r=0
-does not work because R3=delta^4. Away from pr=delta, the other
-alternative is (3-p)r=delta; p=3 is impossible. Substitution into
-R3 gives the condition
-
-    p^2-3p+3=0, r=delta/(3-p).
-
-These two p values correspond to z^2+z+1=0, the two primitive cube
-roots. They are not generic-rank artifacts. At these points r!=0 and
-pr-delta!=0, so J0 is a quadratic in T with nonzero leading coefficient
-p and nonzero constant r^3(pr-delta). It has a nonzero root over the
-algebraically closed field. Center avoidance then makes lambda nonzero,
-and the point is an actual off-c inverse point. The specified rank-one
-parameter strata are excluded in every mate degree.
-
-At the alternative r=delta/p, the exact quadratic is
-
-    T*(p*T+pa+B-delta-delta^2/p).
-
-Unless the second factor has zero constant coefficient, it supplies
-an off-c point. The equality pa+B-delta-delta^2/p=0 is therefore
-necessary for full support. With equality, the doubled T=0 fiber
-remains allowed; the owner correctly does not exclude it.
-
-### 5. Target z=1 and the correct direction of Delta1
-
-The intrinsic A4 point supplies the c-point above z=1. There is no
-affine c-point above this target. On the affine open, the three
-p=0 equations are exactly the owner's equations, and T=0 cannot
-solve them: the first then forces r=0, while the third is delta^4.
-
-For J!=0, eliminating T gives P1 and Q1 with degrees exactly three
-and two, respectively, and nonzero leading coefficients J and 3J.
-The accepted resultant is -J^2*delta^6*Delta1. These fixed leading
-coefficients prevent a degree-drop root at infinity. Thus
-
-    J!=0 and Delta1=0
-
-gives an affine common root, necessarily T!=0; center avoidance
-supplies X0!=0. This is an all-degree exclusion. The condition
-J!=0 and Delta1!=0 merely avoids this obstruction. It is not itself
-an excluded stratum and does not certify full inverse support.
-
-For J=0, the third equation forces r=delta/2. The first two become
-delta^4/8-D0*T=0 and delta^4/4+G*T=0, with
-D0=delta^2/2+B. A point exists exactly when D0!=0 and G=-2D0.
-If D0=0, the first equation is a nonzero constant. This correctly
-handles the specialization that the general resultant cannot handle.
-
-### 6. Target infinity and degree-drop resultants
-
-The endpoint has equations X0=X1=X2=0. The affine c-point is r=T=0.
-For r=0 and T!=0, the equations require B=G=0, a!=0 and T=-a.
-Its X3 value is delta^4-J*a; center avoidance is needed if this value
-vanishes. This precisely explains the owner's base-point caveat.
-
-For r!=0, the first equation forces Dr=delta*r+B!=0 and
-T=delta*r^3/Dr. The remaining equations are exactly Pinf=Qinf=0.
-On B!=0, Qinf(0)=-delta^2*B is nonzero, and
-
-    Pinf(-B/delta)=-B^3/delta!=0.
-
-Thus neither a zero-r root nor a denominator-zero root can enter.
-Pinf has fixed quadratic leading coefficient -delta^2, so it has
-no homogeneous root at infinity. Consequently the nominal
-quadratic resultant remains an exact common-affine-root test even
-when Qinf drops degree. On B!=0 its vanishing gives an actual
-off-c endpoint point, conditional on center avoidance, and excludes
-every mate degree. No explicit expanded infinity resultant is
-claimed here or needed for this criterion.
-
-At B=0 the exact factorizations are
+For B!=0 these exclude respectively r=0, a denominator-zero root,
+and a spurious common projective root at infinity even if Qinf drops
+degree. For B=0 the independent factorization is
 
     Pinf=delta^2*r*(a-r),
     Qinf=r*((3delta^2+G)*r-delta^3).
 
-Hence the complete off-c condition is exactly the owner's
-a!=0 and [G=0 or (3delta^2+G)*a=delta^3], including the separate
-r=0 branch. With a=0 there is no off-c affine endpoint point.
+It recovers the separate r=0 branch and the condition
+a!=0 and [G=0 or (3delta^2+G)*a=delta^3] without dividing by B.
+The independent boundary proof in §2 above excludes additional source
+points outside the affine chart; no claim is made without center
+avoidance. These checks are retained as distinct verification of the
+primary proof, not as a second statement of its full derivation.
 
 
 ## Exact support and characteristic scope
