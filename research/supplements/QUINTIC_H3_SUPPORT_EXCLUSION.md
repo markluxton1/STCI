@@ -66,7 +66,7 @@ generator binding, all five Bezout products, and both homogeneous
 coordinate identities. It uses restricted AST parsing and exact
 `fractions.Fraction` arithmetic; it neither imports nor executes the
 owner checker. Evidence is
-[the literal arithmetic report](../validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic-report.json),
+[the literal arithmetic report](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic-report.json),
 [source](../validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic.py)
 and the report records the exact input hashes and original-generator products checked.
 
@@ -109,7 +109,7 @@ Bezout product, all denominator factors, and the exact binding of the
 captured fractions to `H3^4 mod Q4`. A separate exact sparse-polynomial
 calculation binds the compact H3 and Q4 to the actual main coefficient
 lists at lambda=1; its
-[report](../validation/2026-10-14-quintic-independent-audit/lambda-binding-result.json)
+[report](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-14-quintic-independent-audit/lambda-binding-result.json)
 also records the nonzero scalar 2d and the infinity separation identity.
 The arithmetic report in section 2 contains the original-generator
 checks. The retained independent sources implement the corrected exact parser.
@@ -200,7 +200,7 @@ is exactly zero against the original `(V h3 c5)^2` target. The R_i contain
 69,62,58 terms and the corresponding witnesses contain 436,465,485 terms;
 these are descriptive sizes, not additional theorem counts. It binds the
 actual captured c5 and the exponent-two file. Evidence is the
-[main literal report](../validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic-report.json),
+[main literal report](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic-report.json),
 [independent source](../validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic.py)
 with exact input hashes and the zero residual.
 

@@ -230,6 +230,18 @@ question for `C0`, larger degree pairs, `e=1`, or the entirely-thick branch.
 
 ## 5. Additional exact boundary evidence and discarded work
 
+In the same balanced frame `m=U+V, y=V`, direct substitution gives
+the first normal form `-2(z-2)(z^2+2z+4)^2 m` for `C3`.
+Its restriction to `m=0` starts with
+`(3/4)(z-2)(z^2+2z+8)y^2`. The sextic `C3^2` in the
+[regular-ratio experiment](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/scratch/explore_mixed46_e0.py)
+therefore has generic transverse order at least four after eliminating any quartic
+with first normal form `h m` and `h!=0`, since `m=O(y^2)`. When the
+quartic is a nonzero element of the exceptional kernel `C3*H0(O(1))`, the
+pair has the common cubic factor `C3`. The calculation explains the
+vanishing through cubic order in the experiment for the fixed curve in
+characteristic zero.
+
 For provenance, the seven nonzero rows of the original 13-by-8 matrix
 have signed maximal minors exactly equal to the saved primitive kernel
 vector (no nonconstant common factor). Their ideal has geometric support

@@ -9,7 +9,9 @@ The free-chain argument linked below supplies the required special prime
 
 The following full proof reuses the independently accepted nonendpoint
 coverage argument. The displayed rational identities establish all chain
-lengths directly; an inherited finite execution is not its proof.
+lengths directly. The [inherited Macaulay2 check](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-10-genus-two-nonendpoint-trisecant-continuation-audit/cartan-countercheck.repaired.m2) checked the twelve chain identities over a rational function field.
+The proof below also establishes the geometric attachment and the strict
+inequality for every allowed chain length.
 
 Let `X` be an integral nonnormal quartic carrier of
 

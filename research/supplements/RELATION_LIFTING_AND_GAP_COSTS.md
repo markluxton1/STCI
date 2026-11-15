@@ -544,8 +544,9 @@ its movement to the exact global budget.
 - New saturation/gap-cost theorem: Section 7 here, with an additional
   independent bundle-image check requested from the same agent.
 - New exact moving-relation operator: Section 8 and
-  `generalization_moving_first_relation_operator.py` with its JSON
-  output. No uniform moving-relation exclusion is claimed.
+  [the exact Python operator](../computations/generalization_moving_first_relation_operator.py).
+  Its standard-library replay reproduced the [historical JSON](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/generalization_moving_first_relation_operator.json)
+  on stdout. No uniform moving-relation exclusion is claimed.
 - Independent review requested from the agent auditing the socle
   theorem; the independent review of (10) remains pending.
 

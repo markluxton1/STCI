@@ -544,7 +544,9 @@ writes the [exact matrices and seed certificate](../computations/conditional_2_1
 The tangent comparison reads the [saved first-incidence Jacobian](../computations/generalization_quadratic_root_curve_universal_incidence.json).
 Its SHA256 is recorded in the symbol output. The
 [independent direct-binomial verifier](../computations/conditional_2_12_symbol_independent_audit_2026_10_20.py)
-writes a [separate reconstruction](../computations/conditional_2_12_symbol_independent_audit_2026_10_20.json).
+reconstructs the symbol matrices and seed ranks over the rationals.
+Its JSON report was reproduced byte for byte during retirement.
+[Historical reconstruction report](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.json).
 The [structured exporter](../computations/conditional_2_12_structured_incidence_2026_10_20.py)
 uses the [inherited first and second equation generator](../computations/generalization_quadratic_root_global_second_model.py).
 
@@ -608,9 +610,9 @@ The new independent program
 
     python3 research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py
 
-uses only standard-library rational arithmetic and does not import the
-producer. Its [output](../computations/conditional_2_12_symbol_independent_audit_2026_10_20.json)
-records the following exact checks.
+uses standard-library rational arithmetic to reconstruct the matrices
+independently of the producer. The [historical report](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.json) records the
+following exact checks.
 
 1. For a degree-six monomial `x0^a x1^b x2^c x3^d`, put
    `e=b+3c+4d`. Its restriction, `x2` derivative, and `x3` derivative

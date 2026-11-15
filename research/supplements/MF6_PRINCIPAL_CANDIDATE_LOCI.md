@@ -270,11 +270,14 @@ curve, as the exact cubic-field computation below shows.
 The corrected r=0 computation is independently self-contained in
 [`verify_session_mf6_principal_rzero_normality_2026_10_09.m2`](../computations/verify_session_mf6_principal_rzero_normality_2026_10_09.m2).
 Its field polynomial is `8p^3-16p^2+6p-9`, irreducible modulo five
-(the values at 0,...,4 are 1,4,3,1,1). Its literal quartic is bound to
-the checked degree-nine generator restricted at r=0 in
-[the input record](../scratch/session-mf6-principal-rzero-normality-input-2026-10-09.json).
-The exact M2 check completed with exit zero and asserted Jacobian cone
-dimension one, of degree fifteen. Dimension survives constant-field extension. Reducible or
+(the values at 0,...,4 are 1,4,3,1,1). Its literal quartic equals the
+remainder in `p` of the first degree-nine
+[weighted kernel generator](../scratch/mf6-principal-weighted-kernel-2026-10-08.json)
+at `(r,b)=(0,1)` modulo that field polynomial. A SymPy replay checked
+the equality and the two SHA-256 bindings in the
+[historical input record](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/scratch/session-mf6-principal-rzero-normality-input-2026-10-09.json).
+A separate Macaulay2 replay gave Jacobian cone dimension one and degree
+fifteen. Dimension survives constant-field extension. Reducible or
 nonreduced projective quartics have a curve of singular points, so this
 also proves geometric integrality. The hypersurface S2 property and
 finite singular locus prove geometric normality of all three conjugates.

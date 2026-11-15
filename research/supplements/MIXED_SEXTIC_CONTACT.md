@@ -116,8 +116,9 @@ calculation therefore applies separately to each branch.
 
 The primary [Macaulay2 verifier](../computations/stci_mixed_contact_2026_10_29.m2)
 works over Q[h], with no inversion of h during matrix construction. The
-[independent exact output](../computations/stci_mixed_contact_audit_2026_10_29.txt)
-retains both exceptional polynomials and the independently assembled rank strata.
+[independent Macaulay2 verifier](../computations/stci_mixed_contact_audit_2026_10_29.m2)
+computes both exceptional polynomials and the independently assembled rank
+strata. The retirement replay matched its [historical output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/stci_mixed_contact_audit_2026_10_29.txt).
 For the first sample scheme z^18=1,
 
 \[

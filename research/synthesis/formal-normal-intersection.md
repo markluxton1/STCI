@@ -60,13 +60,13 @@ The [generic cluster analysis](../supplements/OCT7_SATURATION_REES_AND_CARRIER_C
 
 The [relative blowup recursion](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-entirely-thick-relative-blowup-budget) says that blowing up a smooth horizontal common center Z with orders r,s subtracts rs[Z] from the pushed-forward intersection cycle of the strict transforms. A later center of covering degree d contributes drs. For the (3,4) boundary, the first exceptional intersection has total coefficient 2pq; **for terminating horizontal trees** this bounds the degree-weighted total common-center budget. It does not imply that the first exceptional bidegree's zero horizontal coordinate prevents later twisting. Persistent formal centers are not thereby shown to algebraize to extra projective common curves.
 
-Finally, the [local thickened-fiber countermodel](../supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thickened-fiber-local-countermodelmd) shows that reduced support of a pair along a repeated ruling component constrains only the zeroth-order restriction of the mate, not its higher transverse coefficients. Consequently the thickened-fiber interpolation cokernel is not, by itself, an STCI obstruction. This is a substantive failed mechanism to retain in the research record.
+The [local thickened-fiber countermodel](#the-local-thickened-fiber-countermodel) shows that reduced support along a repeated ruling component constrains the zeroth-order restriction of the mate and leaves its higher transverse coefficients free.
 
 These are source-preservation statements, not a new independent audit of the proofs.
 
 ## 7. Entirely-thick marked roots: distinct-root bound and failure of coefficient coupling
 
-The [Segre ruling audit](../supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-segre-root-auditmd) fixes an essential incidence distinction. On the unique quadric, the two projections of C have degrees one and three. A generic trisecant ruling fiber L meets C in **three distinct points**. A root of the residual F factor on the quadric-direction section makes F vanish at all three, but the residual mate factor restricts to a degree-q section on L and may place all its zeros at only one of them. Thus each distinct root guarantees **at least one**, not three, common first-normal points. In the exact sole-support balanced boundary a=3p,b=4q, the actual strict-intersection purity argument in section9 gives a choice-dependent injection into the constant exceptional sections, proving `number of roots <= number of sections <= min(p,q)`. A stronger three-points-per-root count still fails. At ramified fibers use the scheme-theoretic degree-three intersection, not an invented three-distinct-points assertion.
+Use the ruling convention in which C has class (1,3) on the unique quadric. In Segre coordinates the parametrization is `[s³:t³] x [s:t]`, with the middle ambient coordinates ordered accordingly. The first ruling projection has degree three and the second has degree one. In characteristic zero, or characteristic different from three, a generic fiber L of the first projection meets C in **three distinct points**. A root of the residual F factor on the quadric-direction section makes F vanish at all three, but the residual mate factor restricts to a degree-q section on L and may place all its zeros at only one of them. Thus each distinct root guarantees **at least one**, not three, common first-normal points. In the exact sole-support balanced boundary a=3p,b=4q, the actual strict-intersection purity argument in section9 gives a choice-dependent injection into the constant exceptional sections, proving `number of roots <= number of sections <= min(p,q)`. A stronger three-points-per-root count still fails. At ramified fibers use the scheme-theoretic degree-three intersection, not an invented three-distinct-points assertion.
 
 The [marked-jet separation](../supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-marked-point-jetsmd) distinguishes root multiplicity M_T of the residual F factor from divisorial coefficient r_T of the first exceptional divisor along the corresponding section. Locally `A=z+x^M` has restriction order M on z=0 without containing the transverse section x=0. Hence no general inequality `r_T>=M_T`, and no monotone lower bound on the sectionwise Noether contribution follows from the marked root order alone. In particular `sum M_T=2p` cannot be substituted into the separate budget `sum c_T=2pq` without a coupling theorem.
 
@@ -74,11 +74,39 @@ For a trisecant L meeting C in the degree-three divisor P1+P2+P3, the support-on
 
 ## 8. Exact ruling interpolation, thickened-fiber discrepancy and smoothing
 
-The [ruling interpolation audit](../supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-ruling-interpolation-auditmd) proves that for r distinct fibers L_i, restriction `H0(Q,O(3q,q)) -> direct_sum H0(L_i,O(q))` is surjective whenever `r<=3q+1`, by evaluation in the first P1 factor. For each fixed allocation of the degree-q zero divisor among the up to three points of `C intersect L_i`, the allowed nonzero restriction is a one-dimensional subspace of the `(q+1)`-dimensional fiber space. Thus r specified allocations impose **exactly rq linear conditions**; their finite union is still far from empty when `r<=min(p,q)`. A reduced-fiber interpolation count alone cannot exclude the boundary. Multiplicity M_i of a fiber does not add independent conditions on its reduced restriction.
+For r distinct ruling fibers L_i, restriction `H0(Q,O(3q,q)) -> direct_sum H0(L_i,O(q))` is surjective whenever `r<=3q+1`, by evaluation in the first P1 factor. For each fixed allocation of the degree-q zero divisor among the up to three points of `C intersect L_i`, the allowed nonzero restriction is a one-dimensional subspace of the `(q+1)`-dimensional fiber space. Thus r specified allocations impose **exactly rq linear conditions**; their finite union is still far from empty when `r<=min(p,q)`. A reduced-fiber interpolation count alone cannot exclude the boundary. Multiplicity M_i of a fiber does not add independent conditions on its reduced restriction.
 
-For the [thickened-fiber jet calculation](../supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thickened-fiber-jetsmd), set `Z=sum_i M_i L_i`, `sum M_i=2p`. The exact sequence `0 -> O_Q(3q-2p,q) -> O_Q(3q,q) -> O_Z(3q,q) -> 0` gives `h0(O_Z(3q,q))=2p(q+1)`. The restriction map is surjective for `2p<=3q+1`; for `2p>3q+1` its cokernel has dimension `(2p-3q-1)(q+1)`. This is a **linear interpolation discrepancy**, not an STCI obstruction: reduced common support does not force the higher mate jets to belong to a specified proper incidence locus. The leading `2pq` term agrees numerically with the first exceptional intersection budget, but the two quantities are not identified.
+For higher transverse jets set `Z=sum_i M_i L_i`, `sum M_i=2p`. The exact sequence `0 -> O_Q(3q-2p,q) -> O_Q(3q,q) -> O_Z(3q,q) -> 0` gives `h0(O_Z(3q,q))=2p(q+1)`. The restriction map is surjective for `2p<=3q+1`; for `2p>3q+1` its cokernel has dimension `(2p-3q-1)(q+1)`. This is a **linear interpolation discrepancy**, not an STCI obstruction: reduced common support does not force the higher mate jets to belong to a specified proper incidence locus. The leading `2pq` term agrees numerically with the first exceptional intersection budget, but the two quantities are not identified.
 
-The [repeated-fiber smoothability note](../supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-repeated-fiber-smoothabilitymd) supplies another negative result. Along a repeated residual ruling fiber away from C, the local carrier may have form `F=x^M u+z A`, where `z=0` cuts out Q. Even if `M>=2`, the transverse derivative `A|L` may be nonzero. The degree-3p recursion `F=F_cub+Q K` with `K in (I_C^(p-1))_(3p-2)` permits such a smoothing term because I_C is the unit ideal away from C. Thus repeated residual multiplicity does **not** force generic singularity along L. This does not assert existence of a globally smooth supported STCI pair. Any genuine obstruction must couple the transverse smoothing, mate restrictions, and marked divisor `C intersect L`.
+### The local thickened-fiber countermodel
+
+Let `h=0` cut out C on Q and take regular coordinates x,y near a point
+of a ruling fiber `L=(x=0)` in Q. Locally the quadric restrictions can be
+written
+```text
+F|Q = h^p x^M u,
+G|Q = h^q (A_0(y) + x A_1(y) + ... + x^(M-1) A_(M-1)(y) + x^M B(x,y))
+```
+with u a unit. Off C, their reduced common set on Q is given by
+`x=A_0(y)=0`. Fix any nonzero A_0 whose zeros on L are supported on
+`C intersect L`. All choices of the higher transverse coefficients then have
+the same reduced common set there. The countermodel is local on Q. An
+obstruction to actual global pairs would require a further compatibility
+between transverse coefficients, contact at the marked divisor, and the
+intersection of the strict transforms.
+
+Away from C the ambient carrier can have local equation `F=x^M u+z A`,
+where `z=0` cuts out Q. For `M>=2` the derivative in x vanishes on L and
+the transverse derivative is `A|L`. The degree-3p recursion
+`F=F_cub+Q K` allows K in the degree-(3p-2) order-(p-1) source. The local
+ideal sheaf of C is the unit ideal away from C. A chosen global K giving
+a nonzero restriction makes the carrier smooth at the generic point of L.
+Repeated residual multiplicity alone supplies no local singularity
+condition. The mate and simultaneous support still require their own
+analysis.
+
+The October 7 sources give the full local countermodel, marked ruling
+correction, and interpolation calculation. [Historical source compilation](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md).
 
 <a id="9-exceptional-marked-section-versus-trisecant-base-unresolved-coordinate-bridge"></a>
 
@@ -90,7 +118,7 @@ The [quadric-section divisor calculation](../supplements/OCT7_THICK_CARRIERS_AND
 
 The degree-three pullback of a ruling root need not map pointwise to three different sections: only the selected mate zero is used. This resolves the earlier overly broad statement that a count correspondence was missing. It does **not** identify the root multiplicity M_i with the cycle coefficient c_j, compare their local Noether contributions, or supply this bound outside the exact supported balanced boundary.
 
-The [first-blowup coupling audit](../supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-first-blowup-marked-couplingmd) and [root-budget separation](../supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-root-budget-separationmd) distinguish generic-along-section intersection coefficient c_T from vanishing order M_T at a marked point on S_Q; semicontinuity of finite-flat fiber length cannot compare them because these are not fibers of one such length function. The [marked-trisecant local pair](../supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-local-pair-marked-trisecantmd) retains the full exponent allocation across `C intersect L` and ambient transverse smoothing, but reduced support still leaves higher local mate coefficients free. An obstruction would need the actual CI cluster, a global divisor/proximity relation, or a justified coordinate bridge between these strata.
+The [first-blowup coupling audit](../supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-first-blowup-marked-couplingmd) distinguishes generic-along-section intersection coefficient c_T from vanishing order M_T at a marked point on S_Q; semicontinuity of finite-flat fiber length cannot compare them because these are not fibers of one such length function. The [marked-trisecant local pair](../supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-local-pair-marked-trisecantmd) retains the full exponent allocation across `C intersect L` and ambient transverse smoothing, but reduced support still leaves higher local mate coefficients free. An obstruction would need the actual CI cluster, a global divisor/proximity relation, or a justified coordinate bridge between these strata.
 
 ## 11. Valuation data with coordinate and integral-model discipline
 
@@ -113,7 +141,16 @@ Let Q≅P1×P1 be a split smooth quadric over a field and C an integral Cartier 
 
 For b>=2, one additionally has H^1(P3,I_C^m(d))=0 whenever d>=bm. For the rational quartic (a,b)=(1,3), this gives H1 vanishing from d=3m but ordinary/symbolic equality in every degree. Smoothness of C is not needed for this integral Cartier-divisor theorem. The complete inherited proof and classical monomial overlap are in [the uniform quadric proof](../supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md#2-uniform-theorem-for-integral-curves-on-a-smooth-quadric). This consolidation recovers that stronger existing scope; it does not claim a new theorem or novelty.
 
-Locally C is cut out by Q and a local Cartier equation h on Q. Consequently the sheaf colon is (I_C^m:Q)=I_C^(m-1), and restriction gives
+Locally C is cut out by Q and a local Cartier equation h on Q, so these
+two classes form a basis of the conormal module. The associated graded of
+this regular immersion is its symmetric algebra. Multiplication by the
+class of Q is multiplication by one polynomial variable, hence injective.
+For `m>=1` a class of order `j<m-1` then has product with Q of order
+`j+1<m`. This proves the sheaf colon
+`(I_C^m:Q)=I_C^(m-1)` without a linear-type assumption. The homogeneous
+equality follows separately from the all-degree argument below.
+[Original sheaf calculation](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT7_THICK_FIBRES_AND_OCT8_CONTINUATION.md#source-2026-10-07-thick-sheaf-colon-recursionmd).
+Restriction gives
 
     0 -> I_C^(m-1)(d-2) --Q--> I_C^m(d)
       -> O_Q(d-ma,d-mb) -> 0.                            (1)

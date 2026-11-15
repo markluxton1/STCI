@@ -91,6 +91,15 @@ where
 with \(q>0\) and nonnegative integral exponents. These conditions imply
 \(a+b+c=q\), so \(G\) is homogeneous of degree \(q\).
 
+The family is defined over \(\mathbf Z\). Successive division by the
+monic equations in \(x_2\) and \(x_1\) gives a free
+\(\mathbf Z[x_0,x_3]\)-basis \(x_2^j x_1^i\), with
+\(0\le j<4\) and \(0\le i<q\). This proves flatness over
+\(\mathbf Z\), also after homogeneous localization and taking its
+degree-zero summand to form the projective scheme. The monic equations form
+a regular sequence over every field. Each fiber is a pure
+Cohen–Macaulay complete intersection of degree \(4q\).
+
 The dense torus of \(S_-\) is parametrized by
 \((u,z)\mapsto[1:zu:u^3:u^4]\), on which \(G=u^q(z^q-1)\).
 On \(S_+\) the reversed mate is \(x_2^q-x_0^cx_1^bx_3^a\).
@@ -99,7 +108,7 @@ The weights of its monomials differ by \((0,q)\), and its restriction is
 \(\mathbf G_{m,u}\times\mu_q\), cut out by the \(q\)-th power of the
 transverse character equaling one.
 
-In characteristic zero, the intersection decomposes into \(q\) distinct rational quartics indexed by \(\mu_q\):
+When the characteristic does not divide \(q\), the intersection decomposes into \(q\) distinct rational quartics indexed by \(\mu_q\):
 \[
 R_\zeta=[s^4:\zeta s^3t:st^3:t^4],
 \qquad \zeta\in\mu_q.
@@ -110,8 +119,8 @@ Their only meetings are the two distinguished endpoints.
 
 On \(x_0=1\), normalizing the cusp \(x_2^4=x_3^3\) gives
 \((x_2,x_3)=(u^3,u^4)\), and the mate becomes \(x_1^q=u^q\).
-This gives the displayed components and generic reducedness in
-characteristic zero. The boundary \(x_0=0\) leaves only
+This gives the displayed components and generic reducedness when
+\(q\) is invertible. The boundary \(x_0=0\) leaves only
 \(p_\infty=[0:0:0:1]\); in the affine chart the only point with
 \(u=0\) is \(p_0=[1:0:0:0]\). A proper complete intersection has no
 embedded associated primes, so generic reducedness gives the reduced
@@ -120,8 +129,10 @@ the linked component proof.
 
 In characteristic \(p>0\), write \(q=p^r m\) with \(p\nmid m\).
 The same boundary check leaves the \(m\) translates indexed by \(\mu_m\),
-each with generic transverse length \(p^r\). For \(q=p^r\) the reduced
-support is \(C_0\). In the \((4,4)\) case the
+each with generic transverse length \(p^r\). The cycle is
+\(p^r\sum_{\zeta^m=1}[R_\zeta]\), and the residual cycle after
+subtracting \(p^r[C_0]\) has degree \(4(q-p^r)\). For \(q=p^r\)
+the reduced support is \(C_0\). In the \((4,4)\) case the
 [ruled divisor](../supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md#2-the-flat-relative-divisor-of-four-moving-sections)
 has equation \(q_{\rm rul}^4-h^4\), with sections \(q_{\rm rul}=\zeta h\)
 over a splitting field of characteristic zero. Its characteristic-two
@@ -201,6 +212,64 @@ endpoint. A primitive \(p^j\)-th root in \(\overline{\mathbf Q}_p\) has
 product of its conjugate differences using \(\Phi_{p^j}(1)=p\).
 These valuations have further levels as \(j\) grows. The quartic
 contact calculation distinguishes only the indicated character kernel.
+
+### 4.1. Attachment of the whole residual union
+
+Assume \(q\) is invertible in the ground field, and let
+\(R=\bigcup_{\zeta\ne1}R_\zeta\) with its reduced scheme structure on \(S_-\).
+The regular sequence \((-F,G)\) defines the reduced union of the \(q\)
+components by Section 3. Consequently \(((-F,G):I_{C_0})\) defines \(R\).
+Its restriction to \(C_0\) defines the effective Cartier divisor
+\[
+C_0\cap R=(q+5)p_0+(3q-3)p_\infty.
+\]
+
+For the local linkage calculation, let \(A\) be the regular ambient local
+ring, \(I=(Y,Z)\) the ideal of the curve, and \(J=(f,g)\subset I\) the
+complete-intersection ideal. Write \((f,g)^t=M(Y,Z)^t\). Adjugation
+gives \(\det M\in J:I\). The Koszul comparison on the two regular
+sequences has top map \(\det M\). Under the complete-intersection
+change of rings
+\[
+\operatorname{Ext}^2_A(A/I,A)\simeq
+\operatorname{Hom}_{A/J}(A/I,A/J),
+\]
+this map sends the generator of the left side to \(\det M\bmod J\).
+The right side identifies with \((J:I)/J\). Thus \(J:I=(J,\det M)\),
+and the determinant alone defines the residual attachment on \(C_0\).
+
+On \(x_0=1\), use \(u=x_1,\ Y=x_2-u^3,\ Z=x_3-u^4\).
+The first-normal matrix for \((-F,G)\) is
+\[
+\begin{pmatrix}
+-4u^9&3u^8\\
+-bu^{q-3}&-cu^{q-4}
+\end{pmatrix}.
+\]
+Omit terms with zero coefficient, including the \(c=0\) term when
+\(q=3\). Its determinant is \(q u^{q+5}\) since \(3b+4c=q\).
+On \(x_3=1\), take \(v=x_2,\ X=x_0-v^4,\ Y=x_1-v^3\). Here
+\(-F=X\) and \(G=(v^3+Y)^q-(v^4+X)^a v^b\), so the determinant is
+\(q v^{3q-3}\). The two charts cover \(C_0\) and give total length
+\(4q+2\). Reversal exchanges the two multiplicities on \(S_+\).
+
+For \(q=7\) in characteristic zero, the six pairwise lengths at \(p_0\)
+sum to \(18\), while the attachment to the union there has length \(12\).
+At \(p_\infty\) the carrier is smooth and both lengths are \(18\).
+The attachment divisor measures the intersection on \(C_0\). The residual
+singularities and gluing require the residual algebra. If the characteristic
+divides \(q\), the determinant vanishes identically on \(C_0\), and the
+full torus equation gives the generic multiplicity in Section 3.
+
+The October 27 independent audit reconstructed integral flatness, boundary
+completeness and the cycle, and the above linkage and attachment formula with
+\(q\) invertible. It executed the sparse Python determinant and lattice
+checks and the separate Macaulay2 global colon and union-ideal checks for
+\(q=3,4,7\) over \(\mathbf Q\). The general formulas use the written
+arguments. [Original proof](https://github.com/markluxton1/STCI/blob/b271fc5bf20a6920b1540cabd57f095139d8d7a5/research/notes/2026-10-27-positive-characteristic-construction-interface.md#4-where-the-residual-curves-attach-and-what-normal-data-sees) ·
+[Independent review and commands](https://github.com/markluxton1/STCI/blob/b271fc5bf20a6920b1540cabd57f095139d8d7a5/research/notes/2026-10-27-positive-characteristic-interface-audit.md#3-attachment-divisor-and-linkage-reconstructed) ·
+[Python source](https://github.com/markluxton1/STCI/blob/b271fc5bf20a6920b1540cabd57f095139d8d7a5/research/computations/verify_mu_q_residual_interface_2026_10_27.py) ·
+[Macaulay2 source](https://github.com/markluxton1/STCI/blob/b271fc5bf20a6920b1540cabd57f095139d8d7a5/research/computations/verify_mu_q_residual_linkage_2026_10_27.m2)
 
 ## 5. Intrinsic interpretation by jet stabilizers
 

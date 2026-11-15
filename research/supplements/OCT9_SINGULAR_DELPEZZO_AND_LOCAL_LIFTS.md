@@ -145,9 +145,8 @@ The independent
 [countercheck](../validation/2026-10-09-four-A1-family-audit/countercheck.py)
 uses universal parameters. It verifies the coordinate, cancellation,
 resultant, actual-curve, singular-locus, local-A1, cover-square,
-branch-equation and extra-point identities. The separate
-[owner checker](../../computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py)
-is also retained.
+branch-equation and extra-point identities. The [historical owner checker](https://github.com/markluxton1/STCI/blob/ab0cf6fddf3bcbeded056eb584186e566e467b30/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py)
+records the original implementation.
 
 Run the independent controls from the repository root:
 
@@ -370,7 +369,7 @@ degree. This includes all repeated-root subloci of L_C in that open.
 
 ## 5. Exact controls and independent records
 
-The [uniform exact checker](../../computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py)
+The [historical uniform checker](https://github.com/markluxton1/STCI/blob/ab0cf6fddf3bcbeded056eb584186e566e467b30/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py)
 reconstructs the actual five-by-five transformation, its determinant,
 the two quadratic equations, the elimination identity and its scalar,
 the C0 coordinate restriction, both normalization points over every
@@ -465,7 +464,7 @@ or made here.
 
 The independent audit directly checked all polynomial identities with SymPy.
 The owner's self-contained checker is
-[verify_singular_local_lift_countershield_2026_10_09.py](../../computations/verify_singular_local_lift_countershield_2026_10_09.py),
+[historical checker](https://github.com/markluxton1/STCI/blob/ab0cf6fddf3bcbeded056eb584186e566e467b30/computations/verify_singular_local_lift_countershield_2026_10_09.py),
 reported terminal `PASS`; the main note is
 [2026-10-09-session-singular-local-lift.md](#source-2026-10-09-session-singular-local-liftmd).
 A longer independent proof is preserved in
@@ -653,8 +652,7 @@ not acquire a singular-normalization extension from this local step.
 
 ## 6. Exact verification and sources
 
-The paired checker
-`computations/verify_singular_local_lift_countershield_2026_10_09.py`
+The [historical checker](https://github.com/markluxton1/STCI/blob/ab0cf6fddf3bcbeded056eb584186e566e467b30/computations/verify_singular_local_lift_countershield_2026_10_09.py)
 verifies the literal normalization relations, birational recovery
 identity, discriminant, pulled-back curve equation, mate restriction,
 generic gradient and projective homogenization. The geometric proofs
@@ -665,10 +663,8 @@ merely because a polynomial identity passed.
 Terminal replay on 2026-10-09 returned exit 0 and `status: PASS`.
 Source SHA256:
 `edb3a209b026fd2cbde4a11335087fce7430b291e6380b4774f62ca2415aa503`.
-The separate adversarial proof is saved in
-`research/notes/2026-10-09-singular-normalization-local-countershield-audit.md`;
-it accepts the example and explicitly checks the nonreduced inverse
-image scheme. Independent agreement is additional audit evidence;
+The [independent proof audit](#source-2026-10-09-singular-normalization-local-countershield-auditmd)
+accepts the example and checks the nonreduced inverse image scheme. Independent agreement is additional audit evidence;
 the mathematical proof remains the explicit argument above.
 
 Normality uses the primary

@@ -165,9 +165,11 @@ The proofs give the fixed-carrier conductor criterion, the restricted Cartier si
 
 The quartic cases supply several fixed-geometry tests. The
 [generic nonimmersion-prime audit](../supplements/OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-nonimmersion-prime-independent-auditmd)
-uses a finite birational map from a smooth projective surface, an immersed
-\(c\sim H\), and a pulled-back mate equal to a scalar times the \(n\)th
-power of its defining section with \(n\) invertible. It proves generic
+uses a finite birational map \(\nu\) from a smooth projective surface and a
+smooth integral \(c\sim H\) whose restriction \(\nu|_c\) is an immersion
+into the ambient projective space. The pulled-back mate is a nonzero
+scalar times the \(n\)th power of the defining section of \(c\), with
+\(n\) invertible. It proves generic
 immersion on every distinct integral curve \(E\) with \(H\cdot E>0\).
 The [four MF6 boundary carriers](../supplements/OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-mf6-independent-auditmd)
 give fixed characteristic-zero all-degree obstructions from a duplicated

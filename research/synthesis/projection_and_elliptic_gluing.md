@@ -744,8 +744,8 @@ Hence no elliptic normalization occurs on this degree-ten chart. The
 October 31 independent review reconstructs this calculation with fresh
 coefficient formation, a fresh resultant and a derivative-gcd layer count;
 the [independently executed control](../computations/stci_closeout_degree_ten_independent_2026_10_31.m2)
-and [captured successful output](../computations/stci_closeout_degree_ten_independent_2026_10_31.txt)
-are retained. The linear factor is \(\lambda\), already excluded, and the
+has [historical execution output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/stci_closeout_degree_ten_independent_2026_10_31.txt).
+The retirement replay reproduced its factor degrees and gcd sequences. The linear factor is \(\lambda\), already excluded, and the
 degree-lowering factor is \(169\lambda^2+280\lambda-800\). At every
 nondegenerate exceptional factor of degrees \(2,3,12,14\), successive
 derivative-gcd degrees are \((10,1,0)\): one double root and eight simple

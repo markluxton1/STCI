@@ -322,10 +322,14 @@ where the compact, complete definition of the eight polynomials is
     u_i=sum_(n=i+1)^8 binomial(n,i+1)q^(n-i-1)
                          f_n(delta,a,B,Gs,Js), i=0,...,7.  (4)
 
-The exact checker verifies the automatic factor and the reconstruction
-by all eight extracted coefficients. The expanded polynomial arrays
-`u0,...,u7` are retained together, beginning with
-[`u0`](../validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z/nonendpoint_single_root_u0.txt).
+The exact checker verifies the automatic factor and reconstructs the
+polynomial from all eight coefficients. Run
+`M2 --script research/computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2`
+from the repository root to write the expanded arrays `u0,...,u7` and the
+factors `L1`, `L2`, and `L2` in the `kappa` coordinate to `/private/tmp`.
+Macaulay2 1.26.06 reproduced all eleven
+[original polynomial exports](https://github.com/markluxton1/STCI/tree/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-12-nonendpoint-single-root-taylor/20261013T142033115594Z) byte for byte. The first four arrays and expanded `L2` are inputs to
+the exact checks and the collision-target resultant probe.
 They have respectively 196,230,210,199,166,133,96,61 monomials before the
 change from `B` to `kappa` (the counts are descriptive and do not prove
 independence of the equations).

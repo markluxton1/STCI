@@ -131,7 +131,7 @@ d_{a,b}(u)
 
 The benchmark uses \(a=2,b=3\). Its determinant has degree 18, constant coefficient 4, and leading coefficient 3. Its derivative is relatively prime to it over \(\mathbf Q\), so its 18 geometric zeros are distinct. The nonzero constant excludes \(p=[1:0:0:0]\); the degree 18 with nonzero leading coefficient excludes \(q=[0:0:0:1]\).
 
-The [independent standard-library verifier](../computations/verify_ci_smooth_residual_boundary_2026_10_25.py) constructs the actual homogeneous equations, differentiates them in the normal coordinates, and independently checks (3), degree 18, endpoint absence, and the exact Euclidean gcd. Its [JSON output](../computations/ci_smooth_residual_boundary_2026_10_25.json) records the result. That script checks the boundary; the Macaulay2 calculation separately checks the entire residual curve.
+The [independent standard-library verifier](../computations/verify_ci_smooth_residual_boundary_2026_10_25.py) constructs the actual homogeneous equations, differentiates them in the normal coordinates, and independently checks (3), degree 18, endpoint absence, and the exact Euclidean gcd. The retirement replay matched the [historical JSON output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/ci_smooth_residual_boundary_2026_10_25.json). That script checks the boundary; the Macaulay2 calculation separately checks the entire residual curve.
 
 In the terminology of the [valuative contact-cycle note](valuations_and_residual_contact.md), if \(R=[D]\), then
 
@@ -551,7 +551,7 @@ The standard-library
 constructs the actual homogeneous forms, derives their first symbols, compares
 the determinant with this formula, and checks
 \(\gcd(\Delta,\Delta')=1\) over \(\mathbf Q\). Its
-[JSON evidence](../computations/ci_smooth_residual_boundary_2026_10_25.json)
+[historical JSON evidence](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/ci_smooth_residual_boundary_2026_10_25.json)
 records the nineteen coefficients. This is independent complementary evidence
 for eighteen simple attachments and for endpoint avoidance; the projective
 residual smoothness comes from the separate Jacobian and cohomology checks.

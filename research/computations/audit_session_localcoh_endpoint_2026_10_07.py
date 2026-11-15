@@ -100,8 +100,14 @@ assert s.expand(homogeneous_resultant(p.subs(exception_values), r.subs(exception
                 (d+8)/4) == 0
 
 # Verify the saved seeds for all four families, whether or not M2 completed.
-for index in range(1, 5):
-    seed_data = json.loads((HERE/f'session-localcoh-origin-family-{index}-seed.json').read_text())
+seed_inputs = [
+    'session-localcoh-origin-family-1-seed.json',
+    'session-localcoh-origin-family-2-seed.json',
+    'evening_localcoh_boundary_3_2026_10_13-seed.json',
+    'evening_localcoh_boundary_4_2026_10_13-seed.json',
+]
+for index, seed_input in enumerate(seed_inputs, 1):
+    seed_data = json.loads((HERE/seed_input).read_text())
     seed = s.Matrix([s.sympify(v, locals={'k': k}) for v in seed_data['seed']])
     kernel = s.Matrix([s.Rational(v) for v in seed_data['kernel']])
     assert M*kernel == s.zeros(32, 1) and kernel != s.zeros(30, 1)
@@ -150,8 +156,7 @@ subprocess.run([sys.executable, str(HERE/'verify_session_localcoh_q2_dual_2026_1
 inputs = ['localcoh-symbol-top.json', 'session-localcoh-origin-parametrize.py',
           'session-localcoh-origin-boundary.py', 'session-localcoh-origin-generic-dual.py',
           'session-localcoh-origin-family-1-polynomial-dual.json',
-          'session_localcoh_q2_dual_audit_2026_10_07.json'] + \
-         [f'session-localcoh-origin-family-{index}-seed.json' for index in range(1, 5)]
+          'session_localcoh_q2_dual_audit_2026_10_07.json', *seed_inputs]
 (HERE/'session_localcoh_endpoint_audit_2026_10_07.json').write_text(json.dumps({
     'input_sha256': {name: hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in inputs},
     'classification': 'PASS: all primitive h=t endpoint directions, both p0*r0!=0 and p0=0 boundary',

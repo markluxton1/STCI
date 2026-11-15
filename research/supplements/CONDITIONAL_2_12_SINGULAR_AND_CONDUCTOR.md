@@ -487,10 +487,9 @@ generic two-node open is
     p*(2*x^2+1)*(p-x^2-2)*(x^2+2) !=0.
 
 The saturation of (7) plus (6) by this open is the unit ideal
-over `QQ`. The calculation completed with return code zero in
-0.407 seconds and maximum RSS 122,503,168 bytes. Its exact input,
-log and run metadata have common stem
-`../computations/conditional_2_12_singular_continuation_2026_10_21_line_component_w1`.
+over `QQ`. The historical calculation returned zero in 0.407 seconds with maximum
+RSS 122,503,168 bytes. The [exact rational input](../computations/conditional_2_12_singular_continuation_2026_10_21_line_component_w1.m2) reproduces
+(7) and the unit saturation. [Historical run output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_singular_continuation_2026_10_21_line_component_w1.log).
 
 For a primitive cube root, use the exact number field
 `QQ[w]/(w^2+w+1)` and keep `a,x`. The actual open is
@@ -499,10 +498,9 @@ For a primitive cube root, use the exact number field
 
 The same first-unit elimination followed by adding (6) and
 saturating this open again returns the unit ideal. It completed
-with return code zero in 1.242 seconds, maximum RSS 283,295,744
-bytes; the common artifact stem ends in
-`_line_component_primitive`. Both conjugate primitive roots are
-covered by this number-field calculation.
+with return code zero in 1.242 seconds with maximum RSS 283,295,744
+bytes. The [exact number-field input](../computations/conditional_2_12_singular_continuation_2026_10_21_line_component_primitive.m2) covers both
+conjugate primitive roots. [Historical run output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_singular_continuation_2026_10_21_line_component_primitive.log).
 
 Thus all three `w` branches of the generic line component are
 excluded, before the complete second obstruction or global cubic
@@ -548,9 +546,16 @@ artifact stems are
     ../computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_w1
     ../computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_primitive.
 
-Their `.log` files also record the redundant first-plus-torsion
-unit calculation. The first-order contraction alone proves the
-exclusion on the open (8).
+The [rational input](../computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_w1.m2) gives `(t-2)` and the
+[number-field input](../computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_primitive.m2) gives `(1)` before torsion.
+The first-order contraction proves the exclusion on (8). The
+[rational run output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_w1.log) and
+[number-field run output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_singular_continuation2_2026_10_21_boundary_B0_primitive.log) also record the
+redundant first-plus-torsion unit calculation.
+
+The historical outputs of the two line and two boundary calculations
+were reproduced with `M2 --script` on the four linked inputs from the
+repository root.
 
 The `C=0` boundary is covered by the **actual** coordinate reversal
 `x0<->x3,x1<->x2` preserving `C0`. Its first normal action in the
@@ -1183,7 +1188,7 @@ four numerical approximations.
 
 The [lightweight exact family verifier](../computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.m2)
 was also run successfully, as recorded in its
-[saved output](../computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.json).
+[historical successful run record](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.json).
 It checks both exact ideal containments by rational normal forms,
 with dimension zero and degree four, between the saved
 first/quadric-cubic family ideal and the triangular ideal defining `P=0`. This bridges the tiny identity

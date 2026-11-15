@@ -295,10 +295,13 @@ the stronger degree-one annihilator is necessary: the four-by-two
 matrix with rows (c1,c2),(c2,c3),(c3,c4),(c4,c5) must have nonzero
 kernel. The condition is rank at most one, not merely (6).
 
-The session exporter `session_uniform_e2_hankel.py` imports the retained
-exact moving-coordinate generator and writes only
-`scratch/session_uniform_e2_hankel.json`. It derived c_j with a
-single homogeneous-resultant denominator Delta; the Hankel determinant
+The [Hankel exporter](../computations/session_uniform_e2_hankel.py) imports
+the exact moving-coordinate generator. From the repository root, run
+`python3 research/computations/session_uniform_e2_hankel.py` with SymPy
+to produce `research/scratch/session_uniform_e2_hankel.json`. SymPy
+1.14.0 reproduced the [historical export](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/scratch/session_uniform_e2_hankel.json) byte for byte from
+absent output. The calculation gives c_j with a single
+homogeneous-resultant denominator Delta. Then the Hankel determinant
 reduces to P16/Delta, with P16 homogeneous of degree sixteen and
 1112 monomials. The numerator vanishes to order at least six in
 (2a1+b0,2a2+b1). Its parity specialization is

@@ -1436,10 +1436,10 @@ exclusion. Thus a normal degree-eight carrier cannot have an everywhere
 primitive symbolic quadruple with free conormal `O(-6)`. This uses the full
 symbolic quadruple hypothesis, not merely its generic first symbol.
 
-The exact [new computation](../computations/moving_linear_cubic_compatibility_2026_10_14.py)
-and [full coefficient output](../validation/2026-10-14-moving-linear-cubic/cubic-results.json)
-preserve the complete discrepancy and the retained obstruction for all three
-strata. No inherited accepted computation was rerun.
+The [coefficient calculation](../computations/moving_linear_cubic_compatibility_2026_10_14.py)
+reproduced the [full coefficient output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-14-moving-linear-cubic/cubic-results.json) byte for byte, including the discrepancy and obstruction on all three
+strata. Run `python3 research/computations/moving_linear_cubic_compatibility_2026_10_14.py`
+from the repository root to regenerate it.
 
 
 ---

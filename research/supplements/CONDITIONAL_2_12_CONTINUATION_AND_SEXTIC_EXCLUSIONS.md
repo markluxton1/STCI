@@ -731,7 +731,7 @@ The exact new computations are:
   [its exact equations](../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.m2),
   and [all sixteen nonzero specialized equations](../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.json);
 - [lightweight exact certificate](../computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.m2)
-  and [successful output record](../computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.json);
+  and [historical successful run record](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.json);
 - [independent rational-arithmetic reconstruction](../computations/conditional_2_12_cont2_independent_unit_audit_2026_10_21.py),
   whose exact residual comparison and raw unit identity are explained below.
 
@@ -739,9 +739,9 @@ The lightweight certificate runs with
 `M2 --script research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_free_orbit_certificate.m2`.
 It checks both exact ideal containments and then checks the final unit
 identity by literal polynomial multiplication. It does not rely on a
-unit marker from an interrupted large elimination. Its saved successful
-output establishes completion of this smaller exact check; the large
-coefficient-lift dump supplies no additional proof step.
+unit marker from an interrupted large elimination. The historical run and the retirement replay both completed the two
+exact ideal containments and the raw polynomial unit identity. The large
+coefficient-lift dump adds no step to these checks.
 
 ## The norm-symbol equations collapse to a symmetric family
 
@@ -870,8 +870,8 @@ d2=108h7^3-(9/2)h7,
 
 Both ideal containments are verified over `QQ`, and the independent
 audit reconstructs the same ideal from its own first/C3 construction.
-Thus this step is an exact scheme calculation, not a sample. It has
-dimension zero and degree four. Writing `h=h7`, one also has
+The [augmented-matrix comparison](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-21-conditional-2-12-elimination/independent_family_ideal_audit.m2) replayed in Macaulay2 1.26.06 and gave the same dimension-zero,
+degree-four ideal. Writing `h=h7`, one also has
 `24th=1` and `d2=16t-12h`. The four points obey
 
 ```text
@@ -883,6 +883,13 @@ They satisfy `det J!=0`: here `det J=(d2^2-1)^2` and
 observation is a consistency check; the exact ideal computation was
 performed on a closed enlargement and did not discard the determinant
 boundary during its calculation.
+
+On this four-point scheme, `D=1+d2*z^2+z^4` has discriminant
+`16*(d2^2-4)^2`. If `d2^2=4`, the relation `d2^2=216*h^2-11` forces
+`h^2=5/72`, where `648*h^4+45*h^2-4=9/4`. Thus all four candidate
+quartics are squarefree. This calculation uses the eight first and four
+quadric cubic equations without a Schur pivot condition. The
+[earlier discriminant certificate builder](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-21-conditional-2-12-elimination/schur_discD_qq_certificate_builder.m2) checks a smaller chart with a specified invertible pivot.
 
 ## Full global sextic C3 gives a two-line unit certificate
 

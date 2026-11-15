@@ -149,7 +149,10 @@ Explicitly the first space uses
 `Q in <uz,uw,vz,vw,z^2,zw,w^2>`, the degree-two part of the line ideal,
 not just the degree-two part of its square. If qQ=T_a*l with l linear,
 primality of q forces q to divide l, hence both sides are zero. Thus
-the seven-plus-four dimension remains exact at a=0 as well.
+the seven-plus-four dimension remains exact at a=0 as well. An
+[independent Macaulay2 check](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-10-trisecant-ideal-independent-audit/countercheck.m2) verifies the ideal identity over `QQ[a]`, the monomial-curve kernel
+and the quartic ranks on six rational fibers. The two proofs above give
+uniform coverage.
 On q its entire divisor is
 
     div(F|q) = C0 + 2 Gamma + (q cap {L0=0}).

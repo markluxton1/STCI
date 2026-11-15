@@ -270,4 +270,4 @@ The [geometric root pencil](root_pencil_geometry.md) supplies actual component c
 
 ## Exact arithmetic support
 
-The [collision-tree verifier](../computations/verify_ci_cycle_root_collision_valuations_2026_10_25.py) and [saved output](../computations/ci_cycle_root_collision_valuations_2026_10_25.json) retain the exact discriminant and scale calculations. They were not rerun here. The proof above uses the actual Newton polygons and residue polynomials; a list of root valuations alone would miss the residual collision.
+The [collision-tree verifier](../computations/verify_ci_cycle_root_collision_valuations_2026_10_25.py) checks the discriminant and scale calculations with standard Python. Pass an output path as the first argument to save its JSON report. The retirement replay reproduced all 50 checks and matched the [historical output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/ci_cycle_root_collision_valuations_2026_10_25.json) byte for byte. The proof above uses the actual Newton polygons and residue polynomials; a list of root valuations alone would miss the residual collision.

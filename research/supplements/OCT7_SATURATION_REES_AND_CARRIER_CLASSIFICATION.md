@@ -228,8 +228,10 @@ The fresh audit compares every polynomial, rather than samples: if `U_i` are the
 
 The universal resultant also specializes exactly to the source P-044 resultant. The reversal of coordinate order and the scalar `1/32` are explicit and harmless to the zero locus. Hence `K` restricts to `(alpha,beta)` already before imposing `dx=1`. Restricting the verified universal theorem therefore gives a shorter comparison proof of the same set-theoretic classification. The standalone saturation proof above does not depend on that theorem.
 
-For provenance, the comparison currently reads the explicitly identified isolated validation snapshot
-`research/validation/2026-10-06-session/isolated/research/scratch/primitive47universal/equations.json`. Its SHA256, the original obstruction source SHA256, and the multiplier-file SHA256 are saved in the fresh JSON audit record. The mathematical saturation result is computed from the original persisted four-parameter polynomials, not from this snapshot.
+The optional comparison used the [exact isolated validation snapshot](https://github.com/markluxton1/STCI/blob/8bc129d2ba50cddaf10212efb6e9df33f8f8a926/research/validation/2026-10-06-session/isolated/research/scratch/primitive47universal/equations.json).
+Its SHA256, the original obstruction source SHA256, and the multiplier-file SHA256
+are recorded in the historical audit. The standalone saturation computation uses
+the original four-parameter polynomials and skips the comparison when the snapshot is absent.
 
 ## Consequence and continuation instructions
 

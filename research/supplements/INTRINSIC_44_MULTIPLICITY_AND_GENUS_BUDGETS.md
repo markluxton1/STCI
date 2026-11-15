@@ -240,7 +240,15 @@ Then \(\nabla R_0|_C=s^8v\), \(\nabla R_1|_C=ht^8v\), and v is nowhere zero. Thu
 \]
 There is no common projective zero: R0 is smooth at every finite point of C, and R1 is smooth at infinity. For \(\alpha\beta\ne0\), there are eight distinct moving zeros, hence eight moving A2 points. No common singular point on C is forced by multiplicity three. Eight A2 configurations have total exceptional rank sixteen, which by itself causes no K3 rank contradiction.
 
-The exact factorization and chart checks are reproducible with the standard-library [verifier](../computations/verify_44_triple_residual_example_2026_10_26.py). These finite identities are distinct from the global purity and properness proof above. No inherited certificate is rerun.
+The standard-library [verifier](../computations/verify_44_triple_residual_example_2026_10_26.py)
+replayed the fifteen exact factorization and chart checks and reproduced the
+[saved output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/44-triple-residual-2026-10-26/checks.json) byte for byte.
+The geometric argument above supplies global purity and properness. To
+replay the finite identities, run
+
+```sh
+python3 research/computations/verify_44_triple_residual_example_2026_10_26.py --output /tmp/stci-44-triple-residual.json
+```
 
 ## 7. Residual genus and what is not classified
 

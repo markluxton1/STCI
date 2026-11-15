@@ -230,8 +230,7 @@ insufficient.
 
 The displayed affine line has degree one and its projective
 homogenization is not asserted to provide the fixed degree-four
-C0 or a projective mate. The computational companion
-`computations/verify_a1_singular_conductor_parity_shield_2026_10_09.py`
+C0 or a projective mate. The [historical checker](https://github.com/markluxton1/STCI/blob/ab0cf6fddf3bcbeded056eb584186e566e467b30/computations/verify_a1_singular_conductor_parity_shield_2026_10_09.py)
 checks the literal equations, finite relation, resultant, complete
 presentation determinant, node factorization, branch orders, and
 descended-square identity. The proofs above establish normality,
@@ -1496,9 +1495,11 @@ is a smooth plane conic in characteristic zero. Pulling J to B gives
 (L), since D=-Lz in B. The upstairs conductor is the Cartier
 hyperplane curve E=V(L) on S. It is the degree-two cover of Gamma
 given by z^2=pq. The cover has generic degree two and has four distinct
-simple branch points, namely Gamma intersect {pq=0}. Those four
-points are distinct because Gamma contains neither p=q=0 nor a
-tangency to either coordinate line. Hence E is a smooth genus-one
+simple branch points, namely Gamma intersect {pq=0}. On p=0 and q=0
+the quadratic restrictions of D|L have discriminants 448t^2 in q
+and 112t^2 in p, respectively. Neither has a root at t=0. At the
+intersection p=q=0 the value is -8t^2. Thus the four points are
+distinct, and E is a smooth genus-one
 curve. The four A1 vertices have L-values -14,-1,-2,-28, respectively,
 so E avoids them.
 
@@ -1593,7 +1594,8 @@ of a chosen quadric.
 
 ## 7. Verification and scope
 
-`computations/verify_dp4_projection_local_lift_2026_10_09.py` checks
+The [historical checker](https://github.com/markluxton1/STCI/blob/ab0cf6fddf3bcbeded056eb584186e566e467b30/computations/verify_dp4_projection_local_lift_2026_10_09.py)
+checks
 the invertible coordinate change, exact quadrics and eliminant,
 RNC parametrization, actual module relations, conductor conic,
 vertex values, squared-cover quadric, and all conductor crossing
@@ -1611,10 +1613,9 @@ two differently factored expressions for the same discriminant. The
 expanded difference was exactly zero. The correction compares that
 expanded difference with zero; it changes no mathematical identity.
 
-An independent adversarial proof accepted the finite birational
-normalization, actual conductor module and all-mate fiber obstruction;
-it is saved in
-`research/notes/2026-10-09-session-dp4-projection-independent-audit.md`.
+The [independent proof audit](#source-2026-10-09-session-dp4-projection-independent-auditmd)
+accepted the finite birational normalization, actual conductor module
+and all-mate fiber obstruction.
 Serre's criterion used above is the primary
 [Stacks Project lemma](https://stacks.math.columbia.edu/tag/031S).
 

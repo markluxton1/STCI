@@ -33,6 +33,69 @@ Hilbert limits can organize possible boundaries, but they need not
 remain complete intersections. Weight decompositions can refine
 deformation calculations without replacing the global equation test.
 
+### Fixed-degree multiplicity strata of actual pairs
+
+Over an algebraically closed field, let \(U_{a,b}\) be the open set of
+proper pairs in
+\(\mathbf P H^0(I_C(a))\times\mathbf P H^0(I_C(b))\), with \(C=C_0\)
+fixed. Write \(B=\lfloor ab/4\rfloor\). On the chart \(x_0=1\), put
+\(x_1=u,\ x_2=u^3+X,\ x_3=u^4+Y\), and let
+\[
+ A=k(u)[X,Y]/(X,Y)^{B+1},\qquad D=\dim_{k(u)} A.
+\]
+Each generic transverse quotient on \(U_{a,b}\) has length
+\(m_C\le B\) by the cycle degree identity. Its maximal ideal has
+\(m_C\)-th power zero by the successive-factor length argument, so
+\[
+ m_C=D-\operatorname{rank}_{k(u)}\bigl(A^2\longrightarrow A,
+            \ (h,j)\longmapsto hF+jG\bigr).
+\]
+Use all truncated monomial multiples of both equations as columns.
+Entries are polynomials in \(u\) with coefficients in the actual scalar
+equation parameters on affine coefficient charts. The coefficients in
+\(u\) of the minors for rank at most \(D-r\) cut out the closed
+condition \(m_C\ge r\) in each chart. Rescaling either equation preserves
+the rank. For equal degrees, changing the basis of the pencil also
+preserves it, so the loci descend via local bases to the proper open
+set of the Grassmannian. Along a specialization in the proper locus,
+\(m_C\) can increase and the residual degree can drop. When \(4\mid ab\),
+sole support is the terminal stratum \(m_C=ab/4\) by degree exhaustion
+and purity. The strata can be empty.
+
+In characteristic zero, the first thickness increase for sextic pencils
+has a smaller presentation. For \(V=H^0(I_C(6))\), the map
+\[
+ \Phi:\bigwedge^2 V\longrightarrow
+ H^0(C,\det N_C^*\otimes O_C(12))=H^0(\mathbf P^1,O(34))
+\]
+takes the wedge of the two first-normal symbols. It is surjective by
+[attachment-map dominance](residual_global_models.md#3-new-deduction-attachment-map-dominance-for-all-abge4):
+the image of the surjective differential of the affine wedge map is
+contained in \(\operatorname{im}\Phi\). The quotient has length one
+exactly when the two first symbols span the generic conormal space,
+by Nakayama. Thus the \(m_C\ge2\) locus in the proper open subset of
+\(\operatorname{Gr}(2,V)\) is its intersection with
+\(\mathbf P(\ker\Phi)\) in Plücker space. The 35 ambient linear equations
+are independent. With \(\dim V=59\), every component of the projective
+linear section has dimension at least \(114-35=79\).
+The equations' independence gives no transversality on the Grassmannian.
+
+For \(q=x_0x_3-x_1x_2\) and \(f=x_0^2x_2-x_1^3\), the pencil
+\((qx_0^4,f^2)\) is proper. In the displayed chart its completed
+transverse ideal is \((Y-uX,X^2)\), so it has exact length two and
+residual degree 28. This gives a nonempty first-thickness stratum.
+Imposing the full-jet rank threshold for \(m_C\ge3\) on its components
+remains a separate incidence problem. The \(m_C=9\) endpoint still
+requires a proper pencil.
+
+The [source proof](https://github.com/markluxton1/STCI/blob/b271fc5bf20a6920b1540cabd57f095139d8d7a5/research/notes/2026-10-27-intersection-multiplicity-strata.md)
+and [independent review](https://github.com/markluxton1/STCI/blob/b271fc5bf20a6920b1540cabd57f095139d8d7a5/research/notes/2026-10-27-intersections-integration-audit.md)
+record the fixed-degree rank calculation, descent by scalar coefficient
+equations, endpoint equivalence, and the sextic wedge calculation and
+proper witness. The review also fixes the genus distinction between
+full residual removal and the [once-link family](residual_liaison.md#21-the-once-linked-curve-is-flat-through-multiplicity-jumps).
+
+
 ## 1. Three different deformation problems
 
 A proposal to absorb residual curves can involve three distinct objects:

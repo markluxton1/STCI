@@ -307,8 +307,9 @@ Exact companion verification:
 `research/computations/verify_normal_quartic_simple_elliptic.py`, run with `python3`, checks the weighted homogeneity,
 axis differential orders and smooth weighted charts of all five local
 pair forms, 53 permitted ADE rows of rank at most 11, and the three strict
-rational gaps. It returned `PASS`. The saved output is
-`research/computations/normal_quartic_simple_elliptic_2026-10-06.json`.
+rational gaps. It returned `PASS`. The retirement replay with SymPy 1.14.0
+matched the [historical output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/normal_quartic_simple_elliptic_2026-10-06.json)
+on stdout.
 The script checks formulas, not the classification theorems or the
 geometric deductions; those hypotheses remain explicit in this proof.
 

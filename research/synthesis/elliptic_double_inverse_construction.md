@@ -11,11 +11,10 @@ five-parameter support and descent loci remain uncomputed.
 The global sections, fixed normalization, inverse-scheme length, normal
 geometry and fixed-member rejection have independent source review. These
 are reviewed statements. The exact
-[Macaulay2 source](../computations/stci_game_existence_2026_10_30.m2) and
-[complete saved output](../computations/stci_game_existence_2026_10_30.txt)
-are retained from commit `b271fc5bf20a6920b1540cabd57f095139d8d7a5`.
-Their execution and the independent October 31 existence audit are reused;
-this integration did not rerun the calculation. The unrestricted
+[Macaulay2 source](../computations/stci_game_existence_2026_10_30.m2) comes
+from commit `b271fc5bf20a6920b1540cabd57f095139d8d7a5`. Its execution and
+the independent October 31 existence audit are reused. The retirement replay
+matched the [historical output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/stci_game_existence_2026_10_30.txt). The unrestricted
 characteristic-zero STCI question remains open.
 Independent preservation review accepted this integrated proof, including
 all section rows, full scheme/support tests, rank strata and conditional filters.
