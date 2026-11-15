@@ -1522,18 +1522,7 @@ The compact exporter gives exactly 48 nonzero scalar coefficient equations from 
 
 ## 5. Reproduction and current computational boundary
 
-Run
-
-    python3 research/computations/conditional_2_12_elimination_2026_10_20.py
-
-The exporter reconstructs the hierarchical model, whose M2 presentation reports `COMPACT_BASE_MODEL_READY` and `COMPACT_CUBIC_EQUATIONS=48`. This is an equation export, with no Groebner computation. The model is smooth-open only for the bounded CAS trial; singular-root strata remain in the parent structured incidence and are not excluded by this note.
-
-The bounded QQ trials in `research/validation/2026-10-20-conditional-2-12-elimination/` preserve exact input files, return codes, and resource limits. Early expanded models and the first compact base model hit their 60-second CPU limits. These runs supplied **no ideal, dimension, unit, or emptiness certificate**. The final reduced cubic trial is recorded separately. No theorem may be inferred from a CPU-limited or killed process.
-
-The precise unresolved computation is the intersection of these compact first/global-cubic equations with the inherited complete second test and full spectral torsion, together with the endpoint-zero charts. Even a nonempty answer would remain a low-order incidence rather than a global pair.
-
-
----
+The [exact exporter](../../computations/conditional_2_12_elimination_2026_10_20.py) reconstructs the hierarchical model and M2 presentation (COMPACT_BASE_MODEL_READY, COMPACT_CUBIC_EQUATIONS=48), **not** a Gröbner calculation. Bounded rational trials under research/validation/2026-10-20-conditional-2-12-elimination/ reached 60-second CPU limits and produced no ideal, dimension, unit, or emptiness certificate; the final reduced cubic trial is separate. The unresolved intersection combines first/global cubic equations, the complete second test, full spectral torsion, and endpoint-zero charts. Even a point of this incidence is not an actual global pair.
 
 ## 2026-10-20-conditional-2-12-global-realization-incidence
 
