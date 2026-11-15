@@ -34,12 +34,8 @@ all-stage and endpoint controls.
 
 ## Mathematical scope and interfaces
 
-This approach uses **local cohomology, conormal geometry, and principal
-parts** to investigate simultaneous ancestors and their implications for
-supported intersections. The [conormal interpretation](../../arguments/local-cohomology/local_cohomology_conormal_geometry.md)
-connects the module to transverse jets. The
-[finite direction reduction](../../results/quartic_ancestor_direction_reduction.md)
-is established for the specified quartic test; the
+The [finite direction reduction](../../results/quartic_ancestor_direction_reduction.md)
+applies to the specified quartic test; the
 [two-target equations](open_quartic_ancestors.md) remain unresolved.
 The [polynomial-dual argument](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md)
 and [all-stage obstructions](../../arguments/local-cohomology/local_cohomology_ancestor_obstructions.md)
@@ -62,12 +58,8 @@ allowed lifts. A higher-degree multiplier brings different source and
 principal-part spaces; the fixed quartic test cannot supply full-module
 coverage.
 
-The [formal-normal approach](../formal-normal-geometry/index.md) shares
-normal directions and filtrations, but a common ancestor and an
-embedded thickening are different realizations. The
-[residual comparison](../residual-construction/index.md) matters even
-for a positive answer to the quartic test: its
+A common ancestor and an embedded thickening are different realizations.
+Even a positive quartic ancestor answer has a residual consequence: the
 [generic-length calculation](../../arguments/local-cohomology/direction_and_apolarity.md#2026-10-05-localcoh-generic-length)
-gives a residual cycle of degree four for any such pair. The
-characteristic-zero quartic carrier theorem therefore does not answer
+gives a residual cycle of degree four for any such pair. The characteristic-zero quartic carrier theorem does not answer
 this fixed two-target question.
