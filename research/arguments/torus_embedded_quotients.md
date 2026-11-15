@@ -552,31 +552,7 @@ between geometric endpoint data and opposite full Hilbert limits remains open.
 
 ## Review
 
-The [original exposition and its source review note](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#orbit-closure-families-endpoint-gluing-and-projective-equations)
-record review of the image, proper-pair, endpoint and collision arguments,
-including the characteristic-three calculation. The finite arithmetic was
-checked separately. This source review predates the reconstruction decision.
-
-Independent reconstruction review, 2026-11-04: reviewer
-pilot_review_hilbert accepted this Argument and the exact R-0051--R-0056
-routes with no blockers. The reviewer independently reconstructed finite
-image formation, saturation, finite charts, Cohen--Macaulay purity,
-the endpoint exact sequence and Hilbert polynomial, pure-curve degree
-exhaustion including its finite-support kernel, and the gcd-one criterion
-using the actual equation spaces. The review also reconstructed the
-benchmark conductors, the type-two endpoint, and the relative flat
-collision and image base-change proof. The explicit weighted-product
-closure argument was checked on semisimple as well as nilpotent fibers.
-The evaluation determinant 1505/7962624, coefficient determinant 36,
-truncated nilpotent identity, and characteristic-two and
-characteristic-three reductions were independently recomputed.
-Preservation of the constant-quotient source mathematics, including the
-binomial Smith-normal-form section, was checked.
-
-This decision has basis reconstructed and accepts only those exact
-scopes. The moving-modification positivity theorem and the separate
-legacy R-0021 proof were outside review. No global STCI conclusion or
-endpoint/opposite-limit comparison was accepted.
+The [source exposition](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#orbit-closure-families-endpoint-gluing-and-projective-equations) and independent reconstruction checked finite image formation and saturation, Cohen–Macaulay purity, endpoint sequences/Hilbert polynomial, pure-curve degree exhaustion, finite-support kernels, actual equation-space gcd-one criterion, benchmark conductors, type-two endpoints, and relative-flat collision/base-change arguments, including semisimple and nilpotent fibers. Exact checks include determinants \(1505/7962624\) and \(36\), truncated nilpotent identities, and characteristic-two/three reductions. The constant-quotient and binomial Smith-normal-form material was preserved. The **moving-modification positivity theorem**, legacy R-0021, global STCI, and opposite-limit comparison were outside this review.
 
 ## Finite replay evidence {#finite-replay-evidence}
 
