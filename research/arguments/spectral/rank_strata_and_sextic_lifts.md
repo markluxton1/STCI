@@ -2000,38 +2000,8 @@ condition (11) are the stopping point, as requested.
 
 ## 9. Reproduction and verification limits
 
-The [symbol producer](../../computations/conditional_2_12_symbol_map_2026_10_20.py)
-writes the [exact matrices and seed certificate](../../computations/conditional_2_12_symbol_map_2026_10_20.json).
-The tangent comparison reads the [saved first-incidence Jacobian](../../computations/generalization_quadratic_root_curve_universal_incidence.json).
-Its SHA256 is recorded in the symbol output. The
-[independent direct-binomial verifier](https://github.com/markluxton1/STCI/blob/8f7fc950c8868d2e02d98c31bb028d15930f9dd1/research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py)
-reconstructs the symbol matrices and seed ranks over the rationals.
-Its JSON report was reproduced byte for byte during retirement.
-[Historical reconstruction report](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.json).
-The [structured exporter](../../computations/conditional_2_12_structured_incidence_2026_10_20.py)
-uses the [inherited first and second equation generator](../../computations/generalization_quadratic_root_global_second_model.py).
+The [exact symbol producer](../../computations/conditional_2_12_symbol_map_2026_10_20.py), [saved matrices](../../computations/conditional_2_12_symbol_map_2026_10_20.json), [independent rational-binomial audit](https://github.com/markluxton1/STCI/blob/8f7fc950c8868d2e02d98c31bb028d15930f9dd1/research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py), and [structured incidence exporter](../../computations/conditional_2_12_structured_incidence_2026_10_20.py) are the exact reproduction sources. The saved first-incidence Jacobian and inherited second-equation generator are separate inputs. The independent report was reproduced byte-for-byte at retirement; the historical commands were Python symbol producer, independent audit, structured exporter, and the resulting M2 script, in that order. Run only in a scratch checkout because producers write beside inputs. The M2 stage certifies equation presentation (markers STRUCTURED_MODEL_READY and NEXT_GLOBAL_LIFT_EXPORTED), **not** elimination, nonemptiness, or actual realization.
 
-Run from the repository root in a scratch checkout, since these scripts
-write their outputs next to the inputs. The Python scripts use only the
-standard library.
-
-The archived command uses [conditional_2_12_symbol_independent_audit_2026_10_20.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py) from the pinned repository snapshot.
-
-```sh
-python3 research/computations/conditional_2_12_symbol_map_2026_10_20.py
-python3 research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py
-python3 research/computations/conditional_2_12_structured_incidence_2026_10_20.py
-M2 --script research/computations/conditional_2_12_structured_incidence_2026_10_20.m2
-```
-
-The final command constructs the ideals and reports `STRUCTURED_MODEL_READY`
-and `NEXT_GLOBAL_LIFT_EXPORTED`. This checks the equation presentation.
-Elimination, nonemptiness and realization remain open at this level.
-
-
-
-
----
 
 ## 2026-10-20-conditional-2-12-incidence-audit
 
