@@ -554,22 +554,7 @@ of an unclassified family is certified.
 
 ### Scope and method
 
-The reviewer read research/INDEX.md first, then the minimal spectral and
-first-normal premises. The source's final saved text was read, including
-the refinement that the source determinant is automatic after full
-Gorenstein admissibility and the stated cohomology vanishings.
-
-The base setting is a smooth connected projective curve C in a smooth
-threefold X over an algebraically closed field, and an embedded pure CM
-lower thickening Y with sole support C and generic curvilinear length
-n>=2. The arguments are characteristic independent except for the
-explicit characteristic-zero conormal description of C0.
-
-Accepted saturated pairings and the first-normal bound R0019
-are premises, not rerun proofs. The reviewer independently checked the
-new equation-module constructions, extension argument, converse,
-source criterion, and coefficientwise divisor comparison. No isolated
-example or finite sample was used to infer a family statement.
+The argument concerns a smooth connected projective curve \(C\) in a smooth threefold \(X\) over an algebraically closed field and a pure Cohen–Macaulay lower thickening \(Y\) with sole support \(C\), generically curvilinear of length \(n\ge2\). It is characteristic-independent except for the characteristic-zero conormal description of \(C_0\). Accepted saturated pairings and first-normal bound R-0019 are premises. Independent review checked equation modules, extension/converse, the actual-source determinant (automatic after full Gorenstein admissibility and the stated cohomology vanishings), and coefficientwise divisor comparison; no finite example was used to infer a family result.
 
 ### 1. The equation module and its power line
 
