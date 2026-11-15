@@ -43,19 +43,9 @@ The correction equation with \(z_B=1\) requires total block contribution three. 
 
 ## 5. Two earlier proof paths: exact overlap and unique content
 
-The following comparison is based on reading the original notes, not just their titles or status labels. It determines **mathematical redundancy**, not yet safe file deletion.
+The earlier [conditional endpoint argument](https://github.com/markluxton1/STCI/blob/41c48d13819c318b70a51eebf1478b5b7916c925/research/notes/2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md) treats an irreducible \((1,2)\) residual under the normal Gorenstein blowup and horizontal-correction hypotheses. Its distinct crossing calculation follows; the [complete endpoint proof](../../arguments/carriers/genus_two_endpoint_proof.md) also handles reducible and doubled residuals.
 
-**Earlier endpoint irreducible-residual note.** The [conditional irreducible-conic proof](https://github.com/markluxton1/STCI/blob/41c48d13819c318b70a51eebf1478b5b7916c925/research/notes/2026-10-10-session-genus-two-endpoint-irreducible-conic-obstruction.md) assumes the normal Gorenstein ambient blowup model, the accepted horizontal correction data, and an irreducible residual of class \( (1,2) \). The [extracted argument](#endpoint-irreducible-graph-extracted-geometric-argument) gives its transverse crossings. The [full endpoint proof](../../arguments/carriers/genus_two_endpoint_proof.md) handles all residual types.
-
-**Earlier bisection quadratic-descent note.** The [quadratic compression proof](../../arguments/carriers/genus_two_bisection_descent.md#1-the-extra-quadratic-section-and-its-entire-conductor-restriction) derives \(2Z=\sum_t k_tF_t-2R\) from four blowups (including infinitely near centers), so \(2c\sim2H\). It then studies the entire conductor sequence
-\[
-0\to\mathcal O_X\to\nu_*\mathcal O_S\to\mathcal O_\Gamma(-2)\to0
-\]
-and its rank-two algebra \(p_*\mathcal O_D=\mathcal O_\Gamma\oplus\mathcal O_\Gamma(-2)\), with trace-zero generator \(w\) satisfying \(w^2=\delta\). The compressed quadratic section has conductor restriction \(Q|_D=m+w\), with \(m\in H^0(\Gamma,\mathcal O(2))\). If \(m=0\), \(Q^2\) descends to an ambient quartic, contradicting the independent \((4,4)\) exclusion. For \(m\ne0\), power descent forces \(\delta=r^2\) and \(m=\alpha r\); the split branches have \(Q_\pm=(\alpha\pm1)r\), and descent of \(Q^n\) requires
-\[
-\left(\frac{\alpha+1}{\alpha-1}\right)^n=1.
-\]
-These are exact **conductor-power** constraints, not merely a weaker statement that the bisection lane is impossible. The later [global conormal proof](../../arguments/carriers/genus_two_bisection_proof.md) excludes the lane more efficiently but does not make the root-of-unity and split-conductor calculations mathematically empty. They are reusable for other normalization/descent problems. **Retain these calculations as a separate conditional lemma**; the source's formerly open possibilities are superseded by the conormal contradiction.
+The **separate conditional conductor-power argument** belongs to [the bisection descent proof](../../arguments/carriers/genus_two_bisection_descent.md). It derives split-conductor and root-of-unity constraints under its hypotheses; those calculations survive independently of the [global ribbon exclusion](../../arguments/carriers/genus_two_bisection_proof.md). Neither conditional calculation establishes a surviving mate.
 
 ### Endpoint irreducible graph: extracted geometric argument
 
@@ -70,12 +60,9 @@ The calculation supplies the crossings for the irreducible-residual case. The [f
 
 ## 6. Source evidence and editorial disposition
 
-This appendix preserves mathematical proofs and links to their underlying audits.
-
+The [quartic-carrier assembly](../../arguments/carriers/quartic_carrier_proof.md) proves the exhaustive exclusion, using the focused [nonendpoint](../../arguments/carriers/genus_two_nonendpoint_proof.md) and [endpoint](../../arguments/carriers/genus_two_endpoint_proof.md) arguments. The distinct irreducible-residual crossing calculation above remains available for reuse.
 
 ## 7. Evidence and retention
 
-The exposition above reproduces the short universal inequalities and identifies the longer exact calculations. It does not re-execute Macaulay2, independently establish the classical classification theorems, or replace the source audits. The [independent assembly audit](../../arguments/carriers/quartic_carrier_proof.md) checks that the normal and nonnormal lanes cover every integral quartic and that the final lower-degree argument is noncircular.
-
-**Retain for now:** all theorem records, primary owner proofs, independent mathematical audits, exact computational certificates and failed-approach explanations with distinct mathematical content. Only duplicate orientation or narrative files should be considered for removal after their claims are mapped to these permanent sections.
+The complete proof dependencies and exact local calculations are retained in those Arguments.
 
