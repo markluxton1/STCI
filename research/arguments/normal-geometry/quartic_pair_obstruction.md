@@ -653,7 +653,7 @@ The forced residual cycle has degree four, but the present argument does not pro
 
 ## 8. Review and frontier impact
 
-The independent review reconstructs the new deductions, checks the explicit global example, and retains the stated accepted premises. The new verifier proves its listed finite polynomial identities only. The exclusions remain premises and are not retested. No record, proof, or unrestricted STCI status changes. The new conclusion is the attained maximum three, the forced residual degree four, and the singularity structure of the entire integral pencil at that maximum.
+The independently checked conclusion is maximum three, forced residual degree four, and the singularity structure of the integral pencil at that maximum. The explicit example was checked; inherited exclusions were accepted, not retested. No unrestricted STCI conclusion follows.
 
 ## 9. An independent route to the multiplicity-four bound
 
