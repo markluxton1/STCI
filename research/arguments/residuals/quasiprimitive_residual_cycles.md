@@ -1937,11 +1937,7 @@ the vanishing generic vector, is indispensable.
 
 ## Exact support and review scope
 
-The self-contained [universal verifier](../../computations/verify_mf6_infinity_universal.py) reconstructs the complete original coefficient matrix and its full exceptional fiber from the actual ideal basis, checks the moving-support derivative, derives the polynomial matrix and verifies both its ideal equality and the explicit membership witnesses. It reads no generated-JSON proof fixture. The independent reconstruction in the inherited source state rederived the global annihilator, the degree loss whenS has infinity zeros, the shifted coefficient ideal and the whole rank-four exceptional fiber. No separate generated special-fiber fixture is needed.
-
-The ordinary rational formulas use2 as a unit, and their exact coefficient/minor identities have only been certified in their stated characteristic-zero model. A prime-characteristic application would need the correct conormal and actual source model and all relevant inversions. The [positive-characteristic quartic-carrier construction](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) prevents interpreting this fixed characteristic-zero contact proof as a universal STCI obstruction. Other multiplicity-six types have their own proofs and prerequisites; the scalar divisor budget alone does not remove them.
-
-
+The [universal verifier](../../computations/verify_mf6_infinity_universal.py) reconstructs the original coefficient matrix and exceptional fiber from the actual ideal basis, checks the moving-support derivative, polynomial matrix, ideal equality, and explicit membership witnesses, without a generated JSON fixture. Independent reconstruction checked the global annihilator, degree loss at infinity zeros of \(S\), shifted coefficient ideal, and full rank-four exceptional fiber. The rational formulas invert \(2\); exact coefficients and minors are certified only in the **characteristic-zero** model. Positive characteristic needs its own conormal/source and invertibility checks; [supported pairs exist in positive characteristic](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier). Other multiplicity-six types are not eliminated by the scalar budget.
 
 ## Consolidated historical source: `research/supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md`
 
