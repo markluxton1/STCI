@@ -373,27 +373,7 @@ none of their computations was rerun. No state file is edited.
 
 ## 1. Audit verdict and scope
 
-The full conormal-filtration theorem, exact socle line, Frobenius
-inequality, defect identity, and balanced-rational equality argument in
-Sections 2--7 of the reviewed note are sound. No substantive repair is
-needed. The proof correctly permits torsion in intermediate normal
-layers, and correctly uses the actual Loewy index of the entire generic
-algebra rather than either chosen equation order.
-
-The only clarifications needed for a reusable statement are these:
-
-* For an arbitrary support curve, the real-valued defects need not be
-  integers. They are integers in the reviewed C0 specialization.
-* The choice lambda = mu_max(N) uses the characteristic-zero symmetric
-  slope theorem. The elementary globally generated twist choice works
-  in every characteristic and is sufficient for all arguments below.
-* Equality gives a globally Gorenstein associated graded algebra on any
-  smooth support curve. Its description by a constant algebra requires
-  the extra balanced rational normal-bundle hypothesis.
-
-The global STCI problem remains open. These are necessary structure
-theorems for a proposed complete-intersection thickening, not an
-existence theorem or an unrestricted exclusion.
+The conormal-filtration theorem, socle line, Frobenius inequality, defect identity, and balanced-rational equality proof retain intermediate-layer torsion and use the **actual generic Loewy index**, not an equation order. For general support curves the real defects need not be integral (they are for \(C_0\)); choosing \(\lambda=\mu_{\max}(N)\) uses the characteristic-zero symmetric-slope theorem, whereas a globally generated twist works in all characteristics. Equality gives a globally Gorenstein associated graded algebra on smooth support; a constant-algebra description needs the balanced rational normal bundle. These are necessary constraints, not existence or general STCI exclusion.
 
 ## 2. Fixed notation
 
