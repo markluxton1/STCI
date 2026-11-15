@@ -16,7 +16,7 @@ research/computations/audit_z4_lift_2026_10_20.m2,retire,,,Pasted text(20261115-
 research/computations/c4_conormal.py,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
 research/computations/c4_root_collision.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/ci_cycle_line_degeneration_2026_10_25.m2,retire,,,Pasted text(20261115-022113).txt,recovered
-research/computations/ci_cycle_line_degeneration_2026_10_25.py,needs-review,,Explicit ruling-line degeneration identities and boundary conditions; Torus/Hilbert-boundary Argument,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/ci_cycle_line_degeneration_2026_10_25.py,unexamined,,Explicit ruling-line degeneration identities and boundary conditions; Torus/Hilbert-boundary Argument,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json,unexamined,,,,awaiting-merge
 research/computations/conditional_2_12_cont2_endpoint_models_2026_10_21.py,retain,,Constructs endpoint models incorporating the actual global cubic conditions,Pasted text(20261115-021215).txt,recovered
 research/computations/conditional_2_12_cont2_independent_unit_audit_2026_10_21.py,retire,,,Pasted text(20261115-021215).txt,recovered
@@ -52,14 +52,14 @@ research/computations/conditional_2_12_structured_incidence_2026_10_20.py,retain
 research/computations/conditional_2_12_symbol_independent_audit_2026_10_20.py,retire,,,Pasted text(20261115-021215).txt,recovered
 research/computations/conditional_2_12_symbol_map_2026_10_20.json,unexamined,,,,awaiting-merge
 research/computations/conditional_2_12_symbol_map_2026_10_20.py,retain,,Previously retained; exact sextic symbol map,Pasted text(20261115-021215).txt,recovered
-research/computations/derive_normal_quintic_ade_e1_2026_10_13.py,needs-review,,Normal-carrier investigation; necessary ADE census only,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
-research/computations/derive_session_localcoh_e1_d4_principal_extension_2026_10_08.py,needs-review,,Normal-filtration synthesis; moving cubic transition,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
-research/computations/derive_session_rnc_ribbon_net_2026_10_09.py,needs-review,,Actual-coordinate conormal/ribbon-net construction; Existing rational-normal-curve investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/derive_normal_quintic_ade_e1_2026_10_13.py,unexamined,,Normal-carrier investigation; necessary ADE census only,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/derive_session_localcoh_e1_d4_principal_extension_2026_10_08.py,unexamined,,Normal-filtration synthesis; moving cubic transition,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/derive_session_rnc_ribbon_net_2026_10_09.py,unexamined,,Actual-coordinate conormal/ribbon-net construction; Existing rational-normal-curve investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/draw_quartic_geometry_2026_10_24.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/dx1_saturation_audit_2026_10_07.json,unexamined,,,,awaiting-merge
 research/computations/e2_full4_obstruction_2026-10-05.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/endpoint4_actual_2026_10_25.json,unexamined,,,,awaiting-merge
-research/computations/endpoint4_actual_2026_10_25.py,needs-review,,Four explicit endpoint-four sextic lifts,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/endpoint4_actual_2026_10_25.py,unexamined,,Four explicit endpoint-four sextic lifts,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/endpoint4_fixed_jet_independent_2026_10_26.json,unexamined,,,,awaiting-merge
 research/computations/endpoint4_fixed_jet_independent_2026_10_26.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/endpoint4_fixed_m2_2026_10_25.json,unexamined,,,,awaiting-merge
@@ -110,7 +110,7 @@ research/computations/finite_normal_jet_certificate.m2,retire,,,Pasted text(2026
 research/computations/general-localcoh-degree15-sparse-block-2026-10-14-diagnostic.json,unexamined,,,,awaiting-merge
 research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt03.m2,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/general-localcoh-family2-degree15-corank-one-2026-10-14-attempt06-certificate.json,unexamined,,,,awaiting-merge
-research/computations/general_localcoh_degree15_polynomial_scaling_design_2026_10_14.py,needs-review,,"Proposed polynomial rescaling scheme, clearly distinguished from a rank certificate; Local-cohomology investigation",Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/general_localcoh_degree15_polynomial_scaling_design_2026_10_14.py,unexamined,,"Proposed polynomial rescaling scheme, clearly distinguished from a rank certificate; Local-cohomology investigation",Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/general_localcoh_family2_degree15_corank_one_certificate_2026_10_14.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/generalization_moving_first_relation_operator.py,retain,,Normal-filtration synthesis; moving quadratic relation operator,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/generalization_quadratic_root_curve_universal_incidence.json,unexamined,,,,awaiting-merge
@@ -144,7 +144,7 @@ research/computations/generalization_quintic_l2_resultants.m2,retire,,,Pasted te
 research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt02.m2,retire,,,Pasted text(20261115-021215).txt,recovered
 research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt05.m2,consolidate-and-retire,,Corrected source-coordinate transformation,Pasted text(20261115-021215).txt,recovered
 research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt06.m2,consolidate-and-retire,,Sextic quotient and reduced Hamiltonian incidence,Pasted text(20261115-021215).txt,recovered
-research/computations/generate_session_localcoh_q13_module_2026_10_07.py,needs-review,,Exact endpoint module construction over a degree-13 number field; local-cohomology investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/generate_session_localcoh_q13_module_2026_10_07.py,unexamined,,Exact endpoint module construction over a degree-13 number field; local-cohomology investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/generate_session_localcoh_q1_module_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/generate_session_localcoh_q3_module_2026_10_07.py,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/global_ci_small_movement_divisor_audit.py,consolidate-and-retire,,"Complete necessary integer solutions for the specified small-movement range, explicitly excluding geometric existence conclusions; Torus/Hilbert-boundary Argument",Pasted text(20261115-022113).txt,recovered
@@ -160,14 +160,14 @@ research/computations/localcoh-incidence-tensor.m2,retain,,Same investigation; a
 research/computations/localcoh-incidence-tensor.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/localcoh-symbol-numerators.txt,retire,,Input dependency exception,phase2_rules.json,rule-provisional-dependency-check
 research/computations/localcoh-symbol-top.json,retain,,Previously reported explicit decision; inspect source before changing,earlier-conversation-summary,recovered
-research/computations/localcoh-symbol-top.py,needs-review,,Same investigation; balanced top-symbol map,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/localcoh-symbol-top.py,unexamined,,Same investigation; balanced top-symbol map,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/moving_linear_cubic_compatibility_2026_10_14.py,retain,,Normal-filtration synthesis; cubic obstruction,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/moving_linear_cubic_independent_audit_2026_10_14.py,consolidate-and-retire,,Independently computed cubic Laurent class,Pasted text(20261115-022942).txt,recovered
-research/computations/nodal_cubic_quintic_lattice.py,needs-review,,Finite \\(E_6\\) divisor-class enumeration and the three-disjoint-lines observation; Existing carrier/projection investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
-research/computations/normal_carrier_index_reduction_2026_10_14.py,needs-review,,Integer consequences of the normal-carrier index theorem,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
-research/computations/octic_first_root_source.py,needs-review,,Quadratic-root lifting synthesis; global octic-source filter,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
-research/computations/order_three_four_parameter_slice.py,needs-review,,Order-three/sextic-lifting synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
-research/computations/order_three_sextic_slice.py,needs-review,,Same synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/nodal_cubic_quintic_lattice.py,unexamined,,Finite \\(E_6\\) divisor-class enumeration and the three-disjoint-lines observation; Existing carrier/projection investigation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/normal_carrier_index_reduction_2026_10_14.py,unexamined,,Integer consequences of the normal-carrier index theorem,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/octic_first_root_source.py,unexamined,,Quadratic-root lifting synthesis; global octic-source filter,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/order_three_four_parameter_slice.py,unexamined,,Order-three/sextic-lifting synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/order_three_sextic_slice.py,unexamined,,Same synthesis,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/primitive_curvilinear_degree_budget_2026_10_26.py,consolidate-and-retire,,Necessary primitive degree-budget equation and finite solutions,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/probe_session_nonendpoint_2plus4_families_2026_10_12.m2,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2,retire,,,Pasted text(20261115-022942).txt,recovered
@@ -180,7 +180,7 @@ research/computations/projection_elliptic_finite_targets.m2,retain,,,Pasted text
 research/computations/projection_incidence_certificates.m2,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/projection_inverse_example.m2,consolidate-and-retire,,Explicit marked-source candidate and its actual failure,Pasted text(20261115-022942).txt,recovered
 research/computations/projection_local_contacts.m2,consolidate-and-retire,,Counterexample to the proposed residual-contact bound; not singleton-admissible,Pasted text(20261115-022942).txt,recovered
-research/computations/projection_palindromic_picard.py,needs-review,,Fixed palindromic target and Picard obstruction gate,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/projection_palindromic_picard.py,unexamined,,Fixed palindromic target and Picard obstruction gate,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/quadratic_root_diagonal_certificate.py,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/quadratic_root_pure_direction_boundary_certificate.sing,retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/quadratic_root_torsion_two_model.py,retain,,Quadratic-root lifting synthesis; Singular incidence generator,Pasted text(20261115-022942).txt,recovered
@@ -251,7 +251,7 @@ research/computations/session_localcoh_q13_dual_audit_2026_10_07.json,unexamined
 research/computations/session_localcoh_q1_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
 research/computations/session_localcoh_q2_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
 research/computations/session_localcoh_q3_dual_audit_2026_10_07.json,unexamined,,,,awaiting-merge
-research/computations/session_uniform_e2_hankel.py,needs-review,,,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/session_uniform_e2_hankel.py,unexamined,,,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/sextic_global_jet_cech.py,retain,,Sextic-lifting synthesis; two-chart Čech computation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/stci_arithmetic_beyond_2026_10_29.py,retire,,,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
 research/computations/stci_closeout_degree_ten_independent_2026_10_31.m2,retire,,,Pasted text(20261115-022113).txt,recovered
@@ -262,7 +262,7 @@ research/computations/stci_mixed_contact_audit_2026_10_29.m2,retire,,,Pasted tex
 research/computations/stci_mixed_weight_lines_2026_10_30.m2,consolidate-and-retire,,,Pasted text(20261115-022942).txt,recovered
 research/computations/stci_mixed_weight_lines_audit_2026_10_30.m2,retire,,,Pasted text(20261115-022113).txt,recovered
 research/computations/stci_search_freedom_2026_10_28.m2,retain,,,Pasted text(20261115-022942).txt,recovered
-research/computations/stci_search_quadric_endpoint_2026_10_28.m2,needs-review,,,Pasted text(20261115-022942).txt,conflict-needs-review
+research/computations/stci_search_quadric_endpoint_2026_10_28.m2,unexamined,,,Pasted text(20261115-022942).txt,conflict-needs-review
 research/computations/stci_search_sextic_jets_2026_10_28.json,unexamined,,,,awaiting-merge
 research/computations/stci_search_sextic_jets_2026_10_28.py,retire,,Explicit governing resolution in user-provided reconciliation,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt; reconciliation-user-message,recovered
 research/computations/vahlen_base_locus_discriminant.py,retain,,Projection investigation; cubic base-locus discriminant,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt,recovered
