@@ -24,12 +24,9 @@ In characteristic zero the actual degree-six order-two source has dimension \(23
 
 ## 3.10C A failed seed and an exact cubic correction
 
-The conditional (6,16) calculation has a smooth torsion-two root \(f_0=(z^2+4)u^2+(z^2-8)v^2\) with a unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) satisfying all eleven leading-symbol image equations. The cubic comparison has nonzero pairing \(-384\) with an exact row that also annihilates the additional \(q^3\) lift direction. It therefore excludes all sextic lifts of this seed. The seed also fails the independent second obstruction under its stated hypotheses; neither test excludes the entire family.
+The conditional \((6,16)\) torsion-two seed \(f_0=(z^2+4)u^2+(z^2-8)v^2\) has unique projective multiplier \(\alpha_0=z^8-8z^6+96z^4+256z^2+1024\) passing all eleven leading-symbol conditions. The exact cubic pairing \(-384\) annihilates both the seed and its free \(q^3\) lift, so **no sextic lift of this seed** exists; its independent second obstruction also fails. This does not exclude the family.
 
-The cubic correction is \(f(\ell u+mv)\), where \(f=au^2+buv+cv^2\) and \(\deg\ell,\deg m\le7\). For a prescribed cubic \(h=h_0u^3+h_1u^2v+h_2uv^2+h_3v^3\), compatibility means \(h_0=a\ell\), \(h_1=b\ell+am\), \(h_2=c\ell+bm\), \(h_3=cm\). Multiplication by nonzero \(f\) is injective, giving a rank-sixteen correction map into forty cubic coefficients and a twenty-four-dimensional quotient obstruction. A correction, if it exists, is unique. These undivided identities remain valid for singular roots and coefficient zeros.
-
-The twenty-five second-obstruction pairings, full-root torsion and existence of a proper degree-sixteen mate remain separate tests. See [the full calculation](../../arguments/carriers/normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination).
-
+For a general quadratic \(f=au^2+buv+cv^2\), the cubic correction \(f(\ell u+mv)\) has coefficients \((a\ell,b\ell+am,c\ell+bm,cm)\). Multiplication by nonzero \(f\) is injective, so this is a rank-16 map into 40 cubic coefficients, with 24-dimensional quotient and a unique correction if one exists. These undivided identities include singular roots and coefficient zeros. The [full coefficient test](../../arguments/carriers/normalization_conductor_phase2_addendum.md#coefficient-level-cubic-obstruction-without-elimination) retains the remaining second-obstruction and mate questions.
 
 ## 3.10E A full-lift certificate beyond the failed seed
 
