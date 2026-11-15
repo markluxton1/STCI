@@ -30,8 +30,7 @@ For a general quadratic \(f=au^2+buv+cv^2\), the cubic correction \(f(\ell u+mv)
 
 ## 3.10E A full-lift certificate beyond the failed seed
 
-The historical [free cube-orbit calculation](../../arguments/carriers/normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) includes the free \(\eta q^3\) sextic lift. Its restricted chart reduces to \(p(h)=648h^4+45h^2-4=0\), while two full cubic equations satisfy \(E_4-6E_8=18h-324h^3\) and a polynomial unit certificate. Thus that entire chart is empty even after varying the lift. The endpoint and orbit-collision strata remain open. Application to supported pairs uses the [reviewed quadric-cycle norm proof](../../arguments/carriers/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge).
-
+The [free cube-orbit full-lift calculation](../../arguments/carriers/normalization_conductor_phase2_addendum.md#existing-full-lift-exclusion-on-the-free-cube-orbit-chart) includes the \(\eta q^3\) direction. Its chart satisfies \(648h^4+45h^2-4=0\), whereas the cubic equations imply \(18h-324h^3=0\), with an exact polynomial unit certificate. Thus **the entire stated chart is empty**, not just the original seed. Endpoint and orbit-collision strata remain open; supported-pair applications require the [quadric-cycle norm bridge](../../arguments/carriers/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge).
 
 ## 3.10F Two-node reduction and the surviving sextic pencil
 
