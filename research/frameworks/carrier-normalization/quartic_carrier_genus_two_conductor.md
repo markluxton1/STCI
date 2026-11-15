@@ -4,17 +4,24 @@
 
 ## 9. Genus-two bisection: global ribbon contradiction and distinct conductor algebra
 
-For the bisection lane the second pencil gives an actual Cartier equivalence `2c ~ 2H` on the normal surface, with infinitely-near centers and the entire correction divisor retained. A section Q with divisor 2c defines a pure Cohen–Macaulay double curve R. Its nilradical J is generically square-zero; purity eliminates finite-length subsheaves and makes J square-zero globally and torsion-free rank one on smooth c. The Hilbert polynomial `chi(O_S(mH))=2m²+m+1` yields `chi(O_R)=-6`, hence `chi(J)=-7` and `J=O_P1(-8)`. The actual morphism R to P3 induces a nonzero conormal map `N^*_(C/P3)=O(-7)^2 -> O(-8)`: it is generically nonzero away from the conductor, where normalization is an isomorphism. But `Hom(O(-7),O(-8))=0`, a contradiction. This is the universal bisection exclusion, not a bound on possible mate degrees. [Full independent proof](../../arguments/carriers/genus_two_bisection_proof.md).
+In characteristic zero, the bisection second-pencil reduction gives the actual Cartier equivalence (2csim2H) on the normalization. The resulting pure Cartier double is a ribbon with nilideal (mathcal O_{mathbf P^1}(-8)). Its generically nonzero ambient conormal map would be
+[
+mathcal O_{mathbf P^1}(-7)^{oplus2}longrightarrowmathcal O_{mathbf P^1}(-8),
+]
+which is impossible. The [complete bisection proof](../../arguments/carriers/genus_two_bisection_proof.md) establishes the second pencil, purity, Hilbert-polynomial calculation, and nonzero map; the [quartic-carrier assembly](../../arguments/carriers/quartic_carrier_proof.md#61-bisection-the-global-nilideal-obstruction) uses this to exclude the entire bisection lane, without a mate-degree bound.
 
-The earlier quadratic-descent analysis remains a distinct **conditional conductor-power lemma**: on the entire conductor line, the quadratic algebra has trace-zero generator w with `w²=delta`, and the section Q restricts as `m+w`. A descended power forces, after excluding m=0, `delta=r²`, `m=alpha*r` and `((alpha+1)/(alpha-1))^n=1`, with alpha not 0 or ±1. These equations are necessary under the hypothetical bisection setup, not evidence of surviving mates. The global conormal contradiction supersedes their use as an open-case list; the conductor algebra may still be useful elsewhere.
-
+A **different, conditional** quadratic-descent calculation survives as a reusable conductor-power lemma: with (w^2=delta) and (Q|_D=m+w), descent of a positive power (after excluding (m=0)) forces (delta=r^2), (m=alpha r), and (((alpha+1)/(alpha-1))^n=1), with (alpha
+otin{0,pm1}). These are necessary conditions under the hypothetical bisection setup, not surviving STCI cases. See the [complete split-conductor argument](../../arguments/carriers/genus_two_bisection_descent.md).
 
 ## 13. Entire genus-two conductor and ambient conic model
 
-For genus-two normalization, rationality of M and `K_M.L=-2` give rational singularities of S by duality and Leray, without assuming K_S is Cartier or Q-Cartier. Finite duality identifies the **actual** conductor ideal `I=Hom_X(nu_*O_S,O_X)=nu_*omega_S`. Its Hilbert polynomial forces `O_Gamma` to have polynomial `m+1`; maximal Cohen–Macaulay purity eliminates embedded points and nilpotent zero-dimensional additions, so Gamma is a reduced line. Dualizing the conductor sequence gives `nu_*O_S/O_X=omega_Gamma=O_Gamma(-2)` and an entire rank-two finite flat conductor algebra `p_*O_D=O_Gamma+O_Gamma(-2)`, including nonreduced and singular fibers. Its quadratic multiplication is a quartic section on Gamma. These are scheme-level assertions, not a calculation of the reduced Jacobian support. [Entire-conductor audit](../../arguments/carriers/genus_two_entire_conductor_proof.md).
+The [entire-conductor proof](../../arguments/carriers/genus_two_entire_conductor_proof.md) establishes rational singularities without assuming a Cartier or (mathbf Q)-Cartier canonical class, identifies the **actual** conductor via finite duality, and proves that its downstairs scheme is a reduced line (Gamma). The whole upstairs conductor is a rank-two finite-flat algebra
+[
+p_*mathcal O_D=mathcal O_Gammaoplusmathcal O_Gamma(-2),
+]
+including singular or nonreduced fibers; its quadratic multiplication is a quartic section. These scheme-level conclusions cannot be replaced by reduced Jacobian support.
 
-The two ambient line equations t0,t1 identify naturally with the complete adjoint pencil `|K_M+L|`; their ratios agree as rational functions. Since that pencil is basepoint free, the pulled-back line ideal is **exactly** `O_M(-D_M)` for an effective `D_M~-K_M`, with no residual zero-dimensional base scheme. The universal blowup property therefore lifts M to the blowup of P3 along Gamma. The image is the integral strict transform T, of class `4H_B-2E_B` because the quartic has generic order exactly two along Gamma. Adjunction gives `omega_T=O_T(-E_B)` and its pullback is `omega_M`. The proper-trace argument proves T normal; its Gorenstein crepant singularities are ADE. This is a theorem about T, **not** an assertion that the original normalization S is Gorenstein or that its pencil descends through horizontal contractions. [Ambient-model audit](../../arguments/carriers/genus_two_ambient_conic_model_proof.md).
-
+The [ambient conic-model proof](../../arguments/carriers/genus_two_ambient_conic_model_proof.md) identifies the two line equations with the complete basepoint-free adjoint pencil, proves the exact pulled-back line ideal, and constructs the integral strict transform (Tsim4H_B-2E_B) in the blowup along (Gamma). Proper trace and crepancy make (T) normal Gorenstein ADE. **This does not assert** that the original normalization (S) is Gorenstein or that its pencil descends through horizontal contractions. The [assembly](../../arguments/carriers/quartic_carrier_proof.md#6-sectional-genus-two-conic-geometry-and-the-two-correction-strata) uses these as proved inputs.
 
 ## 14. Exact conductor coordinates and fixed-curve fiber condition
 
@@ -71,61 +78,13 @@ A useful limitation: three intersections of \(C\) with \(\Gamma\) do **not** aut
 
 ## 16. Bisection fiber counts: integral descent and the three-center obstruction
 
-**Scope:** characteristic-zero genus-two bisection under the second-pencil reduction, not an unrestricted STCI statement. On the four-blowup model \(M\to V\), let \(F_t\) be the **entire** fiber, \(k_t\) the number of centers over it, and \(R_t\) the relative canonical contribution. The exact correction is
-\[
-Z_t=\tfrac{k_t}{2}F_t-R_t,\qquad c\cdot Z_t=k_t,\qquad \sum_t k_t=4.
-\]
-Every positive component of \(Z\) is a vertical exceptional \((-2)\)-curve. Positivity of intersections and \((c+Z)\cdot E=0\) show that its positive support contains **whole connected exceptional graphs**, not arbitrary subgraphs.
+These are separate characteristic-zero, second-pencil **conditional** obstructions, not substitutes for the global ribbon proof. On the four-blowup model, with entire fibers (F_t), center counts (k_t), and relative canonical terms (R_t),
+[
+Z_t=rac{k_t}{2}F_t-R_t,qquad ccdot Z_t=k_t,qquad sum_t k_t=4.
+]
+For positive even (k_t), the full exceptional correction is integral and supported on complete connected exceptional graphs. The descent of (mathcal O_M(c+Z_p)) makes the smooth embedded curve Cartier at a singular downstairs point, a contradiction. This excludes partitions ([4]), ([2,2]), and ([2,1,1]), including infinitely near centers and nonreduced fibers. The original [even-fiber proof](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md#6-consequences-and-surviving-scope) retains the full descent argument and its hypotheses.
 
-### Bisection with an even fiber count
-
-If \(k_t>0\) is even, \(Z_t\) is an effective integral divisor. The equality
-\(c\cdot Z_t=k_t>0\) puts a point of the strict curve on its positive support.
-Let \(p\) be the image of a contacted graph. Support closure means that
-the whole exceptional fiber over \(p\) has its integral correction
-\(Z_p\) in one full \(f\)-fiber. Thus the line bundle
-\(N=\mathcal O_M(c+Z_p)\) has degree zero on every exceptional component
-over \(p\).
-
-Apply [Kollár, Chapter 2, Proposition 76(1), PDF pp. 35–36](https://web.math.princeton.edu/~kollar/book/chap2.pdf).
-The conductor argument establishes rationality of the singularities of
-\(S\). The resolution is log minimal with zero boundary since adjunction
-gives \(K_M\cdot E=-2-E^2\ge0\) on every exceptional \((-2)\)- or
-\((-3)\)-curve. A log resolution refinement preserves degree zero on
-every exceptional component, including the newly created ones. The descent
-theorem gives \(N=\sigma^*P\) for an invertible \(P\) near \(p\); it does
-not require \(K_S\) to be Cartier or \(\mathbf Q\)-Cartier. Away from
-\(p\), \(P\) agrees with \(\mathcal O_S(c_S)\), so reflexivity on the
-normal surface identifies the sheaves at \(p\) too.
-
-The actual smooth embedded \(c_S\) is therefore Cartier at \(p\).
-If \(g\) is its local equation and \(u\) lifts a generator of the maximal
-ideal on \(c_S\), then \((g,u)\) generates the surface maximal ideal by
-Nakayama. This forces regularity, contradicting the singular point on the
-minimal resolution. The counts allow reducible and nonreduced fibers and
-infinitely near centers. The excluded partitions are \([4]\), \([2,2]\)
-and \([2,1,1]\), leaving \([3,1]\) and \([1,1,1,1]\) in this argument.
-
-The separate parity auditor checked Proposition 76, support closure, the
-entire local correction, reflexive extension to the actual curve and
-the regular-local-ring contradiction. Acceptance covers every positive even
-count under the characteristic-zero second-pencil and smooth-lift
-hypotheses. [Proof and independent decision in the historical source](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/GENUS_TWO_BISECTION_EVEN_FIBER_PROOF.md#6-consequences-and-surviving-scope).
-
-**Three-center exclusion (conditional on the same geometric inputs; source originally awaited a separate parent audit).** The nef-anticanonical rational pencil on \(V\) has three possible entire-fiber types: an irreducible smooth component of square zero; a reduced chain with two \((-1)\) ends; or a nonreduced tree with one multiplicity-two \((-1)\) component, two multiplicity-one leaves, and a possibly empty multiplicity-two tail. A blowup of an old \((-2)\) component is forbidden by nefness. For \(k_t=3\), every old \((-1)\) must be hit exactly once, an old square-zero component exactly twice, and a positive-coefficient new exceptional component must finish with square \(-2\). At each new center,
-\[
-\operatorname{coeff}_{E}(Z_t)=\tfrac32\operatorname{mult}_{E}(F_t)-\operatorname{coeff}_{E}(R_t).
-\]
-These rules leave exactly the following configurations:
-
-| Original \(V\)-fiber | Forced positive exceptional graph | Obstruction |
-| --- | --- | --- |
-| Irreducible | \(A_3\) chain, coefficients \(3/2,1,1/2\) | The strict curve has intersection two with the same connected exceptional graph, not one transverse contact |
-| Reduced | \(D_4\) star, central coefficient \(2\), leaves \(3/2,3/2,1\) | The strict curve meets both original \((-1)\) ends in one connected graph |
-| Nonreduced | \(D_n\), \(n\ge5\), with contact component coefficient \(3\); shortest \(D_5\) correction \(3A+\frac32(B_1+B_2)+2E_1+E_2\) | No positive **integral anti-nef uniformizer cycle** can have coefficient one at the contact component |
-
-The nonreduced case is a substantive near-counterexample to a purely numerical argument: the rational correction is effective and satisfies intersection equations. The obstruction uses a genuine local uniformizer of the smooth downstairs curve. An integral anti-nef cycle with contact coefficient one propagates coefficient one along the \((-2)\) long arm; at the trivalent fork, anti-nefness would demand \(2\ge1+1+1\), impossible. Thus the three-center partition \([3,1]\) is excluded **within the conditional argument**, leaving only \([1,1,1,1]\). Preserve the source's exhaustive center-history proof and status distinction: [three-center fiber analysis](../../arguments/carriers/genus_two_bisection_three_center_proof.md).
-
+The distinct [three-center analysis](../../arguments/carriers/genus_two_bisection_three_center_proof.md) classifies all permitted original fiber types and forced exceptional graphs for (k_t=3): (A_3), (D_4), or (D_n) ((nge5)). The nonreduced (D_n) case satisfies the rational intersection equations, so numerical negativity alone does not exclude it. An **integral anti-nef uniformizer cycle** with contact coefficient one fails at the trivalent fork. Thus ([3,1]) is excluded within that conditional argument, leaving ([1,1,1,1]) at this stage. The focused proof preserves the exact center histories and coefficient calculations.
 
 ## 19. Genus-two marked section case
 
