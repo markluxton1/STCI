@@ -352,7 +352,7 @@ identity does not make that already obstructed seed a survivor.
 
 ### Independent review of the norm argument
 
-The independently checked [norm argument](https://github.com/markluxton1/STCI/blob/a779730c6645e293cc0a501597bd4e09a50b36d6/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-independent-review-of-the-norm-argument) verifies the actual strict-ideal restriction to \(Q'\), regularity from \(\tau\ne0\), no ruling component shared by \(T\) and \(R\), \(F_6|_Q=v^2R_4(b)\), and homogeneous/rational formulas even at collisions and ramification. This is a **necessary** norm condition, not mate existence; its unit observation is used in the local surface calculation.
+The [norm-argument review](https://github.com/markluxton1/STCI/blob/a779730c6645e293cc0a501597bd4e09a50b36d6/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-independent-review-of-the-norm-argument) checked the strict-ideal restriction to \(Q'\), regularity for \(\tau\ne0\), absence of a common ruling component of \(T,R\), \(F_6|_Q=v^2R_4(b)\), and homogeneous formulas at collisions and ramification. The norm condition is necessary, not sufficient for a mate; its unit observation enters the local surface calculation.
 
 ## Local surface singularities and the remaining scope
 
