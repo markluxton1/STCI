@@ -888,9 +888,7 @@ For the fixed quartic, the new smooth-carrier dichotomy isolates a precise diffi
 
 ## 9. Evidence and review boundary
 
-All new product examples, genus allocations, nilpotent calculations, and the smooth-carrier lemma have elementary proofs above and independent agent reconstruction in the linked audit. No inherited certificate was rerun. External sources were inspected for flat-family coherent Euler characteristic, the delta definition, and the local Milnor formula, at the precise links above; no literature novelty claim is made. The unresolved work is a classification or realization theorem beyond these examples and the stated smooth-carrier stratum.
-
-
+The product examples, genus allocations, nilpotent calculations, and smooth-carrier lemma are proved above and independently reconstructed. Inherited certificates were not rerun. Standard flat-family Euler characteristic, delta invariant, and Milnor formula were checked against the cited sources. Classification or realization beyond the stated smooth-carrier stratum remains open.
 
 ---
 
