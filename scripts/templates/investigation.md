@@ -21,8 +21,8 @@ For a bounded Hilbert test, declare the power bound and Hilbert polynomial.
 
 ## Question
 
-State the exact task and completion criterion. Keep a broader unresolved question
-distinct from a finite calculation or family-specific test.
+State the exact task and stopping condition. Extend an existing activity when
+its scope, purpose, and stopping condition fit.
 
 ## Purpose
 
@@ -31,14 +31,14 @@ Frameworks. Explain what the activity could teach each strategy.
 
 ## Method
 
-Describe the geometric approach and any necessary calculations. Own exploratory
-code and useful data in this directory; state commands, source spaces, and
-coverage rather than treating successful execution as a theorem.
+Check prior work and record the geometric approach and necessary calculations.
+Keep exploratory code and useful data here. State commands, source spaces, and
+which cases the calculation covers.
 
 ## Findings
 
-No work has yet been completed. Replace this with actual findings, negative
-results, counterexamples, and unresolved dependencies as work proceeds.
+No work has yet been completed. Record actual findings, including the scope of
+negative tests, any reusable counterexamples, and unresolved dependencies.
 
 ## Outputs and next tests
 

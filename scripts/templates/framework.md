@@ -10,13 +10,13 @@ bridges: "#bridges"
 
 ## Scope
 
-State the STCI or related geometric question, literal hypotheses, and independent
-mathematical value. Do not invent an unsupported STCI implication.
+Check whether an existing Framework covers the strategy. For a distinct
+strategy, state the mathematical objective, exact hypotheses, and independent value.
 
 ## Available mathematics
 
 Explain how relevant Results and Arguments inform the strategy. Preserve their
-status, characteristic, family restrictions, and conditions of application.
+characteristic, family restrictions, and conditions of application.
 
 ## Bridges
 
@@ -26,9 +26,10 @@ torus symmetry is relevant.
 
 ## Investigations and selection
 
-Link concrete Investigations with motivation relationships. Explain which
-finding would advance, revise, or limit this strategy; keep constructive and
-obstructive activities independent when their evidence is independent.
+Link selected Investigations through motivation relationships. Give bounded
+entry points and the findings that would advance, redirect, or retire the
+strategy. Keep constructive and obstructive activities independent when their
+evidence is independent.
 
 ## Controls and limitations
 

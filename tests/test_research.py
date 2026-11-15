@@ -204,6 +204,9 @@ class ResearchTests(unittest.TestCase):
             for forbidden in ("established", "provisional", "promoted", "canonical", "authority"):
                 self.assertNotIn(forbidden, output.lower())
         self.assertNotIn("Status:", shown)
+        self.assertIn("Statement: research/results/STCI-R-0001.md#statement", shown)
+        self.assertIn("Proof local: research/results/STCI-R-0001.md#proof", shown)
+        self.assertIn("Review: accepted, reconstructed at research/results/STCI-R-0001.md#review", shown)
         untyped = repo.show("STCI-R-0090")
         self.assertIn("independent_audits: research/legacy.md", untyped)
         self.assertNotIn("accepted_in", untyped)
@@ -313,14 +316,16 @@ class ResearchTests(unittest.TestCase):
         self.invalid()
 
     def test_new_object_discovery_cannot_hide_malformed_metadata(self):
-        data = record("argument")
-        path = self.put(data)
-        self.valid()
-        for content in ("---\ntype: [unterminated\n---\n# Broken\n", "# Missing metadata\n"):
-            with self.subTest(content=content):
-                path.write_text(content)
-                self.invalid()
-        self.put(data)
+        for kind, location in (("argument", None),
+                               ("framework", "research/frameworks/formal-normal-geometry.md")):
+            data = record(kind)
+            path = self.put(data, path=location)
+            self.valid()
+            for content in ("---\ntype: [unterminated\n---\n# Broken\n", "# Missing metadata\n"):
+                with self.subTest(kind=kind, content=content):
+                    path.write_text(content)
+                    self.invalid()
+            self.put(data, path=location)
         self.put(record("investigation"), path="research/investigations/wrong-level.md")
         self.invalid()
 

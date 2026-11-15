@@ -10,8 +10,9 @@ conclusion: "#conclusion"
 
 ## Scope
 
-Specify the exact setting and assumptions. Identify which cataloged Results
-are used and which geometric or external inputs need explanation.
+Use an Argument for a coherent development with its own premises and conclusion.
+Use an existing proof section when it can own the reasoning. Specify the exact
+setting, reused Results, and geometric or external inputs.
 
 ## Development
 

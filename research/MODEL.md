@@ -21,6 +21,66 @@ Prefer intrinsic geometry. Distinguish a replacement proof from a geometric
 reduction that still requires algebra or a computation whose mathematical
 role or coverage still needs explanation.
 
+## Contribution workflow
+
+1. **Retrieve before deriving.** Start with [INDEX](INDEX.md). Find the exact
+   Result, proof, and dependencies, or the Framework and missing bridge.
+   Use `show ID` for declared consumers and prerequisites. Search nearby Arguments
+   and check the relevant primary literature, starting from the proof's citations
+   and the [literature ledger](LITERATURE_LEDGER.md). Record the comparison scope
+   and identify sources that still need checking.
+2. **Choose the mathematical home.** Extend the owning section for a local
+   lemma, application, or refinement read with that development. Create a
+   Result when an independently reusable claim needs its own exact statement,
+   limitations, or dependencies. A reusable exclusion or counterexample
+   qualifies when its claim and coverage are proved. Keep an exploratory
+   failure in its Investigation with the tested scope and missing condition.
+   Keep one full owner per proof route. Create an Argument for a coherent
+   development with its own premises and conclusion when an existing proof
+   home would obscure the reasoning. Retain genuinely different proofs and
+   their assumptions and reviews.
+3. **Choose the work home.** Reuse a Framework when its strategy and missing
+   implications cover the approach. Create one for a distinct strategy with an
+   objective, established inputs, missing bridges, methods, controls, coverage
+   obligations, and conditions for revising or retiring it. Link bounded
+   Investigations as they are selected. Start an Investigation for a distinct
+   source, question, or stopping condition that warrants durable findings.
+   Extend an existing activity when its purpose, scope, and stopping condition
+   still fit. Check prior work and literature, record the method and useful
+   findings, and close the activity at its stated stopping condition. Update the
+   Framework when a finding changes the strategy's prospects. A finished
+   experiment can leave the motivating question open.
+4. **Review and integrate.** Record the exact claim, its proof, evidence, and
+   jointly required premises. Obtain [independent review](#evidence-and-review)
+   of a consequential new route or strengthened scope. Reuse reviews within
+   their checked scope. Recheck dependent proof routes and grouped research
+   relationships when an input changes. Update INDEX for changed entry routes,
+   MAP for changed mathematical connections, STATE for changed established
+   scope, FRONTIER for changed open questions, and the decision guide for
+   changed selection advice. Edit only the pages whose contents change and
+   regenerate the catalog when records or relationships change.
+
+Parallel assignments should name the exact question, shared proof inputs,
+stopping condition, and editable files. Use a single integrator for shared
+owners and navigation. Ask agents for scoped findings, missing premises, and
+evidence paths. Resolve disagreements through the
+[conflict rules](#corrections-and-conflicting-claims), then retire completed
+assignments. Keep findings with their mathematical owners.
+
+### Merge, split, or retire material
+
+Keep IDs and precisely addressed proof routes stable across physical moves.
+Merge exposition when it shares one development and premises, and readers
+would otherwise reconstruct the same proof across files. Split when a
+separately retrieved development has its own inputs and conclusion or when
+an unrelated subject obscures the owning proof. A Result can point into a
+shared Argument, so neither a merge nor a split requires a new claim ID.
+Retire summaries, execution history, and duplicates once the live owner covers
+every surviving claim, review, and support consumer. When the mathematical
+overlap is uncertain, retain the passage and identify the unresolved difference.
+Follow [exact proof support and retention](#exact-proof-support-and-retention)
+before removing mathematical or computational evidence.
+
 ## Evidence and review
 
 Assess each claim by its exact statement, assumptions, proof, and review scope.
@@ -67,8 +127,9 @@ Preserve independently useful lemmas, complete proofs, alternative arguments,
 constructions, counterexamples, exact questions, and the smallest adequate
 support. The Result owns its necessary exact support in an optional
 `<claim>.support/` directory. Exploratory code and data belong to the owning
-Investigation. Computations and attachments are support for the four
-research objects.
+Investigation. If a finding becomes a Result, move its necessary replay there
+or link the existing canonical support. Computations and attachments support
+the four research objects.
 
 For an essential computation, link its support from the proof's Evidence
 section. Record the exact inputs, characteristic and source domain, invariant
@@ -215,9 +276,7 @@ validation does not fetch them or external literature.
 Discover objects independently of the generated catalog. Malformed metadata
 must fail rather than silently remove a record from discovery. README and INDEX
 files are navigation, not objects. Untyped topic prose is recognized from
-non-ID entries in the existing result index. The single pre-existing untyped
-framework is a temporary serialization exception; adding metadata ends it.
-Neither exception gives mathematical precedence. Discovery has no fixed record
+non-ID entries in the existing result index. Discovery has no fixed record
 count or migration manifest.
 
 Untyped Results retain exact statements, kinds, scope, evidence, review source

@@ -272,10 +272,8 @@ class Repository:
             if not source.startswith("---\n"):
                 # Existing navigation is recognized by its explicit prose role,
                 # not a permanent list of exempt filenames or IDs.
-                legacy_framework = (path == self.root / "research/frameworks/formal-normal-geometry.md"
-                    and not re.search(r"^\s*(?:id|type):", source, re.M))
                 navigation = path.name in {"INDEX.md", "README.md"} and path.parent in {self.root / "research" / name for name in ("results", "questions", "arguments", "frameworks", "investigations")}
-                if (path in prose or legacy_framework or navigation) and not source.startswith("---") and not re.search(r"^\s*(?:id|type):", source, re.M):
+                if (path in prose or navigation) and not source.startswith("---") and not re.search(r"^\s*(?:id|type):", source, re.M):
                     continue
                 self.error(path, "missing YAML front matter")
                 continue
@@ -722,9 +720,20 @@ class Repository:
             destination = "whole untyped document" if r.legacy else self.aliases[identifier][1]
             lines.append(f"Alias {identifier}: {destination}")
         if not r.legacy:
-            lines.append(f"Scope: {r.data['scope']}")
+            lines.append(f"Scope: {self.url(r, r.data['scope'], catalog=False)}")
+            if r.type == "result":
+                lines.append(f"Statement: {self.url(r, r.data['statement'], catalog=False)}")
         for route in r.data.get("proofs", []):
-            lines.append(f"Proof {route['name']}: {route['at']}; joint using [{', '.join(route['using'])}]; review {route['review']}")
+            proof = route["at"]
+            review = route["review"]
+            decision = review["at"]
+            if proof.startswith("#"):
+                proof = self.url(r, proof, catalog=False)
+            if decision.startswith("#"):
+                decision = self.url(r, decision, catalog=False)
+            basis = f", {review['basis']}" if "basis" in review else ""
+            lines.append(f"Proof {route['name']}: {proof}; joint using [{', '.join(route['using'])}]")
+            lines.append(f"  Review: {review['state']}{basis} at {decision}")
         if r.legacy:
             for key in ("dependencies", "applicable_results", "evidence", "independent_audits"):
                 if key in r.data:

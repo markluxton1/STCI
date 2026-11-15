@@ -16,8 +16,9 @@ proofs:
 
 ## Statement
 
-Write the exact independently usable mathematical statement here, including
-conditional conclusions. A reference to another document is not the statement.
+Use a Result for independent reuse. State the exact claim, including any
+conditional conclusion. Put a local lemma read with one proof in that
+development instead.
 
 ## Scope
 
