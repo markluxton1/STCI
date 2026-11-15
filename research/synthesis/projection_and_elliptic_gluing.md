@@ -438,9 +438,7 @@ is supported at the origin. The normal gcd remains simple. The tuple is
 basepoint free by saturated ideal calculation; birationality follows
 because the last two ratios have degrees three and four in \(z\), so
 their common function-field index divides both. Its off-diagonal inverse
-scheme again has length eight. The essential exact calculations, including
-the independently checked contact-five support refinement, survive in
-[the local-contact script](../computations/projection_local_contacts.m2).
+scheme again has length eight. The essential exact calculations, including the independently checked contact-five support refinement, are recorded above. The historical local-contact checker established the same identities over the specified quadratic number fields; its implementation has been retired.
 No maximal local-contact theorem is claimed.
 
 ## 3. The complete bad boundary of the order-two residual
