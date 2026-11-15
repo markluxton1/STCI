@@ -595,23 +595,7 @@ and the [independent argument](#2026-10-16-generalization-quintic-h2-global-moni
 
 ## Independent audit: one global monic h2 ODE incidence
 
-Date: 2026-10-16.
-
-Status: **PASS for the new global monic cover, original-parameter
-coefficient assembly, and transfer of the accepted ODE/spectral
-algebra to the domain delta*E*Delta1 nonzero.** The seventeen
-equations in nine variables retain the finite inverse-map boundary.
-This is a necessary incidence for every remaining actual h2 mate
-candidate, not an emptiness or mate-existence theorem.
-
-The reviewed proposal is
-[the global monic incidence note](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence).
-Accepted conormal forms, the actual octic, the global h2 conductor
-factor, previous mate closures, the Delta1 open, and ODE/spectral
-proofs are premises. No accepted proof or verifier was replayed.
-This audit uses written coefficient calculations and read-only
-source/artifact/hash inspection. No CAS was run during completion
-of this audit, and no model assembly or elimination was repeated.
+The independently checked **necessary** global monic \(h_2\) incidence consists of seventeen equations in nine variables on \(\delta E\Delta_1\ne0\). It retains repeated roots and the finite inverse-map boundary. The [original monic incidence](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence) supplies the accepted conormal/octic/conductor and ODE premises. The audit checked coefficient identities and source artifacts, **not** a fresh CAS assembly, saturation, or emptiness theorem.
 
 ### 1. Monic coverage and exact homogeneous gcd degree
 
