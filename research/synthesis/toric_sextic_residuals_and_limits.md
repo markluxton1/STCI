@@ -1456,3 +1456,943 @@ print('PASS: every surviving both-ramified carrier is on the h=-1/2 line')
 print('BOUNDARY: extra conductor and higher jets on that line remain unresolved')
 ```
 </details>
+
+
+## Consolidated historical supplement: `research/supplements/ENDPOINT_FOUR_ACTUAL_SEXTICS.md`
+
+Original mathematical content, hypotheses, qualifications, and proof status preserved verbatim. Relative links retain their historical source context.
+
+# Endpoint-four sextic constructions
+
+Full historical mathematical content retained with original scope and limitations.
+
+---
+
+# Actual sextics on the retained endpoint-four chart
+
+Started 2026-10-25; completed 2026-10-26. Status: exact new linear realization, independently reproduced fixed-carrier jet certificate, and independently audited local scope bridge.
+
+## Scope and accepted inputs
+
+The curve is the fixed characteristic-zero quartic
+\(C=[s^4:s^3t:st^3:t^4]\). The family construction starts in the conditional degree-\((6,16)\) lane with full generic ordinary initial CI \((2,12)\), saturated actual first relation, and movement two. [STCI-R-0014](../results/movement_two_six_rows.md) makes it a necessary numerical row under those hypotheses; it does not assert existence. The final fixed-carrier corollary is stated separately and does not require those initial-ideal or saturation hypotheses.
+
+The [October 21 conductor/chart independent review](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-and-chart-independent-review), section 6, retains the endpoint-four root chart with
+
+\[
+\begin{aligned}
+a(z)&=a_0+2b_2z+z^2,\\
+b(z)&=b_1z+b_2z^2,\\
+c(z)&=(b_1/2-a_0/4)z^2,\\
+f&=a(z)u^2+b(z)uv+c(z)v^2,\qquad a_0\ne0.
+\end{aligned}
+\]
+
+Its normalization is \(4f(-z/2,1)=z^4\). On the retained integral-nodal open its actual Picard modulus is
+
+\[
+\rho=2b_1/a_0-1,\qquad \rho^{12}=1,\quad\rho\ne1.
+\]
+
+The root and torsion reductions are reviewed evidence. They are not an emptiness result. The [saved sextic symbol computation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
+
+The exact balanced normal frame is
+
+\[
+(x_0,x_1,x_2,x_3)
+=(1,z,z^3+v,z^4+u+\tfrac32zv).
+\]
+
+All coefficients below are global constants. No free \(k(C)\)-coefficients are introduced into the homogeneous source.
+
+## Every prescribed second symbol has an actual sextic lift
+
+Put
+
+\[
+q=x_0x_3-x_1x_2,\qquad D=x_2^3-x_1x_3^2.
+\]
+
+The multiplier forced by this endpoint chart is proportional to \(z^8\); fix its nonzero scalar by requiring the target second symbol to be \(z^8f\). The complete affine family of actual sextics with this target is
+
+\[
+\boxed{
+F_6=(2b_1-a_0)q^2x_3^2+(b_1-a_0)qDx_2
+       -b_2qDx_3+\tfrac14D^2+\kappa q^3.
+}
+\]
+
+Here \(a_0,b_1,b_2,\kappa\) are parameters over \(\mathbf Q\); the nodal/torsion open is imposed afterward. The affine freedom in \(\kappa\) is precisely the accepted kernel. This is a complete description of the second-symbol lifting problem on the stated target, rather than a selection of examples.
+
+To reconstruct the formula, solve four new right-hand sides in the saved image matrix. In the target order \(P_0,\ldots,P_{10},Q_0,\ldots,Q_{10},R_0,\ldots,R_{10}\), the nonzero entries are
+
+\[
+P_8=a_0,\quad P_9=2b_2,\quad P_{10}=1,
+\quad Q_9=b_1,\quad Q_{10}=b_2,
+\quad R_{10}=b_1/2-a_0/4.
+\]
+
+The resulting ambient source combinations are
+
+| Parameter block | Actual sextic |
+| --- | --- |
+| \(a_0\) | \(-q^2x_3^2-qDx_2\) |
+| \(b_1\) | \(2q^2x_3^2+qDx_2\) |
+| \(b_2\) | \(-qDx_3\) |
+| constant | \(D^2/4\) |
+| \(\kappa\) | \(q^3\) |
+
+A direct polynomial substitution independently checks the answer. In the balanced frame,
+
+\[
+q_1=u+zv/2,\qquad D_1=-2z^5u.
+\]
+
+Using these first symbols in the displayed sextic gives exactly \(z^8f\). The verifier additionally checks that the zeroth and first normal symbols vanish and that every ambient block has homogeneous degree six. It saves the full normal expansion, including all higher terms, for subsequent mate calculations.
+
+This establishes actual sextic realizability of the prescribed **second symbol**. It does not establish compatibility with a prescribed higher formal root correction, membership in every earlier ambient-obstruction incidence, integrality of every member, or existence of \(G_{16}\).
+
+## The normalization \(a_0=1\) uses the actual torus
+
+Projective root scaling alone cannot set \(a_0=1\), because the coefficient of \(z^2\) has already been fixed. There is, however, a valid ambient normalization. The actual \(C\)-preserving torus is
+
+\[
+T_\lambda=\operatorname{diag}(1,\lambda,\lambda^3,\lambda^4).
+\]
+
+It gives \(q\mapsto\lambda^4q\), \(D\mapsto\lambda^9D\), and
+
+\[
+\lambda^{-18}F_6(T_\lambda x)
+=F_6(\lambda^{-2}a_0,\lambda^{-2}b_1,
+       \lambda^{-1}b_2,\lambda^{-6}\kappa).
+\]
+
+After the finite étale square-root cover \(\lambda^2=a_0\), one obtains \(a_0=1\) without changing the \(D^2/4\) coefficient or the endpoint normalization. The invariant modulus is \(\rho\). The remaining \(\mu_2\) changes the sign of the normalized \(b_2\) and fixes \(\kappa\). Equivalently, the squared normalized parameter is \(b_2^2/a_0\), and the normalized kernel parameter is \(\kappa/a_0^3\).
+
+Thus subsequent exact computations may work over cyclotomic fields with
+\(b_1=(\rho+1)/2\), but must record this cover. The universal formula above retains \(a_0\) free and needs no extension field.
+
+## An additional geometric flag: a triple line on the carrier
+
+Let \(L_0=V(x_2,x_3)\). Since \(q\in I_{L_0}\) and \(D\in I_{L_0}^2\), every sextic in the family vanishes to order at least three on \(L_0\). The generic order is exactly three when \(\kappa\ne0\), because the other four parameter blocks have order four. When \(\kappa=0\), the retained torsion chart has generic order exactly four: the quartic normal coefficient of \(x_1^2x_2^2x_3^2\) is
+
+\[
+3b_1-2a_0=a_0(3\rho-1)/2,
+\]
+
+which cannot vanish for a root of unity \(\rho\) with \(a_0\ne0\).
+
+This is a singular line on the sextic carrier. It is not automatically a component of the intersection with a proposed mate. The line meets \(C\) only at \([1:0:0:0]\), with pullback ideal \((z^3,z^4)\). If a mate has sole support \(C\), its restriction to \(L_0\) must consequently be a nonzero scalar times \(x_1^{16}\); an identically zero restriction would make \(L_0\) a residual component. This provides a separate necessary global condition, not a completed family exclusion.
+
+For another useful algebraic form, put \(L=(b_1-a_0)x_2-b_2x_3\). Then
+
+\[
+F_6=(D/2+qL)^2
+ +q^2\bigl((2b_1-a_0)x_3^2-L^2+\kappa q\bigr).
+\]
+
+This identity may help future normalization or conductor calculations. No normality claim is inferred from it.
+
+## One selected carrier: a completed necessary jet exclusion
+
+The current investigation tests only
+
+\[
+\rho=-1,\quad a_0=1,\quad b_1=b_2=0,\quad\kappa=1,
+\]
+
+so
+
+\[
+F_*=-q^2x_3^2-qDx_2+D^2/4+q^3.
+\]
+
+Any actual \(G_{16}\) in the scoped full generic initial-\((2,12)\) problem must satisfy
+
+\[
+G_{16}\in(F_*)+(u,v)^{12}
+\quad\text{over }\mathbf Q(z)[[u,v]].
+\]
+
+This is only a necessary condition. Its coefficient space is nevertheless finite: all 969 coefficients of a homogeneous degree-sixteen form remain constants. The 286 forms \(F_*H_{10}\) satisfy it and cannot be proper mates.
+
+The [fixed-carrier M2 certificate](../computations/endpoint4_fixed_m2_2026_10_25.m2) evaluates the actual normal substitution at \(z=1,\ldots,30\) modulo the prime 65521. At each point it uses
+
+\[
+\mathbf F_{65521}[u,v]/(F_*|_z,(u,v)^{12}),
+\]
+
+a 23-dimensional quotient. It stacks the resulting \(23\times969\) constant-coefficient matrices. The final \(690\times969\) matrix has rank 683. It also independently constructs the coefficient matrix of all 286 degree-ten multiples of \(F_*\), verifies their rank 286, and verifies that the stacked matrix annihilates them.
+
+The modular rank gives a characteristic-zero lower bound, not merely a numerical heuristic. Every sample has \(z\ne0\) and \(1+z^2\ne0\) modulo the prime. The \(u^2\) leading coefficient of the carrier's quadratic normal part is \(z^8(1+z^2)\). Formal normal division through degree eleven can therefore be performed with denominators that are units at the chosen prime; a universal rational remainder matrix specializes to the tested finite-field matrix. Equivalently, in the 78-dimensional truncated polynomial module, multiplication by the nonzero order-two carrier on polynomials of degree at most nine has constant rank 55, leaving a free rank-23 quotient over the local coefficient DVR. The modular target thus has the required good reduction.
+
+It follows that the characteristic-zero necessary jet kernel has dimension at most \(969-683=286\). The known multiples already have dimension 286, so
+
+\[
+\boxed{
+\{G_{16}:G_{16}\in(F_*)+(u,v)^{12}\}
+=F_*H^0(\mathbf P^3,\mathcal O(10)).
+}
+\]
+
+The equality persists under characteristic-zero coefficient-field extension. This first excludes a proper degree-sixteen mate in the scoped full generic initial-\((2,12)\) problem. The following independently audited local argument gives a stronger fixed-carrier conclusion without that initial-ideal assumption.
+
+## Every proper degree-sixteen pair on this carrier has residual degree at least eight
+
+The [nonsplit-node scope audit](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-26-endpoint4-nonsplit-node-scope-audit) independently reconstructs the needed local lemma. The generic quadratic normal term of \(F_*\) is
+
+\[
+z^8\bigl((1+z^2)u^2-z^2v^2/4\bigr).
+\]
+
+Its discriminant square class \(1+z^2\) remains nonsquare in \(k(z)\) after any characteristic-zero extension of the constant field: its geometric zeros are simple. Over \(k(z)(\sqrt{1+z^2})\), the completed curve has two transverse smooth branches exchanged by the quadratic Galois action. A function defined over \(k(z)\) has the same finite vanishing order \(n\) on each branch. The generic intersection length is therefore \(2n\), and division by the prepared quadratic gives
+
+\[
+G\in(F_*)+(u,v)^n.
+\]
+
+For clarity, the membership follows by writing the prepared remainder as \(a(v)u+b(v)\). Subtracting its restrictions to the two branches, whose difference has order one in \(v\), gives \(\operatorname{ord}a\ge n-1\); then \(\operatorname{ord}b\ge n\). This uses actual conjugate branches and finite intersection length, not just the two initial normal symbols.
+
+If a proper homogeneous degree-sixteen pair \((F_*,G)\) containing \(C\) had \(n\ge12\), the completed jet-kernel certificate would force the global form \(G\) to be a multiple of \(F_*\), contradicting properness. Thus every such pair has
+
+\[
+\boxed{m_C=2n\le22,\qquad
+\deg\bigl([V(F_*,G)]-m_C[C]\bigr)=96-8n\ge8.}
+\]
+
+This fixed-carrier conclusion does not require a prescribed full generic initial CI, a saturated first relation, or the movement-two hypothesis. Those assumptions explain where the carrier came from. The conclusion requires the actual displayed \(F_*\), mate degree sixteen, properness, and characteristic zero. It makes no assertion that the bound is attained. It does not exclude the endpoint-four chart for other \(b_2,\kappa,\rho\), the endpoint-three chart, the orbit-collision chart, other movement rows, or unrestricted STCI presentations.
+
+## Reproduction and review record
+
+Run
+
+```text
+python3 research/computations/endpoint4_actual_2026_10_25.py
+python3 research/computations/endpoint4_fixed_m2_2026_10_25.py
+python3 research/computations/endpoint4_fixed_jet_independent_2026_10_26.py
+```
+
+The first script records the inherited matrix hash, solves only the new right-hand sides, and performs a direct ambient substitution. The generated [JSON](../computations/endpoint4_actual_2026_10_25.json) includes full ambient and normal expansions, parameter conventions, and the torus action. The exporter also produces an M2 family presentation; its successful load adds no further mathematical test.
+
+Independent `endpoint4_formula_audit` reconstructed the second symbol, torus normalization, and exact singular-line orders without rerunning the inherited rank proof. It corrected the initial overly cautious normalization warning: the actual torus does supply the square-root gauge.
+
+The fixed-carrier wrapper saves a [PASS metadata record](../computations/endpoint4_fixed_m2_2026_10_25.json) and [complete M2 output](../computations/endpoint4_fixed_m2_2026_10_25.txt), including source hashes, all sample ranks, the actual degree-six carrier vector, the 969 exponent-column order, and all 286 known-multiple checks. A preliminary M2 implementation failed those checks because an unparenthesized multiline assignment omitted the last two carrier terms. That failure was diagnosed and corrected before the final PASS. Ambient reconstruction and explicit annihilation checks now prevent that mistake from being hidden by the reported rank.
+
+The [independent normal-division script](../computations/endpoint4_fixed_jet_independent_2026_10_26.py) uses recursive normal-degree division in a fixed 23-element basis, followed by separate modular elimination, rather than the M2 quotient Gröbner basis. Its [JSON record](../computations/endpoint4_fixed_jet_independent_2026_10_26.json) independently reports rank 683 and annihilation of all 286 actual multiples at every sample. The nonsplit-node implication is reviewed in the linked scope audit. No result is changed here.
+
+The independent replay uses Python's standard library and a C++17 compiler, selecting clang++ or g++ from the environment. Its temporary rank executable is built outside the repository and removed after the run. Macaulay2 provides the other implementation.
+
+
+
+## Consolidated historical supplement: `research/supplements/SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md`
+
+Original mathematical content, hypotheses, qualifications, and proof status preserved verbatim. Relative links retain their historical source context.
+
+# Split sextic geometry and multiplicity-six restrictions
+
+This chapter retains exact structural restrictions for two different questions concerning the fixed characteristic-zero embedded quartic \(C_0=[s^4:s^3t:st^3:t^4]\): an integral sextic whose quadratic normal cone splits into two reduced content-free sections, with an arbitrary-degree hypothetical mate; and a degree-\((4,6)\) supported pair with generic curvilinear length six. They share saturated multiplicity and actual normal-source mechanisms, but their necessary data are not identified without proof.
+
+The all-quartic-carrier theorem already excludes a characteristic-zero \((4,6)\) STCI. The seven-type calculation remains useful multiple-curve algebra; it is not a surviving actual degree-pair case. The split-sextic statements concern their exact carrier hypotheses and possible other mate degrees, not all sextic carriers. No unrestricted STCI conclusion follows.
+
+Except for the explicitly characteristic-free singleton-normalization lemma and final local control, the split-carrier numerical and projection arguments below retain their characteristic-zero scope. The conormal splitting, divisions by two, actual source ranks and characteristic-zero geometric arguments are not silently transferred to characteristic two or three. The fixed curve does have a [quartic-carrier STCI in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier), which is a separate construction.
+
+The [saturated Gorenstein pairing proof](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit) supplies the rank-six duality input; [the full primitive-triple obstruction](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#primitive-triples-on-smooth-rational-quartics) is the stated exclusion input used in the last section. The exact first-normal source space is preserved below with its chosen balanced frame.
+
+## A normalization obstruction for an integral thick sextic
+
+<a id="p-019"></a>
+
+There is a complementary obstruction for one integral thick carrier.  Let an
+integral degree-\(a\) surface \(X\ne Q\) have generic normal order \(\mu\) along
+\(C\).  Restricting to \(Q\) gives an effective residual class
+
+\[
+ (a,a)-\mu(1,3)=(a-\mu,a-3\mu),
+\]
+
+so \(a\ge3\mu\).  A thick sextic therefore has \(\mu=2\). This normalization obstruction works in every algebraically closed characteristic: the effective quadric restriction, normalization multiplicity formula (including residue-field degrees), projection formula and Cartier intersection integrality require neither separability nor balanced normal splitting.
+
+Let \(\nu:S=X^\nu\to X\) be the normalization, write the components of
+\((\nu^{-1}C)_{\mathrm{red}}\) as \(\Gamma_i\), and put
+\(\delta_i=[k(\Gamma_i):k(C)]\).  At the generic point of \(C\), the
+one-dimensional hypersurface local ring has multiplicity \(\mu\).  The
+normalization multiplicity formula gives
+
+\[
+ \mu=\sum_i s_i\delta_i,
+\]
+
+with positive integers \(s_i\).  Hence for a sextic
+\(\sum_i\delta_i\le2\).
+
+Suppose the reduced inverse image is one irreducible Cartier curve \(\Gamma\)
+of degree \(\delta\) over \(C\), and suppose a degree-\(b\) mate exists.
+Pulling its Cartier divisor to the normalization gives
+
+\[
+ q\Gamma\sim b\widetilde H
+\]
+
+for some \(q>0\), where \(\widetilde H=\nu^*O_X(1)\).  Projection formula
+gives
+
+\[
+ \widetilde H^2=a,\qquad \widetilde H\Gamma=4\delta.
+\]
+
+Intersecting the displayed equivalence first with \(\widetilde H\) and then
+with \(\Gamma\) yields
+
+\[
+ \boxed{\Gamma^2=\frac{16\delta^2}{a}.}
+\]
+
+For \(a=6\), the multiplicity formula permits only \(\delta=1,2\), giving
+\(8/3\) or \(32/3\).  This contradicts integrality of the self-intersection of
+a Cartier curve.  Thus a thick sextic in a defining pair can survive this
+argument only if the normalized preimage splits into two degree-one branches,
+or its irreducible preimage is non-Cartier.  Those are genuine gaps: the
+split-branch intersection equations have consistent integral numerical
+solutions, so one cannot silently assume equal branch multiplicities or
+iterate the same fractionality argument.
+
+### P-020: the split-sextic branch has only two extreme numerical types
+
+Let
+
+\[
+ \pi:B=\operatorname{Bl}_C\mathbf P^3\longrightarrow\mathbf P^3,
+ \qquad E=\mathbf P(N_C^*)\simeq\mathbf P^1\times\mathbf P^1,
+\]
+
+and use the bidegree convention in which
+
+\[
+ H|_E=\mathcal O_E(4,0),\qquad
+ \mathcal O_E(E)=\mathcal O_E(7,-1).
+\]
+
+An integral sextic of exact normal order two has strict transform
+\(D\sim6H-2E\), and hence
+
+\[
+ D|_E\sim(10,2).
+\]
+
+Assume this divisor is the reduced sum of two distinct integral, content-free
+sections, with no vertical component:
+
+\[
+ Z_1\sim(d,1),\qquad Z_2\sim(10-d,1).
+\]
+
+After exchanging them, take \(0\le d\le5\).  The no-vertical hypothesis makes
+the blowdown of the normalized strict transform quasi-finite over the sextic;
+the two curves \(\Gamma_i\) above \(Z_i\) are therefore exactly the two
+divisorial branches over \(C\).  If a degree-\(b\) mate exists, its pullback to
+the normalization has divisor
+
+\[
+ bH\sim m_1\Gamma_1+m_2\Gamma_2,
+ \qquad m_1,m_2>0.
+\]
+
+This equality is an equality of Weil divisors with Cartier left side.  It may
+be intersected with the Cartier divisors \(H\) and \(E\), even when the
+individual branches are not Cartier.  The ambient blowup intersections are
+
+\[
+ H^2D=6,\qquad HED=8,
+\]
+
+and
+
+\[
+ H\Gamma_i=4,\qquad
+ E\Gamma_1=7-d,\qquad E\Gamma_2=d-3.
+\]
+
+Consequently
+
+\[
+ m_1+m_2=\frac{3b}{2},
+\]
+
+\[
+ (7-d)m_1+(d-3)m_2=8b.
+\]
+
+Put \(\Delta=m_1-m_2\).  Eliminating \(m_2\) gives
+
+\[
+ \Delta(5-d)=5b,
+ \qquad
+ \frac{m_2}{b}=\frac{5-3d}{4(5-d)}.
+\]
+
+The case \(d=5\) is impossible, and positivity of \(m_2\) leaves only
+
+\[
+ \boxed{d=0,\quad(m_1,m_2,b)=k(5,1,4)}
+\]
+
+or
+
+\[
+ \boxed{d=1,\quad(m_1,m_2,b)=k(11,1,8)}.
+\]
+
+This is a finite reduction, not yet an unconditional exclusion.  It becomes
+an exclusion if the two branches are Cartier on the normalization.  Writing
+\(z=\Gamma_1\Gamma_2\), one then has
+
+\[
+ \Gamma_1^2=7-d-z,\qquad
+ \Gamma_2^2=d-3-z.
+\]
+
+Intersecting the mate divisor with each branch forces respectively
+
+\[
+ d=0:\quad z=\frac{19}{4},
+ \qquad
+ d=1:\quad z=\frac{17}{5},
+\]
+
+both impossible for Cartier-curve intersection numbers, which are integers also on the normal surface.  In particular, if
+the first strict transform is smooth at the ten collision points, its branch
+intersection is the ordinary value
+
+\[
+ Z_1Z_2=10,
+\]
+
+and the contradiction is immediate.
+
+The qualification is essential.  On the normal local surface
+
+\[
+ xy=e^n,
+\]
+
+the two components of \((e=0)\) meet with Mumford intersection \(1/n\), not
+one.  Thus normality alone does **not** imply \(z=10\); isolated local
+class-group corrections are exactly the remaining split-sextic escape route.
+The two forced values above quantify those corrections.  In transverse
+\(A_{r-1}\) models they require total differents \(21/4\) and \(33/5\),
+respectively.
+
+
+
+### P-022: the actual thick-sextic first-normal image
+
+For any characteristic-zero smooth rational quartic, the quadratic
+first-normal map is
+
+\[
+ H^0(I_C^{(2)}(6))\longrightarrow
+ H^0\bigl(C,\operatorname{Sym}^2N_C^*\otimes O_C(6)\bigr).
+\]
+
+P-017 gives a 23-dimensional source.  Its kernel is exactly
+\(H^0(I_C^{(3)}(6))=kq^3\): restriction to the unique quadric would otherwise
+give a section of \(O_Q(3,-3)\).  Thus its image \(W\) has dimension 22.
+If \(U\) is the seven-dimensional first-normal image of cubics through \(C\),
+then
+
+\[
+ W=\langle U\cdot U\rangle.
+\]
+
+For \(C_0\), in the balanced frame
+
+\[
+ z=x_1/x_0,\qquad a=x_2-z^3,\qquad b=x_3-z^4,
+ \qquad \xi=b-\tfrac32za,\quad\eta=a,
+\]
+
+an exact row reduction gives eleven independent linear equations cutting out
+\(W\subset H^0(O(10))^3\).  Writing a normal quadratic as
+
+\[
+ \alpha(z)\xi^2+\beta(z)\xi\eta+\gamma(z)\eta^2,
+\]
+
+the equations are
+
+\[
+\begin{aligned}
+-\alpha_9+2\beta_{10}&=0,&-\beta_0+2\gamma_1&=0,\\
+\alpha_0-2\beta_1+4\gamma_2&=0,
+&-3\alpha_1+2\beta_2+4\gamma_3&=0,\\
+\alpha_2-2\beta_3+4\gamma_4&=0,
+&\alpha_3-2\beta_4+4\gamma_5&=0,\\
+-\alpha_4+4\gamma_6&=0,
+&\alpha_5-2\beta_6+4\gamma_7&=0,\\
+\alpha_6-2\beta_7+4\gamma_8&=0,
+&-\alpha_7-2\beta_8+12\gamma_9&=0,\\
+\alpha_8-2\beta_9+4\gamma_{10}&=0.
+\end{aligned}
+\]
+
+Solving them produces primitive split
+quadratics
+
+\[
+ (p\xi+r\eta)(u\xi+v\eta)
+\]
+
+of every type \((d,1)+(10-d,1)\), \(0\le d\le5\).  Therefore the actual
+ambient image, and not merely the complete space of normal quadratics, permits
+all split types.
+
+Exact affine representatives \((p,r),(u,v)\) for the two factors are:
+
+\[
+\begin{array}{c|c|c}
+d&(p,r)&(u,v)\\\hline
+0&(1,0)&(-z^{10}-2,-z)\\
+1&(1,z)&(2+6z+2z^8,z+z^2+z^9)\\
+2&(1,z^2)&(2+4z+24z^7,z+2z^2+z^5+2z^6+4z^7+12z^8)\\
+3&(1,z^3)&(8-2z+8z^3+24z^5+8z^6,4z-3z^2+4z^6+4z^7)\\
+4&(1,z^4)&(4+2z+12z^4+4z^5,2z+3z^2+2z^5+2z^6)\\
+5&(z^5,1)&(-z^5,1).
+\end{array}
+\]
+
+This also falsifies a tempting inference.  A square discriminant on the
+exceptional divisor forces the *normal divisor* to split, but not the ambient
+sextic.  Exact integral examples are
+
+\[
+ (A+x_3q)(A-x_3q)+q^3
+\]
+
+and
+
+\[
+ (A+x_3q)(2A+D)+q^3.
+\]
+
+The second has smooth first strict transform at all collisions of its two
+normal sections.  Thus any later argument must use the mate, higher normal
+coefficients, or normalization intersection theory; first-normal
+factorization alone is insufficient.
+
+
+
+### P-023: Hodge exclusion for squarefree split-sextic residuals
+
+Retain the split/no-vertical hypotheses of P-020 and let \(S\) be the
+normalization of the strict transform of the sextic.  Work on a resolution
+\(\widetilde S\), using Mumford numerical pullbacks for the two branch curves.
+Write
+
+\[
+ K_0=2H-E.
+\]
+
+This is the pullback of the adjunction class cut by the unique quadric; it
+must not be silently identified with the canonical divisor of a singular
+normalization or of its resolution.  The ambient intersections are
+
+\[
+ H^2=6,\quad HE=8,\quad E^2=4,
+ \quad HK_0=4,\quad K_0^2=-4.
+\]
+
+For the low-degree branch \(\Gamma\) of type \((d,1)\), P-020 gives
+
+\[
+ K_0\Gamma=d+1,\qquad
+ \Gamma^2=\begin{cases}9/4&d=0,\\13/5&d=1.\end{cases}
+\]
+
+Put
+
+\[
+ L=H+K_0,\qquad
+ T=\Gamma^\#+\frac{d+1}{4}K_0,
+\]
+
+where \(\Gamma^\#\) is the numerical pullback.  Then \(L^2=10\),
+\(LK_0=TK_0=0\), and equality holds in Hodge index:
+
+\[
+ (LT)^2=L^2T^2.
+\]
+
+Consequently
+
+\[
+ T\equiv\tfrac12L\quad(d=0),\qquad
+ T\equiv\tfrac35L\quad(d=1).
+\]
+
+If the residual binary quartic is squarefree, the quadric section of \(K_0\)
+is a sum of four pairwise-disjoint reduced ruling lines \(R_j\).  Each \(R_j\)
+is Cartier on the normal surface, even if it passes through a singular point:
+locally it is the only component of the reduced Cartier divisor through that
+point.  Moreover
+
+\[
+ HR_j=1,\qquad K_0R_j=-1,\qquad LR_j=0.
+\]
+
+Intersecting the numerical proportionality with \(R_j\) yields
+
+\[
+ \Gamma R_j=\frac{d+1}{4},
+\]
+
+equal to \(1/4\) or \(1/2\), contrary to integrality of intersection with the
+Cartier curve \(R_j\).  Hence neither surviving split type can have a
+squarefree residual quartic.  This proof was independently audited for signs
+and for the use of Hodge index on a resolution.  What remains is precisely the
+highly non-squarefree residual locus; squarefreeness does not follow merely
+from a reduced, content-free split first-normal divisor.
+
+For \(C_0\), exact next-jet calculations are consistent with this boundary.
+For every \(d=0\) factor, imposing both first-normal divisibility and vanishing
+of the next normal coefficient makes the collision polynomial have affine
+degree at most five and forces a square factor in the residual binary quartic.
+A large \(d=1\) chart has the same behavior.  The full projective space of
+\((1,1)\)-factors has not been eliminated.
+
+
+
+### P-030: residual-root multiplicities in the split sextic cases
+
+Assume the split/no-vertical hypotheses of P-020 and P-023.  Let
+\(K_i\) be the full Cartier cluster lying over a distinct root of the residual
+binary quartic, including its root multiplicity and every exceptional
+component required by resolution, and let that multiplicity be \(\mu_i\).
+The four total units satisfy \(\sum_i\mu_i=4\).
+
+With \(K_0=2H-E\), the intersection identities on the resolved normalization
+are
+
+\[
+ H\cdot K_i=\mu_i,\qquad E\cdot K_i=3\mu_i,\qquad
+ K_0\cdot K_i=-\mu_i,\qquad L\cdot K_i=0.
+\]
+
+The same Hodge-index equality used in P-023, now applied to the full cluster
+rather than to a reduced branch, forces the low-degree normalization branch
+to meet \(K_i\) in
+
+\[
+ \Gamma_{\mathrm{low}}\cdot K_i=
+ \begin{cases}
+   \mu_i/4,&d=0,\\
+   \mu_i/2,&d=1.
+ \end{cases}
+\]
+
+The cluster \(K_i\) is the full Cartier divisor pulled back from the normalization, so it is orthogonal to every exceptional curve. Thus \(\Gamma_{\mathrm{low}}^\#\cdot K_i\) equals the intersection of the integral strict transform with that integral Cartier pullback, and is an integer. This does not assert that the rational numerical pullback \(\Gamma_{\mathrm{low}}^\#\) is integral or Cartier downstairs.  In the
+\(d=0\) case every \(\mu_i\) is divisible by four, so the only partition is
+\([4]\).  In the \(d=1\) case every \(\mu_i\) is even, leaving only
+\([4]\) and \([2,2]\).  The conclusion concerns full Cartier clusters; it
+must not be applied to only the reduced visible branch over a multiple root.
+
+This removes the squarefree residual case already excluded in P-023 and all
+partitions except the three displayed possibilities.  It does not yet exclude
+the surviving multiple-root configurations.
+
+
+
+## Clean split conductor: a branch exclusion and its stronger global model
+
+<a id="p-027"></a>
+
+This argument has two distinct scopes. Let \(X\subset\mathbf P^3_{\mathbf C}\)
+be an integral sextic, generically nodal along the smooth rational quartic
+\(C\), with smooth normalization \(\nu:S\to X\). Suppose the inverse image
+of \(C\) consists of two branches \(\Gamma_1,\Gamma_2\), each mapping
+isomorphically to \(C\), and
+\[
+ I_CO_S=O_S(-\Gamma_1-\Gamma_2).
+\]
+Assume the source conductor divisor is
+\(\Delta=\Gamma_1+\Gamma_2+\Delta'\), with \(\Delta'\) disjoint from
+both branches. Retain the reduced/content-free split first-normal divisor
+\((d,1)+(10-d,1)\), with no vertical component, from the preceding
+split-carrier calculation. These are sufficient for the branch exclusion.
+Global invariants stated below additionally require \(\Delta'=0\).
+
+The [source double-point/finite-duality formula of Kleiman–Lipman–Ulrich](https://www.math.purdue.edu/~jlipman/papers/2-point.pdf), applied to the finite normalization map into the smooth threefold, gives
+\[
+ K_S+\Delta=2H.
+\]
+Because \(\Delta'\) is disjoint from each branch, intersecting with
+\(\Gamma_i\) and comparing smooth adjunction
+\((K_S+\Gamma_i)\Gamma_i=-2\), with \(H\Gamma_i=4\), gives
+\[
+ \Gamma_1\Gamma_2=10.
+\]
+The clean ideal makes the lifted blowup divisor exactly
+\(E=\Gamma_1+\Gamma_2\) on \(S\); the split first-normal degrees give
+\(E\Gamma_1=7-d\) and \(E\Gamma_2=d-3\). Hence
+\[
+ \Gamma_1^2=-d-3,\qquad \Gamma_2^2=d-13.
+\]
+If a degree-\(b\) mate exists, then
+\(bH\sim m_1\Gamma_1+m_2\Gamma_2\), with positive integral \(m_i\).
+Intersecting with \(H\) gives \(m_1+m_2=3b/2\). Intersecting with the two
+branches gives
+\[
+ 4b=-(d+3)m_1+10m_2,
+ \qquad4b=10m_1+(d-13)m_2.
+\]
+Eliminating \(m_i\) forces
+\[
+ d^2-10d-35=0,
+\]
+which has no integral solution \(0\le d\le5\). Equivalently, the forced
+ratio is \(m_1/b=(9\pm\sqrt{15})/12\), not rational. Thus even additional
+conductor components disjoint from the two branches do not rescue this
+branch-intersection model.
+
+For the stronger global numerical model, assume the **entire** source
+conductor divisor is \(\Gamma_1+\Gamma_2\). Then
+\(K_S+\Gamma_1+\Gamma_2=2H\) globally. The target conductor is exactly
+\(I_C\): the pullback ideal is the source conductor, so \(I_C\) is
+contained in the target conductor; conversely a conductor function vanishes
+at the generic point of the integral reduced curve \(C\), and therefore
+belongs to its prime ideal. The conductor square consequently gives
+\[
+ 0\longrightarrow O_X\longrightarrow\nu_*O_S
+ \longrightarrow O_C(-Z)\longrightarrow0,
+ \qquad\operatorname{length}Z=10.
+\]
+Indeed, the two rational branches meet in the length-ten subscheme \(Z\).
+Their union has structure sheaf consisting of pairs of branch functions
+agreeing on \(Z\); modulo the diagonal \(O_C\), this is \(O_C(-Z)\).
+Since \(\chi(O_X)=11\) for a sextic hypersurface,
+\(\chi(O_C(-Z))=-9\), so \(\chi(O_S)=2\). Finite duality identifies
+\(\nu_*\omega_S=I_C\otimes\omega_X=I_C(2)\). The quartic has its unique
+containing quadric, so \(p_g(S)=h^0(I_C(2))=1\), and then \(q(S)=0\).
+Finally
+\[
+ K_S^2=4H^2-4H(\Gamma_1+\Gamma_2)+(\Gamma_1+\Gamma_2)^2=-4,
+ \qquad c_2(S)=12\chi(O_S)-K_S^2=28.
+\]
+These are the classical ordinary-sextic numbers. In the ordinary model the
+degree-twenty discriminant has twenty pinch points, so its double conductor
+cover is connected of genus nine and cannot be the two split rational
+branches. That comparison uses the ordinary-model hypotheses.
+
+The global numbers do not follow merely from absence of additional conductor
+*meeting* the branches: disjoint extra conductor can change them. The branch
+exclusion has the weaker disjointness scope proved above; the numerical
+identities have the entire-conductor scope. Singular normalization, extra
+conductor meeting a branch, or a finite-length factor in \(I_CO_S\) are genuine
+escapes from this clean calculation. Nothing here excludes every integral
+sextic carrier or constructs an STCI mate.
+
+### P-041: torsion-corrected sharpening of the surviving split sextics
+
+Retain the split, reduced, content-free, no-vertical hypotheses of P-020,
+P-023, and P-030.  The only residual binary-quartic root partitions are
+\([4]\) for \(d=0\), and \([4]\) or \([2,2]\) for \(d=1\).  Over an
+algebraically closed characteristic-zero field every such quartic is a square.
+Writing \(h\) for the equation of \(C\) on its unique quadric \(Q=(q=0)\),
+
+\[
+ F|_Q=h^2P_2^2=(hP_2)^2.
+\]
+
+The bidegree-\((3,3)\) form \(hP_2\) lifts to a cubic
+\(T\in I_C(3)\).  Hence \(F-T^2=qK\) for a quartic \(K\), and locally
+\((I_C^2:q)=I_C\) gives
+
+\[
+ \boxed{F=T^2+qK,\qquad T\in I_C(3),\quad K\in I_C(4).}
+\]
+
+Every residual root selected by the low first-normal branch is also met by
+the high branch.  On the exceptional divisor the first strict transform has
+equation \(\ell m=0\), so its differential vanishes along the exceptional
+tangent directions at such a point.  On the strict transform of \(Q\), the
+residual root has multiplicity at least two, so the differential vanishes
+along those tangent directions as well.  These two divisors are transverse in
+the smooth blowup; consequently the first strict transform is singular at
+every selected residual-root point.
+
+The mate relations must retain their common scale \(k>0\).  They imply
+
+\[
+\begin{array}{c|c|c}
+d&(m_{\mathrm{low}},m_{\mathrm{high}},b)&
+\text{Cartier multiple forced by the mate}\\\hline
+0&k(5,1,4)&4k\Gamma_{\mathrm{low}},\\
+1&k(11,1,8)&10k\Gamma_{\mathrm{low}}.
+\end{array}
+\]
+
+One cannot cancel \(k\): local class groups may have torsion.  In an
+independently established ordinary \(A_{\mu-1}\) model
+\(xy=t^\mu\), a low branch of contact \(\alpha\) represents
+\(\alpha\in\mathbb Z/\mu\), has local Mumford intersection
+\(\alpha^2/\mu\), and contributes correction
+\(\alpha(\mu-\alpha)/\mu\).  Thus a two-simple \(d=1,[4]\) allocation with
+ordinary \(A_3\) germs forces only \(k\) even; it is not unconditionally
+excluded.  This corrects the invalid stronger inference from
+\(10k[\Gamma]=0\) to \(10[\Gamma]=0\).
+
+There is one further exact exclusion for \(C_0\).  At a totally ramified
+ruling, normalize \(d=1,[4]\) so the low factor restricts to \(z^2\).
+In the balanced frame its global form is
+
+\[
+ (p_0-2z)\xi+\frac{p_0z}{2}\eta.
+\]
+
+Content freedom of this low section requires \(p_0\ne0\). Write the high factor as
+
+\[
+ u(z)\xi+\left(z^{10}+\frac z2u(z)\right)\eta.
+\]
+
+The eleven exact first-normal image equations force \(u_9=-2\) and
+\(u_0=u_3=u_6=0\).  In particular both high coefficients are divisible by
+\(z\), creating forbidden vertical content.  Coordinate reversal gives the
+same conclusion at the other totally ramified ruling.  The general
+\(d=0,[4]\), non-totally-ramified \(d=1,[4]\), and \(d=1,[2,2]\) loci remain
+open.  The last locus genuinely contains a missed projective boundary at
+first-normal order.  In the balanced frame with quadric direction
+\(q_1=\xi+z\eta/2\), the content-free factors
+
+\[
+ \ell=\xi+\frac32z\eta,
+ \qquad
+ m=(1-3z^4+z^8)\xi+
+   \left(\frac z2-\frac{z^5}{2}+\frac{z^9}{2}\right)\eta
+\]
+
+have evaluations \(z\) and \(z^5\) on \(q_1\).  Their product therefore has
+the required boundary evaluation \(z^6\), homogeneously \(s^6t^6\), and its
+quadratic coefficients
+
+\[
+ \alpha=z^8-3z^4+1,\qquad
+ \beta=2z^9-5z^5+2z,\qquad
+ \gamma=\frac34(z^{10}-z^6+z^2)
+\]
+
+satisfy all eleven P-022 image equations.  This is an exact, content-free
+first-normal survivor, not an ambient integral sextic or an STCI pair.  It
+shows why the \([2,2]\) boundary must remain in the search.  Unsaved
+higher-jet samples supply only computational evidence.
+
+
+
+### P-042: the necessary multiplicity-six types for a mixed \((4,6)\) pair
+
+Let \(k\) be algebraically closed of characteristic zero and suppose
+\(X=V(F_4,G_6)\) is supported set-theoretically on \(C_0\).  The forms have no
+common surface factor, so \(X\) is a degree-24 lci curve of generic length six
+over \(C_0\).  By P-011 the quartic has normal order one at the generic point.
+In the completed transverse regular local ring it can therefore be taken as
+one parameter; modulo it the other equation is a unit times the sixth power of
+the remaining parameter.  Thus \(X\) is quasiprimitive.
+
+Write the Bănică--Forster pieces as \(E_i=L^i(D_i)\), with \(D_1=0\).  For a
+quasiprimitive multiplicity-six lci, the Gorenstein multiplication pairings
+
+\[
+ E_i\otimes E_{5-i}\longrightarrow E_5
+\]
+
+are isomorphisms.  The natural multiplication maps encode the inequalities
+\(D_i+D_j\le D_{i+j}\).  The pairings give
+\(D_4=D_5=D_2+D_3\), while \(2D_2\le D_4\) gives
+\(0\le D_2\le D_3\).  The pieces therefore have the necessary form
+
+\[
+ O_C,\quad L,\quad L^2(D_2),\quad L^3(D_3),\quad
+ L^4(D_2+D_3),\quad L^5(D_2+D_3).
+\]
+
+Put \(l=\deg L\) and \(d_i=\deg D_i\).  Since \(C_0\simeq\mathbf P^1\),
+additivity of Euler characteristic gives
+
+\[
+ \chi(O_X)=6+15l+3(d_2+d_3).
+\]
+
+A \((4,6)\) complete intersection has
+
+\[
+ p_a(X)=1+\frac{24(4+6-4)}2=73,
+ \qquad \chi(O_X)=-72,
+\]
+
+and hence
+
+\[
+ \boxed{5l+d_2+d_3=-26.}
+\]
+
+The first piece is a line-bundle quotient
+\(O_{\mathbf P^1}(-7)^2\twoheadrightarrow L\), so \(l\ge-7\); effectivity
+and the displayed equation give \(l\le-6\).  The eight raw numerical types are
+
+\[
+\begin{array}{c|c}
+l&(d_2,d_3)\\\hline
+-7&(0,9),(1,8),(2,7),(3,6),(4,5),\\
+-6&(0,4),(1,3),(2,2).
+\end{array}
+\]
+
+When \((l,d_2)=(-7,0)\), the canonical multiplicity-three member of the
+filtration has pieces \(O,L,L^2\) and is a global primitive triple of type
+\(O(-7)\), contrary to P-010.  Exactly seven necessary numerical types remain.
+No existence or compatibility among these numerical candidates is asserted.
+
+Finally, the quotient \(O(-7)^2\twoheadrightarrow O(l)\) is represented by a
+basepoint-free pair of sections of degree
+
+\[
+ e=l+7\in\{0,1\}.
+\]
+
+This is precisely the horizontal degree in P-031.  In the nonregular branch,
+P-031 gives \(1\le p\le8-e\), \(c=9-e-p\), and \(\deg Z=p+8\).  Therefore
+only \(8+7=15\) of the former 36 coarse pole-divisor strata remain.  The seven
+Bănică--Forster numerical types and the fifteen pole strata record different
+necessary data; no unproved correspondence between them is being assumed.
+
+
+## Further actual lifts and surviving limits
+
+The [fixed ramified boundary and its larger chart](RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#2026-10-05-split-sextic) construct actual sextic lifts and prove the all-mate exclusion for the specified fixed normal form; this does not exclude every first-normal survivor. The [nonramified quadruple-root and additional two-double-root charts](RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#2026-10-05-split4-nonramified) retain the actual local models and their restrictions. In particular the first-normal boundary example above is a control of source compatibility, not an actual integral carrier or mate.
+
+The numerical seven types in the final section are a coarse stage. The [corrected first-normal Fitting divisor and pole comparison](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mixed46-poles) gives the stronger exact divisor relation \(A=D_3+\min(D_2,D_3-D_2)\) under its hypotheses. The distinction between that refined evidence, the earlier fifteen coarse pole strata, and actual realization must be retained. No uniform correspondence or realized configuration is inferred from the tables.
+
+
+## A local control for the regular-ratio hypothesis
+
+For any field and integer \(m\ge2\), in \(k[[t,u,v]]\) take
+\(F=tu+v^m\), \(G=u\). Their ideal is exactly \((u,v^m)\), a
+complete intersection with radical \((u,v)\), and the quotient is free of
+rank \(m\) over \(k[[t]]\). Thus transverse length is constant even at
+\(t=0\). The first-normal forms are \(tu\) and \(u\), with rational
+quotient \(1/t\). Proper local complete intersection and constant length
+therefore do not imply a regular quotient, and do not justify subtracting a
+global multiple of one equation from the other. This formal local control
+asserts no projective realization with prescribed degrees.
+
+
+## Further higher-jet reduction
+
+The [full two totally ramified-root reduction](SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.md) treats the entire stated two-root family, including the zero-polynomial stratum, and leaves an explicit one-parameter carrier line. It is distinct from the preceding first-normal and numerical restrictions.
+
+## Consolidation review
+
+Independent review reconstructed all preserved P019/P020/P022/P023/P027/P030/P041/P042 arguments, source coverage and characteristic boundaries, including the entire-conductor qualification for global invariants. The separate full two-ramified-root reduction was also independently reconstructed and accepted. The bounded proof clarifications in this account
+were checked against the original arguments; no material preservation finding
+remains. The claims retain their stated hypotheses.
+
