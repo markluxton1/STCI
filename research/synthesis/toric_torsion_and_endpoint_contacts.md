@@ -465,8 +465,6 @@ and the transfer of their proofs and qualifications.
 
 ## Consolidated historical source: `research/supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md`
 
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
-
 # Boundary obstruction and endpoint scope investigations
 
 ## Integration guide: one-step obstructions and global endpoint tests

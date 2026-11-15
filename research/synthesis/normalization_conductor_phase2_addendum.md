@@ -4,13 +4,13 @@
 
 The finite normalization of the cubic x0*x2^2=x1^2*x3 is F1, with hyperplane class E+2f. On x0=1 its local ring inclusion is k[r,rw,w^2] inside k[r,w]. The upstairs conductor is (r); the downstairs conductor is the reduced double-line ideal (x1,x2). The conductor section maps two-to-one to the line, branched at the endpoints. The strict quartic lift has class 2E+2f, but the full inverse ideal is (w-r^2)(r,w), with an embedded length-one defect at each endpoint. The same F1 is the smooth cubic scroll S(1,2) in P4, projected from the omitted middle coordinate. On the smooth quadric the cubic cuts C0 plus the two limiting tangent trisecants. In characteristic two the conductor cover is inseparable and the scroll is a tangent developable.
 
-Sources: [current proof](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-normalization) and [current proof](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md). Independently reviewed geometry, not a new STCI result.
+Sources: [current proof](ruled_surface_degree_criterion.md#cubic-scroll-normalization) and [current proof](ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual). Independently reviewed geometry, not a new STCI result.
 
 ## Projection cone and four-section quartic
 
 The projected cone over C0 has ring k[s^4,s^3t,st^3,t^4], missing the integral element s^2t^2. Its normalization is the complete fourth Veronese cone, with conductor supported at the vertex and an upstairs dual-number quotient. The correct factorization is F4 contracting the negative section to the normal cone, followed by finite normalization of the projected cone. F4 itself is not finite over the projected cone. The related four-section quartic has conductor (x0,x1)^2 downstairs; its transverse ring is k[v^3,v^4,b] inside k[v,b], with conductor v^6. Full inverse ideals can have embedded endpoint corrections of colength six.
 
-Sources: [current proof](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md) and its independent audit. Elementary transformations and mu4 arithmetic remain in the ruled-geometry family.
+Sources: [current proof](ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual) and its independent audit. Elementary transformations and mu4 arithmetic remain in the ruled-geometry family.
 
 ## Conditional (6,16) singular-root interface
 
@@ -18,7 +18,7 @@ The October 20 proposal assumes an actual supported (6,16) pair, full generic co
 
 The October 21 conductor-budget proposal originally depended on an anticanonical contraction hypothesis. The independent continuation audit subsequently VERIFIED that hypothesis in the precise actual-pair setting: a cubic-image model V is a smooth integral threefold with canonical bundle O(-2), and the strict sextic descends to an integral anticanonical surface T. Finite duality and the local monic double-cover normalization then exclude singular-curve contacts at ramified simple base zeros. Combined with the separate nodal analysis, the reviewed result gives a sharp NECESSARY alternative for any actual pair: the multiplier alpha has a multiple base zero, or alpha vanishes at a node of the full root. For a smooth full root the necessary discriminant equation is Disc_8(Ncomp(tau))=0, of degree 28 in the root coefficients. These exceptional strata have not been eliminated; no complete exclusion follows. A different proposed nodal normalization obtained by dividing by a nonunit was rejected as nonfinite. Its suggested integral replacement is not yet certified normal or equipped with an exact conductor.
 
-Sources: [current proof](../supplements/SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md) and [current proof](../supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification). Conditional cross-family work.
+Sources: [current proof](../supplements/SINGULAR_ROOT_ACTUAL_PAIR_BRIDGE.md) and [current proof](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification). Conditional cross-family work.
 
 ## Seven-cubic contraction and five-quadric anticanonical model
 
@@ -38,25 +38,25 @@ The homogeneous ring has free resolution of ranks \((1,5,5,1)\), shifts \((0,2,3
 
 Every sextic in \(H^0(I_{C_0}^2(6))\) is a quadratic expression in these seven cubics and descends to \(T\in|\mathcal O_V(2)|\), with \(\omega_T=\mathcal O_T\). **For an actual supported pair** the low-degree carrier exclusion forces the sextic, its strict transform, and \(T\) to be integral, and the quadric cannot be a component. Finite duality for the normalization \(Y\to T\) identifies \(\omega_Y\) with its full conductor ideal, and the resulting conductor curve \(\Delta\) satisfies \(\omega_\Delta=\mathcal O_\Delta\), even if the conductor is nonreduced or \(Y\) is not Gorenstein. A generically reduced irreducible conductor component of multiplicity one must have arithmetic genus at most one. This global restriction drives the reviewed exclusion of ramified contacts over **simple** zeros of the multiplier \(\alpha\). It does not exclude repeated zeros or nodal root contacts where \(\alpha\) vanishes.
 
-The exact cubic model, graph identification, conductor duality, and simple-zero exclusion received an independent **PASS under the conditional actual-pair hypotheses**. A different nodal example's purported finite normalization by dividing by a nonunit was explicitly **rejected** and is not used. No unconditional \((6,16)\) or STCI exclusion follows. [Cubic image and conductor construction](../supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface); [independent review and rejected nodal claim](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2).
+The exact cubic model, graph identification, conductor duality, and simple-zero exclusion received an independent **PASS under the conditional actual-pair hypotheses**. A different nodal example's purported finite normalization by dividing by a nonunit was explicitly **rejected** and is not used. No unconditional \((6,16)\) or STCI exclusion follows. [Cubic image and conductor construction](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface); [independent review and rejected nodal claim](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2).
 
 ## Exact global sextic-symbol restriction in the conditional (6,16) lane
 
 For the fixed characteristic-zero quartic, the second normal jet map
 from \(H^0(I_{C_0}^2(6))\) has a 23-dimensional source, a rank-22 image
 in a 33-dimensional target and kernel \(kq^3\). The
-[exact map and eleven image equations](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map)
+[exact map and eleven image equations](rank_strata_and_sextic_lifts.md#2-the-exact-global-k-linear-symbol-map)
 are computed using the actual global source. On the conditional locus,
 testing \(\alpha f\) in that image fixes the sextic up to addition of
-\(\eta q^3\). The [actual cubic-jet test](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet)
+\(\eta q^3\). The [actual cubic-jet test](rank_strata_and_sextic_lifts.md#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet)
 checks this whole affine line.
 
-The [structured incidence](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-the-exact-remaining-scheme)
+The [structured incidence](rank_strata_and_sextic_lifts.md#6-the-exact-remaining-scheme)
 also imposes both ambient obstruction tests and full spectral torsion,
-including nodal gluing. The [independent audit](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-incidence-audit)
+including nodal gluing. The [independent audit](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-incidence-audit)
 reviews the exact symbol map and conditional necessity. Realization by a
 proper supported pair still requires the
-[global equation certificate](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#8-what-a-realization-would-have-to-certify).
+[global equation certificate](rank_strata_and_sextic_lifts.md#8-what-a-realization-would-have-to-certify).
 
 ## The finite source incidence and its constant-rank cubic obstruction
 
@@ -110,7 +110,7 @@ The coefficient equations become \(h_i+\eta\tau_i=(a\ell,\ b\ell+am,\ c\ell+bm)_
 
 ## Existing full-lift exclusion on the free cube-orbit chart
 
-The historical [free cube-orbit global sextic calculation](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-cont2-free-orbit-global-sextic-exclusion) already includes the previously omitted \(\eta q^3\) freedom. It concerns a **restricted chart**, not all quadratic roots: the multiplier is the canonical cube norm of the quadric-line restriction, both endpoint coefficients are nonzero, and no two roots lie in the same primitive-cube orbit. The application to actual supported pairs additionally depends on the separate quadric-cycle norm necessity bridge.
+The historical [free cube-orbit global sextic calculation](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-cont2-free-orbit-global-sextic-exclusion) already includes the previously omitted \(\eta q^3\) freedom. It concerns a **restricted chart**, not all quadratic roots: the multiplier is the canonical cube norm of the quadric-line restriction, both endpoint coefficients are nonzero, and no two roots lie in the same primitive-cube orbit. The application to actual supported pairs additionally depends on the separate quadric-cycle norm necessity bridge.
 
 After the first ambient equations and the chart normalization, its candidate scheme is
 \[
@@ -135,7 +135,7 @@ The general warning about testing only one lift remains essential. For the saved
 
 ## Two-node root strata: exact exclusions and retained pencils
 
-The historical [forced-norm two-node continuation](../supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-singular-continuation2) gives more than an unclassified singular-root boundary. Under its stated actual-pair, saturated movement-two, forced-norm and two-node hypotheses, it computes the nonzero cubic-defect locus. The generic component decomposes into a line and a conic. The **entire generic line component** is excluded by exact first-incidence plus spectral-torsion unit calculations for \(w=1\) and the primitive cube-root branches. The nonzero-defect \(B=0\) and \(C=0\) boundaries are also excluded, the latter by the actual involution \(x_0\leftrightarrow x_3,\ x_1\leftrightarrow x_2\). These are scoped coefficient-scheme exclusions, not an unrestricted characteristic-zero theorem.
+The historical [forced-norm two-node continuation](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-singular-continuation2) gives more than an unclassified singular-root boundary. Under its stated actual-pair, saturated movement-two, forced-norm and two-node hypotheses, it computes the nonzero cubic-defect locus. The generic component decomposes into a line and a conic. The **entire generic line component** is excluded by exact first-incidence plus spectral-torsion unit calculations for \(w=1\) and the primitive cube-root branches. The nonzero-defect \(B=0\) and \(C=0\) boundaries are also excluded, the latter by the actual involution \(x_0\leftrightarrow x_3,\ x_1\leftrightarrow x_2\). These are scoped coefficient-scheme exclusions, not an unrestricted characteristic-zero theorem.
 
 The surviving nonzero-defect locus from that calculation is the generic conic
 \[
@@ -382,8 +382,8 @@ absorbing the multiple of \(x\) in \(t^{10}-z^{10m}\) into \(p\) gives
 multiple-zero germs. A global exclusion also needs a vanishing-cycle
 bound and control of singular roots and nonnormal strict surfaces,
 including singular curves and exceptional fibers. The reviewed
-[normal-surface and reduced-divisor argument](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus)
-and [nonnormal local models](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#nonnormal-conductor-budget-and-local-escape-models)
+[normal-surface and reduced-divisor argument](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus)
+and [nonnormal local models](rank_strata_and_sextic_lifts.md#nonnormal-conductor-budget-and-local-escape-models)
 address these questions in their stated scopes.
 
 ## Geometric exceptional locus for actual pairs
@@ -392,7 +392,7 @@ The October 21 independently reviewed geometric argument gives a necessary condi
 \[
 \operatorname{Disc}_8(N_{\rm comp}(\tau))\,\operatorname{Res}_{8,4}(N_{\rm comp}(\tau),\Delta)=0,\qquad\Delta=b^2-4ac.
 \]
-The degrees in the original root coefficients are 28 and 24. The earlier degree-64 condition also included `Disc_4(Delta)`; the reviewed nodal extension removes that factor, since singular roots with a reduced multiplier divisor have already been excluded. Every homogeneous infinity root remains included. Whether the exceptional locus contains an actual pair remains open. [Proof and dependencies](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus).
+The degrees in the original root coefficients are 28 and 24. The earlier degree-64 condition also included `Disc_4(Delta)`; the reviewed nodal extension removes that factor, since singular roots with a reduced multiplier divisor have already been excluded. Every homogeneous infinity root remains included. Whether the exceptional locus contains an actual pair remains open. [Proof and dependencies](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus).
 
 ## Singular curves on the strict sextic: two conditional alternatives
 
@@ -404,7 +404,7 @@ If \(\Sigma\) is not contained in the strict quadric \(Q'\sim2H-E\), effectivity
 
 The intersection of the strict sextic with \(Q'\) has ruling class \((4,0)\). Consequently \(\Sigma\) must be a trisecant ruling line, with \(d=1\), \(e=3\), \(n=1\), meeting the full root at one ordinary node in the quadric direction. Its multiplicity in the sextic-quadric intersection is at least two. The forced norm then requires additional multiplier multiplicities along its ruling orbit. The line is not an endpoint branch fiber.
 
-Accordingly, a remaining actual pair under these hypotheses must exhibit **either** nonnormality at a multiplier-zero root point **or** this precise singular trisecant ruling line. This is a conditional classification, not an exclusion. See the [reviewed source](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), section 7.
+Accordingly, a remaining actual pair under these hypotheses must exhibit **either** nonnormality at a multiplier-zero root point **or** this precise singular trisecant ruling line. This is a conditional classification, not an exclusion. See the [reviewed source](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), section 7.
 
 ## Exact failed seed: the row also kills the free lift
 
@@ -426,7 +426,7 @@ It annihilates all 23 actual global sextic source columns and all sixteen correc
 \]
 and its row pairing is \(3-2(3/2)=0\). Thus the exact certificate excludes **every** global sextic lift for this fixed seed, including arbitrary additions of q³. It is not merely a test of one chosen lift. The independent consolidation review checked the saved exact source matrices as well as this coefficient calculation.
 
-The source system has 39 unknowns (23 actual sextic coefficients and sixteen correction coefficients), coefficient rank 39 and augmented rank 40. The full source matrices identify the coefficient conventions. The seed also fails the separately accepted second obstruction. Singular roots, all twenty-five second-obstruction pairings, spectral gluing, and the global mate problem remain for the full parameter incidence. [Exact inputs and replay](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#9-reproduction-and-verification-limits), [independent linear-algebra review](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-independent-linear-algebra-reconstruction).
+The source system has 39 unknowns (23 actual sextic coefficients and sixteen correction coefficients), coefficient rank 39 and augmented rank 40. The full source matrices identify the coefficient conventions. The seed also fails the separately accepted second obstruction. Singular roots, all twenty-five second-obstruction pairings, spectral gluing, and the global mate problem remain for the full parameter incidence. [Exact inputs and replay](rank_strata_and_sextic_lifts.md#9-reproduction-and-verification-limits), [independent linear-algebra review](rank_strata_and_sextic_lifts.md#2-independent-linear-algebra-reconstruction).
 
 ## What the conditional (6,16) computation actually tests
 
@@ -447,7 +447,7 @@ The eleven linear equations defining the global sextic-symbol image likewise imp
 No arbitrary projection classification, full conductor phase image, higher-index exclusion, global spectral realization, or unrestricted characteristic-zero STCI theorem follows. The broader source branches are integrated by subject elsewhere; the restrictions here remain conditional and do not claim that every carrier falls in this lane.
 
 
-Source for the stronger reviewed result: [the actual-pair cubic-model and conductor argument](../supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2), sections 2–6. Its independent review reports PASS for the cubic-model interface, full conductor duality, and ramified simple-base-zero exclusion, while expressly rejecting the defective nodal normalization. The finite singular-root bridge remains reviewed.
+Source for the stronger reviewed result: [the actual-pair cubic-model and conductor argument](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2), sections 2–6. Its independent review reports PASS for the cubic-model interface, full conductor duality, and ramified simple-base-zero exclusion, while expressly rejecting the defective nodal normalization. The finite singular-root bridge remains reviewed.
 
 
 ### Geometric scope of movement two
@@ -462,7 +462,7 @@ For the exact linear-algebra statement separating a fixed symbol from its affine
 
 ## Endpoint-four: the finite actual-equation question
 
-On the retained integral nodal endpoint-four chart, normalize a0=1 using the actual ambient torus and its square-root cover as proved in [endpoint-four actual sextics](../supplements/ENDPOINT_FOUR_ACTUAL_SEXTICS.md). The root coefficients become
+On the retained integral nodal endpoint-four chart, normalize a0=1 using the actual ambient torus and its square-root cover as proved in [endpoint-four actual sextics](toric_sextic_residuals_and_limits.md#endpoint-four-sextic-constructions). The root coefficients become
 \[
 a=1+2b_2z+z^2,\quad b=(\rho+1)z/2+b_2z^2,\quad c=\rho z^2/4,\qquad \rho^{12}=1,\quad\rho\ne1.
 \]
@@ -480,8 +480,6 @@ The nonzero rational seed pairing −384 is an obstruction over Q; it gives no s
 
 
 ## Consolidated historical source: `research/supplements/STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md`
-
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
 
 # Actual source incidence and monic differential reductions
 
@@ -547,11 +545,11 @@ graded map an isomorphism. Degree-one generation finally gives
 `P_i=J^i` for all `i`. This removes the possible later ordinary-layer
 torsion rather than assuming it away.
 
-Source: [general theorem and proof, Section 8](SATURATED_DUALITY_AND_MOVING_POWERS.md#projective-normal-flatness-by-duality-and-resultants).
+Source: [general theorem and proof, Section 8](spectral_pushforward_powers.md#projective-normal-flatness-by-duality-and-resultants).
 The same note proves the balanced full-root spectral bridge and retains
 the nonsplit second-generator extension.
-Independent reconstruction: [filtered bridge audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit).
-Additional adversarial review: [normal-flatness audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-normal-flatness-adversarial-audit).
+Independent reconstruction: [filtered bridge audit](spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit).
+Additional adversarial review: [normal-flatness audit](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-normal-flatness-adversarial-audit).
 
 A separate local proof uses the accepted sharp codimension-two
 Artinian Gorenstein Hilbert-function bound. Length `rs`, Loewy degree
@@ -560,8 +558,8 @@ special Hilbert function to equal the CI envelope. A DVR argument then
 makes every ordinary layer flat. This second proof removes projectivity
 and also treats `r=s` under its explicit constant-exact-order hypothesis;
 the saturated first kernel is a sufficient condition of the appropriate
-rank. Its [source](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) and
-[separate audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit)
+rank. Its [source](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) and
+[separate audit](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit)
 record the additional classical dependency. It supplies independent
 support for A1 rather than a finite check of the resultant proof.
 
@@ -600,10 +598,10 @@ For movement two, a spectral survivor must be an integral reduced
 distinct smooth rational `(1,r/2)` divisors. Ramified nonreduced
 **fibers** of a reduced total root remain allowed.
 
-Source: [nonreduced-root proof](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-obstruction).
-Independent reconstruction: [spectral audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-independent-audit).
+Source: [nonreduced-root proof](spectral_torsion_and_syzygy_splitting.md#2026-10-19-spectral-nonreduced-root-obstruction).
+Independent reconstruction: [spectral audit](spectral_torsion_and_syzygy_splitting.md#2026-10-19-spectral-nonreduced-root-independent-audit).
 A shorter general-base argument for moving pure powers is preserved
-in [the pure-power note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
+in [the pure-power note](spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
 
 #### A3. Exact exceptional-cycle balance and new support restrictions
 
@@ -674,8 +672,8 @@ computed exactly; at parameter `gamma=1` it is the diagonal plus
 exactly five isolated points. These families do not exhaust the
 degree-eight projection model.
 
-Source: [actual degree-eight families](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
-Independent reconstruction: [carrier audit](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
+Source: [actual degree-eight families](carrier_conductor_differential_comparison.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
+Independent reconstruction: [carrier audit](carrier_conductor_differential_comparison.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
 
 ### B. Dependencies and remaining cases
 
@@ -703,9 +701,9 @@ support-sensitive restrictions without requiring that first relation
 to be a saturated line.
 
 An independent local Hilbert-function argument is preserved in
-[the local normal-flatness proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness).
+[the local normal-flatness proposal](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness).
 It has its own classical dependency and a separate
-[independent audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit).
+[independent audit](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit).
 It is also a reviewed proposal. The projective theorem
 has the self-contained resultant/duality proof and does not depend on
 this additional classical bound or on the local route's broader scope.
@@ -793,8 +791,8 @@ that commit. This continuation has further working-tree changes.
 
 ### 1. The strongest structural generalization
 
-The new [intrinsic finite-root-family theorem](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family)
-and [independent new-scope audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family-independent-audit)
+The new [intrinsic finite-root-family theorem](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family)
+and [independent new-scope audit](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-intrinsic-finite-root-family-independent-audit)
 remove the rational-base and split-normal-bundle hypotheses from a fixed
 bounded smooth-root family. If `A=Z^2_E`, `nu=E.Z`, and
 `nu>max(A,0)`, all successive correction lines have negative degree
@@ -837,13 +835,13 @@ separate carrier degrees, are the continuing geometric mechanism.
 
 ### 2. Characteristic and actual-CI bridge
 
-The [formal characteristic addendum](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
+The [formal characteristic addendum](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 accepts the balanced-rational formal theorem and finite tower in every
 algebraically closed characteristic, with its explicit normal-bundle
 and smooth-root hypotheses.
 
-The [inseparable-root actual-CI bridge](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge)
-now also has a [full independent new-scope PASS](UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit).
+The [inseparable-root actual-CI bridge](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge)
+now also has a [full independent new-scope PASS](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit).
 It uses the actual root prime over `k(C)` and an uncompleted standard
 basis, retaining inseparable residue fields. The original strict-divisor
 intersection is locally `(h,u^(s-r))`, without saturation or removal
@@ -855,8 +853,8 @@ literal C0 splitting in bad characteristics is inserted.
 
 ### 3. Arithmetic reduction of all mate powers
 
-The [effective rational phase theorem](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound)
-and [arithmetic review](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound-independent-review)
+The [effective rational phase theorem](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound)
+and [arithmetic review](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-effective-rational-phase-bound-independent-review)
 are accepted. For an explicit rational constructible phase image,
 Mann's theorem, finite cyclotomic calculations and Smith normal form
 give a finite exact coset/boundary certificate. It decides torsion
@@ -871,7 +869,7 @@ branch choices. A stronger corollary starts from finite rational
 section/module data for these three fixed models and constructs the
 actual phase image by a terminating algebraic procedure; the written
 review contains its scope addendum. A fresh
-[October 16 raw-input scope audit](PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#reviewed-claim-and-input)
+[October 16 raw-input scope audit](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#reviewed-claim-and-input)
 now passes the final admissibility and generic-freeness formulation.
 The precise finite rational input is one of the three fixed source
 rings with H,c,Q, four polynomial parameter sections with their prescribed
@@ -893,7 +891,7 @@ ODE on the declared rational inverse-map chart. The reviewed eta
 spectral accelerator retains one ideal rather than separate degree,
 root or norm-factor cases.
 
-The new [global monic h2 ODE model](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
+The new [global monic h2 ODE model](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
 is the next whole-h2 target. It uses the original parameters, a monic
 quadratic H, four conormal remainders, two actual-conductor remainders,
 eight ODE coefficients and three derived accelerators: seventeen equations
@@ -902,7 +900,7 @@ to retain the repeated-root and cover-determinant boundary that the
 earlier rational inverse-map chart could not cover. The
 [final global scope audit](#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit)
 now passes the whole-h2 cover and current exact artifact bindings. Its
-[runnable input](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
+[runnable input](https://github.com/markluxton1/STCI/blob/bb5b1d5348097028738db196c262fe44b81b69ca/research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
 is saved and passed a load-only check. One subsequent capped global QQ
 saturation reached GB but produced no result, as recorded below. The one
 next saturation target is `h2GlobalIdeal : h2GlobalDomainUnit^infinity`,
@@ -926,7 +924,7 @@ The complete global quadratic-root second model uses twenty-five scalar pairings
 
 The accepted seventeen-equation, nine-variable model over `QQ` retains
 repeated roots and the finite cover boundary. Its
-[runnable input](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
+[runnable input](https://github.com/markluxton1/STCI/blob/bb5b1d5348097028738db196c262fe44b81b69ca/research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
 loads the exact equations and domain polynomial. The target is
 
 ```macaulay2
@@ -938,7 +936,7 @@ quadratic discriminant, quotient coefficient or `Jbar` is additionally
 inverted. A bounded attempt did not complete this saturation and supplied
 no ideal, dimension, unit certificate or emptiness conclusion. The global
 H2 incidence remains undecided. Its geometric scope is the
-[global monic ODE incidence](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
+[global monic ODE incidence](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
 and the [independent argument](#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
 
 ---
@@ -957,7 +955,7 @@ This is a necessary incidence for every remaining actual h2 mate
 candidate, not an emptiness or mate-existence theorem.
 
 The reviewed proposal is
-[the global monic incidence note](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence).
+[the global monic incidence note](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence).
 Accepted conormal forms, the actual octic, the global h2 conductor
 factor, previous mate closures, the Delta1 open, and ODE/spectral
 proofs are premises. No accepted proof or verifier was replayed.
@@ -1105,10 +1103,10 @@ survivor is therefore not automatically a projection or a mate.
 
 ### 5. Exact model and checking boundary
 
-The [assembly source](../computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2) derives the model from the literal accepted octic, reversed coefficients, recurrence, four cover equations, eight ODE equations and three accelerators. Its polynomial assertions check the cofactor and quotient/remainder identities. The retained seventeen-equation row and original domain polynomial supply precisely the incidence (4); grouped and individual coefficient exports are redundant representations.
+The [assembly source](https://github.com/markluxton1/STCI/blob/add6e1664e6d9db84e67fb0276a318a804b3d2f8/research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2) derives the model from the literal accepted octic, reversed coefficients, recurrence, four cover equations, eight ODE equations and three accelerators. Its polynomial assertions check the cofactor and quotient/remainder identities. The retained seventeen-equation row and original domain polynomial supply precisely the incidence (4); grouped and individual coefficient exports are redundant representations.
 
 The new currently runnable
-[load-only input](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
+[load-only input](https://github.com/markluxton1/STCI/blob/bb5b1d5348097028738db196c262fe44b81b69ca/research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
 reads the completed seventeen-equation row and domain polynomial
 over QQ in the stated nine-variable order. It asserts the ring,
 matrix shape and nonzero domain polynomial, and retains the objects
@@ -1126,4 +1124,3 @@ or emptiness computation for this global model is certified here.
 A result restricted to Delta*K nonzero cannot close this larger
 incidence. The unrestricted quintic and STCI questions remain outside
 the conclusion of this audit.
-

@@ -333,7 +333,7 @@ smooth open. Denote their pairings with the accepted \(d_f\) by
 4F_2={}&20AB+36A+(3B-2)D.
 \end{aligned}                                                 \tag{12}
 \]
-The [exact verifier](../computations/order_three_four_parameter_slice.py)
+The [exact verifier](https://github.com/markluxton1/STCI/blob/48601f01d18b5b194c1afccaa105561eee944d94/research/computations/order_three_four_parameter_slice.py)
 derives all four pairings directly from the accepted operator, including
 \(F_3\), and checks the following elimination identities.
 
@@ -421,7 +421,7 @@ points, and no second-root obstruction or degree-sixteen mate is computed.
 
 ## Evidence and independent review
 
-The compact [exact verifier](../computations/order_three_sextic_slice.py)
+The compact [exact verifier](https://github.com/markluxton1/STCI/blob/0932572da9b1ffbee2f3df99510afda598d54b6c/research/computations/order_three_sextic_slice.py)
 reuses the accepted operator and source matrices without their output-writing
 footers. It verifies the dual basis identities, all first-compatibility
 equations, complete slice factorization and smoothness gcds, the minor (7),

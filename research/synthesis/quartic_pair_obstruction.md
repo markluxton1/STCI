@@ -264,7 +264,7 @@ R_1&=x_0x_3^3+(r-7/6)x_1x_2x_3^2+(1/6-r)x_2^4.
 \]
 Its coefficients are \(h_{R_0}=1,T_{R_0}=0\), \(h_{R_1}=(2r+2/3)z^8,T_{R_1}=(8r/9)z^3\). The determinant is nonzero for both roots. This exhausts (11), proves length three for every independent pair in the nonfactored pencils, and completes the filtered-contact proof.
 
-The exact finite rank/kernel assertions and contact identities are supported by [the complete-source calculation](../computations/verify_44_filtered_contact_2026_10_23.py), [the independent Taylor calculation](../computations/audit_44_filtered_contact_2026_10_23.py), and [the primitive-direction calculation](../computations/audit_mf6_e1_primitive_2026_10_07.py). The last script also contains all-degree arguments beyond the assertions used here. The geometric and cohomological reductions above supply coverage; script success alone does not. These inherited calculations need not be rerun to use the separate surface proof.
+The exact finite rank/kernel assertions and contact identities are supported by [the complete-source calculation](../computations/verify_44_filtered_contact_2026_10_23.py), [the independent Taylor calculation](https://github.com/markluxton1/STCI/blob/f2f5c4dbe5bef0eeb5112d402ffeb513133b43bc/research/computations/audit_44_filtered_contact_2026_10_23.py), and [the primitive-direction calculation](../computations/audit_mf6_e1_primitive_2026_10_07.py). The last script also contains all-degree arguments beyond the assertions used here. The geometric and cohomological reductions above supply coverage; script success alone does not. These inherited calculations need not be rerun to use the separate surface proof.
 
 ## 6. What a neighborhood-only proof still needs
 
@@ -371,8 +371,6 @@ The embedded-neighborhood argument has its own [complete proof and reviewed scop
 
 ## Consolidated historical supplement: `research/supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md`
 
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
-
 # INTRINSIC 44 MULTIPLICITY AND GENUS BUDGETS
 
 ## Cross-supplement synthesis: distinct (4,4) obstruction routes (editorial, not a new audit)
@@ -381,10 +379,10 @@ The historical material contains several arguments with different inputs and dif
 
 | Route | Retained location | What it supplies | Limitation |
 | --- | --- | --- | --- |
-| Filtered quartic-contact calculation | [Filtered proposal and independent audit](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) | A classification- and calculation-dependent route through the two saturated numerical types and actual cubic-contact constraints | Its computational exhaustiveness and inherited hypotheses remain attached to the original audit; this synopsis is not an independent rerun |
+| Filtered quartic-contact calculation | [Filtered proposal and independent audit](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) | A classification- and calculation-dependent route through the two saturated numerical types and actual cubic-contact constraints | Its computational exhaustiveness and inherited hypotheses remain attached to the original audit; this synopsis is not an independent rerun |
 | First-symbol pencil and surface singularities | [Intrinsic K3 proposal](../synthesis/quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction) and [audit](../synthesis/quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction) | A different route from the defect algebra and first-symbol divisor to moving singularities and an exceptional-rank contradiction | Characteristic-zero and K3-specific; preserve as historical reviewed evidence, not a new result |
 | Explicit local multiplication and defect types | [Intrinsic quadruple local algebra](../synthesis/quartic_pair_obstruction.md) | The local normal form and identification of the fixed divisor, with coefficient-function qualifications | Local algebra does not by itself prove global realizability or a global STCI exclusion |
-| Genus and torsion budgets | [Degeneration genus budgets](#44-degeneration-genus-budgets) and [normal torsion spectral budget](CURVILINEAR_GENUS_AND_DEFECTS.md#normal-torsion-spectral-genus-budget) | Numerical bookkeeping, boundary divisors, and explicit reduced/nonreduced comparison examples | Necessary conditions and examples are not sufficient to exclude all pairs |
+| Genus and torsion budgets | [Degeneration genus budgets](#44-degeneration-genus-budgets) and [normal torsion spectral budget](../supplements/CURVILINEAR_GENUS_AND_DEFECTS.md#normal-torsion-spectral-genus-budget) | Numerical bookkeeping, boundary divisors, and explicit reduced/nonreduced comparison examples | Necessary conditions and examples are not sufficient to exclude all pairs |
 
 **Shared starting point.** The fixed quartic curve, its conormal bundle and the generic transverse length-four hypothesis belong to the common setup. The filtered and surface-singularity arguments then diverge: one analyzes actual quartic lifting/contact spaces; the other counts singularities of a general pencil member. The genus-budget work instead studies what numerical restrictions survive under degeneration. The local-algebra source is a bridge between the two obstruction routes, not a replacement for either global step.
 
@@ -410,9 +408,9 @@ Date: 2026-10-26. Reviewer: independent `triple_classification` agent. Reviewed 
 
 ## Scope and accepted premises
 
-The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal statements of [R0001](../results/quartic_carrier_exclusion.md), [R0020](../results/quartic_conormal_characteristic_jump.md), and [R0022](../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](#44-degeneration-genus-budgets) and the accepted source-level conjugate pencil in the [filtered proof](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) were consulted at their recorded scope.
+The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal statements of [R0001](../results/quartic_carrier_exclusion.md), [R0020](../results/quartic_conormal_characteristic_jump.md), and [R0022](../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](#44-degeneration-genus-budgets) and the accepted source-level conjugate pencil in the [filtered proof](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) were consulted at their recorded scope.
 
-The reviewer independently derived the conjugate example's factorization and branch geometry before reading the new verifier. The [new script](../computations/verify_44_triple_residual_example_2026_10_26.py) was inspected as finite polynomial evidence. Its successful execution is recorded separately in the linked validation directory; the audit does not equate execution with a global proof.
+The reviewer independently derived the conjugate example's factorization and branch geometry before reading the new verifier. The [new script](https://github.com/markluxton1/STCI/blob/0a35730b2f5e046705b8a7570ebc52c2a726da52/research/computations/verify_44_triple_residual_example_2026_10_26.py) was inspected as finite polynomial evidence. Its successful execution is recorded separately in the linked validation directory; the audit does not equate execution with a global proof.
 
 ## 1. Maximum multiplicity and integrality of every pencil member
 
@@ -492,7 +490,7 @@ Premises, used without rerunning their proofs:
 - [R0001](../results/quartic_carrier_exclusion.md): no integral quartic carrier through this C admits any homogeneous mate with sole support C.
 - [R0020](../results/quartic_conormal_characteristic_jump.md): \(N^*_{C/\mathbf P^3}=\mathcal O_{\mathbf P^1}(-7)^2\).
 
-The elementary identity \(H^0(\mathcal I_C^2(4))=kq^2\), for \(q=x_0x_3-x_1x_2\), and the new [smooth-carrier lemma](#44-degeneration-genus-budgets) are already independently reviewed. The displayed conjugate pencils below are inherited accepted source-level evidence from [October 7, section 4](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-independent-auditmd) and [the October 23 filtered proof](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd). Their residual factorization and geometric interpretation are the new calculation here. No exhaustiveness assertion from the multiplicity-four classification is transferred to arbitrary multiplicity-three pairs.
+The elementary identity \(H^0(\mathcal I_C^2(4))=kq^2\), for \(q=x_0x_3-x_1x_2\), and the new [smooth-carrier lemma](#44-degeneration-genus-budgets) are already independently reviewed. The displayed conjugate pencils below are inherited accepted source-level evidence from [October 7, section 4](normal_filtration_boundary_obstructions.md#source-2026-10-07-session-mf6-e1-independent-auditmd) and [the October 23 filtered proof](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd). Their residual factorization and geometric interpretation are the new calculation here. No exhaustiveness assertion from the multiplicity-four classification is transferred to arbitrary multiplicity-three pairs.
 
 ## 2. Exactly triple, with a real degree-four residual
 
@@ -615,11 +613,13 @@ Then \(\nabla R_0|_C=s^8v\), \(\nabla R_1|_C=ht^8v\), and v is nowhere zero. Thu
 \]
 There is no common projective zero: R0 is smooth at every finite point of C, and R1 is smooth at infinity. For \(\alpha\beta\ne0\), there are eight distinct moving zeros, hence eight moving A2 points. No common singular point on C is forced by multiplicity three. Eight A2 configurations have total exceptional rank sixteen, which by itself causes no K3 rank contradiction.
 
-The standard-library [verifier](../computations/verify_44_triple_residual_example_2026_10_26.py)
+The standard-library [verifier](https://github.com/markluxton1/STCI/blob/0a35730b2f5e046705b8a7570ebc52c2a726da52/research/computations/verify_44_triple_residual_example_2026_10_26.py)
 replayed the fifteen exact factorization and chart checks and reproduced the
 [saved output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/44-triple-residual-2026-10-26/checks.json) byte for byte.
 The geometric argument above supplies global purity and properness. To
 replay the finite identities, run
+
+The archived command uses [verify_44_triple_residual_example_2026_10_26.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_44_triple_residual_example_2026_10_26.py) from the pinned repository snapshot.
 
 ```sh
 python3 research/computations/verify_44_triple_residual_example_2026_10_26.py --output /tmp/stci-44-triple-residual.json
@@ -967,4 +967,3 @@ No substantive mathematical correction was required. Componentwise normalization
 
 
 ---
-

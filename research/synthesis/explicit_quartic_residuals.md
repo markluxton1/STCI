@@ -65,7 +65,7 @@ This gives a particularly useful comparison with the four-quartic reference: the
 
 ## 2. What was checked over the rationals
 
-The [Macaulay2 verifier](../computations/verify_ci_smooth_residual_example_2026_10_25.m2) makes the following exact checks.
+The [Macaulay2 verifier](https://github.com/markluxton1/STCI/blob/e47e0170c1cfb779cabe2868ff89f5ef01c226fb/research/computations/verify_ci_smooth_residual_example_2026_10_25.m2) makes the following exact checks.
 
 1. Both equations lie in \(I_C\), and \(J\) has codimension 2, so it is a proper \((4,4)\) complete intersection.
 2. The saturated residual ideal \(K\) defines a projective curve of dimension 1, degree 12, and Hilbert polynomial \(12n-15\). Its minimal generators have degrees \(4,4,5,5,5\).
@@ -131,7 +131,7 @@ d_{a,b}(u)
 
 The benchmark uses \(a=2,b=3\). Its determinant has degree 18, constant coefficient 4, and leading coefficient 3. Its derivative is relatively prime to it over \(\mathbf Q\), so its 18 geometric zeros are distinct. The nonzero constant excludes \(p=[1:0:0:0]\); the degree 18 with nonzero leading coefficient excludes \(q=[0:0:0:1]\).
 
-The [independent standard-library verifier](../computations/verify_ci_smooth_residual_boundary_2026_10_25.py) constructs the actual homogeneous equations, differentiates them in the normal coordinates, and independently checks (3), degree 18, endpoint absence, and the exact Euclidean gcd. The retirement replay matched the [historical JSON output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/ci_smooth_residual_boundary_2026_10_25.json). That script checks the boundary; the Macaulay2 calculation separately checks the entire residual curve.
+The [independent standard-library verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_ci_smooth_residual_boundary_2026_10_25.py) constructs the actual homogeneous equations, differentiates them in the normal coordinates, and independently checks (3), degree 18, endpoint absence, and the exact Euclidean gcd. The retirement replay matched the [historical JSON output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/ci_smooth_residual_boundary_2026_10_25.json). That script checks the boundary; the Macaulay2 calculation separately checks the entire residual curve.
 
 In the terminology of the [valuative contact-cycle note](valuations_and_residual_contact.md), if \(R=[D]\), then
 
@@ -202,7 +202,7 @@ Every pair vanishes on the same embedded \(C\). The separately checked
 \((a,b)=(2,3)\) member has a smooth geometrically integral residual curve
 of degree twelve and genus sixteen, with eighteen simple attachments to
 \(C\); its evidence is the
-[exact benchmark script](../computations/verify_ci_smooth_residual_example_2026_10_25.m2).
+[exact benchmark script](https://github.com/markluxton1/STCI/blob/e47e0170c1cfb779cabe2868ff89f5ef01c226fb/research/computations/verify_ci_smooth_residual_example_2026_10_25.m2).
 This note investigates the initially unsuccessful choice \((1,1)\).
 The general deformation framework and its review are in
 [the laboratory](residual_global_models.md) and
@@ -215,7 +215,7 @@ scheme computations here remain research evidence.
 ## 2. Exact residual decomposition at (1,1)
 
 Let \(I_C\) be the actual four-generator quartic-curve ideal. The
-[QQ Macaulay2 experiment](../computations/ci_cycle_line_degeneration_2026_10_25.m2)
+[QQ Macaulay2 experiment](https://github.com/markluxton1/STCI/blob/abf1f66b1c97b6f2e79703a0029e2baeb340f2e3/research/computations/ci_cycle_line_degeneration_2026_10_25.m2)
 computes saturated colons
 \[
 I_D=((f_1,g_1):I_C)^{\mathrm{sat}},\qquad
@@ -547,7 +547,7 @@ The nonzero determinant also independently gives generic transverse
 multiplicity one along \(C\).
 
 The standard-library
-[boundary verifier](../computations/verify_ci_smooth_residual_boundary_2026_10_25.py)
+[boundary verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_ci_smooth_residual_boundary_2026_10_25.py)
 constructs the actual homogeneous forms, derives their first symbols, compares
 the determinant with this formula, and checks
 \(\gcd(\Delta,\Delta')=1\) over \(\mathbf Q\). Its

@@ -152,7 +152,7 @@ In characteristic zero every E_n is balanced. In characteristic p,
 the splitting jumps exactly at multiples of p; for those n>2 a
 kernel actually gives a unit on the full nonreduced root and hence an
 abstract graded family. This is compatible with the already retained
-[prime-to-characteristic full-root obstruction](../supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md#prime-to-characteristic-spectral-descent-excludes-repeated-moving-components).
+[prime-to-characteristic full-root obstruction](spectral_torsion_and_syzygy_splitting.md#prime-to-characteristic-spectral-descent-excludes-repeated-moving-components).
 Its positive-characteristic double-diagonal control is inherited;
 the consequence for all pushforward powers is the present application.
 
@@ -197,7 +197,7 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 ## Integration guide: spectral acceleration versus existence
 
-The spectral accelerator, generator equations, and rank conditions are **different presentations of constrained incidence calculations**, conditional on the same quintic h=2 setup. Compare [the monic ODE/open derivation](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md) for the underlying action equations and [the degree-five incidence frontier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md) for the proposed global elimination step. A vanishing determinant, an exact generator identity, or an open-chart incidence computation does not by itself prove that the required homogeneous mate exists or that all residual support disappears. Retain the individual exact certificates and audits.
+The spectral accelerator, generator equations, and rank conditions are **different presentations of constrained incidence calculations**, conditional on the same quintic h=2 setup. Compare [the monic ODE/open derivation](quintic_toric_center_incidence.md#quintic-h2-monic-ode-and-open-incidence) for the underlying action equations and [the degree-five incidence frontier](quintic_toric_center_incidence.md#quintic-h2-the-degree-five-necessary-incidence-and-its-open-boundary) for the proposed global elimination step. A vanishing determinant, an exact generator identity, or an open-chart incidence computation does not by itself prove that the required homogeneous mate exists or that all residual support disappears. Retain the individual exact certificates and audits.
 
 ---
 
@@ -224,7 +224,7 @@ combination with the accepted shared ODE. It gives no actual-parameter
 emptiness or conductor-descent conclusion.
 
 The reviewed proposal is
-[the unified spectral-accelerator note](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit).
+[the unified spectral-accelerator note](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit).
 
 ## 1. Ring, sign conventions and the proposed polynomial
 
@@ -435,7 +435,7 @@ is an equality on the declared open, not equality of the global
 unsaturated ideals and not a quintic exclusion.
 
 The reviewed proposal is
-[the twelve-generator support-system note](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit).
+[the twelve-generator support-system note](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-twelve-generator-independent-audit).
 The accepted h2 conductor factor, reciprocal coordinates, sextic
 quotient, A4 bounds and closed mate lanes are premises. Their proofs
 and computations were not replayed. This audit checks only the new
@@ -882,9 +882,9 @@ and no implication from the rank equations to full conductor descent.
 
 ## Exact generator representation
 
-The [actual generator source](../computations/generalization_quintic_h2_unified_minors_flint_2026_10_15.c) constructs the twelve polynomials from the retained actual sextic coefficients and J numerator, divides only powers of the declared units, and checks the literal product identity after each division. Expanding a polynomial or writing it in Horner form preserves this incidence; the serialized forms need not both be retained. No serialization or import check establishes emptiness or conductor descent.
+The [actual generator source](https://github.com/markluxton1/STCI/blob/25331d04000f1423ba275b3c656e144020e775fa/research/computations/generalization_quintic_h2_unified_minors_flint_2026_10_15.c) constructs the twelve polynomials from the retained actual sextic coefficients and J numerator, divides only powers of the declared units, and checks the literal product identity after each division. Expanding a polynomial or writing it in Horner form preserves this incidence; the serialized forms need not both be retained. No serialization or import check establishes emptiness or conductor descent.
 
-The actual/captured coefficient binding is implemented in [the exact A4 unit-binding source](../computations/generalization_quintic_h2_a4_unit_binding_2026_10_15.c); its scalar and localization scope are the ones in the eleven-generator proof. A representation change does not replace this actual-map identification.
+The actual/captured coefficient binding is implemented in [the exact A4 unit-binding source](https://github.com/markluxton1/STCI/blob/6049dc7801e79eacc25a0268e00790312cf90709/research/computations/generalization_quintic_h2_a4_unit_binding_2026_10_15.c); its scalar and localization scope are the ones in the eleven-generator proof. A representation change does not replace this actual-map identification.
 
 
 ### Archived exact certificate: `research/computations/generalization_quintic_h2_quotient_norm_2026_10_14.m2`
@@ -1030,4 +1030,3 @@ print "COMPLETE sextic support incidence capture on accepted finite inverse-map 
 exit 0;
 ```
 </details>
-

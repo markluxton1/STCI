@@ -68,7 +68,7 @@ insensitive to Cech coboundaries and to the unknown next equation unit.
 It tests the actual quartic correction, including the nonlinear base
 coordinate substitution and the product of the first unit with its correction.
 
-The [standard-library exact checker](../computations/quadratic_root_diagonal_certificate.py)
+The [standard-library exact checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/quadratic_root_diagonal_certificate.py)
 reuses the accepted chart generator through R4, substitutes the three
 families and explicit first corrections, verifies all sixteen first
 equations identically, and evaluates this single residue in Q[t,t^-1].
@@ -233,7 +233,7 @@ After the same substitutions, `S/y=-Q(x)/240`, where
       -6776894138x+7031271104.
 
 These quartics are coprime over Q. The retained
-[compact certificate](../computations/quadratic_root_pure_direction_boundary_certificate.sing)
+[compact certificate](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/quadratic_root_pure_direction_boundary_certificate.sing)
 verifies every displayed substitution and explicit cubic polynomials U,V with
 `UP+VQ=1` by rational polynomial multiplication. It needs no multivariate
 Groebner calculation. The derivation of S from the accepted second model was
@@ -295,7 +295,7 @@ polynomial variables. In both cases the localized full ideal is {1}.
 Irreducibility of P18 makes the second calculation cover all eighteen
 conjugates, not merely one numerical choice of k. This conclusion passed
 independent source, shape, and scope review. The
-[fiber verifier](../computations/verify_quadratic_root_rank_fibers.py)
+[fiber verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_quadratic_root_rank_fibers.py)
 derives both specializations from the maintained matrix and full model.
 
 The entire rank-drop boundary is therefore excluded from the smooth
@@ -423,6 +423,8 @@ executed none of these programs; independent preservation review repeated the
 standard-library diagonal check and obtained the same three constants. No new
 Singular elimination was run for this transfer. Commands are from the repository root:
 
+The archived command uses [quadratic_root_diagonal_certificate.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/quadratic_root_diagonal_certificate.py), [verify_quadratic_root_rank_fibers.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_quadratic_root_rank_fibers.py) from the pinned repository snapshot.
+
 ```sh
 python3 research/computations/quadratic_root_diagonal_certificate.py
 python3 research/computations/quadratic_root_torsion_two_model.py \
@@ -473,8 +475,6 @@ converts abstract compatibility into actual global equations.
 
 
 ## Consolidated historical supplement: `research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md`
-
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
 
 # quadratic root and blowup incidence
 
@@ -1381,9 +1381,9 @@ obstruction nonvanishing.
 Reviewed source:
 [blowup/root-curve primitive bridge](#consolidated-historical-supplement-researchsupplementsquadratic_root_and_blowup_incidencemd).
 The accepted
-[spectral root-curve theorem](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations)
+[spectral root-curve theorem](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations)
 and its
-[independent audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit)
+[independent audit](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit)
 are premises. Their spectral descent criterion, ambient extension class,
 and cohomology targets were not reaudited. No previous CAS or carrier
 certificate was replayed.
@@ -1679,9 +1679,9 @@ Status: **PASS FOR THE NEW SINGULAR-NORMALIZATION EXTENSION UNDER ITS
 EXPLICIT CARTIER, SINGLETON AND DEGREE-ONE LIFT HYPOTHESES**.
 
 Source audited:
-[Cartier-lift minimal-degree theorem](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md),
+[Cartier-lift minimal-degree theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md),
 SHA-256 `0a120c0caf2847b38c749fd47adddc0896a864c1b44e1646225889b34f7055ba`.
-The [smooth-normalization theorem](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
+The [smooth-normalization theorem](normal_filtration_boundary_obstructions.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
 is an accepted premise and was not rechecked. This audit concerns only the
 new singular scope, cone polarization and added consequences. No inherited
 verifier, mathematical source or remote branch was reread to reconfirm it.
@@ -2136,8 +2136,6 @@ unrestricted `C0` remain open.
 
 
 ## Consolidated historical supplement: `research/supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md`
-
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
 
 # quadratic root second zero and dual compression
 
@@ -2683,7 +2681,7 @@ an elimination proves nothing about emptiness.
 The new standard-library sparse generator is
 [global second-model generator](../computations/generalization_quadratic_root_global_second_model.py).
 It exports
-[one characteristic-zero M2 model](../computations/generalization_quadratic_root_global_second_model.m2)
+[one characteristic-zero M2 model](https://github.com/markluxton1/STCI/blob/88f2e4f6a418cad6f584a1ce2445787caf653f3a/research/computations/generalization_quadratic_root_global_second_model.m2)
 and [its term/count metadata](../computations/generalization_quadratic_root_global_second_model.json).
 The new algebraic consistency check verifies `T_f P_f=0` identically;
 no accepted seed or previous rank verifier is invoked.
@@ -3001,4 +2999,3 @@ print("MODEL_READY: 16 first equations, 25 complete second dual equations, one s
 print("NO_ELIMINATION_RUN_BY_INPUT_FILE");
 ```
 </details>
-

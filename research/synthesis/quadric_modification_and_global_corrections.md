@@ -277,13 +277,13 @@ higher contact is needed for the conclusion.
 
 ## 6. Scope, prior exclusions, and stopping decision
 
-The [mixed-weight contact calculation](../supplements/MIXED_SEXTIC_CONTACT.md)
+The [mixed-weight contact calculation](residual_contact_cycles.md#exact-degree-six-branch-contact-on-a-mixed-weight-sextic)
 fixes a carrier \(q^3+\alpha c_0^2+\beta c_2^2\),
 \(\alpha\beta\ne0\). Its [test-curve and weighted-subalgebra
 extensions](../supplements/CARRIER_TEST_CURVES.md) retain their actual
 carrier and boundary hypotheses. Arbitrary quartic corrections in (1)
 are not covered by fixing those sources. The
-[quadric common-boundary construction](../supplements/ACTUAL_EQUATION_SPACES.md#constructive-interface-on-the-quadric)
+[quadric common-boundary construction](global_equation_jets.md#constructive-interface-on-the-quadric)
 also has different hypotheses: (2) leaves different endpoint rulings for
 the two equations. None of these scoped exclusions is being rerun or
 expanded to justify the present full correction calculation.

@@ -696,11 +696,9 @@ there was no new local classification or CAS campaign.
 
 ## Consolidated historical source: `research/supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md`
 
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
-
 # Torsion constructions and the limits of pinching
 
-These independently source-reviewed examples concern construction mechanisms, rather than a proposed nonexistence proof for the fixed quartic. The positive benchmark is the twisted cubic, a different embedded curve. The negative control is an abstract projective pinching, with no asserted P3 embedding. The full relation-cone mechanism belongs to [fixed-carrier descent](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#constructive-use-of-the-descent-lattice).
+These independently source-reviewed examples concern construction mechanisms, rather than a proposed nonexistence proof for the fixed quartic. The positive benchmark is the twisted cubic, a different embedded curve. The negative control is an abstract projective pinching, with no asserted P3 embedding. The full relation-cone mechanism belongs to [fixed-carrier descent](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#constructive-use-of-the-descent-lattice).
 
 ## A corrected homogeneous square on the twisted cubic
 
@@ -850,7 +848,7 @@ In characteristic p, the same finite conductor nilpotent is killed by a p-power;
 
 ## Full inverse fibers, rather than distinct-sheet shortcuts
 
-An intersection multiplicity is a scheme length and need not count distinct points. A nonzero transverse differential does not by itself prove a second distinct normalization sheet. For each actual finite normalization compute the full inverse fiber scheme and its entire reduced support, including isolated points, before drawing that conclusion. The plane and quadric examples in [projection support](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md) illustrate the distinct failure mechanisms.
+An intersection multiplicity is a scheme length and need not count distinct points. A nonzero transverse differential does not by itself prove a second distinct normalization sheet. For each actual finite normalization compute the full inverse fiber scheme and its entire reduced support, including isolated points, before drawing that conclusion. The plane and quadric examples in [projection support](carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions) illustrate the distinct failure mechanisms.
 
 ## Pinching with support along the full conductor
 
@@ -872,4 +870,3 @@ No concrete marked four-section pinching candidate has been supplied. A bounded 
 ## The natural quadric–cubic pair leaves a doubled ruling line
 
 For the fixed quartic, `q=xw−yz` and `g=y³−x²z` vanish on C and on `L=(x=y=0)`. On the smooth quadric Q, the cubic section has class(3,3) and C has class(1,3), leaving residual class(2,0). Its support is L, so the residual divisor is2L. The symmetric cubic `h=z³−yw²` leaves twice the other endpoint ruling line `L'=(z=w=0)` in that same ruling family. This is an actual failed construction with residual multiplicity, not merely a substitution showing the support line. It complements the complete fixed-quadric argument in [global equations](../synthesis/global_equations_and_constructions.md). The archived twisted-cubic certificate is the negative of G in the corrected-square benchmark above, with the same Q, so its patch and endpoint proof is already retained there.
-

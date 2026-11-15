@@ -115,7 +115,7 @@ All such minor charts cover U; one convenient chart is not full coverage.
 After denominator clearing the four equations have degree at most 13.
 
 On K1 the second obstruction is a rank-sixteen section. Its accepted
-[global presentation](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
+[global presentation](quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
 uses 25 scalar pairings and no second correction variables. Smoothness is
 Disc_binary-quartic(b^2-4ac)!=0, which keeps a simple branch point at infinity.
 The affine model has nine root coefficients, twelve first corrections,

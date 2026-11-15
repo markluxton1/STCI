@@ -1759,8 +1759,6 @@ print("W1_LINE_FIRST_TORSION_RESULT");print gens gb J;
 
 ## Consolidated historical supplement: `research/supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md`
 
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
-
 # Ramification schemes and marked socle frames
 
 These two full mathematical controls distinguish support from nonreduced ramification containment and actual source frames from a target-pencil scalar. Their hypotheses remain explicit.
@@ -3792,8 +3790,6 @@ or computational enumeration is asserted here.
 
 
 ## Consolidated historical supplement: `research/supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md`
-
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
 
 # Projection contact, conductor budgets, and actual phase tests
 

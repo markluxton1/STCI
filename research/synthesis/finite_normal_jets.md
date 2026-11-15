@@ -167,7 +167,7 @@ This is a deliberately narrow slice of the open nonsaturated-first-relation fron
 
 **Exact authority boundary.** [STCI-R-0016](../results/nonsaturated_first_relation_resultant.md) proves a defect/resultant budget under actual lci, sole smooth support, and a full generic binary-CI initial algebra. It does not exclude nonsaturated first relations. [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) assumes saturation, and [STCI-R-0013](../results/saturated_actual_generator_movement.md) excludes movement one only in that saturated class. Consequently R0013 cannot dispose of the proposed slice. The general non-CI-initial-ideal cases remain separate; this candidate still assumes a full generic CI.
 
-The exact identities used next are in the accepted evidence for R0016, [first-relation defect investigation](../supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-investigation), sections 3–5. R0016 explicitly links the proof and its independent audits.
+The exact identities used next are in the accepted evidence for R0016, [first-relation defect investigation](spectral_torsion_and_syzygy_splitting.md#2026-10-19-first-relation-defect-investigation), sections 3–5. R0016 explicitly links the proof and its independent audits.
 
 Let \(R_{\mathrm{sat}}=\mathcal O(-14-\epsilon)\), let \(D\) have length \(\delta\), and use the evidence notation \(c_j\) for saturated generation defects. The socle line of an actual degree-\((a,b)\) CI has degree \(\ell=14-4(a+b)\). With \((a,b;r,s)=(6,12;2,9)\), its degree identity gives
 
@@ -185,7 +185,7 @@ Effectivity and \(\epsilon\ge0\) leave \((\epsilon,c_8)=(0,10)\) or \((1,3)\). I
 
 Thus its resultant degree is three or one. For \(\delta=1\), the general bound \(c_8\le\binom72\delta\) does not contradict either value. These are necessary arithmetic possibilities, not existence evidence.
 
-**Concrete unresolved actual-source incidence.** Use the actual sextic second-symbol image, already computed with rank 22 and kernel \(kq^3\) in the independently reviewed [sextic symbol map](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map). Its symbol calculation is reusable independently of the saturated \((2,12)\) application advertised in that note.
+**Concrete unresolved actual-source incidence.** Use the actual sextic second-symbol image, already computed with rank 22 and kernel \(kq^3\) in the independently reviewed [sextic symbol map](rank_strata_and_sextic_lifts.md#2-the-exact-global-k-linear-symbol-map). Its symbol calculation is reusable independently of the saturated \((2,12)\) application advertised in that note.
 
 Parameterize a full movement-one quadratic root
 

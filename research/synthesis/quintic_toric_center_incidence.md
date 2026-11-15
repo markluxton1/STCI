@@ -128,10 +128,10 @@ At a root of multiplicity e, W' has order e-1. This explains both
 necessity and sufficiency and why characteristic zero matters; it is
 not a characteristic-independent support certificate.
 
-The [three-curve calculation](../computations/quintic_toric_exception_centers.py)
+The [three-curve calculation](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_centers.py)
 uses (2) on U0, V1 and V2. The independent source closeout review **passes**:
 all three curves are excluded on `Delta*K0*d*N !=0`. It supplies the
-[separate specialization audit](../computations/quintic_toric_exception_audit.py)
+[separate specialization audit](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_audit.py)
 and the following complete evidence, rather than inferring coverage from a
 generic remainder.
 
@@ -242,8 +242,8 @@ latter ended in PASS. No M-locus calculation was performed or certified.
 | [Finite-center program](../computations/quintic_toric_finite_centers.py) | `091e9b878f2dbb3b4cca64cac3e366449111dc26305936a13330da516ba05e80` |
 | [Finite-center JSON input](../computations/quintic_toric_finite_centers.json) | `924bc8245c2b9cbee76f98862e7e304e9aecb32c4d2a96279666734f10a5b6ec` |
 | [One-infinity boundary program](../computations/quintic_toric_boundary_centers.py) | `6de86103d9539039366cee0d99693b06f7d2eed511dad4566bb5233ac6a420b5` |
-| [Three-curve program](../computations/quintic_toric_exception_centers.py) | `46a86f93c6aec48a8a79ec897bb60203d226cb27a263435cb4dfae863208016f` |
-| [Independent specialization audit](../computations/quintic_toric_exception_audit.py) | `4d2b338367b09858427bcf8f036b5ffe64d39570bc9add8809198607618cdd00` |
+| [Three-curve program](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_centers.py) | `46a86f93c6aec48a8a79ec897bb60203d226cb27a263435cb4dfae863208016f` |
+| [Independent specialization audit](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_audit.py) | `4d2b338367b09858427bcf8f036b5ffe64d39570bc9add8809198607618cdd00` |
 
 The JSON preserves the six coefficients of W and the earlier four-curve gate
 (1). Its remaining-incidence field describes that stage of the calculation;
@@ -445,14 +445,14 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 # Nonendpoint single-root incidence and actual quotient fibers
 
-Fix the embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), an algebraically closed characteristic-zero field, and the accepted anticanonical degree-five A4 pair \((S,c)\). Retain arbitrary \(\delta\ne0\), the four lift parameters \(a,b,g,d\), and an actual line center disjoint from \(S\), giving a finite birational projection \(\nu:S\to X\) onto an integral quintic. The restriction \(c\to C_0\) is an isomorphism. A hypothetical mate forces **full** reduced inverse support \((\nu^{-1}C_0)_{red}=c\), denoted SUP; it excludes isolated extra inverse points as well as extra curves. The proofs below concern this exact family, not every quintic carrier. The intrinsic pair is proved in [the A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md); actual projection coordinates and every target boundary are in [the target-fiber chapter](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md). The common-root reductions below are necessary conditions and specified branch exclusions; they do not exhaust the full conductor incidence. L1 and L2 arise from different actual maps, and inverse-denominator/degree-drop boundaries are retained.
+Fix the embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), an algebraically closed characteristic-zero field, and the accepted anticanonical degree-five A4 pair \((S,c)\). Retain arbitrary \(\delta\ne0\), the four lift parameters \(a,b,g,d\), and an actual line center disjoint from \(S\), giving a finite birational projection \(\nu:S\to X\) onto an integral quintic. The restriction \(c\to C_0\) is an isomorphism. A hypothetical mate forces **full** reduced inverse support \((\nu^{-1}C_0)_{red}=c\), denoted SUP; it excludes isolated extra inverse points as well as extra curves. The proofs below concern this exact family, not every quintic carrier. The intrinsic pair is proved in [the A4 model](quintic_octic_ade_cover_and_triple.md#degree-five-del-pezzo-a4-model-intrinsic-classification-and-explicit-equations); actual projection coordinates and every target boundary are in [the target-fiber chapter](quintic_conductor_geometry.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions). The common-root reductions below are necessary conditions and specified branch exclusions; they do not exhaust the full conductor incidence. L1 and L2 arise from different actual maps, and inverse-denominator/degree-drop boundaries are retained.
 
 <a id="2026-10-13-session-nonendpoint-regular-l1-double-root"></a>
 
 ## The regular L1 double conductor root
 
 Use the finite common-root parameters and exact coefficients of the
-[Taylor incidence note](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence):
+[Taylor incidence note](#2026-10-13-session-nonendpoint-single-root-taylor-incidence):
 
     F(q+t)=t(u0+u1 t+...+u7 t^7),
     kappa=aq+B, Pc=q^2-6q+6.
@@ -509,7 +509,7 @@ Work over an algebraically closed field of characteristic zero. Retain
 `delta!=0`, the actual center-avoidance condition and finite birational
 projection hypotheses of the audited model. Let `q!=0` be a finite
 common conormal root, and impose the complete solutions `G=Gs,J=Js`
-from the [Taylor incidence note](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence):
+from the [Taylor incidence note](#2026-10-13-session-nonendpoint-single-root-taylor-incidence):
 
     Gs=-(6B+delta^2-3delta)q-(3a-3B+2delta)q^2+2aq^3,
     2Js=-Gs(1+3q)-(6B+5delta^2-3delta)q
@@ -521,7 +521,7 @@ support-concentration consequence. Delta remains a parameter, not a
 normalized constant.
 
 For variable target `p`, use the actual target-fiber system of the
-[diagonal norm note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#4-nonendpoint-diagonal-norm-identity):
+[diagonal norm note](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#4-nonendpoint-diagonal-norm-identity):
 
     Z=Gp(2-p)+J(3-p),
     A=(3delta^2+G)p(2-p)+J(3-p),
@@ -648,7 +648,7 @@ When P6 vanishes, (8) still supplies the first relation in (9).
 The quotient proof never divides by P6 or Aq. It permits that actual
 double/triple diagonal fiber before using the conductor section.
 
-The separate [exact double-root calculation](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-regular-l1-double-root)
+The separate [exact double-root calculation](#2026-10-13-session-nonendpoint-regular-l1-double-root)
 substitutes (9) into the actual conductor restriction and proves
 
     F(q+t)=u1 t^2+terms of degree at least three,
@@ -718,7 +718,7 @@ in characteristic zero. The conormal polynomials in the target coordinate
 
 They are the corrected cubic pair after the regular finite-target
 normalization described in the
-[diagonal norm note](NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#4-nonendpoint-diagonal-norm-identity).
+[diagonal norm note](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#4-nonendpoint-diagonal-norm-identity).
 Let `q!=0` be a specified finite common root. The complete equations
 `Pt(q)=Jt(q)=0` solve without any further division as
 
@@ -862,9 +862,9 @@ root or with an allowed A4 contribution when J=0.
 
 ## Exact support and characteristic scope
 
-The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2](../computations/verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2), [verify_session_nonendpoint_single_root_quotient_2026_10_13.m2](../computations/verify_session_nonendpoint_single_root_quotient_2026_10_13.m2), [verify_session_nonendpoint_single_root_taylor_2026_10_12.m2](../computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2), [verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2](../computations/verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2). No inherited computation was rerun for this consolidation.
+The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_regular_l1_double_root_2026_10_13.m2), [verify_session_nonendpoint_single_root_quotient_2026_10_13.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_single_root_quotient_2026_10_13.m2), [verify_session_nonendpoint_single_root_taylor_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_single_root_taylor_2026_10_12.m2), [verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_single_root_compact_first_coefficient_2026_10_13.m2). No inherited computation was rerun for this consolidation.
 
-These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
 
 
 ## Reviewed geometric bridges for the regular sole-root branches
@@ -894,7 +894,7 @@ handled by its two-embedding quadratic-field cover. Away from q=1,2,
 the D=0 boundary makes L2 genuinely linear in k and is handled separately.
 On D!=0, a discriminant-zero root has the displayed L1=0 value and lies
 outside the new L1!=0 theorem. The remaining points have the algebraic
-coordinate m in [the complete owner cover equations](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-13-generalization-quintic-l2). Both signs are covered because
+coordinate m in [the complete owner cover equations](quintic_octic_ade_cover_and_triple.md#2026-10-13-generalization-quintic-l2). Both signs are covered because
 the inverse formula determines m from the actual k; no chosen square-root
 branch is lost. All rational-cover denominators are units under d,q,Pc,
 q-1,q-2,D nonzero and m^2!=3.
@@ -923,7 +923,7 @@ field QQ(mu), mu^2=3, for f2,f3,f4,f5 together with
 algebraically closed ground field, so the two L2 roots are retained.
 The inverse equation imposes precisely the stated d,L1 units.
 
-The exact original-generator witnesses are retained in the [complete regular-L2 proof](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-13-generalization-quintic-l2). Its inputs, targets and coefficient columns are necessary support; a recorded gcd or saturated ideal printout alone is insufficient. The inherited independent review inspected their construction without presenting that as a fresh execution.
+The exact original-generator witnesses are retained in the [complete regular-L2 proof](quintic_octic_ade_cover_and_triple.md#2026-10-13-generalization-quintic-l2). Its inputs, targets and coefficient columns are necessary support; a recorded gcd or saturated ideal printout alone is insufficient. The inherited independent review inspected their construction without presenting that as a fresh execution.
 
 **Audit conclusion: the local regular-L2 theorem and its all-mate
 single-root consequence are proved by the displayed cover and completed
@@ -946,7 +946,7 @@ is `L1=-q(q-2)V/[8(q-1)]`, confirming directly that V=0 is the already
 excluded L1=0 boundary. The original full L2 discriminant at q=2 is
 48d^6; the normalized quadratic after removing 2d has discriminant 12d^4.
 Either is nonzero for d nonzero. This clarifies an exponent slip in the
-owner note without changing its conclusion. The [small rational-cover identity source](../validation/2026-10-14-quintic-independent-audit/l2-cover-algebra.m2) supplies the exact cover controls. The full original-generator Bezout witnesses remain in the linked owner proof; this small check does not replace them.
+owner note without changing its conclusion. The [small rational-cover identity source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-14-quintic-independent-audit/l2-cover-algebra.m2) supplies the exact cover controls. The full original-generator Bezout witnesses remain in the linked owner proof; this small check does not replace them.
 
 ## 8. Independent review of the existing regular-L1 geometric bridge
 
@@ -1012,7 +1012,7 @@ open-domain and logarithmic ODE reductions remain valid. They do not certify
 emptiness or construct a projection or an STCI.
 
 The complete abstract theorem formerly embedded here has a focused home in
-[polynomial duals and observable affine pencils](POLYNOMIAL_DUALS_AND_AFFINE_PENCILS.md).
+[polynomial duals and observable affine pencils](../supplements/POLYNOMIAL_DUALS_AND_AFFINE_PENCILS.md).
 It treats arbitrary fields, observation rank/depth, parameter strata and exact
 determinantal fallback; it does not supply rank or emptiness for this family.
 
@@ -1024,10 +1024,10 @@ Work over an algebraically closed characteristic-zero field. The global
 monic exact-gcd-two incidence has parameters `delta,a,B,G,j,v,w` and
 `H=x²+vx+w`, on the original open `delta E Delta1 != 0`. Keep repeated
 roots of `H` and the inverse-map boundary. The full
-[monic ODE proof](QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
+[monic ODE proof](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
 retains all seventeen equations in nine variables, without inverting the
 discriminant or the inverse-map denominator. The
-[spectral/generator identities](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md)
+[spectral/generator identities](spectral_pushforward_boundary.md#quintic-h2-spectral-operators-determinant-generators-and-actual-coefficient-units)
 compress those equations; they are not an independent emptiness certificate.
 
 Use the actual source coordinate `x=r/delta=T/S`. The primitive determinant
@@ -1039,9 +1039,9 @@ Fsrc(1,x)=x^8 Fdet(1/x,1),
 Fsrc=H Q.
 ```
 
-This is the [reviewed coordinate correction](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence).
+This is the [reviewed coordinate correction](quintic_octic_ade_cover_and_triple.md#2026-10-14-generalization-quintic-h2-coordinate-correction-and-sextic-incidence).
 The original exact input remains
-[primitive-polynomial.txt](../validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt).
+[primitive-polynomial.txt](https://github.com/markluxton1/STCI/blob/c8ca6a69de4c077502e13e25bd4c2a3443b9f9bc/research/validation/2026-10-12-nonendpoint-diagonal-norm/20261012T212553449292Z/primitive-polynomial.txt).
 In the reciprocal chart, the same homogeneous quadratic factor is
 `1+vp+wp²`, rather than `p²+vp+w`.
 
@@ -1286,7 +1286,7 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 ## Integration guide: the actual open and the differential equations
 
-This dossier studies the quintic h=2 incidence scheme on the stated nonvanishing open, including the reduction to a shared logarithmic ODE and its coefficient equations. The [spectral and generator dossier](QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md) reorganizes these same equations to expose linear-algebra structure; that is a computational acceleration, not an independent proof of global support exclusion. The [degree-five incidence frontier](QUINTIC_H2_INCIDENCE_AND_LOCALCOH_FRONTIER.md) records a degree-five branch that remains unresolved: the proposed exclusion confuses the reciprocal determinant coordinate with the actual source coordinate and does not justify its pure-power reduction. Replaying those resultants alone cannot settle the branch. Preserve the open-set assumptions and the separate audit of the ODE equivalence.
+This dossier studies the quintic h=2 incidence scheme on the stated nonvanishing open, including the reduction to a shared logarithmic ODE and its coefficient equations. The [spectral and generator dossier](spectral_pushforward_boundary.md#quintic-h2-spectral-operators-determinant-generators-and-actual-coefficient-units) reorganizes these same equations to expose linear-algebra structure; that is a computational acceleration, not an independent proof of global support exclusion. The [degree-five incidence frontier](#quintic-h2-the-degree-five-necessary-incidence-and-its-open-boundary) records a degree-five branch that remains unresolved: the proposed exclusion confuses the reciprocal determinant coordinate with the actual source coordinate and does not justify its pure-power reduction. Replaying those resultants alone cannot settle the branch. Preserve the open-set assumptions and the separate audit of the ODE equivalence.
 
 ---
 
@@ -1482,7 +1482,7 @@ scheme presentation on the stated actual localized domain.
 
 ## 6. New arithmetic evidence and limitations
 
-The [universal source](../computations/generalization_quintic_h2_localized_ode_2026_10_15.m2) checks membership identity (4) using independent symbols, all eight coefficients (8), both identities (9) and the two Hamiltonian action identities. It does not substitute or reconstruct the actual conductor map. Localization, captured-q5 identification and gluing require the written proofs above, not a finite sample or rank experiment.
+The [universal source](https://github.com/markluxton1/STCI/blob/add6e1664e6d9db84e67fb0276a318a804b3d2f8/research/computations/generalization_quintic_h2_localized_ode_2026_10_15.m2) checks membership identity (4) using independent symbols, all eight coefficients (8), both identities (9) and the two Hamiltonian action identities. It does not substitute or reconstruct the actual conductor map. Localization, captured-q5 identification and gluing require the written proofs above, not a finite sample or rank experiment.
 
 All original actual-map unit and projection hypotheses remain in
 force. In a polynomial computation they can be enforced by one
@@ -1505,7 +1505,7 @@ to full inverse support, and no nonlinear conductor descent.
 
 Date: 2026-10-15. Status: **GLOBAL COVER AND EXACT INPUT ASSEMBLY;
 independently audited** in the
-[global monic ODE review](STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
+[global monic ODE review](normalization_conductor_phase2_addendum.md#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
 Accepted conormal forms, the actual
 conductor octic, the full h2 conductor factor, global Delta1 open, ODE
 and spectral reductions are premises. No accepted verifier is replayed.
@@ -1658,7 +1658,7 @@ not thereby a mate.
 
 ## 4. Exact new assembly and continuation boundary
 
-The new [assembly source](../computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2)
+The new [assembly source](https://github.com/markluxton1/STCI/blob/add6e1664e6d9db84e67fb0276a318a804b3d2f8/research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2)
 reads the accepted primitive octic once and forms the original-parameter
 model. It asserts (2) and the new literal quotient/remainder identity
 (3), writes all equation groups, all seven actual q_i, the single domain
@@ -1670,7 +1670,7 @@ unit and the equation degrees. The degrees are
 
 The retained exact seventeen-entry equation row and domain polynomial are the complete saved model. The assembly source specifies their construction from the actual octic; no Gröbner basis, saturation, resultant or emptiness conclusion follows from assembling this input.
 
-The [input file](../computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2) reads the completed model over QQ and exposes `h2GlobalRing`, `h2GlobalEquations`, `h2GlobalIdeal` and `h2GlobalDomainUnit`. It checks the seventeen-entry matrix in the nine-variable ring and constructs the unsaturated ideal only; it does not execute domain localization or a Gröbner computation.
+The [input file](https://github.com/markluxton1/STCI/blob/bb5b1d5348097028738db196c262fe44b81b69ca/research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2) reads the completed model over QQ and exposes `h2GlobalRing`, `h2GlobalEquations`, `h2GlobalIdeal` and `h2GlobalDomainUnit`. It checks the seventeen-entry matrix in the nine-variable ring and constructs the unsaturated ideal only; it does not execute domain localization or a Gröbner computation.
 
 The outstanding shared h2 task can therefore be stated globally: prove
 this one incidence empty after (4), or describe its actual admissible
@@ -1785,4 +1785,3 @@ print "COMPLETE new universal localized ODE identities; no actual-coefficient el
 exit 0;
 ```
 </details>
-

@@ -652,8 +652,6 @@ therefore violate no retained conclusion.
 
 ## Consolidated historical supplement: `research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md`
 
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
-
 # The equation filtration, conormal torsion and specialization
 
 For a smooth codimension-two curve C in a smooth threefold, retain the marked pair C subset Z=V(f,g), permitting residual components. The [local comparison R-0030](../results/local_filtration_comparison_defect.md) distinguishes minimal full initial equations from the filtered module of actual equations. The [normal Koszul argument](../arguments/normal_koszul_cancellation.md) gives the comparison by cancellation page and the recursive family. The [punctual comparison argument](../arguments/punctual_comparison_defects.md) gives the conormal-entry annihilator and the two local examples. This supplement retains the extended Rees and normal-cone regularity proofs, with links to the migrated Results and their source reviews. The transverse-specialization proofs are in the [transverse specialization argument](../arguments/transverse_specialization.md).
@@ -693,7 +691,7 @@ The data remain the actual schemes and inclusions
 \[
 C\subset Z\subset X,Y\subset P,
 \]
-including the original Cartesian square \(Z=X\times_PY\), all composites, and both labelled carrier ideals. The [complete embedding diagram](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2-the-complete-embedding-and-conormal-diagram) retains the nine ideal-power filtrations and seven transitivity sequences. In particular, on \(C\),
+including the original Cartesian square \(Z=X\times_PY\), all composites, and both labelled carrier ideals. The [complete embedding diagram](normal_filtration_boundary_obstructions.md#2-the-complete-embedding-and-conormal-diagram) retains the nine ideal-power filtrations and seven transitivity sequences. In particular, on \(C\),
 \[
 M_X=A_X/IA_X,\qquad M_Y=A_Y/IA_Y,
 \qquad D=M_X\oplus M_Y,
@@ -1022,7 +1020,7 @@ Date: 2026-10-24. Status: **research with an independent agent reconstruction**.
 
 Let \(p\) be a closed point of a smooth integral curve \(C\) in a smooth threefold \(P\), over a field of arbitrary characteristic. Put \(R=\mathcal O_{P,p}\), \(B=\mathcal O_{C,p}\), \(I=I_C\), and \(J=(f,g)\subset I\), where \(f,g\) form a regular sequence. The labelled principal ideals \(A=(f), B_Y=(g)\) are retained; the letter \(B\) denotes the curve ring, not the second carrier ideal. There is **no assumption** that \(\sqrt J=I\). All statements concern the marked embedding, not classification of any additional components. The examples are local algebraic examples, not constructions for the fixed projective rational quartic.
 
-Use the reviewed comparison from [the merged investigation, section 4](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd):
+Use the reviewed comparison from [the merged investigation, section 4](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd):
 \[
 S=\operatorname{gr}_I R=\operatorname{Sym}_B(I/I^2),\quad
 H=\operatorname{in}_I J,\quad Q=H/S_+H,\quad D=J/IJ\simeq B^2,
@@ -1153,7 +1151,7 @@ normal cone and of the defect itself.
 
 The October 24 source records an independent agent reconstruction of the
 local specialization development. It uses the October 23
-[comparison and smooth-carrier arguments](IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd)
+[comparison and smooth-carrier arguments](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd)
 and the earlier continuation's punctual family and supported quadruple as
 reviewed inputs. R-0030 records the
 [October 26 local audit](../results/local_filtration_comparison_defect.md#october-26-local-audit).
@@ -1173,7 +1171,7 @@ There is no established general sheaf-level identification between the u-power f
 
 ### Characteristic reach
 
-The exact equation-module comparison, normal-Koszul filtration, conormal-entry annihilator, extended-Rees quotient and Tor specialization sequences are integral local algebra constructions with the displayed noetherian/regular-sequence hypotheses; no characteristic-zero division or separability is used. The explicit families retain their individual restrictions: for example the punctual-family special-fiber length computation uses a unit of constant2 when m=2, so that assertion was stated in characteristic zero and requires a separate characteristic2 calculation. The scalar coefficient-vanishing and nilpotent lengths in examples may change on reduction. The intrinsic defect construction remains available in positive characteristic, and the prescribed characteristic2 quartic illustrates higher cancellation with zero comparison defect. It is compatible with [the every-positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier); no defect here is a universal STCI obstruction.
+The exact equation-module comparison, normal-Koszul filtration, conormal-entry annihilator, extended-Rees quotient and Tor specialization sequences are integral local algebra constructions with the displayed noetherian/regular-sequence hypotheses; no characteristic-zero division or separability is used. The explicit families retain their individual restrictions: for example the punctual-family special-fiber length computation uses a unit of constant2 when m=2, so that assertion was stated in characteristic zero and requires a separate characteristic2 calculation. The scalar coefficient-vanishing and nilpotent lengths in examples may change on reduction. The intrinsic defect construction remains available in positive characteristic, and the prescribed characteristic2 quartic illustrates higher cancellation with zero comparison defect. It is compatible with [the every-positive-characteristic quartic-carrier construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier); no defect here is a universal STCI obstruction.
 
 
 ---
@@ -1190,8 +1188,6 @@ and smooth-carrier vanishing.
 
 
 ## Consolidated historical supplement: `research/supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md`
-
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
 
 # October 7 saturation, Rees valuations, blowup budgets, and rational carriers
 
@@ -1230,7 +1226,7 @@ The source resultant specializes exactly to
 \]
 
 Thus the basepoint-free slice is exactly `D(t)`. No separate `u=0` boundary belongs to it. Starting with the five persisted source polynomials in
-[`e2_full4_obstruction_2026-10-05.txt`](../computations/e2_full4_obstruction_2026-10-05.txt), the audit reconstructs, without copying an earlier quotient list,
+[`e2_full4_obstruction_2026-10-05.txt`](https://github.com/markluxton1/STCI/blob/c8ca6a69de4c077502e13e25bd4c2a3443b9f9bc/research/computations/e2_full4_obstruction_2026-10-05.txt), the audit reconstructs, without copying an earlier quotient list,
 
 \[
 G_i(a,b,1/x,x)=\frac{uQ_i(a,b,x)}{x^{k_i}},
@@ -1299,7 +1295,7 @@ Here the two directions have independent arithmetic checks:
 3. **`J:t=J`.** Macaulay2 checks the colon equality exactly. The following elementary module argument verifies it without another saturation computation.
 
 The multiplier matrix is in
-[`session_dx1_shifted_membership_2026_10_07.txt`](../computations/session_dx1_shifted_membership_2026_10_07.txt). The [exact saturation audit](../computations/audit_dx1_saturation_2026_10_07.py) checks it against the original five obstruction coordinates.
+[`session_dx1_shifted_membership_2026_10_07.txt`](https://github.com/markluxton1/STCI/blob/c8ca6a69de4c077502e13e25bd4c2a3443b9f9bc/research/computations/session_dx1_shifted_membership_2026_10_07.txt). The [exact saturation audit](https://github.com/markluxton1/STCI/blob/1452caec8218c57212bdbce4ddf8762bb06334ff/research/computations/audit_dx1_saturation_2026_10_07.py) checks it against the original five obstruction coordinates.
 
 ## An elementary saturation and radical proof
 
@@ -1391,7 +1387,7 @@ There is an independently certified real zero of this insufficient subsystem nea
 The displayed numbers specify an exact rational cube center. A cube of radius `10^-10` has an exact rational Newton contraction bound below `10^-4` and is mapped into a cube of radius below `10^-14`. Thus it contains a unique real zero. All four open factors `x,u,2a+1,a+u+2x` are bounded away from zero throughout the cube. The omitted `Q1,Q3` numerators are also bounded away from zero there, so this zero is not a P-044 zero.
 
 The exact interval proof and independent expansion of the older `s^2=sum Q_i C_i` certificate are retained in
-[`verify_session_dx1_independent_2026_10_06.py`](../computations/verify_session_dx1_independent_2026_10_06.py), together with the actual polynomial and membership-certificate inputs it reads.
+[`verify_session_dx1_independent_2026_10_06.py`](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_dx1_independent_2026_10_06.py), together with the actual polynomial and membership-certificate inputs it reads.
 
 Accordingly, the earlier note's proposed equivalence with emptiness of the three-equation open set must not be reused. The correct repair uses the full five obstruction coordinates. The old resultants remain exact identities but have no emptiness implication by coprimality alone.
 
@@ -1433,9 +1429,9 @@ the original four-parameter polynomials and skips the comparison when the snapsh
 The classified basepoint-free family is exactly P-045. Its independently audited cubic-factor theorem implies that no characteristic-zero quartic carrier can arise from this `dx=1` slice. This closes the local no-carrier statement previously left conditional on residual saturation. It does not create an STCI pair or exclude every curve or every remaining carrier type.
 
 The primary rerunnable record is
-[`audit_dx1_saturation_2026_10_07.py`](../computations/audit_dx1_saturation_2026_10_07.py). It reconstructs every quotient from source, checks all source identities and independent multiplier expansions, writes the compact standalone
-[`verify_dx1_saturation_2026_10_07.m2`](../computations/verify_dx1_saturation_2026_10_07.m2), and saves the exact
-[`dx1_saturation_audit_2026_10_07.json`](../computations/dx1_saturation_audit_2026_10_07.json).
+[`audit_dx1_saturation_2026_10_07.py`](https://github.com/markluxton1/STCI/blob/1452caec8218c57212bdbce4ddf8762bb06334ff/research/computations/audit_dx1_saturation_2026_10_07.py). It reconstructs every quotient from source, checks all source identities and independent multiplier expansions, writes the compact standalone
+[`verify_dx1_saturation_2026_10_07.m2`](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_dx1_saturation_2026_10_07.m2), and saves the exact
+[`dx1_saturation_audit_2026_10_07.json`](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/computations/dx1_saturation_audit_2026_10_07.json).
 
 Rerun from the repository root:
 
@@ -1487,7 +1483,7 @@ The retained [independent full-orbit certificate](../computations/audit_mf6_e1_p
 5. its kernel as actual ambient quartics (F_0,F_1);
 6. the gcd of (F_0,F_1) over (mathbf Q(t)).
 
-The original pending-runtime checkpoint was superseded by the recorded independent execution below. The retained full-orbit audit also reconstructs the boundary directions and their normalizations; its exact scope is stated in [the primitive-triple proof](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md).
+The original pending-runtime checkpoint was superseded by the recorded independent execution below. The retained full-orbit audit also reconstructs the boundary directions and their normalizations; its exact scope is stated in [the primitive-triple proof](normal_filtration_boundary_obstructions.md#primitive-and-defective-triple-carriers).
 
 ## Runtime verification and main-component carrier exclusion
 
@@ -2914,4 +2910,3 @@ Thus the general-point Type D exclusion is now conditional on one finite boundar
 
 
 ---
-

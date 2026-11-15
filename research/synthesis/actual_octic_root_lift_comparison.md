@@ -34,7 +34,7 @@ Write \(E_j=V(\mathcal I_E^{j+1})\). The first root condition supplies a
 Cartier divisor \(\Sigma_1\subset E_1\) reducing to \(\Sigma\).
 In the present smooth-root setting it is unique: the differences of first
 lifts lie in \(H^0(\Sigma,\mathcal O_\Sigma(-5,3))=0\), as in the
-[accepted first-lift proof](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md).
+[accepted first-lift proof](quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence).
 
 For a degree-\(d\) equation of normal order at least two, remove its
 exceptional factor of order two. The resulting section belongs to
@@ -173,7 +173,7 @@ The extra one is the known symbol kernel \(kq^4\).
 There is a uniform bound \(h_f\le3\) in this smooth-root setting. The
 restriction \(D=f|_{\ell=0}\) is a nonzero section of degree four on
 \(\ell\simeq\mathbf P^1\). The necessary
-[sextic quadric restriction](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#1-eight-symbol-equations-are-a-norm-factorization)
+[sextic quadric restriction](rank_strata_and_sextic_lifts.md#1-eight-symbol-equations-are-a-norm-factorization)
 says that \(\beta D\) must be the pullback of a quartic under the
 degree-three ruling map \(\nu:\mathbf P^1\to\mathbf P^1\).
 Let \(\Gamma\) be the least effective divisor downstairs with
@@ -234,7 +234,7 @@ G_0=(z/8)u^2v-(3/4)uv^2+(z/8)v^3.
 This is a control for the new comparison, not a renewed STCI candidate:
 its second root obstruction is already nonzero by R-0007.
 
-The [retained calculator](../computations/octic_first_root_source.py)
+The [retained calculator](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/octic_first_root_source.py)
 expands all 165 homogeneous octics in the actual balanced chart
 \((1,z,z^3+v,z^4+u+3zv/2)\). Complete vanishing of normal orders zero and
 one derives the actual 80-dimensional source. It then imposes
@@ -434,6 +434,8 @@ space is not evidence that those requirements can be met.
 - Final reviewed calculator SHA-256:
   `ab3351b28f6ed49dcb359d811c7f48ff6eb59d8e472ba8522aa9ae7b9982857b`.
   The retained script ran successfully with Python and SymPy 1.14.0:
+
+  The archived command uses [octic_first_root_source.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/octic_first_root_source.py) from the pinned repository snapshot.
 
       python3 research/computations/octic_first_root_source.py
 

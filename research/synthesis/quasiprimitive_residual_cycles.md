@@ -931,9 +931,9 @@ assert existence of a global sextuple structure or an STCI pair.
 
 ### 1. What was checked before continuing
 
-The starting data are [P-031](MIXED_DEGREE_NORMAL_FORMS_AND_POLES.md#p-031),
-[P-038](QUASIPRIMITIVE_MULTIPLICITY_FIVE.md#p-038), and
-[P-042](SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md#p-042-the-necessary-multiplicity-six-types-for-a-mixed-46-pair),
+The starting data are [P-031](normal_carrier_compression.md#p-031),
+[P-038](../supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md#p-038), and
+[P-042](toric_sextic_residuals_and_limits.md#p-042-the-necessary-multiplicity-six-types-for-a-mixed-46-pair),
 and the [mixed-(4,6) pole and Fitting-divisor analysis](../synthesis/normal_filtration_boundary_obstructions.md#mixed-46-fitting-divisor-and-pole-strata). A pair supported on the monomial smooth
 rational quartic C0 would be a finite-flat quasiprimitive multiplicity-six
 lci. P-042 gives pieces
@@ -1518,10 +1518,10 @@ primitive at every point, that the first-normal quotient of the equations
 has regular ratio, or that the ordinary nilradical-power quotients are line
 bundles.
 
-Relevant proofs are [P-016](QUASIPRIMITIVE_MULTIPLICITY_FIVE.md#p-016) and
-[P-042](SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md#p-042-the-necessary-multiplicity-six-types-for-a-mixed-46-pair),
-[the local multiplicity-six pairing audit](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit),
-and [the uniform saturated-filtration audit](ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-session-uniform-audit).
+Relevant proofs are [P-016](../supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md#p-016) and
+[P-042](toric_sextic_residuals_and_limits.md#p-042-the-necessary-multiplicity-six-types-for-a-mixed-46-pair),
+[the local multiplicity-six pairing audit](#2026-10-05-mf6-pairing-audit),
+and [the uniform saturated-filtration audit](https://github.com/markluxton1/STCI/blob/d158a740d2449c458867ccbc5e3b2ee2c4bec2f4/research/supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-session-uniform-audit).
 The primary source was freshly opened for this audit:
 [Manolache, *Duality for Gorenstein multiple structures on smooth algebraic
 varieties*, 2023](https://imar.ro/journals/Revue_Mathematique/pdfs/2023/1-2/10.pdf),
@@ -1712,7 +1712,7 @@ The arbitrary-mate quartic theorem R-0001 already closes such pairs for C0; the 
 
 ## 1. Complete triple family and quartic variable
 
-The [complete degree-four triple reduction](LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#every-possible-degree-four-triple) exhausts the mixed constant
+The [complete degree-four triple reduction](contact_duality_and_global_descent.md#every-possible-degree-four-triple) exhausts the mixed constant
 normal directions after torus normalization `m=U+V,y=V`. Its parameters
 are arbitrary `A,B`, with
 
@@ -1726,7 +1726,7 @@ zero, and has no finite common zero with `R`. The discarded homogeneous
 coefficient chart `C=0` in the original triple construction fails
 flatness, rather than being omitted generically.
 
-Let `F` be any quartic in the [complete eight-dimensional source](LOCALCOH_CONTACT_PARITY_AND_MF6_TYPE.md#complete-quartic-equation-and-its-cubic-pole-constraint) with
+Let `F` be any quartic in the [complete eight-dimensional source](contact_duality_and_global_descent.md#complete-quartic-equation-and-its-cubic-pole-constraint) with
 first-normal form `h(U+V)`. In the finite moving frame, write its quadratic
 and cubic coefficients as `Q,E,K`, where `Q` is the `y^2` coefficient
 at `m=0`, `E` the `my` coefficient, and `K` the `y^3` coefficient.
@@ -1814,7 +1814,7 @@ Exactly `deg J=17` and `Jhat(0)=1/2`.
 
 ## 3. Intrinsic one-unit annihilator and the degree argument
 
-The [exact third-piece DVR lattice lemma](MULTIPLICITY_MIXED46_AND_MF6.md#4-the-exact-third-piece-lattice-lemma) gives, at every
+The [exact third-piece DVR lattice lemma](#4-the-exact-third-piece-lattice-lemma) gives, at every
 finite point,
 
     ord(D3-D2)=max(0,ord S-ord T).
@@ -1963,13 +1963,11 @@ the vanishing generic vector, is indispensable.
 
 The self-contained [universal verifier](../computations/verify_mf6_infinity_universal.py) reconstructs the complete original coefficient matrix and its full exceptional fiber from the actual ideal basis, checks the moving-support derivative, derives the polynomial matrix and verifies both its ideal equality and the explicit membership witnesses. It reads no generated-JSON proof fixture. The independent reconstruction in the inherited source state rederived the global annihilator, the degree loss whenS has infinity zeros, the shifted coefficient ideal and the whole rank-four exceptional fiber. No separate generated special-fiber fixture is needed.
 
-The ordinary rational formulas use2 as a unit, and their exact coefficient/minor identities have only been certified in their stated characteristic-zero model. A prime-characteristic application would need the correct conormal and actual source model and all relevant inversions. The [positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) prevents interpreting this fixed characteristic-zero contact proof as a universal STCI obstruction. Other multiplicity-six types have their own proofs and prerequisites; the scalar divisor budget alone does not remove them.
+The ordinary rational formulas use2 as a unit, and their exact coefficient/minor identities have only been certified in their stated characteristic-zero model. A prime-characteristic application would need the correct conormal and actual source model and all relevant inversions. The [positive-characteristic quartic-carrier construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) prevents interpreting this fixed characteristic-zero contact proof as a universal STCI obstruction. Other multiplicity-six types have their own proofs and prerequisites; the scalar divisor budget alone does not remove them.
 
 
 
 ## Consolidated historical source: `research/supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md`
-
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
 
 # Residual cycles, split cases, and Type A configurations
 
@@ -2442,4 +2440,3 @@ normal-sheaf/Jacobian-divisor route, but it does not itself close that route.
 
 
 ---
-

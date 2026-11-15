@@ -336,7 +336,7 @@ geometric emptiness.
 
 ## Quantitative transfer and covered degree bounds
 
-The [effective characteristic-transfer proof](EFFECTIVE_CHARACTERISTIC_TRANSFER.md)
+The [effective characteristic-transfer proof](../supplements/EFFECTIVE_CHARACTERISTIC_TRANSFER.md)
 gives an explicit constant \(B_D\): if \(p>\exp(B_D)\), a supported
 pair of degrees at most \(D\) in characteristic \(p\) would give a
 characteristic-zero pair with the same ordered degrees. The resulting
@@ -346,7 +346,7 @@ quartic carriers** is unconditional, using the accepted
 characteristic-zero quartic exclusion. It remains a bound for that
 carrier class, rather than the unrestricted \(\delta(p)\).
 
-The [torus-weight proof](EQUIVARIANT_DEGREE_BOUNDS.md) extends the sharp
+The [torus-weight proof](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md) extends the sharp
 large-prime lower bound from one binomial equation to one
 weight-homogeneous equation with an arbitrary mate, and to pairs with at
 most two weights per equation. It also constrains the extreme components
@@ -485,7 +485,7 @@ establish nonexistence without an exhaustive reduction. No such
 horizontal-component calculation or compatible lifting system is claimed.
 
 For a special pair of torus eigenforms, the
-[integral mixed-characteristic trace calculation](MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md)
+[integral mixed-characteristic trace calculation](../supplements/MIXED_CHARACTERISTIC_TRACE_OBSTRUCTION.md)
 forces \(ab\in J_R^2\), where \(J_R\) measures the coefficients breaking
 the symmetry. It imposes a ramification/valuation restriction; its
 ramified zero-trace example still has a residual curve. Its stronger
@@ -494,7 +494,7 @@ generic curvilinearity and the displayed uniform ideal containments. Formal nilp
 same trace argument over a nonreduced base.
 
 An actual supported trait supplies more structure. The
-[prime-to-\(p\) power-extraction theorem](PRIME_TO_P_POWER_EXTRACTION.md)
+[prime-to-\(p\) power-extraction theorem](../supplements/PRIME_TO_P_POWER_EXTRACTION.md)
 recovers a lower-degree equation from a prescribed powered special fiber.
 Applied to the known \((p,4n)\) special pairs with \(p\nmid n\), it
 excludes supported lifts at **every** ramification index. This is a
@@ -502,7 +502,7 @@ theorem about specified points of the full incidence, not a coverage
 theorem for arbitrary characteristic-zero pairs.
 
 For the prescribed \((F_p,H_4^n)\) family with \(p\ge7\), the
-[Frobenius-power precision theorem](FROBENIUS_POWER_LIFTING_PRECISION.md)
+[Frobenius-power precision theorem](../supplements/FROBENIUS_POWER_LIFTING_PRECISION.md)
 gives exact maximum unramified **strong** precision \(1+v_p(n)\).
 The naive powered equations attain that level. The finite-level statement
 requires flat complete intersections and the displayed uniform
@@ -517,7 +517,7 @@ These are growing bounds for liftability in this specified family; they
 are not bounds for arbitrary STCI presentations. The non-eigen
 \((16,p)\) source remains outside both extraction results.
 
-There is a further [root-specialization restriction](FROBENIUS_POWER_LIFTING_PRECISION.md#root-specialization-and-the-remaining-endpoint-defects)
+There is a further [root-specialization restriction](../supplements/FROBENIUS_POWER_LIFTING_PRECISION.md#root-specialization-and-the-remaining-endpoint-defects)
 at every ramification index. Close the generic multiplicity-\(p\)
 root on the lifted degree-\(p\) carrier. Its special fiber must
 have a nonzero embedded-point defect over the base \((p,4)\)
@@ -528,7 +528,7 @@ necessary defect condition on a hypothetical actual trait, not a proof
 that such a defect or trait exists.
 
 In characteristic zero or odd characteristic, the
-[canonical projection section](TAME_PROJECTION_SECTIONS.md) exists away from the pencil's branch points and has pole order at most
+[canonical projection section](../supplements/TAME_PROJECTION_SECTIONS.md) exists away from the pencil's branch points and has pole order at most
 \(m-1\), where \(m=ab/4\). The local complete-intersection control
 attains that bound in the stated characteristics. A meromorphic section
 with a module pole bound need not extend to a regular algebra retraction;
@@ -682,7 +682,7 @@ quartic. It remains a restricted-class statement. The inequality
 \(\delta(p)\le\delta_{\mathrm{bin}}(p)\) has the wrong direction to
 turn (9) into an unrestricted lower bound.
 
-The [independent arithmetic audit, Sections 5–6](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#exceptional-prime-minima-with-their-proof)
+The [independent arithmetic audit, Sections 5–6](#exceptional-prime-minima-with-their-proof)
 also proves the exceptional-prime minima and displays a chart-verified
 characteristic-five \((3,20)\) pair:
 
@@ -909,7 +909,7 @@ admissible members, is also exactly \(p\) for \(p\ge43\): (4) is
 the lower bound and (2),(7) attain it. This is a restricted-source
 minimum, not the unrestricted \(\delta(p)\).
 
-The dependency-free [exact verifier](../computations/stci_arithmetic_beyond_2026_10_29.py)
+The dependency-free [exact verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_arithmetic_beyond_2026_10_29.py)
 checks homogeneity, nonnegative exponents and sparse polynomial pullbacks
 at \(p=43,47,53,59,61,101\), with every input explicit in the source. Run
 `python3 research/computations/stci_arithmetic_beyond_2026_10_29.py`.
@@ -954,9 +954,9 @@ retains the characteristic power invisible to ordinary differentiation.
 
 The jet-gap lemma measures the first infinitesimal variation upstairs that the target local ring cannot represent. Ordinary differentiation sees only divisibility by \(p\); the first surviving Hasse order sees the whole \(p^{v_p(b)}\). Conversely, once a Frobenius difference vanishes in the full conductor, it descends. This is a relation between infinitesimal gluing and an actual homogeneous equation, and it persists for a carrier with no nonzero binomial relation.
 
-The [dependency-free sparse verifier](../computations/stci_arithmetic_beyond_2026_10_29.py) checks the literal identity at \(p=43,47,53,59,61,101\), all exponents and ordinary degrees. Independent direct four-variable Macaulay2 substitution at \(43,53\) was recorded in the source audit. The uniform proof is the localization identity followed by Frobenius; no inference across all primes is made from the finite controls. No fresh run was needed to preserve the proof.
+The [dependency-free sparse verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_arithmetic_beyond_2026_10_29.py) checks the literal identity at \(p=43,47,53,59,61,101\), all exponents and ordinary degrees. Independent direct four-variable Macaulay2 substitution at \(43,53\) was recorded in the source audit. The uniform proof is the localization identity followed by Frobenius; no inference across all primes is made from the finite controls. No fresh run was needed to preserve the proof.
 
-[Positive-characteristic constructions](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md) supplies the family-wide rational-quartic theorem and fixed-cubic minima. [The exact binomial-family analysis](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#exact-two-binomial-reduced-support-and-endpoint-contacts) preserves the distinct characteristic-five minimum 25 in its quartic-plus-binomial family. The minimum 20 in the one-binomial class uses a different cubic carrier. A family minimum is never a lower bound for the unrestricted minimum without a coverage theorem.
+[Positive-characteristic constructions](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md) supplies the family-wide rational-quartic theorem and fixed-cubic minima. [The exact binomial-family analysis](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#exact-two-binomial-reduced-support-and-endpoint-contacts) preserves the distinct characteristic-five minimum 25 in its quartic-plus-binomial family. The minimum 20 in the one-binomial class uses a different cubic carrier. A family minimum is never a lower bound for the unrestricted minimum without a coverage theorem.
 
 
 ## Exceptional-prime minima with their proof
@@ -1024,8 +1024,8 @@ at least seven. This contradiction rules out maximum degree below
 20, and the displayed cubic pair attains it.
 
 The only imported input in this small-prime sharpening is the reviewed
-[fixed-quartic mate minimum](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#all-mate-degrees-on-a-fixed-cuspidal-quartic)
-and its [independent reconstruction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#all-mate-degrees-on-a-fixed-cuspidal-quartic).
+[fixed-quartic mate minimum](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#all-mate-degrees-on-a-fixed-cuspidal-quartic)
+and its [independent reconstruction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#all-mate-degrees-on-a-fixed-cuspidal-quartic).
 The finite arithmetic cases above are proved explicitly, rather than
 being presented as an incomplete enumeration.
 
@@ -1039,7 +1039,7 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 An abstract rational curve or its normal bundle does not determine the obstruction to extending an embedded ribbon. This chapter owns the full primitive-stage extension, the comparison under quadratic gluing changes, the marked divided leading-class theorem, and explicit counterexamples showing why the full neighborhood and integral lift are essential. It then records what an actual supported complete intersection does and does not supply. These are independently reviewed results.
 
-The embedded ribbon-to-triple extension is proved in [higher embedded structures](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction). The exact arithmetic example is [R-0012's nonlifting proof](Z4_LIFTING_AND_DEFORMATION.md). The full extension—not any chosen quadratic summand—has invariant meaning. Standard square-zero derivations and cotangent-complex deformation theory contextualize the construction, but do not identify it with a Frobenius-lifting or Witt-vector obstruction. Abstract primitive-multiple-curve results likewise do not by themselves solve fixed-ambient compatibility over a mixed-characteristic DVR.
+The embedded ribbon-to-triple extension is proved in [higher embedded structures](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction). The exact arithmetic example is [R-0012's nonlifting proof](../supplements/Z4_LIFTING_AND_DEFORMATION.md). The full extension—not any chosen quadratic summand—has invariant meaning. Standard square-zero derivations and cotangent-complex deformation theory contextualize the construction, but do not identify it with a Frobenius-lifting or Witt-vector obstruction. Abstract primitive-multiple-curve results likewise do not by themselves solve fixed-ambient compatibility over a mixed-characteristic DVR.
 
 ## Comparing two marked quadratic neighborhoods
 
@@ -1086,7 +1086,7 @@ The general square-zero derivation principle is described in the
 [Stacks Project, Lemma 91.2.1](https://stacks.math.columbia.edu/tag/08S3).
 Formula (1) is proved directly below; it is not quoted from that source.
 The target obstruction is the corrected canonical extension of the
-[independent intrinsic audit](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction).
+[independent intrinsic audit](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction).
 
 ## Proof
 
@@ -1710,7 +1710,7 @@ The following are inherited premises, rather than computations repeated in this 
 * [STCI-R-0001](../results/quartic_carrier_exclusion.md), with its accepted lower-degree and factor reduction, gives d,e at least five for any characteristic-zero STCI presentation of this C. Its complete quartic-carrier exclusion is not reopened here.
 * The fixed normal bundle is N=O(7) squared, hence E=I/I²=O(-7) squared. The basic generic local intersection and blow-up restrictions are recorded in [the simultaneous-surfaces synthesis](../synthesis/02-two-surfaces.md); the entirely-thick inequalities are not asserted to exclude that branch.
 * [STCI-R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) rules out the prescribed flat embedded Z4 lift over exactly Z_(2) and Z_2. It does not exclude arbitrary characteristic-zero STCI presentations or arbitrary ramified bases.
-* The [corrected independent ribbon-to-triple audit](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction) constructs, for a line quotient q:E onto L with kernel M, the canonical extension
+* The [corrected independent ribbon-to-triple audit](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction) constructs, for a line quotient q:E onto L with kernel M, the canonical extension
 
   \[
   0\longrightarrow L^2\longrightarrow B_q
@@ -1997,7 +1997,7 @@ Flatness cannot be omitted in descent arguments. Over a DVR, generic containment
 
 ## Verification and the unproved bridge
 
-The [general-mechanism verifier](../computations/verify_z4_general_mechanism_2026_10_21.py) retains the full Laurent variation, nonlinear adapted coordinate change, arbitrary-stage local models, binomial order examples and nonlinear divided-section counterexample. The [actual-pair consequences verifier](../computations/verify_z4_stci_consequences_2026_10_21.py) retains the quotient values, Serre-dual incidence, integral-quadric ideal identities and CI Hilbert-polynomial arithmetic. The mathematical proofs carry the uniform and global statements; the finite controls do not replace them. The inherited independent review reconstructed the gluing comparison, defect-twisted vanishing, all-points containment bridge, projective counterexample and spreading argument. Those inherited mechanism and consequence scripts were not rerun during consolidation; the separate raw-frame reconstruction below was executed.
+The [general-mechanism verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_z4_general_mechanism_2026_10_21.py) retains the full Laurent variation, nonlinear adapted coordinate change, arbitrary-stage local models, binomial order examples and nonlinear divided-section counterexample. The [actual-pair consequences verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_z4_stci_consequences_2026_10_21.py) retains the quotient values, Serre-dual incidence, integral-quadric ideal identities and CI Hilbert-polynomial arithmetic. The mathematical proofs carry the uniform and global statements; the finite controls do not replace them. The inherited independent review reconstructed the gluing comparison, defect-twisted vanishing, all-points containment bridge, projective counterexample and spreading argument. Those inherited mechanism and consequence scripts were not rerun during consolidation; the separate raw-frame reconstruction below was executed.
 
 A general arithmetic explanation still requires a coordinate-equivariant source cocycle and a map to the actual gluing derivations that reproduces the embedded difference. An unrestricted STCI application additionally requires actual homogeneous symbols to force an incompatible quotient/defect incidence or a global compatible primitive stage. Neither follows from generic primitivity, the existence of a ribbon, a vanishing ambient obstruction, or spreading out alone. The explicit counterexamples above are mathematical limits on those proposed bridges.
 
@@ -2032,5 +2032,4 @@ Substitute a=2α,b=2β,h=2γ,d=1+2δ. Modulo four the three middle coefficients 
 This does not construct a natural map from divided-power polynomials to H^1(O(-4)). In particular, a change of raw normal coordinates changes the allocation among K_A, K_B and K_move. The total class is intrinsic for the fixed quotient, but the decomposition is not proved invariant.
 
 
-The source cited a verifier that is absent from the covered snapshots. Its necessary support is replaced by [the exact Laurent reconstruction](../computations/verify_z4_raw_source_decomposition.py), which derives all three middle polynomials from the displayed raw-frame definitions, checks their sum against C2, and performs the formal parameter substitution modulo four. It was executed successfully during consolidation. This fixed-frame identity does not assert invariance of individual pieces.
-
+The source cited a verifier that is absent from the covered snapshots. Its necessary support is replaced by [the exact Laurent reconstruction](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_z4_raw_source_decomposition.py), which derives all three middle polynomials from the displayed raw-frame definitions, checks their sum against C2, and performs the formal parameter substitution modulo four. It was executed successfully during consolidation. This fixed-frame identity does not assert invariance of individual pieces.

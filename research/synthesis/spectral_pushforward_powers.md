@@ -318,8 +318,6 @@ projective pair or change to C0's STCI status is asserted here.
 
 ## Consolidated historical supplement: `research/supplements/CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md`
 
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
-
 # cyclic cover and moving linear rigidity
 
 Permanent subject dossier retaining full mathematical computations, counterexamples, proofs, precise hypotheses and unresolved scope. Computational implementations, where present, remain separate.
@@ -2418,8 +2416,6 @@ print('\nPASS: exact cubic diagonal and open-conic identities')
 
 
 ## Consolidated historical supplement: `research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md`
-
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
 
 # Saturated duality, root descent and embedded formal surfaces
 

@@ -105,7 +105,7 @@ The accepted [projection-family reduction, STCI-R-0004](../results/projection_ph
 
 This is a significant reduction: it replaces an unbounded search over mate degrees by a structured question about the phase image and its torsion points. But the actual phase images and surviving torsion cosets for the three fixed-\(C\) models **have not been computed**. The mate locus need not itself be constructible.
 
-The actual [plane and smooth-quadric examples](../supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md) distinguish the two principal failures. In the plane family full inverse support holds but every unit power fails infinitesimal descent. In the quadric families isolated inverse points already obstruct a divisor pullback. These restricted exclusions do not exhaust the complete projection families.
+The actual [plane and smooth-quadric examples](carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions) distinguish the two principal failures. In the plane family full inverse support holds but every unit power fails infinitesimal descent. In the quadric families isolated inverse points already obstruct a divisor pullback. These restricted exclusions do not exhaust the complete projection families.
 
 ## 4.6 Interface with the simultaneous-equation geometry
 
@@ -164,16 +164,16 @@ pair and a proof of the comparison.
 The proofs give the fixed-carrier conductor criterion, the restricted Cartier singleton-lift classification, and the fixed-family torsion-coset reduction under their respective hypotheses.
 
 The quartic cases supply several fixed-geometry tests. The
-[generic nonimmersion-prime audit](../supplements/OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-nonimmersion-prime-independent-auditmd)
+[generic nonimmersion-prime audit](normalization_indices_and_power_descent.md#source-2026-10-08-session-nonimmersion-prime-independent-auditmd)
 uses a finite birational map \(\nu\) from a smooth projective surface and a
 smooth integral \(c\sim H\) whose restriction \(\nu|_c\) is an immersion
 into the ambient projective space. The pulled-back mate is a nonzero
 scalar times the \(n\)th power of the defining section of \(c\), with
 \(n\) invertible. It proves generic
 immersion on every distinct integral curve \(E\) with \(H\cdot E>0\).
-The [four MF6 boundary carriers](../supplements/OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-mf6-independent-auditmd)
+The [four MF6 boundary carriers](normal_filtration_boundary_obstructions.md#source-2026-10-07-session-nonnormal-mf6-independent-auditmd)
 give fixed characteristic-zero all-degree obstructions from a duplicated
-normalization fiber. The [ordinary-pinch and nodal-conductor analysis](../supplements/OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd)
+normalization fiber. The [ordinary-pinch and nodal-conductor analysis](normal_filtration_boundary_obstructions.md#source-2026-10-07-session-nonnormal-structural-progressmd)
 gives separate contact bounds and a high-contact local control. For genus-two
 trisecants, the [exact carrier ideal](../supplements/GENUS_TWO_TRISECANT_CARRIER_PROOF.md)
 gives an eleven-dimensional quartic space and retains the residual conic.
@@ -190,7 +190,7 @@ Continue with [how the exclusion results assemble](05-exclusions.md), then the [
 
 ## 4.9 Constructive torsion and the global realization boundary
 
-The [twisted-cubic benchmark](../supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md) exhibits a characteristic-zero corrected square on a normal quadric cone: a non-Cartier Weil-class relation becomes an actual homogeneous cubic after correction by the carrier equation. It is a construction for another curve, and it explains a mechanism that remains worth seeking for the fixed quartic. The accompanying nodal pinching proof shows why freely prescribed phase torsion can violate the smooth marked curve and full inverse-support hypotheses.
+The [twisted-cubic benchmark](square_descent_and_singular_gluing.md#torsion-constructions-and-the-limits-of-pinching) exhibits a characteristic-zero corrected square on a normal quadric cone: a non-Cartier Weil-class relation becomes an actual homogeneous cubic after correction by the carrier equation. It is a construction for another curve, and it explains a mechanism that remains worth seeking for the fixed quartic. The accompanying nodal pinching proof shows why freely prescribed phase torsion can violate the smooth marked curve and full inverse-support hypotheses.
 
 The relation lattice also permits products of different global divisor directions whose logarithmic defects cancel. Such cancellation is unavailable by repeatedly powering one fixed ray with nonzero additive defect. An existence investigation must construct the compatible actual sections on the same projective carrier. This is the precise missing implication, rather than a search for arbitrarily large powers with unchanged local defect.
 

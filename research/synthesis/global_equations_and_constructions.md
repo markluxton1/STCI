@@ -465,7 +465,7 @@ The verifier expands the resultant of
 \]
 
 and its \(B\)-analogue and proves exact equality with this formula after
-substituting the six minors.  The exact verifier is [verify_chow_form.py](../computations/verify_chow_form.py).  Thus a \((4,5)\) pair must satisfy
+substituting the six minors.  The exact verifier is [verify_chow_form.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_chow_form.py).  Thus a \((4,5)\) pair must satisfy
 
 \[
  R_{F,G}=\lambda\operatorname{Ch}_{C_0}^{5}.
@@ -572,7 +572,7 @@ Their Proposition 5.2 identifies a first coregular equation h with affineness of
 
 ## Primary constructions and the projective bundle gap
 
-The [affine/projective scope and exact counterchecks](../supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md) retain the lci-cone criterion and the distinct tensor, real-sphere, Picard and failed unique-prime controls. These prevent incorrect source transfers; they provide no projective STCI counterexample.
+The [affine/projective scope and exact counterchecks](#affineprojective-scope-and-explicit-literature-counterchecks) retain the lci-cone criterion and the distinct tensor, real-sphere, Picard and failed unique-prime controls. These prevent incorrect source transfers; they provide no projective STCI counterexample.
 
 Forster, [Theorems 5.1–5.2](https://www.mathematik.uni-muenchen.de/~forster/eprints/Compl_inter.pdf), proves respectively that an lci subscheme of affine space with trivial normal bundle is STCI and that every lci affine curve is STCI. The second proof chooses a conormal quotient onto the inverse determinant, adds a Ferrand nilpotent structure, trivializes its conormal bundle on the affine curve, and applies the first theorem. In affine three-space the resulting bundle is free. These are statements about the affine embedding and do not supply the coprime leading forms required above.
 
@@ -917,7 +917,7 @@ of \(F,G\). The
 forces those displayed pairs to have common surface factors in this
 characteristic-zero setting. Additional initial generators from all
 relations retain the full ideal's support and Hilbert data. The
-[degeneration boundary](../supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#why-degeneration-does-not-cover-every-pair)
+[degeneration boundary](arithmetic_root_collision.md#why-degeneration-does-not-cover-every-pair)
 therefore concerns loss of two generators, not a necessary loss of support
 by the full Hilbert limit. Neither Cohen--Macaulayness nor AG structure is
 assumed at the fixed boundary.
@@ -952,7 +952,7 @@ degrees \((a,b)\), the CI Hilbert polynomial they determine, and an integer
 \(C_0\subset Y\subset V(P^N)\) with that polynomial. Starting from an
 actual \(T\)-fixed ideal in this incidence, ask whether a flat deformation
 inside the incidence reaches a homogeneous AG, equivalently codimension-two
-CI, ideal. The [primary/Gorenstein criterion](../supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md#2-p-035-the-homogeneous-primarygorenstein-criterion-survives-audit)
+CI, ideal. The [primary/Gorenstein criterion](#2-p-035-the-homogeneous-primarygorenstein-criterion-survives-audit)
 states the precise homogeneous condition; if the prescribed degrees matter,
 the actual minimal generators must also have degrees \((a,b)\).
 
@@ -990,7 +990,7 @@ applications retain their source's characteristic-zero setting and do
 not exclude a support-preserving construction with controlled equations.
 
 A separate affine proof correction is already covered by the
-[exact Mandal–Zinna audit](../supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md#exact-audit-of-arxiv251107589v1-step-3)
+[exact Mandal–Zinna audit](#exact-audit-of-arxiv251107589v1-step-3)
 and its stronger, independently proved real-sphere counterexample.
 In arXiv:2511.07589v1, Theorem 4.2 Step 3, tensoring the Serre sequence
 ends in \(J/cJ\), rather than the image ideal \(J/(c)\). For \(c\in J\)
@@ -1160,19 +1160,17 @@ print "EXISTENCE_SOURCE_FIXED_INPUT_AND_NORMAL_GEOMETRY_EXACT_CHECKS_PASS";
 
 ## Consolidated historical supplement: `research/supplements/AFFINE_PROJECTIVE_AND_LITERATURE_LIMITS.md`
 
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
-
 # Affine/projective scope and explicit literature counterchecks
 
 These proofs separate homogeneous projective equations from affine equations, a line-bundle condition on the curve from a divisor-class condition on a carrier, and an embedded lifting problem from a splitting claim. They preserve useful mathematical counterexamples from a bounded literature assessment. The precise preprint audit concerns **arXiv:2511.07589v1**, Theorem 4.2 Step 3 and the unrestricted Theorem 4.4 as formulated in that version; it is not a claim about an uninspected later revision. No counterexample below is asserted to settle projective STCI over an algebraically closed field.
 
-The established affine lci and projective bundle-section constructions, with theorem-level primary sources, are integrated in [the global-equations account](../synthesis/global_equations_and_constructions.md). The fixed quartic has an [explicit quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier); that fact needs no unverified transfer from a broad affine theorem.
+The established affine lci and projective bundle-section constructions, with theorem-level primary sources, are integrated in [the global-equations account](../synthesis/global_equations_and_constructions.md). The fixed quartic has an [explicit quartic-carrier construction in every positive characteristic](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier); that fact needs no unverified transfer from a broad affine theorem.
 
 ## What the positive-characteristic literature actually supplies
 
-Moh's [official abstract](https://doi.org/10.1090/S0002-9939-1985-0784166-1) states affirmative results for projective monomial curves in positive characteristic and, separately, for a curve admitting a birational linear plane projection with center **disjoint from the curve** and only cusps in its image. The bounded source assessment verified the publisher's indexed abstract, not the full proof, a theorem number or a generalized meaning of cusp. In particular it supplied no theorem asserting that every projective curve admits such a projection. The internal cuspidal projection in [the rational-quartic construction](RATIONAL_QUARTICS_IN_POSITIVE_CHARACTERISTIC.md) is instead justified by its own full proof.
+Moh's [official abstract](https://doi.org/10.1090/S0002-9939-1985-0784166-1) states affirmative results for projective monomial curves in positive characteristic and, separately, for a curve admitting a birational linear plane projection with center **disjoint from the curve** and only cusps in its image. The bounded source assessment verified the publisher's indexed abstract, not the full proof, a theorem number or a generalized meaning of cusp. In particular it supplied no theorem asserting that every projective curve admits such a projection. The internal cuspidal projection in [the rational-quartic construction](../supplements/RATIONAL_QUARTICS_IN_POSITIVE_CHARACTERISTIC.md) is instead justified by its own full proof.
 
-The earlier Barile–Morales–Thoma [2000 publisher abstract](https://doi.org/10.1006/jabr.1999.8195) states a constructive positive-characteristic STCI theorem for simplicial affine or projective toric varieties **with full parametrization**. Neither hypothesis may be discarded; the abstract-level assessment did not verify the detailed definition needed for a new application. The direct fixed-quartic application in [the construction chapter](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md) uses the independently verified 2002 article instead.
+The earlier Barile–Morales–Thoma [2000 publisher abstract](https://doi.org/10.1006/jabr.1999.8195) states a constructive positive-characteristic STCI theorem for simplicial affine or projective toric varieties **with full parametrization**. Neither hypothesis may be discarded; the abstract-level assessment did not verify the detailed definition needed for a new application. The direct fixed-quartic application in [the construction chapter](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md) uses the independently verified 2002 article instead.
  The same 2000 abstract separately reports weaker almost-STCI results in arbitrary characteristic; those statements are not converted here into STCI assertions or results for arbitrary projective curves.
 
 Published Mandal–Zinna papers and the audited preprint have distinct scopes. The [J. Algebra 690 (2026), 101–113 abstract](https://doi.org/10.1016/j.jalgebra.2025.10.042) concerns affine threefolds over characteristic-zero C1 fields, with trivial conormal and a torsion Grothendieck-class hypothesis. The separate [J. Algebra 693 (2026), 36–53 abstract](https://doi.org/10.1016/j.jalgebra.2025.12.026) concerns a conditional smooth-affine-surface result over the algebraic closure of a finite field, again with trivial conormal and a torsion Grothendieck-class hypothesis. These abstract-level scope assessments do not establish any projective transfer. The counterchecks below address specific displayed claims and proof steps of arXiv:2511.07589v1; they do not conflate those claims with either published conditional theorem.
@@ -1336,8 +1334,6 @@ not find a correction or a refereed replacement proof.
 
 
 ## Consolidated historical supplement: `research/supplements/FOUNDATIONAL_FRONTIER_AND_INCIDENCE.md`
-
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
 
 # Quadric powers, normal directions and incidence controls
 
@@ -1974,4 +1970,3 @@ settle all degree0,1,2 directions or the full quartic locus.
 
 Validation: Macaulay2 1.26.06 reran the tensor exporter successfully;
 standard-library Python reran the Oct6 certificate verifier successfully.
-

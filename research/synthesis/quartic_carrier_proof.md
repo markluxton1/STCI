@@ -248,7 +248,7 @@ coefficient is \(2/3\). Hence the row requires
 
 The necessary exact support is
 [the cycle checker](../computations/verify_session_normal_carrier_progress.py)
-and [its independently reconstructed checker](../computations/verify_session_normal_independent_audit.py).
+and [its independently reconstructed checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_normal_independent_audit.py).
 They build the ADE inverse columns and budgeted multisets and enumerate
 the finite cycles just specified. The recorded executions establish these
 unchanged exact calculations; no fresh execution is claimed here. A
@@ -276,7 +276,7 @@ Some coefficient exceeds one. The marked coefficient is constrained by
 [The exact tree checker](../computations/verify_session_normal_nonreduced_trees.py)
 generates free trees by leaf addition, weak diagonal excesses of total at
 most three, and exact rational solutions of (7). Its
-[independent reconstruction](../computations/verify_session_nonreduced_independent_audit.py)
+[independent reconstruction](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonreduced_independent_audit.py)
 uses rooted-multiset tree codes and determinant-by-matchings rather than
 Schur elimination. All correction-column denominators are retained.
 For clarity, its distinct exact matrix argument is as follows. A
@@ -386,8 +386,8 @@ Adjunction and minimality force \(K_M=-L\); the normalization is the
 degree-four ADE del Pezzo anticanonical model in \(\mathbf P^4\).
 The \(D_5\) exceptional-lattice saturation argument gives actual
 \(2c\sim2H\), not merely \(2[c]=2[H]\) numerically. The
-[root-lattice proof](../supplements/OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-torsion-filtermd)
-and [del Pezzo reduction](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
+[root-lattice proof](https://github.com/markluxton1/STCI/blob/a88e52b20b799ead49699a23a1d4691a96f66cf5/research/supplements/OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-torsion-filtermd)
+and [del Pezzo reduction](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
 own these classification steps.
 
 Restriction of the five anticanonical sections to \(c\) is an
@@ -415,7 +415,7 @@ The actual two-quadric normalization can be written
 \(z^2-Az-R_1=Lz+R=0\). Elimination gives
 \(R^2+ALR-R_1L^2=0\), and the entire conductor is \((L,R)\), including
 nonreduced conics. Its full algebra is derived by the
-[graded-module conductor proof](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd).
+[graded-module conductor proof](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-entire-conductor-algebra-independent-auditmd).
 For quadrics \(Q_1,Q_2\) normalized to have middle-square coefficients
 one and zero, respectively, the omitted-coordinate derivatives satisfy
 \[
@@ -435,7 +435,7 @@ quadratic conductor trace and norm forbid **every** descended positive
 power. The [complete repeated-partition proof](../supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md)
 retains the invisible coefficient \(d_2\), all determinant roots, and
 the direction boundary. Its
-[independent ideal certificates](../supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md)
+[independent ideal certificates](../supplements/GENUS_ONE_RIBBON_PARTITION_PROOFS.md#genus-one-ribbon-repeated-partition-independent-certificates)
 remain necessary exact support. General \(\mathrm{PGL}_2\) moves the
 projection center and cannot be substituted for its center-preserving
 orbit calculation.
@@ -456,7 +456,7 @@ assumption, or conductor reducedness. [Independent interface audit](https://gith
 
 ## 6. Sectional genus two: conic geometry and the two correction strata
 
-The [adjoint proof](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd)
+The [adjoint proof](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd)
 gives \(K_M^2=0\), \(f=K_M+L\), and a complete connected basepoint-free
 rational pencil \(|f|\) of plane conics. Exceptional primes are vertical
 \((-2)\)-curves or horizontal \((-3)\)-sections, at most two of the
@@ -637,11 +637,11 @@ controls its entire exceptional budget.
 Two useful negative controls prevent false simplifications. A smooth
 lift can pass through an \(A_1\) normalization point with full inverse
 support and a local mate; the
-[explicit local counterexample](../supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-local-liftmd)
+[explicit local counterexample](https://github.com/markluxton1/STCI/blob/a88e52b20b799ead49699a23a1d4691a96f66cf5/research/supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-local-liftmd)
 prevents replacing the singular-normalization analysis by smoothness of
 the curve. Full inverse support also does not imply scheme containment
 in the nonreduced ramification locus; the
-[Fitting counterexample](../supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd)
+[Fitting counterexample](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd)
 retains the exact failed implication. Similarly a blowup lift in another
 carrier family requires an invertible pulled center ideal and the actual
 ratios of its equation sections; a numerical conic-bundle model alone
@@ -715,15 +715,13 @@ pullback defect, and the Type D passage bound from the pulled maximal
 ideal. They replayed the primary reduced and nonreduced graph checks and the
 separate weighted simple-elliptic check. The graph checks concern the
 necessary numerical rows in §3. The separate
-[two-arm Green-function argument](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#q-two-arm-coefficient-one-tails-exact-comparison)
+[two-arm Green-function argument](rees_and_vertical_controls.md#q-two-arm-coefficient-one-tails-exact-comparison)
 still requires its terminal diagonal bound. This preservation decision
 uses the inherited classification and low-degree inputs and concerns the
 normal integral quartic route for the fixed \(C_0\) in characteristic zero.
 
 
 ## Consolidated historical supplement: `research/supplements/QUARTIC_PROJECTION_MODULI.md`
-
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
 
 # Projection-center moduli and the exact characteristic-two comparison
 
@@ -984,13 +982,11 @@ picture. No classification of the nonreduced correspondence or of
 positive-characteristic projection moduli is claimed here.
 
 
-The positive-characteristic STCI constructions for the fixed curve are proved [separately](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier); no binary-form orbit classification is substituted for that construction.
+The positive-characteristic STCI constructions for the fixed curve are proved [separately](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier); no binary-form orbit classification is substituted for that construction.
 
 
 
 ## Consolidated historical supplement: `research/supplements/QUARTIC_SINGULAR_SUPPORT_AND_SINGLETON_FIBERS.md`
-
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
 
 # Reduced singular support and singleton normalization fibers
 
@@ -1359,4 +1355,3 @@ characteristic the stated splitting/separability and coefficient
 invertibility must be checked separately; no all-characteristic quartic
 exclusion follows from these reductions. In every positive characteristic
 the fixed curve has a quartic-carrier STCI construction.
-

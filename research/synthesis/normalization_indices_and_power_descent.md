@@ -1802,8 +1802,6 @@ agreement is not the proof: Sections 1--6 contain the actual arguments.
 
 ## Consolidated historical supplement: `research/supplements/OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md`
 
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
-
 # Principal triple incidence, normalization and conductor boundaries
 
 Full original source text is preserved below, including calculations, qualifications, counterexamples, and unresolved questions. This compilation does not independently audit claims.

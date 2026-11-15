@@ -69,7 +69,7 @@ A&\longrightarrow&J&\longleftarrow&B,
 \]
 
 Its ideal powers, restriction maps, and multiplication maps retain the
-embedding. The [nine-embedding diagram](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md)
+embedding. The [nine-embedding diagram](normal_filtration_boundary_obstructions.md#intrinsic-local-algebra-and-characteristic-zero-quartic-geometry)
 section 2 already specifies the conormal maps and their bases. In particular,
 for a proper hypersurface pair the central map is
 
@@ -89,7 +89,7 @@ sequence, and different embeddings have different ideal-power filtrations.
 | Cech complex of \((I^r/I^{N+1})(d)\), filtered by normal order | Compatibility of global equation jets of fixed degree | Actual chart transitions, including their higher terms and the degree-\(d\) line-bundle transition |
 | Successive Cartier-root lifting on the blowup | The root obstructions \(K_1,K_2,\ldots\) | Root equation, nonlinear base motion, units, corrections, and the relevant quotient sheaves |
 
-The [carrier equation filtration](../supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#82-filtered-koszul-complexes)
+The [carrier equation filtration](normal_filtration_boundary_obstructions.md#82-filtered-koszul-complexes)
 and the [normal Koszul comparison](../arguments/normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds)
 use different complexes. The exact comparison and its scoped review are
 in [R-0030](../results/local_filtration_comparison_defect.md).
@@ -377,7 +377,7 @@ This identifies the obstruction **page and source-image kernel**. It does
 not assert a preferred basis of the 60-dimensional target or identify its
 coordinates with a different obstruction theory. The kernel is the accepted
 22-dimensional image described by the
-[eleven sextic symbol equations](../supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-global-realization-incidence).
+[eleven sextic symbol equations](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-global-realization-incidence).
 Thus a leading symbol can be globally compatible through quartic normal
 order and still fail to be the symbol of any global sextic. This is a
 specific higher-gluing obstruction, not merely a count of extra parameters.
@@ -790,7 +790,7 @@ the stronger degree-one annihilator is necessary: the four-by-two
 matrix with rows (c1,c2),(c2,c3),(c3,c4),(c4,c5) must have nonzero
 kernel. The condition is rank at most one, not merely (6).
 
-The [Hankel exporter](../computations/session_uniform_e2_hankel.py) imports
+The [Hankel exporter](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/session_uniform_e2_hankel.py) imports
 the exact moving-coordinate generator. From the repository root, run
 `python3 research/computations/session_uniform_e2_hankel.py` with SymPy
 to produce `research/scratch/session_uniform_e2_hankel.json`. SymPy
@@ -828,7 +828,7 @@ intersection with the full ambient quartic-contact incidence is claimed.
 
 ## Exact scope of the tests
 
-The local algebras B_(r,h) prove that saturation symmetry and a top divisor do not force early primitivity. The Hankel construction tests the specified primitive triple and the **same** allowable divisor; a nonzero cohomology group or a vanishing determinant is not a full embedded-incidence classification. The [profile verifier](../computations/verify_session_uniform_bf_profiles.py) exhausts the displayed integer profiles. The [Hankel exporter](../computations/session_uniform_e2_hankel.py) supplies the exact necessary polynomial equations and their denominators, not an emptiness certificate. For the complete actual quartic-source proof use [the accepted quartic-pair owner](../synthesis/quartic_pair_obstruction.md), and for arbitrary mate degree the [quartic-carrier theorem](../results/quartic_carrier_exclusion.md).
+The local algebras B_(r,h) prove that saturation symmetry and a top divisor do not force early primitivity. The Hankel construction tests the specified primitive triple and the **same** allowable divisor; a nonzero cohomology group or a vanishing determinant is not a full embedded-incidence classification. The [profile verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_uniform_bf_profiles.py) exhausts the displayed integer profiles. The [Hankel exporter](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/session_uniform_e2_hankel.py) supplies the exact necessary polynomial equations and their denominators, not an emptiness certificate. For the complete actual quartic-source proof use [the accepted quartic-pair owner](../synthesis/quartic_pair_obstruction.md), and for arbitrary mate degree the [quartic-carrier theorem](../results/quartic_carrier_exclusion.md).
 
 The saturated local duality is characteristic free. The numerical statements here use their explicit characteristic-zero normal bundle and lower-carrier exclusion hypotheses; these hypotheses must be replaced, rather than suppressed, before transferring a degree table to a prime. The ancestor contraction argument uses the ordinary characteristic-zero symmetric pairing. The separately reviewed [odd-characteristic r>=2 generator arithmetic](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md) concerns another generic initial-algebra class and is not a substitute for this order-one theorem.
 
@@ -1449,4 +1449,4 @@ This keeps failure of the simpler binomial pair separate from failure
 of the curve to be an STCI.
 
 
-The retained [finite normal-jet verifier](../computations/finite_normal_jet_certificate.m2) supplies the exact twisted-cubic containments and finite characteristic controls; the uniform family statements have the proofs above.
+The retained [finite normal-jet verifier](https://github.com/markluxton1/STCI/blob/65f5122ff816052fc76e5876d501e7b9ef86253b/research/computations/finite_normal_jet_certificate.m2) supplies the exact twisted-cubic containments and finite characteristic controls; the uniform family statements have the proofs above.

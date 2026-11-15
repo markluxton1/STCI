@@ -281,8 +281,6 @@ These four historical scripts supplied exact polynomial checks; their distinct f
 
 ## Consolidated historical supplement: `research/supplements/E2_PRIMITIVE_QUARTIC_INCIDENCE.md`
 
-The following historical mathematical content is preserved verbatim with its original hypotheses, limitations, and proof status. Relative links refer to the original supplement location.
-
 # E2 obstruction, primitive structures, and quartic incidence
 
 Consolidated mathematical source material. Sections retain original claims, calculations, hypotheses, and qualifications; their inclusion does not upgrade unverified arguments to theorems.
@@ -1184,8 +1182,6 @@ Boundary verifier:
 
 ## Consolidated historical supplement: `research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md`
 
-The following historical mathematical content is preserved verbatim with its original hypotheses, limitations, and proof status. Relative links refer to the original supplement location.
-
 # Intrinsic local algebra and characteristic-zero quartic geometry
 
 ## Integration guide: first symbols, complete filtrations, and (4,4) exclusion
@@ -1818,8 +1814,6 @@ The scripts verify finite local identities and algebra models. The proof audit s
 
 ## Consolidated historical supplement: `research/supplements/MF6_PRINCIPAL_CANDIDATE_LOCI.md`
 
-The following historical mathematical content is preserved verbatim with its original hypotheses, limitations, and proof status. Relative links refer to the original supplement location.
-
 # Principal MF6 carriers: an exact finite necessary locus
 
 For the fixed C0 in characteristic zero, use principal parameters(p,r,b)
@@ -2195,8 +2189,6 @@ Historical source for this relocated section. [Source at the reconstruction base
 
 
 ## Consolidated historical supplement: `research/supplements/NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md`
-
-The following historical mathematical content is preserved verbatim with its original hypotheses, limitations, and proof status. Relative links refer to the original supplement location.
 
 # NORMAL BOUNDARY WEIGHTED INITIALS AND LIFTING
 
@@ -3121,8 +3113,6 @@ The conclusion is confined to the normal-bundle symmetric algebra (or its fracti
 
 
 ## Consolidated historical supplement: `research/supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md`
-
-The following historical mathematical content is preserved verbatim with its original hypotheses, limitations, and proof status. Relative links refer to the original supplement location.
 
 # Symbolic ribbons, valuation bounds and normalization controls
 

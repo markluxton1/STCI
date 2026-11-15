@@ -18,7 +18,7 @@ classifies non-Gorenstein normalizations or settles unrestricted STCI.
 Let S be an integral nonnormal quintic carrier with an actual octic mate
 whose intersection has sole reduced support C. Suppose its normalization
 `nu:X->S` is Gorenstein. Reuse the exact conclusions of the
-[quintic carrier-structure proof](../supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit):
+[quintic carrier-structure proof](quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit):
 X is the degree-five Gorenstein del Pezzo source with one A4 point; the
 full inverse curve c maps isomorphically to C; and, with H the pulled
 hyperplane class,
@@ -424,7 +424,7 @@ rather than an objection to a large numerical torsion total.
 
 ## An actual nonintegral-conductor projection witness
 
-The [exact replay](../computations/quintic_component_root_witness.py)
+The [exact replay](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/quintic_component_root_witness.py)
 uses `(delta,a,B,G,J)=(1,0,0,-2,1)`. Center rank three and the accepted
 ample-degree argument make this an actual finite birational projection
 with integral quintic image. The calculation verifies a polynomial
@@ -498,7 +498,7 @@ the whole projection family.
 ## Exact support, characteristic and review
 
 The projective witness is supported by the retained exact source
-[quintic_component_root_witness.py](../computations/quintic_component_root_witness.py),
+[quintic_component_root_witness.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/quintic_component_root_witness.py),
 whose frozen reviewed SHA256 is
 `5b84a8b765aa21bade00e3ed325eccf658ada88d801a17871b1df77395b98b87`.
 Its independent review checked full-source ideal reductions, root and
@@ -531,7 +531,7 @@ One geometric test must retain the actual conductor ideal: a multiple root
 of its restriction to C can also arise from tangency of a smooth conductor.
 It is not a test for `Sing(Gamma) intersect C`. The comparison with ordinary
 surface singularities likewise keeps those hypotheses separate; the
-[local almost-Cartier discussion](../supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md)
+[local almost-Cartier discussion](square_descent_and_singular_gluing.md#torsion-constructions-and-the-limits-of-pinching)
 records the precise scope of that different framework.
 
 The separate exact support

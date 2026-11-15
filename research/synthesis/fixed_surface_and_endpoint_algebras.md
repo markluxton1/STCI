@@ -356,7 +356,7 @@ multiple structures. They identify what a proposed cover produces and
 what must be supplied to recover the prescribed intersection in
 \(\mathbf P^3\); they do not presume that realization fails. For the
 separate arithmetic implications and compatible lifts, use the
-[full equation incidence and arithmetic degree bounds](../supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#the-full-simultaneous-equation-incidence).
+[full equation incidence and arithmetic degree bounds](arithmetic_root_collision.md#the-full-simultaneous-equation-incidence).
 The cover statements prove no all-pair divisibility condition or
 mixed-characteristic supported lift. Their source applications retain
 scoped independent review. Independent integration review reconstructed the

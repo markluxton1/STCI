@@ -10,7 +10,7 @@ attempt to exclude actual complete intersections.
 Work over an algebraically closed field \(k\) of characteristic zero.
 The splitting and rank classification below are independently reviewed
 results with the independent review described below.
-The accepted [global dual compression](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
+The accepted [global dual compression](quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
 and [R-0007](../results/quadratic_root_obstruction_model.md) supply the
 identification with the actual ambient obstruction. The geometric proof
 itself uses the spectral curve and its ruling line bundles.
@@ -154,7 +154,7 @@ four, gives
 Since \(H^1(\mathcal O(2))=0\), global sections surject from a
 25-dimensional space onto the 16-dimensional target, with a
 nine-dimensional kernel. The existing
-[global pairing presentation](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
+[global pairing presentation](quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression)
 uses this surjection across the whole basepoint-free family, including
 singular and nonreduced roots. It avoids choosing local splitting bases
 or an invertible coefficient minor. The smooth splitting theorem neither
@@ -195,8 +195,6 @@ and no mathematical computation was run for this extraction.
 
 ## Consolidated historical supplement: `research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md`
 
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
-
 # first relation and spectral roots
 
 Complete mathematical dossier preserving proofs, counterexamples, assumptions, conditional claims and unresolved questions. Source headings below organize the arguments, with their proof and review scopes stated below.
@@ -210,7 +208,7 @@ Complete mathematical dossier preserving proofs, counterexamples, assumptions, c
 Date: 2026-10-19.
 Author: `saturation_defects` research worker.
 Status: **structural theorem package; independent audit PASS**.
-Independent reconstruction: [defect audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-independent-audit).
+Independent reconstruction: [defect audit](#2026-10-19-first-relation-defect-independent-audit).
 
 ### 1. Scope, dependencies, and proposed contribution
 
@@ -239,20 +237,20 @@ nonreduced root to those defects, and ultimately to `D`.
 
 Accepted inputs are [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md),
 its saturated Gorenstein-duality proof in
-[the filtered-duality evidence](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge),
+[the filtered-duality evidence](spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge),
 and [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md).
 The characteristic-zero pure-power quotient formula is an accepted input
 of [STCI-R-0009](../results/moving_purepower_boundary.md).
 The local exact-order normal-flatness lemma is independently reviewed
 supporting evidence in
-[the local theorem](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness)
-and [its audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit);
+[the local theorem](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness)
+and [its audit](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit);
 it is not itself a separate result. Its codimension-two
 Gorenstein Hilbert-function drop input is explicitly identified there.
 
 The elementary torsion upper bound in section 3 below is inherited in
 substance from section 9 of
-[the generator-filtration audit](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd).
+[the generator-filtration audit](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd).
 The proposed new contribution is its combination with exact saturated
 duality and the quotient resultant, including the formula
 
@@ -653,7 +651,7 @@ Date: 2026-10-19.
 Reviewer: `saturation_defects/defect_formula_audit`.
 Status: **PASS within the exact hypotheses. Review scope is stated below.**
 
-Proposal audited: [first-relation defect investigation](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-investigation).
+Proposal audited: [first-relation defect investigation](#2026-10-19-first-relation-defect-investigation).
 No accepted proof, inherited computation, or result record was modified or rerun.
 
 ### 1. Exact scope and authority
@@ -662,9 +660,9 @@ The setting is an actual locally complete-intersection thickening `Y` of a smoot
 
 The primitive saturation `R` of the actual first relation `K_r` is a line subbundle, but the actual kernel is allowed to be `K_r=R(-D)` for a nonzero effective divisor `D`. This allowance is essential: it prevents direct application of [STCI-R-0010](../results/saturated_first_relation_normal_flatness.md) to the entire curve.
 
-The accepted saturated-duality input is the construction and proof in [the filtered-duality note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge), section 3, as independently checked in [its audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit), section 2. That lemma does not require a saturated first relation. It uses actual Gorenstein CM duality, purity, unique support, and generic graded Gorenstein symmetry.
+The accepted saturated-duality input is the construction and proof in [the filtered-duality note](spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge), section 3, as independently checked in [its audit](spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit), section 2. That lemma does not require a saturated first relation. It uses actual Gorenstein CM duality, purity, unique support, and generic graded Gorenstein symmetry.
 
-The local exact-order normal-flatness theorem used for the support statement and small-gap conclusion is [the reviewed local theorem](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness), with [its separate independent audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit). Its classical planar Gorenstein Hilbert-function drop input is accepted as stated there; this audit does not re-prove an inherited theorem.
+The local exact-order normal-flatness theorem used for the support statement and small-gap conclusion is [the reviewed local theorem](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness), with [its separate independent audit](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-local-normal-flatness-independent-audit). Its classical planar Gorenstein Hilbert-function drop input is accepted as stated there; this audit does not re-prove an inherited theorem.
 
 The doubled-positive-divisor lemma is accepted evidence for [STCI-R-0011](../results/moving_nonreduced_spectral_root_obstruction.md). The apolar pure-power calculation is accepted evidence for [STCI-R-0009](../results/moving_purepower_boundary.md). The general defect package and its new numerical consequences remain proposals.
 
@@ -1039,7 +1037,7 @@ degeneration, nonsaturation, and additional initial generators remain
 possible. No common singular point of the original surfaces is
 assumed or deduced.
 
-The separate [actual filtered-algebra bridge](SATURATED_DUALITY_AND_MOVING_POWERS.md#projective-normal-flatness-by-duality-and-resultants)
+The separate [actual filtered-algebra bridge](spectral_pushforward_powers.md#projective-normal-flatness-by-duality-and-resultants)
 proves that an actual lci thickening with a saturated actual first
 relation and full generic binary CI initial ideal satisfies precisely
 the uniform graded hypotheses used here. Combining the two arguments
@@ -1066,7 +1064,7 @@ proved here; the cited sources are inputs, not claims that this exact
 STCI application was previously established.
 
 Independent reconstruction and failure tests are recorded in
-[the separate audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-independent-audit).
+[the separate audit](#2026-10-19-spectral-nonreduced-root-independent-audit).
 The review outcome is PASS, including the component bound and the
 movement-two dichotomy. The proof and review scopes are stated above
 
@@ -1086,7 +1084,7 @@ of rational components, without discarding ramification or gluing.
 Date: 2026-10-19. Reviewer: `spectral_nilpotent_audit`, independently
 reconstructing the proposal received from the parent investigation.
 The final review also checks the actual written proposal
-[A doubled-divisor obstruction to nonreduced moving spectral roots](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-obstruction),
+[A doubled-divisor obstruction to nonreduced moving spectral roots](#2026-10-19-spectral-nonreduced-root-obstruction),
 including its component arithmetic, movement-two dichotomy, and integral
 `(1,k)` component assertion.
 
@@ -1403,5 +1401,4 @@ This is a source-level extension independently reconstructed during consolidatio
 
 The doubled-divisor proof above remains valid through its cohomological injectivity: for D of strictly positive bidegrees, H1(Ω¹(-D))=0 by the two ruling summands and Künneth. If O(u,v) is trivial on2D, its logarithmic Chern class vanishes on D; injectivity then forces its ambient class to vanish. In characteristicp this says p divides bothu andv, rather than u=v=0 as integers. For a component D_i of Z, the degree relation from descent is s*a_i=n*b_i. Finite flatness gives b_i>0, and s*epsilon=n*r gives n>0, hence a_i>0. A repeated component would contain its full double2D_i; applying the lemma to O(-n,s) would force p|s, contradiction. A Cartier divisor on the smooth surface has no embedded components, so multiplicity one of every prime component implies reducedness of Z.
 
-The prime-to-p condition cannot be removed from this proof. On the diagonal D, A=O(-1,1) is trivial on D. Adjusted transition units are1+h withh∈I_D; in characteristicp, (1+h)^p=1 moduloI_D². Thus A^p=O(-p,p) is trivial on2D, providing an actual nonreduced root with descent of the pth direction power. This is a full nilpotent Picard phenomenon, not merely a numerical degree coincidence. The criterion is compatible with [positive-characteristic quartic-carrier STCI constructions](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
-
+The prime-to-p condition cannot be removed from this proof. On the diagonal D, A=O(-1,1) is trivial on D. Adjusted transition units are1+h withh∈I_D; in characteristicp, (1+h)^p=1 moduloI_D². Thus A^p=O(-p,p) is trivial on2D, providing an actual nonreduced root with descent of the pth direction power. This is a full nilpotent Picard phenomenon, not merely a numerical degree coincidence. The criterion is compatible with [positive-characteristic quartic-carrier STCI constructions](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).

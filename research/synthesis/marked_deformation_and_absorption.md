@@ -366,14 +366,14 @@ specified carrier, full inverse support and conductor hypotheses.
 
 There are characteristic-zero alternatives to Frobenius. A finite-order
 semi-invariant has an invariant power with exactly the image zero support;
-the [finite-quotient proof and corrected-square twisted-cubic benchmark](../supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md#a-corrected-homogeneous-square-on-the-twisted-cubic)
+the [finite-quotient proof and corrected-square twisted-cubic benchmark](square_descent_and_singular_gluing.md#a-corrected-homogeneous-square-on-the-twisted-cubic)
 show why this can produce an actual characteristic-zero supported pair.
 Its projective use needs linearization, the correct ambient twist and
 an actual carrier. The
 [full positive-relation-cone cancellation mechanism](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#constructive-use-of-the-descent-lattice)
 can instead cancel opposite logarithmic defects in distinct compatible
 global divisor directions. Neither mechanism supplies a quartic carrier
-here. The [nodal pinching control](../supplements/TORSION_CONSTRUCTIONS_AND_PINCHING_LIMITS.md#nodal-pinching-can-destroy-the-marked-support-requirement)
+here. The [nodal pinching control](square_descent_and_singular_gluing.md#nodal-pinching-can-destroy-the-marked-support-requirement)
 shows why local phase choices must also preserve the marked inverse support.
 
 ## 4. The marked Quot space and its equation incidence
@@ -1045,15 +1045,13 @@ negative test. Its full proof preserves all correction quartics, bundle
 and cycle data, and the exact characteristic boundary. It neither
 classifies all elementary modifications nor excludes arbitrary sextic
 pairs, and does not select a higher-power continuation. The companion
-[arithmetic incidence account](../supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md)
+[arithmetic incidence account](arithmetic_root_collision.md#arithmetic-degree-bounds-missing-jets-and-actual-non-binomial-equations)
 retains the distinct ramified-trait and support-preserving algebraization
 questions; a fixed-carrier jet failure is not a result about the full
 simultaneous-pair incidence.
 
 
 ## Consolidated historical source: `research/supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md`
-
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
 
 # Historical mathematical source compilation
 
@@ -1953,4 +1951,3 @@ H|_E=(4,0),\qquad E|_E=(7,-1).
 Only after this coordinate dictionary is fixed can one decide whether a root of R_F gives one horizontal section, three marked points, or a ramified combination in W|S_Q.
 
 This is a potentially important consistency check on the existing equality-root argument.
-

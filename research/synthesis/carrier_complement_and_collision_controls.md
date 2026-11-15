@@ -122,7 +122,7 @@ applied to its degree and square equations gives
 \[
 (3a-5)^2\le6(a^2-3),\qquad2\le a\le8.
 \]
-The [exact lattice enumeration](../computations/nodal_cubic_quintic_lattice.py)
+The [exact lattice enumeration](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/nodal_cubic_quintic_lattice.py)
 retains **all signed** integral \(b_i\) in their square bound, checks
 \(D\alpha=0\) and the 15 inequalities, and finds 120 classes. Each has
 zero intersection with exactly three of those 15 classes. Every component
@@ -239,7 +239,7 @@ the simple-root tangent determinant
 \(10-16t+16t^3-10t^4+2t^6\); those points are \(A_{1,1}\).
 The complete type for this displayed equation is \((8)\), with second
 entry zero. The exact polynomial, Taylor and blowup calculations are
-retained in [c4_root_collision.py](../computations/c4_root_collision.py),
+retained in [c4_root_collision.py](https://github.com/markluxton1/STCI/blob/5815aeed9b32397c6a853ea88497656eb5df8a02/research/computations/c4_root_collision.py),
 with its [conormal dependency](../computations/c4_conormal.py).
 
 Thus coalescing first-normal roots while retaining the same normal

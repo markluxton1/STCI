@@ -259,7 +259,7 @@ then \(M\) is rational. For \(\pi\le2\) the original strict
 criterion suffices; for \(\pi=3\) one has
 \((d,A,\delta)=(5,1,4)\) and
 \(0<d-A\delta=1<3\), so (G1) supplies the missing case.
-This recovers the existing [low-sectional-genus quintic reduction](../supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-low-sectional-genus-the-ruled-argument-audited) as a corollary of the common integer-multiplicity mechanism. It is not a new quintic result or a carrier exclusion.
+This recovers the existing [low-sectional-genus quintic reduction](quintic_conductor_geometry.md#5-low-sectional-genus-the-ruled-argument-audited) as a corollary of the common integer-multiplicity mechanism. It is not a new quintic result or a carrier exclusion.
 
 A further conditional instance for the fixed degree-four curve is
 \[
@@ -290,8 +290,6 @@ Independent review also reconstructed the integral-gap refinement and its sharp 
 
 
 ## Consolidated historical source: `research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md`
-
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
 
 # Paired-secant cubic: normalization, conductor and Gauss dual
 
@@ -517,9 +515,9 @@ In fact, in characteristic two the same smooth scroll \(\Sigma\) is the tangent 
 ## 1. Retained input and conventions
 
 We retain the independently reviewed construction of the smooth finite
-normalization from the [merged cubic-scroll note](CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-normalization),
+normalization from the [merged cubic-scroll note](#cubic-scroll-normalization),
 Sections 2–5, and its
-[independent audit](QUARTIC_CONES_AND_RULED_MODELS.md), Section 3.
+[independent audit](../supplements/QUARTIC_CONES_AND_RULED_MODELS.md), Section 3.
 We do not rerun that normalization proof. In its notation,
 
 \[
@@ -1104,4 +1102,3 @@ Gauss geometry across the fiber.
 ## Characteristic reach and mathematical status
 
 The monomial normalization charts, conductor ideals and projective bundles exist over \(\mathbf Z_{(2)}\) and give the finite normalization in characteristic two by direct ring calculation. The conductor cover then becomes purely inseparable; the two-separate-branch and pinch-point classification does not transfer. In that fiber the scroll is the tangent developable and the Gauss image is a line. The characteristic-zero dual cubic and Gauss birationality therefore do not extend just by reducing their equations. The complete inverse-image embedded endpoint defects remain distinct from isolated off-curve inverse points in a proposed STCI construction. Scope is [R-0028](../results/quartic_ruled_projection_geometry.md) and its supporting marked geometry.
-

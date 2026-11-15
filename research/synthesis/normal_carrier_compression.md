@@ -202,7 +202,7 @@ generic normal order is higher.
 
 ## 5. Early-defect and ancestor degree bounds
 
-The [order-one frontier argument](../supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-uniform-order-one-frontier)
+The [order-one frontier argument](https://github.com/markluxton1/STCI/blob/d158a740d2449c458867ccbc5e3b2ee2c4bec2f4/research/supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-uniform-order-one-frontier)
 has the following direct algebraic consequence. For a,b>=4 and an order-one equation, set
 s=ab/4-1 and c=7-e. Adjunction gives
 
@@ -244,7 +244,7 @@ application and early-jet bounds reuse their accepted independent source
 reviews. The normal-quartic classification supplies the d/rho data; see
 [Ishii--Nakayama, Main Theorem and rational types](https://www.jstage.jst.go.jp/article/jmath1948/56/3/56_3_941/_pdf).
 Exact arithmetic and the cusp illustration are checked by
-[verify_normal_rational_carrier_compression.py](../computations/verify_normal_rational_carrier_compression.py).
+[verify_normal_rational_carrier_compression.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_normal_rational_carrier_compression.py).
 No new execution is needed for their unchanged formulas. The exact fixed-C0
 normal bundle is proved in [the bisection argument](../supplements/GENUS_TWO_BISECTION_PROOF.md#2-the-characteristic-zero-normal-bundle).
 
@@ -571,7 +571,7 @@ only15 of the36 preliminary nonregular strata satisfy that additional necessary 
 
 ## Characteristic boundary
 
-The decomposition H=A+P,K=A+Z and the principal-part quotient by the **actual** ambient restriction image are algebraic constructions over any field with the stated source and line-bundle data. The numerical e-strata here additionally use their characteristic-zero balanced conormal and no-common-singularity inputs; they must not be imported wholesale to a prime. In characteristic2 the fixed-quartic normal bundle changes. The [every-positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) is the separate positive control. A pole-divisor parameter space and correct local finite-flatness do not by themselves construct a global supported pair.
+The decomposition H=A+P,K=A+Z and the principal-part quotient by the **actual** ambient restriction image are algebraic constructions over any field with the stated source and line-bundle data. The numerical e-strata here additionally use their characteristic-zero balanced conormal and no-common-singularity inputs; they must not be imported wholesale to a prime. In characteristic2 the fixed-quartic normal bundle changes. The [every-positive-characteristic quartic-carrier construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) is the separate positive control. A pole-divisor parameter space and correct local finite-flatness do not by themselves construct a global supported pair.
 
 
 
@@ -1362,7 +1362,7 @@ quartic pencil above need not have a jet-rank defect. Whether its residual
 geometry is a fixed factor, a fixed residual curve, a larger base locus,
 or a genuine pencil is a question about the actual equations, separate
 from the primitive extension and first two contact ranks. The
-[complete e=1 rebuild](OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild)
+[complete e=1 rebuild](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild)
 repairs the invalid fixed-ruling-line shortcut. The all-quartic mate
 problem is already closed by the [full carrier proof](../synthesis/quartic_carrier_proof.md);
 these structural questions do not reopen that theorem.
@@ -1633,6 +1633,8 @@ does not furnish a smooth supporting surface or an STCI construction.
 One repository-local command verifies the full calculation, including
 exact ideal membership and all-chart rank minors:
 
+The archived command uses [verify_primitive_quadruple_universal.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_primitive_quadruple_universal.py) from the pinned repository snapshot.
+
 ```sh
 python research/computations/verify_primitive_quadruple_universal.py
 ```
@@ -1877,6 +1879,8 @@ is excluded for **every mate degree**.
 ### Reproduction and remaining open computation
 
 The exact companion is
+
+The archived command uses [verify_primitive_triple_parity.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_primitive_triple_parity.py) from the pinned repository snapshot.
 
 ```sh
 python research/computations/verify_primitive_triple_parity.py
@@ -2250,7 +2254,7 @@ positive characteristic. The exact polynomial identities have their
 own reduction scope after denominators and bad-prime rank changes are
 checked; this is separate from transporting those classification
 hypotheses. In particular, fixed C0 has quartic-carrier mates in
-[every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
+[every positive characteristic](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
 
 ---
 
@@ -2660,4 +2664,3 @@ The separate uniform parity certificate excludes the full primitive family
 constant line. It is a verified sublocus of these general charts, not a
 classification of all quadratic directions. All other non-ruling direction
 strata remain research obligations.
-

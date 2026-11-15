@@ -88,7 +88,7 @@ exhaust all sextic pairs, or all sections of the bundle.
 
 | Mathematical object already supplied | Remaining actual question | Current mathematical home |
 | --- | --- | --- |
-| A normal symbol or finite jet | Is it in the image of the prescribed-degree homogeneous source, with all allowable higher lifts? | [Actual equation spaces](../supplements/ACTUAL_EQUATION_SPACES.md), [normal filtrations](normal_filtration_boundary_obstructions.md) |
+| A normal symbol or finite jet | Is it in the image of the prescribed-degree homogeneous source, with all allowable higher lifts? | [Actual equation spaces](global_equation_jets.md#exact-homogeneous-equation-spaces-and-fixed-quadric-restrictions), [normal filtrations](normal_filtration_boundary_obstructions.md) |
 | An abstract lower multiple structure | Does the extension exist for this embedding, and do actual forms generate the required quotient? | [Infinitesimal geometry](03-infinitesimal-geometry.md), [marked deformation](marked_deformation_and_absorption.md) |
 | A section/divisor on the normalized carrier | Does the section glue through the full conductor, including nilpotents and all inverse branches? | [Carrier descent](04-carriers.md), [conductor algebra](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md) |
 | Componentwise polarized elliptic covers | Do the chosen line-bundle identifications agree at the actual nodes and yield the prescribed projection? | [Elliptic gluing](projection_and_elliptic_gluing.md) |
@@ -133,13 +133,11 @@ of the characteristic-zero STCI problem.
 
 ## Consolidated historical source: `research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md`
 
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
-
 # Actual generator filtrations and the cost of lifting a relation
 
 This owner treats three successive questions: how a full regular initial sequence determines the filtered module of actual equations; how an embedded first relation meets the next nonlinear normal transition; and what defect divisor is required to repair that obstruction. The complete proofs and substantive audit refinements follow. The statement for constant relations is governed by [R-0033](../results/constant_first_relation_lifting.md); arbitrary actual pairs must not acquire its hypotheses by replacing their full initial ideal with two displayed symbols.
 
-The full embedded quadratic neighborhood matters: a constant relation factor extracts a direction obstruction only when its multiplicity is nonzero in the ground field and the next relation space is exactly the prescribed first-relation multiples. Divisor-twisted repair then compares the actual cohomology class with a common allowable divisor. The later [one-step theorem](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) and [boundary-repair principal-parts criterion](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md) have separate precise hypotheses; they are applications of the same gluing mechanism, not automatic equivalents.
+The full embedded quadratic neighborhood matters: a constant relation factor extracts a direction obstruction only when its multiplicity is nonzero in the ground field and the next relation space is exactly the prescribed first-relation multiples. Divisor-twisted repair then compares the actual cohomology class with a common allowable divisor. The later [one-step theorem](toric_torsion_and_endpoint_contacts.md#boundary-obstruction-and-endpoint-scope-investigations) and [boundary-repair principal-parts criterion](normal_filtration_boundary_obstructions.md#normal-boundary-weighted-initials-and-lifting) have separate precise hypotheses; they are applications of the same gluing mechanism, not automatic equivalents.
 
 ---
 
@@ -1772,4 +1770,3 @@ Those failures are concrete continuation strata, not silently excluded
 cases. Positive defects can also clear the cohomological class as in
 (F). The current results do not rule out those strata or resolve C0's
 STCI status.
-

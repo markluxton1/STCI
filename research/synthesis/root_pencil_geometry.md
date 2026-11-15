@@ -420,7 +420,7 @@ For \(L_1\), the two coefficient forms are \(v_0^2+v_1^2\) and \(v_0+v_1\); for 
 \delta(W)=p_a(W)+8-1=33+7=40>36.
 \]
 
-The exact finite-ideal check is preserved in [the M2 script](../computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2). Running
+The exact finite-ideal check is preserved in [the M2 script](https://github.com/markluxton1/STCI/blob/de88ec90e088df05fe4941784ccc4d29ed72de9f/research/computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2). Running
 
 ```sh
 /opt/homebrew/bin/M2 --script research/computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2
@@ -505,4 +505,4 @@ has its separate proof.
 
 ## Exact computational support
 
-The [root-pencil verifier](../computations/verify_ci_cycle_root_pencil_2026_10_25.py) retains the polynomial discriminant, Weierstrass invariants, special cycles and two endpoint coefficient relation. The [eight-component verifier](../computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2) supports the actual larger-delta competing scheme. These inherited calculations were not rerun in consolidation; the distinct symbolic derivations and geometric interpretations survive above.
+The [root-pencil verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_ci_cycle_root_pencil_2026_10_25.py) retains the polynomial discriminant, Weierstrass invariants, special cycles and two endpoint coefficient relation. The [eight-component verifier](https://github.com/markluxton1/STCI/blob/de88ec90e088df05fe4941784ccc4d29ed72de9f/research/computations/verify_ci_cycle_eight_component_competitor_2026_10_25.m2) supports the actual larger-delta competing scheme. These inherited calculations were not rerun in consolidation; the distinct symbolic derivations and geometric interpretations survive above.

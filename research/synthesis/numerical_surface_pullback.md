@@ -136,7 +136,7 @@ algebra and full inverse fiber, including nonreduced structure.
 
 Generic curvilinearity supplies no automatic compatible primitive stage on the
 whole support. In characteristic zero, the [explicit supported complete-intersection
-control](../supplements/Z4_INTRINSIC_ARITHMETIC_MECHANISM.md#counterexample-c--generic-primitivity-does-not-globalize)
+control](arithmetic_root_collision.md#counterexample-c--generic-primitivity-does-not-globalize)
 has equations \((x^2,y^2+tx)\) on a line-supported projective
 complete intersection. It has generic length four but a special algebra
 \(k[x,y]/(x^2,y^2)\) with no curvilinear length-three quotient. It therefore

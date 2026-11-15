@@ -27,7 +27,7 @@ We use the following inputs at their stated scopes:
   [the shared filtration and first-symbol proofs](quintic_octic_surface_constraints.md#1-filtration-data-and-the-three-numerical-rows).
   In particular the quintic first symbol is nonzero, with divisor degree q+6.
 - The exact constant-direction quadratic cocycle in
-  [the full embedded-triple calculation](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-further-audit).
+  [the full embedded-triple calculation](quasiprimitive_residual_cycles.md#2026-10-05-mf6-further-audit).
   Its embedded-triple calculation is independent of the final carrier degree.
   Section 6 below extends that calculation to this application; it does not
   import the later quartic-membership argument. [R-0033](../results/constant_first_relation_lifting.md) alone does not exclude
@@ -370,8 +370,6 @@ The frozen source proof and audit are independently reviewed evidence. Separate 
 
 ## Consolidated historical supplement: `research/supplements/DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md`
 
-The original mathematical content, including proof boundaries and dependencies, is retained verbatim. Relative links refer to the original supplement location.
-
 # Degree-five del Pezzo A4 model: intrinsic classification and explicit equations
 
 Complete mathematical analyses with precise projection-center distinctions and conditional scope. Computational scripts remain in their original executable locations.
@@ -394,9 +392,9 @@ were left untouched.
 
 Hypotheses throughout: an algebraically closed field of characteristic
 zero; the genus-one normalization S and smooth lifted quartic c in
-[the frozen quintic frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
+[the frozen quintic frontier](quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit),
 with its independently checked
-[A4 and unique-line reductions](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit).
+[A4 and unique-line reductions](quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit).
 Thus S is a normal degree-five anticanonical del Pezzo surface, its only
 singularity is A4, `5c~4H`, and its unique degree-one line ell satisfies
 `5ell~H`, `c+ell~H`. The resolution has a four-prime A4 chain, c meets
@@ -629,7 +627,7 @@ every line extension is an admissible normalization map.
 ## 6. Exact check record and remaining mathematical boundary
 
 The supporting source
-[verify_session_quintic_a4_pair_classification_2026_10_11.m2](../computations/verify_session_quintic_a4_pair_classification_2026_10_11.m2)
+[verify_session_quintic_a4_pair_classification_2026_10_11.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_quintic_a4_pair_classification_2026_10_11.m2)
 passes **15 exact checks**: the cluster and conic transformations,
 translation group, full rational-normal restriction, actual section
 identity, A4 lattice and corrections, and the nonendpoint center
@@ -661,7 +659,7 @@ establish an ambient mate. Earlier frozen audit notes are unchanged.
 Work over an algebraically closed field of characteristic zero.
 
 The inputs concerning a hypothetical mate are in the separately frozen
-[quintic structural audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit):
+[quintic structural audit](quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit):
 the normalization is a degree-five del Pezzo surface with one A4 point;
 the smooth quartic meets an interior A4 vertex; the unique degree-one
 curve meets the opposite interior vertex. The coordinates below verify
@@ -785,7 +783,7 @@ The polynomial uv+a^5 is primitive and irreducible as a polynomial linear in v o
 This is an exact affine coordinate-ring isomorphism, hence also an
 isomorphism of completed local rings. In characteristic zero its only
 singular point is a=u=v=0. The image has exactly one A4 singularity,
-at P0. The affine hypersurface is Cohen–Macaulay, hence S2, and is regular away from its single closed singular point, hence R1; it is therefore normal. The [exact local-chart checker](../computations/verify_session_dp5_a4_local_chart_2026_10_11.m2) retains the polynomial identities, while the written density proof below supplies actual-image identification independently of a global-kernel computation.
+at P0. The affine hypersurface is Cohen–Macaulay, hence S2, and is regular away from its single closed singular point, hence R1; it is therefore normal. The [exact local-chart checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_dp5_a4_local_chart_2026_10_11.m2) retains the polynomial identities, while the written density proof below supplies actual-image identification independently of a global-kernel computation.
 
 The four explicit (-2) curves above give its minimal resolution;
 crepancy follows from K_M=-L and K_S=-H. In particular the full
@@ -967,8 +965,6 @@ chart nor the unique abstract pair supplies that descent or bounds k.
 
 ## Consolidated historical supplement: `research/supplements/OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md`
 
-The original mathematical content, including proof boundaries and dependencies, is retained verbatim. Relative links refer to the original supplement location.
-
 # October 9 historical mathematics
 
 This compilation retains the mathematical hypotheses, counterexamples, unsuccessful arguments, and open questions. This compilation supplies no new independent audit.
@@ -1094,13 +1090,13 @@ quartic is excluded for every positive mate degree.
 Alpha or beta may be zero; only gamma delta Delta is required nonzero.
 The determinant and all projection calculations are universal in these
 parameters. They are checked in the independent
-[uniform projection checker](../computations/verify_session_genus_one_projection_2026_10_09.py).
+[uniform projection checker](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_one_projection_2026_10_09.py).
 
 This construction binds one three-parameter family of pairs to the
 specific deleted-middle-coordinate projection. It does not identify
 every admissible projection of an A3+2A1 pair. Parameter changes moving
 the three singular passages also transform the projection center;
-see the [uniform adversarial note](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md).
+see the [uniform adversarial note](../supplements/GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md).
 The global C0 problem and the complete A3+2A1 projection stratum remain
 open at this record's scope.
 
@@ -1222,8 +1218,8 @@ Normality uses the primary
 Status: **PROVED HERE / accepted at the stated geometric and lattice scopes**. The argument below and the separate signed-partition check supply the independent acceptance.
 
 Audited source: [D5 torsion filter](#source-2026-10-09-session-delpezzo-d5-torsion-filtermd).
-The separate [genus-one reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
-and [its independent ADE audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
+The separate [genus-one reduction](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
+and [its independent ADE audit](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
 establish its weak-del-Pezzo/ADE hypotheses for every sectional-genus-one
 normalization of an integral nonnormal quartic containing fixed C0.
 This audit does not exclude mates in both surviving singularity types.
@@ -1344,7 +1340,7 @@ is even. This does not show that any even degree works.
 
 The owner enumerates reflection closures and checks integer-lattice
 membership with Hermite normal form. Root wrote a separate
-[signed-partition countercheck](../validation/2026-10-09-D5-root-audit/countercheck.py)
+[signed-partition countercheck](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-09-D5-root-audit/countercheck.py)
 using all 52 set partitions of five coordinates and all balanced
 sign assignments or full D blocks. It uses neither reflection
 closure nor Hermite normal form. It obtains the same 428 embedded
@@ -1383,7 +1379,7 @@ has terminal PASS. The [written independent proof audit](#source-2026-10-09-sess
 accepts sections 2--5 without corrections. This note does not classify all sectional-genus-one
 normalizations, construct a mate, or resolve the STCI problem.
 
-This follows the [sectional-genus reduction](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
+This follows the [sectional-genus reduction](../supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
 and complements the [explicit four-A1 family](#source-2026-10-09-session-singular-delpezzo-four-a1-familymd).
 The latter realizes the first surviving lattice pattern and then excludes
 its displayed projections by an additional normalization-fiber argument.
@@ -1691,7 +1687,7 @@ is not resolved here.
 
 No implication from arbitrary pi=1 normalizations to this weak degree-four
 del Pezzo/ADE model has been used in the lattice proof. The separately
-accepted [genus-one model-coverage theorem](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
+accepted [genus-one model-coverage theorem](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
 now supplies those hypotheses for rational genus-one quartic normalizations
 containing C0; combining the two theorems is justified by that separate
 record. Sectional genus two, higher carrier degrees,
@@ -2598,8 +2594,6 @@ normalizations, or higher carrier degrees.
 
 ## Consolidated historical supplement: `research/supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md`
 
-The original mathematical content, including proof boundaries and dependencies, is retained verbatim. Relative links refer to the original supplement location.
-
 # October 9 historical mathematics
 
 This compilation retains the mathematical hypotheses, counterexamples, unsuccessful arguments, and open questions. This compilation supplies no new independent audit.
@@ -2744,7 +2738,7 @@ At each A1 vertex the curve is non-Cartier. Its curve local ring is regular of d
 ## 6. Exact computational support
 
 The independent
-[countercheck](../validation/2026-10-09-four-A1-family-audit/countercheck.py)
+[countercheck](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-09-four-A1-family-audit/countercheck.py)
 uses universal parameters. It verifies the coordinate, cancellation,
 resultant, actual-curve, singular-locus, local-A1, cover-square,
 branch-equation and extra-point identities. The [historical owner checker](https://github.com/markluxton1/STCI/blob/ab0cf6fddf3bcbeded056eb584186e566e467b30/computations/verify_singular_delpezzo_four_A1_family_2026_10_09.py)
@@ -2773,7 +2767,7 @@ Status: **PROVED HERE, submitted for independent audit**. Uniform
 exclusion of the displayed family in every mate degree; no assertion
 that this family exhausts all singular normalizations of genus one.
 
-This note follows the [sectional-genus reduction](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md).
+This note follows the [sectional-genus reduction](../supplements/SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md).
 The remaining quartic normalization lane has pi=1 or pi=2 and a
 non-Cartier smooth lifted curve passing through Sing(S). The example
 here realizes the genus-one numerical and torsion conditions with
@@ -3375,18 +3369,16 @@ problem, follows from this example.
 
 ## Consolidated historical supplement: `research/supplements/QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md`
 
-The original mathematical content, including proof boundaries and dependencies, is retained verbatim. Relative links refer to the original supplement location.
-
 # Quintic A4 conductor contact and actual sextic support incidence
 
 Fix the accepted anticanonical degree-five A4 pair and an actual admissible
 finite birational nonendpoint projection in characteristic zero, with
 \(\delta\ne0\). The curve is the fixed embedded
 \(C_0=[s^4:s^3t:st^3:t^4]\). The complete conductor module and octic are
-proved in [the conormal/conductor home](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md);
+proved in [the conormal/conductor home](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md);
 actual target fibers and SUP, the full reduced inverse-support condition,
-are in [the target-fiber home](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md).
-The [complete homogeneous gcd cover](NONENDPOINT_CUBIC_PAIR_COMPLETION.md)
+are in [the target-fiber home](quintic_conductor_geometry.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions).
+The [complete homogeneous gcd cover](quintic_conductor_geometry.md#nonendpoint-residual-cubic-pairs-complete-contact-and-coefficient-proof)
 supplies the degree-two conormal stratum used below.
 
 This chapter proves the homogeneous differential factor, logarithmic
@@ -3873,12 +3865,12 @@ the original four linear cover equations are the correct data for
 retaining the repeated-root determinant boundary; the homogeneous
 general criterion itself excludes no such boundary.
 
-The [initial coefficient capture](../computations/generalization_quintic_logarithmic_support_2026_10_14_attempt02.m2) uses \(p=1-x\). Applying the Hamiltonian operator directly to that vector would therefore give the wrong finite-h2 conductor incidence.
+The [initial coefficient capture](https://github.com/markluxton1/STCI/blob/9cdb518dff6ffb10e1b25d6f7651520301e42cab/research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt02.m2) uses \(p=1-x\). Applying the Hamiltonian operator directly to that vector would therefore give the wrong finite-h2 conductor incidence.
 The relation \(p=1-z_{\rm target}\) uses the target normalization
 coordinate, whereas the conormal cover uses \(x=r/\delta\) and hence
 \(p=1/x\). The reciprocal transformation proved above repairs this
 binding, including the intrinsic A4 point and all degree drops.
-[Attempt05](../computations/generalization_quintic_logarithmic_support_2026_10_14_attempt05.m2)
+[Attempt05](https://github.com/markluxton1/STCI/blob/fea752a7f04c5140cdafb29efaa31732c43f1999/research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt05.m2)
 checks both forward/inverse binary transformations and both Hamiltonian
 images; it reuses the saved coefficients without reconstructing the octic
 or inverse map. Such a coordinate repair does not extend the rational
@@ -3930,7 +3922,7 @@ This is one representation equation, including its nilpotent repeated-root
 boundary; the spectral identity is not an assertion that the actual family
 has an eigenvector at any parameter.
 
-The [attempt06 source](../computations/generalization_quintic_logarithmic_support_2026_10_14_attempt06.m2)
+The [attempt06 source](https://github.com/markluxton1/STCI/blob/fea752a7f04c5140cdafb29efaa31732c43f1999/research/computations/generalization_quintic_logarithmic_support_2026_10_14_attempt06.m2)
 divides the corrected G by the monic H, asserts the literal identity G=HQ,
 and asserts both coefficient formulas and both product-action formulas.
 It saves all seven q_i, the seven-by-two
@@ -4121,7 +4113,7 @@ by the proof of (5).
 The accepted proofs remain premises. The deductions (1), (3)–(5) use the literal coefficient identities and
 their precise geometric scope.
 
-The [exact coefficient source](../computations/generalization_quintic_intrinsic_a4_contact_2026_10_14.m2)
+The [exact coefficient source](https://github.com/markluxton1/STCI/blob/d945dc39fd65f4d6133e05534af867b2eee879a1/research/computations/generalization_quintic_intrinsic_a4_contact_2026_10_14.m2)
 extracts these literal first two coefficients from the accepted primitive
 octic. The displayed proof uses the actual target-fiber criterion and
 accepted G=j=0 mate exclusion, rather than replaying either premise.
@@ -4186,7 +4178,7 @@ whole factor. This does not prove existence of admissible points on
 their zero loci.
 
 The
-[bounded norm source](../computations/generalization_quintic_h2_quotient_norm_2026_10_14.m2)
+[bounded norm source](https://github.com/markluxton1/STCI/blob/fea752a7f04c5140cdafb29efaa31732c43f1999/research/computations/generalization_quintic_h2_quotient_norm_2026_10_14.m2)
 reuses only the authoritative new sextic from
 `attempt-06-sextic-quotient/Q-sextic.txt`; no octic construction or
 accepted verifier is replayed. It retains the literal norm factors, primitive remainder, parameter numerators and four exact gcd values; no incidence elimination is asserted.
@@ -4207,7 +4199,7 @@ projection hypothesis. Write `d=delta`, `k=kappa=aq+B`,
 
 Impose the complete finite common-root incidence `Pt(q)=Jt(q)=0`, with
 `G=Gs,J=Js` as in the accepted
-[Taylor incidence](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence).
+[Taylor incidence](quintic_toric_center_incidence.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence).
 The actual octic conductor restriction has expansion
 
     F(q+t)=sum_(i=1)^8 f_i t^i,
@@ -4228,7 +4220,7 @@ Jbar nonzero or the sole-root condition.
 **All-mate consequence.** If additionally `Jbar=Js!=0` and q is
 the sole common homogeneous conormal root, there is no mate of any
 positive degree on the regular chart. The inherited
-[quotient-fiber theorem](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#2026-10-13-session-nonendpoint-single-root-quotient-fibers)
+[quotient-fiber theorem](quintic_toric_center_incidence.md#2026-10-13-session-nonendpoint-single-root-quotient-fibers)
 already excludes the regular L1 branch under full inverse support.
 The remaining branch has `L1!=0,L2=0`, but full inverse support and
 the sole-root/Jbar hypotheses concentrate the nonzero degree-eight
@@ -4423,17 +4415,17 @@ conormal roots. Other normalization genera and other carrier degrees
 are outside this model. The universal projective-curve STCI question
 and the unrestricted characteristic-zero C0 question remain open.
 
-The [independently reviewed geometric bridge](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md#reviewed-geometric-bridges-for-the-regular-sole-root-branches)
+The [independently reviewed geometric bridge](quintic_toric_center_incidence.md#reviewed-geometric-bridges-for-the-regular-sole-root-branches)
 retains the same complete cover and original-generator witnesses, including
 the corrected discriminant normalization at q=2. The regular sole-root,
 Jbar-nonzero consequence is accepted in this precise scope; no denominator,
 multiroot or Jbar-zero boundary is thereby closed.
 
-The exact sources are the [complete rational cover](../computations/generalization_quintic_l2_cover.m2),
-[fixed-degree resultants](../computations/generalization_quintic_l2_resultants.m2),
-[original-resultant Bézout witness](../computations/generalization_quintic_l2_bezout.m2),
-[leading-drop witness](../computations/generalization_quintic_l2_drops.m2), and
-[quadratic-field boundary witness](../computations/generalization_quintic_l2_boundaries.m2).
+The exact sources are the [complete rational cover](https://github.com/markluxton1/STCI/blob/d49dcb591d705c2d531f9c1fc336c89072e0d346/research/computations/generalization_quintic_l2_cover.m2),
+[fixed-degree resultants](https://github.com/markluxton1/STCI/blob/ca3833beb667fd2a8b13d84805a4017249834189/research/computations/generalization_quintic_l2_resultants.m2),
+[original-resultant Bézout witness](https://github.com/markluxton1/STCI/blob/e3eb2b332d5f7d45f7afd735bf7e5555d050bbb8/research/computations/generalization_quintic_l2_bezout.m2),
+[leading-drop witness](https://github.com/markluxton1/STCI/blob/d49dcb591d705c2d531f9c1fc336c89072e0d346/research/computations/generalization_quintic_l2_drops.m2), and
+[quadratic-field boundary witness](https://github.com/markluxton1/STCI/blob/d49dcb591d705c2d531f9c1fc336c89072e0d346/research/computations/generalization_quintic_l2_boundaries.m2).
 Their declared polynomial inputs and literal witnesses remain retained.
 The coefficient-cover source generated the exact rational data and
 numerators before entering a redundant direct saturation. That saturation
@@ -4484,8 +4476,6 @@ exit 0;
 
 ## Consolidated historical supplement: `research/supplements/SEXTIC_ADE_REDUCTION.md`
 
-The original mathematical content, including proof boundaries and dependencies, is retained verbatim. Relative links refer to the original supplement location.
-
 # Sextic pairs with an ADE pencil carrier
 
 **Review, October 31, 2026: independently reviewed reduction.** Fix \(C_0=[s^4:s^3t:st^3:t^4]\) in characteristic zero.
@@ -4498,7 +4488,7 @@ Its saturated triple is therefore an embedded primitive triple of type
 \(\mathcal O(-6)\). This leaves a restricted case; it does not imply
 that every normal pencil carrier is ADE or exclude every sextic pair.
 
-The [all-pair sextic reduction](SEXTIC_PAIR_REDUCTION.md) owns the normal
+The [all-pair sextic reduction](../supplements/SEXTIC_PAIR_REDUCTION.md) owns the normal
 pencil, smoothness off the curve and saturated divisor profile. Retain
 \(L=\mathcal O(-l)\), \(l\in\{5,6,7\}\), \(D_8=2T\), and
 \(\deg T=4l-17\). The full first-symbol divisor of a general member
@@ -4534,7 +4524,7 @@ prime \((V,t)\). Then \(\operatorname{div}(v)=C_0+cD\) and
 \(\operatorname{div}(V)=rD\). The rational function \(h=v^9/V^k\)
 has divisor \(9C_0\), and is regular by normality. An actual local mate
 differs from it by a unit. The reviewed
-[local Jacobian/socle identity](NORMAL_INDEX_SOCLE_AND_TORSION.md) gives
+[local Jacobian/socle identity](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md) gives
 \[
  c+D_8=\operatorname{ord}_t((v^9/h)|_{C_0})
       =\operatorname{ord}_t(V^k|_{C_0})=kc.
@@ -4545,7 +4535,7 @@ For the second defect, put \(u=U+t^{r-c}\). The carrier equation is
 \[
  m=-t^{r-3c}v^2+O(v^3).
 \]
-The [actual-pole identification](SEXTIC_PAIR_REDUCTION.md#the-constant-direction-triple-and-its-actual-defects)
+The [actual-pole identification](../supplements/SEXTIC_PAIR_REDUCTION.md#the-constant-direction-triple-and-its-actual-defects)
 is local and does not require a constant global direction. It identifies
 the second defect with the pole order of this quadratic coefficient,
 proving (1).
@@ -4619,7 +4609,7 @@ formulas and inequalities rather than a finite search. The
 
 The surviving primitive triples have an existing complete classification.
 The independently audited
-[primitive-direction calculation](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#independent-audit-and-all-degree-exclusion-of-primitive-e1-quartic-triples),
+[primitive-direction calculation](normal_filtration_boundary_obstructions.md#independent-audit-and-all-degree-exclusion-of-primitive-e1-quartic-triples),
 subsection “Every basepoint-free primitive triple direction,” uses only
 the embedded curve, \(L=\mathcal O(-6)\), \(M=\mathcal O(-8)\),
 and its quadratic transition class. Its four actual ambient torus orbits
@@ -4661,7 +4651,7 @@ are computed below; higher extensions and sole support remain unresolved.
 
 ## Full sextic spaces and the first further contact equation
 
-The [exact source-space computation](../computations/audit_sextic_triple_spaces_2026_10_31.py)
+The [exact source-space computation](https://github.com/markluxton1/STCI/blob/9deae1cc7f4b008fb287d13bdb2776faa1e75bf5/research/computations/audit_sextic_triple_spaces_2026_10_31.py)
 uses all ambient monomials and the accepted triple substitution
 \[
  U=Ay-T_0\gamma y^2,\qquad V=By+S_0\gamma y^2,
@@ -5018,4 +5008,3 @@ if __name__ == "__main__":
     report("algebraic")
 ```
 </details>
-

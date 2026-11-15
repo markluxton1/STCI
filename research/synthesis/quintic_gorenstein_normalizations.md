@@ -18,8 +18,8 @@ actual geometric mechanisms, not a reduction to reduced support.
 
 Write nu:X->S for the finite normalization of a hypothetical quintic carrier.
 
-The [structural audit, §§4–6](../supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit)
-and [relative pair classification](../supplements/DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
+The [structural audit, §§4–6](quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit)
+and [relative pair classification](quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification)
 give the actual normal degree-five A4 del Pezzo source X, with unique
 singular point p0, and a smooth curve c mapping isomorphically to C0.
 An actual mate forces its full reduced inverse to be c alone. Write
@@ -250,7 +250,7 @@ there, so h_v>=1.
 
 The curvilinear fiber and its plane span give the two-parameter
 necessary family (18)–(19) of that note, retaining every boundary
-case. The new [exact vertex-contact certificate](../computations/quintic_vertex_conductor_contact.py)
+case. The new [exact vertex-contact certificate](https://github.com/markluxton1/STCI/blob/f8ed3e2197f2e48339aa4681e214e87629d2a8c5/research/computations/quintic_vertex_conductor_contact.py)
 computes the order of the **entire conductor** on c there. In the
 coordinates rho,L, with
 
@@ -329,7 +329,7 @@ uses only this fiber length, the isomorphism c->C0, the quadratic
 source ideal and the fixed relative projection center. A rank-three
 conductor quadric is not an additional input once those conditions
 are supplied. The same necessary family therefore applies, and its
-[full-conductor contact certificate](../computations/quintic_vertex_conductor_contact.py)
+[full-conductor contact certificate](https://github.com/markluxton1/STCI/blob/f8ed3e2197f2e48339aa4681e214e87629d2a8c5/research/computations/quintic_vertex_conductor_contact.py)
 gives contact exactly two at every such point. Each has differential
 order at least one. Explicitly, its source point is r0=delta*rho
 and the code evaluates the target curve at v=rho, whose standard

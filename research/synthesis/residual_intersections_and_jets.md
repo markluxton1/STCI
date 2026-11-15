@@ -171,8 +171,6 @@ length bound.
 
 ## Consolidated historical source: `research/supplements/SPECIAL_PLANE_AND_LINE_SECTIONS.md`
 
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
-
 # Special planes and lines as tests of actual intersections
 
 The fixed marked system is \(C=[s^4:s^3t:st^3:t^4]\), over an algebraically closed characteristic-zero field unless a characteristic is explicitly changed. Start with a proper pair containing the curve and its actual residual cycle; sole support is an additional hypothesis. Local plane lengths, line gcds, the osculating normal coincidence divisor and a universal finite-flat incidence algebra measure different objects. The explicit cubic and its residual pair prevent an unjustified small normal-direction bound.
@@ -853,7 +851,7 @@ accepted degree-four exclusion are unchanged.
 
 ## Characteristic reach and mathematical status
 
-The local Cohen--Macaulay parameter-length identity and the universal-plane exact sequence hold in any characteristic when the stated properness and sole-support hypotheses hold. They do not require generically curvilinear structure. The particular osculating/bitangent cycles and smooth conic multiplier descriptions here are characteristic-zero statements; in characteristic two the involution and multiplier schemes coalesce, and in characteristic three the ordinary derivative osculation formulas change. The explicit cubic's six distinct coincidences are asserted only in characteristic zero; the number can drop or merge after specialization. The quadric residual divisor calculation is characteristic free as a Cartier-class computation. This does not extend the characteristic-zero quartic-carrier exclusion: [every positive characteristic has a quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier). The inherited independent review covers the local lengths, normal saturation count, residual example and degree formula; no unrestricted obstruction has been obtained.
+The local Cohen--Macaulay parameter-length identity and the universal-plane exact sequence hold in any characteristic when the stated properness and sole-support hypotheses hold. They do not require generically curvilinear structure. The particular osculating/bitangent cycles and smooth conic multiplier descriptions here are characteristic-zero statements; in characteristic two the involution and multiplier schemes coalesce, and in characteristic three the ordinary derivative osculation formulas change. The explicit cubic's six distinct coincidences are asserted only in characteristic zero; the number can drop or merge after specialization. The quadric residual divisor calculation is characteristic free as a Cartier-class computation. This does not extend the characteristic-zero quartic-carrier exclusion: [every positive characteristic has a quartic-carrier construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier). The inherited independent review covers the local lengths, normal saturation count, residual example and degree formula; no unrestricted obstruction has been obtained.
 
 
 ## Intrinsic derivation of the osculating coincidence count
@@ -959,4 +957,3 @@ identically osculating tangent plane.
 This identity uses the actual first normal symbol. It does not assert
 that every abstract line subbundle or every prescribed coincidence
 divisor comes from a global homogeneous equation.
-

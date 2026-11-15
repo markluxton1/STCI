@@ -16,7 +16,7 @@ integration passed without a material finding; no fresh CAS replay was made.
 
 The [Gorenstein-normalization theorem](quintic_gorenstein_normalizations.md)
 excludes every mate for an integral nonnormal quintic with Gorenstein
-normalization. The accepted [structural audit, §§5–6,9](../supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit)
+normalization. The accepted [structural audit, §§5–6,9](quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit)
 already excludes sectional genus zero, proves rationality through genus
 three, and forces Gorenstein normalization at genus one. Thus the first
 remaining low-genus cases are two and three; genus one with non-Gorenstein
@@ -50,7 +50,7 @@ transform of C0, and Z is the effective exceptional part of the
 pulled-back mate divisor after its multiplicity is divided out.
 Minimality excludes a smooth rational (-1)-curve of L-degree zero.
 
-Apply the accepted [direct adjoint proof, §§1–2](../supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd)
+Apply the accepted [direct adjoint proof, §§1–2](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd)
 with the changed numerical inputs. For `A=K_M+L`, nef-big vanishing
 and Riemann–Roch give `h0(A)=2` and `A.L=2`. If A had negative
 intersection with a prime, that prime would be a negative fixed curve.
@@ -119,7 +119,7 @@ Its full homogeneous ideal is
 
     Q=BD-C^2,  R=AEC-D^3,  T=ABE-CD^2.                (5)
 
-The [exact certificate](../computations/quintic_genus_two_toric_projection.py)
+The [exact certificate](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/quintic_genus_two_toric_projection.py)
 verifies both ideal containments after eliminating the monomial map
 `(A,B,C,D,E)=(S,Sx,Sxy,Sxy^2,Sx^2y^5)`. It includes the toric boundary.
 
@@ -306,7 +306,7 @@ non-Gorenstein normalizations to toric ones is asserted.
 ## Exact support, characteristic and review scope
 
 The unchanged
-[toric projection certificate](../computations/quintic_genus_two_toric_projection.py)
+[toric projection certificate](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/quintic_genus_two_toric_projection.py)
 retains both toric ideal containments including the boundary, the
 marked coefficient determinant, the full inverse ideal, the squarefree
 and coprimality checks and both exceptional endpoints. Its source had

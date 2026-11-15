@@ -75,13 +75,11 @@ result records are unchanged.
 
 ## Consolidated historical source: `research/supplements/CHOW_PENCIL_MULTIPLICITY_TESTS.md`
 
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
-
 # A Chow-pencil multiplicity test and its limitation
 
 Work over an algebraically closed field with the fixed embedded quartic \(C_0=[s^4:s^3t:st^3:t^4]\). The [global Chow-resultant certificate](../synthesis/global_equations_and_constructions.md#the-chow-form-as-a-global-cycle-detector) says that a proper degree-\((4,5)\) pair with sole support \(C_0\) has line resultant proportional to the fifth power of its Chow form. Restricting to one explicit pencil gives useful family exclusions, but a single pencil does not test every possible residual curve.
 
-This proof preserves the former P-036 argument independently of the stronger carrier exclusion. Its exact linear source dimensions and explicit polynomial identities are supported by [the retained checker](../computations/verify_chow_pencil_45.py); the written multiplicity and irreducibility arguments supply their geometric meaning. The monomial source spaces and resultant/corank family exclusions below work in every characteristic: their dimension proofs use distinct monomials with coefficients one, and the valuation proof uses no division. The explicit irreducible one-pencil survivor uses invertibility of two, so that illustration is asserted only in characteristic different from two. Neither statement extends the full characteristic-zero quartic-carrier exclusion to positive characteristic.
+This proof preserves the former P-036 argument independently of the stronger carrier exclusion. Its exact linear source dimensions and explicit polynomial identities are supported by [the retained checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_chow_pencil_45.py); the written multiplicity and irreducibility arguments supply their geometric meaning. The monomial source spaces and resultant/corank family exclusions below work in every characteristic: their dimension proofs use distinct monomials with coefficients one, and the valuation proof uses no division. The explicit irreducible one-pencil survivor uses invertibility of two, so that illustration is asserted only in characteristic different from two. Neither statement extends the full characteristic-zero quartic-carrier exclusion to positive characteristic.
 
 ## The exact pencil, source spaces and valuation contradiction
 
@@ -241,7 +239,7 @@ common-line exclusion, not merely a lower bound on \(\beta\)-adic order.
 The exact script `computations/verify_chow_pencil_45.py` checks the dimensions,
 the stronger monomial-ideal intersections, the Chow restriction, the
 coefficient-factor claims, and the explicit one-pencil survivor and reversed
-failure.  Passing one pencil is only necessary; this is a family exclusion, while the independent [multiple-structure proof](QUASIPRIMITIVE_MULTIPLICITY_FIVE.md) closes the degree pair in characteristic zero. It does not prove unrestricted STCI nonexistence.
+failure.  Passing one pencil is only necessary; this is a family exclusion, while the independent [multiple-structure proof](../supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md) closes the degree pair in characteristic zero. It does not prove unrestricted STCI nonexistence.
 
 
 
@@ -251,4 +249,3 @@ Independent review reconstructed the preserved arguments, source coverage and
 characteristic boundaries. The bounded proof clarifications in this account
 were checked against the original arguments; no material preservation finding
 remains. The claims retain their stated hypotheses.
-

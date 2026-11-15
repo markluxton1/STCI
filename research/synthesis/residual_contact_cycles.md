@@ -254,11 +254,9 @@ projective residual test remains the full generic length and degree identity.
 
 ## Consolidated historical source: `research/supplements/MIXED_SEXTIC_CONTACT.md`
 
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
-
 # Exact degree-six branch contact on a mixed-weight sextic
 
-Over an algebraically closed characteristic-zero field, this is the full actual degree-six mate calculation for \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). Its independent computation and the mathematical rank-to-kernel argument are retained. The stronger [test-curve theorem](CARRIER_TEST_CURVES.md) excludes every mate degree on the same source; the calculation here additionally proves integrality, the individual branch-order bound, and a quantitative residual floor for proper sextic pairs. These are useful distinct conclusions.
+Over an algebraically closed characteristic-zero field, this is the full actual degree-six mate calculation for \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). Its independent computation and the mathematical rank-to-kernel argument are retained. The stronger [test-curve theorem](../supplements/CARRIER_TEST_CURVES.md) excludes every mate degree on the same source; the calculation here additionally proves integrality, the individual branch-order bound, and a quantitative residual floor for proper sextic pairs. These are useful distinct conclusions.
 
 ## Exact family and bounded endpoint
 
@@ -374,7 +372,7 @@ calculation therefore applies separately to each branch.
 
 The primary historical Macaulay2 verifier
 works over Q[h], with no inversion of h during matrix construction. The
-[independent Macaulay2 verifier](../computations/stci_mixed_contact_audit_2026_10_29.m2)
+[independent Macaulay2 verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_mixed_contact_audit_2026_10_29.m2)
 computes both exceptional polynomials and the independently assembled rank
 strata. The retirement replay matched its [historical output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/stci_mixed_contact_audit_2026_10_29.txt).
 For the first sample scheme z^18=1,
@@ -472,5 +470,4 @@ cycle is counted as a residual curve.
 
 ## Necessary exact computational support
 
-The historical primary verifier and [separately assembled verifier](../computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The inherited independent review reconstructed the recurrence, weight blocks, invariant factors, and integrality deduction. No fresh rank run was required for the editorial consolidation.
-
+The historical primary verifier and [separately assembled verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The inherited independent review reconstructed the recurrence, weight blocks, invariant factors, and integrality deduction. No fresh rank run was required for the editorial consolidation.

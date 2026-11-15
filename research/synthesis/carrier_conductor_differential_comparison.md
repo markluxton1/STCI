@@ -239,9 +239,9 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 # Conductor, transverse differential, and the actual top socle
 
-The first part proves the full ideal-level conductor–Jacobian identity near a smooth Cartier inverse curve. The second gives the exact pointwise top-socle identity [R-0036](../results/pointwise_conductor_socle_defect.md), its normalized-thickening colength, and parity consequence. These are different implications from [fixed-carrier descent](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md): the second part starts with an **already existing actual supported pair**, rather than constructing its mate. The source proofs and independent reconstructions are combined.
+The first part proves the full ideal-level conductor–Jacobian identity near a smooth Cartier inverse curve. The second gives the exact pointwise top-socle identity [R-0036](../results/pointwise_conductor_socle_defect.md), its normalized-thickening colength, and parity consequence. These are different implications from [fixed-carrier descent](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md): the second part starts with an **already existing actual supported pair**, rather than constructing its mate. The source proofs and independent reconstructions are combined.
 
-The normal-index Frobenius/free-power identity is owned by [normal-index and socle theory](NORMAL_INDEX_SOCLE_AND_TORSION.md). The comparison below invokes that identity only for its stated ordinary-power lattice, preserving its separation from saturated Bănică–Forster defects.
+The normal-index Frobenius/free-power identity is owned by [normal-index and socle theory](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md). The comparison below invokes that identity only for its stated ordinary-power lattice, preserving its separation from saturated Bănică–Forster defects.
 
 ## Local residue identity and global contact
 
@@ -660,7 +660,7 @@ a projective mate.
 ## 6. Exact colength in the thickening on the carrier normalization
 
 There is a further pointwise consequence using the accepted ordinary
-[Frobenius/free-powers lattice identity](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem),
+[Frobenius/free-powers lattice identity](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem),
 Section 2. Keep the local notation above and choose `w in J` mapping to
 a generator of the torsion-free first layer, so
 
@@ -718,7 +718,7 @@ It is not asserted to be a normalization of the nonreduced scheme
 inside this specified pullback thickening.
 
 Finally the accepted
-[length-two/three primitive theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-symbolic-triple-certificate),
+[length-two/three primitive theorem](normalization_indices_and_power_descent.md#2026-10-14-generalization-normal-carrier-symbolic-triple-certificate),
 Section 2, gives `D_n=0` for `n in {2,3}`. Hence in these two lengths
 the pointwise divisor relation specializes to
 
@@ -1044,7 +1044,7 @@ an obstruction and an explicit family calculation, not a computation of
 the full plane-model phase image or a general exclusion of that model.
 
 
-For the explicit member (1), the differential test in [full conductor algebra, §6](CONDUCTOR_DESCENT_ALGEBRA.md#6-differential-obstruction-on-a-prescribed-cartier-ray) applies at `(r,y)=(0,1)` with frame U2. There `q=1/(1+ry^3)`, the target differentials satisfy `da0=da1=0`, `dw=-dr+4dy`, and `v=partial_r+(1/4)partial_y` has `dq(v)=-1`. This geometric proof and the polynomial derivative proof detect the same obstruction at different levels and are both retained.
+For the explicit member (1), the differential test in [full conductor algebra, §6](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md#6-differential-obstruction-on-a-prescribed-cartier-ray) applies at `(r,y)=(0,1)` with frame U2. There `q=1/(1+ry^3)`, the target differentials satisfy `da0=da1=0`, `dw=-dr+4dy`, and `v=partial_r+(1/4)partial_y` has `dq(v)=-1`. This geometric proof and the polynomial derivative proof detect the same obstruction at different levels and are both retained.
 
 ## Smooth quadric: isolated inverse points prohibit every mate
 
@@ -1250,7 +1250,7 @@ characteristic-zero question remain open.
 
 ## Characteristic boundary
 
-The map and support identities are polynomial geometric calculations. The plane all-power contradiction uses the nonvanishing of the positive degree b in the field. In characteristic p it excludes only degrees prime to p (indeed all b not divisible by p); the differential of a p-th power is zero. Thus this proof supplies no all-degree positive-characteristic exclusion. The two quadric inverse formulas and support calculations require 2 invertible; their displayed parameter separability and root counts must additionally be checked in any selected positive characteristic. The complete characteristic-zero families remain the reviewed statements. The [positive-characteristic construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) uses a quartic carrier for this fixed curve. The [arithmetic plane-source treatment](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md) also proves actual Frobenius descent on the explicit degree-sixteen plane carrier, retaining its full conductor multiplicity. Thus the all-degree plane exclusion is specific to characteristic zero.
+The map and support identities are polynomial geometric calculations. The plane all-power contradiction uses the nonvanishing of the positive degree b in the field. In characteristic p it excludes only degrees prime to p (indeed all b not divisible by p); the differential of a p-th power is zero. Thus this proof supplies no all-degree positive-characteristic exclusion. The two quadric inverse formulas and support calculations require 2 invertible; their displayed parameter separability and root counts must additionally be checked in any selected positive characteristic. The complete characteristic-zero families remain the reviewed statements. The [positive-characteristic construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) uses a quartic carrier for this fixed curve. The [arithmetic plane-source treatment](arithmetic_root_collision.md#arithmetic-degree-bounds-missing-jets-and-actual-non-binomial-equations) also proves actual Frobenius descent on the explicit degree-sixteen plane carrier, retaining its full conductor multiplicity. Thus the all-degree plane exclusion is specific to characteristic zero.
 
 ## The opposite-ruling pairing and its complete coefficient freedom
 
@@ -1373,4 +1373,3 @@ exclusion of all opposite-ruling conductor pairs would discard
 six permitted coefficients. The surviving structural problem is
 to impose the full radical inverse-image condition and complete
 conductor descent on (1), or on more general paired curves.
-

@@ -246,7 +246,7 @@ After cancelling \(S(-A)\), the resolution is (3). All remaining maps have
 strictly positive degree, since \(a,b\ge4\), so it is minimal.
 
 The retained exact finite algebra check is reproduced in
-[the Macaulay2 script](../computations/verify_residual_liaison_resolution_2026_10_28.m2).
+[the Macaulay2 script](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_residual_liaison_resolution_2026_10_28.m2).
 It verifies the matrices over \(\mathbf Q\) and checks the predicted linked
 resolution on five deterministic proper pairs over \(\mathbf F_{32003}\).
 The finite examples do not prove the all-degree statement; (1), (4), and
