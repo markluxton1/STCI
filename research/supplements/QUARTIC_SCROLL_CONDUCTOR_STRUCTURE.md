@@ -398,3 +398,11 @@ under their stated geometric hypotheses; the characteristic-zero all-mate
 conclusion also uses the separate descent and differential arguments.
 The inherited full proofs had independent reviews; this thematic replacement was independently compared with its source
 proofs and accepted before the duplicated blocks were removed.
+
+## Exact generic length-four Gorenstein conductor partitions and countermodels
+
+Under the **conditional** hypotheses of characteristic zero and rank-two freeness over the doubled generic base `R=K[epsilon]/(epsilon^2)`, write a local factor as `L[t]/(t^a)` with residue degree `r=[L:K]` and `epsilon=t^k` up to a unit. The total length is four and multiplication by epsilon has rank two. Thus `sum(a*r)=4`, `sum(r*(a-k))=2`, and `2k>=a`. The complete factor partitions are exactly: two copies of `(a,r,k)=(2,1,1)`; one factor `(2,2,1)`; or one factor `(4,1,2)`. Every factor satisfies `2k=a`. This is a generic Artin-algebra classification under the stated hypotheses, not a classification of all quartic carriers.
+
+Two explicit countermodels show why a nonzero discriminant cannot be used to infer reducedness over a thick base. In `K[t]/(t^4)` take `epsilon=t^2`, `eta=t`; then `eta^2=epsilon`, `epsilon^2=0`, and multiplication by epsilon has rank two. Alternatively take `R[eta]/(eta^2-d)` for transcendental nonsquare `d`; its discriminant is a unit although the base is nonreduced. A separate exchanged-prime countermodel uses `B=R x R`, involution exchanging the factors, and `f=(1,zeta)` for a primitive cube root of unity. Then `f^3` descends but `f^2` does not, so square compression is not automatic.
+
+The low-degree scroll-prime class enumeration gives `(0,1),(1,0)` on `F_0`, and on `F_2` gives the minimal section `(1,0)` separately and the fiber `(0,1)` among the remaining classes. These are exact arithmetic and algebra counterexamples; no global quartic conductor realization, automatic prime preservation, or non-Gorenstein extension follows.
