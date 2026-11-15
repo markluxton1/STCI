@@ -2269,14 +2269,7 @@ argument.
 
 ### 6. Audit scope
 
-The new coefficient equations, their complete case split, the frame
-identification, the pure-power splitting at every step, and the finite
-principal-relation lifting argument have been independently derived. The
-accepted chart transition and accepted quadric equation
-were used without re-verification. No new finite test establishes a
-proof of global existence. The next unresolved calculation is the
-cubic compatibility of the obstruction-zero moving linear relations.
-
+The coefficient equations, exhaustive case split, frame identification, iterative pure-power splitting, and finite principal-relation lift were independently derived. The chart transition and quadric equation remain accepted inputs. No global existence follows; cubic compatibility for obstruction-zero moving linear relations remains open.
 
 ### Archived exact certificate: `research/computations/moving_linear_cubic_independent_audit_2026_10_14.py`
 
