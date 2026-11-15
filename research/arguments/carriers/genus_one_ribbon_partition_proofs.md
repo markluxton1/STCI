@@ -354,29 +354,9 @@ universal STCI question.
 
 ## Dependency guide: independent certificate versus source proof
 
-The [owner's repeated-partition proof](genus_one_ribbon_partition_proofs.md) gives the geometric and algebraic case analysis for **[4], [3,1], [2,2]**. This file supplies independent complete-ideal and conductor certificates, with its Macaulay2 validation artifact, under the same upstream ribbon and entire-conductor hypotheses. It does **not** independently establish the entire genus-one reduction or dispose of the separate [2,1,1] partition. The original exact checks are retained because the proof and the verification have different evidentiary roles.
+This historical supplement provides **independent** complete-ideal and conductor certificates for \([4],[3,1],[2,2]\), under the upstream ribbon and entire-conductor hypotheses of the main proof. It does not independently prove the genus-one reduction or the separate \([2,1,1]\) case. The exact [Macaulay2 checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2) passed 29 conditions, including universal ideal equalities and an independent conic-section conductor obstruction. These certificates are retained because they are not the same as the main proof's selected minors.
 
----
-
-
-Complete mathematical source including universal ideal equalities, conductor obstruction and precise hypotheses. Executable certificate remains at `research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2`.
-
-# Independent complete audit of the repeated contact partitions [4], [3,1], [2,2]
-
-Date: 2026-10-10. Auditor: `oct10_repeated_coverage_audit`.
-Status: **ACCEPTED AS PROVED HERE under the explicit upstream inputs**.
-This independently accepts the complete coverage in
-[the owner's repeated-partition proof](genus_one_ribbon_partition_proofs.md).
-No parameter, endpoint, direction chart, invisible quadric coefficient, or
-positive mate exponent remains uncovered within these three partitions.
-This note changes no state or acceptance file.
-
-The independent exact companion is
-[countercheck.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2).
-Its successful execution used Macaulay2 1.26.06, returned exit zero, and
-checked 29 exact conditions. The universal ideal equalities below provide a
-different certificate from the owner's selected augmented minors. The
-conductor obstruction below also uses a different conic section.
+# Independent complete audit of repeated partitions [4], [3,1], [2,2]
 
 ## 1. Hypotheses and exact audit scope
 
