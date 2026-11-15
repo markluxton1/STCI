@@ -29,7 +29,7 @@ source always leaves residual degree.
 [residual mechanisms](residual_geometry.md#residual-statements-and-their-distinct-mechanisms),
 and [attachment constructions](residual_geometry.md#attachment-and-actual-global-constructions)
 are distinct from realizing a projective residual scheme by homogeneous
-proper equations. The realization interface belongs to
+proper equations. The realization question also connects to
 [formal normal geometry](../formal-normal-geometry/index.md) and
 [global equation realization](../global-equation-realization/index.md);
 [spectral roots](../spectral-roots/index.md) supplies graded Picard data
