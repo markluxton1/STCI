@@ -442,7 +442,7 @@ orbit calculation.
 
 ### Genus-one interface review
 
-The [independent interface audit](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd) checks the anticanonical model, full inverse support, ADE/lattice reduction, Cartier double, entire conductor, and exhaustive direction/contact partitions. It accepts the genus-one interfaces **conditional on** the separate \([4],[3,1],[2,2]\) exclusions, without a mate-degree bound, normal-order assumption, or reduced-conductor assumption.
+The [independent review](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd) checked the anticanonical model, full inverse support, ADE/lattice reduction, Cartier double, entire conductor, and direction/contact partitions. The genus-one interface remains **conditional on separate** \([4],[3,1],[2,2]\) exclusions; it assumes no mate-degree bound, normal order, or reduced conductor.
 
 ## 6. Sectional genus two: conic geometry and the two correction strata
 
