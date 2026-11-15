@@ -11,7 +11,7 @@ A basepoint-free moving quadratic root is `f=a(z)u²+b(z)uv+c(z)v²`,
 where a,b,c are homogeneous base quadratics. We ask whether a smooth root
 with spectral ruling-difference class of order two satisfies both actual
 ambient lifting equations of [R-0007](../results/quadratic_root_obstruction_model.md).
-The [coefficient determinant criterion](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#3-exact-order-two-is-a-coefficient-determinant)
+The [coefficient determinant criterion](#3-exact-order-two-is-a-coefficient-determinant)
 identifies this stratum with rank-two coefficient pencils on the smooth
 open. The [spectral splitting proof](spectral_torsion_and_syzygy_splitting.md)
 owns the general four-torsion/syzygy classification; it does not make the
@@ -36,7 +36,7 @@ is part of the interface, not an incidental formatting choice.
 ## One scalar excludes the complete smooth diagonal locus
 
 Impose b=0 **in the fixed actual ambient coordinates**. The independently
-reviewed [diagonal classification](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit)
+reviewed [diagonal classification](#consolidated-historical-supplement-researchsupplementsquadratic_root_and_blowup_incidencemd)
 reduces first compatibility to four explicit quadrics in the six coefficients
 of a,c. For smooth roots these force c2!=0. Normalize only the scalar
 of f so c2=1. Its three exhaustive families are as follows, with t!=0:
@@ -502,7 +502,7 @@ without retesting accepted chart or conormal statements.
 
 ### 1. The hierarchy detects geometry that both first tests permit
 
-The [universal quadratic incidence note](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd)
+The [universal quadratic incidence note](#consolidated-historical-supplement-researchsupplementsquadratic_root_and_blowup_incidencemd)
 constructs the actual first obstruction scheme `K`, proves it is smooth
 of dimension four at the seed
 
@@ -1142,7 +1142,7 @@ The two signs of `t` are identified by `lambda=-1`.
 
 Date: 2026-10-14. Author: root. Status: **WRITTEN GEOMETRIC THEOREM;
 independently audited under the stated hypotheses**. The
-[independent bridge audit](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-bridge-independent-audit)
+[independent bridge audit](#consolidated-historical-supplement-researchsupplementsquadratic_root_and_blowup_incidencemd)
 includes separate local-algebra and conormal reviews, a shorter local
 proof, and a defect-boundary family. The spectral root-curve criterion and its
 already reviewed ambient obstruction class are premises. This note
@@ -1379,7 +1379,7 @@ mathematical audit, not a finite computation or a claim of ambient
 obstruction nonvanishing.
 
 Reviewed source:
-[blowup/root-curve primitive bridge](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-primitive-bridge).
+[blowup/root-curve primitive bridge](#consolidated-historical-supplement-researchsupplementsquadratic_root_and_blowup_incidencemd).
 The accepted
 [spectral root-curve theorem](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations)
 and its
@@ -2374,7 +2374,7 @@ not justify such a replacement of torsion loci or an algebraization
 to projective equations.
 
 Independent review is recorded in
-[the structural torsion audit](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-independent-audit).
+[the structural torsion audit](#consolidated-historical-supplement-researchsupplementsquadratic_root_second_zero_and_dual_compressionmd).
 
 ---
 
@@ -2390,7 +2390,7 @@ nonzero value are premises. No accepted certificate was replayed and no
 new seed was evaluated.
 
 Reviewed proof:
-[torsion divisors and the second zero locus](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry).
+[torsion divisors and the second zero locus](#consolidated-historical-supplement-researchsupplementsquadratic_root_second_zero_and_dual_compressionmd).
 
 ### 1. Intrinsic torsion and its ambient divisors
 
@@ -2695,7 +2695,7 @@ one discriminant inverse equation. The second equations have at most
 are exact export metadata, not complexity or solvability claims.
 
 The new proof and the exported generator algorithm passed
-[the independent compression audit](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit).
+[the independent compression audit](#consolidated-historical-supplement-researchsupplementsquadratic_root_second_zero_and_dual_compressionmd).
 Exactly one bounded M2 launch was made, with the heavy quintic window
 held separately. Its supervisor hit a sandbox `PermissionError` when
 invoking `/bin/ps` for RSS monitoring. The M2 child had a 45-second CPU

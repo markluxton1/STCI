@@ -1503,7 +1503,7 @@ checked unit inversions.
 
 The actual tensor and coordinate sources are unchanged and SHA-256-bound
 inside each certificate. They are the same tensor sources accepted in the
-[previous independent quadratic audit](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md).
+[previous independent quadratic audit](#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd).
 This certificate inherits that audited coordinate interpretation; it does
 not reconstruct the ambient quotient basis from fresh geometric generators.
 
@@ -3173,7 +3173,7 @@ The following mathematical arguments, qualifications, and audit boundaries are r
 
 # Simultaneous socle targets and exact endpoint dual certificates
 
-The primitive e=1 simultaneous-target argument below uses both nonzero socle targets. The failed single-target bridge is retained for its exact failure mechanism and is not theorem authority. Complete endpoint-family normalization and all exceptional-field closures are owned by [the full local-cohomology certificate proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md).
+The primitive e=1 simultaneous-target argument below uses both nonzero socle targets. The failed single-target bridge is retained for its exact failure mechanism and is not theorem authority. Complete endpoint-family normalization and all exceptional-field closures are owned by [the full local-cohomology certificate proof](#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd).
 
 ---
 
@@ -3189,7 +3189,7 @@ common quartic ancestors with `e=1,D2=0`. The defective-triple stratum
 `e=1,D2>0` remains open.
 
 The original single-multiplier argument is preserved separately as
-[`2026-10-07-session-localcoh-mf6-bridge.md`](OCT7_LOCALCOH_ENDPOINT_AND_SIMULTANEOUS_TARGETS.md#mf6-bridge),
+[`2026-10-07-session-localcoh-mf6-bridge.md`](#consolidated-historical-supplement-researchsupplementsoct7_localcoh_endpoint_and_simultaneous_targetsmd),
 explicitly labeled **FAILED**. Its error was treating `F*alpha=u` as
 `F=0` in the quadruple rather than a nonzero socle target. This repair
 keeps both target equations and their independence throughout.
@@ -3564,7 +3564,7 @@ The following mathematical arguments, qualifications, and audit boundaries are r
 
 # Quartic ancestor incidence and conductor descent
 
-The quartic-ancestor incidence and conductor arguments below retain their stated hypotheses. Endpoint-family closure is complete in [the exact local-cohomology proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md), including the degree-fifteen field.
+The quartic-ancestor incidence and conductor arguments below retain their stated hypotheses. Endpoint-family closure is complete in [the exact local-cohomology proof](#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd), including the degree-fifteen field.
 
 ---
 
@@ -4063,8 +4063,8 @@ surfaces is inferred from the classification of these ACM cubics.
 
 Both factors k^2+1 and k^2-2k-1 are excluded at all four geometric roots
 and for every lower parameter lambda. The
-[owner proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
-and [independent audit](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md)
+[owner proof](#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd)
+and [independent audit](#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd)
 check polynomial duals with n^T L=0 and n^T u=1 on all eighteen actual
 quartic columns. Separate exact-field arithmetic rederives the seeds,
 directions, slopes, rank-29 top map and complete affine lift fibre.
@@ -4073,7 +4073,7 @@ The independent Macaulay2
 binds all 540 products and both target columns literally and proves
 equality with the complete next-stage Ext image.
 
-The cubic, quartic and degree-fifteen factors are also closed over their full exact quotient fields, uniformly in lambda, in [the completed endpoint proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md). Thus all 26 exceptional geometric roots of the second family are excluded; the first family is likewise complete. Nonendpoint top-zero charts require their separate actual incidence analysis.
+The cubic, quartic and degree-fifteen factors are also closed over their full exact quotient fields, uniformly in lambda, in [the completed endpoint proof](#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd). Thus all 26 exceptional geometric roots of the second family are excluded; the first family is likewise complete. Nonendpoint top-zero charts require their separate actual incidence analysis.
 
 ---
 

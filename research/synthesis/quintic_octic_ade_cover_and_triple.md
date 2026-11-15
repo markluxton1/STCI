@@ -576,7 +576,7 @@ regularity intrinsically. Neither U0, hsec, nor Q is assumed to
 descend to any chosen four-coordinate projection.
 
 The coordinate/model auditor is preparing
-[a separate explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
+[a separate explicit-model audit](#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd).
 Its global ideal and local A4 certificates are independent of the
 geometric contraction exhaustion here.
 
@@ -1384,7 +1384,7 @@ accepts sections 2--5 without corrections. This note does not classify all secti
 normalizations, construct a mate, or resolve the STCI problem.
 
 This follows the [sectional-genus reduction](SECTIONAL_GENUS_ZERO_NORMALIZATION_PROOF.md)
-and complements the [explicit four-A1 family](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-delpezzo-four-a1-familymd).
+and complements the [explicit four-A1 family](#source-2026-10-09-session-singular-delpezzo-four-a1-familymd).
 The latter realizes the first surviving lattice pattern and then excludes
 its displayed projections by an additional normalization-fiber argument.
 That family is not assumed to exhaust the four-A1 lattice pattern.
@@ -3995,13 +3995,13 @@ Thus all two-by-two minors of the first matrix and all three-by-three
 minors of the second form one homogeneous coefficient ideal.
 
 The separately audited
-[intrinsic A4 contact bound](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-intrinsic-a4-contact-bound)
+[intrinsic A4 contact bound](#consolidated-historical-supplement-researchsupplementsquintic_a4_conductor_and_sextic_incidencemd)
 proves that after accepted G=j=0 mate closure, every j=0 full-support
 candidate has actual A4 conductor contact one or two. Therefore every
 surviving h2 mate candidate, including j=0, satisfies `Res(H,Q)=0`.
 On the captured finite inverse-map chart this is the single necessary
 condition `N12*N18=0` from the
-[bounded norm calculation](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-14-generalization-quintic-h2-conductor-quotient).
+[bounded norm calculation](#consolidated-historical-supplement-researchsupplementsquintic_a4_conductor_and_sextic_incidencemd).
 Neither factor is separately declared impossible.
 
 This contact bound also gives one coefficient-open condition useful for

@@ -2412,7 +2412,7 @@ statement.
 
 Work over an algebraically closed field of characteristic zero. Use the
 actual intrinsic pair and nonendpoint sections in the
-[target-fiber reduction](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions),
+[target-fiber reduction](#consolidated-historical-supplement-researchsupplementsnonendpoint_target_fibers_and_supportmd),
 Sections 1--3. That note is frozen during its separate audit; this is a
 new continuation beyond its explicitly open G=J=0 lead.
 
@@ -2441,7 +2441,7 @@ facts from the preceding reduction, Section 2.
 **Claim.** For every a,B and nonzero delta in this subfamily, under center
 avoidance there is an actual point off c mapping to C0. Hence
 (pi^{-1}(C0))_red=c cannot hold. The full-support theorem imported in the
-[quintic structural frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
+[quintic structural frontier](#1-quintic-conormal-and-delpezzo-audit),
 Section 1, makes that equality necessary for a mate, so this is an
 all-mate-degree exclusion in the stated normalization/projection lane.
 
@@ -3216,9 +3216,9 @@ normalization and endpoint-projection hypotheses below. This is not a
 quintic-carrier exclusion. No frozen note, record or existing
 integrity seal is edited by this audit.
 
-The owner source is the [endpoint quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit).
-The geometric inputs are the [quintic structural frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
-its [independent conormal/del Pezzo audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
+The owner source is the [endpoint quadric-factor reduction](#2-quintic-endpoint-factor-independent-audit).
+The geometric inputs are the [quintic structural frontier](#1-quintic-conormal-and-delpezzo-audit),
+its [independent conormal/del Pezzo audit](#1-quintic-conormal-and-delpezzo-audit),
 and the [explicit model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md).
 The [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md)
 separately records the required distinction between endpoint and nonendpoint
@@ -3477,7 +3477,7 @@ coefficients, W=K|c, W=V-rU, the full cubic residual factor and its relation
 to the normalized quadric residual numerator. Its source SHA-256 is
 `871099f080b3a69c58f15e6a6bd6a9475fd5cdfbba03008482ff7f23070de8ec`.
 
-The delegated [algebra/contact audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit)
+The delegated [algebra/contact audit](#2-quintic-endpoint-factor-independent-audit)
 independently reconstructed both length exact sequences and the projective
 scaling calculation. Its final SHA-256 is
 `f4e86e9c5e0b88e1bfb9d145e72e5226f884184463abee9928cbdda3bb37cca6`.
