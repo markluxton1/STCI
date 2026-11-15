@@ -34,8 +34,7 @@ The [free cube-orbit full-lift calculation](../../arguments/carriers/normalizati
 
 ## 3.10F Two-node reduction and the surviving sextic pencil
 
-The [forced-norm two-node continuation](../../arguments/carriers/normalization_conductor_phase2_addendum.md#two-node-root-strata-exact-exclusions-and-retained-pencils) excludes the generic nonzero-defect line component and its \(B=0,C=0\) boundaries by exact scoped computations. The generic conic component remains unresolved. On the distinct zero-defect stratum, the global sextic has the exact form \(H_1H_2+\eta q^3\), and an actual supported pair must have \(\eta\ne0\) by cubic factor reduction. This is a necessary pencil description, not a mate construction.
-
+The [two-node continuation](../../arguments/carriers/normalization_conductor_phase2_addendum.md#two-node-root-strata-exact-exclusions-and-retained-pencils) excludes the generic nonzero-defect line component and its \(B=0,C=0\) boundaries, but not the generic conic component. On the distinct zero-defect stratum, a global sextic must have the form \(H_1H_2+\eta q^3\), with \(\eta\ne0\) for an actual supported pair by cubic-factor reduction. This is a **necessary** pencil, not a mate construction.
 
 ## 3.10G Actual-pair geometric obstruction
 
