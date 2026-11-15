@@ -3,7 +3,7 @@
 Run with Python and SymPy. Derives the chart transitions modulo y**4 from
 the rational ambient coordinate changes; no ambient quartic source matrix,
 parameter sampling, Groebner classification or output file is used.
-See research/synthesis/intrinsic_fourth_extension.md for geometric meaning,
+See research/arguments/normal-geometry/intrinsic_fourth_extension.md for geometric meaning,
 all parameter boundaries and the characteristic-zero theorem.
 """
 import sympy as s

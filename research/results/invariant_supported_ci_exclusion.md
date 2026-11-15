@@ -58,9 +58,9 @@ checking the actual equations, positive ordinary degrees, integer
 weight condition, and sole support before applying the latter.
 
 The source implication appears in the
-[supported Hilbert-boundary account](../synthesis/global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit)
+[supported Hilbert-boundary account](../arguments/equations/global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit)
 and in
-[positive movement and the global presentation barrier](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
+[positive movement and the global presentation barrier](../arguments/torus/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
 No new computation is needed for this corollary.
 
 ## Limitations

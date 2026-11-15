@@ -12,9 +12,9 @@ statement: "The full root divisor Z is reduced; each irreducible component has b
 dependencies:
   - STCI-R-0008
 evidence:
-  - "research/synthesis/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
+  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
 independent_audits:
-  - "research/synthesis/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
+  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,4 +37,4 @@ STCI-R-0008 provides the abstract graded Picard-descent interface. STCI-R-0010 s
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

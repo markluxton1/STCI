@@ -62,7 +62,7 @@ in each irreducible eigenform factor's graded domain.
 ## Evidence
 
 Reconstructed from the trace and arbitrary-mate sections of
-[weight restrictions](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md).
+[weight restrictions](../arguments/torus/equivariant_degree_bounds.md).
 No finite-field rank or external nonexistence theorem is a proof premise.
 
 ## Limitations

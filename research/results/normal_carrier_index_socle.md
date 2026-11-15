@@ -12,9 +12,9 @@ scope:
 statement: "At P, the actual top ordinary-power socle defects satisfy D_n,P=(k-1)A_F,P+k D_r,P. The ordinary curvilinear filtration satisfies 2 sum_i length(T_i)_P=n D_n,P."
 dependencies: []
 evidence:
-  - research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md
+  - research/arguments/carriers/normal_index_socle_and_torsion.md
 independent_audits:
-  - research/synthesis/normalization_indices_and_power_descent.md#normal-carriers-class-group-torsion-symbolic-triples-and-local-indices
+  - research/arguments/carriers/normal_carrier_symbolic_torsion.md#normal-carriers-class-group-torsion-symbolic-triples-and-local-indices
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -36,8 +36,8 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem)
-- [Independent audit](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-index12-filtered-compatibility)
+- [Source proof](../arguments/carriers/normal_index_socle_and_torsion.md#2026-10-14-generalization-normal-index-socle-theorem)
+- [Independent audit](../arguments/carriers/normal_carrier_symbolic_torsion.md#2026-10-14-generalization-index12-filtered-compatibility)
 
 ## Dependencies and limitations
 
@@ -47,4 +47,4 @@ Inherited premises are described in the proof and audit.
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

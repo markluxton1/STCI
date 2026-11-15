@@ -11,10 +11,10 @@ statement: "The dual discriminant has the stated scheme-theoretic intersection i
 dependencies:
   - STCI-R-0026
 evidence:
-  - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
+  - "research/arguments/curve/quartic_dual_schemes.md"
   - "research/results/quartic_dual_singular_scheme.support/verify.m2"
 independent_audits:
-  - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
+  - "research/arguments/curve/quartic_dual_schemes.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -56,4 +56,4 @@ No global STCI obstruction and no claim about other dual varieties.
 
 ## Current proof
 
-[Dual discriminant: intersections, singular cycle and endpoint socles](../supplements/QUARTIC_DUAL_SCHEMES.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+[Dual discriminant: intersections, singular cycle and endpoint socles](../arguments/curve/quartic_dual_schemes.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

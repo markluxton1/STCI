@@ -320,9 +320,9 @@ the generic line multiplicity and removes the component on \(z=0\).
 
 The result gives one supported family in which all relative comparison
 maps are invertible despite a nonzero defect on the actual closed fiber.
-The [bounded length-five question](../FRONTIER.md#supported-length-five-degeneration)
+The [bounded length-five question](../frameworks/formal-normal-geometry/open_normal_geometry.md#supported-length-five-degeneration)
 fixes the generic and closed transverse algebras within the
-[general sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+[general sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 The example concerns a marked line. Its projective homogenization has
 the residual conic described above.
 

@@ -80,7 +80,7 @@ It gives exact coefficient matrices, truncated-polynomial identities,
 and weighted algebra-closure proofs. The historical source is
 [the original endpoint examples](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#the-fourth-root-family-four-branches-versus-one-thick-branch).
 The quotient_checks function in the
-[existing finite verifier](../investigations/torus-residual-controls/verify.py)
+[existing finite verifier](../arguments/torus-sextic-controls.support/verify.py)
 checks the rational determinants and endpoint indices, without proving
 the geometry or any general classification.
 The separate integral-flatness statement for the prescribed quartic

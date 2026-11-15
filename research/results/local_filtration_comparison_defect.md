@@ -85,7 +85,7 @@ needs the full filtration and compatible chart lifts. The relative
 [normal Koszul construction](normal_koszul_comparison_defect.md)
 has its own proof and indexing.
 
-The [punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+The [punctual relative-defect question under sole support](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support)
 remains open. The
 [degree-four counterexample](initial_equation_cancellation_counterexample.md)
 has nonzero generic defect after adjoining a curve parameter. The

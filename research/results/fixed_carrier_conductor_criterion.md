@@ -11,11 +11,11 @@ scope:
 statement: "An STCI mate on a fixed hypersurface exists exactly when the full conductor descent lattice contains a fully positive vector."
 dependencies: []
 evidence:
-  - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
-  - "research/supplements/CONDUCTOR_DESCENT_ALGEBRA.md"
+  - "research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md"
+  - "research/arguments/carriers/conductor_descent_algebra.md"
 independent_audits:
-  - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
-  - "research/supplements/CONDUCTOR_DESCENT_ALGEBRA.md"
+  - "research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md"
+  - "research/arguments/carriers/conductor_descent_algebra.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -52,7 +52,7 @@ For a singleton branch when X is generically regular along C, set a=H^2, c=H.Gam
 
 ## Evidence
 
-[Original theorem and recorded independent audits](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md).
+[Original theorem and recorded independent audits](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md).
 
 [October 14 state, Section 2](https://github.com/markluxton1/STCI/blob/0b18029d3372b5cc91f5637965e4217e0967e735/research/AUDITED_STATE_2026-10-14.md).
 

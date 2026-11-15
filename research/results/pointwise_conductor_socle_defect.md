@@ -12,10 +12,10 @@ scope:
 statement: "With A the transverse differential zero divisor and J^(n-1)=Soc(Y)(-D_n), equality of actual divisors holds: D_n=(n-1)A-B|c."
 dependencies: []
 evidence:
-  - "research/synthesis/carrier_conductor_differential_comparison.md#conductor-transverse-differential-and-the-actual-top-socle"
+  - "research/arguments/carriers/carrier_conductor_differential_comparison.md#conductor-transverse-differential-and-the-actual-top-socle"
 independent_audits:
-  - "research/synthesis/carrier_conductor_differential_comparison.md#conductor-transverse-differential-and-the-actual-top-socle"
-  - "research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md"
+  - "research/arguments/carriers/carrier_conductor_differential_comparison.md#conductor-transverse-differential-and-the-actual-top-socle"
+  - "research/arguments/carriers/normal_index_socle_and_torsion.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,11 +37,11 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../synthesis/carrier_conductor_differential_comparison.md#exact-top-socle-divisor-for-an-actual-pair)
-- [Source proof](../synthesis/carrier_conductor_differential_comparison.md#local-residue-identity-and-global-contact)
-- [Independent audit](../synthesis/carrier_conductor_differential_comparison.md#exact-top-socle-divisor-for-an-actual-pair)
-- [Independent audit](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-transverse-socle-independent-audit)
-- [Claim-level acceptance](../synthesis/carrier_conductor_differential_comparison.md#consolidation-review)
+- [Source proof](../arguments/carriers/carrier_conductor_differential_comparison.md#exact-top-socle-divisor-for-an-actual-pair)
+- [Source proof](../arguments/carriers/carrier_conductor_differential_comparison.md#local-residue-identity-and-global-contact)
+- [Independent audit](../arguments/carriers/carrier_conductor_differential_comparison.md#exact-top-socle-divisor-for-an-actual-pair)
+- [Independent audit](../arguments/carriers/normal_index_socle_and_torsion.md#2026-10-14-generalization-transverse-socle-independent-audit)
+- [Claim-level acceptance](../arguments/carriers/carrier_conductor_differential_comparison.md#consolidation-review)
 
 ## Dependencies and limitations
 

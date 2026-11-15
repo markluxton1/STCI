@@ -312,7 +312,7 @@ In characteristic zero the source is the disjoint union of the four smooth
 normalizations. The pairwise order-three contacts give a separate geometric
 calculation of the endpoint defects in the
 [prescribed quartic proof](quartic_specialization_and_symbols.md#1-what-actually-coalesces).
-The [endpoint valuation fan](../synthesis/endpoint_valuations.md#endpoint-fans-and-full-residue-data)
+The [endpoint valuation fan](torus/endpoint_valuations.md#endpoint-fans-and-full-residue-data)
 describes the initial polynomials and how the branches separate under blowups.
 
 In characteristic two write \(u=1+\epsilon\), \(\epsilon^4=0\). A
@@ -434,7 +434,7 @@ Its index is \(3+4+8=15\). Thus
 The genera exclude type \((4,4)\) except in characteristic two. These
 are fixed-field images; no commutation with arithmetic reduction is
 asserted. This proves R-0054. The existing
-[finite verifier](../investigations/torus-residual-controls/verify.py),
+[finite verifier](torus-sextic-controls.support/verify.py),
 in its quotient_checks function, checks (14)--(16) and these endpoint
 indices. The geometric proof remains the complete argument above.
 
@@ -501,7 +501,7 @@ the image consists of four reduced quartic components. The quotient
 \(\epsilon=0\) gives \(u=v=1\) on every fiber and retains marked \(C_0\).
 This proves R-0055: it is a flat collision of genus-twenty-eight images,
 not a deformation through these images of the genus-thirty-three CI.
-The [quartic root pencil](../synthesis/root_pencil_geometry.md#3-three-ways-the-pencil-leaves-the-open-arrangement)
+The [quartic root pencil](torus/root_pencil_geometry.md#3-three-ways-the-pencil-leaves-the-open-arrangement)
 gives a separate partial CI collision in characteristic zero, with a doubled
 marked quartic and two residual quartics at the marked collision.
 
@@ -577,3 +577,12 @@ This decision has basis reconstructed and accepts only those exact
 scopes. The moving-modification positivity theorem and the separate
 legacy R-0021 proof were outside review. No global STCI conclusion or
 endpoint/opposite-limit comparison was accepted.
+
+## Finite replay evidence {#finite-replay-evidence}
+
+The exact endpoint rank sums, determinants and truncated algebra identities
+used in the embedded quotient examples are covered by the shared replay suite
+in [the sextic Argument evidence](torus_sextic_residuals.md#finite-replay-evidence).
+The suite includes deliberate coefficient corruption controls and is limited
+to the displayed examples; it does not replace their geometric proofs or imply
+characteristic coverage beyond the stated inputs.

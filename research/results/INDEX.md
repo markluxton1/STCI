@@ -4,9 +4,9 @@ Use the [catalog](../CATALOG.md) for the complete Result locator and proof
 routes. This page retains the legacy locators and topic links used by the
 research validator.
 
-For an overview see the [research state](../STATE.md), and for full
-exposition use the [reading routes](../synthesis/README.md). The
-[mechanism map](../MAP.md) and [open questions](../FRONTIER.md) locate
+For an overview see the [research state](../frameworks/carrier-normalization/degree_exclusions.md), and for full
+exposition use the [reading routes](../INDEX.md). The
+[mechanism map](../MAP.md) and [open questions](../MAP.md#questions-and-active-work) locate
 missing implications.
 
 - **[STCI-R-0036 — Pointwise conductor and top-socle defect (conditional)](pointwise_conductor_socle_defect.md)**

@@ -25,7 +25,7 @@ prescribed degrees satisfy \(ab=(n+1)\deg C\). The separate divisor budget
 assumes an actual proper solely supported complete intersection in the
 generically curvilinear setting. The [independent audit](#2026-10-27-one-step-boundary-obstruction-audit)
 records the scope of the reconstruction and its inherited inputs.
-The companion [global repair and weighted initials argument](../synthesis/normal_filtration_boundary_obstructions.md#boundary-repair-global-lifting)
+The companion [global repair and weighted initials argument](normal-geometry/normal_boundary_weighted_initials.md#boundary-repair-global-lifting)
 gives the principal-parts test for the actual homogeneous source.
 
 ## Conclusion
@@ -94,7 +94,7 @@ for the extension class of (1). This class depends on the actual embedded
 lower thickening, rather than only the degrees of its normal layers.
 The triple version of this equation-module construction is inherited
 reviewed evidence in the
-[intrinsic cubic-contact note](../synthesis/quartic_pair_obstruction.md).
+[intrinsic cubic-contact note](normal-geometry/quartic_pair_obstruction.md).
 The argument here uses the power-relation line for arbitrary n.
 
 ### 2. Exact one-step repair theorem
@@ -176,7 +176,7 @@ repair bound, with coefficient one, for this particular lifting class.
 It does not assert that all ambient obstruction problems share this
 target or the same twist.
 
-The [principal-parts and multiplication-kernel criterion](../synthesis/normal_filtration_boundary_obstructions.md#boundary-repair-global-lifting)
+The [principal-parts and multiplication-kernel criterion](normal-geometry/normal_boundary_weighted_initials.md#boundary-repair-global-lifting)
 can be applied to the actual bundle Ubar_Y tensor V_Y^vee. On P1 this
 is a line bundle, and all possible effective repair divisors can be
 tested by one multiplication matrix. The actual divisor must also
@@ -512,7 +512,7 @@ Hence (6) is NOT a bound on all raw initial-equation torsion unless
 Delta=0. Higher spectral cancellations must be retained. See the
 [normal Koszul comparison](../results/normal_koszul_comparison_defect.md)
 for the spectral argument and the
-[open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+[open sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support)
 for the remaining existence problem.
 
 ### 7. What has been gained and what remains

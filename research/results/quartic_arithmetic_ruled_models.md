@@ -11,9 +11,9 @@ statement: "The prescribed arithmetic ruled model has the normalization, conduct
 dependencies:
   - STCI-R-0021
 evidence:
-  - "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
+  - "research/arguments/arithmetic/arithmetic_four_section_family.md"
 independent_audits:
-  - "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
+  - "research/arguments/arithmetic/arithmetic_four_section_family.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -50,4 +50,4 @@ No unrestricted characteristic-two lifting or STCI theorem.
 
 ## Current proof
 
-[Arithmetic graph sections, endpoint images and normalization](../supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+[Arithmetic graph sections, endpoint images and normalization](../arguments/arithmetic/arithmetic_four_section_family.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

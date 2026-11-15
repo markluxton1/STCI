@@ -41,7 +41,7 @@ label the loci where the moving generator counts jump?
 
 ## Purpose
 
-[F-0001](../../frameworks/torus_supported_boundaries.md) preserves support and
+[F-0001](../../frameworks/torus-supported-boundaries/index.md) preserves support and
 Hilbert data at a full torus boundary while testing equations on moving ideals.
 This investigation turns that strategy into a bounded realization problem.
 Its success can be a construction or an informative family-specific exclusion;

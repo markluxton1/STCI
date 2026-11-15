@@ -14,10 +14,10 @@ statement: "The complete linear system |c| identifies S with a normal minimal-de
 dependencies:
   - STCI-R-0001
 evidence:
-  - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
+  - "research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md"
 independent_audits:
-  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
-  - "research/synthesis/normal_filtration_boundary_obstructions.md#symbolic-ribbons-valuation-bounds-and-normalization-controls"
+  - "research/arguments/spectral/quadratic_root_and_blowup_incidence.md#quadratic-root-and-blowup-incidence"
+  - "research/arguments/normal-geometry/thick_equality_socle.md#symbolic-ribbons-valuation-bounds-and-normalization-controls"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -64,10 +64,10 @@ For \(C_0=[s^4:s^3t:st^3:t^4]\), the all-integral-quartic exclusion [STCI-R-0001
 
 ## Evidence and verification
 
-- [Original singular-normalization theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
-- [Independent new-scope audit: PASS](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-cartier-lift-independent-audit)
-- [Earlier smooth-normalization framework](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
-- [Earlier independent smooth-normalization audit](../synthesis/normal_filtration_boundary_obstructions.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
+- [Original singular-normalization theorem](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md)
+- [Independent new-scope audit: PASS](../arguments/spectral/quadratic_root_and_blowup_incidence.md#2026-10-14-generalization-cartier-lift-independent-audit)
+- [Earlier smooth-normalization framework](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md)
+- [Earlier independent smooth-normalization audit](../arguments/normal-geometry/thick_equality_socle.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
 
 These links identify the current scope-preserving proof homes. Their independent review covers the original mathematical statements; replacement review covers their consolidation.
 

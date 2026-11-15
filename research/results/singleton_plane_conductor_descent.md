@@ -13,9 +13,9 @@ dependencies:
   - STCI-R-0002
   - STCI-R-0003
 evidence:
-  - "research/synthesis/carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions"
+  - "research/arguments/carriers/carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions"
 independent_audits:
-  - "research/synthesis/carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions"
+  - "research/arguments/carriers/carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions"
 legacy_ids: []
 supersedes: []
 superseded_by: []

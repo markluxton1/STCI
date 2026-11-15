@@ -14,13 +14,13 @@ dependencies:
   - STCI-R-0005
   - STCI-R-0006
 evidence:
-  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
-  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
-  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-second-zero-and-dual-compression"
+  - "research/arguments/spectral/quadratic_root_and_blowup_incidence.md#quadratic-root-and-blowup-incidence"
+  - "research/arguments/spectral/quadratic_root_and_blowup_incidence.md#quadratic-root-and-blowup-incidence"
+  - "research/arguments/spectral/quadratic_root_second_obstruction.md#quadratic-root-second-zero-and-dual-compression"
 independent_audits:
-  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
-  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-and-blowup-incidence"
-  - "research/synthesis/quadratic_root_torsion_two_lifting.md#quadratic-root-second-zero-and-dual-compression"
+  - "research/arguments/spectral/quadratic_root_and_blowup_incidence.md#quadratic-root-and-blowup-incidence"
+  - "research/arguments/spectral/quadratic_root_and_blowup_incidence.md#quadratic-root-and-blowup-incidence"
+  - "research/arguments/spectral/quadratic_root_second_obstruction.md#quadratic-root-second-zero-and-dual-compression"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -57,12 +57,12 @@ The second obstruction is a necessary condition for actual supported complete in
 
 ## Proofs and independent reviews
 
-- [Universal first incidence](../synthesis/quadratic_root_torsion_two_lifting.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd) and [independent audit](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit).
-- [Actual second obstruction](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-quadratic-root-second-obstruction) and [independent audit](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit).
-- [Global second-dual compression](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression) and [independent audit](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit).
+- [Universal first incidence](../arguments/spectral/quadratic_root_and_blowup_incidence.md#source-2026-10-14-generalization-quadratic-root-universal-incidencemd) and [independent audit](../arguments/spectral/quadratic_root_and_blowup_incidence.md#2026-10-14-generalization-quadratic-root-universal-incidence-independent-audit).
+- [Actual second obstruction](../arguments/spectral/quadratic_root_and_blowup_incidence.md#2026-10-14-generalization-quadratic-root-second-obstruction) and [independent audit](../arguments/spectral/quadratic_root_and_blowup_incidence.md#2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit).
+- [Global second-dual compression](../arguments/spectral/quadratic_root_second_obstruction.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression) and [independent audit](../arguments/spectral/quadratic_root_second_obstruction.md#2026-10-15-generalization-quadratic-root-global-second-dual-compression-independent-audit).
 
 These links identify the retained current proof and independent reconstruction; the computations were not rerun in this consolidation.
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

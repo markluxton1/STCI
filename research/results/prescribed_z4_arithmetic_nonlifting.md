@@ -12,9 +12,9 @@ scope:
 statement: "No such flat embedded family exists; every hypothetical family forces a primitive triple whose obstruction in H^1(P1_R,O(-4)) has middle Laurent coefficient congruent to 2 modulo 4."
 dependencies: []
 evidence:
-  - "research/supplements/Z4_LIFTING_AND_DEFORMATION.md"
+  - "research/arguments/arithmetic/z4_lifting_and_deformation.md"
 independent_audits:
-  - "research/supplements/Z4_LIFTING_AND_DEFORMATION.md"
+  - "research/arguments/arithmetic/z4_lifting_and_deformation.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -38,7 +38,7 @@ No such flat embedded family exists; every hypothetical family forces a primitiv
 
 The source proves persistence of the global quartic complete-intersection equations under flat embedded deformation, containment of the fourth ideal power and forced primitive intermediate stages. An integral two-chart calculation then produces the universal middle Laurent coefficient `C2=(b-d)(4ah+3b^2-8bd+6d^2)=2 (mod 4)` for all permitted quotient directions and quadratic corrections. The independent audit reconstructs these reductions and checks the integer and Macaulay2 certificates. This is an arithmetic nonlifting result, logically independent of STCI-R-0001.
 
-The complete proof and the independently reconstructed scope are retained in [the arithmetic nonlifting chapter](../supplements/Z4_LIFTING_AND_DEFORMATION.md). The quotient-family parameterization and every intermediate-stage flatness assertion are proved there; an execution result alone is not substituted for that reduction.
+The complete proof and the independently reconstructed scope are retained in [the arithmetic nonlifting chapter](../arguments/arithmetic/z4_lifting_and_deformation.md). The quotient-family parameterization and every intermediate-stage flatness assertion are proved there; an execution result alone is not substituted for that reduction.
 
 ## Limitations
 
@@ -48,4 +48,4 @@ The complete proof and the independently reconstructed scope are retained in [th
 
 ## Current proof
 
-[Z4_LIFTING_AND_DEFORMATION](../supplements/Z4_LIFTING_AND_DEFORMATION.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+[Z4_LIFTING_AND_DEFORMATION](../arguments/arithmetic/z4_lifting_and_deformation.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

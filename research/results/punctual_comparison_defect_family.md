@@ -95,7 +95,7 @@ component has length one.
 ## Limitations
 
 The residual dimension is a property of the actual finite algebra, so this
-family lies outside the [sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+family lies outside the [sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 The marked line calculation concerns local equations in characteristic zero.
 It gives no global equations for the fixed quartic.
 

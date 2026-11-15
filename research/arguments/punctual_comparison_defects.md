@@ -528,8 +528,8 @@ algebra of dimension \(m+1\). In the supported quadruple the full
 comparison retains both torsion pieces, and the normal algebra
 still changes under transverse specialization.
 
-The [punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+The [punctual relative-defect question under sole support](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support)
 remains open. The general comparison between the
 [incoming normal Koszul filtration](../results/normal_koszul_comparison_defect.md)
-and the [extended Rees torsion filtration](../synthesis/rees_and_vertical_controls.md#evidence-scope-and-the-remaining-geometric-bridge)
+and the [extended Rees torsion filtration](normal-geometry/rees_equation_persistence.md#evidence-scope-and-the-remaining-geometric-bridge)
 also remains open.

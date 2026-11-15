@@ -1,336 +1,136 @@
-# Four research objects and their proof reviews
+# Working on the mathematics
 
-## Mathematical content
+| Home | What belongs there |
+| --- | --- |
+| [Results](results/INDEX.md) | Reusable statements, constructions, exclusions, counterexamples and reductions, with exact scope and proof routes |
+| [Arguments](arguments/) | Complete proofs and coherent developments; Results can point to a section and retain distinct proof routes |
+| [Literature](literature/README.md) | External statements, source references, checked hypotheses and applicability, and outstanding source checks |
+| [Frameworks](MAP.md) | Evolving mathematical accounts of approaches: ideas, applicable results and literature, links to other approaches, missing implications, and active work |
+| [Investigations](MAP.md#questions-and-active-work) | Active or planned bounded activities: the question, actual inputs, method, findings, and a clear stopping point |
 
-A **Result** is an independently reusable statement, construction, counterexample,
-or reduction. Its own document contains the exact statement, hypotheses,
-quantifiers, and limitations. Its complete proof is in that document or a
-precisely identified Argument section containing the actual reasoning.
-Existing mathematical expositions can supply such proof sections while the
-repository is reconstructed. Expository applications and restatements must
-respect the literal scope of the Result.
-
-An **Argument** gives a coherent complete development combining Results and
-explaining their geometry. A **Framework** describes a strategy, actual inputs,
-missing bridges, controls, and coverage obligations for an STCI or related
-geometric question. An **Investigation** is a concrete motivated activity with
-a question, method, findings, and unresolved work. Completing an activity does
-not imply answering its motivating question.
-
-Prefer intrinsic geometry. Distinguish a replacement proof from a geometric
-reduction that still requires algebra or a computation whose mathematical
-role or coverage still needs explanation.
+[Computations](computations/README.md) and figures support this mathematics.
+Keep small evidence with its proof when practical; share reusable code by
+linking one copy. An open implication can live in a Framework until there is
+bounded work to undertake.
 
 ## Contribution workflow
 
-1. **Retrieve before deriving.** Start with [INDEX](INDEX.md). Find the exact
-   Result, proof, and dependencies, or the Framework and missing bridge.
-   Use `show ID` for declared consumers and prerequisites. Search nearby Arguments
-   and check the relevant primary literature, starting from the proof's citations
-   and the [literature ledger](LITERATURE_LEDGER.md). Record the comparison scope
-   and identify sources that still need checking.
-2. **Choose the mathematical home.** Extend the owning section for a local
-   lemma, application, or refinement read with that development. Create a
-   Result when an independently reusable claim needs its own exact statement,
-   limitations, or dependencies. A reusable exclusion or counterexample
-   qualifies when its claim and coverage are proved. Keep an exploratory
-   failure in its Investigation with the tested scope and missing condition.
-   Keep one full owner per proof route. Create an Argument for a coherent
-   development with its own premises and conclusion when an existing proof
-   home would obscure the reasoning. Retain genuinely different proofs and
-   their assumptions and reviews.
-3. **Choose the work home.** Reuse a Framework when its strategy and missing
-   implications cover the approach. Create one for a distinct strategy with an
-   objective, established inputs, missing bridges, methods, controls, coverage
-   obligations, and conditions for revising or retiring it. Link bounded
-   Investigations as they are selected. Start an Investigation for a distinct
-   source, question, or stopping condition that warrants durable findings.
-   Extend an existing activity when its purpose, scope, and stopping condition
-   still fit. Check prior work and literature, record the method and useful
-   findings, and close the activity at its stated stopping condition. Update the
-   Framework when a finding changes the strategy's prospects. A finished
-   experiment can leave the motivating question open.
-4. **Review and integrate.** Record the exact claim, its proof, evidence, and
-   jointly required premises. Obtain [independent review](#evidence-and-review)
-   of a consequential new route or strengthened scope. Reuse reviews within
-   their checked scope. Recheck dependent proof routes and grouped research
-   relationships when an input changes. Update INDEX for changed entry routes,
-   MAP for changed mathematical connections, STATE for changed established
-   scope, FRONTIER for changed open questions, and the decision guide for
-   changed selection advice. Edit only the pages whose contents change and
-   regenerate the catalog when records or relationships change.
+1. Retrieve the exact statement, proof, and dependencies before reusing a
+   claim. For an approach start with the [framework map](MAP.md); read the
+   [source record](literature/README.md) and the theorem where the application
+   depends on its hypotheses.
+2. Extend an existing mathematical owner when refining its proof, example,
+   or interpretation. Give a reusable result a stable identifier and an
+   exact statement; place its proof where the reasoning reads naturally.
+   Keep exploratory findings in their investigation until their durable
+   role is understood.
+3. After a finding, check nearby proofs and approaches, including other
+   Frameworks that use the same mechanism. Update interpretations, open
+   steps and bounded work where the mathematical consequence changes. State
+   whether the connection is proved, conditional, or still missing a map.
+   Link the authoritative argument instead of copying it. Update the
+   [map](MAP.md) when the route between approaches changes.
+4. Create, merge, split or retire Frameworks as the mathematics changes. A
+   completed Investigation can leave its question open. Move the exact
+   result, proof, informative negative finding, or remaining question to
+   its durable home; retain a completed Investigation only for independently
+   useful material that would lose context there.
 
-Parallel assignments should name the exact question, shared proof inputs,
-stopping condition, and editable files. Use a single integrator for shared
-owners and navigation. Ask agents for scoped findings, missing premises, and
-evidence paths. Resolve disagreements through the
-[conflict rules](#corrections-and-conflicting-claims), then retire completed
-assignments. Keep findings with their mathematical owners.
+Give parallel agents disjoint questions or editable paths, shared proof inputs,
+and stopping conditions. Integrate by mathematical owner and retire the agents
+after their findings are used. Preserve stable IDs, proof addresses and review
+scope when moving material; repair internal links and regenerate the catalog.
 
-### Merge, split, or retire material
+## Choosing bounded work
 
-Keep IDs and precisely addressed proof routes stable across physical moves.
-Merge exposition when it shares one development and premises, and readers
-would otherwise reconstruct the same proof across files. Split when a
-separately retrieved development has its own inputs and conclusion or when
-an unrelated subject obscures the owning proof. A Result can point into a
-shared Argument, so neither a merge nor a split requires a new claim ID.
-Retire summaries, execution history, and duplicates once the live owner covers
-every surviving claim, review, and support consumer. When the mathematical
-overlap is uncertain, retain the passage and identify the unresolved difference.
-Follow [exact proof support and retention](#exact-proof-support-and-retention)
-before removing mathematical or computational evidence.
+State the curve, characteristic, actual source or candidate family, question,
+and what either outcome changes. Constructing an example, closing a covered
+sector, finding a counterexample, or identifying a missing comparison can
+each be worthwhile. Declare the degree, power and regularity bounds needed
+for any coverage claim. For a proposed computation isolate the real
+mathematical input, its special strata, and a stopping outcome.
+
+Ask whether two tests just express the same numerical budget. A useful next
+test adds actual source, multiplication, embedding, support, or coverage
+information. Revisit a closed family when the source, hypotheses, boundary
+calculation or coverage genuinely changes. Read the Framework's open steps
+and compare related approaches before choosing a bounded Investigation.
 
 ## Evidence and review
 
-Assess each claim by its exact statement, assumptions, proof, and review scope.
-Branch, recency, path, identifier, catalog inclusion, and merge approval
-supply no mathematical justification. STATE, FRONTIER, indexes, and research
-relationships guide retrieval. Their claims depend on the mathematical homes.
-Keep the antecedents of a conditional statement explicit. Distinguish a
-necessary condition, a fixed-carrier conclusion, a finite reduction, an actual
-construction, and an unrestricted theorem.
+Assess the literal statement, proof, jointly required premises, and scope of
+review. Keep the distinctions among characteristic restrictions, necessary
+conditions, fixed family conclusions, actual constructions and conjectures.
+In the fixed quartic problem a formal thickening, projected model, generic
+length or Chow cycle does not alone realize a proper pair with sole support.
 
-Record accepted, pending, or disputed review on the precise proof route.
-An accepted route needs an actual decision passage giving its checked scope,
-the assumptions used, what was read or executed, and the qualifications.
-Acceptance covers the checked route and requires no further mathematical
-approval. Results have no overall status or authority classification. Describe
-source review and independent reconstruction factually and recover decisions
-from the review passages themselves.
-
-Independently reconstruct consequential arguments and changes in scope. Test
-omitted cases, hidden hypotheses, counterexamples, dependency scope, and
-characteristic restrictions. Distinguish generic claims from all-point
-assertions, and formal or local existence from realization by global equations.
-The checker verifies declared structure. Mathematical correctness, completeness
-of premises, reviewer independence, review sufficiency, and exhaustive
-coverage require substantive review.
-
-For substantial contributions report the exact claim or question, curve,
-characteristic, hypotheses and quantifiers, proof and evidence paths, review
-scope, remaining dependencies, and any affected Framework or Investigation.
-Keep unperformed calculations and missing realizations explicit. The
-unrestricted characteristic-zero STCI question remains open until resolved by
-an independently reviewed proof.
+A consequential new or changed proof route needs independent mathematical
+review. Record what was read, checked or reproduced and its limitations on
+that route. Results have no overall authority classification. Separate
+independent arguments stay separately addressable.
 
 ### Corrections and conflicting claims
 
-Compare the exact scopes, proofs, and reviews of both claims. Report any
-unresolved discrepancy, identify the precise disputed step, and preserve
-useful corrections or counterexamples. Explain the scope bridge before
-replacing one statement with another.
+Compare the exact hypotheses and proof steps. State any unresolved difference
+and preserve the counterexample or correction. Explain the mathematical scope
+bridge before replacing a result or reusing it in another setting.
 
 ## Exact proof support and retention
 
-Preserve independently useful lemmas, complete proofs, alternative arguments,
-constructions, counterexamples, exact questions, and the smallest adequate
-support. The Result owns its necessary exact support in an optional
-`<claim>.support/` directory. Exploratory code and data belong to the owning
-Investigation. If a finding becomes a Result, move its necessary replay there
-or link the existing canonical support. Computations and attachments support
-the four research objects.
+Keep the smallest adequate exact support for a proof, including a reusable
+script, necessary data, or a commit-pinned archived source. Explain the
+mathematical domain, invariant assertion, coverage, and replay command at
+the point of use. Record whether the supporting output was inspected or
+replayed. A successful rank check does not identify its source space or
+prove that it covers the relevant cases.
 
-For an essential computation, link its support from the proof's Evidence
-section. Record the exact inputs, characteristic and source domain, invariant
-assertion and geometric interpretation, coverage argument, usable command and
-environment, and whether the result was inspected or replayed. A saved rank
-still needs a proof of source identification and coverage. Keep a second
-implementation only when it supplies distinct verification or an additional
-argument.
-Keep large generated artifacts out of ordinary Git. An essential external
-artifact needs an accessible location, an integrity identifier, and an exact
-account of the claim that depends on it. A checker, checksum, or regeneration
-recipe requires separate evidence of completed execution.
-
-Before retiring a necessary exact certificate, replace it with a reviewed
-argument or compact exact certificate covering the same surviving claim.
-Review the replacement and removal together. Check content and consumers for
-unique corrections, proof steps, and exact inputs before dropping duplicate
-certificates, logs, diagnostics, repeated PASS output, regenerable bulk
-dumps, chronological handoffs, or migration manifests.
-
-### Historical citations
-
-Keep citations to historical proof and review sources, with their precise
-scope. Cite a retired source at its full Git commit and path. If a source is
-unavailable, check the surviving proof and its necessary evidence before
-reusing the claim. Keep shared Git history and source branches intact during
-working-tree consolidation.
+Retire duplicate accounts, output dumps, and execution records only after
+checking for unique hypotheses, proof steps, correction or evidence and
+their consumers. Replace essential certificates only with reviewed support
+covering the same claim. Cite removed evidence by full Git commit and path.
+Preserve useful counterexamples and genuinely different arguments.
 
 ## Files and fields
 
-| Object | Location | Required mathematical section pointers | Work-state field |
-| --- | --- | --- | --- |
-| Result | `research/results/<claim>.md` | `scope`, `statement`; nonempty Limitations section | None |
-| Argument | `research/arguments/<development>.md` | `scope`, `conclusion` | `draft` or `complete` |
-| Framework | `research/frameworks/<strategy>.md` | `scope`, `bridges` | `proposed`, `in_use`, or `retired` |
-| Investigation | `research/investigations/<activity>/index.md` | `scope`, `question`, `findings` | `planned`, `active`, `complete`, or `inactive` |
+[Templates](../scripts/templates/) give the supported typed fields. Use
+`STCI-R-####`, `STCI-A-####`, `STCI-F-####` and `STCI-I-####` for
+cataloged records. An Argument may also be an ordinary Markdown development
+in a topical subdirectory. Use `frameworks/<strategy>/index.md` for typed
+Framework entries, with ordinary companion Markdown where helpful, and
+`investigations/<activity>/index.md` for Investigation entries. Use ordinary
+links for mathematical connections and the existing `relations` fields when
+recording declared Result consumers or Investigation motivations. An
+Investigation can have several motivating Frameworks. The catalog and
+`frameworks` command derive navigation from these records and links.
 
-Typed objects have `id`, `type`, `title`, and `scope`. Results additionally have
-`statement` and `proofs`; the other objects have a `status` describing only the
-work state shown above. Unknown fields are rejected. Section pointers such as
-`scope: "#scope"` address nonempty sections of the owning document. Put the
-actual mathematics in those sections; a link elsewhere is not the statement.
-
-Use stable `STCI-R-####`, `STCI-A-####`, `STCI-F-####`, and `STCI-I-####` IDs.
-Keep identifiers when files move; resolve branch collisions before integration.
-No allocation registry is needed. Optional `aliases` map former identifiers to
-local sections, for example `STCI-Q-0001: "#question"`. Aliases must be unique
-against all live IDs and other aliases. Questions live in Frameworks or
-Investigations in the target structure. During reconstruction, FRONTIER can
-hold unresolved interfaces awaiting a typed owner. Existing question records
-retain their exact formulations until reviewed relocation. A claimed answer
-requires its precise mathematical scope.
-
-Templates: [Result](../scripts/templates/result.md),
-[Argument](../scripts/templates/argument.md),
-[Framework](../scripts/templates/framework.md), and
-[Investigation](../scripts/templates/investigation.md). Template prose is not a
-project claim.
-
-## Proof routes
-
-Each Result route has `name`, `at`, `using`, and `review`:
-
-```yaml
-proofs:
-  - name: direct
-    at: "#proof"
-    using: []
-    review:
-      state: pending
-      at: "#review"
-```
-
-`at` identifies an actual complete proof in the Result, an Argument, or an
-existing mathematical exposition. It must be a local Markdown path and section,
-not an external URL or a chain of proof outlines. Known Framework or Investigation
-objects cannot substitute for a proof home. `using` lists the jointly required
-Result premises; separate route entries are alternatives. Standard external
-mathematics is stated and cited in the proof without mandatory local records.
-
-`review.state` is `pending`, `accepted`, or `disputed`. An accepted review also
-has `basis: inherited` or `basis: reconstructed`, describing whether the recorded
-review comes from the actual source proof or the current independent
-reconstruction. Both require a precise decision passage and its literal scope.
-The basis field records what was reviewed; it confers no separate authority.
-An empty `proofs` list means no proof route has yet been recorded.
-
-Each accepted route must have noncircular accepted prerequisites. Only
-accepted routes can ground those premises. The checker
-starts with accepted routes having no cataloged premises and repeatedly adds
-conclusions whose accepted routes have every premise in that set. It checks
-every accepted route's premises against the final set. An independent accepted
-alternative can ground a premise that would otherwise depend on a cycle.
-A direct self-premise is invalid. Catalog and lookup display each route's review.
-
-An existing untyped Result may document routes with exactly this structure;
-its explicit accepted routes can ground other Results. Evidence lists alone
-do not synthesize review decisions. Older administrative fields are removed,
-not copied into source-information fields. Older flat dependency lists remain
-references, not newly inferred joint proof routes; navigation cycles do not
-establish circular mathematical reasoning.
-
-Optional `supersedes` records a precise correction or replacement. State the
-scope bridge or corrected assertion in a Supersession section. Its graph must
-have no replacement cycles. A valid proof is assessed on its own mathematics;
-replacement information is not a rank or automatic rejection of its conclusion.
-
-## Research relationships
-
-A relationship is stored once in an incident object, with an explanatory local
-section and nonempty, nonduplicated endpoint groups:
-
-```yaml
-relations:
-  - kind: motivates
-    from: [STCI-F-0001, STCI-F-0002]
-    to: [STCI-I-0001]
-    at: "#purpose"
-```
-
-| Kind | Source types to target types | Meaning |
-| --- | --- | --- |
-| `uses` | Results/Arguments to Arguments/Frameworks/Investigations | Inputs or applications |
-| `motivates` | Frameworks to Investigations | Why the activity is useful |
-| `produces` | Investigations to Results/Arguments | Actual mathematical outputs |
-| `informs` | Investigations/Results/Arguments to Frameworks | Findings that change strategy |
-| `limits` | Results to Frameworks/Investigations | Exact restrictions from a failure or counterexample |
-
-Every Investigation has at least one Framework motivation. A grouped edge is
-one joint relationship, not all pairwise implications. Research cycles are
-legitimate. The derived graph helps retrieval; actual proofs establish the
-mathematical implications. Proof ownership is not itself a premise.
-
-## Discovery, paths, and compatibility
-
-Metadata paths are repository-root-relative; `#fragment` addresses the current
-document. Reject external schemes, absolute paths, queries, missing files or
-sections, `..` metadata segments, and escaping symlinks. Ordinary body links
-can use parent-relative paths inside the repository. Explicit support files
-and images are checked for availability; existence does not verify their content.
-Legacy evidence and audit fields allow external citations. Deterministic
-validation does not fetch them or external literature.
-
-Discover objects independently of the generated catalog. Malformed metadata
-must fail rather than silently remove a record from discovery. README and INDEX
-files are navigation, not objects. Untyped topic prose is recognized from
-non-ID entries in the existing result index. Discovery has no fixed record
-count or migration manifest.
-
-Untyped Results retain exact statements, kinds, scope, evidence, review source
-paths, aliases, references, corrections, and limitations. Keep their ID
-entries and the untyped topic links in [results/INDEX.md](results/INDEX.md)
-for discovery and validation. Preserve the exact formulation of each untyped
-question, including [STCI-Q-0001](questions/cartier_projection_models.md).
-Question and activity states describe open work. The same route, identity, and
-path rules apply to every serialization. The two compatibility commands,
-`research/computations/validate_records.py` and
-`research/computations/validate_result_records.py`, invoke the shared engine.
+Record each Result proof route's address, joint premises, and precise review
+address. Alternative proof routes are separate entries; legacy evidence and
+dependencies remain citations and do not imply a proof review. Metadata
+addresses are repository-relative; `#fragment` is local to the current file.
+Normal Markdown links are relative to the current file. Use `aliases` to point
+a retired identifier to its exact surviving section. Preserve the Result
+IDs and legacy locators in [results/INDEX.md](results/INDEX.md).
 
 ## Commands and integration
 
-Use Python 3.12 or later and the pinned dependency:
+Install the [pinned requirements](../scripts/requirements-research.txt) in
+Python 3.12 or later. From the repository root:
 
 ```sh
-python3 -m pip install -r scripts/requirements-research.txt
-python3 -m unittest discover -s tests -v
+python3 scripts/research.py frameworks
+python3 scripts/research.py show STCI-R-0022
+python3 scripts/research.py route normal-orders --compact
+python3 scripts/research.py section research/frameworks/formal-normal-geometry/index.md#fixed-setup
 python3 scripts/research.py validate
 python3 scripts/research.py catalog
 python3 scripts/research.py catalog --check
-python3 scripts/research.py show STCI-R-0022
-python3 scripts/research.py route normal-orders
 python3 scripts/check_markdown_links.py --anchors
+python3 -m unittest discover -s tests -v
 ```
 
-`catalog` rebuilds [CATALOG.md](CATALOG.md). Validation, lookup, route reading,
-and freshness checking do not write files. `route` reads the starting sections
-linked in the [index's lane table](INDEX.md#find-a-statement-proof-or-open-question).
-Read the linked proof when checking a claim's argument or dependencies.
-`route <lane> --compact` lists those locations and relevant headings in the
-starting documents. `section ADDRESS [ADDRESS ...]` reads selected Markdown
-files or anchored sections. It refuses an oversized response before emitting
-source text. Use `--lines FIRST LAST` on a single address to request an inclusive
-range within that file or section. The output marks a partial read explicitly.
-`--root /path/to/repository` before the subcommand
-selects another checkout or a temporary fixture. The generated view contains
-no timestamps and displays actual route reviews and activity states. It is the
-only generated research artifact.
-
-Every enforced mechanical rule needs a positive and deliberately invalid test.
-Temporary miniature repositories exercise malformed fields, accepted and
-unreviewed premises, alternative routes, circular justification, identities,
-aliases, paths, compatibility, research cycles, and deterministic generation.
-Scientific controls belong to their owning Investigation or Result support;
-a passing execution supplies no coverage theorem.
-
-Independent infrastructure review checks parsing, validation, tests, determinism,
-and authoring burden. Independent mathematical review reconstructs consequential
-proofs and checks preservation of hypotheses, intermediate results, counterexamples,
-and necessary support. Retrieval/reuse evaluation is separate from both.
-Keep the reconstruction PRs stacked and unmerged into main until the requested
-mathematical review, retrieval/reuse evaluation, and explicit integration
-approval. Continue wider mathematical migration only at the agreed user
-decision point. Integration approval is a project decision separate from
-scoped proof review.
+Use `section ... --lines FIRST LAST` to inspect part of a large section.
+Regenerate [CATALOG.md](CATALOG.md) after changing records or their addresses.
+Run [the exact replays](computations/README.md) that support changed proofs or
+moved scripts. Structural checks establish that links, records and declared
+dependencies are usable; mathematical correctness and coverage still require
+reading the proofs and checking their inputs.

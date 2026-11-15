@@ -9,7 +9,7 @@ covered by the archived boundary and corner verifiers and by reversal. The
 boundary transition and rank-zero corner sections of the supplement cited
 below give the archived sources and their geometric scopes.
 The geometric inputs are P-025 and the Type A quotient and extension
-calculation in research/supplements/QUASIPRIMITIVE_MULTIPLICITY_FIVE.md.
+calculation in research/arguments/residuals/quasiprimitive_multiplicity_five.md.
 The polynomial identities are inputs to the flatness and cohomology arguments.
 """
 import sympy as sp

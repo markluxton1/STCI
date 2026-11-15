@@ -15,9 +15,9 @@ dependencies:
   - STCI-R-0002
   - STCI-R-0003
 evidence:
-  - "research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md"
+  - "research/arguments/carriers/projection_torsion_and_rational_phase_bounds.md"
 independent_audits:
-  - "research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md"
+  - "research/arguments/carriers/projection_torsion_and_rational_phase_bounds.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -41,7 +41,7 @@ For the constructible phase image W=z(Z), the torsion points of W are a finite u
 
 ## Hypotheses and proof outline
 
-The original proof uses flattening and monic Noether-normalization equations before rational localization to preserve all generic conductor components on specialization. Finite Artinian matrix calculations retain the full nilpotent conductor defect. A finite root-ordering cover produces a phase tuple in a fixed torus. Laurent's theorem gives the torsion-coset envelope for the constructible phase image, with excluded parameter boundaries still excluded. The [independent review](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review) records the corrections needed for specialization and confirms the result.
+The original proof uses flattening and monic Noether-normalization equations before rational localization to preserve all generic conductor components on specialization. Finite Artinian matrix calculations retain the full nilpotent conductor defect. A finite root-ordering cover produces a phase tuple in a fixed torus. Laurent's theorem gives the torsion-coset envelope for the constructible phase image, with excluded parameter boundaries still excluded. The [independent review](../arguments/carriers/projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-projection-torsion-coset-independent-review) records the corrections needed for specialization and confirms the result.
 
 ## Consequences for fixed C0
 
@@ -49,9 +49,9 @@ The three Cartier singleton models from [STCI-R-0002](cartier_singleton_lift.md)
 
 ## Evidence
 
-[Source theorem](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-reduction).
+[Source theorem](../arguments/carriers/projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-projection-torsion-coset-reduction).
 
-[Independent review (PASS with recorded corrections)](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review).
+[Independent review (PASS with recorded corrections)](../arguments/carriers/projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-projection-torsion-coset-independent-review).
 
 ## Limitations
 

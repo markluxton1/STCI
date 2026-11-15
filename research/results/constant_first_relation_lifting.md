@@ -12,9 +12,9 @@ statement: "Every linear factor direction m of f with multiplicity nonzero in th
 dependencies: 
   - STCI-R-0032
 evidence:
-  - research/synthesis/global_lifting_interfaces.md#actual-generator-filtrations-and-the-cost-of-lifting-a-relation
+  - research/arguments/equations/global_lifting_interfaces.md#actual-generator-filtrations-and-the-cost-of-lifting-a-relation
 independent_audits:
-  - research/synthesis/global_lifting_interfaces.md#actual-generator-filtrations-and-the-cost-of-lifting-a-relation
+  - research/arguments/equations/global_lifting_interfaces.md#actual-generator-filtrations-and-the-cost-of-lifting-a-relation
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -35,8 +35,8 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../synthesis/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-equality-geometrymd)
-- [Independent audit](../synthesis/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd)
+- [Source proof](../arguments/equations/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-equality-geometrymd)
+- [Independent audit](../arguments/equations/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd)
 
 ## Dependencies and limitations
 
@@ -46,4 +46,4 @@ Dependencies: STCI-R-0032. Additional inherited premises are in the proof and au
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

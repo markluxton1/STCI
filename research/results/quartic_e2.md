@@ -24,16 +24,16 @@ The dx=1/P-044 residual slice is independently closed by the later saturation ce
 
 ## Full proofs and exact support
 
-The [universal primitive-fourth proof and independent contact calculation](../synthesis/normal_carrier_compression.md#2026-10-06-primitive-quadruple-universal)
+The [universal primitive-fourth proof and independent contact calculation](../arguments/carriers/normal_carrier_compression.md#2026-10-06-primitive-quadruple-universal)
 retain the obstruction zero locus, every parameter chart and cubic-times-
-linear quartic kernel. The [earlier incidence and surviving-family analysis](../synthesis/normal_filtration_boundary_obstructions.md#e2-obstruction-primitive-structures-and-quartic-incidence)
+linear quartic kernel. The [earlier incidence and surviving-family analysis](../arguments/normal-geometry/e2_primitive_quartic_incidence.md#e2-obstruction-primitive-structures-and-quartic-incidence)
 retains the false universal-exclusion counterexample and the distinct
 primitive-septuple consequences. The separate
 [quartic-carrier theorem](quartic_carrier_exclusion.md) excludes every mate
 degree for integral quartic carriers of this fixed curve in characteristic zero.
 
-The [universal quadruple replays](../synthesis/normal_carrier_compression.md#reproduction-and-continuation-evidence)
-and [quartic-factor and incidence evidence](../synthesis/normal_filtration_boundary_obstructions.md#reproducibility-and-epistemic-status)
+The [universal quadruple replays](../arguments/carriers/normal_carrier_compression.md#reproduction-and-continuation-evidence)
+and [quartic-factor and incidence evidence](../arguments/normal-geometry/e2_primitive_quartic_incidence.md#reproducibility-and-epistemic-status)
 give the exact checks and their scopes. The repaired boundary
 checker now states its actual `x!=0` chart, and the incidence checker
 allows exact rational coefficients after clearing parameter denominators;

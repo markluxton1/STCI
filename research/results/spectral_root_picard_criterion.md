@@ -12,9 +12,9 @@ scope:
 statement: "A degree-s second quotient relation coprime in every fiber exists iff the direction line bundle O_Z(s) descends from the base along the full finite flat root scheme Z, including nilpotents."
 dependencies: []
 evidence:
-  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
+  - "research/arguments/spectral/moving_power_and_spectral_roots.md"
 independent_audits:
-  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
+  - "research/arguments/spectral/moving_power_and_spectral_roots.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -57,11 +57,11 @@ The spectral criterion covers singular and nonreduced root schemes; [STCI-R-0005
 
 ## Evidence
 
-- [Original spectral root-curve proof](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations).
-- [Independent spectral audit](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
+- [Original spectral root-curve proof](../arguments/spectral/moving_power_and_spectral_roots.md#2026-10-14-generalization-spectral-root-curve-relations).
+- [Independent spectral audit](../arguments/spectral/moving_power_and_spectral_roots.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
 
 The current full proof and its independently reconstructed scope are linked above; no ambient existence claim is asserted.
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

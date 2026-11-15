@@ -76,7 +76,7 @@ The theorem gives no flatness or vanishing claim for \(Q\) or \(\Delta\).
 If \(G\) is flat, every torsion class of \(Q\) lies in \(\Delta\).
 Whether such punctual torsion occurs on the normal-flat locus remains
 open here. See also the
-[broader sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+[broader sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 No identification of the full filtered
 scheme from its cone or defect and no global quartic realization follows.
 
@@ -96,5 +96,5 @@ applies to the chosen transverse slice in the formal two-equation setting.
 The October 24 source records independent reconstruction of its local
 specialization development. It uses the earlier local equation comparison
 and the inherited supported quadruple calculation.
-[Specialization source](../synthesis/rees_and_vertical_controls.md#delta-transverse-specialization-and-normal-flatness) ·
+[Specialization source](../arguments/normal-geometry/rees_equation_persistence.md#delta-transverse-specialization-and-normal-flatness) ·
 [Supported quadruple](supported_quadruple_equation_filtration.md)

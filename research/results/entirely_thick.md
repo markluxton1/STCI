@@ -26,7 +26,7 @@ Writing \(\alpha=a/p,\beta=b/q\), the second inequality is
 \frac{7}{4}\alpha\beta+7\ge4(\alpha+\beta),\qquad \alpha,\beta\ge3.
 \]
 In particular, \(\alpha=3\) forces \(\beta\ge4\), excluding \((3,3)\).
-The [supported-cycle proof](../synthesis/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction)
+The [supported-cycle proof](../arguments/normal-geometry/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction)
 derives these bounds.
 
 ## The exact \((3,4)\) boundary
@@ -38,7 +38,7 @@ constant sections. The divisor cut by \(F_a\) on \(Q\), after subtracting
 \(pC_0\), consists of \(2p\) rulings counted with multiplicity. At most
 \(\min(p,q)\) are distinct, so at least one is repeated. This is a necessary
 restriction on the exact boundary. See the
-[proof of the ruling count](../synthesis/rees_and_vertical_controls.md#the-exact-supported-3p4q-boundary-and-distinct-residual-roots).
+[proof of the ruling count](../arguments/normal-geometry/rees_and_vertical_controls.md#the-exact-supported-3p4q-boundary-and-distinct-residual-roots).
 
-The [higher-order Rees question](../FRONTIER.md#higher-order-rees-data-for-entirely-thick-pairs)
+The [higher-order Rees question](../frameworks/formal-normal-geometry/open_normal_geometry.md#higher-order-rees-data-for-entirely-thick-pairs)
 concerns the remaining entirely-thick branch.

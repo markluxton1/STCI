@@ -343,14 +343,14 @@ invariant pairs.
 
 Take a pure \(Z\) with \(Z_{\mathrm{red}}=C\) and generic length \(m\).
 Use \(r,u,v\) on \(\Omega\) as in
-[the torus chart](../synthesis/toric_sextic_residuals_and_limits.md#intrinsic-and-transverse-actions).
+[the torus chart](../frameworks/torus-supported-boundaries/weights_and_limits.md#intrinsic-and-transverse-actions).
 Since \((u-1,v-1)^m\) vanishes on the generic normal algebra, it vanishes
 on \(Z\cap\Omega\) by purity. Its full closure \(W\) in
 \(\mathbf P^1_r\times\mathbf G_m^2\) lies in this fixed finite neighborhood.
 On the interior purity gives torsion-freeness over \(k[r,r^{-1}]\), and
 contraction to the endpoint charts gives torsion-freeness there. Thus \(W\)
 is finite flat of rank \(m\). The
-[projective parametrization](../synthesis/tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map)
+[projective parametrization](torus/tropical_thickenings_and_endpoint_duality.md#a-reduced-tropical-model-and-the-exact-normal-map)
 factors through \(Z\) because the equations of \(Z\) vanish on the
 schematically dense open of \(W\) over the torus. The map \(\rho:W\to Z\)
 is proper and is an isomorphism on reduced supports, so it is finite.
@@ -486,7 +486,7 @@ This example uses a pure scheme image and makes no CI hypothesis.
 Suppose an actual characteristic-zero \((6,6)\) CI has sole reduced
 support \(C\). Then \(m=9\), \(P_Z(n)=36n-144\), and
 \(\delta_0+\delta_\infty=153+h\) with \(h>0\) by the
-[strict movement theorem](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
+[strict movement theorem](torus/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
 By (3) each embedded endpoint fiber \(B\), viewed in both quotient
 frames, must satisfy
 \[
@@ -570,7 +570,7 @@ Independent reconstruction checked (5), the two weighted basis bounds,
 the opposite-frame refinements, and the degree-six exclusion for
 \(j=8,\ c\ne1\). These are necessary conditions for each embedded
 endpoint fiber. The all-pair
-[sextic reduction](../supplements/SEXTIC_PAIR_REDUCTION.md#why-every-pair-is-generically-curvilinear)
+[sextic reduction](carriers/sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear)
 gives generic curvilinearity on the curve, so noncurvilinear endpoint
 fibers with nonzero fourth power remain among the possibilities.
 
@@ -617,15 +617,15 @@ characteristic conclusion. It uses no computation and supplies no arbitrary-pair
 reduction. The Argument is complete as an exposition.
 
 Source support for the direct sections is the
-[Hilbert-boundary account](../synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
+[Hilbert-boundary account](equations/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
 the
 [original attracting-locus formulation](https://github.com/markluxton1/STCI/blob/b3db4bfcc4b70d85a13ff1862b2a81a553f78b39/research/synthesis/torus_attracting_strata_and_generator_incidence.md),
 and the eigenvector-lifting paragraph of
-[positive movement](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
+[positive movement](torus/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier).
 The first source records an October 31 scope review, and the third records a separate review of its proof and characteristic extensions. Those reviews are distinct from this reconstruction review. The first source's surrounding trace obstruction
 has characteristic-zero framing; the bounded geometric proof here
 works in every characteristic, with that scope explicitly included
 in the reconstruction review. The research questions of the attracting-locus
-source now live in [F-0001](../frameworks/torus_supported_boundaries.md#directional-loci),
+source now live in [F-0001](../frameworks/torus-supported-boundaries/index.md#directional-loci),
 [I-0001](../investigations/supported-generator-incidence/index.md#question),
 and [I-0002](../investigations/quotient-hilbert-comparison/index.md#question).

@@ -83,7 +83,7 @@ The projective construction permits residual components. The calculation
 controls the completion along the affine part of the marked line. The point
 at infinity and the fixed quartic are outside this calculation. The generic
 defect here is nonzero, so this example lies outside the
-[punctual sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+[punctual sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 The general comparison with
 the extended Rees torsion filtration also remains open.
 

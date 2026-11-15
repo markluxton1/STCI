@@ -6,20 +6,16 @@ C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3,
 \]
 can two homogeneous surfaces have reduced intersection exactly \(C_0\)?
 Over an algebraically closed field of characteristic zero, **this remains open**.
-In **every positive characteristic**, the fixed curve is an STCI using a
-quartic carrier. The contrast is part of the problem, not an exception to hide.
+In [every positive characteristic](research/arguments/arithmetic/positive_characteristic_constructions.md)
+the same fixed curve is an STCI using a quartic carrier.
 
-Start with the [approaches and reading routes](research/INDEX.md). The
-[mechanism map](research/MAP.md) connects proofs across approaches, while the
-[open interfaces](research/FRONTIER.md) identify exact missing implications.
-Find exact statements and their proof and review routes in the
-[research catalog](research/CATALOG.md).
+Start with the [research index](research/INDEX.md) for the curve and exact
+proof routes, or the [framework map](research/MAP.md) to compare approaches
+and find [active investigations](research/MAP.md#questions-and-active-work).
+The repository studies proper intersections containing \(C_0\), their
+multiplicities and residual cycles, and the embedded structures realized by
+actual homogeneous equations. The STCI question asks when the residual cycle
+can disappear.
 
-The repository includes existence constructions, carrier exclusions,
-infinitesimal geometry, residual intersections, descent and gluing, arithmetic
-comparisons, and useful counterexamples. Studying a proper intersection
-containing \(C_0\), with residual components allowed, is often informative.
-The STCI question requires those residual components to disappear.
-
-The research model governs [evidence and scoped review](research/MODEL.md#evidence-and-review)
-and [retention of exact proof support](research/MODEL.md#exact-proof-support-and-retention).
+[Results and proofs](research/CATALOG.md), [literature](research/literature/README.md),
+and the [contribution workflow](research/MODEL.md) are shared across approaches.

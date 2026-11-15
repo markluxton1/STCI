@@ -12,10 +12,10 @@ statement: "No such all-orders formal Cartier lift exists. In particular, any su
 dependencies:
   - STCI-R-0005
 evidence:
-  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
+  - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 independent_audits:
-  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
-  - "research/synthesis/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
+  - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
+  - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -48,4 +48,4 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

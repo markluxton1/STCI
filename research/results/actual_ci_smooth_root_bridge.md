@@ -15,10 +15,10 @@ statement: "The actual intersection of the two strict divisors is a primitive el
 dependencies:
   - STCI-R-0005
 evidence:
-  - "research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md"
+  - "research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md"
 independent_audits:
-  - "research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md"
-  - "research/supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md"
+  - "research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md"
+  - "research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -53,12 +53,12 @@ For the balanced rational-space-curve movement-two smooth-root setting of [STCI-
 
 ## Evidence
 
-- [Actual-CI bridge theorem](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge)
-- [Independent generic local-algebra review](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-local-algebra-review)
-- [Independent full-scope audit (PASS)](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit)
+- [Actual-CI bridge theorem](../arguments/spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge)
+- [Independent generic local-algebra review](../arguments/spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-local-algebra-review)
+- [Independent full-scope audit (PASS)](../arguments/spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit)
 
 The characteristic-zero predecessor and characteristic-free formal-tower addendum are cited and treated as inherited premises in these notes.
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

@@ -408,8 +408,8 @@ retains the actual coefficient modules and the filtration induced
 on \(J/IJ\). The recursive family realizes a single page of incoming
 cancellations with arbitrary prescribed positive page and unbounded rank.
 
-The [extended Rees torsion comparison](../synthesis/rees_and_vertical_controls.md#evidence-scope-and-the-remaining-geometric-bridge)
+The [extended Rees torsion comparison](normal-geometry/rees_equation_persistence.md#evidence-scope-and-the-remaining-geometric-bridge)
 still needs a general identification of its \(u\)-power filtration
 with the incoming differential filtration. The
-[punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+[punctual relative-defect question under sole support](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support)
 also remains open.

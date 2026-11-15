@@ -39,9 +39,9 @@ restriction beyond the individual Hilbert-polynomial and defect budgets?
 
 ## Purpose
 
-[F-0001](../../frameworks/torus_supported_boundaries.md) organizes full
+[F-0001](../../frameworks/torus-supported-boundaries/index.md) organizes full
 supported limits and moving equations.
-[F-0002](../../frameworks/embedded_torus_quotients.md) retains embedded
+[F-0002](../../frameworks/embedded-torus-quotients/index.md) retains embedded
 quotients and projective contraction. This joint investigation asks for the
 missing mathematical bridge between those objects. It does not identify them
 because they share a defect length or resemble one another geometrically.
@@ -56,7 +56,7 @@ tests its actual generators. The constant-quotient construction,
 [R-0053](../../results/constant_quotient_equation_criterion.md) give controlled
 comparisons, not coverage of every moving family.
 
-The broader [entire finite-modification argument](../../synthesis/tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
+The broader [entire finite-modification argument](../../arguments/torus/tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification)
 has its own scoped review. Starting with a proper homogeneous pair of
 degrees \((a,b)\) with sole reduced support \(C_0\), it takes the full
 closure of the torus restriction. It gives a rank-\(m\) quotient bundle
@@ -65,7 +65,7 @@ satisfying
 \[
 \delta_0+\delta_\infty=e+m(2a+2b-7).
 \]
-Its [strict-movement proof](../../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier)
+Its [strict-movement proof](../../arguments/torus/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier)
 requires characteristic zero or characteristic \(p>0\) with \(p\nmid ab\).
 For \((6,6)\), the rank is nine and \(\delta_0+\delta_\infty=e+153\),
 with \(e>0\) in that range. A constant quotient has \(e=0\). Conversely,

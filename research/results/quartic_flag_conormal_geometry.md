@@ -11,11 +11,11 @@ statement: "The marked incidence is a smooth complete flag threefold; degree-two
 dependencies:
   - STCI-R-0020
 evidence:
-  - "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
-  - "research/supplements/QUARTIC_CONORMAL_AND_CONTACT.md"
+  - "research/arguments/curve/quartic_dual_flags_and_bitangents.md"
+  - "research/arguments/curve/quartic_conormal_and_contact.md"
   - "https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/computations/quartic_flag_incidence_2026_10_24.json"
 independent_audits:
-  - "research/supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md"
+  - "research/arguments/curve/quartic_dual_flags_and_bitangents.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -55,4 +55,4 @@ Do not identify the conormal normalization with C0 inside its containing quadric
 
 ## Current proof
 
-[Divisor flags, secants and bitangent correspondences](../supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md), [Marked conormal normalization and higher contact](../supplements/QUARTIC_CONORMAL_AND_CONTACT.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+[Divisor flags, secants and bitangent correspondences](../arguments/curve/quartic_dual_flags_and_bitangents.md), [Marked conormal normalization and higher contact](../arguments/curve/quartic_conormal_and_contact.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

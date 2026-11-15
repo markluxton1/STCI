@@ -12,10 +12,10 @@ scope:
 statement: "No such smooth movement-two root Z has an all-orders embedded Cartier lift in the exceptional formal completion."
 dependencies: []
 evidence:
-  - "research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md"
-  - "research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md"
+  - "research/arguments/spectral/finite_root_families_and_smooth_obstructions.md"
+  - "research/arguments/spectral/finite_root_families_and_smooth_obstructions.md"
 independent_audits:
-  - "research/supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md"
+  - "research/arguments/spectral/finite_root_families_and_smooth_obstructions.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -50,16 +50,16 @@ The contradiction in the (2,r) case proves the theorem.
 
 For the fixed characteristic-zero C0, this excludes an **infinite compatible formal lift** of every smooth movement-two root, uniformly over first normal orders r>=2. The finite-tower argument implies that, for each fixed r, some finite stage already has no such smooth lifts; it does **not** provide an explicit stage.
 
-This does **not** by itself exclude an actual STCI with that initial root. To transfer it to actual intersections requires the independently audited actual-CI blowup bridge, including its saturated first relation, joint generation of leading sections, full generic initial regular sequence, a gap of at least two, and a smooth full root. See [bridge proof](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge) and [independent bridge audit](../supplements/UNIFORM_ROOT_TOWERS_AND_INSEPARABLE_BRIDGES.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit).
+This does **not** by itself exclude an actual STCI with that initial root. To transfer it to actual intersections requires the independently audited actual-CI blowup bridge, including its saturated first relation, joint generation of leading sections, full generic initial regular sequence, a gap of at least two, and a smooth full root. See [bridge proof](../arguments/spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge) and [independent bridge audit](../arguments/spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge-independent-audit).
 
 ## Evidence
 
-- [Formal-root theorem and general numerical criterion](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence)
-- [Independent formal-root audit](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
-- [Characteristic-scope addendum](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
+- [Formal-root theorem and general numerical criterion](../arguments/spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-formal-nonexistence)
+- [Independent formal-root audit](../arguments/spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
+- [Characteristic-scope addendum](../arguments/spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
 
 No component proof was rerun during consolidation; the theorem and audit remain available on the Ultra branch.
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

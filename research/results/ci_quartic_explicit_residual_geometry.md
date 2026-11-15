@@ -11,9 +11,9 @@ statement: "The (2,3) pair has a smooth degree-12 genus-16 residual; the (1,1) p
 dependencies:
   - STCI-R-0021
 evidence:
-  - "research/synthesis/explicit_quartic_residuals.md"
+  - "research/arguments/residuals/explicit_quartic_residuals.md"
 independent_audits:
-  - "research/synthesis/explicit_quartic_residuals.md"
+  - "research/arguments/residuals/explicit_quartic_residuals.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -47,4 +47,4 @@ No universal statement about quartic pairs or STCI.
 
 ## Current proof home
 
-The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/explicit_quartic_residuals.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.
+The complete consolidated proof and its exact qualifications are in [the mathematical account](../arguments/residuals/explicit_quartic_residuals.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.

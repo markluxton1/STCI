@@ -14,10 +14,10 @@ dependencies:
   - STCI-R-0034
   - STCI-R-0001
 evidence:
-  - research/supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md
-  - research/synthesis/normalization_indices_and_power_descent.md#normal-carriers-class-group-torsion-symbolic-triples-and-local-indices
+  - research/arguments/carriers/normal_index_socle_and_torsion.md
+  - research/arguments/carriers/normal_carrier_symbolic_torsion.md#normal-carriers-class-group-torsion-symbolic-triples-and-local-indices
 independent_audits:
-  - research/synthesis/normalization_indices_and_power_descent.md#normal-carriers-class-group-torsion-symbolic-triples-and-local-indices
+  - research/arguments/carriers/normal_carrier_symbolic_torsion.md#normal-carriers-class-group-torsion-symbolic-triples-and-local-indices
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -39,9 +39,9 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem)
-- [Source proof](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-normal-carrier-torsion)
-- [Independent audit](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-index12-filtered-compatibility)
+- [Source proof](../arguments/carriers/normal_index_socle_and_torsion.md#2026-10-14-generalization-normal-index-socle-theorem)
+- [Source proof](../arguments/carriers/normal_carrier_symbolic_torsion.md#2026-10-14-generalization-normal-carrier-torsion)
+- [Independent audit](../arguments/carriers/normal_carrier_symbolic_torsion.md#2026-10-14-generalization-index12-filtered-compatibility)
 
 ## Dependencies and limitations
 
@@ -51,4 +51,4 @@ Dependencies: STCI-R-0034, STCI-R-0001. Additional inherited premises are in the
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

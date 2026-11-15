@@ -11,11 +11,11 @@ statement: "The fixed-boundary Grassmannian fiber is smooth of dimension 14 and 
 dependencies:
   - STCI-R-0023
 evidence:
-  - "research/synthesis/fixed_boundary_smoothing.md"
+  - "research/arguments/residuals/fixed_boundary_smoothing.md"
   - "research/computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py"
   - "research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json"
 independent_audits:
-  - "research/synthesis/fixed_boundary_smoothing.md"
+  - "research/arguments/residuals/fixed_boundary_smoothing.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -48,4 +48,4 @@ No explicit polynomial or rational coefficient arc, nor universal theorem for al
 
 ## Current proof home
 
-The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/fixed_boundary_smoothing.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.
+The complete consolidated proof and its exact qualifications are in [the mathematical account](../arguments/residuals/fixed_boundary_smoothing.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.

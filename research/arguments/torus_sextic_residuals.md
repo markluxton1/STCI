@@ -5,6 +5,8 @@ title: Sextic orbit quotients, residual curves, and full torus limits
 status: complete
 scope: "#scope"
 conclusion: "#conclusion"
+aliases:
+  STCI-I-0003: "#finite-replay-evidence"
 ---
 # Sextic orbit quotients, residual curves, and full torus limits
 
@@ -812,7 +814,7 @@ point is additional Hilbert-scheme data. The full sextic limit
 retains multiplicity along the moved cycle, while the original
 quartic has left its support.
 
-The [exact Macaulay2 replay](../investigations/torus-residual-controls/verify_transverse_limit.m2)
+The [exact Macaulay2 replay](torus-sextic-controls.support/verify_transverse_limit.m2)
 checks parameter and irrelevant saturation, the two specialized
 ideals, the embedded point, and both Hilbert series over \(\mathbf Q\).
 The monomial and regular-sequence proofs give their geometric
@@ -832,13 +834,13 @@ in the last two mathematical sections. The multiplicity and colon
 arguments have separate reusable Results. The trace proof and its
 congruence/factor qualifications come from the first four substantive
 sections of
-[weight restrictions](../supplements/EQUIVARIANT_DEGREE_BOUNDS.md).
+[weight restrictions](torus/equivariant_degree_bounds.md).
 The later extreme-component/two-weight results, sharp large-prime
 attainment, and three/two-weight cancellation control remain in that
 source; they are not premises silently imported here.
 
 The exact verifier
-[finite polynomial identities](../investigations/torus-residual-controls/verify.py)
+[finite polynomial identities](torus-sextic-controls.support/verify.py)
 checks Segre substitutions, the generator-change identity, matrix minors,
 the cancellation relation, Hilbert-numerator arithmetic and degree sums.
 The proofs above show why those identities establish their claimed
@@ -846,7 +848,7 @@ geometric assertions. The verifier does not certify saturation, flatness,
 primary decomposition, all-characteristic coverage, or a general
 classification. Those conclusions are proved in the text, without
 depending on sampled finite-field ranks. The inherited source-space
-and sole-support reductions in the [sextic source-space and pencil account](../synthesis/toric_sextic_residuals_and_limits.md#sextic-source-spaces-and-pencils)
+and sole-support reductions in the [sextic source-space and pencil account](../frameworks/torus-supported-boundaries/weights_and_limits.md#sextic-source-spaces-and-pencils)
 retain their existing proof owners.
 
 ## Conclusion
@@ -890,3 +892,33 @@ No blanket classification as an intrinsic replacement proof is made.
 
 Independent acceptance covers the nine reconstructed routes within their stated scopes. It neither proves a deformation preserving sole support nor establishes an unrestricted characteristic-zero STCI theorem. The Argument's complete status
 records the completed exposition.
+
+<a id="finite-replay-evidence"></a>
+
+## Finite replay evidence
+
+The completed finite-control activity is retired here; its reusable scripts are
+kept in [support scripts](torus-sextic-controls.support/verify.py).
+The controls cover four exact data groups: endpoint ranks, determinants and
+truncated algebra identities; degree-six source and double-jet profiles;
+ambient substitutions, generator changes, minors and cancellations; and CI
+Hilbert numerators and degree sums. For each group the test suite runs the
+original assertion and rejects a deliberately altered datum in an isolated
+temporary namespace. All four groups and all four negative controls passed.
+
+These replays cover only their listed inputs. They do not prove saturation,
+flatness, primary structure, exhaustive family coverage, or all-characteristic
+statements. In particular the source-profile checks retain the existing
+double-sextic source dimension 23; they give no new length-nine obstruction.
+Finite-field samples supply no all-primes claim. The transverse length-two
+Macaulay2 replay checks parameter and irrelevant saturation, the specialized
+full ideals and Hilbert series over \(\mathbf Q\); its geometric meaning and
+limits are proved above.
+
+From the repository root, run:
+
+```sh
+python3 -B research/arguments/torus-sextic-controls.support/verify.py
+python3 -B -m unittest discover -s research/arguments/torus-sextic-controls.support -p 'test_*.py' -v
+M2 --script research/arguments/torus-sextic-controls.support/verify_transverse_limit.m2
+```

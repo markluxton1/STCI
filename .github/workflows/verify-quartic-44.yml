@@ -9,7 +9,7 @@ on:
       - 'research/results/quartic_normal_initial_base_change.md'
       - 'research/results/quartic_actual_symbols.md'
       - 'research/results/quartic_pair_normal_order_reduction.md'
-      - 'research/synthesis/quartic_pair_obstruction.md'
+      - 'research/arguments/normal-geometry/quartic_pair_obstruction.md'
       - 'research/results/quartic_44_filtered_exclusion.md'
       - 'research/results/quartic_conormal_characteristic_jump.md'
       - 'research/results/quartic_mu4_degeneration.md'

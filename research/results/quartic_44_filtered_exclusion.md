@@ -12,12 +12,12 @@ statement: "No two quartic forms F,G satisfy V(F,G)_red=C0. The filtered-contact
 dependencies:
   - "STCI-R-0020"
 evidence:
-  - "research/synthesis/quartic_pair_obstruction.md"
-  - "research/synthesis/intrinsic_fourth_extension.md"
+  - "research/arguments/normal-geometry/quartic_pair_obstruction.md"
+  - "research/arguments/normal-geometry/intrinsic_fourth_extension.md"
   - "research/computations/verify_44_filtered_contact_2026_10_23.py"
   - "research/computations/audit_mf6_e1_primitive_2026_10_07.py"
 independent_audits:
-  - "research/synthesis/quartic_pair_obstruction.md"
+  - "research/arguments/normal-geometry/quartic_pair_obstruction.md"
   - "https://github.com/markluxton1/STCI/blob/f2f5c4dbe5bef0eeb5112d402ffeb513133b43bc/research/computations/audit_44_filtered_contact_2026_10_23.py"
 legacy_ids: []
 supersedes: []
@@ -38,7 +38,7 @@ The curve is \(C_0=[s^4:s^3t:st^3:t^4]\), or a projective equivalent. A proper q
 
 ## Proof and dependencies
 
-The [quartic-pair chapter](../synthesis/quartic_pair_obstruction.md) gives the proofs in full. Its common reduction uses R-0020, the unique smooth quadric, complete-intersection duality and rank-four Gorenstein algebra, yielding \(L=\mathcal O(-7),\deg D=3\) or \(L=\mathcal O(-6),D=0\).
+The [quartic-pair chapter](../arguments/normal-geometry/quartic_pair_obstruction.md) gives the proofs in full. Its common reduction uses R-0020, the unique smooth quadric, complete-intersection duality and rank-four Gorenstein algebra, yielding \(L=\mathcal O(-7),\deg D=3\) or \(L=\mathcal O(-6),D=0\).
 
 The filtered-contact proof enumerates the allowed triples and their complete quartic sources, then proves a nonzero cubic-contact determinant for every nonfactored pencil. Exact source matrices and the retained scripts supply its finite calculation dependencies; orbit exhaustion and uniqueness of the quadratic correction are proved in the chapter.
 
@@ -50,4 +50,4 @@ The theorem's scope and prior independent reviews of the filtered-contact and K3
 
 ## Consequences and limitations
 
-This is a bounded obstruction to a \((4,4)\) pair, useful for understanding actual-source lifting and global exceptional-rank budgets. It does not replace R-0001's arbitrary-mate-degree quartic-carrier theorem or resolve unrestricted characteristic-zero STCI. The [independently reconstructed fourth-extension proof](../synthesis/intrinsic_fourth_extension.md) now supplies an embedded-neighborhood argument. It classifies the two allowed saturated quadruple types through their contact-extension classes, leaving only 4C on Q; elementary quadric restriction then rules out a proper quartic pair. This alternative uses exact transition calculations but no source-pencil orbit list or global surface bound. The stronger intermediate classification is recorded as a reviewed mathematical result; it has no separate result ID.
+This is a bounded obstruction to a \((4,4)\) pair, useful for understanding actual-source lifting and global exceptional-rank budgets. It does not replace R-0001's arbitrary-mate-degree quartic-carrier theorem or resolve unrestricted characteristic-zero STCI. The [independently reconstructed fourth-extension proof](../arguments/normal-geometry/intrinsic_fourth_extension.md) now supplies an embedded-neighborhood argument. It classifies the two allowed saturated quadruple types through their contact-extension classes, leaving only 4C on Q; elementary quadric restriction then rules out a proper quartic pair. This alternative uses exact transition calculations but no source-pencil orbit list or global surface bound. The stronger intermediate classification is recorded as a reviewed mathematical result; it has no separate result ID.

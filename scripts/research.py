@@ -252,11 +252,17 @@ class Repository:
         entries = self.index_links()
         prose = {path for path, labels in entries if not labels}
         candidates = set(path for path, _ in entries)
+        argument_pages = set()
         for folder in ("results", "arguments", "frameworks", "questions"):
             directory = self.root / "research" / folder
             for candidate in directory.rglob("*.md"):
-                if folder == "results" and any(part.endswith(".support") for part in candidate.relative_to(directory).parts[:-1]):
+                parents = candidate.relative_to(directory).parts[:-1]
+                if folder in {"results", "arguments"} and any(part.endswith(".support") for part in parents):
                     continue  # Proof attachments are not additional objects.
+                if folder == "frameworks" and parents and candidate.name != "index.md":
+                    continue  # Framework exposition is scoped through its owning index.
+                if folder == "arguments" and parents:
+                    argument_pages.add(candidate)
                 candidates.add(candidate)
         candidates.update(p for p in (self.root / "research/investigations").rglob("*.md") if p.name == "index.md")
         candidates.update((self.root / "research/investigations").glob("*.md"))
@@ -273,7 +279,7 @@ class Repository:
                 # Existing navigation is recognized by its explicit prose role,
                 # not a permanent list of exempt filenames or IDs.
                 navigation = path.name in {"INDEX.md", "README.md"} and path.parent in {self.root / "research" / name for name in ("results", "questions", "arguments", "frameworks", "investigations")}
-                if (path in prose or navigation) and not source.startswith("---") and not re.search(r"^\s*(?:id|type):", source, re.M):
+                if (path in prose or path in argument_pages or navigation) and not source.startswith("---") and not re.search(r"^\s*(?:id|type):", source, re.M):
                     continue
                 self.error(path, "missing YAML front matter")
                 continue
@@ -376,7 +382,14 @@ class Repository:
         if not record.id.startswith(f"STCI-{TYPES[kind]}-"):
             self.error(path, "ID/type mismatch")
         expected = self.root / "research" / {"result": "results", "argument": "arguments", "framework": "frameworks", "investigation": "investigations"}[kind]
-        valid_location = (path.parent.parent == expected and path.name == "index.md") if kind == "investigation" else path.parent == expected
+        root_page = path.parent == expected
+        topic_page = path.parent.parent == expected
+        valid_location = {
+            "result": root_page,
+            "argument": root_page or topic_page,
+            "framework": root_page or (topic_page and path.name == "index.md"),
+            "investigation": topic_page and path.name == "index.md",
+        }[kind]
         if not valid_location:
             self.error(path, "type/location mismatch")
         if not isinstance(data.get("title"), str) or not data.get("title", "").strip():
@@ -465,15 +478,20 @@ class Repository:
             normalized = dict(relation, **{"from": sorted(groups[0]), "to": sorted(groups[1])})
             self.relations.append((record, normalized))
 
-    def support_links(self, record):
-        # Reuse extraction and anchors, but keep roots instance-local. Markdown
-        # body links are document-relative; metadata locations are root-relative.
-        source = record.path.read_text(encoding="utf-8")
+    @staticmethod
+    def body_links(path, *, images=False):
+        source = path.read_text(encoding="utf-8")
         end = re.search(r"^(?:---|\.\.\.)\s*$", source[4:], re.M)
         source = source[4 + end.end():] if end else source
         visible = "\n".join(links.visible_lines(source))
-        for match in list(links.LINK.finditer(visible)) + list(IMAGE.finditer(visible)) + list(links.REFERENCE.finditer(visible)):
-            raw = match.group(1).strip("<>")
+        patterns = (links.LINK, IMAGE, links.REFERENCE) if images else (links.LINK, links.REFERENCE)
+        for pattern in patterns:
+            for match in pattern.finditer(visible):
+                yield match.group(1).strip("<>")
+
+    def support_links(self, record):
+        # Markdown body links are document-relative; metadata locations are root-relative.
+        for raw in self.body_links(record.path, images=True):
             try:
                 parsed = urlsplit(raw)
             except ValueError as exc:
@@ -685,6 +703,45 @@ class Repository:
             lines.append(f"- {r.id}: {'; '.join(sorted(set(incoming))) if incoming else 'no declared backlinks' }.")
         return "\n".join(lines).rstrip() + "\n"
 
+    def frameworks(self):
+        self.checked()
+        frameworks = sorted((r for r in self.records.values() if r.type == "framework"), key=lambda r: r.id)
+        activities = {
+            r.id for r in self.records.values()
+            if r.type == "investigation" and r.data["status"] in {"active", "planned"}
+        }
+        relevant = {r.id for r in frameworks} | activities
+        by_path = {self.records[rid].path.resolve(): rid for rid in relevant}
+        neighbors = {rid: set() for rid in relevant}
+        for rid in relevant:
+            record = self.records[rid]
+            for raw in self.body_links(record.path):
+                parsed = urlsplit(raw)
+                if parsed.scheme or parsed.netloc or not parsed.path:
+                    continue
+                target = by_path.get((record.path.parent / unquote(parsed.path)).resolve())
+                if target and target != rid:
+                    neighbors[rid].add(target)
+                    neighbors[target].add(rid)
+        for _, relation in self.relations:
+            for source in relevant.intersection(relation["from"]):
+                for target in relevant.intersection(relation["to"]):
+                    neighbors[source].add(target)
+                    neighbors[target].add(source)
+
+        lines = ["Research frameworks"]
+        for record in frameworks:
+            lines += ["", f"{record.id} — {record.data['title']} ({record.data['status']})",
+                      f"- Entry — {self.url(record, catalog=False)}",
+                      f"- Scope — {self.url(record, record.data['scope'], catalog=False)}",
+                      f"- Bridges — {self.url(record, record.data['bridges'], catalog=False)}"]
+            for rid in sorted(neighbors[record.id]):
+                related = self.records[rid]
+                label = f"{related.data['status'].capitalize()} investigation" if rid in activities else "Related framework"
+                anchor = related.data["question"] if rid in activities else ""
+                lines.append(f"- {label} {rid} — {related.data['title']} — {self.url(related, anchor, catalog=False)}")
+        return "\n".join(lines) + "\n"
+
     def review_summary(self, record, catalog=False):
         summaries = []
         if record.legacy and record.type == "result":
@@ -717,7 +774,7 @@ class Repository:
             raise ValueError(f"Unknown research ID or alias: {identifier}")
         lines = [f"{r.id} — {r.data['title']}", f"Type: {r.type}", f"Format: {'untyped record' if r.legacy else 'typed record'}", f"Review / activity: {self.review_summary(r)}", f"Location: {self.url(r, catalog=False)}"]
         if identifier in self.aliases:
-            destination = "whole untyped document" if r.legacy else self.aliases[identifier][1]
+            destination = "whole untyped document" if r.legacy else self.url(r, self.aliases[identifier][1], catalog=False)
             lines.append(f"Alias {identifier}: {destination}")
         if not r.legacy:
             lines.append(f"Scope: {self.url(r, r.data['scope'], catalog=False)}")
@@ -849,7 +906,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ("validate", "catalog", "show", "route", "section"):
+    for name in ("validate", "catalog", "frameworks", "show", "route", "section"):
         command = commands.add_parser(name)
         command.add_argument("--root", type=Path, default=argparse.SUPPRESS)
         if name == "catalog":
@@ -876,6 +933,8 @@ def main(argv=None):
             print(f"Validated {len(repository.records)} research records (declared structure only).")
         elif args.command == "show":
             print(repository.show(args.identifier), end="")
+        elif args.command == "frameworks":
+            print(repository.frameworks(), end="")
         elif args.command == "route":
             route = repository.compact_route if args.compact else repository.read_route
             print(route(args.lane), end="")

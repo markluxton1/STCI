@@ -5,6 +5,8 @@ title: Conormal splitting, mu4 specialization and actual quartic symbols
 status: complete
 scope: "#scope"
 conclusion: "#conclusion"
+aliases:
+  STCI-I-0004: "#finite-quartic-replay-evidence"
 ---
 # Conormal splitting, mu4 specialization and actual quartic symbols
 
@@ -578,7 +580,7 @@ of this `12x12` coefficient matrix has absolute value `2^15`.
 Consequently `H0(N^* tensor O_P1(6))=0`, independently excluding `O(6)(+)O(8)`.
 The two cubic columns above then provide the full splitting directly.
 
-The [homogeneous normal-bundle verifier](../investigations/quartic-specialization-controls/verify_session_quartic_normal_bundle_2026_10_10.m2)
+The [homogeneous normal-bundle verifier](quartic-specialization-controls.support/verify_session_quartic_normal_bundle_2026_10_10.m2)
 checks these same identities over \(\mathbf Q\). The separate conditional
 ribbon application belongs to the quartic-carrier bisection argument.
 
@@ -607,10 +609,10 @@ both endpoint contacts and the delta count, full normal initial ideals,
 base change, the quadric and alternate conormal frames, and the actual
 quartic symbol images. It used the previously established balanced splitting
 as a premise. It inspected the
-[Macaulay2 family check](../investigations/quartic-specialization-controls/verify_44_mu4_family_2026_10_23.m2)
+[Macaulay2 family check](quartic-specialization-controls.support/verify_44_mu4_family_2026_10_23.m2)
 and its successful log without rerunning that script in the audit. It
 constructed and ran the
-[exact symbol comparison](../investigations/quartic-specialization-controls/verify_44_quartic_symbol_comparison_2026_10_23.py)
+[exact symbol comparison](quartic-specialization-controls.support/verify_44_quartic_symbol_comparison_2026_10_23.py)
 over \(\mathbf Q\) and \(\mathbf F_2\) using all 35 quartic monomials
 and the integral 18-column restriction kernel. The script checks the two
 first-symbol matrices and the \(q^2\) kernel coordinates and reports the
@@ -623,7 +625,7 @@ included the family and symbol checks and the separate filtered-contact
 jobs. The geometry/symbol audit did not rerun the inherited quartic-carrier
 exclusion or the arithmetic lifting obstruction.
 
-The [transition verifier](../investigations/quartic-specialization-controls/verify_normal_bundle.py)
+The [transition verifier](quartic-specialization-controls.support/verify_normal_bundle.py)
 checks the two-chart normal transition, the quadratic Jacobian-syzygy matrix
 and the characteristic-three triple. The [October 10 independent audit](https://github.com/markluxton1/STCI/blob/8d4ea1ad5af2b26955571bb668ef1cc4a582fa3d/research/notes/2026-10-10-session-quartic-normal-bundle-independent-audit.md)
 gives the homogeneous Euler/Jacobian argument in characteristic zero and
@@ -631,3 +633,27 @@ records an exact execution of its companion check. Its conditional ribbon
 argument requires the separate geometric hypotheses stated in that audit.
 The computations corroborate the written proofs here. Current route review is
 recorded with each Result.
+
+<a id="finite-quartic-replay-evidence"></a>
+
+## Finite quartic replay evidence
+
+The completed finite-control activity is retired here; scripts and the
+negative-control test suite are in
+[support scripts](quartic-specialization-controls.support/verify_normal_bundle.py).
+Four replay groups cover the integral two-chart transition and selected prime
+fields, homogeneous derivative syzygies over \(\mathbf Q\), the prescribed
+\(\mu_4\) family including the characteristic-two ideal and endpoint data,
+and all 35 quartic monomials in the first- and second-symbol calculations over
+\(\mathbf Q\) and \(\mathbf F_2\). Each corrupted coefficient, determinant,
+ideal or expected rank is rejected by the corresponding test. The recorded
+run passed with Python 3.12, SymPy 1.14.0 and Macaulay2 1.26.06.
+
+The replays check these specified computations only. Flatness, full initial
+ideals, and characteristic scope follow from the geometric proofs and cited
+Results above; replay success alone gives no broader characteristic or
+coverage claim. From the repository root, with the named tools available, run:
+
+```sh
+python3.12 -B -m unittest discover -s research/arguments/quartic-specialization-controls.support -v
+```

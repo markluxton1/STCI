@@ -109,7 +109,7 @@ attains the transverse lower bound. The
 [punctual family with residual support](punctual_comparison_defect_family.md)
 has degree-three defect over a curve. The comparison concerns local
 equations. See the
-[open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+[open sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 
 ## Review
 

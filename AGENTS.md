@@ -1,24 +1,18 @@
-# STCI agent retrieval protocol
+# STCI research
 
-Start with the [INDEX route table](research/INDEX.md#find-a-statement-proof-or-open-question).
-Use [MAP](research/MAP.md) for cross-lane orientation before dated notes.
-Use `scripts/research.py show ID` for proof routes and declared consumers,
-and `route LANE --compact` or `section ADDRESS` for scoped reads.
-Follow the actual proof and necessary evidence before rederiving a claim.
+Start at the [lane routes](research/INDEX.md#find-a-statement-proof-or-open-question)
+and [framework map](research/MAP.md). Use `python3 scripts/research.py frameworks`
+to discover approaches, `show ID` for proofs and declared consumers,
+and `route LANE --compact` or `section ADDRESS` for scoped reading.
+Read the owning proof and necessary evidence before rederiving a claim.
 
-Identify the exact curve, characteristic, hypotheses, and question. Study
-containment and residual components before imposing sole support. A vertical
-exceptional component can arise from special-point geometry. For torus limits,
-keep the full ideal, Hilbert polynomial, support, embedded and endpoint
-structure, and additional generators. Distinguish the full ideal from two
-initial forms, normal-cone ideals, and cycles. On bounded supported loci, use
-opposite limits and attracting families where useful and test actual generation
-on the moving ideal. Fixed limits may require more generators. Any coverage
-claim needs its own proof and explicit degree, power, regularity, and
-characteristic bounds.
+Record the exact curve, characteristic, hypotheses and question. Study
+containment and residual support before imposing sole support. For a torus
+limit track the full saturated ideal, Hilbert polynomial, endpoint and
+embedded data, and generators. Test generation on the moving ideal and
+justify coverage of any exclusion.
 
-Use the [contribution workflow](research/MODEL.md#contribution-workflow) to
-choose an existing home or create an object. Use the [decision guide](research/RESEARCH_DECISION_GUIDE.md)
-to select bounded work. Give parallel agents nonoverlapping tasks and retire
-each when its findings are integrated. Follow the model's
-[validation and integration rules](research/MODEL.md#commands-and-integration).
+Use the [contribution workflow](research/MODEL.md#contribution-workflow).
+Put findings with their mathematical owners and revisit each affected
+Framework or Investigation. Give parallel agents nonoverlapping scopes and
+retire them after integration. Run the relevant [checks](research/MODEL.md#commands-and-integration).

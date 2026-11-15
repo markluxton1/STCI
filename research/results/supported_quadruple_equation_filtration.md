@@ -68,7 +68,7 @@ The image of \(T\) is \((X,Y)\overline H\).
 This is a local example along a marked line. The coexistence of torsion
 in \(Q\) and sole reduced support is compatible with vanishing of
 \(\Delta\). See the
-[open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support).
+[open sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 
 ## Review
 
@@ -94,5 +94,5 @@ zero relative defect for this example. The normal-cone regularity audit
 used this calculation as inherited evidence, and the October 26 local
 audit retained its scope as a control with sole support.
 [October 24 review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L69) ·
-[Normal-cone audit](../synthesis/rees_and_vertical_controls.md#4-next-directions-and-evidence-boundary) ·
+[Normal-cone audit](../arguments/normal-geometry/rees_equation_persistence.md#4-next-directions-and-evidence-boundary) ·
 [Scope of the October 26 local audit](local_filtration_comparison_defect.md#october-26-local-audit)

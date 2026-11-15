@@ -18,6 +18,6 @@ The criterion is carrier-specific.
 
 ## Proof and characteristic range
 
-The [full fixed-carrier theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md#4-an-exact-fixed-carrier-criterion-including-thick-support) proves this support-contained corollary in arbitrary characteristic. Every branch over C has positive vanishing order, so a sufficiently large power enters the full conductor over C; there are no off-C unit phases. Purity then gives global descent. This does not remove the need to produce the actual upstairs divisor and polarization relation.
+The [full fixed-carrier theorem](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#4-an-exact-fixed-carrier-criterion-including-thick-support) proves this support-contained corollary in arbitrary characteristic. Every branch over C has positive vanishing order, so a sufficiently large power enters the full conductor over C; there are no off-C unit phases. Purity then gives global descent. This does not remove the need to produce the actual upstairs divisor and polarization relation.
 
-The [local conductor algebra](../supplements/CONDUCTOR_DESCENT_ALGEBRA.md) explains the characteristic-zero versus Frobenius distinction when off-C unit phases are present.
+The [local conductor algebra](../arguments/carriers/conductor_descent_algebra.md) explains the characteristic-zero versus Frobenius distinction when off-C unit phases are present.

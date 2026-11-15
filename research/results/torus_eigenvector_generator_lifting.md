@@ -52,7 +52,7 @@ ordinary degree. It does not use a trace obstruction, a claim about
 deformation of a fixed ideal, or any computation.
 
 The source application is the minimal-generator paragraph in
-[positive movement and the global presentation barrier](../synthesis/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier),
+[positive movement and the global presentation barrier](../arguments/torus/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier),
 which states the diagonalization step in every characteristic. The
 present proof isolates that step from the finite-modification and trace
 arguments surrounding it.

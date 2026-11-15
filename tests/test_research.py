@@ -282,7 +282,7 @@ class ResearchTests(unittest.TestCase):
                     self.assertEqual({"argument": "draft", "framework": "proposed",
                                       "investigation": "planned"}[kind], data["status"])
                 default = f"research/{directory}/synthetic-template"
-                target = default + "/index.md" if kind == "investigation" else default + ".md"
+                target = default + "/index.md" if kind in {"framework", "investigation"} else default + ".md"
                 self.write(target, source)
         self.valid()
 
@@ -317,7 +317,8 @@ class ResearchTests(unittest.TestCase):
 
     def test_new_object_discovery_cannot_hide_malformed_metadata(self):
         for kind, location in (("argument", None),
-                               ("framework", "research/frameworks/formal-normal-geometry.md")):
+                               ("framework", "research/frameworks/formal-normal-geometry.md"),
+                               ("framework", "research/frameworks/geometry/index.md")):
             data = record(kind)
             path = self.put(data, path=location)
             self.valid()
@@ -326,6 +327,7 @@ class ResearchTests(unittest.TestCase):
                     path.write_text(content)
                     self.invalid()
             self.put(data, path=location)
+            path.unlink()
         self.put(record("investigation"), path="research/investigations/wrong-level.md")
         self.invalid()
 
@@ -349,14 +351,56 @@ class ResearchTests(unittest.TestCase):
         self.write("research/investigations/STCI-I-0001/notes.md", "# Exploratory notes\nNot an object.\n")
         self.valid()
         for kind, path in (("result", "research/results/nested/claim.md"),
-                           ("argument", "research/arguments/nested/development.md"),
-                           ("framework", "research/frameworks/nested/strategy.md"),
+                           ("argument", "research/arguments/nested/deep/development.md"),
+                           ("framework", "research/frameworks/nested/deep/index.md"),
                            ("investigation", "research/investigations/activity/nested/index.md")):
             with self.subTest(kind=kind):
                 misplaced = self.put(record(kind, 2), path=path)
                 self.invalid()
                 misplaced.unlink()
                 self.valid()
+
+    def test_topical_argument_pages_preserve_proof_owners_and_alias_addresses(self):
+        folder = "research/arguments/topic"
+        typed = self.put(record("argument", aliases={"STCI-I-0003": "#evidence"}),
+                         body=BODY + "Historical control.\n", path=f"{folder}/argument.md")
+        self.write(f"{folder}/calculation.md", "# Local proof\n\nAn independent calculation.\n")
+        self.write(f"{folder}/argument.support/notes.md", "---\nid: [broken\n---\n")
+        result = record()
+        result["proofs"][0]["at"] = f"{folder}/calculation.md#local-proof"
+        self.put(result)
+        repo = research.Repository(self.root)
+        self.assertIn(f"Proof local: {folder}/calculation.md#local-proof", repo.show("STCI-R-0001"))
+        self.assertIn(f"Alias STCI-I-0003: {folder}/argument.md#evidence", repo.show("STCI-I-0003"))
+        self.assertIn("Historical control.", repo.read_sections([f"{folder}/argument.md#evidence"]))
+        self.assertEqual({"STCI-A-0001", "STCI-R-0001"}, set(repo.records))
+        typed.write_text("---\ntype: [broken\n---\n")
+        self.assertIn("invalid YAML", "\n".join(self.errors()))
+
+    def test_framework_index_discovers_linked_frameworks_and_current_investigations(self):
+        entry = "research/frameworks/first/index.md"
+        declared = self.relation("motivates", ["STCI-F-0001"], ["STCI-I-0001", "STCI-I-0002", "STCI-I-0003"])
+        self.put(record("framework", relations=[declared]),
+                 body=BODY + "\n[Second](../second/index.md#scope) and [details](details.md#details).\n", path=entry)
+        self.put(record("framework", 2), path="research/frameworks/second/index.md")
+        self.put(record("framework", 99), body="# Details\n\nAn exposition page.\n",
+                 path="research/frameworks/first/details.md")
+        self.put(record("investigation", 1, status="active"))
+        self.put(record("investigation", 2, status="planned"))
+        self.put(record("investigation", 3, status="complete"))
+
+        repo = research.Repository(self.root)
+        output = repo.frameworks()
+        self.assertIn(f"Bridges — {entry}#bridges", output)
+        self.assertIn("Related framework STCI-F-0002", output)
+        self.assertIn("Active investigation STCI-I-0001", output)
+        self.assertIn("Planned investigation STCI-I-0002", output)
+        self.assertNotIn("STCI-I-0003", output)
+        self.assertNotIn("STCI-F-0099", output)
+        self.assertIn("An exposition page.", repo.read_sections(["research/frameworks/first/details.md#details"]))
+        command = subprocess.run([sys.executable, str(SCRIPT), "frameworks", "--root", str(self.root)],
+                                 capture_output=True, text=True, check=True)
+        self.assertEqual(output, command.stdout)
 
     def test_repository_root_must_exist_and_contain_research(self):
         self.valid()

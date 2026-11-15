@@ -81,9 +81,9 @@ change, and extension over a nonsingular curve into a proper scheme;
 their precise uses are explained there.
 
 The source is the
-[supported Hilbert-boundary section](../synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
+[supported Hilbert-boundary section](../arguments/equations/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
 with the fixed-\(N\) directional formulation in
-[F-0001](../frameworks/torus_supported_boundaries.md#directional-loci).
+[F-0001](../frameworks/torus-supported-boundaries/index.md#directional-loci).
 
 ## Limitations
 

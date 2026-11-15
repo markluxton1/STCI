@@ -22,7 +22,7 @@ the separate hypotheses given below.
 The two local controls are in characteristic zero. The
 [prescribed quartic application](../results/quartic_char2_fourth_equation_kernel.md)
 uses \(C_0=[s^4:s^3t:st^3:t^4]\) in characteristic two. The
-[marked embedding diagram](../synthesis/normal_filtration_boundary_obstructions.md#2-the-complete-embedding-and-conormal-diagram)
+[marked embedding diagram](normal-geometry/ideal_filtrations_quartic_exclusion.md#2-the-complete-embedding-and-conormal-diagram)
 specifies the carrier maps and the bases of the nine conormal algebras.
 
 ## Local comparison and the punctual defect
@@ -43,7 +43,7 @@ Writing \(S_+\) for the positive ideal, \(Q_n=H_n/(S_+H)_n\) records minimal
 initial equations in degree \(n\). Over a curve this module can have torsion.
 The first symbols of the two displayed equations can generate only part of
 \(H\), even when the embedding and the intersection are regular.
-The [form-ideal calculation and first-symbol product map](../synthesis/normal_filtration_boundary_obstructions.md#3-the-central-normal-cone-sequence)
+The [form-ideal calculation and first-symbol product map](normal-geometry/ideal_filtrations_quartic_exclusion.md#3-the-central-normal-cone-sequence)
 also relate this sequence to the Valabrega–Valla form ring.
 
 Put \(D=J/IJ\) and give it the decreasing filtration
@@ -236,7 +236,7 @@ closed fiber. The [transverse specialization argument](transverse_specialization
 gives the normal-flat comparison theorem. The
 [punctual comparison proofs](punctual_comparison_defects.md#statements-and-proofs)
 include examples with residual and sole support. The
-[punctual relative-defect question under sole support](../FRONTIER.md#punctual-relative-defect-under-sole-support)
+[punctual relative-defect question under sole support](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support)
 remains open.
 
 ## Source proofs and review scope

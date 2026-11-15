@@ -165,7 +165,7 @@ list is certified here.
 This is compatible with an STCI using a quartic carrier in every positive
 characteristic: it concerns a different, single fixed sextic and one mate
 degree. The general positive-characteristic construction is owned by
-[the curve and characteristic account](../synthesis/01-problem-and-curve.md).
+[the curve and characteristic account](../arguments/curve/fixed_quartic_geometry.md).
 
 ## Consequences
 No proper degree-sixteen mate for this selected sextic has sole reduced support C0.

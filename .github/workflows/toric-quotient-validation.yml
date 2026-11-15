@@ -3,16 +3,18 @@ name: Toric quotient and residual-limit verification
 on:
   pull_request:
     paths:
-      - "research/synthesis/toric_sextic_residuals_and_limits.md"
+      - "research/frameworks/torus-supported-boundaries/weights_and_limits.md"
       - "research/arguments/torus_*.md"
+      - "research/arguments/torus/**"
       - "research/results/*.md"
       - "research/investigations/torus-residual-controls/**"
       - ".github/workflows/toric-quotient-validation.yml"
   push:
     branches: [main]
     paths:
-      - "research/synthesis/toric_sextic_residuals_and_limits.md"
+      - "research/frameworks/torus-supported-boundaries/weights_and_limits.md"
       - "research/arguments/torus_*.md"
+      - "research/arguments/torus/**"
       - "research/results/*.md"
       - "research/investigations/torus-residual-controls/**"
       - ".github/workflows/toric-quotient-validation.yml"
@@ -31,6 +33,6 @@ jobs:
         with:
           python-version: "3.12"
       - name: Check finite algebras, source ranks and explicit identities
-        run: python3 -B research/investigations/torus-residual-controls/verify.py
+        run: python3 -B research/arguments/torus-sextic-controls.support/verify.py
       - name: Reject deliberately altered finite data
         run: python3 -B -m unittest discover -s research/investigations/torus-residual-controls -p 'test_*.py' -v
