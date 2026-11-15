@@ -243,15 +243,7 @@ Independent review is recorded in
 
 ## Independent review of torsion geometry on the second zero locus
 
-Date: 2026-10-15. Reviewer: `universal_root_obstruction`.
-Status: **PASS for the stated structural Picard, determinant, and
-specified-component dimension claims**. The universal first incidence,
-its accepted seed differential, and the actual second section's accepted
-nonzero value are premises. No accepted certificate was replayed and no
-new seed was evaluated.
-
-Reviewed proof:
-[torsion divisors and the second zero locus](#the-quadratic-root-second-zero-locus-and-dual-pairings).
+Independent review checked the structural Picard, determinant, and specified-component dimension conclusions in [the torsion-divisor proof](#the-quadratic-root-second-zero-locus-and-dual-pairings). The universal first incidence, seed differential, and nonzero actual second section are **accepted premises**. No seed or certificate was rerun.
 
 ### 1. Intrinsic torsion and its ambient divisors
 
