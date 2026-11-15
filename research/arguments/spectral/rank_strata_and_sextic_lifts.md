@@ -256,8 +256,7 @@ The new scoped conclusion is that cubic actual-source realization in this sextic
 
 ## Independent review
 
-Independent reconstruction checked the determinantal scheme strata and nonreduced-base safeguards, the exact bounded-polynomial rank-drop classification, the inherited identity for the cubic layer of the quadric cubed, the actual-pair necessity of the admissible root open, the full-column-rank block argument and unique regular lift, and the complete pivot-residual test. The statements are accepted at their displayed hypotheses. The inherited source computations were not rerun. No nonlinear chart emptiness, degree-sixteen mate, properness or sole-support certificate follows.
-
+The independent reconstruction verified determinantal and nonreduced-base strata, bounded-polynomial rank drops, the cubic layer of \(q^3\), actual-pair admissibility, full-column-rank uniqueness of the regular lift, and the pivot-residual test. Inherited source computations were **not** rerun. No nonlinear chart emptiness, degree-sixteen mate, properness, or sole-support result follows.
 
 ## Consolidated historical supplement: `research/supplements/ACTUAL_SEXTIC_MATE_CERTIFICATES.md`
 
