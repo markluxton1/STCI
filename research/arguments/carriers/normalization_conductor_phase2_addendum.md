@@ -478,7 +478,7 @@ Two actual one-parameter degree-eight integral carrier families arise from smoot
 
 ### B. Dependencies and remaining cases
 
-A1 is an actual normal-flatness theorem, not a consequence of generic flatness; the projective duality/resultant proof and independent local Hilbert-function argument have different hypotheses. A2 applies the [Picard criterion](../../results/spectral_root_picard_criterion.md) only after A1's actual graded-CI bridge. A3 concerns common **displayed** roots and uses the inherited entirely-thick bound \(d/p,e/q\ge3\) from [its proof](../normal-geometry/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction). These roots must not be identified with A2's full-root divisor. R-0001 and the [fixed-carrier conductor criterion](../../results/fixed_carrier_conductor_criterion.md) retain their own hypotheses. The separate local flatness route uses an additional classical Gorenstein Hilbert-function bound.
+A1 requires an **actual saturated** first relation; its projective resultant proof and the local Gorenstein Hilbert-function proof have distinct hypotheses. A2 uses [the full-root Picard criterion](../../results/spectral_root_picard_criterion.md) only after A1. A3 concerns **displayed-symbol roots**, not A2's full roots, and uses \(d/p,e/q\ge3\) from the [entirely-thick bound](../normal-geometry/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction). The [quartic carrier](../../results/quartic_carrier_exclusion.md) and [fixed-carrier conductor](../../results/fixed_carrier_conductor_criterion.md) results retain their separate hypotheses.
 
 ### C. Mechanism
 
