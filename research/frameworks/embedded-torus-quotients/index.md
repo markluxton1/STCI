@@ -28,8 +28,7 @@ the Laurent ring are data: an abstract isomorphism class of Artin algebras
 does not determine this image. Keep every characteristic restriction of an
 example or descent assertion.
 
-This strategy gives exact tests and counterexamples for specified images.
-Extending it to moving transverse quotients requires additional geometry. The reconstruction reviews accept the exact scopes stated in the Result records.
+The constant-image results do not by themselves cover moving transverse quotients.
 
 ## Mathematical scope and interfaces
 
@@ -102,15 +101,12 @@ and an intrinsic limit. Recovering the full special equation module
 requires further data. Any finite prescribed-degree test must retain
 the actual source image and establish properness.
 
-## Research decisions
+## Coverage boundaries
 
-Use constant quotients for explicit constructions, tests, and counterexamples
-where the embedded data and endpoint contraction can be computed. Move to a
-declared nonconstant family when the construction needs movement. Do not impose
-curvilinearity or a fixed abstract quotient type without a coverage argument.
-The [finite controls](../../arguments/torus_sextic_residuals.md#finite-replay-evidence) can
-detect arithmetic errors; their successful execution does not establish
-unexamined image descent or projective realization.
+Constant quotients do not cover nonconstant moving families; curvilinearity
+or a fixed abstract quotient type requires a coverage argument. The
+[finite controls](../../arguments/torus_sextic_residuals.md#finite-replay-evidence)
+check identities but do not establish image descent or projective realization.
 
 ## From contact to descent
 
