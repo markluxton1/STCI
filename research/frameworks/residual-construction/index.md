@@ -23,23 +23,17 @@ attachment, and actual equation mechanisms. They are useful both for
 constructing containing intersections and for proving that a specified
 source always leaves residual degree.
 
-## Mathematical scope and interfaces
+## Interfaces
 
-This approach studies **residual cycles and candidate configurations**,
-generic transverse lengths, attachment, limiting configurations, and
-deformation or absorption mechanisms. Begin with
-[generic length and common normals](two_surfaces.md#21-generic-length-and-common-normal-directions),
-then compare [residual mechanisms](residual_geometry.md#residual-statements-and-their-distinct-mechanisms)
-and [attachment and global constructions](residual_geometry.md#attachment-and-actual-global-constructions).
-Geometric candidates and exceptional-divisor contact need not arise as
-projective residual schemes of actual homogeneous proper pairs; that
-realization question also connects to
+[Generic length and common normals](two_surfaces.md#21-generic-length-and-common-normal-directions),
+[residual mechanisms](residual_geometry.md#residual-statements-and-their-distinct-mechanisms),
+and [attachment constructions](residual_geometry.md#attachment-and-actual-global-constructions)
+are distinct from realizing a projective residual scheme by homogeneous
+proper equations. The realization interface belongs to
 [formal normal geometry](../formal-normal-geometry/index.md) and
-[global equation realization](../global-equation-realization/index.md).
-The [spectral-root approach](../spectral-roots/index.md) contributes Picard
-and graded-root input, while residual geometry tests its consequences for
-octic pairs and possible absorption. These are overlapping methods, not
-exclusive subject assignments.
+[global equation realization](../global-equation-realization/index.md);
+[spectral roots](../spectral-roots/index.md) supplies graded Picard data
+for octic constructions.
 
 ## How residual degree can change
 
