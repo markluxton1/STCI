@@ -267,7 +267,7 @@ relation with image \(L(-D)\) in its saturated line \(L\) has a
 quotient-relation resultant with divisor supported on \(D\).
 This comparison uses the actual relations and their generation
 lengths. [Statement and hypotheses](../results/nonsaturated_first_relation_resultant.md#statement-and-hypotheses) ·
-[Effective resultant proof](../supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md#5-the-effective-resultant-divisor).
+[Effective resultant proof](spectral_torsion_and_syzygy_splitting.md#5-the-effective-resultant-divisor).
 
 ### Two filtrations and the full normal cone
 
@@ -428,42 +428,23 @@ parameter specialization uses the relative lattice in Part IV.
 
 ### Opposite saturated Hilbert limits
 
-Let \(h\) be the orbit-family parameter. The normalized substitutions
-of the chosen \(F,G\) give equations on \(h\ne0\). Contract their
-translated ideal from \(S[h,h^{-1}]\) to \(S[h]\), equivalently saturate
-the normalized two-equation ideal by \(h\). Dividing lifted syzygies
-by their common power of \(h\) is one way to obtain elements of this
-contraction. Each graded piece of the quotient embeds in its
-localization over \(k[h,h^{-1}]\), where the translated quotient is
-free over the base. The pieces are therefore finite free over \(k[h]\).
-The full weight initial ideal defines the special fiber with the
-original graded Hilbert function. Irrelevant saturation gives the
-ideal of the projective Hilbert limit and can change small-degree
-pieces. Projective flatness preserves the Hilbert polynomial. Applying
-the same construction with the opposite weights gives the other fixed
-limit of the **same** orbit. [Full-limit construction and saturation](global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit).
+The full weight initial ideal comes from contracting the translated ideal
+after inverting the orbit parameter \(h\), or equivalently from
+\(h\)-saturating the normalized equations. It retains the original graded
+Hilbert function. Irrelevant saturation then gives the projective Hilbert
+limit, with the same Hilbert polynomial. Coprime displayed initials already
+give the full saturated CI limit by the regular-sequence argument.
+[Construction and saturation](global_equations_and_constructions.md#invariant-support-and-the-full-torus-limit) ·
+[Coprime sextic example](../arguments/torus_sextic_residuals.md#moving-residual-curves-and-their-full-limit).
 
-When the two displayed initials are coprime, the special two-equation
-ideal has height two. The two normalized equations form a regular
-sequence, and adjoining \(h\) raises its height to three. Thus \(h\)
-is regular on their quotient, the contraction adds no equations,
-and the special fiber is itself a saturated complete intersection.
-[Coprime presentation in a sextic residual family](../arguments/torus_sextic_residuals.md#moving-residual-curves-and-their-full-limit).
-
-For sole support, a chosen power bound
-\(\mathcal I^N\subset\mathcal J\subset\mathcal I\) and fixed Hilbert
-polynomial define a closed projective \(T_C\)-stable incidence. Both
-limits retain these inclusions, sole reduced support and the generic
-length forced by the polynomial. Generation is tested on the moving
-saturated height-two ideal \(J'\) via
-\(J'_d/S_1J'_{d-1}\). The ideal defines a CI of type \((a,b)\) exactly
-when these spaces have two basis classes with degrees \(a,b\), counted
-with multiplicity. It is enough to test through an independently
-established regularity bound on \(J'\). The incidence
-allows embedded points, and fixed limits can require extra generators.
-Occurrence of proposed pairs of opposite limits requires a separate
-realization argument. [Supported
-incidence and both limits](../arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits) ·
+For sole support, the closed incidence
+\(\mathcal I^N\subset\mathcal J\subset\mathcal I\) with fixed Hilbert
+polynomial retains the support and generic length at both ends of the
+same orbit. The incidence allows embedded points, and a fixed limit can
+require additional generators. The CI test uses the minimal generator
+spaces of the moving ideal, \(J'_d/S_1J'_{d-1}\). Occurrence of a
+proposed pair of opposite limits remains a separate realization question.
+[Closed incidence and both full limits](../arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits) ·
 [Moving-ideal generator test](../arguments/torus_hilbert_boundary.md#the-moving-ideal-generator-test).
 
 ## IV. Generic algebra and endpoint extension
@@ -558,48 +539,30 @@ of an intersection is a third object, measured by saturation of those
 layers. [Distinct embeddings of the same finite algebra](../arguments/torus_embedded_quotients.md#embedded-quotients-and-characteristic-dependent-endpoints) ·
 [Normal saturation defects](normal_filtration_boundary_obstructions.md).
 
-For a proper pair with sole support on \(C\), let \(W\) be the
-scheme-theoretic closure of the **entire** torus restriction in
-\(\mathbf P^1_r\times\mathbf G_m^2\). Its ideal is contracted from
-the punctured charts. In the generic algebra of length \(m_C\),
-the nilpotent ideal \((U,V)\) has \(m_C\)-th power zero. By purity
-this power vanishes on the torus restriction and then on \(W\) by
-contraction. The projection \(\pi:W\to\mathbf P^1_r\) is finite, and
-\(\mathcal B=\pi_*\mathcal O_W\) is a quotient of the constant bundle
-with fiber \(k[U,V]/(U,V)^{m_C}\). Purity gives torsion-freeness on
-the torus and contraction gives it at both endpoints, so \(\mathcal B\)
-is locally free of rank \(m_C\). The projective parametrization extends
-to \(\rho:W\to Y\), whose reduction is an isomorphism onto \(C\).
-Properness and quasi-finiteness make \(\rho\) finite. It is an
-isomorphism off the endpoints, and purity makes
-\(\mathcal O_Y\to\rho_*\mathcal O_W\) injective.
-
-At zero the image lattice is \(k[[r]][r^3U,r^4V]\). At infinity the
-base parameter is \(\tau=r^{-1}\) and the projective parameter is
-\(z=(u/v)\tau\). They define the same adic topology upstairs. A basis
-of the common closed fiber lifts to a basis over \(k[[z]]\) by
-completeness and \(z\)-torsion-freeness. The image lattice there is
-\(k[[z]][z^3(\alpha-1),z^4(\beta-1)]\). These two inclusions give the
-cokernel lengths \(\delta_0,\delta_\infty\) for \(\rho\).
-
-If \(\deg\mathcal B=0\), global generation trivializes \(\mathcal B\).
-Its multiplication and the coordinate sections \(U,V\) would be
-constant. The resulting embedded family would have a \(T_C\)-invariant
-scheme image, contradicting the characteristic-zero invariant CI
-exclusion in Part III. Thus \(\deg\mathcal B>0\). The abstract
-transverse algebra can stay isomorphic as its embedding varies.
-The lattice parameter here runs along \(C\). The intrinsic limit
-pulling that parameter toward an endpoint has pure quotient given by
-the constant image of the corresponding embedded fiber. The two
-embedded lengths in the full limit come from the relative image and
-the Hilbert polynomial. For a hypothetical \((6,6)\) pair each
-endpoint fiber must have total constant-image defect at least \(153\)
-and pass the degree-six source test.
-[Endpoint comparison](../results/intrinsic_limits_endpoint_fibers.md) ·
-[Sextic endpoint conditions](../arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair) ·
+For a proper sole-support pair, the closure \(W\) of the entire torus
+restriction is finite over \(\mathbf P^1_r\) and has pushforward algebra
+\(\mathcal B\), locally free of rank \(m_C\). Its finite map to the CI is
+an isomorphism off the endpoints. The completed image lattices are
+\(k[[r]][r^3U,r^4V]\) at zero and
+\(k[[z]][z^3(\alpha-1),z^4(\beta-1)]\) at infinity, where
+\(z=(u/v)r^{-1}\) is the projective parameter. Their cokernels have
+lengths \(\delta_0,\delta_\infty\).
 [Entire finite modification](tropical_thickenings_and_endpoint_duality.md#the-entire-finite-modification) ·
-[Moving endpoint lattices](tropical_thickenings_and_endpoint_duality.md#actual-endpoint-lattices-and-the-full-conductor-boundary) ·
+[Completed lattices and conductor](tropical_thickenings_and_endpoint_duality.md#actual-endpoint-lattices-and-the-full-conductor-boundary).
+
+In characteristic zero, \(\deg\mathcal B>0\) by the invariant-CI
+exclusion and global generation of \(\mathcal B\). The embedding can vary
+even when the abstract transverse algebra stays isomorphic. The endpoint
+fibers determine the pure quotients of the opposite intrinsic limits and
+the embedded lengths. For a hypothetical characteristic-zero \((6,6)\)
+pair, each embedded endpoint fiber \(B\) satisfies
+\(D_0(B)+D_\infty(B)\ge153\), where both defects are computed for that
+same fiber in the two quotient frames. It must also pass the degree-six
+source test. The full endpoint algebras and moving equation
+incidence remain open.
 [Strict movement](tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier) ·
+[Endpoint comparison](../results/intrinsic_limits_endpoint_fibers.md#statement) ·
+[Sextic endpoint conditions](../arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair) ·
 [Remaining full-ideal comparison](../investigations/quotient-hilbert-comparison/index.md#question).
 
 ### The characteristic-seven control in both endpoint frames
@@ -887,75 +850,32 @@ parameter on the curve itself.
 
 <a id="4-the-hilbert-scheme-limit-remembers-relations-between-equations"></a>
 
-Use \(q=x_0x_3-x_1x_2\), \(A=x_0^2x_2-x_1^3\),
-\(B_3=x_0x_2^2-x_1^2x_3\), and put
-\(a_6=x_0^2x_3A\), \(b_4=x_0^3x_2\). The proper sextic pair of
-R-0046 is
+For the proper \((6,6)\) example R-0046, write the moving ideal as
+\((q^3+h^5a_6,b_4q)\) with \(a_6=x_0^2x_3(x_0^2x_2-x_1^3)\) and
+\(b_4=x_0^3x_2\). The two original displayed maximal-weight initials
+coincide. After the first equation cancellation, a lifted syzygy divided
+by \(h^5\) yields \(a_6b_4\). The Hilbert–Burch proof gives the entire
+flat, contracted family, with full saturated special ideal
 \[
- F=q^3+a_6,\qquad G=q^3+x_0^2x_1B_3,\qquad G-F=-b_4q.
+ J_+=(q^3,b_4q,a_6b_4).
 \]
-The weights of \(q,A,B_3,a_6,b_4\) are \(4,3,6,7,3\),
-respectively. Both displayed highest components are \(q^3\), of
-weight twelve. Their first cancellation already gives \(b_4q\), of
-weight seven. In the presentation \(J=(q^3+a_6,b_4q)\), lifting the
-next syzygy gives the maximal-weight orbit family identity
-\[
- b_4(q^3+h^5a_6)-q^2(b_4q)=h^5 a_6b_4.
-\]
-The right-hand side divided by \(h^5\) gives the indispensable
-degree-ten equation. The Hilbert–Burch proof identifies the entire
-contracted family as
-\((q^3+h^5a_6,b_4q,a_6b_4)\). In particular the special ideal
-\[
- J_+=(q^3,b_4q,a_6b_4)
-\]
-is the full initial ideal and is irrelevant-saturated. It is ACM,
-with minimal generator degrees \(6,6,10\) and syzygy degrees
-\(10,12\). The two degree-ten contributions cancel in its Hilbert
-numerator, leaving \(1-2z^6+z^{12}\). [Full family, flatness,
-saturation and resolution](../arguments/torus_sextic_residuals.md#the-saturated-three-generator-full-limit).
+It is ACM with minimal generators of degrees \(6,6,10\) and syzygies of
+degrees \(10,12\). The degree-ten terms cancel in the Hilbert series, so
+both fibers have the CI Hilbert polynomial \(36d-144\).
+[Full family, flatness, saturation and resolution](../arguments/torus_sextic_residuals.md#the-saturated-three-generator-full-limit).
 
 <a id="41-how-the-boundary-cycle-changes-in-the-full-limit"></a>
 
-The full ideal matters even though \(b_4\) and \(x_0^2x_3\) are units
-on \(\Omega\). There both ideals are \((q,A)\), so the marked
-generic algebra is \(k(C)\) and the transverse quotient is \(k\)
-on each fiber. Globally, write \(L_{ij}\) for the line spanned by the
-two coordinate points with indices \(i,j\) and
-\(T=V(x_2,x_0x_3^2-x_1^3)\) for the irreducible plane cubic.
-The original and limiting cycles are
-\[
-\begin{aligned}
- [Y]&=[C]+13[L_{23}]+13[L_{13}]+2[L_{01}]+[L_{02}]+[T],\\
- [Y_+]&=[C]+13[L_{23}]+14[L_{13}]+4[L_{01}]+[L_{02}].
-\end{aligned}
-\]
-For the special fiber \(J_+:q=(q^2,b_4)\) and
-\(J_++(q)=(q,a_6b_4)\), giving the cycle
-\(\operatorname{div}_Q(a_6|_Q)+3\operatorname{div}_Q(b_4|_Q)\).
-In the original fiber, splitting the divisor of \(b_4q\) on \(F=0\)
-gives the original cycle. Equivalently the cubic specializes as a
-plane divisor to \([L_{13}]+2[L_{01}]\), accounting for the change.
-Both have total degree \(36\), residual degree \(32\), genus \(145\)
-and no embedded associated components. [Cycles and local
-multiplicities](../arguments/torus_sextic_residuals.md#cycles-and-endpoint-schemes-of-the-three-generator-limit).
-
-The endpoint schemes retain the localized ideals themselves. In the
-table \((q_i,a_i,b_i)\) are the indicated affine restrictions of
-\((q,a_6,b_4)\), localized at the origin. The ideals are
-\((q_i^3+a_i,b_iq_i)\) before and \((q_i^3,b_iq_i,a_ib_i)\) after
-specialization.
-
-| Chart and coordinates | \(q_i\) | \(a_i\) | \(b_i\) |
-| --- | --- | --- | --- |
-| \(x_0=1\), \((r,y,z)=(x_1,x_2,x_3)\) | \(z-ry\) | \(z(y-r^3)\) | \(y\) |
-| \(x_3=1\), \((\xi,\eta,\zeta)=(x_0,x_1,x_2)\) | \(\xi-\eta\zeta\) | \(\xi^2(\xi^2\zeta-\eta^3)\) | \(\xi^3\zeta\) |
-
-The dense open thus has identical normal length while the special
-boundary has changed as a scheme and as a cycle. This example
-belongs to the residual locus. The sole-support incidence of Part III
-has its own preservation proof and its own moving generator test.
-[Exact endpoint chart ideals and scope of R-0046](../results/sextic_three_generator_full_limit.md#statement).
+On the coordinate torus, both fibers reduce to \((q,x_0^2x_2-x_1^3)\) and
+the transverse quotient is \(k\). The projective residual has degree
+\(32\) in both fibers, and its cycle changes when the irreducible plane
+cubic \(T=V(x_2,x_0x_3^2-x_1^3)\) specializes to the coordinate-line
+cycle \([L_{13}]+2[L_{01}]\). Neither fiber has embedded associated
+components. The explicit chart ideals show the endpoint scheme change
+before and after specialization. The sole-support incidence in Part III
+uses a separate preservation argument and moving generator test.
+[Exact cycles and both chart ideals](../arguments/torus_sextic_residuals.md#cycles-and-endpoint-schemes-of-the-three-generator-limit) ·
+[Scope of R-0046](../results/sextic_three_generator_full_limit.md#statement).
 
 ### Supplementary sextic source spaces and pencils
 
@@ -978,7 +898,7 @@ These are the value and two first normal coefficients at \((1,1)\).
 The local-freeness argument of Part II gives the global sheaf-power
 condition. The weight dimensions in weights six through eighteen
 are \((1,1,2,2,2,2,3,2,2,2,2,1,1)\), summing to \(23\).
-[Characteristic-free actual sextic sources](../supplements/ACTUAL_EQUATION_SPACES.md) ·
+[Characteristic-free actual sextic sources](global_equation_jets.md#exact-global-freedom) ·
 [Exact coefficient verifier](../investigations/torus-residual-controls/verify.py).
 
 With \(D_3=x_2^3-x_1x_3^2\), the dense-torus expressions for
@@ -1009,7 +929,7 @@ and codimension \(72\) in the sextic pencil space. Dependence of two
 normal symbols over \(k(C)\) can occur without a constant combination
 in the double-sextic source, so the codimension measures this pencil
 condition. Generation on the Hilbert locus still uses the full ideal.
-[Normal source spaces](../supplements/ACTUAL_EQUATION_SPACES.md) ·
+[Normal source spaces](global_equation_jets.md#exact-global-freedom) ·
 [Moving generator criterion](../results/moving_ideal_generator_criterion.md#statement).
 
 The quartic root pencil illustrates another difference between parameter
@@ -1064,7 +984,10 @@ whose discriminant is `16t^{10}`. This is a split normal node over the function 
 
 ### Archived exact certificate: `research/computations/ci_cycle_line_degeneration_2026_10_25.py`
 
-The following original computational certificate is preserved verbatim, with its original hypotheses, limitations, and external dependencies. No additional mathematical conclusion is asserted by its archival transfer.
+This certificate supports the [quartic line-plus-degree-eleven
+degeneration](explicit_quartic_residuals.md#the-line-plus-degree-eleven-degeneration).
+It checks the ruling-line, attachment, and smoothing identities for that
+separate family. The projective scheme checks use its Macaulay2 companion.
 
 <details><summary>Original source</summary>
 
@@ -1477,7 +1400,7 @@ Started 2026-10-25; completed 2026-10-26. Status: exact new linear realization, 
 The curve is the fixed characteristic-zero quartic
 \(C=[s^4:s^3t:st^3:t^4]\). The family construction starts in the conditional degree-\((6,16)\) lane with full generic ordinary initial CI \((2,12)\), saturated actual first relation, and movement two. [STCI-R-0014](../results/movement_two_six_rows.md) makes it a necessary numerical row under those hypotheses; it does not assert existence. The final fixed-carrier corollary is stated separately and does not require those initial-ideal or saturation hypotheses.
 
-The [October 21 conductor/chart independent review](CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-and-chart-independent-review), section 6, retains the endpoint-four root chart with
+The [October 21 conductor/chart independent review](normalization_conductor_projection.md#2026-10-21-conditional-2-12-conductor-and-chart-independent-review), section 6, retains the endpoint-four root chart with
 
 \[
 \begin{aligned}
@@ -1494,7 +1417,7 @@ Its normalization is \(4f(-z/2,1)=z^4\). On the retained integral-nodal open its
 \rho=2b_1/a_0-1,\qquad \rho^{12}=1,\quad\rho\ne1.
 \]
 
-The root and torsion reductions are reviewed evidence. They are not an emptiness result. The [saved sextic symbol computation](CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2-the-exact-global-k-linear-symbol-map) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
+The root and torsion reductions are reviewed evidence. They are not an emptiness result. The [saved sextic symbol computation](rank_strata_and_sextic_lifts.md#2-the-exact-global-k-linear-symbol-map) supplies the actual source \(H^0(I_C^2(6))\), its rank-22 second-symbol image, and the one-dimensional kernel \(kq^3\). Those accepted computations are used as premises, not rerun here.
 
 The exact balanced normal frame is
 
@@ -1617,15 +1540,7 @@ G_{16}\in(F_*)+(u,v)^{12}
 
 This is only a necessary condition. Its coefficient space is nevertheless finite: all 969 coefficients of a homogeneous degree-sixteen form remain constants. The 286 forms \(F_*H_{10}\) satisfy it and cannot be proper mates.
 
-The [fixed-carrier M2 certificate](../computations/endpoint4_fixed_m2_2026_10_25.m2) evaluates the actual normal substitution at \(z=1,\ldots,30\) modulo the prime 65521. At each point it uses
-
-\[
-\mathbf F_{65521}[u,v]/(F_*|_z,(u,v)^{12}),
-\]
-
-a 23-dimensional quotient. It stacks the resulting \(23\times969\) constant-coefficient matrices. The final \(690\times969\) matrix has rank 683. It also independently constructs the coefficient matrix of all 286 degree-ten multiples of \(F_*\), verifies their rank 286, and verifies that the stacked matrix annihilates them.
-
-The modular rank gives a characteristic-zero lower bound, not merely a numerical heuristic. Every sample has \(z\ne0\) and \(1+z^2\ne0\) modulo the prime. The \(u^2\) leading coefficient of the carrier's quadratic normal part is \(z^8(1+z^2)\). Formal normal division through degree eleven can therefore be performed with denominators that are units at the chosen prime; a universal rational remainder matrix specializes to the tested finite-field matrix. Equivalently, in the 78-dimensional truncated polynomial module, multiplication by the nonzero order-two carrier on polynomials of degree at most nine has constant rank 55, leaving a free rank-23 quotient over the local coefficient DVR. The modular target thus has the required good reduction.
+The [exact fixed-carrier rank proof and replay](../results/ci_fixed_sextic_jet_rigidity.md#exact-evidence-and-independent-verification) evaluate the actual normal substitution at \(z=1,\ldots,30\) modulo 65521. The stacked \(690\times969\) matrix has rank 683 and annihilates all 286 known multiples. The [good-reduction proof](../results/ci_fixed_sextic_jet_rigidity.md#proof) uses 55 unit pivots over the sample DVR to lift the rank bound to characteristic zero.
 
 It follows that the characteristic-zero necessary jet kernel has dimension at most \(969-683=286\). The known multiples already have dimension 286, so
 
@@ -1640,7 +1555,7 @@ The equality persists under characteristic-zero coefficient-field extension. Thi
 
 ## Every proper degree-sixteen pair on this carrier has residual degree at least eight
 
-The [nonsplit-node scope audit](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-26-endpoint4-nonsplit-node-scope-audit) independently reconstructs the needed local lemma. The generic quadratic normal term of \(F_*\) is
+The [nonsplit-node scope audit](toric_torsion_and_endpoint_contacts.md#scope-audit-the-selected-endpoint-four-carrier-has-a-nonsplit-generic-node) independently reconstructs the needed local lemma. The generic quadratic normal term of \(F_*\) is
 
 \[
 z^8\bigl((1+z^2)u^2-z^2v^2/4\bigr).
@@ -1665,25 +1580,15 @@ This fixed-carrier conclusion does not require a prescribed full generic initial
 
 ## Reproduction and review record
 
-Run
+The endpoint-four symbol construction uses the retained exporter and the saved symbol matrix.
 
-```text
+```sh
 python3 research/computations/endpoint4_actual_2026_10_25.py
-python3 research/computations/endpoint4_fixed_m2_2026_10_25.py
-python3 research/computations/endpoint4_fixed_jet_independent_2026_10_26.py
 ```
 
-The first script records the inherited matrix hash, solves only the new right-hand sides, and performs a direct ambient substitution. The generated [JSON](../computations/endpoint4_actual_2026_10_25.json) includes full ambient and normal expansions, parameter conventions, and the torus action. The exporter also produces an M2 family presentation; its successful load adds no further mathematical test.
+The exporter records the inherited matrix hash, solves only the new right-hand sides, and performs a direct ambient substitution. The generated [JSON](../computations/endpoint4_actual_2026_10_25.json) includes full ambient and normal expansions, parameter conventions, and the torus action. The exporter also produces an M2 family presentation. A successful load supplies no additional mathematical test.
 
-Independent `endpoint4_formula_audit` reconstructed the second symbol, torus normalization, and exact singular-line orders without rerunning the inherited rank proof. It corrected the initial overly cautious normalization warning: the actual torus does supply the square-root gauge.
-
-The fixed-carrier wrapper saves a [PASS metadata record](../computations/endpoint4_fixed_m2_2026_10_25.json) and [complete M2 output](../computations/endpoint4_fixed_m2_2026_10_25.txt), including source hashes, all sample ranks, the actual degree-six carrier vector, the 969 exponent-column order, and all 286 known-multiple checks. A preliminary M2 implementation failed those checks because an unparenthesized multiline assignment omitted the last two carrier terms. That failure was diagnosed and corrected before the final PASS. Ambient reconstruction and explicit annihilation checks now prevent that mistake from being hidden by the reported rank.
-
-The [independent normal-division script](../computations/endpoint4_fixed_jet_independent_2026_10_26.py) uses recursive normal-degree division in a fixed 23-element basis, followed by separate modular elimination, rather than the M2 quotient Gröbner basis. Its [JSON record](../computations/endpoint4_fixed_jet_independent_2026_10_26.json) independently reports rank 683 and annihilation of all 286 actual multiples at every sample. The nonsplit-node implication is reviewed in the linked scope audit. No result is changed here.
-
-The independent replay uses Python's standard library and a C++17 compiler, selecting clang++ or g++ from the environment. Its temporary rank executable is built outside the repository and removed after the run. Macaulay2 provides the other implementation.
-
-
+Independent `endpoint4_formula_audit` reconstructed the second symbol, torus normalization, and exact singular-line orders. The audit corrected the initial torus normalization scope by verifying the square-root gauge. The [fixed-carrier rank evidence](../results/ci_fixed_sextic_jet_rigidity.md#exact-evidence-and-independent-verification) gives the live verifier, exact inputs, and archived Macaulay2 comparison, including the corrected carrier-vector construction.
 
 ## Consolidated historical supplement: `research/supplements/SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md`
 
@@ -1695,9 +1600,9 @@ This chapter retains exact structural restrictions for two different questions c
 
 The all-quartic-carrier theorem already excludes a characteristic-zero \((4,6)\) STCI. The seven-type calculation remains useful multiple-curve algebra; it is not a surviving actual degree-pair case. The split-sextic statements concern their exact carrier hypotheses and possible other mate degrees, not all sextic carriers. No unrestricted STCI conclusion follows.
 
-Except for the explicitly characteristic-free singleton-normalization lemma and final local control, the split-carrier numerical and projection arguments below retain their characteristic-zero scope. The conormal splitting, divisions by two, actual source ranks and characteristic-zero geometric arguments are not silently transferred to characteristic two or three. The fixed curve does have a [quartic-carrier STCI in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier), which is a separate construction.
+Except for the explicitly characteristic-free singleton-normalization lemma and final local control, the split-carrier numerical and projection arguments below retain their characteristic-zero scope. The conormal splitting, divisions by two, actual source ranks and characteristic-zero geometric arguments are not silently transferred to characteristic two or three. The fixed curve does have a [quartic-carrier STCI in every positive characteristic](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier), which is a separate construction.
 
-The [saturated Gorenstein pairing proof](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit) supplies the rank-six duality input; [the full primitive-triple obstruction](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#primitive-triples-on-smooth-rational-quartics) is the stated exclusion input used in the last section. The exact first-normal source space is preserved below with its chosen balanced frame.
+The [saturated Gorenstein pairing proof](quasiprimitive_residual_cycles.md#2026-10-05-mf6-pairing-audit) supplies the rank-six duality input; [the full primitive-triple obstruction](formal-normal-intersection.md#primitive-triples-on-smooth-rational-quartics) is the stated exclusion input used in the last section. The exact first-normal source space is preserved below with its chosen balanced frame.
 
 ## A normalization obstruction for an integral thick sextic
 
@@ -2368,9 +2273,9 @@ necessary data; no unproved correspondence between them is being assumed.
 
 ## Further actual lifts and surviving limits
 
-The [fixed ramified boundary and its larger chart](RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#2026-10-05-split-sextic) construct actual sextic lifts and prove the all-mate exclusion for the specified fixed normal form; this does not exclude every first-normal survivor. The [nonramified quadruple-root and additional two-double-root charts](RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#2026-10-05-split4-nonramified) retain the actual local models and their restrictions. In particular the first-normal boundary example above is a control of source compatibility, not an actual integral carrier or mate.
+The [fixed ramified boundary and its larger chart](quasiprimitive_residual_cycles.md#2026-10-05-split-sextic) construct actual sextic lifts and prove the all-mate exclusion for the specified fixed normal form; this does not exclude every first-normal survivor. The [nonramified quadruple-root and additional two-double-root charts](quasiprimitive_residual_cycles.md#2026-10-05-split4-nonramified) retain the actual local models and their restrictions. In particular the first-normal boundary example above is a control of source compatibility, not an actual integral carrier or mate.
 
-The numerical seven types in the final section are a coarse stage. The [corrected first-normal Fitting divisor and pole comparison](MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mixed46-poles) gives the stronger exact divisor relation \(A=D_3+\min(D_2,D_3-D_2)\) under its hypotheses. The distinction between that refined evidence, the earlier fifteen coarse pole strata, and actual realization must be retained. No uniform correspondence or realized configuration is inferred from the tables.
+The numerical seven types in the final section are a coarse stage. The [corrected first-normal Fitting divisor and pole comparison](quasiprimitive_residual_cycles.md#mixed-46-the-first-normal-fitting-divisor-and-the-multiplicity-six-defects) gives the stronger exact divisor relation \(A=D_3+\min(D_2,D_3-D_2)\) under its hypotheses. The distinction between that refined evidence, the earlier fifteen coarse pole strata, and actual realization must be retained. No uniform correspondence or realized configuration is inferred from the tables.
 
 
 ## A local control for the regular-ratio hypothesis
@@ -2388,7 +2293,7 @@ asserts no projective realization with prescribed degrees.
 
 ## Further higher-jet reduction
 
-The [full two totally ramified-root reduction](SPLIT_SEXTIC_TWO_RAMIFIED_ROOTS.md) treats the entire stated two-root family, including the zero-polynomial stratum, and leaves an explicit one-parameter carrier line. It is distinct from the preceding first-normal and numerical restrictions.
+The [full two totally ramified-root reduction](#two-totally-ramified-residual-roots-a-full-higher-jet-reduction) treats the entire stated two-root family, including the zero-polynomial stratum, and leaves an explicit one-parameter carrier line. It is distinct from the preceding first-normal and numerical restrictions.
 
 ## Consolidation review
 
@@ -2417,7 +2322,7 @@ exceptional divisor, and no vertical component** hypotheses. Consider
 only the `d=1,[2,2]` family whose two residual ruling roots are the totally
 ramified rulings. The two low evaluation zeros are at their preimages.
 This is the complete family parameterized in
-[the full split-sextic family](RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#2026-10-05-split-sextic), not merely its fixed specimen.
+[the full split-sextic family](quasiprimitive_residual_cycles.md#2026-10-05-split-sextic), not merely its fixed specimen.
 
 **Proved necessary reduction.** If a carrier in this entire family has an
 STCI mate of any degree, its low-factor parameter must be
@@ -2447,8 +2352,8 @@ normalization data must remain in the frontier. The other `[2,2]` root
 configurations and the surviving `[4]` families are outside this theorem.
 
 **Exact certificate:**
-`research/computations/verify_split22_finite_reduction.py`.
-Run with `python3` in this checkout. The full
+the [archived finite-reduction program](#archived-certificate-researchcomputationsverify_split22_finite_reductionpy), also available in the
+[historical checkout](https://github.com/markluxton1/STCI/blob/8e5d5693980c90bbec7ec6cfa5606e8bd2d3cf08/research/computations/verify_split22_finite_reduction.py) for replay with `python3`. The full
 certificate passed on 2026-10-06. The new normal-sheaf argument is in
 [numerical pullback and the normal line](../synthesis/numerical_surface_pullback.md); root independently audited that proof.
 The complete proof, exact source coverage and retained computational dependencies were independently reconstructed and accepted in this consolidation.
@@ -2472,7 +2377,7 @@ The last conditions are the existing content-free endpoint conditions;
 
 The low section is `e=W=0`. Let `f=F/e^2` be the strict-transform equation.
 The ambient carrier `F`, including all its `lambda q^3` lifts, is the exact
-one in the [complete larger-family parameterization](RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md#exact-parameterization-of-the-larger-two-ramified-root-boundary). Define
+one in the [complete larger-family parameterization](quasiprimitive_residual_cycles.md#exact-parameterization-of-the-larger-two-ramified-root-boundary). Define
 
 \[
 \begin{aligned}
@@ -2818,9 +2723,8 @@ is `-(P-2)(P-2t)/2`. The repaired verifier now passes all its image, content,
 selected `A3`, and symbolic ambient-lift checks. Its mathematical content
 conditions were unchanged.
 
-The [preceding split-carrier account](SPLIT_SEXTIC_AND_MULTIPLICITY_SIX_RESTRICTIONS.md) supplies the complete numerical prerequisites. This reduction concerns only the stated totally ramified two-root family.
+The [preceding split-carrier account](#split-sextic-geometry-and-multiplicity-six-restrictions) supplies the complete numerical prerequisites. This reduction concerns only the stated totally ramified two-root family.
 
 ## Consolidation review
 
 Independent review checked the complete source proof and its computation support, including the zero-polynomial stratum, exceptional parameter values and the exact surviving carrier line. No material mathematical preservation finding remains. The carrier line is not a constructed STCI pair, and the other split-root configurations retain their own scope.
-

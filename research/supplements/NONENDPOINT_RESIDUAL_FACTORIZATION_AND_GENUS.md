@@ -1,6 +1,6 @@
 # Nonendpoint residual divisors, pole filtration and actual fiber norms
 
-Fix the embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), an algebraically closed characteristic-zero field, and the accepted anticanonical degree-five A4 pair \((S,c)\). Retain arbitrary \(\delta\ne0\), the four lift parameters \(a,b,g,d\), and an actual line center disjoint from \(S\), giving a finite birational projection \(\nu:S\to X\) onto an integral quintic. The restriction \(c\to C_0\) is an isomorphism. A hypothetical mate forces **full** reduced inverse support \((\nu^{-1}C_0)_{red}=c\), denoted SUP; it excludes isolated extra inverse points as well as extra curves. The proofs below concern this exact family, not every quintic carrier. The intrinsic pair is proved in [the A4 model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md); actual projection coordinates and every target boundary are in [the target-fiber chapter](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md).
+Fix the embedded curve \(C_0=[s^4:s^3t:st^3:t^4]\), an algebraically closed characteristic-zero field, and the accepted anticanonical degree-five A4 pair \((S,c)\). Retain arbitrary \(\delta\ne0\), the four lift parameters \(a,b,g,d\), and an actual line center disjoint from \(S\), giving a finite birational projection \(\nu:S\to X\) onto an integral quintic. The restriction \(c\to C_0\) is an isomorphism. A hypothetical mate forces **full** reduced inverse support \((\nu^{-1}C_0)_{red}=c\), denoted SUP; it excludes isolated extra inverse points as well as extra curves. The proofs below concern this exact family, not every quintic carrier. The intrinsic pair is proved in [the A4 model](../synthesis/quintic_octic_ade_cover_and_triple.md#degree-five-del-pezzo-a4-model-intrinsic-classification-and-explicit-equations); actual projection coordinates and every target boundary are in [the target-fiber chapter](../synthesis/quintic_conductor_geometry.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions).
 
 ## Exact residual equation and parameters
 
@@ -322,8 +322,8 @@ Work over an algebraically closed field `k` of characteristic zero. The
 accepted intrinsic genus-one pair consists of the normal degree-five
 anticanonical del Pezzo surface `S`, its smooth lifted quartic `c`, and its
 unique line `ell`. Its only singular point is A4, on ell. The accepted
-[pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
-and [coordinate audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
+[pair classification](../synthesis/quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification)
+and [coordinate audit](../synthesis/quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit)
 give the actual divisor identities
 
     div(U0)=5ell, div(h)=c+ell, H~5ell, c~4ell,
@@ -362,7 +362,7 @@ generic degree is one and the image is an integral quintic. Normality of S
 then identifies this finite birational map with the normalization.
 
 The all-power conclusion also uses the accepted
-[quintic structural frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit):
+[quintic structural frontier](../synthesis/quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit):
 any hypothetical mate has degree `4k` and pulls back to a nonzero scalar
 multiple of `Q^k`. That input is not inferred from the pole calculation.
 
@@ -415,7 +415,7 @@ sheaf. There is no additional codimension-two condition at A4. In particular
     H0(S,O_S(6ell))=span{1,r,t,r^2,rt,v,r^3}.
 
 This also independently confirms the written
-[low-pole-spaces proof](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#5-a4-low-pole-spaces). Neither
+[low-pole-space table](../synthesis/quintic_conductor_geometry.md#2-the-complete-spaces-through-degree-six). Neither
 6ell nor its sheaf is being asserted to be Cartier.
 
 ### 3. The residual divisor is actual and has exactly the stated partitions
@@ -582,7 +582,7 @@ We work over an algebraically closed field of characteristic zero, with
 Here `J` is the parameter denoted `Jbar` in the conormal note; it is not
 the conormal cubic. The actual source, projection-center avoidance and
 finite-target equations are those of the
-[target-fiber reduction](NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions).
+[target-fiber reduction](../synthesis/quintic_conductor_geometry.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions).
 The corrected cubics and their two-chart interpretation come from the
 [conormal reduction](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#1-nonendpoint-conormal-cubic-reduction).
 All common-root interpretations below require the stated actual center
@@ -784,7 +784,7 @@ the target-fiber note remain authoritative for that locus.
 
 ### 5. Literal identity with the five-quadric determinant
 
-The [accepted model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
+The [accepted model audit](../synthesis/quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit)
 gives the actual five quadrics
 
     Z4^2-Z3 Z5, Z2 Z4-Z1 Z5, Z2 Z3-Z1 Z4,
@@ -816,6 +816,6 @@ the degree-eight match, is the required geometric bridge.
 
 ## Exact support and characteristic scope
 
-The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_diagonal_norm_2026_10_12.m2](../computations/verify_session_nonendpoint_diagonal_norm_2026_10_12.m2). No inherited computation was rerun for this consolidation.
+The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_diagonal_norm_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_diagonal_norm_2026_10_12.m2). No inherited computation was rerun for this consolidation.
 
 These conclusions are proved in characteristic zero for the specified admissible nonendpoint A4 normalization family. The finite local Nakayama and actual-module arguments are not themselves characteristic-zero-specific, but the displayed balanced frames, separable curve maps, coefficient inversions and nilpotent power-rigidity applications must retain their stated hypotheses. No positive-characteristic all-family exclusion is inferred. The fixed C0 has [a quartic-carrier construction in every positive characteristic](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).

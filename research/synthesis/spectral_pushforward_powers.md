@@ -9,7 +9,7 @@ existing actual second-obstruction application. The general
 already constructs a fiberwise coprime graded second relation from a spectral
 trivialization. The coefficient construction here gives a uniform coefficient
 matrix for every n>=2, together with recovery of that trivialization from
-its kernel. The [torsion and involution argument](../supplements/QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry)
+its kernel. The [torsion and involution argument](quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry)
 and [arbitrary-order examples](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations)
 supply the inherited geometric constructions.
 
@@ -333,7 +333,7 @@ Permanent subject dossier retaining full mathematical computations, counterexamp
 Date: 2026-10-14. Author: `cyclic_cover_structure/local_torsion_curve`.
 
 Status: **PROVED HERE**, with an independent audit of the explicit families in
-[2026-10-14-cyclic-cover-D4-counterexample-audit.md](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-cyclic-cover-d4-counterexample-audit).
+[2026-10-14-cyclic-cover-D4-counterexample-audit.md](#2026-10-14-cyclic-cover-d4-counterexample-audit).
 These are local results. They do not give a projective mate for `C0` or resolve
 the universal STCI question.
 
@@ -1131,7 +1131,7 @@ despite local class order two.
 
 Auditor: `duval_counterexample`, 2026-10-14.
 Audited source:
-[2026-10-14-cyclic-cover-local-smooth-curve.md](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-cyclic-cover-local-smooth-curve),
+[2026-10-14-cyclic-cover-local-smooth-curve.md](#2026-10-14-cyclic-cover-local-smooth-curve),
 sections 1 and 4 only. The examples already audited above were not
 recomputed. **Verdict: the statements and written proofs are sound under
 the source's complete, excellent, normal two-dimensional local
@@ -1239,12 +1239,8 @@ where multiplication crossing degree `t` uses the isomorphism
 `O_X(tT)->O_X`, `f -> f phi`. Generically this is the Kummer algebra
 `k(X)[z]/(z^t-phi)`.
 
-It is a field. Indeed, `k(X)` contains all `t`-th roots of unity, and Kummer
-irreducibility fails only if `phi` is a `q`-th power for a prime `q` dividing
-`t`. Such a power would give
-`div(psi)=(t/q)T`, contradicting the exact order `t`. Equivalently, the
-Kummer extension has degree equal to the order of the class of `phi` in
-`k(X)^*/k(X)^{*t}`; that order is `t` by the same divisor argument.
+The generic algebra is a field by the Kummer irreducibility argument in the
+[connected cyclic-cover proof](normalization_indices_and_power_descent.md#proof-by-a-connected-cyclic-cover).
 
 The relative spectrum `Y=Spec_X A` is finite, integral and projective. It is
 normal: every summand is reflexive, hence has depth two at the closed points
@@ -1265,45 +1261,17 @@ not use an assertion of etaleness at arbitrary non-Cartier singular points.
 
 #### Proof of the torsion-detection assertion
 
-If `T` is Cartier at every point of `C`, its invertible locus is an open
-neighborhood of `C`. The cyclic cover is finite etale on that neighborhood.
-Therefore `Y x_X C -> C=P1` is finite etale of degree `t`. Each connected
-component is a smooth projective curve finite etale over `P1`. The
-Riemann--Hurwitz formula shows that its degree is one: a degree-`e`
-component would have `2g-2=-2e`, impossible for `e>1`. Thus this inverse
-image consists of `t` pairwise disjoint copies of `P1`.
+The [connected cyclic-cover proof](normalization_indices_and_power_descent.md#proof-by-a-connected-cyclic-cover)
+uses étaleness near `C` and Riemann–Hurwitz to split the inverse image of the
+rational curve into `t` components. Ampleness forces the support of the pulled
+back Cartier divisor to be connected, so `t=1`. Applying this to the least
+common multiple of the local orders times `T` gives the exact order formula.
 
-On the other hand `D=pi^*(M C)` is an ample effective Cartier divisor on
-the normal integral projective surface `Y`, with support exactly
-`pi^{-1}(C)`. Such support is connected. Here is a proof retaining all
-nilpotent layers of the multiple divisor. A normal surface is
-Cohen--Macaulay and has a dualizing sheaf `omega_Y`. Serre duality and
-Serre vanishing give, for sufficiently large `n`,
-
-```
-H^1(Y,O_Y(-nD)) = H^1(Y,omega_Y(nD))^* = 0.
-```
-
-Also `H^0(Y,O_Y)=k` and `H^0(Y,O_Y(-nD))=0`. From the exact sequence for
-the effective Cartier divisor `nD` one obtains
-
-```
-H^0(nD,O_{nD}) = k.
-```
-
-A disconnected support would give a nontrivial idempotent in this ring,
-a contradiction. Hence `t=1`.
-
-For the exact local-order formula, let `h` be the least common multiple
-of the local orders of `T` at the finite set `C intersect Sing(X)`.
-Every local order divides `t`, so `h` divides `t`. The class `hT` is
-Cartier at every point of `C`, is torsion, and has order `t/h`. The
-assertion just proved gives `hT=0`; therefore `t=h`.
-
-The proof works without an ambient projective space and without a global
-fundamental-group theorem for `X`. More generally it works if `C` is a
-proper connected reduced curve with no nontrivial finite etale covers,
-provided an ample effective Cartier divisor has support `C`.
+The same proof works for a proper connected reduced curve `C` with no
+nontrivial connected finite étale covers, provided an ample effective
+Cartier divisor has support `C`. The cover restricted to `C` is then a
+disjoint union of copies of `C`, and the same ample-support argument
+forces degree one.
 
 ### 2. Exact normal-carrier formula for the quartic
 
@@ -1582,7 +1550,7 @@ theory, Serre's normality criterion, Serre duality, and Serre vanishing.
 ## Degree-one moving linear relations: the cubic obstruction
 
 Date: 2026-10-14. Status: new exact cubic calculation, independently accepted in the
-[sign/frame audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-independent-audit). The accepted embedded chart and the independently established
+[sign/frame audit](#2026-10-14-moving-linear-cubic-independent-audit). The accepted embedded chart and the independently established
 quadratic obstruction locus are premises; neither is re-audited here.
 
 The calculation below eliminates the nonquadric members of the quadratic
@@ -1596,7 +1564,7 @@ in the relevant degree are separate problems.
 ### 1. Accepted inputs and the next target
 
 Use the frames and coefficients from the [independent quadratic
-audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd):
+audit](#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd):
 
     a=A+Cz, b=B+Dz, Delta=AD-BC != 0,
     f0=a u+b v,
@@ -1772,9 +1740,9 @@ from the repository root to regenerate it.
 
 Date: 2026-10-14. Status: **PASS**, exact independent derivation of the new
 cubic calculation. The accepted embedded chart and [quadratic
-audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
+audit](#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 are premises. Their earlier computations were not re-audited. The owner's
-[cubic note](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-compatibility) was first read
+[cubic note](#2026-10-14-moving-linear-cubic-compatibility) was first read
 after this audit's separate expansion had produced its answer.
 
 ### 1. Frame and correction signs
@@ -1905,7 +1873,7 @@ allowed, or when another independent relation enters in the relevant
 degree. It does not take a root of a higher-order pure-power relation and
 does not assert an STCI exclusion on its own.
 
-The independent [source](../computations/moving_linear_cubic_independent_audit_2026_10_14.py) preserves the derivation and its exact field reductions.
+The independent [source](https://github.com/markluxton1/STCI/blob/88f2e4f6a418cad6f584a1ce2445787caf653f3a/research/computations/moving_linear_cubic_independent_audit_2026_10_14.py) preserves the derivation and its exact field reductions.
 
 
 ---
@@ -1918,8 +1886,8 @@ Date: 2026-10-14. Status: independent geometric audit conditional only on the
 new cubic classification's recorded exact coefficient verification. This
 note does not repeat the accepted quadric or constant-direction calculations.
 
-Use the [quadratic frame review](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
-and [new cubic classification](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-moving-linear-cubic-compatibility).
+Use the [quadratic frame review](#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
+and [new cubic classification](#2026-10-14-moving-linear-cubic-compatibility).
 They identify the unique compatible basepoint-free moving linear relation
 line `W=O(-8)` through normal degree three as the line of the actual quadric
 `q=u+(z/2)v`. Its quotient conormal is `M=O(-6)`.
@@ -2080,7 +2048,7 @@ the accepted projective frontier. The argument does not require
 birationality and places no restriction on the order of `a^{-2}`.
 
 It also does not exclude general opposite-ruling pairs. The
-[complete coefficient normal form](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom)
+[complete coefficient normal form](carrier_conductor_differential_comparison.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom)
 contains arbitrary vectors `D,E in k^4` in place of the restricted
 choice `D=W2,E=u W2`; those coefficients can remove this particular
 boundary obstruction. No general phase-order bound or full
@@ -2098,7 +2066,7 @@ the accepted embedded quadratic transition is used as a premise. No previous
 normal-bundle or constant-direction computation is repeated.
 
 This note reviews the moving operator in Section 8 of
-[the thick relation extension](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd)
+[the thick relation extension](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd)
 for a moving **linear** relation. The calculation gives an obstruction-zero
 family, rather than an exclusion theorem.
 
@@ -2455,7 +2423,7 @@ Original mathematical content and proof qualifications retained verbatim. Histor
 
 # Saturated duality, root descent and embedded formal surfaces
 
-The first part gives one complete proof of projective normal flatness through saturated Gorenstein duality and a degree-zero resultant, including its balanced spectral interpretation and pure-power corollary. The local Hilbert-envelope proof has its own owner in [Normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md). The second part concerns a different object: all-orders embedded formal surfaces along reduced movement-two roots.
+The first part gives one complete proof of projective normal flatness through saturated Gorenstein duality and a degree-zero resultant, including its balanced spectral interpretation and pure-power corollary. The local Hilbert-envelope proof has its own owner in [Normal flatness](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md). The second part concerns a different object: all-orders embedded formal surfaces along reduced movement-two roots.
 
 [R-0010](../results/saturated_first_relation_normal_flatness.md) governs the saturated-first-relation result. The arbitrary-conormal and characteristic-free extension is retained as an independently reconstructed source-level theorem; this editorial consolidation does not enlarge the record. [R-0018](../results/regular_singular_root_formal_obstruction.md) governs the regular-formal-surface exclusion. Neither result supplies a theorem for arbitrary actual equations.
 
@@ -2504,9 +2472,9 @@ spectral criterion; it does not claim to lift an arbitrary abstract
 graded family back to an actual thickening.
 
 The accepted inputs are the socle-line and Gorenstein MCM duality facts
-in [the independent socle audit](SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-generalization-socle-independent-auditmd),
+in [the independent socle audit](../supplements/SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-generalization-socle-independent-auditmd),
 and the root-quotient identification of R-0008 and its
-[independent evidence](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
+[independent evidence](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
 The existing socle audit proves perfect ordinary pairings under extra
 conditions. The perfect **saturated** pairing established next is the
 new bridge; no assertion that the ordinary powers are already saturated
@@ -2521,7 +2489,7 @@ In characteristic zero, for the pure-power specialization
 `M=M_1^r`, with `M_1 subset V tensor O_C` and `deg M_1<0`, the audited
 conclusion is that no such `Y` exists. Section 8 proves this directly.
 For the rational base, combining (3) with the separately reviewed
-[nonreduced-root obstruction](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-spectral-nonreduced-root-obstruction)
+[nonreduced-root obstruction](spectral_torsion_and_syzygy_splitting.md#2026-10-19-spectral-nonreduced-root-obstruction)
 excludes every nonreduced moving full root under (1)--(2). The independent
 audit of that latter obstruction remains its own evidence; it is not
 replaced by this audit.
@@ -2846,7 +2814,7 @@ The equal-degree case is not included in this resultant proof: then
 the first relation space has rank two and the construction of its
 second quotient line is different. A separate local Hilbert-function
 argument is recorded in
-[the normal-flatness proposal](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness);
+[the normal-flatness proposal](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness);
 that broader variant is not needed as a premise here.
 
 ## 8. Independent pure-power shortcut
@@ -2939,8 +2907,8 @@ Date: 2026-10-19. Author: `singular_roots` research agent.
 
 Status: the regular-formal-surface statement is stated in [R-0018](../results/regular_singular_root_formal_obstruction.md); its additional observations retain source-level scope.
 The separate audits are
-[the smoothing audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#source-2026-10-19-regular-singular-root-smoothing-auditmd) and
-[the equal-slope two-component audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#source-2026-10-19-regular-reducible-root-independent-auditmd).
+[the smoothing audit](https://github.com/markluxton1/STCI/blob/f5066d138efb4b0d285893a463aa65197dba1e39/research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md#source-2026-10-19-regular-singular-root-smoothing-auditmd) and
+[the equal-slope two-component audit](https://github.com/markluxton1/STCI/blob/f5066d138efb4b0d285893a463aa65197dba1e39/research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md#source-2026-10-19-regular-reducible-root-independent-auditmd).
 This note does not
 settle the singular-formal-surface case.
 
@@ -3159,7 +3127,7 @@ geometric input is Hartshorne,
 Theorem 4.1, printed p. 122](https://www.numdam.org/item/PMIHES_1969__36__111_0.pdf).
 The local equivalence to the ruled neighborhood and the nef square
 comparison are the same accepted mechanism as in
-[the preserved independent branch review](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd).
+[the preserved independent branch review](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd).
 We use that mechanism with the new smoothed curve, not the statement
 that a smooth `(2,r)` root itself exists in `E`.
 
@@ -3266,9 +3234,9 @@ separately scoped and is not included in the reported fixed-C0 theorem.
 
 ## Characteristic scope of descent, duality and formal lifting
 
-Saturated MCM duality and the arbitrary-conormal degree-zero resultant proof use no separability or division by an integer, as their explicit proofs show. The full-root Picard criterion is likewise valid in arbitrary characteristic. The moving-pure-power shortcut uses the characteristic-zero apolar quotient formula, and the theorem excluding repeated moving total components uses detection of integral ruling degrees by logarithmic Chern classes; the [fixed-degree apolar extension](MOVING_POWER_SECOND_RELATION.md#positive-characteristic-reach-of-the-pure-power-mechanism) requiresp>s, while the [repeated-component extension](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#prime-to-characteristic-spectral-descent-excludes-repeated-moving-components) requiresp∤s on the rational base. No unrestricted positive-characteristic extension is asserted. In characteristicp, on the diagonal D of P1×P1, A=O(-1,1) restricts trivially to D and A^p restricts trivially to2D because (1+h)^p=1 modulo I_D². Thus the doubled-divisor Picard injectivity step fails exactly where integer detection fails.
+Saturated MCM duality and the arbitrary-conormal degree-zero resultant proof use no separability or division by an integer, as their explicit proofs show. The full-root Picard criterion is likewise valid in arbitrary characteristic. The moving-pure-power shortcut uses the characteristic-zero apolar quotient formula, and the theorem excluding repeated moving total components uses detection of integral ruling degrees by logarithmic Chern classes; the [fixed-degree apolar extension](../supplements/MOVING_POWER_SECOND_RELATION.md#positive-characteristic-reach-of-the-pure-power-mechanism) requiresp>s, while the [repeated-component extension](spectral_torsion_and_syzygy_splitting.md#prime-to-characteristic-spectral-descent-excludes-repeated-moving-components) requiresp∤s on the rational base. No unrestricted positive-characteristic extension is asserted. In characteristicp, on the diagonal D of P1×P1, A=O(-1,1) restricts trivially to D and A^p restricts trivially to2D because (1+h)^p=1 modulo I_D². Thus the doubled-divisor Picard injectivity step fails exactly where integer detection fails.
 
-The smooth formal-root theorem R0005 and actual-CI smooth-root bridge R0006 have separately reviewed characteristic-free scopes under their explicit balanced-normal/smooth-full-root/actual-generation hypotheses. The bridge retains inseparable root primes and uses the actual local ring, not a coefficient-field splitting of its completion. The regular-singular-root theorem R0018 below remains in its accepted characteristic-zero scope; the argument does not automatically extend through singular formal surfaces. None of these restricted hypotheses contradicts [the every-positive-characteristic quartic-carrier construction](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) on the fixed curve.
+The smooth formal-root theorem R0005 and actual-CI smooth-root bridge R0006 have separately reviewed characteristic-free scopes under their explicit balanced-normal/smooth-full-root/actual-generation hypotheses. The bridge retains inseparable root primes and uses the actual local ring, not a coefficient-field splitting of its completion. The regular-singular-root theorem R0018 below remains in its accepted characteristic-zero scope; the argument does not automatically extend through singular formal surfaces. None of these restricted hypotheses contradicts [the every-positive-characteristic quartic-carrier construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) on the fixed curve.
 
 
 ---
@@ -3314,7 +3282,7 @@ between `D1` and `D2`.
 The accepted blowup conventions and the branch normalization, resolution,
 multiplicity, and plane-genus mechanisms are recorded in
 [STCI-R-0005](../results/smooth_root_formal_obstruction.md) and its
-[independent source audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit),
+[independent source audit](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit),
 especially Sections 1--3 and 5--6. They are used within their stated scope;
 the accepted smooth-root exclusion itself is not replayed. The new points
 checked here are the self-intersection of a component of a reducible root,
@@ -3529,7 +3497,7 @@ Let `r>=2`, and let `Z` be a **reduced effective Cartier divisor** of class
 is **regular along all of `Z`**. Then such a lift does not exist.
 
 The input [STCI-R-0005](../results/smooth_root_formal_obstruction.md)
-concerns a smooth full root; its [accepted independent audit](FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
+concerns a smooth full root; its [accepted independent audit](../supplements/FINITE_ROOT_FAMILIES_AND_SMOOTH_OBSTRUCTIONS.md#2026-10-15-generalization-smooth-root-formal-nonexistence-independent-audit)
 supplies the algebraic branch, ruled-model degree, and plane-section
 arguments used as premises here. This review checks their new interface
 with a singular root and supplies the new smoothing argument. It does
@@ -3751,4 +3719,3 @@ primary deformation, relative Cartier, and semicontinuity references.
 No exact-CAS calculation, inherited proof rerun,
 or git operation was used. The regularity boundary is unresolved by
 this argument and remains a limitation of the argument.
-

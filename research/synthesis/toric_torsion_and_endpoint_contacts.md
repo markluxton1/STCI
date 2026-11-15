@@ -473,7 +473,7 @@ Original mathematical content and qualifications retained verbatim. Historical r
 
 The [one-step boundary obstruction](#2026-10-27-one-step-boundary-obstruction) treats extensions in the **actual equation module**, not arbitrary formal transverse sections. Its independent audit keeps the Gorenstein final-step restrictions and the precise converse separate. The accompanying fixed-boundary smoothing audit concerns a different deformation problem and must not be read as a universal STCI obstruction.
 
-Compare [global repair and weighted initials](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#boundary-repair-global-lifting): a repair divisor is useful only when the required correction belongs to the image of the global homogeneous source. [Intrinsic valuations](../synthesis/coefficient_valuations.md) supplies normal/coefficent valuation distinctions but not the missing global lift. [Rees and residual cycles](../synthesis/rees_and_vertical_controls.md) supplies cycle budgets but cannot substitute for this module-level test.
+Compare [global repair and weighted initials](normal_filtration_boundary_obstructions.md#boundary-repair-global-lifting): a repair divisor is useful only when the required correction belongs to the image of the global homogeneous source. [Intrinsic valuations](../synthesis/coefficient_valuations.md) supplies normal/coefficent valuation distinctions but not the missing global lift. [Rees and residual cycles](../synthesis/rees_and_vertical_controls.md) supplies cycle budgets but cannot substitute for this module-level test.
 
 **Logical boundary:** one-step obstruction, final socle obstruction, and global residual-support exclusion are three different assertions. Retain the separate hypotheses and counterexamples in their source sections.
 
@@ -611,7 +611,7 @@ repair bound, with coefficient one, for this particular lifting class.
 It does not assert that all ambient obstruction problems share this
 target or the same twist.
 
-The [principal-parts and multiplication-kernel criterion](NORMAL_BOUNDARY_WEIGHTED_INITIALS_AND_LIFTING.md#boundary-repair-global-lifting)
+The [principal-parts and multiplication-kernel criterion](normal_filtration_boundary_obstructions.md#boundary-repair-global-lifting)
 can be applied to the actual bundle Ubar_Y tensor V_Y^vee. On P1 this
 is a line bundle, and all possible effective repair divisors can be
 tested by one multiplication matrix. The actual divisor must also
@@ -1476,7 +1476,7 @@ The selected rational sextic is
 F_*=-q^2x_3^2-qDx_2+D^2/4+q^3,
 \quad q=x_0x_3-x_1x_2,\quad D=x_2^3-x_1x_3^2.
 \]
-The [actual-sextic note](ENDPOINT_FOUR_ACTUAL_SEXTICS.md) uses the
+The [actual-sextic construction](toric_sextic_residuals_and_limits.md#every-prescribed-second-symbol-has-an-actual-sextic-lift) uses the
 following completed finite input:
 \[
 \{G\in H^0(\mathbf P^3,\mathcal O(16)):
@@ -1484,16 +1484,17 @@ G_\eta\in(F_*)+\mathfrak m^{12}\}
 =F_*H^0(\mathbf P^3,\mathcal O(10)).
 \tag{1}
 \]
-The evidence consists of two implementations:
+The audit inspected two implementations. The Result preserves a
+[maintained rank replay](../results/ci_fixed_sextic_jet_rigidity.md#exact-evidence-and-independent-verification).
 
-* The [Macaulay2 certificate](../computations/endpoint4_fixed_m2_2026_10_25.m2),
-  its [execution metadata](../computations/endpoint4_fixed_m2_2026_10_25.json),
-  and [log](../computations/endpoint4_fixed_m2_2026_10_25.txt) record a
+* The [Macaulay2 certificate](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_m2_2026_10_25.m2),
+  its [execution metadata](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_m2_2026_10_25.json),
+  and [log](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_m2_2026_10_25.txt) record a
   \(690\times969\) matrix of rank 683 over \(\mathbf F_{65521}\),
   rank 286 for the known degree-ten multiples, and rank zero for their
   product with the jet matrix.
-* The primary's [independent explicit normal-division implementation](../computations/endpoint4_fixed_jet_independent_2026_10_26.py)
-  and [output](../computations/endpoint4_fixed_jet_independent_2026_10_26.json)
+* The primary's [independent explicit normal-division implementation](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_jet_independent_2026_10_26.py)
+  and [output](https://github.com/markluxton1/STCI/blob/f11123c0ab9fc4231ed0e5b21fc14a1b5fdecef7/research/computations/endpoint4_fixed_jet_independent_2026_10_26.json)
   construct the quotient coordinates separately, recover rank 683,
   and annihilate all 286 known multiples at every sample.
 
@@ -1649,5 +1650,3 @@ conclusion covers one selected sextic and degree-sixteen mates only.
 The rest of the endpoint-four family and unrestricted STCI questions remain unchanged.
 The bound is not claimed to be attained. The completed finite test and
 this independently reconstructed scope bridge do not exclude any larger family.
-
-

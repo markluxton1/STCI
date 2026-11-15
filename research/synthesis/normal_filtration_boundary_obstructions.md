@@ -59,7 +59,7 @@ The [normal torsion and genus note](../supplements/CURVILINEAR_GENUS_AND_DEFECTS
 
 The [boundary-repair note](#consolidated-historical-supplement-researchsupplementsnormal_boundary_weighted_initials_and_liftingmd) supplies a principal-parts test for an identified linear obstruction in H^1(C,V): the class dies under V to V(D) exactly when its image in H^1(C,V(D)) is zero. On P1 this admits a common-divisor multiplication-kernel test. Repair by an arbitrary divisor of a given degree does not imply a prescribed geometric repair or actual homogeneous realization.
 
-The [one-step note](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md), with [independent audit](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction-audit), constructs an extension class for a fixed lower embedded Cohen-Macaulay thickening with generically curvilinear normal algebra. The existing power-relation divisor consumes part of the next permitted divisor; the remaining allowance, together with vanishing of the pushed-forward extension class and surjectivity, governs its specified one-step extension.
+The [one-step note](toric_torsion_and_endpoint_contacts.md#2026-10-27-one-step-boundary-obstruction), with [independent audit](toric_torsion_and_endpoint_contacts.md#2026-10-27-one-step-boundary-obstruction-audit), constructs an extension class for a fixed lower embedded Cohen-Macaulay thickening with generically curvilinear normal algebra. The existing power-relation divisor consumes part of the next permitted divisor; the remaining allowance, together with vanishing of the pushed-forward extension class and surjectivity, governs its specified one-step extension.
 
 For the final Gorenstein step (generic length at least three), that note argues that no additional divisor allowance remains: the relevant extension class must vanish, and perfect top-layer multiplication is also required. **These claims retain their stated scopes.** They do not give a general ambient obstruction comparison, a global STCI exclusion, or a converse from splitting to two global equations.
 
@@ -71,7 +71,7 @@ For a regular codimension-two embedding C in a smooth threefold, let I be its id
 
 where Delta_n=in_n(IJ)/(S_+ H)_n. In particular, minimal generators of the full initial ideal need not survive as independent generators of the filtered equation module. This is the comparison in [R-0030](../results/local_filtration_comparison_defect.md), with its full construction and counterexample in [the ideal-filtration supplement](#2026-10-23-ideal-filtrations-independent-investigationmd).
 
-The full initial ideal is itself not determined by the two displayed leading forms. In the regular transverse local ring, J=(x²,x²+y³)=(x²,y³), so the displayed order-two symbols generate only (X²), whereas the full initial ideal is (X²,Y³), of colength six. The [higher-initial investigation](../supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#explicit-cancellation-examples) gives further local examples and the prescribed characteristic-two quartic computation. None of these local models by itself constructs a global STCI.
+The full initial ideal is itself not determined by the two displayed leading forms. In the regular transverse local ring, J=(x²,x²+y³)=(x²,y³), so the displayed order-two symbols generate only (X²), whereas the full initial ideal is (X²,Y³), of colength six. The [higher-initial investigation](formal-normal-intersection.md#explicit-cancellation-examples) gives further local examples and the prescribed characteristic-two quartic computation. None of these local models by itself constructs a global STCI.
 
 Simultaneous carrier singularity is necessary for the comparison defect under the R-0030 hypotheses. The characteristic-two quartic has a fourth initial equation from cancellation and its comparison defect vanishes. [R-0031](../results/quartic_char2_fourth_equation_kernel.md) · [Open sole-support question](../FRONTIER.md#punctual-relative-defect-under-sole-support)
 
@@ -87,7 +87,7 @@ For a fixed obstruction \(o\in H^1(\mathbf P^1,\mathcal O(-r))\), \(r\ge2\), and
 \]
 Thus allowing the divisor to vary asks for a nonzero kernel of a catalecticant multiplication map. A dimension argument supplies such a divisor for every scalar obstruction when \(B\ge\lfloor r/2\rfloor\); for a vector-valued obstruction the **same divisor** must lie in the kernels of all component maps. A prescribed socle boundary is still more restrictive.
 
-This is a precise *cohomological* criterion, not a proof that the allowed socle divisor modifies the ambient embedded-lifting obstruction in this way. The missing comparison of obstruction complexes and the actual global homogeneous source are separate requirements. The detailed derivation and limits are in [the boundary supplement](#consolidated-historical-supplement-researchsupplementsnormal_boundary_weighted_initials_and_liftingmd), with the fixed-lower embedded criterion in [the one-step supplement](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md).
+This is a precise *cohomological* criterion, not a proof that the allowed socle divisor modifies the ambient embedded-lifting obstruction in this way. The missing comparison of obstruction complexes and the actual global homogeneous source are separate requirements. The detailed derivation and limits are in [the boundary supplement](#consolidated-historical-supplement-researchsupplementsnormal_boundary_weighted_initials_and_liftingmd), with the fixed-lower embedded criterion in [the one-step supplement](toric_torsion_and_endpoint_contacts.md#2026-10-27-one-step-boundary-obstruction).
 
 ## A sextic source image and a distinct cubic obstruction
 
@@ -121,27 +121,27 @@ These statements concern **quartic inverse-system ancestors**, not arbitrary STC
 
 The [intrinsic conormal splitting criterion](../supplements/LOCAL_COHOMOLOGY_CONORMAL_GEOMETRY.md) constructs V from the canonical triple ideal J by taking the torsion-free quotient of J/(I_C J). Its intrinsic extension has a line subbundle L cubed, twisted by the second defect, and a complementary conormal quotient. The actual two quartic targets map V surjectively onto the socle line O(-14), since their images form a basepoint-free pencil. The kernel has degree 2e-14, and the extension splits because H1(O(2e)) vanishes for e>=0. Therefore a common quartic ancestor necessarily has V=O(2e-14) direct sum O(-14). The criterion is necessary, not sufficient. For e=1, the remaining d2=1,2,3,4 strata require respective Hankel connecting-matrix ranks 3,2,1,0; in particular the d2=4 zero-extension/Gorenstein case remains possible at this stage. These are not STCI BF bounds.
 
-The [corrected simultaneous-target bridge](../supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-socle-bridge-adversarial-auditmd) excludes primitive e=1,d2=0 common quartic ancestors under the accepted finite-flat and socle antecedents, using both target equations together. The actual image of a multiplier in the quadruple is a nonzero socle target; it must not be set to zero. The valid local equation retains that target, and elimination between the two multipliers yields the contradiction. The older single-multiplier pole argument is invalid for ancestors.
+The [corrected simultaneous-target bridge](normalization_conductor_projection.md#source-2026-10-07-session-socle-bridge-adversarial-auditmd) excludes primitive e=1,d2=0 common quartic ancestors under the accepted finite-flat and socle antecedents, using both target equations together. The actual image of a multiplier in the quadruple is a nonzero socle target; it must not be set to zero. The valid local equation retains that target, and elimination between the two multipliers yields the contradiction. The older single-multiplier pole argument is invalid for ancestors.
 
-The [six defective e=1,d2=1 endpoints](../supplements/OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d1-endpoint-ancestorsmd) are excluded as *ancestors*: four have a one-dimensional complete ambient quartic space, incompatible with two independent target images; two have a common cubic factor and reduce to degree-one multipliers, excluded by P-037. This does not rule out an arbitrary higher-degree mate for a remaining unique quartic carrier. Likewise the [principal open-chart rank result](../supplements/OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd) gives dimension one for the complete quartic space on its specified open, not an all-mate carrier exclusion; boundary charts require their separate proofs.
+The [six defective e=1,d2=1 endpoints](contact_duality_and_global_descent.md#source-2026-10-08-session-localcoh-e1-d1-endpoint-ancestorsmd) are excluded as *ancestors*: four have a one-dimensional complete ambient quartic space, incompatible with two independent target images; two have a common cubic factor and reduce to degree-one multipliers, excluded by P-037. This does not rule out an arbitrary higher-degree mate for a remaining unique quartic carrier. Likewise the [principal open-chart rank result](normalization_indices_and_power_descent.md#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd) gives dimension one for the complete quartic space on its specified open, not an all-mate carrier exclusion; boundary charts require their separate proofs.
 
 The remaining defective ancestor strata and other directions must be checked with their actual extension classes and target images. None of these conditional exclusions can imply a universal STCI theorem by dropping their antecedents.
 
 ## Two additional October 8 ancestor exclusions
 
-**Quadric first-quotient direction.** For the fixed rational quartic C of class (1,3) on the smooth quadric Q, the conormal direction A=-z/2, B=1 is precisely the direction inside Q. Its canonical double is 2C on Q. Any containing quartic F restricts to a section of O_Q(4,4)(-2C)=O_Q(2,-2), which has no sections. Thus both quartic ancestor equations would be divisible by Q, reducing to the prohibited common quadratic ancestor P-037. This excludes that **direction for every second-defect divisor**, conditional on the canonical-triple reduction and P-037; it does not exclude every positive-defect or Gorenstein stratum. [Source and complete 35-monomial rank check](../supplements/OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-quadric-directionmd).
+**Quadric first-quotient direction.** For the fixed rational quartic C of class (1,3) on the smooth quadric Q, the conormal direction A=-z/2, B=1 is precisely the direction inside Q. Its canonical double is 2C on Q. Any containing quartic F restricts to a section of O_Q(4,4)(-2C)=O_Q(2,-2), which has no sections. Thus both quartic ancestor equations would be divisible by Q, reducing to the prohibited common quadratic ancestor P-037. This excludes that **direction for every second-defect divisor**, conditional on the canonical-triple reduction and P-037; it does not exclude every positive-defect or Gorenstein stratum. [Source and complete 35-monomial rank check](contact_duality_and_global_descent.md#source-2026-10-08-session-localcoh-quadric-directionmd).
 
-**Two algebraic defect-four directions.** For A=r*z, B=1 with 12r²+4r+3=0 and second-defect degree four, a genuine corrected triple has relation delta*m+theta*y²=0 with theta a nonzero constant, normalized to one. The complete seven-dimensional ambient double-quartic space has two primitive members and five coefficients (h,E)=(a_i*z^(i+2),z^i), i=0,...,4, with pairwise distinct a_i. Quartic containment is h=delta*E. Eliminating the two primitive coefficients leaves a seven-by-five matrix. For delta=d0+...+d4*z^4, its low and high minors are d0^4 and d4^4; when both vanish, the next minors are d1^5 and d3^5. For the remaining delta=d2*z², a diagonal minor has entries d2-a_i, at most one zero. Thus the kernel always has dimension at most one: no two independent quartics contain the triple. This excludes common quartic ancestors for **these two directions and every defect section**, not all defect-four directions or arbitrary-degree mates. [Exact source](../supplements/OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d4-algebraicmd).
+**Two algebraic defect-four directions.** For A=r*z, B=1 with 12r²+4r+3=0 and second-defect degree four, a genuine corrected triple has relation delta*m+theta*y²=0 with theta a nonzero constant, normalized to one. The complete seven-dimensional ambient double-quartic space has two primitive members and five coefficients (h,E)=(a_i*z^(i+2),z^i), i=0,...,4, with pairwise distinct a_i. Quartic containment is h=delta*E. Eliminating the two primitive coefficients leaves a seven-by-five matrix. For delta=d0+...+d4*z^4, its low and high minors are d0^4 and d4^4; when both vanish, the next minors are d1^5 and d3^5. For the remaining delta=d2*z², a diagonal minor has entries d2-a_i, at most one zero. Thus the kernel always has dimension at most one: no two independent quartics contain the triple. This excludes common quartic ancestors for **these two directions and every defect section**, not all defect-four directions or arbitrary-degree mates. [Exact source](contact_duality_and_global_descent.md#source-2026-10-08-session-localcoh-e1-d4-algebraicmd).
 
 ## Rational endpoint-family comparison
 
-The [Step 1C endpoint-family synthesis](../supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md) preserves the complete first-family target-u exclusion and the incomplete second-family certificate. For the latter, 22 primitive geometric parameter points remain unresolved after the two quadratic exceptional factors are closed. These are exceptions to a certificate, not constructed ancestors. Both results concern specified pure-top endpoint directions, not all quartic ancestors or arbitrary mates.
+The [Step 1C endpoint-family synthesis](contact_duality_and_global_descent.md#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd) preserves the complete first-family target-u exclusion and the incomplete second-family certificate. For the latter, 22 primitive geometric parameter points remain unresolved after the two quadratic exceptional factors are closed. These are exceptions to a certificate, not constructed ancestors. Both results concern specified pure-top endpoint directions, not all quartic ancestors or arbitrary mates.
 
-**Later endpoint closure:** The earlier October 8 count of 22 unresolved second-family exception points was eliminated by the October 13 cubic/quartic field duals and the October 14 degree-fifteen fraction-free certificate. Both specified rational endpoint families are excluded under their actual tensor and pure-top assumptions. See [the updated endpoint synthesis](../supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md). Do not interpret the earlier count as the current frontier.
+**Later endpoint closure:** The earlier October 8 count of 22 unresolved second-family exception points was eliminated by the October 13 cubic/quartic field duals and the October 14 degree-fifteen fraction-free certificate. Both specified rational endpoint families are excluded under their actual tensor and pure-top assumptions. See [the updated endpoint synthesis](contact_duality_and_global_descent.md#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd). Do not interpret the earlier count as the current frontier.
 
 ## P-044 dx=1 slice: exact five-coordinate saturation (October 7)
 
-The [dx=1 saturation audit](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-dx1-saturation-audit) proves a **slice-level** classification for P-044's normalized primitive-fourth obstruction, not a universal STCI theorem. Write `A=z²+az+x`, `B=1+bz+dz²`, impose `d=1/x`, and put `u=bx-a`, `t=xu`, `alpha=2a+1`, `beta=b+2`. The basepoint-free slice is precisely `D(t)`. Reconstructing all five original obstruction coordinates gives an ideal `L=(Q1,...,Q5)` whose saturation is the six-generator ideal
+The [dx=1 saturation audit](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-dx1-saturation-audit) proves a **slice-level** classification for P-044's normalized primitive-fourth obstruction, not a universal STCI theorem. Write `A=z²+az+x`, `B=1+bz+dz²`, impose `d=1/x`, and put `u=bx-a`, `t=xu`, `alpha=2a+1`, `beta=b+2`. The basepoint-free slice is precisely `D(t)`. Reconstructing all five original obstruction coordinates gives an ideal `L=(Q1,...,Q5)` whose saturation is the six-generator ideal
 
 `L:t^infinity = J = (x beta²+alpha beta-2alpha², (4x+2)alpha beta-3alpha², beta³, alpha beta², alpha² beta, alpha³)`.
 
@@ -151,7 +151,7 @@ The exact certificates are `tJ subset L subset J` and `J:t=J`. The latter also f
 
 The [October 7 primitive-triple audit](#consolidated-historical-supplement-researchsupplementsoct7_mf6_and_nonnormal_structuresmd) distinguishes a stronger quartic-carrier statement from the weaker quartic-ancestor rank tests. In characteristic zero, for first quotient `O(-6)` and `D2=0`, the basepoint-free primitive directions comprise one principal torus orbit and three boundary orbits. The principal and two algebraic boundary orbits have complete two-dimensional quartic pencils with forced ruling-line base components; the comparison-zero boundary has quartics divisible by the unique quadric. The fixed-line observation alone does **not** exclude arbitrary mates, since a line can meet C at its forced intersection points. The subsequent normalizations and full inverse-support analysis in the independent audit exclude the pure quartic carriers for mates of any positive degree under the stated MF6 hypotheses. Do not preserve the earlier fixed-line-only argument as a complete all-degree proof. The defective `D2>0` cases remain outside this primitive result.
 
-By contrast, the [October 8 algebraic d2=4 audit](../supplements/OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d4-independent-auditmd) is a **common-quartic-ancestor** exclusion for precisely the two directions `A=r z, B=1`, `12r²+4r+3=0`, uniform in every genuine quartic defect section. The correction coefficient theta must be nonzero: theta zero would produce torsion `(R/(delta))*m` at a zero of delta and violate finite flatness. Normalizing theta=1 gives `y²=-delta*m` and quartic containment `h=delta E`. The complete quartic source has dimension seven; a seven-by-five matrix has rank at least four for every delta, including repeated and infinity zeros, leaving at most one containing quartic. Two independent target classes are therefore impossible **conditional on the canonical-triple ancestor reduction**. This does not exclude all d2=4 directions or arbitrary-degree mates.
+By contrast, the [October 8 algebraic d2=4 audit](contact_duality_and_global_descent.md#source-2026-10-08-session-localcoh-e1-d4-independent-auditmd) is a **common-quartic-ancestor** exclusion for precisely the two directions `A=r z, B=1`, `12r²+4r+3=0`, uniform in every genuine quartic defect section. The correction coefficient theta must be nonzero: theta zero would produce torsion `(R/(delta))*m` at a zero of delta and violate finite flatness. Normalizing theta=1 gives `y²=-delta*m` and quartic containment `h=delta E`. The complete quartic source has dimension seven; a seven-by-five matrix has rank at least four for every delta, including repeated and infinity zeros, leaving at most one containing quartic. Two independent target classes are therefore impossible **conditional on the canonical-triple ancestor reduction**. This does not exclude all d2=4 directions or arbitrary-degree mates.
 
 ## Six degree-one defective endpoints: fixed-carrier exclusion stronger than ancestor rank
 
@@ -169,9 +169,9 @@ The [primitive progress note](#consolidated-historical-supplement-researchsupple
 
 ## Mixed (4,6): Fitting divisor and pole strata
 
-The [October 5 mixed-six calculation](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mixed46-poles) assumes a finite-flat quasiprimitive length-six Gorenstein algebra, locally free Banica–Forster pieces, and perfect multiplication pairings. For defect divisors `0<=D2<=D3`, the graded pieces are `O,L,L^2(D2),L^3(D3),L^4(D2+D3),L^5(D2+D3)`. The coordinate-independent first-normal cokernel Fitting divisor satisfies `A=D3+min(D2,D3-D2)`, with the minimum taken pointwise. The proof computes torsion `T=N/yB`: its length is `ord(D2+D3)`, while `length(T^2)=max(ord D2-ord(D3-D2),0)`, and `length(T/T^2)=ord A`. In particular `D3<=A<=D2+D3`; neither extreme equality is universal.
+The [October 5 mixed-six calculation](quasiprimitive_residual_cycles.md#2026-10-05-mixed46-poles) assumes a finite-flat quasiprimitive length-six Gorenstein algebra, locally free Banica–Forster pieces, and perfect multiplication pairings. For defect divisors `0<=D2<=D3`, the graded pieces are `O,L,L^2(D2),L^3(D3),L^4(D2+D3),L^5(D2+D3)`. The coordinate-independent first-normal cokernel Fitting divisor satisfies `A=D3+min(D2,D3-D2)`, with the minimum taken pointwise. The proof computes torsion `T=N/yB`: its length is `ord(D2+D3)`, while `length(T^2)=max(ord D2-ord(D3-D2),0)`, and `length(T/T^2)=ord A`. In particular `D3<=A<=D2+D3`; neither extreme equality is universal.
 
-For degree pair `(4,6)`, the seven necessary numerical types are `e=0: (d2,d3)=(1,8),(2,7),(3,6),(4,5)` and `e=1: (0,4),(1,3),(2,2)`. Their coarse nonregular pole lengths reduce to `e=0: p=1,2,3,4` and `e=1: p=4,5,6`. This is a restriction on possible strata, not a realization or an STCI exclusion. The [regular-ratio proof](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mixed46-regular) separately excludes only the two pure constant horizontal directions when `e=0` and the quotient ratio is globally regular. Its quadric-residual and cubic-jet argument does not treat mixed directions, e=1, or nonregular pairs. The [earlier rank-six audit](../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-further-audit) records the saturated-lattice hypotheses and the remaining `(4,5)` defect case.
+For degree pair `(4,6)`, the seven necessary numerical types are `e=0: (d2,d3)=(1,8),(2,7),(3,6),(4,5)` and `e=1: (0,4),(1,3),(2,2)`. Their coarse nonregular pole lengths reduce to `e=0: p=1,2,3,4` and `e=1: p=4,5,6`. This is a restriction on possible strata, not a realization or an STCI exclusion. The [regular-ratio proof](quasiprimitive_residual_cycles.md#2026-10-05-mixed46-regular) separately excludes only the two pure constant horizontal directions when `e=0` and the quotient ratio is globally regular. Its quadric-residual and cubic-jet argument does not treat mixed directions, e=1, or nonregular pairs. The [earlier rank-six audit](quasiprimitive_residual_cycles.md#2026-10-05-mf6-further-audit) records the saturated-lattice hypotheses and the remaining `(4,5)` defect case.
 
 ## The geometric realization problem for successive thickenings
 
@@ -181,7 +181,7 @@ The [weighted-initial note](#consolidated-historical-supplement-researchsuppleme
 
 ### A finite, checkable continuation
 
-Choose a specific surviving pair of degrees at least five, or a specified lower embedded thickening. Record (i) its generic transverse algebra and **full** initial ideal; (ii) the saturation and exceptional-point defect of each conormal layer; (iii) the exact obstruction class and allowed boundary divisor for the next lift; and (iv) the image of actual global homogeneous sections in the required jets. At each step distinguish failure of a necessary condition from failure to construct a solution. Finally check properness and actual residual support independently. The [boundary repair](#consolidated-historical-supplement-researchsupplementsnormal_boundary_weighted_initials_and_liftingmd) and [one-step completion](../supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md) analyses provide scoped tools, not a theorem that this procedure always decides STCI.
+Choose a specific surviving pair of degrees at least five, or a specified lower embedded thickening. Record (i) its generic transverse algebra and **full** initial ideal; (ii) the saturation and exceptional-point defect of each conormal layer; (iii) the exact obstruction class and allowed boundary divisor for the next lift; and (iv) the image of actual global homogeneous sections in the required jets. At each step distinguish failure of a necessary condition from failure to construct a solution. Finally check properness and actual residual support independently. The [boundary repair](#consolidated-historical-supplement-researchsupplementsnormal_boundary_weighted_initials_and_liftingmd) and [one-step completion](toric_torsion_and_endpoint_contacts.md#2026-10-27-one-step-boundary-obstruction) analyses provide scoped tools, not a theorem that this procedure always decides STCI.
 
 **Remaining mathematical gap:** there is no established general implication from a generic or graded root configuration and its local repair data to a pair of global equations with sole reduced support. Conversely, there is no established theorem excluding all such configurations when first relations are nonsaturated or the comparison defect is punctual.
 
@@ -234,7 +234,7 @@ R-0012 rules out a constrained flat embedded lift of this prescribed special sch
 
 The boundary-repair catalecticant and the local-cohomology polynomial left dual are two concrete uses of duality on an actual source map. In the first, Serre duality changes a pole-repair problem into annihilation of a multiplication subspace; in the second, a row annihilating the complete tensor image separates a target class from the image. Both mechanisms work over any coefficient field where the displayed objects and maps are defined. They do not identify their obstruction spaces, and no theorem transfers a repair divisor from one problem to the other. The same global homogeneous source must remain fixed when several conditions are stacked. A separate divisor for each component or independently chosen normal jets would change the existence question.
 
-The [complete endpoint owner](../supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md) now assembles both rational target-u family exclusions with parameter coverage, all affine corrections, exact factor closure and actual tensor reconstruction. Its rational certificate scope is characteristic zero. The [positive-characteristic construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) remains the global control: these duality mechanisms constrain specified sources; they do not exclude STCI in every characteristic.
+The [complete endpoint owner](contact_duality_and_global_descent.md#consolidated-historical-supplement-researchsupplementslocal_cohomology_degree15_certificatesmd) now assembles both rational target-u family exclusions with parameter coverage, all affine corrections, exact factor closure and actual tensor reconstruction. Its rational certificate scope is characteristic zero. The [positive-characteristic construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier) remains the global control: these duality mechanisms constrain specified sources; they do not exclude STCI in every characteristic.
 
 A precise proposed cross-topic bridge is to compare the nonsaturated-first-relation/resultant defect of R0016 with the saturated quasiprimitive residual zero-cycle of R0019 **using the actual global equations and a proper auxiliary intersection**. The two constructions have different hypotheses and targets. A general divisor inequality has not been established. Any comparison must identify correction terms when ordinary normal flatness, generic curvilinearity, saturation or properness fails, rather than equate the two numerical defects or infer an extra curve from a vertical exceptional cycle.
 
@@ -298,170 +298,164 @@ Date: 2026-10-05
 Status: **characteristic-zero continuation**. The ambient-stabilizer statement and the three-parameter exclusion are PROVED; the full four-parameter obstruction formulas are an exact computational result with strong cross-checks, including exact specialization checks. The explicit surviving family and the resulting falsification of the universal cubic exclusion are independently reconstructed and verified. Nothing here constructs a quartic carrier or an STCI presentation.
 
 Throughout,
-[
-C_0=[s^4:s^3t:st^3:t^4]subsetmathbf P^3.
-]
+\[
+C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3.
+\]
 
 ## 1. Ambient stabilizer — PROVED
 
 The embedding linear system is
-[
-W=langle s^4,s^3t,st^3,t^4anglesubset H^0(O_{mathbf P^1}(4)).
-]
-In characteristic zero the only (PGL_2) transformations preserving (W) are
-[
-zmapstolambda z,qquad zmapstolambda/z.
-]
+\[
+W=\langle s^4,s^3t,st^3,t^4\rangle\subset H^0(O_{\mathbf P^1}(4)).
+\]
+In characteristic zero the only \(\mathrm{PGL}_2\) transformations preserving \(W\) are
+\[
+z\mapsto\lambda z,\qquad z\mapsto\lambda/z.
+\]
 The kernel of
-[
-operatorname{Stab}_{PGL_4}(C_0)	ooperatorname{Aut}(mathbf P^1)
-]
+\[
+\operatorname{Stab}_{\mathrm{PGL}_4}(C_0)\to\operatorname{Aut}(\mathbf P^1)
+\]
 is trivial. Hence
-[
-oxed{operatorname{Stab}_{PGL_4}(C_0)congmathbf G_mtimesmathbf Z/2.}
-]
+\[
+\boxed{\operatorname{Stab}_{\mathrm{PGL}_4}(C_0)\cong\mathbf G_m\times\mathbf Z/2.}
+\]
 In the formal coordinates used below the torus acts by
-[
-zmapstolambda z,qquad Umapstolambda^4U,qquad Vmapstolambda^3V.
-]
-There is no hidden continuous ambient symmetry reducing a general (e=2) quotient to the earlier two-parameter family.
+\[
+z\mapsto\lambda z,\qquad U\mapsto\lambda^4U,\qquad V\mapsto\lambda^3V.
+\]
+There is no hidden continuous ambient symmetry reducing a general \(e=2\) quotient to the earlier two-parameter family.
 
 ## 2. Generic e=2 symmetry cross-section
 
-On (A_2B_0
-e0), projective scaling plus the genuine ambient torus normalize a general (e=2) quotient to
-[
-oxed{A=x+az+z^2,qquad B=1+bz+dz^2.}
-]
-This is a generic cross-section to the actual symmetry, **not literally an affine chart of (P^5)**.
+On \(A_2B_0\ne0\), projective scaling plus the genuine ambient torus normalize a general \(e=2\) quotient to
+\[
+\boxed{A=x+az+z^2,\qquad B=1+bz+dz^2.}
+\]
+This is a generic cross-section to the actual symmetry, **not literally an affine chart of \(P^5\)**.
 
 The resultant is
-[
-oxed{Delta=1-ab+a^2d-2dx+b^2x-abdx+d^2x^2.}
-]
-Basepoint-free is equivalent to (Delta
-e0).
+\[
+\boxed{\Delta=1-ab+a^2d-2dx+b^2x-abdx+d^2x^2.}
+\]
+Basepoint-free is equivalent to \(\Delta\ne0\).
 
-On (xd
-e0), inversion acts by
-[
-oxed{(x,a,b,d)mapstoleft(rac{x}{d^2},rac ad,rac bx,rac d{x^2}ight).}
-]
-Thus the previously studied (x=b=0) family is codimension two in the essential generic moduli.
+On \(xd\ne0\), inversion acts by
+\[
+\boxed{(x,a,b,d)\mapsto\left(\frac{x}{d^2},\frac ad,\frac bx,\frac d{x^2}\right).}
+\]
+Thus the previously studied \(x=b=0\) family is codimension two in the essential generic moduli.
 
 ## 3. Formal-neighborhood audit — independently audited
 
 The nonlinear two-chart transition was independently reconstructed. A crucial point is
-[
-oxed{w
-e1/z}
-]
-off the reduced curve. Freezing (w=1/z) destroys higher-order information contributing to the obstruction. Calculations using a frozen opposite-chart coordinate must not be reused unless separately corrected.
+\[
+\boxed{w\ne1/z}
+\]
+off the reduced curve. Freezing \(w=1/z\) destroys higher-order information contributing to the obstruction. Calculations using a frozen opposite-chart coordinate must not be reused unless separately corrected.
 
 Several exploratory slice/factorization claims from the research conversation were discarded during this audit and are not used here.
 
 ## 4. Three-parameter b=0 family — PROVED
 
 For
-[
-A=x+az+z^2,qquad B=1+dz^2,
-]
+\[
+A=x+az+z^2,\qquad B=1+dz^2,
+\]
 put
-[
-Delta_0=1+a^2d-2dx+d^2x^2.
-]
-The quadratic graph corrections and all five cubic obstruction numerators (G_i(a,d,x)) were independently regenerated. Exact Gröbner reduction gives
-[
-oxed{Delta_0in(G_1,ldots,G_5).}
-]
+\[
+\Delta_0=1+a^2d-2dx+d^2x^2.
+\]
+The quadratic graph corrections and all five cubic obstruction numerators \(G_i(a,d,x)\) were independently regenerated. Exact Gröbner reduction gives
+\[
+\boxed{\Delta_0\in(G_1,\ldots,G_5).}
+\]
 Consequently
-[
-G_1=cdots=G_5=0LongrightarrowDelta_0=0.
-]
-Hence no basepoint-free member of this entire three-parameter family extends from the relevant primitive triple to a primitive quadruple. This strictly strengthens the earlier (x=b=0) result.
+\[
+G_1=\cdots=G_5=0\Longrightarrow\Delta_0=0.
+\]
+Hence no basepoint-free member of this entire three-parameter family extends from the relevant primitive triple to a primitive quadruple. This strictly strengthens the earlier \(x=b=0\) result.
 
 ## 5. Full four-parameter cubic obstruction — exact computation with strong cross-checks
 
 For
-[
-A=x+az+z^2,qquad B=1+bz+dz^2,
-]
+\[
+A=x+az+z^2,\qquad B=1+bz+dz^2,
+\]
 the cubic mismatch has form
-[
-M_3=rac{N(z;x,a,b,d)}{32z^{25}Delta^3}.
-]
-The five relevant coefficients of (N) are each exactly divisible by (Delta^2). Therefore
-[
-oxed{Omega_i=rac{G_i(x,a,b,d)}{32Delta},qquad i=1,ldots,5.}
-]
-The exact (G_i) are persisted in
-`../computations/e2_full4_obstruction_2026-10-05.txt`.
+\[
+M_3=\frac{N(z;x,a,b,d)}{32z^{25}\Delta^3}.
+\]
+The five relevant coefficients of \(N\) are each exactly divisible by \(\Delta^2\). Therefore
+\[
+\boxed{\Omega_i=\frac{G_i(x,a,b,d)}{32\Delta},\qquad i=1,\ldots,5.}
+\]
+The [five exact numerator polynomials](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/e2_full4_obstruction_2026-10-05.txt) are archived with the original coefficient convention.
 
 Exact checks:
-- (b=0) reproduces all five independently audited three-parameter obstruction polynomials;
-- (x=b=0) reproduces the retained two-parameter obstruction polynomials.
+- \(b=0\) reproduces all five independently audited three-parameter obstruction polynomials;
+- \(x=b=0\) reproduces the retained two-parameter obstruction polynomials.
 
 ## 6. Universal cubic e=2 exclusion — FALSE
 
 The attempted implication
-[
-oxed{Omega=0LongrightarrowDelta=0}
-]
+\[
+\boxed{\Omega=0\Longrightarrow\Delta=0}
+\]
 is **FALSE**.
 
-On (dx=1), write (u=bx-a). Then
-[
-Delta=rac{u^2}{x}
-]
-and all five obstruction numerators factor as (G_i=uQ_i). On
-[
-a=-rac12,
-]
-all five original (G_i) vanish when
-[
-u=rac12-2x,
-]
-equivalently (b=-2). Thus
-[
-oxed{A=z^2-rac12z+x,qquad B=1-2z+rac1xz^2}
-]
+On \(dx=1\), write \(u=bx-a\). Then
+\[
+\Delta=\frac{u^2}{x}
+\]
+and all five obstruction numerators factor as \(G_i=uQ_i\). On
+\[
+a=-\frac12,
+\]
+all five original \(G_i\) vanish when
+\[
+u=\frac12-2x,
+\]
+equivalently \(b=-2\). Thus
+\[
+\boxed{A=z^2-\frac12z+x,\qquad B=1-2z+\frac1xz^2}
+\]
 satisfies
-[
-oxed{G_1=cdots=G_5=0.}
-]
+\[
+\boxed{G_1=\cdots=G_5=0.}
+\]
 Its resultant is
-[
-oxed{Delta=rac{(4x-1)^2}{4x}.}
-]
-For (x
-e0,rac14), the pair is basepoint-free. Therefore the corresponding (e=2) primitive triple extends to a primitive quadruple.
+\[
+\boxed{\Delta=\frac{(4x-1)^2}{4x}.}
+\]
+For \(x\ne0,\tfrac14\), the pair is basepoint-free. Therefore the corresponding \(e=2\) primitive triple extends to a primitive quadruple.
 
 This falsifies the proposed universal **first nontrivial extension-obstruction strategy**. It does not construct a quartic carrier.
 
 ## 7. Scope and revised frontier
 
 Do **not** infer:
-- existence of an (e=2) quartic carrier;
+- existence of an \(e=2\) quartic carrier;
 - existence of an STCI presentation;
-- failure of the desired no-quartic-carrier theorem for (C_0);
+- failure of the desired no-quartic-carrier theorem for \(C_0\);
 - failure of the global STCI conjecture.
 
 The surviving family proves only that the first nontrivial extension obstruction is insufficient.
 
-The immediate (e=2) question is:
+The immediate \(e=2\) question is:
 
-> Exactly what infinitesimal multiplicity/order does a genuine (e=2) quartic carrier force, and does the explicit surviving primitive quadruple extend through the next required stage?
+> Exactly what infinitesimal multiplicity/order does a genuine \(e=2\) quartic carrier force, and does the explicit surviving primitive quadruple extend through the next required stage?
 
 The sharp test family is
-[
-A=z^2-rac12z+x,qquad B=1-2z+x^{-1}z^2.
-]
+\[
+A=z^2-\frac12z+x,\qquad B=1-2z+x^{-1}z^2.
+\]
 
-Continued higher-order (e=2) computation is not automatically the highest-value global strategy. Other live branches remain:
-- equivariance/representation-theoretic interpretation of (Omega);
-- (e=1);
-- (e=0);
-- whether the local-cohomology route can treat (e=0,1,2) uniformly.
+Continued higher-order \(e=2\) computation is not automatically the highest-value global strategy. Other live branches remain:
+- equivariance/representation-theoretic interpretation of \(\Omega\);
+- \(e=1\);
+- \(e=0\);
+- whether the local-cohomology route can treat \(e=0,1,2\) uniformly.
 
 All formal calculations in this note currently carry the characteristic-zero caveat.
 
@@ -828,36 +822,34 @@ Durable verifier: research/computations/verify_e2_quartic_incidence.py.
 
 ## 7. Sharpening on the dx=1 test bed
 
-**EXACT COMPUTATION.** Restricting the same rank-12 pivot minor to (d=x^{-1})
+**EXACT COMPUTATION.** Restricting the same rank-12 pivot minor to \(d=x^{-1}\)
 gives
-[
-det P=rac{(bx-a)^2(b+2)}{128x^8}.
-]
+\[
+\det P=\frac{(bx-a)^2(b+2)}{128x^8}.
+\]
 On this slice
-[
-Delta=rac{(bx-a)^2}{x}.
-]
-Therefore, on the basepoint-free locus, (x
-e0) and (bx-a
-e0), and this
+\[
+\Delta=\frac{(bx-a)^2}{x}.
+\]
+Therefore, on the basepoint-free locus, \(x\ne0\) and \(bx-a\ne0\), and this
 single six-dimensional kernel chart covers every point with (b
 e-2).
 
-Consequently the combined P-044/quartic-incidence problem on (dx=1) has a
+Consequently the combined P-044/quartic-incidence problem on \(dx=1\) has a
 particularly clean stratification:
 
 1. (b
-e-2): use the single rank-12 chart and its reduced (6)-column
+e-2): use the single rank-12 chart and its reduced six-column
    second-order obstruction;
-2. (b=-2): analyze the lower-rank/boundary behavior separately.  The known
+2. \(b=-2\): analyze the lower-rank/boundary behavior separately.  The known
    P-045 family lies on this divisor.
 
-This does **not** prove that every point of (b=-2) has first-order rank 11,
+This does **not** prove that every point of \(b=-2\) has first-order rank 11,
 nor that P-045 exhausts the P-044 locus there.  Those statements remain
 **OPEN** until separately computed.
 
-A direct attempt to symbolically factor a full (6	imes6) reduced minor was
-stopped because expression growth became severe even after the (dx=1)
+A direct attempt to symbolically factor a full \(6\times6\) reduced minor was
+stopped because expression growth became severe even after the \(dx=1\)
 restriction.  No determinant or factorization from that interrupted
 calculation is being reported.  The next implementation should use
 fraction-free polynomial linear algebra or modular evaluation/reconstruction,
@@ -1115,73 +1107,72 @@ Date: 2026-10-06
 Status: **OPEN pending one residual saturation calculation.** Independent audit found a genuine gap in the previous residual-open argument: coprimality of two multivariate resultant factors does not imply that their common affine zero set is empty.
 
 On the slice
-[
-d=x^{-1},qquad u=bx-a,
-]
+\[
+d=x^{-1},\qquad u=bx-a,
+\]
 the resultant is
-[
-Delta=u^2/x.
-]
-Thus the basepoint-free locus is (D(xu)).
+\[
+\Delta=u^2/x.
+\]
+Thus the basepoint-free locus is \(D(xu)\).
 
-The exact P-044 coordinates specialize as (G_i=uQ_i). Two coordinates have
-[
-Q_2=(2a+1)R_2,qquad Q_4=2(b+2)R_4.
-]
+The exact P-044 coordinates specialize as \(G_i=uQ_i\). Two coordinates have
+\[
+Q_2=(2a+1)R_2,\qquad Q_4=2(b+2)R_4.
+\]
 
 ## Audited boundary pieces
 
-On (b=-2), the exact residual calculation shows that every extra common zero has (u=0), hence (Delta=0). Therefore on (D(Delta)),
-[
-b=-2, P	ext{-044}Longrightarrow a=-1/2.
-]
+On \(b=-2\), the exact residual calculation shows that every extra common zero has \(u=0\), hence \(\Delta=0\). Therefore on \(D(\Delta)\),
+\[
+b=-2, P\text{-044}\Longrightarrow a=-1/2.
+\]
 
-On (a=-1/2), the dedicated exact verifier shows
-[
-P	ext{-044}Longrightarrow b=-2quad	ext{or}quad u=0.
-]
-The second alternative lies on (Delta=0). Hence the basepoint-free part of this boundary is exactly P-045.
+On \(a=-1/2\), the dedicated exact verifier shows
+\[
+P\text{-044}\Longrightarrow b=-2\quad\text{or}\quad u=0.
+\]
+The second alternative lies on \(\Delta=0\). Hence the basepoint-free part of this boundary is exactly P-045.
 
 ## Residual open set: still open
 
 On
-[
-D!left(xu(2a+1)(b+2)ight),
-]
+\[
+D\!\left(xu(2a+1)(b+2)\right),
+\]
 P-044 implies
-[
+\[
 R_2=R_4=Q_5=0.
-]
-After (b=(a+u)/x), exact elimination gives
-[
-operatorname{Res}_u(R_2,R_4)=-36x(2a+1)P_{24}(a,x),
-]
-[
-operatorname{Res}_u(R_2,Q_5)=-36x^2(2a+1)^2P_{25}(a,x),
-]
+\]
+After \(b=(a+u)/x\), exact elimination gives
+\[
+\operatorname{Res}_u(R_2,R_4)=-36x(2a+1)P_{24}(a,x),
+\]
+\[
+\operatorname{Res}_u(R_2,Q_5)=-36x^2(2a+1)^2P_{25}(a,x),
+\]
 and
-[
-gcd(P_{24},P_{25})=1quad	ext{in }mathbf Q[a,x].
-]
+\[
+\gcd(P_{24},P_{25})=1\quad\text{in }\mathbf Q[a,x].
+\]
 
-These identities are exact, but the former conclusion that they prove emptiness was invalid: two coprime multivariate polynomials can have isolated common zeros. The independent audit found such resultant intersections, including ((a,x)=(-1,1/4)) and ((-3/2,1/4)); those sampled points lift only to (u=0) and hence are not counterexamples, but they demonstrate the logical gap.
+These identities are exact, but the former conclusion that they prove emptiness was invalid: two coprime multivariate polynomials can have isolated common zeros. The independent audit found such resultant intersections, including \((a,x)=(-1,1/4)\) and \((-3/2,1/4)\); those sampled points lift only to \(u=0\) and hence are not counterexamples, but they demonstrate the logical gap.
 
 The required repair is an exact certificate that
-[
-V(R_2,R_4,Q_5)cap D!left(xu(2a+1)(a+u+2x)ight)=arnothing,
-]
+\[
+V(R_2,R_4,Q_5)\cap D\!\left(xu(2a+1)(a+u+2x)\right)=\varnothing,
+\]
 equivalently that the corresponding saturated ideal is the unit ideal. Direct SymPy Gröbner/Rabinowitsch attempts timed out on 2026-10-06, so no replacement certificate is claimed here.
 
 Therefore the complete classification
-[
-d=x^{-1},quadDelta
-e0,quad P	ext{-044}
-iff
-a=-rac12,quad b=-2
-]
+\[
+d=x^{-1},\quad\Delta\ne0,\quad P\text{-044}
+\iff
+a=-\frac12,\quad b=-2
+\]
 is **not yet proved**.
 
-Consequently the no-carrier statement on the whole (dx=1) slice is also **OPEN pending this residual calculation**. Its final implication remains valid: if the classification is repaired, P-045's cubic-factor theorem excludes a quartic carrier.
+Consequently the no-carrier statement on the whole \(dx=1\) slice is also **OPEN pending this residual calculation**. Its final implication remains valid: if the classification is repaired, P-045's cubic-factor theorem excludes a quartic carrier.
 
 Verifier/diagnostic:
 `research/computations/verify_dx1_p044_residual.py`.
@@ -1201,7 +1192,7 @@ The following historical mathematical content is preserved verbatim with its ori
 
 The [ideal-filtration investigation](#2026-10-23-ideal-filtrations-independent-investigationmd) records the full marked embedding and an explicit failure of the proposed general first-order-to-higher-generator correspondence. The [filtered (4,4) proposal](#2026-10-23-quartic-44-filtered-proof-proposalmd) and [independent audit](#2026-10-23-quartic-44-filtered-proof-independent-auditmd) instead use additional specific numerical, classification, and global quartic-contact input. These are not contradictory: a special filtered exclusion may hold without the false general correspondence.
 
-The alternative [surface-singularity route](../synthesis/quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction) replaces the global contact determinant with a characteristic-zero exceptional-rank contradiction, while retaining the local defect algebra. [The genus-budget synthesis](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md#cross-supplement-synthesis-distinct-44-obstruction-routes-editorial-not-a-new-audit) contrasts both approaches with lower-multiplicity residual examples. [Delta embedding](DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md#delta-embedding-geometry-report) and [normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) give broader filtration frameworks, each with independent scope restrictions.
+The alternative [surface-singularity route](../synthesis/quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction) replaces the global contact determinant with a characteristic-zero exceptional-rank contradiction, while retaining the local defect algebra. [The genus-budget synthesis](quartic_pair_obstruction.md#cross-supplement-synthesis-distinct-44-obstruction-routes-editorial-not-a-new-audit) contrasts both approaches with lower-multiplicity residual examples. [Delta embedding](rees_and_vertical_controls.md#delta-embedding-geometry-report) and [normal flatness](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) give broader filtration frameworks, each with independent scope restrictions.
 
 Keep the original computational checks, correction freedoms, counterexample, and audit status below. This guide does not extend any (4,4) conclusion to arbitrary degrees.
 
@@ -1740,22 +1731,14 @@ The primary agent read all three new arithmetic scripts, checked their stated sc
 
 ### Filtered equation module
 
-The reviewers reconstructed
-\[
-F^nD=\frac{J\cap I^n+IJ}{IJ},\qquad
-\operatorname{gr}_F^nD
-=\frac{J\cap I^n}
- {J\cap I^{n+1}+IJ\cap I^n}.
-\]
-In particular the intersection \(IJ\cap I^n\) in the denominator is essential.
-
-Writing \(B=\operatorname{in}_I(IJ)\), multiplication gives \(S_+H\subset B\subset H\), hence
-\[
-0\to B_n/(S_+H)_n\to Q_n\to H_n/B_n\to0.
-\]
-This fixes the direction of comparison. It does not canonically split the first-order kernel into the higher pieces.
-
-The regular-sequence presentation has syzygy \((-g,f)\in IP_0\), so the original two-generator \(T\) is intrinsic under the stated hypotheses. Redundant presentations add a fixed constant-syzygy module to every step; the graded quotients still cancel it.
+The reviewers independently reconstructed the
+[filtered denominator and presentation-syzygy calculation](../arguments/filtered_equation_comparison.md#full-normal-equations-and-the-actual-equation-module).
+They checked the necessary intersection \(IJ\cap I^n\), the direction
+\(Q_n\twoheadrightarrow\operatorname{gr}^n_F(J/IJ)\), and the absence of a
+canonical splitting of the first-order kernel. For two regular-sequence
+generators the syzygy has zero constant part. For a redundant presentation
+the same constant-syzygy module appears at every stage and cancels in the
+graded quotients.
 
 ### Higher-generator counterexample
 
@@ -1794,23 +1777,17 @@ Thus the canonical comparison is invertible in degree four and supplies the clai
 
 ### Additional smooth-carrier proposition
 
-The primary agent proposed the general support statement after the initial review. Both lifting_audit and diagrams_derived independently checked it:
-
-> Along a smooth codimension-two curve in a smooth equicharacteristic ambient threefold, for a two-generator regular-sequence ideal, a nonzero fiber conormal symbol of either carrier at \(p\) implies \(\Delta_p=0\). Therefore \(\operatorname{Supp}\Delta\subset C\cap\operatorname{Sing}X\cap\operatorname{Sing}Y\).
-
-Both reviewers reconstructed the completed local calculation. After straightening the smooth equation,
-\[
-\widehat R=D_0[[x,y]],\quad I=(x,y),\quad
-J=(x,h),\quad h=y^m a(t,y),\quad a(t,0)\ne0.
-\]
-The initial ideals are
-\[
-H=(X,a_0Y^m),\qquad
-\operatorname{in}(IJ)=(X^2,XY,a_0Y^{m+1})=S_+H.
-\]
-The coefficient \(a_0\) may vanish at the closed point; it only needs to be nonzero in the domain \(D_0\). The proof uses additive \(y\)-order, not invertibility of \(a_0\). Flatness preserves the defining finite intersections and faithful flatness descends each vanishing defect piece.
-
-This is a support containment, not equality. Both carriers being singular does not force a nonzero defect. Generic smoothness only confines the defect to special points; it does not settle those points. The proposition is independently reviewed new material in this proposal .
+The primary agent proposed the support containment after the initial review.
+Both lifting_audit and diagrams_derived independently checked the
+[smooth-carrier proof](../arguments/filtered_equation_comparison.md#smooth-carrier-vanishing)
+for two regular-sequence equations along a smooth codimension-two curve in a
+smooth equicharacteristic threefold. They checked that the leading coefficient
+\(a_0\) of the reduced second equation only needs to be nonzero in the
+completed coefficient domain, even if it vanishes at the closed point.
+Additivity of \(y\)-order gives the completed calculation, and faithful
+flatness gives the local equality of the initial ideals. This proves a
+support containment. A simultaneous carrier singularity alone leaves the
+value of the defect undetermined.
 
 ## Corrections made before saving the final package
 
@@ -1855,7 +1832,7 @@ second-defect-one contact locus. Put
     U=p*P*d*(2r-b)*T.
 
 On the integral sextic H=0 and U!=0, the
-[complete contact-rank theorem](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-principal-e1-d1-independent-completeness-auditmd)
+[complete contact-rank theorem](normalization_indices_and_power_descent.md#source-2026-10-08-session-principal-e1-d1-independent-completeness-auditmd)
 gives rank 17 and makes the actual ambient quartic space one-dimensional. One checked
 polynomial syzygy supplies its binary first-normal octic, with zero-
 generator specializations kept. The fixed binary-gradient determinant
@@ -1917,7 +1894,7 @@ actual parameter homogenization, not a different conormal frame.
 
 Macaulay2's kernel computation supplied three polynomial generators,
 of degrees 9,9,10. Their eighteen coordinates are preserved in
-[`mf6-principal-weighted-kernel-2026-10-08.json`](../scratch/mf6-principal-weighted-kernel-2026-10-08.json).
+[`mf6-principal-weighted-kernel-2026-10-08.json`](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/scratch/mf6-principal-weighted-kernel-2026-10-08.json).
 Each generator's coordinate i is homogeneous of degree `D+wi-3`.
 The new independent verifier checks every coordinate weight and every
 first- and second-contact identity modulo H using SymPy, and checks
@@ -2039,7 +2016,7 @@ multiple zero at some point of C0.
 
 ## 3. Actual normal coefficient and determinant
 
-The [independent exact coefficient checker](../computations/audit_session_mf6_weighted_candidate_2026_10_09.py) reconstructs the following data.
+The [independent exact coefficient checker](https://github.com/markluxton1/STCI/blob/a57c509f7c477ae62b70fa4f77240d42a07f78c5/research/computations/audit_session_mf6_weighted_candidate_2026_10_09.py) reconstructs the following data.
 
 It independently differentiates the eighteen actual forms and contracts the first polynomial generator to produce F_U and F_V along C0, in the balanced frame
 
@@ -2064,7 +2041,7 @@ homogeneous degree-seven gradients. On s=1 their coefficient
 polynomials are 8*hhat(1,z)-z*hhat'(1,z) and hhat'(1,z), with the
 fixed degree-seven padding even when a leading coefficient vanishes.
 No h_8 division or smaller-degree resultant is substituted. The
-[full symbolic coefficient vector and matrix](../scratch/session-mf6-principal-weighted-candidate-2026-10-09.json)
+[full symbolic coefficient vector and matrix](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/scratch/session-mf6-principal-weighted-candidate-2026-10-09.json)
 are literal inputs to the independent reconstruction.
 
 Each h_j is homogeneous of parameter weight 11+j. The independently rebuilt fixed matrix agrees entry by entry with the saved matrix. Its first seven row weights are 18 through 24; its other seven row weights are 19 through 25; its column weights are 0 through 13. Every determinant term therefore has weight
@@ -2113,11 +2090,11 @@ they do not prove a characteristic-zero nonnormal fiber or a singular
 curve, as the exact cubic-field computation below shows.
 
 The corrected r=0 computation is independently self-contained in
-[`verify_session_mf6_principal_rzero_normality_2026_10_09.m2`](../computations/verify_session_mf6_principal_rzero_normality_2026_10_09.m2).
+[`verify_session_mf6_principal_rzero_normality_2026_10_09.m2`](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_mf6_principal_rzero_normality_2026_10_09.m2).
 Its field polynomial is `8p^3-16p^2+6p-9`, irreducible modulo five
 (the values at 0,...,4 are 1,4,3,1,1). Its literal quartic equals the
 remainder in `p` of the first degree-nine
-[weighted kernel generator](../scratch/mf6-principal-weighted-kernel-2026-10-08.json)
+[weighted kernel generator](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/scratch/mf6-principal-weighted-kernel-2026-10-08.json)
 at `(r,b)=(0,1)` modulo that field polynomial. A SymPy replay checked
 the equality and the two SHA-256 bindings in the
 [historical input record](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/scratch/session-mf6-principal-rzero-normality-input-2026-10-09.json).
@@ -2132,7 +2109,7 @@ The accepted normal-carrier theorem excludes their mates in every degree.
 
 The three degrees9,9,10 polynomial syzygies and the full coefficient/matrix
 inputs are retained in the linked scratch files. The complete exact
-checker is [verify_session_mf6_principal_weighted_candidate_2026_10_09.py](../computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py),
+checker is [verify_session_mf6_principal_weighted_candidate_2026_10_09.py](https://github.com/markluxton1/STCI/blob/1fccec5c7afabb4e3f83ccd9c717692c07f0b338/research/computations/verify_session_mf6_principal_weighted_candidate_2026_10_09.py),
 with the independent coefficient/infinity test linked in Section3. It
 preserves the actual nine-coefficient octic and14-by14 matrix; no expanded
 resultant or generic sample replaces that support. Existing independently
@@ -2205,7 +2182,7 @@ nonzero discriminant apply after reduction in characteristic other than
 two or three; this does not transport the contact-space or mate-exclusion
 arguments without their additional hypotheses.
 
-The [exact identity checker](../computations/verify_session_mf6_principal_elliptic_2026_10_08.py)
+The [exact identity checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_mf6_principal_elliptic_2026_10_08.py)
 retains the literal H, inverse map, nonsquare discriminant, corrected
 \(r=-1/2\) fiber and elliptic invariants. The earlier incorrect expression
 \(8(p+2)^3\) for that fiber is not retained as a mathematical claim.
@@ -2227,7 +2204,7 @@ The following historical mathematical content is preserved verbatim with its ori
 
 Two complementary approaches occur below. The [global lifting criterion](#boundary-repair-global-lifting) asks whether a prescribed divisor on the curve can repair a failed global section-lifting condition; the [weighted-initial calculation](#weighted-initials-normal-boundary) studies how initial ideals and chamber decompositions change with normal weights and coefficient valuations. Neither computation may replace the other.
 
-For a genuine surface pair, the allowable sections come from the homogeneous equation space, not the whole space of sections of a normal bundle. The [one-step boundary obstruction](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction) supplies a separate equation-module comparison. The [intrinsic valuation dossier](../synthesis/coefficient_valuations.md) explains why arbitrary coefficient-pole series are outside the naive real-weight minimum and why scalar ideal values fail to determine colength. The [higher-initial dossier](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#2026-10-21-higher-initial-ideals-valuations) preserves cancellation phenomena that first normal forms can miss.
+For a genuine surface pair, the allowable sections come from the homogeneous equation space, not the whole space of sections of a normal bundle. The [one-step boundary obstruction](toric_torsion_and_endpoint_contacts.md#2026-10-27-one-step-boundary-obstruction) supplies a separate equation-module comparison. The [intrinsic valuation dossier](../synthesis/coefficient_valuations.md) explains why arbitrary coefficient-pole series are outside the naive real-weight minimum and why scalar ideal values fail to determine colength. The [higher-initial dossier](formal-normal-intersection.md#2026-10-21-higher-initial-ideals-valuations) preserves cancellation phenomena that first normal forms can miss.
 
 **Open implication:** translating a locally admissible weighted initial configuration into an actual global pair with no residual support remains unproved here. Boundary repair is a test on a specified equation module, not an existence theorem for STCI pairs. The full chamber calculations and failed shortcuts remain below.
 
@@ -2249,14 +2226,14 @@ No new exclusion or homogeneous realization is claimed.
 No isolated example or sampled pair is used.
 
 Continuation, October 27: the
-[one-step equation-module comparison](BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md#2026-10-27-one-step-boundary-obstruction)
+[one-step equation-module comparison](toric_torsion_and_endpoint_contacts.md#2026-10-27-one-step-boundary-obstruction)
 proves the proposed repair principle for a fixed lower embedded
 thickening and identifies exact vanishing at the final Gorenstein step.
 It does not settle a comparison for arbitrary ambient obstruction complexes.
 
 ### 1. The general question worth answering
 
-The preceding [genus account](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md)
+The preceding [genus account](quartic_pair_obstruction.md#44-degeneration-genus-budgets)
 and [intrinsic initial construction](#weighted-initials-normal-boundary)
 make boundary indices measurable, but have not shown that those indices
 control the obstruction to realizing two actual homogeneous equations.
@@ -2498,7 +2475,7 @@ already establish the Gauss construction, formal-series domain restriction,
 coordinate dependence, and scalar-value limitation in their stated scope.
 Those reviewed constructions are premises, not replay tasks.
 This continuation links them to the
-[normal torsion/genus account](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md).
+[normal torsion/genus account](quartic_pair_obstruction.md#44-degeneration-genus-budgets).
 
 ### 1. The proposed valuations and their initials
 
@@ -2900,32 +2877,14 @@ one compatible jet, so retaining the whole source U_(d,N) is necessary.
 
 ### 6. Fixed-degree generic length and degree exhaustion
 
-Let F,G be actual global forms of degrees a,b defining a proper complete
-intersection containing an integral C of degree d, and suppose M=ab/d
-is an integer. At eta_C the two equations have finite transverse length
-m_C. The fundamental cycle and Bezout give d m_C<=ab, hence m_C<=M.
-
-For any Artin local algebra of length m_C, every nonzero successive
-maximal-ideal power strictly decreases length: equality of adjacent
-powers would make that power zero by Nakayama. Therefore its maximal
-ideal has exponent at most m_C. The quotient by m^(M+1) already retains
-the full local algebra R/(F,G), and its length is m_C.
-
-It follows that the truncated length is M exactly when m_C=M. Then the
-contribution of C consumes degree ab. Any additional curve component
-would contribute positive degree, while purity of the proper complete
-intersection rules out embedded components. Conversely sole reduced
-support C gives m_C=M. This proves the intrinsic finite endpoint in
-the source, with all its properness and actual-global-form hypotheses.
-
-The matrix interpretation requires all truncated multiples. The note
-appropriately states that a coefficient/normal chart is chosen for that
-calculation: the residue field is not claimed to be canonically embedded
-in R/m^(M+1). Fixed chart denominators can be cleared, with coefficients
-of the actual forms remaining constants in k. One must retain the proper
-pair open locus. No bound uniform in a,b follows from this fixed-degree
-criterion.
-
+The reviewer independently checked the [finite length criterion (8)](#6-an-exact-finite-endpoint-for-a-fixed-degree-pair).
+In the Artin local quotient, Nakayama's lemma makes each nonzero maximal-ideal
+power strictly larger than the next. This is the nilpotence bound used in
+(8). Purity and positivity of residual degree justify the reverse passage
+from generic length to sole support for a proper pair of actual global
+forms. The reviewer also checked that the matrix includes all truncated
+multiples, uses a chosen coefficient chart with fixed denominators, and
+retains the proper-pair open locus.
 
 ---
 
@@ -2933,16 +2892,17 @@ criterion.
 
 The source and its independent reconstruction agree on the precise domain: a chosen rational normal frame and a coefficient valuation \(v_p\) give weighted Gauss valuations on \(k(C)[X,Y]\); arbitrary \(k(C)[[X,Y]]\) does **not** admit the same finite real-valued formula without a bounded-tail hypothesis. A normal-first lexicographic valuation is a distinct alternative. The weights give an affine chamber decomposition in a fixed coefficient-weight slice, not automatically a canonical global fan. Full initial **ideals**, including cancellation, are essential; the monomial-free tropical locus alone loses the nilpotent intersection algebra.
 
-For the integral family \(J=(x^2,y^2+t^r x)\subset k[[t,x,y]]\), put \(\delta=2\beta-r-\alpha\), where the weights of \(t,x,y\) are \(1,\alpha,\beta\). The complete chamber computation gives
-\[
-\operatorname{in}(J)=
-\begin{cases}
-(X^2,Y^2),&\delta<0,\\
-(X^2,Y^2+T^rX),&\delta=0,\\
-(X^2,T^rX,XY^2,Y^4),&\delta>0.
-\end{cases}
-\]
-Here \(T\) remains noninvertible in the integral graded coefficient ring. The third chamber requires the cancellation generators \(xy^2\) and \(y^4\); it cannot be read from the two displayed initial generators. The source proof and independent syzygy verification remain below for full detail. The resulting normal-lattice torsion and determinant indices are coordinate-sensitive until their frame-change and residue data are retained. This local example proves neither a global finite-generation theorem nor a characteristic-zero STCI exclusion.
+The [three-chamber calculation](#3-complete-chamber-calculation-for-the-supported-quadruple)
+uses the full weighted initial ideal over \(k[T,X,Y]\) with \(T\)
+noninvertible. Its independent syzygy check below verifies the higher
+generators in the positive chamber. For \(r=1\) that chamber has the same
+monomial ideal as the [ordinary normal-cone calculation](../arguments/punctual_comparison_defects.md#the-normal-algebra-of-the-quadruple),
+with coefficient \(T\) in place of \(t\). The latter works in \(k[[t]][X,Y]\)
+and also determines the [actual filtered equation module](../arguments/punctual_comparison_defects.md#the-equation-filtration-of-the-quadruple)
+and [transverse specialization kernel](../arguments/transverse_specialization.md#the-supported-length-four-control).
+Those computations use different filtrations and do not supply the wall
+or the two other weighted chambers. The local weighted example supplies
+no global finite-generation theorem or characteristic-zero STCI exclusion.
 
 <a id="weighted-initials-normal-boundary-audit"></a>
 
@@ -3438,7 +3398,7 @@ reruns. This note does not claim a solution of either the fixed `C0`
 question or the universal STCI question.
 
 The accepted
-[weighted-ribbon proof](GENUS_TWO_BISECTION_PROOF.md)
+[weighted-ribbon proof](../supplements/GENUS_TWO_BISECTION_PROOF.md)
 uses an actual Cartier double on the normalization of a quartic. The
 construction below supplies a canonical *symbolic* double even when
 `2c` is not Cartier. Its numerical degree is controlled by all symbolic
@@ -3777,7 +3737,7 @@ accepted quartic, conductor and fixed-C0 premises were not rerun. The theorem
 does not imply that an arbitrary minimum carrier has these hypotheses.
 
 Owner source read:
-[degree-free carrier framework](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md),
+[degree-free carrier framework](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md),
 SHA-256 `38bff3c497b1c0f8310a623e36c0fd5d6ded0517fc6903115b4321f5672d5848`.
 The acceptance here is for section 3 and the finite fixed-C0 classification
 in section 4. The later power-compression consequences have their separate
@@ -4163,11 +4123,11 @@ necessary arithmetic system has respectively
 These counts do not test Picard descent or ambient realizability.
 No finiteness theorem for epsilon at least nine is claimed here.
 
-Proofs: [homogeneous generator and arithmetic note](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-global-ci-filtration-investigation).
-Independent reconstruction: [core audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#abstract-bundle-realizations-of-the-six-rows)
-and [fixed-movement audit](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-global-ci-filtration-independent-audit).
+Proofs: [homogeneous generator and arithmetic note](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-global-ci-filtration-investigation).
+Independent reconstruction: [core audit](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#abstract-bundle-realizations-of-the-six-rows)
+and [fixed-movement audit](../supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-global-ci-filtration-independent-audit).
 Exact finite divisor implementation:
-[arithmetic verifier](../computations/global_ci_small_movement_divisor_audit.py).
+[arithmetic verifier](https://github.com/markluxton1/STCI/blob/4f73601373c971fd8512528e275bffe4c36debc0/research/computations/global_ci_small_movement_divisor_audit.py).
 
 ### 3. Main finding B: a nonsaturated first relation has an effective resultant budget
 
@@ -4252,9 +4212,9 @@ actual first relation `txy` with defect length one. Its support is the
 smooth t-axis. It is a local counterexample, not a projective C0 pair.
 
 Proof and full-root component accounting:
-[effective-defect note](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-investigation).
+[effective-defect note](spectral_torsion_and_syzygy_splitting.md#2026-10-19-first-relation-defect-investigation).
 Independent reconstruction:
-[defect audit](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#2026-10-19-first-relation-defect-independent-audit).
+[defect audit](spectral_torsion_and_syzygy_splitting.md#2026-10-19-first-relation-defect-independent-audit).
 
 ### 4. Main finding C: actual full-singleton plane carriers can fail first-order descent
 
@@ -4321,10 +4281,10 @@ such an obstruction. Its reduced residue class is already trivial;
 the first nilpotent term obstructs every power. This demonstrates why
 reduced phase or inverse-support checks alone cannot settle Q0001.
 
-Proof: [singleton-projection note](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#plane-normalization-actual-support-but-no-descending-power).
+Proof: [singleton-projection note](carrier_conductor_differential_comparison.md#plane-normalization-actual-support-but-no-descending-power).
 Independent review, including a closing reconstruction of the broader
 coordinate sublane:
-[carrier audit](PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md#plane-normalization-actual-support-but-no-descending-power).
+[carrier audit](carrier_conductor_differential_comparison.md#plane-normalization-actual-support-but-no-descending-power).
 The full plane-model projection/descent question remains open.
 
 ### 5. Main finding D: a reduced singular movement-two root requires a singular formal surface
@@ -4368,11 +4328,11 @@ examples `xy+u^2` and `y^2-x^3+u^2` show that Cartier lifting alone
 does not force regularity. No singular-root actual-CI bridge, finite
 jet cutoff, or actual STCI exclusion follows without additional work.
 
-Proof: [singular-root note](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-singular-root-investigation).
+Proof: [singular-root note](spectral_pushforward_powers.md#2026-10-19-singular-root-investigation).
 Independent review:
-[smoothing audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#source-2026-10-19-regular-singular-root-smoothing-auditmd),
+[smoothing audit](spectral_pushforward_powers.md#source-2026-10-19-regular-singular-root-smoothing-auditmd),
 with a separate elementary argument for two equal-slope rational
-components in [the two-component audit](SATURATED_DUALITY_AND_MOVING_POWERS.md#source-2026-10-19-regular-reducible-root-independent-auditmd).
+components in [the two-component audit](spectral_pushforward_powers.md#source-2026-10-19-regular-reducible-root-independent-auditmd).
 
 ### 6. Main finding E: generic Rees data cannot replace the defect sheaves
 
@@ -4461,6 +4421,8 @@ at closing: the required sum is 19, product 80, and discriminant 41;
 the row remains excluded. The correction is recorded in that audit.
 
 Reproduction commands from the research worktree are:
+
+The archived command uses [global_ci_small_movement_divisor_audit.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/global_ci_small_movement_divisor_audit.py) from the pinned repository snapshot.
 
 ```sh
 python3 research/computations/global_ci_small_movement_divisor_audit.py
@@ -4728,7 +4690,7 @@ Run, from the repository root:
 /opt/homebrew/bin/M2 --script research/computations/verify_z4_local_structure_2026_10_20.m2
 ```
 
-Code: [verify_z4_local_structure_2026_10_20.m2](../computations/verify_z4_local_structure_2026_10_20.m2). The calculations use exact integer, rational and finite-field arithmetic. The final script computes kernels over QQ and F2 and separately verifies the normal expansions over ZZ; it does not rely on an unsupported integral ring-map kernel call.
+Code: [verify_z4_local_structure_2026_10_20.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_z4_local_structure_2026_10_20.m2). The calculations use exact integer, rational and finite-field arithmetic. The final script computes kernels over QQ and F2 and separately verifies the normal expansions over ZZ; it does not rely on an unsupported integral ring-map kernel call.
 
 No obstruction to a characteristic-zero lift is asserted in this note. In
 particular, \(J^4=0\) and the displayed conormal line bundles are properties
@@ -5105,7 +5067,7 @@ orbits**, with exactly the stated fixed-C0, e=1,d2=1 boundary scope.
 ### 5. Evidence and unresolved boundary
 
 The exact independent source is
-[`verify_mf6_e1_d1_endpoints.py`](../computations/verify_mf6_e1_d1_endpoints.py).
+[`verify_mf6_e1_d1_endpoints.py`](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_mf6_e1_d1_endpoints.py).
 It reconstructs complete degree-four matrices from the 35 ambient
 monomials, checks both fixed-cubic fibers and both algebraic unique
 fibers, computes the actual endpoint cubic valuations, and checks (1),
@@ -5371,7 +5333,7 @@ quartic/quasiprimitive inputs:
 The earlier inputs are the balanced conormal bundle `O(-7)^2`, the
 quartic generic-order-one theorem P-011, and the directly audited BF
 filtration/duality in
-[`2026-10-06-session-uniform-audit.md`](ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-session-uniform-audit),
+[`2026-10-06-session-uniform-audit.md`](https://github.com/markluxton1/STCI/blob/d158a740d2449c458867ccbc5e3b2ee2c4bec2f4/research/supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-session-uniform-audit),
 sections 2--4. P-011 and the balanced conormal theorem are not reproved
 here. The **quartic-specific** all-degree bound `d3<=5` is proved again
 in section 6; the bound 17 for arbitrary defining degrees is a different
@@ -6048,7 +6010,7 @@ interchanging s and t. Both roots b* again satisfy P. Therefore the
 same obstruction excludes both F1 carriers.
 
 The companion
-[exact verifier](../computations/verify_session_nonnormal_mf6_fiber_obstruction.py)
+[exact verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonnormal_mf6_fiber_obstruction.py)
 checks the monic equation, pullback, primitive coefficient gcd,
 full-support ideal identities, duplicate fiber coordinates, quadratic
 norm and exact reversal identity. The argument for arbitrary n is the
@@ -6089,7 +6051,7 @@ inside its function field is that coordinate ring itself.
 
 If a mate G exists, its nonzero pullback is an effective Cartier divisor
 whose full support is (nu^{-1}(C))_red. The
-[full-support argument](NORMALIZATION_SECTION_AND_MODULE_DESCENT.md#prescribed-degree-full-support-and-the-conductor-square) excludes
+[full-support argument](../supplements/NORMALIZATION_SECTION_AND_MODULE_DESCENT.md#prescribed-degree-full-support-and-the-conductor-square) excludes
 isolated inverse-image points. Therefore this entire support is c.
 Every fiber above C has exactly one point, and nu|c is an isomorphism.
 
@@ -6285,7 +6247,6 @@ of the full ramification scheme by passage through its reduced support.
 The nonreduced ramification strata, degenerate cusps, singular
 normalizations and non-semi-log-canonical carriers remain unresolved.
 
-The companion [exact control verifier](../computations/verify_session_nonnormal_structural.py)
+The companion [exact control verifier](https://github.com/markluxton1/STCI/blob/4bd00d02c56ca39dc4b238048f44c113c6e1e363/research/computations/verify_session_nonnormal_structural.py)
 checks the four source-table genus calculations, Roman Euler/minor and
 no-conic identities, and the degenerate-pinch contact calculation.
-

@@ -244,7 +244,7 @@ for this ideal identity.
 
 ## An actual section-image condition on the marked quintic source
 
-The [quintic carrier-structure proof](../supplements/QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit)
+The [quintic carrier-structure proof](quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit)
 already proves a stronger useful reduction than the elementary denominator
 [normalization-index test](#a-normalization-index-constraint-for-any-smooth-support). For a hypothetical nonnormal quintic with **Gorenstein
 normalization**, the general hyperplane genus must be one. That normalization
@@ -253,8 +253,8 @@ c meets an interior A4 vertex and `5c~4H`. This is inherited evidence,
 not a newly proved classification of arbitrary nonnormal quintics.
 
 The exact marked pair and actual projection parameters are in the
-[intrinsic classification](../supplements/DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
-and [explicit-model audit](../supplements/DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit).
+[intrinsic classification](quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification)
+and [explicit-model audit](quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit).
 Its actual normalization conductor is `O_X(-2H)`. The downstairs conductor
 Gamma has degree five and arithmetic genus two, and
 
@@ -266,7 +266,7 @@ for the conductor is inferred from those degree and genus numbers.
 On the complete open affine chart `X minus ell=A2(r,T)`, the quartic root
 q is exactly T^5 in the chosen H-frame. The actual four projection sections
 are recorded in
-[the actual target-fiber equations](../supplements/NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md).
+[the actual target-fiber equations](quintic_conductor_geometry.md#4-nonendpoint-target-fiber-reduction-and-bounded-exclusions).
 Thus a degree-eight mate would require the **exact section-image condition**
 
     T^10 in span_k{ X0^i0 X1^i1 X2^i2 X3^i3 : sum ij=8 }. (9)
@@ -306,14 +306,14 @@ No new computation or projective fixed-quartic construction is claimed.
 These examples do not globalize to the fixed quartic by choosing only a
 binomial carrier: the characteristic-zero one-binomial obstruction for
 that embedding retains its separate scope in
-[arithmetic equations and jet gaps](../supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md).
+[arithmetic equations and jet gaps](arithmetic_root_collision.md#arithmetic-degree-bounds-missing-jets-and-actual-non-binomial-equations).
 The plane-curve construction and residual-preservation identity above
 locate the missing input in actual support and homogeneous section images.
 
 
 ## Consolidated historical supplement: `research/supplements/NORMAL_CARRIER_SYMBOLIC_TORSION.md`
 
-Original mathematical content and proof qualifications retained verbatim. Historical relative links may require repair.
+Proofs and qualifications are retained here, with cross-references where the full filtered compatibility audit supplies the same argument.
 
 # Normal carriers: class-group torsion, symbolic triples and local indices
 
@@ -321,7 +321,7 @@ Original mathematical content and proof qualifications retained verbatim. Histor
 
 The [carrier torsion investigation](#2026-10-14-generalization-normal-carrier-torsion) distinguishes Cartier and Weil divisor information on possibly singular normal surfaces. The [symbolic-triple certificate](#2026-10-14-generalization-normal-carrier-symbolic-triple-certificate) adds a specific primitive structure and first torsion divisor; its [comparison audit](#2026-10-14-generalization-symbolic-triple-torsion-comparison-audit) tracks the cases of different Cartier indices and the scope of strengthened bounds.
 
-The related [normal-index and socle dossier](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-general-scope) records inequalities that do not presuppose a second equation. The [Rees cycle dossier](../synthesis/rees_and_vertical_controls.md) makes clear why a global degree budget alone does not control every filtered defect.
+The related [normal-index and socle dossier](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-general-scope) records inequalities that do not presuppose a second equation. The [Rees cycle dossier](../synthesis/rees_and_vertical_controls.md) makes clear why a global degree budget alone does not control every filtered defect.
 
 The three proof responsibilities are separate. Global Pic/Cl detection
 identifies torsion orders through actual local indices using a connected
@@ -351,7 +351,7 @@ EXCLUSIONS; independent new-proof audits recorded below.**
 Accepted input, not recomputed: the fixed characteristic-zero curve
 `C0=[s^4:s^3t:st^3:t^4]` has no integral carrier of degree at most four
 with a mate of any positive degree. The
-[Cartier-ray theorem](FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
+[Cartier-ray theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
 is also an accepted input for this continuation. No claim is made
 that all normal carrier classes have now been excluded.
 
@@ -807,8 +807,8 @@ arithmetic corollaries. It also independently audited
 arithmetic script ran successfully and checked precisely the rows
 displayed above. These audits concern new deductions, not a rerun
 of accepted low-degree exclusions. The auxiliary proof records are
-[normal cyclic-cover torsion detection](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#2026-10-14-normal-cyclic-cover-torsion-detection)
-and [primary Picard/local-torsion inputs](NORMAL_INDEX_SOCLE_AND_TORSION.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd).
+[normal cyclic-cover torsion detection](spectral_pushforward_powers.md#2026-10-14-normal-cyclic-cover-torsion-detection)
+and [primary Picard/local-torsion inputs](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd).
 
 The remaining normal-carrier target is now sharp: show that the
 specific class `Delta_0` cannot be torsion with the required local
@@ -1280,7 +1280,7 @@ carriers, nonnormal carriers, or all STCI presentations of C0.
 Date: 2026-10-14. Root continuation from the `socle_audit` worker's
 index-twelve program. This precursor's new proofs are now independently
 accepted in the [full filtered compatibility audit](#2026-10-14-generalization-index12-filtered-compatibility).
-The [current theorem and scope record](NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem)
+The [current theorem and scope record](../supplements/NORMAL_INDEX_SOCLE_AND_TORSION.md#2026-10-14-generalization-normal-index-socle-theorem)
 adds the local power-socle formula, a linear index/degree bound and the
 all-degree exclusion of normal C0 carriers with actual on-curve indices
 at most four. The sections below retain the earlier intermediate route;
@@ -1291,109 +1291,20 @@ recomputed.
 
 ### 1. A theorem for the ordinary nilradical filtration
 
-Let Y be a complete-intersection thickening of a smooth curve C, with
-generic transverse algebra curvilinear of length n>=2. Put
-
-```
-J=I_C O_Y,  L_i=J^i/J^(i+1),
-T_i=torsion(L_i),  B_i=L_i/T_i,  L=B_1.
-```
-
-Purity gives `J^n=0` everywhere. Every B_i for 0<=i<n is a line
-bundle. The entire torsion sum `T=direct_sum T_i` is an ideal of the
-ordinary graded algebra: multiplication of a torsion section with
-another graded section remains torsion. Since the ordinary associated
-graded algebra is generated by L_1, its torsion-free graded quotient
-is generated by B_1. Thus for every i<n multiplication is surjective:
-
-```
-L^i -> B_i.
-```
-
-A surjection between line bundles is an isomorphism. Consequently
-
-```
-B_i=L^i,  including B_(n-1)=J^(n-1).
-```
-
-This uses the **ordinary J-adic filtration**. It is not an assertion
-that every saturated BF filtration has zero multiplication defect.
-The special-point defects here are retained in the torsion T_i and
-the inclusion of the top ideal in the actual socle.
-
-Write `deg L=-ell` and
-
-```
-J^(n-1)=Soc(Y)(-D),
-Soc(Y)=omega_C tensor O_C(4-a-b).
-```
-
-Then
-
-```
-deg D=(n-1)ell+(2g(C)-2)+deg(C)(4-a-b).
-```
-
-Euler characteristic of the complete intersection and the ordinary
-filtration gives the exact total torsion budget
-
-```
-2 sum_i length T_i = n deg D.
-```
-
-Thus first-layer torsion alone supplies a lower bound on the top-socle
-defect. This equality does not assume globally primitive structure,
-a global retraction to C, or a torsion-free first layer.
+The [free-layer proof](#1-ordinary-free-layers-are-powers-even-in-the-presence-of-torsion)
+gives the powers of the first free layer and the global torsion budget
+for the ordinary nilradical filtration. The ordinary filtration retains
+torsion in each layer and a possible defect at the inclusion of its top
+ideal into the actual socle.
 
 ### 2. A pointwise strengthening by a Frobenius lattice
 
-The preceding torsion identity holds at each point, with D's actual
-local multiplicity, not only after summing over C. Complete at a point
-P and choose an ambient parameter t lifting C's parameter. The local
-algebra A is finite free of rank n over `R=k[[t]]`: the normal
-variables are nilpotent, and Cohen--Macaulayness makes t a
-nonzerodivisor. It is a relative complete intersection and hence
-`Hom_R(A,R)` is a free rank-one A-module.
-
-Choose z in J whose first class generates the free first-layer
-quotient. Its powers generate all the free quotients by Section 1.
-Since z^n=0 and its generic powers are independent, they define the
-rank-n lattice
-
-```
-A0=R[z]/(z^n) subset A.
-```
-
-Its induced J-adic filtration is strict: a nonzero coefficient of
-the least z-power remains nonzero in that layer's free quotient.
-Therefore
-
-```
-length_R(A/A0)=sum_i length_R(T_i)_P.
-```
-
-Choose a generator lambda of `Hom_R(A,R)` as A-module. Its
-multiplication pairing is perfect over R. Finite duality identifies
-the actual socle with R via lambda, so if s generates the socle,
-`lambda(s)` is a unit. Since z^(n-1) generates the top J-adic ideal,
-
-```
-z^(n-1)=t^(D_P) u s,  u a unit.
-```
-
-The Gram matrix on the powers 1,z,...,z^(n-1) is anti-triangular;
-its determinant is a unit times `lambda(z^(n-1))^n`. Its t-adic
-valuation is n D_P. The Gram matrix on an R-basis of A has unit
-determinant. A change to a full sublattice doubles its index in the
-Gram determinant. Consequently
-
-```
-2 sum_i length_R(T_i)_P=n D_P.
-```
-
-In particular n odd forces every D_P even. This proof retains all
-jets and all local lattice changes. It does not identify a surface
-class order with the ramification of a normalized inverse curve.
+The [pointwise proof](#2-the-frobenius-identity-is-pointwise) uses the
+lattice of powers of a generator of the first free quotient and the
+perfect relative Frobenius pairing. In particular, odd generic length
+forces every local top-socle multiplicity to be even. This proof retains
+all jets and local lattice changes. Surface class order and ramification
+of a normalized inverse curve enter through separate hypotheses.
 
 ### 3. The forced length-twelve pair
 
@@ -1947,8 +1858,8 @@ equation is
 
 Its geometrically integral genus-one normalization and explicit
 Weierstrass model `YE^2=XE^3+96XE-448` are checked in the
-[curve source](../computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py)
-and the [checkpoint](MF6_PRINCIPAL_CANDIDATE_LOCI.md#the-principal-direction-sextic-has-an-elliptic-normalization). The corrected
+[curve source](https://github.com/markluxton1/STCI/blob/1fccec5c7afabb4e3f83ccd9c717692c07f0b338/research/computations/verify_mf6_e1_d1_principal_curve_2026_10_08.py)
+and the [checkpoint](normal_filtration_boundary_obstructions.md#the-principal-direction-sextic-has-an-elliptic-normalization). The corrected
 fiber is H(p,-1/2)=8p(p+2)^2.
 
 Set
@@ -1999,11 +1910,11 @@ The complement is exhausted as follows.
 This is a full chart-complement argument. It makes no assertion about
 other e, other defect degrees, or directions with a0*b1=0; the latter
 defect-one endpoint directions were treated separately in the
-[endpoint proof](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-mf6-e1-d1-endpointsmd).
+[endpoint proof](normal_filtration_boundary_obstructions.md#source-2026-10-07-session-mf6-e1-d1-endpointsmd).
 
 ### 2. Fresh ambient quartic spaces
 
-The [boundary verifier](../computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py)
+The [boundary verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py)
 rebuilds all 35 degree-four monomials. It imposes restriction to C0,
 vanishing of the first quotient-normal coefficient, and the actual
 quadratic-contact equation delta*Qquad-Gamma*h=0. It computes over Q,
@@ -2059,12 +1970,12 @@ This is obtained by exact polynomial division
 Gamma_inf=delta_inf*Qquad_inf/h_inf, with zero remainder.
 Its constant is -c3, of norm 24, and is nonzero at both geometric
 roots. Thus the infinity defect is genuinely flat. The
-[literal-form two-chart verifier](../computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py)
+[literal-form two-chart verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py)
 checks the full actual-frame calculation.
 
 ### 4. Geometry and mate scope of the unique boundary carriers
 
-The [self-contained M2 certificate](../computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.m2)
+The [self-contained M2 certificate](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_mf6_e1_d1_principal_boundary_geometry_2026_10_08.m2)
 contains the literal quartics, number-field equations and explicit
 curve ideals. It checks the following exact facts.
 
@@ -2096,8 +2007,8 @@ cannot be supported on a twisted cubic. The degree-four alternative
 cannot have sole reduced support of degree three, because its generic
 multiplicity there would have to be an integer. This proves
 integrality, including over an algebraic closure. The
-[accepted applicability proof](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md)
-and [adversarial audit](QUARTIC_SCROLL_REDUCED_CONDUCTORS.md)
+[accepted applicability proof](../supplements/QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md)
+and [adversarial audit](../supplements/QUARTIC_SCROLL_REDUCED_CONDUCTORS.md)
 then exclude every mate degree.
 
 At (p,r)=(8,1/2), the Jacobian cone has dimension two and degree five.
@@ -2238,7 +2149,7 @@ question is not settled by this calculation.
 ### 1. Complete ambient first-normal space and the exact frame
 
 The standalone verifier
-[`verify_session_mf6_principal_rank_open_2026_10_08.py`](../computations/verify_session_mf6_principal_rank_open_2026_10_08.py)
+[`verify_session_mf6_principal_rank_open_2026_10_08.py`](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py)
 reconstructs the first and second normal equations from eighteen
 independent actual quartic forms. Their coefficient rank is eighteen,
 and all vanish on `C0`; the thirty-five quartic monomials restrict to
@@ -2321,7 +2232,7 @@ M5 = (27/2^51) p^5(2r-1)^4(2r+1)^3 S^3 T^7 R5.
 
 `R6` and `R5` are the completely recorded residual polynomials of
 total degrees twenty and twenty-one in
-[`audit-mf6-e1-principal-raw-minors-2026-10-08.json`](../scratch/audit-mf6-e1-principal-raw-minors-2026-10-08.json).
+[`audit-mf6-e1-principal-raw-minors-2026-10-08.json`](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/scratch/audit-mf6-e1-principal-raw-minors-2026-10-08.json).
 The verifier independently recomputes every cofactor, checks these
 factor identities and all five others, and compares their reductions
 with the previously saved seven-cofactor remainders.
@@ -2411,11 +2322,11 @@ has rank seventeen and its kernel has dimension one.
 
 ### 4. Evidence and exact remaining scope
 
-The [exact rank checker](../computations/verify_session_mf6_principal_rank_open_2026_10_08.py)
+The [exact rank checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py)
 reconstructs the ambient maps and verifies the retained
 [contact matrix and frame](../scratch/session-mf6-e1-principal-contact-2026-10-08.json),
-[normalized contact data](../scratch/session-mf6-e1-principal-minors-2026-10-08.json),
-and [raw cofactors](../scratch/audit-mf6-e1-principal-raw-minors-2026-10-08.json).
+[normalized contact data](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/scratch/session-mf6-e1-principal-minors-2026-10-08.json),
+and [raw cofactors](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/scratch/audit-mf6-e1-principal-raw-minors-2026-10-08.json).
 The free determinant denominator is `2^52`, not `2^53`; cofactor and
 specialization comparisons require expanded polynomial equality rather
 than structural SymPy equality.
@@ -2445,7 +2356,7 @@ e=1,d2=1 quartic family, not an exclusion of every member of that family.
 
 The complete quartic space at this boundary has dimension one. The
 source quartic is the `rhalf_unique` row of the
-[exact principal-boundary record](../computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_rational.json).
+[exact principal-boundary record](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_rational.json).
 Make the invertible linear coordinate change
 
     x=x0+4x1-16x2-16x3,
@@ -2530,7 +2441,7 @@ height two, and the Hilbert--Burch resolution makes its projective
 curve an ACM cubic with Hilbert polynomial 3m+1. The entire actual
 conductor of this smooth quartic-scroll normalization also has
 polynomial 3m+1 by the duality calculation in the
-[applicability note](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md).
+[applicability note](../supplements/QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md).
 The inclusion J subset I gives a coherent quotient I/J. Its Hilbert
 polynomial is zero; a nonzero coherent sheaf on projective space has a
 nonzero Hilbert polynomial. Hence the conductor ideal sheaves agree:
@@ -2629,12 +2540,12 @@ This contradiction excludes a mate in every positive degree.
 ### 5. Exact evidence and retained limits
 
 The standalone
-[verifier](../computations/verify_session_mf6_rhalf_scroll_2026_10_08.py)
+[verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.py)
 reconstructs every parameterization coefficient, checks the carrier
 binding to the recorded MF6 member, verifies the three quadratic
 closure identities and all six conductor annihilator certificates,
 and checks the entire pullback conductor ideal. Its
-[JSON evidence](../computations/verify_session_mf6_rhalf_scroll_2026_10_08.json)
+[JSON evidence](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/computations/verify_session_mf6_rhalf_scroll_2026_10_08.json)
 records the source and input hashes. The all-mate conclusion is the
 structural proof in sections 3--4, not a bounded numerical test.
 
@@ -2850,21 +2761,21 @@ review, not a universal STCI resolution or a novelty claim.
 This is the intermediate acceptance record. Its statements of pending
 audit and the remaining reducible/nonreduced conductor boundary describe
 that stage of the work. The
-[late reconciliation](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-late-results-acceptancemd)
+[late reconciliation](contact_duality_and_global_descent.md#source-2026-10-08-session-late-results-acceptancemd)
 records the completed independent audits, full smooth-scroll exclusion,
 principal ancestor closure and current remaining strata.
 
 ### 1. Every integral quartic singular along a smooth twisted cubic
 
 **Accepted:** such a quartic has no mate cutting out C0 set-theoretically,
-in any positive degree. The [applicability proof](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md)
-and [conductor criterion](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-irreducible-conductor-compressionmd)
-together supply the argument. The [independent adversarial audit](QUARTIC_SCROLL_REDUCED_CONDUCTORS.md)
+in any positive degree. The [applicability proof](../supplements/QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md)
+and [conductor criterion](contact_duality_and_global_descent.md#source-2026-10-08-session-irreducible-conductor-compressionmd)
+together supply the argument. The [independent adversarial audit](../supplements/QUARTIC_SCROLL_REDUCED_CONDUCTORS.md)
 checks the criterion and the entire-conductor Hilbert/CM calculation.
 
 The complete derivative restriction on all 35 quartic monomials has
 rank 29. Six independent products of the three twisted-cubic quadrics
-span the kernel. The independent [literal-minor source](../computations/audit_scroll_twisted_cubic_equation_space_2026_10_08.py)
+span the kernel. The independent [literal-minor source](https://github.com/markluxton1/STCI/blob/088b0c191e470b032fff0ef0cfac1d830607800b/research/computations/audit_scroll_twisted_cubic_equation_space_2026_10_08.py)
 rebuilds derivatives by substitution and computes the stated determinant
 104509440 by Fraction elimination. Root replay passed in the isolated
 continuation snapshot. Thus F=Q(xi1,xi2,xi3) holds for the entire
@@ -2925,7 +2836,7 @@ outside this theorem.
 **Accepted:** for A=r*z,B=1,12r^2+4r+3=0, every genuine defect-four
 triple has at most one containing quartic. Hence it cannot supply two
 independent quartic multiplier equations for the fixed ancestor targets.
-This is the narrow [defect-four proof](OCT8_LOCALCOH_AND_CONDUCTOR_ENDPOINTS.md#source-2026-10-08-session-localcoh-e1-d4-algebraicmd),
+This is the narrow [defect-four proof](contact_duality_and_global_descent.md#source-2026-10-08-session-localcoh-e1-d4-algebraicmd),
 not an STCI mate theorem.
 
 The root checked the explicit seven ambient forms, their complete
@@ -2950,7 +2861,7 @@ Every genuine triple therefore has theta!=0, which is normalized to
 one by scaling the equation. This discards no valid theta=0 boundary.
 
 The self-contained
-[algebraic checker](../computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py)
+[algebraic checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_localcoh_e1_d4_algebraic_2026_10_08.py)
 reconstructs the ambient space and verifies the minor and diagonal
 identities. The theta-zero torsion argument above supplies its separate
 finite-flatness implication.
@@ -3238,7 +3149,7 @@ a global section cutting out c, or a globally constant power factor.
 No new classification of nonnormal carriers follows solely from this
 local strengthening. The earlier historical nongorenstein-scroll
 boundary was subsequently closed by the separate
-[complete scroll audit](QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md).
+[complete scroll audit](../supplements/QUARTIC_SCROLL_NONREDUCED_CONDUCTORS.md).
 
 ---
 
@@ -3476,29 +3387,28 @@ unique carrier nor use an STCI-only second-defect bound.
 The rank-open argument and its hypotheses are given in
 [the detailed proof](#source-2026-10-08-session-mf6-principal-rank-open-independent-auditmd)
 and
-[`verify_session_mf6_principal_rank_open_2026_10_08.py`](../computations/verify_session_mf6_principal_rank_open_2026_10_08.py).
+[`verify_session_mf6_principal_rank_open_2026_10_08.py`](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_mf6_principal_rank_open_2026_10_08.py).
 The source uses the corrected free-determinant denominator `2^52` and
 exact expanded polynomial differences for its coefficient comparisons.
 
 The independent
-[`coverage-countercheck.py`](../validation/2026-10-08-principal-e1-d1-audit/coverage-countercheck.py)
+[`coverage-countercheck.py`](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-08-principal-e1-d1-audit/coverage-countercheck.py)
 checks the determinant, diagonal, complement identities,
 opposite-correction norm, cubic irreducibility and S-zero rank from the
 actual contact input. It invokes no existing verifier and regenerates no
 proof inputs.
 
 The all-35-column
-[boundary source](../computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py)
+[boundary source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08.py)
 and its retained
-[complete field data](../validation/2026-10-08-principal-e1-d1-audit/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_all.json)
+[complete field data](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/validation/2026-10-08-principal-e1-d1-audit/research/computations/verify_mf6_e1_d1_principal_boundaries_2026_10_08_all.json)
 supply the boundary calculations. The actual two-chart
-[residue source](../computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py)
+[residue source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_mf6_e1_d1_principal_boundary_residues_2026_10_08.py)
 and independent
-[`residue-input-comparison.py`](../validation/2026-10-08-principal-e1-d1-audit/residue-input-comparison.py)
+[`residue-input-comparison.py`](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-08-principal-e1-d1-audit/residue-input-comparison.py)
 bind the three literal quartics, direction parameters, cocycles,
 defect sections and finite corrections to that complete-35-column data.
 The comparison also derives the raw normal transition from the actual
 coordinate change. The companion's cubic-pole conclusions are separate
 necessary bounds; they do not strengthen this audit into an all-mate
 carrier exclusion.
-

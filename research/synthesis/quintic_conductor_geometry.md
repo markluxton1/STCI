@@ -182,7 +182,7 @@ source. This does not prove the full singleton inverse condition on C0.
 For the actual admissible nonendpoint A4 quintic projections, a
 reduced full conductor Gamma forces the unique conductor quadric Q
 to have rank three, even when Gamma is reducible. The
-[universal identity](quintic_conductor_geometry.md) gives rank
+[universal identity](#2-a-universal-identity-rather-than-a-parameter-sample) gives rank
 at most three. If its rank were at most two, Gamma would lie in
 at most two planes.
 
@@ -1054,7 +1054,7 @@ The ribbon and generic conormal deductions above are written out directly.
 
 ## 3. Multiplicity ten without global primitivity or a regular ratio
 
-The separately delegated [multiplicity-ten filtration audit](MULTIPLICITY_MIXED46_AND_MF6.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
+The separately delegated [multiplicity-ten filtration audit](quasiprimitive_residual_cycles.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
 supplies a direct finite-flat Frobenius proof, read and checked by this
 auditor. A hypothetical CI(5,8) is generically curvilinear by Section 1.
 Its saturated graded pieces E_i are line bundles, even at nonprimitive
@@ -1164,7 +1164,7 @@ contradicting negative definiteness unless E=0. Consequently
 The contraction is crepant, with ADE singularities, and S is a degree-five
 Gorenstein del Pezzo surface with `K_S=-H`. This uses the same minimality
 and negative-definiteness proof as the accepted
-[genus-one quartic reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd).
+[genus-one quartic reduction](normalization_conductor_projection.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd).
 
 In a rational degree-five del Pezzo marking, Pic(M) has basis h,e1,...,e4,
 with L=3h-sum e_i. The roots P with L.P=0 and P^2=-2 are exactly
@@ -1277,7 +1277,7 @@ normal quartic, and ell is its tangent line at that point. This audit
 does not infer a classification of all projections, uniqueness of the
 carrier equation, or any power-descent obstruction from the tangent line.
 
-The unique line satisfies5ell~H, by subtracting5c~4H from5(c+ell)~5H. If h is the section with divisor c+ell and u has divisor5ell, then Q=h^5/u is a regular section of4H with divisor5c. This is an actual intrinsic section identity, not a claim that either h,u or Q descends to the chosen four-coordinate projection. With a fixed marked center in the span of c, four lifts differ by the one-dimensional restriction kernel; the [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd) retains the additional nonendpoint marking parameter and prevents treating the endpoint four-parameter subfamily as all projections.
+The unique line satisfies5ell~H, by subtracting5c~4H from5(c+ell)~5H. If h is the section with divisor c+ell and u has divisor5ell, then Q=h^5/u is a regular section of4H with divisor5c. This is an actual intrinsic section identity, not a claim that either h,u or Q descends to the chosen four-coordinate projection. With a fixed marked center in the span of c, four lifts differ by the one-dimensional restriction kernel; the [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification) retains the additional nonendpoint marking parameter and prevents treating the endpoint four-parameter subfamily as all projections.
 
 ## 9. The sectional-genus-zero exclusion also passes
 
@@ -1334,8 +1334,8 @@ integrity seal is edited by this audit.
 The owner source is the [endpoint quadric-factor reduction](#2-quintic-endpoint-factor-independent-audit).
 The geometric inputs are the [quintic structural frontier](#1-quintic-conormal-and-delpezzo-audit),
 its [independent conormal/del Pezzo audit](#1-quintic-conormal-and-delpezzo-audit),
-and the [explicit model audit](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd).
-The [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd)
+and the [explicit model audit](quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit).
+The [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification)
 separately records the required distinction between endpoint and nonendpoint
 projection centers. The present statement applies to the displayed endpoint
 projection; it does not replace that distinction by a four-parameter global
@@ -1586,7 +1586,7 @@ The divisibility used in the exact local length argument comes from the actual m
 
 ## 8. Exact evidence and remaining boundary
 
-The delegated standard-library [sparse-polynomial checker](../validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py)
+The delegated standard-library [sparse-polynomial checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py)
 supplies seven exact identities over `Z[r,T,a,b,g,d]`: q=hK, both first-normal
 coefficients, W=K|c, W=V-rU, the full cubic residual factor and its relation
 to the normalized quadric residual numerator. Its source SHA-256 is
@@ -1621,83 +1621,35 @@ quartic-carrier theorem.
 
 Date: 2026-10-11. Owner: `oct11_nonendpoint_quadric_structure/nonendpoint_pole_spaces`.
 
-Status: **DIRECT PROOF; PARENT REVIEW PENDING**. No mathematical CAS run is
-claimed or required for the proof below. This note supplies the entire pole
-filtration, its section spaces through degree six, and the possible degree
-partitions of a residual divisor. It does not exclude any remaining projection
-family or bound higher contact multiplicities.
+The original note recorded its direct proof as pending parent review. The
+complete filtration derivation is linked below. Its section spaces through
+degree six give the possible degree partitions of a residual divisor.
+Projection exclusions and higher-contact bounds require further calculations.
 
 Work over an algebraically closed field of characteristic zero. The normal
 anticanonical degree-five surface S, its unique line ell, the complete smooth
 quartic c, and the plane model are those of the
-[intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd).
+[intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification).
 In particular H is ample, `H~5ell`, `c~4ell`, and the actual section U0 of H has
 divisor 5ell. The
-[explicit-model audit](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd)
+[explicit-model audit](quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit)
 verifies the global model and its chart `U0!=0`.
 
 ## 1. The entire reflexive section filtration
 
-The complement `S\ell={U0!=0}` is the affine plane with coordinates
-
-    r=x/y, t=z/y=T-r^2.
-
-All functions regular on this complement are consequently `k[r,t]`. Introduce
-
-    v=t^2-r^3=Z0/U0.
-
-At the generic point of ell, use the fourth blowup chart with coordinates
-`x,u`, and set `A=1+xu`. The six anticanonical cubics, after the common base
-factor has been removed, are exactly
-
-    [Z0:Z1:Z2:Z3:Z4:Z5]
-      =[u:A:x^2 A^2:x A:x^3 A^2:x^5 A^3].
-
-Therefore the following are identities in the function field, not merely
-first-order approximations:
-
-    r=x^(-2) A^(-1),
-    t=x^(-3) A^(-1),
-    v=u x^(-5) A^(-3).                         (1)
-
-In particular their exact pole orders along ell are 2,3,5. The last equality
-follows from `t^2-r^3=x^(-6) A^(-3)(A-1)`. It records the cancellation that
-a weight assignment to r and T alone would miss.
-
-Every polynomial in `k[r,t]` has a unique expression as a finite k-linear
-combination of monomials
-
-    r^i t^j v^k,   i,k>=0, j in {0,1}.         (2)
-
-Indeed the presentation
-
-    k[r,t]=k[r,v,t]/(t^2-r^3-v)
-
-is free with basis 1,t over `k[r,v]`, because its relation is monic quadratic
-in t. The substitutions in (1) give exact pole weight
-
-    w(i,j,k)=2i+3j+5k                         (3)
-
-and leading coefficient `u^k`. In a sum of terms of maximal weight w, there
-is at most one monomial with any fixed k: the equation
-`2i+3j=w-5k`, with j equal to 0 or 1, determines j by parity and then i.
-Consequently that sum has leading coefficient a nonzero polynomial
-`sum a_k u^k` in the residue field k(u). No cancellation of the highest pole
-weight is possible. Thus (3) computes the exact ell-valuation of every
-polynomial written in its unique normal form (2).
-
-For all n>=0, including n for which nell is not Cartier,
+On the affine complement `S\ell={U0!=0}`, use coordinates `r=x/y` and
+`t=z/y=T-r^2`, and set `v=t^2-r^3=Z0/U0`. The
+[complete pole-filtration proof](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#2-the-pole-filtration-is-exhaustive-including-cancellation-strata)
+computes the pole orders of `r,t,v` as `2,3,5` on the fourth blowup chart.
+In the unique normal form over `k[r,v]` with basis `1,t`, leading
+coefficients of equal-weight monomials are distinct powers of the
+transcendental residue coordinate. They cannot cancel. For every `n>=0`,
 
     H0(S,O_S(nell))
-      = span_k{r^i t^j v^k : j in {0,1}, 2i+3j+5k<=n}.           (4)
+      = span_k{r^i t^j v^k : i,k>=0, j in {0,1}, 2i+3j+5k<=n}.      (4)
 
-Here `O_S(nell)` is the reflexive divisorial sheaf. To justify the global
-equality, a section is a rational function f with `div(f)+nell>=0`. It is
-regular on `S\ell`, hence lies in `k[r,t]`; conversely a polynomial with
-ell-order at least -n has no negative coefficient at any prime divisor.
-On a normal surface those codimension-one conditions are exactly the
-definition of the reflexive divisorial sheaf. The A4 point on ell creates
-no additional codimension-two extension condition.
+This is the reflexive section space, including when `nell` is non-Cartier.
+The pole-order calculation incorporates the cancellation in `t^2-r^3`.
 
 ## 2. The complete spaces through degree six
 
@@ -1769,8 +1721,8 @@ Equivalently, as a polynomial on the affine plane,
         +(alpha-beta)r^3+delta r^2+zeta r+eta. (9)
 
 The coefficient alpha, rather than either coefficient of t^2 or r^3 taken
-separately, detects pole order six. This follows from the cancellation in
-(1), and is essential on parameter strata where `alpha=beta`.
+separately, detects pole order six. This follows from the pole weights in (4) and is essential on parameter
+strata where `alpha=beta`.
 
 ## 4. Exact forms of the low-degree prime components
 
@@ -1815,8 +1767,8 @@ Use the actual sections and chart in the
 [pole-filtration and line-jet note](../supplements/NONENDPOINT_RESIDUAL_FACTORIZATION_AND_GENUS.md#3-nonendpoint-pole-filtration-and-line-jet-independent-audit),
 with delta!=0 over an algebraically closed field of characteristic zero.
 The accepted normalization pair and its complete open S minus ell=A2(r,T)
-are supplied by the [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd)
-and [explicit model audit](quintic_octic_ade_cover_and_triple.md#consolidated-historical-supplement-researchsupplementsdel_pezzo_five_a4_intrinsic_and_explicit_modelmd).
+are supplied by the [intrinsic pair classification](quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification)
+and [explicit model audit](quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit).
 Assume the projection center avoids S whenever using an actual finite
 normalization projection. Delta is retained as a modulus throughout.
 
@@ -2158,7 +2110,7 @@ Since `delta!=0`, homogenization of `F` to degree eight has exactly a
 simple zero at `p=infinity`. This uses the literal section, not an
 upper bound inferred from its first-normal zero locus.
 
-The [new coefficient checker](../computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py)
+The [new coefficient checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py)
 reads the frozen 344-monomial primitive polynomial, validates its exact
 SHA-256, and reconstructs it through elementary integer polynomial
 arithmetic using Python's standard library. It performs no `eval`, uses
@@ -2414,7 +2366,7 @@ five polynomials b_t^{i,j,h} in QQ(s)[k,delta] satisfying
 The source multiplies the five-generator row by its certificate column
 and asserts equality to the actual constant matrix {{1}} in each case.
 Every certificate is printed in full in the
-[certificate artifact](../validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/twenty-one-polynomial-bezout-certificates.txt).
+[certificate artifact](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-12-nonendpoint-GJ-zero-normalized-lead/twenty-one-polynomial-bezout-certificates.txt).
 The final identities require no saturation or inverse parameter. They
 are polynomial identities in k,delta, with only constant coefficients
 in the number field QQ(s), and therefore remain true after embedding
@@ -2529,7 +2481,7 @@ primary proof, not as a second statement of its full derivation.
 
 ## Exact support and characteristic scope
 
-The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py](../computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py), [verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2](../computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2), [verify_fraction_certificates.py](../validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/verify_fraction_certificates.py), [verify_session_nonendpoint_target_fibers_2026_10_12.m2](../computations/verify_session_nonendpoint_target_fibers_2026_10_12.m2), [verify_proof_gaps.m2](../validation/2026-10-12-nonendpoint-target-fiber-independent-audit/verify_proof_gaps.m2). No inherited computation was rerun for this consolidation.
+The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_conductor_infinity_coefficient_2026_10_12.py), [verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_GJ_zero_profile_exclusion_2026_10_12.m2), [verify_fraction_certificates.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-12-nonendpoint-GJ-zero-independent-audit/verify_fraction_certificates.py), [verify_session_nonendpoint_target_fibers_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_target_fibers_2026_10_12.m2), [verify_proof_gaps.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-12-nonendpoint-target-fiber-independent-audit/verify_proof_gaps.m2). No inherited computation was rerun for this consolidation.
 
 The characteristic and admissibility restrictions are those in [Characteristic scope shared by the nonendpoint exclusions](#characteristic-scope-shared-by-the-nonendpoint-exclusions); the independent calculations and exceptional cases above remain part of this proof.
 
@@ -2886,7 +2838,7 @@ entire 2+4 residual partition in this nonendpoint normalization family.
 
 ## Exact support and characteristic scope
 
-The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_cubic_contact_2026_10_12.m2](../computations/verify_session_nonendpoint_cubic_contact_2026_10_12.m2), [verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2](../computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2), [probe_session_nonendpoint_2plus4_families_2026_10_12.m2](../computations/probe_session_nonendpoint_2plus4_families_2026_10_12.m2), [probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2](../computations/probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2), [probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2](../computations/probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2), [verify_type1.m2](../validation/2026-10-12-type1-two-family-independent-audit/verify_type1.m2), [probe_session_nonendpoint_type23_incidence_2026_10_12.m2](../computations/probe_session_nonendpoint_type23_incidence_2026_10_12.m2), [probe_session_nonendpoint_type23_full_contact_jets_2026_10_12.m2](../computations/probe_session_nonendpoint_type23_full_contact_jets_2026_10_12.m2), [probe_session_nonendpoint_type23_a4_contact_2026_10_12.m2](../computations/probe_session_nonendpoint_type23_a4_contact_2026_10_12.m2), [verify_type23.m2](../validation/2026-10-12-type23-six-family-independent-audit/verify_type23.m2). No inherited computation was rerun for this consolidation.
+The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_session_nonendpoint_cubic_contact_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_cubic_contact_2026_10_12.m2), [verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_sparse_heptic_cubic_pairs_2026_10_12.m2), [probe_session_nonendpoint_2plus4_families_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/1a9c4922a4a2806fdb4d37075e41560bce814584/research/computations/probe_session_nonendpoint_2plus4_families_2026_10_12.m2), [probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/1a9c4922a4a2806fdb4d37075e41560bce814584/research/computations/probe_session_nonendpoint_type1_contact_jets_2026_10_12.m2), [probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/1a9c4922a4a2806fdb4d37075e41560bce814584/research/computations/probe_session_nonendpoint_type1_linear_contact_jets_2026_10_12.m2), [verify_type1.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-12-type1-two-family-independent-audit/verify_type1.m2), [probe_session_nonendpoint_type23_incidence_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/1a9c4922a4a2806fdb4d37075e41560bce814584/research/computations/probe_session_nonendpoint_type23_incidence_2026_10_12.m2), [probe_session_nonendpoint_type23_full_contact_jets_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/1a9c4922a4a2806fdb4d37075e41560bce814584/research/computations/probe_session_nonendpoint_type23_full_contact_jets_2026_10_12.m2), [probe_session_nonendpoint_type23_a4_contact_2026_10_12.m2](https://github.com/markluxton1/STCI/blob/1a9c4922a4a2806fdb4d37075e41560bce814584/research/computations/probe_session_nonendpoint_type23_a4_contact_2026_10_12.m2), [verify_type23.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-12-type23-six-family-independent-audit/verify_type23.m2). No inherited computation was rerun for this consolidation.
 
 The characteristic and admissibility restrictions are those in [Characteristic scope shared by the nonendpoint exclusions](#characteristic-scope-shared-by-the-nonendpoint-exclusions); the independent calculations and exceptional cases above remain part of this proof.
 
@@ -3627,9 +3579,6 @@ is silently removed from the full h>=2 classification.
 
 ## Exact support and characteristic scope
 
-The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_binary_contact.m2](../validation/2026-10-13-cubic-pair-full-independent-audit/verify_binary_contact.m2), [verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2](../computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2), [verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2](../computations/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2), [verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2](../computations/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2). No inherited computation was rerun for this consolidation.
+The mathematical proofs above retain the actual homogeneous equations, local rings and nonreduced conductor membership used by the inherited independent reviews. Necessary exact computational support is retained in [verify_binary_contact.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-13-cubic-pair-full-independent-audit/verify_binary_contact.m2), [verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_cubic_pair_coefficient_subaudit_2026_10_13.m2), [verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_homogeneous_gcd_rank_2026_10_13.m2), [verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_nonendpoint_h2_cover_audit_2026_10_13.m2). No inherited computation was rerun for this consolidation.
 
 The characteristic and admissibility restrictions are those in [Characteristic scope shared by the nonendpoint exclusions](#characteristic-scope-shared-by-the-nonendpoint-exclusions); the independent calculations and exceptional cases above remain part of this proof.
-
-
-
