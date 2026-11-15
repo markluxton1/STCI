@@ -481,90 +481,28 @@ supply this ambient realization.
 
 ### 6.1 Bisection: the global nilideal obstruction
 
-For \(\lambda=0\), \(f\widetilde c=2\), and \(|\widetilde c|\) is a
-second connected rational pencil. The pair of pencils has degree two
-onto \(\mathbf P^1\times\mathbf P^1\); its normal Stein cover has branch
-class \((2,2)\). Its crepant resolution has \(K^2=4\), so \(M\) is
-obtained by four point blowups. If \(R\) is the actual relative canonical
-divisor and \(k_t\) counts all blowups over a fiber, including infinitely
-near centers, the second-pencil proof gives the equality of actual cycles
+In characteristic zero, the second rational pencil for \(\lambda=0\) gives a degree-two map to \(\mathbf P^1\times\mathbf P^1\), a normal Stein cover branched in class \((2,2)\), and a four-point blowup of its crepant resolution. The actual relative-canonical correction, including infinitely near centers, satisfies
 \[
-2Z=\sum k_tF_t-2R,\qquad\sum k_t=4.
+2Z=\sum_t k_tF_t-2R,\qquad \sum_t k_t=4.
 \]
-Thus \(2Z\) is integral and compression gives a Cartier double
-\(2c\sim2H\) on \(S\). It need not be an ambient quadric section.
+Compression therefore gives the **actual Cartier equivalence** \(2c\sim2H\) on the normalization, not necessarily an ambient quadric section. The resulting pure Cartier double has nilideal \(\mathcal O_{\mathbf P^1}(-8)\); its generically nonzero map from \(N^*_{C/\mathbf P^3}=\mathcal O(-7)^{\oplus2}\) is impossible. The [complete global bisection proof](genus_two_bisection_proof.md) supplies purity, the Hilbert-polynomial computation, and the nonzero-map justification. The [quadratic conductor-power descent](genus_two_bisection_descent.md), [even-fiber descent](../../frameworks/carrier-normalization/quartic_carrier_genus_two_conductor.md#16-bisection-fiber-counts-integral-descent-and-the-three-center-obstruction), and [three-center obstruction](genus_two_bisection_three_center_proof.md) remain **distinct conditional arguments**, not replacements for this global exclusion.
 
-The Cartier double is CM of generic length two with smooth reduction,
-hence a ribbon: the square of its nilideal vanishes generically and
-purity forbids a finite-support square; its torsion-free rank-one
-nilideal is a line bundle. Rational singularities give
-\(\chi(\mathcal O_S(mH))=2m^2+m+1\); the Cartier sequence at \(-2H\)
-then gives nilideal \(J=\mathcal O_{\mathbf P^1}(-8)\).
-The normalization morphism on the entire ribbon induces
-\(N^*_{C/\mathbf P^3}\to J\), nonzero on the open where normalization
-is an isomorphism. But
-\(N^*_{C/\mathbf P^3}=\mathcal O(-7)^2\) has no nonzero map to
-\(\mathcal O(-8)\), a contradiction. The
-[complete bisection proof](genus_two_bisection_proof.md)
-includes the exact two-pencil, Cartier-double and characteristic-zero
-normal-bundle arguments. It replaces the longer fiber-by-fiber closure;
-the even/three-center proofs remain useful distinct descent mechanisms.
-The same global ribbon contradiction excludes a section-stratum candidate
-if its own independently established integral \(2Z\) gives actual
-\(2c\sim2H\). No assertion makes every section correction half-integral.
-
-**Reusable boundary.** A ribbon over \(\mathbf P^1\) with nilideal
-\(\mathcal O(j)\), mapped to an ambient embedding with conormal
-\(\mathcal O(-a)\oplus\mathcal O(-b)\), can have a generically nonzero
-normal map only if \(j\ge-\max(a,b)\). Its genus is \(-j-1\).
-This immediate Hom calculation explains both cases: the genus-two
-double violates the degree bound, while the genus-one ribbon's
-\(\mathcal O(-6)\) is permitted and needs the finer projection test.
-Smooth reduction and generic multiplicity alone do not make a ribbon:
-\(k[[t,e]]/(te^2,e^3)\) has an embedded point and nonzero nilideal square.
+The same ribbon contradiction applies to a section-stratum candidate only **if** its own integral \(2Z\) independently establishes \(2c\sim2H\); no universal half-integrality is asserted. More generally, a ribbon with nilideal \(\mathcal O(j)\) can receive a generically nonzero map from \(\mathcal O(-a)\oplus\mathcal O(-b)\) only if \(j\ge-\max(a,b)\). Its genus is \(-j-1\). This excludes the genus-two nilideal but not the genus-one \(\mathcal O(-6)\) ribbon. Generic multiplicity alone does not guarantee purity: \(k[[t,e]]/(te^2,e^3)\) has embedded structure.
 
 ### 6.2 Section: genuine trisecants and an all-length graph inequality
 
-For \(\lambda=1\), \(f\widetilde c=1\) and \(C\cap\Gamma\) has
-length three. Thus \(\Gamma\) lies on the unique smooth quadric
-\(q=x_0x_3-x_1x_2\). Its degree-three ruling has lines
+For \(\lambda=1\), \(f\widetilde c=1\) and \(\operatorname{length}(C\cap\Gamma)=3\). The conductor line lies on \(q=x_0x_3-x_1x_2\) and is a member of the degree-three ruling
 \[
-\Gamma_a=(x_2-ax_0,x_3-ax_1),\qquad
-C\cap\Gamma_a:\ t^3-as^3=0.
+\Gamma_a=(x_2-ax_0,x_3-ax_1),\qquad C\cap\Gamma_a:\ t^3-as^3=0.
 \]
-There are exactly two contact types: three distinct points for
-\(a\ne0,\infty\), and one triple point for \(a=0,\infty\), exchanged
-by reversal. There is no missing \([2,1]\) case for this fixed embedding.
-This contact split uses \(3\ne0\): in characteristic three the map
-\([s:t]\mapsto[s^3:t^3]\) is inseparable and every such fiber is a
-triple contact, so the three-distinct-contact argument does not carry over.
-The [exact carrier-ideal proof](genus_two_trisecant_carrier_proof.md)
-gives the whole eleven-dimensional quartic space, rather than a sampled
-family. The marked-plane analysis forces a special horizontal prime
-\(B^2=-3\) disjoint from \(\widetilde c\); the
-[free-chain argument](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#19-genus-two-marked-section-case)
-proves that a configuration without this prime is impossible.
+In characteristic zero the only contact types are three distinct points or a triple endpoint; \([2,1]\) does not occur. In characteristic three the displayed map is inseparable, so the three-distinct-contact argument cannot be imported. The [complete trisecant-carrier ideal calculation](genus_two_trisecant_carrier_proof.md) treats the full quartic space, and the [marked-section proof](genus_two_marking_and_section_proof.md#8-free-chain-proof-when-the-marked-prime-is-absent) rules out the case without the special horizontal prime \(B\), under its stated smooth-descent hypotheses.
 
-For three distinct contacts, write the conductor section of the actual
-ambient exceptional surface as \(D_T\) of bidegree \((2,2)\), containing
-the fiber \(B_T\). Every reducible residual and repeated-fiber divisor
-is excluded by the singleton-fiber test, including the case when the
-coefficient of \(B\) in \(Z\) is zero. For integral residual
-\((1,2)\), its other two singleton fibers consume both branch values of
-its degree-two map to \(\Gamma\). It meets \(B_T\) in two transverse
-points. Relative formal Morse splitting, preserving the actual conductor
-branches, gives endpoint \(A_n\)-chains of arbitrary length.
-
-If the contacted chain has length \(n\), contact position \(k\), and
-the other chain length \(m\ge0\), elimination gives
+For three distinct contacts, the actual conductor divisor on the ambient exceptional surface has bidegree \((2,2)\) and contains \(B_T\). The [complete nonendpoint proof](genus_two_nonendpoint_proof.md) excludes reducible and repeated residuals by the singleton-fiber condition, including coefficient-zero \(B\). In the integral \((1,2)\) residual case, the two other singleton fibers consume both branch values, and formal Morse splitting gives arbitrary-length ADE chains. For contacted chain length \(n\), position \(k\), and second length \(m\ge0\), its exact inverse-chain calculation yields
 \[
 \operatorname{coeff}_B Z=
-\frac{(n+1-k)/(n+1)}{3-n/(n+1)-m/(m+1)}<1.
+\frac{(n+1-k)/(n+1)}{3-n/(n+1)-m/(m+1)}<1,
 \]
-Its numerator is below one and denominator above one, contradicting
-\(K_MZ=1\). This is an all-length statement, not a finite chain search.
-The [nonendpoint proof](genus_two_nonendpoint_proof.md)
-contains the entire divisor exhaustion and exact inverse-chain formulas.
+contradicting \(K_M\cdot Z=1\). This is an all-length exclusion, not a bounded enumeration.
 
 ### 6.3 Triple contact: actual normal coefficients replace an abstract graph
 
