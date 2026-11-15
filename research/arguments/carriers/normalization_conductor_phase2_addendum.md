@@ -556,11 +556,7 @@ not by itself prove a whole-quintic theorem.
 
 ### 5. Computation and continuation state
 
-The complete global quadratic-root second model uses twenty-five scalar pairings and retains the homogeneous branch discriminant, including infinity. Its completeness is not an emptiness result. The bounded quintic ODE, spectral and global QQ saturation attempts did not complete an ideal computation or unit certificate. The twenty-two finite family-two exception-root closures and accepted large quintic witnesses remain separate premises.
-
----
-
-<a id="2026-10-16-generalization-quintic-h2-global-qq-prospect-terminal-record"></a>
+The complete global quadratic-root second model has 25 scalar pairings and retains the branch discriminant at infinity; completeness is not emptiness. Bounded quintic ODE, spectral, and global \(\mathbf Q\)-saturation trials produced no ideal or unit certificate. The 22 finite family-two exception-root closures and existing large-quintic witnesses are independent premises.
 
 ## Whole-h2 global saturation remains open
 
