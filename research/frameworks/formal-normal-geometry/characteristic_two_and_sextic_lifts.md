@@ -4,21 +4,15 @@
 
 ## 3.10 The characteristic-two arithmetic test case
 
-For the fixed quartic the conormal sequence is
+For the fixed quartic, the conormal sequence
+\[
+0\to\mathcal O_C(-8)\to N^*_{C/\mathbf P^3}\to\mathcal O_C(-6)\to0
+\]
+has extension class proportional to \(2\). Thus [R-0020](../../results/quartic_conormal_characteristic_jump.md) gives splitting \(\mathcal O(-7)^2\) away from characteristic two and \(\mathcal O(-8)\oplus\mathcal O(-6)\) in characteristic two. This changes normal-symbol directions, not by itself the existence of equations.
 
-    0 -> O_C(-8) -> N_C^* -> O_C(-6) -> 0.
+The prescribed integral pair \(F=x_1^4-x_0^3x_3\), \(G=x_2^4-x_0x_3^3\) is flat over \(\mathbf Z\). By [R-0021](../../results/quartic_mu4_degeneration.md), away from the endpoints its family is \(\mathbf G_m\times\mu_4\): four reduced quartic components in characteristic zero coalesce to sole reduced support \(C\) and generic transverse length four in characteristic two. Cancellation of dependent first normal symbols produces the **full** initial ideal \((X,Y^4)\); [R-0031](../../results/quartic_char2_fourth_equation_kernel.md) identifies the fourth initial-equation bundle and zero filtered comparison defect **for this pair**, not for all characteristic-two pairs.
 
-Its extension class is proportional to 2 in H1(P1,O(-2)). Accordingly [R-0020](../../results/quartic_conormal_characteristic_jump.md) gives N_C^*=O(-7)^2 in characteristic different from two and O(-8)+O(-6) in characteristic two. This changes the available symmetric-power directions; it does not itself exclude or construct defining equations.
-
-The prescribed integral quartics F=x1^4-x0^3*x3 and G=x2^4-x0*x3^3 give a complementary example. By [R-0021](../../results/quartic_mu4_degeneration.md), their intersection is flat over Z and, away from the endpoints, equals G_m times mu_4. In characteristic zero it is the reduced union of four distinct quartic curves, while in characteristic two it has sole reduced support C and generic algebra K[Y]/(Y^4). This is coalescence of *actual projective components*, not merely exceptional directions.
-
-The full initial ideal explains the jump. In characteristic zero the two generic first normal symbols are independent and the transverse multiplicity along C is one. In characteristic two they become dependent, and cancellation using the actual equations supplies the order-four generator. The special ideal is (X,Y^4), not merely the ideal of the displayed first symbols. [R-0031](../../results/quartic_char2_fourth_equation_kernel.md) identifies the fourth minimal initial-equation bundle and the filtered equation-module kernel with O(-24), with zero comparison defect, for this prescribed pair. It does not give a general theorem for arbitrary characteristic-two pairs.
-
-Finally [R-0012](../../results/prescribed_z4_arithmetic_nonlifting.md) excludes a *flat embedded lift of this particular special complete intersection* over Z_(2) or Z_2 whose generic reduced support is the fixed relative quartic. The obstruction is a forced primitive-triple class in H1(P1,O(-4)) with a middle Laurent coefficient congruent to 2 modulo 4. The theorem neither covers arbitrary ramified mixed-characteristic DVRs nor excludes an unrelated characteristic-zero STCI. Flatness of the displayed integral family is consistent with nonlifting under the extra requirement of sole generic reduced support: its characteristic-zero generic fiber has four components.
-
-These results separate four questions: conormal splitting, full initial equations, global reduced support, and arithmetic deformation of a prescribed embedded scheme. None may be substituted for another.
-
-
+The separate [R-0012](../../results/prescribed_z4_arithmetic_nonlifting.md) excludes a flat embedded lift of the specified supported complete intersection over \(\mathbf Z_{(2)}\) or \(\mathbf Z_2\) **with sole generic reduced support the fixed relative quartic**. Its primitive-triple obstruction lies in \(H^1(\mathbf P^1,\mathcal O(-4))\). This is compatible with flatness of the displayed family, whose characteristic-zero generic fiber has four components; neither statement excludes unrelated characteristic-zero STCI pairs or arbitrary ramified bases.
 
 ## 3.10A Characteristic-two cancellation versus embedded lifting
 
