@@ -364,27 +364,7 @@ observation used in the separate local surface calculation below.
 
 ## Local surface singularities and the remaining scope
 
-For \(H\) the pullback of a hyperplane, the strict sextic has class
-\(D=6H-2E\). A smooth member has \(c_2=28\), \(K^2=-4\) and
-\(\chi(\mathcal O_D)=2\) by Noether’s formula. Near a smooth root point
-where \(\alpha|_Z\) has a simple zero, the strict sextic has equation
-\(Ap+t^{10}B\) with \(A|_Z=\alpha|_Z\) in local frames. Here \(B\) is a
-unit. The other multiplier \(\beta\) is a unit there, so the invertible
-change from the actual generators to \((p,t^{10})\) forces the
-off-diagonal coefficient \(B\) to be a unit. The simple zero makes
-\((A,p,t)\) a system of parameters and the germ is of type \(A_9\).
-The divisor \(\operatorname{div}_Z(\alpha)\) has length sixteen.
-
-For a zero of multiplicity \(m\ge1\), the special model
-\((t+z^m)p+t^{10}\) has type \(A_{10m-1}\). Setting \(x=t+z^m\) and
-absorbing the multiple of \(x\) in \(t^{10}-z^{10m}\) into \(p\) gives
-\(xp'+z^{10m}\). This example alone gives no classification of
-multiple-zero germs. A global exclusion also needs a vanishing-cycle
-bound and control of singular roots and nonnormal strict surfaces,
-including singular curves and exceptional fibers. The reviewed
-[normal-surface and reduced-divisor argument](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus)
-and [nonnormal local models](../spectral/rank_strata_and_sextic_lifts.md#nonnormal-conductor-budget-and-local-escape-models)
-address these questions in their stated scopes.
+The strict sextic has class \(D=6H-2E\). A smooth member has \(c_2=28\), \(K^2=-4\), and \(\chi(\mathcal O_D)=2\). At a **simple** zero of the root multiplier \(\alpha|_Z\), the actual-generator change forces a unit coefficient in the local equation \(Ap+t^{10}B\); the local germ is \(A_9\). The multiplier divisor on \(Z\) has length sixteen. A multiple-zero model \((t+z^m)p+t^{10}\) has type \(A_{10m-1}\), but this example does not classify all multiple-zero germs. The global vanishing-cycle exclusion needs normality and control of singular-root, nonnormal-surface, and exceptional-fiber boundaries. See the [normal/reduced-divisor argument](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) and [nonnormal local models](../spectral/rank_strata_and_sextic_lifts.md#nonnormal-conductor-budget-and-local-escape-models).
 
 ## Geometric exceptional locus for actual pairs
 
