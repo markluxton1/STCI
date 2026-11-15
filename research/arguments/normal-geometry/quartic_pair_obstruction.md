@@ -653,7 +653,7 @@ The forced residual cycle has degree four, but the present argument does not pro
 
 ## 8. Review and frontier impact
 
-The independently checked conclusion is maximum three, forced residual degree four, and the singularity structure of the integral pencil at that maximum. The explicit example was checked; inherited exclusions were accepted, not retested. No unrestricted STCI conclusion follows.
+The maximum-three and integral-pencil singularity conclusions were checked, without retesting inherited exclusions. They do not yield an unrestricted STCI obstruction.
 
 ## 9. An independent route to the multiplicity-four bound
 
