@@ -971,24 +971,11 @@ equality boundary.
 
 ## 9. Continuation targets
 
-The useful next step is to analyze the full filtered deformation of the
-constant graded complete intersection on the equality boundary, or to
-bound the allowable global defect `Delta` using actual homogeneous
-generation. This is a structural theorem before any computation.
-
-For `(6,8)`, compare the global exact generator filtration
-
-    0 -> O(-42) -> O(-24) + O(-32) -> O(-14) -> 0
-
-suggested by a graded `(2,6)` model, with the actual sextic normal-image
-constraints and the global embedded filtered deformation. The exact
-sequence is a proposed next bridge, not established in this note.
-
-For larger degrees, retain the entire nonnegative budget rather than
-enumerating first symbols: every candidate generic Hilbert function
-must satisfy its exact arithmetic, and every special-point repair must
-pay the corresponding degree/torsion defect. There is no finite generic
-Hilbert-function classification claimed uniformly in the degrees.
+The equality boundary requires control of the **actual filtered deformation** or a bound on the global defect \(\Delta\) from homogeneous generation. For \((6,8)\), the graded \((2,6)\) model suggests
+\[
+0\to\mathcal O(-42)\to\mathcal O(-24)\oplus\mathcal O(-32)\to\mathcal O(-14)\to0,
+\]
+but this is a **proposed bridge**, not an established exact sequence for the actual global equation filtration. Larger-degree candidates retain the full nonnegative defect budget and special-point repair costs; no uniform finite classification of generic Hilbert functions is proved.
 
 ## 10. Provenance and standard inputs
 
