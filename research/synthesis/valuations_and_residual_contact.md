@@ -360,3 +360,16 @@ double-cover descriptions cannot be reduced unchanged. The characteristic-zero
 four-line counterexample to contact-equals-conductor remains a scoped control.
 The [positive-characteristic quartic-carrier construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier)
 shows why a recognizer of residual support is not universally positive.
+
+## Arithmetic collision-tree specialization
+
+The exact rational Newton-hull and valuation-budget identities for the
+characteristic-two residue pencil are retained in
+[Arithmetic root collision](arithmetic_root_collision.md), including the
+first break at \(\gamma=3h/2\), the residual discriminant
+\(B(\varepsilon)=-288-176\varepsilon-27\varepsilon^2\), the critical
+residue-cancellation shell, and the distinction between valuation
+budgets and actual algebraic-root calculations. The historical finite
+Python checker was retired after the formulas and limitations were
+preserved. Its checks did **not** certify algebraic 2-adic roots or
+residue-field cancellation strata.
