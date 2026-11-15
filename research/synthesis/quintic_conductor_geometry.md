@@ -294,7 +294,7 @@ Take rho=2/3 and kappa=0 in §6. The resulting parameters are
 
     (delta,a,B,G,J)=(1/2,1/9,1/3,-9/8,3/4).
 
-The [exact example certificate](../computations/quintic_conductor_vertex_example.py)
+The exact rational example in this section
 uses the accepted source sections and reviewed rational conductor
 builder. It finds center rank three, so §4 gives an actual finite
 birational normalization of an integral quintic. The conductor quadric
@@ -355,15 +355,7 @@ emptiness certificate. The singleton-vertex example retains its full
 projective boundary proof and exact fiber ideal; it constructs a real
 finite birational quintic projection while failing full inverse support.
 
-The unchanged exact programs are
-[cone identity](../computations/quintic_conductor_cone_identity.py),
-[rational conductor incidence](../computations/quintic_conductor_singular_incidence.py),
-[vertex example](../computations/quintic_conductor_vertex_example.py), and
-[uniform full-conductor contact](../computations/quintic_vertex_conductor_contact.py).
-The vertex example imports the rational conductor builder; the contact
-certificate imports the universal quadric builder. These are necessary
-code dependencies. Their frozen independent reviews and successful
-source executions are reused, with no execution in this transfer.
+The retained exact programs are the [cone identity](../computations/quintic_conductor_cone_identity.py) and [rational conductor incidence](../computations/quintic_conductor_singular_incidence.py). The vertex example and uniform contact certificates have been retired after their mathematical statements and exact parameters were preserved above; their historical implementations remain in Git history.
 
 The contact certificate on the full two-parameter family gives contact
 exactly two, rather than merely repeated vanishing of a first symbol.
