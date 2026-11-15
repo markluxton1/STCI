@@ -504,18 +504,7 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 ## Proof-dependency map: conditional exclusions and exceptional loci
 
-The [strict-surface continuation](#nonnormal-conductor-budget-and-local-escape-models) and [exceptional-locus audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) refine the original conditional (2,12;6,16;2) geometry. The [surface audit continuation](#2026-10-21-conditional-2-12-surface-audit-cont2) and [free-orbit sextic exclusion](#2026-10-21-cont2-free-orbit-global-sextic-exclusion) make more specific deductions under the retained assumptions.
-
-These depend on the [symbol and actual sextic realization tests](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-global-realization-incidence) and on the [node/conductor constraints](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface). The surface-bound arguments, exceptional-locus computations, and actual homogeneous lifting are distinct steps. A conditional exclusion on a specified orbit or singularity type does not eliminate all (2,12) pairs.
-
-Retain the original hypotheses, computational certificates, exceptional cases, and independent audits as the evidence for each narrow conclusion.
-
----
-
-
-Complete mathematical arguments and exploratory boundaries preserved. Conditional conclusions remain conditional; computational and geometric obstructions are not asserted beyond their original hypotheses.
-
----
+The [strict-surface argument](#nonnormal-conductor-budget-and-local-escape-models), [exceptional-locus proof](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), [conductor continuation](#2026-10-21-conditional-2-12-surface-audit-cont2), and [free-orbit exclusion](#2026-10-21-cont2-free-orbit-global-sextic-exclusion) impose distinct restrictions on **actual supported** \((2,12;6,16;2)\) pairs. They depend on the [symbol realization tests](#2026-10-20-conditional-2-12-global-realization-incidence) and [singular conductor interface](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface). A restriction on one root orbit or singularity stratum is not an exclusion of the whole \((2,12)\) locus. The explicit calculations and exceptional cases below remain authoritative.
 
 ## Nonnormal conductor budget and local escape models
 
@@ -1425,20 +1414,7 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 ## Proof-dependency map: symbol equations to actual sextic realization
 
-The [norm-symbol elimination](#2026-10-20-conditional-2-12-elimination) is an exact algebraic reduction in the conditional (2,12;6,16;2) setting. The [structured incidence](#2026-10-20-conditional-2-12-global-realization-incidence) combines root conditions with the [actual sextic symbol map](#2-the-exact-global-k-linear-symbol-map). Matching an [actual cubic jet](#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet) is a further condition on that incidence. See the [independent incidence audit](#2026-10-20-conditional-2-12-incidence-audit) for the scope of these tests and the [realization certificate](#8-what-a-realization-would-have-to-certify) for what an actual pair must supply.
-
-The [quadric-cycle norm](../carriers/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge) and [surface bound](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) give additional restrictions under the actual supported-pair hypotheses.
-
-The [singular gluing and conductor analysis](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-20-conditional-2-12-singular-continuation) checks whether the local branches can be matched; the [strict-surface continuation](#nonnormal-conductor-budget-and-local-escape-models) introduces additional geometric hypotheses. A solution to the eight symbol equations is not, by itself, a projective sextic with the desired residual support.
-
-Keep the explicit elimination, actual-lift polynomial test, and audit independently inspectable.
-
----
-
-
-Permanent mathematical dossier. The (2,12) setting and every other hypothesis remain conditional as in the original arguments; full calculations, exceptional cases and failures are retained.
-
----
+The [norm elimination](#2026-10-20-conditional-2-12-elimination), [structured incidence](#2026-10-20-conditional-2-12-global-realization-incidence), [global symbol map](#2-the-exact-global-k-linear-symbol-map), and [cubic-jet matching](#7-first-unresolved-global-lift-the-actual-sextic-cubic-jet) are successive **necessary** tests, not existence certificates. [The incidence audit](#2026-10-20-conditional-2-12-incidence-audit) and [realization criterion](#8-what-a-realization-would-have-to-certify) specify the missing global equations and sole-support check. The [quadric-cycle norm](../carriers/normalization_conductor_phase2_addendum.md#actual-quadric-cycle-norm-bridge) and [singular gluing](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-20-conditional-2-12-singular-continuation) add separate actual-pair constraints.
 
 ## 2026-10-20-conditional-2-12-elimination
 
@@ -1939,27 +1915,7 @@ emptiness certificate, nonemptiness certificate, or global realization.**
 
 ## 1. Scope and dependencies
 
-The field is algebraically closed of characteristic zero, the curve is
-`C0=[s^4:s^3t:st^3:t^4]`, and the conditional actual pair has degrees
-`6,16`, FULL generic coprime binary ordinary initial CI `(2,12)`, and
-ACTUAL saturated first relation `R=O(-16) -> Sym^2 E`, with
-`E=O(-7)^2`. Thus the first root is a basepoint-free form `f` of class
-`(2,2)`. All actual-CI necessity statements also require sole reduced
-support `C0`; residual intersections are outside this bridge.
-
-inputs are [R-0010](../../results/saturated_first_relation_normal_flatness.md),
-[R-0011](../../results/moving_nonreduced_spectral_root_obstruction.md),
-[R-0008](../../results/spectral_root_picard_criterion.md), and the literal
-universal obstruction model in
-[R-0007](../../results/quadratic_root_obstruction_model.md). Their inherited
-proof computations were not rerun. The singular finite bridge reviewed
-here is a **new argument**, not a silent extension of R-0006.
-
-The new source artifacts reviewed are
-[symbol-map generator](../../computations/conditional_2_12_symbol_map_2026_10_20.py),
-[symbol data](../../computations/conditional_2_12_symbol_map_2026_10_20.json),
-[singular-gluing proposal](singular_root_actual_pair_bridge.md),
-and [combined exporter](../../computations/conditional_2_12_structured_incidence_2026_10_20.py).
+The independent reconstruction assumes characteristic zero, \(C_0=[s^4:s^3t:st^3:t^4]\), an **actual supported** pair of degrees \((6,16)\), full generic coprime initial CI \((2,12)\), and saturated first relation \(\mathcal O(-16)\hookrightarrow\operatorname{Sym}^2\mathcal O(-7)^2\). The root is basepoint-free of class \((2,2)\). Inputs are [R-0010](../../results/saturated_first_relation_normal_flatness.md), [R-0011](../../results/moving_nonreduced_spectral_root_obstruction.md), [R-0008](../../results/spectral_root_picard_criterion.md), [R-0007](../../results/quadratic_root_obstruction_model.md), and the **separate** [singular finite bridge](singular_root_actual_pair_bridge.md). The [symbol generator](../../computations/conditional_2_12_symbol_map_2026_10_20.py), [exact data](../../computations/conditional_2_12_symbol_map_2026_10_20.json), and [incidence exporter](../../computations/conditional_2_12_structured_incidence_2026_10_20.py) are the computational sources. No claim about residual intersections follows.
 
 ## 2. Independent linear-algebra reconstruction
 
