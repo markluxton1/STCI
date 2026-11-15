@@ -2,7 +2,7 @@
 
 [Framework orientation](index.md) · [Original section addresses](weights_and_limits.md)
 
-## I. Torus geometry and normal coordinates
+**Standing hypotheses.** Throughout this focused development, let \(k\) be an algebraically closed field of **characteristic zero**, and fix the smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3_k\). Write \(\mathcal I=\mathcal I_C\) and \(E=\mathcal I/\mathcal I^2\). In particular, the transverse infinitesimal normal-direction matrix has determinant \(-4\ne0\), and the balanced conormal splitting \(E\cong\mathcal O_{\mathbf P^1}(-7)^{\oplus2}\) used below is characteristic-zero; neither assertion is made in characteristic two. Statements about other characteristics require their separately stated hypotheses.\n\n## I. Torus geometry and normal coordinates
 
 ### Intrinsic and transverse actions
 
