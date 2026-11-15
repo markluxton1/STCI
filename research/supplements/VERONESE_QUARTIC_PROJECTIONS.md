@@ -450,8 +450,9 @@ mathematical proofs, not consequences of a sampling computation.
 
 ## Characteristic and review scope
 
-The [regular-pencil and full-conductor-jet checker](../computations/verify_session_veronese_pencils.py)
-retains the exact normal-form, annihilator and arbitrary-power identities.
+The historical regular-pencil and full-conductor-jet checker tested the
+normal-form, annihilator and arbitrary-power identities; its script was
+retired after the mathematical arguments were preserved here.
 The singular-pencil companion checks its explicit matrix calculations.
 Their existing recorded executions are reused; no fresh run is claimed.
 
