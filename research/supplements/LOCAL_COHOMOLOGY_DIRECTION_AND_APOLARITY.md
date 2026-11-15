@@ -1302,7 +1302,7 @@ The boundary direction \(\theta=0\) first permits a degree-two divisor
 already excluded by the stronger contact theorem in
 `2026-10-05-localcoh-pure-direction-audit.md`.
 
-The exact companion `verify_localcoh_constant_direction_apolar.py` checks
+The retired historical checker `verify_localcoh_constant_direction_apolar.py` checked
 the ranks using nonzero minors and the exceptional axis kernels. In
 particular its degree-two mixed minor is \(-\theta^4/32\), so the proof
 does not confuse generic rank with an assertion at \(\theta=0\).

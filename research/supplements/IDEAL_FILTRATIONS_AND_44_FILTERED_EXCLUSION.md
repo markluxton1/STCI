@@ -504,7 +504,7 @@ The general identities, comparison direction, counterexamples, completeness dist
 
 See the [independent proof review](#2026-10-23-ideal-filtrations-independent-reviewmd) and the exact arithmetic programs linked below.
 
-Exact finite arithmetic is supplied by the [higher-generator counterexample script](../computations/verify_ideal_filtration_counterexamples_2026_10_23.py), [completeness counterexample script](../computations/verify_ideal_filtration_completeness_2026_10_23.py), and [quartic conormal/lifting identity script](../computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py). They check stated polynomial identities, finite algebra models, and transition formulas. They prove no global projective existence or nonexistence statement and do not replace the general arguments.
+Exact finite arithmetic is supplied by the historical higher-generator counterexample script (retired; available in Git history), [completeness counterexample script](../computations/verify_ideal_filtration_completeness_2026_10_23.py), and [quartic conormal/lifting identity script](../computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py). They check stated polynomial identities, finite algebra models, and transition formulas. They prove no global projective existence or nonexistence statement and do not replace the general arguments.
 
 The [generic count and DVR length argument](../arguments/filtered_equation_comparison.md#generic-count-and-length-over-a-dvr)
 continues the local comparison. The
