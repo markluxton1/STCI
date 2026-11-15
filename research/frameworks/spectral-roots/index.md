@@ -12,7 +12,9 @@ bridges: "#bridges"
 
 For a degree-two map \(\pi:\Sigma\to\mathbf P^1\) from a smooth genus-one curve, let \(A=\pi^*\mathcal O(1)\), let \(B\) be a degree-two line bundle, and put \(\eta=B\otimes A^{-1}\). Torsion of \(\eta\) controls the splitting of \(\pi_*B^n\), coefficient determinants, and graded root constructions. The [all-power pushforward theorem](../../arguments/spectral/spectral_pushforward_powers.md) and [determinant-scheme continuation](../../arguments/spectral/spectral_determinant_schemes.md) establish that spectral mechanism on their stated smooth-root loci. It is a mechanism for graded data; the fixed embedding's actual equation maps impose additional constraints.
 
-In particular, a spectral trivialization does not automatically yield an actual homogeneous map or a proper pair in \(\mathbf P^3\). The [global equation-jet account](../../arguments/equations/global_equation_jets.md) retains those source and lifting maps. The [global equation realization framework](../global-equation-realization/index.md) states the final support requirement; this entry isolates spectral input and where its reach stops.
+The [global equation-jet account](../../arguments/equations/global_equation_jets.md)
+records the additional source and lifting maps needed for homogeneous
+realization and properness.
 
 ## Available mathematics and controls
 
@@ -26,4 +28,8 @@ In particular, a spectral trivialization does not automatically yield an actual 
 
 The main gap is between Picard torsion/graded splitting and the image of the actual embedded equation operator. A bridge must pass from a root trivialization through the specified source quotient, match the required higher jets (including multiplier zeros and node gluing when present), and certify that the resulting equations have the intended full intersection. A determinant vanishing or a kernel vector is only the spectral input.
 
-Use [open root lifts](open_root_lifts.md) for the root-to-actual-equation interface. Compare with the [global equation-realization framework](../global-equation-realization/index.md), the [formal-normal framework](../formal-normal-geometry/index.md), and the [carrier-normalization framework](../carrier-normalization/index.md): local compatibility, normalized descent, and actual global sections are linked questions with distinct hypotheses.
+The [open root-lift problem](open_root_lifts.md) specifies the remaining
+source conditions. [Global equation realization](../global-equation-realization/index.md),
+[formal normal geometry](../formal-normal-geometry/index.md), and
+[carrier normalization](../carrier-normalization/index.md) impose distinct
+conditions on sections, local compatibility, and descent.
