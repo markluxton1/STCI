@@ -98,7 +98,7 @@ The exact local model X: X^2+Y^2(Y+Z^2)=0 has normalization k[w,z] via X=-w^3-wz
 
 More generally for c_f=(w-f\(z\)), h=ord\(f\) and r=ord(f^2+z^2), the source computes length(R intersect c_f)=min(h,2), with scheme containment exactly when h>=2. Choosing f=iz+z^k gives unbounded conductor contact r=k+1 but ramification intersection length one. The local Jacobian factorization J_X B=\(Y\) I_R yields first-normal vanishing order s=r+min(h,2). This blocks the unsupported inference from smooth image plus full inverse support to containment of nonreduced ramification. It is a local counterexample, **not** an STCI presentation or a global normalization classification.
 
-Source: [current proof](../supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd), with its exact symbolic verifier. These local distinctions should be preserved in future conductor/ramification arguments.
+Source: the historical [ramification counterexample proof](../supplements/OCT7_NORMAL_RAMIFICATION_AND_VERONESE.md#source-2026-10-07-session-ramification-scheme-counterexamplemd). Its symbolic checker was retired after the explicit model and scheme-theoretic distinctions were preserved. These local distinctions should be preserved in future conductor/ramification arguments.
 
 
 ## Entire cubic conductor schemes on smooth quartic scrolls
