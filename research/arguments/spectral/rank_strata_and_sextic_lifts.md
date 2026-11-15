@@ -2115,7 +2115,7 @@ and its explicit first missing global lift.
 
 ## 7. Final assembled-note review
 
-The assembled conditional \((2,12)\) incidence uses the verified 23-dimensional sextic source, eleven image equations, and the 22-row image minor of determinant \(48\). The Laurent exponent convention for the \(T_{12}\) calculation is \(n-m\) (equivalently \(j-\ell\) in the positive-index convention). The tangent test proves nonautomatic membership on \(K_1\) only; the cubic seed certificate does **not** exclude the full second incidence. Neither nonemptiness of that incidence nor an actual global pair is proved. The gcd/Bezout sole-support test is applicable **only after** global equations have been constructed. These are the boundaries of the verified structured reduction, not a global realization certificate.
+The conditional \((2,12)\) incidence has a 23-dimensional sextic source, eleven image equations, and a 22-row minor of determinant \(48\). The \(T_{12}\) Laurent exponent is \(n-m\) (equivalently \(j-\ell\)). The tangent test proves nonautomatic \(K_1\) membership only; the cubic seed does not exclude the full second incidence. Neither incidence nonemptiness nor an actual pair is proved. The gcd/Bezout sole-support test applies **after** construction of global equations.
 
 ### Retired source certificate: `research/computations/conditional_2_12_cubic_reduction_2026_10_21.json`
 
