@@ -1,0 +1,44 @@
+[
+  {
+    "prefix": "research/validation/",
+    "pattern": "**/*.txt",
+    "disposition": "retire",
+    "count_reported": 69,
+    "caveat": "Retain any input required by retained methods"
+  },
+  {
+    "prefix": "research/validation/",
+    "pattern": "**/*.txt.gz",
+    "disposition": "retire",
+    "count_reported": 2,
+    "caveat": "Input dependency exception"
+  },
+  {
+    "prefix": "research/computations/",
+    "pattern": "*.txt",
+    "disposition": "retire",
+    "count_reported": 42,
+    "caveat": "Input dependency exception"
+  },
+  {
+    "prefix": "research/computations/",
+    "pattern": "*.json",
+    "disposition": "retire",
+    "count_reported": 26,
+    "caveat": "Exclude 17 reported exceptions; require exact tree and dependency scan"
+  },
+  {
+    "prefix": "research/scratch/",
+    "pattern": "**/*.json",
+    "disposition": "retire",
+    "count_reported": 6,
+    "caveat": "Exclude session-mf6-e1-principal-contact-2026-10-08.json"
+  },
+  {
+    "prefix": "research/validation/",
+    "pattern": "**/*.json",
+    "disposition": "retire",
+    "count_reported": 2,
+    "caveat": "Exclude new-exact-support-incidence.json"
+  }
+]
