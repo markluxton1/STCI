@@ -217,3 +217,92 @@ connected fiber containing the contact vertical line.
 
 The proved conclusions are the ruled marking, \(D_8\) lattice, plane marking, optional \(F_3\) model, and proximity restrictions. The [free-chain argument](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#free-chain-proof-when-the-marked-prime-is-absent) excludes the absent-\(E_0\) case; the ambient-conductor proofs handle its remaining trisecants. Numerical class lists alone do **not** establish prime effectivity or normalization descent. Intersection calculations extend to other characteristics only when the same actual rational marked model exists; the lattice gives no positive-characteristic STCI conclusion.
 
+## 8. Free-chain proof when the marked prime is absent
+
+Assume that the horizontal prime \(B=e_0-e_i-e_j\) of plane degree zero
+is absent. In the plane marking below there is one double center \(p_0\)
+and eight simple centers. For the strict exceptional curve
+\(D_i=e_i-\sum_{j\succ i}e_j\), nefness gives
+\(L\cdot D_i=m_i-\sum_{j\succ i}m_j\ge0\), where \(j\succ i\)
+denotes a proximate center, \(m_0=2\) and \(m_i=1\) for \(i>0\).
+Each simple center has at most one proximate child. The double center
+must be proper and can have at most one proximate child, since two would
+produce \(B\). A satellite would require two proximate children at the
+older of its two exceptional curves. The clusters are therefore free
+chains. A simple cluster with \(N\) centers has null prefix
+\(A_{N-1}\), ending at the last center of positive \(L\)-degree.
+The chain rooted at \(p_0\) cannot meet a horizontal proper line, which
+avoids \(p_0\).
+
+Smooth embedded descent permits at most one \(h\)-positive prime per
+connected exceptional graph. The \(h\)-positive exceptional primes
+are proper lines. A horizontal one passes through four simple centers
+and a vertical one passes through \(p_0\) and two simple centers.
+Once a free chain leaves a line it cannot return, since the next center
+lies at a different point of the previous exceptional divisor.
+
+At a singular point on the smooth downstairs curve, choose a local
+function on \(S\) restricting to a uniformizer on that curve. The
+exceptional part \(Y\) of its full pullback has positive integral
+coefficients. The proper part has nonnegative intersection with every
+exceptional prime, so \(Y\) is anti-nef. The unique transverse contact
+has coefficient one, since the pullback has order one on the strict
+curve. When a contacted \((-3)\)-curve \(H\) meets the \(s\)-th vertex
+of an \(A_{s+t-1}\) chain, write its chain coefficients as \(y_j\),
+with \(y_0=y_{s+t}=0\). The differences
+\(d_j=y_j-y_{j-1}\) are nonincreasing and have a drop of at least one
+at \(s\). Since they are integral, either \(d_s\ge1\) or
+\(d_{s+1}\le-1\), so \(y_s\ge\min(s,t)\). At \(H\), the sum of
+neighbor coefficients must be at most three.
+
+For a single horizontal line \(H\), a chain of \(s\) centers on it
+followed by \(t>0\) centers off it contributes \(st/(s+t)\) to the
+Schur complement at \(H\); for \(t=0\) the terminal curve has
+positive \(L\)-degree and the cluster contributes no arm. The unique
+horizontal line has coefficient one in \(Z\). Its equation
+\(Z\cdot H=-1\) and the homogeneous chain equations require the
+contributions to sum to two. For the attached clusters
+\(A=\sum s\le4\) and \(T=\sum t\le4\).
+Cauchy gives \(\sum st/(s+t)\le AT/(A+T)\le2\), with equality only
+when \(A=T=4\) and each \(s=t\). The integer chain test then requires
+a sum of neighboring coefficients at least four, contradicting three.
+
+Two disjoint horizontal proper lines on the resolution share exactly one
+simple plane center and together use seven of the eight simple centers.
+The shared cluster follows at most one line, say \(H_1\). It cannot leave
+that line, since the resulting null chain would connect both
+\(h\)-positive lines in one exceptional graph. Hence its null prefix is an
+endpoint \(A_k\) arm on \(H_2\), with \(k\le3\). The one center
+outside the lines can create at most one additional endpoint \(A_s\) arm,
+\(s\le3\), with the sharper restriction \(s\le3-k\) if the arm is on
+\(H_1\). It cannot attach in the shared cluster. The two contributions
+are at most \(3/4\) each. The sum of the two horizontal coefficients
+\(1/(3-d_i)\), where \(d_i\) is the sum of arms on that line, is at most
+\(8/9\) when the arms are split and at most one when they are on the
+same line. The required \(K_M\cdot Z=1\) forces the latter bound to
+be attained, with \(k=s=3\).
+
+The equality configuration uses two clusters. The shared root follows
+\(H_1\) for three more centers. A second root on \(H_2\) follows that
+line for two more centers and takes the only center off both lines.
+A vertical exceptional line through \(p_0\) cannot contain both
+roots, whose joining line is \(H_2\), and cannot contain later centers
+at either root because its direction differs from that of the first
+child. There is no vertical exceptional proper line. The two horizontal
+lines therefore give \(h\cdot Z=1\), contrary to \(h\cdot Z=3\).
+
+Two preliminary bounds fail. Four consecutive on-line centers followed
+by four off-line centers give an \(A_7\) arm attached at its middle,
+not a four-vertex bound. Its rational coefficient at \(H\) can be
+one, but the integral anti-nef cycle requires a neighboring coefficient
+of at least four. In the two-line case a shared root followed by three
+centers on \(H_1\) gives an \(A_3\) arm on \(H_2\), allowing coefficient
+\(4/9\) there and \(1/3\) on the isolated line, so the proposed individual
+bound \(2/5\) fails. A second \(A_3\) arm can arise from the remaining
+off-line center; the proposed total bound \(19/21\) misses this case.
+
+Independent review accepted both line cases under the characteristic-zero
+marked section and smooth descent hypotheses with \(B\) absent. The
+integer recurrences and intersection inequalities alone remain available
+when those geometric inputs are established in another characteristic.
+[Original free-chain proof and negative controls](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md).
