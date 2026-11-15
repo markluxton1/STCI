@@ -538,38 +538,9 @@ calculation instead supplies a rigorously separate compatibility filter.
 
 ## Evidence and computation boundary
 
-The frozen source's `global_jet_bound_review` independently reconstructed the
-filtered-Čech indexing, quartic cutoff, exact minimum-sextic-cutoff deductions
-and octic application. `generalize_quadric_cutoff` checked the split-quadric
-family bound and balanced control; `intrinsic_filtration_review` checked the
-intrinsic deficit, G3 section-extension input and general flag recursion.
-The recursion uses no unnecessary H1 assumption: only the actual image J
-counts unless surjectivity is established, and nonzero H1 does not imply failure.
+Independent reviews checked the filtered Čech indexing, quartic and exact sextic cutoffs, octic application, split-quadric family bound, intrinsic deficit, \(G_3\) section extension, and general flag recursion. The recursion counts the **actual image** \(J\) unless surjectivity is proved; nonzero \(H^1\) alone is not failure.
 
-The separate `sextic_cech_review` checked both chart frames, coverage, degree-six
-transition, Laurent gap, correction signs and all lift freedoms, then ran the
-[retained calculator](../../computations/sextic_global_jet_cech.py) over Q with
-SymPy1.14.0. Its reviewed SHA256 is
-`2f2b84549cb7dbc8cd8a6c402a2795730fd08986dc2fc51a50c3445ee4ccf00d`.
-It confirmed dimensions33,49,34,23,23; quadratic ranks33,33,33,22,22;
-connecting ranks0,0,15,11,0; rank15 on pure cubics; and zero order-five
-obstruction on their remaining q³ direction. A separately constructed
-two-chart span of28 actual sextic generators had rank23, quadratic rank22,
-and combined rank23 with the Čech basis. Thus source-subspace equality was
-checked beyond matching dimensions. That diagnostic is review evidence;
-the retained exhaustive recursion is the reproducible support.
-
-The calculator is copied unchanged from the frozen source and was not rerun
-for consolidation. It uses rational arithmetic and SymPy; no finite-field
-extrapolation, full root-incidence elimination or actual pair construction
-is claimed. Reproduction is `python3 research/computations/sextic_global_jet_cech.py`.
-The source review treats its numerical ranks as a separate implementation
-and executed-evidence dependency. Existing full finite-length and fixed-symbol
-lifting proofs remain in [finite normal jets](../residuals/finite_normal_jets.md) and
-[global lifting interfaces](global_lifting_interfaces.md).
-
-
----
+The [retained rational calculator](../../computations/sextic_global_jet_cech.py) was run in the original review with SymPy 1.14.0 (SHA256 2f2b84549cb7dbc8cd8a6c402a2795730fd08986dc2fc51a50c3445ee4ccf00d). It checked both chart frames, Laurent gaps, signs, and freedoms, giving dimensions \(33,49,34,23,23\), quadratic ranks \(33,33,33,22,22\), connecting ranks \(0,0,15,11,0\), rank 15 on pure cubics, and zero order-five obstruction on the surviving \(q^3\) direction. An **independent 28-generator two-chart span** had rank 23, quadratic rank 22, and combined rank 23 with the Čech basis, verifying actual source-subspace equality, not merely dimensions. The calculator was **not rerun for consolidation**. These checks imply no finite-field extrapolation, root-incidence elimination, or actual pair. The uniform proofs are [finite normal jets](../residuals/finite_normal_jets.md) and [global lifting interfaces](global_lifting_interfaces.md).
 
 ## Consolidated order-one carrier and defect bounds
 
