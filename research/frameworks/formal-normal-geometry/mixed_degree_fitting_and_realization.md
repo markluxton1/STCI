@@ -39,21 +39,3 @@ criterion under their respective hypotheses. See the
 
 These alternatives need not be mutually exclusive. A proof eliminating one does not eliminate the others. In particular, do not infer properness or sole support from a vanishing graded obstruction.
 
-
-## What the socle budget does and does not exclude
-
-For an actual supported complete intersection, [R-0032](../../results/full_conormal_socle_budget.md) records the corrected identity
-
-    n(lambda*d-L)=lambda*(n*d-2*M)+2*Delta,
-
-where n is generic length, d the Loewy index, M the weighted layer-rank sum, L the canonical degree parameter, lambda a valid conormal quotient degree bound, and Delta the corrected degree/torsion defect. The intermediate layers matter: computing only the first normal form and final socle omits terms in M and Delta. The conclusion lambda*d>=L is necessary under the theorem's hypotheses. Equality gives graded self-duality; a constant algebra needs additional balanced-rational assumptions.
-
-The [constant-first-relation obstruction R-0033](../../results/constant_first_relation_lifting.md) requires an actual embedded thickening, a constant first form f, and next initial relation space exactly fV. For a factor direction m of multiplicity nonzero in the field, the quadratic obstruction h_m must vanish. For the fixed characteristic-zero quartic, the inherited nonvanishing of the direction classes excludes the corresponding zero-defect constant-graded-CI equality models. It does not exclude a moving f, an extra next-order relation, or a positive-defect model.
-
-
-## A bounded next experiment, not another case catalogue
-
-The most informative single test is to choose one candidate whose generic transverse algebra is explicit and carry it across the exceptional points of C. Record in one place the full initial ideal, the first-relation saturation divisor, the local comparison module Delta, the torsion-corrected conormal layers, the next extension class, and the image of global homogeneous sections. A failed candidate should be classified by the *first failed interface*: generic algebra, saturation, punctual comparison, embedded lifting, global source, or residual support. State whether the failure survives coordinate changes or is specific to the chosen family.
-
-A useful negative outcome is a mechanism that excludes an entire invariant class; a failed isolated pair without that explanation is not a general obstruction. The characteristic-two split conormal example and the characteristic-zero balanced extension provide a controlled comparison, but arithmetic specialization by itself does not transfer sole reduced support.
-
