@@ -10,17 +10,7 @@ A further distinction concerns the **actual equation module**: cancellation can 
 
 ## 3.5 The actual complete-intersection bridge
 
-[STCI-R-0006](../../results/actual_ci_smooth_root_bridge.md) provides a precise, restrictive passage **from an actual complete intersection back to a controlled root thickening**. Its hypotheses include:
-
-1. An actual complete intersection with reduced support \(C\).
-2. A saturated degree-\(r\) first relation, generated **everywhere** by the degree-\(r\) symbols of the two actual equations; both have generic order \(r\).
-3. Full generic initial ideal \((f_r,g_s)\), with coprime generators and \(s>r\), gap \(\ell=s-r\ge2\).
-4. A **smooth full Cartier root**, not merely a smooth reduction.
-
-Then the intersection of the strict transforms is locally a primitive \(\ell\)-fold structure \((h,u^\ell)\) on the full root and yields compatible finite embedded Cartier lifts through orders below \(\ell\). Combining this bridge with STCI-R-0005 gives a **conditional finite-gap obstruction**, not an explicit universal degree bound.
-
-Notice the indexing subtlety: the two original equations in the bridge have order \(r\), while the independent second generator of the **full initial ideal** has degree \(s\). One must not confuse this \(s\) with the original order of the second equation in Chapter 2.
-
+[R-0006](../../results/actual_ci_smooth_root_bridge.md) starts from an **actual** sole-support complete intersection whose two displayed equations both have order \(r\), whose degree-\(r\) relation is saturated and everywhere jointly generated, and whose **full** generic initial ideal is \((f_r,g_s)\) with coprime generators, \(s>r\), gap \(\ell=s-r\ge2\), and a smooth full Cartier root. The strict-transform intersection is then locally a primitive \(\ell\)-fold structure \((h,u^\ell)\), yielding compatible finite embedded Cartier lifts through orders below \(\ell\). Combined with [R-0005](../../results/smooth_root_formal_obstruction.md), this gives a conditional finite-gap obstruction, not a universal degree bound. Here \(s\) is the order of the second generator of the **full initial ideal**, not necessarily the original order of the second displayed equation.
 
 ## 3.6 Moving pure powers and degeneration
 
