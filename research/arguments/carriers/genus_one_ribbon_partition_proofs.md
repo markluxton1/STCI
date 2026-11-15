@@ -378,45 +378,13 @@ checked 29 exact conditions. The universal ideal equalities below provide a
 different certificate from the owner's selected augmented minors. The
 conductor obstruction below also uses a different conic section.
 
-## 1. Precisely what is assumed, and what is audited here
+## 1. Hypotheses and exact audit scope
 
-Work over an algebraically closed field `k` of characteristic zero. The
-upstream inputs are:
-
-1. `S` is a normal integral `(2,2)` complete intersection in `P4` containing
-   the actual rational normal quartic
-   `c=[U^4:U^3V:U^2V^2:UV^3:V^4]`.
-2. Projection deletes precisely `Y2`, its center lies outside `S`, and its
-   image is the fixed integral quartic carrier of `C0`. The whole inverse
-   image of `C0` must have support `c` if a mate exists.
-3. The Cartier double `2c` has quadratic net
-   `M(d) eta=0`, where
-
-       M(d)=[[d0,d1,d2],[d1,d2+d3,d4],[d2,d4,d5]],
-       eta1^2-eta0 eta2 != 0.
-
-   The six actual quadrics are `E0=Y0Y2-Y1^2`, `E1=Y0Y3-Y1Y2`,
-   `E2=Y0Y4-Y1Y3`, `E3=Y1Y3-Y2^2`, `E4=Y1Y4-Y2Y3`, and
-   `E5=Y2Y4-Y3^2`.
-4. A normalized surface pencil has `d3(Q1)=1`, `d3(Q2)=0`. Its actual
-   contact polynomial is
-
-       L_C=d0 U^4-d1 U^3V-d4 UV^3+d5 V^4 != 0.
-
-   The necessary whole-support condition is `rad(L_C) | D_Q1`, where
-   `D_Q1=d0 U^4-d1 U^3V-2U^2V^2-d4 UV^3+d5 V^4`.
-5. For the surviving `[2,2]` pencil, the entire conductor theorem applies:
-   `Q1=-z^2+Az+R1`, `Q2=Lz+R`, downstairs conductor `(L,R)`, and upstairs
-   finite flat algebra `O_Gamma[z]/(z^2-Az-R1)` with involution `z -> A-z`.
-   Every mate has degree `2n` and its pullback is a scalar multiple of the
-   `n`th power of the third quadric whose divisor is `2c`.
-
-The implication of these inputs from all genus-one carriers, the separate
-`[2,1,1]` proof, and the preceding exclusion of squarefree `L_C` are outside
-this audit. They must be accepted separately before concluding a complete
-genus-one theorem. Within the three named partitions, the inputs suffice,
-and the following coverage is complete. In particular, no stronger
-multiplicity divisibility of `D_Q1` by `L_C` is assumed.
+Work over algebraically closed characteristic-zero \(k\). The upstream reduction supplies a normal integral \((2,2)\) surface \(S\subset\mathbf P^4\) containing \(c=[U^4:U^3V:U^2V^2:UV^3:V^4]\), projected by **deleting \(Y_2\)** from a center outside \(S\). A mate requires the entire inverse image of \(C_0\) to have support \(c\). The actual net has
+\[
+M(d)=\begin{pmatrix}d_0&d_1&d_2\\d_1&d_2+d_3&d_4\\d_2&d_4&d_5\end{pmatrix},\quad M(d)\eta=0,\quad \eta_1^2-\eta_0\eta_2\ne0.
+\]
+With \(d_3(Q_1)=1,d_3(Q_2)=0\), its contact polynomial is \(L_C=d_0U^4-d_1U^3V-d_4UV^3+d_5V^4\ne0\), and the necessary support condition is \(\operatorname{rad}(L_C)\mid D_{Q_1}\), where \(D_{Q_1}=L_C-2U^2V^2\). For the surviving \([2,2]\) pencil the entire conductor is \((L,R)\), upstairs algebra \(\mathcal O_\Gamma[z]/(z^2-Az-R_1)\), and involution \(z\mapsto A-z\); descent requires a positive power of the third quadric. The six quadrics \(E_0,\ldots,E_5\) are fixed in the preceding proof. This audit covers \([4],[3,1],[2,2]\), **not** the separate \([2,1,1]\), squarefree, or upstream projection reductions. No divisibility of \(D_{Q_1}\) by the entire \(L_C\) is assumed.
 
 ## 2. Center-preserving orbit coverage
 
