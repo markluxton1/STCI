@@ -496,30 +496,9 @@ Gorenstein duality supplies a degree-zero resultant for the second quotient rela
 
 The theorem does not cover a nonsaturated first relation (its torsion disrupts early-layer identification), a non-CI generic initial ideal (no established graded-Gorenstein symmetry), or ambient lifting and gluing of reduced singular roots. The exceptional cycle class does not determine directional higher contact. The degree-eight carrier examples have extra inverse points and do not address full-singleton-support projections. **No common singular point of arbitrary defining surfaces is assumed.**
 
-### E. Recommended continuation and evidence checks
+### E. Scope of continuation
 
-First study the torsion of the earliest nonsaturated relation and how
-its length changes the degree-zero resultant calculation. A useful
-target is an exact effective-defect formula replacing the zero degree
-in A1; one must keep the torsion in every comparison map. In parallel,
-investigate codimension-two non-CI generic initial ideals with the
-smallest number of additional generators, using their actual
-annihilator flags rather than assuming graded Gorenstein symmetry.
-
-For the saturated generic-CI class, direct effort toward reduced
-singular roots and the equal-slope rational-component pairs identified
-in A2. Additional nonreduced spectral scans are unnecessary in that
-class. The chosen-symbol slope theorem gives a separate way to select
-surviving normalized-degree regions without conflating the two root
-objects.
-
-All principal results have full proof text and separate review evidence; there is no uncompleted elimination computation underlying the reported claims. Mathematical validity rests on those proofs and independent reconstructions, including the separate adversarial review of A1.
-
-The package is recorded at
-[the research commit](https://github.com/markluxton1/STCI/tree/6be25be178b1e34e1209172f92dee6816e7aa87b).
-The exact closing commit is identified in the investigation message.
-Standard external inputs, with direct primary links, are identified in
-the respective source and audit notes.
+The surviving mathematical gaps are the earliest nonsaturated-relation defect, non-CI annihilator flags, actual lifting of reduced singular full roots, and distribution of exceptional contact multiplicities. A1–A4 are proved in their linked mathematical sources and reviewed there; the bounded computations are not a substitute for those proofs. No completed elimination or unrestricted STCI classification is asserted.
 
 ---
 
