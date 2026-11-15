@@ -61,13 +61,7 @@ The [complete repeated-partition proof](../../arguments/carriers/genus_one_ribbo
 
 ### Endpoint [4] derivative partition: direct line-singularity argument
 
-Under the genus-one ribbon-net and fixed-projection hypotheses of Section 2, take the second pencil quadric with vanishing coefficient of \(E_3\). Its derivative on the rational normal quartic is
-\[
-L_C=c_0U^4-c_1U^3V-c_4UV^3+c_5V^4.
-\]
-If its zero divisor is \([4]\), writing \(L_C=\lambda(\alpha U+\beta V)^4\) forces \(6\alpha^2\beta^2=0\). In characteristic zero the quadruple root is therefore an endpoint. The coordinate reversal preserves the omitted-middle projection center, so normalize \(L_C=U^4\). Then \(Q_2=E_0+hE_2\), whose net matrix has determinant \(-h^3\); a nonzero kernel direction forces \(h=0\). Thus \(Q_2=E_0\), and the net direction \(\eta=(a,b,c)\) satisfies \(a=0\), \(b\ne0\).
-
-Full singleton support forces the other derivative to vanish at that endpoint, giving \(c_5=0\). The net equations then imply \(c_4=0\), \(c_2=-c_3\), \(c_1=cc_3/b\). Modulo \(Q_2\), the other pencil quadric is a combination of \(E_1\) and \(E_3-E_2\). Both quadrics vanish on the line \(Y_0=Y_1=Y_2=0\), and \(\nabla E_0=0\) there. Their intersection is singular along that line, contradicting normality of the required surface. This excludes the entire \([4]\) partition under the stated hypotheses, independently of the other partitions. The original standalone proof is incorporated here; the complete partition classification remains supported by the repeated-partition audit.
+In characteristic zero the derivative quartic in this branch lacks a \(U^2V^2\) term. A quadruple root therefore forces \(6\alpha^2\beta^2=0\), hence an endpoint root. Center-preserving reversal reduces to \(Q_2=E_0+hE_2\); the net determinant \(-h^3\) forces \(h=0\). The other pencil quadric is then, modulo \(E_0\), a combination of \(E_1\) and \(E_3-E_2\), giving a common singular line \(Y_0=Y_1=Y_2=0\). This excludes the entire \([4]\) partition under the normal genus-one model assumptions. The complete coefficient derivation and boundary coverage are in [the repeated-partition proof](../../arguments/carriers/genus_one_ribbon_partition_proofs.md#2-partition-4-both-endpoints-and-every-direction).
 
 ### Explicit trace–norm certificate for the surviving displayed [2,2] pencil
 
