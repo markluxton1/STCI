@@ -12,7 +12,12 @@ limit track the full saturated ideal, Hilbert polynomial, endpoint and
 embedded data, and generators. Test generation on the moving ideal and
 justify coverage of any exclusion.
 
-Use the [contribution workflow](research/MODEL.md#contribution-workflow).
-Put findings with their mathematical owners and revisit each affected
-Framework or Investigation. Give parallel agents nonoverlapping scopes and
-retire them after integration. Run the relevant [checks](research/MODEL.md#commands-and-integration).
+Use the [research workflow](research/MODEL.md#research-roles-and-delegation)
+and [contribution workflow](research/MODEL.md#contribution-workflow).
+Choose a bounded question with explicit inputs and stopping condition; delegate
+only when useful, with narrow scopes and minimal inherited context. Investigators
+report evidence, limitations and implications to their parent. Independently
+review consequential claims before accepting them; integrate reviewed mathematics
+into its owner and check plausible impacts on parallel Frameworks, not just declared
+consumers. Retire temporary agents and investigation notes after integration.
+Run relevant [checks](research/MODEL.md#commands-and-integration).
