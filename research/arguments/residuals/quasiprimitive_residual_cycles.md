@@ -190,19 +190,7 @@ Consolidated mathematical source material; conditional statements and independen
 
 ## Independent audit: the pure constant directions in regular degree (4,6)
 
-Date: 2026-10-05. Status: **PASS**, with a small local-intersection
-clarification recorded below. Scope is exactly characteristic zero,
-the smooth monomial rational quartic
-\(C_0=[s^4:s^3t:st^3:t^4]\), and the regular-ratio branch. This audit
-does not extend the result to arbitrary ratios, mixed constant directions,
-degree-one horizontal directions, or all rational quartics.
-
-The audited proof is
-`research/notes/2026-10-05-mixed46-regular.md`, and its exact arithmetic
-companion is `research/computations/verify_mixed46_regular.py`.
-The conclusion is that, after globally subtracting a quadratic multiple of
-the quartic from the sextic, a hypothetical set-theoretic pair cannot have
-quartic first normal form \(hV\) or \(hU\) in the stated balanced frame.
+The independent review covers **characteristic zero**, the fixed monomial quartic \(C_0=[s^4:s^3t:st^3:t^4]\), and the **regular-ratio branch** only. It checked the original mixed (4,6) regular proof and exact arithmetic verifier, including a local-intersection clarification. After subtracting a global quadratic multiple of the quartic from the sextic, a hypothetical STCI pair cannot have first quartic normal form \(hV\) or \(hU\) in the balanced frame. This does not exclude arbitrary ratios, mixed constant directions, degree-one horizontal directions, or all rational quartics.
 
 ### What was checked independently
 
