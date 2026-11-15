@@ -539,17 +539,7 @@ been proved to have e_Y nonzero here, so no new STCI exclusion follows.
 
 ### 8. Literature and provenance boundary
 
-The perfect-pairing characterization of Gorenstein multiple structures
-belongs to the established theory. The inspected primary source
-Manolache, [Gorenstein Multiple Structures on Smooth Algebraic Varieties](https://arxiv.org/pdf/0706.2204),
-section 2 and remark 2, treats canonical filtrations and their duality,
-and identifies the quasiprimitive specialization. That paper supports
-the classical background; the fixed-lower equation-module extension and
-actual-source determinant arguments used here are proved in this note.
-No claim is made that these reformulations are new in the literature.
-The source and its four pages were inspected on October 27; no broader
-literature-exhaustion claim is made. Accepted source-level filtration
-inputs and result scopes are retained rather than re-certified.
+The perfect-pairing characterization of Gorenstein multiple structures and canonical-filtration duality are classical; see Manolache, [*Gorenstein Multiple Structures on Smooth Algebraic Varieties*](https://arxiv.org/pdf/0706.2204), §2 and Remark 2, including quasiprimitive specialization. The fixed-lower equation-module extension and actual-source determinant arguments are proved here. No novelty or exhaustive literature claim is made; inherited filtration inputs retain their own scope.
 
 ---
 
