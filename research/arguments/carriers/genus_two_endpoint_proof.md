@@ -460,22 +460,6 @@ Full original mathematical text follows. Preserve source-level evidence status, 
 
 Sections 1–4 independently verify the [three-blowup fiber exclusion](genus_two_bisection_three_center_proof.md), conditional on the second-pencil and smooth embedded-lift reductions. Section 5 is a **proposed global route**, not a proved exclusion. No new CAS verification is asserted.
 
-# Genus-two bisection local fibers: independent audit and remaining structural route
-
-Date: 2026-10-10 local time; written at 2026-10-11T01:17 UTC.
-Auditor: `bisection_local_fibers`. Status of Sections 1--4:
-**PROVED HERE / independent audit passed**, conditional on the explicitly
-accepted second-pencil and smooth-embedded-lift reductions. Section 5 is a
-separate structural proposal requiring its own audit. The review covers the
-stated bisection case.
-
-Audited source:
-[three-blowup fiber exclusion](genus_two_bisection_three_center_proof.md),
-SHA256 `f7177554d64e14a30d169daaedee7ff2ebcc51ed8b3d8435ed590369d9f24103`.
-The present auditor independently checked every coefficient, center
-restriction, and final contact contradiction. This is a mathematical
-audit; no CAS execution or new symbolic-check count is claimed.
-
 ## 1. Precise input and verdict
 
 In characteristic zero, the [second-pencil hypotheses](#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd) give a smooth weak degree-four del Pezzo \(V\), connected rational pencils \(f,c\), \(-K_V=f+c\), \(f\cdot c=2\), and \(M\to V\) consisting of four blowups disjoint from the smooth embedded \(c\), including infinitely near centers. For a hypothetical \(\lambda=0\) mate, \(Z_t=(k_t/2)F_t-R_t\) is an **actual rational-divisor equality** with full fiber multiplicities. Its positive support consists of vertical exceptional \((-2)\)-curves; a contacted graph has one transverse \(c\)-contact, with positive integral anti-nef uniformizer cycle having coefficient one there. The separate three-blowup theorem excludes every \(k_t=3\) fiber; the [even-count exclusion](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count) then leaves \([1,1,1,1]\). This does **not** use conductor power descent or prove a mate exclusion.
@@ -640,16 +624,7 @@ separate full auditor and is not asserted by this local-fiber record.
 
 # Genus-two bisection double cover and fiber weights
 
-The independently checked second-pencil and fiber-weight reductions below are conditional on the accepted genus-two mate reduction. They do not exclude the entire bisection stratum. Fiber multiplicities and surviving partitions remain explicit.
-
-# Independent audit: the genus-two bisection double cover and its fiber weights
-
-Date: 2026-10-10. Auditor: `bisection_second_pencil_audit`, with a
-separate adversarial check by `fiber_weight_parity_audit` of Sections
-5--7. Status: **PROVED HERE, conditional on the accepted genus-two
-mate reduction**. This is a structural reduction; it does not exclude
-the entire bisection stratum or resolve the genus-two mate problem.
-No frontier file was edited by this auditor.
+The independently checked second-pencil and fiber-weight reductions below are conditional on the accepted genus-two mate reduction. They do not exclude the entire bisection stratum.
 
 ## 1. Exact hypotheses and notation
 
@@ -883,15 +858,7 @@ A reduced nodal fiber \(A+B\) on \(V\), with \((-1)\)-components, can be blown u
 
 # Exceptional prime classes in the lambda-one plane marking
 
-The bounded classification below is conditional; it neither proves the existence of any listed quartic normalization nor excludes the lambda-one stratum.
-
-# Bounded audit: exceptional prime classes in the lambda-one plane marking
-
-Date: 2026-10-10. Auditor: degree-one-anticanonical counteraudit agent.
-Status: **PROVED HERE / accepted bounded structural classification**.
-No frontier file or computation script was edited. This note
-does not exclude the lambda-one stratum or assert that any listed
-configuration is realized by an actual quartic normalization or mate.
+The bounded classification below is conditional; it neither realizes any listed quartic normalization nor excludes the lambda-one stratum.
 
 ## 1. Hypotheses and total-transform convention
 
