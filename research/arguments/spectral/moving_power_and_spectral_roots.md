@@ -436,12 +436,7 @@ global equations, or another condition beyond this principal-relation tower.
 
 ### 7. Audit verdict
 
-**Pass**, with the constant determinant factor made explicit and with the
-truncation understood as `J_N=(p,I^N)` for `N=r+g`. The claimed uniform
-obstruction bundle, vanishing inequality, induction in the actual ambient
-space, exact initial relation sheaves, and Cohen--Macaulay conclusion are
-proved above. The stronger global carrier/STCI conclusions are not part of
-the theorem and do not follow from it.
+The uniform obstruction bundle, vanishing inequality, ambient induction, initial relation sheaves, and Cohen–Macaulay conclusion hold with the constant determinant factor explicit and truncation \(J_N=(p,I^N)\), \(N=r+g\). This does **not** imply a global carrier or STCI theorem.
 
 ---
 
