@@ -680,46 +680,9 @@ double with its nonzero global normal map; the proof never establishes
 that. The quartic-carrier construction instead uses a conductor descent
 power divisible by the characteristic.
 
-## 9. Review state
+## 9. Verification boundaries
 
-The case proofs and exact finite calculations reuse accepted independent
-reviews of the same mathematical inputs. Independent consolidation review
-reconstructed the new ruled criterion, common correction and compression,
-normal proof, actual ambient lift, global ribbon and Hom obstruction, and
-the complete nonendpoint/endpoint transfers; the replacement and precise
-duplicate-source removals were accepted. It corrected the Jaffe citation
-to Theorem B/11.11, specified the least common denominator in compression,
-retained the independent matching/path-cofactor proof, and made the
-characteristic-three trisecant boundary explicit.
-
-The four unchanged normal graph computations were not rerun. Two repaired
-primitive/incidence checkers received independent code/mathematical review
-before targeted execution and both passed: the \(a=-1/2\) boundary proof
-now states its \(x\ne0\) localization, and the quartic-incidence proof
-correctly tests polynomial membership over \(\mathbf Q\) while allowing
-rational constants. Neither generic rank controls nor these bounded
-checks establish a larger classification. The final successful
-genus-one repeated-partition Macaulay2 proof source was restored from its
-exact replay snapshot with identical SHA-256 bytes; no fresh execution
-of that inherited certificate is claimed. No
-unrestricted STCI conclusion is made by the consolidation.
-
-The strengthened ruled-surface criterion has an independently reviewed characteristic-free proof in its [own mathematical home](ruled_surface_degree_criterion.md). The characteristic-zero carrier conclusion is unchanged.
-
-### Normal-route preservation review
-
-The cleanup reviewer `quartic_review` accepted retiring the historical
-normal-quartic question page. They reconstructed the passage and correction
-budgets, the integral compression equality cases, the reduced-cycle
-pullback defect, and the Type D passage bound from the pulled maximal
-ideal. They replayed the primary reduced and nonreduced graph checks and the
-separate weighted simple-elliptic check. The graph checks concern the
-necessary numerical rows in §3. The separate
-[two-arm Green-function argument](../normal-geometry/saturation_rees_and_carrier_cases.md#q-two-arm-coefficient-one-tails-exact-comparison)
-still requires its terminal diagonal bound. This preservation decision
-uses the inherited classification and low-degree inputs and concerns the
-normal integral quartic route for the fixed \(C_0\) in characteristic zero.
-
+The independent normal-graph and weighted simple-elliptic checks support the necessary numerical cases in §3; they are not an unrestricted classification. The repaired \(a=-1/2\) checker requires \(x\ne0\), and the quartic-incidence check tests polynomial membership over \(\mathbf Q\) while permitting rational constants. The repeated-partition Macaulay2 certificate was recovered byte-identically, **not rerun**. The normal route uses the passage and correction budgets, integral compression, reduced-cycle pullback defect, and Type D maximal-ideal bound. The separate [two-arm Green-function argument](../normal-geometry/saturation_rees_and_carrier_cases.md#q-two-arm-coefficient-one-tails-exact-comparison) retains its terminal diagonal condition. The [ruled criterion](ruled_surface_degree_criterion.md) is characteristic-free; the carrier conclusion here remains characteristic zero.
 
 ## Consolidated historical supplement: `research/supplements/QUARTIC_PROJECTION_MODULI.md`
 
