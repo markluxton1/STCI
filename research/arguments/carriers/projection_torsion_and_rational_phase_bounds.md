@@ -781,33 +781,9 @@ degree bound is unnecessary because nonexistence is certified.
 
 ### 8. Present boundary of effectivity and scope
 
-For the actual three fixed-C0 families, rationality removes an
-arithmetic height obstruction: once a rational constructible image
-presentation (1) is available, every step above terminates through
-finite exact algebraic operations and has an explicit order bound.
-The presentation not yet available in this research record includes
-the full nilpotent equations, its elimination degrees and supports,
-and the boundary equations. The earlier finite-type existence theorem
-does not supply numerical values of `D,d,S` merely from the contact
-budgets `140,765`. Consequently no numerical uniform mate-degree
-bound for the three families is asserted here.
+For the three rational fixed-\(C_0\) families, a rational constructible-image presentation (1) would make the finite exact procedure effective with an explicit order bound. The **missing inputs** are the full nilpotent equations, elimination degrees/supports, and boundary equations. Finite-type existence alone supplies no values for \(D,d,S\) from contact budgets \(140,765\), hence no numerical uniform mate-degree bound. Mann's rational primorial estimate cannot be transferred to a general number field without field dependence: \(X-\zeta_N\) has two terms and degree one over \(\mathbf Q(\zeta_N)\) but a root of order \(N\). Entire constructible images for these three families can remain over \(\mathbf Q\).
 
-The rationality condition is substantive for this particular formula.
-For coefficients in a general number field, Mann's rational primorial
-bound cannot be reused without a field-dependent replacement. For
-instance `X-zeta_N` has two terms and degree one over `Q(zeta_N)`, but
-its point has order `N`. This note imports no quantitative number-field
-replacement. That issue does not obstruct the three rational fixed-C0
-families, because their entire constructible phase images, rather than
-individually chosen geometric components, can be kept over `Q`.
-
-The theorem treats all torsion orders at once, but does not compute a
-surviving phase or exclude the actual families. The unrestricted
-fixed-C0 and universal integral-curve STCI questions remain open.
-No Mann partition enumeration or boundary-containment enumeration has
-been executed in this note; the finite procedure is proved here.
-
-
+No Mann partition or boundary-containment enumeration has been executed. The procedure neither computes a surviving phase nor excludes the families; unrestricted fixed-\(C_0\) and integral-curve STCI remain open.
 
 ## From explicit projection input to a decision procedure
 
