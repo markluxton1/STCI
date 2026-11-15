@@ -713,19 +713,7 @@ globally; a list of local contact types alone does not do so.
 
 ## Characteristic reach and limitation
 
-The actual-cycle pushforward formula and criterion Supp(W) subset E use
-regular local blowup intersection and purity, and work in arbitrary
-characteristic. The displayed V5 model and finite normalization of Sigma are
-asserted here in the inherited characteristic-zero scope. The first-blowup
-inequality 5delta>=K and its slope refinement need only globally generated
-I_C(3) and the balanced normal bundle, so that same derivation works in
-characteristic different from two; it does not require the characteristic-zero
-V5 contraction. In characteristic two the exceptional ruled surface comes
-from O(8)+O(6), so the product/slope calculation and its constants cannot be
-transferred unchanged. The [quartic-carrier STCI in every positive
-characteristic](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier)
-is compatible with the necessary odd-characteristic inequality; it is not
-an exclusion theorem.
+The actual-cycle pushforward and exceptional-support criterion use regular-local blowup intersection and purity in any characteristic. The \(V_5\) model and finite normalization of \(\Sigma\) retain their **characteristic-zero** scope. The first-blowup inequality \(5\delta\ge K\) and slope refinement use global generation of \(I_C(3)\) and balanced normal bundle, so extend to characteristic \(\ne2\) without the \(V_5\) contraction. In characteristic two \(N_C=\mathcal O(8)\oplus\mathcal O(6)\); the product/slope constants do not carry over. [Positive-characteristic quartic-carrier STCI](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) is compatible with this necessary inequality.
 
 ## The normalized blowup of the full complete intersection
 
