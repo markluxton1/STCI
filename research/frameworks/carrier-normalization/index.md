@@ -154,3 +154,14 @@ for exact external hypotheses and source boundaries.
 - [Trisecant carrier ideals and discriminant boundary](quartic_carrier_trisecant_discriminant.md)
 
 These are distinct proof mechanisms, not interchangeable exclusions. The [original technical section addresses](quartic_proof_interfaces.md) remain available for older citations; consult the focused developments for their exact hypotheses and full arguments.
+
+
+### Normalization and conductor topics
+
+- [Fixed carriers, Cartier models, and admissible projections](fixed_carrier_and_cartier_projection.md)
+- [Projection pairings and conductor descent failures](projection_pairings_and_conductor_failures.md)
+- [Cubic and conic conductor schemes](cubic_and_conic_conductor_schemes.md)
+- [Quintic carrier support and A4 conductor contact](quintic_carriers_and_a4_contact.md)
+- [Cartier indices, normal socles, and sextic applications](cartier_indices_and_sextic_applications.md)
+
+Projection admissibility, full inverse support, and conductor-unit descent are separate tests. The [original normalization section addresses](normalization_conductor_projection.md) remain navigable.
