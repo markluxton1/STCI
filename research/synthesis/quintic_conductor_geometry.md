@@ -374,3 +374,49 @@ and exact nonzero Taylor factors have their own rational denominators.
 Reducing one polynomial identity does not transfer source normality,
 full-support arguments or the resulting carrier exclusion to all primes.
 This integration has independent mathematical preservation and scope review; its conclusions retain the review scopes stated here.
+
+## Historical L2 elimination: exact conditional formulas
+
+The three retired Macaulay2 elimination scripts `generalization_quintic_l2_{drops,cover,boundaries}.m2` used the inherited primitive octic from the 2026-10-12 nonendpoint diagonal-norm calculation. Their conclusions are **conditional on that primitive polynomial and on the upstream support theorem**, and the historical computations are not new independent geometric proofs. In the following, `q` is the script's affine contact parameter (not the fixed quadric), `d=delta`, `k=kappa`, and all formulas are in characteristic zero. The substitutions preceding the coefficient test were
+
+```
+G=-(6B+d^2-3d)q-(3a-3B+2d)q^2+2aq^3,
+J=(-G(1+3q)-(6B+5d^2-3d)q
+   -(3a+3B+d-d^2)q^2+(a+B)q^3)/2,
+B=k-aq, p=q+t.
+```
+
+Writing the resulting primitive octic as `F(t)=sum f_i t^i`, the tests impose `f_2=f_3=f_4=f_5=0`. The L2 quadratic in `k` was
+
+```
+L2=3q(q-1)(2d(q-1)+q(q-2))k^2
+ -6dq(q-1)(d^2+d(3q-4)+q(q-2))k
+ +d^5 q+3d^4(q-1)(3q-2)
+ +6d^3 q(q-1)(2q-3)+3d^2 q^2(q-1)(q-2).
+```
+
+Put `P=q^2-6q+6`, `D=2d(q-1)+q(q-2)`, `E=d^2+d(3q-4)+q(q-2)`, and
+
+```
+L1=3k(q-1)^2 P+dq(3-2q)P-3d^2(q-1)^2(q-3).
+```
+
+The coefficient-drop computation establishes, modulo `L2`, a proportionality of the coefficient of `a` in `f_2` to `L1 * (partial L2/partial k)`; its scalar was computed exactly in the historical script but is not reproduced as a separately evaluated formula. This is a **coefficient identity**, not permission to divide on the `L1=0` or discriminant loci.
+
+On the regular quadratic cover the scripts parameterized
+
+```
+d=3(q-2)P/[q(q-1)(3-m^2)],
+k=d(E+m*d^2/3)/D,
+a=-(f_2 at a=0)/(coefficient of a in f_2).
+```
+
+They substituted these expressions into `f_3,f_4,f_5`, took numerator ideals over `QQ(q,m)`, and saturated by the explicit excluded-factor product
+
+```
+q(q-1)(q-2)P*m*(m^2-3)*(q*m+3q-6)*numerator(L1).
+```
+
+The discriminant-zero subcase away from `q=2` was parameterized by `m=0`, `d=(q-2)P/[q(q-1)]`, `k=dE/D`. The leading-coefficient drop `D=0` instead gives `d=-q(q-2)/[2(q-1)]`, after which `L2` is linear in `k`; solving `f_2` for `a`, the historical elimination found `gcd(numerator(f_3),numerator(f_4))=q^4`, excluding the stipulated `q!=0` domain. At `q=2`, the remaining cover has `m^2=3`, `k=d+(3+m)d^2/6`; a Bézout certificate for `f_2,...,f_5` together with the inverted `d(d+2m/3)` support factor gave the unit ideal. These last two exclusions are **recorded exact computer-algebra conclusions under the inherited premises**, not assertions of an unrestricted quintic-carrier exclusion.
+
+The scripts' stored intermediate factor files and Bézout coefficient vector are historical verification artifacts, not retained mathematical inputs. Their exact computational algorithm, equations, exceptional strata, and conclusion scopes are preserved here.
