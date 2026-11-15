@@ -792,19 +792,7 @@ the standard surface-classification route.
 
 ### 6. Evidence and review boundaries
 
-This is a written independent mathematical reconstruction, including
-ampleness, reducible fiber signs, n=1 and n=2 cases, finite-map degree,
-normality/isomorphism, all Picard divisibilities and the complete fixed-C0
-list. There was no symbolic execution and no inherited verifier rerun.
-The live primary check was restricted to the new minimal-degree interface.
-Parallel agreement is not used as a proof: the argument above supplies the
-reviewed implications.
-
-The all-quartic theorem and the normal-bundle/conductor results retain
-their earlier audit provenance. No novelty or universal resolution is
-claimed. The mathematical advance accepted here is a finite
-normalization-type classification for an entire explicitly stated rational
-support lane across all carrier and mate degrees.
-
+The written reconstruction covers ampleness, reducible-fiber signs, \(n=1,2\), finite-map degree, normality/isomorphism, Picard divisibilities, and the full fixed-\(C_0\) list. No symbolic execution or inherited verifier replay was performed; the primary-source check addressed the minimal-degree interface. The argument above supplies the proof, not parallel agreement. The result is a finite normalization-type classification **within its stated rational-support lane**, not a universal STCI theorem.
 
 ---
+
