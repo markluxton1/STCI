@@ -1076,30 +1076,7 @@ the local ideal `(h,u^(s-r))`, with every other bridge hypothesis retained.
 
 ## Independent audit of smooth-root formal nonexistence
 
-Date: 2026-10-15. Author: `new_logarithmic_review`.
-
-Status: **PASS: the smooth movement-two nonexistence theorem holds for
-every balanced smooth rational space curve of degree e>=4 and every
-r>=2, with the stated embedded-Cartier interpretation.** The generalized
-numerical criterion and its new quadratic consequence also pass, with
-the rational-base and numerical hypotheses retained. Combined with the
-accepted finite tower, this gives an existential uniform finite empty
-stage for each fixed r on the entire smooth-root open, and the precise
-bounded-gap consequence below. It does not exclude all actual complete
-intersections in that open.
-
-The target is the live
-[formal-nonexistence note](#2026-10-15-generalization-smooth-root-formal-nonexistence),
-including the clarification of connectedness, the whole-curve gluing
-argument, the direct plane-adjunction argument, and equation (3a) added
-during review. This audit inspected the primary algebraicity and
-high-self-intersection sources. Accepted root-functor, finite-tower,
-actual-CI bridge, and prior CAS/class computations are premises and were
-not replayed. The existing
-[focused branch/ruled review](#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd)
-is an input; the additional work here checks the algebraicity hypotheses,
-global branch selection, multiplicity/genus passage, all-r numerical
-scope, and the finite-cutoff conclusion.
+Independent review accepted smooth movement-two formal nonexistence for balanced smooth rational space curves of degree \(e\ge4\) and \(r\ge2\), with the **embedded-Cartier** interpretation and stated rational-base/numerical hypotheses. The generalized numerical and quadratic consequences, plus the accepted finite tower, give a uniform finite empty stage for each fixed \(r\) on the smooth-root open, **not** an exclusion of all actual CIs there. The review checked algebraicity, global branch selection, genus/multiplicity, all-\(r\) scope, and finite cutoff; accepted root functors, CI bridge, and earlier computations were premises, not rerun. See [the formal-nonexistence proof](#2026-10-15-generalization-smooth-root-formal-nonexistence) and [ruled-model review](#source-2026-10-15-formal-branch-ruled-model-degree-bound-reviewmd).
 
 ### 1. Exact formal object and the whole smooth root
 
