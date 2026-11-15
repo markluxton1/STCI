@@ -649,30 +649,7 @@ The projection center and its binary-form avatar are distinct in small character
 
 ## 1. Literature checked and the boundary of the comparison
 
-Two primary research sources were inspected, including their relevant text:
-
-1. Alessandro Bernardi, *Normal bundle of rational curves and Waring
-   decomposition*, Journal of Algebra 400 (2014), 123–141,
-   [author preprint, Section 2.1 and Remark 2.7](https://arxiv.org/pdf/1203.4955#page=3),
-   [Proposition 2.8](https://arxiv.org/pdf/1203.4955#page=5).
-   The relevant material is the contraction/apolarity convention, the
-   catalecticant rank bound on secant varieties, and the criterion for a
-   point projection to preserve a smooth curve isomorphically. The paper's
-   normal-bundle results are not imported into this investigation.
-2. A. V. Isaev, *Duality for binary quartics and ternary cubics arising from
-   their Milnor algebras*, Rev. Roumaine Math. Pures Appl. 60 (2015),
-   471–480,
-   [Section 3, printed pp. 476–477](https://imar.ro/journals/Revue_Mathematique/pdfs/2015/4/5.pdf#page=6).
-   The relevant material is the strictly semistable orbit classification,
-   the invariant formulas (3.3)–(3.5), and the quotient description. Its
-   associated-form duality is not identified with our osculating involution.
-
-These references establish that the surrounding constructions belong to
-classical apolarity and binary-quartic invariant theory. We make no novelty
-or literature-priority claim for the specialized observations proved here.
-The checked text of Isaev is stated over the complex numbers; the elementary
-root-orbit arguments and invariant formulas used below work over every
-algebraically closed field of characteristic zero.
+The classical inputs are [Bernardi, *Normal bundle of rational curves and Waring decomposition*, J. Algebra 400 (2014), §2.1, Remark 2.7 and Proposition 2.8](https://arxiv.org/pdf/1203.4955#page=3), for apolarity, catalecticant secant rank, and smooth projection-center criteria; and [Isaev, *Duality for binary quartics and ternary cubics arising from their Milnor algebras*, Rev. Roumaine Math. Pures Appl. 60 (2015), §3](https://imar.ro/journals/Revue_Mathematique/pdfs/2015/4/5.pdf#page=6), for the strictly semistable orbit quotient and invariants (3.3)–(3.5). Neither Bernardi's normal-bundle results nor Isaev's associated-form duality is being imported as an osculating-involution theorem. Isaev works over \(\mathbf C\); the elementary root-orbit arguments below apply over algebraically closed characteristic-zero fields. No priority claim is made for these classical constructions.
 
 ## 2. Smooth projection centers and their invariant quotient
 
