@@ -127,3 +127,15 @@ what a represented family can establish. The same approach can organize a
 if the moving ideal is tested at that threshold. Explicit
 [residual constructions](../residual-construction/index.md) explain how
 generation or cycle support can change without providing supported limits.
+
+
+### Focused mathematical developments
+
+- [Torus actions, endpoint frames, and transport](torus_actions_and_endpoint_frames.md)
+- [Weight components and normal filtrations](weight_symbols_and_normal_filtrations.md)
+- [Extreme weights and saturated Hilbert limits](extreme_weights_and_hilbert_limits.md)
+- [Generic transverse algebras and endpoint contact](generic_algebras_and_endpoint_contact.md)
+- [Global postulation and residual support](global_postulation_and_residual_support.md)
+- [Sextic filtration and source comparisons](sextic_filtration_and_source_comparisons.md)
+
+The original [section-address compatibility page](weights_and_limits.md) retains old headings for existing references. The developments distinguish individual equation symbols from the saturated full initial ideal, and generic normal algebra from endpoint extension and global support.
