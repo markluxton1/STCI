@@ -632,12 +632,7 @@ Identities (7)–(9) and constraints (13)–(18) give an effective resultant div
 
 ## Independent audit: first-relation defects and the effective resultant budget
 
-Date: 2026-10-19.
-Reviewer: `saturation_defects/defect_formula_audit`.
-Status: **PASS within the exact hypotheses. Review scope is stated below.**
-
-Proposal audited: [first-relation defect investigation](#2026-10-19-first-relation-defect-investigation).
-No accepted proof, inherited computation, or result record was modified or rerun.
+Independent review accepted the [first-relation defect investigation](#2026-10-19-first-relation-defect-investigation) under its explicit hypotheses. Previously established proofs, computations, and Result records were not rerun or changed.
 
 ### 1. Exact scope and authority
 
