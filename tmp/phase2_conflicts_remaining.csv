@@ -1,0 +1,23 @@
+path,decisions,governing,source_reports
+research/computations/ci_cycle_line_degeneration_2026_10_25.py,consolidate-and-retire | retire,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/derive_normal_quintic_ade_e1_2026_10_13.py,consolidate-and-retire | retain,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/derive_session_localcoh_e1_d4_principal_extension_2026_10_08.py,consolidate-and-retire | retain,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/derive_session_rnc_ribbon_net_2026_10_09.py,consolidate-and-retire | retire,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/endpoint4_actual_2026_10_25.py,retain | consolidate-and-retire,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/general_localcoh_degree15_polynomial_scaling_design_2026_10_14.py,consolidate-and-retire | retire,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/generate_session_localcoh_q13_module_2026_10_07.py,retain | retire,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/localcoh-symbol-top.py,retire | retain,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/nodal_cubic_quintic_lattice.py,consolidate-and-retire | retire,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/normal_carrier_index_reduction_2026_10_14.py,retire | consolidate-and-retire,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/octic_first_root_source.py,consolidate-and-retire | retain,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/order_three_four_parameter_slice.py,retire | retain,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/order_three_sextic_slice.py,retire | retain,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/projection_palindromic_picard.py,retire | consolidate-and-retire,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/quadratic_root_torsion_two_rank_strata.sing,consolidate-and-retire | retain,retain,Pasted text(20261115-022942).txt; reconciliation-user-message
+research/computations/quintic_toric_boundary_centers.py,consolidate-and-retire | retain,retain,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt; reconciliation-user-message
+research/computations/quintic_toric_exception_audit.py,consolidate-and-retire | retire,consolidate-and-retire,Pasted text(20261115-022942).txt; reconciliation-user-message
+research/computations/session-localcoh-origin-generic-dual.py,retire | consolidate-and-retire,consolidate-and-retire,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt; reconciliation-user-message
+research/computations/session_uniform_e2_hankel.py,retire | retain,needs-review,Pasted text(20261115-021455).txt; Pasted text(20261115-022942).txt
+research/computations/stci_search_quadric_endpoint_2026_10_28.m2,retire | consolidate-and-retire,needs-review,Pasted text(20261115-022942).txt
+research/supplements/GENUS_TWO_WEIGHTED_NORMALIZATION.md,retain | consolidate-and-retire,retain,Pasted text(20261115-022942).txt; reconciliation-user-message
+research/supplements/PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md,consolidate-and-retire | retain,consolidate-and-retire,Pasted text(20261115-022942).txt; reconciliation-user-message
