@@ -757,7 +757,7 @@ not existence claims for their embedded higher lifts.
 
 ### 8. Scope and independent review
 
-The normalized budget (2) holds for normal mate-bearing \(C_0\) carriers. The symbolic-triple obstruction requires the constant-direction \(\ell=7\) branch; the scalar bound also covers \(\ell\le6\) by the stronger prior index inequality. Nonconstant directions, larger pole divisors, index-two terms, and positive higher-index defects remain open. Independent checks covered relation-module quotients, coefficient-six arithmetic, and primitive Cartier multiples of lengths two and three; the proofs are given here.
+The normalized budget (2) concerns normal mate-bearing \(C_0\) carriers. The symbolic-triple obstruction requires constant direction \(\ell=7\); for \(\ell\le6\) the earlier index inequality gives the stronger scalar bound. Nonconstant directions, larger pole divisors, index-two terms, and positive higher-index defects remain open. Relation-module quotients, coefficient-six arithmetic, and primitive Cartier multiples of lengths two and three were independently checked; proofs appear above.
 
 ---
 
