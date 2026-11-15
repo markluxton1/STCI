@@ -894,10 +894,7 @@ universal projective-curve STCI questions remain open.
 
 ### Preservation review
 
-Independent comparison verified the complete unchanged mathematical body against its original mixed-source block and checked the explicit scope and live local proof dependencies. This certifies preservation through relocation; in particular it does not change a proposed statement into an independently certified theorem or supply a new computation.
-
-Historical source for this relocated section. [Source at the reconstruction baseline](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/EFFECTIVE_PROJECTION_PHASE_DECISION.md).
-
+Independent comparison verified preservation of the relocated mathematical body and its proof dependencies, **not** independent certification of proposed statements or new computations. [Original source at reconstruction baseline](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/EFFECTIVE_PROJECTION_PHASE_DECISION.md).
 
 <a id="2026-10-15-generalization-nef-formal-branch-arbitrary-base"></a>
 <a id="2026-10-15-generalization-nef-formal-branch-arbitrary-base-independent-audit"></a>
