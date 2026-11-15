@@ -215,7 +215,7 @@ connected fiber containing the contact vertical line.
 
 ## 7. Scope
 
-The proved conclusions are the ruled marking, \(D_8\) lattice, plane marking, optional \(F_3\) model, and proximity restrictions. The [free-chain argument](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#free-chain-proof-when-the-marked-prime-is-absent) excludes the absent-\(E_0\) case; the ambient-conductor proofs handle its remaining trisecants. Numerical class lists alone do **not** establish prime effectivity or normalization descent. Intersection calculations extend to other characteristics only when the same actual rational marked model exists; the lattice gives no positive-characteristic STCI conclusion.
+The proved conclusions are the ruled marking, \(D_8\) lattice, plane marking, optional \(F_3\) model, and proximity restrictions. The [free-chain argument](#8-free-chain-proof-when-the-marked-prime-is-absent) excludes the absent-\(E_0\) case; the ambient-conductor proofs handle its remaining trisecants. Numerical class lists alone do **not** establish prime effectivity or normalization descent. Intersection calculations extend to other characteristics only when the same actual rational marked model exists; the lattice gives no positive-characteristic STCI conclusion.
 
 ## 8. Free-chain proof when the marked prime is absent
 
