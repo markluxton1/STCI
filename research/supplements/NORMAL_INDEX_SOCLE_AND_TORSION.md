@@ -4,7 +4,7 @@
 
 The [general index scope](#2026-10-14-generalization-normal-index-general-scope) derives inequalities that may be applied before a second defining surface is chosen; the [socle theorem](#2026-10-14-generalization-normal-index-socle-theorem) then imposes additional local structure under its exact assumptions. The independent audit distinguishes scalar inequalities from stronger equality-case conclusions and records characteristic restrictions.
 
-[Symbolic carrier torsion](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-torsion) provides Cartier-index and divisor-class information, while [normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) concerns propagation of a filtered complete-intersection structure. Neither a favorable scalar budget nor a formal normal carrier supplies a global second equation automatically. Conversely, the presence of a mate introduces additional numerical constraints that should not be silently assumed in the one-carrier arguments.
+[Symbolic carrier torsion](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-normal-carrier-torsion) provides Cartier-index and divisor-class information, while [normal flatness](NORMAL_FLATNESS_AND_FILTERED_CI.md#2026-10-19-filtered-generic-ci-normal-flatness) concerns propagation of a filtered complete-intersection structure. Neither a favorable scalar budget nor a formal normal carrier supplies a global second equation automatically. Conversely, the presence of a mate introduces additional numerical constraints that should not be silently assumed in the one-carrier arguments.
 
 Preserve the equality-case, characteristic, and pointwise-index qualifications in the original audits.
 
@@ -25,7 +25,7 @@ Status: **PROVED NEW STRUCTURAL THEOREMS; independently reviewed in
 The accepted local power-socle theorem in
 [the root theorem](#2026-10-14-generalization-normal-index-socle-theorem)
 and its
-[filtered compatibility audit](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-index12-filtered-compatibility)
+[filtered compatibility audit](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-index12-filtered-compatibility)
 are premises. Their proofs and the inherited computations were not
 repeated. The present note removes the choice of mate from the local
 budget, extends the comparison before any mate exists, and obtains
@@ -250,7 +250,7 @@ direction.
 
 In characteristic zero the sharp threshold is stronger still. The
 accepted [rational-ample local torsion detection
-theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-torsion) gives the
+theorem](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-normal-carrier-torsion) gives the
 exact minimal mate degree on a normal carrier. All singular indices
 are e-1, so R=e-1. For a=e-1, the primitive numerical pair is
 (mu,v)=(e-1,e), and the minimal mate degree is e; for a=e it is
@@ -377,9 +377,9 @@ accepted C0 computations.
 
 Date: 2026-10-14. Status: **PROVED, WITH A SEPARATE INDEPENDENT NEW-PROOF
 AUDIT**. This is the current theorem statement and integration record.
-The [full independent proof](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-index12-filtered-compatibility)
+The [full independent proof](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-index12-filtered-compatibility)
 reconstructs every new local step. The
-[earlier ordinary-curvilinear note](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-curvilinear-torsion-and-index12)
+[earlier ordinary-curvilinear note](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-curvilinear-torsion-and-index12)
 records the route to this theorem. Previously accepted socle duality,
 normal-carrier torsion/index arithmetic, C0 normal splitting, low-degree
 carrier exclusions and P-010 were used as premises and were not rerun.
@@ -563,7 +563,7 @@ a degree-by-degree verification or a global exhaustion theorem.
 Date: 2026-10-14. Author: `normal_general_threshold_audit`.
 Status: **PROVED NEW CONSEQUENCES, WITH THE SCOPE BELOW.** This review
 uses the accepted [local power-socle and ordinary-layer
-theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-index12-filtered-compatibility)
+theorem](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-index12-filtered-compatibility)
 as a premise. It does not rerun that proof, any accepted curve
 obstruction, or any CAS computation. The new work checked here is the
 degree-independent inequality, its integer and equality consequences,
@@ -864,7 +864,7 @@ equal to e-1, and D_(e-1),P=0 at every such point. The singular set
 is nonempty, so its actual global Cartier index is R=e-1.
 
 Use the accepted
-[rational-ample torsion detection theorem](NORMAL_CARRIER_SYMBOLIC_TORSION.md#2026-10-14-generalization-normal-carrier-torsion)
+[rational-ample torsion detection theorem](../synthesis/normalization_indices_and_power_descent.md#2026-10-14-generalization-normal-carrier-torsion)
 without reauditing its proof. Its hypotheses hold: the support is
 smooth rational, the surface is normal, and the hypothetical mate
 makes a positive multiple of C an ample Cartier divisor. For
@@ -922,7 +922,7 @@ Date: 2026-10-14. Owner: `global_structure`. Status: **NEW WRITTEN
 PROOF; independent review requested**. The accepted normal bundle of
 fixed C0 and accepted carrier exclusions are premises, with no reruns.
 This note studies new restrictions on the three Cartier-lift models
-from the [accepted classification](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit).
+from the [accepted classification](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-cartier-lift-independent-audit).
 The full socle line is the previously reviewed duality interface in the
 [conormal-socle budget audit](SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-generalization-socle-independent-auditmd);
 the new ingredient here is the actual first-layer identification from
@@ -1191,7 +1191,7 @@ acceptance remains separate**. This is mathematical review of a new
 written proof. No accepted repository statement or verifier was rerun.
 
 The reviewed source is
-[the symbolic-ribbon criterion](OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-ribbon-numerical-criterionmd).
+[the symbolic-ribbon criterion](../synthesis/normal_filtration_boundary_obstructions.md#source-2026-10-13-generalization-ribbon-numerical-criterionmd).
 I independently reconstructed its sheaf arguments, multiplication maps,
 Euler identity and all displayed numerical specializations. The theorem
 is sound under its stated normality, smooth curve, actual Cartier

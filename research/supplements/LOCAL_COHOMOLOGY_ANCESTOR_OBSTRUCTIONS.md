@@ -349,7 +349,7 @@ ancestors.  Other degree-four rank-one pairs and all higher-degree pairs remain
 untreated.  This is not a non-quasi-cyclicity theorem.
 
 
-The exact [all-stage coefficient checker](../computations/verify_localcoh_degree4_allstage_certificate.py) preserves the sparse support calculations; [the coprimality checker](../computations/verify_localcoh_degree4_counterexample.py) supports §2's polynomial identities. The written coefficient cancellations, transition identities and cofinality argument establish the all-stage quantifier, rather than extrapolation from finitely many successful stages. Broader ruling-ratio exclusions and fixed finite-stage reductions have their distinct proofs in [direction images and apolarity](LOCAL_COHOMOLOGY_DIRECTION_AND_APOLARITY.md).
+The exact [all-stage coefficient checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_localcoh_degree4_allstage_certificate.py) preserves the sparse support calculations; [the coprimality checker](https://github.com/markluxton1/STCI/blob/a8d62dc4777a7db3736d3d82c0524db50f3a3ef5/research/computations/verify_localcoh_degree4_counterexample.py) supports §2's polynomial identities. The written coefficient cancellations, transition identities and cofinality argument establish the all-stage quantifier, rather than extrapolation from finitely many successful stages. Broader ruling-ratio exclusions and fixed finite-stage reductions have their distinct proofs in [direction images and apolarity](../synthesis/contact_duality_and_global_descent.md#local-cohomology-direction-spaces-and-apolarity).
 
 
 ## Endpoint multiplier controls and the finite primary model

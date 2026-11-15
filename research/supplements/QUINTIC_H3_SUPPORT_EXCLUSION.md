@@ -2,7 +2,7 @@
 
 Work over an algebraically closed characteristic-zero field in the **admissible nonendpoint sectional-genus-one quintic A4 normalization model**, with its actual center avoidance, finite birational projection, delta≠0 and complete homogeneous gcd-three classification. Every projection in this specified h=3 lane is excluded in every positive mate degree, including zero-conormal-cubic and proportional boundary charts. This is the source-accepted scoped theorem, not a statement about all quintic carriers or an unrestricted STCI result.
 
-The proof combines the independent geometric audit's complete zero/lambda-one/main support analysis with the subsequently completed original-six-generator certificate. An earlier unfinished 3+2 label is superseded by that literal identity, not by a saturated unit-ideal printout. The source arithmetic was not rerun during consolidation. [Nonendpoint conormal and full conductor geometry](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md) and the [complete homogeneous gcd cover](NONENDPOINT_CUBIC_PAIR_COMPLETION.md) remain upstream.
+The proof combines the independent geometric audit's complete zero/lambda-one/main support analysis with the subsequently completed original-six-generator certificate. An earlier unfinished 3+2 label is superseded by that literal identity, not by a saturated unit-ideal printout. The source arithmetic was not rerun during consolidation. [Nonendpoint conormal and full conductor geometry](NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md) and the [complete homogeneous gcd cover](../synthesis/quintic_conductor_geometry.md#nonendpoint-residual-cubic-pairs-complete-contact-and-coefficient-proof) remain upstream.
 
 ## 1. Premises and the geometric implication actually being audited
 
@@ -67,7 +67,7 @@ coordinate identities. It uses restricted AST parsing and exact
 `fractions.Fraction` arithmetic; it neither imports nor executes the
 owner checker. Evidence is
 [the literal arithmetic report](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic-report.json),
-[source](../validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic.py)
+[source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-14-quintic-independent-audit/h3-literal-arithmetic.py)
 and the report records the exact input hashes and original-generator products checked.
 
 **Audit conclusion: PROVED within the inherited model.** Both charts have
@@ -173,7 +173,7 @@ original-generator identity is
     sum_i W_i R_i=(V h3 c5)^2.
 
 This excludes H3|S5 on the precise declared chart. The exact witness is
-[saved](../validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt),
+[saved](https://github.com/markluxton1/STCI/blob/c8ca6a69de4c077502e13e25bd4c2a3443b9f9bc/research/validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt),
 and the owner source asserts the literal matrix product before saving it.
 The original extraction omitted c5 and failed its bounded witness
 assertion. The repaired chart retains c5 and is the one used here.
@@ -200,7 +200,7 @@ is exactly zero against the original `(V h3 c5)^2` target. The R_i contain
 these are descriptive sizes, not additional theorem counts. It binds the
 actual captured c5 and the exponent-two file. Evidence is the
 [main literal report](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic-report.json),
-[independent source](../validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic.py)
+[independent source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-14-quintic-independent-audit/main-h3-literal-arithmetic.py)
 with exact input hashes and the zero residual.
 
 **Audit conclusion for these alternatives: their geometric implications
@@ -246,7 +246,7 @@ The second root is uniquely the double root of the residual quadratic;
 all six equations. Coalescence into a fifth root is also retained.
 
 The completed source
-[support32 witness](../computations/generalization_quintic_h3_support32_witness.m2)
+[support32 witness](https://github.com/markluxton1/STCI/blob/3c7f41168ed8a0e793540d37276f2088400dca18/research/computations/generalization_quintic_h3_support32_witness.m2)
 loads those **original six generators**, finds exponent two, constructs
 the column W, and asserts the exact identity
 
@@ -349,12 +349,12 @@ were retired in Phase 3A; the previously cited
 `generalization_quintic_h3_multiplicity_witness.m2` and
 `generalization_quintic_h3_support32_witness.m2` are absent from the
 current tree. The retained
-[H-divides-S computational source](../computations/generalization_quintic_h3_divisibility_certificate.m2)
+[H-divides-S computational source](https://github.com/markluxton1/STCI/blob/d97b16cfa4f795d6497d43d83314ee5b7bed8c08/research/computations/generalization_quintic_h3_divisibility_certificate.m2)
 documents a separate branch. Historical verification of the other identities
 must not be mistaken for presently replayable certification or an independent
 symbolic proof.
 
-The sole-common-root regular-L1/L2 bridges are a different contribution, owned with [single-root incidence](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md) and the full L2 theorem in [the A4 conductor/incidence treatment](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-13-generalization-quintic-l2). They do not settle Z=0, target infinity, Jbar=0 or several allowed support points by themselves.
+The sole-common-root regular-L1/L2 bridges are a different contribution, owned with [single-root incidence](../synthesis/quintic_toric_center_incidence.md#nonendpoint-single-root-incidence-and-actual-quotient-fibers) and the full L2 theorem in [the A4 conductor/incidence treatment](../synthesis/quintic_octic_ade_cover_and_triple.md#2026-10-13-generalization-quintic-l2). They do not settle Z=0, target infinity, Jbar=0 or several allowed support points by themselves.
 
 The h=2 incidence, degree-one singular quotient-fiber charts, other quintic normalizations and entirely thick presentations remain separate questions. The coefficient identities are exact characteristic-zero proofs on the stated unit charts. Their geometric setup, scalar inversions, multiplicity derivatives and witness nonvanishing must be verified before any reduction modulo a prime; no arbitrary positive-characteristic exclusion is asserted.
 

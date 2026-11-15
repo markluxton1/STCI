@@ -278,7 +278,7 @@ its equations, or proving it empty, remains a new problem; finite
 determinacy does not itself settle that geometry. On the specified
 three-dimensional torsion-two intersection component through the seed,
 the separately reviewed
-[torsion/second-zero argument](QUADRATIC_ROOT_SECOND_ZERO_AND_DUAL_COMPRESSION.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry)
+[torsion/second-zero argument](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry)
 bounds the support of the second zero locus, and hence of the stable
 formal locus, by dimension two. Other components are retained.
 
@@ -823,7 +823,7 @@ Let `k` be an algebraically closed field of any characteristic, `X` a
 smooth threefold, and `C subset X` a smooth connected curve. Let the
 actual complete intersection `Y=(F,G)` have reduced support exactly `C`.
 Retain the literal hypotheses of the
-[accepted actual-CI/root bridge](QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-blowup-root-curve-primitive-bridge):
+[accepted actual-CI/root bridge](../synthesis/quadratic_root_torsion_two_lifting.md#2026-10-14-generalization-blowup-root-curve-primitive-bridge):
 
 1. The first ordinary normal relation has degree `r`, and its actual
    relation sheaf is a saturated line subbundle of `Sym^r N_C^*`.

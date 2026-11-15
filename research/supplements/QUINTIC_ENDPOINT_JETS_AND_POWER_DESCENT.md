@@ -30,9 +30,9 @@ The universal STCI problem remains open.
 ## 1. Actual sources and the precise antecedents
 
 The geometric antecedents are the full
-[quintic carrier-structure proof](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
-[intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
-and [explicit-model proof](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit).
+[quintic carrier-structure proof](../synthesis/quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit),
+[intrinsic pair classification](../synthesis/quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification)
+and [explicit-model proof](../synthesis/quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit).
 In particular:
 
 * `S` is the normal degree-five del Pezzo surface with a single A4 point;
@@ -201,7 +201,7 @@ quintic-carrier theorem is asserted.
 
 ## 6. Supporting exact record and source snapshots
 
-The independent coefficient calculation is supported by the standard-library [source](../validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py), SHA-256 `cac0df14cdeebf27f804628b8840b4a04f87d659c5f3302318f2e309d228a194`. It checks twelve polynomial/first-jet identities over `Z[x,r,g,d]`. The all-positive-integer conclusion comes from section 4, not a test of finitely many powers.
+The independent coefficient calculation is supported by the standard-library [source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py), SHA-256 `cac0df14cdeebf27f804628b8840b4a04f87d659c5f3302318f2e309d228a194`. It checks twelve polynomial/first-jet identities over `Z[x,r,g,d]`. The all-positive-integer conclusion comes from section 4, not a test of finitely many powers.
 
 The value of `q` and its derivative are evaluated in the actual
 downstairs frame `X2^4`. Any alternative regular downstairs frame

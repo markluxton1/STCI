@@ -29,7 +29,7 @@ The proper-pair Koszul resolution gives
 These are stronger together than genus alone. General perturbations of a
 proper pair give a smoothing; if the specialized equations acquire a common
 surface, their naive zero locus need not be the flat curve limit.
-The [earlier genus notebook](INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md#44-degeneration-genus-budgets)
+The [earlier genus notebook](https://github.com/markluxton1/STCI/blob/5788b2c4a1629e1d168718a6bfb7e261daecb456/research/supplements/INTRINSIC_44_MULTIPLICITY_AND_GENUS_BUDGETS.md#44-degeneration-genus-budgets)
 records this distinction. Constancy of coherent Euler characteristic in
 proper flat families is [Stacks, Lemma 36.32.2](https://stacks.math.columbia.edu/tag/0B9T).
 

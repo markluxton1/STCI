@@ -160,7 +160,7 @@ rank-one projection point.
 
 ## 5. Evidence and continuation scope
 
-The independent [Macaulay2 companion](../computations/verify_session_genus_one_211_interfaces_2026_10_10.m2)
+The independent [Macaulay2 companion](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2)
 checks 42 exact identities over `QQ`: the net minors and basis kernels,
 derivative injectivity, the simple basepoint and its division, cross
 products, the exact remainder matrix and rank-two witness, its kernel,
@@ -171,10 +171,10 @@ algebraically closed characteristic-zero field.
 
 The audit corrected the earlier attribution of the divided cubic and
 its ensuing identities to
-[`verify_session_genus_one_projection_2026_10_09.py`](../computations/verify_session_genus_one_projection_2026_10_09.py).
+[`verify_session_genus_one_projection_2026_10_09.py`](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_one_projection_2026_10_09.py).
 That script checks the uniform projection and a displayed A3+2A1
 family, while
-[`derive_session_rnc_ribbon_net_2026_10_09.py`](../computations/derive_session_rnc_ribbon_net_2026_10_09.py)
+[`derive_session_rnc_ribbon_net_2026_10_09.py`](https://github.com/markluxton1/STCI/blob/095b25c886c5df634187982507dfa66f2c7a15da/research/computations/derive_session_rnc_ribbon_net_2026_10_09.py)
 checks the net basis, derivatives and common-basepoint gcd. The recorded
 older Python passes cover those assertions. [Evidence correction and independent checks](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd).
 

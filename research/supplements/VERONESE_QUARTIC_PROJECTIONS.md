@@ -242,7 +242,7 @@ For a quadratic form A x^2+B y^2+C z^2+D xy+E xz+F yz, evaluation
 at these six points gives D=E=F=0 and A+B=A+C=B+C=0. In
 characteristic zero all six coefficients vanish. This contradicts
 the nonzero equation f. This also reproduces the
-[independent Roman argument](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd).
+[independent Roman argument](../synthesis/normal_filtration_boundary_obstructions.md#source-2026-10-07-session-nonnormal-structural-progressmd).
 
 ## 8. Jordan size two: only one allowed point on one conductor line
 

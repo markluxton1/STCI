@@ -667,8 +667,8 @@ No frontier file was edited by this auditor.
 ## 1. Exact hypotheses and notation
 
 Work over an algebraically closed field of characteristic zero. The
-[adjoint model](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd) and
-[independent mate audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
+[adjoint model](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-conic-modelmd) and
+[independent mate audit](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
 give a smooth rational minimal resolution `sigma:M->S`, the pulled-back
 hyperplane class `L`, and a connected rational pencil `f=K_M+L`, with
 
@@ -1202,4 +1202,3 @@ requested pause closure after its content and hash are reported.
 
 
 ---
-

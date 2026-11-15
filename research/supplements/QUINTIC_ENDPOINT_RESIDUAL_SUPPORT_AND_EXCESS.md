@@ -38,11 +38,11 @@ retain their two exact computational implementations.
 Work over an algebraically closed field of characteristic zero. The normal
 degree-five anticanonical del Pezzo surface `S` and smooth lifted quartic `c`
 are the actual pair in the accepted
-[quintic structural frontier](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#1-quintic-conormal-and-delpezzo-audit),
+[quintic structural frontier](../synthesis/quintic_conductor_geometry.md#1-quintic-conormal-and-delpezzo-audit),
 with the exhaustive
-[intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
+[intrinsic pair classification](../synthesis/quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification)
 and its
-[explicit-model audit](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit).
+[explicit-model audit](../synthesis/quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit).
 The unique line is `ell`; the only surface singularity is A4. Its actual
 anticanonical sections satisfy `div(U0)=5ell`, `div(hsec)=c+ell`.
 Consequently `S minus ell` is the complete open chart `A2(r,T)`, with
@@ -119,7 +119,7 @@ The exact linear elimination identity is
     A R-(A^2 T+Az-1)P=J+A^2 H T.
 
 The fixed-degree Sylvester identity is `Res_T(P,R)=A^7 E`, as checked
-in the retained [subresultant source](../computations/verify_session_quintic_endpoint_subresultant_2026_10_11.m2).
+in the retained [subresultant source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_quintic_endpoint_subresultant_2026_10_11.m2).
 The explicit linear identity, rather than division by this resultant,
 settles the exceptional fibers below.
 
@@ -266,11 +266,11 @@ in every degree.
 ## 6. Independent evidence and bounded acceptance
 
 My separately written
-[geometry checker](../validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2)
+[geometry checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-endpoint-support-global-audit/verify_geometry.m2)
 has SHA-256
 `5e786b80c301f98a0aa34a360190d4596fbe52d9ae8e9e0df0e9050e1adc4de2`. The final source uses a flat polynomial ring and cleared polynomial evaluations throughout.
 
-The separately retained [target-jet checker](../computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2)
+The separately retained [target-jet checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_endpoint_a_nonzero_target_jets_2026_10_11.m2)
 checks the original higher-jet and projective-boundary identities. Its
 conditions overlap the full independent reconstruction below; no new run is
 claimed by this consolidation.
@@ -298,8 +298,8 @@ exclude a!=0, a=b=0, nonendpoint projections, other quintic normalizations
 or the unrestricted STCI problem. No frozen source, record or
 integrity seal is edited.
 
-The [explicit model](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#2-dp5-a4-explicit-model-independent-audit)
-and [intrinsic pair classification](DEL_PEZZO_FIVE_A4_INTRINSIC_AND_EXPLICIT_MODEL.md#1-dp5-a4-intrinsic-pair-classification)
+The [explicit model](../synthesis/quintic_octic_ade_cover_and_triple.md#2-dp5-a4-explicit-model-independent-audit)
+and [intrinsic pair classification](../synthesis/quintic_octic_ade_cover_and_triple.md#1-dp5-a4-intrinsic-pair-classification)
 supply the normalization chart and the limited endpoint scope. Work over
 an algebraically closed characteristic-zero field.
 
@@ -555,7 +555,7 @@ the allowed family. There is no exceptional finite parameter set.
 ## Independent computation and preserved execution history
 
 The source
-[verify_session_endpoint_three_common_roots_2026_10_11.m2](../computations/verify_session_endpoint_three_common_roots_2026_10_11.m2)
+[verify_session_endpoint_three_common_roots_2026_10_11.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_endpoint_three_common_roots_2026_10_11.m2)
 has SHA-256
 `31597e4c2057fabb87f9aaf76fdd562f1d5753cf75141dc0f85dfc3041eb97a1`.
 Its final captured execution passes **nine exact assertions**: the two
@@ -588,8 +588,8 @@ the three-common-root stratum or nonendpoint projection centers.
 ## 1. Scope and retained transverse equations
 
 Use the actual endpoint projection and center-avoidance hypotheses in the
-[quadric-factor reduction](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit)
-and its [independent audit](QUINTIC_CARRIER_CONORMAL_AND_FACTOR_GEOMETRY.md#2-quintic-endpoint-factor-independent-audit).
+[quadric-factor reduction](../synthesis/quintic_conductor_geometry.md#2-quintic-endpoint-factor-independent-audit)
+and its [independent audit](../synthesis/quintic_conductor_geometry.md#2-quintic-endpoint-factor-independent-audit).
 On the smooth affine normalization chart the coordinates are
 
     X0=1+aT, X1=r+bT,
@@ -739,10 +739,10 @@ elements of QQ(q), retaining their actual numerators. The exact identities are
     gcd(num c_3,num c_4)=D^3,
     gcd(num c_3,num J)=D^3.
 
-These are not numerical samples. The [fourteen-check M2 source](../computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2)
+These are not numerical samples. The [fourteen-check M2 source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_quintic_endpoint_a_nonzero_local_excess_2026_10_11.m2)
 derives both numerators directly from the retained full equations and
 exports their rational coefficient lists. The independently generated
-[Bezout certificates](../validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/bezout-certificates.json)
+[Bezout certificates](https://github.com/markluxton1/STCI/blob/6880e35bb6c7ec13c2ba18cc1a0cce328e1d795f/research/validation/2026-10-11-quintic-endpoint-a-nonzero-local-excess/bezout-certificates.json)
 give, for each displayed pair, explicit polynomial multipliers over QQ
 whose combination is D^3. A standard-library Fraction verifier multiplies
 the exported polynomials and checks both identities exactly. Thus neither
@@ -972,7 +972,7 @@ This is the conditional target-variable argument, not the independent proof of
 the global inverse-support reduction. Its geometric hypothesis is supplied by
 [the complete endpoint support proof](#2-endpoint-a-nonzero-global-independent-audit).
 The retained exact source is
-[two-root-contact-target.m2](../validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2).
+[two-root-contact-target.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-endpoint-support-global-audit/two-root-contact-target.m2).
 It checks the septic leading coefficient, common-root substitution, exceptional
 fiber, higher coefficients and both polynomial gcd conclusions. This relocation
 introduces no fresh computation or broader characteristic claim.
@@ -1098,7 +1098,7 @@ obstruction, or exclude a geometric STCI presentation. Those interpretations
 remain the parent's responsibility.
 
 The final source is
-[verify_session_three_common_roots_residual_quartic_2026_10_11.m2](../computations/verify_session_three_common_roots_residual_quartic_2026_10_11.m2),
+[verify_session_three_common_roots_residual_quartic_2026_10_11.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_three_common_roots_residual_quartic_2026_10_11.m2),
 SHA-256 `e0762fcc2c959cbf32b87de10ced160b7913b0da5d0de6875917a9a97632727b`.
 Its **eight exact assertions passed** in a captured execution. They verify
 both divisibilities, exact quotient, carrier coefficient, quartic leading

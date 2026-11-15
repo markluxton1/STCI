@@ -6,7 +6,7 @@ Z_4=V(x_1^4-x_0^3x_3,\ x_2^4-x_0x_3^3)\subset\mathbf P^3_{\mathbf F_2}.
 \]
 [R-0012](../results/prescribed_z4_arithmetic_nonlifting.md) states that no flat embedded family with this special fiber has generic reduced support \(C_K\). The proof has two essential parts: every hypothetical flat deformation supplies a canonical primitive triple; the exhaustive integral triple obstruction is nonzero. Neither part uses the characteristic-zero quartic-carrier theorem.
 
-The exact special filtered algebra, the deformation reduction and the complete integral cocycle are given below. Their independent source reconstruction agreed with the separately assembled integer calculation; the consolidation changes exposition, not this theorem's hypotheses. The marked arithmetic theorem does not extend to arbitrary ramified DVRs or arbitrary characteristic-zero thickenings. The [intrinsic mechanism](Z4_INTRINSIC_ARITHMETIC_MECHANISM.md) separates reusable extension theory from those scope limits.
+The exact special filtered algebra, the deformation reduction and the complete integral cocycle are given below. Their independent source reconstruction agreed with the separately assembled integer calculation; the consolidation changes exposition, not this theorem's hypotheses. The marked arithmetic theorem does not extend to arbitrary ramified DVRs or arbitrary characteristic-zero thickenings. The [intrinsic mechanism](../synthesis/arithmetic_root_collision.md#embedded-primitive-towers-gluing-arithmetic-variation-and-actual-pairs) separates reusable extension theory from those scope limits.
 
 ## The special filtered algebra
 
@@ -59,7 +59,7 @@ The saturated ideals of all four stages are computed from
 and contains I_C^4 but not I_C^3. These assertions are independently
 checked by exact homogeneous computations.
 
-Detailed evidence: [local and global structure](OCT20_21_NORMAL_FILTRATIONS_AND_RECONCILIATION.md#source-2026-10-20-z4-local-structuremd).
+Detailed evidence: [local and global structure](../synthesis/normal_filtration_boundary_obstructions.md#source-2026-10-20-z4-local-structuremd).
 
 ## Deformation persistence and canonical intermediate stages
 
@@ -474,6 +474,6 @@ A local valuation-one polynomial does not imply a nonzero global obstruction. A 
 
 ## Exact computational support and scope
 
-The [raw obstruction verifier](../computations/verify_z4_quartic_obstruction_2026_10_20.py) reconstructs the rational coordinate changes, arbitrary quadratic corrections, all Laurent coefficients and the universal congruence modulo four. The independently assembled [integer Macaulay2 verifier](../computations/audit_z4_lift_2026_10_20.m2) supplies a distinct implementation where present; the proof uses the exhaustive quotient parameterization, the canonical-stage reduction, and the Laurent quotient rather than a rank total alone. The local-structure and integral fourth-power scripts retain exact chart/multiplication checks. Existing execution evidence was reused; no fresh execution is claimed by this consolidation.
+The [raw obstruction verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_z4_quartic_obstruction_2026_10_20.py) reconstructs the rational coordinate changes, arbitrary quadratic corrections, all Laurent coefficients and the universal congruence modulo four. The independently assembled [integer Macaulay2 verifier](https://github.com/markluxton1/STCI/blob/d3d773d634b9236e854f4d94850de2de604835b7/research/computations/audit_z4_lift_2026_10_20.m2) supplies a distinct implementation where present; the proof uses the exhaustive quotient parameterization, the canonical-stage reduction, and the Laurent quotient rather than a rank total alone. The local-structure and integral fourth-power scripts retain exact chart/multiplication checks. Existing execution evidence was reused; no fresh execution is claimed by this consolidation.
 
 The first failed stage is the triple, and the ribbon really does lift. Arithmetic variation of the quotient cannot cancel the middle class for any permitted first quotient over either stated base. A different characteristic-zero defining pair need not specialize to this exact embedded structure; indeed its complete-intersection Hilbert polynomial will in general prevent that specialization. The theorem supplies no universal nonexistence bridge.

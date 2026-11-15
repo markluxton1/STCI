@@ -220,7 +220,7 @@ On F0 the effective class C+f is a prime of degree three or a horizontal C-prime
 
 On F2, any prime other than C_min has class a C_min+b f with b>=2a; fibers are individually prime only with class f. Thus C_min+2f is either a degree-three prime, C_min+F1+F2 for distinct fibers, or C_min+2F. The prime case is excluded by the ramification argument. The distinct fibers have proportional nonzero restrictions of f, because their n-th powers descend to the same line. Their equal zero on the base gives distinct points of c in one normalization fiber, impossible.
 
-The remaining actual divisor is D=2C_min+4F. In its generic F-factor B_F=K[t]/t^4 the preceding self-annihilator computation gives NB_F=(t^2). Ambient coordinates normal to the support line have classes in N, so their actual pullbacks vanish to order at least two along F: the equality modulo the conductor (t^4) implies actual membership in (t^2). The longitudinal coordinate has nonzero derivative because F maps isomorphically to the line. Hence dnu has generic rank one on F. The [independent nonimmersion-prime lemma](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-nonimmersion-prime-independent-auditmd) excludes the mate. This step verifies derivative rank from the actual generic algebra; multiplicity four alone would not do so.
+The remaining actual divisor is D=2C_min+4F. In its generic F-factor B_F=K[t]/t^4 the preceding self-annihilator computation gives NB_F=(t^2). Ambient coordinates normal to the support line have classes in N, so their actual pullbacks vanish to order at least two along F: the equality modulo the conductor (t^4) implies actual membership in (t^2). The longitudinal coordinate has nonzero derivative because F maps isomorphically to the line. Hence dnu has generic rank one on F. The [independent nonimmersion-prime lemma](../synthesis/normalization_indices_and_power_descent.md#source-2026-10-08-session-nonimmersion-prime-independent-auditmd) excludes the mate. This step verifies derivative rank from the actual generic algebra; multiplicity four alone would not do so.
 
 ### 2.5. Doubled line plus reduced line, including the nongorenstein vertex
 
@@ -337,7 +337,7 @@ step; none is asserted to be a global quartic normalization.
   f=(1,zeta_3). Its cube descends to A but its square does not. Applying
   the involution twice does not force a square when it swaps primes.
 
-The [exact generic-algebra checker](../computations/audit_session_scroll_gorenstein_generic_2026_10_08.py)
+The [exact generic-algebra checker](https://github.com/markluxton1/STCI/blob/f6e18755202b02a5a08ab5d0c3d7dbef20eedab8/research/computations/audit_session_scroll_gorenstein_generic_2026_10_08.py)
 retains these models and their rank/length calculations. In particular
 Section4's Delta=0 assertion uses smooth reduced Gamma, not an arbitrary
 nonreduced base Artin ring.
@@ -349,7 +349,7 @@ research route, with its geometric slice passage conditional on the slice hypoth
 [nongorenstein cubic classification](QUARTIC_SCROLL_CONDUCTOR_STRUCTURE.md#4-the-whole-nongorenstein-cubic-schemes)
 and its [independent audit](#2-the-remaining-nongorenstein-schemes)
 avoid this passage. The
-[differential obstruction audit](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-normalization-differential-independent-auditmd)
+[differential obstruction audit](../synthesis/normalization_indices_and_power_descent.md#source-2026-10-08-session-normalization-differential-independent-auditmd)
 independently proves its first step: under a mate, nu must be
 generically immersive along every proper conductor prime E. If its
 generic differential rank were at most one, choose P in c intersect E

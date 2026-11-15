@@ -203,7 +203,7 @@ and its lower-degree/factor reduction exclude this. Thus
  on fixed }C_R\text{ when }p\nmid n.}
 \]
 This includes \((p,8)\) for every \(p\ge7\), without a ramification
-restriction. Via the [trait criterion](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#mixed-characteristic-lifting-on-the-full-incidence),
+restriction. Via the [trait criterion](../synthesis/arithmetic_root_collision.md#mixed-characteristic-lifting-on-the-full-incidence),
 these specified points lie on no horizontal component of the full
 degree-\((p,4n)\) incidence: \(p\) is nilpotent in their local rings.
 A trait in the proper-pair incidence supplies the required flat relative

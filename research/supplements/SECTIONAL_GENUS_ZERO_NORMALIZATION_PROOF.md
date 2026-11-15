@@ -17,7 +17,7 @@ is exactly C. No semi-log-canonical hypothesis is made.
 ## 1. The support and divisor identities that are available
 
 The [full-support theorem](NORMALIZATION_SECTION_AND_MODULE_DESCENT.md) and
-the [smooth-lift argument](OCT7_MF6_AND_NONNORMAL_STRUCTURES.md#source-2026-10-07-session-nonnormal-structural-progressmd)
+the [smooth-lift argument](../synthesis/normal_filtration_boundary_obstructions.md#source-2026-10-07-session-nonnormal-structural-progressmd)
 give, under a mate,
 
     (nu^{-1}(C))_red = c,
@@ -53,7 +53,7 @@ the general plane section is positive. Consequently
     0 <= pi <= 2
 
 in the nonnormal case. The separate
-[singular-degree audit](QUARTIC_SINGULAR_SUPPORT_AND_SINGLETON_FIBERS.md)
+[singular-degree audit](../synthesis/quartic_carrier_proof.md#reduced-singular-support-and-singleton-normalization-fibers)
 records the complete plane-section defect argument. Here pi is a
 normalization sectional genus, not the arithmetic genus of an ambient
 plane quartic and not the degree of a conductor or Jacobian scheme.
@@ -205,7 +205,7 @@ tangent of c is therefore the kernel of dnu, contrary to the
 immersion nu|c:c->C subset P3. This proves the cone exclusion.
 
 The same local-unit differential argument is independently stated in
-[the differential audit](OCT8_MF6_NORMALIZATION_AND_PRINCIPAL_BOUNDARIES.md#source-2026-10-08-session-normalization-differential-independent-auditmd).
+[the differential audit](../synthesis/normalization_indices_and_power_descent.md#source-2026-10-08-session-normalization-differential-independent-auditmd).
 The proof here does not cite an unrederived arbitrary-degree cone
 theorem and does not assume that a section on S descends to X.
 
@@ -263,7 +263,7 @@ remove such points. This is a necessary filter; it does not exclude
 all singular normalization classes. In particular rational double
 points can admit exactly this finite torsion.
 
-The [local lift countershield](OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-local-liftmd)
+The [local lift countershield](https://github.com/markluxton1/STCI/blob/a88e52b20b799ead49699a23a1d4691a96f66cf5/research/supplements/OCT9_SINGULAR_DELPEZZO_AND_LOCAL_LIFTS.md#source-2026-10-09-session-singular-local-liftmd)
 constructs an order-one affine quartic carrier with A1 normalization
 and a smooth curve passing through the normalization singularity,
 with full inverse support and an actual local mate. It prevents

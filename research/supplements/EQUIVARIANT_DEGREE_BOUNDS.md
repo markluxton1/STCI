@@ -7,7 +7,7 @@ algebraically closed. Besides ordinary degree, give the coordinates weights
 it is bihomogeneous for the parametrization grading
 \((4,0),(3,1),(1,3),(0,4)\).
 
-**Review, October 31, 2026:** independently reviewed theorem. This extends the [one-binomial bound](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#one-binomial-equation-with-an-arbitrary-mate)
+**Review, October 31, 2026:** independently reviewed theorem. This extends the [one-binomial bound](../synthesis/arithmetic_root_collision.md#one-binomial-equation-with-an-arbitrary-mate)
 to one weight-homogeneous equation, with an arbitrary mate. Later sections
 constrain the extreme components of every pair with \(p\nmid ab\),
 prove the sharp linear bound when each equation has at most two weights,
@@ -177,7 +177,7 @@ For the unrestricted minimum \(\delta(p)\), only
 \(\delta(p)\le\delta_{\mathrm{wt}}(p)\) follows. An arbitrary pair
 need not have a weight-homogeneous equation or factor. Torus limits may
 acquire a common surface component, as explained in the
-[arithmetic chapter](ARITHMETIC_EQUATIONS_AND_JET_GAPS.md#why-degeneration-does-not-cover-every-pair).
+[arithmetic chapter](../synthesis/arithmetic_root_collision.md#why-degeneration-does-not-cover-every-pair).
 The missing global step is a valid reduction covering pairs with two
 unrestricted equations; the trace calculation does not supply it.
 

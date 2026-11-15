@@ -2,7 +2,7 @@
 
 ## Dependency guide: partition-by-partition exclusion
 
-The [ribbon conormal-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md) and [uniform projection conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md) are upstream assumptions. This proof treats the repeated-contact partitions **[4], [3,1], and [2,2]**, including endpoints and direction boundaries, and does not claim to handle the distinct [2,1,1] stratum. Its [independent certificate](GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md) checks coverage and conductor/power obstructions with exact ideal computations. Retain the original case calculations and the independent audit as distinct evidence, not interchangeable summaries.
+The [ribbon conormal-net proof](GENUS_ONE_RIBBON_CONORMAL_NET_PROOF.md) and [uniform projection conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md) are upstream assumptions. This proof treats the repeated-contact partitions **[4], [3,1], and [2,2]**, including endpoints and direction boundaries, and does not claim to handle the distinct [2,1,1] stratum. Its [independent certificate](#genus-one-ribbon-repeated-partition-independent-certificates) checks coverage and conductor/power obstructions with exact ideal computations. Retain the original case calculations and the independent audit as distinct evidence, not interchangeable summaries.
 
 ---
 
@@ -329,7 +329,7 @@ isolated-rank-one differential obstruction.
 ## 6. Evidence, dependency boundary, and completion status
 
 The exact companion
-[verify_session_ribbon_repeated_partitions_2026_10_09.py](../computations/verify_session_ribbon_repeated_partitions_2026_10_09.py)
+[verify_session_ribbon_repeated_partitions_2026_10_09.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_ribbon_repeated_partitions_2026_10_09.py)
 contains the 72 exact identity checks supporting this proof.
 
 The checks verify the literal RNC ideal, omitted-coordinate derivative,
@@ -349,8 +349,6 @@ universal STCI question.
 
 
 ## Consolidated historical source: `research/supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md`
-
-Original mathematical content and qualifications retained verbatim. Historical relative links may require repair.
 
 # Genus-one ribbon repeated-partition independent certificates
 
@@ -374,7 +372,7 @@ positive mate exponent remains uncovered within these three partitions.
 This note changes no state or acceptance file.
 
 The independent exact companion is
-[countercheck.m2](../validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2).
+[countercheck.m2](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2).
 Its successful execution used Macaulay2 1.26.06, returned exit zero, and
 checked 29 exact conditions. The universal ideal equalities below provide a
 different certificate from the owner's selected augmented minors. The
@@ -643,4 +641,3 @@ The independent checker verifies the 29 exact conditions used above. Its passing
 The assigned audit is complete. A complete exclusion of all genus-one quartic
 carriers still requires the separate upstream/interface and `[2,1,1]`
 audit.
-

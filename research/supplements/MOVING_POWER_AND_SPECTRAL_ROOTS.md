@@ -172,7 +172,7 @@ Vanishing obstruction groups do not remove that global cost.
 ### 4. The degree-one moving linear branch has an exact zero locus
 
 The new independently derived calculation in
-[the moving linear audit](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
+[the moving linear audit](../synthesis/spectral_pushforward_powers.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
 also treats the smallest movement case, where `r=e=1` and
 `Q_1=O(-4)` has nonzero cohomology. Write
 
@@ -206,14 +206,14 @@ not directly exclude an entirely thick presentation having first symbol
 
 Inputs used as accepted premises:
 
-- [Thick equality and moving operator](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd),
+- [Thick equality and moving operator](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd),
   especially Sections 7--8.
 - [Independent movement-gap cost audit](MOVING_POWER_SECOND_RELATION.md#source-2026-10-14-generalization-moving-relation-gap-cost-independent-auditmd).
-- [Independent constant-relation audit](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd).
+- [Independent constant-relation audit](../synthesis/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd).
 
 New independent review:
 
-- [Moving linear quadratic obstruction and pure-power quadratic splitting](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
+- [Moving linear quadratic obstruction and pure-power quadratic splitting](../synthesis/spectral_pushforward_powers.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
 - [Completed independent higher-tower audit](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
   Its finite-order scope is now accepted; it supplies no global STCI pair.
 
@@ -236,7 +236,7 @@ for the rational quartic is used as a premise. No accepted chart-transition,
 normal-bundle, or constant-direction computation is repeated.
 
 This note audits the proposed generalization of the next-order calculation in
-[the moving linear relation review](CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
+[the moving linear relation review](../synthesis/spectral_pushforward_powers.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
 The apolar quotient, the successive gluing obstruction, the vanishing range,
 and the Cohen--Macaulay assertion all pass. The construction supplies embedded
 finite-order thickenings; it does not supply a global carrier or an STCI pair.

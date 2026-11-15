@@ -57,7 +57,7 @@ while \(d\ge0\).  There are exactly two solutions:
  \boxed{(l,d)=(-7,3)\quad\text{or}\quad(-6,1).}
 \]
 
-The [primitive-triple obstruction](HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md#primitive-triples-on-smooth-rational-quartics) does not by itself remove these cases:
+The [primitive-triple obstruction](../synthesis/formal-normal-intersection.md#primitive-triples-on-smooth-rational-quartics) does not by itself remove these cases:
 the positive defect divisor \(D\) is precisely the finite locus where both
 carriers may be singular.  Jaffe's disjoint-singular-locus theorem likewise
 shows only that such a pair must have common singular points.  Thus the two
@@ -320,7 +320,7 @@ With \(x=t^2\), the identity
 
 shows that \(H_1\) is a unit on the full rank-one boundary scheme in
 characteristic zero.  Thus every point with \(b_0=0\) is excluded.  The
-durable script [the boundary transition verifier](../computations/verify_typeb45_boundary.py) reproduces the full
+durable script [the boundary transition verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_typeb45_boundary.py) reproduces the full
 moving-frame calculation and all six Cech coordinates.
 
 One former conclusion was nevertheless false: the coordinate-reversing
@@ -378,7 +378,7 @@ that the extension map is not epimorphic and the proposed triple is not flat.
 No one of the three rank-zero corner points therefore extends to an
 admissible triple.  This closes the corner and excludes type B on all charts.
 
-The durable script [the rank-zero corner verifier](../computations/verify_typeb45_corner.py) reproduces the
+The durable script [the rank-zero corner verifier](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/verify_typeb45_corner.py) reproduces the
 full moving-\(W\) second-order coefficient, the rank-zero factorization, and
 the special-fiber length calculation.  Its finite-degree \(\gamma\) and
 hard-coded monomial checks are only witnesses; the exhaustive proof is the
@@ -551,6 +551,8 @@ The independent verifier is
 chart transition, derives the killing-section rank matrix, computes both
 exceptional quotient lines, and computes all higher cocycles from the moving
 coordinate. Run it with any SymPy-equipped Python, for example:
+
+The archived command uses [verify_typea45.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_typea45.py) from the pinned repository snapshot.
 
 ```
 python3 research/computations/verify_typea45.py

@@ -6,8 +6,8 @@ configuration is realized. The full fixed-C0 quartic-mate problem is
 closed by [the complete carrier proof](../synthesis/quartic_carrier_proof.md);
 the bounded marking and counterexamples below are its reusable geometry.
 
-The prior [adjoint audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-independent-auditmd)
-and [exceptional/mate-strata audit](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
+The prior [adjoint audit](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-independent-auditmd)
+and [exceptional/mate-strata audit](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
 establish, over an algebraically closed characteristic-zero field,
 
     M smooth rational; L nef, big and globally generated;

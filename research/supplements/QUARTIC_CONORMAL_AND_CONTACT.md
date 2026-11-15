@@ -561,7 +561,7 @@ The residual-pair flag equation is defined over the integers and remains a smoot
 
 ## Equal endpoint lengths do not identify two contact schemes
 
-Let \(\mathscr S=\operatorname{pr}_1^{-1}(L_\iota)\) in the flag, where \(L_\iota\subset\operatorname{Sym}^2C\) is the line of divisors \(p+\iota(p)\). This is the second flag surface normalizing the dual cubic, as proved in [the Gauss/flag construction](CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-gauss-dual). With \(N=N_C\),
+Let \(\mathscr S=\operatorname{pr}_1^{-1}(L_\iota)\) in the flag, where \(L_\iota\subset\operatorname{Sym}^2C\) is the line of divisors \(p+\iota(p)\). This is the second flag surface normalizing the dual cubic, as proved in [the Gauss/flag construction](../synthesis/ruled_surface_degree_criterion.md#cubic-scroll-gauss-dual). With \(N=N_C\),
 \[
 \tau(N)\cap\mathscr S=\tau(\sigma_O)
 \]

@@ -2,7 +2,7 @@
 
 ## Dependency guide: ribbon reduction and quadratic net
 
-This is the **upstream conditional reduction**: the degree-four ADE del Pezzo normalization and D5 torsion inputs force the indicated double divisor to be a ribbon and constrain its conormal quadratic net. Its two direction orbits organize, but do not by themselves exclude, all projection/contact cases. See [uniform projection conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md), [the repeated-partition proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md), and [independent partition certificates](GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md). Preserve the stated normalization hypotheses; the ribbon conclusion is not a theorem about arbitrary quartic carriers.
+This is the **upstream conditional reduction**: the degree-four ADE del Pezzo normalization and D5 torsion inputs force the indicated double divisor to be a ribbon and constrain its conormal quadratic net. Its two direction orbits organize, but do not by themselves exclude, all projection/contact cases. See [uniform projection conditions](GENUS_ONE_UNIFORM_PROJECTION_ANALYSIS.md), [the repeated-partition proof](GENUS_ONE_RIBBON_PARTITION_PROOFS.md), and [independent partition certificates](GENUS_ONE_RIBBON_PARTITION_PROOFS.md#genus-one-ribbon-repeated-partition-independent-certificates). Preserve the stated normalization hypotheses; the ribbon conclusion is not a theorem about arbitrary quartic carriers.
 
 ---
 
@@ -39,8 +39,8 @@ quadrics define an integral degree-four surface. The discriminant-zero
 directions instead have a cubic surface as their quadratic base locus.
 
 The accepted preceding inputs are recorded in
-[the genus-one reduction](OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
-and [the D5 filter](OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-torsion-filtermd).
+[the genus-one reduction](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-one-delpezzo-reductionmd)
+and [the D5 filter](https://github.com/markluxton1/STCI/blob/a88e52b20b799ead49699a23a1d4691a96f66cf5/research/supplements/OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-delpezzo-d5-torsion-filtermd).
 They are premises here, not reproved by this audit.
 
 ## 2. Pure multiplicity two over a smooth curve forces a ribbon

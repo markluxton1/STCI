@@ -38,7 +38,7 @@ smooth rational (-2)-curves, and orthogonal to L. Its exceptional
 correction is not integral. These hypotheses are precisely the
 `lambda=0` lane, not all genus-two mates.
 
-The [second-pencil proof](OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd):
+The [second-pencil proof](https://github.com/markluxton1/STCI/blob/2cc61e8ddb8d1fbfe7034285dac65df5b4c2ac75/research/supplements/OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd):
 
 * `0->O_M->O_M(c)->O_c->0` and rationality give `h0(c)=2` and generation
   everywhere. The Stein factor has genus zero; its finite map to the

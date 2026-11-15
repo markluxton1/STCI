@@ -1,6 +1,6 @@
 # Local-cohomology conormal geometry and endpoint symbols
 
-This owner connects the actual inverse-system ancestor to its saturated socle and conormal extension. The endpoint direction classification, corner exclusions and local defect models come first; the intrinsic splitting and exact Hankel-rank consequences follow. All target-specific claims retain the fixed characteristic-zero C0 setting and their stated finite-ancestor antecedents. The [complete rational endpoint proof](LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md) owns the generic denominator partitions and every exceptional-field closure, rather than the obsolete21/22-point checkpoints.
+This owner connects the actual inverse-system ancestor to its saturated socle and conormal extension. The endpoint direction classification, corner exclusions and local defect models come first; the intrinsic splitting and exact Hankel-rank consequences follow. All target-specific claims retain the fixed characteristic-zero C0 setting and their stated finite-ancestor antecedents. The [complete rational endpoint proof](../synthesis/contact_duality_and_global_descent.md#complete-rational-endpoint-ancestor-exclusions) owns the generic denominator partitions and every exceptional-field closure, rather than the obsolete21/22-point checkpoints.
 
 The [finite direction reduction](../results/quartic_ancestor_direction_reduction.md)
 now excludes the entire quadratic direction lane and every linear direction
@@ -82,9 +82,13 @@ lower-order correction; it is not a sampled parameter computation.
 
 Reproduce the saved identities using only Python's standard library:
 
+The archived command uses [session-localcoh-corners.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/session-localcoh-corners.py) from the pinned repository snapshot.
+
     python3 research/computations/session-localcoh-corners.py
 
 Regenerate the rational lifts and one-variable Macaulay2 module duals:
+
+The archived command uses [session-localcoh-corners.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/session-localcoh-corners.py) from the pinned repository snapshot.
 
     python3 research/computations/session-localcoh-corners.py --regenerate
 

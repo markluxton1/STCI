@@ -81,7 +81,7 @@ Verified primary PDF: <https://arxiv.org/pdf/2202.04021>.
 
 The proof below passes from this numerical theorem to uniformity of all ordinary normal powers in an actual thickening.
 The proof is independent of the global spectral/apolar bridge in
-[the moving pure-power proposal](SATURATED_DUALITY_AND_MOVING_POWERS.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
+[the moving pure-power proposal](../synthesis/spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
 
 ## 3. Purity, the local finite free algebra, and exact special order
 
@@ -364,7 +364,7 @@ nor intersections with residual curve components are covered.
   supplies normal flatness of the entire ordinary J-adic algebra under
   the stated hypotheses. Its preserved proof computes the second minimal
   quotient relation T and its degree in
-  [the saturated first-relation bridge](SATURATED_DUALITY_AND_MOVING_POWERS.md#projective-normal-flatness-by-duality-and-resultants),
+  [the saturated first-relation bridge](../synthesis/spectral_pushforward_powers.md#projective-normal-flatness-by-duality-and-resultants),
   sections 3--6. In the present splitting,
 
   \[
@@ -375,7 +375,7 @@ nor intersections with residual curve components are covered.
   The second relation is a **quotient relation**. No global second
   polynomial line is assumed.
 - The general generator-filtration lemma is proved independently in
-  [the generator-filtration audit](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd),
+  [the generator-filtration audit](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-generator-filtration-auditmd),
   sections 1--4. It is a reviewed supporting source, not a separate
   result record. Its general statement applies to a full
   locally CI initial ideal; the application below is enabled by R0010.
@@ -696,9 +696,9 @@ settle unrestricted STCI for C0.
 
 ## Exact arithmetic support and boundary checks
 
-The proof above, rather than a bounded search, establishes exhaustion. The independent arithmetic reconstruction confirms that the small-order factorization retains both positive and negative divisor pairs. The cutoff is strict: at epsilon=7, (r,s;a,b)=(63,198;189,264) has r=3*epsilon*(2*epsilon+1)/5 and t=22/7, so it belongs to the small-order factorization, not the strict large-order stratum. The exact arithmetic script [global_ci_small_movement_divisor_audit.py](../computations/global_ci_small_movement_divisor_audit.py) gives counts 0,6,4,11,9,19,9,19 for movements 1 through 8 and maximal r respectively none,20,3,63,10,130,63,221. Those counts do not test Picard descent or embedded realization.
+The proof above, rather than a bounded search, establishes exhaustion. The independent arithmetic reconstruction confirms that the small-order factorization retains both positive and negative divisor pairs. The cutoff is strict: at epsilon=7, (r,s;a,b)=(63,198;189,264) has r=3*epsilon*(2*epsilon+1)/5 and t=22/7, so it belongs to the small-order factorization, not the strict large-order stratum. The exact arithmetic script [global_ci_small_movement_divisor_audit.py](https://github.com/markluxton1/STCI/blob/4f73601373c971fd8512528e275bffe4c36debc0/research/computations/global_ci_small_movement_divisor_audit.py) gives counts 0,6,4,11,9,19,9,19 for movements 1 through 8 and maximal r respectively none,20,3,63,10,130,63,221. Those counts do not test Picard descent or embedded realization.
 
-The local Hilbert-envelope/DVR proof and the homogeneous-generator arithmetic received independent reconstruction in the inherited source state. The alternative projective proof by saturated Gorenstein duality and a degree-zero resultant is retained in [Saturated duality](SATURATED_DUALITY_AND_MOVING_POWERS.md#projective-normal-flatness-by-duality-and-resultants). The two proofs use different hypotheses: the local proof allows r=s and needs exact transverse special order; the resultant proof uses projectivity, r<s and a saturated actual first-relation line. They should not be merged into a statement omitting those alternatives.
+The local Hilbert-envelope/DVR proof and the homogeneous-generator arithmetic received independent reconstruction in the inherited source state. The alternative projective proof by saturated Gorenstein duality and a degree-zero resultant is retained in [Saturated duality](../synthesis/spectral_pushforward_powers.md#projective-normal-flatness-by-duality-and-resultants). The two proofs use different hypotheses: the local proof allows r=s and needs exact transverse special order; the resultant proof uses projectivity, r<s and a saturated actual first-relation line. They should not be merged into a statement omitting those alternatives.
 
 ## Abstract bundle realizations of the six rows
 

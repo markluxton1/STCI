@@ -191,7 +191,7 @@ the deleted middle coordinate. An argument that moves two of the
 curve's singular passages to s=0,t=0 must carry the center along.
 
 Consequently the previously excluded four-A1 family, and the new
-[A3+2A1 family](OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-a3-two-a1-projection-familymd),
+[A3+2A1 family](https://github.com/markluxton1/STCI/blob/a88e52b20b799ead49699a23a1d4691a96f66cf5/research/supplements/OCT9_DELPEZZO_ROOTS_AND_PROJECTION.md#source-2026-10-09-session-a3-two-a1-projection-familymd),
 do not become exhaustive solely because they parametrize smooth RNC
 curves on the unique toric models after such a parameter change.
 The repeated-root locus of L_c and its global descent conditions remain
@@ -200,7 +200,7 @@ the precise continuation target at this note's scope.
 ## 6. Reproducible evidence
 
 The independent checker
-[verify_session_genus_one_projection_2026_10_09.py](../computations/verify_session_genus_one_projection_2026_10_09.py)
+[verify_session_genus_one_projection_2026_10_09.py](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_one_projection_2026_10_09.py)
 verifies the six literal RNC quadrics, both normalized equations, every
 normal-gradient entry, the completed-square identities, the local
 countershield identities, and all A3+2A1 family identities.

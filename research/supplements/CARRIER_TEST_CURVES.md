@@ -41,7 +41,7 @@ It makes no assertion about other sextic families or arbitrary carriers.
 ## 1. Normalization of the parameters and four actual lines
 
 The curve-preserving torus substitution from the
-[earlier proof](MIXED_SEXTIC_CONTACT.md) puts every nonzero
+[earlier proof](../synthesis/residual_contact_cycles.md#exact-degree-six-branch-contact-on-a-mixed-weight-sextic) puts every nonzero
 parameter pair, up to a projective automorphism and nonzero scalar, into
 \[
 F_h=hq^3+c_2^2-c_0^2,\qquad h\ne0.
@@ -550,7 +550,7 @@ source. Its quadric restriction fixes the binary boundary
 \(c_0^2+c_2^2\); representing its remaining term there would require
 \(q x_0c_0\) to be a scalar multiple of \(q^3\), which it is not.
 
-The [new exact control](../computations/stci_game_obstruction_2026_10_30.m2)
+The [new exact control](https://github.com/markluxton1/STCI/blob/8fbfe77d1e90600b2bb8d7e6a6430e0989ca572d/research/computations/stci_game_obstruction_2026_10_30.m2)
 checks this carrier's normal form, discriminant, line factorization
 and nonvanishing condition. These are local/global identity controls;
 they do not supply a normalization classification. This example need not belong to every smooth-root
@@ -566,7 +566,7 @@ The concrete remaining alternatives are repeated normal roots, vertical coeffici
 
 ## Exact polynomial controls
 
-The [mixed-line verifier](../computations/stci_mixed_weight_lines_2026_10_30.m2) and its independent counterpart retain the quadric factorization, line identities and discriminant. Their purpose is to establish the geometric input to (*), rather than supply a surrogate normalization classification. The [extra sextic verifier](../computations/stci_game_obstruction_2026_10_30.m2) retains the nonsquare discriminant and simple attachment check for the carrier outside the small subalgebra. The exact [degree-six branch computation](MIXED_SEXTIC_CONTACT.md) remains separate because its branch-order bound and residual floor are stronger quantitative information in that degree.
+The [mixed-line verifier](https://github.com/markluxton1/STCI/blob/8fbfe77d1e90600b2bb8d7e6a6430e0989ca572d/research/computations/stci_mixed_weight_lines_2026_10_30.m2) and its independent counterpart retain the quadric factorization, line identities and discriminant. Their purpose is to establish the geometric input to (*), rather than supply a surrogate normalization classification. The [extra sextic verifier](https://github.com/markluxton1/STCI/blob/8fbfe77d1e90600b2bb8d7e6a6430e0989ca572d/research/computations/stci_game_obstruction_2026_10_30.m2) retains the nonsquare discriminant and simple attachment check for the carrier outside the small subalgebra. The exact [degree-six branch computation](../synthesis/residual_contact_cycles.md#exact-degree-six-branch-contact-on-a-mixed-weight-sextic) remains separate because its branch-order bound and residual floor are stronger quantitative information in that degree.
 
 
 ## Characteristic reach of the test-curve mechanism

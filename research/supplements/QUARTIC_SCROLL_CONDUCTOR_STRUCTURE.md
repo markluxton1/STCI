@@ -242,7 +242,7 @@ degree-nine derivative. For a column e and weights w=(3,2,1,0),
     M[(i,j),e]=e_i if j=sum(w_k e_k)-w_i, and zero otherwise.
 
 It records the restrictions of all four partial derivatives to Gamma.
-The [exact companion verifier](../computations/verify_session_scroll_conductor_compression.py)
+The [exact companion verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_scroll_conductor_compression.py)
 exhibits a rank-29 minor with determinant 104509440. Using zero-based
 indices, its rows are
 

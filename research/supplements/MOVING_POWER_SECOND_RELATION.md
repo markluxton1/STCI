@@ -239,7 +239,7 @@ such degeneration divisors.
 
 Date: 2026-10-14, America/New_York. Reviewer: root.
 Status: **PROVED under the explicit hypotheses below**. This reviews new
-Section 6 of [the thick extension](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd).
+Section 6 of [the thick extension](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd).
 The previously accepted quadratic transition and apolar annihilator
 classification are inputs; their calculations were not repeated.
 
@@ -351,7 +351,7 @@ presentations. In positive characteristic the factor multiplicity
 
 Date: 2026-10-14. Reviewer: root. Status: **PROVED** under the stated
 balanced-normal and generic relation-rank hypotheses. This reviews new
-Section 7 of [the thick extension](RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd).
+Section 7 of [the thick extension](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd).
 It does not replay a previously accepted statement or computation.
 
 Let `N_C=H tensor k^2` on a smooth integral projective curve, and let
@@ -430,4 +430,4 @@ reduction with its own evidence; it is not used in this proof.
 
 The apolar quotient formula in a **fixed total degree at mosts** has the same proof in characteristicp>s: every factorial in the ordinary symmetric pairing is a unit. Consequently the independently reconstructed saturated-duality/negative-degree-Hom proof excludes an actual lci thickening on any smooth projective base curve with balanced conormal, positive moving direction, actual saturated pure-power first relation m^r, and full generic coprime binary-CI initial degrees2<=r<s, whenp>s. The proof uses the actual surjection at degrees; first-relation jet lifting alone does not supply it. This is a source-level extension.
 
-On a rational base the [prime-to-characteristic spectral descent theorem](FIRST_RELATION_AND_SPECTRAL_ROOTS.md#prime-to-characteristic-spectral-descent-excludes-repeated-moving-components) gives the stronger necessary restriction p|s for such a moving pure-power actual model: normal flatness supplies descent on the full repeated root, and descent withp∤s would force that root reduced. Forp|s Frobenius can kill nilpotent Picard obstructions, so neither argument gives a blanket positive-characteristic exclusion. The rational-base strengthening must not be asserted for every base genus merely from the doubled-divisor calculation onP1×P1.
+On a rational base the [prime-to-characteristic spectral descent theorem](../synthesis/spectral_torsion_and_syzygy_splitting.md#prime-to-characteristic-spectral-descent-excludes-repeated-moving-components) gives the stronger necessary restriction p|s for such a moving pure-power actual model: normal flatness supplies descent on the full repeated root, and descent withp∤s would force that root reduced. Forp|s Frobenius can kill nilpotent Picard obstructions, so neither argument gives a blanket positive-characteristic exclusion. The rational-base strengthening must not be asserted for every base genus merely from the doubled-divisor calculation onP1×P1.

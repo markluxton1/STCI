@@ -540,7 +540,7 @@ line gives the ruled incidence whose image is the singular cubic
 associated with \((C_4,z)\), and not merely a rational surface later
 compared by a birational map. Its smooth model, conductor, and
 projection from the cubic normal scroll are analyzed in the
-[cubic-scroll note](CUBIC_SCROLL_AND_RULED_SURFACES.md#cubic-scroll-normalization).
+[cubic-scroll note](../synthesis/ruled_surface_degree_criterion.md#cubic-scroll-normalization).
 
 For higher osculating incidences one uses the universal divisors
 \((r+1)p\), their evaluation bundles of rank \(r+1\), and the
@@ -937,4 +937,4 @@ would be $-2u^2=0$, impossible in characteristic zero.
 
 ## Characteristic reach and mathematical status
 
-The smooth quadric, projective bundle and resolved linear projection have characteristic-free algebraic models. The balanced normal splitting is valid exactly when \(2\ne0\), as proved in [the characteristic chapter](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md). The displayed apolar and osculating formulas are used in characteristic zero; their derivative and coefficient divisions do not justify an unchanged statement in small characteristic. In characteristic two the explicit scroll becomes a tangent developable and conormal splitting changes; [the scroll model](CUBIC_SCROLL_AND_RULED_SURFACES.md) gives the exact fiber calculation. The finite normalization and smooth resolution of the cone are distinct maps, proved in [the cone chapter](QUARTIC_CONES_AND_RULED_MODELS.md). No universal carrier classification follows from the embedded automorphism group.
+The smooth quadric, projective bundle and resolved linear projection have characteristic-free algebraic models. The balanced normal splitting is valid exactly when \(2\ne0\), as proved in [the characteristic chapter](POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md). The displayed apolar and osculating formulas are used in characteristic zero; their derivative and coefficient divisions do not justify an unchanged statement in small characteristic. In characteristic two the explicit scroll becomes a tangent developable and conormal splitting changes; [the scroll model](../synthesis/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual) gives the exact fiber calculation. The finite normalization and smooth resolution of the cone are distinct maps, proved in [the cone chapter](QUARTIC_CONES_AND_RULED_MODELS.md). No universal carrier classification follows from the embedded automorphism group.

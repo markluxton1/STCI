@@ -214,7 +214,7 @@ Additional nonnormal curves away from C remain a genuine loophole.
 
 ## 3. Exact control example already present in the checkout
 
-The exact [conductor control verifier](../computations/verify_general_conductor_power.py) reconstructs
+The exact [conductor control verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_general_conductor_power.py) reconstructs
 the cubic pinch surface
 
     X: x^2 w-y^2 z=0

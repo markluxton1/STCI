@@ -198,7 +198,7 @@ finite-type algebra presentations; it is not inferred from reduced
 contact graphs, a fixed surface degree, or an unspecified formal family.
 
 In the three fixed-C0 models, the accepted
-[actual-conductor duality formula](PROJECTION_CONDUCTOR_CONTACT_AND_PHASE.md#2026-10-14-generalization-projection-conductor-budget-independent-review)
+[actual-conductor duality formula](../synthesis/normalization_conductor_projection.md#2026-10-14-generalization-projection-conductor-budget-independent-review)
 gives a sharper explicit threshold. Write the actual upstairs conductor
 as `O_S(-B)`, with `B~(a-4)H-K_S`. This part of duality requires the
 Gorenstein normalization and hypersurface image, but not generic
