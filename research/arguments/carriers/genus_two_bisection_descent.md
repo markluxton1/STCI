@@ -173,12 +173,5 @@ of these contact types.
 
 ## Scope and characteristic
 
-The normalization sequence, trace-zero global section, degree-four descent
-and split-conductor phase are the mechanisms of this alternative proof.
-Its support/purity statements are algebraic; the trace splitting requires
-two invertible, and the all-powers torsion/nilpotent argument used here is
-characteristic zero. The particular (4,4) input has its own published
-characteristic restrictions. In positive characteristic, Frobenius can
-remove nilpotent conductor obstructions, and no all-characteristic quartic
-exclusion is inferred. The actual fixed C0 has quartic-carrier STCI
-presentations in every positive characteristic.
+This alternative proof uses the normalization sequence, trace-zero section, degree-four descent, and split-conductor phase. Support and purity are algebraic; trace splitting requires \(2\) invertible, and the all-powers torsion/nilpotent argument requires characteristic zero. The published \((4,4)\) input has separate characteristic restrictions. Frobenius can remove nilpotent conductor obstructions, and the fixed \(C_0\) has quartic-carrier STCI presentations in every positive characteristic; no all-characteristic exclusion follows.
+
