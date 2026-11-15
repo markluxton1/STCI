@@ -73,52 +73,31 @@ contains the global monomial basis, exact rational perturbations, pivots and
 ranks. The formal/étale-local smoothing interpretation additionally uses the
 node-family argument in its proof home.
 
-## Mathematical inputs are not disposable logs
+## Historical computation artifacts and current scope
 
-Keep a check's actual dependency closure. In particular:
+Exact computational inputs and certificates used in earlier investigations were
+retired under the Phase 3A retention policy. Git history retains the historical
+versions; the current tree does **not** provide a complete replay environment
+for those computations. A reference to a saved witness, dual coefficient,
+Taylor array, or other validation export in an older research note is historical
+unless its current availability is separately confirmed.
 
-- Local-cohomology checks read `localcoh-incidence-tensor.txt`,
-  `localcoh-incidence-bases.txt`, `localcoh-symbol-top.json`, actual family
-  seed JSONs, dual coefficient files and saved exact certificates. Some
-  verifiers also bind small evaluation files by hash. Restore or deliberately
-  repair those bindings before removing an input.
-- The degree-fifteen certificate stores the complete normalized dual in JSON.
-  Its checker reconstructs the actual tensor from the four mathematical inputs
-  and checks all polynomial identities directly; construction inverses and
-  generation records are unnecessary. The certificate also binds the exact
-  arithmetic implementation used by that check.
-- Quintic and nonendpoint programs read actual coefficient data under
-  `../validation/`: the primitive diagonal polynomial, Taylor coefficient
-  arrays, corrected H2 quotient/norm inputs, and H3 coefficient/remainder
-  and Bézout data. That directory is not uniformly execution history.
-- Preserve the distinct H3 multiplicity-four, support32 and divisibility
-  identities with their original generators, exponents and chart units.
-  One `support32-witness.txt.gz` archive suffices for the identical support32
-  witness; a different Bézout matrix is a different proof step.
-- The dx1 exact saturation audit reads its compact polynomial certificate,
-  full e2 obstruction formulas and the isolated equation input named in
-  its source. A successful status message does not replace these inputs.
-- Genus-one repeated-partition identities have their usable M2 source at
-  `../validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2`.
-  A nested replay snapshot is unnecessary once its actual source is restored.
+The retained `generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2`
+describes the H2 export construction but itself reads historical coefficient
+inputs, some now retired. The former seventeen-equation and domain-polynomial
+exports are no longer present. Do not claim this model is immediately rerunnable
+without restoring inputs from Git history or regenerating them.
 
-The global H2 model loads its seventeen equations and domain polynomial from
-`../validation/2026-10-15-quintic-h2-global-monic-ode/attempt-02-name-repair/`.
-The retained exact generator source reconstructs the twelve-generator spectral
-system from the corrected sextic coefficient inputs; bulk Horner exports add
-no separate mathematical assertion.
-The two previously absent coefficient captures were recovered from the retained
-complete forms: `Q-coefficient-6.txt` is `[x^6]Q`, equal to the saved octic
-coefficient `[x^8]Fsrc`, and `F-source-coefficient-0.txt` is
-`[x^0]Fsrc=wPar*[x^0]Q`. This restores input paths without a new incidence
-calculation; the retained full forms satisfy `Fsrc=(x^2+vPar*x+wPar)*Q`.
+The distinct H3 multiplicity-four and support32 coefficient certificates were
+also retired. Their identities, hypotheses, and qualifications remain described
+in the H3 mathematical supplement, but the large saved columns and the former
+multiplicity/support32 generator program paths are not available in the current
+tree. Treat computer-certified identities as historically verified claims, not
+as newly established independent symbolic proofs.
 
-A `.txt`, `.json` or compressed file can be the mathematical witness itself.
-Conversely, a rank summary, process record, hash inventory or repeated PASS
-output may add no argument once the exact proof and adequate checking inputs
-survive. Follow the
-[exact proof support rules](../MODEL.md#exact-proof-support-and-retention) and
-inspect the content and consumers before changing support.
+Retained mathematical methods and statements should be distinguished from
+historical execution evidence. The project does not require retaining every
+saved coefficient or certificate to preserve the mathematical research.
 
 ## Structural checks
 

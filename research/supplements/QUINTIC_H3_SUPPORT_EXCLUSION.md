@@ -180,16 +180,15 @@ assertion. The repaired chart retains c5 and is the one used here.
 
 For multiplicity at least four the original four generators are
 `S5(x),S5'(x),S5''(x),S5'''(x)`. In characteristic zero their vanishing is
-equivalent to a root of multiplicity at least four. The completed owner
-source records a literal combination of these original generators equal
-to `(V c5)^2`, with x retained as a variable. Its
-[compressed exact witness](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt.gz)
-has exponent two and retains the original input row and source
-`generalization_quintic_h3_multiplicity_witness.m2`. The gzip archive
-recovers the exact 22,448,188-byte coefficient column, with SHA256
-`6cf77107cc2c0d8a934bc867417d8efefafe8fcbe5040ccaac481277d4315bd6`.
-Decompress it before direct inspection in Macaulay2; the generating source
-continues to write the plain-text coefficient column.
+equivalent to a root of multiplicity at least four. The historical
+computer-certified calculation reported a combination of these generators
+equal to `(V c5)^2`, with x retained as a variable and exponent two.
+The compressed coefficient witness and the previously cited
+`generalization_quintic_h3_multiplicity_witness.m2` source are **not present**
+in the current tree. The saved certificate was retired; its historical version
+remains in Git history. Direct replay requires recovering or reconstructing
+the relevant inputs and program.
+
 This is an exact membership certificate on all parameters, rather than
 a reliance on a printed saturated `ideal(1)` or a root sample.
 
@@ -342,13 +341,28 @@ is the minimal possible exponent.
 
 ## Exact support and remaining scope
 
-The original H3|S5 three-generator witness, multiplicity-at-least-four original four-generator witness and final3+2 original six-generator witness are distinct proof branches. Retain their exact inputs and coefficient columns: [H-divides-S input/witness source](../computations/generalization_quintic_h3_divisibility_certificate.m2), [multiplicity-four source](../computations/generalization_quintic_h3_multiplicity_witness.m2), and [3+2 source](../computations/generalization_quintic_h3_support32_witness.m2). The [original six-generator input](../validation/2026-10-13-generalization-quintic-h3/support32-input.txt) and [compressed support32 witness](../validation/2026-10-13-generalization-quintic-h3/support32-witness.txt.gz) are essential saved mathematical data; a byte/hash check alone is not a substitute for its asserted original-generator product. The duplicate subset extraction carries the same uncompressed matrix and adds no distinct proof.
+The H3|S5 three-generator, multiplicity-at-least-four four-generator,
+and final 3+2 six-generator identities are distinct historical computational
+claims. Their generator descriptions, exponents, chart conditions, and
+mathematical scope are recorded here. Saved coefficient and witness exports
+were retired in Phase 3A; the previously cited
+`generalization_quintic_h3_multiplicity_witness.m2` and
+`generalization_quintic_h3_support32_witness.m2` are absent from the
+current tree. The retained
+[H-divides-S computational source](../computations/generalization_quintic_h3_divisibility_certificate.m2)
+documents a separate branch. Historical verification of the other identities
+must not be mistaken for presently replayable certification or an independent
+symbolic proof.
 
 The sole-common-root regular-L1/L2 bridges are a different contribution, owned with [single-root incidence](NONENDPOINT_SINGLE_ROOT_INCIDENCE.md) and the full L2 theorem in [the A4 conductor/incidence treatment](QUINTIC_A4_CONDUCTOR_AND_SEXTIC_INCIDENCE.md#2026-10-13-generalization-quintic-l2). They do not settle Z=0, target infinity, Jbar=0 or several allowed support points by themselves.
 
 The h=2 incidence, degree-one singular quotient-fiber charts, other quintic normalizations and entirely thick presentations remain separate questions. The coefficient identities are exact characteristic-zero proofs on the stated unit charts. Their geometric setup, scalar inversions, multiplicity derivatives and witness nonvanishing must be verified before any reduction modulo a prime; no arbitrary positive-characteristic exclusion is asserted.
 
-The other two branches retain direct data access: [H3-divides-S5 original remainder generators](../validation/2026-10-13-generalization-quintic-h3/h-divides-s-remainder.txt) and [three-entry witness](../validation/2026-10-13-generalization-quintic-h3/h-divides-s-witness.txt), plus [multiplicity-four original input](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-input.txt) and [four-entry witness](../validation/2026-10-13-generalization-quintic-h3/multiplicity4-witness.txt.gz). These literal coefficient columns support different root-pattern exclusions; they are not interchangeable logs.
+The original remainder generators, coefficient columns, and compressed
+witnesses cited in earlier reviews are no longer stored in the current
+working tree. Their historical versions remain accessible through Git history.
+These distinct identities should not be conflated or upgraded in evidentiary
+status because their saved certificates were retired.
 
 ## Consolidation review
 
