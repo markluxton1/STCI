@@ -114,7 +114,7 @@ calculation therefore applies separately to each branch.
 
 ## Exact global coefficient calculation and all rank strata
 
-The primary [Macaulay2 verifier](../computations/stci_mixed_contact_2026_10_29.m2)
+The primary historical Macaulay2 verifier
 works over Q[h], with no inversion of h during matrix construction. The
 [independent Macaulay2 verifier](../computations/stci_mixed_contact_audit_2026_10_29.m2)
 computes both exceptional polynomials and the independently assembled rank
@@ -214,4 +214,4 @@ cycle is counted as a residual curve.
 
 ## Necessary exact computational support
 
-The [primary verifier](../computations/stci_mixed_contact_2026_10_29.m2) and [separately assembled verifier](../computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The inherited independent review reconstructed the recurrence, weight blocks, invariant factors, and integrality deduction. No fresh rank run was required for the editorial consolidation.
+The historical primary verifier and [separately assembled verifier](../computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The inherited independent review reconstructed the recurrence, weight blocks, invariant factors, and integrality deduction. No fresh rank run was required for the editorial consolidation.
