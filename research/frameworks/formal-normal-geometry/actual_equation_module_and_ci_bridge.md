@@ -24,10 +24,7 @@ Notice the indexing subtlety: the two original equations in the bridge have orde
 
 ## 3.6 Moving pure powers and degeneration
 
-[STCI-R-0009](../../results/moving_purepower_boundary.md) treats a saturated first relation that is the \(r\)-th power of a moving normal direction, \(r\ge2\), in characteristic zero. Finite first-relation lifting can persist, but an everywhere-coprime next graded relation cannot: its evaluation divisor has degree at least \((r-1)\varepsilon\), where \(\varepsilon>0\) is the direction-map degree.
-
-This produces a **necessary degeneration divisor**, not a contradiction to every actual complete intersection. A genuine STCI presentation could lie outside the theorem through special-point degeneration, noncoprime relations, nonsaturation, or a different full initial ideal.
-
+[R-0009](../../results/moving_purepower_boundary.md) proves, in characteristic zero, that a saturated first relation equal to the \(r\)-th power of a moving normal direction (\(r\ge2\)) cannot admit an everywhere-coprime next graded relation: its evaluation divisor has degree at least \((r-1)\varepsilon\) for direction-map degree \(\varepsilon>0\). Finite first-relation lifting may nevertheless persist. This forces a **degeneration divisor** under the stated assumptions, not universal failure of actual complete intersections; nonsaturation, noncoprimality, special-point defects, or a different full initial ideal remain outside that conclusion.
 
 ## 3.7 The other multiple-structure calculations
 
