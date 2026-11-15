@@ -442,17 +442,7 @@ orbit calculation.
 
 ### Genus-one interface review
 
-On 2026-10-10, `oct10_genus_one_interfaces` independently checked that
-every hypothetical integral sectional-genus-one quartic carrier and
-mate for the fixed curve enter the fixed-center partition calculation
-above. The audit read the component proofs, checked the primary
-anticanonical model statements, and traced the full inverse-support,
-ADE and lattice reduction, actual Cartier double, entire conductor,
-and exhaustive direction and contact partitions. It accepted the
-interfaces conditional on the independently handled exclusions of
-`[4]`, `[3,1]` and `[2,2]`; their proofs and separate exact checks
-are linked above. The review imposed no mate-degree bound, normal-order
-assumption, or conductor reducedness. [Independent interface audit](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd).
+The [independent interface audit](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd) checks the anticanonical model, full inverse support, ADE/lattice reduction, Cartier double, entire conductor, and exhaustive direction/contact partitions. It accepts the genus-one interfaces **conditional on** the separate \([4],[3,1],[2,2]\) exclusions, without a mate-degree bound, normal-order assumption, or reduced-conductor assumption.
 
 ## 6. Sectional genus two: conic geometry and the two correction strata
 
