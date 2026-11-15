@@ -867,23 +867,7 @@ ambient quadratic form: descent to X is a separate question.
 
 ## 8. Scope and a check against an invalid stronger bound
 
-The separate fiber-weight auditor accepted Sections 5--7 and supplied
-a local consistency check for an odd count. Start with a reduced nodal
-fiber `A+B` on V, where both components are `(-1)` curves. Blowing up
-their intersection once gives
-
-    F=A'+B'+2E,   R=E,   Z=(A'+B')/2.
-
-Both A' and B' are `(-2)` curves. This matches `k=1` and weight `1/2`;
-it shows why rational coefficients and intersection centers must be
-included. The example is a local fiber check, not a globally realized
-quartic carrier or a mate.
-
-No exclusion of `[3,1]`, `[2,1,1]`, or `[1,1,1,1]` follows from the
-counting argument alone. Exceptional-fiber connectedness, the smooth
-embedded lift, the actual quartic map, and conductor descent still
-have to be imposed. The lambda-one section lane is unchanged.
-
+A reduced nodal fiber \(A+B\) on \(V\), with \((-1)\)-components, can be blown up at its node to give \(F=A'+B'+2E,\ R=E,\ Z=(A'+B')/2\), where \(A',B'\) are \((-2)\)-curves. Thus a single blowup can give \(k=1\) and rational weight \(1/2\); one must retain intersection centers and full fiber multiplicities. This local consistency model is not a realized quartic or mate. Fiber counting **alone** excludes none of \([3,1],[2,1,1],[1,1,1,1]\); connectedness, the actual embedded lift, the quartic map, and conductor descent remain separate, as does the \(\lambda=1\) section lane.
 
 ---
 
