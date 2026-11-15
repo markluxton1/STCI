@@ -640,14 +640,7 @@ This is the missing global datum that the generic Rees valuations over \(k(C)\) 
 
 ## Characteristic reach and limitation
 
-The full-lci-ideal Rees presentation, finite normalization/dimension proof,
-Segre formula and exact vertical/nonsaturation families are algebraic in
-arbitrary characteristic under the displayed finite-type hypotheses. They
-already admit sole-support examples, and provide no characteristic-zero
-positivity theorem. Generic-cluster residue extensions must retain their
-degrees; inseparability is not silently replaced by a set of geometric points.
-[Positive-characteristic supported pairs](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier)
-therefore violate no retained conclusion.
+The full-lci Rees presentation, finite-normalization dimension argument, Segre formula, and vertical/nonsaturation examples hold in arbitrary characteristic under the stated finite-type hypotheses. They admit sole-support examples and imply **no characteristic-zero positivity theorem**. Residue extension degrees and inseparability must be retained in generic clusters. [Positive-characteristic supported pairs](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) violate none of these statements.
 
 ## Related proof developments
 
