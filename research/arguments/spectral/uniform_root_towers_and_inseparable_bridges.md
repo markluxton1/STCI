@@ -1039,25 +1039,7 @@ STCI and unrestricted `C0` problems remain open.
 
 ## Independent audit of the inseparable-root actual-CI bridge
 
-Date: 2026-10-15. Reviewer: `new_logarithmic_review`.
-
-Status: **PASS for the new arbitrary-characteristic actual-CI bridge,
-under all literal hypotheses.** The proposed repair correctly replaces
-the separable-root elimination argument with uncompleted local algebra
-at the actual root prime. It proves the full global primitive structure,
-the conormal splitting, actual Cartier lifts through the claimed stages,
-and the conditional finite-gap consequence in arbitrary characteristic.
-
-Reviewed source:
-[inseparable-root blowup bridge](#2026-10-15-generalization-inseparable-root-blowup-bridge).
-The accepted characteristic-zero bridge and the
-[characteristic-free formal/tower addendum](finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum)
-are premises. The separate
-[generic local-algebra review](#2026-10-15-generalization-inseparable-root-blowup-local-algebra-review)
-passes the standard-basis and root-prime steps. This full new-scope
-audit checks their use in the global extension, the new wild family,
-and the obstruction/lift consequences. No accepted computation,
-characteristic-zero proof, CAS calculation, or verifier was replayed.
+Independent review accepted the **arbitrary-characteristic actual-CI bridge** under its literal hypotheses. Replacing separable-root elimination with uncompleted local algebra at the actual root prime yields the global primitive structure, conormal splitting, Cartier lifts through the specified stages, and a **conditional** finite-gap consequence. See [the bridge](#2026-10-15-generalization-inseparable-root-blowup-bridge) and [local-algebra review](#2026-10-15-generalization-inseparable-root-blowup-local-algebra-review). The characteristic-zero bridge and [formal/tower addendum](finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum) are premises; the review checked their global use, wild family, and lift consequences without rerunning inherited proofs or certificates.
 
 ### 1. The scope that must survive the extension
 
