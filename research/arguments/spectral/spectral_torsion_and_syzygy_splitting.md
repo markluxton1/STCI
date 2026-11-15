@@ -1061,16 +1061,7 @@ of rational components, without discarding ramification or gluing.
 
 ## Independent audit: double-divisor Picard detection and nonreduced moving roots
 
-Date: 2026-10-19. Reviewer: `spectral_nilpotent_audit`, independently
-reconstructing the proposal received from the parent investigation.
-The final review also checks the actual written proposal
-[A doubled-divisor obstruction to nonreduced moving spectral roots](#2026-10-19-spectral-nonreduced-root-obstruction),
-including its component arithmetic, movement-two dichotomy, and integral
-`(1,k)` component assertion.
-
-Status: **PASS as a new, scope-limited mathematical argument.** This audit
-is evidence for a proposal; it does not alter
-an accepted result. No inherited theorem or certificate was rerun.
+Independent reconstruction checked [the doubled-divisor obstruction](#2026-10-19-spectral-nonreduced-root-obstruction), including component arithmetic, the movement-two dichotomy, and the integral \((1,k)\) component claim. This is a **scope-limited proposed argument**, not a change to an accepted Result; inherited certificates were not rerun.
 
 ### 1. Exact claims reviewed and authority used
 
