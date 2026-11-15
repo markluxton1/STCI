@@ -1306,5 +1306,147 @@ proof for arbitrary pairs.
 
 ## Exact support and review boundary
 
-The flag-sequence argument proves the uniform symbol formulas. The [finite Macaulay2 check](../../computations/stci_search_freedom_2026_10_28.m2) covers \(1\le m\le6\), \(0\le d\le3m+2\); it is not the uniform proof. The fixed-cubic residual-cycle floor is a separate calculation. These source-image results can locate degrees admitting higher restriction movement or obstruct movement for a specified source, but formal row operations over \(k(C)\) do **not** imply that homogeneous triangular operations cross the fixed-factor threshold.
+The flag-sequence formula and symbol dimensions were independently reconstructed in the source research. The retained [Macaulay2 calculation](../../computations/stci_search_freedom_2026_10_28.m2) checks saturated powers for \(1\le m\le6\), all \(0\le d\le3m+2\), and the displayed symbol rows. The uniform proof is the flag sequence and induction, not the finite checks. The fixed-cubic family and its residual-cycle floor also received independent review. No new computation was needed for this consolidation.
 
+The mechanism is useful in both directions: choose degrees where higher lifts can move the restriction on \(Q\), or show that a specified source cannot move its residual. Formal row operations over \(k(C)\) do not prove that an actual homogeneous triangular row operation crosses the fixed-factor threshold.
+
+
+## Broader curve controls: global coefficients and Frobenius
+
+These exact controls concern the whole family below, not only the fixed quartic. The scalar-coefficient counterexample received independent source review. The twisted-cubic containment is checked by the retained exact script; it is a positive characteristic-zero control.
+
+Throughout let
+\[
+ C_n=(s^{n+1}:s^nt:st^n:t^{n+1}),\qquad n\ge2.
+\]
+It is a smooth rational curve of degree n+1 and class (1,n) on the
+smooth quadric \(Q=xw-yz\), up to swapping the two rulings.
+
+## 1. Scalar extension can manufacture a false global witness
+
+Let \(S_n=yw^{n-1}-z^n\). Consider the degree-(n+1) forms
+\[
+ G_1=yS_n,\qquad G_2=wS_n.
+\]
+In the chart w=1 take the genuine generic coordinate T=z, and the
+normal coordinates
+\[
+ u=y-T^n,\qquad v=x-yT.
+\]
+Thus \(Q=v\), \(S_n=u\), and \(K=k(C_n)=k(T)\). The jets satisfy
+\[
+ G_1=(T^n+u)u,\quad G_2=u,\quad G_1-T^nG_2=u^2.
+\]
+Consequently the relaxed K-linear combination with Q has local ideal
+(v,\(u^2\)), of length two. This matches the proposed global degree
+budget \(2(n+1)/(n+1)=2\), even at the sufficient cutoff.
+
+But \(T^n\) is not a constant global surface coefficient. For every
+nonzero pair \((\alpha,\beta)\in k^2\), the actual global combination
+has
+\[
+ \alpha G_1+\beta G_2
+ =u(\alpha u+\alpha T^n+\beta).
+\]
+Since T is transcendental, \(\alpha T^n+\beta\ne0\).
+The second factor is a unit in the generic local ring, so the actual
+intersection with Q has length one. No member of this global pencil
+passes the degree-two target.
+
+There is a stronger, pencil-independent exclusion on this Q. A
+degree-(n+1) surface meeting Q properly and with generic multiplicity
+two along C_n would require
+\[
+ (n+1)H-2C_n=(n-1,1-n)
+\]
+effective on \(\mathbf P^1\times\mathbf P^1\), impossible for n>=2.
+Indeed C_n is not STCI on this smooth Q in any second degree because
+its class is not proportional to H.
+
+This does not contradict the finite normal-jet criterion. The formal expression with
+coefficient \(T^n\) is not a global degree-(n+1) form. Treating T as
+the ambient coordinate z after dehomogenization would instead change
+the polynomial to \(S_n^2\), of homogeneous degree 2n. Its degree
+budget is different, and its intersection with Q has a residual ruling.
+The generic formal coefficient field and homogeneous polynomial degree
+must be retained together.
+
+**Coefficient contract:** the local matrix is computed over K, but the unknown
+surface coefficients must remain in k. Existence of a K-point in a
+relaxed coefficient problem is insufficient. The missing datum is liftability from the actual scalar-coefficient global equation space.
+
+## 2. The binomial pair: exact characteristic dependence
+
+Now use the singular first surface S_n and the degree-(n+1) form
+\[
+ T_n=x^nw-y^{n+1}.
+\]
+Use normal coordinates \(u=y-T^n\), \(v=x-T^{n+1}\) in the same chart.
+The target generic multiplicity is n. Modulo \(S_n=u\), the other
+equation becomes
+\[
+ (T^{n+1}+v)^n-T^{n(n+1)}.
+\]
+
+In characteristic zero its linear term is
+\(nT^{n^2-1}v\), with nonzero coefficient in K, so the length is one.
+The pair therefore fails for every n>=2.
+
+In characteristic p, write \(n=p^e r\), with \(p\nmid r\). Frobenius gives
+\[
+ (T^{n+1}+v)^n-T^{n(n+1)}
+ =\left((T^{n+1}+v)^r-T^{r(n+1)}\right)^{p^e}.
+\]
+The inner expression has nonzero linear coefficient, so the generic
+length is exactly \(p^e\). The direct support calculation below proves
+\[
+ \boxed{\quad
+ V_+(S_n,T_n)_{\mathrm{red}}=C_n
+ \quad\Longleftrightarrow\quad n\text{ is a power of }p.
+ \quad}
+\]
+This is an if-and-only-if for this particular binomial pair.
+It is not an exclusion of other pairs when n is not a p-power; Moh's
+broader projective monomial theorem supplies positive results in those
+other cases by different equations.
+
+There is a direct geometric check. Let r=n in characteristic zero and
+r=n/p^e in characteristic p. On w=1 the support consists of the r
+distinct curves
+\[
+ x=\zeta z^{n+1},\quad y=z^n,\qquad \zeta^r=1.
+\]
+Their closures each have degree n+1 and generic multiplicity p^e
+(multiplicity one in characteristic zero). They account for the whole
+degree \(n(n+1)\). At w=0 the equations force z=y=0 and leave just
+(1:0:0:0), already on their closures. Thus no component at infinity
+has been silently omitted.
+
+Frobenius merges these distinct components scheme-theoretically into
+one support exactly when r=1. It is a genuine global positive mechanism.
+In characteristic zero the deficit relative to C_n alone is
+\((n-1)(n+1)\); it is residual degree, not an abstract local defect.
+
+## 3. A positive characteristic-zero control
+
+For n=2 the twisted cubic is an STCI, but its second equation on S_2
+needs the mixed term:
+\[
+ F=yw-z^2,\qquad G=x^2w-2xyz+y^3.
+\]
+For
+\[
+ I=(xz-y^2,\ xw-yz,\ yw-z^2),
+\]
+the exact computation gives
+\[
+ (F,G)\subset I,\qquad I^2\subset(F,G),
+ \qquad\deg S/I=3,\quad\deg S/(F,G)=6.
+\]
+The generic finite jet length is two, exactly the target. These
+containments independently certify the radical equality over QQ.
+This keeps failure of the simpler binomial pair separate from failure
+of the curve to be an STCI.
+
+
+The retained [finite normal-jet verifier](https://github.com/markluxton1/STCI/blob/65f5122ff816052fc76e5876d501e7b9ef86253b/research/computations/finite_normal_jet_certificate.m2) supplies the exact twisted-cubic containments and finite characteristic controls; the uniform family statements have the proofs above.
