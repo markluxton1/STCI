@@ -119,3 +119,14 @@ flat projective family where normal associated-graded base change fails.
 The [residual construction framework](../residual-construction/index.md)
 compares marked deformations and cycle transfer; a map from the full normal
 cone to its marked incidence problem is still needed.
+
+
+### From normal symbols to global equations
+
+- [Generic normal forms and saturation of relations](generic_normal_forms_and_relation_saturation.md)
+- [Actual equation modules and complete-intersection bridges](actual_equation_module_and_ci_bridge.md)
+- [Thickening hierarchy, jet budgets, and socle movement](thickening_hierarchy_and_jet_budgets.md)
+- [Characteristic-two tests and sextic lifting](characteristic_two_and_sextic_lifts.md)
+- [Embedded one-step lifts and arithmetic boundaries](embedded_one_step_lifts_and_arithmetic_boundaries.md)
+
+The first saturated normal relation, subsequent quotient relations, actual homogeneous equation sources, and embedded arithmetic lifting are distinct requirements. The [original section addresses](from_symbols_to_equations.md) remain navigable.
