@@ -2277,27 +2277,7 @@ and its explicit first missing global lift.
 
 ## 7. Final assembled-note review
 
-The final [assembled proposal](#2026-10-20-conditional-2-12-global-realization-incidence)
-was reviewed against the source order, target order and exact JSON.
-The source basis list and eleven image forms have the correct
-indices. The independent determinant of the indicated 22-row
-image minor is `48`. The T12 exponent convention with negative
-Laurent powers uses direction difference `n-m`, as written in the
-assembled note and exporter; the singular note's positive indices
-give the equivalent difference `j-ell`.
-
-The new tangent comparison proves nonautomatic membership on K1
-only; the cubic seed certificate does not newly exclude a point
-of the full second incidence, and the assembled note states that
-limitation. The scheme's nonemptiness remains unproved. The
-eventual global gcd/Bezout paragraph correctly requires actual
-global equations first and does not infer support solely from a
-low-order incidence. No current mathematical defect was found in
-these scoped claims. Final outcome: **PASS for the exact structured
-reduction, proposed singular bridge and first unresolved global
-lift; a global realization remains outside
-this review.**
-
+The assembled conditional \((2,12)\) incidence uses the verified 23-dimensional sextic source, eleven image equations, and the 22-row image minor of determinant \(48\). The Laurent exponent convention for the \(T_{12}\) calculation is \(n-m\) (equivalently \(j-\ell\) in the positive-index convention). The tangent test proves nonautomatic membership on \(K_1\) only; the cubic seed certificate does **not** exclude the full second incidence. Neither nonemptiness of that incidence nor an actual global pair is proved. The gcd/Bezout sole-support test is applicable **only after** global equations have been constructed. These are the boundaries of the verified structured reduction, not a global realization certificate.
 
 ### Retired source certificate: `research/computations/conditional_2_12_cubic_reduction_2026_10_21.json`
 
