@@ -735,7 +735,7 @@ Date: 2026-10-14. Author: `moving_second_general/spectral_audit`.
 Status: **NEW PROOF, independently derived for the parent moving-relation lane.**
 No inherited pure-power, tower, or normal-carrier certificate was rerun.
 The statement being audited is [Root-curve descent and the geometry of
-moving binary relations](MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-spectral-root-curve-relations).
+moving binary relations](#2026-10-14-generalization-spectral-root-curve-relations).
 
 This note proves a criterion for an abstract graded algebra on a curve.
 It does not construct a multiple structure in the actual formal neighborhood

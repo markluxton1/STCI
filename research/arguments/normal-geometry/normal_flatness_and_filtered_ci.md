@@ -60,7 +60,7 @@ algebra has first ideal order `r`, then its Hilbert function begins
 
 Its characteristic-free proof is preserved in
 [Reflection, higher moments, and sharp codimension-two Loewy bounds,
-section 2](SOCLE_AND_LOEWY_BOUNDS.md#source-2026-10-13-generalization-higher-moment-and-loewy-boundsmd).
+section 2](socle_and_loewy_bounds.md#source-2026-10-13-generalization-higher-moment-and-loewy-boundsmd).
 The delicate separate restriction calculations and Jordan-block argument
 were independently checked in
 [the independent socle audit](socle_and_loewy_bounds.md#source-2026-10-13-generalization-socle-independent-auditmd),
