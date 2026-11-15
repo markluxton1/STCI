@@ -490,7 +490,7 @@ The theorem does not cover a nonsaturated first relation (its torsion disrupts e
 
 ### E. Scope of continuation
 
-The surviving mathematical gaps are the earliest nonsaturated-relation defect, non-CI annihilator flags, actual lifting of reduced singular full roots, and distribution of exceptional contact multiplicities. A1–A4 are proved in their linked mathematical sources and reviewed there; the bounded computations are not a substitute for those proofs. No completed elimination or unrestricted STCI classification is asserted.
+Open gaps include nonsaturated-relation defects, non-CI annihilator flags, lifting and gluing reduced singular roots, and directional exceptional contact multiplicities. A1–A4 have their own proofs; bounded computations do not establish elimination or unrestricted STCI classification.
 
 ---
 
