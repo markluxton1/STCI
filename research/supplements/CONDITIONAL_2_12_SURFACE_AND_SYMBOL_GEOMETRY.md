@@ -832,3 +832,241 @@ these scoped claims. Final outcome: **PASS for the exact structured
 reduction, proposed singular bridge and first unresolved global
 lift; a global realization remains outside
 this review.**
+
+
+### Retired source certificate: `research/computations/conditional_2_12_cubic_reduction_2026_10_21.json`
+
+Historical source retained verbatim, including limitations and external dependencies. Relative file paths in archived code refer to the original repository location.
+
+<details><summary>Original source</summary>
+
+```json
+{
+  "status": "new exact q-line reduction; no emptiness assertion",
+  "input": "/Users/markluxton/Projects/STCI/research/computations/conditional_2_12_elimination_2026_10_20.py",
+  "input_sha256": "66d8c0d841cc12d664b5188f72c943d85411e3c0617aeb4d6f0cef96c9277713",
+  "chart": "d0=d4=1 finite projective/torus cover over nonzero endpoints",
+  "variables": [
+    "d1",
+    "d2",
+    "d3",
+    "y0",
+    "y1",
+    "y2",
+    "y3",
+    "h4",
+    "h5",
+    "h6",
+    "h7"
+  ],
+  "equations": {
+    "K1": 8,
+    "norm_symbol": 3,
+    "qline": 4
+  },
+  "simple_qline": "rem_D(Dprime-12*z^2*G)",
+  "all_strata_qline": "rem_D(alpha*(Dprime-12*z^2*G)); equivalent to rem_D(Nprime_T(z^3)-4*alpha*G) since 3*z^2 is a unit modulo D with D0=1",
+  "alpha_multiplication_matrix": [
+    [
+      "3-3*d2*d2+6*d2*d3*d3-3*d3*d3*d3*d3",
+      "-6*d3+3*d1*d3*d3+6*d2*d2*d3-9*d2*d3*d3*d3+3*d3*d3*d3*d3*d3",
+      "-3*d2+9*d3*d3+3*d1*d2*d3+3*d2*d2*d2-6*d1*d3*d3*d3-12*d2*d2*d3*d3+12*d2*d3*d3*d3*d3-3*d3*d3*d3*d3*d3*d3",
+      "12*d2*d3+3*d1*d2*d2-12*d3*d3*d3-12*d1*d2*d3*d3-9*d2*d2*d2*d3+9*d1*d3*d3*d3*d3+21*d2*d2*d3*d3*d3-15*d2*d3*d3*d3*d3*d3+3*d3*d3*d3*d3*d3*d3*d3"
+    ],
+    [
+      "-3*d2*d3-3*d1*d2*d2+3*d3*d3*d3+6*d1*d2*d3*d3-3*d1*d3*d3*d3*d3",
+      "3-6*d1*d3-3*d2*d2+6*d2*d3*d3+3*d1*d1*d3*d3+6*d1*d2*d2*d3-3*d3*d3*d3*d3-9*d1*d2*d3*d3*d3+3*d1*d3*d3*d3*d3*d3",
+      "-6*d3-3*d1*d2+12*d1*d3*d3+6*d2*d2*d3+3*d1*d1*d2*d3+3*d1*d2*d2*d2-9*d2*d3*d3*d3-6*d1*d1*d3*d3*d3-12*d1*d2*d2*d3*d3+3*d3*d3*d3*d3*d3+12*d1*d2*d3*d3*d3*d3-3*d1*d3*d3*d3*d3*d3*d3",
+      "-3*d2+9*d3*d3+15*d1*d2*d3+3*d2*d2*d2+3*d1*d1*d2*d2-18*d1*d3*d3*d3-12*d2*d2*d3*d3-12*d1*d1*d2*d3*d3-9*d1*d2*d2*d2*d3+12*d2*d3*d3*d3*d3+9*d1*d1*d3*d3*d3*d3+21*d1*d2*d2*d3*d3*d3-3*d3*d3*d3*d3*d3*d3-15*d1*d2*d3*d3*d3*d3*d3+3*d1*d3*d3*d3*d3*d3*d3*d3"
+    ],
+    [
+      "3*d2-3*d3*d3-3*d1*d2*d3-3*d2*d2*d2+3*d1*d3*d3*d3+6*d2*d2*d3*d3-3*d2*d3*d3*d3*d3",
+      "-9*d2*d3-3*d1*d2*d2+3*d3*d3*d3+9*d1*d2*d3*d3+6*d2*d2*d2*d3-3*d1*d3*d3*d3*d3-9*d2*d2*d3*d3*d3+3*d2*d3*d3*d3*d3*d3",
+      "3-6*d1*d3-6*d2*d2+15*d2*d3*d3+3*d1*d1*d3*d3+9*d1*d2*d2*d3+3*d2*d2*d2*d2-3*d3*d3*d3*d3-15*d1*d2*d3*d3*d3-12*d2*d2*d2*d3*d3+3*d1*d3*d3*d3*d3*d3+12*d2*d2*d3*d3*d3*d3-3*d2*d3*d3*d3*d3*d3*d3",
+      "-6*d3-3*d1*d2+12*d1*d3*d3+18*d2*d2*d3+3*d1*d1*d2*d3+6*d1*d2*d2*d2-21*d2*d3*d3*d3-6*d1*d1*d3*d3*d3-24*d1*d2*d2*d3*d3-9*d2*d2*d2*d2*d3+3*d3*d3*d3*d3*d3+21*d1*d2*d3*d3*d3*d3+21*d2*d2*d2*d3*d3*d3-3*d1*d3*d3*d3*d3*d3*d3-15*d2*d2*d3*d3*d3*d3*d3+3*d2*d3*d3*d3*d3*d3*d3*d3"
+    ],
+    [
+      "6*d3-3*d1*d3*d3-6*d2*d2*d3+9*d2*d3*d3*d3-3*d3*d3*d3*d3*d3",
+      "3*d2-9*d3*d3-3*d1*d2*d3-3*d2*d2*d2+6*d1*d3*d3*d3+12*d2*d2*d3*d3-12*d2*d3*d3*d3*d3+3*d3*d3*d3*d3*d3*d3",
+      "-12*d2*d3-3*d1*d2*d2+12*d3*d3*d3+12*d1*d2*d3*d3+9*d2*d2*d2*d3-9*d1*d3*d3*d3*d3-21*d2*d2*d3*d3*d3+15*d2*d3*d3*d3*d3*d3-3*d3*d3*d3*d3*d3*d3*d3",
+      "3-6*d1*d3-6*d2*d2+27*d2*d3*d3+3*d1*d1*d3*d3+12*d1*d2*d2*d3+3*d2*d2*d2*d2-15*d3*d3*d3*d3-27*d1*d2*d3*d3*d3-21*d2*d2*d2*d3*d3+12*d1*d3*d3*d3*d3*d3+33*d2*d2*d3*d3*d3*d3-18*d2*d3*d3*d3*d3*d3*d3+3*d3*d3*d3*d3*d3*d3*d3*d3"
+    ]
+  ],
+  "alpha_multiplication_determinant": "81*orbitDeterminant^2",
+  "orbit_determinant": "1-3*d1*d3-2*d2*d2+3*d1*d1*d3*d3+d1*d2*d2*d3+d2*d2*d2*d2-d1*d1*d2*d2*d2-d2*d2*d2*d3*d3-d1*d1*d1*d3*d3*d3+d1*d1*d2*d2*d3*d3",
+  "symbol_Schur_matrix": [
+    [
+      "d2-d1*d1",
+      "-d1",
+      "1"
+    ],
+    [
+      "-2*d1+d2*d3",
+      "-1-d1*d3+d2*d2",
+      "2*d3-d1*d2"
+    ],
+    [
+      "1",
+      "d3",
+      "d2-d3*d3"
+    ]
+  ],
+  "symbol_free_coordinates": "y0,T=y1-4*y3,y2; y3 remains free and adds4*y3*(u+z*v/2)^2",
+  "orbit_resultant_identity": "orbitDeterminant=Res_z(z^3-omega^2*d2*z+d1,-omega*d2*z^2+omega^2*d2*d3*z+1-d1*d3), omega^2+omega+1=0",
+  "simple_qline_remainders": [
+    "-1/2*d1+3/2*y0-3/2*d2*h5-3/2*d3*h4-3*y1*h5-3*y2*h4+6*y3*h5-24*d1*y3*h7-48*y0*y3*h7-48*y3*y3*h6+3*d1*d1*d1*h7+18*d1*d1*y0*h7+12*d1*d1*y3*h6+36*d1*y0*y0*h7+48*d1*y0*y3*h6+24*y0*y0*y0*h7+48*y0*y0*y3*h6",
+    "2*d2+9/2*y1-12*y3+3/2*h4+3*d1*y0-3*y0*y0-3/2*d1*d2*h5-3/2*d1*d3*h4-3*d1*y1*h5-3*d1*y2*h4+6*d1*y3*h5-48*y3*y3*h7+12*d1*d1*y3*h7+96*d1*y0*y3*h7+48*d1*y3*y3*h6+144*y0*y0*y3*h7+192*y0*y3*y3*h6-6*d1*d1*d1*y0*h7-36*d1*d1*y0*y0*h7-24*d1*d1*y0*y3*h6-72*d1*y0*y0*y0*h7-96*d1*y0*y0*y3*h6-48*y0*y0*y0*y0*h7-96*y0*y0*y0*y3*h6",
+    "3*d3+9/2*y2+3/2*h5-3/2*d1*d2+6*d1*y3+3/2*d1*h4+3/2*d2*y0-9*y0*y1+18*y0*y3-3*d1*d1*y0-3*d1*y0*y0-3/2*d2*d2*h5-3/2*d2*d3*h4-3*d2*y1*h5-3*d2*y2*h4+6*d2*y3*h5+6*y0*y0*y0-24*d1*d2*y3*h7+96*d1*y3*y3*h7-48*d2*y0*y3*h7-48*d2*y3*y3*h6+288*y0*y3*y3*h7+192*y3*y3*y3*h6+3*d1*d1*d1*d2*h7-12*d1*d1*d1*y3*h7+18*d1*d1*d2*y0*h7+12*d1*d1*d2*y3*h6-144*d1*d1*y0*y3*h7-48*d1*d1*y3*y3*h6+36*d1*d2*y0*y0*h7+48*d1*d2*y0*y3*h6-432*d1*y0*y0*y3*h7-384*d1*y0*y3*y3*h6+24*d2*y0*y0*y0*h7+48*d2*y0*y0*y3*h6-384*y0*y0*y0*y3*h7-576*y0*y0*y3*y3*h6+6*d1*d1*d1*d1*y0*h7+48*d1*d1*d1*y0*y0*h7+24*d1*d1*d1*y0*y3*h6+144*d1*d1*y0*y0*y0*h7+144*d1*d1*y0*y0*y3*h6+192*d1*y0*y0*y0*y0*h7+288*d1*y0*y0*y0*y3*h6+96*y0*y0*y0*y0*y0*h7+192*y0*y0*y0*y0*y3*h6",
+    "-1/2-3/2*d1*d3-3*d1*y2+9/2*d2*y1-12*d2*y3+3/2*d2*h4+3/2*d3*y0+3*y0*y2-3*y0*h5+9*y1*y1-42*y1*y3+48*y3*y3-6*y3*h4+3/2*d1*d1*d2+3*d1*d1*y1-6*d1*d1*y3+3/2*d1*d2*y0+3*d1*y0*y1-6*d1*y0*y3-3/2*d2*d3*h5-3*d2*y0*y0-3/2*d3*d3*h4-3*d3*y1*h5-3*d3*y2*h4+6*d3*y3*h5-6*y0*y0*y1+12*y0*y0*y3-24*d1*d3*y3*h7-48*d1*y2*y3*h7-48*d2*y3*y3*h7-48*d3*y0*y3*h7-48*d3*y3*y3*h6-96*y0*y2*y3*h7-96*y1*y3*y3*h7-96*y2*y3*y3*h6+192*y3*y3*y3*h7+3*d1*d1*d1*d3*h7+6*d1*d1*d1*y2*h7+36*d1*d1*d2*y3*h7+18*d1*d1*d3*y0*h7+12*d1*d1*d3*y3*h6+36*d1*d1*y0*y2*h7+72*d1*d1*y1*y3*h7+24*d1*d1*y2*y3*h6-144*d1*d1*y3*y3*h7+144*d1*d2*y0*y3*h7+96*d1*d2*y3*y3*h6+36*d1*d3*y0*y0*h7+48*d1*d3*y0*y3*h6+72*d1*y0*y0*y2*h7+288*d1*y0*y1*y3*h7+96*d1*y0*y2*y3*h6-576*d1*y0*y3*y3*h7+192*d1*y1*y3*y3*h6-384*d1*y3*y3*y3*h6+144*d2*y0*y0*y3*h7+192*d2*y0*y3*y3*h6+24*d3*y0*y0*y0*h7+48*d3*y0*y0*y3*h6+48*y0*y0*y0*y2*h7+288*y0*y0*y1*y3*h7+96*y0*y0*y2*y3*h6-576*y0*y0*y3*y3*h7+384*y0*y1*y3*y3*h6-768*y0*y3*y3*y3*h6-3*d1*d1*d1*d1*d2*h7-6*d1*d1*d1*d1*y1*h7+12*d1*d1*d1*d1*y3*h7-24*d1*d1*d1*d2*y0*h7-12*d1*d1*d1*d2*y3*h6-48*d1*d1*d1*y0*y1*h7+96*d1*d1*d1*y0*y3*h7-24*d1*d1*d1*y1*y3*h6+48*d1*d1*d1*y3*y3*h6-72*d1*d1*d2*y0*y0*h7-72*d1*d1*d2*y0*y3*h6-144*d1*d1*y0*y0*y1*h7+288*d1*d1*y0*y0*y3*h7-144*d1*d1*y0*y1*y3*h6+288*d1*d1*y0*y3*y3*h6-96*d1*d2*y0*y0*y0*h7-144*d1*d2*y0*y0*y3*h6-192*d1*y0*y0*y0*y1*h7+384*d1*y0*y0*y0*y3*h7-288*d1*y0*y0*y1*y3*h6+576*d1*y0*y0*y3*y3*h6-48*d2*y0*y0*y0*y0*h7-96*d2*y0*y0*y0*y3*h6-96*y0*y0*y0*y0*y1*h7+192*y0*y0*y0*y0*y3*h7-192*y0*y0*y0*y1*y3*h6+384*y0*y0*y0*y3*y3*h6"
+  ],
+  "all_strata_qline_term_counts": [
+    1012,
+    1415,
+    1573,
+    1382
+  ],
+  "limitations": "Endpoint-zero strata remain outside this finite normalization chart. Norm-alpha necessity is a separate proposed Q-cycle theorem; no global pair is constructed."
+}
+```
+</details>
+
+
+### Retired source certificate: `research/computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.json`
+
+Historical source retained verbatim, including limitations and external dependencies. Relative file paths in archived code refer to the original repository location.
+
+<details><summary>Original source</summary>
+
+```json
+{
+  "status": "exact candidate test; no conclusion until verified computation",
+  "input_sha256": "66d8c0d841cc12d664b5188f72c943d85411e3c0617aeb4d6f0cef96c9277713",
+  "candidate_polynomial": "648h^4+45h^2-4",
+  "t": "27h^3/4+15h/32=1/(24h) modulo candidate polynomial",
+  "d2": "108h^3-9h/2",
+  "first_h_retained": "h4=-2h,h5=h6=0,h7=h",
+  "unique_nonzero_full_cubic_equations": [
+    "-9/32-15/32*h*eta+27/4*h^2-27/4*h^3*eta",
+    "-45/16*eta-7335/64*h+99/2*h^2*eta+17901/8*h^3",
+    "1539/32-123/32*h*eta-3753/4*h^2+297/4*h^3*eta",
+    "3/4*eta+369/16*h-891/2*h^3",
+    "-237/64+21/64*h*eta+567/8*h^2-135/8*h^3*eta",
+    "-9/32*eta-891/128*h-9/4*h^2*eta+2025/16*h^3",
+    "-105/64-15/64*h*eta+243/8*h^2-27/8*h^3*eta",
+    "1/8*eta+27/32*h-81/4*h^3",
+    "1/16*eta+27/64*h-81/8*h^3",
+    "-105/128-15/128*h*eta+243/16*h^2-27/16*h^3*eta",
+    "-9/64*eta-891/256*h-9/8*h^2*eta+2025/32*h^3",
+    "-237/128+21/128*h*eta+567/16*h^2-135/16*h^3*eta",
+    "3/32*eta+369/128*h-891/16*h^3",
+    "1539/256-123/256*h*eta-3753/32*h^2+297/32*h^3*eta",
+    "-45/128*eta-7335/512*h+99/16*h^2*eta+17901/64*h^3",
+    "-9/256-15/256*h*eta+27/32*h^2-27/32*h^3*eta"
+  ],
+  "raw_equation_count": 48,
+  "unique_nonzero_count": 16,
+  "global_coefficients": "Fixed actual k-linear sextic splitting from22 image columns; eta is exactly q^3 coefficient."
+}
+```
+</details>
+
+
+### Retired source certificate: `research/computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.py`
+
+Historical source retained verbatim, including limitations and external dependencies. Relative file paths in archived code refer to the original repository location.
+
+<details><summary>Original source</summary>
+
+```python
+#!/usr/bin/env python3
+"""Exact full-C3 test at the four free-orbit q-line candidates.
+
+Uses only the new structured full-C3 exporter, no inherited theorem replay.
+All global sextic coefficients are the fixed rational splitting of the actual
+23-dimensional k-linear source; eta is its sole q^3 ambiguity.
+"""
+import ast,json
+from fractions import Fraction as Q
+from pathlib import Path
+from hashlib import sha256
+HERE=Path(__file__).resolve().parent
+src=HERE/'conditional_2_12_elimination_2026_10_20.py'
+t=ast.parse(src.read_text())
+stop=next(i for i,n in enumerate(t.body) if isinstance(n,ast.Assign)
+          and any(isinstance(x,ast.Name) and x.id=='stem' for x in n.targets))
+e={'__file__':str(src),'__name__':'candidate_fullC3'}
+exec(compile(ast.Module(body=t.body[:stop],type_ignores=[]),str(src),'exec'),e)
+
+def add(*ps):
+    out={}
+    for p in ps:
+        for m,c in p.items():out[m]=out.get(m,Q(0))+c
+    return {m:c for m,c in out.items() if c}
+def scale(p,c):return {m:c*x for m,x in p.items() if c*x}
+def reduce_h(p):
+    p=dict(p)
+    for hp in range(max((m[0] for m in p),default=0),3,-1):
+        for ep in list({m[1] for m in p if m[0]==hp}):
+            c=p.pop((hp,ep),Q(0))
+            if c:
+                p[(hp-4,ep)]=p.get((hp-4,ep),Q(0))+c/Q(162)
+                p[(hp-2,ep)]=p.get((hp-2,ep),Q(0))-c*Q(5,72)
+    return {m:c for m,c in p.items() if c}
+def mul(p,q):
+    out={}
+    for (h,a),c in p.items():
+        for (j,b),d in q.items():out[(h+j,a+b)]=out.get((h+j,a+b),Q(0))+c*d
+    return reduce_h(out)
+def const(c):return {(0,0):Q(c)} if c else {}
+h={(1,0):Q(1)};eta={(0,1):Q(1)}
+tt={(3,0):Q(27,4),(1,0):Q(15,32)}
+d2=add(scale(tt,16),scale(h,-12))
+rep={1:{},2:d2,3:{},5:{},6:add(scale(h,6),scale(tt,-4)),7:{},8:tt,
+     13:scale(h,-2),14:{},15:{},16:h,21:eta}
+def substitute(p):
+    out={}
+    for m,c in p.items():
+        term=const(c)
+        for i in m:
+            assert i in rep, i
+            term=mul(term,rep[i])
+        out=add(out,term)
+    return reduce_h(out)
+def fmt(p):
+    terms=[]
+    for (hp,ep),c in sorted(p.items()):
+        mon='*'.join((('h' if hp==1 else f'h^{hp}') if hp else '',
+                      ('eta' if ep==1 else f'eta^{ep}') if ep else '')).strip('*')
+        coeff='' if abs(c)==1 and mon else str(abs(c))
+        terms.append(('-' if c<0 else '+')+coeff+('*' if coeff and mon else '')+mon)
+    s=''.join(terms)
+    return s[1:] if s.startswith('+') else(s or '0')
+
+full_cubic=[substitute(e['normalized'](p)) for p in e['cubic']]
+unique=[]
+for p in full_cubic:
+    if p and p not in unique:unique.append(p)
+stem=Path(__file__).with_suffix('')
+lines=[
+ '-- Exact four-candidate full global sextic cubic test.',
+ 'R=QQ[h,eta,MonomialOrder=>GRevLex];',
+ 'candidatePolynomial=648*h^4+45*h^2-4;',
+ 'cubicEquations={'+','.join(fmt(p) for p in unique)+'};',
+ 'candidateCubicIdeal=ideal join({candidatePolynomial},cubicEquations);',
+ 'print "CANDIDATE_FULL_C3_MODEL_READY";',
+ '-- No Groebner basis run by this exporter.',
+]
+stem.with_suffix('.m2').write_text('\n'.join(lines)+'\n')
+meta={'status':'exact candidate test; no conclusion until verified computation',
+      'input_sha256':sha256(src.read_bytes()).hexdigest(),
+      'candidate_polynomial':'648h^4+45h^2-4',
+      't':'27h^3/4+15h/32=1/(24h) modulo candidate polynomial',
+      'd2':'108h^3-9h/2',
+      'first_h_retained':'h4=-2h,h5=h6=0,h7=h',
+      'unique_nonzero_full_cubic_equations':[fmt(p) for p in unique],
+      'raw_equation_count':len(full_cubic),'unique_nonzero_count':len(unique),
+      'global_coefficients':'Fixed actual k-linear sextic splitting from22 image columns; eta is exactly q^3 coefficient.'}
+stem.with_suffix('.json').write_text(json.dumps(meta,indent=2)+'\n')
+print(json.dumps(meta,indent=2))
+```
+</details>

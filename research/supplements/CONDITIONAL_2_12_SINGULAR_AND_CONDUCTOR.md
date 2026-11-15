@@ -1325,3 +1325,218 @@ After clearing the unit denominator this is
 torsion equation, not an exclusion of its intersection with K1
 or higher global lifts. The argument was independently
 reconstructed from the root agent's proposed endpoint reduction.
+
+
+### Retired source certificate: `research/computations/conditional_2_12_cubic_image_2026_10_21.m2`
+
+Historical source retained verbatim, including limitations and external dependencies. Relative file paths in archived code refer to the original repository location.
+
+<details><summary>Original source</summary>
+
+```macaulay2
+-- New exact cubic-image calculation. No actual pair is constructed.
+R=QQ[y0,y1,y2,y3,y4,y5,y6];
+I=ideal(y0*y5-y2*y4+y1^2,
+        y0*y6-y2*y5+y1*y3,
+        y1*y5-y3*y4+y0*y2,
+        y1*y6-y3*y5+y2^2,
+        y4*y6-y5^2+y1*y2);
+assert(dim(R/I)==4);
+assert(degree(R/I)==5);
+singIdeal=I+minors(3,jacobian gens I);
+assert(dim(R/singIdeal)==0);
+F=res(coker gens I);
+assert(length F==3);
+assert(degrees F_1==toList(5:{2}));
+assert(degrees F_2==toList(5:{3}));
+assert(degrees F_3=={{5}});
+S=QQ[x0,x1,x2,x3];
+q=x0*x3-x1*x2;
+A=x0^2*x2-x1^3;
+B=x0*x2^2-x1^2*x3;
+D=x2^3-x1*x3^2;
+phi=map(S,R,{q*x0,q*x1,q*x2,q*x3,A,B,D});
+assert(phi(I)==ideal(0_S));
+print("CUBIC_IMAGE_EXACT: projectively smooth threefold, degree5, resolution(1,5,5,1) shifts(0,2,3,5)");
+print("CUBIC_SYZYGIES_ZERO: canonical sheaf O(-2), by the codimension3 selfdual resolution");
+print betti F;
+print("NO_GLOBAL_PAIR_OR_EMPTINESS_CERTIFICATE_CLAIMED");
+```
+</details>
+
+
+### Retired source certificate: `research/computations/conditional_2_12_cubic_reduction_2026_10_21_cont2_collision.py`
+
+Historical source retained verbatim, including limitations and external dependencies. Relative file paths in archived code refer to the original repository location.
+
+<details><summary>Original source</summary>
+
+```python
+#!/usr/bin/env python3
+"""One-pair mu3 collision chart, retaining its explicit rank-drop boundary.
+
+D=(z-1)(z-omega)(z^2+e*z+ff), monic. On ff*S!=0, norm-symbol
+compatibility is the displayed four-parameter family; no arbitrary root
+coefficient chart or global sextic search is introduced.
+"""
+from pathlib import Path
+import hashlib,json
+HERE=Path(__file__).resolve().parent
+accepted=HERE/'generalization_quadratic_root_curve_universal_incidence.json'
+data=json.loads(accepted.read_text())
+first=[]
+for row,rhs in zip(data['A_f'],data['d_f']):
+    terms=[f'({p})*h{j}' for j,p in enumerate(row) if p!='0']
+    first.append('+'.join(terms)+f'-({rhs})')
+stem=Path(__file__).with_suffix('')
+lines=[
+ '-- Generic one-pair collision chart; rank-drop factors explicitly retained.',
+ 'K=QQ[omega]/ideal(omega^2+omega+1);',
+ 'R=K[ee,ff,lambda,tt,H4,H5,H6,H7,fi,MonomialOrder=>GRevLex];',
+ 'd0=omega*ff; d1=omega^2*ff+omega*ee; d2=ff+omega^2*ee+omega; d3=ee+omega^2;',
+ 'a0=4*tt+2*ee*lambda; a1=d3/2+2*lambda; a2=1;',
+ 'b0=-d1/4-ff*lambda; b1=4*tt-d2/2+ee*lambda; b2=-d3/4+lambda;',
+ 'c0=d0/4; c1=d1/8-ff*lambda/2; c2=tt;',
+ 'h4=H4; h5=H5; h6=H6; h7=H7;',
+ 'h3=-a0*h5-a1*h4;',
+ 'h2=-3-a0*h4-a1*h3;',
+ 'h1=-4*a1+3*b2-a0*h3-a1*h2;',
+ 'h0=-5*a0+3*b1-a0*h2-a1*h1;',
+ 'c0Inverse=4*omega^2*fi;',
+ 'h8=-c0Inverse*(c2*h6+c1*h7);',
+ 'h9=-9/2-c0Inverse*(c2*h7+c1*h8);',
+ 'h10=c0Inverse*(-4*c1-3/8*b0-c2*h8-c1*h9);',
+ 'h11=c0Inverse*(-7/2*c2-3/8*b1-c2*h9-c1*h10);',
+ 'firstEquations={'+','.join(first)+'};',
+ 'endpointUnit=ff*fi-1;',
+ 'S=R[zz];',
+ 'aa=a0+a1*zz+zz^2; bb=b0+b1*zz+b2*zz^2; cc=c0+c1*zz+c2*zz^2;',
+ 'DD=(zz-1)*(zz-omega)*(zz^2+ee*zz+ff);',
+ 'U=d0+d3*zz^3; V=d1*zz+zz^4; W=d2*zz^2;',
+ 'alphaCanonical=U^2+V^2+W^2-U*V-U*W-V*W;',
+ 'coeffR=(p,j)->sub(coefficient(zz^j,p),R);',
+ 'normSymbol=apply(3,j->coeffR(alphaCanonical*aa,3*j+1)-coeffR(alphaCanonical*bb,3*j+2)-(j+1)*coeffR(alphaCanonical*DD,3*j+3)/4);',
+ 'assert(all(normSymbol,p->p==0));',
+ 'g30=-(a1*h5+a2*h4)-a2*h5*zz;',
+ 'g21=-(b1*h5+b2*h4+a1*h11+a2*h10)-(b2*h5+a2*h11)*zz;',
+ 'g12=-(3/4*a2+c1*h5+c2*h4+b1*h11+b2*h10)-(c2*h5+b2*h11)*zz;',
+ 'g03=-(3/8*b2+c1*h11+c2*h10)-c2*h11*zz;',
+ 'GG=g30*(-zz/2)^3+g21*(-zz/2)^2+g12*(-zz/2)+g03;',
+ 'LL=diff(zz,DD)-12*zz^2*GG;',
+ 'qlCoefficients=new MutableList from apply(7,j->coeffR(LL,j));',
+ 'scan(reverse toList(2..6),j->(v:=qlCoefficients#j;qlCoefficients#(j-2)=qlCoefficients#(j-2)-ff*v;qlCoefficients#(j-1)=qlCoefficients#(j-1)-ee*v;qlCoefficients#j=0));',
+ 'qlineEquations={qlCoefficients#0,qlCoefficients#1};',
+ 'collisionBoundary=((omega+1)*ee-ff-omega)*(ee^2-ff);',
+ 'collisionIdeal=ideal join(firstEquations,qlineEquations,{endpointUnit});',
+ 'print "ONE_PAIR_COLLISION_9VAR_MODEL_READY";',
+ '-- Necessity on ff*collisionBoundary !=0. The boundary needs separate charts.',
+ '-- No Groebner basis is run by this exporter.',
+]
+stem.with_suffix('.m2').write_text('\n'.join(lines)+'\n')
+out={'status':'new exact collision chart; no emptiness assertion',
+     'accepted_first_input_sha256':hashlib.sha256(accepted.read_bytes()).hexdigest(),
+     'D':'(z-1)(z-omega)(z^2+e*z+f)',
+     'normalization':'torus fixes one collision root to1; projective f scale makesDmonic',
+     'symbol_kernel':'(v0,v1,v2)=lambda*(-f,e,1)',
+     'deviation_coordinates':'v0=y0+d1/4,v1=y1-4t+d2/2,v2=y2+d3/4',
+     'rank_drop_boundary':'S=((omega+1)*e-f-omega)*(e^2-f)',
+     'boundary_meanings':['first factor: complete orbit {1,omega,omega^2}',
+                          'second factor: residual quadratic itself is a mu3 pair'],
+     'qline_condition':'On f*S!=0, exact norm-alpha qline condition is rem_(z^2+e*z+f)(Dprime-12*z^2*G)=0, two equations',
+     'variables':['e','f','lambda','t','H4','H5','H6','H7','fInverse'],
+     'h_elimination':'Eight accepted first equations solve h0..3,h8..11 usinga2=1,c0=omega*f/4. f*fInverse=1 retains all endpoint-nonzero points.',
+     'limitations':'Endpointzero, completeorbit and two-pair boundary separately retained; no globalpair claim.'}
+stem.with_suffix('.json').write_text(json.dumps(out,indent=2)+'\n')
+print(json.dumps({'model':str(stem.with_suffix('.m2')),'variables':9,'qline_equations':2},indent=2))
+```
+</details>
+
+
+### Retired source certificate: `research/computations/conditional_2_12_nodal_normalization_2026_10_21.m2`
+
+Historical source retained verbatim, including limitations and external dependencies. Relative file paths in archived code refer to the original repository location.
+
+<details><summary>Original source</summary>
+
+```macaulay2
+-- New finite-normalization audit of the LOCAL nodal caution family only.
+-- It does not construct homogeneous global coefficients or a supported pair.
+R=QQ[t,z,w,v];
+scan(1..4,n->(
+    m:=10-2*n;
+    d:=z-t^n;
+    e:=z-t^m;
+    f:=z*w^2-d^2*e;
+    J:=ideal(v^2-z*e,z*w-d*v,v*w-d*e);
+    assert(dim(R/J)==2);
+    -- Hilbert--Burch: these are all 2x2 minors of a 2x3 matrix,
+    -- and height two gives CM. Do not use the length of M2's
+    -- nonminimal inhomogeneous resolution as a CM test.
+    assert(J==minors(2,matrix{{z,v,d},{v,e,w}}));
+    assert(dim(R/(J+ideal(z)))==1);
+    -- On z!=0 this is the integral double cover v^2=z(z-t^m).
+    -- Hence CM + dimension drop gives an integral ring.
+    assert(dim(R/(J+minors(2,jacobian gens J)))==0);
+    -- R1 + CM gives normality. v is monic-integral over the original ring.
+    assert(eliminate(J,{v})==ideal(f));
+    conductor:=J+ideal(d,w);
+    expected:=ideal(z-t^n,w,v^2-t^n*(t^n-t^m));
+    assert(conductor==expected);
+    print("LOCAL_NODAL_FINITE_NORMALIZATION n="|toString n|", m="|toString m|": PASS");
+    print("CONDUCTOR_EQUATION: "|toString(v^2-t^n*(t^n-t^m)));
+    ));
+print("NO_GLOBAL_SEXTIC_OR_PAIR_ASSERTED");
+```
+</details>
+
+
+### Retired source certificate: `research/computations/conditional_2_12_singular_continuation_2026_10_21_line_component_primitive.m2`
+
+Historical source retained verbatim, including limitations and external dependencies. Relative file paths in archived code refer to the original repository location.
+
+<details><summary>Original source</summary>
+
+```macaulay2
+-- Exact primitive-cube-root line component over QQ(w), w^2+w+1=0.
+K=toField(QQ[ww]/ideal(ww^2+ww+1));
+R=K[h4,h5,h6,h7,a,x,MonomialOrder=>Eliminate 4];
+w=sub(K_0,R);
+firstEquations={1/2*a-1/2*x-8*w*x-w*h6-1/2*w*w*a-1/2*w*w*x-w*a*h7+w*x*h7-1/4*a*a*a+7/4*a*a*x-11/4*a*x*x+5/4*x*x*x+w*w*a*h7+w*w*x*h7+5/2*w*a*a*x-5/2*w*x*x*x-a*a*a*h4-3*a*a*x*h4-3*a*x*x*h4-x*x*x*h4+1/4*w*w*a*a*a+7/4*w*w*a*a*x+11/4*w*w*a*x*x+5/4*w*w*x*x*x+w*a*a*a*h4+1/2*w*a*a*a*h7-3*w*a*a*x*h4-1/2*w*a*a*x*h7+3*w*a*x*x*h4-1/2*w*a*x*x*h7-w*x*x*x*h4+1/2*w*x*x*x*h7-a*a*a*a*h5-2*a*a*a*x*h5+2*a*x*x*x*h5+x*x*x*x*h5-1/2*w*w*a*a*a*h7-1/2*w*w*a*a*x*h7+1/2*w*w*a*x*x*h7+1/2*w*w*x*x*x*h7+1/4*w*a*a*a*a*h6-1/2*w*a*a*x*x*h6+1/4*w*x*x*x*x*h6+1/2*a*a*a*a*a*h4+3/2*a*a*a*a*x*h4+a*a*a*x*x*h4-a*a*x*x*x*h4-3/2*a*x*x*x*x*h4-1/2*x*x*x*x*x*h4-w*w*a*a*a*a*h5+2*w*w*a*a*a*x*h5-2*w*w*a*x*x*x*h5+w*w*x*x*x*x*h5-1/2*w*a*a*a*a*a*h4+3/2*w*a*a*a*a*x*h4-w*a*a*a*x*x*h4-w*a*a*x*x*x*h4+3/2*w*a*x*x*x*x*h4-1/2*w*x*x*x*x*x*h4+1/2*a*a*a*a*a*a*h5+a*a*a*a*a*x*h5-1/2*a*a*a*a*x*x*h5-2*a*a*a*x*x*x*h5-1/2*a*a*x*x*x*x*h5+a*x*x*x*x*x*h5+1/2*x*x*x*x*x*x*h5+1/2*w*w*a*a*a*a*a*a*h5-w*w*a*a*a*a*a*x*h5-1/2*w*w*a*a*a*a*x*x*h5+2*w*w*a*a*a*x*x*x*h5-1/2*w*w*a*a*x*x*x*x*h5-w*w*a*x*x*x*x*x*h5+1/2*w*w*x*x*x*x*x*x*h5,1/2+1/2*w-w*h7-1/4*a*a+3/2*a*x-5/4*x*x-1/4*w*a*a-3/2*w*a*x-5/4*w*x*x-1/2*a*a*h7+a*x*h7-1/2*x*x*h7-3*w*w*x*x-w*a*a*h4+w*a*a*h7+2*w*a*x*h4-w*x*x*h4-w*x*x*h7-1/4*a*a*a*h6+1/4*a*a*x*h6+1/4*a*x*x*h6-1/4*x*x*x*h6-w*w*a*a*h4-1/2*w*w*a*a*h7-2*w*w*a*x*h4-w*w*a*x*h7-w*w*x*x*h4-1/2*w*w*x*x*h7+1/4*w*a*a*a*h6+1/4*w*a*a*x*h6-1/4*w*a*x*x*h6-1/4*w*x*x*x*h6+1/4*a*a*a*a*h7-1/2*a*a*a*x*h7+1/2*a*x*x*x*h7-1/4*x*x*x*x*h7-2*w*w*a*a*x*h5+2*w*w*x*x*x*h5+1/2*w*a*a*a*a*h4-1/4*w*a*a*a*a*h7-w*a*a*a*x*h4+1/2*w*a*a*x*x*h7+w*a*x*x*x*h4-1/2*w*x*x*x*x*h4-1/4*w*x*x*x*x*h7+1/8*a*a*a*a*a*h6-1/8*a*a*a*a*x*h6-1/4*a*a*a*x*x*h6+1/4*a*a*x*x*x*h6+1/8*a*x*x*x*x*h6-1/8*x*x*x*x*x*h6+1/2*w*w*a*a*a*a*h4+1/4*w*w*a*a*a*a*h7+w*w*a*a*a*x*h4+1/2*w*w*a*a*a*x*h7-w*w*a*x*x*x*h4-1/2*w*w*a*x*x*x*h7-1/2*w*w*x*x*x*x*h4-1/4*w*w*x*x*x*x*h7-1/8*w*a*a*a*a*a*h6-1/8*w*a*a*a*a*x*h6+1/4*w*a*a*a*x*x*h6+1/4*w*a*a*x*x*x*h6-1/8*w*a*x*x*x*x*h6-1/8*w*x*x*x*x*x*h6+w*w*a*a*a*a*x*h5-2*w*w*a*a*x*x*x*h5+w*w*x*x*x*x*x*h5,-1/4*w*a+7/4*w*x-1/2*a*h7+1/2*x*h7+1/4*w*w*a+7/4*w*w*x+1/2*w*a*h7-2*w*x*h4+1/2*w*x*h7-1/4*a*a*h6+1/4*x*x*h6+1/8*w*a*a*a+5/8*w*a*a*x-w*a*a*h5-1/8*w*a*x*x-5/8*w*x*x*x+w*x*x*h5+1/2*a*a*a*h7-1/2*a*a*x*h7-1/2*a*x*x*h7+1/2*x*x*x*h7-1/8*w*w*a*a*a+5/8*w*w*a*a*x-w*w*a*a*h5+1/8*w*w*a*x*x-5/8*w*w*x*x*x+w*w*x*x*h5-1/2*w*a*a*a*h7+w*a*a*x*h4-1/2*w*a*a*x*h7+1/2*w*a*x*x*h7-w*x*x*x*h4+1/2*w*x*x*x*h7+1/4*a*a*a*a*h6-1/2*a*a*x*x*h6+1/4*x*x*x*x*h6+3/2*w*w*a*a*x*h7+1/2*w*w*x*x*x*h7+1/2*w*a*a*a*a*h5-1/8*w*a*a*a*a*h6-1/4*w*a*a*a*x*h6-w*a*a*x*x*h5+1/4*w*a*x*x*x*h6+1/2*w*x*x*x*x*h5+1/8*w*x*x*x*x*h6-1/8*a*a*a*a*a*h7+1/8*a*a*a*a*x*h7+1/4*a*a*a*x*x*h7-1/4*a*a*x*x*x*h7-1/8*a*x*x*x*x*h7+1/8*x*x*x*x*x*h7+1/2*w*w*a*a*a*a*h5-1/8*w*w*a*a*a*a*h6+1/4*w*w*a*a*a*x*h6-w*w*a*a*x*x*h5-1/4*w*w*a*x*x*x*h6+1/2*w*w*x*x*x*x*h5+1/8*w*w*x*x*x*x*h6+1/8*w*a*a*a*a*a*h7+1/8*w*a*a*a*a*x*h7-1/4*w*a*a*a*x*x*h7-1/4*w*a*a*x*x*x*h7+1/8*w*a*x*x*x*x*h7+1/8*w*x*x*x*x*x*h7-1/16*a*a*a*a*a*a*h6+3/16*a*a*a*a*x*x*h6-3/16*a*a*x*x*x*x*h6+1/16*x*x*x*x*x*x*h6-3/4*w*w*a*a*a*a*x*h7+1/2*w*w*a*a*x*x*x*h7+1/4*w*w*x*x*x*x*x*h7+1/16*w*a*a*a*a*a*a*h6+1/8*w*a*a*a*a*a*x*h6-1/16*w*a*a*a*a*x*x*h6-1/4*w*a*a*a*x*x*x*h6-1/16*w*a*a*x*x*x*x*h6+1/8*w*a*x*x*x*x*x*h6+1/16*w*x*x*x*x*x*x*h6+1/16*w*w*a*a*a*a*a*a*h6-1/8*w*w*a*a*a*a*a*x*h6-1/16*w*w*a*a*a*a*x*x*h6+1/4*w*w*a*a*a*x*x*x*h6-1/16*w*w*a*a*x*x*x*x*h6-1/8*w*w*a*x*x*x*x*x*h6+1/16*w*w*x*x*x*x*x*x*h6,-1/2*w-h4-w*h4-1/2*a*a-1/2*a*x-a*h5+x*x+x*h5+1/4*w*a*a+5/4*w*x*x+1/2*a*a*h4+1/4*a*a*h7-1/2*x*x*h4-1/4*x*x*h7-1/2*w*w*a*a+1/2*w*w*a*x+w*w*a*h5+w*w*x*x+w*w*x*h5+1/2*w*a*a*h4-1/4*w*a*a*h7-1/2*w*a*x*h7-1/2*w*x*x*h4-1/4*w*x*x*h7+1/16*a*a*a*a+1/4*a*a*a*x+1/2*a*a*a*h5+1/8*a*a*a*h6-3/8*a*a*x*x-1/2*a*a*x*h5+1/8*a*a*x*h6-1/4*a*x*x*x-1/2*a*x*x*h5-1/8*a*x*x*h6+5/16*x*x*x*x+1/2*x*x*x*h5-1/8*x*x*x*h6-1/4*w*w*a*a*h7+1/2*w*w*a*x*h7-1/4*w*w*x*x*h7-1/4*a*a*a*a*h7+1/2*a*a*x*x*h7-1/4*x*x*x*x*h7+1/16*w*w*a*a*a*a-1/4*w*w*a*a*a*x-1/2*w*w*a*a*a*h5-1/8*w*w*a*a*a*h6-3/8*w*w*a*a*x*x-1/2*w*w*a*a*x*h5+1/8*w*w*a*a*x*h6+1/4*w*w*a*x*x*x+1/2*w*w*a*x*x*h5+1/8*w*w*a*x*x*h6+5/16*w*w*x*x*x*x+1/2*w*w*x*x*x*h5-1/8*w*w*x*x*x*h6+1/8*w*a*a*a*a*h7+w*a*a*a*x*h7-3/4*w*a*a*x*x*h7-3/8*w*x*x*x*x*h7-1/8*a*a*a*a*a*h6-1/8*a*a*a*a*x*h6+1/4*a*a*a*x*x*h6+1/4*a*a*x*x*x*h6-1/8*a*x*x*x*x*h6-1/8*x*x*x*x*x*h6+1/8*w*w*a*a*a*a*h7-w*w*a*a*a*x*h7-3/4*w*w*a*a*x*x*h7-3/8*w*w*x*x*x*x*h7+3/8*w*a*a*a*a*x*h6-1/4*w*a*a*x*x*x*h6-1/8*w*x*x*x*x*x*h6+1/16*a*a*a*a*a*a*h7-3/16*a*a*a*a*x*x*h7+3/16*a*a*x*x*x*x*h7-1/16*x*x*x*x*x*x*h7+1/8*w*w*a*a*a*a*a*h6-1/8*w*w*a*a*a*a*x*h6-1/4*w*w*a*a*a*x*x*h6+1/4*w*w*a*a*x*x*x*h6+1/8*w*w*a*x*x*x*x*h6-1/8*w*w*x*x*x*x*x*h6-3/8*w*a*a*a*a*a*x*h7+3/8*w*a*a*a*a*x*x*h7+1/4*w*a*a*a*x*x*x*h7-1/4*w*a*a*x*x*x*x*h7+1/8*w*a*x*x*x*x*x*h7-1/8*w*x*x*x*x*x*x*h7+1/32*a*a*a*a*a*a*a*h6+1/32*a*a*a*a*a*a*x*h6-3/32*a*a*a*a*a*x*x*h6-3/32*a*a*a*a*x*x*x*h6+3/32*a*a*a*x*x*x*x*h6+3/32*a*a*x*x*x*x*x*h6-1/32*a*x*x*x*x*x*x*h6-1/32*x*x*x*x*x*x*x*h6+3/8*w*w*a*a*a*a*a*x*h7+3/8*w*w*a*a*a*a*x*x*h7-1/4*w*w*a*a*a*x*x*x*h7-1/4*w*w*a*a*x*x*x*x*h7-1/8*w*w*a*x*x*x*x*x*h7-1/8*w*w*x*x*x*x*x*x*h7-3/16*w*a*a*a*a*a*a*x*h6+5/16*w*a*a*a*a*x*x*x*h6-1/16*w*a*a*x*x*x*x*x*h6-1/16*w*x*x*x*x*x*x*x*h6-1/32*w*w*a*a*a*a*a*a*a*h6+1/32*w*w*a*a*a*a*a*a*x*h6+3/32*w*w*a*a*a*a*a*x*x*h6-3/32*w*w*a*a*a*a*x*x*x*h6-3/32*w*w*a*a*a*x*x*x*x*h6+3/32*w*w*a*a*x*x*x*x*x*h6+1/32*w*w*a*x*x*x*x*x*x*h6-1/32*w*w*x*x*x*x*x*x*x*h6,1-h7-w*h7-1/2*a*a-5/2*x*x+w*a*a-w*a*x-1/2*w*a*h6-2*w*x*x-1/2*w*x*h6-a*a*h4+1/2*a*a*h7+2*a*x*h4-x*x*h4-1/2*x*x*h7+w*w*a*a+w*w*a*x+1/2*w*w*a*h6-2*w*w*x*x-1/2*w*w*x*h6+w*a*a*h4+1/2*w*a*a*h7-w*x*x*h4-1/2*w*x*x*h7-w*w*a*a*h4-2*w*w*a*x*h4-w*w*x*x*h4-1/8*w*a*a*a*a+1/2*w*a*a*a*x+w*a*a*a*h5+1/4*w*a*a*a*h6+3/4*w*a*a*x*x-w*a*a*x*h5+1/4*w*a*a*x*h6-1/2*w*a*x*x*x-w*a*x*x*h5-1/4*w*a*x*x*h6-5/8*w*x*x*x*x+w*x*x*x*h5-1/4*w*x*x*x*h6+1/2*a*a*a*a*h4-4*a*a*a*x*h4-3*a*a*x*x*h4-3/2*x*x*x*x*h4-1/8*w*w*a*a*a*a-1/2*w*w*a*a*a*x-w*w*a*a*a*h5-1/4*w*w*a*a*a*h6+3/4*w*w*a*a*x*x-w*w*a*a*x*h5+1/4*w*w*a*a*x*h6+1/2*w*w*a*x*x*x+w*w*a*x*x*h5+1/4*w*w*a*x*x*h6-5/8*w*w*x*x*x*x+w*w*x*x*x*h5-1/4*w*w*x*x*x*h6-w*a*a*a*a*h4+2*w*a*a*x*x*h4-w*x*x*x*x*h4-3*a*a*a*a*x*h5+2*a*a*x*x*x*h5+x*x*x*x*x*h5+1/2*w*w*a*a*a*a*h4+4*w*w*a*a*a*x*h4-3*w*w*a*a*x*x*h4-3/2*w*w*x*x*x*x*h4-w*a*a*a*a*a*h5+w*a*a*a*a*x*h5+2*w*a*a*a*x*x*h5-2*w*a*a*x*x*x*h5-w*a*x*x*x*x*h5+w*x*x*x*x*x*h5+3/2*a*a*a*a*a*x*h4+3/2*a*a*a*a*x*x*h4-a*a*a*x*x*x*h4-a*a*x*x*x*x*h4-1/2*a*x*x*x*x*x*h4-1/2*x*x*x*x*x*x*h4+w*w*a*a*a*a*a*h5+w*w*a*a*a*a*x*h5-2*w*w*a*a*a*x*x*h5-2*w*w*a*a*x*x*x*h5+w*w*a*x*x*x*x*h5+w*w*x*x*x*x*x*h5+1/4*w*a*a*a*a*a*a*h4-3/4*w*a*a*a*a*x*x*h4+3/4*w*a*a*x*x*x*x*h4-1/4*w*x*x*x*x*x*x*h4+3/2*a*a*a*a*a*a*x*h5-5/2*a*a*a*a*x*x*x*h5+1/2*a*a*x*x*x*x*x*h5+1/2*x*x*x*x*x*x*x*h5-3/2*w*w*a*a*a*a*a*x*h4+3/2*w*w*a*a*a*a*x*x*h4+w*w*a*a*a*x*x*x*h4-w*w*a*a*x*x*x*x*h4+1/2*w*w*a*x*x*x*x*x*h4-1/2*w*w*x*x*x*x*x*x*h4+1/4*w*a*a*a*a*a*a*a*h5-1/4*w*a*a*a*a*a*a*x*h5-3/4*w*a*a*a*a*a*x*x*h5+3/4*w*a*a*a*a*x*x*x*h5+3/4*w*a*a*a*x*x*x*x*h5-3/4*w*a*a*x*x*x*x*x*h5-1/4*w*a*x*x*x*x*x*x*h5+1/4*w*x*x*x*x*x*x*x*h5-1/4*w*w*a*a*a*a*a*a*a*h5-1/4*w*w*a*a*a*a*a*a*x*h5+3/4*w*w*a*a*a*a*a*x*x*h5+3/4*w*w*a*a*a*a*x*x*x*h5-3/4*w*w*a*a*a*x*x*x*x*h5-3/4*w*w*a*a*x*x*x*x*x*h5+1/4*w*w*a*x*x*x*x*x*x*h5+1/4*w*w*x*x*x*x*x*x*x*h5,1/4*a+7/4*x+a*h4-x*h4+x*h7-1/4*w*w*a+7/4*w*w*x-w*a*h4-w*x*h4-1/8*a*a*a+5/8*a*a*x-1/4*a*a*h6+1/8*a*x*x-5/8*x*x*x+1/4*x*x*h6-w*a*a*h5+w*x*x*h5-a*a*a*h4+a*a*x*h4-1/2*a*a*x*h7+a*x*x*h4-x*x*x*h4+1/2*x*x*x*h7+1/8*w*w*a*a*a+5/8*w*w*a*a*x-1/4*w*w*a*a*h6-1/8*w*w*a*x*x-5/8*w*w*x*x*x+1/4*w*w*x*x*h6+w*a*a*a*h4+w*a*a*x*h4-w*a*x*x*h4-w*x*x*x*h4-1/2*a*a*a*a*h5+1/8*a*a*a*a*h6+a*a*a*x*h5-1/4*a*a*x*x*h6-a*x*x*x*h5+1/2*x*x*x*x*h5+1/8*x*x*x*x*h6-3*w*w*a*a*x*h4-w*w*x*x*x*h4+w*a*a*a*a*h5-2*w*a*a*x*x*h5+w*x*x*x*x*h5+1/4*a*a*a*a*a*h4-1/4*a*a*a*a*x*h4-1/2*a*a*a*x*x*h4+1/2*a*a*x*x*x*h4+1/4*a*x*x*x*x*h4-1/4*x*x*x*x*x*h4-1/2*w*w*a*a*a*a*h5+1/8*w*w*a*a*a*a*h6-w*w*a*a*a*x*h5-1/4*w*w*a*a*x*x*h6+w*w*a*x*x*x*h5+1/2*w*w*x*x*x*x*h5+1/8*w*w*x*x*x*x*h6-1/4*w*a*a*a*a*a*h4-1/4*w*a*a*a*a*x*h4+1/2*w*a*a*a*x*x*h4+1/2*w*a*a*x*x*x*h4-1/4*w*a*x*x*x*x*h4-1/4*w*x*x*x*x*x*h4+1/4*a*a*a*a*a*a*h5-1/2*a*a*a*a*a*x*h5-1/4*a*a*a*a*x*x*h5+a*a*a*x*x*x*h5-1/4*a*a*x*x*x*x*h5-1/2*a*x*x*x*x*x*h5+1/4*x*x*x*x*x*x*h5+3/2*w*w*a*a*a*a*x*h4-w*w*a*a*x*x*x*h4-1/2*w*w*x*x*x*x*x*h4-1/4*w*a*a*a*a*a*a*h5+3/4*w*a*a*a*a*x*x*h5-3/4*w*a*a*x*x*x*x*h5+1/4*w*x*x*x*x*x*x*h5+1/4*w*w*a*a*a*a*a*a*h5+1/2*w*w*a*a*a*a*a*x*h5-1/4*w*w*a*a*a*a*x*x*h5-w*w*a*a*a*x*x*x*h5-1/4*w*w*a*a*x*x*x*x*h5+1/2*w*w*a*x*x*x*x*x*h5+1/4*w*w*x*x*x*x*x*x*h5,-1/4-1/4*w-h4+1/8*a*a-3/4*a*x+5/8*x*x+1/8*w*a*a+3/4*w*a*x+5/8*w*x*x+a*a*h4-1/4*a*a*h7-1/2*a*x*h7-x*x*h4-1/4*x*x*h7+3/2*w*w*x*x-1/2*w*a*a*h4-w*a*x*h4-1/2*w*x*x*h4+1/2*a*a*a*h5-1/2*a*a*x*h5-1/2*a*x*x*h5+1/2*x*x*x*h5-1/2*w*w*a*a*h4-1/4*w*w*a*a*h7+w*w*a*x*h4+1/2*w*w*a*x*h7-1/2*w*w*x*x*h4-1/4*w*w*x*x*h7-1/2*w*a*a*a*h5-1/2*w*a*a*x*h5+1/2*w*a*x*x*h5+1/2*w*x*x*x*h5-1/4*a*a*a*a*h4+1/8*a*a*a*a*h7+1/4*a*a*a*x*h7+1/2*a*a*x*x*h4-1/4*a*x*x*x*h7-1/4*x*x*x*x*h4-1/8*x*x*x*x*h7+1/4*w*w*a*a*x*h6-1/4*w*w*x*x*x*h6+1/4*w*a*a*a*a*h4+1/2*w*a*a*a*x*h4-1/2*w*a*x*x*x*h4-1/4*w*x*x*x*x*h4-1/4*a*a*a*a*a*h5+1/4*a*a*a*a*x*h5+1/2*a*a*a*x*x*h5-1/2*a*a*x*x*x*h5-1/4*a*x*x*x*x*h5+1/4*x*x*x*x*x*h5+1/4*w*w*a*a*a*a*h4+1/8*w*w*a*a*a*a*h7-1/2*w*w*a*a*a*x*h4-1/4*w*w*a*a*a*x*h7+1/2*w*w*a*x*x*x*h4+1/4*w*w*a*x*x*x*h7-1/4*w*w*x*x*x*x*h4-1/8*w*w*x*x*x*x*h7+1/4*w*a*a*a*a*a*h5+1/4*w*a*a*a*a*x*h5-1/2*w*a*a*a*x*x*h5-1/2*w*a*a*x*x*x*h5+1/4*w*a*x*x*x*x*h5+1/4*w*x*x*x*x*x*h5-1/8*w*w*a*a*a*a*x*h6+1/4*w*w*a*a*x*x*x*h6-1/8*w*w*x*x*x*x*x*h6,-2*x-h5-1/8*w*a-1/8*w*x-1/2*a*h4-1/2*x*h4+1/8*w*w*a-1/8*w*w*x+5/8*a*a*x-5/8*x*x*x+1/2*w*w*a*h4-1/2*w*w*x*h4+1/16*w*a*a*a+7/16*w*a*a*x+11/16*w*a*x*x+5/16*w*x*x*x+1/4*a*a*a*h4+1/8*a*a*a*h7+1/4*a*a*x*h4+3/8*a*a*x*h7-1/4*a*x*x*h4+3/8*a*x*x*h7-1/4*x*x*x*h4+1/8*x*x*x*h7-1/16*w*w*a*a*a+7/16*w*w*a*a*x-11/16*w*w*a*x*x+5/16*w*w*x*x*x-1/8*w*a*a*a*h7+3/8*w*a*a*x*h7-3/8*w*a*x*x*h7+1/8*w*x*x*x*h7+1/4*a*a*a*a*h5-1/2*a*a*x*x*h5+1/4*x*x*x*x*h5-1/4*w*w*a*a*a*h4+1/4*w*w*a*a*x*h4+1/4*w*w*a*x*x*h4-1/4*w*w*x*x*x*h4-1/16*w*a*a*a*a*h6+1/8*w*a*a*a*x*h6-1/8*w*a*x*x*x*h6+1/16*w*x*x*x*x*h6-1/16*a*a*a*a*a*h7-3/16*a*a*a*a*x*h7-1/8*a*a*a*x*x*h7+1/8*a*a*x*x*x*h7+3/16*a*x*x*x*x*h7+1/16*x*x*x*x*x*h7-1/16*w*w*a*a*a*a*h6-1/8*w*w*a*a*a*x*h6+1/8*w*w*a*x*x*x*h6+1/16*w*w*x*x*x*x*h6+1/16*w*a*a*a*a*a*h7-3/16*w*a*a*a*a*x*h7+1/8*w*a*a*a*x*x*h7+1/8*w*a*a*x*x*x*h7-3/16*w*a*x*x*x*x*h7+1/16*w*x*x*x*x*x*h7+1/32*w*a*a*a*a*a*a*h6-1/16*w*a*a*a*a*a*x*h6-1/32*w*a*a*a*a*x*x*h6+1/8*w*a*a*a*x*x*x*h6-1/32*w*a*a*x*x*x*x*h6-1/16*w*a*x*x*x*x*x*h6+1/32*w*x*x*x*x*x*x*h6+1/32*w*w*a*a*a*a*a*a*h6+1/16*w*w*a*a*a*a*a*x*h6-1/32*w*w*a*a*a*a*x*x*h6-1/8*w*w*a*a*a*x*x*x*h6-1/32*w*w*a*a*x*x*x*x*h6+1/16*w*w*a*x*x*x*x*x*h6+1/32*w*w*x*x*x*x*x*x*h6};
+I=ideal firstEquations;
+print("PRIMITIVE_LINE_FIRST_ELIMINATION_START");
+E=eliminate({h4,h5,h6,h7},I);
+print("PRIMITIVE_LINE_FIRST_ELIMINATION_READY");print gens E;
+S=K[a,x];phi=map(S,R,{0,0,0,0,a,x});
+ES=ideal phi(gens E);w=sub(K_0,S);
+tau=w^2*(1-a^2-x^2);delta=w*((a^2-x^2-2)/2)^2;
+q=tau*(tau^2-delta)*(tau^2-2*delta)*(tau^2-3*delta)*((tau^2-2*delta)^2-3*delta^2);
+op=a*(2*x^2+1)*(a^2-x^2-2)*(2*a^2-3);
+J=saturate(ES+ideal(q),ideal(op));
+print("PRIMITIVE_LINE_FIRST_TORSION_RESULT");print gens gb J;
+```
+</details>
+
+
+### Retired source certificate: `research/computations/conditional_2_12_singular_continuation_2026_10_21_line_component_w1.m2`
+
+Historical source retained verbatim, including limitations and external dependencies. Relative file paths in archived code refer to the original repository location.
+
+<details><summary>Original source</summary>
+
+```macaulay2
+-- Exact w=1,y=x generic norm component, p=a^2; p nonzero.
+R=QQ[h4,h5,h6,h7,p,x,MonomialOrder=>Eliminate 4];
+firstEquations={-h6-9*x+2*h7*x+6*p*x-6*h4*p*x-2*h5*p*p+1/4*h6*p*p-h7*p*x+3*h4*p*p*x-2*h4*x*x*x+h5*p*p*p-1/2*h6*p*x*x+h7*x*x*x-2*h4*p*x*x*x-h5*p*p*x*x+2*h5*x*x*x*x+1/4*h6*x*x*x*x-h4*x*x*x*x*x-h5*p*x*x*x*x+h5*x*x*x*x*x*x,1-h7-1/2*p-2*h4*p-11/2*x*x+h4*p*p-2*h4*x*x-2*h5*p*x+1/2*h6*p*x+1/4*h7*p*p-2*h7*x*x+h5*p*p*x+2*h5*x*x*x-1/4*h6*p*p*x-1/2*h6*x*x*x+1/2*h7*p*x*x-h4*x*x*x*x-2*h5*p*x*x*x+1/2*h6*p*x*x*x-3/4*h7*x*x*x*x+h5*x*x*x*x*x-1/4*h6*x*x*x*x*x,7/2*x-2*h4*x-2*h5*p-1/4*h6*p+h7*x+5/4*p*x+h4*p*x+h5*p*p+2*h5*x*x+1/4*h6*x*x+1/2*h7*p*x-5/4*x*x*x-h4*x*x*x-2*h5*p*x*x+1/16*h6*p*p*p-1/2*h6*p*x*x-1/2*h7*p*p*x+3/2*h7*x*x*x+h5*x*x*x*x+1/16*h6*p*p*x*x+1/2*h6*x*x*x*x-5/16*h6*p*x*x*x*x+1/2*h7*x*x*x*x*x+3/16*h6*x*x*x*x*x*x,-1/2-2*h4-3/4*p+h4*p+2*h5*x-1/4*h7*p+1/8*p*p+13/4*x*x-h4*x*x-h5*p*x+1/4*h6*p*x-3/4*h7*x*x-3/4*p*x*x+h5*x*x*x+1/8*h6*p*p*x-1/4*h6*x*x*x+1/16*h7*p*p*p-h7*p*x*x+5/8*x*x*x*x-1/8*h6*p*p*p*x+1/4*h6*p*x*x*x+9/16*h7*p*p*x*x-h7*x*x*x*x+1/8*h6*p*p*x*x*x-3/8*h6*x*x*x*x*x-5/16*h7*p*x*x*x*x+1/8*h6*p*x*x*x*x*x-5/16*h7*x*x*x*x*x*x-1/8*h6*x*x*x*x*x*x*x,1-2*h7+3/2*p-h4*p-h6*x+h7*p-1/4*p*p-13/2*x*x-3*h4*x*x-2*h5*p*x+1/2*h6*p*x-h7*x*x+3/2*p*x*x+1/4*h4*p*p*p-4*h4*p*x*x-h5*p*p*x+2*h5*x*x*x-1/2*h6*x*x*x-5/4*x*x*x*x+9/4*h4*p*p*x*x-4*h4*x*x*x*x+h5*p*p*p*x-2*h5*p*x*x*x-5/4*h4*p*x*x*x*x-h5*p*p*x*x*x+3*h5*x*x*x*x*x-5/4*h4*x*x*x*x*x*x-h5*p*x*x*x*x*x+h5*x*x*x*x*x*x*x,7/2*x-2*h4*x-h5*p-1/2*h6*p+h7*x+5/4*p*x-h4*p*x+h5*x*x+1/4*h6*p*p+1/2*h6*x*x-1/2*h7*p*x-5/4*x*x*x+h4*p*p*x-3*h4*x*x*x+1/4*h5*p*p*p-2*h5*p*x*x-1/2*h6*p*x*x+1/2*h7*x*x*x+1/4*h5*p*p*x*x+2*h5*x*x*x*x+1/4*h6*x*x*x*x-h4*x*x*x*x*x-5/4*h5*p*x*x*x*x+3/4*h5*x*x*x*x*x*x,-1/2-h4+1/4*p-1/2*h7*p+11/4*x*x+1/4*h4*p*p-2*h4*x*x-h5*p*x+1/4*h6*p*x+1/4*h7*p*p-1/2*h7*x*x+1/2*h4*p*x*x+1/2*h5*p*p*x+h5*x*x*x-1/8*h6*p*p*x-1/4*h6*x*x*x-3/4*h4*x*x*x*x-h5*p*x*x*x+1/4*h6*p*x*x*x-1/4*h7*x*x*x*x+1/2*h5*x*x*x*x*x-1/8*h6*x*x*x*x*x,-h5-9/4*x-h4*x+3/2*p*x+1/2*h4*p*x+1/4*h5*p*p-1/8*h6*p*p+3/4*h7*p*x-1/2*h4*x*x*x-1/2*h5*p*x*x+1/16*h6*p*p*p-3/8*h7*p*p*x+1/4*h7*x*x*x+1/4*h5*x*x*x*x-1/16*h6*p*p*x*x+1/8*h6*x*x*x*x+1/4*h7*p*x*x*x-1/16*h6*p*x*x*x*x+1/8*h7*x*x*x*x*x+1/16*h6*x*x*x*x*x*x};
+I=ideal firstEquations;
+print("W1_LINE_FIRST_ELIMINATION_START");
+E=eliminate({h4,h5,h6,h7},I);
+print("W1_LINE_FIRST_ELIMINATION_READY");print gens E;
+S=QQ[p,x];phi=map(S,R,{0,0,0,0,p,x});
+ES=ideal phi(gens E);
+tau=-(p+x^2+2);delta=((p-x^2-2)/2)^2;
+q=tau*(tau^2-delta)*(tau^2-2*delta)*(tau^2-3*delta)*((tau^2-2*delta)^2-3*delta^2);
+op=p*(2*x^2+1)*(p-x^2-2)*(x^2+2);
+J=saturate(ES+ideal(q),ideal(op));
+print("W1_LINE_FIRST_TORSION_RESULT");print gens gb J;
+```
+</details>
