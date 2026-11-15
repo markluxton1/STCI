@@ -708,19 +708,7 @@ it does not provide a global STCI mate. This is why the uniform claim is
 
 ### 7. Reproducibility and continuation
 
-Run with SymPy 1.14.0:
-
-    python3 research/computations/verify_mf6_defect12.py
-    python3 research/computations/verify_mf6_type3.py
-
-Both pass. The second reruns the first and uses its independently derived
-complete quartic ideal basis. The local lattice lemma is proved above
-rather than inferred from sampling. The next e=0 target is d2=4,d3=5:
-derive all flat degree-four killing sections and intersect them with the
-complete quartic space, retaining the canonical cubic-pole divisor and
-all exceptional quartic members. The regular type-three member, the e=1
-branches, and all higher carrier degrees remain unresolved by this note.
-
+The exact SymPy 1.14.0 controls are the MF6 defect-12 and type-three verification scripts in research/computations; the latter reuses the former and its complete quartic ideal basis. The local lattice lemma is proved above, not sampled. The next \(e=0\) case \(d_2=4,d_3=5\) requires all flat quartic killing sections intersected with the complete quartic space, retaining cubic-pole divisors and exceptional members. The regular type-three case, \(e=1\) branches, and higher carrier degrees remain open here.
 
 ---
 
