@@ -209,7 +209,7 @@ gives length one if J!=0. If J=0 and `G(G+3delta^2)!=0`, the
 gives length two. The exceptions are the already excluded G=J=0
 family and the already excluded entire-line family G=-3delta^2,J=0;
 their exact all-mate exclusions are retained in the
-[G=J=0 proof](../supplements/NONENDPOINT_TARGET_FIBERS_AND_SUPPORT.md#2-nonendpoint-gj-zero-full-support-exclusion) and the [full-line conormal bound](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit).
+[G=J=0 proof](#full-inverse-support-exclusion-when-gj0) and the [full-line conormal bound](../supplements/NONENDPOINT_CONORMAL_AND_CONDUCTOR_MODULES.md#5-nonendpoint-all-mate-conormal-conductor-independent-audit).
 These accepted lanes are reused, not reopened.
 
 At the remaining smooth source point, c maps immersively onto C0.
