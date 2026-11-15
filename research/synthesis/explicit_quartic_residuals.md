@@ -567,3 +567,23 @@ support in characteristic two; see [R-0021](../results/quartic_mu4_degeneration.
 More generally a [quartic carrier works in every positive characteristic](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier).
 The local scheme-union and genus bookkeeping principles are characteristic-free,
 but do not make these particular rational certificates uniform in p.
+
+## A reduced eight-component (4,4) competitor
+
+A separate explicit characteristic-zero control uses the fixed quadric
+\(q=x_0x_3-x_1x_2\), ruled cubic \(r=x_0x_2^2-x_1^2x_3\), and linear forms
+\[
+\ell_1=x_0+x_1+x_2+x_3,\quad
+\ell_2=x_0+2x_1+3x_2+5x_3,\quad
+\ell_3=x_0+7x_1+11x_2+13x_3.
+\]
+The saturated intersection of \((q\ell_1\ell_2,r\ell_3)\) was checked over
+\(\mathbf Q\) to equal the intersection of the eight prime ideals
+\[
+I_C,\ (x_0,x_1),\ (x_2,x_3),\ (q,\ell_3),\
+(r,\ell_1),\ (r,\ell_2),\ (\ell_1,\ell_3),\ (\ell_2,\ell_3).
+\]
+Its degree is sixteen and its scheme is reduced. This is a competing
+reducible complete-intersection cycle, **not** a sole-support STCI of \(C\).
+The historical Macaulay2 equality, degree and primality checker was retired;
+no new execution or characteristic-independent assertion is made here.

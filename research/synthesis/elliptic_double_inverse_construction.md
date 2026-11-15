@@ -346,3 +346,19 @@ and a precise geometric support/descent problem, rather than a forced claim
 of STCI existence or nonexistence. These exact number-field equations and
 saved characteristic-zero calculations assert no uniform reduction modulo
 primes or positive-characteristic family theorem.
+
+## A distinct failed marked inverse candidate
+
+An earlier explicit test on the Segre quadric \(S=(ad-bc=0)\), with
+\(\Delta=b-c\), used the four quadratic sections
+\[
+(U_0,U_1,U_2,U_3)=
+(a^2+\Delta^2,\ ab+\Delta^2,\ dc+2\Delta^2,\ d^2+3\Delta^2).
+\]
+They restrict on \(\Delta=0\) to the marked quartic parametrization.
+The historical exact computation found no basepoints on the chart
+\(\Delta=1\), but the pullback of the four homogeneous generators of
+\(I_C\) on that chart defined an **extra inverse scheme of length sixteen**
+(zero-dimensional). Thus this candidate fails the full-inverse-support
+requirement; its failure does not classify other perturbations or prove
+an STCI obstruction. The corresponding Macaulay2 diagnostic was retired.
