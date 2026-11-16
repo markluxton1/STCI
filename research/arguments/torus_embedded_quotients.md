@@ -30,7 +30,7 @@ R-0052, [actual equation criterion](../results/constant_quotient_equation_criter
 R-0053, [embedded counterexamples](../results/embedded_quotient_endpoint_counterexamples.md)
 R-0054, [flat collision](../results/flat_collision_of_orbit_images.md) R-0055,
 and [pure-curve degree exhaustion](../results/pure_curve_degree_exhaustion.md)
-R-0056. Independent substantive review accepts the six reconstructed proof routes within their stated scopes, as recorded in Review.
+R-0056. The six proof routes are given below with their stated hypotheses and limitations.
 The general degree-exhaustion section works over any field.
 
 Intrinsic finite-map geometry and purity prove the general construction.
