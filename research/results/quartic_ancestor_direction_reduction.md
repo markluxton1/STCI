@@ -159,7 +159,7 @@ projected rank at most \(n-2\).
 
 ### Constant directions
 
-The [pure-axis proof](../arguments/local-cohomology/direction_and_apolarity.md#independent-audit-of-pure-constant-quartic-directions)
+The [pure-axis proof](../arguments/local-cohomology/direction_and_apolarity.md#pure-constant-quartic-directions)
 excludes the two axes, including zero-symbol multiplier boundaries.
 For mixed constants the ambient torus acts transitively on directions,
 so normalize \((p,r)=(1,1)\).

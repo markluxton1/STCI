@@ -12,9 +12,9 @@ statement: "Every linear factor direction m of f with multiplicity nonzero in th
 dependencies: 
   - STCI-R-0032
 evidence:
-  - research/arguments/equations/global_lifting_interfaces.md#actual-generator-filtrations-and-the-cost-of-lifting-a-relation
+  - research/arguments/equations/global_lifting_interfaces.md#quadratic-formal-neighborhood-obstruction-to-zero-defect-thickenings
 independent_audits:
-  - research/arguments/equations/global_lifting_interfaces.md#actual-generator-filtrations-and-the-cost-of-lifting-a-relation
+  - research/arguments/equations/global_lifting_interfaces.md#quadratic-formal-neighborhood-obstruction-to-zero-defect-thickenings
 legacy_ids: []
 supersedes: []
 superseded_by: []

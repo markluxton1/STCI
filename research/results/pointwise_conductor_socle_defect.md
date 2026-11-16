@@ -12,9 +12,9 @@ scope:
 statement: "With A the transverse differential zero divisor and J^(n-1)=Soc(Y)(-D_n), equality of actual divisors holds: D_n=(n-1)A-B|c."
 dependencies: []
 evidence:
-  - "research/arguments/carriers/carrier_conductor_differential_comparison.md#conductor-transverse-differential-and-the-actual-top-socle"
+  - "research/arguments/carriers/actual_pair_top_socle_and_colength.md"
 independent_audits:
-  - "research/arguments/carriers/carrier_conductor_differential_comparison.md#conductor-transverse-differential-and-the-actual-top-socle"
+  - "research/arguments/carriers/actual_pair_top_socle_and_colength.md"
   - "research/arguments/carriers/normal_index_socle_and_torsion.md"
 legacy_ids: []
 supersedes: []

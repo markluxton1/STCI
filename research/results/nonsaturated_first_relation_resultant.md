@@ -14,11 +14,11 @@ dependencies:
   - STCI-R-0010
   - STCI-R-0011
 evidence:
-  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
+  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-defects-and-the-effective-resultant-budget"
   - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
   - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 independent_audits:
-  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
+  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-defects-and-the-effective-resultant-budget"
   - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
   - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 legacy_ids: []

@@ -826,7 +826,7 @@ control with residual degree \(32\) and loss of two-generation.
 
 The [original residual chapter](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_sextic_residuals_and_limits.md) supplies §§1–4.1 and the orbit-degree statement. Multiplicity and colon arguments have separate Results; the trace congruence/factor proof is in [weight restrictions](torus/equivariant_degree_bounds.md). Later extreme-component, large-prime attainment, and cancellation investigations remain separate and are **not** imported as premises.
 
-The [exact polynomial verifier](torus-sextic-controls.support/verify.py) checks Segre substitutions, generator changes, minors, cancellation, Hilbert numerators, and degree sums. It does **not** establish saturation, flatness, primary decomposition, all-characteristic coverage, or classification; the geometric proofs supply the claimed conclusions. Inherited source-space/sole-support arguments retain their owners in [sextic source spaces](../frameworks/torus-supported-boundaries/weights_and_limits.md#sextic-source-spaces-and-pencils).
+The [exact polynomial verifier](torus-sextic-controls.support/verify.py) checks Segre substitutions, generator changes, minors, cancellation, Hilbert numerators, and degree sums. It does **not** establish saturation, flatness, primary decomposition, all-characteristic coverage, or classification; the geometric proofs supply the claimed conclusions. Inherited source-space/sole-support arguments retain their owners in [sextic source spaces](../frameworks/torus-supported-boundaries/weights_and_limits.md#supplementary-sextic-source-spaces-and-pencils).
 
 ## Conclusion
 
