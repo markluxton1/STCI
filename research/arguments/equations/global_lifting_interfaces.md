@@ -1502,7 +1502,7 @@ In characteristic zero every factor satisfies this conclusion. Hence
 if every h_m is nonzero, the displayed initial-relation pattern is
 impossible for every r simultaneously.
 
-## 3. Independent check of relation lifting
+## 3. Relation lifting in the two-chart normal frames
 
 Choose the two usual affine charts of P1 and ambient formal normal
 parameters u,v lifting its fixed balanced conormal frame. On the overlap
@@ -1544,7 +1544,7 @@ Changing either local lift only changes its representative by a Cech
 coboundary. This proves (B) for the actual embedded ideal, with every
 moving-coordinate contribution accounted for at the relevant order.
 
-## 4. Independent check of repeated-factor extraction
+## 4. Repeated-factor extraction
 
 Factor f = m^t H, with H mod m = c ell^(r-t), c != 0, and ell a
 constant complement to m. Take the coefficient functional extracting
