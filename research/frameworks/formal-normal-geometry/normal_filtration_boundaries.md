@@ -1,6 +1,6 @@
 # Normal filtrations and boundary obstructions
 
-**Status:** thematic synthesis, not theorem authority or a new audit. This document connects accepted local results with global-lifting arguments with the review scopes stated in their sources. Exact hypotheses and proofs remain in the linked sources.
+This framework relates local normal-filtration results to global lifting. The linked arguments contain the hypotheses, proofs, and limitations.
 
 
 The full mathematical developments have moved to focused documents. Original headings remain as compatibility anchors.
@@ -97,7 +97,7 @@ The full mathematical developments have moved to focused documents. Original hea
 
 [Complete development](socle_budgets_and_arithmetic_comparisons.md#what-the-socle-budget-does-and-does-not-exclude)
 
-## A bounded next experiment, not another case catalogue
+## Remaining comparison interface
 
 [Complete development](socle_budgets_and_arithmetic_comparisons.md#a-bounded-next-experiment-not-another-case-catalogue)
 
@@ -113,7 +113,7 @@ The full mathematical developments have moved to focused documents. Original hea
 
 [Complete development](socle_budgets_and_arithmetic_comparisons.md#the-shared-duality-mechanism-and-its-limit)
 
-## Retired exact computational sources: filtration and principal direction
+## Exact computational sources: filtration and principal direction
 
 [Complete development](filtration_computational_sources.md#retired-exact-computational-sources-filtration-and-principal-direction)
 
