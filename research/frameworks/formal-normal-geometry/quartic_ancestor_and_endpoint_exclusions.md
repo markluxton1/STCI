@@ -24,10 +24,7 @@ The remaining defective ancestor strata and other directions must be checked wit
 
 ## Rational endpoint-family comparison
 
-The [Step 1C endpoint-family synthesis](../../arguments/local-cohomology/degree_fifteen_obstruction.md#the-degree-fifteen-boundary-and-exact-duals) preserves the complete first-family target-u exclusion and the incomplete second-family certificate. For the latter, 22 primitive geometric parameter points remain unresolved after the two quadratic exceptional factors are closed. These are exceptions to a certificate, not constructed ancestors. Both results concern specified pure-top endpoint directions, not all quartic ancestors or arbitrary mates.
-
-**Later endpoint closure:** The earlier October 8 count of 22 unresolved second-family exception points was eliminated by the October 13 cubic/quartic field duals and the October 14 degree-fifteen fraction-free certificate. Both specified rational endpoint families are excluded under their actual tensor and pure-top assumptions. See [the updated endpoint synthesis](../../arguments/local-cohomology/degree_fifteen_obstruction.md#the-degree-fifteen-boundary-and-exact-duals). Do not interpret the earlier count as the current frontier.
-
+The [completed degree-fifteen endpoint proof](../../arguments/local-cohomology/degree_fifteen_obstruction.md#the-degree-fifteen-boundary-and-exact-duals) excludes **both** specified rational pure-top endpoint families under their actual tensor and ancestor hypotheses. The earlier certificate left 22 second-family exceptional parameter points; subsequent cubic/quartic field duals and a fraction-free degree-fifteen certificate closed them. They are no longer an open frontier. Neither family exclusion applies to arbitrary quartic ancestors or arbitrary mate degrees.
 
 ## P-044 dx=1 slice: exact five-coordinate saturation (October 7)
 
