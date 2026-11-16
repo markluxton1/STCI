@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 
 # Recursive transverse complete intersections with prescribed normal Koszul cancellation

@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 # Endpoint lattices determine the Hilbert polynomial of a constant orbit image
 

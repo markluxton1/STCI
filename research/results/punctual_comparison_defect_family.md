@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 
 # Punctual comparison defects of arbitrary degree and length with integral carriers
