@@ -52,4 +52,4 @@ complete-intersection locus.
 
 ## Review
 
-The complete argument in A-0004 uses the unique double-vanishing quartic q^2, the divisor class (4,4) on Q, the local normal-parameter criterion and degree exhaustion for a proper (4,4) complete intersection. The criterion requires actual global coprime quartics, not arbitrary formal normal equations.
+The proof is [the uniform reduction of all (4,4) candidates](../arguments/quartic_specialization_and_symbols.md#5-a-uniform-reduction-of-all-44-candidates); the global-coprimality hypothesis is stated above.
