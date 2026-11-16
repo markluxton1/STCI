@@ -326,6 +326,7 @@ isolated-rank-one differential obstruction.
 
 The [72-identity verification program](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_ribbon_repeated_partitions_2026_10_09.py) checks the RNC ideal, direction kernels, augmented-system exclusions, singular lines, and conductor trace/norm. Together with the proofs above and the independent certificates below, it excludes the \([4]\), \([3,1]\), and \([2,2]\) partitions under their stated hypotheses. The \([2,1,1]\) case is separate; no higher-degree carrier or unrestricted STCI conclusion follows.
 
+<a id="genus-one-ribbon-repeated-partition-independent-certificates"></a>
 ## Independent ideal and conductor certificates
 
 These complementary calculations check the nonendpoint [3,1] ideal, the [2,2] ideal, and all-power conductor descent without replacing the geometric argument above. They assume the same characteristic-zero ADE del Pezzo projection and complete conormal net.
