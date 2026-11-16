@@ -1,17 +1,13 @@
-# Historical mathematical source compilation
+# Entirely-thick carriers: normalization, quadric restrictions, and marked-point geometry
 
-This compilation retains the mathematical hypotheses, failed arguments, qualifications, and unresolved cases. It supplies no new independent audit.
+These eight conditional developments distinguish exact necessary constraints from unproved global coupling or mate-exclusion claims. No individual local model establishes an unrestricted STCI obstruction.
 
 ---
 
-## Source: 2026-10-07-thick-apic-conductor-bridge.md
+## Normalization, conductor, and almost-Cartier support
 
-# Entirely-thick branch: normalization, conductor, and almost-Cartier reformulation
 
-Date: 2026-10-07
-Status: LITERATURE CONNECTION + EXACT REFORMULATION TARGET / NO NEW EXCLUSION YET
-
-## 1. Audit of the existing conductor theorem
+### 1. Audit of the existing conductor theorem
 
 The normalization/conductor theorem says the following for an integral carrier X with finite normalization nu:S->X and full reduced inverse image
     W=(nu^{-1}(C))_red.
@@ -22,7 +18,7 @@ for some b>0; after taking a power, conductor descent is automatic.
 
 Therefore, in the clean-conductor case, conductor descent itself cannot supply a further asymptotic obstruction. The remaining obstruction is the existence/class of A.
 
-## 2. Literature connection not presently recorded in main
+### 2. Literature connection not presently recorded in main
 
 Hartshorne and Polini, "Divisor class groups of singular surfaces", Trans. AMS 367 (2015), develop exact sequences relating Pic(X), APic(X), Pic(S), and local data along the singular/conductor locus. The paper explicitly applies this framework to restrictions on set-theoretic complete-intersection curves in P3.
 
@@ -30,7 +26,7 @@ This is more directly aligned with the present thick-carrier problem than generi
 
 No novelty claim is made for the APic framework.
 
-## 3. Correct reformulation
+### 3. Correct reformulation
 
 For an integral hypersurface carrier X, C is an almost-Cartier divisor under the usual codimension-one hypotheses. If a mate of degree b cuts C set-theoretically, the corresponding principal/hyperplane divisor has support C with some generic multiplicity m. Thus the class of the resulting thick divisor lies in the hyperplane subgroup of APic(X).
 
@@ -41,7 +37,7 @@ After normalization this condition has two parts:
 
 The existing clean-conductor theorem shows that after a suitable power the second condition disappears once the required effective Cartier support upstairs exists. Hence the difficult invariant is the class of the full inverse-image divisor in Pic(S), together with local APic data when extra nonnormality is present.
 
-## 4. Relation to the entirely-thick valuation data
+### 4. Relation to the entirely-thick valuation data
 
 The generic transverse cluster and its Rees valuations measure multiplicity of the pair ideal along divisorial valuations over C. On a fixed carrier X, the normalization records branches above C as curve components
     Gamma_j subset S
@@ -58,7 +54,7 @@ This gives the first credible bridge between the relative-cluster lane and the c
 
 The bridge is conceptual at present; the exact identification for the first-blowup section coefficients c_i has not been proved.
 
-## 5. What would produce an obstruction
+### 5. What would produce an obstruction
 
 For a fixed integral carrier X, compute the subgroup
     K_X = { (n_j)>0 : sum n_j Gamma_j is Cartier and linearly equivalent to bH for some b>0 }.
@@ -70,7 +66,7 @@ If the entirely-thick Rees/cluster data restricts the possible coefficient vecto
 
 This is a finite-lattice/class-group problem whenever the number of branches Gamma_j is finite and Pic(S) or its relevant quotient is computable.
 
-## 6. Why this can couple generic and special data
+### 6. Why this can couple generic and special data
 
 The coefficient vector n_j is generic along the normalization branches, while the APic/local-conductor terms record compatibility at special singular points. Unlike the failed inequalities c_i >= Phi(M_i), an exact sequence for APic(X) genuinely relates these two strata.
 
@@ -79,7 +75,7 @@ Thus APic is the appropriate place to seek a theorem coupling:
 - special pinch/triple/conductor points;
 - global hyperplane linear equivalence.
 
-## 7. Next concrete target
+### 7. Next concrete target
 
 Do not attempt this first for an arbitrary thick carrier.
 
@@ -96,23 +92,19 @@ in Pic(S), with the local APic compatibility.
 
 This can either exclude that carrier class or produce an explicit finite family of admissible coefficient vectors for comparison with the thick valuation tree.
 
-## 8. Boundary of the claim
+### 8. Boundary of the claim
 
 Nothing here excludes the entirely-thick branch globally. The new contribution is identification of a standard literature framework that precisely packages the missing generic-to-special coupling, and a concrete lattice formulation for the next carrier-specific calculation.
 
 
 ---
 
-## Source: 2026-10-07-thick-boundary-carrier-rigidity.md
+## Degree-3p carrier rigidity on the quadric
 
-# Entirely-thick (3,4) boundary: rigidity of the degree-3p carrier
-
-Date: 2026-10-07
-Status: PROVED equality rigidity on Q / OPEN ambient lifting problem
 
 Let C be the smooth rational quartic on its unique smooth quadric Q, with C=(1,3). Let F have degree a=3p and exact generic normal order p along C.
 
-## 1. Exact order after restriction to Q
+### 1. Exact order after restriction to Q
 
 The standard restriction calculation gives
 \[
@@ -131,7 +123,7 @@ exactly.
 
 This is an equality-case rigidity statement for the individual carrier, independent of the mate.
 
-## 2. Pure ruling residual divisor
+### 2. Pure ruling residual divisor
 
 Every effective divisor in |O_Q(2p,0)| is pulled back from a degree-2p divisor on the ruling base. Hence
 \[
@@ -152,7 +144,7 @@ r\le\min(p,q).
 
 So the boundary carrier is not merely high-contact with C: its entire residual intersection with Q is a repeated union of trisecant ruling fibers.
 
-## 3. Ambient lifting formulation
+### 3. Ambient lifting formulation
 
 Let q_Q be the quadratic equation of Q. Choose any ambient degree-3p lift H_p of
 \[
@@ -177,7 +169,7 @@ Consequently the boundary classification problem becomes:
 
 This is naturally a Rees/associated-graded problem for I_C.
 
-## 4. Why this may be more useful than normalization at this stage
+### 4. Why this may be more useful than normalization at this stage
 
 Normalization depends on the actual ambient lift F, not merely F|Q. The equality boundary does not yet force F to be nonnormal or to have a prescribed normalization.
 
@@ -188,7 +180,7 @@ h^p\cdot\{\text{binary forms of degree }2p\text{ with at most }\min(p,q)\text{ r
 
 Thus before applying APic one should classify or constrain the ambient lifts in I_C^p(3p).
 
-## 5. Associated-graded target
+### 5. Associated-graded target
 
 The first symbol of F lies in
 \[
@@ -212,7 +204,7 @@ together with restriction to the quadric direction.
 
 If this map has small kernel or a forced factorization at degree 3p, then the equality boundary may classify the carrier itself. If the kernel is large, normalization cannot yet be forced from boundary numerics.
 
-## 6. Boundary of the claim
+### 6. Boundary of the claim
 
 No claim is made that F is a p-th power, reducible, nonnormal, or generated by a quadric and cubic. Those would require the ambient lifting calculation.
 
@@ -225,16 +217,12 @@ with exact h-order p and, for an STCI equality pair, at most min(p,q) distinct r
 
 ---
 
-## Source: 2026-10-07-thick-degree-3p-quotient.md
+## Exact degree-3p quotient modulo the quadric
 
-# Entirely-thick boundary: exact degree-3p quotient modulo the quadric
-
-Date: 2026-10-07
-Status: PROVED
 
 Let C=[s^4:s^3t:st^3:t^4] be the smooth rational quartic, Q its unique smooth quadric, and I=I_C.
 
-## 1. Cartier restriction on Q
+### 1. Cartier restriction on Q
 
 On Q=P1xP1, C has class (1,3), so
 \[
@@ -252,7 +240,7 @@ Thus restriction gives
 
 The target has dimension 2p+1.
 
-## 2. Surjectivity from cubic equations
+### 2. Surjectivity from cubic equations
 
 For p=1,
 \[
@@ -293,7 +281,7 @@ and this quotient has dimension exactly
 2p+1.
 \]
 
-## 3. Interpretation
+### 3. Interpretation
 
 Every possible equality-boundary restriction
 \[
@@ -305,7 +293,7 @@ Thus the non-Q-divisible part of the degree-3p boundary contains no hidden highe
 
 The STCI equality condition restricts R to the nonlinear repeated-root locus with at most min(p,q) distinct roots, but every such R still lifts to I^p in degree 3p.
 
-## 4. Where ambient freedom remains
+### 4. Where ambient freedom remains
 
 The fiber over a fixed residual binary form is an affine translate of
 \[
@@ -324,7 +312,7 @@ That colon identity would require a separate associated-graded/Rees argument.
 
 Hence the remaining ambient classification problem is exactly the kernel/colon problem, not the boundary restriction problem.
 
-## 5. Strategic consequence
+### 5. Strategic consequence
 
 The equality a=3p is rigid on Q but flexible enough that every allowed binary residual divisor lifts. Therefore one cannot exclude the (3,4) boundary from the F-side restriction alone.
 
@@ -339,12 +327,8 @@ This sharply separates the solved quotient problem from the unresolved ambient p
 
 ---
 
-## Source: 2026-10-07-thick-first-blowup-marked-coupling.md
+## First-blowup marked-point coupling
 
-# Entirely-thick boundary: first-blowup marked-point coupling audit
-
-Date: 2026-10-07
-Status: STRUCTURAL AUDIT / NO c_T-versus-M_T INEQUALITY FROM SEMICONTINUITY
 
 Fix a horizontal component T of the first exceptional intersection cycle on
 \[
@@ -355,7 +339,7 @@ and let P=T cap S_Q be the marked point where T meets the quadric-direction sect
 
 The goal is to put the generic coefficient c_T and the special repeated-root multiplicity M_T into one local model.
 
-## 1. Blowup coordinates
+### 1. Blowup coordinates
 
 Locally on C choose a parameter t and transverse parameters y,z with
 \[
@@ -384,7 +368,7 @@ L_T(t;Y,Z)
 \]
 of these two binary forms over k(C). Its coefficient c_T in W is the generic intersection multiplicity of the two transformed divisors along T; equivalently it is determined in the completed two-dimensional local ring at the generic point of T.
 
-## 2. The marked root multiplicity is a section-intersection phenomenon
+### 2. The marked root multiplicity is a section-intersection phenomenon
 
 The equality-boundary repeated-root multiplicity M_T is detected where T meets S_Q.
 
@@ -400,7 +384,7 @@ Thus c_T and M_T are two measurements of the same first-blowup geometry but in d
 
 Ordinary upper semicontinuity of fiber length does not compare them.
 
-## 3. Why a naive local trivialization is misleading
+### 3. Why a naive local trivialization is misleading
 
 In a local trivialization of E over an open subset of C, write a section as
 \[
@@ -412,7 +396,7 @@ The actual intersection T cap S_Q therefore depends on the global ruled-surface 
 
 This is precisely why modifications concentrated at P can alter M_T without altering the generic germ along T and hence without altering c_T.
 
-## 4. No semicontinuity inequality
+### 4. No semicontinuity inequality
 
 There is therefore no legitimate argument of the form
 \[
@@ -428,7 +412,7 @@ Such an inequality would require an additional global divisor/line-bundle relati
 
 This strengthens the earlier root-budget separation result: even after placing both invariants on the first blowup, they are not fibers of one finite flat length function.
 
-## 5. The correct coupling datum
+### 5. The correct coupling datum
 
 The first place a genuine relation can occur is the divisor theory of the ruled surface E itself.
 
@@ -445,7 +429,7 @@ One should compute:
 
 This is a global ruled-surface calculation, not a local semicontinuity calculation.
 
-## 6. Immediate next target
+### 6. Immediate next target
 
 Use the known identifications
 \[
@@ -468,14 +452,10 @@ and, crucially, whether the coefficients c_j enter that divisor or disappear aft
 
 ---
 
-## Source: 2026-10-07-thick-generic-normalization-filter.md
+## Generic normalization valuation and Pic/APic filter
 
-# Entirely-thick branch: generic normalization valuation filter
 
-Date: 2026-10-07
-Status: EXACT LOCAL NECESSARY CONDITION / NO GLOBAL EXCLUSION
-
-## 1. Why no carrier-specific APic computation was made
+### 1. Why no carrier-specific APic computation was made
 
 The current frontier does not contain a surviving explicit integral nonnormal carrier with normalization data sufficient for a Pic/APic lattice computation.
 
@@ -483,7 +463,7 @@ The retained cubic pinch-surface normalization is a control example already excl
 
 Therefore introducing an ad hoc nonnormal carrier would not advance the audited STCI frontier.
 
-## 2. Generic local setup
+### 2. Generic local setup
 
 Let X be an integral surface carrier containing C and let
     nu:S -> X
@@ -498,7 +478,7 @@ If the mate has no additional common curve on X, any component of B relevant ove
 
 This is an effective Cartier divisor because it is locally principal, cut by the pulled-back mate.
 
-## 3. Hyperplane relation
+### 3. Hyperplane relation
 
 If g has ambient degree b, then on S
     O_S(div(g)) = O_S(bH).
@@ -514,7 +494,7 @@ must lie in the positive integral kernel of the quotient map
 
 This is the generic normalization valuation filter.
 
-## 4. Relation to Rees data
+### 4. Relation to Rees data
 
 The Rees valuations of the pair ideal (f,g) in the ambient transverse two-dimensional regular local ring are not automatically the same as the branch valuations v_j on the normalization of the single carrier X=(f=0).
 
@@ -526,7 +506,7 @@ which has not been proved,
 but rather:
     resolve the fixed carrier -> identify divisors/branches dominating C -> read v_j(g) -> impose the Pic/APic lattice relation.
 
-## 5. Local APic contribution
+### 5. Local APic contribution
 
 When X is nonnormal along C, the class of a divisor supported on C is more naturally an almost-Cartier class. Hartshorne-Polini's normalization framework relates APic(X) to Pic(S) and local data along the conductor/singular locus.
 
@@ -539,7 +519,7 @@ Accordingly the full filter has two layers:
 
 In the special case where all nonnormality is supported on C and only existence of some mate degree is sought, the repository's conductor-power theorem shows that sufficiently high powers remove the separate descent obstruction once the required Cartier support and hyperplane relation upstairs exist.
 
-## 6. Immediate corollaries
+### 6. Immediate corollaries
 
 For a fixed carrier:
 
@@ -548,7 +528,7 @@ For a fixed carrier:
 - If the solution monoid is finitely generated, comparison with possible valuation vectors becomes a finite semigroup problem.
 - An isolated point in the full inverse image remains an immediate exclusion before this lattice calculation.
 
-## 7. What this says about the entirely-thick program
+### 7. What this says about the entirely-thick program
 
 The generic Rees/cluster invariant becomes useful only after fixing enough geometry of one carrier to map its valuations to normalization branches.
 
@@ -556,7 +536,7 @@ Thus there is no carrier-independent APic inequality analogous to the first-blow
 
 The next effective use of APic should occur when an explicit nonnormal carrier survivor emerges from the split/thick classification. At that point the normalization lattice test should be applied immediately rather than after a long local jet analysis.
 
-## 8. Literature boundary
+### 8. Literature boundary
 
 Hartshorne and Polini's divisor-class-group work already provides the general APic-via-normalization framework and applies it to STCI questions. The generic valuation filter above is a direct specialization/repackaging of standard divisor pullback plus the repository's conductor criterion; no novelty is claimed.
 
@@ -565,12 +545,8 @@ The project-specific open problem is to identify the coefficient vectors forced 
 
 ---
 
-## Source: 2026-10-07-thick-local-pair-marked-trisecant.md
+## Local pair model at a marked trisecant
 
-# Entirely-thick boundary: local pair model at a marked trisecant point
-
-Date: 2026-10-07
-Status: NEGATIVE LOCAL RESULT
 
 Let L be a repeated trisecant ruling component of the residual divisor R_F on Q, and let P be one point of the degree-three divisor Z_L=C cap L.
 
@@ -583,7 +559,7 @@ creates a local compatibility condition not visible in the earlier reduced-line 
 
 It does not, from reduced support alone.
 
-## 1. Correct transverse local coordinates on Q
+### 1. Correct transverse local coordinates on Q
 
 Since L and C meet transversely at a reduced point P in the generic trisecant case, choose regular parameters (u,y) on Q at P such that
 \[
@@ -600,7 +576,7 @@ Write
 G|_Q=y^q R_G(u,y).
 \]
 
-## 2. What the support condition says
+### 2. What the support condition says
 
 Along the reduced line L, the residual mate is
 \[
@@ -628,7 +604,7 @@ y^e v(y)
 
 Thus all derivatives normal to L inside Q remain free, exactly as in the previous thickened-fiber countermodel.
 
-## 3. Adding the ambient normal direction
+### 3. Adding the ambient normal direction
 
 Choose an ambient parameter z with Q=(z=0). Then locally one may write
 \[
@@ -646,7 +622,7 @@ The reduced common-support condition does not impose a relation between A and th
 
 Hence the ambient transverse coefficient does not rescue a local marked-point jet obstruction.
 
-## 4. Three marked points do not change the local conclusion
+### 4. Three marked points do not change the local conclusion
 
 For a generic trisecant
 \[
@@ -661,7 +637,7 @@ For any fixed exponent triple, the earlier ruling interpolation audit proves tha
 
 Therefore keeping all three marked points still does not produce a new local compatibility equation.
 
-## 5. Consequence
+### 5. Consequence
 
 The smallest model containing
 - repeated-root multiplicity M,
@@ -672,7 +648,7 @@ still has arbitrary higher local coefficients compatible with the reduced STCI s
 
 So the obstruction cannot be purely local at one trisecant line if it uses only reduced support.
 
-## 6. What information is still missing
+### 6. What information is still missing
 
 A surviving obstruction must import scheme-theoretic information that reduced support forgets. The candidates are now sharply narrowed to:
 
@@ -687,14 +663,10 @@ The first item is the most immediate: compute the local pair ideal at P after th
 
 ---
 
-## Source: 2026-10-07-thick-marked-point-jets.md
+## Marked-point jets versus section budgets
 
-# Entirely-thick (3,4) boundary: marked-point jets versus section budgets
 
-Date: 2026-10-07
-Status: PROVED separation of invariants / OPEN coupling problem
-
-## 1. Two different invariants
+### 1. Two different invariants
 
 On the first exceptional surface E, fix a constant common section T and let P=T intersect S_Q, where S_Q is the quadric-direction section.
 
@@ -708,7 +680,7 @@ These are different kinds of data:
 
 There is no formal inequality r >= M_T.
 
-## 2. Local countermodel to naive coupling
+### 2. Local countermodel to naive coupling
 
 Use regular local coordinates (x,z) on E near P with S_Q=(z=0) and T transverse to S_Q. A function
     A=z+x^M
@@ -722,7 +694,7 @@ Therefore the hoped-for route
     M_T large => r large => c_T large
 is invalid without additional global structure.
 
-## 3. Consequence for the repeated-root argument
+### 3. Consequence for the repeated-root argument
 
 The audited repeated-root theorem remains useful, but only as a marked-point jet constraint:
     sum_T M_T = 2p,
@@ -733,7 +705,7 @@ It cannot by itself be inserted into the sectionwise Noether budget
 
 Any inequality c_T >= Phi(M_T,...) must use information beyond local smooth-surface intersection theory.
 
-## 4. Where coupling can come from
+### 4. Where coupling can come from
 
 The quadric Q supplies extra global structure. The marked point P is not arbitrary: it is the intersection of T with S_Q, and the residual ruling line associated to P is globally contained in V(F). The STCI condition then forces all zeros of G on that ruling line back onto C.
 
@@ -745,7 +717,7 @@ and R_G|L_T is a degree-q section whose zeros must all lie at L_T intersect C. S
 
 This converts the earlier existence-of-a-zero argument into a stronger one-variable restriction problem.
 
-## 5. Next exact question
+### 5. Next exact question
 
 Determine the possible section R_G|L_T in H^0(L_T,O(q)) under the condition that every zero is supported at P=L_T intersect C.
 
@@ -758,7 +730,7 @@ Thus on every ruling component L_T of R_F, the mate residual restricts to a pure
 
 This is a substantial sharpening of the existing repeated-root statement.
 
-## 6. New target
+### 6. New target
 
 Exploit the simultaneous conditions
     R_F = product_i L_i^{M_i},  sum M_i=2p,
@@ -776,12 +748,8 @@ This reconnects the entirely-thick branch to the project's jet-condition/discrep
 
 ---
 
-## Source: 2026-10-07-thick-quadric-section-divisor.md
+## Quadric-section and exceptional intersection divisor
 
-# Entirely-thick boundary: quadric section and exceptional intersection divisor
-
-Date: 2026-10-07
-Status: PROVED CLASS CALCULATION / IDENTIFICATION ISSUE FLAGGED
 
 On the first blowup B=Bl_C P3 let E be the exceptional surface. Use the established convention
 \[
@@ -790,7 +758,7 @@ H|_E=O_E(4,0),\qquad
 E|_E=O_E(7,-1).
 \]
 
-## 1. Class of the quadric-direction section
+### 1. Class of the quadric-direction section
 
 The strict transform of the unique quadric is
 \[
@@ -820,7 +788,7 @@ T_j.S_Q=(0,1).(1,1)=1.
 \]
 Thus every T_j meets S_Q in one reduced point when the intersection is transverse, and in total intersection multiplicity one in all cases.
 
-## 2. Restriction of W to S_Q
+### 2. Restriction of W to S_Q
 
 At the boundary
 \[
@@ -840,7 +808,7 @@ and
 
 This is the first natural divisor on the marked section that retains the sectionwise coefficients c_j.
 
-## 3. Restricting the two exceptional divisors
+### 3. Restricting the two exceptional divisors
 
 At the boundary
 \[
@@ -857,7 +825,7 @@ These degrees are not the residual-root degrees 2p and the mate fiber degree q. 
 
 Thus one must not identify D|S_Q directly with R_F or D'|S_Q directly with R_G without accounting for the relevant line-bundle identifications and fixed factors.
 
-## 4. Important coordinate issue
+### 4. Important coordinate issue
 
 A root of
 \[
@@ -880,7 +848,7 @@ This must be reconciled with the one-point intersection T_j cap S_Q before compa
 \]
 with the repeated-root divisor of R_F.
 
-## 5. Consequence
+### 5. Consequence
 
 The divisor W|S_Q is well-defined and retains the c_j coefficients, but a direct coefficient comparison c_j versus M_j is not yet justified.
 
