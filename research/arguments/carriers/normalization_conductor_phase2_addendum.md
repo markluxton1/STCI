@@ -424,9 +424,7 @@ The fixed-carrier certificate for the selected rho=−1, b2=0, q³-coefficient=1
 
 The six-row reduction and full spectral-gluing package are **characteristic zero**. The regular-sequence length identity and multiplication injectivity are characteristic-independent under their ring hypotheses, but the balanced source matrices require denominators and rank checks after reduction. The cube-orbit argument uses separability and cube roots, and does not transfer to characteristic three. The seed obstruction \(-384\) vanishes at primes dividing it; the characteristic-zero Milnor/Hodge bound and degree-52 condition do not yield positive-characteristic exclusions. This does not conflict with the [positive-characteristic quartic-carrier constructions](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).
 
-## Consolidated historical source: `research/supplements/STRUCTURAL_CONTINUATION_AND_INDEPENDENT_INVESTIGATIONS.md`
-
-# Actual source incidence and monic differential reductions
+## Related finite-root and structural incidence developments
 
 Complete mathematical dossier preserving the actual investigations, calculations, exact conditions, negative results, and unresolved boundaries. Administrative commentary is retained pending editorial consolidation, not treated as proof authority.
 
@@ -496,7 +494,7 @@ Open gaps include nonsaturated-relation defects, non-CI annihilator flags, lifti
 
 <a id="2026-10-16-session-structural-continuation"></a>
 
-## October 16 structural continuation and successor entry
+## Finite-root-family reduction and characteristic scope
 
 The universal integral-curve STCI question and unrestricted characteristic-zero quartic question remain open. The following theorems and conditional computational models have their own complete proofs and audits; they are not a new global existence or exclusion theorem.
 
