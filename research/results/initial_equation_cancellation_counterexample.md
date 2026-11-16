@@ -55,4 +55,4 @@ for the fixed projective quartic.
 
 ## Review
 
-The local calculation and its full initial ideal are proved in the linked Argument; this example has positive generic defect and does not settle the punctual case.
+The full length-five algebra and filtered Koszul cancellation are proved in [the filtered-equation Argument](../arguments/filtered_equation_comparison.md). The example has nonzero generic defect and is not a punctual-only construction.
