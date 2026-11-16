@@ -169,11 +169,13 @@ points are ADE.
 ### 4. A smooth elliptic exceptional curve
 
 Assume the anticanonical exceptional divisor `E` is a single smooth,
-reduced elliptic curve. This hypothesis specifies the surviving
-nonrational singularity as a **simple elliptic singularity**; all other
-singularities are rational double points. This section proves that no
-normal quartic with this property can be an STCI carrier for a smooth
-rational quartic, for any mate degree.
+reduced elliptic curve and that the embedded smooth rational quartic has
+balanced normal bundle `N_{C/P3}=O(7)^2`. The simple-elliptic hypothesis
+specifies the surviving nonrational singularity; all other singularities
+are rational double points. This section excludes such a normal quartic
+carrier for any mate degree. The balanced splitting is established for
+the fixed `C0` by [R-0020](../../results/quartic_conormal_characteristic_jump.md).
+No claim of that splitting for every smooth rational quartic is needed.
 
 By §3 the curve passes through the simple elliptic point. Put
 `d=-E^2`. The exhaustive rational-resolution classification gives
@@ -237,7 +239,7 @@ proved the local data
 
 #### A quartic supplies at most nine first-normal zeros
 
-For a smooth rational quartic in characteristic zero,
+Under the stated balanced-normal hypothesis,
 `N_C^*=O_P1(-7)^2`. The differential of its quartic carrier gives
 
 `O_P1(-16)→O_P1(-7)^2`.
@@ -322,7 +324,8 @@ Its local pair table and exact first-normal orders are a distinct
 proof from the [common fixed-C0 normal-carrier proof](quartic_carrier_proof.md#3-normal-quartics-exceptional-correction-and-actual-ideal-vanishing),
 which completes the reducible, singular and nonreduced cases for
 that fixed embedding. The broader smooth-rational-quartic statements
-in Sections1--4 retain exactly their stated hypotheses.
+in Sections 1--3 retain their hypotheses; Section 4 additionally requires
+the balanced normal splitting, established here for the fixed `C0`.
 
 The ADE correction identity Delta=6 is used here only when the curve
 avoids the nonrational points, so c.K_M=0. It is invalid when c.E>0;
