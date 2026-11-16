@@ -580,7 +580,7 @@ these multiplicity-one results excludes the [positive-characteristic
 quartic-carrier STCI](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier),
 whose generic multiplicity is higher.
 
-## Two retired exact computational examples
+## Exact computational benchmarks and limitations
 
 **An explicit smooth residual in (4,4).** Over `QQ[x0,x1,x2,x3]`, set
 ```
@@ -589,7 +589,7 @@ F=x1^4-x0^3*x3+q*(x0^2+x1^2+x2^2+x3^2+x0*x2+2*x1*x3)+2*x0*L;
 G=x2^4-x0*x3^3+q*(2*x0^2+3*x1^2+5*x2^2+7*x3^2
                     +x0*x1+x0*x3+x1*x2+3*x2*x3)+3*x3*R.
 ```
-The historical exact Macaulay2 check finds a proper `(4,4)` intersection with `I_D=(F,G):I_C` saturated, `degree(D)=12`, Hilbert polynomial `12n-15` (genus 16), `(F,G)=I_C intersect I_D`, empty projective singular scheme for `D`, and 18 reduced transverse attachment points avoiding both distinguished endpoints. It checks `H0(O_D)=QQ` and uses smoothness/base change to conclude geometric integrality. This is a **single exact benchmark**, not a proof of the general-pair theorem, which is established separately above.
+The exact Macaulay2 check establishes a proper `(4,4)` intersection with `I_D=(F,G):I_C` saturated, `degree(D)=12`, Hilbert polynomial `12n-15` (genus 16), `(F,G)=I_C intersect I_D`, empty projective singular scheme for `D`, and 18 reduced transverse attachment points avoiding both distinguished endpoints. It checks `H0(O_D)=QQ` and uses smoothness/base change to conclude geometric integrality. This is a **single exact benchmark**, not a proof of the general-pair theorem, which is established separately above.
 
 **Sparse heptic contact and six pair certificates.** For a binary heptic
 `h(z)=(z-1)(uz+1-u)^N(vz+1-v)^(6-N)`, with `N=1,2,3`, let `h_i` be its coefficients. The sparse constraints are `h_2=h_5=0`; the two binary quadratics are `P_2=h_6 X^2+h_3 XY+h_0Y^2` and `Q_2=h_7X^2+h_4XY+h_1Y^2`. Saturating by `(u-v)Res(P_2,Q_2)` gives the following exact zero-dimensional ideals, of lengths 2,4,4 respectively:
