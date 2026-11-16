@@ -358,8 +358,7 @@ Assume `K` has characteristic zero and contains all roots of unity.
 Let `E=product_i E_i` be the reduced semilocal upstairs algebra,
 with each `E_i/K` finite, and `alpha=(alpha_i) in E^*`.
 The intrinsic reduced descent exponent is the order `e` of the class
-of `alpha` in `E^*/K^*`, when this order is finite. This is a group
-quotient, not a tensor-product equalizer.
+of `alpha` in `E^*/K^*`, when this order is finite. This is a group quotient, not a tensor-product equalizer.
 
 Suppose `alpha^n=(beta,...,beta)` for some `beta in K^*`.
 Choose embeddings `E_i -> Kbar`. Every chosen value of `alpha_i`
