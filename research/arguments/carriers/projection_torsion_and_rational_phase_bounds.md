@@ -868,7 +868,7 @@ accepted explicit-`W` theorem is unchanged. The unrestricted fixed-C0 and
 universal projective-curve STCI questions remain open.
 
 
-### Preservation review
+### Exact scope and limitations
 
 Independent comparison verified preservation of the relocated mathematical body and its proof dependencies, **not** independent certification of proposed statements or new computations. [Original source at reconstruction baseline](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/EFFECTIVE_PROJECTION_PHASE_DECISION.md).
 
