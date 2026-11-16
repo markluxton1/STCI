@@ -913,33 +913,7 @@ carriers, nonnormal carriers, or all STCI presentations of C0.
 <a id="2026-10-14-generalization-curvilinear-torsion-and-index12"></a>
 ## Curvilinear ordinary normal layers and local index compatibility
 
-index-twelve program. This precursor's new proofs are now independently
-accepted in the [full filtered compatibility audit](#2026-10-14-generalization-index12-filtered-compatibility).
-The [current theorem and scope record](normal_index_socle_and_torsion.md#2026-10-14-generalization-normal-index-socle-theorem)
-adds the local power-socle formula, a linear index/degree bound and the
-all-degree exclusion of normal C0 carriers with actual on-curve indices
-at most four. The sections below retain the earlier intermediate route;
-their former pending labels and final next-task language are historical,
-superseded by those two accepted records. The unrestricted problem and
-actual index-six/twelve strata remain open. Accepted inputs were not
-recomputed.
-
-### 1. A theorem for the ordinary nilradical filtration
-
-The [free-layer proof](#1-ordinary-free-layers-are-powers-even-in-the-presence-of-torsion)
-gives the powers of the first free layer and the global torsion budget
-for the ordinary nilradical filtration. The ordinary filtration retains
-torsion in each layer and a possible defect at the inclusion of its top
-ideal into the actual socle.
-
-### 2. A pointwise strengthening by a Frobenius lattice
-
-The [pointwise proof](#2-the-frobenius-identity-is-pointwise) uses the
-lattice of powers of a generator of the first free quotient and the
-perfect relative Frobenius pairing. In particular, odd generic length
-forces every local top-socle multiplicity to be even. This proof retains
-all jets and local lattice changes. Surface class order and ramification
-of a normalized inverse curve enter through separate hypotheses.
+The [full filtered compatibility theorem](#2026-10-14-generalization-index12-filtered-compatibility) proves that the torsion-free ordinary layers are powers of the first free line, while retaining torsion and actual top-socle defects. Its pointwise Frobenius-lattice proof yields \(2\sum_i\operatorname{length}T_{i,P}=nD_{n,P}\); for odd \(n\), every local top-socle multiplicity is even. Neither result silently identifies ordinary powers with the saturated Bănică–Forster filtration. The distinct length-twelve pole and first-symbol calculations follow.
 
 ### 3. The forced length-twelve pair
 
