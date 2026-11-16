@@ -253,7 +253,7 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/arguments/spectral/spectral_determinant_schemes.md` | Review and remaining questions | Review commentary may be condensed | **inspect** | Preserve torsion-scheme CI family | uncertain |
 | `research/frameworks/carrier-normalization/degree_exclusions.md` | Missing higher-degree implication | Compact framework, limitation substantive | **clean** | Preserve degree exclusions | clean |
 | `research/frameworks/torus-supported-boundaries/sextic_filtration_and_source_comparisons.md` | Source map and scope | Compact framework with source map useful | **clean** | Preserve sextic filtration and comparison | clean |
-| `research/results/restricted_normal_diagram_counterexample.md` | Review | Closing review in Result may be administrative | **condense** | Preserve counterexample and limitations | revision needed |
+| `research/results/restricted_normal_diagram_counterexample.md` | Review | Closing review in Result may be administrative | **condense** | Preserve counterexample and limitations | stage 1 complete; final disposition: clean |
 | `research/frameworks/carrier-normalization/index.md` | Quartic-carrier proof interfaces | Coherent navigational framework | **clean** | Preserve index | clean |
 | `research/frameworks/torus-supported-boundaries/generic_algebras_and_endpoint_contact.md` | Higher jets of seven branches | Mathematical development without obvious audit | **clean** | Preserve endpoint frames | clean |
 | `research/frameworks/residual-construction/two_surfaces.md` | Actual sources finite jets and formal visibility | Compact coherent framework | **clean** | Preserve three operations and attachment quantities | clean |
@@ -268,7 +268,7 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/arguments/torus/cox_fiber_and_power_defects.md` | Literature consequences and stopping boundary | Boundary appears substantive | **inspect** | Preserve uniform section defect | uncertain |
 | `research/arguments/carriers/genus_two_bisection_descent.md` | Entire contact schemes under split descent | No obvious historical audit | **inspect** | Preserve split assumptions | uncertain |
 | `research/frameworks/formal-normal-geometry/open_normal_geometry.md` | Normal Koszul pages and Rees torsion | Compact framework | **clean** | Preserve open interfaces | clean |
-| `research/results/quartic_char2_fourth_equation_kernel.md` | Review | Review section in Result may be administrative | **condense** | Preserve char2 kernel statement | revision needed |
+| `research/results/quartic_char2_fourth_equation_kernel.md` | Review | Review section in Result may be administrative | **condense** | Preserve char2 kernel statement | stage 1 complete; final disposition: clean |
 
 ## Batch 8 — 40 additional mathematical files inspected
 
@@ -306,10 +306,10 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/results/INDEX.md` | Evidence locations | Navigational index | **clean** | Retain index | clean |
 | `research/results/actual_ci_smooth_root_bridge.md` | Evidence; Current proof navigation | Concise Result with proof links | **clean** | Retain actual-CI hypothesis | clean |
 | `research/results/smooth_root_formal_obstruction.md` | Evidence; Current proof navigation | Concise Result | **clean** | Retain formal obstruction scope | clean |
-| `research/results/normal_koszul_comparison_defect.md` | Review | Review section may be administrative | **condense** | Preserve comparison defect | revision needed |
+| `research/results/normal_koszul_comparison_defect.md` | Review | Review section may be administrative | **condense** | Preserve comparison defect | stage 1 complete; final disposition: clean |
 | `research/results/sextic_three_generator_full_limit.md` | Review | Review section may be administrative | **condense** | Preserve full-limit statement | revision needed |
 | `research/results/projection_phase_reduction.md` | Current mathematical evidence | Concise Result | **clean** | Preserve phase hypotheses | clean |
-| `research/results/punctual_comparison_defect_family.md` | Review | Review section may be administrative | **condense** | Preserve defect family and limitations | revision needed |
+| `research/results/punctual_comparison_defect_family.md` | Review | Review section may be administrative | **condense** | Preserve defect family and limitations | stage 1 complete; final disposition: clean |
 | `research/results/fixed_carrier_conductor_criterion.md` | Current mathematical evidence | Concise Result | **clean** | Preserve fixed-carrier criterion | clean |
 | `research/frameworks/global-equation-realization/index.md` | Available mathematics and bridges | Coherent navigation | **clean** | Retain index | clean |
 | `research/frameworks/formal-normal-geometry/filtration_computational_sources.md` | Retired exact computational sources | Retired source catalogue may be archival | **inspect** | Preserve CI(5,8) filtration degrees | uncertain |
@@ -329,8 +329,8 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/frameworks/formal-normal-geometry/actual_equation_module_and_ci_bridge.md` | Actual complete-intersection bridge; unresolved interface | Compact coherent framework | **clean** | Preserve saturation and embedded-lift distinctions | clean |
 | `research/frameworks/arithmetic-supported-lifts/index.md` | Bounded comparison; comparisons with other approaches | Coherent index with substantive specialization caveats | **clean** | Preserve mixed-characteristic distinctions | clean |
 | `research/frameworks/carrier-normalization/normalization_conductor_projection.md` | Topic headings linked to complete developments | Compact navigation despite many headings | **clean** | Retain index links | clean |
-| `research/results/embedded_quotient_endpoint_counterexamples.md` | Review | Review repeats proof location and hypotheses already given | **remove** | Preserve endpoint genus and Gorenstein counterexamples | revision needed |
-| `research/results/local_filtration_comparison_defect.md` | Review | Review mostly redirects to Argument and restates limitations | **remove** | Preserve DVR torsion formula and comparison | revision needed |
+| `research/results/embedded_quotient_endpoint_counterexamples.md` | Review | Review repeats proof location and hypotheses already given | **remove** | Preserve endpoint genus and Gorenstein counterexamples | stage 1 complete; final disposition: clean |
+| `research/results/local_filtration_comparison_defect.md` | Review | Review mostly redirects to Argument and restates limitations | **remove** | Preserve DVR torsion formula and comparison | stage 1 complete; final disposition: clean |
 | `research/results/nonsaturated_first_relation_resultant.md` | Proof verification acceptance; Current proof navigation | Consolidation boilerplate and audit acceptance are editorial | **condense** | Preserve conditional resultant budget | revision needed |
 | `research/results/order_one.md` | Historical jet-discrepancy comparison | Historical comparison includes concrete conormal formula and dimension | **inspect** | Do not discard quartic-source dimension formula | uncertain |
 | `research/results/movement_two_six_rows.md` | Proof verification acceptance; Current proof navigation | Audit acceptance boilerplate can be shortened | **condense** | Preserve six rows and saturation hypotheses | revision needed |
@@ -339,13 +339,13 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/results/quartic_flag_conormal_geometry.md` | Evidence and verification; Current proof | Short proof navigation and precise caveat; no clear archival excess | **clean** | Preserve conormal normalization distinction | clean |
 | `research/arguments/normal-geometry/finite_determinacy_and_root_tower_comparison.md` | Single compact comparison | No administrative content | **clean** | Preserve distinct positivity regimes | clean |
 | `research/results/sextic_eigenpair_residual_controls.md` | Review | Dated reviewer narrative can be condensed | **condense** | Preserve characteristic collisions and noncurvilinear controls | revision needed |
-| `research/results/conormal_entry_annihilator.md` | Review | Proof location and scope repeated after limitations | **remove** | Preserve Fitting identity and sharp DVR example | revision needed |
+| `research/results/conormal_entry_annihilator.md` | Review | Proof location and scope repeated after limitations | **remove** | Preserve Fitting identity and sharp DVR example | stage 1 complete; final disposition: clean |
 | `research/frameworks/spectral-roots/index.md` | Scope; Bridges | Coherent framework index | **clean** | Preserve Picard versus embedded realization | clean |
-| `research/results/normal_flat_comparison_specialization.md` | Review | Proof reference repeats already listed evidence | **remove** | Preserve normal flatness as sufficient not necessary | revision needed |
+| `research/results/normal_flat_comparison_specialization.md` | Review | Proof reference repeats already listed evidence | **remove** | Preserve normal flatness as sufficient not necessary | stage 1 complete; final disposition: clean |
 | `research/frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md` | Historical jet-discrepancy relation | Short comparison is mathematically substantive | **clean** | Preserve distinction of two defects | clean |
 | `research/results/recursive_normal_koszul_cancellation.md` | Review | Proof recap at end may duplicate evidence | **condense** | Preserve shifted Hilbert-Burch and pagewise cancellation | revision needed |
 | `research/results/quasiprimitive_residual_cycles.md` | Proof verification acceptance; Current proof home | Independent audit acceptance prose can be condensed | **condense** | Preserve saturated DVR basis and residual cycle bound | revision needed |
-| `research/results/normal_cone_slice_specialization.md` | Review | Closing proof recap after limitations | **remove** | Preserve Tor and Artin-Rees conditions | revision needed |
+| `research/results/normal_cone_slice_specialization.md` | Review | Closing proof recap after limitations | **remove** | Preserve Tor and Artin-Rees conditions | stage 1 complete; final disposition: clean |
 | `research/results/invariant_supported_ci_exclusion.md` | Review | Dated acceptance narrative is longer than needed | **condense** | Preserve invariant ideal versus invariant support distinction | revision needed |
 | `research/results/torus_eigenvector_generator_lifting.md` | Review | Reviewer process and acceptance commentary | **condense** | Preserve split torus and invariant ideal hypotheses | revision needed |
 | `research/results/moving_sextic_residual_limit.md` | Review | Dated reviewer and replay narrative | **condense** | Preserve moving family and attachment qualification | revision needed |
@@ -355,7 +355,7 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/frameworks/local-cohomology/index.md` | Scope; Mathematical interfaces; Bridges | Coherent framework index | **clean** | Preserve ancestor versus thickening distinction | clean |
 | `research/results/torus_orbit_curve_degree.md` | Review | Dated reviewer reconstruction can be shortened | **condense** | Preserve inseparable degree and properness | revision needed |
 | `research/results/saturated_actual_generator_movement.md` | Proof verification acceptance; Current proof navigation | Repeated consolidation boilerplate | **condense** | Preserve movement-one exclusion scope | revision needed |
-| `research/results/constant_embedded_orbit_image.md` | Review | Closing proof pointer repeats evidence | **remove** | Preserve finite embedded quotient and purity limits | revision needed |
+| `research/results/constant_embedded_orbit_image.md` | Review | Closing proof pointer repeats evidence | **remove** | Preserve finite embedded quotient and purity limits | stage 1 complete; final disposition: clean |
 | `research/results/saturated_first_relation_normal_flatness.md` | Current proof navigation | Single boilerplate navigation line | **inspect** | Preserve full moving-root reduction hypotheses | uncertain |
 | `research/results/normal_carriers.md` | Historical note and preservation review pointers | Historical provenance could be shortened but proof-route links useful | **inspect** | Preserve Type D closure and higher-degree limitation | uncertain |
 | `research/results/prime_element_colon_identity.md` | Review | Extended acceptance narrative after evidence | **condense** | Preserve primality assumptions and exact sequence | revision needed |
@@ -364,7 +364,7 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 
 | File | Location | Finding | Proposed action | Caution | Disposition |
 | --- | --- | --- | --- | --- | --- |
-| `research/results/flat_collision_of_orbit_images.md` | Review | Closing proof pointer repeats evidence and limitations | **remove** | Preserve flatness and genus-twenty-eight collision | revision needed |
+| `research/results/flat_collision_of_orbit_images.md` | Review | Closing proof pointer repeats evidence and limitations | **remove** | Preserve flatness and genus-twenty-eight collision | stage 1 complete; final disposition: clean |
 | `research/results/quartic_arithmetic_ruled_models.md` | Current proof | Compact evidence pointer | **clean** | Preserve four-section arithmetic hypotheses | clean |
 | `research/results/quartic_ruled_projection_geometry.md` | Current proof | Compact evidence pointer and qualified audits | **clean** | Preserve marked ruled projection conditions | clean |
 | `research/results/prescribed_z4_arithmetic_nonlifting.md` | Current proof | Short proof navigation | **clean** | Preserve nonlifting over Z_(2) and Z_2 | clean |
@@ -372,8 +372,8 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/results/singleton_plane_conductor_descent.md` | Current mathematical evidence | Generic consolidation boilerplate | **condense** | Preserve unique inverse support and no-mate scope | revision needed |
 | `research/results/regular_singular_root_formal_obstruction.md` | Current proof navigation | Repeated consolidation boilerplate | **condense** | Preserve formal surface hypotheses | revision needed |
 | `research/results/pointwise_conductor_socle_defect.md` | Current mathematical evidence | Generic consolidation boilerplate after evidence links | **condense** | Preserve pointwise socle defect | revision needed |
-| `research/results/supported_quadruple_equation_filtration.md` | Review | Proof location repeated after limitations | **remove** | Preserve supported quadruple and torsion counterexample | revision needed |
-| `research/results/constant_quotient_equation_criterion.md` | Review | Redundant closing proof pointer | **remove** | Preserve actual coefficient kernel criterion | revision needed |
+| `research/results/supported_quadruple_equation_filtration.md` | Review | Proof location repeated after limitations | **remove** | Preserve supported quadruple and torsion counterexample | stage 1 complete; final disposition: clean |
+| `research/results/constant_quotient_equation_criterion.md` | Review | Redundant closing proof pointer | **remove** | Preserve actual coefficient kernel criterion | stage 1 complete; final disposition: clean |
 | `research/results/quartic_normal_initial_base_change.md` | Review | Contains substantive monic polynomial and characteristic comparison | **inspect** | Preserve full initial ideal and base-change failure | uncertain |
 | `research/results/colon_divisor_cycle.md` | Review | Dated independent reconstruction narrative | **condense** | Preserve colon exact sequence and cycle assumptions | revision needed |
 | `research/results/sextic_residual_absorption.md` | Review | Dated reviewer and replay narrative | **condense** | Preserve residual absorption and iteration limit | revision needed |
@@ -382,9 +382,9 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/results/moving_nonreduced_spectral_root_obstruction.md` | Current proof navigation | Repeated consolidation boilerplate | **condense** | Preserve moving-root obstruction scope | revision needed |
 | `research/results/quartic_actual_symbols.md` | Review | Closing review includes substantive restriction and conormal details | **inspect** | Preserve q² and eight-dimensional restriction image | uncertain |
 | `research/results/sextic_eigenpair_quotient_bound.md` | Review | Dated independent reconstruction narrative | **condense** | Preserve sharp length-eight eigenpair bound | revision needed |
-| `research/results/orbit_image_endpoint_polynomial.md` | Review | Redundant closing proof pointer | **remove** | Preserve endpoint lattice Hilbert polynomial | revision needed |
+| `research/results/orbit_image_endpoint_polynomial.md` | Review | Redundant closing proof pointer | **remove** | Preserve endpoint lattice Hilbert polynomial | stage 1 complete; final disposition: clean |
 | `research/frameworks/local-cohomology/open_quartic_ancestors.md` | Quartic common ancestors | Compact mathematical open-problem interface | **clean** | Preserve ancestor versus mate distinction | clean |
-| `research/results/pure_curve_degree_exhaustion.md` | Review | Redundant closing proof pointer | **remove** | Preserve purity and degree hypotheses | revision needed |
+| `research/results/pure_curve_degree_exhaustion.md` | Review | Redundant closing proof pointer | **remove** | Preserve purity and degree hypotheses | stage 1 complete; final disposition: clean |
 | `research/results/quartic_e2.md` | Full proofs and exact support | Review chronology mixed with links to necessary evidence | **inspect** | Preserve e2 primitive quadruple conditions | uncertain |
 | `research/frameworks/carrier-normalization/quartic_carrier_veronese_and_genus_zero.md` | Veronese and genus-zero normalization | Compact proof interface | **clean** | Preserve nef and big hypotheses | clean |
 | `research/results/constant_first_relation_lifting.md` | Current proof navigation | Repeated consolidation boilerplate | **condense** | Preserve constant-relation lifting obstruction | revision needed |
@@ -395,7 +395,7 @@ Do not execute stages 2 or 3 until the remaining 0 files have been inspected and
 | `research/results/quartic_mu4_degeneration.md` | Review | Closing recap contains useful characteristic comparison | **inspect** | Preserve flat fibers and contact multiplicities | uncertain |
 | `research/results/normal_carrier_index_socle.md` | Current proof navigation | Repeated consolidation boilerplate | **condense** | Preserve local Cartier index and socle compatibility | revision needed |
 | `research/results/fixed_small_movement_finiteness.md` | Current proof navigation | Repeated consolidation boilerplate | **condense** | Preserve small-movement finiteness | revision needed |
-| `research/results/initial_equation_cancellation_counterexample.md` | Review | Closing proof pointer restates example | **remove** | Preserve nonpunctual generic defect | revision needed |
+| `research/results/initial_equation_cancellation_counterexample.md` | Review | Closing proof pointer restates example | **remove** | Preserve nonpunctual generic defect | stage 1 complete; final disposition: clean |
 | `research/results/full_conormal_socle_budget.md` | Current proof navigation | Repeated consolidation boilerplate | **condense** | Preserve full conormal filtration budget | revision needed |
 | `research/results/entirely_thick.md` | Exact (3,4) boundary | Compact mathematical result | **clean** | Preserve numerical restriction | clean |
 | `research/results/quartic_conormal_characteristic_jump.md` | Review | Closing recap supplies explicit extension class | **inspect** | Preserve characteristic-two splitting jump | uncertain |
