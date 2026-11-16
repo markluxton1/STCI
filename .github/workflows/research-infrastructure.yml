@@ -42,3 +42,9 @@ jobs:
         run: python3 scripts/research.py validate
       - name: Check deterministic catalog
         run: python3 scripts/research.py catalog --check
+
+      - name: Diagnose generated catalog difference (temporary)
+        if: failure()
+        run: |
+          python3 scripts/research.py catalog
+          git diff -- research/CATALOG.md
