@@ -99,4 +99,3 @@ The argument is a geometric reduction with necessary exact identities,
 and its characteristic-zero attachment qualification remains explicit.
 Acceptance concerns this residual family, not sole-supported intersections.
 
-Independent reconstruction review accepts this route within its stated scope.
