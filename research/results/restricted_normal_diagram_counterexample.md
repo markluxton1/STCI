@@ -207,6 +207,4 @@ base change to \(C\). With the original bases and ambient quotient maps
 over the fixed \(P\), the full diagram determines the embedded
 intersection directly in degree zero.
 
-## Review
-
-The proof above gives the binomial-domain presentations, the common eight-element transverse bases, all nine restricted graded algebras and the seven strict-triple maps. The square-zero distinction uses characteristic zero. The original ambient degree-zero quotient map recovers the embedded ideal, so the counterexample applies only after restriction to the reduced curve.
+The square-zero distinction uses characteristic zero. The original ambient degree-zero quotient map recovers the embedded ideal, so the counterexample applies only after restriction to the reduced curve.
