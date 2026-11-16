@@ -577,16 +577,6 @@ an exhaustion of all A4 quintic carriers. The nonendpoint placement,
 center avoidance, finite birationality, full inverse support and descent
 of every possible Q^k remain separate requirements.
 
-## 9. Evidence and continuation
+## 9. Remaining global question
 
-The independent global-kernel and local-chart Macaulay2 agents preserve
-their exact sources, raw output, failed scaffolds and execution records
-under distinct new October 11 paths. This note records direct geometric
-proofs and does not count a child execution again as a new verifier.
-The exact logs distinguish degree four of the Jacobian scheme, length
-two of the curve-line intersection, and degree five of S.
-
-The next mate question is genuinely global: whether a permitted P3
-projection can make any Q^k descend through its entire conductor while
-retaining full inverse support over C0. Neither a successful local A4
-chart nor the unique abstract pair supplies that descent or bounds k.
+A permitted projection to \(\mathbf P^3\) must still make a power \(Q^k\) descend through the entire conductor while retaining full inverse support over \(C_0\). The local \(A_4\) chart and the unique abstract pair neither establish descent nor bound \(k\). The exact local distinctions are Jacobian-scheme degree four, curve-line intersection length two, and surface degree five.
