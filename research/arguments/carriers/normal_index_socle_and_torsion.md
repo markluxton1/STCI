@@ -1084,29 +1084,7 @@ Exactness at `Cl(X)` is the required assertion; no surjectivity onto the direct 
 
 ### 2. Exact local-index formula for the normal quartic carrier
 
-Write `a=deg X`, `g=gcd(a,4)`, `mu=a/g`, `v=4/g`, and
-
-`Delta0 = mu[C0] - v[H]`.
-
-Assume `Delta0` has finite order `t`; this is the accepted normal-carrier mate criterion. The accepted exact progression of mate degrees gives `b_min=v*t`.
-
-**PROVED HERE.** Let `r_P` be the algebraic local Cartier index of `C0` at `P in C0 intersect Sing(X)`. These indices are finite: the torsion relation makes `t*mu*C0` Cartier. Off `C0`, the local class of `Delta0` is zero. At a point on `C0` its local class is `mu[C0]_P`, hence its order is `r_P/gcd(r_P,mu)`. Injectivity of localization on global torsion gives
-
-`t = lcm_P (r_P/gcd(r_P,mu))`.
-
-Set `R=lcm_P r_P`, using `R=1` for the empty set. For each prime `ell`, the valuation on the preceding least common multiple is
-
-`max_P max(v_ell(r_P)-v_ell(mu),0) = max(v_ell(R)-v_ell(mu),0)`.
-
-Consequently
-
-`t = R/gcd(R,mu)` and `b_min = (4/g)*R/gcd(R,a/g)`.
-
-If `R` divides `a=g*mu`, the valuation formula gives `t` dividing `g`, so `b_min<=4`. The accepted low-degree exclusions therefore imply:
-
-**Every normal carrier admitting a mate must have at least one singular point on `C0` whose local Cartier index does not divide the carrier degree.**
-
-The special case `C0` disjoint from `Sing(X)` has `R=t=1` and is excluded. The same conclusion follows directly because then `C0` is Cartier everywhere, so `Delta0` is a torsion element of `Pic(X)` and must vanish.
+The full proof and the crucial non-converse (finite local indices do not themselves imply global torsion) are in [the normal-carrier class-group argument](normal_carrier_symbolic_torsion.md#3-exact-index-formula-on-every-normal-c0-carrier). For a hypothetical mate on a normal degree-`a` carrier, set `g=gcd(a,4)`, `mu=a/g`, `R=lcm_P r_P`, where `r_P` is the actual algebraic local Cartier index of `C0` at an on-curve singular point. Then `t=R/gcd(R,mu)` and `b_min=(4/g)t`. Localization detects the torsion order only **after** the global mate relation is assumed.
 
 ### 3. Ordinary nodes and bounded local exponents
 
@@ -1153,45 +1131,9 @@ Source caution: Theorem 0.1(a)'s introductory phrase about the entire etale locu
 
 No statement about the fundamental group of `X_reg` being trivial has been obtained or assumed. The Kummer example proves that such a general assertion is false. No universal bound on `t` across unbounded carrier degree is claimed.
 
-### 6. New integral Cartier-intersection constraint and finite index families
+### 6. Integral Cartier-intersection constraint and bounded-index families
 
-Added on 2026-10-14 after the preceding source work. This is a new independent audit of the root's suggested strengthening, not a replay of an inherited computation.
-
-**PROVED HERE.** Under the mate relation, `C0` is Q-Cartier. By the definition of each algebraic local index, `R*C0` is Cartier at every singular point on `C0`. It is automatically Cartier at regular points and, as a divisor, is zero locally outside `C0`. Therefore `R*C0` is globally Cartier.
-
-If a mate gives `m*C0 ~ b*H`, intersection with `H` gives `4m=ab`, so `b/m=4/a`. The rational self-intersection is consequently
-
-`C0^2 = (b/m)(H.C0) = 16/a`.
-
-Equivalently, one can avoid treating the Q-Cartier self-intersection as a separate definition: restrict the line-bundle relation for `m*R*C0 ~ b*R*H` to `C0`, then take integer degrees and divide by `m`. Since `H|C0` has degree four, this gives
-
-`deg(O_X(R*C0)|C0) = 4bR/m = 16R/a`.
-
-The left side is the degree of an actual invertible sheaf on the smooth projective curve. It is an integer, hence
-
-`a divides 16R`.
-
-This argument would also work for an integral projective curve of degree `d`, giving `a divides d^2 R`, whenever the mate relation and actual local Cartier indices exist.
-
-**PROVED finite arithmetic consequences.** Assume the accepted exclusion of normal carrier degrees at most four, so a surviving carrier has `a>=5`. If every local index divides a fixed integer `L`, enumerate only
-
-`R|L`, `a|16R`, `g=gcd(a,4)`, `t=R/gcd(R,a/g)`, `b_min=(4/g)*t>4`.
-
-An elementary integer divisor enumeration gives:
-
-| Local index bound | Surviving `(a,R,t,b_min)` |
-|---|---|
-| `L=2` | none |
-| `L=3` | none |
-| `L=4` | none |
-| `L=6` | none |
-| `L=12` | `(6,12,4,8)` and `(8,12,6,6)` |
-
-For `L=12`, the proper-divisor values `R=1,2,3,4,6` are already excluded by the preceding rows. For `R=12`, the carrier degrees to inspect are the divisors of `192` at least five: `6,8,12,16,24,32,48,64,96,192`. Substitution in the exact torsion formula leaves precisely `6` and `8`; the degree `12` case has mate degree four and the remaining cases have smaller mates. The enumeration was also checked with a short Python integer-divisor loop; this is elementary arithmetic verification, not a new CAS certificate or a rerun of an old verifier.
-
-**Final node conclusion.** On-curve ordinary nodes give `R<=2`, so `a|32`. No odd carrier degree at least five divides `32`; the even degrees have already been excluded by `b_min<=4`. Hence all normal `C0` carriers whose on-curve singularities are ordinary nodes are excluded, assuming the accepted carrier-degree-at-most-four exclusions. Singularities away from `C0` are unrestricted in this statement.
-
-The two `L=12` rows are only necessary arithmetic survivors. No existence statement, classification of actual on-curve ADE configurations, or global normal-carrier resolution follows from this table alone.
+The complete derivation, divisor enumeration, and generalization to integral degree-`e` curves are in [Cartier-index integrality and all-degree exclusions](normal_carrier_symbolic_torsion.md#4-cartier-index-integrality-and-new-all-degree-exclusions). For the quartic, `R C0` is Cartier, and the hypothetical mate implies `deg(O_X(R C0)|C0)=16R/a`, hence `a|16R`. Local indices dividing `2`, `3`, `4`, or `6` exclude every mate; indices dividing `12` leave only `(a,R,t,b_min)=(6,12,4,8)` and `(8,12,6,6)`, the same unordered degree pair `(6,8)`. These are necessary arithmetic survivors, not constructions. On-curve ordinary nodes give `R<=2` and are excluded in every carrier degree, with no restriction on singularities away from `C0`.
 
 
 ---
