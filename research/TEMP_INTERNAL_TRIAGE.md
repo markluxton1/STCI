@@ -2,7 +2,7 @@
 
 Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: individual-file content only; no edits to mathematical documents and no cross-document comparisons.
 
-**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 263 have been individually inspected across eight batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
+**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 303 have been individually inspected across nine batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
 
 | File | Location | Finding | Proposed action | Caution | Disposition |
 | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: ind
 - **uncertain** — mathematical value or redundancy cannot yet be judged without closer inspection.
 - **unreviewed** — not yet examined; never infer clean from absence in this log.
 
-Do not execute stages 2 or 3 until the remaining 81 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
+Do not execute stages 2 or 3 until the remaining 41 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
 
 ## Batch 2 — 15 additional files inspected
 
@@ -314,3 +314,48 @@ Do not execute stages 2 or 3 until the remaining 81 files have been inspected an
 | `research/frameworks/global-equation-realization/index.md` | Available mathematics and bridges | Coherent navigation | **clean** | Retain index | clean |
 | `research/frameworks/formal-normal-geometry/filtration_computational_sources.md` | Retired exact computational sources | Retired source catalogue may be archival | **inspect** | Preserve CI(5,8) filtration degrees | uncertain |
 | `research/results/quartic_44_filtered_exclusion.md` | Evidence and verification | Short evidence section appears proportionate | **clean** | Preserve quartic exclusion hypotheses | clean |
+
+## Batch 9 — 40 additional mathematical files structurally inspected
+
+| File | Location | Finding | Proposed action | Caution | Disposition |
+| --- | --- | --- | --- | --- | --- |
+| `research/frameworks/carrier-normalization/open_carrier_cases.md` | Five open-carrier headings | Concise inventory of genuine unresolved mathematical interfaces | **clean** | Retain exact open conditions | clean |
+| `research/results/moving_purepower_boundary.md` | Original evidence and independent audits; Current proof navigation | Audit links and boilerplate are navigational rather than duplicated proofs | **inspect** | Preserve finite-order tower non-exclusion | uncertain |
+| `research/results/spectral_root_picard_criterion.md` | Evidence; Current proof navigation | Repeated consolidation boilerplate at end | **condense** | Preserve Picard criterion and ambient realization caveat | revision needed |
+| `research/frameworks/carrier-normalization/quartic_carrier_genus_one_and_ribbon_nets.md` | Genus-one net and fixed-center caution | Compact mathematical framework | **clean** | Preserve partition and center distinction | clean |
+| `research/investigations/supported-generator-incidence/index.md` | Completion and next decisions; status planned | Investigation workflow and next-decision instructions may be stale | **inspect** | Preserve incidence question and bounded family method | uncertain |
+| `research/frameworks/residual-construction/index.md` | Scope; Interfaces; Bridges | Coherent framework index | **clean** | Preserve residual degree qualifications | clean |
+| `research/results/quartic_carrier_exclusion.md` | Earlier partial mechanisms; historical acceptance chronology | Chronology can be shortened while retaining theorem and partial mechanisms | **condense** | Preserve complete no-quartic-carrier conclusion and scope | revision needed |
+| `research/frameworks/formal-normal-geometry/actual_equation_module_and_ci_bridge.md` | Actual complete-intersection bridge; unresolved interface | Compact coherent framework | **clean** | Preserve saturation and embedded-lift distinctions | clean |
+| `research/frameworks/arithmetic-supported-lifts/index.md` | Bounded comparison; comparisons with other approaches | Coherent index with substantive specialization caveats | **clean** | Preserve mixed-characteristic distinctions | clean |
+| `research/frameworks/carrier-normalization/normalization_conductor_projection.md` | Topic headings linked to complete developments | Compact navigation despite many headings | **clean** | Retain index links | clean |
+| `research/results/embedded_quotient_endpoint_counterexamples.md` | Review | Review repeats proof location and hypotheses already given | **remove** | Preserve endpoint genus and Gorenstein counterexamples | revision needed |
+| `research/results/local_filtration_comparison_defect.md` | Review | Review mostly redirects to Argument and restates limitations | **remove** | Preserve DVR torsion formula and comparison | revision needed |
+| `research/results/nonsaturated_first_relation_resultant.md` | Proof verification acceptance; Current proof navigation | Consolidation boilerplate and audit acceptance are editorial | **condense** | Preserve conditional resultant budget | revision needed |
+| `research/results/order_one.md` | Historical jet-discrepancy comparison | Historical comparison includes concrete conormal formula and dimension | **inspect** | Do not discard quartic-source dimension formula | uncertain |
+| `research/results/movement_two_six_rows.md` | Proof verification acceptance; Current proof navigation | Audit acceptance boilerplate can be shortened | **condense** | Preserve six rows and saturation hypotheses | revision needed |
+| `research/arguments/torus/seven_branch_endpoint_jets_and_conductors.md` | Single continuous proof with conductor lattices | No obvious historical appendix | **clean** | Preserve endpoint tangent-cone computations | clean |
+| `research/results/moving_ideal_generator_criterion.md` | Review | Extended review narrative after already stated scope | **condense** | Preserve base-change and fiber qualifications | revision needed |
+| `research/results/quartic_flag_conormal_geometry.md` | Evidence and verification; Current proof | Short proof navigation and precise caveat; no clear archival excess | **clean** | Preserve conormal normalization distinction | clean |
+| `research/arguments/normal-geometry/finite_determinacy_and_root_tower_comparison.md` | Single compact comparison | No administrative content | **clean** | Preserve distinct positivity regimes | clean |
+| `research/results/sextic_eigenpair_residual_controls.md` | Review | Dated reviewer narrative can be condensed | **condense** | Preserve characteristic collisions and noncurvilinear controls | revision needed |
+| `research/results/conormal_entry_annihilator.md` | Review | Proof location and scope repeated after limitations | **remove** | Preserve Fitting identity and sharp DVR example | revision needed |
+| `research/frameworks/spectral-roots/index.md` | Scope; Bridges | Coherent framework index | **clean** | Preserve Picard versus embedded realization | clean |
+| `research/results/normal_flat_comparison_specialization.md` | Review | Proof reference repeats already listed evidence | **remove** | Preserve normal flatness as sufficient not necessary | revision needed |
+| `research/frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md` | Historical jet-discrepancy relation | Short comparison is mathematically substantive | **clean** | Preserve distinction of two defects | clean |
+| `research/results/recursive_normal_koszul_cancellation.md` | Review | Proof recap at end may duplicate evidence | **condense** | Preserve shifted Hilbert-Burch and pagewise cancellation | revision needed |
+| `research/results/quasiprimitive_residual_cycles.md` | Proof verification acceptance; Current proof home | Independent audit acceptance prose can be condensed | **condense** | Preserve saturated DVR basis and residual cycle bound | revision needed |
+| `research/results/normal_cone_slice_specialization.md` | Review | Closing proof recap after limitations | **remove** | Preserve Tor and Artin-Rees conditions | revision needed |
+| `research/results/invariant_supported_ci_exclusion.md` | Review | Dated acceptance narrative is longer than needed | **condense** | Preserve invariant ideal versus invariant support distinction | revision needed |
+| `research/results/torus_eigenvector_generator_lifting.md` | Review | Reviewer process and acceptance commentary | **condense** | Preserve split torus and invariant ideal hypotheses | revision needed |
+| `research/results/moving_sextic_residual_limit.md` | Review | Dated reviewer and replay narrative | **condense** | Preserve moving family and attachment qualification | revision needed |
+| `research/frameworks/carrier-normalization/quartic_carrier_trisecant_discriminant.md` | Single trisecant discriminant development | Compact mathematics | **clean** | Preserve discriminant and horizontal section condition | clean |
+| `research/results/intrinsic_limits_endpoint_fibers.md` | Review | Extended reconstruction review can be shortened | **condense** | Preserve two opposite limits and endpoint lengths | revision needed |
+| `research/results/quartic_dual_singular_scheme.md` | Evidence and verification | Specific replay evidence supports singular-scheme claims | **inspect** | Preserve saturation and Hilbert-Burch qualifications | uncertain |
+| `research/frameworks/local-cohomology/index.md` | Scope; Mathematical interfaces; Bridges | Coherent framework index | **clean** | Preserve ancestor versus thickening distinction | clean |
+| `research/results/torus_orbit_curve_degree.md` | Review | Dated reviewer reconstruction can be shortened | **condense** | Preserve inseparable degree and properness | revision needed |
+| `research/results/saturated_actual_generator_movement.md` | Proof verification acceptance; Current proof navigation | Repeated consolidation boilerplate | **condense** | Preserve movement-one exclusion scope | revision needed |
+| `research/results/constant_embedded_orbit_image.md` | Review | Closing proof pointer repeats evidence | **remove** | Preserve finite embedded quotient and purity limits | revision needed |
+| `research/results/saturated_first_relation_normal_flatness.md` | Current proof navigation | Single boilerplate navigation line | **inspect** | Preserve full moving-root reduction hypotheses | uncertain |
+| `research/results/normal_carriers.md` | Historical note and preservation review pointers | Historical provenance could be shortened but proof-route links useful | **inspect** | Preserve Type D closure and higher-degree limitation | uncertain |
+| `research/results/prime_element_colon_identity.md` | Review | Extended acceptance narrative after evidence | **condense** | Preserve primality assumptions and exact sequence | revision needed |
