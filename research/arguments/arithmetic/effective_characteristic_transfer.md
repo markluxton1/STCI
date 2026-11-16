@@ -257,22 +257,11 @@ pair could have both degrees above four. The consequence retains the review scop
 it does not extend the characteristic-zero geometric case proofs to
 positive characteristic.
 
-## Independent review
+## Scope of the conclusions
 
-An independent reconstruction on October 31, 2026 accepted the explicit
-transfer (2), the conditional growth rate, and the unconditional constant
-bound. It verified the integral containment equations, properness charts
-including zero forms, local transverse truncation and purity, all four
-parameter bounds, the primary KPS theorem, chart uniformity, algebraically
-closed coefficient fields, and the R-0001 consequence. No bounded-degree
-incidence was solved computationally; the proof bounds the arithmetic
-certificate if the corresponding characteristic-zero incidence is empty.
-
-The same independent reviewer subsequently reconstructed (5)–(6), including
-the monic charts, homogeneous remainder and small-degree monomial counts,
-unchanged determinant-height bounds, coverage of reducible quartics through
-the accepted lower-degree inputs, and the absence of a chart-count factor.
-The reduced variable count and the resulting square-root logarithmic rate
-were accepted. This review covers the unconditional all-quartic consequence,
-not unrestricted degree growth or a positive-characteristic version of the
-geometric classification proof.
+The effective transfer is degree-preserving and uses the full simultaneous-pair
+incidence, including the properness open condition. The unrestricted growing
+lower bound is conditional on characteristic-zero nonexistence. The growing
+mate-degree bound for quartic carriers is unconditional, using the separate
+characteristic-zero quartic-carrier exclusion; it does not imply growth of
+the unrestricted minimum. No bounded-degree incidence is solved explicitly.
