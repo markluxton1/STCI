@@ -1,14 +1,10 @@
-# ribbon repeated partitions complete
-
-## Dependency guide: partition-by-partition exclusion
+# Genus-one ribbon: repeated-contact partition exclusions
 
 The [ribbon conormal-net proof](genus_one_ribbon_conormal_net_proof.md) and [uniform projection conditions](genus_one_uniform_projection_analysis.md) are upstream assumptions. This proof treats the repeated-contact partitions **[4], [3,1], and [2,2]**, including endpoints and direction boundaries, and does not claim to handle the distinct [2,1,1] stratum. Its [independent certificate](#genus-one-ribbon-repeated-partition-independent-certificates) checks coverage and conductor/power obstructions with exact ideal computations. Retain the original case calculations and the independent audit as distinct evidence, not interchangeable summaries.
 
 ---
 
 Permanent detailed mathematical record, including all proofs, calculations, counterexamples and explicit unresolved conditions.
-
-# Complete exclusion of contact partitions [4], [3,1], and [2,2]
 
 Date: 2026-10-09. Author: `ribbon_repeated_root_strata`.
 Status: **PROVED HERE conditional on the accepted genus-one ribbon-net
@@ -340,83 +336,18 @@ trace/norm certificate. They are exact identities supporting the
 preceding proofs; a `PASS` does not replace their geometric reasoning.
 
 The exact bounded task is complete: **[4], [3,1], and [2,2] all excluded
-under the stated accepted inputs**. The next reviewing step is an
-independent audit of the exhaustiveness of these three reductions and
-its integration with the separate [2,1,1] proof. This note itself makes
+under the stated accepted inputs**. The independent ideal and conductor certificates below supplement the main proof; the separate [2,1,1] case is treated in its focused argument. This note itself makes
 no claim about genus-two normalizations,
 higher quartic ancestors, arbitrary higher carrier degrees, or the
 universal STCI question.
 
 
-## Consolidated historical source: `research/supplements/GENUS_ONE_RIBBON_PARTITION_INDEPENDENT_CERTIFICATES.md`
 
-# Genus-one ribbon repeated-partition independent certificates
+## Independent ideal and conductor certificates
 
-## Dependency guide: independent certificate versus source proof
+These complementary calculations check the nonendpoint [3,1] ideal, the [2,2] ideal, and all-power conductor descent without replacing the geometric argument above. They assume the same characteristic-zero ADE del Pezzo projection and complete conormal net.
 
-This historical supplement provides **independent** complete-ideal and conductor certificates for \([4],[3,1],[2,2]\), under the upstream ribbon and entire-conductor hypotheses of the main proof. It does not independently prove the genus-one reduction or the separate \([2,1,1]\) case. The exact [Macaulay2 checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2) passed 29 conditions, including universal ideal equalities and an independent conic-section conductor obstruction. These certificates are retained because they are not the same as the main proof's selected minors.
-
-# Independent complete audit of repeated partitions [4], [3,1], [2,2]
-
-## 1. Hypotheses and exact audit scope
-
-Work over algebraically closed characteristic-zero \(k\). The upstream reduction supplies a normal integral \((2,2)\) surface \(S\subset\mathbf P^4\) containing \(c=[U^4:U^3V:U^2V^2:UV^3:V^4]\), projected by **deleting \(Y_2\)** from a center outside \(S\). A mate requires the entire inverse image of \(C_0\) to have support \(c\). The actual net has
-\[
-M(d)=\begin{pmatrix}d_0&d_1&d_2\\d_1&d_2+d_3&d_4\\d_2&d_4&d_5\end{pmatrix},\quad M(d)\eta=0,\quad \eta_1^2-\eta_0\eta_2\ne0.
-\]
-With \(d_3(Q_1)=1,d_3(Q_2)=0\), its contact polynomial is \(L_C=d_0U^4-d_1U^3V-d_4UV^3+d_5V^4\ne0\), and the necessary support condition is \(\operatorname{rad}(L_C)\mid D_{Q_1}\), where \(D_{Q_1}=L_C-2U^2V^2\). For the surviving \([2,2]\) pencil the entire conductor is \((L,R)\), upstairs algebra \(\mathcal O_\Gamma[z]/(z^2-Az-R_1)\), and involution \(z\mapsto A-z\); descent requires a positive power of the third quadric. The six quadrics \(E_0,\ldots,E_5\) are fixed in the preceding proof. This audit covers \([4],[3,1],[2,2]\), **not** the separate \([2,1,1]\), squarefree, or upstream projection reductions. No divisibility of \(D_{Q_1}\) by the entire \(L_C\) is assumed.
-
-## 2. Center-preserving orbit coverage
-
-The middle coefficient of `(aU+bV)^4` is `6a^2b^2`. Hence `[4]` can occur
-only at an endpoint. Reversal `Yi <-> Y_(4-i)` preserves the deleted-middle
-center and exchanges endpoints; scaling `Q2` then gives `L_C=U^4`.
-
-The middle coefficient of `(aU+bV)^3(cU+dV)` is `3ab(ad+bc)`. Distinct
-linear factors give exactly two alternatives. If `ab=0`, the triple root
-is an endpoint. Reversal gives `L_C=U^3(aU+bV)` with `b != 0`, including
-`a=0`. If `ab != 0`, then `ad+bc=0`, both `c,d` are nonzero, and the
-diagonal change `U -> -bU/a` gives a scalar multiple of
-`(U-V)^3(U+V)`. These alternatives exhaust `[3,1]`.
-
-For `[2,2]`, write `L_C=(aU^2+bUV+cV^2)^2`, with two distinct roots.
-The zero middle coefficient is `b^2+2ac=0`. If `b=0`, then `ac=0` and
-the quadratic would have one double root. Consequently `a,b,c` are all
-nonzero. The diagonal change `U -> bU/a` gives a scalar multiple of
-`q=U^2+UV-V^2/2`; its discriminant is `3`, so its roots remain distinct
-and neither is an endpoint.
-
-Every reparametrization just used is a diagonal scaling or reversal. These
-induce ambient coordinate transformations that preserve the actual center
-`[0:0:1:0:0]` and preserve the projected curve `C0`. No translation or
-general `PGL2` change is used to classify a projection.
-
-## 3. The entire [4] family and endpoint [3,1] family
-
-Retaining the invisible coefficient `k`, the `[4]` second quadric is
-`Q2=E0+kE2`. Its net matrix determinant is `-k^3`, so its nonzero direction
-kernel forces `k=0`. The kernel has `eta0=0`; the off-conic condition forces
-`eta1 != 0`, giving `eta=(0,1,lambda)` for every finite `lambda`, including
-zero. The support condition at `U=0` gives `d5(Q1)=0`. The net equations
-then force `d4=0`, `d2=-1`, `d1=lambda`; the free `d0` is removed by a
-multiple of `Q2`. Thus every surface pencil in this family is
-
-    <E0, lambda E1-E2+E3>.
-
-The line `Y0=Y1=Y2=0` lies on both quadrics, and the full gradient of
-`E0` vanishes at every point of that line. The Jacobian of the codimension
-two complete intersection has rank at most one there. A normal surface
-is regular in codimension one, so the entire line of singular points is
-impossible. Reversal covers the other endpoint. This uses an actual
-singular curve, not an isolated rank-drop assertion.
-
-For endpoint-triple `[3,1]`, retain
-`Q2=aE0-bE1+kE2`, `b != 0`. Its determinant is again `-k^3`. At `k=0`,
-the first two rows have minor `-b^2`, so the unique direction kernel is
-`eta=(0,0,1)`, which lies on the excluded intrinsic conic. This includes
-the opposite-endpoint simple root and every other endpoint-triple case.
-
-## 4. Independent complete ideal certificate for nonendpoint [3,1]
+### 4. Independent complete ideal certificate for nonendpoint [3,1]
 
 The second quadric is
 
@@ -467,7 +398,7 @@ roots is nonzero: its numerator is `k^4+6k^2-3`, which is `-3` at `k=0`
 and `24` at `k^2=-9`. Thus the hidden branches were not illegitimately
 discarded by a direction discriminant condition.
 
-## 5. Independent complete ideal certificate for [2,2]
+### 5. Independent complete ideal certificate for [2,2]
 
 The second quadric and matrix are
 
@@ -510,7 +441,7 @@ roots the owner's unnormalized discriminant is
 multiples of `k-1` and `k+2`, neither of which vanishes there. Thus every
 candidate direction has been explicitly accounted for.
 
-## 6. The actual conductor and an independent obstruction for every power
+### 6. The actual conductor and an independent obstruction for every power
 
 The third quadric `Q=E3` is independent of this pencil in its net. By the
 stated ribbon input, its divisor on `S` is exactly `2c`. Put `z=Y2` and
@@ -561,8 +492,4 @@ all of `[2,2]` is excluded.
 
 No even-valuation assertion at surface singularities, reduced-only
 conductor replacement, or isolated differential rank-drop claim is used.
-
-## 7. Verification boundary
-
-The independent Macaulay2 reconstruction checks 29 exact conditions, including universal ideal equalities and singular-line tests. Earlier Python verification did not run because SymPy was unavailable; two preliminary M2 scripts failed for a protected variable name and an unparenthesized substitution, not a failed mathematical assertion. The final passing checker was research/validation/2026-10-10-repeated-partitions-independent-audit/countercheck.m2. Its result verifies the stated partition calculations **conditional on** the upstream genus-one projection and conductor inputs. It is not a separate proof of the \([2,1,1]\) case or of unrestricted STCI.
 
