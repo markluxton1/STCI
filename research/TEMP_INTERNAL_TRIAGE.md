@@ -2,7 +2,7 @@
 
 Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: individual-file content only; no edits to mathematical documents and no cross-document comparisons.
 
-**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 63 have been individually inspected across three batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
+**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 103 have been individually inspected across four batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
 
 | File | Location | Finding | Proposed action | Caution | Disposition |
 | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: ind
 - **uncertain** — mathematical value or redundancy cannot yet be judged without closer inspection.
 - **unreviewed** — not yet examined; never infer clean from absence in this log.
 
-Do not execute stages 2 or 3 until the remaining 281 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
+Do not execute stages 2 or 3 until the remaining 241 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
 
 ## Batch 2 — 15 additional files inspected
 
@@ -89,3 +89,48 @@ Do not execute stages 2 or 3 until the remaining 281 files have been inspected a
 | `research/arguments/curve/quartic_cones_and_ruled_models.md` | Characteristic reach and mathematical status | No conspicuous historical audit or embedded source listing | **inspect** | Preserve ruled models and characteristic-two scope | uncertain |
 | `research/arguments/torus_sextic_residuals.md` | Review; Finite replay evidence | Review and replay evidence appear separable from local multiplicity claims | **condense** | Preserve binomial certificates and sextic residual identities | revision needed |
 | `research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md` | Consolidation review | Consolidation-status prose at end may be unnecessary | **condense** | Preserve Cartier descent models and conditional field-degree consequences | revision needed |
+
+## Batch 4 — 40 additional Arguments inspected
+
+| File | Location | Finding | Proposed action | Caution | Disposition |
+| --- | --- | --- | --- | --- | --- |
+| `research/arguments/residuals/blowup_residual_geometry.md` | Normalized blowup of the full complete intersection; Exceptional-coefficient positivity bound | No obvious audit narrative or archival source block identified | **inspect** | Preserve exceptional divisor and residual-cycle arguments | uncertain |
+| `research/arguments/carriers/quintic_nonendpoint_support.md` | Twenty-one complete coefficient profiles; Independent checks at z=1 | Independent checks may be redundant but polynomial unit certificates are substantive | **inspect** | Preserve all profile exclusions and projective boundary | uncertain |
+| `research/arguments/torus_hilbert_boundary.md` | Review | Closing review section may be administrative | **condense** | Preserve torus Hilbert limits and boundary conclusions | revision needed |
+| `research/arguments/residuals/extracted_oct7_thick_carriers_and_marked_geometry.md` | Audit of the existing conductor theorem | Extracted historical audit framing may be unnecessary | **inspect** | Preserve thick-carrier and marked geometry identities | uncertain |
+| `research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md` | Abstract bundle realizations of the six rows | No obvious historical material from structural inspection | **inspect** | Preserve flatness and filtered complete-intersection hypotheses | uncertain |
+| `research/arguments/residuals/residual_capacity_and_constructions.md` | Literature and verification boundary | Verification boundary may be condensed into assumptions | **inspect** | Preserve capacity inequalities and specialization hypothesis | uncertain |
+| `research/arguments/normal-geometry/rees_and_vertical_controls.md` | Related proof developments | No obvious audit/source dump in section structure | **inspect** | Preserve vertical controls and Rees arguments | uncertain |
+| `research/arguments/curve/special_plane_and_line_sections.md` | Characteristic reach and mathematical status | No obvious expendable historical block | **inspect** | Preserve osculating line and coincidence counts | uncertain |
+| `research/arguments/carriers/normal_primitive_carriers_and_bounds.md` | Four pure-top charts for degree-two ancestor incidence | No obvious audit/source dump in section structure | **inspect** | Preserve primitive bounds and pure-top chart distinctions | uncertain |
+| `research/arguments/carriers/nonendpoint_cubic_pairs.md` | Complete proportional locus including zero cubics | No obvious administrative block in structure | **inspect** | Preserve zero-cubic locus and exact support | uncertain |
+| `research/arguments/curve/carrier_test_curves.md` | Exact polynomial controls | No obvious historical audit; polynomial controls may be essential | **inspect** | Preserve full actual-source exclusions | uncertain |
+| `research/arguments/torus/root_pencil_geometry.md` | Arithmetic continuation; Exact computational support | Continuation instructions may be removable | **condense** | Preserve generalized Jacobian and delta calculations | revision needed |
+| `research/arguments/spectral/rank_strata_and_sextic_lifts.md` | Independent review | Standalone independent review after main rank-strata argument | **condense** | Preserve sextic lift and rank conditions | revision needed |
+| `research/arguments/carriers/quintic_octic_surface_constraints.md` | How the two quintic proofs strengthen the shared surface mechanism | No clear administrative content | **inspect** | Preserve proper homogeneous residual-support controls | uncertain |
+| `research/arguments/carriers/extracted_nonendpoint_single_root_incidence.md` | Reviewed geometric bridges; Independent review of regular-L1 bridge | Review framing accompanies regular-root elimination geometry | **condense** | Preserve exceptional loci and regular L1/L2 bridge hypotheses | revision needed |
+| `research/arguments/linkage/supported_linkage_operations.md` | Characteristic reach and independent review | Closing independent review may be compressible | **inspect** | Preserve liaison addition and distinction between realized and unproved properties | uncertain |
+| `research/arguments/normal-geometry/e2_primitive_quartic_incidence.md` | Formal-neighborhood audit; Separate audited calculation; three Status sections; Reproducibility and epistemic status | Repeated status/audit passages interrupt incidence argument | **integrate** | Preserve cubic-through-double computation and residual open set | revision needed |
+| `research/arguments/residuals/quasiprimitive_multiplicity_five.md` | Validation and limits | Validation prose may be reducible | **inspect** | Preserve terminal obstruction and defect divisor descent | uncertain |
+| `research/arguments/carriers/genus_two_marking_and_section_proof.md` | Caveats and invalid shortcuts | Caveats are likely mathematical safeguards rather than junk | **inspect** | Preserve marking and intersection restrictions | uncertain |
+| `research/arguments/carriers/quartic_scroll_nonreduced_conductors.md` | Characteristic boundary and evidence | No obvious archival material | **inspect** | Preserve nonreduced conductor and triple-line cases | uncertain |
+| `research/arguments/carriers/sextic_pair_reduction.md` | Local nonreduced control; Positive second defect locally realizable | No obvious historical audit/source listing | **inspect** | Preserve non-ADE carrier example and defect realization | uncertain |
+| `research/arguments/quartic_specialization_and_symbols.md` | Source review and verification; Finite quartic replay evidence | Replay and verification passages may be summarized | **condense** | Preserve quartic specialization and symbol facts | revision needed |
+| `research/arguments/carriers/projection_support_differential_obstructions.md` | Sparse family fails full support; Why this does not eliminate complete normal form | No obvious removable administrative sections | **inspect** | Preserve scope limitation on sparse family | uncertain |
+| `research/arguments/punctual_comparison_defects.md` | Finite replays and their coverage | Replay coverage may be reduced to exact boundary statement | **condense** | Preserve punctual defect comparison and limitations | revision needed |
+| `research/arguments/carriers/root_descent_and_conductor_defects.md` | Exact support characteristic and review | Review packaging may be reducible | **inspect** | Preserve nonintegral conductor witness | uncertain |
+| `research/arguments/carriers/split_sextic_conductor_and_contact.md` | Consolidation review | Consolidation-status paragraph is a candidate for removal | **remove** | Preserve higher-jet reduction and conductor contacts | revision needed |
+| `research/arguments/carriers/normalization_residual_capacity.md` | Intersection-theoretic literature input | No obvious archival or audit material | **inspect** | Preserve residual capacity and literature hypotheses | uncertain |
+| `research/arguments/residuals/residual_global_models.md` | Two retired exact computational examples | Retired examples are a candidate for removal or concise replacement | **condense** | Preserve counterexamples if they delimit global cohomological defect | revision needed |
+| `research/arguments/residuals/explicit_quartic_residuals.md` | Why exact certificates imply geometry; Reduced eight-component competitor | Certificate discussion supports mathematical claims; no obvious administrative block | **inspect** | Preserve eight-component example and residual geometry | uncertain |
+| `research/arguments/spectral/quadratic_root_torsion_two_lifting.md` | Exact support inherited review and reproduction | Inherited review and reproduction commentary may be redundant | **condense** | Preserve C2=0,A2=1 certificate and torsion lifting constraints | revision needed |
+| `research/arguments/carriers/del_pezzo_five_a4.md` | Explicit model independent audit; Marking audit; Evidence and continuation | Multiple audit and continuation sections in geometric proof | **condense** | Preserve projection-center distinction and marked A4 classification | revision needed |
+| `research/arguments/torus/contact_jacobians_and_hamiltonian_actions.md` | Full-module and principal-symbol realization conditions | No obvious audit or historical source | **inspect** | Preserve realization conditions and vertex cohomology | uncertain |
+| `research/arguments/torus/tropical_thickenings_and_endpoint_duality.md` | Remaining global interface | No obvious expendable administrative block | **inspect** | Preserve finite-modification and characteristic hypotheses | uncertain |
+| `research/arguments/residuals/residual_contact_cycles.md` | Consolidated historical source: MIXED_SEXTIC_CONTACT | Historical supplement import may be compressible | **integrate** | Preserve integrality and residual-contact consequences | revision needed |
+| `research/arguments/arithmetic/z4_lifting_and_deformation.md` | Exact computational support and scope | Evidence section may be reduced without changing arithmetic result | **inspect** | Preserve Z4 lifting obstruction and general p^r | uncertain |
+| `research/arguments/normal-geometry/curvilinear_genus_and_defects.md` | Residual support and continuation; Review scope and computational support | Continuation/review prose candidate for condensation | **condense** | Preserve saturated duality and genus bounds | revision needed |
+| `research/arguments/carriers/quartic_scroll_reduced_conductors.md` | Precise theorem accepted by this audit | Audit framing could be recast as theorem statement | **condense** | Preserve reduced conductor theorem and smooth scroll hypotheses | revision needed |
+| `research/arguments/carriers/quintic_gorenstein_normalizations.md` | Proof status characteristic and remaining geometry | Proof-status section may be useful to retain, not necessarily historical | **inspect** | Preserve marked A4 contact and reduced-conductor diagnostic | uncertain |
+| `research/arguments/curve/quartic_conormal_and_contact.md` | Characteristic reach and mathematical status | No obvious historical audit block | **inspect** | Preserve distinction between equal lengths and contact schemes | uncertain |
+| `research/arguments/torus_embedded_quotients.md` | Finite replay evidence | Replay section is candidate for short mathematical summary | **condense** | Preserve quotient structure and finite evidence bounds | revision needed |
