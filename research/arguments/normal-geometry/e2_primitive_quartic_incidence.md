@@ -2,7 +2,7 @@
 
 # E2 obstruction, primitive structures, and quartic incidence
 
-Consolidated mathematical source material. Sections retain original claims, calculations, hypotheses, and qualifications; their inclusion does not upgrade unverified arguments to theorems.
+The sections contain both proved obstructions and conditional incidence calculations. In particular, computational zero loci do not by themselves produce an actual quartic carrier or an STCI pair.
 
 ---
 
