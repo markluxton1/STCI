@@ -82,4 +82,3 @@ with an arbitrary mate. The factor qualification and characteristic-two
 limitation were retained. Acceptance concerns the stated source
 hypotheses; no arbitrary-pair reduction is claimed.
 
-Independent reconstruction review accepts this route within its stated scope.
