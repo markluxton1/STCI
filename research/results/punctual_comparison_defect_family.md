@@ -101,31 +101,4 @@ It gives no global equations for the fixed quartic.
 
 ## Review
 
-The Phase 5 nonauthor reviewer `review_proofs` accepted the filtered syzygy and actual
-fiber route with R-0030 and R-0065 for every \(m\ge2\) and \(r\ge1\) in
-characteristic zero. They checked integrality of the polynomial carriers,
-generation of all symbol syzygies over the possibly nonreduced coefficient
-quotient, both full relative initial ideals, and the exact comparison.
-They reconstructed the actual closed basis, both full slice initials,
-the separate \(m=2\) quadratic calculation and the specialization map.
-They also checked finiteness and freeness of the actual algebra and its
-generic Artinian decomposition. This is a symbolic review of the
-all-parameter proof. The finite replays are recorded separately in A-0010.
-
-The cleanup preservation reviewer `delta_review` accepted retaining this
-route after reconstructing both full relative initials, the actual closed
-calculation for \(m=2\) and \(m\ge3\), and the finite free algebra with
-its marked and residual generic factors. They reran the punctual samples
-in A-0010. The decision concerns the residual family in characteristic
-zero, with the tensor specialization and actual closed defect computed
-separately.
-
-The October 24 independent reconstruction checked all symbol syzygies over
-the nonreduced coefficient quotient, their exact lifts, the conormal rank,
-the separate \(m=2\) closed fiber, and the actual finite-flat rank and
-residual support. The source records a primary-agent irreducibility check
-and a separate finite Rees-saturation check of the punctual family for
-three thickness parameters. The October 26 local audit retained the
-distinction between the residual family and the open sole-support problem.
-[October 24 review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L46) ·
-[Scope of the October 26 local audit](local_filtration_comparison_defect.md#october-26-local-audit)
+The full all-parameter syzygy, relative initial-ideal, actual closed-fiber and residual-factor arguments are retained in [A-0010](../arguments/punctual_comparison_defects.md#arbitrary-punctual-degree-and-length-with-integral-carriers). This family has residual generic support.
