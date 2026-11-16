@@ -220,11 +220,7 @@ degrees and no automatic homogeneous realization of a local path.
 
 ## Review and unresolved scope
 
-Independent consolidation review accepted the resultant transition calculation,
-the finite-flat generic-to-fiberwise bridge, the effective-divisor variant,
-the bundle recurrences, the higher-jet counterexample and the simpler
-all-characteristic quartic depth exclusion. These are reviewed
-mathematical statements without a new ID. A ramified multisection
+A ramified multisection
 formula, a general higher-depth upper bound and actual global realization of
 a surviving contact path remain outside this account. No computation is
 required for these proofs and none was rerun.
