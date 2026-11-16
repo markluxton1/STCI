@@ -2,6 +2,8 @@
 
 This is a **structural inventory, not a mathematical review or completed proof classification**. It is an agent entry point for the *existing* Results / Arguments / Frameworks / Investigations corpus. Its baseline is the head of `chatgpt/math-content-consolidation` (PR #136) when this inventory branch was created. Do not infer proof equivalence, independence, or correctness from metadata alone.
 
+For a file-by-file index of catalog-linked mathematical sources, see [CORPUS_FILE_INDEX.md](CORPUS_FILE_INDEX.md). Its coverage is explicitly partial until repository-wide paths are enumerated.
+
 ## Authoritative routes
 
 - [Research entry and six retrieval lanes](INDEX.md)
