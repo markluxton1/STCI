@@ -395,10 +395,11 @@ The same statements hold for each `alpha_i`. After writing an exponent
 as `m h`, equality of all branch values is equivalent to
 `(beta_i/beta_1)^h=1` for every `i`, giving `e=m t`.
 
-The formula using `beta_i` is intrinsic. The formula using `zeta_i`
-uses chosen embeddings, but its value is unchanged when those
-embeddings change: the resulting changes are roots of unity of order
-dividing `m`.
+The formula using `beta_i` uses the values in their field extensions
+and compares their images after fixing embeddings. Its numerical result
+is intrinsic because it computes the order of the class in the reduced
+unit quotient. The alternative `zeta_i` expression depends on chosen
+embeddings, but computes the same intrinsic order.
 
 The distinction between the bounded Kummer degree and unbounded split
 phase is essential: the single-field conclusion does not extend to an
