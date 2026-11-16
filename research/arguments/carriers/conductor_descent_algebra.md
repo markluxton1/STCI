@@ -434,12 +434,11 @@ split phases.
 The common radical values admit a description after choosing embeddings
 of the fields `E_i` into an algebraic closure of `K`. For a torsion
 class all chosen values are roots-of-unity multiples of one another,
-and their common radical value lies in `F = intersection_i E_i`.
-The relative phase tuple is then defined only modulo the action of
-`Gal(F/K)` on that common value. Thus a naive direct-product splitting
-with `mu_infinity(K)^(s-1)` is **not** canonical and need not hold as
-stated for arbitrary chosen embeddings: the pair of a common value and
-relative phases must be invariant under changes of embeddings. The
+and their common radical value belongs to the embedded intersection
+`F = intersection_i E_i` (after the embeddings have been chosen to
+carry the actual `alpha_i` to those values). This does not give a
+canonical direct-product splitting: different choices of embeddings
+and representatives modify the relative phase coordinates. The
 intrinsic residual unit quotient and the exponent formula `e=m t`
 above avoid this ambiguity.
 
