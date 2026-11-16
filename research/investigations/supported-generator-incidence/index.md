@@ -158,6 +158,27 @@ identify a nonempty top-cycle graph stratum and determine
 whether its Hilbert CI locus is empty or nonempty, rather
 than classify all abstract VGIT chambers.
 
+## Local leading ideals are not a global generator certificate
+
+The [GHK reconciliation](../../arguments/normal-geometry/actual_equation_filtration.md#generic-leading-ideals-versus-actual-global-equations)
+separates local realizability of a two-dimensional parameter
+ideal from realizability by two **prescribed-degree global
+equations**. A locally normalized generating pair may use
+\(k(C)\)-valued coefficients unavailable to homogeneous
+global row operations. Even a locally realizable full
+initial ideal must pass actual symbol-source maps,
+higher-jet syzygy compatibility, and the projective
+sole-support test.
+
+For the sextic \((6,6)\) search, retain the global
+two-sextic incidence rather than substituting the
+locally minimized order/excess. The conditional
+\((6,16)\) two-node cubic-jet zero locus is a
+**separate** fixed-degree investigation, already developed
+in the spectral Arguments; its unresolved compatibility
+does not provide an exclusion of \((6,6)\) or an
+unrestricted quartic STCI.
+
 ## Findings
 
 This is an unperformed mathematical investigation. The pilot has reconstructed
