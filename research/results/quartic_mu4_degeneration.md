@@ -59,14 +59,4 @@ has its own normalization and endpoint intersection lengths.
 
 ## Review
 
-The Phase 5 independent reviewer accepted the route for the prescribed
-equations. The reviewer checked flatness of the monic projective family,
-purity of the complete-intersection fibers, both endpoint charts, the
-geometric decomposition and contact and delta calculations in
-characteristic zero, and the characteristic-two ideals. The Macaulay2
-replay also passed, including the split ideal over \(\mathbf Q(i)\).
-
-The October 23 audit checked the monic flatness argument, the decomposition,
-contact and delta calculations, and the local characteristic-two ideal.
-It inspected the family certificate and its recorded successful execution
-without rerunning that script during the audit. [Source review](../arguments/quartic_specialization_and_symbols.md#source-review-and-verification)
+The monic equations give Z-flat projective fibers. The two charts cover the intersection; in characteristic zero the four branches have pairwise contact three at both endpoints, while in characteristic two their mu4 parameter becomes a length-four infinitesimal thickening of C.
