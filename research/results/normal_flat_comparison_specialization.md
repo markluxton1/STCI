@@ -79,3 +79,7 @@ open here. See also the
 [broader sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 No identification of the full filtered
 scheme from its cone or defect and no global quartic realization follows.
+
+## Review
+
+The two-cone proof and supported length-four control are in the linked Argument. Compatibility is asserted only under the displayed normal-flatness hypotheses.
