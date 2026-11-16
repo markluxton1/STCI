@@ -91,4 +91,3 @@ its inseparable-degree qualification, the dense-torus product, finiteness
 from properness, and generic local multiplicities. Acceptance makes no
 inference from quotient data alone to boundary or endpoint geometry.
 
-Independent reconstruction review accepts this route within its stated scope.
