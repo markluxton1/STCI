@@ -388,25 +388,13 @@ f_0=(z^2+4)u^2+(z^2-8)v^2,\quad
 \]
 the multiplier \(\alpha_0\) is the unique projective solution of all eleven global quadratic-symbol equations. The [exact source and independent linear-algebra reconstruction](../spectral/rank_strata_and_sextic_lifts.md#2-independent-linear-algebra-reconstruction) give an annihilating row of the 23 global sextic columns and 16 correction columns, pairing to \(-384\) with \((\alpha_0f_0,\alpha_0G_0)\). The row also annihilates the free \(q^3\) cubic direction \((u+zv/2)^3\). Hence the 39-column coefficient system has rank 39 and augmented rank 40: **no global sextic lift exists for this seed, even after adding \(q^3\)**. The seed independently fails the second obstruction. This does not eliminate other roots, singular-root strata, or the global mate incidence. [Exact reproduction boundary](../spectral/rank_strata_and_sextic_lifts.md#9-reproduction-and-verification-limits).
 
-## Necessary tests for the conditional (6,16) pair
+## Conditional sextic conclusions and unresolved descent
 
-The conditional movement-two root of bidegree \((2,2)\) must pass **distinct** tests: abstract spectral gluing; the actual rank-22 global sextic-symbol image (23-dimensional source, kernel \(kq^3\), eleven conditions); cubic lifting; and, **assuming an actual supported pair**, the conductor restriction that the multiplier has a multiple base zero or vanishes at a root node. None is a sufficient construction of a \((6,16)\) STCI. In particular, the rejected nonfinite nodal normalization does not exclude the nodal stratum. The [spectral-root framework](../../frameworks/spectral-roots/index.md#bridges) distinguishes proved implications from proposed bridges.
+For the actual-pair \((6,16)\) lane with saturated movement two, the \((2,2)\) root must satisfy **separate necessary conditions**: spectral gluing, the rank-22 sextic-symbol image with eleven equations and kernel \(kq^3\), cubic lifting modulo the rank-16 correction map \(\mu_f\), and conductor contact. The cubic obstruction quotient has dimension 23 on the admissible open, with the exceptional rank-drop root treated in the [spectral argument](../spectral/rank_strata_and_sextic_lifts.md). These calculations are not sufficient for existence.
 
-## Why the conditional sextic conductor does not solve descent
+The seven-cubic anticanonical model and conductor duality arise **only under the hypothetical supported-pair assumptions**. They exclude ramified simple-base zeros but leave multiple-base-zero and nodal-contact loci; a nonfinite proposed normalization cannot exclude the latter. The [full descent criterion](../../frameworks/carrier-normalization/carrier_descent.md#42-the-full-conductor-descent-criterion) and [descent algebra](conductor_descent_algebra.md) are separate from necessary symbol tests.
 
-The seven-cubic anticanonical model and its conductor duality are derived **from a hypothetical supported pair**. They give necessary conditions on that pair, unlike the independent-normalization conductor-descent program, which asks whether a mate exists. Neither the eleven sextic-symbol conditions nor the ramification exclusion selects a degree-sixteen mate. Multiple-base-zero and nodal-contact loci remain unresolved. See the [full conductor criterion](../../frameworks/carrier-normalization/carrier_descent.md#42-the-full-conductor-descent-criterion) and [descent algebra](conductor_descent_algebra.md).
-
-## Remaining boundaries
-
-The conditional calculations do not classify arbitrary projections, all conductor phases, higher indices, or unrestricted characteristic-zero STCI pairs. The independently reviewed cubic-model and conductor argument excludes ramified simple-base zeros but **not** the nodal locus; its rejected nonfinite normalization cannot be reused as a proof. [Original detailed argument](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2).
-
-### Geometric scope of movement two
-
-Under the hypotheses of [R-0014](../../results/movement_two_six_rows.md), movement \(\varepsilon\) is the degree of the coefficient map \(C\to\mathbf P(\operatorname{Sym}^r k^2)\); its full root has bidegree \((\varepsilon,r)\). For \((6,16)\), \((\varepsilon,r)=(2,2)\). Saturation means no coefficient-map base points, **not** smooth roots or fiberwise coprimality. The six numerical rows of R-0013/R-0014 are conditional necessary candidates, not an arbitrary-presentation classification.
-
-## The common lifting mechanism
-
-For the [actual affine lift fiber](../equations/global_lifting_interfaces.md), the sextic symbol map has source dimension 23, rank 22, and kernel \(kq^3\). For \(f\ne0\), the cubic correction map \(\mu_f\) has rank 16. The obstruction quotient by \(\operatorname{im}\mu_f+k(q^3)_3\) has dimension 23 on the admissible open, with its exceptional rank-drop root treated in [the spectral proof](../spectral/rank_strata_and_sextic_lifts.md). This is an actual-source cubic obstruction, not an emptiness proof or a degree-sixteen mate.
+For [movement-two geometry](../../results/movement_two_six_rows.md), \(\varepsilon\) is the degree of the coefficient map and the root has bidegree \((\varepsilon,r)=(2,2)\). Saturation forbids coefficient-map base points, not singular roots or fiberwise noncoprimality. The six numerical rows are conditional candidates, not a classification of arbitrary presentations. No unrestricted STCI conclusion follows.
 
 ## Endpoint-four: the finite actual-equation question
 
@@ -448,7 +436,3 @@ The [intrinsic finite-root-family theorem](../spectral/finite_root_families_and_
 The [rational phase decision theorem](projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-effective-rational-phase-bound) applies to explicit rational constructible phase images, not arbitrary carrier families; the [raw-input construction](projection_torsion_and_rational_phase_bounds.md#reviewed-claim-and-input) has the same fixed-family limitation.
 
 The quintic \(h=2\) global monic incidence, its seventeen equations on \(\delta E\Delta_1\ne0\), and the unresolved saturation are maintained in the [focused rank and ODE Argument](quintic_h2_rank_incidence_and_ode.md#whole-h2-global-saturation-remains-open) and [monic derivation](extracted_quintic_h2_monic_ode_and_open_incidence.md). None of these necessary conditions proves a global supported mate.
-
-## Quintic h=2 global ODE incidence
-
-The complete seventeen-equation monic model, its domain restrictions, and the unresolved global saturation are maintained in the [focused quintic h=2 Argument](quintic_h2_rank_incidence_and_ode.md#whole-h2-global-saturation-remains-open), not in this sextic normalization and lifting dossier.
