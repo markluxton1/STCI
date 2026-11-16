@@ -1064,7 +1064,7 @@ multiple normalization primes, and no unrestricted STCI resolution.
 ## Normal carrier Picard and local torsion: primary sources and new index audit
 
 
-Scope: integral normal hypersurface surface `X` in projective three-space over an algebraically closed characteristic-zero field. The smooth rational quartic `C0` is fixed. Previously accepted exclusions of all mates of degree at most four are premises; no inherited verification was rerun. This note records new source checks and new numerical deductions only.
+Scope: an integral normal hypersurface \(X\subset\mathbf P^3\) over an algebraically closed characteristic-zero field containing the fixed smooth rational quartic \(C_0\). Exclusion of mates of degree at most four is a separate input. The deductions below concern Picard and Weil-class torsion and local indices, not existence of a mate.
 
 ### 1. Picard torsion vanishes; Weil class torsion need not vanish
 
