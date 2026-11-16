@@ -87,6 +87,4 @@ defect here is nonzero, so this example lies outside the
 The general comparison with
 the extended Rees torsion filtration also remains open.
 
-## Review
-
-The resultant and colength calculation, strict shifted Hilbert–Burch resolution, pagewise identification and integral-carrier perturbation are proved in [A-0009](../arguments/normal_koszul_cancellation.md#the-recursive-family-and-its-cancellation-page). Projective claims concern only the affine marked-line calculation.
+Projective claims concern only the affine marked-line calculation.
