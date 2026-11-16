@@ -383,9 +383,9 @@ and the `order` of a non-torsion ratio is interpreted as infinity.
 For the first equality, any exponent making each `alpha_i` an
 element of `K` is divisible by `m`; an exponent `m h` gives a
 single diagonal element of `K^*` precisely when all
-`(beta_i/beta_1)^h=1`. For the second equality, the condition
-that all `alpha_i^e` agree is equivalent to the order conditions
-on the `zeta_i`, together with `m|e`. Both formulas compute
+`(beta_i/beta_1)^h=1`. For the second equality, the condition that all `alpha_i^e`
+are the same element of `K` is equivalent to `m|e` and the
+root-of-unity ratios `zeta_i^e=1` for every `i`. Both formulas compute
 the intrinsic order of `alpha` in `E^*/K^*`.
 
 A single field has no relative phase factor:
