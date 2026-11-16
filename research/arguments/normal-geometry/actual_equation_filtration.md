@@ -910,4 +910,3 @@ The cross-effect satisfies the additive polynomial 2-cocycle identity; for \(r=1
 
 Construct a natural, coordinate-independent comparison from a divided-power/Frobenius/Witt operation into an appropriate relative embedded obstruction cokernel, with precise marking and base-change hypotheses; alternatively, show why no such map exists generally. Separate (a) universal arithmetic identities, (b) intrinsic deformation-theoretic construction, and (c) nonvanishing in a specific embedded example.
 
-**No new script or independent audit accompanies Investigation 4.**
