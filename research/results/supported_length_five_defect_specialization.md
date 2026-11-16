@@ -325,7 +325,3 @@ fixes the generic and closed transverse algebras within the
 [general sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 The example concerns a marked line. Its projective homogenization has
 the residual conic described above.
-
-## Review
-
-The direct proof above establishes the finite free algebra, full relative initial ideals, filtered equation comparison, closed-fiber defect and doubled residual conic. In particular the degree-four defect belongs to the actual closed fiber, not to the relative family; the projective homogenization has residual conic support.
