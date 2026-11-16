@@ -133,16 +133,10 @@ The full embedded quadratic neighborhood matters: a constant relation factor ext
 
 ---
 
-## Source: 2026-10-13-generalization-thick-equality-extension.md
+<a id="source-2026-10-13-generalization-thick-equality-extensionmd"></a>
+## Uniform generator filtration and strict equality obstruction
 
-# A uniform generator filtration and strict equality obstruction
-
-Date: 2026-10-13, completed across midnight into 2026-10-14.
-Status: **NEW PROOF, independent audit in progress**. The accepted socle-budget
-and constant-graded-algebra theorem is an input. Previously audited normal
-transition and constant-direction obstruction results are also inputs; they
-were not rerun. This note proves additional structure and a proposed strict
-quartic boundary exclusion, uniformly in the hypersurface degrees.
+The socle-budget and constant-graded-algebra theorem, normal transition, and constant-direction obstruction are inputs. The argument proves necessary structure and a strict quartic equality-boundary obstruction, not an unrestricted STCI exclusion.
 
 ## 1. Inputs and scope
 
@@ -679,17 +673,10 @@ its movement to the exact global budget.
 
 ---
 
-## Source: 2026-10-13-generalization-thick-equality-geometry.md
+<a id="source-2026-10-13-generalization-thick-equality-geometrymd"></a>
+## Quadratic formal-neighborhood obstruction to zero-defect thickenings
 
-# A quadratic formal-neighborhood obstruction to every zero-defect C0 thickening
-
-Date: begun 2026-10-13; completed 2026-10-14. Owner:
-`thick_extension/equality_geometry`. Status: **PROVED new reduction and
-C0 equality exclusion; Sections 2--3 and the gap deduction independently
-audited by socle_audit**. This note uses
-the accepted socle/equality theorem and accepted P-010 quadratic line
-obstruction as inputs. Those results are not reverified. It does not
-exclude positive-defect thickenings or resolve whether C0 is STCI.
+The equality and socle theorems and P-010 quadratic direction obstruction are inputs. The argument excludes the stated zero-defect equality case for \(C_0\); positive-defect thickenings remain unresolved.
 
 ## 1. Statement and antecedents
 
@@ -986,16 +973,10 @@ for Frobenius reasons; moreover the displayed C0 coefficients use 2 and
 
 ---
 
-## Source: 2026-10-13-generalization-thick-generator-filtration-audit.md
+<a id="source-2026-10-13-generalization-thick-generator-filtration-auditmd"></a>
+## Actual generator bundle from a constant graded complete intersection
 
-# The actual generator bundle from a complete-intersection initial ideal
-
-Date: 2026-10-13. Status: **PROVED, independent filtered-module derivation**.
-This note assumes the accepted equality-rigidity theorem from
-`2026-10-13-evening-entirely-thick-rees-progress.md`; it does not recheck
-that theorem. It proves the proposed bridge from a globally constant
-graded complete intersection to the actual generator bundle. The result
-is necessary structure, not an STCI exclusion.
+Assuming equality rigidity for the globally constant initial complete intersection, the filtered-module argument identifies the actual generator bundle. This is a necessary structural bridge, not an STCI exclusion.
 
 ## 1. Statement and canonical filtration
 
@@ -1505,17 +1486,10 @@ than an exclusion of every positive-defect thickening.
 
 ---
 
-## Source: 2026-10-13-generalization-thick-relation-obstruction-independent-audit.md
+<a id="source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd"></a>
+## Constant initial relations and the strict C0 socle budget
 
-# Independent audit: constant initial relations and the strict C0 socle budget
-
-Date: begun 2026-10-13, completed 2026-10-14. Status: **PROVED**, with the
-accepted P-010 nonzero quadratic direction classes used as inputs. This
-audits only the new relation-lifting and factor-extraction argument in
-`2026-10-13-generalization-thick-equality-geometry.md`, plus the new
-first-relation defect extension proposed by `thick_extension`.
-Previously verified direction coefficients and their nonvanishing are
-not recomputed. No state file is edited.
+The relation-lifting and factor-extraction argument assumes the established P-010 nonzero quadratic direction classes. Its positive-defect theorem requires the constant conormal-algebra quotient and the next-order relation hypothesis stated below.
 
 ## 1. Verdict
 
