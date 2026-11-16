@@ -180,3 +180,20 @@ These 12 files were fetched in full at this branch; byte counts are UTF-8 text s
 | [frameworks/formal-normal-geometry/generic_normal_forms_and_relation_saturation.md](frameworks/formal-normal-geometry/generic_normal_forms_and_relation_saturation.md) | 7047 | 101 |
 | [frameworks/formal-normal-geometry/mixed_degree_fitting_and_realization.md](frameworks/formal-normal-geometry/mixed_degree_fitting_and_realization.md) | 6315 | 42 |
 | [frameworks/formal-normal-geometry/normal_filtration_boundaries.md](frameworks/formal-normal-geometry/normal_filtration_boundaries.md) | 6192 | 140 |
+
+## Sixth verified candidate sample
+
+| File | Characters | Lines / status |
+| --- | ---: | --- |
+| [frameworks/formal-normal-geometry/normal_neighborhoods_and_boundary_repairs.md](frameworks/formal-normal-geometry/normal_neighborhoods_and_boundary_repairs.md) | 9972 | 97 |
+| [frameworks/formal-normal-geometry/open_normal_geometry.md](frameworks/formal-normal-geometry/open_normal_geometry.md) | 7616 | 109 |
+| [frameworks/formal-normal-geometry/quartic_ancestor_and_endpoint_exclusions.md](frameworks/formal-normal-geometry/quartic_ancestor_and_endpoint_exclusions.md) | 13273 | 60 |
+| [frameworks/formal-normal-geometry/socle_budgets_and_arithmetic_comparisons.md](frameworks/formal-normal-geometry/socle_budgets_and_arithmetic_comparisons.md) | 6580 | 45 |
+| [frameworks/formal-normal-geometry/thickening_hierarchy_and_jet_budgets.md](frameworks/formal-normal-geometry/thickening_hierarchy_and_jet_budgets.md) | 6826 | 42 |
+| [frameworks/global-equation-realization/bounded_equation_search.md](frameworks/global-equation-realization/bounded_equation_search.md) | 1146 | 20 |
+| [frameworks/global-equation-realization/projection_and_liaison.md](frameworks/global-equation-realization/projection_and_liaison.md) | 2498 | 33 |
+| [frameworks/local-cohomology/open_quartic_ancestors.md](frameworks/local-cohomology/open_quartic_ancestors.md) | 2705 | 41 |
+| [frameworks/residual-construction/octic_multiplier_kernels.md](frameworks/residual-construction/octic_multiplier_kernels.md) | 681 | 11 |
+| [frameworks/residual-construction/residual_geometry.md](frameworks/residual-construction/residual_geometry.md) | 11397 | 174 |
+| [frameworks/residual-construction/two_surfaces.md](frameworks/residual-construction/two_surfaces.md) | 10228 | 191 |
+| [frameworks/spectral-roots/open_root_lifts.md](frameworks/spectral-roots/open_root_lifts.md) | 1826 | 20 |
