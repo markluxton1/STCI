@@ -37,3 +37,12 @@
 - **Understand nonendpoint all-length inequality:** fetch [nonendpoint proof §4](arguments/carriers/genus_two_nonendpoint_proof.md#4-exact-all-length-contradiction) with its stated model hypotheses.
 
 These are navigation routes, not claims that the abbreviated context suffices to independently certify the full theorem.
+
+## Further inspected specialized files
+
+| File | Classification | Why retained separately |
+| --- | --- | --- |
+| [genus_two_bisection_three_center_proof.md](arguments/carriers/genus_two_bisection_three_center_proof.md) | **Narrower conditional obstruction** for three-center fibers; 11,305 characters | Explicitly leaves the four-single-center partition, whereas the global ribbon argument excludes the entire bisection lane |
+| [genus_two_marking_and_section_proof.md](arguments/carriers/genus_two_marking_and_section_proof.md) | **Reusable marking and proximity geometry**; 27,830 characters | Does not claim abstract root configurations are all realized and is not another complete quartic-mate exclusion |
+
+The global bisection ribbon proof and the three-center fiber obstruction use substantively different mechanisms, but **only the former is presented as covering the whole bisection lane**. This is a genuine reason to retain both files rather than merge them as duplicates.
