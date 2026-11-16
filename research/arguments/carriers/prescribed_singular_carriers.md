@@ -225,9 +225,11 @@ component is the strict transform of the actual residual D:
  [W]=(m-1)[e]+[\widetilde D].                             \tag{10b}
 \]
 
-The primary component along e has ideal (u,z^{m-1}). Its scheme union
-with the displayed residual is exactly W, since the two factors of the
-plane equation after eliminating u are relatively prime. Thus the cycle
+The primary component along e has ideal (u,z^{m-1}). The displayed
+residual gives the same cycle decomposition. The scheme-theoretic union
+claim requires care: the two factors of the eliminated equation have no
+common irreducible factor, but are not comaximal at their attachment
+point, so relative primality alone does not prove equality of ideals. Thus the cycle
 multiplicity in (10b) has a specified primary scheme behind it.
 
 The other blowup chart has z=v*y and strict equations
