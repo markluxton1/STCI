@@ -708,22 +708,9 @@ no global finite-generation theorem or characteristic-zero STCI exclusion.
 
 <a id="weighted-initials-normal-boundary-audit"></a>
 
-## Independent audit: weighted initials and normal boundary data
+## Independent weighted-initial reconstruction
 
-Date: 2026-10-26. Reviewer: independent `valuation_budget` agent.
-Status: independent reconstruction of the [companion continuation](#weighted-initials-normal-boundary).
-Outcome: **PASS within the stated domains and hypotheses**. This is reviewed
-evidence, not a global realization or an
-STCI exclusion.
-
-### Scope and method
-
-The reviewer read the retrieval index and the preceding normal-torsion
-budget, then independently checked the integral chamber calculation,
-coefficient-ring distinctions, frame changes, and determinant-lattice
-bridge. The existing reviewed Gauss/domain construction is used in its
-stated scope; inherited certificates and accepted exclusions were not
-rerun. No finite sample is used to justify the all-weights calculation.
+The independent reconstruction checks the coefficient-ring distinction, frame changes, determinant-lattice interpretation, and all positive rational weight chambers. It relies on the previously established Gauss/domain construction and does not turn the local weighted valuation into a canonical global family or an STCI exclusion.
 
 ### 1. Verification of domains and frames
 
