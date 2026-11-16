@@ -86,7 +86,7 @@ Combining this with the parameter-ideal identity gives the precise local conclus
 \forall W\quad\exists\text{ a finite adapted valuation description determining }m_C.
 \]
 
-This is a completeness statement for computing one local multiplicity. It does **not** give
+This is a completeness statement for computing one local multiplicity. It relies on the parameter-ideal identity, not a general equality between colength and integral-closure multiplicity for arbitrary ideals. It does **not** give
 
 \[
 \forall W\quad\exists v\quad
