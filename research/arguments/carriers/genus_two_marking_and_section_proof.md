@@ -211,9 +211,9 @@ connected fiber containing the contact vertical line.
 * q=4 is not a genus-two identity without lambda=0. The general
   identity q+lambda=4 retains both lambda=0 and lambda=1.
 
-## 7. Scope
+## 7. Logical scope
 
-The proved conclusions are the ruled marking, \(D_8\) lattice, plane marking, optional \(F_3\) model, and proximity restrictions. The [free-chain argument](#8-free-chain-proof-when-the-marked-prime-is-absent) excludes the absent-\(E_0\) case; the ambient-conductor proofs handle its remaining trisecants. Numerical class lists alone do **not** establish prime effectivity or normalization descent. Intersection calculations extend to other characteristics only when the same actual rational marked model exists; the lattice gives no positive-characteristic STCI conclusion.
+The ruled marking, \(D_8\) lattice, plane marking, optional \(F_3\) model, and proximity restrictions are proved. The [free-chain argument](#8-free-chain-proof-when-the-marked-prime-is-absent) excludes the absent-\(E_0\) case; other trisecants require ambient-conductor arguments. Numerical classes alone establish neither prime effectivity nor descent. The characteristic-zero carrier conclusion does not automatically extend to positive characteristic.
 
 ## 8. Free-chain proof when the marked prime is absent
 
