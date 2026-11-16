@@ -111,6 +111,4 @@ has degree-three defect over a curve. The comparison concerns local
 equations. See the
 [open sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 
-## Review
-
-The normal Koszul Tor identification, filtered convergence, comparison on representatives and degree bounds are proved in [A-0009](../arguments/normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds). The incoming images form a filtration, not a canonical direct-sum decomposition.
+The incoming images form a filtration, not a canonical direct-sum decomposition.
