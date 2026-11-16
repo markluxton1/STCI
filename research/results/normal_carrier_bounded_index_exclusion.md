@@ -48,7 +48,3 @@ Required hypotheses:
 Dependencies: STCI-R-0034, STCI-R-0001. Additional inherited premises are in the proof and audit.
 - Indices six, twelve and higher are not excluded
 - No conclusion for nonnormal or entirely-thick presentations
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
