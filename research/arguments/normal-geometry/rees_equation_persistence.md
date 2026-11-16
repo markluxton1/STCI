@@ -230,7 +230,7 @@ Tensor (8) with \(B[u]/(u)=B\). Its possible left obstruction is \(\operatorname
 \]
 The map sends the symbol of \(j\in J\cap I^n\) to its class in \(F^nD/F^{n+1}D\), exactly the inherited comparison map. Its kernel is \(\Delta\), proving (9). \(\square\)
 
-This identifies the defect intrinsically: it is the special fibre of the parameter-torsion in the restricted conormal module. It is not torsion in the algebra \(\mathscr R/\mathscr J\), which is already parameter-torsionfree.
+This identifies the defect intrinsically: it is the special fibre of the parameter-torsion in the restricted conormal module. The finite duration module contains information not recoverable from the special fibre alone. It is not torsion in the algebra \(\mathscr R/\mathscr J\), which is already parameter-torsionfree.
 
 ### 4. What vanishing does and does not say
 
