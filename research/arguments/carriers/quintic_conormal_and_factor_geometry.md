@@ -15,27 +15,9 @@ Permanent mathematical supplement. The following five complete analyses retain t
 
 ---
 
-## 1. quintic conormal and delpezzo audit
+## Quintic conormal and del Pezzo structural reductions
 
-# Quintic carriers: conormal, Gorenstein and genus-one structural audit
-
-Date: 2026-10-11. Author: `quintic_conormal_audit`, delegated by
-`oct11_quintic_structural_frontier`.
-
-Status: **DIRECT PROOF AUDIT; NECESSARY STRUCTURAL REDUCTIONS**. No
-quintic-carrier exclusion is claimed. No frontier file was edited.
-The scope is the fixed smooth curve
-
-    C=C0=[s^4:s^3t:st^3:t^4] in P3,
-
-over an algebraically closed field of characteristic zero. We use the
-accepted conormal calculation `N_C^*=O_P1(-7)^2`, the [P-005 smooth-carrier
-obstruction](../equations/global_equations_and_constructions.md#p-005-a-smooth-carrier-obstruction),
-the [P-006 formal-normal resultant theorem](../normal-geometry/formal-normal-intersection.md#p-006),
-the [P-011 normal-order bound](../normal-geometry/formal-normal-intersection.md#low-degree-surfaces-singular-along-the-whole-quartic),
-and the [P-015 fixed-carrier descent theorem](fixed_carrier_descent_and_cartier_models.md#canonical-compression-on-a-minimum-actual-carrier). Where
-explicitly stated, we also use the [integral quartic carrier exclusion](../../results/quartic_carrier_exclusion.md). The
-unrestricted C0 and universal STCI questions remain open.
+For the fixed characteristic-zero \(C_0\), this analysis uses the established conormal splitting \(N_{C_0}^\vee=\mathcal O(-7)^2\), [smooth-carrier obstruction](../equations/global_equations_and_constructions.md#p-005-a-smooth-carrier-obstruction), [formal-normal resultant](../normal-geometry/formal-normal-intersection.md#p-006), [normal-order bound](../normal-geometry/formal-normal-intersection.md#low-degree-surfaces-singular-along-the-whole-quartic), and [fixed-carrier descent](fixed_carrier_descent_and_cartier_models.md#canonical-compression-on-a-minimum-actual-carrier). The results below are necessary structural reductions, not a general quintic-carrier exclusion.
 
 ## 1. Generic order, compressed degree and the missing double divisor
 
@@ -374,25 +356,9 @@ The \(A_4\) anticanonical projection and its distinguished nonambient quartic se
 
 ---
 
-## 2. quintic endpoint factor independent audit
+## Endpoint quintic quadric-factor and contact reduction
 
-# Independent audit: the endpoint quintic quadric-factor and contact reduction
-
-Date: 2026-10-11. Auditor: `oct11_quartic_assembly_audit`.
-Status: **DIRECT STRUCTURAL REDUCTION ACCEPTED**, under the actual
-normalization and endpoint-projection hypotheses below. This is not a
-quintic-carrier exclusion. No frozen note, record or existing
-integrity seal is edited by this audit.
-
-The owner source is the [endpoint quadric-factor reduction](#2-quintic-endpoint-factor-independent-audit).
-The geometric inputs are the [quintic structural frontier](#1-quintic-conormal-and-delpezzo-audit),
-its [independent conormal/del Pezzo audit](#1-quintic-conormal-and-delpezzo-audit),
-and the [explicit model audit](del_pezzo_five_a4.md#2-dp5-a4-explicit-model-independent-audit).
-The [intrinsic pair classification](del_pezzo_five_a4.md#1-dp5-a4-intrinsic-pair-classification)
-separately records the required distinction between endpoint and nonendpoint
-projection centers. The present statement applies to the displayed endpoint
-projection; it does not replace that distinction by a four-parameter global
-exhaustion of all quintic carriers.
+This calculation concerns the **displayed endpoint projection** of the \(A_4\) anticanonical model, not every quintic projection center. The [intrinsic pair classification](del_pezzo_five_a4.md#1-dp5-a4-intrinsic-pair-classification) treats endpoint and nonendpoint centers separately; the [explicit model](del_pezzo_five_a4.md#2-dp5-a4-explicit-model-independent-audit) supplies the coordinates. The factor and contact conclusions are necessary, not an exclusion of all quintic mates.
 
 Work over an algebraically closed field of characteristic zero. Thus S is
 the normal degree-five anticanonical del Pezzo model, its sole singular
@@ -637,34 +603,11 @@ Since a!=0, U has degree three, so at most three finite points can carry the exc
 
 The divisibility used in the exact local length argument comes from the actual morphism c→C0, not from equality of reduced support. For example, t=z² and phi=z in k[[z]] have identical zero support, but phi is not divisible by t. This control explains why the scheme-theoretic ideal containment is an essential step.
 
-## 8. Exact evidence and remaining boundary
+## 8. Exact certificate and remaining boundary
 
-The delegated standard-library [sparse-polynomial checker](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py)
-supplies seven exact identities over `Z[r,T,a,b,g,d]`: q=hK, both first-normal
-coefficients, W=K|c, W=V-rU, the full cubic residual factor and its relation
-to the normalized quadric residual numerator. Its source SHA-256 is
-`871099f080b3a69c58f15e6a6bd6a9475fd5cdfbba03008482ff7f23070de8ec`.
+The [sparse-polynomial certificate](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py) verifies seven identities: \(q=hK\), both first-normal coefficients, \(W=K|_c=V-rU\), and the cubic residual factor and normalized numerator. The independent contact argument establishes the length exact sequences and projective scaling. These calculations do **not** prove an STCI exclusion.
 
-The delegated [algebra/contact audit](#2-quintic-endpoint-factor-independent-audit)
-independently reconstructed both length exact sequences and the projective
-scaling calculation. Its final SHA-256 is
-`f4e86e9c5e0b88e1bfb9d145e72e5226f884184463abee9928cbdda3bb37cca6`.
-Its bounded corollary excludes coprime U,V under the same full-support and
-a!=0 hypotheses; it does not bound excess lengths at a common root.
-
-The direct geometric arguments above establish the class-group, integrality,
-finite-birationality and intersection-length claims. Passing polynomial
-identities do not establish those claims or any universal STCI quantifier.
-
-This audit accepts the factor and, for a!=0, the integral arithmetic-genus-one
-residual, Q-type (3,2), length-one curve-model difference and exact seven-excess
-necessity. It supplies no contradiction to that necessary condition. The
-a=0 boundary, all remaining endpoint contact and conductor jets, the extra
-nonendpoint projection-center parameter, other normalization genera, normal
-quintics and the unrestricted fixed-C0 and universal STCI questions retain
-their separate status. No higher-degree result is inferred from the completed
-quartic-carrier theorem.
-
+For \(a\ne0\), the factorization gives an integral genus-one residual, \(Q\)-type \((3,2)\), and exactly seven necessary excess lengths; common roots of \(U,V\) are not excluded. The \(a=0\) boundary, endpoint conductor jets, nonendpoint center, other normalization genera, and normal quintics remain open separately.
 
 ---
 
