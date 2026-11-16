@@ -2,6 +2,9 @@
 
 This is a necessary-incidence analysis for the **admissible nonendpoint genus-one quintic \(A_4\), \(h=2\) parameter open in characteristic zero**, not a classification of arbitrary quintic carriers or an STCI construction. It retains scheme-theoretic saturation, global witness gluing, and the distinction between rank incidence and actual conductor norm.
 
+The [monic ODE and open-incidence derivation](extracted_quintic_h2_monic_ode_and_open_incidence.md) establishes the underlying equations and admissible parameter domain. The [degree-five frontier](extracted_quintic_h2_incidence_and_localcoh_frontier.md) records the invalid elimination shortcuts and unresolved `j=0` branch. The global seventeen-equation audit below verifies a necessary model but does not settle saturation, conductor-power descent, or global support.
+
+
 On the justified remaining nonendpoint \(A_4\) quintic \(h=2\) parameter open, write \(H=t^2+vst+ws^2\), \(Q=\sum_{i=0}^6q_is^{6-i}t^i\), \(j=\bar J\), and \(R=D_HQ\). The accepted closed-lane and intrinsic-contact results give the **unit ideal** \((q_5,q_6)=A\) on the localized candidate ring; this is not permission to invert either coefficient separately. The full quadratic and cubic rank incidence has 77 minors. Its saturation by \((q_5,q_6)\) equals the saturation of **twelve fixed generators**: eleven selected cubic minors and \(jM_{56}\), where \(M_{56}=q_5r_6-q_6r_5\). The identity uses pivot covers, works with nonreduced parameter rings, and does not divide by \(j\). The actual conductor norm product can be appended as a single necessary equation without splitting its factors.
 
 On the same localized scheme, the cubic rank condition is equivalently the existence of uniquely determined, locally gluing witnesses \(d,u\) for
