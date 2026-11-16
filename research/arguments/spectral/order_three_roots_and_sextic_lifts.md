@@ -460,11 +460,3 @@ of the producer's characteristic-polynomial arithmetic. All denominators
 were units and the determinant was a unit, corroborating the exact rational
 gcd certificate. This does not assert coverage of the projective closure of
 the selected affine slice or a scheme-theoretic intersection length.
-
-The lead and reviewer executed `order_three_four_parameter_slice.py` with
-SymPy 1.14.0 successfully. The lead also reran `order_three_sextic_slice.py`;
-all parity certificates passed. The temporary interpreter was recreated with
-the existing pinned dependency after the earlier temporary environment had
-expired; no repository dependency was added. Record validation,
-local Markdown links including anchors, and whitespace checks passed at
-closeout. No second-root or mate computation is reported.
