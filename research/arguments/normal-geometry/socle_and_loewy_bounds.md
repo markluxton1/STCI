@@ -603,14 +603,9 @@ These do not bound degrees uniformly or settle the higher-order branch.
 They replace independent degree-by-degree checks with structural tests
 of the entire generic algebra and its global normal filtration.
 
-## 7. Continuation boundary
+## 7. Boundary of the socle-budget theorem
 
-The equality obstruction from the ambient second neighborhood is a
-separate new proof being independently reviewed in a companion note.
-It must not be folded into the accepted socle-budget theorem without
-checking relation lifting and the multiplicity-sensitive coefficient
-extraction. The accepted nonzero marked-direction extension class is
-used as an input, not recomputed.
+The ambient second-neighborhood equality obstruction is separate from the socle-budget theorem: applying it requires relation lifting and multiplicity-sensitive coefficient extraction. The nonzero marked-direction extension class is an input.
 
 The most informative unresolved data away from equality are now the
 generic annihilator deficits, the torsion in every normal layer, the
@@ -625,10 +620,7 @@ multiplicity cap or generic-to-special root comparison has been used.
 
 # Entirely thick presentations: full conormal filtration and socle budget
 
-Date: 2026-10-13. Status: **PROVED necessary structure, pending independent
-audit**. This note gives a theorem about the entire complete-intersection
-thickening, at every normal order. It does not exclude all entirely thick
-presentations and does not resolve the STCI problem. No novelty claim is made.
+The theorem gives necessary structure at every normal order of an entirely thick complete intersection; it does not exclude all such presentations or settle STCI.
 
 ## 1. Reconstructed frontier and retained boundaries
 
