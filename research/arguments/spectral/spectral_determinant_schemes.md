@@ -173,7 +173,8 @@ This is the parameter-family form of the [R-0008 quotient-ideal construction](..
 It is compatible with base change. The kernel line avoids a global choice
 of eigenvector; forgetting that line would discard gluing data. The
 construction takes place on the normal-bundle model and does not identify
-it with the actual embedded neighborhood of C0. No two global ambient
+it with the actual embedded neighborhood of C0. Its flat graded families
+are spectral compatibility objects, not ambient STCI deformations. No two global ambient
 equations, support-preserving formal lift or projective pair follow.
 
 ## Review and remaining questions
