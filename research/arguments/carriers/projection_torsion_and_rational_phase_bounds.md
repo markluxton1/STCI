@@ -441,23 +441,9 @@ Positive dimension of `W` alone is insufficient: the image
 of a positive-dimensional torsion coset in `closure(W)` is insufficient
 if the admissible constructible image deletes it completely.
 
-### 8. Scope and the next bridge
+### 8. Scope: actual phases versus contact graphs
 
-This result treats all exponents through one finite-type algebraic
-phase image with full nilpotent equations. It strengthens a finite
-list of bounded integer contact graphs: those graphs do not constrain
-relative phase orders, whereas the torsion-coset envelope classifies
-how unbounded orders can occur in the **actual algebraic family**.
-No graph-by-graph enumeration is required for the theorem.
-
-The next mathematical bridge is to obtain equations for the image
-`W`, or enough character relations and nonvanishing conditions to
-determine its surviving torsion cosets, after imposing the entire
-logarithmic defects and all admissibility conditions. Neither contact
-equality alone nor a torus dimension count supplies that bridge.
-
-The universal integral-projective-curve STCI problem and the
-unrestricted characteristic-zero fixed-C0 problem remain open.
+The finite-type phase image includes all mate exponents and full nilpotent equations. Unlike bounded integer contact graphs, its torsion-coset envelope detects unbounded relative phase orders. Computing the surviving cosets still requires equations for the actual image \(W\), including its logarithmic defects and admissibility boundary. Contact equalities and torus dimensions alone are insufficient. Neither the fixed-\(C_0\) nor the unrestricted integral-curve STCI question is settled.
 
 <a id="2026-10-15-generalization-effective-rational-phase-bound"></a>
 <a id="2026-10-15-generalization-effective-rational-phase-bound-independent-review"></a>
@@ -779,11 +765,9 @@ This bound is obtained from a finite algebraic/cyclotomic certificate,
 not by scanning mate degrees. If no torsion coset survives, a mate-
 degree bound is unnecessary because nonexistence is certified.
 
-### 8. Present boundary of effectivity and scope
+### 8. Effective scope and missing family input
 
-For the three rational fixed-\(C_0\) families, a rational constructible-image presentation (1) would make the finite exact procedure effective with an explicit order bound. The **missing inputs** are the full nilpotent equations, elimination degrees/supports, and boundary equations. Finite-type existence alone supplies no values for \(D,d,S\) from contact budgets \(140,765\), hence no numerical uniform mate-degree bound. Mann's rational primorial estimate cannot be transferred to a general number field without field dependence: \(X-\zeta_N\) has two terms and degree one over \(\mathbf Q(\zeta_N)\) but a root of order \(N\). Entire constructible images for these three families can remain over \(\mathbf Q\).
-
-No Mann partition or boundary-containment enumeration has been executed. The procedure neither computes a surviving phase nor excludes the families; unrestricted fixed-\(C_0\) and integral-curve STCI remain open.
+For the three rational fixed-\(C_0\) families, an explicit rational constructible-image presentation makes the finite procedure effective. The full nilpotent equations, elimination degrees/supports, and boundary conditions have not been computed. Contact budgets \(140,765\) alone give no values for \(D,d,S\), hence no numerical uniform mate-degree bound. Mann's rational primorial estimate requires rational coefficients: over \(\mathbf Q(\zeta_N)\), \(X-\zeta_N\) is degree one with a root of arbitrary order \(N\). No torsion partition or boundary enumeration has been executed; the existence of the algorithm is not an exclusion.
 
 ## From explicit projection input to a decision procedure
 
@@ -852,28 +836,9 @@ retains all exceptional strata. Effective quantifier elimination finally
 computes the actual constructible phase image, including inequalities and
 deleted boundaries, so the accepted explicit-`W` procedure applies.
 
-### Corrections and limits
+### Effective-input limitations
 
-This audit made three clarifications in Section 9: prescribed restrictions
-to `c` are explicit input conditions; image Hilbert data are preserved using
-a homogeneous monic basis; and the source ring is called *finitely
-presented*, rather than ambiguously *finite*, as a graded algebra.
-
-No unresolved algorithmic gap was found for this input. The PASS does not
-extend to arbitrary unspecified normalizations, noncomputable coefficients,
-or unpresented parameter restrictions. It gives no implementation, practical
-complexity estimate, actual phase equations, numerical bound for the whole
-three families, or decision which outcome holds for them. The independently
-accepted explicit-`W` theorem is unchanged. The unrestricted fixed-C0 and
-universal projective-curve STCI questions remain open.
-
-
-### Scope of the raw-input decision theorem
-
-The decision procedure applies to the explicit constructible rational phase image supplied as input; it does not compute that image for arbitrary carrier families or certify untested elimination claims.
-
-<a id="2026-10-15-generalization-nef-formal-branch-arbitrary-base"></a>
-<a id="2026-10-15-generalization-nef-formal-branch-arbitrary-base-independent-audit"></a>
+The algorithm requires computably presented rational source rings, four polynomially parameterized sections with their prescribed restrictions to \(c\), and finite constructible parameter restrictions. Homogeneous monic bases preserve image Hilbert data; a finitely presented graded source algebra is not assumed finite-dimensional. The proof supplies termination, not an implementation, complexity estimate, explicit family phase equations, or a numerical degree bound. Arbitrary unspecified normalizations and noncomputable input lie outside scope.
 
 ## Nef polarizations and formal branches over arbitrary smooth bases
 
