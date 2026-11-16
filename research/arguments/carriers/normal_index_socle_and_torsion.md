@@ -778,16 +778,13 @@ For a mate, numerical equivalence nC=bH gives C^2=e^2/a; equation (6)
 then recovers (1). This provides a structural Q-Cartier normal-carrier
 constraint before one chooses a mate degree.
 
-### 6. Audit conclusion and limits
+### 6. Scope of the index and equality theorems
 
-The general inequality, index threshold, equality consequences, conditional primitive-triple obstruction, tame extension, and line-bundle identity were independently checked. The triple conclusion needs \(e\ge4\) and an **actual embedded-triple obstruction**; positive-characteristic indices must be tame, and \(R=1\) uses the stated surviving-line convention. These results neither bound arbitrary normal-carrier indices nor handle wild indices or exclude all balanced rational curves.
+The primitive-triple conclusion requires \(e\ge4\) and an **actual embedded-triple obstruction**; positive-characteristic indices must be tame, and \(R=1\) uses the surviving-line convention. The inequalities do not bound arbitrary normal-carrier indices or handle wild indices, and they do not exclude all balanced rational curves.
 
 ### 7. Addendum: direct construction on a smooth projective threefold
 
-After this audit was drafted, the
-[owner note](#2026-10-14-generalization-normal-index-general-scope)
-supplied a direct construction preceding the duality calculation.
-That construction also passes independent review. Its natural scope
+The [intrinsic divisor construction](#2026-10-14-generalization-normal-index-general-scope) precedes the duality calculation. Its natural scope
 is a smooth projective threefold X, a normal integral Cartier divisor
 S, and a smooth Q-Cartier curve C on S; the P3 hypothesis is only
 needed in the later numerical substitutions.
@@ -839,7 +836,7 @@ full local defects and keep all singular support points.
 
 ### 8. Characteristic-zero equality gives an actual minimal primitive CI
 
-The additional equality consequence also passes review. Work in
+For the equality consequence, work in
 characteristic zero and in the balanced rational threshold case
 s=e-1. Section 2 gives a=e-1 or e, every singular on-curve index
 equal to e-1, and D_(e-1),P=0 at every such point. The singular set
