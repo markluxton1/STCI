@@ -743,7 +743,7 @@ available over an algebraically closed characteristic-zero field. A
 universal nonzero-first-trace argument is therefore ruled out under
 exactly the proposed plane and quadric support hypotheses. The full
 characteristic polynomial or an equivalent collection of higher moments
-still detects the distinction. This counterexample is a test of a
+still detects the distinction. Trace vanishing alone replaces characteristic-polynomial nilpotence only when the necessary Newton denominators are invertible. This counterexample is a test of a
 proposed universal invariant, not an additional family exclusion or a
 claim that the higher-moment equations are inconsistent for arbitrary
 defining pairs.
