@@ -435,7 +435,7 @@ This note does not claim the generic local data determine global radical equalit
 # The embedded ribbon-to-triple obstruction
 
 The characteristic-free ideal-sheaf construction fixes the embedded
-ribbon and its conormal quotient. The [October 21 audit](#independent-audit-and-arithmetic-provenance)
+ribbon and its conormal quotient. The [October 21 audit](#fixed-quotient-and-arithmetic-scope)
 independently reconstructed this correction of the difference-of-lifts
 argument. The quartic Laurent coefficients come from the separate
 [arithmetic calculation](#quartic-consistency).
