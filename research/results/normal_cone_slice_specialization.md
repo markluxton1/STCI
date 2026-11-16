@@ -82,6 +82,4 @@ normal algebras are \(k[Y]\), yet \(A_n=B/(t)\) for every \(n\ge 1\).
 The transverse comparison concerns the chosen lift of the parameter on
 the marked curve.
 
-## Review
-
-The Tor exact sequence, multiplicative compatibility and Artin–Rees converse are proved in [the transverse-specialization Argument](../arguments/transverse_specialization.md). The equivalence requires flatness of the ambient quotient over the parameter DVR.
+The equivalence requires flatness of the ambient quotient over the parameter DVR.
