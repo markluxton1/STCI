@@ -45,7 +45,11 @@ The technical developments are preserved in the focused documents linked under t
 
 [Continue in focused development](quartic_carrier_trisecant_and_proof_routes.md#endpoint-irreducible-graph-extracted-geometric-argument)
 
-## 6–7. Proof routes and evidence
+## 6. Source evidence and editorial disposition
+
+[Complete development](quartic_carrier_trisecant_and_proof_routes.md#6-complete-proofs)
+
+## 7. Evidence and retention
 
 [Complete development](quartic_carrier_trisecant_and_proof_routes.md#6-complete-proofs)
 
