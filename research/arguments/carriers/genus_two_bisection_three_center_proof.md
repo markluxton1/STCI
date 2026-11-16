@@ -196,13 +196,9 @@ Hence no such cycle exists, contrary to the pulled-back uniformizer
 of the smooth embedded curve. This is the fundamental-cycle
 obstruction proved directly, without a graph-table assertion.
 
-## 7. Conclusion and failure shield
+## 7. Conclusion and counterexample boundary
 
-Every permitted fiber and three-center history contradicts the accepted characteristic-zero \(\lambda=0\) bisection mate reduction: \(k_t=3\) is impossible. With the separate [even-count exclusion](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count), only \([1,1,1,1]\) remains.
-
-The nonreduced \(D_5\) near-counterexample has effective correction and \(c\cdot Z_t=3\), but violates the **integral anti-nef uniformizer cycle of contact coefficient one** required by the smooth embedded curve. Rational divisor correction alone would not exclude it. This local calculation is not itself a global quartic-carrier exclusion; that conclusion uses the independent global ribbon argument and carrier assembly.
-
-
+All permitted three-center histories exclude \(k_t=3\) under the characteristic-zero \(\lambda=0\) reduction; the [even-count argument](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count) is separate. The nonreduced \(D_5\) local example has effective correction and \(c\cdot Z_t=3\), but fails the **integral anti-nef uniformizer cycle of contact coefficient one**. Rational correction alone cannot exclude it. The global bisection exclusion instead follows from the independent ribbon argument.
 
 ---
 
