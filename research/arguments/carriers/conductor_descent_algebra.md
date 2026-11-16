@@ -378,8 +378,10 @@ e = m * lcm_i order(beta_i/beta_1)
   = lcm(m, order(zeta_2), ..., order(zeta_s)),
 ```
 
-where `zeta_i=alpha_i/alpha_1` for chosen embeddings, `zeta_1=1`,
-and the `order` of a non-torsion ratio is interpreted as infinity.
+where `zeta_i=alpha_i/alpha_1` for chosen embeddings and
+`zeta_1=1`. In the present torsion case all these ratios are roots
+of unity; without the torsion assumption the residual exponent may
+instead be infinite.
 For the first equality, any exponent making each `alpha_i` an
 element of `K` is divisible by `m`; an exponent `m h` gives a
 single diagonal element of `K^*` precisely when all
