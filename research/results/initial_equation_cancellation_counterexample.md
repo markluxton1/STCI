@@ -52,3 +52,7 @@ This is a local characteristic-zero counterexample. Its defect after
 adjoining \(t\) has positive generic rank, so it leaves the generically
 defect-free punctual question open. It gives no homogeneous global pair
 for the fixed projective quartic.
+
+## Review
+
+The local calculation and its full initial ideal are proved in the linked Argument; this example has positive generic defect and does not settle the punctual case.
