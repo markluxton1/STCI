@@ -797,39 +797,14 @@ and vanishing because `lambda-3>=0`. Ampleness holds since
 `(d-1)(d-2)>=e*r*(r-1)`, again contradictory for `e>=4,r>=2`.
 This observation does not remove the singular-lifted-surface hypothesis.
 
-## 10. Evidence and review status
+## 10. Scope of the regular-surface argument
 
-This is a conceptual argument; no inherited verifier or accepted proof
-was rerun. New calculations are the exact ruled-surface cohomology in
-Section 4, the embedded smoothing argument in Section 5, and the scope
-bridge retaining the original singular root while using a smooth
-numerically equivalent curve on `T`.
+The proof uses ruled-surface cohomology (section 4), embedded smoothing (section 5), and a smooth numerically equivalent curve on \(T\) while retaining the original singular root in its hypotheses. The degree-\(e\) observation in section 9 is separate from the fixed-\(C_0\) theorem.
 
-The linked independent audits both record PASS for the fixed-C0
-conditional statements. The degree-e observation in Section 9 remains
-separately scoped and is not included in the reported fixed-C0 theorem.
+<a id="source-2026-10-19-regular-reducible-root-independent-auditmd"></a>
+## Regular formal surfaces and the equal split root
 
-## Characteristic scope of descent, duality and formal lifting
-
-Saturated MCM duality and the arbitrary-conormal degree-zero resultant proof use no separability or division by an integer, as their explicit proofs show. The full-root Picard criterion is likewise valid in arbitrary characteristic. The moving-pure-power shortcut uses the characteristic-zero apolar quotient formula, and the theorem excluding repeated moving total components uses detection of integral ruling degrees by logarithmic Chern classes; the [fixed-degree apolar extension](moving_power_second_relation.md#positive-characteristic-reach-of-the-pure-power-mechanism) requiresp>s, while the [repeated-component extension](spectral_torsion_and_syzygy_splitting.md#prime-to-characteristic-spectral-descent-excludes-repeated-moving-components) requiresp∤s on the rational base. No unrestricted positive-characteristic extension is asserted. In characteristicp, on the diagonal D of P1×P1, A=O(-1,1) restricts trivially to D and A^p restricts trivially to2D because (1+h)^p=1 modulo I_D². Thus the doubled-divisor Picard injectivity step fails exactly where integer detection fails.
-
-The smooth formal-root theorem R0005 and actual-CI smooth-root bridge R0006 have separately reviewed characteristic-free scopes under their explicit balanced-normal/smooth-full-root/actual-generation hypotheses. The bridge retains inseparable root primes and uses the actual local ring, not a coefficient-field splitting of its completion. The regular-singular-root theorem R0018 below remains in its accepted characteristic-zero scope; the argument does not automatically extend through singular formal surfaces. None of these restricted hypotheses contradicts [the every-positive-characteristic quartic-carrier construction](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) on the fixed curve.
-
-
----
-
-## Source: 2026-10-19-regular-reducible-root-independent-audit.md
-
-# Independent audit: a regular formal surface cannot lift the equal split root
-
-Date: 2026-10-19. Reviewer: `regular_reducible_audit`. The local Cartier,
-intersection-length, completion-transitivity, and companion-containment
-steps were separately checked by `regular_reducible_audit/local_check`.
-
-Status: **PASS for the precise conditional nonexistence statement below.**
-This is an independent review note, not a result record. No accepted
-mathematics or metadata is changed. In particular, this note does not
-apply the smooth-root statement STCI-R-0005 to a singular root.
+The conditional argument checks local Cartier indices, intersection lengths, completion transitivity, and companion containment. It does not apply a smooth-root theorem to a singular root.
 
 ## 1. Exact statement and inputs
 
@@ -1045,18 +1020,10 @@ load-only CAS tests are offered as a substitute for the geometric proof.
 
 ---
 
-## Source: 2026-10-19-regular-singular-root-smoothing-audit.md
+<a id="source-2026-10-19-regular-singular-root-smoothing-auditmd"></a>
+## Smoothing a singular movement-two root on a regular formal surface
 
-# Independent audit: regular formal surfaces with singular movement-two roots
-
-Date: 2026-10-19. Reviewer: `regular_singular_smoothing_audit`.
-
-**Outcome: PASS for the precise conditional nonexistence statement below.**
-The new smoothing step is valid. It closes the reduced singular-root case
-only when the resulting formal surface is regular at every point of the
-whole root. The argument does not establish that an arbitrary all-orders
-Cartier lift, or an arbitrary actual complete intersection, has this
-regularity property. No result has been changed by this audit.
+The reduced singular-root exclusion requires the formal surface to be regular at **every point of the root**. An arbitrary all-orders Cartier lift or actual complete intersection need not satisfy this hypothesis.
 
 ## 1. Exact scope and authority
 
@@ -1287,12 +1254,6 @@ and universal-family smoothing still apply. This is a transparent
 scope strengthening of the argument, not a claim that nonreduced roots
 in the actual STCI problem satisfy its regularity hypothesis.
 
-## Review record
+## Regularity boundary
 
-The reviewer independently reconstructed the normalization and smoothing
-interfaces and both cohomology calculations. A separate subreviewer,
-`smoothing_check`, checked the Hilbert universal-family argument and the
-primary deformation, relative Cartier, and semicontinuity references.
-No exact-CAS calculation, inherited proof rerun,
-or git operation was used. The regularity boundary is unresolved by
-this argument and remains a limitation of the argument.
+The normalization, Hilbert-family smoothing, relative Cartier, and semicontinuity arguments establish the conditional result. Regularity along the entire singular root remains an independent hypothesis, not a consequence of actual-pair existence.
