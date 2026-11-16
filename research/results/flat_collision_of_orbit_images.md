@@ -69,14 +69,3 @@ polynomial differs from the fourth-root CI's \(16d-32\); this is not a
 flat deformation of that CI through these images. It does not produce
 a supported complete intersection or a comparison with opposite full
 torus Hilbert limits.
-
-## Review
-
-The source has a separate review of its collision argument. The explicit relative closure justification here was also reviewed.
-
-Independent reconstruction review, 2026-11-04: reviewer
-pilot_review_hilbert accepted the exact R-0055 route after reconstructing
-relative weighted algebra closure, flat endpoint cokernels, image base
-change and the constant Hilbert polynomial. The weighted closure argument
-was checked also on semisimple fibers; the coefficient determinant was
-independently recomputed. No blocker was found within this characteristic-zero family. The reconstruction review accepts this route within its stated scope. It does not assert a deformation of the fourth-root CI.
