@@ -239,9 +239,7 @@ include examples with residual and sole support. The
 [punctual relative-defect question under sole support](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support)
 remains open.
 
-## Source proofs and review scope
-
-Independent review reconstructed the filtered denominator, constant syzygies, comparison direction, smooth-carrier model, first higher Koszul differential, and nine-object restricted comparison with its intrinsic nonisomorphism test. The exact Python 3 checks are:
+## Exact finite checks
 
 ```sh
 python3 -B research/computations/verify_ideal_filtration_counterexamples_2026_10_23.py
@@ -249,5 +247,4 @@ python3 -B research/computations/verify_ideal_filtration_completeness_2026_10_23
 python3 -B research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py
 ```
 
-Irreducibility and the general comparison are established in the written proofs. See the [independent review](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-reviewmd) and [R-0030 review](../results/local_filtration_comparison_defect.md#review), including its [local audit](../results/local_filtration_comparison_defect.md#october-26-local-audit).
-
+These checks concern finite examples; irreducibility and the general comparison follow from the proofs above.
