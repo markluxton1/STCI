@@ -52,20 +52,3 @@ This is a local characteristic-zero counterexample. Its defect after
 adjoining \(t\) has positive generic rank, so it leaves the generically
 defect-free punctual question open. It gives no homogeneous global pair
 for the fixed projective quartic.
-
-## Review
-
-The Phase 5 nonauthor reviewer accepted the local counterexample using
-R-0030. The review reconstructed irreducibility and regularity, the
-unit elimination and associative model, the colength argument for the
-full initial ideal, and the order of the lifted Koszul syzygy. All six
-checks in the finite arithmetic verifier passed on replay.
-
-The October 23 lifting audit checked irreducibility, the regular sequence,
-the associative five-dimensional quotient, the cancellation with
-coefficients in \(I\), the independence of the two quadratic symbols and
-the indicated filtered Koszul differential. The arithmetic check covers the
-explicit identity, algebra model and filtration dimensions. The written
-proof gives irreducibility and the reasoning that the initial ideal is full.
-[October 23 review](../arguments/normal-geometry/ideal_filtrations_quartic_exclusion.md#higher-generator-counterexample) ·
-[Finite arithmetic check](../computations/verify_ideal_filtration_counterexamples_2026_10_23.py)
