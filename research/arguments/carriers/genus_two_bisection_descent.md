@@ -126,7 +126,7 @@ away at the start.
 
 ## 4. Entire contact schemes under the split-descent assumptions
 
-This conditional lemma uses the hypothetical bisection and split-descent assumptions just obtained; its argument was independently accepted. The stronger global ribbon proof excludes the lane without these conductor refinements.
+This conditional lemma uses the hypothetical bisection and split-descent assumptions just obtained. The stronger global ribbon proof excludes the lane without these conductor refinements.
 
 Every exceptional fiber met by c has positive correction and
 lies wholly in Supp(Z), by the support-closure argument. Thus
