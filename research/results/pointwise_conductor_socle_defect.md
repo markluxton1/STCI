@@ -48,7 +48,3 @@ Required hypotheses:
 Inherited premises are described in the proof and audit.
 - Not established for multiple branches, non-Cartier lift, singular normalization along c, or generically singular carrier
 - Jacobian argument cannot be transferred to characteristic dividing n
-
-## Current mathematical evidence
-
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not imply an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
