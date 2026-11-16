@@ -199,10 +199,8 @@ carrier never lowers total normal degree, so this restriction commutes
 with truncation. The independent M2 implementation instead forms the
 truncated quotient directly.
 
-An early 40-point trial had cutoff-eight rank 600, exactly its row count,
-and nonzero-\(\kappa\) cutoff-nine rank 680, again the row count. Those
-values did not measure actual freedom. Expanding to 80 points resolved
-this sampling limitation and gave the sharp statements above. No
+The rank statements above use 80 evaluation points; smaller samples
+can be row-saturated without detecting the full kernel. No
 characteristic-zero candidate was inferred from a modular kernel.
 
 ## Computational meaning and limitations
