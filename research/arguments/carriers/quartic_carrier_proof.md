@@ -440,7 +440,7 @@ remain necessary exact support. General \(\mathrm{PGL}_2\) moves the
 projection center and cannot be substituted for its center-preserving
 orbit calculation.
 
-The genus-one projection interface remains **conditional** on separate exclusions of the \([4]\), \([3,1]\), and \([2,2]\) contact partitions; no mate-degree bound, normal order, or reduced-conductor assumption is used. The full mathematical dependencies are retained in the focused genus-one Arguments.
+The projection and repeated-root reductions are necessary conditions, not an exclusion by themselves. The separate [repeated-partition proof](genus_one_ribbon_partition_proofs.md) now excludes \([4]\), \([3,1]\), and \([2,2]\), completing the genus-one lane when combined with the squarefree and \([2,1,1]\) arguments. No mate-degree bound, normal-order restriction, or reduced-conductor assumption is used. The earlier conditional-status sentence was obsolete after those partition proofs were incorporated. The full mathematical dependencies are retained in the focused genus-one Arguments.
 
 ## 6. Sectional genus two: conic geometry and the two correction strata
 
