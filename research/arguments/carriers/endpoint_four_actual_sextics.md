@@ -195,14 +195,10 @@ If a proper homogeneous degree-sixteen pair \((F_*,G)\) containing \(C\) had \(n
 
 This fixed-carrier conclusion does not require a prescribed full generic initial CI, a saturated first relation, or the movement-two hypothesis. Those assumptions explain where the carrier came from. The conclusion requires the actual displayed \(F_*\), mate degree sixteen, properness, and characteristic zero. It makes no assertion that the bound is attained. It does not exclude the endpoint-four chart for other \(b_2,\kappa,\rho\), the endpoint-three chart, the orbit-collision chart, other movement rows, or unrestricted STCI presentations.
 
-## Reproduction and review record
-
-The endpoint-four symbol construction uses the retained exporter and the saved symbol matrix.
+## Exact computational evidence
 
 ```sh
 python3 research/computations/endpoint4_actual_2026_10_25.py
 ```
 
-The exporter records the inherited matrix hash, solves only the new right-hand sides, and performs a direct ambient substitution. The generated [JSON](../../computations/endpoint4_actual_2026_10_25.json) includes full ambient and normal expansions, parameter conventions, and the torus action. The exporter also produces an M2 family presentation. A successful load supplies no additional mathematical test.
-
-Independent `endpoint4_formula_audit` reconstructed the second symbol, torus normalization, and exact singular-line orders. The audit corrected the initial torus normalization scope by verifying the square-root gauge. The [fixed-carrier rank evidence](../../results/ci_fixed_sextic_jet_rigidity.md#exact-evidence-and-independent-verification) gives the live verifier, exact inputs, and archived Macaulay2 comparison, including the corrected carrier-vector construction.
+The exporter checks the saved symbol matrix, solves the displayed lift equations, and verifies ambient substitution. Its [JSON output](../../computations/endpoint4_actual_2026_10_25.json) records normal and ambient expansions, parameters, and torus action. The square-root gauge is required for the stated torus normalization. For the selected carrier-vector construction and its Macaulay2 comparison, see [fixed-carrier rank evidence](../../results/ci_fixed_sextic_jet_rigidity.md#exact-evidence-and-independent-verification).
