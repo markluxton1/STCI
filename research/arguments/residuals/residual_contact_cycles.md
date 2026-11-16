@@ -291,7 +291,9 @@ More precisely:
 
 The numerical bound eight is an upper bound; attainment is not asserted.
 This is a complete all-parameter, all-global-sextic calculation, rather
-than a collection of selected carrier samples. Taken alone this calculation does not exclude
+than a collection of selected carrier samples. The uniform rank statement
+uses the recorded exact parameter-ideal certificate; it has not been
+independently recomputed in this mathematical review. Taken alone this calculation does not exclude
 higher mate degrees, other mixed-weight carriers, or the boundary
 alpha*beta=0, and it does not resolve unrestricted STCI.
 
