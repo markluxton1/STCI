@@ -368,20 +368,9 @@ quintic-carrier exclusion in every mate degree, using the standard
 minimal-degree classification already audited in the
 [quartic genus-zero record](sectional_genus_zero_normalization_proof.md).
 
-## 10. Continuation boundary
+## 10. Unresolved genus-one quintic descent
 
-The highest-value concrete genus-one quintic target is thus the actual
-A4 del Pezzo normalization, its anticanonical projection to P3, the smooth
-quartic meeting A4 vertex2/3, and descent of powers of its distinguished
-nonambient quartic section through the CM degree-five genus-two conductor.
-The general `(5,8)` target has three first-quotient directions and the
-four-divisor filtration above, with nonregular-ratio strata retained.
-
-Neither target is closed by this note. Higher sectional genera with
-non-Gorenstein normalization, normal quintics, higher mate degrees,
-carriers of degree at least six, and wholly thick presentations remain
-outside any claimed exclusion here.
-
+The \(A_4\) anticanonical projection and its distinguished nonambient quartic section still require descent of section powers through the Cohen–Macaulay genus-two conductor. The general \((5,8)\) case retains three first-quotient directions, four-divisor filtration, and nonregular-ratio strata. Neither is an all-mate exclusion. Normal quintics, non-Gorenstein higher-genus normalizations, and wholly thick presentations remain separate.
 
 ---
 
