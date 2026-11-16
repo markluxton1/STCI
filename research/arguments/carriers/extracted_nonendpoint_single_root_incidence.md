@@ -499,9 +499,9 @@ excluded L1=0 boundary. The original full L2 discriminant at q=2 is
 Either is nonzero for d nonzero. This clarifies an exponent slip in the
 owner note without changing its conclusion. The [small rational-cover identity source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-14-quintic-independent-audit/l2-cover-algebra.m2) supplies the exact cover controls. The full original-generator Bezout witnesses remain in the linked owner proof; this small check does not replace them.
 
-## 8. Independent review of the existing regular-L1 geometric bridge
+## 8. Regular-L1 geometric support bridge
 
-The quotient-fiber identities above combine with the following finite-point reconstruction to prove the regular-L1 support implication. The exact coefficient check and double-root identity are inherited evidence, not fresh computations.
+The quotient-fiber identities above combine with the following finite-point reconstruction to prove the regular-L1 support implication. The coefficient check and double-root identity are the stated algebraic inputs.
 
 On `qZ(q)!=0`, the actual finite normalization-point reconstruction in
 the accepted fiber model applies to common quotient roots. Put
@@ -541,10 +541,7 @@ homogeneous conormal root, the accepted support bridge requires the
 nonzero degree-eight conductor form to be concentrated at q, hence to
 have order eight. Its actual order two contradicts that requirement.
 
-**Audit conclusion: the regular-L1 all-mate exclusion is now independently
-accepted in exactly this sole-root, Jbar-nonzero, qZ-nonzero scope.** This
-supplies the previously pending geometric premise needed for section 7's
-combined regular sole-root theorem. No such conclusion is extended to
+**The regular-L1 all-mate exclusion holds in the sole-root, Jbar-nonzero, qZ-nonzero scope.** This supplies the geometric premise for section 7's combined regular sole-root theorem. No such conclusion is extended to
 Z=0, other conormal roots, or an allowed A4 contribution when Jbar=0.
 
 
