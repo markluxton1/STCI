@@ -415,33 +415,9 @@ reconstructed literally. The new calculation uses rational arithmetic,
 complete exact number fields, and one certified modular linear-rank
 lower bound accompanied by the rational upper bound proved above.
 
-## Review
+## Exact verification
 
-The finite moment reduction and quadratic direction proof received an
-independent reconstruction. The reviewer recomputed all ninety quadratic
-moments by the inverse \(q,B\) coordinate change, replayed the five
-rational saturated ideals, and independently checked both conjugate
-component-zero fibres by restriction of scalars to \(\mathbb Q\).
-An independent first-lower-contact calculation in the actual
-six-dimensional quartic source gave two five-by-five minors with
-monic gcd \((c+1)^{11}\), confirming the primitive conic coverage.
-The maintained verifier retains the full-tensor route.
-
-The constant-orbit reviewer independently reconstructed the
-fourteen-dimensional cubic space, checked the dimension-309 argument,
-and replayed the direct tensor binding and modular coefficient rank.
-This establishes characteristic-zero coverage of the entire projective
-ancestor family. The linear boundary was independently reconstructed
-from the four normalization cases, determinant factors, complete-field
-kernel calculations and three exceptional saturated minor ideals.
-The integrated verifier was replayed in the owning checkout.
-
-During review a draft residue loop omitted the \(q^0V^4\) contribution
-to the quadratic moments. Its bounds were corrected before the final
-replay. The corrected quadratic and cubic coefficients agree with the
-independent reconstruction. Acceptance covers the three excluded
-direction strata and the necessary interior direction equation.
-The line-and-curve two-target incidence remains unresolved.
+The maintained verifier checks all ninety quadratic moments, five rational saturated ideals, both conjugate component-zero fibers, and the primitive-conic lower-contact minors with gcd \((c+1)^{11}\). Cubic checks cover the fourteen-dimensional source and the dimension-309 tensor argument; linear-boundary checks include four normalization cases and exceptional saturated minor ideals. The quadratic moments must include the \(q^0V^4\) term. These calculations establish the three excluded direction strata and the necessary interior direction equation, not the unresolved line-and-curve two-target incidence.
 
 ## Limitations
 
