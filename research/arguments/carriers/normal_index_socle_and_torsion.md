@@ -55,8 +55,10 @@ Its support is precisely the singular points of S on C. Indeed the
 first normal symbol vanishes at P precisely when all ambient first
 derivatives vanish there, since S already vanishes identically on C.
 If C is Cartier at P, smoothness of C forces the normal surface S to
-be regular at P. Therefore r_P=1 precisely at the smooth points on C;
-there A_P=0.
+be regular at P: in the two-dimensional local ring of S, a principal
+ideal defining a regular curve has regular quotient, and the ambient
+embedding dimension is therefore at most two. Consequently r_P=1
+precisely at the smooth points of S on C; there A_P=0.
 
 At a singular point choose a local regular function h with divisor
 r_P C, and let W_(r_P)=S/(h). This is a pure local complete
