@@ -17,7 +17,6 @@ The equality-case, characteristic, and pointwise-index qualifications are part o
 
 ## An intrinsic normal divisor and index thresholds for smooth curves
 
-Date: 2026-10-14. Author: `normal_index_general_scope`.
 Status: **PROVED NEW STRUCTURAL THEOREMS; independently reviewed in
 [the general-scope audit](#2026-10-14-generalization-normal-index-general-scope-independent-audit).**
 The accepted local power-socle theorem in
@@ -373,7 +372,7 @@ accepted C0 computations.
 
 ## Normal carriers: local power-socle compatibility and uniform exclusion
 
-Date: 2026-10-14. Status: **PROVED, WITH A SEPARATE INDEPENDENT NEW-PROOF
+Status: **PROVED, WITH A SEPARATE INDEPENDENT NEW-PROOF
 AUDIT**. This is the current theorem statement and integration record.
 The [full independent proof](normal_carrier_symbolic_torsion.md#2026-10-14-generalization-index12-filtered-compatibility)
 reconstructs every new local step. The
@@ -901,7 +900,7 @@ torsion factor.
 
 ## A full first-layer and socle bound for transverse ramification
 
-Date: 2026-10-14. Owner: `global_structure`. Status: **NEW WRITTEN
+Status: **NEW WRITTEN
 PROOF; independent review requested**. The accepted normal bundle of
 fixed C0 and accepted carrier exclusions are premises, with no reruns.
 This note studies new restrictions on the three Cartier-lift models
@@ -1245,7 +1244,6 @@ multiple normalization primes, and no unrestricted STCI resolution.
 
 ## Normal carrier Picard and local torsion: primary sources and new index audit
 
-Date: 2026-10-14. Owner: `normal_torsion_primary`, child of `conductor_general`.
 
 Scope: integral normal hypersurface surface `X` in projective three-space over an algebraically closed characteristic-zero field. The smooth rational quartic `C0` is fixed. Previously accepted exclusions of all mates of degree at most four are premises; no inherited verification was rerun. This note records new source checks and new numerical deductions only.
 
@@ -1385,7 +1383,7 @@ The two `L=12` rows are only necessary arithmetic survivors. No existence statem
 
 ## All-degree torsion filter for normal carriers of fixed C0
 
-Date: 2026-10-14. Owner: `global_structure`. Status: **NEW DIRECT
+Status: **NEW DIRECT
 COROLLARY OF ACCEPTED PREMISES; independent review requested**.
 No earlier verifier or proof was rerun.
 
