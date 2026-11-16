@@ -215,9 +215,7 @@ evaluate at the corresponding divisors, using \(t\ne0\). Thus its
 zero set has a curve in that open. Recovering \(X=w/u\) maps it to
 an actual residual curve, with \(q=X^4(y-z)\ne0\).
 
-Independent reconstruction checked the integral diagonal calculation,
-properness, elimination and nonempty residual support. This control
-saturates the valuation bound for the first trace, but is **not** a
+This control saturates the valuation bound for the first trace, but is **not** a
 supported mixed-characteristic lift. Higher nilpotence/support equations
 are essential even at the minimum permitted ramification.
 
@@ -240,8 +238,6 @@ non-eigen degree-\((16,p)\) examples in that proof home are not covered
 by this special-eigen theorem. The field-valued rank incidence is not
 silently identified with the stronger infinitesimal condition (3).
 
-Independent reconstruction checked the integral coefficient chart,
-character argument, DVR trace descent, the distinct \(W_2\) hypotheses,
-and the ramification limitation. The powered example was checked using
-the smoothness of \(G_p\); replacing generators before taking a power
-would give a different ideal and an incorrect noncurvilinear model.
+The powered example uses the smoothness of \(G_p\); replacing generators
+before taking a power would give a different ideal and an incorrect
+noncurvilinear model.
