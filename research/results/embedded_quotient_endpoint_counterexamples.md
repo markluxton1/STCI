@@ -94,3 +94,7 @@ images; they do not exclude other moving families. The conductor of a
 nonreduced modification cannot be substituted for the normalization
 conductor of its reduction. Arithmetic reduction and fixed-field image
 formation have separate quantifiers.
+
+## Review
+
+The complete mathematical argument is retained in [the embedded-quotient proof](../arguments/torus_embedded_quotients.md); its hypotheses and limitations are stated above.
