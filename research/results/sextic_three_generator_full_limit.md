@@ -140,4 +140,3 @@ Those identity checks support the geometric reduction with necessary
 exact algebra; they do not replace its flatness or saturation argument.
 The residual-degree-32 example remains outside sole support.
 
-Independent reconstruction review accepts this route within its stated scope.
