@@ -86,16 +86,9 @@ section 3 is the exact independently checked global exclusion.
 
 ## 2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus
 
-# Conditional (2,12;6,16;2): geometric audit and an exact exceptional locus
+# Conditional (2,12;6,16;2): geometric exclusions and exceptional locus
 
-Date: 2026-10-21. Author: `incidence_audit` worker.
-
-Status: **independent review PASS for the normal-strict-sextic
-exclusion; ampleness and nodal scope extension independently
-reviewed PASS by `surface_bound`, with separate root reconstruction.**
-No record is edited. The configuration remains unresolved
-on the explicit degree-52 exceptional locus in section 6. Sections
-3--4 retain the weaker smooth-root step from which it was derived.
+The normal strict-sextic exclusion extends by ampleness and the stated nodal hypotheses. The explicit degree-52 exceptional locus in section 6 remains unresolved; sections 3–4 give only the weaker smooth-root result.
 
 ## 1. Exact scope and reviewed dependencies
 
@@ -489,15 +482,9 @@ remains open in this note.
 
 ## 2026-10-21-conditional-2-12-surface-audit-cont2
 
-# Conditional (2,12;6,16;2): cubic-model and conductor continuation audit
+# Conditional (2,12;6,16;2): cubic-model and conductor continuation
 
-Date: 2026-10-21. Reviewer: `surface_bound`.
-
-Status: **independent review PASS for the cubic-model interface and the
-ramified simple-multiplier exclusion; one incorrect normalization claim
-in the separate nodal example is explicitly rejected below**. All results
-are reviewed proposals rather than records. No actual pair or
-full emptiness result is asserted.
+The cubic-model interface and ramified simple-multiplier exclusion have the stated hypotheses. The incorrect normalization claim in the separate nodal example is rejected below. No actual pair or full emptiness theorem is established.
 
 ## 1. Scope and reviewed files
 
