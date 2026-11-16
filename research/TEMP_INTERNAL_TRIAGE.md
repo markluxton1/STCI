@@ -2,7 +2,7 @@
 
 Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: individual-file content only; no edits to mathematical documents and no cross-document comparisons.
 
-**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 223 have been individually inspected across seven batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
+**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 263 have been individually inspected across eight batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
 
 | File | Location | Finding | Proposed action | Caution | Disposition |
 | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: ind
 - **uncertain** — mathematical value or redundancy cannot yet be judged without closer inspection.
 - **unreviewed** — not yet examined; never infer clean from absence in this log.
 
-Do not execute stages 2 or 3 until the remaining 121 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
+Do not execute stages 2 or 3 until the remaining 81 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
 
 ## Batch 2 — 15 additional files inspected
 
@@ -269,3 +269,48 @@ Do not execute stages 2 or 3 until the remaining 121 files have been inspected a
 | `research/arguments/carriers/genus_two_bisection_descent.md` | Entire contact schemes under split descent | No obvious historical audit | **inspect** | Preserve split assumptions | uncertain |
 | `research/frameworks/formal-normal-geometry/open_normal_geometry.md` | Normal Koszul pages and Rees torsion | Compact framework | **clean** | Preserve open interfaces | clean |
 | `research/results/quartic_char2_fourth_equation_kernel.md` | Review | Review section in Result may be administrative | **condense** | Preserve char2 kernel statement | revision needed |
+
+## Batch 8 — 40 additional mathematical files inspected
+
+| File | Location | Finding | Proposed action | Caution | Disposition |
+| --- | --- | --- | --- | --- | --- |
+| `research/frameworks/torus-supported-boundaries/index.md` | Weight geometry and moving families | Coherent navigation; no historical audit block | **clean** | Retain index | clean |
+| `research/frameworks/carrier-normalization/cartier_indices_and_sextic_applications.md` | Characteristic range and related proofs | Compact framework | **clean** | Retain characteristic hypotheses | clean |
+| `research/investigations/quotient-hilbert-comparison/index.md` | Findings; Completion and next decisions | Investigation contains next-decision prose that may be obsolete | **inspect** | Preserve actual quotient-Hilbert findings | uncertain |
+| `research/frameworks/torus-supported-boundaries/weight_symbols_and_normal_filtrations.md` | Two filtrations and full normal cone | Compact mathematical framework | **clean** | Retain filtration distinction | clean |
+| `research/frameworks/formal-normal-geometry/generic_normal_forms_and_relation_saturation.md` | Second relation in quotient | Coherent framework | **clean** | Retain saturation conditions | clean |
+| `research/frameworks/formal-normal-geometry/from_symbols_to_equations.md` | Jet-condition budgets: precise historical model | Historical model is labeled but may supply a useful comparison | **inspect** | Preserve full-lift certificate and failed-seed distinction | uncertain |
+| `research/arguments/carriers/conductor_jacobian_local_residue_proof.md` | Global class and fixed-C0 targets | No obvious archival narrative | **inspect** | Preserve local residue proof | uncertain |
+| `research/frameworks/torus-supported-boundaries/global_postulation_and_residual_support.md` | What Hilbert function controls | Coherent framework | **clean** | Retain residual-support caveats | clean |
+| `research/frameworks/carrier-normalization/cubic_and_conic_conductor_schemes.md` | Entire cubic and conic conductor schemes | Compact framework | **clean** | Retain exact power criterion | clean |
+| `research/frameworks/formal-normal-geometry/thickening_hierarchy_and_jet_budgets.md` | Jet-condition budgets: precise historical model | Short historical comparison within otherwise compact framework | **inspect** | Preserve jet budget distinctions | uncertain |
+| `research/frameworks/carrier-normalization/quartic_carrier_six_lanes_and_genus_one.md` | Ribbon-net completeness; trace-norm certificate | Compact proof-routing framework | **clean** | Retain six-lane distinctions | clean |
+| `research/frameworks/carrier-normalization/projection_pairings_and_conductor_failures.md` | Three distinct algebras; nonreduced ramification | Compact framework | **clean** | Retain counterexamples | clean |
+| `research/arguments/carriers/genus_two_weighted_normalization.md` | Weighted Hilbert-Burch ideal | No obvious historical appendix | **inspect** | Preserve ribbon implication | uncertain |
+| `research/arguments/carriers/tame_projection_sections.md` | Independent review | Standalone review at end | **condense** | Preserve degree-growth limitation | revision needed |
+| `research/frameworks/formal-normal-geometry/socle_budgets_and_arithmetic_comparisons.md` | A bounded next experiment not another case catalogue | Research-direction instruction in framework | **condense** | Preserve socle and arithmetic comparison | revision needed |
+| `research/frameworks/torus-supported-boundaries/extreme_weights_and_hilbert_limits.md` | Opposite saturated Hilbert limits | Compact mathematical framework | **clean** | Retain cancellation caveat | clean |
+| `research/frameworks/formal-normal-geometry/mixed_degree_fitting_and_realization.md` | A finite checkable continuation | Workflow-style continuation in short framework | **inspect** | Preserve singularity interface and Fitting conditions | uncertain |
+| `research/frameworks/formal-normal-geometry/characteristic_two_and_sextic_lifts.md` | Full-lift certificate beyond failed seed | Compact mathematical framework | **clean** | Retain failed-seed qualification | clean |
+| `research/frameworks/formal-normal-geometry/normal_filtration_boundaries.md` | Historical jet discrepancy; bounded next experiment; retired computational sources | Multiple historical and next-step passages in framework | **condense** | Preserve normal filtration boundaries and computational constraints | revision needed |
+| `research/frameworks/carrier-normalization/quartic_carrier_trisecant_and_proof_routes.md` | Complete proofs | Compact proof routing | **clean** | Retain trisecant hypotheses | clean |
+| `research/frameworks/torus-supported-boundaries/torus_actions_and_endpoint_frames.md` | Endpoint transitions and determinant | Compact coherent framework | **clean** | Retain endpoint frames | clean |
+| `research/frameworks/embedded-torus-quotients/index.md` | Coverage boundaries | Navigational index | **clean** | Retain index | clean |
+| `research/results/quadratic_root_obstruction_model.md` | Proofs and independent reviews | Evidence links appear navigational rather than duplicated proofs | **clean** | Retain proof references | clean |
+| `research/arguments/carriers/pencil_principalization_limits.md` | Unproved fiber hypotheses | No obvious administrative block | **inspect** | Preserve unproved hypothesis warnings | uncertain |
+| `research/frameworks/torus-supported-boundaries/weights_and_limits.md` | Source map and scope | Coherent mathematical framework | **clean** | Retain weight and source distinctions | clean |
+| `research/results/supported_hilbert_full_limits.md` | Review | Closing review in Result may be administrative | **condense** | Preserve full-limit theorem and limitations | revision needed |
+| `research/frameworks/carrier-normalization/quartic_proof_interfaces.md` | Source evidence and editorial disposition | Editorial disposition embedded in mathematical framework | **condense** | Preserve distinct proof routes and conductor cases | revision needed |
+| `research/results/cartier_singleton_lift.md` | Evidence and verification; Current mathematical evidence | Evidence sections may overlap | **inspect** | Preserve singleton lift and exact evidence | uncertain |
+| `research/arguments/carriers/genus_and_threshold_limits.md` | Threshold and mixed multiplicity comparisons | Short mathematical argument | **clean** | Preserve threshold assumptions | clean |
+| `research/results/INDEX.md` | Evidence locations | Navigational index | **clean** | Retain index | clean |
+| `research/results/actual_ci_smooth_root_bridge.md` | Evidence; Current proof navigation | Concise Result with proof links | **clean** | Retain actual-CI hypothesis | clean |
+| `research/results/smooth_root_formal_obstruction.md` | Evidence; Current proof navigation | Concise Result | **clean** | Retain formal obstruction scope | clean |
+| `research/results/normal_koszul_comparison_defect.md` | Review | Review section may be administrative | **condense** | Preserve comparison defect | revision needed |
+| `research/results/sextic_three_generator_full_limit.md` | Review | Review section may be administrative | **condense** | Preserve full-limit statement | revision needed |
+| `research/results/projection_phase_reduction.md` | Current mathematical evidence | Concise Result | **clean** | Preserve phase hypotheses | clean |
+| `research/results/punctual_comparison_defect_family.md` | Review | Review section may be administrative | **condense** | Preserve defect family and limitations | revision needed |
+| `research/results/fixed_carrier_conductor_criterion.md` | Current mathematical evidence | Concise Result | **clean** | Preserve fixed-carrier criterion | clean |
+| `research/frameworks/global-equation-realization/index.md` | Available mathematics and bridges | Coherent navigation | **clean** | Retain index | clean |
+| `research/frameworks/formal-normal-geometry/filtration_computational_sources.md` | Retired exact computational sources | Retired source catalogue may be archival | **inspect** | Preserve CI(5,8) filtration degrees | uncertain |
+| `research/results/quartic_44_filtered_exclusion.md` | Evidence and verification | Short evidence section appears proportionate | **clean** | Preserve quartic exclusion hypotheses | clean |
