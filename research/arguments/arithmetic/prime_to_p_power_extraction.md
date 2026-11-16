@@ -228,10 +228,6 @@ are outside this prescribed-power conclusion. No coverage theorem puts
 every hypothetical characteristic-zero presentation in this family, and
 no unrestricted increasing degree bound follows from its exclusion.
 
-Two independent reconstructions checked the primary-ideal passage from generic
-order to homogeneous polynomial membership, the actual-trait nilpotence,
-generic normal-coordinate elimination, the divided-power induction, lifting
-within the integral curve ideal, and the arbitrary-ramification scope.
-The generalized correction space is a sum, not necessarily a direct sum;
-uniqueness of the corrections is not used. Pure \(p\)-powers at the
+The correction space in (2) is a sum, not necessarily a direct sum;
+uniqueness of corrections is not used. Pure \(p\)-powers at the
 remaining ramification indices and arbitrary special presentations remain open.
