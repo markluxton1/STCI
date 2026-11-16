@@ -173,26 +173,4 @@ gluing of this embedded intersection.
 
 ## Review
 
-The Phase 5 nonauthor reviewer accepted the two-chart proof for this
-prescribed pair using R-0020, R-0057 and R-0030. The reviewer checked the
-first conormal transitions, the monomial \(IJ\) calculations, both
-corrected lifts and the filtration jumps, and verified that the canonical
-map sends the fourth-order symbols to the matching kernel frames. The
-review also checked the support, length and nonlinear overlap in the two
-actual chart algebras.
-
-The [October 23 independent review](../arguments/normal-geometry/ideal_filtrations_quartic_exclusion.md#quartic-kernel-and-global-compatibility)
-checked the overlap determinant, the balanced characteristic-zero frames,
-both conormal matrices and the characteristic-zero cokernel lengths.
-For characteristic two it checked the kernel and fourth-generator
-transitions, the exact corrected lifts, the filtration jumps and the
-invertibility of the canonical comparison in degree four. The
-[source argument](../arguments/normal-geometry/ideal_filtrations_quartic_exclusion.md#7-explicit-rational-quartic-audit)
-keeps the characteristic-zero calculation separate from the conclusion here.
-
-The [October 23 Python certificate](../computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py)
-checks finite Laurent-polynomial identities over \(\mathbf Q,\mathbf Z\)
-and \(\mathbf F_2\), including the chart expansions, first-normal
-transitions, conormal matrices, exact lifts and nonlinear overlap
-formula. All 27 identity checks passed in the Phase 5 replay. Support
-exhaustion and the intrinsic comparison require the mathematical argument.
+The proof above computes both chart ideals, conormal transitions, corrected order-four lifts, the intrinsic filtration and nonlinear overlap. The comparison is canonical for the prescribed characteristic-two pair; it does not assert a lift to characteristic zero.
