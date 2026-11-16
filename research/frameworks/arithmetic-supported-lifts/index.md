@@ -30,7 +30,7 @@ traits in the [root specialization theorem](../../arguments/arithmetic/frobenius
   tests a separate fixed lower neighborhood. [Prime-to-p extraction](../../arguments/arithmetic/prime_to_p_power_extraction.md#extraction-theorem)
   and the [strong precision shift](../../arguments/arithmetic/frobenius_power_lifting_precision.md#strong-lifts-and-the-exact-unramified-precision-shift)
   provide different controls on actual traits or finite lifts.
-- [Integral equation incidence](../../arguments/arithmetic/arithmetic_root_collision.md#the-full-simultaneous-equation-incidence)
+- [Integral equation incidence](../../arguments/arithmetic/arithmetic_equations_and_jet_gaps.md#the-full-simultaneous-equation-incidence)
   and [effective degree transfer](../../arguments/arithmetic/effective_characteristic_transfer.md)
   address the separate question of varying the equation pairs. A prescribed
   lift obstruction has no coverage over those pairs.
