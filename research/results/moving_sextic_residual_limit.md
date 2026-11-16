@@ -87,15 +87,3 @@ Reduced disjoint attachment is asserted only in characteristic zero.
 These are residual intersections, not sole-supported schemes.
 Point attraction does not compute the displayed curve limit, and the
 example gives no classification of moving residual curves.
-
-## Review
-
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-accepted this route on November 4, 2026. The reviewer reconstructed smoothness of the graphs, divisor
-multiplicities, endpoint behavior, attachment qualification, and full-family
-flatness and saturation. A separate sparse-polynomial implementation over
-the integers checked the moving and special divisor factorizations.
-The argument is a geometric reduction with necessary exact identities,
-and its characteristic-zero attachment qualification remains explicit.
-Acceptance concerns this residual family, not sole-supported intersections.
-
