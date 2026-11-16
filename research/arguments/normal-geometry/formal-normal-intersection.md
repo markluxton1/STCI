@@ -54,7 +54,7 @@ For the scoped root, graded-relation and actual-CI bridge theorems R-0005–R-00
 
 A productive next round should choose one or two of these interfaces **only after** assessing leverage against the current [frontier](../../MAP.md#questions-and-active-work). Generalize beyond \(C_0\) only when doing so is cheap or clarifies a proof. Prefer a structural lemma, counterexample to a proposed implication, or a sharply isolated missing implication over computational casework. This note imposes no mandatory method or priority order.
 
-## 6. Entirely-thick source-preserved cluster and ideal-power facts
+## 6. Entirely-thick cluster and ideal-power facts
 
 The [generic cluster analysis](saturation_rees_and_carrier_cases.md#2026-10-07-entirely-thick-rees-valuation-framework) identifies the higher-contact budget for a supported pair of degrees a,b and generic normal orders p,q. At the generic point of C, the two-dimensional regular local ring has complete-intersection length ab/4. Noether's intersection formula expresses the excess ab/4-pq as the sum of the products of multiplicities over common infinitely-near points, weighted by residue degrees. This bounds the number of generic common centers for fixed a,b,p,q, but not uniformly for fixed ratios a/p and b/q. First normal forms alone do not control length: the pairs (y^2+x^N, y^2+2x^N) have constant first forms and length 2N.
 
@@ -62,7 +62,7 @@ The [relative blowup recursion](saturation_rees_and_carrier_cases.md#2026-10-07-
 
 The [local thickened-fiber countermodel](#the-local-thickened-fiber-countermodel) shows that reduced support along a repeated ruling component constrains the zeroth-order restriction of the mate and leaves its higher transverse coefficients free.
 
-These are source-preservation statements, not a new independent audit of the proofs.
+These statements summarize the cited cluster and blowup results; their hypotheses remain essential.
 
 ## 7. Entirely-thick marked roots: distinct-root bound and failure of coefficient coupling
 
