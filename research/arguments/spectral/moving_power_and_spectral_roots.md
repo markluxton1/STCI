@@ -1131,15 +1131,13 @@ cohomology class, taken modulo the image under multiplication by `f`,
 must be built from the actual `kappa` and `df`. The quotient description
 does not itself say that the class vanishes or is nonzero.
 
-### Audit conclusion
+### Scope of the spectral calculation
 
-The spectral criterion (4), the positive sign in (6), the mandatory
-nonsplitting (8), the arbitrary elliptic gap construction (9), and the
-numerical boundary (13) all pass this independent derivation. The
-criterion concerns a second relation modulo the first. It must not be
-reported as the existence of two global polynomial line subbundles or
-as an ambient STCI construction. The spectral obstruction bundle
-(14), its dual (16), and the elliptic four-dimensional target (17) also
-pass. The coordinate-free class (19), its base/direction decomposition
-(20), and the exact `12 -> 16 -> 4` quotient pass as well. No value or
-nonvanishing of the actual `C0` obstruction class has been asserted.
+The spectral criterion (4), with the positive sign in (6), mandatory
+nonsplitting (8), arbitrary elliptic gap construction (9), and numerical
+boundary (13), concerns a second relation modulo the first. It does not
+produce two global polynomial line subbundles or an ambient STCI.
+The spectral obstruction bundle (14), its dual (16), elliptic
+four-dimensional target (17), coordinate-free class (19), base/direction
+decomposition (20), and exact `12 -> 16 -> 4` quotient are calculated here.
+No value or nonvanishing of the actual `C0` obstruction class is asserted.
