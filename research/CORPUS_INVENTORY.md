@@ -37,6 +37,11 @@ The quartic-carrier proof-route review discovered six existing Arguments outside
 
 These partitions are overlapping retrieval routes. A Result may depend on several approaches.
 
+## Completed source-text proof-route classifications (not independent verification)
+
+- [Quartic-carrier proof roles](CORPUS_PROOF_ROUTES_CARRIERS.md): theorem assembly, genus-two case proofs, structural inputs, narrower alternatives, and independent geometry.
+- [Torus proof roles](CORPUS_PROOF_ROUTES_TORUS.md): three distinct typed Arguments, composite invariant-ideal exclusion, sextic eigenpair scope, constant quotient versus moving intrinsic limits.
+
 ## Per-topic inventory record (fill from complete mathematical text)
 
 For each coherent topic, record:
