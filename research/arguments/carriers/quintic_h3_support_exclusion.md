@@ -364,6 +364,3 @@ working tree. Their historical versions remain accessible through Git history.
 These distinct identities should not be conflated or upgraded in evidentiary
 status because their saved certificates were retired.
 
-## Consolidation review
-
-Independent preservation review compared the complete geometric source/audit and all literal-arithmetic bindings, retained the completed original-six-generator certificate in place of obsolete pending labels, and checked all three branches' live input/witness routes. The zero, lambda-one, homogeneous leading-drop and root-pattern scopes are unchanged. It reused accepted unchanged exact products without rerunning the large coefficient matrices. Full regular-L1/L2 bridges and opposite-ruling geometry were separately reviewed and moved to their thematic homes. No essential code/data retirement or unrestricted theorem follows.
