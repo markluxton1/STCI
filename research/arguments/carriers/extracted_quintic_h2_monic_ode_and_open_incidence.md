@@ -9,9 +9,9 @@ This dossier studies the quintic h=2 incidence scheme on the stated nonvanishing
 
 ---
 
-## 2026-10-15-generalization-quintic-h2-automatic-open-ODE-independent-audit
+<a id="2026-10-15-generalization-quintic-h2-automatic-open-ODE-independent-audit"></a>
 
-# Independent audit: automatic qhigh and the shared logarithmic ODE
+## Automatic high-coefficient open and shared logarithmic ODE
 
 Date: 2026-10-15.
 
@@ -213,9 +213,9 @@ to full inverse support, and no nonlinear conductor descent.
 
 ---
 
-## 2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence
+<a id="2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence"></a>
 
-# One denominator-free incidence for all remaining homogeneous h2 candidates
+## Denominator-free incidence for all remaining homogeneous h=2 candidates
 
 Date: 2026-10-15. Status: **GLOBAL COVER AND EXACT INPUT ASSEMBLY;
 independently audited** in the
