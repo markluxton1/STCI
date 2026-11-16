@@ -400,6 +400,13 @@ uses chosen embeddings, but its value is unchanged when those
 embeddings change: the resulting changes are roots of unity of order
 dividing `m`.
 
+The distinction between the bounded Kummer degree and unbounded split
+phase is essential: the single-field conclusion does not extend to an
+arbitrary semilocal conductor by replacing the field degree with the
+sum of branch degrees. One must compute the residual class in the
+quotient of units, including the relative phases, before applying the
+nilpotent logarithmic test.
+
 For a single field `E`, the phase factor is absent:
 
 ```
