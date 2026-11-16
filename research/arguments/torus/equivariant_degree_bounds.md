@@ -106,22 +106,6 @@ acquire a common surface component, as explained in the
 The missing global step is a valid reduction covering pairs with two
 unrestricted equations; the trace calculation does not supply it.
 
-## Independent review
-
-An independent reconstruction on October 31, 2026 accepted (1), (2), and
-the weaker factor-hypothesis bound. It checked factor support, reduction of
-the arbitrary mate in a graded domain, the finite free basis and Hilbert
-series, nilpotent trace over the fraction field, trace base change, the
-characteristic-two limitation, and the actual \((4,p)\) attainment.
-The same reviewer checked the extension (J), confirming that no weight
-hypothesis is used after the two congruences. The original proof and review
-appear in the [historical supplement](https://github.com/markluxton1/STCI/blob/acb91bc24fd7b16c2473b6fed6920ac58e13659f/research/supplements/EQUIVARIANT_DEGREE_BOUNDS.md#independent-review).
-The later independent reconstruction covers the trace and arbitrary-mate
-proof, with its exact scope recorded in [R-0042](../../results/eigenform_trace_obstruction.md#review).
-The review does not certify literature priority or any unrestricted
-lower bound. The proof is mathematical; no finite computation is used as
-a substitute for its all-degree or all-prime quantifiers.
-
 ## Extreme components of arbitrary presentations
 
 **Independently reviewed extension.** This section adapts
