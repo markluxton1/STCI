@@ -99,27 +99,3 @@ generators. Neither the ideal of two equation initials, an
 fundamental cycle is a substitute for the full limit. This result gives
 no map identifying endpoint data of a finite transverse modification
 with these opposite Hilbert limits, and no unrestricted STCI conclusion.
-
-## Review
-
-Independent reconstruction review accepted this route and its exact
-scope: scheme-theoretic closed incidence via relative generation and
-base change, both proper full limits in every characteristic, individual
-nilpotence bounds, and generic length including embedded boundary
-structure. The reviewer reconstructed the proof, compared the declared
-sources, and found no blocking mathematical correction or lost
-contribution. No mathematical computation was needed. Acceptance gives
-no uniform \(N\), classification, nonempty incidence, numerical
-generator cutoff, or quotient-comparison theorem. The reconstruction review accepts this proof within its stated scope.
-
-Separately, the source's October 31, 2026 scope review accepted the
-distinctions between support invariance and ideal invariance, full limits
-and extreme forms, embedded data, and fixed-family coverage; it did not
-certify a deformation-existence theorem. That inherited decision is
-distinct from the independent reconstruction decision above. The
-source's surrounding trace discussion is framed in characteristic zero;
-the geometric incidence, nilpotence and properness proof here uses no
-characteristic restriction. The characteristic-free statement was
-explicitly included in the reconstruction review. This acceptance
-does not cover the composite trace corollary STCI-R-0040, whose separate
-reconstruction decision is recorded in its own Result.
