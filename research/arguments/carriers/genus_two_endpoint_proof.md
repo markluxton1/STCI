@@ -270,6 +270,10 @@ The original python certificate is preserved in the linked file; its mathematica
 
 
 
+## Related conditional developments (not part of the endpoint proof)
+
+The material below concerns bisection fiber counts, the second-pencil construction, and the marked-section proximity classification. It is not a continuation of the endpoint-trisecant proof above. For the authoritative global bisection contradiction see [the ribbon proof](genus_two_bisection_proof.md); for three-center fiber analysis see [the focused obstruction](genus_two_bisection_three_center_proof.md); for marked geometry see [the marking argument](genus_two_marking_and_section_proof.md). The original conditional calculations are retained here pending topic-level consolidation; their earlier open-case labels do not override the complete [quartic-carrier exclusion](quartic_carrier_proof.md).
+
 ## Consolidated historical supplement: `research/supplements/OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md`
 
 Original mathematical content and its qualifications are retained verbatim. Relative links refer to the source's original supplement location.
