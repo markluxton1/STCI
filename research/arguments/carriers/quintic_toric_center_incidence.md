@@ -1,10 +1,8 @@
 # Toric quintic centers: full inverse support and the remaining incidence
 
-Status: **independently reviewed partial exclusion**, with
-an unfinished final parameter locus. Fix the embedded rational quartic
+The argument proves a **partial exclusion** and leaves a final parameter locus unresolved. Fix the embedded rational quartic
 `C0=[u^4:u^3v:uv^3:v^4]` over an algebraically closed field of characteristic
-zero. This closes out the calculation already in progress; it does not
-exclude every toric quintic normalization or settle unrestricted STCI.
+zero. It does not exclude every toric quintic normalization or settle unrestricted STCI.
 
 ## 1. Geometric object and scope
 
