@@ -59,7 +59,15 @@ the new order-four relation in the [normal initial ideal](../../results/quartic_
 appears only after reduction. This is also a control for
 [formal normal geometry](../formal-normal-geometry/index.md). The lower-root
 specialization defect, the spectral Picard class, and the Weil class of a
-normalized carrier belong to different objects. A bridge would have to produce
+normalized carrier belong to different objects. In particular, the
+finite-flat four-section on the ruled resolution does not identify its
+projective scheme image after endpoint base change: the graph-section
+contact divisor is \(3p_0+p_\infty\), while distinct characteristic-zero
+projective quartic components of the prescribed \(\mu_4\) family have
+intersection length three at **each** endpoint. The special fiber's
+fourfold Cartier structure and the total-space normalization must likewise
+not be replaced by the normalization of its reduced special fiber
+([arithmetic four-section proof](../../arguments/arithmetic/arithmetic_four_section_family.md)). A bridge would have to produce
 an actual comparison map with its specialization hypotheses.
 
 The shared [positive-characteristic references](../../literature/README.md#positive-characteristic)
