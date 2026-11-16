@@ -1,7 +1,5 @@
 # finite root families and smooth obstructions
 
-Permanent complete mathematical dossier with hypotheses, proofs, characteristic scope, exceptional cases and limitations preserved.
-
 ---
 
 <a id="2026-10-15-generalization-intrinsic-finite-root-family"></a>
@@ -427,7 +425,7 @@ The universal STCI problem and unrestricted `C0` remain open.
 
 ## Independent audit: intrinsic finite root families and nonsplit ruled numerics
 
-Independent review accepted the relative finite-family construction, bounded Hilbert family, splitting-free intersection identities, and **conditional** finite empty-stage consequence in [the intrinsic root-family proof](#2026-10-15-generalization-intrinsic-finite-root-family). The embedded-Cartier functor, Noetherian stabilization, intrinsic nef formal-branch argument, and plane-multiplicity theorem were premises; their proofs and computational certificates were not rerun.
+The [intrinsic root-family proof](#2026-10-15-generalization-intrinsic-finite-root-family) uses the embedded-Cartier functor, Noetherian stabilization, intrinsic nef formal-branch argument, and plane-multiplicity theorem as inputs. Its finite empty-stage conclusion is conditional.
 
 ### 1. Relative negativity really yields a vector bundle over a nonreduced base
 
