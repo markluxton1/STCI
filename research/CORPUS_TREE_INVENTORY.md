@@ -210,7 +210,7 @@ The **status** field distinguishes source-inspected files from files known only 
 | [research/arguments/residuals/generic_contact_depth.md](../research/arguments/residuals/generic_contact_depth.md) | 9180 | md | Argument | Reviewed: retain coherent Argument | Retain scoped proof, construction or counterexample with existing sections; no justified structural edit
 | [research/arguments/residuals/horizontal_blowup_recursions.md](../research/arguments/residuals/horizontal_blowup_recursions.md) | 10911 | md | Argument | Reviewed: retain coherent Argument | Retain scoped proof, construction or counterexample with existing sections; no justified structural edit
 | [research/arguments/residuals/marked_deformation_and_absorption.md](../research/arguments/residuals/marked_deformation_and_absorption.md) | 63783 | md | Argument | Reviewed: retain coherent Argument | Retain scoped proof, construction or counterexample with existing sections; no justified structural edit
-| [research/arguments/residuals/multiplicity_mixed46_and_mf6.md](../research/arguments/residuals/multiplicity_mixed46_and_mf6.md) | 61180 | md | Argument | Applied: exact duplicate removed | Deleted redundant path at commit 6067d20; historical snapshot entry retained for reproducibility
+| `research/arguments/residuals/multiplicity_mixed46_and_mf6.md` | 61180 | md | Argument | Applied: exact duplicate removed | Deleted redundant path at commit 6067d20; historical snapshot entry retained for reproducibility
 | [research/arguments/residuals/quadric_modification_and_global_corrections.md](../research/arguments/residuals/quadric_modification_and_global_corrections.md) | 12989 | md | Argument | Reviewed: retain coherent Argument | Retain scoped proof, construction or counterexample with existing sections; no justified structural edit
 | [research/arguments/residuals/quasiprimitive_multiplicity_five.md](../research/arguments/residuals/quasiprimitive_multiplicity_five.md) | 27838 | md | Argument | Reviewed: retain coherent Argument | Retain scoped proof, construction or counterexample with existing sections; no justified structural edit
 | [research/arguments/residuals/quasiprimitive_residual_cycles.md](../research/arguments/residuals/quasiprimitive_residual_cycles.md) | 18252 | md | Argument | Reviewed: retain coherent Argument | Retain scoped proof, construction or counterexample with existing sections; no justified structural edit
@@ -545,8 +545,8 @@ The **status** field distinguishes source-inspected files from files known only 
 | [tests/test_markdown_links.py](../tests/test_markdown_links.py) | 3586 | py | Repository infrastructure | Metadata inventoried | No structural change proposed; revisit only for verified dependency |
 | [tests/test_research_routes.py](../tests/test_research_routes.py) | 3512 | py | Repository infrastructure | Metadata inventoried | No structural change proposed; revisit only for verified dependency |
 | [tests/test_research.py](../tests/test_research.py) | 52621 | py | Repository infrastructure | Metadata inventoried | No structural change proposed; revisit only for verified dependency |
-| [tmp/current_math_review_manifest.csv](../tmp/current_math_review_manifest.csv) | 136606 | csv | Repository infrastructure | Metadata inventoried | No structural change proposed; revisit only for verified dependency |
-| [tmp/math_reconciliation_manifest.json](../tmp/math_reconciliation_manifest.json) | 437260 | json | Repository infrastructure | Metadata inventoried | No structural change proposed; revisit only for verified dependency |
+| `tmp/current_math_review_manifest.csv` | 136606 | csv | Repository infrastructure | Metadata inventoried | No structural change proposed; revisit only for verified dependency |
+| `tmp/math_reconciliation_manifest.json` | 437260 | json | Repository infrastructure | Metadata inventoried | No structural change proposed; revisit only for verified dependency |
 
 ## Interpretation
 
