@@ -402,8 +402,8 @@ Its pure hull is \((x,z^4)\), while the second component
 is an embedded point at \([v:x:y:z]=[1:0:0:0]\)
 of length two. As a graded \(k[v,y]\)-module,
 \[
- S/K\cong\bigoplus_{i=0}^3 k[v,y](-i)
- \ \oplus\ k[v](-1)\ \oplus\ k[v](-2).
+ S/K\cong\bigoplus_{i=0}^3 \bigl(k[v,y]\bigr)(-i)
+ \ \oplus\ \bigl(k[v]\bigr)(-1)\ \oplus\ \bigl(k[v]\bigr)(-2).
 \]
 Consequently the pure hull has Hilbert polynomial \(4n-2\),
 but the full limit has the original CI polynomial \(4n\).
