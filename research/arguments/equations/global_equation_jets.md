@@ -1270,7 +1270,7 @@ seek uniform bounds on this concentration or classify more residual
 configurations. Neither response is yet an existence or non-existence
 proof for arbitrary pairs.
 
-## Exact support and review boundary
+## Exact scope of the source-image tests
 
 The flag-sequence argument proves the uniform symbol formulas. The [finite Macaulay2 check](../../computations/stci_search_freedom_2026_10_28.m2) covers \(1\le m\le6\), \(0\le d\le3m+2\); it is not the uniform proof. The fixed-cubic residual-cycle floor is separate. These source-image results can locate degrees admitting higher restriction movement or obstruct movement for a specified source, but formal row operations over \(k(C)\) do **not** imply that homogeneous triangular operations cross the fixed-factor threshold.
 
