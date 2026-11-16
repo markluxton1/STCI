@@ -44,7 +44,7 @@ The complete mathematical sections are now grouped by their realization mechanis
 
 ### Initial generators versus the actual equation module
 
-[Continue in focused development](actual_equation_module_and_ci_bridge.md#initial-generators-versus-the-actual-equation-module)
+[Continue in focused development](actual_equation_module_and_ci_bridge.md#34-why-the-picard-criterion-is-not-enough)
 
 ## 3.5 The actual complete-intersection bridge
 
@@ -118,11 +118,11 @@ The complete mathematical sections are now grouped by their realization mechanis
 
 [Complete development](embedded_one_step_lifts_and_arithmetic_boundaries.md#312-boundary-repair-versus-embedded-lifting)
 
-## 3.11 Characteristic is part of the mechanism
+## 3.13 Characteristic is part of the mechanism
 
-[Complete development](embedded_one_step_lifts_and_arithmetic_boundaries.md#311-characteristic-is-part-of-the-mechanism)
+[Complete development](embedded_one_step_lifts_and_arithmetic_boundaries.md#313-characteristic-is-part-of-the-mechanism)
 
-## 3.12 Why finite determinacy is a uniqueness theorem
+## 3.14 Why finite determinacy is a uniqueness theorem
 
-[Complete development](embedded_one_step_lifts_and_arithmetic_boundaries.md#312-why-finite-determinacy-is-a-uniqueness-theorem)
+[Complete development](embedded_one_step_lifts_and_arithmetic_boundaries.md#314-why-finite-determinacy-is-a-uniqueness-theorem)
 
