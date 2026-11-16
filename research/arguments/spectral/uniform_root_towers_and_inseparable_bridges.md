@@ -1,7 +1,5 @@
 # uniform root towers and inseparable bridges
 
-Permanent mathematical dossier preserving complete arguments, assumptions, characteristic boundaries, counterexamples and unresolved claims.
-
 ---
 
 <a id="2026-10-15-generalization-uniform-root-tower-finite-determinacy"></a>
