@@ -1,4 +1,4 @@
-# Sextic pairs: nonreduced defects and the normal index-nine case
+# Sextic pairs: curvilinear profiles, nonreduced defects, and index-nine geometry
 
 For fixed \(C_0=[s^4:s^3t:st^3:t^4]\), in characteristic zero or \(p\ge7\), consider any proper sextic pair \(V(F_6,G_6)\) with reduced support \(C_0\), **without** assuming integral/normal equations or prescribed initial symbols. The reductions below apply to every such pair but do not exclude them all. In characteristic zero, the separate [ADE carrier reduction](sextic_ade_reduction.md#sextic-pairs-with-an-ade-pencil-carrier) gives \(L=\mathcal O(-6)\), \(D_2=0\) for a general pencil carrier with only rational double points. The non-ADE case and remaining primitive-triple case are open.
 
