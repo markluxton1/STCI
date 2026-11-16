@@ -1,10 +1,6 @@
 # Multiplicity-six models and nonnormal structures
 
-Original mathematical content, hypotheses, qualifications, and proof status preserved verbatim. Relative links retain their historical source context.
-
 # Primitive and defective triple carriers
-
-This compilation retains the mathematical hypotheses, failed arguments, qualifications, and unresolved cases. It supplies no new independent audit.
 
 ---
 
