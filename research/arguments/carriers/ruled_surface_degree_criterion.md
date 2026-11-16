@@ -286,7 +286,7 @@ new degree or characteristic.
 
 The degree-ten application assumes an **actual rational lift** and the stated resolution numerics. None of this extends quartic-carrier characteristic exclusions or proves carrier existence/STCI.
 
-## Consolidated historical source: `research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md`
+## Cubic scroll and ruled-surface geometry
 
 # Paired-secant cubic: normalization, conductor and Gauss dual
 
