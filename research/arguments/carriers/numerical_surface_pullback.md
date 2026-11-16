@@ -147,17 +147,6 @@ for an everywhere compatible primitive triple. A reduction from arbitrary
 entirely thick pairs to movement-two root lifts needs its own theorem; none
 follows from these numerical identities.
 
-## Review status
-
-The defect proof for integral surfaces generically regular along the curve,
-the conormal identification and matrix sign,
-and the explicit smooth-branch index-two counterexample were independently
-reconstructed and accepted in this consolidation (GPT-6.1 Sol, high effort).
-The example recovers useful mathematics from a retracted unrestricted proof;
-no unrestricted nonexistence claim is retained. Applications that used a
-conditional numerical antecedent remain conditional until that antecedent is
-established for the actual carrier.
-
 ## Conditional split-sextic application
 
 Use the hypotheses and notation of
