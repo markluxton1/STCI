@@ -370,6 +370,67 @@ intrinsic \(I_C\)-adic comparison defect R-0030; the two
 filtrations must not be identified without a compatible
 double-Rees comparison.
 
+## A four-generator full limit with an embedded point
+
+A useful control, distinct from the existing **ACM** sextic
+three-generator residual example, uses the same weights
+\((0,1,3,4)\) and the renaming
+\(v=x_0,\ x=x_1,\ z=x_2,\ y=x_3\).
+The proper \((2,2)\) intersection
+\[
+ J=(x^2,xy+z^2)
+\]
+has radical \((x,z)\), the invariant line \(L\). Its normalized
+minimum-weight family begins with \((x^2,xy+t z^2)\).
+Saturation with respect to \(t\) gives
+\[
+ \mathcal K=(x^2,xy+t z^2,xz^2,z^4),\qquad
+ K=\mathcal K|_{t=0}=(x^2,xy,xz^2,z^4).
+\]
+The identities
+\(yx^2-x(xy+t z^2)=-t xz^2\) and
+\(z^2(xy+t z^2)-y(xz^2)=t z^4\)
+produce the extra generators. A monic Gröbner-basis
+calculation over \(k[t]\) verifies that this is the entire
+\(t\)-saturated family, in any characteristic.
+
+The special ideal is saturated but not Cohen--Macaulay:
+\[
+ K=(x,z^4)\cap(x^2,y,z^2).
+\]
+Its pure hull is \((x,z^4)\), while the second component
+is an embedded point at \([v:x:y:z]=[1:0:0:0]\)
+of length two. As a graded \(k[v,y]\)-module,
+\[
+ S/K\cong\bigoplus_{i=0}^3 k[v,y](-i)
+ \ \oplus\ k[v](-1)\ \oplus\ k[v](-2).
+\]
+Consequently the pure hull has Hilbert polynomial \(4n-2\),
+but the full limit has the original CI polynomial \(4n\).
+Its minimal graded free resolution has shifts
+\[
+ F_1=S(-2)^2\oplus S(-3)\oplus S(-4),\quad
+ F_2=S(-3)\oplus S(-4)^2\oplus S(-5),\quad
+ F_3=S(-5).
+\]
+Thus the Betti totals change from \((1,2,1)\) to
+\((1,4,4,1)\), with consecutive cancellations restoring
+the generic Koszul table. The opposite full limit is
+\((x^2,z^2)\), so the two directions have different
+embedded and generator behavior.
+
+This example is sole-supported **on a line**, not on our
+quartic. It demonstrates that the full Hilbert polynomial
+can require punctual embedded structure and that the
+least degree product of a proper homogeneous pair inside
+the limit can increase: from \(4\) in \(J\) to \(8\) in \(K\),
+attained by \((x^2,z^4)\). In particular it invalidates
+any unconditional degree-product descent through torus
+limits. It does **not** contradict weak set-theoretic
+descent: \((x^2,z^4)\subset K\) still has radical \((x,z)\).
+It also does not replace the supported-quartic
+generator-incidence test.
+
 ## What the boundary retains and what remains open
 
 All assertions about full limits above concern the embedded Hilbert
