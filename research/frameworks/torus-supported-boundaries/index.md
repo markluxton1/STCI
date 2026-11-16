@@ -168,6 +168,20 @@ intrinsic \(I_C\)-adic comparison defect in
 Keep these two filtrations separate when connecting torus
 limits to normal Rees data.
 
+## Embedded-point control for full limits
+
+The [four-generator line control](../../arguments/torus_hilbert_boundary.md#a-four-generator-full-limit-with-an-embedded-point)
+shows that even a sole-supported proper complete intersection
+can degenerate to a saturated, non-ACM full ideal with an
+embedded point. The pure hull has a different Hilbert polynomial,
+and the least degree product of a proper pair **inside the limit**
+can rise. This complements the existing ACM sextic
+three-generator example, which instead retains residual curves.
+Neither control is a sole-supported quartic example or an
+obstruction to all moving supported pairs. Together they rule
+out replacing full-limit incidence by a pure-hull, cycle-only,
+or monotone degree-product argument.
+
 ## Coverage boundaries
 
 Failure of eigenform equations does not exclude other moving equations or
