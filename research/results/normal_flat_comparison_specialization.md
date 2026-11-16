@@ -79,22 +79,3 @@ open here. See also the
 [broader sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 No identification of the full filtered
 scheme from its cone or defect and no global quartic realization follows.
-
-## Review
-
-The Phase 5 nonauthor reviewer `review_specialization` accepted the
-two-cone route with R-0030 and R-0062 as joint premises. The reviewer
-reconstructed the strict sequence for \(D\subset R/IJ\), the maps from the
-two relative initial ideals to the full slice ideals, and exactness of the
-specialized comparison under flatness of \(G\). They checked strict
-reduction of the equation filtration, localization and completion at the
-generic marked point, the two-lowest-degrees lemma, and the saturation
-and support conclusions. The reviewer separately reconstructed the
-supported length-four control in arbitrary characteristic. The decision
-applies to the chosen transverse slice in the formal two-equation setting.
-
-The October 24 source records independent reconstruction of its local
-specialization development. It uses the earlier local equation comparison
-and the inherited supported quadruple calculation.
-[Specialization source](../arguments/normal-geometry/rees_equation_persistence.md#delta-transverse-specialization-and-normal-flatness) ·
-[Supported quadruple](supported_quadruple_equation_filtration.md)
