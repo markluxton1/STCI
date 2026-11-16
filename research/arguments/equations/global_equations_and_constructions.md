@@ -1,6 +1,6 @@
 # Global equations, pencils, and constructive mechanisms
 
-Fix C0=[s^4:s^3t:st^3:t^4] in projective three-space over an algebraically closed field. Characteristic zero is the unrestricted research question; characteristic-free assertions are identified below. This chapter consolidates mathematical proofs rather than chronological priorities. The replacement proofs and their characteristic boundaries received independent preservation and mathematical review on 2026-10-31; claims retain the review scopes stated here. The elementary P-labels identify inherited proofs; each claim is used with its stated hypotheses and linked proof.
+Fix C0=[s^4:s^3t:st^3:t^4] in projective three-space over an algebraically closed field. Characteristic zero is the unrestricted research question; characteristic-free assertions are identified below. This chapter consolidates mathematical proofs rather than chronological priorities. The elementary P-labels identify source proofs; each claim is used with its stated hypotheses and linked argument.
 
 The common global requirement is an **actual supported pair**. Local regular embeddings, normalized sections, first normal symbols, affine equations, a bundle section, a cycle identity, or a numerical class can each retain only part of that requirement. The useful comparison is the precise implication each supports, including mechanisms that could construct equations.
 
