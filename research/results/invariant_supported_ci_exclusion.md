@@ -77,12 +77,4 @@ existence. In characteristic two it gives no parity conclusion for the
 generic multiplicity along \(C\); the factor-only variant of the trace
 theorem is not being used.
 
-## Review
-
-Independent reconstruction review accepted this composite route, separately
-from the earlier direct Hilbert proofs. It checked preservation of the ordinary
-degrees under character lifting, generation of the same height-two ideal,
-actual sole support, and the precise characteristic conclusion of R-0042.
-No computation was needed. The decision supplies no reduction from radical
-invariance or an arbitrary pair to an invariant ideal. The source retains its
-own review scope; the reconstructed acceptance covers only the stated composite route.
+The exclusion requires an invariant ideal; radical invariance or arbitrary-pair support invariance is insufficient.
