@@ -2,7 +2,7 @@
 
 # quadratic root and blowup incidence
 
-The proof units below retain their exact hypotheses, counterexamples and unresolved interfaces. They distinguish abstract graded data, embedded lifts and actual equations.
+The arguments distinguish abstract graded data, embedded lifts, and actual equations. The implications between these levels require the stated hypotheses.
 
 - [The second ambient obstruction is nonzero on the smooth torsion-two seed](#2026-10-14-generalization-quadratic-root-second-obstruction)
 - [Independent review of the actual second obstruction at the smooth seed](#2026-10-14-generalization-quadratic-root-second-obstruction-independent-audit)
