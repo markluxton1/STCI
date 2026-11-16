@@ -746,7 +746,7 @@ The polynomial Q,G,A,B identities and support proof of the twisted-cubic benchma
 
 ## Scope and proof dependencies
 
-Independent consolidation review checked the corrected-square polynomial identities and support, the non-Cartier cone-class interpretation, finite semi-invariant orbit-polynomial argument without a Reynolds assumption, the nodal pinching contradiction and all displayed characteristic boundaries. The twisted cubic remains a different curve, and no quartic construction or global pinching realization is inferred.
+The corrected-square identities concern a twisted cubic, not the fixed quartic. The cone-class argument uses a non-Cartier divisor, and the finite semi-invariant orbit-polynomial argument does not require a Reynolds operator. Nodal pinching retains its conductor and characteristic hypotheses. None of these constructions establishes a global quartic pinching realization.
 
 ## Cuspidal cubic cone: normalization succeeds, conductor fails
 
