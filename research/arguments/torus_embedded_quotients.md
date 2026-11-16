@@ -13,7 +13,7 @@ conclusion: "#conclusion"
 Fix an algebraically closed field \(k\), the quartic
 \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), and coordinate weights
 \((0,1,3,4)\). Except where expressly restricted, the field has arbitrary
-characteristic. The data are a finite positive-length **embedded** quotient
+characteristic. The datum is a finite positive-length **embedded** quotient
 
 \[
 B=k[u^{\pm1},v^{\pm1}]/J,\qquad n=\dim_k B,
@@ -549,10 +549,6 @@ The [moving-quotient investigation](../investigations/quotient-hilbert-compariso
 points to the separate proof of the entire finite modification of a proper
 sole-support pair and states its strict-movement hypotheses. The comparison
 between geometric endpoint data and opposite full Hilbert limits remains open.
-
-## Review
-
-The [source exposition](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/toric_quotients_and_endpoint_descent.md#orbit-closure-families-endpoint-gluing-and-projective-equations) and independent reconstruction checked finite image formation and saturation, Cohen–Macaulay purity, endpoint sequences/Hilbert polynomial, pure-curve degree exhaustion, finite-support kernels, actual equation-space gcd-one criterion, benchmark conductors, type-two endpoints, and relative-flat collision/base-change arguments, including semisimple and nilpotent fibers. Exact checks include determinants \(1505/7962624\) and \(36\), truncated nilpotent identities, and characteristic-two/three reductions. The constant-quotient and binomial Smith-normal-form material was preserved. The **moving-modification positivity theorem**, legacy R-0021, global STCI, and opposite-limit comparison were outside this review.
 
 ## Finite replay evidence {#finite-replay-evidence}
 
