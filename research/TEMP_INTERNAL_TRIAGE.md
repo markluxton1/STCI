@@ -2,7 +2,7 @@
 
 Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: individual-file content only; no edits to mathematical documents and no cross-document comparisons.
 
-**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 183 have been individually inspected across six batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
+**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 223 have been individually inspected across seven batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
 
 | File | Location | Finding | Proposed action | Caution | Disposition |
 | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: ind
 - **uncertain** — mathematical value or redundancy cannot yet be judged without closer inspection.
 - **unreviewed** — not yet examined; never infer clean from absence in this log.
 
-Do not execute stages 2 or 3 until the remaining 161 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
+Do not execute stages 2 or 3 until the remaining 121 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
 
 ## Batch 2 — 15 additional files inspected
 
@@ -224,3 +224,48 @@ Do not execute stages 2 or 3 until the remaining 161 files have been inspected a
 | `research/arguments/carriers/actual_pair_top_socle_and_colength.md` | Exact colength in thickening on carrier normalization | Many code blocks but no clearly removable historical section | **inspect** | Preserve top socle and colength identities | uncertain |
 | `research/arguments/residuals/finite_normal_jets.md` | Candidate A: nonsaturated first-relation defect | Exploratory candidate included after scope section | **inspect** | Preserve actual integral-curve certificate and distinguish conjectural candidate | uncertain |
 | `research/arguments/arithmetic/effective_characteristic_transfer.md` | Scope of conclusions | No obvious audit narrative | **inspect** | Preserve unconditional characteristic bounds | uncertain |
+
+## Batch 7 — 40 additional mathematical files inspected
+
+| File | Location | Finding | Proposed action | Caution | Disposition |
+| --- | --- | --- | --- | --- | --- |
+| `research/arguments/carriers/sextic_ade_reduction.md` | Exact certificate: audit_sextic_triple_spaces | Certificate link appears brief rather than an embedded dump | **inspect** | Preserve ADE arithmetic census | uncertain |
+| `research/arguments/carriers/genus_two_endpoint_proof.md` | Two exact certificate links | Links are compact; no clear expendable audit block | **inspect** | Preserve line-position proof | uncertain |
+| `research/arguments/carriers/extracted_quintic_h2_incidence_and_localcoh_frontier.md` | Archived exact certificate: nonendpoint H2 classification | Embedded computation source follows mathematical scope | **condense** | Preserve H2 incidence and local-cohomology frontier | revision needed |
+| `research/arguments/residuals/extracted_multiplicity_six_quartic_contact.md` | Additional exact boundary evidence and discarded work | Discarded-work section may contain obsolete investigation | **inspect** | Preserve multiplicity-six contact constraints | uncertain |
+| `research/arguments/carriers/carrier_conductor_differential_comparison.md` | Characteristic applications and review | Review framing may be unnecessary | **inspect** | Preserve conductor differential comparison | uncertain |
+| `research/arguments/carriers/normalization_section_and_module_descent.md` | Consolidation review | Administrative consolidation status | **remove** | Preserve normalization module descent | revision needed |
+| `research/arguments/residuals/fixed_boundary_smoothing.md` | Geometric picture suggested by calculation | No obvious historical audit | **inspect** | Preserve global homogeneous quartic condition | uncertain |
+| `research/arguments/carriers/quartic_projection_center_moduli.md` | Special orbit not singular projected curve | No obvious administrative block | **inspect** | Preserve moduli distinction | uncertain |
+| `research/arguments/curve/fixed_quartic_geometry.md` | Dual invariants and scheme-theoretic intersection | Compact mathematical note | **clean** | Preserve geometry and characteristic distinction | clean |
+| `research/arguments/carriers/quintic_endpoint_jets_and_power_descent.md` | Audit verdict and continuation; Supporting exact record and source snapshots | Audit and snapshot history after core argument | **condense** | Preserve endpoint jets and full-conductor descent | revision needed |
+| `research/arguments/arithmetic/mixed_characteristic_trace_obstruction.md` | Remaining characteristic-zero question | No obvious audit block | **inspect** | Preserve ramified trace counterexample | uncertain |
+| `research/arguments/carriers/mixed_degree_normal_forms_and_poles.md` | Finite pole-divisor strata | No obvious historical block | **inspect** | Preserve mixed-degree pole strata | uncertain |
+| `research/arguments/torus/polarization_roots_and_section_defects.md` | Where residual bound would need more | Scope seems substantive | **inspect** | Preserve polarization roots and defects | uncertain |
+| `research/arguments/carriers/endpoint_four_actual_sextics.md` | Reproduction and review record | Reproduction record is candidate for condensation | **condense** | Preserve degree-sixteen residual bound | revision needed |
+| `research/frameworks/residual-construction/residual_geometry.md` | Exact remaining interfaces | Coherent framework with no obvious historical material | **clean** | Preserve interfaces | clean |
+| `research/arguments/carriers/genus_two_bisection_three_center_proof.md` | Local counterexample to reduced-node shortcut | Counterexample is mathematically necessary | **inspect** | Preserve nonreduced fiber | uncertain |
+| `research/frameworks/formal-normal-geometry/embedded_one_step_lifts_and_arithmetic_boundaries.md` | Finite determinacy uniqueness theorem | Compact coherent framework | **clean** | Preserve characteristic and finite determinacy conditions | clean |
+| `research/arguments/residuals/horizontal_blowup_recursions.md` | Review and unresolved scope | Review commentary could be condensed | **inspect** | Preserve tangent-data limitation | uncertain |
+| `research/arguments/carriers/numerical_surface_pullback.md` | Review status | Review-status section candidate for shortening | **condense** | Preserve conditional split-sextic application | revision needed |
+| `research/frameworks/formal-normal-geometry/index.md` | From normal symbols to global equations | Index appears navigational and coherent | **clean** | Preserve navigation | clean |
+| `research/arguments/equations/chow_bundle_maps.md` | Consolidated historical source: CHOW_PENCIL_MULTIPLICITY_TESTS; Consolidation review | Historical import and consolidation review | **condense** | Preserve valuation contradiction and Chow bundle maps | revision needed |
+| `research/arguments/spectral/spectral_determinant_schemes.md` | Review and remaining questions | Review commentary may be condensed | **inspect** | Preserve torsion-scheme CI family | uncertain |
+| `research/frameworks/carrier-normalization/degree_exclusions.md` | Missing higher-degree implication | Compact framework, limitation substantive | **clean** | Preserve degree exclusions | clean |
+| `research/frameworks/torus-supported-boundaries/sextic_filtration_and_source_comparisons.md` | Source map and scope | Compact framework with source map useful | **clean** | Preserve sextic filtration and comparison | clean |
+| `research/results/restricted_normal_diagram_counterexample.md` | Review | Closing review in Result may be administrative | **condense** | Preserve counterexample and limitations | revision needed |
+| `research/frameworks/carrier-normalization/index.md` | Quartic-carrier proof interfaces | Coherent navigational framework | **clean** | Preserve index | clean |
+| `research/frameworks/torus-supported-boundaries/generic_algebras_and_endpoint_contact.md` | Higher jets of seven branches | Mathematical development without obvious audit | **clean** | Preserve endpoint frames | clean |
+| `research/frameworks/residual-construction/two_surfaces.md` | Actual sources finite jets and formal visibility | Compact coherent framework | **clean** | Preserve three operations and attachment quantities | clean |
+| `research/arguments/arithmetic/prime_to_p_power_extraction.md` | Global induction on coefficients | No obvious administrative material | **inspect** | Preserve prime-to-p extraction | uncertain |
+| `research/arguments/spectral/actual_sextic_mate_certificates.md` | Computational meaning and limitations | Limitations appear substantive | **inspect** | Preserve actual sextic mate certificates | uncertain |
+| `research/results/ci_fixed_sextic_jet_rigidity.md` | Exact evidence and independent verification; Review state | Independent verification and review-state material in Result | **condense** | Preserve jet rigidity and evidence hypotheses | revision needed |
+| `research/frameworks/formal-normal-geometry/normal_neighborhoods_and_boundary_repairs.md` | Endpoint divisors repair extension classes | Compact coherent framework | **clean** | Preserve normal neighborhood mechanism | clean |
+| `research/arguments/residuals/generic_contact_depth.md` | Global path data and literature scope | Literature scope substantive | **inspect** | Preserve contact depth | uncertain |
+| `research/frameworks/carrier-normalization/fixed_carrier_and_cartier_projection.md` | Fixed-degree affine control | Compact coherent framework | **clean** | Preserve projection controls | clean |
+| `research/arguments/carriers/genus_one_211_projection_proof.md` | Evidence and continuation scope | Continuation text may be historical | **condense** | Preserve additional zero from center condition | revision needed |
+| `research/frameworks/carrier-normalization/quartic_carrier_genus_two_conductor.md` | Marked constraints and horizontal prime | Compact coherent framework | **clean** | Preserve conductor cases | clean |
+| `research/arguments/torus/cox_fiber_and_power_defects.md` | Literature consequences and stopping boundary | Boundary appears substantive | **inspect** | Preserve uniform section defect | uncertain |
+| `research/arguments/carriers/genus_two_bisection_descent.md` | Entire contact schemes under split descent | No obvious historical audit | **inspect** | Preserve split assumptions | uncertain |
+| `research/frameworks/formal-normal-geometry/open_normal_geometry.md` | Normal Koszul pages and Rees torsion | Compact framework | **clean** | Preserve open interfaces | clean |
+| `research/results/quartic_char2_fourth_equation_kernel.md` | Review | Review section in Result may be administrative | **condense** | Preserve char2 kernel statement | revision needed |
