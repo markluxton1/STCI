@@ -194,15 +194,9 @@ curves on the unique toric models after such a parameter change.
 The repeated-root locus of L_c and its global descent conditions remain
 the precise continuation target at this note's scope.
 
-## 6. Reproducible evidence
+## 6. Exact projection certificate
 
-The independent checker
-[verify_session_genus_one_projection_2026_10_09.py](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_one_projection_2026_10_09.py)
-verifies the six literal RNC quadrics, both normalized equations, every
-normal-gradient entry, the completed-square identities, the local
-countershield identities, and all A3+2A1 family identities.
-These calculations check the representations of the preceding proofs;
-they do not classify every repeated-root projection parameter.
+The [projection checker](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_one_projection_2026_10_09.py) verifies the RNC quadrics, normalized equations, gradients, completed squares, local counterexample, and \(A_3+2A_1\) family. These identities do not classify every repeated-root projection parameter.
 
 ## 7. Exact conductor coordinates and fixed-curve fiber condition
 
