@@ -790,9 +790,8 @@ curve forbids irregularity. It is supplied as an optional simplification;
 the audited owner proof already establishes the necessary vanishing by
 the standard surface-classification route.
 
-### 6. Evidence and review boundaries
+### 6. Scope
 
-The written reconstruction covers ampleness, reducible-fiber signs, \(n=1,2\), finite-map degree, normality/isomorphism, Picard divisibilities, and the full fixed-\(C_0\) list. No symbolic execution or inherited verifier replay was performed; the primary-source check addressed the minimal-degree interface. The argument above supplies the proof, not parallel agreement. The result is a finite normalization-type classification **within its stated rational-support lane**, not a universal STCI theorem.
+The classification concerns the stated rational-support normalization types, not arbitrary STCI pairs.
 
 ---
-
