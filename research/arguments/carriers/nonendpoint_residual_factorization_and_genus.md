@@ -309,7 +309,7 @@ singular affine branch. Summing its lengths proves exactly
 
 The lengths are nonnegative. No claim restricts their size via the
 number of first-normal roots, the geometric genus, or the length-two
-curve-model quotient. The factor hyperplanes are outside this equality.
+curve-model quotient. The factor hyperplanes are outside this equality. In particular, the eight-excess identity is a necessary equality under full reduced inverse support, not an upper bound or a sufficiency criterion for any of the eight parameter branches.
 
 
 <a id="3-nonendpoint-pole-filtration-and-line-jet-independent-audit"></a>
