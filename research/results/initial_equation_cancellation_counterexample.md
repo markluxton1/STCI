@@ -53,6 +53,4 @@ adjoining \(t\) has positive generic rank, so it leaves the generically
 defect-free punctual question open. It gives no homogeneous global pair
 for the fixed projective quartic.
 
-## Review
-
-The full length-five algebra and filtered Koszul cancellation are proved in [the filtered-equation Argument](../arguments/filtered_equation_comparison.md). The example has nonzero generic defect and is not a punctual-only construction.
+The example has nonzero generic defect and is not a punctual-only construction.
