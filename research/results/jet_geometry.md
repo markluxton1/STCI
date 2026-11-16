@@ -15,6 +15,6 @@ for higher-degree carriers and residual intersections.
 
 The older side-thread statement that \((4,7),e=2\) remained open is superseded by the quartic factorization result.
 
-## Scope reconciliation (October 2026 consolidation)
+## Scope
 
-This result describes the e=2 quartic-order-one comparison: the degree-three divisor R and its doubled-jet evaluation. The general successive-map rank-defect definitions, and the e=0,1 comparisons, are consolidated in [order-one structure](order_one.md). The earlier open-status language is superseded by [R-0001](quartic_carrier_exclusion.md); it is not a current quartic-mate frontier. The current proof and its exact computational dependencies are linked above.
+This result concerns the e=2 quartic order-one comparison, including the degree-three divisor R and its doubled-jet evaluation. General successive-map rank defects and e=0,1 comparisons are treated in [order-one structure](order_one.md). The earlier quartic-mate open status is superseded by [R-0001](quartic_carrier_exclusion.md).
