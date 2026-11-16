@@ -186,19 +186,9 @@ incidence remain separate research tasks.
 
 <a id="2026-10-06-mf6-type3-independent-audit"></a>
 
-## Independent audit of the MF6 degree-three nonregular exclusion
+## MF6 degree-three nonregular exclusion
 
-Date: 2026-10-06. One bounded audit of
-`2026-10-05-mf6-further-audit.md` and
-`../computations/verify_mf6_type3.py`. Scope: characteristic zero, the
-monomial quartic C0, constant quotient degree e=0, and a hypothetical
-(4,6) defining pair with (deg D2,deg D3)=(3,6). No new global candidate is
-constructed. No shared report or verifier was edited.
-
-**Verdict:** the stated exclusion of the entire nonregular branch passes.
-No mathematical gap was found in the cubic-pole argument. Its conclusion is
-that the first-normal ratio must be regular; it does not exclude existence
-of the remaining regular member or an STCI representation in other types.
+Work in characteristic zero with the fixed quartic \(C_0\), constant quotient degree \(e=0\), and a hypothetical \((4,6)\) pair with \((\deg D_2,\deg D_3)=(3,6)\). The cubic-pole argument excludes the nonregular first-normal ratio, but does not exclude the remaining regular member or STCI presentations of other types. The exact checker is `../computations/verify_mf6_type3.py`.
 
 ### 1. Why the DVR computation uses the actual quotient
 
