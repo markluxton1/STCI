@@ -279,3 +279,18 @@ Source headings and linked dependencies were inspected. **All targets remain the
 | [split_sextic_two_ramified_roots.md](arguments/carriers/split_sextic_two_ramified_roots.md) | two ramified roots; higher jets; G strata | resultant and contact jets | residuals/quasiprimitive_residual_cycles; torus/mixed_sextic_residual_limits |
 | [square_descent_and_singular_gluing.md](arguments/carriers/square_descent_and_singular_gluing.md) | square-only descent; smooth/singular conductor; A4 | conductor gluing and local examples | root_descent_and_conductor_defects; quintic_conductor_geometry |
 | [tame_projection_sections.md](arguments/carriers/tame_projection_sections.md) | unramified section; endpoint poles; sharp local example | projection and pole orders | torus/fixed_surface_and_endpoint_algebras |
+
+## Results statement-to-proof routes — first eight
+
+Source text and cited Argument links inspected. **Keep all Results in place**; target is an exact section-level proof link, not another proof audit. Relative paths below are under `research/arguments/`. A Result's own proof may be sufficient; supporting citations and independent audits must not inflate the number of proof methods.
+
+| Exact Result source / retained target | Mathematical unit | Primary proof route | Scope / routing decision |
+| --- | --- | --- | --- |
+| [actual_ci_smooth_root_bridge.md](results/actual_ci_smooth_root_bridge.md) | actual-CI smooth full-root bridge | spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge | Other cited review and audit sections are not automatically separate proofs |
+| [cartier_singleton_lift.md](results/cartier_singleton_lift.md) | Cartier singleton classification and fixed-C consequences | carriers/fixed_carrier_descent_and_cartier_models.md | spectral/quadratic_root_and_blowup_incidence is cited for an independent audit |
+| [ci_fixed_sextic_jet_rigidity.md](results/ci_fixed_sextic_jet_rigidity.md) | fixed sextic jets, characteristic scope | curve/fixed_quartic_geometry.md; self-contained Result Proof | Result contains proof; source citation is supporting geometry |
+| [ci_quartic_explicit_residual_geometry.md](results/ci_quartic_explicit_residual_geometry.md) | quartic residual benchmark and dependencies | residuals/explicit_quartic_residuals.md | Result points to existing complete residual development |
+| [ci_quartic_fixed_boundary_smoothing.md](results/ci_quartic_fixed_boundary_smoothing.md) | five residual nodes and marked smoothing | residuals/fixed_boundary_smoothing.md | Keep smoothing distinct from explicit residual construction |
+| [colon_divisor_cycle.md](results/colon_divisor_cycle.md) | colon exact sequence for divisor cycles | torus_sextic_residuals.md#a-colon-formula-for-divisor-cycles; self-contained Result Proof | No additional proof extraction needed |
+| [conormal_entry_annihilator.md](results/conormal_entry_annihilator.md) | conormal entry ideal and defect annihilator | punctual_comparison_defects.md#the-conormal-entry-ideal-annihilates-the-defect | Repeated same anchor is one route, not two proofs |
+| [constant_embedded_orbit_image.md](results/constant_embedded_orbit_image.md) | finite embedded quotient and orbit-image purity | torus_embedded_quotients.md#finite-image-and-purity | Embedded quotient hypothesis must be preserved |
