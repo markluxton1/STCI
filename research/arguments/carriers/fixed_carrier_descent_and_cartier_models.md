@@ -685,7 +685,3 @@ For the fixed quartic, the surviving smooth models have complete section dimensi
 
 In the smooth quadric and plane Cartier models, the primitive section Q has degree one with divisor2c or4c. Assume Q is a unit at every generic conductor point and every reduced upstairs conductor algebra is a single field. If all extension degrees are at most two, any mate implies Q² descends, hence an ambient quadric mate, excluded for the fixed quartic in characteristic zero. A degree bound three gives sufficient exponent6; degree bound four gives sufficient exponent12. If the actual degree list uses only1,2,4, exponent4 suffices, and the quartic-carrier exclusion eliminates the carrier. These are conditional coverage results; neither integral double-cover conductors nor absence of split phases is automatic for every projection.
 
-## Consolidation review
-
-Independent reconstruction checked fixed-carrier sufficiency, full-support cone tests, primitive torsion orders, minimal-degree and cone-polarization arguments, actual-carrier compression and its degree-\(d\) extension, singleton index/canonical divisibilities, on-curve ADE correction, low-field consequences, and characteristic bounds. The accepted scope uses **semilocal DVR** terminology and restricts crepancy to ADE points along \(c\).
-
