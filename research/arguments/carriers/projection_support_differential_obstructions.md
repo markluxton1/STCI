@@ -603,7 +603,8 @@ independence conditions. This is only a boundary observation; no
 full-support or basepoint-free assertion is made for that choice.
 
 Thus the obstruction in Section 2 comes from its restricted
-coefficient choice. Treating it as a phase-order theorem or as an
+coefficient choice. The opposite-ruling phase remains a necessary
+conductor datum but does not determine inverse-image support. Treating it as a phase-order theorem or as an
 exclusion of all opposite-ruling conductor pairs would discard
 six permitted coefficients. The surviving structural problem is
 to impose the full radical inverse-image condition and complete
