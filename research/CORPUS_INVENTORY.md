@@ -53,3 +53,15 @@ Do not mark a proof duplicate based on shared conclusions or similar titles. Do 
 Next: inspect the complete files and catalog links by topic, identify candidate Result/proof ownership, and populate the inventory before moving text. Prioritize long mixed-topic files and repeated retrieval paths, not arbitrary size thresholds. A coherent long proof is preferable to fragmented short files.
 
 After any subsequent refactor, validate `python3 scripts/research.py validate`, `python3 scripts/research.py catalog --check`, and `python3 scripts/check_markdown_links.py --anchors` where an execution environment is available. Compare the same representative Result-to-proof and Framework-to-question retrieval tasks before and after, counting actual text consumed; do not treat structural checks as mathematical verification.
+
+## Initial measured retrieval slices (character proxies)
+
+These are **section boundaries inspected in full GitHub file reads**, not tokenizer measurements and not proof reviews. They illustrate opportunities for scoped section retrieval without physically splitting a coherent Argument.
+
+| Source | Whole file | Example coherent section | Approximate slice | Relative reduction |
+| --- | ---: | --- | ---: | ---: |
+| `arguments/carriers/projection_and_elliptic_gluing.md` | 84,503 chars | §6, reconstructing actual source (from heading §6 to heading §7) | 7,404 chars | 91.2% |
+| `arguments/carriers/quartic_carrier_proof.md` | 37,654 chars | §6, sectional genus two (from heading §6 to heading §7) | 7,117 chars | 81.1% |
+| `arguments/arithmetic/arithmetic_equations_and_jet_gaps.md` | 36,663 chars | §3, binomial equation with arbitrary mate (to next main subsection) | 6,872 chars | 81.3% |
+
+These section boundaries are approximate: headings of different levels occur within the slices. Before using them as stable agent addresses, confirm Markdown anchors and ensure the requested statement's hypotheses and dependencies are included. Full-file context may still be necessary for proof review.
