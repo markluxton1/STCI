@@ -47,7 +47,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Unsaturated ordinary associated gradeds and improper residual intersections are outside the claim.
 - Historical quartic (4,b) applications remain illustrations, not open mate cases after STCI-R-0001.
 - Vertical exceptional cycles are not residual curves downstairs.
-
-## Current proof home
-
-The complete consolidated proof and its exact qualifications are in [the mathematical account](../arguments/residuals/quasiprimitive_residual_cycles.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.
