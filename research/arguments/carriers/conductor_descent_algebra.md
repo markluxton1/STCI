@@ -405,7 +405,8 @@ algebras, the least common multiple of their residual field degrees
 is a sufficient global exponent if purity holds. If their degrees
 are at most `r`, the conservative bound is `lcm(1,...,r)`.
 For example, a degree-three residual field has minimum exponent
-one or three, conditional on eventual full descent.
+one or three, conditional on eventual full descent. This conclusion
+uses the actual residue element, not just the ambient field degree.
 
 For several upstairs fields the bounded Kummer factor satisfies
 `m | gcd_i [E_i:K]`, but the relative phase factor is unbounded.
