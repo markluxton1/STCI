@@ -563,9 +563,9 @@ The [positive-characteristic construction](../arithmetic/positive_characteristic
 
 Even in odd characteristic, the balanced conormal splitting does not exclude the known STCI: the missing implication is that an arbitrary supported pair supplies the **particular** genus-two Cartier double with a nonzero global normal map. The positive-characteristic construction instead uses conductor descent powers divisible by the characteristic.
 
-## 9. Verification boundaries
+## 9. Verification and logical boundaries
 
-Independent normal-graph and weighted simple-elliptic checks support the **necessary** numerical cases in §3, not an unrestricted classification. The repaired \(a=-1/2\) checker requires \(x\ne0\); quartic-incidence membership is over \(\mathbf Q\) with rational constants. The repeated-partition M2 certificate was recovered byte-identically, **not rerun**. The normal route retains passage/correction budgets, integral compression, reduced-cycle pullback defect, and the Type D maximal-ideal bound. The [two-arm Green-function comparison](../normal-geometry/saturation_rees_and_carrier_cases.md#q-two-arm-coefficient-one-tails-exact-comparison) requires its terminal diagonal condition. The [ruled criterion](ruled_surface_degree_criterion.md) is characteristic-free, but the carrier conclusion here is characteristic zero.
+The normal-graph and weighted simple-elliptic calculations establish only the numerical cases used in §3. The \(a=-1/2\) checker requires \(x\ne0\), and quartic-incidence membership was checked over \(\mathbf Q\). The genus-one repeated-partition certificate was recovered, not rerun. The distinct complete genus-one and genus-two proofs are maintained in their focused Arguments. The final exclusion depends on the stated characteristic-zero hypotheses and does not extend automatically to positive characteristic.
 
 ## Related independent mathematical developments
 
