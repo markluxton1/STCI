@@ -242,10 +242,3 @@ coefficient-factor claims, and the explicit one-pencil survivor and reversed
 failure.  Passing one pencil is only necessary; this is a family exclusion, while the independent [multiple-structure proof](../residuals/quasiprimitive_multiplicity_five.md) closes the degree pair in characteristic zero. It does not prove unrestricted STCI nonexistence.
 
 
-
-## Consolidation review
-
-Independent review reconstructed the preserved arguments, source coverage and
-characteristic boundaries. The bounded proof clarifications in this account
-were checked against the original arguments; no material preservation finding
-remains. The claims retain their stated hypotheses.
