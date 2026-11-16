@@ -725,7 +725,7 @@ assert existence of a global sextuple structure or an STCI pair.
 
 ### 1. What was checked before continuing
 
-The starting data are [P-031](../carriers/normal_carrier_compression.md#p-031),
+The starting data are [P-031](../carriers/normal_carrier_compression.md#4-the-normal-line-bound-for-an-order-one-carrier),
 [P-038](quasiprimitive_multiplicity_five.md#p-038), and
 [P-042](../carriers/split_sextic_conductor_and_contact.md#p-042-the-necessary-multiplicity-six-types-for-a-mixed-46-pair),
 and the [mixed-(4,6) pole and Fitting-divisor analysis](../../frameworks/formal-normal-geometry/normal_filtration_boundaries.md#mixed-46-fitting-divisor-and-pole-strata). A pair supported on the monomial smooth

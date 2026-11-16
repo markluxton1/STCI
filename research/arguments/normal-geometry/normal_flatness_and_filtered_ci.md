@@ -81,7 +81,7 @@ Verified primary PDF: <https://arxiv.org/pdf/2202.04021>.
 
 The proof below passes from this numerical theorem to uniformity of all ordinary normal powers in an actual thickening.
 The proof is independent of the global spectral/apolar bridge in
-[the moving pure-power proposal](../spectral/spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge).
+[the moving pure-power proposal](../spectral/spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments).
 
 ## 3. Purity, the local finite free algebra, and exact special order
 

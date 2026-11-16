@@ -10,7 +10,7 @@ U(x,y)=W_0+\frac{ax+y}{a+1}W_1+
 (a^2x^2+y^2-(a^2+1)xy)D+
 xy\bigl(xE+y(W_2-E)\bigr)+x^2y^2W_3,
 \]
-where \(D,E\in k^4\) are arbitrary. The sparse choice \(D=W_2,E=uW_2\) is finite but has extra inverse points mapping to ([0:0:0:1]): (\(\infty,-a^2/u\)) when \(u\ne0\), and ((-1/(1-u),\infty)) when \(u\ne1\). The boundary coefficient pairs of the full form are (a^2D+yE+y^2W_3) and (D+x(W_2-E)+x^2W_3), which can avoid these particular sparse-family defects. Thus only the **sparse family** is excluded. Sources: [current proof](../../arguments/carriers/projection_support_differential_obstructions.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom), [current proof](../../arguments/spectral/spectral_pushforward_powers.md#2026-10-14-quadric-opposite-ruling-phase-family-failure).
+where \(D,E\in k^4\) are arbitrary. The sparse choice \(D=W_2,E=uW_2\) is finite but has extra inverse points mapping to ([0:0:0:1]): (\(\infty,-a^2/u\)) when \(u\ne0\), and ((-1/(1-u),\infty)) when \(u\ne1\). The boundary coefficient pairs of the full form are (a^2D+yE+y^2W_3) and (D+x(W_2-E)+x^2W_3), which can avoid these particular sparse-family defects. Thus only the **sparse family** is excluded. Sources: [current proof](../../arguments/carriers/projection_support_differential_obstructions.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom), [current proof](../../arguments/spectral/spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments).
 
 
 

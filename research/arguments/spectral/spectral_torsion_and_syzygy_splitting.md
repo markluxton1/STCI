@@ -230,7 +230,7 @@ nonreduced root to those defects, and ultimately to `D`.
 
 Accepted inputs are [STCI-R-0010](../../results/saturated_first_relation_normal_flatness.md),
 its saturated Gorenstein-duality proof in
-[the filtered-duality evidence](spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge),
+[the filtered-duality evidence](spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments),
 and [STCI-R-0011](../../results/moving_nonreduced_spectral_root_obstruction.md).
 The characteristic-zero pure-power quotient formula is an accepted input
 of [STCI-R-0009](../../results/moving_purepower_boundary.md).
@@ -631,7 +631,7 @@ The setting is an actual locally complete-intersection thickening `Y` of a smoot
 
 The primitive saturation `R` of the actual first relation `K_r` is a line subbundle, but the actual kernel is allowed to be `K_r=R(-D)` for a nonzero effective divisor `D`. This allowance is essential: it prevents direct application of [STCI-R-0010](../../results/saturated_first_relation_normal_flatness.md) to the entire curve.
 
-The accepted saturated-duality input is the construction and proof in [the filtered-duality note](spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-bridge), section 3, as independently checked in [its audit](spectral_pushforward_powers.md#2026-10-19-filtered-saturated-duality-moving-purepower-independent-audit), section 2. That lemma does not require a saturated first relation. It uses actual Gorenstein CM duality, purity, unique support, and generic graded Gorenstein symmetry.
+The accepted saturated-duality input is the construction and proof in [the filtered-duality note](spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments), section 3, as independently checked in [its audit](spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments), section 2. That lemma does not require a saturated first relation. It uses actual Gorenstein CM duality, purity, unique support, and generic graded Gorenstein symmetry.
 
 The local exact-order normal-flatness theorem used for the support statement and small-gap conclusion is [the reviewed local theorem](../normal-geometry/normal_flatness_and_filtered_ci.md#2026-10-19-filtered-generic-ci-normal-flatness), with [its separate independent audit](../normal-geometry/normal_flatness_and_filtered_ci.md#2026-10-19-filtered-local-normal-flatness-independent-audit). Its classical planar Gorenstein Hilbert-function drop input is accepted as stated there; this audit does not re-prove an inherited theorem.
 

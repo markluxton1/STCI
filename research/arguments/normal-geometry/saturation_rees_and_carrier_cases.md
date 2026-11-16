@@ -779,7 +779,7 @@ This is a conditional structural reduction for the rational-resolution normal-qu
 
 ## A. Audited starting point
 
-See the [normal singularity and rational-resolution analysis](../carriers/normal_carrier_compression.md#normal-singularities-and-smooth-rational-quartics) for the inputs to this reduction.
+See the [normal singularity and rational-resolution analysis](../carriers/normal_carrier_compression.md#exact-sources-and-scope) for the inputs to this reduction.
 
 The following are accepted on the current record.
 

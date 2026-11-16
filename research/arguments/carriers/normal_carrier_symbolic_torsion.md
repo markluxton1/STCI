@@ -476,7 +476,7 @@ local failure shield, not a constructed global `C0` carrier.
 
 ### 7. Remaining actual-index obstruction
 
-The [cyclic-cover proof](../spectral/spectral_pushforward_powers.md#2026-10-14-normal-cyclic-cover-torsion-detection) and [Picard/local-torsion argument](normal_index_socle_and_torsion.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd) provide the requisite connectedness and local class-group inputs. Nodal classes and local exponents dividing \(2,3,4,6\) are excluded; exponent \(12\) retains the \((6,8)\) case of generic length \(12\). That case still requires compatibility with **actual** index-three/four contributions, without assuming primitive generators. Higher indices and nonnormal carriers lie outside these conclusions.
+The [cyclic-cover proof](../spectral/spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments) and [Picard/local-torsion argument](normal_index_socle_and_torsion.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd) provide the requisite connectedness and local class-group inputs. Nodal classes and local exponents dividing \(2,3,4,6\) are excluded; exponent \(12\) retains the \((6,8)\) case of generic length \(12\). That case still requires compatibility with **actual** index-three/four contributions, without assuming primitive generators. Higher indices and nonnormal carriers lie outside these conclusions.
 
 ---
 

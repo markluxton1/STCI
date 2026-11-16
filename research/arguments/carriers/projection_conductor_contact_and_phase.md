@@ -489,7 +489,7 @@ new exact incidence subfamily and imposes no phase-order bound.
 
 The especially sparse coefficient choice `D=W2,E=u W2` yields a
 basepointfree finite projection, but the [full-support failure
-shield](../spectral/spectral_pushforward_powers.md#2026-10-14-quadric-opposite-ruling-phase-family-failure)
+shield](../spectral/spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments)
 shows that it always has an extra off-diagonal inverse point above
 the infinite endpoint of literal C0. The two boundary obstructions
 would require simultaneously `u=0` and `u=1` to disappear.
