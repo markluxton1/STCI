@@ -422,8 +422,7 @@ the particular residual values. It is contained in every embedded
 a direct-product decomposition of the torsion unit quotient.
 The exact sequence and logarithmic defect in Section 8 specify when
 a *given* lift with torsion residue actually has a descending power.
-In particular, the residual phase calculation is necessary but is not
-by itself a full nonreduced conductor-membership test.
+It does not replace the full nonreduced conductor-membership test.
 
 ## 10. Global compression and characteristic boundaries
 
