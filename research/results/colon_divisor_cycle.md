@@ -73,13 +73,3 @@ The conclusion is a fundamental-cycle formula. Saturation, absence of
 embedded points, endpoint schemes, and equality of ideals are additional
 questions for general \(I\). Smoothness can be replaced by regularity at
 the generic divisor points, but no singular-surface extension is claimed.
-
-## Review
-
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-accepted this route on November 4, 2026. The reviewer reconstructed prime cancellation, the multiplication
-exact sequence, and its localized length calculation under the stated
-smoothness hypothesis, including the specialization used in R-0046.
-Acceptance concerns a cycle formula, without inferring saturation or
-endpoint structure for arbitrary such ideals.
-
