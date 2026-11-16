@@ -435,25 +435,11 @@ The conditional sextic lifting problem uses four independently established devel
 
 The remaining limitations of these inputs are recorded below; none supplies global lifting or sole support by itself.
 
-## Dependencies and remaining cases
+## Scope of the normal-flatness and exceptional-cycle inputs
 
-A1 requires an **actual saturated** first relation; its projective resultant proof and the local Gorenstein Hilbert-function proof have distinct hypotheses. A2 uses [the full-root Picard criterion](../../results/spectral_root_picard_criterion.md) only after A1. A3 concerns **displayed-symbol roots**, not A2's full roots, and uses \(d/p,e/q\ge3\) from the [entirely-thick bound](../normal-geometry/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction). The [quartic carrier](../../results/quartic_carrier_exclusion.md) and [fixed-carrier conductor](../../results/fixed_carrier_conductor_criterion.md) results retain their separate hypotheses.
+The projective resultant argument requires an **actual saturated** first-relation line; the local Gorenstein Hilbert-function proof has distinct constant-order hypotheses. Neither generic coprimality alone nor an arbitrary nonsaturated relation establishes normal-flatness. The full-root Picard criterion excludes nonreduced moving roots only under its finite-flat Cartier and characteristic assumptions, and permits nonreduced special fibers. The exceptional-cycle inequalities constrain displayed symbols and their generator-dependent residual data; they do not provide a generator-independent vertical multiplicity or an existence theorem. The explicit degree-eight carrier examples rule out mates for those families, not all degree-eight projections.
 
-## Mechanism
-
-Gorenstein duality supplies a degree-zero resultant for the second quotient relation, forcing uniform normal layers from the **actual** saturated first relation. Generic coprimality alone does not. The blowup slope inequalities instead retain chosen-generator and vertical-cycle information, as the counterexamples in A4 require.
-
-## Remaining obstacles
-
-The theorem does not cover a nonsaturated first relation (its torsion disrupts early-layer identification), a non-CI generic initial ideal (no established graded-Gorenstein symmetry), or ambient lifting and gluing of reduced singular roots. The exceptional cycle class does not determine directional higher contact. The degree-eight carrier examples have extra inverse points and do not address full-singleton-support projections. **No common singular point of arbitrary defining surfaces is assumed.**
-
-## Scope of continuation
-
-Open gaps include nonsaturated-relation defects, non-CI annihilator flags, lifting and gluing reduced singular roots, and directional exceptional contact multiplicities. A1–A4 have their own proofs; bounded computations do not establish elimination or unrestricted STCI classification.
-
----
-
-<a id="2026-10-16-session-structural-continuation"></a>
+The outstanding extensions concern nonsaturated relations, non-CI annihilator flags, singular reduced-root lifting and gluing, and directional exceptional contact. None is resolved by the conditional sextic computations in this document.
 
 ## Finite-root and arithmetic dependencies
 
