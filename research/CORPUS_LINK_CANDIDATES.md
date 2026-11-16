@@ -214,3 +214,11 @@ These 12 files were fetched in full at this branch; byte counts are UTF-8 text s
 | [results/entirely_thick.md](results/entirely_thick.md) | 2009 | 45 |
 | [results/jet_geometry.md](results/jet_geometry.md) | 1789 | 21 |
 | [results/normal_carriers.md](results/normal_carriers.md) | 3233 | 39 |
+
+## Final verified candidate sample
+
+| File | Characters | Lines / status |
+| --- | ---: | --- |
+| [results/normalization_conductor.md](results/normalization_conductor.md) | 1682 | 24 |
+| [results/order_one.md](results/order_one.md) | 4331 | 39 |
+| [results/quartic_e2.md](results/quartic_e2.md) | 2664 | 44 |
