@@ -43,7 +43,3 @@ Required hypotheses:
 Dependencies: STCI-R-0032. Additional inherited premises are in the proof and audit.
 - Uses inherited P-010 direction classes for the C0 consequence
 - Does not exclude moving first relations, extra next-order relations, or positive-defect models
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
