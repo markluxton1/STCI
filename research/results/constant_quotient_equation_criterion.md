@@ -80,7 +80,3 @@ existence clause. The genus identity is necessary only; it is not a
 sufficiency assertion for ACMness, Gorensteinness or two generators.
 The test applies to this constant embedded quotient, not to every moving
 supported intersection or every full torus-limit ideal.
-
-## Review
-
-The complete mathematical argument is retained in [the embedded-quotient proof](../arguments/torus_embedded_quotients.md); its hypotheses and limitations are stated above.
