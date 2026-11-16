@@ -88,8 +88,8 @@ on any proposed sextic pencil or degeneration:
 
 1. **Proper equations and cycle:** verify that the two sextics have height
    two, contain \(C\), and determine the marked multiplicity and residual
-   cycle. The Chow condition \([Y]=9[C]\) is necessary for a sole-supported
-   \((6,6)\) intersection, but is not by itself a scheme-theoretic
+   cycle. The Chow condition \(\([Y]=9[C]\)\) is necessary for a sole-supported
+   \(\(6,6\)\) intersection, but is not by itself a scheme-theoretic
    support or generation certificate.
 2. **Full supported ideal:** verify the prescribed Hilbert polynomial and
    support in an actual flat family (or in some \(H_N\)), retaining embedded
