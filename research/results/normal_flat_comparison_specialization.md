@@ -82,4 +82,4 @@ scheme from its cone or defect and no global quartic realization follows.
 
 ## Review
 
-The two-cone proof and supported length-four control are in the linked Argument. Compatibility is asserted only under the displayed normal-flatness hypotheses.
+The two-cone criterion and two-lowest-degree argument are proved in [the transverse-specialization Argument](../arguments/transverse_specialization.md). Normal flatness is a sufficient, not necessary, hypothesis for defect compatibility.
