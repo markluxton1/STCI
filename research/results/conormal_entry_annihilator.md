@@ -89,29 +89,4 @@ uses normal codimension two.
 
 ## Review
 
-The Phase 5 nonauthor reviewer `review_proofs` accepted the entrywise identities and cubic
-sharpness route with R-0030. The reviewer reconstructed the actual Koszul
-boundary and both identities modulo \(S_+H\) for arbitrary coherent \(J\)
-in regular codimension two. They checked the rank-two Fitting presentation
-without assuming a free source, the labelled carrier maps, and the DVR
-bound. For the cubic family they checked irreducibility, all symbol
-syzygies and their lifts over the possibly nonreduced coefficient quotient,
-both full initial ideals, and the exact annihilator in every characteristic.
-The review used symbolic arguments. The finite cubic replay is recorded
-separately in A-0010.
-
-The cleanup preservation reviewer `delta_review` accepted retaining this
-route after reconstructing the determinant identities and the Fitting
-presentation, checking the DVR bound including the unit-ideal case, and
-lifting the full cubic symbol syzygies. They reran the three rational
-Rees-saturation samples in A-0010. Equality of annihilators in this route
-concerns the cubic sharpness family.
-
-The October 24 independent review reconstructed the chain-level determinant
-argument and its effect on the full initial-equation quotient. It checked the
-rank-two Fitting presentation, sheafification of the entry ideal, and the
-DVR exponent and length bounds. For sharpness it cited the inherited
-punctual family without replaying it. The separate cubic family has its own
-syzygy proof and three finite Rees-saturation samples in the source.
-[October 24 review](https://github.com/markluxton1/STCI/blob/e9c0bef5b37fb12aabe8cd2b209f935c7c684744/research/notes/2026-10-24-delta-annihilator-review.md#L37) ·
-[Cubic sharpness source](https://github.com/markluxton1/STCI/blob/e9c0bef5b37fb12aabe8cd2b209f935c7c684744/research/notes/2026-10-24-delta-conormal-annihilator-proposal.md#L85)
+The entrywise Koszul identities, rank-two Fitting description and sharp DVR example are retained in [A-0010](../arguments/punctual_comparison_defects.md#the-conormal-entry-ideal-annihilates-the-defect). Equality of annihilators is asserted only for the sharpness family.
