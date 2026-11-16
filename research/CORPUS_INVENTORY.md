@@ -2,7 +2,7 @@
 
 This is a **structural inventory, not a mathematical review or completed proof classification**. It is an agent entry point for the *existing* Results / Arguments / Frameworks / Investigations corpus. Its baseline is the head of `chatgpt/math-content-consolidation` (PR #136) when this inventory branch was created. Do not infer proof equivalence, independence, or correctness from metadata alone.
 
-For a file-by-file index of catalog-linked mathematical sources, see [CORPUS_FILE_INDEX.md](CORPUS_FILE_INDEX.md). Its coverage is explicitly partial until repository-wide paths are enumerated.
+For a file-by-file index of catalog-linked mathematical sources, see [CORPUS_FILE_INDEX.md](CORPUS_FILE_INDEX.md), extended by [87 verified Framework-linked files](CORPUS_LINK_CANDIDATES.md). Its coverage is explicitly partial until repository-wide paths are enumerated.
 
 ## Authoritative routes
 
@@ -12,6 +12,8 @@ For a file-by-file index of catalog-linked mathematical sources, see [CORPUS_FIL
 - [Framework map and cross-framework interfaces](MAP.md)
 - [Mathematical ownership, contribution and validation rules](MODEL.md)
 - [External literature ledger](literature/README.md)
+
+The linked-path inventory now covers **214 distinct Markdown files**: 127 catalog-linked files and 87 additional files discovered through the Framework and central navigation links. All 87 additional paths have been fetched successfully on this branch, with per-file character and line counts in [the additional-path inventory](CORPUS_LINK_CANDIDATES.md). This is **not** a complete repository tree listing; unlinked files remain outside coverage. A few very long coherent Arguments warrant targeted retrieval-cost review, notably `arguments/carriers/projection_and_elliptic_gluing.md` (84,503 characters), `arguments/carriers/normalization_conductor_phase2_addendum.md` (38,873), and `arguments/arithmetic/arithmetic_equations_and_jet_gaps.md` (36,663). File length alone does not justify splitting.
 
 The catalog currently indexes **71 typed Results, 9 typed Arguments, 9 Frameworks and 2 Investigations**. Ordinary untyped Argument and topic Markdown files also carry mathematical content: the typed counts are **not** a count of all files, proofs, or coherent topics. The generated catalog currently displays **32 Result rows with “no recorded proof route”**; many also list evidence or independent audits. This means the proof-route metadata must be checked against the actual text, not that the Results are unproved.
 
