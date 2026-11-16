@@ -99,6 +99,4 @@ family lies outside the [sole-support question](../frameworks/formal-normal-geom
 The marked line calculation concerns local equations in characteristic zero.
 It gives no global equations for the fixed quartic.
 
-## Review
-
-The full all-parameter syzygy, relative initial-ideal, actual closed-fiber and residual-factor arguments are retained in [A-0010](../arguments/punctual_comparison_defects.md#arbitrary-punctual-degree-and-length-with-integral-carriers). This family has residual generic support.
+This family has residual generic support.
