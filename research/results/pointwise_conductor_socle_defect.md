@@ -37,11 +37,11 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../arguments/carriers/carrier_conductor_differential_comparison.md#exact-top-socle-divisor-for-an-actual-pair)
-- [Source proof](../arguments/carriers/carrier_conductor_differential_comparison.md#local-residue-identity-and-global-contact)
-- [Independent audit](../arguments/carriers/carrier_conductor_differential_comparison.md#exact-top-socle-divisor-for-an-actual-pair)
+- [Source proof](../arguments/carriers/carrier_conductor_differential_comparison.md#the-actual-differential-has-a-smaller-zero-divisor)
+- [Source proof](../arguments/carriers/carrier_conductor_differential_comparison.md#divisor-and-conductor-degrees)
+- [Independent audit](../arguments/carriers/carrier_conductor_differential_comparison.md#the-actual-differential-has-a-smaller-zero-divisor)
 - [Independent audit](../arguments/carriers/normal_index_socle_and_torsion.md#2026-10-14-generalization-transverse-socle-independent-audit)
-- [Claim-level acceptance](../arguments/carriers/carrier_conductor_differential_comparison.md#consolidation-review)
+- [Claim-level acceptance](../arguments/carriers/carrier_conductor_differential_comparison.md#characteristic-applications-and-review)
 
 ## Dependencies and limitations
 
