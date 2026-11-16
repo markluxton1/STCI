@@ -143,7 +143,9 @@ incidence. A successful execution of that calculation would not repair
 the earlier unsupported specialization.
 
 Both exclusion claims are withdrawn. No executed certificate of emptiness
-for the complete degree-five incidence is supplied here. A repaired
+for the complete degree-five incidence is supplied here. The reciprocal
+coordinate correction and the omitted exceptional strata prevent either
+retracted resultant from being promoted to an exclusion theorem. A repaired
 exclusion needs either a valid reduction of the full original incidence or
 a direct certificate over it, retaining all prescribed opens, repeated
 roots and inverse-map boundary cases. Merely replaying the two proposed
