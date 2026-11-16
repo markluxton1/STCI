@@ -479,8 +479,6 @@ The full embedding framework now separates three questions: whether degeneration
 
 The most useful next local question is how the nonsaturated stages \(F^nD\) interact with the algebra filtration of \(\mathcal O_Z\), especially when \(\Delta\) vanishes. A second question is to identify global bundle/extension data obstructing locally adapted normal equations from coming from the original global carriers. Neither question is resolved by the local criteria here.
 
-Independent audit: agent `geometry_maps/audit_cone_criterion` independently reconstructed all four equivalences, the labelled-square criterion, both elementary examples, and the distinction between regular cone embedding and flatness over \(C\). It specifically checked the homogeneous local Nakayama step and flagged the essential height-two input. This is an agent proof audit, not external acceptance. No new finite computation is needed for the general proofs; the supported quadruple is inherited evidence, not a newly replayed calculation. No result/question record or accepted proof is changed.
-
 <a id="delta-base-change-proposal"></a>
 
 ## Delta, transverse specialization, and normal flatness
@@ -497,23 +495,9 @@ and the [length-five family](../../results/supported_length_five_defect_speciali
 separate vanishing of the comparison defect from specialization of the
 normal cone and of the defect itself.
 
-The October 24 source records an independent agent reconstruction of the
-local specialization development. It uses the October 23
-[comparison and smooth-carrier arguments](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd)
-and the earlier continuation's punctual family and supported quadruple as
-reviewed inputs. R-0030 records the
-[October 26 local audit](../../results/local_filtration_comparison_defect.md#october-26-local-audit).
-The specialization Results specify the scope of their separate proof reviews.
-
 ### Evidence scope and the remaining geometric bridge
 
 The normal-Koszul edge filtration, generic count, punctual torsion family and recursive cancellation family were independently reconstructed in the inherited source state. The annihilator and full Rees-persistence arguments received separate reconstructions, including the exact entry ideal, all syzygies and the distinction between k[u]-flatness and O_C[u]-flatness. The supported quadruple's full initials were checked against its displayed free base-module basis; sampled Rees computations are supplemental rather than the arbitrary-parameter proof. Exact implementations remain in the [conormal-annihilator checker](../../computations/verify_delta_conormal_annihilator_2026_10_24.m2), [Rees equation-module checker](../../computations/verify_delta_rees_equation_module_2026_10_24.m2), [singular identity checker](../../computations/verify_delta_singular_identities_2026_10_24.py), and [singular-family checker](../../computations/verify_delta_singular_families_2026_10_24.m2).
-
-The cleanup reviewer `delta_review` verified preservation of the
-[extended Rees and carrier saturation arguments](#delta-as-the-specialization-of-equation-module-torsion)
-and the [labelled normal-cone arguments](#delta-normal-cone-regularity-and-the-labelled-carrier-square).
-They reran the Rees checker over \(\mathbf Q\) on four duration samples
-and one labelled square. These samples cover those explicit calculations.
 
 There is no established general sheaf-level identification between the u-power filtration of the persistence module and each page of the incoming normal-Koszul differential filtration. The [extended Rees duration family](#6-the-torsion-duration-refines-delta-an-exact-family) proves its own page/duration match. Over O_C[u] the persistence module need not split into compatible elementary blocks. Nor does local realization supply actual homogeneous equation source lines on P3. The [punctual relative-defect question under sole support](../../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support) remains open.
 
