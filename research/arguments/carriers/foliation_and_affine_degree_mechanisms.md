@@ -163,7 +163,9 @@ The term \(\mu-4m\) counts sheets lost as a generic target approaches
 the distinguished axis; \(ab-\mu\) records loss at infinity already
 present for a generic target in this projective presentation. Their sum
 is the degree of the residual cycle at infinity for the original pair.
-They need not vanish together merely because H is finite.
+These equalities are cycle-degree bookkeeping, not claims that either
+loss describes an effective residual curve independently. They need
+not vanish together merely because H is finite.
 
 The existing reduced affine presentation already illustrates this
 distinction, without choosing another family. Take f=Y and g=W, so
