@@ -98,11 +98,9 @@ from the repository root to regenerate the two outputs.
 
 <a id="source-2026-10-08-session-first-endpoint-completeness-auditmd"></a>
 
-### 1. Scope and independent audit decision
+### 1. Scope and hypotheses
 
-The October 8, 2026 auditor was independent of the certificate producers.
-The decision was **proved** under the previously audited actual top map,
-coordinate bases and multiplication tensor. For the fixed quartic
+The conclusion uses the actual top map, coordinate bases and multiplication tensor. For the fixed quartic
 \(C_0=[s^4:s^3t:st^3:t^4]\) over an algebraically closed field of
 characteristic zero, take a primitive degree-two normal-dual direction
 with pure cubic top coefficient `h=t`.
