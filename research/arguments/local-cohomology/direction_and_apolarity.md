@@ -1041,20 +1041,15 @@ produce those two multiplier equations.
 
 <a id="2026-10-05-localcoh-pure-direction-audit"></a>
 
-## Independent audit of pure constant quartic directions
+## Pure constant quartic directions
 
-Date: 2026-10-05. Status: **PASS**. Scope is the characteristic-zero
-monomial rational quartic \(C_0=[s^4:s^3t:st^3:t^4]\), quartic multiplier
-pairs, and the two pure constant directions in the balanced frame
+Work in characteristic zero with the fixed quartic \(C_0=[s^4:s^3t:st^3:t^4]\), quartic multiplier pairs, and the two pure constant directions in the balanced frame
 
 \[
 U=w-t^4-\frac32t(z-t^3),\qquad V=z-t^3.
 \]
 
-This proves an exclusion for quartic common local-cohomology ancestors
-using the established order-three primitive-triple obstruction. It does
-not settle the mixed constant directions or degree-one/two directions.
-The exact independent companion is
+The order-three primitive-triple obstruction excludes quartic common local-cohomology ancestors in these two pure directions, but not mixed constant or degree-one/two directions. The exact checker is
 `research/results/quartic_ancestor_direction_reduction.support/verify_pure_direction.py`.
 
 ### 1. Exact pure-direction space and transverse coefficients
