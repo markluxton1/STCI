@@ -137,6 +137,27 @@ supported Hilbert attracting family and its actual proper
 two-sextic locus. Do not replace that incidence problem
 with a numerical degree-product induction.
 
+## Top-cycle and weight gates
+
+The [triple-graph formulation](../../arguments/torus_hilbert_boundary.md#equationhilbertchow-graph-and-its-top-fiber)
+provides a second, equivalent fixed-degree existence test:
+does the top Chow fiber meet the open CI locus in the
+**Hilbert coordinate**? This is not the same as asking
+whether the limiting displayed pencil is proper. The
+top-cycle fiber may include limits of residual pairs;
+the closure of supported approximants is smaller or equal,
+with stronger power containment.
+
+The centered-weight semistability condition excludes
+one-sided weight blocks for **actual** supported proper
+sextic pencils. It does not exclude improper limiting
+pencils, so it should be applied to the moving equation
+coordinate, alongside the first-cancellation and full
+generator gates. The next genuine calculation would
+identify a nonempty top-cycle graph stratum and determine
+whether its Hilbert CI locus is empty or nonempty, rather
+than classify all abstract VGIT chambers.
+
 ## Findings
 
 This is an unperformed mathematical investigation. The pilot has reconstructed
