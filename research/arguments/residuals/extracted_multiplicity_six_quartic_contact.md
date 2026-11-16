@@ -223,7 +223,8 @@ mate restricts to a nonzero positive-degree homogeneous equation on
 that plane and cuts a nonempty projective curve in it. That curve would
 be contained in the integral nonplanar `C0`, which is impossible.
 
-This proves that the
+This proves, conditional on the exact universal matrix and exceptional
+kernel identities documented above, that the
 `e=0,(d2,d3)=(4,5)` numerical branch is empty for the hypothesized
 `(4,6)` presentation of `C0`. It does not settle the unrestricted STCI
 question for `C0`, larger degree pairs, `e=1`, or the entirely-thick branch.
