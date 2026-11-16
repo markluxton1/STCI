@@ -564,7 +564,9 @@ Then the actual valuation vector satisfies
 If \(s\) is the exact generic normal order of the mate, then also
 \(n_i\ge s e_i\). Thus intersection data on the normalization provide
 an explicit linear bound on \(m=\sum n_i f_i\). If
-\(\kappa=\min_i\ell_i/f_i>0\), a scalar consequence is
+\(\kappa=\min_i\ell_i/f_i>0\), the following scalar consequences use
+only the smallest nef slope; the stronger vector constraint (5)
+remains available when the individual slopes differ:
 
 \[
 m\le\frac{b(3a-4r)}\kappa,
