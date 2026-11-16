@@ -455,67 +455,13 @@ Open gaps include nonsaturated-relation defects, non-CI annihilator flags, lifti
 
 <a id="2026-10-16-session-structural-continuation"></a>
 
-## Finite-root-family reduction and characteristic scope
+## Finite-root and arithmetic dependencies
 
-The universal integral-curve STCI question and unrestricted characteristic-zero quartic question remain open. The following theorems and conditional computational models have their own complete proofs and audits; they are not a new global existence or exclusion theorem.
+The [intrinsic finite-root-family theorem](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-intrinsic-finite-root-family) supplies finite-stage obstruction bounds for bounded **smooth connected** roots under its positivity hypotheses; it neither computes the uniform stage nor covers singular roots. The [characteristic extension](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum) and [inseparable actual-CI bridge](../spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge) retain the full-initial-CI and saturated-relation hypotheses.
 
-### 1. Intrinsic finite-root-family theorem
+The [rational phase decision theorem](projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-effective-rational-phase-bound) applies to explicit rational constructible phase images, not arbitrary carrier families; the [raw-input construction](projection_torsion_and_rational_phase_bounds.md#reviewed-claim-and-input) has the same fixed-family limitation.
 
-The [complete theorem and proof](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-intrinsic-finite-root-family) remove rational-base and split-normal hypotheses for a bounded family of **smooth connected** roots. For \(A=Z_E^2\), \(\nu=E\cdot Z\), \(\nu>\max(A,0)\), correction lines have degrees \(A-m\nu<0\), and relative obstruction bundles have rank \(g_Z-1-A+m\nu\), compatible with nilpotent base change. Embedded Cartier ideals, when they exist, are unique; the descending closed obstruction schemes in one finite-type Hilbert open stabilize.
-
-For the blowup of a smooth degree-\(e\), genus-\(\gamma\) space curve,
-\[
-A=(4e+2\gamma-2)r^2-2r\nu=2g_Z-2+4er-2\nu.
-\]
-Fixed \((r,\nu)\) fixes the Hilbert polynomial. If \(\nu>4g_Z+5\), an infinite lift requires some positive integer \(d\) satisfying
-\[
-d\le\max_{a\ge1}(2aer-\nu a^2),\qquad (d-1)(d-2)\ge er(r-1).
-\]
-If incompatible, the stable scheme is empty and some finite uniform stage \(N\) is empty; an **actual-CI bridge** then gives \(s-r\le N\). This does not compute \(N\), classify all classes, or treat singular roots. In particular, smooth \((2,r)\) roots have no infinite formal lift for \(e\ge4,r\ge2\); movement-one roots with \(r\ge2,e\ge3\) are excluded, while for \(r=1,e\ge4\) all-order lifts are precisely containing quadric germs smooth along \(C\).
-
-### 2. Characteristic and actual-CI bridge
-
-The [formal characteristic theorem](../spectral/finite_root_families_and_smooth_obstructions.md#2026-10-15-generalization-smooth-root-characteristic-scope-addendum) extends the balanced-rational smooth-root tower to every algebraically closed characteristic **under its stated normal-bundle and smoothness assumptions**. The [inseparable-root actual-CI bridge](../spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge) uses the actual root prime over \(k(C)\), retaining inseparable residue extensions, and an uncompleted standard basis. The strict-divisor intersection is locally \((h,u^{s-r})\), with Cartier stages precisely \(m<s-r\), without saturation away from vertical components. Its gap bound requires the saturated relation line, joint leading generation, full generic initial CI, and smooth full root. It does not assert literal splitting of \(C_0\) in bad characteristics.
-
-### 3. Arithmetic reduction of all mate powers
-
-The [effective rational phase theorem](projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-effective-rational-phase-bound) uses Mann's theorem, cyclotomic computations, and Smith normal form to produce a finite exact coset/boundary certificate for an **explicit rational constructible phase image**. It decides torsion existence and detects unbounded least mate degrees via positive-dimensional torsion cosets; with only isolated cosets, phase orders are bounded by \(P(S)d^D\). The three fixed projection models have on-\(C\) thresholds \(5,5,13\), giving degree bounds with additions \(4\) or \(12\).
-
-A terminating procedure also constructs the phase image from finite rational section/module data for those three fixed models, including prescribed \(C_0\) restrictions and constructible parameter conditions, without an arbitrary class-group oracle. It decides existence and boundedness **within those input families**, not arbitrary carriers. No explicit phase image, Mann partition, family decision, practical complexity estimate, or numerical uniform \(C_0\) bound has been obtained. [Raw-input audit](projection_torsion_and_rational_phase_bounds.md#reviewed-claim-and-input).
-
-### 4. The dedicated quintic target
-
-Accepted shared reductions now include the global remaining-mate
-Delta1 unit, exact q6-to-j scalar binding, eleven-generator reduction,
-automatic `(q5,q6)=1`, and the equivalent eight-equation logarithmic
-ODE on the declared rational inverse-map chart. The reviewed eta
-spectral accelerator retains one ideal rather than separate degree,
-root or norm-factor cases.
-
-The new [global monic h2 ODE model](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
-is the next whole-h2 target. It uses the original parameters, a monic
-quadratic H, four conormal remainders, two actual-conductor remainders,
-eight ODE coefficients and three derived accelerators: seventeen equations
-in nine variables, with only `delta*E*Delta1` inverted. Its purpose is
-to retain the repeated-root and cover-determinant boundary that the
-earlier rational inverse-map chart could not cover. The
-[final global scope audit](#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit)
-now passes the whole-h2 cover and current exact artifact bindings. Its
-[runnable input](https://github.com/markluxton1/STCI/blob/bb5b1d5348097028738db196c262fe44b81b69ca/research/computations/generalization_quintic_h2_global_monic_ode_input_2026_10_16.m2)
-is saved and passed a load-only check. One subsequent capped global QQ
-saturation reached GB but produced no result, as recorded below. The one
-next saturation target is `h2GlobalIdeal : h2GlobalDomainUnit^infinity`,
-with all repeated-root and cover boundaries retained in the same model.
-
-The quintic is not closed. The earlier h3, coprime, endpoint and stated
-residual-partition exclusions remain accepted. Other quintic
-normalizations and retained h1 singular/intrinsic/common-root scope
-remain separate obligations. A whole-h2 unit-ideal certificate would
-not by itself prove a whole-quintic theorem.
-
-### 5. Computation and continuation state
-
-The complete global quadratic-root second model has 25 scalar pairings and retains the branch discriminant at infinity; completeness is not emptiness. Bounded quintic ODE, spectral, and global \(\mathbf Q\)-saturation trials produced no ideal or unit certificate. The 22 finite family-two exception-root closures and existing large-quintic witnesses are independent premises.
+The quintic \(h=2\) global monic incidence, its seventeen equations on \(\delta E\Delta_1\ne0\), and the unresolved saturation are maintained in the [focused rank and ODE Argument](quintic_h2_rank_incidence_and_ode.md#whole-h2-global-saturation-remains-open) and [monic derivation](extracted_quintic_h2_monic_ode_and_open_incidence.md). None of these necessary conditions proves a global supported mate.
 
 ## Quintic h=2 global ODE incidence
 
