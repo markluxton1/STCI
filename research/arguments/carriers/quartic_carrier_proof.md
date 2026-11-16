@@ -538,6 +538,49 @@ The [endpoint proof](genus_two_endpoint_proof.md) and
 its linked local calculations retain the actual equations proving these
 positions. An abstract ADE graph with the right square is insufficient.
 
+### Technical mechanisms and their distinct hypotheses
+
+The retained technical proofs use several **different** kinds of
+information; none can be replaced by a reduced-support or numerical
+cycle argument alone.
+
+- **Genus one:** the [entire conductor algebra](genus_one_two_adjoint_and_conductor.md)
+  retains the scheme \((L,R)\), not only its radical, while the
+  [ribbon conormal net](genus_one_ribbon_conormal_net_proof.md)
+  and [partition arguments](genus_one_ribbon_partition_proofs.md)
+  treat all root partitions. In particular the
+  [\([2,1,1]\) projection exclusion](genus_one_211_projection_proof.md)
+  uses the actual fixed-center condition; an abstract
+  common-basepoint argument is insufficient.
+- **Genus-two bisection:** the
+  [global Cartier-double argument](genus_two_bisection_proof.md)
+  excludes the lane using its nilideal and the actual ambient
+  conormal map. The [three-center obstruction](genus_two_bisection_three_center_proof.md)
+  is a separate conditional fiber-graph calculation; it is
+  not needed as a premise for the global contradiction.
+- **Genus-two section:** the
+  [entire trisecant carrier ideal](genus_two_trisecant_carrier_proof.md)
+  controls the quartic equations, the
+  [nonendpoint argument](genus_two_nonendpoint_proof.md)
+  handles arbitrary chain lengths, and the
+  [endpoint argument](genus_two_endpoint_proof.md)
+  uses actual normal coefficients rather than only ADE
+  intersection graphs. The
+  [marked-section proof](genus_two_marking_and_section_proof.md#8-free-chain-proof-when-the-marked-prime-is-absent)
+  excludes the \(B\)-absent graph **under its marked-model
+  hypotheses**, but explicitly leaves the \(B\)-present
+  satellite configurations to the other geometric arguments.
+- **Normalization:** the
+  [weighted genus-two normalization](genus_two_weighted_normalization.md)
+  and [entire genus-two conductor](genus_two_entire_conductor_proof.md)
+  retain the actual algebra and scheme structures required
+  for descent; a reduced conductor line alone does not suffice.
+
+These are proof dependencies within the established
+degree-four-carrier exclusion, not independent exclusions
+of higher-degree carriers or a solution of the unrestricted
+characteristic-zero STCI problem.
+
 ## 7. Exhaustion, useful alternatives, and what remains unproved
 
 Normal quartics and nonnormal quartics of sectional genera zero, one, and two exhaust the integral degree-four carriers. The genus-two correction identity and actual line positions cover the section stratum; genus-one partition completeness requires the fixed projection center. Hence the accepted R-0001 argument excludes every integral quartic carrier in characteristic zero.
