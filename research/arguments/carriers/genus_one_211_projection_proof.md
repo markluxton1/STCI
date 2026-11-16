@@ -178,8 +178,10 @@ family, while
 checks the net basis, derivatives and common-basepoint gcd. The recorded
 older Python passes cover those assertions. [Evidence correction and independent checks](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd).
 
-Combined with the uniform necessary repeated-root condition, a remaining
-hypothetical genus-one mate must have conductor-contact partition [4],
-[3,1], or [2,2]. Those partitions are assigned to a separate owner;
-their status is not asserted here. Genus-two normalizations and higher
-carrier degrees remain outside this proof.
+Combined with the uniform necessary repeated-root condition, this
+argument leaves only conductor-contact partitions [4], [3,1], and [2,2]
+**at this intermediate stage**. Those three partitions are now excluded
+in the [separate repeated-partition proof](genus_one_ribbon_partition_proofs.md),
+so they are not open cases of the assembled genus-one quartic-carrier
+exclusion. Genus-two normalizations and higher carrier degrees remain
+outside the present argument.
